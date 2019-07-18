@@ -14,7 +14,7 @@ discoiquuid: 207fdf6d-165a-41af-ad53-ba97 d3403 b62
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
+source-git-commit: b671da944fa3059d3a09bceda7d5142df984593c
 
 ---
 
@@ -191,21 +191,47 @@ There are two categories of content elements that you can use: **fragments** and
 
 ### Saving content as a fragment {#saving-content-as-a-fragment}
 
-使用電子郵件設計工具編輯電子郵件時，您無法直接將該電子郵件的部分儲存為片段。
+使用電子郵件設計工具編輯電子郵件時，您可以直接將該電子郵件的部分儲存為片段。
 
-您需要複製對應至您要儲存至新片段之區段的HTML。
+1. When editing an email in the Email Designer, select **[!UICONTROL Save as fragment]** from the main toolbar.
+
+   ![](assets/email_designer_save-as-fragment.png)
+
+1. 從工作區中選取將編譯片段的結構。
+
+   ![](assets/email_designer_save-as-fragment_select.png)
+
+   >[!NOTE]
+   >
+   >您只能選取彼此相鄰的結構。
+
+1. Click **[!UICONTROL Create]**.
+
+1. Add a label and a description if needed, then click **[!UICONTROL Save]**.
+
+   ![](assets/email_designer_save-as-fragment_popup.png)
+
+1. To find the fragment that you just created, go to **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates & fragments]**.
+
+   ![](assets/email_designer_save-as-fragment_list.png)
+
+1. 若要使用新片段，請開啓任何其他電子郵件內容，然後從片段清單中選取。
+
+![](assets/email_designer_save-as-fragment_in-new-email.png)
+
+<!--You need to copy-paste the HTML corresponding to the section that you want to save into a new fragment.
 
 >[!NOTE]
 >
->若要這麼做，您必須熟悉HTML程式碼。
+>To do this, you need to be familiar with HTML code.
 
-若要將您所建立的部分電子郵件內容儲存為片段，請依照下列步驟進行。
+To save as a fragment some email content that you created, follow the steps below.
 
-1. When editing an email in the Email Designer, select **[!UICONTROL Edit]** &gt; **[!UICONTROL HTML]** to open the HTML version of that email.
-1. 選取並複製對應您要儲存之部分的HTML。
-1. Go to **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates & fragments]** and click **[!UICONTROL Create]**.
+1. When editing an email in the Email Designer, select **[!UICONTROL Edit]** > **[!UICONTROL HTML]** to open the HTML version of that email.
+1. Select and copy the HTML corresponding to the part that you want to save.
+1. Go to **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** and click **[!UICONTROL Create]**.
 1. Click the email label to access the **[!UICONTROL Properties]** tab of the Email Designer and select **[!UICONTROL Fragment]** from the **[!UICONTROL HTML type]** drop-down list.
-1. Select **[!UICONTROL Edit]** &gt; **[!UICONTROL HTML]** to open the HTML version of the fragment.
-1. 貼上您在適當位置複製的HTML。
-1. Switch back to the **[!UICONTROL Edit]** view to check the result and save the new fragment.
+1. Select **[!UICONTROL Edit]** > **[!UICONTROL HTML]** to open the HTML version of the fragment.
+1. Paste the HTML that you copied where appropriate.
+1. Switch back to the **[!UICONTROL Edit]** view to check the result and save the new fragment.-->
 

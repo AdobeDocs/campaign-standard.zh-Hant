@@ -14,7 +14,7 @@ discoiquuid: dce9711-7fa6-4773-ba21-1d54 cda20 c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: c2be404f780c8df57c5b0aa9858aa162592ca55c
 
 ---
 
@@ -26,6 +26,14 @@ source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 本頁列出每個Adobe Campaign Standard版本的所有新功能和文件更新。
 
 You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-notes.md).
+
+## July 2019 {#release-july-2019}
+
+新增著陸頁面限制的新頁面。[閱讀更多資訊](../../channels/using/landing-page-limitations.md)
+
+已新增使用個案識別金鑰來呼叫描述檔的使用案例。[閱讀更多資訊](../../developing/using/uc-calling-resource-id-key.md)
+
+已新增建議，在呼叫含有參數的蠕蟲時，不需使用週期性傳送。[閱讀更多資訊](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
 ## Release 19.2 - May 2019 {#release-19-2---may-2019}
 

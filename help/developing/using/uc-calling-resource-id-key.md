@@ -4,7 +4,7 @@ seo-title: 使用由兩個欄位組成的識別索引鍵來呼叫資源
 description: 使用由兩個欄位組成的識別索引鍵來呼叫資源
 seo-description: 瞭解如何使用由兩個欄位組成的識別金鑰來呼叫資源
 translation-type: tm+mt
-source-git-commit: b46579e3bf270b26986e107be9d8e07a39841b38
+source-git-commit: 6d4f814ecd3862a632a25728545bc98a5e336fb5
 
 ---
 
@@ -23,16 +23,16 @@ In this use case, the **Profile** resource has been extended with custom **"CRM 
 
 相關主題：
 
-* [建立或擴充資源](help/developing/using/creating-or-extending-the-resource.md)
-* [定義識別金鑰](help/developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
+* [建立或擴充資源](../../developing/using/creating-or-extending-the-resource.md)
+* [定義識別金鑰](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
 * [Campaign Standard REST API](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
 
 ## 步驟1：設定識別金鑰
 
 >[!NOTE]
-> Global concepts when configuring identification keys are detailed in [this section](help/developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys).
+> Global concepts when configuring identification keys are detailed in [this section](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys).
 
-1. 在設定識別金鑰之前，請確定資源已與所需欄位一起延伸，並已發佈。For more on this, refer to [this section](help/developing/using/creating-or-extending-the-resource.md).
+1. 在設定識別金鑰之前，請確定資源已與所需欄位一起延伸，並已發佈。For more on this, refer to [this section](../../developing/using/creating-or-extending-the-resource.md).
 
 1. Go to the **[!UICONTROL Administration]** / **[!UICONTROL Developement]** / **[!UICONTROL Custom resources]** menu, then open the **[!UICONTROL Profile]** resource.
 
@@ -47,14 +47,14 @@ In this use case, the **Profile** resource has been extended with custom **"CRM 
    ![](assets/uc_idkey3.png)
 
    >[!NOTE]
-   > If you want to display the two custom fields in the profile's interface, configure the **[UICONTROL Screen definition]** tab. For more on this, refer to [this section](help/developing/using/configuring-the-screen-definition.md).
+   > If you want to display the two custom fields in the profile's interface, configure the **[UICONTROL Screen definition]** tab. For more on this, refer to [this section](../../developing/using/configuring-the-screen-definition.md).
 
 1. 您現在可以設定篩選定義，以便使用其識別金鑰呼叫資源。
 
 ## 步驟2：設定篩選定義
 
 >[!NOTE]
-> Global concepts when configuring filter definitions are detailed in [this section](help/developing/using/configuring-filter-definition.md).
+> Global concepts when configuring filter definitions are detailed in [this section](../../developing/using/configuring-filter-definition.md).
 
 1. In the **[UICONTROL Filter definition]** tab, click **[UICONTROL Add an element]**, then enter the filter definition's label and ID.
 
@@ -87,7 +87,7 @@ In this use case, the **Profile** resource has been extended with custom **"CRM 
 
 一旦設定識別金鑰及其篩選定義後，您可以使用促銷活動標準介面或REST API來呼叫資源。
 
-To use the filter definition from the interface, use a **[UICONTROL Query]** activity in a workflow (see [this section](help/automating/using/query.md)). 然後，該篩選器便可在左側窗格中使用。
+To use the filter definition from the interface, use a **[UICONTROL Query]** activity in a workflow (see [this section](../../automating/using/query.md)). 然後，該篩選器便可在左側窗格中使用。
 
 ![](assets/uc_idkey9.png)
 

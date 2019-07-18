@@ -14,7 +14,7 @@ discoiquuid: dce9711-7fa6-4773-ba21-1d54 cda20 c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c2be404f780c8df57c5b0aa9858aa162592ca55c
+source-git-commit: 0a481ba4fcaf808ba0c524ec437f0e7e28cc2274
 
 ---
 
@@ -33,7 +33,9 @@ You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-n
 
 已新增使用個案識別金鑰來呼叫描述檔的使用案例。[閱讀更多資訊](../../developing/using/uc-calling-resource-id-key.md)
 
-已新增建議，在呼叫含有參數的蠕蟲時，不需使用週期性傳送。[閱讀更多資訊](../../automating/using/calling-a-workflow-with-external-parameters.md)
+已新增建議，可在呼叫使用參數的工作流程時，在無匯總期間使用循環傳送。[閱讀更多資訊](../../automating/using/calling-a-workflow-with-external-parameters.md)
+
+有關如何將電子郵件內容儲存為電子郵件設計人員中片段的章節已更新。[閱讀更多資訊](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment)
 
 ## Release 19.2 - May 2019 {#release-19-2---may-2019}
 

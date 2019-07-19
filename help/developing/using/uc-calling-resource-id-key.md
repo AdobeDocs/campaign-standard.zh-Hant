@@ -4,7 +4,7 @@ seo-title: 使用復合識別金鑰來呼叫資源
 description: 使用復合識別金鑰來呼叫資源
 seo-description: 瞭解如何使用復合識別金鑰來呼叫資源
 translation-type: tm+mt
-source-git-commit: 8aea0483bcb1b104e5bd2b13426a1ac590c8efaf
+source-git-commit: b9bc9163cc02efea8549a21fa947956dc9d3824a
 
 ---
 
@@ -94,13 +94,13 @@ To use the filter definition from the interface, use a **[!UICONTROL Query]** ac
 若要使用Campaign Standard REST API的篩選定義，請使用下列語法：
 
 ```
-GET /profileAndServicesExt/&lt;resourceName&gt;&lt;filterName&gt;?&lt;param1_parameter&gt;=&lt;value&gt;&&lt;param2_parameter&gt;=&lt;value&gt;
+GET /profileAndServicesExt/<resourceName><filterName>?<param1_parameter>=<value>&<param2_parameter>=<value>
 ```
 
 在我們的案例中，從「Spring」類別擷取描述檔的語法，以及「123456」CRM ID會是：
 
 ```
-GET https://mc.adobe.io/&lt;ORGANIZATION&gt;/campaign/profileAndServicesExt/profile/identification_key?category_parameter=spring&crm_id_parameter=123456
+GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/identification_key?category_parameter=spring&crm_id_parameter=123456
 ```
 
 For more details, refer to [Campaign Standard REST APIs documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering).

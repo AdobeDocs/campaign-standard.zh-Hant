@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536 ab66 b3 b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6df0e764750a31f29d6fe3ec4d92e19b3f07f728
+source-git-commit: 89c139e3e2934996e267f875ef7fc2502c27a028
 
 ---
 
@@ -365,7 +365,10 @@ When you have a content that cannot be recreated, you can copy-paste the HTML co
 
    ![](assets/email_designer_mobile_view_change.png)
 
-1. 您也可以隱藏元件。勾選此選項時，當行動裝置上顯示時，對應的元件將會隱藏。
+1. 在行動裝置上顯示時，您可以隱藏元件。To do this, select **[!UICONTROL Show only on desktop devices]** from the **[!UICONTROL Display options]**.
+您也可以選擇將此元件隱藏在桌面裝置上，這表示它只會顯示在行動裝置上。To do this, select **[!UICONTROL Show only on mobile devices]**.
+例如，此選項可讓您在行動裝置上顯示特定影像，以及在桌面裝置上顯示其他影像。
+您可以從行動裝置或桌面檢視設定此選項。
 
    ![](assets/email_designer_mobile_hide.png)
 

@@ -14,7 +14,7 @@ discoiquuid: d7088c18-7daf-4c30-b633-2f19496 b1143
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 20b4d5dfb297cac4cd69fe6f945b4399abd7f06a
 
 ---
 
@@ -40,7 +40,7 @@ source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
 * [設計電子郵件](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch)的關鍵步驟：閱讀重要步驟，以從頭開始設計電子郵件內容。
 * [使用Experience Cloud觸發器搭配Adobe Campaign](../../integrating/using/abandonment-triggers-use-cases.md)：在您的網站上追蹤經過Adobe Analytics追蹤的特定行為，向客戶傳送個人化電子郵件。
-* [新增或延伸資源](../../developing/using/key-steps-of-adding-a-resource.md)：瞭解如何建立新資源或擴充現有資源。
+* [新增或延伸資源](../../developing/using/key-steps-to-add-a-resource.md)：瞭解如何建立新資源或擴充現有資源。
 * [匯入工作流程範本](../../automating/using/importing-data.md#example--import-workflow-template)：使用匯入範本定期匯入相同結構的檔案。
 * [設定雙重加入程序](../../channels/using/setting-up-a-double-opt-in-process.md)：瞭解如何傳送連結至登陸頁面的電子郵件以確認客戶的訂閱。
 * [個人化電子郵件](../../designing/using/example--email-personalization.md)：根據客戶的年齡個人化電子郵件。

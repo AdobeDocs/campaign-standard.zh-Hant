@@ -14,7 +14,7 @@ discoiquuid: 305adde-6424-4c6f-b11 b-1b-1e8 bdnow6 ef1
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6a877d878f01fa1e541dc20b8b0941602113d15b
+source-git-commit: 5e5532c0769fe33016eaee994bdaae9c70a7eaa5
 
 ---
 
@@ -58,3 +58,6 @@ Adobe Campaign提供的一組預設規則可確保標準控制項：
 
    當檢查要求訊息個人化完成時，請選取這個階段。
 
+>[!NOTE]
+>
+>基於安全理由，無法修改控制規則的內容。**[!UICONTROL Code]** 欄位為唯讀。

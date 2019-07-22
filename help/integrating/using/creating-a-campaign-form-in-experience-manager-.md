@@ -14,7 +14,7 @@ discoiquuid: 4a8b5807-87dd-4db4-bd67-890f0 adae932
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: eed2e3597548c97345f51fe62dd2b56af5042e87
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
 若要在您的AEM網站上建立Adobe Campaign表單：
 
-1. 在您的AEM網站中，根據** Adobe Campaign Profile**範本建立新頁面。
+1. In your AEM site, create a new page based on the **Adobe Campaign Profile** template.
 
    ![](assets/aem_content_forms.png)
 

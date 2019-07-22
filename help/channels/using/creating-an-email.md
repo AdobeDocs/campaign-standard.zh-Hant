@@ -14,7 +14,7 @@ discoiquuid: b27e0170-e73 f-4782-8568-02927fb374 f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6df0e764750a31f29d6fe3ec4d92e19b3f07f728
+source-git-commit: 8f4c849adf1852d8a23c5ff5252da25c175faa84
 
 ---
 
@@ -62,7 +62,9 @@ You can create an email from a [campaign](../../start/using/marketing-activities
    >
    >若要儲存您的電子郵件，您必須先對內容進行一些編輯。If you click **[!UICONTROL Cancel]** at this point, you will not complete the wizard and your email will not be created.
 
-   接著會顯示電子郵件控制面板。For more on this, see [Approving messages](../../sending/using/preparing-the-send.md).
+   接著會顯示電子郵件控制面板。It allows you to check your message and [prepare the send](../../sending/using/preparing-the-send.md).
+
+   The **[!UICONTROL Edit properties]** button in the upper-right corner allows you to edit the properties of the email. 例如，您可以設定電子郵件，以便在傳送準備時計算其標籤。Available parameters are listed in [this section](../../administration/using/configuring-email-channel.md#list-of-email-properties).
 
    ![](assets/delivery_dashboard_2.png)
 

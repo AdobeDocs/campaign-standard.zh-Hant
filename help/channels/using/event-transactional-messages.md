@@ -15,7 +15,7 @@ context-tags: Delivery TransactionalTemplate，overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d50d486ed77cb7989df47133bb49fde3227ae3a5
+source-git-commit: e08b7e01956a9106937cb72ab790cb2e98999fcd
 
 ---
 
@@ -313,8 +313,6 @@ By selecting a transactional message, you can delete it with the **[!UICONTROL D
 
 一旦將事件指派給執行傳送，則如果收件者的郵箱已滿，交易訊息可能會因暫時錯誤而失敗。For more on this, see [Retries after a delivery temporary failure](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
-如果交易事件已指派給已失敗的執行傳送，則會延遲此事件並稍後重試。重試時，會指派給新的執行傳送。
-
 >[!NOTE]
 >
 >當事件指派給執行傳送時，它會出現在此執行傳送的傳送記錄中，而且只會出現在此時。The failed deliveries are displayed in the **[!UICONTROL Execution list]** tab of the transactional message.
@@ -323,9 +321,7 @@ By selecting a transactional message, you can delete it with the **[!UICONTROL D
 
 **傳送記錄檔更新**
 
-當交易事件指派給已失敗的執行傳送時，此事件會延遲並在幾分鐘後重試。重試時，會指派給新的執行傳送。
-
-不過，新執行傳送的傳送記錄不會立即更新(更新會透過排程工作流程執行)。It means that the message could be in **[!UICONTROL Pending]** status even if the transactional event has been processed by the new execution delivery.
+在重試程序中，不會立即更新新執行傳送的傳送記錄(更新會透過排程工作流程執行)。It means that the message could be in **[!UICONTROL Pending]** status even if the transactional event has been processed by the new execution delivery.
 
 **執行失敗**
 

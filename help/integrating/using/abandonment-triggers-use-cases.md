@@ -14,7 +14,7 @@ discoiquuid: 1b9eeec5-70bb-4d72-a3 e9-12342abf08 f7
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 698466596fdacd005dc4d72b8071208c8c39f77d
+source-git-commit: eed2e3597548c97345f51fe62dd2b56af5042e87
 
 ---
 
@@ -85,7 +85,8 @@ For more information, refer to [Configuring solutions and services](../../integr
 
    ![](assets/trigger_uc_browse_6.png)
 
-1. To dislay the message template, click the **[!UICONTROL More]** button, on the top right, then click **[!UICONTROL Trigger Transactional Template]**.
+1. To display the message template, click the **[!UICONTROL More]** button, on the top right, then click **[!UICONTROL Trigger Transactional Template]** .
+
 1. 個人化其內容和傳送者詳細資訊。
 
    ![](assets/trigger_uc_browse_8.png)

@@ -15,7 +15,7 @@ context-tags: 傳送，觸發器，回溯；Delivery Creation，精靈
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 90b478d1d58b67e763b8b6685c12530a5b5ee9c3
+source-git-commit: e3b71fdaf18a20dc87a05c2a964a3429c75dd3ce
 
 ---
 
@@ -36,6 +36,8 @@ Adobe Campaign提供三種應用程式內訊息：
 * **[!UICONTROL Target users based on their Mobile profile (inApp)]**：此訊息類型可讓您針對Adobe Campaign中具有行動設定檔的行動應用程式，鎖定所有已知或匿名的使用者。此訊息類型只能使用非個人和非敏感性屬性個人化，而且不需要在Mobile SDK和Adobe Campaign的應用程式內傳訊服務之間安全握手。
 
    For more information on how to handle personal and sensitive data, refer to [Handling mobile profile fields with personal and sensitive data](../../channels/using/preparing-and-sending-an-in-app-message.md#handling-mobile-profile-fields-with-personal-and-sensitive-data).
+
+![](assets/diagram_inapp.png)
 
 ## Handling mobile profile fields with personal and sensitive data {#handling-mobile-profile-fields-with-personal-and-sensitive-data}
 

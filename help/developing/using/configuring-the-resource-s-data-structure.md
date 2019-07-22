@@ -15,7 +15,7 @@ context-tags: CusResource，主要
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
+source-git-commit: 6b642a58fc88779f88f2f860c133b36934c59d21
 
 ---
 
@@ -44,6 +44,7 @@ When editing the resource, in the **[!UICONTROL Data structure]** tab, you can a
    >[!NOTE]
    >
    >If you leave the **[!UICONTROL Label]** field empty, it will automatically be completed from the ID.
+   >建議您最多使用30個字元。
 
    ![](assets/schema_extension_4.png)
 
@@ -81,7 +82,11 @@ When editing the resource, in the **[!UICONTROL Data structure]** tab, you can a
 
 1. Use the **[!UICONTROL Create element]** button to create a key.
 
-   The **[!UICONTROL Label]** and **[!UICONTROL ID]** fields are completed by default, but you can be edited.
+   The **[!UICONTROL Label]** and **[!UICONTROL ID]** fields are completed by default but you can edit them.
+
+   >[!NOTE]
+   >
+   >建議您最多使用30個字元。
 
 1. To define the elements making up this key, click **[!UICONTROL Create element]** and select the fields that you created for this resource.
 
@@ -102,6 +107,11 @@ When editing the resource, in the **[!UICONTROL Data structure]** tab, you can a
    ![](assets/schema_extension_26.png)
 
 1. The **[!UICONTROL Label]** and **[!UICONTROL ID]** fields are completed by default, but you can edit them.
+
+   >[!NOTE]
+   >
+   >建議您最多使用30個字元。
+
 1. 若要定義組成此索引的元素，請選取您為此資源建立的欄位。
 
    ![](assets/schema_extension_27.png)
@@ -135,6 +145,10 @@ The indexes that were created appear in the list in the **[!UICONTROL Index]** s
    ![](assets/schema_extension_29.png)
 
 1. **[!UICONTROL New link]** 在畫面中，預設會完成和 **[!UICONTROL Label]****[!UICONTROL ID]** 欄位，但您可以加以編輯。
+
+   >[!NOTE]
+   >
+   >建議您最多使用30個字元。
 
    >[!CAUTION]
    >
@@ -242,6 +256,11 @@ In the custom resource screen, the **[!UICONTROL Summary]** pane indicates the s
    ![](assets/schema_extension_30.png)
 
 1. 如有需要，請修改資源的標籤和ID。
+
+   >[!NOTE]
+   >
+   >建議您最多使用30個字元。
+
 1. 如果您需要將此資源的存取限制在特定組織單位，請在此處指定。只有授權單位的使用者才能在應用程式中使用此資源。
 1. 儲存修改。
 

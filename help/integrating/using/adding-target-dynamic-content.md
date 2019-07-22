@@ -14,7 +14,7 @@ discoiquuid: 45ddf7b7-98f7-4fdd-bb4 a-49ec8490 e877
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 698466596fdacd005dc4d72b8071208c8c39f77d
+source-git-commit: eed2e3597548c97345f51fe62dd2b56af5042e87
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: 698466596fdacd005dc4d72b8071208c8c39f77d
 
 在Adobe Campaign中存取影像之前，下列工作必須先在Adobe Target中執行：
 
-* Create one or several [redirect offers](https://marketing.adobe.com/resources/help/en_US/tnt/help/t_Creating_a_Redirect_Offer.html), in which you must specify the URL of the image you will be using.
+* Create one or several [redirect offers](https://docs.adobe.com/content/help/en/target/using/experiences/offers/offer-redirect.html), in which you must specify the URL of the image you will be using.
 * Create one or several [audiences](https://marketing.adobe.com/resources/help/en_US/target/ov/c_about_segments.html), to define the target of your activity.
 * Create a [Form-based experience composer](https://marketing.adobe.com/resources/help/en_US/target/target/t_form_experience_composer.html) activity, in which you have to select a rawbox and specify several experiences, depending on the number of redirect offers created. 對於每個體驗，您必須選取其中一個重新導向選件。
 * 使用Adobe Campaign資訊來建立區段以指定體驗。若要在選件的選取規則中使用Adobe Campaign中的資料，您必須在Adobe Target的rawbox中指定資料。

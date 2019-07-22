@@ -15,7 +15,7 @@ context-tags: extAccountMail，概觀；EmailConfig，main；規則集，概觀�
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
+source-git-commit: 4d95fe00c1958399ff4d22d5f0e7762f895b4032
 
 ---
 
@@ -143,7 +143,7 @@ This section details the list of parameters available in the properties screen o
 
 >[!NOTE]
 >
->有些參數僅適用於範本。Parameters you can access [depend on your permissions](../../administration/using/types-of-users.md).
+>有些參數僅適用於範本。Parameters you can access [depend on your permissions](../../administration/using/users-management.md).
 
 To edit the properties of an email or an email template, use the **[!UICONTROL Edit properties]** button.
 
@@ -250,7 +250,10 @@ Preparing messages is detailed in the [Approving messages](../../sending/using/p
    >
    >Typologies, which can be accessed via the **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Typologies]** menu, are presented in the [Typologies](../../administration/using/about-typology-rules.md) section.
 
-* **[!UICONTROL Compute the label during delivery analysis]**：可讓您在訊息準備階段期間計算電子郵件的標籤值。
+* **[!UICONTROL Compute the label during delivery preparation]**：可讓您使用個人化欄位、內容區塊和動態文字，在訊息準備階段期間計算電子郵件的標籤值。
+
+   您也可以使用已宣告為工作流程外部訊號活動的事件變數個人化傳送標籤。For more on this, refer to [this section](../../automating/using/calling-a-workflow-with-external-parameters.md).
+
 * **[!UICONTROL Save SQL queries in the log]**：此選項可讓您在準備階段中新增SQL查詢記錄檔。
 
 ### List of email SMTP parameters {#list-of-email-smtp-parameters}

@@ -15,14 +15,14 @@ context-tags: CusResource，概觀；eventCusResource，總覽
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c880b265cf83cb76b2cdbe3cbdd77182adb71bb1
+source-git-commit: 4d95fe00c1958399ff4d22d5f0e7762f895b4032
 
 ---
 
 
 # Data model concepts{#data-model-concepts}
 
-Adobe Campaign隨附預先定義的資料模型。[管理員](../../administration/using/types-of-users.md#functional-administrators) 可以修改此資料模型，管理員可以在現有資源中新增資源或擴充功能。
+Adobe Campaign隨附預先定義的資料模型。[管理員](../../administration/using/users-management.md#functional-administrators) 可以修改此資料模型，管理員可以在現有資源中新增資源或擴充功能。
 
 >[!CAUTION]
 >

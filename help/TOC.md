@@ -3,7 +3,7 @@ product: Adobe Campaign Standard
 audience: 使用者
 user-guide-title: Adobe Campaign Standard說明
 translation-type: tm+mt
-source-git-commit: d3c63b3e39738e38585077c4be34b141f08bcff2
+source-git-commit: 55180d1bd13e29ea0f77c3412c0da5fa523e7cfc
 
 ---
 
@@ -175,6 +175,7 @@ source-git-commit: d3c63b3e39738e38585077c4be34b141f08bcff2
       + [報告介面](reporting/using/reporting-interface.md)
       + [元件清單 ](reporting/using/list-of-components-.md)
       + [指標計算](reporting/using/indicator-calculation.md)
+      + [疑難排解](reporting/using/troubleshooting.md)
    + List of reports {#list-of-reports}
       + [定義報告時段](reporting/using/defining-the-report-period.md)
       + [反彈摘要](reporting/using/bounce-summary.md)
@@ -196,6 +197,7 @@ source-git-commit: d3c63b3e39738e38585077c4be34b141f08bcff2
       + [新增視覺效果](reporting/using/adding-visualizations.md)
       + [新增元件](reporting/using/adding-components.md)
       + [建立自訂描述檔維度](reporting/using/creating-a-custom-profile-dimension.md)
+      + [根據工作流程區段建立報表](reporting/using/creating-a-report-workflow-segment.md)
 + Integrating with Adobe Cloud {#integrating-with-adobe-cloud}
    + [關於促銷活動整合](integrating/using/about-campaign-integrations.md)
    + Working with Campaign and Experience Manager {#working-with-campaign-and-experience-manager}
@@ -274,6 +276,7 @@ source-git-commit: d3c63b3e39738e38585077c4be34b141f08bcff2
       + [調解](automating/using/reconciliation.md)
       + [摘取檔案](automating/using/extract-file.md)
       + [訂閱服務](automating/using/subscription-services.md)
+      + [外部API](automating/using/external-api.md)
    + Filtering data {#filtering-data}
       + [編輯查詢](automating/using/editing-queries.md)
       + [進階運算式編輯](automating/using/advanced-expression-editing.md)
@@ -291,7 +294,7 @@ source-git-commit: d3c63b3e39738e38585077c4be34b141f08bcff2
       + [資源狀態](developing/using/resource-statuses.md)
       + [監控資料模型變更](developing/using/monitoring-data-model-changes.md)
    + Adding or extending a resource {#adding-or-extending-a-resource}
-      + [新增資源的關鍵步驟](developing/using/key-steps-of-adding-a-resource.md)
+      + [新增資源的關鍵步驟](developing/using/key-steps-to-add-a-resource.md)
       + [建立或擴充資源](developing/using/creating-or-extending-the-resource.md)
       + [設定資源的資料結構](developing/using/configuring-the-resource-s-data-structure.md)
       + [設定螢幕定義](developing/using/configuring-the-screen-definition.md)
@@ -311,7 +314,7 @@ source-git-commit: d3c63b3e39738e38585077c4be34b141f08bcff2
    + [關於管理Adobe Campaign](administration/using/about-administrating-adobe-campaign.md)
    + Users and security {#users-and-security}
       + [關於存取管理](administration/using/about-access-management.md)
-      + [使用者類型](administration/using/types-of-users.md)
+      + [使用者管理](administration/using/users-management.md)
       + [組織單位](administration/using/organizational-units.md)
       + [角色清單](administration/using/list-of-roles.md)
       + [管理群組和使用者](administration/using/managing-groups-and-users.md)

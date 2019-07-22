@@ -14,7 +14,7 @@ discoiquuid: fda143-f42 a-4cf9-b43 c-e53 d24549025
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
+source-git-commit: 84bc011b079c9f620ea672bf081e54adc023aa07
 
 ---
 
@@ -91,6 +91,10 @@ Adobe Campaign提供預先設定的內容區塊清單。這些內容區塊是動
 1. Enter the content of the content block(s), and click the **[!UICONTROL Create]** button.
 
 您的內容區塊現在可以用於訊息的內容編輯器或登陸頁面中。
+
+>[!CAUTION]
+>
+>When editing the content of a block, make sure there are no extra white spaces between the beginning and the end of your *if* statements. 在HTML中，空格會顯示在螢幕上，因此會影響您的內容版面。
 
 ## About targeting dimension {#about-targeting-dimension}
 

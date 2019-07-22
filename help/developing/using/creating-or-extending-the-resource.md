@@ -14,7 +14,7 @@ discoiquuid: 8dc45c37-6908-407e-8e41-4a4188cba2b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
+source-git-commit: a7c7a46fdba2395c773582923c6bd647c2d6c9d6
 
 ---
 
@@ -43,6 +43,10 @@ source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
    * **[!UICONTROL Create a new resource]**：輸入 **[!UICONTROL Label]** 和 **[!UICONTROL ID]** 欄位。**[!UICONTROL ID]** 欄位是強制欄位。如果您將「Label」(標籤)欄位保留空白，它會自動從ID完成。
 
       ![](assets/schema_extension_2.png)
+
+      >[!NOTE]
+      >
+      >我們建議最多使用30個字元。
 
    * **[!UICONTROL Extend an existing resource]**：選擇要延伸的資源。
 

@@ -15,7 +15,7 @@ context-tags: 傳送，主要
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6df0e764750a31f29d6fe3ec4d92e19b3f07f728
+source-git-commit: 25d997b2e5aa41e29e49ab047398b3db811bd6b6
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: 6df0e764750a31f29d6fe3ec4d92e19b3f07f728
 灰色列會重新整理與您訊息連結的各種圖示。
 
 * **[!UICONTROL Summary]**：顯示/隱藏訊息的主要資訊。
-* **[!UICONTROL Edit properties]**：可讓您編輯訊息的進階參數。
+* **[!UICONTROL Edit properties]**：可讓您編輯訊息 [的進階參數](../../administration/using/configuring-email-channel.md#list-of-email-properties)。
 * **[!UICONTROL Reports]**：可讓您存取訊息相關的報表。
 
 **相關主題：**

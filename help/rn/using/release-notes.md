@@ -14,7 +14,7 @@ discoiquuid: 5c7bfb74-4002-3ffe-87e8-bddb41 d34 b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 830292bd6f5bbd143ad0c674aaac67b67abc5665
+source-git-commit: 3b40e71ea9aa7e31c4ab8dcc46f78919328c8572
 
 ---
 
@@ -26,6 +26,117 @@ source-git-commit: 830292bd6f5bbd143ad0c674aaac67b67abc5665
 每個版本都隨附新功能和修補程式。按一下版本可檢視其內容。Consult the [Release Planning](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) to find out when the next release will happen.
 
 View the latest [documentation updates](../../rn/using/documentation-updates.md) for Adobe Campaign Standard. If you're looking for a previous release, consult these pages: [2018 Release Notes](../../rn/using/release-notes-2018.md), [2017 Release Notes](../../rn/using/release-notes-2017.md), [2015-2016 Release Notes](../../rn/using/release-notes-2015-2016.md). Also consult the list of [Deprecated and Removed Features](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html).
+
+## Release 19.3 - July 2019 {#release-19-3---july-2019}
+
+### What's new? {#what-s-new-3}
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> Functionality<br /> </th> 
+   <th> Description<br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> External API Activity (Public Beta)<br /> </td> 
+   <td> <p>為深入個人化，外部API活動可讓您透過REST API呼叫將資料從外部系統帶入工作流程。REST端點可以是客戶管理系統、Adobe I/Runtime或Adobe Experience Cloud REST端點(例如資料平台、Target、Analytics、Campaign)。</p><p>此功能目前仍在公開測試版中。</p><p>For more information, refer to the <a href="../../automating/using/external-api.md">detailed documentation</a>.</p></td> 
+  </tr> 
+  <tr> 
+   <td> Report on workflow segment<br /> </td> 
+   <td> <p>此功能可讓行銷人員依區段代碼來劃分其遞送績效。當您建立工作流程並使用分段活動來指派區段給傳送人口時，這些區段現在可以進入同一個傳送。這可讓您根據單一傳送內的多個區段，顯示根據多個區段的統計資料。</p><p>For more information, refer to the <a href="../../reporting/using/creating-a-report-workflow-segment.md">detailed documentation</a>.</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Security enhancements {#security-enhancements-2}
+
+* 修正安全性問題，以防止拒絕服務(DoS)攻擊以取得影像的無效要求。(CAMP-33454)
+
+### Email Designer enhancements {#email-designer-enhancements-3}
+
+* 修正在每次新增元件時，新增其他HTML樣式標記至HTML範本的問題，這可能大幅增加範本的大小。(CAMP-34694)
+* 修正無法使用某些右側工具列功能表選項的問題。(CAMP-34577)
+* 已修正將Mirror頁面URL內容區塊插入電子郵件內容時所發生的問題。(CAMP-34779)
+* 修正在電子郵件中使用JSPP程式碼時，無法編輯內容的問題。(CAMP-34574)
+* 修正新增超連結時，造成頂端截斷影像的問題。(CAMP-34382)
+* 修正使用電子郵件設計工具與Firefox的顯示問題。(CAMP-34364)
+* 修正在電子郵件中定義動態內容時，「進階」模式發生的數個問題。(CAMP-34351、SAMP-34333、CAMP-34331)
+* 修正動態內容規則編輯器(AMP-34304、SAMP-34303)發生的數個問題。
+* 修正「電子郵件設計人員設定」窗格中無法顯示「連結」欄位的問題(Camp-33749)。
+* 已修正傳送電子郵件中過大的YouTube圖示問題。(CAMP-33726)
+* 修正可編輯鏡像頁面內容的安全性問題。(CAMP-33691)
+* 修正在動態內容中使用大於符號時，HTML輸出中斷的問題。(CAMP-33688)
+* 修正在電子郵件設計工具中編輯文字時，使用「還原」選項的問題。(CAMP-32565)
+* 修正在復原樣式而非移除樣式時建立額外標記的問題。(CAMP-32359)
+* 現在可以定義電子郵件中使用的每個影像只會顯示在桌面裝置上或僅在行動裝置上顯示。
+* 現在可以設定Social內容元件的寬度和高度。
+* 修正在刪除動態內容後，動態內容舊碼無法移除的問題。
+* 修正電子郵件主體修改後無法更新的問題。
+* 修正無法使用n的問題：n欄結構一次被捨棄到工作區中。
+* 修正訊息縮圖在電子郵件控制面板中顯示模糊的問題。
+* 修正Outlook收到的電子郵件無法正確顯示背景的問題。
+* 修正電子郵件設計人員首頁上的一些排序問題。
+* 修正使用動態內容時，重復變數發生的問題。
+* 從「電子郵件設計人員設定」窗格中移除了一些不需要的欄位。
+
+### Other improvements {#other-improvements-3}
+
+* 透過與Adobe Experience Platform Location Services的整合，Adobe Campaign現在可相容於透過Experience Platform SDK傳送位置型行銷訊息給行動應用程式的用戶。For more information, refer to the [detailed documentation](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md).
+* 報告功能已改進，提供更佳的體驗。若要使用此功能，您必須接受「動態報告使用合約」。For more on this, refer to the [detailed documentation](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
+* 在工作流程中，已新增一個新選項，預覽工作流程的下個執行檔。For more on this, refer to the [detailed documentation](../../automating/using/scheduler.md).
+* 在排程器活動中，新選項可讓您選取每月傳送的特定星期幾。For more on this, refer to the [detailed documentation](../../automating/using/scheduler.md).
+* 建立無匯總期間的週期性傳送時，傳送控制面板現在允許您在傳送傳送前請求確認。For more on this, refer to the [detailed documentation](../../sending/using/confirming-the-send.md).
+* 您現在可以將傳送的標籤與工作流程外部訊號活動中宣告的事件變數個人化。For more on this, refer to the [detailed documentation](../../automating/using/calling-a-workflow-with-external-parameters.md).
+* GDPR刪除查詢已改進，以提高效能。(CAMP-33504)
+* 從外部帳戶設定介面移除「ftp」選項。(CAMP-34472)
+
+### Other changes {#other-changes-2}
+
+* 傳送屬性介面中新增警告。它指定傳送是根據其匯總期間和解凍來多次呼叫工作流程，您應確定他們沒有任何期間。(CAMP-34393)
+* 自訂資源設定畫面中已新增警告。建議您對自訂資源ID使用30個字元上限。這也適用於自訂資源欄位、索引鍵、索引和連結。
+* 嘗試刪除登陸頁面使用的交易訊息做為確認訊息時，現在會顯示訊息。
+* 當活動執行超過小時時，會在工作流程記錄檔中顯示警告。這不適用於推送通知、傳送、訊號、開始、結束、分叉、與聯合、排程和等待活動。
+* 當您達到同時執行的工作流程數目上限時，工作流程記錄中會出現警告。
+* 已暫停或失敗狀態的工作流程已停用超過天，以減少磁碟空間。清理工作會顯示在工作流程記錄檔中。
+* 使用「傳輸檔案」活動時，如果檔案大小超過可用磁碟空間，現在會記錄錯誤。
+* 無法再為應用程式內訊息中的次要按鈕選取重新導向至目的地URL動作。
+
+### Patches {#patches-3}
+
+* 修正GDPR存取要求失敗的問題。
+* 修正當收到獨特描述檔的多個觸發器時，可能會被捨棄的問題。
+* 修正登入後可能導致錯誤自訂資源出版錯誤訊息的問題。
+* 修正建立或延伸自訂資源時顯示空白頁面的問題。
+* 修正無法讓具有AppsubscriptionRCP作為定位維度的觀眾無法在行動傳送中定位的問題。
+* 修正無法將電子郵件地址置於隔離區的錯誤。(CAMP-24587)
+* 修正在新增打字規則後再刪除字元，然後再加以刪除的問題。(CAMP-32789)
+* 修正停用動態內容時無法顯示著陸頁面內容的問題。(CAMP-32924)
+* 修正在主傳送的屬性上使用個人化時，發生週期性傳送的問題。(CAMP-32983)
+* 修正工作流程中無法讀取包含傳入SMS訊息資料之轉場結果的工作流程問題。(CAMP-33134)
+* 修正在結合分叉和排除活動來建立觀眾時，發生工作流程的問題。(CAMP-33401)
+* 修正無法顯示鏡像頁面內容的問題，並修正傳送週期性傳送的訊息。(CAMP-33413)
+* 修正在個人檔案與觀眾之間使用聯合活動時導致錯誤的問題。此問題是由於輸入轉場中的識別金鑰不相容所造成。(CAMP-33713)
+* 修正「測試」活動中，「reccount」運算式在連按兩下時無法使用正確語法的問題。(CAMP-33756)
+* 修正在開啓帳單技術工作流程記錄檔時可能導致錯誤訊息的問題。(CAMP-34313)
+* 修正在設定包含訂閱的核取方塊欄位時，可能發生的著陸頁面問題。(CAMP-34369)
+* 修正設定清單並新增「圖示」欄位時發生的問題。(CAMP-34585)
+* 修正無法使用「|「%」符號做為載入檔案工作流程活動中的日期或時間分隔符號。(CAMP-34706)
+* 修正新增活動、儲存工作流程，然後點擊瀏覽器的「返回」按鈕時，工作流程中發生的問題。新增的活動已從工作區中移除。(CAMP-34788)
+* 修正使用可見度條件時，在著陸頁面中使用核取方塊的問題。(CAMP-34802)
+* 修正在「新增資料」標籤中，如果篩選維度設為追蹤記錄檔以及設定檔的目標維度時，「新增」活動無法顯示欄位的問題。
+* 修正匯出「WorkflowTemplate」資源時導致錯誤訊息的問題。
+* 修正建立新設定檔時，如果從對話方塊選取「國家/地區代碼」欄位時，無法儲存「國家/地區代碼」欄位的問題。
+* 修正使用Direct Mail匯入範本(UpdateQuarantinesDelivery LogyGsDirectMail)時發生的幾個問題。
+* 修正與「資產」整合相關的問題。
+* 修正在「時間軸」檢視中放大時所發生的問題。(CAMP-33628)
+* 修正無法立即傳送電子郵件訊息給排程日期和時間的電子郵件訊息問題。(CAMP-33723)
+* 修正當使用者登出時，產生錯誤記錄檔的交易傳訊問題。(CAMP-31698)
+* 修正排程電子郵件訊息時可能發生在特定環境中的錯誤。
+* 修正更新傳送執行工作流程失敗的問題。
+* 修正當主旨包含多行時，會破壞電子郵件內容的安全性問題。
+
 
 ## Release 19.2.7 - July 2019 {#release-19-2-7---july-2019}
 

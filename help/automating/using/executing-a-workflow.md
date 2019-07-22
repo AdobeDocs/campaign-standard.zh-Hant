@@ -15,7 +15,7 @@ context-tags: 工作流程，概觀；工作流程，主要
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+source-git-commit: e33cbfbf6376dabfe81b9bd6f7cce817f35d1b75
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
 
 >[!CAUTION]
 >
->建議您同時執行多個工作流程。當同時執行太多工作流程時，系統會用盡資源並變成不穩定。我們也建議您逐步擴展您的工作流程。
+> Adobe建議客戶優先排序工作流程執行，並執行最多20個並行工作流程執行，以便在執行個體間一致地達到最大效能。可能會規劃有超過20個並行工作流程執行，並依預設執行。您可以提交票證給客戶服務，以調整並行工作流程執行次數的預設設定。
 
 執行相關動作(開始、停止、暫停等)are **asynchronous** processes: the command is saved and will become effective once the server is available to apply it.
 

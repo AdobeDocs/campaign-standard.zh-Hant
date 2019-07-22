@@ -15,7 +15,7 @@ context-tags: workflow，wizard；工作流程，主要
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e384a0cef325bc01eb5ea050b0f3d926aea9a88f
+source-git-commit: 51154892b2d5bd5685272735cdd6e7d9474e09a6
 
 ---
 
@@ -94,6 +94,10 @@ Creating a marketing activity is detailed in the [Creating marketing activities]
    >[!NOTE]
    >
    >您也可以複製現有活動，複製現有活動。如此，您就可以保留原本定義的設定。For more on this, refer to [Duplicating workflow activities](../../automating/using/workflow-interface.md#duplicating-workflow-activities).
+
+Once your workflow activities are linked together, you can personalize the transitions between them with the **label** of your choice. 若要這麼做，請按兩下轉場以存取其屬性。
+
+Moreover, **[!UICONTROL Targeting]** and **[!UICONTROL Data management (ETL)]** activities allows you to define **segment codes** for their outbound transitions. 然後您可以根據這些區段代碼建立報表，以測量行銷活動的效率。For more on this, refer to [this section](../../reporting/using/creating-a-report-workflow-segment.md).
 
 ## Configuring activities {#configuring-activities}
 

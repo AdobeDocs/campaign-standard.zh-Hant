@@ -14,7 +14,7 @@ discoiquuid: a425cd59-eddd-42c5-a6 bd-38773c353 ff0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e9a4d99ddf311898c48b2b352fa13f5b59ed1fbe
+source-git-commit: 7102ed308f94985f8924a13aab2583e50b6c68e4
 
 ---
 
@@ -37,7 +37,7 @@ The first table **Push notification Engagement Summary** is split into three cat
 
 * **[!UICONTROL Processed/sent]**：傳送的推播通知總數。
 * **[!UICONTROL Delivered]**：與傳送的推播通知總數相關的推播通知數目成功。
-* **[!UICONTROL Impressions]**：收件者看到的推播通知總數。
+* **[!UICONTROL Impressions]**：推播通知傳送至裝置並在通知中心未受干擾的次數。在大多數情況下，曝光次數應類似於傳送的數字。如此可確保裝置取得訊息，並將該資訊傳回伺服器。
 * **[!UICONTROL Unique impressions]**：收件者的印象數。
 * **[!UICONTROL Click through rate]**：與推播通知互動的使用者百分比。
 * **[!UICONTROL Open rate]**：開啓推播通知的百分比。
@@ -48,8 +48,8 @@ The second table **Push notification Clicks &amp; opens** is split into three ca
 
 * **[!UICONTROL Impressions]**：收件者看到的推播通知總數。
 * **[!UICONTROL Unique impressions]**：收件者的印象數。
-* **[!UICONTROL Click]**：使用者與推播通知互動的次數，例如通知或按鈕上的點按次數。
+* **[!UICONTROL Click]**：推播通知傳送至裝置並由使用者點按的次數。使用者會想要檢視通知，然後將通知移至推送開啓追蹤或關閉。
 * **[!UICONTROL Unique clicks]**：獨特使用者與推播通知互動的次數，例如按一下通知或按鈕的次數。
-* **[!UICONTROL Open]**：使用者開啓推播通知時的應用程式啓動總數。
+* **[!UICONTROL Open]**：傳送至裝置的推播通知總數，並由使用者按一下開啓應用程式。這類似於推送點按除外，除非通知已關閉，否則無法觸發推送開啓。
 * **[!UICONTROL Unique Opens]**：開啓此傳送的收件者人數。
 

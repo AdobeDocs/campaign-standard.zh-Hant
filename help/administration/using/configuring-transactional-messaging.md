@@ -14,7 +14,7 @@ discoiquuid: 3f968556-e774-43dc-a0 b8-7188d7665 fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
+source-git-commit: 20b4d5dfb297cac4cd69fe6f945b4399abd7f06a
 
 ---
 
@@ -99,7 +99,7 @@ It is possible to enrich the transactional message content with information from
 
 ![](assets/message-center_usecaseschema.png)
 
-For more on resource creation and publishing, refer to [this page](../../developing/using/key-steps-of-adding-a-resource.md).
+For more on resource creation and publishing, refer to [this page](../../developing/using/key-steps-to-add-a-resource.md).
 
 1. In the **[!UICONTROL Enrichment]** section, click the **[!UICONTROL Create element]** button.
 
@@ -307,7 +307,7 @@ As we want to identify our client via his CRM ID, first make sure that the **[!U
 
 In the same way, a custom resource corresponding to purchases must have been created and published, and must be linked to the **[!UICONTROL Profile]** resource. 如此，您就可以擷取此資源的資訊，豐富訊息內容。
 
-For more on resource creation and publishing, refer to [this page](../../developing/using/key-steps-of-adding-a-resource.md).
+For more on resource creation and publishing, refer to [this page](../../developing/using/key-steps-to-add-a-resource.md).
 
 1. Create a new event using the **[!UICONTROL Email]** channel and the **[!UICONTROL Profile]** targeting dimension (see [Creating an event](../../administration/using/configuring-transactional-messaging.md#creating-an-event)).
 1. 定義將可個人化交易訊息的屬性。In our case, add the "CRM ID" and the "Product identifier" fields (see [Defining the event attributes](../../administration/using/configuring-transactional-messaging.md#defining-the-event-attributes)).

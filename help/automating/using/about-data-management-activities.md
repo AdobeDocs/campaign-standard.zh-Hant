@@ -14,7 +14,7 @@ discoiquuid: 332bd6be-6ca3-4d38-b608-8a66 c156 d080
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 51154892b2d5bd5685272735cdd6e7d9474e09a6
 
 ---
 
@@ -36,3 +36,4 @@ From the palette, on the left-hand side of the screen, unfold the **[!UICONTROL 
 * [摘取檔案](../../automating/using/extract-file.md)
 * [訂閱服務](../../automating/using/subscription-services.md)
 
+**[!UICONTROL Data management (ETL)]** 活動可讓您為其傳出轉場定義 **區段代碼** 。然後您可以根據這些區段代碼建立報表，以測量行銷活動的效率。For more on this, refer to [this section](../../reporting/using/creating-a-report-workflow-segment.md).

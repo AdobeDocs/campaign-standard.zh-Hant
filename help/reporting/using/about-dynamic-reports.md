@@ -10,7 +10,7 @@ products: SG_ CAMPAIGN/STANDARD
 audience: 報告功能
 content-type: reference
 topic-tags: 關於報表
-discoiquuid: bbb41c38-10c1-4625-85d5-69627e2f4b39
+discoiquuid: bbb41 c38-10c1-4625-85d5-69627e2 f4 b39
 internal: n
 snippet: y
 translation-type: tm+mt

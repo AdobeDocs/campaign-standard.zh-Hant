@@ -14,7 +14,7 @@ discoiquuid: 207fdf6d-165a-41af-ad53-ba97 d3403 b62
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b671da944fa3059d3a09bceda7d5142df984593c
+source-git-commit: 7de6436bbd4f1cc5032e13414f7337f637bf608a
 
 ---
 
@@ -193,6 +193,10 @@ There are two categories of content elements that you can use: **fragments** and
 
 使用電子郵件設計工具編輯電子郵件時，您可以直接將該電子郵件的部分儲存為片段。
 
+>[!CAUTION]
+>
+>您無法將結構儲存為包含個人化欄位、動態內容或其他片段的結構片段。
+
 1. When editing an email in the Email Designer, select **[!UICONTROL Save as fragment]** from the main toolbar.
 
    ![](assets/email_designer_save-as-fragment.png)
@@ -215,7 +219,7 @@ There are two categories of content elements that you can use: **fragments** and
 
    ![](assets/email_designer_save-as-fragment_list.png)
 
-1. 若要使用新片段，請開啓任何其他電子郵件內容，然後從片段清單中選取。
+1. 若要使用新片段，請開啓任何電子郵件內容，然後從片段清單中選取。
 
 ![](assets/email_designer_save-as-fragment_in-new-email.png)
 

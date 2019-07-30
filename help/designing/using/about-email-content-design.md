@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536 ab66 b3 b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 89c139e3e2934996e267f875ef7fc2502c27a028
+source-git-commit: 072843b5507dbae34b5d3924bf22f20b4edfa285
 
 ---
 
@@ -128,6 +128,26 @@ For more on converting an existing email into an Email Designer-compatible email
 * 您無法直接將其儲存為您在電子郵件設計人員內編輯的電子郵件內容。您需要將對應該內容的HTML複製到新片段中。For more on this, see [Saving content as a fragment](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment).
 * 編輯樣式時，只有大部分電子郵件用戶端才會提供正式支援的網頁字體。
 * 樣式無法儲存為主題，以便日後重復使用。不過，CSS樣式可以儲存在內容範本或電子郵件中。For more on styles, see [this section](../../designing/using/editing-email-styles.md).
+
+### Email Designer updates {#email-designer-updates}
+
+電子郵件設計人員正在不斷改進。如果您從頭開始建立電子郵件內容，從現成可用的範本或您建立的片段，就可以在下次開啓內容時收到下列更新訊息：
+
+![](assets/email_designer_fragment-patch-message.png)
+
+Adobe建議您將內容更新為最新版本，以避免發生CSS衝突問題。Click **[!UICONTROL Update now]**.
+
+如果內容更新期間發生錯誤，請檢查您的HTML並加以修正，然後再執行此更新。
+
+有關片段，請注意下列事項：
+
+* 如果您想要新增片段至新的電子郵件或範本，如果收到此訊息，您必須先更新此片段。
+
+* 如果您有多個片段，必須更新您要在電子郵件內容中使用的每個片段。
+
+* 為了避免對目前電子郵件訊息造成影響，因為其中有些可能處於準備階段或特定促銷活動中，您不想要變更，您可以選擇不更新部分片段。
+
+* 您仍然可以傳送未更新的片段，但無法編輯該片段的電子郵件。
 
 ## Designing an email content from scratch {#designing-an-email-content-from-scratch}
 

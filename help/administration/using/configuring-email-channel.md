@@ -15,7 +15,7 @@ context-tags: extAccountMail，概觀；EmailConfig，main；規則集，概觀�
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4d95fe00c1958399ff4d22d5f0e7762f895b4032
+source-git-commit: 8f737b1f66b40862d0e0f64cf7d7f4a2d4d29518
 
 ---
 
@@ -177,8 +177,6 @@ You can also add a **[!UICONTROL Description]** in the corresponding field and e
 
 可以全域變更重試次數(聯絡您的Adobe技術管理員)或每個傳送或傳送範本
 
-**[!UICONTROL Test SMTP delivery]** 此選項可讓您測試透過SMTP傳送訊息。這些訊息會經過處理，直到與SMTP伺服器連線，但不會傳送。For more information on configuring SMTP, refer to the [List of email SMTP parameters](../../administration/using/configuring-email-channel.md#list-of-email-smtp-parameters) section.
-
 #### Email format parameters {#email-format-parameters}
 
 您可以設定要傳送的電子郵件格式。有三個可用選項：
@@ -191,6 +189,24 @@ You can also add a **[!UICONTROL Description]** in the corresponding field and e
    >此選項包括這兩個版本的訊息。因此，這會影響傳送總處理能力，因為訊息大小較大。
 
 * **以文字格式傳送所有訊息**：訊息會以文字格式傳送。HTML格式不會傳送，但只有當收件者按一下訊息中的連結時，才會使用該格式。
+
+#### SMTP test mode {#smtp-test-mode}
+
+**[!UICONTROL Enable SMTP test mode]** 此選項可讓您透過SMTP連線測試傳送電子郵件，而不需實際傳送訊息。
+會處理訊息直到與SMTP伺服器連線，但不會傳送。
+
+![](assets/smtp-test-mode.png)
+
+電子郵件和電子郵件範本提供此選項。
+
+如果您為電子郵件範本啓用SMTP測試模式選項，則從此範本建立的所有電子郵件訊息都將啓用此選項。
+
+>[!CAUTION]
+>
+>當電子郵件啓用此選項時，不會傳送任何訊息直到未勾選訊息。
+>電子郵件或電子郵件範本控制面板中會顯示警告。
+
+For more information on configuring SMTP, refer to the [List of email SMTP parameters](../../administration/using/configuring-email-channel.md#list-of-email-smtp-parameters) section.
 
 ### Validity period parameters {#validity-period-parameters}
 

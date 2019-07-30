@@ -14,7 +14,7 @@ discoiquuid: dce9711-7fa6-4773-ba21-1d54 cda20 c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4d95fe00c1958399ff4d22d5f0e7762f895b4032
+source-git-commit: 55aed1eeb44d96b1029555e6afdc4e205262b563
 
 ---
 
@@ -27,9 +27,13 @@ source-git-commit: 4d95fe00c1958399ff4d22d5f0e7762f895b4032
 
 You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-notes.md).
 
-## Release 19.3 - July 30 {#release-19-3---july-2019}
+## Release 19.3 - July 2019 {#release-19-3---july-2019}
 
 ### New capabilities included in the release {#new-capabilities-included-in-the-release-19}
+
+External API Activity (Public Beta) - [Read more](../../automating/using/external-api.md)
+
+Report on workflow segment - [Read more](../../reporting/using/creating-a-report-workflow-segment.md)
 
 ### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-17}
 
@@ -37,7 +41,27 @@ Information was added in the [Calling a workflow with parameters](../../developi
 
 已新增資訊，說明如何使用工作流程外部訊號活動中宣告的事件變數個人化傳送的標籤。[閱讀更多資訊](../../developing/using/uc-calling-resource-id-key.md)
 
-## July 2019 {#release-july-2019}
+已新增新章節，瞭解如何在Adobe Campaign Standard中建立使用者。[閱讀更多資訊](../../administration/using/users-management.md)
+
+已為動態報表新增疑難排解。[閱讀更多資訊](../../reporting/using/troubleshooting.md)
+
+已新增說明不同應用程式內範本如何處理個人資訊的圖表。[閱讀更多資訊](../../channels/using/preparing-and-sending-an-in-app-message.md)
+
+有關如何將電子郵件內容儲存為電子郵件設計人員中片段的章節已更新。[閱讀更多資訊](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment)
+
+已新增警告，說明額外空格如何影響電子郵件內容的版面配置。[閱讀更多資訊](../../designing/using/adding-a-content-block.md#creating-custom-content-blocks)
+
+已新增電子郵件設計師建議的更新新章節。[閱讀更多資訊](../../designing/using/about-email-content-design.md#email-designer-updates)
+
+已新增有關如何使用真實客戶資料傳送校樣的新章節。[閱讀更多資訊](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs-using-additional-data)
+
+已新增有關工作流程最佳實務的新章節。[閱讀更多資訊](../../automating/using/best-practices-workflows.md)
+
+Campaign Standard和Classic的錯誤訊息清單已更新。[閱讀更多資訊](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+
+在自訂資源文件中新增警告。建議您對自訂資源ID使用30個字元上限。這也適用於自訂資源欄位、索引鍵、索引和連結。[閱讀更多資訊](../../developing/using/creating-or-extending-the-resource.md)
+
+## Documentation updates - July 2019 {#doc-updates-2019}
 
 新增著陸頁面限制的新頁面。[閱讀更多資訊](../../channels/using/landing-page-limitations.md)
 
@@ -45,7 +69,9 @@ Information was added in the [Calling a workflow with parameters](../../developi
 
 已新增建議，可在呼叫使用參數的工作流程時，在無匯總期間使用循環傳送。[閱讀更多資訊](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
-有關如何將電子郵件內容儲存為電子郵件設計人員中片段的章節已更新。[閱讀更多資訊](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment)
+Campaign Standard和Classic的錯誤訊息清單已更新。[閱讀更多資訊](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+
+在自訂資源文件中新增警告。建議您對自訂資源ID使用30個字元上限。這也適用於自訂資源欄位、索引鍵、索引和連結。[閱讀更多資訊](../../developing/using/creating-or-extending-the-resource.md)
 
 ## Release 19.2 - May 2019 {#release-19-2---may-2019}
 
@@ -170,8 +196,6 @@ Added information on the new option in the Query ( [Read more](../../automating/
 已在新的批次大小欄位上新增「更新資料活動」區段中的資訊，可讓您定義要上載資料的最大批次大小。[閱讀更多資訊](../../automating/using/update-data.md#configuration)
 
 已新增「摘取檔案活動」區段中的資訊，新選項可讓您在傳出轉場為空時停用檔案產生程序。[閱讀更多資訊](../../automating/using/extract-file.md#configuration)
-
-已新增有關如何更新Profiles&amp; Services Ext API的新技術附註。[閱讀更多資訊](https://helpx.adobe.com/campaign/kb/profile-service-api-update.html)
 
 ## Release 19.0 - January 2019 {#release-19-0---january-2019}
 

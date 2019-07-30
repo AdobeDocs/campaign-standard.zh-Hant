@@ -14,7 +14,7 @@ discoiquuid: 5c7bfb74-4002-3ffe-87e8-bddb41 d34 b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3b40e71ea9aa7e31c4ab8dcc46f78919328c8572
+source-git-commit: f6ac14bf13433444e71d58cf677681b30f4b620f
 
 ---
 
@@ -41,11 +41,11 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
  <tbody> 
   <tr> 
    <td> External API Activity (Public Beta)<br /> </td> 
-   <td> <p>為深入個人化，外部API活動可讓您透過REST API呼叫將資料從外部系統帶入工作流程。REST端點可以是客戶管理系統、Adobe I/Runtime或Adobe Experience Cloud REST端點(例如資料平台、Target、Analytics、Campaign)。</p><p>此功能目前仍在公開測試版中。</p><p>For more information, refer to the <a href="../../automating/using/external-api.md">detailed documentation</a>.</p></td> 
+   <td> <p>為深入個人化，外部API活動可讓您透過REST API呼叫將資料從外部系統帶入工作流程。REST端點可以是客戶管理系統、Adobe I/Runtime或Adobe Experience Cloud REST端點(例如資料平台、Target、Analytics、Campaign)。</p><p>此功能目前仍在公開測試版中。</p><p>For more information, refer to the <a href="../../automating/using/external-api.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">how-to video</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Report on workflow segment<br /> </td> 
-   <td> <p>此功能可讓行銷人員依區段代碼來劃分其遞送績效。當您建立工作流程並使用分段活動來指派區段給傳送人口時，這些區段現在可以進入同一個傳送。這可讓您根據單一傳送內的多個區段，顯示根據多個區段的統計資料。</p><p>For more information, refer to the <a href="../../reporting/using/creating-a-report-workflow-segment.md">detailed documentation</a>.</p></td> 
+   <td> <p>此功能可讓行銷人員依區段代碼來劃分其遞送績效。當您建立工作流程並使用分段活動來指派區段給傳送人口時，這些區段現在可以進入同一個傳送。這可讓您根據單一傳送內的多個區段，顯示根據多個區段的統計資料。</p><p>For more information, refer to the <a href="../../reporting/using/creating-a-report-workflow-segment.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html">how-to video</a>.</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -70,8 +70,8 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * 修正在動態內容中使用大於符號時，HTML輸出中斷的問題。(CAMP-33688)
 * 修正在電子郵件設計工具中編輯文字時，使用「還原」選項的問題。(CAMP-32565)
 * 修正在復原樣式而非移除樣式時建立額外標記的問題。(CAMP-32359)
-* 現在可以定義電子郵件中使用的每個影像只會顯示在桌面裝置上或僅在行動裝置上顯示。
-* 現在可以設定Social內容元件的寬度和高度。
+* 您現在可以定義電子郵件中使用的每個元件只會顯示在桌面裝置上，或僅顯示在行動裝置上。
+* 您現在可以設定Social內容元件的寬度和高度。
 * 修正在刪除動態內容後，動態內容舊碼無法移除的問題。
 * 修正電子郵件主體修改後無法更新的問題。
 * 修正無法使用n的問題：n欄結構一次被捨棄到工作區中。
@@ -91,6 +91,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * 您現在可以將傳送的標籤與工作流程外部訊號活動中宣告的事件變數個人化。For more on this, refer to the [detailed documentation](../../automating/using/calling-a-workflow-with-external-parameters.md).
 * GDPR刪除查詢已改進，以提高效能。(CAMP-33504)
 * 從外部帳戶設定介面移除「ftp」選項。(CAMP-34472)
+* 您現在可以啓用並停用每個電子郵件訊息的SFTP測試模式選項。For more on this, refer to the [detailed documentation](../../administration/using/configuring-email-channel.md#smtp-test-mode). (CAMP-34602)
 
 ### Other changes {#other-changes-2}
 
@@ -123,7 +124,6 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * 修正在設定包含訂閱的核取方塊欄位時，可能發生的著陸頁面問題。(CAMP-34369)
 * 修正設定清單並新增「圖示」欄位時發生的問題。(CAMP-34585)
 * 修正無法使用「|「%」符號做為載入檔案工作流程活動中的日期或時間分隔符號。(CAMP-34706)
-* 修正新增活動、儲存工作流程，然後點擊瀏覽器的「返回」按鈕時，工作流程中發生的問題。新增的活動已從工作區中移除。(CAMP-34788)
 * 修正使用可見度條件時，在著陸頁面中使用核取方塊的問題。(CAMP-34802)
 * 修正在「新增資料」標籤中，如果篩選維度設為追蹤記錄檔以及設定檔的目標維度時，「新增」活動無法顯示欄位的問題。
 * 修正匯出「WorkflowTemplate」資源時導致錯誤訊息的問題。

@@ -14,7 +14,7 @@ discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 36e04227f300d28d2c48da440ddab3ccf9281168
+source-git-commit: c555c35004ffe3c3d7e2f845a3a2707b1985e190
 
 ---
 
@@ -58,7 +58,7 @@ Note that segment codes will be collected as soon as you enable the segment code
 
 ## Step 2: Create a workflow with segments {#step-2--create-a-workflow-segments}
 
-[!NOTE]
+>[!NOTE]
 >如果電子郵件傳送的輸入轉換為空，則預設會新增先前轉場的區段代碼。
 
 您首先需要建立具有不同目標人群的工作流程。在這裡，我們想要傳送一封會根據觀眾年齡而個人化的電子郵件：一次提供20到30年的個人檔案，另一份則適用於30到40歲的個人檔案。

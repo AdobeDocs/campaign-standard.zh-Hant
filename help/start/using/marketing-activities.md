@@ -15,7 +15,7 @@ context-tags: 活動，概述
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 77b0933bcd004cedc6a58f80717a4284b284e0cd
+source-git-commit: a0823161ff03fac0a617c3d89a8d3cac0ed3afb9
 
 ---
 
@@ -51,6 +51,7 @@ To access the marketing activity list, choose the **[!UICONTROL Marketing activi
 * ![](assets/marketing_email_icon.png) ：電子郵件
 * ![](assets/marketing_sms_icon.png) ：SMS
 * ![](assets/marketing_push_icon.png) ：推播通知
+* ![](assets/marketing_lp_icon.png) ：應用程式內訊息
 * ![](assets/marketing_lp_icon.png) ：著陸頁面
 * ![](assets/marketing_workflow_icon.png) ：工作流程
 

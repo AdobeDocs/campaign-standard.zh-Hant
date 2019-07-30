@@ -15,7 +15,7 @@ context-tags: Exce會員，概觀
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cb6396228e42f99f7e184a82e6c894b09a164cd9
+source-git-commit: 663ce734a79d7895e1e5cbd6d5756447d42299fd
 
 ---
 
@@ -128,3 +128,42 @@ You can manage your test profiles from the advanced menu **[!UICONTROL Profiles 
 **相關主題：**
 
 [傳送測試、準備和傳送電子郵件](https://helpx.adobe.com/campaign/kt/acs/using/acs-sending-test-preparing-sending-email-feature-video-use.html) 視訊
+
+## Sending proofs using additional data {#sending-proofs-using-additional-data}
+
+本節說明如何使用透過工作流程存取的真實客戶資料傳送校樣，而非使用偽造測試描述檔資料。這可讓您檢查工作流程中使用的變數是否正確，並取得收件人將收到的訊息檢視。
+
+1. Create a test profile and enable **[!UICONTROL Proof]** and **[!UICONTROL Trap]** as the intended usage. For more on this, see [Managing test profiles](../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles).
+
+   此測試設定檔會成為目標對象的一部分。
+
+   >[!NOTE]
+   >
+   >使用測試描述檔做為陷阱時，對於訊息中任何豐富的欄位，會隨機挑選對應的額外資料，並指派給陷阱測試描述檔。
+
+1. 存取行銷活動清單並建立測試工作流程。
+
+   See [Creating a workflow](../../automating/using/building-a-workflow.md#creating-a-workflow).
+
+1. Drag and drop a **[!UICONTROL Query]** activity into your workflow and open it.
+
+   The Query activity is presented in the [Query](../../automating/using/query.md) section.
+
+1. 從連結表格新增其他資料。For more on this, see [Enriching data](../../automating/using/query.md#enriching-data).
+
+1. Drag and drop an **Email delivery** activity into your workflow and open it.
+
+   The Email delivery activity is presented in the [Email delivery](../../automating/using/email-delivery.md) section.
+
+1. 從電子郵件訊息控制面板，選取您建立的具有補漏白使用的測試設定檔。
+
+1. 使用您在查詢活動中定義的其他資料，新增至您的電子郵件內容個人化欄位。
+
+1. 儲存電子郵件並開始工作流程。
+
+在訊息準備期間，目標計數包括您選取的測試設定檔。
+傳送訊息後，其他資料會由來自實際描述檔的資料取代。
+
+>[!NOTE]
+>
+>只會取代其他資料。測試描述檔不會使用真實描述檔資料，例如名字或姓氏。

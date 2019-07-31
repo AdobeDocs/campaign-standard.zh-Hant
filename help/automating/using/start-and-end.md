@@ -14,7 +14,7 @@ discoiquuid: a0a8a725-8ede-4626-9798-b86924 b58 bb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 6748e59aaeafce9dc6e77dc0664a9024a53c3e35
 
 ---
 
@@ -49,7 +49,7 @@ Using the **[!UICONTROL External signal]** tab of an **[!UICONTROL End]** activi
 
 ## Example {#example}
 
-The following example shows how a complex workflow is executed with a **[!UICONTROL Start]** activity and several **[!UICONTROL End]** activities. **[!UICONTROL Stop all tasks in progress]** 已檢查此方塊是否為第一 **[!UICONTROL End]** 個活動。Once the corresponding task is finished, the entire workflow will be stopped: it will have the same effect as if the ![](assets/stop_darkgrey-24px.png) button had been selected (refer to the [Action bar](../../automating/using/workflow-interface.md#action-bar) section)
+The following example shows how a complex workflow is executed with a **[!UICONTROL Start]** activity and several **[!UICONTROL End]** activities. **[!UICONTROL Stop all tasks in progress]** 已檢查此方塊是否為第一 **[!UICONTROL End]** 個活動。Once the corresponding task is finished, the entire workflow will be stopped: it will have the same effect as if the ![](assets/stop_darkgrey-24px.png) button had been selected (refer to the [Action bar](../../automating/using/workflow-interface.md#action-bar) section).
 
 ![](assets/wkf_start_end_example.png)
 

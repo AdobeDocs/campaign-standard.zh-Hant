@@ -15,7 +15,7 @@ context-tags: workflow，main；工作流程，概觀
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ff0b995533f34dd8eab7a9a82feaab3ceed4ff29
+source-git-commit: 6748e59aaeafce9dc6e77dc0664a9024a53c3e35
 
 ---
 
@@ -26,8 +26,8 @@ source-git-commit: ff0b995533f34dd8eab7a9a82feaab3ceed4ff29
 
 工作流程編輯畫面由下列元素組成：
 
-* The [Palette](../../automating/using/workflow-interface.md#palette), which references the available activities
-* [The Workspace](../../automating/using/workflow-interface.md#workspace)，which the activity are configured and organized
+* The [Palette](../../automating/using/workflow-interface.md#palette), which references the available activities.
+* [工作區](../../automating/using/workflow-interface.md#workspace)，活動是設定和組織的。
 * [動作列](../../automating/using/workflow-interface.md#action-bar)由按鈕組成，可讓您與工作流程及/或其元件互動。
 * [快速動作](../../automating/using/workflow-interface.md#quick-actions)會出現在選取活動周圍，可讓您與其互動。
 

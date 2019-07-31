@@ -12,7 +12,7 @@ context-tags: ExternalAPI，工作流程，主要
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eb908d4e0ff23319025d3193bb9b22d006b5901e
+source-git-commit: 6748e59aaeafce9dc6e77dc0664a9024a53c3e35
 
 ---
 
@@ -197,7 +197,7 @@ This tab lets you activate the **outbound transition** and its label. This speci
   <tr> 
    <td> WKF-560246- HTTP標題索引鍵不好(標題金鑰：'% s')。</td> 
    <td> <p>HTTP標題金鑰不好(標題索引鍵：'% s')。</p>
-   <p> 注意：當自訂標題金鑰無法根據[RFC]驗證時，會記錄此錯誤(https://tools.ietf.org/html/rfc7230#section-3.2.html)</p></td> 
+   <p> Note: This error is logged when the custom header key fails validation according to <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a></p></td> 
   </tr>
  <tr> 
    <td> 無法使用WKF-560248- HTTP標題金鑰(標題金鑰：'% s')。</td> 
@@ -206,7 +206,7 @@ This tab lets you activate the **outbound transition** and its label. This speci
   <tr> 
    <td> WKF-560247- AHTTP標題值不佳(標題值：'% s')。</td> 
    <td> <p>HTTP標題值不好(標題值：'% s')。 </p>
-    <p>注意：當自訂標題值根據[RFC]驗證失敗時，會記錄此錯誤(https://tools.ietf.org/html/rfc7230#section-3.2.html)</p></td> 
+    <p>Note: This error is logged when the custom header value fails validation according to <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a></p></td> 
   </tr> 
   <tr> 
    <td> WKF-560240- JSON裝載有不良屬性'%s'。</td> 

@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536 ab66 b3 b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 072843b5507dbae34b5d3924bf22f20b4edfa285
+source-git-commit: ed67b5e68aa308a6bf54348d4b86f223aec969dd
 
 ---
 
@@ -133,7 +133,7 @@ For more on converting an existing email into an Email Designer-compatible email
 
 電子郵件設計人員正在不斷改進。如果您從頭開始建立電子郵件內容，從現成可用的範本或您建立的片段，就可以在下次開啓內容時收到下列更新訊息：
 
-![](assets/email_designer_fragment-patch-message.png)
+![](assets/email_designer_fragment_patch_message.png)
 
 Adobe建議您將內容更新為最新版本，以避免發生CSS衝突問題。Click **[!UICONTROL Update now]**.
 
@@ -181,7 +181,7 @@ You can also check out this [introduction video](https://video.tv.adobe.com/v/22
 
 本節說明如何將現有電子郵件轉換為電子郵件設計人員相容電子郵件。
 
-By default, if you just upload any HTML (see [Importing content from a file](../../designing/using/importing-content-from-a-file.md)), the content is loaded in ' [compatibility mode](../../designing/using/about-email-content-design.md#email-designer-compatibility-mode)', which limits the edition possibilities through the UI (only in-place edition, no drag-and-drop).
+By default, if you just upload any HTML (see [Importing content from a file](../../designing/using/importing-content-from-a-file.md)), the content is loaded in '[compatibility mode](../../designing/using/about-email-content-design.md#email-designer-compatibility-mode)', which limits the edition possibilities through the UI (only in-place edition, no drag-and-drop).
 
 不過，如果您想要建立模組化範本和片段的架構，以便結合在多封電子郵件中，則應考慮將電子郵件HTML轉換為電子郵件設計人員範本。
 

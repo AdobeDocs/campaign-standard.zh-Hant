@@ -14,7 +14,7 @@ discoiquuid: dce9711-7fa6-4773-ba21-1d54 cda20 c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 55aed1eeb44d96b1029555e6afdc4e205262b563
+source-git-commit: 03f7f16b3c4ae82da87fdbe1548791fd905dff67
 
 ---
 
@@ -37,11 +37,17 @@ Report on workflow segment - [Read more](../../reporting/using/creating-a-report
 
 ### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-17}
 
-Information was added in the [Calling a workflow with parameters](../../developing/using/uc-calling-resource-id-key.md) section. 它指定傳遞是根據其匯總期間來準備，如果您計劃一天呼叫工作流程，則應確定他們沒有任何期間。
+促銷活動標準實施指南現在已上線。[閱讀更多資訊](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html)
 
-已新增資訊，說明如何使用工作流程外部訊號活動中宣告的事件變數個人化傳送的標籤。[閱讀更多資訊](../../developing/using/uc-calling-resource-id-key.md)
+已建立有關Microsoft Dynamics365連接器實作與用法的新說明文章集。請注意，此功能目前處於有限可用性。[閱讀更多資訊](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
+
+A note has been added in the [Calling a workflow with parameters](../../automating/using/calling-a-workflow-with-external-parameters.md) section about delivery preparation and their aggregation period.
+
+已新增資訊，說明如何使用工作流程外部訊號活動中宣告的事件變數個人化傳送的標籤。[閱讀更多資訊](../../automating/using/external-signal.md)
 
 已新增新章節，瞭解如何在Adobe Campaign Standard中建立使用者。[閱讀更多資訊](../../administration/using/users-management.md)
+
+現在提供一篇新文章，可用來簡化行銷宣傳，包括產品文件和教學課程影片的連結。[閱讀更多資訊](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html)
 
 已為動態報表新增疑難排解。[閱讀更多資訊](../../reporting/using/troubleshooting.md)
 

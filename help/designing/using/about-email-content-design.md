@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536 ab66 b3 b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ed67b5e68aa308a6bf54348d4b86f223aec969dd
+source-git-commit: f85995fc5a331b57e42a58d979940751dbe7ce97
 
 ---
 
@@ -484,7 +484,7 @@ Adobe Campaign Standard與Dreamweaver的整合可讓您在Dreamweaver介面中�
 
 * **在Dreamweaver中新增促銷活動個人化**
 
-   For the email developer there is no longer a need to add text like [[FIRSTNAME_PLACEHOLDER]] nor to look up the syntax of your data model’s tables. Dreamweaver中的促銷活動工具列會直接連線至您的促銷活動例項資料模型。也就是說，您可以從「名字」之類的「名字」中提取個人化的任何資料。如果您已在Campaign中建立了「內容區塊」，也可以直接將這些區塊提取到Dreamweaver中。
+   For the email developer there is no longer a need to add text like ```[[FIRSTNAME_PLACEHOLDER]]``` nor to look up the syntax of your data model’s tables. Dreamweaver中的促銷活動工具列會直接連線至您的促銷活動例項資料模型。也就是說，您可以從「名字」之類的「名字」中提取個人化的任何資料。如果您已在Campaign中建立了「內容區塊」，也可以直接將這些區塊提取到Dreamweaver中。
 
 This capability is detailed in the Dreamweaver Documentation accessible [here](https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html). A demonstration [video](https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html) is also available.
 

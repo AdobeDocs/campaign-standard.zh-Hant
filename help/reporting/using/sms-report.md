@@ -14,14 +14,14 @@ discoiquuid: a9afbb76-d2 b3-44c7-b97 a-1694501aa913
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 82df97bb1fe4d65f204fc55ebcedd0c47337a8e7
 
 ---
 
 
-# SMS report{#sms-report}
+# SMS報告{#sms-report}
 
-** SMS**報告提供SMS傳送的詳細資訊，例如傳送和反彈率。
+**SMS** 報告提供SMS傳送的詳細資訊，例如傳送和反彈率。
 
 ![](assets/dynamic_report_sms.png)
 

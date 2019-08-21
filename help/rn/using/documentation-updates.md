@@ -14,34 +14,38 @@ discoiquuid: dce9711-7fa6-4773-ba21-1d54 cda20 c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3cb698bc5025a59771128a8df493e7e126f00cab
+source-git-commit: 7364d547cabe9ae83b43ab964bf57e48338130f8
 
 ---
 
 
-# Documentation Updates{#documentation-updates}
+# 文件更新{#documentation-updates}
 
 瞭解Adobe Campaign Standard文件的所有最新更新。
 
 本頁列出每個Adobe Campaign Standard版本的所有新功能和文件更新。
 
-You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-notes.md).
+您也可以參閱Adobe Campaign [發行說明](../../rn/using/release-notes.md)。
 
-## Release 19.3 - July 2019 {#release-19-3---july-2019}
+## 文件更新-2019年月 {#doc-updates-august-2019}
 
-### New capabilities included in the release {#new-capabilities-included-in-the-release-19}
+在工作流程疑難排解區段中新增了一個程序，說明如何在「記錄檔」索引標籤中顯示SQL查詢。[閱讀更多資訊](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
 
-External API Activity (Public Beta) - [Read more](../../automating/using/external-api.md)
+## 發行版本19.3-2019年月 {#release-19-3---july-2019}
 
-Report on workflow segment - [Read more](../../reporting/using/creating-a-report-workflow-segment.md)
+### 發行中包含的新功能 {#new-capabilities-included-in-the-release-19}
 
-### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-17}
+外部API活動(公開測試版)- [閱讀更多資訊](../../automating/using/external-api.md)
+
+有關工作流程區段的報告- [閱讀更多資訊](../../reporting/using/creating-a-report-workflow-segment.md)
+
+### 發行版本的其他文件更新 {#other-documentation-updates-coming-with-the-release-17}
 
 促銷活動標準實施指南現在已上線。[閱讀更多資訊](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html)
 
 已建立有關Microsoft Dynamics365連接器實作與用法的新說明文章集。請注意，此功能目前處於有限可用性。[閱讀更多資訊](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
 
-A note has been added in the [Calling a workflow with parameters](../../automating/using/calling-a-workflow-with-external-parameters.md) section about delivery preparation and their aggregation period.
+在「呼叫工作流程 [」中新增了有關傳送準備及其匯總期間的參數](../../automating/using/calling-a-workflow-with-external-parameters.md) 區段。
 
 已新增資訊，說明如何使用工作流程外部訊號活動中宣告的事件變數個人化傳送的標籤。[閱讀更多資訊](../../automating/using/external-signal.md)
 
@@ -67,7 +71,7 @@ Campaign Standard和Classic的錯誤訊息清單已更新。[閱讀更多資訊]
 
 在自訂資源文件中新增警告。建議您對自訂資源ID使用30個字元上限。這也適用於自訂資源欄位、索引鍵、索引和連結。[閱讀更多資訊](../../developing/using/creating-or-extending-the-resource.md)
 
-## Documentation updates - July 2019 {#doc-updates-2019}
+## 文件更新-2019年月 {#doc-updates-2019}
 
 新增著陸頁面限制的新頁面。[閱讀更多資訊](../../channels/using/landing-page-limitations.md)
 
@@ -79,19 +83,19 @@ Campaign Standard和Classic的錯誤訊息清單已更新。[閱讀更多資訊]
 
 在自訂資源文件中新增警告。建議您對自訂資源ID使用30個字元上限。這也適用於自訂資源欄位、索引鍵、索引和連結。[閱讀更多資訊](../../developing/using/creating-or-extending-the-resource.md)
 
-## Release 19.2 - May 2019 {#release-19-2---may-2019}
+## 發行版本19.2-2019年月 {#release-19-2---may-2019}
 
-### New capabilities included in the release {#new-capabilities-included-in-the-release}
+### 發行中包含的新功能 {#new-capabilities-included-in-the-release}
 
-Control Panel - [Read more](https://helpx.adobe.com/campaign/kb/control-panel.html)
+控制面板- [閱讀更多資訊](https://helpx.adobe.com/campaign/kb/control-panel.html)
 
-Local notifications - [Read more](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
+本機通知- [閱讀更多資訊](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
 
-Workflow enhancement - Add a payload to external signal activity - [Read more](../../automating/using/calling-a-workflow-with-external-parameters.md)
+工作流程增強功能-新增裝載至外部訊號活動- [閱讀更多資訊](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
-Landing Pages enhancement - Google reCAPTCHA - [Read more](../../channels/using/designing-a-landing-page.md#setting-google-recaptcha)
+著陸頁面增強功能- Google ReCAPTCHA- [閱讀更多資訊](../../channels/using/designing-a-landing-page.md#setting-google-recaptcha)
 
-### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release}
+### 發行版本的其他文件更新 {#other-documentation-updates-coming-with-the-release}
 
 網域名稱委派文章已更新。[閱讀更多資訊](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html)
 
@@ -99,13 +103,13 @@ Landing Pages enhancement - Google reCAPTCHA - [Read more](../../channels/using/
 
 直接從Adobe Campaign提供的上下文說明連結已更新。
 
-The following [page](https://helpx.adobe.com/campaign/kt/acs/index/acs-videos.html) becomes the official Videos page for Adobe Campaign Standard.
+以下 [頁面](https://helpx.adobe.com/campaign/kt/acs/index/acs-videos.html) 變為Adobe Campaign Standard的正式影片頁面。
 
 新增資料保留的區段，其中包含標準表格的預設保留值。[閱讀更多資訊](../../administration/using/data-retention.md)
 
 已新增有關更新和維護作業的章節。[閱讀更多資訊](../../administration/using/updates-and-maintenance-operations.md)
 
-Information was added on the new sorting option in the **Transfer file** activity. [閱讀更多資訊](../../automating/using/transfer-file.md)
+「 **轉移」檔案** 活動中新的排序選項新增了資訊。[閱讀更多資訊](../../automating/using/transfer-file.md)
 
 [REST API文件](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html) 已更新：
 
@@ -115,7 +119,7 @@ Information was added on the new sorting option in the **Transfer file** activit
 * 已新增有關如何建立服務的資訊。
 * 已新增有關如何使用參數來呼叫工作流程的資訊。
 
-Information was added on the new **Test** activity. [閱讀更多資訊](../../automating/using/test.md)
+新增 **「測試** 」活動的資訊。[閱讀更多資訊](../../automating/using/test.md)
 
 自動化指南已更新，並連結至相關工作流程活動。[閱讀更多資訊](../../automating/using/workflow-interface.md#palette)
 
@@ -147,19 +151,19 @@ Information was added on the new **Test** activity. [閱讀更多資訊](../../a
 
 Dreamweaver整合區段已更新並改善。[閱讀更多資訊](../../designing/using/about-email-content-design.md#editing-content-in-dreamweaver)
 
-## Release 19.1 - February 2019 {#release-19-1---february-2019}
+## 發行版本19.1-2019年月 {#release-19-1---february-2019}
 
-### New capabilities included in the release {#new-capabilities-included-in-the-release-1}
+### 發行中包含的新功能 {#new-capabilities-included-in-the-release-1}
 
-Push Channel Reporting improvements - [Read more](../../reporting/using/push-notification-report.md)
+推送管道報告改進- [閱讀更多資訊](../../reporting/using/push-notification-report.md)
 
-Launch integration for Mobile App - [Read more](../../administration/using/configuring-a-mobile-application.md#using-adobe-experience-platform-sdk)
+啓動行動應用程式的整合- [閱讀更多資訊](../../administration/using/configuring-a-mobile-application.md#using-adobe-experience-platform-sdk)
 
-Mobile In-App Messaging - [Read more](../../channels/using/about-in-app-messaging.md)
+行動應用程式內訊息- [閱讀更多資訊](../../channels/using/about-in-app-messaging.md)
 
-Workflow enhancements - Read more [here](../../automating/using/workflow-interface.md#duplicating-workflow-activities) and [here](../../automating/using/load-file.md#configuration)
+工作流程增強功能-在 [這裡](../../automating/using/workflow-interface.md#duplicating-workflow-activities) 和 [這裡閱讀更多資訊](../../automating/using/load-file.md#configuration)
 
-### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-1}
+### 發行版本的其他文件更新 {#other-documentation-updates-coming-with-the-release-1}
 
 新增電子郵件內容及電子郵件設計人員其他增強功能的新入門體驗已新增至「編輯電子郵件內容」章節。[閱讀更多資訊](../../designing/using/about-email-content-design.md#email-designer-home-page)
 
@@ -197,29 +201,29 @@ Campaign Standard和Classic的錯誤訊息清單已更新。[閱讀更多資訊]
 
 已新增有關如何透過複製貼上作業複製工作流程活動的新章節。[閱讀更多資訊](../../automating/using/workflow-interface.md#duplicating-workflow-activities)
 
-Added information on the new option in the Query ( [Read more](../../automating/using/query.md)) and Segmentation ( [Read more](../../automating/using/segmentation.md)) activities, that lets you add an outbound transition after the activity if it retrieves no data.
+已新增查詢查詢( [詳細說明](../../automating/using/query.md))和區段( [詳細資訊)活動](../../automating/using/segmentation.md)的新選項，可讓您在活動擷取無資料後新增傳出轉場。
 
 已在新的批次大小欄位上新增「更新資料活動」區段中的資訊，可讓您定義要上載資料的最大批次大小。[閱讀更多資訊](../../automating/using/update-data.md#configuration)
 
 已新增「摘取檔案活動」區段中的資訊，新選項可讓您在傳出轉場為空時停用檔案產生程序。[閱讀更多資訊](../../automating/using/extract-file.md#configuration)
 
-## Release 19.0 - January 2019 {#release-19-0---january-2019}
+## 發行版本19.0-2019年月 {#release-19-0---january-2019}
 
-### New capabilities included in the release {#new-capabilities-included-in-the-release-2}
+### 發行中包含的新功能 {#new-capabilities-included-in-the-release-2}
 
-Email Designer General Availability - [Read more](../../designing/using/about-email-content-design.md)
+電子郵件設計人員一般可用性- [閱讀更多資訊](../../designing/using/about-email-content-design.md)
 
-Product Listings in Transactional Emails - [Read more](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)
+交易電子郵件中的產品清單- [閱讀更多資訊](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)
 
-Mobile View in the Email Designer - [Read more](../../designing/using/about-email-content-design.md#switching-to-mobile-view)
+電子郵件設計人員中的行動檢視- [閱讀更多資訊](../../designing/using/about-email-content-design.md#switching-to-mobile-view)
 
-In-App Messaging Beta Improvements - [Read more](../../channels/using/about-in-app-messaging.md)
+應用程式內訊息測試版改進- [閱讀更多資訊](../../channels/using/about-in-app-messaging.md)
 
-### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-2}
+### 發行版本的其他文件更新 {#other-documentation-updates-coming-with-the-release-2}
 
 「設計內容指南」已更新，以反映電子郵件設計人員一般可用性，舊版電子郵件內容編輯器淘汰。[閱讀更多資訊](../../designing/using/about-email-content-design.md)
 
-Updated the [In-app](../../channels/using/about-in-app-messaging.md) and [Push notification](../../channels/using/about-push-notifications.md) documentation.
+更新 [應用程式內](../../channels/using/about-in-app-messaging.md) 和 [推播通知](../../channels/using/about-push-notifications.md) 文件。
 
 已新增更多有關Adobe Campaign中不同受眾類型的資訊。[閱讀更多資訊](../../audiences/using/about-audiences.md)
 
@@ -229,29 +233,29 @@ Updated the [In-app](../../channels/using/about-in-app-messaging.md) and [Push n
 
 已新增有關「更新資料活動」中新欄位的資訊，可讓您設定要上載資料的最大批次大小。[閱讀更多資訊](../../automating/using/update-data.md)
 
-Updated the [Importing content from a URL](../../designing/using/importing-content-from-a-url.md) documentation with information related to the Email designer.
+從URL [](../../designing/using/importing-content-from-a-url.md) 文件中更新匯入內容，其中包含與電子郵件設計人員相關的資訊。
 
 Microsoft Edge(最新版本)已新增至適用於電腦的相容瀏覽器清單中。[閱讀更多資訊](../../start/using/compatible-browsers.md)
 
 已新增有關「摘取檔案活動」中的新選項，此選項可防止傳入的轉場為空白時產生檔案。[閱讀更多資訊](../../automating/using/extract-file.md)
 
-The Configuring a mobile application using SDK V4 section has been moved [here](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html).
+使用SDK V區段設定行動應用程式已移至 [此處](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)。
 
-The Configuring a mobile application using Adobe Experience Platform SDKs section has been moved [here](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
+使用Adobe Experience Platform SDK區段設定行動應用程式已移至 [此處](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)。
 
-Videos have been updated and moved [here](https://helpx.adobe.com/campaign/kt/acs/index/acs-videos.html).
+視訊已更新並移到 [此處](https://helpx.adobe.com/campaign/kt/acs/index/acs-videos.html)。
 
 更新使用者的類型。[閱讀更多資訊](../../administration/using/users-management.md)
 
-## Release 18.9 - September 2018 {#release-18-9---september-2018}
+## 發行版本18.9-2018年月 {#release-18-9---september-2018}
 
-### New capabilities included in the release {#new-capabilities-included-in-the-release-3}
+### 發行中包含的新功能 {#new-capabilities-included-in-the-release-3}
 
-In-App messaging (beta) - [Read more](../../channels/using/about-in-app-messaging.md)
+應用程式內傳訊(測試版)- [閱讀更多資訊](../../channels/using/about-in-app-messaging.md)
 
-Adobe Launch integration for mobile apps (beta) - [Read more](../../administration/using/about-typology-rules.md#typology-rules)
+Adobe Launch整合行動應用程式(測試版)- [閱讀更多資訊](../../administration/using/about-typology-rules.md#typology-rules)
 
-### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-3}
+### 發行版本的其他文件更新 {#other-documentation-updates-coming-with-the-release-3}
 
 更新推播通知指南與介面變更。[閱讀更多資訊](../../channels/using/about-push-notifications.md)
 
@@ -259,15 +263,15 @@ Adobe Launch integration for mobile apps (beta) - [Read more](../../administrati
 
 已更新推送通知的立即可用報表區段。[閱讀更多資訊](../../reporting/using/push-notification-report.md)
 
-## Release 18.7 - July 2018 {#release-18-7---july-2018}
+## 發行版本18.7-2018年月 {#release-18-7---july-2018}
 
-### New capabilities included in the release {#new-capabilities-included-in-the-release-4}
+### 發行中包含的新功能 {#new-capabilities-included-in-the-release-4}
 
 [行動應用程式用戶端的高優先順序標幟](../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android) 和 [打字篩選](../../administration/using/about-typology-rules.md#typology-rules) 。
 
 自動化內容在準備時從URL匯入。[閱讀更多資訊](../../designing/using/importing-content-from-a-url.md#retrieving-content-from-a-url-automatically-at-preparation-time)
 
-### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-4}
+### 發行版本的其他文件更新 {#other-documentation-updates-coming-with-the-release-4}
 
 已新增有關SMS連接器通訊協定和設定的新技術附註。[閱讀更多資訊](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html)
 
@@ -277,19 +281,19 @@ Adobe Launch integration for mobile apps (beta) - [Read more](../../administrati
 
 透過建立您現有電子郵件中的片段，瞭解如何透過Creative SDK完全編輯外部內容。[閱讀更多資訊](../../designing/using/about-email-content-design.md#using-fragments-and-components)
 
-The list of HTML attributes for full compliance with the Creative Designer is now available in this [section](../../designing/using/editing-existing-contents-with-the-email-designer.md).
+本 [節](../../designing/using/editing-existing-contents-with-the-email-designer.md)提供HTML屬性清單，以完全符合Creative Designer的規定。
 
 已新增多語言範本預設語言的資訊。[閱讀更多資訊](../../start/using/creating-a-multilingual-template.md)
 
 使用者與安全性指南已更新，以反映新的Campaign Standard例項中地理單位功能的折舊，以及未建立的現有例項(開始於18.7版)。[閱讀更多資訊](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
-## Release 18.6 - June 2018 {#release-18-6---june-2018}
+## 發行版本18.6-2018年月 {#release-18-6---june-2018}
 
-### New capabilities included in the release {#new-capabilities-included-in-the-release-5}
+### 發行中包含的新功能 {#new-capabilities-included-in-the-release-5}
 
-The API documentation was updated with information on the **History** API. 新增了一個使用案例，說明如何擷取鏡像頁面以傳送至描述檔。[閱讀更多資訊](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#how-to-retrieve-the-mirror-page-for-a-delivery-sent-to-a-profile)
+API文件已更新，內含 **歷史** API的相關資訊。新增了一個使用案例，說明如何擷取鏡像頁面以傳送至描述檔。[閱讀更多資訊](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#how-to-retrieve-the-mirror-page-for-a-delivery-sent-to-a-profile)
 
-### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-5}
+### 發行版本的其他文件更新 {#other-documentation-updates-coming-with-the-release-5}
 
 觸發項目-促銷活動整合文件已更新並重新組織。[閱讀更多資訊](../../integrating/using/about-adobe-experience-cloud-triggers.md)
 
@@ -301,21 +305,21 @@ The API documentation was updated with information on the **History** API. 新�
 
 已在查詢活動區段中新增範例，說明如何定位在傳送中點擊特定連結的設定檔。[閱讀更多資訊](../../automating/using/query.md#targeting-profiles-who-clicked-a-specific-link-)
 
-Added a section in the API documentation related to **custom filters**. [閱讀更多資訊](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering)
+已新增API文件中與 **自訂篩選相關的章節**。[閱讀更多資訊](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering)
 
-## Release 18.5 - May 2018 {#release-18-5---may-2018}
+## 發行版本18.5-2018年月 {#release-18-5---may-2018}
 
-### New capabilities included in the release {#new-capabilities-included-in-the-release-6}
+### 發行中包含的新功能 {#new-capabilities-included-in-the-release-6}
 
-GDPR: Core Service Integration - [Read more](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)
+GDPR：核心服務整合- [閱讀更多資訊](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)
 
-Push improvements - detailed delivery feedback - [Read more](../../channels/using/preparing-and-sending-a-push-notification.md#sending-the-notification)
+推播改進-詳細的傳送回饋- [閱讀更多資訊](../../channels/using/preparing-and-sending-a-push-notification.md#sending-the-notification)
 
-Delivery logs extension - [Read more](../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension)
+傳送記錄延伸功能- [閱讀更多資訊](../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension)
 
-Dynamic reporting with Custom profile data - [Read more](../../channels/using/creating-a-multilingual-push-notification.md)
+使用自訂描述檔資料進行動態報告- [閱讀更多資訊](../../channels/using/creating-a-multilingual-push-notification.md)
 
-### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-6}
+### 發行版本的其他文件更新 {#other-documentation-updates-coming-with-the-release-6}
 
 新增Analytics中的促銷活動度量清單。[閱讀更多資訊](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
 
@@ -337,19 +341,19 @@ Dynamic reporting with Custom profile data - [Read more](../../channels/using/cr
 
 內容編輯器文件的某些頁面已合併，以提供更完整的可用動作檢視。[閱讀更多資訊](../../designing/using/about-email-content-design.md)
 
-## Release 18.3 - March 2018 {#release-18-3---march-2018}
+## 發行版本18.3-2018年月 {#release-18-3---march-2018}
 
-### New capabilities included in the release {#new-capabilities-included-in-the-release-7}
+### 發行中包含的新功能 {#new-capabilities-included-in-the-release-7}
 
-EU General Data Protection Regulation (GDPR) - [Read more](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)
+歐盟通用資料保護規則(GDPR)- [閱讀更多資訊](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)
 
-Creative Designer for Email - [Read more](../../designing/using/about-email-content-design.md#about-the-email-designer)
+電子郵件創意設計人員- [閱讀更多資訊](../../designing/using/about-email-content-design.md#about-the-email-designer)
 
-Multilingual Push Deliveries - [Read more](../../channels/using/creating-a-multilingual-push-notification.md)
+多語言推播傳送- [閱讀更多資訊](../../channels/using/creating-a-multilingual-push-notification.md)
 
-Use of Custom Resources in Transactional Messaging - [Read more](../../administration/using/configuring-transactional-messaging.md)
+在交易訊息中使用自訂資源- [閱讀更多資訊](../../administration/using/configuring-transactional-messaging.md)
 
-### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-7}
+### 發行版本的其他文件更新 {#other-documentation-updates-coming-with-the-release-7}
 
 允許自動處理GDPR請求的GDPR API regrops功能。[閱讀更多資訊](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#gdpr-api)
 
@@ -359,7 +363,7 @@ Use of Custom Resources in Transactional Messaging - [Read more](../../administr
 
 已新增TechNote以瞭解如何產生多語言CSV檔案以用於推播通知。[閱讀更多](http://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html)資訊。
 
-Added information on the **Update Direct mail quarantines and delivery logs** import template. [閱讀更多資訊](../../automating/using/defining-import-templates.md)
+已新增有關 **「更新直接郵件四分位數」和「傳送記錄檔** 」範本的資訊。[閱讀更多資訊](../../automating/using/defining-import-templates.md)
 
 更新技術工作流程清單。[閱讀更多資訊](../../administration/using/technical-workflows.md)
 
@@ -369,31 +373,31 @@ Added information on the **Update Direct mail quarantines and delivery logs** im
 
 更新促銷活動標準產品中的相關說明。
 
-## Release 18.2 - February 2018 {#release-18-2---february-2018}
+## 發行版本18.2-2018年月 {#release-18-2---february-2018}
 
-### New capabilities included in the release {#new-capabilities-included-in-the-release-8}
+### 發行中包含的新功能 {#new-capabilities-included-in-the-release-8}
 
-Subscription - subscribe or unsubscribe a list of profiles to multiple services - [Read more](../../automating/using/subscription-services.md)
+訂閱-訂閱或取消訂閱多個服務的個人檔案清單- [閱讀更多資訊](../../automating/using/subscription-services.md)
 
-Enrichment activity - enrich data based on previous transitions - [Read more](../../automating/using/enrichment.md)
+豐富活動-根據先前轉場來豐富資料- [閱讀更多資訊](../../automating/using/enrichment.md)
 
-### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-8}
+### 發行版本的其他文件更新 {#other-documentation-updates-coming-with-the-release-8}
 
 Campaign和Adobe解決方案整合的大部分URL已變更！檢查您的書簽！[閱讀更多資訊](../../integrating/using/about-campaign-integrations.md)
 
-The datamodel v1 is now available with the SQL structure for out-of-the box resources - [Read more](https://docs.campaign.adobe.com/doc/standard/en/datamodel/datamodel.html)
+datamodel v現在可用於SQL結構，用於現成可用的資源- [閱讀更多資訊](https://docs.campaign.adobe.com/doc/standard/en/datamodel/datamodel.html)
 
-Added information on how to prepare a message in a delivery [Read more](../../sending/using/preparing-the-send.md)
+已新增有關如何在傳送中準備訊息的資訊閱讀更多 [資訊](../../sending/using/preparing-the-send.md)
 
-Release notes have been reorganized in two pages so that you get a more global view of all the different releases: [Latest Release Notes](../../rn/using/release-notes.md) and [Previous release Notes](../../rn/using/release-notes-2015-2016.md)
+發行說明已重新整理為兩個頁面，讓您取得所有不同版本的更全域視圖： [最新發行說明](../../rn/using/release-notes.md) 和 [先前發行說明](../../rn/using/release-notes-2015-2016.md)
 
 **[!UICONTROL Working with typologies]** 已更新區段，以改善可見度。[閱讀更多資訊](../../administration/using/about-typology-rules.md)
 
-A new option allowing to gain performance when defining many additional data in a **[!UICONTROL Query]** is now available. [閱讀更多資訊](../../automating/using/query.md)
+現在提供一個新選項，可在定義中的許多其他資料時 **[!UICONTROL Query]** 取得效能。[閱讀更多資訊](../../automating/using/query.md)
 
 描述檔匯入範例已更新，幾個提示已準備好接收直接郵件。[閱讀更多資訊](../../automating/using/importing-data.md)
 
-A new activity is available in workflows: the **[!UICONTROL Enrichment]** activity. [閱讀更多資訊](../../automating/using/enrichment.md)
+工作流程中提供新活動： **[!UICONTROL Enrichment]** 活動。[閱讀更多資訊](../../automating/using/enrichment.md)
 
 **[!UICONTROL Subscription Services]** 活動已更新，以支援更多使用案例，包括使用單一檔案更新多個服務的訂閱。[閱讀更多資訊](../../automating/using/subscription-services.md)
 
@@ -405,29 +409,29 @@ A new activity is available in workflows: the **[!UICONTROL Enrichment]** activi
 
 已新增有關如何根據使用者的時區在循環工作流程中傳送傳送的資訊。[閱讀更多資訊](../../automating/using/push-notification-delivery.md#sending-a-recurring-push-notification-with-a-workflow)
 
-Reorganized the **[!UICONTROL Customizing a push notification]** section with step-by-step use cases. [閱讀更多資訊](../../channels/using/customizing-a-push-notification.md)
+使用逐步使用案例重新整理 **[!UICONTROL Customizing a push notification]** 區段。[閱讀更多資訊](../../channels/using/customizing-a-push-notification.md)
 
 黑名單管理專屬區段。[閱讀更多資訊](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 更新有關遞送失敗和四分位數的資訊。[閱讀更多資訊](../../sending/using/monitoring-a-delivery.md)
 
-New sections dedicated to [target mappings](../../administration/using/target-mappings-in-campaign.md) and [targeting dimensions and resources](../../automating/using/query.md#targeting-dimensions-and-resources).
+專門用於 [定位對應](../../administration/using/target-mappings-in-campaign.md) 和 [定位維度和資源](../../automating/using/query.md#targeting-dimensions-and-resources)的新區段。
 
-## Release 18.1 - January 2018 {#release-18-1---january-2018}
+## 發行版本18.1-2018年月 {#release-18-1---january-2018}
 
-### New capabilities included in the release {#new-capabilities-included-in-the-release-9}
+### 發行中包含的新功能 {#new-capabilities-included-in-the-release-9}
 
-Reporting for Fatigue Management - [Read more](../../administration/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report)
+疲勞管理報告- [閱讀更多資訊](../../administration/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report)
 
-Report sharing - [Read more](../../reporting/using/reporting-interface.md#share-tab)
+報表共用- [閱讀更多資訊](../../reporting/using/reporting-interface.md#share-tab)
 
-Push improvements - Read more [here](../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification) and [here](../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios)
+推播改進-在 [這裡](../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification) 和 [這裡閱讀更多內容](../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios)
 
-Time-zone optimized deliveries - [Read more](../../automating/using/scheduler.md)
+時區最佳化傳送- [閱讀更多資訊](../../automating/using/scheduler.md)
 
-API Signal activity triggering - [Read more](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#triggering-a-signal-activity)
+觸發API信號活動- [閱讀更多資訊](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#triggering-a-signal-activity)
 
-### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-9}
+### 發行版本的其他文件更新 {#other-documentation-updates-coming-with-the-release-9}
 
 更新服務建立區段。[閱讀更多資訊](../../audiences/using/creating-a-service.md)
 
@@ -441,15 +445,15 @@ API Signal activity triggering - [Read more](https://docs.campaign.adobe.com/doc
 
 已更新與Audience Manager或People核心服務整合的指示。[閱讀更多資訊](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
-## Release 17.10 - October 2017 {#release-17-10---october-2017}
+## 發行版本17.10-2017年10月 {#release-17-10---october-2017}
 
-### New capabilities included in the release {#new-capabilities-included-in-the-release-10}
+### 發行中包含的新功能 {#new-capabilities-included-in-the-release-10}
 
-Fatigue Management - [Read more](../../administration/using/fatigue-rules.md)
+疲勞管理- [閱讀更多資訊](../../administration/using/fatigue-rules.md)
 
-Content creation: Import from a URL - [Read more](../../designing/using/importing-content-from-a-url.md)
+內容建立：從URL匯入- [閱讀更多資訊](../../designing/using/importing-content-from-a-url.md)
 
-### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-10}
+### 發行版本的其他文件更新 {#other-documentation-updates-coming-with-the-release-10}
 
 更新A/B測試範例。[閱讀更多資訊](../../channels/using/designing-an-a-b-test-email.md)
 
@@ -465,15 +469,15 @@ Content creation: Import from a URL - [Read more](../../designing/using/importin
 
 [傳送警報](../../sending/using/receiving-alerts-when-failures-happen.md) 區段已移動並重新組織。
 
-The 'Custom resources' section has been clarified with a more detailed procedure on how to [define filters](../../developing/using/configuring-filter-definition.md).
+「自訂資源」區段已釐清，詳細說明如何 [定義篩選器](../../developing/using/configuring-filter-definition.md)。
 
-Updated and clarified the [technote](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html) on how to integrate the Adobe Marketing Cloud Mobile SDK with a mobile app to receive Adobe Campaign Standard push notifications.
+更新並清楚說明 [如何](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html) 將Adobe Marketing Cloud Mobile SDK與行動應用程式整合，以接收Adobe Campaign Standard推播通知。
 
 已新增一個TechNote，說明行動應用程式中收到的裝載結構。[閱讀更多資訊。](https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html)
 
-The Push channel configuration [section](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) has been updated with new payload data on OS version to add when defining postbacks in the Adobe Mobile Services interface.
+在Adobe Mobile Services介面中定義回傳時，推送管道設定 [區域](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) 已更新為作業系統版本的新裝載資料，以便新增。
 
-The SMS documentation has been updated with some clarification added to the [SMS automatic replies](../../channels/using/managing-incoming-sms.md#managing-stop-sms) section.
+SMS文件已更新，已加入 [SMS自動回覆](../../channels/using/managing-incoming-sms.md#managing-stop-sms) 區段的說明。
 
 透過API進行工作流程管理的新章節。[閱讀更多資訊](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#workflows-and-api)
 
@@ -481,17 +485,17 @@ The SMS documentation has been updated with some clarification added to the [SMS
 
 在API中新增簡單且多個篩選的資訊。[閱讀更多資訊](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering)
 
-## Release 17.9 - September 2017 {#release-17-9---september-2017}
+## 發行版本17.9-2017年月 {#release-17-9---september-2017}
 
-### New capabilities included in the release {#new-capabilities-included-in-the-release-11}
+### 發行中包含的新功能 {#new-capabilities-included-in-the-release-11}
 
-Library of Email templates - [Read more](../../start/using/about-templates.md#content-templates)
+電子郵件範本庫- [閱讀更多資訊](../../start/using/about-templates.md#content-templates)
 
-Dynamic reporting with profile data - [Read more](../../reporting/using/about-dynamic-reports.md)
+使用描述檔資料動態報告- [閱讀更多資訊](../../reporting/using/about-dynamic-reports.md)
 
-Enhancement on Mass subscription - [Read more](../../automating/using/subscription-services.md)
+大量訂閱增強功能- [閱讀更多資訊](../../automating/using/subscription-services.md)
 
-### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-11}
+### 發行版本的其他文件更新 {#other-documentation-updates-coming-with-the-release-11}
 
 動態報表中可用每個元件的詳細清單，以及公式中的一些變更。[閱讀更多資訊](../../reporting/using/list-of-components-.md)
 
@@ -521,23 +525,23 @@ Enhancement on Mass subscription - [Read more](../../automating/using/subscripti
 
 電子郵件傳送工作流程活動中，「傳送訊息之前的請求確認」已新增資訊。[閱讀更多資訊](../../automating/using/email-delivery.md)
 
-## Release 17.7 - July 2017 {#release-17-7---july-2017}
+## 發行版本17.7-2017年月 {#release-17-7---july-2017}
 
-### New capabilities included in the release {#new-capabilities-included-in-the-release-12}
+### 發行中包含的新功能 {#new-capabilities-included-in-the-release-12}
 
-Multilingual Deliveries (Email &amp; SMS) - [Read more](../../channels/using/creating-a-multilingual-email.md)
+多語言傳送(電子郵件與簡訊)- [閱讀更多資訊](../../channels/using/creating-a-multilingual-email.md)
 
-Adobe Campaign Notifications - [Read more](../../administration/using/sending-internal-notifications.md)
+Adobe Campaign通知- [閱讀更多資訊](../../administration/using/sending-internal-notifications.md)
 
-Delivery Alerting - [Read more](../../sending/using/receiving-alerts-when-failures-happen.md)
+傳送警報- [閱讀更多資訊](../../sending/using/receiving-alerts-when-failures-happen.md)
 
-Encrypted Declared ID in Datasources - [Read more](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
+資料來源中加密的宣告ID- [閱讀更多資訊](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
 
-KPI sharing from Campaign to Analytics - [Read more](../../integrating/using/about-campaign-analytics-integration.md)
+從Campaign分享至Analytics- [閱讀更多資訊](../../integrating/using/about-campaign-analytics-integration.md)
 
-Direct Mail Channel - Return To Sender, [Read more](../../channels/using/return-to-sender.md)
+直接郵件頻道-返回寄件者， [閱讀更多資訊](../../channels/using/return-to-sender.md)
 
-### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-12}
+### 發行版本的其他文件更新 {#other-documentation-updates-coming-with-the-release-12}
 
 [快速入門指南](../../start/using/step-by-step-guides.md) 和 [操作方式影片](../../start/using/how-to-videos.md) 已重新儲存在專屬區段中。
 
@@ -553,15 +557,15 @@ Direct Mail Channel - Return To Sender, [Read more](../../channels/using/return-
 
 角色區段的清單已更新。[閱讀更多資訊](../../administration/using/list-of-roles.md)
 
-## Release 17.5 - May 2017 {#release-17-5---may-2017}
+## 發行版本17.5-2017年月 {#release-17-5---may-2017}
 
-### New capabilities included in the release {#new-capabilities-included-in-the-release-13}
+### 發行中包含的新功能 {#new-capabilities-included-in-the-release-13}
 
-Direct mail - [Read more](../../channels/using/about-direct-mail.md)
+直接郵件- [閱讀更多資訊](../../channels/using/about-direct-mail.md)
 
-Email BCC - [Read more](../../administration/using/configuring-email-channel.md#archiving-emails)
+電子郵件密件副本- [閱讀更多資訊](../../administration/using/configuring-email-channel.md#archiving-emails)
 
-### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-13}
+### 發行版本的其他文件更新 {#other-documentation-updates-coming-with-the-release-13}
 
 「傳送」指南已重新整理並重新命名為「頻道」。[閱讀更多資訊](../../channels/using/discovering-communication-channels.md)
 
@@ -575,25 +579,25 @@ Email BCC - [Read more](../../administration/using/configuring-email-channel.md#
 
 直接從Adobe Campaign更新上下文說明連結。
 
-## Release 17.4 - April 2017 {#release-17-4---april-2017}
+## 發行版本17.4-2017年月 {#release-17-4---april-2017}
 
-### New capabilities included in the release {#new-capabilities-included-in-the-release-14}
+### 發行中包含的新功能 {#new-capabilities-included-in-the-release-14}
 
-Enhanced Image edition capabilities with the Creative SDK - [Read more](../../designing/using/modifying-images-with-the-adobe-creative-sdk.md)
+使用Creative SDK增強影像版本功能- [閱讀更多資訊](../../designing/using/modifying-images-with-the-adobe-creative-sdk.md)
 
-Transactional push notifications - [Read more](../../channels/using/transactional-push-notifications.md)
+交易推播通知- [閱讀更多資訊](../../channels/using/transactional-push-notifications.md)
 
-Recurring push notifications - [Read more](../../automating/using/push-notification-delivery.md)
+循環推播通知- [閱讀更多資訊](../../automating/using/push-notification-delivery.md)
 
-Amazon Simple Storage Service (S3) connector - [Read more](../../administration/using/external-accounts.md)
+Amazon Simple Storage Service(S3)連接器- [閱讀更多資訊](../../administration/using/external-accounts.md)
 
-Dreamweaver integration live - [Read more](https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html)
+即時整合Dreamweaver- [閱讀更多資訊](https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html)
 
-### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-14}
+### 發行版本的其他文件更新 {#other-documentation-updates-coming-with-the-release-14}
 
 區段新增至不同類型的Adobe Campaign使用者。[閱讀更多資訊](../../administration/using/users-management.md)
 
-工作流程指南已重新整理及擴充。Easily find how to [build](../../automating/using/building-a-workflow.md) and [execute](../../automating/using/executing-a-workflow.md) a workflow, how to [target](../../automating/using/targeting-data.md) and [manage](../../automating/using/targeting-data.md#enriching-data) your data, how to [import](../../automating/using/importing-data.md) data, and [how to use workflow data](../../automating/using/using-workflow-data.md) to update the database or to send deliveries.
+工作流程指南已重新整理及擴充。輕鬆尋找如何 [建立](../../automating/using/building-a-workflow.md) 和 [執行](../../automating/using/executing-a-workflow.md) 工作流程、 [如何定位](../../automating/using/targeting-data.md) 和 [管理](../../automating/using/targeting-data.md#enriching-data) 資料、如何 [匯入](../../automating/using/importing-data.md) 資料以及 [如何使用工作流程資料](../../automating/using/using-workflow-data.md) 來更新資料庫或傳送傳送。
 
 報表指標計算現在可用於動態報表，包括完整說明和計算公式。[閱讀更多資訊](../../reporting/using/indicator-calculation.md)
 
@@ -605,108 +609,108 @@ Dreamweaver integration live - [Read more](https://helpx.adobe.com/campaign/kt/a
 
 與Adobe Analytics for Mobile(地標)整合，包括設定步驟和使用案例。[閱讀更多資訊](../../integrating/using/about-campaign-points-of-interest-data-integration.md)
 
-## Release 17.2 - March 2017 {#release-17-2---march-2017}
+## 發行版本17.2-2017年月 {#release-17-2---march-2017}
 
-### New capabilities included in the release {#new-capabilities-included-in-the-release-15}
+### 發行中包含的新功能 {#new-capabilities-included-in-the-release-15}
 
-Dynamic reporting - [Read more](../../reporting/using/about-dynamic-reports.md)
+動態報告- [閱讀更多資訊](../../reporting/using/about-dynamic-reports.md)
 
-Dreamweaver integration (Labs) - [Read more](https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html)
+Dreamweaver整合(Labs)- [閱讀更多資訊](https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html)
 
-Manual send time optimization - [Read more](../../sending/using/optimizing-the-sending-time.md)
+手動傳送時間最佳化- [閱讀更多資訊](../../sending/using/optimizing-the-sending-time.md)
 
-Push notifications: improvements - [Read more](../../channels/using/about-push-notifications.md)
+推播通知：改進- [閱讀更多內容](../../channels/using/about-push-notifications.md)
 
-Workflows: new Signal activity - [Read more](../../automating/using/external-signal.md)
+工作流程：全新的訊號活動- [閱讀更多資訊](../../automating/using/external-signal.md)
 
-Workflows: new Read audience activity - [Read more](../../automating/using/read-audience.md)
+工作流程：新的閱讀對象活動- [閱讀更多資訊](../../automating/using/read-audience.md)
 
-Points of Interest data - [Read more](../../integrating/using/about-campaign-points-of-interest-data-integration.md)
+興趣點資料- [閱讀更多資訊](../../integrating/using/about-campaign-points-of-interest-data-integration.md)
 
-Linked resources in REST APIs - [Read more](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension)
+REST API中的連結資源- [閱讀更多資訊](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension)
 
-### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-15}
+### 發行版本的其他文件更新 {#other-documentation-updates-coming-with-the-release-15}
 
 觸發器整合：已新增兩個使用案例。[閱讀更多資訊](../../integrating/using/abandonment-triggers-use-cases.md)
 
 我們已重新設計開發人員API文件，其中包含新資訊和程式碼片段，以改善使用者體驗。[閱讀更多資訊](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
 
-Discover examples of the new [Read audience](../../automating/using/read-audience.md) and [External signal](../../automating/using/external-signal.md) workflow activities.
+探索新 [閱讀對象](../../automating/using/read-audience.md) 和 [外部訊號](../../automating/using/external-signal.md) 工作流程活動的範例。
 
-## Release 17.1 - January 2017 {#release-17-1---january-2017}
+## 發行版本17.1-2017年月 {#release-17-1---january-2017}
 
-### New capabilities included in the release {#new-capabilities-included-in-the-release-16}
+### 發行中包含的新功能 {#new-capabilities-included-in-the-release-16}
 
-Log export for external reporting - [Read more](../../automating/using/exporting-logs.md)
+外部報告的記錄匯出- [閱讀更多資訊](../../automating/using/exporting-logs.md)
 
-Transactional Messaging API - [Read more](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
+交易訊息API- [閱讀更多資訊](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
 
-Marketing capabilities for transactional messages - [read more](../../channels/using/profile-transactional-messages.md)
+交易訊息的行銷功能- [閱讀更多資訊](../../channels/using/profile-transactional-messages.md)
 
-### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-16}
+### 發行版本的其他文件更新 {#other-documentation-updates-coming-with-the-release-16}
 
-Incremental query workflow activity: new incremental mode - [Read more](../../automating/using/incremental-query.md)
+遞增查詢工作流程活動：新增量模式- [閱讀更多內容](../../automating/using/incremental-query.md)
 
-Scheduler workflow activity update - [Read more](../../automating/using/scheduler.md)
+排程器工作流程活動更新- [閱讀更多資訊](../../automating/using/scheduler.md)
 
-URL change: Assets core service - [Read more](../../integrating/using/working-with-campaign-and-assets-core-service.md)
+URL變更：資產核心服務- [閱讀更多資訊](../../integrating/using/working-with-campaign-and-assets-core-service.md)
 
-URL change: People core service - [Read more](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
+URL變更：人員核心服務- [閱讀更多資訊](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
 
 Profiles and Audiences Guide已重新整理。[閱讀更多資訊](../../audiences/using/about-profiles-and-audiences.md)
 
-## Release 16.11 - November 2016 {#release-16-11---november-2016}
+## 發行版本16.11-2016年11月 {#release-16-11---november-2016}
 
-### Documentation updates coming with the release {#documentation-updates-coming-with-the-release}
+### 發行說明文件更新 {#documentation-updates-coming-with-the-release}
 
 新文件首頁和新的外觀和感覺。
 
-瞭解使用者權限：已新增使用案例。Also consult the [user permission matrix](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
+瞭解使用者權限：已新增使用案例。也請洽詢 [使用者權限矩陣](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)。
 
-Working with APIs: an [API extension use case](../../developing/using/about-extending-the-api.md) has been added. Also consult [API documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html).
+使用API： [已新增API延伸功能使用案例](../../developing/using/about-extending-the-api.md) 。另請參閱 [API文件](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)。
 
 促銷活動錯誤訊息：存取Campaign v和Standard中的錯誤訊息清單，並依版本和語言篩選。[閱讀更多資訊](http://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
-Multi-branding use case - [Read more](../../administration/using/branding.md)
+多重品牌使用案例- [閱讀更多內容](../../administration/using/branding.md)
 
 電子郵件傳送參數和SMTP中新增的資訊。[閱讀更多資訊](../../administration/using/configuring-email-channel.md#email-channel-parameters)
 
-New subject line data import interface - [Read more](../../designing/using/personalizing-the-subject-line-of-an-email.md#predictive-subject-line)
+新主題列資料匯入介面- [閱讀更多資訊](../../designing/using/personalizing-the-subject-line-of-an-email.md#predictive-subject-line)
 
-Creating push notification deliveries in a workflow - [Read more](../../automating/using/push-notification-delivery.md)
+在工作流程中建立推播通知傳送- [閱讀更多資訊](../../automating/using/push-notification-delivery.md)
 
 整合指南已更新相容性矩陣。[閱讀更多資訊](../../integrating/using/about-campaign-integrations.md)
 
 「使用者與安全性」區段中新增了新角色。[閱讀更多資訊](../../administration/using/list-of-roles.md)
 
-Push notification templates - [Read more](../../channels/using/preparing-and-sending-a-push-notification.md)
+推播通知範本- [閱讀更多資訊](../../channels/using/preparing-and-sending-a-push-notification.md)
 
 SMS傳送章節已更新，以反映介面變更。[閱讀更多資訊](../../channels/using/creating-an-sms-message.md)
 
 推播通知傳送已新增至時間軸。[閱讀更多資訊](../../start/using/timeline.md)
 
-## Release 16.10 - October 2016 {#release-16-10---october-2016}
+## 發行版本16.10-2016年10月 {#release-16-10---october-2016}
 
-### New capabilities included in the release {#new-capabilities-included-in-the-release-17}
+### 發行中包含的新功能 {#new-capabilities-included-in-the-release-17}
 
-Email predictive subject line - [Read more](../../designing/using/personalizing-the-subject-line-of-an-email.md#predictive-subject-line)
+電子郵件預測主旨行- [閱讀更多資訊](../../designing/using/personalizing-the-subject-line-of-an-email.md#predictive-subject-line)
 
-SMS transactional messaging - [Read more](../../administration/using/configuring-transactional-messaging.md#creating-an-event)
+SMS交易訊息- [閱讀更多資訊](../../administration/using/configuring-transactional-messaging.md#creating-an-event)
 
-Follow-up message for transactional messaging - [Read more](../../channels/using/follow-up-messages.md)
+交易訊息的後續訊息- [閱讀更多資訊](../../channels/using/follow-up-messages.md)
 
-Extended Profile &amp; Services API - [Read more](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension)
+延伸設定檔與服務API- [閱讀更多資訊](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension)
 
-## Release 16.9 - September 2016 {#release-16-9---september-2016}
+## 發行版本16.9-2016年月 {#release-16-9---september-2016}
 
-### New capabilities included in the release {#new-capabilities-included-in-the-release-18}
+### 發行中包含的新功能 {#new-capabilities-included-in-the-release-18}
 
-Marketing Cloud Triggers - [Read more](../../integrating/using/about-adobe-experience-cloud-triggers.md)
+Marketing Cloud觸發器- [閱讀更多資訊](../../integrating/using/about-adobe-experience-cloud-triggers.md)
 
-Transactional messages: Pause / Unpublish - [Read more](../../channels/using/event-transactional-messages.md#unpublishing-a-transactional-message)
+交易訊息：暫停/取消發佈- [閱讀更多資訊](../../channels/using/event-transactional-messages.md#unpublishing-a-transactional-message)
 
-Multi-branding - [Read more](../../administration/using/branding.md)
+多重品牌推廣- [閱讀更多內容](../../administration/using/branding.md)
 
-Responsive email design preview - [Read more](../../sending/using/previewing-messages.md)
+多方互動電子郵件設計預覽- [閱讀更多資訊](../../sending/using/previewing-messages.md)
 
-Push notifications - [Read more](../../channels/using/about-push-notifications.md)
+推播通知- [閱讀更多資訊](../../channels/using/about-push-notifications.md)

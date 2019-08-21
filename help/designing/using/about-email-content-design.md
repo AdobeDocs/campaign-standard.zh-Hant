@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536 ab66 b3 b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 86600fe800477442e274429e1ef9cd299c33026a
+source-git-commit: 68d9732efb55b9d5363218e5c35204892f16d983
 
 ---
 
@@ -125,7 +125,6 @@ source-git-commit: 86600fe800477442e274429e1ef9cd299c33026a
 ### 電子郵件設計人員限制 {#email-designer-limitations}
 
 * 您無法在片段中使用個人化欄位。如需有關片段的詳細資訊，請參閱 [此章節](../../designing/using/defining-the-email-structure.md#about-fragments)。
-* 您無法直接將其儲存為您在電子郵件設計人員內編輯的電子郵件內容。您需要將對應該內容的HTML複製到新片段中。如需詳細資訊，請參閱 [「將內容儲存為片段](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment)」。
 * 編輯樣式時，只有大部分電子郵件用戶端才會提供正式支援的網頁字體。
 * 樣式無法儲存為主題，以便日後重復使用。不過，CSS樣式可以儲存在內容範本或電子郵件中。如需更多有關樣式的資訊，請參閱 [本節](../../designing/using/editing-email-styles.md)。
 

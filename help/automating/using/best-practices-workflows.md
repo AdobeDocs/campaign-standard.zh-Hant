@@ -14,7 +14,7 @@ context-tags: 工作流程，概觀；工作流程，主要
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3ed76cc48c94510b40e7a946031ec4331c6e0905
+source-git-commit: fd44c6e6d0f6a4ca75b01c99fbae6d9072dd7736
 
 ---
 
@@ -116,7 +116,7 @@ source-git-commit: 3ed76cc48c94510b40e7a946031ec4331c6e0905
 
 ## 匯出清單{#exporting-lists}
 
-匯出清單選項可讓您預設匯出100,000行，並由 **Nms_ exportListLimit選項定義**。此選項可由功能管理員管理，位於 **「管理** &gt; **應用程式設定** &gt; **選項**」下方。
+匯出清單選項可讓您預設匯出100,000行，並由 **Nms_ exportListLimit選項定義**。此選項可由功能管理員管理，位於 **[!UICONTROL Administration]** &gt; **[!UICONTROL Application settings]** &gt; **[!UICONTROL Options]**。
 如需詳細資訊，請參閱 [匯出清單](../../automating/using/exporting-lists.md)。
 
 ## 疑難排解{#workflow-troubleshooting}
@@ -133,15 +133,15 @@ Adobe Campaign提供多種記錄檔，以更好地瞭解您的工作流程問題
 
 您可以在「記錄檔」索引標籤中分析SQL查詢。
 
-1. 在工作流程工作區中，按一下 **「編輯屬性**」。
-1. 在 **「一般** &gt; **執行」**&#x200B;中，勾選記錄中 **的SQL查詢並****在引擎** 選項中執行，然後按一下 **「確認**」。
+1. 在工作流程工作區中，按一下 **[!UICONTROL Edit properties]**。
+1. In **[!UICONTROL General]** &gt; **[!UICONTROL Execution]**，check the **[!UICONTROL Save SQL queries in the log]** &amp; **[!UICONTROL Execute in the engine]** options and click **[!UICONTROL Confirm]**.
 
 **若要在記錄檔中查看SQL查詢：**
-1. 按一下 **「記錄檔和任務**」。
-1. 在 **「記錄檔」** 索引標籤中，開啓 **「搜尋** 」面板。
-1. 勾選 **僅顯示SQL記錄檔**。
+1. Click **[!UICONTROL Log and Tasks]**.
+1. **[!UICONTROL Logs]** 在標籤中開啓 **[!UICONTROL Search]** 面板。
+1. Check **[!UICONTROL Display SQL logs only]**.
 
-查詢會顯示在記錄檔的 **「訊息** 」欄中。
+查詢會顯示在記錄 **[!UICONTROL Message]** 欄的欄中。
 
 ### 使用傳送記錄檔{#using-delivery-logs}
 

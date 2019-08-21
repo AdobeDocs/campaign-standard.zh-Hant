@@ -14,12 +14,12 @@ context-tags: 工作流程，概觀；工作流程，主要
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e02ca92032c298fe1b5dbc7094de201d0a106be5
+source-git-commit: 3ed76cc48c94510b40e7a946031ec4331c6e0905
 
 ---
 
 
-# Workflow best practices{#workflow-best-practices}
+# 工作流程最佳實務{#workflow-best-practices}
 
 透過Adobe Campaign，您可以設定所有工作流程，以執行大型工作範圍。但是，在設計和執行工作流程時，您必須格外小心，因為錯誤實作可能導致不良效能、錯誤和平台問題。以下列出最佳實務和疑難排解提示的清單。
 
@@ -27,7 +27,7 @@ source-git-commit: e02ca92032c298fe1b5dbc7094de201d0a106be5
 >
 >工作流程設計和執行必須由Adobe Campaign進階使用者執行。
 
-## Naming{#naming}
+## 命名命名{#naming}
 
 為了簡化工作流程疑難排解，Adobe建議您明確命名工作流程並標示其標記。填寫工作流程的說明欄位，以摘要執行的程序，讓營運商輕鬆瞭解。
 如果工作流程是涉及多個工作流程的程序的一部分，您可以在輸入標籤時使用數字來清楚排序。
@@ -40,13 +40,13 @@ source-git-commit: e02ca92032c298fe1b5dbc7094de201d0a106be5
 * 010-出口-出口記錄檔
 * 2011-匯出-匯出追蹤記錄
 
-## Duplicating workflows{#duplicating-workflows}
+## 重復工作流程{#duplicating-workflows}
 
-您可以複製工作流程。In the **[!UICONTROL Marketing Activities]**, hover over the workflow and click **[!UICONTROL Duplicate element]**. 複製之後，工作流程的修改不會被帶入工作流程的副本。您可以編輯工作流程的復本。
+您可以複製工作流程。然後，將 **[!UICONTROL Marketing Activities]**&#x200B;滑鼠指標暫留在工作流程上，然後按一下 **[!UICONTROL Duplicate element]**。複製之後，工作流程的修改不會被帶入工作流程的副本。您可以編輯工作流程的復本。
 
 ![](assets/duplicating_workflow.png)
 
-## Execution{#execution}
+## 執行執行{#execution}
 
 ### 工作流程數目
 
@@ -66,15 +66,15 @@ source-git-commit: e02ca92032c298fe1b5dbc7094de201d0a106be5
 
 仍可執行包含未結束轉場的工作流程：它會產生警告訊息，工作流程會在到達轉場時暫停，但不會產生錯誤。您也可以在沒有完成設計的情況下開始工作流程，並同時完成工作。
 
-For more information, refer to [Executing workflows](../../automating/using//executing-a-workflow.md).
+如需詳細資訊，請參閱 [執行工作流程](../../automating/using//executing-a-workflow.md)。
 
-## Activity{#activity}
+## 活動{#activity}
 
 ### 工作流程設計
 
-To ensure that the workflow ends properly, use an **[!UICONTROL End activity]**. 避免離開工作流程的最後一個轉變。
+若要確保工作流程正確結束 **[!UICONTROL End activity]**，請使用。避免離開工作流程的最後一個轉變。
 
-To access the detail view of the transitions, check the **[!UICONTROL Keep interim results]** option in the Execution section of the workflow properties.
+若要存取轉場的詳細檢視，請查看工作流程屬性的「執行」區段 **[!UICONTROL Keep interim results]** 中的選項。
 
 >[!CAUTION]
 >
@@ -83,57 +83,76 @@ To access the detail view of the transitions, check the **[!UICONTROL Keep inter
 ![](assets/keep_interim_best_practices.png)
 
 
-### Labelling activities{#activity-labeling}
+### 積極的活動{#activity-labeling}
 
 在開發工作流程時，會針對所有的Adobe Campaign物件產生每個活動的名稱。雖然活動的名稱是由工具產生而且無法編輯，但建議您在設定該活動時加上明確名稱。
 
-### Duplicating activities{#activity-duplicating}
+### 重復活動{#activity-duplicating}
 
-若要複製現有活動，您可以使用複製貼上。如此，您就可以保留原本定義的設定。For more information, refer to [Duplicating workflow activities](../../automating/using/workflow-interface.md).
+若要複製現有活動，您可以使用複製貼上。如此，您就可以保留原本定義的設定。如需詳細資訊，請參閱 [複製工作流程活動](../../automating/using/workflow-interface.md)。
 
-### Scheduler activity{#acheduler-activity}
+### 排程器活動{#acheduler-activity}
 
-When building your workflow, only use one **[!UICONTROL Scheduler activity]** per branch. 如果工作流程的相同分支有數個排程器(連結到彼此)，則要執行的任務數將會乘以指數，如此會大幅超載資料庫。
+建立工作流程時，只能使用每個分支一 **[!UICONTROL Scheduler activity]** 個。如果工作流程的相同分支有數個排程器(連結到彼此)，則要執行的任務數將會乘以指數，如此會大幅超載資料庫。
 
-You can preview the next ten executions of your workflows by clicking **[!UICONTROL Preview next executions]**.
+您可以按一下 **[!UICONTROL Preview next executions]**，預覽下十個工作流程的執行。
 
 ![](assets/preview_scheduler.png)
 
-For more information, refer to [Scheduler activity](../../automating/using/scheduler.md).
+如需詳細資訊，請參閱 [排程器活動](../../automating/using/scheduler.md)。
 
-## Calling workflow with parameters{#workflow-with-parameters}
+## 使用參數來呼叫工作流程{#workflow-with-parameters}
 
-Make sure that the name and number of parameters are identical to what is defined when calling the workflow (see [Defining the parameters when calling the workflow](../../automating/using/calling-a-workflow-with-external-parameters.md#defining-the-parameters-when-calling-the-workflow)). 參數'類型'也必須與預期的值一致。
+請確定名稱和參數數目與呼叫工作流程時定義的參數相同(請參閱 [在呼叫工作流程時定義參數](../../automating/using/calling-a-workflow-with-external-parameters.md#defining-the-parameters-when-calling-the-workflow))。參數'類型'也必須與預期的值一致。
 
-Make sure that all the parameters have been declared in the **[!UICONTROL External signal activity]**. 否則，執行活動時會發生錯誤。
+請確定已在此中宣告所有參數 **[!UICONTROL External signal activity]**。否則，執行活動時會發生錯誤。
 
-For more information, see [Calling a workflow with external parameters](../../automating/using/calling-a-workflow-with-external-parameters.md).
+如需詳細資訊，請參閱 [「呼叫使用外部參數的工作流程](../../automating/using/calling-a-workflow-with-external-parameters.md)」。
 
-## Exporting packages{#exporting-packages}
+## 匯出套件{#exporting-packages}
 
 若要匯出套件，匯出的資源不能包含預設ID。因此，必須使用Adobe Campaign Standard提供作為標準範本提供的範本，才能變更導出資源的ID。
-For more information, see [Managing packages](../../automating/using/managing-packages.md).
+如需詳細資訊，請參閱 [管理套件](../../automating/using/managing-packages.md)。
 
-## Exporting lists{#exporting-lists}
+## 匯出清單{#exporting-lists}
 
-The export list option allows you to export a maximum of 100,000 lines by default and defined by the **Nms_ExportListLimit option**. This option can be managed by the functional administrator, under **Administration** &gt; **Application settings** &gt; **Options**.
-For more information, see [Exporting lists](../../automating/using/exporting-lists.md).
+匯出清單選項可讓您預設匯出100,000行，並由 **Nms_ exportListLimit選項定義**。此選項可由功能管理員管理，位於 **「管理** &gt; **應用程式設定** &gt; **選項**」下方。
+如需詳細資訊，請參閱 [匯出清單](../../automating/using/exporting-lists.md)。
 
-## Troubleshooting{#workflow-troubleshooting}
+## 疑難排解{#workflow-troubleshooting}
 
 Adobe Campaign提供多種記錄檔，以更好地瞭解您的工作流程問題。
 
-### Using workflow logs{#using-workflow-logs}
+### 使用工作流程記錄檔{#using-workflow-logs}
 
-您可以存取工作流程記錄檔來監控活動的執行。它會依時間順序索引執行和執行錯誤。
-For more information, refer to [Monitoring workflow execution](../../automating/using/executing-a-workflow.md#monitoring).
+您可以存取工作流程記錄檔來監控活動的執行。它會依時間順序索引執行和執行錯誤。「記錄檔」索引標籤包含在執行所有或部分選取活動的歷史記錄中。
+「任務」標籤會詳細說明活動的執行順序。若要取得活動的詳細資訊，請按一下工作。
+如需詳細資訊，請參閱 [監控工作流程執行](../../automating/using/executing-a-workflow.md#monitoring)。
 
-### Using delivery logs{#using-delivery-logs}
+#### 資料管理活動疑難排解{#troubleshooting-data-management-activities}
+
+您可以在「記錄檔」索引標籤中分析SQL查詢。
+
+1. 在工作流程工作區中，按一下 **「編輯屬性**」。
+1. 在 **「一般** &gt; **執行」**&#x200B;中，勾選記錄中 **的SQL查詢並****在引擎** 選項中執行，然後按一下 **「確認**」。
+
+**若要在記錄檔中查看SQL查詢：**
+1. 按一下 **「記錄檔和任務**」。
+1. 在 **「記錄檔」** 索引標籤中，開啓 **「搜尋** 」面板。
+1. 勾選 **僅顯示SQL記錄檔**。
+
+查詢會顯示在記錄檔的 **「訊息** 」欄中。
+
+### 使用傳送記錄檔{#using-delivery-logs}
 
 傳送記錄可監控傳送的成功程度。排除記錄會在準備傳送期間傳回排除的訊息。傳送記錄檔會提供每個描述檔的傳送狀態。
-For more information, refer to [Understanding delivery failures](../../sending/using/understanding-delivery-failures.md).
+如需詳細資訊，請參閱 [瞭解傳送失敗](../../sending/using/understanding-delivery-failures.md)。
 
-### Using delivery alerting{#delivery-alerting}
+### 使用傳送警報{#delivery-alerting}
 
 傳送警報功能是警報管理系統，可讓一組使用者自動接收通知，其中包含執行其傳送的資訊。
-For more information, refer to [Delivery alerting](../../sending/using/receiving-alerts-when-failures-happen.md).
+如需詳細資訊，請參閱 [傳送警告](../../sending/using/receiving-alerts-when-failures-happen.md)。
+
+**相關主題：**
+
+* [錯誤管理](../../automating/using/executing-a-workflow.md#error-management)

@@ -14,7 +14,7 @@ discoiquuid: dce9711-7fa6-4773-ba21-1d54 cda20 c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7364d547cabe9ae83b43ab964bf57e48338130f8
+source-git-commit: 2c16cdff843115e122dc1d9ccca69a39ea6ebb22
 
 ---
 
@@ -30,6 +30,8 @@ source-git-commit: 7364d547cabe9ae83b43ab964bf57e48338130f8
 ## 文件更新-2019年月 {#doc-updates-august-2019}
 
 在工作流程疑難排解區段中新增了一個程序，說明如何在「記錄檔」索引標籤中顯示SQL查詢。[閱讀更多資訊](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
+
+新的說明文章已新增，並包含「控制台」內子網域和憑證管理相關資訊。[閱讀更多資訊](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html)
 
 ## 發行版本19.3-2019年月 {#release-19-3---july-2019}
 

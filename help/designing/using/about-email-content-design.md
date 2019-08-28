@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536 ab66 b3 b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 782a5f89b0361f1cbe59c9b353ca90dec90c3906
+source-git-commit: 2ac7fa8be4c408d75d77d3035af4cec25ac001c2
 
 ---
 
@@ -429,6 +429,10 @@ Adobe建議您將內容更新為最新版本，以避免發生CSS衝突問題。
    現在已套用桌面檢視中定義的背景顏色：會變成灰色(非空白)。
 
    唯一例外是 **[!UICONTROL Border color]** 設定。在行動檢視中停用時，即使在桌面檢視中定義邊框顏色，也不會再套用邊框。
+
+>[!NOTE]
+>
+>行動裝置檢視無法用於 [片段](../../designing/using/defining-the-email-structure.md#about-fragments)。
 
 ## 純文字和HTML模式 {#plain-text-and-html-modes}
 

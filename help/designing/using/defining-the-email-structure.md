@@ -14,7 +14,7 @@ discoiquuid: 207fdf6d-165a-41af-ad53-ba97 d3403 b62
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c2316d35c582efc8a3cc9be5de810c5dbe3f5e97
+source-git-commit: 2ac7fa8be4c408d75d77d3035af4cec25ac001c2
 
 ---
 
@@ -167,10 +167,10 @@ source-git-commit: c2316d35c582efc8a3cc9be5de810c5dbe3f5e97
 
 1. 前往 **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates & fragments]** 並按一下 **[!UICONTROL Create]**。
 1. 按一下電子郵件標籤以存取電子郵件設計工具 **[!UICONTROL Properties]** 的標籤。
-1. 指定可識別的標籤，並選取下列參數，以便稍後在新電子郵件中找到片段：
+1. 指定可識別的標籤，並選取下列參數以在編輯電子郵件內容時尋找片段：
 
    * 因為片段只能與電子郵件相容，請 **[!UICONTROL Delivery]** 從 **[!UICONTROL Content type]** 下拉式清單中選取。
-   * 從 **[!UICONTROL Fragment]****[!UICONTROL HTML type]** 下拉式清單中選取，可將此內容用作電子郵件中的片段。
+   * 從 **[!UICONTROL Fragment]****[!UICONTROL HTML type]** 下拉式清單中選取，可將此內容用作片段。
    ![](assets/email_designer_createfragment.png)
 
 1. 如有需要，您可以設定將做為片段縮圖的影像。從範本屬性 **[!UICONTROL Thumbnail]** 的標籤中選取它。
@@ -179,23 +179,29 @@ source-git-commit: c2316d35c582efc8a3cc9be5de810c5dbe3f5e97
 
    編輯電子郵件時，此縮圖會顯示在片段標籤旁。
 
-1. 儲存變更以返回主工作區。
-1. 新增結構元件和您可視需要自訂的內容元件。
+1. 關閉 **[!UICONTROL Properties]** 標籤以返回主工作區。
+1. 新增您可視需要自訂的元件元件和內容元件。
+
+   >[!NOTE]
+   >
+   >片段無法包含個人化欄位、動態內容或其他片段。
+   >[行動裝置檢視](../../designing/using/about-email-content-design.md#switching-to-mobile-view) 無法用於片段。
+
 1. 編輯後，儲存片段。
 
-此片段現在可用於使用電子郵件設計工具建立的任何電子郵件中。它會出現在浮動視窗的 **[!UICONTROL Fragments]** 區段下方。
+此片段現在可用於電子郵件設計人員建立的任何電子郵件中。它會出現在浮動視窗的 **[!UICONTROL Fragments]** 區段下方。
 
 >[!NOTE]
 >
->除非電子郵件中使用了個人化欄位，否則您無法插入其個人化欄位。若要這麼做，您必須解除鎖定此片段。請參閱 [關於片段](../../designing/using/defining-the-email-structure.md#about-fragments)。
+>您無法在分割中插入個人化欄位，除非它用於電子郵件和解除鎖定。請參閱 [關於片段](../../designing/using/defining-the-email-structure.md#about-fragments)。
 
 ### 將內容儲存為片段 {#saving-content-as-a-fragment}
 
 使用電子郵件設計工具編輯電子郵件時，您可以直接將該電子郵件的部分儲存為片段。
 
->[!CAUTION]
->
->您無法將結構儲存為包含個人化欄位、動態內容或其他片段的結構片段。
+* 您無法將結構儲存為包含個人化欄位、動態內容或其他片段的結構片段。
+* 您只能選取彼此相鄰的結構。
+<!--* You cannot select an empty structure.-->
 
 1. 在電子郵件設計工具中編輯電子郵件時，請從 **[!UICONTROL Save as fragment]** 主工具列中選取。
 
@@ -207,7 +213,8 @@ source-git-commit: c2316d35c582efc8a3cc9be5de810c5dbe3f5e97
 
    >[!NOTE]
    >
-   >您只能選取彼此相鄰的結構。
+   >請確定您選取彼此相鄰且不包含個人化欄位、動態內容或其他片段的結構。
+   <!--You cannot select an empty structure.-->
 
 1. Click **[!UICONTROL Create]**.
 
@@ -219,9 +226,12 @@ source-git-commit: c2316d35c582efc8a3cc9be5de810c5dbe3f5e97
 
    ![](assets/email_designer_save-as-fragment_list.png)
 
-1. 若要使用新片段，請開啓任何電子郵件內容，然後從片段清單中選取。
+1. 若要使用新片段，請開啓任何電子郵件內容並從片段清單中選取。
 
 ![](assets/email_designer_save-as-fragment_in-new-email.png)
+
+>[!NOTE]
+>[行動裝置檢視](../../designing/using/about-email-content-design.md#switching-to-mobile-view) 無法用於片段。如果您想要編輯電子郵件的行動檢視，請先執行此動作，然後再將內容儲存為片段。
 
 <!--You need to copy-paste the HTML corresponding to the section that you want to save into a new fragment.
 

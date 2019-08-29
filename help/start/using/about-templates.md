@@ -14,14 +14,14 @@ discoiquuid: 95218eBE-5430-42a2-b900-1dadbhone92 d99
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: fb303447e40f044bd221616cc320499c3cff0c3e
 
 ---
 
 
-# About templates{#about-templates}
+# 關於範本{#about-templates}
 
-## Marketing activity templates {#marketing-activity-templates}
+## 行銷活動範本 {#marketing-activity-templates}
 
 當您建立新的行銷活動時，精靈中的第一個畫面會要求您選取類型或範本。範本可讓您根據需求預先設定某些參數。範本可能包含行銷活動的完整或部分設定。範本管理由功能管理員執行。
 
@@ -31,7 +31,7 @@ source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
 ![](assets/template_1.png)
 
-針對每種行銷活動類型，可使用一或多個現成可用的範本。他們為每種行銷活動類型提供最少的組態。無法修改或刪除這些立即可用的範本。
+針對每種行銷活動類型，一或多個現成可用的範本可用於最低組態。無法修改或刪除這些立即可用的範本。
 
 範本可用於下列行銷活動：
 
@@ -46,24 +46,87 @@ source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 * 匯入
 * 交易訊息
 
-These templates are managed from the **[!UICONTROL Resources]** &gt; **[!UICONTROL Templates]** screen.
+這些範本是從 **[!UICONTROL Resources]** &gt; **[!UICONTROL Templates]** 畫面管理。
 
 >[!NOTE]
 >
->您可以在電子郵件或登陸頁面範本中預先設定品牌配置。For more information, refer to the [Branding](../../administration/using/branding.md) section.
+>您可以在電子郵件或登陸頁面範本中預先設定品牌配置。如需詳細資訊，請參閱 [品牌](../../administration/using/branding.md) 區段。
 
-## Content templates {#content-templates}
+## 內容範本 {#content-templates}
 
-You can manage HTML contents that will be offered in the **[!UICONTROL Templates]** tab of the [Email Designer](../../designing/using/about-email-content-design.md#about-the-email-designer) home page.
+可從「進階」功能表的 **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates & fragments]** 畫面存取HTML內容 [範本](../../start/using/interface-description.md#advanced-menu)。您可以從這裡管理著陸頁面內容範本、電子郵件內容範本和片段。
 
-![](assets/template_content.png)
+![](assets/content_templates_list.png)
 
-這些範本包括18種行動最佳化版面配置，以及由Behance藝術家設計的種同級最佳回應範本。他們對應至最新的使用者，例如客戶歡迎訊息、電子報和重新吸引電子郵件等。您可以輕鬆地使用您的品牌內容自訂它們，輕鬆地從頭開始設計電子郵件。
+現成可用的內容範本為唯讀。若要編輯其中一個，您必須先複製它。
 
-These out-of-the-box HTML contents are accessible from the **[!UICONTROL Template]** &gt; **[!UICONTROL Content templates & fragments]** screen of the [Advanced menu](../../start/using/interface-description.md#advanced-menu). 它們是唯讀的。若要編輯其中一個，您必須先複製它。您也可以建立新範本並定義自己的內容。
+您可以建立新範本或片段，並定義自己的內容。如需詳細資訊，請參閱 [「建立內容範本](../../start/using/about-templates.md#creating-a-content-template) 」和 [「建立內容片段](../../designing/using/defining-the-email-structure.md#creating-a-content-fragment)」。
+
+使用電子郵件設計工具編輯內容時，您也可以將內容儲存為片段或範本，建立內容範本。如需詳細資訊，請參閱 [「將內容儲存為範本](../../start/using/about-templates.md#saving-content-as-template) 」，並 [將內容儲存為片段](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment)。
+
+### 立即可用的電子郵件內容範本 {#email-content-templates}
+
+您可以管理 **[!UICONTROL Templates]**[電子郵件設計人員](../../designing/using/about-email-content-design.md#about-the-email-designer) 首頁標籤中提供的HTML內容。
+
+現成可用的電子郵件內容範本包括18種行動最佳化版面配置，以及由Behance藝術家設計的種同級最佳回應範本。他們對應至最新的使用者，例如客戶歡迎訊息、電子報和重新吸引電子郵件等。您可以輕鬆地使用您的品牌內容自訂它們，輕鬆地從頭開始設計電子郵件。
+
+![](assets/content_templates.png)
 
 **相關主題：**
 
-* Learn how to personalize content templates [in this video](https://helpx.adobe.com/campaign/kt/acs/using/acs-email_content_templates-feature-video-use.html).
-* For more information on editing content, see [About email content design](../../designing/using/about-email-content-design.md).
+* 瞭解如何在此影片中個人化內容範本 [](https://helpx.adobe.com/campaign/kt/acs/using/acs-email_content_templates-feature-video-use.html)。
+* 如需編輯內容的詳細資訊，請參閱 [關於電子郵件內容設計](../../designing/using/about-email-content-design.md)。
+
+### 建立內容範本 {#creating-a-content-template}
+
+您可以建立自己的內容範本，視需要多次使用它們。
+
+下列範例說明如何建立電子郵件內容範本。
+
+1. 前往 **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates & fragments]** 並按一下 **[!UICONTROL Create]**。
+1. 按一下電子郵件標籤以存取電子郵件設計工具 **[!UICONTROL Properties]** 的標籤。
+1. 指定可識別的標籤並選取下列參數，以便在電子郵件中使用此範本：
+
+   * 選擇 **[!UICONTROL Shared]** 或 **[!UICONTROL Delivery]** 從 **[!UICONTROL Content type]** 下拉式清單中。
+   * **[!UICONTROL Template]** 從 **[!UICONTROL HTML type]** 下拉式清單中選取。
+   ![](assets/email_designer_create-template.png)
+
+1. 如有需要，您可以設定將做為範本縮圖的影像。從範本屬性 **[!UICONTROL Thumbnail]** 的標籤中選取它。
+
+   ![](assets/email_designer_create-template_thumbnail.png)
+
+   此縮圖會顯示 **[!UICONTROL Templates]**[在「電子郵件設計師」](../../designing/using/about-email-content-design.md#about-the-email-designer) 首頁的索引標籤中。
+
+1. 關閉 **[!UICONTROL Properties]** 標籤以返回主工作區。
+1. 新增您可視需要自訂的元件元件和內容元件。
+   >[!NOTE]
+   >
+   > 您無法在內容範本內插入個人化欄位或條件式內容。
+1. 編輯後，儲存範本。
+
+此範本現在可用於電子郵件設計人員建立的任何電子郵件中。從 **[!UICONTROL Templates]**[「電子郵件設計師」](../../designing/using/about-email-content-design.md#about-the-email-designer) 首頁的標籤中選取。
+
+![](assets/content_template_new.png)
+
+### 將內容儲存為範本 {#saving-content-as-template}
+
+使用電子郵件設計工具編輯電子郵件時，您可以直接將該電子郵件的內容儲存為範本。
+
+<!--[!CAUTION]
+>
+>You cannot save as template a structure containing personalization fields or dynamic content.-->
+
+1. **[!UICONTROL Save as template]** 從「電子郵件設計人員」主工具列中選取。
+
+   ![](assets/email_designer_save-as-template.png)
+
+1. 視需要新增標籤和說明，然後按一下 **[!UICONTROL Save]**。
+
+   ![](assets/email_designer_save-as-template_creation.png)
+
+1. 若要尋找剛建立的範本，請前往 **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates & fragments]**。
+
+1. 若要使用新範本，請從 **[!UICONTROL Templates]**[「電子郵件設計師」](../../designing/using/about-email-content-design.md#about-the-email-designer) 首頁的標籤中選取它。
+
+   ![](assets/content_template_new.png)
 

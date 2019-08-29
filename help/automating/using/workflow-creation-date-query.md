@@ -15,7 +15,7 @@ context-tags: 工作流程，使用案例，查詢
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
+source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
 
 ---
 
@@ -36,14 +36,13 @@ source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
 1. In **[!UICONTROL Execution frequency]**，select **[!UICONTROL Daily]**.
 1. 為工作流程選擇執行 **[!UICONTROL Time]** 和執行 **[!UICONTROL Repetition frequency]** 。
 1. 選取 **[!UICONTROL Start]** 日期和 **[!UICONTROL Expiration]** 工作流程。
+1. 確認您的活動並儲存您的工作流程。
 
 >[!NOTE]
 >
 >若要在特定時區開始工作流程，請在&#x200B;**[!UICONTROL Execution options]**&#x200B;標籤中設定排程器 **[!UICONTROL Time zone]**&#x200B;的時區。
 
 ![](assets/time_zone.png)
-
-1. 確認您的活動並儲存您的工作流程。
 
 ## 建立查詢活動 {#creating-a-query-activity}
 
@@ -75,13 +74,13 @@ Click **[!UICONTROL Confirm]**.
 1. 在 **[!UICONTROL Query]** 編輯器上，選取第一個查詢並複製它。
 1. 開啓復本。
 1. 依 **[!UICONTROL Day]** 查詢 **[!UICONTROL Month]** 取代。
-您應該會這樣：
-
-``` Month(@created) = Month(GetDate()) ```
-
 1. Click **[!UICONTROL Confirm]**.
 
 ![](assets/month_rule.png)
+
+您應該會這樣：
+
+``` Month(@created) = Month(GetDate()) ```
 
 最終查詢會顯示：
 

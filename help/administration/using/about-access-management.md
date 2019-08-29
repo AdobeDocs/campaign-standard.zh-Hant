@@ -14,29 +14,29 @@ discoiquuid: 54028f63-c9 ca-4397-a079-e27 cfdebf6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 25fd443c580d83eb4de0a8becfcbae8f450525cb
+source-git-commit: 52547aedf10cfaf8e4edf0b496d6bf108e8c41f6
 
 ---
 
 
-# About access management{#about-access-management}
+# 關於存取管理{#about-access-management}
 
 Adobe Campaign可讓您定義並管理指派給不同使用者的權限。權限是一組權限和限制，可授權或拒絕存取介面中的某些功能或物件。這些權限以兩個概念為基礎：
 
-* **組織單位**：這些可讓您定義平台的不同物件(電子郵件、工作流程、範本、使用者、描述檔等)上的權限階層。Refer to the [Organizational units](../../administration/using/organizational-units.md) section.
-* **角色**：一組統一權限，可讓您定義指派給使用者和使用者群組的授權。Refer to the [List of roles](../../administration/using/list-of-roles.md) section.
+* **組織單位**：這些可讓您定義平台的不同物件(電子郵件、工作流程、範本、使用者、描述檔等)上的權限階層。請參閱 [「組織單位](../../administration/using/organizational-units.md) 」區段。
+* **角色**：一組統一權限，可讓您定義指派給使用者和使用者群組的授權。請參閱 [角色](../../administration/using/list-of-roles.md) 區段清單。
 
-   透過組織單位，角色可為使用者提供介面的篩選檢視，並定義其對不同功能的存取權。For more on this, refer to the [Roles and permissions table](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
+   透過組織單位，角色可為使用者提供介面的篩選檢視，並定義其對不同功能的存取權。如需詳細資訊，請參閱 [「授權」表格](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)。
 
 >[!CAUTION]
 >
->請注意，地理單位功能已過時。For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html).
+>請注意，地理單位功能已過時。如需更多資訊，請參閱本 [頁](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)。
 
-Roles, groups, and organizational units can be managed by the functional administrator of the platform, under the **[!UICONTROL Administration > Users & Security]** menu.
+角色、群組和組織單位可由功能管理員在 **[!UICONTROL Administration > Users & Security]** 功能表中管理。
 
 ![](assets/user_management_1.png)
 
-Users are managed in the Admin console (refer to the [Managing groups and users](../../administration/using/managing-groups-and-users.md) section or the [Admin console documentation](https://helpx.adobe.com/enterprise/managing/user-guide.html)).
+系統會在管理控制台中管理使用者(請參閱 [管理群組和使用者](../../administration/using/managing-groups-and-users.md) 區段或 [管理控制台文件](https://helpx.adobe.com/enterprise/managing/user-guide.html))。
 
 ![](assets/user_management_6.png)
 

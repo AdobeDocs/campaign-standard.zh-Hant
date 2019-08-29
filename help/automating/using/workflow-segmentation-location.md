@@ -15,7 +15,7 @@ context-tags: '工作流程，使用案例，查詢，分段，傳送 '
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
+source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
 
 ---
 
@@ -45,11 +45,7 @@ source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
 1. Click **[!UICONTROL Confirm]**.
 1. In **[!UICONTROL List of outbound segments]**，click **[!UICONTROL Add an element]** and click on ![](assets/edit_darkgrey-24px.png) to create a segment target in the cond city.芝加哥。
 1. 拖放並 **[!UICONTROL Location]****[!UICONTROL City]** 使用運算元 **[!UICONTROL equals to]** 進行選取，然後輸入 **[!UICONTROL Chicago]** 值。
-
->[!NOTE]
->
->若要覆蓋所有進入芝加哥的人員，不考慮個案會取消區分區分大小寫選項。
-
+1. 若要覆蓋所有進入芝加哥的人員，不考慮個案會取消區分區分大小寫選項。
 1. Click **[!UICONTROL Confirm]**.
 
 ## 建立電子郵件傳送{#creating-an-email-delivery}

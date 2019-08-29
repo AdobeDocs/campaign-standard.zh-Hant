@@ -15,7 +15,7 @@ context-tags: 工作流程、使用案例、分段
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
+source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
 
 ---
 
@@ -42,15 +42,14 @@ source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
 1. 將滑鼠指標暫留在區段上，然後按一下定位 ![](assets/edit_darkgrey-24px.png) 客戶今年新增的資料庫。
 1. 拖放並 **[!UICONTROL Profiles]****[!UICONTROL Created]** 以篩選類型進行選取 **[!UICONTROL Relative]**。
 1. 變更 **[!UICONTROL Level of precision]** 並 **[!UICONTROL Year]** 選取 **[!UICONTROL This year]**。
-
->[!NOTE]
->
->若要觀察規則的結構，請按一 **[!UICONTROL Advanced Mode]**&#x200B;下。
-
 1. 按 **[!UICONTROL Confirm]** 兩下。
 1. In **[!UICONTROL Advanced Options]**，check **[!UICONTROL Generate complement]** to create a segment target thele剩下collector.
 1. Click **[!UICONTROL Confirm]**.
 1. Click **[!UICONTROL Save]**.
+
+>[!NOTE]
+>
+>若要觀察規則的結構，請按一 **[!UICONTROL Advanced Mode]**&#x200B;下。
 
 ## 建立電子郵件傳送 {#create-an-email-delivery}
 
@@ -62,11 +61,10 @@ source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
 1. 若要建立電子郵件的版面配置，請按 **[!UICONTROL Email Designer]**&#x200B;一下。
 1. 插入元素或選取現有範本。
 1. 透過每次傳遞專屬的優惠，個人化您的電子郵件。
-
-如需詳細資訊，請參閱 [設計電子郵件](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch)。
-
 1. 按一下 **[!UICONTROL Preview]** 以檢查您的版面。
 1. Click **[!UICONTROL Save]**.
+
+如需詳細資訊，請參閱 [設計電子郵件](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch)。
 
 **相關主題：**
 

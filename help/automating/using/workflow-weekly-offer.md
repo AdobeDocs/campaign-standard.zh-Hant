@@ -15,7 +15,7 @@ context-tags: 工作流程，使用案例，查詢，傳送，排程器
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
+source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
 
 ---
 
@@ -37,14 +37,13 @@ source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
 1. 為您的傳送選擇 **[!UICONTROL Time]** 和a **[!UICONTROL Repetition frequency]** 。
 1. In **[!UICONTROL Days of the week]**，select **[!UICONTROL Tuesday]**.
 1. 指定工作流程的參數 **[!UICONTROL Start]** 和 **[!UICONTROL Expiration]** 參數。
+1. 確認您的活動並儲存您的工作流程。
 
 ![](assets/scheduler_properties.png)
 
 >[!NOTE]
 >
 >若要在特定 **[!UICONTROL Time Zone]**&#x200B;位置開始工作流程，請在&#x200B;**[!UICONTROL Execution options]**「時區」欄位中設定排程器的時區時區。
-
-1. 確認您的活動並儲存您的工作流程。
 
 ## 建立查詢活動{#creating-a-query-activity}
 

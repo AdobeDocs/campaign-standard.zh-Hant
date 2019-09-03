@@ -1,18 +1,18 @@
 ---
-keywords: Campaign Standard；首頁；熱門主題
-seo-title: Adobe Campaign Standard產品文件
+keywords: Campaign Standard;home;popular topics
+seo-title: Adobe Campaign Standard 產品文件
 solution: Campaign Standard
-title: Adobe Campaign Standard產品文件
+title: Adobe Campaign Standard 產品文件
 topic: Premium
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d7c3ffc46d6d0975bc8d068438aea8d13501af21
 
 ---
 
 
-# Help Center {#campaign-standard-documentation}
+# 說明中心 {#campaign-standard-documentation}
 
-透過Adobe Campaign Standard產品文件瞭解基本概念並美化您的技能。
+透過 Adobe Campaign Standard 產品文件了解基本概念並完善您的技能。
 
 |  |  |  |
 |:---:|:---:|:---:|

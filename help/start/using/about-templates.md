@@ -14,7 +14,7 @@ discoiquuid: 95218eBE-5430-42a2-b900-1dadbhone92 d99
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8e2766bb9fef619142d3ee59cb8aa8ed20424a3f
+source-git-commit: 816c580d952848ac760c9a98c06f54bf260f3554
 
 ---
 
@@ -54,11 +54,11 @@ source-git-commit: 8e2766bb9fef619142d3ee59cb8aa8ed20424a3f
 
 ## 內容範本 {#content-templates}
 
-可從「進階」功能表的 **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates & fragments]** 畫面存取HTML內容 [範本](../../start/using/interface-description.md#advanced-menu)。您可以從這裡管理著陸頁面內容範本、電子郵件內容範本和片段。
+可從「進階」功能表的 **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates & fragments]** 畫面存取HTML內容 [範本](../../start/using/interface-description.md#advanced-menu)。您可以從這裡管理著陸頁面內容範本、電子郵件內容範本以及片段。
 
 ![](assets/content_templates_list.png)
 
-現成可用的內容範本為唯讀。若要編輯其中一個，您必須先複製它。
+現成可用的內容範本為唯讀。若要編輯其中一個，您必須先複製所要的範本。
 
 您可以建立新範本或片段，並定義自己的內容。如需詳細資訊，請參閱 [「建立內容範本](../../start/using/about-templates.md#creating-a-content-template) 」和 [「建立內容片段](../../designing/using/defining-the-email-structure.md#creating-a-content-fragment)」。
 

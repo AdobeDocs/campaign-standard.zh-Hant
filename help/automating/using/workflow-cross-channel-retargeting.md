@@ -15,7 +15,7 @@ context-tags: '工作流程，使用案例，查詢，等待，傳送 '
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
+source-git-commit: 035726bbd3112058b9a89525a861521bc3b9867e
 
 ---
 
@@ -36,6 +36,8 @@ source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
 1. In **[!UICONTROL Shortcuts]**、drag and drop **[!UICONTROL Profiles]** and select **[!UICONTROL no longer contact by email]** with the value **[!UICONTROL no ]**.
 1. Click **[!UICONTROL Confirm]**.
 
+![](assets/wf-complement-query.png)
+
 ## 建立電子郵件傳送{#creating-an-email-delivery}
 
 1. 拖放每個區段後的****[!UICONTROL Email delivery]電子郵件傳送。
@@ -44,7 +46,6 @@ source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
 1. 選擇 **[!UICONTROL Add an outbound transition without the population]** 並按 **[!UICONTROL Next]**&#x200B;一下。
 1. 選取電子郵件範本，然後按一下 **[!UICONTROL Next]**。
 1. 輸入電子郵件屬性，然後按一下 **[!UICONTROL Next]**。
-1. 重新命名電子郵件 **選件**。
 1. 若要建立電子郵件的版面配置，請按 **[!UICONTROL Using the Email Designer]**&#x200B;一下。
 1. 插入元素或選取現有範本。
 1. 透過每個位置專屬的選件個人化您的電子郵件。如需詳細資訊，請參閱 [設計電子郵件](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch)。
@@ -76,6 +77,8 @@ source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
 如需詳細資訊，請參閱 [設計SMS](../../channels/using/creating-an-sms-message.md)。
 1. 按一下 **[!UICONTROL Preview]** 以檢查您的版面。
 1. Click **[!UICONTROL Save]**.
+
+![](assets/wf-retargeting-non-openers.png)
 
 **相關主題：**
 

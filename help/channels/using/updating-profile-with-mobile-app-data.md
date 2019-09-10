@@ -15,7 +15,7 @@ context-tags: delivery，MobileAppContent，back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2b514387a803de25c6ddcc41bdf0e56692cfa446
+source-git-commit: 64c7de127285ca56b6af398b0a0c3f1470756fe4
 
 ---
 
@@ -105,7 +105,7 @@ source-git-commit: 2b514387a803de25c6ddcc41bdf0e56692cfa446
       ![](assets/update_profile5.png)
 
 1. 設定 **[!UICONTROL Update data]** 活動。
-   1. **[!UICONTROL Identification]** 在標籤中，確定 **[UICONHTROL維度更新]** 欄位設為「描述檔(描述檔)」，然後按一下 **[!UICONTROL Create element]** 按鈕以新增欄位做為協調標準。
+   1. **[!UICONTROL Identification]** 在標籤中，確定 **[!UICONTROL Dimension to update]** 欄位設定為「描述檔(描述檔)」，然後按一下 **[!UICONTROL Create element]** 按鈕以新增欄位做為協調標準。
 
       ![](assets/update_profile_createelement.png)
 
@@ -115,7 +115,7 @@ source-git-commit: 2b514387a803de25c6ddcc41bdf0e56692cfa446
       ![](assets/update_profile7.png)
 
    1. **[!UICONTROL Fields to update]** 在標籤中按一下 **[!UICONTROL Create element]** 按鈕，然後將來自appsubscriptionRCP表格(**[!UICONTROL Source]** 欄位)的欄位對應至您要在描述檔表格&#x200B;**[!UICONTROL Destination]** (欄位)中更新的欄位。
-   1. 在 **[!UICONTROL Enabled if]** 欄位中新增運算式，以確保只有當來源欄位包含值時，才會更新「描述檔」表格中的對應欄位。若要這麼做，請從清單中選取欄位，然後新增「！=運算式(如果「Source[」欄位是「運算式」編輯器中的「目標/@ CuseMail]」，請確實輸入「[target/@ CuseMail] ！」=」)。
+   1. 在 **[!UICONTROL Enabled if]** 欄位中新增運算式，以確保只有當來源欄位包含值時，才會更新「描述檔」表格中的對應欄位。若要這麼做，請從清單中選取欄位，然後新增「！=運算式(如果「來源」欄位位於 `[target/@cusEmail]` 「運算式編輯器」中，請確實輸入) `[target/@cusEmail] != ''"`。
 
       ![](assets/update_profile8.png)
 

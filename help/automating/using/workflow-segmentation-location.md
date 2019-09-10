@@ -15,7 +15,7 @@ context-tags: '工作流程，使用案例，查詢，分段，傳送 '
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
+source-git-commit: bb65cbf808a95e8b42b2a682b7c0a9cc6225d920
 
 ---
 
@@ -35,6 +35,8 @@ source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
 1. In **[!UICONTROL Shortcuts]**、drag and drop **[!UICONTROL Profiles]** and select the field **[!UICONTROL email]** with the operator **[!UICONTROL is not empty]**.
 1. In **[!UICONTROL Shortcuts]**、drag and drop **[!UICONTROL Profiles]** and select the field **[!UICONTROL no longer contact by email]** with the value **[!UICONTROL no]**.
 1. 按 **[!UICONTROL Confirm]** 兩下。
+
+![](assets/wf-complement-query.png)
 
 ## 建立分段活動{#creating-a-segmentation-activity}
 
@@ -63,6 +65,8 @@ source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
 
 1. 按一下 **[!UICONTROL Preview]** 以檢查您的版面。
 1. Click **[!UICONTROL Save]**.
+
+![](assets/wf-segmentation-location.png)
 
 **相關主題：**
 

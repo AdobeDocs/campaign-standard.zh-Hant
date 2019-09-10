@@ -15,31 +15,33 @@ context-tags: delivery，DirectMailContent，back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b0cf437ec97153b53bd4502171b24286abb25731
+source-git-commit: 27447db9ee0dd387c39976c7bd4e157a4b7899b8
 
 ---
 
 
-# Defining the direct mail audience{#defining-the-direct-mail-audience}
+# 定義直接郵件對象{#defining-the-direct-mail-audience}
 
-You can either define the audience in the creation wizard or by clicking on the **Audience** section of the delivery dashboard.
+您可以在建立精靈中定義對象，或按一下傳送控制面板的 **「對象** 」區段。
 
 ![](assets/direct_mail_15.png)
 
-## Defining the main target {#defining-the-main-target}
+## 定義主要目標 {#defining-the-main-target}
 
 對於直接郵件，目標設定檔會包含在要傳送給直接郵件提供者的擷取檔案中。
 
-對於每個目標設定檔，擷取檔案中會新增新行。The amount of profile information that will be included for each recipient is defined in the [Defining the extraction](../../channels/using/defining-the-direct-mail-content.md#defining-the-extraction) screen.
+對於每個目標設定檔，擷取檔案中會新增新行。每個收件者將會在 [「定義」擷取](../../channels/using/defining-the-direct-mail-content.md#defining-the-extraction) 畫面中定義要包含的描述檔資訊量。
 
 >[!CAUTION]
 >
->請確定您的個人檔案包含郵寄地址，因為此資訊對直接郵件提供者而言是不可或缺的資訊。Also make sure you have checked the **[!UICONTROL Address specified]** box in your profiles' information. See [Recommendations](../../channels/using/about-direct-mail.md#recommendations).
+>請確定您的個人檔案包含郵寄地址，因為此資訊對直接郵件提供者而言是不可或缺的資訊。此外，請確定您已勾選個人檔案資訊中的 **[!UICONTROL Address specified]** 方塊。請參閱 [Recommendations](../../channels/using/about-direct-mail.md#recommendations)。
 
-## Adding test and trap profiles {#adding-test-and-trap-profiles}
+## 新增測試和補漏白描述檔 {#adding-test-and-trap-profiles}
 
-新增測試設定檔，讓您可以使用少量描述檔來測試檔案。它可讓您快速建立檔案範例，在準備實際檔案之前測試並驗證結構。Refer to [Managing test profiles and sending proofs](../../sending/using/managing-test-profiles-and-sending-proofs.md).
+新增測試設定檔，讓您可以使用少量描述檔來測試檔案。它可讓您快速建立檔案範例，在準備實際檔案之前測試並驗證結構。請參閱 [管理測試設定檔和傳送校樣](../../sending/using/managing-test-profiles-and-sending-proofs.md)。
 
-使用補漏白是直效郵件傳送的必備工具。例如，它們允許您驗證直接郵件提供者是否確實傳送了通訊資料，而且他們並未傳送您的客戶清單給其他供應商。
+使用補漏白是直效郵件傳送的必備工具。它們可讓您驗證直接郵件提供者是否確實傳送了通訊資料，而且他們並未傳送您的客戶清單給其他供應商。請參閱 [使用補漏白](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps)。
 
-對於直接郵件傳送，會在擷取期間新增補漏白，並在輸出文件中混合。By default, they are inserted in the sorting order of the output file, but you can choose to insert them at the end or the beginning of the file ( **[!UICONTROL Trap insertion mode]** tab).
+對於直接郵件傳送，會在擷取期間新增補漏白，並在輸出文件中混合。依預設，它們會插入輸出檔案的排序順序，但您可以選擇將它們插入檔案的結尾或開頭。定義對象時，從 **[!UICONTROL Trap insertion mode]** 標籤中選擇所要的選項。
+
+![](assets/direct_mail_trap_insertion_mode.png)

@@ -4,7 +4,7 @@ sub-product: adobe campaign標準
 audience: 使用者
 user-guide-title: Adobe Campaign Standard說明
 translation-type: tm+mt
-source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
+source-git-commit: 3b7da7df5092476be4c6acc21b2ad2472a80da83
 
 ---
 
@@ -84,6 +84,7 @@ source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
       + [準備和傳送推播通知](channels/using/preparing-and-sending-a-push-notification.md)
       + [自訂推播通知](channels/using/customizing-a-push-notification.md)
       + [建立多語言推播通知](channels/using/creating-a-multilingual-push-notification.md)
+      + [根據行動應用程式資料建立和更新描述檔資訊](channels/using/updating-profile-with-mobile-app-data.md)
    + 應用程式內傳訊 {#in-app-messaging}
       + [關於應用程式內傳訊](channels/using/about-in-app-messaging.md)
       + [準備及傳送應用程式內訊息](channels/using/preparing-and-sending-an-in-app-message.md)

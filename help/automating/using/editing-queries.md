@@ -15,14 +15,14 @@ context-tags: QueryFilter，概觀；觀眾，主要
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+source-git-commit: bb65cbf808a95e8b42b2a682b7c0a9cc6225d920
 
 ---
 
 
-# Editing queries{#editing-queries}
+# 編輯查詢{#editing-queries}
 
-## About query editor {#about-query-editor}
+## 關於查詢編輯器 {#about-query-editor}
 
 查詢編輯器是精靈，可讓您篩選Adobe Campaign資料庫中包含的資料。
 
@@ -30,13 +30,13 @@ source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
 
 數個應用程式功能會使用它，以：
 
-* Create **Query** type **audiences**
-* Define **email** targets
-* Define populations in **workflow** activities
+* 建立 **查詢** 類型 **觀眾**
+* 定義 **電子郵件** 目標
+* 定義 **工作流程** 活動中的人口族群
 
-## Query editor interface {#query-editor-interface}
+## 查詢編輯器介面 {#query-editor-interface}
 
-The query editor is made up of a **Palette** and a **Workspace**.
+查詢編輯器由 **浮動視窗** 和 **工作區**&#x200B;組成。
 
 ![](assets/query_editor_overview.png)
 
@@ -47,53 +47,53 @@ The query editor is made up of a **Palette** and a **Workspace**.
 * **「捷徑」，**&#x200B;依預設提供或由執行個體管理員建立。您可以在這裡找到欄位、節點、群組、1-1連結、1-N連結和其他預先定義的篩選器。
 * **可** 讓您存取目標資源中所有可用欄位的Explorer：節點、群組元素、連結(1-1和1-N)。
 
-標籤中包含的元素必須移至工作區中，才能設定並考量查詢。Depending on the targeting dimension selected (see [Targeting dimensions and resources](../../automating/using/query.md#targeting-dimensions-and-resources)), you can:
+標籤中包含的元素必須移至工作區中，才能設定並考量查詢。視選取的定位維度(請參閱 [定位維度和資源](../../automating/using/query.md#targeting-dimensions-and-resources))，您可以：
 
 * 逐一選取受眾或個人檔案
 * 使用預先定義的篩選器
 * 定義您所選擇欄位的簡單規則
 * 定義進階規則，讓您可以將函數套用至特定欄位
 
-### Workspace {#workspace}
+### 工作區 {#workspace}
 
 工作區是您可以設定及組合從浮動視窗中新增的規則、對象和預先定義篩選的中央區域。
 
-When you move an element from the palette into the workspace, a new window opens and you can start [Creating queries](../../automating/using/editing-queries.md#creating-queries).
+當您從浮動視窗中移動元素至工作區時，會開啓新視窗，您可以開始 [建立查詢](../../automating/using/editing-queries.md#creating-queries)。
 
-## Creating queries {#creating-queries}
+## 建立查詢 {#creating-queries}
 
 查詢編輯器可用來定義訊息中的對象或測試描述檔、工作流程中的人口族群，以及建立查詢類型觀眾。
 
-Queries can be defined in the **[!UICONTROL Audience]** window while creating a delivery or in a **Query** activity while creating a workflow.
+建立工作流程時 **[!UICONTROL Audience]** 可在視窗中定義查詢，同時建立傳送或 **查詢** 活動。
 
 1. 將元素從浮動視窗移至工作區。編輯規則的視窗隨即開啓。
 
-   * For a string or numerical **field**, specify the comparison operator and the value.
+   * 對於字串或數值 **欄位**，請指定比較運算子和值。
 
       ![](assets/query_editor_audience_definition2.png)
 
-   * For a date or date and time **field**, you can choose to define a specific date, a range between two dates, or a period relative to the query's execution date.
+   * 對於日期或日期和時間 **欄位**，您可以選擇定義特定日期、兩個日期之間的範圍，或相對於查詢執行日期的期間。
 
       ![](assets/query_editor_date_field.png)
 
-   * For a Boolean **field**, check the boxes linked to the possible values for the field.
-   * For a **grouping** field, select the grouping field on which you want to create the rule, then define the condition in the same way as for the other fields.
+   * 對於布林 **欄位**，請勾選連結至欄位可能值的方塊。
+   * 對於 **群組** 欄位，選取您要建立規則的群組欄位，然後定義與其他欄位相同的條件。
 
       ![](assets/query_editor_audience_definition4.png)
 
-   * For a **1-1** link with another database resource, select a value directly from the table targeted.
+   * 對於具有其他資料庫資源的 **1-1** 連結，請直接從表格選取值。
 
       ![](assets/query_editor_audience_definition5.png)
 
-   * For a **1-N** link with another database resource, you can define a sub-query on the fields of this second resource.
+   * 對於 **具有其他資料庫資源的1-N** 連結，您可以在第二個資源的欄位上定義子查詢。
 
       您不需要指定子條件。
 
-      For example, you can only select the **[!UICONTROL Exists]** operator on the profile tracking logs and approve the rule. 規則會傳回追蹤記錄檔的所有描述檔。
+      例如，您只能在描述檔追蹤記錄檔上選取 **[!UICONTROL Exists]** 運算元，並核准規則。規則會傳回追蹤記錄檔的所有描述檔。
 
       ![](assets/query_editor_audience_definition6.png)
 
-   * For a **predefined filter**, enter or select the elements you like according to the criteria offered.
+   * 對於 **預先定義的篩選**，請根據提供的條件輸入或選取您喜歡的元素。
 
       管理員可以建立篩選器來協助複雜和重復的查詢。這些項目會以預先設定規則的形式出現在查詢編輯器中，並限制使用者需要執行的步驟數。
 
@@ -106,7 +106,7 @@ Queries can be defined in the **[!UICONTROL Audience]** window while creating a 
    * **[!UICONTROL OR]**：兩種准則的聯合組織。會考量比對兩個標準至少一個的元素。
    * **[!UICONTROL EXCEPT]**：排除准則。符合第一個標準的元素會納入考量，除非它們也符合第二個標準。
 
-1. You can now calculate and preview the number of elements targeted by your query using the ![](assets/count.png) and ![](assets/preview.png) buttons from the action bar.
+1. 您現在可以使用動作列中的 ![](assets/count.png)![](assets/preview.png) 和按鈕，計算並預覽查詢所鎖定的元素數目。
 
    ![](assets/query_editor_combining_rules.png)
 
@@ -118,4 +118,7 @@ Queries can be defined in the **[!UICONTROL Audience]** window while creating a 
 
 * [進階功能](../../automating/using/advanced-expression-editing.md)
 * [定義篩選器](../../developing/using/configuring-filter-definition.md)
-
+* [使用案例：建立一次一次的電子郵件傳送](../../automating/using/workflow-weekly-offer.md)
+* [使用案例：建立在位置上分段的傳送](../../automating/using/workflow-segmentation-location.md)
+* [使用案例：建立具有輔助功能的傳送](../../automating/using/workflow-created-query-with-complement.md)
+* [使用案例：重新定位工作流程，將新傳送傳送至非opervers](../../automating/using/workflow-cross-channel-retargeting.md)

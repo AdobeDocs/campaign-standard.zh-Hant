@@ -15,7 +15,7 @@ context-tags: 工作流程，使用案例，查詢，傳送，排程器
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
+source-git-commit: 035726bbd3112058b9a89525a861521bc3b9867e
 
 ---
 
@@ -52,6 +52,8 @@ source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
 1. 選擇 **[!UICONTROL is not empty]** 作為運算元。
 1. 在 **[!UICONTROL Shortcuts]** &gt;中 **[!UICONTROL General]**，新增描述檔並 **[!UICONTROL no longer contact by email]** 以值選取 **[!UICONTROL No]**。
 1. Click **[!UICONTROL Confirm]**.
+
+![](assets/wf-complement-query.png)
 
 ## 建立電子郵件傳送{#creating-an-email-delivery}
 

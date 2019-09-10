@@ -15,12 +15,12 @@ context-tags: workflow，wizard；工作流程，主要
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51154892b2d5bd5685272735cdd6e7d9474e09a6
+source-git-commit: bb65cbf808a95e8b42b2a682b7c0a9cc6225d920
 
 ---
 
 
-# Building a workflow{#building-a-workflow}
+# 建立工作流程{#building-a-workflow}
 
 本節詳細說明建立新工作流程的主要原則和最佳做法：
 
@@ -28,11 +28,11 @@ source-git-commit: 51154892b2d5bd5685272735cdd6e7d9474e09a6
 * 新增和連結活動。
 * 設定活動。
 
-## Creating a workflow {#creating-a-workflow}
+## 建立工作流程 {#creating-a-workflow}
 
 您可以從程式、促銷活動或行銷活動清單建立工作流程。
 
-Creating a marketing activity is detailed in the [Creating marketing activities](../../start/using/marketing-activities.md#creating-a-marketing-activity) section.
+建立行銷活動會詳細說明 [「建立行銷活動](../../start/using/marketing-activities.md#creating-a-marketing-activity) 」區段。
 
 1. 開始建立工作流程類型行銷活動後，選取您要使用的範本。
 
@@ -40,13 +40,13 @@ Creating a marketing activity is detailed in the [Creating marketing activities]
 
    >[!NOTE]
    >
-   >每個行銷活動依預設提供數種類型。這些可讓您根據需求預先設定某些參數。For more information, refer to the [Managing templates](../../start/using/about-templates.md) section.
+   >每個行銷活動依預設提供數種類型。這些可讓您根據需求預先設定某些參數。如需詳細資訊，請參閱 [「管理範本](../../start/using/about-templates.md) 」區段。
 
 1. 輸入工作流程的一般屬性。
 
    ![](assets/workflow_creation_2.png)
 
-   You can enter a name in the **Label** field and modify the ID. 活動名稱及其ID會出現在介面中，但訊息收件者看不到這些項目。
+   您可以在「Label」( **標籤)** 欄位中輸入名稱，然後修改ID。活動名稱及其ID會出現在介面中，但訊息收件者看不到這些項目。
 
    >[!NOTE]
    >
@@ -56,13 +56,13 @@ Creating a marketing activity is detailed in the [Creating marketing activities]
 
    由於它可讓他們更容易找到並疑難排解無法依預期方式執行的工作，Adobe建議您提供適當的名稱和標籤：填寫工作流程的說明欄位，以摘要執行的程序，讓操作員輕鬆瞭解此程序。
 
-1. 確認建立活動，然後顯示該活動的控制面板。For more on this, refer to the [Workflow interface](../../automating/using/workflow-interface.md) section.
+1. 確認建立活動，然後顯示該活動的控制面板。如需詳細資訊，請參閱 [「工作流程」介面](../../automating/using/workflow-interface.md) 區段。
 
 **相關主題：**
 
 [建立工作流程](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-workflow-feature-video-use.html) 影片
 
-## Adding and linking activities {#adding-and-linking-activities}
+## 新增和連結活動 {#adding-and-linking-activities}
 
 您現在必須定義各種活動，並將它們連結在圖表中。
 
@@ -81,9 +81,9 @@ Creating a marketing activity is detailed in the [Creating marketing activities]
 
 1. 將活動從浮動視窗拖曳至圖表中，以新增活動。
 
-   For example, add a **Start** activity and then an **Email delivery** activity on the diagram.
+   例如，新增 **「開始** 」活動，然後在圖表上新增 **電子郵件傳送** 活動。
 
-1. Link the activities together by dragging the **Start** activity transition and dropping it on to the **Email delivery** activity.
+1. 拖曳 **「開始** 」活動轉換並將其拖放 **至電子郵件傳送** 活動，將活動連結在一起。
 
    >[!NOTE]
    >
@@ -93,20 +93,26 @@ Creating a marketing activity is detailed in the [Creating marketing activities]
 
    >[!NOTE]
    >
-   >您也可以複製現有活動，複製現有活動。如此，您就可以保留原本定義的設定。For more on this, refer to [Duplicating workflow activities](../../automating/using/workflow-interface.md#duplicating-workflow-activities).
+   >您也可以複製現有活動，複製現有活動。如此，您就可以保留原本定義的設定。如需詳細資訊，請參閱 [複製工作流程活動](../../automating/using/workflow-interface.md#duplicating-workflow-activities)。
 
-Once your workflow activities are linked together, you can personalize the transitions between them with the **label** of your choice. 若要這麼做，請按兩下轉場以存取其屬性。
+在連結您的工作流程活動後，您可以使用您選擇的 **標籤** 個人化它們之間的轉場效果。若要這麼做，請按兩下轉場以存取其屬性。
 
-Moreover, **[!UICONTROL Targeting]** and **[!UICONTROL Data management (ETL)]** activities allows you to define **segment codes** for their outbound transitions. 然後您可以根據這些區段代碼建立報表，以測量行銷活動的效率。For more on this, refer to [this section](../../reporting/using/creating-a-report-workflow-segment.md).
+此外 **[!UICONTROL Targeting]****[!UICONTROL Data management (ETL)]** ，活動也可讓您為其傳出轉場定義 **區段代碼** 。然後您可以根據這些區段代碼建立報表，以測量行銷活動的效率。For more on this, refer to [this section](../../reporting/using/creating-a-report-workflow-segment.md).
 
-## Configuring activities {#configuring-activities}
+**工作流程使用案例：**
+
+* [使用案例：建立一次一次的電子郵件傳送](../../automating/using/workflow-weekly-offer.md)
+* [使用案例：建立在位置上分段的傳送](../../automating/using/workflow-segmentation-location.md)
+* [使用案例：建立具有輔助功能的傳送](../../automating/using/workflow-created-query-with-complement.md)
+* [使用案例：重新定位工作流程，將新傳送傳送至非opervers](../../automating/using/workflow-cross-channel-retargeting.md)
+
+## 設定活動 {#configuring-activities}
 
 依預設，未設定活動，且如果未設定資料，則不會正確處理資料。每個活動包含數個標籤，可管理特定組態和活動一般選項，例如傳出轉場、標籤等。
 
 1. 確定所有活動都已正確連線。有些活動需要偵測傳入資料的結構或性質，以提供正確的配置選項。
-1. Double-click an activity or select it and click the **[!UICONTROL Edit]** contextual action to open its configuration window.
+1. 按兩下活動或選取該活動，然後按一下 **[!UICONTROL Edit]** 內容相關動作，開啓其設定視窗。
 1. 編輯活動的標籤。
 1. 定義處理資料所需的所有不同選項。請參閱本文件中的活動特定章節，以瞭解每個活動的可能選項。
 1. 儲存活動並針對工作流程的每個活動重復這些作業。
 1. 儲存工作流程。
-

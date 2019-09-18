@@ -3,328 +3,328 @@ title: 事件交易訊息
 seo-title: 事件交易訊息
 description: 事件交易訊息
 seo-description: 瞭解如何建立和發佈事件交易訊息。
-page-status-flag: 從未啓動
-uuid: d747feb5-58fb-4e12-a176-404f0 a5391
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
+page-status-flag: 從未激活
+uuid: d747feb5-58fb-4e12-a176-404f0eca5391
+contentOwner: 紹維亞
+products: SG_CAMPAIGN/STANDARD
 audience: 頻道
-content-type: reference
-topic-tags: 交易訊息
-discoiquuid: 4f6317a1-9dfe-4714-bc1 c-393629d855 cd
-context-tags: Delivery TransactionalTemplate，overview
+content-type: 參考
+topic-tags: 事務性消息傳遞
+discoiquuid: 4f6317a1-9dfe-4714-bc1c-393629d855cd
+context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e08b7e01956a9106937cb72ab790cb2e98999fcd
+source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
 
 ---
 
 
-# Event transactional messages{#event-transactional-messages}
+# 事件交易訊息{#event-transactional-messages}
 
-您可以傳送定位事件的事件交易訊息。這類交易訊息不包含描述檔資訊：傳送目標是由事件本身包含的資料所定義。
+您可以傳送事件交易訊息，以事件為目標。 此類事務性消息不包含配置檔案資訊：傳送目標是由事件本身所包含的資料所定義。
 
-Once you have created and published an event (the cart abandonment as explained in [this section](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle)), the corresponding transactional message is created automatically.
+建立並發佈事件(如本節所述的購物車放棄 [率](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle))後，就會自動建立對應的交易訊息。
 
-The configuration steps are presented in the [Configuring an event to send an transactional message](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) section.
+配置步驟顯示在「配置事 [件以發送事務性消息」部分](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) 。
 
-為了讓事件觸發傳送交易訊息，您必須個人化訊息，然後加以測試並加以發佈。
+為了讓事件觸發傳送交易訊息，您必須個人化訊息，然後測試並發佈訊息。
 
 >[!NOTE]
 >
->To access the transactional messages, you must have administration rights or appear in the **[!UICONTROL Message Center agents]** (mcExec) security group. 事件交易訊息不包含描述檔資訊，因此它們與疲勞規則不相容(即使在使用描述檔進行擴充時)。See [Fatigue rules](../../administration/using/fatigue-rules.md#choosing-the-channel).
+>要訪問事務性消息，您必須具有管理權限或顯示在( **[!UICONTROL Message Center agents]** mcExec)安全組中。 事件事務性消息不包含配置檔案資訊，因此它們與疲勞規則不相容（即使在富集了配置檔案的情況下）。 請參 [閱疲勞規則](../../administration/using/fatigue-rules.md#choosing-the-channel)。
 
-## Defining a test profile in a transactional message {#defining-a-test-profile-in-a-transactional-message}
+## 在事務性消息中定義測試配置檔案 {#defining-a-test-profile-in-a-transactional-message}
 
-定義已調整的測試設定檔，讓您預覽訊息並傳送校樣以檢查訊息。
+定義已調整的測試設定檔，讓您預覽訊息並傳送校對。
 
-### Creating a test profile within the transactional message {#creating-a-test-profile-within-the-transactional-----------message}
+### 在事務性消息中建立測試配置檔案 {#creating-a-test-profile-within-the-transactional-----------message}
 
-1. To access the message that you created, click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner, then select **[!UICONTROL Marketing plans]** &gt; **[!UICONTROL Transactional messages]** &gt; **[!UICONTROL Transactional messages]**.
+1. 若要存取您建立的訊息，請按一 **[!UICONTROL Adobe Campaign]** 下左上角的標誌，然後選取 **[!UICONTROL Marketing plans]** &gt; **[!UICONTROL Transactional messages]** &gt; **[!UICONTROL Transactional messages]**。
 
    ![](assets/message-center_4.png)
 
-1. 建立要連結至事件的測試設定檔。
+1. 建立將連結至您事件的測試設定檔。
 
    ![](assets/message-center_test-profile.png)
 
-1. Specify the information to send in JSON format in the **[!UICONTROL Event data used for personalization]** section. 此為預覽訊息時，以及測試設定檔接收校樣時所使用的內容。
+1. 在區段中指定要以JSON格式傳送的 **[!UICONTROL Event data used for personalization]** 資訊。 這是預覽訊息和測試設定檔收到校對時要使用的內容。
 
    ![](assets/message-center_event-data.png)
 
    >[!NOTE]
    >
-   >您也可以輸入與描述檔表格相關的資訊。See [Enriching the transactional message content](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content).
+   >您也可以輸入與配置檔案表相關的資訊。 請參 [閱豐富交易式訊息內容](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content)。
 
-1. 在建立後，會在交易訊息中預先指定測試設定檔。Click the **[!UICONTROL Test profiles]** block of the message to check the target of your proof.
+1. 在建立後，測試設定檔會預先指定在交易訊息中。 按一 **[!UICONTROL Test profiles]** 下訊息區塊以檢查您的證明目標。
 
    ![](assets/message-center_5.png)
 
-### Creating a test profile outside the transactional message {#creating-a-test-profile-outside-the-transactional-----------message}
+### 在事務性消息外建立測試配置檔案 {#creating-a-test-profile-outside-the-transactional-----------message}
 
-You can also create a new test profile or use one that already exists in the **[!UICONTROL Test profiles]** menu.
+您也可以建立新的測試設定檔，或使用功能表中已存在的測試設 **[!UICONTROL Test profiles]** 定檔。
 
-1. Click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner, then select **[!UICONTROL Profiles & audiences]** &gt; **[!UICONTROL Test profiles]**.
-1. In the **[!UICONTROL Event]** section of the page of the test profile that you have chosen, select the event that you have just created. 在此範例中，選取「購物車放棄(evtCartabandonUnment)」。
-1. Specify the information to send in JSON format in the **[!UICONTROL Event data]** text box.
+1. 按一下 **[!UICONTROL Adobe Campaign]** 左上角的標誌，然後選取 **[!UICONTROL Profiles & audiences]** &gt; **[!UICONTROL Test profiles]**。
+1. 在您選 **[!UICONTROL Event]** 擇之測試設定檔頁面的區段中，選取您剛建立的事件。 在此範例中，選取「購物車放棄(EVTcartAppliation)」。
+1. 在文字方塊中指定要以JSON格式傳送 **[!UICONTROL Event data]** 的資訊。
 
    ![](assets/message-center_3.png)
 
-1. 儲存變更。
+1. 儲存您的變更。
 
 您現在可以存取您建立的訊息，並選取更新的測試設定檔。
 
 **相關主題：**
 
 * [管理測試設定檔](../../sending/using/managing-test-profiles-and-sending-proofs.md)
-* [定義受眾](../../audiences/using/creating-audiences.md)
+* [定義觀眾](../../audiences/using/creating-audiences.md)
 
-## Personalizing a transactional message {#personalizing-a-transactional-message}
+## 個人化交易式訊息 {#personalizing-a-transactional-message}
 
-若要在交易訊息中設定個人化，請遵循下列步驟：
+要在事務性消息中設定個人化，請執行以下步驟：
 
-1. Click the **[!UICONTROL Content]** block to modify your message's subject and content. 在此範例中，匯入包含影像、樣式表和HTML檔案的HTML範本。Importing HTML templates is presented in the [Loading an existing content](../../designing/using/selecting-an-existing-content.md) section.
+1. 按一下 **[!UICONTROL Content]** 區塊以修改訊息的主旨和內容。 在此範例中，匯入包含影像、樣式表和HTML檔案的HTML範本。 匯入HTML範本會顯示在「載入現 [有內容」區段中](../../designing/using/using-existing-content.md) 。
 
    ![](assets/message-center_6.png)
 
-1. 輸入您的訊息內容。在此範例中，我們新增了個個人化欄位：姓氏，上次產品諮詢，總購物車金額。放棄購物車的連結是外部URL的連結，可將人員重新導向至其購物車。此參數不會在Adobe Campaign中管理。
+1. 輸入您的訊息內容。 在此範例中，我們新增了三個個人化欄位：姓氏、咨詢最後產品、購物車總金額。 放棄購物車的連結是外部URL的連結，會將訪客重新導向至其購物車。 Adobe Campaign不會管理此參數。
 
-   To add fields that you defined when you created your event (see [Configuring an event](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message)), insert a personalization field in the message content. You can find the fields by selecting **[!UICONTROL Transactional event]** &gt; **[!UICONTROL Event context]**.
+   若要新增您在建立事件時定義的欄位(請參閱 [設定事件](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message))，請在訊息內容中插入個人化欄位。 您可以選擇&gt;以尋找欄 **[!UICONTROL Transactional event]** 位 **[!UICONTROL Event context]**。
 
    ![](assets/message-center_7.png)
 
-1. 若要豐富訊息內容，請從您連結事件的表格中選擇欄位。In our example, select the **[!UICONTROL Title (salutation)]** field in the **[!UICONTROL Profile]** table.
+1. 若要豐富訊息的內容，請從您連結事件的表格中選取欄位，以新增欄位。 在我們的示例中，選擇 **[!UICONTROL Title (salutation)]** 表中的字 **[!UICONTROL Profile]** 段。
 
    ![](assets/message-center_7-enrichment.png)
 
-   The steps for inserting a personalization field are detailed in the [Inserting a personalization field](../../designing/using/inserting-a-personalization-field.md) section.
+   插入個人化欄位的步驟在「插入個人化欄 [位」區段中詳述](../../designing/using/personalization.md#inserting-a-personalization-field) 。
 
    ![](assets/message-center_8.png)
 
-1. 選取您為此事件定義的設定檔，以預覽您的訊息。
+1. 選取您為此事件定義的描述檔，以預覽訊息。
 
-   The steps for previewing a message are detailed in the [Previewing messages](../../sending/using/preparing-the-send.md) section.
+   預覽訊息的步驟在「預覽訊息」區 [段中詳述](../../sending/using/preparing-the-send.md) 。
 
    ![](assets/message-center_9.png)
 
-   您可以檢查個人化欄位是否符合測試描述檔中輸入的資訊。For more on this, see [Defining a test profile in a transactional message](../../channels/using/event-transactional-messages.md#defining-a-test-profile-in-a-transactional-message).
+   您可以檢查個人化欄位是否符合測試描述檔中輸入的資訊。 如需詳細資訊，請參 [閱在交易訊息中定義測試描述檔](../../channels/using/event-transactional-messages.md#defining-a-test-profile-in-a-transactional-message)。
 
-## Using product listings in a transactional message {#using-product-listings-in-a-transactional-message}
+## 在事務性消息中使用產品清單 {#using-product-listings-in-a-transactional-message}
 
-您可以建立產品清單，參照交易式電子郵件內容中的一或多個資料集合。例如，在購物車放棄電子郵件中，您可以包含使用者離開您的網站時的所有產品清單，其中包含影像、價格和每項產品的連結。
+您可以建立產品清單，參考交易電子郵件內容中的一或多個資料集合。 例如，在購物車放棄電子郵件中，您可以包含使用者離開網站時購物車中的所有產品清單，以及影像、價格和每個產品的連結。
 
 >[!CAUTION]
 >
->Product listings are only available when editing transactional email messages through the [Email Designer](../../designing/using/about-email-content-design.md#about-the-email-designer) interface.
+>只有在通過「電子郵件設計器」介面編輯事務性電子郵件消息時，產品 [清單才可用](../../designing/using/overview.md#email-designer) 。
 
-若要在交易訊息中新增放棄產品清單，請遵循以下步驟。
+要在事務性消息中添加放棄的產品清單，請遵循以下步驟。
 
-您也可以觀看一組影片，說明在交易式電子郵件中設定產品清單所需的步驟。For more on this, see [this page](https://helpx.adobe.com/campaign/kt/acs/using/acs-product-listings-in-transactional-emails-feature-video-setup.html).
+您也可以觀看一組影片，說明在交易式電子郵件中設定產品清單所需的步驟。 如需詳細資訊，請參 [閱本頁](https://helpx.adobe.com/campaign/kt/acs/using/acs-product-listings-in-transactional-emails-feature-video-setup.html)。
 
 >[!NOTE]
 >
->Adobe Campaign不支援巢狀產品清單，這表示您無法在另一個清單中包含產品清單。
+>Adobe Campaign不支援巢狀產品清單，這表示您無法將產品清單加入另一個產品清單中。
 
-### Defining a product listing {#defining-a-product-listing}
+### 定義產品清單 {#defining-a-product-listing}
 
-在交易訊息中使用產品清單之前，您必須在事件層級定義產品清單，以及您要顯示之清單的每個產品的欄位。For more on this, see [Defining data collections](../../administration/using/configuring-transactional-messaging.md#defining-data-collections).
+在交易訊息中使用產品清單之前，您必須在事件層級定義產品清單以及您要顯示清單中各產品的欄位。 如需詳細資訊，請參閱定 [義資料集合](../../administration/using/configuring-transactional-messaging.md#defining-data-collections)。
 
-1. In the transactional message, click the **[!UICONTROL Content]** block to modify the email content.
-1. 拖放結構元件至工作區。For more on this, see [Editing the email structure](../../designing/using/defining-the-email-structure.md#editing-the-email-structure).
+1. 在交易訊息中，按一下 **[!UICONTROL Content]** 區塊以修改電子郵件內容。
+1. 將結構元件拖放到工作區。 如需詳細資訊，請參閱「 [編輯電子郵件結構」](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 
-   例如，選取單欄結構元件並新增文字元件、影像元件和按鈕元件。For more on this, see [Adding fragments and components](../../designing/using/defining-the-email-structure.md#adding-fragments-and-content-components).
+   例如，選擇一列結構元件並添加文本元件、影像元件和按鈕元件。 如需詳細資訊，請參 [閱新增片段和元件](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 
-1. Select the structure component you just created and click the **[!UICONTROL Enable product listing]** icon from the contextual toolbar.
+1. 選擇剛建立的結構元件，然後按一下上下文 **[!UICONTROL Enable product listing]** 工具欄中的表徵圖。
 
    ![](assets/message-center_loop_create.png)
 
-   The structure component is highlighted with an orange frame and the **[!UICONTROL Product listing]** settings are displayed in the left palette.
+   結構元件會以橘色的影格反白顯示，而 **[!UICONTROL Product listing]** 設定會顯示在左側浮動視窗中。
 
    ![](assets/message-center_loop_palette.png)
 
-1. 選取系列元素的顯示方式：
+1. 選擇系列元素的顯示方式：
 
-   * **[!UICONTROL Row]**：水平表示另一列的每個元素。
-   * **[!UICONTROL Column]**：垂直代表同一列上另一個元素的旁邊。
+   * **[!UICONTROL Row]**:水準，表示一列上另一列下方的每個元素。
+   * **[!UICONTROL Column]**:垂直，表示同一行上的每個元素相鄰。
    >[!NOTE]
    >
-   >**[!UICONTROL Column]** 此選項僅適用於使用多欄結構元件( **[!UICONTROL 2:2 column]**&#x200B;和 **[!UICONTROL 3:3 column]****[!UICONTROL 4:4 column]** )。編輯產品清單時，只會填寫第一欄：其他欄將不會納入考量。For more on selecting structure components, see [Editing the email structure](../../designing/using/defining-the-email-structure.md#editing-the-email-structure).
+   >只 **[!UICONTROL Column]** 有當使用多欄結構元件（、和）時， **[!UICONTROL 2:2 column]****[!UICONTROL 3:3 column]** 才可使用此選 **[!UICONTROL 4:4 column]** 項。 編輯產品清單時，僅填入第一欄：其他欄則不會納入考量。 有關選擇結構元件的詳細資訊，請參 [閱編輯電子郵件結構](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 
-1. 選取設定與交易訊息相關之事件時所建立的資料收集。You can find it under the **[!UICONTROL Context]** &gt; **[!UICONTROL Real-time event]** &gt; **[!UICONTROL Event context]** node.
+1. 選擇在配置與事務性消息相關的事件時建立的資料收集。 您可以在&gt; **[!UICONTROL Context]** &gt; **[!UICONTROL Real-time event]** &gt;節點下 **[!UICONTROL Event context]** 找到。
 
    ![](assets/message-center_loop_selection.png)
 
-   For more on configuring the event, see [Defining data collections](../../administration/using/configuring-transactional-messaging.md#defining-data-collections).
+   如需設定事件的詳細資訊，請參閱定 [義資料集合](../../administration/using/configuring-transactional-messaging.md#defining-data-collections)。
 
-1. Use the **[!UICONTROL First item]** drop-down list to select which element will start the list displayed in the email.
+1. 使用下 **[!UICONTROL First item]** 拉式清單來選取要啟動電子郵件中顯示清單的元素。
 
-   例如，如果您選取了2，系列的第一個項目將不會顯示在電子郵件中。產品清單將從第二個項目開始。
+   例如，如果您選取2，系列的第一個項目將不會顯示在電子郵件中。 產品清單將從第二個項目開始。
 
-1. 選取清單中要顯示的項目數目上限。
+1. 選取清單中要顯示的項目數上限。
 
    >[!NOTE]
    >
-   >If you want the elements of your list to be displayed vertically ( **[!UICONTROL Column]** ), the maximum number of items is limited according to the selected structure component (2, 3 or 4 columns). For more on selecting structure components, see [Editing the email structure](../../designing/using/defining-the-email-structure.md#editing-the-email-structure).
+   >如果希望清單的元素垂直顯示( **[!UICONTROL Column]** )，則根據選定的結構元件（2、3或4列）限制項的最大數量。 有關選擇結構元件的詳細資訊，請參 [閱編輯電子郵件結構](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 
-### Populating the product listing {#populating-the-product-listing}
+### 填入產品清單 {#populating-the-product-listing}
 
-若要顯示連結至交易電子郵件之事件的產品清單，請遵循以下步驟。
+若要顯示連結至交易式電子郵件之事件的產品清單，請遵循下列步驟。
 
-For more on creating a collection and related fields when configuring the event, see [Defining data collections](../../administration/using/configuring-transactional-messaging.md#defining-data-collections).
+如需設定事件時建立系列和相關欄位的詳細資訊，請參閱定 [義資料系列](../../administration/using/configuring-transactional-messaging.md#defining-data-collections)。
 
-1. Select the image component you inserted, select **[!UICONTROL Enable personalization]** and click the pencil in the Settings pane.
+1. 選取您插入的影像元件，選取 **[!UICONTROL Enable personalization]** 並按一下「設定」窗格中的鉛筆。
 
    ![](assets/message-center_loop_image.png)
 
-1. Select **[!UICONTROL Add personalization field]** in the **[!UICONTROL Image source URL]** window that opens.
+1. 在打 **[!UICONTROL Add personalization field]** 開的 **[!UICONTROL Image source URL]** 窗口中選擇。
 
-   From the **[!UICONTROL Context]** &gt; **[!UICONTROL Real-time event]** &gt; **[!UICONTROL Event context]** node, open the node corresponding to the collection that you created (here **[!UICONTROL Product list]** ) and select the image field that you defined (here **[!UICONTROL Product image]** ). Click **[!UICONTROL Save]**.
+   從&gt; **[!UICONTROL Context]** &gt;節 **[!UICONTROL Real-time event]** 點中，開啟與您建立的系列(此處 **[!UICONTROL Event context]** )對應的節點，然後選擇您定義的映像欄位(此處 **[!UICONTROL Product list]****[!UICONTROL Product image]** )。 Click **[!UICONTROL Save]**.
 
    ![](assets/message-center_loop_product-image.png)
 
    您選取的個人化欄位現在會顯示在「設定」窗格中。
 
-1. At the desired position, select **[!UICONTROL Insert personalization field]** from the contextual toolbar.
+1. 在所要的位置，從內容相關工 **[!UICONTROL Insert personalization field]** 具列中選取。
 
    ![](assets/message-center_loop_product.png)
 
-1. From the **[!UICONTROL Context]** &gt; **[!UICONTROL Real-time event]** &gt; **[!UICONTROL Event context]** node, open the node corresponding to the collection that you created (here **[!UICONTROL Product list]** ) and select the field that you created (here **[!UICONTROL Product name]** ). Click **[!UICONTROL Confirm]**.
+1. 從&gt; **[!UICONTROL Context]** &gt;節 **[!UICONTROL Real-time event]** 點中，開啟與您建立的系列(此處 **[!UICONTROL Event context]** )對應的節點，然後選擇您建立的欄位(此處 **[!UICONTROL Product list]****[!UICONTROL Product name]** )。 Click **[!UICONTROL Confirm]**.
 
    ![](assets/message-center_loop_product_node.png)
 
-   您選取的個人化欄位現在會顯示在電子郵件內容中所要的位置。
+   您選取的個人化欄位現在會顯示在電子郵件內容的所需位置。
 
-1. 按類似方式繼續進行。
-1. Select some text and select **[!UICONTROL Insert link]** from the contextual toolbar.
+1. 以類似方式繼續插入價格。
+1. 選擇一些文本，然後從上 **[!UICONTROL Insert link]** 下文工具欄中選擇。
 
    ![](assets/message-center_loop_link_insert.png)
 
-1. Select **[!UICONTROL Add personalization field]** in the **[!UICONTROL Insert link]** window that opens.
+1. 在打 **[!UICONTROL Add personalization field]** 開的 **[!UICONTROL Insert link]** 窗口中選擇。
 
-   From the **[!UICONTROL Context]** &gt; **[!UICONTROL Real-time event]** &gt; **[!UICONTROL Event context]** node, open the node corresponding to the collection that you created (here **[!UICONTROL Product list]** ) and select the URL field that you created (here **[!UICONTROL Product URL]** ). Click **[!UICONTROL Save]**.
+   從&gt; **[!UICONTROL Context]** &gt;節 **[!UICONTROL Real-time event]** 點中，開啟與您所建立之系列對應的節點(此處 **[!UICONTROL Event context]** )，然後選取您所建立的URL欄位(此處 **[!UICONTROL Product list]****[!UICONTROL Product URL]** )。 Click **[!UICONTROL Save]**.
 
    >[!CAUTION]
    >
-   >基於安全理由，請確定您在開頭為適當靜態網域名稱的連結中插入個人化欄位。
+   >出於安全原因，請務必將個人化欄位插入以適當靜態網域名稱開始的連結中。
 
    ![](assets/message-center_loop_link_select.png)
 
    您選取的個人化欄位現在會顯示在「設定」窗格中。
 
-1. Select the structure component on which the product listing is applied and select **[!UICONTROL Show fallback]** to define a default content.
+1. 選擇應用產品清單的結構元件，並選 **[!UICONTROL Show fallback]** 擇定義預設內容。
 
    ![](assets/message-center_loop_fallback_show.png)
 
-1. 拖曳一或多個內容元件並視需要加以編輯。
+1. 拖曳一或多個內容元件，並視需要加以編輯。
 
    ![](assets/message-center_loop_fallback.png)
 
-   如果事件觸發時會顯示空白，則會顯示備援內容，例如客戶在購物車中無任何項目時。
+   如果系列在觸發事件時為空，例如客戶購物車中沒有任何項目，則會顯示備援內容。
 
-1. 從「設定」窗格中，編輯產品清單的樣式。For more on this, see [Editing email styles](../../designing/using/editing-email-styles.md).
-1. 使用連結至相關交易事件以及您定義收集資料的測試設定檔預覽電子郵件。For example, add the following information in the **[!UICONTROL Event data]** section for the test profile you want to use:
+1. 在「設定」窗格中，編輯產品清單的樣式。 如需詳細資訊，請參閱「編輯 [電子郵件樣式](../../designing/using/styles.md)」。
+1. 使用連結至相關交易事件且您已定義收集資料的測試設定檔來預覽電子郵件。 例如，在您要使用的測試設定 **[!UICONTROL Event data]** 檔區段中新增下列資訊：
 
    ![](assets/message-center_loop_test-profile_payload.png)
 
-   For more on defining a test profile in a transactional message, see [this section](../../channels/using/event-transactional-messages.md#defining-a-test-profile-in-a-transactional-message).
+   如需在交易訊息中定義測試描述檔的詳細資訊，請參 [閱本節](../../channels/using/event-transactional-messages.md#defining-a-test-profile-in-a-transactional-message)。
 
-## Testing a transactional message {#testing-a-transactional-message}
+## 測試事務性消息 {#testing-a-transactional-message}
 
-儲存交易訊息後，您現在可以傳送校樣來進行測試。
+儲存交易訊息後，您現在可以傳送證明來測試。
 
 ![](assets/message-center_10.png)
 
-The steps for sending a proof are detailed in the [Sending a proof](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs) section.
+傳送證明的步驟在傳送證明一節 [中詳述](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs) 。
 
-## Publishing a transactional message {#publishing-a-transactional-message}
+## 發佈交易訊息 {#publishing-a-transactional-message}
 
-勾選交易訊息後，您可以加以發佈。
+勾選交易訊息後，即可發佈。
 
 ![](assets/message-center_12.png)
 
-現在，當觸發「購物車放棄」事件時，會自動提示包含收件者標題和姓氏、購物車URL、上次產品諮詢或產品清單(如果您定義產品清單)的訊息，以及要傳送的總購物車金額。
+現在，一旦觸發「購物車放棄」事件，就會自動提示訊息，內含收件者的標題和姓氏、購物車URL、上次諮詢的產品或產品清單（如果您定義產品清單），以及要傳送的購物車總金額。
 
-To access reports concerning your transactional message, use the **[!UICONTROL Reports]** button. See [Reports](../../reporting/using/about-dynamic-reports.md).
+要訪問有關事務性消息的報告，請使用 **[!UICONTROL Reports]** 按鈕。 請參閱 [報表](../../reporting/using/about-dynamic-reports.md)。
 
 ![](assets/message-center_13.png)
 
-## Suspending a transactional message publication {#suspending-a-transactional-message-publication}
+## 暫停事務性消息發佈 {#suspending-a-transactional-message-publication}
 
-You can suspend publishing your transactional message by using the **[!UICONTROL Pause]** button, for example, to modify the data contained in the message. 因此，事件不會再處理，而會保留在Adobe Campaign資料庫中的佇列中。
+您可以暫停發佈事務性消息， **[!UICONTROL Pause]** 例如使用按鈕修改消息中包含的資料。 因此，這些事件不會再處理，而會保留在Adobe Campaign資料庫的佇列中。
 
-The queued events are kept during a period of time that is defined in the REST API (see [REST API documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)) or in the trigger event if you are using the Triggers core service (see [Working with Campaign and Experience Cloud Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
+佇列的事件會在REST API中定義的時段內保留(請參閱 [REST API檔案](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html))，或在觸發器事件中(如果您使用「觸發器」核心服務，請參閱 [Working with Campaign and Experience cloud觸發器](../../integrating/using/about-adobe-experience-cloud-triggers.md))。
 
 ![](assets/message-center_pause.png)
 
-When clicking **[!UICONTROL Resume]**, all of the queued events (provided that they are not expired) are processed. 現在，它們包含範本出版物暫停時進行的所有修改。
+按一 **[!UICONTROL Resume]**&#x200B;下時，會處理所有佇列的事件（前提是未過期）。 現在，範本發佈暫停時，它們會包含所有進行的修改。
 
-## Unpublishing a transactional message {#unpublishing-a-transactional-message}
+## 取消發佈交易式訊息 {#unpublishing-a-transactional-message}
 
-Clicking **[!UICONTROL Unpublish]** allows you to cancel the transactional message publication, but also the publication of the corresponding event, which deletes from the REST API the resource corresponding to the event that you previously created. 現在，即使是透過您的網站觸發事件，對應的訊息也不會再傳送，也不會儲存在資料庫中。
+按一下 **[!UICONTROL Unpublish]** 可以取消事務性消息發佈，也可以取消相應事件的發佈，該發佈會從REST API中刪除與先前建立的事件對應的資源。 現在，即使事件是透過您的網站觸發，對應的訊息也不會再傳送，也不會儲存在資料庫中。
 
 ![](assets/message-center_unpublish-template.png)
 
 >[!NOTE]
 >
->若要再次發佈訊息，您需要返回對應的事件設定、發佈並發佈訊息。For more on this, see [Publishing a transactional message](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message).
+>若要再次發佈訊息，您必須返回對應的事件設定、發佈訊息，然後發佈訊息。 如需詳細資訊，請參閱「發 [布交易式訊息」](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message)。
 
-如果您取消發佈已暫停的交易訊息，可能需要等候24小時才能再次發佈。This is to let the **[!UICONTROL Database cleanup]** workflow clean all the events that were sent to the queue. The steps for pausing a message are detailed in the [Suspending a transactional message publication](../../channels/using/event-transactional-messages.md#suspending-a-transactional-message-publication) section.
+如果您解除發佈已暫停的交易訊息，您可能必須等候最多24小時，才能再次發佈。 這可讓工作流 **[!UICONTROL Database cleanup]** 程清除傳送至佇列的所有事件。 暫停消息的步驟在暫停事務性消息發 [布部分中有詳細說明](../../channels/using/event-transactional-messages.md#suspending-a-transactional-message-publication) 。
 
-**[!UICONTROL Database cleanup]** 工作流程每天早上執行，可透過 **[!UICONTROL Administration]** &gt; **[!UICONTROL Application settings]** &gt;存取 **[!UICONTROL Workflows]**。
+每 **[!UICONTROL Database cleanup]** 天凌晨4點執行的工作流程可透過 **[!UICONTROL Administration]** &gt; **[!UICONTROL Application settings]** &gt;存取 **[!UICONTROL Workflows]**。
 
-## Deleting a transactional message {#deleting-a-transactional-message}
+## 刪除事務性消息 {#deleting-a-transactional-message}
 
 ![](assets/message-center_delete-template.png)
 
-By selecting a transactional message, you can delete it with the **[!UICONTROL Delete element]** button even if it has already been published. 不過，刪除交易訊息只能在某些情況下完成：
+選擇事務性消息後，即使已發佈該消息，您也 **[!UICONTROL Delete element]** 可以使用按鈕將其刪除。 但是，刪除事務性消息只能在特定條件下完成：
 
-* **交易訊息**：若要刪除交易訊息，訊息應該解除發佈且不會暫停。
+* **事務性消息**:要刪除事務性消息，應取消發佈消息，而不應暫停。
 
-   如果交易訊息未發佈，則必須解除發佈事件設定，才能成功刪除您的交易訊息，除非其他交易訊息連結至對應的事件。For more information on how to unpublish a transactional message, refer to this [section](../../channels/using/event-transactional-messages.md#unpublishing-a-transactional-message).
+   如果未發佈事務性消息，則事件配置也需要取消發佈才能成功刪除事務性消息，除非另一個事務性消息連結到相應的事件。 有關如何取消發佈事務性消息的詳細資訊，請參閱本 [節](../../channels/using/event-transactional-messages.md#unpublishing-a-transactional-message)。
 
    >[!CAUTION]
    >
-   >刪除已傳送通知的交易訊息也會刪除其傳送和追蹤記錄檔。
+   >刪除已發送通知的事務性消息也會刪除其發送和跟蹤日誌。
 
-* **來自現成可用事件範本的交易訊息(內部交易訊息)**：若要刪除內部交易訊息，訊息應該解除發佈且不會暫停。
+* **來自現成可用事件範本的交易訊息（內部交易訊息）**:要刪除內部事務性消息，應取消發佈消息，而不應暫停。
 
-   它也不是事件中唯一的交易訊息，而必須連結至對應的事件。
+   它也不應是事件中唯一的事務性消息，其他消息必須連結到相應的事件。
 
-## Transactional message retry process {#transactional-message-retry-process}
+## 事務性消息重試過程 {#transactional-message-retry-process}
 
-暫時未傳送的交易訊息會受到自動重試，直到傳送過期為止。For more on the delivery duration, see [Validity period parameters](../../administration/using/configuring-email-channel.md#validity-period-parameters).
+暫時未傳送的事務性消息可能會執行自動重試，直到傳送過期為止。 有關交貨期間的詳細資訊，請參 [閱有效期間參數](../../administration/using/configuring-email-channel.md#validity-period-parameters)。
 
-如果無法傳送交易訊息，則有兩個重試系統：
+發送事務性消息失敗時，有兩個重試系統：
 
-* 在交易傳訊層級，交易訊息可能會在指派事件給執行傳送、事件接收和傳送準備之間失敗。See [Event processing retry process](../../channels/using/event-transactional-messages.md#event-processing-retry-process).
-* 在傳送程序層級，當事件指派給執行傳送時，交易訊息會因暫時錯誤而失敗。See [Message sending retry process](../../channels/using/event-transactional-messages.md#message-sending-retry-process).
+* 在事務性消息傳遞級別，事務性消息在事件被分配給執行傳送之前可能失敗，這意味著事件接收和傳送準備之間。 請參閱 [事件處理重試程式](../../channels/using/event-transactional-messages.md#event-processing-retry-process)。
+* 在發送進程級別，一旦將事件分配給執行傳送，事務性消息就會因臨時錯誤而失敗。 請參 [閱消息發送重試進程](../../channels/using/event-transactional-messages.md#message-sending-retry-process)。
 
-### Event processing retry process {#event-processing-retry-process}
+### 事件處理重試程式 {#event-processing-retry-process}
 
-如果無法指派事件給執行傳送，則會延遲事件處理。然後執行重試，直到指派給新執行傳送為止。
-
->[!NOTE]
->
->延遲事件不會出現在交易訊息中，因為它尚未指派給執行傳送。
-
-例如，由於其內容不正確，所以無法指派事件給執行傳送，因此會發生存取權限或品牌的問題，在套用字型規則時偵測到錯誤等。在這種情況下，您可以暫停訊息，加以編輯以修正問題並再次發佈。然後重試系統會將其指派給新執行的傳送。
-
-### Message sending retry process {#message-sending-retry-process}
-
-一旦將事件指派給執行傳送，則如果收件者的郵箱已滿，交易訊息可能會因暫時錯誤而失敗。For more on this, see [Retries after a delivery temporary failure](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
+如果事件無法指派給執行傳送，則事件處理會延遲。 然後會執行重試，直到將其指派給新的執行傳送。
 
 >[!NOTE]
 >
->當事件指派給執行傳送時，它會出現在此執行傳送的傳送記錄中，而且只會出現在此時。The failed deliveries are displayed in the **[!UICONTROL Execution list]** tab of the transactional message.
+>事務性消息發送日誌中不會顯示延遲的事件，因為它尚未分配給執行傳送。
 
-### Limitations {#limitations}
+例如，由於事件內容不正確、存取權或品牌有問題、套用排版規則等，因此無法將事件指派給執行傳送。 在這種情況下，您可以暫停訊息、編輯訊息以修正問題，然後再次發佈。 然後，重試系統會將其分配給新的執行傳送。
+
+### 消息發送重試進程 {#message-sending-retry-process}
+
+一旦將事件指派給執行傳送，事務性消息就會因為臨時錯誤而失敗，例如，如果收件人的郵箱已滿。 如需詳細資訊，請參 [閱傳送暫時失敗後重試](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)。
+
+>[!NOTE]
+>
+>將事件指派給執行傳送時，它會出現在此執行傳送的傳送記錄中，而且此時才會顯示。 失敗的傳送會顯示在交易 **[!UICONTROL Execution list]** 訊息的標籤中。
+
+### 限制 {#limitations}
 
 **傳送記錄檔更新**
 
-在重試程序中，不會立即更新新執行傳送的傳送記錄(更新會透過排程工作流程執行)。It means that the message could be in **[!UICONTROL Pending]** status even if the transactional event has been processed by the new execution delivery.
+在重試過程中，不會立即更新新執行傳送的傳送記錄（更新是透過排程的工作流程執行）。 這表示即使事務事件已經由 **[!UICONTROL Pending]** 新的執行傳送處理，該消息仍可能處於狀態。
 
-**執行失敗**
+**執行傳送失敗**
 
-您無法停止執行傳送。不過，如果目前的執行傳送失敗，則會在收到新事件時立即建立新的事件，而且新的事件會由新的執行傳送處理。未通過失敗執行傳送，就不會處理新事件。
+您無法停止執行傳送。 但是，如果當前執行傳送失敗，當收到新事件時，就會建立新事件，而所有新事件都會由此新的執行傳送處理。 失敗的執行傳送不會處理任何新事件。
 
-如果某些已指派給執行傳送的事件已經延遲，而且如果執行傳送失敗，則重試系統不會將延遲的事件指派給新的執行傳送，這表示這些事件已遺失。
+如果已分配給執行傳送的某些事件已經延遲，並且如果該執行傳送失敗，則重試系統不會將延遲的事件指派給新的執行傳送，這意味著這些事件將丟失。

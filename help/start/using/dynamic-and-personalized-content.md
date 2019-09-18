@@ -1,42 +1,42 @@
 ---
-title: 動態與個人化內容
-seo-title: 動態與個人化內容
-description: 動態與個人化內容
-seo-description: 透過Adobe Campaign，您可以使用客戶偏好和資料，透過電子郵件、簡訊、推播通知、InApp訊息或直接郵件建立個人化宣傳活動。
-page-status-flag: 從未啓動
-uuid: 36a581e-25d4-426d-865a-c646519 c961 d
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
+title: 動態和個人化內容
+seo-title: 動態和個人化內容
+description: 動態和個人化內容
+seo-description: 透過Adobe Campaign，您可以使用客戶偏好設定和資料，透過電子郵件、簡訊、推播通知、InApp訊息或直效郵件建立個人化宣傳。
+page-status-flag: 從未激活
+uuid: a36a581e-25d4-426d-865a-c646519c961d
+contentOwner: 紹維亞
+products: SG_CAMPAIGN/STANDARD
 audience: start
-content-type: reference
+content-type: 參考
 topic-tags: about-adobe-campaign
-discoiquuid: 7ccca5fb-a99 b-43ea-b629-6236cf2 a5 ef4
+discoiquuid: 7cbca5fb-a99b-43ea-b629-6236cf2a5ef4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 
 ---
 
 
-# Dynamic and personalized content{#dynamic-and-personalized-content}
+# 動態和個人化內容{#dynamic-and-personalized-content}
 
-使用根據個人檔案、偏好和活動個人化的內容和標題，吸引客戶的注意力並提高回應率。所有客戶資訊都會集中在Adobe Campaign中，您可以透過不同的通道提供包含調整內容的訊息。
+使用根據客戶個人檔案、喜好和活動個人化的內容和標題，以吸引客戶的注意並提高您的回應率。 您的所有客戶資訊都會集中在Adobe Campaign中，而且您可以透過不同通道提供包含已調整內容的訊息。
 
-個人化訊息是傳送相關內容、提供個人化體驗並提高打開率及轉化率的關鍵。Adobe Campaign提供的跨通道訊息可以透過幾種不同方式個人化。這些方法可結合標準，視描述檔而定。您可以：
+個人化訊息是傳送相關內容、提供個人化體驗並提高開放率和轉化率的關鍵。 Adobe Campaign傳遞的跨通道訊息可透過多種不同方式個人化。 這些方式可根據描述檔與條件結合。 您可以：
 
-* Insert [dynamic personalization fields](../../designing/using/inserting-a-personalization-field.md) in your messages
-* Insert [predefined personalization blocks](../../designing/using/adding-a-content-block.md)
-* [個人化電子郵件或SMS的傳送者](../../designing/using/personalizing-the-sender.md)
-* [個人化電子郵件的主旨行](../../designing/using/personalizing-the-subject-line-of-an-email.md) ，或使用 [預測主旨行](../../designing/using/personalizing-the-subject-line-of-an-email.md#predictive-subject-line) 功能進行最佳化
-* Create [conditional content in an email](../../designing/using/defining-dynamic-content-in-an-email.md) or [in a landing page](../../designing/using/defining-dynamic-content-in-a-landing-page.md)
-* Insert [Dynamic text](../../designing/using/defining-dynamic-text.md) in a SMS message or a Push notification
+* 在訊息 [中插入動態個人化欄位](../../designing/using/personalization.md#inserting-a-personalization-field) ,
+* 插入預 [先定義的個人化區塊](../../designing/using/personalization.md#adding-a-content-block)
+* [個人化電子郵件](../../designing/using/subject-line.md) 或簡訊的傳送者。
+* [個人化電子郵件的主旨](../../designing/using/subject-line.md) ，或使用 [Predictive主旨行功能來最佳化電子郵件](../../designing/using/subject-line.md#predictive-subject-line) ,
+* 在電 [子郵件或登陸頁面](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) 中 [建立條件式內容](../../channels/using/defining-dynamic-content-in-a-landing-page.md)
+* 在SMS [訊息](../../channels/using/defining-dynamic-text.md) 或推播通知中插入動態文字
 
 ![](assets/delivery_content_43.png)
 
 **相關主題：**
 
-* Discover email personalization through a [end-to-end sample](../../designing/using/example--email-personalization.md)
-* Learn how to personalize URLs [in this page](../../designing/using/personalizing-urls.md)
-* Learn how to set up personalization of an image [in this page](../../designing/using/personalizing-an-image-source.md)
+* 透過端對端範例 [探索電子郵件個人化](../../designing/using/personalization.md#example-email-personalization)
+* 瞭解如何個人化 [本頁的URL](../../designing/using/personalization.md#personalizing-urls)
+* 瞭解如何在本頁設定影像 [個人化](../../designing/using/personalization.md#personalizing-an-image-source)
 

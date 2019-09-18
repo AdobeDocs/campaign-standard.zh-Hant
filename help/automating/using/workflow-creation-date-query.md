@@ -1,67 +1,67 @@
 ---
-title: 「Workflow Use-case：建立描述檔建立日期上的傳送」
-seo-title: 「Workflow Use-case：建立描述檔建立日期上的傳送」
-description: 「Workflow Use-case：建立描述檔建立日期上的傳送」
-seo-description: 「Workflow Use-case：建立描述檔建立日期上的傳送」
-page-status-flag: 從未啓動
-uuid: 396a3de1-6ffa-4385-ac9 f-15fdeae5 a366
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
+title: 「工作流程使用案例：在描述檔的建立日期建立傳送」
+seo-title: 「工作流程使用案例：在描述檔的建立日期建立傳送」
+description: 「工作流程使用案例：在描述檔的建立日期建立傳送」
+seo-description: 「工作流程使用案例：在描述檔的建立日期建立傳送」
+page-status-flag: 從未激活
+uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
+contentOwner: 紹維亞
+products: SG_CAMPAIGN/STANDARD
 audience: 自動化
-content-type: reference
+content-type: 參考
 topic-tags: '執行活動 '
-discoiquuid: 377821e6-69f8-41cc-a1 ad-8a2 f5 ed4 d409
-context-tags: 工作流程，使用案例，查詢
+discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
+context-tags: 工作流，用例，查詢
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
+source-git-commit: 4a38b1f3d7d6dbf12fa71c819147bf2d91acb0c4
 
 ---
 
 
-# 工作流程使用案例：建立描述檔「建立日期」上的傳送 {#creation-date-query}
+# 工作流程使用案例：在描述檔建立日期建立傳送 {#creation-date-query}
 
-您可以在客戶設定檔建立週年時透過電子郵件傳送優惠。
+您可以在客戶個人檔案建立週年時透過電子郵件傳送選件。
 
-1. In **[!UICONTROL Marketing Activities]**，click **[!UICONTROL Create]** and select **[!UICONTROL Workflow]**.
-1. 選擇 **[!UICONTROL New Workflow]** 工作流程類型，然後按一下 **[!UICONTROL Next]**。
-1. 輸入工作流程的屬性，然後按一下 **[!UICONTROL Create]**。
+1. 在中， **[!UICONTROL Marketing Activities]**&#x200B;按一下並 **[!UICONTROL Create]** 選擇 **[!UICONTROL Workflow]**。
+1. 選擇 **[!UICONTROL New Workflow]** 為工作流類型，然後按一下 **[!UICONTROL Next]**。
+1. 輸入工作流的屬性並按一下 **[!UICONTROL Create]**。
 
-## 建立排程器活動 {#creating-a-scheduler-activity}
+## 建立調度程式活動 {#creating-a-scheduler-activity}
 
-1. In **[!UICONTROL Activities]** &gt; **[!UICONTROL Execution]**，drag and drop a **[!UICONTROL Scheduler activity]**![](assets/scheduler_icon.png).
-1. 按兩下活動。
+1. 在 **[!UICONTROL Activities]** &gt; **[!UICONTROL Execution]**&#x200B;中拖放 **[!UICONTROL Scheduler activity]**。
+1. 連按兩下活動。
 1. 設定傳送的執行。
-1. In **[!UICONTROL Execution frequency]**，select **[!UICONTROL Daily]**.
-1. 為工作流程選擇執行 **[!UICONTROL Time]** 和執行 **[!UICONTROL Repetition frequency]** 。
-1. 選取 **[!UICONTROL Start]** 日期和 **[!UICONTROL Expiration]** 工作流程。
+1. 在中 **[!UICONTROL Execution frequency]**，選擇 **[!UICONTROL Daily]**。
+1. 選擇工 **[!UICONTROL Time]** 作流 **[!UICONTROL Repetition frequency]** 的執行和執行。
+1. 為您的工 **[!UICONTROL Start]** 作流程選 **[!UICONTROL Expiration]** 擇日期和日期。
 1. 確認您的活動並儲存您的工作流程。
 
 >[!NOTE]
 >
->若要在特定時區開始工作流程，請在&#x200B;**[!UICONTROL Execution options]**&#x200B;標籤中設定排程器 **[!UICONTROL Time zone]**&#x200B;的時區。
+>要在特定時區啟動工作流，請在該頁籤&#x200B;**[!UICONTROL Execution options]**&#x200B;的欄位中為調度程式設定時 **[!UICONTROL Time zone]**&#x200B;區。
 
 ![](assets/time_zone.png)
 
 ## 建立查詢活動 {#creating-a-query-activity}
 
-1. 若要選取收件者，請拖放並 **[!UICONTROL Query activity]** 按兩下它。
-1. 新增 **[!UICONTROL Profiles]** 並選取 **[!UICONTROL no longer contact by email]** 值 **[!UICONTROL no]**。
+1. 若要選取收件者，請拖放並 **[!UICONTROL Query activity]** 按兩下收件者。
+1. 使用 **[!UICONTROL Profiles]** 值新 **[!UICONTROL no longer contact by email]** 增並選取 **[!UICONTROL no]**。
 
-### 擷取在同一天內建立的設定檔，作為執行日 {#retriving-profiles-created-on-the-same-day}
+### 檢索在執行日建立的配置檔案 {#retriving-profiles-created-on-the-same-day}
 
-1. In **[!UICONTROL Profile]**、drag and drop the **[!UICONTROL Created]** field.然後按 **[!UICONTROL Advanced Mode]**一下。
+1. 在 **[!UICONTROL Profile]**&#x200B;中，拖放字 **[!UICONTROL Created]** 段。 並按一下 **[!UICONTROL Advanced Mode]**。
    ![](assets/advanced_mode.png)
-1. 在此 **[!UICONTROL list of functions]**&#x200B;中，按兩下&#x200B;**[!UICONTROL Day]****[!UICONTROL Date]**&#x200B;節點。
-1. 然後，將欄位 **[!UICONTROL Created]** 插入引數。
-1. 選擇 **[!UICONTROL equals to (=)]** 作為運算元。
-1. 對於值，請從&#x200B;**[!UICONTROL Day]** 中的 **[!UICONTROL Date]** 節點選取 **[!UICONTROL List of functions]**。
-1. 將&#x200B;**[!UICONTROL GetDate()]**&#x200B;函數插入為引數。
+1. 在中， **[!UICONTROL list of functions]**&#x200B;按兩下節&#x200B;**[!UICONTROL Day]** 點中的&#x200B;**[!UICONTROL Date]**&#x200B;按鈕。
+1. 然後，將欄位插 **[!UICONTROL Created]** 入為參數。
+1. 選擇 **[!UICONTROL equals to (=)]** 作為運算子。
+1. 對於「值」,**[!UICONTROL Day]** 請從中 **[!UICONTROL Date]** 的節點中選擇 **[!UICONTROL List of functions]**。
+1. 將函式&#x200B;**[!UICONTROL GetDate()]**&#x200B;插入為參數。
 
-您擷取了設定日期等於當天的描述檔。
+您檢索了建立日等於當天的配置檔案。
 
-您應終止：
+您最終應該有：
 
 ```Day(@created) = Day(GetDate())```
 
@@ -69,20 +69,20 @@ source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
 
 Click **[!UICONTROL Confirm]**.
 
-### 擷取在同月份內建立的設定檔，作為執行月份{#retriving-profiles-created-on-the-same-month}
+### 檢索在執行月的同一月建立的配置檔案{#retriving-profiles-created-on-the-same-month}
 
-1. 在 **[!UICONTROL Query]** 編輯器上，選取第一個查詢並複製它。
-1. 開啓復本。
-1. 依 **[!UICONTROL Day]** 查詢 **[!UICONTROL Month]** 取代。
+1. 在編輯 **[!UICONTROL Query]** 器上，選擇第一個查詢並複製它。
+1. 開啟復本。
+1. 在查 **[!UICONTROL Day]** 詢 **[!UICONTROL Month]** 中替換為。
 1. Click **[!UICONTROL Confirm]**.
 
 ![](assets/month_rule.png)
 
-您應該會這樣：
+您最後應該會有這樣的結果：
 
 ``` Month(@created) = Month(GetDate()) ```
 
-最終查詢會顯示：
+最終查詢將顯示：
 
 ```Day(@created) = Day(GetDate()) AND Month(@created) = Month(GetDate())```
 
@@ -91,20 +91,20 @@ Click **[!UICONTROL Confirm]**.
 ## 建立電子郵件傳送{#creating-an-email-delivery}
 
 1. 拖放電子郵件傳送。
-1. 按一下活動，然後選擇 ![](assets/edit_darkgrey-24px.png) 編輯。
-1. 選擇 **[!UICONTROL Recurring email]** 並按 **[!UICONTROL Next]**&#x200B;一下。
+1. 按一下活動並選 ![](assets/edit_darkgrey-24px.png) 擇以編輯。
+1. 選擇 **[!UICONTROL Recurring email]** 並按一下 **[!UICONTROL Next]**。
 1. 選取電子郵件範本，然後按一下 **[!UICONTROL Next]**。
 1. 輸入電子郵件屬性，然後按一下 **[!UICONTROL Next]**。
-1. 若要建立電子郵件的版面配置，請按 **[!UICONTROL Email Designer]**&#x200B;一下。
+1. 若要建立電子郵件的版面，請按一下 **[!UICONTROL Email Designer]**。
 1. 插入元素或選取現有範本。
 1. 使用欄位和連結個人化您的電子郵件。
-如需詳細資訊，請參閱 [設計電子郵件](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch)。
-1. 按一下 **[!UICONTROL Preview]** 以檢查您的版面。
+如需詳細資訊，請參閱 [設計電子郵件](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)。
+1. 按一 **[!UICONTROL Preview]** 下以檢查版面。
 1. Click **[!UICONTROL Save]**.
 
 **相關主題：**
 
-* [Query](../../automating/using/query.md)
+* [查詢](../../automating/using/query.md)
 * [排程器](../../automating/using/scheduler.md)
 * [電子郵件傳送](../../automating/using/email-delivery.md)
-* [電子郵件頻道](../../channels/using/creating-an-email.md)
+* [電子郵件通道](../../channels/using/creating-an-email.md)

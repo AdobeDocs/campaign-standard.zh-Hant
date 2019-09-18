@@ -1,114 +1,114 @@
 ---
-title: 關於交易訊息
-seo-title: 關於交易訊息
-description: 關於交易訊息
-seo-description: 探索您可以傳送的不同交易訊息類型，以及如何在Adobe Campaign中使用這些訊息。
-page-status-flag: 從未啓動
-uuid: 8470e9e-ee17-456f-9e4 c-460e69 c78 a2 c
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
+title: 關於交易式訊息
+seo-title: 關於交易式訊息
+description: 關於交易式訊息
+seo-description: 探索您可傳送的不同類型交易訊息，以及這些訊息在Adobe Campaign中的使用方式。
+page-status-flag: 從未激活
+uuid: 8470e9e2-ee17-456f-9e4c-460e69c78a2c
+contentOwner: 紹維亞
+products: SG_CAMPAIGN/STANDARD
 audience: 頻道
-content-type: reference
-topic-tags: 交易訊息
-discoiquuid: 71a4d5d5-fal2 a-4ce5-b22 b-a4736 f7 add83
+content-type: 參考
+topic-tags: 事務性消息傳遞
+discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d93c2600299a8d2ec3672b3d82222f423878034c
+source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 ---
 
 
-# About transactional messaging{#about-transactional-messaging}
+# 關於交易式訊息{#about-transactional-messaging}
 
-您可以在Adobe Campaign中建立及管理個人化交易訊息。
+您可以在Adobe Campaign中建立和管理個人化的交易訊息。
 
-交易訊息是由供應商等供應商傳送給使用者的個人和獨特通訊。
+事務性消息是由諸如網站的提供商發送給用戶的個人和唯一通信。
 
-* 此類型的訊息特別預期，因為它包含收件人想要檢查或確認的資訊。它可能是建立帳戶後的歡迎訊息，或是確認訂單已出貨、帳單或訊息確認密碼變更的確認訊息。
-* 它是定義用戶端關係的重要訊息：使用者預期會即時傳送。觸發事件與到達訊息之間的延遲必須非常簡短。
-* 交易訊息通常具有高開信率。
+* 此類型的訊息尤其值得期待，因為它包含收件者要檢查或確認的資訊。 例如，建立帳戶後，可能是歡迎訊息，或確認訂單已出貨、帳單或確認密碼變更的訊息。
+* 它是定義客戶端關係的重要消息：使用者預期會即時傳送。 因此，觸發的事件和到達的消息之間的延遲必須非常短。
+* 事務性消息通常具有高開放率。
 
-Adobe Campaign可讓您將此功能與傳送事件的資訊系統整合，以便將其轉換為自訂的交易訊息。
+Adobe Campaign可讓您將這項功能與資訊系統整合，資訊系統會將要轉換為自訂交易訊息的事件傳送給系統。
 
 >[!NOTE]
 >
->可透過電子郵件、SMS或推播通知傳送交易訊息，視您的選項而定。請檢查您的授權合約。
+>交易式訊息可透過電子郵件、簡訊或推播通知傳送，視您的選項而定。 請檢查您的授權合約。
 
 Adobe Campaign提供兩種交易訊息：
 
-* [定位事件](../../channels/using/event-transactional-messages.md) 的事件交易訊息。事件本身中包含的資料可用來定義傳送目標。
-* [描述檔交易訊息，](../../channels/using/profile-transactional-messages.md) 定位來自Adobe Campaign行銷資料庫的個人檔案。您可以使用Adobe Campaign資料庫中的資訊，根據客戶行銷設定檔傳送交易訊息。
+* [事件交易訊息](../../channels/using/event-transactional-messages.md) ，以事件為目標。 事件本身包含的資料可用來定義傳送目標。
+* [從Adobe Campaign行銷資料庫](../../channels/using/profile-transactional-messages.md) ，設定以個人檔案為目標的交易訊息。 您可以使用Adobe Campaign資料庫中的資訊，根據客戶行銷個人檔案傳送交易訊息。
 
-設定要轉換為交易訊息的事件時，會定義訊息類型。See [Transactional messaging configuration](../../administration/using/configuring-transactional-messaging.md).
+在配置將轉換為事務性消息的事件時定義消息類型。 請參 [閱事務性消息配置](../../administration/using/configuring-transactional-messaging.md)。
 
 >[!NOTE]
 >
->Adobe Campaign會排定處理交易訊息時的優先順序。
+>Adobe Campaign會優先處理交易訊息，而非其他傳送。
 
-您也可以從Adobe Campaign Standard API取得交易訊息。For more on this, refer to the [dedicated documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#about-transactional-messaging).
+Adobe Campaign Standard API也提供交易式訊息。 如需詳細資訊，請參閱專用 [檔案](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#about-transactional-messaging)。
 
-## Transactional messaging operating principle {#transactional-messaging-operating-principle}
+## 事務性消息傳遞操作原則 {#transactional-messaging-operating-principle}
 
-假設有一家公司擁有網站，而這個網站上的使用者可以購買產品。
+讓我們舉一個有網站的公司為例，其使用者可在此網站上購買產品。
 
-Adobe Campaign可讓您傳送通知電子郵件給已新增產品至購物車的網站使用者：當其中一位離開網站而未通過購買時，會自動寄送購物車寄送電子郵件給他們。
+Adobe Campaign可讓您傳送通知電子郵件給已將產品新增至購物車的網站使用者：當其中一人離開網站而未完成購買時，就會自動傳送購物車放棄電子郵件給他們。
 
-將此項目放入位置的步驟包括：
+將其放置到位的步驟如下：
 
-1. 設定名稱為「購物車放棄」並發佈此事件設定的事件，此事件會自動建立交易訊息。Creating and publishing an event are presented in the [Configuring an event to send an event transactional message](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) section.
-1. 交易訊息必須個人化、測試，然後再發佈。See [Event transactional messages](../../channels/using/event-transactional-messages.md).
-1. 此外，為了在用戶端放棄購物車時觸發事件，此事件必須使用Adobe Campaign Standard REST API從公司的網站傳送。See [Site integration](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website).
+1. 設定將命名為「購物車放棄」的事件，並發佈此事件設定，以自動建立交易訊息。 「設定事件以傳送事件交易訊 [息」區段中會顯示建立和發佈事件](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) 。
+1. 交易訊息必須個人化、測試，然後發佈。 請參 [閱事件交易訊息](../../channels/using/event-transactional-messages.md)。
+1. 此外，若要在客戶放棄購物車時觸發事件，必須使用Adobe Campaign Standard REST API從公司網站傳送此事件。 請參閱 [網站整合](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)。
 
-完成上述所有步驟後，只要使用者未在購物車中訂購產品，就會自動收到通知電子郵件。
+執行完所有這些步驟後，當使用者離開網站而未在購物車中訂購產品時，他們會自動收到通知電子郵件。
 
-## Transactional messaging limitations {#transactional-messaging-limitations}
+## 交易式訊息限制 {#transactional-messaging-limitations}
 
-### Design and publication {#design-and-publication}
+### 設計與出版 {#design-and-publication}
 
-當您設計和發佈交易訊息時，無法回復某些您需要執行的步驟。您必須注意下列限制：
+在設計和發佈事務性消息時，您需要執行的某些步驟無法還原。 您必須注意下列限制：
 
-* 每個事件設定只能使用一個渠道。See [Creating an event](../../administration/using/configuring-transactional-messaging.md#creating-an-event).
-* 一旦建立事件後，您就無法變更渠道。因此，如果訊息未成功傳送，您必須設計允許使用工作流程從其他頻道傳送的機制。See [Workflow data and processes](../../automating/using/workflow-data-and-processes.md).
-* You cannot change the targeting dimension ( **[!UICONTROL Real-time event]** or **[!UICONTROL Profile]** ) after the event is created. See [Creating an event](../../administration/using/configuring-transactional-messaging.md#creating-an-event).
-* 無法還原出版物，但您可以解除發佈事件：此操作可讓事件和相關交易訊息無法存取。See [Unpublishing an event](../../administration/using/configuring-transactional-messaging.md#unpublishing-an-event).
-* 唯一可以與事件關聯的交易訊息是在發佈該事件時自動建立的訊息。See [Previewing and publishing the event](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event).
+* 每個事件設定只能使用一個頻道。 請參 [閱建立事件](../../administration/using/configuring-transactional-messaging.md#creating-an-event)。
+* 事件建立後，便無法變更渠道。 因此，如果訊息未成功傳送，您需要設計機制，允許使用工作流程從其他管道傳送訊息。 請參 [閱工作流程資料和程式](../../automating/using/workflow-data-and-processes.md)。
+* 在事件建立後，您無 **[!UICONTROL Real-time event]** 法變 **[!UICONTROL Profile]** 更定位維度（或）。 請參 [閱建立事件](../../administration/using/configuring-transactional-messaging.md#creating-an-event)。
+* 無法回滾發佈，但可以取消發佈事件：此操作使事件和關聯的事務性消息無法訪問。 請參 [閱取消發佈事件](../../administration/using/configuring-transactional-messaging.md#unpublishing-an-event)。
+* 唯一可與事件關聯的交易訊息是發佈該事件時自動建立的訊息。 請參 [閱預覽和發佈事件](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)。
 
-### Personalization {#personalization}
+### 個人化 {#personalization}
 
-個人化訊息內容的方式，取決於交易訊息的類型。詳情列於下方：
+您個人化訊息內容的方式取決於交易訊息的類型。 具體情況列於下列：
 
-**事件型交易訊息**：
+**事件型交易訊息**:
 
-* 個人化資訊來自事件本身所包含的資料。See [Event transactional messages](../../channels/using/event-transactional-messages.md).
-* You cannot use **Unsubscription link** content blocks in an event transactional message.
-* 事件型交易訊息只應使用傳送事件中的資料來定義收件者和訊息內容個人化。不過，您可以使用Adobe Campaign資料庫中的資訊豐富交易訊息的內容。See [Enriching the transactional message content](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content).
-* 由於事件交易訊息不包含描述檔資訊，因此它們與疲勞規則不相容，即使在使用描述檔進行擴充時也不相容。See [Fatigue rules](../../administration/using/fatigue-rules.md).
+* 個人化資訊來自事件本身所包含的資料。 請參 [閱事件交易訊息](../../channels/using/event-transactional-messages.md)。
+* 在事件事務 **性訊息中** ，您無法使用取消訂閱連結內容區塊。
+* 事件型交易訊息應僅使用傳送事件中的資料來定義收件者和訊息內容個人化。 不過，您可以使用Adobe Campaign資料庫的資訊，豐富您交易訊息的內容。 請參 [閱豐富交易式訊息內容](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content)。
+* 由於事件事務性消息不包含配置檔案資訊，因此它們與疲勞規則不相容，即使在富集配置檔案的情況下也是如此。 請參 [閱疲勞規則](../../administration/using/fatigue-rules.md)。
 
-**以個人檔案為基礎的交易訊息**：
+**基於概要的事務性消息**:
 
-* 個人化資訊可以來自事件中包含的資料或協調的描述檔記錄中。See [Profile transactional messages](../../channels/using/profile-transactional-messages.md).
-* You can use **Unsubscription link** content blocks in a profile transactional message. See [Adding a content block](../../designing/using/adding-a-content-block.md).
-* 疲勞規則與描述檔交易訊息相容。See [Fatigue rules](../../administration/using/fatigue-rules.md).
+* 個人化資訊可來自事件中包含的資料，或來自已調節的描述檔記錄。 請參 [閱Profiletransactional messages](../../channels/using/profile-transactional-messages.md)。
+* 您可以在描述檔 **交易訊息中** ，使用取消訂閱連結內容區塊。 請參 [閱新增內容區塊](../../designing/using/personalization.md#adding-a-content-block)。
+* 疲勞規則與描述檔交易訊息相容。 請參 [閱疲勞規則](../../administration/using/fatigue-rules.md)。
 
-請注意，產品清單僅適用於交易式電子郵件訊息。See [Using product listings in a transactional message](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message).
+請注意，產品清單僅適用於交易電子郵件訊息。 請參 [閱在交易訊息中使用產品清單](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)。
 
-### Permissions and branding {#permissions-and-branding}
+### 權限與品牌 {#permissions-and-branding}
 
-When it comes to [branding](../../administration/using/branding.md) management, transactional messaging enables less flexibility than standard messaging. Adobe recommends linking all brands used in transactional messages to the **[!UICONTROL All]** organizational unit. 如需詳細資訊，請閱讀下列詳細說明。
+在品牌管理方面 [](../../administration/using/branding.md) ，交易式訊息提供的彈性比標準訊息要小。 Adobe建議將交易訊息中使用的所有品牌連結至 **[!UICONTROL All]** 組織單位。 如需詳細資訊，請閱讀以下詳細說明。
 
-編輯交易訊息時，您可以將其連結至品牌，以自動套用某些參數，例如品牌名稱或品牌標誌。The **[!UICONTROL Default brand]** is selected by default in the transactional message properties.
+編輯交易訊息時，您可以將訊息連結至品牌，以自動套用一些參數，例如品牌名稱或品牌標誌。 預設 **[!UICONTROL Default brand]** 情況下，在事務性消息屬性中將選中。
 
 ![](assets/message-center_branding.png)
 
-To access the transactional messages, you must be part of the **[!UICONTROL Message Center agents]** (mcExec) security group, which is linked to the **[!UICONTROL Message Center]** [organizational unit](../../administration/using/organizational-units.md). Therefore, all objects (including branding) used in a transactional message must be visible from the **[!UICONTROL Message Center]** organizational unit, meaning that these objects must be in the **[!UICONTROL Message Center]** or **[!UICONTROL All]** organizational units.
+要訪問事務性消息，您必須是( **[!UICONTROL Message Center agents]** mcExec)安全組的一部分，該組與組織單 **[!UICONTROL Message Center]** 位 [連結](../../administration/using/organizational-units.md)。 因此，事務性消息中使用的所有對象（包括品牌）必須從組織單位中可見，這表 **[!UICONTROL Message Center]** 示這些對象必須位於 **[!UICONTROL Message Center]** 或組 **[!UICONTROL All]** 織單位中。
 
-However, if the brand selected in the message properties is linked to an organizational unit which is different from **[!UICONTROL Message Center]** or **[!UICONTROL All]**, this will cause an error and you will not be able to send the transactional message.
+但是，如果消息屬性中選擇的品牌連結到與或不同的組織單位 **[!UICONTROL Message Center]****[!UICONTROL All]**，則會導致錯誤，您將無法發送事務性消息。
 
-Therefore, if you want to use multi-branding in the context of transactional messaging, you should link all brands either to the **[!UICONTROL Message Center]** organizational unit or to the **[!UICONTROL All]** organizational unit.
+因此，如果您想在交易訊息中使用多品牌，您應將所有品牌連結至組織單位或 **[!UICONTROL Message Center]** 組織單 **[!UICONTROL All]** 位。
 
-### Exporting and importing transactional messages {#exporting-and-importing-transactional-messages}
+### 導出和導入事務性消息 {#exporting-and-importing-transactional-messages}
 
-* To export a transactional message, you need to include the corresponding event configuration when [creating the package export](../../automating/using/managing-packages.md#creating-a-package).
-* Once the transactional message is [imported through a package](../../automating/using/managing-packages.md#importing-a-package), it is not displayed in the transactional message list. You need to [publish](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event) the event configuration in order to make the associated transactional message available.
+* 要導出事務性消息，在建立包導出時需要包 [含相應的事件配置](../../automating/using/managing-packages.md#creating-a-package)。
+* 通過包導入事務 [性消息後](../../automating/using/managing-packages.md#importing-a-package)，事務性消息清單中不顯示該消息。 您需要發 [布事件配置](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event) ，才能使關聯的事務性消息可用。
 

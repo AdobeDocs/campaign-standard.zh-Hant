@@ -2,170 +2,224 @@
 title: 載入檔案
 seo-title: 載入檔案
 description: 載入檔案
-seo-description: 載入檔案活動可讓您將資料匯入單一結構化表單，以便在Adobe Campaign中使用此資料。
-page-status-flag: 從未啓動
-uuid: 69af12cc-6f82-4977-1f53-aa7 bc26 f5 d7 e
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
+seo-description: 「載入檔案」活動可讓您以單一結構化形式匯入資料，以便在Adobe Campaign中使用此資料。
+page-status-flag: 從未激活
+uuid: 69af12cc-6f82-4977-9f53-aa7bc26f5d7e
+contentOwner: 紹維亞
+products: SG_CAMPAIGN/STANDARD
 audience: 自動化
-content-type: reference
+content-type: 參考
 topic-tags: 資料管理活動
 discoiquuid: 584ff893-9b1b-46c9-9628-714ab349ab88
-context-tags: FileImport，主要
+context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+source-git-commit: fc3c687328c5a460b442b8b2497965ccab3be50b
 
 ---
 
 
-# Load file{#load-file}
+# 載入檔案{#load-file}
 
-## Description {#description}
+## 說明 {#description}
 
 ![](assets/data_loading.png)
 
-**[!UICONTROL Load file]** 活動可讓您將資料匯入單一結構化表單，以便在Adobe Campaign中使用此資料。資料會暫時匯入，而另一個活動則需要在Adobe Campaign資料庫中完全整合。
+此活 **[!UICONTROL Load file]** 動可讓您匯入單一結構化格式的資料，以便在Adobe Campaign中使用此資料。 資料會暫時匯入，而另一個活動必須將它完全整合在Adobe Campaign資料庫中。
 
-## Context of use {#context-of-use}
+## 使用內容 {#context-of-use}
 
-在設定活動時，定義擷取資料的方式。要載入的檔案可能是連絡人清單。
+設定活動時，會定義資料擷取的方式。 例如，要載入的檔案可以是聯繫人清單。
 
 >[!CAUTION]
 >
->僅會考量「扁平化」結構檔案，例如.txt、. csv等檔案。
+>只考慮「平面」結構檔案，例如。txt、.csv等檔案。
 
 您可以：
 
-* Use the file structure to apply it to another file's data (recovered using the **[!UICONTROL Transfer file]** activity) or,
-* 使用結構中的結構和資料，將其匯入Adobe Campaign。
+* 使用檔案結構將其應用於其他檔案的資料（使用活動恢復） **[!UICONTROL Transfer file]** 或
+* 使用檔案的結構和資料，將其匯入Adobe Campaign。
 
-## Configuration {#configuration}
+## 配置 {#configuration}
 
-活動設定需要兩個步驟。首先，您必須上傳範例檔案，才能定義預期的檔案結構。完成後，您可以指定將匯入資料的檔案來源。
+活動配置涉及兩個步驟。 首先，您需要透過上傳範例檔案來定義預期的檔案結構。 完成此操作後，您可以指定要導入其資料的檔案的源。
 
 >[!NOTE]
 >
->範例檔案的資料用於設定活動，但未匯入。建議您使用包含少量資料的範例檔案。
+>示例檔案的資料用於配置活動，但不導入。 建議使用包含少量資料的範例檔案。
 
-1. Drag and drop a **[!UICONTROL Load file]** activity into your workflow.
-1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
-1. 上傳範例檔案，讓您在匯入最終檔案時定義預期的結構。
+1. 將活動拖放 **[!UICONTROL Load file]** 至工作流程。
+1. 選擇活動，然後使用顯示的快 ![](assets/edit_darkgrey-24px.png) 速操作中的按鈕將其開啟。
+1. 上傳範例檔案，讓您在匯入最終檔案時定義預期結構。
 
    ![](assets/wkf_file_loading.png)
 
-   Once the data file is uploaded, two new tabs appear in the activity: **[!UICONTROL File structure]** and **[!UICONTROL Column definition]**.
+   上傳資料檔案後，活動中會出現兩個新標籤： **[!UICONTROL File structure]** 和 **[!UICONTROL Column definition]**。
 
-1. Go to the **[!UICONTROL File structure]** tab to view the structure that is automatically detected from the sample file.
+1. 轉至標籤 **[!UICONTROL File structure]** 以檢視從範例檔案自動偵測的結構。
 
-   如果檔案結構錯誤偵測，您有幾個選項可更正可能的錯誤：
+   如果錯誤地檢測到檔案結構，您有幾個選項可以更正任何可能的錯誤：
 
-   * You can choose to use the structure of another file by selecting the **[!UICONTROL Detect structure from a new file]** option.
-   * 您可以修改預設的偵測參數，將其調整為您的檔案。**[!UICONTROL File type]** 此欄位可讓您指定要匯入的檔案是由具有固定長度的欄所組成。In that case, you must also specify the maximum number of characters for each column in the **[!UICONTROL Column definition]** tab.
+   * 通過選擇選項，可以選擇使用另一個檔案的 **[!UICONTROL Detect structure from a new file]** 結構。
+   * 您可以修改預設檢測參數，使其與檔案相適應。 欄位 **[!UICONTROL File type]** 可讓您指定您要匯入的檔案是否由長度固定的欄組成。 在這種情況下，您還必須指定標籤中各欄的字元數目上 **[!UICONTROL Column definition]** 限。
 
-      All of the detection options necessary to correctly recover the data from the file are regrouped in **[!UICONTROL File format]**. 您可以修改這些新設定，然後再重新偵測活動中載入的最後一個檔案結構。To do this, use the **[!UICONTROL Apply configuration]** button. 例如，您可以指定不同的欄分隔符號。
+      正確從檔案中恢復資料所需的所有檢測選項都將重新分組 **[!UICONTROL File format]**。 您可以修改它們，然後考慮到這些新設定，重新檢測活動中載入的最後一個檔案的結構。 若要這麼做，請使用按 **[!UICONTROL Apply configuration]** 鈕。 例如，您可以指定不同的欄分隔符。
 
       >[!NOTE]
       >
-      >此操作會考量活動中載入的最後一個檔案。如果偵測到的檔案很大，資料預覽只會顯示前30行。
+      >此操作會考慮到活動中載入的最後一個檔案。 如果偵測到的檔案很大，資料預覽只會顯示前30行。
 
       ![](assets/wkf_file_loading3.png)
 
-      In the **[!UICONTROL File format]** section, the **[!UICONTROL Check columns from file against column definitions]** option lets you verify that the columns of the file you are uploading correspond to the column definition.
+      在該節 **[!UICONTROL File format]** 中，選 **[!UICONTROL Check columns from file against column definitions]** 項可讓您驗證要上載的檔案的列是否與列定義對應。
 
-      如果欄的數字和/或名稱不符合欄定義，則會在執行工作流程時顯示錯誤訊息。如果未啓用選項，則會在記錄檔中顯示警告。
+      如果欄數和／或名稱不符合欄定義，則執行工作流程時會顯示錯誤訊息。 如果未激活該選項，日誌檔案中將顯示警告。
 
       ![](assets/wkf_file_loading_check.png)
 
-1. Go to the **[!UICONTROL Column definition]** tab to check the data format for each column and adjust the parameters if necessary.
+1. 前往標籤 **[!UICONTROL Column definition]** 以檢查每欄的資料格式，並視需要調整參數。
 
-   **[!UICONTROL Column definition]** 此標籤可讓您精確指定每個欄的資料結構，以便匯入不包含任何錯誤的資料(例如，使用null管理)，並使它符合Adobe Campaign資料庫中已存在的類型，以便日後操作。
+   此標 **[!UICONTROL Column definition]** 簽可讓您精確指定每欄的資料結構，以匯入不含任何錯誤的資料（例如，使用null管理），並讓它符合Adobe Campaign資料庫中已存在的類型，以供日後作業使用。
 
-   例如，您可以變更欄的標籤，選取其類型(字串、整數、日期等)。甚至指定錯誤處理。
+   例如，您可以變更欄的標籤，並選取其類型（字串、整數、日期等）甚至指定錯誤處理。
 
-   For more information, refer to the [Column format](../../automating/using/load-file.md#column-format) section.
+   有關詳細資訊，請參閱「列 [格式」部分](../../automating/using/load-file.md#column-format) 。
 
    ![](assets/wkf_file_loading4.png)
 
-1. **[!UICONTROL Execution]** 在標籤中，指定要處理載入資料的檔案：
+1. 在標籤 **[!UICONTROL Execution]** 中，指定是否要處理檔案以載入資料：
 
-   * 來自工作流程中傳入的轉變。
-   * 是您在上一個步驟上傳的。
-   * 是從本機電腦上傳的新檔案。The **[!UICONTROL Upload a new file from local machine]** option appears if uploading a first file was already defined in the workflow. 這可讓您上傳另一個檔案，如果目前的檔案不符合您的需求即可加以處理。
+   * 來自工作流程的傳入轉場。
+   * 是您在上一步驟中上傳的。
+   * 是要從本機機器上傳的新檔案。 如果 **[!UICONTROL Upload a new file from local machine]** 上傳工作流程中已定義第一個檔案，就會顯示此選項。 這可讓您上傳其他檔案，以便在目前檔案不符合您的需求時加以處理。
 
       ![](assets/wkf_file_loading1.png)
 
-1. If the file that you want to load the data from is compressed into a GZIP file (.gz), select the **[!UICONTROL Decompression]** option in the **[!UICONTROL Add a pre-processing step]** field. 這可讓您在載入資料之前先解壓縮檔案。只有當檔案來自活動的傳入轉換時，才可使用此選項。
-1. **[!UICONTROL Keep the rejects in a file]** 此選項可讓您下載包含在匯入期間發生錯誤的檔案，並將其套用至後處理階段。
+1. 如果要從中載入資料的檔案壓縮到GZIP檔案(.gz)中，請在欄位中 **[!UICONTROL Decompression]** 選擇選 **[!UICONTROL Add a pre-processing step]** 項。 這可讓您在載入資料之前先解壓縮檔案。 只有當檔案來自活動的傳入轉換時，才可使用此選項。
+1. 選 **[!UICONTROL Keep the rejects in a file]** 項可讓您下載包含匯入期間發生錯誤的檔案，並套用至後處理階段。
 
    >[!NOTE]
    >
-   >**[!UICONTROL Add date and time to the file name]** 此選項可讓您新增時間戳記，以建立包含拒絕之檔案的名稱。
+   >此選 **[!UICONTROL Add date and time to the file name]** 項可讓您將時間戳記新增包含拒絕之檔案的名稱。
 
    ![](assets/wkf_file_loading_keeprejects.png)
 
 1. 確認活動的設定並儲存工作流程。
 
-## Column format {#column-format}
+## 欄格式 {#column-format}
 
-載入範例檔案時，會自動偵測每個資料類型的預設參數。您可以修改這些預設參數，以指定要套用至資料的特定程序，尤其是當出現錯誤或空白值時。
+載入範例檔案時，會自動偵測欄格式，並使用每個資料類型的預設參數。 您可以修改這些預設參數，以指定要套用至資料的特定程式，尤其是當有錯誤或空值時。
 
-To do this, select **[!UICONTROL Edit properties]** from the quick actions of the column whose format you would like to define. 隨即開啓欄格式詳細資料視窗。
+要執行此操作，請 **[!UICONTROL Edit properties]** 從要定義其格式的列的快速操作中選擇。 將會開啟列格式詳細資訊窗口。
 
 ![](assets/wkf_file_loading4.png)
 
-然後，您可以修改每欄的格式設定。
+然後，您可以修改每列的格式。
 
-欄格式可讓您定義每欄的值處理：
+列格式允許您定義每列的值處理：
 
-* **[!UICONTROL Ignore column]**：不會在資料載入期間處理此欄。
-* **[!UICONTROL Data type]**：指定每欄預期的資料類型。
-* **[!UICONTROL Format and separators]****屬性**：指定文字的屬性、時間、日期和數值格式，以及欄內容所指定的分隔符號。
+* **[!UICONTROL Ignore column]**:不會在資料載入期間處理此欄。
+* **[!UICONTROL Data type]**:指定每列所需的資料類型。
+* **[!UICONTROL Format and separators]**，屬 **性**:指定文字的屬性、時間、日期和數值格式，以及欄內容所指定的分隔符號。
 
-   * **[!UICONTROL Maximum number of characters]**：指定字串類型欄的字元數目上限。
+   * **[!UICONTROL Maximum number of characters]**:指定字串類型列的字元數上限。
 
-      載入包含固定長度的資料欄時，必須填寫此欄位。
+      載入由長度固定的欄組成的檔案時，必須填入此欄位。
 
-   * **[!UICONTROL Letter case management]**：定義是否需要針對 **文字** 資料套用字元案例程序。
-   * **[!UICONTROL White space management]**：指定 **文字** 資料字串中是否需要忽略某些空格。
-   * **[!UICONTROL Time format]**&#x200B;指定 **日期[!UICONTROL Date format]、**&#x200B;時間&#x200B;**和**&#x200B;日期和時間&#x200B;**資料的格式。******
-   * **[!UICONTROL Format]**：可讓您定義 **整數** 和 **浮動數字** 資料的數值格式。
-   * **[!UICONTROL Separator]**：定義由欄上下文(千個分隔符號或小數點分隔符號)指定的分隔符號，用於 **日期**、 **時間**、 **日期和時間**、 **整數**&#x200B;和 **浮動數字** 資料。
+   * **[!UICONTROL Letter case management]**:定義是否需要對文本資料應用字元大 **寫** 。
+   * **[!UICONTROL White space management]**:指定Text資料的字串中是否需要忽略某些 **空格** 。
+   * **[!UICONTROL Time format]**, **[!UICONTROL Date format]**:指定日期、時 **間和日**&#x200B;期 **** 和時間資料的格式 **** 。
+   * **[!UICONTROL Format]**:允許您定義整數和浮點數數數 **據****的數值格式** 。
+   * **[!UICONTROL Separator]**:定義由列上下文指定的分隔符（數值的千位或小數分隔符，日期和時間的千位分隔符） **Date**、 **Time**、 **Date和time**、 ******** Integer numberFloating data的分隔符。
 
-* **[!UICONTROL Remapping of values]**：此欄位僅適用於欄詳細資料設定。它可讓您在匯入時轉換某些值。例如，您可以將「三個」轉換為「3」。
-* **[!UICONTROL Error processing]**：定義發生錯誤時的行為。
+* **[!UICONTROL Remapping of values]**:此欄位僅在列詳細資訊配置中可用。 它可讓您在匯入特定值時加以轉換。 例如，您可將"three"轉換為"3"。
+* **[!UICONTROL Error processing]**:定義在遇到錯誤時的行為。
 
-   * **[!UICONTROL Ignore the value]**：值會被忽略。在工作流程執行記錄檔中會產生警告。
-   * **[!UICONTROL Reject the line]**：整個系列未處理。
-   * **[!UICONTROL Use a default value]**：取代造成預設值出現在 **[!UICONTROL Default value]** 欄位中的值。
-   * **[!UICONTROL Use a default value in case the value is not remapped]**：取代造成 **[!UICONTROL Default value]** 在欄位中定義的預設值發生錯誤的值，除非為錯誤值定義對應(請參閱上述 **[!UICONTROL Remapping of values]** 選項)。
-   * **[!UICONTROL Reject the line when there is no remapping value]**：除非為錯誤值定義對應(請參閱上述 **[!UICONTROL Remapping of values]** 選項)，否則不會處理整個行。
+   * **[!UICONTROL Ignore the value]**:值被忽略。 在工作流執行日誌中生成警告。
+   * **[!UICONTROL Reject the line]**:不處理整個行。
+   * **[!UICONTROL Use a default value]**:以在欄位中定義的預設值取代造成錯誤的 **[!UICONTROL Default value]** 值。
+   * **[!UICONTROL Use a default value in case the value is not remapped]**:以在欄位中定義的預設值取代導致錯誤的值，除非 **[!UICONTROL Default value]** 已針對錯誤值定義對應(請參閱上 **[!UICONTROL Remapping of values]** 述選項)。
+   * **[!UICONTROL Reject the line when there is no remapping value]**:除非為錯誤值定義了映射(請參閱上面的選 **[!UICONTROL Remapping of values]** 項)，否則不處理整行。
    >[!NOTE]
    >
-   >**[!UICONTROL Error processing]** 關於匯入檔案中值的錯誤。例如，會遇到一種偶然資料類型(「整數」欄中的字母全部以字母表示)、一個字串包含超過授權數目的字元、一個具有附屬分隔符號的日期等等。不過，此選項不會擔心空白值管理產生的錯誤。
+   >**[!UICONTROL Error processing]** 有關匯入檔案中值的錯誤。 例如，遇到錯誤的資料類型（「4」全部是「整數」列的字母）、包含超過授權最大數字的字串、分隔符錯誤的日期等。 但是，此選項與空值管理產生的錯誤無關。
 
-* **[!UICONTROL Default value]**：根據選取的錯誤處理來指定預設值。
-* **[!UICONTROL Empty value management]**：指定如何在資料載入期間管理空值。
+* **[!UICONTROL Default value]**:根據選擇的錯誤處理指定預設值。
+* **[!UICONTROL Empty value management]**:指定在資料載入期間如何管理空值。
 
-   * **[!UICONTROL Generate an error for numerical fields]**：僅會產生數值欄位的錯誤，否則會插入NULL值。
-   * **[!UICONTROL Insert NULL in the corresponding field]**：授權空白值。因此插入值NULL。
-   * **[!UICONTROL Generate an error]**：產生錯誤。
+   * **[!UICONTROL Generate an error for numerical fields]**:僅為數字欄位生成錯誤，否則插入NULL值。
+   * **[!UICONTROL Insert NULL in the corresponding field]**:授權空值。 因此插入值NULL。
+   * **[!UICONTROL Generate an error]**:如果值為空，則生成錯誤。
 
-## Example {#example}
+## 範例1:更新資料庫 {#example-1-update-the-database}
 
-載入檔案活動主要是結構化傳輸檔案活動中的資料，以便將其整合至現有資料中。
+載入檔案活動主要從傳輸檔案活動中構造資料，以便將其整合到現有資料中。
 
-下列範例顯示透過傳輸檔案活動自動下載載入檔案活動的結果，接著是更新資料活動。此工作流程旨在利用新的描述檔豐富Adobe Campaign資料庫，或使用從匯入檔案復原的資料更新現有設定檔。
+以下示例顯示通過傳輸檔案活動自動下載的載入檔案活動的結果，其後是更新資料活動。 此工作流程旨在以新的描述檔豐富Adobe Campaign資料庫，或使用從匯入檔案中復原的資料更新現有的描述檔。
 
-1. Drag and drop a **[!UICONTROL Transfer file]** activity into your workflow and configure it in a way so that it recovers the file you would like.
-1. Drag and drop a **[!UICONTROL Load file]** activity into your workflow and place it after the **[!UICONTROL Transfer file]** activity.
-1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
-1. In the **[!UICONTROL File to load]** section of the **[!UICONTROL Execution]** tab, check the **[!UICONTROL Use the file specified in the inbound transition]** option.
+![](assets/load_file_workflow_ex1.png)
+
+1. 將活動拖放 **[!UICONTROL Transfer file]** 至您的工作流程中，並以某種方式加以設定，以便它可以恢復您想要的檔案。
+1. 將活動拖放 **[!UICONTROL Load file]** 到工作流程中，並將其放在活動之 **[!UICONTROL Transfer file]** 後。
+1. 選擇活動，然後使用顯示的快 ![](assets/edit_darkgrey-24px.png) 速操作中的按鈕將其開啟。
+1. 在標籤 **[!UICONTROL File to load]** 的區段中 **[!UICONTROL Execution]** ，勾選選 **[!UICONTROL Use the file specified in the inbound transition]** 選項。
 
    ![](assets/wkf_file_loading8.png)
 
-1. 依先前指定的方式設定您的活動。
-1. Drag and drop an **[!UICONTROL Update data]** activity into your workflow and place it after the **[!UICONTROL Load file]** activity, then configure it. Refer to [Update data](../../automating/using/update-data.md).
+1. 依照先前的指定設定您的活動。
+1. 將活動拖放 **[!UICONTROL Update data]** 到工作流程中，並將其置於活動之 **[!UICONTROL Load file]** 後，再加以設定。 請參閱 [更新資料](../../automating/using/update-data.md)。
 
-工作流程開始後，會擷取上傳檔案的資料，然後用來充實Adobe Campaign資料庫。
+工作流程開始後，會擷取上傳檔案的資料，然後用來豐富Adobe Campaign資料庫。
+
+## 範例2:傳送包含豐富欄位的電子郵件 {#example-2-email-with-enriched-fields}
+
+<!--A new example showing how to send an email containing additional data retrieved from a load file activity has been added. [Read more](../../automating/using/load-file.md#example-2-email-with-enriched-fields)-->
+
+此外，載入檔案活動也可讓您在相同的工作流程中，從外部檔案傳送內含其他資料的電子郵件。
+
+以下範例說明如何透過載入檔案活動，使用從外部檔案擷取的其他資料來傳送電子郵件。 在此範例中，外部檔案包含描述檔清單及其關聯的帳號。 您想要匯入此資料，以傳送電子郵件給每個設定檔及其帳號。
+
+![](assets/load_file_workflow_ex2.png)
+
+1. 將活動拖放 **[!UICONTROL Query]** 到工作流程中，並開啟它以定義主要目標。
+
+   <!--The Query activity is presented in the [Query](../../automating/using/query.md) section.-->
+
+1. 拖放活動 **[!UICONTROL Load file]** 以指派部分資料至描述檔。 在此示例中，載入包含與資料庫的某些配置檔案相對應的帳戶號的檔案。
+
+   ![](assets/load_file_activity.png)
+
+1. 將活動拖放至 **[!UICONTROL Enrichment]** 您的工作流程中，並將載入檔案和查詢活動連結至工作流程。
+
+1. 在擴充 **[!UICONTROL Advanced relations]** 活動的頁籤中，選擇 **[!UICONTROL 0 or 1 cardinality simple link]** 並定義要用於調節的欄位。 在這裡，我們使用姓氏來協調資料與資料庫配置檔案。
+
+   ![](assets/load_file_enrichment_relation.png)
+
+1. 在標籤 **[!UICONTROL Additional data]** 中，選取您要在電子郵件中使用的元素。 在此處選擇帳戶號（從通過載入檔案活動檢索的檔案中的列）。
+
+   ![](assets/load_file_enrichment_select_element.png)
+
+   <!--![](assets/load_file_enrichment_additional_data.png)-->
+
+   有關詳細資訊，請參 [閱Enrichment](../../automating/using/enrichment.md) 節。
+
+1. 將活動拖放 **[!UICONTROL Segmentation]** 至工作流程中，並開啟它以調整主要目標。
+
+   ![](assets/load_file_segmentation.png)
+
+   如需詳細資訊，請參閱「區 [段](../../automating/using/segmentation.md) 」區段。
+
+1. 將活動拖放 **[!UICONTROL Email delivery]** 到工作流程中並加以開啟。
+
+   <!--The Email delivery activity is presented in the [Email delivery](../../automating/using/email-delivery.md) section.-->
+
+1. 新增個人化欄位，並從節點選取擴充活動（此處為帳戶編號）中定義的其他 **[!UICONTROL Additional data (targetData)]** 資料。 如此可動態擷取電子郵件內容中每個描述檔的帳號。
+
+   ![](assets/load_file_perso_field.png)
+
+1. 儲存電子郵件並啟動工作流程。
+
+電子郵件會傳送至目標。 每個描述檔都會收到含有其對應帳號的電子郵件。
+
+![](assets/load_file_email.png)

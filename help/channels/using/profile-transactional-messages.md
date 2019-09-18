@@ -1,88 +1,88 @@
 ---
-title: 個人檔案交易訊息
-seo-title: 個人檔案交易訊息
-description: 個人檔案交易訊息
-seo-description: 瞭解如何建立和發佈個人檔案交易訊息。
-page-status-flag: 從未啓動
-uuid: a8efe979-74ae-46ff-a305-b86 a90679581
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
+title: 描述交易訊息
+seo-title: 描述交易訊息
+description: 描述交易訊息
+seo-description: 瞭解如何建立和發佈個人資料交易訊息。
+page-status-flag: 從未激活
+uuid: a8efe979-74ae-46ff-a305-b86a90679581
+contentOwner: 紹維亞
+products: SG_CAMPAIGN/STANDARD
 audience: 頻道
-content-type: reference
-topic-tags: 交易訊息
+content-type: 參考
+topic-tags: 事務性消息傳遞
 discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 855db33971afdf9f02bf1b00be67c9e3f50bee06
+source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 ---
 
 
-# Profile transactional messages{#profile-transactional-messages}
+# 描述交易訊息{#profile-transactional-messages}
 
-您可以根據客戶行銷設定檔傳送交易訊息，您可以：
+您可以根據客戶行銷個人檔案傳送交易訊息，這可讓您：
 
-* Apply marketing typology rules such as **[!UICONTROL Blacklisted address]** or [fatigue rules](../../administration/using/fatigue-rules.md).
+* 套用行銷類型學規則，例 **[!UICONTROL Blacklisted address]** 如 [疲勞規則](../../administration/using/fatigue-rules.md)。
 * 在訊息中加入取消訂閱連結。
-* 將交易訊息新增至全域傳送報告。
-* 運用客戶歷程中的交易訊息。
+* 將交易訊息新增至全域傳送報表。
+* 在客戶歷程中運用交易訊息。
 
-Once you have created and published an event (the cart abandonment as per the [example](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle) above), the corresponding transactional message is created automatically.
+在您建立並發佈事件後(如上例所示 [](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle) ，購物車放棄率)，就會自動建立對應的交易訊息。
 
-[設定事件中會顯示設定步驟，以傳送描述檔交易訊息](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) 區段。
+配置步驟顯示在配置事 [件以發送配置檔案事務性消息部分](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) 。
 
-為了讓事件觸發傳送交易訊息，您必須個人化訊息，然後加以測試並加以發佈。
+為了讓事件觸發傳送交易訊息，您必須個人化訊息，然後測試並發佈訊息。
 
 >[!NOTE]
 >
->To access the transactional messages, you must have administration rights or appear in the **[!UICONTROL Message Center agents]** (mcExec) security group. 疲勞規則與描述檔交易訊息相容。See [Fatigue rules](../../administration/using/fatigue-rules.md).
+>要訪問事務性消息，您必須具有管理權限或顯示在( **[!UICONTROL Message Center agents]** mcExec)安全組中。 疲勞規則與描述檔交易訊息相容。 請參 [閱疲勞規則](../../administration/using/fatigue-rules.md)。
 
-## Sending a profile transactional message {#sending-a-profile-transactional-message}
+## 傳送描述檔交易訊息 {#sending-a-profile-transactional-message}
 
-建立、個人化和發佈描述檔交易訊息的步驟與事件交易訊息相同。See [Event transactional messages](../../channels/using/event-transactional-messages.md).
+建立、個人化和發佈配置檔案事務性消息的步驟與事件事務性消息的步驟相同。 請參 [閱事件交易訊息](../../channels/using/event-transactional-messages.md)。
 
-差異如下。
+差異列於下方。
 
-1. 前往建立用來編輯的交易訊息。
-1. In the transactional message, click the **[!UICONTROL Content]** section. In addition to the transactional template, you can also choose the default email template, which targets **[!UICONTROL Profile]**.
+1. 轉至為編輯而建立的交易訊息。
+1. 在事務性消息中，按一下該 **[!UICONTROL Content]** 部分。 除了事務性範本外，您也可以選擇預設的電子郵件範本，目標為 **[!UICONTROL Profile]**。
 
    ![](assets/message-center_marketing_templates.png)
 
-1. 選取預設電子郵件範本。
+1. 選取預設的電子郵件範本。
 
-   類似於所有行銷電子郵件，它包含取消訂閱連結。
+   與所有行銷電子郵件類似，它包含取消訂閱連結。
 
    ![](assets/message-center_marketing_perso_unsubscription.png)
 
-   此外，您也可以直接存取所有描述檔資訊，以個人化您的訊息，而不是基於即時事件。See [Inserting a personalization field](../../designing/using/inserting-a-personalization-field.md).
+   此外，與基於即時事件的配置不同，您可以直接訪問所有配置檔案資訊以個性化您的消息。 請參 [閱插入個人化欄位](../../designing/using/personalization.md#inserting-a-personalization-field)。
 
-1. 儲存變更並發佈訊息。See [Publishing a transactional message](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message).
+1. 儲存變更並發佈訊息。 請參 [閱發佈交易訊息](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message)。
 
-## Monitoring a profile transactional message delivery {#monitoring-a-profile-transactional-message-delivery}
+## 監控配置檔案事務性消息傳送 {#monitoring-a-profile-transactional-message-delivery}
 
-訊息發佈後，您的網站整合便會完成，您可以監控傳送。
+一旦訊息發佈並完成網站整合後，您就可以監控傳送。
 
-1. To view the message delivery log, click the icon at the bottom right of the **[!UICONTROL Deployment]** block.
+1. 要查看消息傳送日誌，請按一下塊右下方的圖 **[!UICONTROL Deployment]** 標。
 
-   For more information on accessing the logs, see [Monitoring the delivery](../../sending/using/monitoring-a-delivery.md).
+   如需存取記錄檔的詳細資訊，請參 [閱監控傳送](../../sending/using/monitoring-a-delivery.md)。
 
-1. Select the **[!UICONTROL Sending logs]** tab. **[!UICONTROL Status]** 在欄中 **[!UICONTROL Sent]** ，表示描述檔已選擇加入。
+1. 選擇選 **[!UICONTROL Sending logs]** 項卡。 在欄中 **[!UICONTROL Status]** ，指 **[!UICONTROL Sent]** 出描述檔已選擇加入。
 
    ![](assets/message-center_marketing_sending_logs.png)
 
-1. Select the **[!UICONTROL Exclusions logs]** tab to view recipients who have been excluded from the message target, such as blacklisted addresses.
+1. 選擇該 **[!UICONTROL Exclusions logs]** 頁籤可查看已從消息目標中排除的收件人，如黑名單地址。
 
    ![](assets/message-center_marketing_exclusion_logs.png)
 
-For any profile that has opted out, the **[!UICONTROL Blacklisted address]** typology rule excluded the corresponding recipient.
+對於任何已選擇退出的設定檔，排 **[!UICONTROL Blacklisted address]** 除了對應的收件者。
 
-This rule is part of a specific typology that applies to all transactional messages based on the **[!UICONTROL Profile]** table.
+此規則是特定類型學的一部分，適用於基於表的所有事務性消 **[!UICONTROL Profile]** 息。
 
 ![](assets/message-center_marketing_typology.png)
 
-**相關主題**：
+**相關主題**:
 
 * [網站整合](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)
-* [Typologies](../../administration/using/about-typology-rules.md)
+* [類型](../../administration/using/about-typology-rules.md)
 

@@ -2,39 +2,42 @@
 title: 個人化SMS訊息
 seo-title: 個人化SMS訊息
 description: 個人化SMS訊息
-seo-description: 在個人化SMS訊息時，探索翻譯選項的特殊性。
-page-status-flag: 從未啓動
-uuid: 123Fe70c-c279-40a3-88b6-6bfb2453 ec83
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
+seo-description: 探索個人化SMS訊息時音譯選項的特定性。
+page-status-flag: 從未激活
+uuid: 123fe70c-c279-40a3-88b6-6bfb2453ec83
+contentOwner: 紹維亞
+products: SG_CAMPAIGN/STANDARD
 audience: 頻道
-content-type: reference
+content-type: 參考
 topic-tags: sms-messages
-discoiquuid: 7c64785c-e3 c2-4casa-a547-002990aae3 f9
-delivercontext-tags: Delivery Creation，wizard；傳送，SMSContent，back；傳送，SMSContent，back
+discoiquuid: 7c64785c-e3c2-4caa-a547-002990ae3f9
+delivercontext-tags: deliveryCreation，精靈；delivery,smsContent,back;delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b0cf437ec97153b53bd4502171b24286abb25731
+source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 ---
 
 
-# Personalizing SMS messages{#personalizing-sms-messages}
+# 個人化SMS訊息{#personalizing-sms-messages}
 
-The principles for personalizing SMS messages are the same as those for [emails](../../designing/using/inserting-a-personalization-field.md). 不過，您仍必須注意轉換選項，因為這些選項可能會影響編碼，因此會傳送SMS訊息。For more on this, refer to the [Transliteration and SMS length](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration) section.
+個人化SMS訊息的原則與電子郵件的原 [則](../../designing/using/personalization.md#inserting-a-personalization-field)。 不過，您必須注意音譯選項，因為這些選項可能會影響編碼，進而影響要傳送的SMS訊息數量。 如需詳細資訊，請參閱音 [譯和SMS長度一節](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration) 。
 
-這裡我們會使用範例SMS訊息，其中包含個人化欄位，視是否已選取翻譯而定，並不會產生相同數目的傳送：
+在這裡，我們取了一個包含個人化欄位的範例SMS訊息，視是否選取了音譯，這些欄位將不會產生相同數目的傳送：
 
-**&lt; FirstName&gt;&lt; lastName&gt;，新產品現在可供使用。Come and check them out in store!**
+**嗨&lt; FirstName &gt; &lt; lastName &gt;，新產品現已推出。 來店裡看看！**
 
-* 對於名為「John Smith」的收件者，Adobe Campaign將選擇「GSM編碼」，並選擇「GSM編碼」，以每SMS訊息最多授權160個字元。因此，訊息將以單一部分傳送。
-* 對於名為「Raphael Foret」的收件者，無法在GSM中編碼字元't'和'ef'。Adobe Campaign可以在兩個行為之間選取：
+* 對於名為「John Smith」的收件者，由於其不含特殊字元，Adobe Campaign將選擇GSM編碼，此編碼將授權每則SMS訊息最多160個字元。 因此，訊息會以單一部分傳送。
+* 對於名為「Raphaël Forêt」的收件者，字元「ë」和「ê」無法在GSM中編碼。 視音譯是否已啟用而定，Adobe Campaign可以在兩種行為之間進行選擇：
 
-   * 如果轉譯為authorized'af'和'ef'將取代'e'，這表示可以使用GSM編碼，因此最多可用於SMS。此訊息將會以單一SMS訊息傳送，但會稍微變更。
-   * 如果未授權翻譯，Adobe Campaign將選擇以二進位格式傳送訊息(Unicode)：因此，所有字元都會隨之傳送。由於Unicode中的SMS訊息僅限70個字元，因此Adobe Campaign必須以兩個部分傳送訊息。
+   * 如果音譯是授權的'ë','ê'將被'e'取代，這表示GSM編碼可使用，因此在SMS中最多可使用160個字元。 此訊息會以單一SMS訊息的形式傳送，但會稍作變更。
+   * 如果未授權音譯，Adobe Campaign會選擇以二進位格式(Unicode)傳送訊息：因此，所有字元都會依此傳送。 由於Unicode中的SMS訊息限制為70個字元，Adobe Campaign必須分兩部分傳送訊息。
 
 >[!NOTE]
 >
->自動選擇最佳編碼的演算法會單獨執行每個訊息，個案依個案而定。如此，只會在Unicode中傳送需要Unicode編碼的個人化訊息；所有其他人都將使用GSM編碼。
+>自動選擇最佳編碼的算法會針對每條消息分別執行。 這樣，只有需要Unicode編碼的個人化訊息才會以Unicode傳送；其他所有人都使用GSM編碼。
 
+## SMS傳送者 {#sms-sender}
+
+您可以個人化SMS傳送者的名稱。 有關詳細資訊，請參閱 [SMS配置部分](../../administration/using/configuring-sms-channel.md#configuring-sms-properties) 。

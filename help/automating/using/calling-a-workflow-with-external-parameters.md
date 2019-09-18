@@ -1,126 +1,126 @@
 ---
-title: 使用外部參數來呼叫工作流程
-seo-title: 使用外部參數來呼叫工作流程
-description: 使用外部參數來呼叫工作流程
-seo-description: 本節詳細資訊會鼓勵您使用外部參數來呼叫工作流程。
-page-status-flag: 從未啓動
+title: 使用外部參數呼叫工作流程
+seo-title: 使用外部參數呼叫工作流程
+description: 使用外部參數呼叫工作流程
+seo-description: 本節詳細說明如何使用外部參數調用工作流。
+page-status-flag: 從未激活
 uuid: beccd1b6-8e6d-4504-9152-9ff537459c4a
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
+contentOwner: 紹維亞
+products: SG_CAMPAIGN/STANDARD
 audience: 自動化
-content-type: reference
-topic-tags: 工作流程一般運作
-discoiquuid: 1676da91-55e3-414f-bcd3-be0804 b682 bd
+content-type: 參考
+topic-tags: 工作流——一般操作
+discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 267e30c603baf67020aadefad578f91b40dc042d
+source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 
 ---
 
 
-# Calling a workflow with external parameters{#calling-a-workflow-with-external-parameters}
+# 使用外部參數呼叫工作流程{#calling-a-workflow-with-external-parameters}
 
-促銷活動標準可讓您呼叫包含參數的工作流程(目標對象的目標、匯入的檔案名稱、訊息的一部分等等)。如此，您就可以輕鬆地將促銷活動自動化與外部系統整合。
+Campaign Standard可讓您使用參數（要定位的對象名稱、要匯入的檔案名稱、訊息內容的一部分等）來呼叫工作流程。 如此，您就可輕鬆將Campaign自動化與外部系統整合。
 
-讓我們舉下面的範例，我們希望直接從CMS傳送電子郵件。在這種情況下，您可以設定您的系統來選取觀眾和電子郵件內容至CMS。按一下「傳送」會將「促銷活動」工作流程與這些參數呼叫，讓您可將這些參數用於工作流程中，定義要用於傳送的對象和URL內容。
+讓我們舉下列範例，其中我們要直接從CMS傳送電子郵件。 在這種情況下，您可以設定系統以選擇觀眾，並將內容以電子郵件形式傳送至CMS。 按一下「傳送」將會使用這些參數呼叫促銷活動工作流程，讓您將這些參數用在工作流程中，以定義要用於傳送的對象和URL內容。
 
-呼叫包含參數的工作流程的程序如下：
+使用參數調用工作流的過程如下：
 
-1. Declare the parameters in the **[!UICONTROL External signal]** activity. See [Declaring the parameters in the External signal activity](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity).
-1. Configure the **[!UICONTROL End]** activity or the API call to define the parameters and trigger the workflow **[!UICONTROL External signal]** activity.
+1. 在活動中聲明參 **[!UICONTROL External signal]** 數。 請參 [閱聲明外部信號活動中的參數](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity)。
+1. 設定活 **[!UICONTROL End]** 動或API呼叫，以定義參數並觸發工作流程 **[!UICONTROL External signal]** 活動。
 
-觸發工作流程後，參數便會吸收到工作流程的事件變數中，並可用於工作流程中。See [Customizing a workflow with external parameters](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-a-workflow-with-external-parameters).
+觸發工作流程後，這些參數就會被收錄到工作流程的事件變數中，並可在工作流程中使用。 請參 [閱使用外部參數自訂工作流程](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-a-workflow-with-external-parameters)。
 
 ![](assets/extsignal_process.png)
 
-## Declaring the parameters in the External signal activity {#declaring-the-parameters-in-the-external-signal-activity}
+## 在「外部信號」活動中聲明參數 {#declaring-the-parameters-in-the-external-signal-activity}
 
-The first step to call a workflow with parameters is to declare them in an **[!UICONTROL External signal]** activity.
+使用參數呼叫工作流程的第一步是在活動中宣告這 **[!UICONTROL External signal]** 些參數。
 
-1. Open the **[!UICONTROL External signal]** activity, then select the **[!UICONTROL Parameters]** tab.
-1. Click the **[!UICONTROL Create element]** button, then specify the name and type of each parameter.
+1. 開啟活 **[!UICONTROL External signal]** 動，然後選取標 **[!UICONTROL Parameters]** 簽。
+1. 按一下 **[!UICONTROL Create element]** 按鈕，然後指定每個參數的名稱和類型。
 
    >[!CAUTION]
    >
-   >Make sure that the name and number of parameters are identical to what is defined when calling the workflow (see [Defining the parameters when calling the workflow](../../automating/using/calling-a-workflow-with-external-parameters.md#defining-the-parameters-when-calling-the-workflow)). 此外，參數的類型必須與預期的值一致。
+   >請確定參數的名稱和數目與呼叫工作流時所定義的相同(請參閱呼 [叫工作流時定義參數](../../automating/using/calling-a-workflow-with-external-parameters.md#defining-the-parameters-when-calling-the-workflow))。 此外，參數類型必須與預期值一致。
 
    ![](assets/extsignal_declaringparameters_1.png)
 
-1. 在參數宣告後，完成工作流程設定，然後執行它。
+1. 聲明參數後，完成工作流配置，然後運行它。
 
-## Defining the parameters when calling the workflow {#defining-the-parameters-when-calling-the-workflow}
+## 在調用工作流時定義參數 {#defining-the-parameters-when-calling-the-workflow}
 
-本節詳細說明如何在呼叫工作流程時定義參數。For more on how to perform this operation from an API call, refer to the [REST APIs documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html).
+本節詳細說明如何在調用工作流時定義參數。 如需如何從API呼叫執行此作業的詳細資訊，請參閱 [REST API檔案](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)。
 
-在定義參數之前，請先確定：
+在定義參數之前，請確定：
 
-* The parameters have been declared in the **[!UICONTROL External Signal]** activity. See [Declaring the parameters in the External signal activity](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity).
-* 包含訊號活動的工作流程。
+* 參數已在活動中聲 **[!UICONTROL External Signal]** 明。 請參 [閱聲明外部信號活動中的參數](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity)。
+* 包含信號活動的工作流正在運行。
 
-To configure the **[!UICONTROL End]** activity, follow the steps below:
+要配置活 **[!UICONTROL End]** 動，請執行以下步驟：
 
-1. Open the **[!UICONTROL End]** activity, then select the **[!UICONTROL External signal]** tab.
-1. 選取您要呼叫的工作流程和外部訊號活動。
-1. Click the **[!UICONTROL Create element]** button to add a parameter, then fill in its name and value.
+1. 開啟活 **[!UICONTROL End]** 動，然後選取標 **[!UICONTROL External signal]** 簽。
+1. 選擇要調用的工作流和外部信號活動。
+1. 按一下 **[!UICONTROL Create element]** 按鈕以新增參數，然後填入其名稱和值。
 
-   * **[!UICONTROL Name]**：已在 **[!UICONTROL External signal]** 活動中宣告的名稱(請參閱 [「宣告外部訊號活動](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity)中的參數」)。
-   * **[!UICONTROL Value]**：您要指派給參數的值。The value should follow the **Standard syntax**, described in [this section](../../automating/using/advanced-expression-editing.md#standard-syntax).
+   * **[!UICONTROL Name]**:已在活動中宣告的名稱(請參 **[!UICONTROL External signal]** 閱在「外 [部信號」活動中宣告參數](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity))。
+   * **[!UICONTROL Value]**:要指派給參數的值。 值應遵循 **Standard語法**，如本 [節所述](../../automating/using/advanced-expression-editing.md#standard-syntax)。
    ![](assets/extsignal_definingparameters_2.png)
 
    >[!CAUTION]
    >
-   >Make sure that all the parameters have been declared in the **[!UICONTROL External signal]** activity. 否則，執行活動時會發生錯誤。
+   >請確定活動中已聲明所有參 **[!UICONTROL External signal]** 數。 否則，當執行活動時將發生錯誤。
 
-1. 在定義參數後，請確認活動，然後儲存工作流程。
+1. 定義參數後，確認活動，然後儲存您的工作流程。
 
-## Monitoring the events variables {#monitoring-the-events-variables}
+## 監控事件變數 {#monitoring-the-events-variables}
 
-您可以監控工作流程中可用的事件變數，包括宣告的外部參數。若要執行此動作，請執行下列步驟：
+您可以監控工作流程中可用的事件變數，包括宣告的外部參數。 若要這麼做，請依照下列步驟進行：
 
-1. Select the activity that follows the **[!UICONTROL External signal]** activity, then click the **[!UICONTROL Log and tasks]** button.
-1. In the **[!UICONTROL Tasks]** tab, click ![](assets/edit_darkgrey-24px.png) button.
+1. 選擇活動後面的活 **[!UICONTROL External signal]** 動，然後按一下按 **[!UICONTROL Log and tasks]** 鈕。
+1. 在標籤 **[!UICONTROL Tasks]** 中，按一下 ![](assets/edit_darkgrey-24px.png) 按鈕。
 
    ![](assets/extsignal_monitoring_2.png)
 
-1. 任務的執行上下文會顯示(ID、狀態、持續時間等)，包括現在可用於工作流程的所有事件變數。
+1. 會顯示任務的執行上下文（ID、狀態、持續時間等），包括所有現在可用於工作流的事件變數。
 
    ![](assets/extsignal_monitoring_3.png)
 
-## Customizing a workflow with external parameters {#customizing-a-workflow-with-external-parameters}
+## 使用外部參數自訂工作流程 {#customizing-a-workflow-with-external-parameters}
 
-觸發工作流程後，參數會吸收到事件變數中，並可用來自訂工作流程的活動。
+觸發工作流程後，這些參數會被收錄到事件變數中，並可用來自訂工作流程的活動。
 
-They can, for example, be used to define which audience to read in the **[!UICONTROL Read audience]** activity, the name of the file to transfer in the **[!UICONTROL Transfer file]** activity, etc.
+例如，它們可用來定義要在活動中讀取的對象、 **[!UICONTROL Read audience]** 要在活動中傳輸的檔案 **[!UICONTROL Transfer file]** 的名稱等。
 
-Activities that can be customized with events variables are detailed in [this section](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables).
+使用事件變數可自訂的活動將在本節 [中詳述](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables)。
 
-### Using events variables {#using-events-variables}
+### 使用事件變數 {#using-events-variables}
 
-Events variables are used within an expression that must respect the **[Standard syntax](../../automating/using/advanced-expression-editing.md#standard-syntax)**.
+事件變數用於必須遵循標準語法的運 **[算式中](../../automating/using/advanced-expression-editing.md#standard-syntax)**。
 
-The syntax to use events variables must follow the format below, and use the parameter's name that has been defined in the **[!UICONTROL External signal]** activity (see [Declaring the parameters in the External signal activity](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity)):
+使用事件變數的語法必須遵循下列格式，並使用已在活動中定義的參數名 **[!UICONTROL External signal]** 稱(請參 [閱聲明外部信號活動中的參數](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity)):
 
 ```
 $(vars/@parameterName)
 ```
 
-In this syntax, the **$** function returns **string** data type. 如果您想要指定其他類型的資料，請使用下列函數：
+在此語法中， **$** 函式會傳 **回字串資料類型** 。 如果您想要指定其他類型的資料，請使用下列函式：
 
-* **$ long**：整數。
-* **$ float**：小數數。
-* **$布林**&#x200B;值：true/false。
-* **$ atetime**：時間戳記。
+* **$long**:整數。
+* **$float**:小數。
+* **$boolean**:true/false。
+* **$datetime**:時間戳記。
 
-在活動中使用變數時，介面可提供呼叫。
+在活動中使用變數時，介面會提供呼叫變數的說明。
 
 ![](assets/extsignal_callparameter.png)
 
-* ![](assets/extsignal_picker.png)：在工作流程中可用的所有變數中選取事件變數(請參閱)。
+* ![](assets/extsignal_picker.png):在工作流程中可用的所有變數中選取事件變數（請參閱）。
 
    ![](assets/wkf_test_activity_variables.png)
 
-* ![](assets/extsignal_expression_editor.png)：編輯結合變數和函數的運算式。For more on the Expression editor, refer to [this section](../../automating/using/advanced-expression-editing.md).
+* ![](assets/extsignal_expression_editor.png):編輯結合變數和函式的運算式。 有關「表達式」編輯器的詳細資訊，請參 [閱本節](../../automating/using/advanced-expression-editing.md)。
 
    ![](assets/wkf_test_activity_variables_expression.png)
 
@@ -128,109 +128,109 @@ In this syntax, the **$** function returns **string** data type. 如果您想要
 
 * [編輯運算式](../../automating/using/advanced-expression-editing.md#edit-an-expression)
 * [標準語法](../../automating/using/advanced-expression-editing.md#standard-syntax)
-* [函數清單](../../automating/using/list-of-functions.md)
+* [函式清單](../../automating/using/list-of-functions.md)
 
-### Customizing activities with events variables {#customizing-activities-with-events-variables}
+### 使用事件變數自訂活動 {#customizing-activities-with-events-variables}
 
-可使用事件變數來自訂下一節所列的多個活動。For more on how to call a variable from an activity, refer to [this section](../../automating/using/calling-a-workflow-with-external-parameters.md#using-events-variables).
+事件變數可用來自訂數個活動，列於下方一節。 如需如何從活動呼叫變數的詳細資訊，請參 [閱本節](../../automating/using/calling-a-workflow-with-external-parameters.md#using-events-variables)。
 
-**[!UICONTROL Read audience]** 活動：定義對象以根據事件變數進行定位。
+**[!UICONTROL Read audience]** 活動：根據事件變數定義要定位的對象。
 
-For more on how to use the activity, refer to the [dedicated section](../../automating/using/read-audience.md).
+有關如何使用活動的詳細說明，請參閱專 [用章節](../../automating/using/read-audience.md)。
 
 ![](assets/extsignal_activities_audience.png)
 
 **[!UICONTROL Test]** 活動：根據事件變數建立條件。
 
-For more on how to use the activity, refer to the [dedicated section](../../automating/using/test.md).
+有關如何使用活動的詳細說明，請參閱專 [用章節](../../automating/using/test.md)。
 
 ![](assets/extsignal_activities_test.png)
 
-**[!UICONTROL Transfer file]** 活動：自訂檔案以根據事件變數進行傳輸。
+**[!UICONTROL Transfer file]** 活動：根據事件變數自訂檔案以進行傳輸。
 
-For more on how to use the activity, refer to the [dedicated section](../../automating/using/transfer-file.md).
+有關如何使用活動的詳細說明，請參閱專 [用章節](../../automating/using/transfer-file.md)。
 
 ![](assets/extsignal_activities_transfer.png)
 
-**[!UICONTROL Query]** 活動：參數可在查詢中參照，方法是使用結合事件變數和函數的運算式。To do this, add a rule then click the **[!UICONTROL Advanced mode]** link to access the expression editing window (see [Advanced expression editing](../../automating/using/advanced-expression-editing.md)).
+**[!UICONTROL Query]** 活動：參數可在查詢中參考，方法是使用結合事件變數和函式的運算式。 若要這麼做，請新增規則，然後按一下連 **[!UICONTROL Advanced mode]** 結以存取運算式編輯視窗(請參閱進 [階運算式編輯](../../automating/using/advanced-expression-editing.md))。
 
-For more on how to use the activity, refer to the [dedicated section](../../automating/using/query.md).
+有關如何使用活動的詳細說明，請參閱專 [用章節](../../automating/using/query.md)。
 
 ![](assets/extsignal_activities_query.png)
 
-**[!UICONTROL Channels]** 活動：根據事件變數個人化。
+**[!UICONTROL Channels]** 活動：根據事件變數個人化傳送。
 
 >[!NOTE]
 >
->傳送參數'值'會在每次準備完成時擷取。
+>每次準備傳送時，都檢索該傳送參數的值。
 >
->Recurring deliveries preparation is based on the delivery **aggregation period**. 例如，如果匯總期間是「依天」，則傳送將每天只重新準備一次。如果傳送參數的值在當天經過修改，則不會在傳送中更新，因為它已準備就緒一次。
+>週期性交貨準備是基於交貨匯總 **期間**。 例如，如果匯總期間是「按天」，則每天只重新準備一次傳送。 如果傳送參數的值在當天被修改，則不會在傳送中更新，因為已準備一次。
 >
->If you plan on calling the workflow multiple times a day, use the [!UICONTROL No aggregation] option, so that the delivery parameters are updated each time. For more on recurring deliveries configuration, refer to [this section](/help/automating/using/email-delivery.md#configuration).
+>如果您計畫每天呼叫多次工作流程，請使用 [!UICONTROL No aggregation] 選項，如此每次都會更新傳送參數。 如需循環傳送設定的詳細資訊，請參 [閱本節](/help/automating/using/email-delivery.md#configuration)。
 
-若要根據事件變數個人化傳送，您必須先將變數中的變數宣告為要使用的變數：
+若要根據事件變數個人化傳送，您必須先將您要使用的變數宣告至傳送活動：
 
-1. Select the activity, then click the ![](assets/dlv_activity_params-24px.png) button to access the settings.
-1. Select the **[!UICONTROL General]** tab, then add the events variables that will be available as personalization fields in the delivery.
+1. 選取活動，然後按一下按 ![](assets/dlv_activity_params-24px.png) 鈕以存取設定。
+1. 選取標 **[!UICONTROL General]** 簽，然後新增事件變數，這些變數將可在傳送中當做個人化欄位使用。
 
    ![](assets/extsignal_activities_delivery.png)
 
-1. Click the **[!UICONTROL Confirm]** button.
+1. 按一下按 **[!UICONTROL Confirm]** 鈕。
 
-已宣告事件變數現在可從個人化欄位清單中取得。您可以在傳送中使用它們執行下列動作：
+個人化欄位清單中現在提供宣告的事件變數。 您可以在傳送中使用它們，以執行下列動作：
 
 * 定義要用於傳送的範本名稱。
 
    >[!NOTE]
    >
-   >This action is available for **recurring** deliveries only.
+   >此動作僅適用於 **循環** 傳送。
 
    ![](assets/extsignal_activities_template.png)
 
-* Personalize the delivery: when selecting a personalization field to configure a delivery, events variables are available in the **[!UICONTROL Workflow parameters]** element. 您可以將其用作任何個人化欄位，例如定義傳送主體、寄件者等。
+* 個人化交付：選取個人化欄位以設定傳送時，事件變數可在元素中使 **[!UICONTROL Workflow parameters]** 用。 您可將其用作任何個人化欄位，例如定義傳送主體、傳送者等。
 
-   Delivery personalization is detailed in [this section](../../designing/using/about-personalization.md).
+   傳送個人化在本節中 [詳述](../../designing/using/personalization.md)。
 
    ![](assets/extsignal_activities_perso.png)
 
-**區段代碼**：根據事件變數定義區段代碼。
+**區段代碼**:根據事件變數定義區段代碼。
 
 >[!NOTE]
 >
->This action can be performed from any activity that lets you define a segment code like, for example, **[!UICONTROL Query]** or **[!UICONTROL Segmentation]** activities.
+>您可以從任何可讓您定義區段代碼（例如，活動）的活動執行 **[!UICONTROL Query]** 此 **[!UICONTROL Segmentation]** 動作。
 
 ![](assets/extsignal_activities_segment.png)
 
-**傳送標籤**：根據事件變數定義傳送標籤。
+**傳送標籤**:根據事件變數定義傳送標籤。
 
 ![](assets/extsignal_activities_label.png)
 
-## Use case {#use-case}
+## 使用案例 {#use-case}
 
-以下的使用案例顯示如何在工作流程中使用參數來呼叫工作流程。
+以下使用案例說明如何使用工作流程中的參數來呼叫工作流程。
 
-其目標是從含有外部參數的API呼叫中觸發工作流程。此工作流程會從檔案載入資料並建立關聯的觀眾。建立觀眾後，會觸發第二個工作流程，以API呼叫中定義的外部參數個人化訊息。
+其目的在於使用外部參數從API呼叫觸發工作流程。 此工作流程會從檔案將資料載入您的資料庫，並建立相關對象。 在建立對象後，會觸發第二個工作流程，以傳送具有API呼叫中定義之外部參數之個人化訊息。
 
-若要執行此使用案例，您必須執行下列動作：
+要執行此使用案例，您需要執行以下操作：
 
-1. **進行API呼叫** ，以外部參數觸發Workflow1。See [Step 1: Configuring the API call](../../automating/using/calling-a-workflow-with-external-parameters.md#step-1--configuring-the-api-call).
-1. **建立工作流程1**：工作流程將會傳輸檔案並將它載入資料庫中。然後，它會測試資料是否空白，並最後將描述檔儲存給觀眾。最後，它會觸發Workflow2。See [Step 2: Configuring Workflow 1](../../automating/using/calling-a-workflow-with-external-parameters.md#step-2--configuring-workflow-1).
-1. **建立工作流程2**：工作流程會讀取已在Workflow中建立的觀眾，然後傳送個人化訊息至描述檔，並使用參數自訂區段代碼。See [Step 3: Configuring Workflow 2](../../automating/using/calling-a-workflow-with-external-parameters.md#step-3--configuring-workflow-2).
+1. **進行API呼叫** ，以使用外部參數觸發Workflow 1。 請參 [閱步驟1:設定API呼叫](../../automating/using/calling-a-workflow-with-external-parameters.md#step-1--configuring-the-api-call)。
+1. **建立工作流程1**:工作流將傳輸檔案並將其載入到資料庫中。 然後，它會測試資料是否空白，並最終將描述檔儲存至觀眾。 最後，它將觸發Workflow 2。 請參 [閱步驟2:設定工作流程1](../../automating/using/calling-a-workflow-with-external-parameters.md#step-2--configuring-workflow-1).
+1. **建立工作流程2**:工作流程會讀取在Workflow 1中建立的觀眾，然後傳送個人化訊息至描述檔，並使用參數自訂區段代碼。 請參 [閱步驟3:設定工作流程2](../../automating/using/calling-a-workflow-with-external-parameters.md#step-3--configuring-workflow-2).
 
 ![](assets/extsignal_uc_process.png)
 
-### Prerequisites {#prerequisites}
+### 必要條件 {#prerequisites}
 
-Before configuring the workflows, you need to create Workflow 1 and 2 with an **[!UICONTROL External signal]** activity in each of them. 如此一來，您就可以在呼叫工作流程時，鎖定這些訊號活動。
+在設定工作流程之前，您必須先建立「工作流程1」和「工作流程2」，其 **[!UICONTROL External signal]** 中每個工作流程都包含活動。 如此，您就可以在呼叫工作流程時鎖定這些訊號活動。
 
-### Step 1: Configuring the API call {#step-1--configuring-the-api-call}
+### 步驟1:設定API呼叫 {#step-1--configuring-the-api-call}
 
-建立API呼叫，以參數觸發Workflow1。For more on the API call syntax, refer to the [Campaign Standard REST APIs documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html).
+進行API呼叫，以使用參數觸發Workflow 1。 如需API呼叫語法的詳細資訊，請參閱 [Campaign Standard REST API檔案](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)。
 
-在我們的案例中，我們想要將工作流程與下列參數進行呼叫：
+在本例中，我們要使用下列參數來呼叫工作流程：
 
-* **FilterTarget**：我們要匯入資料庫的檔案名稱。
-* **DiscountDesc**：我們想要在提供中顯示的說明。
+* **fileToTarget**:要導入到資料庫的檔案的名稱。
+* **折扣設計**:要在交貨中顯示的折扣說明。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/<TRIGGER_URL>
@@ -248,28 +248,28 @@ Before configuring the workflows, you need to create Workflow 1 and 2 with an **
 -d } 
 ```
 
-### Step 2: Configuring Workflow 1 {#step-2--configuring-workflow-1}
+### 步驟2:設定工作流程1 {#step-2--configuring-workflow-1}
 
-Workflow的建置方式如下：
+工作流程1的建立方式如下：
 
-* **[!UICONTROL External signal]** 活動：必須宣告外部參數，以便在工作流程中使用。
-* **[!UICONTROL Transfer file]** 活動：以參數定義的名稱匯入檔案。
-* **[!UICONTROL Load file]** 活動：將資料從匯入的檔案載入資料庫。
-* **[!UICONTROL Update data]** 活動：使用匯入檔案中的資料插入或更新資料庫。
-* **[!UICONTROL Test]** 活動：檢查是否已匯入資料。
-* **[!UICONTROL Save audience]** 活動：如果檔案包含資料，請將描述檔儲存給對象。
-* **[!UICONTROL End activity]** 活動：以您要在其中使用的參數來呼叫Workflow2。
+* **[!UICONTROL External signal]** 活動：其中，必須聲明外部參數才能在工作流中使用。
+* **[!UICONTROL Transfer file]** 活動：導入具有參數中定義的名稱的檔案。
+* **[!UICONTROL Load file]** 活動：從導入的檔案將資料載入到資料庫中。
+* **[!UICONTROL Update data]** 活動：使用導入檔案中的資料插入或更新資料庫。
+* **[!UICONTROL Test]** 活動：檢查是否有匯入的資料。
+* **[!UICONTROL Save audience]** 活動：如果檔案包含資料，請將描述檔儲存至觀眾。
+* **[!UICONTROL End activity]** 活動：呼叫Workflow 2，其中包含您要使用的參數。
 
 ![](assets/extsignal_uc_wkf1.png)
 
 請依照下列步驟來設定工作流程：
 
-1. 宣告API呼叫中已定義的參數。To do this, open the **[!UICONTROL External signal]** activity, then add the parameters' names and types.
+1. 宣告已在API呼叫中定義的參數。 若要這麼做，請開啟 **[!UICONTROL External signal]** 活動，然後新增參數的名稱和類型。
 
    ![](assets/extsignal_uc1.png)
 
-1. Add a **[!UICONTROL Transfer file]** activity to import data into the database.To do this, drag and drop the activity, open it, then select the **[!UICONTROL Protocol]** tab.
-1. Select the **[!UICONTROL Use a dynamic file path]** option, then use the **fileToTarget** parameter as the file to transfer:
+1. 新增活 **[!UICONTROL Transfer file]** 動以將資料匯入資料庫。若要這麼做，請拖放活動，將其開啟，然後選取標 **[!UICONTROL Protocol]** 簽。
+1. 選取 **[!UICONTROL Use a dynamic file path]** 選項，然後使 **** 用fileToTarget參數作為要傳輸的檔案：
 
    ```
    $(vars/@fileToTarget)
@@ -277,22 +277,22 @@ Workflow的建置方式如下：
 
    ![](assets/extsignal_uc2.png)
 
-1. 將資料從檔案載入資料庫。
+1. 將資料從檔案載入到資料庫中。
 
-   To do this, drag and drop a **[!UICONTROL Load file]** activity into the workflow, then configure it according to your needs.
+   若要這麼做，請將活動拖放 **[!UICONTROL Load file]** 至工作流程中，然後根據您的需求進行設定。
 
-1. 使用匯入檔案中的資料插入並更新資料庫。
+1. 使用導入檔案中的資料插入和更新資料庫。
 
-   To do this, drag and drop an **[!UICONTROL Update data]** activity, then select the **[!UICONTROL Identification]** tab to add a reconciliation criteria (in our case the **email** field).
+   若要這麼做，請拖放活 **[!UICONTROL Update data]** 動，然後選取標 **[!UICONTROL Identification]** 簽以新增協調條件(在我們的例子中為電子郵件 **欄位** )。
 
    ![](assets/extsignal_uc3.png)
 
-1. Select the **[!UICONTROL Fields to update]** tab, then specify the fields to update in the database (in our case the **firstname** and **email** fields).
+1. 選取標 **[!UICONTROL Fields to update]** 簽，然後指定要在資料庫中更新的欄位(在我們的例子中是名 **字** 和電 **子郵件欄位** )。
 
    ![](assets/extsignal_uc4.png)
 
-1. 檢查是否從檔案擷取資料。To do this, drag and drop a **[!UICONTROL Test]** activity into the workflow, then click the **[!UICONTROL Add an element]** button to add a condition.
-1. 命名並定義條件。在我們的案例中，我們想要測試傳出轉換是否包含下列語法的資料：
+1. 檢查是否從檔案檢索到資料。 若要這麼做，請將活動拖放 **[!UICONTROL Test]** 至工作流程中，然後按一下按 **[!UICONTROL Add an element]** 鈕以新增條件。
+1. 命名並定義條件。 在本例中，我們要測試出站轉場是否包含下列語法的資料：
 
    ```
    $long(vars/@recCount)>0
@@ -300,8 +300,8 @@ Workflow的建置方式如下：
 
    ![](assets/extsignal_uc5.png)
 
-1. 如果擷取資料，將其儲存至對象。To do this, add a **[!UICONTROL Save audience]** activity to the **Target not empty** transition, then open it.
-1. Select the **[!UICONTROL Use a dynamic label]** option, then use the **fileToTarget** parameter as the label of the audience:
+1. 如果擷取資料，請將其儲存至觀眾。 若要這麼做，請新增活 **[!UICONTROL Save audience]** 動至 **Target而非空白轉場** ，然後開啟它。
+1. 選取 **[!UICONTROL Use a dynamic label]** 選項，然後使 **** 用fileToTarget參數作為對象的標籤：
 
    ```
    $(vars/@fileToTarget)
@@ -309,36 +309,36 @@ Workflow的建置方式如下：
 
    ![](assets/extsignal_uc6.png)
 
-1. Drag and drop an **[!UICONTROL End]** activity that will call Workflow 2 with parameters, then open it.
-1. Select the **[!UICONTROL External signal]** tab, then specify the workflow to trigger and its associated signal activity.
-1. 定義您要在Workflow及其相關值中使用的參數。
+1. 拖放會以參 **[!UICONTROL End]** 數呼叫Workflow 2的活動，然後開啟它。
+1. 選取標 **[!UICONTROL External signal]** 簽，然後指定要觸發的工作流程及其相關的信號活動。
+1. 定義您要在Workflow 2中使用的參數及其關聯值。
 
-   In our case, we want to pass the parameters originally defined in the API call (**fileToTarget** and **discountDesc**), and an additional **segmentCode** parameter with a constant value ("20% discount").
+   在我們的情況下，我們會傳遞API呼叫(**fileToTarget** and **discountDesc**)中最初定義的參數，以及具有固定值的額 **外segmentCode** 參數（「20%折扣」）。
 
    ![](assets/extsignal_uc7.png)
 
-工作流程1已設定，您現在可以建立工作流程2。For more on this, refer to [this section](../../automating/using/calling-a-workflow-with-external-parameters.md#step-3--configuring-workflow-2).
+Workflow 1已設定，您現在可以建立Workflow 2。 For more on this, refer to [this section](../../automating/using/calling-a-workflow-with-external-parameters.md#step-3--configuring-workflow-2).
 
-### Step 3: Configuring Workflow 2 {#step-3--configuring-workflow-2}
+### 步驟3:設定工作流程2 {#step-3--configuring-workflow-2}
 
-Workflow的建置方式如下：
+工作流程2的建立方式如下：
 
-* **[!UICONTROL External signal]** 活動：參數必須宣告，以便在工作流程中使用。
-* **[!UICONTROL Read audience]** 活動：讀取儲存在Workflow中的觀眾。
-* **[!UICONTROL Email delivery]** 活動：傳送週期性訊息給目標對象，並使用參數個人化。
+* **[!UICONTROL External signal]** 活動：其中，必須聲明參數才能在工作流中使用。
+* **[!UICONTROL Read audience]** 活動：讀取在Workflow 1中儲存的對象。
+* **[!UICONTROL Email delivery]** 活動：傳送循環訊息給目標對象，並使用參數個人化。
 
 ![](assets/extsignal_uc_wkf2.png)
 
 請依照下列步驟來設定工作流程：
 
-1. 宣告已在Workflow中定義的參數。
+1. 聲明已在Workflow 1中定義的參數。
 
-   To do this, open the **[!UICONTROL External signal]** activity, then add the name and type of each parameter defined in the **[!UICONTROL End]** activity of Workflow 1.
+   若要這麼做，請開啟 **[!UICONTROL External signal]** 活動，然後新增Workflow 1活動中定義之每個參數 **[!UICONTROL End]** 的名稱和類型。
 
    ![](assets/extsignal_uc8.png)
 
-1. 使用已儲存在Workflow中的觀眾。To do this, drag and drop a **[!UICONTROL Read audience]** activity into the workflow, then open it.
-1. Select the **[!UICONTROL Use a dynamic audience]** option, then use the **fileToTarget** parameter as the name of the audience to read:
+1. 使用已儲存在Workflow 1中的對象。 若要這麼做，請將活動拖放 **[!UICONTROL Read audience]** 至工作流程中，然後開啟它。
+1. 選取 **[!UICONTROL Use a dynamic audience]** 選項，然後使 **** 用fileToTarget參數作為要讀取的對象名稱：
 
    ```
    $(vars/@fileToTarget)
@@ -346,11 +346,11 @@ Workflow的建置方式如下：
 
    ![](assets/extsignal_uc9.png)
 
-1. Name the outbound transition according to the **segmentCode** parameter.
+1. 根據segmentCode參數命名出站 **轉場** 。
 
-   To do this, select the **[!UICONTROL Transition]** tab, then the **[!UICONTROL Use a dynamic segment code]** option.
+   若要這麼做，請先選取標 **[!UICONTROL Transition]** 簽，再選取 **[!UICONTROL Use a dynamic segment code]** 選項。
 
-1. Use the **segmentCode** parameter as the name of the outbound transition:
+1. 使用 **segmentCode** 參數作為傳出轉換的名稱：
 
    ```
    $(vars/@segmentCode)
@@ -358,24 +358,24 @@ Workflow的建置方式如下：
 
    ![](assets/extsignal_uc10.png)
 
-1. Drag and drop an **[!UICONTROL Email delivery]** activity to send a message to the audience.
-1. Identify the parameters to use in the message to personalize it with the **discountDesc** parameter. 若要這麼做，請開啓活動的進階選項，然後新增參數名稱和值。
+1. 拖放活動 **[!UICONTROL Email delivery]** 以傳送訊息給觀眾。
+1. 識別訊息中要使用的參數，以便使用discountDesc參 **數個人化** 。 若要這麼做，請開啟活動的進階選項，然後新增參數名稱和值。
 
    ![](assets/extsignal_uc10b.png)
 
-1. 您現在可以設定訊息。Open the activity, then select **[!UICONTROL Recurring email]**.
+1. 您現在可以設定訊息。 開啟活動，然後選取 **[!UICONTROL Recurring email]**。
 
    ![](assets/extsignal_uc11.png)
 
 1. 選取要使用的範本，然後根據您的需求定義電子郵件屬性。
-1. Use the **discountDesc** parameter as a personalization field. 若要這麼做，請從個人化欄位清單中選取它。
+1. 使用 **discountDesc** 參數做為個人化欄位。 若要這麼做，請從個人化欄位清單中選取它。
 
    ![](assets/extsignal_uc13.png)
 
-1. 您現在可以完成設定訊息，然後照常傳送。
+1. 您現在可以完成訊息的設定，然後照常傳送。
 
    ![](assets/extsignal_uc14.png)
 
-### Executing the workflows {#executing-the-workflows}
+### 執行工作流程 {#executing-the-workflows}
 
-建立工作流程後，您就可以執行這些工作流程。請確定兩個工作流程已開始，然後再執行API呼叫。
+建立工作流程後，您就可以執行這些工作流程。 在執行API呼叫前，請確定已啟動兩個工作流程。

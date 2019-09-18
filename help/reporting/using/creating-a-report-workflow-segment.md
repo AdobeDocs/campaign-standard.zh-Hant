@@ -2,122 +2,122 @@
 title: 根據工作流程區段建立報表
 seo-title: 根據工作流程區段建立報表
 description: 根據工作流程區段建立報表
-seo-description: 瞭解如何根據報表中的工作流程細分，檢查交付是否成功。
-page-status-flag: 從未啓動
+seo-description: 瞭解如何根據報表中工作流程的區段來檢查傳送是否成功。
+page-status-flag: 從未激活
 uuid: f75e005b-5328-4c98-9e78-51d54fd0e246
-contentOwner: benst
-products: SG_ CAMPAIGN/STANDARD
-audience: 報告功能
-content-type: reference
+contentOwner: 班多
+products: SG_CAMPAIGN/STANDARD
+audience: 報告
+content-type: 參考
 topic-tags: 自訂報表
 discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c555c35004ffe3c3d7e2f845a3a2707b1985e190
+source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 
 ---
 
 
-# Creating a report based on workflow segments{#creating-a-report-workflow-segment}
+# 根據工作流程區段建立報表{#creating-a-report-workflow-segment}
 
-建立工作流程並將其篩選為不同目標對象後，您可以根據此定位工作流程中定義的區段，測量行銷促銷活動的效率。
-若要在您的報表中定位這些區段：
+在建立工作流程並將人口篩選到不同的目標對象後，您可以根據此目標工作流程中定義的區段來評估行銷宣傳的效率。
+若要定位報表中的這些區段：
 
-* [步驟1：更新具有區段的自訂資源](#step-1--update-profiles-custom-resource-segments)
-* [步驟2：建立含區段的工作流程](#step-2--create-a-workflow-segments)
-* [步驟3：建立動態報表以篩選區段](#step-3--create-a-dynamic-report-filter-segments)
+* [步驟1:使用區段更新描述檔自訂資源](#step-1--update-profiles-custom-resource-segments)
+* [步驟2:建立含區段的工作流程](#step-2--create-a-workflow-segments)
+* [步驟3:建立動態報表以篩選區段](#step-3--create-a-dynamic-report-filter-segments)
 
 >[!CAUTION]
->必須接受動態報告使用合約，才能開始收集這些資料。
->For more on this agreement, refer to this [page](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
+>必須接受動態報告使用協定，才能開始收集這些資料。
+>如需本合約的詳細資訊，請參閱本 [頁](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)。
 
-## Step 1: Update Profiles custom resource with segments{#step-1--update-profiles-custom-resource-segments}
+## 步驟1:使用區段更新描述檔自訂資源{#step-1--update-profiles-custom-resource-segments}
 
-Before reporting on your segment code, you need to update your **[!UICONTROL Profiles]** custom resource for your segment codes to be stored.
+在報告區段代碼之前，您必須更新要 **[!UICONTROL Profiles]** 儲存的區段代碼的自訂資源。
 
-1. From the advanced menu, via the Adobe Campaign logo, select **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** &gt; **[!UICONTROL Custom resources]**, then select the **[!UICONTROL Profile (profile)]** resource.
-1. In the **[!UICONTROL Sending logs extension]** menu from the **[!UICONTROL Data structure]** tab, check **[!UICONTROL Add segment code]** to allow storage of your segment codes from targeting workflows and to send it to dynamic reporting.
+1. 從進階功能表，透過Adobe Campaign標誌，選取 **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** &gt; **[!UICONTROL Custom resources]**，然後選取資 **[!UICONTROL Profile (profile)]** 源。
+1. 在標籤 **[!UICONTROL Sending logs extension]** 的功能表 **[!UICONTROL Data structure]** 中，勾選 **[!UICONTROL Add segment code]** 以允許從定位工作流程儲存區段代碼，並將它傳送至動態報表。
 
-   **[!UICONTROL Segment code]** 然後可在報表 **[!UICONTROL Profile]** 的維度區段中使用。
+   然 **[!UICONTROL Segment code]** 後，報表的維度區 **[!UICONTROL Profile]** 段中就會提供。
 
    ![](assets/report_segment_4.png)
 
 1. 儲存自訂資源。
 
 1. 您現在需要發佈自訂資源。
-From the advanced menu, select **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** &gt; **[!UICONTROL Publishing]**.
+從進階功能表中，選取 **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** &gt; **[!UICONTROL Publishing]**。
 
    ![](assets/custom_profile_7.png)
 
-1. Click **[!UICONTROL Prepare publication]** then when the preparation is done, click the **[!UICONTROL Publish]** button. For more information on custom resource, refer to this [page](../../developing/using/updating-the-database-structure.md).
+1. 完 **[!UICONTROL Prepare publication]** 成準備後，按一下按 **[!UICONTROL Publish]** 鈕。 有關自訂資源的詳細資訊，請參閱本 [頁](../../developing/using/updating-the-database-structure.md)。
 
 您現在可以開始使用區段代碼建立工作流程。
 
-Note that segment codes will be collected as soon as you enable the segment code in the **[!UICONTROL Sending logs extension]**.
+請注意，當您在中啟用區段代碼時，系統會立即收集區段代碼 **[!UICONTROL Sending logs extension]**。
 
-## Step 2: Create a workflow with segments {#step-2--create-a-workflow-segments}
+## 步驟2:建立含區段的工作流程 {#step-2--create-a-workflow-segments}
 
 >[!NOTE]
->如果電子郵件傳送的輸入轉換為空，則預設會新增先前轉場的區段代碼。
+>如果電子郵件傳送的輸入轉場是空的，則預設會新增先前轉場的區段代碼。
 
-您首先需要建立具有不同目標人群的工作流程。在這裡，我們想要傳送一封會根據觀眾年齡而個人化的電子郵件：一次提供20到30年的個人檔案，另一份則適用於30到40歲的個人檔案。
+您首先需要建立具有不同目標群體的工作流程。 在此，我們想要傳送會根據受眾年齡而個人化的電子郵件：一個是20到30歲的個人檔案，另一個是30到40歲的個人檔案。
 
-1. 建立工作流程。For more details on how to create your workflow, refer to this [page](../../automating/using/building-a-workflow.md).
+1. 建立您的工作流程。 如需如何建立工作流程的詳細資訊，請參閱本 [頁](../../automating/using/building-a-workflow.md)。
 
-1. **[!UICONTROL Query]** 從浮動視窗拖曳並將活動拖曳至工作區中，以新增活動。
+1. 將活動 **[!UICONTROL Query]** 從浮動視窗拖曳並拖曳至工作區，以新增活動。
 
-1. 從20到40歲的目標設定檔，將其細分為更明確的人口族群。
+1. 將20到40歲的個人檔案分成目標群體，以後再將其分成目標群體。
 
    ![](assets/report_segment_1.png)
 
-1. Add a **[!UICONTROL Segmentation]** activity to split your query results into two targeted populations. For more on segmentation, refer to this [page](../../automating/using/targeting-data.md#segmenting-data).
+1. 新增活 **[!UICONTROL Segmentation]** 動，將查詢結果分割為兩個目標人口族群。 如需細分的詳細資訊，請參閱此 [頁面](../../automating/using/targeting-data.md#segmenting-data)。
 
-1. Double click the **[!UICONTROL Segmentation]** activity to configure it. Edit the first segment by clicking **[!UICONTROL Edit properties]**.
+1. 按兩下活 **[!UICONTROL Segmentation]** 動以進行設定。 按一下以編輯第一個區段 **[!UICONTROL Edit properties]**。
 
    ![](assets/report_segment_7.png)
 
-1. Query profiles between the age of 20 to 30 and click **[!UICONTROL Confirm]** when done.
+1. 在20到30歲之間查詢描述檔，然後在完成時按 **[!UICONTROL Confirm]** 一下。
 
    ![](assets/report_segment_8.png)
 
-1. Click **[!UICONTROL Add an element]** to create your second segment and configure it as described in the steps above to target profiles between the age of 30 to 40.
+1. 按一 **[!UICONTROL Add an element]** 下以建立第二個區段，並依上述步驟中所述加以設定，以定位年齡在30到40歲之間的描述檔。
 
-1. Edit the **[!UICONTROL Segment code]** for each population to be passed on through dynamic reporting.
+1. 編輯 **[!UICONTROL Segment code]** 要透過動態報表傳遞的每個人口族群。
 
    >[!NOTE]
-   >此步驟是強制的，否則您將無法瞭解要報告的區段。
+   >此步驟為必要步驟，否則您將無法瞭解要報告的區段。
 
    ![](assets/report_segment_9.png)
 
-1. Drag and drop an **[!UICONTROL Email delivery]** activity after your segments.
+1. 將活動拖放至 **[!UICONTROL Email delivery]** 區段之後。
 
    ![](assets/report_segment_3.png)
 
-1. 根據不同目標人口，個人化您的交付。For more on email creation, refer to this [page](../../designing/using/about-email-content-design.md).
+1. 根據不同的目標人口，個人化您的遞送。 如需建立電子郵件的詳細資訊，請參閱此 [頁面](../../designing/using/overview.md)。
 
 1. 儲存工作流程。
 
-1. Click **[!UICONTROL Start]** when your workflow is ready.
+1. 當您 **[!UICONTROL Start]** 的工作流程準備就緒時，按一下。
 
 您現在可以存取報表來追蹤區段代碼。
 
-## Step 3: Create a dynamic report to filter segments {#step-3--create-a-dynamic-report-filter-segments}
+## 步驟3:建立動態報表以篩選區段 {#step-3--create-a-dynamic-report-filter-segments}
 
-將傳送與工作流程傳送後，您可以使用工作流程中的區段代碼來劃分報表。
+在傳送傳送至您的工作流程後，您可以使用工作流程中的區段代碼來劃分報表。
 
-1. From the **[!UICONTROL Reports]** tab, select an out-of-the-box report or click the **[!UICONTROL Create new project]** button to start one from scratch.
+1. 從標 **[!UICONTROL Reports]** 簽中，選取現成可用的報表，或按一下按鈕從頭 **[!UICONTROL Create new project]** 開始建立報表。
 
    ![](assets/custom_profile_18.png)
-1. Drag and drop the **[!UICONTROL Delivery]** dimension to your freeform table.
+1. 將維度拖放 **[!UICONTROL Delivery]** 至自由表格。
 
    ![](assets/report_segment_5.png)
 
-1. Drag and drop different metrics to your table such as the **[!UICONTROL Open]** and **[!UICONTROL Click]** metrics to start filtering your data.
-1. **[!UICONTROL Dimensions]** 在類別中，按一下 **[!UICONTROL Profile]** 維度，然後拖放工作流程中的 **[!UICONTROL Segment code]** 維度，以測量您的電子郵件傳送是否成功，根據目標人口而定。
+1. 將不同的度量拖放至表格，例如 **[!UICONTROL Open]** 和 **[!UICONTROL Click]** 度量，開始篩選資料。
+1. 在類別 **[!UICONTROL Dimensions]** 中，按一下維 **[!UICONTROL Profile]** 度，然後拖放工作流程傳送的維度， **[!UICONTROL Segment code]** 以根據目標人口族群來測量電子郵件傳送的成功程度。
 
    ![](assets/report_segment_6.png)
 
-1. 視需要拖放工作區中的視覺化。
+1. 視需要將視覺化拖放至您的工作區。
 
    ![](assets/report_segment_10.png)

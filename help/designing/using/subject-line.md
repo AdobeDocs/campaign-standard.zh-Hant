@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 29cbde1a6bb57526f626f2d1fef52695c50de8e6
+source-git-commit: 0cf4807fc3d617b0c5ca33705b6344d1f3994ab3
 
 ---
 
@@ -27,33 +27,33 @@ source-git-commit: 29cbde1a6bb57526f626f2d1fef52695c50de8e6
 >
 >如果主旨行為空白，則訊息控制面板和電子郵件設計工具中會顯示警告。
 
-若要設定電子郵件主旨，請 **[!UICONTROL Properties]** 前往「電子郵件設計人員」首頁的標籤（可透過首頁圖示存取），並填寫 **[!UICONTROL Subject]** 章節。
+To configure the email subject, go the  tab of the Email Designer home page (accessible through the home icon) and fill in the  section.**[!UICONTROL Properties]****[!UICONTROL Subject]**
 
 **要定義電子郵件的主題行，請執行以下操作**:
 
-1. 建立電子郵件。
-1. 關閉首頁。
-1. 轉至「電 **[!UICONTROL Properties]** 子郵件設計器」首頁的標籤（可透過首頁圖示存取）並填寫 **[!UICONTROL Subject]** 章節。
+1. Create an email.
+1. Close homepage.
+1. Go the  tab of the Email Designer home page (accessible through the home icon) and fill in the  section.**[!UICONTROL Properties]****[!UICONTROL Subject]**
 
 ![](assets/email_designer_subject.png)
 
-您也可以按一下對應的圖示，將個人化欄位、內容區塊和動態內容新增至主題行。
+You can also add personalization fields, content blocks and dynamic content to the subject line by clicking the corresponding icons.
 
-**相關主題：**
+**Related topics:**
 
-* [插入個人化欄位](../../designing/using/personalization.md#inserting-a-personalization-field)
-* [新增內容區塊](../../designing/using/personalization.md#adding-a-content-block)
-* [定義電子郵件中的動態內容](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
+* [Inserting a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field)
+* [Adding a content block](../../designing/using/personalization.md#adding-a-content-block)
+* [Defining dynamic content in an email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
 
-## 預測性主體行 {#predictive-subject-line}
+## Predictive subject line {#predictive-subject-line}
 
-在編輯電子郵件時，您可以嘗試不同的主旨行，並在傳送電子郵件前先估計其開放率。
+When editing an email, you can try out different subject lines and get an estimation of its open rate before you send it.
 
-此功能預設為停用。 當匯入第一個模型時，就會啟用它。 模型是特定產業的訓練資料集的結果。 模型可讓系統在提交新主旨行時預測電子郵件的開放率。
+This feature is disabled by default. 當匯入第一個模型時，就會啟用它。 A model is the result of training data sets specific to a given industry. Models allow the system to predict the open rate of the email when a new subject line is submitted.
 
 >[!NOTE]
 >
->此功能適用於電子郵件訊息和僅包含英文內容的資料庫。 如果您的例項包含其他語言的電子郵件，則訓練好的模型會不一致，並導致錯誤的結果。 只有在實例上已有模型可用時，才會顯示允許測試主題的選項。
+>此功能適用於電子郵件訊息和僅包含英文內容的資料庫。 The trained model will be inconsistent and will lead to erroneous results if your instance contains emails in other languages. 只有在實例上已有模型可用時，才會顯示允許測試主題的選項。
 
 **相關主題**
 

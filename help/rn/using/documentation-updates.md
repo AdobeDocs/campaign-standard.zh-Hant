@@ -14,7 +14,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b4f9d8ec6c5fc8dec8e4ad16930a183cda665a15
+source-git-commit: d9357481a567cb0d11eea43211abf08a6dcb07d6
 
 ---
 
@@ -26,6 +26,12 @@ source-git-commit: b4f9d8ec6c5fc8dec8e4ad16930a183cda665a15
 本頁列出每個Adobe Campaign Standard版本的所有新功能和檔案更新。
 
 您也可以參閱Adobe Campaign發 [行說明](../../rn/using/release-notes.md)。
+
+## 檔案更新- 2019年10月 {#doc-updates-october-2019}
+
+新增一節，說明如何傳送自動自訂確認電子郵件給已訂閱特定服務的設定檔。 [閱讀更多資訊](../../audiences/using/confirming-subscription-to-a-service.md)
+
+「交易式傳訊」區段已使用最新的UI更新加以修改，包括使用電子郵件設計工具編輯內容。 [閱讀更多資訊](../../channels/using/event-transactional-messages.md)
 
 ## 檔案更新- 2019年9月 {#doc-updates-september-2019}
 

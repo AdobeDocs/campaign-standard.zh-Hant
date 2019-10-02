@@ -14,7 +14,7 @@ discoiquuid: 8428f8ac-8ef5-46cd-9d93-10ec0ecd3ded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4ad558fce83006879455a791127594157456f0c4
+source-git-commit: fba337604c678bad17cb03796aeb24d14549605c
 
 ---
 
@@ -34,6 +34,9 @@ source-git-commit: 4ad558fce83006879455a791127594157456f0c4
    ![](assets/sending_anti-spam_analysis.png)
 
 1. 選擇 **[!UICONTROL Change profile]** 按鈕，以選擇要測試個人化元素的測試描述檔。
+
+   ![](assets/sending_test-profile.png)
+
 1. 要退出模 **[!UICONTROL Preview]** 式，請按一下 **[!UICONTROL Edit]** 螢幕左上角的按鈕。
 
    ![](assets/sending_preview_edit.png)

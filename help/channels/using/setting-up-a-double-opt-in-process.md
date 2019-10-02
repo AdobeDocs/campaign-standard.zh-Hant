@@ -1,156 +1,156 @@
 ---
-title: 設定雙重加入程序
-seo-title: 設定雙重加入程序
-description: 設定雙重加入程序
-seo-description: 請遵循下列步驟，使用Adobe Campaign中的著陸頁面設定兩個選擇加入程序。
-page-status-flag: 從未啓動
-uuid: 23e6c4-e2-e2 c7-472f-b616-36a95225 ac1 d
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
+title: 設定雙重選擇加入程式
+seo-title: 設定雙重選擇加入程式
+description: 設定雙重選擇加入程式
+seo-description: 請依照下列步驟，使用Adobe Campaign中的登陸頁面來設定雙重選擇加入程式。
+page-status-flag: 從未激活
+uuid: 23e6c4c2-e2c7-472f-b616-36a95225ac1d
+contentOwner: 紹維亞
+products: SG_CAMPAIGN/STANDARD
 audience: 頻道
-content-type: reference
-topic-tags: 登陸頁面
-discoiquuid: 1a24504e-7f9d-4297-b39 e-c5 f085 b0 f388
+content-type: 參考
+topic-tags: 著陸頁面
+discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6dd0c32259d942a0fb790f345cd13800a57e814a
+source-git-commit: e89bd70459c92ba9706bbec5c488cbb340b14651
 
 ---
 
 
-# Setting up a double opt-in process{#setting-up-a-double-opt-in-process}
+# 設定雙重選擇加入程式{#setting-up-a-double-opt-in-process}
 
-## About double opt-in {#about-double-opt-in}
+## 關於雙重選擇加入 {#about-double-opt-in}
 
-傳送電子郵件時，需要使用雙加入機制。它可保護平台不會出現錯誤或無效的電子郵件地址、垃圾郵件，並防止可能出現垃圾郵件抱怨。
+傳送電子郵件時，最佳做法是雙重加入機制。 它可保護平台免受錯誤或無效的電子郵件地址、垃圾郵件機器人，並防止可能的垃圾郵件投訴。
 
-原則是傳送電子郵件以確認訪客的合約，然後將其儲存為「促銷活動」資料庫中的「個人檔案」：訪客會填寫線上登陸頁面，然後收到電子郵件，並必須按一下確認連結中的，以完成訂閱。
+原則是先傳送電子郵件確認訪客的同意，再將其儲存為「描述檔」至您的促銷活動資料庫：訪客填寫線上登陸頁面，接著收到電子郵件，必須按一下確認連結才能完成訂閱。
 
 ![](assets/optin_mechanism.png)
 
-若要設定此選項，您必須：
+若要設定此設定，您必須：
 
-1. 建立和發佈登陸頁面，讓訪客可以註冊和訂閱。此登陸頁面將可從網站取得。Visitors who fill in and submit this landing page will be stored in the database but ‘blacklisted', in order not to receive any communication before the final validation (see [Managing blacklisting in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
-1. 使用確認連結建立並自動傳送選擇加入電子郵件。此電子郵件將會鎖定提交著陸頁面的人口族群。它會以允許目標「退出」設定檔的電子郵件範本為基礎。
-1. 重新導向至確認登陸頁面。此最終登陸頁面將提議確認按鈕：訪客必須按一下它。您可以設計歡迎電子郵件，在確認完成時傳送，例如新增電子郵件中的特殊選件給新收件者。
+1. 建立並發佈著陸頁面，讓訪客可以註冊並訂閱。 此著陸頁面可從網站取得。 填寫並送出此著陸頁面的訪客會儲存在資料庫中，但是會「列入黑名單」，以便在最終驗證之前不會收到任何通訊(請參閱「管理促銷活動中的黑名單 [](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)」)。
+1. 使用確認連結自動建立及傳送選擇加入的電子郵件。 此電子郵件將定位提交登陸頁面的訪客。 它將以電子郵件範本為基礎，可以定位「選擇退出」描述檔。
+1. 重新導向至確認登陸頁面。 此最終登陸頁面將建議一個確認按鈕：訪客必須按一下它。 您可以設計歡迎電子郵件，在確認完成時傳送，例如在電子郵件中為新收件者新增特殊選件。
 
-必須以特定順序在Adobe Campaign中設定這些步驟，才能正確啓用所有參數。
+這些步驟必須以特定順序在Adobe Campaign中設定，才能正確啟用所有參數。
 
-## Step 1: Create the confirmation landing page {#step-1--create-the-confirmation-landing-page}
+## 步驟1:建立確認登陸頁面 {#step-1--create-the-confirmation-landing-page}
 
-設定雙重加入機制的程序始於建立確認登陸頁面：當訪客點按確認電子郵件以註冊時，將會顯示此頁面。
+設定雙重選擇加入機制的程式，從建立確認登陸頁面開始：當訪客點按確認電子郵件以進行註冊時，會顯示此頁面。
 
-若要建立並設定此著陸頁面，您必須：
+若要建立及設定此著陸頁面，您必須：
 
-1. Design a [new landing page](../../channels/using/about-landing-pages.md) based on the **[!UICONTROL Profile acquisition (acquisition)]** template. Enter the label '**CONFIRMATION**'.
+1. 根據范 [本設計新的著陸](../../channels/using/about-landing-pages.md) 頁 **[!UICONTROL Profile acquisition (acquisition)]** 面。 輸入標籤「**CONFIRMATION**」。
 
-   If you need to use [services](../../audiences/using/about-subscriptions.md), you can also use the **[!UICONTROL Subscription (sub)]** template.
+   如果您需要使 [用服務](../../audiences/using/about-subscriptions.md)，也可以使用范 **[!UICONTROL Subscription (sub)]** 本。
 
-1. Edit the landing page properties and under the **[!UICONTROL Access and loading]** section, unselect the option **[!UICONTROL Authorize unidentified visitors]**, select **[!UICONTROL Preload visitor data]** (this one is not mandatory).
+1. 編輯著陸頁面屬性，並在 **[!UICONTROL Access and loading]** 區段下方取消選取選 **[!UICONTROL Authorize unidentified visitors]**&#x200B;項， **[!UICONTROL Preload visitor data]** 選取（此選項非必要）。
 
    ![](assets/optin_confirmlp_param.png)
 
-1. In the **[!UICONTROL Job]** &gt; **[!UICONTROL Additional data]** section, click **[!UICONTROL Add an element]** and enter the following context path:
+1. 在&gt;區 **[!UICONTROL Job]** 段中 **[!UICONTROL Additional data]** ，按一 **[!UICONTROL Add an element]** 下並輸入下列內容路徑：
 
    /context/profile/blackList
 
-   Set the value to **false** and click **[!UICONTROL Add]**.
+   將值設為 **false** ，然後按一 **[!UICONTROL Add]**&#x200B;下。
 
    ![](assets/optin_confirmlp_newelement.png)
 
-   此上下文會移除黑名單欄位，以便傳送電子郵件。We will see later that the first landing page was setting this field to **true** before confirmation, to prevent from sending emails to non-confirmed profiles. For more on this, see [Step 3: Create the acquisition landing page](../../channels/using/setting-up-a-double-opt-in-process.md#step-3--create-the-acquisition-landing-page).
+   此上下文會移除黑名單欄位，以便能夠傳送電子郵件。 我們稍後會看到，第一個著陸頁面在確認前將此欄位設 **為true** ，以防止傳送電子郵件至未確認的描述檔。 如需詳細資訊，請參閱 [步驟3:建立贏取登陸頁面](../../channels/using/setting-up-a-double-opt-in-process.md#step-3--create-the-acquisition-landing-page)。
 
-1. 自訂登陸頁面的內容：您可以顯示個人化資料，並將確認按鈕標籤變更為「按一下此處以確認我的訂閱」。
+1. 自訂著陸頁面的內容：例如，您可以顯示個人化資料，並將確認按鈕的標籤變更為「按一下此處確認我的訂閱」。
 
    ![](assets/optin_confirmlp_design.png)
 
-1. 調整確認頁面的內容，通知您的訂閱者已註冊。
+1. 調整確認頁面的內容，通知您的訂閱者他們已註冊。
 
    ![](assets/optin_confimlp_page2.png)
 
-1. [測試並發佈](../../channels/using/sharing-a-landing-page.md) 登陸頁面。
+1. [測試並發佈](../../channels/using/sharing-a-landing-page.md) 著陸頁面。
 
-## Step 2: Create the confirmation email {#step-2--create-the-confirmation-email}
+## 步驟2:建立確認電子郵件 {#step-2--create-the-confirmation-email}
 
-在建立確認著陸頁面後，您可以設計確認電子郵件：此電子郵件會自動傳送給驗證贏取登陸頁面的每位訪客。此驗證視為事件，電子郵件則是交易訊息，連結至特定的打字規則，可鎖定退出人口族群。
+建立確認登陸頁面後，您就可以設計確認電子郵件：此電子郵件會自動傳送給驗證贏取登陸頁面的每位訪客。 此驗證會視為事件，而電子郵件則是交易性訊息，連結至特定的排版規則，以鎖定選擇退出人口。
 
-以下說明建立這些元素的步驟。您必須先關注它們，才能建立贏取著陸頁面本身，因為此電子郵件範本將會被參照。
+建立這些元素的步驟如下所述。 在建立贏取登陸頁面之前，您必須先追蹤這些範本，因為此電子郵件範本將會在其中參照。
 
-### Create the event {#create-the-event}
+### 建立事件 {#create-the-event}
 
-The confirmation email is a [transactional message](../../channels/using/about-transactional-messaging.md) as it reacts to an event: the validation of the form. 您必須先建立事件，然後建立交易訊息的範本。
+確認電子郵件是交 [易性訊息](../../channels/using/about-transactional-messaging.md) ，當它回應事件時：表單的驗證。 您必須先建立事件，然後建立交易式訊息的範本。
 
-1. Create an event, from the **[!UICONTROL Marketing plans]** &gt; **[!UICONTROL Transactional messages]** &gt; **[!UICONTROL Event configuration]** menu, accessible from the Adobe Campaign logo, and enter the label '**CONFIRM**'.
-1. Select the **[!UICONTROL Profile]** targeting dimension and click **[!UICONTROL Create]**.
+1. 從&gt; **[!UICONTROL Marketing plans]** &gt;功能表 **[!UICONTROL Transactional messages]** 建立可從Adobe Campaign標誌存取的事件，並輸入標籤「 **[!UICONTROL Event configuration]** CONFIRM ****」。
+1. 選取定位 **[!UICONTROL Profile]** 維度，然後按一下 **[!UICONTROL Create]**。
 
    ![](assets/optin_eventcreate.png)
 
-1. In the **[!UICONTROL Fields]** section, click **[!UICONTROL Create element]** and add the **[!UICONTROL email]** in the data structure to enable reconciliation.
-1. In the **[!UICONTROL Enrichment]** section, click **[!UICONTROL Create element]** and select the target resource **[!UICONTROL Profile]**. You can then map on the **[!UICONTROL email]** in the **[!UICONTROL Join definition]** section, or any other composite reconciliation key, depending on your needs.
+1. 在該節 **[!UICONTROL Fields]** 中，單 **[!UICONTROL Create element]** 擊並添加 **[!UICONTROL email]** 資料結構中的以啟用協調。
+1. 在該部 **[!UICONTROL Enrichment]** 分中，單 **[!UICONTROL Create element]** 擊並選擇 **[!UICONTROL Profile]** 目標資源。 然後，您可以根據 **[!UICONTROL email]** 您的需 **[!UICONTROL Join definition]** 求，映射區段中的欄位或任何其他複合協調鍵。
 
    ![](assets/optin_eventcreate_join.png)
 
-   If you need to use services, you can also add the **[!UICONTROL serviceName]**.
+   如果您需要使用服務，請在欄位 **[!UICONTROL Service]** 上新增目標資源和 **[!UICONTROL serviceName]** 地圖。 有關此方面的更多資訊，請參閱。
 
-1. Select **[!UICONTROL Profile]** as the **[!UICONTROL Targeting enrichment]** in the dropdown list.
-1. Click **[!UICONTROL Publish]** to publish the event.
+1. 在下 **[!UICONTROL Profile]** 拉式清 **[!UICONTROL Targeting enrichment]** 單中選擇作為。
+1. 按一 **[!UICONTROL Publish]** 下以發佈事件。
 
-事件已就緒。您現在可以設計電子郵件範本。This template must include a link to the **CONFIRMATION** landing page created before. For more on this, see [Design the confirmation message](../../channels/using/setting-up-a-double-opt-in-process.md#design-the-confirmation-message).
+活動已就緒。 您現在可以設計電子郵件範本。 此範本必須包含先前建立之 **CONFIRMATION** 著陸頁面的連結。 有關詳細資訊，請參 [閱設計確認消息](../../channels/using/setting-up-a-double-opt-in-process.md#design-the-confirmation-message)。
 
-### Create the typology rule {#create-the-typology-rule}
+### 建立排版規則 {#create-the-typology-rule}
 
-You need to create a specific [typology rule](../../administration/using/about-typology-rules.md), by duplicating an out-of-box one. 此規則允許傳送訊息給未確認其合約且仍列入黑名單的個人檔案。依預設，打字規則排除退出(即列入黑名單的)描述檔。若要建立此類型學規則，請遵循下列步驟：
+您需要建立特定 [的排版規則](../../administration/using/about-typology-rules.md)，方法是複製現成可用的規則。 此規則將允許傳送訊息給尚未確認其同意但仍列入黑名單的設定檔。 依預設，排版規則會排除選擇退出（即黑名單）的設定檔。 若要建立此類型規則，請依照下列步驟進行：
 
-1. From the Adobe Campaign logo, select **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Typologies]** and click **[!UICONTROL Typologies]**.
-1. Duplicate the out-of-box typology **[!UICONTROL Transactional message on profile (mcTypologyProfile)]**.
-1. Once duplication confirmed, edit the new typology and enter the label **TYPOLOGY_PROFILE**.
-1. Remove the **blacklisted address** rule.
+1. 從Adobe Campaign標誌中，選取 **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Typologies]** 然後按一下 **[!UICONTROL Typologies]**。
+1. 複製現成可用的印刷樣式 **[!UICONTROL Transactional message on profile (mcTypologyProfile)]**。
+1. 複製確認後，請編輯新的類型學，並輸入 **PROFILE標籤**。
+1. 移除黑名單 **地址規則** 。
 1. Click **[!UICONTROL Save]**.
 
-此類型學現在可以與確認電子郵件相關聯。
+此類型現在可與確認電子郵件關聯。
 
-### Design the confirmation message {#design-the-confirmation-message}
+### 設計確認訊息 {#design-the-confirmation-message}
 
-確認電子郵件是根據過去建立之事件的交易訊息。請依照下列步驟建立此訊息：
+確認電子郵件是根據先前建立的事件進行交易的訊息。 請依照下列步驟建立此訊息：
 
-1. From the Adobe Campaign logo, select **[!UICONTROL Marketing plans]** &gt; **[!UICONTROL Transactional messages]** and click **[!UICONTROL Transactional messages]**.
-1. Edit the **CONFIRM** email template and personalize it. 您可以上傳現有內容或使用立即可用的範本。
-1. Add a link to the **CONFIRMATION** landing page, and click **[!UICONTROL Confirm]** to save modifications.
+1. 從Adobe Campaign標誌中，選取 **[!UICONTROL Marketing plans]** &gt;並 **[!UICONTROL Transactional messages]** 按一下 **[!UICONTROL Transactional messages]**。
+1. 編輯 **CONFIRM** email範本並加以個人化。 您可以上傳現有內容或使用現成範本。
+1. 新增連結至「確 **認** 」登陸頁面，然後按一 **[!UICONTROL Confirm]** 下以儲存修改。
 
    ![](assets/optin_email_selectlp.png)
 
-1. 編輯電子郵件範本屬性。In the **[!UICONTROL Advanced parameters]** &gt; **[!UICONTROL Preparation]** section, select the **TYPOLOGY_PROFILE** typology created before.
-1. 儲存並發佈交易訊息。
+1. 編輯電子郵件範本屬性。 在「 **[!UICONTROL Advanced parameters]** &gt; 」部 **[!UICONTROL Preparation]** 分中，選擇 **以前建立的PROFILE** 類型學。
+1. 儲存並發佈交易式訊息。
 
-## Step 3: Create the acquisition landing page {#step-3--create-the-acquisition-landing-page}
+## 步驟3:建立贏取登陸頁面 {#step-3--create-the-acquisition-landing-page}
 
-您必須建立初始贏取著陸頁面：此op-in表格將會發佈在您的網站上。
+您必須建立初始贏取登陸頁面：此選擇加入表格將會發佈在您的網站上。
 
-若要建立並設定此著陸頁面，您必須：
+若要建立及設定此著陸頁面，您必須：
 
-1. Design a [new landing page](../../channels/using/about-landing-pages.md) based on the **[!UICONTROL Profile acquisition (acquisition)]** template. Enter the label '**ACQUISITION**'.
-1. Edit the landing page properties: in the **[!UICONTROL Job]** &gt; **[!UICONTROL Additional data]** section, click **[!UICONTROL Add an element]** and enter the following context path:
+1. 根據范 [本設計新的著陸](../../channels/using/about-landing-pages.md) 頁 **[!UICONTROL Profile acquisition (acquisition)]** 面。 輸入標籤「**ACQUISITION**」。
+1. 編輯著陸頁面屬性：在 **[!UICONTROL Job]** &gt;區 **[!UICONTROL Additional data]** 段中，按一 **[!UICONTROL Add an element]** 下並輸入下列內容路徑：
 
    /context/profile/blackList
 
-   and set the value to **true**.
+   並將值設為 **true**。
 
-   強制黑名單並避免傳送訊息給未確認其合約的訪客。The validation of the CONFIRMATION landing page will set this field to **false** after confirmation. For more on this, see [Step 1: Create the confirmation landing page](../../channels/using/setting-up-a-double-opt-in-process.md#step-1--create-the-confirmation-landing-page).
+   這是強制強制黑名單並避免傳送訊息給未確認同意的訪客。 驗證CONFIRMATION著陸頁面後，會在確認後將此欄位設 **為** false。 如需詳細資訊，請參閱 [步驟1:建立確認登陸頁面](../../channels/using/setting-up-a-double-opt-in-process.md#step-1--create-the-confirmation-landing-page)。
 
-1. In the **[!UICONTROL Job]** &gt; **[!UICONTROL Specific actions]** section, select the option **[!UICONTROL Start sending messages]**.
-1. In the associated drop-down list, choose the **CONFIRM** transactional message template you created.
+1. 在&gt;區 **[!UICONTROL Job]** 段 **[!UICONTROL Specific actions]** 中，選取選項 **[!UICONTROL Start sending messages]**。
+1. 在關聯的下拉清單中，選擇您建立的 **CONFIRM** 事務性消息模板。
 
    ![](assets/optin_acquisition_startoption.png)
 
-1. 根據您的品牌和您需要取得的資料，自訂登陸頁面的內容。You can display personalized data and change the label of the confirmation button to **Confirm my subscription** for example.
+1. 根據您的品牌和您需要取得的資料，自訂登陸頁面的內容。 例如，您可以顯示個人化資料，並將確認按鈕的標籤變更 **為「確認我的訂閱** 」。
 
    ![](assets/optin_acquisition_page1.png)
 
-1. 自訂確認頁面以通知新訂閱者，他必須驗證訂閱。
+1. 自訂確認頁面，通知新訂閱者他需要驗證訂閱。
 
    ![](assets/optin_acquisition_page2.png)
 
-1. [測試並發佈](../../channels/using/sharing-a-landing-page.md) 登陸頁面。
+1. [測試並發佈](../../channels/using/sharing-a-landing-page.md) 著陸頁面。
 
-現在已設定雙重加入機制。You can run and test the procedure from end to end, starting from the public URL of this **[!UICONTROL ACQUISITION]** landing page. 此URL會顯示在著陸頁面控制面板中。
+現在已設定雙重加入機制。 您可以從此登陸頁面的公用URL開始，從頭到尾執行並測試程 **[!UICONTROL ACQUISITION]** 序。 此URL會顯示在著陸頁面控制面板中。

@@ -15,7 +15,7 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
+source-git-commit: 443b374506d388009fbd43108577001d35f406ee
 
 ---
 
@@ -83,21 +83,27 @@ source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
 
 要在事務性消息中設定個人化，請執行以下步驟：
 
-1. 按一下 **[!UICONTROL Content]** 區塊以修改訊息的主旨和內容。 在此範例中，匯入包含影像、樣式表和HTML檔案的HTML範本。 匯入HTML範本會顯示在「載入現 [有內容」區段中](../../designing/using/using-existing-content.md) 。
+1. 按一下 **[!UICONTROL Content]** 區塊以修改訊息的主旨和內容。 在此範例中，選取任何包含影像和文字的範本。 如需電子郵件內容範本的詳細資訊，請參閱「使 [用範本設計」](../../designing/using/using-reusable-content.md#designing-templates)。
 
    ![](assets/message-center_6.png)
 
-1. 輸入您的訊息內容。 在此範例中，我們新增了三個個人化欄位：姓氏、咨詢最後產品、購物車總金額。 放棄購物車的連結是外部URL的連結，會將訪客重新導向至其購物車。 Adobe Campaign不會管理此參數。
+1. 新增主旨並編輯訊息內容以符合您的需求。
 
-   若要新增您在建立事件時定義的欄位(請參閱 [設定事件](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message))，請在訊息內容中插入個人化欄位。 您可以選擇&gt;以尋找欄 **[!UICONTROL Transactional event]** 位 **[!UICONTROL Event context]**。
+   >[注意]
+   >
+   >放棄購物車的連結是外部URL的連結，會將訪客重新導向至其購物車。 Adobe Campaign不會管理此參數。
+
+1. 在此範例中，您要新增建立事件時所定義的三 [個欄位](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message):名字、最後咨詢的產品、購物車總量。 若要這麼做，請 [在訊息內容中插入個人化欄位](../../designing/using/personalization.md#inserting-a-personalization-field) 。
+
+1. 瀏覽至&gt; **[!UICONTROL Context]****[!UICONTROL Real-time event]** &gt;的欄位 **[!UICONTROL Event context]**。
 
    ![](assets/message-center_7.png)
 
-1. 若要豐富訊息的內容，請從您連結事件的表格中選取欄位，以新增欄位。 在我們的示例中，選擇 **[!UICONTROL Title (salutation)]** 表中的字 **[!UICONTROL Profile]** 段。
+1. 若要豐富訊息的內容，請從您連結事件的表格中選取欄位，以新增欄位。 在我們的範例中，選取 **[!UICONTROL Title (salutation)]** 表格中的欄 **[!UICONTROL Profile]** 位， **[!UICONTROL Context]** 透過&gt; **[!UICONTROL Real-time event]** &gt; **[!UICONTROL Event context]**。
 
    ![](assets/message-center_7-enrichment.png)
 
-   插入個人化欄位的步驟在「插入個人化欄 [位」區段中詳述](../../designing/using/personalization.md#inserting-a-personalization-field) 。
+1. 插入所需的所有欄位。
 
    ![](assets/message-center_8.png)
 
@@ -119,7 +125,7 @@ source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
 
 要在事務性消息中添加放棄的產品清單，請遵循以下步驟。
 
-您也可以觀看一組影片，說明在交易式電子郵件中設定產品清單所需的步驟。 如需詳細資訊，請參 [閱本頁](https://helpx.adobe.com/campaign/kt/acs/using/acs-product-listings-in-transactional-emails-feature-video-setup.html)。
+您也可以觀看一組影片，說明在交易式電子郵件中設定產品清單所需的步驟。 For more on this, see [this page](https://helpx.adobe.com/campaign/kt/acs/using/acs-product-listings-in-transactional-emails-feature-video-setup.html).
 
 >[!NOTE]
 >

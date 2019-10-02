@@ -14,7 +14,7 @@ discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: d9357481a567cb0d11eea43211abf08a6dcb07d6
 
 ---
 
@@ -45,7 +45,7 @@ source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 差異列於下方。
 
 1. 轉至為編輯而建立的交易訊息。
-1. 在事務性消息中，按一下該 **[!UICONTROL Content]** 部分。 除了事務性範本外，您也可以選擇預設的電子郵件範本，目標為 **[!UICONTROL Profile]**。
+1. 在事務性消息中，按一下該 **[!UICONTROL Content]** 部分。 除了交易範本外，您也可以選擇任何電子郵件範本定位 **[!UICONTROL Profile]**。
 
    ![](assets/message-center_marketing_templates.png)
 

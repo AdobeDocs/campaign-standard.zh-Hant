@@ -14,13 +14,13 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 62992dbedea7209ca26ae9e1a475a0c87405a4d9
+source-git-commit: 8b85bbad7458286252a2900ce730288f6e52442e
 
 ---
 
 # 測試主題 {#testing-a-subject}
 
-要測試您的主題行，請執行以下操作：
+若要測試您的主旨行，請遵循下列步驟：
 
 1. 建立或開啟您的電子郵件。
 1. 開啟內容，並在對應的輸入欄位中輸入電子郵件的主旨。

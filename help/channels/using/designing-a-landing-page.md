@@ -15,7 +15,7 @@ context-tags: landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
+source-git-commit: aeb0e7bc6765b23042fafd34fb360d4e3046adcd
 
 ---
 
@@ -38,7 +38,7 @@ source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
 
 ## 對應表單欄位 {#mapping-form-fields}
 
-輸入欄位可用來儲存或更新促銷活動資料庫中的資料。 為此，您需要將資料庫欄位與輸入區域、單選按鈕或複選框類型塊連結起來。 要執行此操作：
+輸入欄位可用來儲存或更新促銷活動資料庫中的資料。 為此，您需要將資料庫欄位與輸入區域、單選按鈕或複選框類型塊連結起來。 操作步驟：
 
 1. 在著陸頁面中選取區塊。
 1. 在浮動視 **[!UICONTROL Form data]** 窗中完成部件。
@@ -53,7 +53,7 @@ source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
    >
    >著陸頁面只能與描述檔 **對應**。
 
-1. 定義欄位類型，方法是選擇(例如 **[!UICONTROL Text]**, **[!UICONTROL Number]**&#x200B;或 **[!UICONTROL Date]** 在選擇區 **[!UICONTROL HTML type of the field]** 域中)。
+1. 通過選擇（例如，或）選 **[!UICONTROL Text]**&#x200B;擇 **[!UICONTROL Number]**&#x200B;選 **[!UICONTROL Date]** 擇欄位 **[!UICONTROL HTML type of the field]** 類型。
 
 >[!NOTE]
 >
@@ -61,14 +61,14 @@ source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
 
 ## 提交表格 {#submitting-the-form}
 
-您可以選取訪客點按提交按鈕時要執行的動作。 要執行此操作：
+您可以選取訪客點按提交按鈕時要執行的動作。 操作步驟：
 
 1. 選取著陸頁面的送出按鈕。
 1. 在左面板的下拉式清單中選取動作。 可能的動作包括： **[!UICONTROL Refresh]** （要重新整理頁面） **[!UICONTROL Next page]** 和（要顯示確認頁面）。
 
    ![](assets/editing_lp_content_5.png)
 
-此外，您還可以變更按鈕的標籤或設定特定連結。 要執行此操作：
+此外，您還可以變更按鈕的標籤或設定特定連結。 操作步驟：
 
 1. 選擇提交按鈕。
 1. 按一下左 ![](assets/lp_link_properties.png) 側面板中的按鈕。
@@ -98,7 +98,7 @@ source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
 
 ### 確認著陸頁面提交 {#confirm-a-landing-page-submission}
 
-當訪客提交著陸頁面時，您可以設定觸發的動作。 要執行此操作：
+當訪客提交著陸頁面時，您可以設定觸發的動作。 操作步驟：
 
 1. 編輯透過著陸頁面控制面板中 ![](assets/edit_darkgrey-24px.png) 的圖示存取的著陸頁面屬性，並顯示 **[!UICONTROL Job]** 參數。
 
@@ -114,13 +114,13 @@ source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
 
 ## 設定權限和預先載入資料 {#setting-permissions-and-pre-loading-data}
 
-登陸頁面的存取權可限制為已識別的訪客，例如來自促銷活動所傳送訊息中的連結。 在此情況下，您可以在著陸頁面中預先載入其資料。 要執行此操作：
+登陸頁面的存取權可限制為已識別的訪客，例如來自促銷活動所傳送訊息中的連結。 在此情況下，您可以在著陸頁面中預先載入其資料。 操作步驟：
 
 1. 編輯透過著陸頁面控制面板中 ![](assets/edit_darkgrey-24px.png) 的圖示存取的著陸頁面屬性，並顯示 **[!UICONTROL Access & loading]** 參數。
 
    ![](assets/lp_edit_properties_button.png)
 
-1. 選擇 **[!UICONTROL Preload visitor data]**。
+1. Select **[!UICONTROL Preload visitor data]**.
 
    如果頁面的訪客與資料庫中的描述檔相對應，則其資料會顯示在與資料庫資料對應的表單欄位中，而著陸頁面的個人化元素也會納入考量。
 

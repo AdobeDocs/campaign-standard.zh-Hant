@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: 最終用戶
 user-guide-title: Adobe Campaign standard說明
 translation-type: tm+mt
-source-git-commit: 48613d46724800463c0559f6d12d8eec9dc89018
+source-git-commit: 9d16dff7667cafdaa23f9ff5fdda693803993d7f
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 48613d46724800463c0559f6d12d8eec9dc89018
    + [發行說明2015-2016](rn/using/release-notes-2015-2016.md)
    + [檔案更新](rn/using/documentation-updates.md)
 + 快速入門 {#getting-started}
-   + 關於Adobe Campaign {#about-adobe-campaign}
+   + About Adobe Campaign {#about-adobe-campaign}
       + [宣傳協調](start/using/campaign-orchestration.md)
       + [細分與定位](start/using/segmentation-and-targeting.md)
       + [動態和個人化內容](start/using/dynamic-and-personalized-content.md)
@@ -36,21 +36,21 @@ source-git-commit: 48613d46724800463c0559f6d12d8eec9dc89018
       + [時間軸](start/using/timeline.md)
    + 管理範本 {#managing-templates}
       + [關於範本](start/using/about-templates.md)
-      + [Creating a new template](start/using/creating-a-new-template.md)
-      + [Creating a multilingual template](start/using/creating-a-multilingual-template.md)
-      + [Using a template](start/using/using-a-template.md)
-   + Tutorials {#tutorials}
-      + [Step-by-step guides](start/using/step-by-step-guides.md)
-      + [How-to videos](start/using/how-to-videos.md)
-+ Profiles and audiences {#profiles-and-audiences}
-   + [About profiles and audiences](audiences/using/about-profiles-and-audiences.md)
-   + Managing profiles {#managing-profiles}
-      + [About profiles](audiences/using/about-profiles.md)
-      + [Creating profiles](audiences/using/creating-profiles.md)
-      + [Editing profiles](audiences/using/editing-profiles.md)
-      + [Integrated customer profile](audiences/using/integrated-customer-profile.md)
-      + [Active profiles](audiences/using/active-profiles.md)
-   + Managing audiences {#managing-audiences}
+      + [建立新範本](start/using/creating-a-new-template.md)
+      + [建立多語言範本](start/using/creating-a-multilingual-template.md)
+      + [使用範本](start/using/using-a-template.md)
+   + 教學課程 {#tutorials}
+      + [逐步指南](start/using/step-by-step-guides.md)
+      + [操作說明短片](start/using/how-to-videos.md)
++ 個人檔案與受眾 {#profiles-and-audiences}
+   + [關於個人檔案和觀眾](audiences/using/about-profiles-and-audiences.md)
+   + 管理用戶檔案 {#managing-profiles}
+      + [關於用戶檔案](audiences/using/about-profiles.md)
+      + [建立描述檔](audiences/using/creating-profiles.md)
+      + [編輯設定檔](audiences/using/editing-profiles.md)
+      + [經整合的客戶用戶檔案](audiences/using/integrated-customer-profile.md)
+      + [有效用戶檔案](audiences/using/active-profiles.md)
+   + 管理觀眾 {#managing-audiences}
       + [關於觀眾](audiences/using/about-audiences.md)
       + [建立觀眾](audiences/using/creating-audiences.md)
       + [在訊息中選取對象](audiences/using/selecting-an-audience-in-a-message.md)
@@ -59,6 +59,7 @@ source-git-commit: 48613d46724800463c0559f6d12d8eec9dc89018
       + [建立服務](audiences/using/creating-a-service.md)
       + [推廣服務](audiences/using/promoting-a-service.md)
       + [監控訂閱](audiences/using/monitoring-subscriptions.md)
+      + [確認服務訂閱](audiences/using/confirming-subscription-to-a-service.md)
    + 瞭解選擇加入和選擇退出程式 {#understanding-opt-in-and-opt-out-processes}
       + [關於促銷活動中的選擇加入和選擇退出](audiences/using/about-opt-in-and-opt-out-in-campaign.md)
       + [管理促銷活動中的選擇加入和選擇退出](audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
@@ -81,23 +82,23 @@ source-git-commit: 48613d46724800463c0559f6d12d8eec9dc89018
       + [管理傳入的SMS](channels/using/managing-incoming-sms.md)
       + [關於簡訊和推播內容設計](channels/using/about-sms-and-push-content-design.md)
       + [SMS和推播內容編輯器介面](channels/using/sms-and-push-content-editor-interface.md)
-      + [Defining dynamic text](channels/using/defining-dynamic-text.md)
-   + Push notifications {#push-notifications}
-      + [About push notifications](channels/using/about-push-notifications.md)
-      + [Preparing and sending a push notification](channels/using/preparing-and-sending-a-push-notification.md)
-      + [Customizing a push notification](channels/using/customizing-a-push-notification.md)
-      + [Creating a multilingual push notification](channels/using/creating-a-multilingual-push-notification.md)
-      + [Creating and updating profile information based on mobile application data](channels/using/updating-profile-with-mobile-app-data.md)
-   + In-App messaging {#in-app-messaging}
-      + [About In-App messaging](channels/using/about-in-app-messaging.md)
-      + [Preparing and sending an In-App message](channels/using/preparing-and-sending-an-in-app-message.md)
-      + [Customizing an In-App message](channels/using/customizing-an-in-app-message.md)
+      + [定義動態文字](channels/using/defining-dynamic-text.md)
+   + 推播通知 {#push-notifications}
+      + [關於推播通知](channels/using/about-push-notifications.md)
+      + [準備和傳送推播通知](channels/using/preparing-and-sending-a-push-notification.md)
+      + [自訂推播通知](channels/using/customizing-a-push-notification.md)
+      + [建立多語言推播通知](channels/using/creating-a-multilingual-push-notification.md)
+      + [基於移動應用程式資料建立和更新配置檔案資訊](channels/using/updating-profile-with-mobile-app-data.md)
+   + 應用程式內訊息 {#in-app-messaging}
+      + [關於應用程式內訊息](channels/using/about-in-app-messaging.md)
+      + [準備和傳送應用程式內訊息](channels/using/preparing-and-sending-an-in-app-message.md)
+      + [自訂應用程式內訊息](channels/using/customizing-an-in-app-message.md)
    + 直接郵件 {#direct-mail}
-      + [About direct mail](channels/using/about-direct-mail.md)
-      + [Return to sender](channels/using/return-to-sender.md)
-      + [Creating the direct mail](channels/using/creating-the-direct-mail.md)
+      + [關於直接郵件](channels/using/about-direct-mail.md)
+      + [返回發件人](channels/using/return-to-sender.md)
+      + [建立直接郵件](channels/using/creating-the-direct-mail.md)
       + [定義直接郵件對象](channels/using/defining-the-direct-mail-audience.md)
-      + [Defining the direct mail content](channels/using/defining-the-direct-mail-content.md)
+      + [定義直接郵件內容](channels/using/defining-the-direct-mail-content.md)
       + [工作流中的直接郵件示例](channels/using/example-of-direct-mail-in-a-workflow.md)
    + 交易式訊息 {#transactional-messaging}
       + [關於交易式訊息](channels/using/about-transactional-messaging.md)
@@ -107,10 +108,10 @@ source-git-commit: 48613d46724800463c0559f6d12d8eec9dc89018
       + [後續訊息](channels/using/follow-up-messages.md)
    + 著陸頁面 {#landing-pages}
       + [關於著陸頁面](channels/using/about-landing-pages.md)
-      + [Landing page limitations](channels/using/landing-page-limitations.md)
-      + [Designing a landing page](channels/using/designing-a-landing-page.md)
-      + [Sharing a landing page](channels/using/sharing-a-landing-page.md)
-      + [Data storage and reconciliation](channels/using/data-storage-and-reconciliation.md)
+      + [著陸頁面限制](channels/using/landing-page-limitations.md)
+      + [設計著陸頁面](channels/using/designing-a-landing-page.md)
+      + [共用著陸頁面](channels/using/sharing-a-landing-page.md)
+      + [資料儲存與協調](channels/using/data-storage-and-reconciliation.md)
       + [設定雙重選擇加入程式](channels/using/setting-up-a-double-opt-in-process.md)
       + [關於著陸頁面內容設計](channels/using/about-landing-page-content-design.md)
       + [著陸頁面內容編輯器介面](channels/using/landing-page-content-editor-interface.md)
@@ -122,8 +123,8 @@ source-git-commit: 48613d46724800463c0559f6d12d8eec9dc89018
    + [快速入門](designing/using/quick-start.md)
    + [使用與建議](designing/using/overview.md)
    + [定義主旨行和傳送者](designing/using/subject-line.md)
-   + [Designing emails from scratch](designing/using/designing-from-scratch.md)
-   + [Designing emails using existing content](designing/using/using-existing-content.md)
+   + [從頭設計電子郵件](designing/using/designing-from-scratch.md)
+   + [使用現有內容設計電子郵件](designing/using/using-existing-content.md)
    + [使用可重複使用的內容設計電子郵件](designing/using/using-reusable-content.md)
    + [多解決方案電子郵件設計](designing/using/using-integrations.md)
    + [個人化](designing/using/personalization.md)
@@ -137,6 +138,7 @@ source-git-commit: 48613d46724800463c0559f6d12d8eec9dc89018
       + [預覽訊息](sending/using/previewing-messages.md)
       + [準備傳送](sending/using/preparing-the-send.md)
       + [管理測試設定檔和傳送校樣](sending/using/managing-test-profiles-and-sending-proofs.md)
+      + [測試電子郵件的主旨行](sending/using/testing-subject-line-email.md)
       + [電子郵件轉換](sending/using/email-rendering.md)
    + 排程訊息 {#sheduling-messages}
       + [關於調度消息](sending/using/about-scheduling-messages.md)
@@ -233,7 +235,7 @@ source-git-commit: 48613d46724800463c0559f6d12d8eec9dc89018
       + [區段](automating/using/segmentation.md)
       + [閱讀觀眾](automating/using/read-audience.md)
       + [儲存觀眾](automating/using/save-audience.md)
-      + [重複資料消除](automating/using/deduplication.md)
+      + [重複資料刪除](automating/using/deduplication.md)
       + [濃縮](automating/using/enrichment.md)
    + 執行活動 {#execution-activities}
       + [關於執行活動](automating/using/about-execution-activities.md)
@@ -256,7 +258,7 @@ source-git-commit: 48613d46724800463c0559f6d12d8eec9dc89018
       + [更新資料](automating/using/update-data.md)
       + [載入檔案](automating/using/load-file.md)
       + [傳輸檔案](automating/using/transfer-file.md)
-      + [協調](automating/using/reconciliation.md)
+      + [調解](automating/using/reconciliation.md)
       + [擷取檔案](automating/using/extract-file.md)
       + [訂閱服務](automating/using/subscription-services.md)
       + [外部API](automating/using/external-api.md)

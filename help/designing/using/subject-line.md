@@ -1,63 +1,63 @@
 ---
-title: 定義電子郵件的主旨行和發件人
-seo-title: 定義電子郵件的主旨行和發件人
-description: 定義電子郵件的主旨行和發件人
-seo-description: 瞭解如何在電子郵件設計工具中定義主旨行和電子郵件寄件者。
-page-status-flag: 從未激活
+title: Defining the subject line and the sender of an email
+seo-title: Defining the subject line and the sender of an email
+description: Defining the subject line and the sender of an email
+seo-description: Discover how to define the subject line and the sender of an email in the Email Designer.
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 設計
+audience: designing
 content-type: 參考
-topic-tags: 編輯——電子郵件——內容
+topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0cf4807fc3d617b0c5ca33705b6344d1f3994ab3
+source-git-commit: 5847c89b97ede8b03e75d1d90f31c88ed5c8a84e
 
 ---
 
 
 # 定義電子郵件的主旨行和發件人{#defining-the-subject-line-of-an-email}
 
-留言主體是準備和發送留言的必備主題。
+The message subject is mandatory to prepare and send the message.
 
 >[!NOTE]
 >
 >如果主旨行為空白，則訊息控制面板和電子郵件設計工具中會顯示警告。
 
-To configure the email subject, go the  tab of the Email Designer home page (accessible through the home icon) and fill in the  section.**[!UICONTROL Properties]****[!UICONTROL Subject]**
+若要設定電子郵件主旨，請 **[!UICONTROL Properties]** 前往「電子郵件設計人員」首頁的標籤（可透過首頁圖示存取），並填寫 **[!UICONTROL Subject]** 章節。
 
 **要定義電子郵件的主題行，請執行以下操作**:
 
-1. Create an email.
-1. Close homepage.
-1. Go the  tab of the Email Designer home page (accessible through the home icon) and fill in the  section.**[!UICONTROL Properties]****[!UICONTROL Subject]**
+1. 建立電子郵件。
+1. 關閉首頁。
+1. 轉至「電 **[!UICONTROL Properties]** 子郵件設計器」首頁的標籤（可透過首頁圖示存取）並填寫 **[!UICONTROL Subject]** 章節。
 
 ![](assets/email_designer_subject.png)
 
-You can also add personalization fields, content blocks and dynamic content to the subject line by clicking the corresponding icons.
+您也可以按一下對應的圖示，將個人化欄位、內容區塊和動態內容新增至主題行。
 
-**Related topics:**
+**相關主題：**
 
-* [Inserting a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field)
-* [Adding a content block](../../designing/using/personalization.md#adding-a-content-block)
-* [Defining dynamic content in an email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
+* [插入個人化欄位](../../designing/using/personalization.md#inserting-a-personalization-field)
+* [新增內容區塊](../../designing/using/personalization.md#adding-a-content-block)
+* [定義電子郵件中的動態內容](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
 
-## Predictive subject line {#predictive-subject-line}
+## 預測性主體行 {#predictive-subject-line}
 
-When editing an email, you can try out different subject lines and get an estimation of its open rate before you send it.
+在編輯電子郵件時，您可以嘗試不同的主旨行，並在傳送電子郵件前先估計其開放率。
 
-This feature is disabled by default. 當匯入第一個模型時，就會啟用它。 A model is the result of training data sets specific to a given industry. Models allow the system to predict the open rate of the email when a new subject line is submitted.
+此功能預設為停用。 當匯入第一個模型時，就會啟用它。 模型是特定產業的訓練資料集的結果。 模型可讓系統在提交新主旨行時預測電子郵件的開放率。
 
 >[!NOTE]
 >
->此功能適用於電子郵件訊息和僅包含英文內容的資料庫。 The trained model will be inconsistent and will lead to erroneous results if your instance contains emails in other languages. 只有在實例上已有模型可用時，才會顯示允許測試主題的選項。
+>此功能適用於電子郵件訊息和僅包含英文內容的資料庫。 如果您的例項包含其他語言的電子郵件，則訓練好的模型會不一致，並導致錯誤的結果。 只有在實例上已有模型可用時，才會顯示允許測試主題的選項。
 
 **相關主題**
 
-* [測試主題行](../../sending/using/testing-subject-line-email.md)
+* [測試電子郵件的主旨行](../../sending/using/testing-subject-line-email.md)
 
 ## 電子郵件傳送者 {#email-sender}
 
@@ -65,9 +65,9 @@ This feature is disabled by default. 當匯入第一個模型時，就會啟用�
 
 ![](assets/delivery_content_edition16.png)
 
-* 該 **[!UICONTROL From: name]** 欄位允許您輸入發件人名稱。 預設情況下，預設的 **「發件人名稱** 」塊會自動輸入到欄位中。 Adobe Campaign是指電子郵件通道設定(從進階功能表， **[!UICONTROL Administration > Channels > Email > Email accounts]** 透過Adobe Campaign標誌)來指定此傳送者。
+* 該 **[!UICONTROL From: name]** 欄位允許您輸入發件人名稱。 By default, the default Sender name block is automatically entered in the field. **** Adobe Campaign是指電子郵件通道設定(從進階功能表， **[!UICONTROL Administration > Channels > Email > Email accounts]** 透過Adobe Campaign標誌)來指定此傳送者。
 
-   您可以按一下「傳送者名稱」區塊，以變更 **傳送者名稱** 。 然後，欄位會變成可編輯，您可以輸入要使用的名稱。
+   You can change the sender name by clicking the Sender name block. ****&#x200B;然後，欄位會變成可編輯，您可以輸入要使用的名稱。
 
    此欄位可以個人化。 若要這麼做，您可以按一下傳送者名稱下方的圖示，新增個人化欄位、內容區塊和動態內容。
 
@@ -81,4 +81,4 @@ This feature is disabled by default. 當匯入第一個模型時，就會啟用�
 
 * [插入個人化欄位](../../designing/using/personalization.md#inserting-a-personalization-field)
 * [新增內容區塊](../../designing/using/personalization.md#adding-a-content-block)
-* [定義電子郵件中的動態內容](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
+* [Defining dynamic content in an email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)

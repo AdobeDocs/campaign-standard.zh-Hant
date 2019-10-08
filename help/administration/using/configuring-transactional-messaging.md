@@ -14,7 +14,7 @@ discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e89bd70459c92ba9706bbec5c488cbb340b14651
+source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
 
@@ -186,7 +186,7 @@ source-git-commit: e89bd70459c92ba9706bbec5c488cbb340b14651
 
 在「交易式傳訊操作原則 [](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle) 」一節所述的範例中，您希望當客戶在購物車中購買產品之前離開您的網站時，觸發「購物車放棄」事件。 若要這麼做，您的網站網頁開發人員必須使用Adobe Campaign Standard REST API。
 
-請參閱 [REST API檔案](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#transactional-messages-api) 。
+請參閱 [REST API檔案](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#transactional-messages-api) 。
 
 ## 事務性事件特定配置 {#transactional-event-specific-configurations}
 

@@ -15,7 +15,7 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 443b374506d388009fbd43108577001d35f406ee
+source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
 
 ---
 
@@ -32,7 +32,9 @@ source-git-commit: 443b374506d388009fbd43108577001d35f406ee
 
 >[!NOTE]
 >
->要訪問事務性消息，您必須具有管理權限或顯示在( **[!UICONTROL Message Center agents]** mcExec)安全組中。 事件事務性消息不包含配置檔案資訊，因此它們與疲勞規則不相容（即使在富集了配置檔案的情況下）。 請參 [閱疲勞規則](../../administration/using/fatigue-rules.md#choosing-the-channel)。
+>要訪問事務性消息，您必須是安全組的一 **[!UICONTROL Administrators (all units)]** 部分。
+>
+>事件事務性消息不包含配置檔案資訊，因此它們與疲勞規則不相容（即使在富集了配置檔案的情況下）。 請參 [閱疲勞規則](../../administration/using/fatigue-rules.md#choosing-the-channel)。
 
 ## 在事務性消息中定義測試配置檔案 {#defining-a-test-profile-in-a-transactional-message}
 
@@ -109,7 +111,7 @@ source-git-commit: 443b374506d388009fbd43108577001d35f406ee
 
 1. 選取您為此事件定義的描述檔，以預覽訊息。
 
-   預覽訊息的步驟在「預覽訊息」區 [段中詳述](../../sending/using/preparing-the-send.md) 。
+   預覽訊息的步驟在「預覽訊息」區 [段中詳述](../../sending/using/previewing-messages.md) 。
 
    ![](assets/message-center_9.png)
 
@@ -258,7 +260,7 @@ source-git-commit: 443b374506d388009fbd43108577001d35f406ee
 
 您可以暫停發佈事務性消息， **[!UICONTROL Pause]** 例如使用按鈕修改消息中包含的資料。 因此，這些事件不會再處理，而會保留在Adobe Campaign資料庫的佇列中。
 
-佇列的事件會在REST API中定義的時段內保留(請參閱 [REST API檔案](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html))，或在觸發器事件中(如果您使用「觸發器」核心服務，請參閱 [Working with Campaign and Experience cloud觸發器](../../integrating/using/about-adobe-experience-cloud-triggers.md))。
+佇列的事件會在REST API中定義的時段內保留(請參閱 [REST API檔案](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html))，或在觸發器事件中(如果您使用「觸發器」核心服務，請參閱 [Working with Campaign and Experience cloud觸發器](../../integrating/using/about-adobe-experience-cloud-triggers.md))。
 
 ![](assets/message-center_pause.png)
 

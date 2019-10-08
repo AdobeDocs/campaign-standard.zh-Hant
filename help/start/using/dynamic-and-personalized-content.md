@@ -14,7 +14,7 @@ discoiquuid: 7cbca5fb-a99b-43ea-b629-6236cf2a5ef4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 * 插入預 [先定義的個人化區塊](../../designing/using/personalization.md#adding-a-content-block)
 * [個人化電子郵件](../../designing/using/subject-line.md) 或簡訊的傳送者。
 * [個人化電子郵件的主旨](../../designing/using/subject-line.md) ，或使用 [Predictive主旨行功能來最佳化電子郵件](../../designing/using/subject-line.md#predictive-subject-line) ,
-* 在電 [子郵件或登陸頁面](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) 中 [建立條件式內容](../../channels/using/defining-dynamic-content-in-a-landing-page.md)
+* 在電 [子郵件或登陸頁面](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) 中 [建立條件式內容](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
 * 在SMS [訊息](../../channels/using/defining-dynamic-text.md) 或推播通知中插入動態文字
 
 ![](assets/delivery_content_43.png)

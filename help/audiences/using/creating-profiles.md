@@ -2,42 +2,42 @@
 title: 建立描述檔
 seo-title: 建立描述檔
 description: 建立描述檔
-seo-description: 瞭解如何使用API、匯入功能、線上採購、自動或手動更新，建立個人檔案並收集資料。
-page-status-flag: 從未啓動
-uuid: a5f5a58a-e798-400f-8648-05dc843 d5557
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
-audience: 受眾
-content-type: reference
-topic-tags: 管理描述檔
-discoiquuid: 4ab8a984-f898-4fff-ad8 c-ed8 f95362 f96
+seo-description: 瞭解如何使用API、匯入功能、線上贏取、自動或手動更新，建立個人檔案並收集您的連絡人資料。
+page-status-flag: 從未激活
+uuid: a5f5a58a-e798-400f-8648-05dc843d5557
+contentOwner: 紹維亞
+products: SG_CAMPAIGN/STANDARD
+audience: audiences
+content-type: 參考
+topic-tags: 管理配置檔案
+discoiquuid: 4ab8a984-f898-4ff-ad8c-ed8f95362f96
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f883986392f6b739832093e0473591aa39dfcbfe
+source-git-commit: b7f1c2af4ad8c4b8632e84b6d945a9db8187b6a6
 
 ---
 
 
-# Creating profiles{#creating-profiles}
+# 建立描述檔{#creating-profiles}
 
 在Adobe Campaign中，預設會使用描述檔來定義訊息的主要目標。
 
 若要在Campaign中建立或更新描述檔，您可以：
 
-* Import a profile list from a file, via a [workflow](https://helpx.adobe.com/campaign/kt/acs/using/acs-importing-profiles-feature-video-using.html)
-* Collect data online, via [landing pages](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_CreateLandingPage.html)
-* [透過REST API大量建立](http://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
-* Synchronize profiles from [Microsoft Dynamics](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
+* 透過工作流程從檔案匯入描述檔清 [單](https://helpx.adobe.com/campaign/kt/acs/using/acs-importing-profiles-feature-video-using.html)
+* 透過登陸頁麵線上收 [集資料](../../channels/using/about-landing-pages.md)
+* 透過 [REST API大量建立](http://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
+* 從 [Microsoft Dynamics同步描述檔](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
 * 使用圖形介面畫面輸入資料，如下所述
 
-例如，若要直接在使用者介面中建立新的設定檔，請遵循下列步驟：
+例如，若要直接在使用者介面中建立新的描述檔，請遵循下列步驟：
 
-1. From the Adobe Campaign home page, click the **Customer Profiles** card or the **Profiles** tab to access the list of profiles.
+1. 從Adobe Campaign首頁，按一下「客戶 **描述檔** 」卡或「 **Profiles** 」標籤以存取描述檔清單。
 
    ![](assets/profile_creation_1.png)
 
-1. **[!UICONTROL Create]**&#x200B;然後按一下。
+1. 然後按一 **[!UICONTROL Create]**&#x200B;下。
 
    ![](assets/profile_creation.png)
 
@@ -45,13 +45,13 @@ source-git-commit: f883986392f6b739832093e0473591aa39dfcbfe
 
    ![](assets/profile_creation1.png)
 
-   * The contact information, such as first name, last name, gender, date of birth, photo, preferred language (for [multilingual emails](../../channels/using/creating-a-multilingual-email.md)) helps better personalize deliveries.
-   * The profile's **[!UICONTROL Time zone]** is used to send deliveries at the profile's time zone. For more on this, refer to this [section](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md).
-   * **[!UICONTROL Channels]** 此類別包含電子郵件地址、行動電話號碼、選擇退出資訊，可讓您瞭解設定檔易如反掌的管道。
-   * The **[!UICONTROL No longer contact]** category is updated as soon as the profile unsubscribe to a channel.
-   * **[!UICONTROL Address]** 類別包含需要填寫的郵寄地址， **[!UICONTROL Address specified]** 以及傳送 [直接郵件](../../channels/using/about-direct-mail.md) 至此描述檔的選項。If the **[!UICONTROL Address specified]** option is not checked, this profile will be excluded from every direct mail delivery.
-   * **[!UICONTROL Access authorization]** 類別會指出描述檔的組織單位( [以管理權限](../../administration/using/about-access-management.md))。See also [Partitioning profiles](../../administration/using/organizational-units.md#partitioning-profiles).
-   * **[!UICONTROL Traceability]** 類別會自動更新，其中包含建立或修改描述檔的使用者相關資訊。
+   * 聯絡資訊，例如名字、姓氏、性別、出生日期、像片、慣用語言(適用於多語系電子郵 [件](../../channels/using/creating-a-multilingual-email.md))，有助於更個人化傳遞。
+   * 描述檔的 **[!UICONTROL Time zone]** 用來在描述檔的時區傳送傳送。 For more on this, refer to this [section](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md).
+   * 此類 **[!UICONTROL Channels]** 別包含電子郵件地址、行動電話號碼、選擇退出資訊，讓您知道可以透過哪個頻道存取描述檔。
+   * 一 **[!UICONTROL No longer contact]** 旦設定檔取消訂閱頻道，類別就會更新。
+   * 類 **[!UICONTROL Address]** 別包含需要填寫的郵遞區號，以及傳送 **[!UICONTROL Address specified]** 直效郵 [件至此設定檔](../../channels/using/about-direct-mail.md) 。 如果未選 **[!UICONTROL Address specified]** 中該選項，則此配置檔案將從每個直接郵件發送中排除。
+   * 類別 **[!UICONTROL Access authorization]** 會指出描述檔的組織單位(以管 [理權限](../../administration/using/about-access-management.md))。 另請參見 [Partitioning profiles](../../administration/using/organizational-units.md#partitioning-profiles)。
+   * 類別 **[!UICONTROL Traceability]** 會自動更新，內含建立或修改描述檔之使用者的相關資訊。
 
 1. Click **[!UICONTROL Create]** to save the profile.
 
@@ -59,16 +59,16 @@ source-git-commit: f883986392f6b739832093e0473591aa39dfcbfe
 
 >[!NOTE]
 >
->您也可以使用Adobe Campaign Standard API建立描述檔建立。For more on this, refer to the [dedicated documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#creating-profiles) .
+>您也可以使用Adobe Campaign Standard API建立設定檔。 如需詳細資訊，請參閱專用 [檔案](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#creating-profiles) 。
 
-個人檔案也可以依據組織單位進行劃分。To add the organizational fields to your profiles, refer to the [Partitioning profiles](../../administration/using/organizational-units.md#partitioning-profiles) section.
+配置檔案也可以根據其組織單位進行分區。 要將組織欄位添加到配置檔案中，請參閱「分 [區配置檔案](../../administration/using/organizational-units.md#partitioning-profiles) 」部分。
 
 >[!NOTE]
 >
->偏好語言欄位是用來在傳送多語言訊息時選取語言。For more information about the multilingual messages [refer to this page](../../channels/using/creating-a-multilingual-email.md).
+>首選語言欄位用於在發送多語言消息時選擇語言。 有關多語言消息的詳細信 [息，請參閱本頁](../../channels/using/creating-a-multilingual-email.md)。
 
 **相關主題：**
 
-* [建立著陸頁面](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_CreateLandingPage.html) 逐步指南
+* [關於著陸頁面](../../channels/using/about-landing-pages.md) -逐步指南
 * [匯入描述檔](https://helpx.adobe.com/campaign/kt/acs/using/acs-importing-profiles-feature-video-using.html)
 

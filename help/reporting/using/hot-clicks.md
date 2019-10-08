@@ -15,7 +15,7 @@ context-tags: deliveryHotClicksReport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
+source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
 
 ---
 
@@ -30,7 +30,7 @@ source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
 
 ![](assets/delivery_reports_10.png)
 
-如果您為傳送建立動態內容，則可以檢視您定義之每個條件的百分比。 如需在傳送中插入條件式內容的詳細資訊，請參 [閱定義動態內容](../../channels/using/defining-dynamic-content-in-a-landing-page.md)。
+如果您為傳送建立動態內容，則可以檢視您定義之每個條件的百分比。 如需在傳送中插入條件式內容的詳細資訊，請參 [閱定義動態內容](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)。
 
 例如，假設您建立的傳送包含下列條件：
 

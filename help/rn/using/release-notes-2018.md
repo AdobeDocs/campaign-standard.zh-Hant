@@ -14,7 +14,7 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
 
@@ -159,7 +159,7 @@ source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 
 ### 改進 {#improvements-2}
 
-* API **[!UICONTROL History]** 已新增至Adobe.IO。 它可讓您存取與描述檔的行銷歷史記錄相關的資訊：觸點數、已傳送傳送、鏡像頁面URL等。 如需詳細資訊，請參閱專 [用使用案例](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#how-to-retrieve-the-mirror-page-for-a-delivery-sent-to-a-profile) 。
+* API **[!UICONTROL History]** 已新增至Adobe.IO。 它可讓您存取與描述檔的行銷歷史記錄相關的資訊：觸點數、已傳送傳送、鏡像頁面URL等。 如需詳細資訊，請參閱專 [用使用案例](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#how-to-retrieve-the-mirror-page-for-a-delivery-sent-to-a-profile) 。
 * 為了 **[!UICONTROL Database cleanup]** 確保資料庫備份的更佳效能，已優化了技術工作流程。
 * 適用於電子郵件的Creative Designer現在也提供法文和德文版。
 
@@ -169,7 +169,7 @@ source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 * 在「更 **新」中** ，功能管理員現在可以在「更新規則 **** Javascript」活動中定義要忽略的連續錯誤數目。 依預設，欄位值會設為0，這表示將忽略所有錯誤。
 * 管理單元訪問限制條件時生成的SQL已優化。
 * 現 **[!UICONTROL Update]** 在，此活動可讓您新增、更新或刪除與訂閱相關的資料（nms:appSubscriptionRcp表格）。
-* 為 **[!UICONTROL Update delivery execution]** 了優化效能，將技術工作流分為兩個工作流：- **[!UICONTROL Update delivery execution]**:更新傳送的追蹤。 預設每10分鐘啟動一次。 **[!UICONTROL Update delivery indicators]**:更新傳送的KPI，預設每小時啟動一次。 有關技術工作流程的詳細資訊，請參閱本 [節](../../administration/using/technical-workflows.md#list-of-technical-workflows)。
+* 為 **[!UICONTROL Update delivery execution]** 了優化效能，將技術工作流分為兩個工作流：- **[!UICONTROL Update delivery execution]**:更新傳送的追蹤。 預設每10分鐘啟動一次。 **[!UICONTROL Update delivery indicators]**:更新傳送的KPI，預設每小時啟動一次。 For more on technical workflows, refer to this [section](../../administration/using/technical-workflows.md#list-of-technical-workflows).
 * 傳送訊息時，區段中的狀態現 **[!UICONTROL Deployment]** 在可以有兩個值： **[!UICONTROL Sending]**:正在發送消息。 **[!UICONTROL Sending (retry)]**:重試通過正在進行中。
 * 具有角色 **[!UICONTROL Delivery preparation]** 的使用者現在可以傳送校樣。 (CAMP-24313)
 * 「 **Enable TLS over SMPP** over SMPP **」(啟用TLS over SMPP** )選項已經通過SMPP外部帳戶添加到SMS路由中。 For more on this refer to this [section](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing).
@@ -223,7 +223,7 @@ source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
   </tr> 
   <tr> 
    <td> 使用自訂描述檔資料進行動態報告<br /> </td> 
-   <td> 此功能可讓您根據在描述檔資源擴充期間建立的自訂描述檔資料來建立和管理報告。 您可以依據描述檔屬性（例如忠誠度方案、偏好的渠道等）劃分報表。<br /> 如需詳細資訊，請參閱詳 <a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">細檔案</a>。<br /> </td> 
+   <td> 此功能可讓您根據在描述檔資源擴充期間建立的自訂描述檔資料來建立和管理報告。 您可以依據描述檔屬性（例如忠誠度方案、偏好渠道等）劃分報表。<br /> 如需詳細資訊，請參閱詳 <a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">細檔案</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -305,11 +305,11 @@ source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
  <tbody> 
   <tr> 
    <td> 歐盟通用資料保護規則(GDPR)<br /> </td> 
-   <td> GDPR是歐盟(EU)的新隱私權法，協調並現代化將於2018年5月25日生效的資料保護要求。 GDPR適用於持有歐盟地區資料主體資料的Adobe Campaign客戶。<br /> 除了Adobe Campaign中已提供的隱私權功能（包括同意管理、資料保留設定和使用者角色）外，我們也將利用這個機會，以資料處理者的身分，加入其他功能，以協助您做好準備，做為特定GDPR要求的資料掌控者：<br /> 
+   <td> GDPR是歐盟(EU)的新隱私權法，協調並現代化將於2018年5月25日生效的資料保護要求。 GDPR 適用於所持有資料的主體居住於歐盟的 Adobe Campaign 客戶。<br /> 除了Adobe Campaign中已提供的隱私權功能（包括同意管理、資料保留設定和使用者角色）外，我們也將利用這個機會，以資料處理者的身分，加入其他功能，以協助您做好準備，做為特定GDPR要求的資料掌控者：<br /> 
     <ul> 
      <li> 存取權：允許資料主體接收資料掌控者所擷取的個人資料副本，可能包括儲存在Adobe Campaign中的資料。 </li> 
      <li> 刪除權：資料主體有權清除資料掌控者擷取的個人資料，可能包括Adobe Campaign中儲存的資料。 </li> 
-    </ul> 如需詳細資訊，請參閱詳 <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">細檔案</a>。<br /> </td> 
+    </ul>  如需詳細資訊，請參閱詳 <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">細檔案</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 適用於電子郵件的Creative Designer（測試版）<br /> </td> 
@@ -331,7 +331,7 @@ source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
     <ul> 
      <li> 利用自訂欄位做為協調標準，將交易訊息與描述檔相符 </li> 
      <li> 利用完整的個人檔案、服務和連結資料，進一步個人化交易訊息 </li> 
-    </ul> 如需詳細資訊，請參閱詳 <a href="../../administration/using/configuring-transactional-messaging.md">細檔案</a>。<br /> </td> 
+    </ul>  如需詳細資訊，請參閱詳 <a href="../../administration/using/configuring-transactional-messaging.md">細檔案</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -473,7 +473,7 @@ source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
      <li> 下載影像或其他媒體檔案，並將它們新增為通知的附件 </li> 
      <li> 變更通知的正文或標題文字 </li> 
      <li> 向通知添加線程標識符 </li> 
-    </ul> 有關「可用內容」和「可變內容」的詳細資訊，請參閱詳 <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">細檔案</a>。<br /><strong> 警 </strong>告：這些推播通知的更新需要客戶升級其行動應用程式。 如需詳 <a href="https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html">細資訊</a> ，請參閱此技術。<br /> </td> 
+    </ul> 有關「可用內容」和「可變內容」的詳細資訊，請參閱詳 <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">細檔案</a>。<br /><strong> 警 </strong>告：這些推播通知的更新需要客戶升級其行動應用程式。 Refer to <a href="https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html">this technote</a> for more information.<br /> </td> 
   </tr> 
   <tr> 
    <td> 時區最佳化傳送<br /> </td> 
@@ -481,7 +481,7 @@ source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
   </tr> 
   <tr> 
    <td> API Signal活動觸發<br /> </td> 
-   <td> 現在可以直接從Adobe Campaign Standard API觸發工作流程的訊號活動。<br /> 如需詳細資訊，請參閱詳細 <a class="anchorLink" href="https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#triggering-a-signal-activity" target="_blank">檔案</a> 。<br /> </td> 
+   <td> 現在可以直接從Adobe Campaign Standard API觸發工作流程的訊號活動。<br /> 如需詳細資訊，請參閱詳細 <a class="anchorLink" href="https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#triggering-a-signal-activity" target="_blank">檔案</a> 。<br /> </td> 
   </tr> 
  </tbody> 
 </table>

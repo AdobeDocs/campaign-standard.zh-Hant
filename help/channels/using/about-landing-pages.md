@@ -15,7 +15,7 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: 0068746b0b90b85edfb2c93eb08a82e1adc2fca8
 
 ---
 
@@ -24,26 +24,14 @@ source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 Campaign隨附著著陸頁面，這些網頁表單可用來擷取您受眾的資訊、提供服務訂閱、顯示資料以及擴充您的資料庫。 著陸頁面也可用於取得或更新現有的描述檔。
 
->[!CAUTION]
->
->著陸頁面只能用來更新描述檔。
+如需設定著陸頁面所需步驟的詳細資訊，請參閱 [本節](../../channels/using/main-steps-to-set-up-a-landing-page.md)
 
-Campaign隨附一組內建的登陸頁面範本：
+**相關主題：**
 
-* **[!UICONTROL Acquisition]**:這是著陸頁面的預設範本，可讓您擷取和更新促銷活動資料庫中的資料。
-* **[!UICONTROL Subscription]**:此範本應用於提供服務的訂閱。
-* **[!UICONTROL Unsubscription]**:此範本可從寄送給訂閱者的電子郵件連結至服務，以允許他們取消訂閱此服務。
-* **[!UICONTROL Blacklist]**:此範本應在描述檔不想再由促銷活動聯絡時使用。 如需黑名單的詳細資訊，請 [參閱關於促銷活動中的選擇加入和選擇退出](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)。
+* [建立著陸頁面教學課程影片](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-edit-landing-page-feature-video-use.html) （影片）
+* [使用登陸頁面訂閱服務](../../audiences/using/creating-a-service.md)
 
-這些範本在建立新登陸頁面時，預設會建議使用。
-
-![](assets/lp_creation_1.png)
-
-Adobe建議複製內建範本，以建立您自己的範本。 有些參數只能在著陸頁面範本中設定，而無法直接在著陸頁面中修改。
-
->[!NOTE]
->
->若要存取著陸頁面範本，請按一下左上角的Adobe Campaign標誌，然後選取 **[!UICONTROL Resources]** &gt; **[!UICONTROL Templates]** &gt; **[!UICONTROL Landing page templates]**。
+## 著陸頁面生命週期 {#landing-pages-life-cycle}
 
 著陸頁面的完整生命週期如下：
 
@@ -56,7 +44,39 @@ Adobe建議複製內建範本，以建立您自己的範本。 有些參數只�
 
 建立並發佈後，您就可以透過網站或將登陸頁面的 [直接連結插入電子郵件中，讓登陸頁面可以存取](../../designing/using/links.md#inserting-a-link)。
 
-**相關主題：**
+## 著陸頁面限制{#landing-page-limitations}
 
-* [建立著陸頁面影片](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-edit-landing-page-feature-video-use.html)
-* [使用登陸頁面訂閱服務](../../audiences/using/creating-a-service.md)
+下節列出您在開始設定登陸頁面之前應注意的限制。
+
+**寫入和更新資料**
+
+* 著陸頁面僅限於 **[!UICONTROL Profile]** 和 **[!UICONTROL Subscription]** 資源。 您可以儲存記錄，並從 **[!UICONTROL Profile]** 訂閱／取消訂閱中更新記錄 **[!UICONTROL Service]**。
+有關資源配置的詳細資訊，請 [參閱配置資源的資料結構](../../developing/using/configuring-the-resource-s-data-structure.md)。
+
+>[!CAUTION]
+>
+>著陸頁面無法顯示或更新來自和以外任何其他資源的 **[!UICONTROL Profile]** 資料 **[!UICONTROL Subscription]**。
+
+**預載**
+
+* 著陸頁面無法自動顯示記錄清單，也無法列出已訂閱描述檔的服務。 有關服務的詳細資訊，請參閱本 [頁](../../audiences/using/creating-a-service.md)。
+
+* 具有預先填入表單的登陸頁面（資料已預先載入頁面）只能從Adobe Campaign電子郵件存取。 無法從網站頁面存取此類表格。
+
+**調解**
+
+* 協調行為如下：一找到匹配，協調進程就會停止。 這表示協調只能在一個配置檔案記錄上進行，在存在重複項時，不能在多個記錄上進行。
+
+例如，您想要傳送下列贏取登陸頁面至您的描述檔，以使用描述檔的行動號碼更新您的Campaign資料庫。
+
+![](assets/landing_page_limitation_1.png)
+
+如果您的其中一個描述檔填入著陸頁面，但已有重複的描述檔，則會更新具有最早建立日期的相符描述檔，因為描述檔會根據其建立日期來排定優先順序。
+
+這裡只更新了第一個描述檔，因為它是最舊的項目。
+
+![](assets/landing_page_limitation_2.png)
+
+**測試著陸頁面**
+
+* 著陸頁面僅適用於描述檔，而非測試描述檔，這表示著陸頁面無法作為電子郵件證明的一部分進行測試。

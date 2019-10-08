@@ -14,7 +14,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
 
@@ -200,7 +200,7 @@ source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
   </tr> 
   <tr> 
    <td> 本機通知<br /> </td> 
-   <td> <p>本端通知訊息可讓您在使用者的行動應用程式中有新資料可用時，通知使用者，即使您無法存取前景中執行的網際網路或行動應用程式。 行動應用程式會在特定時間觸發本機通知，並視事件而定。</p><p>如需詳細資訊，請參閱詳 <a href="../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type">細檔案</a>。</p></td> 
+   <td> <p>本端通知訊息可讓您在使用者的行動應用程式中有新資料可用時，通知使用者，即使您無法存取前景中執行的網際網路或行動應用程式。 行動應用程式會在特定時間觸發本機通知，並視事件而定。</p><p> 如需詳細資訊，請參閱詳 <a href="../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type">細檔案</a>。</p></td> 
   </tr> 
   <tr> 
    <td> 工作流程增強功能——將負載新增至外部訊號活動<br /> </td> 
@@ -208,7 +208,7 @@ source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
   </tr> 
   <tr> 
    <td> 著陸頁面增強功能- Google reCAPTCHA<br /> </td> 
-   <td> <p>運用Google reCAPTCHA來防止您的登陸頁面出現垃圾訊息，而不需要客戶採取任何動作。</p><p>如需詳細資訊，請參閱詳 <a href="../../channels/using/designing-a-landing-page.md#setting-google-recaptcha">細檔案</a>。</p></td> 
+   <td> <p>運用Google reCAPTCHA來防止您的登陸頁面出現垃圾訊息，而不需要客戶採取任何動作。</p><p> 如需詳細資訊，請參閱詳 <a href="../../channels/using/designing-a-landing-page.md#setting-google-recaptcha">細檔案</a>。</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -258,12 +258,12 @@ source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 * 導出包含安全組的包時，它現在包含分配給每個組的角色。 (CAMP-32960)
 * 在「載入檔案」活動中，新選項可讓您檢查您要上載的檔案欄是否符合欄定義。  如需詳細資訊，請參閱詳 [細檔案](../../automating/using/load-file.md)。 (CAMP-32229)
 * 工作流程現在可以從裝載開始，讓您在工作流程中的活動之間使用和共用外部參數。  如需詳細資訊，請參閱詳 [細檔案](../../automating/using/calling-a-workflow-with-external-parameters.md)。 （CAMP-29412和CAMP-29413）
-* Campaign Standard API現在可讓您使用裝載來更新描述檔的地理和組織單位。  如需詳細資訊，請參閱詳 [細檔案](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)。
+* Campaign Standard API現在可讓您使用裝載來更新描述檔的地理和組織單位。  如需詳細資訊，請參閱詳 [細檔案](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)。
 * 當無法存取資料庫中的物件時，會有更清楚的錯誤訊息，以供您瞭解。
 * 在「擷取檔案」活動中，定義要匯出的檔案名稱時，已更新Javascript功能。 現在，「輸出」欄位中只能使用formatDate函式。  如需詳細資訊，請參閱詳 [細檔案](../../automating/using/extract-file.md)。
 * 自訂資源的自動序列ID產生功能已改良。 新自訂資源的主鍵現在預設為64位。
-* 自訂資源發佈測試模式已改進。 如果上次自訂資源發佈失敗且未修正，現在會向使用者顯示警告訊息。 在自定義資源發佈失敗後，可以回滾到上一個工作版本。 如需詳細資訊，請參閱詳 [細檔案](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)。
-* 在「傳輸檔案」活動中添加了新選項。 它允許您在SFTP模式下使用「檔案下載」操作時對檔案進行排序。 如需詳細資訊，請參閱詳 [細檔案](../../automating/using/transfer-file.md)。 (CAMP-33109)
+* 自訂資源發佈測試模式已改進。 如果上次自訂資源發佈失敗且未修正，現在會向使用者顯示警告訊息。 在自定義資源發佈失敗後，可以回滾到上一個工作版本。  如需詳細資訊，請參閱詳 [細檔案](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)。
+* 在「傳輸檔案」活動中添加了新選項。 它允許您在SFTP模式下使用「檔案下載」操作時對檔案進行排序。  如需詳細資訊，請參閱詳 [細檔案](../../automating/using/transfer-file.md)。 (CAMP-33109)
 
 ### 修補程式 {#patches}
 
@@ -344,7 +344,7 @@ source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 
 * Behance藝術家設計的4種同級最佳回應式電子郵件範本現已推出。
 
-   如需詳細資訊，請參閱詳 [細檔案](../../designing/using/using-reusable-content.md#content-templates)。
+    如需詳細資訊，請參閱詳 [細檔案](../../designing/using/using-reusable-content.md#content-templates)。
 
 * 我們的全新入門體驗將協助您更快開始建立電子郵件，並讓您更輕鬆地存取檔案和教學課程。
 
@@ -376,7 +376,7 @@ source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 * 「描述檔建立」畫面中的「時區」下拉式清單已從「位址」區段移至介面的上方區段。
 * 您現在可以在設定自訂資源畫面時新增分隔符號，讓您將欄位組織到類別中。
 
-   如需詳細資訊，請參閱詳 [細檔案](../../developing/using/configuring-the-screen-definition.md#defining-the-detail-screen-configuration)。
+    如需詳細資訊，請參閱詳 [細檔案](../../developing/using/configuring-the-screen-definition.md#defining-the-detail-screen-configuration)。
 
 ### 其他變更 {#other-changes-1}
 
@@ -427,7 +427,7 @@ source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
      <li> 能夠在準 <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">備時自動從URL擷取內容</a> </li> 
      <li> 完全 <a href="../../designing/using/using-reusable-content.md#content-templates">符合現成可用的內容範本</a>。 </li> 
     </ul> 
-    <p>如需詳細資訊，請參 <a href="../../designing/using/overview.md">閱詳細說明</a><a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html">檔案和操作視訊</a>。 以下列出改進和修正。</p><p>因此，舊版電子郵件內容編輯器現在已不再提供。 如需詳細資訊，請參閱本 <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">頁</a>。</p> </td> 
+    <p>如需詳細資訊，請參 <a href="../../designing/using/overview.md">閱詳細說明</a><a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html">檔案和操作視訊</a>。 以下列出改進和修正。</p><p>因此，舊版電子郵件內容編輯器現在已不再提供。 For more information, refer to this <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">page</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> 交易電子郵件中的產品清單<br /> </td> 
@@ -435,7 +435,7 @@ source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
   </tr> 
   <tr> 
    <td> 電子郵件設計人員中的行動裝置檢視<br /> </td> 
-   <td> <p>編輯電子郵件內容時，您現在可以切換至專用的行動檢視。 這可讓您個別編輯行動顯示的所有樣式選項，例如調整邊界、較小的字型大小、不同的背景顏色等，以微調電子郵件的互動式設計。</p><p> 如需詳細資訊，請參閱詳 <a href="../../designing/using/styles.md#switching-to-mobile-view">細檔案</a>。</p> </td> 
+   <td> <p>編輯電子郵件內容時，您現在可以切換至專用的行動檢視。 這可讓您個別編輯行動顯示的所有樣式選項，例如調整邊界、較小的字型大小、不同的背景顏色等，以微調電子郵件的互動式設計。</p><p>  如需詳細資訊，請參閱詳 <a href="../../designing/using/styles.md#switching-to-mobile-view">細檔案</a>。</p> </td> 
   </tr> 
   <tr> 
    <td> 應用程式內訊息測試版改進<br /> </td> 

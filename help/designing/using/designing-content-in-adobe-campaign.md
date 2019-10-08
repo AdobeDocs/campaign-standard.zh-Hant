@@ -14,7 +14,7 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 195e8db45609b8f92f0ec60c987cf6eadfd463eb
+source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
 
 ---
 
@@ -37,7 +37,7 @@ source-git-commit: 195e8db45609b8f92f0ec60c987cf6eadfd463eb
 
 若要提高行銷宣傳的效率，請個人化您的內容。 請參 [閱插入個人化欄位](../../designing/using/personalization.md#inserting-a-personalization-field)[和新增內容區塊](../../designing/using/personalization.md#adding-a-content-block)。
 
-您也可以定義視每個描述檔而異的動態內容。 請參 [閱定義電子郵件中的動態內容](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) , [以及定義著陸頁面中的動態內容](../../channels/using/defining-dynamic-content-in-a-landing-page.md)。
+您也可以定義視每個描述檔而異的動態內容。 請參 [閱定義電子郵件中的動態內容](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) , [以及定義著陸頁面中的動態內容](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)。
 
 使用連結和影像增強您的訊息和登陸頁面。 請參 [閱插入連結](../../designing/using/links.md#inserting-a-link)[和插入影像](../../designing/using/images.md#inserting-images)。
 

@@ -14,7 +14,7 @@ discoiquuid: a3ce6b80-1858-49d1-8880-3543181127f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
 
 ---
 
@@ -349,7 +349,7 @@ source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
   </tr> 
   <tr> 
    <td> 工作流程：資料濃縮<br /> </td> 
-   <td> 「 <span class="uicontrol">Additional data</span> 」(其他資料 <span class="uicontrol">)標籤現在可用於</span> 「查詢類型」活動。 此功能可讓您豐富查詢所定位的資料，並將此資料傳輸至下列工作流程活動，以供其利用。<br /> 新增其他資料後，您可以根據已定義的其他資料建立條件，將額外的篩選層級套用至初始目標資料。<br /> 如需詳細資訊，請參閱詳 <a href="../../automating/using/query.md#enriching-data">細檔案</a>。<br /> </td> 
+   <td> 「 <span class="uicontrol">Additional data</span> 」(其他資料 <span class="uicontrol">)標籤現在可用於</span> 「Query type」（查詢類型）活動。 此功能可讓您豐富查詢所定位的資料，並將此資料傳輸至下列工作流程活動，以供其利用。<br /> 新增其他資料後，您可以根據已定義的其他資料建立條件，將額外的篩選層級套用至初始目標資料。<br /> 如需詳細資訊，請參閱詳 <a href="../../automating/using/query.md#enriching-data">細檔案</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 情境式說明<br /> </td> 
@@ -381,7 +381,7 @@ source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 
 #### 內容編輯器 {#content-editor}
 
-* 內容編輯器現在可讓您個人化電子郵件或登陸頁面中包含的任何URL。  請參閱詳細 [檔案](../../designing/using/personalization.md#personalizing-urls)。
+* 內容編輯器現在可讓您個人化電子郵件或登陸頁面中包含的任何URL。 請參閱詳細 [檔案](../../designing/using/personalization.md#personalizing-urls)。
 * 修正當影像新增至傳送的建立精靈中，且其內容在之後修改時，可能會遺失的錯誤。
 
 #### 自訂資源 {#custom-resources-3}
@@ -879,7 +879,7 @@ source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
   </tr> 
   <tr> 
    <td> 數位內容編輯器——動態內容<br /> </td> 
-   <td> 動態內容介面已改善。 箭頭現在可讓您直接在電子郵件內文中，導覽不同的動態內容。<br /> 有關使用此功能的詳細資訊，請參閱詳 <a href="../../channels/using/defining-dynamic-content-in-a-landing-page.md">細檔案</a>。<br /> </td> 
+   <td> 動態內容介面已改善。 箭頭現在可讓您直接在電子郵件內文中，導覽不同的動態內容。<br /> 有關使用此功能的詳細資訊，請參閱詳 <a href="../../designing/using/personalization.md#defining-dynamic-content-in-an-email">細檔案</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 數位內容編輯器——動態文字<br /> </td> 
@@ -963,7 +963,7 @@ source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
   </tr> 
   <tr> 
    <td> 內容編輯器：動態內容<br /> </td> 
-   <td> 您可以定義不同的內容，這些內容將根據透過運算式編輯器定義的條件動態顯示給使用者。<br /> 請參閱詳細 <a href="../../channels/using/defining-dynamic-content-in-a-landing-page.md">檔案</a>。<br /> </td> 
+   <td> 您可以定義不同的內容，這些內容將根據透過運算式編輯器定義的條件動態顯示給使用者。<br /> 請參閱詳細 <a href="../../designing/using/personalization.md#defining-dynamic-content-in-an-email">檔案</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 電子郵件<br /> </td> 
@@ -1057,7 +1057,7 @@ source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
   </tr> 
   <tr> 
    <td> 數位內容編輯器：塊 <strong>選擇器</strong><br /> </td> 
-   <td> 當在HTML內容編輯器中選取區塊時，編輯區域底部會顯示階層連結。 這可讓您輕鬆導覽並選取不同的元素。<br /> 請參閱詳細 <a href="../../channels/using/managing-landing-page-structure-and-style.md">檔案</a>。<br /> </td> 
+   <td> 當在HTML內容編輯器中選取區塊時，編輯區域底部會顯示階層連結。 這可讓您輕鬆導覽並選取不同的元素。<br /> 請參閱詳細 <a href="../../channels/using/designing-a-landing-page.md#managing-landing-page-structure-and-style">檔案</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>

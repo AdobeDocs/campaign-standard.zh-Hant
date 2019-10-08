@@ -14,7 +14,7 @@ discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
 
@@ -51,7 +51,7 @@ Campaign Standard可讓您使用參數（要定位的對象名稱、要匯入的
 
 ## 在調用工作流時定義參數 {#defining-the-parameters-when-calling-the-workflow}
 
-本節詳細說明如何在調用工作流時定義參數。 如需如何從API呼叫執行此作業的詳細資訊，請參閱 [REST API檔案](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)。
+本節詳細說明如何在調用工作流時定義參數。 如需如何從API呼叫執行此作業的詳細資訊，請參閱 [REST API檔案](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)。
 
 在定義參數之前，請確定：
 
@@ -76,7 +76,7 @@ Campaign Standard可讓您使用參數（要定位的對象名稱、要匯入的
 
 ## 監控事件變數 {#monitoring-the-events-variables}
 
-您可以監控工作流程中可用的事件變數，包括宣告的外部參數。 若要這麼做，請依照下列步驟進行：
+您可以監控工作流程中可用的事件變數，包括宣告的外部參數。 要執行此操作，請遵循下列步驟：
 
 1. 選擇活動後面的活 **[!UICONTROL External signal]** 動，然後按一下按 **[!UICONTROL Log and tasks]** 鈕。
 1. 在標籤 **[!UICONTROL Tasks]** 中，按一下 ![](assets/edit_darkgrey-24px.png) 按鈕。
@@ -175,7 +175,7 @@ $(vars/@parameterName)
 
    ![](assets/extsignal_activities_delivery.png)
 
-1. 按一下按 **[!UICONTROL Confirm]** 鈕。
+1. Click the **[!UICONTROL Confirm]** button.
 
 個人化欄位清單中現在提供宣告的事件變數。 您可以在傳送中使用它們，以執行下列動作：
 
@@ -225,7 +225,7 @@ $(vars/@parameterName)
 
 ### 步驟1:設定API呼叫 {#step-1--configuring-the-api-call}
 
-進行API呼叫，以使用參數觸發Workflow 1。 如需API呼叫語法的詳細資訊，請參閱 [Campaign Standard REST API檔案](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)。
+進行API呼叫，以使用參數觸發Workflow 1。 如需API呼叫語法的詳細資訊，請參閱 [Campaign Standard REST API檔案](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)。
 
 在本例中，我們要使用下列參數來呼叫工作流程：
 
@@ -317,7 +317,7 @@ $(vars/@parameterName)
 
    ![](assets/extsignal_uc7.png)
 
-Workflow 1已設定，您現在可以建立Workflow 2。 For more on this, refer to [this section](../../automating/using/calling-a-workflow-with-external-parameters.md#step-3--configuring-workflow-2).
+Workflow 1已設定，您現在可以建立Workflow 2。 如需詳細資訊，請參閱[本小節](../../automating/using/calling-a-workflow-with-external-parameters.md#step-3--configuring-workflow-2)。
 
 ### 步驟3:設定工作流程2 {#step-3--configuring-workflow-2}
 
@@ -333,7 +333,7 @@ Workflow 1已設定，您現在可以建立Workflow 2。 For more on this, refer
 
 1. 聲明已在Workflow 1中定義的參數。
 
-   若要這麼做，請開啟 **[!UICONTROL External signal]** 活動，然後新增Workflow 1活動中定義之每個參數 **[!UICONTROL End]** 的名稱和類型。
+   若要這麼做，請開啟 **[!UICONTROL External signal]** 活動，然後新增在Workflow 1活動中定義之每個參數 **[!UICONTROL End]** 的名稱和類型。
 
    ![](assets/extsignal_uc8.png)
 

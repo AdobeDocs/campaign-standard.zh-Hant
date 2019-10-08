@@ -3,258 +3,258 @@ title: 執行工作流程
 seo-title: 執行工作流程
 description: 執行工作流程
 seo-description: 瞭解如何執行和監控工作流程。
-page-status-flag: 從未啓動
-uuid: ff02b74e-53e8-49c6-bc8 e-0c729 ea7 d25
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
+page-status-flag: 從未激活
+uuid: ff02b74e-53e8-49c6-bf8e-0c729eaa7d25
+contentOwner: 紹維亞
+products: SG_CAMPAIGN/STANDARD
 audience: 自動化
-content-type: reference
-topic-tags: 工作流程一般運作
-discoiquuid: 906c85ea-83b7-4268-86da-cd353 f1 dc591
-context-tags: 工作流程，概觀；工作流程，主要
+content-type: 參考
+topic-tags: 工作流——一般操作
+discoiquuid: 906c85ea-83b7-4268-86da-cd353f1dc591
+context-tags: 工作流，概述；工作流，主要
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e33cbfbf6376dabfe81b9bd6f7cce817f35d1b75
+source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
 
 
-# Executing a workflow{#executing-a-workflow}
+# 執行工作流程{#executing-a-workflow}
 
-## About workflow execution {#about-workflow-execution}
+## 關於工作流執行 {#about-workflow-execution}
 
-一律會手動啓動工作流程。However, once started, it can remain inactive, depending on the information specified in a [Scheduler](../../automating/using/scheduler.md) activity.
+工作流程一律以手動方式啟動。 但是，啟動後，它可以保持非活動狀態，具體取決於在 [Scheduler活動中指定的資訊](../../automating/using/scheduler.md) 。
 
 >[!CAUTION]
 >
-> Adobe建議客戶優先排序工作流程執行，並執行最多20個並行工作流程執行，以便在執行個體間一致地達到最大效能。可能會規劃有超過20個並行工作流程執行，並依預設執行。您可以提交票證給客戶服務，以調整並行工作流程執行次數的預設設定。
+> Adobe建議客戶排定工作流程執行的優先順序，並執行最多20個並行工作流程執行，以一致地在執行個體中達到最佳效能。 可計畫並行執行超過20個工作流，預設情況下將按順序執行。 您可以將票證提交給客戶服務，以調整併發工作流執行的最大數量的預設設定。
 
-執行相關動作(開始、停止、暫停等)are **asynchronous** processes: the command is saved and will become effective once the server is available to apply it.
+執行相關動作（開始、停止、暫停等）是非 **同步進程** :命令將保存，並在伺服器可用來應用該命令後生效。
 
-在工作流程中，每個活動的結果通常會透過轉場來傳送至下列活動，以箭頭表示。
+在工作流程中，每個活動的結果通常會透過轉場（以箭頭表示）傳送至下列活動。
 
-如果轉場未連結至目的地活動，轉場會未結束。
+如果轉移未連結至目標活動，則不會終止。
 
 ![](assets/wkf_execution_1.png)
 
 >[!NOTE]
 >
->仍可執行包含未結束轉場的工作流程：會產生警告訊息，工作流程將會暫停後暫停，但這不會產生錯誤。您也可以開始工作流程，而不需完整完成設計工作，而且您也可以同時完成工作。
+>仍可執行包含未終止轉場的工作流程：將會產生警告訊息，工作流程在轉場時會暫停，但不會產生錯誤。 您也可以開始工作流程，而不需完成設計，而且可以隨時完成設計。
 
-執行活動後，轉場中傳送的記錄數會顯示在其上。
+執行活動後，轉場中傳送的記錄數就會顯示在其上方。
 
 ![](assets/wkf_transition_count.png)
 
-您可以開啓轉場，檢查傳送的資料在執行工作流程期間或之後是否正確。您可以檢視資料和資料結構。
+您可以開啟轉場來檢查在執行工作流程期間或之後傳送的資料是否正確。 您可以檢視資料和資料結構。
 
-依預設，只能存取上次轉換的詳細資訊。To be able to access the results of the preceding activities, you need to check the **[!UICONTROL Keep interim results]** option in the **[!UICONTROL Execution]** section of the workflow properties, before starting the workflow.
+依預設，只能存取工作流程上次轉換的詳細資訊。 要能夠訪問前述活動的結果，您需要在啟動工作流之前，先 **[!UICONTROL Keep interim results]** 檢查工作流 **[!UICONTROL Execution]** 屬性部分中的選項。
 
 >[!NOTE]
 >
->此選項可耗用大量記憶體，並可協助建立工作流程並確保已正確設定和執行。未勾選生產例項。
+>此選項會耗用大量記憶體，並可協助建立工作流程，並確保其正確設定和運作。 在生產例項中保留未選中狀態。
 
-When a transition is open, you can edit its **[!UICONTROL Label]** or link a **[!UICONTROL Segment code]** to it. 若要這麼做，請編輯對應的欄位並確認您的修改。
+當轉場開啟時，您可以編輯轉場， **[!UICONTROL Label]** 或將轉場連 **[!UICONTROL Segment code]** 結至它。 若要這麼做，請編輯對應的欄位並確認您的修改。
 
-## Controlling a workflow from the REST API {#controlling-a-workflow-from-the-rest-api}
+## 從REST API控制工作流程 {#controlling-a-workflow-from-the-rest-api}
 
-Using the REST API, you can **start**, **pause**, **resume** and **stop** a workflow.
+使用REST API，您可以啟 **動**、暫 **停**、繼 **續和** 停止Rest **** 工作流。
 
-You can find more details and examples of REST calls in the [API documentation.](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#controlling-a-workflow)
+您可以在 [API檔案中找到更多REST呼叫的詳細資訊和範例。](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#controlling-a-workflow)
 
-## Life cycle {#life-cycle}
+## 生命週期 {#life-cycle}
 
-工作流程的生命週期包含三個主要步驟，每個步驟都連結至狀態和顏色：
+工作流的生命週期包括三個主要步驟，每個步驟都連結到狀態和顏色：
 
-* **編輯(** 灰色)
+* **編輯** （灰色）
 
-   This is the initial design phase of a workflow (refer to [Creating a workflow](../../automating/using/building-a-workflow.md#creating-a-workflow)). 工作流程尚未由伺服器處理，而且可以修改而不會有任何風險。
+   這是工作流的初始設計階段(請參閱「建 [立工作流](../../automating/using/building-a-workflow.md#creating-a-workflow)」)。 伺服器尚未處理工作流程，因此可以修改工作流程，而不會造成任何風險。
 
-* **進行中** (藍色)
+* **進行中** （藍色）
 
-   在初始設計階段完成後，工作流程就可以開始並由伺服器處理。
+   在初始設計階段完成後，工作流程便可由伺服器啟動並處理。
 
-* **已完成(** 綠色)
+* **完成** （綠色）
 
-   當工作中不再進行任何工作或操作員明確停止執行個體時，工作流程就會完成。
+   當不再進行任何工作或操作員明確停止實例時，工作流即完成。
 
-啓動後，工作流程也可能有兩個其他狀態：
+工作流程一旦啟動後，可能還會有兩個其他狀態：
 
-* **警告** (黃色)
+* **警告** （黃色）
 
-   The workflow could not finish or was paused using the ![](assets/pause_darkgrey-24px.png) or ![](assets/check_pause_darkgrey-24px.png) buttons.
+   工作流無法完成或使用或按鈕 ![](assets/pause_darkgrey-24px.png) 暫停 ![](assets/check_pause_darkgrey-24px.png) 。
 
-* **不尋常** (紅色)
+* **錯誤** （紅色）
 
-   執行工作流程時發生錯誤。工作流程已停止，使用者必須執行動作。To find out more about this error, use the ![](assets/printpreview_darkgrey-24px.png) button to access the workflow log (refer to [Monitoring](../../automating/using/executing-a-workflow.md#monitoring)).
+   執行工作流時發生錯誤。 工作流已停止，用戶必須執行操作。 若要進一步瞭解此錯誤，請使用 ![](assets/printpreview_darkgrey-24px.png) 按鈕存取工作流程記錄檔(請參 [閱Monitoring](../../automating/using/executing-a-workflow.md#monitoring))。
 
-行銷活動清單可讓您顯示所有工作流程及其狀態。For more on this, see [Managing marketing activities](../../start/using/marketing-activities.md#about-marketing-activities).
+行銷活動清單可讓您顯示所有工作流程及其狀態。 如需詳細資訊，請參閱管 [理行銷活動](../../start/using/marketing-activities.md#about-marketing-activities)。
 
 ![](assets/wkf_execution_3.png)
 
-## Execution commands {#execution-commands}
+## 執行命令 {#execution-commands}
 
-動作列中的圖示可讓您開始、追蹤和修改工作流程的執行。See [Action bar](../../automating/using/workflow-interface.md#action-bar).
+動作列中的圖示可讓您啟動、追蹤和修改工作流程的執行。 請參閱 [動作列](../../automating/using/workflow-interface.md#action-bar)。
 
 ![](assets/wkf_execution_2.png)
 
-可用的動作如下：
+可用操作如下：
 
 **開始**
 
-![](assets/play_darkgrey-24px.png) 按鈕會開始執行工作流程，工作流程接著會執行 **(** 藍色)狀態。如果已暫停工作流程，則會繼續此工作流程，否則會啓動，然後啓動初始活動。
+按 ![](assets/play_darkgrey-24px.png) 鈕會開始執行工作流程，然後進入 **「進行中** （藍色）」狀態。 如果暫停了工作流，則會繼續它，否則會啟動它，然後啟動初始活動。
 
 >[!NOTE]
 >
->啓動是非同步程序：請求會儲存，並由工作流程執行引擎盡快處理。
+>啟動是非同步程式：請求會儲存，並會由工作流程執行引擎盡快處理。
 
 **暫停**
 
-![](assets/pause_darkgrey-24px.png) 按鈕會暫停執行。The workflow takes on the **Warning** (yellow) status. 在繼續進行新活動之前，不會啓動新活動，但不會暫停進行中的作業。
+按 ![](assets/pause_darkgrey-24px.png) 鈕會暫停執行。 工作流程會顯示 **警告** （黃色）狀態。 新活動在恢復之前不會激活，但正在進行的操作不會暫停。
 
-**Stop**
+**停止**
 
-![](assets/stop_darkgrey-24px.png) 此按鈕會停止執行的工作流程，接著會執行 **「完成」** (綠色)狀態。如果可能的作業中斷，會立即中斷，並且會立即取消進行中的匯入或SQL查詢。您無法從工作流程中繼續的工作流程繼續。
+按 ![](assets/stop_darkgrey-24px.png) 鈕會停止正在執行的工作流程，然後會進入「完 **成** （綠色）」狀態。 如果可能，將中斷正在進行的操作，並立即取消正在進行的導入或SQL查詢。 您無法從停止的工作流程所在位置繼續。
 
-**重新啓動**
+**重新啟動**
 
-![](assets/pauseplay_darkgrey-24px.png) 按鈕包括停止，然後重新啓動工作流程。在大多數情況下，這可讓您加快重啓速度。It can also be useful to automate restarting once stopping takes a certain amount of time, because the ![](assets/play_darkgrey-24px.png) button is only available when the stop is effective.
+此按 ![](assets/pauseplay_darkgrey-24px.png) 鈕包括停止，然後重新啟動工作流。 在大多數情況下，這可讓您更快速地重新啟動。 當停止需要一定的時間時，自動重新啟動也很有用，因為只有在停止 ![](assets/play_darkgrey-24px.png) 有效時，按鈕才可用。
 
-選取工作流程中的一個或多個活動時，您可以執行其他動作，例如：
+在選擇工作流中的一個或多個活動時，您可以執行其他操作，例如：
 
 **立即執行**
 
-![](assets/pending_darkgrey-24px.png) 按鈕會盡快開始選取任何待定活動。
+此按 ![](assets/pending_darkgrey-24px.png) 鈕會盡快啟動所有選取的待定活動。
 
-**一般執行**
+**正常執行**
 
-![](assets/check_darkgrey-24px.png) 按鈕會重新啓動任何暫停或停用的活動。
+按鈕 ![](assets/check_darkgrey-24px.png) 會重新啟動任何暫停或停用的活動。
 
-**執行暫停**
+**已暫停執行**
 
-![](assets/check_pause_darkgrey-24px.png) 按鈕會暫停所選活動的工作流程：此任務以及所有追隨(位於同一分支)的工作都不會執行。
+按鈕 ![](assets/check_pause_darkgrey-24px.png) 會暫停所選活動的工作流：不會執行此任務以及隨後執行的所有任務（位於同一個分支中）。
 
 **無執行**
 
-![](assets/checkdisable.png) 此按鈕會停用任何選取的活動。
+按鈕 ![](assets/checkdisable.png) 會停用任何選取的活動。
 
 >[!NOTE]
 >
->快速動作可讓您存取特定活動的不同動作，並在選取活動時顯示。
+>快速動作可讓您存取與某個特定活動相關的不同動作，並在選取活動時顯示。
 
-## Monitoring {#monitoring}
+## 監控 {#monitoring}
 
-![](assets/printpreview_darkgrey-24px.png) 圖示會開啓工作流程記錄檔和工作選單。
+此圖 ![](assets/printpreview_darkgrey-24px.png) 示會開啟工作流程記錄和工作功能表。
 
-The workflow history is saved for the duration specified in the workflow execution options (refer to [Workflow properties](../../automating/using/executing-a-workflow.md#workflow-properties)). 因此，即使在重新啓動後，也會儲存所有訊息。If you do not want to save the messages from a previous execution, you have to purge the history by clicking the ![](assets/delete_darkgrey-24px.png) button.
+工作流歷史記錄將保存在工作流執行選項中指定的持續時間內(請參閱 [工作流屬性](../../automating/using/executing-a-workflow.md#workflow-properties))。 因此，在此期間，即使在重新啟動後，也會保存所有消息。 如果不想保存先前執行中的消息，則必須按一下按鈕來清除歷史記 ![](assets/delete_darkgrey-24px.png) 錄。
 
-**[!UICONTROL Log]** 此標籤包含所有活動或任何選取活動的執行歷史記錄。它會依時間順序索引執行和執行錯誤。
+該選 **[!UICONTROL Log]** 項卡包含所有活動或任何選定活動的執行歷史記錄。 它按時間順序對執行的操作和執行錯誤進行索引。
 
 ![](assets/wkf_execution_4.png)
 
-**[!UICONTROL Tasks]** 此標籤會詳細說明活動的執行順序。按一下工作以取得更多資訊。
+此標 **[!UICONTROL Tasks]** 簽詳細說明了活動的執行順序。 按一下工作以取得詳細資訊。
 
 ![](assets/wkf_execution_5.png)
 
-在這兩份清單中：
+在這兩個清單中：
 
-* 按一下計數器，根據套用的篩選查看活動總數。如果清單中的元素數少於30，則預設會顯示計數器。
-* **[!UICONTROL Configure list]** 按鈕可讓您選擇顯示的資訊、定義欄順序，以及排序清單。
-* 您可以使用篩選器來尋找更快速的資訊。使用搜尋欄位尋找工作流程活動名稱中的特定文字(例如：「查詢」)和記錄檔。
+* 按一下計數器，以根據套用的篩選條件查看活動總數。 如果清單中的元素數少於30，則預設會顯示計數器。
+* 按 **[!UICONTROL Configure list]** 鈕可讓您選擇顯示的資訊、定義欄順序，以及排序清單。
+* 您可以使用篩選器更快找到所需資訊。 使用搜尋欄位在工作流程活動名稱中尋找特定文字(例如："query")和記錄檔。
 
-## Error management {#error-management}
+## 錯誤管理 {#error-management}
 
-發生錯誤時，會暫停工作流程，而發生錯誤時所執行的活動會閃爍紅色。
+發生錯誤時，工作流程會暫停，當發生錯誤時正在執行的活動會閃爍紅色。
 
-工作流程狀態會變成紅色，而錯誤會記錄在記錄檔中。
+工作流狀態變為紅色，錯誤記錄在日誌中。
 
-您可以設定工作流程，使它不會暫停並繼續執行，而不會發生任何錯誤。To do this, go to the workflow properties via the ![](assets/edit_darkgrey-24px.png) button and, in the **[!UICONTROL Execution]** section, select the **Ignore** option in the **In case of error** field.
+您可以設定工作流程，使其不會暫停並繼續執行，而不會出現錯誤。 要執行此操作，請通過按鈕轉至工作流 ![](assets/edit_darkgrey-24px.png) 屬性，並在「 **[!UICONTROL Execution]** In of error（發生錯誤）」欄位 **的「** Ignore **（忽略）」選項中** 。
 
-在這種情況下，會中止錯誤的工作。此模式特別適合用來稍後重新嘗試操作(定期動作)的工作流程。
+在這種情況下，錯誤任務將被中止。 此模式特別適用於設計為稍後重新嘗試操作（定期操作）的工作流。
 
 >[!NOTE]
 >
->您可以個別對每個活動套用此設定。To do this, select an activity and open it using the quick action ![](assets/edit_darkgrey-24px.png). Then select the error management mode in the **Execution options** tab. See [Activity execution options](../../automating/using/executing-a-workflow.md#activity-execution-options).
+>您可以針對每個活動分別套用此設定。 若要這麼做，請選取活動，然後使用快速動作將其開啟 ![](assets/edit_darkgrey-24px.png)。 然後在「執行選項」頁籤中選擇錯誤 **管理模式** 。 請參閱 [活動執行選項](../../automating/using/executing-a-workflow.md#activity-execution-options)。
 
-The **[!UICONTROL Execution]** section of the workflow properties also allows you to define a number of **[!UICONTROL Consecutive errors]** that are authorized before the workflow execution is automatically suspended. 只要未達到此數目，就會忽略錯誤的元素，並正常執行其他工作流程分支。如果達到此數目，工作流程會暫停，工作流程管理員會自動收到通知(電子郵件和應用程式內通知)。See [Workflow properties](../../automating/using/executing-a-workflow.md#workflow-properties) and [Adobe Campaign notifications](../../administration/using/sending-internal-notifications.md).
+工作 **[!UICONTROL Execution]** 流屬性的部分還允許您定義在工作流執行 **[!UICONTROL Consecutive errors]** 自動暫停之前授權的一些屬性。 只要未到達此數字，就會忽略錯誤元素，並正常執行其他工作流分支。 如果到達此號碼，工作流程會暫停，並自動通知工作流程主管（電子郵件和應用程式內通知）。 請參 [閱工作流程屬](../../automating/using/executing-a-workflow.md#workflow-properties) 性 [和Adobe Campaign通知](../../administration/using/sending-internal-notifications.md)。
 
-也可以在工作流程的執行屬性中定義管理員。
+也可以在工作流的執行屬性中定義監督者。
 
-## Workflow properties {#workflow-properties}
+## 工作流程屬性 {#workflow-properties}
 
-To modify a workflow's execution options, use the ![](assets/edit_darkgrey-24px.png) button to access the workflow properties and select the **[!UICONTROL Execution]** section.
+要修改工作流的執行選項，請使用按 ![](assets/edit_darkgrey-24px.png) 鈕訪問工作流屬性並選擇 **[!UICONTROL Execution]** 部分。
 
-**[!UICONTROL Default affinity]** 欄位可讓您強制工作流程或工作流程活動在特定機器上執行。
+該 **[!UICONTROL Default affinity]** 欄位允許您強制在特定電腦上執行工作流或工作流活動。
 
-**[!UICONTROL History in days]** 在欄位中指定必須清除歷史記錄的時間長度。
+在欄位 **[!UICONTROL History in days]** 中，指定必須清除歷史記錄的持續時間。
 
-You can choose to check the **[!UICONTROL Save SQL queries in the log]** and **[!UICONTROL Execute in the engine (do not use in production)]** options if necessary.
+您可以選擇在必要時檢 **[!UICONTROL Save SQL queries in the log]** 查和 **[!UICONTROL Execute in the engine (do not use in production)]** 選項。
 
-Check the **[!UICONTROL Keep interim results]** option if you would like to be able to view the detail of transitions. 警告：勾選此選項可能會大幅減慢工作流程執行速度。
+如果您 **[!UICONTROL Keep interim results]** 想要檢視轉場的詳細資訊，請勾選此選項。 警告：勾選此選項可能會大幅減緩工作流程的執行速度。
 
-**[!UICONTROL Severity]** 欄位可讓您指定在Adobe Campaign例項中執行工作流程的優先順序層級。關鍵工作流程將先執行。
+欄位 **[!UICONTROL Severity]** 可讓您指定在Adobe Campaign例項中執行工作流程的優先順序層級。 重要的工作流程會先執行。
 
-**[!UICONTROL Supervisors]** 如果工作流程遇到錯誤，您可以在欄位中定義要通知的人員群組(電子郵件和應用程式內通知)。如果未定義任何群組，則不會通知任何人。For more on Adobe Campaign notifications, refer to [Adobe Campaign notifications](../../administration/using/sending-internal-notifications.md).
+在欄 **[!UICONTROL Supervisors]** 位中，您可以定義工作流程遇到錯誤時要通知的人員群組（電子郵件和應用程式內通知）。 如果未定義任何群組，則不會通知任何人。 如需Adobe Campaign通知的詳細資訊，請參閱 [Adobe Campaign通知](../../administration/using/sending-internal-notifications.md)。
 
-**[!UICONTROL In case of error]** 欄位可讓您指定在活動遇到錯誤時要執行的動作。有兩個可用選項：
+該 **[!UICONTROL In case of error]** 欄位允許您指定在活動遇到錯誤時要執行的操作。 有兩個選項可供使用：
 
-* **暫停程序**：工作流程會自動暫停。The workflow status is then **Erroneous** and the color associated turns red. 問題解決後，重新啓動工作流程。
-* **忽略**：活動未執行，因此不會執行任何後續的活動(在同一個分支中)。這對循環工作可能很有用。如果分支程式將排程器置於上游，則應在下一個執行日期中觸發。
+* **暫停流程**:工作流程會自動暫停。 工作流程狀態接著是「 **錯誤** 」，而相關色彩會變成紅色。 問題解決後，請重新啟動工作流程。
+* **忽略**:不會執行活動，因此，後續的任何活動（位於同一個分支）也不會執行。 這可能對循環性任務非常有用。 如果分支有調度程式放在上游，則應在下次執行日期觸發。
 
-   By selecting this option, you can also define a number of **[!UICONTROL Consecutive errors]** that are authorized:
+   選取此選項，您也可以定義許 **[!UICONTROL Consecutive errors]** 可的數目：
 
-   * If the number specified is **[!UICONTROL 0]**, or as long as the number specified is not reached, activities that encounter errors are ignored. 其他工作流程分支會正常執行。
-   * If the number specified is reached, the whole of the workflow is suspended and becomes **[!UICONTROL Erroneous]**. 如果已定義主管，則會自動收到電子郵件通知。
+   * 如果指定的數 **[!UICONTROL 0]**&#x200B;字，或者只要未達到指定的數字，就會忽略遇到錯誤的活動。 其他工作流程分支會正常執行。
+   * 如果達到指定的數字，則整個工作流將暫停並變為 **[!UICONTROL Erroneous]**。 如果已定義主管，則會自動透過電子郵件通知他們。
 
 ![](assets/wkf_execution_6.png)
 
-## Activity properties {#activity-properties}
+## 活動屬性 {#activity-properties}
 
-### General properties of an activity {#general-properties-of-an-activity}
+### 活動的一般屬性 {#general-properties-of-an-activity}
 
-Each activity has a **[!UICONTROL Properties]** tab. 此標籤可讓您修改活動的一般參數，尤其是標籤和ID。設定此標籤是選擇性的。
+每個活動都有一個 **[!UICONTROL Properties]** 標籤。 此頁籤允許您修改活動的常規參數，特別是標籤和ID。 配置此頁籤是可選的。
 
-### Managing an activity's outbound transitions {#managing-an-activity-s-outbound-transitions}
+### 管理活動的出站轉場 {#managing-an-activity-s-outbound-transitions}
 
-依預設，某些活動沒有對外轉場。You can add one from the **[!UICONTROL Transitions]** tab or from the activity's **[!UICONTROL Properties]** tab to apply other processes to your population in the same workflow.
+預設情況下，某些活動沒有出站轉移。 您可以從標籤或活動 **[!UICONTROL Transitions]** 的標籤中新增一個， **[!UICONTROL Properties]** 以便將其他流程套用至相同工作流程中的人口族群。
 
-視活動而定，您可以新增幾種傳出轉場類型：
+根據活動，您可以添加幾種類型的出站轉場：
 
-* 標準轉換：活動計算的人口族群
-* 無人口轉換：可新增這種傳出轉場，以繼續工作流程，並不包含任何人口，以不佔用系統上不必要的空間。
-* 拒絕：遭到拒絕。例如，如果活動傳入的資料不正確或不完整，則無法加以處理。
-* 補充：訪客在執行活動後剩餘時間。例如，如果劃分活動設定為只儲存傳入人口的百分比。
+* 標準轉換：由活動計算的人口
+* 無人口轉型：可以添加此類型的出站轉移以繼續工作流，並且不包含任何人口以不佔用系統上任何不必要的空間。
+* 拒絕：被拒絕。 例如，如果活動的傳入資料因不正確或不完整而無法處理。
+* 補充：執行活動後剩餘人口數。 例如，如果區段活動設定為僅儲存傳入人口的百分比。
 
-If applicable, specify a **[!UICONTROL Segment code]** for the activity's outbound transition. 此區段程式碼可讓您識別來自目標人群的子集來自何處，並稍後可能用於訊息個人化用途。
+如果適用，請為活 **[!UICONTROL Segment code]** 動的出站轉換指定一個。 此區段代碼可讓您識別目標人口的子集來自何處，並稍後可能提供訊息個人化用途。
 
-### Activity execution options {#activity-execution-options}
+### 活動執行選項 {#activity-execution-options}
 
-In the activity's properties screen, there is an **[!UICONTROL Advanced options]** tab that lets you define the activity's execution mode and behavior in case of errors.
+在活動的屬性畫面中，有一個標 **[!UICONTROL Advanced options]** 簽可讓您定義活動的執行模式和行為，以防發生錯誤。
 
-To access these options, select an activity in a workflow, then open it using the ![](assets/edit_darkgrey-24px.png) button from the action bar.
+若要存取這些選項，請在工作流程中選取活動，然後使用動作列 ![](assets/edit_darkgrey-24px.png) 的按鈕將其開啟。
 
 ![](assets/wkf_advanced_parameters.png)
 
-**[!UICONTROL Execution]** 欄位可讓您定義在工作開始時要執行的動作。有三個選項：
+該 **[!UICONTROL Execution]** 欄位允許您定義在任務啟動時要執行的操作。 這有三種選擇：
 
-* **一般**：活動會正常執行。
-* **啓用但未執行**：活動會暫停，因此後續的程序也會跟著進行。如果您想要在工作開始時顯示，這可能會很有用。
-* **請勿啓用**：活動並未執行，因此後續的所有活動都不會發生(在同一個分支中)。
+* **正常**:活動正常執行。
+* **啟用但不執行**:活動會暫停，因此後續的任何後續進程也會暫停。 如果您希望在任務啟動時出現，則此選項會很有用。
+* **不要啟用**:活動不會執行，因此，後續的所有活動（在同一分支中）也不會執行。
 
-**[!UICONTROL In case of error]** 欄位可讓您指定在活動遇到錯誤時要執行的動作。有兩個可用選項：
+該 **[!UICONTROL In case of error]** 欄位允許您指定在活動遇到錯誤時要執行的操作。 有兩個選項可供使用：
 
-* **暫停程序**：工作流程會自動暫停。The workflow status is then **Erroneous** and the color associated turns red. 問題解決後，重新啓動工作流程。
-* **忽略**：活動未執行，因此不會執行任何後續的活動(在同一個分支中)。這對循環工作可能很有用。如果分支程式將排程器置於上游，則應在下一個執行日期中觸發。
+* **暫停流程**:工作流程會自動暫停。 工作流程狀態接著是「 **錯誤** 」，而相關色彩會變成紅色。 問題解決後，請重新啟動工作流程。
+* **忽略**:不會執行活動，因此，後續的任何活動（位於同一個分支）也不會執行。 這可能對循環性任務非常有用。 如果分支有調度程式放在上游，則應在下次執行日期觸發。
 
-**[!UICONTROL Behavior]** 此欄位可讓您定義如果使用非同步任務，應遵循的程序。有兩個可用選項：
+該字 **[!UICONTROL Behavior]** 段允許您定義在使用非同步任務時要遵循的過程。 有兩個選項可供使用：
 
-* **授權多項工作**：可同時執行多個工作，即使第一個工作未完成。
-* **目前的工作具有優先順序**：當工作進行中時，這會優先。只要某個工作仍在進行中，就不會執行其他工作。
+* **授權多項任務**:即使第一個任務未完成，也可以同時執行多個任務。
+* **當前任務具有優先順序**:一旦任務進行中，就會優先處理。 只要一個任務仍在進行中，就不會執行其他任務。
 
-**[!UICONTROL Max. execution duration]** 欄位可讓您指定「30s」或「1h」之類的持續時間。如果活動在指定的持續時間之後尚未完成，則會觸發警報。這對工作流程的運作方式沒有影響。
+欄 **[!UICONTROL Max. execution duration]** 位可讓您指定持續時間，例如"30s"或"1h"。 如果活動在指定的持續時間過後仍未完成，則會觸發警報。 這不會影響工作流程的運作方式。
 
-**[!UICONTROL Affinity]** 欄位可讓您強制工作流程或工作流程活動在特定機器上執行。若要這麼做，您必須為工作流程或相關活動指定一或多個相關性。
+該 **[!UICONTROL Affinity]** 欄位允許您強制在特定電腦上執行工作流或工作流活動。 若要這麼做，您必須為相關的工作流程或活動指定一或數個相關性。
 
-**[!UICONTROL Time zone]** 欄位可讓您選取活動的時區。Adobe Campaign可讓您管理同一例項上多個國家之間的時間差異。當建立例項時，會設定套用的設定。
+該 **[!UICONTROL Time zone]** 欄位允許您選擇活動的時區。 Adobe Campaign可讓您管理同一執行個體上多個國家／地區之間的時間差異。 建立實例時，將配置所應用的設定。
 
-**「注釋** 」欄位是可讓您新增附註的免費欄位。
+「注 **釋** 」欄位是可讓您新增附註的免費欄位。

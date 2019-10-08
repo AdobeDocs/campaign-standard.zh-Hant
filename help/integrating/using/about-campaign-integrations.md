@@ -14,7 +14,7 @@ discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
 
@@ -29,11 +29,11 @@ source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 >
 > 依預設，Adobe Campaign已連結至Adobe Experience cloud帳戶。
 
-視您的環境而定，其他解決方案也可以連結至Adobe Experience Cloud。 它們以「組織」（又稱為「租客」）連結。
+其他解決方案也可以連結至Adobe Experience Cloud，視您的環境而定。 它們以「組織」（又稱為「租客」）連結。
 
 組織是可讓管理員設定群組和使用者，以及控制Experience cloud中單一登入的實體。 組織的運作方式類似登入公司，涵蓋所有Experience cloud產品和解決方案。 通常，組織就是您的公司名稱。 但是，公司可以有許多組織。 使用者和組織管理在 [Adobe Experience cloud說明入口網站中有詳細說明](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)。
 
-如果您想要將其他系統的資料流與Adobe Campaign整合，請參閱我們的 [API檔案](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)。
+如果您想要將其他系統的資料流與Adobe Campaign整合，請參閱我們的 [API檔案](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)。
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
   <tr> 
    <th> 解決方案<br /> </th> 
    <th> 使用案例<br /> </th> 
-   <th> 請參閱<br /> </th> 
+   <th> Refer to<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 

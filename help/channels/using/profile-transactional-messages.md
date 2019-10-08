@@ -14,7 +14,7 @@ discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d9357481a567cb0d11eea43211abf08a6dcb07d6
+source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
 
 ---
 
@@ -36,7 +36,9 @@ source-git-commit: d9357481a567cb0d11eea43211abf08a6dcb07d6
 
 >[!NOTE]
 >
->要訪問事務性消息，您必須具有管理權限或顯示在( **[!UICONTROL Message Center agents]** mcExec)安全組中。 疲勞規則與描述檔交易訊息相容。 請參 [閱疲勞規則](../../administration/using/fatigue-rules.md)。
+>要訪問事務性消息，您必須是安全組的一 **[!UICONTROL Administrators (all units)]** 部分。
+>
+>疲勞規則與描述檔交易訊息相容。 請參 [閱疲勞規則](../../administration/using/fatigue-rules.md)。
 
 ## 傳送描述檔交易訊息 {#sending-a-profile-transactional-message}
 

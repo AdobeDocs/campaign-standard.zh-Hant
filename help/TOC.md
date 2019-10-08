@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: 最終用戶
 user-guide-title: Adobe Campaign standard說明
 translation-type: tm+mt
-source-git-commit: 41b298ad4f0a75bc196d050955c7edf221877a6f
+source-git-commit: 57a0d20697461fb87b61c38dfd1779fadd565888
 
 ---
 
@@ -36,30 +36,30 @@ source-git-commit: 41b298ad4f0a75bc196d050955c7edf221877a6f
       + [時間軸](start/using/timeline.md)
    + 管理範本 {#managing-templates}
       + [關於範本](start/using/about-templates.md)
-      + [Creating a new template](start/using/creating-a-new-template.md)
+      + [建立新範本](start/using/creating-a-new-template.md)
       + [建立多語言範本](start/using/creating-a-multilingual-template.md)
-      + [Using a template](start/using/using-a-template.md)
+      + [使用範本](start/using/using-a-template.md)
    + 教學課程 {#tutorials}
       + [逐步指南](start/using/step-by-step-guides.md)
       + [操作說明短片](start/using/how-to-videos.md)
-+ Profiles and audiences {#profiles-and-audiences}
-   + [About profiles and audiences](audiences/using/about-profiles-and-audiences.md)
++ 個人檔案與受眾 {#profiles-and-audiences}
+   + [關於個人檔案和觀眾](audiences/using/about-profiles-and-audiences.md)
    + 管理用戶檔案 {#managing-profiles}
       + [關於用戶檔案](audiences/using/about-profiles.md)
-      + [Creating profiles](audiences/using/creating-profiles.md)
-      + [Editing profiles](audiences/using/editing-profiles.md)
+      + [建立描述檔](audiences/using/creating-profiles.md)
+      + [編輯設定檔](audiences/using/editing-profiles.md)
       + [經整合的客戶用戶檔案](audiences/using/integrated-customer-profile.md)
       + [有效用戶檔案](audiences/using/active-profiles.md)
-   + Managing audiences {#managing-audiences}
-      + [About audiences](audiences/using/about-audiences.md)
-      + [Creating audiences](audiences/using/creating-audiences.md)
-      + [Selecting an audience in a message](audiences/using/selecting-an-audience-in-a-message.md)
-   + Managing subscriptions {#managing-subscriptions}
-      + [About subscriptions](audiences/using/about-subscriptions.md)
-      + [Creating a service](audiences/using/creating-a-service.md)
+   + 管理觀眾 {#managing-audiences}
+      + [關於觀眾](audiences/using/about-audiences.md)
+      + [建立觀眾](audiences/using/creating-audiences.md)
+      + [在訊息中選取對象](audiences/using/selecting-an-audience-in-a-message.md)
+   + 管理訂閱 {#managing-subscriptions}
+      + [關於訂閱](audiences/using/about-subscriptions.md)
+      + [建立服務](audiences/using/creating-a-service.md)
       + [推廣服務](audiences/using/promoting-a-service.md)
-      + [Monitoring subscriptions](audiences/using/monitoring-subscriptions.md)
-      + [Confirming subscription to a service](audiences/using/confirming-subscription-to-a-service.md)
+      + [監控訂閱](audiences/using/monitoring-subscriptions.md)
+      + [確認服務訂閱](audiences/using/confirming-subscription-to-a-service.md)
    + 瞭解選擇加入和選擇退出程式 {#understanding-opt-in-and-opt-out-processes}
       + [關於促銷活動中的選擇加入和選擇退出](audiences/using/about-opt-in-and-opt-out-in-campaign.md)
       + [管理促銷活動中的選擇加入和選擇退出](audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
@@ -88,38 +88,34 @@ source-git-commit: 41b298ad4f0a75bc196d050955c7edf221877a6f
       + [準備和傳送推播通知](channels/using/preparing-and-sending-a-push-notification.md)
       + [自訂推播通知](channels/using/customizing-a-push-notification.md)
       + [建立多語言推播通知](channels/using/creating-a-multilingual-push-notification.md)
-      + [Creating and updating profile information based on mobile application data](channels/using/updating-profile-with-mobile-app-data.md)
-   + In-App messaging {#in-app-messaging}
+      + [基於移動應用程式資料建立和更新配置檔案資訊](channels/using/updating-profile-with-mobile-app-data.md)
+   + 應用程式內訊息 {#in-app-messaging}
       + [關於應用程式內訊息](channels/using/about-in-app-messaging.md)
-      + [Preparing and sending an In-App message](channels/using/preparing-and-sending-an-in-app-message.md)
-      + [Customizing an In-App message](channels/using/customizing-an-in-app-message.md)
-   + Direct mail {#direct-mail}
-      + [About direct mail](channels/using/about-direct-mail.md)
-      + [Return to sender](channels/using/return-to-sender.md)
-      + [Creating the direct mail](channels/using/creating-the-direct-mail.md)
-      + [Defining the direct mail audience](channels/using/defining-the-direct-mail-audience.md)
-      + [Defining the direct mail content](channels/using/defining-the-direct-mail-content.md)
-      + [Example of direct mail in a workflow](channels/using/example-of-direct-mail-in-a-workflow.md)
-   + Transactional messaging {#transactional-messaging}
-      + [About transactional messaging](channels/using/about-transactional-messaging.md)
-      + [Event transactional messages](channels/using/event-transactional-messages.md)
-      + [Profile transactional messages](channels/using/profile-transactional-messages.md)
+      + [準備和傳送應用程式內訊息](channels/using/preparing-and-sending-an-in-app-message.md)
+      + [自訂應用程式內訊息](channels/using/customizing-an-in-app-message.md)
+   + 直接郵件 {#direct-mail}
+      + [關於直接郵件](channels/using/about-direct-mail.md)
+      + [返回發件人](channels/using/return-to-sender.md)
+      + [建立直接郵件](channels/using/creating-the-direct-mail.md)
+      + [定義直接郵件對象](channels/using/defining-the-direct-mail-audience.md)
+      + [定義直接郵件內容](channels/using/defining-the-direct-mail-content.md)
+      + [工作流中的直接郵件示例](channels/using/example-of-direct-mail-in-a-workflow.md)
+   + 交易式訊息 {#transactional-messaging}
+      + [關於交易式訊息](channels/using/about-transactional-messaging.md)
+      + [事件交易訊息](channels/using/event-transactional-messages.md)
+      + [描述交易訊息](channels/using/profile-transactional-messages.md)
       + [交易式推播通知](channels/using/transactional-push-notifications.md)
       + [後續訊息](channels/using/follow-up-messages.md)
    + 著陸頁面 {#landing-pages}
       + [關於著陸頁面](channels/using/about-landing-pages.md)
-      + [著陸頁面限制](channels/using/landing-page-limitations.md)
+      + [設定著陸頁面的主要步驟](channels/using/main-steps-to-set-up-a-landing-page.md)
+      + [關於著陸頁面範本](channels/using/landing-page-templates.md)
       + [設計著陸頁面](channels/using/designing-a-landing-page.md)
+      + [管理著陸頁面表單資料](channels/using/managing-landing-page-form-data.md)
       + [共用著陸頁面](channels/using/sharing-a-landing-page.md)
-      + [資料儲存與協調](channels/using/data-storage-and-reconciliation.md)
       + [設定雙重選擇加入程式](channels/using/setting-up-a-double-opt-in-process.md)
-      + [關於著陸頁面內容設計](channels/using/about-landing-page-content-design.md)
-      + [著陸頁面內容編輯器介面](channels/using/landing-page-content-editor-interface.md)
-      + [管理著陸頁面結構和樣式](channels/using/managing-landing-page-structure-and-style.md)
-      + [變更著陸頁面表單資料屬性](channels/using/changing-a-landing-page-form-data-properties.md)
-      + [在著陸頁面中定義動態內容](channels/using/defining-dynamic-content-in-a-landing-page.md)
 + 設計電子郵件內容 {#designing-content}
-   + [Campaign電子郵件設計人員](designing/using/designing-content-in-adobe-campaign.md)
+   + [Campaign emailDesigner](designing/using/designing-content-in-adobe-campaign.md)
    + [快速入門](designing/using/quick-start.md)
    + [使用與建議](designing/using/overview.md)
    + [定義主旨行和傳送者](designing/using/subject-line.md)
@@ -134,22 +130,22 @@ source-git-commit: 41b298ad4f0a75bc196d050955c7edf221877a6f
    + [管理影像](designing/using/images.md)
 + 測試和傳送 {#testing-and-sending}
    + [關於使用促銷活動傳送訊息](sending/using/about-sending-messages-with-campaign.md)
-   + Preparing and testing messages {#preparing-and-testing-messages}
-      + [Previewing messages](sending/using/previewing-messages.md)
-      + [Preparing the send](sending/using/preparing-the-send.md)
-      + [Managing test profiles and sending proofs](sending/using/managing-test-profiles-and-sending-proofs.md)
-      + [Testing the subject line of an email](sending/using/testing-subject-line-email.md)
-      + [Email rendering](sending/using/email-rendering.md)
-   + Sheduling messages {#sheduling-messages}
-      + [About scheduling messages](sending/using/about-scheduling-messages.md)
-      + [Optimizing the sending time](sending/using/optimizing-the-sending-time.md)
-      + [Sending messages at the recipient's time zone](sending/using/sending-messages-at-the-recipient-s-time-zone.md)
-      + [Computing the sending date](sending/using/computing-the-sending-date.md)
-   + Sending and tracking messages {#sending-and-tracking-messages}
-      + [Confirming the send](sending/using/confirming-the-send.md)
-      + [Tracking messages](sending/using/tracking-messages.md)
+   + 準備和測試訊息 {#preparing-and-testing-messages}
+      + [預覽訊息](sending/using/previewing-messages.md)
+      + [準備傳送](sending/using/preparing-the-send.md)
+      + [管理測試設定檔和傳送校樣](sending/using/managing-test-profiles-and-sending-proofs.md)
+      + [測試電子郵件的主旨行](sending/using/testing-subject-line-email.md)
+      + [電子郵件轉換](sending/using/email-rendering.md)
+   + 排程訊息 {#sheduling-messages}
+      + [關於調度消息](sending/using/about-scheduling-messages.md)
+      + [最佳化傳送時間](sending/using/optimizing-the-sending-time.md)
+      + [在收件者的時區傳送訊息](sending/using/sending-messages-at-the-recipient-s-time-zone.md)
+      + [計算發送日期](sending/using/computing-the-sending-date.md)
+   + 傳送和追蹤訊息 {#sending-and-tracking-messages}
+      + [確認傳送](sending/using/confirming-the-send.md)
+      + [追蹤訊息](sending/using/tracking-messages.md)
    + 監控消息 {#monitoring-messages}
-      + [Monitoring a delivery](sending/using/monitoring-a-delivery.md)
+      + [監控傳送](sending/using/monitoring-a-delivery.md)
       + [在失敗時接收警報](sending/using/receiving-alerts-when-failures-happen.md)
       + [瞭解交付失敗](sending/using/understanding-delivery-failures.md)
       + [瞭解隔離管理](sending/using/understanding-quarantine-management.md)
@@ -179,16 +175,16 @@ source-git-commit: 41b298ad4f0a75bc196d050955c7edf221877a6f
    + 自訂報表 {#customizing-reports}
       + [新增面板](reporting/using/adding-panels.md)
       + [新增視覺化](reporting/using/adding-visualizations.md)
-      + [Adding components](reporting/using/adding-components.md)
-      + [Creating a custom profile dimension](reporting/using/creating-a-custom-profile-dimension.md)
-      + [Creating a report based on workflow segments](reporting/using/creating-a-report-workflow-segment.md)
-+ Integrating with Adobe Cloud {#integrating-with-adobe-cloud}
-   + [About Campaign integrations](integrating/using/about-campaign-integrations.md)
-   + Working with Campaign and Experience Manager {#working-with-campaign-and-experience-manager}
+      + [新增元件](reporting/using/adding-components.md)
+      + [建立自訂描述檔維度](reporting/using/creating-a-custom-profile-dimension.md)
+      + [根據工作流程區段建立報表](reporting/using/creating-a-report-workflow-segment.md)
++ 與Adobe cloud整合 {#integrating-with-adobe-cloud}
+   + [關於促銷活動整合](integrating/using/about-campaign-integrations.md)
+   + 使用Campaign和Experience Manager {#working-with-campaign-and-experience-manager}
       + [與Experience Manager整合](integrating/using/integrating-with-experience-manager.md)
       + [在Experience manager中建立促銷活動表單 ](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
-   + Working with Campaign and Target {#working-with-campaign-and-target}
-      + [About Campaign-Target integration](integrating/using/about-campaign-target-integration.md)
+   + 使用促銷活動和目標 {#working-with-campaign-and-target}
+      + [關於Campaign-Target整合](integrating/using/about-campaign-target-integration.md)
       + [設定Campaign-Target整合](integrating/using/configuring-the-campaign-target-integration.md)
       + [新增Target動態內容](integrating/using/adding-target-dynamic-content.md)
    + 使用Campaign和Analytics {#working-with-campaign-and-analytics}
@@ -323,6 +319,7 @@ source-git-commit: 41b298ad4f0a75bc196d050955c7edf221877a6f
       + [疲勞規則](administration/using/fatigue-rules.md)
       + [控制規則](administration/using/control-rules.md)
    + 應用程式設定 {#application-settings}
+      + [關於促銷活動標準設定](administration/using/about-campaign-standard-settings.md)
       + [外部帳戶](administration/using/external-accounts.md)
       + [促銷活動中的定位映射](administration/using/target-mappings-in-campaign.md)
       + [技術工作流程](administration/using/technical-workflows.md)

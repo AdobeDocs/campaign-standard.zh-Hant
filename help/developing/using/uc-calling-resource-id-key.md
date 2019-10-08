@@ -4,7 +4,7 @@ seo-title: 使用複合標識鍵調用資源
 description: 使用複合標識鍵調用資源
 seo-description: 瞭解如何使用複合識別碼呼叫資源
 translation-type: tm+mt
-source-git-commit: 339dfbcc9b6443211079d116eb3e007db69c8b1a
+source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
 
@@ -25,14 +25,14 @@ source-git-commit: 339dfbcc9b6443211079d116eb3e007db69c8b1a
 
 * [建立或擴展資源](../../developing/using/creating-or-extending-the-resource.md)
 * [定義標識鍵](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
-* [Campaign Standard REST API](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
+* [Campaign Standard REST API](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
 
 ## 步驟1:配置標識密鑰{#step-1-configure-the-identification-key}
 
 >[!NOTE]
 > 配置標識密鑰時的全局概念將在本節 [中詳細說明](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)。
 
-1. 在設定識別金鑰之前，請確定資源已擴充至所需欄位，且已發佈。 For more on this, refer to [this section](../../developing/using/creating-or-extending-the-resource.md).
+1. 在設定識別金鑰之前，請確定資源已擴充至所需欄位，且已發佈。 如需詳細資訊，請參閱[本小節](../../developing/using/creating-or-extending-the-resource.md)。
 
 1. 轉到/ **[!UICONTROL Administration]** / **[!UICONTROL Developement]** / **[!UICONTROL Custom resources]** 菜單，然後開啟資 **[!UICONTROL Profile]** 源。
 
@@ -47,7 +47,7 @@ source-git-commit: 339dfbcc9b6443211079d116eb3e007db69c8b1a
    ![](assets/uc_idkey3.png)
 
    >[!NOTE]
-   > 如果要在配置檔案的介面中顯示兩個自定義欄位，請配置該選 **[!UICONTROL Screen definition]** 項卡。 For more on this, refer to [this section](../../developing/using/configuring-the-screen-definition.md).
+   > 如果要在配置檔案的介面中顯示兩個自定義欄位，請配置該選 **[!UICONTROL Screen definition]** 項卡。 如需詳細資訊，請參閱[本小節](../../developing/using/configuring-the-screen-definition.md)。
 
 1. 您現在可以設定篩選定義，以便能夠使用其識別碼呼叫資源。
 
@@ -106,4 +106,4 @@ GET /profileAndServicesExt/<resourceName>/by<filterName>?<param1_parameter>=<val
 GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byidentification_key?category_parameter=spring&crm_id_parameter=123456
 ```
 
-如需詳細資訊，請參閱 [Campaign Standard REST API檔案](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering)。
+如需詳細資訊，請參閱 [Campaign Standard REST API檔案](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering)。

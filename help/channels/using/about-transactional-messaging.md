@@ -14,7 +14,7 @@ discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
 
 ---
 
@@ -46,7 +46,7 @@ Adobe Campaign提供兩種交易訊息：
 >
 >Adobe Campaign會優先處理交易訊息，而非其他傳送。
 
-Adobe Campaign Standard API也提供交易式訊息。 如需詳細資訊，請參閱專用 [檔案](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#about-transactional-messaging)。
+Adobe Campaign Standard API也提供交易式訊息。 如需詳細資訊，請參閱專用 [檔案](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#about-transactional-messaging)。
 
 ## 事務性消息傳遞操作原則 {#transactional-messaging-operating-principle}
 
@@ -63,6 +63,10 @@ Adobe Campaign可讓您傳送通知電子郵件給已將產品新增至購物車
 執行完所有這些步驟後，當使用者離開網站而未在購物車中訂購產品時，他們會自動收到通知電子郵件。
 
 ## 交易式訊息限制 {#transactional-messaging-limitations}
+
+>[!NOTE]
+>
+>要訪問事務性消息，您必須具有管理權限。
 
 ### 設計與出版 {#design-and-publication}
 
@@ -95,13 +99,13 @@ Adobe Campaign可讓您傳送通知電子郵件給已將產品新增至購物車
 
 ### 權限與品牌 {#permissions-and-branding}
 
-在品牌管理方面 [](../../administration/using/branding.md) ，交易式訊息提供的彈性比標準訊息要小。 Adobe建議將交易訊息中使用的所有品牌連結至 **[!UICONTROL All]** 組織單位。 如需詳細資訊，請閱讀以下詳細說明。
+在品牌管理方面 [](../../administration/using/branding.md) ，交易式訊息提供的彈性比標準訊息要小。 Adobe建議將交易訊息中使用的所有品牌連結至 **[!UICONTROL All]** 組織 [單位](../../administration/using/organizational-units.md)。 如需詳細資訊，請閱讀以下詳細說明。
 
 編輯交易訊息時，您可以將訊息連結至品牌，以自動套用一些參數，例如品牌名稱或品牌標誌。 預設 **[!UICONTROL Default brand]** 情況下，在事務性消息屬性中將選中。
 
 ![](assets/message-center_branding.png)
 
-要訪問事務性消息，您必須是( **[!UICONTROL Message Center agents]** mcExec)安全組的一部分，該組與組織單 **[!UICONTROL Message Center]** 位 [連結](../../administration/using/organizational-units.md)。 因此，事務性消息中使用的所有對象（包括品牌）必須從組織單位中可見，這表 **[!UICONTROL Message Center]** 示這些對象必須位於 **[!UICONTROL Message Center]** 或組 **[!UICONTROL All]** 織單位中。
+事務性消息中使用的所有對象（包括品牌）都必須從組織單位中可見，這表 **[!UICONTROL Message Center]** 示這些對象必須位於 **[!UICONTROL Message Center]** 或組 **[!UICONTROL All]** 織單位中。
 
 但是，如果消息屬性中選擇的品牌連結到與或不同的組織單位 **[!UICONTROL Message Center]****[!UICONTROL All]**，則會導致錯誤，您將無法發送事務性消息。
 

@@ -15,7 +15,7 @@ context-tags: 服務，嚮導；服務，主
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: da59fad19bcf35b63afdfc6389be527c27f21fc3
+source-git-commit: 60424543028fa4df548d6d5bcfb1e9acc4131132
 
 ---
 
@@ -36,25 +36,25 @@ source-git-commit: da59fad19bcf35b63afdfc6389be527c27f21fc3
 
 1. 填寫欄 **[!UICONTROL Service label]** 位。 使用自訂確認訊息時，服務標籤是必備的。
 
-1. 為預訂和取消預訂選擇確認消息模板。 Three modes are available:
+1. 為預訂和取消預訂選擇確認消息模板。 提供三種模式：
 
-   * **[!UICONTROL No message]**: this mode allows you to create a service without a confirmation message.
-   * **[!UICONTROL Default message]**: this mode will use the default subscription or unsubscription confirmation transactional message. The default confirmation messages are generic and will be the same for all services that use the default mode.
+   * **[!UICONTROL No message]**:此模式允許您建立不帶確認消息的服務。
+   * **[!UICONTROL Default message]**:此模式將使用預設訂閱或取消訂閱確認事務性消息。 預設確認消息是通用的，對於使用預設模式的所有服務都是相同的。
 
-      >[NOTE]
+      >[!NOTE]
       >
-      >You can modify a default message by clicking its label in the  section or by selecting it from the Adobe Campaign transactional message list, after checking the  box.**[!UICONTROL Service properties]****[!UICONTROL Show internal transactional messages]**
+      >您可以在勾選方塊後，按一下區段中的標籤，或從 **[!UICONTROL Service properties]** Adobe Campaign交易訊息清單中選取預設訊息，以修改預設 **[!UICONTROL Show internal transactional messages]** 訊息。
 
-   * **[!UICONTROL Custom message]**: this mode allows you to handle custom confirmation messages, specific for each service. You then select the **[!UICONTROL Custom subscription event configuration]** which is associated with a specific [transactional message](../../channels/using/about-transactional-messaging.md) template. For more on this, see Confirming subscription to a service.[](../../audiences/using/confirming-subscription-to-a-service.md)
+   * **[!UICONTROL Custom message]**:此模式允許您處理特定於每個服務的自定義確認消息。 然後，選擇與 **[!UICONTROL Custom subscription event configuration]** 特定事務性消息模板 [關聯的](../../channels/using/about-transactional-messaging.md) 。 如需詳細資訊，請參 [閱確認服務訂閱](../../audiences/using/confirming-subscription-to-a-service.md)。
 
-1. Save the service. It is now ready to be used.
+1. 儲存服務。 現在已可供使用。
 
-Once a service has been created, you can start promoting it.
+建立服務後，您就可以開始促銷它。
 
-**Related topics:**
+**相關主題：**
 
-* [Managing a service and subscriptions video](https://helpx.adobe.com/campaign/kt/acs/using/acs-services-and-subscriptions-feature-video-use.html)
-* [Promoting a service](../../audiences/using/promoting-a-service.md)
+* [管理服務與訂閱視訊](https://helpx.adobe.com/campaign/kt/acs/using/acs-services-and-subscriptions-feature-video-use.html)
+* [推廣服務](../../audiences/using/promoting-a-service.md)
 * [建立由訂閱者建立的觀眾](../../audiences/using/creating-audiences.md#creating-list-audiences)
 * [將表單連結至著陸頁面中的服務](../../channels/using/designing-a-landing-page.md#linking-a-form-to-a-service)
 

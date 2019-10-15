@@ -14,7 +14,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c1ffc4d5ab10cc2210b6d47466e556a1dcf9c722
+source-git-commit: b43f43f300f14c9abe1cc471a74586e19841b6e1
 
 ---
 
@@ -49,8 +49,7 @@ source-git-commit: c1ffc4d5ab10cc2210b6d47466e556a1dcf9c722
    <p>除了Adobe Campaign中已提供的隱私權功能（包括同意管理、資料保留設定和使用者角色）外，我們還將利用這個機會加入其他功能，以協助您做好CCPA的準備：</p>
    <ul>
     <li>存取權與刪除權：我們運用了為GDPR新增的功能。 <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#righttoaccess">進一步瞭解</a> </li>
-    <li><p>建立隱私權要求時，您現在可以選取規則類型：GDPR或CCPA。<p>
-      <p><strong>注意</strong>:此新欄位為必填欄位。 如果您使用促銷活動隱私權API來存取和刪除請求，則必須將其納入裝載中。 請參閱 <a href="https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#privacy-management">API檔案</a>。</p></li>
+    <li><p>建立隱私權要求時，隱私權核心服務中已新增規則類型（GDPR或CCPA）。 此方法應用於所有存取和刪除請求。 不建議使用促銷活動API和介面來存取和刪除請求。 不過，如果您仍需在19.4中使用這些方法，請注意，規則類型已新增至「促銷活動」介面和API，且為強制性。 對於介面，預設值會設為GDPR。 若是API，您必須將此欄位納入裝載中。 請參閱 <a href="https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#privacy-management">API檔案</a>。</p></li>
     <li>「設 <strong>定檔」資源已新增「CCPA選擇退出</strong> 」欄位，讓Adobe Campaign使用者追蹤消費者是否選擇退出個人資訊銷售。 <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa">進一步瞭解</a>。</li>
   </ul>
 </td> 

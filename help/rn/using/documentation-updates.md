@@ -14,7 +14,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 57a0d20697461fb87b61c38dfd1779fadd565888
+source-git-commit: 6650d44a79b9f31d860ed60e3683bc7c4da0c020
 
 ---
 
@@ -26,6 +26,24 @@ source-git-commit: 57a0d20697461fb87b61c38dfd1779fadd565888
 本頁列出每個Adobe Campaign Standard版本的所有新功能和檔案更新。
 
 您也可以參閱Adobe Campaign發 [行說明](../../rn/using/release-notes.md)。
+
+## 發行版本19.4 - 2019年10月 {#release-19-4---october-2019}
+
+### 發行中包含的新功能 {#new-capabilities-included-in-the-release-20}
+
+加州消費者隱私法(CCPA)-詳 [細內容](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa)
+
+Microsoft Dynamics 365整合(GA)-詳 [細資訊](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
+
+### 此版本隨附的其他檔案更新 {#other-documentation-updates-coming-with-the-release-18}
+
+「促銷活動標準」和「傳統型」的錯誤訊息清單已更新。 [閱讀更多資訊](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+
+GDPR快速入門手冊已經過改進並充實。 它現在是包含GDPR和CCPA的隱私權管理檔案。 [閱讀更多資訊](https://helpx-internal.corp.adobe.com/content/help/en/campaign/kb/campaign-privacy.html)
+
+已新增一個圖表，其中顯示交易訊息發佈程式。 [閱讀更多資訊](../../channels/using/about-transactional-messaging.md#transactional-messaging-pub-process)
+
+已更新「傳送最佳實務」快速入門手冊。 [閱讀更多資訊](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 
 ## 檔案更新- 2019年10月 {#doc-updates-october-2019}
 

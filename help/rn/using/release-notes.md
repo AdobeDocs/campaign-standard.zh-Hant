@@ -14,18 +14,139 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: c1ffc4d5ab10cc2210b6d47466e556a1dcf9c722
 
 ---
 
 
 # 發行說明{#release-notes}
 
-正在尋找Adobe Campaign Standard的特定版本？
+本頁列出了所有2019年版本及其新功能和修補程式。 此外還包含控制面板更新。
 
-每個版本都提供新功能和修補程式。 按一下某個版本以檢視其內容。 請洽 [詢Release Planning](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) ，以瞭解下一版何時發行。
+其他資源：
 
-檢視Adobe Campaign standard的 [最新檔案](../../rn/using/documentation-updates.md) 更新。 如果您要尋找舊版，請參閱下列頁面： [2018發行說明](../../rn/using/release-notes-2018.md)、 [2017發行說明](../../rn/using/release-notes-2017.md)、 [2015-2016發行說明](../../rn/using/release-notes-2015-2016.md)。 另請參閱「已過時」和「已 [移除功能」的清單](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)。
+* [促銷活動發行計畫](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
+* [最新檔案更新](../../rn/using/documentation-updates.md)
+* [已過時和已移除的功能](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
+* [控制面板](https://helpx.adobe.com/campaign/kb/control-panel.html)
+* 舊版注意事項： [2018](../../rn/using/release-notes-2018.md)、 [2017](../../rn/using/release-notes-2017.md)、 [2015-2016](../../rn/using/release-notes-2015-2016.md)
+
+## 發行版本19.4 - 2019年10月 {#release-19-4---october-2019}
+
+### 新增功能？ {#what-s-new-5}
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> 功能<br /> </th> 
+   <th> 說明<br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> 加州消費者隱私法(CCPA)<br /> </td> 
+   <td> <p>CCPA是加州州立的新隱私權法，協調並現代化將於2020年1月1日生效的資料保護要求。 CCPA適用於持有居住在加州之資料主體資料的Adobe Campaign客戶。</p>
+   <p>除了Adobe Campaign中已提供的隱私權功能（包括同意管理、資料保留設定和使用者角色）外，我們還將利用這個機會加入其他功能，以協助您做好CCPA的準備：</p>
+   <ul>
+    <li>存取權與刪除權：我們運用了為GDPR新增的功能。 <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#righttoaccess">進一步瞭解</a> </li>
+    <li><p>建立隱私權要求時，您現在可以選取規則類型：GDPR或CCPA。<p>
+      <p><strong>注意</strong>:此新欄位為必填欄位。 如果您使用促銷活動隱私權API來存取和刪除請求，則必須將其納入裝載中。 請參閱 <a href="https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#privacy-management">API檔案</a>。</p></li>
+    <li>「設 <strong>定檔」資源已新增「CCPA選擇退出</strong> 」欄位，讓Adobe Campaign使用者追蹤消費者是否選擇退出個人資訊銷售。 <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa">進一步瞭解</a>。</li>
+  </ul>
+</td> 
+  </tr> 
+  <tr> 
+   <td> Microsoft Dynamics 365整合(GA)<br /> </td> 
+   <td> 
+    <p>Adobe Campaign standard與Microsoft Dynamics 365的整合現已推出。 您將能夠將您的連絡人和自訂實體記錄從Dynamics 365傳輸至Campaign，並從Campaign將電子郵件事件資料傳回Dynamics 365，以便更好地協調銷售／行銷。</p>
+    <p>請參閱詳細 <a href="https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html">檔案</a> ，以設定此整合。</p>
+  </td>
+  </tr> 
+ </tbody> 
+</table>
+
+### 改進 {#improvements-3}
+
+* 動態報告的同意彈出式選單已更新，加入Adobe Campaign Standard和Microsoft Dynamics 365整合。 接受條款後，使用Adobe Campaign Standard / Microsoft Dynamics 365整合和動態報告時，將會包含描述檔資料。 [閱讀詳細內容](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) (CAMP-29766)
+* 修正在接收傳送警報時顯示錯誤聯絡日期的問題。
+* 當使用未知的上下文參數提交交易訊息事件時，Campaign現在會傳回"400"錯誤訊息，而非"500"。 (CAMP-28632)
+* 動態報 **表中已新增** 「排除」校樣區段。 現在預設會選取此區段來篩選報表。 [閱讀更多資訊](../../reporting/using/list-of-components-.md#segments)
+* 「 **訊息過期** 」選項已新增至推播通知。 它可讓您指定訊息不再由Apple(APNS)或Android(FCM)傳送的到期日。 [閱讀更多資訊](../../channels/using/customizing-a-push-notification.md#add-expiration-date)
+* 已對「載入檔案」活 **動進行改** 進：工作流程記錄檔已更清楚、更詳細地說明在無法載入檔案時發生的錯誤。 啟用「保留檔案中的拒 **絕」選項時產生的去話轉場** ，已重新命 **名為「拒絕」**。 [閱讀更多資訊](../../automating/using/load-file.md#load-files)
+* 已將多語言相關記錄檔新增至傳送記錄檔，以更清楚瞭解因已上傳CSV檔案中缺少語言而造成的傳送失敗。
+
+### 安全性增強功能 {#security-enhancements-3}
+
+* 修正透過隱私權要求刪除量化描述檔資訊時，會移除隔離清單中除電子郵件地址以外的所有資料的問題。
+* 已增強安全性，以防止在電子郵件標題中插入。
+* 已增強安全性，以防範可使用xtk運算式（電子郵件HTML、文字內容與主題、簡訊和推播通知內容）的SSRF攻擊。
+
+### 電子郵件設計人員增強功能 {#email-designer-enhancements-4}
+
+* 使用電子郵件設計工具編輯連結時，您現在可以使用「底線」 **連結選項** 。 此外， **Target** 屬性已新增，預設值設為 **None**。 [閱讀更多資訊](../../designing/using/styles.md#about-styling-links)
+* 修正電子郵件內文文字元件中連結的色彩問題。 (CAMP-37330)
+* 修正刪除影像時無法移除相關連結的問題。 (CAMP-37234)
+* 修正無法在條件中儲存動態內容 **「順序** 」設定的修改的問題。 (CAMP-36883)
+* 已修正搜尋著陸頁面時的問題。 搜索已從最初建立的50個擴展到所有資料庫。 (CAMP-36839)
+* 修正在「寄件者」中儲存電子郵件傳送者修改的 **問題：名稱** 欄位。 (CAMP-36606)
+* 轉盤元件相容性警告已修改，以反映支援的電子郵件用戶端。
+* 修正行動裝置上的顯示問題。 height屬性現在一律設為「height:auto」。 (CAMP-35497)
+* 修正從結構元件刪除片段時，HTML中保留樣式和中繼標籤的問題。 (CAMP-35390)
+* 修正更新可重複使用內容時的片段問題。 (CAMP-35186)
+* 修正在電子郵件中僅顯示行動裝置條件式內容的問題。 (CAMP-35155)
+* 修正隨機顯示零寬無斷格的問題。 (CAMP-35116)
+* 修正「另存為片段」對話方塊中按 **鈕位置的問題** 。
+* 修正在影像標題和替代文字中新增HTML標籤時的預覽問題。
+* 修正在電子郵件設計工具中編輯舊版編輯器電子郵件中建立之連結時的問題。
+* 修正內容中留下重複樣式標籤的問題。
+* 修正在電子郵件中插入個人化欄位時，日期格式的問題。
+* 修正從HTML模式切換為純文字時的儲存問題。
+* 修正按一下在內嵌樣式屬性面板中新增邊界值的鎖定和解除鎖定選項的問題。
+* 修正行動預覽大小的問題，以提高演算效果。
+* 修正範本和片段中按鈕大小的問題。
+* 已修正插入按鈕元件時影像大小的問題。
+
+### 其他變更 {#other-changes-3}
+
+* 已對齊傳送KPI頁面和動態報告頁面上顯示資料的預設時間範圍，以防止報告結果不一致。 (CAMP-35148)
+* 當應用程式憑證過期時，記錄檔中已新增錯誤訊息。
+* 裝載計算預覽現在包含自訂欄位大小，以防止推播通知失敗。 (CAMP-35303)
+* 現在，「載入 **檔案** 」活動中的「拒絕檔案 **」檔案名稱可以與「檔案匯出****** 」活動相同地個人化。
+* 所有未連結至任何現成可用實體的自訂實體現在都可透過API存取。
+* 已改善大型資源的資料庫效能。
+* 傳送SMS訊息時發生的一些錯誤說明已更清楚。 (CAMP-36558)
+* 現在，在執行直接或通過多個活動連接到自身的工作流的 **Scheduler** activity時，會顯示一條錯誤消息，因為這可能導致實例的工作流伺服器卡住。
+* 已做出改進，幫助排除事務性消息傳送故障：「資料」連結在事件設定畫面中已重新命名為「上次交易事件」，現在會以遞減順序列出已接收的事件。 此外，還建立了新的事務事件狀態："targetingFailed"。 當事務性消息傳遞模組無法豐富用於消息定位的連結時，事務性事件現在將處於此新狀態（而不是「routingFailed」狀態）。
+* 已對介面進行改良，以限制對特定地理或組織單位的著陸頁面存取。 其目的是警告著陸頁面可能受可見性條件所限：現在，在建立著陸頁面時，必須選擇地理單位和組織單位。 選取裝置後，現在會顯示包含相關資訊的橫幅。 測試著陸頁面時顯示的錯誤訊息已變得更清楚。
+* 在Campaign Standard API中，如果索引鍵值與原始索引鍵不同，或您使用自己的商業索引鍵作為URI而非Adobe提供的商業索引鍵，則無法使用PATCH操作來修改自訂索引鍵。
+* "阿爾巴尼亞——馬其頓"語已添加到首選語言下拉清單中。 (CAMP-35396)
+
+### 修補程式 {#patches-4}
+
+* 修正排程報表無法排序或搜尋的問題。
+* 修正觸發器規則造成AND和OR規則混合的問題。
+* 修正Mobile屬性在啟動中顯示為「已刪除」的問題。 (CAMP-35382)
+* 修正Adobe Launch行動裝置屬性無法在Adobe Campaign中同步的問題。 (CAMP-35411、CAMP-35089、CAMP-35014、CAMP-35487)
+* 修正當事件富含描述檔資料時，交易推播訊息失敗的問題。 (CAMP-34385)
+* 修正行動裝置屬性無法在多個環境上同步的問題。 (CAMP-37060)
+* 修正在推播通知中使用連絡人日期公式選取範本的問題。 (CAMP-35300)
+* 修正訊息傳送服務可能當機的問題。 (CAMP-35287)
+* 已修正重複性直接郵件的問題，這些郵件全都以第一個事件日期定義。 (CAMP-35139)
+* 修正新擴充的描述檔 **自訂資源** ，無法用於查詢的問題。 (CAMP-35119)
+* 已修正啟 **用「共用配置** 」的實例的「修復」資料庫結構模式。 (CAMP-35118)
+* 修正在Broadlogs上新增匯整資料時，導致SQL記錄檔錯誤的問題。 (CAMP-35034)
+* 修正建立區段活動時的轉場 **問題** 。 (CAMP-35033)
+* 修正 **Query** 活動中， **encryption_aescbcDecrypt函式無法解密****** encryption_aescbcEncrypt函式的問題。 (CAMP-34952)
+* 修正無法在傳送中顯 **示追蹤記錄** 的問題。 (CAMP-34855)
+* 修正使用「傳送時間最佳化」自訂日期公式時 **** ，由於工作流程的其他資料發生錯誤，推播通知無法傳送的問題。 (CAMP-30336)
+* 修正無法發佈自訂資源的問題。 (CAMP-37425)
+* 修正管理員使用者無法修改匯入封裝的問題。  (CAMP-37176)
+* 修正當傳送活動連結至空白的「讀取」對象活動時，工作流程無法傳送校樣 **的問題** 。 (CAMP-37164)
+* 修正自訂資源無法匯入新環境的問題。 (CAMP-36506)
+* 修正Hot Click報表中，可能導致百分比被影像隱藏的問題(CAMP-36407)
+* 修正嘗試匯出傳送說明欄位時發生的問題。 (CAMP-35467)
+* 修正雖然傳送完成，但傳送狀態仍可能維持為「開始擱置中」的問題。 (CAMP-35355)
+* 修正在啟用後，再停用SQL記錄檔後，無法顯示工作流程記錄檔的問題。
 
 ## 控制面板更新- 2019年8月 {#controlpanel-update---august-2019}
 

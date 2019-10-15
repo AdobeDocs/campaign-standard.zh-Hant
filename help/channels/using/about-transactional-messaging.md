@@ -14,7 +14,7 @@ discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
+source-git-commit: 22675ef3452aadca4ddb290832159298ebb76474
 
 ---
 
@@ -61,6 +61,14 @@ Adobe Campaign可讓您傳送通知電子郵件給已將產品新增至購物車
 1. 此外，若要在客戶放棄購物車時觸發事件，必須使用Adobe Campaign Standard REST API從公司網站傳送此事件。 請參閱 [網站整合](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)。
 
 執行完所有這些步驟後，當使用者離開網站而未在購物車中訂購產品時，他們會自動收到通知電子郵件。
+
+## 交易式訊息發佈程式 {#transactional-messaging-pub-process}
+
+下圖說明了事務性消息傳遞發佈過程。
+
+![](assets/message-center_pub-process.png)
+
+有關事件配置步驟的詳細資訊，請參 [閱事務性消息配置](../../administration/using/configuring-transactional-messaging.md)。
 
 ## 交易式訊息限制 {#transactional-messaging-limitations}
 

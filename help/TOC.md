@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: 最終用戶
 user-guide-title: Adobe Campaign standard說明
 translation-type: tm+mt
-source-git-commit: 57a0d20697461fb87b61c38dfd1779fadd565888
+source-git-commit: 9512ddb0b23b862b1a9b0ca5ee6e51436011bf66
 
 ---
 
@@ -115,7 +115,7 @@ source-git-commit: 57a0d20697461fb87b61c38dfd1779fadd565888
       + [共用著陸頁面](channels/using/sharing-a-landing-page.md)
       + [設定雙重選擇加入程式](channels/using/setting-up-a-double-opt-in-process.md)
 + 設計電子郵件內容 {#designing-content}
-   + [Campaign emailDesigner](designing/using/designing-content-in-adobe-campaign.md)
+   + [Campaign電子郵件設計人員](designing/using/designing-content-in-adobe-campaign.md)
    + [快速入門](designing/using/quick-start.md)
    + [使用與建議](designing/using/overview.md)
    + [定義主旨行和傳送者](designing/using/subject-line.md)

@@ -15,7 +15,7 @@ context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fc3c687328c5a460b442b8b2497965ccab3be50b
+source-git-commit: b93cde098641d14023cff1c476aed521d1a49900
 
 ---
 
@@ -82,7 +82,7 @@ source-git-commit: fc3c687328c5a460b442b8b2497965ccab3be50b
 
    此標 **[!UICONTROL Column definition]** 簽可讓您精確指定每欄的資料結構，以匯入不含任何錯誤的資料（例如，使用null管理），並讓它符合Adobe Campaign資料庫中已存在的類型，以供日後作業使用。
 
-   例如，您可以變更欄的標籤，並選取其類型（字串、整數、日期等）甚至指定錯誤處理。
+   例如，您可以變更欄的標籤，並選取其類型（字串、整數、日期等） 甚至指定錯誤處理。
 
    有關詳細資訊，請參閱「列 [格式」部分](../../automating/using/load-file.md#column-format) 。
 
@@ -97,7 +97,7 @@ source-git-commit: fc3c687328c5a460b442b8b2497965ccab3be50b
       ![](assets/wkf_file_loading1.png)
 
 1. 如果要從中載入資料的檔案壓縮到GZIP檔案(.gz)中，請在欄位中 **[!UICONTROL Decompression]** 選擇選 **[!UICONTROL Add a pre-processing step]** 項。 這可讓您在載入資料之前先解壓縮檔案。 只有當檔案來自活動的傳入轉換時，才可使用此選項。
-1. 選 **[!UICONTROL Keep the rejects in a file]** 項可讓您下載包含匯入期間發生錯誤的檔案，並套用至後處理階段。
+1. 選 **[!UICONTROL Keep the rejects in a file]** 項可讓您下載包含匯入期間發生錯誤的檔案，並套用至後處理階段。 啟用此選項時，對外轉場會重新命名為「拒絕」。
 
    >[!NOTE]
    >
@@ -106,6 +106,8 @@ source-git-commit: fc3c687328c5a460b442b8b2497965ccab3be50b
    ![](assets/wkf_file_loading_keeprejects.png)
 
 1. 確認活動的設定並儲存工作流程。
+
+如果活動在執行工作流程後發生任何錯誤，請參閱日誌以獲取有關檔案中錯誤值的詳細資訊。 For more on workflows logs, refer to [this section](../../automating/using/executing-a-workflow.md#monitoring)
 
 ## 欄格式 {#column-format}
 

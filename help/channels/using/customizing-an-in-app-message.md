@@ -15,7 +15,7 @@ context-tags: delivery, inAppContent，返回
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: 6d74d310f69b8800a635c6ac71de66c51fd64f2d
 
 ---
 
@@ -35,6 +35,7 @@ source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 * [傳送您的應用程式內訊息](../../channels/using/preparing-and-sending-an-in-app-message.md#sending-your-in-app-message)
 * [應用程式內報告](../../reporting/using/in-app-report.md)
+* [實作本機通知追蹤](https://helpx.adobe.com/campaign/kb/local-notification-tracking.html)
 
 ## 使用訊息範本自訂 {#customizing-with-a-message-template}
 
@@ -98,7 +99,7 @@ source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 1. 輸入您的訊息內容，並視需要新增個人化欄位。
 
-   如需個人化欄位的詳細資訊，請參閱此 [節](../../designing/using/personalization.md#inserting-a-personalization-field)。
+   For more information on personalization field, refer to this [section](../../designing/using/personalization.md#inserting-a-personalization-field).
 
    ![](assets/inapp_customize_10.png)
 
@@ -140,6 +141,7 @@ source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 ## 自定義本地通知消息類型 {#customizing-a-local-notification-message-type}
 
 本機通知只能由應用程式在特定時間觸發，且視事件而定。 他們會提醒使用者，即使沒有網際網路的存取權，應用程式中也會發生什麼事。
+若要瞭解如何追蹤本機通知，請參閱本 [頁](https://helpx.adobe.com/campaign/kb/local-notification-tracking.html)。
 
 要自定義本地通知，請執行以下操作：
 
@@ -190,11 +192,11 @@ source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 在傳送應用程式內訊息之前，您可以使用測試設定檔進行測試，以檢查目標對象收到您的傳送內容後會看到什麼。
 
-1. 按一下按 **[!UICONTROL Preview]** 鈕。
+1. Click the **[!UICONTROL Preview]** button.
 
    ![](assets/inapp_sending_2.png)
 
-1. 按一下按 **[!UICONTROL Select a test profile]** 鈕並選取其中一個測試設定檔，以開始預覽您的傳送。 有關測試配置檔案的詳細資訊，請參閱本 [節](../../sending/using/managing-test-profiles-and-sending-proofs.md)。
+1. 按一下按 **[!UICONTROL Select a test profile]** 鈕並選取其中一個測試設定檔，以開始預覽您的傳送。 For more information on test profiles, refer to this [section](../../sending/using/managing-test-profiles-and-sending-proofs.md).
 1. 在不同的裝置（例如Android、iPhone手機或甚至平板電腦）上檢查您的訊息。 您也可以檢查您的個人化欄位是否擷取正確的資料。
 
    ![](assets/inapp_sending_3.png)

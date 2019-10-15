@@ -2,45 +2,45 @@
 title: 角色清單
 seo-title: 角色清單
 description: 角色清單
-seo-description: 找出可指派給使用者的角色清單。
-page-status-flag: 從未啓動
-uuid: 128aab9b-9b7d-49f3-9e1f-72e79a29ba0
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
+seo-description: 瞭解您可指派給使用者的角色清單。
+page-status-flag: 從未激活
+uuid: 128aaf9b-9b7d-49f3-9e1f-72e79a29baa0
+contentOwner: 紹維亞
+products: SG_CAMPAIGN/STANDARD
 audience: 管理
-content-type: reference
+content-type: 參考
 topic-tags: 使用者與安全性
-discoiquuid: ceaa3c94-9e1a-4271-b443-b00 b4068929 f
-context-tags: 角色，概觀；角色，主要
+discoiquuid: ceaa3c94-9e1a-4271-b443-b00b4068929f
+context-tags: 角色，概述；角色，主
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6a877d878f01fa1e541dc20b8b0941602113d15b
+source-git-commit: c331937dcfef849798f1a5ed693da5f01759a1b8
 
 ---
 
 
-# List of roles{#list-of-roles}
+# 角色清單{#list-of-roles}
 
-根據預設，Adobe Campaign提供一組角色，可讓您定義指派給使用者和使用者群組的整體授權。透過組織單位，角色可為使用者提供介面的篩選檢視，並定義其對不同功能的存取權。For more on this, refer to the [Roles and permissions table](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
+依預設，Adobe Campaign提供一組角色，可讓您定義指派給使用者和使用者群組的統一授權。 結合組織單位，角色可讓使用者檢視介面的篩選檢視，並定義其對不同功能的存取權。 有關詳細資訊，請參閱「角 [色和權限」表](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)。
 
-![](assets/user_management_3.png)
+[![影像](/help/administration/using/assets/user_management_3.png)](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
 
-Roles can be managed from the **[!UICONTROL Administration > Users & Security > Roles]** menu.
+您可從功能表管理 **[!UICONTROL Administration > Users & Security > Roles]** 角色。
 
 預設權限為：
 
-* **[!UICONTROL Administration]**：通用管理權限。
-* **[!UICONTROL Datamodel]**：執行出版品及建立自訂資源的權利。
-* **[!UICONTROL Export]**：匯出資料的權利。
-* **[!UICONTROL Generic import]**：在資料上執行一般匯入的權限。For this to work, you need to link the **[!UICONTROL Generic import]** role to the **[!UICONTROL Workflow]** role.
-* **[!UICONTROL Prepare deliveries]**：建立、編輯、開始傳送準備及傳送校樣的權利。
-* **[!UICONTROL Start deliveries]**：驗證先前準備之傳送的權限。
-* **[!UICONTROL Workflow]**：使用工作流程的權利。
+* **[!UICONTROL Administration]**:一般管理權限。
+* **[!UICONTROL Datamodel]**:直接執行出版品和建立自訂資源。
+* **[!UICONTROL Export]**:匯出資料的權利。
+* **[!UICONTROL Generic import]**:對資料執行一般匯入的權限。 要使此功能發揮作用，您需要將角色 **[!UICONTROL Generic import]** 連結到角 **[!UICONTROL Workflow]** 色。
+* **[!UICONTROL Prepare deliveries]**:建立、修改、準備和刪除傳送的權利。 具有此角色的使用者可以準備傳送，但無法傳送。
+* **[!UICONTROL Start deliveries]**:建立、修改、準備、傳送和刪除傳送的權限。
+* **[!UICONTROL Workflow]**:建立、修改、啟動和刪除工作流程的權限。 具有此角色的使用者即使在工作流程中，也無法傳送傳送。
 
 >[!CAUTION]
 >
->「傳遞能力」角色僅供Adobe管理員內部使用。不能授予使用者。
+>這些 **[!UICONTROL Deliverability]**、 **[!UICONTROL Command execution]**、 **[!UICONTROL Export]****[!UICONTROL File access]****[!UICONTROL Message Center push]** 和角色僅供Adobe管理員內部使用。 不應授予使用者這些權限。
 
 **相關主題：**
 

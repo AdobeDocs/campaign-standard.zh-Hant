@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
+source-git-commit: 7d044652c58c3fc66dac64f9d080852dbe29044d
 
 ---
 
@@ -36,7 +36,7 @@ source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
 
 如要瞭解如何從現成可用的範本建立電子郵件，請參閱電子郵 [件設計器](../../designing/using/quick-start.md#building-content-from-an-out-of-the-box-template)。
 
-### 建立內容範本 {#creating-a-content-template}
+### Creating a content template {#creating-a-content-template}
 
 您可以建立自己的內容範本，視需要多次使用這些範本。
 
@@ -199,9 +199,12 @@ source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
 1. 關閉標 **[!UICONTROL Properties]** 簽以返回主工作區。
 1. 新增可視需要自訂的結構元件和內容元件。
 
-   >[!NOTE]
+   >[!CAUTION]
    >
    >片段不能包含個人化欄位、動態內容或其他片段。
+   >
+   >請避免將內容儲存為空白結構元件的片段內容。 插入&gt;fragment後，就無法編輯它們。
+   >
    >行動 [裝置檢視](../../designing/using/styles.md#switching-to-mobile-view) ，無法在片段中使用。
 
 1. 編輯完成後，儲存您的片段。
@@ -270,7 +273,7 @@ To save as a fragment some email content that you created, follow the steps belo
 
 使用電子郵件設計工具，為每個可重複使用的區段建立片段。 在此範例中，您將建立兩個片段：一個用於頁首，一個用於頁尾。 然後，您可以將現有內容的相關部分複製到這些片段中。
 
-若要這麼做，請依照下列步驟進行：
+要執行此操作，請遵循下列步驟：
 
 1. 在Adobe Campaign中，前往 **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates & fragments]** 並建立頁首的片段。 如需詳細資訊，請參 [閱建立內容片段](../../designing/using/using-reusable-content.md#creating-a-content-fragment)。
 1. 在片段中添加所需數量的結構元件。

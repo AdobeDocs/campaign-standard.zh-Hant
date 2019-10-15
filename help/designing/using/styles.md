@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
+source-git-commit: f76e88798c1c570b02442aec316a3f24e3615a4a
 
 ---
 
@@ -148,7 +148,7 @@ source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
 
 #### 範例：調整垂直對齊和間距 {#example--adjusting-vertical-alignment-and-padding}
 
-要在由三列組成的結構元件中調整填充和垂直對齊。 若要這麼做，請依照下列步驟進行：
+要在由三列組成的結構元件中調整填充和垂直對齊。 要執行此操作，請遵循下列步驟：
 
 1. 直接在電子郵件中或使用左側元件面板中的結構樹選擇結構 **元件**。
 1. 從內容 **相關工具**，按一 **[!UICONTROL Select a column]** 下並選擇要編輯的工具列。 也可以從結構樹中選取它。
@@ -172,6 +172,30 @@ source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
 1. 同樣地，繼續調整其他列的對齊和間距。
 
    ![](assets/des_adjusting_columns.png)
+
+1. 儲存您的變更。
+
+### 關於樣式連結 {#about-styling-links}
+
+您可以在電子郵件設計器中為連結加下划線，並選擇其顏色和目標。
+
+1. 在插入連結的元件中，選擇連結的標籤文本。
+
+1. 在元件設定中，勾選以 **[!UICONTROL Underline link]** 在連結的標籤文字上加底線。
+
+   ![](assets/stylelinks-selecttext.png)
+
+1. 若要選取將開啟連結的瀏覽內容，請選取 **[!UICONTROL Target]**。
+
+   ![](assets/stylelinks-target.png)
+
+1. 若要變更連結的顏色，請按一下 **[!UICONTROL Link color]**。
+
+   ![](assets/stylelinks-colorpicker.png)
+
+1. 選擇您需要的顏色。
+
+   ![](assets/stylelinks-colorchanged.png)
 
 1. 儲存您的變更。
 

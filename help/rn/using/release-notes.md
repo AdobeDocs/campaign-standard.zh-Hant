@@ -14,7 +14,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b43f43f300f14c9abe1cc471a74586e19841b6e1
+source-git-commit: 637cddaa2fb29554f7e6c8b6ae2e4076515488de
 
 ---
 
@@ -52,13 +52,14 @@ source-git-commit: b43f43f300f14c9abe1cc471a74586e19841b6e1
     <li><p>建立隱私權要求時，隱私權核心服務中已新增規則類型（GDPR或CCPA）。 此方法應用於所有存取和刪除請求。 不建議使用促銷活動API和介面來存取和刪除請求。 不過，如果您仍需在19.4中使用這些方法，請注意，規則類型已新增至「促銷活動」介面和API，且為強制性。 對於介面，預設值會設為GDPR。 若是API，您必須將此欄位納入裝載中。 請參閱 <a href="https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#privacy-management">API檔案</a>。</p></li>
     <li>「設 <strong>定檔」資源已新增「CCPA選擇退出</strong> 」欄位，讓Adobe Campaign使用者追蹤消費者是否選擇退出個人資訊銷售。 <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa">進一步瞭解</a>。</li>
   </ul>
+    <p>請參閱 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">how-to影片</a>。</p>
 </td> 
   </tr> 
   <tr> 
    <td> Microsoft Dynamics 365整合(GA)<br /> </td> 
    <td> 
     <p>Adobe Campaign standard與Microsoft Dynamics 365的整合現已推出。 您將能夠將您的連絡人和自訂實體記錄從Dynamics 365傳輸至Campaign，並從Campaign將電子郵件事件資料傳回Dynamics 365，以便更好地協調銷售／行銷。</p>
-    <p>請參閱詳細 <a href="https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html">檔案</a> ，以設定此整合。</p>
+    <p>請參閱詳 <a href="https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html">細檔案</a> ，以設定此整合併檢 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/integrating/microsoft-dynamics365-connector/introduction.html">視操作視訊</a>。</p>
   </td>
   </tr> 
  </tbody> 

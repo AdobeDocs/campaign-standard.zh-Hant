@@ -3,97 +3,101 @@ title: 外部API
 seo-title: 外部API
 description: 外部API
 seo-description: null
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
+contentOwner: 紹維亞
+products: SG_CAMPAIGN/STANDARD
 audience: 自動化
-content-type: reference
+content-type: 參考
 topic-tags: 定位活動
-context-tags: ExternalAPI，工作流程，主要
+context-tags: externalAPI，工作流，主
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6748e59aaeafce9dc6e77dc0664a9024a53c3e35
+source-git-commit: 597396beb733c8f0b739720e951d2a42f5645af6
 
 ---
 
 
-# External API {#external-api}
+# 外部API {#external-api}
 
-## Description {#description}
+## 說明 {#description}
 
 ![](assets/wf_externalAPI.png)
 
-**[!UICONTROL External API]** 活動會透過REST API呼叫從 **外部系統** 將資料帶入 **工作流程** 。
+此活 **[!UICONTROL External API]** 動會透過 **REST API呼叫，從外部系統** 將資料匯入 **工作流程中** 。
 
-The REST endpoints can be a customer management system, an [Adobe I/O Runtime](https://www.adobe.io/apis/experienceplatform/runtime.html) instance or an Experience Cloud REST endpoints (Data Platform, Target, Analytics, Campaign, etc).
+REST端點可以是客戶管理系統、 [Adobe I/O Runtime](https://www.adobe.io/apis/experienceplatform/runtime.html) 實例或Experience Cloud REST端點（資料平台、目標、分析、促銷活動等）。
+
+>[!NOTE]
+>
+>基於安全性原因，Campaign standard不支援使用JSSP。 如果您需要執行程式碼，可以透過外部API活動呼叫Adobe I/O Runtime例項。
 
 >[!CAUTION]
 >
->此功能目前仍在公開測試版中。您必須先接受使用合約，才能開始使用外部API活動。請注意，由於此公開測試版功能尚未由Adobe發佈，Adobe Client Care不支援此功能，因此可能包含錯誤且可能無法運作以及其他發行的功能。
+>此功能目前為公開測試版。 您必須在開始使用外部API活動之前接受使用協定。 請注意，由於此公開測試版功能尚未由Adobe進行商業性發行，Adobe Client care不支援，因此可能包含錯誤，而且功能可能不如其他已發佈的功能。
 
-此活動的主要特性為：
+本活動的主要特點是：
 
-* 能夠將資料以JSON格式傳遞給第三方REST API端點
-* 可接收JSON回應，將其對應至輸出表格，並傳送至其他工作流程活動。
-* 透過對外特定轉場的失敗管理
+* 能夠將JSON格式的資料傳遞至第三方REST API端點
+* 能夠接收回JSON回應、將它對應至輸出表格，並傳遞至下游的其他工作流程活動。
+* 具有出站特定過渡的故障管理
 
-已針對此活動制定下列公告：
+為此活動設定了以下護欄：
 
-* MB http回應資料大小限制
+* 5MB http回應資料大小限制
 * 請求逾時為60秒
 * 不允許HTTP重新導向
-* 非HTTPS URL被拒絕
-* 「接受：application/json「request header and「Content-Type」：application/json「回應標題」
+* 拒絕非HTTPS Url
+* 「接受：application/json」請求標題和「Content-Type:application/json"回應標題是允許的
 
 >[!CAUTION]
 >
->請注意，此活動用於擷取促銷活動寬資料(最新的選件集、最新分數等)。不是擷取每個描述檔的特定資訊，因為這可能導致大量傳輸資料。If the use case requires this, the recommendation is to use the [Transfer File](../../automating/using/transfer-file.md) activity.
+>請注意，此活動是用於擷取促銷活動範圍資料（最新的選件集、最新的分數等）不用於檢索每個配置檔案的特定資訊，因為這可能導致大量資料被傳輸。 如果使用案例需要此項，建議使用「傳輸檔 [案](../../automating/using/transfer-file.md) 」活動。
 
-## Configuration {#configuration}
+## 配置 {#configuration}
 
-Drag and drop an **[!UICONTROL External API]** activity into your workflow and open the activity to start the configuration.
+將活動拖放 **[!UICONTROL External API]** 到工作流程中，並開啟活動以啟動設定。
 
-### 傳入對應
+### 入站映射
 
-傳入對應是由先前傳入活動產生的暫時表格，會在UI中顯示並以JSON形式傳送。
-使用者可根據此暫存表格修改傳入資料。
+入站對應是由先前入站活動生成的臨時表，將在UI中顯示為JSON併發送。
+根據此臨時表，用戶可以對入站資料進行修改。
 
 ![](assets/externalAPI-inbound.png)
 
-**「內嵌資源** 」下拉式清單可讓您選取將建立暫存表格的查詢活動。
+「入 **站資源** 」下拉菜單允許您選擇將建立臨時表的查詢活動。
 
-**「新增計數參數** 」核取方塊將會計算來自暫存表格的每一列的計數值。請注意，只有當傳入的活動產生臨時表格時，才可使用此核取方塊。
+「添 **加計數參數** 」複選框將為來自臨時表的每行提供計數值。 請注意，此複選框僅在入站活動生成臨時表時才可用。
 
-**「內嵌欄」** 區段可讓使用者從傳入的轉換表格新增任何欄位。選取的欄將是資料物件中的索引鍵。JSON中的資料物件將是包含傳入轉換表格每一列之選定欄資料的陣列清單。
+「入 **站列** 」(Inbound Columns)部分允許用戶從入站轉換表中添加任何欄位。 選取的欄將是資料物件中的索引鍵。 JSON中的資料物件將是陣列清單，包含傳入轉場表各列所選欄的資料。
 
-**自訂參數** 文字方塊可讓您使用外部API所需的額外資料新增有效的JSON。此額外資料會新增至產生的JSON中的params物件。
+自 **訂參數** 文字方塊可讓您新增有效的JSON及外部API所需的其他資料。 此額外資料將新增至產生的JSON中的params物件。
 
-### 對外對應
+### 出站映射
 
-This tab lets you define the sample **JSON structure** returned by the API Call.
+此標籤可讓您定義API呼叫傳 **回的範例** JSON結構。
 
 ![](assets/externalAPI-outbound.png)
 
-The JSON structure pattern is: `{“data”:[{“key”:“value”}, {“key”:“value”},...]}`
+JSON結構模式為： `{“data”:[{“key”:“value”}, {“key”:“value”},...]}`
 
-The sample JSON definition must have the **following characteristics**:
+範例JSON定義必須具有下 **列特性**:
 
-* **資料** 是JSON中的強制屬性名稱，「資料」的內容是JSON陣列。
-* **陣列元素** 必須包含第一級屬性(不支援更深層次)。
-   **屬性名稱** 最後會變成輸出暫存表格輸出結構的欄名稱。
-* **欄名稱** 定義是以「資料」陣列的第一個元素為基礎。
-Columns definition (add/remove) and the type value of the property can be edited in the **Column definition** tab.
+* **data** 是JSON中的必備屬性名稱，「data」的內容是JSON陣列。
+* **陣列元素** 必須包含第一級屬性（不支援較深的層級）。
+   **屬性名** ，最終將成為輸出臨時表的輸出模式的列名。
+* **欄名稱** ，定義是以"data"陣列的第一個元素為基礎。
+列定義（添加／刪除）和屬性的類型值可以在「列定義」( **Column definition** )頁籤中編輯。
 
-If the **parsing is validated** a message appears and invite you to customize the data mapping in the "Column definition" tab. 在其他情況下，會顯示錯誤訊息。
+如果 **驗證瞭解析** ，則會顯示一條消息，邀請您在「列定義」頁籤中自定義資料映射。 在其他情況下，會顯示錯誤訊息。
 
-### 執行執行
+### 執行
 
-This tab lets you define the **HTTPS Endpoint** that will send data to ACS. If needed, you can enter authentication information in the fields below.
+此標籤可讓您定義 **將傳送資料至ACS的HTTPS端點** 。 如有需要，您可在下列欄位中輸入驗證資訊。
 ![](assets/externalAPI-execution.png)
 
 ### 屬性
 
-This tab lets you control **general properties** on the external API activity like the displayed label in the UI. 內部ID無法自訂。
+此標籤可讓您控 **制外部API活動的一般屬性** ，例如UI中顯示的標籤。 無法自訂內部ID。
 
 ![](assets/externalAPI-properties.png)
 
@@ -101,127 +105,127 @@ This tab lets you control **general properties** on the external API activity li
 
 >[!NOTE]
 >
->**當回應資料格式** 已完成並在「對外對應」標籤中驗證時，就會顯示此標籤。
+>當「出站映射」頁籤 **中完成並驗證響應資料格式** 時，將顯示此頁籤。
 
-**「欄定義** 」標籤可讓您精確指定每個欄的資料結構，以便匯入不包含任何錯誤的資料，並使它符合Adobe Campaign資料庫中已存在的類型，以便日後操作。
+「 **欄定義** 」標籤可讓您精確指定每欄的資料結構，以匯入不含任何錯誤的資料，並使其符合Adobe Campaign資料庫中已存在的類型，以供日後作業使用。
 
 ![](assets/externalAPI-column.png)
 
-例如，您可以變更欄的標籤，選取其類型(字串、整數、日期等)。甚至指定錯誤處理。
+例如，您可以變更欄的標籤，並選取其類型（字串、整數、日期等） 甚至指定錯誤處理。
 
-For more information, refer to the [Load File](../../automating/using/load-file.md) section.
+如需詳細資訊，請參閱「載 [入檔案](../../automating/using/load-file.md) 」區段。
 
-### 轉場效果
+### 轉換
 
-This tab lets you activate the **outbound transition** and its label. This specific transition is useful in case of **timeout** or if the payload exceed the **data size limit**.
+此標籤可讓您啟用 **出站轉場** 及其標籤。 在逾時或負載超過資料大 **小限制** 時，此特定轉 **換很實用**。
 
 ![](assets/externalAPI-transition.png)
 
 ### 執行選項
 
-大部分工作流程活動都有此標籤。For more information, consult the [Activity properties](../../automating/using/executing-a-workflow.md#activity-properties) section.
+此標籤可用於大部分的工作流活動。 如需詳細資訊，請參閱「活 [動屬性](../../automating/using/executing-a-workflow.md#activity-properties) 」一節。
 
 ![](assets/externalAPI-options.png)
 
 ## 疑難排解
 
-此新工作流程活動中新增了兩種記錄訊息：資訊和錯誤。它們可協助您疑難排解潛在問題。
+此新工作流活動中添加了兩種類型的日誌消息：資訊與錯誤。 它們可協助您疑難排解潛在問題。
 
 ### 資訊
 
-這些記錄訊息可用來記錄執行工作流程活動期間有用查核點的相關資訊。尤其是，使用下列記錄訊息來記錄第一次嘗試嘗試存取API的嘗試嘗試(以及首次嘗試失敗的原因)。
+這些日誌消息用於在工作流活動執行期間記錄有關有用檢查點的資訊。 具體來說，下列記錄訊息可用來記錄第一次嘗試存取API的重試嘗試（以及首次嘗試失敗的原因）。
 
 <table> 
  <thead> 
   <tr> 
-   <th> Message format<br /> </th> 
+   <th> 消息格式<br /> </th> 
    <th> Example<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> 叫用API URL'%s'。</td> 
-   <td> <p>叫用API URL'https://example.com/api/v1/web-coupon?count=2'。</p></td> 
+   <td> 叫用API URL '%s'。</td> 
+   <td> <p>叫用API URL 'https://example.com/api/v1/web-coupon?count=2'。</p></td> 
   </tr> 
   <tr> 
-   <td> 重試API URL'%s'時，先前嘗試失敗('%s')。</td> 
-   <td> <p>重新嘗試API URL'https://example.com/api/v1/web-coupon?count=2'，先前嘗試失敗('HTTP-401')。</p></td>
+   <td> 重試API URL '%s'，先前嘗試失敗('%s')。</td> 
+   <td> <p>重試API URL 'https://example.com/api/v1/web-coupon?count=2'，先前嘗試失敗('HTTP - 401')。</p></td>
   </tr> 
   <tr> 
-   <td> 從'%s'傳輸內容(%s/%s)。</td> 
-   <td> <p>從'https://example.com/api/v1/web-coupon?count=2'(1234/1234)傳輸內容。</p></td> 
+   <td> 正在傳輸'%s'(%s / %s)的內容。</td> 
+   <td> <p>從'https://example.com/api/v1/web-coupon?count=2'(1234 / 1234)傳輸內容。</p></td> 
   </tr>
  </tbody> 
 </table>
 
 ### 錯誤
 
-這些記錄訊息可用來記錄未預期錯誤條件的資訊，這會最終導致工作流程活動失敗。
+這些日誌消息用於記錄有關可能最終導致工作流活動失敗的意外錯誤條件的資訊。
 
 <table> 
  <thead> 
   <tr> 
-   <th> Code - Message format<br /> </th> 
+   <th> 代碼——消息格式<br /> </th> 
    <th> Example<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> WKF-560250- API要求主體超出限制(限制：'% d')。</td> 
-   <td> <p>API請求主體超出限制(限制：'5242880')。</p></td> 
+   <td> WKF-560250 —— 超出API要求內文限制(限制：'%d')。</td> 
+   <td> <p>已超出API要求內文限制(限制：'5242880')。</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560239- API回應超出限制(限制：'% d')。</td> 
-   <td> <p>API回應超出限制(限制：5242880」)。</p></td> 
+   <td> WKF-560239 —— 超出API回應限制(限制：'%d')。</td> 
+   <td> <p>已超出API回應限制(限制：5242880')。</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560245- API URL無法解析(錯誤：'% d')。</td> 
-   <td> <p>API URL無法解析(錯誤：'-2010')。</p>
+   <td> WKF-560245 —— 無法剖析API URL(錯誤：'%d')。</td> 
+   <td> <p>無法剖析API URL(錯誤：'-2010')。</p>
    <p> 注意：當API URL失敗驗證規則時，會記錄此錯誤。</p></td>
   </tr> 
   <tr>
-   <td> WKF-560244- API URL主機不得為'localhost'或IP位址常值(URL主機：'% s')。</td> 
-   <td> <p>API URL主機不得為'localhost'或IP位址常值(URL主機：'localhost')。</p>
-    <p>API URL主機不得為'localhost'或IP位址常值(URL主機：'192.168.0.5')。</p>
-    <p>API URL主機不得為'localhost'或IP位址常值(URL主機：'[2001]')。</p></td>
+   <td> WKF-560244 - API URL主機不能是'localhost'或IP位址常值(URL主機：'%s')。</td> 
+   <td> <p>API URL主機不得是'localhost'或IP位址常值(URL主機：'localhost')。</p>
+    <p>API URL主機不得是'localhost'或IP位址常值(URL主機：192.168.0.5')。</p>
+    <p>API URL主機不得是'localhost'或IP位址常值(URL主機：'[2001]')。</p></td>
   </tr> 
   <tr> 
-   <td> WKF-560238- API URL必須是安全的URL(https)(要求的URL：'% s')。</td> 
-   <td> <p>API URL必須是安全的URL(https)(要求的URL：https://example.com/api/v1/web-coupon?count=2')。</p></td> 
+   <td> WKF-560238 - API URL必須是安全URL(https)(請求的URL:'%s')。</td> 
+   <td> <p>API URL必須是安全URL(https)(請求的URL:'https://example.com/api/v1/web-coupon?count=2')。</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560249-無法建立請求主體JSON。新增'%s'時發生錯誤。</td> 
-   <td> <p>無法建立請求主體JSON。新增「params」時發生錯誤。</p>
-    <p>無法建立請求主體JSON。新增「資料」時發生錯誤。</p></td>
+   <td> WKF-560249 —— 無法建立請求內文JSON。 添加「%s」時出錯。</td> 
+   <td> <p>無法建立請求正文JSON。 添加'params'時出錯。</p>
+    <p>無法建立請求正文JSON。 新增「資料」時發生錯誤。</p></td>
   </tr> 
   <tr> 
-   <td> WKF-560246- HTTP標題索引鍵不好(標題金鑰：'% s')。</td> 
-   <td> <p>HTTP標題金鑰不好(標題索引鍵：'% s')。</p>
-   <p> Note: This error is logged when the custom header key fails validation according to <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a></p></td> 
+   <td> WKF-560246 - HTTP標頭鍵錯誤(標頭鍵：'%s')。</td> 
+   <td> <p>HTTP標頭鍵錯誤(標頭鍵：'%s')。</p>
+   <p> 注意：當自定義標頭密鑰根據 <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC驗證失敗時，將記錄此錯誤</a></p></td> 
   </tr>
  <tr> 
-   <td> 無法使用WKF-560248- HTTP標題金鑰(標題金鑰：'% s')。</td> 
-   <td> <p>不允許HTTP標題金鑰(標題索引鍵：「接受」)。</p></td> 
+   <td> WKF-560248 —— 不允許HTTP標頭鍵(標頭鍵：'%s')。</td> 
+   <td> <p>不允許HTTP標題鍵(標題鍵：'接受')。</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560247- AHTTP標題值不佳(標題值：'% s')。</td> 
-   <td> <p>HTTP標題值不好(標題值：'% s')。 </p>
-    <p>Note: This error is logged when the custom header value fails validation according to <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a></p></td> 
+   <td> WKF-560247 - AHTTP標頭值錯誤(標頭值：'%s')。</td> 
+   <td> <p>HTTP標頭值錯誤(標頭值：'%s')。 </p>
+    <p>注意：當自定義標頭值根據 <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC驗證失敗時，將記錄此錯誤</a></p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560240- JSON裝載有不良屬性'%s'。</td> 
-   <td> <p>JSON裝載有不良的屬性'vish'。</p></td>
+   <td> WKF-560240 - JSON裝載有不良屬性'%s'。</td> 
+   <td> <p>JSON裝載包含不正確的屬性'plash'。</p></td>
   </tr> 
   <tr>
-   <td> WKF-560241-格式不正確或無法接受的格式。</td> 
-   <td> <p>格式錯誤或格式不可接受。</p>
-   <p>注意：此訊息僅適用於外部API的剖析回應主體，並在嘗試驗證回應主體是否符合本活動所規定的JSON格式時記錄。</p></td>
+   <td> WKF-560241 —— 格式錯誤的JSON或不可接受的格式。</td> 
+   <td> <p>格式錯誤的JSON或不可接受的格式。</p>
+   <p>注意：此訊息僅適用於從外部API剖析回應內文，並在嘗試驗證回應內文是否符合本練習規定的JSON格式時記錄。</p></td>
   </tr>
   <tr> 
-   <td> WKF-560246-活動失敗(原因：'% s')。</td> 
-   <td> <p>當活動因HTTP401錯誤回應而失敗時-活動失敗(原因：'HTTP-401')</p>
-        <p>當活動因內部呼叫失敗而失敗時-活動失敗(原因：'IRC- n')。</p>
-        <p>由於無效的Content-Type標題，活動失敗。- 活動失敗(原因：「Content-Type- application/html」)。</p></td> 
+   <td> WKF-560246 —— 活動失敗(原因：'%s')。</td> 
+   <td> <p>當活動因HTTP 401錯誤回應而失敗時——活動失敗(原因：'HTTP - 401')</p>
+        <p>當活動因內部呼叫失敗而失敗時——活動失敗(原因：'iRc - -Nn')。</p>
+        <p>當活動因無效的內容類型標題而失敗時。 -活動失敗(原因：'Content-Type - application/html')。</p></td> 
   </tr>
  </tbody> 
 </table>

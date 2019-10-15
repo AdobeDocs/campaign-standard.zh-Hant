@@ -15,7 +15,7 @@ context-tags: landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9380d7f624c051c42b61d88e39c85a216fb7caec
+source-git-commit: c216210e2cb279c87ba472d4ec6a02284aae7a74
 
 ---
 
@@ -368,7 +368,8 @@ source-git-commit: 9380d7f624c051c42b61d88e39c85a216fb7caec
 
 ## 設定權限和預先載入資料 {#setting-permissions-and-pre-loading-data}
 
-登陸頁面的存取權可限制為已識別的訪客，例如來自促銷活動所傳送訊息中的連結。 在此情況下，您可以在著陸頁面中預先載入其資料。 操作步驟：
+登陸頁面的存取權可限制給已識別的訪客，這些訪客來自例如促銷活動所傳送之訊息中的連結，或是特定組織單位。
+若是已識別的訪客，您可以在登陸頁面中預先載入其資料。 操作步驟：
 
 1. 編輯透過著陸頁面控制面板中 ![](assets/edit_darkgrey-24px.png) 的圖示存取的著陸頁面屬性，並顯示 **[!UICONTROL Access & loading]** 參數。
 
@@ -384,6 +385,26 @@ source-git-commit: 9380d7f624c051c42b61d88e39c85a216fb7caec
 
 * 使用URL參數來識別訪客，使用下列 **[!UICONTROL Authorize visitor identification via URL parameters]** 選項：然後，您必須選擇載入索引鍵，並將篩選參數對應至對應URL的參數。
 * 使用選項授權任何訪客存取著陸 **[!UICONTROL Authorize unidentified visitors]** 頁面。
+
+著陸頁面也可以連結至組織單位。 這將定義使用者對不同登陸頁面的存取權。 要分配組織單位，請執行以下操作：
+
+1. 透過圖示存取您的著陸頁面 **[!UICONTROL Edit properties]** 屬性。
+
+   ![](assets/lp_parameters_google3.png)
+
+1. 展開 **[!UICONTROL Access authorization]**。
+
+1. 按一下下拉式功能表，然後選取您的組織單位。 有關如何建立組織單位的詳細資訊，請參閱本 [頁](../../administration/using/organizational-units.md)。
+
+   ![](assets/lp_org_unit_2.png)
+
+1. 自 **[!UICONTROL Created by]**&#x200B;動完 **[!UICONTROL Created]**&#x200B;成、 **[!UICONTROL Access authorization]** 和 **[!UICONTROL Last modified]** 欄位。
+
+1. 按一 **[!UICONTROL Confirm]** 下 **[!UICONTROL Save]**。
+
+您的登陸頁面現在只能由所選組織單位內的使用者存取和管理。
+
+![](assets/lp_org_unit_3.png)
 
 ## 設定Google reCAPTCHA {#setting-google-recaptcha}
 

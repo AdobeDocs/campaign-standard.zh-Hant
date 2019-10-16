@@ -5,7 +5,7 @@ solution: Campaign Standard
 title: Adobe Campaign Standard 產品文件
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 091f3176bcf063aaf908967ee36579d43638b644
+source-git-commit: 6912ca6dbf985518009b3e119f86298db52b6f5f
 
 ---
 
@@ -16,13 +16,13 @@ source-git-commit: 091f3176bcf063aaf908967ee36579d43638b644
 
 ## 新增功能
 
-* **[電子郵件設計](channels/using/event-transactional-messages.md)**<br/>人員在您的交易式訊息中使用電子郵件設計人員。
+* **[隱私權管](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>理瞭解Adobe Campaign提供的工具，協助您符合隱私權規範。
 
-* **[工作流程區](reporting/using/creating-a-report-workflow-segment.md)**<br/>段根據工作流程區段建立報表。
+* **[傳送最佳實務](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>進一步瞭解與傳送設計和傳送相關的最佳實務。
 
-* **[新的工作流程使用案例](automating/using/workflow-created-query-with-complement.md)**<br/>閱讀我們的工作流程查詢使用案例。
+* **[電子郵件設計](designing/using/designing-content-in-adobe-campaign.md)**<br/>人員請參閱重新整理的電子郵件設計人員檔案。
 
-* **[載入檔案活動](automating/using/load-file.md)**<br/>使用「載入檔案」活動來傳送包含其他資料的電子郵件。
+* **[著陸頁面](channels/using/main-steps-to-set-up-a-landing-page.md)**<br/>進一步瞭解如何設定著陸頁面。
 
 [按一下這裡以取得更多更新](rn/using/documentation-updates.md)
 

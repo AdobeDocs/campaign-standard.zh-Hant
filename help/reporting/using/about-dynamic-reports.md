@@ -14,7 +14,7 @@ discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4d3f2efb118e07247caa15ef7edaa67657d164ea
+source-git-commit: 7df9d0d4a3cb801619d703857fb71f2ee9ccb435
 
 ---
 
@@ -82,14 +82,14 @@ source-git-commit: 4d3f2efb118e07247caa15ef7edaa67657d164ea
 |  | 動態報告 | Microsoft Dynamics 365連接器 |
 |---|---|---|
 | 美洲與亞太地區（亞太地區） | **功能已推出**。 <br>立即可用（例如，依年齡劃分的城市、國家／地區、州、性別和細分）和自訂個人檔案資訊推入美國報告中心。 如需描述檔維度的詳細資訊，請參閱本 [頁](../../reporting/using/list-of-components-.md) | **功能已推出**。 <br>所有現成可用的設定檔和自訂設定檔欄位，以及Adobe Campaign Standard事件欄位，都會在美國資料中心處理。 |
-| EMEA（歐洲中東和非洲） | **功能已推出**。 <br>立即可用（例如，根據年齡劃分的城市、國家／地區、州、性別和細分）和自訂個人檔案資訊推送至EMEA報告中心。 如需描述檔維度的詳細資訊，請參閱本 [頁](../../reporting/using/list-of-components-.md) | **功能已推出。** 在 <br>EMEA資料中心處理的所有現成可用和自訂描述檔欄位和Adobe Campaign Standard事件欄位。 **[!UICONTROL Control data]** 其中包含Adobe I/O註冊資料，以及在美國資料中心傳送及儲存之客戶使用者事件的ID。 |
+| EMEA（歐洲中東和非洲） | **功能已推出**。 <br>立即可用（例如，根據年齡劃分的城市、國家／地區、州、性別和細分）和自訂個人檔案資訊推送至EMEA報告中心。 如需描述檔維度的詳細資訊，請參閱本 [頁](../../reporting/using/list-of-components-.md) | **功能已推出。** 在 <br>EMEA資料中心處理的所有現成可用和自訂描述檔欄位和Adobe Campaign Standard事件欄位。 <br>**[!UICONTROL Control data]** 其中包含Adobe I/O註冊資料，以及在美國資料中心傳送及儲存之客戶使用者事件的ID。 |
 
 下表顯示拒絕此協定後會發生的情況，具體取決於您的地區。 請注意，即使您拒絕本合約，仍可報告傳送和Microsoft Dynamics 365整合。
 
 | 地區 | 動態報告 | Microsoft Dynamics 365連接器 |
 |---|---|---|
 | 美洲與亞太地區（亞太地區） | **功能已推出**。 <br> 除ExternalID外，沒有立即可用的自訂設定檔資訊推送至美國報告中心。 | **功能已推出**。 <br>除「外部ID」和「收件者ID」外，沒有立即可用的或自訂的描述檔欄位傳送至美國資料中心。 <br>除區段代碼和鏡像頁面ID外，所有Adobe Campaign Standard事件欄位都在美國資料中心處理。 |
-| EMEA（歐洲中東和非洲） | **功能已推出**。 <br>除ExternalID外，沒有立即可用的自訂設定檔資訊推送至EMEA報告中心。 | **功能已推出。** 除「 <br>外部ID」和「收件者ID」外，沒有立即可用或自訂的描述檔欄位傳送至EMEA資料中心。 <br>除區段代碼和鏡像頁面ID外，所有在EMEA資料中心處理的Adobe Campaign Standard事件欄位。 |
+| EMEA（歐洲中東和非洲） | **功能已推出**。 <br>除ExternalID外，沒有立即可用的自訂設定檔資訊推送至EMEA報告中心。 | **功能已推出。** 除「 <br>外部ID」和「收件者ID」外，沒有立即可用或自訂的描述檔欄位傳送至EMEA資料中心。 <br>除區段代碼和鏡像頁面ID外，所有在EMEA資料中心處理的Adobe Campaign Standard事件欄位。  <br>**[!UICONTROL Control data]** 其中包含Adobe I/O註冊資料，以及在美國資料中心傳送及儲存之客戶使用者事件的ID。 |
 
 這個選項不是最終選項，您隨時都可以在 **[!UICONTROL Enable PII data to be transferred to US region to use reporting on Profile data]** &gt; **[!UICONTROL Administration]** &gt; **[!UICONTROL Application Settings]** 中變更 **[!UICONTROL Options]**。
 

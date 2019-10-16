@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f76e88798c1c570b02442aec316a3f24e3615a4a
+source-git-commit: 45916918fc9e8008d4eb583a9c92886672c04b71
 
 ---
 
@@ -176,6 +176,10 @@ source-git-commit: f76e88798c1c570b02442aec316a3f24e3615a4a
 1. 儲存您的變更。
 
 ### 關於樣式連結 {#about-styling-links}
+
+>[!NOTE]
+>
+>此功能將從Campaign Standard 19.4版開始提供。
 
 您可以在電子郵件設計器中為連結加下划線，並選擇其顏色和目標。
 

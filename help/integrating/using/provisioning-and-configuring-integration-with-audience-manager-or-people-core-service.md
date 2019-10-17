@@ -14,7 +14,7 @@ discoiquuid: eb24f4ea-325f-433a-91a0-c45906320bcb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f54c92b92524e2966aa8c1c8497c8a7dff1bcf9
+source-git-commit: 90bb41ae78fe6fbcca0bd359c169adde4efd4b1b
 
 ---
 
@@ -41,7 +41,7 @@ Audience Manager(AAM)或People核心服務整合可讓您在Adobe Campaign中匯
   </tr> 
   <tr> 
    <td> <strong>IMS組織ID</strong><br /> </td> 
-   <td> 您的IMS組織ID。 <br> 您可以在Experience cloud的**管理**功能表中找到您的IMS組織ID。 當您第一次連線至Adobe Experience cloud時，也會提供。 </td> 
+   <td> 您的IMS組織ID。 <br> 您可以在Experience cloud的「管理」功能表中找到您的IMS組織ID。 當您第一次連線至Adobe Experience cloud時，也會提供。 </td> 
   </tr> 
   <tr> 
    <td> <strong>環境：</strong><br /> </td> 

@@ -14,7 +14,7 @@ discoiquuid: bf718329-f181-46f7-80a2-b525a8dee46d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f54c92b92524e2966aa8c1c8497c8a7dff1bcf9
+source-git-commit: 8b4cf35fcbdee436ce3f9fa4aeb1b1fdd8609f50
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Campaign可讓您使用不同的Adobe Experience cloud應用程式來交�
 整合支援兩種Adobe Experience Cloud ID:
 
 * **訪客ID**:這種ID類型可讓您協調Adobe Experience cloud訪客與Adobe Campaign設定檔。
-* **宣告的ID**:此類型的ID可讓您協調任何類型的資料與Adobe Campaign資料庫中的設定檔。 此整合支援一般宣告的ID、雜湊的宣告ID和加密的宣告ID。 如需 **[!UICONTROL Declared ID]** 有效性，請參閱本 [頁](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)。
+* **宣告的ID**:此類型的ID可讓您協調任何類型的資料與Adobe Campaign資料庫中的設定檔。 此整合支援一般宣告的ID、雜湊的宣告ID和加密的宣告ID。 若要進一步了 **[!UICONTROL Declared ID]** 解有效性，請參 [閱本頁](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)。
 
    加密可讓您透過指定加密演算法，使用宣告的ID在資料來源（例如PII）中共用加密資料。
 

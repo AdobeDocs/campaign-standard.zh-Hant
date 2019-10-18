@@ -14,7 +14,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0e6f85047179572131739659b8175f82c8a5f40e
+source-git-commit: 8b4cf35fcbdee436ce3f9fa4aeb1b1fdd8609f50
 
 ---
 
@@ -37,7 +37,7 @@ Microsoft Dynamics 365整合(GA)-詳 [細資訊](https://helpx.adobe.com/campaig
 
 ### 此版本隨附的其他檔案更新 {#other-documentation-updates-coming-with-the-release-18}
 
-「促銷活動標準」和「傳統型」的錯誤訊息清單已更新。 [閱讀更多資訊](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+「促銷活動標準」和「促銷活動經典」的錯誤訊息清單已更新。 [閱讀更多資訊](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
 GDPR快速入門手冊已經過改進並充實。 它現在是包含GDPR和CCPA的隱私權管理檔案。 [閱讀更多資訊](https://helpx-internal.corp.adobe.com/content/help/en/campaign/kb/campaign-privacy.html)
 

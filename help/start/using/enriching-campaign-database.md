@@ -14,7 +14,7 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: dec43f3646a775fb16c3751635087666fc3969fb
+source-git-commit: 8b4cf35fcbdee436ce3f9fa4aeb1b1fdd8609f50
 
 ---
 
@@ -56,7 +56,7 @@ Campaign standard提供數種工具來協助您擴充行銷資料庫。 本節�
 ## 從Microsoft Dynamics 365同步設定檔
 
 Campaign standard與Microsoft Dynamics 365的整合可讓您將Microsoft Dynamics 365的連絡人資料傳遞至Campaign資料庫。
-然後，這些連絡人會顯示在「設定檔」清單中，並可定位在行銷促銷活動中。
+然後，這些連絡人會顯示在清 **[!UICONTROL Profiles]** 單中，並可定位在行銷促銷活動中。
 
 如需此整合的詳細資訊，請參閱專 [用檔案](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)。
 

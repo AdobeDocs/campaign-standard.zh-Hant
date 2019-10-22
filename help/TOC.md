@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: 最終用戶
 user-guide-title: Adobe Campaign standard說明
 translation-type: tm+mt
-source-git-commit: 9291786739a8b2e5823abe32e5b2ad21603f7b88
+source-git-commit: 5b5784d6c80e96e3303bbb372e171889bbb29f99
 
 ---
 
@@ -136,7 +136,7 @@ source-git-commit: 9291786739a8b2e5823abe32e5b2ad21603f7b88
       + [管理測試設定檔和傳送校樣](sending/using/managing-test-profiles-and-sending-proofs.md)
       + [測試電子郵件的主旨行](sending/using/testing-subject-line-email.md)
       + [電子郵件轉換](sending/using/email-rendering.md)
-   + 排程訊息 {#sheduling-messages}
+   + 排程訊息 {#scheduling-messages}
       + [關於調度消息](sending/using/about-scheduling-messages.md)
       + [最佳化傳送時間](sending/using/optimizing-the-sending-time.md)
       + [在收件者的時區傳送訊息](sending/using/sending-messages-at-the-recipient-s-time-zone.md)

@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
+source-git-commit: c43a258734f3344fad8c9cbd5bd5774d7f37b4f6
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
 * 從Adobe Experience cloud共用的影像——請參閱使 [用促銷活動和資產核心服務](../../integrating/using/working-with-campaign-and-assets-core-service.md) /隨選資產
 * 來自Adobe Target的動態影像——請參閱使 [用Campaign和Target](../../integrating/using/about-campaign-target-integration.md)
 
-如果啟用，您可以使用Adobe Creative SDK修改影像。 請參 [閱「使用Adobe Creative SDK修改影像」](../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk)。
+如果啟用，您可以使用Adobe Creative SDK修改影像。 請參 [閱「使用Adobe Creative SDK修改影像」](images.md#modifying-images-with-the-adobe-creative-sdk)。
 
 >[!CAUTION]
 >
@@ -63,7 +63,7 @@ source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
 * 編輯電子郵件時， **Style** 可讓您指定影像大小、背景和邊框。
 * 編輯著陸頁面時，「 **尺寸** 」可讓您指定影像大小（以像素為單位）。
 
-編輯器可讓您處理所有格 **式與瀏覽器相容** 的影像類型。 為了與編輯器相容， **"Flash** "類型的動畫必須插入HTML頁面，如下所示：
+編輯器可讓您處理格式與 **瀏覽器相容的所** 有影像類型。 為了與編輯器相容， **"Flash** "類型的動畫必須插入HTML頁面，如下所示：
 
 ```
 <object type="application/x-shockwave-flash" data="http://www.mydomain.com/flash/your_animation.swf" width="200" height="400">

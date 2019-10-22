@@ -2,57 +2,58 @@
 title: 關於SMS訊息
 seo-title: 關於SMS訊息
 description: 關於SMS訊息
-seo-description: 探索Adobe Campaign中SMS頻道的主要特點。
-page-status-flag: 從未啓動
+seo-description: 瞭解Adobe Campaign中SMS頻道的主要特性。
+page-status-flag: 從未激活
 uuid: 14dc7434-8171-4ad1-9540-52ca637659a9
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
+contentOwner: 紹維亞
+products: SG_CAMPAIGN/STANDARD
 audience: 頻道
-content-type: reference
+content-type: 參考
 topic-tags: sms-messages
-discoiquuid: 6134Fe72-77de-4fd0-b794-4d966 effaccf
-delivercontext-tags: Delivery Creation，wizard；傳送，SMSContent，back
+discoiquuid: 6134fe72-77de-4fd0-b794-4d966effaccf
+delivercontext-tags: deliveryCreation，精靈；delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b0cf437ec97153b53bd4502171b24286abb25731
+source-git-commit: 96001355220a9dd0cd3851d3f7de9f4dc8ea2782
 
 ---
 
 
-# About SMS messages{#about-sms-messages}
+# 關於SMS訊息{#about-sms-messages}
 
-Adobe Campaign可讓您傳送SMS(簡短訊息服務)訊息。
+Adobe Campaign可讓您傳遞SMS（簡訊服務）訊息。
 
 >[!NOTE]
 >
->SMS頻道是附加元件。請檢查您的授權合約。
+>SMS頻道是附加元件。 請檢查您的授權合約。
 
-對於SMS訊息，您只能以文字格式建立、修改和個人化訊息。您也可以在傳送SMS訊息之前預覽。
+對於SMS訊息，您只能以文字格式建立、修改及個人化訊息。 您也可以在傳送SMS訊息之前先預覽。
 
-SMS訊息的長度上限為160個字元，如果它採用GSM編碼，而且只有70個字元位於Unicode中。但是，某些特殊字元會影響訊息長度。For more on this, refer to the [SMS encoding](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration) section.
+如果SMS訊息在GSM編碼中，則長度限制為160個字元，如果在Unicode中，則限制為70個字元。 不過，某些特殊字元會影響訊息的長度。 如需詳細資訊，請參閱「 [SMS編碼」一節](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration) 。
 
-SMS messages can be created from the **[!UICONTROL Marketing activities]** menu, from a campaign, or in a workflow, see [Creating an SMS message](../../channels/using/creating-an-sms-message.md).
+您可從功能表、促銷活 **[!UICONTROL Marketing activities]** 動或工作流程建立SMS訊息，請參閱 [建立SMS訊息](../../channels/using/creating-an-sms-message.md)。
 
-若要傳送SMS訊息至您需要的行動電話：
+若要將SMS訊息傳送至行動電話，您需要：
 
-* **[!UICONTROL Routing]****[!UICONTROL Mobile (SMS)]** 在頻道上設定 **[!UICONTROL Bulk delivery]** 模式的外部帳戶。For more on this, refer to the [Routing](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing) section.
-* 已正確連結至此外部帳戶的傳送範本。
+* 在 **[!UICONTROL Routing]** 頻道上以模式 **[!UICONTROL Mobile (SMS)]** 設定的外部 **[!UICONTROL Bulk delivery]** 帳戶。 For more on this, refer to the [Routing](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing) section.
+* 正確連結至此外部帳戶的傳送範本。
 
 **相關主題：**
 
 * [管理範本](../../start/using/about-templates.md)
-* [SMS組態](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)
+* [SMS設定](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)
+* [SMS報告](../../reporting/using/sms-report.md)
 
-## SMS delivery template {#sms-delivery-template}
+## 簡訊傳送範本 {#sms-delivery-template}
 
-Adobe Campaign提供行動裝置的傳送範本。This template must be correctly linked to the external account used for the **[!UICONTROL Mobile (SMS)]** channel. 若要存取並修改：
+Adobe Campaign提供行動裝置的傳送範本。 此範本必須正確連結至用於渠道的外部帳 **[!UICONTROL Mobile (SMS)]** 戶。 要訪問和修改它：
 
-1. Select **[!UICONTROL Resources]** &gt; **[!UICONTROL Templates]** &gt; **[!UICONTROL Delivery templates]** from the advanced menu.
-1. Hover over the **[!UICONTROL Send via SMS]** template with the mouse and select the **Duplicate element** option.
-1. 選取新範本。
+1. 從進 **[!UICONTROL Resources]** 階功 **[!UICONTROL Templates]** 能表 **[!UICONTROL Delivery templates]** 選取&gt; &gt;。
+1. 將滑鼠暫留在 **[!UICONTROL Send via SMS]** 範本上，並選取「復 **制」元素** 。
+1. 選擇新模板。
 1. Click the **[!UICONTROL Edit properties]** button.
-1. In the **[!UICONTROL Advanced parameters]** section of the template properties, make sure that the template is linked to the external account to be used for delivering SMS.
+1. 在範本 **[!UICONTROL Advanced parameters]** 屬性的區段中，請確定範本已連結至要用來傳送SMS的外部帳戶。
 
    ![](assets/sms_template.png)
 

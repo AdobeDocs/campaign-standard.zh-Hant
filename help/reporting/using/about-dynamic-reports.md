@@ -14,7 +14,7 @@ discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4388d4f07e633651a4cad6ff6ec8b25b47111b83
+source-git-commit: cceab9f275a0e40804c548d127c54030b75b7cbc
 
 ---
 
@@ -88,8 +88,8 @@ source-git-commit: 4388d4f07e633651a4cad6ff6ec8b25b47111b83
 
 | 地區 | 動態報告 | Microsoft Dynamics 365連接器 |
 |---|---|---|
-| 美洲與亞太地區（亞太地區） | **功能已推出**。 <br> 除ExternalID外，沒有立即可用的自訂設定檔資訊推送至美國報告中心。 | **功能已推出**。 <br>除「外部ID」和「收件者ID」外，沒有立即可用的或自訂的描述檔欄位傳送至美國資料中心。 <br>除鏡像頁面ID外，所有在美國資料中心處理的Adobe Campaign Standard事件欄位。 |
-| EMEA（歐洲中東和非洲） | **功能已推出**。 <br>除ExternalID外，沒有立即可用的自訂設定檔資訊推送至EMEA報告中心。 | **功能已推出。** 除「 <br>外部ID」和「收件者ID」外，沒有立即可用或自訂的描述檔欄位傳送至EMEA資料中心。 <br>除鏡像頁面ID外，所有在EMEA資料中心處理的Adobe Campaign Standard事件欄位。  <br>**[!UICONTROL Control data]** 其中包含Adobe I/O註冊資料，以及在美國資料中心傳送及儲存之客戶使用者事件的ID。 |
+| 美洲與亞太地區（亞太地區） | **功能已推出**。 <br> 除ExternalID外，沒有立即可用的自訂設定檔資訊推送至美國報告中心。 | **功能已推出**。 <br>除「外部ID」和「收件者ID」外，沒有立即可用的或自訂的描述檔欄位傳送至美國資料中心。 <br>除區段代碼和鏡像頁面ID外，所有Adobe Campaign Standard事件欄位都在美國資料中心處理。 |
+| EMEA（歐洲中東和非洲） | **功能已推出**。 <br>除ExternalID外，沒有立即可用的自訂設定檔資訊推送至EMEA報告中心。 | **功能已推出。** 除「 <br>外部ID」和「收件者ID」外，沒有立即可用或自訂的描述檔欄位傳送至EMEA資料中心。 <br>除區段代碼和鏡像頁面ID外，所有在EMEA資料中心處理的Adobe Campaign Standard事件欄位。  <br>**[!UICONTROL Control data]** 其中包含Adobe I/O註冊資料，以及在美國資料中心傳送及儲存之客戶使用者事件的ID。 |
 
 這個選項不是最終選項，您隨時都可以在 **[!UICONTROL Enable PII data to be transferred to US region to use reporting on Profile data]** &gt; **[!UICONTROL Administration]** &gt; **[!UICONTROL Application Settings]** 中變更 **[!UICONTROL Options]**。
 

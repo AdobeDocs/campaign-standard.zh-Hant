@@ -2,71 +2,71 @@
 title: 監控訂閱
 seo-title: 監控訂閱
 description: 監控訂閱
-seo-description: 瞭解如何使用儀表板和報告追蹤您的訂閱者，並評估服務是否成功。
-page-status-flag: 從未啓動
-uuid: b0d8eb80-fa51-4518-a5 e6-56de4046 f6 ff
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
-audience: 受眾
-content-type: reference
-topic-tags: 管理訂閱
-discoiquuid: 36750524-eb54-47e8-aa1 b-ae0 b94 f58 cb1
+seo-description: 瞭解如何使用儀表板和報告來追蹤訂閱者並評估服務的成功程度。
+page-status-flag: 從未激活
+uuid: b0d8eb80-fa51-4518-a5e6-56de4046f6ff
+contentOwner: 紹維亞
+products: SG_CAMPAIGN/STANDARD
+audience: audiences
+content-type: 參考
+topic-tags: 管理預訂
+discoiquuid: 36750524-eb54-47e8-aa1b-ae0b94f58cb1
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
 
-# Monitoring subscriptions{#monitoring-subscriptions}
+# 監控訂閱{#monitoring-subscriptions}
 
-使用Adobe Campaign介面追蹤您的訂閱者並評估服務是否成功。
+使用Adobe Campaign介面來追蹤您的訂閱者並評估服務的成功程度。
 
-您有幾個選項可監控訂閱訂閱和取消訂閱：
+您有幾個選項可用來監視訂閱與取消訂閱：
 
-* 從服務儀表板檢視目前訂閱您服務的人員清單。See [Service dashboard](../../audiences/using/monitoring-subscriptions.md#service-dashboard).
-* consult the history of subscriptions and unsubscriptions from the **Subscription history** tab in the service dashboard. See [Subscription history](../../audiences/using/monitoring-subscriptions.md#subscription-history).
-* display a report detailing the evolution of subscriptions and unsubscriptions in the service **Reports**. See [Service reports](../../audiences/using/monitoring-subscriptions.md#service-reports).
-* find the list of services a person has subscribed from its **Profile**. See [History of events linked to a profile](../../audiences/using/monitoring-subscriptions.md#history-of-events-linked-to-a-profile).
+* 從服務儀表板查看當前訂閱服務的人員清單。 請參閱 [服務儀表板](#service-dashboard)。
+* 從服務控制面板的「訂閱歷史記錄」標 **簽中** ，查閱訂閱和取消訂閱的歷史記錄。 請參閱 [訂閱記錄](#subscription-history)。
+* 顯示詳細說明「服務報表」中訂閱和取消訂閱演變的 **報表**。 請參閱 [服務報表](#service-reports)。
+* 從個人檔案中尋找個人訂閱的服務 **清單**。 請參 [閱連結至描述檔的事件記錄](#history-of-events-linked-to-a-profile)。
 
-## Service dashboard {#service-dashboard}
+## 服務儀表板 {#service-dashboard}
 
-若要檢視訂閱服務的人員清單：
+要查看訂閱服務的人員清單，請執行以下操作：
 
-1. Go to the list of services via the advanced menu **Profiles &amp; audiences** &gt; **Services**, which can be accessed from the Adobe Campaign logo.
-1. 選擇您所選擇的服務，以顯示對應的控制面板。
-1. The list of people subscribed to the service can be found in the **Subscriptions** tab.
+1. 透過進階功能表「設定檔與觀眾 **&gt;** 服務 ****」，從Adobe Campaign標誌存取該功能表，前往服務清單。
+1. 選取您選擇的服務以顯示對應的控制面板。
+1. 訂閱服務的人員清單可在「訂閱」索引標籤 **中找** 到。
 
 ![](assets/lp_monitoring_subscriptions_1.png)
 
-## Subscription history {#subscription-history}
+## 訂閱歷史記錄 {#subscription-history}
 
-若要查詢訂閱和取消訂閱記錄：
+若要查詢訂閱和取消訂閱歷史記錄：
 
-1. Go to the list of services via the advanced menu **Profiles &amp; audiences** &gt; **Services**, which can be accessed from the Adobe Campaign logo.
-1. 選擇您所選擇的服務，以顯示對應的控制面板。
-1. Select the **Subscription history** tab to display the dates on which each person subscribed and unsubscribed.
+1. 透過進階功能表「設定檔與觀眾 **&gt;** 服務 ****」，從Adobe Campaign標誌存取該功能表，前往服務清單。
+1. 選取您選擇的服務以顯示對應的控制面板。
+1. 選擇「 **訂閱歷史記錄** 」標籤，以顯示每個人訂閱和取消訂閱的日期。
 
 ![](assets/lp_monitoring_subscriptions_2.png)
 
-## Service reports {#service-reports}
+## 服務報告 {#service-reports}
 
-若要顯示訂閱和取消訂閱的演變：
+要顯示詳細說明訂閱和取消訂閱演變的報告：
 
-1. Go to the list of services via the advanced menu **Profiles &amp; audiences** &gt; **Services**, which can be accessed from the Adobe Campaign logo.
-1. 選擇您所選擇的服務，以顯示對應的控制面板。
-1. Click the **Reports** button in the action bar, then **Subscription monitoring** in the selection screen.
+1. 透過進階功能表「設定檔與觀眾 **&gt;** 服務 ****」，從Adobe Campaign標誌存取該功能表，前往服務清單。
+1. 選取您選擇的服務以顯示對應的控制面板。
+1. 按一下 **動作列中的** 「報表」按鈕，然後在選 **擇畫面中按一下「訂閱** 」監控。
 
    ![](assets/lp_monitoring_subscriptions_3.png)
 
-1. **「服務摘要** 」報表會顯示訂閱的次數、訂閱的整體演變，以及顯示進度的曲線。
+1. 「服 **務摘要** 」報表會顯示訂閱數、訂閱的整體演變，以及顯示一段時間進度的曲線。
 
 ![](assets/lp_monitoring_subscriptions_4.png)
 
-## History of events linked to a profile {#history-of-events-linked-to-a-profile}
+## 連結至描述檔的事件記錄 {#history-of-events-linked-to-a-profile}
 
-若要查詢連絡人已訂閱的服務清單，您可以諮詢其行銷歷史記錄。For more on this, refer to the [Integrated customer profile](../../audiences/using/integrated-customer-profile.md) section.
+若要查詢連絡人已訂閱的服務清單，請查閱其行銷記錄。 有關詳情，請參閱「整合式客 [戶個人檔案](../../audiences/using/integrated-customer-profile.md) 」一節。
 
 ![](assets/lp_monitoring_subscriptions_5.png)
 

@@ -14,7 +14,7 @@ discoiquuid: 95218ebe-5430-42a2-b900-1dadbbc92d99
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -60,9 +60,9 @@ HTML內容範本可從「進階」功能表 **[!UICONTROL Resources]** 的&gt; *
 
 現成可用的內容範本為唯讀。 若要編輯其中一個範本，您必須先複製所要的範本。
 
-您可以建立新的範本或片段，並定義您自己的內容。 如需詳細資訊，請參 [閱「建立內容範本](../../start/using/about-templates.md#creating-a-content-template) 」 [和「建立內容片段」](../../designing/using/using-reusable-content.md#creating-a-content-fragment)。
+您可以建立新的範本或片段，並定義您自己的內容。 如需詳細資訊，請參 [閱「建立內容範本](#creating-a-content-template) 」 [和「建立內容片段」](../../designing/using/using-reusable-content.md#creating-a-content-fragment)。
 
-使用電子郵件設計工具編輯內容時，您也可以將內容儲存為片段或範本，以建立內容範本。 如需詳細資訊，請參 [閱「將內容儲存為範本](../../start/using/about-templates.md#saving-content-as-template) 」 [和「將內容儲存為片段」](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment)。
+使用電子郵件設計工具編輯內容時，您也可以將內容儲存為片段或範本，以建立內容範本。 如需詳細資訊，請參 [閱「將內容儲存為範本](#saving-content-as-template) 」 [和「將內容儲存為片段」](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment)。
 
 ### 現成可用的電子郵件內容範本 {#email-content-templates}
 
@@ -77,7 +77,7 @@ HTML內容範本可從「進階」功能表 **[!UICONTROL Resources]** 的&gt; *
 * 瞭解如何在此影片中個人化 [內容範本](https://helpx.adobe.com/campaign/kt/acs/using/acs-email_content_templates-feature-video-use.html)。
 * 如需編輯內容的詳細資訊，請參閱關於 [電子郵件內容設計](../../designing/using/overview.md)。
 
-### 建立內容範本 {#creating-a-content-template}
+### Creating a content template {#creating-a-content-template}
 
 您可以建立自己的內容範本，視需要多次使用這些範本。
 

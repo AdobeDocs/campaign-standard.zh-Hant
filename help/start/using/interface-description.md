@@ -14,7 +14,7 @@ discoiquuid: dafd9860-cd22-4c30-86b7-631b64db7b3f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 14155f29492f66b070dd302c59bdd8e81008f281
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -57,7 +57,7 @@ Adobe Campaign可讓您導覽不同的功能表和螢幕，以管理您的促銷
 
 * 頁 **[!UICONTROL Adobe Campaign]** 面左上角的標誌可讓您存取進階功能和組態。 功能表取決於您的設定檔和權限。
 
-   進階功能表會顯示在「進階 [功能表](../../start/using/interface-description.md#advanced-menu) 」區段。
+   進階功能表會顯示在「進階 [功能表](#advanced-menu) 」區段。
 
 * 此連 **[!UICONTROL Home]** 結可讓您顯示Adobe Campaign首頁。
 * 這些 **[!UICONTROL Marketing activities]**、 **[!UICONTROL Programs & Campaigns]**、和 **[!UICONTROL Profiles]****[!UICONTROL Audiences]****[!UICONTROL Reports]** 連結可讓您存取與這些功能連結的檢視。
@@ -103,7 +103,7 @@ Adobe Campaign可讓您導覽不同的功能表和螢幕，以管理您的促銷
 
 ### 管理 {#administration}
 
-此圖 **[!UICONTROL Administration]** 示可讓您存取進階功能，這些功能僅能由功能管理員執行。 有關詳細資訊，請參閱「管 [理](../../administration/using/about-administrating-adobe-campaign.md) 」部分。
+此圖 **[!UICONTROL Administration]** 示可讓您存取進階功能，這些功能僅能由功能管理員執行。 For more on this, refer to the [Administration](../../administration/using/about-administrating-adobe-campaign.md) section.
 
 ## 中央區 {#central-zone}
 

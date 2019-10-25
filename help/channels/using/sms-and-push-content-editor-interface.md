@@ -15,7 +15,7 @@ context-tags: 傳送，sms內容，返回
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -24,8 +24,8 @@ source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 SMS和推播內容編輯器會組織成兩個不同的區段，讓您檢視和編輯訊息。
 
-1. 動 **作列** ，包含頁面的一般選項。 您可以從此處插入個人化欄位或內容區塊、新增條件文字並預覽SMS內容。 請參 [閱SMS和推播內容編輯器動作列](../../channels/using/sms-and-push-content-editor-interface.md#sms-and-push-content-editor-action-bar)。
-1. 熒 **幕的編輯區** ，可讓您直接輸入文字訊息，並選取要插入個人化的位置。 請參 [閱SMS和推播內容版本模式](../../channels/using/sms-and-push-content-editor-interface.md#sms-and-push-content-edition-modes)。
+1. 動 **作列** ，包含頁面的一般選項。 您可以從此處插入個人化欄位或內容區塊、新增條件文字並預覽SMS內容。 請參 [閱SMS和推播內容編輯器動作列](#sms-and-push-content-editor-action-bar)。
+1. 熒 **幕的編輯區** ，可讓您直接輸入文字訊息，並選取要插入個人化的位置。 請參 [閱SMS和推播內容版本模式](#sms-and-push-content-edition-modes)。
 
 ## SMS和推播內容編輯器動作列 {#sms-and-push-content-editor-action-bar}
 

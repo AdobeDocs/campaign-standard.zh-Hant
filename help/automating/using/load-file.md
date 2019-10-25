@@ -15,7 +15,7 @@ context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b93cde098641d14023cff1c476aed521d1a49900
+source-git-commit: 0c455e965d21996ffbadeddf336c6709ce8ee8f3
 
 ---
 
@@ -84,7 +84,7 @@ source-git-commit: b93cde098641d14023cff1c476aed521d1a49900
 
    例如，您可以變更欄的標籤，並選取其類型（字串、整數、日期等） 甚至指定錯誤處理。
 
-   有關詳細資訊，請參閱「列 [格式」部分](../../automating/using/load-file.md#column-format) 。
+   有關詳細資訊，請參閱「列 [格式」部分](#column-format) 。
 
    ![](assets/wkf_file_loading4.png)
 
@@ -176,7 +176,7 @@ source-git-commit: b93cde098641d14023cff1c476aed521d1a49900
 
 ## 範例2:傳送包含豐富欄位的電子郵件 {#example-2-email-with-enriched-fields}
 
-<!--A new example showing how to send an email containing additional data retrieved from a load file activity has been added. [Read more](../../automating/using/load-file.md#example-2-email-with-enriched-fields)-->
+<!--A new example showing how to send an email containing additional data retrieved from a load file activity has been added. [Read more](example-2-email-with-enriched-fields)-->
 
 此外，載入檔案活動也可讓您在相同的工作流程中，從外部檔案傳送內含其他資料的電子郵件。
 

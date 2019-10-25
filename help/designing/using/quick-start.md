@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8f63c039231a7028825981098e6f97eb3ebca67e
+source-git-commit: 8e070a4c364c8a5e23870e28add142b46edc8994
 
 ---
 
@@ -24,14 +24,14 @@ source-git-commit: 8f63c039231a7028825981098e6f97eb3ebca67e
 
 您可以建立新的電子郵件：
 
-* 您可以輕鬆新增結構和內容元件，並個人化其內容，以便快速傳送，從空白畫布建立電子郵件。 您也可以完全管理樣式元素。 如需詳細資訊，請 [快速上手](../../designing/using/quick-start.md#from-scratch-email) ，或查看完 [整的檔案](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)。
+* 您可以輕鬆新增結構和內容元件，並個人化其內容，以便快速傳送，從空白畫布建立電子郵件。 您也可以完全管理樣式元素。 如需詳細資訊，請 [快速上手](#from-scratch-email) ，或查看完 [整的檔案](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)。
 
-* 您可以從現成可用的範本建立電子郵件，方法是選取範本並從此處建立新的電子郵件內容。 [進一步瞭解](quick-start.md#building-content-from-an-out-of-the-box-template)
+* 您可以從現成可用的範本建立電子郵件，方法是選取範本並從此處建立新的電子郵件內容。 [進一步瞭解](#building-content-from-an-out-of-the-box-template)
 
 您也可以建立包含現有內容的電子郵件：
 
-* 您可以轉換現有的HTML內容（在外部或舊版編輯器中建立）。 [進一步瞭解](quick-start.md#converting-an-html-content)
-* 您可以直接在相容性模式中匯入現有的HTML內容。 [進一步瞭解](quick-start.md#compatibility-mode)
+* 您可以轉換現有的HTML內容（在外部或舊版編輯器中建立）。 [進一步瞭解](#converting-an-html-content)
+* 您可以直接在相容性模式中匯入現有的HTML內容。 [進一步瞭解](#compatibility-mode)
 
 ## 沒有現有內容 {#without-existing-content}
 

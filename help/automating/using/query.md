@@ -1,358 +1,358 @@
 ---
-title: Query
-seo-title: Query
-description: Query
-seo-description: 「查詢」活動可讓您從Adobe Campaign資料庫篩選並提取元素族群。
-page-status-flag: 從未啓動
-uuid: b3c629fa-370e-481c-b347-fcf9 f5 a5 e847
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
+title: 查詢
+seo-title: 查詢
+description: 查詢
+seo-description: 「查詢」活動可讓您從Adobe Campaign資料庫中篩選及擷取一組元素。
+page-status-flag: 從未激活
+uuid: b3c629fa-370e-481c-b347-fcf9f5a5e847
+contentOwner: 紹維亞
+products: SG_CAMPAIGN/STANDARD
 audience: 自動化
-content-type: reference
+content-type: 參考
 topic-tags: 定位活動
 discoiquuid: 8d46ce28-0101-4f13-865a-2208ed6d6139
-context-tags: query，main
+context-tags: 查詢，主
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d50d486ed77cb7989df47133bb49fde3227ae3a5
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
 
-# Query{#query}
+# 查詢{#query}
 
-## Description {#description}
+## 說明 {#description}
 
 ![](assets/query.png)
 
-**[!UICONTROL Query]** 此活動可讓您從Adobe Campaign資料庫篩選並提取元素族群。You can define **[!UICONTROL Additional data]** for the targeted population via a dedicated tab. 此資料儲存在其他欄中，只能用於進行中的工作流程。
+此活 **[!UICONTROL Query]** 動可讓您從Adobe Campaign資料庫中篩選及擷取一組元素。 您可以透過 **[!UICONTROL Additional data]** 專用標籤來定義目標人口。 此資料會儲存在其他欄中，且僅能用於進行中的工作流程。
 
-活動使用查詢編輯器工具。This tool is detailed in a [dedicated section](../../automating/using/editing-queries.md#about-query-editor).
+活動使用查詢編輯器工具。 此工具在專屬章節中 [有詳細說明](../../automating/using/editing-queries.md#about-query-editor)。
 
-## Context of use {#context-of-use}
+## 使用內容 {#context-of-use}
 
-**[!UICONTROL Query]** 活動可用於各種類型的使用：
+此活 **[!UICONTROL Query]** 動可用於各種類型的使用：
 
-* 劃分個人來定義訊息、觀眾等目標。
+* 將個人分段以定義訊息、對象等的目標。
 * 豐富整個Adobe Campaign資料庫表格的資料。
-* 匯出資料。
+* 匯出資料.
 
-## Configuration {#configuration}
+## 配置 {#configuration}
 
-1. Drag and drop a **[!UICONTROL Query]** activity into your workflow.
-1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear. 依預設，活動已預先設定為搜尋設定檔。
-1. If you would like to run a query on a resource other than the profile resource, go to the activity's **[!UICONTROL Properties]** tab and select a **[!UICONTROL Resource]** and a **[!UICONTROL Targeting dimension]**.
+1. 將活動拖放 **[!UICONTROL Query]** 至工作流程。
+1. 選擇活動，然後使用顯示的快 ![](assets/edit_darkgrey-24px.png) 速操作中的按鈕將其開啟。 依預設，活動會預先設定為搜尋描述檔。
+1. 如果要對配置檔案資源以外的資源運行查詢，請轉至活動的頁籤， **[!UICONTROL Properties]** 然後選擇 **[!UICONTROL Resource]** 和 **[!UICONTROL Targeting dimension]**。
 
-   The **[!UICONTROL Resource]** allows you to refine the filters displayed in the palette whereas the **[!UICONTROL Targeting dimension]**, contextual with regard to the resource selected, corresponds to the type of population that you would like to obtain (identified profiles, deliveries, data linked to the selected resource, etc.).
+   您 **[!UICONTROL Resource]** 可以調整浮動視窗中顯示的篩選條件，而與所選資源相關的 **[!UICONTROL Targeting dimension]**，則與您要取得的人口類型（識別的設定檔、傳送、連結至所選資源的資料等）相對應。
 
-   For more on this, refer to [Targeting dimensions and resources](../../automating/using/query.md#targeting-dimensions-and-resources)
+   如需詳細資訊，請參閱「定 [位維度和資源」](#targeting-dimensions-and-resources)。
 
-1. **[!UICONTROL Target]** 在標籤中，透過定義和結合規則來執行查詢。
-1. You can define **[!UICONTROL Additional data]** for the targeted population via a dedicated tab. 此資料儲存在其他欄中，只能用於進行中的工作流程。尤其是，您可以從連結至查詢目標維度的Adobe Campaign資料庫表格中新增資料。Consult the [Enriching data](../../automating/using/query.md#enriching-data) section.
+1. 在標籤 **[!UICONTROL Target]** 中，定義並結合規則以執行查詢。
+1. 您可以透過 **[!UICONTROL Additional data]** 專用標籤來定義目標人口。 此資料會儲存在其他欄中，且僅能用於進行中的工作流程。 尤其是，您可以從連結至查詢定位維度的Adobe Campaign資料庫表格新增資料。 請參閱「 [豐富資料](#enriching-data) 」一節。
 
    >[!NOTE]
    >
-   >By default, the **[!UICONTROL Remove duplicate rows (DISTINCT)]** option is checked in the **[!UICONTROL Advanced options]** of the **[!UICONTROL Additional data]** tab of the query. If the **[!UICONTROL Query]** activity contains many (from 100) additional data defined, it is recommended to uncheck this option, for performance reasons. 請小心，取消勾選此選項可能會造成重復，視查詢的資料而定。
+   >預設情況下， **[!UICONTROL Remove duplicate rows (DISTINCT)]** 選項會在查 **[!UICONTROL Advanced options]** 詢的選 **[!UICONTROL Additional data]** 項卡中選中。 如果活 **[!UICONTROL Query]** 動包含許多（來自100個）已定義的其他資料，則建議基於效能原因取消選中此選項。 請注意，取消勾選此選項會導致重複，視查詢的資料而定。
 
-1. **[!UICONTROL Transition]** 在標籤中， **[!UICONTROL Enable an outbound transition]** 此選項可讓您在查詢活動後新增傳出轉場，即使它擷取無資料亦然。
+1. 在標籤 **[!UICONTROL Transition]** 中，選 **[!UICONTROL Enable an outbound transition]** 項可讓您在查詢活動後新增傳出轉場，即使它未擷取任何資料亦然。
 
-   The outbound transition's segment code can be personalized using a standard expression and events variables (see [Customizing activities with events variables](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables)).
+   使用標準運算式和事件變數可個人化傳出轉場的區段代碼(請參閱使用事 [件變數自訂活動](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables))。
 
 1. 確認活動的設定並儲存工作流程。
 
-## Targeting dimensions and resources {#targeting-dimensions-and-resources}
+## 定位維度與資源 {#targeting-dimensions-and-resources}
 
-定位維度和資源可讓您定義要根據哪個元素來決定傳送目標。
+定位維度和資源可讓您定義查詢要依據哪些元素來判斷傳送的目標。
 
-定位維度是在定位對應中定義。For more on this, refer to [this section](../../administration/using/target-mappings-in-campaign.md).
+定位維度是在定位映射中定義。 如需詳細資訊，請參閱[本小節](../../administration/using/target-mappings-in-campaign.md)。
 
-### Defining the targeting dimension and resource of a query {#defining-the-targeting-dimension-and-resource-of-a-query}
+### 定義查詢的定位維和資源 {#defining-the-targeting-dimension-and-resource-of-a-query}
 
-Targeting dimension and resources are defined when creating a workflow, in the **[!UICONTROL Properties]** tab of a Query activity.
+定位維度和資源是在建立工作流程時，在「查詢」活動 **[!UICONTROL Properties]** 的標籤中定義。
 
 >[!NOTE]
 >
->The targeting dimension can also be defined when creating an audience (see [this section](../../audiences/using/creating-audiences.md)).
+>建立對象時，也可定義定位維度(請參 [閱本節](../../audiences/using/creating-audiences.md))。
 
 ![](assets/targeting_dimension1.png)
 
-鎖定維度和資源。因此，可用的定位維度取決於所選資源。
+定位維度和資源會連結。 因此，可用的定位維度取決於選取的資源。
 
-For example, for the Resource **[!UICONTROL Profiles (profile)]**, the following targeting dimensions will be available:
+例如，對於「資源」, **[!UICONTROL Profiles (profile)]**&#x200B;將可使用下列定位維度：
 
 ![](assets/targeting_dimension2.png)
 
-While for **[!UICONTROL Deliveries (delivery)]**, the list will contain the following targeting dimensions:
+對於， **[!UICONTROL Deliveries (delivery)]**&#x200B;清單將包含下列定位維度：
 
 ![](assets/targeting_dimension3.png)
 
-指定定位維度和資源後，查詢中就會提供不同篩選。
+在指定定位維度和資源後，查詢中就可使用不同的篩選。
 
-**[!UICONTROL Profiles (profile)]** 資源可用篩選的範例：
+資源的可用篩選器示 **[!UICONTROL Profiles (profile)]** 例：
 
 ![](assets/targeting_dimension4.png)
 
-**[!UICONTROL Deliveries (delivery)]** 資源可用篩選的範例：
+資源的可用篩選器示 **[!UICONTROL Deliveries (delivery)]** 例：
 
 ![](assets/targeting_dimension5.png)
 
-### Using resources different from targeting dimensions {#using-resources-different-from-targeting-dimensions}
+### 使用與定位維度不同的資源 {#using-resources-different-from-targeting-dimensions}
 
-依預設，定位維度和資源會設定為定位設定檔。
+預設會設定定位維度和資源，以定位描述檔。
 
-不過，如果您想要在遠處表格中查閱特定記錄，則可從定位維度使用不同的資源。
+不過，如果您想在遠端表格中尋找特定記錄，則使用與定位維度不同的資源可能會很有用。
 
-**範例1：識別透過標籤傳送的個人檔案」，歡迎返回！**」。
+**範例1:使用標籤「歡迎回來！」識別傳送所定位的描述檔**。
 
-* 在這種情況下，我們想要定位個人檔案。We will set the targeting dimension to **[!UICONTROL Profiles (profile)]**.
-* 我們想要根據傳送標籤篩選選取的設定檔。We will therefore set the resource to **[!UICONTROL Delivery logs]**. 如此，我們就可直接在傳送記錄表格中篩選，提供更佳的效能。
+* 在此案例中，我們要定位描述檔。 我們會將定位維度設為 **[!UICONTROL Profiles (profile)]**。
+* 我們想要根據傳送標籤來篩選選取的描述檔。 因此，我們將資源設定為 **[!UICONTROL Delivery logs]**。 這樣，我們就直接在傳送記錄表中進行篩選，提供更佳的效能。
 
 ![](assets/targeting_dimension6.png)
 
 ![](assets/targeting_dimension7.png)
 
-**範例2：識別未透過「歡迎傳回」標籤的個人檔案。」**
+**範例2:識別傳送時未鎖定的描述檔，並標示為「歡迎返回！」**
 
-在先前的範例中，我們使用了不同於定位維度的資源。This operation is only possible if you want to find a record that **is present** in the distant table (delivery logs in our example).
+在上個範例中，我們使用與定位維度不同的資源。 只有在您想要查找位於遠程表中 **的記錄** （在我們的示例中是交付日誌）時，才能執行此操作。
 
-If we want to find a record that **is not present** in the distant table (for example, profiles who were not targeted by a specific delivery), you must use the same resource and targeting dimension, as the record will not be present in the distant table (delivery logs).
+如果我們想要尋找不在遠端表格中的記錄 **** （例如，未由特定傳送定位的設定檔），您必須使用相同的資源和定位維度，因為該記錄不會出現在遠端表格中（傳送記錄）。
 
-* 在這種情況下，我們想要定位個人檔案。We will set the targeting dimension to **[!UICONTROL Profiles (profile)]**.
-* 我們想要根據傳送標籤篩選選取的設定檔。當我們尋找不存在於傳送記錄表格中的記錄時，無法直接在傳送記錄檔上篩選。We will therefore set the resource to **[!UICONTROL Profile (profile)]** and build our query on the profiles table.
+* 在此案例中，我們要定位描述檔。 我們會將定位維度設為 **[!UICONTROL Profiles (profile)]**。
+* 我們想要根據傳送標籤來篩選選取的描述檔。 無法直接篩選傳送記錄，因為我們正在尋找不在傳送記錄表格中的記錄。 因此，我們將資源設定為 **[!UICONTROL Profile (profile)]** 並在配置檔案表上構建查詢。
 
 ![](assets/targeting_dimension8.png)
 
 ![](assets/targeting_dimension9.png)
 
-## Enriching data {#enriching-data}
+## 豐富資料 {#enriching-data}
 
-**[!UICONTROL Additional data]** 此標籤的標籤 **[!UICONTROL Query]****[!UICONTROL Incremental query]****[!UICONTROL Enrichment]** 可讓您豐富資料目標，並將此資料傳輸至下列工作流程活動，以便在其中使用。您尤其可以新增：
+「和 **[!UICONTROL Additional data]** 」活 **[!UICONTROL Query]**&#x200B;動的標 **[!UICONTROL Incremental query]****[!UICONTROL Enrichment]** 簽可讓您豐富目標資料，並將此資料傳輸至下列工作流程活動，以便在其中使用。 您尤其可以新增：
 
 * 簡單資料
-* 整合
+* 聚合
 * 系列
 
-For aggregates and collections, an **[!UICONTROL Alias]** is automatically defined to give a technical ID to a complex expression. 此別名必須是唯一的，因此可在稍後輕鬆找到組合和系列。您可以修改它，為它提供容易辨識的名稱。
+對於匯整和系列，會自動 **[!UICONTROL Alias]** 定義一個字元，為複雜運算式提供技術ID。 此別名必須是唯一的，可讓您在之後輕鬆找到匯總和系列。 您可以修改它，使其具有易於辨識的名稱。
 
 >[!NOTE]
 >
->別名必須遵守下列語法規則：僅授權英字元和「_」字元。別名區分大小寫。別名必須以「@」字元開頭。緊接在「@」後面的字元不能是數值。例如：@ Myalias_1和@_1別名正確無誤；而@ myalias#和@1別名不正確。
+>別名必須遵守下列語法規則：僅授權英數字元和"_"字元。 別名區分大小寫。 別名必須以"@"字元開頭。 緊接在"@"後面的字元不得為數值。 例如：@myAlias_1和@_1Alias正確；而@myAlias#1和@1Alias則不正確。
 
-新增任何其他資料後，您可以根據定義的其他資料建立條件，對最初定位的資料套用其他篩選層級。
+新增任何其他資料後，您可以根據所定義的其他資料建立條件，將額外的篩選層級套用至最初定位的資料。
 
 >[!NOTE]
 >
->By default, the **[!UICONTROL Remove duplicate rows (DISTINCT)]** option is checked in the **[!UICONTROL Advanced options]** of the **[!UICONTROL Additional data]** tab of the query. If the **[!UICONTROL Query]** activity contains many (from 100) additional data defined, it is recommended to uncheck this option, for performance reasons. 請小心，取消勾選此選項可能會造成重復，視查詢的資料而定。
+>預設情況下， **[!UICONTROL Remove duplicate rows (DISTINCT)]** 選項會在查 **[!UICONTROL Advanced options]** 詢的選 **[!UICONTROL Additional data]** 項卡中選中。 如果活 **[!UICONTROL Query]** 動包含許多（來自100個）已定義的其他資料，則建議基於效能原因取消選中此選項。 請注意，取消勾選此選項會導致重複，視查詢的資料而定。
 
-### Adding a simple field {#adding-a-simple-field}
+### 新增簡單欄位 {#adding-a-simple-field}
 
-將簡單欄位新增為其他資料，該欄位就會直接出現在活動的對外轉場中。這可讓使用者檢查例如，查詢中的資料是想要的資料。
+將簡單欄位新增為其他資料後，該欄位就會直接顯示在活動的對外轉場中。 這可讓使用者檢查，例如，查詢中的資料是否為所需資料。
 
-1. From the **[!UICONTROL Additional data]** tab, add a new element.
-1. In the window that opens, in the **[!UICONTROL Expression]** field, select one of the fields available directly in the targeting dimension or in one of the linked dimensions. 您可以從維度欄位編輯運算式並使用函數或簡單計算(統合除外)。
+1. 從標籤 **[!UICONTROL Additional data]** 中新增元素。
+1. 在開啟的視窗中，在欄位中 **[!UICONTROL Expression]** ，選取目標維度中直接可用的其中一個欄位或其中一個連結的維度。 您可以編輯表達式，並使用維欄位中的函式或簡單計算（集合除外）。
 
-   **[!UICONTROL Alias]** 如果您編輯不是簡單XPATH路徑的運算式(例如：「年(&lt;@ fordDate&gt;)」)。如果您喜歡，可以修改它。If you only select one field (for example: "@age"), you do not need to define an **[!UICONTROL Alias]**.
+   如果 **[!UICONTROL Alias]** 編輯的表達式不是簡單的XPATH路徑，則會自動建立一個表達式(例如："Year(&lt;@birthDate&gt;)")。 如果您願意，可以修改它。 如果您只選取一個欄位(例如："@age")，您不需要定義 **[!UICONTROL Alias]**。
 
-1. Select **[!UICONTROL Add]** to confirm adding the field to the additional data. 執行查詢時，會在活動的對外轉場中顯示對應於所新增欄位的其他欄。
+1. 選擇 **[!UICONTROL Add]** 以確認將欄位添加到其他資料。 執行查詢時，與添加的欄位對應的附加列將出現在活動的出站轉換中。
 
 ![](assets/enrichment_add_simple_field.png)
 
-### Adding an aggregate {#adding-an-aggregate}
+### 添加聚合 {#adding-an-aggregate}
 
-匯總可讓您從定位維度的欄位或連結到定位維度的維度欄位中計算值。例如：設定檔所購買的平均金額。
+匯總可讓您從定位維度的欄位或連結至定位維度的維度欄位計算值。 例如：描述檔購買的平均金額。
 
-1. From the **[!UICONTROL Additional data]** tab, add a new element.
-1. In the window that opens, select the collection that you want to use to create your aggregate in the **[!UICONTROL Expression]** field.
+1. 從標籤 **[!UICONTROL Additional data]** 中新增元素。
+1. 在開啟的視窗中，選取您要用來在欄位中建立匯總的系 **[!UICONTROL Expression]** 列。
 
-   An **[!UICONTROL Alias]** is created automatically. If you like, you can modify it by going back to the query's **[!UICONTROL Additional data]** tab.
+   系統 **[!UICONTROL Alias]** 會自動建立。 如果您喜歡，可返回查詢的頁籤修改該 **[!UICONTROL Additional data]** 選項。
 
-   匯總定義視窗隨即開啓。
+   將開啟聚合定義窗口。
 
-1. Define an aggregate from the **[!UICONTROL Data]** tab. Depending on the type of aggregate selected, only the elements whose data is compatible are available in the **[!UICONTROL Expression]** field. 例如，只能使用數值資料來計算總和。
+1. 從標籤中定義匯 **[!UICONTROL Data]** 總。 根據所選聚合的類型，欄位中只有與其資料相容的元 **[!UICONTROL Expression]** 素。 例如，總和只能用數值資料計算。
 
    ![](assets/enrichment_add_aggregate.png)
 
-   您可以為選取的系列欄位新增幾個匯總。請務必定義明確標籤，以便區分活動對外資料詳細資料的不同欄。
+   您可以為選取之系列的欄位新增數個匯總。 請務必定義明確標籤，以區分活動出站資料詳細資訊中的不同列。
 
-   您也可以變更每個匯總自動定義的別名。
+   您也可以更改為每個聚合自動定義的別名。
 
    ![](assets/enrichment_add_aggregate2.png)
 
-1. 如有需要，您可以新增篩選器來限制考量的資料。
+1. 如有需要，您可以新增篩選器以限制已考慮的資料。
 
-   Refer to the [Filtering added data](../../automating/using/query.md#filtering-added-data) section.
+   請參閱篩選已 [新增的資料](#filtering-added-data) 。
 
-1. Select **[!UICONTROL Confirm]** to add aggregates.
+1. 選擇 **[!UICONTROL Confirm]** 以添加聚合。
 
 >[!NOTE]
 >
->You cannot create an expression containing an aggregate directly from the **[!UICONTROL Expression]** field of the **[!UICONTROL New additional data]** window.
+>不能直接從窗口的欄位建立包含 **[!UICONTROL Expression]** 聚合的表達 **[!UICONTROL New additional data]** 式。
 
-### Adding a collection {#adding-a-collection}
+### 新增系列 {#adding-a-collection}
 
-1. From the **[!UICONTROL Additional data]** tab, add a new element.
-1. In the window that opens, select the collection that you want to add in the **[!UICONTROL Expression]** field. An **[!UICONTROL Alias]** is created automatically. If you like, you can modify it by going back to the query's **[!UICONTROL Additional data]** tab.
-1. Select **[!UICONTROL Add]**. 新視窗隨即開啓，讓您可以調整想要顯示的系列資料。
-1. In the **[!UICONTROL Parameters]** tab, select **[!UICONTROL Collection]** and define the number of lines of the collection that you want to add. For example, if you want to get the three most recent purchases carried out by each profile, enter "3" in the **[!UICONTROL Number of lines to return]** field.
+1. 從標籤 **[!UICONTROL Additional data]** 中新增元素。
+1. 在開啟的視窗中，選取您要新增至欄位中的系列 **[!UICONTROL Expression]** 。 系統 **[!UICONTROL Alias]** 會自動建立。 如果您喜歡，可返回查詢的頁籤修改該 **[!UICONTROL Additional data]** 選項。
+1. Select **[!UICONTROL Add]**. 隨即開啟新視窗，讓您調整想要顯示的收集資料。
+1. 在標籤 **[!UICONTROL Parameters]** 中，選 **[!UICONTROL Collection]** 擇並定義要添加的系列行數。 例如，如果您想要取得每個描述檔執行的三個最近購買，請在欄位中輸入"3" **[!UICONTROL Number of lines to return]** 。
 
    >[!NOTE]
    >
-   >您必須輸入大於或等於的數字。
+   >您必須輸入大於或等於1的數字。
 
-1. From the **[!UICONTROL Data]** tab, define the fields of the collection that you want to display for each line.
+1. 在標籤 **[!UICONTROL Data]** 中，定義要針對每行顯示的系列欄位。
 
    ![](assets/enrichment_add_collection.png)
 
-1. 如果您喜歡，可以新增篩選器來限制納入的系列行。
+1. 如果您喜歡，您可以新增篩選來限制已考慮的系列行。
 
-   Refer to the [Filtering added data](../../automating/using/query.md#filtering-added-data) section.
+   請參閱篩選已 [新增的資料](#filtering-added-data) 。
 
-1. 您可以視需要定義資料排序。
+1. 如果您喜歡，可以定義資料排序。
 
-   For example, if you have selected 3 lines to return in the **[!UICONTROL Parameters]** tab, and you want to determine the three most recent purchases, you can define a descending sort on the "date" field of the collection that corresponds to the transactions.
+   例如，如果您在標籤中選擇了3行要返回，並且想要確定最近的3個採購，則可以在與事務處理對應的系列的「日期」欄位中定義降序排序。 **[!UICONTROL Parameters]**
 
-1. Refer to the [Sorting additional data](../../automating/using/query.md#sorting-additional-data) section.
-1. Select **[!UICONTROL Confirm]** to add the collection.
+1. 請參閱「排 [序其他資料](#sorting-additional-data) 」一節。
+1. 選取 **[!UICONTROL Confirm]** 以新增系列。
 
-### Filtering added data {#filtering-added-data}
+### 篩選新增的資料 {#filtering-added-data}
 
-新增匯總或系列時，您可以指定另一個篩選，以限制想要顯示的資料。
+當您新增匯總或系列時，可以指定其他篩選器來限制您要顯示的資料。
 
-For example, if you want to only process the collection lines of transactions with amounts of 50 dollars and above, you can add a condition on the field corresponding to the transaction amount from the **[!UICONTROL Filter]** tab.
+例如，如果您只想處理金額為50美元及以上的事務處理的收集行，則可以在標籤中與事務處理金額對應的欄位中添加條 **[!UICONTROL Filter]** 件。
 
 ![](assets/enrichment_filter_data.png)
 
-### Sorting additional data {#sorting-additional-data}
+### 排序其他資料 {#sorting-additional-data}
 
-當您將匯總或系列新增至查詢資料時，您可以根據欄位值或定義的運算式來指定是否要套用排序(無論是遞增還是遞減)。
+在向查詢的資料中添加聚合或集合時，可以根據欄位的值或定義的表達式指定是否要應用排序（無論排序是升序還是降序）。
 
-For example, if you want to save only the transaction that was carried out most recently by a profile, enter "1" in the **[!UICONTROL Number of lines to return]** field of the **[!UICONTROL Parameters]** tab, and apply a descending sort on the field corresponding to the transaction date via the **[!UICONTROL Sort]** tab.
+例如，如果只想保存配置檔案最近執行的事務，請在標籤的欄位中輸入"1"，然後通過標籤對與事務日期對應的欄位應用降序 **[!UICONTROL Number of lines to return]****[!UICONTROL Parameters]****[!UICONTROL Sort]** 排序。
 
 ![](assets/enrichment_sort_data.png)
 
-### Filtering the targeted data according to additional data {#filtering-the-targeted-data-according-to-additional-data}
+### 根據其他資料篩選目標資料 {#filtering-the-targeted-data-according-to-additional-data}
 
-Once you have added additional data, a new **[!UICONTROL Output filtering]** tab appears in the **[!UICONTROL Query]**. This tab allows you to apply an additional filter on the data initially targeted in the **[!UICONTROL Target]** tab, by taking into account the added data.
+新增其他資料後，新標籤 **[!UICONTROL Output filtering]** 會出現在 **[!UICONTROL Query]**。 此標籤可讓您針對標籤中最初定位的資料套用額外的篩選， **[!UICONTROL Target]** 方法是考量新增的資料。
 
-For example, if you have targeted all of the profiles that carried out at least one transaction and an aggregate calculating the average transaction amount carried out for each profile was added to the **[!UICONTROL Additional data]**, you can refine the population initially calculated using this average.
+例如，如果您已將執行至少一個事務處理的所有配置檔案定位，並且每個配置檔案的平均事務處理金額的匯總計算都添加到中 **[!UICONTROL Additional data]**，則可以細化最初使用此平均值計算的人口。
 
-To do this, in the **[!UICONTROL Output filtering]** tab, simply add a condition on this additional data.
+若要這麼做，請在標 **[!UICONTROL Output filtering]** 簽中，在此額外資料上新增條件。
 
 ![](assets/enrichment_output_filtering2.png)
 
 ![](assets/enrichment_output_filtering.png)
 
-### Example: personalizing an email with additional data {#example--personalizing-an-email-with-additional-data}
+### 範例：使用其他資料個人化電子郵件 {#example--personalizing-an-email-with-additional-data}
 
-下列範例說明新增不同類型的其他資料至查詢，以及其作為電子郵件中的個人化欄位。
+下列範例說明如何新增不同類型的其他資料至查詢，以及其作為電子郵件中個人化欄位的用途。
 
-For this example, [custom resources](../../developing/using/data-model-concepts.md) are used:
+在此範例中， [會使用自訂資](../../developing/using/data-model-concepts.md) 源：
 
-* **已擴充描述檔** 資源，以新增允許儲存每個描述檔忠誠度點的欄位。
-* **建立交易** 資源並識別資料庫中描述檔進行的所有購買。每次交易都會儲存日期、價格和購買的產品。
-* A **products** resource was created and references the products available for purchase.
+* 擴充 **描述檔資源** ，以便新增欄位，以儲存每個描述檔的忠誠度點數。
+* 已創 **建事務** 資源，並標識資料庫中配置檔案執行的所有採購。 系統會針對每筆交易儲存購買的日期、價格和產品。
+* 已建 **立產品** 資源，並參考可供購買的產品。
 
-其目標是傳送電子郵件至至少一筆交易已儲存的描述檔。透過這封電子郵件，客戶將會收到最後交易的提醒，以及他們所有交易的總覽：購買的產品數、總花費次數，提醒他們他們已獲得的忠誠度總點數。
+目標是傳送電子郵件至至少已儲存一個交易的設定檔。 透過這封電子郵件，客戶將會收到上次交易的提醒，以及其所有交易的概述：購買的產品數、總花費、提醒已累計的忠誠度點數總數。
 
-工作流程的呈現方式如下：
+工作流程如下：
 
 ![](assets/enrichment_example1.png)
 
-1. Add a **[!UICONTROL Query]** activity, which allows you to target the profiles that have carried out at least one transaction.
+1. 新增活 **[!UICONTROL Query]** 動，可讓您定位已執行至少一項交易的設定檔。
 
    ![](assets/enrichment_example2.png)
 
-   From the query's **[!UICONTROL Additional data]** tab, define the different data to be displayed in the final email:
+   從查詢的標籤 **[!UICONTROL Additional data]** 中，定義要顯示在最終電子郵件中的不同資料：
 
-   * The simple field of the **profile** dimension corresponding to the loyalty points. Refer to the [Adding a simple field](../../automating/using/query.md#adding-a-simple-field) section.
-   * 根據交易收集進行兩個匯總：購買的產品數和花費的總金額。You can add them from the **[!UICONTROL Data]** tab of the aggregate configuration window, using the **Count** and **Sum** aggregates. Refer to the [Adding an aggregate](../../automating/using/query.md#adding-an-aggregate) section.
-   * 一個系列，傳回上次交易的金額、日期和產品。
+   * 對應於忠誠點 **的** 「描述檔」維度的簡單欄位。 請參閱「 [Adding a simple field](#adding-a-simple-field) 」（添加簡單欄位）部分。
+   * 根據事務處理收集進行兩個匯總：購買的產品數量和花費的總金額。 您可以使用「計數」和「 **[!UICONTROL Data]** 總和」聚合，從聚合配置窗口的選 **項卡中添****** 加它們。 請參閱「添 [加聚合](#adding-an-aggregate) 」部分。
+   * 傳回已生效之上次交易之花費金額、日期和產品的系列。
 
-      To do this, you have to add the different fields that you want to display from the **[!UICONTROL Data]** tab of the collection configuration window.
+      若要這麼做，您必須從系列設定視窗的標籤中新增您要顯示的 **[!UICONTROL Data]** 不同欄位。
 
-      To return only the most recent transaction, you have to enter "1" for the **[!UICONTROL Number of lines to return]** and apply a descending sort on the **Date** field of the collection from the **[!UICONTROL Sort]** tab.
+      要僅返回最近的事務處理，您必須為輸入"1", **[!UICONTROL Number of lines to return]** 並在標籤中的系列的「日期」欄位上應用降序 ******[!UICONTROL Sort]** 排序。
 
-      Refer to the [Adding a collection](../../automating/using/query.md#adding-a-collection) and [Sorting additional data](../../automating/using/query.md#sorting-additional-data) sections.
+      請參閱「新 [增系列](#adding-a-collection) 」 [和「排序其他資料](#sorting-additional-data) 」區段。
    ![](assets/enrichment_example4.png)
 
-   If you would like to check that the data is correctly transferred by the activity's outbound transition, start the workflow for the first time (without the **[!UICONTROL Email delivery]** activity) and open the query's outbound transition.
+   如果要檢查活動的出站轉移是否正確傳輸資料，請首次啟動工作流（沒有活動）並開啟查詢的出站轉移。 **[!UICONTROL Email delivery]**
 
    ![](assets/enrichment_example5.png)
 
-1. Add an **[!UICONTROL Email delivery]** activity. 在電子郵件內容中，插入對應於查詢中計算資料的個人化欄位。You can find it via the **[!UICONTROL Additional data (targetData)]** link of the personalization fields explorer.
+1. 新增活 **[!UICONTROL Email delivery]** 動。 在電子郵件內容中，插入與查詢中計算的資料對應的個人化欄位。 您可以透過個人化欄位瀏 **[!UICONTROL Additional data (targetData)]** 覽器的連結找到它。
 
    ![](assets/enrichment_example3.png)
 
-您的工作流程現在已可供執行。查詢中定位的描述檔會收到一封個人化電子郵件，內含從其交易計算的資料。
+您的工作流程現在已可以執行。 查詢中定位的設定檔將會收到包含其交易所計算資料的個人化電子郵件。
 
-## Query samples {#query-samples}
+## 查詢示例 {#query-samples}
 
-### Targeting on simple profile attributes {#targeting-on-simple-profile-attributes}
+### 以簡單描述檔屬性為目標 {#targeting-on-simple-profile-attributes}
 
-以下範例顯示設定為18到30歲之目標男性的查詢活動。
+下列範例顯示一個查詢活動，其設定是針對居住在倫敦的18至30歲男性。
 
 ![](assets/query_sample_1.png)
 
-### Targeting on email attributes {#targeting-on-email-attributes}
+### 針對電子郵件屬性進行定位 {#targeting-on-email-attributes}
 
-下列範例顯示設定為電子郵件地址網域「orange.co.uk」的設定檔活動的查詢活動。
+下列範例顯示一個查詢活動，其設定是以電子郵件地址網域「orange.co.uk」定位描述檔。
 
 ![](assets/query_sample_emaildomain.png)
 
-下列範例顯示設定為電子郵件地址之目標設定檔的查詢活動。
+下列範例顯示已設定為定位其電子郵件地址之描述檔的查詢活動。
 
 ![](assets/query_sample_emailnotempty.png)
 
-### Targeting profiles whose birthday is today {#targeting-profiles-whose-birthday-is-today}
+### 定位生日為今天的個人檔案 {#targeting-profiles-whose-birthday-is-today}
 
-下列範例顯示設定其生日之目標設定檔的查詢活動。
+下列範例顯示設定為定位生日為今天的描述檔的查詢活動。
 
-1. Drag the **[!UICONTROL Birthday]** filter in your query.
+1. 拖曳查 **[!UICONTROL Birthday]** 詢中的篩選器。
 
    ![](assets/query_sample_birthday.png)
 
-1. Set the **[!UICONTROL Filter type]** to **[!UICONTROL Relative]** and select **[!UICONTROL Today]**.
+1. 將設定 **[!UICONTROL Filter type]** 為並 **[!UICONTROL Relative]** 選擇 **[!UICONTROL Today]**。
 
    ![](assets/query_sample_birthday2.png)
 
-### Targeting profiles who opened a specific delivery {#targeting-profiles-who-opened-a-specific-delivery}
+### 鎖定開啟特定傳送的設定檔 {#targeting-profiles-who-opened-a-specific-delivery}
 
-下列範例顯示設定為篩選描述檔的查詢活動，以「夏季時間」為標籤開啓傳送。
+下列範例顯示一個查詢活動，其設定為篩選開啟傳送且標籤為「夏季時間」的描述檔。
 
-1. Drag the **[!UICONTROL Opened]** filter in your query.
+1. 拖曳查 **[!UICONTROL Opened]** 詢中的篩選器。
 
    ![](assets/query_sample_opened.png)
 
-1. Select the delivery then click **[!UICONTROL Confirm]**.
+1. 選取傳送，然後按一下 **[!UICONTROL Confirm]**。
 
    ![](assets/query_sample_opened2.png)
 
-### Targeting profiles for whom deliveries failed for a specific reason {#targeting-profiles-for-whom-deliveries-failed-for-a-specific-reason}
+### 針對因特定原因而傳送失敗的設定檔 {#targeting-profiles-for-whom-deliveries-failed-for-a-specific-reason}
 
-下列範例顯示已設定為篩選描述檔的查詢活動，因為他們的mailbox已滿。This query is only available for users with administration rights and belonging to the **[!UICONTROL All (all)]** organizational units (see [this section](../../administration/using/organizational-units.md)).
+下列範例顯示一個查詢活動，其設定是篩選因其郵箱已滿而傳送失敗的描述檔。 此查詢僅適用於具有管理權限且屬於組織單位的用 **[!UICONTROL All (all)]** 戶(請參 [閱本節](../../administration/using/organizational-units.md))。
 
-1. Select the **[!UICONTROL Delivery logs]** resource in order to filter directly in the delivery log table (see [Using resources different from targeting dimensions](../../automating/using/query.md#using-resources-different-from-targeting-dimensions)).
+1. 選擇資 **[!UICONTROL Delivery logs]** 源，以便直接在傳送記錄表中篩選(請參 [閱使用與定位維度不同的資源](#using-resources-different-from-targeting-dimensions))。
 
    ![](assets/query_sample_failure1.png)
 
-1. Drag the **[!UICONTROL Nature of failure]** filter in your query.
+1. 拖曳查 **[!UICONTROL Nature of failure]** 詢中的篩選器。
 
    ![](assets/query_sample_failure2.png)
 
-1. 選擇您要定位的失敗類型。**[!UICONTROL Mailbox full]**&#x200B;在我們的個案中。
+1. 選擇要定位的失敗類型。 就我們而言 **[!UICONTROL Mailbox full]**。
 
    ![](assets/query_sample_failure3.png)
 
-### Targeting profiles not contacted during the last 7 days {#targeting-profiles-not-contacted-during-the-last-7-days}
+### 過去7天未連絡定位設定檔 {#targeting-profiles-not-contacted-during-the-last-7-days}
 
-下列範例顯示設定的查詢活動，以篩選過去天未與之聯絡的設定檔。
+下列範例顯示一個查詢活動，其設定是用來篩選過去7天未連絡的設定檔。
 
-1. Drag the **[!UICONTROL Delivery logs (logs)]** filter in your query.
+1. 拖曳查 **[!UICONTROL Delivery logs (logs)]** 詢中的篩選器。
 
    ![](assets/query_sample_7days.png)
 
-   Select **[!UICONTROL Does not exist]** in the drop-down list, then drag the **[!UICONTROL Delivery]** filter.
+   在下 **[!UICONTROL Does not exist]** 拉式清單中選取，然後拖曳篩 **[!UICONTROL Delivery]** 選器。
 
    ![](assets/query_sample_7days1.png)
 
@@ -360,17 +360,17 @@ For this example, [custom resources](../../developing/using/data-model-concepts.
 
    ![](assets/query_sample_7days2.png)
 
-### Targeting profiles who clicked a specific link {#targeting-profiles-who-clicked-a-specific-link-}
+### 定位按一下特定連結的個人檔案 {#targeting-profiles-who-clicked-a-specific-link-}
 
-1. Drag the **[!UICONTROL Tracking logs (tracking)]** filter in your query.
+1. 拖曳查 **[!UICONTROL Tracking logs (tracking)]** 詢中的篩選器。
 
    ![](assets/query_sample_trackinglogs.png)
 
-1. Drag the **[!UICONTROL Label (urlLabel)]** filter.
+1. 拖曳篩 **[!UICONTROL Label (urlLabel)]** 選器。
 
    ![](assets/query_sample_trackinglogs2.png)
 
-1. In the **[!UICONTROL Value]** field, type the label that was defined when inserting the link in the delivery, then confirm.
+1. 在欄位 **[!UICONTROL Value]** 中，輸入在傳送中插入連結時所定義的標籤，然後確認。
 
    ![](assets/query_sample_trackinglogs3.png)
 

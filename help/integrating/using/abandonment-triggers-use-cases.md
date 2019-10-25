@@ -14,7 +14,7 @@ discoiquuid: 1b9aeec5-70bb-4d72-a3e9-12342abf08f7
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4b69c92a8c877ecaf05e87b728009104066a38dc
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -23,8 +23,8 @@ source-git-commit: 4b69c92a8c877ecaf05e87b728009104066a38dc
 
 本節介紹可使用Adobe Campaign與Experience cloud觸發器之間的整合來實施的不同使用案例。 您會找到兩個使用案例的範例：
 
-* [瀏覽放棄觸發器](../../integrating/using/abandonment-triggers-use-cases.md#browse-abandonment-trigger):傳送通訊給在您網站上放棄造訪的客戶。
-* [搜尋放棄觸發器](../../integrating/using/abandonment-triggers-use-cases.md#search-abandonment-trigger):與在您網站上搜尋但未購買的訪客重新互動。
+* [瀏覽放棄觸發器](#browse-abandonment-trigger):傳送通訊給在您網站上放棄造訪的客戶。
+* [搜尋放棄觸發器](#search-abandonment-trigger):與在您網站上搜尋但未購買的訪客重新互動。
 
 >[!NOTE]
 >
@@ -123,11 +123,11 @@ source-git-commit: 4b69c92a8c877ecaf05e87b728009104066a38dc
 
 ## 搜尋放棄觸發器 {#search-abandonment-trigger}
 
-在此使用案例中，我們將建立觸發器，以與造訪我們旅行預訂網站、搜尋目的地、找不到成功結果且之後未預訂任何內容的訪客重新互動。 一般程式與上一個使用案例相同(請參閱「瀏 [覽放棄觸發器](../../integrating/using/abandonment-triggers-use-cases.md#browse-abandonment-trigger)」)。 我們將著重討論如何個人化再行銷電子郵件訊息。
+在此使用案例中，我們將建立觸發器，以與造訪我們旅行預訂網站、搜尋目的地、找不到成功結果且之後未預訂任何內容的訪客重新互動。 一般程式與上一個使用案例相同(請參閱「瀏 [覽放棄觸發器](#browse-abandonment-trigger)」)。 我們將著重討論如何個人化再行銷電子郵件訊息。
 
 ### 建立Experience cloud觸發器 {#creating-an-experience-cloud-trigger-1}
 
-請依照上述使用案例中所述的步驟，建立Experience cloud觸發器。 請參 [閱建立Experience cloud觸發器](../../integrating/using/abandonment-triggers-use-cases.md#creating-an-experience-cloud-trigger)。 主要區別在於觸發器定義。
+請依照上述使用案例中所述的步驟，建立Experience cloud觸發器。 請參 [閱建立Experience cloud觸發器](#creating-an-experience-cloud-trigger)。 主要區別在於觸發器定義。
 
 ![](assets/trigger_uc_search_1.png)
 
@@ -135,7 +135,7 @@ source-git-commit: 4b69c92a8c877ecaf05e87b728009104066a38dc
 
 ### 在Adobe Campaign中使用觸發器 {#using-the-trigger-in-adobe-campaign-1}
 
-1. 請依照先前使用案例中所述的步驟，在Adobe Campaign中建立觸發器。 請參 [閱在Adobe Campaign中使用觸發器](../../integrating/using/abandonment-triggers-use-cases.md#using-the-trigger-in-adobe-campaign)。 主要差異在於我們在Adobe Campaign中存取和使用觸發器裝載中推送的中繼資料的方式。
+1. 請依照先前使用案例中所述的步驟，在Adobe Campaign中建立觸發器。 請參 [閱在Adobe Campaign中使用觸發器](#using-the-trigger-in-adobe-campaign)。 主要差異在於我們在Adobe Campaign中存取和使用觸發器裝載中推送的中繼資料的方式。
 1. 在您在Adobe Campaign中建立的「搜尋放棄」觸發器中，按一下圖 **[!UICONTROL Event content and enrichment]** 示以檢視推送至Adobe Campaign的裝載。
 
    ![](assets/trigger_uc_search_2.png)

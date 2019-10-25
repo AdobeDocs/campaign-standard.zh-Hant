@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 78bb4189dea522bbdf3bf8248f405bb4ab381bae
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -28,8 +28,8 @@ source-git-commit: 78bb4189dea522bbdf3bf8248f405bb4ab381bae
 以下是使用電子郵件設計工具從頭開始建立和設計電子郵件內容的主要步驟：
 
 1. 建立電子郵件並開啟其內容。
-1. 新增結構元件以塑造電子郵件。 請參閱 [編輯電子郵件結構](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
-1. 在結構元件中插入內容元件和片段。 請參 [閱新增片段和內容元件](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
+1. 新增結構元件以塑造電子郵件。 請參閱 [編輯電子郵件結構](#defining-the-email-structure)。
+1. 在結構元件中插入內容元件和片段。 請參 [閱新增片段和內容元件](#defining-the-email-structure)。
 1. 新增影像並編輯電子郵件的文字。 請參 [閱插入影像](../../designing/using/images.md#inserting-images)。
 1. 新增個人化欄位、連結等，以個人化您的電子郵件。 請參 [閱插入個人化欄位](../../designing/using/personalization.md#inserting-a-personalization-field)、 [插入連結](../../designing/using/links.md#inserting-a-link)[和定義電子郵件中的動態內容](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)。
 1. 定義您電子郵件的主旨行。 請參 [閱個人化電子郵件的主旨行](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email)。

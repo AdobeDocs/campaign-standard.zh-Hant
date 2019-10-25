@@ -15,7 +15,7 @@ context-tags: delivery, inAppContent，返回
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6d74d310f69b8800a635c6ac71de66c51fd64f2d
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -26,8 +26,8 @@ source-git-commit: 6d74d310f69b8800a635c6ac71de66c51fd64f2d
 
 應用程式內內容編輯器可讓您在兩種應用程式內訊息模式之間進行選擇：
 
-* [訊息範本](../../channels/using/customizing-an-in-app-message.md#customizing-with-a-message-template):此範本可讓您使用影像或影片和動作按鈕完全自訂應用程式內。
-* [自訂訊息](../../channels/using/customizing-an-in-app-message.md#customizing-with-a-custom-html-message):此範本可讓您匯入自訂HTML。
+* [訊息範本](#customizing-with-a-message-template):此範本可讓您使用影像或影片和動作按鈕完全自訂應用程式內。
+* [自訂訊息](#customizing-with-a-custom-html-message):此範本可讓您匯入自訂HTML。
 
 ![](assets/inapp_customize_1.png)
 
@@ -61,7 +61,7 @@ source-git-commit: 6d74d310f69b8800a635c6ac71de66c51fd64f2d
 
 * **[!UICONTROL Local notification]**:此類型的版面會以橫幅訊息的形式顯示。
 
-   它只能支援音效、文字和目的地。 有關本機通知的詳細資訊，請參 [閱自訂本機通知訊息類型](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)。
+   它只能支援音效、文字和目的地。 有關本機通知的詳細資訊，請參 [閱自訂本機通知訊息類型](#customizing-a-local-notification-message-type)。
 
 每種版面類型都可在不同的裝置(例如手機、平板電腦、平台（例如Android或iOS）上預覽，並可在內容編輯器的右窗口中檢視方向（例如橫向或縱向）。
 
@@ -125,7 +125,7 @@ source-git-commit: 6d74d310f69b8800a635c6ac71de66c51fd64f2d
 1. 在欄位中輸入您的Web URL或 **[!UICONTROL Destination URL]** 深入連結，如果您選擇 **[!UICONTROL Redirect]** 動作
 1. 在預覽視窗中或按一下「預覽」按鈕，檢查您的訊息內容。
 
-   請參閱「 [預覽應用程式內訊息](../../channels/using/customizing-an-in-app-message.md#previewing-the-in-app-message) 」頁面。
+   請參閱「 [預覽應用程式內訊息](#previewing-the-in-app-message) 」頁面。
 
    ![](assets/inapp_customize_11.png)
 

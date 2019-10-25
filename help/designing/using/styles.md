@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 45916918fc9e8008d4eb583a9c92886672c04b71
+source-git-commit: 55eb4f19691581e312224cb9008b9782196f37a4
 
 ---
 
@@ -49,16 +49,16 @@ source-git-commit: 45916918fc9e8008d4eb583a9c92886672c04b71
 1. 選取結構元件(直接在電子郵件中或使用左側浮動視窗中提供的結構 **樹狀**)。
 1. 從內容相 **關工具列**，按一 **[!UICONTROL Select a column]** 下以選擇所要的欄。
 
-請參閱本節的 [範例](../../designing/using/styles.md#example--adjusting-vertical-alignment-and-padding)。
+請參閱本節的 [範例](#example--adjusting-vertical-alignment-and-padding)。
 
 ### 調整樣式設定 {#adjusting-style-settings}
 
-1. 在電子郵件中選取元素。 如需詳細資訊，請參 [閱選取元素](../../designing/using/styles.md#selecting-an-element)。
+1. 在電子郵件中選取元素。 如需詳細資訊，請參 [閱選取元素](#selecting-an-element)。
 1. 根據您的需求調整設定。 每個選取的元素都提供不同的設定集。
 
-   您可以插入背景、變更大小、修改水準或垂直對齊、管理顏色、 [新增填補](../../designing/using/styles.md#selecting-an-element)或邊界等。
+   您可以插入背景、變更大小、修改水準或垂直對齊、管理顏色、 [新增填補](#selecting-an-element)或邊界等。
 
-   若要這麼做，請使用窗格中顯示的選項或 **[!UICONTROL Settings]** 新增內 [嵌樣式屬性](../../designing/using/styles.md#adding-inline-styling-attributes)。
+   若要這麼做，請使用窗格中顯示的選項或 **[!UICONTROL Settings]** 新增內 [嵌樣式屬性](#adding-inline-styling-attributes)。
 
    ![](assets/des_settings_pane.png)
 
@@ -220,7 +220,7 @@ source-git-commit: 45916918fc9e8008d4eb583a9c92886672c04b71
 
 您可以個別編輯行動顯示的所有樣式選項，以微調電子郵件的互動式設計。 例如，您可以調整邊界和填補空白、使用較小或較大的字型大小、變更按鈕，或套用行動版電子郵件專用的不同背景顏色。
 
-所有樣式選項都可在行動裝置檢視中使用。 「編輯電子郵件樣式」區段中會顯示「電子郵件設 [計器」樣式設](../../designing/using/styles.md) 定。
+所有樣式選項都可在行動裝置檢視中使用。 「編輯電子郵件樣式」區段中會顯示「電子郵件設 [計器」樣式設](#editing-email-styles) 定。
 
 1. 建立電子郵件並開始編輯內容。 如需詳細資訊，請參 [閱從頭設計電子郵件內容](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)。
 1. 若要存取專用的行動裝置檢視，請選取 **[!UICONTROL Switch to mobile view]** 按鈕。

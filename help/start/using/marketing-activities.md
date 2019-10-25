@@ -2,99 +2,99 @@
 title: 行銷活動
 seo-title: 行銷活動
 description: 行銷活動
-seo-description: 「瞭解如何建立和管理您的行銷活動：促銷活動、電子郵件、SMS和推播通知傳送、登陸頁面、工作流程。您可以輕鬆地設計新活動、編輯現有的活動，並檢視其狀態和有效性」。
-page-status-flag: 從未啓動
-uuid: 5d45a935-6d03-4b27-aabd-7c47 c11241 ba
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
+seo-description: 「瞭解如何建立和管理您的行銷活動：促銷活動、電子郵件、簡訊和推播通知傳送、登陸頁面、工作流程。 您可以輕鬆設計新活動、編輯現有活動，並查詢其狀態和有效性。」
+page-status-flag: 從未激活
+uuid: 5d45a935-6d03-4b27-aabd-7c47c11241ba
+contentOwner: 紹維亞
+products: SG_CAMPAIGN/STANDARD
 audience: start
-content-type: reference
-topic-tags: 行銷計劃
-discoiquuid: 3ba165e1-420f-4d6f-b339-467b066 b42 d0
+content-type: 參考
+topic-tags: 行銷計畫
+discoiquuid: 3ba165e1-420f-4d6f-b339-467b066b42d0
 context-tags: 活動，概述
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a0823161ff03fac0a617c3d89a8d3cac0ed3afb9
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
 
-# Marketing activities{#marketing-activities}
+# 行銷活動{#marketing-activities}
 
-## About marketing activities {#about-marketing-activities}
+## 關於行銷活動 {#about-marketing-activities}
 
-您可以從他們所屬的方案和促銷活動，或透過行銷活動清單來建立及管理行銷活動。
+您可以從方案和促銷活動所屬的清單或行銷活動清單建立和管理行銷活動。
 
-行銷活動清單會集中所有活動，不論其建立的方案或促銷活動為何。因此，不會以任何特定階層順序來序列化程式、促銷活動、傳送(電子郵件、簡訊和推播通知)、登陸頁面和工作流程。
+行銷活動清單會集中所有活動，不論其建立的方案或促銷活動為何。 因此，程式、促銷活動、傳送（電子郵件、SMS訊息和推播通知）、登陸頁面和工作流程都會依不同階層順序逐項列出。
 
-To access the marketing activity list, choose the **[!UICONTROL Marketing activities]** link from the top bar.
+若要存取行銷活動清單，請從上 **[!UICONTROL Marketing activities]** 方列選擇連結。
 
 >[!NOTE]
 >
->The marketing activities can also be accessed by selecting the **[!UICONTROL Marketing activities]** card from the home page.
+>您也可以從首頁選取資訊卡， **[!UICONTROL Marketing activities]** 以存取行銷活動。
 
 ![](assets/marketing_activities_1.png)
 
-**[!UICONTROL Search]** 此窗格可讓您根據不同的准則篩選元素：名稱(標籤和ID)、日期、狀態或活動類型。依預設，所有活動類型都已選取，但程式除外。
+此窗 **[!UICONTROL Search]** 格可讓您根據不同的准則來篩選元素：名稱（標籤和ID）、日期、狀態或活動類型。 預設情況下，所有活動類型都被選中，程式除外。
 
 若要直接存取每個活動的內容，請從清單中選擇其中一個元素。
 
-**[!UICONTROL Create]** 此按鈕可用來建立新活動。For more on this, refer to the [Creating a marketing activity](../../start/using/marketing-activities.md#creating-a-marketing-activity) section.
+該 **[!UICONTROL Create]** 按鈕可用於建立新活動。 如需詳細資訊，請參閱「建 [立行銷活動](#creating-a-marketing-activity) 」一節。
 
-## Marketing activity icons and statuses {#marketing-activity-icons-and-statuses}
+## 行銷活動圖示和狀態 {#marketing-activity-icons-and-statuses}
 
-在主要區域中，清單中的每種活動類型都有圖示：
+在主區域中，清單中的每種活動類型都有一個表徵圖：
 
-* ![](assets/marketing_program_icon.png) ：Program
-* ![](assets/marketing_campaign_icon.png) ：促銷活動
-* ![](assets/marketing_email_icon.png) ：電子郵件
-* ![](assets/marketing_sms_icon.png) ：SMS
-* ![](assets/marketing_push_icon.png) ：推播通知
-* ![](assets/marketing_lp_icon.png) ：應用程式內訊息
-* ![](assets/marketing_lp_icon.png) ：著陸頁面
-* ![](assets/marketing_workflow_icon.png) ：工作流程
+* ![](assets/marketing_program_icon.png) :計畫
+* ![](assets/marketing_campaign_icon.png) :促銷活動
+* ![](assets/marketing_email_icon.png) :電子郵件
+* ![](assets/marketing_sms_icon.png) :簡訊
+* ![](assets/marketing_push_icon.png) :推播通知
+* ![](assets/marketing_lp_icon.png) :應用程式內訊息
+* ![](assets/marketing_lp_icon.png) :著陸頁面
+* ![](assets/marketing_workflow_icon.png) :工作流程
 
-視其有效期間和狀態而定，與此圖示關聯的顏色會指出對應的活動執行狀態。
+根據其有效期和狀態，與此表徵圖關聯的顏色指示相應活動的執行狀態。
 
-* Gray: the activity has not yet started - **[!UICONTROL Editing]** status.
-* Blue: the activity is in progress - **[!UICONTROL In progress]** status.
-* Green: the activity has finished - **[!UICONTROL Finished]** status.
-* Yellow: the activity has received a warning - **[!UICONTROL Warning]** status.
-* Red: an error has occurred - **[!UICONTROL Erroneous]** status.
+* 灰色：活動尚未開始——狀 **[!UICONTROL Editing]** 態。
+* 藍色：活動正在進行——狀 **[!UICONTROL In progress]** 態。
+* 綠色：活動已完成——狀 **[!UICONTROL Finished]** 態。
+* 黃色：活動收到警告——狀 **[!UICONTROL Warning]** 態。
+* 紅色：發生錯誤——狀 **[!UICONTROL Erroneous]** 態。
 
-## Creating a marketing activity {#creating-a-marketing-activity}
+## 建立行銷活動 {#creating-a-marketing-activity}
 
-From an existing campaign, you can create different types of messages (**email**, **SMS**, **push notification**, etc.), workflows, and landing pages.
+從現有的促銷活動，您可以建立不同類型的訊息(**電子郵件**、 **SMS**、推 **播通知等**)、工作流程和登陸頁面。
 
-從現有計劃，您可以建立其他程式、促銷活動、工作流程和著陸頁面。
+從現有的方案，您可以建立其他方案、促銷活動、工作流程和登陸頁面。
 
 >[!NOTE]
 >
->考慮直接在促銷活動中建立工作流程。如果您在程式內建立工作流程，稍後將無法將它移至促銷活動。
+>考慮直接在促銷活動中建立工作流程。 如果您在程式中建立工作流程，則無法在之後將其移至促銷活動。
 
-Programs and campaigns are presented in the [Programs and campaigns](../../start/using/programs-and-campaigns.md) section.
+方案和促銷活動會顯示在「方案 [和促銷活動](../../start/using/programs-and-campaigns.md) 」區段。
 
-1. In the dashboard of a program or a campaign, create a new marketing activity using the **[!UICONTROL Create]** button.
+1. 在方案或促銷活動的控制面板中，使用按鈕建立新的行銷活 **[!UICONTROL Create]** 動。
 
    ![](assets/marketing_activiy_creation_1.png)
 
-1. 選取您要建立的活動類型。
+1. 選擇要建立的活動類型。
 
    ![](assets/marketing_activiy_creation_2.png)
 
-根據上下文，您可以：
+根據情境，您可以：
 
 * [建立電子郵件](../../channels/using/creating-an-email.md)
-* [建立SMS](../../channels/using/creating-an-sms-message.md)
+* [建立簡訊](../../channels/using/creating-an-sms-message.md)
 * [建立推播通知](../../channels/using/preparing-and-sending-a-push-notification.md)
 * [建立InApp訊息](../../channels/using/about-in-app-messaging.md)
 * [建立工作流程](../../automating/using/building-a-workflow.md#creating-a-workflow)
-* [建立登陸頁面](../../channels/using/about-landing-pages.md)
+* [建立著陸頁面](../../channels/using/about-landing-pages.md)
 * [建立促銷活動](../../start/using/programs-and-campaigns.md#creating-a-campaign)
-* [建立程式](../../start/using/programs-and-campaigns.md#creating-a-program)
+* [建立方案](../../start/using/programs-and-campaigns.md#creating-a-program)
 
 >[!NOTE]
 >
->您也可以從行銷活動清單建立行銷活動。在這種情況下，您可以建立任何類型的活動。您可以選擇透過活動的屬性，將行銷活動連結至父促銷活動(如果您建立計劃)。
+>您也可以從行銷活動清單建立行銷活動。 在這種情況下，您可以建立任何類型的活動。 您可以選擇透過活動的屬性將行銷活動連結至父促銷活動（或如果您建立了方案，則連結至父方案）。
 

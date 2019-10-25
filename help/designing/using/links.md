@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 14155f29492f66b070dd302c59bdd8e81008f281
+source-git-commit: 1ccea1d142f0b1550c8891b2f31233af8c9d4e29
 
 ---
 
@@ -63,7 +63,7 @@ source-git-commit: 14155f29492f66b070dd302c59bdd8e81008f281
 
 ![](assets/des_link_edit.png)
 
-使用電子郵件設計器編 [輯電子郵件時](../../designing/using/overview.md)，您可以輕鬆存取和修改您從列出電子郵件中所包含所有URL的表格中建立的連結。 此清單可讓您集中檢視，並找出電子郵件內容中的每個URL。 若要存取，請參閱關於 [追蹤的URL](../../designing/using/links.md#about-tracked-urls)。
+使用電子郵件設計器編 [輯電子郵件時](../../designing/using/overview.md)，您可以輕鬆存取和修改您從列出電子郵件中所包含所有URL的表格中建立的連結。 此清單可讓您集中檢視，並找出電子郵件內容中的每個URL。 若要存取，請參閱關於 [追蹤的URL](#about-tracked-urls)。
 
 ![](assets/des_link_list.png)
 

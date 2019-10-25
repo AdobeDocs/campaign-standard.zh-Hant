@@ -2,19 +2,19 @@
 title: 疲勞規則
 seo-title: 疲勞規則
 description: 疲勞規則
-seo-description: 建立疲勞規則，以管理與個人檔案之間的過度通訊。
-page-status-flag: 從未啓動
-uuid: fa5e3ed-36c2-4f16-b97 a-119b85 adf679
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
+seo-description: 建立疲乏規則，以管理使用描述檔的過度通訊。
+page-status-flag: 從未激活
+uuid: fa5e3ded-36c2-4f16-b97a-119b85adf679
+contentOwner: 紹維亞
+products: SG_CAMPAIGN/STANDARD
 audience: 管理
-content-type: reference
-topic-tags: 使用typology規則
-discoiquuid: 4337a80b-0b0-4a37-bce3-Fe2121 a66586
+content-type: 參考
+topic-tags: 使用類型學規則
+discoiquuid: 4337a80b-0fb9-4a37-bce3-fe2121a66586
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 782a5f89b0361f1cbe59c9b353ca90dec90c3906
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -23,166 +23,166 @@ source-git-commit: 782a5f89b0361f1cbe59c9b353ca90dec90c3906
 
 ## 關於疲勞規則 {#about-fatigue-rules}
 
-疲勞規則可讓行銷人員設定全域跨通道業務規則，自動排除促銷活動中過度詢問的個人檔案。
+疲勞規則可讓行銷人員設定全域跨通道業務規則，自動排除促銷活動中過度徵求的個人檔案。
 
-若要實施疲勞規則，您可以定義每個描述檔的訊息數目上限，並選取規則適用的時段。在傳送準備期間，會根據已傳送給他們的訊息數目，從傳送中排除描述檔。
+要實施疲勞規則，請定義每個配置檔案的最大消息數，並選擇將應用該規則的期間。 在準備傳送期間，描述檔會視已傳送給描述檔的訊息數量，從傳送中排除（如果適用）。
 
 >[!NOTE]
 >
->若要套用疲勞規則，您必須定義傳送的聯絡日期。如果您選擇立即傳送訊息，則不會套用疲勞規則。
+>若要套用疲勞規則，您必須定義傳送的連絡人日期。 如果您選擇立即傳送訊息，則不會套用疲勞規則。
 
 相關主題：
 
 * [準備](../../administration/using/configuring-email-channel.md#preparation)
-* [管理印刷樣式](../../administration/using/about-typology-rules.md#managing-typologies)
-* [Typology規則](../../administration/using/about-typology-rules.md#typology-rules)
-* [最佳化通訊頻率以避免疲勞疲勞](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
+* [管理類型](../../administration/using/about-typology-rules.md#managing-typologies)
+* [類型學規則](../../administration/using/about-typology-rules.md#typology-rules)
+* [優化通信頻率以防止接觸疲勞](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
 
 ## 建立疲勞規則 {#creating-a-fatigue-rule}
 
-若要建立並設定 **[!UICONTROL Fatigue]** 打字規則，請套用下列步驟：
+要建立和配置排 **[!UICONTROL Fatigue]** 版規則，請應用以下步驟：
 
 1. 按一下介面左上角的Adobe Campaign標誌，然後選取 **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Typologies]** &gt; **[!UICONTROL Typology rules]**。
 
    ![](assets/fatigue4.png)
 
-1. 從打字規則清單中，按一下 **[!UICONTROL Create]**。
+1. 在排版規則清單中，按一下 **[!UICONTROL Create]**。
 
    ![](assets/fatigue.png)
 
-1. 在 **[!UICONTROL Rule type]** 欄位中選取 **[!UICONTROL Fatigue]**。
+1. 在欄位 **[!UICONTROL Rule type]** 中，選擇 **[!UICONTROL Fatigue]**。
 
    ![](assets/fatigue3.png)
 
-1. 在 **[!UICONTROL Channel]** 欄位中，選取您的規則適用的頻道。您可以選擇單一頻道(電子郵件、簡訊、直效郵件、行動應用程式)或選取 **[!UICONTROL All channels]**。請參閱 [選擇渠道](../../administration/using/fatigue-rules.md#choosing-the-channel)。
+1. 在欄位 **[!UICONTROL Channel]** 中，選取您的規則要套用的渠道。 您可以選擇單一通道（電子郵件、簡訊、直效郵件、行動應用程式）或選擇 **[!UICONTROL All channels]**。 請參 [閱選擇渠道](#choosing-the-channel)。
 
    ![](assets/fatigue5.png)
 
-1. **[!UICONTROL General]** 在標籤中，定義每個描述檔的訊息最大數目方法。您可以選擇常數臨界值或變數。您也可以微調設定檔和傳送上的臨界值。如需詳細資訊，請參閱 [「定義臨界值](../../administration/using/fatigue-rules.md#defining-the-threshold)」。
+1. 在標籤 **[!UICONTROL General]** 中，定義計算每個描述檔最大消息數的方法。 您可以選擇常數臨界值或變數。 您也可以調整描述檔和傳送的臨界值。 有關詳細資訊，請參閱定 [義閾值](#defining-the-threshold)。
 
    ![](assets/fatigue2.png)
 
-1. 選擇套用打字規則的項目 **[!UICONTROL Sliding period]** 。如需詳細資訊，請參閱 [設定滑動段](../../administration/using/fatigue-rules.md#setting-the-sliding-period)。
+1. 選擇套 **[!UICONTROL Sliding period]** 用排版規則的位置。 有關詳細資訊，請參 [閱設定滑動時段](#setting-the-sliding-period)。
 
    ![](assets/fatigue6.png)
 
-   在此範例中(請參閱先前的螢幕擷取)，我們選擇在15天的滑動期間傳送最多個訊息。
+   在此範例（請參閱先前的螢幕擷取畫面）中，我們選擇在15天的滑動期間，最多傳送4個訊息。
 
-1. **[!UICONTROL Application criteria]** 在標籤中，您可以選擇將此規則套用至所有傳送，或根據要傳送的訊息限制規則的適用性。只有當符合應用程式條件時，才會執行規則。例如，您只能在訊息上使用以指定字詞開頭或包含特定字母的ID來套用規則。請參閱 [限制篩選規則的適用性](../../administration/using/filtering-rules.md#restricting-the-applicability-of-a-filtering-rule)。
+1. 在標籤 **[!UICONTROL Application criteria]** 中，您可以選擇將此規則應用於所有交貨，或根據要發送的消息限制規則的適用性。 只有在符合應用程式條件時，才會執行規則。 例如，您只能對標籤以特定字詞開頭或ID包含特定字母的訊息套用規則。 請參 [閱限制篩選規則的適用性](../../administration/using/filtering-rules.md#restricting-the-applicability-of-a-filtering-rule)。
 
    ![](assets/fatigue20.png)
 
-1. 選取 **[!UICONTROL Typologies]** 標籤，並將您的打字規則連結到用於傳遞的字型。請參閱 [管理typolologies](../../administration/using/about-typology-rules.md#managing-typologies) 和 [Typology規則](../../administration/using/about-typology-rules.md#typology-rules)。
+1. 選取標 **[!UICONTROL Typologies]** 簽，並將您的排版規則連結至傳送時使用的排版。 請參 [閱管理類](../../administration/using/about-typology-rules.md#managing-typologies) 型 [和類型規則](../../administration/using/about-typology-rules.md#typology-rules)。
 
    ![](assets/fatigue12.png)
 
    >[!NOTE]
    >
-   >您可以在傳送範本中定義印刷樣式，以便自動套用至使用此範本建立的所有傳送。
+   >可在傳送範本中定義類型，以便自動套用至使用此範本建立的所有傳送。
 
-在傳送準備期間，會根據傳送給他們的傳送數量，將描述檔排除在傳送範圍之外。您可以在傳送記錄檔中檢視疲勞規則執行結果。請參閱 [檢視疲勞結果](../../administration/using/fatigue-rules.md#viewing-the-fatigue-results)。
+在準備傳送期間，描述檔會視情況從傳送中排除，視已傳送給描述檔的傳送數量而定。 您可以在傳送記錄檔中檢視疲勞規則執行結果。 請參 [閱查看疲勞結果](#viewing-the-fatigue-results)。
 
 ![](assets/fatigue16.png)
 
 >[!CAUTION]
 >
->若要讓疲勞規則運作，您必須定義傳送的聯絡日期。如果您選擇立即傳送訊息，則不會套用疲勞規則。
+>為了讓疲勞規則發揮作用，您需要為交貨定義聯繫日期。 如果您選擇立即傳送訊息，則不會套用疲勞規則。
 
-## 選擇渠道 {#choosing-the-channel}
+## 選擇頻道 {#choosing-the-channel}
 
-疲勞規則適用於各種管道。渠道定義在類文規則設定的 **[!UICONTROL Channel]** 欄位中。您可以選擇單一渠道或選擇 **[!UICONTROL All channels]**。
+疲勞規則適用於各種通道。 渠道是在排版規則設 **[!UICONTROL Channel]** 定欄位中定義。 您可以選取單一渠道或選取 **[!UICONTROL All channels]**。
 
 ![](assets/fatigue5.png)
 
 **可用頻道**
 
-可使用下列管道：
+有下列可用渠道：
 
 * 電子郵件
-* 行動電話(SMS)
+* 行動(SMS)
 * 直接郵件
-* 行動應用程式：此渠道可讓您傳送推播通知給描述檔或應用程式訂閱者。如果您選擇將通知傳送至描述檔，則會與多頻道疲勞規則相容。
+* 行動應用程式：此頻道可讓您傳送推播通知給描述檔或應用程式訂閱者。 如果您選擇傳送通知給描述檔，則通知會與多頻道疲乏規則相容。
 
    >[!CAUTION]
    >
-   >疲勞規則與傳送給應用程式訂閱者的推播通知不相容。如果您要傳送訊息給應用程式用戶，則不會套用疲勞規則。
+   >疲勞規則與傳送給應用程式訂閱者的推播通知不相容。 如果您要傳送訊息給應用程式訂閱者，則不會套用疲勞規則。
 
-* 所有通道：此選項可讓您將規則套用至所有渠道。例如，您可以決定在任何頻道上每個月傳送最多個訊息。如果您上周傳送個電子郵件至描述檔，而您今天嘗試傳送推播通知，則會排除相同的描述檔。
+* 所有通道：此選項可讓您將規則套用至所有渠道。 例如，您可以決定在任何頻道上每月最多傳送3則訊息。 如果您上週傳送2封電子郵件給描述檔，而您今天嘗試傳送推播通知，則會排除相同的描述檔。
 
 **傳送類型**
 
-疲勞規則與所有傳送類型相容：單鍵傳送、遞回傳送、工作流程傳送和交易訊息。
+疲勞規則與所有傳送類型相容：單次傳送、循環傳送、工作流程傳送和交易訊息。
 
-**交易傳訊** 可用來傳送定位事件(RetEvent)和行銷訊息(定位設定檔)的服務訊息，例如重新行銷訊息。疲勞規則僅與行銷訊息相容(定位設定檔)。事件交易訊息不包含描述檔資訊，因此它們與疲勞規則不相容(即使在使用描述檔進行擴充時)。透過交易訊息的行銷訊息支援，您可以 **將疲勞規則套用到所有通道，包括行銷交易訊息**。
+**交易式訊息** ，可用來傳送以事件(rtEvent)為目標的服務訊息，以及行銷訊息（定位設定檔），例如再行銷訊息。 疲勞規則僅與行銷訊息相容（定位描述檔）。 事件事務性消息不包含配置檔案資訊，因此它們與疲勞規則不相容（即使在富集了配置檔案的情況下）。 透過交易訊息中的行銷訊息支援，您可以將疲 **乏規則套用至所有通道，包括行銷交易訊息**。
 
-## 定義臨界值 {#defining-the-threshold}
+## 定義閾值 {#defining-the-threshold}
 
-每個疲勞規則定義臨界值，也就是說，可以在指定期間傳送到一個描述檔的最大訊息數量。一旦達到此臨界值後，將不會再發生任何傳送，直到考慮到期間結束為止。此程序可讓您在訊息超過設定臨界值時自動排除描述檔，以免過度詢問。
+每個疲勞規則定義一個閾值，即在指定期間內可以發送到一個配置檔案的最大消息數。 一旦達到此臨界值，在考慮到該期間結束之前，將不再進行交貨。 此程式可讓您在訊息超過設定的臨界值時，自動將描述檔排除在傳送之外，以避免過度請求。
 
-臨界值可以是常數或變數。這表示在特定時段內，臨界值不同於一個描述檔，甚至是相同的描述檔。
+閾值可以是常數或變數。 這表示在指定期間，臨界值可能會因某個描述檔而異，甚至因相同的描述檔而異。
 
-**使用修正臨界值**
+**使用修正閾值**
 
-臨界值代表在相關時段內可傳送至描述檔的最高訊息數量。
+該閾值表示在相關期間內可發送到配置檔案的消息的最大數量。
 
-根據預設，臨界值為常數，您需要指出規則授權的最大訊息數。
+依預設，臨界值為常數，您必須指出規則授權的訊息數目上限。
 
 ![](assets/fatigue2.png)
 
-**使用變數臨界值**
+**使用可變閾值**
 
-若要定義變數臨界值，請選取欄位中的 **[!UICONTROL Depends on the recipient]****[!UICONTROL Threshold type]** 值。
+若要定義變數臨界值，請在欄 **[!UICONTROL Depends on the recipient]** 位中選取 **[!UICONTROL Threshold type]** 值。
 
 ![](assets/fatigue15.png)
 
-然後有兩個選項：
+然後您有兩個選項：
 
-* 選取描述檔欄位：根據選取的欄位，臨界值會依每個描述檔而有所不同。例如，如果您已將描述檔資源使用「通訊頻率」欄位擴充，請按一下 **[!UICONTROL Threshold computation formula]** 欄位右邊的按鈕，然後選取您的欄位。對於每個描述檔，臨界值會採用「通訊頻率」欄位的值。
+* 選擇配置檔案欄位：每個描述檔的臨界值會依所選欄位而有所不同。 例如，如果您已使用「通信頻率」欄位擴展了配置檔案資源，請按一下該欄位右側的按鈕，然 **[!UICONTROL Threshold computation formula]** 後選擇欄位。 對於每個配置檔案，閾值將採用「通信頻率」欄位的值。
 
    ![](assets/fatigue21.png)
 
-* 定義公式：按一下 **[!UICONTROL Threshold computation formula]** 欄位右邊的第二個按鈕，以定義進階臨界值計算公式。例如，您可以根據描述檔所屬的區段來索引授權訊息的數目。這表示屬於「Web」區段的描述檔可能會收到比其他設定檔更多的訊息。**[!UICONTROL Iif (@origin='Web', 5, 3)]** 類型公式可授權傳送個訊息至網頁區段，以及對其他區段傳送個訊息。
+* 定義公式：按一下欄位右側的第二個按 **[!UICONTROL Threshold computation formula]** 鈕，以定義進階臨界值計算公式。 例如，您可以根據描述檔所屬的區段來索引授權訊息的數目。 這表示屬於「Web」區段的描述檔可能會收到比其他描述檔更多的訊息。 類型 **[!UICONTROL Iif (@origin='Web', 5, 3)]** 公式可授權傳送5個訊息至網頁區段的描述檔，而其他區段則授權傳送3個訊息。
 
    ![](assets/fatigue14.png)
 
-**改善描述檔和傳送上的臨界值**
+**調整描述檔和傳送的臨界值**
 
-根據預設，會將所有訊息納入臨界值計算中。核取 **[!UICONTROL Refine Threshold on profiles and deliveries]** 方塊以篩選準備傳送時要計數的設定檔和傳送。
+預設情況下，所有消息都將考慮到閾值計算。 核取方 **[!UICONTROL Refine Threshold on profiles and deliveries]** 塊以篩選描述檔和傳送，以便在準備傳送時計算。
 
-在下列範例中，只會計入男性個人資料，且只會計入以 **電子報** 開頭的標籤。
+在下列範例中，只會計算男性描述檔，且只會計算以電子報開頭之標籤的 **傳送** 。
 
 ![](assets/fatigue13.png)
 
-改善傳送的臨界值與限制整個規則( **[!UICONTROL Application criteria]** 標籤)的適用性不同：
+精確傳送時的臨界值與限制整個規則（標籤）的適用 **[!UICONTROL Application criteria]** 性不同：
 
-* **[!UICONTROL Application criteria]**：您選擇執行規則，或不根據特定標準。例如，如果您的應用程式條件是「標籤開始於電子報」，則規則只會套用至符合此條件的傳送。如果傳送的標籤以「促銷」開頭，則規則完全不會執行。
-* **[!UICONTROL Refine threshold on profiles and deliveries > Deliveries to count]**：所有使用此類文規則的傳送都會執行規則，但您會決定您要計數的過去和已排程傳送。例如，如果您的限制是「標籤開始於電子報」，則即使傳送標籤以「Promo」開頭，規則仍會執行。在選取的滑動期間，它會計算標籤以「電子報」開始的傳送次數。
+* **[!UICONTROL Application criteria]**:您選擇是否根據特定條件執行規則。 例如，如果您的申請條件是「以電子報開始標籤」，則規則僅適用於符合此條件的傳送。 如果傳送的標籤以「促銷」開頭，則完全不會執行規則。
+* **[!UICONTROL Refine threshold on profiles and deliveries > Deliveries to count]**:使用此分類規則的所有傳送都會執行此規則，但您會決定在過去和已排程的傳送中，要計算哪些傳送。 例如，若您的限制是「以電子報開頭的標籤」，則即使傳送標籤以「促銷」開頭，也會執行規則。 在選取的滑動期間，它會計算其標籤以「電子報」開頭的傳送數量。
 
-## 設定滑動段 {#setting-the-sliding-period}
+## 設定滑動週期 {#setting-the-sliding-period}
 
-疲勞規則定義於n天滾動期間。時段設定在 **[!UICONTROL Sliding period]** 區段中，例如周、天或小時。
+疲勞規則定義於n天滾動期間。 該時段在區段中 **[!UICONTROL Sliding period]** 設定，例如2週、7天或5小時。
 
 ![](assets/fatigue6.png)
 
-規則執行時，會考量過去傳送和排程傳送。這保證在指定的滑動期間，絕不會超過臨界值。
+執行規則時，會同時考慮過去的傳送和排程的傳送。 這保證在給定的滑動週期內，閾值不會超過。
 
-例如，如果您定義48小時期間，系統會在連絡人日期 **** 之前48小時內查看，且聯絡日期 **之後48小時**。因此，選取的期間會加倍，以便整合未來傳送以及先前的傳送。
+例如，如果您定義48小時期間，系統會在聯絡日期前48小 **時查看** ，在聯 **絡日期後48小時**。 因此，選定的期間將翻倍，以便將未來交貨和先前交貨結合起來。
 
-若要限制計入周期間的傳送，請在「滑動期間」區段中輸入 **日** 和 **周****或** 周。計算中將會考量傳送日期最多天前傳送的傳送日期，以及在套用規則之後最長七天的時間。
+要限制將交貨計入2週期間，請在「滑動期間」部 **分輸入****Day和7** 或1週 **** 。 在計算時，會考慮到在交貨日期前7天以及在交貨日期後計畫的交貨（最多7天）。
 
-## 檢視疲勞結果 {#viewing-the-fatigue-results}
+## 查看疲勞結果 {#viewing-the-fatigue-results}
 
-在傳送準備期間，會根據傳送給他們的傳送數量，將描述檔排除在傳送範圍之外。若要檢視疲勞規則執行結果，請按一下 **[!UICONTROL Deployment]** 區塊右下角的按鈕。
+在準備傳送期間，描述檔會視情況從傳送中排除，視已傳送給描述檔的傳送數量而定。 要查看疲勞規則執行結果，請按一下塊右下角的按 **[!UICONTROL Deployment]** 鈕。
 
 ![](assets/fatigue22.png)
 
-有三個標籤可供使用，可顯示疲勞執行結果的詳細資訊，包括套用的規則名稱：
+有三個頁籤，顯示疲勞執行結果的詳細資訊，包括所應用規則的名稱：
 
 * 傳送記錄檔：
 
    ![](assets/fatigue17.png)
 
-* 排除記錄：
+* 排除記錄檔：
 
    ![](assets/fatigue18.png)
 
@@ -190,26 +190,26 @@ source-git-commit: 782a5f89b0361f1cbe59c9b353ca90dec90c3906
 
    ![](assets/fatigue19.png)
 
-## 檢視疲勞規則摘要報表 {#viewing-the-fatigue-rule-summary-report}
+## 查看疲勞規則摘要報告 {#viewing-the-fatigue-rule-summary-report}
 
-Adobe Campaign提供關於疲勞規則的專屬報告，可協助您瞭解如何套用至促銷活動。這可讓您瞭解宣傳活動如何影響彼此，並作出正確調整。
+Adobe Campaign提供疲勞規則專屬報表，協助您瞭解如何將疲勞規則套用至促銷活動。 這可讓您瞭解宣傳活動如何彼此影響，並進行適當的調整。
 
-**[!UICONTROL Fatigue rules summary]** 您可以從 **[!UICONTROL Reports]** 按鈕存取每個程式、促銷活動和訊息右上角的按鈕。
+您可 **[!UICONTROL Fatigue rules summary]** 以從每個方案、促銷 **[!UICONTROL Reports]** 活動和訊息右上角的按鈕存取報表。
 
 ![](assets/fatigue27.png)
 
-在畫面的左側，您可以篩選傳送日期的報表資料。依預設，選取時段會開始至目前日期之前的15天，並在15天後結束。您也可以篩選特定疲勞規則。
+在畫面的左側，您可以篩選傳送之聯絡日期的報表資料。 依預設，選取的期間會在目前日期前15天開始，並在之後15天結束。 您也可以篩選特定疲勞規則。
 
-圓形圖顯示所選期間的下列資訊：
+圓形圖顯示選定時段的下列資訊：
 
-* **[!UICONTROL Total targeted]**：訊息準備前的總目標
-* **[!UICONTROL Excluded]**：因疲勞規則應用程式而產生的排除總數
-* **[!UICONTROL Other exclusions]**：因其他類型的規則而產生的排除總數
-* **[!UICONTROL To deliver]**：訊息準備後要傳送的訊息總數( **[!UICONTROL To deliver]** = **[!UICONTROL Total targeted]** - **[!UICONTROL Excluded]** )**[!UICONTROL Other exclusions]**
+* **[!UICONTROL Total targeted]**:消息準備前的目標總數
+* **[!UICONTROL Excluded]**:因疲勞規則應用而排除的總數
+* **[!UICONTROL Other exclusions]**:其他排除類型規則的排除總數
+* **[!UICONTROL To deliver]**:消息準備後要傳送的消息總數( **[!UICONTROL To deliver]** = **[!UICONTROL Total targeted]** - **[!UICONTROL Excluded]** - **[!UICONTROL Other exclusions]** )
 
-在圖表右側，您會找到排除次數，依疲勞規則劃分。
+在圖表右側，您會找到依疲勞規則劃分的排除數。
 
-底部表格會顯示所選時段內的所有傳送。對於每次傳送，您可以查看套用的疲勞規則和對應的排除。表格中也會顯示沒有聯絡日期的傳送。
+底部表格會顯示所選時段內的所有傳送。 對於每個傳送，您都可看到套用的疲勞規則及對應的排除。 表中還顯示沒有聯繫日期的交貨。
 
 * **[!UICONTROL 0]** 表示已套用疲勞規則，但沒有排除。
 * **[!UICONTROL -N]** 表示發生N個排除。
@@ -217,78 +217,78 @@ Adobe Campaign提供關於疲勞規則的專屬報告，可協助您瞭解如何
 
 >[!NOTE]
 >
->顯示的資料不屬於您存取報表的程式、訊息或促銷活動。此報告會顯示所有組織單位的所有疲勞規則和傳送。這可讓您取得所有傳送的全域視圖，以瞭解促銷活動受到其他人的影響。
+>顯示的資料與您從中存取報表的方案、訊息或促銷活動無關。 此報表顯示所有組織單位的所有疲勞規則和交貨。 這可讓您取得所有傳送的全域檢視，以瞭解您的促銷活動如何受到其他促銷活動的影響。
 
 ## 範例 {#examples}
 
-疲勞管理實作有許多可能性。以下是您可以執行的一些範例：
+疲勞管理的實施有許多可能。 以下是您可以做的一些範例：
 
-* 使用套用至所有管道的 **常數臨界值** 來建立 **疲勞規則**：
+* 使用套用至所有通道的 **常數臨界值** ，建立疲 **勞規則**:
 
-   假設您建立多頻道規則，在滑動期間的滑動期間為常數。
+   假設您建立多頻道規則，在7天的滑動期間內，以3為常數。
 
-   上周，您的高階個人檔案收到促銷電子郵件和交易式再行銷電子郵件。您也排定將於下周傳送的SMS。今天，您決定傳送針對所有個人檔案的推播通知。Premium描述檔將會排除在今天的推播之外，因為已達到兩周期間內的最大訊息數量。
+   上週，您的優質個人檔案收到促銷電子郵件和交易式再行銷電子郵件。 您也排定了下週傳送的簡訊。 今天，您決定傳送推播通知，以所有個人檔案為目標。 進階描述檔將會排除在今天的推播之外，因為已達到其在2週期間的訊息數上限。
 
    ![](assets/fatigue23.png)
 
-* 根據描述檔欄位使用 **變數臨界值** 來建立 **疲勞規則**：
+* 根據描述檔欄位，使用 **可變臨界值** ，建立疲 **勞規則**:
 
-   您已使用「通訊限制」欄位擴充描述檔資源，為每個描述檔定義不同的臨界值。在疲勞規則中，根據此欄位定義變數臨界值，並選取天的滑動期間。讓我們來看看兩個描述檔範例：John的通訊限制為1，David的臨界值為2。這兩家公司都已收到電子報電子郵件。您現在決定傳送另一封電子郵件給他們。只有David才會收到它，因為John已被排除在目標之外。
+   您已使用「通訊限制」欄位擴充描述檔資源，以定義每個描述檔的不同臨界值。 在疲勞規則中，根據此欄位定義可變臨界值，並選取滑動期間2天。 讓我們舉兩個描述檔範例：John的通訊限制為1,David的臨界值為2。 昨天，這兩家公司都收到了電子報電子郵件。 您決定今天再寄一封電子郵件給他們。 只有David會收到，因為John已被排除在目標之外。
 
    ![](assets/fatigue24.png)
 
-* 使用 **臨界值計算公式建立疲勞規則**：
+* 使用閾值計算公式 **建立疲勞規則**:
 
-   您想要根據個人檔案的年齡變更臨界值。如果描述檔低於40，您想要定義限制和舊描述檔的限制，上限為2。您可以直接在疲勞規則中建立公式，根據描述檔年齡來計算臨界值，而不是為每個具有延伸欄位的描述檔定義此臨界值。在我們的範例 **[!UICONTROL Iif (@age<40, 4, 2)]**&#x200B;中，公式將會是。
+   您想要根據個人檔案的年齡變更臨界值。 如果描述檔低於40，您想要定義4的限制，而舊描述檔的限制為2。 您可以直接在疲勞規則中建立公式，根據描述檔的年齡計算臨界值，而不是使用擴充欄位為每個描述檔定義此臨界值。 在我們的例子中，公式是 **[!UICONTROL Iif (@age<40, 4, 2)]**。
 
    ![](assets/fatigue25.png)
 
    >[!NOTE]
    >
-   >此區域也包含使用臨界值計算公式的疲勞規則逐步範例。
+   >本節還包括使用閾值計算公式的疲勞規則的逐步示例。
 
-* 建立疲勞規則 **，可調整描述檔和傳送** 上的臨界值：
+* 建立疲勞規則， **以調整描述檔** 和傳送的臨界值：
 
-   您已使用「Score」欄位擴充描述檔資源，也將傳送的資源擴充為「Type」欄位。您想要定義常數臨界值，但要從計算「警報」或「黑色星期五」的所有傳送，以及分數大於10的所有描述檔中排除所有傳送。當規則執行時，它將會在過去和排程的傳送之間計數，所有不屬於「警報」或「黑色星期五」的傳送都將傳送至小於10的描述檔。
+   您已使用「分數」欄位擴充描述檔資源，並且已使用「類型」欄位擴充傳送資源。 您想要定義一個常數臨界值3，但想從計數中排除「警報」或「黑色星期五」類型的所有傳送，以及分數大於10的所有描述檔。 當規則執行時，會在過去和已排程的傳送中，將所有非'Alert'或'Black Friday'類型的傳送計入分數小於10的描述檔。
 
    ![](assets/fatigue26.png)
 
-以下是使用臨界值計算公式的疲勞規則逐步範例。
+以下是使用閾值計算公式的疲勞規則的逐步示例。
 
-在此使用案例中，我們想要建立一個打字規則，防止每周傳送超過2message to premium描述檔和每周個訊息至標準設定檔。
+在此使用案例中，我們想要建立排版規則，以防止每週傳送超過2封訊息給優質描述檔，以及每週傳送2封訊息給標準描述檔。
 
-若要識別客戶和潛在客戶，我們將描述檔資源擴充 **[!UICONTROL Status]** 為欄位，欄位包含高階描述檔，以及標準設定檔的1。
+為了識別客戶和潛在客戶，我們擴展了配置檔案資源，該字 **[!UICONTROL Status]** 段包含0個高級配置檔案和1個標準配置檔案。
 
 若要建立規則，請套用下列步驟：
 
-1. 建立 **新的疲勞** 類型打字規則。
-1. **[!UICONTROL Threshold]** 在區段中，我們想要建立公式，根據每個描述檔來計算臨界值。選取欄位中的 **[!UICONTROL Depends on the recipient]****[!UICONTROL Threshold type]** 值，然後按一下 **[!UICONTROL Threshold computation formula]** 欄位右邊的第二個按鈕。
+1. 建立新的「疲 **勞** 」類型排版規則。
+1. 在該節 **[!UICONTROL Threshold]** 中，我們要建立一個公式以根據每個配置檔案計算閾值。 在欄位中 **[!UICONTROL Depends on the recipient]** 選取值，然 **[!UICONTROL Threshold type]** 後按一下欄位右側的第二個按鈕 **[!UICONTROL Threshold computation formula]** 圖示。
 
    ![](assets/fatigue7.png)
 
-1. **[!UICONTROL List of functions]** 在區段中，按兩下節點中的 **if** 函數 **[!UICONTROL Others]** 。
+1. 在節 **[!UICONTROL List of functions]** 中，按兩下節點中 **的Iif****[!UICONTROL Others]** 函式。
 
    ![](assets/fatigue8.png)
 
-1. 然後在區段中選取設定檔 **的狀態****[!UICONTROL Available fields]** 。
+1. 然後，在部分中選 **擇配置檔案** 的 **[!UICONTROL Available fields]** 狀態。
 
    ![](assets/fatigue9.png)
 
-1. 輸入所要的值以建立下列公式： **if(@ status=0,2,4)**
+1. 輸入所需值以建立以下公式： **If(@status=0,2,4)**
 
    ![](assets/fatigue10.png)
 
-   此公式可讓您在狀態等於0時指派值2，並對所有其他狀態指定值4。
+   此公式可讓您在狀態為0時指派值2，而所有其他狀態的值4。
 
-1. 按一下 **[!UICONTROL Confirm]** 以核准公式。
-1. 指出 **[!UICONTROL Sliding period]** 規則適用的位置：7天內，將所傳送的內容限制在周內。
+1. 按一 **[!UICONTROL Confirm]** 下以核准公式。
+1. 指定 **[!UICONTROL Sliding period]** 將套用規則的位置：在此情況下，請在7天內將已考慮的交貨限制在2週內。
 
    ![](assets/fatigue11.png)
 
-1. 現在連結您剛才建立的規則，以便套用到您的傳送項目。若要這麼做，請選取 **[!UICONTROL Typologies]** 標籤，然後按一 **[!UICONTROL Create element]** 下並選取用於傳送的字型。
+1. 現在將您剛建立的規則連結至類型學，以便套用至您的遞送。 若要這麼做，請選取標 **[!UICONTROL Typologies]** 簽，按一 **[!UICONTROL Create element]** 下並選取用於傳送的類型。
 
    ![](assets/fatigue12.png)
 
 1. 儲存規則以核准建立。
 
-規則會套用至根據字元類型的所有傳送。
+此規則將套用至所有以類型學為基礎的傳送。

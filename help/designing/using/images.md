@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c43a258734f3344fad8c9cbd5bd5774d7f37b4f6
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: c43a258734f3344fad8c9cbd5bd5774d7f37b4f6
 * 從Adobe Experience cloud共用的影像——請參閱使 [用促銷活動和資產核心服務](../../integrating/using/working-with-campaign-and-assets-core-service.md) /隨選資產
 * 來自Adobe Target的動態影像——請參閱使 [用Campaign和Target](../../integrating/using/about-campaign-target-integration.md)
 
-如果啟用，您可以使用Adobe Creative SDK修改影像。 請參 [閱「使用Adobe Creative SDK修改影像」](images.md#modifying-images-with-the-adobe-creative-sdk)。
+如果啟用，您可以使用Adobe Creative SDK修改影像。 請參 [閱「使用Adobe Creative SDK修改影像」](#modifying-images-with-the-adobe-creative-sdk)。
 
 >[!CAUTION]
 >

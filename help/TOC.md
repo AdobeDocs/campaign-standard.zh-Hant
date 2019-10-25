@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: 最終用戶
 user-guide-title: Adobe Campaign standard說明
 translation-type: tm+mt
-source-git-commit: ccd7e67dd8cf3cea827e0ada9e6f37b322eb8191
+source-git-commit: 1ccea1d142f0b1550c8891b2f31233af8c9d4e29
 
 ---
 
@@ -154,7 +154,7 @@ source-git-commit: ccd7e67dd8cf3cea827e0ada9e6f37b322eb8191
    + 關於報告 {#about-reporting}
       + [關於動態報表](reporting/using/about-dynamic-reports.md)
       + [報告介面](reporting/using/reporting-interface.md)
-      + [元件清單 ](reporting/using/list-of-components-.md)
+      + [元件清單](reporting/using/list-of-components-.md)
       + [指示器計算](reporting/using/indicator-calculation.md)
       + [疑難排解](reporting/using/troubleshooting.md)
    + 報表清單 {#list-of-reports}

@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7d044652c58c3fc66dac64f9d080852dbe29044d
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -30,7 +30,7 @@ source-git-commit: 7d044652c58c3fc66dac64f9d080852dbe29044d
 
 ### 內容範本 {#content-templates}
 
-您可以管理「電子郵件設計器」首頁標籤 **[!UICONTROL Templates]** 中提供的 [HTML內容](../../designing/using/overview.md) 。 不同的範本呈現多種元素的組合。 例如，「羽化」範本有邊界，而「Astro」範本沒有邊界。 如需詳細資訊，請參閱「內 [容範本」](../../designing/using/using-reusable-content.md#content-templates)。
+您可以管理「電子郵件設計器」首頁標籤 **[!UICONTROL Templates]** 中提供的 [HTML內容](../../designing/using/overview.md) 。 不同的範本呈現多種元素的組合。 例如，「羽化」範本有邊界，而「Astro」範本沒有邊界。 如需詳細資訊，請參閱「內 [容範本」](#content-templates)。
 
 ![](assets/template_content.png)
 
@@ -93,7 +93,7 @@ source-git-commit: 7d044652c58c3fc66dac64f9d080852dbe29044d
 
 您現在可以使用電子郵件設計工具建立電子郵件範本。 使用內容元件來反映您電子郵件的不同章節，並調整設定，使其盡可能接近原始電子報。 最後，插入您剛建立的片段。
 
-1. 使用電子郵件設計工具建立範本。 如需詳細資訊，請參閱「內 [容範本」](../../designing/using/using-reusable-content.md#content-templates)。
+1. 使用電子郵件設計工具建立範本。 如需詳細資訊，請參閱「內 [容範本」](#content-templates)。
 1. 將數個結構元件插入範本中——與電子郵件的頁首、頁尾和內文對應。 有關添加結構元件的詳細資訊，請參 [閱使用電子郵件設計器編輯電子郵件結構](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 1. 視需要插入多個內容元件，以建立電子報內文。 這將是您每個月都會更新之電子郵件的可編輯內容。
 
@@ -134,8 +134,8 @@ source-git-commit: 7d044652c58c3fc66dac64f9d080852dbe29044d
 
 要充分利用電子郵件設計器中的片段：
 
-* 建立您自己的片段。 請參 [閱建立內容片段](../../designing/using/using-reusable-content.md#creating-a-content-fragment) , [以及將內容儲存為片段](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment)。
-* 視需要在電子郵件中多次使用。 請參 [閱將元素插入電子郵件](../../designing/using/using-reusable-content.md#inserting-elements-into-an-email)。
+* 建立您自己的片段。 請參 [閱建立內容片段](#creating-a-content-fragment) , [以及將內容儲存為片段](#saving-content-as-a-fragment)。
+* 視需要在電子郵件中多次使用。 請參 [閱將元素插入電子郵件](#inserting-elements-into-an-email)。
 * 當您編輯片段時，會同步變更：它們會自動傳播至包含該片段的所有電子郵件（前提是尚未準備或傳送）。
 
 新增至電子郵件時，預設會鎖定片段。 如果要修改特定電子郵件的片段，可以在使用該片段的電子郵件中解鎖該片段，以中斷與原始片段的同步。 更改將不再同步。
@@ -150,7 +150,7 @@ source-git-commit: 7d044652c58c3fc66dac64f9d080852dbe29044d
 
 若要定義電子郵件的內容，您可以在預先放置的結構元件中新增內容元素。 請參閱 [編輯電子郵件結構](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 
-1. 選取左側的+圖示， **以存取** 內容元素。 選取 [片段](../../designing/using/using-reusable-content.md#about-fragments)[或內容元件](../../designing/using/designing-from-scratch.md#about-content-components)。
+1. 選取左側的+圖示， **以存取** 內容元素。 選取 [片段](#about-fragments)[或內容元件](../../designing/using/designing-from-scratch.md#about-content-components)。
 1. 如果您已經知道要添加的片段的標籤或部分標籤，則可以搜索它。
 
    ![](assets/email_designer_fragmentsearch.png)
@@ -167,7 +167,7 @@ source-git-commit: 7d044652c58c3fc66dac64f9d080852dbe29044d
 
    >[!NOTE]
    >
-   >新增至電子郵件時，預設會鎖定片段。 如果要修改特定電子郵件的片段，或直接在片段中進行更改，可以中斷與原始片段的同步。 請參閱 [關於片段](../../designing/using/using-reusable-content.md#about-fragments)。
+   >新增至電子郵件時，預設會鎖定片段。 如果要修改特定電子郵件的片段，或直接在片段中進行更改，可以中斷與原始片段的同步。 請參閱 [關於片段](#about-fragments)。
 
 1. 請針對您需要新增至電子郵件的所有元素重複此程式。
 1. 儲存您的電子郵件。
@@ -176,7 +176,7 @@ source-git-commit: 7d044652c58c3fc66dac64f9d080852dbe29044d
 
 >[!NOTE]
 >
->如果修改片段，變更會自動傳播至使用片段的電子郵件中。 如需詳細資訊，請參閱關於 [片段](../../designing/using/using-reusable-content.md#about-fragments)。
+>如果修改片段，變更會自動傳播至使用片段的電子郵件中。 如需詳細資訊，請參閱關於 [片段](#about-fragments)。
 
 ### 建立內容片段 {#creating-a-content-fragment}
 
@@ -213,7 +213,7 @@ source-git-commit: 7d044652c58c3fc66dac64f9d080852dbe29044d
 
 >[!NOTE]
 >
->您無法將個人化欄位插入片段中，除非該欄位用於電子郵件且已解除鎖定。 請參閱 [關於片段](../../designing/using/using-reusable-content.md#about-fragments)。
+>您無法將個人化欄位插入片段中，除非該欄位用於電子郵件且已解除鎖定。 請參閱 [關於片段](#about-fragments)。
 
 ### 將內容儲存為片段 {#saving-content-as-a-fragment}
 
@@ -275,7 +275,7 @@ To save as a fragment some email content that you created, follow the steps belo
 
 要執行此操作，請遵循下列步驟：
 
-1. 在Adobe Campaign中，前往 **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates & fragments]** 並建立頁首的片段。 如需詳細資訊，請參 [閱建立內容片段](../../designing/using/using-reusable-content.md#creating-a-content-fragment)。
+1. 在Adobe Campaign中，前往 **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates & fragments]** 並建立頁首的片段。 如需詳細資訊，請參 [閱建立內容片段](#creating-a-content-fragment)。
 1. 在片段中添加所需數量的結構元件。
 
 ![](assets/des_loading_compatible_fragment_1.png)

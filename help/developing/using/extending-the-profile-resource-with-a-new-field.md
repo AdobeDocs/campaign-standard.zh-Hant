@@ -14,7 +14,7 @@ discoiquuid: 1e0f8945-fc3c-46a9-a8e5-b181a1f5ffcb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e946069dd4cbd16085aaa8ac9fa2ea08beb74b5f
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -29,10 +29,10 @@ source-git-commit: e946069dd4cbd16085aaa8ac9fa2ea08beb74b5f
 
 若要這麼做，請依照下列步驟進行：
 
-* [步驟1:擴充描述檔資源](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-1--extend-the-profile-resource)
-* [步驟2:擴充測試描述檔](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-2--extend-the-test-profile)
-* [步驟3:發佈自訂資源](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-3--publish-your-custom-resource)
-* [步驟4:使用工作流程更新和定位描述檔](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-4--update-and-target-profiles-with-a-workflow)
+* [步驟1:擴充描述檔資源](#step-1--extend-the-profile-resource)
+* [步驟2:擴充測試描述檔](#step-2--extend-the-test-profile)
+* [步驟3:發佈自訂資源](#step-3--publish-your-custom-resource)
+* [步驟4:使用工作流程更新和定位描述檔](#step-4--update-and-target-profiles-with-a-workflow)
 
 然後，下列欄位將新增至我們的設定檔，並可在傳送中定位：
 
@@ -41,7 +41,7 @@ source-git-commit: e946069dd4cbd16085aaa8ac9fa2ea08beb74b5f
 相關主題：
 
 * [關於自訂資源](../../developing/using/data-model-concepts.md)
-* [管理設定檔](../../audiences/using/about-profiles.md)
+* [管理用戶檔案](../../audiences/using/about-profiles.md)
 * [管理測試設定檔](../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles)
 
 ## 步驟1:擴充描述檔資源 {#step-1--extend-the-profile-resource}

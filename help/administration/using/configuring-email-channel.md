@@ -15,7 +15,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -90,7 +90,7 @@ source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 網域管理規則用於規範特定網域的傳出電子郵件流程。 他們會取樣彈回訊息，並在適當時封鎖傳送。 Adobe Campaign傳訊伺服器會套用網域的特定規則，然後套用規則清單中星號所代表之一般案例規則。 Hotmail和MSN網域的規則預設可在Adobe Campaign中使用。
 
-要配置域管理規則，只需設定閾值並選擇某些SMTP參數。 閾 **值** (Threshold)是計算為錯誤百分比的限制，超過該百分比後，所有針對特定域的消息都將被阻止。
+要配置域管理規則，只需設定閾值並選擇某些SMTP參數。 閾 **值** (Threshold)是計算為錯誤百分比的限制，超過該百分比，將阻止指向特定域的所有消息。
 
 例如，一般情況下，至少300則訊息，如果錯誤率達到90%，則會封鎖3小時的電子郵件傳送。
 
@@ -173,7 +173,7 @@ SMTP參 **數用作** （應用於阻止規則）的篩選器。
 
 暫時未傳送的訊息可能會自動重試。 此部分指示在發送開始( **[!UICONTROL Max. number of retries]** )後應執行多少次重試，以及兩次重試之間的最小延遲( **[!UICONTROL Retry period]** )。
 
-依預設，會為第一天排程5次重試，最低間隔為1小時，分佈在一天的24小時內。 在此之後，每天會設定一次重試，直到交貨期限為止(在有效期間參數部分中 [定義)](../../administration/using/configuring-email-channel.md#validity-period-parameters) 。
+依預設，會為第一天排程5次重試，最低間隔為1小時，分佈在一天的24小時內。 在此之後，每天會設定一次重試，直到交貨期限為止(在有效期間參數部分中 [定義)](#validity-period-parameters) 。
 
 可以全域變更重試次數（請連絡您的Adobe技術管理員），或針對每個傳送或傳送範本變更重試次數
 
@@ -206,7 +206,7 @@ SMTP參 **數用作** （應用於阻止規則）的篩選器。
 >如果為電子郵件啟用此選項，則在取消勾選該選項之前，不會傳送任何訊息。
 >電子郵件或電子郵件範本控制面板中會顯示警告。
 
-有關配置SMTP的詳細資訊，請參閱「電子郵 [件SMTP參數清單」部分](../../administration/using/configuring-email-channel.md#list-of-email-smtp-parameters) 。
+有關配置SMTP的詳細資訊，請參閱「電子郵 [件SMTP參數清單」部分](#list-of-email-smtp-parameters) 。
 
 ### 有效期參數 {#validity-period-parameters}
 
@@ -238,7 +238,7 @@ SMTP參 **數用作** （應用於阻止規則）的篩選器。
 * **[!UICONTROL Tracking validity limit]**:可讓您定義在URL上啟動追蹤的持續時間。
 * **[!UICONTROL Substitution URL for expired URLs]**:您可以輸入URL至追蹤過期後將顯示的網頁。
 
-### 進階參數 {#advanced-parameters}
+### 高級參數 {#advanced-parameters}
 
 該節 **[!UICONTROL Advanced parameters]** 包含多個參數。
 
@@ -268,7 +268,7 @@ SMTP參 **數用作** （應用於阻止規則）的篩選器。
 
 * **[!UICONTROL Compute the label during delivery preparation]**:可讓您使用個人化欄位、內容區塊和動態文字，在訊息準備階段計算電子郵件的標籤值。
 
-   您也可以使用已宣告至工作流程外部訊號活動的事件變數來個人化傳送標籤。 For more on this, refer to [this section](../../automating/using/calling-a-workflow-with-external-parameters.md).
+   您也可以使用已宣告至工作流程外部訊號活動的事件變數來個人化傳送標籤。 如需詳細資訊，請參閱[本小節](../../automating/using/calling-a-workflow-with-external-parameters.md)。
 
 * **[!UICONTROL Save SQL queries in the log]**:此選項允許您在準備階段期間在日誌中添加SQL查詢日誌。
 

@@ -14,7 +14,7 @@ discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e89bd70459c92ba9706bbec5c488cbb340b14651
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -39,7 +39,7 @@ source-git-commit: e89bd70459c92ba9706bbec5c488cbb340b14651
 
 ## 步驟1:建立確認登陸頁面 {#step-1--create-the-confirmation-landing-page}
 
-設定雙重選擇加入機制的程式，從建立確認登陸頁面開始：當訪客點按確認電子郵件以進行註冊時，會顯示此頁面。
+設定雙重選擇加入機制的程式始於建立確認登陸頁面：當訪客點按確認電子郵件以進行註冊時，會顯示此頁面。
 
 若要建立及設定此著陸頁面，您必須：
 
@@ -59,7 +59,7 @@ source-git-commit: e89bd70459c92ba9706bbec5c488cbb340b14651
 
    ![](assets/optin_confirmlp_newelement.png)
 
-   此上下文會移除黑名單欄位，以便能夠傳送電子郵件。 我們稍後會看到，第一個著陸頁面在確認前將此欄位設 **為true** ，以防止傳送電子郵件至未確認的描述檔。 如需詳細資訊，請參閱 [步驟3:建立贏取登陸頁面](../../channels/using/setting-up-a-double-opt-in-process.md#step-3--create-the-acquisition-landing-page)。
+   此上下文會移除黑名單欄位，以便能夠傳送電子郵件。 我們稍後會看到，第一個著陸頁面在確認前將此欄位設 **為true** ，以防止傳送電子郵件至未確認的描述檔。 如需詳細資訊，請參閱 [步驟3:建立贏取登陸頁面](#step-3--create-the-acquisition-landing-page)。
 
 1. 自訂著陸頁面的內容：例如，您可以顯示個人化資料，並將確認按鈕的標籤變更為「按一下此處確認我的訂閱」。
 
@@ -96,7 +96,7 @@ source-git-commit: e89bd70459c92ba9706bbec5c488cbb340b14651
 1. 在下 **[!UICONTROL Profile]** 拉式清 **[!UICONTROL Targeting enrichment]** 單中選擇作為。
 1. 按一 **[!UICONTROL Publish]** 下以發佈事件。
 
-活動已就緒。 您現在可以設計電子郵件範本。 此範本必須包含先前建立之 **CONFIRMATION** 著陸頁面的連結。 有關詳細資訊，請參 [閱設計確認消息](../../channels/using/setting-up-a-double-opt-in-process.md#design-the-confirmation-message)。
+活動已就緒。 您現在可以設計電子郵件範本。 此範本必須包含先前建立之 **CONFIRMATION** 著陸頁面的連結。 有關詳細資訊，請參 [閱設計確認消息](#design-the-confirmation-message)。
 
 ### 建立排版規則 {#create-the-typology-rule}
 
@@ -136,7 +136,7 @@ source-git-commit: e89bd70459c92ba9706bbec5c488cbb340b14651
 
    並將值設為 **true**。
 
-   這是強制強制黑名單並避免傳送訊息給未確認同意的訪客。 驗證CONFIRMATION著陸頁面後，會在確認後將此欄位設 **為** false。 如需詳細資訊，請參閱 [步驟1:建立確認登陸頁面](../../channels/using/setting-up-a-double-opt-in-process.md#step-1--create-the-confirmation-landing-page)。
+   這是強制強制黑名單並避免傳送訊息給未確認同意的訪客。 驗證CONFIRMATION著陸頁面後，會在確認後將此欄位設 **為** false。 如需詳細資訊，請參閱 [步驟1:建立確認登陸頁面](#step-1--create-the-confirmation-landing-page)。
 
 1. 在&gt;區 **[!UICONTROL Job]** 段 **[!UICONTROL Specific actions]** 中，選取選項 **[!UICONTROL Start sending messages]**。
 1. 在關聯的下拉清單中，選擇您建立的 **CONFIRM** 事務性消息模板。

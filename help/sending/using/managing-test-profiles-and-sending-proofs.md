@@ -15,7 +15,7 @@ context-tags: seedMember，概觀
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 27447db9ee0dd387c39976c7bd4e157a4b7899b8
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -30,12 +30,12 @@ source-git-commit: 27447db9ee0dd387c39976c7bd4e157a4b7899b8
 
 測試配置檔案包含虛構的聯繫資訊或由發送者控制的聯繫資訊，這些資訊隨後可用於以下上下文中的消息：
 
-* 傳送校 **樣**:校對是特定訊息，用來在傳送已完成的傳送給收件者之前檢查訊息。 Proof測試設定檔負責檢查傳送的內容和格式。 請參閱 [傳送校樣](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs)。
+* 傳送校 **樣**:校對是特定訊息，用來在傳送已完成的傳送給收件者之前檢查訊息。 Proof測試設定檔負責檢查傳送的內容和格式。 請參閱 [傳送校樣](#sending-proofs)。
 * 對於電 **子郵件轉譯**:電子郵件轉換測試配置檔案用於檢查根據接收郵件收件箱顯示郵件的方式。 例如，webmail、message service、mobile等。 請參閱 [電子郵件轉譯](../../sending/using/email-rendering.md)。
 
    「電 **子郵件** 」轉譯使用為唯讀。 使用此功能的測試設定檔僅能在Adobe Campaign中立即使用。
 
-* 作為陷 **阱**:訊息會傳送至測試描述檔，就像傳送至主要目標一樣。 請參 [閱使用陷阱](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps)。
+* 作為陷 **阱**:訊息會傳送至測試描述檔，就像傳送至主要目標一樣。 請參 [閱使用陷阱](#using-traps)。
 * 要預 **覽消息** :在預覽訊息以測試個人化元素時，可選取測試描述檔。 請參閱 [預覽訊息](/help/sending/using/previewing-messages.md)。
 
 ![](assets/test_profile.png)
@@ -90,13 +90,13 @@ source-git-commit: 27447db9ee0dd387c39976c7bd4e157a4b7899b8
 
 證明是一種特定訊息，可讓您在將訊息傳送至主要目標之前先測試訊息。
 
-證明的收件者負責核准訊息（其內容和表格）。 它們在測試配置檔案 **中定義**。 如需詳細資訊，請參閱「管 [理測試設定檔](../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles)」。
+證明的收件者負責核准訊息（其內容和表格）。 它們在測試配置檔案 **中定義**。 如需詳細資訊，請參閱「管 [理測試設定檔](#managing-test-profiles)」。
 
 為了傳送證明，測試設定檔必須包含在訊息的觀眾中。
 
 在訊息中：
 
-1. 按一下按 **[!UICONTROL Send a test]** 鈕。
+1. Click the **[!UICONTROL Send a test]** button.
 
    ![](assets/bat_select.png)
 
@@ -150,7 +150,7 @@ source-git-commit: 27447db9ee0dd387c39976c7bd4e157a4b7899b8
 
 >[!NOTE]
 >
->與用於校樣或電子郵 [件轉譯的測試描述檔](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs)[](../../sending/using/email-rendering.md)，訊息會同時傳送至主要目標和用作陷阱的測試描述檔。
+>與用於校樣或電子郵 [件轉譯的測試描述檔](#sending-proofs)[](../../sending/using/email-rendering.md)，訊息會同時傳送至主要目標和用作陷阱的測試描述檔。
 
 定義訊息的對象時：
 
@@ -163,7 +163,7 @@ source-git-commit: 27447db9ee0dd387c39976c7bd4e157a4b7899b8
    >
    >請確定您已選取主要目標。 否則，無法傳送您的訊息。
 
-1. 按一下按 **[!UICONTROL Confirm]** 鈕。 請參 [閱確認傳送](../../sending/using/confirming-the-send.md)。
+1. Click the **[!UICONTROL Confirm]** button. 請參 [閱確認傳送](../../sending/using/confirming-the-send.md)。
 
    ![](assets/trap_confirm.png)
 

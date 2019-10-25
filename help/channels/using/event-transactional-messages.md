@@ -15,7 +15,7 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -115,7 +115,7 @@ source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
 
    ![](assets/message-center_9.png)
 
-   您可以檢查個人化欄位是否符合測試描述檔中輸入的資訊。 如需詳細資訊，請參 [閱在交易訊息中定義測試描述檔](../../channels/using/event-transactional-messages.md#defining-a-test-profile-in-a-transactional-message)。
+   您可以檢查個人化欄位是否符合測試描述檔中輸入的資訊。 如需詳細資訊，請參 [閱在交易訊息中定義測試描述檔](#defining-a-test-profile-in-a-transactional-message)。
 
 ## 在事務性消息中使用產品清單 {#using-product-listings-in-a-transactional-message}
 
@@ -234,7 +234,7 @@ source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
 
    ![](assets/message-center_loop_test-profile_payload.png)
 
-   如需在交易訊息中定義測試描述檔的詳細資訊，請參 [閱本節](../../channels/using/event-transactional-messages.md#defining-a-test-profile-in-a-transactional-message)。
+   如需在交易訊息中定義測試描述檔的詳細資訊，請參 [閱本節](#defining-a-test-profile-in-a-transactional-message)。
 
 ## 測試事務性消息 {#testing-a-transactional-message}
 
@@ -274,9 +274,9 @@ source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
 
 >[!NOTE]
 >
->若要再次發佈訊息，您必須返回對應的事件設定、發佈訊息，然後發佈訊息。 如需詳細資訊，請參閱「發 [布交易式訊息」](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message)。
+>若要再次發佈訊息，您必須返回對應的事件設定、發佈訊息，然後發佈訊息。 如需詳細資訊，請參閱「發 [布交易式訊息」](#publishing-a-transactional-message)。
 
-如果您解除發佈已暫停的交易訊息，您可能必須等候最多24小時，才能再次發佈。 這可讓工作流 **[!UICONTROL Database cleanup]** 程清除傳送至佇列的所有事件。 暫停消息的步驟在暫停事務性消息發 [布部分中有詳細說明](../../channels/using/event-transactional-messages.md#suspending-a-transactional-message-publication) 。
+如果您解除發佈已暫停的交易訊息，您可能必須等候最多24小時，才能再次發佈。 這可讓工作流 **[!UICONTROL Database cleanup]** 程清除傳送至佇列的所有事件。 暫停消息的步驟在暫停事務性消息發 [布部分中有詳細說明](#suspending-a-transactional-message-publication) 。
 
 每 **[!UICONTROL Database cleanup]** 天凌晨4點執行的工作流程可透過 **[!UICONTROL Administration]** &gt; **[!UICONTROL Application settings]** &gt;存取 **[!UICONTROL Workflows]**。
 
@@ -288,7 +288,7 @@ source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
 
 * **事務性消息**:要刪除事務性消息，應取消發佈消息，而不應暫停。
 
-   如果未發佈事務性消息，則事件配置也需要取消發佈才能成功刪除事務性消息，除非另一個事務性消息連結到相應的事件。 有關如何取消發佈事務性消息的詳細資訊，請參閱本 [節](../../channels/using/event-transactional-messages.md#unpublishing-a-transactional-message)。
+   如果未發佈事務性消息，則事件配置也需要取消發佈才能成功刪除事務性消息，除非另一個事務性消息連結到相應的事件。 有關如何取消發佈事務性消息的詳細資訊，請參閱本 [節](#unpublishing-a-transactional-message)。
 
    >[!CAUTION]
    >
@@ -304,8 +304,8 @@ source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
 
 發送事務性消息失敗時，有兩個重試系統：
 
-* 在事務性消息傳遞級別，事務性消息在事件被分配給執行傳送之前可能失敗，這意味著事件接收和傳送準備之間。 請參閱 [事件處理重試程式](../../channels/using/event-transactional-messages.md#event-processing-retry-process)。
-* 在發送進程級別，一旦將事件分配給執行傳送，事務性消息就會因臨時錯誤而失敗。 請參 [閱消息發送重試進程](../../channels/using/event-transactional-messages.md#message-sending-retry-process)。
+* 在事務性消息傳遞級別，事務性消息在事件被分配給執行傳送之前可能失敗，這意味著事件接收和傳送準備之間。 請參閱 [事件處理重試程式](#event-processing-retry-process)。
+* 在發送進程級別，一旦將事件分配給執行傳送，事務性消息就會因臨時錯誤而失敗。 請參 [閱消息發送重試進程](#message-sending-retry-process)。
 
 ### 事件處理重試程式 {#event-processing-retry-process}
 

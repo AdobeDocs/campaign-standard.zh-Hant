@@ -14,7 +14,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b1ba842c9cd05bbd152166346250443d12f21f10
+source-git-commit: 621b643fdbae077b494ea02274233de7ec99f288
 
 ---
 
@@ -39,7 +39,7 @@ Microsoft Dynamics 365整合(GA)-詳 [細資訊](https://helpx.adobe.com/campaig
 
 「促銷活動標準」和「促銷活動經典」的錯誤訊息清單已更新。 [閱讀更多資訊](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
-GDPR快速入門手冊已經過改進並充實。 它現在是包含GDPR和CCPA的隱私權管理檔案。 [閱讀更多資訊](https://helpx-internal.corp.adobe.com/content/help/en/campaign/kb/campaign-privacy.html)
+GDPR快速入門手冊已經過改進並充實。 它現在是包含GDPR和CCPA的隱私權管理檔案。 [閱讀更多資訊](https://helpx.adobe.com/content/help/en/campaign/kb/campaign-privacy.html)
 
 已新增一個圖表，其中顯示交易訊息發佈程式。 [閱讀更多資訊](../../channels/using/about-transactional-messaging.md#transactional-messaging-pub-process)
 

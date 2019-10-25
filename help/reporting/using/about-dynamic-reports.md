@@ -14,7 +14,7 @@ discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ccd7e67dd8cf3cea827e0ada9e6f37b322eb8191
+source-git-commit: c606612b1bfb313e8eb20e45cf631609ec07aa84
 
 ---
 
@@ -67,13 +67,13 @@ source-git-commit: ccd7e67dd8cf3cea827e0ada9e6f37b322eb8191
 
 >[!NOTE]
 >
->這些變更僅適用於Campaign Standard 19.4的開始發行。
+> 從Campaign Standard 19.4版開始，動態報表的同意彈出式選單已更新為包含Adobe Campaign Standard和Microsoft Dynamics 365整合。
 
 動態報告使用合約的目的，是做為資料處理的快顯同意。 依預設，合約僅可見，且只能由指派有管理權限的使用者接受或拒絕。
 
 有三個選項可供使用：
 
-* **[!UICONTROL Ask me later]**:按一下「稍後詢問我」，視窗將會在24小時內停止顯示。
+* **[!UICONTROL Ask me later]**:按一下「 **稍後詢問我**」，視窗將會在24小時內停止顯示。 在您接受或拒絕合約之前，描述檔維度不會顯示在您的報表中，也不會收集或傳送客戶的個人識別資訊。
 * **[!UICONTROL Accept]**:接受本合約後，您即授權Adobe Campaign收集客戶的個人身分識別資訊，並將這些資訊傳送至報告或資料中心。
 * **[!UICONTROL Decline]**:拒絕合約後，描述檔維度將不會出現在您的報表中，而且客戶的個人識別資訊也不會收集或傳送。 請注意，在此情況下，仍會收集外部ID並用於識別使用者。
 
@@ -88,11 +88,13 @@ source-git-commit: ccd7e67dd8cf3cea827e0ada9e6f37b322eb8191
 
 | 地區 | 動態報告 | Microsoft Dynamics 365連接器 |
 |---|---|---|
-| 美洲與亞太地區（亞太地區） | **功能已推出**。 <br> 除ExternalID外，沒有立即可用的自訂設定檔資訊推送至美國報告中心。 | **功能已推出**。 <br>除「外部ID」和「收件者ID」外，沒有立即可用的或自訂的描述檔欄位傳送至美國資料中心。 <br>除鏡像頁面ID外，所有在美國資料中心處理的Adobe Campaign Standard事件欄位。 |
-| EMEA（歐洲中東和非洲） | **功能已推出**。 <br>除ExternalID外，沒有立即可用的自訂設定檔資訊推送至EMEA報告中心。 | **功能已推出。** 除「 <br>外部ID」和「收件者ID」外，沒有立即可用或自訂的描述檔欄位傳送至EMEA資料中心。 <br>除鏡像頁面ID外，所有在EMEA資料中心處理的Adobe Campaign Standard事件欄位。  <br>**[!UICONTROL Control data]** 其中包含Adobe I/O註冊資料，以及在美國資料中心傳送及儲存之客戶使用者事件的ID。 |
+| 美洲與亞太地區（亞太地區） | **功能已推出**。 <br> 除ExternalID外，沒有立即可用的自訂設定檔資訊推送至美國報告中心。 | **功能已推出**。 <br>除「外部ID」和「收件者ID」外，沒有立即可用的或自訂的描述檔欄位傳送至美國資料中心。 <br>除鏡像頁面ID外，所有在美國資料中心處理的Adobe Campaign Standard事件欄位。 <br>有關Microsoft Dynamics 365整合的詳細資訊，請參閱本 [頁](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)。 |
+| EMEA（歐洲中東和非洲） | **功能已推出**。 <br>除ExternalID外，沒有立即可用的自訂設定檔資訊推送至EMEA報告中心。 | **功能已推出。** 除「 <br>外部ID」和「收件者ID」外，沒有立即可用或自訂的描述檔欄位傳送至EMEA資料中心。 <br>除鏡像頁面ID外，所有在EMEA資料中心處理的Adobe Campaign Standard事件欄位。  <br>**[!UICONTROL Control data]** 其中包含Adobe I/O註冊資料，以及在美國資料中心傳送及儲存之客戶使用者事件的ID。<br>有關Microsoft Dynamics 365整合的詳細資訊，請參閱本 [頁](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)。 |
 
 這個選項不是最終選項，您隨時都可以在 **[!UICONTROL Enable PII data to be transferred to US region to use reporting on Profile data]** &gt; **[!UICONTROL Administration]** &gt; **[!UICONTROL Application Settings]** 中變更 **[!UICONTROL Options]**。
 
 值可隨時變更。 值1對應於 **[!UICONTROL Ask me later]**、2 **[!UICONTROL Decline]** 和3 **[!UICONTROL Accept]**。
+
+請注意，對於Adobe Campaign Standard 19.4之前的版本，值-1對應 **[!UICONTROL Ask me later]**&#x200B;於、0 **[!UICONTROL Decline]** 和1 **[!UICONTROL Accept]**。
 
 ![](assets/pii_window_2.png)

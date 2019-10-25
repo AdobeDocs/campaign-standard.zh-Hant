@@ -1,93 +1,93 @@
 ---
-title: 電子郵件演算
-seo-title: 電子郵件演算
-description: 電子郵件演算
+title: 電子郵件轉換
+seo-title: 電子郵件轉換
+description: 電子郵件轉換
 seo-description: 探索電子郵件轉換功能。
-page-status-flag: 從未啓動
-uuid: c423e237-ad39-4797-ac3 a-4320894a8 f99
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
-audience: 傳送
-content-type: reference
-topic-tags: 準備與測試訊息
-discoiquuid: 2b5b13c8-2e51-4985-a161-c1 d7 f0 c32 b4
+page-status-flag: 從未激活
+uuid: c423e237-ad39-4797-ac3a-4320894a8f99
+contentOwner: 紹維亞
+products: SG_CAMPAIGN/STANDARD
+audience: 發送
+content-type: 參考
+topic-tags: 準備和測試訊息
+discoiquuid: 2b5b13c8-2e51-4985-a161-c1d7f0fc32b4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
 
-# Email rendering{#email-rendering}
+# 電子郵件轉換{#email-rendering}
 
-Before hitting the **[!UICONTROL Send]** button, make sure that your message will be displayed in an optimal way on a variety of web clients, web mails and devices.
+在按下按 **[!UICONTROL Send]** 鈕之前，請確定您的訊息會以最佳方式顯示在各種網頁用戶端、網頁郵件和裝置上。
 
-若要允許此選項，Adobe Campaign會擷取演算，並可在專用報表中使用。這可讓您在可能收到的不同內容中預覽傳送的訊息。
+為了允許此動作，Adobe Campaign會擷取轉譯，並將它提供在專用報表中。 這可讓您在可接收訊息的不同內容中預覽所傳送的訊息。
 
-The mobile, messaging and webmail clients available for **Email rendering** in Adobe Campaign are listed on the Litmus [website](https://litmus.com/email-testing) (click **View all email clients**).
+Adobe Campaign中提供的行動裝置、傳訊和 **Email轉譯** ( [Email](https://litmus.com/email-testing) )用戶端會列在 **Litmus網站**（按一下「檢視所有電子郵件用戶端」）。
 
-## Checking the Email rendering report {#checking-the-email-rendering-report}
+## 勾選「電子郵件」轉換報表 {#checking-the-email-rendering-report}
 
-當您建立電子郵件傳送並定義其內容以及目標人口後，請遵循以下步驟。
+在您建立電子郵件傳送並定義其內容以及目標群體後，請遵循下列步驟。
 
-1. Click **Audience** to access the **[!UICONTROL Test profiles]** tab.
+1. 按一 **下「對象** 」以存取 **[!UICONTROL Test profiles]** 索引標籤。
 
    ![](assets/email_rendering_05.png)
 
-1. Use the query editor to define the test profiles that you want to use, including the test profiles that are for **Email rendering** use. See [About test profiles](../../sending/using/managing-test-profiles-and-sending-proofs.md#about-test-profiles).
+1. 使用查詢編輯器定義您要使用的測試設定檔，包括用於電子郵件轉譯的測 **試設定檔** 。 請參閱 [關於測試設定檔](../../sending/using/managing-test-profiles-and-sending-proofs.md#about-test-profiles)。
 
    ![](assets/email_rendering_06.png)
 
-1. 檢查並確認您的查詢，然後儲存您的變更。
-1. Click the **[!UICONTROL Test]** button in the action bar.
+1. 檢查並確認查詢，然後儲存變更。
+1. 按一下 **[!UICONTROL Test]** 動作列中的按鈕。
 
    ![](assets/email_rendering_07.png)
 
-1. Select the **[!UICONTROL Email rendering]** option then click **[!UICONTROL OK]**.
+1. 選取選 **[!UICONTROL Email rendering]** 項，然後按一下 **[!UICONTROL OK]**。
 
    ![](assets/email_rendering_08.png)
 
    >[!NOTE]
    >
-   >**[!UICONTROL Proof + Email rendering]** 此選項可讓您傳送校樣並同時使用電子郵件演算功能。您可以由校訂收件者核准您的訊息，同時您也可以根據目標收件匣測試接收訊息的方式。在此情況下，您也需要選取「校對測試設定檔」。See [About test profiles](../../sending/using/managing-test-profiles-and-sending-proofs.md#about-test-profiles).
+   >此選 **[!UICONTROL Proof + Email rendering]** 項可讓您傳送證明並同時使用電子郵件轉譯功能。 您可以讓證明收件者核准您的訊息，同時也可以根據所定位的收件箱來測試訊息的接收方式。 在這種情況下，您也需要選取「校對測試描述檔」。 請參閱 [關於測試設定檔](../../sending/using/managing-test-profiles-and-sending-proofs.md#about-test-profiles)。
 
    測試傳送會傳送。
 
-1. 傳送訊息後幾分鐘即可顯示縮圖。To access them, select **[!UICONTROL Proofs]** in the **[!UICONTROL Summary]** drop-down list.
+1. 傳送訊息後幾分鐘即可使用轉換縮圖。 若要存取它們，請 **[!UICONTROL Proofs]** 在下拉式 **[!UICONTROL Summary]** 清單中選取。
 
    ![](assets/email_rendering_03.png)
 
-1. From the **[!UICONTROL Proofs]** list, click the **[!UICONTROL Access email rendering]** icon.
+1. 從清單 **[!UICONTROL Proofs]** 中按一下圖 **[!UICONTROL Access email rendering]** 示。
 
    ![](assets/email_rendering_04.png)
 
-專用的電子郵件轉換報告隨即顯示。See [Email rendering report description](../../sending/using/email-rendering.md#email-rendering-report-description).
+此時會顯示專用的電子郵件轉譯報告。 請參 [閱電子郵件轉換報表說明](#email-rendering-report-description)。
 
-**相關主題**：
+**相關主題**:
 
 * [建立電子郵件](../../channels/using/creating-an-email.md)
-* [管理測試設定檔並傳送校樣](../../sending/using/managing-test-profiles-and-sending-proofs.md)
+* [管理測試設定檔和傳送校樣](../../sending/using/managing-test-profiles-and-sending-proofs.md)
 * [查詢編輯器](../../automating/using/editing-queries.md#about-query-editor)
 
-## Email rendering report description {#email-rendering-report-description}
+## 電子郵件轉換報表說明 {#email-rendering-report-description}
 
-此報表會顯示收件者顯示的電子郵件轉譯。電子郵件轉譯可能因收件者開啓電子郵件傳送而異：在瀏覽器、行動裝置或透過電子郵件應用程式。
+此報告會以電子郵件呈現方式呈現收件者的呈現方式。 電子郵件轉譯會因收件者開啟電子郵件傳送的方式而異：在瀏覽器、行動裝置上，或透過電子郵件應用程式。
 
 >[!NOTE]
 >
->您的授權合約中會列出可用的轉譯數目。Each delivery with **Email rendering** enabled decreases your available renderings (known as tokens) by one. 如果您是Litmus客戶，可以使用您自己的Litmbus帳戶來布建並使用Adobe Campaign中的電子郵件演算。如需更多資訊，請聯絡您的Adobe銷售代表。
+>您的授權合約中會列出可用的轉譯數。 每次啟用「電 **子郵件轉譯** 」的傳送，都會將您的可用轉譯（稱為Token）減少一。 如果您是Litmus客戶，您可以使用自己的Litmus帳戶來布建和使用Adobe Campaign中的電子郵件轉譯。 如需詳細資訊，請洽詢您的Adobe銷售代表。
 
-報表摘要會顯示收到的訊息數、不需要的(垃圾郵件)、未接收或擱置中的接收次數。
+報表摘要會顯示收到、不想要（垃圾訊息）、未收到或待接收的訊息數。
 
 ![](assets/inbox_rendering_report.png)
 
-The report is divided into three parts: **[!UICONTROL Mobile]**, **[!UICONTROL Messaging clients]**, and **[!UICONTROL Webmails]**. 向下捲動報表，顯示所有歸類為這三個類別的轉譯。
+報告分為三部分： **[!UICONTROL Mobile]**、 **[!UICONTROL Messaging clients]**&#x200B;和 **[!UICONTROL Webmails]**。 向下捲動報表，以顯示分成這三個類別的所有轉譯。
 
 ![](assets/inbox_rendering_report_3.png)
 
-若要取得每個報表的詳細資訊，請按一下對應的卡片。會針對選取的接收方法顯示演算。
+若要取得每個報表的詳細資訊，請按一下對應的資訊卡。 顯示所選接收方法的渲染。
 
 ![](assets/inbox_rendering_report_2.png)
 
-**[!UICONTROL Technical data]** 此標籤可讓您取得更多資訊，例如接收和擷取日期，以及電子郵件的完整標題。
+此標 **[!UICONTROL Technical data]** 簽可讓您取得更多資訊，例如接收和擷取日期，以及電子郵件的完整標題。

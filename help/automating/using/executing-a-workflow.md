@@ -15,7 +15,7 @@ context-tags: 工作流，概述；工作流，主要
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -86,7 +86,7 @@ source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 * **錯誤** （紅色）
 
-   執行工作流時發生錯誤。 工作流已停止，用戶必須執行操作。 若要進一步瞭解此錯誤，請使用 ![](assets/printpreview_darkgrey-24px.png) 按鈕存取工作流程記錄檔(請參 [閱Monitoring](../../automating/using/executing-a-workflow.md#monitoring))。
+   執行工作流時發生錯誤。 工作流已停止，用戶必須執行操作。 若要進一步瞭解此錯誤，請使用 ![](assets/printpreview_darkgrey-24px.png) 按鈕存取工作流程記錄檔(請參 [閱Monitoring](#monitoring))。
 
 行銷活動清單可讓您顯示所有工作流程及其狀態。 如需詳細資訊，請參閱管 [理行銷活動](../../start/using/marketing-activities.md#about-marketing-activities)。
 
@@ -146,7 +146,7 @@ source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 此圖 ![](assets/printpreview_darkgrey-24px.png) 示會開啟工作流程記錄和工作功能表。
 
-工作流歷史記錄將保存在工作流執行選項中指定的持續時間內(請參閱 [工作流屬性](../../automating/using/executing-a-workflow.md#workflow-properties))。 因此，在此期間，即使在重新啟動後，也會保存所有消息。 如果不想保存先前執行中的消息，則必須按一下按鈕來清除歷史記 ![](assets/delete_darkgrey-24px.png) 錄。
+工作流歷史記錄將保存在工作流執行選項中指定的持續時間內(請參閱 [工作流屬性](#workflow-properties))。 因此，在此期間，即使在重新啟動後，也會保存所有消息。 如果不想保存先前執行中的消息，則必須按一下按鈕來清除歷史記 ![](assets/delete_darkgrey-24px.png) 錄。
 
 該選 **[!UICONTROL Log]** 項卡包含所有活動或任何選定活動的執行歷史記錄。 它按時間順序對執行的操作和執行錯誤進行索引。
 
@@ -174,9 +174,9 @@ source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 >[!NOTE]
 >
->您可以針對每個活動分別套用此設定。 若要這麼做，請選取活動，然後使用快速動作將其開啟 ![](assets/edit_darkgrey-24px.png)。 然後在「執行選項」頁籤中選擇錯誤 **管理模式** 。 請參閱 [活動執行選項](../../automating/using/executing-a-workflow.md#activity-execution-options)。
+>您可以針對每個活動分別套用此設定。 若要這麼做，請選取活動，然後使用快速動作將其開啟 ![](assets/edit_darkgrey-24px.png)。 然後在「執行選項」頁籤中選擇錯誤 **管理模式** 。 請參閱 [活動執行選項](#activity-execution-options)。
 
-工作 **[!UICONTROL Execution]** 流屬性的部分還允許您定義在工作流執行 **[!UICONTROL Consecutive errors]** 自動暫停之前授權的一些屬性。 只要未到達此數字，就會忽略錯誤元素，並正常執行其他工作流分支。 如果到達此號碼，工作流程會暫停，並自動通知工作流程主管（電子郵件和應用程式內通知）。 請參 [閱工作流程屬](../../automating/using/executing-a-workflow.md#workflow-properties) 性 [和Adobe Campaign通知](../../administration/using/sending-internal-notifications.md)。
+工作 **[!UICONTROL Execution]** 流屬性的部分還允許您定義在工作流執行 **[!UICONTROL Consecutive errors]** 自動暫停之前授權的一些屬性。 只要未到達此數字，就會忽略錯誤元素，並正常執行其他工作流分支。 如果到達此號碼，工作流程會暫停，並自動通知工作流程主管（電子郵件和應用程式內通知）。 請參 [閱工作流程屬](#workflow-properties) 性 [和Adobe Campaign通知](../../administration/using/sending-internal-notifications.md)。
 
 也可以在工作流的執行屬性中定義監督者。
 

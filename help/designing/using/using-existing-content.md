@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
+source-git-commit: fe2f9ef93e87bfd269a3503eb6d8c88461caf694
 
 ---
 
@@ -39,8 +39,8 @@ Adobe Campaign隨附一組預先定義的內容，以協助您開始使用。 �
 
    * [內容範本](../../designing/using/using-reusable-content.md#content-templates):按一下標 **[!UICONTROL Templates]** 簽。
    * [從頭開始](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)，開始創作：按一下按 **[!UICONTROL Create]** 鈕。
-   * [以ZIP或HTML檔案形式從您的電腦取得內容](../../designing/using/using-existing-content.md#importing-content-from-a-file):按一下按 **[!UICONTROL Upload]** 鈕。
-   * [來自現有URL的內容](../../designing/using/using-existing-content.md#importing-content-from-a-url) （僅限電子郵件）:按一下按 **[!UICONTROL Import from URL]** 鈕。
+   * [以ZIP或HTML檔案形式從您的電腦取得內容](#importing-content-from-a-file):按一下按 **[!UICONTROL Upload]** 鈕。
+   * [來自現有URL的內容](#importing-content-from-a-url) （僅限電子郵件）:按一下按 **[!UICONTROL Import from URL]** 鈕。
    ![](assets/des_loading_2.png)
 
 1. 載入內容。 選取的內容會取代目前的內容。
@@ -49,7 +49,7 @@ Adobe Campaign隨附一組預先定義的內容，以協助您開始使用。 �
 
    >[!NOTE]
    >
-   >電子郵 [件設計器](../../designing/using/overview.md) (Email Designer)使用特定標籤。 上傳至Campaign的標準HTML內容必須符合預期的標籤，才能完全相容並可從電子郵件設計工具編輯。 如果不符合，您的內容會以相容模式 [上傳](../../designing/using/using-existing-content.md#compatibility-mode)。 若要讓現有內容相容，請參 [閱本節](../../designing/using/using-existing-content.md#editing-existing-contents-with-the-email-designer)。
+   >電子郵 [件設計器](../../designing/using/overview.md) (Email Designer)使用特定標籤。 上傳至Campaign的標準HTML內容必須符合預期的標籤，才能完全相容並可從電子郵件設計工具編輯。 如果不符合，您的內容會以相容模式 [上傳](#compatibility-mode)。 若要讓現有內容相容，請參 [閱本節](#editing-existing-contents-with-the-email-designer)。
 
 **相關主題：**
 
@@ -60,7 +60,7 @@ Adobe Campaign隨附一組預先定義的內容，以協助您開始使用。 �
 
 若要充份運用電子郵件設計工具的 [版本可能性](../../designing/using/overview.md)，您上傳的HTML必須包含特定的標籤，才能與WYSIWYG編輯器相容。
 
-如果HTML的全部或部分沒有此標籤，則內容會以「相容模式 [](../../designing/using/using-existing-content.md#compatibility-mode)」載入。
+如果HTML的全部或部分沒有此標籤，則內容會以「相容模式 [](#compatibility-mode)」載入。
 
 若要讓現有的外部內容在電子郵件設計器中完全可編輯，請參 [閱使用現有內容設計電子郵件](../../designing/using/using-existing-content.md) 。
 
@@ -128,7 +128,7 @@ zip檔案結構沒有限制。 但是，參照HTML檔案必須是相對的，並
 
 1. 若要預覽已擷取的URL內容，請在建立訊息後開啟訊息，然後按一下按 **[!UICONTROL Preview]** 鈕。
 
-您可以個人化將擷取內容的遠端URL。 若要這麼做，請依照下列步驟進行：
+您可以個人化將擷取內容的遠端URL。 要執行此操作，請遵循下列步驟：
 
 1. 按一下畫面上方的電子郵件標籤，以存取「電子郵件設計器」 **[!UICONTROL Properties]** 標籤。
 1. 尋找欄 **[!UICONTROL Remote URL]** 位。
@@ -213,7 +213,7 @@ zip檔案結構沒有限制。 但是，參照HTML檔案必須是相對的，並
 1. 添加結構元件。 如需詳細資訊，請參閱「 [編輯電子郵件結構」](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 1. 新增HTML元件。 如需詳細資訊，請參 [閱新增片段和元件](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 1. 將HTML複製並貼入該元件。
-1. 切換至行動裝置檢視。 有關此內容的詳細資訊，請參 [閱本節](../../designing/using/styles.md#switching-to-mobile-view)。
+1. 切換至行動裝置檢視。 For more on this, see [this section](../../designing/using/styles.md#switching-to-mobile-view).
 
    回應式檢視會中斷，因為您的CSS遺失。
 

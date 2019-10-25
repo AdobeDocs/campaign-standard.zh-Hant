@@ -14,7 +14,7 @@ discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4ad558fce83006879455a791127594157456f0c4
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -25,10 +25,10 @@ source-git-commit: 4ad558fce83006879455a791127594157456f0c4
 
 在此範例中，我們要建立自訂描述檔欄位 **Loyalty程式** ，將其分為三個層級：金、銀、銅。 然後，此自訂描述檔將會加以擴充，以便在動態報表中將它當做自訂描述檔維度使用。
 
-* [步驟1:建立新的描述檔欄位](../../reporting/using/creating-a-custom-profile-dimension.md#step-1--create-a-new-profile-field)
-* [步驟2:使用描述檔欄位擴充傳送記錄檔](../../reporting/using/creating-a-custom-profile-dimension.md#step-2--extend-the-sending-logs-with-the-profile-field)
-* [步驟3:建立已註冊忠誠度方案的遞送定位收件者](../../reporting/using/creating-a-custom-profile-dimension.md#step-3--create-a-delivery-targeting-recipients-enrolled-in-the-loyalty-program)
-* [步驟4:建立動態報表以篩選具有自訂描述檔維度的收件者](../../reporting/using/creating-a-custom-profile-dimension.md#step-4--create-a-dynamic-report-to-filter-recipients-with-the-custom-profile-dimension)
+* [步驟1:建立新的描述檔欄位](#step-1--create-a-new-profile-field)
+* [步驟2:使用描述檔欄位擴充傳送記錄檔](#step-2--extend-the-sending-logs-with-the-profile-field)
+* [步驟3:建立已註冊忠誠度方案的遞送定位收件者](#step-3--create-a-delivery-targeting-recipients-enrolled-in-the-loyalty-program)
+* [步驟4:建立動態報表以篩選具有自訂描述檔維度的收件者](#step-4--create-a-dynamic-report-to-filter-recipients-with-the-custom-profile-dimension)
 
 ## 步驟1:建立新的描述檔欄位 {#step-1--create-a-new-profile-field}
 
@@ -91,7 +91,7 @@ source-git-commit: 4ad558fce83006879455a791127594157456f0c4
 
 現在您的描述檔欄位已建立，我們需要使用我們的描述檔欄位來擴充傳送記錄檔，以在動態報表中建立相關的自訂描述檔維度。
 
-在使用我們的描述檔欄位擴充記錄檔之前，請確定已接受PII視窗以存取標 **[!UICONTROL Sending logs extension]** 簽。 有關此內容的詳細資訊，請參閱本 [頁](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)。
+在使用我們的描述檔欄位擴充記錄檔之前，請確定已接受PII視窗以存取標 **[!UICONTROL Sending logs extension]** 簽。 For more on this, refer to this [page](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
 
 >[!NOTE]
 >
@@ -99,7 +99,7 @@ source-git-commit: 4ad558fce83006879455a791127594157456f0c4
 
 1. 從進階功能表中，選擇 **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** &gt; **[!UICONTROL Custom resources]** 然後選 **[!UICONTROL Profile (profile)]** 擇自訂資源。
 1. 開啟 **[!UICONTROL Sending logs extension]** 下拉式清單。
-1. 按一下按 **[!UICONTROL Create element]** 鈕。
+1. Click the **[!UICONTROL Create element]** button.
 
    ![](assets/custom_profile_9.png)
 
@@ -108,7 +108,7 @@ source-git-commit: 4ad558fce83006879455a791127594157456f0c4
 
    ![](assets/custom_profile_10.png)
 
-   只有在接受PII視窗時，此選項才可用。 有關此內容的詳細資訊，請參閱本 [頁](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)。
+   只有在接受PII視窗時，此選項才可用。 For more on this, refer to this [page](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
 
 1. 按一 **[!UICONTROL Add]** 下，然後儲存自訂資源。
 1. 由於自訂資源已修改，因此我們需要發佈它以實作新的變更。

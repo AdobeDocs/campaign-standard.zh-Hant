@@ -14,7 +14,7 @@ discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a98c15b5c0f5f8714a09e709d4fa5259d3ce531e
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -32,8 +32,8 @@ source-git-commit: a98c15b5c0f5f8714a09e709d4fa5259d3ce531e
 * 對於使用預設模式的所有服務，此消息都相同。
 
 若要針對特定服務傳送特定確認電子郵件，您可以建立自訂訊息，您也可以運用其他資源的個人化欄位。 要執行此操作，必須建立和配置事務性消息。 此訊息可被參考：
-* 服務本身。 有關詳細資訊，請參 [閱配置服務的確認消息](../../audiences/using/confirming-subscription-to-a-service.md#configuring-confirmation-message-from-service)。
-* 從訂閱登陸頁面。 如需詳細資訊，請參 [閱從著陸頁面設定確認訊息](../../audiences/using/confirming-subscription-to-a-service.md#configuring-confirmation-message-from-landing-page)。
+* 服務本身。 有關詳細資訊，請參 [閱配置服務的確認消息](#configuring-confirmation-message-from-service)。
+* 從訂閱登陸頁面。 如需詳細資訊，請參 [閱從著陸頁面設定確認訊息](#configuring-confirmation-message-from-landing-page)。
 
 ## 從服務配置確認消息 {#configuring-confirmation-message-from-service}
 
@@ -166,7 +166,7 @@ source-git-commit: a98c15b5c0f5f8714a09e709d4fa5259d3ce531e
 
 #### 設計確認訊息 {#design-the-confirmation-message-2}
 
-本節將介紹設計事務性消息的 [步驟](../../audiences/using/confirming-subscription-to-a-service.md#design-the-confirmation-message-1)。
+本節將介紹設計事務性消息的 [步驟](#design-the-confirmation-message-1)。
 
 ### 步驟2:建立和配置服務 {#step-2--create-and-configure-the-service-2}
 

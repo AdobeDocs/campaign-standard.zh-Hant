@@ -1,63 +1,63 @@
 ---
-title: 管理促銷活動中的選擇加入和退出
-seo-title: 管理促銷活動中的選擇加入和退出
-description: 管理促銷活動中的選擇加入和退出
-seo-description: 瞭解選擇加入和退出如何在Adobe Campaign中進行管理。
-page-status-flag: 從未啓動
-uuid: aa1801ec-562b-420e-8d79-c07-c07 d0 a1 a
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
-audience: 受眾
-content-type: reference
-topic-tags: 瞭解選擇退出與選擇退出
-discoiquuid: 6b5680f2-bba9-453e-a0 d5-8ca69 dd02001
+title: 管理促銷活動中的選擇加入和選擇退出
+seo-title: 管理促銷活動中的選擇加入和選擇退出
+description: 管理促銷活動中的選擇加入和選擇退出
+seo-description: 瞭解Adobe Campaign中如何管理選擇加入和選擇退出。
+page-status-flag: 從未激活
+uuid: aa1801ec-562b-420e-8d79-c07d066b7b1a
+contentOwner: 紹維亞
+products: SG_CAMPAIGN/STANDARD
+audience: audiences
+content-type: 參考
+topic-tags: 瞭解——選擇加入——選擇退出流程
+discoiquuid: 6b5680f2-bba9-453e-a0d5-8ca69dd02001
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
 
-# Managing opt-in and opt-out in Campaign{#managing-opt-in-and-opt-out-in-campaign}
+# 管理促銷活動中的選擇加入和選擇退出{#managing-opt-in-and-opt-out-in-campaign}
 
-## Managing opt-in and opt-out from a profile {#managing-opt-in-and-opt-out-from-a-profile}
+## 管理個人檔案的選擇加入和選擇退出 {#managing-opt-in-and-opt-out-from-a-profile}
 
-Users can be opted in or out by an operator directly from the profile **[!UICONTROL General]** tab.
+運算子可直接從描述檔標籤選擇使用者或退出使 **[!UICONTROL General]** 用。
 
-In the **[!UICONTROL No longer contact (blacklist)]** section, the selected checkboxes correspond to the channels from which the user chose to opt out. 根據使用者需求選擇渠道。
+在此區 **[!UICONTROL No longer contact (blacklist)]** 段中，選取的核取方塊會對應使用者選擇退出的頻道。 根據使用者需求選擇頻道。
 
 ![](assets/optin_landingpage_3.png)
 
-## Setting up opt-in and opt-out landing pages {#setting-up-opt-in-and-opt-out-landing-pages}
+## 設定選擇加入和選擇退出登陸頁面 {#setting-up-opt-in-and-opt-out-landing-pages}
 
-To give users the ability to opt in or opt out, you have to create and publish a **[!UICONTROL Profile acquisition]** landing page. 然後，他們就可以根據他們的需求選擇頻道。若要執行此動作，請遵循下列步驟。
+若要讓使用者能夠選擇加入或選擇退出，您必須建立並發佈著陸 **[!UICONTROL Profile acquisition]** 頁面。 然後他們就可以根據自己的需求來選擇頻道。 若要這麼做，請依照下列步驟進行。
 
-You can also set up a **[!UICONTROL BlackList]** landing page that will enable users to opt out from all deliveries. For more on this, refer to [Setting up a landing page to opt out from all deliveries](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#setting-up-a-landing-page-to-opt-out-from-all-deliveries).
+您也可以設定著陸頁 **[!UICONTROL BlackList]** 面，讓使用者可選擇退出所有傳送。 如需詳細資訊，請參 [閱設定著陸頁面以選擇退出所有傳送](#setting-up-a-landing-page-to-opt-out-from-all-deliveries)。
 
 >[!NOTE]
 >
->著陸頁面也可以用來啓用服務訂閱。For more on this, refer to [this page](../../channels/using/designing-a-landing-page.md#linking-a-form-to-a-service).
+>著陸頁面也可用來啟用服務訂閱。 有關詳細資訊，請參見[此頁面](../../channels/using/designing-a-landing-page.md#linking-a-form-to-a-service)。
 
-1. Create a **[!UICONTROL Profile acquisition]** landing page (see [this section](../../channels/using/about-landing-pages.md)).
-1. 在每個所需頻道的著陸頁面內容中新增核取方塊，然後將其連結至促銷活動資料庫的對應欄位。
+1. 建立著 **[!UICONTROL Profile acquisition]** 陸頁面(請 [參閱本節](../../channels/using/about-landing-pages.md))。
+1. 在著陸頁面內容中新增每個所需渠道的核取方塊，然後將其連結至「促銷活動」資料庫的對應欄位。
 
    ![](assets/optin_landingpage_1.png)
 
-1. 儲存登陸頁面並加以發佈。
-1. In the landing page, the checkboxes are already selected according to the profile **[!UICONTROL General]** tab. 使用者可以根據他的需求選擇或取消選取頻道，並提交表單。
+1. 儲存著陸頁面並發佈。
+1. 在著陸頁面中，已根據描述檔標籤選取核取方 **[!UICONTROL General]** 塊。 用戶可以根據自己的需要選擇或取消選擇渠道並提交表單。
 
    ![](assets/optin_landingpage_2.png)
 
-1. Once the form submitted, the profile **[!UICONTROL General]** tab is updated according to the user's selection.
+1. 提交表單後，會根據使 **[!UICONTROL General]** 用者的選擇更新描述檔標籤。
 
    ![](assets/optin_landingpage_3.png)
 
-### Setting up a landing page to opt out from all deliveries {#setting-up-a-landing-page-to-opt-out-from-all-deliveries}
+### 設定著陸頁面以選擇退出所有傳送 {#setting-up-a-landing-page-to-opt-out-from-all-deliveries}
 
-To give users the ability to opt out from all deliveries, you have to create and publish a **[!UICONTROL BlackList]** landing page. For more on landing pages creation, refer to [this page](../../channels/using/about-landing-pages.md).
+若要讓使用者能夠選擇退出所有傳送，您必須建立並發佈著陸 **[!UICONTROL BlackList]** 頁面。 如需建立著陸頁面的詳細資訊，請參 [閱本頁](../../channels/using/about-landing-pages.md)。
 
-Once a user clicks on the landing page link, the **[!UICONTROL No longer contact (by any channel)]** option in the profile is automatically selected.
+當使用者按一下著陸頁面連結後，會自 **[!UICONTROL No longer contact (by any channel)]** 動選取描述檔中的選項。
 
 ![](assets/blacklisting_allchannels.png)
 

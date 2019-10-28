@@ -14,7 +14,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 621b643fdbae077b494ea02274233de7ec99f288
+source-git-commit: fc20cc5d3dfb4ad03ea4f8c7ad0931b5e190a089
 
 ---
 
@@ -45,7 +45,9 @@ GDPR快速入門手冊已經過改進並充實。 它現在是包含GDPR和CCPA�
 
 已更新「傳送最佳實務」快速入門手冊。 [閱讀更多資訊](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 
-<!--A new section has been added. It provides an overview of the different methods that allow you to enrich Campaign Standard database. [Read more](../../start/using/enriching-campaign-database.md)-->
+已新增新區段。 它提供可讓您豐富Campaign standard資料庫的不同方法的概觀。 [閱讀更多資訊](../../start/using/enriching-campaign-database.md)
+
+已新增一個章節，說明如何使用電子郵件設計工具來設定連結的樣式。 [閱讀更多資訊](../../designing/using/styles.md#about-styling-links)
 
 ## 檔案更新- 2019年10月 {#doc-updates-october-2019}
 
@@ -56,6 +58,8 @@ GDPR快速入門手冊已經過改進並充實。 它現在是包含GDPR和CCPA�
 「交易式傳訊」區段已使用最新的UI更新加以修改，包括使用電子郵件設計工具編輯內容。 [閱讀更多資訊](../../channels/using/event-transactional-messages.md)
 
 著陸頁面章節已重新整理。 此外，還新增了一個章節，詳細說明設定著陸頁面的步驟。 [閱讀更多資訊](../../channels/using/main-steps-to-set-up-a-landing-page.md)
+
+Audience manager整合頁面已更新，以反映 **Declared ID變更** 。 [閱讀更多資訊](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 ## 檔案更新- 2019年9月 {#doc-updates-september-2019}
 

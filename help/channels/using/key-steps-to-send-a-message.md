@@ -1,8 +1,6 @@
 ---
 title: 傳送訊息的關鍵步驟
-seo-title: 傳送訊息的關鍵步驟
-description: 傳送訊息的關鍵步驟
-seo-description: 請依照下列步驟，使用Adobe Campaign建立和傳送訊息。
+description: 請依照下列步驟，使用Adobe Campaign建立和傳送訊息。
 page-status-flag: 從未激活
 uuid: d3fbb1e6-6444-4b56-b9d6-ae39bd8d4804
 contentOwner: 紹維亞
@@ -14,7 +12,7 @@ discoiquuid: a51351ee-e3b6-4996-9e68-b7d5157b8207
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 

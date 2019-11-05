@@ -1,8 +1,6 @@
 ---
-title: 配置事務性消息傳遞
-seo-title: 配置事務性消息傳遞
-description: 配置事務性消息傳遞
-seo-description: 瞭解如何設定交易式訊息。
+title: 設定交易式訊息傳遞
+description: 瞭解如何設定交易式訊息。
 page-status-flag: 從未激活
 uuid: 4caeadbe-f4a7-43ce-986d-e99fa9ca0d0d
 contentOwner: 紹維亞
@@ -14,12 +12,12 @@ discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 配置事務性消息傳遞{#configuring-transactional-messaging}
+# 設定交易式訊息傳遞{#configuring-transactional-messaging}
 
 若要使用Adobe Campaign傳送交易訊息，您首先需要說明事件資料的結構。
 
@@ -63,7 +61,7 @@ source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 >[!NOTE]
 >
->如果您想要建立多語言交易訊息，請使用 **[!UICONTROL AC_language]** ID定義其他事件屬性。 這僅適用於事件事務性消息。 發佈事件後，編輯多語言交易訊息內容的步驟與編輯多語言標準電子郵件的步驟相同。 請參 [閱建立多語言電子郵件](../../channels/using/creating-a-multilingual-email.md)。
+>如果您想要建立多語言交易訊息，請使用 **[!UICONTROL AC_language]** ID定義其他事件屬性。 這僅適用於事件事務性消息。 發佈事件後，編輯多語言交易訊息內容的步驟與編輯多語言標準電子郵件的步驟相同。 See [Creating a multilingual email](../../channels/using/creating-a-multilingual-email.md).
 
 ## 定義資料集合 {#defining-data-collections}
 
@@ -160,7 +158,7 @@ source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 >
 >每次您修改事件時，必須再按一 **[!UICONTROL Publish]** 次，以產生網站開發人員將使用的更新REST API。
 
-發佈事件後，會自動建立連結至新事件的交易訊息。 要使此事件觸發發送事務性消息，您必須修改並發佈剛建立的消息。 請參 [閱事件交易訊息](../../channels/using/event-transactional-messages.md)。
+發佈事件後，會自動建立連結至新事件的交易訊息。 要使此事件觸發發送事務性消息，您必須修改並發佈剛建立的消息。 See [Event transactional messages](../../channels/using/event-transactional-messages.md).
 
 您可以直接從左側區域的連結存取建立的交易式訊息。
 

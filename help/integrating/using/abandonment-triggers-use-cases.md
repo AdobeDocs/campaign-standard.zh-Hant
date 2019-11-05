@@ -1,8 +1,6 @@
 ---
-title: 放棄觸發器使用案例
-seo-title: 放棄觸發器使用案例
-description: 放棄觸發器使用案例
-seo-description: 瞭解如何與這些不同的使用案例整合使用Experience Cloud Triggers。
+title: 廢棄觸發程式使用案例
+description: 瞭解如何與這些不同的使用案例整合使用Experience Cloud Triggers。
 page-status-flag: 從未激活
 uuid: 9e236165-afd5-4155-9151-c1941dc0af99
 contentOwner: 紹維亞
@@ -14,12 +12,12 @@ discoiquuid: 1b9aeec5-70bb-4d72-a3e9-12342abf08f7
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 放棄觸發器使用案例{#abandonment-triggers-use-cases}
+# 廢棄觸發程式使用案例{#abandonment-triggers-use-cases}
 
 本節介紹可使用Adobe Campaign與Experience cloud觸發器之間的整合來實施的不同使用案例。 您會找到兩個使用案例的範例：
 

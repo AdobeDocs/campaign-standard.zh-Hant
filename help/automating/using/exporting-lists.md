@@ -1,63 +1,61 @@
 ---
 title: 匯出清單
-seo-title: 匯出清單
-description: 匯出清單
-seo-description: 'Adobe Campaign可讓您將顯示為概述畫面中清單的資料直接匯出為檔案，以便日後使用。 '
-page-status-flag: 從未啓動
-uuid: c64Fe706-bd6 e-4746-958e-f97226 f4 e2 cb
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
+description: 'Adobe Campaign可讓您直接從檔案中匯出顯示為清單的資料，以供日後使用。 '
+page-status-flag: 從未激活
+uuid: c64fe706-bd6e-4746-958e-f94226f4e2cb
+contentOwner: 紹維亞
+products: SG_CAMPAIGN/STANDARD
 audience: 自動化
-content-type: reference
-topic-tags: 匯入-匯出資料
-discoiquuid: 12c874da-435f-44b6-a3 c8-873301e177 cc
+content-type: 參考
+topic-tags: 導入和導出資料
+discoiquuid: 12c874da-435f-44b6-a3c8-873301e177cc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 36727e82d3aa73add6116fa2916752ff0e407d9d
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Exporting lists{#exporting-lists}
+# 匯出清單{#exporting-lists}
 
-Adobe Campaign可讓您將清單直接匯出至檔案，以便日後使用。Exporting a list in a file generates a log entry in the **[!UICONTROL Export audits]** menu. For more information on export audits, refer to the [Auditing exports](../../administration/using/auditing-export-logs.md) section.
+Adobe Campaign可讓您直接將清單匯出至檔案中，以供日後使用。 導出檔案中的清單會生成菜單中的日誌 **[!UICONTROL Export audits]** 條目。 有關導出審計的詳細資訊，請參閱「審 [計導出](../../administration/using/auditing-export-logs.md) 」部分。
 
-The export list option allows you to export a maximum of 100,000 lines by default and defined by the **Nms_ExportListLimit** option. This option can be managed by the functional administrator, under the **[!UICONTROL Administration]** &gt; **[!UICONTROL Application settings]** &gt; **[!UICONTROL Options]** menu.
+導出清單選項允許預設情況下導出最多100,000行，並且由 **Nms_ExportListLimit選項定義** 。 此選項可由功能管理員管理，位於 **[!UICONTROL Administration]** &gt; **[!UICONTROL Application settings]** &gt;功 **[!UICONTROL Options]** 能表。
 
-Export list is available in all the screens that have a **List** mode view, for users with the **[!UICONTROL EXPORT (export)]** role.
+對於具有角色的用戶，所有具有「清單 **」模式** 視圖的螢幕都提供導出列 **[!UICONTROL EXPORT (export)]** 表。
 
-1. Go to your chosen **List** screen. For example, the test profile overview screen ( **[!UICONTROL Profiles & audiences]** &gt; **[!UICONTROL Test profiles]** ).
-1. Check that the screen is in **List** mode.
+1. 前往您選擇的 **清單** 。 例如，測試描述檔概述畫面( **[!UICONTROL Profiles & audiences]** &gt; **[!UICONTROL Test profiles]** )。
+1. 檢查螢幕是否處於列 **表模** 式。
 
    ![](assets/export_list_mode_switch.png)
 
-1. Organize the columns in the list in the order that you want to export them using the **[!UICONTROL Configure list]** button, in the top right corner. 除了設定的欄外，還將匯出資源的主要金鑰。
-1. 您可以視需要套用篩選。若要這麼做，請按一下左上角的按鈕以顯示搜尋窗格。
+1. 使用右上角的按鈕，依您要匯出的順序來組織清 **[!UICONTROL Configure list]** 單中的欄。 除了配置的列外，還將導出資源的主鍵。
+1. 如果您喜歡，可以套用篩選。 若要這麼做，請按一下左上角的按鈕以顯示搜尋窗格。
 
-   如果您從包含不同資源的清單進行匯出，您必須套用篩選器，如此才能在清單中只顯示一種資源類型。
+   如果您從包含不同資源的清單進行匯出，則必須套用篩選，如此清單中才會顯示一種資源類型。
 
-1. 如果您喜歡，請對選擇的欄進行排序。
-1. Select the export button ![](assets/exportlistbutton.png).
+1. 如果您喜歡，請對所選欄進行排序。
+1. 選擇導出按鈕 ![](assets/exportlistbutton.png)。
 
-   此時會出現彈出式視窗來確認匯出。在確認匯出後，檔案會自動下載至您的電腦。
+   隨即出現快顯視窗以確認匯出。 確認匯出後，檔案會自動下載至您的電腦。
 
-檔案是以CSV格式產生，除非匯出在iOS中執行，否則產生的檔案是採用TXT格式。它是根據匯出的資源和匯出日期命名。例如：名稱ProfileBase_20150426_120253.csv將會套用至2015年月26日下午12：02：53的描述檔匯出。它以UTF-8格式編碼。
+檔案會以CSV格式產生，除非匯出作業是在iOS中進行，在這種情況下，產生的檔案會以TXT格式產生。 它根據導出的資源和導出日期命名。 例如：名稱profileBase_20150426_120253.csv將套用至2015年4月26日12:02:53進行的描述檔匯出。 它以UTF-8格式編碼。
 
-數值和日期會考量執行匯出之使用者的當地時間(地區設定)。例如：DD-MM-YYYY或MM-DD-YYYY。
+數值和日期會考慮執行匯出的使用者的當地時間（地區）。 例如：DD-MM-YYYY或MM-DD-YYYY。
 
-若要執行比這更大的匯出作業，您必須建立專屬的工作流程。Refer to the [Extract file](../../automating/using/extract-file.md) section.
+要執行大於此值的導出，必須建立專用的工作流。 請參閱「解 [壓檔案](../../automating/using/extract-file.md) 」部分。
 
 **範例**
 
-下列範例是從下列描述檔清單中進行的匯出：
+以下示例是從以下定義的配置檔案清單中執行的導出：
 
-* 顯示欄(依順序排列)：姓氏、名字、生日日期、電子郵件地址。
-* 名稱依字母順序排序。
+* 顯示的列（按順序）:姓氏、名字、出生日期、電子郵件地址。
+* 名稱按字母順序排序。
 
 ![](assets/export_list_example1.png)
 
-產生的檔案會顯示如下(對於前10個記錄)：
+生成的檔案如下（前10條記錄）:
 
 ```
 Last name;First name;Birth date;Email;Zip code

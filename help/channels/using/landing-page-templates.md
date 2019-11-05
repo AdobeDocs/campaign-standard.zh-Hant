@@ -1,8 +1,6 @@
 ---
 title: 著陸頁面範本
-seo-title: 著陸頁面範本
-description: 著陸頁面範本
-seo-description: 進一步瞭解登陸頁面範本。
+description: 進一步瞭解登陸頁面範本。
 page-status-flag: 從未激活
 uuid: b316bf47-7d98-46fa-ab4f-67ff50de8095
 contentOwner: 勒梅特
@@ -15,12 +13,12 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9cdfafad7a2ac2db59b037962a84aa03568a55e6
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 關於著陸頁面範本 {#landing-page-templates}
+# 關於登錄頁面範本 {#landing-page-templates}
 
 Campaign隨附一組內建的登陸頁面範本：
 

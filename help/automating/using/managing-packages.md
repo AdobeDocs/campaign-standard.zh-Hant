@@ -1,8 +1,6 @@
 ---
-title: 管理包
-seo-title: 管理包
-description: 管理包
-seo-description: 管理員可以定義套件，以透過結構化XML檔案在不同Adobe Campaign實例之間交換資源。
+title: 管理套件
+description: 管理員可以定義套件，以透過結構化XML檔案在不同Adobe Campaign實例之間交換資源。
 page-status-flag: 從未激活
 uuid: d041f549-bfc5-4e6b-87bf-a63c7c224bca
 contentOwner: 紹維亞
@@ -15,12 +13,12 @@ context-tags: packageDef,overview;packageInstall,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 管理包{#managing-packages}
+# 管理套件{#managing-packages}
 
 管理員可以定義套件，以透過結構化XML檔案在不同Adobe Campaign實例之間交換資源。 這些參數可以是配置參數或資料。
 

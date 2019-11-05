@@ -1,8 +1,6 @@
 ---
 title: 定義直接郵件內容
-seo-title: 定義直接郵件內容
-description: 定義直接郵件內容
-seo-description: 瞭解如何定義直接郵件傳送的內容。
+description: 瞭解如何定義直接郵件傳送的內容。
 page-status-flag: 從未激活
 uuid: c1234c06-4d22-46d7-ad1b-3c88660f9b06
 contentOwner: 紹維亞
@@ -15,7 +13,7 @@ context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 781904d58f520987e978ad5d1cdc9e34871ca876
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 

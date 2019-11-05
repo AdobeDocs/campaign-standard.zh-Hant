@@ -1,8 +1,6 @@
 ---
 title: 「工作流程使用案例：建立每週傳送」
-seo-title: 「工作流程使用案例：建立每週傳送」
 description: 「工作流程使用案例：建立每週傳送」
-seo-description: 「工作流程使用案例：建立每週傳送」
 page-status-flag: 從未激活
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: 紹維亞
@@ -15,7 +13,7 @@ context-tags: 工作流，用例，查詢，傳送，調度程式
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4a38b1f3d7d6dbf12fa71c819147bf2d91acb0c4
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 

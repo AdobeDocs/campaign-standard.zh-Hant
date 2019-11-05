@@ -1,75 +1,73 @@
 ---
-title: 匯出記錄檔
-seo-title: 匯出記錄檔
-description: 匯出記錄檔
-seo-description: 記錄資料(不論是與傳送或訂閱相關)都可以透過簡單的工作流程匯出。
-page-status-flag: 從未啓動
-uuid: 954e919c-0a33-47c3-9a3c-63c7a2a4edic4
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
+title: 匯出日誌
+description: 記錄資料，不論是與傳送或訂閱相關，都可透過簡單的工作流程匯出。
+page-status-flag: 從未激活
+uuid: 954e919c-0a33-47c3-9a3c-63c7a2a4edc4
+contentOwner: 紹維亞
+products: SG_CAMPAIGN/STANDARD
 audience: 自動化
-content-type: reference
-topic-tags: 匯入-匯出資料
-discoiquuid: ca8a95d8-523f-4085-a2 fc-e1 d8262 cfbae
+content-type: 參考
+topic-tags: 導入和導出資料
+discoiquuid: ca8a95d8-523f-4085-a2fc-e1d8262cfbae
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 36727e82d3aa73add6116fa2916752ff0e407d9d
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Exporting logs{#exporting-logs}
+# 匯出日誌{#exporting-logs}
 
-記錄資料(不論是與傳送或訂閱相關)都可以透過簡單的工作流程匯出。它可讓您在自己的報表或BI工具中分析促銷活動的結果。
+記錄資料，不論是與傳送或訂閱相關，都可透過簡單的工作流程匯出。 它可讓您在自己的報表或BI工具中分析促銷活動的結果。
 
-By using an **[!UICONTROL Incremental query]** that only retrieves new logs every time the workflow is executed and a simple **[!UICONTROL Extract file]** activity to define the output columns, you can get a file with the format and all the data you need. Then use a **[!UICONTROL Transfer file]** activity to retrieve the final file. Each workflow execution is planned by a **[!UICONTROL Scheduler]**.
+使用只 **[!UICONTROL Incremental query]** 在每次執行工作流時檢索新日誌和用簡單活動來定義輸出列的 **[!UICONTROL Extract file]** 檔案，可以獲得格式和所需的所有資料的檔案。 然後使用活 **[!UICONTROL Transfer file]** 動來擷取最終檔案。 每個工作流執行都由計畫 **[!UICONTROL Scheduler]**。
 
-匯出記錄作業可由標準使用者執行。Private resources such as: broadlogs, tracking logs, exclusion logs subscription logs and subscription history logs on **Profiles** can only be managed by functional administrator.
+出口日誌操作可由標準用戶執行。 私人資源，例如：profiles上的broadlogs、追蹤記錄、排除記錄訂閱記錄和訂閱記 **錄記錄** ，只能由功能管理員管理。
 
-1. Create a new workflow as detailed in [this section](../../automating/using/building-a-workflow.md#creating-a-workflow).
-1. Add a **[!UICONTROL Scheduler]** activity and set it according to your needs. 以下是每月執行的範例。
+1. 建立新的工作流程，如本節 [所述](../../automating/using/building-a-workflow.md#creating-a-workflow)。
+1. 新增活 **[!UICONTROL Scheduler]** 動並根據您的需求加以設定。 以下是每月執行的範例。
 
    ![](assets/export_logs_scheduler.png)
 
-1. Add an **[!UICONTROL Incremental query]** activity and configure it so that it selects the logs you need. 例如，若要選取所有新的或更新的群組(描述檔傳送記錄檔)：
+1. 新增活 **[!UICONTROL Incremental query]** 動並加以設定，以便選擇您需要的記錄檔。 例如，要選擇所有新的或更新的廣播（配置檔案交付日誌）:
 
-   * **[!UICONTROL Properties]** 在標籤中，將目標資源變更為 **「傳送記錄檔」** (BroadlogRCP)。
+   * 在標籤 **[!UICONTROL Properties]** 中，將目標資源變更為 **傳送記錄** (broadLogRcp)。
 
       ![](assets/export_logs_query_properties.png)
 
-   * **[!UICONTROL Target]** 在標籤中，設定條件來擷取所有對應於2016年或之後傳送之傳送的傳送記錄檔。For more information, refer to the [Editing queries](../../automating/using/editing-queries.md#creating-queries) section.
+   * 在標籤 **[!UICONTROL Target]** 中，設定條件以擷取與2016年或之後傳送之傳送相對應的所有傳送記錄。 如需詳細資訊，請參閱「編 [輯查詢](../../automating/using/editing-queries.md#creating-queries) 」一節。
 
       ![](assets/export_logs_query_target.png)
 
-   * In the **[!UICONTROL Processed data]** tab, select **[!UICONTROL Use a date field]** and choose the **lastModified** field. 在工作流程的下一個執行階段中，只會擷取將在最後一次執行後修改或建立的記錄檔。
+   * 在標籤中 **[!UICONTROL Processed data]** ，選擇並 **[!UICONTROL Use a date field]** 選擇最後修 **改的欄位** 。 在工作流的下一個執行中，將只檢索在上次執行後將修改或建立的日誌。
 
       ![](assets/export_logs_query_processeddata.png)
 
-      第一次執行工作流程後，您可以在此標籤中看到上次執行的執行日期。每次執行工作流程時都會自動更新它。您仍有可能透過手動輸入新值來覆蓋此值，使其符合您的需求。
+      在第一次執行工作流程後，您可以在此標籤中看到下次執行時使用的最後一個執行日期。 每次執行工作流程時，都會自動更新它。 您仍然可以手動輸入新值來覆寫此值，以符合您的需求。
 
-1. Add an **[!UICONTROL Extract file]** activity that will export the queried data in a file:
+1. 新增將 **[!UICONTROL Extract file]** 匯出檔案中查詢資料的活動：
 
-   * In the **[!UICONTROL Extraction]** tab, specify the name of the file. 此名稱會自動填入匯出日期，以確保所有擷取的檔案都是唯一的。
+   * 在標 **[!UICONTROL Extraction]** 簽中，指定檔案名稱。 此名稱將自動填入匯出日期，以確保所有解壓縮的檔案都是唯一的。
 
-      選取您要在檔案中匯出的欄。您可以在此處選取來自相關資源的資料，例如傳送或描述檔資訊。若要組織最終檔案，您可以套用排序。例如記錄日期上的範例，如下方範例所示。
+      選擇要在檔案中導出的列。 您可以選取來自相關資源（例如傳送或描述檔資訊）的資料。 要組織最終檔案，可以應用排序。 例如，在記錄日期，如下例所示。
 
       ![](assets/export_logs_extractfile_extraction.png)
 
       >[!NOTE]
       >
-      >無法匯出記錄資源的唯一識別碼(主鍵)。
+      >無法導出日誌資源的唯一標識符（主鍵）。
 
-   * **[!UICONTROL File structure]** 在標籤中，定義輸出檔案格式以符合您的需求。
+   * 在標籤 **[!UICONTROL File structure]** 中，定義輸出檔案的格式以符合您的需求。
 
-      Check the **[!UICONTROL Export labels instead of internal values of enumerations]** option in case you export enumeration values. 此選項可擷取較短的標籤，而不需使用ID而易於瞭解。
+      勾選選 **[!UICONTROL Export labels instead of internal values of enumerations]** 選項，以備您匯出列舉值時使用。 此選項可讓您擷取較短的標籤，這些標籤很容易理解，而非ID。
 
-1. Add a **[!UICONTROL Transfer file]** activity and configure it to transfer the newly created file from the Adobe Campaign server to another location where you can access it, such as a SFTP server.
+1. 新增活 **[!UICONTROL Transfer file]** 動並設定它，將新建立的檔案從Adobe Campaign伺服器傳輸至您可存取的其他位置，例如SFTP伺服器。
 
-   * In the **[!UICONTROL General]** tab, select **[!UICONTROL File upload]** as the purpose is to send the file from Adobe Campaign to another server.
-   * **[!UICONTROL Protocol]** 在標籤中，指定轉移參數並選取要使用的 [外部帳戶](../../administration/using/external-accounts.md#creating-an-external-account) 。
+   * 在標籤 **[!UICONTROL General]** 中，選 **[!UICONTROL File upload]** 擇目的是將檔案從Adobe Campaign傳送至其他伺服器。
+   * 在標籤 **[!UICONTROL Protocol]** 中，指定傳輸參數並選擇要 [使用的外部](../../administration/using/external-accounts.md#creating-an-external-account) 帳戶。
 
-1. Add an **[!UICONTROL End]** activity to make sure it properly ends and save your workflow.
+1. 新增活 **[!UICONTROL End]** 動，以確保活動正常結束並儲存您的工作流程。
 
    ![](assets/export_logs_example_workflow.png)
 

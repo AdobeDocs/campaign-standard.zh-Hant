@@ -1,8 +1,6 @@
 ---
-title: 發現通訊頻道
-seo-title: 發現通訊頻道
-description: 發現通訊頻道
-seo-description: 瞭解如何在各種通道上傳送個人化訊息，並建立跨通道宣傳，以更好地鎖定收件者。
+title: 探索通訊通道
+description: 瞭解如何在各種通道上傳送個人化訊息，並建立跨通道宣傳，以更好地鎖定收件者。
 page-status-flag: 從未激活
 uuid: 5d61d8df-8256-4f28-8dd3-e791891e312f
 contentOwner: 紹維亞
@@ -14,12 +12,12 @@ discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 96001355220a9dd0cd3851d3f7de9f4dc8ea2782
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 發現通訊頻道{#discovering-communication-channels}
+# 探索通訊通道{#discovering-communication-channels}
 
 Adobe Campaign可讓您建立並傳送個人化訊息至各種通道，並透過專屬報告評估其成效。
 

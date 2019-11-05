@@ -1,8 +1,6 @@
 ---
-title: 新增Target動態內容
-seo-title: 新增Target動態內容
-description: 新增Target動態內容
-seo-description: 瞭解如何將Adobe target動態內容新增至您的Adobe Campaign傳遞內容。
+title: 新增 Target 動態內容
+description: 瞭解如何將Adobe target動態內容新增至您的Adobe Campaign傳遞內容。
 page-status-flag: 從未激活
 uuid: b3cc045f-7924-480e-8c61-8246510f3adb
 contentOwner: 紹維亞
@@ -14,12 +12,12 @@ discoiquuid: 45ddf7b7-98f7-4fdd-bb4a-49ec8490e877
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 新增Target動態內容{#adding-target-dynamic-content}
+# 新增 Target 動態內容{#adding-target-dynamic-content}
 
 透過Adobe target整合，動態影像可以新增至傳送中，以根據體驗個人化您的內容。
 

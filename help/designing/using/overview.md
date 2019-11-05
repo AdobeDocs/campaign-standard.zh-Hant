@@ -1,8 +1,6 @@
 ---
 title: 使用電子郵件設計工具
-seo-title: 使用電子郵件設計工具
-description: 使用電子郵件設計工具
-seo-description: 瞭解電子郵件設計人員，以及如何啟用電子郵件設計內容。
+description: 瞭解電子郵件設計人員，以及如何啟用電子郵件設計內容。
 page-status-flag: 從未激活
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: 紹維亞
@@ -14,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 

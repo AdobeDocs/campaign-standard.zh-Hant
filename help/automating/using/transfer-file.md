@@ -1,21 +1,19 @@
 ---
 title: 傳輸檔案
-seo-title: 傳輸檔案
-description: 傳輸檔案
-seo-description: 轉讓檔案活動可讓您接收或傳送檔案、測試是否存在檔案，或在Adobe Campaign中列出檔案。
-page-status-flag: 從未啓動
-uuid: a2f18118-b681-4310-aee0-1e82179 d2032
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
+description: 「傳輸檔案」活動可讓您接收或傳送檔案、測試是否有檔案存在，或列出Adobe Campaign中的檔案。
+page-status-flag: 從未激活
+uuid: a2f18118-b681-4310-aee0-9e82179d2032
+contentOwner: 紹維亞
+products: SG_CAMPAIGN/STANDARD
 audience: 自動化
-content-type: reference
+content-type: 參考
 topic-tags: 資料管理活動
-discoiquuid: 752f2aed-f897-485e-b329-f3 cc1756 ee8 e
-context-tags: FileTransfer，主要
+discoiquuid: 752f2aed-f897-485e-b329-f3cc1756ee8e
+context-tags: fileTransfer,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4fe36a1747aca69e8857cf415593086781947a47
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -26,45 +24,45 @@ source-git-commit: 4fe36a1747aca69e8857cf415593086781947a47
 
 ![](assets/file_transfer.png)
 
-**[!UICONTROL Transfer file]** 活動可讓您接收或傳送檔案、測試是否存在檔案，或在Adobe Campaign中列出檔案。
+此活 **[!UICONTROL Transfer file]** 動可讓您接收或傳送檔案、測試Adobe Campaign中是否有檔案或列出檔案。
 
 ## 使用內容 {#context-of-use}
 
-在設定活動時，定義擷取資料的方式。要載入的檔案可能是連絡人清單。
+設定活動時，會定義資料擷取的方式。 例如，要載入的檔案可以是聯繫人清單。
 
-您可以使用此活動來復原隨後將與 **[!UICONTROL Load file]** 活動結構化的資料。
+您可以使用此活動來恢復隨後將與活動一起構建的 **[!UICONTROL Load file]** 資料。
 
-## 組態配置 {#configuration}
+## 配置 {#configuration}
 
-1. 將 **[!UICONTROL Transfer file]** 活動拖放到工作流程中。
-1. 選取活動，然後使用顯示的快速動作 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啓。
-1. 使用 **[!UICONTROL Action]** 欄位中的下拉式清單，選取下列其中一個活動動作：
+1. 將活動 **[!UICONTROL Transfer file]** 拖放至工作流程中。
+1. 選擇活動，然後使用顯示的快 ![](assets/edit_darkgrey-24px.png) 速操作中的按鈕將其開啟。
+1. 使用欄位中的下拉式清 **[!UICONTROL Action]** 單，選取下列活動動作之一：
 
    ![](assets/wkf_file_transfer_01.png)
 
-   * **檔案下載**：可供您下載檔案。
-   * **檔案上傳**：可讓您上傳檔案。從Adobe Campaign檔案上傳檔案時，會在 **[!UICONTROL Export audits]** 功能表中產生記錄項目。如需匯出稽核的詳細資訊，請參閱 [「稽核匯出](../../administration/using/auditing-export-logs.md) 」區段。
-   * **測試以查看檔案是否存在**：可讓您檢查是否有檔案。
-   * **檔案清單**：可讓您列出Adobe Campaign中顯示的檔案。
-   根據選取的動作，可使用一或多個通訊協定：
+   * **檔案下載**:可讓您下載檔案。
+   * **檔案上傳**:可讓您上傳檔案。 從Adobe Campaign檔案上傳檔案會在功能表中產生記錄 **[!UICONTROL Export audits]** 項。 有關導出審計的詳細資訊，請參閱「審 [計導出](../../administration/using/auditing-export-logs.md) 」部分。
+   * **測試以查看檔案是否存在**:允許您檢查是否存在檔案。
+   * **檔案清單**:可讓您列出Adobe Campaign中的檔案。
+   根據所選操作，可使用一或多種協定：
 
-   * **HTTP**：此通訊協定可讓您從外部帳戶或從URL開始下載檔案。
+   * **HTTP**:此通訊協定可讓您從外部帳戶或URL開始下載檔案。
 
-      * 按一下 **[!UICONTROL Use connection parameters defined in an external account]** 選項，然後選取您要的帳戶，並指定要下載的檔案路徑。
+      * 按一 **[!UICONTROL Use connection parameters defined in an external account]** 下選項，然後選取您要的帳戶並指定要下載的檔案路徑。
 
          ![](assets/wkf_file_transfer_03.png)
 
-      * 按一下 **[!UICONTROL Quick configuration]** 選項，然後在顯示的欄位中輸入URL。
+      * 按一 **[!UICONTROL Quick configuration]** 下選項，然後在顯示的欄位中輸入URL。
 
          ![](assets/wkf_file_transfer_04.png)
-   * **S3**：此通訊協定可讓您從URL或Amazon Simple Storage Service(S3)開始從URL或外部帳戶下載檔案。
+   * **S3**:此協定允許您通過Amazon Simple Storage Service(S3)從URL或外部帳戶開始下載檔案。
 
-      * 選取外部帳戶，並指定要下載的檔案路徑。
+      * 選取外部帳戶並指定要下載的檔案路徑。
 
          ![](assets/wkf_file_transfer_08.png)
-   * **SFTP**：此通訊協定可讓您從URL或外部帳戶開始下載檔案。
+   * **SFTP**:此通訊協定可讓您開始從URL或外部帳戶下載檔案。
 
-      * 按一下 **[!UICONTROL Use connection parameters defined in an external account]** 選項，然後選取您要的帳戶，並指定要下載的檔案路徑。
+      * 按一 **[!UICONTROL Use connection parameters defined in an external account]** 下選項，然後選取您要的帳戶並指定要下載的檔案路徑。
 
          ![](assets/wkf_file_transfer_07.png)
 
@@ -72,64 +70,64 @@ source-git-commit: 4fe36a1747aca69e8857cf415593086781947a47
          >
          >支援萬用字元。
 
-      * 按一下 **[!UICONTROL Quick configuration]** 選項，然後在顯示的欄位中輸入URL。
-      * 如果您想要對匯入的檔案進行排序，請從 **[!UICONTROL Sort alphanumerically]****[!UICONTROL Additional options]** 區段中選取選項。然後會以循序順序處理檔案。
+      * 按一 **[!UICONTROL Quick configuration]** 下選項，然後在顯示的欄位中輸入URL。
+      * 如果要對導入的檔案進行排序，請從部分 **[!UICONTROL Sort alphanumerically]** 中選擇選 **[!UICONTROL Additional options]** 項。 然後會依循序處理檔案。
 
          ![](assets/wkf_file_transfer_sort.png)
-   * **Adobe Campaign伺服器上的檔案**：此通訊協定對應至包含檔案的儲存庫。
+   * **Adobe Campaign伺服器上的檔案**:此協定與包含要恢復的檔案的儲存庫相對應。
 
-      Metacharacters或萬用字元(例如*或？)可用來篩選檔案。
+      元字元或萬用字元（例如*或？）可用來篩選檔案。
 
-      填寫此欄位並確認您的活動使用此通訊協定。
+      填寫此欄位並確認您使用此通訊協定的活動。
 
       >[!NOTE]
       >
-      >路徑必須與Adobe Campaign伺服器的儲存空間目錄相相對。檔案位於 **sftp&lt; yourri cename&gt;/** 目錄中。您也無法瀏覽儲存空間上方的目錄。例如： **user&lt; youroft cename&gt;/my_ receivers. csv** 正確。**../hello/my_recipients.csv** 不正確。**//myserver/hello/myrecipients.csv** 不正確。
-   選取您的通訊協定並完成相關欄位。
+      >路徑必須相對於Adobe Campaign伺服器的儲存空間目錄。 檔案位於 **sftp&lt;yourinstancename&gt;/目錄** 。 您也無法瀏覽儲存空間上方的目錄。 例如： **user&lt;yourinstancename&gt;/my_recipients.csv** is correct. **../hello/my_recipients.csv不正確** 。 **//myserver/hello/myrecipients.csv不正確** 。
+   選擇您的通訊協定並填妥相關欄位。
 
-   **[!UICONTROL Use a dynamic file path]** 每個通訊協定可用的選項可讓您使用標準運算式和事件變數，將檔案的名稱個人化。如需詳細資訊，請參閱「使用事件變數 [自訂活動」](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables) 。
+   每個 **[!UICONTROL Use a dynamic file path]** 通訊協定都提供此選項，可讓您使用標準運算式和事件變數來個人化要傳輸的檔案名稱。 如需詳細資訊，請參閱「使用事件變 [數自訂活動](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables) 」一節。
 
-1. **[!UICONTROL Additional options]** 區段(視選取的通訊協定而定)可讓您新增參數至通訊協定。您可以：
+1. 該 **[!UICONTROL Additional options]** 部分根據所選協定而提供，允許您向協定添加參數。 您可以：
 
    * **[!UICONTROL Delete the source files after transfer]**
    * **[!UICONTROL Disable passive mode]**
-   * **[!UICONTROL List all files]**：選取 **[!UICONTROL File listing]** 動作時可使用此選項。它可讓您索引 **vars. filenames** 事件變數中伺服器上顯示的所有檔案，其中檔案名稱由 **'n'** 字元分隔。
+   * **[!UICONTROL List all files]**:此選項在選擇操作時可 **[!UICONTROL File listing]** 用。 它可讓您為 **vars.filenames** event變數中伺服器上所有檔案建立索引，其中檔案名稱以' **n'字元分隔** 。
 
-1. 此標籤 **[!UICONTROL If no files are found]** 的區段 **[!UICONTROL Advanced options]** 可讓您設定當活動啓動時偵測到任何錯誤或不存在的檔案時的特定動作。
+1. 該選 **[!UICONTROL If no files are found]** 項卡的 **[!UICONTROL Advanced options]** 部分允許您在活動啟動時檢測到任何錯誤或不存在的檔案時配置特定操作。
 
-   您也可以定義重試。不同重試會出現在工作流程執行記錄檔中。
+   您也可以定義重試次數。 不同的重試次數會出現在工作流程執行記錄中。
 
    ![](assets/wkf_file_transfer_09.png)
 
 1. 確認活動的設定並儲存工作流程。
 
-## 歷史設定 {#historization-settings}
+## 歷史化設定 {#historization-settings}
 
-每次執行 **[!UICONTROL Transfer file]** 活動時，都會將上傳或下載的檔案儲存在專屬資料夾中。為工作流程的每 **[!UICONTROL Transfer file]** 個活動建立一個資料夾。因此，必須能夠限制此資料夾的大小，以保留伺服器上的實體空間。
+每次執行活 **[!UICONTROL Transfer file]** 動時，都會將已上傳或已下載的檔案儲存在專用的資料夾中。 系統會為工作流的每個活 **[!UICONTROL Transfer file]** 動建立一個資料夾。 因此，必須能夠限制此資料夾的大小，以便保留伺服器上的物理空間。
 
-若要這麼做，您可以在 **[!UICONTROL Historization settings]** 活動中 **[!UICONTROL Advanced options]****[!UICONTROL Transfer File]** 定義。
+若要這麼做，您可在活 **[!UICONTROL Historization settings]** 動中 **[!UICONTROL Advanced options]** 定義 **[!UICONTROL Transfer File]** 。
 
-**[!UICONTROL Historization settings]** 允許定義活動資料夾的檔案數目上限或總大小。根據預設，已授權100個檔案和50MB。
+**[!UICONTROL Historization settings]** 允許定義活動資料夾的最大檔案數或總大小。 依預設，授權100個檔案和50 MB。
 
-每次執行活動時，都會檢查資料夾如下：
+每次執行活動時，都會檢查資料夾，如下所示：
 
-* 只有已建立超過24小時的檔案才會納入考量。
-* 如果考量的檔案數目大於 **[!UICONTROL Maximum number of files]** 參數值，會刪除最舊的檔案，直到達到 **[!UICONTROL Maximum number of files]** 允許的檔案為止。
-* 如果納入的檔案大小大於 **[!UICONTROL Maximum size (in MB)]** 參數值，則會刪除最舊的檔案，直到達到 **[!UICONTROL Maximum size (in MB)]** 允許的大小為止。
+* 只考慮在活動執行前24小時以上建立的檔案。
+* 如果考慮的檔案數大於參數的值，則刪除最舊的文 **[!UICONTROL Maximum number of files]** 件，直到達到允許 **[!UICONTROL Maximum number of files]** 的值為止。
+* 如果考慮的檔案總大小大於參數值，則會刪除最舊的檔案，直到達到允許 **[!UICONTROL Maximum size (in MB)]****[!UICONTROL Maximum size (in MB)]** 的值為止。
 
 >[!NOTE]
-如果未再次執行活動，則不會檢查資料夾或清除資料夾。記住這一點，請小心傳輸大型檔案。
+如果活動未再次執行，則不會檢查或清除其資料夾。 有了這一點，在傳輸大型檔案時請務必小心。
 
-## 範例 {#example}
+## Example {#example}
 
-下列範例顯示 **檔案傳輸** 活動的設定，隨後 **接著接著載入檔案** 活動， **然後更新資料** 活動。此工作流程的目標是新增或更新Adobe Campaign資料庫設定檔與工作流程所復原的資料。
+以下示例顯示檔案傳輸活 **動的配置** ，該活動隨後將依次是 **Load file** activity和 **Update data** activity。 此工作流程的目標是新增或更新Adobe Campaign資料庫設定檔，並使用工作流程所復原的資料。
 
-1. 將 **移轉檔案** 活動拖放至工作流程中。
-1. 選取活動，然後使用顯示的快速動作 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啓。
-1. 在 **[!UICONTROL Protocol]** 標籤中，選取 **SFTP**。
-1. 選取 **在外部帳戶** 選項中定義的「使用連線參數」。
+1. 將「傳輸」檔 **案活動拖放** 至您的工作流程。
+1. 選擇活動，然後使用顯示的快 ![](assets/edit_darkgrey-24px.png) 速操作中的按鈕將其開啟。
+1. 在標籤 **[!UICONTROL Protocol]** 中，選擇 **SFTP**。
+1. 選擇「使 **用在外部帳戶中定義的連接參數** 」選項。
 1. 輸入外部帳戶的名稱。
-1. 在遠端伺服器上輸入 **檔案路徑**。
+1. 輸入遠程 **伺服器上的檔案路徑**。
 
    ![](assets/wkf_file_transfer_07.png)
 

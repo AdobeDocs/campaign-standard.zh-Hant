@@ -1,63 +1,61 @@
 ---
 title: 控制規則
-seo-title: 控制規則
-description: 控制規則
-seo-description: 瞭解如何使用控制規則加強訊息的品質檢查。
-page-status-flag: 從未啓動
-uuid: 33a1c90c-534e-4Fe1-982c-f4 e1858 d4 d2 d
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
+description: 瞭解如何使用控制規則來強化訊息的品質檢查。
+page-status-flag: 從未激活
+uuid: 33a1c90c-534e-4fe1-982c-f4e1858d4d2d
+contentOwner: 紹維亞
+products: SG_CAMPAIGN/STANDARD
 audience: 管理
-content-type: reference
-topic-tags: 使用typology規則
-discoiquuid: 305adde-6424-4c6f-b11 b-1b-1e8 bdnow6 ef1
+content-type: 參考
+topic-tags: 使用類型學規則
+discoiquuid: 305cade-6424-4c6f-b11b-1e8bdbad6ef1
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5e5532c0769fe33016eaee994bdaae9c70a7eaa5
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Control rules{#control-rules}
+# 控制規則{#control-rules}
 
-控制規則可讓使用者在傳送訊息之前檢查其有效性和品質，例如字元顯示、SMS訊息大小、地址格式等。
+控制規則允許用戶在發送消息之前檢查消息的有效性和質量，如字元顯示、SMS消息大小、地址格式等。
 
-Adobe Campaign提供的一組預設規則可確保標準控制項：
+Adobe Campaign中提供的一組預設規則可確保標準控制項：
 
-* **[!UICONTROL Check subject]** (電子郵件)：檢查主旨和傳送者地址不包含特殊字元，這些字元可能會導致某些郵件傳輸代理程式發生問題，並檢查訊息主體是否已完成。
-* **[!UICONTROL Check URL labels]** (電子郵件)：檢查每個追蹤URL是否有標籤。
-* **[!UICONTROL Check URLs]** (電子郵件)：檢查追蹤URL(「&amp;」字元的存在)。
-* **[!UICONTROL Check proof size]** (所有通道)：產生錯誤訊息，如果校對目標人口超過100位收件者。
-* **檢查取消訂閱連結** (電子郵件)：檢查每個內容中至少有一個取消訂閱(選擇退出) URL(HTML和文字)。
-* **[!UICONTROL Check delivery size]** (所有通道)：檢查訊息大小。
-* **[!UICONTROL Check social network sharing link]** (電子郵件)：檢查在內容中加入社交網路分享連結(VirallLinks)時，鏡像頁面的連結是否存在。
-* **[!UICONTROL A/B Test]**：透過A/B測試擷取測試人口的測試人口。
+* **[!UICONTROL Check subject]** （電子郵件）:檢查主題和發件人地址是否不包含某些郵件傳輸代理上可能出現問題的特殊字元，並檢查郵件主題是否已完成。
+* **[!UICONTROL Check URL labels]** （電子郵件）:檢查每個追蹤URL是否有標籤。
+* **[!UICONTROL Check URLs]** （電子郵件）:檢查追蹤URL（存在"&amp;"字元）。
+* **[!UICONTROL Check proof size]** （所有頻道）:如果校對目標人口超過100個收件者，則會產生錯誤訊息。
+* **勾選取消訂閱連結** （電子郵件）:檢查每個內容（HTML和文字）中是否至少有一個未訂閱（選擇退出）URL。
+* **[!UICONTROL Check delivery size]** （所有頻道）:檢查消息的大小。
+* **[!UICONTROL Check social network sharing link]** （電子郵件）:在內容中包含社交網路共用連結(ViralLinks)時，會檢查鏡像頁面的連結是否存在。
+* **[!UICONTROL A/B Test]**:透過A/B測試擷取要傳送的測試人口族群。
 
-您可以選擇規則將從傳送生命週期的某個階段套用的時機。Select the value to apply in the drop-down list from the **[!UICONTROL Phase]** field of the typology rule.
+您可以從交貨生命週期的其中一個階段中選擇應用規則的時間。 從排版規則欄位中，選取要套用在下拉式清 **[!UICONTROL Phase]** 單中的值。
 
 ![](assets/typology_phase.png)
 
-可能的值為：
+可能的值包括：
 
-* **在目標鎖定之時**
+* **定位開始時**
 
-   控制規則可套用至此階段，因此不會在發生錯誤時執行個人化步驟。
+   該控制規則可在此階段應用，以便在發生錯誤時不執行個人化步驟。
 
 * **定位後**
 
-   如果您需要知道目標的音量以套用控制規則，請選取此階段。
+   如果您需要知道目標的卷才能應用控制規則，請選擇此階段。
 
-   For example, the **Check proof size** control rule applies after the targeting stage: this rule prevents the preparation of message personalization if there are too many proof recipients.
+   例如，「檢查 **校樣大小** 」控制規則適用於定位階段後：如果有太多的證明收件者，此規則會防止準備訊息個人化。
 
-* **在個人化之時**
+* **個人化開始時**
 
-   如果檢查核准訊息個人化，必須選取此階段。訊息個人化是在分析階段進行。
+   如果檢查涉及批准消息個性化，則必須選擇此階段。 在分析階段中執行消息個性化。
 
 * **分析結束時**
 
-   當檢查要求訊息個人化完成時，請選取這個階段。
+   當檢查要求消息個性化完成時，請選擇此階段。
 
 >[!NOTE]
 >
->基於安全理由，無法修改控制規則的內容。**[!UICONTROL Code]** 欄位為唯讀。
+>出於安全原因，無法修改控制規則的內容。 該 **[!UICONTROL Code]** 欄位為只讀。

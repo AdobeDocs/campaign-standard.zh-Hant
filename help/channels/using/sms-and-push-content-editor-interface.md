@@ -1,8 +1,6 @@
 ---
-title: SMS和推播內容編輯器介面
-seo-title: SMS和推播內容編輯器介面
-description: SMS和推播內容編輯器介面
-seo-description: 瞭解如何使用編輯器的不同章節來修改您的SMS和推播內容。
+title: SMS 和推播內容編輯器介面
+description: 瞭解如何使用編輯器的不同章節來修改您的SMS和推播內容。
 page-status-flag: 從未激活
 uuid: 4af5d247-555b-45c5-95a7-cb27f356b5a0
 contentOwner: 紹維亞
@@ -15,12 +13,12 @@ context-tags: 傳送，sms內容，返回
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# SMS和推播內容編輯器介面{#sms-and-push-content-editor-interface}
+# SMS 和推播內容編輯器介面{#sms-and-push-content-editor-interface}
 
 SMS和推播內容編輯器會組織成兩個不同的區段，讓您檢視和編輯訊息。
 
@@ -75,7 +73,7 @@ SMS和推播內容編輯器會組織成兩個不同的區段，讓您檢視和�
    <td> <img height="21px" src="assets/dynamiccontent_24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">啟用動態文字</span><br /> </td> 
    <td> 簡訊與推播<br /> </td> 
-   <td> 可讓您在內容中插入動態文字。 請參 <a href="../../channels/using/defining-dynamic-text.md" target="_blank">閱定義動態文字</a>。<br /> </td> 
+   <td> 可讓您在內容中插入動態文字。 See <a href="../../channels/using/defining-dynamic-text.md" target="_blank">Defining dynamic text</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/dynamiccontentdisable_24px.png" /> <br /> </td> 

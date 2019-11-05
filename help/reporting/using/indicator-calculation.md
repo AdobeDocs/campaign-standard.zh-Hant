@@ -1,29 +1,27 @@
 ---
-title: 指標計算
-seo-title: 指標計算
-description: 指標計算
-seo-description: 使用每個度量公式的清單來瞭解報表的結果。
-page-status-flag: 從未啓動
-uuid: dfbc9d7e-62db-4e77-bb8 e-0ac826 ec7333
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
-audience: 報告功能
-content-type: reference
-topic-tags: 關於報表
-discoiquuid: 45b11631-6b 32-4074-c8 d-afd06407810
+title: 指示器計算
+description: 透過每個量度公式的清單，瞭解報表的結果。
+page-status-flag: 從未激活
+uuid: dfbc9d7e-62db-4e77-bb8e-0ac826ec7333
+contentOwner: 紹維亞
+products: SG_CAMPAIGN/STANDARD
+audience: 報告
+content-type: 參考
+topic-tags: about-reporting
+discoiquuid: 45b11631-6b32-4074-8c8d-affd06407810
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Indicator calculation{#indicator-calculation}
+# 指示器計算{#indicator-calculation}
 
-下表提供不同報表中使用的指示符清單，以及依傳送類型而定的計算公式。
+下表提供不同報表中使用的指標清單及其計算公式，視傳送類型而定。
 
-## Email delivery {#email-delivery}
+## 電子郵件傳送 {#email-delivery}
 
 <table> 
  <thead> 
@@ -36,31 +34,31 @@ source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
  </thead> 
  <tbody> 
   <tr> 
-   <td> Account disabled<br /> </td> 
+   <td> 帳戶已停用<br /> </td> 
    <td> @disabled<br /> </td> 
    <td> count(@failureReason=4)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Blacklisted<br /> </td> 
-   <td> @blacklisted<br /> </td> 
+   <td> 黑名單<br /> </td> 
+   <td> @黑名單<br /> </td> 
    <td> count(@failureReason=8, @failureType=2)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Blacklisted rate<br /> </td> 
+   <td> 黑名單比率<br /> </td> 
    <td> @rateBlacklisted<br /> </td> 
    <td> @blacklisted/@sent<br /> </td> 
-   <td> Denominator for rate calculation is based on Sent count (Delivered + Bounces).<br /> </td> 
+   <td> 比率計算的分母是以「已傳送」計數（「已傳送」+「彈回數」）為基礎。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Bounces + Errors<br /> </td> 
+   <td> 彈回數+錯誤<br /> </td> 
    <td> @bounces<br /> </td> 
    <td> count(@status=2)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Bounce + Error rate<br /> </td> 
+   <td> 反彈+錯誤率<br /> </td> 
    <td> @rateBounces<br /> </td> 
    <td> @bounces/@sent<br /> </td> 
    <td> </td> 
@@ -68,161 +66,161 @@ source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
   <tr> 
    <td> 按一下<br /> </td> 
    <td> @clicks<br /> </td> 
-   <td> count(@trackingUrlType=1 or 10 or 11)<br /> </td> 
+   <td> count（@trackingUrlType=1或10或11）<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Click through rate<br /> </td> 
+   <td> 點進率<br /> </td> 
    <td> @clickthrough<br /> </td> 
-   <td> @uniqueclicks/@delivered<br /> </td> 
-   <td> Denominator for rate calculation is based on Delivered only.<br /> </td> 
+   <td> @uniqueclicks/@delived<br /> </td> 
+   <td> 比率計算的分母僅基於「已傳送」。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Delivered<br /> </td> 
+   <td> 交付<br /> </td> 
    <td> @delivered<br /> </td> 
    <td> count(@status=1)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Delivered rate<br /> </td> 
+   <td> 交付率<br /> </td> 
    <td> @rateDelivered<br /> </td> 
    <td> @delivered/@sent<br /> </td> 
-   <td> Denominator for rate calculation is based on Sent count (Delivered + Bounces).<br /> </td> 
+   <td> 比率計算的分母是以「已傳送」計數（「已傳送」+「彈回數」）為基礎。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Hard bounces<br /> </td> 
+   <td> 硬彈回數<br /> </td> 
    <td> @hardBounces<br /> </td> 
    <td> count(@failureType=2 AND @failureReason=8)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Hard bounces rate<br /> </td> 
+   <td> 硬彈回數率<br /> </td> 
    <td> @rateHardBounces<br /> </td> 
    <td> @hardBounces/@sent<br /> </td> 
-   <td> Denominator for rate calculation is based on Sent count (Delivered + Bounces).<br /> </td> 
+   <td> 比率計算的分母是以「已傳送」計數（「已傳送」+「彈回數」）為基礎。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Invalid domain<br /> </td> 
+   <td> 無效的域<br /> </td> 
    <td> @invalidDomain<br /> </td> 
    <td> count(@failureReason=2)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Mailbox full<br /> </td> 
+   <td> 郵箱已滿<br /> </td> 
    <td> @mailBoxFull<br /> </td> 
    <td> count(@failureReason=5)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Mirror page<br /> </td> 
+   <td> 鏡像頁<br /> </td> 
    <td> @mirrorPage<br /> </td> 
    <td> count(@trackingUrlType=6)<br /> </td> 
-   <td> Denominator for rate calculation is based on Delivered only.<br /> </td> 
+   <td> 比率計算的分母僅基於「已傳送」。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Mirror page rate<br /> </td> 
+   <td> 鏡像頁面速率<br /> </td> 
    <td> @rateMirrorPage<br /> </td> 
    <td> @mirrorPage/@delivered<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Not connected<br /> </td> 
+   <td> 未連接<br /> </td> 
    <td> @notConnected<br /> </td> 
    <td> count(@failureReason=6)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Open<br /> </td> 
+   <td> 開啟<br /> </td> 
    <td> @opens<br /> </td> 
-   <td> count(@trackingUrlType=2 + unique(@trackingUrlType=1,2,3,6,10,11) - unique(@trackingUrlType=2))<br /> </td> 
+   <td> count(@trackingUrlType=2 + unique(@trackingUrlType=1,2,3,6,10,11)- unique(@trackingUrlType=2))<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Open rate<br /> </td> 
+   <td> 開放率<br /> </td> 
    <td> @rateOpens<br /> </td> 
    <td> @opens/@delivered<br /> </td> 
-   <td> Denominator for rate calculation is based on Delivered only.<br /> </td> 
+   <td> 比率計算的分母僅基於「已傳送」。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Quarantine<br /> </td> 
+   <td> 隔離<br /> </td> 
    <td> @quarantine<br /> </td> 
    <td> isQuarantine=true<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Quarantine rate<br /> </td> 
+   <td> 隔離率<br /> </td> 
    <td> @rateQuarantine<br /> </td> 
    <td> @quarantine/@sent<br /> </td> 
-   <td> Denominator for rate calculation is based on Sent count (Delivered + Bounces).<br /> </td> 
+   <td> 比率計算的分母是以「已傳送」計數（「已傳送」+「彈回數」）為基礎。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Refused<br /> </td> 
-   <td> @refused<br /> </td> 
+   <td> 拒絕<br /> </td> 
+   <td> @resubed<br /> </td> 
    <td> count(@failureReason=20)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Rejected<br /> </td> 
+   <td> 已拒絕<br /> </td> 
    <td> @rejected<br /> </td> 
    <td> count(@failureReason=20, @failureType=2)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Rejected rate<br /> </td> 
+   <td> 拒絕率<br /> </td> 
    <td> @rateRejected<br /> </td> 
    <td> @rejected/@sent<br /> </td> 
-   <td> Denominator for rate calculation is based on Sent count (Delivered + Bounces).<br /> </td> 
+   <td> 比率計算的分母是以「已傳送」計數（「已傳送」+「彈回數」）為基礎。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Processed/sent<br /> </td> 
+   <td> 已處理／已傳送<br /> </td> 
    <td> @sent<br /> </td> 
    <td> @delivered + @bounces<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Soft bounce<br /> </td> 
+   <td> 軟彈跳<br /> </td> 
    <td> @softBounces<br /> </td> 
    <td> count(@failureType=1)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Soft bounce rate<br /> </td> 
+   <td> 軟反彈率<br /> </td> 
    <td> @rateSoftBounces<br /> </td> 
    <td> @softBounces/@sent<br /> </td> 
-   <td> Denominator for rate calculation is based on Sent count (Delivered + Bounces).<br /> </td> 
+   <td> 比率計算的分母是以「已傳送」計數（「已傳送」+「彈回數」）為基礎。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unique clicks<br /> </td> 
+   <td> 獨特點按<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> Unique clicks is calculated using ThetaSketch concepts.<br /> </td> 
+   <td> 獨特點按次數是使用ThetaSketch概念計算的。<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Unique opens<br /> </td> 
+   <td> 唯一開啟<br /> </td> 
    <td> @uniqueopens<br /> </td> 
    <td> unique(@trackingUrlType=1,2,3,6,10,11)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Unreachable <br /> </td> 
+   <td> 無法訪問 <br /> </td> 
    <td> @unreachable<br /> </td> 
    <td> count(@failureReason=3)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Unsubscribe<br /> </td> 
+   <td> 取消訂閱<br /> </td> 
    <td> @unsubscribes<br /> </td> 
    <td> count(@trackingUrlType=3)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Unsubscribe rate<br /> </td> 
+   <td> 取消訂閱率<br /> </td> 
    <td> @rateUnsubscribes<br /> </td> 
    <td> @unsubscribes/@delivered<br /> </td> 
-   <td> Denominator for rate calculation is based on Delivered only.<br /> </td> 
+   <td> 比率計算的分母僅基於「已傳送」。<br /> </td> 
   </tr> 
   <tr> 
-   <td> User unknown<br /> </td> 
+   <td> 用戶未知<br /> </td> 
    <td> @unknownUser<br /> </td> 
    <td> count(@failureReason=1)<br /> </td> 
    <td> </td> 
@@ -230,7 +228,7 @@ source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
  </tbody> 
 </table>
 
-## Push notification delivery {#push-notification-delivery}
+## 推播通知傳送 {#push-notification-delivery}
 
 <table> 
  <thead> 
@@ -242,47 +240,47 @@ source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
  </thead> 
  <tbody> 
   <tr> 
-   <td> Processed/sent<br /> </td> 
+   <td> 已處理／已傳送<br /> </td> 
    <td> @sent<br /> </td> 
    <td> @count(status=sent)<br /> </td> 
   </tr> 
   <tr> 
-   <td> Delivered<br /> </td> 
+   <td> 交付<br /> </td> 
    <td> @delivered<br /> </td> 
-   <td> @count(status=delivered)<br /> </td> 
+   <td> @count(status=delived)<br /> </td> 
   </tr> 
   <tr> 
-   <td> Delivered rate<br /> </td> 
+   <td> 交付率<br /> </td> 
    <td> @rateDelivered<br /> </td> 
    <td> (@delivered/@sent)*100<br /> </td> 
   </tr> 
   <tr> 
-   <td> Bounce + Error rate<br /> </td> 
+   <td> 反彈+錯誤率<br /> </td> 
    <td> @rateBounces<br /> </td> 
    <td> (@delivered/@sent)*100<br /> </td> 
   </tr> 
   <tr> 
-   <td> Open<br /> </td> 
+   <td> 開啟<br /> </td> 
    <td> @opens<br /> </td> 
    <td> @count(status=open)<br /> </td> 
   </tr> 
   <tr> 
-   <td> Open rate<br /> </td> 
+   <td> 開放率<br /> </td> 
    <td> @rateOpens<br /> </td> 
    <td> (@opens/@delivered)*100<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unique opens<br /> </td> 
+   <td> 唯一開啟<br /> </td> 
    <td> @uniqueopens<br /> </td> 
-   <td> Unique opens is calculated using ThetaSketch concepts of unique RecipientIds.<br /> </td> 
+   <td> 唯一開啟是使用唯一RecipientId的ThetaSketch概念計算。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Impressions<br /> </td> 
+   <td> 印象<br /> </td> 
    <td> @impressions<br /> </td> 
-   <td> @count(status=delivered)<br /> </td> 
+   <td> @count(status=delived)<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unique impressions<br /> </td> 
+   <td> 獨特印象<br /> </td> 
    <td> @uniqueimpressions<br /> </td> 
    <td> @unique(@count(status=view))<br /> </td> 
   </tr> 
@@ -292,19 +290,19 @@ source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
    <td> @count(status=interact)<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unique clicks<br /> </td> 
+   <td> 獨特點按<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> Unique clicks is calculated using ThetaSketch concepts.<br /> </td> 
+   <td> 獨特點按次數是使用ThetaSketch概念計算的。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Click through rate<br /> </td> 
+   <td> 點進率<br /> </td> 
    <td> @clickthrough<br /> </td> 
    <td> (@interact/@delivered)*100<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## In-App delivery {#in-app-delivery}
+## 應用程式內傳送 {#in-app-delivery}
 
 <table> 
  <thead> 
@@ -317,63 +315,63 @@ source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
  </thead> 
  <tbody> 
   <tr> 
-   <td> Processed/sent<br /> </td> 
+   <td> 已處理／已傳送<br /> </td> 
    <td> @sent<br /> </td> 
    <td> @count(status=sent)<br /> </td> 
    <td> sent=delivered<br /> </td> 
   </tr> 
   <tr> 
-   <td> Delivered<br /> </td> 
+   <td> 交付<br /> </td> 
    <td> @delivered<br /> </td> 
-   <td> @count(status=delivered)<br /> </td> 
+   <td> @count(status=delived)<br /> </td> 
    <td> delivered=sent<br /> </td> 
   </tr> 
   <tr> 
-   <td> Impressions<br /> </td> 
+   <td> 印象<br /> </td> 
    <td> @impressions<br /> </td> 
-   <td> @count(status=view) or @count(status=button 1 click + button 2 click + dismissals)<br /> </td> 
+   <td> @count(status=view)或@count（status=button 1按一下+按鈕2按一下+免除）<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Unique impressions<br /> </td> 
+   <td> 獨特印象<br /> </td> 
    <td> @uniqueimpressions<br /> </td> 
    <td> @unique(@count(status=view))<br /> </td> 
-   <td> For <span class="uicontrol">Target users based on their Campaign profile (inAppProfile)</span> template, user = Recipient Id.<br /> 針對 <span class="uicontrol">Mobile應用程式(InAppRadio)的所有使用者(InAppRadast)</span> ，並 <span class="uicontrol">根據其Mobile設定檔(InApp)</span> 範本(inapp)範本(代表獨特的使用者、行動應用程式和裝置組合)來定位使用者。<br /> </td> 
+   <td> 針對 <span class="uicontrol">根據其促銷活動設定檔(inAppProfile)範本的Target使用者</span> ，使用者=收件者Id。<br /> 針對 <span class="uicontrol">Target行動應用程式(inAppBroadcast)</span> 和 <span class="uicontrol"></span> Target使用者根據其行動設定檔(inApp)範本的所有使用者，使用者= MC id或相當等級，代表使用者、行動應用程式和裝置的獨特組合。<br /> </td> 
   </tr> 
   <tr> 
-   <td> In-App clicks <br /> </td> 
+   <td> 應用程式內點按次數 <br /> </td> 
    <td> @inappclicks<br /> </td> 
-   <td> @count (status=click)<br /> </td> 
+   <td> @count(status=click)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Unique In-App clicks<br /> </td> 
+   <td> 獨特的應用程式內點按次數<br /> </td> 
    <td> @uniqueinapp<br /> </td> 
-   <td> @unique(@count (status=clicks))<br /> </td> 
-   <td> For <span class="uicontrol">Target users based on their Campaign profile (inAppProfile)</span> template, user = Recipient Id.<br /> 針對 <span class="uicontrol">Mobile應用程式(InAppRadio)的所有使用者(InAppRadast)</span> ，並 <span class="uicontrol">根據其Mobile設定檔(InApp)</span> 範本(inapp)範本(代表獨特的使用者、行動應用程式和裝置組合)來定位使用者。<br /> </td> 
+   <td> @unique(@count(status=clicks))<br /> </td> 
+   <td> 針對 <span class="uicontrol">根據其促銷活動設定檔(inAppProfile)範本的Target使用者</span> ，使用者=收件者Id。<br /> 針對 <span class="uicontrol">Target行動應用程式(inAppBroadcast)</span> 和 <span class="uicontrol"></span> Target使用者根據其行動設定檔(inApp)範本的所有使用者，使用者= MC id或相當等級，代表使用者、行動應用程式和裝置的獨特組合。<br /> </td> 
   </tr> 
   <tr> 
-   <td> In-App click through rate<br /> </td> 
+   <td> 應用程式內點進率<br /> </td> 
    <td> @inappclickthrough<br /> </td> 
-   <td> Total clicks on Button 1 or Button 2/total impressions*100<br /> </td> 
+   <td> 按鈕1或按鈕2的點按總次數／印象總數*100<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> In-App dismissal<br /> </td> 
-   <td> @dismissal<br /> </td> 
-   <td> @count (status=close)<br /> </td> 
+   <td> 應用程式內解雇<br /> </td> 
+   <td> @compicent<br /> </td> 
+   <td> @count(status=close)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Unique In-App dismissals<br /> </td> 
-   <td> @uniquedismissal<br /> </td> 
-   <td> @unique(@count (status=close))<br /> </td> 
-   <td> For <span class="uicontrol">Target users based on their Campaign profile (inAppProfile)</span> template, user = Recipient Id.<br /> 針對 <span class="uicontrol">Mobile應用程式(InAppRadio)的所有使用者(InAppRadast)</span> ，並 <span class="uicontrol">根據其Mobile設定檔(InApp)</span> 範本(inapp)範本(代表獨特的使用者、行動應用程式和裝置組合)來定位使用者。<br /> </td> 
+   <td> 獨特的應用程式內解雇<br /> </td> 
+   <td> @uniquecciption<br /> </td> 
+   <td> @unique(@count(status=close))<br /> </td> 
+   <td> 針對 <span class="uicontrol">根據其促銷活動設定檔(inAppProfile)範本的Target使用者</span> ，使用者=收件者Id。<br /> 針對 <span class="uicontrol">Target行動應用程式(inAppBroadcast)</span> 和 <span class="uicontrol"></span> Target使用者根據其行動設定檔(inApp)範本的所有使用者，使用者= MC id或相當等級，代表使用者、行動應用程式和裝置的獨特組合。<br /> </td> 
   </tr> 
   <tr> 
-   <td> In-App dismissal rate<br /> </td> 
-   <td> @dismissalrate<br /> </td> 
-   <td> Total close/total impressions*100<br /> </td> 
+   <td> 應用程式內解雇率<br /> </td> 
+   <td> @unitsalrate<br /> </td> 
+   <td> 關閉總次數／曝光總次數*100<br /> </td> 
    <td> </td> 
   </tr> 
  </tbody> 

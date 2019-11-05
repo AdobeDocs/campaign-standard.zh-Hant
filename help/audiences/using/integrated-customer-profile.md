@@ -1,8 +1,6 @@
 ---
-title: 經整合的客戶用戶檔案
-seo-title: 經整合的客戶用戶檔案
-description: 經整合的客戶用戶檔案
-seo-description: 「透過單一檢視追蹤每個客戶互動：Adobe Campaign整合式客戶個人檔案會在整個客戶生命週期中更新。」
+title: 整合的客戶設定檔
+description: 「透過單一檢視追蹤每個客戶互動：Adobe Campaign整合式客戶個人檔案會在整個客戶生命週期中更新。」
 page-status-flag: 從未激活
 uuid: da2eb13a-2268-4a99-939c-c6388f5d34f3
 contentOwner: 紹維亞
@@ -15,12 +13,12 @@ context-tags: marketingHistory，主要
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 經整合的客戶用戶檔案{#integrated-customer-profile}
+# 整合的客戶設定檔{#integrated-customer-profile}
 
 您資料庫的每個連絡人都可使用整合式客戶個人檔案。 此行銷記錄將與客戶聯絡的所有相關行銷資訊結合為單一檢視。 然後，您可以集中存取所有數位行為、線上和離線交易：聯絡資訊、收到的電子郵件、追蹤記錄、訂閱和取消訂閱等。
 

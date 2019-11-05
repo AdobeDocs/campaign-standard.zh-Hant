@@ -1,8 +1,6 @@
 ---
 title: 關於範本
-seo-title: 關於範本
-description: 關於範本
-seo-description: 「Adobe Campaign範本可讓您視需要預先設定參數：範本可能包含行銷活動的完整或部分設定，以簡化非技術使用者使用Adobe Campaign的程式。」
+description: 「Adobe Campaign範本可讓您視需要預先設定參數：範本可能包含行銷活動的完整或部分設定，以簡化非技術使用者使用Adobe Campaign的程式。」
 page-status-flag: 從未激活
 uuid: 018534b6-61a3-433e-bb60-49883c8b9386
 contentOwner: 紹維亞
@@ -14,7 +12,7 @@ discoiquuid: 95218ebe-5430-42a2-b900-1dadbbc92d99
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -40,7 +38,7 @@ source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 * 電子郵件傳送
 * 簡訊傳送
 * 推播通知
-* 著陸頁面
+* 登錄頁面
 * 工作流程
 * 服務
 * 匯入

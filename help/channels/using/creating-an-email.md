@@ -1,8 +1,6 @@
 ---
 title: 建立電子郵件
-seo-title: 建立電子郵件
-description: 建立電子郵件
-seo-description: 請依照下列步驟，在Adobe Campaign中建立單一傳送的電子郵件。
+description: 請依照下列步驟，在Adobe Campaign中建立單一傳送的電子郵件。
 page-status-flag: 從未激活
 uuid: 74c7ef35-82c0-4bc4-b1f6-8e74fdcaea3c
 contentOwner: 紹維亞
@@ -14,7 +12,7 @@ discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68d96b23f34f505c0a47a74a5e33bc3530fc4d72
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -72,7 +70,7 @@ source-git-commit: 68d96b23f34f505c0a47a74a5e33bc3530fc4d72
 
    ![](assets/delivery_planning.png)
 
-1. 準備訊息以分析其目標。 請參 [閱準備傳送](../../sending/using/confirming-the-send.md)。
+1. 準備訊息以分析其目標。 See [Preparing the send](../../sending/using/confirming-the-send.md).
 
    ![](assets/preparing_delivery_2.png)
 

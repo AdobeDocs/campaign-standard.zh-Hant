@@ -1,8 +1,6 @@
 ---
 title: 角色清單
-seo-title: 角色清單
-description: 角色清單
-seo-description: 瞭解您可指派給使用者的角色清單。
+description: 瞭解您可指派給使用者的角色清單。
 page-status-flag: 從未激活
 uuid: 128aaf9b-9b7d-49f3-9e1f-72e79a29baa0
 contentOwner: 紹維亞
@@ -15,7 +13,7 @@ context-tags: 角色，概述；角色，主
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c331937dcfef849798f1a5ed693da5f01759a1b8
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 

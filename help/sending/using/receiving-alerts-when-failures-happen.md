@@ -1,8 +1,6 @@
 ---
-title: 在失敗時接收警報
-seo-title: 在失敗時接收警報
-description: 在失敗時接收警報
-seo-description: 瞭解如何使用警報管理系統。
+title: 發生故障時接收警報
+description: 瞭解如何使用警報管理系統。
 page-status-flag: 從未激活
 uuid: a3ab733a-e3db-4adc-b930-cd4064b6dc1c
 contentOwner: 紹維亞
@@ -14,12 +12,12 @@ discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 在失敗時接收警報{#receiving-alerts-when-failures-happen}
+# 發生故障時接收警報{#receiving-alerts-when-failures-happen}
 
 ## 關於傳送警報 {#about-delivery-alerting}
 
@@ -182,7 +180,7 @@ source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 **相關主題：**
 
-[添加或擴展資源](../../developing/using/key-steps-to-add-a-resource.md)
+[新增或擴充資源](../../developing/using/key-steps-to-add-a-resource.md)
 
 ## 傳送警報參數 {#delivery-alerting-parameters}
 
@@ -277,7 +275,7 @@ source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 **相關主題：**
 
-* [瞭解交付失敗](../../sending/using/understanding-delivery-failures.md)
+* [瞭解傳送故障](../../sending/using/understanding-delivery-failures.md)
 * [瞭解隔離管理](../../sending/using/understanding-quarantine-management.md)
 * [管理促銷活動中的黑名單](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 

@@ -1,8 +1,6 @@
 ---
 title: 後續訊息
-seo-title: 後續訊息
-description: 後續訊息
-seo-description: 瞭解如何建立和發佈後續訊息。
+description: 瞭解如何建立和發佈後續訊息。
 page-status-flag: 從未激活
 uuid: d2a17da2-e935-420a-8531-78ed6a1fe68b
 contentOwner: 紹維亞
@@ -14,7 +12,7 @@ discoiquuid: 9615e369-754f-4f6a-a1b1-14462f946666
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -127,5 +125,5 @@ source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
 
 >[!NOTE]
 >
->如果您在建立事 **[!UICONTROL Profile]** 件設定時選取定位維度，後續訊息也會運用Adobe Campaign行銷資料庫。 請參 [閱Profiletransactional messages](../../channels/using/profile-transactional-messages.md)。
+>如果您在建立事 **[!UICONTROL Profile]** 件設定時選取定位維度，後續訊息也會運用Adobe Campaign行銷資料庫。 See [Profile transactional messages](../../channels/using/profile-transactional-messages.md).
 

@@ -1,8 +1,6 @@
 ---
 title: 編輯查詢
-seo-title: 編輯查詢
-description: 編輯查詢
-seo-description: 運用預先定義的篩選條件和規則來建立人口族群。
+description: 運用預先定義的篩選條件和規則來建立人口族群。
 page-status-flag: 從未激活
 uuid: a49c7739-a96c-45cb-9ac5-1ce299161a97
 contentOwner: 紹維亞
@@ -15,7 +13,7 @@ context-tags: queryFilter,overview;audience,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 

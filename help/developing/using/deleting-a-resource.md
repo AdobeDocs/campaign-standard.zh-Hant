@@ -1,39 +1,37 @@
 ---
 title: 刪除資源
-seo-title: 刪除資源
-description: 刪除資源
-seo-description: '瞭解如何刪除資源 '
-page-status-flag: 從未啓動
-uuid: de de27589-1fa5-412c-8e5a-a-a4976 de05715
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
+description: '瞭解如何刪除資源 '
+page-status-flag: 從未激活
+uuid: 5de27589-6fa5-412c-8e5a-a4976de05715
+contentOwner: 紹維亞
+products: SG_CAMPAIGN/STANDARD
 audience: 開發
-content-type: reference
-topic-tags: 新增或延伸-資源
-discoiquuid: 0130733d-4e3f-40cd-b959-56381f2 c8 f44
+content-type: 參考
+topic-tags: 添加或擴展資源
+discoiquuid: 0130733d-4e3f-40cd-b959-56381f2c8f44
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Deleting a resource{#deleting-a-resource}
+# 刪除資源{#deleting-a-resource}
 
-To delete a resource, the resource in question must be a **[!UICONTROL Draft]**. The resource is in **[!UICONTROL Draft]** status if:
+要刪除資源，相關資源必須是 **[!UICONTROL Draft]**。 如果滿足以下條件，則資 **[!UICONTROL Draft]** 源處於狀態：
 
-* 它剛建立且尚未發佈。
-* 如果已發佈，則必須重新草擬資源。
+* 它剛剛建立，尚未發佈。
+* 如果已經發佈，則必須重新起草資源。
 
 >[!CAUTION]
 >
->重新起草和刪除自訂資源是敏感性作業，可能會影響其他資源。這些動作只能由專家使用者執行。
+>重新起草和刪除自定義資源是可能影響其他資源的敏感操作。 這些動作必須僅由專家使用者執行。
 
-若要重新草稿和刪除已發佈的資源：
+要重新草擬和刪除已發佈的資源，請執行以下操作：
 
-1. 選取您要重新草稿的資源。
-1. Click the **[!UICONTROL Re-draft]** button in the action bar.
+1. 選擇要重新繪製的資源。
+1. 按一下 **[!UICONTROL Re-draft]** 動作列中的按鈕。
 
    ![](assets/schema_extension_uc26.png)
 
@@ -41,25 +39,25 @@ To delete a resource, the resource in question must be a **[!UICONTROL Draft]**.
 
    >[!CAUTION]
    >
-   >此動作具有決定性：資源的資料庫表格或欄及其資料會在修改後永久刪除，這可能會導致其他自訂資源中的連結中斷。只有資源定義才能使用。
+   >這一行動是明確的：在發佈修改時，資源的資料庫表或列及其資料將被永久刪除，這可能導致來自其他自定義資源的連結中斷。 只有資源定義仍可用。
 
    ![](assets/schema_extension_uc27.png)
 
    >[!NOTE]
    >
-   >If you re-draft an extension of the out-of-the-box **Profiles (profile)** resource, you must also re-draft any **Test profile (seedMember)** extension you may have defined. For more on extending the profile resource, see [this section](../../developing/using/extending-the-profile-resource-with-a-new-field.md).
+   >如果重新繪製現成可用的配置檔案（配置檔案）資源的擴展，則還必須重新繪製您可能已定義的 **Test配置檔案(seedMember)****** 。 如需擴充描述檔資源的詳細資訊，請參 [閱本節](../../developing/using/extending-the-profile-resource-with-a-new-field.md)。
 
-1. 發佈資源。For more detailed steps, refer to [Publishing a custom resource](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
+1. 發佈資源。 如需詳細步驟，請參閱 [發佈自訂資源](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)。
 
-   The resource then goes into **Draft** mode and its activation status is **[!UICONTROL Inactive]**.
+   然後，資源會進入 **Draft** （草稿）模式，其啟動狀態為 **[!UICONTROL Inactive]**。
 
-1. **[!UICONTROL List]** 在模式中，檢查要刪除的資源，然後按一下 ![](assets/delete_darkgrey-24px.png)**[!UICONTROL Delete element]** 圖示。
+1. 在模 **[!UICONTROL List]** 式中，檢查要刪除的資源，然後按一下 ![](assets/delete_darkgrey-24px.png) 圖 **[!UICONTROL Delete element]** 標。
 
    ![](assets/schema_extension_uc28.png)
 
-您的資源會從資料模型中刪除。
+資源會從資料模型中刪除。
 
 >[!NOTE]
 >
->如果事件上使用的自訂資源欄位遭到修改或刪除，對應的事件將自動解除發佈。See [Configuring transactional messaging](../../administration/using/configuring-transactional-messaging.md).
+>如果修改或刪除了用於事件的自定義資源的欄位，則相應的事件將自動取消發佈。 See [Configuring transactional messaging](../../administration/using/configuring-transactional-messaging.md).
 

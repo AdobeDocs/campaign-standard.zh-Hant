@@ -1,8 +1,6 @@
 ---
-title: 關於動態報表
-seo-title: 關於動態報表
-description: 關於動態報表
-seo-description: 使用動態報表，將變數和維度拖放至自由格式環境，並分析促銷活動的成功。
+title: 關於動態報告
+description: 使用動態報表，將變數和維度拖放至自由格式環境，並分析促銷活動的成功。
 page-status-flag: 從未激活
 uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
 contentOwner: 紹維亞
@@ -14,12 +12,12 @@ discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c606612b1bfb313e8eb20e45cf631609ec07aa84
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 關於動態報表{#about-dynamic-reports}
+# 關於動態報告{#about-dynamic-reports}
 
 >[!NOTE]
 >

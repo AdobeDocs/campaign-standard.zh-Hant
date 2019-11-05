@@ -1,77 +1,75 @@
 ---
 title: 確認傳送
-seo-title: 確認傳送
-description: 確認傳送
-seo-description: 瞭解如何完成訊息準備。
-page-status-flag: 從未啓動
-uuid: easbemb32-ffd2-45d0-a8 b4-f97 be59 a1 bd
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
-audience: 傳送
-content-type: reference
-topic-tags: 傳送與追蹤訊息
-discoiquuid: 8bb160b1-7de9-4c1f-bb89-b2 e5 fdafed41
-context-tags: 傳送、部署、返回
+description: 瞭解如何完成訊息準備。
+page-status-flag: 從未激活
+uuid: 1eaecb32-ffd2-45d0-a8b4-f97be59a1bd
+contentOwner: 紹維亞
+products: SG_CAMPAIGN/STANDARD
+audience: 發送
+content-type: 參考
+topic-tags: 傳送和追蹤訊息
+discoiquuid: 8bb160b1-7de9-4c1f-bb89-b2e5fdafed41
+context-tags: 交付，部署，返回
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e9dd7c374903d0c57ac4881ed125c3215bd7fe11
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Confirming the send{#confirming-the-send}
+# 確認傳送{#confirming-the-send}
 
-完成您的訊息準備後，您就可以傳送核准步驟。For more on messages preparation, refer to [Preparing the send](../../sending/using/preparing-the-send.md).
+在您準備完訊息並執行核准步驟後，即可傳送訊息。 有關消息準備的詳細資訊，請參 [閱準備發送](../../sending/using/preparing-the-send.md)。
 
-Only users with the **[!UICONTROL Start deliveries]** role can confirm send. For more on this, refer to the [List of roles](../../administration/using/list-of-roles.md) section.
+只有具有角色的 **[!UICONTROL Start deliveries]** 使用者可確認傳送。 有關詳細資訊，請參閱「角 [色清單](../../administration/using/list-of-roles.md) 」部分。
 
 沒有此角色的使用者會看到下列訊息：
 
 ![](assets/confirm_delivery_2.png)
 
-To send your delivery, click the **[!UICONTROL Confirm send]** button found in the message's action bar.
+若要傳送傳送，請按一 **[!UICONTROL Confirm send]** 下訊息動作列中的按鈕。
 
 ![](assets/confirm_delivery.png)
 
-You will be asked to finalize the send definitively by clicking the **[!UICONTROL OK]** button.
+系統會要求您按一下按鈕，以最終完成傳送 **[!UICONTROL OK]** 作業。
 
 ![](assets/confirm_delivery1.png)
 
-訊息已傳送。
+正在傳送訊息。
 
 >[!NOTE]
 >
->如果訊息已排程，則會在傳送時間時傳送。For more on scheduling messages, refer to [this section](../../sending/using/about-scheduling-messages.md).
+>如果訊息已排程，則會在到達傳送時間時傳送訊息。 For more on scheduling messages, refer to [this section](../../sending/using/about-scheduling-messages.md).
 
-如果您使用循環傳送而沒有匯總期間，則可以在傳送傳送前，先要求確認。To do this, open the **[!UICONTROL Schedule]** block of the delivery dashboard, then activate the dedicated option.
+如果您使用不含匯總期間的循環傳送，則可在傳送傳送前要求確認。 若要這麼做，請開啟 **[!UICONTROL Schedule]** 傳送控制面板的區塊，然後啟動專用選項。
 
 ![](assets/confirmation_recurring_deliveries.png)
 
-**[!UICONTROL Deployment]** 區塊會顯示傳送進度。
+塊 **[!UICONTROL Deployment]** 顯示發送的進度。
 
-Once the message is sent to the contacts, the **[!UICONTROL Deployment]** zone shows your KPIs (Key Performance Indicator) data , including:
+將消息發送到聯繫人後，區域將 **[!UICONTROL Deployment]** 顯示您的KPI（關鍵績效指標）資料，包括：
 
-* 要傳送的訊息數目
-* 傳送的訊息數
+* 要傳送的訊息數
+* 已發送的消息數
 * 傳送的訊息百分比
-* 反彈和錯誤的百分比
-* 開啓訊息的百分比
-* 訊息中點擊次數的百分比(電子郵件)
+* 彈回數和錯誤的百分比
+* 開啟的消息的百分比
+* 訊息中的點按百分比（電子郵件）
 
    >[!NOTE]
    >
-   >The **[!UICONTROL Open rate]** and **[!UICONTROL Click-through rate]** are updated every hour.
+   >和 **[!UICONTROL Open rate]** 每 **[!UICONTROL Click-through rate]** 小時更新一次。
 
 ![](assets/sending_delivery.png)
 
-If the KPIs take too long to update or don't take into account the results from the sending logs, click the **[!UICONTROL Compute stats]** button in the **[!UICONTROL Deployment]** window.
+如果KPI更新時間太長或未考慮到傳送記錄檔的結果，請按一下視窗 **[!UICONTROL Compute stats]** 中的按 **[!UICONTROL Deployment]** 鈕。
 
 ![](assets/sending_delivery7.png)
 
-您可以在組成觀眾群之其中一個客戶檔案的歷史記錄中檢視訊息。See [Integrated customer profile](../../audiences/using/integrated-customer-profile.md).
+您可以在其中一個用戶端描述檔的歷史記錄中檢視訊息，這些描述檔是觀眾的一部分。 See [Integrated customer profile](../../audiences/using/integrated-customer-profile.md).
 
-傳送訊息後，您可以追蹤其收件者的行為，並監控其影響力以評估其影響力。如需更多資訊，請參閱以下章節：
+傳送訊息後，您可以追蹤收件者的行為，並監控訊息，以評估其影響。 如需更多相關資訊，請參閱以下章節：
 
 * [追蹤訊息](../../sending/using/tracking-messages.md)
 * [監控傳送](../../sending/using/monitoring-a-delivery.md)

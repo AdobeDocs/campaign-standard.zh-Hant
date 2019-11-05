@@ -1,68 +1,66 @@
 ---
 title: 準備傳送
-seo-title: 準備傳送
-description: 準備傳送
-seo-description: 瞭解如何在傳送之前定義準備。
-page-status-flag: 從未啓動
-uuid: 1038de2-164c-4579-9294-bdf2 a4 EB12 d6
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
-audience: 傳送
-content-type: reference
-topic-tags: 準備與測試訊息
-discoiquuid: 003abc83-7f07-471f-ab2 f-1d352 d22 c26 f
+description: 瞭解如何在傳送前定義準備。
+page-status-flag: 從未激活
+uuid: 1038dae2-164c-4579-9294-bdf2a4eb12d6
+contentOwner: 紹維亞
+products: SG_CAMPAIGN/STANDARD
+audience: 發送
+content-type: 參考
+topic-tags: 準備和測試訊息
+discoiquuid: 003abc83-7f07-471f-ab2f-1d352d22c26f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Preparing the send{#preparing-the-send}
+# 準備傳送{#preparing-the-send}
 
-準備對應至計算目標人口的步驟，以及針對包含在目標中的每個描述檔產生訊息內容。Once preparation is finished, the messages are ready to be sent, either immediately or at [the scheduled date and time](../../sending/using/about-scheduling-messages.md).
+準備對應於計算目標總量和為目標中包括的每個配置檔案生成消息內容的步驟。 準備完成後，即可立即或在排程的日期和時間 [傳送訊息](../../sending/using/about-scheduling-messages.md)。
 
-1. To start preparing the send, click the **Prepare** button located in the action bar.
+1. 若要開始準備傳送，請按一下動作 **列中的** 「準備」按鈕。
 
    ![](assets/preparing_delivery_2.png)
 
-1. **[!UICONTROL Deployment]** 區塊顯示準備進度，然後是準備統計資料：目標訊息數、傳送訊息數等等。
+1. 該 **[!UICONTROL Deployment]** 塊顯示準備進度，然後是準備統計：目標訊息的數目、要傳送的訊息數目等。
 
-   視目標人口的大小而定，此作業可能需要一些時間。
+   根據目標人口的大小，此操作可能需要一些時間。
 
    ![](assets/preparing_delivery.png)
 
-1. Stop the preparation at any time using the **Stop** button, located in the action bar.
+1. 使用動作列中的「停止」按 **鈕** ，隨時停止準備工作。
 
-   在準備階段中，不會傳送訊息。因此，您可以開始或停止這項作業，而不會影響任何風險。
+   在準備階段，不會傳送任何訊息。 因此，您可以開始或停止此動作，而不會有影響任何內容的風險。
 
    ![](assets/preparing_delivery_6.png)
 
-1. 在準備傳送階段時，會自動儲存您的訊息。If you need to make any changes to your message's schedule after the preparation step, you will need to make sure that you click the **[!UICONTROL Prepare]** button again for those changes to be taken into account. For more information on how to schedule a message, refer to this [page](../../sending/using/about-scheduling-messages.md).
+1. 您的訊息會在準備傳送階段期間自動儲存。 如果您需要在準備步驟後對郵件的排程進行任何變更，則需要確定您再次按一下按鈕，以便將這些變更納入考量。 **[!UICONTROL Prepare]** 有關如何安排消息的詳細資訊，請參閱本 [頁](../../sending/using/about-scheduling-messages.md)。
 
    ![](assets/preparing_delivery_5.png)
 
-1. 若要檢視準備記錄，請按一下位於區塊右下方的按鈕。
+1. 要查看準備日誌，請按一下位於塊右下角的按鈕。
 
    ![](assets/preparing_delivery_4.png)
 
-1. **[!UICONTROL Deployment]** 視窗開啓、更正任何錯誤，然後重新開始準備。
+1. 窗口 **[!UICONTROL Deployment]** 開啟，更正所有錯誤，然後重新啟動準備。
 
-   最後一個記錄訊息會顯示任何錯誤訊息和錯誤數目。特定圖示會顯示遇到的錯誤類型：黃色圖示表示非關鍵處理錯誤，紅色圖示指出導致傳送無法開始的重大錯誤。
+   最後一條日誌消息顯示所有錯誤消息和錯誤數。 特定圖示顯示所遇到的錯誤類型：黃色圖示表示非嚴重處理錯誤，紅色圖示表示嚴重錯誤，導致無法啟動傳送。
 
    ![](assets/preparing_delivery_3.png)
 
-1. 請先檢查準備統計資料，然後確認傳送訊息。If the number of messages to send does not correspond to your configuration, edit the targeted population (see [Selecting an audience in a message](../../audiences/using/selecting-an-audience-in-a-message.md)) and restart the preparation.
+1. 在確認發送消息之前，請檢查準備統計資訊。 如果要傳送的訊息數量與您的設定不相符，請編輯目標群體(請參閱「在訊息中選 [擇對象](../../audiences/using/selecting-an-audience-in-a-message.md)」)，然後重新開始準備。
 
-準備完成後，您的訊息就可以傳送。For more on this, see [Confirming send](../../sending/using/confirming-the-send.md).
+準備完成後，您的訊息就會準備好傳送。 有關詳細資訊，請參 [閱確認發送](../../sending/using/confirming-the-send.md)。
 
-**Typology規則**
+**類型學規則**
 
-Adobe Campaign隨附一組建置的打字規則，在訊息準備期間套用。它們可用來檢查訊息是否有效並符合您的品質標準。See [Typologies](../../administration/using/about-typology-rules.md). 例如，您可以定義自己的打字規則規則，例如，設定全域跨通道疲勞規則，自動排除促銷活動中被覆蓋的個人檔案。See [Fatigue rules](../../administration/using/fatigue-rules.md).
+Adobe Campaign隨附一組內建的排版規則，這些規則會在訊息準備期間套用。 它們用來檢查訊息是否有效，以及是否符合您的品質標準。 請參閱 [類型](../../administration/using/about-typology-rules.md)。 例如，您可以定義自己的排版規則，以設定全域跨通道疲勞規則，自動排除促銷活動中過度索取的個人檔案。 請參 [閱疲勞規則](../../administration/using/fatigue-rules.md)。
 
 **SMS訊息檢查**
 
-如果您在SMS訊息中插入個人化欄位或條件文字，這些因素可能會引入GSM編碼未考量的字元。執行準備時，訊息長度會受到監控，如果會通過限制，則會顯示警告訊息。
+如果您已將個人化欄位或條件文字插入SMS訊息的內容，這些因素可能會引入GSM編碼未考慮的字元。 當準備運行時，會監視消息長度，並且如果它通過限制，將顯示警告消息。
 
-For more on this, refer to the [SMS encoding, length and transliteration](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration) and [Personalizing SMS messages](../../channels/using/personalizing-sms-messages.md) sections.
+如需詳細資訊，請參閱 [SMS編碼、長度與音譯](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)[與個人化SMS訊息](../../channels/using/personalizing-sms-messages.md) 。

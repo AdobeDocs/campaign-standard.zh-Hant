@@ -1,8 +1,6 @@
 ---
-title: 關於簡訊和推播內容設計
-seo-title: 關於簡訊和推播內容設計
-description: 關於簡訊和推播內容設計
-seo-description: 瞭解在Adobe Campaign中用來修改SMS訊息和推播通知內容的編輯器。
+title: 關於 SMS 和推播內容設計
+description: 瞭解在Adobe Campaign中用來修改SMS訊息和推播通知內容的編輯器。
 page-status-flag: 從未激活
 uuid: 99277e46-e4f7-49a9-ba27-b878780f90da
 contentOwner: 紹維亞
@@ -15,12 +13,12 @@ context-tags: 傳送，sms內容，返回
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 關於簡訊和推播內容設計{#about-sms-and-push-content-design}
+# 關於 SMS 和推播內容設計{#about-sms-and-push-content-design}
 
 使用內容編輯器，在Adobe Campaign中定義、修改及個人化您的SMS訊息和推播通知內容。
 
@@ -43,6 +41,6 @@ source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 **相關主題：**
 
-* [建立SMS訊息](../../channels/using/creating-an-sms-message.md)
+* [建立 SMS 訊息](../../channels/using/creating-an-sms-message.md)
 * [建立和傳送推播通知](../../channels/using/preparing-and-sending-a-push-notification.md)
 

@@ -1,8 +1,6 @@
 ---
-title: 關於用戶檔案
-seo-title: 關於用戶檔案
-description: 關於用戶檔案
-seo-description: 連絡人會儲存為Campaign資料庫中的設定檔，並在整個生命週期中進行更新。
+title: 關於設定檔
+description: 連絡人會儲存為Campaign資料庫中的設定檔，並在整個生命週期中進行更新。
 page-status-flag: 從未激活
 uuid: 087f91a4-6e69-488e-9aa0-424d23d396ed
 contentOwner: 紹維亞
@@ -15,12 +13,12 @@ context-tags: 收件者，概述
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 關於用戶檔案{#about-profiles}
+# 關於設定檔{#about-profiles}
 
 Adobe Campaign可讓您在整個生命週期中管理連絡人：建立、匯入、定位、動作追蹤、更新等。 聯繫人儲存在資料庫中，作為包含與其連結的資訊的配置檔案：姓氏、名字、地址、訂閱、傳送等。
 

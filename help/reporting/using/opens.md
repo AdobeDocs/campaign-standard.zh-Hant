@@ -1,36 +1,34 @@
 ---
-title: 開啓次數
-seo-title: 開啓次數
-description: 開啓次數
-seo-description: 透過「開啓」報表，瞭解根據各種准則最常檢視哪些傳送。
-page-status-flag: 從未啓動
-uuid: fe5453b6-cac1-43be-860 e-c65 c8 a5168 d6
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
-audience: 報告功能
-content-type: reference
-topic-tags: 報表清單
-discoiquuid: c87188e8-cea7-4cc6-becf-b9788 e5 ec36 b
-context-tags: Delivery openRateReport，main；campaignOpenRateReport，主要；ProgramopenRateReport，主要
+title: 開啟的郵件
+description: 透過「開啟」報表，瞭解根據各種條件檢視最多的傳送。
+page-status-flag: 從未激活
+uuid: fe5453b6-cac1-43be-860e-c65c8a5168d6
+contentOwner: 紹維亞
+products: SG_CAMPAIGN/STANDARD
+audience: 報告
+content-type: 參考
+topic-tags: 清單
+discoiquuid: c87188e8-cea7-4cc6-becf-b9788e5ec36b
+context-tags: deliveryOpenRateReport,main;campaignOpenRateReport,main;programOpenRateReport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 77b0933bcd004cedc6a58f80717a4284b284e0cd
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Opens{#opens}
+# 開啟的郵件{#opens}
 
-**[!UICONTROL Opens]** 報表識別收件者最常檢視的傳送。
+The **[!UICONTROL Opens]** report identifies the deliveries that have been most viewed by recipients.
 
 ![](assets/delivery_reports_opens.png)
 
-四個表格和圖表會劃分開啓電子郵件的收件者總數：
+四個表格和圖表會根據下列項目來劃分開啟電子郵件的收件者總數：
 
 * 瀏覽器
 * 裝置
 * 平台
 * 網域
 
-**[!UICONTROL TOP 5]** 表格和圖表會顯示傳送訊息數目最多的傳送。
+The **[!UICONTROL TOP 5]** table and graph display the deliveries with the highest number of delivered messages.

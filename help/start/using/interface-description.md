@@ -1,8 +1,6 @@
 ---
 title: 介面說明
-seo-title: 介面說明
-description: 介面說明
-seo-description: 「瞭解如何導覽及使用Adobe Campaign工作區：首頁、頂端列、進階選單和動作列。」
+description: 「瞭解如何導覽及使用Adobe Campaign工作區：首頁、頂端列、進階選單和動作列。」
 page-status-flag: 從未激活
 uuid: af9f0f1f-d24a-4dc7-b4a8-70290de6eb3f
 contentOwner: 紹維亞
@@ -14,7 +12,7 @@ discoiquuid: dafd9860-cd22-4c30-86b7-631b64db7b3f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -75,7 +73,7 @@ Adobe Campaign可讓您導覽不同的功能表和螢幕，以管理您的促銷
 
 此功能表可讓您導覽至特定功能和設定。
 
-### 行銷計畫 {#marketing-plans}
+### 行銷計劃 {#marketing-plans}
 
 此圖 **[!UICONTROL Marketing plans]** 示可讓您存取下列功能：
 

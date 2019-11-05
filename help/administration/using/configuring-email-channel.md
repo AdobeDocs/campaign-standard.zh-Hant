@@ -1,8 +1,6 @@
 ---
 title: 設定電子郵件通道
-seo-title: 設定電子郵件通道
-description: 設定電子郵件通道
-seo-description: 瞭解如何設定電子郵件通道。
+description: 瞭解如何設定電子郵件通道。
 page-status-flag: 從未激活
 uuid: 9fddb655-b445-41f3-9b02-5d356fc88aa1
 contentOwner: 紹維亞
@@ -15,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 

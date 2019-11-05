@@ -1,8 +1,6 @@
 ---
-title: 瞭解交付失敗
-seo-title: 瞭解交付失敗
-description: 瞭解交付失敗
-seo-description: 瞭解如何使用Campaign管理傳送失敗。
+title: 瞭解傳送故障
+description: 瞭解如何使用Campaign管理傳送失敗。
 page-status-flag: 從未激活
 uuid: 2735aa05-7b6f-47c9-98c4-a15cc33be39d
 contentOwner: 紹維亞
@@ -14,12 +12,12 @@ discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 瞭解交付失敗{#understanding-delivery-failures}
+# 瞭解傳送故障{#understanding-delivery-failures}
 
 ## 關於傳送失敗 {#about-delivery-failures}
 

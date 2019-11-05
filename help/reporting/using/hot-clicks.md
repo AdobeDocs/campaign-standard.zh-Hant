@@ -1,8 +1,6 @@
 ---
 title: 熱點點按
-seo-title: 熱點點按
-description: 熱點點按
-seo-description: 透過「快速點按現成可用報表」，瞭解客戶在何處點按您的遞送。
+description: 透過「快速點按現成可用報表」，瞭解客戶在何處點按您的遞送。
 page-status-flag: 從未激活
 uuid: 7ed49dd3-d7ee-466a-9a7b-d2aa16961667
 contentOwner: 紹維亞
@@ -15,7 +13,7 @@ context-tags: deliveryHotClicksReport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 

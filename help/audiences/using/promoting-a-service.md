@@ -1,8 +1,6 @@
 ---
 title: 推廣服務
-seo-title: 推廣服務
-description: 推廣服務
-seo-description: 使用Adobe Campaign透過專屬的登陸頁面、電子郵件或直接在您的網站上推廣服務並吸引客戶。
+description: 使用Adobe Campaign透過專屬的登陸頁面、電子郵件或直接在您的網站上推廣服務並吸引客戶。
 page-status-flag: 從未激活
 uuid: 2b71d2a1-3e48-4a21-ab21-4a360abc1d36
 contentOwner: 紹維亞
@@ -14,7 +12,7 @@ discoiquuid: 98650305-7abf-456f-8c91-cf0b61f53763
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 

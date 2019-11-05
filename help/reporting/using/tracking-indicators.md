@@ -1,41 +1,39 @@
 ---
 title: 追蹤指標
-seo-title: 追蹤指標
-description: 追蹤指標
-seo-description: 透過「追蹤指標」立即可用的報告，瞭解客戶收到電子郵件訊息時的行為。
-page-status-flag: 從未啓動
-uuid: b2df 8846-caf-45e6-a8 ff-ee37655383 c
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
-audience: 報告功能
-content-type: reference
-topic-tags: 報表清單
-discoiquuid: 64abc885-2aec-423f-bb5 b-5a623 a16 a16 a16 a6 d6 d
-context-tags: Delivery trackingReports，main；campaignTrackingReport，main；ProgramTrackingReport，主要
+description: 透過現成可用的追蹤指標報表，瞭解客戶在收到電子郵件訊息時的行為。
+page-status-flag: 從未激活
+uuid: b2df8846-4caf-45e6-a8ff-ee37655383c2
+contentOwner: 紹維亞
+products: SG_CAMPAIGN/STANDARD
+audience: 報告
+content-type: 參考
+topic-tags: 清單
+discoiquuid: 64abc885-2aec-423f-bf5b-5a623a16ca6d
+context-tags: deliveryTrackingReports,main;campaignTrackingReport,main;programTrackingReport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 77b0933bcd004cedc6a58f80717a4284b284e0cd
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Tracking indicators{#tracking-indicators}
+# 追蹤指標{#tracking-indicators}
 
-**[!UICONTROL Tracking indicators]** 此報表包含在收到電子郵件訊息後追蹤行為的關鍵指標。
+報 **[!UICONTROL Tracking indicators]** 表包含在收到電子郵件訊息後追蹤行為的關鍵指標。
 
 >[!NOTE]
 >
->若要存取此資料，在準備傳送時必須啓用追蹤。
+>若要存取此資料，必須在準備傳送時啟用追蹤。
 
 ![](assets/delivery_reports_2.png)
 
-**[!UICONTROL Tracking indicators]** 表格和 **前個傳送** 圖表包含電子郵件追蹤可用的資料，例如：
+表格 **[!UICONTROL Tracking indicators]** 和前5 **個傳送圖表包含電子郵件追蹤的可用資料** ，例如：
 
-* **[!UICONTROL Delivered]**：成功傳送訊息的次數。考量錯誤(彈回數)。但不會考量抱怨(垃圾訊息宣告)和離開訊息等訊息。
-* **開啓**：在傳送中開啓訊息的次數。
-* **按一**&#x200B;下：點按內容的次數。
-* **取消訂閱**：訂閱連結的點按次數。
-* **垃圾訊息：** 將電子郵件宣告為垃圾郵件的收件者人數。
-* **Mirror Page**：鏡像頁面連結的點按次數。
+* **[!UICONTROL Delivered]**:成功發送的消息數。 已引發的錯誤（彈回數）會納入考量。 但是，投訴（垃圾郵件聲明）和離開郵件（如「不在辦公室」）並不考慮在內。
+* **開啟**:傳送中訊息開啟的次數。
+* **按一下**:內容在傳送中被點按的次數。
+* **取消訂閱**:訂閱連結的點按次數。
+* **** 垃圾郵件：宣告電子郵件為垃圾訊息的收件者人數。
+* **鏡像頁**:鏡像頁連結上的點擊次數。
 

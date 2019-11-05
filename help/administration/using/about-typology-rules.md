@@ -1,8 +1,6 @@
 ---
 title: 關於類型學規則
-seo-title: 關於類型學規則
-description: 關於類型學規則
-seo-description: 瞭解Adobe Campaign中的排版規則如何運作。
+description: 瞭解Adobe Campaign中的排版規則如何運作。
 page-status-flag: 從未激活
 uuid: a98ebc36-172d-4f46-b6ee-b2636a1007c9
 contentOwner: 紹維亞
@@ -15,7 +13,7 @@ context-tags: 類型學，概述；類型學規則，主要；類型學規則，
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -93,7 +91,7 @@ source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 在標準操作模式下，規則按以下順序應用：
 
 1. 控制規則（如果規則是在定位開始時套用）。
-1. 篩選規則：
+1. 篩選規則:
 
    * 地址限定的原生應用程式規則：定義地址／未驗證地址／黑名單地址／隔離地址／地址質量。
    * 篩選由使用者定義的規則。

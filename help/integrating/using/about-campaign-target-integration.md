@@ -1,34 +1,32 @@
 ---
-title: 關於Campaign-Target整合
-seo-title: 關於Campaign-Target整合
-description: 關於Campaign-Target整合
-seo-description: 透過Adobe Target整合，您可以將Adobe Target產生的動態影像插入Adobe Campaign訊息中。
-page-status-flag: 從未啓動
-uuid: eb43f054-9c00-4ca4-acdd-e2306937 af3 c
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
+title: 關於 Campaign-Target 整合
+description: 透過Adobe target整合，您可以將Adobe Target產生的動態影像插入Adobe Campaign訊息中。
+page-status-flag: 從未激活
+uuid: eb43f054-9c00-4ca4-acdd-e2306937af3c
+contentOwner: 紹維亞
+products: SG_CAMPAIGN/STANDARD
 audience: 整合
-content-type: reference
-topic-tags: 使用促銷活動與定位
-discoiquuid: a416fe1-3812-4404-844e-ed6 d6 df0 df5
+content-type: 參考
+topic-tags: 搭配促銷活動和目標運作
+discoiquuid: a416fae1-3812-4404-844e-ed6d6df0dcf5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# About Campaign-Target integration{#about-campaign-target-integration}
+# 關於 Campaign-Target 整合{#about-campaign-target-integration}
 
-Adobe Experience Cloud中Adobe Campaign和Adobe Target(Classic和Standard)之間的整合可讓您將動態影像從Adobe Target插入Adobe Campaign電子郵件傳遞。
+Adobe Experience cloud中Adobe Campaign與Adobe Target（Classic和Standard）的整合可讓您將動態影像從Adobe Target插入Adobe Campaign電子郵件傳送。
 
-此項整合可讓收件者接收透過Adobe Campaign傳送的電子郵件，包括Adobe Target的動態版本內容。此動態版本是根據建立電子郵件時所指定的規則來計算。
+此整合功能可讓收件者接收透過Adobe Campaign傳送的電子郵件，包括Adobe Target所提供之動態內容版本。 根據建立電子郵件時預先指定的規則，計算此動態版本。
 
-Adobe Target可使用數種資料類型：
+Adobe target可使用數種資料：
 
-* 來自Adobe Campaign資料中心的資料
-* 連結至Adobe Target中訪客ID的區段(如果使用的資料不受法律限制)
-* Adobe Target資料：user Agent，IP address，geolocation data
+* Adobe Campaign資料庫的資料
+* 連結至Adobe target中訪客ID的區段（如果使用的資料不受法律限制）
+* Adobe Target資料：用戶代理， IP地址，地理本地化資料
 
-For more information on the integration between Adobe Campaign and Adobe Target, you can also refer to the [Adobe Target Portal](https://marketing.adobe.com/resources/help/en_US/target/a4t/c_campaign_and_target.html).
+如需Adobe Campaign與Adobe Target整合的詳細資訊，您也可以參閱 [Adobe Target入口網站](https://marketing.adobe.com/resources/help/en_US/target/a4t/c_campaign_and_target.html)。

@@ -1,8 +1,6 @@
 ---
-title: 關於SMS訊息
-seo-title: 關於SMS訊息
-description: 關於SMS訊息
-seo-description: 瞭解Adobe Campaign中SMS頻道的主要特性。
+title: 關於 SMS 訊息
+description: 瞭解Adobe Campaign中SMS頻道的主要特性。
 page-status-flag: 從未激活
 uuid: 14dc7434-8171-4ad1-9540-52ca637659a9
 contentOwner: 紹維亞
@@ -15,12 +13,12 @@ delivercontext-tags: deliveryCreation，精靈；delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 96001355220a9dd0cd3851d3f7de9f4dc8ea2782
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 關於SMS訊息{#about-sms-messages}
+# 關於 SMS 訊息{#about-sms-messages}
 
 Adobe Campaign可讓您傳遞SMS（簡訊服務）訊息。
 
@@ -43,7 +41,7 @@ Adobe Campaign可讓您傳遞SMS（簡訊服務）訊息。
 
 * [管理範本](../../start/using/about-templates.md)
 * [SMS設定](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)
-* [SMS報告](../../reporting/using/sms-report.md)
+* [SMS 報告](../../reporting/using/sms-report.md)
 
 ## 簡訊傳送範本 {#sms-delivery-template}
 

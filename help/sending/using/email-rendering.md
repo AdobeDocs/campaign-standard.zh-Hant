@@ -1,8 +1,6 @@
 ---
-title: 電子郵件轉換
-seo-title: 電子郵件轉換
-description: 電子郵件轉換
-seo-description: 探索電子郵件轉換功能。
+title: 電子郵件呈現
+description: 探索電子郵件轉換功能。
 page-status-flag: 從未激活
 uuid: c423e237-ad39-4797-ac3a-4320894a8f99
 contentOwner: 紹維亞
@@ -14,12 +12,12 @@ discoiquuid: 2b5b13c8-2e51-4985-a161-c1d7f0fc32b4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 電子郵件轉換{#email-rendering}
+# 電子郵件呈現{#email-rendering}
 
 在按下按 **[!UICONTROL Send]** 鈕之前，請確定您的訊息會以最佳方式顯示在各種網頁用戶端、網頁郵件和裝置上。
 

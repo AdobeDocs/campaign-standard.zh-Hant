@@ -1,8 +1,6 @@
 ---
 title: 編輯設定檔
-seo-title: 編輯設定檔
-description: 編輯設定檔
-seo-description: 瞭解如何編輯現有的設定檔並存取聯絡資訊、偏好的頻道、追蹤記錄、訂閱等。
+description: 瞭解如何編輯現有的設定檔並存取聯絡資訊、偏好的頻道、追蹤記錄、訂閱等。
 page-status-flag: 從未激活
 uuid: 6fcdb719-6149-48fc-b400-64c24a51487f
 contentOwner: 紹維亞
@@ -14,7 +12,7 @@ discoiquuid: 8d3ba7bf-90ae-4c6d-aeb-a48572a69f2f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -43,7 +41,7 @@ source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 相關主題：
 
-* [經整合的客戶用戶檔案](../../audiences/using/integrated-customer-profile.md)
+* [整合的客戶設定檔](../../audiences/using/integrated-customer-profile.md)
 * [在收件者的時區傳送](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)
 
 ## 一般描述檔資料 {#general-profile-data}
@@ -57,7 +55,7 @@ source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ![](assets/profile_creation4.png)
 
-## 傳送和追蹤記錄檔 {#sending-and-tracking-logs}
+## Sending and tracking logs {#sending-and-tracking-logs}
 
 此和 **[!UICONTROL Sending logs]** 標籤 **[!UICONTROL Tracking logs]** 會將傳送至描述檔的傳送清單以及所有相關追蹤資料分組。
 

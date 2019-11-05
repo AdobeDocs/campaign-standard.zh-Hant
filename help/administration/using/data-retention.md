@@ -1,41 +1,39 @@
 ---
 title: 資料保留
-seo-title: 資料保留
-description: 資料保留
-seo-description: null
-page-status-flag: 從未啓動
-uuid: d90852b4-e9 f3-4187-bbea-e748 d16 d1590
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
+description: null
+page-status-flag: 從未激活
+uuid: d90852b4-e9f3-4187-bbea-e748d16d1590
+contentOwner: 紹維亞
+products: SG_CAMPAIGN/STANDARD
 audience: 管理
-content-type: reference
-topic-tags: 應用程式設定
-discoiquuid: b791562b-6c51-447d-9e5b-bb77136 f3 dd8
+content-type: 參考
+topic-tags: application-settings
+discoiquuid: b791562b-6c51-447d-9e5b-bb77136f3dd8
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Data retention{#data-retention}
+# 資料保留{#data-retention}
 
-Campaign中的標準記錄表格有預先設定的保留期，通常將其資料儲存限制在個月或更短的時間。
+促銷活動中的標準記錄表有預先設定的保留期，通常會將其資料儲存限制在6個月或更短。
 
-以下是標準表格的預設保留值。請注意，保留組態是由Adobe技術管理員在實施期間設定，而且每個實施的值可能視客戶需求而有所不同。
+以下是標準表的預設保留值。 請注意，保留設定是由Adobe技術管理員在實施期間設定的，每個實施的值可能會因客戶需求而有所不同。
 
-* **整合追蹤**：個月
-* **傳送記錄**&#x200B;檔：個月
-* **追蹤記錄檔**：個月
-* **事件**：個月
-* **事件處理統計資料**：個月
-* **封存事件**：個月
-* **暫存實體**：天
-* **忽略管線事件**：個月
-* **傳送警報**：個月
-* **匯出稽核**：個月
+* **整合追蹤**:6個月
+* **傳送記錄**:6個月
+* **追蹤記錄**:6個月
+* **事件**:1個月
+* **事件處理統計資料**:6個月
+* **封存事件**:6個月
+* **臨時實體**:7天
+* **忽略的管線事件**:1個月
+* **傳送警報**:1個月
+* **匯出稽核**:6個月
 
-使用標準工作流程功能，可為任何自訂表格設定保留期。
+使用標準工作流功能，可以為任何自定義表設定保留期。
 
-請與Adobe顧問或技術管理員聯絡，以瞭解更多有關保留的資訊，或您是否需要設定自訂表格的保留率。
+請洽詢Adobe顧問或技術管理員，以進一步瞭解保留或您是否需要為自訂表格設定保留。

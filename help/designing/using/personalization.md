@@ -1,8 +1,6 @@
 ---
 title: 個人化
-seo-title: 個人化
-description: 個人化
-seo-description: 瞭解如何在電子郵件設計人員中個人化電子郵件。
+description: 瞭解如何在電子郵件設計人員中個人化電子郵件。
 page-status-flag: 從未激活
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: 紹維亞
@@ -14,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -26,7 +24,7 @@ Adobe Campaign傳遞的訊息內容和顯示方式可透過多種不同方式個
 * 插入動態的個人化欄位。請參 [閱插入個人化欄位](#inserting-a-personalization-field)。
 * 插入預先定義的個人化區塊。 請參 [閱新增內容區塊](#adding-a-content-block)。
 * 個人化電子郵件的寄件者。 請參 [閱個人化傳送者](#personalizing-the-sender)。
-* 個人化電子郵件的主題。 請參 [閱個人化電子郵件的主旨行](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email)。
+* 個人化電子郵件的主題。 See [Personalizing the subject line of an email](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
 * 建立有條件的內容。請參閱 [定義電子郵件中的動態內容](#defining-dynamic-content-in-an-email)
 
 ## 個人化傳送者 {#personalizing-the-sender}
@@ -418,6 +416,6 @@ Adobe Campaign可讓您根據特定標準或使用追蹤，個人化訊息中的
 
 **相關主題：**
 
-* [建立觀眾](../../audiences/using/creating-audiences.md)
+* [建立閱聽眾](../../audiences/using/creating-audiences.md)
 * [準備傳送](../../sending/using/preparing-the-send.md)
 

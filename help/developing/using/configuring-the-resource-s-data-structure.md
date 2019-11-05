@@ -1,8 +1,6 @@
 ---
-title: 配置資源的資料結構
-seo-title: 配置資源的資料結構
-description: 配置資源的資料結構
-seo-description: 瞭解如何設定資料結構。
+title: 設定資源的資料結構
+description: 瞭解如何設定資料結構。
 page-status-flag: 從未激活
 uuid: 60fe80c0-9df6-4808-a432-60a1977216ea
 contentOwner: 紹維亞
@@ -15,12 +13,12 @@ context-tags: cusResource,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 配置資源的資料結構{#configuring-the-resource-s-data-structure}
+# 設定資源的資料結構{#configuring-the-resource-s-data-structure}
 
 建立新的自訂資源後，您必須設定資料結構。
 

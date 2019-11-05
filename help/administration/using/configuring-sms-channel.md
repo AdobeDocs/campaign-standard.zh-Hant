@@ -1,8 +1,6 @@
 ---
-title: 設定SMS頻道
-seo-title: 設定SMS頻道
-description: 設定SMS頻道
-seo-description: 「瞭解SMS設定步驟：路由、編碼、格式和進階屬性。 "
+title: 設定 SMS 通道
+description: 「瞭解SMS設定步驟：路由、編碼、格式和進階屬性。 "
 page-status-flag: 從未激活
 uuid: 5f13dbd5-9522-4199-8d9a-44c397cb2458
 contentOwner: 紹維亞
@@ -15,12 +13,12 @@ context-tags: extAccountMobile,overview;extAccount,main;delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0c455e965d21996ffbadeddf336c6709ce8ee8f3
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 設定SMS頻道{#configuring-sms-channel}
+# 設定 SMS 通道{#configuring-sms-channel}
 
 若要傳送SMS訊息，管理員必須在&gt; &gt; &gt; &gt;功能表下設定一或多個 **[!UICONTROL Administration]** 外 **[!UICONTROL Channels]** 部 **[!UICONTROL SMS]** 帳戶 **[!UICONTROL SMS accounts]** 。
 

@@ -1,8 +1,6 @@
 ---
-title: 描述交易訊息
-seo-title: 描述交易訊息
-description: 描述交易訊息
-seo-description: 瞭解如何建立和發佈個人資料交易訊息。
+title: 設定檔交易式訊息
+description: 瞭解如何建立和發佈個人資料交易訊息。
 page-status-flag: 從未激活
 uuid: a8efe979-74ae-46ff-a305-b86a90679581
 contentOwner: 紹維亞
@@ -14,12 +12,12 @@ discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 描述交易訊息{#profile-transactional-messages}
+# 設定檔交易式訊息{#profile-transactional-messages}
 
 您可以根據客戶行銷個人檔案傳送交易訊息，這可讓您：
 
@@ -42,7 +40,7 @@ source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
 
 ## 傳送描述檔交易訊息 {#sending-a-profile-transactional-message}
 
-建立、個人化和發佈配置檔案事務性消息的步驟與事件事務性消息的步驟相同。 請參 [閱事件交易訊息](../../channels/using/event-transactional-messages.md)。
+建立、個人化和發佈配置檔案事務性消息的步驟與事件事務性消息的步驟相同。 See [Event transactional messages](../../channels/using/event-transactional-messages.md).
 
 差異列於下方。
 

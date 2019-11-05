@@ -1,28 +1,26 @@
 ---
-title: 促銷活動中的定位對應
-seo-title: 促銷活動中的定位對應
-description: 促銷活動中的定位對應
-seo-description: 目標對應是促銷活動使用的技術物件，可傳送訊息。它們包含傳送傳送所需的所有技術設定。
-page-status-flag: 從未啓動
+title: Campaign 中鎖定對應
+description: 目標對應是促銷活動用來傳送訊息的技術物件。 它們包含傳送遞送所需的所有技術設定。
+page-status-flag: 從未激活
 uuid: 0c3841cb-56fb-4b4f-970d-947edd1c2112
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
+contentOwner: 紹維亞
+products: SG_CAMPAIGN/STANDARD
 audience: 管理
-content-type: reference
-topic-tags: 應用程式設定
-discoiquuid: 73d06242-a02 f-4a8 d-85e9-73ffb5 eda1
+content-type: 參考
+topic-tags: application-settings
+discoiquuid: 73d06242-a02f-4a8d-85e9-73effb5eda1
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Target mappings in Campaign{#target-mappings-in-campaign}
+# Campaign 中鎖定對應{#target-mappings-in-campaign}
 
-目標對應是促銷活動使用的技術物件，可傳送訊息。其中包含傳送傳送所需的所有技術設定(地址、電話號碼、黑名單指示符、其他識別碼…)。
+目標對應是促銷活動用來傳送訊息的技術物件。 它們包含傳送傳送所需的所有技術設定（地址、電話號碼、黑名單指示符、其他識別碼……）。
 
-Administrators can access target mappings in the **[!UICONTROL Administration > Application settings > Target mappings]** menu.
+管理員可以存取功能表中的目標 **[!UICONTROL Administration > Application settings > Target mappings]** 對應。
 
-可以建立目標對應或修改，以涵蓋特定需求。In any case, their targeting dimension should always correspond to profiles ( **[!UICONTROL nms:recipient]** table). For more on targeting dimensions, refer to [this page](../../automating/using/query.md#targeting-dimensions-and-resources).
+建立或修改目標對應可涵蓋特定需求。 無論如何，其定位維度應一律對應至描述檔( **[!UICONTROL nms:recipient]** 表格)。 For more on targeting dimensions, refer to [this page](../../automating/using/query.md#targeting-dimensions-and-resources).

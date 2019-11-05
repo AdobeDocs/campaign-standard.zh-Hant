@@ -1,8 +1,6 @@
 ---
-title: 關於應用程式內訊息
-seo-title: 關於應用程式內訊息
-description: 關於應用程式內訊息
-seo-description: 使用應用程式內傳訊在行動應用程式內顯示訊息或警報。
+title: 關於應用程式內訊息傳送
+description: 使用應用程式內傳訊在行動應用程式內顯示訊息或警報。
 page-status-flag: 從未激活
 uuid: 6784cdfc-6db9-41dd-9fbb-2e756a5bcb5f
 contentOwner: 紹維亞
@@ -15,12 +13,12 @@ context-tags: 傳送，觸發器，返回
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 96001355220a9dd0cd3851d3f7de9f4dc8ea2782
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 關於應用程式內訊息{#about-in-app-messaging}
+# 關於應用程式內訊息傳送{#about-in-app-messaging}
 
 應用程式內訊息是傳訊渠道，可讓您在使用者在行動應用程式內活動時顯示訊息。 此訊息類型免費提供至使用者電話通知中心的推播通知。 如需推播通知頻道的詳細資訊，請參閱此 [節](../../channels/using/about-push-notifications.md)。
 
@@ -42,6 +40,6 @@ source-git-commit: 96001355220a9dd0cd3851d3f7de9f4dc8ea2782
 
 **相關內容：**
 
-* [應用程式內報表](../../reporting/using/in-app-report.md)
+* [應用程式內報告](../../reporting/using/in-app-report.md)
 * [推播和應用程式內常見問答集](https://helpx.adobe.com/campaign/kb/push_inapp_faq.html)
 * [Adobe Campaign standard支援的行動使用案例](https://helpx.adobe.com/campaign/kb/configure-launch-rules-acs-use-cases.html)

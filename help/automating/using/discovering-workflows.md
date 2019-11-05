@@ -1,8 +1,6 @@
 ---
 title: 探索工作流程
-seo-title: 探索工作流程
-description: 探索工作流程
-seo-description: Adobe Campaign提供完整的圖形環境，讓您設計並自動化流程。
+description: Adobe Campaign提供完整的圖形環境，讓您設計並自動化流程。
 page-status-flag: 從未激活
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
 contentOwner: 紹維亞
@@ -14,7 +12,7 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 

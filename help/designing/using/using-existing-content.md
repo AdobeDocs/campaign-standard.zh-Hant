@@ -1,8 +1,6 @@
 ---
 title: '使用現有內容設計電子郵件 '
-seo-title: '使用現有內容設計電子郵件 '
-description: '使用現有內容設計電子郵件 '
-seo-description: 探索如何使用電子郵件設計工具中現有的內容電子郵件內容來設計電子郵件。
+description: 探索如何使用電子郵件設計工具中現有的內容電子郵件內容來設計電子郵件。
 page-status-flag: 從未激活
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: 紹維亞
@@ -14,11 +12,11 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fe2f9ef93e87bfd269a3503eb6d8c88461caf694
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
-# 使用現有內容進行設計 {#designing-using-existing-content}
+# Designing using existing content {#designing-using-existing-content}
 
 ## 選取現有內容{#selecting-an-existing-content}
 

@@ -1,8 +1,6 @@
 ---
-title: 細分與定位
-seo-title: 細分與定位
-description: 細分與定位
-seo-description: 「瞭解Campaign中的設定檔、鎖定和受眾建立：建立受眾、匯入連絡人與Experience cloud解決方案分享受眾，並避免行銷疲勞。」
+title: 細分與目標定位
+description: 「瞭解Campaign中的設定檔、鎖定和受眾建立：建立受眾、匯入連絡人與Experience cloud解決方案分享受眾，並避免行銷疲勞。」
 page-status-flag: 從未激活
 uuid: 71f53808-0309-49f6-a4ee-3446eac9758a
 contentOwner: 紹維亞
@@ -14,12 +12,12 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 細分與定位{#segmentation-and-targeting}
+# 細分與目標定位{#segmentation-and-targeting}
 
 ## 設定檔 {#profiles}
 

@@ -1,8 +1,6 @@
 ---
 title: 建立服務
-seo-title: 建立服務
-description: 建立服務
-seo-description: 瞭解如何建立您的第一項服務，並設定它以傳送電子郵件確認給您的訂閱者。
+description: 瞭解如何建立您的第一項服務，並設定它以傳送電子郵件確認給您的訂閱者。
 page-status-flag: 從未激活
 uuid: 0d95d852-0f22-4b7b-b301-8fb4844c3ca2
 contentOwner: 紹維亞
@@ -15,7 +13,7 @@ context-tags: 服務，嚮導；服務，主
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 60424543028fa4df548d6d5bcfb1e9acc4131132
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 

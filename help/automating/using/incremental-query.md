@@ -1,8 +1,6 @@
 ---
 title: 增量查詢
-seo-title: 增量查詢
-description: 增量查詢
-seo-description: 「增量查詢」活動可讓您從Adobe Campaign資料庫中篩選及擷取一組元素。
+description: 「增量查詢」活動可讓您從Adobe Campaign資料庫中篩選及擷取一組元素。
 page-status-flag: 從未激活
 uuid: 73b42422-e815-43ef-84c0-97c443ccc98
 contentOwner: 紹維亞
@@ -15,7 +13,7 @@ context-tags: 增量，主
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -41,7 +39,7 @@ source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 此活 **[!UICONTROL Incremental query]** 動可用於各種類型的使用：
 
 * 將個人分段以定義訊息、對象等的目標。
-* 匯出資料。
+* 匯出資料.
 
 ## 配置 {#configuration}
 

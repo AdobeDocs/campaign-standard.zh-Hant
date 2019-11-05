@@ -1,8 +1,6 @@
 ---
 title: 監控傳送
-seo-title: 監控傳送
-description: 監控傳送
-seo-description: 瞭解如何監控傳送。
+description: 瞭解如何監控傳送。
 page-status-flag: 從未激活
 uuid: 7772c607-debd-40fd-8322-4d49119979b4
 contentOwner: 紹維亞
@@ -15,7 +13,7 @@ context-tags: 交付，主
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -44,7 +42,7 @@ source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 **相關主題：**
 
-* [在失敗時接收警報](../../sending/using/receiving-alerts-when-failures-happen.md)
+* [發生故障時接收警報](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [報表](../../reporting/using/about-dynamic-reports.md)
 
 ## 傳送記錄檔 {#delivery-logs}

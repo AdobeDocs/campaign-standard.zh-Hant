@@ -1,8 +1,6 @@
 ---
-title: 在Experience cloud中設定觸發器
-seo-title: 在Experience cloud中設定觸發器
-description: 在Experience cloud中設定觸發器
-seo-description: '瞭解如何設定Adobe Experience cloud觸發器整合，以便根據客戶先前的行為開始傳送個人化的傳送內容。 '
+title: 在 Experience Cloud 中設定觸發程式
+description: '瞭解如何設定Adobe Experience cloud觸發器整合，以便根據客戶先前的行為開始傳送個人化的傳送內容。 '
 page-status-flag: 從未激活
 uuid: 8fd7b804-9528-46a5-a060-bf16b8dc555d
 contentOwner: 紹維亞
@@ -14,12 +12,12 @@ discoiquuid: 4163dc0c-8103-4425-b8bf-7aa45c4d3a06
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 在Experience cloud中設定觸發器{#configuring-triggers-in-experience-cloud}
+# 在 Experience Cloud 中設定觸發程式{#configuring-triggers-in-experience-cloud}
 
 ## 啟動功能 {#activating-the-functionality}
 

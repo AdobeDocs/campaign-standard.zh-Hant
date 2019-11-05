@@ -1,8 +1,6 @@
 ---
 title: 疲勞規則
-seo-title: 疲勞規則
-description: 疲勞規則
-seo-description: 建立疲乏規則，以管理使用描述檔的過度通訊。
+description: 建立疲乏規則，以管理使用描述檔的過度通訊。
 page-status-flag: 從未激活
 uuid: fa5e3ded-36c2-4f16-b97a-119b85adf679
 contentOwner: 紹維亞
@@ -14,7 +12,7 @@ discoiquuid: 4337a80b-0fb9-4a37-bce3-fe2121a66586
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 

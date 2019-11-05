@@ -1,8 +1,6 @@
 ---
-title: 建立描述檔
-seo-title: 建立描述檔
-description: 建立描述檔
-seo-description: 瞭解如何使用API、匯入功能、線上贏取、自動或手動更新，建立個人檔案並收集您的連絡人資料。
+title: 建立設定檔
+description: 瞭解如何使用API、匯入功能、線上贏取、自動或手動更新，建立個人檔案並收集您的連絡人資料。
 page-status-flag: 從未激活
 uuid: a5f5a58a-e798-400f-8648-05dc843d5557
 contentOwner: 紹維亞
@@ -14,12 +12,12 @@ discoiquuid: 4ab8a984-f898-4ff-ad8c-ed8f95362f96
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7f1c2af4ad8c4b8632e84b6d945a9db8187b6a6
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 建立描述檔{#creating-profiles}
+# 建立設定檔{#creating-profiles}
 
 在Adobe Campaign中，預設會使用描述檔來定義訊息的主要目標。
 

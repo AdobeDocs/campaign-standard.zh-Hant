@@ -1,36 +1,34 @@
 ---
-title: 關於促銷活動中選擇加入和退出
-seo-title: 關於促銷活動中選擇加入和退出
-description: 關於促銷活動中選擇加入和退出
-seo-description: 選擇退出(或黑名單)會導致設定檔不再受到任何傳送或特定頻道傳送的內容的鎖定。
-page-status-flag: 從未啓動
-uuid: 501d9485-976b-4de7-b242-6886f2814 c6 c
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
-audience: 受眾
-content-type: reference
-topic-tags: 瞭解選擇退出與選擇退出
-discoiquuid: 2f26ec22-0809-4541-b2 a1-e84 ff868 ba6 e
+title: 關於 Campaign 中的加入和退出
+description: 選擇退出（或黑名單）會導致描述檔不再受任何傳送或特定渠道的傳送所定位。
+page-status-flag: 從未激活
+uuid: 501d9485-976b-4de7-b242-6886f2814c6c
+contentOwner: 紹維亞
+products: SG_CAMPAIGN/STANDARD
+audience: audiences
+content-type: 參考
+topic-tags: 瞭解——選擇加入——選擇退出流程
+discoiquuid: 2f26ec22-0809-4541-b2a1-e84ff868ba6e
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# About opt-in and opt-out in Campaign{#about-opt-in-and-opt-out-in-campaign}
+# 關於 Campaign 中的加入和退出{#about-opt-in-and-opt-out-in-campaign}
 
-選擇退出(或黑名單)會導致設定檔不再受到任何傳送或特定頻道傳送的內容的鎖定。
+選擇退出（或黑名單）會導致描述檔不再受任何傳送或特定渠道的傳送所定位。
 
-若要讓描述檔能夠選擇加入或選擇退出，您必須建立專屬的登陸頁面。For more on this, refer to [Setting up opt-in and opt-out landing pages](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#setting-up-opt-in-and-opt-out-landing-pages).
+若要讓描述檔能夠選擇加入或選擇退出，您必須建立專屬的登陸頁面。 如需詳細資訊，請參 [閱「設定選擇加入和選擇退出登陸頁面」](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#setting-up-opt-in-and-opt-out-landing-pages)。
 
-描述檔也可以由運算元手動選擇或退出。For more on this, refer to [Managing opt-in and opt-out from a profile](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#managing-opt-in-and-opt-out-from-a-profile).
+運算子也可以手動選擇加入或退出描述檔。 如需詳細資訊，請參 [閱管理描述檔的選擇加入和選擇退出](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#managing-opt-in-and-opt-out-from-a-profile)。
 
-在傳送分析期間會自動排除退出描述檔，以加速傳送(錯誤率對傳送速度有很大的影響)。
+在傳送分析期間會自動排除退出描述檔，以加速傳送（錯誤率對傳送速度有顯著影響）。
 
 >[!NOTE]
 >
->Opt-out applies to **Profiles**, as opposed to quarantine which is linked to an **email address** or **phone number**. 因此，選擇退出描述檔會排除所有連結至其的位址。如果使用者在資料庫中有兩個描述檔，則仍會透過傳送定位他，因為只有其中一個描述檔是退出的。為了確保排除他的所有帳戶，請將其新增至四分位數位址。For more on this, refer to [this page](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses-for-the-entire-platform).
+>選擇退出適用於「 **設定檔**」，而非連結至電子郵件位址或電話 **號碼的隔** 離 ****。 因此，選擇退出配置檔案將排除所有連結到配置檔案的地址的傳送。 如果使用者在資料庫中有兩個描述檔，他仍會被傳送鎖定，因為只有一個描述檔是選擇退出。 為了確保所有地址都被排除，請將其添加到隔離地址。 有關詳細資訊，請參見[此頁面](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses-for-the-entire-platform)。
 
 For more on services subscriptions, refer to [this page](../../audiences/using/about-subscriptions.md).

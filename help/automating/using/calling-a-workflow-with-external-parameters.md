@@ -1,8 +1,6 @@
 ---
 title: 使用外部參數呼叫工作流程
-seo-title: 使用外部參數呼叫工作流程
-description: 使用外部參數呼叫工作流程
-seo-description: 本節詳細說明如何使用外部參數調用工作流。
+description: 本節詳細說明如何使用外部參數調用工作流。
 page-status-flag: 從未激活
 uuid: beccd1b6-8e6d-4504-9152-9ff537459c4a
 contentOwner: 紹維亞
@@ -14,7 +12,7 @@ discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -87,7 +85,7 @@ Campaign Standard可讓您使用參數（要定位的對象名稱、要匯入的
 
    ![](assets/extsignal_monitoring_3.png)
 
-## 使用外部參數自訂工作流程 {#customizing-a-workflow-with-external-parameters}
+## Customizing a workflow with external parameters {#customizing-a-workflow-with-external-parameters}
 
 觸發工作流程後，這些參數會被收錄到事件變數中，並可用來自訂工作流程的活動。
 

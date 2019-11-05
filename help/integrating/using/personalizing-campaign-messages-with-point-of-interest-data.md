@@ -1,8 +1,6 @@
 ---
-title: 使用興趣點資料個人化促銷活動訊息
-seo-title: 使用興趣點資料個人化促銷活動訊息
-description: 使用興趣點資料個人化促銷活動訊息
-seo-description: 瞭解如何透過興趣點資料整合，根據訂閱者的位置建立個人化訊息。
+title: 使用 Point of Interest 資料個人化 Campaign 訊息
+description: 瞭解如何透過興趣點資料整合，根據訂閱者的位置建立個人化訊息。
 page-status-flag: 從未激活
 uuid: d74c3e55-f130-441b-bc2a-06ddcd5d9784
 contentOwner: 紹維亞
@@ -14,12 +12,12 @@ discoiquuid: a1736ba3-5121-4d01-bf04-ebb7e701e2e0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 781904d58f520987e978ad5d1cdc9e34871ca876
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 使用興趣點資料個人化促銷活動訊息{#personalizing-campaign-messages-with-point-of-interest-data}
+# 使用 Point of Interest 資料個人化 Campaign 訊息{#personalizing-campaign-messages-with-point-of-interest-data}
 
 在Adobe Campaign中，您可以使用從行動應用程式用戶收集到的地標資料，傳送個人化行銷訊息，例如電子郵件。
 

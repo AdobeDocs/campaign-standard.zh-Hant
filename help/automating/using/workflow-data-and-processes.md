@@ -1,34 +1,32 @@
 ---
-title: 工作流程資料與流程
-seo-title: 工作流程資料與流程
-description: 工作流程資料與流程
-seo-description: 瞭解您可以使用Adobe Campaign設定和自動化的流程。
-page-status-flag: 從未啓動
-uuid: d10f2adf-1b0d-4Fe6-98d2-c4 d59159 f048
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
+title: 工作流程資料和程序
+description: 瞭解您可以使用Adobe Campaign設定和自動化的流程。
+page-status-flag: 從未激活
+uuid: d10f2adf-1b0d-4fe6-98d2-c4d59159f048
+contentOwner: 紹維亞
+products: SG_CAMPAIGN/STANDARD
 audience: 自動化
-content-type: reference
-topic-tags: 關於工作流程與資料管理
-discoiquuid: 4bb898a1-868e-40d3-b528-0cee2 ec2991
+content-type: 參考
+topic-tags: about-workflows-and-data-management
+discoiquuid: 4bb898a1-868e-40d3-b528-0cee2ec2991
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Workflow data and processes{#workflow-data-and-processes}
+# 工作流程資料和程序{#workflow-data-and-processes}
 
-透過Adobe Campaign，您可以匯入、轉換、篩選、管理和匯出資料。這些作業可進行，以設計和自動化您的業務流程。
+有了Adobe Campaign，您就可以匯入、轉換、篩選、管理和匯出資料。 這些操作可用於設計和自動化業務流程。
 
-* 更新資料庫：安裝封裝或上傳檔案的資料。
-* 自動化程序：透過工作流程，您可以設計自己的程序來轉換資料、更新資料庫、傳送訊息等等。
-* 匯出資料：匯出套件或資料集。
+* 更新資料庫：安裝套件或從檔案上傳資料。
+* 自動化流程：透過工作流程，您可以設計自己的流程來轉換資料、更新資料庫、傳送訊息等。
+* 匯出資料：將套件或資料集匯出至個別檔案。
 
-**相關主題**：
+**相關主題**:
 
 * [探索工作流程](../../automating/using/discovering-workflows.md)
-* [關於資料匯入與匯出](../../automating/using/about-data-import-and-export.md)
+* [關於資料匯入和匯出](../../automating/using/about-data-import-and-export.md)
 

@@ -1,8 +1,6 @@
 ---
-title: 發行說明
-seo-title: 發行說明
-description: 發行說明
-seo-description: 本頁列出Adobe Campaign Standard的所有最新版本。
+title: 發行說明 年
+description: 本頁列出Adobe Campaign Standard的所有最新版本。
 page-status-flag: 從未激活
 uuid: 1cf2e40c-beca-43db-8261-a1820e86ad3
 contentOwner: 紹維亞
@@ -14,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 819f312b485494b87aec88952d23d933d43d5019
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -27,13 +25,13 @@ source-git-commit: 819f312b485494b87aec88952d23d933d43d5019
 
 * [促銷活動發行計畫](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
 * [最新檔案更新](../../rn/using/documentation-updates.md)
-* [已過時和已移除的功能](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+* [被取代和已移除的功能](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 * [控制面板](https://helpx.adobe.com/campaign/kb/control-panel.html)
 * 舊版注意事項： [2018](../../rn/using/release-notes-2018.md)、 [2017](../../rn/using/release-notes-2017.md)、 [2015-2016](../../rn/using/release-notes-2015-2016.md)
 
 ## 發行版本19.4 - 2019年10月 {#release-19-4---october-2019}
 
-### 新增功能？ {#what-s-new-5}
+### What's new? {#what-s-new-5}
 
 <table> 
  <thead> 
@@ -150,7 +148,7 @@ source-git-commit: 819f312b485494b87aec88952d23d933d43d5019
 
 ## 控制面板更新- 2019年8月 {#controlpanel-update---august-2019}
 
-### 新增功能？ {#what-s-new-4}
+### What's new? {#what-s-new-4}
 
 我們已新增功能，讓管理員使用者在網域的SSL憑證到期之前，先收到通知。  如需詳細資訊，請參閱詳 [細檔案](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html)。
 
@@ -160,7 +158,7 @@ source-git-commit: 819f312b485494b87aec88952d23d933d43d5019
 
 ## 發行版本19.3 - 2019年7月 {#release-19-3---july-2019}
 
-### 新增功能？ {#what-s-new-3}
+### What's new? {#what-s-new-3}
 
 <table> 
  <thead> 
@@ -280,13 +278,13 @@ source-git-commit: 819f312b485494b87aec88952d23d933d43d5019
 
 ## 發行版本19.2.4 - 2019年6月 {#release-19-2-4---june-2019}
 
-### 電子郵件設計人員 {#email-designer-2}
+### Email Designer {#email-designer-2}
 
 * 修正當HTML中使用空樣式標籤時，使用者無法編輯片段的問題。 這是19.2.3中CAMP-33778的後續修正。
 
 ## 發行版本19.2.3 - 2019年6月 {#release-19-2-3---june-2019}
 
-### 電子郵件設計人員 {#email-designer-1}
+### Email Designer {#email-designer-1}
 
 在19.2版中引入了一系列改進和修正，以最佳化片段。 新建立的片段將能順暢運作。 先前建立的片段已變灰，需要移轉至新格式。 若要這麼做，請按一下每個片段並驗證其移轉至新格式。 我們建議您先測試幾個片段，然後再將其全部移轉。
 
@@ -305,7 +303,7 @@ source-git-commit: 819f312b485494b87aec88952d23d933d43d5019
 
 ## 發行版本19.2 - 2019年5月 {#release-19-2---may-2019}
 
-### 新增功能？ {#what-s-new-}
+### What's new? {#what-s-new-}
 
 <table> 
  <thead> 
@@ -423,7 +421,7 @@ source-git-commit: 819f312b485494b87aec88952d23d933d43d5019
 
 ## 發行版本19.1 - 2019年2月 {#release-19-1---february-2019}
 
-### 新增功能？ {#what-s-new--1}
+### What's new? {#what-s-new--1}
 
 <table> 
  <thead> 
@@ -529,7 +527,7 @@ source-git-commit: 819f312b485494b87aec88952d23d933d43d5019
 
 ## 發行版本19.0 - 2019年1月 {#release-19-0---january-2019}
 
-### 新增功能？ {#what-s-new--2}
+### What's new? {#what-s-new--2}
 
 <table> 
  <colgroup><col style="width: 30%"><col style="width: 70%"></colgroup>
@@ -581,7 +579,7 @@ source-git-commit: 819f312b485494b87aec88952d23d933d43d5019
 * 定義描述檔位址時可用的國家／地區清單已豐富。 (CAMP-26707)
 * 現在，嘗試匯入內建工作流程時會顯示錯誤訊息。
 
-### 電子郵件設計人員 {#email-designer}
+### Email Designer {#email-designer}
 
 * 修正即使在Adobe Campaign中停用此功能，但電子郵件範本或使用電子郵件設計工具建立的內容片段上啟用地理單位功能的問題，此問題會讓範本或片段在再次嘗試存取時無法使用。 (CAMP-28174)
 * 修正使用電子郵件設計工具編輯內容時無法儲存動態內容條件的問題。 (CAMP-27905)

@@ -1,8 +1,6 @@
 ---
 title: 工作流程介面
-seo-title: 工作流程介面
-description: 工作流程介面
-seo-description: 瞭解建立、編輯和執行工作流程的介面和選項。
+description: 瞭解建立、編輯和執行工作流程的介面和選項。
 page-status-flag: 從未激活
 uuid: aafe33ed-fa07-4dd9-825e-24209334f1a
 contentOwner: 紹維亞
@@ -15,7 +13,7 @@ context-tags: 工作流，主；工作流，概述
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 

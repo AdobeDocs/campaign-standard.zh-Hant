@@ -1,8 +1,6 @@
 ---
 title: 交易式推播通知
-seo-title: 交易式推播通知
-description: 交易式推播通知
-seo-description: 瞭解如何建立和發佈交易式推播通知。
+description: 瞭解如何建立和發佈交易式推播通知。
 page-status-flag: 從未激活
 uuid: ef31c1b6-9ef8-42e3-b49d-72f9ea8ea32
 contentOwner: 紹維亞
@@ -14,7 +12,7 @@ discoiquuid: e645d4b9-001f-47d9-8a0f-b4696c75c5d3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -54,7 +52,7 @@ source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
 
 該公司將使用一個行動應用程式，透過單一裝置，針對每位使用者傳送一則交易式推播通知（以註冊Token識別）。
 
-1. 轉至為編輯而建立的交易訊息。 請參 [閱事件交易訊息](../../channels/using/event-transactional-messages.md)。
+1. 轉至為編輯而建立的交易訊息。 See [Event transactional messages](../../channels/using/event-transactional-messages.md).
 
    ![](assets/message-center_push_message.png)
 
@@ -111,7 +109,7 @@ source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
 
 例如，航空公司想要向所有已訂閱其行動應用程式的Adobe Campaign使用者寄送最後一次登入通知。
 
-1. 轉至為編輯而建立的交易訊息。 請參 [閱事件交易訊息](../../channels/using/event-transactional-messages.md)。
+1. 轉至為編輯而建立的交易訊息。 See [Event transactional messages](../../channels/using/event-transactional-messages.md).
 
    <!--![](assets/message-center_push_message_profile.png)-->
 

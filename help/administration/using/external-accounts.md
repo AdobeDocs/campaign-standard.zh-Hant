@@ -1,8 +1,6 @@
 ---
 title: 外部帳戶
-seo-title: 外部帳戶
-description: 外部帳戶
-seo-description: 設定外部帳戶以設定與外部系統（例如SFTP伺服器）的連線。
+description: 設定外部帳戶以設定與外部系統（例如SFTP伺服器）的連線。
 page-status-flag: 從未激活
 uuid: 5d2e2e3d-5d1f-4466-97e5-842c50390146
 contentOwner: 紹維亞
@@ -15,7 +13,7 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 

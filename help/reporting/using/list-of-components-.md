@@ -1,8 +1,6 @@
 ---
 title: '元件清單 '
-seo-title: '元件清單 '
-description: '元件清單 '
-seo-description: 在這裡尋找動態報表中可用的每個元件清單及其定義。
+description: 在這裡尋找動態報表中可用的每個元件清單及其定義。
 page-status-flag: 從未激活
 uuid: a2403806-8df4-4bb1-bac2-2689dc584ae0
 contentOwner: 紹維亞
@@ -14,7 +12,7 @@ discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c2eecf17e121f51d3e94362304738d0c0e75d2d0
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 

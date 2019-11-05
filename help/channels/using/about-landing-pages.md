@@ -1,8 +1,6 @@
 ---
-title: 關於著陸頁面
-seo-title: 關於著陸頁面
-description: 關於著陸頁面
-seo-description: Discover Campaign登陸頁面及其生命週期。
+title: 關於登錄頁面
+description: Discover Campaign登陸頁面及其生命週期。
 page-status-flag: 從未激活
 uuid: b316bf47-7d98-46fa-ab4f-67ff50de8095
 contentOwner: 紹維亞
@@ -15,12 +13,12 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0068746b0b90b85edfb2c93eb08a82e1adc2fca8
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 關於著陸頁面{#about-landing-pages}
+# 關於登錄頁面{#about-landing-pages}
 
 Campaign隨附著著陸頁面，這些網頁表單可用來擷取您受眾的資訊、提供服務訂閱、顯示資料以及擴充您的資料庫。 著陸頁面也可用於取得或更新現有的描述檔。
 

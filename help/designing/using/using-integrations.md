@@ -1,8 +1,6 @@
 ---
 title: '透過Adobe Campaign整合設計電子郵件 '
-seo-title: '透過Adobe Campaign整合設計電子郵件  '
-description: '透過Adobe Campaign整合設計電子郵件 '
-seo-description: 瞭解如何透過電子郵件設計工具中的Adobe Campaign整合來設計電子郵件。
+description: 瞭解如何透過電子郵件設計工具中的Adobe Campaign整合來設計電子郵件。
 page-status-flag: 從未激活
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: 紹維亞
@@ -14,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 195e8db45609b8f92f0ec60c987cf6eadfd463eb
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -40,7 +38,7 @@ source-git-commit: 195e8db45609b8f92f0ec60c987cf6eadfd463eb
 
 ## 在Experience manager中編輯內容 {#editing-content-in-experience-manager}
 
-您可以在Experience manager中編輯電子郵件內容，然後在Adobe Campaign standard中用於一或多則電子郵件訊息。 請參閱 [本檔案](../../integrating/using/integrating-with-experience-manager.md)。
+您可以在Experience manager中編輯電子郵件內容，然後在Adobe Campaign standard中用於一或多則電子郵件訊息。 請參閱[此文件](../../integrating/using/integrating-with-experience-manager.md)。
 
 ## 電子郵件設計選項比較 {#email-design-options-comparison}
 
@@ -50,7 +48,7 @@ Adobe Campaign提供數種電子郵件編寫選項。 下表顯示了每種方�
  <thead> 
   <tr> 
    <th> </th> 
-   <th> 電子郵件設計人員<br /> </th> 
+   <th> Email Designer<br /> </th> 
    <th> Experience Manager<br /> </th> 
    <th> Dreamweaver<br /> </th> 
   </tr> 
@@ -129,7 +127,7 @@ Adobe Campaign提供數種電子郵件編寫選項。 下表顯示了每種方�
   <tr> 
    <td> <strong>若要進一步瞭解</strong><br /> </td> 
    <td> 請參 <a href="../../designing/using/overview.md">閱電子郵件設計人員</a><br /> </td> 
-   <td> 請參 <a href="../../integrating/using/integrating-with-experience-manager.md">閱與Experience Manager整合</a><br /> </td> 
+   <td> See <a href="../../integrating/using/integrating-with-experience-manager.md">Integrating with Experience Manager</a><br /> </td> 
    <td> 檢視 <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver和Campaign</a> ，並觀看此影 <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">片</a><br /> </td> 
   </tr> 
  </tbody> 

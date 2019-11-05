@@ -1,27 +1,25 @@
 ---
-title: 新增資源的關鍵步驟
-seo-title: 新增資源的關鍵步驟
-description: 新增資源的關鍵步驟
-seo-description: 請參閱在Adobe Campaign資料模型中新增資源的關鍵步驟。
-page-status-flag: 從未啓動
-uuid: b8a32659-17ec-4e3e-92f2-0a0d6aab2629
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
+title: 添加資源的關鍵步驟
+description: 在此處瞭解在Adobe Campaign資料模型中新增資源的關鍵步驟。
+page-status-flag: 從未激活
+uuid: b8a32659-17ec-4e3e-92f2-0a0d6aaf2629
+contentOwner: 紹維亞
+products: SG_CAMPAIGN/STANDARD
 audience: 開發
-content-type: reference
-topic-tags: 新增或延伸-資源
-discoiquuid: 7e130e62-3f6e-41cc-8108-e64127 d6 d6 ec
+content-type: 參考
+topic-tags: 添加或擴展資源
+discoiquuid: 7e130e62-3f6e-41cc-8108-e64127d8d6ec
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e8348a9c262b5aab17ddfd1c9e69705687919e94
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Key steps to add a resource{#key-steps-to-add-a-resource}
+# 新增資源的關鍵步驟{#key-steps-to-add-a-resource}
 
-若要建立新資源或使用新欄位擴充現有資源，需要幾個步驟：
+要建立新資源或使用新欄位擴展現有資源，需要執行以下幾個步驟：
 
 1. [建立或擴充資源](../../developing/using/creating-or-extending-the-resource.md)
 1. [設定資源的資料結構](../../developing/using/configuring-the-resource-s-data-structure.md)
@@ -31,5 +29,5 @@ source-git-commit: e8348a9c262b5aab17ddfd1c9e69705687919e94
 
 >[!CAUTION]
 >
->建立和修改資源是敏感作業，僅由專家使用者執行。
+>建立和修改資源是敏感操作，僅由專家用戶執行。
 

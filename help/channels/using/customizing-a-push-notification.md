@@ -1,8 +1,6 @@
 ---
 title: 自訂推播通知
-seo-title: 自訂推播通知
-description: 自訂推播通知
-seo-description: 瞭解如何使用各種進階選項自訂推播通知。
+description: 瞭解如何使用各種進階選項自訂推播通知。
 page-status-flag: 從未激活
 uuid: 8cf74cad-b1ba-4ad-83bd-7289cb22d5f4
 contentOwner: 紹維亞
@@ -15,7 +13,7 @@ context-tags: delivery,mobileAppContent，返回
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 12134f388c6406b1b7c5821a1ae49c2332ae33cb
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -30,7 +28,7 @@ source-git-commit: 12134f388c6406b1b7c5821a1ae49c2332ae33cb
 
 **相關內容：**
 
-* [推播通知報表](../../reporting/using/push-notification-report.md)
+* [推播通知報告](../../reporting/using/push-notification-report.md)
 * [在工作流程中傳送推播通知](../../automating/using/push-notification-delivery.md)
 
 ## 播放音效 {#play-a-sound}

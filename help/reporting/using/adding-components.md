@@ -1,8 +1,6 @@
 ---
 title: 新增元件
-seo-title: 新增元件
-description: 新增元件
-seo-description: 將元件拖曳至自由表格，以開始篩選資料並建立報表。
+description: 將元件拖曳至自由表格，以開始篩選資料並建立報表。
 page-status-flag: 從未激活
 uuid: a1aa880c-4ee8-4ffb-b3bf-45249e6d446f
 contentOwner: 紹維亞
@@ -14,7 +12,7 @@ discoiquuid: a773b7a8-c290-4c81-bb52-48acc14fc89f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d3fca4c85f418a6a50bbf12f730990ad4b33a4cc
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -46,5 +44,5 @@ source-git-commit: d3fca4c85f418a6a50bbf12f730990ad4b33a4cc
 **相關主題：**
 
 * [元件清單](../../reporting/using/list-of-components-.md)
-* [報表清單](../../reporting/using/defining-the-report-period.md)
+* [報告清單](../../reporting/using/defining-the-report-period.md)
 

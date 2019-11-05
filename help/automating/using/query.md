@@ -1,8 +1,6 @@
 ---
 title: 查詢
-seo-title: 查詢
-description: 查詢
-seo-description: 「查詢」活動可讓您從Adobe Campaign資料庫中篩選及擷取一組元素。
+description: 「查詢」活動可讓您從Adobe Campaign資料庫中篩選及擷取一組元素。
 page-status-flag: 從未激活
 uuid: b3c629fa-370e-481c-b347-fcf9f5a5e847
 contentOwner: 紹維亞
@@ -15,7 +13,7 @@ context-tags: 查詢，主
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 

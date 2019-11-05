@@ -1,8 +1,6 @@
 ---
 title: 使用者管理
-seo-title: 使用者管理
-description: 使用者管理
-seo-description: 'Adobe Campaign使用者具有特定角色。 探索主要使用者類型。 '
+description: 'Adobe Campaign使用者具有特定角色。 探索主要使用者類型。 '
 page-status-flag: 從未激活
 uuid: 8c4cc74a-815f-4815-af66-a7c21bc754f1
 contentOwner: 紹維亞
@@ -14,7 +12,7 @@ discoiquuid: 08c8712a-0066-4b8b-8471-2656b8fb23ed
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 

@@ -1,8 +1,6 @@
 ---
-title: 建立自訂描述檔維度
-seo-title: 建立自訂描述檔維度
-description: 建立自訂描述檔維度
-seo-description: 瞭解如何根據自訂描述檔資料建立自訂描述檔維度。
+title: 建立自訂設定檔維度
+description: 瞭解如何根據自訂描述檔資料建立自訂描述檔維度。
 page-status-flag: 從未激活
 uuid: f75e005b-5328-4c98-9e78-51d54fd0e246
 contentOwner: 紹維亞
@@ -14,12 +12,12 @@ discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 建立自訂描述檔維度{#creating-a-custom-profile-dimension}
+# 建立自訂設定檔維度{#creating-a-custom-profile-dimension}
 
 您也可以根據在描述檔自訂資源擴充期間建立的自訂描述檔資料，來建立和管理報表。
 

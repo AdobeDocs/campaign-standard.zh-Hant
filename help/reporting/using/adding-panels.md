@@ -1,8 +1,6 @@
 ---
 title: 新增面板
-seo-title: 新增面板
-description: 新增面板
-seo-description: 動態報表可讓您新增面板，以根據選擇的時段更好地篩選資料。
+description: 動態報表可讓您新增面板，以根據選擇的時段更好地篩選資料。
 page-status-flag: 從未激活
 uuid: 8e76e837-5efc-4250-8192-dee1a0bd62fe
 contentOwner: 紹維亞
@@ -14,7 +12,7 @@ discoiquuid: f4e1e676-5ca2-4a58-96d7-d378ff803710
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d3fca4c85f418a6a50bbf12f730990ad4b33a4cc
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 

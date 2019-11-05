@@ -1,8 +1,6 @@
 ---
 title: 快速開始電子郵件內容設計
-seo-title: 快速開始電子郵件內容設計
-description: 快速開始電子郵件內容設計
-seo-description: 開始使用電子郵件設計工具建立電子郵件內容。
+description: 開始使用電子郵件設計工具建立電子郵件內容。
 page-status-flag: 從未激活
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: 紹維亞
@@ -14,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8e070a4c364c8a5e23870e28add142b46edc8994
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 

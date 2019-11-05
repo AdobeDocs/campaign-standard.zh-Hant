@@ -1,8 +1,6 @@
 ---
 title: '從頭設計電子郵件 '
-seo-title: '從頭設計電子郵件 '
-description: '從頭設計電子郵件 '
-seo-description: 瞭解如何在電子郵件設計工具中從頭開始設計電子郵件內容。
+description: 瞭解如何在電子郵件設計工具中從頭開始設計電子郵件內容。
 page-status-flag: 從未激活
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: 紹維亞
@@ -14,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -32,7 +30,7 @@ source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 1. 在結構元件中插入內容元件和片段。 請參 [閱新增片段和內容元件](#defining-the-email-structure)。
 1. 新增影像並編輯電子郵件的文字。 請參 [閱插入影像](../../designing/using/images.md#inserting-images)。
 1. 新增個人化欄位、連結等，以個人化您的電子郵件。 請參 [閱插入個人化欄位](../../designing/using/personalization.md#inserting-a-personalization-field)、 [插入連結](../../designing/using/links.md#inserting-a-link)[和定義電子郵件中的動態內容](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)。
-1. 定義您電子郵件的主旨行。 請參 [閱個人化電子郵件的主旨行](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email)。
+1. 定義您電子郵件的主旨行。 See [Personalizing the subject line of an email](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
 1. 預覽您的電子郵件。
 1. 儲存您的內容，並在確定您已定義對象並正確排程傳送後繼續處理訊息。
 
@@ -158,7 +156,7 @@ source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 **相關主題**:
 
 - [建立電子郵件](../../channels/using/creating-an-email.md)
-- [在訊息中選取對象](../../audiences/using/selecting-an-audience-in-a-message.md)
+- [在訊息中選取閱聽眾](../../audiences/using/selecting-an-audience-in-a-message.md)
 - [排程訊息](../../sending/using/about-scheduling-messages.md)
 - [預覽訊息](../../sending/using/previewing-messages.md)
-- [電子郵件轉換](../../sending/using/email-rendering.md)
+- [電子郵件呈現](../../sending/using/email-rendering.md)

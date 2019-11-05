@@ -1,8 +1,6 @@
 ---
-title: 定義直接郵件對象
-seo-title: 定義直接郵件對象
-description: 定義直接郵件對象
-seo-description: 瞭解如何定義直接郵件傳送的目標。
+title: 定義直接郵件閱聽眾
+description: 瞭解如何定義直接郵件傳送的目標。
 page-status-flag: 從未激活
 uuid: f843e368-5c07-4b53-8943-46f7bf45b62b
 contentOwner: 紹維亞
@@ -15,12 +13,12 @@ context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 定義直接郵件對象{#defining-the-direct-mail-audience}
+# 定義直接郵件閱聽眾{#defining-the-direct-mail-audience}
 
 您可以在建立精靈中定義對象，或按一下傳送控制面板的「 **對象** 」區段來定義對象。
 
@@ -38,7 +36,7 @@ source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ## 添加測試和陷印配置檔案 {#adding-test-and-trap-profiles}
 
-新增測試設定檔，以便使用少量設定檔來測試您的檔案。 它可讓您在準備實際檔案之前，快速建立檔案範例以測試和驗證結構。 請參閱 [管理測試設定檔和傳送校樣](../../sending/using/managing-test-profiles-and-sending-proofs.md)。
+新增測試設定檔，以便使用少量設定檔來測試您的檔案。 它可讓您在準備實際檔案之前，快速建立檔案範例以測試和驗證結構。 See [Managing test profiles and sending proofs](../../sending/using/managing-test-profiles-and-sending-proofs.md).
 
 使用陷阱對於直接郵寄至關重要。 它們允許您驗證您的直接郵件提供商是否確實在發送通信，以及他們是否沒有將您的客戶端清單發送給其他提供商。 請參 [閱使用陷阱](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps)。
 

@@ -1,8 +1,6 @@
 ---
-title: 確認服務訂閱
-seo-title: 確認服務訂閱
-description: 確認服務訂閱
-seo-description: 請依照下列步驟，為訂閱Adobe Campaign中服務的描述檔設定確認訊息。
+title: 確認訂閱服務
+description: 請依照下列步驟，為訂閱Adobe Campaign中服務的描述檔設定確認訊息。
 page-status-flag: 從未激活
 uuid: 23e6c4c2-e2c7-472f-b616-36a95225ac1d
 contentOwner: 紹維亞
@@ -14,12 +12,12 @@ discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 確認服務訂閱{#confirming-subscription-to-a-service}
+# 確認訂閱服務{#confirming-subscription-to-a-service}
 
 ## 關於傳送訂閱確認 {#sending-subscription-confirmation}
 

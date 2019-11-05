@@ -1,8 +1,6 @@
 ---
-title: 設計A/B測試電子郵件
-seo-title: 設計A/B測試電子郵件
-description: 設計A/B測試電子郵件
-seo-description: 探索A/B測試功能，並依照下列步驟從Adobe Campaign的A/B測試範本建立電子郵件。
+title: 設計 A/B 測試電子郵件
+description: 探索A/B測試功能，並依照下列步驟從Adobe Campaign的A/B測試範本建立電子郵件。
 page-status-flag: 從未激活
 uuid: 104f6973-68a7-4692-a90a-a5570a980ec7
 contentOwner: 紹維亞
@@ -15,12 +13,12 @@ context-tags: delivery,abTesting,back;deliveryCreation,wizard;delivery,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 設計A/B測試電子郵件{#designing-an-a-b-test-email}
+# 設計 A/B 測試電子郵件{#designing-an-a-b-test-email}
 
 Adobe Campaign中的A/B測試功能可讓您定義兩到三種電子郵件變體。 每個變型都被發送到種群樣本，以確定哪個樣本具有最佳結果。 一旦確定，則成功變數隨後被發送到剩餘人口。
 
@@ -30,7 +28,7 @@ Adobe Campaign中的A/B測試功能可讓您定義兩到三種電子郵件變體
 >
 >A/B測試在Adobe Experience manager中建立的電子郵件不可能。
 
-## 建立A/B測試電子郵件 {#creating-an-a-b-test-email}
+## Creating an A/B test email {#creating-an-a-b-test-email}
 
 您可使用標準電子郵件建立精靈來建立A/B測試，並新增A/B測試設定步驟。 建立標準電子郵件的詳細資訊，請參閱「 [建立電子郵件](../../channels/using/creating-an-email.md) 」一節。
 
@@ -95,4 +93,4 @@ Adobe Campaign中的A/B測試功能可讓您定義兩到三種電子郵件變體
 
 在電子郵件儀表板中，有幾個指標可協助您測量A/B測試：點按次數、開啟次數、彈回數等。
 
-請注意，此 **[!UICONTROL Estimated recipient reactivity]** 指標是比較點按的收件者人數與開啟電子郵件的收件者人數的比率。 例如，如果有10位收件者開啟電子郵件，而有5位收件者點按了該電子郵件。 反應率為50%。
+請注意，此 **[!UICONTROL Estimated recipient reactivity]** 指標是比較點按的收件者人數與開啟電子郵件的收件者人數的比率。 例如，如果有10位收件者開啟電子郵件，而有5位收件者點按了該電子郵件。 反應率�

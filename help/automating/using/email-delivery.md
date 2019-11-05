@@ -1,8 +1,6 @@
 ---
 title: 電子郵件傳送
-seo-title: 電子郵件傳送
-description: 電子郵件傳送
-seo-description: 「電子郵件傳送」活動可讓您設定在工作流程中傳送單一傳送電子郵件或循環電子郵件。
+description: 「電子郵件傳送」活動可讓您設定在工作流程中傳送單一傳送電子郵件或循環電子郵件。
 page-status-flag: 從未激活
 uuid: 7de53431-84ae-4d21-8361-2775ad314ed2
 contentOwner: 紹維亞
@@ -15,7 +13,7 @@ context-tags: 交付，工作流，主
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -88,11 +86,11 @@ source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 
 ![](assets/wkf_display_recurrent_executions_3.png)
 
-## 範例 {#example}
+## Example {#example}
 
 ![](assets/wkf_delivery_example_1.png)
 
-此範例是生日工作流程。 每天都會傳送電子郵件給當天生日的個人檔案。 要執行此操作：
+此範例是生日工作流程。 每天都會傳送電子郵件給當天生日的個人檔案。 操作步驟：
 
 * 它 **[!UICONTROL Scheduler]** 可讓您每天上午8點開始工作流程。
 

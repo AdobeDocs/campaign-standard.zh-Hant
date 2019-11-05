@@ -1,8 +1,6 @@
 ---
-title: 個人化SMS訊息
-seo-title: 個人化SMS訊息
-description: 個人化SMS訊息
-seo-description: 探索個人化SMS訊息時音譯選項的特定性。
+title: 個人化 SMS 訊息
+description: 探索個人化SMS訊息時音譯選項的特定性。
 page-status-flag: 從未激活
 uuid: 123fe70c-c279-40a3-88b6-6bfb2453ec83
 contentOwner: 紹維亞
@@ -15,12 +13,12 @@ delivercontext-tags: deliveryCreation，精靈；delivery,smsContent,back;delive
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 個人化SMS訊息{#personalizing-sms-messages}
+# 個人化 SMS 訊息{#personalizing-sms-messages}
 
 個人化SMS訊息的原則與電子郵件的原 [則](../../designing/using/personalization.md#inserting-a-personalization-field)。 不過，您必須注意音譯選項，因為這些選項可能會影響編碼，進而影響要傳送的SMS訊息數量。 如需詳細資訊，請參閱音 [譯和SMS長度一節](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration) 。
 

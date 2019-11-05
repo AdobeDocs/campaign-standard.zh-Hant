@@ -1,84 +1,82 @@
 ---
-title: 豐富型
-seo-title: 豐富型
-description: 豐富型
-seo-description: 「Rich」活動是進階活動，可讓您定義工作流程中的其他資料。
-page-status-flag: 從未啓動
-uuid: 8c1693ef-1312-422c-b05 d-263555113f8 f
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
+title: 擴充
+description: 「擴充」活動是進階活動，可讓您定義要在工作流程中處理的其他資料。
+page-status-flag: 從未激活
+uuid: 8c1693ef-1312-422c-b05d-263553113f8f
+contentOwner: 紹維亞
+products: SG_CAMPAIGN/STANDARD
 audience: 自動化
-content-type: reference
+content-type: 參考
 topic-tags: 定位活動
-discoiquuid: f67c1caf-3284-4c34-a5 b0-8654a95640 ae
-context-tags: 擴充，主要
+discoiquuid: f67c1caf-3284-4c34-a5b0-8654a95640ae
+context-tags: 富集，主
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 782a5f89b0361f1cbe59c9b353ca90dec90c3906
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 豐富型{#enrichment}
+# 擴充{#enrichment}
 
 ## 說明 {#description}
 
 ![](assets/enrichment.png)
 
-**[!UICONTROL Enrichment]** 活動是進階活動，可讓您定義工作流程中的其他資料。
+活 **[!UICONTROL Enrichment]** 動是進階活動，可讓您定義要在工作流程中處理的其他資料。
 
 ## 使用內容 {#context-of-use}
 
-**[!UICONTROL Enrichment]** 活動通常用於定位活動或匯入檔案之後，在允許使用目標資料的活動之前。
+活動 **[!UICONTROL Enrichment]** 通常用於定位活動後或匯入檔案後，以及允許使用定位資料之活動前。
 
-此活動包含比 **[!UICONTROL Query]** 活動更進階的擴充功能。有些簡單的擴充案例可直接在 [查詢活動](../../automating/using/query.md#enriching-data)中執行。
+此活動包含比活動更高級的富集函 **[!UICONTROL Query]** 數。 某些簡單的擴充案例可直接在查詢活動 [中執行](../../automating/using/query.md#enriching-data)。
 
-透過 **[!UICONTROL Enrichment]** 活動，您可以運用傳入的轉變，並設定活動，以額外資料完成輸出轉場。它可結合來自多個集合的資料，或建立暫存資源的連結。
+使用活 **[!UICONTROL Enrichment]** 動時，您可以利用傳入的轉場，並設定活動以使用其他資料完成輸出轉場。 它可結合來自多組資料，或建立臨時資源的連結。
 
-## 組態配置 {#configuration}
+## 配置 {#configuration}
 
-若要設定 **[!UICONTROL Enrichment]** 活動：
+要配置活 **[!UICONTROL Enrichment]** 動：
 
-1. 將 **[!UICONTROL Enrichment]** 活動拖放至工作流程中。
-1. 選取活動，然後使用顯示的快速動作 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啓。
-1. 如果活動有幾個傳入的轉場效果，請選取 **[!UICONTROL Primary set]**。在此活動中設定的其他資料將會新增至對外轉場中的這個主要集。
+1. 將活動拖放 **[!UICONTROL Enrichment]** 至工作流程。
+1. 選擇活動，然後使用顯示的快 ![](assets/edit_darkgrey-24px.png) 速操作中的按鈕將其開啟。
+1. 如果活動有數個傳入轉場，請選取 **[!UICONTROL Primary set]**。 此活動中配置的其他資料將添加到出站轉換中的此主集。
 
-   如果主要集已包含其他資料，您可以選擇保留或移除這些資料。如果您取消勾選 **[!UICONTROL Keep all additional data from the main set]** 選項，只有已設定的額外資料 **[!UICONTROL Enrichment]** 會保留在對外轉換中。
+   如果主集已包含其他資料，您可以選擇保留或刪除這些資料。 如果取消選中該 **[!UICONTROL Keep all additional data from the main set]** 選項，則只有在中配置的其 **[!UICONTROL Enrichment]** 他資料會保留在出站過渡中。
 
-1. 如果有幾個傳入的轉場效果，請在活動 **[!UICONTROL Advanced Relations]** 標籤中定義主要集和其他傳入資料之間的關係。您可以使用 **[!UICONTROL Add element]** 按鈕新增數個關係。
+1. 如果有數個傳入轉場，請在活動的標籤中定義主要集與其他傳入資料 **[!UICONTROL Advanced Relations]** 之間的關係。 您可以使用按鈕添加多個關 **[!UICONTROL Add element]** 系。
 
-   定義新關係時，選取您要連結至主要集的傳入資料集。然後定義關係類型。有幾種關係類型可供使用，視傳入的資料和您的資料模型而定：
+   定義新關係時，選擇要連結到主集的入站資料集。 然後定義關係類型。 根據傳入的資料和您的資料模型，可使用數種關係：
 
-   * **[!UICONTROL 1 cardinality simple link]**：傳入資料的每個記錄會關聯到一個，而一個記錄只會從主要集合中記錄。主要集中的每個記錄都有連結資料中的一個相關記錄。
-   * **[!UICONTROL N cardinality collection link]**：連結資料中的0、或以上(N)記錄可關聯至主要設定的記錄。
-   * **[!UICONTROL 0 or 1 cardinality simple link]**：來自主要集的記錄可與連結資料(但不限於多個)關聯。
-   定義 **[!UICONTROL Cardinality]** 好之後，定義 **[!UICONTROL Reconciliation criteria]**&#x200B;一個。協調標準可以 **[!UICONTROL Source expression]** 是目標資源、 [運算式或](../../automating/using/advanced-expression-editing.md) 直接在引號之間指定的值的欄位。
+   * **[!UICONTROL 1 cardinality simple link]**:每個傳入資料的記錄都與來自主集的一個且僅一個記錄相關聯。 來自主集的每個記錄在連結資料中具有一個關聯記錄。
+   * **[!UICONTROL N cardinality collection link]**:來自連結資料的0、1或更多(N)記錄可以關聯到主集的1個記錄。
+   * **[!UICONTROL 0 or 1 cardinality simple link]**:來自主集的記錄可以與來自連結資料的0或1個記錄關聯，但不能與多個記錄關聯。
+   定義 **[!UICONTROL Cardinality]** 後，定義 **[!UICONTROL Reconciliation criteria]**。 協 **[!UICONTROL Source expression]** 調標準可以是目標資源中的欄位、表達 [式](../../automating/using/advanced-expression-editing.md) ，或直接是引號之間指定的值。
 
-   定義稍後 **[!UICONTROL Label]****[!UICONTROL ID]** 在工作流程中很容易識別的項目。
+   定義 **[!UICONTROL Label]** 和 **[!UICONTROL ID]** 在稍後工作流程中易於識別。
 
    >[!NOTE]
    >
-   >您只能定義主要集與其他與 **[!UICONTROL Enrichment]** 活動連結的傳入轉場之間的關係。對於更簡單的案例來定義與資料庫資源的關係，請使用 [「調解](../../automating/using/reconciliation.md) 」活動。
+   >您只能定義主集和連接到活動的其它入站過渡之間的關 **[!UICONTROL Enrichment]** 系。 對於旨在定義與資料庫資源關係的簡單案例，請使用「協調 [」活動](../../automating/using/reconciliation.md) 。
 
-1. 從活動 **[!UICONTROL Additional data]** 的標籤中定義其他資料。您可以定義與主要集定位維度相關的其他資料(簡單欄位、組合和系列)，或根據活動 **[!UICONTROL Advanced relations]** 標籤中建立的連結 **[!UICONTROL Enrichment]** 。
+1. 從活動的標籤中定 **[!UICONTROL Additional data]** 義其他資料。 您可以定義與主要集的目標維度相關的其他資料（簡單欄位、匯總和系列），或根據在活動標籤中建立 **[!UICONTROL Advanced relations]** 的連結 **[!UICONTROL Enrichment]** 定義。
 
-   請參閱 [豐富資料](../../automating/using/query.md#enriching-data) 區段。
+   請參閱「 [豐富資料](../../automating/using/query.md#enriching-data) 」一節。
 
 1. 確認活動的設定並儲存工作流程。
 
-資料現在可用於之後連接的活動中 **[!UICONTROL Enrichment]**。例如，您可以在電子郵件內容中的個人化欄位瀏覽器 **[!UICONTROL Additional data (targetData)]** 連結下找到它。
+現在，資料可用於在之後連接的活動中 **[!UICONTROL Enrichment]**。 例如，您可以在電子郵件內容中 **[!UICONTROL Additional data (targetData)]** 個人化欄位檔案總管的連結下找到它。
 
-## 範例：豐富描述檔資料與檔案中包含的資料 {#example--enriching-profile-data-with-data-contained-in-a-file}
+## 範例：使用檔案中包含的資料豐富描述檔資料 {#example--enriching-profile-data-with-data-contained-in-a-file}
 
-此範例說明如何使用檔案包含的購買資料充實個人檔案資料。我們認為購買資料儲存在第三方系統中。每個描述檔都可以儲存在檔案中的數個購買項目。工作流程的最終目標是傳送電子郵件給至少購買兩個項目的目標設定檔，以感謝他們的忠誠度。
+此範例說明如何以檔案中包含的購買資料豐富描述檔資料。 我們認為購買資料儲存在協力廠商系統中。 每個描述檔都可儲存數個購買項目。 工作流程的最終目標是傳送電子郵件給已購買至少兩個項目的目標設定檔，以感謝他們的忠誠度。
 
-工作流程的設定如下：
+工作流配置如下：
 
 ![](assets/enrichment_example_workflow.png)
 
-* 針對將接收訊息之個人檔案的 **[!UICONTROL Query]** 活動。
-* 載入購買資料的 **[!UICONTROL Load file]** 活動。例如：
+* 定 **[!UICONTROL Query]** 位將接收訊息的設定檔的活動。
+* 載 **[!UICONTROL Load file]** 入購買資料的活動。 例如：
 
    ```
    tcode;tdate;customer;product;tamount
@@ -90,55 +88,55 @@ source-git-commit: 782a5f89b0361f1cbe59c9b353ca90dec90c3906
    aze128;04/03/2017;clara.smith@example.com;Phone;149
    ```
 
-   透過此範例檔案，我們將使用電子郵件地址將資料與資料庫設定檔協調。您也可以依照本文件 [](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)所述啓用唯一ID。
+   在此示例檔案中，我們將使用電子郵件地址來協調資料與資料庫配置檔案。 您也可以如本檔案所述啟用唯 [一ID](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)。
 
-* **[!UICONTROL Enrichment]** 在從檔案載入的交易資料與在中選取的描述檔之間建立連結的活動 **[!UICONTROL Query]**。連結會定義在活動 **[!UICONTROL Advanced relations]** 的索引標籤中。連結是根據 **[!UICONTROL Load file]** 來自活動的轉場而定。它會使用描述檔資源的「電子郵件」欄位和匯入檔案的「客戶」欄做為協調標準。
+* 在從 **[!UICONTROL Enrichment]** 檔案載入的事務處理資料與在中選擇的配置檔案之間建立連結的活動 **[!UICONTROL Query]**。 該連結在活動的標 **[!UICONTROL Advanced relations]** 簽中定義。 連結以活動產生的轉場為 **[!UICONTROL Load file]** 基礎。 它使用配置檔案資源的「電子郵件」欄位和導入檔案的「客戶」列作為協調標準。
 
    ![](assets/enrichment_example_workflow2.png)
 
-   建立連結後，會新增 **[!UICONTROL Additional data]** 兩組：
+   建立連結後，會新增兩組 **[!UICONTROL Additional data]** 連結：
 
-   * 對應每個描述檔的兩個最後一個交易之兩行的集合。對於此系列，產品名稱、交易日期和產品價格會新增為其他資料。遞減排序會套用至資料。若要從 **[!UICONTROL Additional data]** 標籤建立系列：
+   * 兩個行的集合，這些行對應於每個配置檔案的最後兩個事務處理。 對於此系列，產品名稱、交易日期和產品價格會新增為其他資料。 對資料套用遞減排序。 若要建立系列，請從標籤 **[!UICONTROL Additional data]** 中：
 
-      選取先前在活動 **[!UICONTROL Advanced relations]** 標籤中定義的連結。
+      選擇先前在活動標籤中定 **[!UICONTROL Advanced relations]** 義的連結。
 
       ![](assets/enrichment_example_workflow3.png)
 
-      勾選 **[!UICONTROL Collection]** 並指定要擷取的行數(在此範例中為2)。在此畫面中，您可以自訂 **[!UICONTROL Alias]** 系列 **[!UICONTROL Label]** 和系列。參照此系列時，這些值會顯示在工作流程的下列活動中。
+      檢 **[!UICONTROL Collection]** 查並指定要檢索的行數（本例中為2）。 在此畫面中，您可以自 **[!UICONTROL Alias]** 訂系列 **[!UICONTROL Label]** 和系列。 這些值將在參考此系列時，顯示在工作流程的下列活動中。
 
       ![](assets/enrichment_example_workflow4.png)
 
-      至於 **[!UICONTROL Data]** 保留系列，請選取最終傳送中將使用的欄。
+      若要 **[!UICONTROL Data]** 保留系列，請選取要用於最終傳送的欄。
 
       ![](assets/enrichment_example_workflow6.png)
 
-      在交易日期上套用遞減排序，以確定擷取最新交易。
+      對事務日期應用降序排序，以確保檢索最新事務。
 
       ![](assets/enrichment_example_workflow7.png)
 
-   * 匯總計算每個描述檔的交易總數。稍後將使用此匯總，篩選至少記錄兩筆交易的描述檔。若要建立匯總，請從 **[!UICONTROL Additional data]** 標籤中：
+   * 匯總計算每個配置檔案的事務處理總數。 此匯總稍後將用於篩選至少記錄了兩個交易的描述檔。 要建立聚合，請從頁籤 **[!UICONTROL Additional data]** 中：
 
-      選取先前在活動 **[!UICONTROL Advanced relations]** 標籤中定義的連結。
+      選擇先前在活動標籤中定 **[!UICONTROL Advanced relations]** 義的連結。
 
       ![](assets/enrichment_example_workflow3.png)
 
-      選取 **[!UICONTROL Aggregate]**。
+      Select **[!UICONTROL Aggregate]**.
 
       ![](assets/enrichment_example_workflow8.png)
 
-      如 **[!UICONTROL Data]** 要保持，請定義 **「全部匯總」** 匯總。如果您需要，請指定自訂別名，以在下列活動中快速找到它。
+      要保 **[!UICONTROL Data]** 留，請定義「全 **部計數** 」匯總。 如果您需要，請指定自訂別名，以便在下列活動中更快找到別名。
 
       ![](assets/enrichment_example_workflow9.png)
 
-* **[!UICONTROL Segmentation]** 僅含一個區段的活動，擷取至少記錄兩筆交易的初始目標設定檔。只排除一筆交易的描述檔。若要這麼做，區段的查詢是在先前定義的匯總上進行。
+* 只 **[!UICONTROL Segmentation]** 有一個區段的活動，可擷取至少記錄了兩個交易之初始目標的描述檔。 僅包含一個事務的配置檔案將被排除。 為此，區段的查詢是在先前定義的匯總上進行。
 
    ![](assets/enrichment_example_workflow5.png)
 
-* **[!UICONTROL Email delivery]** 使用中定義的其他資料來動態 **[!UICONTROL Enrichment]** 擷取由描述檔進行之兩次購買的活動。新增個人化欄位時，可在 **其他資料(targetData)** 節點中找到其他資料。
+* 使用 **[!UICONTROL Email delivery]** 中定義的其他資料動態擷取描述 **[!UICONTROL Enrichment]** 檔最後兩次購買的活動。 新增個人化欄位時，可在「其 **他資料(TargetData)」節點中找到其他資料** 。
 
    ![](assets/enrichment_example_workflow10.png)
 
 **相關主題：**
 
-* [運用外部資料豐富客戶個人檔案](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Managedatatofuelengagingexperiences)
+* [利用外部資料豐富客戶個人檔案](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Managedatatofuelengagingexperiences)
 

@@ -1,8 +1,6 @@
 ---
-title: 布建和設定與Audience manager或People核心服務的整合
-seo-title: 布建和設定與Audience manager或People核心服務的整合
-description: 布建和設定與Audience manager或People核心服務的整合
-seo-description: '瞭解如何設定Audience Manager / People核心服務整合，以便開始使用不同的Adobe Experience cloud解決方案來分享受眾或細分。 '
+title: 布建與設定與 Audience Manager 或 People 核心服務整合
+description: '瞭解如何設定Audience Manager / People核心服務整合，以便開始使用不同的Adobe Experience cloud解決方案來分享受眾或細分。 '
 page-status-flag: 從未激活
 uuid: e7329644-0033-4729-b4a7-61bef137f4b5
 contentOwner: 紹維亞
@@ -14,12 +12,12 @@ discoiquuid: eb24f4ea-325f-433a-91a0-c45906320bcb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 布建和設定與Audience manager或People核心服務的整合{#provisioning-and-configuring-integration-with-audience-manager-or-people-core-service}
+# 布建與設定與 Audience Manager 或 People 核心服務整合{#provisioning-and-configuring-integration-with-audience-manager-or-people-core-service}
 
 在Adobe Campaign中布建和設定Audience manager和People核心的步驟有兩個：請 [求提交至Adobe](#submitting-request-to-adobe) , [然後在Adobe Campaign中設定整合](#configuring-the-integration-in-adobe-campaign)。
 
@@ -27,7 +25,7 @@ source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 Audience Manager(AAM)或People核心服務整合可讓您在Adobe Campaign中匯入和匯出觀眾或區段。
 
-必須先設定此整合。 若要要求提供此整合，請寄送電子郵件至 [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com) ，內含下列資訊：
+必須先設定此整合。若要請求佈建此整合，請傳送電子郵件寄至 [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com)，並提供下列資訊:
 
 <table> 
  <tbody> 
@@ -70,7 +68,7 @@ Audience Manager(AAM)或People核心服務整合可讓您在Adobe Campaign中匯
 
 如果您使用Adobe Audience manager而非People Core Service，則所有 **[!UICONTROL Declared ID]** 案例都適用。
 
-您可以向以下地址 **[!UICONTROL Declared ID]** 請求設定： [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com)。
+You can raise a request for **[!UICONTROL Declared ID]** provisioning to the following address: [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com).
 
 ## 在Adobe Campaign中設定整合 {#configuring-the-integration-in-adobe-campaign}
 

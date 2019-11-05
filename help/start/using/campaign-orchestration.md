@@ -1,8 +1,6 @@
 ---
-title: 宣傳協調
-seo-title: 宣傳協調
-description: 宣傳協調
-seo-description: Adobe Campaign是功能強大的跨通道宣傳管理工具，可協助您協調線上和線下策略，以建立個人化的客戶體驗。
+title: 行銷活動策劃
+description: Adobe Campaign是功能強大的跨通道宣傳管理工具，可協助您協調線上和線下策略，以建立個人化的客戶體驗。
 page-status-flag: 從未激活
 uuid: 027f6787-d2ef-44ae-a40a-8facdfe2ae77
 contentOwner: 紹維亞
@@ -14,12 +12,12 @@ discoiquuid: aee81724-b425-47b4-af92-e55eff97836f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 宣傳協調{#campaign-orchestration}
+# 行銷活動策劃{#campaign-orchestration}
 
 Adobe Campaign是功能強大的跨通道宣傳管理工具，可協助您協調線上和線下策略，以建立個人化的客戶體驗。 Adobe Campaign提供了一個管理促銷活動的平台，可讓您控制建立、執行和追蹤跨通道促銷活動的整個程式，並根據客戶的個人檔案、行為、偏好和需求來傳送個人化訊息。 您可以輕鬆協調、建模並自動化整個行銷流程，並與其他Adobe解決方案整合。
 
@@ -40,5 +38,5 @@ Adobe Campaign的主要功能包括：
 * **建立消息和內容** -此階段涉及選擇通 [信渠道](../../channels/using/discovering-communication-channels.md)。 您也可以設計著 [陸頁面](../../channels/using/about-landing-pages.md) ，以取得或更新描述檔，並擴充您的資料庫。 請參 [閱「建立電子郵](../../channels/using/creating-an-email.md)件 [、建立SMS訊息](../../channels/using/creating-an-sms-message.md)、建立推播通知、 [](../../channels/using/preparing-and-sending-a-push-notification.md)[](../../channels/using/about-in-app-messaging.md)[](../../channels/using/creating-the-direct-mail.md)在應用程式中建立推播訊息、建立直接遞送郵件、建立直接郵寄」。
 * **測試和傳送** -執行階段可讓使用者在傳送前，透過預覽畫面和傳送校對給核准者，執行各種驗證步驟（內容、目標）。 請參閱 [測試和傳送](../../sending/using/about-sending-messages-with-campaign.md)。
 * **監控和報告** -一旦執行了促銷活動並傳送了不同的訊息，此階段可讓使用者收集傳送的不同狀態，以及追蹤和監控資訊。 系統會產生促銷活動和傳送報表，以追蹤促銷活動和收件者活動的影響。 請參閱 [報告工具](../../reporting/using/about-dynamic-reports.md)。
-* **自動化** -在此階段，還有其他因素，例如匯入／匯出機制實施方法、資料管理和更新模式、個人化資料識別等。 定義。 請參 [閱工作流程與資料管理](../../automating/using/workflow-data-and-processes.md)。
+* **自動化** -在此階段，還有其他因素，例如匯入／匯出機制實施方法、資料管理和更新模式、個人化資料識別等。 定義。 See [Workflows and data management](../../automating/using/workflow-data-and-processes.md).
 

@@ -1,8 +1,6 @@
 ---
-title: 外部API
-seo-title: 外部API
-description: 外部API
-seo-description: null
+title: 外部 API
+description: null
 contentOwner: 紹維亞
 products: SG_CAMPAIGN/STANDARD
 audience: 自動化
@@ -12,12 +10,12 @@ context-tags: externalAPI，工作流，主
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 597396beb733c8f0b739720e951d2a42f5645af6
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 外部API {#external-api}
+# 外部 API {#external-api}
 
 ## 說明 {#description}
 

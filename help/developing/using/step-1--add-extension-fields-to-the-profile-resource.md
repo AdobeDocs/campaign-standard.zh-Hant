@@ -1,30 +1,28 @@
 ---
-title: 「步驟1：新增副檔名至描述檔資源」
-seo-title: 「步驟1：新增副檔名至描述檔資源」
-description: 「步驟1：新增副檔名至描述檔資源」
-seo-description: 瞭解如何擴充描述檔資源。
-page-status-flag: 從未啓動
-uuid: cb93ed40-3b00-458d-9554-8839545fdb
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
+title: '"步驟 1：將擴充欄位新增至設定檔資源"'
+description: 瞭解如何擴充描述檔資源。
+page-status-flag: 從未激活
+uuid: cb93ed40-3b00-458d-9554-883954565fdb
+contentOwner: 紹維亞
+products: SG_CAMPAIGN/STANDARD
 audience: 開發
-content-type: reference
-topic-tags: use-case—extending-the-api
-discoiquuid: e9a7d1ab-9a4a-49d2-a725-7bcf8 fc fc240 d6
+content-type: 參考
+topic-tags: use-case-extending-the-api
+discoiquuid: e9a7d1ab-9a4a-49d2-a725-7bcf8fc240d6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Step 1: Add extension fields to the profile resource{#step-add-extension-fields-to-the-profile-resource}
+# 步驟 1：將擴充欄位新增至設定檔資源{#step-add-extension-fields-to-the-profile-resource}
 
-1. From the advanced menu, via the Adobe Campaign logo, select **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]**, then **[!UICONTROL Custom resources]**.
-1. Click the **[!UICONTROL Create]** icon to create a new custom resource.
-1. Choose the **[!UICONTROL Extend an existing resource]** option.
-1. Select the **[!UICONTROL Profile]** resource.
+1. 從進階功能表，透過Adobe Campaign標誌，選取 **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]**，然後 **[!UICONTROL Custom resources]**。
+1. 按一下 **[!UICONTROL Create]** 圖示以建立新的自訂資源。
+1. 選擇選 **[!UICONTROL Extend an existing resource]** 項。
+1. 選擇資 **[!UICONTROL Profile]** 源。
 1. Click **[!UICONTROL Create]**.
-1. Add the **[!UICONTROL Text]** type **[!UICONTROL Promo code]** field with the **[!UICONTROL Brand]** ID in the resource fields.
+1. 在資源 **[!UICONTROL Text]** 欄位 **[!UICONTROL Promo code]** 中添加 **[!UICONTROL Brand]** 帶有ID的類型欄位。
 

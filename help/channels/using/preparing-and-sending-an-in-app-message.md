@@ -1,8 +1,6 @@
 ---
 title: 準備和傳送應用程式內訊息
-seo-title: 準備和傳送應用程式內訊息
-description: 準備和傳送應用程式內訊息
-seo-description: 建立應用程式內訊息，以特定內容鎖定您的應用程式訂閱者。
+description: 建立應用程式內訊息，以特定內容鎖定您的應用程式訂閱者。
 page-status-flag: 從未激活
 uuid: a79b0466-8641-46cc-a70f-e4e839587bb2
 contentOwner: 紹維亞
@@ -15,7 +13,7 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -126,7 +124,7 @@ If you require personalization with **Personal and Sensitive** fields, we recomm
 
    ![](assets/inapp_creating_5.png)
 
-1. 編輯訊息的內容並定義進階選項。 請參 [閱自訂應用程式內訊息](https://helpx.adobe.com/campaign/standard/channels/using/customizing-a-push-notification.html)。
+1. 編輯訊息的內容並定義進階選項。 See [Customizing an In-App message](https://helpx.adobe.com/campaign/standard/channels/using/customizing-a-push-notification.html).
 
    ![](assets/inapp_creating_6.png)
 
@@ -137,7 +135,7 @@ If you require personalization with **Personal and Sensitive** fields, we recomm
 **相關主題：**
 
 * [自訂應用程式內訊息](../../channels/using/customizing-an-in-app-message.md)
-* [應用程式內報表](../../reporting/using/in-app-report.md)
+* [應用程式內報告](../../reporting/using/in-app-report.md)
 * [在工作流程中傳送應用程式內訊息](../../automating/using/in-app-delivery.md)
 
 ## 傳送您的應用程式內訊息 {#sending-your-in-app-message}
@@ -168,6 +166,6 @@ If you require personalization with **Personal and Sensitive** fields, we recomm
 
 **相關主題：**
 
-* [應用程式內報表](../../reporting/using/in-app-report.md)
+* [應用程式內報告](../../reporting/using/in-app-report.md)
 * [在工作流程中傳送應用程式內訊息](../../automating/using/in-app-delivery.md)
 

@@ -1,8 +1,6 @@
 ---
-title: 設計著陸頁面
-seo-title: 設計著陸頁面
-description: 設計著陸頁面
-seo-description: 請依照下列步驟來設計著陸頁面的內容，並將其連結至服務。
+title: 設計登錄頁面
+description: 請依照下列步驟來設計著陸頁面的內容，並將其連結至服務。
 page-status-flag: 從未激活
 uuid: de6fe190-835c-40fd-8101-a809b430b423
 contentOwner: 紹維亞
@@ -15,12 +13,12 @@ context-tags: landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c216210e2cb279c87ba472d4ec6a02284aae7a74
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 設計著陸頁面{#designing-a-landing-page}
+# 設計登錄頁面{#designing-a-landing-page}
 
 ## 關於著陸頁面內容設計內容設計 {#about-content-design}
 

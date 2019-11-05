@@ -1,8 +1,6 @@
 ---
-title: 發行說明2015-2016
-seo-title: 發行說明2015-2016
-description: 發行說明2015-2016
-seo-description: 本頁列出2015年和2016年版本的Adobe Campaign Standard。
+title: 發行說明 2015-2016 年
+description: 本頁列出2015年和2016年版本的Adobe Campaign Standard。
 page-status-flag: 從未激活
 uuid: d5a0f6cc-0bed-46cf-8dff-1717fb624f8f
 contentOwner: 紹維亞
@@ -14,12 +12,12 @@ discoiquuid: a3ce6b80-1858-49d1-8880-3543181127f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 發行說明2015-2016{#release-notes}
+# 發行說明 2015-2016 年{#release-notes}
 
 想要2015-2016年版Adobe Campaign Standard嗎？
 
@@ -135,7 +133,7 @@ source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
 * 修正根據(mobileApp)範本編輯推播通知的對象時，無法顯示預先定義篩選 **[!UICONTROL Send via push notification]** 器的問題。
 * 行動應用程式設定畫面( **[!UICONTROL Administration > Channels > Push Notification > Mobile applications]** )現在會顯示訊息，指出iOS或Android平台已成功建立。
 
-#### 著陸頁面 {#landing-pages}
+#### 登錄頁面 {#landing-pages}
 
 * 修正提交著陸頁面表單時無法傳送確認電子郵件的問題。
 
@@ -316,7 +314,7 @@ source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
 * 新增其他資料時顯示的匯整定義視窗已改進為僅提供與使用中資料相容的選件選項(例如：計算平均值只能用於數值資料)。
 * 現在，只有具有管理權限的使用者才能執行立即可用的技術工作流程。
 
-#### 著陸頁面 {#landing-pages-1}
+#### 登錄頁面 {#landing-pages-1}
 
 * 修正著陸頁面屬性中可能截斷32位元AES編碼索引鍵的錯誤。
 * 修正在定義可見性條件或新增動態內容至著陸頁面時，查詢編輯器無法正確顯示的錯誤。
@@ -453,7 +451,7 @@ source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
 * 修正當新增工作流程後未儲存工作流程時，個人化欄位無法插入至工作流程傳送活動的錯誤。
 * 修正無法顯示電子郵件傳送活動之傳出轉場定位維度的錯誤。
 
-#### 著陸頁面 {#landing-pages-2}
+#### 登錄頁面 {#landing-pages-2}
 
 * 修正個人化欄位無法在著陸頁面的可本地化內容區塊中正常運作的錯誤。
 
@@ -611,7 +609,7 @@ source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
 
 * 修正編輯內容時，可能導致圖示或搜尋列顯示不理想的錯誤。
 
-#### 著陸頁面 {#landing-pages-3}
+#### 登錄頁面 {#landing-pages-3}
 
 * 修正無法使用套件匯入來匯入著陸頁面的錯誤。
 
@@ -667,7 +665,7 @@ source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
 * **現在** ，自訂資源中已正確考慮浮動資料。
 * 修正已執行簡化匯入清單中的顯示錯誤，此錯誤是在修改對應範本的狀態時造成的。
 
-#### 著陸頁面 {#landing-pages-4}
+#### 登錄頁面 {#landing-pages-4}
 
 * 已修正著陸頁面範本的某些元素，這些元素在英文例項上可能會以法文錯誤顯示。
 
@@ -766,7 +764,7 @@ source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
 * 修正某些記錄寫入時，可能導致15分鐘延遲的錯誤。
 * 修正當依或欄排序時，無法顯示行銷活動清單的 **[!UICONTROL Date]** 錯 **[!UICONTROL Indicators]** 誤。
 
-#### 著陸頁面 {#landing-pages-5}
+#### 登錄頁面 {#landing-pages-5}
 
 * 修正選取測試描述檔以預覽著陸頁面時發生的錯誤。
 
@@ -839,7 +837,7 @@ source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
 
 * 修正工作流程執行記錄檔 **中的** 「訊息」欄無法正確匯出的錯誤。
 
-#### 個人檔案與受眾 {#profiles-and-audiences}
+#### 設定檔與閱聽眾 {#profiles-and-audiences}
 
 * 修正導致重複確認元素複製或刪除時間的錯誤。 **僅限使用Internet Explorer 11的混合裝置**。
 
@@ -866,7 +864,7 @@ source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
  </thead> 
  <tbody> 
   <tr> 
-   <td> 導出清單<br /> </td> 
+   <td> 匯出清單<br /> </td> 
    <td> 您現在可以將清單中的內容匯出為CSV格式的檔案。 此函式適用於所有具有清單模式 <strong>的畫面</strong> (例如：設定檔清單)。<br /> 導出的資料是導出時顯示的列中的資料。 因此，您可以編輯清單，以選取要匯出的資料。<br /> 有關使用此功能的詳細資訊，請參閱詳 <a href="../../automating/using/exporting-lists.md">細檔案</a>。<br /> </td> 
   </tr> 
   <tr> 
@@ -913,7 +911,7 @@ source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
 
 * 修正當透過運算式編輯器新增動態內容時，在傳送電子郵件之前無法檢查JavaScript語法錯誤的錯誤。
 
-#### 著陸頁面 {#landing-pages-6}
+#### 登錄頁面 {#landing-pages-6}
 
 * 修正無法從平板電腦編輯著陸頁面的錯誤。
 
@@ -992,7 +990,7 @@ source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
 * 修正使用Internet Explorer 11 **[!UICONTROL Edit properties]** 的Microsoft Surface Pro3 **[!UICONTROL Show proofs]** 平板電腦無法使用和按鈕的錯誤。
 * 修正可能無法顯示電子郵件傳送記錄檔的錯誤。
 
-#### 著陸頁面 {#landing-pages-7}
+#### 登錄頁面 {#landing-pages-7}
 
 * 修正在登陸頁面中編 **** 輯內容時，無法使用品牌標誌內容區塊的錯誤。
 * 修正如果為著陸頁面指定有效日期，則無法在行銷活動清單中顯示著陸頁面的錯誤。

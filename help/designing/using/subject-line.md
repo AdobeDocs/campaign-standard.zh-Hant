@@ -1,27 +1,25 @@
 ---
-title: Defining the subject line and the sender of an email
-seo-title: Defining the subject line and the sender of an email
-description: Defining the subject line and the sender of an email
-seo-description: Discover how to define the subject line and the sender of an email in the Email Designer.
-page-status-flag: never-activated
+title: 定義電子郵件的主旨行和發件人
+description: 瞭解如何在電子郵件設計工具中定義主旨行和電子郵件寄件者。
+page-status-flag: 從未激活
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: sauviat
+contentOwner: 紹維亞
 products: SG_CAMPAIGN/STANDARD
-audience: designing
+audience: 設計
 content-type: 參考
-topic-tags: editing-email-content
+topic-tags: 編輯——電子郵件——內容
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5847c89b97ede8b03e75d1d90f31c88ed5c8a84e
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
 # 定義電子郵件的主旨行和發件人{#defining-the-subject-line-of-an-email}
 
-The message subject is mandatory to prepare and send the message.
+留言主體是準備和發送留言的必備主題。
 
 >[!NOTE]
 >
@@ -65,9 +63,9 @@ The message subject is mandatory to prepare and send the message.
 
 ![](assets/delivery_content_edition16.png)
 
-* 該 **[!UICONTROL From: name]** 欄位允許您輸入發件人名稱。 By default, the default Sender name block is automatically entered in the field. **** Adobe Campaign是指電子郵件通道設定(從進階功能表， **[!UICONTROL Administration > Channels > Email > Email accounts]** 透過Adobe Campaign標誌)來指定此傳送者。
+* 該 **[!UICONTROL From: name]** 欄位允許您輸入發件人名稱。 預設情況下，預設的 **「發件人名稱** 」塊會自動輸入到欄位中。 Adobe Campaign是指電子郵件通道設定(從進階功能表， **[!UICONTROL Administration > Channels > Email > Email accounts]** 透過Adobe Campaign標誌)來指定此傳送者。
 
-   You can change the sender name by clicking the Sender name block. ****&#x200B;然後，欄位會變成可編輯，您可以輸入要使用的名稱。
+   您可以按一下「傳送者名稱」區塊，以變更 **傳送者名稱** 。 然後，欄位會變成可編輯，您可以輸入要使用的名稱。
 
    此欄位可以個人化。 若要這麼做，您可以按一下傳送者名稱下方的圖示，新增個人化欄位、內容區塊和動態內容。
 
@@ -81,4 +79,4 @@ The message subject is mandatory to prepare and send the message.
 
 * [插入個人化欄位](../../designing/using/personalization.md#inserting-a-personalization-field)
 * [新增內容區塊](../../designing/using/personalization.md#adding-a-content-block)
-* [Defining dynamic content in an email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
+* [定義電子郵件中的動態內容](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)

@@ -1,8 +1,6 @@
 ---
-title: 使用新欄位擴充描述檔資源
-seo-title: 使用新欄位擴充描述檔資源
-description: 使用新欄位擴充描述檔資源
-seo-description: 瞭解如何擴充描述檔資源。
+title: 使用新欄位擴充設定檔資源
+description: 瞭解如何擴充描述檔資源。
 page-status-flag: 從未激活
 uuid: 9b99e95c-93ff-4187-90f7-db0baf5369ad
 contentOwner: 紹維亞
@@ -14,12 +12,12 @@ discoiquuid: 1e0f8945-fc3c-46a9-a8e5-b181a1f5ffcb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 使用新欄位擴充描述檔資源{#extending-the-profile-resource-with-a-new-field}
+# 使用新欄位擴充設定檔資源{#extending-the-profile-resource-with-a-new-field}
 
 ## 關於擴展配置檔案 {#about-extending-profiles}
 
@@ -41,7 +39,7 @@ source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 相關主題：
 
 * [關於自訂資源](../../developing/using/data-model-concepts.md)
-* [管理用戶檔案](../../audiences/using/about-profiles.md)
+* [管理設定檔](../../audiences/using/about-profiles.md)
 * [管理測試設定檔](../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles)
 
 ## 步驟1:擴充描述檔資源 {#step-1--extend-the-profile-resource}

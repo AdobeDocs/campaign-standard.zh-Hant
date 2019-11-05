@@ -1,108 +1,106 @@
 ---
 title: 設定螢幕定義
-seo-title: 設定螢幕定義
-description: 設定螢幕定義
-seo-description: 瞭解如何根據資源資料結構定義新的Adobe Campaign畫面。
-page-status-flag: 從未啓動
-uuid: 40848197-b1 a0-4018-bc3-7df64 fb86307
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
+description: 瞭解如何根據資源資料結構定義新的Adobe Campaign畫面。
+page-status-flag: 從未激活
+uuid: 40848197-b1a0-4018-bfc3-7df64fb83307
+contentOwner: 紹維亞
+products: SG_CAMPAIGN/STANDARD
 audience: 開發
-content-type: reference
-topic-tags: 新增或延伸-資源
-discoiquuid: 9dabb328-ac0 c-49fd-8996-1d56341 ee7 ac
-context-tags: CusResource，主要
+content-type: 參考
+topic-tags: 添加或擴展資源
+discoiquuid: 9dabb328-ac0c-49fd-8996-8d56341ee7ac
+context-tags: cusResource,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b3291f7c0cbede6a3180ad4a4ab8a365720f5031
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Configuring the screen definition{#configuring-the-screen-definition}
+# 設定螢幕定義{#configuring-the-screen-definition}
 
-建立資源或新增欄位至現有資源時，您可以定義要如何顯示在介面中。
+在建立資源或向現有資源添加新欄位時，可以定義希望這些欄位在介面中的顯示方式。
 
-此步驟不是強制性的，因為您仍可透過工作流程、觀眾和REST API填入資源並存取資料。
+此步驟並非必要步驟，因為您仍可以填入資源，並透過工作流程、對象和REST API存取其資料。
 
-In the **[!UICONTROL Screen definition]** tab, you can:
+在標籤 **[!UICONTROL Screen definition]** 中，您可以：
 
-* 新增對導覽窗格中自訂資源的存取權
-* 將組成資源的元素清單個人化
-* 定義顯示資源之每個元素的詳細檢視方式
+* 在導覽窗格中新增自訂資源的存取權
+* 個性化顯示組成資源的元素清單的方式
+* 定義資源每個要素的詳細資訊視圖的顯示方式
 
-## Enabling access from the navigation menu {#enabling-access-from-the-navigation-menu}
+## 從導覽功能表啟用存取 {#enabling-access-from-the-navigation-menu}
 
-如果您希望資源有專屬螢幕，可以從導覽功能表中使用。
+如果您希望資源有專用的螢幕，可以從導航菜單中使其可用。
 
-1. From the **[!UICONTROL Screen definition]** tab of the resource, unfold the **[!UICONTROL Navigation]** section.
-1. Check the **[!UICONTROL Add an entry in the 'Client data' section]** box to allow access to this resource from the navigation pane.
+1. 從資源 **[!UICONTROL Screen definition]** 的頁籤展開該 **[!UICONTROL Navigation]** 部分。
+1. 選中該 **[!UICONTROL Add an entry in the 'Client data' section]** 框可允許從導航窗格訪問此資源。
 
    ![](assets/schema_extension_19.png)
 
-The resource will appear as a sub-entry within the **[!UICONTROL Client data]** section.
+資源將作為子條目顯示在節 **[!UICONTROL Client data]** 中。
 
-## Defining the default list configuration {#defining-the-default-list-configuration}
+## 定義預設清單配置 {#defining-the-default-list-configuration}
 
-The **[!UICONTROL List configuration]** section of the screen definition lets you define the columns and information that will be displayed by default in the overview of a resource.
+屏 **[!UICONTROL List configuration]** 幕定義部分允許您定義預設顯示在資源概述中的列和資訊。
 
-1. Check the **[!UICONTROL Customize the list configuration]** box to define the way the columns of the resource are displayed.
-1. Use the **[!UICONTROL Create element]** button to select a field from those that you have created.
-1. 建立的欄位會顯示在清單中。您可以編輯其標籤及其寬度。
+1. 選中 **[!UICONTROL Customize the list configuration]** 該框以定義資源列的顯示方式。
+1. 使用按 **[!UICONTROL Create element]** 鈕從已建立的欄位中選擇欄位。
+1. 建立的欄位將顯示在清單中。 您可以編輯其標籤和寬度。
 
    ![](assets/schema_extension_20.png)
 
-1. In the **[!UICONTROL Simple search]** section, check the **[!UICONTROL Specify the fields to be taken into account in the search]** to define which fields will be included in the search.
+1. 在區 **[!UICONTROL Simple search]** 段中，選中 **[!UICONTROL Specify the fields to be taken into account in the search]** 以定義將包含在搜尋中的欄位。
 
    >[!CAUTION]
    >
-   >此組態取代預設搜尋中使用的欄位。
+   >此配置將替換預設搜索中使用的欄位。
 
-1. In the **[!UICONTROL Advanced filtering]** section, check the **[!UICONTROL Add search fields]** box to add additional fields beyond the simple search field. 例如，如果您從建立的欄位選取「日期」欄位，使用者將能夠執行僅參照日期的搜尋。
-1. 您可以修改兩個搜尋類型的欄位順序。
-1. 對於進階搜尋，您可以新增連結至連結資源的欄位。These filters appear in the **[!UICONTROL Search]** menu of the generated screen.
+1. 在區段 **[!UICONTROL Advanced filtering]** 中，核取方塊以 **[!UICONTROL Add search fields]** 新增簡單搜尋欄位以外的其他欄位。 例如，如果您從已建立的欄位中選取「日期」欄位，使用者將可執行僅參考日期的搜尋。
+1. 您可以修改這兩種搜索類型的欄位順序。
+1. 對於高級搜索，您可以添加連結到連結資源的欄位。 這些篩選器會出現在 **[!UICONTROL Search]** 產生的畫面功能表中。
 
-現在已定義資源的概述畫面。
+現在已定義資源的概述螢幕。
 
-## Defining the detail screen configuration {#defining-the-detail-screen-configuration}
+## 定義詳細畫面設定 {#defining-the-detail-screen-configuration}
 
-The **[!UICONTROL Detail screen configuration]** section of the screen definition lets you define the columns and information that will be displayed in the detail screen of each element of the resource.
+屏 **[!UICONTROL Detail screen configuration]** 幕定義部分允許您定義將顯示在資源每個元素的詳細資訊螢幕中的列和資訊。
 
-1. Unfold the **[!UICONTROL Detail screen configuration]** section and check the **[!UICONTROL Define a detail screen]** to configure the screen that corresponds to each element of the resource. 如果您未勾選此方塊，將無法存取此資源的詳細資料檢視。
-1. 只要按一下，即可從自訂資源新增所有欄位。To do this, click the ![](assets/addallfieldsicon.png) icon or use the **[!UICONTROL Add an element]** button.
-1. 從為此資源建立的元素中選取元素，並指定欄位類型：
+1. 展開該 **[!UICONTROL Detail screen configuration]** 部分並檢 **[!UICONTROL Define a detail screen]** 查以配置與資源的每個元素對應的螢幕。 如果不選中此框，則無法訪問此資源元素的詳細視圖。
+1. 只要按一下，您就可從自訂資源新增所有欄位。 若要這麼做，請按一下 ![](assets/addallfieldsicon.png) 圖示或使用按 **[!UICONTROL Add an element]** 鈕。
+1. 從為此資源建立的元素中選擇一個元素並指定欄位類型：
 
-   * **[!UICONTROL Input field]**：是可編輯欄位。
-   * **[!UICONTROL Value]**：為唯讀欄位。
-   * **[!UICONTROL List]**：是表格。
-   * **[!UICONTROL Separator]**：將您的元素分割為類別。
+   * **[!UICONTROL Input field]**:是可編輯的欄位。
+   * **[!UICONTROL Value]**:是只讀欄位。
+   * **[!UICONTROL List]**:是桌子。
+   * **[!UICONTROL Separator]**:將您的元素分割成類別。
    ![](assets/schema_extension_23.png)
 
-1. 新增的元素會顯示在清單中。您可以編輯其標籤。
+1. 新增的元素會顯示在清單中。 您可以編輯其標籤。
 
    ![](assets/schema_extension_22.png)
 
-1. Add as many **[!UICONTROL Separator]** as needed to split your elements into different categories.
+1. 視需要新增 **[!UICONTROL Separator]** 多個元素，將元素分割為不同類別。
 
-   這可讓您顯示分隔符號以更好地組織視窗。
+   這可讓您顯示分隔符號，以更好地組織您的視窗。
 
    ![](assets/schema_extension_25.png)
 
-資源的詳細畫面現在已設定。
+資源的詳細資訊螢幕現在已配置。
 
-## Actions on data section {#actions-on-data-section}
+## 資料區段的動作 {#actions-on-data-section}
 
-這些設定可讓您在自訂資源畫面中顯示控制列。有三個可用選項：
+這些設定可讓您在自訂資源畫面中顯示控制列。 有三種可用選項：
 
 ![](assets/schema_extension_actions.png)
 
-* **[!UICONTROL Authorize creating]**：此選項可讓您啓用資源的建立元素。因此，使用者可以新增其他記錄。
+* **[!UICONTROL Authorize creating]**:此選項允許您激活建立資源的元素。 因此，用戶可以添加其他記錄。
 
    >[!NOTE]
    >
-   >您必須先啓動連結至資源的詳細畫面，才能提供此選項。
+   >您必須先啟動連結至資源的詳細資訊畫面，才能使此選項可用。
 
-* **[!UICONTROL Authorize duplicating]**：此選項可讓您啓用連結至自訂資源的記錄。
-* **[!UICONTROL Authorize deleting]**：此選項可讓您啓動連結至自訂資源的記錄。
+* **[!UICONTROL Authorize duplicating]**:此選項允許您激活連結到自定義資源的重複記錄。
+* **[!UICONTROL Authorize deleting]**:此選項允許您激活連結到自定義資源的刪除記錄。
 

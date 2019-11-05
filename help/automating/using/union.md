@@ -1,59 +1,57 @@
 ---
-title: Union
-seo-title: Union
-description: Union
-seo-description: 歐盟活動可讓您將多個活動的結果重新整理為單一目標。
-page-status-flag: 從未啓動
-uuid: fafc3ce9-2212-4403-8754-cfbb28 ba6 e26
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
+title: 聯合
+description: 「聯合」活動允許您將多個活動的結果重新組合到單個目標中。
+page-status-flag: 從未激活
+uuid: fafc3ce9-2212-4403-8754-cfbb28ba6e26
+contentOwner: 紹維亞
+products: SG_CAMPAIGN/STANDARD
 audience: 自動化
-content-type: reference
+content-type: 參考
 topic-tags: 定位活動
-discoiquuid: 99a8c3a5-4d90-4db-aa37-1d0 a84719 cf6
-context-tags: 聯合組織，主要
+discoiquuid: 99a8c3a5-7d90-4dbb-aa37-1d0a84719cf6
+context-tags: 聯合，主
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Union{#union}
+# 聯合{#union}
 
-## Description {#description}
+## 說明 {#description}
 
 ![](assets/union.png)
 
-**[!UICONTROL Union]** 活動可讓您將多個活動的結果重新群組為單一目標。
+此活 **[!UICONTROL Union]** 動可讓您將多個活動的結果重新群組至單一目標。
 
 >[!NOTE]
 >
->這些集不一定需要統一。
+>這些集合不一定需要是同質的。
 
-## Context of use {#context-of-use}
+## 使用內容 {#context-of-use}
 
-**[!UICONTROL Union]** 活動可用來在執行分段、定義觀眾或在準備訊息目標時，結合傳入的轉場次數。
+當執 **[!UICONTROL Union]** 行分段、定義對象或準備訊息目標時，活動可用來結合傳入轉場中的人口族群。
 
-## Configuration {#configuration}
+## 配置 {#configuration}
 
-1. Drag and drop a **[!UICONTROL Union]** activity into your workflow.
-1. 將它連接至之前的其他活動，例如查詢。
-1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
-1. Select the **[!UICONTROL Reconciliation type]** to define how duplicates are from the confrontation between inbound populations are handled:
+1. 將活動拖放 **[!UICONTROL Union]** 至工作流程。
+1. 將其連接到前面的其他活動，如查詢。
+1. 選擇活動，然後使用顯示的快 ![](assets/edit_darkgrey-24px.png) 速操作中的按鈕將其開啟。
+1. 選擇以 **[!UICONTROL Reconciliation type]** 定義如何處理傳入人口族群對抗中重複項：
 
-   * **[!UICONTROL Keys only]**：這是預設模式。當來自不同傳入轉場的元素具有相同的索引鍵時，活動只會保留一個元素。只有在傳入的人口族群統一時，才可使用此選項。
-   * **[!UICONTROL All shared columns]**：資料會根據傳入轉場的所有欄進行協調。因此，您必須選取要保留在重復情況下的主要集。如果傳入的人口目標維度不同，則可使用此選項。
-   * **[!UICONTROL A selection of columns]**：選取此選項，可定義將套用資料協調的欄清單。您必須先選取主要設定(包含來源資料)，然後選取要用於加入的欄。
+   * **[!UICONTROL Keys only]**:這是預設模式。 當來自不同傳入轉場的元素具有相同索引鍵時，活動只會保留一個元素。 只有傳入的人口族群是同質的，才能使用此選項。
+   * **[!UICONTROL All shared columns]**:資料會根據所有與傳入轉場共用的欄進行協調。 因此，您必須選擇在出現重複時保留的主集。 如果傳入人口族群定位維度不同，則可使用此選項。
+   * **[!UICONTROL A selection of columns]**:選擇此選項可定義將應用資料協調的列清單。 首先必須選擇主集（包含源資料的主集），然後選擇用於聯接的列。
 
-1. Check the **[!UICONTROL Use common additional data only]** box if you would like to keep only the additional data that is in all inbound transitions.
-1. If you would like to limit the size of the final population, check the **[!UICONTROL Limit size of generated population]** box. The size can be specified in the **[!UICONTROL Maximum number of records]** field.
-1. If needed, manage the activity's [Transitions](../../automating/using/executing-a-workflow.md#managing-an-activity-s-outbound-transitions) to access the advanced options for the calculated population.
+1. 如果您 **[!UICONTROL Use common additional data only]** 只想保留所有傳入轉場中的其他資料，請勾選此方塊。
+1. 如果要限制最終人口的大小，請選中該 **[!UICONTROL Limit size of generated population]** 框。 可在欄位中指定大 **[!UICONTROL Maximum number of records]** 小。
+1. 如有需要，請管理活動的 [轉場](../../automating/using/executing-a-workflow.md#managing-an-activity-s-outbound-transitions) ，以存取計算人口的進階選項。
 1. 確認活動的設定並儲存工作流程。
 
 ## Example {#example}
 
-以下範例顯示兩個查詢活動的結果，其目標是從Adobe Campaign資料庫的Adobe Campaign資料庫到年齡介於34到40歲之間的重新群組描述檔。結果包含兩個查詢的所有描述檔，或設定期間所指定的最大記錄數(如果適用)。
+下列範例顯示兩個查詢活動的結果，這些活動旨在從18到27歲的Adobe Campaign資料庫重新群組設定檔，以及34到40歲的資料。 結果包含兩個查詢的所有配置檔案或在配置期間指定的最大記錄數（如果適用）。
 
 ![](assets/wkf_union_example.png)

@@ -1,8 +1,6 @@
 ---
 title: 行銷活動
-seo-title: 行銷活動
-description: 行銷活動
-seo-description: 「瞭解如何建立和管理您的行銷活動：促銷活動、電子郵件、簡訊和推播通知傳送、登陸頁面、工作流程。 您可以輕鬆設計新活動、編輯現有活動，並查詢其狀態和有效性。」
+description: 「瞭解如何建立和管理您的行銷活動：促銷活動、電子郵件、簡訊和推播通知傳送、登陸頁面、工作流程。 您可以輕鬆設計新活動、編輯現有活動，並查詢其狀態和有效性。」
 page-status-flag: 從未激活
 uuid: 5d45a935-6d03-4b27-aabd-7c47c11241ba
 contentOwner: 紹維亞
@@ -15,7 +13,7 @@ context-tags: 活動，概述
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 

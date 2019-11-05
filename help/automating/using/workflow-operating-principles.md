@@ -1,33 +1,31 @@
 ---
 title: 工作流程作業原則
-seo-title: 工作流程作業原則
-description: 工作流程作業原則
-seo-description: 瞭解工作流程的主要層面。
-page-status-flag: 從未啓動
-uuid: 85755e85-617b-4a9b-bb30-96BA8333 f4 f0
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
+description: 瞭解工作流程的主要方面。
+page-status-flag: 從未激活
+uuid: 85755e85-617b-4a9b-bb30-96ba833f4f0
+contentOwner: 紹維亞
+products: SG_CAMPAIGN/STANDARD
 audience: 自動化
-content-type: reference
-topic-tags: 關於工作流程與資料管理
+content-type: 參考
+topic-tags: about-workflows-and-data-management
 discoiquuid: 3a13785d-1ef7-4043-9927-2d495b83709f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Workflow operating principles{#workflow-operating-principles}
+# 工作流程作業原則{#workflow-operating-principles}
 
-A workflow is a **sequence of configurable activities**. 每個活動在程序中都有特定角色。The result of each activity is forwarded to the following activity by a **transition**, represented by an arrow.
+工作流是可配 **置活動的序列**。 每個活動在進程中都具有特定角色。 每個活動的結果通過一個轉換（用箭頭表示） **轉發**&#x200B;到以下活動。
 
-某個活動與另一個活動之間交換的資料類型會影響下列活動的設定方式。例如，如果訪客是在電子郵件傳送活動之前建立的，則可作為該電子郵件的目標。
+在一個活動和另一個活動之間交換的資料類型可能會影響以下活動的配置方式。 例如，如果在電子郵件傳送活動之前建立了人口族群，則可當成相關電子郵件的目標。
 
-您可以開啓活動來檢查或編輯工作流程之前或之後的參數。
+您可以在執行工作流之前或之後開啟活動以檢查或編輯參數。
 
-您可以開啓轉場，檢查傳送的資料在執行工作流程期間或之後是否正確。To access the detail view of the transitions, you have to check the **[!UICONTROL Keep interim results]** option in the **[!UICONTROL Execution]** section of the workflow properties.
+您可以開啟轉場來檢查在執行工作流程期間或之後傳送的資料是否正確。 若要存取轉場的詳細檢視，您必須勾選工作 **[!UICONTROL Keep interim results]** 流程屬性 **[!UICONTROL Execution]** 區段中的選項。
 
 ![](assets/workflow_overview.png)
 

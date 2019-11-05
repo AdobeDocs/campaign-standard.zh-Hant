@@ -1,8 +1,6 @@
 ---
 title: 外部信號
-seo-title: 外部信號
-description: 外部信號
-seo-description: 當某些條件在另一個工作流中成功滿足時，外部信號活動會觸發工作流。
+description: 當某些條件在另一個工作流中成功滿足時，外部信號活動會觸發工作流。
 page-status-flag: 從未激活
 uuid: 884b6daf-bfd9-440b-8336-004b80c76def
 contentOwner: 紹維亞
@@ -15,7 +13,7 @@ context-tags: 信號，主
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 

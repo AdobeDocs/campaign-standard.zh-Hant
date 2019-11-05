@@ -1,151 +1,149 @@
 ---
-title: 建立觀眾
-seo-title: 建立觀眾
-description: 建立觀眾
-seo-description: 瞭解如何在Adobe Campaign中建立受眾。
-page-status-flag: 從未啓動
-uuid: fe99b31b-a949-4832-b0 e6-2b36 d1 c8
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
-audience: 受眾
-content-type: reference
+title: 建立閱聽眾
+description: 瞭解如何在Adobe Campaign中建立觀眾。
+page-status-flag: 從未激活
+uuid: fe99b31b-a949-4832-b0e6-2b36d1c8be80
+contentOwner: 紹維亞
+products: SG_CAMPAIGN/STANDARD
+audience: audiences
+content-type: 參考
 topic-tags: 管理觀眾
-discoiquuid: df8bdlbing-be5 e-4044-bc26-aa3466 accbe
-context-tags: ReadAudience，main；觀眾，概觀；傳送，觀眾，返回
+discoiquuid: df8bdcfb-be5e-4044-bc26-aa3466accbbe
+context-tags: readAudience,main;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 866567d63dd2798eb56d42d4e163e5484c9b4d68
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Creating audiences{#creating-audiences}
+# 建立閱聽眾{#creating-audiences}
 
-## Creating query audiences {#creating-query-audiences}
+## 建立查詢對象 {#creating-query-audiences}
 
-This section describes how to create a **Query** audience. You can also create audiences from importing a file or targeting in a [workflow](../../automating/using/discovering-workflows.md).
+本節說明如何建立查 **詢對象** 。 您也可以從匯入檔案或在工作流程中鎖定目標來建立 [對象](../../automating/using/discovering-workflows.md)。
 
-在觀眾清單中，您可以透過執行Adobe Campaign設定檔上的查詢或匯入Adobe Experience Cloud觀眾來建立觀眾。
+從對象清單中，您可以對Adobe Campaign設定檔執行查詢或匯入Adobe Experience cloud對象，以建立對象。
 
-1. Go to the audience list via the **[!UICONTROL Audiences]** tab or card.
+1. 透過標籤或卡片前往對 **[!UICONTROL Audiences]** 像清單。
 
    ![](assets/audiences_query_1.png)
 
-1. Select **[!UICONTROL Create]** to access the screen to create a new audience.
+1. 選 **[!UICONTROL Create]** 取以存取畫面以建立新觀眾。
 
    ![](assets/audiences_query.png)
 
-1. 為您的觀眾命名。觀眾標籤會用於觀眾清單中，以及查詢工具的浮動視窗中。
-1. Choose a **[!UICONTROL Query]** audience type: the audiences defined by a query are recomputed at each further use.
+1. 為您的觀眾命名。 觀眾標籤會用於觀眾清單和查詢工具的浮動視窗中。
+1. 選擇對 **[!UICONTROL Query]** 像類型：在每個進一步的使用中重新計算由查詢定義的對象。
 
    ![](assets/audience_type_selection.png)
 
-1. Then select the **[!UICONTROL Targeting dimension]** that you would like to use to filter your customers. 每個對象由單一定位維度組成。例如，您無法建立由這兩個描述檔組成的觀眾，測試設定檔和訂閱者。For more on targeting dimensions, refer to [this page](../../automating/using/query.md#targeting-dimensions-and-resources).
-1. 建立查詢以定義觀眾人口。Refer to the section on [editing queries](../../automating/using/editing-queries.md).
-1. Click the **[!UICONTROL Create]** button to save your audience.
+1. 然後，選 **[!UICONTROL Targeting dimension]** 取您要用來篩選客戶的項目。 每個對象都由單一定位維度組成。 例如，您無法建立由設定檔、測試設定檔和訂閱者組成的觀眾。 For more on targeting dimensions, refer to [this page](../../automating/using/query.md#targeting-dimensions-and-resources).
+1. 建立查詢以定義觀眾人口。 請參閱有關編輯查詢 [的章節](../../automating/using/editing-queries.md)。
+1. 按一下按 **[!UICONTROL Create]** 鈕以儲存您的觀眾。
 
 >[!NOTE]
 >
->You can add a description to this audience and define the access authorizations via the **[!UICONTROL Edit properties]** icon.
+>您可以新增說明給此對象，並透過圖示定義存取授 **[!UICONTROL Edit properties]** 權。
 
-## Creating list audiences {#creating-list-audiences}
+## 建立清單對象 {#creating-list-audiences}
 
-This section describes how to create a **List** audience after targeting in a workflow. You can also create audiences by importing a file into a [workflow](../../automating/using/discovering-workflows.md) or via a query from the **[!UICONTROL Audiences]** menu.
+本節說明在工作流程中定 **位後** ，如何建立清單對象。 您也可以將檔案匯入工作流程 [中](../../automating/using/discovering-workflows.md) ，或透過功能表的查詢來建立 **[!UICONTROL Audiences]** 觀眾。
 
-To create a **List** audience, the steps are as follows:
+若要建立 **清單** (List)對象，步驟如下：
 
-1. In the **Marketing activities** tab, click **Create** then select **Workflow**.
+1. 在「行銷活 **動」標籤中** ，按一下「 **建立** 」，然後選 **取「工作流程**」。
 
    ![](assets/audiences_list_1.png)
 
-1. Drag and drop, and then configure the targeting activities which will allow you to select a population that has a **known** dimension. The list of available activities and their configuration are detailed in the [Targeting activities](../../automating/using/about-targeting-activities.md) section.
+1. 拖放，然後設定定位活動，讓您選取具有已知維度的 **人口** 。 可用活動的清單及其設定會在「定位活動」區 [段中詳](../../automating/using/about-targeting-activities.md) 細說明。
 
-   You can use a **[!UICONTROL Query]** activity, or import data using a **[!UICONTROL Load file]** activity before using a **[!UICONTROL Reconciliation]** activity to identify the dimension of the data imported. Here, we want to target recipients who subscribed to the Sport Newsletter with a **[!UICONTROL Query]** activity .
+   您可以使用活 **[!UICONTROL Query]** 動，或在使用活動識別匯入 **[!UICONTROL Load file]** 的資料維度之前， **[!UICONTROL Reconciliation]** 使用活動匯入資料。 在此，我們希望鎖定訂閱體育電子報並進行活動的收 **[!UICONTROL Query]** 件者。
 
    ![](assets/audiences_list_2.png)
 
-1. After your targeting, drag and drop a **[!UICONTROL Save audience]** activity into your workflow. For example, you can chose to **[!UICONTROL Create or update an audience]**, this allows you to create then automatically update your audience with new data. In this case, add a **[!UICONTROL Scheduler]** activity at the beginning of your workflow.
+1. 定位後，將活動拖放至 **[!UICONTROL Save audience]** 工作流程中。 例如，您可以選擇建 **[!UICONTROL Create or update an audience]**&#x200B;立，然後使用新資料自動更新觀眾。 在這種情況下，請在工作 **[!UICONTROL Scheduler]** 流程的開頭添加活動。
 
-   For more information on configuring this activity, refer to the [Save audience](../../automating/using/save-audience.md) section.
+   如需設定此活動的詳細資訊，請參閱「儲存 [觀眾](../../automating/using/save-audience.md) 」區段。
 
    ![](assets/audiences_list_3.png)
 
-1. 儲存並開始工作流程。
+1. 儲存並啟動工作流程。
 
-   As the **[!UICONTROL Save audience]** is placed after a targeting with a known dimension, the audiences created via this activity are **List** audiences.
+   當定位 **[!UICONTROL Save audience]** 對象與已知維度之後放置時，透過此活動建立的對象為「清 **單** 」對象。
 
-   然後，已儲存對象的內容便可用於讀者的詳細檢視，可透過觀眾清單存取。此檢視中可用的欄對應工作流程儲存活動的傳入轉變欄。例如：匯入的檔案欄，以及從查詢中新增的其他資料。
+   接著，儲存的觀眾內容便可在觀眾的詳細檢視中取得，而觀眾的詳細檢視可透過觀眾清單存取。 此視圖中可用的列對應於工作流保存活動的入站轉換的列。 例如：匯入的檔案欄、從查詢新增的其他資料。
 
    ![](assets/audiences_list_4.png)
 
-## Creating file audiences {#creating-file-audiences}
+## 建立檔案對象 {#creating-file-audiences}
 
-This section details how to create a **File** audience by importing a file into a workflow. You can also create audiences from a targeting activity in a [workflow](../../automating/using/discovering-workflows.md) or via a query from the **[!UICONTROL Audiences]** menu.
+本節詳細說明如何將檔案匯 **入工作流程** ，以建立檔案對象。 您也可以從工作流程中的定位活動 [或從功能表](../../automating/using/discovering-workflows.md) ，透過查詢建立 **[!UICONTROL Audiences]** 對象。
 
-To create a **File** audience, the steps are as follows:
+若要建立 **檔案** (File)對象，步驟如下：
 
-1. In the **Marketing activities** tab, click **Create** then select **Workflow**.
-1. Drag and drop, and then configure a **[!UICONTROL Load file]** activity which will allow you to import a population that has an **unknown** dimension when the workflow is executed. For more information on configuring this activity, refer to the [Load file](../../automating/using/load-file.md) section.
+1. 在「行銷活 **動」標籤中** ，按一下「 **建立** 」，然後選 **取「工作流程**」。
+1. 拖放，然後設定活 **[!UICONTROL Load file]** 動，可讓您在執行工作流程時匯入具有未 **知維** 度的人口。 有關配置此活動的詳細資訊，請參閱「 [載入檔案](../../automating/using/load-file.md) 」部分。
 
    ![](assets/audience_files_1.png)
 
-1. Drag and drop a **[!UICONTROL Save audience]** activity after the **[!UICONTROL Load file]** activity. For more information on configuring this activity, refer to the [Save audience](../../automating/using/save-audience.md) section.
-1. 儲存並開始工作流程。
+1. 在活動後拖 **[!UICONTROL Save audience]** 放活 **[!UICONTROL Load file]** 動。 如需設定此活動的詳細資訊，請參閱「儲存 [觀眾](../../automating/using/save-audience.md) 」區段。
+1. 儲存並啟動工作流程。
 
    ![](assets/audience_files_2.png)
 
-   As the **[!UICONTROL Save audience]** is placed after an import, the data dimension is unknown and the audiences created via this activity are **File** audiences.
+   當匯 **[!UICONTROL Save audience]** 入後置入時，資料維度為未知，透過此活動建立的對象為檔案 **對象** 。
 
-   然後，已儲存對象的內容便可用於讀者的詳細檢視，可透過觀眾清單存取。此檢視中可用的欄對應工作流程儲存活動的傳入轉變欄。例如：匯入檔案的欄，以及從查詢中新增的其他資料。
+   接著，儲存的觀眾內容便可在觀眾的詳細檢視中取得，而觀眾的詳細檢視可透過觀眾清單存取。 此視圖中可用的列對應於工作流保存活動的入站轉換的列。 例如：讀入檔案的欄、從查詢新增的其他資料。
 
    ![](assets/audience_files_3.png)
 
-## Creating Experience Cloud audiences {#creating-experience-cloud-audiences}
+## 建立Experience cloud觀眾 {#creating-experience-cloud-audiences}
 
-Adobe Campaign可讓您透過Adobe Experience Cloud分享和交換受眾。**Experience Cloud** 類型對象會透過 **[!UICONTROL Import shared audience]** 技術工作流程直接從People核心服務匯入Adobe Campaign。
+Adobe Campaign可讓您與Adobe Experience cloud共用和交換受眾。 Experience cloud類 **型的觀眾會透過技術工作流程，直接從People核心服務匯入****[!UICONTROL Import shared audience]** Adobe Campaign。
 
-Unlike **Query** type audience which will query profiles from Adobe Campaign, the **Experience Cloud** audience is composed of a list of Visitor IDs.
+與 **Adobe Campaign中查詢個人檔案的** Query類型對象不同， **Experience Cloud** Audience是由訪客ID清單所組成。
 
-要讓此整合運作，您必須先進行設定。For more information on configuration and how to import or export audiences with People core service, refer to the following [section](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md).
+為了讓此整合發揮作用，您必須先進行設定。 如需有關設定以及如何使用People核心服務匯入或匯出觀眾的詳細資訊，請參閱下 [節](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)。
 
 ![](assets/audience_peoplecore.png)
 
-## Editing audiences {#editing-audiences}
+## 編輯觀眾 {#editing-audiences}
 
-根據對象類型編輯對象有不同的方式：
+根據對象類型，有不同的編輯對象方式：
 
-* To edit a **Query** audience, go to the list of audiences via the **[!UICONTROL Audiences]** menu, or the **[!UICONTROL Audiences]** card from the Adobe Campaign home page.
+* 若要編輯 **查詢對象** ，請透過功能表或Adobe Campaign首頁 **[!UICONTROL Audiences]****[!UICONTROL Audiences]** 的資訊卡，移至對象清單。
 
-   開啓相關受眾。可以編輯先前建立之對象的所有元素。
+   開啟相關的受眾。 您可以編輯先前建立之觀眾的所有元素。
 
    >[!CAUTION]
    >
-   >If you change the **[!UICONTROL Filtering dimension]** in the query, the rules that have previously been defined will be lost.
+   >如果您變更 **[!UICONTROL Filtering dimension]** 查詢中的規則，先前已定義的規則將會遺失。
 
-* To edit a **List** or **File** audience, edit the workflow from which it was created and modify the **[!UICONTROL Save audience]** activity. 啓動工作流程，讓觀眾修改。
-* To edit an **Experience Cloud** audience, refer to the [Importing/Exporting audiences with People core service](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md) section.
+* 若要編輯 **清單** 或檔案 **對象** ，請編輯從中建立該對象的工作流程，並修改 **[!UICONTROL Save audience]** 活動。 啟動工作流程，以便修改對象。
+* 若要編輯 **Experience Cloud觀眾** ，請參閱「使用 [人員核心服務匯入／匯出觀眾](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md) 」區段。
 
-## Deleting audiences {#deleting-audiences}
+## 刪除觀眾 {#deleting-audiences}
 
-有兩種方法可刪除一或多個對象。首先，您可以為觀眾新增到期日
+有兩種方式可刪除一或多個對象。 首先，您可以新增到期日給對象
 
 若要這麼做：
 
-1. 存取您的其中一個觀眾。
-1. Click the ![](assets/edit_darkgrey-24px.png) button to access your audience's configuration.
+1. 存取您的觀眾。
+1. 按一下 ![](assets/edit_darkgrey-24px.png) 按鈕以存取您對象的設定。
 
    ![](assets/audience_delete_2.png)
 
-1. **[!UICONTROL Expires on]** 在欄位中，新增到期日給您的觀眾。
+1. 在欄位 **[!UICONTROL Expires on]** 中，新增到期日給您的觀眾。
 
    ![](assets/audience_delete_3.png)
 
-1. Click **[!UICONTROL Confirm]** then **[!UICONTROL Save]**.
+1. 按一 **[!UICONTROL Confirm]** 下 **[!UICONTROL Save]**。
 
-您的到期日現在已設定。一旦達到此日期，您的觀眾將會自動刪除。
+您的到期日現在已設定好。 一旦到達此日期，您的對象就會自動刪除。
 
-Or if you need to delete an audience, you can simply select one or several audiences then click the **[!UICONTROL Delete element]** button.
+或者，如果您需要刪除對象，您只需選取一或多個對象，然後按一下按 **[!UICONTROL Delete element]** 鈕。
 
 ![](assets/audience_delete_1.png)
 

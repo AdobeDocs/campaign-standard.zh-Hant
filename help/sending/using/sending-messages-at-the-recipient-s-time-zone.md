@@ -1,8 +1,6 @@
 ---
 title: 在收件者的時區傳送訊息
-seo-title: 在收件者的時區傳送訊息
-description: 在收件者的時區傳送訊息
-seo-description: 瞭解如何在收件者的時區傳送訊息。
+description: 瞭解如何在收件者的時區傳送訊息。
 page-status-flag: 從未激活
 uuid: 70228c07-451f-4ddb-8d26-92a5a4814e3a
 contentOwner: 紹維亞
@@ -14,7 +12,7 @@ discoiquuid: daa980ba-8c7c-4673-a68f-379d63e4b8bd
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 781904d58f520987e978ad5d1cdc9e34871ca876
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -27,7 +25,7 @@ source-git-commit: 781904d58f520987e978ad5d1cdc9e34871ca876
 >
 >若要使用此功能，請確定您傳送的目標設定檔在其屬性的區段中指定 **[!UICONTROL Address]** 了時區。 有關訪問配置檔案屬性的詳細資訊，請參閱本 [節](../../audiences/using/editing-profiles.md)。
 
-若要在收件者的時區傳送傳送，您也可以在工作流程中 **[!UICONTROL Scheduler]** 使用活動。 有關此內容的詳細資訊，請參閱本 [頁](../../automating/using/scheduler.md)。
+若要在收件者的時區傳送傳送，您也可以在工作流程中 **[!UICONTROL Scheduler]** 使用活動。 For more on this, refer to this [page](../../automating/using/scheduler.md).
 
 在下列範例中，我們想傳送促銷代碼，該代碼僅在情人節當天有效，給全球所有客戶。 為了在白天提供足夠的時間使用，所有客戶必須在2月14日上午8:00（視其時區而定）收到您的訊息。
 

@@ -1,8 +1,6 @@
 ---
-title: 使用Campaign和Assets核心服務
-seo-title: 使用Campaign和Assets核心服務
-description: 使用Campaign和Assets核心服務
-seo-description: 透過資產核心服務整合，在您的Adobe Campaign訊息和登陸頁面中使用Adobe Experience cloud內共用的任何資源。
+title: 協作使用 Campaign 與 Assets 核心服務
+description: 透過資產核心服務整合，在您的Adobe Campaign訊息和登陸頁面中使用Adobe Experience cloud內共用的任何資源。
 page-status-flag: 從未激活
 uuid: 264a1260-33d6-412b-b2c8-0d57ca10d025
 contentOwner: 紹維亞
@@ -14,12 +12,12 @@ discoiquuid: e6fefe10-afd5-4628-8d9b-69eeb38070eb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 781904d58f520987e978ad5d1cdc9e34871ca876
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 使用Campaign和Assets核心服務{#working-with-campaign-and-assets-core-service}
+# 協作使用 Campaign 與 Assets 核心服務{#working-with-campaign-and-assets-core-service}
 
 將資產核心服務或隨選資產（視您的Adobe Experience cloud環境設定而定）與Adobe Campaign整合，可讓您在Adobe Campaign電子郵件和登陸頁面中使用Adobe Experience cloud內共用的任何資產。
 

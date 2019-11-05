@@ -1,748 +1,746 @@
 ---
-title: 函數清單
-seo-title: 函數清單
-description: 函數清單
-seo-description: 查詢編輯工具可讓您使用進階函數進行複雜篩選。
-page-status-flag: 從未啓動
-uuid: fd50fc99-1e7a-479b-beb7-1f419 b419 d46
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
+title: 函式清單
+description: 查詢編輯工具允許您使用高級功能執行複雜的過濾。
+page-status-flag: 從未激活
+uuid: fd50fc99-1e7a-479b-beb7-1f246b419d46
+contentOwner: 紹維亞
+products: SG_CAMPAIGN/STANDARD
 audience: 自動化
-content-type: reference
-topic-tags: 篩選資料
-discoiquuid: cdbe962-2c59-4cd8-b29 e-36aa2562 fac6
+content-type: 參考
+topic-tags: 過濾資料
+discoiquuid: 3cdbe962-1c59-4cd8-b29e-36aa2562fac6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 83be3f22f3508248f2a4666080a7207998093dc3
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 函數清單{#list-of-functions}
+# 函式清單{#list-of-functions}
 
-## 關於函數 {#about-functions}
+## 關於函式 {#about-functions}
 
-查詢編輯工具可讓您使用進階函數進行複雜篩選。若要這麼做，工具浮動視窗會包含您可以在工作區中使用的 **[!UICONTROL Expression]** 元素。有關此元素的詳細資訊，請參閱特定 [章節](../../automating/using/advanced-expression-editing.md)。
+查詢編輯工具允許您使用高級功能執行複雜的過濾。 為此，工具浮動視窗包含您 **[!UICONTROL Expression]** 可在工作區中使用的元素。 有關此要素的詳細資訊，請參 [閱特定部分](../../automating/using/advanced-expression-editing.md)。
 
-此元素可讓您手動輸入條件。您可以在此處使用下列章節中定義的函數。
+此元素可讓您手動輸入條件。 在這裡，您可以使用以下幾節中定義的函式。
 
-有幾種函數類型可供使用，視需要的結果和控制資料類型而定：
+根據所需結果和操作資料的類型，可使用幾種功能類型：
 
 * 日期
-* Geomarketing
+* 地理行銷
 * 數值
-* 其他函數
-* 整合
-* 字串操縱
-* 排序順序
+* 其他函式
+* 聚合
+* 字串控制
+* 排序
 
 ## 日期 {#dates}
 
-日期函數可用來控制日期或時間值。
+日期函式可用來控制日期或時間值。
 
 <table> 
  <tbody> 
   <tr> 
-   <td> <strong>Name</strong><br /> </td> 
+   <td> <strong>名稱</strong><br /> </td> 
    <td> <strong>說明</strong><br /> </td> 
    <td> <strong>語法</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>addDays</strong><br /> </td> 
-   <td> 新增日期至日期<br /> </td> 
-   <td> addDays(&lt; date&gt;，&lt; number&gt;)<br /> </td> 
+   <td> <strong>AddDays</strong><br /> </td> 
+   <td> 新增日期的天數<br /> </td> 
+   <td> AddDays(&lt;date&gt;, &lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>addStudio</strong><br /> </td> 
-   <td> 新增數小時至日期<br /> </td> 
-   <td> addStudio(&lt; date&gt;，&lt; number&gt;)<br /> </td> 
+   <td> <strong>AddHours</strong><br /> </td> 
+   <td> 將小時數新增至日期<br /> </td> 
+   <td> AddHours(&lt;date&gt;, &lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>AddMin分鐘</strong><br /> </td> 
-   <td> 新增數分鐘至日期<br /> </td> 
-   <td> addMinds(&lt; date&gt;，&lt; number&gt;)<br /> </td> 
+   <td> <strong>AddMinutes</strong><br /> </td> 
+   <td> 將分鐘數新增至日期<br /> </td> 
+   <td> AddMinutes(&lt;date&gt;, &lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>addMonters</strong><br /> </td> 
-   <td> 新增數個月至日期<br /> </td> 
-   <td> addMonters(&lt; date&gt;，&lt; number&gt;)<br /> </td> 
+   <td> <strong>AddMonths</strong><br /> </td> 
+   <td> 新增月份至日期<br /> </td> 
+   <td> AddMonths(&lt;date&gt;, &lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>addSeconds</strong><br /> </td> 
-   <td> 新增數秒至日期<br /> </td> 
-   <td> addSeconds(&lt; date&gt;，&lt; number&gt;)<br /> </td> 
+   <td> <strong>AddSeconds</strong><br /> </td> 
+   <td> 新增秒數至日期<br /> </td> 
+   <td> AddSeconds(&lt;date&gt;, &lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>addYear</strong><br /> </td> 
-   <td> 新增數年至日期<br /> </td> 
-   <td> addYear(&lt; date&gt;，&lt; number&gt;)<br /> </td> 
+   <td> <strong>AddYears</strong><br /> </td> 
+   <td> 在日期中新增多年<br /> </td> 
+   <td> AddYears(&lt;date&gt;, &lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>dateOnly</strong><br /> </td> 
-   <td> 只傳回日期(隨時間00：00)<br /> </td> 
-   <td> dateOnly(&lt; date&gt;)<br /> </td> 
+   <td> <strong>僅限日期</strong><br /> </td> 
+   <td> 僅返回日期（時間為00:00）<br /> </td> 
+   <td> DateOnly(&lt;date&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Day</strong><br /> </td> 
-   <td> 傳回代表日期日的數字<br /> </td> 
-   <td> Day(&lt; date&gt;)<br /> </td> 
+   <td> <strong>日</strong><br /> </td> 
+   <td> 傳回代表日期的數字<br /> </td> 
+   <td> Day(&lt;date&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>天</strong><br /> </td> 
-   <td> 傳回代表日期一年內的日<br /> </td> 
-   <td> DayOfYear(&lt; date&gt;)<br /> </td> 
+   <td> <strong>DayOfYear</strong><br /> </td> 
+   <td> 傳回代表日期年中某天的數字<br /> </td> 
+   <td> DayOfYear(&lt;date&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>DaySago</strong><br /> </td> 
+   <td> <strong>DaysAgo</strong><br /> </td> 
    <td> 傳回目前日期減去n天<br /> </td> 
-   <td> DaySago(&lt;數字&gt;)<br /> </td> 
+   <td> DaysAgo(&lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>DaysagoInint</strong><br /> </td> 
-   <td> 傳回目前日期減去n天(作為整數yyyymdd)<br /> </td> 
-   <td> DaysagoInint(&lt;數字&gt;)<br /> </td> 
+   <td> <strong>DaysAgoInt</strong><br /> </td> 
+   <td> 傳回目前日期減去n天（整數yyymmdd）<br /> </td> 
+   <td> DaysAgoInt(&lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>DaysDiff</strong><br /> </td> 
    <td> 兩個日期之間的天數<br /> </td> 
-   <td> daysDiff(&lt; end date&gt;，&lt; start date&gt;)<br /> </td> 
+   <td> DaysDiff(&lt;end date&gt;, &lt;start date&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>DayBule</strong><br /> </td> 
-   <td> 傳回日期中的年齡<br /> </td> 
-   <td> DayBued(&lt; date&gt;)<br /> </td> 
+   <td> <strong>DaysOld</strong><br /> </td> 
+   <td> 傳回日期的年齡（以天為單位）<br /> </td> 
+   <td> DaysOld(&lt;date&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>getDate</strong><br /> </td> 
-   <td> 傳回伺服器的目前系統日期<br /> </td> 
-   <td> getDate()<br /> </td> 
+   <td> <strong>GetDate</strong><br /> </td> 
+   <td> 返回伺服器的當前系統日期<br /> </td> 
+   <td> GetDate()<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>小時</strong><br /> </td> 
-   <td> 傳回日期的小時<br /> </td> 
-   <td> 小時(&lt;日期&gt;)<br /> </td> 
+   <td> 傳回日期的小時數<br /> </td> 
+   <td> 小時（&lt;日期&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>HULSDiff</strong><br /> </td> 
+   <td> <strong>時數比較</strong><br /> </td> 
    <td> 傳回兩個日期之間的小時數<br /> </td> 
-   <td> HULSdiff(&lt; end date&gt;，&lt; start date&gt;)<br /> </td> 
+   <td> HoursDiff(&lt;end date&gt;, &lt;start date&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>localOutC</strong><br /> </td> 
-   <td> 將本機日期和時間轉換為UTC<br /> </td> 
-   <td> LocalToC(&lt; date&gt;，&lt;時區&gt;)<br /> </td> 
+   <td> <strong>LocalToUTC</strong><br /> </td> 
+   <td> 將本地日期和時間轉換為UTC<br /> </td> 
+   <td> LocalToUTC（&lt;date&gt;, &lt;時區&gt;）<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>分鐘</strong><br /> </td> 
    <td> 傳回日期的分鐘數<br /> </td> 
-   <td> 分鐘(&lt;日期&gt;)<br /> </td> 
+   <td> Minute(&lt;date&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>targetDiff</strong><br /> </td> 
+   <td> <strong>MinutesDiff</strong><br /> </td> 
    <td> 傳回兩個日期之間的分鐘數<br /> </td> 
-   <td> targetDiff(&lt; end date&gt;，&lt; start date&gt;)<br /> </td> 
+   <td> MinutesDiff(&lt;end date&gt;, &lt;start date&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>月</strong><br /> </td> 
    <td> 傳回代表日期月份的數字<br /> </td> 
-   <td> 月(&lt;日期&gt;)<br /> </td> 
+   <td> 月（&lt;日期&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>MonthSago</strong><br /> </td> 
-   <td> 傳回與目前日期減去n個月對應的日期<br /> </td> 
-   <td> MonthSago(&lt;數字&gt;)<br /> </td> 
+   <td> <strong>MonthsAgo</strong><br /> </td> 
+   <td> 傳回與目前日期對應的日期減去n個月<br /> </td> 
+   <td> MonthsAgo(&lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>MonthsDff</strong><br /> </td> 
-   <td> 傳回兩個日期之間的月份數<br /> </td> 
-   <td> monthsDff(&lt; end date&gt;，&lt; start date&gt;)<br /> </td> 
+   <td> <strong>MonthsDiff</strong><br /> </td> 
+   <td> 傳回兩個日期之間的月數<br /> </td> 
+   <td> MonthsDiff(&lt;end date&gt;, &lt;start date&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>MonthBued</strong><br /> </td> 
-   <td> 傳回日期中的數個月<br /> </td> 
-   <td> MonthBued(&lt; date&gt;)<br /> </td> 
+   <td> <strong>月舊</strong><br /> </td> 
+   <td> 傳回日期的月份<br /> </td> 
+   <td> MonthsOld(&lt;date&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Second</strong><br /> </td> 
+   <td> <strong>第二</strong><br /> </td> 
    <td> 傳回日期的秒數<br /> </td> 
-   <td> 第二(&lt;日期&gt;)<br /> </td> 
+   <td> Second(&lt;date&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>最舊</strong><br /> </td> 
-   <td> 傳回最舊的日期 </td> 
-   <td> 最舊(&lt; Date&gt;，&lt; Date&gt;)<br /> </td> 
+   <td> 傳回最舊日期 </td> 
+   <td> 最舊（&lt;日期&gt;, &lt;日期&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>sightsDiff</strong><br /> </td> 
+   <td> <strong>SecondsDiff</strong><br /> </td> 
    <td> 傳回兩個日期之間的秒數<br /> </td> 
-   <td> sdfs(&lt; end date&gt;，&lt; start date&gt;)<br /> </td> 
+   <td> SecondsDiff(&lt;end date&gt;, &lt;start date&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>子日期</strong><br /> </td> 
-   <td> 減去日期中的天數<br /> </td> 
-   <td> 子日數(&lt;日期&gt;，&lt;數字&gt;)<br /> </td> 
+   <td> <strong>SubDays</strong><br /> </td> 
+   <td> 從日期減去天數<br /> </td> 
+   <td> SubDays(&lt;date&gt;, &lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>子時數</strong><br /> </td> 
+   <td> <strong>SubHours</strong><br /> </td> 
    <td> 從日期減去數小時<br /> </td> 
-   <td> 子時數(&lt; date&gt;，&lt;數字&gt;)<br /> </td> 
+   <td> SubHours(&lt;date&gt;, &lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>子分鐘數</strong><br /> </td> 
-   <td> 減去日期中的幾分鐘數<br /> </td> 
-   <td> 子分鐘(&lt;日期&gt;，&lt;數字&gt;)<br /> </td> 
+   <td> <strong>SubMinutes</strong><br /> </td> 
+   <td> 從日期減去分鐘數<br /> </td> 
+   <td> SubMinutes(&lt;date&gt;, &lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>子月份</strong><br /> </td> 
-   <td> 從日期中減去數個月<br /> </td> 
-   <td> 子月份(&lt;日期&gt;，&lt;數字&gt;)<br /> </td> 
+   <td> 從日期減去幾個月<br /> </td> 
+   <td> SubMonths(&lt;date&gt;, &lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>子秒數</strong><br /> </td> 
-   <td> 從日期減去數秒數<br /> </td> 
-   <td> subSeconds(&lt; date&gt;，&lt; number&gt;)<br /> </td> 
+   <td> 從日期減去秒數<br /> </td> 
+   <td> SubSeconds(&lt;date&gt;, &lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Subyear</strong><br /> </td> 
-   <td> 自日期算起數年數<br /> </td> 
-   <td> 子年份(&lt; date&gt;，&lt;數字&gt;)<br /> </td> 
+   <td> <strong>子年</strong><br /> </td> 
+   <td> 從日期減去數年<br /> </td> 
+   <td> SubYears(&lt;date&gt;, &lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>ToDate</strong><br /> </td> 
+   <td> <strong>截止日期</strong><br /> </td> 
    <td> 將日期+時間轉換為日期<br /> </td> 
-   <td> ToDate(&lt; date+ time&gt;)<br /> </td> 
+   <td> ToDate(&lt;date + time&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>ToDateTime</strong><br /> </td> 
    <td> 將字串轉換為日期+時間<br /> </td> 
-   <td> ToDateTime(&lt;字串&gt;)<br /> </td> 
+   <td> ToDateTime(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>todateTimeWithTimeZone</strong><br /> </td> 
-   <td> 將字串轉換為日期+時區。<br /> 範例：TodateTimeWithTimeZone(「2019-02-1908：09：00」，「亞洲/德黑蘭」)<br /> </td> 
-   <td> todateTimeWithTimeZone(&lt;字串&gt;)<br /> </td> 
+   <td> <strong>ToDateTimeWithTimezone</strong><br /> </td> 
+   <td> 將字串轉換為日期+時區。<br /> 範例：ToDateTimeWithTimezone(「2019-02-19 08:09:00」,「Asia/Dehran」)<br /> </td> 
+   <td> ToDateTimeWithTimezone(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>截斷日期</strong><br /> </td> 
-   <td> 將日期+時間四捨五入到最近的秒數<br /> </td> 
-   <td> 截斷日期(@ lastModified，&lt;秒數&gt;)<br /> </td> 
+   <td> <strong>TruncDate</strong><br /> </td> 
+   <td> 將日期+時間四捨五入至最接近的秒數<br /> </td> 
+   <td> TruncDate（@lastModified, &lt;秒數&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>截斷資料</strong><br /> </td> 
-   <td> 將日期+時間四捨五入到指定的精確度，以秒為單位<br /> </td> 
-   <td> 截斷資料Z(&lt; date&gt;，&lt; number of秒&gt;，&lt;時區&gt;)<br /> </td> 
+   <td> <strong>TruncDateTZ</strong><br /> </td> 
+   <td> 將日期+時間四捨五入為以秒為單位的指定精確度<br /> </td> 
+   <td> TruncDateTZ（&lt;date&gt;, &lt;秒數&gt;, &lt;時區&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>截斷1/4</strong><br /> </td> 
-   <td> 將日期四捨五入到季<br /> </td> 
-   <td> 截斷(&lt; date&gt;)<br /> </td> 
+   <td> <strong>TruncQuarter</strong><br /> </td> 
+   <td> 將日期捨入為季度<br /> </td> 
+   <td> TruncQuarter(&lt;date&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>截斷時間</strong><br /> </td> 
-   <td> 將時間四捨五入到最接近的秒數<br /> </td> 
-   <td> cendTime(&lt; date&gt;，&lt; number of秒&gt;)<br /> </td> 
+   <td> <strong>TruncTime</strong><br /> </td> 
+   <td> 將時間部分捨入到最接近的秒數<br /> </td> 
+   <td> TruncTime（&lt;date&gt;, &lt;秒數&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>截斷周</strong><br /> </td> 
-   <td> 將日期四捨五入到星期<br /> </td> 
-   <td> cendWeek(&lt; date&gt;)<br /> </td> 
+   <td> <strong>TruncWeek</strong><br /> </td> 
+   <td> 將日期捨入為一週<br /> </td> 
+   <td> TruncWeek(&lt;date&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>截斷年份</strong><br /> </td> 
-   <td> 將日期+時間四捨五入到每年的月日<br /> </td> 
-   <td> 截斷年份(&lt; date&gt;)<br /> </td> 
+   <td> <strong>TruncYear</strong><br /> </td> 
+   <td> 將日期+時間捨入至年度的1月1日<br /> </td> 
+   <td> TruncYear(&lt;date&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>WeeDay</strong><br /> </td> 
-   <td> 傳回代表日期一星期內的日<br /> </td> 
-   <td> WeeDay(&lt; date&gt;)<br /> </td> 
+   <td> <strong>WeekDay</strong><br /> </td> 
+   <td> 傳回代表日期當周中某天的數字<br /> </td> 
+   <td> WeekDay(&lt;date&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>年</strong><br /> </td> 
-   <td> 傳回代表日期年度的數字<br /> </td> 
-   <td> 年(&lt;日期&gt;)<br /> </td> 
+   <td> 傳回代表日期年份的數字<br /> </td> 
+   <td> Year(&lt;date&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>每年與月</strong><br /> </td> 
-   <td> 傳回代表日期和日期月份的數字<br /> </td> 
-   <td> yarandMonth(&lt; date&gt;)<br /> </td> 
+   <td> <strong>年與月</strong><br /> </td> 
+   <td> 傳回代表日期的年份和月份的數字<br /> </td> 
+   <td> YearAndMonth(&lt;date&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>yarsDff</strong><br /> </td> 
-   <td> 傳回兩個日期之間的年份數<br /> </td> 
-   <td> yarsDiff(&lt; end date&gt;，&lt; start date&gt;)<br /> </td> 
+   <td> <strong>YearsDiff</strong><br /> </td> 
+   <td> 傳回兩個日期之間的年數<br /> </td> 
+   <td> YearsDiff(&lt;end date&gt;, &lt;start date&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>eArchell</strong><br /> </td> 
-   <td> 傳回日期中的年齡<br /> </td> 
-   <td> yarAsted(&lt; date&gt;)<br /> </td> 
+   <td> <strong>YearsOld</strong><br /> </td> 
+   <td> 傳回日期的年齡<br /> </td> 
+   <td> YearsOld(&lt;date&gt;)<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Geomarketing {#geomarketing}
+## 地理行銷 {#geomarketing}
 
-地域行銷功能用於控制地理值。
+地理行銷函式用於操縱地理值。
 
 <table> 
  <tbody> 
   <tr> 
-   <td> <strong>Name</strong><br /> </td> 
+   <td> <strong>名稱</strong><br /> </td> 
    <td> <strong>說明</strong><br /> </td> 
    <td> <strong>語法</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>距離</strong><br /> </td> 
-   <td> 傳回由其經度和經緯度定義的兩點距離(以度表示)<br /> </td> 
-   <td> 距離(&lt; Publisher a&gt;，&lt;緯度A&gt;，&lt; Publisher B&gt;，&lt;緯度B&gt;)<br /> </td> 
+   <td> 傳回由經度和緯度（以度表示）定義的兩點之間的公里距離<br /> </td> 
+   <td> 距離（&lt;經度A&gt;、&lt;經度A&gt;、&lt;經度B&gt;、&lt;經度B&gt;）<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 數值 {#numerical}
 
-數值值可用來將文字轉換為數字。
+數值函式用於將文本轉換為數字。
 
 <table> 
  <tbody> 
   <tr> 
-   <td> <strong>Name</strong><br /> </td> 
+   <td> <strong>名稱</strong><br /> </td> 
    <td> <strong>說明</strong><br /> </td> 
    <td> <strong>語法</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Abs</strong><br /> </td> 
-   <td> 傳回數字的絕對值<br /> </td> 
-   <td> Abs(&lt;數字&gt;)<br /> </td> 
+   <td> 返回數字的絕對值<br /> </td> 
+   <td> Abs(&lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Ciil</strong><br /> </td> 
-   <td> 傳回大於或等於數字的最低整數<br /> </td> 
-   <td> Seil(&lt;數字&gt;)<br /> </td> 
+   <td> <strong>Ceil</strong><br /> </td> 
+   <td> 傳回大於或等於數字的最小整數<br /> </td> 
+   <td> Ceil(&lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Floor</strong><br /> </td> 
+   <td> <strong>地板</strong><br /> </td> 
    <td> 傳回大於或等於數字的最大整數<br /> </td> 
-   <td> 下限(&lt;數字&gt;)<br /> </td> 
+   <td> Floor(&lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>最大</strong><br /> </td> 
-   <td> 傳回兩個數字<br /> </td> 
-   <td> 最大(&lt;數字1&gt;，&lt;數字2&gt;)<br /> </td> 
+   <td> <strong>最棒的</strong><br /> </td> 
+   <td> 傳回兩個數字中的較大值<br /> </td> 
+   <td> 最大（&lt;數字1&gt;, &lt;數字2&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>最低</strong><br /> </td> 
-   <td> 傳回兩個數字<br /> </td> 
-   <td> 最低(&lt;數字1&gt;，&lt;數字2&gt;)<br /> </td> 
+   <td> <strong>最少</strong><br /> </td> 
+   <td> 傳回兩個數字中的較小者<br /> </td> 
+   <td> 最少（&lt;數字1&gt;, &lt;數字2&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Mod</strong><br /> </td> 
-   <td> 傳回n除以n的整數分區<br /> </td> 
-   <td> Mod(&lt;數字1&gt;，&lt;數字2&gt;)<br /> </td> 
+   <td> <strong>修改</strong><br /> </td> 
+   <td> 傳回從n1除以n2的整數除法的余數<br /> </td> 
+   <td> Mod(&lt;number 1&gt;, &lt;number 2&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>百分比</strong><br /> </td> 
-   <td> 傳回兩個數字的比例(以百分比表示)<br /> </td> 
-   <td> 百分比(&lt;數字1&gt;，&lt;數字2&gt;)<br /> </td> 
+   <td> 傳回兩個數字的比率，以百分比表示<br /> </td> 
+   <td> 百分比（&lt;數字1&gt;, &lt;數字2&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>隨機隨機</strong><br /> </td> 
+   <td> <strong>隨機</strong><br /> </td> 
    <td> 傳回隨機值<br /> </td> 
-   <td> 隨機()<br /> </td> 
+   <td> Random()<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>四捨五入</strong><br /> </td> 
-   <td> 將數字捨棄為n小數點<br /> </td> 
-   <td> 四捨五入(&lt;數字&gt;，&lt;小數位數&gt;)<br /> </td> 
+   <td> 將數字四捨五入為n個小數<br /> </td> 
+   <td> 捨入（&lt;number&gt;, &lt;小數位數&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Sign</strong><br /> </td> 
-   <td> 傳回數字的簽署<br /> </td> 
-   <td> 簽署(&lt;數字&gt;)<br /> </td> 
+   <td> <strong>簽署</strong><br /> </td> 
+   <td> 傳回數字元號<br /> </td> 
+   <td> Sign(&lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>toDouble</strong><br /> </td> 
-   <td> 將整數轉換為浮點<br /> </td> 
-   <td> TooDog(&lt;數字&gt;)<br /> </td> 
+   <td> <strong>ToDouble</strong><br /> </td> 
+   <td> 將整數轉換為浮點數<br /> </td> 
+   <td> ToDouble(&lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>ToInt64</strong><br /> </td> 
-   <td> 將浮動字元轉換為64位元整數<br /> </td> 
-   <td> Toint64(&lt;數字&gt;)<br /> </td> 
+   <td> 將浮點數轉換為64位整數<br /> </td> 
+   <td> ToInt64(&lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>ToInteger</strong><br /> </td> 
-   <td> 將浮動字元轉換為整數<br /> </td> 
-   <td> To整數(&lt;數字&gt;)<br /> </td> 
+   <td> <strong>至整數</strong><br /> </td> 
+   <td> 將浮點數轉換為整數<br /> </td> 
+   <td> ToInteger(&lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Trunc</strong><br /> </td> 
-   <td> 將n截斷為n小數點<br /> </td> 
-   <td> Trunc(&lt; n1&gt;，&lt; n2&gt;)<br /> </td> 
+   <td> 截斷n1到n2小數<br /> </td> 
+   <td> Trunc(&lt;n1&gt;, &lt;n2&gt;)<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 其他人 {#others}
+## 其他 {#others}
 
-此表格包含其餘的函數。
+此表包含剩餘的可用函式。
 
 <table> 
  <tbody> 
   <tr> 
-   <td> <strong>Name</strong><br /> </td> 
+   <td> <strong>名稱</strong><br /> </td> 
    <td> <strong>說明</strong><br /> </td> 
    <td> <strong>語法</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>case</strong><br /> </td> 
-   <td> 傳回條件時傳回值1。否則，傳回值2<br /> </td> 
-   <td> 大小寫(&lt;條件&gt;，&lt; value1&gt;)，其他(&lt; value2&gt;))<br /> </td> 
+   <td> <strong>案例</strong><br /> </td> 
+   <td> 如果條件已驗證，則返回值1。 否則，返回值2<br /> </td> 
+   <td> Case(When(&lt;condition&gt;, &lt;value 1&gt;), Else(&lt;value 2&gt;))<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Clearbit</strong><br /> </td> 
+   <td> <strong>ClearBit</strong><br /> </td> 
    <td> 刪除值中的標幟<br /> </td> 
-   <td> clearbit(&lt;識別碼&gt;，&lt;標幟&gt;)<br /> </td> 
+   <td> ClearBit(&lt;identifier&gt;, &lt;flag&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Coalesce</strong><br /> </td> 
-   <td> 傳回值2如果值為零或null，則傳回值1<br /> </td> 
-   <td> CoAlesce(&lt; value1&gt;，&lt; value2&gt;)<br /> </td> 
+   <td> <strong>合併</strong><br /> </td> 
+   <td> 如果值1為零或null，則返回值2，否則返回值1<br /> </td> 
+   <td> Coalesce(&lt;value 1&gt;, &lt;value 2&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>解碼</strong><br /> </td> 
-   <td> 傳回值為value= value2，否則傳回4<br /> </td> 
-   <td> 解碼(&lt; value1&gt;，&lt; value2&gt;，&lt; value3&gt;，&lt; value4&gt;)<br /> </td> 
+   <td> 返回值3是值1 =值2，否則返回4<br /> </td> 
+   <td> Decode(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;, &lt;value 4&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>其他</strong><br /> </td> 
-   <td> 傳回值1(只能用作大小寫函數的參數)<br /> </td> 
-   <td> 其他(&lt; value1&gt;)<br /> </td> 
+   <td> <strong>Else</strong><br /> </td> 
+   <td> 傳回值1（只能用作case函式的參數）<br /> </td> 
+   <td> Else(&lt;value 1&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>getTemailDomain</strong><br /> </td> 
-   <td> 從電子郵件地址擷取網域<br /> </td> 
-   <td> getTemailDomain(&lt; value&gt;)<br /> </td> 
+   <td> <strong>GetEmailDomain</strong><br /> </td> 
+   <td> 從電子郵件地址中擷取網域<br /> </td> 
+   <td> GetEmailDomain(&lt;value&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>getMirrorURL</strong><br /> </td> 
-   <td> 擷取鏡像頁面伺服器的URL<br /> </td> 
-   <td> getMirrorURL(&lt; value&gt;)<br /> </td> 
+   <td> <strong>GetMirrorURL</strong><br /> </td> 
+   <td> 檢索鏡像頁伺服器的URL<br /> </td> 
+   <td> GetMirrorURL(&lt;value&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>if</strong><br /> </td> 
-   <td> 傳回值1，如果運算式為true，則傳回值2<br /> </td> 
-   <td> if(&lt;條件&gt;，&lt; value1&gt;，&lt; value2&gt;)<br /> </td> 
+   <td> <strong>If</strong><br /> </td> 
+   <td> 如果運算式為true，則傳回值1，否則傳回值2<br /> </td> 
+   <td> Iif(&lt;condition&gt;, &lt;value 1&gt;, &lt;value 2&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>isBitSet</strong><br /> </td> 
-   <td> 指出旗標是否包含在<br /> </td> 
-   <td> isBitSet(&lt;識別碼&gt;，&lt;標幟&gt;)<br /> </td> 
+   <td> <strong>IsBitSet</strong><br /> </td> 
+   <td> 指出標幟是否在值中<br /> </td> 
+   <td> IsBitSet(&lt;identifier&gt;, &lt;flag&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>isEmptyString</strong><br /> </td> 
-   <td> 傳回值2如果字串為空，則傳回值3<br /> </td> 
-   <td> isEmptyString(&lt;字串&gt;，&lt; value2&gt;，&lt; value3&gt;)<br /> </td> 
+   <td> <strong>IsEmptyString</strong><br /> </td> 
+   <td> 如果字串為空，則返回值2，否則返回值3<br /> </td> 
+   <td> IsEmptyString(&lt;string&gt;, &lt;value 2&gt;, &lt;value 3&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Nonull</strong><br /> </td> 
-   <td> 如果引數為空，則傳回空白字串<br /> </td> 
-   <td> 非LR(&lt;值&gt;)<br /> </td> 
+   <td> <strong>無空</strong><br /> </td> 
+   <td> 如果引數為NULL，則返回空字串<br /> </td> 
+   <td> NoNull(&lt;value&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Rowidd</strong><br /> </td> 
-   <td> 傳回行數<br /> </td> 
-   <td> Rowidd<br /> </td> 
+   <td> <strong>RowId</strong><br /> </td> 
+   <td> 返回行號<br /> </td> 
+   <td> RowId<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>setBit</strong><br /> </td> 
-   <td> 強制值中的旗標<br /> </td> 
-   <td> setBit(&lt;識別碼&gt;，&lt;標幟&gt;)<br /> </td> 
+   <td> <strong>SetBit</strong><br /> </td> 
+   <td> 強制值中的標幟<br /> </td> 
+   <td> SetBit(&lt;identifier&gt;, &lt;flag&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>ToBoolean</strong><br /> </td> 
-   <td> 將數字轉換為布林值<br /> </td> 
-   <td> ToBoolean(&lt;數字&gt;)<br /> </td> 
+   <td> 將數字轉換為布爾值<br /> </td> 
+   <td> ToBoolean(&lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>當時機</strong><br /> </td> 
-   <td> 傳回值時傳回值1。否則，傳回值2(只能用作大小寫函數的參數)<br /> </td> 
-   <td> 時間(&lt;條件&gt;，&lt; value1&gt;)<br /> </td> 
+   <td> <strong>何時</strong><br /> </td> 
+   <td> 如果運算式已驗證，則傳回值1。 否則，返回值2（只能用作case函式的參數）<br /> </td> 
+   <td> When(&lt;condition&gt;, &lt;value 1&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>NewUUID</strong><br /> </td> 
-   <td> 傳回新UUID。<br /> </td> 
-   <td> NewUUID<br /> </td> 
+   <td> <strong>newUUID</strong><br /> </td> 
+   <td> 傳回新的UUID。<br /> </td> 
+   <td> newUUID<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 字串 {#string}
 
-字串函數可用來控制一組字串。
+字串函式可用來控制一組字串。
 
 <table> 
  <tbody> 
   <tr> 
-   <td> <strong>Name</strong><br /> </td> 
+   <td> <strong>名稱</strong><br /> </td> 
    <td> <strong>說明</strong><br /> </td> 
    <td> <strong>語法</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>AllNonNull2</strong><br /> </td> 
-   <td> 指出所有參數為非null，而非空值<br /> </td> 
-   <td> allnonNULL(&lt;字串&gt;，&lt;字串&gt;)<br /> </td> 
+   <td> 指示所有參數是否為非空值且非空<br /> </td> 
+   <td> AllNonNull2(&lt;string&gt;, &lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>AllNonNull3</strong><br /> </td> 
-   <td> 指出所有參數為非null，而非空值<br /> </td> 
-   <td> allnonNULL(&lt;字串&gt;，&lt;字串&gt;，&lt;字串&gt;)<br /> </td> 
+   <td> 指示所有參數是否為非空值且非空<br /> </td> 
+   <td> AllNonNull3(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>ASCII</strong><br /> </td> 
    <td> 傳回字串中第一個字元的ASCII值<br /> </td> 
-   <td> ASCII(&lt;字串&gt;)<br /> </td> 
+   <td> Ascii(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Char</strong><br /> </td> 
-   <td> 傳回對應於'n'ASCII代碼的字元<br /> </td> 
-   <td> Char(&lt;數字&gt;)<br /> </td> 
+   <td> 傳回與'n' ASCII代碼對應的字元<br /> </td> 
+   <td> 字元(&lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Charindex</strong><br /> </td> 
-   <td> 傳回字串中字串的位置1<br /> </td> 
-   <td> Chardex(&lt;字串&gt;，&lt;字串&gt;)<br /> </td> 
+   <td> 傳回字串1中字串2的位置<br /> </td> 
+   <td> Charindex(&lt;string&gt;, &lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>dataLength</strong><br /> </td> 
+   <td> <strong>DataLength</strong><br /> </td> 
    <td> 傳回字串中的字元數<br /> </td> 
-   <td> dataLength(&lt; String&gt;)<br /> </td> 
+   <td> DataLength(&lt;String&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>getLine</strong><br /> </td> 
-   <td> 傳回字串的nth(從到n)行<br /> </td> 
-   <td> getLine(&lt;字串&gt;)<br /> </td> 
+   <td> <strong>GetLine</strong><br /> </td> 
+   <td> 傳回字串的第n行（從1到n）<br /> </td> 
+   <td> GetLine(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>iFeQals</strong><br /> </td> 
-   <td> 如果前兩個參數等於最後一個參數，則傳回第三個參數<br /> </td> 
-   <td> iFeQuals(&lt;字串&gt;，&lt;字串&gt;，&lt;字串&gt;，&lt;字串&gt;)<br /> </td> 
+   <td> <strong>IfEquals</strong><br /> </td> 
+   <td> 如果前兩個參數相等，則傳回第三個參數，否則傳回最後一個參數<br /> </td> 
+   <td> IfEquals(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>isMemonull</strong><br /> </td> 
-   <td> 指出傳遞作為參數的memo是否為空<br /> </td> 
-   <td> isMemonull(&lt; Memo&gt;)<br /> </td> 
+   <td> <strong>IsMemoNull</strong><br /> </td> 
+   <td> 指示作為參數傳遞的備忘錄是否為空<br /> </td> 
+   <td> IsMemoNull(&lt;Memo&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>JXPublish</strong><br /> </td> 
-   <td> 串連作為參數的兩個字串。系統會在傳回值的每個字串之間新增空格。<br /> </td> 
-   <td> JXPublish(&lt;字串&gt;，&lt;字串&gt;)<br /> </td> 
+   <td> <strong>JuxtWords</strong><br /> </td> 
+   <td> 將傳遞的兩個字串視為參數。 在傳回值中的每個字串之間新增空格。<br /> </td> 
+   <td> JuxtWords(&lt;string&gt;, &lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>JuxtWords3</strong><br /> </td> 
-   <td> 串連作為參數的三個字串。系統會在傳回值的每個字串之間新增空格。<br /> </td> 
-   <td> JXPublish3(&lt;字串&gt;，&lt;字串&gt;，&lt;字串&gt;)<br /> </td> 
+   <td> 將傳遞的三個字串視為參數。 在傳回值中的每個字串之間新增空格。<br /> </td> 
+   <td> JuxtWords3(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>LPad</strong><br /> </td> 
-   <td> 傳回左側的完成字串<br /> </td> 
-   <td> LPad(&lt;字串&gt;，&lt;數字&gt;，&lt; cardtère&gt;)<br /> </td> 
+   <td> 傳回左側的已完成字串<br /> </td> 
+   <td> LPad(&lt;string&gt;, &lt;number&gt;, &lt;caractère&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>左側</strong><br /> </td> 
    <td> 傳回字串的前n個字元<br /> </td> 
-   <td> 左側(&lt;字串&gt;，&lt;數字&gt;)<br /> </td> 
+   <td> Left(&lt;string&gt;, &lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>長度</strong><br /> </td> 
    <td> 傳回字串長度<br /> </td> 
-   <td> 長度(&lt;字串&gt;)<br /> </td> 
+   <td> Length(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>小寫</strong><br /> </td> 
+   <td> <strong>下方</strong><br /> </td> 
    <td> 傳回小寫字串<br /> </td> 
-   <td> 較低(&lt;字串&gt;)<br /> </td> 
+   <td> Lower(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>L修剪</strong><br /> </td> 
+   <td> <strong>Ltrim</strong><br /> </td> 
    <td> 移除字串左側的空格<br /> </td> 
-   <td> L修剪(&lt;字串&gt;)<br /> </td> 
+   <td> Ltrim(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Md5Digest</strong><br /> </td> 
-   <td> 傳回字串MD索引鍵的十六進位表示法<br /> </td> 
-   <td> Md Digest(&lt;字串&gt;)<br /> </td> 
+   <td> 返回字串MD5鍵的十六進位表示<br /> </td> 
+   <td> Md5Digest(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>MooOcontains</strong><br /> </td> 
-   <td> 指定emo包含作為參數傳遞的字串<br /> </td> 
-   <td> MooO包含(&lt; memo&gt;，&lt; string&gt;)<br /> </td> 
+   <td> <strong>備忘內容</strong><br /> </td> 
+   <td> 指定備忘錄是否包含作為參數傳遞的字串<br /> </td> 
+   <td> MemoContains(&lt;memo&gt;, &lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>RPad</strong><br /> </td> 
-   <td> 傳回右側的完成字串<br /> </td> 
-   <td> RPad(&lt;字串&gt;，&lt;數字&gt;，&lt;字元&gt;)<br /> </td> 
+   <td> 傳回右側的已完成字串<br /> </td> 
+   <td> RPad(&lt;string&gt;, &lt;number&gt;, &lt;character&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>取代</strong><br /> </td> 
-   <td> 將指定字串(第一個參數)值的所有發生次數取代為字串中的另一個字串值(3d參數)(第一個參數)<br /> </td> 
-   <td> 取代(&lt; String&gt;，&lt; String&gt;，&lt; String&gt;)<br /> </td> 
+   <td> 將指定字串（第2個參數）值的所有出現次數，換成字串（第1個參數）中的其他字串值（第3個參數）<br /> </td> 
+   <td> Replace(&lt;String&gt;、&lt;String&gt;、&lt;String&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>right</strong><br /> </td> 
+   <td> <strong>右</strong><br /> </td> 
    <td> 傳回字串的最後n個字元<br /> </td> 
-   <td> 右側(&lt;字串&gt;)<br /> </td> 
+   <td> Right(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>R修剪</strong><br /> </td> 
+   <td> <strong>Rtrim</strong><br /> </td> 
    <td> 移除字串右側的空格<br /> </td> 
-   <td> R修剪(&lt;字串&gt;)<br /> </td> 
+   <td> Rtrim(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Sha256Digest</strong><br /> </td> 
-   <td> 計算指定UTF字串的標準 <strong>SHA256</strong> 雜湊<br /> </td> 
-   <td> Sha256摘要(&lt; String&gt;)<br /> </td> 
+   <td> 計算指定 <strong>UTF8字串的標準</strong> SHA256雜湊<br /> </td> 
+   <td> Sha256Digest(&lt;String&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Sha384Digest</strong><br /> </td> 
-   <td> 計算指定UTF字串的標準 <strong>SHA384</strong> 雜湊<br /> </td> 
-   <td> Sha384摘要(&lt; String&gt;)<br /> </td> 
+   <td> 計算指定 <strong>UTF8字串的標準</strong> SHA384雜湊<br /> </td> 
+   <td> Sha384Digest(&lt;String&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Sha512Digest</strong><br /> </td> 
-   <td> 計算指定UTF字串的標準 <strong>SHA512</strong> 雜湊<br /> </td> 
-   <td> Sha512摘要(&lt; String&gt;)<br /> </td> 
+   <td> 計算指定 <strong>UTF8字串的標準</strong> SHA512雜湊<br /> </td> 
+   <td> Sha512Digest(&lt;String&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Smart</strong><br /> </td> 
-   <td> 傳回大寫字母中每個字詞的第一個字母<br /> </td> 
-   <td> 智慧(&lt;字串&gt;)<br /> </td> 
+   <td> <strong>智慧型</strong><br /> </td> 
+   <td> 傳回字串，每個字詞的首字母以大寫表示<br /> </td> 
+   <td> Smart(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>子字串</strong><br /> </td> 
-   <td> 從字串的字元n開始，並以n的長度擷取子字串<br /> </td> 
-   <td> 子字串(&lt;字串&gt;、&lt; offset&gt;、&lt; length&gt;)<br /> </td> 
+   <td> 從字串的字元n1開始提取長度為n2的子字串<br /> </td> 
+   <td> 子字串(&lt;string&gt;, &lt;offset&gt;, &lt;length&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>TointlString</strong><br /> </td> 
+   <td> <strong>ToIntlString</strong><br /> </td> 
    <td> 將數字轉換為字串<br /> </td> 
-   <td> TointlString(&lt;數字&gt;)<br /> </td> 
+   <td> ToIntlString(&lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>toString</strong><br /> </td> 
+   <td> <strong>ToString</strong><br /> </td> 
    <td> 將數字轉換為字串<br /> </td> 
-   <td> toString(&lt;數字&gt;)<br /> </td> 
+   <td> ToString(&lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Upper</strong><br /> </td> 
-   <td> 傳回大寫中的字串<br /> </td> 
-   <td> 大寫(&lt;字串&gt;)<br /> </td> 
+   <td> <strong>上方</strong><br /> </td> 
+   <td> 以大寫傳回字串<br /> </td> 
+   <td> Upper(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>VirtualLink</strong><br /> </td> 
-   <td> 如果其他兩個參數相等，則傳回傳遞作為參數的連結外鍵<br /> </td> 
-   <td> VirtualLink(&lt;數字&gt;，&lt;數字&gt;，&lt;數字&gt;)<br /> </td> 
+   <td> 傳回連結的外鍵，如果其他兩個參數相等，則傳遞為參數<br /> </td> 
+   <td> VirtualLink(&lt;number&gt;、&lt;number&gt;、&lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>VirtualInkSTr</strong><br /> </td> 
-   <td> 傳回作為參數的連結的外國(文字)索引鍵，如果其他參數等於<br /> </td> 
-   <td> VirtuallInkSTR(&lt;字串&gt;，&lt;數字&gt;，&lt;數字&gt;)<br /> </td> 
+   <td> <strong>VirtualLinkStr</strong><br /> </td> 
+   <td> 傳回連結的外鍵（文字）索引鍵，如果其他兩個參數相等，則傳回該連結的外鍵(text)索引鍵<br /> </td> 
+   <td> VirtualLinkStr(&lt;string&gt;, &lt;number&gt;, &lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>secryption_aescubC解密</strong><br /> </td> 
-   <td> 使用HEX格式(2d參數)的索引鍵，以及HEX格式的初始化向量(3rd參數)，解密具有「<strong>x</strong>」首碼(第個參數)的HEX格式加密值<br /> </td> 
-   <td> passworction_aescubC解密(&lt; String&gt;，&lt; String&gt;，&lt; String&gt;)<br /> </td> 
+   <td> <strong>encryption_aescbcDecrypt</strong><br /> </td> 
+   <td> 使用HEX格式的密鑰（第2參數）和HEX格式的初始化向量（第3參數），以「<strong>x</strong>」前置詞（第1參數）解密HEX格式的加密值<br /> </td> 
+   <td> encryption_aescbcDecrypt(&lt;String&gt;, &lt;String&gt;, &lt;String&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>secryption_ aescBCEnrypt</strong><br /> </td> 
-   <td> 使用AES演算法(CBC區塊模式)加密字元(1st參數)字串(第一個參數)和初始化向量(第3d參數)。關鍵字和初始化向量必須以十六進位表示法提供(從 <strong>\ x</strong>開始)。結果將會是十六進位，而沒有 <strong>\ x</strong>。<br /> 請注意，金鑰大小可以是128位元、192位元、256位元(16、24、32位元字元)，但建議您使用與索引鍵相同長度的256位元和randomized IV。<br /> </td> 
-   <td> 加密_ aExcbCEnrypt(&lt; String&gt;，&lt; String&gt;，&lt; String&gt;)<br /> for example：加密_ aExcCEncrypt(johndoe@example.com，「<strong>\ x0123456789ABCDEF012345689ABCDEF</strong>」，「<strong>\ x0123456789ABCDEFEDCBA9867543210</strong>」))<br /> </td> 
+   <td> <strong>encryption_aescbcEncrypt</strong><br /> </td> 
+   <td> 使用AES算法（CBC區塊模式）加密字元字串（第1參數），其中包含鍵（第2參數）和初始化向量（第3參數）。 密鑰和初始化向量必須以十六進位表示(以 <strong>\x開始</strong>)。 結果將以十六進位表示，而不 <strong>是\x</strong>。<br /> 請注意，密鑰大小可以是128位、192位、256位（16、24、32個十六進位字元），但建議您使用256位和與密鑰長度相同的隨機IV。<br /> </td> 
+   <td> encryption_aescbcEncrypt(&lt;String&gt;, &lt;String&gt;, &lt;String&gt;)<br /> ，例如：encryption_aescbcEncrypt(johndoe@example.com, "<strong>\x012345689ABCDEF0123456789ABCDEF</strong>", "<strong>\x0123456789ABCDEFCBA9876543210</strong>」)<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 整合 {#aggregates}
+## 聚合 {#aggregates}
 
-只有在從工作流程活動 [中新增其他資料](../../automating/using/query.md#enriching-data) 時，才可使用匯總 **[!UICONTROL Query]** 功能。
+僅當從工作流的活動中添 [加其他資料](../../automating/using/query.md#enriching-data) 時，聚合函式才 **[!UICONTROL Query]** 可用。
 
-匯總函數可用來對一組值執行計算。
+集合函式用於對一組值執行計算。
 
 <table> 
  <tbody> 
   <tr> 
-   <td> <strong>Name</strong><br /> </td> 
+   <td> <strong>名稱</strong><br /> </td> 
    <td> <strong>說明</strong><br /> </td> 
    <td> <strong>語法</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>平均</strong>、平均<br /> </td> 
+   <td> <strong>平均</strong>，平均<br /> </td> 
    <td> 傳回數值欄中的平均值。<br /> </td> 
-   <td> 平均值(&lt;值&gt;)<br /> </td> 
+   <td> Avg(&lt;value&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>計數</strong>、計數(NULL除外)<br /> </td> 
-   <td> 計算欄中的非空值。<br /> </td> 
-   <td> 計數(&lt;值&gt;)<br /> </td> 
+   <td> <strong>計數</strong>、計數（NULL除外）<br /> </td> 
+   <td> 計算列中的非空值。<br /> </td> 
+   <td> Count(&lt;value&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>CotTle</strong>，count all<br /> </td> 
-   <td> 計算所有值(包括空值和重復值)。<br /> </td> 
-   <td> CostTel()<br /> </td> 
+   <td> <strong>全部計算</strong>，全部計算<br /> </td> 
+   <td> 計算所有值（包括空值和重複值）。<br /> </td> 
+   <td> CountAll()<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>差異</strong>、區別計數<br /> </td> 
-   <td> 計算欄中非空值、不同值。<br /> </td> 
-   <td> 差異(&lt;值&gt;)<br /> </td> 
+   <td> <strong>Countdistinct</strong>, Distinct計數<br /> </td> 
+   <td> 計算列中的非空值、不同的值。<br /> </td> 
+   <td> Countdistinct(&lt;value&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>最大值</strong>、最大值<br /> </td> 
+   <td> <strong>Max</strong>, Max<br /> </td> 
    <td> 傳回數值、字串或日期欄中的最大值。<br /> </td> 
-   <td> 最大值(&lt;值&gt;)<br /> </td> 
+   <td> Max(&lt;value&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>最小值</strong>、最小值<br /> </td> 
+   <td> <strong>閩</strong>、閩<br /> </td> 
    <td> 傳回數值、字串或日期欄中的最小值。<br /> </td> 
-   <td> 最小值(&lt;值&gt;)<br /> </td> 
+   <td> Min(&lt;value&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>總計</strong>、總和<br /> </td> 
+   <td> <strong>Sum</strong>, Sum<br /> </td> 
    <td> 傳回數值欄中值的總和。<br /> </td> 
-   <td> 總計(&lt;值&gt;)<br /> </td> 
+   <td> Sum(&lt;value&gt;)<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 表示法 {#representation}
 
-表示功能用於訂購值。
+表示函式用於對值進行排序。
 
 <table> 
  <tbody> 
   <tr> 
-   <td> <strong>Name</strong><br /> </td> 
+   <td> <strong>名稱</strong><br /> </td> 
    <td> <strong>說明</strong><br /> </td> 
    <td> <strong>語法</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Desc</strong><br /> </td> 
    <td> 套用遞減排序<br /> </td> 
-   <td> desc(&lt; value1&gt;)<br /> </td> 
+   <td> Desc(&lt;value 1&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>orderBy</strong><br /> </td> 
-   <td> 在分割中排序結果<br /> </td> 
-   <td> orderBy(&lt; value1&gt;)<br /> </td> 
+   <td> <strong>訂購者</strong><br /> </td> 
+   <td> 對分區內的結果進行排序<br /> </td> 
+   <td> OrderBy(&lt;value 1&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Partionby</strong><br /> </td> 
-   <td> 剖析表格上查詢的結果<br /> </td> 
-   <td> Partitionby(&lt; value1&gt;)<br /> </td> 
+   <td> <strong>PartitionBy</strong><br /> </td> 
+   <td> 對表上的查詢結果進行分區<br /> </td> 
+   <td> PartitionBy(&lt;value 1&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>RoWWum</strong><br /> </td> 
-   <td> 根據表格劃分和排序順序產生行號。MySQL不支援此函數<br /> </td> 
-   <td> RownNum(PartitionBy(&lt; value1&gt;)，orderBy(&lt; value1&gt;))<br /> </td> 
+   <td> <strong>行號</strong><br /> </td> 
+   <td> 根據表分區和排序順序生成行號。 MySQL不支援此函式<br /> </td> 
+   <td> RowNum(PartitionBy(&lt;value 1&gt;), OrderBy(&lt;value 1&gt;))<br /> </td> 
   </tr> 
  </tbody> 
 </table>

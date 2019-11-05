@@ -1,8 +1,6 @@
 ---
-title: 關於擴充API
-seo-title: 關於擴充API
-description: 關於擴充API
-seo-description: null
+title: 關於擴充 API
+description: null
 page-status-flag: 從未激活
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: 紹維亞
@@ -14,12 +12,12 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 關於擴充API{#about-extending-the-api}
+# 關於擴充 API{#about-extending-the-api}
 
 此使用案例詳細說明公用描述檔API中自訂資源描述檔的擴充欄位。 例如，使用帳單系統產生的促銷代碼，即時更新客戶的個人檔案。
 

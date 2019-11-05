@@ -1,8 +1,6 @@
 ---
-title: 事件交易訊息
-seo-title: 事件交易訊息
-description: 事件交易訊息
-seo-description: 瞭解如何建立和發佈事件交易訊息。
+title: 事件交易式訊息
+description: 瞭解如何建立和發佈事件交易訊息。
 page-status-flag: 從未激活
 uuid: d747feb5-58fb-4e12-a176-404f0eca5391
 contentOwner: 紹維亞
@@ -15,12 +13,12 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 事件交易訊息{#event-transactional-messages}
+# 事件交易式訊息{#event-transactional-messages}
 
 您可以傳送事件交易訊息，以事件為目標。 此類事務性消息不包含配置檔案資訊：傳送目標是由事件本身所包含的資料所定義。
 

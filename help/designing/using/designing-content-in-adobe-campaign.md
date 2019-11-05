@@ -1,8 +1,6 @@
 ---
 title: 在Adobe Campaign中設計內容
-seo-title: 在Adobe Campaign中設計內容
-description: 在Adobe Campaign中設計內容
-seo-description: 瞭解您可以使用Adobe Campaign在內容中定義的所有元素。
+description: 瞭解您可以使用Adobe Campaign在內容中定義的所有元素。
 page-status-flag: 從未激活
 uuid: 8f73407f-ab90-46bc-aeb6-bd87fcb0404c
 contentOwner: 紹維亞
@@ -14,12 +12,12 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Campaign電子郵件設計人員{#designing-content-in-adobe-campaign}
+# Campaign 電子郵件設計工具{#designing-content-in-adobe-campaign}
 
 在Adobe Campaign中建立電子郵件後，您必須定義其內容。
 
@@ -44,6 +42,6 @@ source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
 **相關主題**:
 
 * [建立電子郵件](../../channels/using/creating-an-email.md)
-* [設計著陸頁面](../../channels/using/designing-a-landing-page.md)
-* [建立SMS訊息](../../channels/using/creating-an-sms-message.md)
+* [設計登錄頁面](../../channels/using/designing-a-landing-page.md)
+* [建立 SMS 訊息](../../channels/using/creating-an-sms-message.md)
 * [建立和傳送推播通知](../../channels/using/preparing-and-sending-a-push-notification.md)

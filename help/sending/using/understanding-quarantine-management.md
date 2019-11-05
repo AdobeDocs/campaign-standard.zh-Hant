@@ -1,8 +1,6 @@
 ---
 title: 瞭解隔離管理
-seo-title: 瞭解隔離管理
-description: 瞭解隔離管理
-seo-description: 瞭解如何透過隔離管理來最佳化您的傳送能力。
+description: 瞭解如何透過隔離管理來最佳化您的傳送能力。
 page-status-flag: 從未激活
 uuid: 3c287865-1ada-4351-b205-51807ff9f7ed
 contentOwner: 紹維亞
@@ -14,7 +12,7 @@ discoiquuid: de3a50b6-ea8f-4521-996b-c49cc1f3c946
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 

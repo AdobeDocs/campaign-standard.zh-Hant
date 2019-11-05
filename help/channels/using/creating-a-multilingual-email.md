@@ -1,8 +1,6 @@
 ---
 title: 建立多語言電子郵件
-seo-title: 建立多語言電子郵件
-description: 建立多語言電子郵件
-seo-description: 請依照下列步驟建立以不同慣用語言為目標的多語言電子郵件。
+description: 請依照下列步驟建立以不同慣用語言為目標的多語言電子郵件。
 page-status-flag: 從未激活
 uuid: e90f4ec8-14e3-4304-b5fc-bce0ba08a4ef
 contentOwner: 紹維亞
@@ -14,7 +12,7 @@ discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 

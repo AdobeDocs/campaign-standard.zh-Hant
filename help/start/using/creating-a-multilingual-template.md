@@ -1,68 +1,66 @@
 ---
 title: 建立多語言範本
-seo-title: 建立多語言範本
-description: 建立多語言範本
-seo-description: 瞭解如何透過自動分段客戶的慣用語言，透過單次傳送定義及執行多語言電子郵件/簡訊傳送。報告每個傳送至語言和個別層級的效能。
-page-status-flag: 從未啓動
-uuid: 7a2cd5f7-c0 fc-4825-a770-a62816 c66 b3 f
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
+description: 瞭解如何根據自動細分客戶偏好的語言，透過單一傳遞來定義並執行多語言電子郵件／簡訊傳送。 報告每次傳送的效能，包括語言和個別層級。
+page-status-flag: 從未激活
+uuid: 7a2cd5f7-c0fc-4825-a770-a62816c66b3f
+contentOwner: 紹維亞
+products: SG_CAMPAIGN/STANDARD
 audience: start
-content-type: reference
-topic-tags: 管理範本
-discoiquuid: 064c5c4a-f579-4bab-adf3-51c92 eb4518 f
+content-type: 參考
+topic-tags: 管理模板
+discoiquuid: 064c5c4a-f579-4bab-adf3-51c92eb4518f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Creating a multilingual template{#creating-a-multilingual-template}
+# 建立多語言範本{#creating-a-multilingual-template}
 
 多語言範本是管理多語言訊息的特定範本。
 
-This kind of template is available for **Email and SMS messages** and useable in standalone mode, within a workflow or in a recurring delivery.
+此類範本適用於電子郵件和 **簡訊訊息** ，並可在獨立模式、工作流程中或循環傳送中使用。
 
-在多語言功能範本中，語言管理是以變體為基礎。**每個變數代表一種語言。**
+在多語言功能範本中，語言管理是以變體為基礎。 **每個變體代表一種語言。**
 
-Adobe Campaign Standard最多可設定40個變體。
+Adobe Campaign standard最多可設定40種變體。
 
-Adobe Campaign隨附預設語言，設定為EN。預設語言可以變更為另一個變體，但絕不應加以刪除。
+Adobe Campaign隨附預設語言，設為EN。 預設語言可以變更為其他變體，但絕不應刪除。
 
-在建立範本期間，您可以新增與訊息中所需語言數目對應的變數數目。
+在建立範本時，您可以在訊息中新增與所需語言數量對應的變數數。
 
-若要執行SMS或電子郵件範本，請遵循下列步驟：
+若要建立SMS或電子郵件範本，請遵循下列步驟：
 
-1. 複製現有的多語言範本(SMS或電子郵件)。
+1. 複製現有的多語言範本（SMS或電子郵件）。
 
    ![](assets/multi_template_duplicate.png)
 
    >[!NOTE]
    >
-   >You can also modify an existing standard template in a multilingual template by clicking on the **[!UICONTROL Initialize content variant]** button in the template properties.
+   >您也可以按一下範本屬性中的按鈕，修改多語言範本 **[!UICONTROL Initialize content variant]** 中現有的標準範本。
 
 1. 修改屬性以自訂標籤、追蹤等。
-1. 按一下變數圖標以修改所需變數的數目。顯示變數視窗
+1. 按一下變數方塊，修改所需變數的數目。 將顯示變型窗口
 
    ![](assets/multi_template_variants.png)
 
-   您可以新增或移除變數。To add a variant, complete the **[!UICONTROL New content variant]** window.
+   您可以新增或移除變數。 要添加變型，請完成窗 **[!UICONTROL New content variant]** 口。
 
    ![](assets/multi_template_newvariant.png)
 
    >[!NOTE]
    >
-   >請勿刪除「預設」變體，因為它是傳送至描述檔的變體，而不會使用已完成的慣用語言參數。
+   >請勿刪除「預設」變體，因為它是傳送至描述檔的變體，而沒有完整的偏好語言參數。
 
-1. 視需要自訂標籤變體，並按一下確認。
+1. 視需要自訂標籤變體，然後按一下確認。
 1. 您也可以直接新增每個變體的內容。
 
-您現在可以根據此多語言版範本，準備建立電子郵件或SMS訊息。
+您現在可以根據此多語言範本，建立電子郵件或SMS訊息。
 
 **相關主題：**
 
 * [建立多語言電子郵件](../../channels/using/creating-a-multilingual-email.md)
-* [建立描述檔](../../audiences/using/creating-profiles.md)
+* [建立設定檔](../../audiences/using/creating-profiles.md)
 

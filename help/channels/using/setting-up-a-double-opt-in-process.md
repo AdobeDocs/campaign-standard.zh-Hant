@@ -1,8 +1,6 @@
 ---
-title: 設定雙重選擇加入程式
-seo-title: 設定雙重選擇加入程式
-description: 設定雙重選擇加入程式
-seo-description: 請依照下列步驟，使用Adobe Campaign中的登陸頁面來設定雙重選擇加入程式。
+title: 設定雙重加入程 序
+description: 請依照下列步驟，使用Adobe Campaign中的登陸頁面來設定雙重選擇加入程式。
 page-status-flag: 從未激活
 uuid: 23e6c4c2-e2c7-472f-b616-36a95225ac1d
 contentOwner: 紹維亞
@@ -14,12 +12,12 @@ discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 設定雙重選擇加入程式{#setting-up-a-double-opt-in-process}
+# 設定雙重加入程 序{#setting-up-a-double-opt-in-process}
 
 ## 關於雙重選擇加入 {#about-double-opt-in}
 

@@ -1,31 +1,29 @@
 ---
-title: 抱怨
-seo-title: 抱怨
-description: 抱怨
-seo-description: 透過「投訴」立即可用的報告，瞭解有多少次傳送宣佈為垃圾郵件。
-page-status-flag: 從未啓動
-uuid: 9a973460-fda1-4b0-9b6 e-df421 df8 ca02
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
-audience: 報告功能
-content-type: reference
-topic-tags: 報表清單
-discoiquuid: e32bricycle8f-e973-4fb2-a7 f9-e99951 a6 bfbd
-context-tags: Delivery compleReport，main；campaignQuectsReport，main；programmactsReport，主要
+title: 投訴
+description: 透過「投訴現成可用」報表，瞭解宣告為垃圾訊息的傳送時間。
+page-status-flag: 從未激活
+uuid: 9a973460-fda1-4eb0-9b6e-df421df8ca02
+contentOwner: 紹維亞
+products: SG_CAMPAIGN/STANDARD
+audience: 報告
+content-type: 參考
+topic-tags: 清單
+discoiquuid: e32cfb8f-e973-4bf2-a7f9-e99951a6bfbd
+context-tags: deliveryContributsReport,main;campaignContributsReport,main;programContributsReport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 77b0933bcd004cedc6a58f80717a4284b284e0cd
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Complaints{#complaints}
+# 投訴{#complaints}
 
-**[!UICONTROL Complaints]** 報表識別收到最多宣告訊息的傳送。
+The **[!UICONTROL Complaints]** report identifies the deliveries that have received the most declarations as spam.
 
 ![](assets/delivery_reports_complaints.png)
 
-**Flep** 表格按照收件者網域排序，顯示已宣告為電子郵件或垃圾郵件的收件者數目。表格的結果也可用於圖表和摘要數字。
+Flop **表** （依收件者網域排序）會顯示已宣告電子郵件或垃圾訊息的收件者數目。 圖表和摘要數字中也提供了表格的結果。
 
-**「傳送與黑名單」比率** 表列出將電子郵件宣告為垃圾郵件或垃圾郵件的收件者人數。表格會按照傳送順序排序。
+「已 **傳送與黑名單比率** 」表格會列出已宣告電子郵件為垃圾訊息或垃圾訊息的收件者人數。 表按傳送排序。

@@ -1,8 +1,6 @@
 ---
 title: 追蹤訊息
-seo-title: 追蹤訊息
-description: 追蹤訊息
-seo-description: 瞭解如何追蹤您的遞送收件者的行為。
+description: 瞭解如何追蹤您的遞送收件者的行為。
 page-status-flag: 從未激活
 uuid: c3721647-0663-4614-a9c9-3b3a40af328a
 contentOwner: 紹維亞
@@ -14,7 +12,7 @@ discoiquuid: 6fa50f0d-3dcf-4a9e-bcc-1ecda2bfb449
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -23,16 +21,16 @@ source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 ## 關於追蹤 {#about-tracking}
 
-由於Adobe Campaign的追蹤功能，您可以追蹤遞送收件者的行為。 為此，Adobe Campaign會使用工作階段Cookie和永久Cookie。
+由於Adobe Campaign的追蹤功能，您可以追蹤遞送收件者的行為。 Adobe Campaign 透過工作階段 Cookie 和永久性 Cookie 實現上述功能。
 
 您可以透過授權要求（例如頁面上出現的）通知使用者您的網站已配備網頁追蹤工具，並加上核取方塊來授權使用Cookie，或在其登陸的第一頁頂端新增橫幅等。 彈出式視窗通常會被瀏覽器封鎖，因此應避免出現。
 
-Adobe Campaign使用兩種Cookie:
+Adobe Campaign 使用兩種類型的 Cookie：
 
-* 工作階段Cookie(nid)。 這包含傳送給連絡人的電子郵件識別碼(broadlogId)和訊息範本的識別碼(deliveryId)。 當連絡人點按Adobe Campaign所傳送電子郵件中包含的URL，並讓您追蹤其在網路上的行為時，就會加入此URL。 當瀏覽器關閉時，此作業Cookie會自動清除。 連絡人可設定其瀏覽器拒絕Cookie。
+* 工作階段Cookie(nid)。 這包含傳送給連絡人的電子郵件識別碼(broadlogId)和訊息範本的識別碼(deliveryId)。 連絡人按一下由 Adobe Campaign 傳送的電子郵件中包含的 URL 後即可添加識別碼，並且允許您追蹤他們在網路上的行為。瀏覽器關閉時，將自動清除工作階段 Cookie。連絡人可以將其瀏覽器設定為拒絕 Cookie。
 * Adobe Experience cloud解決方案之間共用的Cookie。 這可讓您識別在使用者造訪網站時與Experience cloud解決方案互動的使用者。 此Cookie的說明可從以下網址取得： [https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_mc.html](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_mc.html)。
 
-您的資料庫的每個連絡人都可使用追蹤資訊 **[!UICONTROL integrated customer profiles]**。 For more on this, refer to [this section](../../audiences/using/integrated-customer-profile.md).
+您的資料庫的每個連絡人都可使用追蹤資訊 **[!UICONTROL integrated customer profiles]**。 如需詳細資訊，請參閱[本小節](../../audiences/using/integrated-customer-profile.md)。
 
 ## 追蹤記錄檔 {#tracking-logs}
 

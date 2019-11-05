@@ -1,8 +1,6 @@
 ---
 title: 定義動態文字
-seo-title: 定義動態文字
-description: 定義動態文字
-seo-description: 瞭解如何根據Adobe Campaign中定義的條件，動態地向使用者顯示不同的文字。
+description: 瞭解如何根據Adobe Campaign中定義的條件，動態地向使用者顯示不同的文字。
 page-status-flag: 從未激活
 uuid: bbcd200c-4fb4-467b-ba39-09b8bee9bcaa
 contentOwner: 紹維亞
@@ -14,7 +12,7 @@ discoiquuid: 6bb6cee3-5674-4113-8073-5a9572b3e830
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 

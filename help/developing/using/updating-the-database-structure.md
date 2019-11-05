@@ -1,8 +1,6 @@
 ---
 title: 更新資料庫結構
-seo-title: 更新資料庫結構
-description: 更新資料庫結構
-seo-description: 瞭解如何更新Adobe Campaign資料庫。
+description: 瞭解如何更新Adobe Campaign資料庫。
 page-status-flag: 從未激活
 uuid: 6c802f4f-d298-4ca4-acdb-09f2ad3865b9
 contentOwner: 紹維亞
@@ -15,7 +13,7 @@ context-tags: deploy,main;eventCusResource，概述
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -34,7 +32,7 @@ source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 >[!NOTE]
 >
->如果修改或刪除了用於事件的自定義資源的欄位，則相應的事件將自動取消發佈。 請參 [閱配置事務性消息](../../administration/using/configuring-transactional-messaging.md)。
+>如果修改或刪除了用於事件的自定義資源的欄位，則相應的事件將自動取消發佈。 See [Configuring Transactional messaging](../../administration/using/configuring-transactional-messaging.md).
 
 1. 從進階功能表，透過Adobe Campaign標誌，選取 **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]**，然後 **[!UICONTROL Publishing]**。
 1. 依預設會勾選 **[!UICONTROL Determine modifications since the last publication]** 選項，這表示僅套用自上次更新後所進行的變更。

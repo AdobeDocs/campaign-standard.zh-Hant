@@ -1,8 +1,6 @@
 ---
-title: 根據工作流程區段建立報表
-seo-title: 根據工作流程區段建立報表
-description: 根據工作流程區段建立報表
-seo-description: 瞭解如何根據報表中工作流程的區段來檢查傳送是否成功。
+title: 根據工作流程細分建立報告
+description: 瞭解如何根據報表中工作流程的區段來檢查傳送是否成功。
 page-status-flag: 從未激活
 uuid: f75e005b-5328-4c98-9e78-51d54fd0e246
 contentOwner: 班多
@@ -14,12 +12,12 @@ discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 根據工作流程區段建立報表{#creating-a-report-workflow-segment}
+# 根據工作流程細分建立報告{#creating-a-report-workflow-segment}
 
 在建立工作流程並將人口篩選到不同的目標對象後，您可以根據此目標工作流程中定義的區段來評估行銷宣傳的效率。
 若要定位報表中的這些區段：
@@ -30,7 +28,7 @@ source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 
 >[!CAUTION]
 >必須接受動態報告使用協定，才能開始收集這些資料。
->如需本合約的詳細資訊，請參閱本 [頁](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)。
+>For more on this agreement, refer to this [page](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
 
 ## 步驟1:使用區段更新描述檔自訂資源{#step-1--update-profiles-custom-resource-segments}
 
@@ -71,7 +69,7 @@ source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 
    ![](assets/report_segment_1.png)
 
-1. 新增活 **[!UICONTROL Segmentation]** 動，將查詢結果分割為兩個目標人口族群。 如需細分的詳細資訊，請參閱此 [頁面](../../automating/using/targeting-data.md#segmenting-data)。
+1. 新增活 **[!UICONTROL Segmentation]** 動，將查詢結果分割為兩個目標人口族群。 For more on segmentation, refer to this [page](../../automating/using/targeting-data.md#segmenting-data).
 
 1. 按兩下活 **[!UICONTROL Segmentation]** 動以進行設定。 按一下以編輯第一個區段 **[!UICONTROL Edit properties]**。
 

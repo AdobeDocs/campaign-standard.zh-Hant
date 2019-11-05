@@ -1,8 +1,6 @@
 ---
-title: 在促銷活動中使用觸發器
-seo-title: 在促銷活動中使用觸發器
-description: 在促銷活動中使用觸發器
-seo-description: null
+title: 在 Campaign 中使用觸發程式
+description: null
 page-status-flag: 從未激活
 uuid: d844d013-b38a-4e69-9df5-0edc01fa9c6e
 contentOwner: 紹維亞
@@ -14,12 +12,12 @@ discoiquuid: a524c700-bad6-4fcf-857a-c31bfae4d30c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 在促銷活動中使用觸發器{#using-triggers-in-campaign}
+# 在 Campaign 中使用觸發程式{#using-triggers-in-campaign}
 
 ## 在Campaign中建立映射觸發器 {#creating-a-mapped-trigger-in-campaign}
 

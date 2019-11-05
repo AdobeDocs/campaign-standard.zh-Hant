@@ -1,8 +1,6 @@
 ---
 title: 關於推播通知
-seo-title: 關於推播通知
-description: 關於推播通知
-seo-description: 探索Adobe Campaign推播通知頻道的主要特性。
+description: 探索Adobe Campaign推播通知頻道的主要特性。
 page-status-flag: 從未激活
 uuid: 961aeb5-6948-4fd2-b8d7-de4510c10566
 contentOwner: 紹維亞
@@ -15,7 +13,7 @@ context-tags: mobileApp，概觀
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 96001355220a9dd0cd3851d3f7de9f4dc8ea2782
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -54,7 +52,7 @@ Adobe Campaign提供兩種推播通知類型：
 
 * [準備和傳送推播通知](../../channels/using/preparing-and-sending-a-push-notification.md)
 * [建立多語言推播通知](../../channels/using/creating-a-multilingual-push-notification.md)
-* [推播通知報表](../../reporting/using/push-notification-report.md)
+* [推播通知報告](../../reporting/using/push-notification-report.md)
 * [推播和應用程式內常見問答集](https://helpx.adobe.com/campaign/kb/push_inapp_faq.html)
 
 ## 必要條件 {#prerequisites}

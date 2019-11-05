@@ -1,8 +1,6 @@
 ---
 title: '個人化電子郵件 '
-seo-title: 關於電子郵件設計人員
-description: 關於電子郵件設計人員
-seo-description: 探索電子郵件設計工具，讓您設計適用於電子郵件的內容。
+description: 探索電子郵件設計工具，讓您設計適用於電子郵件的內容。
 page-status-flag: 從未激活
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: 紹維亞
@@ -14,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 

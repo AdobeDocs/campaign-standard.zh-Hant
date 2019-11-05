@@ -1,28 +1,26 @@
 ---
-title: Testing the subject line of an email
-seo-title: 測試電子郵件的主旨行
-description: Testing the subject line of an email
-seo-description: Discover how to define the subject line of an email in the Email Designer.
-page-status-flag: never-activated
+title: 測試電子郵件的主旨行
+description: 瞭解如何在電子郵件設計工具中定義電子郵件的主旨行。
+page-status-flag: 從未激活
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: sauviat
+contentOwner: 紹維亞
 products: SG_CAMPAIGN/STANDARD
-audience: sending
-content-type: reference
-topic-tags: editing-email-content
+audience: 發送
+content-type: 參考
+topic-tags: 編輯——電子郵件——內容
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3fc0d9d7e90a31ffb34efc33d6f5c148ba5aac90
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
-# Testing the subject line of an email {#testing-a-subject}
+# 測試電子郵件的主旨行 {#testing-a-subject}
 
 若要測試您的主旨行，請遵循下列步驟：
 
-1. Create or open your email.
+1. 建立或開啟您的電子郵件。
 1. 開啟內容，並在對應的輸入欄位中輸入電子郵件的主旨。
 1. 按一下 **[!UICONTROL Test subject]** 按鈕以存取視 **[!UICONTROL Test your subject line]** 窗。 您仍然可以從此視窗編輯主題。
 1. 選擇要考慮開放速率預測的正確模型。 目前已推出多種機型，每種機型都對應特定產業。
@@ -38,23 +36,23 @@ source-git-commit: 3fc0d9d7e90a31ffb34efc33d6f5c148ba5aac90
 
 * **預計開放率**:此圖表提供您對電子郵件及其目前主旨的開放率的概念。
 * **主旨長度**:此指標可讓您查看主題的目前長度是否正確，或是需要較長或較短。
-* **彩色字詞**:在測試主題時，以綠色強調的字詞是對提高開放率預測貢獻最大的字詞。 以紅色強調的字詞是對提高開放率預測貢獻最小的字詞。 If you add or remove words in the subject, highlighted words will change.
-* **類別和字詞建議**:在窗口的下部，將顯示選定模型的多個相關類別。 These categories are sorted by order of importance and they allow you to see whether your subject contains words that are associated with it via a check symbol. 每個類別都包含一組建議字詞，可用於您的主題中，讓其更相關並提高開放率。 這些單字是特定類別中最常使用的單字。
+* **彩色字詞**:在測試主題時，以綠色強調的字詞是對提高開放率預測貢獻最大的字詞。 以紅色強調的字詞是對提高開放率預測貢獻最小的字詞。 如果您新增或移除主題中的字詞，反白顯示的字詞將會變更。
+* **類別和字詞建議**:在窗口的下部，將顯示選定模型的多個相關類別。 這些類別會依重要性順序排序，讓您查看主題是否包含透過核取符號與其關聯的字詞。 每個類別都包含一組建議字詞，可用於您的主題中，讓其更相關並提高開放率。 這些單字是特定類別中最常使用的單字。
 
 >[!NOTE]
 >
->個人化欄位和標點符號會從主題分析中移除。 In the case of dynamic/conditional text, all variants are considered as one subject line.
+>個人化欄位和標點符號會從主題分析中移除。 在動態／條件文字中，所有變數都視為一個主題行。
 
 ![](assets/predictive_subject_line_example.png)
 
-## Importing models {#importing-models}
+## 導入模型 {#importing-models}
 
-依預設，Adobe Campaign伺服器上沒有執行任何模型。 There are two ways to get a model and activate the feature:
+依預設，Adobe Campaign伺服器上沒有執行任何模型。 獲取模型和激活特徵有兩種方法：
 
-* You can train a local model from the data of your previous email messages:
+* 您可以根據先前電子郵件訊息的資料來訓練本機模型：
 
    * 如果您已使用Adobe Campaign，本機模型將會自動接受您已傳送訊息的訓練。
-   * 如果您是Adobe Campaign的新手，可以從先前的系統/ESP擷取包含4欄的CSV檔案：日期、主旨、傳送、開啟。 To do that, go to  &gt;  &gt;  &gt;  and follow the instructions provided on the successive screens. **[!UICONTROL Administration]****[!UICONTROL Channels]****[!UICONTROL Email]****[!UICONTROL Subject Line Import]**&#x200B;主體上載完成後，請導入本地模型，如下所述。 本機模型會自動接受您上傳之資料的訓練。
+   * 如果您是Adobe Campaign的新手，可以從先前的系統/ESP擷取包含4欄的CSV檔案：日期、主旨、傳送、開啟。 若要這麼做，請前往 **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Email]** &gt; **[!UICONTROL Subject Line Import]** 並依照後續畫面上的指示進行。 主體上載完成後，請導入本地模型，如下所述。 本機模型會自動接受您上傳之資料的訓練。
    * 如果您是Adobe Campaign的新手，但無法如上所述取得CSV檔案，則可使用預先訓練好的模型，或等到系統中有足夠的傳送資料來訓練本機模型。 系統會自動判斷您目前的資料集是否包含足夠的資料來識別模式和訓練模型。
 
       >[!NOTE]

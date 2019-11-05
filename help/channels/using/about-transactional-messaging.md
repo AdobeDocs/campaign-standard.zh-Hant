@@ -1,8 +1,6 @@
 ---
-title: 關於交易式訊息
-seo-title: 關於交易式訊息
-description: 關於交易式訊息
-seo-description: 探索您可傳送的不同類型交易訊息，以及這些訊息在Adobe Campaign中的使用方式。
+title: 關於交易式訊息傳遞
+description: 探索您可傳送的不同類型交易訊息，以及這些訊息在Adobe Campaign中的使用方式。
 page-status-flag: 從未激活
 uuid: 8470e9e2-ee17-456f-9e4c-460e69c78a2c
 contentOwner: 紹維亞
@@ -14,12 +12,12 @@ discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 22675ef3452aadca4ddb290832159298ebb76474
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 關於交易式訊息{#about-transactional-messaging}
+# 關於交易式訊息傳遞{#about-transactional-messaging}
 
 您可以在Adobe Campaign中建立和管理個人化的交易訊息。
 
@@ -57,7 +55,7 @@ Adobe Campaign可讓您傳送通知電子郵件給已將產品新增至購物車
 將其放置到位的步驟如下：
 
 1. 設定將命名為「購物車放棄」的事件，並發佈此事件設定，以自動建立交易訊息。 「設定事件以傳送事件交易訊 [息」區段中會顯示建立和發佈事件](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) 。
-1. 交易訊息必須個人化、測試，然後發佈。 請參 [閱事件交易訊息](../../channels/using/event-transactional-messages.md)。
+1. 交易訊息必須個人化、測試，然後發佈。 See [Event transactional messages](../../channels/using/event-transactional-messages.md).
 1. 此外，若要在客戶放棄購物車時觸發事件，必須使用Adobe Campaign Standard REST API從公司網站傳送此事件。 請參閱 [網站整合](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)。
 
 執行完所有這些步驟後，當使用者離開網站而未在購物車中訂購產品時，他們會自動收到通知電子郵件。
@@ -81,7 +79,7 @@ Adobe Campaign可讓您傳送通知電子郵件給已將產品新增至購物車
 在設計和發佈事務性消息時，您需要執行的某些步驟無法還原。 您必須注意下列限制：
 
 * 每個事件設定只能使用一個頻道。 請參 [閱建立事件](../../administration/using/configuring-transactional-messaging.md#creating-an-event)。
-* 事件建立後，便無法變更渠道。 因此，如果訊息未成功傳送，您需要設計機制，允許使用工作流程從其他管道傳送訊息。 請參 [閱工作流程資料和程式](../../automating/using/workflow-data-and-processes.md)。
+* 事件建立後，便無法變更渠道。 因此，如果訊息未成功傳送，您需要設計機制，允許使用工作流程從其他管道傳送訊息。 See [Workflow data and processes](../../automating/using/workflow-data-and-processes.md).
 * 在事件建立後，您無 **[!UICONTROL Real-time event]** 法變 **[!UICONTROL Profile]** 更定位維度（或）。 請參 [閱建立事件](../../administration/using/configuring-transactional-messaging.md#creating-an-event)。
 * 無法回滾發佈，但可以取消發佈事件：此操作使事件和關聯的事務性消息無法訪問。 請參 [閱取消發佈事件](../../administration/using/configuring-transactional-messaging.md#unpublishing-an-event)。
 * 唯一可與事件關聯的交易訊息是發佈該事件時自動建立的訊息。 請參 [閱預覽和發佈事件](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)。
@@ -92,14 +90,14 @@ Adobe Campaign可讓您傳送通知電子郵件給已將產品新增至購物車
 
 **事件型交易訊息**:
 
-* 個人化資訊來自事件本身所包含的資料。 請參 [閱事件交易訊息](../../channels/using/event-transactional-messages.md)。
+* 個人化資訊來自事件本身所包含的資料。 See [Event transactional messages](../../channels/using/event-transactional-messages.md).
 * 在事件事務 **性訊息中** ，您無法使用取消訂閱連結內容區塊。
 * 事件型交易訊息應僅使用傳送事件中的資料來定義收件者和訊息內容個人化。 不過，您可以使用Adobe Campaign資料庫的資訊，豐富您交易訊息的內容。 請參 [閱豐富交易式訊息內容](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content)。
 * 由於事件事務性消息不包含配置檔案資訊，因此它們與疲勞規則不相容，即使在富集配置檔案的情況下也是如此。 請參 [閱疲勞規則](../../administration/using/fatigue-rules.md)。
 
 **基於概要的事務性消息**:
 
-* 個人化資訊可來自事件中包含的資料，或來自已調節的描述檔記錄。 請參 [閱Profiletransactional messages](../../channels/using/profile-transactional-messages.md)。
+* 個人化資訊可來自事件中包含的資料，或來自已調節的描述檔記錄。 See [Profile transactional messages](../../channels/using/profile-transactional-messages.md).
 * 您可以在描述檔 **交易訊息中** ，使用取消訂閱連結內容區塊。 請參 [閱新增內容區塊](../../designing/using/personalization.md#adding-a-content-block)。
 * 疲勞規則與描述檔交易訊息相容。 請參 [閱疲勞規則](../../administration/using/fatigue-rules.md)。
 

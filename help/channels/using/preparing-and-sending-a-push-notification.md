@@ -1,8 +1,6 @@
 ---
 title: 準備和傳送推播通知
-seo-title: 準備和傳送推播通知
-description: 準備和傳送推播通知
-seo-description: 請依照下列步驟，在Adobe Campaign中建立單一傳送推播通知。
+description: 請依照下列步驟，在Adobe Campaign中建立單一傳送推播通知。
 page-status-flag: 從未激活
 uuid: 01997725-ca0a-420c-9e81-5ea801652f87
 contentOwner: 紹維亞
@@ -15,7 +13,7 @@ context-tags: delivery,mobileAppContent，返回
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -32,7 +30,7 @@ source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
    您也可以在工作流程中使用推播通知傳送活動。 此活動會顯示在「推 [播通知傳送」區段](../../automating/using/push-notification-delivery.md) 。
 
-1. 選擇 **[!UICONTROL Push notification]**。
+1. Select **[!UICONTROL Push notification]**.
 1. 選取範本。
 
    ![](assets/push_notif_type.png)
@@ -61,7 +59,7 @@ source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 1. 您現在可以自訂推播通知。 首先，選擇消息樣式：或 **[!UICONTROL Alert/Message/Badge]** 者 **[!UICONTROL Silent push]**。 推播通知類型在「關於推播通知」 [區段中有說明](../../channels/using/about-push-notifications.md) 。
 
-   編輯推播通知的內容並定義進階選項。 請參 [閱自訂推播通知](../../channels/using/customizing-a-push-notification.md)。
+   編輯推播通知的內容並定義進階選項。 See [Customizing a push notification](../../channels/using/customizing-a-push-notification.md).
 
    ![](assets/push_notif_content.png)
 
@@ -127,6 +125,6 @@ source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 **相關主題：**
 
-* [推播通知報表](../../reporting/using/push-notification-report.md)
+* [推播通知報告](../../reporting/using/push-notification-report.md)
 * [在工作流程中傳送推播通知](../../automating/using/push-notification-delivery.md)
 

@@ -1,8 +1,6 @@
 ---
-title: 管理傳入的SMS
-seo-title: 管理傳入的SMS
-description: 管理傳入的SMS
-seo-description: 瞭解如何在Adobe Campaign中管理STOP SMS和儲存傳入的SMS。
+title: 管理傳入的 SMS
+description: 瞭解如何在Adobe Campaign中管理STOP SMS和儲存傳入的SMS。
 page-status-flag: 從未激活
 uuid: f063052b-96ef-41b6-bf1b-4006de73f0b9
 contentOwner: 紹維亞
@@ -15,12 +13,12 @@ delivercontext-tags: 傳送，sms內容，返回
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 管理傳入的SMS{#managing-incoming-sms}
+# 管理傳入的 SMS{#managing-incoming-sms}
 
 ## 管理停止SMS {#managing-stop-sms}
 

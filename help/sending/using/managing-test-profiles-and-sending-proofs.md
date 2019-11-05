@@ -1,8 +1,6 @@
 ---
 title: 管理測試設定檔和傳送校樣
-seo-title: 管理測試設定檔和傳送校樣
-description: 管理測試設定檔和傳送校樣
-seo-description: 瞭解如何管理測試設定檔和校樣。
+description: 瞭解如何管理測試設定檔和校樣。
 page-status-flag: 從未激活
 uuid: eb4d893b-3724-4b15-9312-1ec74784368d
 contentOwner: 紹維亞
@@ -15,7 +13,7 @@ context-tags: seedMember，概觀
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -158,12 +156,12 @@ source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
    ![](assets/trap_select.png)
 
-1. 在訊息內容準備就緒後，按一下 **[!UICONTROL Prepare]** 按鈕。 請參 [閱準備傳送](../../sending/using/preparing-the-send.md)。
+1. 在訊息內容準備就緒後，按一下 **[!UICONTROL Prepare]** 按鈕。 See [Preparing the send](../../sending/using/preparing-the-send.md).
    >[!NOTE]
    >
    >請確定您已選取主要目標。 否則，無法傳送您的訊息。
 
-1. Click the **[!UICONTROL Confirm]** button. 請參 [閱確認傳送](../../sending/using/confirming-the-send.md)。
+1. Click the **[!UICONTROL Confirm]** button. See [Confirming the send](../../sending/using/confirming-the-send.md).
 
    ![](assets/trap_confirm.png)
 

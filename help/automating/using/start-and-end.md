@@ -1,55 +1,53 @@
 ---
 title: 開始和結束
-seo-title: 開始和結束
-description: 開始和結束
-seo-description: 「開始」和「結束」活動可讓您清楚標示工作流程開始和結束的位置。
-page-status-flag: 從未啓動
+description: 「開始」和「結束」活動可讓您清楚標示工作流程的開始和結束位置。
+page-status-flag: 從未激活
 uuid: 146b6337-122c-453d-8ffd-5c157db29217
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
+contentOwner: 紹維亞
+products: SG_CAMPAIGN/STANDARD
 audience: 自動化
-content-type: reference
+content-type: 參考
 topic-tags: 執行活動
-discoiquuid: a0a8a725-8ede-4626-9798-b86924 b58 bb
+discoiquuid: a0a8a725-8ede-4626-9798-b86924b58beb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6748e59aaeafce9dc6e77dc0664a9024a53c3e35
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Start and end{#start-and-end}
+# 開始和結束{#start-and-end}
 
-## Description {#description}
+## 說明 {#description}
 
 ![](assets/start.png)
 
 ![](assets/end.png)
 
-The **[!UICONTROL Start]** and **[!UICONTROL End]** activities allow you to clearly mark where your workflow starts and ends.
+這些 **[!UICONTROL Start]** 和 **[!UICONTROL End]** 活動可讓您清楚標示工作流程的開始和結束位置。
 
-## Context of use {#context-of-use}
+## 使用內容 {#context-of-use}
 
-執行工作流程是從沒有傳入過渡的活動開始，而在不再進行任何工作時停止。Nevertheless, you can add **[!UICONTROL Start]** and **[!UICONTROL End]** activities to clearly mark the starting and ending points of a workflow. 這對於相對複雜的工作流程特別有用。
+執行工作流程會從沒有傳入轉移的活動開始，並在不再進行任何工作時停止。 不過，您可以新增 **[!UICONTROL Start]** 和活 **[!UICONTROL End]** 動，以清楚標示工作流程的起點和終點。 這對相對複雜的工作流程特別有用。
 
-It is a best practice to use an **[!UICONTROL End]** activity instead of leaving the last transition of a workflow on its own to ensure that the workflow properly ends.
+最好使用活動，而不 **[!UICONTROL End]** 是自行保留工作流程的最後轉場，以確保工作流程正常結束。
 
-## Configuration {#configuration}
+## 配置 {#configuration}
 
-1. Drag and drop a **[!UICONTROL Start]** or **[!UICONTROL End]** activity into your workflow.
-1. Put the **[!UICONTROL Start]** activity in front of other activities such as queries, and the **[!UICONTROL End]** activity after a series of activities.
-1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
-1. You can configure the **End** object so that it interrupts all of the workflow's ongoing tasks, including those that have not finished. 若要這麼做，請選取對應的選項。
+1. 將或活動拖 **[!UICONTROL Start]** 放至 **[!UICONTROL End]** 您的工作流程。
+1. 將活 **[!UICONTROL Start]** 動放在其他活動（例如查詢）前面，並 **[!UICONTROL End]** 將活動放在一系列活動後面。
+1. 選擇活動，然後使用顯示的快 ![](assets/edit_darkgrey-24px.png) 速操作中的按鈕將其開啟。
+1. 您可以設定 **End** 物件，以中斷工作流程的所有持續工作，包括尚未完成的工作。 若要這麼做，請選取對應的選項。
 1. 確認活動的設定並儲存工作流程。
 
-## Triggering another workflow {#triggering-another-workflow}
+## 觸發另一個工作流 {#triggering-another-workflow}
 
-Using the **[!UICONTROL External signal]** tab of an **[!UICONTROL End]** activity, you can trigger another workflow. Refer to the [External signal](../../automating/using/external-signal.md) section.
+使用活 **[!UICONTROL External signal]** 動的標籤，您可 **[!UICONTROL End]** 以觸發另一個工作流程。 請參閱「 [External signal](../../automating/using/external-signal.md) （外部信號）」部分。
 
 ## Example {#example}
 
-The following example shows how a complex workflow is executed with a **[!UICONTROL Start]** activity and several **[!UICONTROL End]** activities. **[!UICONTROL Stop all tasks in progress]** 已檢查此方塊是否為第一 **[!UICONTROL End]** 個活動。Once the corresponding task is finished, the entire workflow will be stopped: it will have the same effect as if the ![](assets/stop_darkgrey-24px.png) button had been selected (refer to the [Action bar](../../automating/using/workflow-interface.md#action-bar) section).
+以下示例說明如何使用活動和多個活動執行 **[!UICONTROL Start]** 複雜的工 **[!UICONTROL End]** 作流。 該 **[!UICONTROL Stop all tasks in progress]** 框已檢查第一個活 **[!UICONTROL End]** 動。 對應的任務完成後，將停止整個工作流：它的效果與已選取按鈕 ![](assets/stop_darkgrey-24px.png) 相同(請參閱「動作 [列](../../automating/using/workflow-interface.md#action-bar) 」區段)。
 
 ![](assets/wkf_start_end_example.png)
 

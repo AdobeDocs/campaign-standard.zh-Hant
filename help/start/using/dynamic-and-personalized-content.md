@@ -1,8 +1,6 @@
 ---
-title: 動態和個人化內容
-seo-title: 動態和個人化內容
-description: 動態和個人化內容
-seo-description: 透過Adobe Campaign，您可以使用客戶偏好設定和資料，透過電子郵件、簡訊、推播通知、InApp訊息或直效郵件建立個人化宣傳。
+title: 動態與個人化內容
+description: 透過Adobe Campaign，您可以使用客戶偏好設定和資料，透過電子郵件、簡訊、推播通知、InApp訊息或直效郵件建立個人化宣傳。
 page-status-flag: 從未激活
 uuid: a36a581e-25d4-426d-865a-c646519c961d
 contentOwner: 紹維亞
@@ -14,12 +12,12 @@ discoiquuid: 7cbca5fb-a99b-43ea-b629-6236cf2a5ef4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 動態和個人化內容{#dynamic-and-personalized-content}
+# 動態與個人化內容{#dynamic-and-personalized-content}
 
 使用根據客戶個人檔案、喜好和活動個人化的內容和標題，以吸引客戶的注意並提高您的回應率。 您的所有客戶資訊都會集中在Adobe Campaign中，而且您可以透過不同通道提供包含已調整內容的訊息。
 

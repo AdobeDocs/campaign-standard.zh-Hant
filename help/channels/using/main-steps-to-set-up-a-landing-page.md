@@ -1,8 +1,6 @@
 ---
-title: 設定著陸頁面的主要步驟
-seo-title: 設定著陸頁面的主要步驟
-description: 設定著陸頁面的主要步驟
-seo-description: 瞭解設定著陸頁面的主要步驟
+title: 設定登錄頁面的主要步驟
+description: 瞭解設定著陸頁面的主要步驟
 page-status-flag: 從未激活
 uuid: b316bf47-7d98-46fa-ab4f-67ff50de8095
 contentOwner: 勒梅特
@@ -15,12 +13,12 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f100f6b041c6dbb298113b4ecc7830951714131
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 設定著陸頁面的主要步驟 {#main-steps-create-a-landing-page}
+# 設定登錄頁面的主要步驟 {#main-steps-create-a-landing-page}
 
 ## 關於建立著陸頁面
 

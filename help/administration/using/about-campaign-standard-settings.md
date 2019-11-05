@@ -1,8 +1,6 @@
 ---
-title: 關於促銷活動標準設定
-seo-title: 關於促銷活動標準設定
-description: 關於促銷活動標準設定
-seo-description: 關於促銷活動標準設定
+title: 關於 Campaign Standard 設定
+description: 關於 Campaign Standard 設定
 page-status-flag: 從未激活
 uuid: 5d2e2e3d-5d1f-4466-97e5-842c50390146
 contentOwner: 紹維亞
@@ -15,12 +13,12 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: c6c6d2a2a2b898486447826e358e98f679888aa1
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 關於促銷活動標準設定{#about-campaign-standard-settings}
+# 關於 Campaign Standard 設定{#about-campaign-standard-settings}
 
 [!DNL Campaign] Standard隨附不同的應用程式元素，可依您的需求進行設定。 例如：
 

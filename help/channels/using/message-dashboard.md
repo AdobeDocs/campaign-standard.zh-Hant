@@ -1,8 +1,6 @@
 ---
 title: 訊息儀表板
-seo-title: 訊息儀表板
-description: 訊息儀表板
-seo-description: 探索訊息儀表板的組成，包括動作列和各種功能區塊。
+description: 探索訊息儀表板的組成，包括動作列和各種功能區塊。
 page-status-flag: 從未激活
 uuid: 9bb44ee8-2cf6-43ce-94a4-367f4e469713
 contentOwner: 紹維亞
@@ -15,7 +13,7 @@ context-tags: 交付，主
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -36,7 +34,7 @@ source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
 
 **相關主題：**
 
-* [設定頻道](../../administration/using/about-channel-configuration.md)
+* [設定通道](../../administration/using/about-channel-configuration.md)
 * [存取報表](../../reporting/using/about-dynamic-reports.md)
 
 ## 動作列 {#action-bar}
@@ -76,5 +74,5 @@ source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
 * **[!UICONTROL Deployment]**:可讓您追蹤訊息準備或傳送的進度。 按一下此區塊右下方區段中的按鈕，以存取傳送和分析記錄檔。 只有在準備好傳送後，才會顯示此區塊。 有關此事的更多資訊。 請參閱 [確認傳送](../../sending/using/confirming-the-send.md)。
 * **[!UICONTROL Audience]**:可讓您建立訊息的主要目標以及測試設定檔。 請參閱 [建立觀眾](../../audiences/using/creating-audiences.md)。
 * **[!UICONTROL Schedule]**:可讓您指定訊息傳送的日期。 請參閱 [排程](../../sending/using/about-scheduling-messages.md)。
-* **[!UICONTROL Content]**:可讓您定義訊息的內容並加以預覽。 請參 [閱傳送訊息的關鍵步驟](../../channels/using/key-steps-to-send-a-message.md)。
+* **[!UICONTROL Content]**:可讓您定義訊息的內容並加以預覽。 See [Key steps to send a message](../../channels/using/key-steps-to-send-a-message.md).
 

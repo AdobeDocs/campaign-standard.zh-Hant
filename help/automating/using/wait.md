@@ -1,44 +1,42 @@
 ---
-title: 等候等
-seo-title: 等候等
-description: 等候等
-seo-description: 「等候」活動會在工作流程中停止執行部分動作。
-page-status-flag: 從未啓動
-uuid: 396a3de1-6ffa-4385-ac9 f-15fdeae5 a366
-contentOwner: saviat
-products: SG_ CAMPAIGN/STANDARD
+title: 等待
+description: 「等待」活動會暫時暫停執行工作流的一部分。
+page-status-flag: 從未激活
+uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
+contentOwner: 紹維亞
+products: SG_CAMPAIGN/STANDARD
 audience: 自動化
-content-type: reference
+content-type: 參考
 topic-tags: 執行活動
-discoiquuid: 377821e6-69f8-41cc-a1 ad-8a2 f5 ed4 d409
-context-tags: 等候，主要
+discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
+context-tags: 等待，主
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e384a0cef325bc01eb5ea050b0f3d926aea9a88f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Wait{#wait}
+# 等待{#wait}
 
-## Description {#description}
+## 說明 {#description}
 
 ![](assets/wait.png)
 
-**[!UICONTROL Wait]** 活動偶爾會停止執行工作流程的部分。它會在延遲後的幾秒鐘內啓動其傳出轉場，此延遲可能會在數秒到數個月後執行。
+活 **[!UICONTROL Wait]** 動暫時暫停執行工作流的一部分。 它會在延遲後啟動其出站轉移，延遲範圍可能在幾秒到幾個月之間，然後執行之後放置的活動。
 
-## Context of use {#context-of-use}
+## 使用內容 {#context-of-use}
 
-**[!UICONTROL Wait]** 活動用於允許執行兩個活動之間的特定時間長度。例如，在發送電子郵件活動後等候數天，接著分析在此期間產生的開啓和點擊次數，然後執行任何後續操作(提醒電子郵件、建立觀眾等)。
+活動 **[!UICONTROL Wait]** 用於允許在正在執行的兩個活動之間傳遞一定時間。 例如，若要在電子郵件傳送活動後等候數天，請先分析此期間產生的開啟次數和點按次數，再執行任何後續操作（提醒電子郵件、建立對象等）。
 
-## Configuration {#configuration}
+## 配置 {#configuration}
 
-1. Drag and drop a **[!UICONTROL Wait]** activity into your workflow.
-1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
-1. Specify the **[!UICONTROL Duration]** of the wait between when the inbound and outbound transitions of the activity are activated.
+1. 將活動拖放 **[!UICONTROL Wait]** 至工作流程。
+1. 選擇活動，然後使用顯示的快 ![](assets/edit_darkgrey-24px.png) 速操作中的按鈕將其開啟。
+1. 指定 **[!UICONTROL Duration]** 活動的入站和出站轉換何時啟動的等待。
 
-   您可以手動輸入持續時間，或使用欄位中可用的選擇器。
+   您可以手動輸入持續時間或使用欄位中可用的選擇器。
 
    ![](assets/wait_duration.png)
 
@@ -46,15 +44,15 @@ source-git-commit: e384a0cef325bc01eb5ea050b0f3d926aea9a88f
 
 ## Example {#example}
 
-The following example illustrates the **[!UICONTROL Wait]** activity in a typical use case. 傳送活動的電子郵件邀請。傳送後24小時內，會分析電子郵件傳送記錄，並傳送提醒電子郵件給收到第一封電子郵件但未註冊的人員。
+以下示例說明了 **[!UICONTROL Wait]** 典型使用案例中的活動。 系統會傳送電子郵件邀請至事件。 在傳送電子郵件後24小時，會分析電子郵件傳送記錄，並傳送提醒電子郵件給收到第一封電子郵件但未註冊的人。
 
-工作流程的呈現方式如下：
+工作流程如下：
 
 ![](assets/wait_example_workflow.png)
 
-* A first **[!UICONTROL Query]** targets the profiles that will be sent the email invitation.
-* An **[!UICONTROL Email delivery]** sends the invitation for the first time to the profiles selected.
-* A **[!UICONTROL Wait]** activity of 24h places a pause between when the invitation was sent and the rest of the workflow.
-* A second **[!UICONTROL Query]** targets the profiles that received the first email but did not click on the subscription link inside.
-* A second **[!UICONTROL Email delivery]** sends a reminder of the invitation to the people selected.
+* 第一個 **[!UICONTROL Query]** 目標是將會傳送電子郵件邀請的設定檔。
+* 第 **[!UICONTROL Email delivery]** 一次將邀請發送到選定的配置檔案。
+* 24 **[!UICONTROL Wait]** 小時的活動會在傳送邀請與工作流程的其餘時間之間暫停。
+* 第二個 **[!UICONTROL Query]** 目標是收到第一封電子郵件但未點按內部訂閱連結的描述檔。
+* 第二 **[!UICONTROL Email delivery]** 個將邀請的提醒發送給選定的人。
 

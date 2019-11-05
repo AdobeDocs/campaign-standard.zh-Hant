@@ -1,8 +1,6 @@
 ---
-title: 設定促銷活動興趣點資料整合
-seo-title: 設定促銷活動興趣點資料整合
-description: 設定促銷活動興趣點資料整合
-seo-description: 瞭解如何設定Adobe Campaign中的地標資料功能，以根據訂閱者的位置傳送個人化訊息。
+title: 設定 Campaign-Points of Interest 資料整合
+description: 瞭解如何設定Adobe Campaign中的地標資料功能，以根據訂閱者的位置傳送個人化訊息。
 page-status-flag: 從未激活
 uuid: 0689a06c-cc1a-442f-95b8-a07fcec85d79
 contentOwner: 紹維亞
@@ -14,12 +12,12 @@ discoiquuid: a967c6cc-c53b-41b4-866b-90860d78f463
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 設定促銷活動興趣點資料整合{#configuring-campaign-points-of-interest-data-integration}
+# 設定 Campaign-Points of Interest 資料整合{#configuring-campaign-points-of-interest-data-integration}
 
 ## 設定與Adobe Experience Platform SDK的促銷活動興趣點資料整合 {#configuring-campaign-poi-aep-sdk}
 
@@ -218,4 +216,4 @@ Mobile核心服務的軟體開發套件(SDK)可協助將行動應用程式整合
 
 會列出目前設定檔所收集的地標資料。 位置資料會儲存在Adobe Campaign資料庫中6個月。
 
-有關訪問和編輯配置檔案的詳細資訊，請參 [閱Profiles](../../audiences/usin
+有關訪問和編輯配置檔案的詳細資訊，請參 [閱Profiles](../../audiences/using/about-profiles.md)。

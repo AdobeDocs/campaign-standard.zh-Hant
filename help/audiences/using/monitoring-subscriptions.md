@@ -1,8 +1,6 @@
 ---
 title: 監控訂閱
-seo-title: 監控訂閱
-description: 監控訂閱
-seo-description: 瞭解如何使用儀表板和報告來追蹤訂閱者並評估服務的成功程度。
+description: 瞭解如何使用儀表板和報告來追蹤訂閱者並評估服務的成功程度。
 page-status-flag: 從未激活
 uuid: b0d8eb80-fa51-4518-a5e6-56de4046f6ff
 contentOwner: 紹維亞
@@ -14,7 +12,7 @@ discoiquuid: 36750524-eb54-47e8-aa1b-ae0b94f58cb1
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 

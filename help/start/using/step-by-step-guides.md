@@ -1,8 +1,6 @@
 ---
 title: 逐步指南
-seo-title: 逐步指南
-description: 逐步指南
-seo-description: 透過簡單的逐步程式瞭解Adobe Campaign基本概念，並體驗解決方案的強大功能。
+description: 透過簡單的逐步程式瞭解Adobe Campaign基本概念，並體驗解決方案的強大功能。
 page-status-flag: 從未激活
 uuid: 8d6d5f62-e564-4b5b-86ef-2b7ac5f8ab62
 contentOwner: 紹維亞
@@ -14,7 +12,7 @@ discoiquuid: d7088c18-7daf-4c30-b633-2f19496b1143
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7f1c2af4ad8c4b8632e84b6d945a9db8187b6a6
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 

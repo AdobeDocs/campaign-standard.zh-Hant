@@ -1,8 +1,6 @@
 ---
-title: 建立SMS訊息
-seo-title: 建立SMS訊息
-description: 建立SMS訊息
-seo-description: 請依照下列步驟，在Adobe Campaign中建立單一傳送的SMS訊息。
+title: 建立 SMS 訊息
+description: 請依照下列步驟，在Adobe Campaign中建立單一傳送的SMS訊息。
 page-status-flag: 從未激活
 uuid: 591ae97e-2d19-4f93-be4b-d8d20f1d2d12
 contentOwner: 紹維亞
@@ -15,12 +13,12 @@ delivercontext-tags: deliveryCreation，精靈
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 建立SMS訊息{#creating-an-sms-message}
+# 建立 SMS 訊息{#creating-an-sms-message}
 
 建立簡訊傳送與建立一般電子郵件非常類似。 下列步驟將說明此渠道的特定配置。 如需其 [他選項的詳細資訊](../../channels/using/creating-an-email.md) ，請參閱建立電子郵件。
 
@@ -28,7 +26,7 @@ source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
 
 若要建立SMS訊息並傳送至行動電話，您需要：
 
-* 在 **[!UICONTROL Routing]** 頻道上以模式 **[!UICONTROL Mobile (SMS)]** 設定的外部 **[!UICONTROL Bulk delivery]** 帳戶。 有關詳細資訊，請參閱「路 [由](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing) 」部分。
+* 在 **[!UICONTROL Routing]** 頻道上以模式 **[!UICONTROL Mobile (SMS)]** 設定的外部 **[!UICONTROL Bulk delivery]** 帳戶。 For more on this, refer to the [Routing](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing) section.
 * 正確連結至此外部帳戶的傳送範本。
 
 1. 建立簡訊傳送。 您可從Adobe Campaign首頁、促銷活 [動或行銷活動清單](../../start/using/interface-description.md#home-page)[中](../../start/using/marketing-activities.md#creating-a-marketing-activity) , [執行此動作](../../start/using/programs-and-campaigns.md#creating-a-campaign)。
@@ -55,13 +53,13 @@ source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
 
 1. 將內容新增至SMS 您也可以在SMS建立完成後，按一 **[!UICONTROL Content]** 下傳送控制面板的區段來定義內容。 請參閱 [關於SMS內容設計](../../channels/using/about-sms-and-push-content-design.md)。
 
-   如果您已將個人化欄位或條件文字插入SMS訊息的內容，則訊息的長度可能會因收件者而異。 事實上，這些因素可能會引入GSM編碼未考慮的字元。 這就是為什麼在個人化實施後，必須評估訊息長度。 請參 [閱個人化SMS訊息](../../channels/using/personalizing-sms-messages.md)。
+   如果您已將個人化欄位或條件文字插入SMS訊息的內容，則訊息的長度可能會因收件者而異。 事實上，這些因素可能會引入GSM編碼未考慮的字元。 這就是為什麼在個人化實施後，必須評估訊息長度。 See [Personalizing SMS messages](../../channels/using/personalizing-sms-messages.md).
 
    ![](assets/sms_creation_4.png)
 
 1. 確認建立消息。 接著會顯示其控制面板。
 1. 排程傳送。 SMS可在訊息準備後手動傳送，或在排程日期自動傳送。 請參閱 [排程訊息](../../sending/using/about-scheduling-messages.md)。
-1. 準備訊息以分析其有效性、個人化及目標。
+1. 準備訊息以分析其有效性、個人化和目標。
 
    ![](assets/sms_creation_6.png)
 

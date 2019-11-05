@@ -1,8 +1,6 @@
 ---
 title: '建立和使用可重複使用的內容 '
-seo-title: 建立和使用可重複使用的內容
-description: 建立和使用可重複使用的內容
-seo-description: 開始使用電子郵件設計工具建立可重複使用的電子郵件內容。
+description: 開始使用電子郵件設計工具建立可重複使用的電子郵件內容。
 page-status-flag: 從未激活
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: 紹維亞
@@ -14,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 

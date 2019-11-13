@@ -12,16 +12,16 @@ discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: e7281dff9be97ededaa724552e64bffda3f26fa2
 
 ---
 
 
 # 元件清單 {#list-of-components}
 
-若要進一步瞭解維度與量度之間的相容性，請參 [閱表](https://docs.campaign.adobe.com/doc/standard/en/Technotes/dynamic_report_compatibility.pdf)。 如果兩個元件不相容，儲存格將顯示值 **None**。
+若要進一步瞭解維度與量度之間的相容性，請參 [閱表](/help/reporting/using/assets/dynamic_report_compatibility.pdf)。 如果兩個元件不相容，儲存格將顯示值 **None**。
 
-[![影像](/help/reporting/using/assets/dynamic_report_compatibility.png)](https://docs.campaign.adobe.com/doc/standard/en/Technotes/dynamic_report_compatibility.pdf)
+![](assets/dynamic_report_compatibility.png)
 
 ## 維度 {#dimensions}
 
@@ -85,7 +85,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
   </tr> 
   <tr> 
    <td> 設定檔<br /> </td> 
-   <td> 重新分組在配置檔案資源擴展期間建立的出廠設定和自定義配置檔案欄位，有關詳細資訊，請參閱本頁 <a href="../../developing/using/key-steps-to-add-a-resource.md"></a> 或本 <a href="../../reporting/using/creating-a-custom-profile-dimension.md">示例</a>。<br /> 請注意，當連結至描述檔欄位的自訂資源發佈時，會立即擷取此維度的資料。<br /> </td> 
+   <td> 重新分組在配置檔案資源擴展期間建立的出廠設定和自定義配置檔案欄位，有關詳細資訊，請參閱本頁 <a href="../../developing/using/key-steps-to-add-a-resource.md"></a> 或本 <a href="../../reporting/using/creating-a-custom-profile-dimension.md">示例</a>。<br /> 請注意，當連結至描述檔欄位的自訂資源發佈時，就會立即擷取此維度的資料。<br /> </td> 
   </tr> 
   <tr> 
    <td> 推播平台<br /> </td> 

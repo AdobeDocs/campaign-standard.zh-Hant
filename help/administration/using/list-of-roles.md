@@ -13,16 +13,16 @@ context-tags: 角色，概述；角色，主
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: c321545b2f5fdc3ed43b9b943601008ff31fba6a
 
 ---
 
 
 # 角色清單{#list-of-roles}
 
-依預設，Adobe Campaign提供一組角色，可讓您定義指派給使用者和使用者群組的統一授權。 結合組織單位，角色可讓使用者檢視介面的篩選檢視，並定義其對不同功能的存取權。 有關詳細資訊，請參閱「角 [色和權限」表](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)。
+依預設，Adobe Campaign提供一組角色，可讓您定義指派給使用者和使用者群組的統一授權。 結合組織單位，角色可讓使用者檢視介面的篩選檢視，並定義其對不同功能的存取權。 有關詳細資訊，請參閱「角 [色和權限」表](/help/administration/using/assets/acs_rights.pdf)。
 
-[![影像](/help/administration/using/assets/user_management_3.png)](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
+![](assets/user_management_3.png)
 
 您可從功能表管理 **[!UICONTROL Administration > Users & Security > Roles]** 角色。
 

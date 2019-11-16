@@ -1,13 +1,13 @@
 ---
 title: 設計 A/B 測試電子郵件
 description: 探索A/B測試功能，並依照下列步驟從Adobe Campaign的A/B測試範本建立電子郵件。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: 104f6973-68a7-4692-a90a-a5570a980ec7
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 頻道
-content-type: 參考
-topic-tags: 電子郵件訊息
+audience: channels
+content-type: reference
+topic-tags: email-messages
 discoiquuid: e249ba70-90d0-43f2-868c-ce9fdc7e642d
 context-tags: delivery,abTesting,back;deliveryCreation,wizard;delivery,main
 internal: n
@@ -93,4 +93,4 @@ Adobe Campaign中的A/B測試功能可讓您定義兩到三種電子郵件變體
 
 在電子郵件儀表板中，有幾個指標可協助您測量A/B測試：點按次數、開啟次數、彈回數等。
 
-請注意，此 **[!UICONTROL Estimated recipient reactivity]** 指標是比較點按的收件者人數與開啟電子郵件的收件者人數的比率。 例如，如果有10位收件者開啟電子郵件，而有5位收件者點按了該電子郵件。 反應率�
+請注意，此 **[!UICONTROL Estimated recipient reactivity]** 指標是比較點按的收件者人數與開啟電子郵件的收件者人數的比率。 例如，如果有10位收件者開啟電子郵件，而有5位收件者點按了該電子郵件。 反應率為50%。

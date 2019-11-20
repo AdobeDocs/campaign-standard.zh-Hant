@@ -1,18 +1,18 @@
 ---
 title: 文檔更新
 description: 瞭解Adobe Campaign standard檔案的所有最新更新。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: 3bdc7d11-8421-4110-a5ba-7b1376a03dda
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: rn
-content-type: 參考
+content-type: reference
 topic-tags: campaign-standard-releases
 discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: a44e6088b20318f3a0263dd0671e4d88bf126699
 
 ---
 
@@ -24,6 +24,10 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 本頁列出每個Adobe Campaign Standard版本的所有新功能和檔案更新。
 
 您也可以參閱Adobe Campaign發 [行說明](../../rn/using/release-notes.md)。
+
+## 檔案更新- 2019年11月 {#doc-updates-november-2019}
+
+已新增一個新的使用案例，說明如何使用Campaign Standard中的工作流程來建立控制群組。 閱[讀更多](../../automating/using/workflow-control-group.md)
 
 ## 發行版本19.4 - 2019年10月 {#release-19-4---october-2019}
 
@@ -745,7 +749,7 @@ SMS傳送區段已更新以反映介面變更。 [閱讀更多資訊](../../chan
 
 ### 發行中包含的新功能 {#new-capabilities-included-in-the-release-17}
 
-電子郵件預測性主旨行——詳 [細內容](../../designing/using/subject-line.md#predictive-subject-line)
+電子郵件預測性主旨行——詳 [細資訊](../../designing/using/subject-line.md#predictive-subject-line)
 
 SMS交易訊息——閱 [讀更多](../../administration/using/configuring-transactional-messaging.md#creating-an-event)
 

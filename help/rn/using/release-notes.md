@@ -1,18 +1,18 @@
 ---
 title: 發行說明 年
 description: 本頁列出Adobe Campaign Standard的所有最新版本。
-page-status-flag: 從未激活
-uuid: 1cf2e40c-beca-43db-8261-a1820e86ad3
-contentOwner: 紹維亞
+page-status-flag: never-activated
+uuid: 1cf2e40c-beca-43db-8261-a1820ee86ad3
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: rn
-content-type: 參考
+content-type: reference
 topic-tags: campaign-standard-releases
 discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -150,7 +150,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ### What's new? {#what-s-new-4}
 
-我們已新增功能，讓管理員使用者在網域的SSL憑證到期之前，先收到通知。  如需詳細資訊，請參閱詳 [細檔案](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html)。
+我們已新增功能，讓管理員使用者在網域的SSL憑證到期之前，先收到通知。 如需詳細資訊，請參閱詳 [細檔案](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html)。
 
 此外，管理員使用者現在可以刪除已新增來存取SFTP伺服器的SSH金鑰。
 
@@ -202,7 +202,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 * 您現在可以定義電子郵件中使用的每個元件是否只會顯示在桌上型裝置上，或只會顯示在行動裝置上。
 * 您現在可以設定Social內容元件的寬度和高度。
 * 修正刪除動態內容後，無法移除動態內容舊原始程式碼的問題。
-* 修正修改電子郵件主旨後，無法更新其主旨的問題。
+* 修正修改電子郵件後，無法更新其主題的問題。
 * 修正將n:n欄結構拖放至工作區後無法選取的問題。
 * 修正電子郵件儀表板中訊息縮圖模糊的問題。
 * 修正Outlook中收到的電子郵件無法正確顯示背景的問題。
@@ -212,7 +212,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ### 其他改進 {#other-improvements-3}
 
-* 透過與Adobe Experience Platform Location services的整合，Adobe Campaign現在可相容，透過Experience Platform SDK，將以位置為基礎的行銷訊息傳送給行動應用程式的用戶。  如需詳細資訊，請參閱詳 [細檔案](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md)。
+* 透過與Adobe Experience Platform Location services的整合，Adobe Campaign現在可相容，透過Experience Platform SDK，將以位置為基礎的行銷訊息傳送給行動應用程式的用戶。 如需詳細資訊，請參閱詳 [細檔案](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md)。
 * 報告功能已經改善，以提供更佳的體驗。 若要使用此功能，您必須接受動態報表使用合約。 如需詳細資訊，請參閱詳細 [檔案](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)。
 * 在工作流程中，已新增一個新選項，以預覽工作流程的下十個執行。 如需詳細資訊，請參閱詳細 [檔案](../../automating/using/scheduler.md)。
 * 在「排程器」活動中，新選項允許您為每月傳送選擇特定周的特定日期。 如需詳細資訊，請參閱詳細 [檔案](../../automating/using/scheduler.md)。
@@ -319,7 +319,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
   </tr> 
   <tr> 
    <td> 本機通知<br /> </td> 
-   <td> <p>本端通知訊息可讓您在使用者的行動應用程式中有新資料可用時，通知使用者，即使您無法存取前景中執行的網際網路或行動應用程式。 行動應用程式會在特定時間觸發本機通知，並視事件而定。</p><p> 如需詳細資訊，請參閱詳 <a href="../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type">細檔案</a>。</p></td> 
+   <td> <p>本端通知訊息可讓您在使用者的行動應用程式中有新資料可用時，通知使用者，即使您無法存取前景中執行的網際網路或行動應用程式。 行動應用程式會在特定時間觸發本機通知，並視事件而定。</p><p>如需詳細資訊，請參閱詳 <a href="../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type">細檔案</a>。</p></td> 
   </tr> 
   <tr> 
    <td> 工作流程增強功能——將負載新增至外部訊號活動<br /> </td> 
@@ -327,7 +327,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
   </tr> 
   <tr> 
    <td> 著陸頁面增強功能- Google reCAPTCHA<br /> </td> 
-   <td> <p>運用Google reCAPTCHA來防止您的登陸頁面出現垃圾訊息，而不需要客戶採取任何動作。</p><p> 如需詳細資訊，請參閱詳 <a href="../../channels/using/designing-a-landing-page.md#setting-google-recaptcha">細檔案</a>。</p></td> 
+   <td> <p>運用Google reCAPTCHA來防止您的登陸頁面出現垃圾訊息，而不需要客戶採取任何動作。</p><p>如需詳細資訊，請參閱詳 <a href="../../channels/using/designing-a-landing-page.md#setting-google-recaptcha">細檔案</a>。</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -375,14 +375,14 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 * 郵遞區號維度已從動態報表中移除。 我們建議改用「城市」、「國家」、「州」維度。
 * 已移除應用程式內訊息的「首次啟動」生命週期事件觸發器。
 * 導出包含安全組的包時，它現在包含分配給每個組的角色。 (CAMP-32960)
-* 在「載入檔案」活動中，新選項可讓您檢查您要上載的檔案欄是否符合欄定義。  如需詳細資訊，請參閱詳 [細檔案](../../automating/using/load-file.md)。 (CAMP-32229)
-* 工作流程現在可以從裝載開始，讓您在工作流程中的活動之間使用和共用外部參數。  如需詳細資訊，請參閱詳 [細檔案](../../automating/using/calling-a-workflow-with-external-parameters.md)。 （CAMP-29412和CAMP-29413）
-* Campaign Standard API現在可讓您使用裝載來更新描述檔的地理和組織單位。  如需詳細資訊，請參閱詳 [細檔案](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)。
+* 在「載入檔案」活動中，新選項可讓您檢查您要上載的檔案欄是否符合欄定義。 如需詳細資訊，請參閱詳 [細檔案](../../automating/using/load-file.md)。 (CAMP-32229)
+* 工作流程現在可以從裝載開始，讓您在工作流程中的活動之間使用和共用外部參數。 如需詳細資訊，請參閱詳 [細檔案](../../automating/using/calling-a-workflow-with-external-parameters.md)。 （CAMP-29412和CAMP-29413）
+* Campaign Standard API現在可讓您使用裝載來更新描述檔的地理和組織單位。 如需詳細資訊，請參閱詳 [細檔案](../../api/using/about-campaign-standard-apis.md)。
 * 當無法存取資料庫中的物件時，會有更清楚的錯誤訊息，以供您瞭解。
-* 在「擷取檔案」活動中，定義要匯出的檔案名稱時，已更新Javascript功能。 現在，「輸出」欄位中只能使用formatDate函式。  如需詳細資訊，請參閱詳 [細檔案](../../automating/using/extract-file.md)。
+* 在「擷取檔案」活動中，定義要匯出的檔案名稱時，已更新Javascript功能。 現在，「輸出」欄位中只能使用formatDate函式。 如需詳細資訊，請參閱詳 [細檔案](../../automating/using/extract-file.md)。
 * 自訂資源的自動序列ID產生功能已改良。 新自訂資源的主鍵現在預設為64位。
-* 自訂資源發佈測試模式已改進。 如果上次自訂資源發佈失敗且未修正，現在會向使用者顯示警告訊息。 在自定義資源發佈失敗後，可以回滾到上一個工作版本。  如需詳細資訊，請參閱詳 [細檔案](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)。
-* 在「傳輸檔案」活動中添加了新選項。 它允許您在SFTP模式下使用「檔案下載」操作時對檔案進行排序。  如需詳細資訊，請參閱詳 [細檔案](../../automating/using/transfer-file.md)。 (CAMP-33109)
+* 自訂資源發佈測試模式已改進。 如果上次自訂資源發佈失敗且未修正，現在會向使用者顯示警告訊息。 在自定義資源發佈失敗後，可以回滾到上一個工作版本。 如需詳細資訊，請參閱詳 [細檔案](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)。
+* 在「傳輸檔案」活動中添加了新選項。 它允許您在SFTP模式下使用「檔案下載」操作時對檔案進行排序。 如需詳細資訊，請參閱詳 [細檔案](../../automating/using/transfer-file.md)。 (CAMP-33109)
 
 ### 修補程式 {#patches}
 
@@ -433,11 +433,11 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
  <tbody> 
   <tr> 
    <td> 推播頻道報表改進<br /> </td> 
-   <td> <p>推播頻道報表已新增數項增強功能，讓您以更直覺的方式測量使用者參與度。 在此版本中，我們將推播渠道量度的清單擴充為三個不同的量度：印象、點按、開啟（應用程式開啟）可協助您更有效率地測量和分析使用者與推播通知的互動。 此外，我們也標準化這些量度的定義與實作。 推播通知內建報表也已改良，常用的視覺化和量度也已改善。</p><p>  如需詳細資訊，請參閱詳 <a href="../../reporting/using/push-notification-report.md">細檔案</a>。</p> </td> 
+   <td> <p>推播頻道報表已新增數項增強功能，讓您以更直覺的方式測量使用者參與度。 在此版本中，我們將推播渠道量度的清單擴充為三個不同的量度：印象、點按、開啟（應用程式開啟）可協助您更有效率地測量和分析使用者與推播通知的互動。 此外，我們也標準化這些量度的定義與實作。 推播通知內建報表也已改良，常用的視覺化和量度也已改善。</p><p> 如需詳細資訊，請參閱詳 <a href="../../reporting/using/push-notification-report.md">細檔案</a>。</p> </td> 
   </tr> 
   <tr> 
    <td> 行動應用程式的啟動整合<br /> </td> 
-   <td> <p>此版本包含Adobe Campaign與Adobe Experience Platform Launch和Mobile SDK中Adobe Campaign Standard的GA版Android和iOS擴充功能的整合。 這些擴充功能支援推播訊息、應用程式內訊息和行動應用程式設定檔更新。</p><p>  如需詳細資訊，請參閱詳 <a href="../../administration/using/about-typology-rules.md#typology-rules">細檔案</a>。</p> </td> 
+   <td> <p>此版本包含Adobe Campaign與Adobe Experience Platform Launch和Mobile SDK中Adobe Campaign Standard的GA版Android和iOS擴充功能的整合。 這些擴充功能支援推播訊息、應用程式內訊息和行動應用程式設定檔更新。</p><p> 如需詳細資訊，請參閱詳 <a href="../../administration/using/about-typology-rules.md#typology-rules">細檔案</a>。</p> </td> 
   </tr> 
   <tr> 
    <td> 行動應用程式內訊息<br /> </td> 
@@ -447,8 +447,8 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
    <td> 工作流程增強功能<br /> </td> 
    <td> <p>已新增下列工作流程功能：</p> 
     <ul> 
-     <li> 您現在可以從同一個促銷活動例項，複製或貼上工作流程或其他工作流程中的活動。 如此，您就可輕鬆複製整個工作流程或特定活動，並保留最初定義的設定。  如需詳細資訊，請參閱詳 <a href="../../automating/using/workflow-interface.md#duplicating-workflow-activities">細檔案</a>。 (CAMP-20014) </li> 
-     <li> 使用「載 <strong>入檔案</strong> 」活動時，您現在可以在包含已拒絕記錄的檔案名稱中新增時間戳記。  如需詳細資訊，請參閱詳 <a href="../../automating/using/load-file.md#configuration">細檔案</a>。 </li> 
+     <li> 您現在可以從同一個促銷活動例項，複製或貼上工作流程或其他工作流程中的活動。 如此，您就可輕鬆複製整個工作流程或特定活動，並保留最初定義的設定。 如需詳細資訊，請參閱詳 <a href="../../automating/using/workflow-interface.md#duplicating-workflow-activities">細檔案</a>。 (CAMP-20014) </li> 
+     <li> 使用「載 <strong>入檔案</strong> 」活動時，您現在可以在包含已拒絕記錄的檔案名稱中新增時間戳記。 如需詳細資訊，請參閱詳 <a href="../../automating/using/load-file.md#configuration">細檔案</a>。 </li> 
      <li> <strong>查詢</strong> 和 <strong></strong> 劃分活動現在可讓您啟用傳出轉移（如果活動未擷取任何資料）。 </li> 
     </ul> </td> 
   </tr> 
@@ -463,19 +463,19 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 * Behance藝術家設計的4種同級最佳回應式電子郵件範本現已推出。
 
-    如需詳細資訊，請參閱詳 [細檔案](../../designing/using/using-reusable-content.md#content-templates)。
+   如需詳細資訊，請參閱詳 [細檔案](../../designing/using/using-reusable-content.md#content-templates)。
 
 * 我們的全新入門體驗將協助您更快開始建立電子郵件，並讓您更輕鬆地存取檔案和教學課程。
 
-    如需詳細資訊，請參閱詳 [細檔案](../../designing/using/overview.md#email-designer-home-page)。
+   如需詳細資訊，請參閱詳 [細檔案](../../designing/using/overview.md#email-designer-home-page)。
 
 * 您現在可以根據需求，靈活設定欄數和寬度。
 
-    如需詳細資訊，請參閱詳 [細檔案](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
+   如需詳細資訊，請參閱詳 [細檔案](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 
 * 在行動檢視中編輯時，您可以僅在行動顯示中隱藏某些元件，以有效利用空間。
 
-    如需詳細資訊，請參閱詳 [細檔案](../../designing/using/styles.md#switching-to-mobile-view)。
+   如需詳細資訊，請參閱詳 [細檔案](../../designing/using/styles.md#switching-to-mobile-view)。
 
 * 您現在可以將自訂的社交管道新增至電子郵件範本，而不是已可用的管道。
 * 修正當使用超過18種結構時，無法向下捲動結構選單的問題。 (CAMP-31173)
@@ -495,7 +495,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 * 「描述檔建立」畫面中的「時區」下拉式清單已從「位址」區段移至介面的上方區段。
 * 您現在可以在設定自訂資源畫面時新增分隔符號，讓您將欄位組織到類別中。
 
-    如需詳細資訊，請參閱詳 [細檔案](../../developing/using/configuring-the-screen-definition.md#defining-the-detail-screen-configuration)。
+   如需詳細資訊，請參閱詳 [細檔案](../../developing/using/configuring-the-screen-definition.md#defining-the-detail-screen-configuration)。
 
 ### 其他變更 {#other-changes-1}
 
@@ -554,7 +554,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
   </tr> 
   <tr> 
    <td> 電子郵件設計人員中的行動裝置檢視<br /> </td> 
-   <td> <p>編輯電子郵件內容時，您現在可以切換至專用的行動檢視。 這可讓您個別編輯行動顯示的所有樣式選項，例如調整邊界、較小的字型大小、不同的背景顏色等，以微調電子郵件的互動式設計。</p><p>  如需詳細資訊，請參閱詳 <a href="../../designing/using/styles.md#switching-to-mobile-view">細檔案</a>。</p> </td> 
+   <td> <p>編輯電子郵件內容時，您現在可以切換至專用的行動檢視。 這可讓您個別編輯行動顯示的所有樣式選項，例如調整邊界、較小的字型大小、不同的背景顏色等，以微調電子郵件的互動式設計。</p><p> 如需詳細資訊，請參閱詳 <a href="../../designing/using/styles.md#switching-to-mobile-view">細檔案</a>。</p> </td> 
   </tr> 
   <tr> 
    <td> 應用程式內訊息測試版改進<br /> </td> 
@@ -564,7 +564,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
      <li> 與Analytics API整合，以填入觸發器下拉式清單 </li> 
      <li> 傳送範本的直覺式外觀和說明 </li> 
      <li> 從可用性的角度增強製作介面 </li> 
-    </ul> <p> 如需詳細資訊，請參閱詳 <a href="../../channels/using/about-in-app-messaging.md">細檔案</a>。</p> </td> 
+    </ul> <p>如需詳細資訊，請參閱詳 <a href="../../channels/using/about-in-app-messaging.md">細檔案</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>

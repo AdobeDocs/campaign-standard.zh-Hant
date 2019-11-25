@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a44e6088b20318f3a0263dd0671e4d88bf126699
+source-git-commit: a3b81a62d6f4b58c1b88b4e50755dcb1e638f7be
 
 ---
 
@@ -28,6 +28,8 @@ source-git-commit: a44e6088b20318f3a0263dd0671e4d88bf126699
 ## 檔案更新- 2019年11月 {#doc-updates-november-2019}
 
 已新增一個新的使用案例，說明如何使用Campaign Standard中的工作流程來建立控制群組。 閱[讀更多](../../automating/using/workflow-control-group.md)
+
+API檔案集已整合至Campaign standard檔案。[閱讀更多資訊](../../api/using/about-campaign-standard-apis.md)
 
 ## 發行版本19.4 - 2019年10月 {#release-19-4---october-2019}
 
@@ -50,6 +52,8 @@ GDPR快速入門手冊已經過改進並充實。 它現在是包含GDPR和CCPA�
 已新增新區段。 它提供可讓您豐富Campaign standard資料庫的不同方法的概觀。 [閱讀更多資訊](../../start/using/enriching-campaign-database.md)
 
 已新增一個章節，說明如何使用電子郵件設計工具來設定連結的樣式。 [閱讀更多資訊](../../designing/using/styles.md#about-styling-links)
+
+與隱私權相關的資訊已新增至API檔案按一 [下這裡](../../api/using/privacy-management.md)
 
 ## 檔案更新- 2019年10月 {#doc-updates-october-2019}
 
@@ -167,7 +171,7 @@ Audience manager整合頁面已更新，以反映 **Declared ID變更** 。 [閱
 
 在「傳輸檔案」( **Transfer file** )活動的新排序選項中添加了資訊。 [閱讀更多資訊](../../automating/using/transfer-file.md)
 
-已 [更新REST API](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html) 檔案：
+已 [更新REST API](../../api/using/about-campaign-standard-apis.md) 檔案：
 
 * 新增了一個區段，其中包含有關使用Campaign Standard REST API的一般資訊。
 * 已提供預先設計的API要求集合，代表常見使用案例。
@@ -347,7 +351,7 @@ Adobe Launch整合行動應用程式（測試版）-閱 [讀更多](../../admini
 
 ### 發行中包含的新功能 {#new-capabilities-included-in-the-release-5}
 
-API檔案已更新，其中包含 **History** API的資訊。 已新增使用案例，說明如何擷取傳送至描述檔的傳送鏡像頁面。 [閱讀更多資訊](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#how-to-retrieve-the-mirror-page-for-a-delivery-sent-to-a-profile)
+API檔案已更新，其中包含 **History** API的資訊。 已新增使用案例，說明如何擷取傳送至描述檔的傳送鏡像頁面。 [閱讀更多資訊](../../api/using/interacting-with-marketing-history.md)
 
 ### 此版本隨附的其他檔案更新 {#other-documentation-updates-coming-with-the-release-5}
 
@@ -361,7 +365,7 @@ API檔案已更新，其中包含 **History** API的資訊。 已新增使用案
 
 在查詢活動區段中新增範例，說明如何定位在傳送中點按特定連結的描述檔。 [閱讀更多資訊](../../automating/using/query.md#targeting-profiles-who-clicked-a-specific-link-)
 
-在API檔案中新增與自訂篩選器相關 **的區段**。 [閱讀更多資訊](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering)
+在API檔案中新增與自訂篩選器相關 **的區段**。 [閱讀更多資訊](../../api/using/filtering.md)
 
 ## 發行版本18.5 - 2018年5月 {#release-18-5---may-2018}
 
@@ -411,7 +415,7 @@ GDPR:核心服務整合——詳 [細資訊](https://docs.campaign.adobe.com/doc
 
 ### 此版本隨附的其他檔案更新 {#other-documentation-updates-coming-with-the-release-7}
 
-GDPR API會重新分組允許自動處理GDPR要求的功能。 [閱讀更多資訊](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#gdpr-api)
+GDPR API會重新分組允許自動處理GDPR要求的功能。 [閱讀更多資訊](../../api/using/privacy-management.md)
 
 已新增有關如何設定著陸頁面，讓收件者能夠列入黑名單的資訊。 [閱讀更多資訊](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
@@ -485,7 +489,7 @@ SQL結構現在提供資料模型v1，用於現成可用的資源——詳 [情]
 
 時區最佳化傳送——詳 [細資訊](../../automating/using/scheduler.md)
 
-API Signal活動觸發——詳 [細資訊](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#triggering-a-signal-activity)
+API Signal活動觸發——詳 [細資訊](../../api/using/managing-workflows.md)
 
 ### 此版本隨附的其他檔案更新 {#other-documentation-updates-coming-with-the-release-9}
 
@@ -535,11 +539,11 @@ API Signal活動觸發——詳 [細資訊](https://final-docs.campaign.adobe.co
 
 SMS檔案已更新，SMS自動回覆區段已新增 [一些說明](../../channels/using/managing-incoming-sms.md#managing-stop-sms) 。
 
-透過API專用於工作流程管理的新區段。 [閱讀更多資訊](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#workflows-and-api)
+透過API專用於工作流程管理的新區段。 [閱讀更多資訊](../../api/using/managing-workflows.md)
 
-新區段專用於主要金鑰，以及使用商業ID做為API中金鑰。 [閱讀更多資訊](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#primary-key)
+新區段專用於主要金鑰，以及使用商業ID做為API中金鑰。 [閱讀更多資訊](../../api/using/about-campaign-standard-apis.md)
 
-在API中新增有關簡單和多重篩選的資訊。 [閱讀更多資訊](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering)
+在API中新增有關簡單和多重篩選的資訊。 [閱讀更多資訊](../../api/using/filtering.md)
 
 ## 發行版本17.9 - 2017年9月 {#release-17-9---september-2017}
 
@@ -689,7 +693,7 @@ REST API中的連結資源——閱 [讀更多](../../developing/using/updating-
 
 觸發器整合：新增了兩個使用案例。 [閱讀更多資訊](../../integrating/using/abandonment-triggers-use-cases.md)
 
-我們重新設計了開發人員API檔案，提供新資訊和程式碼片段，以改善使用體驗。 [閱讀更多資訊](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
+我們重新設計了開發人員API檔案，提供新資訊和程式碼片段，以改善使用體驗。 [閱讀更多資訊](../../api/using/about-campaign-standard-apis.md)
 
 探索新「讀取」觀眾和「 [外部訊號](../../automating/using/read-audience.md) 」工作 [流程活動的範例](../../automating/using/external-signal.md) 。
 
@@ -699,7 +703,7 @@ REST API中的連結資源——閱 [讀更多](../../developing/using/updating-
 
 外部報表的記錄匯出——詳 [細資訊](../../automating/using/exporting-logs.md)
 
-Transactional Messaging API —— 閱讀 [更多資訊](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
+Transactional Messaging API —— 閱讀 [更多資訊](../../api/using/about-campaign-standard-apis.md)
 
 交易式訊息的行銷功能——詳 [細內容](../../channels/using/profile-transactional-messages.md)
 
@@ -723,7 +727,7 @@ URL變更：人員核心服務——閱 [讀更多](../../integrating/using/abou
 
 瞭解使用者權限：已新增使用案例。 另請參考使 [用者權限表](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)。
 
-使用API:已 [新增API擴充功能使用案例](../../developing/using/about-extending-the-api.md) 。 另請參閱 [API檔案](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)。
+使用API:已 [新增API擴充功能使用案例](../../developing/using/about-extending-the-api.md) 。 另請參閱 [API檔案](../../api/using/about-campaign-standard-apis.md)。
 
 促銷活動錯誤訊息：存取Campaign v6和Standard中的錯誤訊息完整清單，並依版本和語言篩選。 [閱讀更多資訊](http://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 

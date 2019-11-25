@@ -1,19 +1,19 @@
 ---
 title: 整合的客戶設定檔
 description: 「透過單一檢視追蹤每個客戶互動：Adobe Campaign整合式客戶個人檔案會在整個客戶生命週期中更新。」
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: da2eb13a-2268-4a99-939c-c6388f5d34f3
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
-content-type: 參考
-topic-tags: 管理配置檔案
+content-type: reference
+topic-tags: managing-profiles
 discoiquuid: d44656e8-e652-45fc-a05c-0d5ffe456ecb
-context-tags: marketingHistory，主要
+context-tags: marketingHistory,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: fcd14668fc862b0ef4e2b294acd544739508471d
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 要訪問整合客戶配置檔案，請執行以下步驟：
 
-1. 在Adobe Campaign首頁，按一下資訊卡 **[!UICONTROL Customer profiles]** 或「設定檔 **」標籤** 。
+1. 在Adobe Campaign首頁中，按一下資訊卡 **[!UICONTROL Customer profiles]** 或「設定檔 **」標籤** 。
 1. 選擇聯繫人。
 
    ![](assets/mkt_hist_access.png)
@@ -39,5 +39,4 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 >[!NOTE]
 >
->您也可以使用Adobe Campaign Standard API存取行銷記錄。 如需詳細資訊，請參閱專用 [檔案](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#interacting-with-marketing-history) 。
-
+>您也可以使用Adobe Campaign Standard API存取行銷記錄。 如需詳細資訊，請參閱專用 [檔案](../../api/using/interacting-with-marketing-history.md) 。

@@ -1,18 +1,18 @@
 ---
 title: 發行說明 2018 年
 description: 本頁列出2018年版本的所有Adobe Campaign Standard。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: 99f92a54-4b3d-48b9-b08d-e98b24e75f62
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: rn
-content-type: 參考
+content-type: reference
 topic-tags: campaign-standard-releases
 discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -61,7 +61,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 * 在定義促銷活動屬性時選取行動應用程式，以定位特定行動應用程式上的使用者。 這項功能適用於推播和應用程式內訊息通道。
 
-    如需詳細資訊，請參閱詳 [細檔案](../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification)。
+   如需詳細資訊，請參閱詳 [細檔案](../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification)。
 
 * 使用Creative Designer介面選取內容區塊時，現在會載入並顯示清單中的所有內容區塊。 (CAMP-27311)
 
@@ -157,7 +157,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ### 改進 {#improvements-2}
 
-* API **[!UICONTROL History]** 已新增至Adobe.IO。 它可讓您存取與描述檔的行銷歷史記錄相關的資訊：觸點數、已傳送傳送、鏡像頁面URL等。 如需詳細資訊，請參閱專 [用使用案例](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#how-to-retrieve-the-mirror-page-for-a-delivery-sent-to-a-profile) 。
+* API **[!UICONTROL History]** 已新增至Adobe.IO。 它可讓您存取與描述檔的行銷歷史記錄相關的資訊：觸點數、已傳送傳送、鏡像頁面URL等。 如需詳細資訊，請參閱專 [用使用案例](../../api/using/interacting-with-marketing-history.md) 。
 * 為了 **[!UICONTROL Database cleanup]** 確保資料庫備份的更佳效能，已優化了技術工作流程。
 * 適用於電子郵件的Creative Designer現在也提供法文和德文版。
 
@@ -217,7 +217,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
     <ul> 
      <li> 使用「凍結」資料匯出延伸廣播：身為行銷人員，我想匯出區段代碼等於「A」（來自工作流程引擎）的所有設定檔。 </li> 
      <li> 「凍結」資料的分段：身為行銷人員，我想重新定 <strong>位</strong> ，自上次傳送以來已贏得1000個忠誠度點的所有個人檔案，或區段代碼等於「A」的個人檔案。 </li> 
-    </ul>  如需詳細資訊，請參閱詳 <a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">細檔案</a>。<br /> </td> 
+    </ul> 如需詳細資訊，請參閱詳 <a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">細檔案</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 使用自訂描述檔資料進行動態報告<br /> </td> 
@@ -307,7 +307,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
     <ul> 
      <li> 存取權：允許資料主體接收資料掌控者所擷取的個人資料副本，可能包括儲存在Adobe Campaign中的資料。 </li> 
      <li> 刪除權：資料主體有權清除資料掌控者擷取的個人資料，可能包括Adobe Campaign中儲存的資料。 </li> 
-    </ul>  如需詳細資訊，請參閱詳 <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">細檔案</a>。<br /> </td> 
+    </ul> 如需詳細資訊，請參閱詳 <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">細檔案</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 適用於電子郵件的Creative Designer（測試版）<br /> </td> 
@@ -329,7 +329,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
     <ul> 
      <li> 利用自訂欄位做為協調標準，將交易訊息與描述檔相符 </li> 
      <li> 利用完整的個人檔案、服務和連結資料，進一步個人化交易訊息 </li> 
-    </ul>  如需詳細資訊，請參閱詳 <a href="../../administration/using/configuring-transactional-messaging.md">細檔案</a>。<br /> </td> 
+    </ul> 如需詳細資訊，請參閱詳 <a href="../../administration/using/configuring-transactional-messaging.md">細檔案</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -479,7 +479,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
   </tr> 
   <tr> 
    <td> API Signal活動觸發<br /> </td> 
-   <td> 現在可以直接從Adobe Campaign Standard API觸發工作流程的訊號活動。<br /> 如需詳細資訊，請參閱詳細 <a class="anchorLink" href="https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#triggering-a-signal-activity" target="_blank">檔案</a> 。<br /> </td> 
+   <td> 現在可以直接從Adobe Campaign Standard API觸發工作流程的訊號活動。<br /> 如需詳細資訊，請參閱詳細 <a class="anchorLink" href="../../api/using/managing-workflows.md">檔案</a> 。<br /> </td> 
   </tr> 
  </tbody> 
 </table>

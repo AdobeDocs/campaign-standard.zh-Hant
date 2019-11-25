@@ -1,18 +1,18 @@
 ---
 title: 豐富資料庫
 description: 瞭解豐富資料庫的各種方法。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: 71f53808-0309-49f6-a4ee-3446eac9758a
-contentOwner: 勒梅特
+contentOwner: lemaitre
 products: SG_CAMPAIGN/STANDARD
 audience: start
-content-type: 參考
+content-type: reference
 topic-tags: about-adobe-campaign
 discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -66,7 +66,7 @@ Campaign standard與Microsoft Dynamics 365的整合可讓您將Microsoft Dynamic
 
 Campaign Standard API可讓您執行更新資料庫的作業，例如設定檔或服務的建立、更新或刪除。
 
-如需如何使用API的詳細資訊，請參閱專用 [檔案](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)。
+如需如何使用API的詳細資訊，請參閱專用 [檔案](../../api/using/about-campaign-standard-apis.md)。
 
 >[!CAUTION]
 >

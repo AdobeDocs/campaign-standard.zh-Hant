@@ -1,18 +1,18 @@
 ---
 title: 細分與目標定位
 description: 「瞭解Campaign中的設定檔、鎖定和受眾建立：建立受眾、匯入連絡人與Experience cloud解決方案分享受眾，並避免行銷疲勞。」
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: 71f53808-0309-49f6-a4ee-3446eac9758a
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: start
-content-type: 參考
+content-type: reference
 topic-tags: about-adobe-campaign
 discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: ba1e87b140a19967e67320cc4579ac025955ca23
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Campaign設定檔代表儲存在資料庫中的所有連絡人。 每個�
 
 ![](assets/mkt_hist_view.png)
 
-Adobe Campaign針對個人檔案的取得提出各種機制：透過著陸頁麵線上收集資 [料](../../channels/using/about-landing-pages.md)、手動或自動匯入機制 [、Adobe Campaign介面中的直接輸入](../../automating/using/about-data-import-and-export.md)、透過 [](../../audiences/using/creating-profiles.md)[](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)Campaign API進行大量建立Campaign Api。
+Adobe Campaign針對個人檔案的取得提出各種機制：透過著陸頁麵線上收集資 [料](../../channels/using/about-landing-pages.md)、手動或自動匯入機制 [、Adobe Campaign介面中的直接輸入](../../automating/using/about-data-import-and-export.md)、透過 [](../../audiences/using/creating-profiles.md)[](../../api/using/about-campaign-standard-apis.md)Campaign API進行大量建立Campaign Api。
 
 **相關主題：**
 

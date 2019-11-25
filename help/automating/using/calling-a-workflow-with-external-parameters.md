@@ -1,18 +1,18 @@
 ---
 title: 使用外部參數呼叫工作流程
 description: 本節詳細說明如何使用外部參數調用工作流。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: beccd1b6-8e6d-4504-9152-9ff537459c4a
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 自動化
-content-type: 參考
-topic-tags: 工作流——一般操作
+audience: automating
+content-type: reference
+topic-tags: workflow-general-operation
 discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -49,7 +49,7 @@ Campaign Standard可讓您使用參數（要定位的對象名稱、要匯入的
 
 ## 在調用工作流時定義參數 {#defining-the-parameters-when-calling-the-workflow}
 
-本節詳細說明如何在調用工作流時定義參數。 如需如何從API呼叫執行此作業的詳細資訊，請參閱 [REST API檔案](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)。
+本節詳細說明如何在調用工作流時定義參數。 如需如何從API呼叫執行此作業的詳細資訊，請參閱 [REST API檔案](../../api/using/managing-workflows.md)。
 
 在定義參數之前，請確定：
 
@@ -223,7 +223,7 @@ $(vars/@parameterName)
 
 ### 步驟1:設定API呼叫 {#step-1--configuring-the-api-call}
 
-進行API呼叫，以使用參數觸發Workflow 1。 如需API呼叫語法的詳細資訊，請參閱 [Campaign Standard REST API檔案](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)。
+進行API呼叫，以使用參數觸發Workflow 1。 如需API呼叫語法的詳細資訊，請參閱 [Campaign Standard REST API檔案](../../api/using/managing-workflows.md)。
 
 在本例中，我們要使用下列參數來呼叫工作流程：
 
@@ -331,7 +331,7 @@ Workflow 1已設定，您現在可以建立Workflow 2。 如需詳細資訊，�
 
 1. 聲明已在Workflow 1中定義的參數。
 
-   若要這麼做，請開啟 **[!UICONTROL External signal]** 活動，然後新增在Workflow 1活動中定義之每個參數 **[!UICONTROL End]** 的名稱和類型。
+   若要這麼做，請開啟 **[!UICONTROL External signal]** 活動，然後新增Workflow 1活動中定義之每個參數 **[!UICONTROL End]** 的名稱和類型。
 
    ![](assets/extsignal_uc8.png)
 

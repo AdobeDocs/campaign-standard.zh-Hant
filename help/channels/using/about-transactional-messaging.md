@@ -1,18 +1,18 @@
 ---
 title: 關於交易式訊息傳遞
 description: 探索您可傳送的不同類型交易訊息，以及這些訊息在Adobe Campaign中的使用方式。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: 8470e9e2-ee17-456f-9e4c-460e69c78a2c
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 頻道
-content-type: 參考
-topic-tags: 事務性消息傳遞
+audience: channels
+content-type: reference
+topic-tags: transactional-messaging
 discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -44,7 +44,7 @@ Adobe Campaign提供兩種交易訊息：
 >
 >Adobe Campaign會優先處理交易訊息，而非其他傳送。
 
-Adobe Campaign Standard API也提供交易式訊息。 如需詳細資訊，請參閱專用 [檔案](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#about-transactional-messaging)。
+Adobe Campaign Standard API也提供交易式訊息。 如需詳細資訊，請參閱專用 [檔案](../../api/using/managing-transactional-messages.md)。
 
 ## 事務性消息傳遞操作原則 {#transactional-messaging-operating-principle}
 

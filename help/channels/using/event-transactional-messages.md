@@ -1,19 +1,19 @@
 ---
 title: 事件交易式訊息
 description: 瞭解如何建立和發佈事件交易訊息。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: d747feb5-58fb-4e12-a176-404f0eca5391
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 頻道
-content-type: 參考
-topic-tags: 事務性消息傳遞
+audience: channels
+content-type: reference
+topic-tags: transactional-messaging
 discoiquuid: 4f6317a1-9dfe-4714-bc1c-393629d855cd
 context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -258,7 +258,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 您可以暫停發佈事務性消息， **[!UICONTROL Pause]** 例如使用按鈕修改消息中包含的資料。 因此，這些事件不會再處理，而會保留在Adobe Campaign資料庫的佇列中。
 
-佇列的事件會在REST API中定義的時段內保留(請參閱 [REST API檔案](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html))，或在觸發器事件中(如果您使用「觸發器」核心服務，請參閱 [Working with Campaign and Experience cloud觸發器](../../integrating/using/about-adobe-experience-cloud-triggers.md))。
+佇列的事件會在REST API中定義的時段內保留(請參閱 [REST API檔案](../../api/using/about-campaign-standard-apis.md))，或在觸發器事件中(如果您使用「觸發器」核心服務，請參閱 [Working with Campaign and Experience cloud觸發器](../../integrating/using/about-adobe-experience-cloud-triggers.md))。
 
 ![](assets/message-center_pause.png)
 

@@ -10,7 +10,7 @@ discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
+source-git-commit: 6263623a5a8999c475255709a7d0150437e68c0b
 
 ---
 
@@ -19,169 +19,169 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
 
 ## 物件說明
 
-    &lt;th&gt;
-    &lt;th&gt;
-    &lt;th&gt;
-    &lt;th&gt;&lt;th&gt;
-    &lt;th&gt;標籤/th&gt;
-    &lt;th&gt;類型（長度）&lt;th&gt;&lt;th&gt;枚舉值&lt;/th&gt;
-    &lt;tr&gt;
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    &lt;td&gt;td&lt;td&gt;主資源&lt;td&lt;td&gt;&lt;td&lt;td&gt;字串&lt;td&gt;&lt;td&gt;&lt;/td&gt;經轉寄的經轉寄者&lt;/td&gt;經轉寄者&lt;&lt;/td&gt;&lt;td&gt;&lt;td&gt;&lt;td&gt;&lt;td&gt;&lt;td&gt;&lt;td&gt;&lt;td&lt;&gt;建立日期&lt;&lt;td&gt;&lt;td&gt;&lt;td&gt;&lt;td&gt;&lt;td&gt;&lt;td&gt;&lt;td&gt;&lt;td&gt;&lt;&gt;&lt;td&gt;&lt;&gt;&lt;&gt;&lt;td&gt;&lt;td&gt;轉轉寄客戶&gt;轉寄客戶&gt;經轉寄客戶&gt;經轉寄者&lt;5&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&gt;&lt;&lt;&lt;&lt;&lt;&lt;&gt;&lt;&lt;&gt;經轉/t&lt;&lt;&gt;經轉/t&lt;&lt;&gt;經轉/t&lt;&gt;經轉代&gt;轉/t&lt;&gt;經轉/t&lt;&gt;經轉寄客&gt;經轉代&gt;經轉代&gt;經轉代&gt;經轉寄者&lt;&gt;轉寄客&gt;轉寄的轉寄的轉寄的轉寄的轉代&gt;經轉寄的轉貨&gt;經轉代&gt;經轉寄客&gt;經轉貨&gt;(td)經營者經營的經營者經營的經營者經營的經營者經營的經營者經營的經營者經營的經營者，經營者經營的經營者經營的經營者經營的經營者經營的經營者經營。td&gt;&lt;/tr&gt;&lt;td&gt;&lt;td&gt;&lt;td&gt;&lt;td&gt;&lt;td&gt;&lt;td&gt;&lt;td&gt;&lt;td&gt;&lt;td&gt;&lt;td&gt;&lt;td&gt;&lt;td&gt;&lt;td&gt;&lt;td&gt;&lt;td&gt;&lt;td&gt;&lt;td&gt;&lt;td&gt;&lt;td&gt;&lt;td&gt;&lt;td&gt;&lt;td&gt;&lt;td&gt;&lt;&gt;&lt;td&gt;&lt;td&gt;&lt;td&gt;&lt;td&gt;&lt;td&gt;&lt;&gt;&lt;t&gt;&lt;td&gt;&lt;t&gt;&lt;&gt;&lt;t&gt;&lt;&gt;&lt;&gt;&lt;t&gt;&lt;&gt;&lt;t&gt;&lt;&gt;&lt;t&gt;&lt;&gt;&lt;t&lt;t&gt;&lt;t&gt;&lt;&gt;&lt;&gt;&lt;t&lt;t&gt;&lt;t&gt;&lt;t&gt;&lt;t&gt;&lt;t&lt;&gt;&lt;&gt;&lt;t&gt;&lt;t&gt;&lt;&gt;&lt;&gt;&lt;t&lt;&gt;&lt;t&gt;&lt;t&gt;&lt;t&gt;&lt;t&gt;&lt;t&gt;&lt;t&gt;&lt;&gt;&lt;&gt;&lt;t&gt;&lt;&gt;&lt;t&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;t&gt;&lt;t&gt;&lt;t&gt;&lt;本發明的課題是：促進間苯二甲基苯二甲基苯二甲酸酯(PD↓[3])和間苯二甲酸酯(PD↓[3])。td&gt;td字串(6)&lt;td&gt;&lt;td&gt;&lt;td&gt;&lt;td&lt;td&gt;&lt;td&lt;td&gt;&lt;td&gt;&lt;td&lt;&lt;td&gt;&lt;td&gt;&lt;td&gt;&lt;td&gt;&lt;td&gt;&lt;td&gt;&lt;td&gt;&lt;td&gt;&lt;td&gt;&lt;td&gt;&lt;td&gt;&lt;td&gt;&lt;td&gt;&lt;td&lt;t&lt;&lt;&lt;&lt;&lt;&lt;t&lt;t&lt;&lt;&lt;&lt;t&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;t&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;t&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;前URL&lt;/td&gt;&lt;25td&lt;/td&gt;&lt;td&lt;/td&gt;&lt;td&lt;/td&gt;&lt;td&lt;/td&gt;&lt;td&lt;/td&gt;&lt;td&lt;/td&gt;&lt;td&lt;/td&gt;&lt;td&lt;/td&gt;&lt;td&lt;/td&gt;&lt;td&lt;/td&gt;&lt;單元(UnitBase)/td&lt;td&lt;td&lt;td&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;/td&gt;&lt;/td&gt;&lt;/td&gt;&lt;/td&gt;&lt;修改日期&lt;/td&gt;&lt;修改日期&lt;/td&gt;&lt;修改日期&lt;&lt;/td&gt;&lt;修改日期&lt;/td&gt;&lt;&lt;&lt;&lt;&lt;&lt;/td&gt;&lt;最後名稱&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;&gt;&lt;td&gt;&lt;/td&gt;&lt;&gt;&gt;&gt;&lt;&gt;&lt;修改日期&lt;修改日期&lt;/t&gt;&lt;/td&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;By（用戶）&lt;/Base&gt;&lt;/Td&gt;Modified&lt;/td&gt;Td&lt;&lt;/&gt;Org&lt;/Org&gt;&lt;/Base&gt;&lt;/Organization Unit&lt;/Td&gt;&lt;td Link&lt;/td&lt;/td&gt;&lt;td&lt;/td&gt;。&lt;/td&gt;&lt;/td&gt;原點&lt;/td&gt;&lt;td原點&lt;/td&gt;&lt;td&gt;&lt;td&lt;td&gt;&lt;td&gt;&lt;td&gt;&lt;位元組/&lt;td&gt;&lt;/td&gt;&lt;li&lt;td&gt;&lt;li&gt;&lt;li&gt;&lt;li- 0-li&gt;invalid VALUE - __Invalid__value_&lt;/lili&gt;列舉&lt;/li///ul&gt;經ID/ID/ID/ID/ID/ID/ID/ID/ID/ID/ID/ID/ID/ID/ID/ID/ID/ID/ID/ID/ID/ID/ID/ID/ID/ID/ID/ID/ID/ID/ID/ID/ID/D/D/ID/ID/D/D/DD/D/D/D/D/ID/DD/D/D/D/ID/&lt;/TD&gt;&lt;/TD&gt;&lt;REFERRER&lt;/TD&gt;&lt;REFERRER&lt;/TD&gt;&lt;EMAIL&lt;TD EMAIL&lt;/TD&gt;&lt;TDReFERRER&lt;TD&lt;/TD&gt;&lt;TD&gt;&lt;TDReFERRER&lt;TDREFER&gt;&lt;TD FIRSTNAME&lt;TDTDRAMAME&gt;&lt;TDTDTDTReREAREFORSTReRERERAREAREAR&gt;本發明涉及經濟、社會、經濟、社會、經濟、社會、文化、文化、文化、體育、體育、體育、體育、體育、體育、體育、體育、體育、體育、體育、體育、體育、體育、體育、體育、體育、體育、體育、體育、體育、體育、體育、體育等各類新型的轉介人。&lt;/TD&gt;反向連接者&lt;/TD&gt;&lt;/TD&lt;TD&gt;&lt;TD&gt;&lt;TD&gt;&lt;TD&gt;&lt;TD&gt;&lt;TD&gt;&lt;TD&gt;&lt;TD&gt;&lt;TD&gt;&lt;/TD&gt;&lt;TD&gt;&lt;/TD&gt;&lt;/TD&gt;&lt;&lt;TD&lt;/TD&gt;&lt;TD&gt;&lt;/TD&gt;&lt;&gt;&lt;&lt;&lt;TR&gt;&lt;/TD&gt;&lt;TD&gt;&lt;TD&gt;&lt;TD&gt;&lt;TD&gt;&lt;TD&gt;&lt;TD&gt;&lt;TD&gt;&lt;TD&gt;&lt;TD&gt;&lt;TD&gt;&lt;TD&gt;&lt;/TD&gt;&lt;TD&gt;&lt;/TD&gt;&lt;表&gt;&lt;/TD&gt;&lt;/TD&gt;&lt;表&gt;&lt;/TD&gt;&lt;&gt;&lt;.
+<table>
+    <tr>
+        <th>名稱</th>
+        <th>標籤</th>
+        <th>類型（長度）</th>
+        <th>枚舉值</th>
+    </tr>
+    <tr>
+        <td>PKey</td>
+        <td>主要資源ID</td>
+        <td>字串 </td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>評論</td>
+        <td>反向連結注釋</td>
+        <td>字串(255)</td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>已建立</td>
+        <td>已建立</td>
+        <td>日期 </td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>createdBy(userBase)</td>
+        <td>建立者</td>
+        <td>link </td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>傳送（傳送）</td>
+        <td>傳送</td>
+        <td>link </td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>deliveryId</td>
+        <td>上次傳送的ID</td>
+        <td>整數 </td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>desc</td>
+        <td>說明</td>
+        <td>字串(512)</td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>電子郵件</td>
+        <td>電子郵件</td>
+        <td>字串(128)</td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>externalId</td>
+        <td>外部ID</td>
+        <td>字串(64)</td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>firstName</td>
+        <td>名字</td>
+        <td>字串(30)</td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>forwardUrl</td>
+        <td>轉發URL</td>
+        <td>字串(255)</td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>geoUnit(geoUnitBase)</td>
+        <td>地理單位</td>
+        <td>link </td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>lastModified</td>
+        <td>上次修改日期</td>
+        <td>日期 </td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>lastName</td>
+        <td>姓氏</td>
+        <td>字串(50)</td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>modifiedBy(userBase)</td>
+        <td>修改者</td>
+        <td>link </td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>orgUnit(orgUnitBase)</td>
+        <td>組織單位</td>
+        <td>link </td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>來源</td>
+        <td>原點</td>
+        <td>枚舉（位元組） </td>
+        <td>
+            <ul>
+            <li>未定義——未定義- 0</li>
+            <li>無效值- __Invalid_value__ - __Invalid_value__</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>收件者（收件者）</td>
+        <td>已識別的個人檔案</td>
+        <td>link </td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>recipientId</td>
+        <td>描述檔ID</td>
+        <td>整數 </td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>referrerEmail</td>
+        <td>反向連結電子郵件</td>
+        <td>字串(128)</td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>referrerFirstName</td>
+        <td>反向連結名稱</td>
+        <td>字串(30)</td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>referrerId</td>
+        <td>反向連結ID</td>
+        <td>整數 </td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>referrerLastName</td>
+        <td>反向連結姓氏</td>
+        <td>字串(50)</td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>referrerRcp（收件者）</td>
+        <td>反向連結</td>
+        <td>link </td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>標題</td>
+        <td>標籤</td>
+        <td>字串(255)</td>
+        <td> </td>
+    </tr>
+</table>
 
 ## 濾鏡
 

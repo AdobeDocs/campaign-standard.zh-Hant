@@ -1,18 +1,18 @@
 ---
 title: 關於訂閱
-description: null
-page-status-flag: 從未激活
-uuid: b0263e40-f910-49f2-a138-0a1302aeec6
-contentOwner: 紹維亞
+description: 進一步瞭解Campaign Standard中的服務和訂閱。
+page-status-flag: never-activated
+uuid: b0263e40-f910-49f2-a138-0a1302aeeec6
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
-content-type: 參考
-topic-tags: 管理預訂
+content-type: reference
+topic-tags: managing-subscriptions
 discoiquuid: 27de5a13-7b7c-4c91-bf26-3dfd324beb8f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -29,4 +29,4 @@ Adobe Campaign可讓您透過一組服務來建立和管理電子報和跨通道
 * 訂閱和／或取消訂閱 **確認機制**。
 * 訂閱歷 **史記錄**。
 
-您也可以使用Adobe Campaign Standard API來管理訂閱。 如需詳細資訊，請參閱專用 [檔案](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#managing-subscriptions) 。
+您也可以使用Adobe Campaign Standard API來管理訂閱。 如需詳細資訊，請參閱專用 [檔案](../../api/using/managing-services-and-subscriptions.md) 。

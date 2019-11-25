@@ -1,18 +1,18 @@
 ---
 title: 編輯設定檔
 description: 瞭解如何編輯現有的設定檔並存取聯絡資訊、偏好的頻道、追蹤記錄、訂閱等。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: 6fcdb719-6149-48fc-b400-64c24a51487f
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
-content-type: 參考
-topic-tags: 管理配置檔案
-discoiquuid: 8d3ba7bf-90ae-4c6d-aeb-a48572a69f2f
+content-type: reference
+topic-tags: managing-profiles
+discoiquuid: 8d3ba7bf-90ae-4c6d-aaeb-a48572a69f2f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -37,7 +37,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
    >
    >您只能修改頁籤中的 **[!UICONTROL General]** 資訊——除部分之 **[!UICONTROL Traceability]** 外。
 
-您也可以使用Adobe Campaign Standard API來建立描述檔版本。 如需詳細資訊，請參閱專用 [檔案](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#updating-profiles) 。
+您也可以使用Adobe Campaign Standard API來建立描述檔版本。 如需詳細資訊，請參閱專用 [檔案](../../api/using/managing-profiles.md) 。
 
 相關主題：
 

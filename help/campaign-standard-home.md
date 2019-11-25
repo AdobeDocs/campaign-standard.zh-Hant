@@ -1,10 +1,10 @@
 ---
-keywords: Campaign Standard;首頁;熱門話題
+keywords: Campaign Standard;home;popular topics
 solution: Campaign Standard
 title: Adobe Campaign Standard 產品文件
 topic: Premium
 translation-type: tm+mt
-source-git-commit: c321545b2f5fdc3ed43b9b943601008ff31fba6a
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -57,7 +57,7 @@ source-git-commit: c321545b2f5fdc3ed43b9b943601008ff31fba6a
     <div>
     <strong>面向開發人員的資源</strong>
     </div>
-    <p><em><a href="https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html">Adobe Campaign API</a></em></p>
+    <p><em><a href="api/using/about-campaign-standard-apis.md">Adobe Campaign API</a></em></p>
     <p><em><a href="integrating/using/about-adobe-experience-cloud-triggers.md">Adobe Experience Cloud 觸發程序</a></em></p>
     <br>
   </td>

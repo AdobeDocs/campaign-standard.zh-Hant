@@ -1,19 +1,19 @@
 ---
 title: 執行工作流程
 description: 瞭解如何執行和監控工作流程。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: ff02b74e-53e8-49c6-bf8e-0c729eaa7d25
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 自動化
-content-type: 參考
-topic-tags: 工作流——一般操作
+audience: automating
+content-type: reference
+topic-tags: workflow-general-operation
 discoiquuid: 906c85ea-83b7-4268-86da-cd353f1dc591
-context-tags: 工作流，概述；工作流，主要
+context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -58,7 +58,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 使用REST API，您可以啟 **動**、暫 **停**、繼 **續和** 停止Rest **** 工作流。
 
-您可以在 [API檔案中找到更多REST呼叫的詳細資訊和範例。](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#controlling-a-workflow)
+您可以在 [API檔案中找到更多REST呼叫的詳細資訊和範例。](../../api/using/managing-workflows.md)
 
 ## 生命週期 {#life-cycle}
 
@@ -219,7 +219,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 根據活動，您可以添加幾種類型的出站轉場：
 
 * 標準轉換：由活動計算的人口
-* 無人口轉型：可以添加此類型的出站轉移以繼續工作流，並且不包含任何人口以不佔用系統上任何不必要的空間。
+* 無人口轉型：可以添加此類型的出站轉移以繼續工作流，並且不包含任何人口，以免佔用系統上任何不必要的空間。
 * 拒絕：被拒絕。 例如，如果活動的傳入資料因不正確或不完整而無法處理。
 * 補充：執行活動後剩餘人口數。 例如，如果區段活動設定為僅儲存傳入人口的百分比。
 

@@ -1,19 +1,19 @@
 ---
 title: 外部信號
 description: 當某些條件在另一個工作流中成功滿足時，外部信號活動會觸發工作流。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: 884b6daf-bfd9-440b-8336-004b80c76def
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 自動化
-content-type: 參考
-topic-tags: 執行活動
+audience: automating
+content-type: reference
+topic-tags: execution-activities
 discoiquuid: 911c71b5-da8b-4916-b645-13bba6d21715
-context-tags: 信號，主
+context-tags: signal,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -30,7 +30,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 此活 **[!UICONTROL External signal]** 動可用來組織和協調不同的流程，這些流程是同一客戶歷程中不同工作流程的一部分。 它允許從另一個工作流程開始，以支援更複雜的客戶歷程，同時更能監控和回應問題。
 
-此 **[!UICONTROL External signal]** 活動設計為作為工作流的第一個活動。 它可從其他工作 **[!UICONTROL End]** 流程的活動或REST API呼叫觸發(如需詳細資訊，請參閱 [API檔案](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#triggering-a-signal-activity) )。
+此 **[!UICONTROL External signal]** 活動設計為作為工作流的第一個活動。 可從其他工作流程 **[!UICONTROL End]** 的活動或REST API呼叫(如需詳細資訊，請參閱 [API檔案](../../api/using/managing-workflows.md))觸發。
 
 觸發時，可定義外部參數，並可在工作流程事件變數中使用。 使用外部參數調用工作流的過程在本節中進 [行了詳細說明](../../automating/using/calling-a-workflow-with-external-parameters.md)。
 
@@ -56,7 +56,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    >[!NOTE]
    >
-   >如果要從另一個工作流觸發目標工作流，請繼續下列步驟。 如果您想要從REST API呼叫觸發目標工作流程，請參閱 [API檔案](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#triggering-a-signal-activity) ，以取得詳細資訊。
+   >如果要從另一個工作流觸發目標工作流，請繼續下列步驟。 如果您想要從REST API呼叫觸發目標工作流程，請參閱 [API檔案](../../api/using/managing-workflows.md) ，以取得詳細資訊。
 
 1. 開啟來源工作流程並選取 **[!UICONTROL End]** 活動。 如果沒有可 **[!UICONTROL End]** 用活動，請在工作流分支的最後一個活動後添加一個活動。
 

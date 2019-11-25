@@ -1,18 +1,18 @@
 ---
 title: 探索工作流程
 description: Adobe Campaign提供完整的圖形環境，讓您設計並自動化流程。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 自動化
-content-type: 參考
+audience: automating
+content-type: reference
 topic-tags: about-workflows-and-data-management
 discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -32,7 +32,7 @@ Adobe Campaign提供完整的 [圖形環境](../../automating/using/workflow-int
 * 將資料匯入促銷活動資料庫。 有關詳細資訊，請參閱導 [入和導出資料](../../automating/using/about-data-import-and-export.md)。
 * 技術流程，例如資料庫清理、追蹤資訊的復原等。 在本節中進一步瞭解技術 [工作流程](../../administration/using/technical-workflows.md)。
 
-您也可從Adobe Campaign Standard API存取工作流程。 如需詳細資訊，請參閱專用 [檔案](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#managing-workflows)。
+您也可從Adobe Campaign Standard API存取工作流程。 如需詳細資訊，請參閱專用 [檔案](../../api/using/managing-workflows.md)。
 
 **相關主題：**
 

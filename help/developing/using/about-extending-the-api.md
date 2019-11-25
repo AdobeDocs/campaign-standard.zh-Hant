@@ -1,18 +1,18 @@
 ---
 title: 關於擴充 API
-description: null
-page-status-flag: 從未激活
+description: 瞭解如何在公用設定檔API中公開自訂資源設定檔的延伸欄位。
+page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 開發
-content-type: 參考
-topic-tags: use-case-extending-the-api
+audience: developing
+content-type: reference
+topic-tags: use-case--extending-the-api
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -30,5 +30,4 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 **相關主題：**
 
 * [關於自訂資源](../../developing/using/data-model-concepts.md)
-* [API檔案](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
-
+* [API檔案](../../api/using/about-campaign-standard-apis.md)

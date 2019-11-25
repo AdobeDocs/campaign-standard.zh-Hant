@@ -1,0 +1,139 @@
+---
+title: 疑難排解
+description: 進一步瞭解與Campaign Standard API相關的常見問題。
+page-status-flag: never-activated
+uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
+contentOwner: sauviat
+products: SG_CAMPAIGN/STANDARD
+audience: developing
+content-type: reference
+topic-tags: use-case--extending-the-api
+discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: ab5725b326de2f1cb4c5d15d0d3c0303a6bf0f06
+
+---
+
+
+# 疑難排解 {#troubleshooting}
+
+* **前往Adobe.io Console時，您會收到下列錯誤：「Adobe I/O主控台僅適用於選擇的企業帳戶成員。 如果您認為您應該擁有存取權，請連絡您的系統管理員。」**
+
+您只能為您所管理的IMS組織建立API金鑰。 如果顯示此訊息，而您想要建立API金鑰，而且您想要向IMS組織的管理員提出要求。
+
+* **對Adobe.io執行請求時，您會收到{"error_code":"403023","message":"Profile is not valid"}**
+
+這表示您的特定促銷活動產品的IMS布建有問題：ims團隊需要修正它。
+
+若要取得更多詳細資訊，您可以使用您的Token呼叫IMS API，以查看您的IMS設定檔外觀：您需要有prodCtx，其中organization_id與您在URL中放置的prodCtx相同，Adobe.io才能傳送您的請求。
+如果IMS布建遺失，則需要修正。
+
+```
+-X GET https://mc.adobe.io/{ORGANIZATION}/campaign/profileAndServices/profile \
+-H 'Content-Type: application/json' \
+-H 'Authorization: Bearer <ACCESS_TOKEN>' \
+-H 'Cache-Control: no-cache' \
+-H 'X-Api-Key: <API_KEY>'
+```
+
+它會傳回下列錯誤。
+
+```
+{"error_code":"403023","message":"Profile is not valid"}
+```
+
+使用此請求檢查您的IMS設定檔。
+
+```
+-X GET https://ims-na1.adobelogin.com/ims/profile/v1 \
+-H 'Content-Type: application/json' \
+-H 'Authorization: Bearer <ACCESS_TOKEN>' \
+-H 'Cache-Control: no-cache' \
+-H 'X-Api-Key: <API_KEY>'
+```
+
+在回應中，ORGANIZATION_ID值在您的第一個GET請求中必須相同。
+
+```
+{
+  "countryCode": "FR",
+  "mrktPermEmail": null,
+  "projectedProductContext": [
+    {
+    "prodCtx": {
+      "statusCode": "ACTIVE",
+      "ident": "ZQ9FRQK7BF09YXAESFY9DDQP1G",
+      "modDts": 1448307260000,
+      "organization_id": "actest",
+      "owningEntity": "6096892F54B5819E0A4C98A2@AdobeOrg",
+      "serviceCode": "dma_tartan",
+      "label": "Adobe Marketing Cloud",
+      "serviceLevel": "standard",
+      "createDts": 1421181343000,
+      "deal_id": " "
+      }
+    }
+  ]
+}
+```
+
+* **對Adobe.io執行請求時，您會收到{"code":500, "message":"Aorsh. 出了點問題。 請檢查您的URI，然後再試一次。"}**
+
+Adobe.io宣告您的無效URI:您請求的URI很可能無效。 在Adobe.io上，當您選取Campaign服務時，會收到含有可能organization_id清單的選擇器。 您必須檢查您選擇的是否是您置入URL的URL。
+
+* **對Adobe.io執行請求時，您會收到{"error_code":"401013","message":"Oauth token is not valid"}**
+
+您的Token無效（用來產生Token的不當IMS呼叫）或您的Token已過期。
+
+* **我在創作完成後就看不到個人檔案**
+
+根據實例配置，建立的配置檔案需要與 **orgUnit關聯**。 若要瞭解如何在您的建立中新增此欄位，請參 [閱本節](../../api/using/managing-profiles.md)。
+
+<!-- * (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu’un POST)
+
+With Curl
+List all profiles
+
+Create a profile
+
+Update the mobilePhone attribute of a profile
+
+API Calls on Service
+
+GET the list of services
+
+-->
+
+<!--
+
+How to find and use a filter?
+Error codes:
+
+* PAtch sur Age = message d'erreur :
+500
+Cannot update the 'age' property that is read-only
+'age' property is not valid for the 'profile' resource.
+-->
+
+<!--
+How to filter a list of subscribed profiles with available profile filters ? by date (by les filtres dispo sur la ressource) ?
+
+Pattern classique :
+
+recupérer la liste des subscriptions filtrées d'un profile
+1) get sur profile
+2) recup PKey
+3) get sur PKey
+4) get sur href des subscriptions
+
+Comment savoir quel filtre appliquer ?
+
+1) get sur metadata de profile
+2) retourne description de la collection subscription
+3) get sur la valeur du champ resTarget
+4) get sur le href dans filters
+5) retourne les filtres applicables sur l'url des data.
+
+-->

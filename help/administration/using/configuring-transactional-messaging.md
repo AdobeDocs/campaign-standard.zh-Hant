@@ -1,18 +1,18 @@
 ---
 title: 設定交易式訊息傳遞
 description: 瞭解如何設定交易式訊息。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: 4caeadbe-f4a7-43ce-986d-e99fa9ca0d0d
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 管理
-content-type: 參考
-topic-tags: 配置通道
+audience: administration
+content-type: reference
+topic-tags: configuring-channels
 discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -184,7 +184,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 在「交易式傳訊操作原則 [](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle) 」一節所述的範例中，您希望當客戶在購物車中購買產品之前離開您的網站時，觸發「購物車放棄」事件。 若要這麼做，您的網站網頁開發人員必須使用Adobe Campaign Standard REST API。
 
-請參閱 [REST API檔案](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#transactional-messages-api) 。
+請參閱 [REST API檔案](../../api/using/managing-transactional-messages.md) 。
 
 ## 事務性事件特定配置 {#transactional-event-specific-configurations}
 
@@ -219,7 +219,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 1. 建立事件設定時，請選取定 **[!UICONTROL Profile event]** 位維度(請 [參閱建立事件](#creating-an-event))。
 1. 為事件添加欄位，以便能夠個性化事務性消息(請參 [閱定義事件屬性](#defining-the-event-attributes))。 您必須至少添加一個欄位才能建立富集。 您不需要建立其他欄位，例如 **名字** 、 **姓氏** ，因為您可以使用Adobe Campaign資料庫中的個人化欄位。
-1. 建立擴充功能，以將事件連結至資源(請參 **[!UICONTROL Profile]** 閱豐 [富交易訊息內容](#enriching-the-transactional-message-content))。 使用定位維度時，必須建立 **[!UICONTROL Profile]** 擴充。
+1. 建立擴充功能，以便將事件連結至資源(請參 **[!UICONTROL Profile]** 閱豐 [富交易訊息內容](#enriching-the-transactional-message-content))。 使用定位維度時，必須建立 **[!UICONTROL Profile]** 擴充。
 1. 預覽並發佈事件(請參閱 [預覽和發佈事件](#previewing-and-publishing-the-event))。
 
    預覽事件時，REST API不包含指定從資源擷取電子郵件地址或行動電話的屬 **[!UICONTROL Profile]** 性。
@@ -274,7 +274,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
    >
    >您必須至少添加一個欄位才能建立富集。 您不需要建立其他欄位，例如 **名字** 、 **姓氏** ，因為您可以使用Adobe Campaign資料庫中的個人化欄位。
 
-1. 建立擴充功能，以將事件連結至資源(請參 **[!UICONTROL Profile]** 閱豐 [富交易訊息內容](#enriching-the-transactional-message-content))。 使用定位維度時，必須建立 **[!UICONTROL Profile]** 擴充。
+1. 建立擴充功能，以便將事件連結至資源(請參 **[!UICONTROL Profile]** 閱豐 [富交易訊息內容](#enriching-the-transactional-message-content))。 使用定位維度時，必須建立 **[!UICONTROL Profile]** 擴充。
 1. 預覽並發佈事件(請參閱 [預覽和發佈事件](#previewing-and-publishing-the-event))。
 
    預覽事件時，REST API不包含指定註冊Token、應用程式名稱和推播平台的屬性，因為這些屬性將從資源中擷取 **[!UICONTROL Profile]** 。

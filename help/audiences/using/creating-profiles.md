@@ -1,18 +1,18 @@
 ---
 title: 建立設定檔
 description: 瞭解如何使用API、匯入功能、線上贏取、自動或手動更新，建立個人檔案並收集您的連絡人資料。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: a5f5a58a-e798-400f-8648-05dc843d5557
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
-content-type: 參考
-topic-tags: 管理配置檔案
-discoiquuid: 4ab8a984-f898-4ff-ad8c-ed8f95362f96
+content-type: reference
+topic-tags: managing-profiles
+discoiquuid: 4ab8a984-f898-4fff-ad8c-ed8f95362f96
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 * 透過工作流程從檔案匯入描述檔清 [單](https://helpx.adobe.com/campaign/kt/acs/using/acs-importing-profiles-feature-video-using.html)
 * 透過登陸頁麵線上收 [集資料](../../channels/using/about-landing-pages.md)
-* 透過 [REST API大量建立](http://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
+* 透過 [REST API大量建立](../../api/using/about-campaign-standard-apis.md)
 * 從 [Microsoft Dynamics同步描述檔](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
 * 使用圖形介面畫面輸入資料，如下所述
 
@@ -57,7 +57,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 >[!NOTE]
 >
->您也可以使用Adobe Campaign Standard API建立設定檔。 如需詳細資訊，請參閱專用 [檔案](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#creating-profiles) 。
+>您也可以使用Adobe Campaign Standard API建立設定檔。 如需詳細資訊，請參閱專用 [檔案](../../api/using/managing-profiles.md)。
 
 配置檔案也可以根據其組織單位進行分區。 要將組織欄位添加到配置檔案中，請參閱「分 [區配置檔案](../../administration/using/organizational-units.md#partitioning-profiles) 」部分。
 

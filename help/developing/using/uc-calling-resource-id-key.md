@@ -2,7 +2,7 @@
 title: 使用複合識別鍵呼叫資源
 description: 瞭解如何使用複合識別碼呼叫資源
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 * [建立或擴充資源](../../developing/using/creating-or-extending-the-resource.md)
 * [定義標識鍵](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
-* [Campaign Standard REST API](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
+* [Campaign Standard REST API](../../api/using/about-campaign-standard-apis.md)
 
 ## 步驟1:配置標識密鑰{#step-1-configure-the-identification-key}
 
@@ -104,4 +104,4 @@ GET /profileAndServicesExt/<resourceName>/by<filterName>?<param1_parameter>=<val
 GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byidentification_key?category_parameter=spring&crm_id_parameter=123456
 ```
 
-如需詳細資訊，請參閱 [Campaign Standard REST API檔案](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering)。
+如需詳細資訊，請參閱 [Campaign Standard REST API檔案](../../api/using/filtering.md)。

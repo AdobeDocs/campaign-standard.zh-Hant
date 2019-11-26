@@ -12,7 +12,7 @@ discoiquuid: 4ab8a984-f898-4fff-ad8c-ed8f95362f96
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: 13430243e8f2840ca85e557798168f6380a7b0fa
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 若要在Campaign中建立或更新描述檔，您可以：
 
 * 透過工作流程從檔案匯入描述檔清 [單](https://helpx.adobe.com/campaign/kt/acs/using/acs-importing-profiles-feature-video-using.html)
-* 透過登陸頁麵線上收 [集資料](../../channels/using/about-landing-pages.md)
+* 透過登陸頁麵線上收 [集資料](../../channels/using/getting-started-with-landing-pages.md)
 * 透過 [REST API大量建立](../../api/using/about-campaign-standard-apis.md)
 * 從 [Microsoft Dynamics同步描述檔](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
 * 使用圖形介面畫面輸入資料，如下所述
@@ -67,6 +67,6 @@ source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 **相關主題：**
 
-* [關於著陸頁面](../../channels/using/about-landing-pages.md) -逐步指南
+* [關於著陸頁面](../../channels/using/getting-started-with-landing-pages.md) -逐步指南
 * [匯入描述檔](https://helpx.adobe.com/campaign/kt/acs/using/acs-importing-profiles-feature-video-using.html)
 

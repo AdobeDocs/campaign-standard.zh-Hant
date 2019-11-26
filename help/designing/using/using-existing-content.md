@@ -1,18 +1,18 @@
 ---
 title: '使用現有內容設計電子郵件 '
 description: 探索如何使用電子郵件設計工具中現有的內容電子郵件內容來設計電子郵件。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 設計
-content-type: 參考
-topic-tags: 編輯——電子郵件——內容
+audience: designing
+content-type: reference
+topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -52,7 +52,7 @@ Adobe Campaign隨附一組預先定義的內容，以協助您開始使用。 �
 **相關主題：**
 
 * [建立電子郵件](../../channels/using/creating-an-email.md)
-* [管理著陸頁面](../../channels/using/about-landing-pages.md)
+* [管理著陸頁面](../../channels/using/getting-started-with-landing-pages.md)
 
 ## 使用電子郵件設計工具編輯現有內容{#editing-existing-contents-with-the-email-designer}
 

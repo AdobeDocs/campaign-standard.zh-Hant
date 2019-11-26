@@ -12,7 +12,7 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ba1e87b140a19967e67320cc4579ac025955ca23
+source-git-commit: 13430243e8f2840ca85e557798168f6380a7b0fa
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Campaign設定檔代表儲存在資料庫中的所有連絡人。 每個�
 
 ![](assets/mkt_hist_view.png)
 
-Adobe Campaign針對個人檔案的取得提出各種機制：透過著陸頁麵線上收集資 [料](../../channels/using/about-landing-pages.md)、手動或自動匯入機制 [、Adobe Campaign介面中的直接輸入](../../automating/using/about-data-import-and-export.md)、透過 [](../../audiences/using/creating-profiles.md)[](../../api/using/about-campaign-standard-apis.md)Campaign API進行大量建立Campaign Api。
+Adobe Campaign針對個人檔案的取得提出各種機制：透過著陸頁麵線上收集資 [料](../../channels/using/getting-started-with-landing-pages.md)、手動或自動匯入機制 [、Adobe Campaign介面中的直接輸入](../../automating/using/about-data-import-and-export.md)、透過 [](../../audiences/using/creating-profiles.md)[](../../api/using/about-campaign-standard-apis.md)Campaign API進行大量建立Campaign Api。
 
 **相關主題：**
 

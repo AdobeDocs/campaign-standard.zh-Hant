@@ -1,19 +1,19 @@
 ---
 title: 管理登錄頁面表單資料
 description: 瞭解如何管理著陸頁面表單資料。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: 5b222ea2-6628-457f-a618-bfc0e5eb93dd
-contentOwner: 勒梅特
+contentOwner: lemaitre
 products: SG_CAMPAIGN/STANDARD
-audience: 頻道
-content-type: 參考
-topic-tags: 著陸頁面
+audience: channels
+content-type: reference
+topic-tags: landing-pages
 discoiquuid: 899c7152-f415-4df9-b4b4-5ff3470a4e32
 context-tags: landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -51,26 +51,6 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 >[!NOTE]
 >
 >內建著陸頁面的預設欄位已預先設定。 您可以視需要修改它們。
-
-## 將表單連結至服務 {#linking-a-form-to-a-service}
-
-您可以將表單連結至服務，如此在驗證著陸頁面時，描述檔就可以訂閱特定服務。
-
-連結著陸頁面的參數可讓您指定執行的動作類型，以及著陸頁面是否特別連結至單一服務或是否為一般服務。
-
-要選擇要連結的服務，您需要：
-
-1. 編輯透過著陸頁面控制面板中 ![](assets/edit_darkgrey-24px.png) 的圖示存取的著陸頁面屬性，並顯示 **[!UICONTROL Job]** 參數。
-
-   ![](assets/lp_edit_properties_button.png)
-
-1. 從下 **[!UICONTROL Subscription]** 拉式清 **[!UICONTROL Specific actions]** 單中選擇。
-
-   ![](assets/lp_parameters_5.png)
-
-1. 選擇 **[!UICONTROL Specific service]** 將登陸頁面連結至單一服務。 如果您想要在登陸頁面上使用數個服務，請勿選取此選項。
-
-   使用 **[!UICONTROL Specified service in the URL]** 選項可允許將登陸頁面用於數個服務。 因此，在配置服務時，您必須參考著陸頁面。
 
 ## 資料儲存與協調{#data-storage-and-reconciliation}
 

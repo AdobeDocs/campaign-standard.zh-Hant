@@ -1,0 +1,50 @@
+---
+title: 自訂資源
+description: 進一步瞭解使用API進行自訂資源管理/
+page-status-flag: never-activated
+uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
+contentOwner: sauviat
+products: SG_CAMPAIGN/STANDARD
+audience: developing
+content-type: reference
+topic-tags: campaign-standard-apis
+discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: 206bb19acfd4c1bcbc7e8839cdf2d13a6279642f
+
+---
+
+
+# 與自訂資源互動 {#interacting-with-custom-resources}
+
+
+使用 **/customResources** 端點，可以在REST中公開ACS自定義實體。 根據此API，可使用自訂實體與外部端點之間的整合。
+
+/customResources的行為與/profileAndServices端點完全相同。
+
+此API中公開的自訂實體包括：
+
+* 連結到配置檔案實體的所有實體
+* 所有連結至描述檔實體子系的實體
+* 所有與個人檔案無關的實體，以及這些實體的子孫。
+
+>[!NOTE]
+>/profileAndServicesExt下可用的自訂實體不會公開於/customResources API中。
+
+以下是從自訂資源擷取中繼資料的範例：
+
+```
+GET /customResources/resourceType/<customResourceName>
+```
+
+要執行建立、更新或刪除，請使用GET、POST、PATCH、DELETE。
+
+```
+POST /customResources/<customResourceName>
+```
+
+>[!NOTE]
+>隱私權API端點和工作流程(/privacy/privacyTool)不會管理未連結至描述檔實體的自訂資源。
+>您有責任為這些自訂資源管理和清除任何PII。 如需隱私權工具的詳細資訊，請 [按一下這裡](../../api/using/privacy-management.md)。

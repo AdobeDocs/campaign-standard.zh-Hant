@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Adobe Campaign Standard 產品文件
 topic: Premium
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 * **[電子郵件設計工具](designing/using/designing-content-in-adobe-campaign.md)**<br/>
 請參閱重新整理的電子郵件設計工具文件。
 
-* **[登陸頁面](channels/using/main-steps-to-set-up-a-landing-page.md)**<br/>
+* **[登陸頁面](channels/using/getting-started-with-landing-pages.md)**<br/>
 了解更多如何設定登陸頁面。
 
 [按一下這裡以取得更多更新](rn/using/documentation-updates.md)

@@ -1,19 +1,19 @@
 ---
 title: 建立服務
 description: 瞭解如何建立您的第一項服務，並設定它以傳送電子郵件確認給您的訂閱者。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: 0d95d852-0f22-4b7b-b301-8fb4844c3ca2
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
-content-type: 參考
-topic-tags: 管理預訂
+content-type: reference
+topic-tags: managing-subscriptions
 discoiquuid: 6b7788fe-fa6c-472a-97db-765595ce1589
-context-tags: 服務，嚮導；服務，主
+context-tags: service,wizard;service,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -54,5 +54,4 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 * [管理服務與訂閱視訊](https://helpx.adobe.com/campaign/kt/acs/using/acs-services-and-subscriptions-feature-video-use.html)
 * [推廣服務](../../audiences/using/promoting-a-service.md)
 * [建立由訂閱者建立的觀眾](../../audiences/using/creating-audiences.md#creating-list-audiences)
-* [將表單連結至著陸頁面中的服務](../../channels/using/designing-a-landing-page.md#linking-a-form-to-a-service)
-
+* [將登陸頁面連結至服務](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)

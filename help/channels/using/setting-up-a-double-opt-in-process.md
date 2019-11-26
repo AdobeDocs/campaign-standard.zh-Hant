@@ -1,18 +1,18 @@
 ---
 title: 設定雙重加入程 序
 description: 請依照下列步驟，使用Adobe Campaign中的登陸頁面來設定雙重選擇加入程式。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: 23e6c4c2-e2c7-472f-b616-36a95225ac1d
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 頻道
-content-type: 參考
-topic-tags: 著陸頁面
+audience: channels
+content-type: reference
+topic-tags: landing-pages
 discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -41,7 +41,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 若要建立及設定此著陸頁面，您必須：
 
-1. 根據范 [本設計新的著陸](../../channels/using/about-landing-pages.md) 頁 **[!UICONTROL Profile acquisition (acquisition)]** 面。 輸入標籤「**CONFIRMATION**」。
+1. 根據范 [本設計新的著陸](../../channels/using/getting-started-with-landing-pages.md) 頁 **[!UICONTROL Profile acquisition (acquisition)]** 面。 輸入標籤「**CONFIRMATION**」。
 
    如果您需要使 [用服務](../../audiences/using/about-subscriptions.md)，也可以使用范 **[!UICONTROL Subscription (sub)]** 本。
 
@@ -67,13 +67,13 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    ![](assets/optin_confimlp_page2.png)
 
-1. [測試並發佈](../../channels/using/sharing-a-landing-page.md) 著陸頁面。
+1. [測試並發佈](../../channels/using/testing-publishing-landing-page.md) 著陸頁面。
 
 ## 步驟2:建立確認電子郵件 {#step-2--create-the-confirmation-email}
 
 建立確認登陸頁面後，您就可以設計確認電子郵件：此電子郵件會自動傳送給驗證贏取登陸頁面的每位訪客。 此驗證會視為事件，而電子郵件則是交易性訊息，連結至特定的排版規則，以鎖定選擇退出人口。
 
-建立這些元素的步驟如下所述。 在建立贏取登陸頁面之前，您必須先追蹤這些範本，因為此電子郵件範本將會在其中參照。
+建立這些元素的步驟如下所述。 在建立贏取登陸頁面之前，您必須先追蹤這些範本，因為此電子郵件範本將會在其中引用。
 
 ### 建立事件 {#create-the-event}
 
@@ -127,7 +127,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 若要建立及設定此著陸頁面，您必須：
 
-1. 根據范 [本設計新的著陸](../../channels/using/about-landing-pages.md) 頁 **[!UICONTROL Profile acquisition (acquisition)]** 面。 輸入標籤「**ACQUISITION**」。
+1. 根據范 [本設計新的著陸](../../channels/using/getting-started-with-landing-pages.md) 頁 **[!UICONTROL Profile acquisition (acquisition)]** 面。 輸入標籤「**ACQUISITION**」。
 1. 編輯著陸頁面屬性：在 **[!UICONTROL Job]** &gt;區 **[!UICONTROL Additional data]** 段中，按一 **[!UICONTROL Add an element]** 下並輸入下列內容路徑：
 
    /context/profile/blackList
@@ -149,6 +149,6 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    ![](assets/optin_acquisition_page2.png)
 
-1. [測試並發佈](../../channels/using/sharing-a-landing-page.md) 著陸頁面。
+1. [測試並發佈](../../channels/using/testing-publishing-landing-page.md) 著陸頁面。
 
 現在已設定雙重加入機制。 您可以從此登陸頁面的公用URL開始，從頭到尾執行並測試程 **[!UICONTROL ACQUISITION]** 序。 此URL會顯示在著陸頁面控制面板中。

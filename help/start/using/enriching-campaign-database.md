@@ -12,7 +12,7 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
 
 ---
 
@@ -49,7 +49,7 @@ Campaign standard提供數種工具來協助您擴充行銷資料庫。 本節�
 * 將每個輸入欄位與資料庫中的相應欄位映射。
 * 透過網站或訊息的直接連結，讓登陸頁面線上上提供。
 
-如需著陸頁面的詳細資訊，請參閱專 [用檔案](../../channels/using/about-landing-pages.md)。
+如需著陸頁面的詳細資訊，請參閱專 [用檔案](../../channels/using/getting-started-with-landing-pages.md)。
 
 ## 從Microsoft Dynamics 365同步設定檔
 

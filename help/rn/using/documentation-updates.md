@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a3b81a62d6f4b58c1b88b4e50755dcb1e638f7be
+source-git-commit: 72b55ce387355bf58a22c44388c884951f11b904
 
 ---
 
@@ -29,7 +29,17 @@ source-git-commit: a3b81a62d6f4b58c1b88b4e50755dcb1e638f7be
 
 已新增一個新的使用案例，說明如何使用Campaign Standard中的工作流程來建立控制群組。 閱[讀更多](../../automating/using/workflow-control-group.md)
 
+與著陸頁面屬性相關的資訊已移入專用區段。 [閱讀更多資訊](../../channels/using/configuring-landing-page.md)
+
+控制面板文檔已整合到新的協作文檔集中。 [閱讀更多資訊](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
+
+指標 **計算表** 已更新。 [閱讀更多資訊](../../reporting/using/indicator-calculation.md)
+
 API檔案集已整合至Campaign standard檔案。[閱讀更多資訊](../../api/using/about-campaign-standard-apis.md)
+
+「建立個人化電子郵件快速入門」指南已移動並更新。 [閱讀更多資訊](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
+
+已更新「傳送最佳實務」快速入門手冊。 [閱讀更多資訊](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 
 ## 發行版本19.4 - 2019年10月 {#release-19-4---october-2019}
 
@@ -47,7 +57,7 @@ GDPR快速入門手冊已經過改進並充實。 它現在是包含GDPR和CCPA�
 
 已新增一個圖表，其中顯示交易訊息發佈程式。 [閱讀更多資訊](../../channels/using/about-transactional-messaging.md#transactional-messaging-pub-process)
 
-已更新「傳送最佳實務」快速入門手冊。 [閱讀更多資訊](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+「傳送最佳實務」快速入門手冊已移動並更新。 [閱讀更多資訊](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 
 已新增新區段。 它提供可讓您豐富Campaign standard資料庫的不同方法的概觀。 [閱讀更多資訊](../../start/using/enriching-campaign-database.md)
 
@@ -63,7 +73,7 @@ GDPR快速入門手冊已經過改進並充實。 它現在是包含GDPR和CCPA�
 
 「交易式傳訊」區段已使用最新的UI更新加以修改，包括使用電子郵件設計工具編輯內容。 [閱讀更多資訊](../../channels/using/event-transactional-messages.md)
 
-著陸頁面章節已重新整理。 此外，還新增了一個章節，詳細說明設定著陸頁面的步驟。 [閱讀更多資訊](../../channels/using/main-steps-to-set-up-a-landing-page.md)
+著陸頁面章節已重新整理。 此外，還新增了一個章節，詳細說明設定著陸頁面的步驟。 [閱讀更多資訊](../../channels/using/getting-started-with-landing-pages.md)
 
 Audience manager整合頁面已更新，以反映 **Declared ID變更** 。 [閱讀更多資訊](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
@@ -133,7 +143,7 @@ Audience manager整合頁面已更新，以反映 **Declared ID變更** 。 [閱
 
 ## 檔案更新- 2019年7月 {#doc-updates-2019}
 
-新增「著陸頁面」限制的頁面。 [閱讀更多資訊](../../channels/using/about-landing-pages.md#landing-page-limitations)
+新增「著陸頁面」限制的頁面。 [閱讀更多資訊](../../channels/using/getting-started-with-landing-pages.md#landing-page-limitations)
 
 已新增使用案例，說明如何使用複合識別金鑰呼叫描述檔。 [閱讀更多資訊](../../developing/using/uc-calling-resource-id-key.md)
 
@@ -153,7 +163,7 @@ Audience manager整合頁面已更新，以反映 **Declared ID變更** 。 [閱
 
 工作流程增強功能——將負載新增至外部訊號活動——詳 [細內容](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
-著陸頁面增強功能- Google reCAPTCHA —— 詳 [細資訊](../../channels/using/designing-a-landing-page.md#setting-google-recaptcha)
+著陸頁面增強功能- Google reCAPTCHA —— 詳 [細資訊](../../channels/using/configuring-landing-page.md#setting-google-recaptcha)
 
 ### 此版本隨附的其他檔案更新 {#other-documentation-updates-coming-with-the-release}
 

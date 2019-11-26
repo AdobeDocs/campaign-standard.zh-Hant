@@ -1,19 +1,19 @@
 ---
 title: 行銷活動
 description: 「瞭解如何建立和管理您的行銷活動：促銷活動、電子郵件、簡訊和推播通知傳送、登陸頁面、工作流程。 您可以輕鬆設計新活動、編輯現有活動，並查詢其狀態和有效性。」
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: 5d45a935-6d03-4b27-aabd-7c47c11241ba
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: start
-content-type: 參考
-topic-tags: 行銷計畫
+content-type: reference
+topic-tags: marketing-plans
 discoiquuid: 3ba165e1-420f-4d6f-b339-467b066b42d0
-context-tags: 活動，概述
+context-tags: activity,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -88,7 +88,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 * [建立推播通知](../../channels/using/preparing-and-sending-a-push-notification.md)
 * [建立InApp訊息](../../channels/using/about-in-app-messaging.md)
 * [建立工作流程](../../automating/using/building-a-workflow.md#creating-a-workflow)
-* [建立著陸頁面](../../channels/using/about-landing-pages.md)
+* [建立著陸頁面](../../channels/using/getting-started-with-landing-pages.md)
 * [建立促銷活動](../../start/using/programs-and-campaigns.md#creating-a-campaign)
 * [建立方案](../../start/using/programs-and-campaigns.md#creating-a-program)
 

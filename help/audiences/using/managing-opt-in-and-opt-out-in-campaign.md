@@ -1,18 +1,18 @@
 ---
 title: 管理 Campaign 中的加入和退出
 description: 瞭解Adobe Campaign中如何管理選擇加入和選擇退出。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: aa1801ec-562b-420e-8d79-c07d066b7b1a
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
-content-type: 參考
-topic-tags: 瞭解——選擇加入——選擇退出流程
+content-type: reference
+topic-tags: understanding-opt-in-and-opt-out-processes
 discoiquuid: 6b5680f2-bba9-453e-a0d5-8ca69dd02001
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -35,9 +35,9 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 >[!NOTE]
 >
->著陸頁面也可用來啟用服務訂閱。 有關詳細資訊，請參見[此頁面](../../channels/using/designing-a-landing-page.md#linking-a-form-to-a-service)。
+>著陸頁面也可用來啟用服務訂閱。 有關詳細資訊，請參見[此頁面](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)。
 
-1. 建立著 **[!UICONTROL Profile acquisition]** 陸頁面(請 [參閱本節](../../channels/using/about-landing-pages.md))。
+1. 建立著 **[!UICONTROL Profile acquisition]** 陸頁面(請 [參閱本節](../../channels/using/getting-started-with-landing-pages.md))。
 1. 在著陸頁面內容中新增每個所需渠道的核取方塊，然後將其連結至「促銷活動」資料庫的對應欄位。
 
    ![](assets/optin_landingpage_1.png)
@@ -53,7 +53,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ### 設定著陸頁面以選擇退出所有傳送 {#setting-up-a-landing-page-to-opt-out-from-all-deliveries}
 
-若要讓使用者能夠選擇退出所有傳送，您必須建立並發佈著陸 **[!UICONTROL BlackList]** 頁面。 如需建立著陸頁面的詳細資訊，請參 [閱本頁](../../channels/using/about-landing-pages.md)。
+若要讓使用者能夠選擇退出所有傳送，您必須建立並發佈著陸 **[!UICONTROL BlackList]** 頁面。 如需建立著陸頁面的詳細資訊，請參 [閱本頁](../../channels/using/getting-started-with-landing-pages.md)。
 
 當使用者按一下著陸頁面連結後，會自 **[!UICONTROL No longer contact (by any channel)]** 動選取描述檔中的選項。
 

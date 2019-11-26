@@ -1,18 +1,18 @@
 ---
 title: 確認訂閱服務
 description: 請依照下列步驟，為訂閱Adobe Campaign中服務的描述檔設定確認訊息。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: 23e6c4c2-e2c7-472f-b616-36a95225ac1d
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
-content-type: 參考
-topic-tags: 管理預訂
+content-type: reference
+topic-tags: managing-subscriptions
 discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -179,7 +179,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 若要建立和設定此著陸頁面，請遵循下列步驟：
 
-1. 根據范 [本設計新的著陸](../../channels/using/about-landing-pages.md) 頁 **[!UICONTROL Subscription]** 面。
+1. 根據范 [本設計新的著陸](../../channels/using/getting-started-with-landing-pages.md) 頁 **[!UICONTROL Subscription]** 面。
 1. 編輯著陸頁面屬性。 在&gt; **[!UICONTROL Job]** 區 **[!UICONTROL Specific actions]** 段中，選取 **[!UICONTROL Specific service]** 選項並從下拉式清單中選擇您剛建立的服務。
 
    ![](assets/confirmation_lp-specific-service.png)
@@ -190,7 +190,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 1. 自訂登陸頁面的內容。
 
-1. [測試並發佈](../../channels/using/sharing-a-landing-page.md) 著陸頁面。
+1. [測試並發佈](../../channels/using/testing-publishing-landing-page.md) 著陸頁面。
 
 現在，每次描述檔透過送出登陸頁面訂閱您的電子報時，他都會收到您定義有對應至服務的個人化欄位的確認訊息。
 

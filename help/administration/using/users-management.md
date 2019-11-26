@@ -1,18 +1,18 @@
 ---
 title: 使用者管理
 description: 'Adobe Campaign使用者具有特定角色。 探索主要使用者類型。 '
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: 8c4cc74a-815f-4815-af66-a7c21bc754f1
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 管理
-content-type: 參考
-topic-tags: 使用者與安全性
+audience: administration
+content-type: reference
+topic-tags: users-and-security
 discoiquuid: 08c8712a-0066-4b8b-8471-2656b8fb23ed
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -94,7 +94,7 @@ Adobe Campaign可讓您指派一組角色給您的使用者，以定義使用者
 * [管理方案和宣傳活動](../../start/using/programs-and-campaigns.md):建立行銷宣傳，包括不同的活動類型（電子郵件、SMS訊息、推播通知、工作流程、登陸頁面）。
 * 管理 [設定檔](../../audiences/using/about-profiles.md) 和測 [試設定檔](../../sending/using/managing-test-profiles-and-sending-proofs.md):管理已識別的收件者，並測試您的傳送目標。 新增名字、姓氏、連絡人資訊、訂閱、電子郵件等資訊。
 * [建立和傳送訊息](../../sending/using/confirming-the-send.md):建立您的訊息、選取觀眾、定義訊息內容及其個人化元素、傳送校樣並傳送最終訊息給觀眾。
-* [建立和發佈登陸頁面](../../channels/using/about-landing-pages.md):建立並管理您想要提供給客戶的一組服務，例如訂閱或取消訂閱表格。
+* [建立和發佈登陸頁面](../../channels/using/getting-started-with-landing-pages.md):建立並管理您想要提供給客戶的一組服務，例如訂閱或取消訂閱表格。
 * [建立並執行促銷活動工作流程](../../automating/using/building-a-workflow.md):使用工作流程自動化您的宣傳流程。
 * 透過可用報表監控您的 [行銷活動](../../reporting/using/defining-the-report-period.md)。
 

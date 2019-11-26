@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 02cf4f79f69eb1aef81c9e805204febd363af1a2
+source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
 
 ---
 
@@ -108,12 +108,13 @@ source-git-commit: 02cf4f79f69eb1aef81c9e805204febd363af1a2
       + [交易式推播通知](channels/using/transactional-push-notifications.md)
       + [後續訊息](channels/using/follow-up-messages.md)
    + 登錄頁面 {#landing-pages}
-      + [關於登錄頁面](channels/using/about-landing-pages.md)
-      + [設定登錄頁面的主要步驟](channels/using/main-steps-to-set-up-a-landing-page.md)
+      + [關於登錄頁面](channels/using/getting-started-with-landing-pages.md)
+      + [設定登錄頁面的主要步驟](channels/using/getting-started-with-landing-pages.md)
       + [關於登錄頁面範本](channels/using/landing-page-templates.md)
+      + [設定著陸頁面](channels/using/configuring-landing-page.md)
       + [設計登錄頁面](channels/using/designing-a-landing-page.md)
       + [管理登錄頁面表單資料](channels/using/managing-landing-page-form-data.md)
-      + [共用登錄頁面](channels/using/sharing-a-landing-page.md)
+      + [測試和發佈著陸頁面](channels/using/testing-publishing-landing-page.md)
       + [設定雙重加入程 序](channels/using/setting-up-a-double-opt-in-process.md)
 + 設計電子郵件內容 {#designing-content}
    + [Campaign 電子郵件設計工具](designing/using/designing-content-in-adobe-campaign.md)

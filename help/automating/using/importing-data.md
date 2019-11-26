@@ -1,18 +1,18 @@
 ---
 title: 匯入資料
 description: 瞭解如何使用工作流程匯入資料。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: d909d26a-cf50-46af-ae09-f0fd7258ca27
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 自動化
-content-type: 參考
-topic-tags: 工作流——一般操作
+audience: automating
+content-type: reference
+topic-tags: workflow-general-operation
 discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -71,7 +71,7 @@ Durance;Allison;15/12/1978;allison.durance@example.com;120987
 
 ### 使用壓縮 {#using-compression}
 
-盡可能使用壓縮檔案進行匯入和匯出。 預設支援GZIP。 您可以分別在匯入檔案或擷取資料時新增前置處理，在和工作流程活動 **[!UICONTROL Load file]** 中加 **[!UICONTROL Extract file]** 入後置處理。
+盡可能使用壓縮檔案進行匯入和匯出。 預設支援GZIP。 您可以分別在匯入檔案或擷取資料時新增前置處理，在和工作流程活動 **[!UICONTROL Load file]** 中新增 **[!UICONTROL Extract file]** 後置處理。
 
 ### 在增量模式中導入 {#importing-in-delta-mode}
 
@@ -88,6 +88,26 @@ Durance;Allison;15/12/1978;allison.durance@example.com;120987
 * 事務性資料應具有協調密鑰，並與現有資料協調以避免建立重複資料。
 * **依順序匯入相關檔案**。 如果匯入由多個彼此依存的檔案組成，工作流程應確保檔案的匯入順序正確。 檔案失敗時，不會導入其他檔案。
 * **匯入資料**&#x200B;時，可以消除重複資料、進行協調並維持一致性。
+
+## 管理加密的資料 {#managing-encrypted-data}
+
+在某些情況下，您要匯入促銷活動伺服器的資料可能需要加密，例如，如果包含PII資料。
+
+若要匯入或匯出加密檔案，您必須先聯絡Adobe客戶服務，以便他們提供您的執行個體所需的加密／解密指令。
+
+若要這麼做，請提交指示：
+
+* 將 **在** 「促銷活動」介面中顯示的標籤，以使用命令。 例如「加密檔案」。
+* 要安 **裝在** 實例上的命令。
+例如，要使用PGP解密檔案，命令將是：
+
+   ```
+   <path-to_pgp_if-not_global_or_server/>pgp.exe --decrypt --input nl6/var/vp/import/filename.pgp --passphrase "your password" --recipient recipient @email.com --verbose --output nl6/var/vp/import/filename
+   ```
+
+處理請求後，加密／解密命令將可在和活動 **!UICONTROL Pre-processing stage]** 的欄位中 **[!UICONTROL Data loading (file)]** 使 **[!UICONTROL Extracting data (file)]** 用。 您可以使用這些檔案解密或加密要導入或導出的檔案。
+
+![](assets/preprocessing-encryption.png)
 
 ## 範例：匯入工作流程範本 {#example--import-workflow-template}
 
@@ -197,4 +217,3 @@ Durance;Allison;15/12/1978;allison.durance@example.com;120987
 範本現在可以使用，而且適用於每個新的工作流程。 然後，需要全部指定包含要在活動中導入的資料的文 **[!UICONTROL Load file]** 件。
 
 ![](assets/import_template_example9.png)
-

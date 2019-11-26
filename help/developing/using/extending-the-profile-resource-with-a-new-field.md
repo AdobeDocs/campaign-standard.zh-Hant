@@ -1,18 +1,18 @@
 ---
 title: 使用新欄位擴充設定檔資源
 description: 瞭解如何擴充描述檔資源。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: 9b99e95c-93ff-4187-90f7-db0baf5369ad
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 開發
-content-type: 參考
-topic-tags: use-cases-extending-resources
+audience: developing
+content-type: reference
+topic-tags: use-cases--extending-resources
 discoiquuid: 1e0f8945-fc3c-46a9-a8e5-b181a1f5ffcb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -147,7 +147,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ## 步驟4:使用工作流程更新和定位描述檔 {#step-4--update-and-target-profiles-with-a-workflow}
 
-若要使用新自訂欄位的資料更新描述檔，您可以使用範本建立著陸 **[!UICONTROL Profile acquisition]** 頁面。 如需著陸頁面的詳細資訊，請參閱此 [頁面](../../channels/using/about-landing-pages.md)。
+若要使用新自訂欄位的資料更新描述檔，您可以使用範本建立著陸 **[!UICONTROL Profile acquisition]** 頁面。 如需著陸頁面的詳細資訊，請參閱此 [頁面](../../channels/using/getting-started-with-landing-pages.md)。
 
 在這裡，我們想要定位未填入此欄位的工作流程描述檔。 他們會收到電子郵件，要求他們更新個人檔案，以接收個人化的電子報和優惠。 然後，每個個人檔案都會收到個人化電子報，視其喜好而定。
 

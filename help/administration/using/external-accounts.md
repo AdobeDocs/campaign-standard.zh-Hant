@@ -1,19 +1,19 @@
 ---
 title: 外部帳戶
 description: 設定外部帳戶以設定與外部系統（例如SFTP伺服器）的連線。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: 5d2e2e3d-5d1f-4466-97e5-842c50390146
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 管理
-content-type: 參考
+audience: administration
+content-type: reference
 topic-tags: application-settings
 discoiquuid: d5c6a3d4-f767-46c1-a8c0-3b9dc52dcea8
 internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -134,7 +134,7 @@ Adobe Experience manager外部帳戶用於整合Campaign與Experience Manager。
 
 Google reCAPTCHA機制可讓您保護著陸頁面，使其免受機器人程式造成的垃圾郵件和濫用。 這對您的客戶來說不會造成干擾，因為它不需要客戶進行任何互動，而且是以與您網站的互動為基礎。 若要註冊您的網站，請參閱本 [頁](https://www.google.com/recaptcha/admin/create)。 您必須選擇V3 reCAPTCHA類型。
 
-若要將Google reCAPTCHA V3新增至您的登陸頁面，您必須先在外部帳戶中進行設定。 如需如何將其新增至著陸頁面的詳細資訊，請參閱此 [節](../../channels/using/designing-a-landing-page.md#setting-google-recaptcha)。
+若要將Google reCAPTCHA V3新增至您的登陸頁面，您必須先在外部帳戶中進行設定。 如需如何將其新增至著陸頁面的詳細資訊，請參閱此 [節](../../channels/using/configuring-landing-page.md#setting-google-recaptcha)。
 
 若為Google reCAPTCHA V3外部帳戶，請提供下列詳細資訊：
 
@@ -146,4 +146,3 @@ Google reCAPTCHA機制可讓您保護著陸頁面，使其免受機器人程式�
    0.0值表 **[!UICONTROL Threshold]** 示它可能是機器人，1.0可能是良好的互動。 預設情況下，可以使用閾值0.5。
 
 ![](assets/external_accounts_3.png)
-

@@ -13,7 +13,7 @@ context-tags: recipient,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Campaign可讓您在整個生命週期中管理連絡人：建立、匯入
 
 >[!NOTE]
 >
->您也可以使用Adobe Campaign Standard API取得設定檔。 如需詳細資訊，請參閱專用 [檔案](../../api/using/managing-profiles.md)。
+>您也可以使用Adobe Campaign Standard API取得設定檔。 如需詳細資訊，請參閱專用 [檔案](../../api/using/retrieving-profiles.md)。
 
 ![](assets/marketing_history.png)
 

@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 5c4d3fc9853bf9bad4efcefaea242fecc9c4c61f
+source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
 
 ---
 
@@ -32,7 +32,7 @@ source-git-commit: 5c4d3fc9853bf9bad4efcefaea242fecc9c4c61f
       + [相容瀏覽器](start/using/compatible-browsers.md)
       + [自訂清單](start/using/customizing-lists.md)
    + 行銷計劃 {#marketing-plans}
-      + [方案與宣傳活動](start/using/programs-and-campaigns.md)
+      + [方案與行銷活動](start/using/programs-and-campaigns.md)
       + [行銷活動](start/using/marketing-activities.md)
       + [時間表](start/using/timeline.md)
    + 管理範本 {#managing-templates}
@@ -300,13 +300,13 @@ source-git-commit: 5c4d3fc9853bf9bad4efcefaea242fecc9c4c61f
       + [使用新欄位擴充設定檔資源](developing/using/extending-the-profile-resource-with-a-new-field.md)
       + [將訂閱擴充到應用程式資源](developing/using/extending-the-subscriptions-to-an-application-resource.md)
    + 資料模型 {#datamodel}
-      + [觀眾](developing/using/datamodel-audience.md)
-      + [促銷活動](developing/using/datamodel-campaign.md)
+      + [受眾](developing/using/datamodel-audience.md)
+      + [行銷活動](developing/using/datamodel-campaign.md)
       + [傳送](developing/using/datamodel-delivery.md)
-      + [著陸頁面](developing/using/datamodel-landingpage.md)
+      + [登陸頁面](developing/using/datamodel-landingpage.md)
       + [行銷歷史記錄](developing/using/datamodel-history.md)
-      + [描述檔](developing/using/datamodel-profile.md)
-      + [計畫](developing/using/datamodel-program.md)
+      + [個人資料](developing/using/datamodel-profile.md)
+      + [方案](developing/using/datamodel-program.md)
       + [種子成員](developing/using/datamodel-seed.md)
       + [服務](developing/using/datamodel-service.md)
       + [訂閱事件](developing/using/datamodel-subscription.md)
@@ -344,10 +344,10 @@ source-git-commit: 5c4d3fc9853bf9bad4efcefaea242fecc9c4c61f
       + [資料保留](administration/using/data-retention.md)
       + [更新和維護作業](administration/using/updates-and-maintenance-operations.md)
 + 使用API {#working-with-apis}
-   + 關於Campaign Standard API {#about-campaign-standard-apis}
+   + 關於 Campaign Standard API {#about-campaign-standard-apis}
       + [概觀](api/using/about-campaign-standard-apis.md)
-      + [為何使用Campaign Standard API](api/using/why-using-campaign-standard-apis.md)
-      + [設定API存取](api/using/setting-up-api-access.md)
+      + [為何使用 Campaign Standard API](api/using/why-using-campaign-standard-apis.md)
+      + [設定 API 存取](api/using/setting-up-api-access.md)
    + 全域概念 {#global-concepts}
       + [必讀](api/using/must-read.md)
       + [端點](api/using/endpoints.md)
@@ -359,13 +359,32 @@ source-git-commit: 5c4d3fc9853bf9bad4efcefaea242fecc9c4c61f
          + [計數](api/using/counting.md)
          + [編頁](api/using/pagination.md)
       + [自訂資源](api/using/custom-resources.md)
-   + [管理設定檔](api/using/managing-profiles.md)
-   + [管理服務與訂閱](api/using/managing-services-and-subscriptions.md)
-   + [與行銷歷史記錄互動](api/using/interacting-with-marketing-history.md)
-   + [隱私權管理](api/using/privacy-management.md)
-   + [管理事務性消息](api/using/managing-transactional-messages.md)
-   + [管理工作流程](api/using/managing-workflows.md)
    + [與自訂資源互動](api/using/interacting-with-custom-resources.md)
-   + [管理組織單位](api/using/managing-organizational-units.md)
-   + [管理地理單位](api/using/managing-geographical-units.md)
+   + 管理設定檔 {#managing-profiles}
+      + [檢索配置檔案](api/using/retrieving-profiles.md)
+      + [更新設定檔](api/using/updating-profiles.md)
+      + [建立設定檔](api/using/creating-profiles.md)
+   + 管理服務與訂閱 {#managing-services-and-subscriptiopns}
+      + [建立服務](api/using/creating-a-service.md)
+      + [檢索預訂](api/using/retrieving-subscriptions.md)
+      + [執行訂閱](api/using/perform-subscriptions.md)
+      + [刪除訂閱](api/using/deleting-subscriptions.md)
+   + [與行銷歷史記錄互動](api/using/interacting-with-marketing-history.md)
+   + 隱私權管理 {#privacy-management}
+      + [建立隱私權要求](api/using/creating-a-privacy-request.md)
+      + [監控隱私權要求](api/using/monitoring-a-privacy-request.md)
+      + [檢索隱私資料檔案](api/using/retrieving-privacy-data-files.md)
+      + [管理CCPA選擇退出](api/using/managing-ccpa-opt-out.md)
+   + [管理交易式訊息](api/using/managing-transactional-messages.md)
+   + 管理工作流程 {#managing-workflows}
+      + [控制工作流](api/using/controlling-a-workflow.md)
+      + [觸發信號活動](api/using/triggering-a-signal-activity.md)
+   + 管理組織單位 {#managing-organizational-units}
+      + [檢索配置檔案的組織單位](api/using/retrieving-an-organizational-unit.md)
+      + [更新配置檔案的組織單位](api/using/updating-profile-organizational-unit.md)
+      + [更新組織單位屬性](api/using/updating-organizational-unit-attributes.md)
+   + 管理地理單位 {#managing-geographical-units}
+      + [檢索配置檔案的地理單元](api/using/retrieving-a-geographical-unit.md)
+      + [更新配置檔案的地理單位](api/using/updating-a-geographical-unit.md)
+      + [更新地理單位屬性](api/using/updating-geographical-unit-attributes.md)
    + [疑難排解](api/using/troubleshooting.md)

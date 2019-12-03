@@ -12,7 +12,7 @@ discoiquuid: 8d3ba7bf-90ae-4c6d-aaeb-a48572a69f2f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
@@ -37,7 +37,7 @@ source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
    >
    >您只能修改頁籤中的 **[!UICONTROL General]** 資訊——除部分之 **[!UICONTROL Traceability]** 外。
 
-您也可以使用Adobe Campaign Standard API來建立描述檔版本。 如需詳細資訊，請參閱專用 [檔案](../../api/using/managing-profiles.md) 。
+您也可以使用Adobe Campaign Standard API來建立描述檔版本。 如需詳細資訊，請參閱專用 [檔案](../../api/using/updating-profiles.md) 。
 
 相關主題：
 

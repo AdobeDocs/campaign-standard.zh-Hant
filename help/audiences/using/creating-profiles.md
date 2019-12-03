@@ -12,7 +12,7 @@ discoiquuid: 4ab8a984-f898-4fff-ad8c-ed8f95362f96
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 13430243e8f2840ca85e557798168f6380a7b0fa
+source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
@@ -57,7 +57,7 @@ source-git-commit: 13430243e8f2840ca85e557798168f6380a7b0fa
 
 >[!NOTE]
 >
->您也可以使用Adobe Campaign Standard API建立設定檔。 如需詳細資訊，請參閱專用 [檔案](../../api/using/managing-profiles.md)。
+>您也可以使用Adobe Campaign Standard API建立設定檔。 如需詳細資訊，請參閱專用 [檔案](../../api/using/creating-profiles.md)。
 
 配置檔案也可以根據其組織單位進行分區。 要將組織欄位添加到配置檔案中，請參閱「分 [區配置檔案](../../administration/using/organizational-units.md#partitioning-profiles) 」部分。
 

@@ -12,7 +12,7 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ab5725b326de2f1cb4c5d15d0d3c0303a6bf0f06
+source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
@@ -89,7 +89,7 @@ Adobe.io宣告您的無效URI:您請求的URI很可能無效。 在Adobe.io上�
 
 * **我在創作完成後就看不到個人檔案**
 
-根據實例配置，建立的配置檔案需要與 **orgUnit關聯**。 若要瞭解如何在您的建立中新增此欄位，請參 [閱本節](../../api/using/managing-profiles.md)。
+根據實例配置，建立的配置檔案需要與 **orgUnit關聯**。 若要瞭解如何在您的建立中新增此欄位，請參 [閱本節](../../api/using/creating-profiles.md)。
 
 <!-- * (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu’un POST)
 

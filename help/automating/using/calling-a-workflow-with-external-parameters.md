@@ -12,7 +12,7 @@ discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
@@ -49,7 +49,7 @@ Campaign Standard可讓您使用參數（要定位的對象名稱、要匯入的
 
 ## 在調用工作流時定義參數 {#defining-the-parameters-when-calling-the-workflow}
 
-本節詳細說明如何在調用工作流時定義參數。 如需如何從API呼叫執行此作業的詳細資訊，請參閱 [REST API檔案](../../api/using/managing-workflows.md)。
+本節詳細說明如何在調用工作流時定義參數。 如需如何從API呼叫執行此作業的詳細資訊，請參閱 [REST API檔案](../../api/using/triggering-a-signal-activity.md)。
 
 在定義參數之前，請確定：
 
@@ -223,7 +223,7 @@ $(vars/@parameterName)
 
 ### 步驟1:設定API呼叫 {#step-1--configuring-the-api-call}
 
-進行API呼叫，以使用參數觸發Workflow 1。 如需API呼叫語法的詳細資訊，請參閱 [Campaign Standard REST API檔案](../../api/using/managing-workflows.md)。
+進行API呼叫，以使用參數觸發Workflow 1。 如需API呼叫語法的詳細資訊，請參閱 [Campaign Standard REST API檔案](../../api/using/triggering-a-signal-activity.md)。
 
 在本例中，我們要使用下列參數來呼叫工作流程：
 

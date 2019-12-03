@@ -12,7 +12,7 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
@@ -479,7 +479,7 @@ source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
   </tr> 
   <tr> 
    <td> API Signal活動觸發<br /> </td> 
-   <td> 現在可以直接從Adobe Campaign Standard API觸發工作流程的訊號活動。<br /> 如需詳細資訊，請參閱詳細 <a class="anchorLink" href="../../api/using/managing-workflows.md">檔案</a> 。<br /> </td> 
+   <td> 現在可以直接從Adobe Campaign Standard API觸發工作流程的訊號活動。<br /> 如需詳細資訊，請參閱詳細 <a class="anchorLink" href="../../api/using/triggering-a-signal-activity.md">檔案</a> 。<br /> </td> 
   </tr> 
  </tbody> 
 </table>

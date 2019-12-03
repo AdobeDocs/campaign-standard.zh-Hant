@@ -12,7 +12,7 @@ discoiquuid: 27de5a13-7b7c-4c91-bf26-3dfd324beb8f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
@@ -29,4 +29,4 @@ Adobe Campaign可讓您透過一組服務來建立和管理電子報和跨通道
 * 訂閱和／或取消訂閱 **確認機制**。
 * 訂閱歷 **史記錄**。
 
-您也可以使用Adobe Campaign Standard API來管理訂閱。 如需詳細資訊，請參閱專用 [檔案](../../api/using/managing-services-and-subscriptions.md) 。
+您也可以使用Adobe Campaign Standard API來管理訂閱。 如需詳細資訊，請參閱專用 [檔案](../../api/using/creating-a-service.md) 。

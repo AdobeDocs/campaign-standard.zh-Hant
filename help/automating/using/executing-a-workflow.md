@@ -13,7 +13,7 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
@@ -58,7 +58,7 @@ source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 使用REST API，您可以啟 **動**、暫 **停**、繼 **續和** 停止Rest **** 工作流。
 
-您可以在 [API檔案中找到更多REST呼叫的詳細資訊和範例。](../../api/using/managing-workflows.md)
+您可以在 [API檔案中找到更多REST呼叫的詳細資訊和範例。](../../api/using/controlling-a-workflow.md)
 
 ## 生命週期 {#life-cycle}
 

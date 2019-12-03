@@ -12,7 +12,7 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: f251e4b5187aa09f65a5d8d6215f208a09cd9159
 
 ---
 
@@ -32,7 +32,7 @@ Adobe Campaign提供完整的 [圖形環境](../../automating/using/workflow-int
 * 將資料匯入促銷活動資料庫。 有關詳細資訊，請參閱導 [入和導出資料](../../automating/using/about-data-import-and-export.md)。
 * 技術流程，例如資料庫清理、追蹤資訊的復原等。 在本節中進一步瞭解技術 [工作流程](../../administration/using/technical-workflows.md)。
 
-您也可從Adobe Campaign Standard API存取工作流程。 如需詳細資訊，請參閱專用 [檔案](../../api/using/managing-workflows.md)。
+您也可從Adobe Campaign Standard API存取工作流程。 如需詳細資訊，請參閱專用 [檔案](../../api/using/controlling-a-workflow.md)。
 
 **相關主題：**
 

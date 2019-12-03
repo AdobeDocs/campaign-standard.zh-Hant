@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5c4d3fc9853bf9bad4efcefaea242fecc9c4c61f
+source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
 
 ---
 
@@ -67,7 +67,7 @@ GDPR快速入門手冊已經過改進並充實。 它現在是包含GDPR和CCPA�
 
 已新增一個章節，說明如何使用電子郵件設計工具來設定連結的樣式。 [閱讀更多資訊](../../designing/using/styles.md#about-styling-links)
 
-與隱私權相關的資訊已新增至API檔案按一 [下這裡](../../api/using/privacy-management.md)
+與隱私權相關的資訊已新增至API檔案按一 [下這裡](../../api/using/creating-a-privacy-request.md)
 
 ## 檔案更新- 2019年10月 {#doc-updates-october-2019}
 
@@ -429,7 +429,7 @@ GDPR:核心服務整合——詳 [細資訊](https://docs.campaign.adobe.com/doc
 
 ### 此版本隨附的其他檔案更新 {#other-documentation-updates-coming-with-the-release-7}
 
-GDPR API會重新分組允許自動處理GDPR要求的功能。 [閱讀更多資訊](../../api/using/privacy-management.md)
+GDPR API會重新分組允許自動處理GDPR要求的功能。 [閱讀更多資訊](../../api/using/creating-a-privacy-request.md)
 
 已新增有關如何設定著陸頁面，讓收件者能夠列入黑名單的資訊。 [閱讀更多資訊](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
@@ -503,7 +503,7 @@ SQL結構現在提供資料模型v1，用於現成可用的資源——詳 [情]
 
 時區最佳化傳送——詳 [細資訊](../../automating/using/scheduler.md)
 
-API Signal活動觸發——詳 [細資訊](../../api/using/managing-workflows.md)
+API Signal活動觸發——詳 [細資訊](../../api/using/triggering-a-signal-activity.md)
 
 ### 此版本隨附的其他檔案更新 {#other-documentation-updates-coming-with-the-release-9}
 
@@ -553,7 +553,7 @@ API Signal活動觸發——詳 [細資訊](../../api/using/managing-workflows.m
 
 SMS檔案已更新，SMS自動回覆區段已新增 [一些說明](../../channels/using/managing-incoming-sms.md#managing-stop-sms) 。
 
-透過API專用於工作流程管理的新區段。 [閱讀更多資訊](../../api/using/managing-workflows.md)
+透過API專用於工作流程管理的新區段。 [閱讀更多資訊](../../api/using/controlling-a-workflow.md)
 
 新區段專用於主要金鑰，以及使用商業ID做為API中金鑰。 [閱讀更多資訊](../../api/using/about-campaign-standard-apis.md)
 

@@ -39,7 +39,7 @@ source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
     <div>
     <a href="administration/using/about-access-management.md"><strong>角色與安全群組</strong></a>
     </div>
-    <em></em>瞭解如何定義權限並向 Campaign 使用者指派角色。
+    <em>瞭解如何定義權限並向 Campaign 使用者指派角色。</em>
     <br>
   </td>
   <td valign="top">
@@ -58,7 +58,7 @@ source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
     <strong>面向開發人員的資源</strong>
     </div>
     <p><em><a href="api/using/about-campaign-standard-apis.md">Adobe Campaign API</a></em></p>
-    <p><em><a href="integrating/using/about-adobe-experience-cloud-triggers.md">Adobe Experience Cloud 觸發程序</a></em></p>
+    <p><em><a href="integrating/using/about-adobe-experience-cloud-triggers.md">Adobe Experience Cloud Triggers</a></em></p>
     <br>
   </td>
 </tr>
@@ -79,4 +79,4 @@ source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
 
 * [技術說明](https://helpx.adobe.com/campaign/kb/acs-article-list.html)
 
-* [Adobe Campaign Standard實作指南](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html)
+* [Adobe Campaign Standard 實作指南](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html)

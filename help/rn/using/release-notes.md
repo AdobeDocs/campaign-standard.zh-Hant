@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
+source-git-commit: 0ebe0ac4b9d9ba9c24e056cc7e2745e9f69e2004
 
 ---
 
@@ -437,7 +437,7 @@ source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
   </tr> 
   <tr> 
    <td> 行動應用程式的啟動整合<br /> </td> 
-   <td> <p>此版本包含Adobe Campaign與Adobe Experience Platform Launch和Mobile SDK中Adobe Campaign Standard的GA版Android和iOS擴充功能的整合。 這些擴充功能支援推播訊息、應用程式內訊息和行動應用程式設定檔更新。</p><p> 如需詳細資訊，請參閱詳 <a href="../../administration/using/about-typology-rules.md#typology-rules">細檔案</a>。</p> </td> 
+   <td> <p>此版本包含Adobe Campaign與Adobe Experience Platform Launch和Mobile SDK中Adobe Campaign Standard的GA版Android和iOS擴充功能的整合。 這些擴充功能支援推播訊息、應用程式內訊息和行動應用程式設定檔更新。</p><p> 如需詳細資訊，請參閱詳 <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">細檔案</a>。</p> </td> 
   </tr> 
   <tr> 
    <td> 行動應用程式內訊息<br /> </td> 
@@ -475,7 +475,7 @@ source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
 
 * 在行動檢視中編輯時，您可以僅在行動顯示中隱藏某些元件，以有效利用空間。
 
-   如需詳細資訊，請參閱詳 [細檔案](../../designing/using/styles.md#switching-to-mobile-view)。
+   如需詳細資訊，請參閱詳 [細檔案](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)。
 
 * 您現在可以將自訂的社交管道新增至電子郵件範本，而不是已可用的管道。
 * 修正當使用超過18種結構時，無法向下捲動結構選單的問題。 (CAMP-31173)
@@ -546,7 +546,7 @@ source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
      <li> 能夠在準 <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">備時自動從URL擷取內容</a> </li> 
      <li> 完全 <a href="../../designing/using/using-reusable-content.md#content-templates">符合現成可用的內容範本</a>。 </li> 
     </ul> 
-    <p>如需詳細資訊，請參 <a href="../../designing/using/overview.md">閱詳細說明</a><a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html">檔案和操作視訊</a>。 以下列出改進和修正。</p><p>因此，舊版電子郵件內容編輯器現在已不再提供。 For more information, refer to this <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">page</a>.</p> </td> 
+    <p>如需詳細資訊，請參 <a href="../../designing/using/overview.md">閱詳細說明</a><a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html">檔案和操作視訊</a>。 以下列出改進和修正。</p><p>因此，舊版電子郵件內容編輯器現在已不再提供。  如需詳細資訊，請參閱本 <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">頁</a>。</p> </td> 
   </tr> 
   <tr> 
    <td> 交易電子郵件中的產品清單<br /> </td> 
@@ -554,7 +554,7 @@ source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
   </tr> 
   <tr> 
    <td> 電子郵件設計人員中的行動裝置檢視<br /> </td> 
-   <td> <p>編輯電子郵件內容時，您現在可以切換至專用的行動檢視。 這可讓您個別編輯行動顯示的所有樣式選項，例如調整邊界、較小的字型大小、不同的背景顏色等，以微調電子郵件的互動式設計。</p><p> 如需詳細資訊，請參閱詳 <a href="../../designing/using/styles.md#switching-to-mobile-view">細檔案</a>。</p> </td> 
+   <td> <p>編輯電子郵件內容時，您現在可以切換至專用的行動檢視。 這可讓您個別編輯行動顯示的所有樣式選項，例如調整邊界、較小的字型大小、不同的背景顏色等，以微調電子郵件的互動式設計。</p><p> 如需詳細資訊，請參閱詳 <a href="../../designing/using/plain-text-html-modes.md#switching-to-mobile-view">細檔案</a>。</p> </td> 
   </tr> 
   <tr> 
    <td> 應用程式內訊息測試版改進<br /> </td> 

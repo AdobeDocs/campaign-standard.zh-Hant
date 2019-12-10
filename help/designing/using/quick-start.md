@@ -1,37 +1,42 @@
 ---
-title: 快速開始電子郵件內容設計
+title: 電子郵件設計人員快速入門
 description: 開始使用電子郵件設計工具建立電子郵件內容。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 設計
-content-type: 參考
-topic-tags: 編輯——電子郵件——內容
+audience: designing
+content-type: reference
+topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 219f0ffeb11f1fda0d4c1c3b6f5dc7b67f9b0df0
 
 ---
 
-# 快速開始電子郵件內容設計{#quick-start}
+# 電子郵件設計人員快速入門 {#quick-start}
 
 電子郵件設計人員提供四種建立電子郵件的方式。
 
-您可以建立新的電子郵件：
+您可以在電子郵件設 [計器中建立新的電子郵件](#without-existing-content):
 
 * 您可以輕鬆新增結構和內容元件，並個人化其內容，以便快速傳送，從空白畫布建立電子郵件。 您也可以完全管理樣式元素。 如需詳細資訊，請 [快速上手](#from-scratch-email) ，或查看完 [整的檔案](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)。
 
 * 您可以從現成可用的範本建立電子郵件，方法是選取範本並從此處建立新的電子郵件內容。 [進一步瞭解](#building-content-from-an-out-of-the-box-template)
 
-您也可以建立包含現有內容的電子郵件：
+您也可以建立包含現有內 [容的電子郵件](#with-existing-content):
 
 * 您可以轉換現有的HTML內容（在外部或舊版編輯器中建立）。 [進一步瞭解](#converting-an-html-content)
 * 您可以直接在相容性模式中匯入現有的HTML內容。 [進一步瞭解](#compatibility-mode)
 
-## 沒有現有內容 {#without-existing-content}
+| 無內容 | 使用內容 |
+|---|---|
+| 從頭開始建立電子郵件 | 轉換現有HTML內容 |
+| 從現成可用的範本建立內容 | 匯入現有的HTML |
+
+## 使用編輯器設計電子郵件 {#without-existing-content}
 
 ### 從頭開始建立電子郵件 {#from-scratch-email}
 
@@ -63,7 +68,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 您可以在電子郵件中新增數種內容元件，例如影像、文字和按鈕。 如需詳細資訊，請參閱「 [內容元件」](../../designing/using/designing-from-scratch.md#about-content-components)。
 
-* 影像
+* **影像**
 
 1. 在「 **內容元件**」中，將影像拖放至其中一個結構元件中。
 1. 按一 **下瀏覽**。
@@ -71,7 +76,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ![](assets/browse-image-quick-start.png)
 
-* 文字與個人化
+* **文字與個人化**
 
 1. 在「 **內容元件**」中，將文字拖放至其中一個結構元件中。
 1. 按一下元件並輸入文字。
@@ -80,7 +85,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ![](assets/edit-text-quick-start.png)
 
-* HTML
+* **HTML**
 
 1. 在「 **內容元件**」中，將HTML拖放至其中一個結構元件中。
 1. 按一 **下顯示原始碼**。
@@ -123,7 +128,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 1. 根據您的需求修改每個元素的內容：影像、文字、連結。
 1. 視需要調整樣式選項以配合您的內容。 如需詳細資訊，請參閱「編輯 [電子郵件樣式](../../designing/using/styles.md)」。
 
-## 使用現有內容 {#with-existing-content}
+## 使用現有的電子郵件內容 {#with-existing-content}
 
 如果您想要建立模組範本和片段的架構，以便結合在多封電子郵件中重複使用，您應考慮將電子郵件的HTML轉換為電子郵件設計人員範本。
 
@@ -171,7 +176,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 1. 添加結構元件。 如需詳細資訊，請參閱「 [編輯電子郵件結構」](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 1. 新增HTML元件。 如需詳細資訊，請參 [閱新增片段和元件](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 1. 將HTML複製並貼入該元件。
-1. 切換至行動裝置檢視。 For more on this, see [this section](../../designing/using/styles.md#switching-to-mobile-view).
+1. 切換至行動裝置檢視。 有關此內容的詳細資訊，請參 [閱本節](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)。
 
    回應式檢視會中斷，因為您的CSS遺失。
 

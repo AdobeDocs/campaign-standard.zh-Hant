@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+source-git-commit: 9e17218048daa091538a09dea6e2eabca0814a5f
 
 ---
 
@@ -62,7 +62,7 @@ Adobe Campaign隨附一組預先定義的內容，以協助您開始使用。 �
 
 若要讓現有的外部內容在電子郵件設計器中完全可編輯，請參 [閱使用現有內容設計電子郵件](../../designing/using/using-existing-content.md) 。
 
-## 匯入 {#importing}
+## 匯入現有的電子郵件內容 {#importing}
 
 ### 從檔案匯入內容 {#importing-content-from-a-file}
 
@@ -126,7 +126,7 @@ zip檔案結構沒有限制。 但是，參照HTML檔案必須是相對的，並
 
 1. 若要預覽已擷取的URL內容，請在建立訊息後開啟訊息，然後按一下按 **[!UICONTROL Preview]** 鈕。
 
-您可以個人化將擷取內容的遠端URL。 要執行此操作，請遵循下列步驟：
+您可以個人化將擷取內容的遠端URL。 若要這麼做，請依照下列步驟進行：
 
 1. 按一下畫面上方的電子郵件標籤，以存取「電子郵件設計器」 **[!UICONTROL Properties]** 標籤。
 1. 尋找欄 **[!UICONTROL Remote URL]** 位。
@@ -211,7 +211,7 @@ zip檔案結構沒有限制。 但是，參照HTML檔案必須是相對的，並
 1. 添加結構元件。 如需詳細資訊，請參閱「 [編輯電子郵件結構」](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 1. 新增HTML元件。 如需詳細資訊，請參 [閱新增片段和元件](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 1. 將HTML複製並貼入該元件。
-1. 切換至行動裝置檢視。 For more on this, see [this section](../../designing/using/styles.md#switching-to-mobile-view).
+1. 切換至行動裝置檢視。 有關此內容的詳細資訊，請參 [閱本節](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)。
 
    回應式檢視會中斷，因為您的CSS遺失。
 
@@ -228,6 +228,15 @@ zip檔案結構沒有限制。 但是，參照HTML檔案必須是相對的，並
 
    >[!NOTE]
    >
-   >請勿修改電子郵件設計人員產生的CSS: `<style acrite-template-css="true">` 和 `<style acrite-custom-styles="" type="text/css">`。 請務必在此之後新增您的樣式。
+   >請務必在此之後，在另一個自訂樣式標籤中新增您的樣式。
+   >
+   >請勿修改電子郵件設計人員產生的CSS:
+   >
+   >* `<style data-name="default" type="text/css">(##)</style>`
+   >* `<style data-name="supportIOS10" type="text/css">(##)</style>`
+   >* `<style data-name="mediaIOS8" type="text/css">(##)</style>`
+   >* `<style data-name="media-default-max-width-500px" type="text/css">(##)</style>`
+   >* `<style data-name="media-default--webkit-min-device-pixel-ratio-0" type="text/css">(##)</style>`
+
 
 1. 返回行動裝置檢視，檢查您的內容是否正確顯示並儲存變更。

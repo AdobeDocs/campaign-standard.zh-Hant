@@ -1,5 +1,5 @@
 ---
-title: 關於Campaign Standard API
+title: 關於 Campaign Standard API
 description: 進一步瞭解Campaing Standard API。
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
@@ -12,12 +12,12 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 554bf4a441a0fb4daea3c5eddd95b0197ca12ae6
+source-git-commit: 4f7217a114454781b9e7cca261fd2d47717f3636
 
 ---
 
 
-# 關於Campaign Standard API {#about-campaign-standard-apis}
+# 關於 Campaign Standard API {#about-campaign-standard-apis}
 
 Campaign Standard API的目的是讓您 **建立Adobe Campaign** Standard的整合，並將Adobe Campaign Standard與您使用的技術面板結合，以建立 **您自己的生態系統** 。
 
@@ -28,8 +28,12 @@ Campaign Standard API的目的是讓您 **建立Adobe Campaign** Standard的整�
 * 傳送交易訊息
 * 從您的自訂資料模型擷取資料
 
+>[!NOTE]
+>
+>在執行API呼叫前，請檢查與您的授權合約相應的比例限制。 For more on this, refer to [this page](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
+
 若要使用Campaign Standard API，您需要Adobe I/O帳戶。 這是前進並探索API功能的必備第一步。
-如需詳細資訊，請參閱[本小節](../../api/using/setting-up-api-access.md)。
+For more on this, refer to [this section](../../api/using/setting-up-api-access.md).
 
 我們提供的API使用 **標準概念** ，以及REST介面和JSON負載。
 

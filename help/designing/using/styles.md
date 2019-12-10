@@ -1,27 +1,25 @@
 ---
 title: 管理樣式
 description: 瞭解如何在電子郵件設計工具中管理電子郵件樣式。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 設計
-content-type: 參考
-topic-tags: 編輯——電子郵件——內容
+audience: designing
+content-type: reference
+topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 17264484102878d4eb58c0fe9d82d7d4f091179b
 
 ---
 
 
 # 管理樣式 {#managing-styles}
 
-## 編輯電子郵件樣式{#editing-email-styles}
-
-### 編輯元素 {#editing-an-element}
+## 編輯元素 {#editing-an-element}
 
 在「電子郵件設計器」中，選取元素時，窗格中會顯示特定於所選內容類型的幾個選 **[!UICONTROL Settings]** 項。 您可以使用這些選項輕鬆變更電子郵件的樣式。
 
@@ -49,7 +47,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 請參閱本節的 [範例](#example--adjusting-vertical-alignment-and-padding)。
 
-### 調整樣式設定 {#adjusting-style-settings}
+## 調整樣式設定 {#adjusting-style-settings}
 
 1. 在電子郵件中選取元素。 如需詳細資訊，請參 [閱選取元素](#selecting-an-element)。
 1. 根據您的需求調整設定。 每個選取的元素都提供不同的設定集。
@@ -62,7 +60,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 1. 儲存您的內容。
 
-### 關於間距和邊界 {#about-padding-and-margin}
+## 關於間距和邊界 {#about-padding-and-margin}
 
 電子郵件設計器介面可讓您快速調整填補空間和邊界設定。
 
@@ -88,7 +86,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ![](assets/des_padding_lock_icon.png)
 
-### 關於對齊 {#about-alignment}
+## 樣式對齊 {#about-alignment}
 
 * **文字對齊**:將滑鼠游標置於某些文字上，然後使用內容相關工具列來對齊。
 
@@ -102,7 +100,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    ![](assets/des_set_vertical_alignment.png)
 
-### 關於背景 {#about-backgrounds}
+## 設定背景 {#about-backgrounds}
 
 在使用電子郵件設計工具設定背景時，Adobe建議您：
 
@@ -144,9 +142,9 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    您也可以在欄層級設定背景影像，但很少使用。
 
-#### 範例：調整垂直對齊和間距 {#example--adjusting-vertical-alignment-and-padding}
+### 範例：調整垂直對齊和間距 {#example--adjusting-vertical-alignment-and-padding}
 
-要在由三列組成的結構元件中調整填充和垂直對齊。 要執行此操作，請遵循下列步驟：
+要在由三列組成的結構元件中調整填充和垂直對齊。 若要這麼做，請依照下列步驟進行：
 
 1. 直接在電子郵件中或使用左側元件面板中的結構樹選擇結構 **元件**。
 1. 從內容 **相關工具**，按一 **[!UICONTROL Select a column]** 下並選擇要編輯的工具列。 也可以從結構樹中選取它。
@@ -173,7 +171,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 1. 儲存您的變更。
 
-### 關於樣式連結 {#about-styling-links}
+## 樣式連結 {#about-styling-links}
 
 >[!NOTE]
 >
@@ -201,7 +199,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 1. 儲存您的變更。
 
-### 添加內嵌樣式屬性 {#adding-inline-styling-attributes}
+## 添加內嵌樣式屬性 {#adding-inline-styling-attributes}
 
 在「電子郵件設計器」介面中，當您選取元素並在側面板顯示其設定時，可以自訂該特定元素的內嵌屬性及其值。
 
@@ -218,7 +216,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 您可以個別編輯行動顯示的所有樣式選項，以微調電子郵件的互動式設計。 例如，您可以調整邊界和填補空白、使用較小或較大的字型大小、變更按鈕，或套用行動版電子郵件專用的不同背景顏色。
 
-所有樣式選項都可在行動裝置檢視中使用。 「編輯電子郵件樣式」區段中會顯示「電子郵件設 [計器」樣式設](#editing-email-styles) 定。
+所有樣式選項都可在行動裝置檢視中使用。 「電子郵件設計器」樣式設定先前會顯示在此頁面。
 
 1. 建立電子郵件並開始編輯內容。 如需詳細資訊，請參 [閱從頭設計電子郵件內容](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)。
 1. 若要存取專用的行動裝置檢視，請選取 **[!UICONTROL Switch to mobile view]** 按鈕。

@@ -1,18 +1,18 @@
 ---
 title: '建立和使用可重複使用的內容 '
 description: 開始使用電子郵件設計工具建立可重複使用的電子郵件內容。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 設計
-content-type: 參考
-topic-tags: 編輯——電子郵件——內容
+audience: designing
+content-type: reference
+topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: d0d5b19ad272c406f1081ed364193c7fb793de07
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 瞭解如何掌握電子郵件內容版本。 使用電子郵件設計工具，您可以使用自己預先定義的內容來建立範本和片段，並重複使用這些範本和片段，以便進行後續傳送。
 
-## 使用範本進行設計 {#designing-templates}
+## 使用範本設計電子郵件 {#designing-templates}
 
 >[!NOTE]
 >
@@ -203,7 +203,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
    >
    >請避免將內容儲存為空白結構元件的片段內容。 插入&gt;fragment後，就無法編輯它們。
    >
-   >行動 [裝置檢視](../../designing/using/styles.md#switching-to-mobile-view) ，無法在片段中使用。
+   >行動 [裝置檢視](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view) ，無法在片段中使用。
 
 1. 編輯完成後，儲存您的片段。
 
@@ -249,7 +249,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 ![](assets/email_designer_save-as-fragment_in-new-email.png)
 
 >[!NOTE]
->行動 [裝置檢視](../../designing/using/styles.md#switching-to-mobile-view) ，無法在片段中使用。 如果您想要編輯電子郵件行動裝置檢視，請先先進行，再將內容儲存為片段。
+>行動 [裝置檢視](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view) ，無法在片段中使用。 如果您想要編輯電子郵件行動裝置檢視，請先先進行，再將內容儲存為片段。
 
 <!--You need to copy-paste the HTML corresponding to the section that you want to save into a new fragment.
 
@@ -271,7 +271,7 @@ To save as a fragment some email content that you created, follow the steps belo
 
 使用電子郵件設計工具，為每個可重複使用的區段建立片段。 在此範例中，您將建立兩個片段：一個用於頁首，一個用於頁尾。 然後，您可以將現有內容的相關部分複製到這些片段中。
 
-要執行此操作，請遵循下列步驟：
+若要這麼做，請依照下列步驟進行：
 
 1. 在Adobe Campaign中，前往 **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates & fragments]** 並建立頁首的片段。 如需詳細資訊，請參 [閱建立內容片段](#creating-a-content-fragment)。
 1. 在片段中添加所需數量的結構元件。

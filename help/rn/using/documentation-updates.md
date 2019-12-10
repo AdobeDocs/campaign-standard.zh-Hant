@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
+source-git-commit: bfb5ee7dd97ff46dbe285270275f37f39d2b5231
 
 ---
 
@@ -24,6 +24,14 @@ source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
 本頁列出每個Adobe Campaign Standard版本的所有新功能和檔案更新。
 
 您也可以參閱Adobe Campaign發 [行說明](../../rn/using/release-notes.md)。
+
+## 檔案更新- 2019年12月 {#doc-updates-december-2019}
+
+已更新「設定S3外部帳戶」檔案。 [閱讀更多資訊](../../administration/using/external-accounts.md#amazon-s3-external-account)
+
+「設計電子郵件內容」區段已重新整理。 [閱讀更多資訊](../../designing/using/designing-content-in-adobe-campaign.md)
+
+Deliverability快速入門手冊已整合至核心檔案並更新。 [閱讀更多資訊](../../sending/using/about-deliverability.md)
 
 ## 檔案更新- 2019年11月 {#doc-updates-november-2019}
 
@@ -289,7 +297,7 @@ Dreamweaver整合區段已更新並改良。 [閱讀更多資訊](../../designin
 
 交易電子郵件中的產品清單——詳 [細資訊](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)
 
-電子郵件設計人員中的行動裝置檢視——詳 [細資訊](../../designing/using/styles.md#switching-to-mobile-view)
+電子郵件設計人員中的行動裝置檢視——詳 [細資訊](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)
 
 應用程式內訊息測試版改良——閱 [讀更多](../../channels/using/about-in-app-messaging.md)
 

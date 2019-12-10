@@ -13,7 +13,7 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+source-git-commit: 68921819a5335626e45678ec569172ffef46a636
 
 ---
 
@@ -26,11 +26,11 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 您可以設定下列外部帳戶類型：
 
-* SFTP。 如需詳細資訊，請參閱[本小節](#sftp-external-account)。
-* Amazon Storage Service(S3)。 如需詳細資訊，請參閱[本小節](#amazon-s3-external-account)。
-* Adobe Experience Manager。 如需詳細資訊，請參閱[本小節](#adobe-experience-manager-external-account)。
-* Adobe Analytics。 如需詳細資訊，請參閱[本小節](../../integrating/using/configure-campaign-analytics-integration.md)。
-* Google reCAPTCHA。 如需詳細資訊，請參閱[本小節](#google-recaptcha-external-account)。
+* SFTP。 For more on this, refer to [this section](#sftp-external-account).
+* Amazon Storage Service(S3)。 For more on this, refer to [this section](#amazon-s3-external-account).
+* Adobe Experience Manager。 For more on this, refer to [this section](#adobe-experience-manager-external-account).
+* Adobe Analytics。 For more on this, refer to [this section](../../integrating/using/configure-campaign-analytics-integration.md).
+* Google reCAPTCHA。 For more on this, refer to [this section](#google-recaptcha-external-account).
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ Adobe Campaign隨附一組預先定義的外部帳戶。 若要設定與外部�
 
 技術流程（例如技術工作流程或宣傳工作流程）會使用外部帳戶。 在工作流程中或與任何其他應用程式（Adobe Target、Experience Manager等）進行資料交換時，您需要選取外部帳戶。
 
-1. Click the **[!UICONTROL Create]** button.
+1. 按一下按 **[!UICONTROL Create]** 鈕。
 1. 輸入標籤。 在工作流程中選取外部帳戶時，將會使用標籤和ID。
 1. 選擇要建立的帳戶類型。
 1. 在相關時指定憑證、伺服器位址、埠號或金鑰，以設定帳戶的存取權。
@@ -67,7 +67,7 @@ Adobe Campaign隨附一組預先定義的外部帳戶。 若要設定與外部�
 
 ### Adobe代管SFTP伺服器建議 {#adobe-hosted-sftp-server-recommendations}
 
-管理用於 ETL 的檔案和資料時，這些檔案儲存在 Adobe 提供的託管 SFTP 伺服器上。此 SFTP 旨在作為臨時儲存空間，您可以在其上控製檔案的保留和刪除。
+當管理檔案和資料以用於ETL時，這些檔案會儲存在Adobe提供的代管SFTP伺服器上。 此SFTP設計為臨時儲存空間，您可以控制檔案的保留和刪除。
 
 當未正確使用或監視時，此空間可快速填滿伺服器上的可用物理空間，並造成嚴重問題。 這可能會導致平台上的資料遺失或損毀。
 
@@ -76,11 +76,11 @@ Adobe Campaign隨附一組預先定義的外部帳戶。 若要設定與外部�
 * 盡可能保持最小的資料。
 * 使用基於密鑰的身份驗證以避免密碼過期。 支援的格 **式僅限****OpenSSH和** SSH2。 您必須提供公開金鑰給Adobe支援團隊，才能將它上傳到Campaign伺服器。
 * 只需視需要保留資料。 15天是最大時間限制。
-* 使用工作流程正確刪除資料 (管理使用資料的工作流程的保留)。
-* 在 SFTP 上載和工作流程中使用批次處理。
-* 處理錯誤/例外狀況。
-* 時常登入 SFTP 以直接檢查其內容。
-* 請記住，SFTP 硬碟的管理主要是您的責任。
+* 使用工作流程正確刪除資料（從使用資料的工作流程管理保留率）。
+* 在SFTP上傳和工作流程中使用批次處理。
+* 處理錯誤／例外。
+* 偶爾，請登入SFTP以直接檢查其中的內容。
+* 請記住，SFTP磁碟管理主要是您的責任。
 
 此外，請注意，您嘗試從中啟動SFTP連線的公用IP，必須列在促銷活動例項中。 IP位址的白名單可透過支 [援票證](https://support.neolane.net)，並提供用於驗證的公開金鑰。
 
@@ -105,7 +105,11 @@ Amazon S3伺服器欄位應填寫如下：
 
 所需資訊通常由您所連接的伺服器提供商提供。
 
-指定與 **[!UICONTROL AWS Region]** 端點相關聯。 您可以在官方的 [Amazon S3檔案中查看受支援地區和簽名版本](https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region) 。
+指定與 **[!UICONTROL AWS Region]** 端點相關聯。 您可以在官方的 [Amazon S3檔案中查看受支援的地區和簽名版本](https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region)。
+
+>[!NOTE]
+>
+>您應 **[!UICONTROL Receiver server]** 該在沒有您的AWS地區的情況下輸入，以後將自動將其添加到您的URL中。
 
 ### Amazon S3帳戶建議 {#amazon-s3-account-recommendations}
 

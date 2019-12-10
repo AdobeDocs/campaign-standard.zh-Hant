@@ -1,18 +1,18 @@
 ---
 title: 定義報告期間
-description: 報表的時段可讓您根據所選日期來篩選資料。
-page-status-flag: 從未激活
+description: 報表的時段可讓您根據選擇的日期來篩選資料。
+page-status-flag: never-activated
 uuid: 8dfd1ae6-a5a0-4900-bd6f-7815749d0b60
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 報告
-content-type: 參考
-topic-tags: 清單
+audience: reporting
+content-type: reference
+topic-tags: list-of-reports
 discoiquuid: 8ff74630-860c-4f1c-9aa7-21c3326e47da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 44049443f8028ed26089ee0d49944ebac6a62111
 
 ---
 
@@ -28,4 +28,3 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 套用或修改篩選時，報表會自動更新。 選取的報表期間將控制該期間發生的事件，而非您在期間內建立之傳送的整組資料，例如，如果傳送從1月1日到5日執行，而報表期間是1月1日到2日，您可能會看到部分資料。 這可能會影響開啟／點按計數，因為開啟或點按可能發生，甚至在傳送後一個月內。
 
 ![](assets/campaign_reports_5.png)
-

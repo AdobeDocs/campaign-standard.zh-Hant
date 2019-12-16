@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 219f0ffeb11f1fda0d4c1c3b6f5dc7b67f9b0df0
+source-git-commit: f8b763ab70514563ab48b0233300e9dda0fba18c
 
 ---
 
@@ -33,8 +33,8 @@ source-git-commit: 219f0ffeb11f1fda0d4c1c3b6f5dc7b67f9b0df0
 
 | 無內容 | 使用內容 |
 |---|---|
-| 從頭開始建立電子郵件 | 轉換現有HTML內容 |
-| 從現成可用的範本建立內容 | 匯入現有的HTML |
+| [從頭開始建立電子郵件](#from-scratch-email) | [轉換現有HTML內容](#converting-an-html-content) |
+| [從現成可用的範本建立內容](#building-content-from-an-out-of-the-box-template) | [匯入現有的HTML](#compatibility-mode) |
 
 ## 使用編輯器設計電子郵件 {#without-existing-content}
 
@@ -176,7 +176,7 @@ source-git-commit: 219f0ffeb11f1fda0d4c1c3b6f5dc7b67f9b0df0
 1. 添加結構元件。 如需詳細資訊，請參閱「 [編輯電子郵件結構」](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 1. 新增HTML元件。 如需詳細資訊，請參 [閱新增片段和元件](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 1. 將HTML複製並貼入該元件。
-1. 切換至行動裝置檢視。 有關此內容的詳細資訊，請參 [閱本節](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)。
+1. 切換至行動裝置檢視。 For more on this, see [this section](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
 
    回應式檢視會中斷，因為您的CSS遺失。
 

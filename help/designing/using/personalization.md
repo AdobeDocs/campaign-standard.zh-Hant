@@ -12,20 +12,20 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d0d5b19ad272c406f1081ed364193c7fb793de07
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
 
 # 個人化電子郵件內容 {#personalization}
 
-Adobe Campaign傳遞的訊息內容和顯示方式可透過多種不同方式個人化。 這些方式可根據條件結合，視描述檔而定。 一般而言，Adobe Campaign可讓您：
+Adobe Campaign傳遞的訊息內容和顯示方式可透過多種不同方式個人化。 這些方式可根據條件結合，視描述檔而定。 一般而言，Adobe Campaign 允許您：
 
-* 插入動態個人化欄位。 請參 [閱插入個人化欄位](#inserting-a-personalization-field)。
+* 插入動態的個人化欄位。請參 [閱插入個人化欄位](#inserting-a-personalization-field)。
 * 插入預先定義的個人化區塊。 請參 [閱新增內容區塊](#adding-a-content-block)。
 * 個人化電子郵件的寄件者。 請參 [閱個人化傳送者](#personalizing-the-sender)。
 * 個人化電子郵件的主題。 See [Personalizing the subject line of an email](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
-* 建立條件式內容。 請參閱 [定義電子郵件中的動態內容](#defining-dynamic-content-in-an-email)
+* 建立有條件的內容。請參閱 [定義電子郵件中的動態內容](#defining-dynamic-content-in-an-email)
 
 ## 個人化傳送者 {#personalizing-the-sender}
 
@@ -41,7 +41,7 @@ Adobe Campaign傳遞的訊息內容和顯示方式可透過多種不同方式個
 
 ## 個人化URL{#personalizing-urls}
 
-Adobe Campaign可讓您新增個人化欄位、內容區塊或動態內容，以個人化訊息中的一或多個URL。 要執行此操作：
+Adobe Campaign可讓您新增個人化欄位、內容區塊或動態內容，以個人化訊息中的一或多個URL。 操作步驟：
 
 1. 插入外部URL並指定其參數。 請參 [閱插入連結](../../designing/using/links.md#inserting-a-link)。
 1. 如果未顯示，請按一下「設定」窗格中選取之URL旁的鉛筆，以存取個人化選項。
@@ -61,11 +61,11 @@ Adobe Campaign可讓您將資料庫中的欄位插入頁面，例如描述檔的
 
 >[!NOTE]
 >
->下圖顯示如何使用電子郵件設計工具插入個 [人化欄位](../../designing/using/overview.md) 。
+>下圖顯示如何使用電子郵件設計工具插入個 [人化欄位](../../designing/using/designing-content-in-adobe-campaign.md) 。
 
 若要新增個人化欄位至內容：
 
-1. 在文字區塊內按一下，按一下內容 **[!UICONTROL Personalize]** 相關工具列中的圖示並選取 **[!UICONTROL Insert personalization field]**。 如需「電子郵件設計器」介面的詳細資訊，請參 [閱本節](../../designing/using/overview.md#email-designer-interface)。
+1. 在文字區塊內按一下，按一下內容 **[!UICONTROL Personalize]** 相關工具列中的圖示並選取 **[!UICONTROL Insert personalization field]**。 如需「電子郵件設計器」介面的詳細資訊，請參 [閱本節](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface)。
 
    ![](assets/email_perso_field_1.png)
 
@@ -91,11 +91,11 @@ Adobe Campaign提供預先設定的內容區塊清單。 這些內容區塊是�
 
 >[!NOTE]
 >
->下圖顯示如何使用電子郵件設計工具插入 [內容區塊](../../designing/using/overview.md) 。
+>下圖顯示如何使用電子郵件設計工具插入 [內容區塊](../../designing/using/designing-content-in-adobe-campaign.md) 。
 
 若要新增內容區塊：
 
-1. 在文字區塊內按一下，按一下內容 **[!UICONTROL Personalize]** 相關工具列中的圖示並選取 **[!UICONTROL Insert content block]**。 如需「電子郵件設計器」介面的詳細資訊，請參 [閱本節](../../designing/using/overview.md#email-designer-interface)。
+1. 在文字區塊內按一下，按一下內容 **[!UICONTROL Personalize]** 相關工具列中的圖示並選取 **[!UICONTROL Insert content block]**。 如需「電子郵件設計器」介面的詳細資訊，請參 [閱本節](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface)。
 
    ![](assets/email_content_block_1.png)
 
@@ -182,7 +182,7 @@ Adobe Campaign提供預先設定的內容區塊清單。 這些內容區塊是�
 
 ## 個人化影像來源{#personalizing-an-image-source}
 
-Adobe Campaign可讓您根據特定標準或使用追蹤，個人化訊息中的一或多張影像。 這是透過將個人化欄位、內容區塊或動態內容插入影像來源來完成的。 要執行此操作：
+Adobe Campaign可讓您根據特定標準或使用追蹤，個人化訊息中的一或多張影像。 這是透過將個人化欄位、內容區塊或動態內容插入影像來源來完成的。 操作步驟：
 
 1. 將影像插入訊息內容，或選取已存在的影像。
 1. 在影像屬性浮動視窗中，勾選 **[!UICONTROL Enable personalization]** 選項。

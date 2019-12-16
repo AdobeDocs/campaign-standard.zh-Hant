@@ -12,7 +12,7 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 要檢索包含與協調值關聯的所有資訊的檔案，請執行以下三步驟：
 
-1. 執行 **POST** requests，以建立屬性 **type="access"的新請求**，請 [參閱Creating a new privacy request](#creating-a-privacy-request)。
+1. 執行 **POST** requests，以建立屬性 **type="access"的新請求**，請 [參閱Creating a new privacy request](../../api/using/creating-a-privacy-request.md)。
 
 1. 執行 **GET** 要求以擷取有關要求的資訊。
 

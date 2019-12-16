@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bfb5ee7dd97ff46dbe285270275f37f39d2b5231
+source-git-commit: 385b566cfd893f6522de66a1c8307a1546c915fa
 
 ---
 
@@ -32,6 +32,8 @@ source-git-commit: bfb5ee7dd97ff46dbe285270275f37f39d2b5231
 「設計電子郵件內容」區段已重新整理。 [閱讀更多資訊](../../designing/using/designing-content-in-adobe-campaign.md)
 
 Deliverability快速入門手冊已整合至核心檔案並更新。 [閱讀更多資訊](../../sending/using/about-deliverability.md)
+
+有關如何匯出／匯入自訂資源的快速入門手冊已整合至核心檔案。 [閱讀更多資訊](../../automating/using/exporting-importing-custom-resources.md)
 
 ## 檔案更新- 2019年11月 {#doc-updates-november-2019}
 
@@ -86,8 +88,6 @@ GDPR快速入門手冊已經過改進並充實。 它現在是包含GDPR和CCPA�
 「交易式傳訊」區段已使用最新的UI更新加以修改，包括使用電子郵件設計工具編輯內容。 [閱讀更多資訊](../../channels/using/event-transactional-messages.md)
 
 著陸頁面章節已重新整理。 此外，還新增了一個章節，詳細說明設定著陸頁面的步驟。 [閱讀更多資訊](../../channels/using/getting-started-with-landing-pages.md)
-
-Audience manager整合頁面已更新，以反映 **Declared ID變更** 。 [閱讀更多資訊](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 ## 檔案更新- 2019年9月 {#doc-updates-september-2019}
 

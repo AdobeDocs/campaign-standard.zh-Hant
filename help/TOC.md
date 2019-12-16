@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 38fa758c32d1c38bd4200a720fea7f3ab2f444f3
+source-git-commit: 13e351225fe664e2d6e42cda86f2d7fbe17aa48c
 
 ---
 
@@ -279,6 +279,7 @@ source-git-commit: 38fa758c32d1c38bd4200a720fea7f3ab2f444f3
       + [匯出日誌](automating/using/exporting-logs.md)
       + [管理套件](automating/using/managing-packages.md)
       + [匯出清單](automating/using/exporting-lists.md)
+      + [使用案例：匯出／匯入自訂資源](automating/using/exporting-importing-custom-resources.md)
    + 使用案例：工作流程 {#workflow-use-case}
       + [使用補救來建立傳送](automating/using/workflow-created-query-with-complement.md)
       + [在建立日期中建立傳送](automating/using/workflow-creation-date-query.md)

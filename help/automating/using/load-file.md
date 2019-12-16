@@ -1,24 +1,24 @@
 ---
 title: 載入檔案
 description: 「載入檔案」活動可讓您以單一結構化形式匯入資料，以便在Adobe Campaign中使用此資料。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: 69af12cc-6f82-4977-9f53-aa7bc26f5d7e
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 自動化
-content-type: 參考
-topic-tags: 資料管理活動
+audience: automating
+content-type: reference
+topic-tags: data-management-activities
 discoiquuid: 584ff893-9b1b-46c9-9628-714ab349ab88
 context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 
 ---
 
 
-# 載入檔案{#load-file}
+# 載入檔案 {#load-file}
 
 ## 說明 {#description}
 
@@ -80,7 +80,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    此標 **[!UICONTROL Column definition]** 簽可讓您精確指定每欄的資料結構，以匯入不含任何錯誤的資料（例如，使用null管理），並讓它符合Adobe Campaign資料庫中已存在的類型，以供日後作業使用。
 
-   例如，您可以變更欄的標籤，並選取其類型（字串、整數、日期等） 甚至指定錯誤處理。
+   例如，您可以變更欄的標籤，並選取其類型（字串、整數、日期等）甚至指定錯誤處理。
 
    有關詳細資訊，請參閱「列 [格式」部分](#column-format) 。
 

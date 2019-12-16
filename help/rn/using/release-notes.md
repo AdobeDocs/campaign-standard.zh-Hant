@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 32be3c4b3224d367fb0e7e5218fb2b30c2fdee34
+source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 
 ---
 
@@ -70,7 +70,7 @@ source-git-commit: 32be3c4b3224d367fb0e7e5218fb2b30c2fdee34
 * 當使用未知的上下文參數提交交易訊息事件時，Campaign現在會傳回"400"錯誤訊息，而非"500"。 (CAMP-28632)
 * 動態報 **表中已新增** 「排除」校樣區段。 現在預設會選取此區段來篩選報表。 [閱讀更多資訊](../../reporting/using/list-of-components-.md#segments)
 * 「 **訊息過期** 」選項已新增至推播通知。 它可讓您指定訊息不再由Apple(APNS)或Android(FCM)傳送的到期日。 [閱讀更多資訊](../../channels/using/customizing-a-push-notification.md#add-expiration-date)
-* 已對「載入檔案」活 **動進行改** 進：工作流程記錄檔已更清楚、更詳細地說明在無法載入檔案時發生的錯誤。 啟用「保留檔案中的拒 **絕」選項時產生的去話轉場** ，已重新命 **名為「拒絕」**。 [閱讀更多資訊](../../automating/using/load-file.md#load-files)
+* 已對「載入檔案」活 **動進行改** 進：工作流程記錄檔已更清楚、更詳細地說明在無法載入檔案時發生的錯誤。 啟用「保留檔案中的拒 **絕」選項時產生的去話轉場** ，已重新命 **名為「拒絕」**。 [閱讀更多資訊](../../automating/using/load-file.md)
 * 已將多語言相關記錄檔新增至傳送記錄檔，以更清楚瞭解因已上傳CSV檔案中缺少語言而造成的傳送失敗。
 
 ### 安全性增強功能 {#security-enhancements-3}
@@ -469,7 +469,7 @@ source-git-commit: 32be3c4b3224d367fb0e7e5218fb2b30c2fdee34
 
 * 我們的全新入門體驗將協助您更快開始建立電子郵件，並讓您更輕鬆地存取檔案和教學課程。
 
-   如需詳細資訊，請參閱詳 [細檔案](../../designing/using/overview.md#email-designer-home-page)。
+   如需詳細資訊，請參閱詳 [細檔案](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page)。
 
 * 您現在可以根據需求，靈活設定欄數和寬度。
 
@@ -548,7 +548,7 @@ source-git-commit: 32be3c4b3224d367fb0e7e5218fb2b30c2fdee34
      <li> 能夠在準 <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">備時自動從URL擷取內容</a> </li> 
      <li> 完全 <a href="../../designing/using/using-reusable-content.md#content-templates">符合現成可用的內容範本</a>。 </li> 
     </ul> 
-    <p>如需詳細資訊，請參 <a href="../../designing/using/overview.md">閱詳細說明</a><a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html">檔案和操作視訊</a>。 以下列出改進和修正。</p><p>因此，舊版電子郵件內容編輯器現在已不再提供。 For more information, refer to this <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">page</a>.</p> </td> 
+    <p>如需詳細資訊，請參 <a href="../../designing/using/designing-content-in-adobe-campaign.md">閱詳細說明</a><a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html">檔案和操作視訊</a>。 以下列出改進和修正。</p><p>因此，舊版電子郵件內容編輯器現在已不再提供。 For more information, refer to this <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">page</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> 交易電子郵件中的產品清單<br /> </td> 

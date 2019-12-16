@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 385b566cfd893f6522de66a1c8307a1546c915fa
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
@@ -143,7 +143,7 @@ GDPR快速入門手冊已經過改進並充實。 它現在是包含GDPR和CCPA�
 
 已新增警告，說明額外的空白字元如何影響電子郵件內容的版面配置。 [閱讀更多資訊](../../designing/using/personalization.md#creating-custom-content-blocks)
 
-新增了有關「電子郵件設計器」的建議更新章節。 [閱讀更多資訊](../../designing/using/overview.md#email-designer-updates)
+新增了有關「電子郵件設計器」的建議更新章節。 [閱讀更多資訊](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-updates)
 
 <!-- A new section on how to send proofs using real customer data has been added. [Read more](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs-using-additional-data) -->
 
@@ -247,7 +247,7 @@ Dreamweaver整合區段已更新並改良。 [閱讀更多資訊](../../designin
 
 ### 此版本隨附的其他檔案更新 {#other-documentation-updates-coming-with-the-release-1}
 
-「編輯電子郵件內容」一章中已新增建立電子郵件內容的入門體驗，以及「電子郵件設計人員」的其他增強功能。 [閱讀更多資訊](../../designing/using/overview.md#email-designer-home-page)
+「編輯電子郵件內容」一章中已新增建立電子郵件內容的入門體驗，以及「電子郵件設計人員」的其他增強功能。 [閱讀更多資訊](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page)
 
 新增了「交易傳訊」限制的章節。 [閱讀更多資訊](../../channels/using/about-transactional-messaging.md#transactional-messaging-limitations)
 
@@ -293,7 +293,7 @@ Dreamweaver整合區段已更新並改良。 [閱讀更多資訊](../../designin
 
 ### 發行中包含的新功能 {#new-capabilities-included-in-the-release-2}
 
-電子郵件設計人員一般可用性- [閱讀更多](../../designing/using/overview.md)
+電子郵件設計人員一般可用性- [閱讀更多](../../designing/using/designing-content-in-adobe-campaign.md)
 
 交易電子郵件中的產品清單——詳 [細資訊](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)
 
@@ -303,7 +303,7 @@ Dreamweaver整合區段已更新並改良。 [閱讀更多資訊](../../designin
 
 ### 此版本隨附的其他檔案更新 {#other-documentation-updates-coming-with-the-release-2}
 
-「設計內容」指南已更新，以反映電子郵件設計人員的一般可用性和舊版電子郵件內容編輯器的淘汰。 [閱讀更多資訊](../../designing/using/overview.md)
+「設計內容」指南已更新，以反映電子郵件設計人員的一般可用性和舊版電子郵件內容編輯器的淘汰。 [閱讀更多資訊](../../designing/using/designing-content-in-adobe-campaign.md)
 
 更新應 [用程式內](../../channels/using/about-in-app-messaging.md) 和推 [播通知檔案](../../channels/using/about-push-notifications.md) 。
 
@@ -359,7 +359,7 @@ Adobe Launch整合行動應用程式（測試版）-閱 [讀更多](../../admini
 
 更新Experience Manager與Adobe Campaign檔案的整合。 [閱讀更多資訊](../../reporting/using/creating-a-custom-profile-dimension.md)
 
-「設計內容」指南已完全重新整理，尤其是提供兩個編輯器，讓您設計電子郵件內容。 [閱讀更多資訊](../../designing/using/overview.md)
+「設計內容」指南已完全重新整理，尤其是提供兩個編輯器，讓您設計電子郵件內容。 [閱讀更多資訊](../../designing/using/designing-content-in-adobe-campaign.md)
 
 瞭解如何從您現有的電子郵件中建立片段，讓Creative SDK完全可編輯外部內容。 [閱讀更多資訊](../../designing/using/designing-from-scratch.md)
 
@@ -421,7 +421,7 @@ GDPR:核心服務整合——詳 [細資訊](https://docs.campaign.adobe.com/doc
 
 已更新與觸發器整合的支援Analytics SKU清單。 [閱讀更多資訊](../../integrating/using/configuring-triggers-in-experience-cloud.md#configuring-solutions-and-services)
 
-內容編輯器檔案的某些頁面已合併，以提供更完整的檢視，以檢視可用的不同動作。 [閱讀更多資訊](../../designing/using/overview.md)
+內容編輯器檔案的某些頁面已合併，以提供更完整的檢視，以檢視可用的不同動作。 [閱讀更多資訊](../../designing/using/designing-content-in-adobe-campaign.md)
 
 ## 發行版本18.3 - 2018年3月 {#release-18-3---march-2018}
 
@@ -429,7 +429,7 @@ GDPR:核心服務整合——詳 [細資訊](https://docs.campaign.adobe.com/doc
 
 歐盟通用資料保護規則(GDPR)-詳 [細內容](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)
 
-適用於電子郵件的Creative Designer —— 閱 [讀更多](../../designing/using/overview.md)
+適用於電子郵件的Creative Designer —— 閱 [讀更多](../../designing/using/designing-content-in-adobe-campaign.md)
 
 多語言推播傳送- [閱讀更多](../../channels/using/creating-a-multilingual-push-notification.md)
 
@@ -443,7 +443,7 @@ GDPR API會重新分組允許自動處理GDPR要求的功能。 [閱讀更多資
 
 「 [Configuring transactional messaging](../../administration/using/configuring-transactional-messaging.md) 」(設定事務性訊息 [)區段已重新整理，](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) 並新增了逐步使用案例。
 
-新增技術，瞭解如何產生多語言CSV檔案以用於推播通知。 [閱讀更多資訊](http://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html)。
+新增技術，瞭解如何產生多語言CSV檔案以用於推播通知。 [閱讀更多資訊](https://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html)。
 
 已新增有關「更新直 **接郵件隔離」和傳送記錄匯入範本** 的資訊。 [閱讀更多資訊](../../automating/using/defining-import-templates.md)
 
@@ -751,7 +751,7 @@ URL變更：人員核心服務——閱 [讀更多](../../integrating/using/abou
 
 使用API:已 [新增API擴充功能使用案例](../../developing/using/about-extending-the-api.md) 。 另請參閱 [API檔案](../../api/using/about-campaign-standard-apis.md)。
 
-促銷活動錯誤訊息：存取Campaign v6和Standard中的錯誤訊息完整清單，並依版本和語言篩選。 [閱讀更多資訊](http://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+促銷活動錯誤訊息：存取Campaign v6和Standard中的錯誤訊息完整清單，並依版本和語言篩選。 [閱讀更多資訊](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
 多品牌使用案例——閱 [讀更多](../../administration/using/branding.md)
 

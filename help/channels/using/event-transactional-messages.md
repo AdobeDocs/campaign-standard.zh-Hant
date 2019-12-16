@@ -13,7 +13,7 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -121,7 +121,7 @@ source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 >[!CAUTION]
 >
->只有在通過「電子郵件設計器」介面編輯事務性電子郵件消息時，產品 [清單才可用](../../designing/using/overview.md#email-designer) 。
+>只有在通過「電子郵件設計器」介面編輯事務性電子郵件消息時，產品 [清單才可用](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface) 。
 
 要在事務性消息中添加放棄的產品清單，請遵循以下步驟。
 

@@ -12,7 +12,7 @@ discoiquuid: eb24f4ea-325f-433a-91a0-c45906320bcb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b5dc0078bdc48a4c5c1ffc397f51db9222662477
+source-git-commit: 7e887fff76660dcb0369d4222e1ab3ac391c3a2d
 
 ---
 
@@ -47,7 +47,7 @@ Audience Manager(AAM)或People核心服務整合可讓您在Adobe Campaign中匯
   </tr> 
   <tr> 
    <td> <strong>AAM或人員服務</strong><br /> </td> 
-   <td> 範例：Adobe Audience Manager </td> 
+   <td> 範例：Adobe Audience Manager。 請務必向布建團隊提及您是否擁有Audience manager授權。</td> 
   </tr> 
   <tr> 
    <td> <strong>宣告的ID或訪客ID</strong><br /> </td> 
@@ -59,18 +59,6 @@ Audience Manager(AAM)或People核心服務整合可讓您在Adobe Campaign中匯
   </tr> 
  </tbody> 
 </table>
-
-*適 **[!UICONTROL Declared ID]** 用於所有共用的觀眾整合。 請注意，如果您使用「人員核心服務」，則使用的 **[!UICONTROL Declared ID]** 情況可能會隨解決方案而改變：
-
-* 如果觀眾是透過People核心服務從Adobe Campaign分享到Adobe Target，則可 **[!UICONTROL Declared ID]** 以布建觀眾。
-* 如果觀眾是透過People核心服務從Adobe Campaign分享到Ad Cloud，您將無法使用布建來回填 **[!UICONTROL Declared ID]** 觀眾的歷史回填。 在建立觀眾時，也會有延遲。
-* 如果觀眾是透過People Core Service從Adobe Analytics分享到Adobe Campaign,Adobe Campaign中將不會填入區段 **[!UICONTROL Declared ID]**。
-
->[!NOTE]
->
->如果您使用Adobe Audience manager而非People Core Service，則所有 **[!UICONTROL Declared ID]** 案例都適用。
-
-You can raise a request for **[!UICONTROL Declared ID]** provisioning to the following address: [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com).
 
 ## 在Adobe Campaign中設定整合 {#configuring-the-integration-in-adobe-campaign}
 
@@ -132,7 +120,7 @@ You can raise a request for **[!UICONTROL Declared ID]** provisioning to the fol
 
 >[!NOTE]
 >
->如果 **[!UICONTROL AAM Destination ID]** 您要設定促銷活動——觸發程式整合的共用資料來源，則 [不需要此欄位](../../integrating/using/configuring-triggers-in-experience-cloud.md)。 **[!UICONTROL Priority]** 只有在設定「觸發器——促銷活動」整合時才需要。 優先順序決定要先設定哪個資料來源。 優先順序可以是任何數字，例如1或100。 優先順序越高，協調期間的優先順序越高。
+>如果 **[!UICONTROL AAM Destination ID]** 您要設定促銷活動——觸發器整合的共用資料來源，則 [不需要此欄位](../../integrating/using/configuring-triggers-in-experience-cloud.md)。 **[!UICONTROL Priority]** 只有在設定「觸發器——促銷活動」整合時才需要。 優先順序決定要先設定哪個資料來源。 優先順序可以是任何數字，例如1或100。 優先順序越高，協調期間的優先順序越高。
 
 ### 步驟3:設定促銷活動追蹤伺服器 {#step-3--configure-campaign-tracking-server}
 

@@ -1,18 +1,18 @@
 ---
 title: 新增面板
 description: 動態報表可讓您新增面板，以根據選擇的時段更好地篩選資料。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: 8e76e837-5efc-4250-8192-dee1a0bd62fe
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 報告
-content-type: 參考
-topic-tags: 自訂報表
+audience: reporting
+content-type: reference
+topic-tags: customizing-reports
 discoiquuid: f4e1e676-5ca2-4a58-96d7-d378ff803710
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
 
 ---
 
@@ -51,7 +51,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    ![](assets/dynamic_report_panel_2.png)
 
-1. 從促銷活動19.4版開始， **[!UICONTROL Exclude proof]** 預設已選取。 如有需要，您可以將其中一個標籤拖放至頂 **[!UICONTROL Segments]** 端列 **[!UICONTROL Components]** 來變更它。
+1. 預 **[!UICONTROL Exclude proof]** 設已選取區段。 如有需要，您可以將其中一個標籤拖放至頂 **[!UICONTROL Segments]** 端列 **[!UICONTROL Components]** 來變更它。
 
    ![](assets/dynamic_report_panel_3.png)
 

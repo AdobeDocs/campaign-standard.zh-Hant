@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0ebe0ac4b9d9ba9c24e056cc7e2745e9f69e2004
+source-git-commit: 32be3c4b3224d367fb0e7e5218fb2b30c2fdee34
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: 0ebe0ac4b9d9ba9c24e056cc7e2745e9f69e2004
 * [控制面板](https://helpx.adobe.com/campaign/kb/control-panel.html)
 * 舊版注意事項： [2018](../../rn/using/release-notes-2018.md)、 [2017](../../rn/using/release-notes-2017.md)、 [2015-2016](../../rn/using/release-notes-2015-2016.md)
 
-## 發行版本19.4 - 2019年10月 {#release-19-4---october-2019}
+## 發行版本19.4 - 2019年12月 {#release-19-4---october-2019}
 
 ### What's new? {#what-s-new-5}
 
@@ -81,6 +81,8 @@ source-git-commit: 0ebe0ac4b9d9ba9c24e056cc7e2745e9f69e2004
 
 ### 電子郵件設計人員增強功能 {#email-designer-enhancements-4}
 
+* 修正在電子郵件中插入時，無法追蹤取消訂閱、訂閱和登陸頁面連結的問題。 (CAMP-37809)
+* 修正建立新電子郵件和選取範本時，可能會導致錯誤的問題。 (CAMP-38000)
 * 使用電子郵件設計工具編輯連結時，您現在可以使用「底線」 **連結選項** 。 此外， **Target** 屬性已新增，預設值設為 **None**。 [閱讀更多資訊](../../designing/using/styles.md#about-styling-links)
 * 修正電子郵件內文文字元件中連結的色彩問題。 (CAMP-37330)
 * 修正刪除影像時無法移除相關連結的問題。 (CAMP-37234)
@@ -546,7 +548,7 @@ source-git-commit: 0ebe0ac4b9d9ba9c24e056cc7e2745e9f69e2004
      <li> 能夠在準 <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">備時自動從URL擷取內容</a> </li> 
      <li> 完全 <a href="../../designing/using/using-reusable-content.md#content-templates">符合現成可用的內容範本</a>。 </li> 
     </ul> 
-    <p>如需詳細資訊，請參 <a href="../../designing/using/overview.md">閱詳細說明</a><a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html">檔案和操作視訊</a>。 以下列出改進和修正。</p><p>因此，舊版電子郵件內容編輯器現在已不再提供。  如需詳細資訊，請參閱本 <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">頁</a>。</p> </td> 
+    <p>如需詳細資訊，請參 <a href="../../designing/using/overview.md">閱詳細說明</a><a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html">檔案和操作視訊</a>。 以下列出改進和修正。</p><p>因此，舊版電子郵件內容編輯器現在已不再提供。 For more information, refer to this <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">page</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> 交易電子郵件中的產品清單<br /> </td> 

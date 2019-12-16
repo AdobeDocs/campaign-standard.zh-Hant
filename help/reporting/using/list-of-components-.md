@@ -1,18 +1,18 @@
 ---
 title: '元件清單 '
 description: 在這裡尋找動態報表中可用的每個元件清單及其定義。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: a2403806-8df4-4bb1-bac2-2689dc584ae0
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 報告
-content-type: 參考
+audience: reporting
+content-type: reference
 topic-tags: about-reporting
 discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e7281dff9be97ededaa724552e64bffda3f26fa2
+source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
 
 ---
 
@@ -40,7 +40,7 @@ source-git-commit: e7281dff9be97ededaa724552e64bffda3f26fa2
    <td> 開啟或點按訊息的瀏覽器。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 促銷活動<br /> </td> 
+   <td> 行銷活動<br /> </td> 
    <td> 促銷活動的標籤和ID。<br /> </td> 
   </tr> 
   <tr> 
@@ -459,7 +459,7 @@ source-git-commit: e7281dff9be97ededaa724552e64bffda3f26fa2
   </tr> 
     <tr> 
    <td> 排除證明<br /> </td> 
-   <td> 從報表中排除校樣（僅限從Campaign 19.4版開始）<br /> </td> 
+   <td> 從報表中排除校樣<br /> </td> 
   </tr> 
  </tbody> 
 </table>

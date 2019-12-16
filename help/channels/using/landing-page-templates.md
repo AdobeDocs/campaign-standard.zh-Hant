@@ -1,19 +1,19 @@
 ---
 title: 著陸頁面範本
 description: 進一步瞭解登陸頁面範本。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: b316bf47-7d98-46fa-ab4f-67ff50de8095
-contentOwner: 勒梅特
+contentOwner: lemaitre
 products: SG_CAMPAIGN/STANDARD
-audience: 頻道
-content-type: 參考
-topic-tags: 著陸頁面
+audience: channels
+content-type: reference
+topic-tags: landing-pages
 discoiquuid: ca8d1698-6e8a-4f5a-b017-74a152e14286
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
@@ -45,4 +45,4 @@ Campaign隨附一組內建的登陸頁面範本：
 <input id="email" type="email" name="email"/>
 ```
 
-「類型」屬性的正式清單可在下列位址取得： [http://www.w3schools.com/tags/att_input_type.asp](http://www.w3schools.com/tags/att_input_type.asp)
+「類型」屬性的正式清單可在下列位址取得： [https://www.w3schools.com/tags/att_input_type.asp](https://www.w3schools.com/tags/att_input_type.asp)

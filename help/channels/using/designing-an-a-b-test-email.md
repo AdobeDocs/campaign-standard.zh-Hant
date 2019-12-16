@@ -13,7 +13,7 @@ context-tags: delivery,abTesting,back;deliveryCreation,wizard;delivery,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -57,7 +57,7 @@ Adobe Campaign中的A/B測試功能可讓您定義兩到三種電子郵件變體
       測試必須至少一小時，才能收集所有追蹤資料並正確考慮以選擇成功變數。
    ![](assets/ab_parameters.png)
 
-1. 定義A/B測試參數後，請傳遞至精靈的下一步，並定義電子郵件內容。 根據您選擇的範本，您可以定義多個主題、數個傳送者名稱或數個不同的內容。 使用轉盤在元素的不同變體之間導覽。 如需詳細資訊，請參閱內容 [編輯器一節](../../designing/using/overview.md) 。
+1. 定義A/B測試參數後，請傳遞至精靈的下一步，並定義電子郵件內容。 根據您選擇的範本，您可以定義多個主題、數個傳送者名稱或數個不同的內容。 使用轉盤在元素的不同變體之間導覽。 如需詳細資訊，請參閱內容 [編輯器一節](../../designing/using/designing-content-in-adobe-campaign.md) 。
 
    ![](assets/create_ab_testing2.png)
 

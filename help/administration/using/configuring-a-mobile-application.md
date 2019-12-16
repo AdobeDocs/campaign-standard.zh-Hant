@@ -1,25 +1,25 @@
 ---
 title: 設定行動應用程式
 description: 瞭解如何設定Adobe Campaign，以使用SDK V4或Experience Platform SDK傳送推播通知或應用程式內訊息。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: 63e1476a-7875-4f48-ba9e-97f1a0007e42
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 管理
-content-type: 參考
-topic-tags: 配置通道
+audience: administration
+content-type: reference
+topic-tags: configuring-channels
 discoiquuid: 2a14500f-5ede-4131-8b1a-b7fd65b7e3aa
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: bdec2b6937be17841be6254c6907556dddf1df40
 
 ---
 
 
 # 設定行動應用程式{#configuring-a-mobile-application}
 
-在行動應用程式上，會收到推播通知或應用程式內訊息，這些應用程式首先需要在Adobe Mobile services中設定，視您要使用的頻道而定。
+在行動應用程式上，會收到推播通知或應用程式內訊息，這些應用程式首先需要在Adobe Campaign standard中設定，視您要使用的頻道而定。
 
 * 若要傳送應用程式內訊息和推播通知，您的行動應用程式必須在Adobe Campaign中運用Adobe Experience Platform SDK來設定。 請參 [閱「使用Adobe Experience Platform SDK](#using-adobe-experience-platform-sdk)」。
 

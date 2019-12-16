@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 17264484102878d4eb58c0fe9d82d7d4f091179b
+source-git-commit: 59007b6379bc3c0656cc0a3e5d11e15ce15f805a
 
 ---
 
@@ -144,7 +144,7 @@ source-git-commit: 17264484102878d4eb58c0fe9d82d7d4f091179b
 
 ### 範例：調整垂直對齊和間距 {#example--adjusting-vertical-alignment-and-padding}
 
-要在由三列組成的結構元件中調整填充和垂直對齊。 若要這麼做，請依照下列步驟進行：
+要在由三列組成的結構元件中調整填充和垂直對齊。 要執行此操作，請遵循下列步驟：
 
 1. 直接在電子郵件中或使用左側元件面板中的結構樹選擇結構 **元件**。
 1. 從內容 **相關工具**，按一 **[!UICONTROL Select a column]** 下並選擇要編輯的工具列。 也可以從結構樹中選取它。
@@ -172,10 +172,6 @@ source-git-commit: 17264484102878d4eb58c0fe9d82d7d4f091179b
 1. 儲存您的變更。
 
 ## 樣式連結 {#about-styling-links}
-
->[!NOTE]
->
->此功能將從Campaign Standard 19.4版開始提供。
 
 您可以在電子郵件設計器中為連結加下划線，並選擇其顏色和目標。
 

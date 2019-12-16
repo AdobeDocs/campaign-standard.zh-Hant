@@ -1,19 +1,19 @@
 ---
 title: 定義直接郵件閱聽眾
 description: 瞭解如何定義直接郵件傳送的目標。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: f843e368-5c07-4b53-8943-46f7bf45b62b
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 頻道
-content-type: 參考
-topic-tags: 直接郵件
+audience: channels
+content-type: reference
+topic-tags: direct-mail
 discoiquuid: f993d1b6-4b9a-4f95-81fc-60c126211bd2
 context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 32bcfd57dfe881fa07c8d8e5700d0ae3996a78ec
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 對於直接郵件，目標配置檔案是將包含在提取檔案中的配置檔案，您將將其發送給直接郵件提供者。
 
-對於每個目標配置檔案，抽取檔案中將添加一行新行。 每個收件者將包含的描述檔資訊量，在「定義提取」 [畫面中定義](#defining-the-extraction) 。
+對於每個目標配置檔案，抽取檔案中將添加一行新行。 每個收件者將包含的描述檔資訊量，在「定義提取」 [畫面中定義](../../channels/using/defining-the-direct-mail-content.md#defining-the-extraction) 。
 
 >[!CAUTION]
 >

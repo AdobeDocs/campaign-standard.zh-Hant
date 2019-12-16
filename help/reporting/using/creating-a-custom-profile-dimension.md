@@ -1,18 +1,18 @@
 ---
 title: 建立自訂設定檔維度
 description: 瞭解如何根據自訂描述檔資料建立自訂描述檔維度。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: f75e005b-5328-4c98-9e78-51d54fd0e246
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 報告
-content-type: 參考
-topic-tags: 自訂報表
+audience: reporting
+content-type: reference
+topic-tags: customizing-reports
 discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -106,7 +106,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    ![](assets/custom_profile_10.png)
 
-   只有在接受PII視窗時，此選項才可用。 For more on this, refer to this [page](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
+   此選項僅在接受PII視窗時才可用。 For more on this, refer to this [page](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
 
 1. 按一 **[!UICONTROL Add]** 下，然後儲存自訂資源。
 1. 由於自訂資源已修改，因此我們需要發佈它以實作新的變更。
@@ -137,7 +137,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
    ![](assets/custom_profile_17.png)
 
 1. 按一 **[!UICONTROL Confirm]** 下，然後在完成篩選後按一 **[!UICONTROL Next]**&#x200B;下。
-1. 定義並個人化訊息內容、傳送者名稱和主旨。 如需建立電子郵件的詳細資訊，請參閱本 [頁](../../designing/using/overview.md)。
+1. 定義並個人化訊息內容、傳送者名稱和主旨。 如需建立電子郵件的詳細資訊，請參閱本 [頁](../../designing/using/designing-content-in-adobe-campaign.md)。
 
    然後，按一下 **[!UICONTROL Create]**。
 

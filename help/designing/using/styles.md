@@ -12,18 +12,17 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 59007b6379bc3c0656cc0a3e5d11e15ce15f805a
+source-git-commit: ddbf8ea62c4f8bba4ea53dc1daa7064704c97db2
 
 ---
 
 
 # 管理樣式 {#managing-styles}
 
-## 編輯元素 {#editing-an-element}
 
 在「電子郵件設計器」中，選取元素時，窗格中會顯示特定於所選內容類型的幾個選 **[!UICONTROL Settings]** 項。 您可以使用這些選項輕鬆變更電子郵件的樣式。
 
-### 選取元素 {#selecting-an-element}
+## 選取元素 {#selecting-an-element}
 
 要在「電子郵件設計器」介面中選擇元素，您可以：
 

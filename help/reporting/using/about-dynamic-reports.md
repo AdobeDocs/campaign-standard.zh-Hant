@@ -1,18 +1,18 @@
 ---
 title: 關於動態報告
 description: 使用動態報表，將變數和維度拖放至自由格式環境，並分析促銷活動的成功。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 報告
-content-type: 參考
+audience: reporting
+content-type: reference
 topic-tags: about-reporting
 discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
 
 ---
 
@@ -63,10 +63,6 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ## 動態報告使用協定 {#dynamic-reporting-usage-agreement}
 
->[!NOTE]
->
-> 從Campaign Standard 19.4版開始，動態報表的同意彈出式選單已更新為包含Adobe Campaign Standard和Microsoft Dynamics 365整合。
-
 動態報告使用合約的目的，是做為資料處理的快顯同意。 依預設，合約僅可見，且只能由指派有管理權限的使用者接受或拒絕。
 
 有三個選項可供使用：
@@ -92,7 +88,5 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 這個選項不是最終選項，您隨時都可以在 **[!UICONTROL Enable PII data to be transferred to US region to use reporting on Profile data]** &gt; **[!UICONTROL Administration]** &gt; **[!UICONTROL Application Settings]** 中變更 **[!UICONTROL Options]**。
 
 值可隨時變更。 值1對應於 **[!UICONTROL Ask me later]**、2 **[!UICONTROL Decline]** 和3 **[!UICONTROL Accept]**。
-
-請注意，對於Adobe Campaign Standard 19.4之前的版本，值-1對應 **[!UICONTROL Ask me later]**&#x200B;於、0 **[!UICONTROL Decline]** 和1 **[!UICONTROL Accept]**。
 
 ![](assets/pii_window_2.png)

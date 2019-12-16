@@ -1,18 +1,18 @@
 ---
 title: 預覽訊息
 description: 瞭解如何在內容編輯器或電子郵件設計工具中預覽訊息。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: 8dffca95-59fe-4e9b-93cb-73b33ffde020
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 發送
-content-type: 參考
-topic-tags: 準備和測試訊息
+audience: sending
+content-type: reference
+topic-tags: preparing-and-testing-messages
 discoiquuid: 8428f8ac-8ef5-46cd-9d93-10ec0ecd3ded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 在視窗中新增測試設定檔 **[!UICONTROL Audience]** 後，您可以預覽訊息，以檢查其個人化狀況，以及收件者如何看到您的傳送。
 
-1. 在「電子郵 [件設計器](../../designing/using/overview.md)」中，按一下 **[!UICONTROL Preview]** 按鈕。
+1. 在「電子郵 [件設計器](../../designing/using/designing-content-in-adobe-campaign.md)」中，按一下 **[!UICONTROL Preview]** 按鈕。
 
    ![](assets/sending_preview.png)
 

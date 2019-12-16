@@ -1,19 +1,19 @@
 ---
 title: 建立新範本
 description: 瞭解如何從現有的現成可用活動範本建立新範本，以用於電子郵件、簡訊、推播通知傳送等。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: 26e368ae-06e1-4c11-9899-c23cc727d398
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: start
-content-type: 參考
-topic-tags: 管理模板
+content-type: reference
+topic-tags: managing-templates
 discoiquuid: d3e37141-1170-4332-a46c-66a847ed3531
 context-tags: campaignTemplate,overview;deliveryTemplate,overview;programTemplate,overview;workflowTemplate,overview;importTemplate,overview;
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -39,5 +39,5 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 **相關主題：**
 
 * [品牌推廣](../../administration/using/branding.md)
-* [設計內容](../../designing/using/overview.md)
+* [設計內容](../../designing/using/designing-content-in-adobe-campaign.md)
 

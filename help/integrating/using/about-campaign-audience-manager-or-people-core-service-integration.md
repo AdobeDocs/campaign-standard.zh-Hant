@@ -1,18 +1,18 @@
 ---
 title: 關於 Campaign-Audience Manager 或 People 核心服務整合
 description: 透過Audience Manager / People核心服務整合，您可以在不同的Adobe Experience cloud解決方案中共用受眾或細分。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: 39e3c78e-cccd-4823-afe9-abc7f8aef034
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 整合
-content-type: 參考
-topic-tags: 使用促銷活動與觀眾管理員或人員核心服務
+audience: integrating
+content-type: reference
+topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 discoiquuid: bf718329-f181-46f7-80a2-b525a8dee46d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 0062079addfbcd577faa1b16096f4588a05a8f78
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Campaign可讓您使用不同的Adobe Experience cloud應用程式來交�
 整合支援兩種Adobe Experience Cloud ID:
 
 * **訪客ID**:這種ID類型可讓您協調Adobe Experience cloud訪客與Adobe Campaign設定檔。
-* **宣告的ID**:此類型的ID可讓您協調任何類型的資料與Adobe Campaign資料庫中的設定檔。 此整合支援一般宣告的ID、雜湊的宣告ID和加密的宣告ID。 若要進一步了 **[!UICONTROL Declared ID]** 解有效性，請參 [閱本頁](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)。
+* **宣告的ID**:此類型的ID可讓您協調任何類型的資料與Adobe Campaign資料庫中的設定檔。 此整合支援一般宣告的ID、雜湊的宣告ID和加密的宣告ID。
 
    加密可讓您透過指定加密演算法，使用宣告的ID在資料來源（例如PII）中共用加密資料。
 

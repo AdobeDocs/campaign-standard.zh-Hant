@@ -12,7 +12,7 @@ discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
@@ -39,7 +39,7 @@ Adobe Campaign可即時建立豐富的客戶個人檔案，讓您在客戶偏好
 
 >[!CAUTION]
 >
->您必須始終遵守 [Adobe Campaign可接受的使用政策](http://www.adobe.com/legal/terms/aup.html)。
+>您必須始終遵守 [Adobe Campaign可接受的使用政策](https://www.adobe.com/legal/terms/aup.html)。
 
 GDPR 是歐盟 (EU) 最新制定的一項隱私法規，用於協調和順應時代更新資料保護需求。GDPR 適用於所持有資料的主體居住於歐盟的 Adobe Campaign 客戶。除了Adobe Campaign中已提供的隱私權功能（包括同意管理、資料保留設定和使用者角色）外，我們還將此機會作為資料處理者加入其他功能，以協助您做好準備，以做為特定GDPR要求的資料掌控者。
 

@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d0d5b19ad272c406f1081ed364193c7fb793de07
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: d0d5b19ad272c406f1081ed364193c7fb793de07
 
 ### 內容範本 {#content-templates}
 
-您可以管理「電子郵件設計器」首頁標籤 **[!UICONTROL Templates]** 中提供的 [HTML內容](../../designing/using/overview.md) 。 不同的範本呈現多種元素的組合。 例如，「羽化」範本有邊界，而「Astro」範本沒有邊界。 如需詳細資訊，請參閱「內 [容範本」](#content-templates)。
+您可以管理「電子郵件設計器」首頁標籤 **[!UICONTROL Templates]** 中提供的 [HTML內容](../../designing/using/designing-content-in-adobe-campaign.md) 。 不同的範本呈現多種元素的組合。 例如，「羽化」範本有邊界，而「Astro」範本沒有邊界。 如需詳細資訊，請參閱「內 [容範本」](#content-templates)。
 
 ![](assets/template_content.png)
 
@@ -52,7 +52,7 @@ source-git-commit: d0d5b19ad272c406f1081ed364193c7fb793de07
 
    ![](assets/email_designer_create-template_thumbnail.png)
 
-   此縮圖將顯示在「電子郵 **[!UICONTROL Templates]** 件設計器」主 [頁的頁籤中](../../designing/using/overview.md#about-the-email-designer) 。
+   此縮圖將顯示在「電子郵 **[!UICONTROL Templates]** 件設計器」主 [頁的頁籤中](../../designing/using/designing-content-in-adobe-campaign.md) 。
 
 1. 關閉標 **[!UICONTROL Properties]** 簽以返回主工作區。
 1. 新增可視需要自訂的結構元件和內容元件。
@@ -61,7 +61,7 @@ source-git-commit: d0d5b19ad272c406f1081ed364193c7fb793de07
    > 您無法在內容範本中插入個人化欄位或條件式內容。
 1. 編輯完成後，儲存範本。
 
-此範本現在可用於使用電子郵件設計工具建立的任何電子郵件。 從「電子郵件設計 **[!UICONTROL Templates]** 器」首頁的選 [項卡中選擇](../../designing/using/overview.md#about-the-email-designer) 。
+此範本現在可用於使用電子郵件設計工具建立的任何電子郵件。 從「電子郵件設計 **[!UICONTROL Templates]** 器」首頁的選 [項卡中選擇](../../designing/using/designing-content-in-adobe-campaign.md) 。
 
 ![](assets/content_template_new.png)
 
@@ -83,7 +83,7 @@ source-git-commit: d0d5b19ad272c406f1081ed364193c7fb793de07
 
 1. 若要尋找您剛建立的範本，請前往 **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates & fragments]**。
 
-1. 若要使用新範本，請從「電子郵件設計 **[!UICONTROL Templates]** 器」首頁的標 [簽中選取它](../../designing/using/overview.md#about-the-email-designer) 。
+1. 若要使用新範本，請從「電子郵件設計 **[!UICONTROL Templates]** 器」首頁的標 [簽中選取它](../../designing/using/designing-content-in-adobe-campaign.md) 。
 
    ![](assets/content_template_new.png)
 
@@ -170,7 +170,7 @@ source-git-commit: d0d5b19ad272c406f1081ed364193c7fb793de07
 1. 請針對您需要新增至電子郵件的所有元素重複此程式。
 1. 儲存您的電子郵件。
 
-現在，您的電子郵件結構已填入，您可以編輯每個內容元素的樣式。 請參 [閱編輯元素](../../designing/using/styles.md#editing-an-element)。
+現在，您的電子郵件結構已填入，您可以編輯每個內容元素的樣式。 請參 [閱編輯元素](../../designing/using/styles.md)。
 
 >[!NOTE]
 >
@@ -271,7 +271,7 @@ To save as a fragment some email content that you created, follow the steps belo
 
 使用電子郵件設計工具，為每個可重複使用的區段建立片段。 在此範例中，您將建立兩個片段：一個用於頁首，一個用於頁尾。 然後，您可以將現有內容的相關部分複製到這些片段中。
 
-若要這麼做，請依照下列步驟進行：
+要執行此操作，請遵循下列步驟：
 
 1. 在Adobe Campaign中，前往 **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates & fragments]** 並建立頁首的片段。 如需詳細資訊，請參 [閱建立內容片段](#creating-a-content-fragment)。
 1. 在片段中添加所需數量的結構元件。

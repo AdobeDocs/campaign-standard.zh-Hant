@@ -13,7 +13,7 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f0580e1ab75d4250bfb1cb801ff08b31b91cdc5a
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: f0580e1ab75d4250bfb1cb801ff08b31b91cdc5a
 * **取消訂閱連結和登陸頁面**:取消訂閱連結是必備的。 它必須可見且有效，而且表單必須正常運作。
 * **使用** Adobe Campaign提供的工具來最佳化您的電子郵件內容（傳送分析、反垃圾訊息分析）。
 
-有關編輯電子郵件內容的其他資訊，請參 [閱「電子郵件設計人員概述](../../designing/using/designing-content-in-adobe-campaign.md) 」和 [「郵件」設計最佳實踐方案](../../designing/using/overview.md#content-design-best-practices)。
+有關編輯電子郵件內容的其他資訊，請參 [閱「電子郵件設計人員概述](../../designing/using/designing-content-in-adobe-campaign.md) 」和 [「郵件」設計最佳實踐方案](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices)。
 
 ## 發件人姓名和地址 {#sender-name}
 

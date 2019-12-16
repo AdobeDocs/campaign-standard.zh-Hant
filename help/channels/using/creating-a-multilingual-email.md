@@ -1,18 +1,18 @@
 ---
 title: 建立多語言電子郵件
 description: 請依照下列步驟建立以不同慣用語言為目標的多語言電子郵件。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: e90f4ec8-14e3-4304-b5fc-bce0ba08a4ef
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 頻道
-content-type: 參考
-topic-tags: 電子郵件訊息
+audience: channels
+content-type: reference
+topic-tags: email-messages
 discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -37,7 +37,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
    如有需要，請使用按鈕新增變 **[!UICONTROL Add an element]** 數。 **[!UICONTROL Default]** 變型不能刪除。 設為時， **[!UICONTROL default]**&#x200B;會 [使用描述檔的偏好語言](../../audiences/using/creating-profiles.md) ，來選擇變體。 您也可以將變 **[!UICONTROL Default]** 型設為任何其他語言。
 
 1. 確認電子郵件的建立：然後會顯示電子郵件控制面板。
-1. 定義每個變體的電子郵件內容。 根據您選擇的範本，您可以定義多個主題、數個傳送者名稱或數個不同的內容。 使用下拉式選單，在元素的不同變體之間導覽。 如需詳細資訊，請參閱內容 [編輯器一節](../../designing/using/overview.md) 。
+1. 定義每個變體的電子郵件內容。 根據您選擇的範本，您可以定義多個主題、數個傳送者名稱或數個不同的內容。 使用下拉式選單，在元素的不同變體之間導覽。 如需詳細資訊，請參閱內容 [編輯器一節](../../designing/using/designing-content-in-adobe-campaign.md) 。
 
    ![](assets/multi_selectcontent.png)
 

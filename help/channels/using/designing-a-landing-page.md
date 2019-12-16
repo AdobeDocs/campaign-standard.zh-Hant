@@ -13,7 +13,7 @@ context-tags: landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -30,7 +30,7 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 >[!NOTE]
 >
->如果您的例項是在Adobe Campaign Standard 19.0發行之前安裝，您仍可存取舊版電子郵件內容編輯器。 著陸頁面的介面、使用原則和設定大致與下文所述相同。 但是，舊版電子郵件內容編輯器中可能無法使用或維護所有功能，此編輯器自19.0版起即不再提供。 若要透過具有擴充功能的拖放介面快速編輯您的電子郵件內容，請使用電子郵 [件設計器](../../designing/using/overview.md)。
+>如果您的例項是在Adobe Campaign Standard 19.0發行之前安裝，您仍可存取舊版電子郵件內容編輯器。 著陸頁面的介面、使用原則和設定大致與下文所述相同。 但是，舊版電子郵件內容編輯器中可能無法使用或維護所有功能，此編輯器自19.0版起即不再提供。 若要透過具有擴充功能的拖放介面快速編輯您的電子郵件內容，請使用電子郵 [件設計器](../../designing/using/designing-content-in-adobe-campaign.md)。
 
 此頁面說明著陸頁面內容編輯器的特定性。 有關一個或多個行銷活動常見動作的詳細資訊，請參閱「設計電子郵件內容指南」中 **的下列章節** :
 
@@ -38,7 +38,7 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 * [新增內容區塊](../../designing/using/personalization.md#adding-a-content-block)。
 * [插入連結](../../designing/using/links.md#inserting-a-link)。
 * [插入影像](../../designing/using/images.md)。
-* [內容設計的一般最佳實務](../../designing/using/overview.md#content-design-best-practices)。
+* [內容設計的一般最佳實務](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices)。
 
 >[!NOTE]
 >如果您有已預先定義為HTML格式的著陸頁面，則可使用按鈕直接匯入 **[!UICONTROL Change content]** 頁面。

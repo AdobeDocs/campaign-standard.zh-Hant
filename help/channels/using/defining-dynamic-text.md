@@ -1,18 +1,18 @@
 ---
 title: 定義動態文字
 description: 瞭解如何根據Adobe Campaign中定義的條件，動態地向使用者顯示不同的文字。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: bbcd200c-4fb4-467b-ba39-09b8bee9bcaa
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 設計
-content-type: 參考
-topic-tags: 定義條件式內容
+audience: designing
+content-type: reference
+topic-tags: defining-conditional-content
 discoiquuid: 6bb6cee3-5674-4113-8073-5a9572b3e830
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 >[!NOTE]
 >
->對於SMS和推播，您只能定義動態文字。 您可以在登陸頁面中定義動態內容和文字。 如果您想要使用「電子郵件設計器」定義 [動態文本](../../designing/using/overview.md)，請 [參閱定義電子郵件中的動態內容](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)。
+>對於SMS和推播，您只能定義動態文字。 您可以在登陸頁面中定義動態內容和文字。 如果您想要使用「電子郵件設計器」定義 [動態文本](../../designing/using/designing-content-in-adobe-campaign.md)，請 [參閱定義電子郵件中的動態內容](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)。
 
 以下範例說明如何定義SMS訊息中的動態文字。
 

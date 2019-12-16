@@ -1,19 +1,19 @@
 ---
 title: 電子郵件傳送
 description: 「電子郵件傳送」活動可讓您設定在工作流程中傳送單一傳送電子郵件或循環電子郵件。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: 7de53431-84ae-4d21-8361-2775ad314ed2
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 自動化
-content-type: 參考
-topic-tags: 頻道活動
+audience: automating
+content-type: reference
+topic-tags: channel-activities
 discoiquuid: 5f288cf6-f8ff-4ac9-9c1a-8010260554bb
-context-tags: 交付，工作流，主
+context-tags: delivery,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -60,7 +60,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 1. 選擇電子郵件類型。 電子郵件類型來自「 &gt; &gt;」功能表中定 **[!UICONTROL Resources]** 義的 **[!UICONTROL Templates]** 電子郵件 **[!UICONTROL Delivery templates]** 範本。
 1. 輸入電子郵件的一般屬性。 您也可以將它附加至現有的促銷活動。 工作流程的傳送活動標籤會以電子郵件標籤更新。
-1. 定義電子郵件內容。 請參閱有關內容編輯 [的章節](../../designing/using/overview.md)。
+1. 定義電子郵件內容。 請參閱有關內容編輯 [的章節](../../designing/using/designing-content-in-adobe-campaign.md)。
 1. 依預設，活動 **[!UICONTROL Email delivery]** 不包含任何對外轉場。 如果要將出站轉移添加到活動 **[!UICONTROL Email delivery]** 中，請轉至高級活動選項的頁籤( **[!UICONTROL General]**![](assets/dlv_activity_params-24px.png) 活動快速操作中的按鈕)，然後選中以下選項之一：
 
    * **[!UICONTROL Add outbound transition without the population]**:這可讓您產生一個對外轉移，其中包含與傳入轉移完全相同的人口。

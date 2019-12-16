@@ -12,7 +12,7 @@ discoiquuid: a06509f9-4731-4187-b43d-3bfa361284d3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 71ee939b6ef256be8c693ec6e15d9609c7e80677
+source-git-commit: b10a4b3a81d676e279a9514530158286d58db813
 
 ---
 
@@ -36,7 +36,7 @@ source-git-commit: 71ee939b6ef256be8c693ec6e15d9609c7e80677
 * [部署軟體包：操作原則](../../developing/using/data-model-concepts.md)
 * [新增或擴充資源](../../developing/using/key-steps-to-add-a-resource.md)
 
-## 步驟1:導出結構 {#exporting-the-structure}
+## 導出結構 {#exporting-the-structure}
 
 在本節中，我們將執行第一個包導出，其中詳細說明自定義資源資料的物理結構。
 

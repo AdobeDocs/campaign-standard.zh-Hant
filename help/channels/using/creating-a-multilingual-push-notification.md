@@ -1,18 +1,18 @@
 ---
 title: 建立多語言推播通知
 description: 建立多語言推播通知，以使用者慣用的語言和地區為目標。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: d4aff741-e969-47c6-bae8-787c6c673191
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 頻道
-content-type: 參考
-topic-tags: 推播通知
+audience: channels
+content-type: reference
+topic-tags: push-notifications
 discoiquuid: f9bb2235-d388-4025-9ace-734beb0c1961
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
@@ -61,7 +61,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 1. 在視窗 **[!UICONTROL Manage Content Variants]** 中，拖放您的檔案或從電腦選取檔案。
 
-   檔案必須是UTF8編碼，而且必須有特定的版面，您可以按一下選項找 **[!UICONTROL Download the sample file]** 到。 您也應使用正確的語法來設定值。 如需檔案格式和支援地區設定的詳細資訊，請參閱此 [技術](http://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html)。
+   檔案必須是UTF8編碼，而且必須有特定的版面，您可以按一下選項找 **[!UICONTROL Download the sample file]** 到。 您也應使用正確的語法來設定值。 如需檔案格式和支援地區設定的詳細資訊，請參閱此 [技術](https://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html)。
 
    ![](assets/multivariant_push_4.png)
 
@@ -69,7 +69,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    ![](assets/multivariant_push_5.png)
 
-1. 此標 **[!UICONTROL Variant selection]** 簽將提供指令碼，以決定要根據傳送範本來考慮的語言偏好設定。 這是現成可用的指令碼，不需要您進行任何變更。
+1. 此標 **[!UICONTROL Variant selection]** 簽將提供指令碼，以根據傳送範本來決定要考慮哪些語言偏好設定。 這是現成可用的指令碼，不需要您進行任何變更。
 1. 如果您想要新增更多未出現在匯入檔案中的變數，可以按一下按鈕並視需要新增 **[!UICONTROL Add an element]** 多種新的語言變數。
 
    新增從檔案上傳的變數以外的變數，將不會將任何內容連結至此語言。 您必須直接在傳送控制面板中編輯內容。

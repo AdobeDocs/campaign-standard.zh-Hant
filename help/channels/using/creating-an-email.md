@@ -1,18 +1,18 @@
 ---
 title: 建立電子郵件
 description: 請依照下列步驟，在Adobe Campaign中建立單一傳送的電子郵件。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: 74c7ef35-82c0-4bc4-b1f6-8e74fdcaea3c
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 頻道
-content-type: 參考
-topic-tags: 電子郵件訊息
+audience: channels
+content-type: reference
+topic-tags: email-messages
 discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -47,7 +47,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    ![](assets/email_creation_3.png)
 
-1. 使用電子郵件設計工具定義並個人化訊息內容、傳送者名 [稱和主旨](../../designing/using/overview.md)。 如需詳細資訊，請參閱關於 [電子郵件內容設計](../../designing/using/overview.md)。
+1. 使用電子郵件設計工具定義並個人化訊息內容、傳送者名 [稱和主旨](../../designing/using/designing-content-in-adobe-campaign.md)。 如需詳細資訊，請參閱關於 [電子郵件內容設計](../../designing/using/designing-content-in-adobe-campaign.md)。
 
    ![](assets/email_creation_4.png)
 

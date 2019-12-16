@@ -1,18 +1,18 @@
 ---
 title: 管理連結
 description: 瞭解如何使用電子郵件設計工具管理連結。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 設計
-content-type: 參考
-topic-tags: 編輯——電子郵件——內容
+audience: designing
+content-type: reference
+topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 >[!NOTE]
 >
->下圖顯示如何使用電子郵件設計 [器插入](../../designing/using/overview.md) 連結。
+>下圖顯示如何使用電子郵件設計 [器插入](../../designing/using/designing-content-in-adobe-campaign.md) 連結。
 
 1. 選取元素，然後從內容相 **[!UICONTROL Insert link]** 關工具列按一下。
 
@@ -61,7 +61,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ![](assets/des_link_edit.png)
 
-使用電子郵件設計器編 [輯電子郵件時](../../designing/using/overview.md)，您可以輕鬆存取和修改您從列出電子郵件中所包含所有URL的表格中建立的連結。 此清單可讓您集中檢視，並找出電子郵件內容中的每個URL。 若要存取，請參閱關於 [追蹤的URL](#about-tracked-urls)。
+使用電子郵件設計器編 [輯電子郵件時](../../designing/using/designing-content-in-adobe-campaign.md)，您可以輕鬆存取和修改您從列出電子郵件中所包含所有URL的表格中建立的連結。 此清單可讓您集中檢視，並找出電子郵件內容中的每個URL。 若要存取，請參閱關於 [追蹤的URL](#about-tracked-urls)。
 
 ![](assets/des_link_list.png)
 

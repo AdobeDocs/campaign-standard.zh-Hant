@@ -1,18 +1,18 @@
 ---
 title: 新增 Target 動態內容
 description: 瞭解如何將Adobe target動態內容新增至您的Adobe Campaign傳遞內容。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: b3cc045f-7924-480e-8c61-8246510f3adb
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 整合
-content-type: 參考
-topic-tags: 搭配促銷活動和目標運作
+audience: integrating
+content-type: reference
+topic-tags: working-with-campaign-and-target
 discoiquuid: 45ddf7b7-98f7-4fdd-bb4a-49ec8490e877
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 594b2d3c3dcc1ec13ab06ca6219ad59fe1a267d8
 
 ---
 
@@ -26,8 +26,8 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 在Adobe Campaign中存取影像之前，必須先在Adobe target中執行下列工作：
 
 * 建立一或多個 [重新導向選件](https://docs.adobe.com/content/help/en/target/using/experiences/offers/offer-redirect.html)，您必須在其中指定要使用的影像URL。
-* 建立一或多個 [觀眾](https://marketing.adobe.com/resources/help/en_US/target/ov/c_about_segments.html)，以定義您活動的目標。
-* 建立 [表單式體驗撰寫器活動](https://marketing.adobe.com/resources/help/en_US/target/target/t_form_experience_composer.html) ，您必須在其中選取rawbox並指定數個體驗，視所建立的重新導向選件數目而定。 您必須針對每個體驗選取其中一個已建立的重新導向選件。
+* 建立一或多個 [觀眾](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/audiences.html)，以定義您活動的目標。
+* 建立 [表單式體驗撰寫器活動](https://docs.adobe.com/content/help/en/target/using/experiences/form-experience-composer.html) ，您必須在其中選取rawbox並指定數個體驗，視所建立的重新導向選件數目而定。 您必須針對每個體驗選取其中一個已建立的重新導向選件。
 * 使用Adobe Campaign的資訊建立群體，以指定體驗。 若要在選件的選擇規則中使用Adobe Campaign的資料，您必須在Adobe Target的rawbox中指定資料。
 
 1. 建立電子郵件傳送。
@@ -54,6 +54,6 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 **相關主題：**
 
 * [Adobe Target Portal](https://marketing.adobe.com/resources/help/en_US/target/a4t/c_campaign_and_target.html)
-* [關於電子郵件內容設計](../../designing/using/overview.md)
+* [關於電子郵件內容設計](../../designing/using/designing-content-in-adobe-campaign.md)
 * [在即時視訊中個人化電子郵件影像](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html)
 

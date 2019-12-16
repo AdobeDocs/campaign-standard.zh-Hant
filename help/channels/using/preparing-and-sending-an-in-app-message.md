@@ -13,7 +13,7 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 05743b8565720c0db6a35a493c66b8dad4ef5685
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
@@ -118,7 +118,7 @@ If you require personalization with **Personal and Sensitive** fields, we recomm
 
 1. 如果您使用觸 **[!UICONTROL Places]** 發器，「置入」上下文資料、「置入」自訂中繼資料或「置入」事件類型將會根據所有在Adobe Places中建立的「資料庫」及其「地標」自動填入。
 
-   請注意，此觸發器僅會套用至Experience Platform Launch中「位置」擴充功能中選取之「資料庫」的「地標」。 有關Places擴充功能以及如何安裝的詳細資訊，請參閱本文 [件](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/places-extension-1/places-extension)。
+   請注意，此觸發器僅會套用至Experience Platform Launch中「位置」擴充功能中選取之「資料庫」的「地標」。 有關Places擴充功能以及如何安裝的詳細資訊，請參閱本文 [件](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-extension/places-extension.html)。
 
 1. 在標 **[!UICONTROL Frequency & duration]** 簽中，選擇觸發的頻率、開始和結束日期、一週中的某天，以及應用程式內訊息生效的當天時間。
 

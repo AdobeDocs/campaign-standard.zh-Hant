@@ -1,19 +1,19 @@
 ---
 title: 準備和傳送應用程式內訊息
 description: 建立應用程式內訊息，以特定內容鎖定您的應用程式訂閱者。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: a79b0466-8641-46cc-a70f-e4e839587bb2
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 頻道
-content-type: 參考
-topic-tags: 應用程式內訊息
+audience: channels
+content-type: reference
+topic-tags: in-app-messaging
 discoiquuid: 18bf5297-a688-4302-abe4-e2fbcafdb515
 context-tags: delivery,triggers,back;deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 05743b8565720c0db6a35a493c66b8dad4ef5685
 
 ---
 
@@ -79,13 +79,13 @@ If you require personalization with **Personal and Sensitive** fields, we recomm
    * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**
    * **[!UICONTROL Target users based on their Mobile profile (inApp)]**
 
-1. 輸入應用程式內訊息屬性，並在欄位中選取您的行動應用 **[!UICONTROL Associate a Mobile App to a delivery]** 程式。
+1. 輸入應用程式內訊息屬性，並在欄位中選取您的行動應用 **[!UICONTROL Associate a Mobile App to a delivery]** 程式。 請注意，如果您未使用Adobe Campaign Standard設定行動應用程式，該應用程式將不會出現在清單中。 如需行動應用程式設定的詳細資訊，請參閱本 [頁](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign)。
 
    ![](assets/inapp_creating_3.png)
 
 1. 選取您要針對應用程式內訊息鎖定的對象。 您的觀眾會根據與此傳送相關聯的行動應用程式預先篩選。
 
-   請注意，此步驟不需要，因 **[!UICONTROL Broadcast an In-App message (inAppBroadcast)]** 為它針對行動應用程式的所有使用者。
+   請注意，此步驟不是行動應用程 **[!UICONTROL Broadcast an In-App message (inAppBroadcast)]** 式的必要步驟，因為其目標是行動應用程式的所有使用者。
 
    ![](assets/inapp_creating_8.png)
 

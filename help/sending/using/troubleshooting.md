@@ -13,7 +13,7 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b2df5ca4d38e35f57815924ffbe0313dc1a22b29
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
@@ -52,8 +52,8 @@ source-git-commit: b2df5ca4d38e35f57815924ffbe0313dc1a22b29
 **我要如何得知我的IP是否已列入黑名單？ 如何取消IP的黑名單？**
 
 若要檢查您的IP位址是否列入黑名單，您可以使用各種網站來驗證：
-* http://mxtoolbox.com/
-* http://whatismyipaddress.com/blacklist-check
+* https://mxtoolbox.com/
+* https://whatismyipaddress.com/blacklist-check
 * http://www.blacklistalert.org/
 
 通常，IP地址檢查的結果將返回一個清單，其中包含黑名單的詳細資訊以及將IP地址列入黑名單的網站的名稱。

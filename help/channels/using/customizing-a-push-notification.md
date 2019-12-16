@@ -1,19 +1,19 @@
 ---
 title: 自訂推播通知
 description: 瞭解如何使用各種進階選項自訂推播通知。
-page-status-flag: 從未激活
-uuid: 8cf74cad-b1ba-4ad-83bd-7289cb22d5f4
-contentOwner: 紹維亞
+page-status-flag: never-activated
+uuid: 8cf74cad-b1ba-4aad-83bd-7289cb22d5f4
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 頻道
-content-type: 參考
-topic-tags: 推播通知
+audience: channels
+content-type: reference
+topic-tags: push-notifications
 discoiquuid: dc944c85-2059-46df-b396-676fe3617dd1
-context-tags: delivery,mobileAppContent，返回
+context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 78800930d78179c1e390313c35f70627b5df0769
 
 ---
 
@@ -107,10 +107,6 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 根據使用者的動作，應用程式會收到通知，以便執行任何相關的工作。
 
 ## 新增到期日 {#add-expiration-date}
-
->[!NOTE]
->
->這些變更僅適用於Campaign Standard 19.4的開始發行。
 
 設定推播通知的到期日可讓您設定特定的到期日，而Apple([APNS](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/sending_notification_requests_to_apns))或Android([FCM](https://firebase.google.com/docs/cloud-messaging/concept-options))將不再傳送訊息。
 

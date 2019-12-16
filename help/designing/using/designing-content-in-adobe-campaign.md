@@ -12,7 +12,7 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 19c6a3d6f68ef0a96150c9e7f350abd92da8d7e1
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -32,7 +32,7 @@ source-git-commit: 19c6a3d6f68ef0a96150c9e7f350abd92da8d7e1
 <!--The Email Designer has more features than the Legacy Editor and is backward compatible.-->
 
 * 若要瞭解如何建立電子郵件內容，請參 [閱電子郵件設計人員快速入門](../../designing/using/quick-start.md)。
-* 有關電子郵件設計器的概述，請參 [閱使用電子郵件設計器](../../designing/using/overview.md)。
+* 有關電子郵件設計器的概述，請參 [閱使用電子郵件設計器](../../designing/using/designing-content-in-adobe-campaign.md)。
 * 有關建立內容的更多資訊：
    * 從頭開始，請參 [閱從頭開始設計電子郵件](../../designing/using/designing-from-scratch.md)。
    * 使用現有內容，請參 [閱使用現有內容設計](../../designing/using/using-existing-content.md)。

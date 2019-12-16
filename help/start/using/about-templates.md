@@ -1,18 +1,18 @@
 ---
 title: 關於範本
 description: 「Adobe Campaign範本可讓您視需要預先設定參數：範本可能包含行銷活動的完整或部分設定，以簡化非技術使用者使用Adobe Campaign的程式。」
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: 018534b6-61a3-433e-bb60-49883c8b9386
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: start
-content-type: 參考
-topic-tags: 管理模板
+content-type: reference
+topic-tags: managing-templates
 discoiquuid: 95218ebe-5430-42a2-b900-1dadbbc92d99
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -64,7 +64,7 @@ HTML內容範本可從「進階」功能表 **[!UICONTROL Resources]** 的&gt; *
 
 ### 現成可用的電子郵件內容範本 {#email-content-templates}
 
-您可以管理「電子郵件設計器」首頁 **[!UICONTROL Templates]** 標籤中提 [供的HTML內容](../../designing/using/overview.md) 。
+您可以管理「電子郵件設計器」首頁 **[!UICONTROL Templates]** 標籤中提 [供的HTML內容](../../designing/using/designing-content-in-adobe-campaign.md) 。
 
 現成可用的電子郵件內容範本包括18種行動裝置最佳化版面，以及4種Behance藝術家設計的同級最佳回應範本。 它們符合最新的使用方式，例如客戶歡迎訊息、電子報和重新參與電子郵件等。 您可以輕鬆自訂品牌內容，以簡化從頭設計電子郵件的程式。
 
@@ -73,7 +73,7 @@ HTML內容範本可從「進階」功能表 **[!UICONTROL Resources]** 的&gt; *
 **相關主題：**
 
 * 瞭解如何在此影片中個人化 [內容範本](https://helpx.adobe.com/campaign/kt/acs/using/acs-email_content_templates-feature-video-use.html)。
-* 如需編輯內容的詳細資訊，請參閱關於 [電子郵件內容設計](../../designing/using/overview.md)。
+* 如需編輯內容的詳細資訊，請參閱關於 [電子郵件內容設計](../../designing/using/designing-content-in-adobe-campaign.md)。
 
 ### Creating a content template {#creating-a-content-template}
 
@@ -93,7 +93,7 @@ HTML內容範本可從「進階」功能表 **[!UICONTROL Resources]** 的&gt; *
 
    ![](assets/email_designer_create-template_thumbnail.png)
 
-   此縮圖將顯示在「電子郵 **[!UICONTROL Templates]** 件設計器」主 [頁的頁籤中](../../designing/using/overview.md) 。
+   此縮圖將顯示在「電子郵 **[!UICONTROL Templates]** 件設計器」主 [頁的頁籤中](../../designing/using/designing-content-in-adobe-campaign.md) 。
 
 1. 關閉標 **[!UICONTROL Properties]** 簽以返回主工作區。
 1. 新增可視需要自訂的結構元件和內容元件。
@@ -102,7 +102,7 @@ HTML內容範本可從「進階」功能表 **[!UICONTROL Resources]** 的&gt; *
    > 您無法在內容範本中插入個人化欄位或條件式內容。
 1. 編輯完成後，儲存範本。
 
-此範本現在可用於使用電子郵件設計工具建立的任何電子郵件。 從「電子郵件設計 **[!UICONTROL Templates]** 器」首頁的選 [項卡中選擇](../../designing/using/overview.md) 。
+此範本現在可用於使用電子郵件設計工具建立的任何電子郵件。 從「電子郵件設計 **[!UICONTROL Templates]** 器」首頁的選 [項卡中選擇](../../designing/using/designing-content-in-adobe-campaign.md) 。
 
 ![](assets/content_template_new.png)
 
@@ -124,7 +124,7 @@ HTML內容範本可從「進階」功能表 **[!UICONTROL Resources]** 的&gt; *
 
 1. 若要尋找您剛建立的範本，請前往 **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates & fragments]**。
 
-1. 若要使用新範本，請從「電子郵件設計 **[!UICONTROL Templates]** 器」首頁的標 [簽中選取它](../../designing/using/overview.md) 。
+1. 若要使用新範本，請從「電子郵件設計 **[!UICONTROL Templates]** 器」首頁的標 [簽中選取它](../../designing/using/designing-content-in-adobe-campaign.md) 。
 
    ![](assets/content_template_new.png)
 

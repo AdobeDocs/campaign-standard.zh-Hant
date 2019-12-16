@@ -1,18 +1,18 @@
 ---
 title: 發生故障時接收警報
 description: 瞭解如何使用警報管理系統。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: a3ab733a-e3db-4adc-b930-cd4064b6dc1c
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 發送
-content-type: 參考
-topic-tags: 監控消息
+audience: sending
+content-type: reference
+topic-tags: monitoring-messages
 discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
@@ -263,7 +263,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    * 建立篩選類型規則，以在傳送分析期間排除訊息目標的一部分，例如隔離的收件者。 請參 [閱建立篩選規則](../../administration/using/filtering-rules.md)。
    * 定期更新客戶資料庫，以維護良好的隔離管理流程。 請參 [閱關於隔離](../../sending/using/understanding-quarantine-management.md#about-quarantines)。
-   * 一般而言，請盡可能提高傳遞能力。 請參閱Adobe Campaign v7 [Managing deliverability](http://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) detaill guide，並聯絡您的Adobe Campaign管理員以取得協助。
+   * 一般而言，請盡可能提高傳遞能力。 請參閱Adobe Campaign傳遞 [功能詳細檔案](../../sending/using/about-deliverability.md) ，並連絡您的Adobe Campaign管理員以取得協助。
 
 
 

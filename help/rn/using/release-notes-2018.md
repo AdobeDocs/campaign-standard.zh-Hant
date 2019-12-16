@@ -12,7 +12,7 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -133,7 +133,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 ### 其他變更 {#other-changes-1}
 
 * 報表共用逾時時間已從1分鐘增加到4分鐘，以避免任何逾時錯誤。
-* 編輯電子郵件內容時，全新的Creative Designer會依預設開啟。 如果您願意，在儲存變更後，您仍可隨時返回預設的內容編輯器。 如需詳細資訊，請參閱詳細 [檔案](../../designing/using/overview.md)。
+* 編輯電子郵件內容時，全新的Creative Designer會依預設開啟。 如果您願意，在儲存變更後，您仍可隨時返回預設的內容編輯器。 如需詳細資訊，請參閱詳細 [檔案](../../designing/using/designing-content-in-adobe-campaign.md)。
 * 在Creative Designer中，現在可以將新的內容元件新增至電子郵件：轉盤。 如需詳細資訊，請參閱詳細 [檔案](../../designing/using/designing-from-scratch.md#about-content-components)。
 * 在事務性消息熱點按一下報告中，當您按一下「 **Change profile** （更改配置檔案）」按鈕時，現在只會列出連結到您為事務性消息定義的事件的測試配置檔案。
 
@@ -317,7 +317,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
      <li> 建立和儲存電子郵件內容範本並運用儲存的範本，以協助縮放電子郵件建立 </li> 
      <li> 建立並儲存內容片段（例如頁首、頁尾、文章等）簡化內容製作並確保品牌一致性 </li> 
      <li> 在拖放介面中建立內容，以及按一下按鈕直接編輯電子郵件的HTML之間順暢切換 </li> 
-    </ul> 適用於電子郵件的Creative Designer僅提供英文版。<br /> 如需詳細資訊，請參閱詳 <a href="../../designing/using/overview.md">細檔案</a> ，並觀看 <a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms">影片</a>。<br /> </td> 
+    </ul> 適用於電子郵件的Creative Designer僅提供英文版。<br /> 如需詳細資訊，請參閱詳 <a href="../../designing/using/designing-content-in-adobe-campaign.md">細檔案</a> ，並觀看 <a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms">影片</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 多語言推播傳送<br /> </td> 

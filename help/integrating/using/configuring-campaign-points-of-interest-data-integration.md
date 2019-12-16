@@ -1,18 +1,18 @@
 ---
 title: 設定 Campaign-Points of Interest 資料整合
 description: 瞭解如何設定Adobe Campaign中的地標資料功能，以根據訂閱者的位置傳送個人化訊息。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: 0689a06c-cc1a-442f-95b8-a07fcec85d79
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 整合
-content-type: 參考
-topic-tags: 使用促銷活動和分析功能以建立行動裝置
+audience: integrating
+content-type: reference
+topic-tags: working-with-campaign-and-analytics-for-mobile
 discoiquuid: a967c6cc-c53b-41b4-866b-90860d78f463
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
@@ -29,14 +29,14 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 若要將Adobe Experience Platform Location services與以Adobe Experience Platform SDK設定的行動應用程式搭配使用，您必須：
 
-1. 在Adobe Experience Platform Launch **[!UICONTROL Places]** 中將 **[!UICONTROL Places Monitor]** 和擴充功能新增至您的行動應用程式設定。 在Adobe Campaign中設定您的行動應用程式。 請參 [閱在Adobe Experience Platform Launch中安裝Places擴充功能](https://placesdocs.com/places-services-by-adobe-documentation/configure-places-in-the-sdk/places-extension#install-the-places-extension-in-adobe-experience-platform-launch) , [並在Experience Platform Launch中安裝Places Monitor擴充功能](https://placesdocs.com/places-services-by-adobe-documentation/configure-places-in-the-sdk/places-monitor-extension/using-the-places-monitor-extension)。
+1. 在Adobe Experience Platform Launch **[!UICONTROL Places]** 中將 **[!UICONTROL Places Monitor]** 和擴充功能新增至您的行動應用程式設定。 在Adobe Campaign中設定您的行動應用程式。 請參 [閱在Adobe Experience Platform Launch中安裝Places擴充功能](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-extension/places-extension.html#install-the-places-extension-in-adobe-experience-platform-launch) , [並在Experience Platform Launch中安裝Places Monitor擴充功能](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html#install-the-places-monitor-extension-in-experience-platform-launch)。
 
 1. 在設定擴充功能後，請在中建立資料元素，以 **[!UICONTROL Adobe Experience Platform Launch]** 從這些擴充功能擷取資料。 請參閱本頁 [以建立](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Step1Createdataelements) 您的資料元素。
 
 1. 然後，您 **[!UICONTROL Adobe Experience Platform Launch]**&#x200B;需要建立規則，以支援興趣點和Adobe Campaign之間的行動使用案例。\
    當使用者進入地理圍欄時，將會觸發此規則 **[!UICONTROL Point of Interest]**。 請參閱此 [頁](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Locationpostback) ，以建立規則。
 
-1. 在地標中 **[!UICONTROL Points of Interest]** 定義您的。 請 [參閱建立興趣點](https://placesdocs.com/places-services-by-adobe-documentation/places-database-management-1/managing-pois-in-the-places-ui#create-a-poi)。
+1. 在地標中 **[!UICONTROL Points of Interest]** 定義您的。 請 [參閱建立興趣點](https://docs.adobe.com/content/help/en/places/using/poi-mgmt-ui/create-a-poi-ui.html)。
 
 1. 請確定您存取行動應用程式和Adobe Campaign中收集的位置資料。 請參 [閱存取用於收集位置資料的行動應用程式](#accessing-mobile-apps-used-to-collect-location-data) ，以 [及存取收集的位置資料](#accessing-collected-location-data)。
 
@@ -89,7 +89,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 您必須擁有Adobe Analytics的存取權，才能執行下列設定。 如果您不是Adobe Analytics使用者，請連絡您的Adobe Campaign管理員。
 
-1. 登入 [mobilemarketing.adobe.com](http://mobilemarketing.adobe.com/)。
+1. 登入 [mobilemarketing.adobe.com](https://mobilemarketing.adobe.com/)。
 1. 建立應用程式或選取現有的應用程式。
 1. 前往頁 **[!UICONTROL Manage App Settings]** 面。
 1. 在「訪 **客ID服務** 」區段中，勾選「 **啟用** 」並從下拉式清單中選取您的組織。 按一下 **儲存**。

@@ -12,7 +12,7 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4f7217a114454781b9e7cca261fd2d47717f3636
+source-git-commit: 594b2d3c3dcc1ec13ab06ca6219ad59fe1a267d8
 
 ---
 
@@ -30,10 +30,10 @@ Campaign Standard API的目的是讓您 **建立Adobe Campaign** Standard的整�
 
 >[!NOTE]
 >
->在執行API呼叫前，請檢查與您的授權合約相應的比例限制。 For more on this, refer to [this page](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
+>在執行API呼叫前，請檢查與您的授權合約相應的比例限制。 有關詳細資訊，請參見[此頁面](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers)。
 
 若要使用Campaign Standard API，您需要Adobe I/O帳戶。 這是前進並探索API功能的必備第一步。
-For more on this, refer to [this section](../../api/using/setting-up-api-access.md).
+如需詳細資訊，請參閱[本小節](../../api/using/setting-up-api-access.md)。
 
 我們提供的API使用 **標準概念** ，以及REST介面和JSON負載。
 
@@ -43,4 +43,4 @@ For more on this, refer to [this section](../../api/using/setting-up-api-access.
 
 本檔案中詳盡說明了所有端點，其中包括您應瞭解的控制API的一般概念、完整的API參考、程式碼範例和快速入門手冊。
 
-如果有任何遺漏或看起來不正確，請詢問社 [群](http://help-forums.adobe.com/content/adobeforums/en/campaign-forum/adobe-campaign.html)。
+如果有任何遺漏或看起來不正確，請詢問社 [群](https://help-forums.adobe.com/content/adobeforums/en/campaign-forum/adobe-campaign.html)。

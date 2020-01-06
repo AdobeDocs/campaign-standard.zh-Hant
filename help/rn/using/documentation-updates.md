@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
+source-git-commit: db2495f66535ad5d1a64143f91e5db9cca54aca6
 
 ---
 
@@ -111,7 +111,7 @@ GDPR快速入門手冊已經過改進並充實。 它現在是包含GDPR和CCPA�
 
 描述內容範本和片段的章節已更新。 [閱讀更多資訊](../../designing/using/using-reusable-content.md#content-templates)
 
-新增了一個章節，說明如何將電子郵件內容儲存為電子郵件設計工具中的範本。 [閱讀更多資訊](../../start/using/about-templates.md#saving-content-as-template)
+新增了一個章節，說明如何將電子郵件內容儲存為電子郵件設計工具中的範本。 [閱讀更多資訊](../../designing/using/using-reusable-content.md#saving-content-as-template)
 
 ## 發行版本19.3 - 2019年7月 {#release-19-3---july-2019}
 
@@ -365,7 +365,7 @@ Adobe Launch整合行動應用程式（測試版）-閱 [讀更多](../../admini
 
 本節現在提供HTML屬性清單，以完全符合Creative Designer的 [規定](../../designing/using/using-existing-content.md#editing-existing-contents-with-the-email-designer)。
 
-已新增多語言範本預設語言的相關資訊。 [閱讀更多資訊](../../start/using/creating-a-multilingual-template.md)
+已新增多語言範本預設語言的相關資訊。 [閱讀更多資訊](../../channels/using/multilingual-messages-template.md)
 
 已更新「使用者與安全性」指南，以反映新「促銷活動標準」例項的地理單位功能折舊，以及從18.7版開始未建立地理單位的現有例項。 [閱讀更多資訊](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
@@ -473,15 +473,15 @@ SQL結構現在提供資料模型v1，用於現成可用的資源——詳 [情]
 
 發行說明已重新整理為兩個頁面，讓您可以更全域地檢視所有不同的版本：最 [新發行說明](../../rn/using/release-notes.md)[和先前發行說明](../../rn/using/release-notes-2015-2016.md)
 
-已更 **[!UICONTROL Working with typologies]** 新區段，以改善可見度。 [閱讀更多資訊](../../administration/using/about-typology-rules.md)
+已更 **[!UICONTROL Working with typologies]**新區段，以改善可見度。[閱讀更多資訊](../../administration/using/about-typology-rules.md)
 
-現在提供新選項，可讓您在定義中的許多其他資料時 **[!UICONTROL Query]** 獲得效能。 [閱讀更多資訊](../../automating/using/query.md)
+現在提供新選項，可讓您在定義中的許多其他資料時 **[!UICONTROL Query]**獲得效能。[閱讀更多資訊](../../automating/using/query.md)
 
 描述檔匯入範例已更新，提供一些提示，讓您的描述檔準備好接收直接電子郵件。 [閱讀更多資訊](../../automating/using/importing-data.md)
 
-工作流程中提供新活動：活 **[!UICONTROL Enrichment]** 動。 [閱讀更多資訊](../../automating/using/enrichment.md)
+工作流程中提供新活動：活 **[!UICONTROL Enrichment]**動。[閱讀更多資訊](../../automating/using/enrichment.md)
 
-活 **[!UICONTROL Subscription Services]** 動已更新，可支援更多使用案例，包括使用單一檔案更新多項服務的訂閱。 [閱讀更多資訊](../../automating/using/subscription-services.md)
+活 **[!UICONTROL Subscription Services]**動已更新，可支援更多使用案例，包括使用單一檔案更新多項服務的訂閱。[閱讀更多資訊](../../automating/using/subscription-services.md)
 
 新增如何準備傳送的逐步使用案例。 [閱讀更多資訊](../../sending/using/preparing-the-send.md)
 
@@ -491,7 +491,7 @@ SQL結構現在提供資料模型v1，用於現成可用的資源——詳 [情]
 
 已新增有關如何根據使用者在循環工作流程中的時區傳送傳送的資訊。 [閱讀更多資訊](../../automating/using/push-notification-delivery.md#sending-a-recurring-push-notification-with-a-workflow)
 
-使用逐 **[!UICONTROL Customizing a push notification]** 步使用案例重新整理區段。 [閱讀更多資訊](../../channels/using/customizing-a-push-notification.md)
+使用逐 **[!UICONTROL Customizing a push notification]**步使用案例重新整理區段。[閱讀更多資訊](../../channels/using/customizing-a-push-notification.md)
 
 黑名單管理專屬的新章節。 [閱讀更多資訊](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 

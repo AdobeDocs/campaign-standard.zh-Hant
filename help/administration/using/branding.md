@@ -1,19 +1,19 @@
 ---
 title: 品牌推廣
 description: 探索所有可用來管理品牌識別的工具。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: d66ac5a2-2ae1-4870-b48e-7f276744ffdd
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 管理
-content-type: 參考
+audience: administration
+content-type: reference
 topic-tags: application-settings
 discoiquuid: cbb1dcec-3bc6-4013-87fa-27d0e5d32bf8
-context-tags: 品牌，概述；品牌，主要
+context-tags: branding,overview;branding,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
 
 ---
 
@@ -31,14 +31,14 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 配置和使用品牌的主要原則是：
 
 1. 建立和設定品牌——此作業需要特定權限，並由Adobe Campaign技術管理員執行。
-1. 為此品牌建立一或多個傳送和著陸頁面範本。 請參閱「 [建立範本](../../start/using/about-templates.md) 」一節。
+1. 為此品牌建立一或多個傳送和著陸頁面範本。 請參閱「 [建立範本](../../start/using/marketing-activity-templates.md) 」一節。
 1. 根據此範本建立訊息和登陸頁面。 請參閱「建 [立電子郵件](../../channels/using/creating-an-email.md) 」 [和「建立著陸頁面](../../channels/using/designing-a-landing-page.md) 」區段。
 
 >[!CAUTION]
 >
 >用戶不能建立或修改品牌：這些作業必須由Adobe Campaign技術管理員執行。 如需任何要求，請聯絡Adobe客戶服務。 多品牌無法用於交易訊息的內容。 如需詳細資訊，請參閱「交 [易式訊息與品牌推廣」](../../channels/using/about-transactional-messaging.md#permissions-and-branding)。
 
-品牌位於功能表 **[!UICONTROL Administration > Instance settings > Brand configuration]** 中。
+品牌位於功能表 **[!UICONTROL Administration > Instance settings > Brand configuration]**中。
 
 依預設，新建立的品牌僅對管理員指派具有對應權限的使用者可見。
 
@@ -53,7 +53,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
    * **品牌的網** 站URL **** 和網站標籤
    * **品牌標誌**
 
-* **[!UICONTROL Header parameters of sent emails]** 個人化促銷活動的收件者所看到的內容。 本節包含下列欄位：
+* **[!UICONTROL Header parameters of sent emails]**個人化促銷活動的收件者所看到的內容。 本節包含下列欄位：
 
    ![](assets/branding_04_header.png)
 
@@ -88,11 +88,11 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 >[!NOTE]
 >
->有關建立模板的詳細資訊，請參閱「創 [建模板](../../start/using/about-templates.md) 」部分。
+>有關建立模板的詳細資訊，請參閱「創 [建模板](../../start/using/marketing-activity-templates.md) 」部分。
 
 建立範本後，您就可以將其連結至品牌。 操作步驟：
 
-1. 按一下 **[!UICONTROL Edit properties]** 按鈕以存取範本屬性。
+1. 按一下 **[!UICONTROL Edit properties]**按鈕以存取範本屬性。
 
    ![](assets/branding_04.png)
 
@@ -100,11 +100,11 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    >[!NOTE]
    >
-   >依預設，會 **[!UICONTROL Default brand (branding)]** 選取。
+   >依預設，會 **[!UICONTROL Default brand (branding)]**選取。
 
    ![](assets/branding_05.png)
 
-   若要檢視所選品牌的設定方式，請按一下 **[!UICONTROL Navigate to the detail of the element selected]** 圖示。
+   若要檢視所選品牌的設定方式，請按一下 **[!UICONTROL Navigate to the detail of the element selected]**圖示。
 
    ![](assets/branding_06.png)
 
@@ -122,7 +122,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 >
 >品牌設定僅由Adobe管理，因為它需要特定權限和技術設定。
 
-1. Adobe Campaign管理員會在中建立品牌 **[!UICONTROL Administration > Instance settings > Brand configuration]**。 他從進階功 **能表新增了Vacations in the Tropics** 元素，並設定 **[!UICONTROL ID]** 品牌的 **[!UICONTROL Header parameters of sent emails]** 和品牌。
+1. Adobe Campaign管理員會在中建立品牌 **[!UICONTROL Administration > Instance settings > Brand configuration]**。 他從進階功**&#x200B;能表新增了Vacations in the Tropics **元素，並設定**[!UICONTROL ID]** 品牌的 **[!UICONTROL Header parameters of sent emails]**和品牌。
 
    ![](assets/branding_07.png)
 
@@ -138,7 +138,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 身為傳送經理，您負責建立傳送範本以使用新品牌。 若要達成此目的，請依照下列步驟：
 
-1. 在進階功能表 **[!UICONTROL Resources > Templates > Delivery templates]**&#x200B;中，複製內建範本以設定新的傳送範本。
+1. 在進階功能表 **[!UICONTROL Resources > Templates > Delivery templates]**中，複製內建範本以設定新的傳送範本。
 
    ![](assets/branding_08.png)
 
@@ -157,11 +157,11 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 若要建立連結至品牌的電子郵件，請遵循下列步驟：
 
-1. 按一下功 **[!UICONTROL Create]** 能表中的按 **[!UICONTROL Marketing activities]** 鈕。
+1. 按一下功 **[!UICONTROL Create]**能表中的按**[!UICONTROL Marketing activities]** 鈕。
 
    ![](assets/branding_14.png)
 
-1. 選擇活 **[!UICONTROL Email]** 動，然後選擇連結至新品牌的範本。
+1. 選擇活 **[!UICONTROL Email]**動，然後選擇連結至新品牌的範本。
 
    ![](assets/branding_15.png)
 

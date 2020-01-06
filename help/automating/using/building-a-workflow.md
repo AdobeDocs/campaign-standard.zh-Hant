@@ -1,19 +1,19 @@
 ---
 title: 建立工作流程
 description: 本節詳細說明建立新工作流程的主要原則和最佳實務。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: 11374f64-8d34-40da-937b-09f419250f4c
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 自動化
-content-type: 參考
-topic-tags: 工作流——一般操作
+audience: automating
+content-type: reference
+topic-tags: workflow-general-operation
 discoiquuid: c26fcb0e-19d5-4bd5-b7d6-2d22ce92ad90
-context-tags: 工作流，嚮導；工作流，主
+context-tags: workflow,wizard;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
 
 ---
 
@@ -38,7 +38,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    >[!NOTE]
    >
-   >每個行銷活動預設提供數種類型。 這些功能可讓您根據需求預先設定特定參數。 如需詳細資訊，請參閱「管 [理範本](../../start/using/about-templates.md) 」一節。
+   >每個行銷活動預設提供數種類型。 這些功能可讓您根據需求預先設定特定參數。 如需詳細資訊，請參閱「管 [理範本](../../start/using/marketing-activity-templates.md) 」一節。
 
 1. 輸入工作流的常規屬性。
 
@@ -95,7 +95,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 將工作流程活動連結在一起後，您就可以使用您選擇的標籤，個人化 **它們** 之間的轉場。 若要這麼做，請連按兩下轉場以存取其屬性。
 
-此外， **[!UICONTROL Targeting]** 活動 **[!UICONTROL Data management (ETL)]** 可讓您定義其 **對外轉場的區** 段代碼。 然後，您可以根據這些區段代碼建立報表，以評估行銷促銷活動的效率。 如需詳細資訊，請參閱[本小節](../../reporting/using/creating-a-report-workflow-segment.md)。
+此外， **[!UICONTROL Targeting]**活動**[!UICONTROL Data management (ETL)]** 可讓您定義其 **對外轉場的區** 段代碼。 然後，您可以根據這些區段代碼建立報表，以評估行銷促銷活動的效率。 如需詳細資訊，請參閱[本小節](../../reporting/using/creating-a-report-workflow-segment.md)。
 
 **工作流程使用案例：**
 
@@ -109,7 +109,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 依預設，活動未設定，如果未設定，則無法正確處理資料。 每個活動包含幾個頁籤，用於管理特定配置和活動通用選項，如出站轉場、標籤等。
 
 1. 請確定所有活動皆已正確連線。 某些活動需要檢測傳入資料的結構或性質，以提供正確的配置選項。
-1. 連按兩下某個活動或選取該活動，然後按一 **[!UICONTROL Edit]** 下內容相關動作以開啟其設定視窗。
+1. 連按兩下某個活動或選取該活動，然後按一 **[!UICONTROL Edit]**下內容相關動作以開啟其設定視窗。
 1. 編輯活動的標籤。
 1. 定義處理資料所需的所有不同選項。 請參閱本檔案中活動的特定章節，瞭解每個活動的可能選項。
 1. 保存活動，然後對工作流的每個活動重複這些操作。

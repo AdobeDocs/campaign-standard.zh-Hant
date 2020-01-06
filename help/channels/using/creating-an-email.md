@@ -12,7 +12,7 @@ discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: c458acd74eae4be614336afcc2f1d2619563670a
 
 ---
 
@@ -23,13 +23,13 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 1. 開始建立電子郵件行銷活動後，請選取您要使用的範本。
 
-   依預設，您可以從多個範本中選擇每個行銷活動。 這可讓您根據您的需求預先設定某些參數，並指派品牌給您的傳送。 有關詳細資訊，請參閱管 [理模板](../../start/using/about-templates.md)。
+   依預設，您可以從多個範本中選擇每個行銷活動。 這可讓您根據您的需求預先設定某些參數，並指派品牌給您的傳送。 有關詳細資訊，請參閱管 [理模板](../../start/using/marketing-activity-templates.md)。
 
    ![](assets/email_creation_1.png)
 
    >[!NOTE]
    >
-   >預設會隱藏後續和A/B測試範本。 如果要顯示，請勾選左側 **[!UICONTROL Filter]** 的方塊（側面板）。
+   >預設會隱藏後續和A/B測試範本。 如果要顯示，請勾選左側 **[!UICONTROL Filter]**的方塊（側面板）。
 
 1. 輸入電子郵件的一般屬性。 您可以在「標籤」欄位中輸 **入名稱** ，並編輯ID。 活動名稱及其ID都會出現在介面中，但訊息收件者看不到。
 
@@ -58,11 +58,11 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
    >[!NOTE]
    >
-   >若要儲存您的電子郵件，您必須先對內容進行一些編輯。 如果您按 **[!UICONTROL Cancel]** 一下此時，將無法完成精靈，而且您的電子郵件將無法建立。
+   >若要儲存您的電子郵件，您必須先對內容進行一些編輯。 如果您按 **[!UICONTROL Cancel]**一下此時，將無法完成精靈，而且您的電子郵件將無法建立。
 
    接著會顯示電子郵件控制面板。 它可讓您檢查訊息並準 [備傳送](../../sending/using/preparing-the-send.md)。
 
-   右 **[!UICONTROL Edit properties]** 上角的按鈕可讓您編輯電子郵件的屬性。 例如，您可以設定電子郵件，以便在傳送準備時計算其標籤。  此部分列出了可用 [的參數](../../administration/using/configuring-email-channel.md#list-of-email-properties)。
+   右 **[!UICONTROL Edit properties]**上角的按鈕可讓您編輯電子郵件的屬性。 例如，您可以設定電子郵件，以便在傳送準備時計算其標籤。  此部分列出了可用[的參數](../../administration/using/configuring-email-channel.md#list-of-email-properties)。
 
    ![](assets/delivery_dashboard_2.png)
 

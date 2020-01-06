@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: bbc2986fe50948d88ed65b0d43ff61650132aad5
+source-git-commit: cb5cc55c431cbe6050699a35ef2fff270f869dee
 
 ---
 
@@ -34,12 +34,8 @@ source-git-commit: bbc2986fe50948d88ed65b0d43ff61650132aad5
    + 行銷計劃 {#marketing-plans}
       + [方案與行銷活動](start/using/programs-and-campaigns.md)
       + [行銷活動](start/using/marketing-activities.md)
+      + [行銷活動範本](start/using/marketing-activity-templates.md)
       + [時間表](start/using/timeline.md)
-   + 管理範本 {#managing-templates}
-      + [關於範本](start/using/about-templates.md)
-      + [建立新範本](start/using/creating-a-new-template.md)
-      + [建立多語言範本](start/using/creating-a-multilingual-template.md)
-      + [使用範本](start/using/using-a-template.md)
    + 教學課程 {#tutorials}
       + [逐步指南](start/using/step-by-step-guides.md)
       + [操作說明短片](start/using/how-to-videos.md)

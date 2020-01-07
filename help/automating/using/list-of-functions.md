@@ -1,18 +1,18 @@
 ---
 title: 函式清單
 description: 查詢編輯工具允許您使用高級功能執行複雜的過濾。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: fd50fc99-1e7a-479b-beb7-1f246b419d46
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 自動化
-content-type: 參考
-topic-tags: 過濾資料
+audience: automating
+content-type: reference
+topic-tags: filtering-data
 discoiquuid: 3cdbe962-1c59-4cd8-b29e-36aa2562fac6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: fa9d2be71b4bbf5eceadbd1835db324618f9529c
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ## 關於函式 {#about-functions}
 
-查詢編輯工具允許您使用高級功能執行複雜的過濾。 為此，工具浮動視窗包含您 **[!UICONTROL Expression]** 可在工作區中使用的元素。 有關此要素的詳細資訊，請參 [閱特定部分](../../automating/using/advanced-expression-editing.md)。
+查詢編輯工具允許您使用高級功能執行複雜的過濾。 為此，工具浮動視窗包含您 **[!UICONTROL Expression]**可在工作區中使用的元素。 有關此要素的詳細資訊，請參[閱特定部分](../../automating/using/advanced-expression-editing.md)。
 
 此元素可讓您手動輸入條件。 在這裡，您可以使用以下幾節中定義的函式。
 
@@ -321,7 +321,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
   </tr> 
   <tr> 
    <td> <strong>地板</strong><br /> </td> 
-   <td> 傳回大於或等於數字的最大整數<br /> </td> 
+   <td> 傳回小於或等於數字的最大整數<br /> </td> 
    <td> Floor(&lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
@@ -662,7 +662,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ## 聚合 {#aggregates}
 
-僅當從工作流的活動中添 [加其他資料](../../automating/using/query.md#enriching-data) 時，聚合函式才 **[!UICONTROL Query]** 可用。
+僅當從工作流的活動中添 [加其他資料](../../automating/using/query.md#enriching-data) 時，聚合函式才 **[!UICONTROL Query]**可用。
 
 集合函式用於對一組值執行計算。
 

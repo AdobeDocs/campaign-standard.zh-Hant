@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Adobe Campaign Standard 產品文件
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
+source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
 
 ---
 
@@ -15,16 +15,13 @@ source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
 
 ## 新增功能
 
-* **[隱私權管理](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>
-瞭解由 Adobe Campaign 提供的協助您遵從隱私權要求的工具。
+* **[隱私權管理](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>瞭解由 Adobe Campaign 提供的協助您遵從隱私權要求的工具。
 
 * **[傳遞最佳實務](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>了解更多與傳送內容設計和傳送相關的最佳實務。
 
-* **[電子郵件設計工具](designing/using/designing-content-in-adobe-campaign.md)**<br/>
-請參閱重新整理的電子郵件設計工具文件。
+* **[電子郵件設計工具](designing/using/designing-content-in-adobe-campaign.md)**<br/>請參閱重新整理的電子郵件設計工具文件。
 
-* **[登陸頁面](channels/using/getting-started-with-landing-pages.md)**<br/>
-了解更多如何設定登陸頁面。
+* **[Campaign Standard行動指南](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>進一步瞭解行動傳送的一般准則。
 
 [按一下這裡以取得更多更新](rn/using/documentation-updates.md)
 

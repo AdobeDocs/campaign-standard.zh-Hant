@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
+source-git-commit: a3f760385da20a3aa39f96d955cfc2d77b708de2
 
 ---
 
@@ -240,7 +240,13 @@ SMTP參 **數用作** （應用於阻止規則）的篩選器。
 
 該節 **[!UICONTROL Advanced parameters]**包含多個參數。
 
-前兩個欄位可讓您輸入必要資訊，以製作電子郵件標題（回覆位址和回覆位址文字）。 這些資訊可以個人化。 若要這麼做，請按一下將要變更之欄位右側的按鈕，然後新增個人化欄位。 插入和使用個人化欄位在插入個人化欄 [位區段中有詳細說明](../../designing/using/personalization.md#inserting-a-personalization-field) 。
+第一個欄位可讓您輸入必要資訊，以製作電子郵件標題。 您可以在此處管理回覆位址和文字，以及傳送者位址（填入「寄件者：」欄位）。 這些資訊可以個人化。
+
+按一下將要變更之欄位右側的按鈕，然後新增個人化欄位、內容區塊或動態文字。
+
+![](assets/advancedparameters.png)
+
+「個人化電子郵件內容」檔案中詳細說明了插 [入和使用個人化](../../designing/using/personalization.md) 內容。
 
 #### 目標內容 {#target-context}
 
@@ -326,4 +332,3 @@ SMTP參 **數用作** （應用於阻止規則）的篩選器。
 >[!NOTE]
 >
 >如果開啟並點進傳送至密件副本位址的電子郵件，則會在傳送分析中考慮 **[!UICONTROL Total opens]**這**[!UICONTROL Clicks]** 一點，這可能會造成一些誤算。
-

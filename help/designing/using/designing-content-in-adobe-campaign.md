@@ -12,7 +12,7 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: 6881d3e0f22f3766d6a26af90ce3bcbd5e2293da
 
 ---
 
@@ -36,7 +36,7 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 * 有關建立內容的更多資訊：
    * 從頭開始，請參 [閱從頭開始設計電子郵件](../../designing/using/designing-from-scratch.md)。
    * 使用現有內容，請參 [閱使用現有內容設計](../../designing/using/using-existing-content.md)。
-   * 使用整合，請參閱 [多解決方案電子郵件設計](../../designing/using/using-integrations.md)。
+   * 使用Creative cloud整合，請參閱 [多解決方案電子郵件設計](../../designing/using/using-integrations.md)。
 * 如需個人化的詳細資訊，請參 [閱個人化](../../designing/using/personalization.md)。
 
 建立電子郵件時，您可以選擇使用預先定義的範本，或從其他來源載入現有內容。 請參 [閱選擇現有內容](../../designing/using/using-existing-content.md#selecting-an-existing-content)。
@@ -69,27 +69,27 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ### 電子郵件設計人員首頁 {#email-designer-home-page}
 
-建立 [電子郵件時](../../channels/using/creating-an-email.md), **[!UICONTROL Email Designer]** 首頁會在選取電子郵件內容時自動顯示。
+建立 [電子郵件時](../../channels/using/creating-an-email.md), **[!UICONTROL Email Designer]**首頁會在選取電子郵件內容時自動顯示。
 
 ![](assets/email_designer_home_page.png)
 
-此標 **[!UICONTROL Properties]** 簽可讓您編輯電子郵件詳細資訊，例如標籤、寄件者的地址和名稱，或電子郵件主旨。 您也可以按一下畫面上方的電子郵件標籤，以存取此標籤。
+此標 **[!UICONTROL Properties]**簽可讓您編輯電子郵件詳細資訊，例如標籤、寄件者的地址和名稱，或電子郵件主旨。 您也可以按一下畫面上方的電子郵件標籤，以存取此標籤。
 
 ![](assets/email_designer_home_properties.png)
 
-此標 **[!UICONTROL Templates]** 簽可讓您從現成可用的HTML內容或您已建立的範本中選擇，以快速開始設計電子郵件。 請參閱 [內容範本](../../designing/using/using-reusable-content.md#content-templates)。
+此標 **[!UICONTROL Templates]**簽可讓您從現成可用的HTML內容或您已建立的範本中選擇，以快速開始設計電子郵件。 請參閱[內容範本](../../designing/using/using-reusable-content.md#content-templates)。
 
 ![](assets/email_designer_home_templates.png)
 
-此標 **[!UICONTROL Learn & support]** 簽可讓您輕鬆存取相關檔案和教學課程。
+此標 **[!UICONTROL Learn & support]**簽可讓您輕鬆存取相關檔案和教學課程。
 
 ![](assets/email_designer_home_support.png)
 
 如果您未選擇模板，「電子郵件設計器」首頁還允許您選擇開始設計內容的方式：
 
-* 按一下 **[!UICONTROL Create]** 按鈕，從頭開始新內容。 請參 [閱從頭設計電子郵件內容](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)。
-* 按一下按 **[!UICONTROL Upload]** 鈕，從您的電腦上傳檔案。 請參 [閱從檔案匯入內容](../../designing/using/using-existing-content.md#importing-content-from-a-file)。
-* 按一下按 **[!UICONTROL Import from URL]** 鈕，從URL擷取現有內容。 請參 [閱從URL匯入內容](../../designing/using/using-existing-content.md#importing-content-from-a-url)。
+* 按一下 **[!UICONTROL Create]**按鈕，從頭開始新內容。 請參[閱從頭設計電子郵件內容](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)。
+* 按一下按 **[!UICONTROL Upload]**鈕，從您的電腦上傳檔案。 請參[閱從檔案匯入內容](../../designing/using/using-existing-content.md#importing-content-from-a-file)。
+* 按一下按 **[!UICONTROL Import from URL]**鈕，從URL擷取現有內容。 請參[閱從URL匯入內容](../../designing/using/using-existing-content.md#importing-content-from-a-url)。
 
 ## 術語 {#terminology}
 
@@ -105,7 +105,7 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 若要正確使用電子郵件設計人員並盡可能輕鬆地建立最佳電子郵件，建議您套用下列原則：
 
-* 在HTML的&lt;head&gt;區段中使用內嵌樣式，而不是個別的CSS和CSS。 使用內嵌樣式，您就可以最佳化內容片段的儲存和重複使用。
+* 在HTML的&lt;head>區段中使用內嵌樣式，而不是個別的CSS和CSS。 使用內嵌樣式，您就可以最佳化內容片段的儲存和重複使用。
 
    請參 [閱添加內嵌樣式屬性](../../designing/using/styles.md#adding-inline-styling-attributes)。
 
@@ -127,7 +127,7 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ![](assets/email_designer_fragment_patch_message.png)
 
-Adobe建議將您的內容更新至最新版本，以避免發生CSS衝突等問題。 Click **[!UICONTROL Update now]**.
+Adobe建議將您的內容更新至最新版本，以避免發生CSS衝突等問題。 按一下 **[!UICONTROL Update now]**.
 
 如果內容更新期間發生錯誤，請檢查HTML並修正它，然後再次執行此更新。
 

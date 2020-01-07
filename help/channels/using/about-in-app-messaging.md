@@ -1,19 +1,19 @@
 ---
 title: 關於應用程式內訊息傳送
 description: 使用應用程式內傳訊在行動應用程式內顯示訊息或警報。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: 6784cdfc-6db9-41dd-9fbb-2e756a5bcb5f
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 頻道
-content-type: 參考
-topic-tags: 應用程式內訊息
+audience: channels
+content-type: reference
+topic-tags: in-app-messaging
 discoiquuid: a4168cfb-22bf-4ab3-b9d8-6e76e1bdc055
-context-tags: 傳送，觸發器，返回
+context-tags: delivery,triggers,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 若要開始在運用Experience Platform SDK的行動應用程式上傳送應用程式內訊息，您必須符合下列必要條件：
 
-1. 在Adobe Campaign中，請確定您可以存取該 **[!UICONTROL In-App]** 渠道。 如果您無法存取這些渠道，請連絡您的帳戶團隊。
+1. 在Adobe Campaign中，請確定您可以存取該 **[!UICONTROL In-App]**渠道。 如果您無法存取這些渠道，請連絡您的帳戶團隊。
 
 1. 若要將Adobe Campaign standard的行動使用案例與Experience Cloud SDK應用程式搭配運用，行動應用程式必須在Adobe Experience Platform Launch中建立，並在Adobe Campaign Standard中設定。 如需逐步指南，請參閱本頁 [面](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)。
 
@@ -43,3 +43,4 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 * [應用程式內報告](../../reporting/using/in-app-report.md)
 * [推播和應用程式內常見問答集](https://helpx.adobe.com/campaign/kb/push_inapp_faq.html)
 * [Adobe Campaign standard支援的行動使用案例](https://helpx.adobe.com/campaign/kb/configure-launch-rules-acs-use-cases.html)
+* [Campaign Standard行動指南](https://helpx.adobe.com/campaign/kb/acs-mobile.html)

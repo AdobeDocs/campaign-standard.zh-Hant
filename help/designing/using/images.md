@@ -1,23 +1,23 @@
 ---
-title: 管理電子郵件中的影像
+title: 使用影像
 description: 瞭解如何使用電子郵件設計工具管理電子郵件中的影像。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 設計
-content-type: 參考
-topic-tags: 編輯——電子郵件——內容
+audience: designing
+content-type: reference
+topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 7e300de836a74372e411b5b1d584851fac77aafe
 
 ---
 
 
-# 影像 {#images}
+# 使用影像 {#images}
 
 ## 插入影像{#inserting-images}
 
@@ -33,16 +33,16 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 >[!CAUTION]
 >
->如果您選擇編輯電子郵件的HTML版本以直接新增影像，則不得在HTML頁面的 **&lt;script** &gt;標籤中呼叫外部檔案。 這些檔案不會匯入至Adobe Campaign伺服器。
+>如果您選擇編輯電子郵件的HTML版本以直接新增影像，則不得在HTML頁面的 **&lt;script** >標籤中呼叫外部檔案。 這些檔案不會匯入至Adobe Campaign伺服器。
 
 ### 在電子郵件中插入影像 {#inserting-images-in-an-email}
 
 1. 添加結構元件。 如需詳細資訊，請參閱「 [編輯電子郵件結構」](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
-1. 在此結構元件中，新增內容 **[!UICONTROL Image]** 元件。
+1. 在此結構元件中，新增內容 **[!UICONTROL Image]**元件。
 
    ![](assets/des_insert_images_1.png)
 
-1. Click **[!UICONTROL Browse]**. 拖放影像，或按一下以從您的電腦選取檔案。
+1. 按一下 **[!UICONTROL Browse]**. 拖放影像，或按一下以從您的電腦選取檔案。
 
    ![](assets/des_insert_images_2.png)
 
@@ -61,7 +61,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 * 編輯電子郵件時， **Style** 可讓您指定影像大小、背景和邊框。
 * 編輯著陸頁面時，「 **尺寸** 」可讓您指定影像大小（以像素為單位）。
 
-編輯器可讓您處理格式與 **瀏覽器相容的所** 有影像類型。 為了與編輯器相容， **"Flash** "類型的動畫必須插入HTML頁面，如下所示：
+編輯器可讓您處理格式與 **瀏覽器相容的所** 有影像類型。 為了與編輯器相容， **&quot;Flash** &quot;類型的動畫必須插入HTML頁面，如下所示：
 
 ```
 <object type="application/x-shockwave-flash" data="http://www.mydomain.com/flash/your_animation.swf" width="200" height="400">
@@ -89,7 +89,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    ![](assets/email_designer_ccsdktoolbar.png)
 
-1. 完成 **[!UICONTROL Save]** 修改時，按一下。 更新的影像會儲存在Adobe Campaign伺服器上，供您使用。
+1. 完成 **[!UICONTROL Save]**修改時，按一下。 更新的影像會儲存在Adobe Campaign伺服器上，供您使用。
 
 >[!NOTE]
 無法自訂影像編輯器中提供的工具。

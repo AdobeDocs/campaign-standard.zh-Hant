@@ -1,18 +1,18 @@
 ---
 title: 探索通訊通道
 description: 瞭解如何在各種通道上傳送個人化訊息，並建立跨通道宣傳，以更好地鎖定收件者。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: 5d61d8df-8256-4f28-8dd3-e791891e312f
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 頻道
-content-type: 參考
-topic-tags: 關於通信通道
+audience: channels
+content-type: reference
+topic-tags: about-communication-channels
 discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 8bd32e1ca93473c384a3e079362bb9afe978699d
 
 ---
 
@@ -41,5 +41,4 @@ Adobe Campaign提供4個訊息通道：
 
 **相關主題**:
 
-* [最佳化您的傳遞能力](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_Deliverability.html)
-
+* [最佳化您的傳遞能力](../../sending/using/about-deliverability.md)

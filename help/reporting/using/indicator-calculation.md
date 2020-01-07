@@ -12,12 +12,16 @@ discoiquuid: 45b11631-6b32-4074-8c8d-affd06407810
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3033e2f15065685f3c0e7c1759e184738cb67d9c
+source-git-commit: 6291862737c71b63d8107b03245d5207b6151e96
 
 ---
 
 
 # 指示器計算{#indicator-calculation}
+
+>[!NOTE]
+>
+>為了更好地處理及管理大量資料和即時分析，動態報告會使用概略匯整來進行不同的計數估計。 近似聚合提供有界的記憶體使用，而且通常比精確計算更快。
 
 下表提供不同報表中使用的指標清單及其計算公式，視傳送類型而定。
 
@@ -152,13 +156,7 @@ source-git-commit: 3033e2f15065685f3c0e7c1759e184738cb67d9c
    <td> @rateQuarantine<br /> </td> 
    <td> @quarantine/@sent<br /> </td> 
    <td> 比率計算的分母是以「已傳送」計數（「已傳送」+「彈回數」）為基礎。<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> 拒絕<br /> </td> 
-   <td> @resubed<br /> </td> 
-   <td> count(@failureReason=20)<br /> </td> 
-   <td> </td> 
-  </tr> 
+  </tr>
   <tr> 
    <td> 已拒絕<br /> </td> 
    <td> @rejected<br /> </td> 

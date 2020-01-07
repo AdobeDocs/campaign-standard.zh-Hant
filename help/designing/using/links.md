@@ -1,5 +1,5 @@
 ---
-title: 管理連結
+title: 新增連結
 description: 瞭解如何使用電子郵件設計工具管理連結。
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
@@ -12,12 +12,12 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: 7642ae3d027351abe1c44e173d3db50b9568bfcd
 
 ---
 
 
-# 連結 {#links}
+# 新增連結 {#links}
 
 ## 插入連結 {#inserting-a-link}
 
@@ -29,7 +29,7 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 >
 >下圖顯示如何使用電子郵件設計 [器插入](../../designing/using/designing-content-in-adobe-campaign.md) 連結。
 
-1. 選取元素，然後從內容相 **[!UICONTROL Insert link]** 關工具列按一下。
+1. 選取元素，然後從內容相 **[!UICONTROL Insert link]**關工具列按一下。
 
    ![](assets/des_insert_link.png)
 
@@ -79,7 +79,7 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 Adobe Campaign可讓您在收件者按一下電子郵件中包含的URL時追蹤其行為。 如需追蹤的詳細資訊，請參 [閱本節](../../sending/using/tracking-messages.md#about-tracking)。
 
-動 **[!UICONTROL Links]** 作列中的圖示會自動顯示要追蹤之內容的所有URL清單。
+動 **[!UICONTROL Links]**作列中的圖示會自動顯示要追蹤之內容的所有URL清單。
 
 ![](assets/des_links.png)
 
@@ -106,11 +106,11 @@ Adobe Campaign可讓您在收件者按一下電子郵件中包含的URL時追蹤
 >
 >依預設，Adobe Campaign會追蹤除「鏡像頁面URL」和「取消訂閱」連 **結以外的所有內容****URL** 。
 
-您可以編輯欄位，依訊息中 **[!UICONTROL Category]** 使用的URL而重新分組URL。 這些類別可顯示報表，例如在URL中， [然後按一下串流](../../reporting/using/urls-and-click-streams.md)。
+您可以編輯欄位，依訊息中 **[!UICONTROL Category]**使用的URL而重新分組URL。 這些類別可顯示報表，例如在URL中，[然後按一下串流](../../reporting/using/urls-and-click-streams.md)。
 
 ![](assets/des_link_tracking_category.png)
 
-建立報表時，從標 **[!UICONTROL Components]** 簽中選取 **[!UICONTROL Dimension]** 並向下捲動清單以存取追蹤元件。 例如，拖放至工作區 **[!UICONTROL Tracking URL Category]** 以根據每個點按URL的追蹤類別顯示結果。
+建立報表時，從標 **[!UICONTROL Components]**簽中選取**[!UICONTROL Dimension]** 並向下捲動清單以存取追蹤元件。 例如，拖放至工作區 **[!UICONTROL Tracking URL Category]**以根據每個點按URL的追蹤類別顯示結果。
 
 ![](assets/des_link_tracking_report.png)
 

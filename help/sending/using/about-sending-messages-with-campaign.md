@@ -1,18 +1,18 @@
 ---
 title: 關於使用 Campaign 傳送訊息
 description: 探索測試和傳送訊息的不同步驟。
-page-status-flag: 從未激活
-uuid: 5866444-6e7c-4049-b2d2-8b26eabf5a82
-contentOwner: 紹維亞
+page-status-flag: never-activated
+uuid: 58666444-6e7c-4049-b2d2-8b26eabf5a82
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 發送
-content-type: 參考
+audience: sending
+content-type: reference
 topic-tags: about-sending-messages-with-campaign
-discoiquuid: ae2eba1c-24ad-4839-afa9-5a297570d9b
+discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 8bd32e1ca93473c384a3e079362bb9afe978699d
 
 ---
 
@@ -40,5 +40,4 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 * [管理測試設定檔和傳送校樣](../../sending/using/managing-test-profiles-and-sending-proofs.md)
 * [電子郵件呈現](../../sending/using/email-rendering.md)
 * [發生故障時接收警報](../../sending/using/receiving-alerts-when-failures-happen.md)
-* [最佳化您的傳遞能力](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_Deliverability.html)
-
+* [最佳化您的傳遞能力](../../sending/using/about-deliverability.md)

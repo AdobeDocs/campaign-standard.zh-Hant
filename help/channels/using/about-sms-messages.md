@@ -13,7 +13,7 @@ delivercontext-tags: deliveryCreation,wizard;delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
+source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
 
 ---
 
@@ -42,6 +42,7 @@ Adobe Campaign可讓您傳遞SMS（簡訊服務）訊息。
 * [管理範本](../../start/using/marketing-activity-templates.md)
 * [SMS設定](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)
 * [SMS 報告](../../reporting/using/sms-report.md)
+* [Campaign Standard行動指南](https://helpx.adobe.com/campaign/kb/acs-mobile.html)
 
 ## 簡訊傳送範本 {#sms-delivery-template}
 

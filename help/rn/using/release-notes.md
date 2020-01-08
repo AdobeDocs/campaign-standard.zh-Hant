@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
+source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
 * [促銷活動發行計畫](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
 * [最新檔案更新](../../rn/using/documentation-updates.md)
 * [被取代和已移除的功能](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
-* [控制面板](https://helpx.adobe.com/campaign/kb/control-panel.html)
+* [控制面板版本注意事項](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)
 * 舊版注意事項： [2018](../../rn/using/release-notes-2018.md)、 [2017](../../rn/using/release-notes-2017.md)、 [2015-2016](../../rn/using/release-notes-2015-2016.md)
 
 ## 發行版本19.4 - 2019年12月 {#release-19-4---october-2019}
@@ -56,7 +56,7 @@ source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
   <tr> 
    <td> Microsoft Dynamics 365整合(GA)<br /> </td> 
    <td> 
-    <p>Adobe Campaign standard與Microsoft Dynamics 365的整合現已推出。 您將能夠將您的連絡人和自訂實體記錄從Dynamics 365傳輸至Campaign，並從Campaign將電子郵件事件資料傳回Dynamics 365，以便更好地協調銷售／行銷。</p>
+    <p>Adobe Campaign standard和Microsoft Dynamics 365之間的整合現已推出。 您將能夠將您的連絡人和自訂實體記錄從Dynamics 365傳輸至Campaign，並從Campaign將電子郵件事件資料傳回Dynamics 365，以便更好地協調銷售／行銷。</p>
     <p>請參閱詳 <a href="https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html">細檔案</a> ，以設定此整合併檢 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/integrating/microsoft-dynamics365-connector/introduction.html">視操作視訊</a>。</p>
   </td>
   </tr> 
@@ -317,7 +317,7 @@ source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
  <tbody> 
   <tr> 
    <td> 控制面板<br /> </td> 
-   <td> <p>為協助提高管理員使用者的工作效率，您可以輕鬆監控容量並管理執行個體的設定（從SFTP伺服器管理開始）。</p><p>如需詳細資訊，請參 <a href="https://helpx.adobe.com/campaign/kb/control-panel.html">閱詳細說明</a><a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-control-panel-video-use.html">檔案和操作視訊</a>。</p></td> 
+   <td> <p>為協助提高管理員使用者的工作效率，您可以輕鬆監控容量並管理執行個體的設定（從SFTP伺服器管理開始）。</p><p>如需詳細資訊，請參 <a href="https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html">閱詳細說明</a><a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-control-panel-video-use.html">檔案和操作視訊</a>。</p></td> 
   </tr> 
   <tr> 
    <td> 本機通知<br /> </td> 

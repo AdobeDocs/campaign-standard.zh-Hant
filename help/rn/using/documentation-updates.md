@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
+source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 
 ---
 
@@ -117,7 +117,7 @@ GDPR快速入門手冊已經過改進並充實。 它現在是包含GDPR和CCPA�
 
 在「日誌」頁籤中，在工作流疑難解答部分中添加了一個過程，該過程說明如何顯示SQL查詢。 [閱讀更多資訊](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
 
-新增了一篇說明文章，其中包含控制面板中子網域和憑證管理的相關資訊。 [閱讀更多資訊](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html)
+新增了一篇說明文章，其中包含控制面板中子網域和憑證管理的相關資訊。 [閱讀更多資訊](https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/subdomains-branding.html)
 
 描述內容範本和片段的章節已更新。 [閱讀更多資訊](../../designing/using/using-reusable-content.md#content-templates)
 
@@ -179,7 +179,7 @@ GDPR快速入門手冊已經過改進並充實。 它現在是包含GDPR和CCPA�
 
 ### 發行中包含的新功能 {#new-capabilities-included-in-the-release}
 
-控制面板——閱 [讀更多](https://helpx.adobe.com/campaign/kb/control-panel.html)
+控制面板——閱 [讀更多](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
 
 本機通知——閱 [讀更多](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
 

@@ -13,7 +13,7 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
+source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 
 ---
 
@@ -36,7 +36,7 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 >
 >Adobe在產品布建程式期間會使用其他類型的外部帳戶。 從Campaign Standard 17.9發行，FTP外部帳戶仍可定義，但無法再用於新的工作流程活動。 如果已設定連接，則該連接仍處於啟用狀態。
 
-管理員可在功能表下設定外部 **[!UICONTROL Administration > Application settings > External accounts]** 帳戶。
+管理員可在功能表下設定外部 **[!UICONTROL Administration > Application settings > External accounts]**帳戶。
 
 ## 建立外部帳戶 {#creating-an-external-account}
 
@@ -44,7 +44,7 @@ Adobe Campaign隨附一組預先定義的外部帳戶。 若要設定與外部�
 
 技術流程（例如技術工作流程或宣傳工作流程）會使用外部帳戶。 在工作流程中或與任何其他應用程式（Adobe Target、Experience Manager等）進行資料交換時，您需要選取外部帳戶。
 
-1. Click the **[!UICONTROL Create]** button.
+1. Click the **[!UICONTROL Create]**button.
 1. 輸入標籤。 在工作流程中選取外部帳戶時，將會使用標籤和ID。
 1. 選擇要建立的帳戶類型。
 1. 在相關時指定憑證、伺服器位址、埠號或金鑰，以設定帳戶的存取權。
@@ -84,12 +84,12 @@ Adobe Campaign隨附一組預先定義的外部帳戶。 若要設定與外部�
 
 此外，請注意，您嘗試從中啟動SFTP連線的公用IP，必須列在促銷活動例項中。 IP位址的白名單可透過支 [援票證](https://support.neolane.net)，並提供用於驗證的公開金鑰。
 
-SFTP伺服器可從「控制面板」進行管理。 有關詳細資訊，請參閱「 [Control Panel（控制面板）」文檔](https://helpx.adobe.com/campaign/kb/control-panel-sftp.html)。
+SFTP伺服器可從「控制面板」進行管理。 有關詳細資訊，請參閱「 [Control Panel（控制面板）」文檔](https://docs.adobe.com/content/help/en/control-panel/using/sftp-management/about-sftp-management.html)。
 
 >[!NOTE]
 >
 >控制面板僅適用於AWS托管客戶的管理員用戶。
-在此查看您的實例是否托管在AWS [上](https://helpx.adobe.com/campaign/kb/control-panel-faq.html#IMSOrgID)。
+在此查看您的實例是否托管在AWS [上](https://docs.adobe.com/content/help/en/control-panel/using/faq.html#ims-org-id)。
 
 ## Amazon S3外部帳戶 {#amazon-s3-external-account}
 
@@ -99,24 +99,24 @@ Amazon S3伺服器欄位應填寫如下：
 <S3 bucket name>.s3.amazonaws.com/<s3 object path>
 ```
 
-若要以S3加密模式儲存檔案，請核取方 **[!UICONTROL Keep files in S3 encrypted]** 塊。
+若要以S3加密模式儲存檔案，請核取方 **[!UICONTROL Keep files in S3 encrypted]**塊。
 
 ![](assets/external_accounts_2.png)
 
 所需資訊通常由您所連接的伺服器提供商提供。
 
-指定與 **[!UICONTROL AWS Region]** 端點相關聯。 您可以在官方的 [Amazon S3檔案中查看受支援的地區和簽名版本](https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region)。
+指定與 **[!UICONTROL AWS Region]**端點相關聯。 您可以在官方的[Amazon S3檔案中查看受支援的地區和簽名版本](https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region)。
 
 >[!NOTE]
 >
->您應 **[!UICONTROL Receiver server]** 該在沒有您的AWS地區的情況下輸入，以後將自動將其添加到您的URL中。
+>您應 **[!UICONTROL Receiver server]**該在沒有您的AWS地區的情況下輸入，以後將自動將其添加到您的URL中。
 
 ### Amazon S3帳戶建議 {#amazon-s3-account-recommendations}
 
 為協助您設定Amazon S3帳戶，我們建議您遵循下列建議：
 
 * 建立嚴格的儲存貯體原則，以限制對S3儲存貯體的存取。 建立儲存貯體時，可設定儲存貯體原則。 如需詳細資訊，請參閱 [Amazon S3檔案](https://docs.aws.amazon.com/AmazonS3/latest/dev//example-bucket-policies.html)。
-* 建立外部帳戶時，請勾選方塊，啟用加密以將敏感資料儲存在S3儲 **[!UICONTROL Keep files in S3 encrypted]** 存貯體。
+* 建立外部帳戶時，請勾選方塊，啟用加密以將敏感資料儲存在S3儲 **[!UICONTROL Keep files in S3 encrypted]**存貯體。
 * 授予儲存貯體權限，以指定誰可以存取儲存貯體中的物件。 有關貯體權限的詳細資訊，請參閱 [Amazon S3檔案](https://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html)。
 
 ## Adobe Experience manager外部帳戶 {#adobe-experience-manager-external-account}
@@ -142,11 +142,11 @@ Google reCAPTCHA機制可讓您保護著陸頁面，使其免受機器人程式�
 
 若為Google reCAPTCHA V3外部帳戶，請提供下列詳細資訊：
 
-* A **[!UICONTROL Label]** 和 **[!UICONTROL ID]** 您的外部帳戶
+* A **[!UICONTROL Label]**和**[!UICONTROL ID]** 您的外部帳戶
 * **[!UICONTROL Type]**:Google reCAPTCHA
-* 您的 **[!UICONTROL Site key]** 和 **[!UICONTROL Site secret]**
-* A介 **[!UICONTROL Threshold]** 於0和1之間
+* 您的 **[!UICONTROL Site key]**和**[!UICONTROL Site secret]**
+* A介 **[!UICONTROL Threshold]**於0和1之間
 
-   0.0值表 **[!UICONTROL Threshold]** 示它可能是機器人，1.0可能是良好的互動。 預設情況下，可以使用閾值0.5。
+   0.0值表 **[!UICONTROL Threshold]**示它可能是機器人，1.0可能是良好的互動。 預設情況下，可以使用閾值0.5。
 
 ![](assets/external_accounts_3.png)

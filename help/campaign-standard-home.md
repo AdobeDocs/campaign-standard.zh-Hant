@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Adobe Campaign Standard 產品文件
 topic: Premium
 translation-type: tm+mt
-source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
+source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 
 ---
 
@@ -65,7 +65,7 @@ source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
 
 * [發行說明](rn/using/release-notes.md)
 
-* [控制面板](https://helpx.adobe.com/campaign/kb/control-panel.html)
+* [控制面板](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
 
 * [操作說明短片](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
 

@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
+source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 
 ## 發行版本19.4 - 2019年12月 {#release-19-4---october-2019}
 
-### What's new? {#what-s-new-5}
+### What&#39;s new? {#what-s-new-5}
 
 <table> 
  <thead> 
@@ -67,7 +67,7 @@ source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 
 * 動態報告的同意彈出式選單已更新，加入Adobe Campaign Standard和Microsoft Dynamics 365整合。 接受條款後，使用Adobe Campaign Standard / Microsoft Dynamics 365整合和動態報告時，將會包含描述檔資料。 [閱讀詳細內容](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) (CAMP-29766)
 * 修正在接收傳送警報時顯示錯誤聯絡日期的問題。
-* 當使用未知的上下文參數提交交易訊息事件時，Campaign現在會傳回"400"錯誤訊息，而非"500"。 (CAMP-28632)
+* 當使用未知的上下文參數提交交易訊息事件時，Campaign現在會傳回&quot;400&quot;錯誤訊息，而非&quot;500&quot;。 (CAMP-28632)
 * 動態報 **表中已新增** 「排除」校樣區段。 現在預設會選取此區段來篩選報表。 [閱讀更多資訊](../../reporting/using/list-of-components-.md#segments)
 * 「 **訊息過期** 」選項已新增至推播通知。 它可讓您指定訊息不再由Apple(APNS)或Android(FCM)傳送的到期日。 [閱讀更多資訊](../../channels/using/customizing-a-push-notification.md#add-expiration-date)
 * 已對「載入檔案」活 **動進行改** 進：工作流程記錄檔已更清楚、更詳細地說明在無法載入檔案時發生的錯誤。 啟用「保留檔案中的拒 **絕」選項時產生的去話轉場** ，已重新命 **名為「拒絕」**。 [閱讀更多資訊](../../automating/using/load-file.md)
@@ -83,7 +83,7 @@ source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 
 * 修正在電子郵件中插入時，無法追蹤取消訂閱、訂閱和登陸頁面連結的問題。 (CAMP-37809)
 * 修正建立新電子郵件和選取範本時，可能會導致錯誤的問題。 (CAMP-38000)
-* 使用電子郵件設計工具編輯連結時，您現在可以使用「底線」 **連結選項** 。 此外， **Target** 屬性已新增，預設值設為 **None**。 [閱讀更多資訊](../../designing/using/styles.md#about-styling-links)
+* 使用「電子郵件設計器」編輯連結時，您現在可以使用「底線」 **連結選項** 。 此外， **Target** 屬性已新增，預設值設為 **None**。 [閱讀更多資訊](../../designing/using/styles.md#about-styling-links)
 * 修正電子郵件內文文字元件中連結的色彩問題。 (CAMP-37330)
 * 修正刪除影像時無法移除相關連結的問題。 (CAMP-37234)
 * 修正無法在條件中儲存動態內容 **「順序** 」設定的修改的問題。 (CAMP-36883)
@@ -116,10 +116,10 @@ source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 * 已改善大型資源的資料庫效能。
 * 傳送SMS訊息時發生的一些錯誤說明已更清楚。 (CAMP-36558)
 * 現在，在執行直接或通過多個活動連接到自身的工作流的 **Scheduler** activity時，會顯示一條錯誤消息，因為這可能導致實例的工作流伺服器卡住。
-* 已做出改進，幫助排除事務性消息傳送故障：「資料」連結在事件設定畫面中已重新命名為「上次交易事件」，現在會以遞減順序列出已接收的事件。 此外，還建立了新的事務事件狀態："targetingFailed"。 當事務性消息傳遞模組無法豐富用於消息定位的連結時，事務性事件現在將處於此新狀態（而不是「routingFailed」狀態）。
+* 已做出改進，幫助排除事務性消息傳送故障：「資料」連結在事件設定畫面中已重新命名為「上次交易事件」，現在會以遞減順序列出已接收的事件。 此外，還建立了新的事務事件狀態：&quot;targetingFailed&quot;。 當事務性消息傳遞模組無法豐富用於消息定位的連結時，事務性事件現在將處於此新狀態（而不是「routingFailed」狀態）。
 * 已對介面進行改良，以限制對特定地理或組織單位的著陸頁面存取。 其目的是警告著陸頁面可能受可見性條件所限：現在，在建立著陸頁面時，必須選擇地理單位和組織單位。 選取裝置後，現在會顯示包含相關資訊的橫幅。 測試著陸頁面時顯示的錯誤訊息已變得更清楚。
 * 在Campaign Standard API中，如果索引鍵值與原始索引鍵不同，或您使用自己的商業索引鍵作為URI而非Adobe提供的商業索引鍵，則無法使用PATCH操作來修改自訂索引鍵。
-* "阿爾巴尼亞——馬其頓"語已添加到首選語言下拉清單中。 (CAMP-35396)
+* &quot;阿爾巴尼亞——馬其頓&quot;語已添加到首選語言下拉清單中。 (CAMP-35396)
 
 ### 修補程式 {#patches-4}
 
@@ -150,7 +150,7 @@ source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 
 ## 控制面板更新- 2019年8月 {#controlpanel-update---august-2019}
 
-### What's new? {#what-s-new-4}
+### What&#39;s new? {#what-s-new-4}
 
 我們已新增功能，讓管理員使用者在網域的SSL憑證到期之前，先收到通知。 如需詳細資訊，請參閱詳 [細檔案](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html)。
 
@@ -160,7 +160,7 @@ source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 
 ## 發行版本19.3 - 2019年7月 {#release-19-3---july-2019}
 
-### What's new? {#what-s-new-3}
+### What&#39;s new? {#what-s-new-3}
 
 <table> 
  <thead> 
@@ -250,7 +250,7 @@ source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 * 修正結合分叉與排除活動以建立觀眾時，在工作流程中發生的問題。 (CAMP-33401)
 * 修正無法顯示鏡像頁面內容，以及無法傳送重複傳送之證明訊息的問題。 (CAMP-33413)
 * 修正在設定檔與觀眾之間使用「聯合」活動時，會導致錯誤的問題。 此問題是由於識別鍵在輸入轉換中不相容所造成。 (CAMP-33713)
-* 修正在「測試」活動中，連按兩下"recCount"運算式時，無法使用正確語法的問題。 (CAMP-33756)
+* 修正在「測試」活動中，連按兩下&quot;recCount&quot;運算式時，無法使用正確語法的問題。 (CAMP-33756)
 * 修正開啟「帳單」技術工作流程記錄檔時，可能導致錯誤訊息的問題。 (CAMP-34313)
 * 修正在著陸頁面中，設定含訂閱的核取方塊欄位時可能發生的問題。 (CAMP-34369)
 * 修正設定清單並新增「圖示」欄位時發生的問題。 (CAMP-34585)
@@ -305,7 +305,7 @@ source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 
 ## 發行版本19.2 - 2019年5月 {#release-19-2---may-2019}
 
-### What's new? {#what-s-new-}
+### What&#39;s new? {#what-s-new-}
 
 <table> 
  <thead> 
@@ -423,7 +423,7 @@ source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 
 ## 發行版本19.1 - 2019年2月 {#release-19-1---february-2019}
 
-### What's new? {#what-s-new--1}
+### What&#39;s new? {#what-s-new--1}
 
 <table> 
  <thead> 
@@ -512,7 +512,7 @@ source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 * 修正「排程器」活動執行頻率和開始時間發生的問題。 (CAMP-30745)
 * 修正使用擴充的描述檔資源時，產生PKEY時可能發生的問題。 (CAMP-30285)
 * 修正基於日曆日的疲乏規則可能發生的問題。 (CAMP-30136)
-* 修正嘗試存取名稱以"Base"結尾的自訂資源時可能發生的問題。 (CAMP-30109)
+* 修正嘗試存取名稱以&quot;Base&quot;結尾的自訂資源時可能發生的問題。 (CAMP-30109)
 * 修正無法使用PATCH呼叫將描述檔訂閱至服務的問題。 (CAMP-29728)
 * 修正透過「載入檔案」活動匯入XML檔案時，可能會損毀工作流程的問題。 （CAMP-29208和CAMP-28205）
 * 修正連結自訂資源時，無法產生反向基數連結的問題。 (CAMP-30476)
@@ -529,7 +529,7 @@ source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 
 ## 發行版本19.0 - 2019年1月 {#release-19-0---january-2019}
 
-### What's new? {#what-s-new--2}
+### What&#39;s new? {#what-s-new--2}
 
 <table> 
  <colgroup><col style="width: 30%"><col style="width: 70%"></colgroup>
@@ -601,7 +601,7 @@ source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 
 * 修正動態報告中顯示錯誤傳送記錄檔的問題。 (CAMP-23446)
 * 修正可能影響反彈摘要報表數字的問題(CAMP-28703)
-* 修正促銷活動與資產核心服務整合的問題，此問題可能會導致在電子郵件中選取資產 **[!UICONTROL Image shared from Adobe Experience Cloud]** 時無法顯示資產(CAMP-28732)。
+* 修正促銷活動與資產核心服務整合的問題，此問題可能會導致在電子郵件中選取資產 **[!UICONTROL Image shared from Adobe Experience Cloud]**時無法顯示資產(CAMP-28732)。
 * 修正即使在SMPP外部帳戶中授權音譯，仍無法傳送包含「oe」字元的SMS訊息的問題。 (CAMP-29041)
 * 修正在工作流程中使用「區段」活動時，可能顯示重複記錄的問題。 (CAMP-28743)
 * 修正無法刪除工作流程活動中欄上其中一個值映射的問題。 (CAMP-28708)

@@ -13,7 +13,7 @@ context-tags: workflow,use-case,query,wait,delivery
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8f0460eeadb388fef2a3304623086afd36e68962
+source-git-commit: f959441647d1fea41ecce2fc41e3cad3cb536bac
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: 8f0460eeadb388fef2a3304623086afd36e68962
 如需Adobe Campaign工作流程和不同通道的詳細資訊，請查看下列檔案：
 
 * [探索工作流程](../../automating/using/discovering-workflows.md)
-* [通訊通道](../../channels/using/discovering-communication-channels.md)
+* [探索通訊通道](../../channels/using/discovering-communication-channels.md)
 
 ## 建立工作流程 {#creating-workflow}
 
@@ -102,7 +102,7 @@ source-git-commit: 8f0460eeadb388fef2a3304623086afd36e68962
 已設定您的第一個轉場。 若要設定第二個轉場(SMS):
 
 1. 按一下 **[!UICONTROL Add an element]**按鈕以新增轉場。
-1. 定義條件，可讓您擷取已提供行動電話號碼的所有描述檔。 若要這麼做，請使用邏輯運算子在 **[!UICONTROL Mobile]**欄位上建立**[!UICONTROL Is not empty]** 規則。
+1. 定義一個條件，可讓您擷取已提供行動電話號碼的所有描述檔。 若要這麼做，請使用邏輯運算子在 **[!UICONTROL Mobile]**欄位上建立**[!UICONTROL Is not empty]** 規則。
 
    ![](assets/wkf_segment_mobile_not_empty.png)
 
@@ -126,7 +126,7 @@ Adobe Campaign可讓您將傳送新增至工作流程。 若要這麼做，請�
 
 若要建立電子郵件傳送：
 
-1. 在第一個區段 **[!UICONTROL Email delivery]**後拖放一個。
+1. 在第一個區段 **[!UICONTROL Email delivery]**後面拖放。
 1. 連按兩下活動以進行編輯。
 1. Select **[!UICONTROL Simple email]**.
 1. 選擇 **[!UICONTROL Add an outbound transition with the population]**並按一下**[!UICONTROL Next]**。

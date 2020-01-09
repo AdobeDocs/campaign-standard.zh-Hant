@@ -1,5 +1,5 @@
 ---
-title: 管理事務性消息
+title: 管理交易式訊息
 description: 瞭解如何使用API管理交易訊息。
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
@@ -12,12 +12,12 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
+source-git-commit: 45334e2d64c31ee22f11030e19f313b3c1b49936
 
 ---
 
 
-# 管理事務性消息 {#managing-transactional-messages}
+# 管理交易式訊息 {#managing-transactional-messages}
 
 ## 關於交易式訊息傳遞
 
@@ -25,7 +25,7 @@ source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
 
 >[!NOTE]
 >
->建立和發佈事件會顯示在「促銷活 <a href="https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html">動」檔案中</a>。
+>建立和發佈事件會顯示在本 [節中](../../administration/using/configuring-transactional-messaging.md)。
 
 例如，您希望當客戶在購物車中購買產品之前離開您的網站時，觸發「購物車放棄」事件。 若要這麼做，您的網頁開發人員必須使用REST交易訊息API。
 
@@ -40,17 +40,17 @@ source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
 POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 ```
 
-* **&lt;ORGANIZATION&gt;**:您的個人組織ID。 Refer to [this section](../../api/using/must-read.md).
+* **&lt;ORGANIZATION>**:您的個人組織ID。 Refer to [this section](../../api/using/must-read.md).
 
-* **&lt;transactionalAPI&gt;**:交易訊息API endPoints。
+* **&lt;transactionalAPI>**:交易訊息API endPoints。
 
-   事務性消息API端點的名稱取決於實例配置。 它對應於值"mc"後跟您的個人組織ID。 讓我們以Geometrixx公司為例，其組織ID為"geometrixx"。 在這種情況下，開機自檢要求如下：
+   事務性消息API端點的名稱取決於實例配置。 它對應於值&quot;mc&quot;後跟您的個人組織ID。 讓我們以Geometrixx公司為例，其組織ID為&quot;geometrixx&quot;。 在這種情況下，開機自檢要求如下：
 
    `POST https://mc.adobe.io/geometrixx/campaign/mcgeometrixx/<eventID>`
 
    （請注意，交易訊息API端點也會在API預覽期間顯示）
 
-* **&lt;eventID&gt;**:您要傳送的事件類型。 此ID是在建立事件定義時產生。 請參閱促銷活 [動檔案](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html)。
+* **&lt;eventID>**:您要傳送的事件類型。 此ID是在建立事件定義時產生。 請參閱促銷活 [動檔案](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html)。
 
 ### POST請求標題
 
@@ -78,7 +78,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
 >[!NOTE]
 >
->"expiration"和"scheduled"參數的值遵循ISO 8601格式。 ISO 8601指定使用大寫字母"T"來分隔日期和時間。 不過，您可將它從輸入或輸出中移除，以提高可讀性。
+>&quot;expiration&quot;和&quot;scheduled&quot;參數的值遵循ISO 8601格式。 ISO 8601指定使用大寫字母&quot;T&quot;來分隔日期和時間。 不過，您可將它從輸入或輸出中移除，以提高可讀性。
 
 ### 對POST請求的回應
 
@@ -88,7 +88,7 @@ POST響應返回建立事務事件時的事務事件狀態。 要檢索其當前
 
 <br/>
 
-***請求範例***
+***請求範例&#x200B;***
 
 POST要求傳送事件。
 

@@ -12,14 +12,14 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 117577dbc1e36502c66eee6d901bdfbe0b698c06
+source-git-commit: a7dcfd1d3cd6996c6f4b435342eaaace42c706a8
 
 ---
 
 
 # 最新版本{#latest-release}
 
-[發行計畫](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) | [控[制面板版本](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) |文 [件更新](../../rn/using/documentation-updates.md) |先 [前的發行說明](../../rn/using/release-notes-2018.md) |已過 [時的功能](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+[發行計畫](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) |控 [制面板版本](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) |文 [件更新](../../rn/using/documentation-updates.md) |先 [前的發行說明](../../rn/using/release-notes-2018.md) |已過 [時的功能](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
 ## 發行版本19.4 - 2019年12月 {#release-19-4---october-2019}
 
@@ -193,7 +193,7 @@ source-git-commit: 117577dbc1e36502c66eee6d901bdfbe0b698c06
 * 您現在可以定義電子郵件中使用的每個元件是否只會顯示在桌上型裝置上，或只會顯示在行動裝置上。
 * 您現在可以設定Social內容元件的寬度和高度。
 * 修正刪除動態內容後，無法移除動態內容舊原始程式碼的問題。
-* 修正修改電子郵件後，無法更新其主題的問題。
+* 修正修改電子郵件主旨後，無法更新其主旨的問題。
 * 修正將n:n欄結構拖放至工作區後無法選取的問題。
 * 修正電子郵件儀表板中訊息縮圖模糊的問題。
 * 修正Outlook中收到的電子郵件無法正確顯示背景的問題。

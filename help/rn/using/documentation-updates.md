@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
+source-git-commit: 663047d8d06218442b7530a0f290e3943123ebbc
 
 ---
 
@@ -34,6 +34,8 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 已新增有關Adobe Campaign standard中行動傳送之一般方針的新頁面。 [閱讀更多資訊](https://helpx.adobe.com/campaign/kb/acs-mobile.html)
 
 「使用促銷活動」和「Experience Manager」檔案已更新，其中包含如何使用Campaign **-Experience manager整合的新秘訣**。 [閱讀更多資訊](../../integrating/using/integrating-with-experience-manager.md#tips-aem)
+
+API檔案首頁已經過改良，並重新導向不同的主題。 [閱讀更多資訊](../../api/using/about-campaign-standard-apis.md)
 
 ## 檔案更新- 2019年12月 {#doc-updates-december-2019}
 

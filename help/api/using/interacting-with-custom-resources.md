@@ -12,25 +12,25 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
+source-git-commit: 538739417c4ed28ff2991186dac5fb69d1af3afd
 
 ---
 
 
 # 與自訂資源互動 {#interacting-with-custom-resources}
 
-使用 **/customResources** 端點，可以在REST中公開ACS自定義實體。 根據此API，可使用自訂實體與外部端點之間的整合。
+使用 **/customResources** 端點，可以在REST中公開ACS自定義資源。 根據此API，可使用自訂實體與外部端點之間的整合。
 
-/customResources的行為與/profileAndServices端點完全相同。
+/customResources端點的行為與/profileAndServices端點完全相同。
 
-此API中公開的自訂實體包括：
+此API中公開的自訂資源包括：
 
 * 連結到配置檔案實體的所有實體
 * 所有連結至描述檔實體子系的實體
 * 所有與個人檔案無關的實體，以及這些實體的子孫。
 
 >[!NOTE]
->/profileAndServicesExt下可用的自訂實體不會公開於/customResources API中。
+>/profileAndServicesExt下可用的自訂資源不會公開於/customResources API中。
 
 以下是從自訂資源擷取中繼資料的範例：
 

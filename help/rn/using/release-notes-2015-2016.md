@@ -1,18 +1,18 @@
 ---
 title: 發行說明 2015-2016 年
 description: 本頁列出2015年和2016年版本的Adobe Campaign Standard。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: d5a0f6cc-0bed-46cf-8dff-1717fb624f8f
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: rn
-content-type: 參考
+content-type: reference
 topic-tags: campaign-standard-releases
 discoiquuid: a3ce6b80-1858-49d1-8880-3543181127f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: d1ec5dddcf4c1aa3fe6338d35b381986ba32a28d
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ## 發行版本16.11 - 2016年11月 {#release-16-11---november-2016}
 
-### 新功能 {#new-capabilities}
+**新功能**
 
 <table> 
  <thead> 
@@ -48,39 +48,39 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
  </tbody> 
 </table>
 
-### 修補程式 {#patches}
+**修補程式**
 
-#### 一般 {#general}
+_一般_
 
 * 已修正數個安全性問題。
 * 修正REST API中空欄位或重複欄位的數個問題。
 * 您現在可以直接從應用程式的首頁建立SMS訊息和推播通知。
 
-#### 電子郵件和簡訊 {#emails-and-sms-messages}
+_電子郵件和簡訊_
 
 * 修正使用者無法在內容編輯器中上傳zip檔案的問題。
 * 修正無法在傳送證明後開啟證明的問題。
-* 修正當存取A/B測試電子郵件的報表時， **[!UICONTROL Hot Clicks]** 會顯示錯誤訊息的問題。
-* 修正無法套用使用模式所 **[!UICONTROL Show source]** 做的修改的問題。
+* 修正當存取A/B測試電子郵件的報表時， **[!UICONTROL Hot Clicks]**會顯示錯誤訊息的問題。
+* 修正無法套用使用模式所 **[!UICONTROL Show source]**做的修改的問題。
 * 修正可能無法匯入預測性主旨行xml模型檔案的問題。
-* 專為受訓練的主題模型匯入資料的新畫面，現在可在 **[!UICONTROL Administration > Channels > Emails > Predictive Subject Line]** 。
+* 專為受訓練的主題模型匯入資料的新畫面，現在可在 **[!UICONTROL Administration > Channels > Emails > Predictive Subject Line]**。
 * 修正非管理員使用者可在電子郵件設定畫面中編輯授權遮色片的問題。
 
-#### 推播通知 {#push-notifications}
+_推播通知_
 
-* 修正使用範本傳送推播通知後，無法為收件者顯示傳送記錄檔和事件記錄檔的 **[!UICONTROL Send push on profiles]** 問題。
+* 修正使用範本傳送推播通知後，無法為收件者顯示傳送記錄檔和事件記錄檔的 **[!UICONTROL Send push on profiles]**問題。
 * 修正可能無法建立新行動應用程式的問題。
 
-#### 工作流程 {#workflows}
+_工作流程_
 
-* 修正使用活動時發生的效能 **[!UICONTROL Subscription]** 問題。
+* 修正使用活動時發生的效能 **[!UICONTROL Subscription]**問題。
 * 修正當工作流程的內部名稱包含空格時，工作流程無法運作的問題。
 
-#### 整合 {#integrations}
+_整合_
 
 * 修正在電子郵件中使用「從Adobe Marketing cloud共用的 **** 影像」選項時，可能會顯示錯誤的問題。
 
-#### 自訂資源 {#custom-resources}
+_自訂資源_
 
 * 增強的API記錄檔預覽（在兩個擴充的API欄位出版物之間）。
 * 修正自訂資源無法在發佈前刪除的問題。
@@ -89,7 +89,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ## 發行版本16.10 - 2016年10月 {#release-16-10---october-2016}
 
-### 新功能 {#new-capabilities-1}
+**新功能**
 
 <table> 
  <thead> 
@@ -118,43 +118,43 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
  </tbody> 
 </table>
 
-### 修補程式 {#patches-1}
+**修補程式**
 
-#### 一般 {#general-1}
+_一般_
 
 * 已修正數個安全性問題。
 
-#### 電子郵件和簡訊 {#emails-and-sms-messages-1}
+_電子郵件和簡訊_
 
-* SMS外部帳戶設定畫面( **[!UICONTROL Administration > Channels > SMS > SMS accounts]** )已改良。 已在區段中新增數個參 **[!UICONTROL SMSC specifics]** 數，以支援「文字」欄位中的錯誤碼。
+* SMS外部帳戶設定畫面( **[!UICONTROL Administration > Channels > SMS > SMS accounts]**)已改良。 已在區段中新增數個參**[!UICONTROL SMSC specifics]** 數，以支援「文字」欄位中的錯誤碼。
 
-#### 推播通知 {#push-notifications-1}
+_推播通知_
 
-* 修正根據(mobileApp)範本編輯推播通知的對象時，無法顯示預先定義篩選 **[!UICONTROL Send via push notification]** 器的問題。
-* 行動應用程式設定畫面( **[!UICONTROL Administration > Channels > Push Notification > Mobile applications]** )現在會顯示訊息，指出iOS或Android平台已成功建立。
+* 修正根據(mobileApp)範本編輯推播通知的對象時，無法顯示預先定義篩選 **[!UICONTROL Send via push notification]**器的問題。
+* 行動應用程式設定畫面( **[!UICONTROL Administration > Channels > Push Notification > Mobile applications]**)現在會顯示訊息，指出iOS或Android平台已成功建立。
 
-#### 登錄頁面 {#landing-pages}
+_登錄頁面_
 
 * 修正提交著陸頁面表單時無法傳送確認電子郵件的問題。
 
-#### 對象與查詢 {#audiences-and-queries}
+_對象與查詢_
 
 * 修正在查詢編輯器中選取描述檔時發生的數個問題。
 
-#### 交易式訊息 {#transactional-messages}
+_交易式訊息_
 
 * 修正無法取消發佈交易範本的錯誤。
 * 修正導致觸發事件顯示在事件清單中的問題。
 
-#### 整合 {#integrations-1}
+_整合_
 
 * 修正在更新對象後，無法在傳送中使用共用對象的問題。
-* 修正著陸頁面無法使 **[!UICONTROL Image shared from Adobe Marketing Cloud]** 用共用資產（選項）的問題。
+* 修正著陸頁面無法使 **[!UICONTROL Image shared from Adobe Marketing Cloud]**用共用資產（選項）的問題。
 * 已修正編輯從Adobe Audience manager匯入的共用觀眾時發生的問題。
 
 ## 發行版本16.9 - 2016年9月 {#release-16-9---september-2016}
 
-### 新功能 {#new-capabilities-2}
+**新功能**
 
 <table> 
  <thead> 
@@ -187,36 +187,36 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
  </tbody> 
 </table>
 
-### 修補程式 {#patches-2}
+**修補程式**
 
-#### 一般 {#general-2}
+_一般_
 
 * 此版本在介面清單中提供新的篩選和搜尋功能。 這項新功能可用於記錄檔（傳送、追蹤）、服務（訂閱、訂閱歷史記錄）、觀眾和工作流程轉場。
 * 修正客戶個人檔案中觸點數目的數個顯示問題。
 * 已修正數個類型學問題。
 
-#### 電子郵件和簡訊 {#emails-and-sms-messages-2}
+_電子郵件和簡訊_
 
 * 修正允許編輯錯誤校樣的錯誤。 它們現在是唯讀的。
 * 修正當SMS過長或有編碼問題時，會將收件者列入黑名單的問題。
 
-#### 自訂資源 {#custom-resources-1}
+_自訂資源_
 
 * 修正使用自訂資源的進階篩選時，無法顯示所有結果的錯誤。
 
-#### 交易式訊息 {#transactional-messages-1}
+_交易式訊息_
 
 * 現在會自動將前置詞新增至新事件定義的識別碼。
 * 表示介面中事務性消息的表徵圖已更改。
 
-#### 整合 {#integrations-2}
+_整合_
 
 * 修正透過「來自Adobe Target的動態影像」選項插入高解析度影像時 **所發生的顯示錯誤** 。
 * 修正即使未在AMC資料來源中設定目標ID，仍能儲存共用對象的錯誤。
 
 ## 發行版本16.7 - 2016年7月 {#release-16-7---july-2016}
 
-### 新功能 {#new-capabilities-3}
+**新功能**
 
 <table> 
  <thead> 
@@ -236,7 +236,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
   </tr> 
   <tr> 
    <td> 與People Core service整合<br /> </td> 
-   <td> Adobe Campaign與People Core Service <strong></strong> (Profiles &amp; Audiences)的整合現在涵蓋Adobe Marketing cloud宣告的ID。<br /><strong> 這表示您可以匯入區段並匯出由訪客ID或 </strong>Declared<strong>ID組成 </strong>的<br />觀眾。 如需詳細資訊，請參閱詳 <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">細檔案</a>。<br /> </td> 
+   <td> Adobe Campaign與People Core Service <strong></strong> (Profiles &amp; Audiences)的整合現在涵蓋Adobe Marketing cloud宣告的ID。<br /><strong> 這表示您可以匯入區段並匯出由訪客ID或 </strong>Declared<strong>ID組成 </strong>的<br />觀眾。如需詳細資訊，請參閱詳 <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">細檔案</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 傳送記錄檔<br /> </td> 
@@ -245,32 +245,32 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
  </tbody> 
 </table>
 
-### 修補程式 {#patches-3}
+**修補程式**
 
-#### 一般 {#general-3}
+_一般_
 
 * 修正可能導致顯示不相關欄位，而非需要填寫欄位的錯誤。 在編輯查詢中的條件時，比較運算子被多次修改後，就會發生這種情況。
-* 修正為日期欄位定 **[!UICONTROL The last X days/months/quarters/years]** 義相對篩選條件時選項的行為。 計算的時段現在是相對於伺服器日期和時間的滑動時段，而非以日曆為基礎。
+* 修正為日期欄位定 **[!UICONTROL The last X days/months/quarters/years]**義相對篩選條件時選項的行為。 計算的時段現在是相對於伺服器日期和時間的滑動時段，而非以日曆為基礎。
 
-#### 工作流程 {#workflows-1}
+_工作流程_
 
-* 修正在畫面中傳回錯誤值清單，以在活動屬性中選取定位維度的錯誤 **[!UICONTROL Query]** 。
-* 修正在活動中新增平均或計數 **匯總至收集元素時，會強制選取「存在」運算子的****[!UICONTROL Query]** 錯誤。
+* 修正在畫面中傳回錯誤值清單，以在活動屬性中選取定位維度的錯誤 **[!UICONTROL Query]**。
+* 修正在活動中新增平均或計數 **匯總至收集元素時，會強制選取「存在」運算子的****[!UICONTROL Query]**錯誤。
 
-#### 內容編輯 {#content-editing}
+_內容編輯_
 
 * 已修正匯入HTML內容時可能導致顯示問題（自適應設計）的錯誤：當內容在匯入後第一次開啟時，不會再重寫樣式屬性。
 * 修正在動態內容變體上新增條件時，造成的非封鎖錯誤。
 * 修正在著陸頁面內容中新增核取方塊所造成的錯誤。 複選框不可用。
 * 修正當刪除區塊中的文字時，如果游標放在相關區塊的開頭，可能會發生的錯誤。
 
-#### 交易式訊息 {#transactional-messages-2}
+_交易式訊息_
 
 * 整合網站時，您現在可以為任何指定事件定義到期日。 傳送此日期後，便無法再傳送與事件對應的訊息。
 
 ## 發行版本16.6 - 2016年6月 {#release-16-6---june-2016}
 
-### 新功能 {#new-capabilities-4}
+**新功能**
 
 <table> 
  <thead> 
@@ -287,9 +287,9 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
  </tbody> 
 </table>
 
-### 修補程式 {#patches-4}
+**修補程式**
 
-#### 一般 {#general-4}
+_一般_
 
 * 現在行動裝置上已停用工具提示，以確保螢幕上顯示的資訊易於閱讀。
 * 修正使用者無法捲動iPad畫面上特定區域內容的錯誤。
@@ -299,7 +299,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 * 修正設定清單顯示方式時，資源元素無法顯示的錯誤。
 * 修正查詢編輯器檔案總管中的錯誤。 搜尋欄位傳回的結果會保留在搜尋歷史記錄中，並持續顯示在每次新搜尋時。
 
-#### 電子郵件和簡訊 {#emails-and-sms-messages-3}
+_電子郵件和簡訊_
 
 * 修正無法在傳送記錄中復原連結至彈回的資訊的錯誤。
 * 修正無法存取交易訊息動態內容區塊中內容的錯誤。
@@ -307,27 +307,27 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 * 修正傳送建立精靈頂端列的顯示。
 * 傳送的主要金鑰無法再當做個人化欄位使用。
 
-#### 工作流程 {#workflows-2}
+_工作流程_
 
 * 工作流程中兩個活動之間的轉換現在會顯示從一個活動計算並傳送至另一個活動的元素計數。
-* 現在，當活動中新增其他資料時，不相容的欄位會隱 **[!UICONTROL Query]** 藏。
+* 現在，當活動中新增其他資料時，不相容的欄位會隱 **[!UICONTROL Query]**藏。
 * 新增其他資料時顯示的匯整定義視窗已改進為僅提供與使用中資料相容的選件選項(例如：計算平均值只能用於數值資料)。
 * 現在，只有具有管理權限的使用者才能執行立即可用的技術工作流程。
 
-#### 登錄頁面 {#landing-pages-1}
+_登錄頁面_
 
 * 修正著陸頁面屬性中可能截斷32位元AES編碼索引鍵的錯誤。
 * 修正在定義可見性條件或新增動態內容至著陸頁面時，查詢編輯器無法正確顯示的錯誤。
 
-#### 自訂資源 {#custom-resources-2}
+_自訂資源_
 
-* 現 **[!UICONTROL Switch to parameters]** 在在定義與描述檔服務訂閱相關的篩選時，會隱藏該選項。
+* 現 **[!UICONTROL Switch to parameters]**在在定義與描述檔服務訂閱相關的篩選時，會隱藏該選項。
 * 修正從自訂資源設定0-1類型連結時可能發生的錯誤。
 * 修正在自訂資源中新增「日期與時間類型」欄位時，可能無法編輯已定義「常數 **」預設值的****** 錯誤（若相關）。
 
 ## 發行版本16.5 - 2016年5月 {#release-16-5---may-2016}
 
-### 新功能 {#new-capabilities-5}
+**新功能**
 
 <table> 
  <thead> 
@@ -347,7 +347,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
   </tr> 
   <tr> 
    <td> 工作流程：資料濃縮<br /> </td> 
-   <td> 「 <span class="uicontrol">Additional data</span> 」(其他資料 <span class="uicontrol">)標籤現在可用於</span> 「Query type」（查詢類型）活動。 此功能可讓您豐富查詢所定位的資料，並將此資料傳輸至下列工作流程活動，以供其利用。<br /> 新增其他資料後，您可以根據已定義的其他資料建立條件，將額外的篩選層級套用至初始目標資料。<br /> 如需詳細資訊，請參閱詳 <a href="../../automating/using/query.md#enriching-data">細檔案</a>。<br /> </td> 
+   <td> 「 <span class="uicontrol">Additional data</span> 」(其他資料 <span class="uicontrol">)標籤現在可用於</span> 「查詢類型」活動。 此功能可讓您豐富查詢所定位的資料，並將此資料傳輸至下列工作流程活動，以供其利用。<br /> 新增其他資料後，您可以根據已定義的其他資料建立條件，將額外的篩選層級套用至初始目標資料。<br /> 如需詳細資訊，請參閱詳 <a href="../../automating/using/query.md#enriching-data">細檔案</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 情境式說明<br /> </td> 
@@ -356,56 +356,56 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
  </tbody> 
 </table>
 
-### 修補程式 {#patches-5}
+**修補程式**
 
-#### 一般 {#general-5}
+_一般_
 
 * 各種介面符合Marketing cloud標準的新功能。
 * 不同下拉式清單類型的標準化。
 
-#### 電子郵件和簡訊 {#emails-and-sms-messages-4}
+_電子郵件和簡訊_
 
 * 修正在指定錯誤位址遮色片時，無法傳送電子郵件的錯誤。
 * 現在支援TLS通訊協定來傳送電子郵件。 MX管理中的新欄可讓您定義每個網域所需的TLS行為。
 * SMS介面已改善。
 
-#### 工作流程 {#workflows-3}
+_工作流程_
 
 * 各種工作流程介面新功能。
 * 修正顯示「快速」動作時發生的錯誤。
-* 修正使用包含1-N連結的類型活動時，可 **[!UICONTROL Segmentation]** 能導致工作流程失敗的錯誤。
+* 修正使用包含1-N連結的類型活動時，可 **[!UICONTROL Segmentation]**能導致工作流程失敗的錯誤。
 * 修正無法在混合裝置上開啟工作流程轉場的錯誤。
 * 修正首次啟動工作流程時無法顯示暫停按鈕的錯誤。
 
-#### 內容編輯器 {#content-editor}
+_內容編輯器_
 
 * 內容編輯器現在可讓您個人化電子郵件或登陸頁面中包含的任何URL。 請參閱詳細 [檔案](../../designing/using/personalization.md#personalizing-urls)。
 * 修正當影像新增至傳送的建立精靈中，且其內容在之後修改時，可能會遺失的錯誤。
 
-#### 自訂資源 {#custom-resources-3}
+_自訂資源_
 
 * 修正在自訂資源的設定畫面中新增個人化1-N類型連結時發生的錯誤。
 * 已改善準備和發佈自訂資源時的進度列顯示。
 * 修正顯示自訂資源連結清單時發生的錯誤。
 
-#### 交易式訊息 {#transactional-messages-3}
+_交易式訊息_
 
 * 優化了介面友好性以及事務消息引擎的效能和魯棒性。
 * 現在可以暫時暫停事務性消息模板的發佈。 如需詳細資訊，請參閱詳細 [檔案](../../channels/using/event-transactional-messages.md#suspending-a-transactional-message-publication)。
 * 修正可能導致具有不相容定位維度的內容區塊新增至交易訊息範本的錯誤。
 * 修正API預覽無法顯示在事件設定畫面中的錯誤。
 
-#### 對象與查詢 {#audiences-and-queries-1}
+_對象與查詢_
 
 * 有關在查詢編輯器中使用日期的各種修補程式。 請參閱詳細 [檔案](../../automating/using/editing-queries.md#creating-queries)。
 
-#### 管理 {#administration}
+_管理_
 
 * 修正「標準使用者」安全性群組名稱的錯誤，此錯誤會讓使用者無法登入。
 
 ## 發行版本16.3 - 2016年3月 {#release-16-3---march-2016}
 
-### 新功能 {#new-capabilities-6}
+**新功能**
 
 <table> 
  <thead> 
@@ -430,38 +430,38 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
  </tbody> 
 </table>
 
-### 修補程式 {#patches-6}
+**修補程式**
 
-#### 一般 {#general-6}
+_一般_
 
 * 修正排序清單時發生的顯示錯誤：只能針對某些類型的資料反轉指示列排序順序的箭頭。
 * 修正在查詢中新增規則時，限制下拉式選單中顯示元素數的錯誤。
 
-#### 電子郵件和簡訊 {#emails-and-sms-messages-5}
+_電子郵件和簡訊_
 
 * 修正可能無法存取電子郵件轉譯報表的錯誤。
 * 如果未提供傳送者位址，訊息的準備傳送階段現在會傳回錯誤。
 
-#### 工作流程 {#workflows-4}
+_工作流程_
 
 * 某些檔案格式選項是可見的，但在擷取CSV格式檔案時並未考慮。 這些選項現在不再顯示。
-* 修正選取文字檔 **[!UICONTROL Delete the source files after transfer]** 案傳輸選項時所 **[!UICONTROL SFTP]** 造成的錯誤。
-* 修正重新整理頁面後，無法顯示計數 **[!UICONTROL Query]** 器和資料預覽的錯誤。
+* 修正選取文字檔 **[!UICONTROL Delete the source files after transfer]**案傳輸選項時所**[!UICONTROL SFTP]** 造成的錯誤。
+* 修正重新整理頁面後，無法顯示計數 **[!UICONTROL Query]**器和資料預覽的錯誤。
 * 修正在工作流程中開啟某些轉場時，尤其是傳送活動或定位和篩選維度不同之查詢後，造成的錯誤。
 * 修正當新增工作流程後未儲存工作流程時，個人化欄位無法插入至工作流程傳送活動的錯誤。
 * 修正無法顯示電子郵件傳送活動之傳出轉場定位維度的錯誤。
 
-#### 登錄頁面 {#landing-pages-2}
+_登錄頁面_
 
 * 修正個人化欄位無法在著陸頁面的可本地化內容區塊中正常運作的錯誤。
 
-#### 自訂資源 {#custom-resources-4}
+_自訂資源_
 
 * 修正如果已檢查資源畫面定義的選項，以及在中選取了數個欄位，則無法對自訂資源執行搜尋的錯誤 **[!UICONTROL Add search fields]****[!UICONTROL Filter zone composition]** 。
 
 ## 發行版本16.2 - 2016年2月 {#release-16-2---february-2016}
 
-### 新功能 {#new-capabilities-7}
+**新功能**
 
 <table> 
  <thead> 
@@ -490,48 +490,48 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
  </tbody> 
 </table>
 
-### 修補程式 {#patches-7}
+**修補程式**
 
-#### 一般 {#general-7}
+_一般_
 
 * 修正報表、清單和查詢中的數個顯示錯誤。
 * 已修正行動裝置上的數個相容性和顯示錯誤。
 
-#### 電子郵件和簡訊 {#emails-and-sms-messages-6}
+_電子郵件和簡訊_
 
 * 修正建立訊息（電子郵件或SMS）時，用來插入個人化欄位的按鈕無法顯示的錯誤。
 * 已修正可能無法正確傳送透過Mblox傳送的SMS訊息的錯誤。
 
-#### 對象與查詢 {#audiences-and-queries-2}
+_對象與查詢_
 
 * 修正在修改篩選維度後，在查詢中新增其他條件時可能造成的計數錯誤。
 * 修正預覽查詢結果時，可能導致不正確分頁的錯誤。
 
-#### 內容編輯 {#content-editing-1}
+_內容編輯_
 
 * 修正使用個人化枚舉時，可能無法正確考慮動態內容設定的錯誤。
 
-#### 工作流程 {#workflows-5}
+_工作流程_
 
-* 修正當活動標籤中有空行時，工作流程中的任何動作都無法執行的 **[!UICONTROL Fields to update]** 錯誤 **[!UICONTROL Update data]** 。
+* 修正當活動標籤中有空行時，工作流程中的任何動作都無法執行的 **[!UICONTROL Fields to update]**錯誤**[!UICONTROL Update data]** 。
 * 修正無法匯入包含地理／組織單位資訊的資料的錯誤。
-* 修正新增規則類型 **[!UICONTROL Change axis]** 所造成的 **[!UICONTROL Exclusion]** 錯誤。
-* 修正當控制活動的對外轉換時，可能會建立不想要的額外區段的錯 **[!UICONTROL Segmentation]** 誤。
+* 修正新增規則類型 **[!UICONTROL Change axis]**所造成的**[!UICONTROL Exclusion]** 錯誤。
+* 修正當控制活動的對外轉換時，可能會建立不想要的額外區段的錯 **[!UICONTROL Segmentation]**誤。
 * 修正在工作流程範本中載入檔案所造成的錯誤。
-* 修正可能無法將空格用作活動中欄分隔符的 **[!UICONTROL Load file]** 錯誤。
+* 修正可能無法將空格用作活動中欄分隔符的 **[!UICONTROL Load file]**錯誤。
 
-#### 自訂資源 {#custom-resources-5}
+_自訂資源_
 
 * 修正匯入套件後，如果匯出時已發佈自訂資源，自訂資源狀態無法重新草稿的錯誤。
 
-#### 套件 {#packages}
+_套件_
 
 * 修正無法匯出包含工作流程的套件的錯誤。
 * 修正可能無法選取相同資源之數個元素的錯誤。
 
 ## 發行版本16.1 - 2016年1月 {#release-16-1---january-2016}
 
-### 新功能 {#new-capabilities-8}
+**新功能**
 
 <table> 
  <thead> 
@@ -564,19 +564,19 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
  </tbody> 
 </table>
 
-### 修補程式 {#patches-8}
+**修補程式**
 
-#### 一般 {#general-8}
+_一般_
 
 * 已改善混合／觸控螢幕裝置上與Internet explorer和Chrome的相容性。
 * 修正當所指示的電子郵件位址包含語法錯誤時，可能導致新使用者／描述檔／測試描述檔所輸入的所有資料遺失的錯誤。
 
-#### 電子郵件和簡訊 {#emails-and-sms-messages-7}
+_電子郵件和簡訊_
 
 * 已修正無法在電子郵件預覽畫面中產生內容縮圖的錯誤。
 * 修正無法在訊息預覽畫面中顯示訊息（電子郵件或SMS）原始內容的錯誤。
 
-#### 對象與查詢 {#audiences-and-queries-3}
+_對象與查詢_
 
 * 修正無法在「服務」資 **源中建立** 「查詢」類型對象的 **錯誤** 。
 * 修正在進階模式中編輯查詢條件時，功能清單無法正確顯示的錯誤。
@@ -584,43 +584,43 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 * 修正無法建立包含傳送KPI篩選器的查詢的錯誤。
 * 修正可能無法預覽從工作流程建立之對象內容的錯誤。
 
-#### 自訂資源 {#custom-resources-6}
+_自訂資源_
 
 * 修正當自訂資源包含動態預設值的欄位時，可能導致伺服器當機的錯誤。
-* 修正在定義自訂資源畫面時，移動區段中的元素， **[!UICONTROL Detail screen configuration]** 然後刪除區段中的元素所造成的錯誤。
+* 修正在定義自訂資源畫面時，移動區段中的元素， **[!UICONTROL Detail screen configuration]**然後刪除區段中的元素所造成的錯誤。
 * 修正當為未包含0的整數清單定義 **預設值** ，且其可能值範圍中未包 **含** 0時發生的錯誤。
 * 修正重新初始化後，自訂資源的詳細資料畫面設定無法新增元素的錯誤。
 
-#### 工作流程 {#workflows-6}
+_工作流程_
 
 * 修正可能導致顯示工作流程中所有活動的記錄，而非只顯示所選活動記錄的錯誤。
-* 修正活動中的錯 **[!UICONTROL Scheduler]** 誤。 未 **[!UICONTROL Day of the month]** 正確考慮此選項，並由取代 **[!UICONTROL Week day]** 。
-* 修正當過期模式設 **[!UICONTROL Scheduler]** 為時，活動無法正常運作的錯誤 **[!UICONTROL After a certain number of iterations]** 。
-* 修正使用活動匯出資料時發生的 **[!UICONTROL Extract file]** 錯誤。 導出檔案中顯示的行數低於導出元素數。
-* 修正可能無法選取活動中 **[!UICONTROL Load file]** 檔案的錯誤。
-* 修正無法刪除活動中要更新的欄 **[!UICONTROL Update data]** 位的錯誤。
+* 修正活動中的錯 **[!UICONTROL Scheduler]**誤。 未**[!UICONTROL Day of the month]** 正確考慮此選項，並由取代 **[!UICONTROL Week day]**。
+* 修正當過期模式設 **[!UICONTROL Scheduler]**為時，活動無法正常運作的錯誤**[!UICONTROL After a certain number of iterations]** 。
+* 修正使用活動匯出資料時發生的 **[!UICONTROL Extract file]**錯誤。 導出檔案中顯示的行數低於導出元素數。
+* 修正可能無法選取活動中 **[!UICONTROL Load file]**檔案的錯誤。
+* 修正無法刪除活動中要更新的欄 **[!UICONTROL Update data]**位的錯誤。
 * 修正在開啟工作流程執行記錄後，無法儲存對工作流程所做的修改的錯誤。
-* 修正如果將活動設 **[!UICONTROL Load file]** 定為從其傳入轉換使用檔案，且此檔案已使用活動載入，則會執行兩次的錯 **[!UICONTROL Transfer file]** 誤。
+* 修正如果將活動設 **[!UICONTROL Load file]**定為從其傳入轉換使用檔案，且此檔案已使用活動載入，則會執行兩次的錯**[!UICONTROL Transfer file]** 誤。
 * 修正「排除」活動無法正確處理某些臨時實體的 **錯誤** 。
-* 修正當定位維度和在活 **[!UICONTROL Query]** 動中設定的篩選維度不同時，可能無法正確執行活動的錯誤。
-* 修正新增至活動的傳出轉場自動命名錯誤，此 **[!UICONTROL Fork]** 錯誤可能會阻止儲存工作流程。
+* 修正當定位維度和在活 **[!UICONTROL Query]**動中設定的篩選維度不同時，可能無法正確執行活動的錯誤。
+* 修正新增至活動的傳出轉場自動命名錯誤，此 **[!UICONTROL Fork]**錯誤可能會阻止儲存工作流程。
 
-#### 內容編輯 {#content-editing-2}
+_內容編輯_
 
 * 修正編輯內容時，可能導致圖示或搜尋列顯示不理想的錯誤。
 
-#### 登錄頁面 {#landing-pages-3}
+_登錄頁面_
 
 * 修正無法使用套件匯入來匯入著陸頁面的錯誤。
 
-#### 交易式訊息 {#transactional-messages-4}
+_交易式訊息_
 
 * 現在，可以在「消息中心推播代理」運算子的安全參數中指定可信IP地址。
 * 修正可能無法建立新類型事件的錯誤。
 
 ## 發行版本15.11 - 2015年11月 {#release-15-11---november-2015}
 
-### 新功能 {#new-capabilities-9}
+**新功能**
 
 <table> 
  <thead> 
@@ -657,44 +657,44 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
  </tbody> 
 </table>
 
-### 修補程式 {#patches-9}
+**修補程式**
 
-#### 一般 {#general-9}
+_一般_
 
 * 修正可能無法從管理員帳戶存取執行個體一般參數的錯誤。
 * **現在** ，自訂資源中已正確考慮浮動資料。
 * 修正已執行簡化匯入清單中的顯示錯誤，此錯誤是在修改對應範本的狀態時造成的。
 
-#### 登錄頁面 {#landing-pages-4}
+_登錄頁面_
 
 * 已修正著陸頁面範本的某些元素，這些元素在英文例項上可能會以法文錯誤顯示。
 
-#### Audiences {#audiences}
+_觀眾_
 
 * 修正從Adobe Marketing cloud匯入的觀眾無法顯示在觀眾清單中的錯誤。
 * 修正定義查詢時，可能會強制區分大小寫的錯誤。
 * 修正在定義查詢時無法篩選對象的錯誤。
 * 已修正可能無法在對象中取消動作的錯誤。
 
-#### 工作流程 {#workflows-7}
+_工作流程_
 
-* 修正無法手動設定活動中要更新的欄 **[!UICONTROL Update data]** 位的錯誤。
-* 修正如果在圖中放置活 **[!UICONTROL Query]** 動後未儲存工作流程，在開啟時可能導致活動無限載入的錯誤。
-* 修正在計算或預覽從工作流程中選取的對象時，伺服器會停止的 **[!UICONTROL Query]** 錯誤。
+* 修正無法手動設定活動中要更新的欄 **[!UICONTROL Update data]**位的錯誤。
+* 修正如果在圖中放置活 **[!UICONTROL Query]**動後未儲存工作流程，在開啟時可能導致活動無限載入的錯誤。
+* 修正在計算或預覽從工作流程中選取的對象時，伺服器會停止的 **[!UICONTROL Query]**錯誤。
 * 修正開啟工作流程中的活動時可能出現的非嚴重錯誤。
-* 修正無法將活動設 **[!UICONTROL Scheduler]** 定為每天執行數次工作流程的錯誤。
+* 修正無法將活動設 **[!UICONTROL Scheduler]**定為每天執行數次工作流程的錯誤。
 * 修正無法執行查詢的欄位在某些工作流程活動中出現的錯誤。
-* 修正可能導致使用者無法在出站轉移的傳送上，找 **[!UICONTROL Query]** 到新增的KPI的錯誤。
+* 修正可能導致使用者無法在出站轉移的傳送上，找 **[!UICONTROL Query]**到新增的KPI的錯誤。
 * 修正將檔案匯入工作流程後，無法建立檔案對象的錯誤。
 * 修正當使用資源的 **location/address3** field時，設定檔無法更新資料的錯誤。
 * 修正導致異構活動集合無法在工作流程中複製的錯誤。
 * 修正無法顯示SQL的錯誤，從而允許在工作流程中針對重複傳送診斷錯誤。
 
-#### 內容編輯器 {#content-editor-1}
+_內容編輯器_
 
 * 已修正導致無法在著陸頁面或電子郵件的原始碼中搜尋的錯誤。
 
-#### 套件 {#packages-1}
+_套件_
 
 * 已修正可能無法將某些類型的元素匯出至封裝（尤其是著陸頁面、工作流程）的各種錯誤。
 * 修正如果標籤已修改，則會顯示前一個套件匯入標籤的錯誤。
@@ -702,7 +702,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ## 發行版本15.10 - 2015年10月 {#release-15-10---october-2015-}
 
-### 新功能 {#new-capabilities-10}
+**新功能**
 
 <table> 
  <thead> 
@@ -735,54 +735,54 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
  </tbody> 
 </table>
 
-### 修補程式 {#patches-10}
+**修補程式**
 
-#### 電子郵件 {#email}
+_電子郵件_
 
 * 修正無法從鏡像頁面正確運作服務取消訂閱連結的錯誤。
 * 修正電子郵件傳送標籤無法正確顯示在電子郵件編輯頁面上的錯誤。
-* 修正無法在複製的傳送范 **[!UICONTROL Routing]** 本中選取外部帳戶的錯誤。
+* 修正無法在複製的傳送范 **[!UICONTROL Routing]**本中選取外部帳戶的錯誤。
 
-#### Audiences {#audiences-1}
+_觀眾_
 
 * 修正當查詢中使用1-N連結時，造成對象計數期間發生的錯誤。
 * 修正無法在電子郵件傳送的目標對象中選取描述檔的錯誤。
 
-#### 工作流程 {#workflows-8}
+_工作流程_
 
 * 修正在工作流程中設定電子郵件傳送時，可能導致顯示問題的錯誤。
-* 修正可能導致活動無法正 **[!UICONTROL Load file]** 常運作的錯誤。 然後會出現空白錯誤訊息。
-* 修正可能導致活動無法正 **[!UICONTROL Transfer file]** 常運作的錯誤。 存取權未一律正確納入考量。
-* 修正如果工作流程包含 **[!UICONTROL Recurring email]** 。
+* 修正可能導致活動無法正 **[!UICONTROL Load file]**常運作的錯誤。 然後會出現空白錯誤訊息。
+* 修正可能導致活動無法正 **[!UICONTROL Transfer file]**常運作的錯誤。 存取權未一律正確納入考量。
+* 修正如果工作流程包含 **[!UICONTROL Recurring email]**。
 * 修正在工作流程中無法建立電子郵件傳送，或無法將主旨和定義內容納入考量的錯誤。
-* 修正在設定簡化匯入範本的工作流程時，可能無法在活 **[!UICONTROL Update data]** 動中選取協調金鑰的錯誤。
+* 修正在設定簡化匯入範本的工作流程時，可能無法在活 **[!UICONTROL Update data]**動中選取協調金鑰的錯誤。
 * 修正刪除活動後無法儲存工作流程的錯誤。
 
-#### 平台 {#platform}
+_平台_
 
 * 修正當自訂資源包含元素資源類型的連結時，無法建立新元素的錯誤。
 * 修正某些記錄寫入時，可能導致15分鐘延遲的錯誤。
-* 修正當依或欄排序時，無法顯示行銷活動清單的 **[!UICONTROL Date]** 錯 **[!UICONTROL Indicators]** 誤。
+* 修正當依或欄排序時，無法顯示行銷活動清單的 **[!UICONTROL Date]**錯**[!UICONTROL Indicators]** 誤。
 
-#### 登錄頁面 {#landing-pages-5}
+_登錄頁面_
 
 * 修正選取測試描述檔以預覽著陸頁面時發生的錯誤。
 
-#### 交易式訊息 {#transactional-messages-5}
+_交易式訊息_
 
 * 修正刪除測試設定檔上的事件後，可能導致應用程式當機的錯誤。
 
-#### 報表 {#reports}
+_報表_
 
-* 修正可能導致報表和傳送錯誤資料的 **[!UICONTROL deliveryThroughputReport]** 錯誤 **[!UICONTROL deliveryTrackingReport]** 。
+* 修正可能導致報表和傳送錯誤資料的 **[!UICONTROL deliveryThroughputReport]**錯誤**[!UICONTROL deliveryTrackingReport]** 。
 
-#### 內容編輯器 {#content-editor-2}
+_內容編輯器_
 
 * 修正處理動態內容區塊時發生的HTML標籤管理錯誤。
 
 ## 發行版本15.8 - 2015年8月 {#release-15-8---august-2015}
 
-### 新功能 {#new-capabilities-11}
+**新功能**
 
 <table> 
  <thead> 
@@ -802,7 +802,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
     <ul> 
      <li> 適用於方案的D+186 </li> 
      <li> D+61促銷活動 </li> 
-    </ul>  如需詳細資訊，請參閱詳 <a href="../../start/using/programs-and-campaigns.md">細檔案</a>。<br /> </td> 
+    </ul> 如需詳細資訊，請參閱詳 <a href="../../start/using/programs-and-campaigns.md">細檔案</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 電子郵件<br /> </td> 
@@ -819,41 +819,41 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
  </tbody> 
 </table>
 
-### 修補程式 {#patches-11}
+**修補程式**
 
-#### 顯示 {#display}
+_顯示_
 
 * 修正Safari中查詢編輯器中並列兩個欄位的錯誤。
 
-#### 內容編輯器 {#content-editor-3}
+_內容編輯器_
 
-* 修正無法在電子郵件主旨中使用字元「&lt;」、「&amp;」和「&gt;」的錯誤。
+* 修正無法在電子郵件主旨中使用字元「&lt;」、「&amp;」和「>」的錯誤。
 
-#### 電子郵件 {#email-1}
+_電子郵件_
 
 * 修正使用者無法在動態文字後新增文字的錯誤。
 
-#### 清單 {#lists}
+_清單_
 
 * 修正工作流程執行記錄檔 **中的** 「訊息」欄無法正確匯出的錯誤。
 
-#### 設定檔與閱聽眾 {#profiles-and-audiences}
+_設定檔與閱聽眾_
 
 * 修正導致重複確認元素複製或刪除時間的錯誤。 **僅限使用Internet Explorer 11的混合裝置**。
 
-#### 工作流程 {#workflows-9}
+_工作流程_
 
 * 修正可能無法從工作流程傳送電子郵件的錯誤。
-* 修正當未在活動中指定拒絕檔案名稱時，工作流無法執行的錯誤 **[!UICONTROL Load file]** 問題。
-* 修正當活動設為時，工作流程無 **[!UICONTROL Execution frequency]** 法執行 **[!UICONTROL Schedule]** 的錯誤 **[!UICONTROL Daily]** 。
+* 修正當未在活動中指定拒絕檔案名稱時，工作流無法執行的錯誤 **[!UICONTROL Load file]**問題。
+* 修正當活動設為時，工作流程無 **[!UICONTROL Execution frequency]**法執行**[!UICONTROL Schedule]** 的錯誤 **[!UICONTROL Daily]**。
 
-#### 平台 {#platform-1}
+_平台_
 
 * 修正無法在負載平衡環境中產生縮圖的錯誤。
 
 ## 發行版本15.7 - 2015年7月 {#release-15-7---july-2015}
 
-### 新功能 {#new-capabilities-12}
+**新功能**
 
 <table> 
  <thead> 
@@ -886,7 +886,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
      <li> 在電子郵件主題中， </li> 
      <li> 在HTML模式中， </li> 
      <li> 或在文字模式中。 </li> 
-    </ul>  有關使用此功能的詳細資訊，請參閱詳 <a href="../../channels/using/defining-dynamic-text.md">細檔案</a>。<br /> </td> 
+    </ul> 有關使用此功能的詳細資訊，請參閱詳 <a href="../../channels/using/defining-dynamic-text.md">細檔案</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 方案與促銷活動——報表<br /> </td> 
@@ -895,33 +895,33 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
  </tbody> 
 </table>
 
-### 修補程式 {#patches-12}
+**修補程式**
 
-#### 安裝 {#installation}
+_安裝_
 
 * Adobe Campaign例項名稱現在限制為32個字元。
 
-#### 工作流程 {#workflows-10}
+_工作流程_
 
 * 修正在工作流程中編輯查詢時，無法定位「傳送」資源的錯誤。
 * 修正編輯工作流程中的查詢時，無法處理某些連結資源的錯誤。
 * 修正當工作流程已執行時， **Recurring delivery** activity無法修改的錯誤。
 
-#### 電子郵件 {#emails}
+_電子郵件_
 
 * 修正當透過運算式編輯器新增動態內容時，在傳送電子郵件之前無法檢查JavaScript語法錯誤的錯誤。
 
-#### 登錄頁面 {#landing-pages-6}
+_登錄頁面_
 
 * 修正無法從平板電腦編輯著陸頁面的錯誤。
 
-#### 資產核心服務 {#assets-core-service}
+_資產核心服務_
 
 * 從正在編輯的電子郵件或登陸頁面選擇共用資源時，現在會篩選Adobe Campaign的可用資源清單。
 
 ## 發行版本15.6 - 2015年6月 {#release-15-6---june-2015}
 
-### 新功能 {#new-capabilities-13}
+**新功能**
 
 <table> 
  <thead> 
@@ -970,9 +970,9 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
  </tbody> 
 </table>
 
-### 修補程式 {#patches-13}
+**修補程式**
 
-#### 清單 {#lists-1}
+_清單_
 
 * 從清單中刪除元素現在會自動重新整理清單。
 * 修正無法從僅包含一欄的清單中選取元素的錯誤。
@@ -980,22 +980,22 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 * 現在，測試設定檔的中間名稱和標題都可以顯示在測試設定檔清單中。
 * 修正在Mozilla Firefox清單中選取核取方塊時發生的錯誤。
 
-#### Audiences {#audiences-2}
+_觀眾_
 
-* 修正無法在觀眾介 **[!UICONTROL Add]** 面中使用按鈕的錯誤。
+* 修正無法在觀眾介 **[!UICONTROL Add]**面中使用按鈕的錯誤。
 
-#### 電子郵件 {#emails-1}
+_電子郵件_
 
 * 修正編輯電子郵件時，預覽按鈕無法連續使用兩次的JavaScript錯誤。
-* 修正使用Internet Explorer 11 **[!UICONTROL Edit properties]** 的Microsoft Surface Pro3 **[!UICONTROL Show proofs]** 平板電腦無法使用和按鈕的錯誤。
+* 修正使用Internet Explorer 11 **[!UICONTROL Edit properties]**的Microsoft Surface Pro3**[!UICONTROL Show proofs]** 平板電腦無法使用和按鈕的錯誤。
 * 修正可能無法顯示電子郵件傳送記錄檔的錯誤。
 
-#### 登錄頁面 {#landing-pages-7}
+_登錄頁面_
 
 * 修正在登陸頁面中編 **** 輯內容時，無法使用品牌標誌內容區塊的錯誤。
 * 修正如果為著陸頁面指定有效日期，則無法在行銷活動清單中顯示著陸頁面的錯誤。
 
-#### 工作流程 {#workflows-11}
+_工作流程_
 
 * 修正在設定「區段」活動時，群組模式中的區段無法正常運作的 **錯誤** 。
 * 修正在設定「區段」活動後無法選取轉場的 **錯誤** 。
@@ -1006,13 +1006,13 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 * 修正「排除」活動無法正確考慮排除規則的 **錯誤** 。
 * 修正在工作流程中刪除電子郵件傳送活動時發生的錯誤。 對應的傳送現在也會從行銷活動清單中移除。
 
-#### 導覽 {#navigation}
+_導覽_
 
 * 您現在可以使用Tab鍵，在同一頁的欄位之間正確導覽。
 
 ## 發行版本15.4 - 2015年4月 {#release-15-4---april-2015}
 
-### 新功能 {#new-capabilities-14}
+**新功能**
 
 <table> 
  <thead> 
@@ -1062,7 +1062,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ## 發行版本15.3 - 2015年3月 {#release-15-3---march-2015}
 
-### 新功能 {#new-capabilities-15}
+**新功能**
 
 <table> 
  <thead> 
@@ -1087,9 +1087,9 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
  </tbody> 
 </table>
 
-### 修補程式 {#patches-14}
+**修補程式**
 
-#### 一般 {#general-10}
+_一般_
 
 * 修正建立傳送時無法顯示收件者的錯誤。
 * 修正無法使用基於「已開啟的收件者」條件的對象的錯誤。

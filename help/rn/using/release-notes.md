@@ -1,5 +1,5 @@
 ---
-title: 發行說明 年
+title: 最新版本
 description: 本頁列出Adobe Campaign Standard的所有最新版本。
 page-status-flag: never-activated
 uuid: 1cf2e40c-beca-43db-8261-a1820ee86ad3
@@ -12,37 +12,27 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
+source-git-commit: 117577dbc1e36502c66eee6d901bdfbe0b698c06
 
 ---
 
 
-# 發行說明{#release-notes}
+# 最新版本{#latest-release}
 
-本頁列出了所有2019年版本及其新功能和修補程式。 此外還包含控制面板更新。
-
-其他資源：
-
-* [促銷活動發行計畫](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
-* [最新檔案更新](../../rn/using/documentation-updates.md)
-* [被取代和已移除的功能](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
-* [控制面板版本注意事項](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)
-* 舊版注意事項： [2018](../../rn/using/release-notes-2018.md)、 [2017](../../rn/using/release-notes-2017.md)、 [2015-2016](../../rn/using/release-notes-2015-2016.md)
+[發行計畫](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) | [控[制面板版本](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) |文 [件更新](../../rn/using/documentation-updates.md) |先 [前的發行說明](../../rn/using/release-notes-2018.md) |已過 [時的功能](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
 ## 發行版本19.4 - 2019年12月 {#release-19-4---october-2019}
 
-### What&#39;s new? {#what-s-new-5}
+**新增功能？**
 
 <table> 
  <thead> 
   <tr> 
-   <th> 功能<br /> </th> 
-   <th> 說明<br /> </th> 
+   <th> <strong>加州消費者隱私法(CCPA)</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> 加州消費者隱私法(CCPA)<br /> </td> 
    <td> <p>CCPA是加州新推出的隱私法，協調並現代化2020年1月1日生效的資料保護要求。 CCPA適用於持有居住在加州之資料主體資料的Adobe Campaign客戶。</p>
    <p>除了Adobe Campaign中已提供的隱私權功能（包括同意管理、資料保留設定和使用者角色）外，我們還將利用這個機會加入其他功能，以協助您做好CCPA的準備：</p>
    <ul>
@@ -53,17 +43,26 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
     <p>請參閱 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">how-to影片</a>。</p>
 </td> 
   </tr> 
+ </tbody> 
+</table>
+
+<table> 
+ <thead> 
   <tr> 
-   <td> Microsoft Dynamics 365整合(GA)<br /> </td> 
+   <th> <strong>Microsoft Dynamics 365整合(GA)</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
    <td> 
-    <p>Adobe Campaign standard和Microsoft Dynamics 365之間的整合現已推出。 您將能夠將您的連絡人和自訂實體記錄從Dynamics 365傳輸至Campaign，並從Campaign將電子郵件事件資料傳回Dynamics 365，以便更好地協調銷售／行銷。</p>
+    <p>Adobe Campaign standard與Microsoft Dynamics 365的整合現已推出。 您將能夠將您的連絡人和自訂實體記錄從Dynamics 365傳輸至Campaign，並從Campaign將電子郵件事件資料傳回Dynamics 365，以便更好地協調銷售／行銷。</p>
     <p>請參閱詳 <a href="https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html">細檔案</a> ，以設定此整合併檢 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/integrating/microsoft-dynamics365-connector/introduction.html">視操作視訊</a>。</p>
   </td>
   </tr> 
  </tbody> 
 </table>
 
-### 改進 {#improvements-3}
+**改進**
 
 * 動態報告的同意彈出式選單已更新，加入Adobe Campaign Standard和Microsoft Dynamics 365整合。 接受條款後，使用Adobe Campaign Standard / Microsoft Dynamics 365整合和動態報告時，將會包含描述檔資料。 [閱讀詳細內容](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) (CAMP-29766)
 * 修正在接收傳送警報時顯示錯誤聯絡日期的問題。
@@ -73,13 +72,13 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 * 已對「載入檔案」活 **動進行改** 進：工作流程記錄檔已更清楚、更詳細地說明在無法載入檔案時發生的錯誤。 啟用「保留檔案中的拒 **絕」選項時產生的去話轉場** ，已重新命 **名為「拒絕」**。 [閱讀更多資訊](../../automating/using/load-file.md)
 * 已將多語言相關記錄檔新增至傳送記錄檔，以更清楚瞭解因已上傳CSV檔案中缺少語言而造成的傳送失敗。
 
-### 安全性增強功能 {#security-enhancements-3}
+**安全性增強功能**
 
 * 修正透過隱私權要求刪除量化描述檔資訊時，會移除隔離清單中除電子郵件地址以外的所有資料的問題。
 * 已增強安全性，以防止在電子郵件標題中插入。
 * 已增強安全性，以防範可使用xtk運算式（電子郵件HTML、文字內容與主題、簡訊和推播通知內容）的SSRF攻擊。
 
-### 電子郵件設計人員增強功能 {#email-designer-enhancements-4}
+**電子郵件設計人員增強功能**
 
 * 修正在電子郵件中插入時，無法追蹤取消訂閱、訂閱和登陸頁面連結的問題。 (CAMP-37809)
 * 修正建立新電子郵件和選取範本時，可能會導致錯誤的問題。 (CAMP-38000)
@@ -106,7 +105,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 * 修正範本和片段中按鈕大小的問題。
 * 已修正插入按鈕元件時影像大小的問題。
 
-### 其他變更 {#other-changes-3}
+**其他變更**
 
 * 已對齊傳送KPI頁面和動態報告頁面上顯示資料的預設時間範圍，以防止報告結果不一致。 (CAMP-35148)
 * 當應用程式憑證過期時，記錄檔中已新增錯誤訊息。
@@ -121,7 +120,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 * 在Campaign Standard API中，如果索引鍵值與原始索引鍵不同，或您使用自己的商業索引鍵作為URI而非Adobe提供的商業索引鍵，則無法使用PATCH操作來修改自訂索引鍵。
 * &quot;阿爾巴尼亞——馬其頓&quot;語已添加到首選語言下拉清單中。 (CAMP-35396)
 
-### 修補程式 {#patches-4}
+**修補程式**
 
 * 修正排程報表無法排序或搜尋的問題。
 * 修正觸發器規則造成AND和OR規則混合的問題。
@@ -148,19 +147,9 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 * 修正雖然傳送完成，但傳送狀態仍可能維持為「開始擱置中」的問題。 (CAMP-35355)
 * 修正在啟用後，再停用SQL記錄檔後，無法顯示工作流程記錄檔的問題。
 
-## 控制面板更新- 2019年8月 {#controlpanel-update---august-2019}
-
-### What&#39;s new? {#what-s-new-4}
-
-我們已新增功能，讓管理員使用者在網域的SSL憑證到期之前，先收到通知。 如需詳細資訊，請參閱詳 [細檔案](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html)。
-
-此外，管理員使用者現在可以刪除已新增來存取SFTP伺服器的SSH金鑰。
-
-請注意，控制面板僅適用於AWS托管的客戶。 這些更新將於8月26日推出。
-
 ## 發行版本19.3 - 2019年7月 {#release-19-3---july-2019}
 
-### What&#39;s new? {#what-s-new-3}
+**新增功能？**
 
 <table> 
  <thead> 
@@ -181,11 +170,11 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
  </tbody> 
 </table>
 
-### 安全性增強功能 {#security-enhancements-2}
+**安全性增強功能**
 
 * 已修正安全性問題，以防止拒絕服務(DoS)攻擊無效請求以取得影像。 (CAMP-33454)
 
-### 電子郵件設計人員增強功能 {#email-designer-enhancements-3}
+**電子郵件設計人員增強功能**
 
 * 修正每次新增元件時，都會新增其他HTML樣式標籤至HTML範本的問題，此問題可能會大幅增加範本的大小。 (CAMP-34694)
 * 修正某些右上方工具列功能表選項無法使用的問題。 (CAMP-34577)
@@ -212,7 +201,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 * 修正使用動態內容時，複製變數時發生的問題。
 * 「電子郵件設計器設定」窗格中已移除一些不需要的欄位。
 
-### 其他改進 {#other-improvements-3}
+**其他改進**
 
 * 透過與Adobe Experience Platform Location services的整合，Adobe Campaign現在可相容，透過Experience Platform SDK，將以位置為基礎的行銷訊息傳送給行動應用程式的用戶。 如需詳細資訊，請參閱詳 [細檔案](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md)。
 * 報告功能已經改善，以提供更佳的體驗。 若要使用此功能，您必須接受動態報表使用合約。 如需詳細資訊，請參閱詳細 [檔案](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)。
@@ -224,7 +213,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 * 「ftp」選項已從外部帳戶設定介面中移除。 (CAMP-34472)
 * 您現在可以為每個電子郵件啟用和禁用SMTP測試模式選項。 如需詳細資訊，請參閱詳細 [檔案](../../administration/using/configuring-email-channel.md#smtp-test-mode)。 (CAMP-34602)
 
-### 其他變更 {#other-changes-2}
+**其他變更**
 
 * 傳送屬性介面中新增警告。 它會指定遞送是根據其匯總期間準備的，並解凍，以便每天多次呼叫工作流程，您應確保沒有任何期間。 (CAMP-34393)
 * 自訂資源設定畫面中已新增警告。 我們建議對自訂資源ID使用最多30個字元。 這也適用於自訂資源欄位、索引和連結。
@@ -235,7 +224,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 * 使用「傳輸檔案」活動時，如果檔案大小超過可用磁碟空間，現在會記錄錯誤。
 * 「重新導向至目標URL」動作無法再針對應用程式內訊息中的次要按鈕選取。
 
-### 修補程式 {#patches-3}
+**修補程式**
 
 * 修正可能導致GDPR存取要求失敗的問題。
 * 修正當針對獨特描述檔收到多個觸發器時，可能導致觸發器被捨棄的問題。
@@ -271,7 +260,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 
 ## 發行版本19.2.7 - 2019年7月 {#release-19-2-7---july-2019}
 
-### 改進 {#improvements-2}
+**改進**
 
 * GDPR刪除查詢已改進，以獲得更佳的效能。
 * 修正19.2升級後可能導致網頁當機的問題。 (CAMP-34862)
@@ -280,20 +269,20 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 
 ## 發行版本19.2.4 - 2019年6月 {#release-19-2-4---june-2019}
 
-### Email Designer {#email-designer-2}
+**電子郵件設計人員**
 
 * 修正當HTML中使用空樣式標籤時，使用者無法編輯片段的問題。 這是19.2.3中CAMP-33778的後續修正。
 
 ## 發行版本19.2.3 - 2019年6月 {#release-19-2-3---june-2019}
 
-### Email Designer {#email-designer-1}
+**電子郵件設計人員**
 
 在19.2版中引入了一系列改進和修正，以最佳化片段。 新建立的片段將能順暢運作。 先前建立的片段已變灰，需要移轉至新格式。 若要這麼做，請按一下每個片段並驗證其移轉至新格式。 我們建議您先測試幾個片段，然後再將其全部移轉。
 
 * 修正使用者在解除鎖定片段後無法編輯片段的問題。 這會在更新至19.2時影響現有的片段。 (CAMP-33778)
 * 修正使用動態內容時的問題。 HTML中新增了額外的空格。
 
-### 其他改進 {#other-improvements-2}
+**其他改進**
 
 * 修正SMS連接器斷線後，SMS傳送無法繼續的問題。
 * 修正啟用TLS時可能會關閉SMPP連線的問題。
@@ -305,7 +294,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 
 ## 發行版本19.2 - 2019年5月 {#release-19-2---may-2019}
 
-### What&#39;s new? {#what-s-new-}
+**新增功能？**
 
 <table> 
  <thead> 
@@ -334,11 +323,11 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
  </tbody> 
 </table>
 
-### 安全性增強功能 {#security-enhancements}
+**安全性增強功能**
 
 * 修正報告工作區中的潛在點按劫持安全性問題。
 
-### 電子郵件設計人員增強功能 {#email-designer-enhancements}
+**電子郵件設計人員增強功能**
 
 * 修正復製片段並嘗試在「電子郵件設計器」中使用片段時發生的問題。 (CAMP-33193)
 * 修正在「電子郵件設計器」介面中使用內嵌元素時，會建立不需要的空格的問題。 (CAMP-32163)
@@ -358,7 +347,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 * 修正嘗試使用RGB值定義顏色時，檢色器發生的問題。
 * 修正在行動裝置上接收電子郵件時，鏡像頁面無法回應的問題。
 
-### 交易式訊息增強功能 {#transactional-messaging-enhancements}
+**交易式訊息增強功能**
 
 為了優化操作和效能，已在事務性消息傳遞通道中添加了幾項改進。
 
@@ -370,7 +359,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 * 修正匯入包含事件設定和相關交易訊息的套件時所發生的問題。 如需詳細資訊，請參閱詳細 [檔案](../../channels/using/about-transactional-messaging.md#exporting-and-importing-transactional-messages)。
 * 修正從為包含產品清單的交易式訊息建立的測試設定檔中刪除收集資料的問題。
 
-### 其他變更 {#other-changes}
+**其他變更**
 
 * SMS外部帳戶已新增一個選項。 它可以限制發送SMS的MTA進程的最大數量，以便更好地控制並行連接的數量。 如需詳細資訊，請參閱 [SMS連接器通訊協定和設定技術](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html) 。
 * 使用API擴充功能發佈資源時，如果API已發佈，現在每次重新發佈時都會自動更新。 先前此動作是手動的，且無法更新API可能會中斷此API的描述檔或服務資源。 如需詳細資訊，請參閱詳細 [檔案](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension)。
@@ -386,7 +375,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 * 自訂資源發佈測試模式已改進。 如果上次自訂資源發佈失敗且未修正，現在會向使用者顯示警告訊息。 在自定義資源發佈失敗後，可以回滾到上一個工作版本。 如需詳細資訊，請參閱詳 [細檔案](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)。
 * 在「傳輸檔案」活動中添加了新選項。 它允許您在SFTP模式下使用「檔案下載」操作時對檔案進行排序。 如需詳細資訊，請參閱詳 [細檔案](../../automating/using/transfer-file.md)。 (CAMP-33109)
 
-### 修補程式 {#patches}
+**修補程式**
 
 * 修正重新載入SMS設定時，可能導致記憶體洩漏至MTA的問題。
 * 修正無法在修復模式下發佈資料庫更新的問題。
@@ -409,13 +398,13 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 
 ## 發行版本19.1.3 - 2019年3月 {#release-19-1-3---march-2019}
 
-### 電子郵件設計人員增強功能 {#email-designer-enhancements-1}
+**電子郵件設計人員增強功能**
 
 * 修正在儲存範本後無法修改範本的問題。
 * 修正在電子郵件中使用先前建立的範本時的各種問題。
 * 修正無法在匯入的範本中隱藏元件的問題。
 
-### 其他改進 {#other-improvements}
+**其他改進**
 
 * 修正檢視排版規則時的錯誤。 （CAMP-32059和CAMP-31849）
 * 修正無法編輯排版規則的問題。 (CAMP-31750)
@@ -423,7 +412,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 
 ## 發行版本19.1 - 2019年2月 {#release-19-1---february-2019}
 
-### What&#39;s new? {#what-s-new--1}
+**新增功能？**
 
 <table> 
  <thead> 
@@ -457,11 +446,11 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
  </tbody> 
 </table>
 
-### 安全性增強功能 {#security-enhancements-1}
+**安全性增強功能**
 
 * 已更新產生的著陸頁面HTML程式碼，以防止搜尋引擎建立索引。
 
-### 電子郵件設計人員增強功能 {#email-designer-enhancements-2}
+**電子郵件設計人員增強功能**
 
 * Behance藝術家設計的4種同級最佳回應式電子郵件範本現已推出。
 
@@ -488,7 +477,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 * YouTube圖示已新增至 **Social內容元** 件。
 * 已針 **對「電子郵件設計** 器」浮動視窗中顯示的內容元件和片段新增「清單」檢視。
 
-### 其他改進 {#other-improvements-1}
+**其他改進**
 
 * Adobe Campaign現在完全符合SDK V4和AEP SDK應用程式的FCM規範。
 * Adobe Campaign支援Android搭配Wear OS和Apple搭配WatchOS的推播通知。
@@ -499,12 +488,12 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 
    如需詳細資訊，請參閱詳 [細檔案](../../developing/using/configuring-the-screen-definition.md#defining-the-detail-screen-configuration)。
 
-### 其他變更 {#other-changes-1}
+**其他變更**
 
 * Adobe Campaign和Adobe Experience cloud將從2019年春季起停止支援Microsoft Internet Explorer 11和Campaign Standard 19.2版本。 請切換至Microsoft edge或其他支援的瀏覽器。 請參 [閱「已過時和已移除的功能](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) 」頁面。
 * 描述 **檔資源的** 「國家／地區」代碼欄位已重新命 **名為「國家／地區」代碼**。
 
-### 修補程式 {#patches-1}
+**修補程式**
 
 * 修正將測試設定檔新增至電子郵件交易訊息時，無法傳送訊息的問題。 (CAMP-29854)
 * 修正當同時觸發從所有頻道傳送訊息時，單一頻道的傳送量較低時，其他頻道傳送訊息的速度變慢的問題。
@@ -529,7 +518,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 
 ## 發行版本19.0 - 2019年1月 {#release-19-0---january-2019}
 
-### What&#39;s new? {#what-s-new--2}
+**新增功能？**
 
 <table> 
  <colgroup><col style="width: 30%"><col style="width: 70%"></colgroup>
@@ -571,7 +560,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
  </tbody> 
 </table>
 
-### 改進 {#improvements}
+**改進**
 
 * 「載入資料」活動中的新選項現在可讓您將後處理階段套用至包含已拒絕記錄的檔案(例如： 壓縮郵遞區號格式)。 (CAMP-24521)
 * 「更新資料」活動中的新選項現在可讓您設定要上傳之資料的最大批次大小。 (CAMP-28400)
@@ -581,7 +570,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 * 定義描述檔位址時可用的國家／地區清單已豐富。 (CAMP-26707)
 * 現在，嘗試匯入內建工作流程時會顯示錯誤訊息。
 
-### Email Designer {#email-designer}
+**電子郵件設計人員**
 
 * 修正即使在Adobe Campaign中停用此功能，但電子郵件範本或使用電子郵件設計工具建立的內容片段上啟用地理單位功能的問題，此問題會讓範本或片段在再次嘗試存取時無法使用。 (CAMP-28174)
 * 修正使用電子郵件設計工具編輯內容時無法儲存動態內容條件的問題。 (CAMP-27905)
@@ -597,7 +586,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 * 現在，可以使用電子郵件設計器建立配置檔案事務性消息。 (CAMP-28900)
 * 修正「電子郵件設計人員」中，當從URL自動擷取內容時，當內容應鎖定時，會讓內容可編輯的錯誤。
 
-### 修補程式 {#patches-2}
+**修補程式**
 
 * 修正動態報告中顯示錯誤傳送記錄檔的問題。 (CAMP-23446)
 * 修正可能影響反彈摘要報表數字的問題(CAMP-28703)

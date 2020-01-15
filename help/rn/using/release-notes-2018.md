@@ -12,7 +12,7 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: d1ec5dddcf4c1aa3fe6338d35b381986ba32a28d
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ## 發行版本18.9 - 2018年9月 {#release-18-9---september-2018}
 
-### What's new? {#what-s-new-}
+**新增功能？**
 
 <table> 
  <thead> 
@@ -48,11 +48,11 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
  </tbody> 
 </table>
 
-### 改進 {#improvements}
+**改進**
 
 * Adobe Campaign standard現在支援Amazon S3 API第4版。
 
-### 其他變更 {#other-changes}
+**其他變更**
 
 * 在廣播中，現在可以區分每小時最大連接數和最大消息數。 當達到限制時，便可知道為什麼吞吐量受到限制。 以前，這兩種情況都會套用相同的訊息（「符合配額」）。
 * 在Campaign中設定行動應用程式時，使用者現在可以知道iOS憑證和Android伺服器金鑰是否已成功上傳，以及其到期日。
@@ -67,7 +67,7 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
    如需詳細資訊，請參閱詳細 [檔案](../../designing/using/personalization.md#adding-a-content-block)。
 
-### 修補程式 {#patches}
+**修補程式**
 
 * 修正電子郵件儀表板與交易電子郵件的電子郵件摘要報告之間記錄計數不一致的問題。 (CAMP-28237)
 * 修正工作流程中，透過檔案傳輸活動匯入檔案時可能顯示錯誤訊息的問題。 (CAMP-27435)
@@ -92,7 +92,7 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ## 發行版本18.7 - 2018年7月 {#release-18-7---july-2018}
 
-### What's new? {#what-s-new--1}
+**新增功能？**
 
 <table> 
  <thead> 
@@ -125,19 +125,19 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
  </tbody> 
 </table>
 
-### 改進 {#improvements-1}
+**改進**
 
 * Adobe Campaign和Adobe Target整合現在可讓您運用Target的「權 [限](https://marketing.adobe.com/resources/help/en_US/target/target/properties-overview.html) 」功能。 在電子郵件中包含Adobe target的動態影像時，您現在可以指定Target屬性（at_property代碼）。
 * GDPR隱私權存取／刪除要求現在會考量到具有描述檔資源之下載連結的自訂資源。 對於1個基數簡單連結和N個基數收集連結，您需要在自定義資源中選擇「刪除／複製目標籤錄意味著刪除／複製連結引用的記錄」。 對於0或1個基數簡單連結，選擇「刪除／複製記錄意味著刪除／複製連結引用的目標籤錄」。
 
-### 其他變更 {#other-changes-1}
+**其他變更**
 
 * 報表共用逾時時間已從1分鐘增加到4分鐘，以避免任何逾時錯誤。
 * 編輯電子郵件內容時，全新的Creative Designer會依預設開啟。 如果您願意，在儲存變更後，您仍可隨時返回預設的內容編輯器。 如需詳細資訊，請參閱詳細 [檔案](../../designing/using/designing-content-in-adobe-campaign.md)。
 * 在Creative Designer中，現在可以將新的內容元件新增至電子郵件：轉盤。 如需詳細資訊，請參閱詳細 [檔案](../../designing/using/designing-from-scratch.md#about-content-components)。
 * 在事務性消息熱點按一下報告中，當您按一下「 **Change profile** （更改配置檔案）」按鈕時，現在只會列出連結到您為事務性消息定義的事件的測試配置檔案。
 
-### 修補程式 {#patches-1}
+**修補程式**
 
 * 修正byEmail查詢篩選器無法傳回任何結果的問題。 (CAMP-23420)
 * 修正標準使用者可存取限於管理員的特定功能或畫面（/rest/head/*端點、交易式訊息畫面、設定檔和觀眾匯入畫面）的問題。
@@ -155,45 +155,45 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ## 發行版本18.6 - 2018年6月 {#release-18-6---june-2018}
 
-### 改進 {#improvements-2}
+**改進**
 
-* API **[!UICONTROL History]** 已新增至Adobe.IO。 它可讓您存取與描述檔的行銷歷史記錄相關的資訊：觸點數、已傳送傳送、鏡像頁面URL等。 如需詳細資訊，請參閱專 [用使用案例](../../api/using/interacting-with-marketing-history.md) 。
-* 為了 **[!UICONTROL Database cleanup]** 確保資料庫備份的更佳效能，已優化了技術工作流程。
+* API **[!UICONTROL History]**已新增至Adobe.IO。 它可讓您存取與描述檔的行銷歷史記錄相關的資訊：觸點數、已傳送傳送、鏡像頁面URL等。 如需詳細資訊，請參閱專[用使用案例](../../api/using/interacting-with-marketing-history.md)。
+* 為了 **[!UICONTROL Database cleanup]**確保資料庫備份的更佳效能，已優化了技術工作流程。
 * 適用於電子郵件的Creative Designer現在也提供法文和德文版。
 
-### 其他變更 {#other-changes-2}
+**其他變更**
 
-* 已 **[!UICONTROL Compute stats]** 在傳送的傳送視窗 **[!UICONTROL Deployment]** 中新增按鈕。 它可讓您擷取最新的KPI，例如，如果傳送的結果需要太長時間才能更新，或未考慮到這些結果。 For more on this, refer to this [section](../../sending/using/confirming-the-send.md).
+* 已 **[!UICONTROL Compute stats]**在傳送的傳送視窗**[!UICONTROL Deployment]** 中新增按鈕。 它可讓您擷取最新的KPI，例如，如果傳送的結果需要太長時間才能更新，或未考慮到這些結果。 For more on this, refer to this [section](../../sending/using/confirming-the-send.md).
 * 在「更 **新」中** ，功能管理員現在可以在「更新規則 **** Javascript」活動中定義要忽略的連續錯誤數目。 依預設，欄位值會設為0，這表示將忽略所有錯誤。
 * 管理單元訪問限制條件時生成的SQL已優化。
-* 現 **[!UICONTROL Update]** 在，此活動可讓您新增、更新或刪除與訂閱相關的資料（nms:appSubscriptionRcp表格）。
-* 為 **[!UICONTROL Update delivery execution]** 了優化效能，將技術工作流分為兩個工作流：- **[!UICONTROL Update delivery execution]**:更新傳送的追蹤。 預設每10分鐘啟動一次。 **[!UICONTROL Update delivery indicators]**:更新傳送的KPI，預設每小時啟動一次。 For more on technical workflows, refer to this [section](../../administration/using/technical-workflows.md#list-of-technical-workflows).
-* 傳送訊息時，區段中的狀態現 **[!UICONTROL Deployment]** 在可以有兩個值： **[!UICONTROL Sending]**:正在發送消息。 **[!UICONTROL Sending (retry)]**:重試通過正在進行中。
-* 具有角色 **[!UICONTROL Delivery preparation]** 的使用者現在可以傳送校樣。 (CAMP-24313)
+* 現 **[!UICONTROL Update]**在，此活動可讓您新增、更新或刪除與訂閱相關的資料（nms:appSubscriptionRcp表格）。
+* 為 **[!UICONTROL Update delivery execution]**了優化效能，將技術工作流分為兩個工作流：-**[!UICONTROL Update delivery execution]**:更新傳送的追蹤。 預設每10分鐘啟動一次。 **[!UICONTROL Update delivery indicators]**:更新傳送的KPI，預設每小時啟動一次。 For more on technical workflows, refer to this[section](../../administration/using/technical-workflows.md#list-of-technical-workflows).
+* 傳送訊息時，區段中的狀態現 **[!UICONTROL Deployment]**在可以有兩個值：**[!UICONTROL Sending]**:正在發送消息。 **[!UICONTROL Sending (retry)]**:重試通過正在進行中。
+* 具有角色 **[!UICONTROL Delivery preparation]**的使用者現在可以傳送校樣。 (CAMP-24313)
 * 「 **Enable TLS over SMPP** over SMPP **」(啟用TLS over SMPP** )選項已經通過SMPP外部帳戶添加到SMS路由中。 For more on this refer to this [section](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing).
 
-### 修補程式 {#patches-2}
+**修補程式**
 
 * 修正當包含來自Adobe Target的動態影像時，無法傳送電子郵件的問題(CAMP-24848)。
-* 修正技術工作 **[!UICONTROL Privacy Access/Delete Request]** 流程的問題，當有任何請求失敗時，此問題無法完成。
+* 修正技術工作 **[!UICONTROL Privacy Access/Delete Request]**流程的問題，當有任何請求失敗時，此問題無法完成。
 * 修正「隱私權核心」服務無法從「促銷活動」接收請求狀態更新的問題。
-* Fixed an issue which could prevent the **[!UICONTROL Import shared audience]** technical workflow from working properly (CAMP-25465).
+* Fixed an issue which could prevent the **[!UICONTROL Import shared audience]**technical workflow from working properly (CAMP-25465).
 * 修正促銷活動隱私權要求無法在核心隱私權服務中標示為已完成的問題。
 * 修正當Adobe ID過長時，某些使用者無法透過IMS驗證登入Campaign Standard的問題。 (CAMP-24095)
 * 修正Creative Designer中移除內容模組時可能發生的問題。 (CAMP-25242)
 * 修正在資料庫中沒有設定檔的訂閱者使用推播通知疲勞規則時的問題。 (CAMP-25344)
 * 修正存取傳送排除記錄時可能顯示錯誤訊息的問題。 (CAMP-24724)
 * 修正在具有延伸傳送記錄的例項中無法準備校樣的問題。
-* 已修正在啟動擴充功能時發佈自訂資源時可能 **[!UICONTROL Sending log]** 發生的兩個問題。
+* 已修正在啟動擴充功能時發佈自訂資源時可能 **[!UICONTROL Sending log]**發生的兩個問題。
 * 修正交貨持續期未計入週期性交貨時可能發生的問題。
-* 修正在功能表中排序資料時，對於超過100K **[!UICONTROL Client data]** 記錄的自訂資源時可能發生的問題。 (CAMP-24308)
+* 修正在功能表中排序資料時，對於超過100K **[!UICONTROL Client data]**記錄的自訂資源時可能發生的問題。 (CAMP-24308)
 * 修正自訂描述檔維度在使用動態報表中的搜尋功能時，未考慮的問題。
 * 修正「動態」報表中「帳戶」層級的國際資料顯示問題。
 * 現在，您可以建立不含訂閱或取消訂閱確認訊息的服務。
 
 ## 發行版本18.5 - 2018年5月 {#release-18-5---may-2018}
 
-### What's new? {#what-s-new--2}
+**新增功能？**
 
 <table> 
  <thead> 
@@ -221,16 +221,16 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
   </tr> 
   <tr> 
    <td> 使用自訂描述檔資料進行動態報告<br /> </td> 
-   <td> 此功能可讓您根據在描述檔資源擴充期間建立的自訂描述檔資料來建立和管理報告。 您可以依據描述檔屬性（例如忠誠度方案、偏好渠道等）劃分報表。<br /> 如需詳細資訊，請參閱詳 <a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">細檔案</a>。<br /> </td> 
+   <td> 此功能可讓您根據在描述檔資源擴充期間建立的自訂描述檔資料來建立和管理報告。 您可以依據描述檔屬性（例如忠誠度方案、偏好的渠道等）劃分報表。<br /> 如需詳細資訊，請參閱詳 <a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">細檔案</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### 改進 {#improvements-3}
+**改進**
 
 * 應用程式的整體記憶體和CPU使用量已增強
 
-### 其他變更 {#other-changes-3}
+**其他變更**
 
 * 「讀取對象」工作流程活動現在可以讀取Experience cloud對象。 以前，此活動只能讀取「查詢」和「清單」對象。 請參閱詳細 [檔案](../../automating/using/read-audience.md)。 (CAMP-23623)
 * 預設「共用」資料來源的識別碼現在為唯讀模式，無法再變更。 變更此識別碼可能會在與Experience cloud共用觀眾時產生一些問題。
@@ -246,7 +246,7 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 * 將「區段」活動與「其他資料」(targetData)連結搭配使用時，現在會有訊息通知您該資料在工作流程之外無法使用。 按一下「區段」活動中的「計數」或「預覽」按鈕時，會顯示此訊息。 (CAMP-23651)
 * 已增強功能，以最佳化工作流程所使用的磁碟空間：(CAMP-21979):「載入檔案」活動處理的檔案現在預設會刪除。 您可以透過選項，依特定需求保留這些檔案。 刪除工作流時，其專用資料夾會自動從伺服器目錄中隱藏。
 
-### 修補程式 {#patches-3}
+**修補程式**
 
 * 修正某些原始報表事件由於eventDate欄位未正確填入而沒有關聯追蹤事件的問題。
 * 修正推播通知傳送的預覽視窗無法顯示個人化欄位的問題。
@@ -256,7 +256,7 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 * 修正透過檔案載入活動匯入zip檔案時可能發生的問題。 (CAMP-24309)
 * 修正傳送循環傳送時導致PostgreSQL錯誤的問題。 (CAMP-23613)
 * 修正傳送具有空JSON屬性的REST API請求時，顯示錯誤訊息的問題。 (CAMP-23506)
-* 修正設定檔中，設為"ß"字元後大寫的問題。 (CAMP-23136)
+* 修正設定檔中，設為&quot;ß&quot;字元後大寫的問題。 (CAMP-23136)
 * 修正當使用連結描述檔結構中的屬性傳送與個人化或動態內容區塊的資格條件搭配使用的傳送時，發生的問題。 (CAMP-22751)
 * 修正無法刪除服務的問題。 (CAMP-22050)
 * 修正無法變更測試設定檔中的國家／地區或州值的問題。 (CAMP-20426)
@@ -265,33 +265,33 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ## 發行版本18.4 - 2018年4月 {#release-18-4---april-2018}
 
-### 修補程式 {#patches-4}
+**修補程式**
 
-#### 平台 {#platform}
+_平台_
 
-* 修正無法正確處理GDPR存取或刪除請求的錯誤。 在某些罕見的情況下，提取的資料包含以下字元之一，這種行為已被觀察到：&amp; &lt; &gt; " '。
+* 修正無法正確處理GDPR存取或刪除請求的錯誤。 在某些罕見的情況下，提取的資料包含以下字元之一，這種行為已被觀察到：&amp; &lt; > &quot; &#39;。
 
-#### 電子郵件、簡訊訊息和直效郵件 {#emails--sms-messages-and-direct-mail}
+_電子郵件、簡訊訊息和直效郵件_
 
 * 修正如果廣播同步花費了一小時以上，可能導致KPI被錯誤值覆寫的問題。
 
-#### 工作流程 {#workflows}
+_工作流程_
 
 * 改善記憶體管理並最佳化工作流程效能。
 
-#### 報告 {#reporting}
+_報告_
 
 * KPI共用工作流程現在會擷取過去2個月而非過去6個月的傳送值。 修正KPI共用外部帳戶顯示截斷日期的問題。
 * 修正「已傳送」、「已傳送」和「彈回數」中可能未考 **慮特定**&#x200B;訊息 **的** 問 ****&#x200B;題。
 * 修正「傳送摘要報表」中選取的時 **間範圍過長時** ，發生的錯誤。
 
-#### 自訂資源 {#custom-resources}
+_自訂資源_
 
 * 修正自訂資源準備失敗的錯誤。
 
 ## 發行版本18.3 - 2018年3月 {#release-18-3---march-2018}
 
-### 新功能 {#new-capabilities}
+**新功能**
 
 <table> 
  <thead> 
@@ -334,39 +334,39 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
  </tbody> 
 </table>
 
-### 修補程式 {#patches-5}
+**修補程式**
 
-#### 平台 {#platform-1}
+_平台_
 
 * 修正無法從清單匯出超過5000個記錄的問題。
 * 修正將資料匯出至以個人化欄位命名的檔案時的問題。
 
-#### 電子郵件、簡訊訊息和直效郵件 {#emails--sms-messages-and-direct-mail-1}
+_電子郵件、簡訊訊息和直效郵件_
 
 * 修正多部分SMS因為部分大小是以字元而非位元組計算而遭到截斷的問題。
-* 新增選項，可讓您 **[!UICONTROL Delivered]** 在傳送 **[!UICONTROL Bounces + Errors]** 傳送後即時更新或KPI。 它們直接從從提供者收到的SR（狀態報告）重新計算。
+* 新增選項，可讓您 **[!UICONTROL Delivered]**在傳送**[!UICONTROL Bounces + Errors]** 傳送後即時更新或KPI。 它們直接從從提供者收到的SR（狀態報告）重新計算。
 * 修正傳送排程器中日曆Widget的問題。
 * 修正在已傳送傳送中第二次開啟目標時的顯示問題。
 * 修正建立電子郵件範本時，傳送日期延遲時，導致錯誤訊息要求開始日期的問題。
 * 修正編輯傳送內容時，可能導致影像轉譯問題的問題。
 * 修正複製促銷活動時的校樣問題。
 * 修正在將傳送新增至工作流程後，透過導覽列存取促銷活動範本時，會導致錯誤訊息的問題。
-* 修正無法自動選取A/B測試電子郵件成功者，導致電子郵件無法傳送的問題。 如果傳送處於狀態，就可能會發生此 **[!UICONTROL retryInProgress]** 行為。
+* 修正無法自動選取A/B測試電子郵件成功者，導致電子郵件無法傳送的問題。 如果傳送處於狀態，就可能會發生此 **[!UICONTROL retryInProgress]**行為。
 * 修正重新開啟A/B測試電子郵件參數時，可能會顯示錯誤訊息的問題。
 
-#### 觀眾與查詢 {#audiences-e-queries}
+_觀眾與查詢_
 
 * 修正無法存取資料並設定從Adobe Campaign Classic複製至Standard之收件者查詢的問題。
 * 修正使用「計數」或「預覽」按鈕後，在查詢編輯器中使用篩選類型欄位 **時** ，發 **生的問題** 。
 
-#### 工作流程 {#workflows-1}
+_工作流程_
 
 * 帳單 **工作流程已經最佳化** ，以改善傳送準備延遲。
 * 修正使用循環傳送活動時，人口資料無法顯示在對外轉移中的問題。
 * 修正「更新」資料活動後，無法在轉場中顯示拒絕記錄 **的問題** 。
 * 修正可能導致可傳送性更 **新技術工作流程** 失敗的問題。
 
-#### 整合 {#integrations}
+_整合_
 
 * 修正無法正確傳送國際字元至Adobe Analytics的問題。
 * 現在，嘗試從訊息中插入Experience cloud資產庫的影像時，資產載入速度應該會更快。
@@ -374,14 +374,14 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 * 您現在可以從資料來源的詳細資料直接存取其相關工作流程，以檢查工作流程的狀態。
 * 現在，您可以在定義或編輯觸發器事件時直接更新觸發器結構。 有了這項變更，您不再需要解除發佈觸發器並建立另一個觸發器。
 
-#### 交易式訊息 {#transactional-messages}
+_交易式訊息_
 
 * 修正延伸傳送資源時，交易訊息範本的錯誤。
 * 現在可以刪除事務性消息。
 
 ## 發行版本18.2 - 2018年2月 {#release-18-2---february-2018}
 
-### 新功能 {#new-capabilities-1}
+**新功能**
 
 <table> 
  <thead> 
@@ -402,42 +402,42 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
  </tbody> 
 </table>
 
-### 修補程式 {#patches-6}
+**修補程式**
 
-#### 平台 {#platform-2}
+_平台_
 
 * Adobe Campaign介面的頂端列已使用新的Experience cloud功能表更新。
-* 修正無法在解決方案下拉式清 **[!UICONTROL Offers]** 單中顯示連結的問題。
+* 修正無法在解決方案下拉式清 **[!UICONTROL Offers]**單中顯示連結的問題。
 
-#### 電子郵件、簡訊訊息和直效郵件 {#emails--sms-messages-and-direct-mail-2}
+_電子郵件、簡訊訊息和直效郵件_
 
 * 遞送準備階段已經增強以改進效能。
 * 已修正若干問題，這些問題可能會在某些小眾情況下造成追蹤記錄檔損毀。
 * 修正當傳送準備與確認之間的聯絡日期變更時，發生的連絡人日期更新問題。 現在，當您在準備後變更連絡人日期時，您必須先重新準備傳送，才能確認傳送。 請參閱詳 [細檔案](../../sending/using/preparing-the-send.md)。
 
-#### 推播通知 {#push-notifications}
+_推播通知_
 
 * 修正某些個人化欄位無法在iOS推播通知中運作的錯誤。
 * 修正推播通知控制面板中，點按和開啟率顯示為0%的錯誤。
 
-#### 報表 {#reports}
+_報表_
 
 * 修正某些瀏覽器中報表清單顯示為空白的錯誤。
-* 修正技術工作流程中，在 **[!UICONTROL Report sharing]** 到達其過期限制之前發生的錯誤。
+* 修正技術工作流程中，在 **[!UICONTROL Report sharing]**到達其過期限制之前發生的錯誤。
 
-#### 工作流程 {#workflows-2}
+_工作流程_
 
 * 修正拖放活動後無法存取的問題。
-* 修正在某些情況下，活動的輸出轉場順 **[!UICONTROL Segmentation]** 序可能會變更的問題。
+* 修正在某些情況下，活動的輸出轉場順 **[!UICONTROL Segmentation]**序可能會變更的問題。
 * 修正讀取包含列舉類型欄位且先前已從工作流程儲存的對象時發生的錯誤
-* 修正在定義在工 **[!UICONTROL Request confirmation before sending messages]** 作流程中建立之傳送的排程屬性時，即使取消核取選項後，仍會保留核取選項的問題。
-* 現在，可以通過頁籤中的新選項，在活動中禁 **[!UICONTROL Query]** 用自動刪除重複行(DISTINCT子 **[!UICONTROL Additional data]** 句)。 基於效能原因，在定義許多（超過100個）其他元素時，建議停用此選項。
+* 修正在定義在工 **[!UICONTROL Request confirmation before sending messages]**作流程中建立之傳送的排程屬性時，即使取消核取選項後，仍會保留核取選項的問題。
+* 現在，可以通過頁籤中的新選項，在活動中禁 **[!UICONTROL Query]**用自動刪除重複行(DISTINCT子**[!UICONTROL Additional data]** 句)。 基於效能原因，在定義許多（超過100個）其他元素時，建議停用此選項。
 
-#### 整合 {#integrations-1}
+_整合_
 
-* 已對設定畫面進行 **[!UICONTROL Data sources]** 一些改進。
+* 已對設定畫面進行 **[!UICONTROL Data sources]**一些改進。
 
-### 已知問題 {#known-issues}
+_已知問題_
 
 我們建議您不要使用Internet Explorer 11版，因為可能的顯示問題。
 
@@ -445,7 +445,7 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ## 發行版本18.1 - 2018年1月 {#release-18-1---january-2018}
 
-### 新功能 {#new-capabilities-2}
+**新功能**
 
 <table> 
  <thead> 
@@ -484,43 +484,41 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
  </tbody> 
 </table>
 
-### 修補程式 {#patches-7}
+**修補程式**
 
-#### 平台 {#platform-3}
+_平台_
 
 * 已最佳化描述檔搜尋，以改善效能。
 * 預設安全性群組的內部識別碼現在為標準使用者的唯讀模式。
 
-#### 電子郵件、簡訊訊息和直效郵件 {#emails--sms-messages-and-direct-mail-3}
+_電子郵件、簡訊訊息和直效郵件_
 
 * 修正將emoji插入傳送內容時發生的顯示問題。
 * 修正當傳送仍在版本中時，使用者可存取傳送記錄檔的問題。
-* 活動 **[!UICONTROL Scheduler]** 現在可讓您根據收件者的時區，傳送您的傳送內容。
-* 簡訊：資料庫 **[!UICONTROL Store incoming MO]** 中的選項已新增至外部帳戶。 勾選後，所有傳入的SMS都會儲存在 **inSMS表** 中。
+* 活動 **[!UICONTROL Scheduler]**現在可讓您根據收件者的時區，傳送您的傳送內容。
+* 簡訊：資料庫 **[!UICONTROL Store incoming MO]**中的選項已新增至外部帳戶。 勾選後，所有傳入的SMS都會儲存在** inSMS表&#x200B;**中。
 * 簡訊：服務現在會附加至事件，而非交易範本。
 * 簡訊：預設的SMTP連接超時已減少到30秒。
 
-#### 推播通知 {#push-notifications-1}
+_推播通知_
 
 * 修正推播通知傳送無法停止的錯誤。
 * 在推播通知中新增了進階選項，可使用推播通知來喚醒應用程式。
 * 新增推播通知預覽影片的暫停按鈕。
 * 推播通知預覽現在適用於不同的裝置，例如iPhone、Android、平板電腦。
 
-   所有通道
-
-#### 報表 {#reports-1}
+_報表_
 
 * 修正顯示超過100%的比率的錯誤。
 * 修正使用者無法以CSV格式下載報表的問題。
-* 在首頁中 **[!UICONTROL Report]** 新增項目。
+* 在首頁中 **[!UICONTROL Report]**新增項目。
 
-#### 工作流程 {#workflows-3}
+_工作流程_
 
-* 修正在查詢中使用其他資料並新增包含空格之別名時，會導致錯誤訊息的問題。 非英數字元現在會以"_"取代。
+* 修正在查詢中使用其他資料並新增包含空格之別名時，會導致錯誤訊息的問題。 非英數字元現在會以&quot;_&quot;取代。
 * 修正計算KPI的技術工作流程在某些情況下預設會停止的問題。
 
-#### 設定檔與閱聽眾 {#profiles-and-audiences}
+_設定檔與閱聽眾_
 
 * 修正在對象查詢中新增多個篩選器時發生的錯誤。
 * 修正變更描述檔圖片時發生的顯示問題。

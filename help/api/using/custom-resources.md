@@ -12,14 +12,14 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: 538739417c4ed28ff2991186dac5fb69d1af3afd
 
 ---
 
 
 # 自訂資源 {#custom-resources}
 
-Adobe Campaign隨附預先定義的資料模型，其中資料是透過不同的資源來定義。 您可以擴充資源以新增您自己的自訂欄位（例如購買或產品表格），以豐富資料模型。
+Adobe Campaign隨附預先定義的資料模型，其中資料是透過不同的資源來定義。 您可以擴充資源以新增您自己的自訂欄位或自訂表格（例如購買或產品表格），以豐富所提供的資料模型。
 
 自訂資源可透過使用 **/profileAndServicesExt端點的API** ，以及自訂資源名稱來存取。
 
@@ -37,7 +37,7 @@ Adobe Campaign隨附預先定義的資料模型，其中資料是透過不同的
 
 <br/>
 
-***請求範例***
+***請求範例&#x200B;***
 
 存取擴充設定檔AndServicesExt資源的GET要求範例。
 

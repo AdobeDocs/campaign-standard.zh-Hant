@@ -12,7 +12,7 @@ discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
+source-git-commit: d1ec5dddcf4c1aa3fe6338d35b381986ba32a28d
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ## 發行版本17.10 - 2017年10月 {#release-17-10---october-2017}
 
-### 新功能 {#new-capabilities}
+**新功能**
 
 <table> 
  <thead> 
@@ -48,9 +48,9 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
  </tbody> 
 </table>
 
-### 修補程式 {#patches}
+**修補程式**
 
-#### 平台 {#platform}
+_平台_
 
 * 修正無法正確解壓縮大型壓縮檔案的問題。
 * 品牌管理的安全性已改善。 現在，Adobe技術管理員已保留修改品牌名稱和傳送者位址。
@@ -58,14 +58,14 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 * 修正顯示及篩選行銷活動時的介面問題。
 * 修正無法使用POST Rest API呼叫更新訂閱日期欄位的問題。
 
-#### 電子郵件、簡訊訊息和直效郵件 {#emails--sms-messages-and-direct-mail}
+_電子郵件、簡訊訊息和直效郵件_
 
 * 修正無法定位訊息中清單類型對象，導致準備失敗的問題。
 * 多語言電子郵件傳送功能中新增的語言遺失。
 * 當使用者修改內容並儲存時，顯示在傳送控制面板上的內容縮圖現在會自動更新。
 * 修正無法開啟傳送的時區相關問題。
 
-#### 推播通知 {#push-notifications}
+_推播通知_
 
 * 在設定推播通知頻道時，iOS的推播提供者平台應為 **apns** ,Android **gcm**&#x200B;平台。
 * 修正iOS行動應用程式無法新增至Adobe Campaign介面的錯誤。
@@ -74,7 +74,7 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 * 現在，您可以協調行動應用程式使用者的資料，從Adobe Campaign資料庫建立或更新個人檔案。
 * Adobe Campaign現在會優先處理交易推播通知，而非標準推播通知。
 
-#### 報表 {#reports}
+_報表_
 
 * 修正無法在電子郵件內容中顯示熱點按百分比的問題。
 * 修正黑名單度量被計為硬性反彈而非反彈的問題。
@@ -82,31 +82,31 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 * 修正在錯誤年齡區段中計算描述檔的問題。
 * 軟彈跳和硬彈跳計算公式已變更。
 
-#### 工作流程 {#workflows}
+_工作流程_
 
-* 修正活動中手動 **[!UICONTROL Load file]** 新增和移除活動中的欄後，可能導致錯誤的問題。
-* 技術 **[!UICONTROL deliverabilityUpdate]** 工作流程現在排定在伺服器時間凌晨2點執行。
+* 修正活動中手動 **[!UICONTROL Load file]**新增和移除活動中的欄後，可能導致錯誤的問題。
+* 技術 **[!UICONTROL deliverabilityUpdate]**工作流程現在排定在伺服器時間凌晨2點執行。
 * 修正允許執行不含匯出角色的清單匯出的安全性問題。
-* 已修正活動的問 **[!UICONTROL Reconciliation]** 題。
-* 修正活動中使用萬用字元的問 **[!UICONTROL File Transfer]** 題。
+* 已修正活動的問 **[!UICONTROL Reconciliation]**題。
+* 修正活動中使用萬用字元的問 **[!UICONTROL File Transfer]**題。
 
-#### 設定檔與閱聽眾 {#profiles-and-audiences}
+_設定檔與閱聽眾_
 
 * 修正在某些特定情況下，查詢條件無法正確考慮，導致結果錯誤的問題。
 * 修正當描述檔已定位在已準備但從未傳送及過期的訊息中時，可能無法存取的問題。
 
-#### 整合 {#integrations}
+_整合_
 
 * 修正為觸發器建立的某些資料來源無法正確顯示及選取的問題。
 
-#### 自訂資源 {#custom-resources}
+_自訂資源_
 
 * 修正清單畫面中，自訂資源列可顯示而無任何資料的問題。
-* 修正自訂資源中無法顯示具有'False'值的布林類型欄位的問題。
+* 修正自訂資源中無法顯示具有&#39;False&#39;值的布林類型欄位的問題。
 
 ## 發行版本17.9 - 2017年9月 {#release-17-9---september-2017}
 
-### 新功能 {#new-capabilities-1}
+**新功能**
 
 <table> 
  <thead> 
@@ -131,21 +131,21 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
  </tbody> 
 </table>
 
-### 修補程式 {#patches-1}
+**修補程式**
 
-#### 平台 {#platform-1}
+_平台_
 
 * 有些客戶需要能夠運用Adobe Campaign Standard提供的ID，因為他們無法管理唯一的金鑰來識別自己的記錄。 此ID(**ACS ID**)可匯出，並在更新資料時用作協調金鑰。 如需詳細資訊，請參閱詳 [細檔案](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)。
 * FTP通訊協定已過時。 您現在應改用SFTP。 為了不封鎖現有實作，FTP上的現有設定仍舊如舊，但新活動不會顯示選項。
 
-#### 電子郵件、簡訊訊息和直效郵件 {#emails--sms-messages-and-direct-mail-1}
+_電子郵件、簡訊訊息和直效郵件_
 
 * 現在可以建立新的警報標準，以便在發送警報通知中使用這些標準。 如需詳細資訊，請參閱詳 [細檔案](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion)。
 * 傳送警報通知有了新的設計，傳送警報控制面板的使用體驗也已改善。
 * 現在，當傳送外部帳戶停用時，影響的傳送（電子郵件、簡訊和推播）中會顯示警告，而 **Preview** （預覽）按鈕會隱藏在這些傳送中。
 * 修正在主旨行中啟用動態文字時，在電子郵件內容上預覽A/B測試時發生錯誤的問題。
 
-#### 交易式訊息 {#transactional-messages}
+_交易式訊息_
 
 * 現在可以定義您要傳送後續訊息的時間，例如在傳送交易訊息3天後。 如需詳細資訊，請參閱詳 [細檔案](../../channels/using/follow-up-messages.md#sending-a-follow-up-message)。
 * 現在可以定義應傳送連結至事件的交易訊息的日期。
@@ -154,31 +154,31 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 * 已修正可能無法重新導向追蹤連結的問題。
 * 修正無法停用電子郵件或SMS訊息中特定連結追蹤的問題。
 
-#### 報表 {#reports-1}
+_報表_
 
-* 「 **Hot clicks** 」報表已改善。 此外，現在也可以根據傳送中定義的每個條件內容顯示熱點按，並可針對每次執行循環傳送或交易訊息顯示熱點按。 如需詳細資訊，請參閱詳 [細檔案](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion)。
+* 已 **改善** 「熱點點按」報表。 此外，現在也可以根據傳送中定義的每個條件內容顯示熱點按，並可針對每次執行循環傳送或交易訊息顯示熱點按。 如需詳細資訊，請參閱詳 [細檔案](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion)。
 * 修正隔離度量無法擷取正確資料的問題。
 * 新的預設時間範圍已新增至日曆介面工具集。
 * 動 [態報表量度](../../reporting/using/indicator-calculation.md) ，與 [促銷活動的KPI](../../sending/using/confirming-the-send.md) （顯示在已傳送訊息的儀表板上）已對齊，以提高一致性。
 * 修正可能導致流水線在debian 7上當機的問題。
 
-#### 工作流程 {#workflows-1}
+_工作流程_
 
 * 修正導入的檔案保留無法運作的問題。
 
-#### 整合 {#integrations-1}
+_整合_
 
 * eVar和事件現在支援Analytics和Campaign整合。
 * 當傳送含有已放棄購物車內容的電子郵件時，從購物車移除的元素的裝載參數現在為選擇性。
 
-#### 設定檔與閱聽眾 {#profiles-and-audiences-1}
+_設定檔與閱聽眾_
 
 * Adobe Campaign現在提供顯示作用中描述檔數目的報表。 此報告僅提供資訊，對帳單沒有直接影響。 如需詳細資訊，請參閱詳 [細檔案](../../audiences/using/active-profiles.md)。
 * 修正使用「設定檔與服務API」時，設定檔無法訂閱服務的問題。
 
 ## 發行版本17.7 - 2017年7月 {#release-17-7---july-2017}
 
-### 新功能 {#new-capabilities-2}
+**新功能**
 
 <table> 
  <thead> 
@@ -215,37 +215,37 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
  </tbody> 
 </table>
 
-### 修補程式 {#patches-2}
+**修補程式**
 
-#### 一般 {#general}
+_一般_
 
-* 修正讓任何使用者匯出清單的問題。 現在，僅允許具 **[!UICONTROL Export]** 有角色的用戶。
+* 修正讓任何使用者匯出清單的問題。 現在，僅允許具 **[!UICONTROL Export]**有角色的用戶。
 
-#### 電子郵件、簡訊訊息和直效郵件 {#emails--sms-messages-and-direct-mail-2}
+_電子郵件、簡訊訊息和直效郵件_
 
 * 修正更新DeliveryExecInfo **工作流程中，將SMS傳送的「傳送** 指示符 **** 」設為0的問題。
 * 在傳送 **範本屬性的** 「進階參數」中，「路由選擇 **** 」下拉式清單現在只會顯示與範本訊息類型對應的外部帳戶。 例如，電子郵件傳送範本只會顯示電子郵件外部帳戶。
-* 修正為測試設定檔 **[!UICONTROL Text]** 定義之偏好電子郵件格式的問題。
+* 修正為測試設定檔 **[!UICONTROL Text]**定義之偏好電子郵件格式的問題。
 * 修正在傳送的排程定義畫面中選取預設時區時，導致Javascript錯誤的問題。
 * 修正傳送記錄檔中無法顯示陷阱的問題。
 * 在傳送建立精靈的範本選擇畫面中，後續動作和A/B測試範本現在預設會隱藏。 如需詳細資訊，請參閱詳 [細檔案](../../channels/using/creating-an-email.md)。
-* 修正讓任何使用者傳送傳送的問題。 現在，僅允許具 **[!UICONTROL Start deliveries]** 有角色的用戶。 如需詳細資訊，請參閱詳 [細檔案](../../sending/using/confirming-the-send.md)。
+* 修正讓任何使用者傳送傳送的問題。 現在，僅允許具 **[!UICONTROL Start deliveries]**有角色的用戶。 如需詳細資訊，請參閱詳[細檔案](../../sending/using/confirming-the-send.md)。
 
-#### 推播通知 {#push-notifications-1}
+_推播通知_
 
 * 修正促銷活動追蹤 **端點** URL無法報告的問題。
 * 修正推播通知標題無法在Android裝置上顯示的問題。
 * 修正當推播通知只包含標題（而訊息內文中沒有任何內容）時，推播通知無法顯示在iOS裝置上的問題。
 * 修正強制要追蹤傳送中的媒體附件URL，導致影片和圖片無法內嵌在傳送中的問題。 推播通知的URL類型追蹤現在預設會停用。
 
-#### 報表 {#reports-2}
+_報表_
 
 * 已修正圖表和表格之間的值顯示不同的問題。
 * 修正將推播通知值顯示為電子郵件值的問題。
 * 修正在促銷活動外部建立傳送時，其值顯示為未知的問題。
 * 修正將SMS報表資料顯示為行動應用程式資料的問題。
 
-#### 工作流程 {#workflows-2}
+_工作流程_
 
 * 您現在可以篩選工作流程記錄檔（時段和文字搜尋）。 如需詳細資訊，請參閱詳 [細檔案](../../automating/using/executing-a-workflow.md#monitoring)。
 * 工作流程傳送中現在提供一個選項，可在傳送前先停用確認。
@@ -254,7 +254,7 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ## 發行版本17.5 - 2017年5月 {#release-17-5---may-2017}
 
-### 新功能 {#new-capabilities-3}
+**新功能**
 
 <table> 
  <thead> 
@@ -275,33 +275,33 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
  </tbody> 
 </table>
 
-### 修補程式 {#patches-3}
+**修補程式**
 
-#### 介面更新 {#interface-updates}
+_介面更新_
 
-* 在頂端列中，連結已 **[!UICONTROL Timeline]** 經移除，並以連結取代 **[!UICONTROL Programs & Campaigns]** 。
+* 在頂端列中，連結已 **[!UICONTROL Timeline]**經移除，並以連結取代**[!UICONTROL Programs & Campaigns]** 。
 
-#### 電子郵件和簡訊 {#emails-and-sms-messages}
+_電子郵件和簡訊_
 
-* 修正傳送狀態顯示錯誤顏色 **[!UICONTROL Retry in progress]** 的問題。 顏色是灰色而非藍色。
+* 修正傳送狀態顯示錯誤顏色 **[!UICONTROL Retry in progress]**的問題。 顏色是灰色而非藍色。
 
-#### 工作流程 {#workflows-3}
+_工作流程_
 
-* 修正變更動作以在活動中執行時發生的 **[!UICONTROL Transfer file]** 問題。
+* 修正變更動作以在活動中執行時發生的 **[!UICONTROL Transfer file]**問題。
 
-#### 報表 {#reports-3}
+_報表_
 
-* 計 **[!UICONTROL Spam]** 算和 **[!UICONTROL Spam rate]** 指標已變更。
-* 已 **[!UICONTROL Bounce]** 改善量度以取得更精確的結果。
+* 計 **[!UICONTROL Spam]**算和**[!UICONTROL Spam rate]** 指標已變更。
+* 已 **[!UICONTROL Bounce]**改善量度以取得更精確的結果。
 
-#### 推播通知 {#push-notifications-2}
+_推播通知_
 
 * 修正無法按一下描述檔行銷歷史記錄中推播事件的問題。
 * 已改善推播通知在工作流程中的使用。
 
 ## 發行版本17.4 - 2017年4月 {#release-17-4---april-2017}
 
-### 新功能 {#new-capabilities-4}
+**新功能**
 
 <table> 
  <thead> 
@@ -334,13 +334,13 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
  </tbody> 
 </table>
 
-### 修補程式 {#patches-4}
+**修補程式**
 
-#### 平台 {#platform-2}
+_平台_
 
 * 已修正記憶體耗用問題。
 
-#### 電子郵件和簡訊 {#emails-and-sms-messages-1}
+_電子郵件和簡訊_
 
 * 修正預覽訊息時，內容無法與最新變更正確同步的問題。
 * 修正無法建立或刪除MX或網域電子郵件處理規則的問題。
@@ -349,44 +349,44 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 * 修正顯示內容中無URL之傳送之追蹤URL時，發生錯誤的問題。
 * 修正影像大小屬性無法正確套用至已傳送訊息的問題。
 
-#### 交易式訊息 {#transactional-messages-1}
+_交易式訊息_
 
 * rtEventHistoId欄位不再公開為交易訊息範本中的個人化欄位。
 
-#### 登錄頁面 {#landing-pages}
+_登錄頁面_
 
-* 我們已最佳化登陸頁 **[!UICONTROL by email]** 面中使用的篩選器，以協調新訂閱者與資料庫設定檔。
+* 我們已最佳化登陸頁 **[!UICONTROL by email]**面中使用的篩選器，以協調新訂閱者與資料庫設定檔。
 * 修正在表單設定中使用布林欄位時，顯示免費文字輸入而非核取方塊的問題。
 * 修正無法產生著陸頁面縮圖的問題。
 
-#### 工作流程 {#workflows-4}
+_工作流程_
 
-* 修正編輯或活動時 **[!UICONTROL End]** 的顯 **[!UICONTROL External Signal]** 示錯誤（僅限Safari）。
-* 改進編輯包含錯誤對象的活 **[!UICONTROL Read Audience]** 動時顯示的錯誤訊息。
+* 修正編輯或活動時 **[!UICONTROL End]**的顯**[!UICONTROL External Signal]** 示錯誤（僅限Safari）。
+* 改進編輯包含錯誤對象的活 **[!UICONTROL Read Audience]**動時顯示的錯誤訊息。
 * 修正在執行訂閱活動時可能導致SQL錯誤的問題。
 
-#### 整合 {#integrations-2}
+_整合_
 
 * 興趣點資料：修正計算位置訂閱者時發生的錯誤。
 
-#### 對象與查詢 {#audiences-and-queries}
+_對象與查詢_
 
 * 修正查詢編輯器中的系列無法使用總計和平均匯總的問題。
 * 修正變更篩選器資源後，查詢編輯器無法重新載入的問題。
 
-#### 報表 {#reports-4}
+_報表_
 
 * 修正在選取表格中的多列時，無法正確計算「開啟率」度量的問題。
 * 修正僅將量度顯示為整數值的錯誤。 量度現在可顯示小數。
 
-#### 推播通知 {#push-notifications-3}
+_推播通知_
 
 * 修正當建立連結至MCPNS上建立之行動應用程式的Android應用程式時，未顯示錯誤訊息的問題。
 * 修正使用者可將聲音新增至無訊息通知的問題。
 
 ## 發行版本17.2 - 2017年3月 {#release-17-2---march-2017}
 
-### 新功能 {#new-capabilities-5}
+**新功能**
 
 <table> 
  <thead> 
@@ -446,30 +446,30 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
  </tbody> 
 </table>
 
-### 修補程式 {#patches-5}
+**修補程式**
 
-#### 一般 {#general-1}
+_一般_
 
 * 現在，在匯出傳送記錄檔時，可以新增描述檔資料。
 
-#### 電子郵件和簡訊 {#emails-and-sms-messages-2}
+_電子郵件和簡訊_
 
-* 修正即使在取消勾選 **[!UICONTROL Request confirmation before sending messages]** 並儲存傳送後，仍會保留選取選項的問題。
+* 修正即使在取消勾選 **[!UICONTROL Request confirmation before sending messages]**並儲存傳送後，仍會保留選取選項的問題。
 * 已修正無法取消發佈交易電子郵件的問題。
 * 修正內容在預覽傳送前無法與最新變更正確同步的問題。
 
-#### 登錄頁面 {#landing-pages-1}
+_登錄頁面_
 
 * 修正當使用者在登陸頁面的內容中按一下時，無法編輯的錯誤。
 
-#### 工作流程 {#workflows-5}
+_工作流程_
 
-* 已修正無法讀取活動之拒絕轉換內容的問 **[!UICONTROL Load file]** 題。
-* 修正在設定活動時，無法正確考慮交換欄的問 **[!UICONTROL Load file]** 題。
+* 已修正無法讀取活動之拒絕轉換內容的問 **[!UICONTROL Load file]**題。
+* 修正在設定活動時，無法正確考慮交換欄的問 **[!UICONTROL Load file]**題。
 
 ## 發行版本17.1 - 2017年1月 {#release-17-1---january-2017}
 
-### 新功能 {#new-capabilities-6}
+**新功能**
 
 <table> 
  <thead> 
@@ -509,37 +509,37 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
  </tbody> 
 </table>
 
-### 修補程式 {#patches-6}
+**修補程式**
 
-#### 一般 {#general-2}
+_一般_
 
-* 選 **[!UICONTROL Access authorization]** 項已返回著陸頁面屬性。
+* 選 **[!UICONTROL Access authorization]**項已返回著陸頁面屬性。
 * 修正可能導致舊影像轉換而非正確影像的問題。 如果來源影像已在傳送或登陸頁面的內容定義中更新，就會發生此情況。
 * 修正使用者無法編輯現有SFTP外部帳戶中特定欄位的問題。
 * 已修正數個UI問題。 例如，使用者現在可以編輯描述檔屬性並儲存修改，而不會遇到UI的問題。
 
-#### 電子郵件和簡訊 {#emails-and-sms-messages-3}
+_電子郵件和簡訊_
 
 * 已修正與包含
 
-#### 推播通知 {#push-notifications-4}
+_推播通知_
 
 * 修正從應用程式回傳至Adobe Campaign伺服器的問題。
-* 已修正Android可能無 **[!UICONTROL Play a sound]** 法 **[!UICONTROL Custom fields]** 考慮的問題。
+* 已修正Android可能無 **[!UICONTROL Play a sound]**法**[!UICONTROL Custom fields]** 考慮的問題。
 * 修正可能導致在Emojis的Unicode字元中新增額外逸出字元的問題。
 * 當訂閱者的註冊Token列入黑名單時，Adobe Campaign中的訂閱者清單現在會立即更新對應的狀態。
 
-#### 工作流程 {#workflows-6}
+_工作流程_
 
 * 修正可能無法預覽事件資源（例如rtEvent）查詢的問題。
-* 活動生成的拒絕文 **[!UICONTROL Load file]** 件現在可以在其出站轉換中檢索，並在下一個活動中處理。 例如，透過SFTP伺服器使用 **[!UICONTROL Transfer file]** 。
-* 修正當在的標籤中選取區段時，使用者無法限制區段 **[!UICONTROL Temporary resource]** 人口的 **[!UICONTROL General]** 問題 **[!UICONTROL Segmentation]** 。
-* **[!UICONTROL Scheduler]** 活動無法再設為每10分鐘觸發一次以上。
-* 修正活動中可能無 **[!UICONTROL Use common columns]** 法正常運作的 **[!UICONTROL Union]** 問題。
+* 活動生成的拒絕文 **[!UICONTROL Load file]**件現在可以在其出站轉換中檢索，並在下一個活動中處理。 例如，透過SFTP伺服器使用**[!UICONTROL Transfer file]** 。
+* 修正當在的標籤中選取區段時，使用者無法限制區段 **[!UICONTROL Temporary resource]**人口的**[!UICONTROL General]** 問題 **[!UICONTROL Segmentation]**。
+* **[!UICONTROL Scheduler]**活動無法再設為每10分鐘觸發一次以上。
+* 修正活動中可能無 **[!UICONTROL Use common columns]**法正常運作的**[!UICONTROL Union]** 問題。
 
-#### 整合 {#integrations-3}
+_整合_
 
 * 修正在Adobe Campaign中部署事件觸發器時，可能造成錯誤的問題。 當「30天內回傳的可能性」中繼資料已新增至Adobe Marketing cloud的「放棄」觸發器時，就會發生此錯誤。
 * 修正從「人員」核心服務匯入觀眾時，技術工作流程可能會清除「目標維度」欄位的問題。 後續查詢無法擷取匯入的觀眾。
-* 修正在勾選選選項時，工 **[!UICONTROL Save audience]** 作流程的活動可能會失敗的 **[!UICONTROL Share in Adobe Marketing Cloud]** 問題。
+* 修正在勾選選選項時，工 **[!UICONTROL Save audience]**作流程的活動可能會失敗的**[!UICONTROL Share in Adobe Marketing Cloud]** 問題。
 

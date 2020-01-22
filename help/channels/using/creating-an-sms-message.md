@@ -13,7 +13,7 @@ delivercontext-tags: deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -80,5 +80,5 @@ source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
 
 * [關於SMS和推播內容版](../../channels/using/about-sms-and-push-content-design.md)
 * [管理範本](../../start/using/marketing-activity-templates.md)
-* [建立SMS傳送視訊](https://helpx.adobe.com/campaign/kt/acs/using/acs-creating-a-sms-delivery-feature-video-use.html) 。
+* [建立SMS傳送視訊](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/sms/sms-delivery.html) 。
 

@@ -1,18 +1,18 @@
 ---
 title: 使用電子郵件設計工具
 description: 瞭解電子郵件設計人員，以及如何啟用電子郵件設計內容。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 設計
-content-type: 參考
-topic-tags: 編輯——電子郵件——內容
+audience: designing
+content-type: reference
+topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -23,31 +23,31 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 電子郵件設計工具可讓您建立電子郵件內容和電子郵件內容範本。 它可與簡單電子郵件、交易電子郵件、A/B測試電子郵件、多語言電子郵件和循環電子郵件相容。
 
-若要開始使用電子郵件設計工具，請觀 [看這組影片](https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html#GettingStarted) ，其中說明電子郵件設計工具的一般功能，以及如何從頭開始或使用範本來設計電子郵件。
+若要開始使用電子郵件設計工具，請觀 [看這組影片](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) ，其中說明電子郵件設計工具的一般功能，以及如何從頭開始或使用範本來設計電子郵件。
 
 ### 電子郵件設計人員首頁 {#email-designer-home-page}
 
-建立 [電子郵件時](../../channels/using/creating-an-email.md), **[!UICONTROL Email Designer]** 首頁會在選取電子郵件內容時自動顯示。
+建立 [電子郵件時](../../channels/using/creating-an-email.md), **[!UICONTROL Email Designer]**首頁會在選取電子郵件內容時自動顯示。
 
 ![](assets/email_designer_home_page.png)
 
-此標 **[!UICONTROL Properties]** 簽可讓您編輯電子郵件詳細資訊，例如標籤、寄件者的地址和名稱，或電子郵件主旨。 您也可以按一下畫面上方的電子郵件標籤，以存取此標籤。
+此標 **[!UICONTROL Properties]**簽可讓您編輯電子郵件詳細資訊，例如標籤、寄件者的地址和名稱，或電子郵件主旨。 您也可以按一下畫面上方的電子郵件標籤，以存取此標籤。
 
 ![](assets/email_designer_home_properties.png)
 
-此標 **[!UICONTROL Templates]** 簽可讓您從現成可用的HTML內容或您已建立的範本中選擇，以快速開始設計電子郵件。 請參閱 [內容範本](../../designing/using/using-reusable-content.md#content-templates)。
+此標 **[!UICONTROL Templates]**簽可讓您從現成可用的HTML內容或您已建立的範本中選擇，以快速開始設計電子郵件。 請參閱[內容範本](../../designing/using/using-reusable-content.md#content-templates)。
 
 ![](assets/email_designer_home_templates.png)
 
-此標 **[!UICONTROL Learn & support]** 簽可讓您輕鬆存取相關檔案和教學課程。
+此標 **[!UICONTROL Learn & support]**簽可讓您輕鬆存取相關檔案和教學課程。
 
 ![](assets/email_designer_home_support.png)
 
 如果您未選擇模板，「電子郵件設計器」首頁還允許您選擇開始設計內容的方式：
 
-* 按一下 **[!UICONTROL Create]** 按鈕，從頭開始新內容。 請參 [閱從頭設計電子郵件內容](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)。
-* 按一下按 **[!UICONTROL Upload]** 鈕，從您的電腦上傳檔案。 請參 [閱從檔案匯入內容](../../designing/using/using-existing-content.md#importing-content-from-a-file)。
-* 按一下按 **[!UICONTROL Import from URL]** 鈕，從URL擷取現有內容。 請參 [閱從URL匯入內容](../../designing/using/using-existing-content.md#importing-content-from-a-url)。
+* 按一下 **[!UICONTROL Create]**按鈕，從頭開始新內容。 請參[閱從頭設計電子郵件內容](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)。
+* 按一下按 **[!UICONTROL Upload]**鈕，從您的電腦上傳檔案。 請參[閱從檔案匯入內容](../../designing/using/using-existing-content.md#importing-content-from-a-file)。
+* 按一下按 **[!UICONTROL Import from URL]**鈕，從URL擷取現有內容。 請參[閱從URL匯入內容](../../designing/using/using-existing-content.md#importing-content-from-a-url)。
 
 ### 電子郵件設計人員介面 {#email-designer-interface}
 
@@ -83,7 +83,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 若要正確使用電子郵件設計人員並盡可能輕鬆地建立最佳電子郵件，建議您套用下列原則：
 
-* 在HTML的&lt;head&gt;區段中使用內嵌樣式，而不是個別的CSS和CSS。 使用內嵌樣式，您就可以最佳化內容片段的儲存和重複使用。
+* 在HTML的&lt;head>區段中使用內嵌樣式，而不是個別的CSS和CSS。 使用內嵌樣式，您就可以最佳化內容片段的儲存和重複使用。
 
    請參 [閱添加內嵌樣式屬性](../../designing/using/styles.md#adding-inline-styling-attributes)。
 
@@ -112,7 +112,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ![](assets/email_designer_fragment_patch_message.png)
 
-Adobe建議將您的內容更新至最新版本，以避免發生CSS衝突等問題。 Click **[!UICONTROL Update now]**.
+Adobe建議將您的內容更新至最新版本，以避免發生CSS衝突等問題。 按一下 **[!UICONTROL Update now]**.
 
 如果內容更新期間發生錯誤，請檢查HTML並修正它，然後再次執行此更新。
 

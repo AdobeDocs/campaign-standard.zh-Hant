@@ -12,7 +12,7 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
 
 電子郵件設計工具可讓您建立電子郵件內容和電子郵件內容範本。 它可與簡單電子郵件、交易電子郵件、A/B測試電子郵件、多語言電子郵件和循環電子郵件相容。
 
-若要開始使用電子郵件設計工具，請觀 [看這組影片](https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html#GettingStarted) ，其中說明電子郵件設計工具的一般功能，以及如何從頭開始或使用範本來設計電子郵件。
+若要開始使用電子郵件設計工具，請觀 [看這組影片](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) ，其中說明電子郵件設計工具的一般功能，以及如何從頭開始或使用範本來設計電子郵件。
 
 <!--The Email Designer has more features than the Legacy Editor and is backward compatible.-->
 

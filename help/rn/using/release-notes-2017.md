@@ -12,7 +12,7 @@ discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d1ec5dddcf4c1aa3fe6338d35b381986ba32a28d
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -72,7 +72,7 @@ _推播通知_
 * 推播通知現在在GCM和啟用FCM的Android行動應用程式上都受支援。
 * 修正複製推播通知範本時無法儲存內容的錯誤。
 * 現在，您可以協調行動應用程式使用者的資料，從Adobe Campaign資料庫建立或更新個人檔案。
-* Adobe Campaign現在會優先處理交易推播通知，而非標準推播通知。
+* Adobe Campaign現在會優先處理交易式推播通知，而非標準推播通知。
 
 _報表_
 
@@ -329,7 +329,7 @@ _推播通知_
   </tr> 
   <tr> 
    <td> Dreamweaver整合即時<br /> </td> 
-   <td> Adobe Campaign與Dreamweaver的整合現已上線。 它現在可與官方上一版Dreamweaver(17.0.2)搭配使用。<br /> 這需要從以下網址安裝Adobe Campaign整合擴充功能：https://adobe.ly/acdw_addon <a href="http://adobe.ly/acdw_addon"></a><br /> .如需詳細資訊，請參閱此 <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">影片</a>。<br /> </td> 
+   <td> Adobe Campaign與Dreamweaver的整合現已上線。 它現在可與官方上一版Dreamweaver(17.0.2)搭配使用。<br /> 這需要從以下網址安裝Adobe Campaign整合擴充功能：https://adobe.ly/acdw_addon <a href="http://adobe.ly/acdw_addon"></a><br /> .如需詳細資訊，請參閱此 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">影片</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -402,7 +402,7 @@ _推播通知_
   </tr> 
   <tr> 
    <td> Dreamweaver整合(Labs)<br /> </td> 
-   <td> 透過Adobe Campaign與Dreamweaver整合，您現在可以透過Adobe解決方案，建立電子郵件宣傳的整合程式。<br /> 您可以在Dreamweaver中編輯Adobe Campaign電子郵件，並讓這兩個解決方案之間的內容順暢地同步化。<br /> 在初始版本中，整合功能是「Labs」功能，僅能與Dreamweaver搶鮮版測試版搭配使用。 如果您想要啟動它，請聯絡AC-DW-integration@adobe.com。<br /> 如需詳細資訊，請參閱此影 <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">片</a>。<br /> </td> 
+   <td> 透過Adobe Campaign與Dreamweaver整合，您現在可以透過Adobe解決方案，建立電子郵件宣傳的整合程式。<br /> 您可以在Dreamweaver中編輯Adobe Campaign電子郵件，並讓這兩個解決方案之間的內容順暢地同步化。<br /> 在初始版本中，整合功能是「Labs」功能，僅能與Dreamweaver搶鮮版測試版搭配使用。 如果您想要啟動它，請聯絡AC-DW-integration@adobe.com。<br /> 如需詳細資訊，請參閱此影 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">片</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 手動傳送時間最佳化<br /> </td> 

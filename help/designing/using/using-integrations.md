@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6881d3e0f22f3766d6a26af90ce3bcbd5e2293da
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -37,7 +37,7 @@ Adobe Campaign提供數種電子郵件編寫選項。 您可以使用Dreamweaver
 
    對於電子郵件開發人員，您不再需要新增類似文字 `[[FIRSTNAME_PLACEHOLDER]]` ，也不需要尋找資料模型表格的語法。 Dreamweaver中的Campaign工具列會直接連線至您的Campaign例項的資料模型。 這表示您可以從「名字」到「地址」之類的項目，提取任何個人化所需的資料。 如果您已在Campaign中建立內容區塊，您也可以直接將這些區塊拖曳至Dreamweaver。
 
-此功能在Dreamweaver說明檔案中有詳細 [說明](https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html)。 此外，還 [提供](https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html) 展示影片。
+此功能在Dreamweaver說明檔案中有詳細 [說明](https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html)。 此外，還 [提供](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html) 展示影片。
 
 ## 在Experience manager中編輯內容 {#editing-content-in-experience-manager}
 
@@ -139,7 +139,7 @@ Adobe Campaign提供數種電子郵件編寫選項。 下表顯示了每種方�
    <td> <strong>若要進一步瞭解</strong><br /> </td> 
    <td> 請參 <a href="../../designing/using/designing-content-in-adobe-campaign.md">閱電子郵件設計工具</a>。<br /> </td> 
    <td> See <a href="../../integrating/using/integrating-with-experience-manager.md">Integrating with Experience Manager</a>.<br /> </td> 
-   <td> 請參 <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">閱Dreamweaver和Campaign</a> ，並觀看此 <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">影片</a>。<br /> </td> 
+   <td> 請參 <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">閱Dreamweaver和Campaign</a> ，並觀看此 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">影片</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>

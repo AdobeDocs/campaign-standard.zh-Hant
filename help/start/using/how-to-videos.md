@@ -12,14 +12,14 @@ discoiquuid: 524ff9a2-fdaa-46bd-bfe6-f03a50461247
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 66cd1df8723971fc4dc95b40d5ef46493a055306
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
 
 # 操作說明短片{#how-to-videos}
 
-觀看我們的 [Campaign Standard操作說明影片，以探索主要功能](https://helpx.adobe.com/campaign/kt/acs/index/acs-videos.html)。
+觀看我們的 [Campaign Standard操作說明影片，以探索主要功能](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)。
 
 * [建立電子郵件](https://video.tv.adobe.com/v/23721?captions=chi_hant):從Adobe Campaign的首頁建立電子郵件。
 * [建立著陸頁面](https://video.tv.adobe.com/v/24093?captions=chi_hant):在Adobe Campaign中建立和編輯登陸頁面。

@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 45045eba15b4b5f6cbf0541b04e443c20c30dc0b
+source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
 
 ---
 
@@ -151,7 +151,7 @@ source-git-commit: 45045eba15b4b5f6cbf0541b04e443c20c30dc0b
       + [啟動新平台](sending/using/starting-new-platform.md)
       + [控制電子郵件內容](sending/using/control-email-content.md)
       + [提升您的聲譽](sending/using/improving-reputation.md)
-      + [白名單](sending/using/whitelists.md)
+      + [IP認證](sending/using/ip-certification.md)
       + [技術建議](sending/using/technical-recommendations.md)
       + [監控傳遞能力](sending/using/monitor-deliverability.md)
       + [疑難排解](sending/using/troubleshooting.md)

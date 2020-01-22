@@ -12,7 +12,7 @@ discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -94,7 +94,7 @@ source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
    <td> Dreamweaver<br /> </td> 
    <td> 可讓您編輯Dreamweaver的電子郵件內容，並與Adobe Campaign同步化。<br /> </td> 
    <td> 
-    <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">使用Dreamweaver視訊建立個人化電子郵件</a> , <br/>使 <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">用適用於Dreamweaver的Campaign擴充功能</a> 
+    <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">使用Dreamweaver視訊建立個人化電子郵件</a> , <br/>使 <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">用適用於Dreamweaver的Campaign擴充功能</a> 
   </td> 
   </tr> 
   <tr> 

@@ -1,36 +1,36 @@
 ---
 title: 匯出清單
 description: 'Adobe Campaign可讓您直接從檔案中匯出顯示為清單的資料，以供日後使用。 '
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: c64fe706-bd6e-4746-958e-f94226f4e2cb
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 自動化
-content-type: 參考
-topic-tags: 導入和導出資料
+audience: automating
+content-type: reference
+topic-tags: importing-and-exporting-data
 discoiquuid: 12c874da-435f-44b6-a3c8-873301e177cc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
 
 # 匯出清單{#exporting-lists}
 
-Adobe Campaign可讓您直接將清單匯出至檔案中，以供日後使用。 導出檔案中的清單會生成菜單中的日誌 **[!UICONTROL Export audits]** 條目。 有關導出審計的詳細資訊，請參閱「審 [計導出](../../administration/using/auditing-export-logs.md) 」部分。
+Adobe Campaign可讓您直接將清單匯出至檔案中，以供日後使用。 導出檔案中的清單會生成菜單中的日誌 **[!UICONTROL Export audits]**條目。 有關導出審計的詳細資訊，請參閱「審[計導出](../../administration/using/auditing-export-logs.md)」部分。
 
-導出清單選項允許預設情況下導出最多100,000行，並且由 **Nms_ExportListLimit選項定義** 。 此選項可由功能管理員管理，位於 **[!UICONTROL Administration]** &gt; **[!UICONTROL Application settings]** &gt;功 **[!UICONTROL Options]** 能表。
+導出清單選項允許預設情況下導出最多100,000行，並且由 **Nms_ExportListLimit選項定義** 。 此選項可由功能管理員管理，位於 **[!UICONTROL Administration]**>**[!UICONTROL Application settings]** >功 **[!UICONTROL Options]**能表。
 
-對於具有角色的用戶，所有具有「清單 **」模式** 視圖的螢幕都提供導出列 **[!UICONTROL EXPORT (export)]** 表。
+對於具有角色的用戶，所有具有「清單 **」模式** 視圖的螢幕都提供導出列 **[!UICONTROL EXPORT (export)]**表。
 
-1. 前往您選擇的 **清單** 。 例如，測試描述檔概述畫面( **[!UICONTROL Profiles & audiences]** &gt; **[!UICONTROL Test profiles]** )。
+1. 前往您選擇的 **清單** 。 例如，測試描述檔概述畫面( **[!UICONTROL Profiles & audiences]**>**[!UICONTROL Test profiles]** )。
 1. 檢查螢幕是否處於列 **表模** 式。
 
    ![](assets/export_list_mode_switch.png)
 
-1. 使用右上角的按鈕，依您要匯出的順序來組織清 **[!UICONTROL Configure list]** 單中的欄。 除了配置的列外，還將導出資源的主鍵。
+1. 使用右上角的按鈕，依您要匯出的順序來組織清 **[!UICONTROL Configure list]**單中的欄。 除了配置的列外，還將導出資源的主鍵。
 1. 如果您喜歡，可以套用篩選。 若要這麼做，請按一下左上角的按鈕以顯示搜尋窗格。
 
    如果您從包含不同資源的清單進行匯出，則必須套用篩選，如此清單中才會顯示一種資源類型。
@@ -75,5 +75,4 @@ Adama;Henry;22/09/1992 02:00:00;henry.adama@mail.com;64120
 
 * [角色](../../administration/using/list-of-roles.md)
 * [自訂清單](../../start/using/customizing-lists.md)
-* [設定清單視訊](https://helpx.adobe.com/campaign/kt/acs/using/acs-configuring-a-list-feature-video-setup.html)
-
+* [設定清單視訊](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/configure-a-list.html)

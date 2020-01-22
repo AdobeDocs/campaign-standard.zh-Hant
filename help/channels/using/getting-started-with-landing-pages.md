@@ -13,7 +13,7 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -34,7 +34,7 @@ Campaign隨附著著陸頁面，這些網頁表單可用來擷取您受眾的資
 
 **相關主題：**
 
-* [建立著陸頁面教學課程影片](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-edit-landing-page-feature-video-use.html) （影片）
+* [建立著陸頁面教學課程影片](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/communication-channels/landing-pages/landing-page-create-and-edit.html) （影片）
 * [建立服務](../../audiences/using/creating-a-service.md)
 * [設定雙重加入程 序](setting-up-a-double-opt-in-process.md)
 
@@ -44,12 +44,12 @@ Campaign隨附著著陸頁面，這些網頁表單可用來擷取您受眾的資
 
 **寫入和更新資料**
 
-* 著陸頁面僅限於 **[!UICONTROL Profile]** 和 **[!UICONTROL Subscription]** 資源。 您可以儲存記錄，並從 **[!UICONTROL Profile]** 訂閱／取消訂閱中更新記錄 **[!UICONTROL Service]**。
+* 著陸頁面僅限於 **[!UICONTROL Profile]**和**[!UICONTROL Subscription]** 資源。 您可以儲存記錄，並從 **[!UICONTROL Profile]**訂閱／取消訂閱中更新記錄**[!UICONTROL Service]**。
 有關資源配置的詳細資訊，請 [參閱配置資源的資料結構](../../developing/using/configuring-the-resource-s-data-structure.md)。
 
 >[!CAUTION]
 >
->著陸頁面無法顯示或更新來自和以外任何其他資源的 **[!UICONTROL Profile]** 資料 **[!UICONTROL Subscription]**。
+>著陸頁面無法顯示或更新來自和以外任何其他資源的 **[!UICONTROL Profile]**資料**[!UICONTROL Subscription]**。
 
 **預載**
 
@@ -79,7 +79,7 @@ Campaign隨附著著陸頁面，這些網頁表單可用來擷取您受眾的資
 
 設定著陸頁面之前，第一步是設定符合您需求的著陸頁面範本。 範本準備就緒後，所有以該範本為基礎的著陸頁面都會預先設定所需參數。
 
-1. 從進階功能表，透過Adobe Campaign標誌，選取 **[!UICONTROL Resources]** / **[!UICONTROL Templates]** / **[!UICONTROL Landing page templates]**，然後複製您要使用的範本。
+1. 從進階功能表，透過Adobe Campaign標誌，選取 **[!UICONTROL Resources]**/**[!UICONTROL Templates]** / **[!UICONTROL Landing page templates]**，然後複製您要使用的範本。
 1. 在範本屬性中，指定著陸頁面必須具有的所有共同參數。 例如：定位維度、已識別或未識別訪客的頁面存取參數、訪客進行表單驗證的特定動作、內容中使用的品牌／標誌等。 如需著陸頁面屬性的詳細資訊，請參 [閱本節](../../channels/using/configuring-landing-page.md)
 1. 儲存您的修改。
 
@@ -130,7 +130,7 @@ Campaign隨附著著陸頁面，這些網頁表單可用來擷取您受眾的資
 
 ## 步驟發佈登陸頁面 {#publish-the-landing-page}
 
-測試成功後，您就可以使用控制面板中動作列 **[!UICONTROL Publish]** 的按鈕來發佈著陸頁面。 監控塊顯示發佈的進展和狀態。
+測試成功後，您就可以使用控制面板中動作列 **[!UICONTROL Publish]**的按鈕來發佈著陸頁面。 監控塊顯示發佈的進展和狀態。
 
 發佈著陸頁面可讓其線上存取。 發佈後，您隨時都可以更新：若要這麼做，您必須在每次修改後重新發佈。 您也可以隨時解除發佈著陸頁面，使其不再可用。
 

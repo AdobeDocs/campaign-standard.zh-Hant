@@ -13,16 +13,14 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
+source-git-commit: 02b8d847d4506eca96abfa27db1e2efadc2a68d2
 
 ---
 
 
 # 關於傳遞能力{#about-deliverability}
 
-傳遞能力，或如何評估促銷活動在到達收件者收件匣時是否成功，而無反彈或標示為垃圾訊息。
-
-Adobe Campaign Deliverability是一種付費服務，提供不同的選件。 聯絡傳遞能力或商業服務。
+傳遞能力可讓您測量促銷活動在到達收件者收件匣時是否成功，而不會反彈或標示為垃圾訊息。
 
 可交付率取決於眾多因素，特別是：
 

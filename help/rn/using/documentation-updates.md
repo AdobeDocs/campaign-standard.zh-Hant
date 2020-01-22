@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 663047d8d06218442b7530a0f290e3943123ebbc
+source-git-commit: 957290fc6524d4eb7c69c914f9817414655a25fd
 
 ---
 
@@ -27,7 +27,9 @@ source-git-commit: 663047d8d06218442b7530a0f290e3943123ebbc
 
 ## 檔案更新- 2020年1月 {#doc-updates-january-2020}
 
-「建立跨通道傳送工作流程」快速入門手冊已更新，並包含在核心檔案中。 [閱讀更多資訊](../../automating/using/workflow-cross-channel-delivery.md)
+Deliverability檔案已更新為IP認證的新章節。 [閱讀更多資訊](../../sending/using/ip-certification.md)
+
+目前提供新章節，說明如何建立跨通道傳送工作流程。 [閱讀更多資訊](../../automating/using/workflow-cross-channel-delivery.md)
 
 「動態」報表的「指標」計算區段已更新。 [閱讀更多資訊](../../reporting/using/indicator-calculation.md)
 
@@ -197,7 +199,7 @@ GDPR快速入門手冊已經過改進並充實。 它現在是包含GDPR和CCPA�
 
 直接從Adobe Campaign取得的上下文說明連結已更新。
 
-以下頁 [面成為](https://helpx.adobe.com/campaign/kt/acs/index/acs-videos.html) Adobe Campaign standard的官方「視訊」頁面。
+以下頁 [面成為](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) Adobe Campaign standard的官方「視訊」頁面。
 
 已新增資料保留的區段，包括標準表格的預設保留值。 [閱讀更多資訊](../../administration/using/data-retention.md)
 
@@ -337,7 +339,7 @@ Microsoft Edge（最新版本）已新增至電腦的相容瀏覽器清單。 [�
 
 「使用Adobe Experience Platform SDK設定行動應用程式」一節已移至 [此處](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)。
 
-視訊已更新並移 [至此](https://helpx.adobe.com/campaign/kt/acs/index/acs-videos.html)。
+視訊已更新並移 [至此](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)。
 
 已更新「使用者類型」區段。 [閱讀更多資訊](../../administration/using/users-management.md)
 
@@ -685,7 +687,7 @@ Creative SDK的增強影像版本功能——閱 [讀更多](../../designing/usi
 
 Amazon Simple Storage Service(S3)連接器——詳 [細內容](../../administration/using/external-accounts.md)
 
-Dreamweaver整合即時——閱 [讀更多](https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html)
+Dreamweaver整合即時——閱 [讀更多](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
 
 ### 此版本隨附的其他檔案更新 {#other-documentation-updates-coming-with-the-release-14}
 
@@ -709,7 +711,7 @@ Dreamweaver整合即時——閱 [讀更多](https://helpx.adobe.com/campaign/kt
 
 動態報表——詳 [細內容](../../reporting/using/about-dynamic-reports.md)
 
-Dreamweaver整合(Labs)-閱 [讀更多](https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html)
+Dreamweaver整合(Labs)-閱 [讀更多](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
 
 手動傳送時間最佳化——詳 [細資訊](../../sending/using/optimizing-the-sending-time.md)
 

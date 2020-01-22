@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a7dcfd1d3cd6996c6f4b435342eaaace42c706a8
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -306,7 +306,7 @@ source-git-commit: a7dcfd1d3cd6996c6f4b435342eaaace42c706a8
  <tbody> 
   <tr> 
    <td> 控制面板<br /> </td> 
-   <td> <p>為協助提高管理員使用者的工作效率，您可以輕鬆監控容量並管理執行個體的設定（從SFTP伺服器管理開始）。</p><p>如需詳細資訊，請參 <a href="https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html">閱詳細說明</a><a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-control-panel-video-use.html">檔案和操作視訊</a>。</p></td> 
+   <td> <p>為協助提高管理員使用者的工作效率，您可以輕鬆監控容量並管理執行個體的設定（從SFTP伺服器管理開始）。</p><p>如需詳細資訊，請參 <a href="https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html">閱詳細說明</a><a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/control-panel-overview.html">檔案和操作視訊</a>。</p></td> 
   </tr> 
   <tr> 
    <td> 本機通知<br /> </td> 
@@ -314,7 +314,7 @@ source-git-commit: a7dcfd1d3cd6996c6f4b435342eaaace42c706a8
   </tr> 
   <tr> 
    <td> 工作流程增強功能——將負載新增至外部訊號活動<br /> </td> 
-   <td> <p>當從其他工作流程或REST API呼叫中成功符合定義的條件以與外部系統整合時，啟動具有裝載的工作流程。 此外，還包含新 <strong>的測試</strong> 活動，您可在其中執行此功能的測試。</p><p>如需詳細資訊，請參 <a href="../../automating/using/calling-a-workflow-with-external-parameters.md">閱詳細說明</a><a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-external-signal-activity-feature-video-use.html">檔案和操作視訊</a>。</p></td> 
+   <td> <p>當從其他工作流程或REST API呼叫中成功符合定義的條件以與外部系統整合時，啟動具有裝載的工作流程。 此外，還包含新 <strong>的測試</strong> 活動，您可在其中執行此功能的測試。</p><p>如需詳細資訊，請參 <a href="../../automating/using/calling-a-workflow-with-external-parameters.md">閱詳細說明</a><a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/execution-activities/external-signal-activity.html">檔案和操作視訊</a>。</p></td> 
   </tr> 
   <tr> 
    <td> 著陸頁面增強功能- Google reCAPTCHA<br /> </td> 
@@ -432,7 +432,7 @@ source-git-commit: a7dcfd1d3cd6996c6f4b435342eaaace42c706a8
   </tr> 
   <tr> 
    <td> 行動應用程式內訊息<br /> </td> 
-   <td> <p>此發行包含Campaign中的GA版應用程式內渠道。 從功能角度來看，測試版中最值得注意的新增功能是「應用程式內通道動態報表」，以及Mobile SDK與MCIAS（為SDK提供應用程式內規則的Marketing cloud應用程式內訊息服務）之間的安全握手。 安全握手可確保使用者的PII資料不會落入惡意手中，並可讓您在使用者每次登出時清除訊息快取，以維護使用者在共用裝置上的隱私權。</p><p>如需詳細資訊，請參閱詳 <a href="../../channels/using/about-in-app-messaging.md">細說明檔案</a> ，以及專 <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-in-app-message-tutorial.html">用的應用程式內教學課程</a>。</p> </td> 
+   <td> <p>此發行包含Campaign中的GA版應用程式內渠道。 從功能角度來看，測試版中最值得注意的新增功能是「應用程式內通道動態報表」，以及Mobile SDK與MCIAS（為SDK提供應用程式內規則的Marketing cloud應用程式內訊息服務）之間的安全握手。 安全握手可確保使用者的PII資料不會落入惡意手中，並可讓您在使用者每次登出時清除訊息快取，以維護使用者在共用裝置上的隱私權。</p><p>如需詳細資訊，請參閱詳 <a href="../../channels/using/about-in-app-messaging.md">細說明檔案</a> ，以及專 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/in-app/in-app-message-overview.html">用的應用程式內教學課程</a>。</p> </td> 
   </tr> 
   <tr> 
    <td> 工作流程增強功能<br /> </td> 
@@ -537,11 +537,11 @@ source-git-commit: a7dcfd1d3cd6996c6f4b435342eaaace42c706a8
      <li> 能夠在準 <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">備時自動從URL擷取內容</a> </li> 
      <li> 完全 <a href="../../designing/using/using-reusable-content.md#content-templates">符合現成可用的內容範本</a>。 </li> 
     </ul> 
-    <p>如需詳細資訊，請參 <a href="../../designing/using/designing-content-in-adobe-campaign.md">閱詳細說明</a><a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html">檔案和操作視訊</a>。 以下列出改進和修正。</p><p>因此，舊版電子郵件內容編輯器現在已不再提供。 For more information, refer to this <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">page</a>.</p> </td> 
+    <p>如需詳細資訊，請參 <a href="../../designing/using/designing-content-in-adobe-campaign.md">閱詳細說明</a><a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">檔案和操作視訊</a>。 以下列出改進和修正。</p><p>因此，舊版電子郵件內容編輯器現在已不再提供。 For more information, refer to this <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">page</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> 交易電子郵件中的產品清單<br /> </td> 
-   <td> <p>您現在可以在交易電子郵件訊息中參考一或多個產品集合。 例如，您可以自動傳送購物車放棄電子郵件，列出使用者購物車中包含影像、價格和每個產品的連結的所有產品。</p><p>如需詳細資訊，請參 <a href="../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message">閱詳細說明</a><a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-product-listings-in-transactional-emails-feature-video-setup.html">檔案和操作視訊</a>。</p> </td> 
+   <td> <p>您現在可以在交易電子郵件訊息中參考一或多個產品集合。 例如，您可以自動傳送購物車放棄電子郵件，列出使用者購物車中包含影像、價格和每個產品的連結的所有產品。</p><p>如需詳細資訊，請參 <a href="../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message">閱詳細說明</a><a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html">檔案和操作視訊</a>。</p> </td> 
   </tr> 
   <tr> 
    <td> 電子郵件設計人員中的行動裝置檢視<br /> </td> 

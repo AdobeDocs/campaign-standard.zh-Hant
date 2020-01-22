@@ -1,19 +1,19 @@
 ---
 title: 管理測試設定檔和傳送校樣
 description: 瞭解如何管理測試設定檔和校樣。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: eb4d893b-3724-4b15-9312-1ec74784368d
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 發送
-content-type: 參考
-topic-tags: 準備和測試訊息
+audience: sending
+content-type: reference
+topic-tags: preparing-and-testing-messages
 discoiquuid: 37320ec5-196c-4260-8156-98932da3e4a5
-context-tags: seedMember，概觀
+context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -42,11 +42,11 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ### 建立測試設定檔 {#creating-test-profiles}
 
-1. 從進階功能表，透過Adobe Campaign標誌，選取「設定檔與觀眾 **&gt;測試設定檔** 」以存取測試設定檔清單。
+1. 從進階功能表，透過Adobe Campaign標誌，選取「設定檔與觀眾 **>測試設定檔** 」以存取測試設定檔清單。
 
    ![](assets/test_profile_creation_1.png)
 
-1. 在控制面 **[!UICONTROL Test profiles]** 板中，按一下 **建立**。
+1. 在控制面 **[!UICONTROL Test profiles]**板中，按一下**&#x200B;建立&#x200B;**。
 
    ![](assets/test_profile_creation_2.png)
 
@@ -58,20 +58,20 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    ![](assets/test_profile_creation_4.png)
 
-1. 輸入聯絡人 **[!UICONTROL Email, Telephone, Mobile, Mobile app]**&#x200B;渠道，以及測試描述檔位址（如有必要）。
+1. 輸入聯絡人 **[!UICONTROL Email, Telephone, Mobile, Mobile app]**渠道，以及測試描述檔位址（如有必要）。
 
    >[!NOTE]
    >
-   >您可以定義偏好的電子郵件格式：或 **[!UICONTROL Text]** 者 **[!UICONTROL HTML]**。
+   >您可以定義偏好的電子郵件格式：或 **[!UICONTROL Text]**者**[!UICONTROL HTML]**。
 
 1. 如果要使用此測試設定檔來測試交易式訊息的個人化，請指定事件類型和此事件的資料。
-1. 按一 **[!UICONTROL Create]** 下以儲存測試設定檔。
+1. 按一 **[!UICONTROL Create]**下以儲存測試設定檔。
 
 然後，測試描述檔會新增至描述檔清單。
 
 **相關主題：**
 
-[建立測試設定檔](https://helpx.adobe.com/campaign/kt/acs/using/acs-test-profiles-feature-video-use.html) 影片
+[建立測試設定檔](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/test-profiles.html) 影片
 
 ### 編輯測試設定檔 {#editing-test-profiles}
 
@@ -82,7 +82,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    ![](assets/test_profile_edit.png)
 
-1. 如果 **[!UICONTROL Save]** 您已輸入變更，請按一下，或選取測試描述檔名稱，然後 **[!UICONTROL Test profiles]** 在畫面頂端的區段中，返回測試描述檔控制面板。
+1. 如果 **[!UICONTROL Save]**您已輸入變更，請按一下，或選取測試描述檔名稱，然後**[!UICONTROL Test profiles]** 在畫面頂端的區段中，返回測試描述檔控制面板。
 
 ## 傳送校樣 {#sending-proofs}
 
@@ -94,13 +94,13 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 在訊息中：
 
-1. Click the **[!UICONTROL Send a test]** button.
+1. Click the **[!UICONTROL Send a test]**button.
 
    ![](assets/bat_select.png)
 
 1. 選擇您要使用的校樣類型：
 
-   * **[!UICONTROL Email rendering]**:選取此選項，以測試根據收件匣定位的訊息接收方式。 如需詳細資訊，請參閱「電子郵 [件轉換」](../../sending/using/email-rendering.md)。
+   * **[!UICONTROL Email rendering]**:選取此選項，以測試根據收件匣定位的訊息接收方式。 如需詳細資訊，請參閱「電子郵[件轉換」](../../sending/using/email-rendering.md)。
    * **[!UICONTROL Proof]**:選擇此選項，在將消息發送到主目標之前測試該消息。 證明收件者負責核准傳送內容及格式，
    * **[!UICONTROL Proof + Email rendering]**:此選項會結合前兩個選項。
    ![](assets/bat_select1.png)
@@ -111,21 +111,21 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    ![](assets/bat_select2.png)
 
-1. 您可以使用下拉式清單 **[!UICONTROL Proofs]** 來檢視校樣。
+1. 您可以使用下拉式清單 **[!UICONTROL Proofs]**來檢視校樣。
 
    ![](assets/bat_view.png)
 
-1. 選取要存取其摘要的證明。 對於電子郵件，如果您已選取「 **Email rendering** 」(電子郵件轉換 **[!UICONTROL Access email rendering]** )選項作為校對類型，則校對標籤右側會顯示圖示。 請參閱 [電子郵件轉譯](../../sending/using/email-rendering.md)。
+1. 選取要存取其摘要的證明。 對於電子郵件，如果您已選取「 **Email rendering** 」(電子郵件轉換 **[!UICONTROL Access email rendering]**)選項作為校對類型，則校對標籤右側會顯示圖示。 請參閱[電子郵件轉譯](../../sending/using/email-rendering.md)。
 
    ![](assets/bat_view2.png)
 
-根據收到證明之人員的意見，您可能會被要求修改傳送的內容。 修改完成後，您必須重新開始準備電子郵件，然後重新傳送證明。 每個新校樣都可使用按鈕 **[!UICONTROL Show proofs]** 存取。
+根據收到證明之人員的意見，您可能會被要求修改傳送的內容。 修改完成後，您必須重新開始準備電子郵件，然後重新傳送證明。 每個新校樣都可使用按鈕 **[!UICONTROL Show proofs]**存取。
 
 您必須視需要傳送多份校樣，直到完成傳送內容為止。 完成此作業後，您可以將傳送內容傳送至主要目標並關閉核准週期。
 
 **相關主題：**
 
-[傳送測試、準備和傳送電子郵件視訊](https://helpx.adobe.com/campaign/kt/acs/using/acs-sending-test-preparing-sending-email-feature-video-use.html) 。
+[傳送測試、準備和傳送電子郵件視訊](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/sending-test-preparing-sending-email.html) 。
 
 ## 使用陷阱 {#using-traps}
 
@@ -152,16 +152,16 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 定義訊息的對象時：
 
-1. 從標籤 **[!UICONTROL Test profiles]** 中，選取測試描述檔。 請確定它已 **[!UICONTROL Trap]** 達到預期用途。
+1. 從標籤 **[!UICONTROL Test profiles]**中，選取測試描述檔。 請確定它已**[!UICONTROL Trap]** 達到預期用途。
 
    ![](assets/trap_select.png)
 
-1. 在訊息內容準備就緒後，按一下 **[!UICONTROL Prepare]** 按鈕。 See [Preparing the send](../../sending/using/preparing-the-send.md).
+1. 在訊息內容準備就緒後，按一下 **[!UICONTROL Prepare]**按鈕。 See[Preparing the send](../../sending/using/preparing-the-send.md).
    >[!NOTE]
    >
    >請確定您已選取主要目標。 否則，無法傳送您的訊息。
 
-1. Click the **[!UICONTROL Confirm]** button. See [Confirming the send](../../sending/using/confirming-the-send.md).
+1. Click the **[!UICONTROL Confirm]**button. See[Confirming the send](../../sending/using/confirming-the-send.md).
 
    ![](assets/trap_confirm.png)
 

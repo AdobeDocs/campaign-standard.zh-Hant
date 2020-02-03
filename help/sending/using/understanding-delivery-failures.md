@@ -1,18 +1,18 @@
 ---
 title: 瞭解傳送故障
 description: 瞭解如何使用Campaign管理傳送失敗。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: 2735aa05-7b6f-47c9-98c4-a15cc33be39d
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 發送
-content-type: 參考
-topic-tags: 監控消息
+audience: sending
+content-type: reference
+topic-tags: monitoring-messages
 discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 3c45cbbb261f18252689d0fc4f332b9f45137c85
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 >
 >**電子郵件** 錯誤訊息（或「彈回數」）由inMail程式限定。 **MTA流程** （或「狀態報告」的「SR」）會限定SMS錯誤訊息。
 
-如果地址被隔離或配置檔案被列入黑名單，在準備傳送時也可以排除郵件。 已排除的訊息會列在 **[!UICONTROL Exclusion logs]** 傳送控制面板的標籤中(請參 [閱本節](../../sending/using/monitoring-a-delivery.md#exclusion-logs))。
+如果地址被隔離或配置檔案被列入黑名單，在準備傳送時也可以排除郵件。 已排除的訊息會列在 **[!UICONTROL Exclusion logs]**傳送控制面板的標籤中(請參[閱本節](../../sending/using/monitoring-a-delivery.md#exclusion-logs))。
 
 ![](assets/exclusion_logs.png)
 
@@ -38,7 +38,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ## 識別訊息的傳送失敗 {#identifying-delivery-failures-for-a-message}
 
-傳送傳送後，標籤(請 **[!UICONTROL Sending logs]** 參閱本 [節](../../sending/using/monitoring-a-delivery.md#sending-logs))可讓您檢視每個描述檔的傳送狀態，以及相關的失敗類型和原因(請參閱傳送失敗類型 [和原因](#delivery-failure-types-and-reasons))。
+傳送傳送後，標籤(請 **[!UICONTROL Sending logs]**參閱本[節](../../sending/using/monitoring-a-delivery.md#sending-logs))可讓您檢視每個描述檔的傳送狀態，以及相關的失敗類型和原因(請參閱傳送失敗類型[和原因](#delivery-failure-types-and-reasons))。
 
 ![](assets/sending_logs.png)
 
@@ -48,33 +48,33 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 傳送失敗時有三種錯誤類型：
 
-* **硬**:「硬」錯誤表示地址無效。 這包含明確指出地址無效的錯誤訊息，例如："未知用戶"。
+* **硬**:「硬」錯誤表示地址無效。 這包含明確指出地址無效的錯誤訊息，例如：&quot;未知用戶&quot;。
 * **軟**:這可能是暫時錯誤，或無法分類的錯誤，例如：「無效域」或「郵箱已滿」。
 * **已忽略**:這是已知為暫時的錯誤，例如「不在辦公室」，或是技術錯誤，例如，如果傳送者類型是「postmaster」。
 
 傳送失敗的可能原因有：
 
-* **[!UICONTROL User unknown]** （硬類型）:地址不存在。 此描述檔不會再嘗試傳送。
-* **[!UICONTROL Quarantined address]** （硬類型）:地址被隔離了。
-* **[!UICONTROL Unreachable]** （可變／硬類型）:消息傳送鏈中發生錯誤（發生在SMTP中繼上、域暫時無法訪問等）。 根據提供者傳回的錯誤，將直接傳送地址給隔離，或重新嘗試傳送，直到Campaign收到證明隔離狀態正確的錯誤或錯誤數達到5為止。
-* **[!UICONTROL Address empty]** （硬類型）:地址未定義。
-* **[!UICONTROL Mailbox full]** （可變類型）:此用戶的郵箱已滿，無法接受更多消息。 可以從隔離清單中刪除此地址，以進行另一次嘗試。 在30天後自動移除。
+* **[!UICONTROL User unknown]**（硬類型）:地址不存在。 此描述檔不會再嘗試傳送。
+* **[!UICONTROL Quarantined address]**（硬類型）:地址被隔離了。
+* **[!UICONTROL Unreachable]**（可變／硬類型）:消息傳送鏈中發生錯誤（發生在SMTP中繼上、域暫時無法訪問等）。 根據提供者傳回的錯誤，將直接傳送地址給隔離，或重新嘗試傳送，直到Campaign收到證明隔離狀態正確的錯誤或錯誤數達到5為止。
+* **[!UICONTROL Address empty]**（硬類型）:地址未定義。
+* **[!UICONTROL Mailbox full]**（可變類型）:此用戶的郵箱已滿，無法接受更多消息。 可以從隔離清單中刪除此地址，以進行另一次嘗試。 在30天後自動移除。
 
-   In order for the address to be automatically removed from the list of quarantined addresses, the **[!UICONTROL Database cleanup]** technical workflow must be started.
+   In order for the address to be automatically removed from the list of quarantined addresses, the **[!UICONTROL Database cleanup]**technical workflow must be started.
 
-* **[!UICONTROL Refused]** （可變／硬類型）:由於安全反饋是垃圾郵件報告，該地址已被置於隔離狀態。 根據提供者傳回的錯誤，將直接傳送地址給隔離，或重新嘗試傳送，直到Campaign收到證明隔離狀態正確的錯誤或錯誤數達到5為止。
+* **[!UICONTROL Refused]**（可變／硬類型）:由於安全反饋是垃圾郵件報告，該地址已被置於隔離狀態。 根據提供者傳回的錯誤，將直接傳送地址給隔離，或重新嘗試傳送，直到Campaign收到證明隔離狀態正確的錯誤或錯誤數達到5為止。
 * **[!UICONTROL Duplicate]**:區段中已偵測到該位址。
-* **[!UICONTROL Not defined]** （可變類型）:該地址正在限定中，因為錯誤尚未增加。
+* **[!UICONTROL Not defined]**（可變類型）:該地址正在限定中，因為錯誤尚未增加。
 
    當伺服器傳送新錯誤訊息時，會發生此類錯誤：它可能是孤立的錯誤，但如果再次發生，錯誤計數器會增加，這會提醒技術團隊。
 
 * **[!UICONTROL Error ignored]**:此位址位於白名單中，無論如何，都會寄送電子郵件給此位址。
 * **[!UICONTROL Blacklisted address]**:地址在發送時被列入黑名單。
-* **[!UICONTROL Account disabled]** （可變／硬類型）:當Internet訪問提供程式(IAP)檢測到長時間的不活動時，它可以關閉用戶帳戶：傳送至使用者位址的作業將無法進行。 「軟」或「硬」類型取決於收到的錯誤類型：如果帳戶因為6個月的閒置而暫時停用，而且仍可啟動，則會指派狀 **[!UICONTROL Erroneous]** 態並再次嘗試傳送。 如果收到錯誤信號表明帳戶已永久停用，則會直接將其發送到隔離。
+* **[!UICONTROL Account disabled]**（可變／硬類型）:當Internet訪問提供程式(IAP)檢測到長時間的不活動時，它可以關閉用戶帳戶：傳送至使用者位址的作業將無法進行。 「軟」或「硬」類型取決於收到的錯誤類型：如果帳戶因為6個月的閒置而暫時停用，而且仍可啟動，則會指派狀**[!UICONTROL Erroneous]** 態並再次嘗試傳送。 如果收到錯誤信號表明帳戶已永久停用，則會直接將其發送到隔離。
 * **[!UICONTROL Not connected]**:當傳送訊息時，描述檔的行動電話已關閉或未連線至網路。
-* **[!UICONTROL Invalid domain]** （可變類型）:電子郵件地址的網域不正確或已不存在。 此描述檔將再次定位，直到錯誤計數達到5。 之後，記錄將設定為「隔離」狀態，不會再重試。
-* **[!UICONTROL Text too long]**:SMS訊息中的字元數量超過限制。 如需詳細資訊，請參 [閱SMS編碼、長度和音譯](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)。
-* **[!UICONTROL Character not supported by encoding]**:sms訊息包含一或多個編碼不支援的字元。 有關詳細資訊，請參 [閱字元表- GSM標準](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard)。
+* **[!UICONTROL Invalid domain]**（可變類型）:電子郵件地址的網域不正確或已不存在。 此描述檔將再次定位，直到錯誤計數達到5。 之後，記錄將設定為「隔離」狀態，不會再重試。
+* **[!UICONTROL Text too long]**:SMS訊息中的字元數量超過限制。 如需詳細資訊，請參[閱SMS編碼、長度和音譯](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)。
+* **[!UICONTROL Character not supported by encoding]**:sms訊息包含一或多個編碼不支援的字元。 有關詳細資訊，請參[閱字元表- GSM標準](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard)。
 
 ## 傳送暫時失敗後重試 {#retries-after-a-delivery-temporary-failure}
 
@@ -93,21 +93,29 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ## 彈回郵件資格 {#bounce-mail-qualification}
 
-傳送失敗錯誤訊息（或「彈回數」）由Adobe Campaign平台擷取，並由inMail流程加以限定，以豐富電子郵件管理規則清單。
+傳送失敗錯誤訊息（或「SMTP彈回回應」）會由Adobe Campaign平台擷取，然後使用資料庫處理並限定為 **Hard**、 **Soft**&#x200B;或 **Ignored****[!UICONTROL Delivery log qualification]**。
+
+<!--Delivery failure error messages (or "bounces") are picked up by the Adobe Campaign platform and qualified by the inMail process to enrich the list of email management rules.(applies to asynchronous (out-of-band) bounces)-->
 
 此清單僅供管理員使用，並包含Adobe Campaign用來限定傳送失敗的所有規則。
 
-若要存取標誌，請按一 **[!UICONTROL Adobe Campaign]** 下左上角的標誌，然後選取 **[!UICONTROL Administration > Channels > Email > Email processing rules]**。
+若要存取標誌，請按一 **[!UICONTROL Adobe Campaign]**下左上角的標誌，然後選取**[!UICONTROL Administration > Channels > Email > Email processing rules]**。
 
 For more on this, refer to this [section](../../administration/using/configuring-email-channel.md#email-processing-rules).
+
+>[!IMPORTANT]
+>
+>升級至「增強的MTA」後，「促銷活動」表格中的彈 **[!UICONTROL Message qualification]**回資格便不再使用。 對於同步傳送失敗錯誤訊息，「增強的MTA」會決定反彈類型和資格，並將該資訊傳回至「促銷活動」。 inMail程式仍會限制非同步彈回。
+>
+>如需Adobe Campaign增強型MTA的詳細資訊，請參閱本文 [件](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)。
 
 彈回數可以有下列資格狀態：
 
 * **[!UICONTROL To qualify]**:彈回郵件必須符合條件。 必須由交付能力團隊完成資格認證，以確保平台的交付能力正常運作。 只要郵件不符合條件，反彈郵件就不會用來豐富電子郵件處理規則清單。
-* **[!UICONTROL Keep]**:彈回郵件已經合格，將被 **** Update用於傳遞性工作流程，以便與現有電子郵件處理規則進行比較並豐富清單。
-* **[!UICONTROL Ignore]**:彈回郵件是合格的，但「更新」不會用於傳遞 **性工作流程** 。 因此，它不會傳送至用戶端例項。
+* **[!UICONTROL Keep]**:彈回郵件已經合格，將被****Update用於傳遞性工作流程，以便與現有電子郵件處理規則進行比較並豐富清單。
+* **[!UICONTROL Ignore]**:彈回郵件是合格的，但「更新」不會用於傳遞**&#x200B;性工作流程&#x200B;**。 因此，它不會傳送至用戶端例項。
 
-若要列出各種彈回數及其相關的錯誤類型和原因，請按一下左 **[!UICONTROL Adobe Campaign]** 上角的標誌，然後選取 **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**。
+若要列出各種彈回數及其相關的錯誤類型和原因，請按一下左 **[!UICONTROL Adobe Campaign]**上角的標誌，然後選取**[!UICONTROL Administration > Channels > Quarantines > Message qualification]**。
 
 ![](assets/qualification.png)
 

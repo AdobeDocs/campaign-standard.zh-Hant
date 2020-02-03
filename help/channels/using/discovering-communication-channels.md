@@ -12,7 +12,7 @@ discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8bd32e1ca93473c384a3e079362bb9afe978699d
+source-git-commit: bc3f4285f6c5c0a7b7a374c26311358b73b30ba8
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Campaign可讓您建立並傳送個人化訊息至各種通道，並透過
 
 此外，它還可讓您建立跨通道的促銷活動，以更好地鎖定收件者。
 
-Adobe Campaign提供4個訊息通道：
+Adobe Campaign提供5個訊息通道：
 
 * 電子郵件，顯示於「建 [立電子郵件](../../channels/using/about-emails.md) 」區段。
 * SMS，顯示於「建 [立SMS訊息](../../channels/using/about-sms-messages.md) 」區段。

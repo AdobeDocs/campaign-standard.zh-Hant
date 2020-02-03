@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 74e2e1e6cc9c045203f4cfbe37cab673b6761b89
+source-git-commit: 67223cf8eed46e2431c03674bd837262e37c7473
 
 ---
 
@@ -25,13 +25,10 @@ source-git-commit: 74e2e1e6cc9c045203f4cfbe37cab673b6761b89
 
 在本節中，您將瞭解如何使用「體驗資料模型」(XDM)欄位對應「促銷活動標準」欄位。
 
->[!NOTE]
->
->要執行此任務，必要條件是：
->
-> * XDM架構定義（通過介面或使用與XDM關聯的REST API）
-> * 基於XDM模式定義的資料集建立
+要執行此任務，必要條件是：
 
+* XDM架構定義（通過介面或使用與XDM關聯的REST API）
+* 基於XDM模式定義的資料集建立
 
 1. 前往 **[!UICONTROL Administration]**>**[!UICONTROL Development]** > **[!UICONTROL Platform]**並選擇條**[!UICONTROL Data mappings]** 目。
 
@@ -78,8 +75,8 @@ source-git-commit: 74e2e1e6cc9c045203f4cfbe37cab673b6761b89
 
 若要編輯XDM映射，請將其開啟，修改所需資訊，然後保存它。
 
+![](assets/aep_editmapping.png)
+
 >[!IMPORTANT]
 >
 >目前，如果您在區段中編輯值，然後按一 **[!UICONTROL Field mappings]**下欄位外部，在按一下按鈕後，您的變更才會顯示在介面**[!UICONTROL Save]** 中。 當頁面上的編輯是第一次編輯時， **[!UICONTROL Field Mappings]**此行為僅發生一次。
-
-![](assets/aep_editmapping.png)

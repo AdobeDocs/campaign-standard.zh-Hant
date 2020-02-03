@@ -1,18 +1,18 @@
 ---
 title: 工作流程最佳範例
 description: 瞭解如何將最佳實務套用至您的工作流程。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: ff02b74e-53e8-49c6-bf8e-0c729eaa7d25
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 自動化
-content-type: 參考
-topic-tags: 工作流——一般操作
-context-tags: 工作流，概述；工作流，主要
+audience: automating
+content-type: reference
+topic-tags: workflow-general-operation
+context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: accc382ca1543d648e60d53cab338537fd9ea3ef
 
 ---
 
@@ -40,7 +40,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ## 複製工作流程{#duplicating-workflows}
 
-您可以複製工作流程。 在中， **[!UICONTROL Marketing Activities]**&#x200B;將滑鼠指標暫留在工作流程上，然後按一下 **[!UICONTROL Duplicate element]**。 複製後，工作流的修改不會轉存到工作流的副本中。 可以編輯工作流的副本。
+您可以複製工作流程。 在中， **[!UICONTROL Marketing Activities]**將滑鼠指標暫留在工作流程上，然後按一下**[!UICONTROL Duplicate element]**。 複製後，工作流的修改不會轉存到工作流的副本中。 可以編輯工作流的副本。
 
 ![](assets/duplicating_workflow.png)
 
@@ -66,13 +66,18 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 如需詳細資訊，請參閱「執行 [工作流程」](../../automating/using//executing-a-workflow.md)。
 
+### 時區
+
+工作流屬性允許您定義在其所有活動中預設使用的特定時區。 依預設，工作流程的時區是為目前的促銷活動運算子定義的時區。
+
+
 ## 活動{#activity}
 
 ### 工作流程設計
 
 為確保工作流程正常結束，請使用 **[!UICONTROL End activity]**。 請避免將工作流程的最後一個轉場作業單獨進行。
 
-要訪問轉場的詳細視圖，請選中工 **[!UICONTROL Keep interim results]** 作流屬性的「執行」部分中的選項。
+要訪問轉場的詳細視圖，請選中工 **[!UICONTROL Keep interim results]**作流屬性的「執行」部分中的選項。
 
 >[!CAUTION]
 >
@@ -91,7 +96,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ### 排程器活動{#acheduler-activity}
 
-在建立工作流程時，每個分支僅使 **[!UICONTROL Scheduler activity]** 用一個。 如果工作流的同一分支有多個調度程式（相互連結），則要執行的任務數將呈指數倍增，這將大大超出資料庫。
+在建立工作流程時，每個分支僅使 **[!UICONTROL Scheduler activity]**用一個。 如果工作流的同一分支有多個調度程式（相互連結），則要執行的任務數將呈指數倍增，這將大大超出資料庫。
 
 您可以按一下，預覽工作流程的下十個執行 **[!UICONTROL Preview next executions]**。
 
@@ -114,8 +119,8 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ## 匯出清單{#exporting-lists}
 
-導出清單選項允許預設情況下導出最多100,000行，並且由 **Nms_ExportListLimit選項定義**。 此選項可由功能管理員管理，位於 **[!UICONTROL Administration]** &gt; **[!UICONTROL Application settings]** &gt;下 **[!UICONTROL Options]**。
-如需詳細資訊，請參閱匯 [出清單](../../automating/using/exporting-lists.md)。
+導出清單選項允許預設情況下導出最多100,000行，並且由 **Nms_ExportListLimit選項定義**。 此選項可由功能管理員管理，位於 **[!UICONTROL Administration]**>**[!UICONTROL Application settings]** >下 **[!UICONTROL Options]**。
+如需詳細資訊，請參閱匯[出清單](../../automating/using/exporting-lists.md)。
 
 ## 疑難排解{#workflow-troubleshooting}
 
@@ -132,14 +137,14 @@ Adobe Campaign提供多種記錄檔，讓您更清楚地瞭解工作流程問題
 可以在[日誌]頁籤中分析SQL查詢。
 
 1. 在工作流程工作區中，按一下 **[!UICONTROL Edit properties]**。
-1. 在 **[!UICONTROL General]** &gt; **[!UICONTROL Execution]**&#x200B;中，勾選 **[!UICONTROL Save SQL queries in the log]** 和選 **[!UICONTROL Execute in the engine]** 項並按一下 **[!UICONTROL Confirm]**。
+1. 在 **[!UICONTROL General]**>**[!UICONTROL Execution]**&#x200B;中，勾選 **[!UICONTROL Save SQL queries in the log]**和選**[!UICONTROL Execute in the engine]** 項並按一下 **[!UICONTROL Confirm]**。
 
 **要在日誌中查看SQL查詢，請執行以下操作：**
-1. Click **[!UICONTROL Log and Tasks]**.
-1. 在標籤 **[!UICONTROL Logs]** 中，開啟面 **[!UICONTROL Search]** 板。
+1. 按一下 **[!UICONTROL Log and Tasks]**.
+1. 在標籤 **[!UICONTROL Logs]**中，開啟面**[!UICONTROL Search]** 板。
 1. 查 **[!UICONTROL Display SQL logs only]**。
 
-查詢顯示在日 **[!UICONTROL Message]** 志的列中。
+查詢顯示在日 **[!UICONTROL Message]**志的列中。
 
 ### 使用傳送記錄檔{#using-delivery-logs}
 

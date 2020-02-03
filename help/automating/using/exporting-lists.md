@@ -12,7 +12,7 @@ discoiquuid: 12c874da-435f-44b6-a3c8-873301e177cc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: e35fdca6cb8cad79975f8150aa63bd65e50a4e1a
 
 ---
 
@@ -40,7 +40,7 @@ Adobe Campaign可讓您直接將清單匯出至檔案中，以供日後使用。
 
    隨即出現快顯視窗以確認匯出。 確認匯出後，檔案會自動下載至您的電腦。
 
-檔案會以CSV格式產生，除非匯出作業是在iOS中進行，在這種情況下，產生的檔案會以TXT格式產生。 它根據導出的資源和導出日期命名。 例如：名稱profileBase_20150426_120253.csv將套用至2015年4月26日12:02:53進行的描述檔匯出。 它以UTF-8格式編碼。
+檔案是以CSV格式產生，副檔名為。TXT。 它根據導出的資源和導出日期命名。 例如：名稱profileBase_20150426_120253.txt將應用於2015年4月26日12:02:53進行的配置檔案導出。 它以UTF-8格式編碼。
 
 數值和日期會考慮執行匯出的使用者的當地時間（地區）。 例如：DD-MM-YYYY或MM-DD-YYYY。
 

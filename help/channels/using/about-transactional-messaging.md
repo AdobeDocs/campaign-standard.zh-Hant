@@ -12,7 +12,7 @@ discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: 3c45cbbb261f18252689d0fc4f332b9f45137c85
 
 ---
 
@@ -45,6 +45,10 @@ Adobe Campaign提供兩種交易訊息：
 >Adobe Campaign會優先處理交易訊息，而非其他傳送。
 
 Adobe Campaign Standard API也提供交易式訊息。 如需詳細資訊，請參閱專用 [檔案](../../api/using/managing-transactional-messages.md)。
+
+>[!IMPORTANT]
+>
+>升級至「增強 [MTA](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)」後，所有交易訊息都會隨Adobe Campaign Enhanced MTA傳送，以改善傳遞能力、總處理能力和彈回處理。 所有影響與標準行銷訊息的影響相同，並在 [Adobe Campaign Enhanced MTA檔案中詳細說明](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html) 。
 
 ## 事務性消息傳遞操作原則 {#transactional-messaging-operating-principle}
 
@@ -80,7 +84,7 @@ Adobe Campaign可讓您傳送通知電子郵件給已將產品新增至購物車
 
 * 每個事件設定只能使用一個頻道。 請參 [閱建立事件](../../administration/using/configuring-transactional-messaging.md#creating-an-event)。
 * 事件建立後，便無法變更渠道。 因此，如果訊息未成功傳送，您需要設計機制，允許使用工作流程從其他管道傳送訊息。 See [Workflow data and processes](../../automating/using/workflow-data-and-processes.md).
-* 在事件建立後，您無 **[!UICONTROL Real-time event]** 法變 **[!UICONTROL Profile]** 更定位維度（或）。 請參 [閱建立事件](../../administration/using/configuring-transactional-messaging.md#creating-an-event)。
+* 在事件建立後，您無 **[!UICONTROL Real-time event]**法變**[!UICONTROL Profile]** 更定位維度（或）。 請參 [閱建立事件](../../administration/using/configuring-transactional-messaging.md#creating-an-event)。
 * 無法回滾發佈，但可以取消發佈事件：此操作使事件和關聯的事務性消息無法訪問。 請參 [閱取消發佈事件](../../administration/using/configuring-transactional-messaging.md#unpublishing-an-event)。
 * 唯一可與事件關聯的交易訊息是發佈該事件時自動建立的訊息。 請參 [閱預覽和發佈事件](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)。
 
@@ -105,17 +109,17 @@ Adobe Campaign可讓您傳送通知電子郵件給已將產品新增至購物車
 
 ### 權限與品牌 {#permissions-and-branding}
 
-在品牌管理方面 [](../../administration/using/branding.md) ，交易式訊息提供的彈性比標準訊息要小。 Adobe建議將交易訊息中使用的所有品牌連結至 **[!UICONTROL All]** 組織 [單位](../../administration/using/organizational-units.md)。 如需詳細資訊，請閱讀以下詳細說明。
+在品牌管理方面 [](../../administration/using/branding.md) ，交易式訊息提供的彈性比標準訊息要小。 Adobe建議將交易訊息中使用的所有品牌連結至 **[!UICONTROL All]**組織[單位](../../administration/using/organizational-units.md)。 如需詳細資訊，請閱讀以下詳細說明。
 
-編輯交易訊息時，您可以將訊息連結至品牌，以自動套用一些參數，例如品牌名稱或品牌標誌。 預設 **[!UICONTROL Default brand]** 情況下，在事務性消息屬性中將選中。
+編輯交易訊息時，您可以將訊息連結至品牌，以自動套用一些參數，例如品牌名稱或品牌標誌。 預設 **[!UICONTROL Default brand]**情況下，在事務性消息屬性中將選中。
 
 ![](assets/message-center_branding.png)
 
-事務性消息中使用的所有對象（包括品牌）都必須從組織單位中可見，這表 **[!UICONTROL Message Center]** 示這些對象必須位於 **[!UICONTROL Message Center]** 或組 **[!UICONTROL All]** 織單位中。
+事務性消息中使用的所有對象（包括品牌）都必須從組織單位中可見，這表 **[!UICONTROL Message Center]**示這些對象必須位於**[!UICONTROL Message Center]** 或組 **[!UICONTROL All]**織單位中。
 
 但是，如果消息屬性中選擇的品牌連結到與或不同的組織單位 **[!UICONTROL Message Center]****[!UICONTROL All]**，則會導致錯誤，您將無法發送事務性消息。
 
-因此，如果您想在交易訊息中使用多品牌，您應將所有品牌連結至組織單位或 **[!UICONTROL Message Center]** 組織單 **[!UICONTROL All]** 位。
+因此，如果您想在交易訊息中使用多品牌，您應將所有品牌連結至組織單位或 **[!UICONTROL Message Center]**組織單**[!UICONTROL All]** 位。
 
 ### 導出和導入事務性消息 {#exporting-and-importing-transactional-messages}
 

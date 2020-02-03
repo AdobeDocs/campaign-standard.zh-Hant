@@ -1,5 +1,5 @@
 ---
-title: 管理閱聽眾
+title: 管理Adobe Experience platform受眾
 description: 瞭解如何在Campaign standard中管理Adobe Experience Platform。
 page-status-flag: never-activated
 uuid: b3996642-96ec-489e-b146-c8c2cb52aa32
@@ -13,32 +13,34 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 19b22fa0780a0bf7c4b7a559270d7c8b32d89e38
+source-git-commit: 4b18f3b93394101eb569799bcfe362b4daf8f250
 
 ---
 
 
-# 管理閱聽眾 {#about-audiences}
+# 管理Adobe Experience platform受眾 {#about-audiences}
 
 >[!IMPORTANT]
 >
 >Audience Destinations service目前為測試版，可能會經常更新，恕不另行通知。 客戶必須在Azure上代管（目前僅限北美地區測試版）才能存取這些功能。 如果您想要存取，請聯絡Adobe客戶服務。
 
-## 存取觀眾
+## 存取Adobe Experience platform受眾
 
-若要存取Adobe Experience platform觀眾，請選取Campaign standard首 **[!UICONTROL Audiences]**頁上的資訊卡或連結，**[!UICONTROL Audiences]** 然後選取 **[!UICONTROL Adobe Experience Platform]**。
+若要存取Adobe Experience platform區段產生器，請導覽至Campaign Standard首頁上的資訊卡（或頁首中的連結），然後選取 **[!UICONTROL Audiences]****[!UICONTROL Audiences]****[!UICONTROL Adobe Experience Platform]**選項。
 
 ![](assets/aep_audiences_access.png)
 
-所有建立的Adobe Experience platform觀眾都會顯示。 搜尋列和篩選器可協助您找到所需的對象。
+您會先被導向至Adobe Experience platform區段清單頁面，視需要存取現有的Adobe Experience platform區段以進行進一步編輯。
+
+搜尋列和篩選器可協助您尋找所需的Adobe Experience platform區段。
 
 ![](assets/aep_audiences_list.png)
 
-## 建立閱聽眾
+## 建立Adobe Experience platform受眾
 
-觀眾是直接從Adobe Experience platform觀眾清單中建立的。 若要這麼做，請依照下列步驟進行：
+若要直接在Campaign standard中建立Adobe Experience platform觀眾，請遵循下列步驟：
 
-1. 前往對象清單，然後按一下 **[!UICONTROL New audience]**按鈕。
+1. 從Adobe Experience platform區段清單頁面，按一 **[!UICONTROL New audience]**下位於右角的按鈕。
 
    ![](assets/aep_audiences_creation_create.png)
 

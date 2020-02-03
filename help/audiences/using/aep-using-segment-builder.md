@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 17545fc4ea58e5220c66f90eafcbfcfca50bf661
+source-git-commit: e9d4239182a7ebdec61e85fece6ec49dca8f665a
 
 ---
 
@@ -77,6 +77,12 @@ source-git-commit: 17545fc4ea58e5220c66f90eafcbfcfca50bf661
 * **[!UICONTROL Events]**:識別與您公司客戶觸點有互動的消費者的活動，例如「兩週內訂購兩次的任何人」。 這可從Adobe Analytics串流，或使用協力廠商的ETL工具直接吸收到Adobe Experience Platform。
 
    ![](assets/aep_audiences_eventstab.png)
+
+>[!NOTE]
+>
+>**多實體分段** ，可讓您根據產品、商店或其他非描述檔類別，以其他資料擴充描述檔資料。 連線後，其他類別的資料就會變成描述檔架構的原生資料。
+>
+>如需詳細資訊，請參閱專用 [檔案](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/tutorials/segmentation/multi_entity_segmentation.md)。
 
 依預設，「統一區段產生器」會顯示資料所在的欄位。 要顯示完整方案，包括沒有資料的欄位，請啟用設 **[!UICONTROL Show full XDM schema]**置中的選項。
 

@@ -12,7 +12,7 @@ discoiquuid: 19796aca-6e9e-4d3a-8917-ba660ec7993c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2086bbb6fa87106692b3f3744c40ecf40e66caf3
+source-git-commit: 4b18f3b93394101eb569799bcfe362b4daf8f250
 
 ---
 
@@ -31,11 +31,13 @@ source-git-commit: 2086bbb6fa87106692b3f3744c40ecf40e66caf3
 
 1. 開啟活 **[!UICONTROL Read audience]**動。 在標籤**[!UICONTROL Additional data]** 中，按一下按 **[!UICONTROL Create element]**鈕。
 
-   >[!NOTE]
-   >
-   >該 **[!UICONTROL Additional data]**標籤只有在選取Adobe Experience platform對象後才可用。
+   請注意， **[!UICONTROL Additional data]**標籤只有在選取Adobe Experience platform對象後才可用。
 
    ![](assets/aep_wkf_readaudience_attributes.png)
+
+   >[!NOTE]
+   >
+   >此功能不支援陣列和地圖資料類型。 此外，只有聯合架構中的資料才會顯示在選擇器中。
 
 1. 從清單中選取所需的XDM欄位，然後按一下 **[!UICONTROL Confirm]**。
 

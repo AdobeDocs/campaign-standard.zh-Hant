@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
+source-git-commit: 8515b336f52964eb716736d606de0d8440c7bc08
 
 ---
 
@@ -16,6 +16,7 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
 + 發行說明 {#release-notes}
    + [最新版本](rn/using/release-notes.md)
    + 舊版 {#previous-releases}
+      + [發行說明 2019 年](rn/using/release-notes-2019.md)
       + [發行說明 2018 年](rn/using/release-notes-2018.md)
       + [發行說明 2017 年](rn/using/release-notes-2017.md)
 + 快速入門 {#getting-started}
@@ -61,6 +62,10 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
       + [關於 Campaign 中的加入和退出](audiences/using/about-opt-in-and-opt-out-in-campaign.md)
       + [管理 Campaign 中的加入和退出](audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
       + [識別要傳送的退出設定檔](audiences/using/identifying-opt-out-profiles-for-a-delivery.md)
+   + 使用Adobe Experience Platform {#working-with-adobe-experience-platform}
+      + [關於觀眾目標服務](audiences/using/aep-about-audience-destinations-service.md)
+      + [管理Adobe Experience platform受眾](audiences/using/aep-managing-audiences.md)
+      + [使用統一的區段產生器](audiences/using/aep-using-segment-builder.md)
 + 通訊通道 {#communication-channels}
    + 關於通訊通道 {#about-communication-channels}
       + [探索通訊通道](channels/using/discovering-communication-channels.md)
@@ -104,23 +109,23 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
       + [交易式推播通知](channels/using/transactional-push-notifications.md)
       + [後續訊息](channels/using/follow-up-messages.md)
    + 登錄頁面 {#landing-pages}
-      + [著陸頁面快速入門](channels/using/getting-started-with-landing-pages.md)
+      + [登錄頁面快速入門](channels/using/getting-started-with-landing-pages.md)
       + [關於登錄頁面範本](channels/using/landing-page-templates.md)
-      + [設定著陸頁面](channels/using/configuring-landing-page.md)
+      + [設定登錄頁面](channels/using/configuring-landing-page.md)
       + [設計登錄頁面](channels/using/designing-a-landing-page.md)
       + [管理登錄頁面表單資料](channels/using/managing-landing-page-form-data.md)
-      + [測試和發佈著陸頁面](channels/using/testing-publishing-landing-page.md)
-      + [設定雙重加入程 序](channels/using/setting-up-a-double-opt-in-process.md)
+      + [測試和發佈登錄頁面](channels/using/testing-publishing-landing-page.md)
+      + [設定雙重加入程序](channels/using/setting-up-a-double-opt-in-process.md)
 + 設計電子郵件內容 {#designing-content}
    + [Campaign 電子郵件設計工具](designing/using/designing-content-in-adobe-campaign.md)
-   + [電子郵件設計人員快速入門](designing/using/quick-start.md)
+   + [電子郵件設計工具快速入門](designing/using/quick-start.md)
    + [定義主旨行和寄件者](designing/using/subject-line.md)
    + 建立電子郵件內容{#building-email-content}
       + [從頭設計電子郵件](designing/using/designing-from-scratch.md)
       + [使用現有內容](designing/using/using-existing-content.md)
       + [使用可重複使用的內容](designing/using/using-reusable-content.md)
-      + [使用多解決方案整合](designing/using/using-integrations.md)
-      + [編輯純文字、HTML和行動電子郵件](designing/using/plain-text-html-modes.md)
+      + [使用多重解決方案整合](designing/using/using-integrations.md)
+      + [編輯純文字、HTML 和行動電子郵件](designing/using/plain-text-html-modes.md)
    + [個人化電子郵件內容](designing/using/personalization.md)
    + [管理電子郵件樣式](designing/using/styles.md)
    + [管理連結](designing/using/links.md)
@@ -146,14 +151,14 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
       + [發生故障時接收警報](sending/using/receiving-alerts-when-failures-happen.md)
       + [瞭解傳送故障](sending/using/understanding-delivery-failures.md)
       + [瞭解隔離管理](sending/using/understanding-quarantine-management.md)
-   + 管理傳遞能力 {#managing-deliverability}
-      + [關於傳遞能力](sending/using/about-deliverability.md)
+   + 管理傳送能力 {#managing-deliverability}
+      + [關於傳送能力](sending/using/about-deliverability.md)
       + [啟動新平台](sending/using/starting-new-platform.md)
-      + [控制電子郵件內容](sending/using/control-email-content.md)
-      + [提升您的聲譽](sending/using/improving-reputation.md)
+      + [控管電子郵件內容](sending/using/control-email-content.md)
+      + [提升您的名譽](sending/using/improving-reputation.md)
       + [IP認證](sending/using/ip-certification.md)
       + [技術建議](sending/using/technical-recommendations.md)
-      + [監控傳遞能力](sending/using/monitor-deliverability.md)
+      + [監控傳送能力](sending/using/monitor-deliverability.md)
       + [疑難排解](sending/using/troubleshooting.md)
 + 報告 {#reporting}
    + 關於報告 {#about-reporting}
@@ -178,6 +183,7 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
       + [取消訂閱](reporting/using/unsubscriptions.md)
       + [URL 和點按流](reporting/using/urls-and-click-streams.md)
       + [熱點點按](reporting/using/hot-clicks.md)
+      + [服務摘要](reporting/using/service-summary.md)
    + 自訂報告 {#customizing-reports}
       + [新增面板](reporting/using/adding-panels.md)
       + [新增視覺效果](reporting/using/adding-visualizations.md)
@@ -187,9 +193,9 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
 + 與 Adobe Cloud 整合 {#integrating-with-adobe-cloud}
    + [關於 Campaign 整合](integrating/using/about-campaign-integrations.md)
    + 協作使用 Campaign 與 Experience Manager {#working-with-campaign-and-experience-manager}
-      + [關於Campaign-Experience manager整合](integrating/using/integrating-with-experience-manager.md)
-      + [在Adobe Experience manager中建立電子郵件內容](integrating/using/creating-email-experience-manager.md)
-      + [在 Experience manager 中建立 Campaign 表單](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
+      + [關於 Campaign-Experience Manager 整合](integrating/using/integrating-with-experience-manager.md)
+      + [在 Adobe Experience Manager 中建立電子郵件內容](integrating/using/creating-email-experience-manager.md)
+      + [在 Experience Manager 中建立 Campaign 表單](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
    + 協作使用 Campaign 與 Target {#working-with-campaign-and-target}
       + [關於 Campaign-Target 整合](integrating/using/about-campaign-target-integration.md)
       + [設定 Campaign-Target 整合](integrating/using/configuring-the-campaign-target-integration.md)
@@ -285,6 +291,9 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
       + [重新鎖定非開啟者](automating/using/workflow-cross-channel-retargeting.md)
       + [建立控制群組](automating/using/workflow-control-group.md)
       + [建立跨通道傳送](automating/using/workflow-cross-channel-delivery.md)
+   + 使用Adobe Experience platform觀眾{working-with-aep-audiences}
+      + [鎖定Adobe Experience platform受眾](automating/using/aep-targeting-audiences.md)
+      + [使用Adobe Experience platform屬性個人化宣傳活動](automating/using/aep-personalizing-campaigns.md)
 + 開發 {#developing}
    + 關於自訂資源 {#about-custom-resources}
       + [資料模型概念](developing/using/data-model-concepts.md)
@@ -308,10 +317,11 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
       + [使用新欄位擴充設定檔資源](developing/using/extending-the-profile-resource-with-a-new-field.md)
       + [將訂閱擴充到應用程式資源](developing/using/extending-the-subscriptions-to-an-application-resource.md)
    + 資料模型 {#datamodel}
+      + [簡介](developing/using/datamodel-introduction.md)
       + [受眾](developing/using/datamodel-audience.md)
       + [行銷活動](developing/using/datamodel-campaign.md)
       + [傳送](developing/using/datamodel-delivery.md)
-      + [登陸頁面](developing/using/datamodel-landingpage.md)
+      + [登錄頁面](developing/using/datamodel-landingpage.md)
       + [行銷歷史記錄](developing/using/datamodel-history.md)
       + [個人資料](developing/using/datamodel-profile.md)
       + [方案](developing/using/datamodel-program.md)
@@ -351,6 +361,12 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
       + [傳送內部通知](administration/using/sending-internal-notifications.md)
       + [資料保留](administration/using/data-retention.md)
       + [更新和維護作業](administration/using/updates-and-maintenance-operations.md)
+   + Adobe Experience Platform Data Connector {#mapping-campaign-and-aep-data}
+      + [關於Adobe Experience Platform Data Connector](administration/using/aep-about-data-connector.md)
+      + [Experience platform資料模型概觀](administration/using/aep-data-model-overview.md)
+      + [映射定義](administration/using/aep-mapping-definition.md)
+      + [對應啟動](administration/using/aep-mapping-activation.md)
+      + [透過API觸發資料擷取](administration/using/aep-triggering-data-ingestion.md)
 + 使用API {#working-with-apis}
    + 關於 Campaign Standard API {#about-campaign-standard-apis}
       + [概觀](api/using/about-campaign-standard-apis.md)
@@ -369,30 +385,30 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
       + [自訂資源](api/using/custom-resources.md)
    + [與自訂資源互動](api/using/interacting-with-custom-resources.md)
    + 管理設定檔 {#managing-profiles}
-      + [檢索配置檔案](api/using/retrieving-profiles.md)
+      + [檢索設定檔](api/using/retrieving-profiles.md)
       + [更新設定檔](api/using/updating-profiles.md)
       + [建立設定檔](api/using/creating-profiles.md)
    + 管理服務與訂閱 {#managing-services-and-subscriptiopns}
       + [建立服務](api/using/creating-a-service.md)
-      + [檢索預訂](api/using/retrieving-subscriptions.md)
+      + [檢索訂閱](api/using/retrieving-subscriptions.md)
       + [執行訂閱](api/using/perform-subscriptions.md)
       + [刪除訂閱](api/using/deleting-subscriptions.md)
    + [與行銷歷史記錄互動](api/using/interacting-with-marketing-history.md)
    + 隱私權管理 {#privacy-management}
-      + [建立隱私權要求](api/using/creating-a-privacy-request.md)
-      + [監控隱私權要求](api/using/monitoring-a-privacy-request.md)
+      + [建立隱私權請求](api/using/creating-a-privacy-request.md)
+      + [監控隱私權請求](api/using/monitoring-a-privacy-request.md)
       + [檢索隱私資料檔案](api/using/retrieving-privacy-data-files.md)
-      + [管理CCPA選擇退出](api/using/managing-ccpa-opt-out.md)
+      + [管理 CCPA 選擇退出](api/using/managing-ccpa-opt-out.md)
    + [管理交易式訊息](api/using/managing-transactional-messages.md)
    + 管理工作流程 {#managing-workflows}
-      + [控制工作流](api/using/controlling-a-workflow.md)
+      + [控管工作流程](api/using/controlling-a-workflow.md)
       + [觸發信號活動](api/using/triggering-a-signal-activity.md)
    + 管理組織單位 {#managing-organizational-units}
-      + [檢索配置檔案的組織單位](api/using/retrieving-an-organizational-unit.md)
-      + [更新配置檔案的組織單位](api/using/updating-profile-organizational-unit.md)
+      + [檢索設定檔的組織單位](api/using/retrieving-an-organizational-unit.md)
+      + [更新設定檔的組織單位](api/using/updating-profile-organizational-unit.md)
       + [更新組織單位屬性](api/using/updating-organizational-unit-attributes.md)
    + 管理地理單位 {#managing-geographical-units}
-      + [檢索配置檔案的地理單元](api/using/retrieving-a-geographical-unit.md)
-      + [更新配置檔案的地理單位](api/using/updating-a-geographical-unit.md)
+      + [檢索設定檔的地理單位](api/using/retrieving-a-geographical-unit.md)
+      + [更新設定檔的地理單位](api/using/updating-a-geographical-unit.md)
       + [更新地理單位屬性](api/using/updating-geographical-unit-attributes.md)
    + [疑難排解](api/using/troubleshooting.md)

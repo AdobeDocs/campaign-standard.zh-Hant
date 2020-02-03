@@ -12,7 +12,7 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d54f036c394db7abdba805ea2c21436c0ef5212c
+source-git-commit: cd559678dfadc575db42f3101e53bae2b971a049
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: d54f036c394db7abdba805ea2c21436c0ef5212c
 
 >[!NOTE]
 >
->建立和發佈事件會顯示在「促銷活 <a href="https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html">動」檔案中</a>。
+>建立和發佈事件會顯示在「促銷活 [動」檔案中](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html)。
 
 例如，您希望當客戶在購物車中購買產品之前離開您的網站時，觸發「購物車放棄」事件。 若要這麼做，您的網頁開發人員必須使用REST交易訊息API。
 

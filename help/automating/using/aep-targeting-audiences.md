@@ -12,7 +12,7 @@ discoiquuid: 19796aca-6e9e-4d3a-8917-ba660ec7993c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1059b840d9a2d0c89a6cbd1808b645862747a76c
+source-git-commit: 4b18f3b93394101eb569799bcfe362b4daf8f250
 
 ---
 
@@ -60,6 +60,8 @@ source-git-commit: 1059b840d9a2d0c89a6cbd1808b645862747a76c
 >[!NOTE]
 >
 >Campaign standard可讓您在所有傳送通道中鎖定Adobe Experience platform受眾：電子郵件、SMS訊息、直接郵件訊息、推播通知和應用程式內訊息。
+>
+>*注意：對於所有推播和應用程式內訊息，Campaign standard僅支援傳送已知描述檔。
 
 如需如何使用工作流程和傳送的詳細資訊，請參閱下列章節：
 

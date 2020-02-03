@@ -13,7 +13,7 @@ context-tags: cusResource,overview;eventCusResource,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 71ee939b6ef256be8c693ec6e15d9609c7e80677
+source-git-commit: 1deeead4ad311fd3ba3a5e9d27a67d3a1dadf3d2
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Campaign隨附預先定義的資料模型。 管理員可以修改此資 [
 >
 >建立和修改資源是敏感操作，僅由專家用戶執行。
 
-透過Adobe **[!UICONTROL Administration]** Campaign標誌 **[!UICONTROL Development]** 存取的&gt;功能表可讓您管理自訂資 **源**、 **發佈** ，以及 ****&#x200B;存取診斷工具。
+透過Adobe **[!UICONTROL Administration]**Campaign標誌**[!UICONTROL Development]** 存取的>功能表可讓您管理自訂資 **源**、 **發佈** ，以及 ****&#x200B;存取診斷工具。
 
 Adobe Campaign使用的資料是透過不同的資源來定義。 您可以 **透過建立自訂資源** （例如購買或產品表格）來豐富資料範本。
 
@@ -36,7 +36,7 @@ Adobe Campaign使用的資料是透過不同的資源來定義。 您可以 **�
 
 >[!NOTE]
 >
->您可以在此處找到現成的資源的資料模型表 [示](https://docs.campaign.adobe.com/doc/standard/en/datamodel/datamodel.html)。
+>您可以在此處找到現成的資源的資料模型表 [示](../../developing/using/datamodel-introduction.md)。
 
 您也可以 **在與所建立資源對應的畫面中** ，設定導覽。
 

@@ -12,7 +12,7 @@ discoiquuid: 2a14500f-5ede-4131-8b1a-b7fd65b7e3aa
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
+source-git-commit: aa1539a1fc5fd08e7cf4e081ae2517e39ddde121
 
 ---
 
@@ -21,9 +21,7 @@ source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
 
 在行動應用程式上，會收到推播通知或應用程式內訊息，這些應用程式首先需要在Adobe Campaign standard中設定，視您要使用的頻道而定。
 
-* 若要傳送應用程式內訊息和推播通知，您的行動應用程式必須在Adobe Campaign中運用Adobe Experience Platform SDK來設定。 請參 [閱「使用Adobe Experience Platform SDK](#using-adobe-experience-platform-sdk)」。
-
-* 若要僅傳送推播通知，您可以使用SDK V4來設定Adobe Campaign與Adobe Mobile Service之間的整合。 請參 [閱使用SDK V4](#using-sdk-v4)。
+若要傳送應用程式內訊息和推播通知，您的行動應用程式必須在Adobe Campaign中運用Adobe Experience Platform SDK來設定。 請參 [閱「使用Adobe Experience Platform SDK](#using-adobe-experience-platform-sdk)」。
 
 在Adobe Campaign中運用Experience Cloud Mobile SDK V4或Experience Platform SDK設定行動應用程式後，必須由管理員在 [!UICONTROL Administration] > [!UICONTROL Channels] >選單下設 [!UICONTROL Mobile app] 定。
 
@@ -59,36 +57,3 @@ source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
 1. 將頻道專用的設定新增至您的行動應用程式設定，請參 [閱Adobe Campaign中頻道專用的應用程式設定](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign)。
 
    ![](assets/launch_2.png)
-
-## 使用SDK V4 {#using-sdk-v4}
-
-與應用程式內部不同，SDK V4和Adobe Experience Platform SDK支援推播通知。 如需將推播通知與行動應用程式搭配使用的詳細步驟，請參閱此 [頁面](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)。
-
-接收推播通知的行動應用程式必須由管理員在Adobe Campaign介面中設定。 透過設定Adobe Campaign和Adobe Mobile Services，您將能夠將行動應用程式的資料用於促銷活動。
-
-若要傳送推播通知，您必須：
-
-1. 請確定您可以存取Adobe **[!UICONTROL Mobile app]**Campaign中的渠道。
-1. 在下列位置設定您的行動應用程式：
-
-   * [Adobe Campaign](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html#SettingupamobileapplicationinAdobeCampaign)。
-   * [Adobe Mobile Services](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html#ConfiguringamobileapplicationinAdobeMobileServices)。
-
-1. 執行行動應用程式的特定設定：
-
-   * 將從Adobe Mobile services介面下載的設定檔與行動應用程式封裝。
-   * 將Experience Cloud Mobile SDK整合到您的行動應用程式中。
-
-1. 定義您要向應用程式訂閱者收集的資料。 在Adobe Campaign資料庫中擁有描述檔的行動應用程式的訂閱者，會根據您所定義的條件進行協調。
-
-   For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html#Collectingsubscribersdatafromamobileapplication).
-
-1. 請在裝置上啟動行動應用程式並登入，以確認設定已順利完成。 請確定您選擇接收通知。
-1. 然後，在Adobe Campaign的進階功能表中，選取 **[!UICONTROL Administration]**>**[!UICONTROL Channels]** > **[!UICONTROL Mobile app]**。
-1. 從清單中選取您的行動應用程式，以顯示其屬性。 您的訂閱資訊會顯示在訂閱者清單下。
-
-   ![](assets/push_notif_mobile_app.png)
-
-1. 若要檢查描述檔已訂閱的行動應用程式，請在選單 **[!UICONTROL Profiles & Audiences > Profiles]**中選取描述檔，然後按一**[!UICONTROL Edit profile properties]** 下右側的按鈕。 行動應用程式會列在標 **[!UICONTROL Mobile App Subscriptions]**簽中。
-
-   ![](assets/push_notif_subscriptions.png)

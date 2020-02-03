@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5f3bf4c2d0bba095182194ac28b3107eae2c54a6
+source-git-commit: 67223cf8eed46e2431c03674bd837262e37c7473
 
 ---
 
@@ -25,9 +25,7 @@ source-git-commit: 5f3bf4c2d0bba095182194ac28b3107eae2c54a6
 
 Adobe Campaign Standard可讓您透過API觸發資料映射的立即擷取，並擷取擷取擷取請求的狀態。
 
->[!NOTE]
->
->本頁介紹如何觸發和檢索資料映射的提取狀態。 如需Campaign Standard API的全域資訊，請參 [閱本節](../../api/using/about-campaign-standard-apis.md)。
+本頁介紹如何觸發和檢索資料映射的提取狀態。 如需Campaign Standard API的全域資訊，請參 [閱本節](../../api/using/about-campaign-standard-apis.md)。
 
 ## 必要條件 {#prerequisites}
 
@@ -38,7 +36,7 @@ Adobe Campaign Standard可讓您透過API觸發資料映射的立即擷取，並
 
 建立資料對應後，您必須停止它的執行，以便您可以隨時從API觸發它。 若要這麼做，請依照下列步驟進行：
 
-1. 在「促銷活動標準」中，前往 **[!UICONTROL Administration]**>**[!UICONTROL Development]** > **[!UICONTROL Platform]**>功能**!UICONTROL Status of data export to platform]**表。
+1. 在「促銷活動標準」中，前往 **[!UICONTROL Administration]**>**[!UICONTROL Development]** > **[!UICONTROL Platform]**>功能**[!UICONTROL Status of data export to platform]** 表。
 
 1. 連按兩下資料對應以開啟它，然後按一下 **[!UICONTROL Stop]**按鈕。
 

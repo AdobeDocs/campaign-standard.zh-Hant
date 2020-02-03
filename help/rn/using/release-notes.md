@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e896206c371d6593d37201fddd24f59dad964ca7
+source-git-commit: d1af5ca520c56d593d1cffdca1e69f49d0c26c5d
 
 ---
 
@@ -34,9 +34,8 @@ source-git-commit: e896206c371d6593d37201fddd24f59dad964ca7
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>
-   Adobe Experience Platform Data Connector現在已與Adobe Campaign Standard整合。 您可以將XTK資料（在Campaign中收錄的資料）對應至Adobe Experience platform資料模型(XDM)，讓您的Campaign資料可在Adobe Experience platform上使用。 </p>
-    <p>如需啟動此功能與條件的詳細資訊，請參閱詳細 <a href="../../administration/using/aep-about-data-connector.md">檔案</a>。</p>
+   <td> <p>Adobe Experience Platform Data Connector現在已與Adobe Campaign Standard整合。 您可以將XTK資料（在Campaign中收錄的資料）對應至Adobe Experience platform資料模型(XDM)，讓您的Campaign資料可在Adobe Experience platform上使用。 </p>
+    <p>請注意，此功能僅適用於Azure上代管的客戶。 如需啟動此功能與條件的詳細資訊，請參閱詳細 <a href="../../administration/using/aep-about-data-connector.md">檔案</a>。</p>
    </td> 
   </tr> 
  </tbody> 
@@ -45,28 +44,13 @@ source-git-commit: e896206c371d6593d37201fddd24f59dad964ca7
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>與Audience Destination服務整合（測試版） </strong><br /> </th> 
+   <th> <strong>觀眾目標（測試版） </strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>「對象目標」服務現在已與Adobe Campaign Standard整合。 您可以根據大型、複雜的資料集建立高針對性的受眾，並與其他Adobe Experience cloud解決方案即時共用這些細分。</p>
-    <p>如需啟動此功能與條件的詳細資訊，請參閱詳細 <a href="../../audiences/using/aep-about-audience-destinations-service.md">檔案</a>。</p>
-   </td> 
-  </tr> 
- </tbody> 
-</table>
-
-<table> 
- <thead> 
-  <tr> 
-   <th> <strong>針對交易訊息的促銷活動增強MTA</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p>交易訊息現在由Adobe Campaign Enhanced MTA傳送，此MTA提供升級的傳送基礎架構，可改善傳送能力、吞吐量和彈回數處理。</p>
-    <p>如需詳細資訊，請參閱詳 <a href="https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html">細檔案</a>。</p>
+   <td> <p>受眾目標可讓您將Adobe Experience platform的細分共用給Adobe Campaign。</p>
+    <p>請注意，此功能僅適用於Azure上代管的客戶。 如需啟動此功能與條件的詳細資訊，請參閱詳細 <a href="../../audiences/using/aep-about-audience-destinations-service.md">檔案</a>。</p>
    </td> 
   </tr> 
  </tbody> 
@@ -74,11 +58,13 @@ source-git-commit: e896206c371d6593d37201fddd24f59dad964ca7
 
 **改進**
 
+* 增強的MTA的全球可用性：訊息（包括交易訊息）現在由Adobe Campaign Enhanced MTA傳送，此MTA提供升級的傳送基礎架構，可改善傳送能力、吞吐量和彈回數處理。 [閱讀更多資訊](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
+
 * 時區管理已增強。 您現在可以為整個 [工作流程定義](../../automating/using/building-a-workflow.md) 特定時區。 所選時區將應用於工作流的所有活動。 為操作員或伺服器配置的時區資訊現在顯示在介面中（在日誌中，在選擇時區後）。 (CAMP-37672)
 
-* Campaign Standard API現在可讓您在使用大型表格時，將表格新增至呼叫URL, `_forcePagination=true parameter` 以執行分頁。 [閱讀更多資訊](../../api/using/pagination.md)
+* 現在，透過將參數新增至呼叫URL，您可在使用大型表格時， `_forcePagination=true` 使用Campaign Standard API來執行分頁。 [閱讀更多資訊](../../api/using/pagination.md)
 
-* 「傳送記錄檔ID」（每個記錄檔的唯一識別碼）現在可用於所有定位維度的「傳送記錄檔」和「追蹤記錄檔」資源。 這可在匯出時識別傳送或追蹤記錄檔，例如。
+* 「傳送記錄檔ID」（每個記錄檔的唯一識別碼）現在可用於所有定位維度的「傳送記錄檔」和「追蹤記錄檔」資源。 這可在匯出時識別傳送或追蹤記錄檔，例如。 [閱讀更多資訊](../../automating/using/exporting-logs.md)
 
 **電子郵件設計人員增強功能**
 

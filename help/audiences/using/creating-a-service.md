@@ -13,7 +13,7 @@ context-tags: service,wizard;service,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: de16bef6cfd0afa3f664c98fe77484044aac6610
 
 ---
 
@@ -31,6 +31,12 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 1. 在「服務」 **[!UICONTROL Service properties]**儀表板中通過按鈕訪![](assets/edit_darkgrey-24px.png)問的部分中，為預訂和取消預訂配置確認消息。
 
    ![](assets/lp_service_parameters.png)
+
+1. 選取選 **[!UICONTROL Subscriptions with an expiration date]**項，以設定訂閱的有效期限。
+
+   ![](assets/lp_service_expiration.png)
+
+您可以在「分段」活動中使用到期日來定位訂閱未到期服務的設定檔。
 
 1. 填寫欄 **[!UICONTROL Service label]**位。 使用自訂確認訊息時，服務標籤是必備的。
 

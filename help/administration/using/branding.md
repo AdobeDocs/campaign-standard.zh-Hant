@@ -13,7 +13,7 @@ context-tags: branding,overview;branding,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
+source-git-commit: 795f9b1d2d37f5e77af820318b6c980d702f54ad
 
 ---
 
@@ -34,7 +34,7 @@ source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
 1. 為此品牌建立一或多個傳送和著陸頁面範本。 請參閱「 [建立範本](../../start/using/marketing-activity-templates.md) 」一節。
 1. 根據此範本建立訊息和登陸頁面。 請參閱「建 [立電子郵件](../../channels/using/creating-an-email.md) 」 [和「建立著陸頁面](../../channels/using/designing-a-landing-page.md) 」區段。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >用戶不能建立或修改品牌：這些作業必須由Adobe Campaign技術管理員執行。 如需任何要求，請聯絡Adobe客戶服務。 多品牌無法用於交易訊息的內容。 如需詳細資訊，請參閱「交 [易式訊息與品牌推廣」](../../channels/using/about-transactional-messaging.md#permissions-and-branding)。
 
@@ -62,7 +62,7 @@ source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
    * **使用客戶可回覆的電子郵件地址** （電子郵件地址）回覆。
    * **使用品牌名稱回覆(name)** 。
    * **錯誤（電子郵件地址）** ，此電子郵件地址將用於發生錯誤時。
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >更新電子郵件的標題參數後，如果從範本建立的電子郵件中，傳送者的名稱和電子郵件地址未變更，請檢查範本的進階設定。
 
@@ -73,6 +73,9 @@ source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
    * **用於托管及存取您建立之不同著陸頁面** ，應用程式伺服器的外部URL。
    * **追蹤伺服器的外部URL** ，在傳送期間用作追蹤的URL。
    * **用作傳送中預設鏡像頁面** ，鏡像頁面伺服器的外部URL。
+   >[!NOTE]
+   >
+   >如果應用程式伺服器和鏡像頁面伺服器URL不安全(亦即，若不是從https://開始)，則無法從促銷活動使用者介面顯示著陸頁面預覽和鏡像頁面演算。
 
 * **[!UICONTROL Tracking URL configuration (Web Analytics)]**，此定義您品牌的URL追蹤設定。
 
@@ -118,7 +121,7 @@ source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
 
 #### 設定新品牌 {#configure-a-new-brand}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >品牌設定僅由Adobe管理，因為它需要特定權限和技術設定。
 

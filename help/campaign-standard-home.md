@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Adobe Campaign Standard 產品文件
 topic: Premium
 translation-type: tm+mt
-source-git-commit: f613b1456dbc66d584235856828e8ffdcf0d9874
+source-git-commit: 859fa22e39233eb5d87475de3a2bf03492f1fe4b
 
 ---
 
@@ -17,11 +17,11 @@ source-git-commit: f613b1456dbc66d584235856828e8ffdcf0d9874
 
 * **[隱私權管理](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>瞭解由 Adobe Campaign 提供的協助您遵從隱私權要求的工具。
 
-* **[傳遞最佳實務](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>了解更多與傳送內容設計和傳送相關的最佳實務。
+* **[傳送最佳實務](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>進一步瞭解與傳送設計和傳送相關的最佳實務。
 
 * **[電子郵件設計](designing/using/designing-content-in-adobe-campaign.md)**<br/>器請參閱重新整理的電子郵件設計器檔案。
 
-* **[Campaign Standard行動指南](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>進一步瞭解行動傳送的一般准則。
+* **[Campaign Standard 行動指南](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>進一步瞭解行動傳送的一般準則。
 
 [按一下這裡以取得更多更新](rn/using/documentation-updates.md)
 
@@ -46,7 +46,8 @@ source-git-commit: f613b1456dbc66d584235856828e8ffdcf0d9874
     <div>
     <a href="designing/using/designing-content-in-adobe-campaign.md"><strong>設計電子郵件</strong></a>
     </div>
-    <em>瞭解如何使用電子郵件設計人員建立回應式和個人化的電子郵件</em><br>
+    <em>瞭解如何使用電子郵件設計工具以建立回應式和個人化的電子郵件</em>
+    <br>     
   </td>
   <td valign="top">
        <img alt="開發人員" src="start/using/assets/dev.png" />

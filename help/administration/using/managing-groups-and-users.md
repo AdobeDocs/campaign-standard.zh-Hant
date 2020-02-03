@@ -1,19 +1,19 @@
 ---
 title: 管理群組和使用者
 description: 瞭解如何建立安全群組及管理使用者。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: b3a3a2e3-9d69-4231-b724-8f37419f7a61
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 管理
-content-type: 參考
-topic-tags: 使用者與安全性
+audience: administration
+content-type: reference
+topic-tags: users-and-security
 discoiquuid: 12f896ab-ee79-4d96-976d-cf34643491b4
-context-tags: user,overview;user,main;security,overview;security;main
+context-tags: user,overview;user,main;security,overview;security,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: cc439572afc1a6ab90d4c95576e250af315fd14c
 
 ---
 
@@ -38,7 +38,11 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 如果使用者未連結至任何安全性群組，他將無法存取Adobe Campaign。
 
-若要限制使用者的存取權，請勿將使用者新增至「促銷活動標準」使用者群組，因為此使用者連結至組織 **[!UICONTROL All]** 單位。
+若要限制使用者的存取權，請勿將使用者新增至「促銷活動標準」使用者群組，因為此使用者連結至組織 **[!UICONTROL All]**單位。
+
+>[!NOTE]
+>
+>預設情況下， **[!UICONTROL All (all)]**將組織單位分配給安全**[!UICONTROL Administrators]** 組。 它是唯讀的，無法修改。
 
 ## 建立安全組並分配用戶 {#creating-a-security-group-and-assigning-users}
 
@@ -62,12 +66,12 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    ![](assets/manage_security_group_2.png)
 
-1. 按一下 **[!UICONTROL Add user]** 按鈕，然後輸入使用者的電子郵件地址。
-1. 在標 **[!UICONTROL Assign Products]** 簽中，從下拉式清單 **[!UICONTROL Administrators]** 中選擇您的例項，然後選擇立即可用的安全性群組。 這可讓使用者存取管理功能表，並建立下一個安全性群組。
+1. 按一下 **[!UICONTROL Add user]**按鈕，然後輸入使用者的電子郵件地址。
+1. 在標 **[!UICONTROL Assign Products]**簽中，從下拉式清單**[!UICONTROL Administrators]** 中選擇您的例項，然後選擇立即可用的安全性群組。 這可讓使用者存取管理功能表，並建立下一個安全性群組。
 
    ![](assets/ootb_security_group_2.png)
 
-1. 按一 **[!UICONTROL Save]** 下並依照相同的程式，將 **[!UICONTROL Standard Users]** 立即可用的安全性群組指派給新使用者。
+1. 按一 **[!UICONTROL Save]**下並依照相同的程式，將**[!UICONTROL Standard Users]** 立即可用的安全性群組指派給新使用者。
 
    ![](assets/ootb_security_group_3.png)
 
@@ -78,7 +82,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    ![](assets/create_security_1.png)
 
-1. 請依此完 **[!UICONTROL Profile name]** 全語法輸入：並 **[!UICONTROL Campaign Standard- instance name - ID of the security group]** 按一下 **[!UICONTROL Done]**。
+1. 請依此完 **[!UICONTROL Profile name]**全語法輸入：並**[!UICONTROL Campaign Standard- instance name - ID of the security group]** 按一下 **[!UICONTROL Done]**。
 
    然後，在Adobe Campaign中建立安全性群組時，將會使用所選的ID。
 
@@ -89,19 +93,19 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
    ![](assets/manage_security_group_1.png)
 
 1. 然後，請依照相同的程式建立 **Geometrixx Chatters** security群組。
-1. 選擇標籤，將您的安全性群組指派給您的 **[!UICONTROL Users]** 使用者。
+1. 選擇標籤，將您的安全性群組指派給您的 **[!UICONTROL Users]**使用者。
 
    ![](assets/manage_security_group_2.png)
 
-1. 按一下您先前建立的使用者，然 ![](assets/managing_security_group_10.png) 後按一下類別中的 **[!UICONTROL Products]** 圖示。
+1. 按一下您先前建立的使用者，然 ![](assets/managing_security_group_10.png) 後按一下類別中的 **[!UICONTROL Products]**圖示。
 
-   選擇 **[!UICONTROL Edit products assigned directly]** 以開始為用戶分配新的安全組。
+   選擇 **[!UICONTROL Edit products assigned directly]**以開始為用戶分配新的安全組。
 
    ![](assets/manage_security_group_8.png)
 
-1. 在標籤 **[!UICONTROL Assign Products]** 中，選取您的例項，然後從下拉式清單中選取您先前建立的安全性群組Geometrixx，將其指派給您的管理員使用者。
+1. 在標籤 **[!UICONTROL Assign Products]**中，選取您的例項，然後從下拉式清單中選取您先前建立的安全性群組Geometrixx，將其指派給您的管理員使用者。
 
-   Click **[!UICONTROL Save]**.
+   按一下 **[!UICONTROL Save]**.
 
    ![](assets/manage_security_group_3.png)
 
@@ -119,16 +123,16 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 管理員用戶必須建立一組用於分配組織單位的安全組：Geometrixx和Geometrixx Chattes。 要瞭解如何建立組織單位，請參 [閱建立和管理單位](../../administration/using/organizational-units.md#creating-and-managing-units) 。
 
-1. 按一下 **[!UICONTROL Adobe Campaign]** 左上角的標誌，然後選取 **[!UICONTROL Administration > Users & Security > Security groups]**。
-1. 建立新的安全性群組並指定其 **[!UICONTROL Label]** 和 **[!UICONTROL ID]**。
+1. 按一下 **[!UICONTROL Adobe Campaign]**左上角的標誌，然後選取**[!UICONTROL Administration > Users & Security > Security groups]**。
+1. 建立新的安全性群組並指定其 **[!UICONTROL Label]**和**[!UICONTROL ID]**。
 
    ID必須與「管理控制台」中選擇的ID相同。
 
-1. 在現場 **[!UICONTROL User access]** 中，分配組織單位。 在這裡，Geometrixx安全性群組會指派組織 **[!UICONTROL All]** 單位。
+1. 在現場 **[!UICONTROL User access]**中，分配組織單位。 在這裡，Geometrixx安全性群組會指派組織**[!UICONTROL All]** 單位。
 
    ![](assets/manage_security_group_6.png)
 
-1. 您也可以將角色指派給您的安全群組。 在本例中，由於現成可用的安全組並用於指派角色，因此 **[!UICONTROL Administrators]** 不 **[!UICONTROL Standard users]** 需要此步驟。
+1. 您也可以將角色指派給您的安全群組。 在本例中，由於現成可用的安全組並用於指派角色，因此 **[!UICONTROL Administrators]**不**[!UICONTROL Standard users]** 需要此步驟。
 1. 請依照相同的程式建立最後一個安全性的Geometrixxx Chates，並指派Geometrixx Chates組織單位。
 
    ![](assets/manage_security_group_7.png)

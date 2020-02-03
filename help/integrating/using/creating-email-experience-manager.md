@@ -1,5 +1,5 @@
 ---
-title: 在Adobe Experience manager中建立電子郵件內容。
+title: 在 Adobe Experience Manager 中建立電子郵件內容.
 description: 透過Adobe Experience manager整合，您可以直接在AEM中建立內容，並稍後在Adobe Campaign中使用。
 page-status-flag: never-activated
 uuid: ed6c1b76-87f7-4d23-b5e2-0765297a905c
@@ -12,12 +12,12 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1d89c8afad835810292689f4b77b0c4d6ba6a86c
+source-git-commit: 5c1a540475b7d93c18c957243ee2a403b8154aa3
 
 ---
 
 
-# 在Adobe Experience manager中建立電子郵件內容 {#creating-email-aem}
+# 在 Adobe Experience Manager 中建立電子郵件內容 {#creating-email-aem}
 
 Adobe Campaign standard與Adobe Experience manager的整合可讓您在Adobe Campaign電子郵件中使用在Adobe Experience manager中建立的內容。
 
@@ -46,7 +46,7 @@ Adobe Campaign standard與Adobe Experience manager的整合可讓您在Adobe Cam
    * 在Adobe Experience Manager編寫和發佈實例之間配置複製。
    * 透過設定專屬的Adobe Experience manager與Adobe Campaign建立關聯 **[!UICONTROL Cloud Service]**。
 
-## 在Adobe Experience manager中建立電子郵件內容 {#use-case}
+## 在 Adobe Experience Manager 中建立電子郵件內容 {#use-case}
 
 若要在Adobe Experience manager中建立電子郵件內容：
 
@@ -55,7 +55,7 @@ Adobe Campaign standard與Adobe Experience manager的整合可讓您在Adobe Cam
 1. 插入文字、影像、個人化等，以編輯內容。
 1. 驗證內容。
 
-如需詳細資訊，請參閱詳 [細檔案](https://docs.adobe.com/docs/en/aem/6-2/author/personalization/adobe-campaign/campaign.html)。
+如需詳細資訊，請參閱詳 [細檔案](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/aem-adobe-campaign/campaign.html)。
 
 ![](assets/aem_content.png)
 

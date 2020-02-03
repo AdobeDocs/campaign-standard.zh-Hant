@@ -13,7 +13,7 @@ context-tags: workflow,wizard;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: 41ba6fa44807541dd749f4effca44ae2b4d147ae
 
 ---
 
@@ -55,6 +55,10 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
    由於若未以預期方式執行，可讓工作流程更容易找到並疑難排解，Adobe建議您為工作流程指定適當的名稱和標籤：填寫工作流程的說明欄位，匯總要執行的程式，讓運算子輕鬆瞭解。
 
 1. 確認建立活動，然後會顯示該活動的控制面板。 有關詳細資訊，請參閱「工作 [流介面](../../automating/using/workflow-interface.md) 」部分。
+
+1. 一旦工作流準備好進行配置後，您可以按一下按鈕來訪問其他 **[!UICONTROL Edit properties]**選項。 例如，您可以定義特定時區，以便在工作流的所有活動中預設使用。 依預設，工作流程的時區是為目前的促銷活動運算子定義的時區。
+
+   ![](assets/workflow_properties.png)
 
 **相關主題：**
 

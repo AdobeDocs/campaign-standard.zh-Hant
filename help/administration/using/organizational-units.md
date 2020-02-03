@@ -13,7 +13,7 @@ context-tags: orgUnit,overview;orgUnit,main;geoUnit,overview;geoUnit,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
+source-git-commit: cc439572afc1a6ab90d4c95576e250af315fd14c
 
 ---
 
@@ -27,6 +27,8 @@ source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
 >[!CAUTION]
 >
 >如果使用者未連結至任何單位，該使用者將無法連結至Adobe Campaign。 如果您想要限制特定使用者或使用者群組的存取權，請勿將其連結至裝 **[!UICONTROL All]**置。
+>
+>預設情況下， **[!UICONTROL All (all)]**將組織單位分配給安全**[!UICONTROL Administrators]** 組。 它是唯讀的，無法修改。
 
 用戶對父單元中的所有對象都具有只讀訪問權限。 他可以讀取和寫入其單位和子單位的所有對象。 用戶無法訪問並行分支中的對象。
 

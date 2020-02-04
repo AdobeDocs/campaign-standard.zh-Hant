@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e9d4239182a7ebdec61e85fece6ec49dca8f665a
+source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
 
 ---
 
@@ -24,13 +24,13 @@ source-git-commit: e9d4239182a7ebdec61e85fece6ec49dca8f665a
 >
 >觀眾目標服務目前為測試版，可能會經常更新，恕不另行通知。 客戶必須在Azure上代管（目前僅限北美地區測試版）才能存取這些功能。 如果您想要存取，請聯絡Adobe客戶服務。
 
-運用 [Adobe Experience Platform](https://www.adobe.io/apis/experienceplatform/home.html) (AEP)，根據大型、複雜的資料集建立高針對性的受眾，讓您的消費者體驗更臻完美。 Adobe Experience platform整合了線上和線下來源（包括Adobe Analytics）的個人檔案、行為和多實體資料，協助您建立360度的客戶視圖，讓您有效管理客戶體驗。
+運用 [Adobe Experience Platform](https://www.adobe.io/apis/experienceplatform/home.html) (AEP)，根據大型、複雜的資料集建立高針對性的受眾，讓您的消費者體驗更臻完美。 Adobe Experience platform整合了線上和線下來源（包括Adobe Analytics）的個人檔案、行為和多實體資料，協助您建立360度全方位的客戶視圖，讓您有效管理客戶體驗。
 
 然後，Adobe Campaign Standard將會使用 **Audience Destinations** 服務，從AEP擷取多步驟和／或跨通道促銷活動計畫的描述檔集合(稱為 **Audiences**)。
 
 **觀眾** 是先建立區段來建立 **的**，這些區段實質上是一組規則，以來自AEP的客戶描述檔中幾乎任何變數（例如，描述檔、事件、多實體資料）為基礎，以建立多維目標。 這些專屬檔案中可參考統一描述檔與區段服務的 [全域概念](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation.html)。
 
-建立區段後，您就可以在 [Campaign Standard工作流程中，以觀眾身分啟動以進行傳送](../../automating/using/aep-targeting-audiences.md)。 此外，您也可以視需要使用Adobe Experience platform的情境式資料 [](../../automating/using/aep-personalizing-campaigns.md) ，將動態內容個人化並新增至宣傳。
+在建立區段後，您就可以將其啟動為觀眾，以便在 [Campaign Standard工作流程中進行傳送](../../automating/using/aep-targeting-audiences.md)。 此外，您也可以視需要使用Adobe Experience platform的情境式資料 [](../../automating/using/aep-personalizing-campaigns.md) ，將動態內容個人化並新增至宣傳。
 
 本節也提供示範 [影片](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html)。
 

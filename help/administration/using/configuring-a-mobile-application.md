@@ -12,7 +12,7 @@ discoiquuid: 2a14500f-5ede-4131-8b1a-b7fd65b7e3aa
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aa1539a1fc5fd08e7cf4e081ae2517e39ddde121
+source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: aa1539a1fc5fd08e7cf4e081ae2517e39ddde121
 
 在Adobe Campaign中運用Experience Cloud Mobile SDK V4或Experience Platform SDK設定行動應用程式後，必須由管理員在 [!UICONTROL Administration] > [!UICONTROL Channels] >選單下設 [!UICONTROL Mobile app] 定。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >推播通知和應用程式內建置必須由專家使用者執行。 如果您需要協助，請聯絡您的Adobe客戶主管或專業服務合作夥伴。
 

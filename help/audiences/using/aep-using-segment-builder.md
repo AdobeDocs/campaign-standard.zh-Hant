@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e9d4239182a7ebdec61e85fece6ec49dca8f665a
+source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
 
 ---
 
@@ -48,7 +48,7 @@ source-git-commit: e9d4239182a7ebdec61e85fece6ec49dca8f665a
 
 1. 請確定在設定窗格中已選取所要的合併原則。
 
-   如需合併原則的詳細資訊，請參閱「區段產生器」使用指南中 [的專屬章節](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md)
+   如需合併原則的詳細資訊，請參閱「區段產生器」使用指 [南中的專屬章節](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md)。
 
    ![](assets/aep_audiences_mergepolicy.png)
 
@@ -66,7 +66,7 @@ source-git-commit: e9d4239182a7ebdec61e85fece6ec49dca8f665a
 
 左窗格列出可用於建構規則的所有屬性、事件和對象。
 
-列出的欄位是您公司擷取的屬性，可透過 [Experience Data Model(XDM)系統使用](https://www.adobe.io/apis/experienceplatform/home/xdm.html)。
+列出的欄位是您公司擷取的屬性，並已透過 [Experience Data Model(XDM)系統提供](https://www.adobe.io/apis/experienceplatform/home/xdm.html)。
 
 欄位會組織成標籤：
 
@@ -138,7 +138,7 @@ source-git-commit: e9d4239182a7ebdec61e85fece6ec49dca8f665a
 
    ![](assets/aep_audiences_comparing_2.png)
 
-1. 視需要在兩個欄位之間設定運算子。 在此範例中，我們的區段要求家庭地址郵遞區號不等於工作地址1。
+1. 視需要在兩個欄位之間設定運算子。 在此範例中，我們希望我們的區段定位首頁位址與工作位址不同的描述檔。
 
    ![](assets/aep_audiences_comparing_3.png)
 

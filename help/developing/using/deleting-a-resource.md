@@ -1,25 +1,25 @@
 ---
 title: 刪除資源
 description: '瞭解如何刪除資源 '
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: 5de27589-6fa5-412c-8e5a-a4976de05715
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 開發
-content-type: 參考
-topic-tags: 添加或擴展資源
+audience: developing
+content-type: reference
+topic-tags: adding-or-extending-a-resource
 discoiquuid: 0130733d-4e3f-40cd-b959-56381f2c8f44
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 6f7f4f3d81f4e6a540b3317f283c1e2311ccc65a
 
 ---
 
 
 # 刪除資源{#deleting-a-resource}
 
-要刪除資源，相關資源必須是 **[!UICONTROL Draft]**。 如果滿足以下條件，則資 **[!UICONTROL Draft]** 源處於狀態：
+要刪除資源，相關資源必須是 **[!UICONTROL Draft]**。 如果滿足以下條件，則資**[!UICONTROL Draft]** 源處於狀態：
 
 * 它剛剛建立，尚未發佈。
 * 如果已經發佈，則必須重新起草資源。
@@ -31,13 +31,13 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 要重新草擬和刪除已發佈的資源，請執行以下操作：
 
 1. 選擇要重新繪製的資源。
-1. 按一下 **[!UICONTROL Re-draft]** 動作列中的按鈕。
+1. 按一下 **[!UICONTROL Re-draft]**動作列中的按鈕。
 
    ![](assets/schema_extension_uc26.png)
 
-1. Click **[!UICONTROL Ok]**.
+1. 按一下 **[!UICONTROL Ok]**.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >這一行動是明確的：在發佈修改時，資源的資料庫表或列及其資料將被永久刪除，這可能導致來自其他自定義資源的連結中斷。 只有資源定義仍可用。
 
@@ -51,7 +51,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    然後，資源會進入 **Draft** （草稿）模式，其啟動狀態為 **[!UICONTROL Inactive]**。
 
-1. 在模 **[!UICONTROL List]** 式中，檢查要刪除的資源，然後按一下 ![](assets/delete_darkgrey-24px.png) 圖 **[!UICONTROL Delete element]** 標。
+1. 在模 **[!UICONTROL List]**式中，檢查要刪除的資源，然後按一下![](assets/delete_darkgrey-24px.png)圖**[!UICONTROL Delete element]** 標。
 
    ![](assets/schema_extension_uc28.png)
 

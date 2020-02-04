@@ -13,7 +13,7 @@ context-tags: user,overview;user,main;security,overview;security,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cc439572afc1a6ab90d4c95576e250af315fd14c
+source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
 
 ---
 
@@ -46,7 +46,7 @@ source-git-commit: cc439572afc1a6ab90d4c95576e250af315fd14c
 
 ## 建立安全組並分配用戶 {#creating-a-security-group-and-assigning-users}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >請注意，在管理控制台中，安全群組稱為設定檔。
 
@@ -139,7 +139,7 @@ source-git-commit: cc439572afc1a6ab90d4c95576e250af315fd14c
 
 您的使用者現在已指派至安全性群組，並可以連線至Adobe Campaign。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >如果使用者從管理控制台中的安全性群組中移除，他們將仍是Adobe Campaign安全性群組的一部分，而且將無法再登入Adobe Campaign。 在此情況下，請移除管理控制台中使用者的電子郵件地址，以免他們收到敏感資訊。
 

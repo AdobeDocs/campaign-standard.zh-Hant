@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4b18f3b93394101eb569799bcfe362b4daf8f250
+source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
 
 ---
 
@@ -52,7 +52,7 @@ source-git-commit: 4b18f3b93394101eb569799bcfe362b4daf8f250
 
 1. 若要成功建立區段，您必須選取符合 **此區段行銷目的的合** 並原則。
 
-   在設定窗格中，會選取「平台」預設合併原則。 如需合併原則的詳細資訊，請參閱「區段產生器」使用指南中 [的專屬章節](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md)
+   在設定窗格中，會選取「平台」預設合併原則。 如需合併原則的詳細資訊，請參閱「區段產生器」使用指 [南中的專屬章節](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md)。
 
    ![](assets/aep_audiences_mergepolicy.png)
 

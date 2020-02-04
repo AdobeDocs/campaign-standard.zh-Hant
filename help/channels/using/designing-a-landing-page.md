@@ -13,7 +13,7 @@ context-tags: landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: d762c73e6816011340a85a3cf2aaa35f05ee0541
 
 ---
 
@@ -41,13 +41,13 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 * [內容設計的一般最佳實務](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices)。
 
 >[!NOTE]
->如果您有已預先定義為HTML格式的著陸頁面，則可使用按鈕直接匯入 **[!UICONTROL Change content]** 頁面。
+>如果您有已預先定義為HTML格式的著陸頁面，則可使用按鈕直接匯入 **[!UICONTROL Change content]**頁面。
 >
 >在Adobe Campaign中匯入HTML頁面之前，請確定它會在各種瀏覽器中開啟並正確顯示。 如果HTML頁面包含JavaScript指令碼，則必須在編輯器外執行這些指令碼，而不會出現錯誤。 一般而言，請避免在訊息內容中使用指令碼，以確保電子郵件用戶端正確處理。
 
 ## 著陸頁面內容編輯器介面{#landing-page-content-editor-interface}
 
-著陸頁面內容編輯器可讓您輕鬆定義、修改及個人化Adobe Campaign中的內容。 若要存取它，請按一 **[!UICONTROL Content]** 下著陸頁面控制面板中的區塊。
+著陸頁面內容編輯器可讓您輕鬆定義、修改及個人化Adobe Campaign中的內容。 若要存取它，請按一 **[!UICONTROL Content]**下著陸頁面控制面板中的區塊。
 
 內容編輯器會組織成三個不同的區段。 這些區段可讓您檢視和編輯內容。
 
@@ -135,13 +135,13 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
    <td> 允許存取Adobe Campaign登陸頁面。 如何設定連結的詳細資訊會顯示在「插入 <a href="../../designing/using/links.md#inserting-a-link">連結」區段中</a> 。<br /> </td> 
   </tr> 
   <tr> 
-   <td> <img height="21px" src="assets/link_subscribe_darkgrey-24px.png" /> <br /> </td> 
+   <td> <img height="21px" src="assets/link_Subscribe_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">訂閱連結</span><br /> </td> 
    <td> 任何元素<br /> </td> 
    <td> 允許您插入服務訂閱連結。 如何設定連結的詳細資訊會顯示在「插入 <a href="../../designing/using/links.md#inserting-a-link">連結」區段中</a> 。<br /> </td> 
   </tr> 
   <tr> 
-   <td> <img height="21px" src="assets/link_unsubscribe_darkgrey-24px.png" /> <br /> </td> 
+   <td> <img height="21px" src="assets/link_unSubscribe_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">取消訂閱連結</span><br /> </td> 
    <td> 任何元素<br /> </td> 
    <td> 允許您插入服務取消訂閱連結。 如何設定連結的詳細資訊會顯示在「插入 <a href="../../designing/using/links.md#inserting-a-link">連結」區段中</a> 。<br /> </td> 
@@ -243,7 +243,7 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ### 在內容編輯器中管理區塊 {#managing-blocks-in-the-content-editor}
 
-不同的HTML內容元素在登陸頁面中顯示為區塊，與 **&lt;div&gt;****&lt;/div&gt;標籤相對應** 。 選取要與其互動的區塊。 然後就會被藍色的盒子包圍。
+不同的HTML內容元素在登陸頁面中顯示為區塊，與 **&lt;div>****&lt;/div>標籤相對應** 。 選取要與其互動的區塊。 然後就會被藍色的盒子包圍。
 
 ![](assets/des_lp_content_1.png)
 
@@ -281,20 +281,20 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ![](assets/des_lp_content_7.png)
 
-* **左對齊**:將文字對齊選定塊的左側(添加style="text-align:左；」)。
-* **中心**:將選取的區塊中的文字置中(新增style="text-align:中；」)。
-* **右對齊**:將文字對齊選定塊的右側(添加style="text-align:對；」)。
+* **左對齊**:將文字對齊選定塊的左側(添加style=&quot;text-align:左；」)。
+* **中心**:將選取的區塊中的文字置中(新增style=&quot;text-align:中；」)。
+* **右對齊**:將文字對齊選定塊的右側(添加style=&quot;text-align:對；」)。
 
 您也可以使用工具列來變更字型屬性：調整字型大小、使文字變為粗體或斜體、加底線或變更文字的顏色。 Refer to [this section](../../channels/using/designing-a-landing-page.md#landing-page-content-editor-interface).
 
 ### 在著陸頁面中插入影像 {#inserting-images-in-a-landing-page}
 
 1. 在著陸頁面內容中，選取包含影像的區塊。
-1. 選擇按 **[!UICONTROL Insert]** 鈕。
+1. 選擇按 **[!UICONTROL Insert]**鈕。
 
    ![](assets/des_insert_images_lp_1.png)
 
-1. 從內容 **[!UICONTROL Local image]** 相關工具列中選擇。
+1. 從內容 **[!UICONTROL Local image]**相關工具列中選擇。
 
    ![](assets/des_insert_images_lp_2.png)
 
@@ -336,7 +336,7 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
    ![](assets/dynamic_content_lp_3.png)
 
-1. 要刪除應用於某個塊的所有條件，請選擇該塊並按一下該 **[!UICONTROL Disable dynamic content]** 表徵圖。
+1. 要刪除應用於某個塊的所有條件，請選擇該塊並按一下該 **[!UICONTROL Disable dynamic content]**表徵圖。
 1. 選取您要保留的動態內容。
 
    ![](assets/dynamic_content_lp_5.png)

@@ -12,7 +12,7 @@ discoiquuid: 524ff9a2-fdaa-46bd-bfe6-f03a50461247
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: 33d4704d664a809073790e47ab6bb84e9c2b07d5
 
 ---
 
@@ -38,4 +38,4 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 * [設定清單](https://video.tv.adobe.com/v/25288?captions=chi_hant):在Adobe Campaign中設定清單。
 * [建立報表](https://video.tv.adobe.com/v/25264?captions=chi_hant):建立您自己的動態報表。
 
-除了詳盡的短片之外，您還可以在網站上找到[訓練課程](https://training.adobe.com/training/courses.html)以及[簡報影片](http://www.adobe.com/training/video.html)。
+除了詳盡的短片之外，您還可以在網站上找到[訓練課程](https://training.adobe.com/training/courses.html)以及[簡報影片](https://www.adobe.com/training/video.html)。

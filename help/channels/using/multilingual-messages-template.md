@@ -1,5 +1,5 @@
 ---
-title: 建立多語言範本
+title: 多語言訊息範本
 description: 瞭解如何根據自動細分客戶偏好的語言，透過單一傳遞來定義並執行多語言電子郵件／簡訊傳送。 報告每次傳送的效能，包括語言和個別層級。
 page-status-flag: never-activated
 uuid: 7a2cd5f7-c0fc-4825-a770-a62816c66b3f
@@ -12,7 +12,7 @@ discoiquuid: 064c5c4a-f579-4bab-adf3-51c92eb4518f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cb5cc55c431cbe6050699a35ef2fff270f869dee
+source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
 
 ---
 

@@ -1,16 +1,16 @@
 ---
 title: 外部 API
 description: null
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 自動化
-content-type: 參考
-topic-tags: 定位活動
-context-tags: externalAPI，工作流，主
+audience: automating
+content-type: reference
+topic-tags: targeting-activities
+context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 6f7f4f3d81f4e6a540b3317f283c1e2311ccc65a
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ![](assets/wf_externalAPI.png)
 
-此活 **[!UICONTROL External API]** 動會透過 **REST API呼叫，從外部系統** 將資料匯入 **工作流程中** 。
+此活 **[!UICONTROL External API]**動會透過** REST API呼叫，從外部系統&#x200B;**將資料匯入**&#x200B;工作流程中&#x200B;**。
 
 REST端點可以是客戶管理系統、 [Adobe I/O Runtime](https://www.adobe.io/apis/experienceplatform/runtime.html) 實例或Experience Cloud REST端點（資料平台、目標、分析、促銷活動等）。
 
@@ -29,9 +29,9 @@ REST端點可以是客戶管理系統、 [Adobe I/O Runtime](https://www.adobe.i
 >
 >基於安全性原因，Campaign standard不支援使用JSSP。 如果您需要執行程式碼，可以透過外部API活動呼叫Adobe I/O Runtime例項。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
->此功能目前為公開測試版。 您必須在開始使用外部API活動之前接受使用協定。 請注意，由於此公開測試版功能尚未由Adobe進行商業性發行，Adobe Client care不支援，因此可能包含錯誤，而且功能可能不如其他已發佈的功能。
+>此功能目前為測試版。 您必須在開始使用外部API活動之前接受使用協定。 請注意，由於此測試版功能尚未由Adobe進行商業性發行，因此Adobe Client Care不支援，因此可能包含錯誤，而且可能無法像其他已發佈功能一樣運作。
 
 本活動的主要特點是：
 
@@ -45,7 +45,7 @@ REST端點可以是客戶管理系統、 [Adobe I/O Runtime](https://www.adobe.i
 * 請求逾時為60秒
 * 不允許HTTP重新導向
 * 拒絕非HTTPS Url
-* 「接受：application/json」請求標題和「Content-Type:application/json"回應標題是允許的
+* 「接受：application/json」請求標題和「Content-Type:application/json&quot;回應標題是允許的
 
 >[!CAUTION]
 >
@@ -53,7 +53,7 @@ REST端點可以是客戶管理系統、 [Adobe I/O Runtime](https://www.adobe.i
 
 ## 配置 {#configuration}
 
-將活動拖放 **[!UICONTROL External API]** 到工作流程中，並開啟活動以啟動設定。
+將活動拖放 **[!UICONTROL External API]**到工作流程中，並開啟活動以啟動設定。
 
 ### 入站映射
 
@@ -83,7 +83,7 @@ JSON結構模式為： `{“data”:[{“key”:“value”}, {“key”:“valu
 * **data** 是JSON中的必備屬性名稱，「data」的內容是JSON陣列。
 * **陣列元素** 必須包含第一級屬性（不支援較深的層級）。
    **屬性名** ，最終將成為輸出臨時表的輸出模式的列名。
-* **欄名稱** ，定義是以"data"陣列的第一個元素為基礎。
+* **欄名稱** ，定義是以&quot;data&quot;陣列的第一個元素為基礎。
 列定義（添加／刪除）和屬性的類型值可以在「列定義」( **Column definition** )頁籤中編輯。
 
 如果 **驗證瞭解析** ，則會顯示一條消息，邀請您在「列定義」頁籤中自定義資料映射。 在其他情況下，會顯示錯誤訊息。

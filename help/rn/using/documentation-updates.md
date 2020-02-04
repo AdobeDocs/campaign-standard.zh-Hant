@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2b25b51d53f53adad6e6e327661b641c844be719
+source-git-commit: 370e8e1221198e09089669ee28cf9847ffb4bd63
 
 ---
 
@@ -47,7 +47,7 @@ Adobe Experience Platform Data Connector（beta版）-閱 [讀更多](../../admi
 
 有新區段可說明可在訊息控制面板中顯示的警告。 [閱讀更多資訊](../../channels/using/message-dashboard.md#warnings)
 
-Adobe Campaign Enhanced MTA檔案現已推出。 [閱讀更多資訊](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
+Adobe Campaign Enhanced MTA說明檔案說明升級的傳送基礎架構，可改善傳送能力、吞吐量和彈回數處理，現已推出。 [閱讀更多資訊](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
 
 已新增附註，指出應用程式伺服器和鏡像頁面伺服器URL必須安全，才能從促銷活動使用者介面顯示著陸頁面和鏡像頁面預覽。 [閱讀更多資訊](../../administration/using/branding.md#configuring-and-using-brands)
 

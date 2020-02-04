@@ -13,7 +13,7 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
+source-git-commit: 33d4704d664a809073790e47ab6bb84e9c2b07d5
 
 ---
 
@@ -33,9 +33,9 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 **列入黑名單的電子郵件地址與隔離的電子郵件地址之間有何差異？**
 
-狀態是 **[!UICONTROL Blacklisted]** 回饋迴路的結果（當某人將訊息報告為垃圾訊息時）。
+狀態是 **[!UICONTROL Blacklisted]**回饋迴路的結果（當某人將訊息報告為垃圾訊息時）。
 
-狀態 **[!UICONTROL Quarantined]** 是軟反彈或硬反彈的結果。
+狀態 **[!UICONTROL Quarantined]**是軟反彈或硬反彈的結果。
 
 **不同的隔離錯誤原因意味著什麼？**
 
@@ -46,7 +46,7 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 **我的一個收件者被錯誤列入黑名單。 我要如何將他們解除黑名單，以便我能再次傳送訊息？**
 
 * 前往 **[!UICONTROL Administration > Channels > Quarantines > Addresses]**。
-* 在對應記錄的詳細資訊中，將欄位的值 **[!UICONTROL Status]** 設定為 **[!UICONTROL Valid]**。
+* 在對應記錄的詳細資訊中，將欄位的值 **[!UICONTROL Status]**設定為**[!UICONTROL Valid]**。
 * 保存記錄。
 
 **我要如何得知我的IP是否已列入黑名單？ 如何取消IP的黑名單？**
@@ -54,7 +54,7 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 若要檢查您的IP位址是否列入黑名單，您可以使用各種網站來驗證：
 * https://mxtoolbox.com/
 * https://whatismyipaddress.com/blacklist-check
-* http://www.blacklistalert.org/
+* https://www.blacklistalert.org/
 
 通常，IP地址檢查的結果將返回一個清單，其中包含黑名單的詳細資訊以及將IP地址列入黑名單的網站的名稱。
 

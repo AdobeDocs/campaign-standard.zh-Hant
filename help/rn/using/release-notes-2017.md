@@ -12,7 +12,7 @@ discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: 33d4704d664a809073790e47ab6bb84e9c2b07d5
 
 ---
 
@@ -156,7 +156,7 @@ _交易式訊息_
 
 _報表_
 
-* 已 **改善** 「熱點點按」報表。 此外，現在也可以根據傳送中定義的每個條件內容顯示熱點按，並可針對每次執行循環傳送或交易訊息顯示熱點按。 如需詳細資訊，請參閱詳 [細檔案](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion)。
+* 「 **Hot clicks** 」報表已改善。 此外，現在也可以根據傳送中定義的每個條件內容顯示熱點按，並可針對每次執行循環傳送或交易訊息顯示熱點按。 如需詳細資訊，請參閱詳 [細檔案](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion)。
 * 修正隔離度量無法擷取正確資料的問題。
 * 新的預設時間範圍已新增至日曆介面工具集。
 * 動 [態報表量度](../../reporting/using/indicator-calculation.md) ，與 [促銷活動的KPI](../../sending/using/confirming-the-send.md) （顯示在已傳送訊息的儀表板上）已對齊，以提高一致性。
@@ -329,7 +329,7 @@ _推播通知_
   </tr> 
   <tr> 
    <td> Dreamweaver整合即時<br /> </td> 
-   <td> Adobe Campaign與Dreamweaver的整合現已上線。 它現在可與官方上一版Dreamweaver(17.0.2)搭配使用。<br /> 這需要從以下網址安裝Adobe Campaign整合擴充功能：https://adobe.ly/acdw_addon <a href="http://adobe.ly/acdw_addon"></a><br /> .如需詳細資訊，請參閱此 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">影片</a>。<br /> </td> 
+   <td> Adobe Campaign與Dreamweaver的整合現已上線。 它現在可與官方上一版Dreamweaver(17.0.2)搭配使用。<br /> 這需要從以下網址安裝Adobe Campaign整合擴充功能：https://adobe.ly/acdw_addon <a href="https://adobe.ly/acdw_addon"></a><br /> .如需詳細資訊，請參閱此 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">影片</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>

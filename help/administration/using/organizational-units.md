@@ -13,7 +13,7 @@ context-tags: orgUnit,overview;orgUnit,main;geoUnit,overview;geoUnit,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cc439572afc1a6ab90d4c95576e250af315fd14c
+source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: cc439572afc1a6ab90d4c95576e250af315fd14c
 
 平台的每個對象和用戶都與組織單元連結。 該單元允許定義分層結構，以便給用戶提供過濾視圖。 用戶單元為不同平台對象定義其訪問級別。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >如果使用者未連結至任何單位，該使用者將無法連結至Adobe Campaign。 如果您想要限制特定使用者或使用者群組的存取權，請勿將其連結至裝 **[!UICONTROL All]**置。
 >
@@ -103,7 +103,7 @@ source-git-commit: cc439572afc1a6ab90d4c95576e250af315fd14c
 
 用戶無法訪問沒有組織單位的配置檔案。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >我們建議在匯入任何描述檔之前先新增此選項。 如果您已匯入客戶資料庫，則必須進行更新，才能在已匯入的描述檔上設定組織單位值。
 

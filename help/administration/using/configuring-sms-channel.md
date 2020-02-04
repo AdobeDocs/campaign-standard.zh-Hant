@@ -13,7 +13,7 @@ context-tags: extAccountMobile,overview;extAccount,main;delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3325194881662dee94648ae3d5a03b2bdb6b41ba
+source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
 
 ---
 
@@ -92,7 +92,7 @@ source-git-commit: 3325194881662dee94648ae3d5a03b2bdb6b41ba
 * 如果音譯是 **授權的**，則在傳送訊息時，未考慮的每個字元會由GSM字元取代。 例如，字母&quot;ë&quot;被&quot;e&quot;取代。 因此，訊息會稍微變更，但字元限制將維持不變。
 * 當音譯未 **授權時**，每個包含未納入考量之字元的訊息都會以二進位格式(Unicode)傳送：因此，所有字元都將按原樣發送。 不過，使用Unicode的SMS訊息最多只能有70個字元（若是以多個部分傳送的訊息，則每個SMS有67個字元）。 如果超出字元數上限，則會傳送數則訊息，這可能會造成額外成本。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >將個人化欄位插入您的SMS訊息內容，可能會引入GSM編碼未考慮的字元。 「個人化SMS訊息」區 [段提供內容範例](../../channels/using/personalizing-sms-messages.md) 。
 
@@ -335,13 +335,13 @@ CR:歸位
 
    ![](assets/sms_smpp.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >請查看您所在國家／地區有關修改發件人地址的法規。 您也應洽詢您的SMS服務供應商，以瞭解他們是否提供此功能。
 
 * 選 **[!UICONTROL Maximum number of SMS per message]**項允許您定義用於發送消息的SMS消息數。 如果超過此數目，則不會傳送訊息。
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >如果您已將個人化欄位或條件文字插入SMS訊息的內容，訊息的長度，以及因此要傳送的SMS訊息數量，可能會因收件者而異。 有關詳細資訊，請參閱「個 [人化SMS消息](../../channels/using/personalizing-sms-messages.md) 」部分。
 
@@ -350,4 +350,3 @@ CR:歸位
    * **[!UICONTROL Saved on SIM card]**:該消息儲存在接收者的電話SIM卡上。
    * **[!UICONTROL Saved on mobile]**:該消息儲存在電話的內部儲存器上。
    * **[!UICONTROL Flash]**:該消息作為通知在收件人的行動電話上顯示，然後消息消失而不被保存。
-

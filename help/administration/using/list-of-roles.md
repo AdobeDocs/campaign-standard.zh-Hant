@@ -1,19 +1,19 @@
 ---
 title: 角色清單
 description: 瞭解您可指派給使用者的角色清單。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: 128aaf9b-9b7d-49f3-9e1f-72e79a29baa0
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 管理
-content-type: 參考
-topic-tags: 使用者與安全性
+audience: administration
+content-type: reference
+topic-tags: users-and-security
 discoiquuid: ceaa3c94-9e1a-4271-b443-b00b4068929f
-context-tags: 角色，概述；角色，主
+context-tags: role,overview;role,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c321545b2f5fdc3ed43b9b943601008ff31fba6a
+source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
 
 ---
 
@@ -24,21 +24,21 @@ source-git-commit: c321545b2f5fdc3ed43b9b943601008ff31fba6a
 
 ![](assets/user_management_3.png)
 
-您可從功能表管理 **[!UICONTROL Administration > Users & Security > Roles]** 角色。
+您可從功能表管理 **[!UICONTROL Administration > Users & Security > Roles]**角色。
 
 預設權限為：
 
 * **[!UICONTROL Administration]**:一般管理權限。
 * **[!UICONTROL Datamodel]**:直接執行出版品和建立自訂資源。
 * **[!UICONTROL Export]**:匯出資料的權利。
-* **[!UICONTROL Generic import]**:對資料執行一般匯入的權限。 要使此功能發揮作用，您需要將角色 **[!UICONTROL Generic import]** 連結到角 **[!UICONTROL Workflow]** 色。
+* **[!UICONTROL Generic import]**:對資料執行一般匯入的權限。 要使此功能發揮作用，您需要將角色**[!UICONTROL Generic import]** 連結到角 **[!UICONTROL Workflow]**色。
 * **[!UICONTROL Prepare deliveries]**:建立、修改、準備和刪除傳送的權利。 具有此角色的使用者可以準備傳送，但無法傳送。
 * **[!UICONTROL Start deliveries]**:建立、修改、準備、傳送和刪除傳送的權限。
 * **[!UICONTROL Workflow]**:建立、修改、啟動和刪除工作流程的權限。 具有此角色的使用者即使在工作流程中，也無法傳送傳送。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
->這些 **[!UICONTROL Deliverability]**、 **[!UICONTROL Command execution]**、 **[!UICONTROL Export]****[!UICONTROL File access]****[!UICONTROL Message Center push]** 和角色僅供Adobe管理員內部使用。 不應授予使用者這些權限。
+>這些 **[!UICONTROL Deliverability]**、**[!UICONTROL Command execution]**、 **[!UICONTROL Export]****[!UICONTROL File access]****[!UICONTROL Message Center push]**和角色僅供Adobe管理員內部使用。 不應授予使用者這些權限。
 
 **相關主題：**
 

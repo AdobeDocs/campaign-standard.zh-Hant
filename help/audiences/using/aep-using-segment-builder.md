@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
+source-git-commit: 2ef524d1d276abb1ff0a7149462452cafe8e5cd3
 
 ---
 
@@ -84,7 +84,7 @@ source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
 >
 >如需詳細資訊，請參閱專用 [檔案](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/tutorials/segmentation/multi_entity_segmentation.md)。
 
-依預設，「統一區段產生器」會顯示資料所在的欄位。 要顯示完整方案，包括沒有資料的欄位，請啟用設 **[!UICONTROL Show full XDM schema]**置中的選項。
+依預設，「統一區段產生器」會顯示資料已存在的欄位。 要顯示完整方案，包括沒有資料的欄位，請啟用設 **[!UICONTROL Show full XDM schema]**置中的選項。
 
 ![](assets/aep_audiences_populatedfields.png)
 
@@ -116,7 +116,7 @@ source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
 
    您可以視需要新增任意數量的其他規則，以定位正確的描述檔。
 
-   將規則新增至容器時，規則會附加至具有AND運算子的任何現有規則。 按一下運算子以存取選項，將其變更為OR。
+   將規則新增至容器時，規則會附加至具有AND邏輯運算子的任何現有規則。 如果需要，按一下邏輯運算子以修改它。
 
    ![](assets/aep_audiences_andoperator.png)
 

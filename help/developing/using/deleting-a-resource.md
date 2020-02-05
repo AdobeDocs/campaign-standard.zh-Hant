@@ -51,7 +51,7 @@ source-git-commit: 6f7f4f3d81f4e6a540b3317f283c1e2311ccc65a
 
    然後，資源會進入 **Draft** （草稿）模式，其啟動狀態為 **[!UICONTROL Inactive]**。
 
-1. 在模 **[!UICONTROL List]**式中，檢查要刪除的資源，然後按一下![](assets/delete_darkgrey-24px.png)圖**[!UICONTROL Delete element]** 標。
+1. 在模 **[!UICONTROL List]**&#x200B;式中，檢查要刪除的資源，然後按一下![](assets/delete_darkgrey-24px.png)圖&#x200B;**[!UICONTROL Delete element]** 標。
 
    ![](assets/schema_extension_uc28.png)
 

@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d1af5ca520c56d593d1cffdca1e69f49d0c26c5d
+source-git-commit: e119ee1dc605b4f0ca48cd79fcdf2ad38d6b1440
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: d1af5ca520c56d593d1cffdca1e69f49d0c26c5d
  <tbody> 
   <tr> 
    <td> <p>Adobe Experience Platform Data Connector現在已與Adobe Campaign Standard整合。 您可以將XTK資料（在Campaign中收錄的資料）對應至Adobe Experience platform資料模型(XDM)，讓您的Campaign資料可在Adobe Experience platform上使用。 </p>
-    <p>請注意，此功能僅適用於Azure上代管的客戶。 如需啟動此功能與條件的詳細資訊，請參閱詳細 <a href="../../administration/using/aep-about-data-connector.md">檔案</a>。</p>
+    <p>請注意，此功能僅適用於Azure上代管的客戶。 如需啟動此功能與條件的詳細資訊，請參閱詳 <a href="../../administration/using/aep-about-data-connector.md">細說明</a><a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">檔案和操作視訊</a>。</p>
    </td> 
   </tr> 
  </tbody> 
@@ -50,7 +50,7 @@ source-git-commit: d1af5ca520c56d593d1cffdca1e69f49d0c26c5d
  <tbody> 
   <tr> 
    <td> <p>受眾目標可讓您將Adobe Experience platform的細分共用給Adobe Campaign。</p>
-    <p>請注意，此功能僅適用於Azure上代管的客戶。 如需啟動此功能與條件的詳細資訊，請參閱詳細 <a href="../../audiences/using/aep-about-audience-destinations-service.md">檔案</a>。</p>
+    <p>請注意，此功能僅適用於Azure上代管的客戶。 如需啟動此功能與條件的詳細資訊，請參閱詳 <a href="../../audiences/using/aep-about-audience-destinations-service.md">細說明</a><a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html">檔案和操作視訊</a>。 </p>
    </td> 
   </tr> 
  </tbody> 
@@ -87,6 +87,7 @@ source-git-commit: d1af5ca520c56d593d1cffdca1e69f49d0c26c5d
 
 **修補程式**
 
+* 修正執行刪除隱私權要求時，排除記錄中無法刪除使用者資料的問題。 (CAMP-39003)
 * 修正在容器元素中調整文字大小時導致協助工具問題。
 * 修正使用者無法關閉行銷活動暫留中顯示之「日曆」快顯視窗的問題。
 * 修正即使未修改 **[!UICONTROL External API]**任何資料，仍顯**[!UICONTROL Confirm]** 示按鈕的活動問題。

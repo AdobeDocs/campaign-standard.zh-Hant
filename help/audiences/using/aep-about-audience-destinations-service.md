@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
+source-git-commit: 2ef524d1d276abb1ff0a7149462452cafe8e5cd3
 
 ---
 
@@ -28,11 +28,11 @@ source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
 
 然後，Adobe Campaign Standard將會使用 **Audience Destinations** 服務，從AEP擷取多步驟和／或跨通道促銷活動計畫的描述檔集合(稱為 **Audiences**)。
 
-**觀眾** 是先建立區段來建立 **的**，這些區段實質上是一組規則，以來自AEP的客戶描述檔中幾乎任何變數（例如，描述檔、事件、多實體資料）為基礎，以建立多維目標。 這些專屬檔案中可參考統一描述檔與區段服務的 [全域概念](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation.html)。
+**觀眾** 是先建立區段來建立 **的**，這些區段實質上是一組規則，以來自AEP的客戶描述檔中幾乎任何變數（例如，描述檔、事件、多實體資料）為基礎，以建立多維目標。 這些專屬檔案中參考了統一描述檔與區段服務 [的全域概念](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation.html)。
 
-在建立區段後，您就可以將其啟動為觀眾，以便在 [Campaign Standard工作流程中進行傳送](../../automating/using/aep-targeting-audiences.md)。 此外，您也可以視需要使用Adobe Experience platform的情境式資料 [](../../automating/using/aep-personalizing-campaigns.md) ，將動態內容個人化並新增至宣傳。
+在建立區段後，您就可以將其啟動為觀眾，以便在 [Campaign Standard工作流程中進行傳送](../../automating/using/aep-targeting-audiences.md)。 此外，您也可以使用Adobe Experience platform的情境式資料，將動 [態內容](../../automating/using/aep-personalizing-campaigns.md) 個人化並新增至宣傳活動。
 
-本節也提供示範 [影片](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html)。
+本節也提供操作說 [明影片](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html)。
 
 這些章節中使用的詞語：
 

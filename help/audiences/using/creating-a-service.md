@@ -13,7 +13,7 @@ context-tags: service,wizard;service,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: de16bef6cfd0afa3f664c98fe77484044aac6610
+source-git-commit: a8ee3b864b6916871711c6bd2e2d3b794bc706f8
 
 ---
 
@@ -36,7 +36,7 @@ source-git-commit: de16bef6cfd0afa3f664c98fe77484044aac6610
 
    ![](assets/lp_service_expiration.png)
 
-您可以在「分段」活動中使用到期日來定位訂閱未到期服務的設定檔。
+   您可以在「分段」活動中使用到期日來定位訂閱未到期服務的設定檔。
 
 1. 填寫欄 **[!UICONTROL Service label]**位。 使用自訂確認訊息時，服務標籤是必備的。
 

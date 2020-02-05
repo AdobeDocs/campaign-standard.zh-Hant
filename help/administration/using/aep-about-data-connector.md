@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1059b840d9a2d0c89a6cbd1808b645862747a76c
+source-git-commit: 8ea3340e9ffb8b438c781aeff1a8554c9160474f
 
 ---
 
@@ -30,6 +30,8 @@ Adobe Experience Platform Data Connector將XTK資料（在Campaign中收錄的�
 Adobe Experience Platform Data Connector是專為瞭解Adobe Campaign standard自訂資源並瞭解客戶整體資料架構應如何位於Adobe Experience platform內的資料工程師而設計。 ****
 
 以下各節將說明在Campaign standard和Adobe Experience platform之間執行資料對應的關鍵步驟。 這從建立XDM架構和資料集開始。
+
+本頁也提供操作 [影片](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html)。
 
 >[!NOTE]
 >一旦設定Adobe Experience Platform Data Connector並成功將資料匯入Adobe Experience Platform後，您就必須啟用資料集，讓資料能包含在即時客戶個人檔案中。

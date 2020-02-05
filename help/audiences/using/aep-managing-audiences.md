@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
+source-git-commit: 2ef524d1d276abb1ff0a7149462452cafe8e5cd3
 
 ---
 
@@ -26,11 +26,11 @@ source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
 
 ## 存取Adobe Experience platform受眾
 
-若要存取Adobe Experience platform區段產生器，請導覽至Campaign Standard首頁上的資訊卡（或頁首中的連結），然後選取 **[!UICONTROL Audiences]****[!UICONTROL Audiences]****[!UICONTROL Adobe Experience Platform]**選項。
+若要存取Adobe Experience platform區段產生器，請導覽至Campaign Standard首頁上的資訊卡（或頁首中的連結），然後選取 **[!UICONTROL Audiences]****[!UICONTROL Audiences]****[!UICONTROL Adobe Experience Platform]**環境。
 
 ![](assets/aep_audiences_access.png)
 
-您會先被導向至Adobe Experience platform區段清單頁面，視需要存取現有的Adobe Experience platform區段以進行進一步編輯。
+您會先被導向至Adobe Experience platform區段清單頁面，您可在該頁面存取現有的Adobe Experience platform區段以進一步編輯。
 
 搜尋列和篩選器可協助您尋找所需的Adobe Experience platform區段。
 

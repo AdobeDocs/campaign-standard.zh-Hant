@@ -1,19 +1,19 @@
 ---
 title: 熱點點按
 description: 透過「快速點按現成可用報表」，瞭解客戶在何處點按您的遞送。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: 7ed49dd3-d7ee-466a-9a7b-d2aa16961667
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 報告
-content-type: 參考
-topic-tags: 清單
+audience: reporting
+content-type: reference
+topic-tags: list-of-reports
 discoiquuid: ecbc1ade-63d9-4ac2-9828-380a1aa95094
 context-tags: deliveryHotClicksReport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 * 如果收件者是男性或女性，則主影像上的連結會有所不同。
 * 您也新增了特殊選件的連結，該連結只會顯示給25歲以上的收件者。
 
-傳送訊息後，從傳送控制面板 **[!UICONTROL Reports]** 中選 **[!UICONTROL Hot clicks]** 取&gt;。
+傳送訊息後，從傳送控制面板 **[!UICONTROL Reports]** 中選 **[!UICONTROL Hot clicks]** 取>。
 
 預設情況下，未選擇任何配置檔案。 只會顯示性別未知的收件者，以及年齡未滿25歲或未知的收件者的點按。
 
@@ -47,7 +47,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 若要顯示25歲以上收件者的點按次數，請按一 **[!UICONTROL Change profile]** 下按鈕並選取出生日期符合此條件的測試描述檔。
 
-如需測試設定檔的詳細資訊，請參 [閱關於測試設定檔](../../sending/using/managing-test-profiles-and-sending-proofs.md#about-test-profiles)。
+如需測試設定檔的詳細資訊，請參 [閱關於測試設定檔](../../audiences/using/managing-test-profiles.md)。
 
 >[!NOTE]
 >
@@ -71,7 +71,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 >
 >由於每個執行的追蹤URL ID不同，因此無法針對指定訊息的所有執行傳送來匯整熱點點按資料。 一次只能顯示一個執行傳送。
 
-傳送訊息後，從傳送控制面板 **[!UICONTROL Reports]** 中選 **[!UICONTROL Hot clicks]** 取&gt;。
+傳送訊息後，從傳送控制面板 **[!UICONTROL Reports]** 中選 **[!UICONTROL Hot clicks]** 取>。
 
 依預設，會選取上次執行傳送。 按一下按 **[!UICONTROL Change execution delivery]** 鈕以選取另一個按鈕。
 

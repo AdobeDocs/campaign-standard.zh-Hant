@@ -13,7 +13,7 @@ context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 32bcfd57dfe881fa07c8d8e5700d0ae3996a78ec
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -36,9 +36,9 @@ source-git-commit: 32bcfd57dfe881fa07c8d8e5700d0ae3996a78ec
 
 ## 添加測試和陷印配置檔案 {#adding-test-and-trap-profiles}
 
-新增測試設定檔，以便使用少量設定檔來測試您的檔案。 它可讓您在準備實際檔案之前，快速建立檔案範例以測試和驗證結構。 See [Managing test profiles and sending proofs](../../sending/using/managing-test-profiles-and-sending-proofs.md).
+新增測試設定檔，以便使用少量設定檔來測試您的檔案。 它可讓您在準備實際檔案之前，快速建立檔案範例以測試和驗證結構。 請參閱 [管理測試設定檔](../../audiences/using/managing-test-profiles.md)。
 
-使用陷阱對於直接郵寄至關重要。 它們允許您驗證您的直接郵件提供商是否確實在發送通信，以及他們是否沒有將您的客戶端清單發送給其他提供商。 請參 [閱使用陷阱](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps)。
+使用陷阱對於直接郵寄至關重要。 它們允許您驗證您的直接郵件提供商是否確實在發送通信，以及他們是否沒有將您的客戶端清單發送給其他提供商。 請參 [閱使用陷阱](../../sending/using/using-traps.md)。
 
 對於直接郵件傳送，在提取期間會新增陷印，並混合在輸出檔案中。 預設情況下，它們會按輸出檔案的排序順序插入，但您可以選擇在檔案的結尾或開頭插入它們。 定義對象時，請從標籤中選取所要的 **[!UICONTROL Trap insertion mode]** 選項。
 

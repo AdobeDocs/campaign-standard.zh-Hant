@@ -3,8 +3,8 @@ product: adobe campaign
 sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
-translation-type: ht
-source-git-commit: 2acc79812b692024af590927fd9b5f019af20c52
+translation-type: tm+mt
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -48,6 +48,7 @@ source-git-commit: 2acc79812b692024af590927fd9b5f019af20c52
       + [編輯設定檔](audiences/using/editing-profiles.md)
       + [整合的客戶設定檔](audiences/using/integrated-customer-profile.md)
       + [使用中的設定檔案](audiences/using/active-profiles.md)
+      + [管理測試設定檔](audiences/using/managing-test-profiles.md)
    + 管理閱聽眾 {#managing-audiences}
       + [關於閱聽眾](audiences/using/about-audiences.md)
       + [建立閱聽眾](audiences/using/creating-audiences.md)
@@ -136,9 +137,10 @@ source-git-commit: 2acc79812b692024af590927fd9b5f019af20c52
    + 準備和測試訊息 {#preparing-and-testing-messages}
       + [預覽訊息](sending/using/previewing-messages.md)
       + [準備傳送](sending/using/preparing-the-send.md)
-      + [管理測試設定檔和傳送校樣](sending/using/managing-test-profiles-and-sending-proofs.md)
+      + [傳送校樣](sending/using/sending-proofs.md)
       + [測試電子郵件的主旨行](sending/using/testing-subject-line-email.md)
       + [電子郵件呈現](sending/using/email-rendering.md)
+      + [使用陷阱](sending/using/using-traps.md)
    + 排程訊息 {#scheduling-messages}
       + [關於排程訊息](sending/using/about-scheduling-messages.md)
       + [最佳化傳送時間](sending/using/optimizing-the-sending-time.md)

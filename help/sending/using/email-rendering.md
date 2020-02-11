@@ -1,18 +1,18 @@
 ---
 title: 電子郵件呈現
 description: 探索電子郵件轉換功能。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: c423e237-ad39-4797-ac3a-4320894a8f99
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 發送
-content-type: 參考
-topic-tags: 準備和測試訊息
+audience: sending
+content-type: reference
+topic-tags: preparing-and-testing-messages
 discoiquuid: 2b5b13c8-2e51-4985-a161-c1d7f0fc32b4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -33,7 +33,7 @@ Adobe Campaign中提供的行動裝置、傳訊和 **Email轉譯** ( [Email](htt
 
    ![](assets/email_rendering_05.png)
 
-1. 使用查詢編輯器定義您要使用的測試設定檔，包括用於電子郵件轉譯的測 **試設定檔** 。 請參閱 [關於測試設定檔](../../sending/using/managing-test-profiles-and-sending-proofs.md#about-test-profiles)。
+1. 使用查詢編輯器定義您要使用的測試設定檔，包括用於電子郵件轉譯的測 **試設定檔** 。 請參閱 [關於測試設定檔](../../audiences/using/managing-test-profiles.md)。
 
    ![](assets/email_rendering_06.png)
 
@@ -48,7 +48,7 @@ Adobe Campaign中提供的行動裝置、傳訊和 **Email轉譯** ( [Email](htt
 
    >[!NOTE]
    >
-   >此選 **[!UICONTROL Proof + Email rendering]** 項可讓您傳送證明並同時使用電子郵件轉譯功能。 您可以讓證明收件者核准您的訊息，同時也可以根據所定位的收件箱來測試訊息的接收方式。 在這種情況下，您也需要選取「校對測試描述檔」。 請參閱 [關於測試設定檔](../../sending/using/managing-test-profiles-and-sending-proofs.md#about-test-profiles)。
+   >此選 **[!UICONTROL Proof + Email rendering]** 項可讓您傳送證明並同時使用電子郵件轉譯功能。 您可以讓證明收件者核准您的訊息，同時也可以根據所定位的收件箱來測試訊息的接收方式。 在這種情況下，您也需要選取「校對測試描述檔」。 請參閱 [關於測試設定檔](../../audiences/using/managing-test-profiles.md)。
 
    測試傳送會傳送。
 
@@ -65,7 +65,7 @@ Adobe Campaign中提供的行動裝置、傳訊和 **Email轉譯** ( [Email](htt
 **相關主題**:
 
 * [建立電子郵件](../../channels/using/creating-an-email.md)
-* [管理測試設定檔和傳送校樣](../../sending/using/managing-test-profiles-and-sending-proofs.md)
+* [傳送校樣](../../sending/using/sending-proofs.md)
 * [查詢編輯器](../../automating/using/editing-queries.md#about-query-editor)
 
 ## 電子郵件轉換報表說明 {#email-rendering-report-description}

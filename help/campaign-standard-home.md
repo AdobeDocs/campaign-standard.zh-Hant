@@ -3,7 +3,7 @@ keywords: Campaign Standard;home;popular topics
 solution: Campaign Standard
 title: Adobe Campaign Standard 產品文件
 topic: Premium
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 859fa22e39233eb5d87475de3a2bf03492f1fe4b
 
 ---
@@ -15,13 +15,14 @@ source-git-commit: 859fa22e39233eb5d87475de3a2bf03492f1fe4b
 
 ## 新增功能
 
-* **[隱私權管理](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>瞭解由 Adobe Campaign 提供的協助您遵從隱私權要求的工具。
+* **[隱私權管理](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>
+瞭解由 Adobe Campaign 提供的協助您遵從隱私權要求的工具。
 
-* **[傳送最佳實務](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>進一步瞭解與傳送設計和傳送相關的最佳實務。
+* **[傳遞最佳實務](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>&#x200B;進一步瞭解與傳送內容設計和傳送相關的最佳實務。
 
-* **[電子郵件設計](designing/using/designing-content-in-adobe-campaign.md)**<br/>器請參閱重新整理的電子郵件設計器檔案。
+* **[電子郵件設計工具](designing/using/designing-content-in-adobe-campaign.md)**<br/>請參閱重新整理的電子郵件設計工具文件。
 
-* **[Campaign Standard 行動指南](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>進一步瞭解行動傳送的一般準則。
+* **[Campaign Standard 行動指南](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>&#x200B;進一步瞭解行動傳送的一般準則。
 
 [按一下這裡以取得更多更新](rn/using/documentation-updates.md)
 
@@ -66,7 +67,7 @@ source-git-commit: 859fa22e39233eb5d87475de3a2bf03492f1fe4b
 
 * [發行說明](rn/using/release-notes.md)
 
-* [控制面板](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
+* [控制面板](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/control-panel-home.html)
 
 * [操作說明短片](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
 

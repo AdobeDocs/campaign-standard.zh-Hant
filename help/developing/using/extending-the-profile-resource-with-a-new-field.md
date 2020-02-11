@@ -12,7 +12,7 @@ discoiquuid: 1e0f8945-fc3c-46a9-a8e5-b181a1f5ffcb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -39,18 +39,18 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 相關主題：
 
 * [關於自訂資源](../../developing/using/data-model-concepts.md)
-* [管理設定檔](../../audiences/using/about-profiles.md)
-* [管理測試設定檔](../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles)
+* [管理個人資料](../../audiences/using/about-profiles.md)
+* [管理測試設定檔](../../audiences/using/managing-test-profiles.md)
 
 ## 步驟1:擴充描述檔資源 {#step-1--extend-the-profile-resource}
 
 若要為我們的 **個人檔案建立新的** 「興趣」欄位，您必須先擴充現成可用的資 **[!UICONTROL Profiles (profile)]** 源。
 
-1. 從進階功能表，透過Adobe Campaign標誌，選取 **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]**，然後 **[!UICONTROL Custom resources]**。
+1. 從進階功能表，透過Adobe Campaign標誌，選取 **[!UICONTROL Administration]** > **[!UICONTROL Development]**，然後 **[!UICONTROL Custom resources]**。
 1. 如果尚未擴展資 **[!UICONTROL Profiles]** 源，請按一下 **[!UICONTROL Create]**。
 1. 選擇選 **[!UICONTROL Extend an existing resource]** 項。
 1. 選擇資 **[!UICONTROL Profile (profile)]** 源。
-1. Click **[!UICONTROL Create]**.
+1. 按一下 **[!UICONTROL Create]**.
 
    ![](assets/schema_extension_uc5.png)
 
@@ -100,11 +100,11 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 若要測試新建立的欄位是否已正確設定，您可以透過傳送傳送至測試描述檔來測試欄位。 首先，新領域還需要對測試剖面進行實現。
 
-1. 從進階功能表，透過Adobe Campaign標誌，選取 **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]**，然後 **[!UICONTROL Custom resources]**。
+1. 從進階功能表，透過Adobe Campaign標誌，選取 **[!UICONTROL Administration]** > **[!UICONTROL Development]**，然後 **[!UICONTROL Custom resources]**。
 1. 如果尚未擴展資 **[!UICONTROL Profiles]** 源，請按一下 **[!UICONTROL Create]**。
 1. 選擇選 **[!UICONTROL Extend an existing resource]** 項。
 1. 選擇資 **[!UICONTROL Test profile (seedMember)]** 源。
-1. Click **[!UICONTROL Create]**.
+1. 按一下 **[!UICONTROL Create]**.
 
    ![](assets/schema_extension_uc13.png)
 
@@ -117,7 +117,7 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
    ![](assets/schema_extension_uc16.png)
 
 1. 從步驟11到13執行與上述延伸描述檔步驟相同的步驟，將此欄位新增至螢幕 **[!UICONTROL Test profile]** 中。
-1. Click **[!UICONTROL Save]**.
+1. 按一下 **[!UICONTROL Save]**.
 
 現在，設定檔和測試設定檔都可使用您的新欄位。 若要正確設定，您必須發佈自訂資源。
 
@@ -125,7 +125,7 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 要應用對資源執行的更改並能夠使用，必須執行資料庫更新。
 
-1. 從進階功能表中，依序選 **取「管理** &gt;開 **發**」 **、「**&#x200B;發佈」。
+1. 從進階功能表中，依序選 **取「管理** >開 **發**」 **、「**&#x200B;發佈」。
 1. 依預設會勾選 **[!UICONTROL Determine modifications since the last publication]** 選項，這表示僅套用自上次更新後所進行的變更。
 
    ![](assets/schema_extension_uc14.png)
@@ -155,7 +155,7 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 1. 在中，單 **[!UICONTROL Marketing activities]**&#x200B;擊，然 **[!UICONTROL Create]** 後選擇 **[!UICONTROL Landing page]**。
 1. 選取著陸頁面類型。 在這裡，由於我們要更新個人檔案，請選取 **[!UICONTROL Profile acquisition]**。
-1. Click **[!UICONTROL Create]**.
+1. 按一下 **[!UICONTROL Create]**.
 1. 按一下 **[!UICONTROL Content]** 區塊以開始編輯著陸頁面的內容。
 
    ![](assets/schema_extension_uc21.png)
@@ -186,7 +186,7 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
    ![](assets/schema_extension_uc24.png)
 
-1. Click **[!UICONTROL Save]**. 您的電子郵件現已準備就緒，您可以回到工作流程。
+1. 按一下 **[!UICONTROL Save]**. 您的電子郵件現已準備就緒，您可以回到工作流程。
 1. 新增活 **[!UICONTROL Wait]** 動，讓您的描述檔有時間填入著陸頁面。
 1. 新增活 **[!UICONTROL Segmentation]** 動以依據對外轉場的興趣來分 **割**。
 1. 為每個興趣建立對外 **區段**。

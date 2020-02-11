@@ -12,7 +12,7 @@ discoiquuid: f7d4bb71-f957-4f86-97c7-8ac0a0030026
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aa92475c1f8b37f995ebdc74c4a1f43692a53c21
+source-git-commit: 54612511de07edc3e6f3eea34ef095c26b35f4af
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: aa92475c1f8b37f995ebdc74c4a1f43692a53c21
 
 由於著陸頁面會影響您的平台和資料，因此您需要仔細測試其執行。 操作步驟：
 
-1. 按一下 **[!UICONTROL Test]**著陸頁面動作列中的按鈕。
+1. 按一下 **[!UICONTROL Test]** 著陸頁面動作列中的按鈕。
 1. 從測試畫面中，選取測試描述檔，以及如果著陸頁面是要管理訂閱的測試服務。
 
    ![](assets/lp_test_2.png)
@@ -45,7 +45,7 @@ source-git-commit: aa92475c1f8b37f995ebdc74c4a1f43692a53c21
 
 >[!NOTE]
 >
->如果應用程式伺服器URL不安全(即使不是從https://開始)，則無法從促銷活動使用者介面顯示著陸頁面預覽。 此伺服器是在設定品牌時 [定義的](../../administration/using/branding.md#configuring-and-using-brands)。
+>若要在促銷活動使用者介面中顯示著陸頁面預覽，應用程式伺服器URL必須安全。 在這種情況下，在設定您的品牌時，請使用https://而非http://來 [設定此URL](../../administration/using/branding.md#configuring-and-using-brands)。
 
 ## 設定有效性參數 {#setting-up-validity-parameters}
 
@@ -55,7 +55,7 @@ source-git-commit: aa92475c1f8b37f995ebdc74c4a1f43692a53c21
 
    ![](assets/lp_edit_properties_button.png)
 
-1. 在區段中設定到期日期和時間 **[!UICONTROL Publication]**:著陸頁面將在指定的日期自動取消發佈，因此不再提供。
+1. 在區段中設定到期日期和時間 **[!UICONTROL Publication]** :著陸頁面將在指定的日期自動取消發佈，因此不再提供。
 
    您可以選擇要考慮此日期和時間的時區。
 
@@ -71,4 +71,4 @@ source-git-commit: aa92475c1f8b37f995ebdc74c4a1f43692a53c21
 
 當您發佈著陸頁面時，該頁面會上線，並可供您的訪客存取。
 
-您可以隨時透過按鈕解除發佈或更新並重新發佈著陸 **[!UICONTROL Publish]**頁面。 不過，如果重新發佈失敗，而您尚未解除發佈著陸頁面，第一個版本將會維持線上上。
+您可以隨時透過按鈕解除發佈或更新並重新發佈著陸 **[!UICONTROL Publish]** 頁面。 不過，如果重新發佈失敗，而您尚未解除發佈著陸頁面，第一個版本將會維持線上上。

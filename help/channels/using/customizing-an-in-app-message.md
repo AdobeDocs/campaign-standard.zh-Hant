@@ -1,19 +1,19 @@
 ---
 title: 自訂應用程式內訊息
 description: 瞭解如何使用各種選項來自訂您的應用程式內訊息。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: 1d9c08ed-4de5-440d-bf51-4a437eec67d5
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 頻道
-content-type: 參考
-topic-tags: 應用程式內訊息
+audience: channels
+content-type: reference
+topic-tags: in-app-messaging
 discoiquuid: c9c3e033-e319-447b-8d87-ff7dd4941876
-context-tags: delivery, inAppContent，返回
+context-tags: delivery,inAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -194,7 +194,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    ![](assets/inapp_sending_2.png)
 
-1. 按一下按 **[!UICONTROL Select a test profile]** 鈕並選取其中一個測試設定檔，以開始預覽您的傳送。 For more information on test profiles, refer to this [section](../../sending/using/managing-test-profiles-and-sending-proofs.md).
+1. 按一下按 **[!UICONTROL Select a test profile]** 鈕並選取其中一個測試設定檔，以開始預覽您的傳送。 For more information on test profiles, refer to this [section](../../audiences/using/managing-test-profiles.md).
 1. 在不同的裝置（例如Android、iPhone手機或甚至平板電腦）上檢查您的訊息。 您也可以檢查您的個人化欄位是否擷取正確的資料。
 
    ![](assets/inapp_sending_3.png)

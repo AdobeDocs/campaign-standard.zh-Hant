@@ -13,7 +13,7 @@ delivercontext-tags: deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 若要建立SMS訊息並傳送至行動電話，您需要：
 
-* 在 **[!UICONTROL Routing]**頻道上以模式**[!UICONTROL Mobile (SMS)]** 設定的外部 **[!UICONTROL Bulk delivery]**帳戶。 For more on this, refer to the[Routing](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)section.
+* 在 **[!UICONTROL Routing]** 頻道上以模式 **[!UICONTROL Mobile (SMS)]** 設定的外部 **[!UICONTROL Bulk delivery]** 帳戶。 For more on this, refer to the [Routing](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing) section.
 * 正確連結至此外部帳戶的傳送範本。
 
 1. 建立簡訊傳送。 您可從Adobe Campaign首頁、促銷活 [動或行銷活動清單](../../start/using/interface-description.md#home-page)[中](../../start/using/marketing-activities.md#creating-a-marketing-activity) , [執行此動作](../../start/using/programs-and-campaigns.md#creating-a-campaign)。
@@ -51,7 +51,7 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
    ![](assets/sms_creation_3.png)
 
-1. 將內容新增至SMS 您也可以在SMS建立完成後，按一 **[!UICONTROL Content]**下傳送控制面板的區段來定義內容。 請參閱[關於SMS內容設計](../../channels/using/about-sms-and-push-content-design.md)。
+1. 將內容新增至SMS 您也可以在SMS建立完成後，按一 **[!UICONTROL Content]** 下傳送控制面板的區段來定義內容。 請參閱 [關於SMS內容設計](../../channels/using/about-sms-and-push-content-design.md)。
 
    如果您已將個人化欄位或條件文字插入SMS訊息的內容，則訊息的長度可能會因收件者而異。 事實上，這些因素可能會引入GSM編碼未考慮的字元。 這就是為什麼在個人化實施後，必須評估訊息長度。 See [Personalizing SMS messages](../../channels/using/personalizing-sms-messages.md).
 
@@ -67,7 +67,7 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
    >
    >您可以設定全域跨通道疲勞規則，自動從促銷活動中排除過度徵求的個人檔案。 請參 [閱疲勞規則](../../administration/using/fatigue-rules.md)。
 
-1. 傳送校樣以檢查並驗證您的訊息，並監控其收件匣轉譯。 請參閱「 [傳送校樣](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs) 」一節。
+1. 傳送校樣以檢查並驗證您的訊息，並監控其收件匣轉譯。 請參閱「 [傳送校樣](../../sending/using/sending-proofs.md) 」一節。
 1. 確認訊息的傳送。 發送將相應地啟動到您定義的調度。
 
    ![](assets/sms_creation_7.png)

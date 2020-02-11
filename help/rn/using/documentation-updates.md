@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eaba1e77be1c79bb079f6a210f332ba0c8b64b5f
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -39,7 +39,7 @@ Adobe Experience Platform Data Connector（beta版）-閱 [讀更多](../../admi
 
 「發行說明」已重新整理和改良。 [閱讀更多資訊](../../rn/using/release-notes.md)
 
-已添加與管理員安全組相關的資訊，指定組織單 **[!UICONTROL All (all)]**元已分配給該組織單元，且無法修改。[閱讀更多資訊](../../administration/using/managing-groups-and-users.md)
+已添加與管理員安全組相關的資訊，指定組織單 **[!UICONTROL All (all)]** 元已分配給該組織單元，且無法修改。 [閱讀更多資訊](../../administration/using/managing-groups-and-users.md)
 
 已新增有關如何定義特定時區以在工作流程中預設使用的資訊。 [閱讀更多資訊](../../automating/using/building-a-workflow.md)
 
@@ -137,7 +137,7 @@ GDPR快速入門手冊已經過改進並充實。 它現在是包含GDPR和CCPA�
 
 已新增新範例，說明如何傳送包含從載入檔案活動擷取之其他資料的電子郵件。 [閱讀更多資訊](../../automating/using/load-file.md#example-2-email-with-enriched-fields)
 
-新增了如何使用陷阱的新章節。 [閱讀更多資訊](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps)。
+新增了如何使用陷阱的新章節。 [閱讀更多資訊](../../sending/using/using-traps.md)。
 
 有關如何使 **用Adobe Experience Platform SDK設定行動應用程式的頁面中，已新增有關Launch_URL_Campaign** 選項的附註。 [閱讀更多資訊](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
 
@@ -307,7 +307,7 @@ Dreamweaver整合區段已更新並改良。 [閱讀更多資訊](../../designin
 
 已新增有關如何連結自訂資源的資訊。 [閱讀更多資訊](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources)
 
-已新增有關如何顯示Adobe Campaign standard推播通知影像的技術。 [閱讀更多資訊](https://helpx.adobe.com/content/help/en/campaign/kb/display-image-push.html)
+已新增一項技術，說明如何從Adobe Campaign standard推播通知顯示影像。 [閱讀更多資訊](https://helpx.adobe.com/content/help/en/campaign/kb/display-image-push.html)
 
 已新增推播追蹤實作的新技術。 [閱讀更多資訊](https://helpx.adobe.com/content/help/en/campaign/kb/push-tracking.html)
 
@@ -515,15 +515,15 @@ SQL結構現在提供資料模型v1，用於現成可用的資源——詳 [情]
 
 發行說明已在數個頁面中重新整理，讓您可以更全域地檢視所有不同的版本。
 
-已更 **[!UICONTROL Working with typologies]**新區段，以改善可見度。[閱讀更多資訊](../../administration/using/about-typology-rules.md)
+已更 **[!UICONTROL Working with typologies]** 新區段，以改善可見度。 [閱讀更多資訊](../../administration/using/about-typology-rules.md)
 
-現在提供新選項，可讓您在定義中的許多其他資料時 **[!UICONTROL Query]**獲得效能。[閱讀更多資訊](../../automating/using/query.md)
+現在提供新選項，可讓您在定義中的許多其他資料時 **[!UICONTROL Query]** 獲得效能。 [閱讀更多資訊](../../automating/using/query.md)
 
 描述檔匯入範例已更新，提供一些提示，讓您的描述檔準備好接收直接電子郵件。 [閱讀更多資訊](../../automating/using/importing-data.md)
 
-工作流程中提供新活動：活 **[!UICONTROL Enrichment]**動。[閱讀更多資訊](../../automating/using/enrichment.md)
+工作流程中提供新活動：活 **[!UICONTROL Enrichment]** 動。 [閱讀更多資訊](../../automating/using/enrichment.md)
 
-活 **[!UICONTROL Subscription Services]**動已更新，可支援更多使用案例，包括使用單一檔案更新多項服務的訂閱。[閱讀更多資訊](../../automating/using/subscription-services.md)
+活 **[!UICONTROL Subscription Services]** 動已更新，可支援更多使用案例，包括使用單一檔案更新多項服務的訂閱。 [閱讀更多資訊](../../automating/using/subscription-services.md)
 
 新增如何準備傳送的逐步使用案例。 [閱讀更多資訊](../../sending/using/preparing-the-send.md)
 
@@ -533,7 +533,7 @@ SQL結構現在提供資料模型v1，用於現成可用的資源——詳 [情]
 
 已新增有關如何根據使用者在循環工作流程中的時區傳送傳送的資訊。 [閱讀更多資訊](../../automating/using/push-notification-delivery.md#sending-a-recurring-push-notification-with-a-workflow)
 
-使用逐 **[!UICONTROL Customizing a push notification]**步使用案例重新整理區段。[閱讀更多資訊](../../channels/using/customizing-a-push-notification.md)
+使用逐 **[!UICONTROL Customizing a push notification]** 步使用案例重新整理區段。 [閱讀更多資訊](../../channels/using/customizing-a-push-notification.md)
 
 黑名單管理專屬的新章節。 [閱讀更多資訊](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 

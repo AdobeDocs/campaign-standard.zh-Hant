@@ -3,7 +3,7 @@ product: adobe campaign
 sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2acc79812b692024af590927fd9b5f019af20c52
 
 ---
@@ -62,9 +62,9 @@ source-git-commit: 2acc79812b692024af590927fd9b5f019af20c52
       + [關於 Campaign 中的加入和退出](audiences/using/about-opt-in-and-opt-out-in-campaign.md)
       + [管理 Campaign 中的加入和退出](audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
       + [識別要傳送的退出設定檔](audiences/using/identifying-opt-out-profiles-for-a-delivery.md)
-   + 使用Adobe Experience Platform {#working-with-adobe-experience-platform}
-      + [關於觀眾目標服務](audiences/using/aep-about-audience-destinations-service.md)
-      + [管理Adobe Experience platform受眾](audiences/using/aep-managing-audiences.md)
+   + 使用 Adobe Experience Platform {#working-with-adobe-experience-platform}
+      + [關於 Audience Destinations 服務](audiences/using/aep-about-audience-destinations-service.md)
+      + [管理 Adobe Experience Platform 受眾](audiences/using/aep-managing-audiences.md)
       + [使用統一的區段產生器](audiences/using/aep-using-segment-builder.md)
 + 通訊通道 {#communication-channels}
    + 關於通訊通道 {#about-communication-channels}
@@ -157,7 +157,7 @@ source-git-commit: 2acc79812b692024af590927fd9b5f019af20c52
       + [啟動新平台](sending/using/starting-new-platform.md)
       + [控管電子郵件內容](sending/using/control-email-content.md)
       + [提升您的名譽](sending/using/improving-reputation.md)
-      + [IP認證](sending/using/ip-certification.md)
+      + [IP 認證](sending/using/ip-certification.md)
       + [技術建議](sending/using/technical-recommendations.md)
       + [監控傳送能力](sending/using/monitor-deliverability.md)
       + [疑難排解](sending/using/troubleshooting.md)
@@ -292,9 +292,9 @@ source-git-commit: 2acc79812b692024af590927fd9b5f019af20c52
       + [重新鎖定非開啟者](automating/using/workflow-cross-channel-retargeting.md)
       + [建立控制群組](automating/using/workflow-control-group.md)
       + [建立跨通道傳送](automating/using/workflow-cross-channel-delivery.md)
-   + 使用Adobe Experience platform觀眾{working-with-aep-audiences}
-      + [鎖定Adobe Experience platform受眾](automating/using/aep-targeting-audiences.md)
-      + [使用Adobe Experience platform屬性個人化宣傳活動](automating/using/aep-personalizing-campaigns.md)
+   + 與 Adobe Experience Platform 受眾合作 {working-with-aep-audiences}
+      + [鎖定 Adobe Experience Platform 受眾](automating/using/aep-targeting-audiences.md)
+      + [使用 Adobe Experience Platform屬性個人化行銷活動](automating/using/aep-personalizing-campaigns.md)
 + 開發 {#developing}
    + 關於自訂資源 {#about-custom-resources}
       + [資料模型概念](developing/using/data-model-concepts.md)
@@ -363,11 +363,11 @@ source-git-commit: 2acc79812b692024af590927fd9b5f019af20c52
       + [資料保留](administration/using/data-retention.md)
       + [更新和維護作業](administration/using/updates-and-maintenance-operations.md)
    + Adobe Experience Platform Data Connector {#mapping-campaign-and-aep-data}
-      + [關於Adobe Experience Platform Data Connector](administration/using/aep-about-data-connector.md)
-      + [Experience platform資料模型概觀](administration/using/aep-data-model-overview.md)
+      + [關於 Adobe Experience Platform Data Connector](administration/using/aep-about-data-connector.md)
+      + [Experience Platform 資料模型概觀](administration/using/aep-data-model-overview.md)
       + [映射定義](administration/using/aep-mapping-definition.md)
-      + [對應啟動](administration/using/aep-mapping-activation.md)
-      + [透過API觸發資料擷取](administration/using/aep-triggering-data-ingestion.md)
+      + [映射啟動](administration/using/aep-mapping-activation.md)
+      + [透過 API 觸發資料引入](administration/using/aep-triggering-data-ingestion.md)
 + 使用API {#working-with-apis}
    + 關於 Campaign Standard API {#about-campaign-standard-apis}
       + [概觀](api/using/about-campaign-standard-apis.md)

@@ -1,19 +1,19 @@
 ---
 title: 在訊息中選取閱聽眾
 description: 「選擇電子郵件對象的逐步程式：主要目標人口與測試設定檔。」
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: 7d8f8446-f2e0-49c1-83f6-9667b29bc228
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
-content-type: 參考
-topic-tags: 管理觀眾
+content-type: reference
+topic-tags: managing-audiences
 discoiquuid: 158da6ff-8899-4e7b-b925-8a42c3de46a1
 context-tags: deliveryCreation,wizard;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -50,7 +50,7 @@ Adobe Campaign可讓您在訊息的對象中設定數種描述檔類型。
 
 1. 定義 **[!UICONTROL Test profiles]** 您要用於電子郵件的項目。 測試設定檔會收到您之前可以傳送的校樣，以在將電子郵件傳送至主要目標之前進行測試。
 
-   如需設定測試設定檔的詳細資訊，請參閱「測 [試設定檔](../../sending/using/managing-test-profiles-and-sending-proofs.md) 」一節。
+   如需設定測試設定檔的詳細資訊，請參閱「測 [試設定檔](../../audiences/using/managing-test-profiles.md) 」一節。
 
 接著會更新觀眾區塊，並顯示已針對相關電子郵件選取目標和測試設定檔。
 

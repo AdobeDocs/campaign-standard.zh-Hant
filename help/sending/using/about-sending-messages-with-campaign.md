@@ -12,7 +12,7 @@ discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8bd32e1ca93473c384a3e079362bb9afe978699d
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -37,7 +37,7 @@ source-git-commit: 8bd32e1ca93473c384a3e079362bb9afe978699d
 
 * [關於排程訊息](../../sending/using/about-scheduling-messages.md)
 * [準備傳送](../../sending/using/preparing-the-send.md)
-* [管理測試設定檔和傳送校樣](../../sending/using/managing-test-profiles-and-sending-proofs.md)
+* [傳送校樣](../../sending/using/sending-proofs.md)
 * [電子郵件呈現](../../sending/using/email-rendering.md)
 * [發生故障時接收警報](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [最佳化您的傳遞能力](../../sending/using/about-deliverability.md)

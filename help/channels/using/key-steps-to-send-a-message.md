@@ -12,7 +12,7 @@ discoiquuid: a51351ee-e3b6-4996-9e68-b7d5157b8207
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -32,7 +32,7 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
    >
    >您可以設定全域跨通道疲勞規則，自動從促銷活動中排除過度徵求的個人檔案。 請參 [閱疲勞規則](../../administration/using/fatigue-rules.md)。
 
-1. 傳送校樣。 請參閱傳 [送校樣](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs)。
+1. 傳送校樣。 請參閱傳 [送校樣](../../sending/using/sending-proofs.md)。
 1. 傳送訊息並檢查其傳送。 請參閱 [傳送訊息](../../sending/using/confirming-the-send.md)。
 1. 檢查專用的傳送報表。 請參閱存 [取報表](../../reporting/using/about-dynamic-reports.md)。
 

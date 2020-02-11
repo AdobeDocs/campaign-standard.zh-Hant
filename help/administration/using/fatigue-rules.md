@@ -1,18 +1,18 @@
 ---
 title: 疲勞規則
 description: 建立疲乏規則，以管理使用描述檔的過度通訊。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: fa5e3ded-36c2-4f16-b97a-119b85adf679
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 管理
-content-type: 參考
-topic-tags: 使用類型學規則
+audience: administration
+content-type: reference
+topic-tags: working-with-typology-rules
 discoiquuid: 4337a80b-0fb9-4a37-bce3-fe2121a66586
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 5f4a7f249a47def6776d8787b066e3d8256c3528
 
 ---
 
@@ -38,9 +38,9 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ## 建立疲勞規則 {#creating-a-fatigue-rule}
 
-要建立和配置排 **[!UICONTROL Fatigue]** 版規則，請應用以下步驟：
+若要建立和設定排 **[!UICONTROL Fatigue]** 版規則，請套用下列步驟：
 
-1. 按一下介面左上角的Adobe Campaign標誌，然後選取 **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Typologies]** &gt; **[!UICONTROL Typology rules]**。
+1. 按一下介面左上角的Adobe Campaign標誌，然後選取 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** > **[!UICONTROL Typology rules]**。
 
    ![](assets/fatigue4.png)
 
@@ -82,7 +82,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ![](assets/fatigue16.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >為了讓疲勞規則發揮作用，您需要為交貨定義聯繫日期。 如果您選擇立即傳送訊息，則不會套用疲勞規則。
 
@@ -101,7 +101,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 * 直接郵件
 * 行動應用程式：此頻道可讓您傳送推播通知給描述檔或應用程式訂閱者。 如果您選擇傳送通知給描述檔，則通知會與多頻道疲乏規則相容。
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >疲勞規則與傳送給應用程式訂閱者的推播通知不相容。 如果您要傳送訊息給應用程式訂閱者，則不會套用疲勞規則。
 
@@ -247,7 +247,7 @@ Adobe Campaign提供疲勞規則專屬報表，協助您瞭解如何將疲勞規
 
 * 建立疲勞規則， **以調整描述檔** 和傳送的臨界值：
 
-   您已使用「分數」欄位擴充描述檔資源，並且已使用「類型」欄位擴充傳送資源。 您想要定義一個常數臨界值3，但想從計數中排除「警報」或「黑色星期五」類型的所有傳送，以及分數大於10的所有描述檔。 當規則執行時，會在過去和已排程的傳送中，將所有非'Alert'或'Black Friday'類型的傳送計入分數小於10的描述檔。
+   您已使用「分數」欄位擴充描述檔資源，並且已使用「類型」欄位擴充傳送資源。 您想要定義一個常數臨界值3，但想從計數中排除「警報」或「黑色星期五」類型的所有傳送，以及分數大於10的所有描述檔。 當規則執行時，會在過去和已排程的傳送中，將所有非&#39;Alert&#39;或&#39;Black Friday&#39;類型的傳送計入分數小於10的描述檔。
 
    ![](assets/fatigue26.png)
 

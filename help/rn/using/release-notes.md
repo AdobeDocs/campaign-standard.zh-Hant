@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8b02b81ef27c8415bc5bcce41178dfbfc90670cf
+source-git-commit: 51408477f18725e95d3c2bd48394e776fbbe3d1d
 
 ---
 
@@ -25,7 +25,9 @@ source-git-commit: 8b02b81ef27c8415bc5bcce41178dfbfc90670cf
 
 **電子郵件設計人員增強功能**
 
-修正修補過期片段並儲存內容時，在過期片段中新增HTML標籤元素的問題。 (CAMP-40685)修正使用動態內容時新增空間的問題。 (CAMP-40605)修正設定交易式電子郵件範本時的問題。 (CAMP-40604)
+* 修正修補過期片段並儲存內容時，在過期片段中新增HTML標籤元素的問題。 (CAMP-40685)
+* 修正使用動態內容時新增空格的問題。 (CAMP-40605)
+* 修正設定交易式電子郵件範本時的問題。 (CAMP-40604)
 
 ## 版本20.1 - 2020年2月 {#release-20-1---february-2020}
 

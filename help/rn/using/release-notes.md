@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e119ee1dc605b4f0ca48cd79fcdf2ad38d6b1440
+source-git-commit: 8b02b81ef27c8415bc5bcce41178dfbfc90670cf
 
 ---
 
@@ -20,6 +20,12 @@ source-git-commit: e119ee1dc605b4f0ca48cd79fcdf2ad38d6b1440
 # 最新版本{#latest-release}
 
 [發行計畫](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) |控 [制面板版本](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) |文 [件更新](../../rn/using/documentation-updates.md) |先 [前的發行說明](../../rn/using/release-notes-2019.md) |已過 [時的功能](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+
+## 版本20.1.2 - 2020年2月 {#release-20-1-2---february-2020}
+
+**電子郵件設計人員增強功能**
+
+修正修補過期片段並儲存內容時，在過期片段中新增HTML標籤元素的問題。 (CAMP-40685)修正使用動態內容時新增空間的問題。 (CAMP-40605)修正設定交易式電子郵件範本時的問題。 (CAMP-40604)
 
 ## 版本20.1 - 2020年2月 {#release-20-1---february-2020}
 
@@ -90,9 +96,9 @@ source-git-commit: e119ee1dc605b4f0ca48cd79fcdf2ad38d6b1440
 * 修正執行刪除隱私權要求時，排除記錄中無法刪除使用者資料的問題。 (CAMP-39003)
 * 修正在容器元素中調整文字大小時導致協助工具問題。
 * 修正使用者無法關閉行銷活動暫留中顯示之「日曆」快顯視窗的問題。
-* 修正即使未修改 **[!UICONTROL External API]**任何資料，仍顯**[!UICONTROL Confirm]** 示按鈕的活動問題。
-* 修正針對不同目標維度 **[!UICONTROL Union]**的查詢使用活動的問題。 轉場資料只顯示主集定位維度的記錄。 (CAMP-36831)
-* 修正在特定上下文中使用活動(例 **[!UICONTROL Reconciliation]**如有兩個傳入活動，其中一個是排除活動)時，可能導致錯誤的問題。 (CAMP-37490)
+* 修正即使未修改 **[!UICONTROL External API]** 任何資料，仍顯 **[!UICONTROL Confirm]** 示按鈕的活動問題。
+* 修正針對不同目標維度 **[!UICONTROL Union]** 的查詢使用活動的問題。 轉場資料只顯示主集定位維度的記錄。 (CAMP-36831)
+* 修正在特定上下文中使用活動(例 **[!UICONTROL Reconciliation]** 如有兩個傳入活動，其中一個是排除活動)時，可能導致錯誤的問題。 (CAMP-37490)
 * 已修正選取和更新測試設定檔時可能發生的效能問題。 (CAMP-37976)
 * 修正透過著陸頁面訂閱或取消訂閱時，可能顯示錯誤頁面的問題。 (CAMP-37771)
 * 已修正以郵遞區號格式上傳內容時，HTML中參照的PNG檔案副檔名為大寫字母的問題。 (CAMP-37913)

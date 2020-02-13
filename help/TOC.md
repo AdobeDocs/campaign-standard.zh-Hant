@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: f0d2f7af6510443ea42d21e57a9648ed99bb00c1
 
 ---
 
@@ -294,7 +294,7 @@ source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
       + [重新鎖定非開啟者](automating/using/workflow-cross-channel-retargeting.md)
       + [建立控制群組](automating/using/workflow-control-group.md)
       + [建立跨通道傳送](automating/using/workflow-cross-channel-delivery.md)
-   + 與 Adobe Experience Platform 受眾合作 {working-with-aep-audiences}
+   + 與 Adobe Experience Platform 受眾合作 {#working-with-aep-audiences}
       + [鎖定 Adobe Experience Platform 受眾](automating/using/aep-targeting-audiences.md)
       + [使用 Adobe Experience Platform屬性個人化行銷活動](automating/using/aep-personalizing-campaigns.md)
 + 開發 {#developing}

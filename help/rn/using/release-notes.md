@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51408477f18725e95d3c2bd48394e776fbbe3d1d
+source-git-commit: 9e6648af4f0918904fc232e407a1cb6f237efcbc
 
 ---
 
@@ -20,6 +20,10 @@ source-git-commit: 51408477f18725e95d3c2bd48394e776fbbe3d1d
 # 最新版本{#latest-release}
 
 [發行計畫](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) |控 [制面板版本](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) |文 [件更新](../../rn/using/documentation-updates.md) |先 [前的發行說明](../../rn/using/release-notes-2019.md) |已過 [時的功能](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+
+## 版本20.1.3 - 2020年2月 {#release-20-1-3---february-2020}
+
+* 修正CAMP-39273在20.1中針對使用漏洞的客戶所引入的回歸問題。 39273號營被歸還。
 
 ## 版本20.1.2 - 2020年2月 {#release-20-1-2---february-2020}
 
@@ -116,3 +120,4 @@ source-git-commit: 51408477f18725e95d3c2bd48394e776fbbe3d1d
 * 修正動態報表中「取消訂閱」計數不一致的問題。 (CAMP-39949)
 * 修正傳送應用程式內訊息時，「傳送記錄檔」畫面無法顯示位址的問題。
 * 修正SMS傳送記錄檔無法以正確彈回數更新的問題。 (CAMP-38395)
+* 已修正允許應用程式訂閱貼文呼叫更新推播通知Token的漏洞。 (CAMP-39273)

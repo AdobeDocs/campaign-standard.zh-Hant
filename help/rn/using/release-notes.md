@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9e6648af4f0918904fc232e407a1cb6f237efcbc
+source-git-commit: 4a3a6930609ab27949d77ccc8a73d9a3a62edb98
 
 ---
 
@@ -89,6 +89,8 @@ source-git-commit: 9e6648af4f0918904fc232e407a1cb6f237efcbc
 * 修正無法從文字編輯器複製和貼上文字的問題。 (CAMP-39028)
 * 修正無法顯示字詞建議的問題。 (CAMP-38970)
 * 修正使用者無法儲存片段的問題。 (ATU-2447)
+* 修正動態結構無法複製的問題。 (CAMP-38367)
+* 修正複製動態內容時無法保留條件的問題。 (CAMP-39051)
 
 **其他變更**
 

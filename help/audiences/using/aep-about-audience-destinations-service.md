@@ -1,5 +1,5 @@
 ---
-title: 關於觀眾目標服務
+title: 關於 Audience Destinations 服務
 description: 進一步瞭解觀眾目標服務。
 page-status-flag: never-activated
 uuid: b3996642-96ec-489e-b146-c8c2cb52aa32
@@ -13,22 +13,22 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2ef524d1d276abb1ff0a7149462452cafe8e5cd3
+source-git-commit: 77ceb5e5ca05fc3ee350d8e50fe0c957dec6ea26
 
 ---
 
 
-# 關於觀眾目標服務 {#about-audiences}
+# 關於 Audience Destinations 服務 {#about-audiences}
 
 >[!IMPORTANT]
 >
 >觀眾目標服務目前為測試版，可能會經常更新，恕不另行通知。 客戶必須在Azure上代管（目前僅限北美地區測試版）才能存取這些功能。 如果您想要存取，請聯絡Adobe客戶服務。
 
-運用 [Adobe Experience Platform](https://www.adobe.io/apis/experienceplatform/home.html) (AEP)，根據大型、複雜的資料集建立高針對性的受眾，讓您的消費者體驗更臻完美。 Adobe Experience platform整合了線上和線下來源（包括Adobe Analytics）的個人檔案、行為和多實體資料，協助您建立360度全方位的客戶視圖，讓您有效管理客戶體驗。
+運用 [Adobe Experience Platform](https://www.adobe.io/apis/experienceplatform/home.html) ，根據大型、複雜的資料集建立高針對性的受眾，讓您的消費者體驗更臻完美。 Adobe Experience platform整合了線上和線下來源（包括Adobe Analytics）的個人檔案、行為和多實體資料，協助您建立360度全方位的客戶視圖，讓您有效管理客戶體驗。
 
-然後，Adobe Campaign Standard將會使用 **Audience Destinations** 服務，從AEP擷取多步驟和／或跨通道促銷活動計畫的描述檔集合(稱為 **Audiences**)。
+然後，Adobe Campaign Standard將會使用 **Audience Destinations** 服務，從Adobe Experience platform擷取多步驟和／或跨通道促銷活動計畫的描述檔集合，稱為 **Audiences**。
 
-**觀眾** 是先建立區段來建立 **的**，這些區段實質上是一組規則，以來自AEP的客戶描述檔中幾乎任何變數（例如，描述檔、事件、多實體資料）為基礎，以建立多維目標。 這些專屬檔案中參考了統一描述檔與區段服務 [的全域概念](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation.html)。
+**觀眾** 是先建立區段來建立 **的**，這些區段實際上是一組規則，基於來自Adobe Experience Platform的客戶描述檔中幾乎任何變數（例如，描述檔、事件、多實體資料），以建立多維目標。 這些專屬檔案中參考了統一描述檔與區段服務 [的全域概念](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation.html)。
 
 在建立區段後，您就可以將其啟動為觀眾，以便在 [Campaign Standard工作流程中進行傳送](../../automating/using/aep-targeting-audiences.md)。 此外，您也可以使用Adobe Experience platform的情境式資料，將動 [態內容](../../automating/using/aep-personalizing-campaigns.md) 個人化並新增至宣傳活動。
 

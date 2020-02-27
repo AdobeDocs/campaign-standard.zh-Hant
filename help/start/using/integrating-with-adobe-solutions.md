@@ -1,18 +1,18 @@
 ---
 title: 與 Adobe 解決方案整合
 description: 瞭解與Adobe Experience cloud核心服務和解決方案（例如Adobe Analytics和Experience Manager）的整合如何透過深入見解和方便的內容管理改善您的Adobe Campaign策略。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: e142e449-1cf4-4d3f-a318-6572d78e6f85
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: start
-content-type: 參考
+content-type: reference
 topic-tags: about-adobe-campaign
 discoiquuid: 3aebc89c-ed08-46ab-909c-e077ce2ab5da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 3cbb1b6e1697384be2eae3187fd89359628cd8da
 
 ---
 
@@ -54,10 +54,6 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 * 在Adobe Campaign中傳送個人化電子郵件給客戶，以回應Adobe Analytics在您網站上追蹤的特定行為。
 
    如需詳細資訊，請參閱 [Campaign standard中的「使用Experience cloud觸發器」](../../integrating/using/about-adobe-experience-cloud-triggers.md)。
-
-* 編輯影像並使用Adobe Creative SDK提供的完整功能集，直接在內容編輯器中增強您的影像
-
-   如需詳細資訊，請參 [閱「使用Adobe Creative SDK修改影像」](../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk)
 
 * 使用Adobe Experience Platform SDK，在Adobe Campaign中自動化行動應用程式屬性啟動程式。
 

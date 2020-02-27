@@ -12,7 +12,7 @@ discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: 3cbb1b6e1697384be2eae3187fd89359628cd8da
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 >
 > 依預設，Adobe Campaign已連結至Adobe Experience cloud帳戶。
 
-視您的環境而定，其他解決方案也可以連結至Adobe Experience Cloud。 它們以「組織」（又稱為「租客」）連結。
+其他解決方案也可以連結至Adobe Experience Cloud，視您的環境而定。 它們以「組織」（又稱為「租客」）連結。
 
 組織是可讓管理員設定群組和使用者，以及控制Experience cloud中單一登入的實體。 組織的運作方式類似登入公司，涵蓋所有Experience cloud產品和解決方案。 通常，組織就是您的公司名稱。 但是，公司可以有許多組織。 使用者和組織管理在 [Adobe Experience cloud說明入口網站中有詳細說明](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)。
 
@@ -96,11 +96,6 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
    <td> 
     <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">使用Dreamweaver視訊建立個人化電子郵件</a> , <br/>使 <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">用適用於Dreamweaver的Campaign擴充功能</a> 
   </td> 
-  </tr> 
-  <tr> 
-   <td> Creative SDK<br /> </td> 
-   <td> 可讓您編輯影像，並使用Adobe Creative SDK提供的完整功能集，直接在內容編輯器中增強您的影像。<br /> </td> 
-   <td> <a href="../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk">使用Adobe Creative SDK修改影像</a><br /> </td> 
   </tr> 
   <tr> 
    <td> 體驗平台SDK<br /> </td> 

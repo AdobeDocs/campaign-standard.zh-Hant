@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4a3a6930609ab27949d77ccc8a73d9a3a62edb98
+source-git-commit: 14f764b92fef81c06551fb0f13b11b41e94095f0
 
 ---
 
@@ -98,6 +98,8 @@ source-git-commit: 4a3a6930609ab27949d77ccc8a73d9a3a62edb98
 * 管理員安全組的組織單元不能再更改。
 * 建立配置檔案時，現在必須填寫「組織單位」欄位。
 * 現在，只有刪除連結至Experience cloud的事件和交易範本時，才能刪除Experience cloud觸發器。
+* Adobe Creative SDK已終止服務。 現在已在Campaign standard中停用。 請參閱「 [已過時和已移除的功能](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)」頁面。
+
 
 **修補程式**
 

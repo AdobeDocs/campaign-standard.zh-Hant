@@ -66,7 +66,7 @@ source-git-commit: 7e61796376a14c279d38107905275172be0dd12d
 
    然後，技術工作流程將會每週自動繼續培訓您的模型。
 
-* 您可以匯入特定產業（醫療等）的預先訓練模型使用套 [件匯入功能](../../automating/using/managing-packages.md) 。 要訪問這些模型，請 [按一下這裡](https://support.neolane.net/webApp/extranetLogin) ，並轉 **[到下載中心]**。這些模型無法接受培訓。
+* 您可以匯入特定產業（醫療等）的預先訓練模型使用套 [件匯入功能](../../automating/using/managing-packages.md) 。 要訪問這些型號，請 [按一下這裡](https://support.neolane.net/webApp/extranetLogin) ，並轉 **[到下載中心]**。這些型號不能接受培訓。
 
    上傳模型後，功能就會自動啟動，訊息的主旨行欄位旁會顯示新選項。
 

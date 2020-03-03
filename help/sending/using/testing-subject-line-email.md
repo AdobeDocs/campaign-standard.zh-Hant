@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0bc487606fe3715b20452f3cf8eae52900539a32
+source-git-commit: 7e61796376a14c279d38107905275172be0dd12d
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: 0bc487606fe3715b20452f3cf8eae52900539a32
 
 1. 建立或開啟您的電子郵件。
 1. 開啟內容，並在對應的輸入欄位中輸入電子郵件的主旨。
-1. 按一下 **[!UICONTROL Test subject]**按鈕以存取視**[!UICONTROL Test your subject line]** 窗。 您仍然可以從此視窗編輯主題。
+1. 按一下 **[!UICONTROL Test subject]** 按鈕以存取視 **[!UICONTROL Test your subject line]** 窗。 您仍然可以從此視窗編輯主題。
 1. 選擇要考慮開放速率預測的正確模型。 目前已推出多種機型，每種機型都對應特定產業。
 1. 按一下 **[!UICONTROL Test]**.
 
@@ -52,7 +52,7 @@ source-git-commit: 0bc487606fe3715b20452f3cf8eae52900539a32
 * 您可以根據先前電子郵件訊息的資料來訓練本機模型：
 
    * 如果您已使用Adobe Campaign，本機模型將會自動接受您已傳送訊息的訓練。
-   * 如果您是Adobe Campaign的新手，可以從先前的系統/ESP擷取包含4欄的CSV檔案：日期，主旨，開啟，傳送。 若要這麼做，請前往 **[!UICONTROL Administration]**>**[!UICONTROL Channels]** > **[!UICONTROL Email]**>**[!UICONTROL Subject Line Import]** 並依照後續畫面上的指示進行。 主體上載完成後，請導入本地模型，如下所述。 本機模型會自動接受您上傳之資料的訓練。
+   * 如果您是Adobe Campaign的新手，可以從先前的系統/ESP擷取包含4欄的CSV檔案：日期，主旨，開啟，傳送。 若要這麼做，請前往 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email]** > **[!UICONTROL Subject Line Import]** 並依照後續畫面上的指示進行。 主體上載完成後，請導入本地模型，如下所述。 本機模型會自動接受您上傳之資料的訓練。
    * 如果您是Adobe Campaign的新手，但無法如上所述取得CSV檔案，則可使用預先訓練好的模型，或等到系統中有足夠的傳送資料來訓練本機模型。 系統會自動判斷您目前的資料集是否包含足夠的資料來識別模式和訓練模型。
 
       >[!NOTE]
@@ -60,13 +60,13 @@ source-git-commit: 0bc487606fe3715b20452f3cf8eae52900539a32
       >培訓您自己的模型不需要定義主題行數。 為了能夠進行培訓，主題線必須多樣化，沒有重複。 如果沒有足夠的資料進行處理，系統將無法對模型進行訓練。 實例上只能有一個受過培訓的模型。
    若要訓練本機模型，請從這裡下載subjectLineTraining.xml [](https://support.neolane.net/webApp/downloadCenter?__userConfig=psaDownloadCenter) ，然後使用套件 [匯入功能](../../automating/using/managing-packages.md) ，將它上傳至您的Adobe Campaign實例。 技術工作流程會自動為您進行培訓。
 
-   第一次要培訓模型時，管理員可以強制 **[!UICONTROL SubjectLine Training workflow]**從>**[!UICONTROL Administration]** >菜 **[!UICONTROL Application settings]**單開始**[!UICONTROL Workflows]** 。
+   第一次要培訓模型時，管理員可以強制 **[!UICONTROL SubjectLine Training workflow]** 從> **[!UICONTROL Administration]** >菜 **[!UICONTROL Application settings]** 單開始 **[!UICONTROL Workflows]** 。
 
    模型上傳及訓練後，功能就會自動啟動，訊息的主旨行欄位旁會顯示新選項。
 
    然後，技術工作流程將會每週自動繼續培訓您的模型。
 
-* 您可以匯入特定產業（醫療等）的預先訓練模型使用套 [件匯入功能](../../automating/using/managing-packages.md) 。 這些模型可 [供使用](https://support.neolane.net/webApp/downloadCenter?__userConfig=psaDownloadCenter) ，而且無法接受培訓。
+* 您可以匯入特定產業（醫療等）的預先訓練模型使用套 [件匯入功能](../../automating/using/managing-packages.md) 。 要訪問這些模型，請 [按一下這裡](https://support.neolane.net/webApp/extranetLogin) ，並轉 **[到下載中心]**。這些模型無法接受培訓。
 
    上傳模型後，功能就會自動啟動，訊息的主旨行欄位旁會顯示新選項。
 

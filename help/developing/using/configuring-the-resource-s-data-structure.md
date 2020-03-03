@@ -1,19 +1,19 @@
 ---
 title: 設定資源的資料結構
 description: 瞭解如何設定資料結構。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: 60fe80c0-9df6-4808-a432-60a1977216ea
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 開發
-content-type: 參考
-topic-tags: 添加或擴展資源
+audience: developing
+content-type: reference
+topic-tags: adding-or-extending-a-resource
 discoiquuid: 4f22ee35-1d5f-4c75-95b4-3e38b85de26e
 context-tags: cusResource,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: bd83bb520a9822ffa9669076f90e6dc3397c6480
 
 ---
 
@@ -41,8 +41,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    >[!NOTE]
    >
-   >如果您將欄位 **[!UICONTROL Label]** 留空，則會自動從ID完成欄位。
-   >建議最多使用30個字元。
+   >最多使用30個字元。
 
    ![](assets/schema_extension_4.png)
 
@@ -63,10 +62,14 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    這些欄位會顯示在資料和中繼資料中，當進行資料庫更新後，這些欄位就會顯示出來。 有關詳細資訊，請參閱「更 [新資料庫結構](../../developing/using/updating-the-database-structure.md) 」部分。
 
-1. 勾選欄 **[!UICONTROL Add automatic ID]** 位以自動產生ID。 請注意，現有實體將維持空白。
-1. 要修改資源元素名稱在清單和建立步驟中的顯示方式，請選中該 **[!UICONTROL Personalize the resource title]** 框。 從為此資源建立的欄位中選擇一個欄位。
+1. 勾選欄 **[!UICONTROL Add automatic ID]** 位以自動產生ID。 請注意，現有實體將維持空白。 如需詳細資訊，請參閱「產生 [描述檔和自訂資源的唯一ID」](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)。
+1. 要修改資源元素名稱在清單和建立步驟中的顯示方式，請選中該 **[!UICONTROL Customize the title of the resource elements]** 框。 從為此資源建立的欄位中選擇一個欄位。
 
    ![](assets/schema_extension_18.png)
+
+   >[!NOTE]
+   >
+   >如果不選中此選項，則在列出此表中的所有圖元時，將使用自動主鍵（每次將圖元添加到表中時都會自動建立主鍵）。
 
 現在已定義資源的欄位。
 
@@ -84,7 +87,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    >[!NOTE]
    >
-   >建議最多使用30個字元。
+   >最多使用30個字元。
 
 1. 要定義構成此鍵的元素，請單 **[!UICONTROL Create element]** 擊並選擇為此資源建立的欄位。
 
@@ -93,6 +96,10 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
    建立的鍵將顯示在節 **[!UICONTROL Custom keys]** 中。
 
 現在會建立資源的識別碼。
+
+>[!NOTE]
+>
+>若要瞭解建立識別索引鍵時的最佳實務，請參閱本 [節](../../developing/using/data-model-best-practices.md#keys)。
 
 ## 定義索引 {#defining-indexes}
 
@@ -108,22 +115,26 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    >[!NOTE]
    >
-   >建議最多使用30個字元。
+   >最多使用30個字元。
 
 1. 要定義構成此索引的元素，請從為此資源建立的欄位中選擇欄位。
 
    ![](assets/schema_extension_27.png)
 
-1. Click **[!UICONTROL Confirm]**.
+1. 按一下 **[!UICONTROL Confirm]**.
 
 已建立的索引將顯示在部分中的列 **[!UICONTROL Index]** 表中。
+
+>[!NOTE]
+>
+>若要瞭解建立索引時的最佳實務，請參閱本 [節](../../developing/using/data-model-best-practices.md#indexes)。
 
 ## 定義與其他資源的連結 {#defining-links-with-other-resources}
 
 連結詳細說明了一個表與其他表的關聯。
 
 1. 使用按 **[!UICONTROL Create element]** 鈕可建立指向目標資源的連結。
-1. Click **[!UICONTROL Select a target resource]**.
+1. 按一下 **[!UICONTROL Select a target resource]**.
 
    ![](assets/schema_extension_28.png)
 
@@ -146,7 +157,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    >[!NOTE]
    >
-   >建議最多使用30個字元。
+   >最多使用30個字元。
 
    >[!CAUTION]
    >
@@ -168,6 +179,10 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 所建立的連結將顯示在部分中的列 **[!UICONTROL Links]** 表中。
 
+>[!NOTE]
+>
+>若要瞭解建立索引時的最佳實務，請參閱本 [節](../../developing/using/data-model-best-practices.md#links)。
+
 **範例：將建立的資源與「配置式」資源連結**
 
 在此範例中，我們想將新的資源「購買」與 **「設定檔** 」自訂資 **源連結** :
@@ -187,10 +202,10 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    展開該 **[!UICONTROL Detail screen configuration]** 部分並檢 **[!UICONTROL Define a detail screen]** 查以配置與資源的每個元素對應的螢幕。 如果不選中此框，則無法訪問此資源元素的詳細視圖。
 
-1. Click **[!UICONTROL Create element]**.
+1. 按一下 **[!UICONTROL Create element]**.
 1. 選擇連結的資源，然後按一下 **[!UICONTROL Add]**。
 
-   然後，您的新資源將可在進階功能表中透過選取 **[!UICONTROL Client data]** &gt;取得 **[!UICONTROL Purchase]**。
+   然後，您的新資源將可在進階功能表中透過選取 **[!UICONTROL Client data]** >取得 **[!UICONTROL Purchase]**。
 
    ![](assets/custom_resource_link_to_profile_4.png)
 
@@ -198,7 +213,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    您現在可以發佈新資源。
 
-透過新增此連結，「購 **買** 」標籤會從「 &gt;」選單新增至描述檔詳細 **[!UICONTROL Profiles & audiences]** 資料畫 **[!UICONTROL Profiles]** 面。 請注意，這是資源的特 **[!UICONTROL Profile]** 定。
+透過新增此連結，「購 **買** 」標籤會從「 >」選單新增至描述檔詳細 **[!UICONTROL Profiles & audiences]** 資料畫 **[!UICONTROL Profiles]** 面。 請注意，這是資源的特 **[!UICONTROL Profile]** 定。
 
 ![](assets/custom_resource_link_to_profile.png)
 
@@ -257,7 +272,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    >[!NOTE]
    >
-   >建議最多使用30個字元。
+   >最多使用30個字元。
 
 1. 如果您需要限制對特定組織單位的此資源訪問，請在此處指定這些單位。 只有授權單位的使用者才能在應用程式中使用此資源。
 1. 儲存修改。
@@ -275,6 +290,13 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 1. 為配置檔案資源建立擴展或建立新資源。
 1. 在資料結構定義中，選中 **[!UICONTROL Add automatic ID field]** 部分下的選 **[!UICONTROL Fields]** 項。
+
+   ![](assets/option_id_field.png)
+
+   >[!NOTE]
+   >
+   >只有新記錄有ACS ID。 在啟 **[!UICONTROL ACS ID]** 用此選項之前，對於已建立的配置檔案或元素，欄位將保持空。
+
 1. 儲存並發佈對資源所做的修改。 如果您想要此機制套用至透過API建立的元素，請勾選擴充API的選項。
 
 現在 **[!UICONTROL ACS ID]** 欄位可供使用，並在手動、從API或從匯入工作流程插入新元素時自動填入。 ACS ID欄位是UUID欄位，並且已編製索引。
@@ -287,5 +309,6 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 >[!NOTE]
 >
->在啟 **[!UICONTROL ACS ID]** 動選項之前，不會針對已建立的描述檔或元素更新欄位。 只有新記錄有ACS ID。 此欄位處於只讀模式。 您無法修改它。
-
+>在啟 **[!UICONTROL ACS ID]** 用選項之前，不會針對已建立的配置檔案或元素更新欄位。 只有新記錄有ACS ID。
+>
+>此欄位處於只讀模式。 您無法修改它。

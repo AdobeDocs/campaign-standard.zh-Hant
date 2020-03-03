@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: 09a41719e7c857c87607a29a08bc819752d88fd2
 
 ---
 
@@ -24,6 +24,18 @@ source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 本頁列出每個Adobe Campaign Standard版本的所有新功能和檔案更新。
 
 您也可以參閱Adobe Campaign發 [行說明](../../rn/using/release-notes.md)。
+
+## 檔案更新- 2020年3月 {#doc-updates-march-2020}
+
+「設定行動應用程式」檔案和相關頁面已更新，以反映SDK V4折舊。 [閱讀更多資訊](https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq)
+
+Adobe Campaign Standard / Adobe Experience manager整合檔案已更新和改進。 [閱讀更多資訊](../../integrating/using/configure-experience-manager.md)
+
+Campaign電子郵件設計人員檔案和相關頁面已更新，以反映Adobe Creative SDK折舊。 [閱讀更多資訊](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+
+現在提供Campaign Standard資料模型最佳實務的新區段。 [閱讀更多資訊](../../developing/using/data-model-best-practices.md)
+
+現成可用的 **[!UICONTROL Workflow]** 右側已新增資訊。 [閱讀更多資訊](../../administration/using/list-of-roles.md)
 
 ## 版本20.1 - 2019年2月 {#release-20-1---february-2020}
 
@@ -307,7 +319,7 @@ Dreamweaver整合區段已更新並改良。 [閱讀更多資訊](../../designin
 
 已新增有關如何連結自訂資源的資訊。 [閱讀更多資訊](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources)
 
-已新增一項技術，說明如何從Adobe Campaign standard推播通知顯示影像。 [閱讀更多資訊](https://helpx.adobe.com/content/help/en/campaign/kb/display-image-push.html)
+已新增有關如何顯示Adobe Campaign standard推播通知影像的技術。 [閱讀更多資訊](https://helpx.adobe.com/content/help/en/campaign/kb/display-image-push.html)
 
 已新增推播追蹤實作的新技術。 [閱讀更多資訊](https://helpx.adobe.com/content/help/en/campaign/kb/push-tracking.html)
 

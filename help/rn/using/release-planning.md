@@ -12,12 +12,12 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6ffbf03a7eb4fc1b5bfbd523c0c5342d41cfd211
+source-git-commit: 184a878f7be573a6b45a3a2853c07029432392f0
 
 ---
 
 
-# 促銷活動標準發行計畫 {#release-planning}
+# 發行計畫 {#release-planning}
 
 Adobe透過新增功能、增強功能和修正不斷改進其解決方案。
 
@@ -29,7 +29,7 @@ Adobe透過新增功能、增強功能和修正不斷改進其解決方案。
 
 請訂閱以接 [收發行通知](https://www.adobe.com/subscription/priority-product-update.html) ，直接在您的收件匣中取得有關最新Adobe Experience cloud發行的詳細資訊。
 
-## 版本20.1.3 - 2月發行更新 {#release-20-1-3---february-release-update}
+## 版本20.1.4 - 2月發行更新 {#release-20-1-4---february-release-update}
 
 環境更新會在以下指定時段內以波形進行。 有關此版本的詳細資訊，請參閱版 [本說明](../../rn/using/release-notes.md)。 如果您有任何其他問題，請聯絡 [Adobe Client Care](https://support.neolane.net/webApp/extranetLogin)。
 

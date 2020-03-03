@@ -21,6 +21,10 @@ source-git-commit: 14f764b92fef81c06551fb0f13b11b41e94095f0
 
 [發行計畫](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) |控 [制面板版本](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) |文 [件更新](../../rn/using/documentation-updates.md) |先 [前的發行說明](../../rn/using/release-notes-2019.md) |已過 [時的功能](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
+## 版本20.1.4 - 2020年2月 {#release-20-1-4---february-2020}
+
+* 修正在現有工作流程中開啟「 **讀取對象** 」活動的問題。 (CAMP-41002)
+
 ## 版本20.1.3 - 2020年2月 {#release-20-1-3---february-2020}
 
 * 修正CAMP-39273在20.1中針對使用漏洞的客戶所引入的回歸問題。 39273號營被歸還。

@@ -31,7 +31,7 @@ source-git-commit: 9efce905cd767013a22afb2a4d642e42b6616ef1
 
 登入您的Adobe Experience Manager製作例項，並瀏覽您的網站以存取包含您電子郵件內容的檔案夾。
 
->[!VIDEO](https://video.tv.adobe.com/v/29996)
+>[!VIDEO](https://images-tv.adobe.com/mpcv3/2674d459-d57b-413b-9d34-9fd941666023_1575035768.854x480at800_h264.mp4)
 
 ## Creating new email content in Adobe Experience Manager {#creating-email-content-aem}
 

@@ -60,7 +60,7 @@ source-git-commit: bd83bb520a9822ffa9669076f90e6dc3397c6480
 1. 在添加欄位後，選中該框 **[!UICONTROL Add audit fields]** 以包含詳細說明建立日期、建立資源的用戶、日期和上次修改的作者的欄位。
 1. 核取方 **[!UICONTROL Add access authorization management fields]** 塊以包含欄位，指出誰擁有該特定資源的存取權。
 
-   這些欄位會顯示在資料和中繼資料中，當進行資料庫更新後，這些欄位就會顯示出來。 有關詳細資訊，請參閱「更 [新資料庫結構](../../developing/using/updating-the-database-structure.md) 」部分。
+   這些欄位會顯示在資料和中繼資料中，當資料庫更新完成後，這些欄位就可顯示。 有關詳細資訊，請參閱「更 [新資料庫結構](../../developing/using/updating-the-database-structure.md) 」部分。
 
 1. 勾選欄 **[!UICONTROL Add automatic ID]** 位以自動產生ID。 請注意，現有實體將維持空白。 如需詳細資訊，請參閱「產生 [描述檔和自訂資源的唯一ID」](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)。
 1. 要修改資源元素名稱在清單和建立步驟中的顯示方式，請選中該 **[!UICONTROL Customize the title of the resource elements]** 框。 從為此資源建立的欄位中選擇一個欄位。

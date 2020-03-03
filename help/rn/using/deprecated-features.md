@@ -12,12 +12,12 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6ffbf03a7eb4fc1b5bfbd523c0c5342d41cfd211
+source-git-commit: 490908e5fe0810c0a07c73fef5040ddb42983019
 
 ---
 
 
-# 已過時和移除的促銷活動標準功能 {#deprecated-and-removed-features}
+# 被取代和已移除的功能 {#deprecated-and-removed-features}
 
 Adobe會持續評估產品功能，以找出應以更現代的替代方式來取代的舊功能，以提升整體客戶價值，並時時考慮回溯相容性。
 
@@ -34,69 +34,101 @@ Adobe會持續評估產品功能，以找出應以更現代的替代方式來取
 
 ## 不建議使用的功能 {#deprecated-features}
 
-本節列出最新Campaign Standard版本中已標示為已過時的功能。 通常，計畫在未來版本中移除的功能會先設為不建議使用，並提供其他選項。 這些新的Campaign standard客戶不再可使用這些功能，或不應用於任何新的實作。 也會從產品檔案中移除它們。
+本節列出最新Campaign Standard版本中已標示為已過時的功能。
+
+通常，計畫在未來版本中移除的功能會先設為不建議使用，並提供其他選項。 這些新的Campaign standard客戶不再可使用這些功能，或不應用於任何新的實作。 也會從產品檔案中移除它們。
 
 建議客戶在目前的部署中是否運用了功能／功能，並規劃變更實施以使用提供的替代方案。 請參閱目標刪除日期以規劃您的環境和項目更新。
 
 <table> 
  <thead> 
   <tr> 
-   <th> 發行<br /> </th> 
-   <th> 功能<br /> </th> 
-   <th> 取代<br /> </th> 
-    <th> 目標刪除日期<br /> </th>
+   <th> <strong>SDK v4的推播通知</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> 20.1<br /> </td> 
-   <td> Push Notifications<br /> </td> 
-    <td> Adobe <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">Experience Platform Mobile SDK</a> （先前稱為v5）將獨家支援即將推出的Adobe Experience cloud功能。 <br /> </td> 
-    <td> 2020年9月30日<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> 20.1<br /> </td> 
-   <td> Creative SDK for Campaign Standard<br /> </td> 
-  <td> Adobe Creative SDK已終止服務。 因此，Campaign standard電子郵件中採用Creative SDK架構的影像版本現在已經過時。<br /> </td>
-  <td> 2020年3月- Campaign 20.2發行<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> 19.4<br /> </td> 
-   <td> 隱私權要求——促銷活動API和介面<br /> </td>
-    <td> 不建議使用促銷活動API和介面來存取和刪除請求。 使用隱私權核心服務。 <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">進一步瞭解</a>。 另請參閱 <a href="https://helpx.adobe.com/campaign/kb/acs-privacy.html">Campaign Standard中的隱私權管理</a>。<br /> </td>
-    <td> 2020年7月- Campaign 20.5版本<br /> </td> 
-  </tr>
-  <tr> 
-   <td> 19.0<br /> </td> 
-   <td> 電子郵件設計——舊版電子郵件編輯器<br /> </td>
-    <td> 舊版電子郵件編輯器現已過時。 使用全新的電子郵件設計工具來建立並個人化您的電子郵件內容。 <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">進一步瞭解</a>。 閱讀本 <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">節</a> ，瞭解如何針對新編輯者調整您的電子郵件範本。<br /> </td>
-    <td> 2020年10月- Campaign 20.6發行<br /> </td> 
-  </tr>
-  <tr> 
-   <td> 18.7<br /> </td> 
-   <td> 用戶與安全性——地理單位<br /> </td>
-    <td> 「組織」和「地理」單位是Campaign中相同的結構。 使用者應單獨使用組織單位來建立其使用者權限／資料存取階層。 <a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html">進一步瞭解</a>。 請注意，新的「促銷活動標準」例項，以及未建立地理單位的現有例項，無法從18.7版開始實作此功能。<br /> </td>
-    <td> 不適用<br /> </td> 
+   <td> <p> 從20.1版開始，SDK v4已過時。 <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">進一步瞭解</a>。</p><br/>
+   <p>Adobe <a href="https://aep-sdks.gitbook.io/docs/">Experience Platform Mobile SDK</a> （先前稱為v5）將獨家支援即將推出的Adobe Experience cloud功能。</p></br>
+     <p>目標刪除日期：2020年9月30日</p>
+     </td> 
   </tr> 
  </tbody> 
 </table>
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> <strong>Creative SDK for Campaign Standard</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p>Adobe Creative SDK已終止服務。 因此，從20.1版開始，Campaign Standard電子郵件中採用Creative SDK的影像版本即不再提供。</p></br>
+  <p> 目標刪除日期：2020年3月- Campaign 20.2發行</p>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+<table> 
+ <thead> 
+  <tr> 
+   <th> <strong>隱私權要求——促銷活動API和介面</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p>在啟動Campaign 19.4發行時，已不再使用Campaign API和介面來存取和刪除請求。 使用 <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe隱私權核心服務</a>。</p></br>
+   <p>另請參閱 <a href="https://helpx.adobe.com/campaign/kb/acs-privacy.html">Campaign Standard中的隱私權管理</a>。</p>
+  <p> 目標刪除日期：2020年7月- Campaign 20.5版本</p>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> <strong>電子郵件設計——舊版電子郵件編輯器</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p>在啟動Campaign 19.0版本時，舊版電子郵件編輯器已過時。 使用 <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">全新的電子郵件設計工具</a> ，建立並個人化您的電子郵件內容。 </p></br>
+   <p>閱讀本 <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">節</a> ，瞭解如何針對新編輯者調整您的電子郵件範本。</p></br>
+  <p> 目標刪除日期：2020年10月- Campaign 20.6發行</p>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> <strong>用戶與安全性——地理單位</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p>從18.7版開始，「地理單位」已過時。 「組織」和「地理」單位是Campaign中相同的結構。 使用者應單獨使用組織單位來建立其使用者權限／資料存取階層。 <a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html">進一步瞭解</a>。 請注意，新的「促銷活動標準」例項，以及未建立地理單位的現有例項，無法從18.7版開始實作此功能。</p>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
 
 ## 相容性終止 {#end-of-compatibility}
 
 <table> 
  <thead> 
   <tr> 
-   <th> 發行<br /> </th> 
-   <th> 功能<br /> </th> 
-   <th> 取代<br /> </th> 
- </tr> 
+   <th> <strong>Microsoft Internet Explorer 11</strong><br /> </th> 
+  </tr> 
  </thead> 
- <tbody>
-<tr> 
-   <td> 19.2<br /> </td> 
-   <td> 隱私權要求——促銷活動API和介面<br /> </td>
-    <td> Adobe Campaign和Adobe Experience cloud已從2019年春季起停止支援Microsoft Internet Explorer 11和Campaign 19.2版本。 請切換至Microsoft edge或其他支援的瀏覽器。  <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/getting-started/discovering-the-interface/compatible-browsers.html">進一步瞭解</a>。<br /> </td>
-    <td><br /> </td> 
-  </tr>
-  </tbody> 
+ <tbody> 
+  <tr> 
+   <td> <p>Adobe Campaign和Adobe Experience cloud已從2019年春季起停止支援Microsoft Internet Explorer 11和Campaign 19.2版本。 請切換至Microsoft edge或其他支援的瀏覽器。 <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/getting-started/discovering-the-interface/compatible-browsers.html">進一步瞭解</a>。</p>
+   </td> 
+  </tr> 
+ </tbody> 
 </table>

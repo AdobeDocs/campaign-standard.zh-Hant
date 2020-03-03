@@ -19,7 +19,7 @@ source-git-commit: 37b1c17234a300b092db3c810a32de3600bb8f2f
 
 # 設定Campaign-Experience manager整合 {#configuration-aem}
 
-Adobe Campaign standard與Adobe Experience manager的整合可讓您在Adobe Campaign電子郵件中使用在Adobe Experience manager中建立的內容。
+Adobe Campaign standard與Adobe Experience manager之間的整合可讓您在Adobe Campaign電子郵件中使用Adobe Experience Manager中建立的內容。
 
 透過此使用案例，您將學習如何在Adobe Experience Manager中建立和管理電子郵件內容，然後將這些內容匯入Adobe Campaign Standard，以用於您的行銷宣傳。
 

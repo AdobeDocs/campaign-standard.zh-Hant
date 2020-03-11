@@ -1,6 +1,6 @@
 ---
 title: 促銷活動標準發行計畫
-description: 本頁列出Adobe Campaign standard即將發行的版本。
+description: 本頁列出Adobe Campaign Standard即將發行的版本。
 page-status-flag: never-activated
 uuid: null
 contentOwner: sauviat
@@ -12,7 +12,7 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 184a878f7be573a6b45a3a2853c07029432392f0
+source-git-commit: 8e614bb3e3e559a02ee5e94d9dc21e85d1b4dbd2
 
 ---
 
@@ -21,15 +21,15 @@ source-git-commit: 184a878f7be573a6b45a3a2853c07029432392f0
 
 Adobe透過新增功能、增強功能和修正不斷改進其解決方案。
 
-所有Adobe Campaign standard例項都會隨著每個新版本升級。 升級不需要任何動作。
+所有Adobe Campaign Standard例項都會隨著每個新版本升級。 升級不需要任何動作。
 
 升級分兩個階段部署。 首先，Stage實例已升級，可讓我們的客戶測試新功能並視需要調整其配置。 隨後將升級生產實例。
 
 所有發行日期皆可能變更：我們建議您定期造訪本頁面，以檢查更新。
 
-請訂閱以接 [收發行通知](https://www.adobe.com/subscription/priority-product-update.html) ，直接在您的收件匣中取得有關最新Adobe Experience cloud發行的詳細資訊。
+請訂閱以接 [收發行通知](https://www.adobe.com/subscription/priority-product-update.html) ，直接在您的收件匣中取得有關最新Adobe Experience Cloud發行的詳細資訊。
 
-## 版本20.1.4 - 2月發行更新 {#release-20-1-4---february-release-update}
+## 版本20.2.1 - 4月發行 {#release-20-2-april-release}
 
 環境更新會在以下指定時段內以波形進行。 有關此版本的詳細資訊，請參閱版 [本說明](../../rn/using/release-notes.md)。 如果您有任何其他問題，請聯絡 [Adobe Client Care](https://support.neolane.net/webApp/extranetLogin)。
 
@@ -43,11 +43,11 @@ Adobe透過新增功能、增強功能和修正不斷改進其解決方案。
  <tbody> 
   <tr> 
    <td> Stage<br /> </td> 
-   <td> 2020年2月17日至18日<br /> </td> 
+   <td> 2020年3月23日至24日<br /> </td> 
   </tr> 
   <tr> 
    <td> 製作<br /> </td> 
-   <td> 2020年2月20日至3月5日<br /> </td> 
+   <td> 2020年3月31日至4月6日<br /> </td> 
   </tr> 
  </tbody> 
 </table>

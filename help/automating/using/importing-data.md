@@ -12,7 +12,7 @@ discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4ca603abd9b4ef1a9272a89acb62dee545b76114
+source-git-commit: b71d19672efe24040d676bbcff3f90177b3fbcae
 
 ---
 
@@ -131,7 +131,7 @@ Durance;Allison;15/12/1978;allison.durance@example.com;120987
 * [載入檔案](../../automating/using/load-file.md)
 * [擷取檔案](../../automating/using/extract-file.md)
 
-## 建立工作流範本以匯入資料 {#example--import-workflow-template}
+## 建立工作流程範本以匯入資料 {#example--import-workflow-template}
 
 如果您需要定期匯入具有相同結構的檔案，請使用匯入範本是最佳做法。
 
@@ -206,7 +206,7 @@ Durance;Allison;15/12/1978;allison.durance@example.com;120987
 
       >[!NOTE]
       >
-      >如果您打算將直效郵件傳送給這些個人檔案，請務必包含郵遞區號，因為這項資訊對於直效郵件提供者而言十分重要。 同時，請確定已勾 **[!UICONTROL Address specified]** 選設定檔資訊中的方塊。 若要從工作流程更新此選項，只需將元素新增至要更新的欄位，然後將 **1****[!UICONTROL Source]** 指定為，並 `postalAddress/@addrDefined` 選取欄位 **[!UICONTROL Destination]**。 有關直效郵件和使用選項的詳細 **[!UICONTROL Address specified]** 資訊，請參 [閱此文檔](../../channels/using/about-direct-mail.md#recommendations)。
+      >如果您打算將直效郵件傳送給這些個人檔案，請務必包含郵遞區號，因為這項資訊對於直效郵件提供者而言十分重要。 同時，請確定已勾 **[!UICONTROL Address specified]** 選設定檔資訊中的方塊。 若要從工作流程更新此選項，只需將元素新增至要更新的欄位，然後將 **1****[!UICONTROL Source]** 指定為，並選取 **postalAddress/@addrDefined** field as **[!UICONTROL Destination]**。 有關直效郵件和使用選項的詳細 **[!UICONTROL Address specified]** 資訊，請參 [閱此文檔](../../channels/using/about-direct-mail.md#recommendations)。
 
 1. 設定轉換 **[!UICONTROL Deduplication]** 後包含未協調描述檔的活動：
 

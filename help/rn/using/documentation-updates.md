@@ -1,6 +1,6 @@
 ---
 title: 文檔更新
-description: 瞭解Adobe Campaign standard檔案的所有最新更新。
+description: 瞭解Adobe Campaign Standard檔案的所有最新更新。
 page-status-flag: never-activated
 uuid: 3bdc7d11-8421-4110-a5ba-7b1376a03dda
 contentOwner: sauviat
@@ -12,14 +12,14 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 09a41719e7c857c87607a29a08bc819752d88fd2
+source-git-commit: f49668c8ad878764b2a15c53efdcab797dd91724
 
 ---
 
 
 # 文檔更新{#documentation-updates}
 
-瞭解Adobe Campaign standard檔案的所有最新更新。
+瞭解Adobe Campaign Standard檔案的所有最新更新。
 
 本頁列出每個Adobe Campaign Standard版本的所有新功能和檔案更新。
 
@@ -27,15 +27,21 @@ source-git-commit: 09a41719e7c857c87607a29a08bc819752d88fd2
 
 ## 檔案更新- 2020年3月 {#doc-updates-march-2020}
 
+核心檔案中已新增有關增強型MTA的詳細資訊，尤其是有關電子郵件處理規則和彈回郵件資格的詳細 [資訊](../../administration/using/configuring-email-channel.md#email-processing-rules)
+
+已移動並更新專用於使用電子郵件密件副本進行存檔的部分。 [閱讀更多資訊](../../sending/using/archiving.md)
+
 「設定行動應用程式」檔案和相關頁面已更新，以反映SDK V4折舊。 [閱讀更多資訊](https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq)
 
-Adobe Campaign Standard / Adobe Experience manager整合檔案已更新和改進。 [閱讀更多資訊](../../integrating/using/configure-experience-manager.md)
+Adobe Campaign Standard / Adobe Experience Manager整合檔案已更新和改進。 [閱讀更多資訊](../../integrating/using/configure-experience-manager.md)
 
 Campaign電子郵件設計人員檔案和相關頁面已更新，以反映Adobe Creative SDK折舊。 [閱讀更多資訊](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
 現在提供Campaign Standard資料模型最佳實務的新區段。 [閱讀更多資訊](../../developing/using/data-model-best-practices.md)
 
 現成可用的 **[!UICONTROL Workflow]** 右側已新增資訊。 [閱讀更多資訊](../../administration/using/list-of-roles.md)
+
+已在工作流程屬性中 **[!UICONTROL History in days field]** 的可用資訊中新增。 [閱讀更多資訊](../../automating/using/executing-a-workflow.md)
 
 ## 版本20.1 - 2019年2月 {#release-20-1---february-2020}
 
@@ -73,9 +79,9 @@ Deliverability檔案已更新為IP認證的新章節。 [閱讀更多資訊](../
 
 「動態」報表的「指標」計算區段已更新。 [閱讀更多資訊](../../reporting/using/indicator-calculation.md)
 
-已新增有關Adobe Campaign standard中行動傳送之一般方針的新頁面。 [閱讀更多資訊](https://helpx.adobe.com/campaign/kb/acs-mobile.html)
+已新增有關Adobe Campaign Standard中行動傳送之一般方針的新頁面。 [閱讀更多資訊](https://helpx.adobe.com/campaign/kb/acs-mobile.html)
 
-「使用促銷活動」和「Experience Manager」檔案已更新，其中包含如何使用Campaign **-Experience manager整合的新秘訣**。 [閱讀更多資訊](../../integrating/using/integrating-with-experience-manager.md#tips-aem)
+「使用促銷活動」和「Experience Manager」檔案已更新，其中包含如何使用Campaign **-Experience Manager整合的新秘訣**。 [閱讀更多資訊](../../integrating/using/integrating-with-experience-manager.md#tips-aem)
 
 API檔案首頁已經過改良，並重新導向不同的主題。 [閱讀更多資訊](../../api/using/about-campaign-standard-apis.md)
 
@@ -99,13 +105,13 @@ Deliverability快速入門手冊已整合至核心檔案並更新。 [閱讀更�
 
 指標 **計算表** 已更新。 [閱讀更多資訊](../../reporting/using/indicator-calculation.md)
 
-API檔案集已整合至Campaign standard檔案。[閱讀更多資訊](../../api/using/about-campaign-standard-apis.md)
+API檔案集已整合至Campaign Standard檔案。[閱讀更多資訊](../../api/using/about-campaign-standard-apis.md)
 
 「建立個人化電子郵件快速入門」指南已移動並更新。 [閱讀更多資訊](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
 
 已更新「傳送最佳實務」快速入門手冊。 [閱讀更多資訊](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 
-資料模型已整合至Campaign standard檔案。 [閱讀更多資訊](../../developing/using/datamodel-audience.md)
+資料模型已整合至Campaign Standard檔案。 [閱讀更多資訊](../../developing/using/datamodel-audience.md)
 
 新的API端點 **/customResources** 已新增至API檔案。[閱讀更多資訊](../../api/using/interacting-with-custom-resources.md)
 
@@ -127,7 +133,7 @@ GDPR快速入門手冊已經過改進並充實。 它現在是包含GDPR和CCPA�
 
 「傳送最佳實務」快速入門手冊已移動並更新。 [閱讀更多資訊](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 
-已新增新區段。 它提供可讓您豐富Campaign standard資料庫的不同方法的概觀。 [閱讀更多資訊](../../start/using/enriching-campaign-database.md)
+已新增新區段。 它提供可讓您豐富Campaign Standard資料庫的不同方法的概觀。 [閱讀更多資訊](../../start/using/enriching-campaign-database.md)
 
 已新增一個章節，說明如何使用電子郵件設計工具來設定連結的樣式。 [閱讀更多資訊](../../designing/using/styles.md#about-styling-links)
 
@@ -185,7 +191,7 @@ GDPR快速入門手冊已經過改進並充實。 它現在是包含GDPR和CCPA�
 
 已新增有關如何使用已在工作流程外部訊號活動中宣告的事件變數個人化傳送標籤的資訊。 [閱讀更多資訊](../../automating/using/external-signal.md)
 
-已新增新區段，詳述如何在Adobe Campaign standard中建立使用者。 [閱讀更多資訊](../../administration/using/users-management.md)
+已新增新區段，詳述如何在Adobe Campaign Standard中建立使用者。 [閱讀更多資訊](../../administration/using/users-management.md)
 
 現在提供新文章及簡化行銷宣傳的秘訣，包括產品檔案和教學課程影片的連結。[閱讀更多資訊](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html)
 
@@ -239,7 +245,7 @@ GDPR快速入門手冊已經過改進並充實。 它現在是包含GDPR和CCPA�
 
 直接從Adobe Campaign取得的上下文說明連結已更新。
 
-以下頁 [面成為](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) Adobe Campaign standard的官方「視訊」頁面。
+以下頁 [面成為](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) Adobe Campaign Standard的官方「視訊」頁面。
 
 已新增資料保留的區段，包括標準表格的預設保留值。 [閱讀更多資訊](../../administration/using/data-retention.md)
 
@@ -319,7 +325,7 @@ Dreamweaver整合區段已更新並改良。 [閱讀更多資訊](../../designin
 
 已新增有關如何連結自訂資源的資訊。 [閱讀更多資訊](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources)
 
-已新增有關如何顯示Adobe Campaign standard推播通知影像的技術。 [閱讀更多資訊](https://helpx.adobe.com/content/help/en/campaign/kb/display-image-push.html)
+已新增一項技術，說明如何從Adobe Campaign Standard推播通知顯示影像。 [閱讀更多資訊](https://helpx.adobe.com/content/help/en/campaign/kb/display-image-push.html)
 
 已新增推播追蹤實作的新技術。 [閱讀更多資訊](https://helpx.adobe.com/content/help/en/campaign/kb/push-tracking.html)
 
@@ -421,7 +427,7 @@ Adobe Launch整合行動應用程式（測試版）-閱 [讀更多](../../admini
 
 已新增多語言範本預設語言的相關資訊。 [閱讀更多資訊](../../channels/using/multilingual-messages-template.md)
 
-已更新「使用者與安全性」指南，以反映新「促銷活動標準」例項的地理單位功能折舊，以及從18.7版開始未建立地理單位的現有例項。 [閱讀更多資訊](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+已更新「使用者與安全性」指南，以反映新「促銷活動標準」例項的地理單位功能折舊，以及未建立地理單位的現有例項（從18.7版開始）。 [閱讀更多資訊](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
 ## 發行版本18.6 - 2018年6月 {#release-18-6---june-2018}
 
@@ -579,7 +585,7 @@ API Signal活動觸發——詳 [細資訊](../../api/using/triggering-a-signal-
 
 已新增有關「傳輸檔案」活動之「歷史化」設定的資訊。 [閱讀更多資訊](../../automating/using/transfer-file.md)
 
-設定與Audience manager或People核心服務整合的指示已更新。 [閱讀更多資訊](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+設定與Audience Manager或People核心服務整合的指示已更新。 [閱讀更多資訊](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 ## 發行版本17.10 - 2017年10月 {#release-17-10---october-2017}
 
@@ -607,11 +613,11 @@ API Signal活動觸發——詳 [細資訊](../../api/using/triggering-a-signal-
 
 「自訂資源」區段已用更詳細的程式加以釐清，說明如何定義 [篩選器](../../developing/using/configuring-filter-definition.md)。
 
-更新並釐清 [如何整合](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html) Adobe Marketing Cloud Mobile SDK與行動應用程式以接收Adobe Campaign standard推播通知的技術。
+更新並釐清 [如何整合](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html) Adobe Marketing Cloud Mobile SDK與行動應用程式以接收Adobe Campaign Standard推播通知的技術。
 
 已新增技術，說明行動應用程式中接收的裝載結構。 [閱讀更多資訊。](https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html)
 
-在Adobe Mobile services介面 [中定義回傳時](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) ,「推播頻道」設定區段已更新為作業系統版本上的新裝載資料。
+在Adobe Mobile Services介面 [中定義回傳時](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) ,「推播頻道」設定區段已更新為作業系統版本上的新裝載資料。
 
 SMS檔案已更新，SMS自動回覆區段已新增 [一些說明](../../channels/using/managing-incoming-sms.md#managing-stop-sms) 。
 
@@ -709,7 +715,7 @@ Adobe Campaign通知——閱 [讀更多](../../administration/using/sending-int
 
 現在有了新的技術：「整合Adobe Mobile SDK與您的行動應用程式」。 [閱讀更多資訊](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html)
 
-設定People核心服務或Audience manager與Adobe Campaign整合的指示已更新。 [閱讀更多資訊](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+設定People核心服務或Audience Manager與Adobe Campaign整合的指示已更新。 [閱讀更多資訊](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 修改授權表，使某些角色的功能更清晰。 [閱讀更多資訊](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
 
@@ -737,7 +743,7 @@ Dreamweaver整合即時——閱 [讀更多](https://docs.adobe.com/content/help
 
 現在動態報表可使用報表指標計算，包括完整說明和計算公式。 [閱讀更多資訊](../../reporting/using/indicator-calculation.md)
 
-關於Adobe Mobile services設定的新專屬章節，以在Adobe Campaign中使用推播通知和地標資料。 [閱讀更多資訊](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
+關於Adobe Mobile Services設定的新專屬章節，以在Adobe Campaign中使用推播通知和地標資料。 [閱讀更多資訊](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
 
 已更新行動應用程式設定和實作區段，包括設定和傳送推播通知的更詳細步驟。 [閱讀更多資訊](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
 

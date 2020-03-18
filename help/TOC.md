@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 941ecc3acf1478dfea25f0e85059a3421888ae29
+source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
 
 ---
 
@@ -152,6 +152,7 @@ source-git-commit: 941ecc3acf1478dfea25f0e85059a3421888ae29
    + 傳送和追蹤訊息 {#sending-and-tracking-messages}
       + [確認傳送](sending/using/confirming-the-send.md)
       + [追蹤訊息](sending/using/tracking-messages.md)
+      + [使用電子郵件密件副本進行歸檔](sending/using/archiving.md)
    + 監控訊息 {#monitoring-messages}
       + [監控傳送](sending/using/monitoring-a-delivery.md)
       + [發生故障時接收警報](sending/using/receiving-alerts-when-failures-happen.md)
@@ -200,7 +201,7 @@ source-git-commit: 941ecc3acf1478dfea25f0e85059a3421888ae29
    + [關於 Campaign 整合](integrating/using/about-campaign-integrations.md)
    + 協作使用 Campaign 與 Experience Manager {#working-with-campaign-and-experience-manager}
       + [關於 Campaign-Experience Manager 整合](integrating/using/integrating-with-experience-manager.md)
-      + [設定Campaign-Experience manager整合](integrating/using/configure-experience-manager.md)
+      + [設定Campaign-Experience Manager整合](integrating/using/configure-experience-manager.md)
       + [在 Adobe Experience Manager 中建立電子郵件內容](integrating/using/creating-email-experience-manager.md)
       + [在 Experience Manager 中建立 Campaign 表單](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
    + 協作使用 Campaign 與 Target {#working-with-campaign-and-target}

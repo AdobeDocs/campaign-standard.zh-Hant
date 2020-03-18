@@ -1,6 +1,6 @@
 ---
-title: 在Adobe Campaign standard中設定電子郵件通道
-description: 瞭解如何在Adobe Campaign standard中設定電子郵件通道。
+title: 在Adobe Campaign Standard中設定電子郵件通道
+description: 瞭解如何在Adobe Campaign Standard中設定電子郵件渠道。
 page-status-flag: never-activated
 uuid: 9fddb655-b445-41f3-9b02-5d356fc88aa1
 contentOwner: sauviat
@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9163a375a4d2345e94a62e38475cb90bd203ce48
+source-git-commit: 04709dd9a754ea616f3e695ada072137b9ecce6a
 
 ---
 
@@ -78,84 +78,86 @@ source-git-commit: 9163a375a4d2345e94a62e38475cb90bd203ce48
 
 ### 彈回郵件 {#bounce-mails}
 
-當電子郵件失敗時，遠端訊息伺服器會將彈回錯誤訊息傳回至應用程式設定中指定的位址。
+對於同步傳送失敗錯誤訊息，「增強的MTA」會決定反彈類型和資格，並將該資訊傳回至「促銷活動」。 如需Adobe Campaign增強型MTA的詳細資訊，請參閱本文 [件](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)。
 
-Adobe Campaign會將每個彈回郵件的內容與規則清單中的字串進行比較，然後指派其中一種錯誤類型。
-
->[!IMPORTANT]
->
->升級至「增強的MTA」後，「促銷活動」表格中的彈 **[!UICONTROL Message qualification]** 回資格便不再使用。 對於同步傳送失敗錯誤訊息，「增強的MTA」會決定反彈類型和資格，並將該資訊傳回至「促銷活動」。 inMail程式仍會限制非同步彈回。
->
->如需Adobe Campaign增強型MTA的詳細資訊，請參閱本文 [件](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)。
-
-使用者可建立自己的規則。
+非同步彈回數仍由Campaign inMail程式透過規則來 **[!UICONTROL Bounce mails]** 限定。
 
 >[!IMPORTANT]
 >
->當匯入套件時，以及透過「更新以進行傳遞性 **」工作流程更新資料時** ，會覆寫使用者建立的規則。
+>升級至「增強的MTA」後，「促銷活動」表格中的彈 **[!UICONTROL Message qualification]** 回資格便不再使用。 有關彈回郵件資格的詳細資訊，請參 [閱本節](../../sending/using/understanding-delivery-failures.md)。
+
+<!--The user can create his own rules.
+
+>[!IMPORTANT]
+>
+>When importing a package and when updating data via the **Update for deliverability** workflow, the user-created rules are overwritten.-->
 
 ### 管理電子郵件網域 {#managing-email-domains}
 
-網域管理規則用於規範特定網域的傳出電子郵件流程。 他們會取樣彈回訊息，並在適當時封鎖傳送。
+<!--The Adobe Campaign messaging server applies rules specific to the domains, and then the rules for the general case represented by an asterisk in the list of rules.
 
-Adobe Campaign傳訊伺服器會套用網域的特定規則，然後套用規則清單中星號所代表之一般案例規則。
+The **SMTP parameters** act as filters applied for a blocking rule.
+
+* You can choose whether or not to activate certain identification standards and encryption keys to check the domain name, such as **Sender ID**, **DomainKeys**, **DKIM**, and **S/MIME**.
+* **SMTP relay**: lets you configure the IP address and the port of a relay server for a particular domain.-->
 
 >[!IMPORTANT]
 >
->升級至增強型MTA後，DKIM(DomainKeys Indified Mail)電子郵件驗證簽署就由增強型MTA完成。 在「增強的MTA」升級中，將關閉原生「促銷活動MTA」的DKIM **[!UICONTROL Domain management]** 簽署功能。
->
->如需Adobe Campaign增強型MTA的詳細資訊，請參閱本文 [件](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)。
+>升級至「增強MTA」後，就不再使 **[!UICONTROL Domain management]** 用Adobe Campaign規則。
 
-要配置域管理規則，只需設定閾值並選擇某些SMTP參數。 閾 **值** (Threshold)是計算為錯誤百分比的限制，超過該百分比後，所有針對特定域的消息都將被阻止。
+**DKIM(DomainKeys Indified Mail)** ，電子郵件驗證簽署由「增強的MTA」針對所有網域的所有訊息完成。 除非在增強的MTA層級 **指定，否則不會使用傳送者ID**、 **DomainKeys****DKIM**&#x200B;或 **** S/MIME簽署。
 
-SMTP參 **數用作** （應用於阻止規則）的篩選器。
-
-* 您可以選擇是否激活某些標準和加密密鑰來檢查域名，如 **Sender ID**、 **DomainKeys**、 **DKIM**&#x200B;和 **** S/MIME Juckint。
-* **SMTP中繼**:用於為特定域配置中繼伺服器的IP地址和埠。
+如需Adobe Campaign增強型MTA的詳細資訊，請參閱本文 [件](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)。
 
 ### MX管理 {#mx-management}
 
-每個規則都會定義MX的位址遮色片。 因此，任何名稱符合此遮色片名稱的MX都符合資格。 遮色片可包含&quot;*&quot;和&quot;?&quot; 一般字元。
+<!--The MX management rules are used to regulate the flow of outgoing emails for a specific domain. They sample the bounce messages and block sending where appropriate.
 
-例如，以下地址：
+The Adobe Campaign messaging server applies rules specific to the domains, and then the rules for the general case represented by an asterisk in the list of rules.
 
-* a.mx.yahoo.com
-* b.mx.yahoo.com
+To configure MX management rules, simply set a threshold and select certain SMTP parameters. A **threshold** is a limit calculated as an error percentage beyond which all messages towards a specific domain are blocked.-->
+
+>[!IMPORTANT]
+>
+>升級至「增強MTA」後，就不再使用Adobe Campaign **[!UICONTROL MX management]** 傳送總處理能力規則。
+
+增強型MTA使用其專屬的MX規則，可讓您根據您過去的電子郵件信譽，以及您傳送電子郵件的網域所提供的即時回應，依網域自訂您的吞吐量。
+
+如需Adobe Campaign增強型MTA的詳細資訊，請參閱本文 [件](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)。
+
+<!--Each rule defines an address mask for the MX. Any MX whose name matches this mask is therefore eligible. The mask can contain "&#42;" and "?" generic characters.
+
+For example, the following addresses:
+
+* a.mx.yahoo.com 
+* b.mx.yahoo.com 
 * c.mx.yahoo.com
 
-與下列遮色片相容：
+are compatible with the following masks:
 
-* *.yahoo.com
+* &#42;.yahoo.com
 * ?.mx.yahoo.com
 
-這些規則依序套用：套用其MX遮色片與目標MX相容的第一個規則。
+These rules are applied in sequence: the first rule whose MX mask is compatible with the targeted MX is applied.
+
+The following parameters are available for each rule:
+
+* **[!UICONTROL Range of IDs]**: this option lets you indicate the ranges of identifiers (publicId) for which the rule applies. You can specify:
+
+    * A number: the rule will only apply to this publicId.
+    * A range of numbers (number1-number2): the rule will apply to all publicIds between these two numbers.
+
+  If the field is empty, the rule applies to all IDs.
+
+* **[!UICONTROL Shared]**: this option indicates that the highest number of messages per hour and of connections applies to all MXs linked to this rule. 
+* **[!UICONTROL Maximum number of connections]**: maximum number of simultaneous connections to an MX from a given address. 
+* **Maximum number of messages**: maximum number of messages that can be sent by one connection. After this amount, the connection is closed and a new one is reopened. 
+* **[!UICONTROL Messages per hour]**: maximum number of messages that can be sent in one hour for an MX via a given address.
 
 >[!IMPORTANT]
 >
->升級至「增強MTA」後，就不再使用Adobe Campaign **MX管理** -傳送總處理能力規則。 增強型MTA使用其專屬的MX規則，可讓您根據您過去的電子郵件信譽，以及您傳送電子郵件的網域所提供的即時回應，依網域自訂您的吞吐量。
->
->如需Adobe Campaign增強型MTA的詳細資訊，請參閱本文 [件](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)。
-
-每個規則可使用下列參數：
-
-* **[!UICONTROL Range of IDs]**:此選項可讓您指出套用規則的識別碼範圍(publicId)。 您可以指定：
-
-   * 數字：該規則僅適用於此publicId。
-   * 數字範圍（數字1-數字2）:該規則將適用於這兩個數字之間的所有publicId。
-   如果欄位為空，則規則會套用至所有ID。
-
-* **[!UICONTROL Shared]**:此選項表示每小時和連線的最多訊息數量適用於所有連結至此規則的MX。
-* **[!UICONTROL Maximum number of connections]**:從指定位址同時連線至MX的最大數目。
-* **最大消息數**:一個連接可發送的最大消息數。 在此數量後，將關閉連接並重新開啟新連接。
-* **[!UICONTROL Messages per hour]**:MX可透過指定位址在一小時內傳送的訊息數上限。
-
->[!IMPORTANT]
->
->* 如果參數已變更，則必須重新啟動傳送伺服器(MTA)。
->* 管理規則的修改或建立僅限專業使用者。
->
-
-
+>* The delivery server (MTA) must be restarted if the parameters have been changed. 
+>* The modification or creation of management rules is for expert users only. -->
 
 ## 電子郵件屬性清單 {#list-of-email-properties}
 
@@ -258,7 +260,7 @@ SMTP參 **數用作** （應用於阻止規則）的篩選器。
 
 >[!NOTE]
 >
->參數 **[!UICONTROL Delivery duration]** 不適用於事務性消息。 有關交易式訊息的詳細資訊，請 [參閱本節](../../channels/using/about-transactional-messaging.md)。
+>參數 **[!UICONTROL Delivery duration]** 不適用於事務性消息。 有關交易式訊息的詳細資訊，請參 [閱本節](../../channels/using/about-transactional-messaging.md)。
 
 ### 追蹤參數 {#tracking-parameters}
 
@@ -331,37 +333,3 @@ SMTP參 **數用作** （應用於阻止規則）的篩選器。
    >您可以透過「管理>使用者與 **安全性** 」功 **能表來設定組織單位** 。
 
 * 自 **[!UICONTROL Created by]**&#x200B;動完 **[!UICONTROL Created]**&#x200B;成、 **[!UICONTROL Modified by]** 和 **[!UICONTROL Last modified]** 欄位。
-
-## 封存電子郵件 {#archiving-emails}
-
-您可以設定Adobe Campaign，以保留從您的平台傳送的電子郵件副本。
-
-但是，Adobe Campaign本身並不管理已封存的檔案。 它確實可讓您將您選擇的訊息傳送至專用位址，以便使用外部系統處理及封存。
-
-在傳送範本中啟動時，此功能可讓您傳送對應已傳送訊息的精確副本至您必須指定的密件副本電子郵件地址（傳送收件者不可見）。
-
-### 建議與限制 {#recommendations-and-limitations}
-
-* 此功能為選擇性。 請檢查您的授權合約，並聯絡您的帳戶管理員以啟用它。
-* 您選擇的密件副本位址必須提供給將為您設定的Adobe團隊。
-* 您只能使用一個密件副本電子郵件地址。
-* 只會將成功傳送的電子郵件納入考量。 彈回數不是。
-* 出於隱私原因，密件副本電子郵件必須由能夠安全地儲存個人識別資訊(PII)的歸檔系統處理。
-* 建立新的傳送範本時，即使已購買選項，依預設不會啟用電子郵件密件副本。 您必須在每個要使用的傳送範本中手動啟用它。
-
-### 啟動電子郵件封存 {#activating-email-archiving}
-
-電子郵件密件副本會透過專 [屬選項](../../start/using/marketing-activity-templates.md)，在電子郵件範本中啟動：
-
-1. 前往「 **資源** >范 **本** > **傳送範本**」。
-1. 複製現成可用的范 **[!UICONTROL Send via email]** 本。
-1. 選擇複製的模板。
-1. 按一下 **[!UICONTROL Edit properties]** 按鈕以編輯範本的屬性。
-1. 展開該 **[!UICONTROL Send]** 部分。
-1. 核取方 **[!UICONTROL Archive emails]** 塊，以根據此範本保留每個傳送之所有已傳送訊息的副本。
-
-   ![](assets/email_archiving.png)
-
->[!NOTE]
->
->如果開啟並點進傳送至密件副本位址的電子郵件，則會在傳送分析中考慮 **[!UICONTROL Total opens]** 這 **[!UICONTROL Clicks]** 一點，這可能會造成一些誤算。

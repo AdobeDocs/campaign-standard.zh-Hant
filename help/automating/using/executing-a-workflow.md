@@ -13,7 +13,7 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e8302a8d3ba914781bd332bc318b65d88afc6d94
+source-git-commit: b71d19672efe24040d676bbcff3f90177b3fbcae
 
 ---
 
@@ -209,9 +209,9 @@ source-git-commit: e8302a8d3ba914781bd332bc318b65d88afc6d94
 
 * **[!UICONTROL Save SQL queries in the log]**:允許您將工作流中的SQL查詢保存到日誌中。
 
-* ***[!UICONTROL Keep interim results]**:如果您想要檢視轉場的詳細資訊，請勾選此選項。 警告：勾選此選項可能會大幅減緩工作流程的執行速度。
+* **[!UICONTROL Keep interim results]**:如果您想要檢視轉場的詳細資訊，請勾選此選項。 警告：勾選此選項可能會大幅減緩工作流程的執行速度。
 
-* **[!UICONTROL Execute in the engine (do not use in production)]**:允許您在本地執行工作流，以便用於開發環境測試。
+* **[!UICONTROL Execute in the engine (do not use in production)]**:可讓您在本端執行工作流程，以用於開發環境測試。
 
 * **[!UICONTROL Severity]**:可讓您指定在Adobe Campaign例項中執行工作流程的優先順序層級。 重要的工作流程會先執行。
 

@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f49668c8ad878764b2a15c53efdcab797dd91724
+source-git-commit: ffe6b34ec8d7a31ffcce1e725364a6ecf00f70a8
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: f49668c8ad878764b2a15c53efdcab797dd91724
 
 ## 檔案更新- 2020年3月 {#doc-updates-march-2020}
 
-核心檔案中已新增有關增強型MTA的詳細資訊，尤其是有關電子郵件處理規則和彈回郵件資格的詳細 [資訊](../../administration/using/configuring-email-channel.md#email-processing-rules)
+核心檔案已新增有關增強型MTA的詳細資訊，尤其是有關電子郵件處理規則和彈回郵件資格的資訊。 [閱讀更多資訊](../../administration/using/configuring-email-channel.md#email-processing-rules)
 
 已移動並更新專用於使用電子郵件密件副本進行存檔的部分。 [閱讀更多資訊](../../sending/using/archiving.md)
 

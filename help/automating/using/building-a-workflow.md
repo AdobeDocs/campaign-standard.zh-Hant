@@ -13,7 +13,7 @@ context-tags: workflow,wizard;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 41ba6fa44807541dd749f4effca44ae2b4d147ae
+source-git-commit: e04b70012188b455382406df167328f963d577da
 
 ---
 
@@ -56,13 +56,14 @@ source-git-commit: 41ba6fa44807541dd749f4effca44ae2b4d147ae
 
 1. 確認建立活動，然後會顯示該活動的控制面板。 有關詳細資訊，請參閱「工作 [流介面](../../automating/using/workflow-interface.md) 」部分。
 
-1. 一旦工作流準備好進行配置後，您可以按一下按鈕來訪問其他 **[!UICONTROL Edit properties]**選項。 例如，您可以定義特定時區，以便在工作流的所有活動中預設使用。 依預設，工作流程的時區是為目前的促銷活動運算子定義的時區。
+1. 一旦工作流準備好進行配置後，您可以按一下按鈕來訪問其他 **[!UICONTROL Edit properties]** 選項。 例如，您可以定義特定時區，以便在工作流的所有活動中預設使用。 依預設，工作流程的時區是為目前的促銷活動運算子定義的時區。
 
    ![](assets/workflow_properties.png)
 
 **相關主題：**
 
-[建立工作流程](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/building-a-workflow.html) 影片
+* [建立工作流程](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/building-a-workflow.html) 影片
+* [工作流程屬性](../../automating/using/executing-a-workflow.md#workflow-properties)
 
 ## 新增和連結活動 {#adding-and-linking-activities}
 
@@ -74,16 +75,16 @@ source-git-commit: 41ba6fa44807541dd749f4effca44ae2b4d147ae
 
 活動會依浮動視窗不同區段中的類別分組。
 
-* 第一節包含定位活動。
-* 第二節包括執行活動，主要用於協調其他活動。
-* 第三節包含可用來在不同頻道傳送訊息的活動。 本節中的活動可能會因您實例上啟用的渠道而異。
-* 第四節包含檔案操縱和資料管理活動。
+* 第一節包含定位 [活動](../../automating/using/about-targeting-activities.md)
+* 第二節包括執行 [活動](../../automating/using/about-execution-activities.md)，主要用於協調其他活動。
+* 第三節包含可用來在不同頻道傳送訊息的 [活動](../../automating/using/about-channel-activities.md)。 本節中的活動可能會因您實例上啟用的渠道而異。
+* 第四節包含檔 [案操縱和資料管理活動](../../automating/using/about-data-management-activities.md)。
 
 要建立圖：
 
 1. 將活動從浮動視窗拖曳並拖曳至圖中，以新增活動。
 
-   例如，在圖中 **新增** 「開始」活動，然 **後新增「電子郵件傳送** 」活動。
+   例如，在圖中 **[新增](../../automating/using/start-and-end.md)**「開始」活動，然**[&#x200B;後新增「電子郵件傳送](../../automating/using/email-delivery.md)** 」活動。
 
 1. 將「開始」活動轉場拖曳至「電子郵 **件傳送** 」活動，將活動連結 **在一起** 。
 
@@ -99,7 +100,7 @@ source-git-commit: 41ba6fa44807541dd749f4effca44ae2b4d147ae
 
 將工作流程活動連結在一起後，您就可以使用您選擇的標籤，個人化 **它們** 之間的轉場。 若要這麼做，請連按兩下轉場以存取其屬性。
 
-此外， **[!UICONTROL Targeting]**活動**[!UICONTROL Data management (ETL)]** 可讓您定義其 **對外轉場的區** 段代碼。 然後，您可以根據這些區段代碼建立報表，以評估行銷促銷活動的效率。 如需詳細資訊，請參閱[本小節](../../reporting/using/creating-a-report-workflow-segment.md)。
+此外， **[!UICONTROL Targeting]** 活動 **[!UICONTROL Data management (ETL)]** 可讓您定義其 **對外轉場的區** 段代碼。 然後，您可以根據這些區段代碼建立報表，以評估行銷促銷活動的效率。 如需詳細資訊，請參閱[本小節](../../reporting/using/creating-a-report-workflow-segment.md)。
 
 **工作流程使用案例：**
 
@@ -113,7 +114,7 @@ source-git-commit: 41ba6fa44807541dd749f4effca44ae2b4d147ae
 依預設，活動未設定，如果未設定，則無法正確處理資料。 每個活動包含幾個頁籤，用於管理特定配置和活動通用選項，如出站轉場、標籤等。
 
 1. 請確定所有活動皆已正確連線。 某些活動需要檢測傳入資料的結構或性質，以提供正確的配置選項。
-1. 連按兩下某個活動或選取該活動，然後按一 **[!UICONTROL Edit]**下內容相關動作以開啟其設定視窗。
+1. 連按兩下某個活動或選取該活動，然後按一 **[!UICONTROL Edit]** 下內容相關動作以開啟其設定視窗。
 1. 編輯活動的標籤。
 1. 定義處理資料所需的所有不同選項。 請參閱本檔案中活動的特定章節，瞭解每個活動的可能選項。
 1. 保存活動，然後對工作流的每個活動重複這些操作。

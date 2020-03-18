@@ -1,18 +1,18 @@
 ---
 title: 瞭解隔離管理
 description: 瞭解如何透過隔離管理來最佳化您的傳送能力。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: 3c287865-1ada-4351-b205-51807ff9f7ed
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 發送
-content-type: 參考
-topic-tags: 監控消息
+audience: sending
+content-type: reference
+topic-tags: monitoring-messages
 discoiquuid: de3a50b6-ea8f-4521-996b-c49cc1f3c946
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: f7e361d10d039718c421a3684c518347af2be951
 
 ---
 
@@ -81,7 +81,7 @@ Adobe Campaign會根據傳送失敗類型和錯誤訊息限定期間指派的原
 
 * **忽略錯誤**:忽略的錯誤不會傳送要隔離的地址。
 * **硬錯誤**:對應的電子郵件地址會立即傳送至隔離區。
-* **軟錯誤**:軟錯誤不會立即發送要隔離的地址，但會增加錯誤計數器。 當錯誤計數器達到限制閾值時，地址將進入隔離。 在預設設定中，臨界值會設定為5個錯誤，其中2個錯誤若相隔至少24小時，即顯著。 地址在第六個錯誤時被置於隔離中。 可以修改錯誤計數器閾值。 For more on this, refer to this [page](../../administration/using/configuring-email-channel.md#email-channel-parameters).
+* **軟錯誤**:軟錯誤不會立即發送要隔離的地址，但會增加錯誤計數器。 當錯誤計數器達到限制閾值時，地址將進入隔離。 在預設設定中，臨界值會設定為5個錯誤，其中2個錯誤若相隔至少24小時，即顯著。 地址在第五個錯誤處被置於隔離中。 可以修改錯誤計數器閾值。 For more on this, refer to this [page](../../administration/using/configuring-email-channel.md#email-channel-parameters).
 
    重試後傳送成功時，重新初始化隔離前的地址的錯誤計數器。 地址狀態在工作 **[!UICONTROL Valid]** 流兩天後變為，並從隔離清單中刪除該地 **[!UICONTROL Database cleanup]** 址。
 

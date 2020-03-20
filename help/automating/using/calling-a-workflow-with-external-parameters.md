@@ -12,7 +12,7 @@ discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
 
 ---
 
@@ -114,7 +114,7 @@ $(vars/@parameterName)
 
 ![](assets/extsignal_callparameter.png)
 
-* ![](assets/extsignal_picker.png):在工作流程中可用的所有變數中選取事件變數（請參閱）。
+* ![](assets/extsignal_picker.png):在工作流程中可用的所有變數中選取事件變數。
 
    ![](assets/wkf_test_activity_variables.png)
 
@@ -187,7 +187,7 @@ $(vars/@parameterName)
 
 * 個人化交付：選取個人化欄位以設定傳送時，事件變數可在元素中使 **[!UICONTROL Workflow parameters]** 用。 您可將其用作任何個人化欄位，例如定義傳送主體、傳送者等。
 
-   傳送個人化在本節中 [詳述](../../designing/using/personalization.md)。
+   傳送個人化在本節中 [有詳細說明](../../designing/using/personalization.md)。
 
    ![](assets/extsignal_activities_perso.png)
 
@@ -331,7 +331,7 @@ Workflow 1已設定，您現在可以建立Workflow 2。 如需詳細資訊，�
 
 1. 聲明已在Workflow 1中定義的參數。
 
-   若要這麼做，請開啟 **[!UICONTROL External signal]** 活動，然後新增Workflow 1活動中定義之每個參數 **[!UICONTROL End]** 的名稱和類型。
+   若要這麼做，請開啟 **[!UICONTROL External signal]** 活動，然後新增在Workflow 1活動中定義之每個參數 **[!UICONTROL End]** 的名稱和類型。
 
    ![](assets/extsignal_uc8.png)
 

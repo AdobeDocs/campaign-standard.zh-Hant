@@ -10,7 +10,7 @@ context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6f7f4f3d81f4e6a540b3317f283c1e2311ccc65a
+source-git-commit: 8f3c8f9a167f11ba5ded2be34a50b52edeeb6412
 
 ---
 
@@ -21,17 +21,17 @@ source-git-commit: 6f7f4f3d81f4e6a540b3317f283c1e2311ccc65a
 
 ![](assets/wf_externalAPI.png)
 
-此活 **[!UICONTROL External API]**動會透過** REST API呼叫，從外部系統&#x200B;**將資料匯入**&#x200B;工作流程中&#x200B;**。
+此活 **[!UICONTROL External API]** 動會透過 **REST API呼叫，從外部系統** 將資料匯入 **工作流程中** 。
 
 REST端點可以是客戶管理系統、 [Adobe I/O Runtime](https://www.adobe.io/apis/experienceplatform/runtime.html) 實例或Experience Cloud REST端點（資料平台、目標、分析、促銷活動等）。
 
 >[!NOTE]
 >
->基於安全性原因，Campaign standard不支援使用JSSP。 如果您需要執行程式碼，可以透過外部API活動呼叫Adobe I/O Runtime例項。
+>基於安全性原因，Campaign Standard不支援使用JSSP。 如果您需要執行程式碼，可以透過外部API活動呼叫Adobe I/O Runtime例項。
 
 >[!IMPORTANT]
 >
->此功能目前為測試版。 您必須在開始使用外部API活動之前接受使用協定。 請注意，由於此測試版功能尚未由Adobe進行商業性發行，因此Adobe Client Care不支援，因此可能包含錯誤，而且可能無法像其他已發佈功能一樣運作。
+>此功能目前為測試版。 您必須在開始使用外部API活動之前接受使用協定。 請注意，由於此測試版功能尚未由Adobe進行商業性發行，因此Adobe Client Care不支援，因此可能包含錯誤，而且可能無法像其他已發佈的功能一樣運作。
 
 本活動的主要特點是：
 
@@ -41,8 +41,8 @@ REST端點可以是客戶管理系統、 [Adobe I/O Runtime](https://www.adobe.i
 
 為此活動設定了以下護欄：
 
-* 5MB http回應資料大小限制
-* 請求逾時為60秒
+* 50MB http回應資料大小限制
+* 請求逾時為10分鐘
 * 不允許HTTP重新導向
 * 拒絕非HTTPS Url
 * 「接受：application/json」請求標題和「Content-Type:application/json&quot;回應標題是允許的
@@ -53,7 +53,7 @@ REST端點可以是客戶管理系統、 [Adobe I/O Runtime](https://www.adobe.i
 
 ## 配置 {#configuration}
 
-將活動拖放 **[!UICONTROL External API]**到工作流程中，並開啟活動以啟動設定。
+將活動拖放 **[!UICONTROL External API]** 到工作流程中，並開啟活動以啟動設定。
 
 ### 入站映射
 
@@ -103,7 +103,7 @@ JSON結構模式為： `{“data”:[{“key”:“value”}, {“key”:“valu
 
 >[!NOTE]
 >
->當「出站映射」頁籤 **中完成並驗證響應資料格式** 時，將顯示此頁籤。
+>在「出站映射」頁籤 **中完成並驗證響應資料格式** 時，將顯示此頁籤。
 
 「 **欄定義** 」標籤可讓您精確指定每欄的資料結構，以匯入不含任何錯誤的資料，並使其符合Adobe Campaign資料庫中已存在的類型，以供日後作業使用。
 

@@ -13,7 +13,7 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ff9d0c3ca42606f097a34b1835d285541061e57b
+source-git-commit: a7c2d444b7d971124b676fa2392b51aab40e5629
 
 ---
 
@@ -59,6 +59,8 @@ source-git-commit: ff9d0c3ca42606f097a34b1835d285541061e57b
    ![](assets/trap_confirm.png)
 
 訊息會傳送至主要目標和測試設定檔。
+
+在發送事務性消息時可使用陷阱。 在這種情況下，測試設定檔會針對每個事件設定收到一則訊息。 有關事務性消息傳遞的詳細資訊，請參 [閱本節](../../channels/using/about-transactional-messaging.md)。
 
 >[!NOTE]
 >

@@ -1,19 +1,19 @@
 ---
 title: 訂閱服務
 description: 「訂閱服務」活動可讓您將設定檔大量擷取，並訂閱至服務或取消訂閱服務。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: 56637024-15ab-4145-9c48-3fbd27ab8af8
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 自動化
-content-type: 參考
-topic-tags: 資料管理活動
+audience: automating
+content-type: reference
+topic-tags: data-management-activities
 discoiquuid: 74a6df0e-fd85-4404-a42c-9a7406512717
-context-tags: setOfService,workflow, main
+context-tags: setOfService,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
 
 ---
 
@@ -40,7 +40,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ## 配置 {#configuration}
 
-1. 將活動拖放 **[!UICONTROL Subscription Services]** 至工作流程。
+1. 將活動拖放 **[!UICONTROL Subscription Services]** 到工作流程中。
 1. 在匯入後進行其他定位活動（例如查詢或協調）之後進行連接。
 1. 選擇活動，然後使用顯示的快 ![](assets/edit_darkgrey-24px.png) 速操作中的按鈕將其開啟。
 1. 使用 **[!UICONTROL Service]** 下列其中一個選項，選擇您要管理其訂閱的選項：
@@ -57,9 +57,9 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
       在此列中，必須將操作指定為布爾或整數。 使 **用** 0取消訂閱記錄， **使用** 1訂閱。
 
-      如果導入檔案中包含的值不符合上述要求，您仍可以使用活動中可用的 [Remapping of values](../../automating/using/load-file.md#column-format) (重新映射值 **[!UICONTROL Load file]** )選項
+      如果導入檔案中包含的值不符合上述要求，您仍然可以使用活動中可用的 [Remapping of values](../../automating/using/load-file.md#column-format)**[!UICONTROL Load file]** 選項。
 
-1. 如果入站資料包含與服務配置檔案的預訂日期對應的列，請選擇該列。 您可以將其保留為空白，但在執行工作流程時未設定訂閱日期。
+1. 如果入站資料包含與服務配置檔案的預訂日期對應的列，請選擇該列。 您可以將其保留為空白，但在執行工作流時未設定訂閱日期。
 1. 定義訂閱的來源。 您可以勾選選項，將其設為傳入資料的其中一個欄位，或設為您選擇的常數 **[!UICONTROL Set a constant as origin]** 值。 您可以將其保留為空，但在運行工作流時未設定原點。
 1. 如有需要，您可以產生出站轉場。 此轉換包含與傳入活動中完全相同的資料。
 1. 確認活動的設定並儲存工作流程。
@@ -136,9 +136,9 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    ![](assets/subscription_example_remapping.png)
 
-   如果您的檔案已使用"0"和"1"來識別作業，則不需要重新對應這些值。 請只確定該列在頁籤中被處 **理為布爾****或整數****[!UICONTROL Column definition]** 。
+   如果您的檔案已使用&quot;0&quot;和&quot;1&quot;來識別作業，則不需要重新對應這些值。 請只確定該列在頁籤中被處 **理為布爾****或整數****[!UICONTROL Column definition]** 。
 
-* 活 **[!UICONTROL Reconciliation]** 動會將檔案中的資料識別為屬於Adobe Campaign資料庫的描述檔維度。 透過標 **[!UICONTROL Identification]** 簽，檔案的 **電子郵件欄位會與描述檔資** 源的電子郵件欄位相符 **** 。
+* 活 **[!UICONTROL Reconciliation]** 動會將檔案中的資料識別為屬於Adobe Campaign資料庫的描述檔維度。 透過標 **[!UICONTROL Identification]** 簽，檔案的 **電子郵件欄位與描述檔資** 源的電子郵件欄位相符 **** 。
 
    ![](assets/subscription_activity_example3.png)
 

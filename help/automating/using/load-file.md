@@ -13,7 +13,7 @@ context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
+source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
 
 ---
 
@@ -32,7 +32,7 @@ source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 
 >[!CAUTION]
 >
->只考慮「平面」結構檔案，例如。txt、.csv等檔案。
+>只考慮&quot;flat&quot;結構檔案，例如。txt、.csv等檔案。
 
 您可以：
 
@@ -47,7 +47,7 @@ source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 >
 >示例檔案的資料用於配置活動，但不導入。 建議使用包含少量資料的範例檔案。
 
-1. 將活動拖放 **[!UICONTROL Load file]** 至工作流程。
+1. 將活動拖放 **[!UICONTROL Load file]** 到工作流程中。
 1. 選擇活動，然後使用顯示的快 ![](assets/edit_darkgrey-24px.png) 速操作中的按鈕將其開啟。
 1. 上傳範例檔案，讓您在匯入最終檔案時定義預期結構。
 
@@ -105,7 +105,7 @@ source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 
 1. 確認活動的設定並儲存工作流程。
 
-如果活動在執行工作流程後發生任何錯誤，請參閱日誌以獲取有關檔案中錯誤值的詳細資訊。 For more on workflows logs, refer to [this section](../../automating/using/executing-a-workflow.md#monitoring)
+如果活動在執行工作流程後發生任何錯誤，請參閱日誌以獲取有關檔案中錯誤值的詳細資訊。 For more on workflows logs, refer to [this section](../../automating/using/executing-a-workflow.md#monitoring).
 
 ## 欄格式 {#column-format}
 
@@ -133,7 +133,7 @@ source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
    * **[!UICONTROL Format]**:允許您定義整數和浮點數數數 **據****的數值格式** 。
    * **[!UICONTROL Separator]**:定義由列上下文指定的分隔符（數值的千位或小數分隔符，日期和時間的千位分隔符） **Date**、 **Time**、 **Date和time**、 ******** Integer numberFloating data的分隔符。
 
-* **[!UICONTROL Remapping of values]**:此欄位僅在列詳細資訊配置中可用。 它可讓您在匯入特定值時加以轉換。 例如，您可將"three"轉換為"3"。
+* **[!UICONTROL Remapping of values]**:此欄位僅在列詳細資訊配置中可用。 它可讓您在匯入特定值時加以轉換。 例如，您可將&quot;three&quot;轉換為&quot;3&quot;。
 * **[!UICONTROL Error processing]**:定義在遇到錯誤時的行為。
 
    * **[!UICONTROL Ignore the value]**:值被忽略。 在工作流執行日誌中生成警告。

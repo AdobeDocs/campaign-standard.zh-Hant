@@ -12,7 +12,7 @@ discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3be170b5e1560e0b48db02de4eeb5ea96b794b04
+source-git-commit: bee7ea0f1728da2a96c1f225b91b13a7903be660
 
 ---
 
@@ -56,13 +56,13 @@ source-git-commit: 3be170b5e1560e0b48db02de4eeb5ea96b794b04
 
 * **[!UICONTROL User unknown]** （硬類型）:地址不存在。 此描述檔不會再嘗試傳送。
 * **[!UICONTROL Quarantined address]** （硬類型）:地址被隔離了。
-* **[!UICONTROL Unreachable]** （可變／硬類型）:消息傳送鏈中發生錯誤（發生在SMTP中繼上、域暫時無法訪問等）。 根據提供者傳回的錯誤，將直接傳送地址給隔離，或重新嘗試傳送，直到Campaign收到證明隔離狀態正確的錯誤或錯誤數達到5為止。
+* **[!UICONTROL Unreachable]** （可變／硬類型）:消息傳送鏈中發生錯誤（例如暫時無法訪問域）。 根據提供者傳回的錯誤，將直接傳送地址給隔離，或者重新嘗試傳送，直到Campaign收到證明隔離狀態正確的錯誤或錯誤數達到5為止。
 * **[!UICONTROL Address empty]** （硬類型）:地址未定義。
 * **[!UICONTROL Mailbox full]** （可變類型）:此用戶的郵箱已滿，無法接受更多消息。 可以從隔離清單中刪除此地址，以進行另一次嘗試。 在30天後自動移除。
 
    In order for the address to be automatically removed from the list of quarantined addresses, the **[!UICONTROL Database cleanup]** technical workflow must be started.
 
-* **[!UICONTROL Refused]** （可變／硬類型）:由於安全反饋是垃圾郵件報告，該地址已被置於隔離狀態。 根據提供者傳回的錯誤，將直接傳送地址給隔離，或重新嘗試傳送，直到Campaign收到證明隔離狀態正確的錯誤或錯誤數達到5為止。
+* **[!UICONTROL Refused]** （可變／硬類型）:由於安全反饋是垃圾郵件報告，該地址已被置於隔離狀態。 根據提供者傳回的錯誤，將直接傳送地址給隔離，或者重新嘗試傳送，直到Campaign收到證明隔離狀態正確的錯誤或錯誤數達到5為止。
 * **[!UICONTROL Duplicate]**:區段中已偵測到該位址。
 * **[!UICONTROL Not defined]** （可變類型）:該地址正在限定中，因為錯誤尚未增加。
 
@@ -105,7 +105,7 @@ This list is available to administrators only and contains all the rules used by
 
 對於同步傳送失敗錯誤訊息，「增強的MTA」會決定反彈類型和資格，並將該資訊傳回至「促銷活動」。 如需Adobe Campaign增強型MTA的詳細資訊，請參閱本文 [件](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)。
 
-inMail程式仍會透過規則來限定非同步彈 **[!UICONTROL Inbound email]** 回數。 若要存取這些規則，請按一 **[!UICONTROL Adobe Campaign]** 下左上角的標誌，然後選取 **[!UICONTROL Administration > Channels > Email > Email processing rules]** 並選取 **[!UICONTROL Bounce mails]**。 For more on this rule, refer to this [section](../../administration/using/configuring-email-channel.md#email-processing-rules).
+inMail程式仍會透過規則來限定非同步彈 **[!UICONTROL Inbound email]** 回數。 若要存取這些規則，請按一 **[!UICONTROL Adobe Campaign]** 下左上角的標誌，然後選取並 **[!UICONTROL Administration > Channels > Email > Email processing rules]** 選取 **[!UICONTROL Bounce mails]**。 For more on this rule, refer to this [section](../../administration/using/configuring-email-channel.md#email-processing-rules).
 
 <!--Bounces can have the following qualification statuses:
 

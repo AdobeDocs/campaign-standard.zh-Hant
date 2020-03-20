@@ -13,7 +13,7 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
+source-git-commit: 7d31d92197a6bf26b7530b8e8ff42c0dc7f25359
 
 ---
 
@@ -31,12 +31,13 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 * Adobe Experience Manager。 如需詳細資訊，請參閱[本小節](#adobe-experience-manager-external-account)。
 * Adobe Analytics。 如需詳細資訊，請參閱[本小節](../../integrating/using/configure-campaign-analytics-integration.md)。
 * Google reCAPTCHA。 如需詳細資訊，請參閱[本小節](#google-recaptcha-external-account)。
+* Microsoft Azure Blob儲存。 如需詳細資訊，請參閱[本小節](#microsoft-azure-external-account)。
 
 >[!NOTE]
 >
 >Adobe在產品布建程式期間會使用其他類型的外部帳戶。 從Campaign Standard 17.9發行，FTP外部帳戶仍可定義，但無法再用於新的工作流程活動。 如果已設定連接，則該連接仍處於啟用狀態。
 
-管理員可在功能表下設定外部 **[!UICONTROL Administration > Application settings > External accounts]**帳戶。
+管理員可在功能表下設定外部 **[!UICONTROL Administration > Application settings > External accounts]** 帳戶。
 
 ## 建立外部帳戶 {#creating-an-external-account}
 
@@ -44,7 +45,7 @@ Adobe Campaign隨附一組預先定義的外部帳戶。 若要設定與外部�
 
 技術流程（例如技術工作流程或宣傳工作流程）會使用外部帳戶。 在工作流程中或與任何其他應用程式（Adobe Target、Experience Manager等）進行資料交換時，您需要選取外部帳戶。
 
-1. Click the **[!UICONTROL Create]**button.
+1. Click the **[!UICONTROL Create]** button.
 1. 輸入標籤。 在工作流程中選取外部帳戶時，將會使用標籤和ID。
 1. 選擇要建立的帳戶類型。
 1. 在相關時指定憑證、伺服器位址、埠號或金鑰，以設定帳戶的存取權。
@@ -62,7 +63,7 @@ Adobe Campaign隨附一組預先定義的外部帳戶。 若要設定與外部�
 對於SFTP外部帳戶，請提供下列詳細資訊：
 
 * 伺服器位址。 例如， **ftp.domain.com**。
-* 埠號。 例如， **22**。
+* 埠號。 For example, **22**.
 * SFTP伺服器憑證：用來連接至伺服器的帳戶名稱和密碼。
 
 ### Adobe代管SFTP伺服器建議 {#adobe-hosted-sftp-server-recommendations}
@@ -99,36 +100,36 @@ Amazon S3伺服器欄位應填寫如下：
 <S3 bucket name>.s3.amazonaws.com/<s3 object path>
 ```
 
-若要以S3加密模式儲存檔案，請核取方 **[!UICONTROL Keep files in S3 encrypted]**塊。
+若要以S3加密模式儲存檔案，請核取方 **[!UICONTROL Keep files in S3 encrypted]** 塊。
 
 ![](assets/external_accounts_2.png)
 
 所需資訊通常由您所連接的伺服器提供商提供。
 
-指定與 **[!UICONTROL AWS Region]**端點相關聯。 您可以在官方的[Amazon S3檔案中查看受支援的地區和簽名版本](https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region)。
+指定與 **[!UICONTROL AWS Region]** 端點相關聯。 您可以在官方的 [Amazon S3檔案中查看受支援的地區和簽名版本](https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region)。
 
 >[!NOTE]
 >
->您應 **[!UICONTROL Receiver server]**該在沒有您的AWS地區的情況下輸入，以後將自動將其添加到您的URL中。
+>您應 **[!UICONTROL Receiver server]** 該在沒有您的AWS地區的情況下輸入，以後將自動將其添加到您的URL中。
 
 ### Amazon S3帳戶建議 {#amazon-s3-account-recommendations}
 
 為協助您設定Amazon S3帳戶，我們建議您遵循下列建議：
 
 * 建立嚴格的儲存貯體原則，以限制對S3儲存貯體的存取。 建立儲存貯體時，可設定儲存貯體原則。 如需詳細資訊，請參閱 [Amazon S3檔案](https://docs.aws.amazon.com/AmazonS3/latest/dev//example-bucket-policies.html)。
-* 建立外部帳戶時，請勾選方塊，啟用加密以將敏感資料儲存在S3儲 **[!UICONTROL Keep files in S3 encrypted]**存貯體。
+* 建立外部帳戶時，請勾選方塊，啟用加密以將敏感資料儲存在S3儲 **[!UICONTROL Keep files in S3 encrypted]** 存貯體。
 * 授予儲存貯體權限，以指定誰可以存取儲存貯體中的物件。 有關貯體權限的詳細資訊，請參閱 [Amazon S3檔案](https://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html)。
 
-## Adobe Experience manager外部帳戶 {#adobe-experience-manager-external-account}
+## Adobe Experience Manager外部帳戶 {#adobe-experience-manager-external-account}
 
-Adobe Experience manager外部帳戶用於整合Campaign與Experience Manager。
+Adobe Experience Manager外部帳戶用於整合Campaign與Experience Manager。
 
 本檔案提供與此整合相關的程式 [與需求](../../integrating/using/about-campaign-integrations.md)。
 
 當您設定此新外部帳戶時，您必須提供下列詳細資訊：
 
 * 伺服器：輸入Adobe Experience Manager伺服器的URL。 例如， **http://aem.domain.com:4502**。
-* AEM帳戶認證：使用可存取Adobe Experience manager例項的帳戶。 它應該是Experience Manager中促銷活動——遠端群組的帳戶部分。
+* AEM帳戶認證：使用可存取Adobe Experience Manager例項的帳戶。 它應該是Experience Manager中促銷活動——遠端群組的帳戶部分。
 
 ## Google reCAPTCHA外部帳戶 {#google-recaptcha-external-account}
 
@@ -142,11 +143,61 @@ Google reCAPTCHA機制可讓您保護著陸頁面，使其免受機器人程式�
 
 若為Google reCAPTCHA V3外部帳戶，請提供下列詳細資訊：
 
-* A **[!UICONTROL Label]**和**[!UICONTROL ID]** 您的外部帳戶
+* A **[!UICONTROL Label]** 和 **[!UICONTROL ID]** 您的外部帳戶
 * **[!UICONTROL Type]**:Google reCAPTCHA
-* 您的 **[!UICONTROL Site key]**和**[!UICONTROL Site secret]**
-* A介 **[!UICONTROL Threshold]**於0和1之間
+* 您的 **[!UICONTROL Site key]** 和 **[!UICONTROL Site secret]**
+* A介 **[!UICONTROL Threshold]** 於0和1之間
 
-   0.0值表 **[!UICONTROL Threshold]**示它可能是機器人，1.0可能是良好的互動。 預設情況下，可以使用閾值0.5。
+   0.0值表 **[!UICONTROL Threshold]** 示它可能是機器人，1.0可能是良好的互動。 預設情況下，可以使用閾值0.5。
 
 ![](assets/external_accounts_3.png)
+
+## Microsoft Azure Blob儲存外部帳戶 {#microsoft-azure-external-account}
+
+>[!NOTE]
+>
+>在Adobe Campaign Standard中設定外部帳戶所需的資訊，可在Azure入口網站中，透過選取 **[!UICONTROL Settings]** >找到 **[!UICONTROL Access keys]**。
+
+對於Microsoft Azure Blob儲存外部帳戶，請提供以下詳細資訊：
+
+* A **[!UICONTROL Label]** 和 **[!UICONTROL ID]** 您的外部帳戶
+* **[!UICONTROL Type]**:Microsoft Azure Blob儲存
+* 您的 **[!UICONTROL Account name]** 和 **[!UICONTROL Account key]**。 若要瞭解在何處尋找您的帳戶名稱和金鑰，請參閱本 [頁](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage)。
+* 您的 **[!UICONTROL Endpoint suffix]**。 您可在Azure入口網站的 **[!UICONTROL Connection string]** 功能表 **[!UICONTROL Access keys]** 中找到它。 For more on this, refer to this [page](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage).
+* 你的 **[!UICONTROL Container]** 名字。 如果您打算使用多個容器，則需要建立與容器一樣多的外部帳戶。
+* 選 **[!UICONTROL Concurrency]** 項可讓您微調檔案傳輸的速度。
+
+![](assets/external_accounts_4.png)
+
+設定好後，按一 **[!UICONTROL Test connection]** 下以連結Adobe Campaign至Microsoft Azure Blob儲存空間。
+
+### Microsoft Azure Blob儲存建議 {#azure-blob-recommendations}
+
+**加密**
+
+Adobe Campaign使用安全連線(HTTPS)存取您的Microsoft Azure Blob儲存帳戶。
+
+**帳戶金鑰**
+
+設定外部帳戶時，您必須使用Azure入口網 **[!UICONTROL Account key]** 站中的其中一個。 有關在何處查找帳戶密鑰的詳細資訊，請參閱本 [頁](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage#view-access-keys-and-connection-string)。
+
+**最佳化檔案傳輸速度**
+
+選 **[!UICONTROL Concurrency]** 項可讓您微調檔案傳輸的速度。
+它表示用於執行檔案傳輸的線程數。 每個線程都將從blob下載約1MB的一部分。 然後，它們將被排隊以寫入磁碟。 請注意，增加線程數也會增加應用程式在檔案傳輸期間使用的資源的負載。
+
+完成檔案傳輸後，您可以在工作流程記錄檔中尋找效能度量。
+
+**重試次數**
+
+根據預設，Azure Blob的檔案傳輸最多可重試4次。  如果Azure儲存服務傳回錯誤碼，例如503（伺服器忙碌）或500（作業逾時），這表示您的儲存帳戶可能接近或超過擴充能力。 當使用新帳戶或執行測試時，可能會發生此情況。
+
+如果錯誤仍然存在，您可以在進階功能表> >下建立選項，以增加重試 **[!UICONTROL Administration]** 次 **[!UICONTROL Application Settings]** 數 **[!UICONTROL Options]**。
+
+如果實施，則必須按如下方式建立選項：
+
+```
+ID:        AzureBlob_Max_Retries
+Date type: Integer
+Default:   <the number of retries needed>
+```

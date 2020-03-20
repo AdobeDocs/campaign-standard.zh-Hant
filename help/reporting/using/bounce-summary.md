@@ -1,19 +1,19 @@
 ---
 title: 退回摘要
 description: 透過「彈回數摘要現成可用」報表，瞭解您所傳送之促銷活動的狀態，以及他們可能遇到的錯誤。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: 90087311-4236-4df9-ae7d-4a15c00c70ab
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 報告
-content-type: 參考
-topic-tags: 清單
+audience: reporting
+content-type: reference
+topic-tags: list-of-reports
 discoiquuid: 5ae561b4-03cf-4541-87ff-47f1027d53b8
-context-tags: bounceReport,main;campaignLecurationReport,main;programLecurationReport,main
+context-tags: bounceReport,main;campaignCirculationReport,main;programCirculationReport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: bee7ea0f1728da2a96c1f225b91b13a7903be660
 
 ---
 
@@ -32,7 +32,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 * **[!UICONTROL User unknown]**:傳送內容傳送至無效電子郵件地址時產生的錯誤類型。
 * **[!UICONTROL Invalid domain]**:傳送內容傳送至網域錯誤或不再存在之電子郵件地址時產生的錯誤類型。
-* **[!UICONTROL Unreachable]**:訊息傳送字串中遇到的錯誤類型。 例如，SMTP中繼事件、域暫時無法訪問等。
+* **[!UICONTROL Unreachable]**:訊息傳送字串中遇到的錯誤類型，例如暫時無法存取網域。
 * **[!UICONTROL Account disabled]**:傳送內容傳送至已不存在的電子郵件地址時產生的錯誤類型。
 * **[!UICONTROL Mailbox full]**:收件者收件匣已滿時產生的錯誤類型。 在產生此錯誤之前，有5次嘗試傳送訊息。
 * **[!UICONTROL Not connected]**:當收件者的行動電話關閉或訊息傳送時未連線至網路時，產生的錯誤類型。

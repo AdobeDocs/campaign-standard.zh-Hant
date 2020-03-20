@@ -13,7 +13,7 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
+source-git-commit: 5ed46987a3778dfa100639de8be9b6d5ac5348b4
 
 ---
 
@@ -26,19 +26,19 @@ source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
 
 Adobe Campaign可讓您將個人化和分段的推播通知傳送至iOS和Android行動裝置。
 
-這些訊息是在您在Adobe Campaign中設定的行動應用程式上，透過運用Experience Cloud Mobile SDK V4或Experience Platform SDK收到的。 如需詳細資訊，請參 [閱「使用SDK V4設定行動應用程式」](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) , [以及「使用Adobe Experience Platform SDK設定行動應用程式」](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)。
+這些訊息是在您在Adobe Campaign中設定的行動應用程式上，透過運用Experience Platform SDK收到的。 如需詳細資訊，請參閱「使 [用Adobe Experience Platform SDK設定行動應用程式」](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)。
 
-In Adobe Campaign, mobile profile attributes data sent from mobile device are stored in **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]**resource which allows you to define the data that you want to collect from your applications&#39; subscribers.
+In Adobe Campaign, mobile profile attributes data sent from mobile device are stored in **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** resource which allows you to define the data that you want to collect from your applications&#39; subscribers.
 
 需要擴充此資源，以收集您要從行動裝置傳送至Adobe Campaign的資料。 若要這麼做，請參閱本 [頁](../../developing/using/extending-the-subscriptions-to-an-application-resource.md) ，以取得詳細步驟。
 
 Adobe Campaign提供兩種推播通知類型：
 
-* **[!UICONTROL Alert/Message/Badge]**文字通知可讓您傳送含有其他內容（音效、徽章、Deeplink等）的標準文字訊息。在區段中定**[!UICONTROL Advanced options]** 義。
+* **[!UICONTROL Alert/Message/Badge]** 文字通知可讓您傳送含有其他內容（音效、徽章、Deeplink等）的標準文字訊息。在區段中定 **[!UICONTROL Advanced options]** 義。
 
-   此通知類型可讓您新增標題和訊息，您可在其中使用個人化欄位。 若要個人化您的訊息，請務必選取范 **[!UICONTROL Send push on profiles]**本。
+   此通知類型可讓您新增標題和訊息，您可在其中使用個人化欄位。 若要個人化您的訊息，請務必選取范 **[!UICONTROL Send push on profiles]** 本。
 
-* **[!UICONTROL Silent push]**類型通知可用來無訊息地通知應用程式，而不會傳送任何訊息或內容給一般使用者。 此類訊息的典型使用案例是讓應用程式知道伺服器上有可供下載的內容。
+* **[!UICONTROL Silent push]** 類型通知可用來無訊息地通知應用程式，而不會傳送任何訊息或內容給一般使用者。 此類訊息的典型使用案例是讓應用程式知道伺服器上有可供下載的內容。
 
 可以設定某些特定配置來定義通知行為。 如需詳細資訊，請參閱[本小節](../../channels/using/customizing-a-push-notification.md)。
 
@@ -61,19 +61,19 @@ Adobe Campaign提供兩種推播通知類型：
 >若要運用Campaign的推播通知功能，您必須提供。pem格式的有效推播憑證，而不需密碼。
 如果您有有效的p12憑證，則可使用線上資源，輕鬆將它轉換為。pem檔案。
 
-首先，若要開始傳送推播通知，您必須使用SDK V4來設定您的行動應用程式。 您也可以使用Experience Platform SDK來設定行動應用程式。 For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
+首先，若要開始傳送推播通知，您必須使用Experience Platform SDK來設定行動應用程式。 For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
 
 傳送推播通知前，您應：
 
-1. 請確定您可以存取Adobe **[!UICONTROL Mobile app]**Campaign中的渠道。
+1. 請確定您可以存取Adobe **[!UICONTROL Mobile app]** Campaign中的渠道。
 1. 在下列位置設定您的行動應用程式：
 
    * Adobe Campaign
-   * Adobe Mobile services介面
+   * Adobe Mobile Services介面
 
 1. 執行行動應用程式的特定設定：
 
-   * 將從Adobe Mobile services介面下載的設定檔與行動應用程式封裝。
+   * 將從Adobe Mobile Services介面下載的設定檔與行動應用程式封裝。
    * 將Experience Cloud Mobile SDK整合到您的行動應用程式中。
 
 1. 定義您要向應用程式訂閱者收集的資料。 在Adobe Campaign資料庫中擁有描述檔的行動應用程式的訂閱者，會根據您所定義的條件進行協調。

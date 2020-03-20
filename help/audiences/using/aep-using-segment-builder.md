@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2ef524d1d276abb1ff0a7149462452cafe8e5cd3
+source-git-commit: fcb6a145b19b68865babba659bf0bfb7623397c8
 
 ---
 
@@ -40,7 +40,7 @@ source-git-commit: 2ef524d1d276abb1ff0a7149462452cafe8e5cd3
 
 若要建立區段，請遵循下列步驟：
 
-「統一區段產生器」現在應會顯示在您的工作區中。 它可讓您使用Adobe Experience platform中的資料來建立細分，這些資料最終將用來建立您的觀眾。
+「統一區段產生器」現在應會顯示在您的工作區中。 它可讓您使用Adobe Experience Platform中的資料來建立細分，這些資料最終將用來建立您的觀眾。
 
 1. 命名區段，然後輸入說明（選用）。
 
@@ -60,7 +60,7 @@ source-git-commit: 2ef524d1d276abb1ff0a7149462452cafe8e5cd3
 
    ![](assets/aep_audiences_configure_rules.png)
 
-1. Click the **[!UICONTROL Create segment]**button.
+1. Click the **[!UICONTROL Create segment]** button.
 
 ## 尋找區段的正確欄位
 
@@ -84,7 +84,7 @@ source-git-commit: 2ef524d1d276abb1ff0a7149462452cafe8e5cd3
 >
 >如需詳細資訊，請參閱專用 [檔案](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/tutorials/segmentation/multi_entity_segmentation.md)。
 
-依預設，「統一區段產生器」會顯示資料已存在的欄位。 要顯示完整方案，包括沒有資料的欄位，請啟用設 **[!UICONTROL Show full XDM schema]**置中的選項。
+依預設，「統一區段產生器」會顯示資料已存在的欄位。 要顯示完整方案，包括沒有資料的欄位，請啟用設 **[!UICONTROL Show full XDM schema]** 置中的選項。
 
 ![](assets/aep_audiences_populatedfields.png)
 
@@ -108,9 +108,9 @@ source-git-commit: 2ef524d1d276abb1ff0a7149462452cafe8e5cd3
 
    ![](assets/aep_audiences_malegender.png)
 
-   區段中自動重新計算與區段對應的估計人口 **[!UICONTROL Segment Properties]**數。
+   區段中自動重新計算與區段對應的估計人口 **[!UICONTROL Segment Properties]** 數。
 
-1. 按 **[!UICONTROL View Profiles]**鈕可讓您預覽與規則對應的前20個記錄，讓您快速驗證區段。
+1. 按 **[!UICONTROL View Profiles]** 鈕可讓您預覽與規則對應的前20個記錄，讓您快速驗證區段。
 
    ![](assets/aep_audiences_samplepreview.png)
 
@@ -134,7 +134,7 @@ source-git-commit: 2ef524d1d276abb1ff0a7149462452cafe8e5cd3
 
 1. 選擇將與第一個欄位進行比較的第二個欄位（例如工作地址郵遞區號）。
 
-   將它拖曳至方塊中第一個欄位所在的容器中的中心工作區 **[!UICONTROL Drop here to compare operands]**上。
+   將它拖曳至方塊中第一個欄位所在的容器中的中心工作區 **[!UICONTROL Drop here to compare operands]** 上。
 
    ![](assets/aep_audiences_comparing_2.png)
 

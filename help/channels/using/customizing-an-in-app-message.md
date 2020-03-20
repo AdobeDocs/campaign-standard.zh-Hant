@@ -13,7 +13,7 @@ context-tags: delivery,inAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: 1269ee2041e0857b077424ba7f50fbfa9519ae7b
 
 ---
 
@@ -28,6 +28,10 @@ source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 * [自訂訊息](#customizing-with-a-custom-html-message):此範本可讓您匯入自訂HTML。
 
 ![](assets/inapp_customize_1.png)
+
+>[!NOTE]
+>
+> 只有Android API 19及更新版本才支援應用程式內訊息轉譯。
 
 **相關主題：**
 
@@ -159,7 +163,7 @@ source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
    ![](assets/inapp_customize_19.png)
 
 1. 指定當使用者在欄位中與您的本機通知互動時，重新導向的 **[!UICONTROL Deeplink URL]** 目標。
-1. 若要以鍵值配對的形式在裝載中傳遞自訂資料，您可以將自訂欄位新增至本機通知。 在類別 **[!UICONTROL Custom fields]** 中，按一下按 **[!UICONTROL Create an element]** 鈕。
+1. 若要以鍵值對的形式在裝載中傳遞自訂資料，您可以將自訂欄位新增至本機通知。 在類別 **[!UICONTROL Custom fields]** 中，按一下按 **[!UICONTROL Create an element]** 鈕。
 1. 然後輸 **[!UICONTROL Keys]** 入與每 **[!UICONTROL Values]** 個密鑰關聯的。
 
    請注意，自訂欄位的處理與用途完全取決於行動應用程式。

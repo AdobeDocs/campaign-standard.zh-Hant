@@ -12,7 +12,7 @@ discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
+source-git-commit: fcb6a145b19b68865babba659bf0bfb7623397c8
 
 ---
 
@@ -31,7 +31,7 @@ Adobe Campaign可即時建立豐富的客戶個人檔案，讓您在客戶偏好
 
    使用工作流程和查詢編輯器，您可以根據行銷活動的資訊、活動及其行銷記錄，建構將由行銷活動定位的對象。 這可讓您依不限數量的准則，篩選訂閱的描述檔、範例或建立目標對象。
 
-在開始傳送訊息給連絡人之前，您必須先取得他們的許可。 如果沒有，您的電子郵件可能會標示為垃圾訊息，這將影響您的平台傳遞能力。 若要確保建立健全的描述檔資料庫，請先保護此權限。 有了Campaign，我們建議您透過服務和登陸頁面，使用簡單的選擇加入和選擇退出機 [制](../../audiences/using/creating-a-service.md)，以更 [](../../channels/using/getting-started-with-landing-pages.md) 新您的聯絡資訊並擴充資料庫。
+在開始傳送訊息給連絡人之前，您必須先確認您取得他們的許可。 如果沒有，您的電子郵件可能會標示為垃圾訊息，這將影響您的平台傳遞能力。 若要確保建立健全的描述檔資料庫，請先保護此權限。 有了Campaign，我們建議您透過服務和登陸頁面，使用簡單的選擇加入和選擇退出機 [制](../../audiences/using/creating-a-service.md)，以更 [](../../channels/using/getting-started-with-landing-pages.md) 新您的聯絡資訊並擴充資料庫。
 
 在您的訊息中提供取消訂閱連結，可視需要將描述檔列入黑名單，進而改善您的平台傳遞能力。 如需黑名單的詳細資訊，請 [參閱關於促銷活動中的選擇加入和選擇退出](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)。
 

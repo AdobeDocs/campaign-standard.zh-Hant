@@ -12,7 +12,7 @@ discoiquuid: dafd9860-cd22-4c30-86b7-631b64db7b3f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: e1e9f1f69a23a2510bf91b101a74434f759fdb95
 
 ---
 
@@ -49,23 +49,36 @@ Adobe Campaign可讓您導覽不同的功能表和螢幕，以管理您的促銷
 
 ## 頂端列 {#top-bar}
 
-每個螢幕上都會顯示頂端列，讓您瀏覽Adobe Campaign的功能，並存取連線的Adobe個人檔案、通知、其他Adobe Experience cloud服務和解決方案，以及檔案。
+每個螢幕上都會顯示頂端列，讓您瀏覽Adobe Campaign的功能，並存取連線的Adobe個人檔案、通知、其他Adobe Experience Cloud服務和解決方案，以及檔案。
 
 導覽原則為：
 
 * 頁 **[!UICONTROL Adobe Campaign]** 面左上角的標誌可讓您存取進階功能和組態。 功能表取決於您的設定檔和權限。
 
-   進階功能表會顯示在「進階 [功能表](#advanced-menu) 」區段。
+   進階功能表會顯示在「進階功能 [表」區段中](#advanced-menu) 。
 
 * 此連 **[!UICONTROL Home]** 結可讓您顯示Adobe Campaign首頁。
 * 這些 **[!UICONTROL Marketing activities]**、 **[!UICONTROL Programs & Campaigns]**、和 **[!UICONTROL Profiles]****[!UICONTROL Audiences]****[!UICONTROL Reports]** 連結可讓您存取與這些功能連結的檢視。
-* 此按 **[!UICONTROL Help]** 鈕可讓您存取產品檔案和內容相關說明、發行說明、版本號碼、法律聲明，以及Adobe Experience cloud社群和客戶服務的連結。
-
-   ![](assets/ux_help.png)
-
-* 「選 **取解決方案** 」圖示可讓您切換至其他Adobe Experience cloud解決方案以及設定檔設定。
+* 此按 **[!UICONTROL Help]** 鈕可讓您存取產品檔案和內容相關說明、發行說明、版本號碼、法律聲明，以及Adobe Experience Cloud社群和客戶服務的連結。
+* 「組織」按鈕
+* 「解 **決方案切換器** 」圖示可讓您切換至其他Adobe Experience Cloud解決方案以及描述檔設定。
 * 「通 **知** 」圖示會顯示最新警報或資訊。
 * 「使 **用者** 」圖示可讓您顯示連結至個人資料的資訊。 它提供按鈕的存 **[!UICONTROL Sign out]** 取權。
+
+### 說明 {#help}
+
+* **[!UICONTROL Search]** 可讓您擷取檔案、文章和影片，並依解決方案篩選內容
+
+* **[!UICONTROL Help]** 頁籤
+   * 連結可讓您快速存取與您瀏覽之頁面相關的文章、檔案和影片
+   * **[!UICONTROL Learning]** 此連結可讓您存取Experience League。
+   * **[!UICONTROL Community]** 此連結允許您訪問ACS專門討論的論壇。
+
+* **[!UICONTROL Support]** 標籤可讓您建立支援票證，並透過電話或Twitter與我們聯絡。
+
+* **[!UICONTROL Feedback ]** 標籤可讓您分享有關解決方案的問題和想法。
+
+   ![](assets/ux_help.png)
 
 ## 進階功能表 {#advanced-menu}
 
@@ -142,4 +155,3 @@ Adobe Campaign可讓您導覽不同的功能表和螢幕，以管理您的促銷
 * 有關與工作區類 **型螢幕** ，請參閱工作流 [的「操作欄](../../automating/using/workflow-interface.md#action-bar) 」部分。
 * 如需與控制面板畫面 **相關的動作** ，請參閱「訊息控制面板 [](../../channels/using/message-dashboard.md) 」區段以取得詳細資訊。
 * 有關與清單類型屏 **幕相關的** ，請參閱下面的 [自定義清單部分](../../start/using/customizing-lists.md) 。
-

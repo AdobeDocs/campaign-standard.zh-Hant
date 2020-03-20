@@ -13,7 +13,7 @@ context-tags: recipient,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: fcb6a145b19b68865babba659bf0bfb7623397c8
 
 ---
 
@@ -31,4 +31,3 @@ Adobe Campaign可讓您在整個生命週期中管理連絡人：建立、匯入
 當您建立促銷活動時，您可以根據簡單或進階標準選取描述檔，以定義傳送的目標。 從技術上講，描述檔是資料庫中包含定位、確認和追蹤行為所需的所有資訊的項目。
 
 描述檔可以是：客戶、潛在客戶、訂閱電子報的個人、收件者、使用者或任何其他面額（視您的組織而定）。 若要定義各種描述檔類型，請使用定 [位維度](../../automating/using/query.md#targeting-dimensions-and-resources)。
-

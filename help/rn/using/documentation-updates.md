@@ -1,5 +1,5 @@
 ---
-title: 文檔更新
+title: 文件更新
 description: 瞭解Adobe Campaign Standard檔案的所有最新更新。
 page-status-flag: never-activated
 uuid: 3bdc7d11-8421-4110-a5ba-7b1376a03dda
@@ -12,18 +12,46 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ffe6b34ec8d7a31ffcce1e725364a6ecf00f70a8
+source-git-commit: 73fd120c79130c3a4eff43bb080bde8dabe58032
 
 ---
 
 
-# 文檔更新{#documentation-updates}
+# 文件更新{#documentation-updates}
 
 瞭解Adobe Campaign Standard檔案的所有最新更新。
 
 本頁列出每個Adobe Campaign Standard版本的所有新功能和檔案更新。
 
 您也可以參閱Adobe Campaign發 [行說明](../../rn/using/release-notes.md)。
+
+## 版本20.2 - 2020年3月 {#release-20-2---march-2020}
+
+**發行中包含的新功能**
+
+Azure Blob整合- [閱讀更多](../../administration/using/external-accounts.md#microsoft-azure-external-account)
+
+統一的Experience Cloud介面和網域——詳 [細內容](../../start/using/interface-description.md#top-bar)
+
+使用目標設定檔進行電子郵件測試- [閱讀更多](../../sending/using/testing-messages-using-target.md)
+
+**此版本隨附的其他檔案更新**
+
+「應用程式內」訊息轉換已新增限制。 [閱讀更多資訊](../../channels/using/customizing-an-in-app-message.md)
+
+已新增有關如何在活動中使用匯總的 **[!UICONTROL Query]** 資訊。 [閱讀更多資訊](../../automating/using/query.md#adding-an-aggregate)
+
+MCPNS在配置移動應用程式時增加了限制。 [閱讀更多資訊](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
+
+新的配置指南部分已添加到管理指南中。 有關相容瀏覽器和作業系統的章節已從「快速入門」指南移至此章節。 Campaign Standard網路端點的技術也已新增至本節。 [閱讀更多資訊](../../administration/using/about-configuration-guidelines.md)
+
+現在提供新區段，說明如何刪除事件設定。 [閱讀更多資訊](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
+
+說明如何測試電子郵件主旨行以預測其開放率的頁面已更新並改進，包括新的疑難排解 [區](../../sending/using/testing-subject-line-email.md#troubleshooting) 。 [閱讀更多資訊](../../sending/using/testing-subject-line-email.md#troubleshooting)
+
+交易式訊息區段已更新，以反映多個使用者介面的輕微更新和改良。 [閱讀更多資訊](../../channels/using/about-transactional-messaging.md)
+
+已更新與外部API活動防護欄相關的資訊。 [閱讀更多資訊](../../automating/using/external-api.md)
 
 ## 檔案更新- 2020年3月 {#doc-updates-march-2020}
 
@@ -43,7 +71,7 @@ Campaign電子郵件設計人員檔案和相關頁面已更新，以反映Adobe 
 
 已在工作流程屬性中 **[!UICONTROL History in days field]** 的可用資訊中新增。 [閱讀更多資訊](../../automating/using/executing-a-workflow.md)
 
-## 版本20.1 - 2019年2月 {#release-20-1---february-2020}
+## 版本20.1 - 2020年2月 {#release-20-1---february-2020}
 
 **發行中包含的新功能**
 
@@ -281,7 +309,7 @@ GDPR快速入門手冊已經過改進並充實。 它現在是包含GDPR和CCPA�
 
 「使用API擴充功能發佈資源」區段已經過澄清，並已更新為最新的UI變更。 [閱讀更多資訊](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension)
 
-「封存電子郵件」區段已重新命名並重新組織。 [閱讀更多資訊](../../administration/using/configuring-email-channel.md#archiving-emails)
+「封存電子郵件」區段已重新命名並重新組織。 [閱讀更多資訊](../../sending/using/archiving.md)
 
 「建立電子郵件」區段已更新，以反映最新的介面變更。 [閱讀更多資訊](../../channels/using/creating-an-email.md)
 
@@ -315,7 +343,7 @@ Dreamweaver整合區段已更新並改良。 [閱讀更多資訊](../../designin
 
 「建立自訂內容區塊」區段已增強，並包含定位維度的詳細資訊。 [閱讀更多資訊](../../designing/using/personalization.md#creating-custom-content-blocks)
 
-已新增警告，指出「電子郵件設計器」不支援Internet Explorer 11。 [閱讀更多資訊](../../start/using/compatible-browsers.md)
+已新增警告，指出「電子郵件設計器」不支援Internet Explorer 11。 [閱讀更多資訊](../../administration/using/compatible-browsers.md)
 
 「刪除資源」部分已添加有關重新起草影響的警告。 [閱讀更多資訊](../../developing/using/deleting-a-resource.md)
 
@@ -377,7 +405,7 @@ Dreamweaver整合區段已更新並改良。 [閱讀更多資訊](../../designin
 
 已更新 [從URL檔案匯入內容](../../designing/using/using-existing-content.md#importing-content-from-a-url) ，其中包含與電子郵件設計工具相關的資訊。
 
-Microsoft Edge（最新版本）已新增至電腦的相容瀏覽器清單。 [閱讀更多資訊](../../start/using/compatible-browsers.md)
+Microsoft Edge（最新版本）已新增至電腦的相容瀏覽器清單。 [閱讀更多資訊](../../administration/using/compatible-browsers.md)
 
 已新增有關「擷取檔案」活動中新選項的資訊，當傳入轉場為空時，此項資訊無法產生檔案。 [閱讀更多資訊](../../automating/using/extract-file.md)
 

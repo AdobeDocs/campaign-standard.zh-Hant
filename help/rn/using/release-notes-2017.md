@@ -12,7 +12,7 @@ discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 33d4704d664a809073790e47ab6bb84e9c2b07d5
+source-git-commit: 6a34cc1a8848b21ea01b9a20b9deb9be5b5e3895
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 33d4704d664a809073790e47ab6bb84e9c2b07d5
 
 每個版本都提供新功能和修補程式。 按一下某個版本以檢視其內容。
 
-檢視Adobe Campaign standard的 [最新檔案](../../rn/using/documentation-updates.md) 更新。 如果您要尋找較新的版本，請參閱本 [頁](../../rn/using/release-notes.md)。
+檢視Adobe Campaign Standard的 [最新檔案](../../rn/using/documentation-updates.md) 更新。 如果您要尋找較新的版本，請參閱本 [頁](../../rn/using/release-notes.md)。
 
 ## 發行版本17.10 - 2017年10月 {#release-17-10---october-2017}
 
@@ -72,7 +72,7 @@ _推播通知_
 * 推播通知現在在GCM和啟用FCM的Android行動應用程式上都受支援。
 * 修正複製推播通知範本時無法儲存內容的錯誤。
 * 現在，您可以協調行動應用程式使用者的資料，從Adobe Campaign資料庫建立或更新個人檔案。
-* Adobe Campaign現在會優先處理交易式推播通知，而非標準推播通知。
+* Adobe Campaign現在會優先處理交易推播通知，而非標準推播通知。
 
 _報表_
 
@@ -84,11 +84,11 @@ _報表_
 
 _工作流程_
 
-* 修正活動中手動 **[!UICONTROL Load file]**新增和移除活動中的欄後，可能導致錯誤的問題。
-* 技術 **[!UICONTROL deliverabilityUpdate]**工作流程現在排定在伺服器時間凌晨2點執行。
+* 修正活動中手動 **[!UICONTROL Load file]** 新增和移除活動中的欄後，可能導致錯誤的問題。
+* 技術 **[!UICONTROL deliverabilityUpdate]** 工作流程現在排定在伺服器時間凌晨2點執行。
 * 修正允許執行不含匯出角色的清單匯出的安全性問題。
-* 已修正活動的問 **[!UICONTROL Reconciliation]**題。
-* 修正活動中使用萬用字元的問 **[!UICONTROL File Transfer]**題。
+* 已修正活動的問 **[!UICONTROL Reconciliation]** 題。
+* 修正活動中使用萬用字元的問 **[!UICONTROL File Transfer]** 題。
 
 _設定檔與閱聽眾_
 
@@ -126,7 +126,7 @@ _自訂資源_
   </tr> 
   <tr> 
    <td> 含來源和日期的成批訂閱<br /> </td> 
-   <td> 透過此「大量訂閱」增強功能，您現在可以透過工作流程中的「訂閱服務」活動，直接將訂閱資訊（來源和日期）儲存在Adobe Campaign standard資料庫中。<br /> 如需詳細資訊，請參閱詳 <a href="../../automating/using/subscription-services.md">細檔案</a>。<br /> </td> 
+   <td> 透過此「大量訂閱」增強功能，您現在可以透過工作流程中的「訂閱服務」活動，直接將訂閱資訊（來源和日期）儲存在Adobe Campaign Standard資料庫中。<br /> 如需詳細資訊，請參閱詳 <a href="../../automating/using/subscription-services.md">細檔案</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -194,15 +194,15 @@ _設定檔與閱聽眾_
   </tr> 
   <tr> 
    <td> Adobe Campaign通知<br /> </td> 
-   <td> 直接在Adobe Campaign standard中接收有關重要系統活動的通知。 例如，當您正在進行的傳送進度或工作流程發生錯誤時，將會通知您。<br /> 即時通知可讓相關利益相關者隨時得知相關資訊，讓使用者能夠立即直接從應用程式中處理活動通知。 團隊的成果是，提高了靈活性、效率和更順暢地執行宣傳活動。 如需詳細資訊，請參閱詳 <a href="../../administration/using/sending-internal-notifications.md">細檔案</a>。<br /> </td> 
+   <td> 直接在Adobe Campaign Standard中接收有關重要系統活動的通知。 例如，當您正在進行的傳送進度或工作流程發生錯誤時，將會通知您。<br /> 即時通知可讓相關利益相關者隨時得知相關資訊，讓使用者能夠立即直接從應用程式中處理活動通知。 團隊的成果是，提高了靈活性、效率和更順暢地執行宣傳活動。 如需詳細資訊，請參閱詳 <a href="../../administration/using/sending-internal-notifications.md">細檔案</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 傳送警報<br /> </td> 
-   <td> 除了直接在Adobe Campaign standard中檢視通知外，Adobe Campaign現在還提供電子郵件警報系統，可針對重要系統活動向使用者或外部利益相關者觸發電子郵件警報。 建立、管理和接收可自訂的警報和儀表板，以追蹤傳送的成功或失敗。<br /> Adobe Campaign傳送快訊透過電子郵件和資料板，讓公司內所有相關的Adobe Campaign使用者自動得知傳送執行狀態，進而大幅提升效率。 如需詳細資訊，請參閱詳 <a href="../../sending/using/receiving-alerts-when-failures-happen.md">細檔案</a>。<br /> </td> 
+   <td> 除了直接在Adobe Campaign Standard中檢視通知外，Adobe Campaign現在還提供電子郵件警報系統，可針對重要系統活動向使用者或外部利益相關者觸發電子郵件警報。 建立、管理和接收可自訂的警報和儀表板，以追蹤傳送的成功或失敗。<br /> Adobe Campaign傳送快訊透過電子郵件和資料板，讓公司內所有相關的Adobe Campaign使用者自動得知傳送執行狀態，進而大幅提升效率。 如需詳細資訊，請參閱詳 <a href="../../sending/using/receiving-alerts-when-failures-happen.md">細檔案</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 資料來源中的加密宣告ID<br /> </td> 
-   <td> 使用加密的連絡資訊（電子郵件地址或電話號碼）做為宣告的ID，傳送電子郵件和簡訊觸發器，而不需要Campaign中的現有設定檔。 由於Encrypted Declared ID可由Adobe Campaign standard解碼，所以當Campaign從包含先前未知聯絡人的其他Experience cloud解決方案接收受眾時，現在可以建立新的可銷售個人檔案。<br /> 透過電子郵件和簡訊即時鎖定客戶和未知潛在客戶，以分別提高現有客戶群的忠誠度並贏得新客戶。 潛在客戶在Adobe Campaign中驗證並運用這些見解後，就可充份運用您的第一方Cookie資料（來自Adobe Audience Manager*）。 <br /> *需要Adobe Audience Manager。 如需詳細資訊，請參閱詳 <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">細檔案</a>。<br /> </td> 
+   <td> 使用加密的連絡資訊（電子郵件地址或電話號碼）做為宣告的ID，傳送電子郵件和簡訊觸發器，而不需要Campaign中的現有設定檔。 由於Encrypted Declared ID可由Adobe Campaign Standard解碼，所以當Campaign從包含先前未知聯絡人的其他Experience Cloud解決方案接收受眾時，現在可以建立新的可銷售個人檔案。<br /> 透過電子郵件和簡訊即時鎖定客戶和未知潛在客戶，以分別提高現有客戶群的忠誠度並贏得新客戶。 潛在客戶在Adobe Campaign中驗證並運用這些見解後，就可充份運用您的第一方Cookie資料（來自Adobe Audience Manager*）。 <br /> *需要Adobe Audience Manager。 如需詳細資訊，請參閱詳 <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">細檔案</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 從促銷活動到Analytics的KPI共用<br /> </td> 
@@ -210,7 +210,7 @@ _設定檔與閱聽眾_
   </tr> 
   <tr> 
    <td> 直接郵件通道——返回發件人<br /> </td> 
-   <td> 現在支援與直接郵件提供者交換包含「傳回給寄件者」資訊的平面檔案。 此對「直效郵件」頻道的增強功能可讓對應的郵寄地址排除在未來通訊之外。<br /> 這可讓行銷人員收到錯誤地址的通知，並透過其他通道與客戶互動，或鼓勵他更新其郵遞區號。 此外，由於行銷人員避免將郵件傳送至不正確的位址，因此也會減少浪費的行銷資金。 <br /> Direct mail可作為附加渠道使用。 如需詳細資訊，請參閱詳 <a href="../../channels/using/return-to-sender.md">細檔案</a>。<br /> </td> 
+   <td> 現在支援與直接郵件提供者交換包含「傳回給寄件者」資訊的平面檔案。 此對「直效郵件」頻道的增強功能可讓對應的郵寄地址排除在未來通訊之外。<br /> 這可讓行銷人員收到錯誤地址的通知，並透過其他通道與客戶互動，或鼓勵他更新其郵遞區號。 此外，由於行銷人員避免將郵件傳送至不正確的位址，因此也會減少浪費的行銷資金。 <br /> Direct Mail可作為附加渠道使用。 如需詳細資訊，請參閱詳 <a href="../../channels/using/return-to-sender.md">細檔案</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -219,17 +219,17 @@ _設定檔與閱聽眾_
 
 _一般_
 
-* 修正讓任何使用者匯出清單的問題。 現在，僅允許具 **[!UICONTROL Export]**有角色的用戶。
+* 修正讓任何使用者匯出清單的問題。 現在，僅允許具 **[!UICONTROL Export]** 有角色的用戶。
 
 _電子郵件、簡訊訊息和直效郵件_
 
 * 修正更新DeliveryExecInfo **工作流程中，將SMS傳送的「傳送** 指示符 **** 」設為0的問題。
 * 在傳送 **範本屬性的** 「進階參數」中，「路由選擇 **** 」下拉式清單現在只會顯示與範本訊息類型對應的外部帳戶。 例如，電子郵件傳送範本只會顯示電子郵件外部帳戶。
-* 修正為測試設定檔 **[!UICONTROL Text]**定義之偏好電子郵件格式的問題。
+* 修正為測試設定檔 **[!UICONTROL Text]** 定義之偏好電子郵件格式的問題。
 * 修正在傳送的排程定義畫面中選取預設時區時，導致Javascript錯誤的問題。
 * 修正傳送記錄檔中無法顯示陷阱的問題。
 * 在傳送建立精靈的範本選擇畫面中，後續動作和A/B測試範本現在預設會隱藏。 如需詳細資訊，請參閱詳 [細檔案](../../channels/using/creating-an-email.md)。
-* 修正讓任何使用者傳送傳送的問題。 現在，僅允許具 **[!UICONTROL Start deliveries]**有角色的用戶。 如需詳細資訊，請參閱詳[細檔案](../../sending/using/confirming-the-send.md)。
+* 修正讓任何使用者傳送傳送的問題。 現在，僅允許具 **[!UICONTROL Start deliveries]** 有角色的用戶。 如需詳細資訊，請參閱詳 [細檔案](../../sending/using/confirming-the-send.md)。
 
 _推播通知_
 
@@ -266,11 +266,11 @@ _工作流程_
  <tbody> 
   <tr> 
    <td> 直接郵件<br /> </td> 
-   <td> 透過Adobe Campaign Standard的第一個離線通道Direct mail突破數位障礙，與實體世界連結。 這項功能可讓您個人化並產生直接郵件供應商所需的檔案，做為跨通道宣傳的一部分。 運用Direct mail透過吸引人的觸點，將客戶帶往您的應用程式、網站或商店，來重新吸引客戶或增強客戶體驗。<br /> 如需詳細資訊，請參閱詳 <a href="../../channels/using/about-direct-mail.md">細檔案</a>。<br /> </td> 
+   <td> 透過Adobe Campaign Standard的第一個離線通道Direct Mail突破數位障礙，與實體世界連結。 這項功能可讓您個人化並產生直接郵件供應商所需的檔案，做為跨通道宣傳的一部分。 運用Direct Mail透過吸引人的觸點，將客戶帶往您的應用程式、網站或商店，來重新吸引客戶或增強客戶體驗。<br /> 如需詳細資訊，請參閱詳 <a href="../../channels/using/about-direct-mail.md">細檔案</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 電子郵件密件副本<br /> </td> 
-   <td> 電子郵件密件副本可儲存傳送給個別收件者的獨特電子郵件訊息，讓品牌可封存這些訊息。 借由將密件副本電子郵件地址新增至所有電子郵件，Adobe Campaign Standard客戶可透過此功能保留每封電子郵件的完整副本。 這是金融服務業的常見法律要求，有助於協助客戶服務中心即時解決衝突。<br /> 如需詳細資訊，請參閱詳 <a href="../../administration/using/configuring-email-channel.md#archiving-emails">細檔案</a>。<br /> </td> 
+   <td> 電子郵件密件副本可儲存傳送給個別收件者的獨特電子郵件訊息，讓品牌可封存這些訊息。 借由將密件副本電子郵件地址新增至所有電子郵件，Adobe Campaign Standard客戶可透過此功能保留每封電子郵件的完整副本。 這是金融服務業的常見法律要求，有助於協助客戶服務中心即時解決衝突。<br /> 如需詳細資訊，請參閱詳 <a href="../../sending/using/archiving.md">細檔案</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -279,20 +279,20 @@ _工作流程_
 
 _介面更新_
 
-* 在頂端列中，連結已 **[!UICONTROL Timeline]**經移除，並以連結取代**[!UICONTROL Programs & Campaigns]** 。
+* 在頂端列中，連結已 **[!UICONTROL Timeline]** 經移除，並以連結取代 **[!UICONTROL Programs & Campaigns]** 。
 
 _電子郵件和簡訊_
 
-* 修正傳送狀態顯示錯誤顏色 **[!UICONTROL Retry in progress]**的問題。 顏色是灰色而非藍色。
+* 修正傳送狀態顯示錯誤顏色 **[!UICONTROL Retry in progress]** 的問題。 顏色是灰色而非藍色。
 
 _工作流程_
 
-* 修正變更動作以在活動中執行時發生的 **[!UICONTROL Transfer file]**問題。
+* 修正變更動作以在活動中執行時發生的 **[!UICONTROL Transfer file]** 問題。
 
 _報表_
 
-* 計 **[!UICONTROL Spam]**算和**[!UICONTROL Spam rate]** 指標已變更。
-* 已 **[!UICONTROL Bounce]**改善量度以取得更精確的結果。
+* 計 **[!UICONTROL Spam]** 算和 **[!UICONTROL Spam rate]** 指標已變更。
+* 已 **[!UICONTROL Bounce]** 改善量度以取得更精確的結果。
 
 _推播通知_
 
@@ -313,7 +313,7 @@ _推播通知_
  <tbody> 
   <tr> 
    <td> Creative SDK的增強影像版本功能<br /> </td> 
-   <td> 您現在可以存取Creative SDK所提供的完整功能集，以在編輯電子郵件或登陸頁面時，直接在內容編輯器中增強您的影像。<br /> 這項功能不需要購買其他Creative cloud解決方案。<br /> 如需詳細資訊，請參閱詳 <a href="../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk">細檔案</a>。<br /> </td> 
+   <td> 您現在可以存取Creative SDK所提供的完整功能集，以在編輯電子郵件或登陸頁面時，直接在內容編輯器中增強您的影像。<br /> 這項功能不需要購買其他Creative Cloud解決方案。<br /> 如需詳細資訊，請參閱詳 <a href="../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk">細檔案</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 交易式推播通知<br /> </td> 
@@ -355,14 +355,14 @@ _交易式訊息_
 
 _登錄頁面_
 
-* 我們已最佳化登陸頁 **[!UICONTROL by email]**面中使用的篩選器，以協調新訂閱者與資料庫設定檔。
+* 我們已最佳化登陸頁 **[!UICONTROL by email]** 面中使用的篩選器，以協調新訂閱者與資料庫設定檔。
 * 修正在表單設定中使用布林欄位時，顯示免費文字輸入而非核取方塊的問題。
 * 修正無法產生著陸頁面縮圖的問題。
 
 _工作流程_
 
-* 修正編輯或活動時 **[!UICONTROL End]**的顯**[!UICONTROL External Signal]** 示錯誤（僅限Safari）。
-* 改進編輯包含錯誤對象的活 **[!UICONTROL Read Audience]**動時顯示的錯誤訊息。
+* 修正編輯或活動時 **[!UICONTROL End]** 的顯 **[!UICONTROL External Signal]** 示錯誤（僅限Safari）。
+* 改進編輯包含錯誤對象的活 **[!UICONTROL Read Audience]** 動時顯示的錯誤訊息。
 * 修正在執行訂閱活動時可能導致SQL錯誤的問題。
 
 _整合_
@@ -454,7 +454,7 @@ _一般_
 
 _電子郵件和簡訊_
 
-* 修正即使在取消勾選 **[!UICONTROL Request confirmation before sending messages]**並儲存傳送後，仍會保留選取選項的問題。
+* 修正即使在取消勾選 **[!UICONTROL Request confirmation before sending messages]** 並儲存傳送後，仍會保留選取選項的問題。
 * 已修正無法取消發佈交易電子郵件的問題。
 * 修正內容在預覽傳送前無法與最新變更正確同步的問題。
 
@@ -464,8 +464,8 @@ _登錄頁面_
 
 _工作流程_
 
-* 已修正無法讀取活動之拒絕轉換內容的問 **[!UICONTROL Load file]**題。
-* 修正在設定活動時，無法正確考慮交換欄的問 **[!UICONTROL Load file]**題。
+* 已修正無法讀取活動之拒絕轉換內容的問 **[!UICONTROL Load file]** 題。
+* 修正在設定活動時，無法正確考慮交換欄的問 **[!UICONTROL Load file]** 題。
 
 ## 發行版本17.1 - 2017年1月 {#release-17-1---january-2017}
 
@@ -513,7 +513,7 @@ _工作流程_
 
 _一般_
 
-* 選 **[!UICONTROL Access authorization]**項已返回著陸頁面屬性。
+* 選 **[!UICONTROL Access authorization]** 項已返回著陸頁面屬性。
 * 修正可能導致舊影像轉換而非正確影像的問題。 如果來源影像已在傳送或登陸頁面的內容定義中更新，就會發生此情況。
 * 修正使用者無法編輯現有SFTP外部帳戶中特定欄位的問題。
 * 已修正數個UI問題。 例如，使用者現在可以編輯描述檔屬性並儲存修改，而不會遇到UI的問題。
@@ -525,21 +525,21 @@ _電子郵件和簡訊_
 _推播通知_
 
 * 修正從應用程式回傳至Adobe Campaign伺服器的問題。
-* 已修正Android可能無 **[!UICONTROL Play a sound]**法**[!UICONTROL Custom fields]** 考慮的問題。
+* 已修正Android可能無 **[!UICONTROL Play a sound]** 法 **[!UICONTROL Custom fields]** 考慮的問題。
 * 修正可能導致在Emojis的Unicode字元中新增額外逸出字元的問題。
 * 當訂閱者的註冊Token列入黑名單時，Adobe Campaign中的訂閱者清單現在會立即更新對應的狀態。
 
 _工作流程_
 
 * 修正可能無法預覽事件資源（例如rtEvent）查詢的問題。
-* 活動生成的拒絕文 **[!UICONTROL Load file]**件現在可以在其出站轉換中檢索，並在下一個活動中處理。 例如，透過SFTP伺服器使用**[!UICONTROL Transfer file]** 。
-* 修正當在的標籤中選取區段時，使用者無法限制區段 **[!UICONTROL Temporary resource]**人口的**[!UICONTROL General]** 問題 **[!UICONTROL Segmentation]**。
-* **[!UICONTROL Scheduler]**活動無法再設為每10分鐘觸發一次以上。
-* 修正活動中可能無 **[!UICONTROL Use common columns]**法正常運作的**[!UICONTROL Union]** 問題。
+* 活動生成的拒絕文 **[!UICONTROL Load file]** 件現在可以在其出站轉換中檢索，並在下一個活動中處理。 例如，透過SFTP伺服器使用 **[!UICONTROL Transfer file]** 。
+* 修正當在的標籤中選取區段時，使用者無法限制區段 **[!UICONTROL Temporary resource]** 人口的 **[!UICONTROL General]** 問題 **[!UICONTROL Segmentation]** 。
+* **[!UICONTROL Scheduler]** 活動無法再設為每10分鐘觸發一次以上。
+* 修正活動中可能無 **[!UICONTROL Use common columns]** 法正常運作的 **[!UICONTROL Union]** 問題。
 
 _整合_
 
-* 修正在Adobe Campaign中部署事件觸發器時，可能造成錯誤的問題。 當「30天內回傳的可能性」中繼資料已新增至Adobe Marketing cloud的「放棄」觸發器時，就會發生此錯誤。
+* 修正在Adobe Campaign中部署事件觸發器時，可能造成錯誤的問題。 當「30天內回傳的可能性」中繼資料已新增至Adobe Marketing Cloud的「放棄」觸發器時，就會發生此錯誤。
 * 修正從「人員」核心服務匯入觀眾時，技術工作流程可能會清除「目標維度」欄位的問題。 後續查詢無法擷取匯入的觀眾。
-* 修正在勾選選選項時，工 **[!UICONTROL Save audience]**作流程的活動可能會失敗的**[!UICONTROL Share in Adobe Marketing Cloud]** 問題。
+* 修正在勾選選選項時，工 **[!UICONTROL Save audience]** 作流程的活動可能會失敗的 **[!UICONTROL Share in Adobe Marketing Cloud]** 問題。
 

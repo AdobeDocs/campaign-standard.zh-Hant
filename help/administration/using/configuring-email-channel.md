@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 04709dd9a754ea616f3e695ada072137b9ecce6a
+source-git-commit: 130eaa44dc89a3b013038660d8e3790f05299136
 
 ---
 
@@ -298,7 +298,7 @@ The following parameters are available for each rule:
 
 「批准消息」部分中將詳細 [介紹準備消息](../../sending/using/preparing-the-send.md) 。
 
-* **[!UICONTROL Typology]**:在傳送之前，必須準備訊息，才能驗證內容和設定。 在準備階段期間應用的驗證規則以類型學 **定義**。 例如，對於電子郵件，準備包括檢查主題、URL和影像等。 選擇要在此欄位中應用的類型學。
+* **[!UICONTROL Typology]**:在傳送之前，必須準備訊息，才能驗證內容和設定。 在準備階段應用的驗證規則以類型學定 **義**。 例如，對於電子郵件，準備包括檢查主題、URL和影像等。 選擇要在此欄位中應用的類型學。
 
    >[!NOTE]
    >
@@ -309,6 +309,10 @@ The following parameters are available for each rule:
    您也可以使用已宣告至工作流程外部訊號活動的事件變數來個人化傳送標籤。 如需詳細資訊，請參閱[本小節](../../automating/using/calling-a-workflow-with-external-parameters.md)。
 
 * **[!UICONTROL Save SQL queries in the log]**:此選項允許您在準備階段期間在日誌中添加SQL查詢日誌。
+
+#### 校對設定 {#proof-settings}
+
+本節允許您配置要在校對的主題行中使用的預設前置詞。 For more in this, refer to [this section](../../sending/using/sending-proofs.md).
 
 ### 電子郵件SMTP參數清單 {#list-of-email-smtp-parameters}
 

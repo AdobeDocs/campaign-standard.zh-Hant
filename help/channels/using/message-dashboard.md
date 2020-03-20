@@ -13,7 +13,7 @@ context-tags: delivery,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: 80f6a384e99a7cebbe5c570f3273eceb393fd9b0
 
 ---
 
@@ -61,7 +61,7 @@ source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
    有關消息準備的詳細信 [息，請準備發送](../../sending/using/preparing-the-send.md)。
 
-* **[!UICONTROL Confirm send]**:確認傳送訊息。 傳送統計資料會出現在區塊 **[!UICONTROL Deployment]** 中。 此按鈕只會在傳送準備完成後顯示。 您可以隨時使用「停止傳送」和按鈕來停止 **或暫停****[!UICONTROL Pause]** 傳送。
+* **[!UICONTROL Confirm send]**:確認傳送訊息。 傳送統計資料會出現在區塊 **[!UICONTROL Deployment]** 中。 此按鈕只會在傳送準備完成後顯示。 您可以隨時使用「停止傳送」和按鈕來停 **止或暫停****[!UICONTROL Pause]** 傳送。
 
    有關確認發送的詳細資訊，請參 [閱發送消息](../../sending/using/confirming-the-send.md)。
 
@@ -96,7 +96,7 @@ source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
    如果您看到此訊息，在IP相似性定義層級或傳送程式層級會發生問題。 請聯絡您的Adobe管理員。
 
-* *「此交易式訊息是現成可用的交易式訊息範本。 如果要修改它，您必須複製它並處理副本。」*
+* *「這是現成可用的交易訊息範本。 如果要修改它，您必須複製它並處理副本。」*
 
    其中一些現成可用的交易訊息範本是內建的登陸頁面範本。 For more on this, see [this section](../../channels/using/landing-page-templates.md).
 

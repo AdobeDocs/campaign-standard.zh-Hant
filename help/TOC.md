@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
+source-git-commit: ddccab05af415fe3ddab7b75db7118fa94552565
 
 ---
 
@@ -16,6 +16,7 @@ source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
 + 發行說明 {#release-notes}
    + [最新版本](rn/using/release-notes.md)
    + 舊版 {#previous-releases}
+      + [發行說明 2020 年](rn/using/release-notes-2020.md)
       + [發行說明 2019 年](rn/using/release-notes-2019.md)
       + [發行說明 2018 年](rn/using/release-notes-2018.md)
       + [發行說明 2017 年](rn/using/release-notes-2017.md)
@@ -32,7 +33,6 @@ source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
    + 探索介面 {#discovering-the-interface}
       + [關於介面](start/using/about-the-interface.md)
       + [介面說明](start/using/interface-description.md)
-      + [相容瀏覽器](start/using/compatible-browsers.md)
       + [自訂清單](start/using/customizing-lists.md)
    + 行銷計劃 {#marketing-plans}
       + [方案與行銷活動](start/using/programs-and-campaigns.md)
@@ -141,6 +141,7 @@ source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
       + [預覽訊息](sending/using/previewing-messages.md)
       + [準備傳送](sending/using/preparing-the-send.md)
       + [傳送校樣](sending/using/sending-proofs.md)
+      + [使用目標設定檔測試電子郵件訊息](sending/using/testing-messages-using-target.md)
       + [測試電子郵件的主旨行](sending/using/testing-subject-line-email.md)
       + [電子郵件呈現](sending/using/email-rendering.md)
       + [使用陷阱](sending/using/using-traps.md)
@@ -342,6 +343,10 @@ source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
       + [訪客](developing/using/datamodel-visitor.md)
 + 管理 {#administrating}
    + [關於管理 Adobe Campaign](administration/using/about-administrating-adobe-campaign.md)
+   + 配置指南 {#configuration-guidelines}
+      + [關於配置指導](administration/using/about-configuration-guidelines.md)
+      + [相容瀏覽器](administration/using/compatible-browsers.md)
+      + [Campaign Standard網路端點](administration/using/campaign-standard-network-endpoints.md)
    + 使用者與安全性 {#users-and-security}
       + [關於存取管理](administration/using/about-access-management.md)
       + [使用者管理](administration/using/users-management.md)

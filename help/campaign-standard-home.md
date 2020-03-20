@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Adobe Campaign Standard 產品文件
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 3fa3fac1ae34c5e53195ad1605be5d4e25f11318
+source-git-commit: 14f3ce8641785e88fc2b566c62089833713aa82e
 
 ---
 
@@ -15,11 +15,9 @@ source-git-commit: 3fa3fac1ae34c5e53195ad1605be5d4e25f11318
 
 ## 新增功能
 
+* **[使用目標設定檔進行電子郵件測](sending/using/testing-messages-using-target.md)**試瞭解如何在目標設定檔上測試您的電子郵件。
+
 * **[隱私權管理](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>瞭解由 Adobe Campaign 提供的協助您遵從隱私權要求的工具。
-
-* **[傳遞最佳實務](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>進一步瞭解與傳送內容設計和傳送相關的最佳實務。
-
-* **[電子郵件設計工具](designing/using/designing-content-in-adobe-campaign.md)**<br/>請參閱重新整理的電子郵件設計工具文件。
 
 * **[Campaign Standard 行動指南](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>進一步瞭解行動傳送的一般準則。
 

@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: 6f89b420f0f98c13da1bfff8f9b1b29e015aef89
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Campaign傳遞的訊息內容和顯示方式可透過多種不同方式個
 * 插入動態的個人化欄位。請參 [閱插入個人化欄位](#inserting-a-personalization-field)。
 * 插入預先定義的個人化區塊。 請參 [閱新增內容區塊](#adding-a-content-block)。
 * 個人化電子郵件的寄件者。 請參 [閱個人化傳送者](#personalizing-the-sender)。
-* 個人化電子郵件的主題。 See [Personalizing the subject line of an email](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
+* 個人化電子郵件的主題。 See [Personalizing the subject line of an email](../../designing/using/subject-line.md#subject-line).
 * 建立有條件的內容。請參 [閱定義電子郵件中的動態內容](#defining-dynamic-content-in-an-email)。
 
 ## 個人化傳送者 {#personalizing-the-sender}
@@ -292,9 +292,9 @@ Adobe Campaign可讓您根據特定標準或使用追蹤，個人化訊息中的
 
 1. 您可以使用兩種不同的條件 **定義兩種不同的動態內容**，例如：
 
-   **** 條件1:側寫的性別是男性化的，
+   **條件1:** 側寫的性別是男性化的，
 
-   **** 條件2:側寫是20到30歲。
+   **條件2:** 側寫是20到30歲。
 
    ![](assets/delivery_content_61.png)
 

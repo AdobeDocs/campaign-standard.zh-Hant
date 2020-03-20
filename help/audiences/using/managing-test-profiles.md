@@ -13,7 +13,7 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ff9d0c3ca42606f097a34b1835d285541061e57b
+source-git-commit: 767d4233236019213003961aae1abb317198e581
 
 ---
 
@@ -28,13 +28,13 @@ source-git-commit: ff9d0c3ca42606f097a34b1835d285541061e57b
 
 測試配置檔案包含虛構的聯繫資訊或由發送者控制的聯繫資訊，這些資訊隨後可用於以下上下文中的消息：
 
-* 傳送校 **樣**:校對是特定訊息，用來在傳送已完成的傳送給收件者之前檢查訊息。 Proof測試設定檔負責檢查傳送的內容和格式。 請參閱 [傳送校樣](../../sending/using/sending-proofs.md)。
-* 對於電 **子郵件轉譯**:電子郵件轉換測試配置檔案用於檢查根據接收郵件收件箱顯示郵件的方式。 例如，webmail、message service、mobile等。 請參閱 [電子郵件轉譯](../../sending/using/email-rendering.md)。
+* 傳送校 **樣**:「校對」是特定訊息，用於在傳送已完成的傳送給收件者之前檢查訊息。 Proof測試設定檔負責檢查傳送內容與格式。 請參閱 [傳送校樣](../../sending/using/sending-proofs.md)。
+* 對於電 **子郵件轉譯**:「電子郵件轉換」測試配置檔案用於檢查根據接收郵件的收件箱顯示郵件的方式。 例如，webmail、message service、mobile等。 請參閱 [電子郵件轉譯](../../sending/using/email-rendering.md)。
 
    「電 **子郵件** 」轉譯使用為唯讀。 使用此功能的測試設定檔僅能在Adobe Campaign中立即使用。
 
 * 作為陷 **阱**:訊息會傳送至測試描述檔，就像傳送至主要目標一樣。 請參 [閱使用陷阱](../../sending/using/using-traps.md)。
-* 要預 **覽消息** :在預覽訊息以測試個人化元素時，可選取測試描述檔。 請參閱 [預覽訊息](/help/sending/using/previewing-messages.md)。
+* 要預 **覽消息** :在預覽訊息以測試個人化元素時，可選擇測試描述檔。 請參閱 [預覽訊息](/help/sending/using/previewing-messages.md)。
 
 ![](assets/test_profile.png)
 

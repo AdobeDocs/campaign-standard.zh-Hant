@@ -12,14 +12,14 @@ discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: 6e605f1046ddcbad9b4e6f369ea5ecf7202f3def
 
 ---
 
 
 # 關於使用 Campaign 傳送訊息{#about-sending-messages-with-campaign}
 
-定義目標並建立訊息內容後，您必須先進行測試並核准，再將其傳送至主要目標。 操作步驟：
+定義目標並建立消息內容後，您需要先測試並批准該消息，然後再將消息發送到主目標。 操作步驟：
 
 * 使用測試設定檔來預覽您的傳送。
 * 排程傳送：定義傳送訊息的時機。

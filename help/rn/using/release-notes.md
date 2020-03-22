@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b22d6ae9e7ccd305d437d5d4390e1d95393e6344
+source-git-commit: 65a902acd672248339ea871fd73c0d3455b1471d
 
 ---
 
@@ -43,12 +43,12 @@ source-git-commit: b22d6ae9e7ccd305d437d5d4390e1d95393e6344
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>統一的Experience Cloud介面和網域</strong><br /> </th> 
+   <th> <strong>統一的Experience Cloud介面</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>已增強介面頂端列，以改善所有Experience Cloud應用程式的使用體驗。 解決方案存取權已與下列URL整合：experience.adobe.com/&lt;應用程式名稱&gt;。 標題現在可讓您更輕鬆地在解決方案之間切換，並顯示改良的說明和通知。</p>
+   <td> <p>已增強介面頂端列，以改善所有Experience Cloud應用程式的使用體驗。 標題現在可讓您更輕鬆地在解決方案之間切換，並顯示改良的說明和通知。</p>
     <p>如需詳細資訊，請參閱詳 <a href="../../start/using/interface-description.md#top-bar">細檔案</a>。 </p>
    </td> 
   </tr> 
@@ -83,7 +83,7 @@ source-git-commit: b22d6ae9e7ccd305d437d5d4390e1d95393e6344
 **電子郵件設計人員增強功能**
 
 * 修正在個人化影像上多次點按時影響逸出的問題。
-* 修正複製動態文字元件時，可能導致重複的黃色行的問題。 (CAMP-41249)
+* 修正複製動態文字元件時，可能導致重複的黃字行的問題。 (CAMP-41249)
 * 修正在表層級（而非div層級）定義填補時，Outlook中填補的問題。
 * 修正在切換至HTML模式時，影像寬度被修改的問題。 (CAMP-41116)
 * 修正當為圖示提供替代文字時，無法存取社交媒體元件的問題。 (CAMP-41345)

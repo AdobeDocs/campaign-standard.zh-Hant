@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Adobe Campaign Standard 產品文件
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 14f3ce8641785e88fc2b566c62089833713aa82e
+source-git-commit: a6e81927aad7bf06eca6d0dc7436c4dc2a1c21c5
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 14f3ce8641785e88fc2b566c62089833713aa82e
 
 ## 新增功能
 
-* **[使用目標設定檔進行電子郵件測](sending/using/testing-messages-using-target.md)**試瞭解如何在目標設定檔上測試您的電子郵件。
+* **[使用目標設定檔進行電子郵件測](sending/using/testing-messages-using-target.md)**<br/>試瞭解如何在目標設定檔上測試您的電子郵件。
 
 * **[隱私權管理](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>瞭解由 Adobe Campaign 提供的協助您遵從隱私權要求的工具。
 

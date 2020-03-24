@@ -13,7 +13,7 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f7f90991ed4c7323e3a2f8ac7d38da9ff165ef76
+source-git-commit: a6e81927aad7bf06eca6d0dc7436c4dc2a1c21c5
 
 ---
 
@@ -36,6 +36,8 @@ source-git-commit: f7f90991ed4c7323e3a2f8ac7d38da9ff165ef76
 1. （可選）針對每個描述檔，定 **義首碼** ，以新增至校對主旨行。
 1. **在「電子郵件設計器** 」中預覽描述檔的訊息顯示方式。
 1. 傳送校樣。
+
+如需全域程式的詳細資訊，請參閱此處提供的教學課程 [影片](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html)。
 
 >[!IMPORTANT]
 >
@@ -254,6 +256,6 @@ Campaign Standard可讓您匯入可用於測試的設定檔對象。 例如，�
 
    ![](assets/substitution_uc_sendproof.png)
 
-1. 校樣會根據[!UICONCONTROL配置檔案替換頁籤中 **配置的內[容發送&#x200B;]**。
+1. 校樣會根據標籤中已設定的內容來 **[!UICONTROL Profile substitutions]** 傳送。
 
    ![](assets/substitution_uc_proofs.png)

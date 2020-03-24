@@ -170,8 +170,8 @@ source-git-commit: e62fdfba531bcfe18c147e7035c79e1ac6bca979
 您也必須將此觸發事件整合至您的網站。 請參 [閱整合網站中事件的觸發](#integrating-the-triggering-of-the-event-in-a-website)。
 
 <!-->>[!NOTE]
->要查看以前的發佈（如果有），請 **[!UICONTROL Latest transactional events]** 按一下左側 **[!UICONTROL History]** 區域部分下的連結。—>
->
+>要查看以前的發佈（如果有），請 **[!UICONTROL Latest transactional events]** 按一下左側 **[!UICONTROL History]** 區域部分下的連結。-->
+
 ### 取消發佈事件 {#unpublishing-an-event}
 
 按 **[!UICONTROL Unpublish]** 鈕可讓您取消事件的發佈，該發佈會從REST API中刪除與先前建立的事件對應的資源。 現在，即使事件是透過您的網站觸發，對應的訊息也不會再傳送，也不會儲存在資料庫中。

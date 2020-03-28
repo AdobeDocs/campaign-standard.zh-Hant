@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 73fd120c79130c3a4eff43bb080bde8dabe58032
+source-git-commit: c4500832b87e986cdbbbf72b9b8c0591f64f7da8
 
 ---
 
@@ -30,8 +30,6 @@ source-git-commit: 73fd120c79130c3a4eff43bb080bde8dabe58032
 **發行中包含的新功能**
 
 Azure Blob整合- [閱讀更多](../../administration/using/external-accounts.md#microsoft-azure-external-account)
-
-統一的Experience Cloud介面和網域——詳 [細內容](../../start/using/interface-description.md#top-bar)
 
 使用目標設定檔進行電子郵件測試- [閱讀更多](../../sending/using/testing-messages-using-target.md)
 

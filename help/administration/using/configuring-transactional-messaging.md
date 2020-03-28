@@ -12,7 +12,7 @@ discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e62fdfba531bcfe18c147e7035c79e1ac6bca979
+source-git-commit: ce55c5193e7944c65e0d9e6cc791ed2bc13b3509
 
 ---
 
@@ -111,7 +111,7 @@ source-git-commit: e62fdfba531bcfe18c147e7035c79e1ac6bca979
 
    ![](assets/message-center_new-enrichment.png)
 
-1. 使用按 **[!UICONTROL Create element]** 鈕，將選定資源中的欄位連結到先前添加到事件的其中一個欄位(請 [參閱定義事件屬性](#defining-the-event-attributes))。
+1. 使用按 **[!UICONTROL Create element]** 鈕，將選定資源中的欄位連結到您先前添加到事件的其中一個欄位(請 [參閱定義事件屬性](#defining-the-event-attributes))。
 
    ![](assets/message-center_enrichment-join.png)
 
@@ -169,8 +169,11 @@ source-git-commit: e62fdfba531bcfe18c147e7035c79e1ac6bca979
 
 您也必須將此觸發事件整合至您的網站。 請參 [閱整合網站中事件的觸發](#integrating-the-triggering-of-the-event-in-a-website)。
 
-<!-->>[!NOTE]
->要查看以前的發佈（如果有），請 **[!UICONTROL Latest transactional events]** 按一下左側 **[!UICONTROL History]** 區域部分下的連結。-->
+<!--
+>[!NOTE]
+>
+>To consult the previous publications if any, click the **[!UICONTROL Latest transactional events]** link under the **[!UICONTROL History]** section in the left-hand side area.
+-->
 
 ### 取消發佈事件 {#unpublishing-an-event}
 
@@ -179,7 +182,8 @@ source-git-commit: e62fdfba531bcfe18c147e7035c79e1ac6bca979
 ![](assets/message-center_unpublish.png)
 
 >[!NOTE]
-如果您已經發佈了相應的事務性消息，事務性消息發佈也將被取消。 請參 [閱取消發佈交易訊息](../../channels/using/event-transactional-messages.md#unpublishing-a-transactional-message)。
+>
+>如果您已經發佈了相應的事務性消息，事務性消息發佈也將被取消。 請參 [閱取消發佈交易訊息](../../channels/using/event-transactional-messages.md#unpublishing-a-transactional-message)。
 
 按一下 **[!UICONTROL Publish]** 按鈕以產生新的REST API。
 
@@ -193,14 +197,16 @@ source-git-commit: e62fdfba531bcfe18c147e7035c79e1ac6bca979
    ![](assets/message-center_delete-button.png)
 
    >[!NOTE]
-   請確定事件設定具 **[!UICONTROL Draft]** 有狀態，否則您將無法刪除它。 狀 **[!UICONTROL Draft]** 態適用於尚未發佈或未發佈的事件 [](#unpublishing-an-event)。
+   >
+   >請確定事件設定具 **[!UICONTROL Draft]** 有狀態，否則您將無法刪除它。 狀 **[!UICONTROL Draft]** 態適用於尚未發佈或未發佈的事件 [](#unpublishing-an-event)。
 
 1. Click the **[!UICONTROL Confirm]** button.
 
    ![](assets/message-center_delete-confirm.png)
 
 >[!IMPORTANT]
-刪除已發佈且已使用的事件配置也會刪除對應的事務性消息及其發送和跟蹤日誌。
+>
+>刪除已發佈且已使用的事件配置也會刪除對應的事務性消息及其發送和跟蹤日誌。
 
 ## 整合網站中事件的觸發 {#integrating-the-triggering-of-the-event-in-a-website}
 
@@ -226,7 +232,8 @@ source-git-commit: e62fdfba531bcfe18c147e7035c79e1ac6bca979
 1. 如果您想要使用Adobe Campaign資料庫的其他資訊，請豐富交易訊息內容(請參 [閱豐富交易訊息內容](#enriching-the-transactional-message-content))。
 
    >[!NOTE]
-   事件型交易訊息應僅使用傳送事件中的資料來定義收件者和訊息內容個人化。 不過，您可以使用Adobe Campaign資料庫的資訊，豐富您交易訊息的內容。
+   >
+   >事件型交易訊息應僅使用傳送事件中的資料來定義收件者和訊息內容個人化。 不過，您可以使用Adobe Campaign資料庫的資訊，豐富您交易訊息的內容。
 
 1. 預覽並發佈事件(請參閱 [預覽和發佈事件](#previewing-and-publishing-the-event))。
 
@@ -268,7 +275,8 @@ source-git-commit: e62fdfba531bcfe18c147e7035c79e1ac6bca979
 1. 如果您想要使用Adobe Campaign資料庫的其他資訊，請豐富交易訊息內容(請參 [閱豐富交易訊息內容](#enriching-the-transactional-message-content))。
 
    >[!NOTE]
-   事件型交易訊息應僅使用傳送事件中的資料來定義收件者和訊息內容個人化。 不過，您可以使用Adobe Campaign資料庫的資訊，豐富您交易訊息的內容。
+   >
+   >事件型交易訊息應僅使用傳送事件中的資料來定義收件者和訊息內容個人化。 不過，您可以使用Adobe Campaign資料庫的資訊，豐富您交易訊息的內容。
 
 1. 預覽並發佈事件(請參閱 [預覽和發佈事件](#previewing-and-publishing-the-event))。
 
@@ -293,14 +301,15 @@ source-git-commit: e62fdfba531bcfe18c147e7035c79e1ac6bca979
 1. 如果您想要個人化交易訊息，請新增欄位至事件(請 [參閱定義事件屬性](#defining-the-event-attributes))。
 
    >[!NOTE]
-   您必須至少添加一個欄位才能建立富集。 您不需要建立其他欄位，例如 **名字** 、 **姓氏** ，因為您可以使用Adobe Campaign資料庫中的個人化欄位。
+   >
+   >您必須至少添加一個欄位才能建立富集。 您不需要建立其他欄位，例如 **名字** 、 **姓氏** ，因為您可以使用Adobe Campaign資料庫中的個人化欄位。
 
 1. 建立擴充功能，以便將事件連結至資源(請參 **[!UICONTROL Profile]** 閱豐 [富交易訊息內容](#enriching-the-transactional-message-content))。 使用定位維度時，必須建立 **[!UICONTROL Profile]** 擴充。
 1. 預覽並發佈事件(請參閱 [預覽和發佈事件](#previewing-and-publishing-the-event))。
 
    預覽事件時，REST API不包含指定註冊Token、應用程式名稱和推播平台的屬性，因為這些屬性將從資源中擷取 **[!UICONTROL Profile]** 。
 
-   發佈事件後，就會自動建立連結至新事件的交易推播通知。 若要修改並發佈剛建立的訊息，請參閱傳 [送交易推播通知以定位描述檔](../../channels/using/transactional-push-notifications.md#transactional-push-notifications-targeting-a-profile)。
+   發佈事件後，就會自動建立連結至新事件的交易推播通知。 若要修改並發佈剛建立的訊息，請參閱傳 [送交易式推播通知以定位描述檔](../../channels/using/transactional-push-notifications.md#transactional-push-notifications-targeting-a-profile)。
 
 1. 將事件整合至您的網站(請 [參閱整合網站中事件的觸發](#integrating-the-triggering-of-the-event-in-a-website))。
 

@@ -12,7 +12,7 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8e614bb3e3e559a02ee5e94d9dc21e85d1b4dbd2
+source-git-commit: 7cd5f11ab22d0bb3b6864670cd61007e39ebf543
 
 ---
 
@@ -43,11 +43,11 @@ Adobe透過新增功能、增強功能和修正不斷改進其解決方案。
  <tbody> 
   <tr> 
    <td> Stage<br /> </td> 
-   <td> 2020年3月23日至24日<br /> </td> 
+   <td> 2020年4月1日至2日<br /> </td> 
   </tr> 
   <tr> 
    <td> 製作<br /> </td> 
-   <td> 2020年3月31日至4月6日<br /> </td> 
+   <td> 2020年4月6日至9日<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,7 +58,7 @@ Adobe透過新增功能、增強功能和修正不斷改進其解決方案。
 
 **問：影響是什麼？**
 
-答：變更列在發行說 [明中](../../rn/using/release-notes.md)，包括相關檔案的連結。 Adobe也建議參考「已過時 [和已移除功能」頁面](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)。 這些頁面適用於Stage環境升級日期的新版本。
+答：變更會列在發行說 [明中](../../rn/using/release-notes.md)，包括相關檔案的連結。 Adobe也建議參考「已過時 [和已移除功能」頁面](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)。 這些頁面適用於Stage環境升級日期的新版本。
 
 **問：什麼是驗證程式？**
 

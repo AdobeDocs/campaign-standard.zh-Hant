@@ -12,7 +12,7 @@ discoiquuid: dafd9860-cd22-4c30-86b7-631b64db7b3f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e1e9f1f69a23a2510bf91b101a74434f759fdb95
+source-git-commit: 260312a461d02c32683e1eb8a90bbaa282800668
 
 ---
 
@@ -60,25 +60,12 @@ Adobe Campaign可讓您導覽不同的功能表和螢幕，以管理您的促銷
 * 此連 **[!UICONTROL Home]** 結可讓您顯示Adobe Campaign首頁。
 * 這些 **[!UICONTROL Marketing activities]**、 **[!UICONTROL Programs & Campaigns]**、和 **[!UICONTROL Profiles]****[!UICONTROL Audiences]****[!UICONTROL Reports]** 連結可讓您存取與這些功能連結的檢視。
 * 此按 **[!UICONTROL Help]** 鈕可讓您存取產品檔案和內容相關說明、發行說明、版本號碼、法律聲明，以及Adobe Experience Cloud社群和客戶服務的連結。
-* 「組織」按鈕
-* 「解 **決方案切換器** 」圖示可讓您切換至其他Adobe Experience Cloud解決方案以及描述檔設定。
-* 「通 **知** 」圖示會顯示最新警報或資訊。
-* 「使 **用者** 」圖示可讓您顯示連結至個人資料的資訊。 它提供按鈕的存 **[!UICONTROL Sign out]** 取權。
-
-### 說明 {#help}
-
-* **[!UICONTROL Search]** 可讓您擷取檔案、文章和影片，並依解決方案篩選內容
-
-* **[!UICONTROL Help]** 頁籤
-   * 連結可讓您快速存取與您瀏覽之頁面相關的文章、檔案和影片
-   * **[!UICONTROL Learning]** 此連結可讓您存取Experience League。
-   * **[!UICONTROL Community]** 此連結允許您訪問ACS專門討論的論壇。
-
-* **[!UICONTROL Support]** 標籤可讓您建立支援票證，並透過電話或Twitter與我們聯絡。
-
-* **[!UICONTROL Feedback ]** 標籤可讓您分享有關解決方案的問題和想法。
 
    ![](assets/ux_help.png)
+
+* 「選 **取解決方案** 」圖示可讓您切換至其他Adobe Experience Cloud解決方案以及設定檔設定。
+* 「通 **知** 」圖示會顯示最新警報或資訊。
+* 「使 **用者** 」圖示可讓您顯示連結至個人資料的資訊。 它提供按鈕的存 **[!UICONTROL Sign out]** 取權。
 
 ## 進階功能表 {#advanced-menu}
 
@@ -95,7 +82,7 @@ Adobe Campaign可讓您導覽不同的功能表和螢幕，以管理您的促銷
 * **[!UICONTROL Timeline]** -有關詳細資訊，請參閱「時間 [軸](../../start/using/timeline.md) 」部分。
 * **[!UICONTROL Transactional messages]**，其中包含子菜單 **[!UICONTROL Deliveries]** 和 **[!UICONTROL Event configuration]** -有關詳細資訊，請參 [閱Transactional messaging](../../channels/using/about-transactional-messaging.md) 。
 
-### 個人檔案與觀眾 {#profiles-e-audiences}
+### Profiles &amp; audiences {#profiles-e-audiences}
 
 此圖 **[!UICONTROL Profiles & audiences]** 示可讓您存取下列功能：
 

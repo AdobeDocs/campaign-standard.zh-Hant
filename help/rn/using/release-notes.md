@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 65a902acd672248339ea871fd73c0d3455b1471d
+source-git-commit: c4500832b87e986cdbbbf72b9b8c0591f64f7da8
 
 ---
 
@@ -35,21 +35,6 @@ source-git-commit: 65a902acd672248339ea871fd73c0d3455b1471d
   <tr> 
    <td> <p>Azure Blob儲存連接器現在可用來使用傳輸檔案工作流程活動，將資料匯入或匯 <strong>出至</strong> Adobe Campaign。 </p>
     <p>如需詳細資訊，請參閱詳 <a href="../../administration/using/external-accounts.md#microsoft-azure-external-account">細檔案</a>。</p>
-   </td> 
-  </tr> 
- </tbody> 
-</table>
-
-<table> 
- <thead> 
-  <tr> 
-   <th> <strong>統一的Experience Cloud介面</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p>已增強介面頂端列，以改善所有Experience Cloud應用程式的使用體驗。 標題現在可讓您更輕鬆地在解決方案之間切換，並顯示改良的說明和通知。</p>
-    <p>如需詳細資訊，請參閱詳 <a href="../../start/using/interface-description.md#top-bar">細檔案</a>。 </p>
    </td> 
   </tr> 
  </tbody> 

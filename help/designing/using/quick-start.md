@@ -1,5 +1,5 @@
 ---
-title: 電子郵件設計人員快速入門
+title: 電子郵件設計工具快速入門
 description: 開始使用電子郵件設計工具建立電子郵件內容。
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
@@ -12,11 +12,11 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
+source-git-commit: d68dbc3e9579f044b7ac1f76ac729548057bb6ec
 
 ---
 
-# 電子郵件設計人員快速入門 {#quick-start}
+# 電子郵件設計工具快速入門 {#quick-start}
 
 電子郵件設計人員提供四種建立電子郵件的方式。
 
@@ -40,7 +40,7 @@ source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
 
 >[!NOTE]
 >
->在這兩種建立策略中，在傳送電子郵件之前先填妥主題行是十分重要的。 瞭解如何 [新增主旨行](#add-a-subject-line)。
+>在這兩種建立策略中，在傳送電子郵件之前先填妥主題行是非常重要的。 瞭解如何 [新增主旨行](#add-a-subject-line)。
 
 ### 從頭開始建立電子郵件 {#from-scratch-email}
 
@@ -53,7 +53,7 @@ source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
 
 傳送電子郵件時，主旨行是必填的。 如需詳細資訊，請 [參閱定義電子郵件的主旨行](../../designing/using/subject-line.md)。
 
-1. 轉至「電 **[!UICONTROL Properties]**子郵件設計器」首頁的標籤（可透過首頁圖示存取）並填寫**[!UICONTROL Subject]** 章節。
+1. 轉至「電 **[!UICONTROL Properties]** 子郵件設計器」首頁的標籤（可透過首頁圖示存取）並填寫 **[!UICONTROL Subject]** 章節。
 
 ![](assets/subject-line-quick-start.png)
 
@@ -99,7 +99,7 @@ source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
 
 ![](assets/html-component-source-code.png)
 
-如果您熟悉HTML，則可使用內容元件，從原始頁尾複製並貼上HTML **[!UICONTROL Html]**程式碼。 如需詳細資訊，請參閱關於[內容元件](../../designing/using/designing-from-scratch.md#about-content-components)。
+如果您熟悉HTML，則可使用內容元件，從原始頁尾複製並貼上HTML **[!UICONTROL Html]** 程式碼。 如需詳細資訊，請參閱關於 [內容元件](../../designing/using/designing-from-scratch.md#about-content-components)。
 
 ![](assets/des_loading_compatible_fragment_9.png)
 
@@ -122,12 +122,12 @@ source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
 您可以利用現成可用的範本（例如客戶歡迎訊息、電子報和重新參與電子郵件）建立電子郵件，並個人化這些範本。
 
 1. 建立電子郵件並開啟其內容。 如需詳細資訊，請參 [閱建立電子郵件](../../channels/using/creating-an-email.md)。
-1. 按一下首頁圖示以存取 **[!UICONTROL Email Designer]**首頁。
-1. 按一下標 **[!UICONTROL Templates]**簽。
+1. 按一下首頁圖示以存取 **[!UICONTROL Email Designer]** 首頁。
+1. 按一下標 **[!UICONTROL Templates]** 簽。
 1. 選擇現成可用的HTML範本。
 不同的範本呈現多種元素的組合。 例如，「羽化」範本有邊界，而「Astro」範本沒有邊界。 如需詳細資訊，請參閱「內 [容範本」](../../designing/using/using-reusable-content.md#content-templates)。
-1. 轉至「電 **[!UICONTROL Properties]**子郵件設計器」首頁的標籤（可透過首頁圖示存取）並填寫**[!UICONTROL Subject]** 章節。
-1. 您可以結合這些元素來建立許多電子郵件變體。 例如，您可以選擇結構元件並從內容相關工具列按一下，以複製 **[!UICONTROL Duplicate]**電子郵件區段。
+1. 轉至「電 **[!UICONTROL Properties]** 子郵件設計器」首頁的標籤（可透過首頁圖示存取）並填寫 **[!UICONTROL Subject]** 章節。
+1. 您可以結合這些元素來建立許多電子郵件變體。 例如，您可以選擇結構元件並從內容相關工具列按一下，以複製 **[!UICONTROL Duplicate]** 電子郵件區段。
 1. 可以使用左側的藍色箭頭將元素移動，以將結構元件拖曳到另一個元件下方或上方。 如需詳細資訊，請參閱「 [編輯電子郵件結構」](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 1. 您也可以移動元件以變更每個結構元素的組織。 如需詳細資訊，請參 [閱新增片段和元件](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 1. 根據您的需求修改每個元素的內容：影像、文字、連結。

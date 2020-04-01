@@ -12,7 +12,7 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7cd5f11ab22d0bb3b6864670cd61007e39ebf543
+source-git-commit: 451c7d15bfe206912fd1f8db8bf8c3d7ec83616d
 
 ---
 
@@ -27,7 +27,7 @@ Adobe透過新增功能、增強功能和修正不斷改進其解決方案。
 
 所有發行日期皆可能變更：我們建議您定期造訪本頁面，以檢查更新。
 
-請訂閱以接 [收發行通知](https://www.adobe.com/subscription/priority-product-update.html) ，直接在您的收件匣中取得有關最新Adobe Experience Cloud發行的詳細資訊。
+請訂閱以接 [收發行通知](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) ，直接在您的收件匣中取得有關最新Adobe Experience Cloud發行的詳細資訊。
 
 ## 版本20.2.1 - 4月發行 {#release-20-2-april-release}
 
@@ -58,7 +58,7 @@ Adobe透過新增功能、增強功能和修正不斷改進其解決方案。
 
 **問：影響是什麼？**
 
-答：變更列在發行說 [明中](../../rn/using/release-notes.md)，包括相關檔案的連結。 Adobe也建議參考「已過時 [和已移除功能」頁面](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)。 這些頁面適用於Stage環境升級日期的新版本。
+答：變更會列在發行說 [明中](../../rn/using/release-notes.md)，包括相關檔案的連結。 Adobe也建議參考「已過時 [和已移除功能」頁面](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)。 這些頁面適用於Stage環境升級日期的新版本。
 
 **問：什麼是驗證程式？**
 
@@ -82,6 +82,6 @@ Adobe透過新增功能、增強功能和修正不斷改進其解決方案。
 
 **問：我要如何得知升級已完成？**
 
-答：登入「促銷活動」時，將會顯示發行通知快顯視窗及最新版本。
+答：登入「促銷活動」時，將會顯示版本通知快顯視窗及最新版本。
 
 如有任何其他問題，請連絡 [Adobe Client Care](https://support.neolane.net/webApp/extranetLogin)。

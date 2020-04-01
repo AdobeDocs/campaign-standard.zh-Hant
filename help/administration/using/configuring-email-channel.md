@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b85633e278e3824a58390ee538b4a6e6954785af
+source-git-commit: d68dbc3e9579f044b7ac1f76ac729548057bb6ec
 
 ---
 
@@ -251,7 +251,7 @@ The following parameters are available for each rule:
 
    >[!IMPORTANT]
    >
-   >必須為要建立鏡像頁面的電子郵件定義了HTML內容。
+   >必須已為要建立鏡像頁面的電子郵件定義HTML內容。
 
    * **[!UICONTROL Generate the mirror page if a mirror link appears in the email content]** （預設模式）:如果連結插入郵件內容，則生成鏡像頁。
    * **強制生成鏡像頁**:即使消息中未插入到鏡像頁的連結，也會建立鏡像頁。
@@ -260,7 +260,7 @@ The following parameters are available for each rule:
 
 >[!NOTE]
 >
->參數 **[!UICONTROL Delivery duration]** 不適用於事務性消息。 有關交易式訊息的詳細資訊，請參 [閱本節](../../channels/using/about-transactional-messaging.md)。
+>參數 **[!UICONTROL Delivery duration]** 不適用於事務性消息。 有關交易式訊息的詳細資訊，請 [參閱本節](../../channels/using/about-transactional-messaging.md)。
 
 ### 追蹤參數 {#tracking-parameters}
 

@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c4500832b87e986cdbbbf72b9b8c0591f64f7da8
+source-git-commit: ce0ddc11c239dd72f14ace56ad008717ebaa47de
 
 ---
 
@@ -20,6 +20,8 @@ source-git-commit: c4500832b87e986cdbbbf72b9b8c0591f64f7da8
 # 最新版本{#latest-release}
 
 [發行計畫](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) |控 [制面板版本](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) |文 [件更新](../../rn/using/documentation-updates.md) |先 [前的發行說明](../../rn/using/release-notes-2019.md) |已過 [時的功能](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+
+[按一下這裡](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) ，即可訂閱發行通知，並直接在您的收件匣中取得有關最新Adobe Experience Cloud發行的詳細資訊。
 
 ## 版本20.2 - 2020年3月 {#release-20-2---march-2020}
 
@@ -68,7 +70,7 @@ source-git-commit: c4500832b87e986cdbbbf72b9b8c0591f64f7da8
 **電子郵件設計人員增強功能**
 
 * 修正在個人化影像上多次點按時影響逸出的問題。
-* 修正複製動態文字元件時，可能導致重複的黃字行的問題。 (CAMP-41249)
+* 修正複製動態文字元件時，可能導致重複的黃色行的問題。 (CAMP-41249)
 * 修正在表層級（而非div層級）定義填補時，Outlook中填補的問題。
 * 修正在切換至HTML模式時，影像寬度被修改的問題。 (CAMP-41116)
 * 修正當為圖示提供替代文字時，無法存取社交媒體元件的問題。 (CAMP-41345)

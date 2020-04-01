@@ -12,14 +12,14 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
+source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
 
 ---
 
 
 # 豐富資料庫{#enriching-the-database}
 
-Campaign standard提供數種工具來協助您擴充行銷資料庫。 本節詳細說明您可使用不同方法將資料插入Campaign，並參考專用檔案。
+Campaign Standard提供數種工具來協助您擴充行銷資料庫。 本節詳細說明您可使用不同方法將資料插入Campaign，並參考專用檔案。
 
 ## 透過工作流程匯入資料 {#importing-data-through-workflows}
 
@@ -53,10 +53,10 @@ Campaign standard提供數種工具來協助您擴充行銷資料庫。 本節�
 
 ## 從Microsoft Dynamics 365同步設定檔
 
-Campaign standard與Microsoft Dynamics 365的整合可讓您將Microsoft Dynamics 365的連絡人資料傳遞至Campaign資料庫。
+Campaign Standard與Microsoft Dynamics 365的整合可讓您將Microsoft Dynamics 365的連絡人資料傳遞至Campaign資料庫。
 然後，這些連絡人會顯示在「設定檔」清單中，並可定位在行銷促銷活動中。
 
-如需此整合的詳細資訊，請參閱專 [用檔案](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)。
+如需此整合的詳細資訊，請參閱專 [用檔案](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)。
 
 >[!NOTE]
 >

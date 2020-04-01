@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: ddccab05af415fe3ddab7b75db7118fa94552565
+source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
 
 ---
 
@@ -198,37 +198,47 @@ source-git-commit: ddccab05af415fe3ddab7b75db7118fa94552565
       + [新增元件](reporting/using/adding-components.md)
       + [建立自訂設定檔維度](reporting/using/creating-a-custom-profile-dimension.md)
       + [根據工作流程細分建立報告](reporting/using/creating-a-report-workflow-segment.md)
-+ 與 Adobe Cloud 整合 {#integrating-with-adobe-cloud}
++ 與其他解決方案整合 {#integrating-with-adobe-cloud}
    + [關於 Campaign 整合](integrating/using/about-campaign-integrations.md)
-   + 協作使用 Campaign 與 Experience Manager {#working-with-campaign-and-experience-manager}
+   + 促銷活動與體驗管理員 {#working-with-campaign-and-experience-manager}
       + [關於 Campaign-Experience Manager 整合](integrating/using/integrating-with-experience-manager.md)
       + [設定Campaign-Experience Manager整合](integrating/using/configure-experience-manager.md)
       + [在 Adobe Experience Manager 中建立電子郵件內容](integrating/using/creating-email-experience-manager.md)
       + [在 Experience Manager 中建立 Campaign 表單](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
-   + 協作使用 Campaign 與 Target {#working-with-campaign-and-target}
+   + 促銷活動與目標 {#working-with-campaign-and-target}
       + [關於 Campaign-Target 整合](integrating/using/about-campaign-target-integration.md)
       + [設定 Campaign-Target 整合](integrating/using/configuring-the-campaign-target-integration.md)
       + [新增 Target 動態內容](integrating/using/adding-target-dynamic-content.md)
-   + 協作使用 Campaign 與 Analytics {#working-with-campaign-and-analytics}
+   + 促銷活動與分析 {#working-with-campaign-and-analytics}
       + [關於 Campaign-Analytics 整合](integrating/using/about-campaign-analytics-integration.md)
       + [設定 Campaign-Analytics 整合](integrating/using/configure-campaign-analytics-integration.md)
       + [Analytics 中 Campaign 維度和度量](integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
-   + 協作使用 Campaign 與 Audience Manager 或 People 核心服務 {#working-with-campaign-and-audience-manager-or-people-core-service}
+   + Campaign and Audience Manager or People core service {#working-with-campaign-and-audience-manager-or-people-core-service}
       + [關於 Campaign-Audience Manager 或 People 核心服務整合](integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
       + [布建與設定與 Audience Manager 或 People 核心服務整合](integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
       + [疑難排解](integrating/using/troubleshooting.md)
       + [與 Audience Manager 或 People 核心服務共用閱聽眾](integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
       + [協作使用 Campaign 與 Assets 核心服務](integrating/using/working-with-campaign-and-assets-core-service.md)
-   + 協作使用行動裝置適用的 Campaign 和 Analytics {#working-with-campaign-and-analytics-for-mobile}
+   + 行動裝置的促銷活動與分析 {#working-with-campaign-and-analytics-for-mobile}
       + [關於 Campaign-Points of Interest 資料整合](integrating/using/about-campaign-points-of-interest-data-integration.md)
       + [設定 Campaign-Points of Interest 資料整合](integrating/using/configuring-campaign-points-of-interest-data-integration.md)
       + [使用 Point of Interest 資料個人化 Campaign 訊息](integrating/using/personalizing-campaign-messages-with-point-of-interest-data.md)
-   + 協作使用 Campaign 與觸發程式 {#working-with-campaign-and-triggers}
+   + 促銷活動和觸發器 {#working-with-campaign-and-triggers}
       + [關於 Adobe Experience Cloud 觸發程式](integrating/using/about-adobe-experience-cloud-triggers.md)
       + [在 Experience Cloud 中設定觸發程式](integrating/using/configuring-triggers-in-experience-cloud.md)
       + [在 Campaign 中使用觸發程式](integrating/using/using-triggers-in-campaign.md)
       + [測試您的觸發程式](integrating/using/testing-your-triggers.md)
       + [廢棄觸發程式使用案例](integrating/using/abandonment-triggers-use-cases.md)
+   + Campaign和Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
+      + [配置Adobe IO for Microsoft Dynamics 365整合](integrating/using/configure-adobe-io-for-ms-dynamic.md)
+      + [使用Campaign Standard和Microsoft Dynamics 365]{#configuring-acs-ms-dynamics}
+         + [使用Campaign Standard和Microsoft Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+         + [通知與建議](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
+         + [請求並設定Microsoft Dynamics 365與Campaign Standard整合](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
+         + [將Microsoft Dynamics 365與Campaign Standard整合](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
+      + [設定Microsoft Dynamics 365以進行促銷活動整合](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
+      + [針對Microsoft Dynamics 365整合設定Unifi](integrating/using/configure-unifi-for-microsoft-dynamics-365-integration.md)
+      + [映射促銷活動自訂資源和Dynamics 365自訂實體](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
 + 管理流程和資料 {#managing-processes-and-data}
    + 關於工作流程和資料管理 {#about-workflows-and-data-management}
       + [工作流程資料和程序](automating/using/workflow-data-and-processes.md)

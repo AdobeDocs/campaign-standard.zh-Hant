@@ -12,7 +12,7 @@ discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3cbb1b6e1697384be2eae3187fd89359628cd8da
+source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
 
 ---
 
@@ -25,31 +25,31 @@ source-git-commit: 3cbb1b6e1697384be2eae3187fd89359628cd8da
 
 >[!NOTE]
 >
-> 依預設，Adobe Campaign已連結至Adobe Experience cloud帳戶。
+> 依預設，Adobe Campaign已連結至Adobe Experience Cloud帳戶。
 
 其他解決方案也可以連結至Adobe Experience Cloud，視您的環境而定。 它們以「組織」（又稱為「租客」）連結。
 
-組織是可讓管理員設定群組和使用者，以及控制Experience cloud中單一登入的實體。 組織的運作方式類似登入公司，涵蓋所有Experience cloud產品和解決方案。 通常，組織就是您的公司名稱。 但是，公司可以有許多組織。 使用者和組織管理在 [Adobe Experience cloud說明入口網站中有詳細說明](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)。
+組織是可讓管理員設定群組和使用者，以及控制Experience Cloud中單一登入的實體。 組織的運作方式類似登入公司，涵蓋所有Experience Cloud產品和解決方案。 通常，組織就是您的公司名稱。 但是，公司可以有許多組織。 使用者和組織管理在 [Adobe Experience Cloud說明入口網站中有詳細說明](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)。
 
 如果您想要將其他系統的資料流與Adobe Campaign整合，請參閱我們的 [API檔案](../../api/using/about-campaign-standard-apis.md)。
 
 >[!NOTE]
 >
->Adobe Campaign Standard也可以連線至Microsoft Dynamics 365:此整合可同步CRM系統中所有可用的連絡資料，讓所有相關的連絡資料都可用於促銷活動。 如需此整合的詳細資訊，請參閱使 [用促銷活動和動態365](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)。
+>Adobe Campaign Standard也可以連線至Microsoft Dynamics 365:此整合可同步CRM系統中所有可用的連絡資料，讓所有相關的連絡資料都可用於促銷活動。 如需此整合的詳細資訊，請參閱使 [用促銷活動和動態365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)。
 
 
 <table> 
  <thead> 
   <tr> 
    <th> 解決方案<br /> </th> 
-   <th> 使用案例<br /> </th> 
+   <th> Use Case<br /> </th> 
    <th> Refer to<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td> Experience Manager<br /> 6.1、6.2、6.3、6.4<br /> </td> 
-   <td> 可讓您直接在Adobe Experience manager中建立對應至Adobe Campaign資料庫的電子郵件內容或表單。<br /> </td> 
+   <td> 可讓您直接在Adobe Experience Manager中建立對應至Adobe Campaign資料庫的電子郵件內容或表單。<br /> </td> 
    <td> 
      <a href="../../integrating/using/integrating-with-experience-manager.md">使用Campaign和Experience Manager</a><br/>、 <a href="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/campaignstandard.html">整合Experience Manager和Campaign Standard</a> , <br/><a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_AEM.html">使用Experience Manager和Campaign建立電子郵件</a> 
     </td> 
@@ -69,13 +69,13 @@ source-git-commit: 3cbb1b6e1697384be2eae3187fd89359628cd8da
     </td> 
   </tr> 
   <tr> 
-   <td> Adobe Audience manager與人員核心服務（個人檔案與觀眾）<br /> </td> 
-   <td> 可讓您與使用的不同Adobe Experience cloud應用程式交換受眾。<br /> </td> 
+   <td> Adobe Audience Manager與人員核心服務（個人檔案與觀眾）<br /> </td> 
+   <td> 可讓您與使用的不同Adobe Experience Cloud應用程式交換受眾。<br /> </td> 
    <td> <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">People Core Service(Profiles &amp; Audiences)</a><br /> </td> 
   </tr> 
   <tr> 
    <td> 資產核心服務與隨選資產<br /> </td> 
-   <td> 可讓您將Adobe Experience cloud資料庫中的資產插入在Adobe Campaign中建立的電子郵件和登陸頁面。<br /> </td> 
+   <td> 可讓您將Adobe Experience Cloud資料庫中的資產插入在Adobe Campaign中建立的電子郵件和登陸頁面。<br /> </td> 
    <td> <a href="../../integrating/using/working-with-campaign-and-assets-core-service.md">資產核心服務</a> ，或隨選資產<br /> </td> 
   </tr> 
   <tr> 
@@ -87,7 +87,7 @@ source-git-commit: 3cbb1b6e1697384be2eae3187fd89359628cd8da
    <td> Experience Cloud Triggers<br /> </td> 
    <td> 可讓您在Adobe Campaign中傳送個人化電子郵件給客戶，以回應Adobe Analytics在您網站上追蹤的特定行為。<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">在Campaign Standard中使用Experience cloud觸發器</a><br/>, <a href="../../integrating/using/abandonment-triggers-use-cases.md">放棄觸發器——促銷活動使用案例</a><br/>，根據網站活動視訊 <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html"></a> 觸發再行銷訊息（步驟2）
+    <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">在Campaign Standard中使用Experience Cloud觸發器</a><br/>, <a href="../../integrating/using/abandonment-triggers-use-cases.md">放棄觸發器——促銷活動使用案例</a><br/>，根據網站活動視訊 <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html"></a> 觸發再行銷訊息（步驟2）
     </td> 
   </tr> 
   <tr> 

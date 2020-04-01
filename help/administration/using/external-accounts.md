@@ -13,7 +13,7 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 7d31d92197a6bf26b7530b8e8ff42c0dc7f25359
+source-git-commit: 5b53f210bc8fc211b1f48f5b6ff8694bcaf41622
 
 ---
 
@@ -157,6 +157,8 @@ Google reCAPTCHA機制可讓您保護著陸頁面，使其免受機器人程式�
 >[!NOTE]
 >
 >在Adobe Campaign Standard中設定外部帳戶所需的資訊，可在Azure入口網站中，透過選取 **[!UICONTROL Settings]** >找到 **[!UICONTROL Access keys]**。
+
+Azure Blob儲存連接器可用來使用傳輸檔案工作流程活動，將資料匯入或 **[!UICONTROLT匯出]** 至Adobe Campaign。 For more on this, refer to this [section](../../automating/using/transfer-file.md#azure-blob-configuration-wf).
 
 對於Microsoft Azure Blob儲存外部帳戶，請提供以下詳細資訊：
 

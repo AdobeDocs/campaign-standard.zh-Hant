@@ -12,7 +12,7 @@ discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ce55c5193e7944c65e0d9e6cc791ed2bc13b3509
+source-git-commit: 34f4bbf7b7913cfb1833379c963b590961f7de73
 
 ---
 
@@ -156,24 +156,25 @@ source-git-commit: ce55c5193e7944c65e0d9e6cc791ed2bc13b3509
 
    ![](assets/message-center_logs.png)
 
+   >[!IMPORTANT]
+   >
+   >每次您修改事件時，必須再按一 **[!UICONTROL Publish]** 次，以產生網站開發人員將使用的更新REST API。
 
->[!NOTE]
->
->每次您修改事件時，必須再按一 **[!UICONTROL Publish]** 次，以產生網站開發人員將使用的更新REST API。
+   發佈事件後，會自動建立連結至新事件的交易訊息。
 
-發佈事件後，會自動建立連結至新事件的交易訊息。 要使此事件觸發發送事務性消息，您必須修改並發佈剛建立的消息。 See [Event transactional messages](../../channels/using/event-transactional-messages.md).
+1. 您可以透過位於左側區域的連結直接存取此交易性訊息。
 
-您可以直接從左側區域的連結存取建立的交易式訊息。
+   ![](assets/message-center_messagegeneration.png)
 
-![](assets/message-center_messagegeneration.png)
+要觸發事件發送事務性消息，您必須修改並發佈剛建立的消息。 See [Event transactional messages](../../channels/using/event-transactional-messages.md).
 
 您也必須將此觸發事件整合至您的網站。 請參 [閱整合網站中事件的觸發](#integrating-the-triggering-of-the-event-in-a-website)。
 
-<!--
->[!NOTE]
->
->To consult the previous publications if any, click the **[!UICONTROL Latest transactional events]** link under the **[!UICONTROL History]** section in the left-hand side area.
--->
+一旦Adobe Campaign開始接收與此事件設定相關的事件， **[!UICONTROL Latest transactional events]** 區段下的連結 **[!UICONTROL History]** 可讓您存取第三方服務傳送並由Adobe Campaign處理的最新事件。
+
+![](assets/message-center_latest-events.png)
+
+事件（以JSON格式）會從最新到最舊列出。 此清單可讓您檢查資料（例如內容或事件狀態），以利控制和除錯。
 
 ### 取消發佈事件 {#unpublishing-an-event}
 
@@ -249,7 +250,7 @@ source-git-commit: ce55c5193e7944c65e0d9e6cc791ed2bc13b3509
 
 1. 建立事件設定時，請選取定 **[!UICONTROL Profile event]** 位維度(請 [參閱建立事件](#creating-an-event))。
 1. 為事件添加欄位，以便能夠個性化事務性消息(請參 [閱定義事件屬性](#defining-the-event-attributes))。 您必須至少添加一個欄位才能建立富集。 您不需要建立其他欄位，例如 **名字** 、 **姓氏** ，因為您可以使用Adobe Campaign資料庫中的個人化欄位。
-1. 建立擴充功能，以將事件連結至資源(請參 **[!UICONTROL Profile]** 閱豐 [富交易訊息內容](#enriching-the-transactional-message-content))。 使用定位維度時，必須建立 **[!UICONTROL Profile]** 擴充。
+1. 建立擴充功能，以便將事件連結至資源(請參 **[!UICONTROL Profile]** 閱豐 [富交易訊息內容](#enriching-the-transactional-message-content))。 使用定位維度時，必須建立 **[!UICONTROL Profile]** 擴充。
 1. 預覽並發佈事件(請參閱 [預覽和發佈事件](#previewing-and-publishing-the-event))。
 
    預覽事件時，REST API不包含指定從資源擷取電子郵件地址或行動電話的屬 **[!UICONTROL Profile]** 性。
@@ -345,7 +346,7 @@ source-git-commit: ce55c5193e7944c65e0d9e6cc791ed2bc13b3509
 
    ![](assets/message-center_usecase2.png)
 
-1. 在先前新增至訊息的「產品識別碼」欄位與資源中的對應欄位之間建立連結條 **[!UICONTROL Purchase]** 件
+1. 在先前新增至訊息的「產品識別碼」欄位與資源的對應欄位之間建立連 **[!UICONTROL Purchase]** 接條件。
 
    ![](assets/message-center_usecase3.png)
 

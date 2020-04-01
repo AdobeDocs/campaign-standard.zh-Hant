@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c4500832b87e986cdbbbf72b9b8c0591f64f7da8
+source-git-commit: 34a478b73ba458d0509639dfbb4641bc63b2aa1a
 
 ---
 
@@ -24,6 +24,17 @@ source-git-commit: c4500832b87e986cdbbbf72b9b8c0591f64f7da8
 本頁列出每個Adobe Campaign Standard版本的所有新功能和檔案更新。
 
 您也可以參閱Adobe Campaign發 [行說明](../../rn/using/release-notes.md)。
+
+## 檔案更新- 2020年4月 {#doc-updates-april-2020}
+
+Microsoft Dynamics 365與Adobe Campaign Standard檔案的整合已整合至「與其他解決方案整合」指南的核心檔案中。 [閱讀更多資訊](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+
+已新增其他資源至檔案首頁。 [閱讀更多資訊](../../campaign-standard-home.md)
+
+Adobe Experience Platform資料連接器檔案已新增有關Experience CLoud ID服務(ECID)的資訊。 [閱讀更多資訊](../../administration/using/aep-about-data-connector.md#key-concepts)
+
+「設定交易訊息」區段已改良，提供如何存取最新交易事件和更新螢幕擷取畫面的資訊。 [閱讀更多資訊](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)
+
 
 ## 版本20.2 - 2020年3月 {#release-20-2---march-2020}
 
@@ -45,7 +56,7 @@ MCPNS在配置移動應用程式時增加了限制。 [閱讀更多資訊](https
 
 現在提供新區段，說明如何刪除事件設定。 [閱讀更多資訊](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
 
-說明如何測試電子郵件主旨行以預測其開放率的頁面已更新並改進，包括新的疑難排解 [區](../../sending/using/testing-subject-line-email.md#troubleshooting) 。 [閱讀更多資訊](../../sending/using/testing-subject-line-email.md#troubleshooting)
+說明如何測試電子郵件主旨行以預測其開放率的頁面已更新並改進，包括新的疑難排解 [區](../../sending/using/testing-subject-line-email.md#troubleshooting) 。 [閱讀更多資訊](../../sending/using/testing-subject-line-email.md)
 
 交易式訊息區段已更新，以反映多個使用者介面的輕微更新和改良。 [閱讀更多資訊](../../channels/using/about-transactional-messaging.md)
 
@@ -147,7 +158,7 @@ API檔案集已整合至Campaign Standard檔案。[閱讀更多資訊](../../api
 
 加州消費者隱私法(CCPA)-詳 [細內容](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa)
 
-Microsoft Dynamics 365整合(GA)-詳 [細資訊](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
+Microsoft Dynamics 365整合(GA)-詳 [細資訊](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 **此版本隨附的其他檔案更新**
 
@@ -211,7 +222,7 @@ GDPR快速入門手冊已經過改進並充實。 它現在是包含GDPR和CCPA�
 
 促銷活動標準實作指南現已上線。[閱讀更多資訊](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html)
 
-已建立一組關於Microsoft Dynamics 365連接器實作與使用的新說明文章。 請注意，此功能目前處於有限可用性。[閱讀更多資訊](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
+已建立一組關於Microsoft Dynamics 365連接器實作與使用的新說明文章。 請注意，此功能目前處於有限可用性。[閱讀更多資訊](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 在「使用參數呼叫工作流」部 [分中已添加了一個附註](../../automating/using/calling-a-workflow-with-external-parameters.md) ，該部分涉及交付準備及其聚合期間。
 

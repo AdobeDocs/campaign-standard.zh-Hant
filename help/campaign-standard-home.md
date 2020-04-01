@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Adobe Campaign Standard 產品文件
 topic: Premium
 translation-type: tm+mt
-source-git-commit: a6e81927aad7bf06eca6d0dc7436c4dc2a1c21c5
+source-git-commit: 7e7bd906982e71e8ba29339998fa3bf8c65c620b
 
 ---
 
@@ -59,19 +59,13 @@ source-git-commit: a6e81927aad7bf06eca6d0dc7436c4dc2a1c21c5
 </tr>
 </table>
 
-
 ## 其他資源
 
-* [發行說明](rn/using/release-notes.md)
-
-* [控制面板](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
-
-* [操作說明短片](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
-
-* [發行計畫指南](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
-
-* [被取代和已移除的功能](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
-
-* [技術說明](https://helpx.adobe.com/campaign/kb/acs-article-list.html)
-
-* [Adobe Campaign Standard 實作指南](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html)
+| 有用的頁面 | 面向開發人員的資源 |
+|---|---|
+| [發行說明](rn/using/release-notes.md) | [實施指南](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html) |
+| [控制面板檔案](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html) | [API檔案](api/using/about-campaign-standard-apis.md) |
+| [操作說明短片](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) | [錯誤消息清單](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
+| [發行計畫指南](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) | [Campaign Standard資料模型](developing/using/datamodel-introduction.md) |
+| [被取代和已移除的功能](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) | [促銷活動整合](integrating/using/about-campaign-integrations.md) |
+| [Campaign Standard快速入門](start/using/campaign-orchestration.md) | [技術說明](https://helpx.adobe.com/campaign/kb/acs-article-list.html) |

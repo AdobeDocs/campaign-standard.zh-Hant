@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fcb6a145b19b68865babba659bf0bfb7623397c8
+source-git-commit: e1fa546313e8d543685ef30a072ae2d97c5bf236
 
 ---
 
@@ -24,9 +24,9 @@ source-git-commit: fcb6a145b19b68865babba659bf0bfb7623397c8
 >
 >觀眾目標服務目前為測試版，可能會經常更新，恕不另行通知。 客戶必須在Azure上代管（目前僅限北美地區測試版）才能存取這些功能。 如果您想要存取，請聯絡Adobe客戶服務。
 
-「統一區段產生器」可讓您根據來自「統一描述檔服務」的資料定義規則，以建立 [觀眾群](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation.html)。
+「統一區段產生器」可讓您根據來自「統一描述檔服務」的資料定義規則，以建立 [觀眾群](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)。
 
-本節介紹建立區段時的全域概念。 如需「統一區段產生器」本身的詳細資訊，請參閱「區 [段產生器」使用指南](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md)。
+本節介紹建立區段時的全域概念。 如需「統一區段產生器」本身的詳細資訊，請參閱「區 [段產生器」使用指南](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)。
 
 「統一區段產生器」介面的組成如下：
 
@@ -48,7 +48,7 @@ source-git-commit: fcb6a145b19b68865babba659bf0bfb7623397c8
 
 1. 請確定在設定窗格中已選取所要的合併原則。
 
-   如需合併原則的詳細資訊，請參閱「區段產生器」使用指 [南中的專屬章節](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md)。
+   如需合併原則的詳細資訊，請參閱「區段產生器」使用指 [南中的專屬章節](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)。
 
    ![](assets/aep_audiences_mergepolicy.png)
 
@@ -82,7 +82,7 @@ source-git-commit: fcb6a145b19b68865babba659bf0bfb7623397c8
 >
 >**多實體分段** ，可讓您根據產品、商店或其他非描述檔類別，以其他資料擴充描述檔資料。 連線後，其他類別的資料就會變成描述檔架構的原生資料。
 >
->如需詳細資訊，請參閱專用 [檔案](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/tutorials/segmentation/multi_entity_segmentation.md)。
+>如需詳細資訊，請參閱專用 [檔案](https://docs.adobe.com/content/help/en/experience-platform/segmentation/multi-entity-segmentation.html)。
 
 依預設，「統一區段產生器」會顯示資料已存在的欄位。 要顯示完整方案，包括沒有資料的欄位，請啟用設 **[!UICONTROL Show full XDM schema]** 置中的選項。
 
@@ -96,7 +96,7 @@ source-git-commit: fcb6a145b19b68865babba659bf0bfb7623397c8
 
 >[!NOTE]
 >
->下節提供規則定義的全域資訊。 如需詳細資訊，請參閱「區段產生 [器」使用指南](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md)。
+>下節提供規則定義的全域資訊。 如需詳細資訊，請參閱「區段產生 [器」使用指南](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)。
 
 若要建立規則，請遵循下列步驟：
 

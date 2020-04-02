@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d4140982ee772eda9eecb01a55748c1d439150e
+source-git-commit: 327d0e4f862b39c60fb3943d1128f4f42828bc0d
 
 ---
 
@@ -38,15 +38,15 @@ Adobe Experience Platform Data Connector是專為瞭解Adobe Campaign Standard�
 >
 >這可透過API或Adobe Experience Platform介面來執行。 如需詳細資訊，請參閱專屬檔案：
 >
->* [為即時客戶個人檔案啟用資料集](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/data_ingestion_tutorial/data_ingestion_tutorial.md)
->* [使用API為即時客戶個人檔案和身分服務設定資料集](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/unified_profile_dataset_tutorial/unified_profile_dataset_api_tutorial.md)
+>* [為即時客戶個人檔案啟用資料集](https://docs.adobe.com/content/help/en/experience-platform/rtcdp/datasets/dataset.html)
+>* [使用API為即時客戶個人檔案和身分服務設定資料集](https://docs.adobe.com/content/help/en/experience-platform/catalog/api/getting-started.html)
 
 
 ## 重要概念 {#key-concepts}
 
 * 預設情況下，「開箱對應」僅適用於「促銷活動標準」中提供的欄位。 若要吸收所有自訂欄位和資源，每位客戶都需要定義自己的對應。
 
-* Adobe Experience Platform Data Connector會定期在平台上推送描述檔資料&#x200B;。間隔時間為15mn。 此值可使用 [Adobe Experience Platform API來修改](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/authenticate_to_acp_tutorial/authenticate_to_acp_tutorial.md)。
+* Adobe Experience Platform Data Connector會定期在平台上推送描述檔資料&#x200B;。間隔時間為15mn。 此值可使用 [Adobe Experience Platform API來修改](https://docs.adobe.com/content/help/en/experience-platform/ingestion/home.html)。
 
 * 資料工程師可以發佈、修改及暫停從Campaign到Adobe Experience Platform的對應。
 

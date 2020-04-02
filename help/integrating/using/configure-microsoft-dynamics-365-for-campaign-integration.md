@@ -12,7 +12,7 @@ discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
 
 ---
 
@@ -45,7 +45,7 @@ OAuth存取Token可讓Unifi透過網頁API與您的Microsoft Dynamics 365例項�
 
 以下視訊概述了主要步驟：
 
-**視訊**
+>[!VIDEO](https://video.tv.adobe.com/v/27637)
 
 若要產生OAuth存取Token，請遵循下列步驟。
 
@@ -57,12 +57,12 @@ OAuth存取Token可讓Unifi透過網頁API與您的Microsoft Dynamics 365例項�
 
 1. 按一 **[!UICONTROL New registration]** 下畫面頂端的。
 
-![](assets/MSdynACSIntegration-7.png)
+   ![](assets/MSdynACSIntegration-7.png)
 
-填寫應用程式註冊畫面：
+1. 填寫應用程式註冊畫面：
 
-* 名稱：adobe campaign
-* 支援的帳戶類型： **[!UICONTROL Accounts in this organizational directory only]** （預設值）
+   * 名稱：adobe campaign
+   * 支援的帳戶類型： **[!UICONTROL Accounts in this organizational directory only]** （預設值）
 
 有關建立新應用程式的詳細資訊，請參 [閱本節](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)。
 
@@ -104,25 +104,24 @@ OAuth存取Token可讓Unifi透過網頁API與您的Microsoft Dynamics 365例項�
 
 1. 導覽至您的Dynamics 365例項，並以管理員身分登入。
 
-1. 按一下右上角的齒輪圖示，然後按一下**[!UICONTROL Advanced Setting]**s。在頂端橫幅中，按一下旁邊的下拉式清 **[!UICONTROL Settings]**&#x200B;單，按一下 **[!UICONTROL Security > Users]**。
+1. 按一下右上角的齒輪表徵圖，然後按一下 **[!UICONTROL Advanced Settings]**。 在頂端橫幅中，按一下旁邊的下拉式清 **[!UICONTROL Settings]**&#x200B;單，按一下 **[!UICONTROL Security > Users]**。
 
 1. 按一下下拉式功能表，前往 **[!UICONTROL Application Users]**。 按一下 **[!UICONTROL New]**.
 
 1. 確保使用者圖示旁的下拉式清單顯示 **[!UICONTROL USER:APPLICATION USER]**。
 
-為新使用者填寫螢幕。  參數建議：
+   為新使用者填寫螢幕。  參數建議：
 
-* **[!UICONTROL User Name]** （電子郵件）:adobeapi@`<hostname>`，其中 `<hostname>` 是Dynamics 365例項的主機名稱
-* **[!UICONTROL Application ID]**:您在Azure AD中註冊的應用程式ID（此為必要項）
-* 您可以留空 **[!UICONTROL Application ID URI]** 和 **[!UICONTROL Azure AD Object ID]**
-* **[!UICONTROL Full Name]**:Adobe API
-* **[!UICONTROL Email]**:與(或 **[!UICONTROL User Name]** 管理員的電子郵件（如果您願意）相同
-
-如需建立應用程式使用者的詳細資訊，請參 [閱本節](https://docs.microsoft.com/en-gb/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user)。
+   * **[!UICONTROL User Name]** （電子郵件）:adobeapi@`<hostname>`，其中 `<hostname>` 是Dynamics 365例項的主機名稱
+   * **[!UICONTROL Application ID]**:您在Azure AD中註冊的應用程式ID（此為必要項）
+   * 您可以留空 **[!UICONTROL Application ID URI]** 和 **[!UICONTROL Azure AD Object ID]**
+   * **[!UICONTROL Full Name]**:Adobe API
+   * **[!UICONTROL Email]**:與(或 **[!UICONTROL User Name]** 管理員的電子郵件（如果您願意）相同
+   如需建立應用程式使用者的詳細資訊，請參 [閱本節](https://docs.microsoft.com/en-gb/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user)。
 
 1. 按一下使用者圖示並上傳Adobe Campaign圖示；這是當Dynamics 365中出現新的Adobe事件時，在「時間軸」檢視中顯示的圖示。
 
-***getfile***
+<!-- ***getfile*** adobe campaign logo-->
 
 1. 按一下頂部功能區中的，開啟 **[!UICONTROL MANAGE ROLES]** 用戶角色清單。
 

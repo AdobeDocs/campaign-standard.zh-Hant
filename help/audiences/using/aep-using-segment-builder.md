@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e1fa546313e8d543685ef30a072ae2d97c5bf236
+source-git-commit: 573131986d52bb4415cca59600048fd7dc5ba0db
 
 ---
 
@@ -66,7 +66,7 @@ source-git-commit: e1fa546313e8d543685ef30a072ae2d97c5bf236
 
 左窗格列出可用於建構規則的所有屬性、事件和對象。
 
-列出的欄位是您公司擷取的屬性，並已透過 [Experience Data Model(XDM)系統提供](https://www.adobe.io/apis/experienceplatform/home/xdm.html)。
+列出的欄位是您公司擷取的屬性，並已透過 [Experience Data Model(XDM)系統提供](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html)。
 
 欄位會組織成標籤：
 

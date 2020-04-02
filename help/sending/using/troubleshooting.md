@@ -13,7 +13,7 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b4ba56e5cd639c547a7060be9c60985f5564160d
+source-git-commit: 87168dca3604073d8a540c579448ab65f07cd976
 
 ---
 
@@ -39,7 +39,8 @@ source-git-commit: b4ba56e5cd639c547a7060be9c60985f5564160d
 
    * 狀態是 **[!UICONTROL Blacklisted]** 回饋迴路的結果（當某人將訊息報告為垃圾訊息時）。
 
-   * 狀態 **[!UICONTROL Quarantined]** 是軟反彈或硬反彈的結果。 有關此內容的詳細資訊，請參 [閱本節](../../sending/using/understanding-quarantine-management.md)。
+   * 狀態 **[!UICONTROL Quarantined]** 是軟反彈或硬反彈的結果。
+   有關此內容的詳細資訊，請參 [閱本節](../../sending/using/understanding-quarantine-management.md#quarantine-vs-blacklisting)。
 
 * **不同的隔離錯誤原因意味著什麼？**
 

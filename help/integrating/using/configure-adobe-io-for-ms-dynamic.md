@@ -12,7 +12,7 @@ discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
 
 ---
 
@@ -129,8 +129,8 @@ If you enter '.', the field will be left blank.
 
 1. 選取標題中包含的產品設定檔：
 
-* 促銷活動例項的組織ID
-* **[!UICONTROL Administrators]**
+   * 促銷活動例項的組織ID
+   * **[!UICONTROL Administrators]**
 
 範例： Campaign Standard - your-campaign-organizationID —— 管理員
 

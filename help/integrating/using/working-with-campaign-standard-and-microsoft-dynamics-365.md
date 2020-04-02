@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 74cc176a1b93a7983629ccccb1fea00628241952
+source-git-commit: 03009c47a66aa1a62c05f632e2a60141a98639d8
 
 ---
 
@@ -60,4 +60,3 @@ Adobe Campaign和Microsoft Dynamics 365整合可讓系統存取客戶見解和�
 >[!CAUTION]
 >
 >對於「聯繫人」同步，此整合將Dynamics 365視為真實來源。  對同步化連絡人屬性所做的任何變更，應在Dynamics 365中進行，而非在Campaign中。  如果在促銷活動中進行變更，在同步期間最終會覆寫變更。
-

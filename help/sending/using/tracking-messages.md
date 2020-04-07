@@ -1,18 +1,18 @@
 ---
 title: 追蹤訊息
 description: 瞭解如何追蹤您的遞送收件者的行為。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: c3721647-0663-4614-a9c9-3b3a40af328a
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 發送
-content-type: 參考
-topic-tags: 傳送和追蹤訊息
-discoiquuid: 6fa50f0d-3dcf-4a9e-bcc-1ecda2bfb449
+audience: sending
+content-type: reference
+topic-tags: sending-and-tracking-messages
+discoiquuid: 6fa50f0d-3dcf-4a9e-bccc-1ecda2bfb449
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 2926b916ac8e8a2605694758407c48b1db359c60
 
 ---
 
@@ -25,14 +25,45 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 您可以透過授權要求（例如頁面上出現的）通知使用者您的網站已配備網頁追蹤工具，並加上核取方塊來授權使用Cookie，或在其登陸的第一頁頂端新增橫幅等。 彈出式視窗通常會被瀏覽器封鎖，因此應避免出現。
 
+您的資料庫的每個連絡人都可使用追蹤資訊 **[!UICONTROL integrated customer profiles]**。 如需詳細資訊，請參閱[本小節](../../audiences/using/integrated-customer-profile.md)。
+
 Adobe Campaign 使用兩種類型的 Cookie：
 
 * 工作階段Cookie(nid)。 這包含傳送給連絡人的電子郵件識別碼(broadlogId)和訊息範本的識別碼(deliveryId)。 連絡人按一下由 Adobe Campaign 傳送的電子郵件中包含的 URL 後即可添加識別碼，並且允許您追蹤他們在網路上的行為。瀏覽器關閉時，將自動清除工作階段 Cookie。連絡人可以將其瀏覽器設定為拒絕 Cookie。
-* Adobe Experience cloud解決方案之間共用的Cookie。 這可讓您識別在使用者造訪網站時與Experience cloud解決方案互動的使用者。 此Cookie的說明可從以下網址取得： [https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_mc.html](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_mc.html)。
+* Adobe Experience Cloud解決方案之間共用的Cookie。 這可讓您識別在使用者造訪網站時與Experience Cloud解決方案互動的使用者。 此Cookie的說明可從以下網址取得： [https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_mc.html](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_mc.html)。
 
-您的資料庫的每個連絡人都可使用追蹤資訊 **[!UICONTROL integrated customer profiles]**。 如需詳細資訊，請參閱[本小節](../../audiences/using/integrated-customer-profile.md)。
+使用Adobe Campaign Standard進行追蹤可讓您存取下列功能：
 
-## 追蹤記錄檔 {#tracking-logs}
+<table>
+<tr>
+    <td valign="top">
+        <a href="../../administration/using/configuring-email-channel.md#tracking-parameters"><img width="60px" alt="條件" src="assets/icon_email_parameters.png"/></a>
+    </td>
+    <td valign="top">
+        <a href="https://helpx.adobe.com/campaign/kb/push-tracking.html"><img width="60px" alt="條件" src="assets/icon_push_parameters.png"/></a>
+    </td>
+    <td valign="top">
+        <a href="../../designing/using/links.md#about-tracked-urls"><img width="60px" alt="條件" src="assets/icon_url.png"/></a>
+    </td>
+        <td valign="top">
+          <a href="../../sending/using/tracking-messages.md#tracking-logs"><img width="60px" alt="條件" src="assets/icon_log.png"/></a>
+    </td>
+    </td>
+    <td valign="top">
+          <a href="../../reporting/using/tracking-indicators.md"><img width="60px" alt="條件" src="assets/icon_report.png"/></a>
+
+</tr>
+<tr>
+<td>電子郵件追蹤</td>
+<td>推播追蹤</td>
+<td>追蹤的URL</td>
+<td>追蹤記錄檔</td>
+<td>追蹤報表</td>
+</tr>
+
+</table>
+
+## Tracking logs {#tracking-logs}
 
 標籤 **[!UICONTROL Tracking logs]** 會列出此傳送的追蹤歷史記錄。 此標籤會顯示已傳送訊息的追蹤資訊，例如Adobe Campaign已追蹤的所有URL。 此標籤中的追蹤資訊會每10分鐘更新一次。
 

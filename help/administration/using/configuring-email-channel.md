@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d68dbc3e9579f044b7ac1f76ac729548057bb6ec
+source-git-commit: 6c7dc7927a7652efab20d976a8c5d0db8a33a66f
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: d68dbc3e9579f044b7ac1f76ac729548057bb6ec
 
 ## 電子郵件通道參數 {#email-channel-parameters}
 
-電子郵件設定畫面可讓您定義電子郵件頻道的參數。
+電子郵件設定畫面可用來定義電子郵件頻道的參數。 管理員可以在> > > **[!UICONTROL Administration]>功能表中存取這些[!UICONTROL Channels][!UICONTROL Email][!UICONTROL Configuration]**設定。
 
 ![](assets/channels_1.png)
 
@@ -38,23 +38,29 @@ source-git-commit: d68dbc3e9579f044b7ac1f76ac729548057bb6ec
 
    Adobe Campaign會從開始日期開始傳送訊息。 該 **[!UICONTROL Message delivery duration]** 欄位允許您指定消息的發送期間。
 
+   >[!IMPORTANT]
+   >
+   >升級至 [Adobe Campaign Enhanced MTA後](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)，您的 **[!UICONTROL Message delivery duration]** Campaign傳送中的參數只會在設為3.5天或更少時使用。 如果您定義的值高於3.5天，則不會考慮該值。
+
    此欄 **[!UICONTROL Online resources validity duration]** 位用於上傳的資源，主要用於鏡像頁面和影像。 本頁上的資源在限定時間內有效（以節省磁碟空間）。
 
 * **重試次數**
 
-   暫時未傳送的訊息可能會自動重試。 此部分指示在發送開始後一天應執行多少次重試(重試&#x200B;**次數**)和兩次重試之間的最小延遲(**重試週期**)。
+   暫時未傳送的訊息可能會自動重試。 如需詳細資訊，請參 [閱傳送暫時失敗後重試](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)。
 
-   依預設，會為第一天排程5次重試，最低間隔為1小時，分佈在一天的24小時內。 在此之後，每天會設定一次重試，直到交貨截止日期（在章節中定義） **[!UICONTROL Delivery parameters]** 為止。
+   >[!IMPORTANT]
+   >
+   >升級至 [Adobe Campaign Enhanced MTA後](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)，會忽略 **Campaign中的** Retries設定。 增 **[!UICONTROL Number of retries]** 強MTA會根據IP在歷史和目前在指定網域的執行狀況，管理 **[!UICONTROL Retry period]** （啟動傳送後應執行多少次重試）和（兩次重試之間的最小延遲）。
+
+   <!--This section indicates how many retries should be performed the day after the send is started (**Number of retries**) and the minimum delay between retries (**Retry period**). By default, five retries are scheduled for the first day with a minimum interval of one hour, spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Delivery parameters]** section.-->
 
 * **電子郵件隔離參數**
 
-   在欄位 **[!UICONTROL Time between two significant errors]** 中輸入值，以定義應用程式在發生故障時，在增加錯誤計數器之前等待的時間。 預設值： **1d」**，為期1天。
+   在欄位 **[!UICONTROL Time between two significant errors]** 中輸入值，以定義應用程式在發生故障時，在增加錯誤計數器之前等待的時間。 預設值為 **&quot;1d&quot;**,1天。
 
-   到達值 **[!UICONTROL Maximum number of errors before quarantine]** 後，會隔離電子郵件地址。 預設值： **&quot;5&quot;**:地址將在第六個錯誤時被隔離。 這表示該連絡人將自動排除在後續傳送之外。
+   到達值 **[!UICONTROL Maximum number of errors before quarantine]** 後，會隔離電子郵件地址。 預設值為 **&quot;5&quot;**:第五個錯誤時，地址將被隔離。 這表示該連絡人將自動排除在後續傳送之外。
 
-**相關主題**:
-
-[瞭解隔離管理](../../sending/using/understanding-quarantine-management.md)
+   有關隔離的詳細資訊，請參 [閱瞭解隔離管理](../../sending/using/understanding-quarantine-management.md)。
 
 ## 電子郵件傳送帳戶 {#email-routing-accounts}
 
@@ -74,7 +80,7 @@ source-git-commit: d68dbc3e9579f044b7ac1f76ac729548057bb6ec
 
 這些規則包含可由遠端伺服器傳回的字元字串清單，可讓您限定錯誤(**Hard**、 **Soft** 或 **Ignored**)。
 
-預設規則如下：
+預設規則如下。
 
 ### 彈回郵件 {#bounce-mails}
 
@@ -84,7 +90,7 @@ source-git-commit: d68dbc3e9579f044b7ac1f76ac729548057bb6ec
 
 >[!IMPORTANT]
 >
->升級至「增強的MTA」後，「促銷活動」表格中的彈 **[!UICONTROL Message qualification]** 回資格便不再使用。 有關彈回郵件資格的詳細資訊，請參 [閱本節](../../sending/using/understanding-delivery-failures.md)。
+>升級至「增強的MTA」後，「促銷活動」表格中的彈 **[!UICONTROL Message qualification]** 回資格便不再使用。 有關彈回郵件資格的詳細資訊，請參 [閱本節](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)。
 
 <!--The user can create his own rules.
 
@@ -193,11 +199,19 @@ The following parameters are available for each rule:
 
 #### 重試參數 {#retries-parameters}
 
-暫時未傳送的訊息可能會自動重試。 此部分指示在發送開始( **[!UICONTROL Max. number of retries]** )後應執行多少次重試，以及兩次重試之間的最小延遲( **[!UICONTROL Retry period]** )。
+暫時未傳送的訊息可能會自動重試。 如需詳細資訊，請參 [閱傳送暫時失敗後重試](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)。
 
-依預設，會為第一天排程5次重試，最低間隔為1小時，分佈在一天的24小時內。 在此之後，每天會設定一次重試，直到交貨期限為止(在有效期間參數部分中 [定義)](#validity-period-parameters) 。
+>[!IMPORTANT]
+>
+>升級至 [Adobe Campaign Enhanced MTA後](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)，會忽略 **Campaign中的** Retries設定。 增強 **[!UICONTROL Retry period]** MTA會根據IP在歷史和目前在指定網域的執行狀況，來管理 **[!UICONTROL Max. number of retries]** （重試之間的最小延遲）和（啟動傳送後應執行多少次重試）。
 
-可以全域變更重試次數（請連絡您的Adobe技術管理員），或針對每個傳送或傳送範本變更重試次數
+<!--This section indicates how many retries should be performed the day after the send is started ( **[!UICONTROL Max. number of retries]** ) and the minimum delay between retries ( **[!UICONTROL Retry period]** ).
+
+By default, five retries are scheduled for the first day with a minimum interval of one hour, spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the [Validity period parameters](#validity-period-parameters) section.
+
+The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template.-->
+
+Momentum確實會遵守Campaign中的傳送期間設定(在 [Validity period parameters](#validity-period-parameters) section中定義)，但最多只有3.5天。 此時，重試佇列中的任何訊息都會從佇列中移除，並以彈回數的形式傳回。 如需傳送失敗的詳細資訊，請參 [閱本節](../../sending/using/understanding-delivery-failures.md#about-delivery-failures)。
 
 #### 電子郵件格式參數 {#email-format-parameters}
 
@@ -236,17 +250,19 @@ The following parameters are available for each rule:
 
 ![](assets/delivery-validity-period.png)
 
-* **[!UICONTROL Explicitly set validity dates]**:取消選中此框後，您必須在和欄位中輸入 **[!UICONTROL Delivery duration]** 持續時間 **[!UICONTROL Resource validity limit]** 。 如果您想要定義特定的時間和日期，請勾選此方塊。
+* **[!UICONTROL Explicitly set validity dates]**:取消選中此框後，您必須在和欄位中輸入 **[!UICONTROL Delivery duration]** 持續時間 **[!UICONTROL Resource validity limit]** 。
+
+   如果您想要定義特定的時間和日期，請勾選此方塊。
 
    ![](assets/delivery-set-explicit-dates.png)
 
-* **[!UICONTROL Delivery duration]**:Adobe Campaign會從開始日期開始傳送訊息。 此欄位允許您指定消息的發送期間。
+* **[!UICONTROL Delivery duration]** / **[!UICONTROL Validity limit for sending messages]**:Adobe Campaign會從開始日期開始傳送訊息。 此欄位允許您指定消息的發送期間。
 
    >[!IMPORTANT]
    >
-   >升級至「增強MTA」後， **[!UICONTROL Delivery duration]** 促銷活動傳送中的參數只會在設為3.5天或更短時使用。 如果您定義的值高於3.5天，則不會考慮該值。 所有影響在 [Adobe Campaign Enhanced MTA檔案中詳述](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html) 。
+   >升級至 [Adobe Campaign Enhanced MTA後](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)，您的 **[!UICONTROL Delivery duration]** Campaign傳送中的參數只會在設為3.5天或更少時使用。 如果您定義的值高於3.5天，則不會考慮該值。
 
-* **[!UICONTROL Resource validity duration]**:此欄位用於上傳的資源，主要用於鏡像頁面和影像。 本頁上的資源在限定時間內有效（以節省磁碟空間）。
+* **[!UICONTROL Resource validity duration]** / **[!UICONTROL Validity limit date for resources]**:此欄位用於上傳的資源，主要用於鏡像頁面和影像。 本頁上的資源在限定時間內有效（以節省磁碟空間）。
 * **[!UICONTROL Mirror page management]**:鏡像頁是可通過Web瀏覽器線上上訪問的HTML頁。 其內容與電子郵件內容相同。 預設情況下，如果連結插入郵件內容中，將生成鏡像頁。 此欄位可讓您修改產生此頁面的方式：
 
    >[!IMPORTANT]
@@ -260,7 +276,7 @@ The following parameters are available for each rule:
 
 >[!NOTE]
 >
->參數 **[!UICONTROL Delivery duration]** 不適用於事務性消息。 有關交易式訊息的詳細資訊，請 [參閱本節](../../channels/using/about-transactional-messaging.md)。
+>參數 **[!UICONTROL Delivery duration]** 不適用於事務性消息。 有關交易式訊息的詳細資訊，請參 [閱本節](../../channels/using/about-transactional-messaging.md)。
 
 ### 追蹤參數 {#tracking-parameters}
 
@@ -302,7 +318,7 @@ The following parameters are available for each rule:
 
    >[!NOTE]
    >
-   >「類型」區段中顯示了可以通 **[!UICONTROL Administration]** 過> **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** 菜單訪問的 [類型](../../administration/using/about-typology-rules.md) 。
+   >「類型」區段中顯示了可以通 **[!UICONTROL Administration]** 過> **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** 菜單訪問的 [類型](../../sending/using/about-typology-rules.md) 。
 
 * **[!UICONTROL Compute the label during delivery preparation]**:可讓您使用個人化欄位、內容區塊和動態文字，在訊息準備階段計算電子郵件的標籤值。
 

@@ -13,7 +13,7 @@ context-tags: fileTransfer,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
+source-git-commit: 7f203ff0e635faf802a5577f761dc308dae4ab66
 
 ---
 
@@ -43,7 +43,8 @@ source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
    * **檔案下載**:可讓您下載檔案。
    * **檔案上傳**:可讓您上傳檔案。 從Adobe Campaign檔案上傳檔案會在功能表中產生記錄 **[!UICONTROL Export audits]** 項。 有關導出審計的詳細資訊，請參閱「審 [計導出](../../administration/using/auditing-export-logs.md) 」部分。
    * **測試以查看檔案是否存在**:允許您檢查是否存在檔案。
-   * **檔案清單**:可讓您列出Adobe Campaign中的檔案。
+   * **檔案清單**:允許您列出伺服器上存在於頁籤中定義的文 **[!UICONTROL Protocol]** 件。 此動作主要用於除錯，以在從遠端伺服器下載檔案之前，先檢查活動是否已根據您的需求進行設定。
+
 1. 選擇要使用的協定：
    * [HTTP](#HTTP-configuration-wf)
    * [SFTP](#SFTP-configuration-wf)
@@ -55,7 +56,7 @@ source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
 
    * **[!UICONTROL Delete the source files after transfer]**
    * **[!UICONTROL Disable passive mode]**
-   * **[!UICONTROL List all files]**:此選項在選擇操作時可 **[!UICONTROL File listing]** 用。 它可讓您為 **vars.filenames** event變數中伺服器上所有檔案建立索引，其中檔案名稱以&#39; **n&#39;字元分隔** 。
+   * **[!UICONTROL List all files]**:在頁籤中選擇action. **[!UICONTROL File listing]** 時，此選項可 **[!UICONTROL General]** 用。 它可讓您為 **vars.filenames** event變數中伺服器上所有檔案建立索引，其中檔案名稱以&#39; **n&#39;字元分隔** 。
 
 1. 該選 **[!UICONTROL If no files are found]** 項卡的 **[!UICONTROL Advanced options]** 部分允許您在活動啟動時檢測到任何錯誤或不存在的檔案時配置特定操作。
 

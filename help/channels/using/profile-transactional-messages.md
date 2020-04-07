@@ -1,18 +1,18 @@
 ---
 title: 設定檔交易式訊息
 description: 瞭解如何建立和發佈個人資料交易訊息。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: a8efe979-74ae-46ff-a305-b86a90679581
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 頻道
-content-type: 參考
-topic-tags: 事務性消息傳遞
+audience: channels
+content-type: reference
+topic-tags: transactional-messaging
 discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 您可以根據客戶行銷個人檔案傳送交易訊息，這可讓您：
 
-* 套用行銷類型學規則，例 **[!UICONTROL Blacklisted address]** 如 [疲勞規則](../../administration/using/fatigue-rules.md)。
+* 套用行銷類型學規則，例 **[!UICONTROL Blacklisted address]** 如 [疲勞規則](../../sending/using/fatigue-rules.md)。
 * 在訊息中加入取消訂閱連結。
 * 將交易訊息新增至全域傳送報表。
 * 在客戶歷程中運用交易訊息。
@@ -36,7 +36,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 >
 >要訪問事務性消息，您必須是安全組的一 **[!UICONTROL Administrators (all units)]** 部分。
 >
->疲勞規則與描述檔交易訊息相容。 請參 [閱疲勞規則](../../administration/using/fatigue-rules.md)。
+>疲勞規則與描述檔交易訊息相容。 請參 [閱疲勞規則](../../sending/using/fatigue-rules.md)。
 
 ## 傳送描述檔交易訊息 {#sending-a-profile-transactional-message}
 
@@ -84,5 +84,5 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 **相關主題**:
 
 * [網站整合](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)
-* [類型](../../administration/using/about-typology-rules.md)
+* [類型](../../sending/using/about-typology-rules.md)
 

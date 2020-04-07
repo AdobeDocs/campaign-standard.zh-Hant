@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
+source-git-commit: b0bc6c45127f58b00ba89f66da159c8f212db80a
 
 ---
 
@@ -137,7 +137,7 @@ source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
 
 接下來，我們將指定自訂資源的連結。  在這種情況下，我們選擇使用 **[!UICONTROL Vehicles]** 自訂實體（來源）連結至描述檔實體（目標） **[!UICONTROL 1 cardinality simple link]**。
 
-(../assets/DefineTheLink.png)
+![](assets/DefineTheLink.png)
 
 1. 在畫面 **[!UICONTROL Link definitions]** 中，選擇刪除選項： **[!UICONTROL Deleting the target record implies deleting records referenced by the link]**。 我們選擇此選項，這樣當某個配置檔案被刪除時，所有鏈 **[!UICONTROL Vehicle]** 接到該配置檔案的記錄也會被刪除。
 1. 在中 **[!UICONTROL Join Definitions]**，選擇 **[!UICONTROL Define specific join conditions]**。

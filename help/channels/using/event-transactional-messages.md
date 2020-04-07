@@ -13,7 +13,7 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: be6751f2f966f99d2b986aeba0b3720d2e8c4599
 
 ---
 
@@ -32,7 +32,7 @@ source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 >
 >要訪問事務性消息，您必須是安全組的一 **[!UICONTROL Administrators (all units)]** 部分。
 >
->事件事務性消息不包含配置檔案資訊，因此它們與疲勞規則不相容（即使在富集了配置檔案的情況下）。 請參 [閱疲勞規則](../../administration/using/fatigue-rules.md#choosing-the-channel)。
+>事件事務性消息不包含配置檔案資訊，因此它們與疲勞規則不相容（即使在富集了配置檔案的情況下）。 請參 [閱疲勞規則](../../sending/using/fatigue-rules.md#choosing-the-channel)。
 
 ## 在事務性消息中定義測試配置檔案 {#defining-a-test-profile-in-a-transactional-message}
 
@@ -119,7 +119,7 @@ source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 您可以建立產品清單，參考交易電子郵件內容中的一或多個資料集合。 例如，在購物車放棄電子郵件中，您可以包含使用者離開網站時購物車中的所有產品清單，以及影像、價格和每個產品的連結。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >只有在通過「電子郵件設計器」介面編輯事務性電子郵件消息時，產品 [清單才可用](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface) 。
 
@@ -209,9 +209,9 @@ source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
    從> **[!UICONTROL Context]** >節 **[!UICONTROL Real-time event]** 點中，開啟與您所建立之系列對應的節點(此處 **[!UICONTROL Event context]** )，然後選取您所建立的URL欄位(此處 **[!UICONTROL Product list]****[!UICONTROL Product URL]** )。 按一下 **[!UICONTROL Save]**.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
-   >出於安全原因，請務必將個人化欄位插入以適當靜態網域名稱開始的連結中。
+   >出於安全原因，請務必將個人化欄位插入連結中，從正確的靜態網域名稱開始。
 
    ![](assets/message-center_loop_link_select.png)
 
@@ -258,7 +258,7 @@ source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 您可以暫停發佈事務性消息， **[!UICONTROL Pause]** 例如使用按鈕修改消息中包含的資料。 因此，這些事件不會再處理，而會保留在Adobe Campaign資料庫的佇列中。
 
-佇列的事件會在REST API中定義的時段內保留(請參閱 [REST API檔案](../../api/using/about-campaign-standard-apis.md))，或在觸發器事件中(如果您使用「觸發器」核心服務，請參閱 [Working with Campaign and Experience cloud觸發器](../../integrating/using/about-adobe-experience-cloud-triggers.md))。
+佇列的事件會在REST API中定義的時段內保留(請參閱 [REST API檔案](../../api/using/about-campaign-standard-apis.md))，或在觸發器事件中(如果您使用「觸發器」核心服務，請參閱 [Working with Campaign and Experience Cloud觸發器](../../integrating/using/about-adobe-experience-cloud-triggers.md))。
 
 ![](assets/message-center_pause.png)
 
@@ -266,35 +266,43 @@ source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ## 取消發佈交易式訊息 {#unpublishing-a-transactional-message}
 
-按一下 **[!UICONTROL Unpublish]** 可以取消事務性消息發佈，也可以取消相應事件的發佈，該發佈會從REST API中刪除與先前建立的事件對應的資源。 現在，即使事件是透過您的網站觸發，對應的訊息也不會再傳送，也不會儲存在資料庫中。
+按一下 **[!UICONTROL Unpublish]** 可以取消事務性消息發佈，也可以取消相應事件的發佈，該發佈會從REST API中刪除與先前建立的事件對應的資源。
 
 ![](assets/message-center_unpublish-template.png)
+
+現在，即使事件是透過您的網站觸發，對應的訊息也不會再傳送，也不會儲存在資料庫中。
 
 >[!NOTE]
 >
 >若要再次發佈訊息，您必須返回對應的事件設定、發佈訊息，然後發佈訊息。 如需詳細資訊，請參閱「發 [布交易式訊息」](#publishing-a-transactional-message)。
 
-如果您解除發佈已暫停的交易訊息，您可能必須等候最多24小時，才能再次發佈。 這可讓工作流 **[!UICONTROL Database cleanup]** 程清除傳送至佇列的所有事件。 暫停消息的步驟在暫停事務性消息發 [布部分中有詳細說明](#suspending-a-transactional-message-publication) 。
+如果您解除發佈已暫停的交易訊息，您可能必須等候最多24小時，才能再次發佈。 這可讓工作流 **[!UICONTROL Database cleanup]** 程清除傳送至佇列的所有事件。
+
+暫停消息的步驟在暫停事務性消息發 [布部分中有詳細說明](#suspending-a-transactional-message-publication) 。
 
 每 **[!UICONTROL Database cleanup]** 天凌晨4點執行的工作流程可透過 **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** >存取 **[!UICONTROL Workflows]**。
 
 ## 刪除事務性消息 {#deleting-a-transactional-message}
 
+在未發佈事務性消息或尚未發佈事務性消息後，您可以從事務性消息清單中刪除該消息。 操作步驟：
+
+1. 按一下 **[!UICONTROL Adobe Campaign]** 左上角的標誌，然後選取 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**。
+1. 將滑鼠暫留在您選擇的訊息上。
+1. Click the **[!UICONTROL Delete element]** button.
+
 ![](assets/message-center_delete-template.png)
 
-選擇事務性消息後，即使已發佈該消息，您也 **[!UICONTROL Delete element]** 可以使用按鈕將其刪除。 但是，刪除事務性消息只能在特定條件下完成：
+但是，刪除事務性消息只能在特定條件下完成：
 
-* **事務性消息**:要刪除事務性消息，應取消發佈消息，而不應暫停。
+* 請確定事務性消息具 **[!UICONTROL Draft]** 有狀態，否則您將無法刪除它。 狀 **[!UICONTROL Draft]** 態會套用至尚未發佈或已未發佈(且未暫停 [](#unpublishing-a-transactional-message) )的 [訊息](#suspending-a-transactional-message-publication)。
 
-   如果未發佈事務性消息，則事件配置也需要取消發佈才能成功刪除事務性消息，除非另一個事務性消息連結到相應的事件。 有關如何取消發佈事務性消息的詳細資訊，請參閱本 [節](#unpublishing-a-transactional-message)。
+* **事務性消息**:除非將另一個事務性消息連結到相應的事件，否則如果事務性消息未發佈，事件配置也需要取消發佈才能成功刪除事務性消息。 如需詳細資訊，請參閱「取 [消發佈事件」](../../administration/using/configuring-transactional-messaging.md#unpublishing-an-event)。
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >刪除已發送通知的事務性消息也會刪除其發送和跟蹤日誌。
 
-* **來自現成可用事件範本的交易訊息（內部交易訊息）**:要刪除內部事務性消息，應取消發佈消息，而不應暫停。
-
-   它也不應是事件中唯一的事務性消息，其他消息必須連結到相應的事件。
+* **來自現成可用事件範本的交易訊息（內部交易訊息）**:如果內部事務性消息是唯一與相應內部事件關聯的消息，則無法刪除該消息。 您必須先複製或透過「 > >」功能表，建立另 **[!UICONTROL Resources]** 一個 **[!UICONTROL Templates]** 交易 **[!UICONTROL Transactional message templates]** 訊息。
 
 ## 事務性消息重試過程 {#transactional-message-retry-process}
 
@@ -333,4 +341,4 @@ source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 您無法停止執行傳送。 但是，如果當前執行傳送失敗，當收到新事件時，就會建立新事件，而所有新事件都會由此新的執行傳送處理。 失敗的執行傳送不會處理任何新事件。
 
-如果已分配給執行傳送的某些事件已經延遲，並且如果該執行傳送失敗，則重試系統不會將延遲的事件指派給新的執行傳送，這意味著這些事件將丟失。
+如果已分配給執行傳送的某些事件已經延遲，並且如果該執行傳送失敗，則重試系統不會將延遲的事件分配給新的執行傳送，這意味著這些事件將丟失。

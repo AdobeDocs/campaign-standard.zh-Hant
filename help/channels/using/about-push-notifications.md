@@ -13,7 +13,7 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5ed46987a3778dfa100639de8be9b6d5ac5348b4
+source-git-commit: 8111dfd2fd3cf254f73d0b01917d606b0a70aa84
 
 ---
 
@@ -61,21 +61,18 @@ Adobe Campaign提供兩種推播通知類型：
 >若要運用Campaign的推播通知功能，您必須提供。pem格式的有效推播憑證，而不需密碼。
 如果您有有效的p12憑證，則可使用線上資源，輕鬆將它轉換為。pem檔案。
 
-首先，若要開始傳送推播通知，您必須使用Experience Platform SDK來設定行動應用程式。 For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
-
 傳送推播通知前，您應：
 
-1. 請確定您可以存取Adobe **[!UICONTROL Mobile app]** Campaign中的渠道。
-1. 在下列位置設定您的行動應用程式：
+1. 在Adobe Campaign中，請確定您可以存取該 **[!UICONTROL Push notification]** 渠道。 如果您無法存取這些渠道，請連絡您的帳戶團隊。
 
-   * Adobe Campaign
-   * Adobe Mobile Services介面
+1. 確認您的使用者擁有Adobe Campaign Standard和Experience Platform Launch中的必要權限。
 
-1. 執行行動應用程式的特定設定：
+1. 在Experience Platform Launch中，建立行動屬性。 如需詳細資訊，請 [參閱「設定行動裝置屬性」](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)。
 
-   * 將從Adobe Mobile Services介面下載的設定檔與行動應用程式封裝。
-   * 將Experience Cloud Mobile SDK整合到您的行動應用程式中。
+1. 在Experience Platform Launch中，安裝擴 **[!UICONTROL Adobe Campaign Standard]** 充功能。
 
-1. 定義您要向應用程式訂閱者收集的資料。 在Adobe Campaign資料庫中擁有描述檔的行動應用程式的訂閱者，會根據您所定義的條件進行協調。
+1. 在Adobe Campaign Standard中，設定您在Experience Platform Launch中建立的行動裝置屬性。 如需詳細資訊，請 [參閱「在Adobe Campaign中設定Experience Platform Launch應用程式」](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#SettingupyourAdobeExperiencePlatformLaunchapplicationinAdobeCampaign)。
 
-設定行動應用程式後，您現在可以開始準備和傳送應用程式內訊息。 如需詳細資訊，請參閱「準 [備和傳送推播通知」](../../channels/using/preparing-and-sending-a-push-notification.md)。
+1. 將特定頻道的組態新增至行動應用程式設定。 如需詳細資訊，請參 [閱Adobe Campaign中的頻道特定應用程式設定](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign)。
+
+1. 若要支援行動使用案例實作，請參閱有關使用Adobe Experience Platform SDK的擴充功能、Experience Platform Launch規則，以及 [Adobe Campaign Standard支援的行動使用案例中SDK實作的詳細指示](https://helpx.adobe.com/campaign/kb/configure-launch-rules-acs-use-cases.html)。

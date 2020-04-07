@@ -1,6 +1,6 @@
 ---
 title: 細分與目標定位
-description: 「瞭解Campaign中的設定檔、鎖定和受眾建立：建立受眾、匯入連絡人與Experience cloud解決方案分享受眾，並避免行銷疲勞。」
+description: 「瞭解Campaign中的設定檔、鎖定和受眾建立：建立受眾、匯入連絡人與Experience Cloud解決方案分享受眾，並避免行銷疲勞。」
 page-status-flag: never-activated
 uuid: 71f53808-0309-49f6-a4ee-3446eac9758a
 contentOwner: sauviat
@@ -12,7 +12,7 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 13430243e8f2840ca85e557798168f6380a7b0fa
+source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
 
 ---
 
@@ -65,6 +65,6 @@ GDPR 是歐盟 (EU) 最新制定的一項隱私法規，用於協調和順應時
 
 **相關主題：**
 
-* 瞭解如何透 [過一組樣本](../../administration/using/fatigue-rules.md#examples) ，設計疲勞規則
-* 瞭解如何建立類 [型規則](../../administration/using/about-typology-rules.md)
-* 使用 [篩選規則](../../administration/using/filtering-rules.md) ，以調整訊息的對象
+* 瞭解如何透 [過一組樣本](../../sending/using/fatigue-rules.md#examples) ，設計疲勞規則
+* 瞭解如何建立類 [型規則](../../sending/using/about-typology-rules.md)
+* 使用 [篩選規則](../../sending/using/filtering-rules.md) ，以調整訊息的對象

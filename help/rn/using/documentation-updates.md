@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 34a478b73ba458d0509639dfbb4641bc63b2aa1a
+source-git-commit: 240e8738fab8f0eaa8398de1b74e22d292536908
 
 ---
 
@@ -35,6 +35,13 @@ Adobe Experience Platform資料連接器檔案已新增有關Experience CLoud ID
 
 「設定交易訊息」區段已改良，提供如何存取最新交易事件和更新螢幕擷取畫面的資訊。 [閱讀更多資訊](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)
 
+與類型和類型學規則有關的部分已得到改進，並更新了關於現成可用的類型學規則的補充資訊。 [閱讀更多資訊](../../sending/using/about-typology-rules.md)
+
+已新增有關活動 **[!UICONTROL Transfer file]** 動作的資 **!UICONTROL File listing]** 訊。 [閱讀更多資訊](../../automating/using/transfer-file.md)
+
+傳送暫時失敗後重試的說明檔案已更新，其中提供更多詳細資訊，說明在升級至增強MTA後，如何管理重試。 [閱讀更多資訊](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)
+
+刪除事務性消息部分已增強並澄清。 [閱讀更多資訊](../../channels/using/event-transactional-messages.md#deleting-a-transactional-message)
 
 ## 版本20.2 - 2020年3月 {#release-20-2---march-2020}
 
@@ -138,7 +145,7 @@ Deliverability快速入門手冊已整合至核心檔案並更新。 [閱讀更�
 
 與著陸頁面屬性相關的資訊已移入專用區段。 [閱讀更多資訊](../../channels/using/configuring-landing-page.md)
 
-控制面板文檔已整合到新的協作文檔集中。 [閱讀更多資訊](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
+控制面板文檔已整合到新的協作文檔集中。 [閱讀更多資訊](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/control-panel-home.html)
 
 指標 **計算表** 已更新。 [閱讀更多資訊](../../reporting/using/indicator-calculation.md)
 
@@ -266,7 +273,7 @@ GDPR快速入門手冊已經過改進並充實。 它現在是包含GDPR和CCPA�
 
 **發行中包含的新功能**
 
-控制面板——閱 [讀更多](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
+控制面板——閱 [讀更多](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/control-panel-home.html)
 
 本機通知——閱 [讀更多](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
 
@@ -432,7 +439,7 @@ Microsoft Edge（最新版本）已新增至電腦的相容瀏覽器清單。 [�
 
 應用程式內訊息（測試版）-閱 [讀更多](../../channels/using/about-in-app-messaging.md)
 
-Adobe Launch整合行動應用程式（測試版）-閱 [讀更多](../../administration/using/about-typology-rules.md#typology-rules)
+Adobe Launch整合行動應用程式（測試版）-閱 [讀更多](../../sending/using/about-typology-rules.md#typology-rules)
 
 **此版本隨附的其他檔案更新**
 
@@ -446,7 +453,7 @@ Adobe Launch整合行動應用程式（測試版）-閱 [讀更多](../../admini
 
 **發行中包含的新功能**
 
-[針對行動應用程式訂閱者](../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android) ，提供 [高優先順序的標幟](../../administration/using/about-typology-rules.md#typology-rules) 和印刷樣式篩選。
+[針對行動應用程式訂閱者](../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android) ，提供 [高優先順序的標幟](../../sending/using/about-typology-rules.md#typology-rules) 和印刷樣式篩選。
 
 準備時從URL自動匯入內容。 [閱讀更多資訊](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)
 
@@ -570,7 +577,7 @@ SQL結構現在提供資料模型v1，用於現成可用的資源——詳 [情]
 
 發行說明已在數個頁面中重新整理，讓您可以更全域地檢視所有不同的版本。
 
-已更 **[!UICONTROL Working with typologies]** 新區段，以改善可見度。 [閱讀更多資訊](../../administration/using/about-typology-rules.md)
+已更 **[!UICONTROL Working with typologies]** 新區段，以改善可見度。 [閱讀更多資訊](../../sending/using/about-typology-rules.md)
 
 現在提供新選項，可讓您在定義中的許多其他資料時 **[!UICONTROL Query]** 獲得效能。 [閱讀更多資訊](../../automating/using/query.md)
 
@@ -600,7 +607,7 @@ SQL結構現在提供資料模型v1，用於現成可用的資源——詳 [情]
 
 **發行中包含的新功能**
 
-疲勞管理報告——詳 [細內容](../../administration/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report)
+疲勞管理報告——詳 [細內容](../../sending/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report)
 
 報表共用——詳 [細資訊](../../reporting/using/reporting-interface.md#share-tab)
 
@@ -628,7 +635,7 @@ API Signal活動觸發——詳 [細資訊](../../api/using/triggering-a-signal-
 
 **發行中包含的新功能**
 
-疲勞管理——詳 [細內容](../../administration/using/fatigue-rules.md)
+疲勞管理——詳 [細內容](../../sending/using/fatigue-rules.md)
 
 內容建立：從URL匯入——閱 [讀更多](../../designing/using/using-existing-content.md#importing-content-from-a-url)
 

@@ -12,7 +12,7 @@ discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
+source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
 
 ---
 
@@ -77,7 +77,7 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 如果您想要根據特定條件傳送通知給不同的使用者群組，則需要使用數個控制面板。 若要建立新控制面板：
 
-1. 前往 **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Delivery alerting]**。
+1. 前往 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Delivery alerting]**。
 1. 選擇 **[!UICONTROL Delivery alerting dashboards]** 並按一下 **[!UICONTROL Create]**。
 1. 核取方 **[!UICONTROL Enabled]** 塊以啟用目前的控制面板。
 
@@ -88,7 +88,7 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 1. 從下拉式清單中選取您要通知的收 **[!UICONTROL Alert group]** 件者群組。 要修改或建立組，請參 [閱建立安全組和分配用戶](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users)。
 1. 在區段 **[!UICONTROL Delivery alerting criteria]** 中，按一下 **[!UICONTROL Create element]** 以新增條件。 請參 [閱關於警報標準](#about-alerting-criteria)。
 1. 選擇按 **[!UICONTROL Edit properties]** 鈕。 在標籤 **[!UICONTROL Criteria parameters]** 中，定義如何套用標準。 請參 [閱標準參數](#criteria-parameters)。
-1. Click **[!UICONTROL Create]** to save the dashboard.
+1. 按一 **[!UICONTROL Create]** 下以儲存控制面板。
 
 現在，每當傳送符合您在此控制面板中定義的標準時，就會傳送警報通知給指定的使用者群組。
 
@@ -96,7 +96,7 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ### 關於警報標準 {#about-alerting-criteria}
 
-要訪問傳送警報標準，請轉至 **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Delivery alerting]** 並選擇 **[!UICONTROL Delivery alerting criteria]**。
+要訪問傳送警報標準，請轉至 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Delivery alerting]** 並選擇 **[!UICONTROL Delivery alerting criteria]**。
 
 ![](assets/delivery-alerting_criteria.png)
 
@@ -146,7 +146,7 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 若要這麼做，您必須先擴充 **Delivery** 資源，並新增篩選條件，讓您只選取狀態的 **[!UICONTROL Finished]** 傳送。
 
-1. 前往「 **Adobe Campaign** &gt;管理 **&gt;開發** &gt; **Adobe Campaign** **&gt;自訂資****[!UICONTROL Create]**&#x200B;源和點按」。
+1. 前往「 **Adobe Campaign** >管理 **>開發** > **Adobe Campaign** **>自訂資源****[!UICONTROL Create]**&#x200B;和點按」。
 1. 選擇 **[!UICONTROL Extend an existing resource]**，從下拉 **[!UICONTROL Delivery]** 清單中選擇資源，然後按一下 **[!UICONTROL Create]** 以編輯它。
 
    ![](assets/delivery-alerting_extend-delivery-cus.png)
@@ -167,7 +167,7 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
    過濾器已建立，現在可以在新的傳送警報標準中選擇。
 
-1. 前往 **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Delivery alerting]**，選取並 **[!UICONTROL Delivery alerting criteria]** 按一下 **[!UICONTROL Create]**。
+1. 前往 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Delivery alerting]**，選取並 **[!UICONTROL Delivery alerting criteria]** 按一下 **[!UICONTROL Create]**。
 1. 在下拉 **[!UICONTROL Delivery filter applied by this criterion]** 式清單中，選取您剛建立的篩選。
 
    ![](assets/delivery-alerting_cus-filter.png)
@@ -195,7 +195,7 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
    有關聯繫日期的詳細資訊，請參 [閱關於計畫](../../sending/using/about-scheduling-messages.md)。
 
-* **[!UICONTROL Maximum ratio of soft bounce errors]**:系統會針對所有傳送傳送傳送通知，其軟反彈錯誤率大於指定值。 依預設，此欄位的值會設為0.05(5%)。
+* **[!UICONTROL Maximum ratio of soft bounce errors]**:系統會針對所有傳送傳送傳送一則通知，其彈跳錯誤率大於指定值。 依預設，此欄位的值會設為0.05(5%)。
 
    如需軟反彈錯誤的詳細資訊，請參 [閱「彈回郵件資格](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) 」 [和傳送失敗類型清單](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)。
 
@@ -213,7 +213,7 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 此選 **[!UICONTROL Frequency of delivery alerting]** 項允許定義兩個警報發送之間的延遲。 預設為10分鐘。
 
-您可以透過&gt; **[!UICONTROL Administration]** &gt;功能表 **[!UICONTROL Application settings]** 變更 **[!UICONTROL Options]** 此設定。
+您可以透過> **[!UICONTROL Administration]** >功能表 **[!UICONTROL Application settings]** 變更 **[!UICONTROL Options]** 此設定。
 
 >[!NOTE]
 >
@@ -229,7 +229,7 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 若要檢視每次傳送發生的記錄，請選取標 **[!UICONTROL Sending logs]** 簽。 它包含已傳送訊息的清單及其狀態。 您可以在此處檢查每個收件者( **[!UICONTROL Sent]**、 **[!UICONTROL Pending]**、 **[!UICONTROL Failed]**&#x200B;等)的傳送狀態。 有關詳細資訊，請參閱 [發送日誌](../../sending/using/monitoring-a-delivery.md#sending-logs)。
 
-以下是根據遞送符合的標準接收警報通知的幾個可能原因。
+以下是根據遞送滿足的條件接收警報通知的幾個可能原因。
 
 * **[!UICONTROL Deliveries failed]**:此准則會通知您所有狀態錯誤的傳送。 這可能是因為：
 
@@ -245,7 +245,7 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
    * 個人化欄位中的語法錯誤。
    * 目標丟失。
    * 傳送超過大小限制。
-   如需詳細資訊，請參 [閱準備傳送](../../sending/using/preparing-the-send.md)。 不過，這些錯誤通常會在訊息分析期間發現。 請參閱 [控制規則](../../administration/using/control-rules.md)。
+   如需詳細資訊，請參 [閱準備傳送](../../sending/using/preparing-the-send.md)。 不過，這些錯誤通常會在訊息分析期間發現。 請參閱 [控制規則](../../sending/using/control-rules.md)。
 
 * 警報的可能 **[!UICONTROL Delivery with bad error ratio for soft bounces]** 原因為：
 
@@ -261,7 +261,7 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
    * 收件者的伺服器封鎖傳送。
    若要避免軟反彈和硬反彈錯誤，請遵循下列最佳實務：
 
-   * 建立篩選類型規則，以在傳送分析期間排除訊息目標的一部分，例如隔離的收件者。 請參 [閱建立篩選規則](../../administration/using/filtering-rules.md)。
+   * 建立篩選類型規則，以在傳送分析期間排除訊息目標的一部分，例如隔離的收件者。 請參 [閱建立篩選規則](../../sending/using/filtering-rules.md)。
    * 定期更新客戶資料庫，以維護良好的隔離管理流程。 請參 [閱關於隔離](../../sending/using/understanding-quarantine-management.md#about-quarantines)。
    * 一般而言，請盡可能提高傳遞能力。 請參閱Adobe Campaign傳遞 [功能詳細檔案](../../sending/using/about-deliverability.md) ，並連絡您的Adobe Campaign管理員以取得協助。
 

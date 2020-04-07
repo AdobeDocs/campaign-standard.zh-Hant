@@ -13,7 +13,7 @@ delivercontext-tags: deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
 
 ---
 
@@ -59,13 +59,13 @@ source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 1. 確認建立消息。 接著會顯示其控制面板。
 1. 排程傳送。 SMS可在訊息準備後手動傳送，或在排程日期自動傳送。 請參閱 [排程訊息](../../sending/using/about-scheduling-messages.md)。
-1. 準備訊息以分析其有效性、個人化及目標。
+1. 準備訊息以分析其有效性、個人化和目標。
 
    ![](assets/sms_creation_6.png)
 
    >[!NOTE]
    >
-   >您可以設定全域跨通道疲勞規則，自動從促銷活動中排除過度徵求的個人檔案。 請參 [閱疲勞規則](../../administration/using/fatigue-rules.md)。
+   >您可以設定全域跨通道疲勞規則，自動從促銷活動中排除過度徵求的個人檔案。 請參 [閱疲勞規則](../../sending/using/fatigue-rules.md)。
 
 1. 傳送校樣以檢查並驗證您的訊息，並監控其收件匣轉譯。 請參閱「 [傳送校樣](../../sending/using/sending-proofs.md) 」一節。
 1. 確認訊息的傳送。 發送將相應地啟動到您定義的調度。

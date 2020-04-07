@@ -12,7 +12,7 @@ discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
 
 ---
 
@@ -76,7 +76,7 @@ source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
    >[!NOTE]
    >
-   >您可以設定全域跨通道疲勞規則，自動從促銷活動中排除過度徵求的個人檔案。 如需詳細資訊，請參閱「疲 [乏規則」](../../administration/using/fatigue-rules.md)。
+   >您可以設定全域跨通道疲勞規則，自動從促銷活動中排除過度徵求的個人檔案。 如需詳細資訊，請參閱「疲 [乏規則」](../../sending/using/fatigue-rules.md)。
 
 1. 傳送校樣以檢查並驗證您的訊息，並監控其收件匣轉譯。 請參 [閱傳送證明](../../sending/using/sending-proofs.md)。
 

@@ -2,9 +2,9 @@
 product: adobe campaign
 sub-product: adobe campaign standard
 audience: end-user
-user-guide-title: Adobe Campaign Standard Help
+user-guide-title: Adobe Campaign Standard 說明
 translation-type: tm+mt
-source-git-commit: 8561d57629b359e2bf0cd1f190b45c6be1ae0185
+source-git-commit: 7895e526732a4e1b4051c907f95ea1cf1222878d
 
 ---
 
@@ -168,6 +168,13 @@ source-git-commit: 8561d57629b359e2bf0cd1f190b45c6be1ae0185
       + [技術建議](sending/using/technical-recommendations.md)
       + [監控傳送能力](sending/using/monitor-deliverability.md)
       + [疑難排解](sending/using/troubleshooting.md)
+   + 使用類型學規則 {#working-with-typology-rules}
+      + [關於類型和類型學規則](sending/using/about-typology-rules.md)
+      + [管理類型](sending/using/managing-typologies.md)
+      + [管理排版規則](sending/using/managing-typology-rules.md)
+      + [篩選規則](sending/using/filtering-rules.md)
+      + [疲勞規則](sending/using/fatigue-rules.md)
+      + [控制規則](sending/using/control-rules.md)
 + 報告 {#reporting}
    + 關於報告 {#about-reporting}
       + [關於動態報告](reporting/using/about-dynamic-reports.md)
@@ -230,12 +237,12 @@ source-git-commit: 8561d57629b359e2bf0cd1f190b45c6be1ae0185
       + [測試您的觸發程式](integrating/using/testing-your-triggers.md)
       + [廢棄觸發程式使用案例](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign和Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-      + [配置Adobe IO for Microsoft Dynamics 365整合](integrating/using/configure-adobe-io-for-ms-dynamic.md)
       + 使用Campaign Standard和Microsoft Dynamics 365 {#working-with-campaign-standard-and-ms-dynamics}
          + [使用Campaign Standard和Microsoft Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
          + [通知與建議](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
          + [請求並設定Microsoft Dynamics 365與Campaign Standard整合](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
          + [將Microsoft Dynamics 365與Campaign Standard整合](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
+      + [配置Adobe IO for Microsoft Dynamics 365整合](integrating/using/configure-adobe-io-for-ms-dynamic.md)
       + [設定Microsoft Dynamics 365以進行促銷活動整合](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
       + [針對Microsoft Dynamics 365整合設定Unifi](integrating/using/configure-unifi-for-microsoft-dynamics-365-integration.md)
       + [映射促銷活動自訂資源和Dynamics 365自訂實體](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
@@ -371,11 +378,6 @@ source-git-commit: 8561d57629b359e2bf0cd1f190b45c6be1ae0185
       + [設定 SMS 通道](administration/using/configuring-sms-channel.md)
       + [設定行動應用程式](administration/using/configuring-a-mobile-application.md)
       + [設定交易式訊息傳遞](administration/using/configuring-transactional-messaging.md)
-   + 使用類型學規則 {#working-with-typology-rules}
-      + [關於類型學規則](administration/using/about-typology-rules.md)
-      + [篩選規則](administration/using/filtering-rules.md)
-      + [疲勞規則](administration/using/fatigue-rules.md)
-      + [控制規則](administration/using/control-rules.md)
    + 應用程式設定 {#application-settings}
       + [關於 Campaign Standard 設定](administration/using/about-campaign-standard-settings.md)
       + [外部帳戶](administration/using/external-accounts.md)

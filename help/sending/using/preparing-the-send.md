@@ -1,18 +1,18 @@
 ---
 title: 準備傳送
 description: 瞭解如何在傳送前定義準備。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: 1038dae2-164c-4579-9294-bdf2a4eb12d6
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 發送
-content-type: 參考
-topic-tags: 準備和測試訊息
+audience: sending
+content-type: reference
+topic-tags: preparing-and-testing-messages
 discoiquuid: 003abc83-7f07-471f-ab2f-1d352d22c26f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
 
 ---
 
@@ -57,7 +57,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 **類型學規則**
 
-Adobe Campaign隨附一組內建的排版規則，這些規則會在訊息準備期間套用。 它們用來檢查訊息是否有效，以及是否符合您的品質標準。 請參閱 [類型](../../administration/using/about-typology-rules.md)。 例如，您可以定義自己的排版規則，以設定全域跨通道疲勞規則，自動排除促銷活動中過度索取的個人檔案。 請參 [閱疲勞規則](../../administration/using/fatigue-rules.md)。
+Adobe Campaign隨附一組內建的排版規則，這些規則會在訊息準備期間套用。 它們用來檢查訊息是否有效，以及是否符合您的品質標準。 請參閱 [類型](../../sending/using/about-typology-rules.md)。 例如，您可以定義自己的排版規則，以設定全域跨通道疲勞規則，自動排除促銷活動中過度索取的個人檔案。 請參 [閱疲勞規則](../../sending/using/fatigue-rules.md)。
 
 **SMS訊息檢查**
 

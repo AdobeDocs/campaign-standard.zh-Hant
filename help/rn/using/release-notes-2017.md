@@ -12,7 +12,7 @@ discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6a34cc1a8848b21ea01b9a20b9deb9be5b5e3895
+source-git-commit: c21a6fb4916430deb76d5d01b379453e398f6f25
 
 ---
 
@@ -39,7 +39,7 @@ source-git-commit: 6a34cc1a8848b21ea01b9a20b9deb9be5b5e3895
  <tbody> 
   <tr> 
    <td> 疲勞管理<br /> </td> 
-   <td> 「疲勞管理」(Fatigue Management)允許您建立疲勞規則，以管理與配置檔案的過度通信。 疲勞規則建立起來很容易，但極具彈性，可計算多個通道（包括交易訊息）的訊息、只計算特定傳送，或將規則套用至特定描述檔。<br /> 如需詳細資訊，請參閱詳 <a href="../../administration/using/fatigue-rules.md">細檔案</a>。<br /> </td> 
+   <td> 「疲勞管理」(Fatigue Management)允許您建立疲勞規則，以管理與配置檔案的過度通信。 疲勞規則建立起來很容易，但極具彈性，可計算多個通道（包括交易訊息）的訊息、只計算特定傳送，或將規則套用至特定描述檔。<br /> 如需詳細資訊，請參閱詳 <a href="../../sending/using/fatigue-rules.md">細檔案</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 內容建立：從URL匯入<br /> </td> 

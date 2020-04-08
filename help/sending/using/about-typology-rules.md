@@ -13,7 +13,7 @@ context-tags: typology,overview;typologyRule,main;typologyRule,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a9c0e3cc4609e747bbfebeb90049862f29c9d8d9
+source-git-commit: 396084934a41d103eecd6fe141c700c118000f75
 
 ---
 
@@ -32,5 +32,5 @@ Campaign Standard提供現成可用的類型和類型學規則。 您也可以�
 
 1. 建立類型學規則(請 [參閱本節](../../sending/using/managing-typology-rules.md#creating-a-typology-rule))。
 1. 建立類型並參考您建立的規則(請參 [閱本節](../../sending/using/managing-typologies.md#creating-a-typology))。
-1. 設定您的傳送方式，以使用您建立的類型(請參 [閱本節](../../sending/using/managing-typologies.md#applying-typologies-to-messages))。
+1. 設定您的傳送方式，以使用您建立的排版(請參 [閱本節](../../sending/using/managing-typologies.md#applying-typologies-to-messages))。
 1. 在消息準備期間，滿足條件時將排除配置檔案。 您可以檢查記錄檔以監控排除。

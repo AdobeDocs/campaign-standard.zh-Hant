@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 240e8738fab8f0eaa8398de1b74e22d292536908
+source-git-commit: 876f12d5256ef991741c35b17eff666dedc99d73
 
 ---
 
@@ -31,13 +31,13 @@ Microsoft Dynamics 365與Adobe Campaign Standard檔案的整合已整合至「�
 
 已新增其他資源至檔案首頁。 [閱讀更多資訊](../../campaign-standard-home.md)
 
-Adobe Experience Platform資料連接器檔案已新增有關Experience CLoud ID服務(ECID)的資訊。 [閱讀更多資訊](../../administration/using/aep-about-data-connector.md#key-concepts)
+Experience Cloud ID服務(ECID)的相關資訊已新增至Adobe Experience Platform資料連接器檔案。 [閱讀更多資訊](../../administration/using/aep-about-data-connector.md#key-concepts)
 
 「設定交易訊息」區段已改良，提供如何存取最新交易事件和更新螢幕擷取畫面的資訊。 [閱讀更多資訊](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)
 
 與類型和類型學規則有關的部分已得到改進，並更新了關於現成可用的類型學規則的補充資訊。 [閱讀更多資訊](../../sending/using/about-typology-rules.md)
 
-已新增有關活動 **[!UICONTROL Transfer file]** 動作的資 **!UICONTROL File listing]** 訊。 [閱讀更多資訊](../../automating/using/transfer-file.md)
+已新增有關活動 **[!UICONTROL Transfer file]** 動作的資 **[!UICONTROL File listing]** 訊。 [閱讀更多資訊](../../automating/using/transfer-file.md)
 
 傳送暫時失敗後重試的說明檔案已更新，其中提供更多詳細資訊，說明在升級至增強MTA後，如何管理重試。 [閱讀更多資訊](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)
 

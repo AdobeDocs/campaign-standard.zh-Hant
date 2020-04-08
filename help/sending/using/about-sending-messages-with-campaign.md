@@ -12,7 +12,7 @@ discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e6c43770755e59bf2a2d49540a052ac0bd2a2438
+source-git-commit: c49fcd793cbb13d26ccf3a47af145de7acd697e7
 
 ---
 
@@ -43,7 +43,6 @@ source-git-commit: e6c43770755e59bf2a2d49540a052ac0bd2a2438
 | 有用的頁面 | 其他資源 |
 |---|---|
 | [最佳化您的傳遞能力](../../sending/using/about-deliverability.md) | [疲勞管理](../../sending/using/fatigue-rules.md) |
-| [監控傳送](../../audiences/using/creating-profiles.md) | [設計A/B測試電子郵件](../../channels/using/designing-an-a-b-test-email.md) |
+| [控制傳送總處理量](../../reporting/using/delivery-throughput.md) | [設計A/B測試電子郵件](../../channels/using/designing-an-a-b-test-email.md) |
 | [在失敗時接收通知](../../sending/using/receiving-alerts-when-failures-happen.md) | [監控傳送](../../sending/using/monitoring-a-delivery.md) |
-| [建立控制群組](../../automating/using/workflow-control-group.md) | [在失敗時接收通知](../../sending/using/receiving-alerts-when-failures-happen.md) |
-| [控制傳送總處理量](../../reporting/using/delivery-throughput.md) | [監控傳送](../../sending/using/monitoring-a-delivery.md) |
+| [建立控制群組](../../automating/using/workflow-control-group.md) | [傳送後續訊息](../../channels/using/follow-up-messages.md) |

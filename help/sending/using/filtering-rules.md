@@ -12,7 +12,7 @@ discoiquuid: 7ddaf36c-74e6-4501-b3eb-3d03f005aaa6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ec0af8c06e36f51ddaf6e3d4190fa6acd56d2da6
+source-git-commit: 396084934a41d103eecd6fe141c700c118000f75
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: ec0af8c06e36f51ddaf6e3d4190fa6acd56d2da6
 下表提供現成可用篩選規則及其相關渠道的相關資訊。
 
 | 標籤 | 頻道 | 說明 |
----------|----------|---------|---------
+---------|----------|---------
 | **[!UICONTROL Address not specified]** | 全部 | 排除沒有指定地址（電子郵件、郵遞區號等）的目標人口。 )。 |
 | **[!UICONTROL Blacklisted address]** | 全部 | 排除黑名單地址。 |
 | **[!UICONTROL Duplicate]** | 全部 | 根據目標人口欄位排除復 **[!UICONTROL Address]** 本。 |

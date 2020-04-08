@@ -12,7 +12,7 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
+source-git-commit: f5c91f886335e43940caac4d3b18924c020a2d2b
 
 ---
 
@@ -282,7 +282,7 @@ _工作流程_
 _報告_
 
 * KPI共用工作流程現在會擷取過去2個月而非過去6個月的傳送值。 修正KPI共用外部帳戶顯示截斷日期的問題。
-* 修正「已傳送」、「已傳送」和「彈回數」中可能未考 **慮特定**&#x200B;訊息 **的******&#x200B;問題。
+* 修正「已傳送」、「已傳送」和「彈回數」中可能未考 **慮特定**&#x200B;訊息 **的** 問 ****&#x200B;題。
 * 修正「傳送摘要報表」中選取的時 **間範圍過長時** ，發生的錯誤。
 
 _自訂資源_
@@ -475,11 +475,11 @@ _已知問題_
   </tr> 
   <tr> 
    <td> 時區最佳化傳送<br /> </td> 
-   <td> 排程定期傳送的電子郵件、簡訊和推播通知，以便在每個收件者的時區中，於特定日／時間傳送，確保訊息在適當的時間傳送，而不需設定多個傳送。 <br /> 如需詳細資訊，請參閱詳 <a href="../../automating/using/scheduler.md">細檔案</a>。<br /> </td> 
+   <td> 排程定期傳送的電子郵件、簡訊和推播通知，以便在每個收件者的時區中，於特定日／時間傳送，以確保您的訊息在適當的時間傳送，而不需設定多個傳送。 <br /> 如需詳細資訊，請參閱詳 <a href="../../automating/using/scheduler.md">細檔案</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> API Signal活動觸發<br /> </td> 
-   <td> 現在可以直接從Adobe Campaign Standard API觸發工作流程的訊號活動。<br /> 如需詳細資訊，請參閱詳細 <a class="anchorLink" href="../../api/using/triggering-a-signal-activity.md">檔案</a> 。<br /> </td> 
+   <td> 現在可以直接從Adobe Campaign Standard API觸發工作流程的訊號活動。<br /> 如需詳細資訊，請參閱詳細 <a href="/help/api/using/triggering-a-signal-activity.md">檔案</a> 。<br /> </td> 
   </tr> 
  </tbody> 
 </table>

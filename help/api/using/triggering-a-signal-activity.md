@@ -12,14 +12,14 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: f5c91f886335e43940caac4d3b18924c020a2d2b
 
 ---
 
 
 # 觸發信號活動 {#triggering-a-signal-activity}
 
-在Adobe Campaign standard工作流程中，可能有一或多個外部 **訊號** 。 這些活動是等待觸發的"聽眾"。
+在Adobe Campaign Standard工作流程中，可能有一或多個外部 **訊號** 。 這些活動是等待觸發的&quot;聽眾&quot;。
 
 Campaign Standard API可讓您觸發 **External Signal** 活動來呼叫工作流程。 API呼叫可包含將納入工作流程事件變數的參數（要定位的對象名稱、要匯入的檔案名稱、訊息內容的一部分等）。 如此，您就可輕鬆將Campaign自動化與外部系統整合。
 

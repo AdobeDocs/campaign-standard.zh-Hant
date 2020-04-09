@@ -13,7 +13,7 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a6e81927aad7bf06eca6d0dc7436c4dc2a1c21c5
+source-git-commit: 1f0df05a08cc07b7c2a5b8e175177006360e7e7d
 
 ---
 
@@ -129,7 +129,7 @@ Campaign Standard可讓您匯入可用於測試的設定檔對象。 例如，�
 >
 >如果您再次匯入相同的對象，並使用不同的替代位址和／或前置詞，則除了先前匯入的訪客外，設定檔也會新增至清單。
 
-    ![](assets/substitution_audience_added.png)
+![](assets/substitution_audience_added.png)
 
 ## 使用目標設定檔預覽訊息
 

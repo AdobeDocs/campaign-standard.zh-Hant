@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 876f12d5256ef991741c35b17eff666dedc99d73
+source-git-commit: 2646aa9ad60805a4dedc6b8a1f91c16f6e1b438d
 
 ---
 
@@ -43,7 +43,7 @@ Experience Cloud ID服務(ECID)的相關資訊已新增至Adobe Experience Platf
 
 刪除事務性消息部分已增強並澄清。 [閱讀更多資訊](../../channels/using/event-transactional-messages.md#deleting-a-transactional-message)
 
-## 版本20.2 - 2020年3月 {#release-20-2---march-2020}
+## 版本20.2 - 2020年4月 {#release-20-2---april-2020}
 
 **發行中包含的新功能**
 

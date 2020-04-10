@@ -12,7 +12,7 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d8ad3801dba50e357c21a7551e897e0e2c5aedc5
+source-git-commit: c35468d7c9a3177d755dad2a9ab2e09510d680fa
 
 ---
 
@@ -50,23 +50,9 @@ Adobe會持續評估產品功能，以找出應以更現代的替代方式來取
   <tr> 
    <td> <p> 從20.1版開始，SDK v4已過時。 <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">進一步瞭解</a>。</p><br/>
    <p>Adobe <a href="https://aep-sdks.gitbook.io/docs/">Experience Platform Mobile SDK</a> （先前稱為v5）將獨家支援即將推出的Adobe Experience Cloud功能。</p></br>
-     <p>目標刪除日期：2020年9月30日</p>
+     <p>
+     <em>目標刪除日期：2020年9月30日</em></p>
      </td> 
-  </tr> 
- </tbody> 
-</table>
-
-<table> 
- <thead> 
-  <tr> 
-   <th> <strong>Creative SDK for Campaign Standard</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p>Adobe Creative SDK已終止服務。 因此，從20.1版開始，Campaign Standard電子郵件中採用Creative SDK的影像版本即不再提供。</p></br>
-  <p> 目標刪除日期：2020年3月- Campaign 20.2發行</p>
-   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -80,7 +66,8 @@ Adobe會持續評估產品功能，以找出應以更現代的替代方式來取
   <tr> 
    <td> <p>在啟動Campaign 19.4發行時，已不再使用Campaign API和介面來存取和刪除請求。 2步驟描述檔刪除將無法使用。 使用 <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe隱私權核心服務</a>。</p></br>
    <p>另請參閱 <a href="https://helpx.adobe.com/campaign/kb/acs-privacy.html">Campaign Standard中的隱私權管理</a>。</p>
-  <p> 目標刪除日期：2020年7月- Campaign 20.5版本</p>
+  <p> 
+  <em>目標刪除日期：2020年7月- Campaign 20.5版本 </em></p>
    </td> 
   </tr> 
  </tbody> 
@@ -96,7 +83,8 @@ Adobe會持續評估產品功能，以找出應以更現代的替代方式來取
   <tr> 
    <td> <p>在啟動Campaign 19.0版本時，舊版電子郵件編輯器已過時。 使用 <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">全新的電子郵件設計工具</a> ，建立並個人化您的電子郵件內容。 </p></br>
    <p>閱讀本 <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">節</a> ，瞭解如何針對新編輯者調整您的電子郵件範本。</p></br>
-  <p> 目標刪除日期：2020年10月- Campaign 20.6發行</p>
+  <p> 
+  <em>目標刪除日期：2020年10月- Campaign 20.6發行 </em></p>
    </td> 
   </tr> 
  </tbody> 
@@ -116,6 +104,23 @@ Adobe會持續評估產品功能，以找出應以更現代的替代方式來取
  </tbody> 
 </table>
 
+## 已移除功能 {#removed-features}
+
+本節列出已從Campaign Standard移除的功能。
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> <strong>Creative SDK for Campaign Standard</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p>Adobe Creative SDK已終止服務。 因此，從Campaign 20.2版開始，Campaign Standard電子郵件中不再提供採用Creative SDK的影像版本。</p></br>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 ## 相容性終止 {#end-of-compatibility}
 

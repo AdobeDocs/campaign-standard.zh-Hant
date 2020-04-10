@@ -12,7 +12,7 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 451c7d15bfe206912fd1f8db8bf8c3d7ec83616d
+source-git-commit: a71af00e606d78c4ff8b39da1b9f032c0dcf0fc6
 
 ---
 
@@ -27,9 +27,9 @@ Adobe透過新增功能、增強功能和修正不斷改進其解決方案。
 
 所有發行日期皆可能變更：我們建議您定期造訪本頁面，以檢查更新。
 
-請訂閱以接 [收發行通知](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) ，直接在您的收件匣中取得有關最新Adobe Experience Cloud發行的詳細資訊。
+**新！** 訂閱 [Campaign Standard發行通知](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) ，直接在您的收件匣中取得有關即將發行的詳細資訊。
 
-## 版本20.2.1 - 4月發行 {#release-20-2-april-release}
+## 版本20.3.1 - 5月發行 {#release-20-3-may-release}
 
 環境更新會在以下指定時段內以波形進行。 有關此版本的詳細資訊，請參閱版 [本說明](../../rn/using/release-notes.md)。 如果您有任何其他問題，請聯絡 [Adobe Client Care](https://support.neolane.net/webApp/extranetLogin)。
 
@@ -43,11 +43,11 @@ Adobe透過新增功能、增強功能和修正不斷改進其解決方案。
  <tbody> 
   <tr> 
    <td> Stage<br /> </td> 
-   <td> 2020年3月31日至4月1日<br /> </td> 
+   <td> 2020年4月27日至28日<br /> </td> 
   </tr> 
   <tr> 
    <td> 製作<br /> </td> 
-   <td> 2020年4月6日至9日<br /> </td> 
+   <td> 2020年5月4日至11日<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,7 +58,7 @@ Adobe透過新增功能、增強功能和修正不斷改進其解決方案。
 
 **問：影響是什麼？**
 
-答：變更會列在發行說 [明中](../../rn/using/release-notes.md)，包括相關檔案的連結。 Adobe也建議參考「已過時 [和已移除功能」頁面](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)。 這些頁面適用於Stage環境升級日期的新版本。
+答：變更列在發行說 [明中](../../rn/using/release-notes.md)，包括相關檔案的連結。 Adobe也建議參考「已過時 [和已移除功能」頁面](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)。 這些頁面適用於Stage環境升級日期的新版本。
 
 **問：什麼是驗證程式？**
 

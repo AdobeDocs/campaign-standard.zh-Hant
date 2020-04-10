@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2646aa9ad60805a4dedc6b8a1f91c16f6e1b438d
+source-git-commit: 66e480e957d12275d2ce5575c99b0808462588f9
 
 ---
 
@@ -106,3 +106,4 @@ source-git-commit: 2646aa9ad60805a4dedc6b8a1f91c16f6e1b438d
 * 修正在促銷活動處理後手動刪除隱私權要求時，即使在清除後，與要求相關的資料也無法刪除的問題。
 * 修正預覽或傳送包含Adobe Experience Manager特殊字元之訊息時可能發生的問題。
 * 修正執行具有數個傳入轉場的活動時，工作流程中可能發生的問題。
+* 修正標準使用者無法在工作流程查詢或傳送中將「訂閱應用程式」當做目標維度的問題。 (CAMP-37618)

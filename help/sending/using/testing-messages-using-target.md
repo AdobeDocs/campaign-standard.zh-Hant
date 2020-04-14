@@ -13,7 +13,7 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f0df05a08cc07b7c2a5b8e175177006360e7e7d
+source-git-commit: 4a8fa27d816dade8a7eb26bb5b66e3ebfbec4b51
 
 ---
 
@@ -125,11 +125,11 @@ Campaign Standard可讓您匯入可用於測試的設定檔對象。 例如，�
 
 1. Click the **[!UICONTROL Import]** button. 來自對應於消息目標的觀眾的概要檔案被添加到標 **[!UICONTROL Profile substitution]** 簽，以及相關聯的替代地址和前置詞。
 
->[!NOTE]
->
->如果您再次匯入相同的對象，並使用不同的替代位址和／或前置詞，則除了先前匯入的訪客外，設定檔也會新增至清單。
+   ![](assets/substitution_audience_added.png)
 
-![](assets/substitution_audience_added.png)
+   >[!NOTE]
+   >
+   >如果您再次匯入相同的對象，並使用不同的替代位址和／或前置詞，則除了先前匯入的訪客外，設定檔也會新增至清單。
 
 ## 使用目標設定檔預覽訊息
 

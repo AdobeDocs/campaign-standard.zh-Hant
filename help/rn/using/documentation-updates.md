@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2646aa9ad60805a4dedc6b8a1f91c16f6e1b438d
+source-git-commit: a09d82ae6fa77bb94550e533aa8fb63b463cd28c
 
 ---
 
@@ -42,6 +42,8 @@ Experience Cloud ID服務(ECID)的相關資訊已新增至Adobe Experience Platf
 傳送暫時失敗後重試的說明檔案已更新，其中提供更多詳細資訊，說明在升級至增強MTA後，如何管理重試。 [閱讀更多資訊](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)
 
 刪除事務性消息部分已增強並澄清。 [閱讀更多資訊](../../channels/using/event-transactional-messages.md#deleting-a-transactional-message)
+
+「預覽 **傳送** 」一節已更新為行動傳送範例。[閱讀更多資訊](../../sending/using/previewing-messages.md)
 
 ## 版本20.2 - 2020年4月 {#release-20-2---april-2020}
 

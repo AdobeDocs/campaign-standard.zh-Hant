@@ -12,7 +12,7 @@ discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 03009c47a66aa1a62c05f632e2a60141a98639d8
+source-git-commit: 640286c66da3f216cac6264ab6c61652bba209ce
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: 03009c47a66aa1a62c05f632e2a60141a98639d8
 
 其他解決方案也可以連結至Adobe Experience Cloud，視您的環境而定。 它們以「組織」（又稱為「租客」）連結。
 
-組織是可讓管理員設定群組和使用者，以及控制Experience Cloud中單一登入的實體。 組織的運作方式類似登入公司，涵蓋所有Experience Cloud產品和解決方案。 通常，組織就是您的公司名稱。 但是，公司可以有許多組織。 使用者和組織管理在 [Adobe Experience Cloud說明入口網站中有詳細說明](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)。
+組織是可讓管理員設定群組和使用者，以及控制Experience Cloud中單一登入的實體。 組織的運作方式類似登入公司，涵蓋所有Experience Cloud產品和解決方案。 通常，組織就是您的公司名稱。 但是，公司可以有許多組織。 使用者和組織管理在 [Adobe Experience Cloud說明入口網站中有詳細說明](https://marketing.adobe.com/resources/help/zh_TW/mcloud/organizations.html)。
 
 如果您想要將其他系統的資料流與Adobe Campaign整合，請參閱我們的 [API檔案](../../api/using/about-campaign-standard-apis.md)。
 
@@ -48,7 +48,7 @@ source-git-commit: 03009c47a66aa1a62c05f632e2a60141a98639d8
  </thead> 
  <tbody> 
   <tr> 
-   <td> Experience Manager<br /> 6.1、6.2、6.3、6.4<br /> </td> 
+   <td> Experience Manager<br /> 6.1、6.2、6.3、6.4、6.5<br /> </td> 
    <td> 可讓您直接在Adobe Experience Manager中建立對應至Adobe Campaign資料庫的電子郵件內容或表單。<br /> </td> 
    <td> 
      <a href="../../integrating/using/integrating-with-experience-manager.md">使用Campaign和Experience Manager</a><br/>、 <a href="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/campaignstandard.html">整合Experience Manager和Campaign Standard</a> , <br/><a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_AEM.html">使用Experience Manager和Campaign建立電子郵件</a> 

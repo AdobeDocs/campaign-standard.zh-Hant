@@ -1,18 +1,18 @@
 ---
 title: '從頭設計電子郵件 '
 description: 瞭解如何在電子郵件設計工具中從頭開始設計電子郵件內容。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 設計
-content-type: 參考
-topic-tags: 編輯——電子郵件——內容
+audience: designing
+content-type: reference
+topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 023159c1c2d3334fd79e9ed9bf628758d84111eb
 
 ---
 
@@ -77,7 +77,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 內容元件是原始的空白元件，放入電子郵件後，您就可以編輯這些元件。
 
-您可以在結構元件中新增任意數量的內容元件。 也可將它們在結構元件內或移動到另一個結構元件。
+您可以在結構元件中新增任意數量的內容元件。 也可以在結構元件內或移動到其它結構元件。
 
 以下是「電子郵件設計器」中可用元件的清單：
 
@@ -87,7 +87,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    您也可以將按鈕儲存至可重複使用的片段。 如需詳細資訊，請參 [閱「建立內容片段](../../designing/using/using-reusable-content.md#creating-a-content-fragment) 」 [和「將內容儲存為片段」](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment)。
 
-1. 選擇 **[!UICONTROL Fallback view]** 以在電子郵件設計器中顯示備援影像。
+選擇 **[!UICONTROL Fallback view]** 以在電子郵件設計器中顯示備援影像。
 
 - **[!UICONTROL Text]**
 

@@ -1,5 +1,5 @@
 ---
-title: 透過API觸發資料擷取
+title: 透過 API 觸發資料引入
 description: 瞭解如何透過API觸發資料擷取。
 page-status-flag: never-activated
 uuid: 867b1c4b-4c79-4c52-9d0a-ef71993e50a2
@@ -12,16 +12,16 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 67223cf8eed46e2431c03674bd837262e37c7473
+source-git-commit: 57b87896281efa7dd1e6a612926f59061a0fdcb8
 
 ---
 
 
-# 透過API觸發資料擷取 {#triggering-data-ingestion-apis}
+# 透過 API 觸發資料引入 {#triggering-data-ingestion-apis}
 
 >[!IMPORTANT]
 >
->促銷活動標準資料服務目前處於測試階段，可能會在不另行通知的情況下頻繁更新。 客戶必須在Azure上代管（目前僅限北美地區測試版）才能存取這些功能。 如果您想要存取，請聯絡Adobe客戶服務。
+>Adobe Experience Platform Data Connector目前正在測試中，可能會在不另行通知的情況下頻繁更新。 客戶必須在Azure上代管（目前僅限北美地區測試版）才能存取這些功能。 如果您想要存取，請聯絡Adobe客戶服務。
 
 Adobe Campaign Standard可讓您透過API觸發資料映射的立即擷取，並擷取擷取擷取請求的狀態。
 
@@ -29,16 +29,16 @@ Adobe Campaign Standard可讓您透過API觸發資料映射的立即擷取，並
 
 ## 必要條件 {#prerequisites}
 
-在使用API之前，資料對應必須先在Campaign standard介面中設定並發佈。 有關這些內容的詳細資訊，請參閱下列章節：
+在使用API之前，資料對應必須先在Campaign Standard介面中設定並發佈。 有關這些內容的詳細資訊，請參閱下列章節：
 
 * [映射定義](../../administration/using/aep-mapping-definition.md)
-* [對應啟動](../../administration/using/aep-mapping-activation.md)
+* [映射啟動](../../administration/using/aep-mapping-activation.md)
 
 建立資料對應後，您必須停止它的執行，以便您可以隨時從API觸發它。 若要這麼做，請依照下列步驟進行：
 
-1. 在「促銷活動標準」中，前往 **[!UICONTROL Administration]**>**[!UICONTROL Development]** > **[!UICONTROL Platform]**>功能**[!UICONTROL Status of data export to platform]** 表。
+1. 在「促銷活動標準」中，前往 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** >功能 **[!UICONTROL Status of data export to platform]** 表。
 
-1. 連按兩下資料對應以開啟它，然後按一下 **[!UICONTROL Stop]**按鈕。
+1. 連按兩下資料對應以開啟它，然後按一下 **[!UICONTROL Stop]** 按鈕。
 
    ![](assets/aep_datamapping_stop.png)
 
@@ -48,7 +48,7 @@ Adobe Campaign Standard可讓您透過API觸發資料映射的立即擷取，並
 
 ## 開始立即擷取資料對應 {#starting-immediate-ingestion}
 
-POST操作會觸發XDM映射到Adobe Experience platform的立即接收：
+POST操作會觸發XDM映射到Adobe Experience Platform的立即接收：
 
 `POST https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM Mapping ID>/ingest`
 
@@ -104,7 +104,7 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 ```
 
 >[!NOTE]
-有關XDM映射請求狀態及其相關作業的詳細資訊，請參閱「Campaign Standard」介面的「資料匯出至平台的狀態」功能表 **!UICONTROL [(請參閱]** 映射啟動 [](../../administration/using/aep-mapping-activation.md))。
+有關XDM映射請求狀態及其相關作業的詳細資訊，請參閱「Campaign Standard」介面的「資料匯出至平台的狀態」功能表 **!UICONTROL [(請參閱&#x200B;]**映射啟動[](../../administration/using/aep-mapping-activation.md))。
 
 GET操作返回以下資訊：
 

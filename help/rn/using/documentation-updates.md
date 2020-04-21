@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a09d82ae6fa77bb94550e533aa8fb63b463cd28c
+source-git-commit: 09c7f365969fe415f1bcdcc57e7cfbb9ed99b521
 
 ---
 
@@ -44,6 +44,10 @@ Experience Cloud ID服務(ECID)的相關資訊已新增至Adobe Experience Platf
 刪除事務性消息部分已增強並澄清。 [閱讀更多資訊](../../channels/using/event-transactional-messages.md#deleting-a-transactional-message)
 
 「預覽 **傳送** 」一節已更新為行動傳送範例。[閱讀更多資訊](../../sending/using/previewing-messages.md)
+
+已新增有關交易訊息和刪除未使用之即時事件的最佳做法。 [閱讀更多資訊](../../administration/using/configuring-transactional-messaging.md#creating-an-event)
+
+「設定電子郵件渠道」區段已更新，其中說明現在由Adobe Campaign Enhanced MTA管理的所有電子郵件設定。 [閱讀更多資訊](../../administration/using/configuring-email-channel.md)
 
 ## 版本20.2 - 2020年4月 {#release-20-2---april-2020}
 

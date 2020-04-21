@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Adobe Campaign Standard 產品文件
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 7d359430748eea1210b04c151b4a89b6e99f0c11
+source-git-commit: 5b6eff73d0abd9601b7ac1ca4d63bd8e78d8493b
 
 ---
 
@@ -49,12 +49,11 @@ source-git-commit: 7d359430748eea1210b04c151b4a89b6e99f0c11
     <br>     
   </td>
   <td valign="top">
-       <img alt="開發人員" src="start/using/assets/dev.png" />
-    <div>
-    <strong>面向開發人員的資源</strong>
+       <img alt="支援" src="start/using/assets/do-not-localize/help.jpeg" />
+    <div><a href="https://helpx.adobe.com/campaign/kb/ac-support.html">
+    取 <strong>得支援</strong></a>
     </div>
-    <p><em><a href="api/using/about-campaign-standard-apis.md">Adobe Campaign API</a></em></p>
-    <p><em><a href="integrating/using/about-adobe-experience-cloud-triggers.md">Adobe Experience Cloud Triggers</a></em></p>
+    <p><em>存取常見問答集、最佳實務、說明資源，並與Campaign專家連絡。</em></p>
     <br>
   </td>
 </tr>
@@ -64,9 +63,9 @@ source-git-commit: 7d359430748eea1210b04c151b4a89b6e99f0c11
 
 | 有用的頁面 | 面向開發人員的資源 |
 |---|---|
-| [發行說明](rn/using/release-notes.md) | [實施指南](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html) |
+| [發行說明](rn/using/release-notes.md) | [Experience Cloud觸發器](integrating/using/about-adobe-experience-cloud-triggers.md) |
 | [控制面板檔案](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/control-panel-home.html) | [促銷活動API](api/using/about-campaign-standard-apis.md) |
-| [操作說明短片](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) | [錯誤消息清單](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
+| [實施指南](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html) | [錯誤消息清單](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [發行計畫](rn/using/release-planning.md) | [促銷活動資料模型](developing/using/datamodel-introduction.md) |
 | [已過時和移除的功能](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) | [多解決方案指南](integrating/using/about-campaign-integrations.md) |
 | [開始使用Campaign Standard](start/using/campaign-orchestration.md) | [技術說明](https://helpx.adobe.com/campaign/kb/acs-article-list.html) |

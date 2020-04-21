@@ -12,7 +12,7 @@ discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f1db8c886e560fe3f57d589b7fc2f2c2c1656f76
+source-git-commit: c1287a360cdd1750996b47a27b85a11e90b29df0
 
 ---
 
@@ -25,7 +25,9 @@ source-git-commit: f1db8c886e560fe3f57d589b7fc2f2c2c1656f76
 
 >[!NOTE]
 >
->**電子郵件** 錯誤訊息（或「彈回數」）由「增強的MTA」（同步彈回數）或inMail程式（非同步彈回數）限定。 **MTA流程** （或「狀態報告」的「SR」）會限定SMS錯誤訊息。
+>**電子郵件** 錯誤訊息（或「彈回數」）由「增強的MTA」（同步彈回數）或inMail程式（非同步彈回數）限定。
+>
+>**MTA流程** （或「狀態報告」的「SR」）會限定SMS錯誤訊息。
 
 如果地址被隔離或配置檔案被列入黑名單，在準備傳送時也可以排除郵件。 已排除的訊息會列在 **[!UICONTROL Exclusion logs]** 傳送控制面板的標籤中(請參 [閱本節](../../sending/using/monitoring-a-delivery.md#exclusion-logs))。
 
@@ -56,13 +58,13 @@ source-git-commit: f1db8c886e560fe3f57d589b7fc2f2c2c1656f76
 
 * **[!UICONTROL User unknown]** （硬類型）:地址不存在。 此描述檔不會再嘗試傳送。
 * **[!UICONTROL Quarantined address]** （硬類型）:地址被隔離了。
-* **[!UICONTROL Unreachable]** （可變／硬類型）:消息傳送鏈中發生錯誤（例如暫時無法訪問域）。 根據提供者傳回的錯誤，將直接傳送地址給隔離，或者重新嘗試傳送，直到Campaign收到證明隔離狀態正確的錯誤或錯誤數達到5為止。
+* **[!UICONTROL Unreachable]** （可變／硬類型）:消息傳送鏈中發生錯誤（例如暫時無法訪問域）。 根據提供者傳回的錯誤，將直接傳送地址給隔離，或重新嘗試傳送，直到Campaign收到證明隔離狀態正確的錯誤或錯誤數達到5為止。
 * **[!UICONTROL Address empty]** （硬類型）:地址未定義。
 * **[!UICONTROL Mailbox full]** （可變類型）:此用戶的郵箱已滿，無法接受更多消息。 可以從隔離清單中刪除此地址，以進行另一次嘗試。 在30天後自動移除。
 
    In order for the address to be automatically removed from the list of quarantined addresses, the **[!UICONTROL Database cleanup]** technical workflow must be started.
 
-* **[!UICONTROL Refused]** （可變／硬類型）:由於安全反饋是垃圾郵件報告，該地址已被置於隔離狀態。 根據提供者傳回的錯誤，將直接傳送地址給隔離，或重新嘗試傳送，直到Campaign收到證明隔離狀態正確的錯誤或錯誤數達到5為止。
+* **[!UICONTROL Refused]** （可變／硬類型）:由於安全反饋是垃圾郵件報告，該地址已被置於隔離狀態。 根據提供者傳回的錯誤，將直接傳送地址給隔離，或者重新嘗試傳送，直到Campaign收到證明隔離狀態正確的錯誤或錯誤數達到5為止。
 * **[!UICONTROL Duplicate]**:區段中已偵測到該位址。
 * **[!UICONTROL Not defined]** （可變類型）:該地址正在限定中，因為錯誤尚未增加。
 
@@ -80,13 +82,13 @@ source-git-commit: f1db8c886e560fe3f57d589b7fc2f2c2c1656f76
 
 如果消息因「已忽略」類型的臨時錯誤而失 **敗** ，則在傳送期間將執行重試。 如需錯誤類型的詳細資訊，請參閱傳 [送失敗類型和原因](#delivery-failure-types-and-reasons)。
 
-升級至 [Adobe Campaign Enhanced MTA後](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)，會忽略 **Campaign中的** Retries設定。 Enhanced MTA會根據IP在歷史和目前在指定網域的執行狀況，管理重試次數（在發送開始後應執行多少次重試）和兩次重試之間的最小延遲。
+Adobe Campaign Enhanced MTA現在會根據IP在歷史和目前指定網域的執行狀況，管理重試次數（在發送開始後應執行多少次重試）和兩次重試之間的最小延遲。 會忽 **略促銷活動** 中的「重試次數」設定。
 
 要修改傳送的持續時間，請轉至傳送或傳送模板的高級參數，並編輯「有 **[!UICONTROL Delivery duration]** 效期間」 [部分的欄位](../../administration/using/configuring-email-channel.md#validity-period-parameters) 。
 
 >[!IMPORTANT]
 >
->升級至 [Adobe Campaign Enhanced MTA後](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)，您的 **[!UICONTROL Delivery duration]** Campaign傳送中的參數只會在設為3.5天或更短時才使用。 如果您定義的值高於3.5天，則不會考慮該值。
+>**您&#x200B;**[!UICONTROL Delivery duration]**的促銷活動傳送中的參數現在僅在設為3.5天或更少時使用。** 如果您定義的值高於3.5天，則不會考慮該值，因為Adobe Campaign Enhanced MTA現在會管理它。
 
 例如，如果您希望某個傳送的重試在一天後停止，您可以將傳送持續時間設為 **1d**，而「增強型MTA」會在一天後移除重試佇列中的訊息，以遵守該設定。
 
@@ -105,19 +107,13 @@ source-git-commit: f1db8c886e560fe3f57d589b7fc2f2c2c1656f76
 
 ## 彈回郵件資格 {#bounce-mail-qualification}
 
-<!--Delivery failure error messages (or "SMTP bounce responses") are picked up by the Adobe Campaign platform and then processed and qualified as **Hard**, **Soft**, or **Ignored** using the **[!UICONTROL Delivery log qualification]** database.
-
-//Delivery failure error messages (or "bounces") are picked up by the Adobe Campaign platform and qualified by the inMail process to enrich the list of email management rules.(applies to asynchronous (out-of-band) bounces)
-
-This list is available to administrators only and contains all the rules used by Adobe Campaign to qualify delivery failures.-->
-
->[!IMPORTANT]
->
->升級至「增強的MTA」後，「促銷活動」表格中的彈 **[!UICONTROL Message qualification]** 回資格便不再使用。
-
-對於同步傳送失敗錯誤訊息，「增強的MTA」會決定反彈類型和資格，並將該資訊傳回至「促銷活動」。 如需Adobe Campaign增強型MTA的詳細資訊，請參閱本文 [件](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)。
+對於同步傳送失敗錯誤訊息，「增強的MTA」會決定反彈類型和資格，並將該資訊傳回至「促銷活動」。
 
 inMail程式仍會透過規則來限定非同步彈 **[!UICONTROL Inbound email]** 回數。 若要存取這些規則，請按一 **[!UICONTROL Adobe Campaign]** 下左上角的標誌，然後選取 **[!UICONTROL Administration > Channels > Email > Email processing rules]** 並選取 **[!UICONTROL Bounce mails]**。 For more on this rule, refer to this [section](../../administration/using/configuring-email-channel.md#email-processing-rules).
+
+>[!NOTE]
+>
+>Adobe Campaign Enhanced MTA現在會管理彈回郵件資格。 「促銷活動」表格中的 **[!UICONTROL Message qualification]** 反彈資格不再使用。
 
 <!--Bounces can have the following qualification statuses:
 

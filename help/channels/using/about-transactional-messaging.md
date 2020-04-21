@@ -12,7 +12,7 @@ discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
+source-git-commit: 72366d56e21933bcd79e907e5f8d5a9ad5281725
 
 ---
 
@@ -48,7 +48,7 @@ Adobe Campaign Standard API也提供交易式訊息。 如需詳細資訊，請�
 
 >[!IMPORTANT]
 >
->升級至「增強 [MTA](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)」後，所有交易訊息都會隨Adobe Campaign Enhanced MTA傳送，以改善傳遞能力、總處理能力和彈回處理。 所有影響與標準行銷訊息的影響相同，並在 [Adobe Campaign Enhanced MTA檔案中詳細說明](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html) 。
+>現在，所有交易訊息都會與Adobe Campaign Enhanced MTA一起傳送，以改善傳遞能力、總處理能力和彈回數處理。 所有影響與標準行銷訊息的影響相同。
 
 ## 事務性消息傳遞操作原則 {#transactional-messaging-operating-principle}
 

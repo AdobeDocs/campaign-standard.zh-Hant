@@ -13,7 +13,7 @@ context-tags: typology,overview;typologyRule,main;typologyRule,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ec0af8c06e36f51ddaf6e3d4190fa6acd56d2da6
+source-git-commit: ba1fcca02ce9582d85e57bde815ccf3f551ac7a3
 
 ---
 
@@ -44,7 +44,7 @@ source-git-commit: ec0af8c06e36f51ddaf6e3d4190fa6acd56d2da6
 
 1. 此時將顯示類型清單。 Click the **[!UICONTROL Create]** button.
 
-   ![](assets/typologies-list.png)
+   ![](assets/typologies-create.png)
 
 1. 定義類 **[!UICONTROL Label]**&#x200B;型，然後按一 **[!UICONTROL Add an element]** 下按鈕以選取您要加入的類型學規則。 For more on typology rules, refer to [this section](../../sending/using/managing-typology-rules.md).
 

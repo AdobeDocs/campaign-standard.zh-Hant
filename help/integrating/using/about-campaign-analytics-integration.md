@@ -1,18 +1,18 @@
 ---
 title: 關於 Campaign-Analytics 整合
-description: 透過從Adobe Campaign standard收集KPI資料，您現在可以與Adobe Analytics共用促銷活動資料，以測量來自Adobe Campaign的電子郵件行銷量度。
-page-status-flag: 從未激活
+description: 透過從Adobe Campaign Standard收集KPI資料，您現在可以與Adobe Analytics共用促銷活動資料，以測量來自Adobe Campaign的電子郵件行銷量度。
+page-status-flag: never-activated
 uuid: 7a351e1d-50cb-4ec5-8b66-318b797af77f
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 整合
-content-type: 參考
-topic-tags: 搭配促銷活動與分析
+audience: integrating
+content-type: reference
+topic-tags: working-with-campaign-and-analytics
 discoiquuid: 2ea51543-fe4d-462b-b47e-9ccaa1d68dfa
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 37e86c6143c52841e69d610fa9db35dff70a3587
 
 ---
 
@@ -21,9 +21,9 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 由於Adobe Campaign中整合了Adobe Analytics，您現在可以直接在Adobe Analytics中追蹤電子郵件傳送的成功。
 
-Adobe Campaign standard和Adobe Analytics之間的整合可讓您：
+Adobe Campaign Standard和Adobe Analytics之間的整合可讓您：
 
-* 將您的KPI（關鍵績效指標）資料從Adobe Campaign standard分享至Adobe Analytics。
+* 將您的KPI（關鍵績效指標）資料從Adobe Campaign Standard分享至Adobe Analytics。
 * 使用Adobe Analytics參數豐富追蹤公式。
 
 這可先建立連結至Adobe Analytics的外部帳戶。 然後，技術工作流程會自動啟動，並依預設每15分鐘自動執行一次。 接著您的KPI資料會推送至Analytics。

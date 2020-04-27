@@ -1,19 +1,19 @@
 ---
 title: 設定螢幕定義
 description: 瞭解如何根據資源資料結構定義新的Adobe Campaign畫面。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: 40848197-b1a0-4018-bfc3-7df64fb83307
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 開發
-content-type: 參考
-topic-tags: 添加或擴展資源
+audience: developing
+content-type: reference
+topic-tags: adding-or-extending-a-resource
 discoiquuid: 9dabb328-ac0c-49fd-8996-8d56341ee7ac
 context-tags: cusResource,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 
 ---
 
@@ -53,7 +53,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 1. 在區 **[!UICONTROL Simple search]** 段中，選中 **[!UICONTROL Specify the fields to be taken into account in the search]** 以定義將包含在搜尋中的欄位。
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >此配置將替換預設搜索中使用的欄位。
 
@@ -103,4 +103,3 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 * **[!UICONTROL Authorize duplicating]**:此選項允許您激活連結到自定義資源的重複記錄。
 * **[!UICONTROL Authorize deleting]**:此選項允許您激活連結到自定義資源的刪除記錄。
-

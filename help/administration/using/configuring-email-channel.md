@@ -13,14 +13,14 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9b632bdd9d2546b40fd00cc4ef8800dd88fa55de
+source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
 
 ---
 
 
 # 設定電子郵件通道{#configuring-email-channel}
 
-身為促銷活動 [管理員](../../administration/using/about-administrating-adobe-campaign.md)，您可以設定電子郵件渠道設定。 這些進階設定包括一般電子郵件通道參數、電子郵件傳送帳戶、電子郵件處理規則和電子郵件屬性。 在本頁，您將學習如何編輯一般電子郵件和傳送參數的預設值。
+身為促銷活動 [管理員](../../administration/using/users-management.md#functional-administrators)，您可以設定電子郵件渠道設定。 這些進階設定包括一般電子郵件通道參數、電子郵件傳送帳戶、電子郵件處理規則和電子郵件屬性。 在本頁，您將學習如何編輯一般電子郵件和傳送參數的預設值。
 
 請注意，有些電子郵件設定現在由Adobe Campaign Enhanced MTA管理。 因此：
 * 促銷活動使用者介面中的某些設定不再套用：
@@ -273,7 +273,7 @@ The number of retries can be changed globally (contact your Adobe technical admi
 
    >[!NOTE]
    >
-   >「類型」區段中顯示了可以通 **[!UICONTROL Administration]** 過> **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** 菜單訪問的 [類型](../../sending/using/about-typology-rules.md) 。
+   >本節會顯示可透過> **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** 選單存取的 [類型](../../sending/using/about-typology-rules.md)。
 
 * **[!UICONTROL Compute the label during delivery preparation]**:可讓您使用個人化欄位、內容區塊和動態文字，在訊息準備階段計算電子郵件的標籤值。
 

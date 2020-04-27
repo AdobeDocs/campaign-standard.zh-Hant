@@ -12,22 +12,32 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 09c7f365969fe415f1bcdcc57e7cfbb9ed99b521
+source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 
 ---
 
 
 # 文件更新{#documentation-updates}
 
-瞭解Adobe Campaign Standard檔案的所有最新更新。
+除了Adobe Campaign發行說 [明外](../../rn/using/release-notes.md)，本頁還列出Adobe Campaign Standard檔案中的所有新更新。
 
-本頁列出每個Adobe Campaign Standard版本的所有新功能和檔案更新。
+## 版本20.3 - 2020年5月 {#release-20-3---may-2020}
 
-您也可以參閱Adobe Campaign發 [行說明](../../rn/using/release-notes.md)。
+**發行中包含的新功能**
+
+(PDPA)泰國個人資料保護法案——詳 [情閱讀](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html)
+
+外部API活動(GA)-詳 [細內容](../../automating/using/external-api.md)
+
+**此版本隨附的其他檔案更新**
+
+* 已在工作流程屬性的欄 **[!UICONTROL History in days]** 位中新增資訊，現在包含活動下載的檔 **[!UICONTROL Transfer file]** 案。 [閱讀更多資訊](../../automating/using/executing-a-workflow.md)
+
+* 在描述檔替代區段中已新增有關主旨行首碼500個字元限制的資訊。 [閱讀更多資訊](../../sending/using/testing-messages-using-target.md)
 
 ## 檔案更新- 2020年4月 {#doc-updates-april-2020}
 
-Microsoft Dynamics 365與Adobe Campaign Standard檔案的整合已整合至「與其他解決方案整合」指南的核心檔案中。 [閱讀更多資訊](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+核心檔案現在提供與Adobe Campaign Standard檔案整合的Microsoft Dynamics 365。 [閱讀更多資訊](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 已新增其他資源至檔案首頁。 [閱讀更多資訊](../../campaign-standard-home.md)
 
@@ -35,7 +45,7 @@ Experience Cloud ID服務(ECID)的相關資訊已新增至Adobe Experience Platf
 
 「設定交易訊息」區段已改良，提供如何存取最新交易事件和更新螢幕擷取畫面的資訊。 [閱讀更多資訊](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)
 
-與類型和類型學規則有關的部分已得到改進，並更新了關於現成可用的類型學規則的補充資訊。 [閱讀更多資訊](../../sending/using/about-typology-rules.md)
+已改進分類和分類規則檔案，並更新內建分類規則的其他資訊。 [閱讀更多資訊](../../sending/using/about-typology-rules.md)
 
 已新增有關活動 **[!UICONTROL Transfer file]** 動作的資 **[!UICONTROL File listing]** 訊。 [閱讀更多資訊](../../automating/using/transfer-file.md)
 
@@ -48,6 +58,8 @@ Experience Cloud ID服務(ECID)的相關資訊已新增至Adobe Experience Platf
 已新增有關交易訊息和刪除未使用之即時事件的最佳做法。 [閱讀更多資訊](../../administration/using/configuring-transactional-messaging.md#creating-an-event)
 
 「設定電子郵件渠道」區段已更新，其中說明現在由Adobe Campaign Enhanced MTA管理的所有電子郵件設定。 [閱讀更多資訊](../../administration/using/configuring-email-channel.md)
+
+「設定交易訊息」區段已更新，內含編輯事件設定所需權限以及如何豐富交易訊息中集合的詳細資訊。 [閱讀更多資訊](../../administration/using/configuring-transactional-messaging.md)。
 
 ## 版本20.2 - 2020年4月 {#release-20-2---april-2020}
 
@@ -89,7 +101,7 @@ Campaign電子郵件設計人員檔案和相關頁面已更新，以反映Adobe 
 
 現在提供Campaign Standard資料模型最佳實務的新區段。 [閱讀更多資訊](../../developing/using/data-model-best-practices.md)
 
-現成可用的 **[!UICONTROL Workflow]** 右側已新增資訊。 [閱讀更多資訊](../../administration/using/list-of-roles.md)
+內建的右側已添 **[!UICONTROL Workflow]** 加了資訊。 [閱讀更多資訊](../../administration/using/list-of-roles.md)
 
 已在工作流程屬性中 **[!UICONTROL History in days field]** 的可用資訊中新增。 [閱讀更多資訊](../../automating/using/executing-a-workflow.md)
 
@@ -453,7 +465,7 @@ Adobe Launch整合行動應用程式（測試版）-閱 [讀更多](../../sendin
 
 已新增如何刪除對象的資訊。 [閱讀更多資訊](../../audiences/using/creating-audiences.md#deleting-audiences)
 
-已更新「推播通知立即可用」報表區段。 [閱讀更多資訊](../../reporting/using/push-notification-report.md)
+更新推播通知內建報表區段。 [閱讀更多資訊](../../reporting/using/push-notification-report.md)
 
 ## 發行版本18.7 - 2018年7月 {#release-18-7---july-2018}
 
@@ -577,7 +589,7 @@ GDPR API會重新分組允許自動處理GDPR要求的功能。 [閱讀更多資
 
 Campaign和Adobe解決方案整合的大部分URL已變更！ 檢查您的書籤！ [閱讀更多資訊](../../integrating/using/about-campaign-integrations.md)
 
-SQL結構現在提供資料模型v1，用於現成可用的資源——詳 [情](https://docs.campaign.adobe.com/doc/standard/en/datamodel/datamodel.html)
+資料模型v1現在可用於內置資源的SQL結構——詳細 [資訊](https://docs.campaign.adobe.com/doc/standard/en/datamodel/datamodel.html)
 
 已新增有關如何在傳送中準備訊息的資訊閱讀詳 [情](../../sending/using/preparing-the-send.md)
 
@@ -653,7 +665,7 @@ API Signal活動觸發——詳 [細資訊](../../api/using/triggering-a-signal-
 
 已新增有關新匯出追蹤功能的章節。 [閱讀更多資訊](../../administration/using/auditing-export-logs.md)
 
-已新增有關立即可用套件匯出的精確度。 [閱讀更多資訊](../../automating/using/managing-packages.md)
+已新增有關內建套件匯出的精確度。 [閱讀更多資訊](../../automating/using/managing-packages.md)
 
 更新外部帳戶定義和範例。 [閱讀更多資訊](../../administration/using/external-accounts.md)
 

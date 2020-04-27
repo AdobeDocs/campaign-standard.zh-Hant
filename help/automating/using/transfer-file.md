@@ -13,7 +13,7 @@ context-tags: fileTransfer,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7f203ff0e635faf802a5577f761dc308dae4ab66
+source-git-commit: 3e90acaa1c2b3de2240f01e5dc3440be44e65eba
 
 ---
 
@@ -25,6 +25,11 @@ source-git-commit: 7f203ff0e635faf802a5577f761dc308dae4ab66
 ![](assets/file_transfer.png)
 
 此活 **[!UICONTROL Transfer file]** 動可讓您接收或傳送檔案、測試Adobe Campaign中是否有檔案或列出檔案。
+
+>[!CAUTION]
+>
+>從20.3版開始，隨活動下載的檔案 **[!UICONTROL Transfer File]** 將在X天后刪除，其中X由「工作流程」屬性中功能表 **[!UICONTROL History in days]** 下 **[!UICONTROL Execution]** 的欄位決定。
+
 
 ## 使用內容 {#context-of-use}
 
@@ -43,7 +48,7 @@ source-git-commit: 7f203ff0e635faf802a5577f761dc308dae4ab66
    * **檔案下載**:可讓您下載檔案。
    * **檔案上傳**:可讓您上傳檔案。 從Adobe Campaign檔案上傳檔案會在功能表中產生記錄 **[!UICONTROL Export audits]** 項。 有關導出審計的詳細資訊，請參閱「審 [計導出](../../administration/using/auditing-export-logs.md) 」部分。
    * **測試以查看檔案是否存在**:允許您檢查是否存在檔案。
-   * **檔案清單**:允許您列出伺服器上存在於頁籤中定義的文 **[!UICONTROL Protocol]** 件。 此動作主要用於除錯，以在從遠端伺服器下載檔案之前，先檢查活動是否已根據您的需求進行設定。
+   * **檔案清單**:允許您列出伺服器上存在的檔案(在頁籤中定 **[!UICONTROL Protocol]** 義)。 此動作主要用於除錯，以在從遠端伺服器下載檔案之前，先檢查活動是否已根據您的需求進行設定。
 
 1. 選擇要使用的協定：
    * [HTTP](#HTTP-configuration-wf)

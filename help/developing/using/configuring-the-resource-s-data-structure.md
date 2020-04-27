@@ -13,7 +13,7 @@ context-tags: cusResource,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bd83bb520a9822ffa9669076f90e6dc3397c6480
+source-git-commit: 6cf00f9b9bafdd54d8424a353b33dc689c0f59aa
 
 ---
 
@@ -60,7 +60,7 @@ source-git-commit: bd83bb520a9822ffa9669076f90e6dc3397c6480
 1. 在添加欄位後，選中該框 **[!UICONTROL Add audit fields]** 以包含詳細說明建立日期、建立資源的用戶、日期和上次修改的作者的欄位。
 1. 核取方 **[!UICONTROL Add access authorization management fields]** 塊以包含欄位，指出誰擁有該特定資源的存取權。
 
-   這些欄位會顯示在資料和中繼資料中，當資料庫更新完成後，這些欄位就可顯示。 有關詳細資訊，請參閱「更 [新資料庫結構](../../developing/using/updating-the-database-structure.md) 」部分。
+   這些欄位會顯示在資料和中繼資料中，當進行資料庫更新後，這些欄位就會顯示出來。 有關詳細資訊，請參閱「更 [新資料庫結構](../../developing/using/updating-the-database-structure.md) 」部分。
 
 1. 勾選欄 **[!UICONTROL Add automatic ID]** 位以自動產生ID。 請注意，現有實體將維持空白。 如需詳細資訊，請參閱「產生 [描述檔和自訂資源的唯一ID」](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)。
 1. 要修改資源元素名稱在清單和建立步驟中的顯示方式，請選中該 **[!UICONTROL Customize the title of the resource elements]** 框。 從為此資源建立的欄位中選擇一個欄位。
@@ -138,7 +138,7 @@ source-git-commit: bd83bb520a9822ffa9669076f90e6dc3397c6480
 
    ![](assets/schema_extension_28.png)
 
-1. 資源按字母順序顯示，並可按名稱篩選。 其技術名稱以方括弧顯示。
+1. 資源會依字母順序顯示，並可依名稱篩選。 其技術名稱以方括弧顯示。
 
    從清單中選擇元素並按一下 **[!UICONTROL Confirm]**。
 
@@ -159,7 +159,7 @@ source-git-commit: bd83bb520a9822ffa9669076f90e6dc3397c6480
    >
    >最多使用30個字元。
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >建立後無法重新命名連結。 若要重新命名連結，您必須刪除連結並重新建立連結。
 
@@ -213,7 +213,7 @@ source-git-commit: bd83bb520a9822ffa9669076f90e6dc3397c6480
 
    您現在可以發佈新資源。
 
-透過新增此連結，「購 **買** 」標籤會從「 >」選單新增至描述檔詳細 **[!UICONTROL Profiles & audiences]** 資料畫 **[!UICONTROL Profiles]** 面。 請注意，這是資源的特 **[!UICONTROL Profile]** 定。
+透過新增此連結，「購 **買** 」標籤會從「 >」選單新增至描述檔詳細資 **[!UICONTROL Profiles & audiences]** 訊畫 **[!UICONTROL Profiles]** 面。 請注意，這是資源的特 **[!UICONTROL Profile]** 定。
 
 ![](assets/custom_resource_link_to_profile.png)
 
@@ -254,7 +254,7 @@ source-git-commit: bd83bb520a9822ffa9669076f90e6dc3397c6480
 
 有關動態報告的詳細資訊，請參閱 [元件清單](../../reporting/using/list-of-components-.md)。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >傳送至動態報表的欄位數限制為20。
 

@@ -13,7 +13,7 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b71d19672efe24040d676bbcff3f90177b3fbcae
+source-git-commit: e5c21e1398d5fbe39761ab00ada24263317e6742
 
 ---
 
@@ -199,7 +199,7 @@ source-git-commit: b71d19672efe24040d676bbcff3f90177b3fbcae
 
 * **[!UICONTROL Default affinity]**:此欄位允許您強制在特定電腦上執行工作流或工作流活動。
 
-* **[!UICONTROL History in days]**:指定必須清除歷史記錄的天數。 歷史記錄包含在所有相關元素中，如日誌、任務、事件。 現成可用的工作流程範本的預設值為30天。
+* **[!UICONTROL History in days]**:指定必須清除歷史記錄的天數。 歷史記錄包含與工作流相關的元素：日誌、任務、事件（連結至工作流操作的技術對象）以及活動下載的文 **[!UICONTROL Transfer file]** 件。 現成可用的工作流程範本的預設值為30天。
 
    清除歷史記錄由資料庫清理技術工作流執行，預設每天執行此操作(請參 [閱技術工作流清單](../../administration/using/technical-workflows.md))。
 

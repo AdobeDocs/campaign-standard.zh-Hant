@@ -12,7 +12,7 @@ discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b47399a6867e636910e862f9cdcae638d6f9b4eb
+source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
 
 ---
 
@@ -21,19 +21,21 @@ source-git-commit: b47399a6867e636910e862f9cdcae638d6f9b4eb
 
 若要使用Adobe Campaign傳送交易訊息，您首先需要說明事件資料的結構。
 
-事件配置必須由管理員執 **行** ，請執行以下步驟：
+事件配置必須由管理員 [執行](../../administration/using/users-management.md#functional-administrators) ，請執行以下步驟。
 
-配置會隨您要發送的事務性消息類型而有所不同。 有關詳細資訊，請參閱事務 [性事件特定配置](#transactional-event-specific-configurations)
+>[!NOTE]
+>
+>配置會隨您要發送的事務性消息類型而有所不同。 有關詳細資訊，請參閱事務 [性事件特定配置](#transactional-event-specific-configurations)。
 
 一旦發佈事件，就會自動建立對應的交易訊息。 For more on transactional messaging, refer to [this page](../../channels/using/about-transactional-messaging.md).
 
 ## 建立事件 {#creating-an-event}
 
-首先，建立符合您需求的事件。
+若要開始，請建立符合您需求的事件。
 
 >[!NOTE]
 >
->建立的即時事件數量可能會對您的平台造成影響。 為確保最佳效能，請務必刪除您不再需要的即時事件。 請參 [閱刪除事件](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)。
+>只有擔任組織 **[!UICONTROL Administration]** 單位角色和成員的 **[!UICONTROL All]** 用 [戶](../../administration/using/organizational-units.md) ，才具有建立事件配置的適當權限。
 
 1. 按一下 **[!UICONTROL Adobe Campaign]** 左上角的標誌，然後選取 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**。
 1. Click the **[!UICONTROL Create]** button.
@@ -55,9 +57,13 @@ source-git-commit: b47399a6867e636910e862f9cdcae638d6f9b4eb
 
    事件型交易訊息會鎖定事件本身包含的資料，而以描述檔為基礎的交易訊息則會鎖定Adobe Campaign資料庫中包含的資料。 有關詳細資訊，請參閱事務 [性事件特定配置](#transactional-event-specific-configurations)。
 
+>[!NOTE]
+>
+>建立的即時事件數量可能會對您的平台造成影響。 為確保最佳效能，請務必刪除您不再需要的即時事件。 請參 [閱刪除事件](#deleting-an-event)。
+
 ## 定義事件屬性 {#defining-the-event-attributes}
 
-在該部 **[!UICONTROL Fields]** 分中，定義將整合到事件內容中的屬性，然後可用於個性化事務性消息。
+在該節 **[!UICONTROL Fields]** 中，定義將整合到事件內容中的屬性，然後可用於個性化事務性消息。
 
 新增和修改欄位的步驟與自訂資源的步 [驟相同](../../developing/using/configuring-the-resource-s-data-structure.md#adding-fields-to-a-resource)。
 
@@ -71,7 +77,7 @@ source-git-commit: b47399a6867e636910e862f9cdcae638d6f9b4eb
 
 您可以新增元素的集合至事件內容，每個元素本身包含數個屬性。
 
-此系列可用於交易電子郵件中，以新增產品清單至訊息內容，例如產品清單——價格、參考編號、數量等。 清單的每個產品。
+此系列可用於交易式電子郵件中， [將產品清單新增至訊息內容](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message) ，例如產品清單——價格、參考編號、數量等。 清單的每個產品。
 
 1. 在區段 **[!UICONTROL Collections]** 中，按一下按 **[!UICONTROL Create element]** 鈕。
 
@@ -84,6 +90,12 @@ source-git-commit: b47399a6867e636910e862f9cdcae638d6f9b4eb
 
    ![](assets/message-center_collection_fields.png)
 
+1. 此標 **[!UICONTROL Enrichment]** 簽可讓您豐富系列的每個項目。 這可讓您使用Adobe Campaign資料庫或您建立之其他資源的資訊，個人化對應產品清單的元素。
+
+>[!NOTE]
+>
+>豐富系列元素的步驟與豐富活動一節中所述的 [步驟相同](#enriching-the-transactional-message-content) 。 請注意，豐富活動不允許您豐富系列：您必須在區段中新增系列本身的擴充 **[!UICONTROL Collections]** 功能。
+
 發佈事件和訊息後，您就可以在交易訊息中使用此系列。
 
 以下是此範例的API預覽：
@@ -95,9 +107,9 @@ source-git-commit: b47399a6867e636910e862f9cdcae638d6f9b4eb
 * [預覽和發佈事件](#previewing-and-publishing-the-event)
 * [在事務性消息中使用產品清單](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)
 
-## 豐富交易式訊息內容 {#enriching-the-transactional-message-content}
+## 豐富活動內容 {#enriching-the-transactional-message-content}
 
-利用Adobe Campaign資料庫的資訊豐富交易式訊息內容，讓您個人化訊息。 例如，您可以從每個收件者的姓氏或CRM ID中，復原資料，例如其地址、出生日期或「描述檔」表格中新增的任何其他自訂欄位，以個人化傳送給他們的資訊。
+您可以利用Adobe Campaign資料庫的資訊豐富交易式訊息內容，以個人化您的訊息。 例如，您可以從每個收件者的姓氏或CRM ID中，復原資料，例如其地址、出生日期或「描述檔」表格中新增的任何其他自訂欄位，以個人化傳送給他們的資訊。
 
 可以利用來自擴展的資訊豐富事務性消息內容 **[!UICONTROL Profile and services Ext API]**。 如需詳細資訊，請參閱「 [擴充API:發佈擴充功能](../../developing/using/step-2--publish-the-extension.md)
 
@@ -254,7 +266,7 @@ source-git-commit: b47399a6867e636910e862f9cdcae638d6f9b4eb
 
 1. 建立事件設定時，請選取定 **[!UICONTROL Profile event]** 位維度(請 [參閱建立事件](#creating-an-event))。
 1. 為事件添加欄位，以便能夠個性化事務性消息(請參 [閱定義事件屬性](#defining-the-event-attributes))。 您必須至少添加一個欄位才能建立富集。 您不需要建立其他欄位，例如 **名字** 、 **姓氏** ，因為您可以使用Adobe Campaign資料庫中的個人化欄位。
-1. 建立擴充功能，以將事件連結至資源(請參 **[!UICONTROL Profile]** 閱豐 [富交易訊息內容](#enriching-the-transactional-message-content))。 使用定位維度時，必須建立 **[!UICONTROL Profile]** 擴充。
+1. 建立擴充功能，以便將事件連結至資源(請參 **[!UICONTROL Profile]** 閱豐 [富交易訊息內容](#enriching-the-transactional-message-content))。 使用定位維度時，必須建立 **[!UICONTROL Profile]** 擴充。
 1. 預覽並發佈事件(請參閱 [預覽和發佈事件](#previewing-and-publishing-the-event))。
 
    預覽事件時，REST API不包含指定從資源擷取電子郵件地址或行動電話的屬 **[!UICONTROL Profile]** 性。

@@ -13,7 +13,7 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d5476cc6a93aac9805a3b471923bfffa8043a876
+source-git-commit: b44e4e7e6b48ebc5c618b014eacfc9909bc2661e
 
 ---
 
@@ -69,6 +69,10 @@ source-git-commit: d5476cc6a93aac9805a3b471923bfffa8043a876
 
    如果要在校樣的主題行中添加特定的前置詞，請填寫該字 **[!UICONTROL Subject line prefix]** 段。
 
+   >[!NOTE]
+   >
+   >主旨行首碼最多可包含500個字元。
+
    ![](assets/substitution_address.png)
 
    首碼將顯示如下：
@@ -116,6 +120,10 @@ Campaign Standard可讓您匯入可用於測試的設定檔對象。 例如，�
    ![](assets/substitution_audience_import.png)
 
 1. 選取要使用的對象，然後輸入要用於傳送給對象的校樣的替代地址和前置詞。
+
+   >[!NOTE]
+   >
+   >主旨行首碼最多可包含500個字元。
 
    ![](assets/substitution_audience_define.png)
 

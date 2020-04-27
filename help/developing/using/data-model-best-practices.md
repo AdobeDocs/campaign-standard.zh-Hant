@@ -13,7 +13,7 @@ context-tags: cusResource,overview;eventCusResource,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 34a58e0ec028feacf928f9048378c3255a04a33d
+source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: 34a58e0ec028feacf928f9048378c3255a04a33d
 >
 >若要建立並修改資源以擴充Adobe Campaign預先定義的資料模型，請參閱 [本節](../../developing/using/key-steps-to-add-a-resource.md)。
 >
->您可以在此處找到現成的資源的資料模型表 [示](../../developing/using/datamodel-introduction.md)。
+>您可以在此頁中找到內置資源的資料模型 [表示](../../developing/using/datamodel-introduction.md)。
 
 ## 概觀 {#overview}
 

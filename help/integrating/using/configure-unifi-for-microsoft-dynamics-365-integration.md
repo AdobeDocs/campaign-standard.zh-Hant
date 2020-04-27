@@ -12,7 +12,7 @@ discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 37e86c6143c52841e69d610fa9db35dff70a3587
 
 ---
 
@@ -139,7 +139,7 @@ Unifi完成工作後，他們會通知您並提供進一步資訊，協助您設
 >
 >依預設，會從匯出工作中篩選出SEND行銷事件。  如果您想在Dynamics 365中查看SEND行銷事件，則需要修改Unifi中出口工作的篩選（步驟5）。
 
-Unifi中有兩個不同的角色，一個所有者用戶和一個只讀分析用戶。 擁有者使用者可修改工作和排程，唯讀分析師則不能。  給定客戶實例只能有一個擁有者用戶。  如果客戶需要變更指派為擁有者使用者的個人，他們可以傳送電子郵件至 [adobe-support@unifisoftware.com](mailto:adobe-support@unifisoftware.com)，並加入要求的變更。
+Unifi中有兩個不同的角色，一個所有者用戶和一個只讀分析用戶。 擁有者使用者可修改工作和排程，唯讀分析師則不能。  給定客戶實例只能有一個擁有者用戶。  如果客戶需要變更指派為擁有者使用者的個人，他們可以隨請求的變更 [傳送](mailto:adobe-support@unifisoftware.com) 電子郵件至adobe-support@unifisoftware.com。
 
 Unifi組態、工作詳細資訊、設定和監控會顯示在以下影片中。
 

@@ -1,18 +1,18 @@
 ---
 title: 疑難排解
 description: 在這裡尋找與動態報表相關的常見問題。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
-contentOwner: 班多
+contentOwner: beneat
 products: SG_CAMPAIGN/STANDARD
-audience: 報告
-content-type: 參考
-topic-tags: 疑難排解
+audience: reporting
+content-type: reference
+topic-tags: troubleshooting
 discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 001fc2df11e32bdcc31dfe917884460b4d3de541
 
 ---
 
@@ -101,106 +101,6 @@ P1會在第一天開啟兩次電子郵件，然後在第二天開啟三次。
 >
 >由於唯一計數是以HLL為基礎的草圖為基礎，因此可體驗計數之間細微的不一致。
 
-## 如何計算循環／交易傳送的計數？
-
-使用循環傳送和交易傳送時，計數會歸因於父傳送和子傳送。
-
-我們可以舉一個名為 **R1** set的循環傳送的示例，該傳送設定為每天在第1天(RC1)、第2天(RC2)和第3天(RC3)運行。
-
-假設只有一個人多次開啟所有子交貨。 在這種情況下，個別循環子傳送會將每個 **[!UICONTROL Open]** 的計數顯示為1。
-
-但是，由於同一人點按了所有傳送，因此父循環傳送也會有 **[!UICONTROL Unique open]** 1個。
-
-在Adobe Campaign Standard 19.2.1發行後，「獨特」計數的定義會從「與傳送互動的獨特人數 **」變更為「互** 動的獨特訊息數」 ********。
-
-在Adobe Campaign Standard 19.2.1發行之前，報表外觀如下：
-
-<table> 
- <thead> 
-  <tr> 
-   <th align="center"> <strong>傳送</strong><br /> </th> 
-   <th align="center"> <strong>已傳送</strong><br /> </th> 
-   <th align="center"> <strong>交付</strong><br /> </th>
-   <th align="center"> <strong>開啟的郵件</strong> <br /> </th> 
-   <th align="center"> <strong>唯一開啟次數</strong><br /> </th>
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td align="center"> <strong>R1<br/> </td> 
-   <td align="center"> <strong>100<br/> </td> 
-   <td align="center"> <strong>90<br/> </td> 
-   <td align="center"> <strong>10<br/> </td> 
-   <td align="center"> <strong>1<br/> </td> 
-  </tr> 
-  <tr> 
-   <td align="center"> RC1<br/> </td> 
-   <td align="center"> 20<br /> </td> 
-   <td align="center"> 20<br /> </td> 
-   <td align="center"> 6<br /> </td> 
-   <td align="center"> 1<br /> </td> 
-  </tr>
-    <tr> 
-   <td align="center"> RC2<br /> </td> 
-   <td align="center"> 40<br /> </td> 
-   <td align="center"> 30<br /> </td> 
-   <td align="center"> 2<br /> </td> 
-   <td align="center"> 1<br /> </td> 
-  </tr> 
-    <tr> 
-   <td align="center"> RC3<br /> </td> 
-   <td align="center"> 40<br /> </td> 
-   <td align="center"> 40<br /> </td> 
-   <td align="center"> 2<br /> </td> 
-   <td align="center"> 1<br /> </td> 
-  </tr>
- </tbody> 
-</table>
-
-在Adobe Campaign Standard 19.2.1發行後，報表外觀如下：
-
-<table> 
- <thead> 
-  <tr> 
-   <th align="center"> <strong>傳送</strong><br /> </th> 
-   <th align="center"> <strong>已傳送</strong><br /> </th> 
-   <th align="center"> <strong>交付</strong><br /> </th>
-   <th align="center"> <strong>開啟的郵件</strong> <br /> </th> 
-   <th align="center"> <strong>唯一開啟次數</strong><br /> </th>
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td align="center"> <strong>R1<br/> </td> 
-   <td align="center"> <strong>100<br/> </td> 
-   <td align="center"> <strong>90<br/> </td> 
-   <td align="center"> <strong>10<br/> </td> 
-   <td align="center"> <strong>3<br/> </td> 
-  </tr> 
-  <tr> 
-   <td align="center"> RC1<br/> </td> 
-   <td align="center"> 20<br /> </td> 
-   <td align="center"> 20<br /> </td> 
-   <td align="center"> 6<br /> </td> 
-   <td align="center"> 1<br /> </td> 
-  </tr>
-    <tr> 
-   <td align="center"> RC2<br /> </td> 
-   <td align="center"> 40<br /> </td> 
-   <td align="center"> 30<br /> </td> 
-   <td align="center"> 2<br /> </td> 
-   <td align="center"> 1<br /> </td> 
-  </tr> 
-    <tr> 
-   <td align="center"> RC3<br /> </td> 
-   <td align="center"> 40<br /> </td> 
-   <td align="center"> 40<br /> </td> 
-   <td align="center"> 2<br /> </td> 
-   <td align="center"> 1<br /> </td> 
-  </tr> 
- </tbody> 
-</table>
-
 ## 顏色在我的報告表裡有什麼意義？ {#reports-color-signification}
 
 報表上顯示的顏色是隨機的，無法個人化。 它們代表進度列，並會顯示，以協助您更好地反白標示報表中達到的最大值。
@@ -209,9 +109,9 @@ P1會在第一天開啟兩次電子郵件，然後在第二天開啟三次。
 
 ![](assets/troubleshooting_1.png)
 
-如果您變更為 **[!UICONTROL Conditional formatting]** 自訂，當值達到上限時，儲存格會變得更綠。 然而，如果達到下限，就會變紅。
+如果您將自訂 **[!UICONTROL Conditional formatting]** 變更為，當值達到上限時，儲存格會變得更綠色。 然而，如果達到下限，就會變紅。
 
-例如，我們在這裡將 **[!UICONTROL Upper limit]** 值設為500和**[!UICONTROL Lower limit**] 0。
+例如，在這裡，我們將 **[!UICONTROL Upper limit]** 設為500 **[!UICONTROL Lower limit]** 和0。
 
 ![](assets/troubleshooting_2.png)
 

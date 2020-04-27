@@ -13,7 +13,7 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
+source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
 
 ---
 
@@ -31,13 +31,13 @@ Campaign隨附一組內建的登陸頁面範本：
 
 ![](assets/lp_creation_1.png)
 
-若要存取著陸頁面範本，請按一下左上角的Adobe Campaign標誌，然後選取 **[!UICONTROL Resources]** &gt; **[!UICONTROL Templates]** &gt; **[!UICONTROL Landing page templates]**。
+若要存取著陸頁面範本，請按一下左上角的Adobe Campaign標誌，然後選取 **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Landing page templates]**。
 
 >[!NOTE]
 >
 >Adobe建議複製內建範本，以建立您自己的範本。 有些參數只能在著陸頁面範本中設定，而無法直接在著陸頁面中修改。
 
-建立範本時，建議將'type' **attribute新增至** tags。 編輯器將處理此資訊，並幫助用戶在配置Web應用程式時將資料庫欄位連結到表單欄位。
+建立範本時，建議將&#39;type&#39; **attribute新增至** tags。 編輯器將處理此資訊，並幫助用戶在配置Web應用程式時將資料庫欄位連結到表單欄位。
 
 範本中的HTML程式碼範例：
 

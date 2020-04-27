@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 86302762a46a814ecc9b14a5fe1bfe1a4a4e0437
+source-git-commit: b4cbc56973a57cde8af6cefa9ff89c7d29ab7b79
 
 ---
 
@@ -70,6 +70,9 @@ source-git-commit: 86302762a46a814ecc9b14a5fe1bfe1a4a4e0437
 
 * 「首碼」欄位中可使用的字 **元數** ，可 [用來測試使用目標描述檔的訊息](../../sending/using/testing-messages-using-target.md) ，已從32個字元增加到500個字元。
 * 可在例項上發佈的即時事件數上限已從350增加到2000。 (CAMP-41608)
+* 使用syncWithLaunch技術工作流程，已改善Adobe Launch和Campaign Standard之間的同步化。 此工作流程可讓您自動將所有Adobe Launch行動裝置屬性匯入Adobe Campaign Standard。 For more information, refer to [this page](../../administration/using/technical-workflows.md).
+
+   您必須提交票證至Adobe客戶服務（直接或透過您的Adobe聯絡人），才能在您的Campaign實例中啟用syncWithLaunch技術工作流程。 (CAMP-40082)
 
 **電子郵件設計人員增強功能**
 

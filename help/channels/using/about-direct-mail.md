@@ -1,19 +1,19 @@
 ---
 title: 關於直接郵件
 description: 瞭解Adobe Campaign中直效郵件通道的主要特性。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: 24add992-2efe-4b73-81c9-cda3e921ab16
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 頻道
-content-type: 參考
-topic-tags: 直接郵件
+audience: channels
+content-type: reference
+topic-tags: direct-mail
 discoiquuid: e1fbf39c-9c30-493c-8322-9c71e18ce98c
 context-tags: delivery,directMailContent,back;deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
 
 ---
 
@@ -54,7 +54,7 @@ Adobe Campaign中的使用者程式如下：
 
 Adobe Campaign提供一組預先定義的計算欄位，這些欄位會遵循最常見的郵遞區號標準化。 這些欄位在節點中可 **[!UICONTROL Postal address]** 用。
 
-預設情況下，地址最多可包含6行：第一個計算欄 **[!UICONTROL Line 1]** 位(包含名字和姓氏，下一行包含郵遞區號（路等），最後一行包含郵遞區號和城鎮。
+預設情況下，地址最多可包含6行：第一個計算欄位(**[!UICONTROL Line 1]** 包含名字和姓氏)、下一行包含郵遞區號（路等），最後一行包含郵遞區號和城鎮。
 
 ![](assets/direct_mail_23.png)
 

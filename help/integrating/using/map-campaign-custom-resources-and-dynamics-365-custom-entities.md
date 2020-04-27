@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b0bc6c45127f58b00ba89f66da159c8f212db80a
+source-git-commit: 37e86c6143c52841e69d610fa9db35dff70a3587
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: b0bc6c45127f58b00ba89f66da159c8f212db80a
 
 若要設定自訂實體的整合，請連絡 [adobe-support@unifisoftware.com](mailto:adobe-support@unifisoftware.com) ，要求完成此作業。  Unifi需要兩個系統中的自定義實體表的名稱以及所需的屬性映射。  Unifi隨後將建立相應的作業和時間表。
 
-自訂實體支援的範例使用案例可在「使用案例」區 [段中看到](../../integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md#UC)。
+下方是自訂實體支援的範例使用案例。
 
 >[!CAUTION]
 >
@@ -44,7 +44,6 @@ source-git-commit: b0bc6c45127f58b00ba89f66da159c8f212db80a
 
 
 ## 使用案例
-
 
 ### 開始狀態
 
@@ -179,5 +178,5 @@ source-git-commit: b0bc6c45127f58b00ba89f66da159c8f212db80a
 
 **相關主題**
 
-* 使用Adobe Campaign Standard - Microsoft Dynamics 365
-* 在促銷活動中新增自訂資源的關鍵步驟
+* [使用Adobe Campaign Standard - Microsoft Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+* [在促銷活動中新增自訂資源的關鍵步驟](../../developing/using/key-steps-to-add-a-resource.md)

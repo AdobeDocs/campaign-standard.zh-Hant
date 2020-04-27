@@ -11,19 +11,29 @@ context-tags: cusResource,overview;eventCusResource,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51a3faaf839a678aeb99c533f0f67f103c7913d6
+source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 
 ---
 
 
-# 資料模型簡介{#data-model-introduction}
+# 資料模型說明{#data-model-introduction}
 
 Adobe Campaign隨附預先定義的資料模型。
 
-Adobe Campaign Standard資料模型會針對一組行銷相關資源顯示現成可用的SQL結構。
+Adobe Campaign Standard資料模型會顯示一組行銷相關資源的內建SQL結構。
 
-本內容適用於顧問服務或開發人員。
+本節內容適用於Campaign專家或開發人員。
 
-對於每個資源，一個表列出具有可用特性的SQL欄位，如內部名稱、類型和枚舉詳細資訊。 第二部分引入了與資源相關聯的出廠設定過濾器。 每個篩選器都隨附其參數清單。
+對於每個資源，您將在子頁中找到一個表，其中列出了具有可用特性的SQL欄位，例如：內部名稱、類型和枚舉詳細資訊。 還會列出與資源關聯的內置篩選器。 每個篩選器都隨附其參數清單。
 
-管理員可以修改此資 [料模型](../../administration/using/users-management.md#functional-administrators) ，以便將新資源或擴充功能新增至現有資源。
+>[!NOTE]
+>促銷活動資料模型只能由管 [理員](../../administration/using/users-management.md#functional-administrators) 修改。
+
+## 相關主題{#data-model-related}
+
+| 有用的頁面 | 其他資源 |
+|---|---|
+| [開始使用資料模型](data-model-concepts.md) | [擴充描述檔資源](extending-the-profile-resource-with-a-new-field.md) |
+| [資料模型最佳實務](data-model-best-practices.md) | [擴充訂閱資源](extending-the-subscriptions-to-an-application-resource.md) |
+| [添加新資源](key-steps-to-add-a-resource.md) | [擴充描述檔API](about-extending-the-api.md) |
+| [建立或擴展資源](creating-or-extending-the-resource.md) | [使用複合鍵調用資源](uc-calling-resource-id-key.md) |

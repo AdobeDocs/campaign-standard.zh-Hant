@@ -12,20 +12,20 @@ discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 6bf67d05ec8f5b4024df29c7ee7df7fc15e95e0a
 
 ---
 
 
 # 關於動態報告{#about-dynamic-reports}
 
+動態報表提供可完全自訂的即時報表。 它新增了對描述檔資料的存取權，除了功能性電子郵件宣傳資料（如開啟和點按）外，還可依描述檔維度（例如性別、城市和年齡）進行人口統計分析。 透過拖放介面，您可以探索資料、判斷電子郵件促銷活動對最重要客戶細分的執行方式，並評估其對收件者的影響。
+
 >[!NOTE]
 >
 >只有具有管理權限或組織單位設為「全部 **」(All** )的用戶可以建立或保存新報告。 For more on this, refer to this [section](../../administration/using/users-management.md).
 
 ![](assets/dynamic_report_intro.png)
-
-動態報表提供可完全自訂的即時報表。 它新增了對描述檔資料的存取權，除了功能性電子郵件宣傳資料（如開啟和點按）外，還可依描述檔維度（例如性別、城市和年齡）進行人口統計分析。 透過拖放介面，您可以探索資料、判斷電子郵件促銷活動對最重要客戶細分的執行方式，並評估其對收件者的影響。
 
 由於動態報表功能的拖放功能表和可自訂的視覺化，您可以透過任意組合來結合維度、量度和時間範圍，並提供無限的劃分和比較。
 
@@ -75,7 +75,7 @@ source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
 
 |  | 動態報告 | Microsoft Dynamics 365連接器 |
 |---|---|---|
-| 美洲與亞太地區（亞太地區） | **功能已推出**。 <br>立即可用（例如，依年齡劃分的城市、國家／地區、州、性別和細分）和自訂個人檔案資訊推入美國報告中心。 如需描述檔維度的詳細資訊，請參閱本 [頁](../../reporting/using/list-of-components-.md) | **功能已推出**。 <br>所有現成可用的設定檔和自訂設定檔欄位，以及Adobe Campaign Standard事件欄位，都會在美國資料中心處理。 |
+| 美洲與亞太地區（亞太地區） | **功能已推出**。 <br>立即可用（例如，依年齡劃分的城市、國家／地區、州、性別和細分）和自訂個人檔案資訊推入美國報告中心。 如需描述檔維度的詳細資訊，請參閱本 [頁](../../reporting/using/list-of-components-.md) | **功能已推出**。 <br>所有現成可用的設定檔和自訂設定檔欄位，以及Adobe Campaign Standard事件欄位，都會在美國資料中心進行處理。 |
 | EMEA（歐洲中東和非洲） | **功能已推出**。 <br>立即可用（例如，根據年齡劃分的城市、國家／地區、州、性別和細分）和自訂個人檔案資訊推送至EMEA報告中心。 如需描述檔維度的詳細資訊，請參閱本 [頁](../../reporting/using/list-of-components-.md) | **功能已推出。** 在 <br>EMEA資料中心處理的所有現成可用和自訂描述檔欄位和Adobe Campaign Standard事件欄位。 <br>**[!UICONTROL Control data]** 其中包含Adobe I/O註冊資料，以及在美國資料中心傳送及儲存之客戶使用者事件的ID。 |
 
 下表顯示拒絕此協定後會發生的情況，具體取決於您的地區。 請注意，即使您拒絕本合約，仍可報告傳送和Microsoft Dynamics 365整合。

@@ -13,7 +13,7 @@ context-tags: landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+source-git-commit: 8c24e048c698f7ad699e83a753c114fcfd25f6a0
 
 ---
 
@@ -38,15 +38,12 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
    ![](assets/editing_lp_content_4.png)
 
-1. 選擇資料庫欄位以與選擇區域中的表單欄位 **[!UICONTROL Field]** 連結。
+1. 選擇資料庫欄位以與選擇區域中的表單欄位 **[!UICONTROL Field]** 連結。 著陸頁面只能與描述檔 **對應**。
 
-   勾選選 **[!UICONTROL Mandatory]** 選項時，只有在使用者完成此欄位時，才能提交頁面。 如果未完成必填欄位，當使用者驗證頁面時，將會顯示錯誤訊息。
-
-   >[!NOTE]
-   >
-   >著陸頁面只能與描述檔 **對應**。
+1. 視需要 **[!UICONTROL Mandatory]** 勾選選項。 只有當使用者已填妥此欄位時，才能提交頁面。 如果未完成必填欄位，當使用者驗證頁面時，將會顯示錯誤訊息。
 
 1. 通過選擇（例如，或）選 **[!UICONTROL Text]**&#x200B;擇 **[!UICONTROL Number]**&#x200B;選 **[!UICONTROL Date]** 擇欄位 **[!UICONTROL HTML type of the field]** 類型。
+如果您選擇必 **[!UICONTROL Checkbox]**&#x200B;備項目，請確定其類 **[!UICONTROL Field]** 型。
 
 >[!NOTE]
 >

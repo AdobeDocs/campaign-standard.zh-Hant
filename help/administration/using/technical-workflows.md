@@ -1,18 +1,18 @@
 ---
 title: 技術工作流程
 description: 技術工作流程是現成可用的工作流程，旨在處理Adobe Campaign中的背景技術程式，以確保平台的正確行為。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: 6e763dc1-e1d3-4d94-bc0b-ef5b1703d8e5
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 管理
-content-type: 參考
+audience: administration
+content-type: reference
 topic-tags: application-settings
 discoiquuid: e9f147bd-6a5b-4b82-b9bb-311e38e22c62
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b4cbc56973a57cde8af6cefa9ff89c7d29ab7b79
 
 ---
 
@@ -65,7 +65,7 @@ Adobe Campaign可立即提供技術工作流程。 技術工作流程是計畫�
   <tr> 
    <td> <span class="uicontrol">匯入共用的觀眾</span><br /> </td> 
    <td> <span class="uicontrol">importSharedAudience</span><br /> </td> 
-   <td> 此工作流程會同步在Adobe Campaign中匯入的Adobe Experience cloud受眾資料。 依預設，會每小時啟動一次。<br /> </td> 
+   <td> 此工作流程會同步在Adobe Campaign中匯入的Adobe Experience Cloud受眾資料。 依預設，會每小時啟動一次。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">即時報表共用</span><br /> </td> 
@@ -97,6 +97,12 @@ Adobe Campaign可立即提供技術工作流程。 技術工作流程是計畫�
    <td> <span class="uicontrol">kpiSharing</span><br /> </td> 
    <td> 此工作流程每15分鐘將KPI資料從Adobe Campaign Standard推送至Adobe Analytics。<br /> </td> 
   </tr> 
+    </tr> 
+   <tr> 
+   <td> <span class="uicontrol">與Launch同步</span><br /> </td> 
+   <td> <span class="uicontrol">SyncWithLaunch</span><br /> </td> 
+   <td> 此工作流程會同步在Adobe Campaign Standard中匯入的Adobe Launch行動裝置屬性。 每15分鐘開始一次。<br /> </td> 
+  </tr>
   <tr> 
    <td> <span class="uicontrol">更新傳送執行</span><br /> </td> 
    <td> <span class="uicontrol">updateDeliveryExecInfo</span><br /> </td> 
@@ -110,7 +116,7 @@ Adobe Campaign可立即提供技術工作流程。 技術工作流程是計畫�
   <tr> 
    <td> <span class="uicontrol">更新事件狀態</span><br /> </td> 
    <td> <span class="uicontrol">updateEventsStatus</span><br /> </td> 
-   <td> 此工作流程可讓您將狀態歸因於事件。 <br /> 可使用下列事件狀態：待 <strong>定</strong>:事件位於隊列中。 尚未為其指派消息模板。<br /> 待 <span class="uicontrol">定傳送</span> :事件在佇列中，已指派訊息範本給該事件，並由傳送處理。<br /> 已 <strong>傳送</strong>:此狀態會從傳送記錄複製。 這表示送貨是送的。<br /> 傳 <strong>送忽略</strong>:此狀態會從傳送記錄複製。 這表示傳送被忽略。<br /> 傳 <strong>送失敗</strong>:此狀態會從傳送記錄複製。 這意味著交付失敗。<br /> 未 <span class="uicontrol">考慮事件</span> :事件無法連結至訊息範本。 不會處理事件。<br /> </td> 
+   <td> 此工作流程可讓您將狀態歸因於事件。 可使用下列事件狀態：<br /> 待 <strong>定</strong>:事件位於隊列中。 尚未為其指派消息模板。<br /> 待 <span class="uicontrol">定傳送</span> :事件在佇列中，已指派訊息範本給該事件，並由傳送處理。<br /> 已 <strong>傳送</strong>:此狀態會從傳送記錄複製。 這表示送貨是送的。<br /> 傳 <strong>送忽略</strong>:此狀態會從傳送記錄複製。 這表示傳送被忽略。<br /> 傳 <strong>送失敗</strong>:此狀態會從傳送記錄複製。 這意味著交付失敗。<br /> 未 <span class="uicontrol">考慮事件</span> :事件無法連結至訊息範本。 不會處理事件。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">提供性更新</span><br /> </td> 

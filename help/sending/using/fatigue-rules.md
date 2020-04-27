@@ -12,7 +12,7 @@ discoiquuid: 4337a80b-0fb9-4a37-bce3-fe2121a66586
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
+source-git-commit: bebe6df66c9a87db882d03b36c72ebdae3085245
 
 ---
 
@@ -32,8 +32,8 @@ source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
 相關主題：
 
 * [準備](../../administration/using/configuring-email-channel.md#preparation)
-* [管理類型](../../sending/using/about-typology-rules.md#managing-typologies)
-* [類型學規則](../../sending/using/about-typology-rules.md#typology-rules)
+* [管理類型](../../sending/using/managing-typologies.md)
+* [類型學規則](../../sending/using/managing-typology-rules.md)
 * [優化通信頻率以防止接觸疲勞](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
 
 ## 建立疲勞規則 {#creating-a-fatigue-rule}

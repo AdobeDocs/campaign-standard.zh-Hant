@@ -1,27 +1,27 @@
 ---
 title: 建立或擴充資源
 description: 瞭解如何從頭開始定義資源。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: 7c26b63d-9587-472b-804f-cde5c45dfb3c
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 開發
-content-type: 參考
-topic-tags: 添加或擴展資源
+audience: developing
+content-type: reference
+topic-tags: adding-or-extending-a-resource
 discoiquuid: 8dc45c37-6908-407e-8e41-4a4188cba2b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 
 ---
 
 
 # 建立或擴充資源{#creating-or-extending-the-resource}
 
-如果您需要處理非現成資料模型一部分的資料，管理員可以從頭開始建立新資源，或是建立現有資源的擴充功能。
+如果您需要處理不屬於內建資料模型的資料，管理員可以從頭開始建立新資源，或建立現有資源的擴充功能。
 
-只能擴展下列現成可用的資源：
+僅可擴充下列內建資源：
 
 * **[!UICONTROL Campaign (campaign)]**
 * **[!UICONTROL Deliveries (delivery)]**
@@ -35,7 +35,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 要建立或擴展資源，請執行以下操作：
 
-1. 從 **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** &gt; **[!UICONTROL Custom Resources]**&#x200B;按一下按 **[!UICONTROL Create]** 鈕。
+1. 從 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom Resources]**&#x200B;按一下按 **[!UICONTROL Create]** 鈕。
 1. 選擇要執行的動作：
 
    * **[!UICONTROL Create a new resource]**:輸入和 **[!UICONTROL Label]** 字 **[!UICONTROL ID]** 段。 欄位 **[!UICONTROL ID]** 為必填欄位。 如果將「標籤」欄位保留為空白，則會自動從ID完成。
@@ -44,7 +44,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
       >[!NOTE]
       >
-      >建議最多使用30個字元。
+      >最多使用30個字元。
 
    * **[!UICONTROL Extend an existing resource]**:選擇要擴展的資源。
 

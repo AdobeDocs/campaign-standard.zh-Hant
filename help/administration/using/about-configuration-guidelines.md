@@ -12,7 +12,7 @@ discoiquuid: 5587530a-2308-4be1-9f56-19eeb7a924d5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d5a77a681a20d5e7bea73b52c994137d4a61f78d
+source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
 
 ---
 
@@ -21,6 +21,6 @@ source-git-commit: d5a77a681a20d5e7bea73b52c994137d4a61f78d
 
 本節重新分組Adobe Campaign Standard的各種設定方針。
 
-瞭解哪些瀏覽器與Campaign Standard相容，以及平板電腦支援的不同作業系統。
+瞭解哪些瀏覽器與Campaign Standard相容，以及平板電腦支援的不同作業系統。 For more on this, see [this section](../../administration/using/compatible-browsers.md).
 
-此外，也瞭解Campaign Standard中使用的不同端點。
+此外，也瞭解Campaign Standard中使用的不同端點。 For more on this, see [this section](../../administration/using/campaign-standard-network-endpoints.md).

@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard 說明
 translation-type: tm+mt
-source-git-commit: 79dcfb4f2e58314f3c2eafb9443d5e3da2028203
+source-git-commit: e92cb80e6a3a37578899081d601654eb64a6dfed
 
 ---
 
@@ -96,6 +96,9 @@ source-git-commit: 79dcfb4f2e58314f3c2eafb9443d5e3da2028203
       + [建立多語言推播通知](channels/using/creating-a-multilingual-push-notification.md)
       + [產生多語言推播通知的CSV檔案](channels/using/generating-csv-multilingual-push.md)
       + [基於行動應用程式資料來建立和更新設定檔資訊](channels/using/updating-profile-with-mobile-app-data.md)
+      + [實作推播追蹤](channels/using/push-tracking.md)
+      + [從Adobe Campaign Standard推播通知顯示影像](channels/using/image-push-notification.md)
+      + [瞭解Campaign Standard推播通知裝載結構](channels/using/push-payload.md)
    + 應用程式內訊息傳送{#in-app-messaging}
       + [關於應用程式內訊息傳送](channels/using/about-in-app-messaging.md)
       + [準備和傳送應用程式內訊息](channels/using/preparing-and-sending-an-in-app-message.md)

@@ -13,7 +13,7 @@ context-tags: typology,overview;typologyRule,main;typologyRule,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c5b1882e143924f94530c166b6af61a1bce30d72
+source-git-commit: ba1fcca02ce9582d85e57bde815ccf3f551ac7a3
 
 ---
 
@@ -42,21 +42,21 @@ source-git-commit: c5b1882e143924f94530c166b6af61a1bce30d72
 
 1. 存取 **[!UICONTROL Administration]** / **[!UICONTROL Channels]** / **[!UICONTROL Typologies]** / **[!UICONTROL Typology rules]** menu，然後按一下 **[!UICONTROL Create]**。
 
-![](assets/typology_create-rule.png)
+   ![](assets/typology_create-rule.png)
 
 1. 輸入類型 **[!UICONTROL Label]**&#x200B;學，然後指 **[!UICONTROL Channel]** 定應套用規則的項目。
 
-![](assets/typology-rule-label.png)
+   ![](assets/typology-rule-label.png)
 
 1. 指定排版規 **[!UICONTROL Type]**&#x200B;則，然後根據您的需求進行設定。 請注意，排版規則設定視其類型而異。 如需詳細資訊，請參閱「篩選 **[規則](../../sending/using/filtering-rules.md)**」**[&#x200B;和「疲乏規則](../../sending/using/fatigue-rules.md)** 」區段。
 
 1. 選擇要包含新規則的類型。 若要這麼做，請選取標 **[!UICONTROL Typologies]** 簽，然後按一下 **[!UICONTROL Create element]** 按鈕。
 
-![](assets/typology-typologies-tab.png)
+   ![](assets/typology-typologies-tab.png)
 
 1. 選取所要的排版，然後按一下 **[!UICONTROL Confirm]**。
 
-![](assets/typology-link.png)
+   ![](assets/typology-link.png)
 
 1. 在選取所有類型後，按一下以 **[!UICONTROL Create]** 確認類型規則的建立。
 

@@ -13,7 +13,7 @@ context-tags: delivery,abTesting,back;deliveryCreation,wizard;delivery,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Campaign中的A/B測試功能可讓您定義兩到三種電子郵件變體
 
 >[!NOTE]
 >
->A/B測試在Adobe Experience manager中建立的電子郵件不可能。
+>A/B測試在Adobe Experience Manager中建立的電子郵件不可能。
 
 ## Creating an A/B test email {#creating-an-a-b-test-email}
 
@@ -43,7 +43,7 @@ Adobe Campaign中的A/B測試功能可讓您定義兩到三種電子郵件變體
 
    >[!NOTE]
    >
-   >預設會隱藏後續和A/B測試範本。 勾選左側的A/B測試方塊(側 **[!UICONTROL Filter]**面板)以顯示。
+   >預設會隱藏後續和A/B測試範本。 勾選左側的A/B測試方塊(側&#x200B;**[!UICONTROL Filter]** 面板)以顯示。
 
 1. 定義電子郵件的一般屬性和目標對象，就像標準電子郵件一樣。 請參閱「建 [立觀眾](../../audiences/using/creating-audiences.md) 」區段。
 1. 在建立精靈的第四個步驟中，定義A/B測試參數：
@@ -63,7 +63,7 @@ Adobe Campaign中的A/B測試功能可讓您定義兩到三種電子郵件變體
 
 1. 確認建立電子郵件。 然後會顯示電子郵件控制面板。
 1. 排程傳送。 定義的日期表示A/B測試的開始。
-1. 檢查塊中顯示的A/B測試參 **[!UICONTROL A/B test parameters]**數。 您可以修改測試，直到您選擇區塊以確認傳送測試（步驟9）為止。
+1. 檢查塊中顯示的A/B測試參 **[!UICONTROL A/B test parameters]** 數。 您可以修改測試，直到您選擇區塊以確認傳送測試（步驟9）為止。
 
    ![](assets/create_ab_testing3.png)
 
@@ -71,13 +71,13 @@ Adobe Campaign中的A/B測試功能可讓您定義兩到三種電子郵件變體
 1. 傳送A/B測試前，請先傳送校樣以檢查您的電子郵件。
 1. 準備完成後，請確認傳送測試。 確認後，A/B測試參數便無法修改。
 
-   A/B測試從中定義的日期開始 **[!UICONTROL Schedule]**。您可以使用和塊來追蹤**[!UICONTROL A/B test]** 其進 **[!UICONTROL Deployment]**度。
+   A/B測試從中定義的日期開始 **[!UICONTROL Schedule]**。 您可以使用和塊來追蹤 **[!UICONTROL A/B test]** 進度 **[!UICONTROL Deployment]** 。
 
    如果您想要縮短測試持續時間，可隨時手動選取成功變數。
 
-   測試完成後，區塊中會顯示摘要表 **[!UICONTROL A/B Test]**格，這可讓您檢視測試的不同變數的各種指標。
+   測試完成後，區塊中會顯示摘要表 **[!UICONTROL A/B Test]** 格，這可讓您檢視測試的不同變數的各種指標。
 
-1. 如果您已選 **[!UICONTROL Send after confirmation]**擇作為發送方法，則必須手動選擇成功變數，以開始將其發送到其餘人口。 如果您已選**[!UICONTROL Automatic]**&#x200B;取，則成功變數會在系統確定後立即自動傳送至剩餘人口。
+1. 如果您已選 **[!UICONTROL Send after confirmation]** 擇作為發送方法，則必須手動選擇成功變數，以開始將其發送到其餘人口。 如果您已選 **[!UICONTROL Automatic]**&#x200B;取，則成功變數會在系統確定後立即自動傳送至剩餘人口。
 
    >[!NOTE]
    >
@@ -93,4 +93,4 @@ Adobe Campaign中的A/B測試功能可讓您定義兩到三種電子郵件變體
 
 在電子郵件儀表板中，有幾個指標可協助您測量A/B測試：點按次數、開啟次數、彈回數等。
 
-請注意，此 **[!UICONTROL Estimated recipient reactivity]**指標是比較點按的收件者人數與開啟電子郵件的收件者人數的比率。 例如，如果有10位收件者開啟電子郵件，而有5位收件者點按了該電子郵件。 反應率為50%。
+請注意，此 **[!UICONTROL Estimated recipient reactivity]** 指標是比較點按的收件者人數與開啟電子郵件的收件者人數的比率。 例如，如果有10位收件者開啟電子郵件，而有5位收件者點按了該電子郵件。 反應率為50%。

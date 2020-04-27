@@ -12,26 +12,26 @@ discoiquuid: 0130733d-4e3f-40cd-b959-56381f2c8f44
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6f7f4f3d81f4e6a540b3317f283c1e2311ccc65a
+source-git-commit: 6cf00f9b9bafdd54d8424a353b33dc689c0f59aa
 
 ---
 
 
 # 刪除資源{#deleting-a-resource}
 
-要刪除資源，相關資源必須是 **[!UICONTROL Draft]**。 如果滿足以下條件，則資**[!UICONTROL Draft]** 源處於狀態：
+要刪除資源，相關資源必須是 **[!UICONTROL Draft]**。 如果滿足以下條件，則資 **[!UICONTROL Draft]** 源處於狀態：
 
 * 它剛剛建立，尚未發佈。
 * 如果已經發佈，則必須重新起草資源。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >重新起草和刪除自定義資源是可能影響其他資源的敏感操作。 這些動作必須僅由專家使用者執行。
 
 要重新草擬和刪除已發佈的資源，請執行以下操作：
 
 1. 選擇要重新繪製的資源。
-1. 按一下 **[!UICONTROL Re-draft]**動作列中的按鈕。
+1. 按一下 **[!UICONTROL Re-draft]** 動作列中的按鈕。
 
    ![](assets/schema_extension_uc26.png)
 
@@ -51,7 +51,7 @@ source-git-commit: 6f7f4f3d81f4e6a540b3317f283c1e2311ccc65a
 
    然後，資源會進入 **Draft** （草稿）模式，其啟動狀態為 **[!UICONTROL Inactive]**。
 
-1. 在模 **[!UICONTROL List]**&#x200B;式中，檢查要刪除的資源，然後按一下![](assets/delete_darkgrey-24px.png)圖&#x200B;**[!UICONTROL Delete element]** 標。
+1. 在模 **[!UICONTROL List]** 式中，檢查要刪除的資源，然後按一下 ![](assets/delete_darkgrey-24px.png) 圖 **[!UICONTROL Delete element]** 標。
 
    ![](assets/schema_extension_uc28.png)
 

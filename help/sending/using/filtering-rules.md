@@ -12,7 +12,7 @@ discoiquuid: 7ddaf36c-74e6-4501-b3eb-3d03f005aaa6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 396084934a41d103eecd6fe141c700c118000f75
+source-git-commit: ba1fcca02ce9582d85e57bde815ccf3f551ac7a3
 
 ---
 
@@ -60,7 +60,7 @@ source-git-commit: 396084934a41d103eecd6fe141c700c118000f75
 
 1. 選取規 **[!UICONTROL Filtering]** 則類型，然後指定所要的渠道。
 
-1. 在「 **[!UICONTROsL篩選條件]** 」標籤中，選取類別中的 **[!UICONTROL Subscription]** 訂閱。
+1. 在標籤 **[!UICONTROL Filtering criteria]** 中，選擇類別中的訂 **[!UICONTROL Subscription]** 閱。
 
    ![](assets/typology_create-rule-subscription.png)
 

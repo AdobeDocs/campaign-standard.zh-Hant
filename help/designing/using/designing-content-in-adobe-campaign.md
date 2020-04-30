@@ -12,7 +12,7 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: eb7758c6d2b19bb7a302649626acead97497da9a
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 在Adobe Campaign中建立電子郵件後，您必須定義其內容。
 
-電子郵件設計工具可讓您透過拖放式介面，透過原生Creative cloud整合，建立吸引人、個別自訂的電子郵件。 不論您是從空白的位置開始，或是運用現有的內容片段或範本，針對每封電子郵件（不論是促銷或交易）設計和調整所有內容。
+電子郵件設計工具可讓您透過拖放式介面，透過原生Creative Cloud整合，建立吸引人、個別自訂的電子郵件。 不論您是從空白的位置開始，或是運用現有的內容片段或範本，針對每封電子郵件（不論是促銷或交易）設計和調整所有內容。
 
 電子郵件設計工具是專為提供最佳化的HTML以進行多方互動設計而設計，可讓您透過使用者介面，輕鬆定義並套用可見性條件和動態內容至電子郵件、範本或片段。 只要按一下按鈕，您就可以順暢地在拖放介面和HTML程式碼之間切換。
 
@@ -36,7 +36,7 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 * 有關建立內容的更多資訊：
    * 從頭開始，請參 [閱從頭開始設計電子郵件](../../designing/using/designing-from-scratch.md)。
    * 使用現有內容，請參 [閱使用現有內容設計](../../designing/using/using-existing-content.md)。
-   * 使用Creative cloud整合，請參閱 [多解決方案電子郵件設計](../../designing/using/using-integrations.md)。
+   * 使用Creative Cloud整合，請參閱 [多解決方案電子郵件設計](../../designing/using/using-integrations.md)。
 * 如需個人化的詳細資訊，請參 [閱個人化](../../designing/using/personalization.md)。
 
 建立電子郵件時，您可以選擇使用預先定義的範本，或從其他來源載入現有內容。 請參 [閱選擇現有內容](../../designing/using/using-existing-content.md#selecting-an-existing-content)。
@@ -69,27 +69,27 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ### 電子郵件設計人員首頁 {#email-designer-home-page}
 
-建立 [電子郵件時](../../channels/using/creating-an-email.md), **[!UICONTROL Email Designer]**首頁會在選取電子郵件內容時自動顯示。
+建立 [電子郵件時](../../channels/using/creating-an-email.md), **[!UICONTROL Email Designer]** 首頁會在選取電子郵件內容時自動顯示。
 
 ![](assets/email_designer_home_page.png)
 
-此標 **[!UICONTROL Properties]**簽可讓您編輯電子郵件詳細資訊，例如標籤、寄件者的地址和名稱，或電子郵件主旨。 您也可以按一下畫面上方的電子郵件標籤，以存取此標籤。
+此標 **[!UICONTROL Properties]** 簽可讓您編輯電子郵件詳細資訊，例如標籤、寄件者的地址和名稱，或電子郵件主旨。 您也可以按一下畫面上方的電子郵件標籤，以存取此標籤。
 
 ![](assets/email_designer_home_properties.png)
 
-此標 **[!UICONTROL Templates]**簽可讓您從現成可用的HTML內容或您已建立的範本中選擇，以快速開始設計電子郵件。 請參閱[內容範本](../../designing/using/using-reusable-content.md#content-templates)。
+此標 **[!UICONTROL Templates]** 簽可讓您從現成可用的HTML內容或您已建立的範本中選擇，以快速開始設計電子郵件。 請參閱 [內容範本](../../designing/using/using-reusable-content.md#content-templates)。
 
 ![](assets/email_designer_home_templates.png)
 
-此標 **[!UICONTROL Learn & support]**簽可讓您輕鬆存取相關檔案和教學課程。
+此標 **[!UICONTROL Learn & support]** 簽可讓您輕鬆存取相關檔案和教學課程。
 
 ![](assets/email_designer_home_support.png)
 
 如果您未選擇模板，「電子郵件設計器」首頁還允許您選擇開始設計內容的方式：
 
-* 按一下 **[!UICONTROL Create]**按鈕，從頭開始新內容。 請參[閱從頭設計電子郵件內容](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)。
-* 按一下按 **[!UICONTROL Upload]**鈕，從您的電腦上傳檔案。 請參[閱從檔案匯入內容](../../designing/using/using-existing-content.md#importing-content-from-a-file)。
-* 按一下按 **[!UICONTROL Import from URL]**鈕，從URL擷取現有內容。 請參[閱從URL匯入內容](../../designing/using/using-existing-content.md#importing-content-from-a-url)。
+* 按一下 **[!UICONTROL Create]** 按鈕，從頭開始新內容。 請參 [閱從頭設計電子郵件內容](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)。
+* 按一下按 **[!UICONTROL Upload]** 鈕，從您的電腦上傳檔案。 請參 [閱從檔案匯入內容](../../designing/using/using-existing-content.md#importing-content-from-a-file)。
+* 按一下按 **[!UICONTROL Import from URL]** 鈕，從URL擷取現有內容。 請參 [閱從URL匯入內容](../../designing/using/using-existing-content.md#importing-content-from-a-url)。
 
 ## 術語 {#terminology}
 
@@ -152,7 +152,7 @@ Adobe建議將您的內容更新至最新版本，以避免發生CSS衝突等問
 * 在編輯樣式時，只有大多數電子郵件用戶端正式支援的網頁字型才可用。
 * 樣式無法儲存為主題，以供日後重複使用。 不過，CSS樣式可以儲存在內容範本或電子郵件中。 有關樣式的更多資訊，請參 [閱本節](../../designing/using/styles.md)。
 
-**相關主題**:
+**相關主題**
 
 * [建立電子郵件](../../channels/using/creating-an-email.md)
 * [設計登錄頁面](../../channels/using/designing-a-landing-page.md)

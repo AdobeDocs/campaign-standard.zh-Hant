@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
+source-git-commit: 5d4560a26c0f5c6d3e8710caf51d4a82fbf80174
 
 ---
 
@@ -31,9 +31,15 @@ source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 
 **此版本隨附的其他檔案更新**
 
-* 已在工作流程屬性的欄 **[!UICONTROL History in days]** 位中新增資訊，現在包含活動下載的檔 **[!UICONTROL Transfer file]** 案。 [閱讀更多資訊](../../automating/using/executing-a-workflow.md)
+已在工作流程屬性的欄 **[!UICONTROL History in days]** 位中新增資訊，現在包含活動下載的檔 **[!UICONTROL Transfer file]** 案。 [閱讀更多資訊](../../automating/using/executing-a-workflow.md)
 
-* 在描述檔替代區段中已新增有關主旨行首碼500個字元限制的資訊。 [閱讀更多資訊](../../sending/using/testing-messages-using-target.md)
+在描述檔替代區段中已新增有關主旨行首碼500個字元限制的資訊。 [閱讀更多資訊](../../sending/using/testing-messages-using-target.md)
+
+核心檔案中已新增「隱私權與同意」專欄。 [閱讀更多資訊](../../start/using/privacy.md)
+
+* 已新增使用案例，讓您將舊版編輯器電子郵件轉換為電子郵件設計工具。 [閱讀更多資訊](../../designing/using/converting-emails-from-legacy-editor.md)
+
+* 已新增有關電子郵件設計人員的常見問題區段。 [閱讀更多資訊](../../designing/using/faq-email-designer.md)
 
 ## 檔案更新- 2020年4月 {#doc-updates-april-2020}
 

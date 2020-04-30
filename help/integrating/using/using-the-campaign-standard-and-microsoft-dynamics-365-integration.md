@@ -1,5 +1,5 @@
 ---
-title: 將Microsoft Dynamics 365與Campaign Standard整合
+title: 使用Microsoft Dynamics 365整合
 description: 瞭解如何搭配Campaign Standard整合使用Microsoft Dynamics 365
 page-status-flag: never-activated
 uuid: ed6c1b76-87f7-4d23-b5e2-0765297a905c
@@ -12,12 +12,12 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bff3b8f8f58c491e4010d24132b0fa3e93c3a7ab
+source-git-commit: de048c06ea2af0c988e97a37ebf945906069935e
 
 ---
 
 
-# 將Microsoft Dynamics 365與Campaign Standard整合
+# 使用Microsoft Dynamics 365整合
 
 此整合會執行數個工作：
 
@@ -88,25 +88,25 @@ source-git-commit: bff3b8f8f58c491e4010d24132b0fa3e93c3a7ab
 >
 >AppSource中的Adobe Campaign for Dynamics 365應用程式必須安裝在Dynamics 365例項中，才能檢視這些事件。
 
-下面是「Dynamics User」的「Contact」（聯繫人）螢幕快照。  在「時間軸」檢視中，您會注意到Dynamics使用者已寄送電子郵件，與促銷活動名稱「2019LoyaltyCamp」和傳送名稱「DM190」相關。  Dynamics使用者開啟電子郵件，並點選了電子郵件中的URL;這兩個動作都會建立事件，如下所示。  如果您往右拐，就會看到「關係助理」(RA)卡；目前，它包含要追蹤所點按URL的工作。
+下面是「Dynamics User」的「Contact」（聯繫人）螢幕快照。  在「時間軸」檢視中，您會注意到Dynamics使用者已寄送電子郵件，與促銷活動名稱「2019LoyaltyCamp」和傳送名稱「DM190」相關。  Dynamics使用者開啟電子郵件，並點選了電子郵件中的URL;這兩個動作都會建立事件，如下所示。  如果您往右拐，就會看到「關係助理(RA)」卡；目前，它包含要追蹤所點按URL的工作。
 
-![](assets/MSdynamicsACS-usage4.png)
+![](assets/do-not-localize/MSdynamicsACS-usage4.png)
 
 請參閱以下，以取得動態使用者時間軸檢視的詳細資訊。
 
-![](assets/MSdynamicsACS-usage5.png)
+![](assets/do-not-localize/MSdynamicsACS-usage5.png)
 
 以下是關係助理(RA)卡的特寫。  AppSource應用程式包含會監視Adobe電子郵件URL點按事件的工作流程。  發生此事件時，它會建立工作並設定到期日。  這可讓工作顯示在RA卡中，讓它更加可見。  Adobe電子郵件彈回數事件的工作流程類似，新增了協調無效電子郵件地址的任務。  這些工作流程可在解決方案中關閉。
 
-![](assets/MSdynamicsACS-usage6.png)
+![](assets/do-not-localize/MSdynamicsACS-usage6.png)
 
 如果您按一下傳送事件的主題，您會看到類似下方的表格。  開啟和彈回事件的表格類似。
 
-![](assets/mirror_page_url_send.png)
+![](assets/do-not-localize/mirror_page_url_send.png)
 
 電子郵件URL點按事件的表單會為被點按的URL新增其他屬性：
 
-![](assets/mirror_page_url_click.png)
+![](assets/do-not-localize/mirror_page_url_click.png)
 
 以下是屬性清單和說明：
 

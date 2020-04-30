@@ -12,7 +12,7 @@ discoiquuid: 6fa50f0d-3dcf-4a9e-bccc-1ecda2bfb449
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 50aeb40d891f6a089a556ef25eba87e568a88e94
+source-git-commit: b8c3569fc3965f463a06ae8375a623553037e248
 
 ---
 
@@ -30,7 +30,7 @@ source-git-commit: 50aeb40d891f6a089a556ef25eba87e568a88e94
 Adobe Campaign 使用兩種類型的 Cookie：
 
 * 工作階段Cookie(nid)。 這包含傳送給連絡人的電子郵件識別碼(broadlogId)和訊息範本的識別碼(deliveryId)。 連絡人按一下由 Adobe Campaign 傳送的電子郵件中包含的 URL 後即可添加識別碼，並且允許您追蹤他們在網路上的行為。瀏覽器關閉時，將自動清除工作階段 Cookie。連絡人可以將其瀏覽器設定為拒絕 Cookie。
-* Adobe Experience Cloud解決方案之間共用的Cookie。 這可讓您識別在使用者造訪網站時與Experience Cloud解決方案互動的使用者。 此Cookie的說明可從以下網址取得： [https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_mc.html](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_mc.html)。
+* Adobe Experience Cloud解決方案之間共用的Cookie。 這可讓您識別在使用者造訪網站時與Experience Cloud解決方案互動的使用者。 此處提供此Cookie的說 [明](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_mc.html)。
 
 使用Adobe Campaign Standard進行追蹤可讓您存取下列功能：
 

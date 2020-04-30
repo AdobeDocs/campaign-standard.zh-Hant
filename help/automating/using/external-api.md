@@ -10,7 +10,7 @@ context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e545e0ffba80f6165242f6974adf0e4c4abafff4
+source-git-commit: c59faa935663bf803ed97f30e45f9b4276b448b8
 
 ---
 
@@ -39,7 +39,9 @@ source-git-commit: e545e0ffba80f6165242f6974adf0e4c4abafff4
 
 在Campaign Standard 20.3版本中，外部API功能將測試版移至一般可用性(GA)。
 
-因此，如果您使用測試版外部API活動，則需要在所有工作流程中以GA外部API活動來取代這些活動。  使用External API測試版的工作流程將從20.3版開始停止運作。
+>[!CAUTION]
+>
+>因此，如果您使用測試版外部API活動，則需要在所有工作流程中以GA外部API活動來取代這些活動。  使用External API測試版的工作流程將從20.3版開始停止運作。
 
 取代外部API活動時，將新的外部API活動新增至工作流程、手動複製設定詳細資訊，然後刪除舊活動。
 
@@ -150,7 +152,7 @@ JSON剖析器的設計可容納標準JSON結構模式類型，但有些例外。
 
 ### 轉換
 
-此標籤可讓您啟用 **出站轉場** 及其標籤。 在逾時或負載超過資料大小限 **制時** ，此特定轉 **換非常實用**。
+此標籤可讓您啟用 **出站轉場** 及其標籤。 在逾時或負載超過資料大 **小限制** 時，此特定轉 **換很實用**。
 
 ![](assets/externalAPI-transition.png)
 

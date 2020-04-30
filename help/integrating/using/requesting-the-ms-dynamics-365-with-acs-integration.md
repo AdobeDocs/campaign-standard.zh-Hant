@@ -1,5 +1,5 @@
 ---
-title: 請求並設定Microsoft Dynamics 365與Campaign Standard整合
+title: 要求並設定Microsoft Dynamics 365整合
 description: 瞭解如何透過Campaign Standard整合來請求及設定Microsoft Dynamics 365
 page-status-flag: never-activated
 uuid: ed6c1b76-87f7-4d23-b5e2-0765297a905c
@@ -12,12 +12,12 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
+source-git-commit: 277663c4cf0e810f691eeebfade17bf8dd73698e
 
 ---
 
 
-# 請求整合Campaign Standard的Microsoft Dynamics 365
+# 要求並設定Microsoft Dynamics 365整合
 
 若要布建此整合，您必須遵循下列步驟。
 

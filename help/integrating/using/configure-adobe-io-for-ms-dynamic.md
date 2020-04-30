@@ -12,7 +12,7 @@ discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
+source-git-commit: 4e05dafb087c43a13c60d6bb2f54d0e44455ea8d
 
 ---
 
@@ -136,7 +136,7 @@ If you enter '.', the field will be left blank.
 
 按一下 **[!UICONTROL Create Integration]**。
 
-![](assets/MSdynACSIntegration-4B.png)
+![](assets/do-not-localize/MSdynACSIntegration-4B.png)
 
 ### 設定整合詳細資訊
 
@@ -144,13 +144,13 @@ If you enter '.', the field will be left blank.
 
 檢視整合詳細資訊。  當您執行Unifi布建後步驟時，需要回覆這些步驟。
 
-![](assets/MSdynACSIntegration-5.png)
+![](assets/do-not-localize/MSdynACSIntegration-5.png)
 
 1. 按一下標籤 **[!UICONTROL Services]** 並新增 **[!UICONTROL I/O Events]** 與 **[!UICONTROL I/O Management API]** 服務。  若要新增服務，請按一下選項按鈕，然後按 **[!UICONTROL Add service]**。  您將針對每項服務分別執行此動作。
 
 當您完成服務時，您的服務應該會像下圖一樣顯示在最上方。 在產生JWT和存取Token時，您不需要完成a-部分。
 
-![](assets/MSdynACSIntegration-6.png)
+![](assets/do-not-localize/MSdynACSIntegration-6.png)
 
 促銷活動中的貼文布建現已完成。  繼續完成Microsoft [Dynamics 365的置備後步驟](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)。
 

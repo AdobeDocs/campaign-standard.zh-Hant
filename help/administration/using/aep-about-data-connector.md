@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 327d0e4f862b39c60fb3943d1128f4f42828bc0d
+source-git-commit: 9388df151eabbc6f63461e854d0276c14d9ef93d
 
 ---
 
@@ -70,7 +70,7 @@ Adobe Experience Platform Data Connector是專為瞭解Adobe Campaign Standard�
 
 * 不支援立即可用的訂閱事件傳輸。 若要傳輸訂閱事件，您可以在Adobe Experience Platform上建立對應的XDM和資料集，然後為這些資料設定自訂資料對應。
 
-* 關於隱私權要求，客戶需要針對Campaign核心隱私權服務和Adobe Experience Platform分別提出存取和刪除動作的要求。
+* 關於隱私權要求（存取和刪除動作），客戶需要個別提出要求：一個是透過隱私權核心服務整合(請參 [閱本節](https://helpx.adobe.com/campaign/kb/acs-privacy.html#righttoaccess))的Campaign，另一個是透過其隱私權服務的Adobe Experience Platform [的Adobe Experience Platform](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ccpa)。 如需存取和刪除請求的詳細資訊，請參 [閱本頁](https://helpx.adobe.com/campaign/kb/acs-privacy.html#righttoaccess)。
 
 * 對於每個XDM欄位，DULE標籤必須在Adobe Experience Platform中完成。 這是客戶應對應用DULE標籤的責任。
 

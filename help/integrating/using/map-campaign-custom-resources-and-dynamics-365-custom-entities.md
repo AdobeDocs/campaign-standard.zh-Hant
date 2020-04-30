@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 37e86c6143c52841e69d610fa9db35dff70a3587
+source-git-commit: 4e05dafb087c43a13c60d6bb2f54d0e44455ea8d
 
 ---
 
@@ -59,15 +59,15 @@ source-git-commit: 37e86c6143c52841e69d610fa9db35dff70a3587
 
 按一下Dynamics 365旁的下拉式清單，即可在「銷售儀表板」中檢視此客戶在Dynamics 365中的自訂實體。  此客戶的自訂實體群組在下方 **[!UICONTROL Extensions]**。
 
-![](assets/SalesDashboard.png)
+![](assets/do-not-localize/SalesDashboard.png)
 
 透過按一下自訂實體，即可檢視 **[!UICONTROL vehicle]** 車輛資料。  請參閱以下車輛清單。
 
-![](assets/VehicleCustomEntity.png)
+![](assets/do-not-localize/VehicleCustomEntity.png)
 
 實體與實 **[!UICONTROL vehicle]** 體之關 **[!UICONTROL Contact]** 系見下文。 **[!UICONTROL Parental]** 被選中 **[!UICONTROL Type of Behavior]**。
 
-![](assets/ContactToVehicle.png)
+![](assets/do-not-localize/ContactToVehicle.png)
 
 ### Campaign Standard中的設定
 
@@ -102,7 +102,7 @@ source-git-commit: 37e86c6143c52841e69d610fa9db35dff70a3587
 >
 >每個自訂資源都必須有一個唯一欄位，其ID為externalId（完全）。  此欄位將對應至Dynamics 365中自訂資源的ID欄位（請參閱下方）。
 
-![](assets/FieldsInDynamics.png)
+![](assets/do-not-localize/FieldsInDynamics.png)
 
 ### 定義識別碼
 
@@ -170,7 +170,7 @@ source-git-commit: 37e86c6143c52841e69d610fa9db35dff70a3587
 
 假設客戶已在Dynamics 365中填入車輛定制實體，且Unifi已設定其車輛定制實體作業和計畫，則客戶應能夠啟動車輛實體的入口計畫。
 
-![](assets/Schedule.png)
+![](assets/do-not-localize/Schedule.png)
 
 進入作業完成後，車輛資料現在可在促銷活動中新填入的自 **[!UICONTROL Vehicle]** 訂資源中顯示。
 

@@ -12,7 +12,7 @@ discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
+source-git-commit: 4e05dafb087c43a13c60d6bb2f54d0e44455ea8d
 
 ---
 
@@ -57,7 +57,7 @@ OAuth存取Token可讓Unifi透過網頁API與您的Microsoft Dynamics 365例項�
 
 1. 按一 **[!UICONTROL New registration]** 下畫面頂端的。
 
-   ![](assets/MSdynACSIntegration-7.png)
+   ![](assets/do-not-localize/MSdynACSIntegration-7.png)
 
 1. 填寫應用程式註冊畫面：
 
@@ -74,7 +74,7 @@ OAuth存取Token可讓Unifi透過網頁API與您的Microsoft Dynamics 365例項�
 
 1. 從應用程式概述畫面，在左側的子選單上，按一下 **[!UICONTROL Certificates and Secrets > New client secret]**
 
-   ![](assets/MSdynACSIntegration-8.png)
+   ![](assets/do-not-localize/MSdynACSIntegration-8.png)
 
 1. 輸入說明、設定持續時間，然後按一下 **[!UICONTROL OK]**。
 
@@ -90,11 +90,11 @@ OAuth存取Token可讓Unifi透過網頁API與您的Microsoft Dynamics 365例項�
 
 1. 在此畫面或應用程式概述畫面中，按一 **[!UICONTROL API permissions]** 下左側子選單中的。  按一 **[!UICONTROL Add a permission]**&#x200B;下後，您必須在功能 **[!UICONTROL Dynamics CRM]** 表中選取。
 
-   ![](assets/MSdynACSIntegration-9.png)
+   ![](assets/do-not-localize/MSdynACSIntegration-9.png)
 
 1. 然後核取方塊 **[!UICONTROL user_impersonation]**，然後按一下按 **[!UICONTROL Add permissions]** 鈕。
 
-   ![](assets/MSdynACSIntegration-10.png)
+   ![](assets/do-not-localize/MSdynACSIntegration-10.png)
 
 如需權限設定的詳細資訊，請參閱 [本節](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-configure-app-access-web-apis#add-permissions-to-access-web-apis)。
 
@@ -138,7 +138,7 @@ OAuth存取Token可讓Unifi透過網頁API與您的Microsoft Dynamics 365例項�
 若要將Dynamics 365應用程式整合至您的Campaign Standard環境，請遵循下列步驟：
 
 1. 導覽至下列連結： [https://appsource.microsoft.com/en-us/marketplace/apps](https://appsource.microsoft.com/en-us/marketplace/apps) ，並在搜尋 _列中搜尋Adobe Campaign for Dynamics 365_ 。
-或者，您也可以導覽至此 [連結](https://appsource.microsoft.com/en-us/product/dynamics-365/adobecampaign.re4snj-a4n7-5t6y-a14br-d5d1b?flightCodes=adobesignhide&tab=Overview)。
+或者，您也可以導覽至此 [連結](https://appsource.microsoft.com/en-us/product/dynamics-365/adobecampaign.re4snj-a4n7-5t6y-a14br-d5d1b?flightCodes=adobesignhide&amp;tab=Overview)。
 1. 請依照指示，為您的Dynamics 365例項安裝應用程式。
 1. 安裝後，導覽至您的Dynamics 365例項，並以管理員身分登入。
 1. 按一下右上角的齒輪表徵圖，然後按一下 **[!UICONTROL Advanced Settings]**。 在頂端橫幅中，按一下旁邊的下拉式清 **[!UICONTROL Settings]**&#x200B;單，按一下 **[!UICONTROL Processes]** 下方 **[!UICONTROL Process Center]**。

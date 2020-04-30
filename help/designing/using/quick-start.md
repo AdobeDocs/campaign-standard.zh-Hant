@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d68dbc3e9579f044b7ac1f76ac729548057bb6ec
+source-git-commit: 6aa48a9f36e0716b036288862d1a0064e489be92
 
 ---
 
@@ -22,14 +22,14 @@ source-git-commit: d68dbc3e9579f044b7ac1f76ac729548057bb6ec
 
 您可以在電子郵件設 [計器中建立新的電子郵件](#without-existing-content):
 
-* 您可以輕鬆新增結構和內容元件，並個人化其內容，以便快速傳送，從空白畫布建立電子郵件。 您也可以完全管理樣式元素。 如需詳細資訊，請 [快速上手](#from-scratch-email) ，或查看完 [整的檔案](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)。
+1. 您可以 **透過輕鬆新增結構和內容元件** ，並個人化其內容，以便快速傳送，從空白畫布建立電子郵件。 您也可以完全管理樣式元素。 如需詳細資訊，請 [快速上手](#from-scratch-email) ，或查看完 [整的檔案](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)。
 
-* 您可以從現成可用的範本建立電子郵件，方法是選取範本並從此處建立新的電子郵件內容。 [進一步瞭解](#building-content-from-an-out-of-the-box-template)
+1. 您可 **以從現成可用的範本建立電子郵件** ，方法是選取範本並從此處建立新的電子郵件內容。 [進一步瞭解](#building-content-from-an-out-of-the-box-template)
 
 您也可以建立包含現有內 [容的電子郵件](#with-existing-content):
 
-* 您可以轉換現有的HTML內容（在外部或舊版編輯器中建立）。 [進一步瞭解](#converting-an-html-content)
-* 您可以直接在相容性模式中匯入現有的HTML內容。 [進一步瞭解](#compatibility-mode)
+1. 您可以 **轉換現有的HTML內容** （在外部或舊版編輯器中建立）。 [進一步瞭解](#converting-an-html-content)
+1. 您可以 **在相容性模式下** ，直接匯入現有的HTML內容。 [進一步瞭解](#compatibility-mode)
 
 | 無內容 | 使用內容 |
 |---|---|
@@ -139,7 +139,7 @@ source-git-commit: d68dbc3e9579f044b7ac1f76ac729548057bb6ec
 
 ### 轉換HTML內容 {#converting-an-html-content}
 
-此使用案例提供將HTML電子郵件轉換為電子郵件設計器元件的快速方式。
+此使用案例提供將HTML電子郵件轉換為電子郵件設計器元件的快速方式。 如需此主題的詳細資訊，請參閱 [轉換HTML內容](../../designing/using/using-existing-content.md#converting-an-html-content)。
 
 >[!CAUTION]
 >
@@ -149,84 +149,9 @@ source-git-commit: d68dbc3e9579f044b7ac1f76ac729548057bb6ec
 >
 >和相容性模式一樣，HTML元件也可編輯，但選項有限：您只能執行就地版本。
 
-在「電子郵件設計器」外，請確定原始HTML會分為可重複使用的區段。
-
-1. 開啟「電子郵件設計工具」以建立空的電子郵件內容。
-1. 設定主體級別屬性：背景顏色、寬度等。 如需詳細資訊，請參閱「編輯 [電子郵件樣式](../../designing/using/styles.md)」。
-
-如果不是這樣，請從HTML中剪下不同的區塊。 例如，以下是明確識別的章節：
-
-```
-<!-- 3 COLUMN w/CTA (SCALED) -->
-<table width="100%" align="center" cellspacing="0" cellpadding="0" border="0" role="presentation" style="max-width:680px;">
-<tbody>
-<tr>
-<td class="padh10" align="center" valign="top" style="padding:0 5px 20px 5px;">
-<table width="100%" cellspacing="0" cellpadding="0" border="0" role="presentation">
-<tbody>
-<tr>
-...
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
-</table>
-<!-- //3 COLUMN w/CTA (SCALED) -->
-```
-
-在您識別所有區塊後，請在「電子郵件設計器」中，針對現有電子郵件的每個區段重複下列步驟：
-
-1. 添加結構元件。 如需詳細資訊，請參閱「 [編輯電子郵件結構」](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
-1. 新增HTML元件。 如需詳細資訊，請參 [閱新增片段和元件](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
-1. 將HTML複製並貼入該元件。
-1. 切換至行動裝置檢視。 For more on this, see [this section](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
-
-   回應式檢視會中斷，因為您的CSS遺失。
-
-1. 若要修正此問題，請切換至原始碼模式，並將樣式區段複製貼至新的樣式區段。 例如：
-
-   ```
-   <style type="text/css">
-   a {text-decoration:none;}
-   body {min-width:100% !important; margin:0 auto !important; padding:0 !important;}
-   img {line-height:100%; text-decoration:none; -ms-interpolation-mode:bicubic;}
-   ...
-   </style>
-   ```
-
-   >[!NOTE]
-   >
-   >請務必在此之後，在另一個自訂樣式標籤中新增您的樣式。
-   >
-   >請勿修改電子郵件設計人員產生的CSS:
-   >
-   >* `<style data-name="default" type="text/css">(##)</style>`
-   >* `<style data-name="supportIOS10" type="text/css">(##)</style>`
-   >* `<style data-name="mediaIOS8" type="text/css">(##)</style>`
-   >* `<style data-name="media-default-max-width-500px" type="text/css">(##)</style>`
-   >* `<style data-name="media-default--webkit-min-device-pixel-ratio-0" type="text/css">(##)</style>`
-
-
-1. 返回行動裝置檢視，檢查您的內容是否正確顯示並儲存變更。
 
 ### 匯入和編輯HTML電子郵件 {#compatibility-mode}
 
 上傳內容時，它必須包含特定標籤，才能與「電子郵件設計器」的WYSIWYG編輯器完全相容並可編輯。
 
-如果所上傳的HTML的全部或部分不符合預期的標籤，則內容會以「相容模式」載入，這會限制透過UI的版本可能性。
-
-當內容以相容模式載入時，您仍可透過介面執行下列修改（隱藏不可用的動作）:
-
-* 變更文字或變更影像
-* 插入連結和個人化欄位
-* 在選取的HTML區塊上編輯某些樣式選項
-* 定義條件式內容
-
-![](assets/email_designer_compatibility.png)
-
-其他修改（例如在電子郵件中新增章節或進階樣式）必須直接在電子郵件的原始碼中透過HTML模式進行。
-雖然相容性模式不允許您使用拖放功能，但它保證與舊版編輯器具有相同的功能集。
-
-有關將現有電子郵件轉換為與電子郵件設計人員相容的電子郵件的詳細資訊，請參 [閱本節](../../designing/using/using-existing-content.md)。
+有關將現有電子郵件轉換為與電子郵件設計人員相容的電子郵件的詳細資訊，請參 [閱本節](../../designing/using/using-existing-content.md#compatibility-mode)。

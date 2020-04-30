@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard 說明
 translation-type: tm+mt
-source-git-commit: e92cb80e6a3a37578899081d601654eb64a6dfed
+source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
 
 ---
 
@@ -25,6 +25,7 @@ source-git-commit: e92cb80e6a3a37578899081d601654eb64a6dfed
 + 快速入門 {#getting-started}
    + 關於 Adobe Campaign {#about-adobe-campaign}
       + [行銷活動策劃](start/using/campaign-orchestration.md)
+      + [隱私權與同意](start/using/privacy.md)
       + [細分與目標定位](start/using/segmentation-and-targeting.md)
       + [動態與個人化內容](start/using/dynamic-and-personalized-content.md)
       + [追蹤、監控及報告](start/using/tracking--monitoring-and-reporting.md)
@@ -134,10 +135,12 @@ source-git-commit: e92cb80e6a3a37578899081d601654eb64a6dfed
       + [使用可重複使用的內容](designing/using/using-reusable-content.md)
       + [使用多重解決方案整合](designing/using/using-integrations.md)
       + [編輯純文字、HTML 和行動電子郵件](designing/using/plain-text-html-modes.md)
+      + [將舊版編輯器電子郵件轉換給電子郵件設計人員](designing/using/converting-emails-from-legacy-editor.md)
    + [個人化電子郵件內容](designing/using/personalization.md)
    + [管理電子郵件樣式](designing/using/styles.md)
    + [管理連結](designing/using/links.md)
    + [管理影像](designing/using/images.md)
+   + [常見問題](designing/using/faq-email-designer.md)
 + 測試和傳送 {#testing-and-sending}
    + [關於使用 Campaign 傳送訊息](sending/using/about-sending-messages-with-campaign.md)
    + 準備和測試訊息 {#preparing-and-testing-messages}
@@ -241,10 +244,10 @@ source-git-commit: e92cb80e6a3a37578899081d601654eb64a6dfed
       + [廢棄觸發程式使用案例](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign和Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
       + 使用Campaign Standard和Microsoft Dynamics 365 {#working-with-campaign-standard-and-ms-dynamics}
-         + [使用Campaign Standard和Microsoft Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
-         + [通知與建議](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
-         + [請求並設定Microsoft Dynamics 365與Campaign Standard整合](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
-         + [將Microsoft Dynamics 365與Campaign Standard整合](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
+         + [開始使用Microsoft Dynamics 365整合](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+         + [關於Microsoft Dynamics 365整合](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
+         + [要求並設定Microsoft Dynamics 365整合](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
+         + [使用Microsoft Dynamics 365整合](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
       + [配置Adobe IO for Microsoft Dynamics 365整合](integrating/using/configure-adobe-io-for-ms-dynamic.md)
       + [設定Microsoft Dynamics 365以進行促銷活動整合](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
       + [針對Microsoft Dynamics 365整合設定Unifi](integrating/using/configure-unifi-for-microsoft-dynamics-365-integration.md)

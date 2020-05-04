@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 57b87896281efa7dd1e6a612926f59061a0fdcb8
+source-git-commit: adfeb1c83d9ef4ce9f483c134a0fd230fbc6636c
 
 ---
 
@@ -108,10 +108,10 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 
 GET操作返回以下資訊：
 
-* **batchId**:只有在批次準備和上傳後發生失敗時，才會填入此欄位，
-* **資訊**:XDM映射ID,
-* **numRecords**:已收錄的記錄數（僅限成功狀態）,
-* **狀態**:收錄請求狀態（成功／失敗／進行中）
+* **batchId**: 只有在批次準備和上傳後發生失敗時，才會填入此欄位，
+* **資訊**: XDM映射ID,
+* **numRecords**: 已收錄的記錄數（僅限成功狀態）,
+* **狀態**: 收錄請求狀態（成功／失敗／進行中）
 
 對GET操作的可能響應包括：
 
@@ -125,7 +125,7 @@ GET操作返回以下資訊：
    "requestId": 3520,
    "status": "Success"
    }
-   ````
+   ```
 
 * 收錄請求失敗，已收錄0個記錄：
 
@@ -141,7 +141,7 @@ GET操作返回以下資訊：
 
 * 收錄請求失敗，有些記錄在批次下上傳：
 
-   ````
+   ```
    {
    "batchId": "<value>",
    "info": "Mapping Id: <value>. ACP-880096 Sync Job failed to upload. Please check the error in the Platform UI.",
@@ -150,7 +150,7 @@ GET操作返回以下資訊：
    "status": "Failed"
    }
    ```
-   
+
 * 在收錄某些記錄後，收錄請求中止（這可能發生在當機情形中）:
 
    ```

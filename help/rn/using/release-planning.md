@@ -12,7 +12,7 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0c9f465ac3df39fd5df1266c2f993c0b08d3d4fd
+source-git-commit: 412fc89b8d0a075da8b0c458e2265abc5a4d4fbc
 
 ---
 
@@ -43,11 +43,11 @@ Adobe透過新增功能、增強功能和修正不斷改進其解決方案。
  <tbody>
   <tr>
    <td>Stage<br /> </td>
-   <td><s>2020年4月27日至28日延</s> 誤<br /> </td>
+   <td>延遲<br /> </td>
   </tr>
   <tr>
    <td> 製作<br /> </td>
-   <td><s>2020年5月4日至11日延</s> 誤<br /> </td>
+   <td>延遲<br /> </td>
   </tr>
  </tbody>
 </table>

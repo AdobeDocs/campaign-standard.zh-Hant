@@ -1,18 +1,18 @@
 ---
 title: 與 Audience Manager 或 People 核心服務共用閱聽眾
-description: 瞭解如何在不同的Adobe Experience cloud解決方案中匯入或匯出您的觀眾。
-page-status-flag: 從未激活
+description: 瞭解如何在不同的Adobe Experience Cloud解決方案中匯入或匯出您的觀眾。
+page-status-flag: never-activated
 uuid: a3701e72-5846-4241-afee-d713b499a27a
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 整合
-content-type: 參考
-topic-tags: 使用促銷活動與觀眾管理員或人員核心服務
+audience: integrating
+content-type: reference
+topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 discoiquuid: 77af0772-52b5-46bc-a964-675b45965524
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 ---
 
@@ -41,17 +41,17 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 1. 確認建立觀眾。
 
-   然後，觀眾會透過技術工作流程匯入。 它由記錄組成，其中ID（'訪客ID'或'Declared ID'）可與描述檔維度協調。 不會匯入Adobe Campaign未識別之「人員」核心服務區段的ID。
+   然後，觀眾會透過技術工作流程匯入。 它由記錄組成，其中ID（&#39;訪客ID&#39;或&#39;Declared ID&#39;）可與描述檔維度協調。 不會匯入Adobe Campaign未識別之「人員」核心服務區段的ID。
 
-您的觀眾現在已匯入Adobe Campaign資料庫。 從People核心服務或Audience manager直接匯入區段時，匯入程式需要24-36小時才能同步。 在這段期間後，您就可以在Adobe Campaign中尋找並使用您的新觀眾。
+您的觀眾現在已匯入Adobe Campaign資料庫。 從People核心服務或Audience Manager直接匯入區段時，匯入程式需要24-36小時才能同步。 在這段期間後，您就可以在Adobe Campaign中尋找並使用您的新觀眾。
 
 >[!NOTE]
 >
->如果您要將觀眾從Adobe Analytics匯入Adobe Campaign，這些觀眾必須先在People Core Service或Audience manager中共用。 此程式需要12-24小時，這必須新增至與Campaign同步的24-36小時。 在此特定情況下，觀眾分享的時間最長可達60小時。 如需People Core服務和Audience Manager中Adobe Analytics觀眾分享的詳細資訊，請參閱本文 [件](https://marketing.adobe.com/resources/help/en_US/mcloud/t_publish_audience_segment.html)。
+>如果您要將觀眾從Adobe Analytics匯入Adobe Campaign，這些觀眾必須先在People Core Service或Audience Manager中共用。 此程式需要12-24小時，這必須新增至與Campaign同步的24-36小時。 在此特定情況下，觀眾分享的時間最長可達60小時。 如需People Core服務和Audience Manager中Adobe Analytics觀眾分享的詳細資訊，請參閱本文 [件](https://marketing.adobe.com/resources/help/en_US/mcloud/t_publish_audience_segment.html)。
 
 ## 匯出觀眾 {#exporting-an-audience}
 
-觀眾可以使用工作流程和活動從Adobe Campaign匯出至Audience manager或People核心服 **[!UICONTROL Save audience]** 務。
+觀眾可以使用工作流程和活動從Adobe Campaign匯出至Audience Manager或People核心服 **[!UICONTROL Save audience]** 務。
 
 它可在新的工作流程中執行，而且只能由透過IMS（透過Adobe ID驗證）連線的使用者執行。
 
@@ -76,10 +76,10 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 1. 確認活動的設定並儲存您的工作流程。
 1. 啟動您的工作流程以匯出您的觀眾。 Adobe Campaign和People核心服務之間的同步化可能需要數小時
 
-Adobe Campaign和People核心服務之間的同步化需要24-36小時。 在這段期間後，您將可在People核心服務中尋找新的受眾，並在其他Adobe Experience cloud解決方案中重複使用。 如需在Adobe People核心服務中使用Adobe Campaign共用觀眾的詳細資訊，請參閱本文 [件](https://marketing.adobe.com/resources/help/en_US/mcloud/t_audience_create.html)。
+Adobe Campaign和People核心服務之間的同步化需要24-36小時。 在這段期間後，您將可在People核心服務中尋找新的受眾，並在其他Adobe Experience Cloud解決方案中重複使用。 如需在Adobe People核心服務中使用Adobe Campaign共用觀眾的詳細資訊，請參閱本文 [件](https://marketing.adobe.com/resources/help/en_US/mcloud/t_audience_create.html)。
 
 **相關主題：**
 
-* [工作流程](../../automating/using/workflow-data-and-processes.md)
+* [工作流程](../../automating/using/get-started-workflows.md)
 * [觀眾](../../audiences/using/about-audiences.md)
 

@@ -13,7 +13,7 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 5b53f210bc8fc211b1f48f5b6ff8694bcaf41622
+source-git-commit: a73cbdd1af2ce134e10222ab07709639ba419ebe
 
 ---
 
@@ -64,7 +64,7 @@ Adobe Campaign隨附一組預先定義的外部帳戶。 若要設定與外部�
 
 * 伺服器位址。 例如， **ftp.domain.com**。
 * 埠號。 For example, **22**.
-* SFTP伺服器憑證：用來連接至伺服器的帳戶名稱和密碼。
+* SFTP伺服器憑證： 用來連接至伺服器的帳戶名稱和密碼。
 
 ### Adobe代管SFTP伺服器建議 {#adobe-hosted-sftp-server-recommendations}
 
@@ -124,12 +124,12 @@ Amazon S3伺服器欄位應填寫如下：
 
 Adobe Experience Manager外部帳戶用於整合Campaign與Experience Manager。
 
-本檔案提供與此整合相關的程式 [與需求](../../integrating/using/about-campaign-integrations.md)。
+本檔案提供與此整合相關的程式 [與需求](../../integrating/using/get-started-campaign-integrations.md)。
 
 當您設定此新外部帳戶時，您必須提供下列詳細資訊：
 
-* 伺服器：輸入Adobe Experience Manager伺服器的URL。 例如， **http://aem.domain.com:4502**。
-* AEM帳戶認證：使用可存取Adobe Experience Manager例項的帳戶。 它應該是Experience Manager中促銷活動——遠端群組的帳戶部分。
+* 伺服器： 輸入Adobe Experience Manager伺服器的URL。 例如， **http://aem.domain.com:4502**。
+* AEM帳戶認證： 使用可存取Adobe Experience Manager例項的帳戶。 它應該是Experience Manager中促銷活動——遠端群組的帳戶部分。
 
 ## Google reCAPTCHA外部帳戶 {#google-recaptcha-external-account}
 
@@ -144,7 +144,7 @@ Google reCAPTCHA機制可讓您保護著陸頁面，使其免受機器人程式�
 若為Google reCAPTCHA V3外部帳戶，請提供下列詳細資訊：
 
 * A **[!UICONTROL Label]** 和 **[!UICONTROL ID]** 您的外部帳戶
-* **[!UICONTROL Type]**:Google reCAPTCHA
+* **[!UICONTROL Type]**: Google reCAPTCHA
 * 您的 **[!UICONTROL Site key]** 和 **[!UICONTROL Site secret]**
 * A介 **[!UICONTROL Threshold]** 於0和1之間
 
@@ -163,7 +163,7 @@ Azure Blob儲存連接器可用來使用傳輸檔案工作流程活動，將資�
 對於Microsoft Azure Blob儲存外部帳戶，請提供以下詳細資訊：
 
 * A **[!UICONTROL Label]** 和 **[!UICONTROL ID]** 您的外部帳戶
-* **[!UICONTROL Type]**:Microsoft Azure Blob儲存
+* **[!UICONTROL Type]**: Microsoft Azure Blob儲存
 * 您的 **[!UICONTROL Account name]** 和 **[!UICONTROL Account key]**。 若要瞭解在何處尋找您的帳戶名稱和金鑰，請參閱本 [頁](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage)。
 * 您的 **[!UICONTROL Endpoint suffix]**。 您可在Azure入口網站的 **[!UICONTROL Connection string]** 功能表 **[!UICONTROL Access keys]** 中找到它。 For more on this, refer to this [page](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage).
 * 你的 **[!UICONTROL Container]** 名字。 如果您打算使用多個容器，則需要建立與容器一樣多的外部帳戶。

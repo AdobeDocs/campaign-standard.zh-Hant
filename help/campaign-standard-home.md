@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Adobe Campaign Standard 產品文件
 topic: Premium
 translation-type: tm+mt
-source-git-commit: a73cbdd1af2ce134e10222ab07709639ba419ebe
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -63,7 +63,7 @@ source-git-commit: a73cbdd1af2ce134e10222ab07709639ba419ebe
 | 有用的頁面 | 面向開發人員的資源 |
 |---|---|
 | [發行說明](rn/using/release-notes.md) | [Experience Cloud觸發器](integrating/using/about-adobe-experience-cloud-triggers.md) |
-| [控制面板檔案](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/control-panel-home.html) | [促銷活動API](api/using/about-campaign-standard-apis.md) |
+| [控制面板檔案](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/control-panel-home.html) | [促銷活動API](api/using/get-started-apis.md) |
 | [實施指南](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html) | [錯誤消息清單](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [發行計畫](rn/using/release-planning.md) | [促銷活動資料模型](developing/using/datamodel-introduction.md) |
 | [已過時和移除的功能](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) | [多解決方案指南](integrating/using/get-started-campaign-integrations.md) |

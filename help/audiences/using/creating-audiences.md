@@ -1,19 +1,19 @@
 ---
 title: 建立閱聽眾
 description: 瞭解如何在Adobe Campaign中建立觀眾。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: fe99b31b-a949-4832-b0e6-2b36d1c8be80
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
-content-type: 參考
-topic-tags: 管理觀眾
+content-type: reference
+topic-tags: managing-audiences
 discoiquuid: df8bdcfb-be5e-4044-bc26-aa3466accbbe
 context-tags: readAudience,main;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 ---
 
@@ -22,9 +22,9 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ## 建立查詢對象 {#creating-query-audiences}
 
-本節說明如何建立查 **詢對象** 。 您也可以從匯入檔案或在工作流程中鎖定目標來建立 [對象](../../automating/using/discovering-workflows.md)。
+本節說明如何建立查 **詢對象** 。 您也可以從匯入檔案或在工作流程中鎖定目標來建立 [對象](../../automating/using/get-started-workflows.md)。
 
-從對象清單中，您可以對Adobe Campaign設定檔執行查詢或匯入Adobe Experience cloud對象，以建立對象。
+從對象清單中，您可以對Adobe Campaign設定檔執行查詢或匯入Adobe Experience Cloud對象，以建立對象。
 
 1. 透過標籤或卡片前往對 **[!UICONTROL Audiences]** 像清單。
 
@@ -35,7 +35,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
    ![](assets/audiences_query.png)
 
 1. 為您的觀眾命名。 觀眾標籤會用於觀眾清單和查詢工具的浮動視窗中。
-1. 選擇對 **[!UICONTROL Query]** 像類型：在每個進一步的使用中重新計算由查詢定義的對象。
+1. 選擇對 **[!UICONTROL Query]** 像類型： 由查詢定義的觀眾在每次進一步使用時被重新計算。
 
    ![](assets/audience_type_selection.png)
 
@@ -49,7 +49,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ## 建立清單對象 {#creating-list-audiences}
 
-本節說明在工作流程中定 **位後** ，如何建立清單對象。 您也可以將檔案匯入工作流程 [中](../../automating/using/discovering-workflows.md) ，或透過功能表的查詢來建立 **[!UICONTROL Audiences]** 觀眾。
+本節說明在工作流程中定 **位後** ，如何建立清單對象。 您也可以將檔案匯入工作流程 [中](../../automating/using/get-started-workflows.md) ，或透過功能表的查詢來建立 **[!UICONTROL Audiences]** 觀眾。
 
 若要建立 **清單** (List)對象，步驟如下：
 
@@ -73,13 +73,13 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    當定位 **[!UICONTROL Save audience]** 對象與已知維度之後放置時，透過此活動建立的對象為「清 **單** 」對象。
 
-   接著，儲存的觀眾內容便可在觀眾的詳細檢視中取得，而觀眾的詳細檢視可透過觀眾清單存取。 此視圖中可用的列對應於工作流保存活動的入站轉換的列。 例如：匯入的檔案欄、從查詢新增的其他資料。
+   接著，儲存的觀眾內容便可在觀眾的詳細檢視中取得，而觀眾的詳細檢視可透過觀眾清單存取。 此視圖中可用的列對應於工作流保存活動的入站轉換的列。 例如： 匯入的檔案欄、從查詢新增的其他資料。
 
    ![](assets/audiences_list_4.png)
 
 ## 建立檔案對象 {#creating-file-audiences}
 
-本節詳細說明如何將檔案匯 **入工作流程** ，以建立檔案對象。 您也可以從工作流程中的定位活動 [或從功能表](../../automating/using/discovering-workflows.md) ，透過查詢建立 **[!UICONTROL Audiences]** 對象。
+本節詳細說明如何將檔案匯 **入工作流程** ，以建立檔案對象。 您也可以從工作流程中的定位活動 [或從功能表](../../automating/using/get-started-workflows.md) ，透過查詢建立 **[!UICONTROL Audiences]** 對象。
 
 若要建立 **檔案** (File)對象，步驟如下：
 
@@ -95,13 +95,13 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    當匯 **[!UICONTROL Save audience]** 入後置入時，資料維度為未知，透過此活動建立的對象為檔案 **對象** 。
 
-   接著，儲存的觀眾內容便可在觀眾的詳細檢視中取得，而觀眾的詳細檢視可透過觀眾清單存取。 此視圖中可用的列對應於工作流保存活動的入站轉換的列。 例如：讀入檔案的欄、從查詢新增的其他資料。
+   接著，儲存的觀眾內容便可在觀眾的詳細檢視中取得，而觀眾的詳細檢視可透過觀眾清單存取。 此視圖中可用的列對應於工作流保存活動的入站轉換的列。 例如： 讀入檔案的欄、從查詢新增的其他資料。
 
    ![](assets/audience_files_3.png)
 
-## 建立Experience cloud觀眾 {#creating-experience-cloud-audiences}
+## 建立Experience Cloud觀眾 {#creating-experience-cloud-audiences}
 
-Adobe Campaign可讓您與Adobe Experience cloud共用和交換受眾。 Experience cloud類 **型的觀眾會透過技術工作流程，直接從People核心服務匯入****[!UICONTROL Import shared audience]** Adobe Campaign。
+Adobe Campaign可讓您與Adobe Experience Cloud共用和交換受眾。 Experience Cloud類 **型的觀眾會透過技術工作流程，直接從People核心服務匯入****[!UICONTROL Import shared audience]** Adobe Campaign。
 
 與 **Adobe Campaign中查詢個人檔案的** Query類型對象不同， **Experience Cloud** Audience是由訪客ID清單所組成。
 

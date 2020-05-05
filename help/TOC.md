@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard 說明
 translation-type: tm+mt
-source-git-commit: 381803b39527e175efc9a0d0ef8f4a427697db2d
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -389,7 +389,7 @@ source-git-commit: 381803b39527e175efc9a0d0ef8f4a427697db2d
       + [資料保留](administration/using/data-retention.md)
       + [更新和維護作業](administration/using/updates-and-maintenance-operations.md)
 + 使用API {#working-with-apis}
-   + [開始使用Campaign Standard API](api/using/about-campaign-standard-apis.md)
+   + [開始使用Campaign Standard API](api/using/get-started-apis.md)
    + 關於 Campaign Standard API {#about-campaign-standard-apis}
       + [為何使用 Campaign Standard API](api/using/why-using-campaign-standard-apis.md)
       + [設定 API 存取](api/using/setting-up-api-access.md)

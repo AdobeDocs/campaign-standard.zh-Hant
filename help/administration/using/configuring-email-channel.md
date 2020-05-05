@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7af424d2b2ce29811dc0deb015113de2de0124c0
+source-git-commit: faddcc870adcf9e71e50004a69a219b16ddc044f
 
 ---
 
@@ -44,7 +44,7 @@ source-git-commit: 7af424d2b2ce29811dc0deb015113de2de0124c0
    * 傳送者和錯誤位址皆由Adobe設定。 這些欄位不能是空的。
    * 您無法編輯這些欄位。 若要更新地址，請聯絡Adobe客戶服務團隊。
    * 若要新增其他位址，您可以使用 [「控制面板](https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html) 」來設定新的子網域，或聯絡Adobe客戶服務團隊。 請注意，如果使用數個遮色片，則會以逗號分隔。
-   * 使用星號(例如**@yourdomain.com)設定位址是個好做法*: 它可讓您使用以子網域名稱結尾的任何位址。
+   * 使用星號（例如*@yourdomain.com）來設定位址是個很好的作法： 它可讓您使用以子網域名稱結尾的任何位址。
 
 * **可傳遞性**
 
@@ -275,7 +275,7 @@ The number of retries can be changed globally (contact your Adobe technical admi
 
 「批准消息」部分中將詳細 [介紹準備消息](../../sending/using/preparing-the-send.md) 。
 
-* **[!UICONTROL Typology]**: 在傳送之前，必須準備訊息，才能驗證內容和設定。 在準備階段應用的驗證規則以類型學定 **義**。 例如，對於電子郵件，準備包括檢查主題、URL和影像等。 選擇要在此欄位中應用的類型學。
+* **[!UICONTROL Typology]**: 在傳送之前，必須準備訊息，才能驗證內容和設定。 在準備階段期間應用的驗證規則以類型學 **定義**。 例如，對於電子郵件，準備包括檢查主題、URL和影像等。 選擇要在此欄位中應用的類型學。
 
    >[!NOTE]
    >

@@ -12,7 +12,7 @@ discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f0f7441f06b51f9bd2d5a1b3c26f031d4eb1e4c1
+source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: f0f7441f06b51f9bd2d5a1b3c26f031d4eb1e4c1
 事務性消息是由諸如網站的提供商發送給用戶的個人和唯一通信。
 
 * 此類型的訊息尤其值得期待，因為它包含收件者要檢查或確認的資訊。 例如，建立帳戶後，可能是歡迎訊息，或確認訂單已出貨、帳單或確認密碼變更的訊息。
-* 它是定義客戶端關係的重要消息：使用者預期會即時傳送。 因此，觸發的事件和到達的消息之間的延遲必須非常短。
+* 它是定義客戶端關係的重要消息： 使用者預期會即時傳送。 因此，觸發的事件和到達的消息之間的延遲必須非常短。
 * 事務性消息通常具有高開放率。
 
 Adobe Campaign可讓您將這項功能與資訊系統整合，資訊系統會將要轉換為自訂交易訊息的事件傳送給系統。
@@ -54,7 +54,7 @@ Adobe Campaign Standard API也提供交易式訊息。 如需詳細資訊，請�
 
 讓我們舉一個有網站的公司為例，其使用者可在此網站上購買產品。
 
-Adobe Campaign可讓您傳送通知電子郵件給已將產品新增至購物車的網站使用者：當其中一人離開網站而未完成購買時，就會自動傳送購物車放棄電子郵件給他們。
+Adobe Campaign可讓您傳送通知電子郵件給已將產品新增至購物車的網站使用者： 當其中一人離開網站而未完成購買時，就會自動傳送購物車放棄電子郵件給他們。
 
 將其放置到位的步驟如下：
 
@@ -83,9 +83,9 @@ Adobe Campaign可讓您傳送通知電子郵件給已將產品新增至購物車
 在設計和發佈事務性消息時，您需要執行的某些步驟無法還原。 您必須注意下列限制：
 
 * 每個事件設定只能使用一個頻道。 請參 [閱建立事件](../../administration/using/configuring-transactional-messaging.md#creating-an-event)。
-* 事件建立後，便無法變更渠道。 因此，如果訊息未成功傳送，您需要設計機制，允許使用工作流程從其他管道傳送訊息。 See [Workflow data and processes](../../automating/using/workflow-data-and-processes.md).
+* 事件建立後，便無法變更渠道。 因此，如果訊息未成功傳送，您需要設計機制，允許使用工作流程從其他管道傳送訊息。 See [Workflow data and processes](../../automating/using/get-started-workflows.md).
 * 在事件建立後，您無 **[!UICONTROL Real-time event]** 法變 **[!UICONTROL Profile]** 更定位維度（或）。 請參 [閱建立事件](../../administration/using/configuring-transactional-messaging.md#creating-an-event)。
-* 無法回滾發佈，但可以取消發佈事件：此操作使事件和關聯的事務性消息無法訪問。 請參 [閱取消發佈事件](../../administration/using/configuring-transactional-messaging.md#unpublishing-an-event)。
+* 無法回滾發佈，但可以取消發佈事件： 此操作使事件和關聯的事務性消息無法訪問。 請參 [閱取消發佈事件](../../administration/using/configuring-transactional-messaging.md#unpublishing-an-event)。
 * 唯一可與事件關聯的交易訊息是發佈該事件時自動建立的訊息。 請參 [閱預覽和發佈事件](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)。
 
 ### 個人化 {#personalization}

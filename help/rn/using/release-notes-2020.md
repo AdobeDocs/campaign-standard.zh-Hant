@@ -12,14 +12,14 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d0dde3a445c7047d97c3612b284b9bad36f71539
+source-git-commit: f4c6b74d9b80d80befed65d853cf82b32084c49d
 
 ---
 
 
 # 發行說明 2020 年{#release-notes-2020}
 
-[發行計畫](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) |控 [制面板版本](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) |文 [件更新](../../rn/using/documentation-updates.md) |先 [前的發行說明](../../rn/using/release-notes-2019.md) |已過 [時的功能](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+[發行計畫](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) |控 [制面板版本](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) |文 [件更新](../../rn/using/documentation-updates.md) |先前 [的發行說明](../../rn/using/release-notes-2019.md) |已過 [時的功能](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
 ## 版本20.2 - 2020年4月 {#release-20-2---april-2020}
 
@@ -48,7 +48,7 @@ source-git-commit: d0dde3a445c7047d97c3612b284b9bad36f71539
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>除了測試個人檔案外，您現在還可以在真正的目標個人檔案上測試電子郵件。 這可讓您獲得描述檔將會收到的訊息的精確表示：自訂欄位、動態和個人化資訊，包括工作流程的其他資料等。 </p>
+   <td> <p>除了測試個人檔案外，您現在還可以在真正的目標個人檔案上測試電子郵件。 這可讓您獲得描述檔將會收到的訊息的精確表示： 自訂欄位、動態和個人化資訊，包括工作流程的其他資料等。 </p>
     <p>如需詳細資訊，請參閱詳細 <a href="../../sending/using/testing-messages-using-target.md">的檔案</a> ，以及 <a href="https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html">教學影片</a>。 </p>
    </td> 
   </tr> 
@@ -68,7 +68,7 @@ source-git-commit: d0dde3a445c7047d97c3612b284b9bad36f71539
 **電子郵件設計人員增強功能**
 
 * 修正在個人化影像上多次點按時影響逸出的問題。
-* 修正複製動態文字元件時，可能導致重複的黃色行的問題。 (CAMP-41249)
+* 修正複製動態文字元件時，可能導致重複的黃字行的問題。 (CAMP-41249)
 * 修正在表層級（而非div層級）定義填補時，Outlook中填補的問題。
 * 修正在切換至HTML模式時，影像寬度被修改的問題。 (CAMP-41116)
 * 修正當為圖示提供替代文字時，無法存取社交媒體元件的問題。 (CAMP-41345)
@@ -89,7 +89,7 @@ source-git-commit: d0dde3a445c7047d97c3612b284b9bad36f71539
 
 >[!NOTE]
 >
->Campaign Standard中的Adobe Experience Platform功能目前為測試版，可能會經常更新，恕不另行通知。 請參閱詳細說明檔案：Experience Platform Data Connector [，觀眾](../../administration/using/aep-about-data-connector.md)[目標](../../audiences/using/aep-about-audience-destinations-service.md)
+>Campaign Standard中的Adobe Experience Platform功能目前為測試版，可能會經常更新，恕不另行通知。 請參閱詳細說明檔案： [體驗平台資料連接器](../../developing/using/aep-about-data-connector.md)，觀 [眾目標](../../audiences/using/aep-about-audience-destinations-service.md)
 
 * 在工作流程記錄中，每10分鐘，Campaign現在會顯示目前執行中的工作已處理的記錄數。
 * 修正匯入已從資料庫刪除的Adobe Experience Platform設定檔時可能發生的問題。
@@ -136,7 +136,7 @@ source-git-commit: d0dde3a445c7047d97c3612b284b9bad36f71539
  <tbody> 
   <tr> 
    <td> <p>Adobe Experience Platform Data Connector現在已與Adobe Campaign Standard整合。 您可以將XTK資料（在Campaign中收錄的資料）對應至Adobe Experience Platform資料模型(XDM)，讓您的Campaign資料可在Adobe Experience Platform上使用。 </p>
-    <p>請注意，此功能僅適用於Azure上代管的客戶。 如需啟動此功能與條件的詳細資訊，請參閱詳 <a href="../../administration/using/aep-about-data-connector.md">細說明</a><a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">檔案和操作視訊</a>。</p>
+    <p>請注意，此功能僅適用於Azure上代管的客戶。 如需啟動此功能與條件的詳細資訊，請參閱詳 <a href="../../developing/using/aep-about-data-connector.md">細說明</a><a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">檔案和操作視訊</a>。</p>
    </td> 
   </tr> 
  </tbody> 
@@ -159,7 +159,7 @@ source-git-commit: d0dde3a445c7047d97c3612b284b9bad36f71539
 
 **改進**
 
-* 增強的MTA的全球可用性：訊息（包括交易訊息）現在由Adobe Campaign Enhanced MTA傳送，此MTA提供升級的傳送基礎架構，可改善傳送能力、吞吐量和彈回數處理。 [閱讀更多資訊](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
+* 增強的MTA的全球可用性： 訊息（包括交易訊息）現在由Adobe Campaign Enhanced MTA傳送，此MTA提供升級的傳送基礎架構，可改善傳送能力、吞吐量和彈回數處理。 [閱讀更多資訊](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
 
 * 時區管理已增強。 您現在可以為整個 [工作流程定義](../../automating/using/building-a-workflow.md) 特定時區。 所選時區將應用於工作流的所有活動。 為操作員或伺服器配置的時區資訊現在顯示在介面中（在日誌中，在選擇時區後）。 (CAMP-37672)
 

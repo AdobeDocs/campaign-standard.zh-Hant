@@ -13,18 +13,27 @@ context-tags: workflow,wizard;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e04b70012188b455382406df167328f963d577da
+source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 ---
 
 
 # 建立工作流程{#building-a-workflow}
 
-本節詳細說明建立新工作流程的主要原則和最佳實務：
+本節詳細說明建立新工作流程的主要原則和最佳實務。
 
-* 建立工作流程。
-* 新增和連結活動。
-* 設定活動。
+## 工作流程作業原則{#workflow-operating-principles}
+
+工作流是可配 **置活動的序列**。 每個活動在進程中都具有特定角色。 每個活動的結果通過一個轉換（用箭頭表示） **轉發**&#x200B;到以下活動。
+
+在一個活動和另一個活動之間交換的資料類型可能會影響以下活動的配置方式。 例如，如果在電子郵件傳送活動之前建立了人口族群，則可當成相關電子郵件的目標。
+
+您可以在執行工作流之前或之後開啟活動以檢查或編輯參數。
+
+您可以開啟轉場來檢查在執行工作流程期間或之後傳送的資料是否正確。 若要存取轉場的詳細檢視，您必須勾選工作 **[!UICONTROL Keep interim results]** 流程屬性 **[!UICONTROL Execution]** 區段中的選項。
+
+![](assets/workflow_overview.png)
+
 
 ## 建立工作流程 {#creating-a-workflow}
 
@@ -52,7 +61,7 @@ source-git-commit: e04b70012188b455382406df167328f963d577da
 
    您可以新增使用者可在促銷活動內容中看到的說明。
 
-   由於若未以預期方式執行，可讓工作流程更容易找到並疑難排解，Adobe建議您為工作流程指定適當的名稱和標籤：填寫工作流程的說明欄位，匯總要執行的程式，讓運算子輕鬆瞭解。
+   由於若未以預期方式執行，可讓工作流程更容易找到並疑難排解，Adobe建議您為工作流程指定適當的名稱和標籤： 填寫工作流程的說明欄位，匯總要執行的程式，讓運算子輕鬆瞭解。
 
 1. 確認建立活動，然後會顯示該活動的控制面板。 有關詳細資訊，請參閱「工作 [流介面](../../automating/using/workflow-interface.md) 」部分。
 
@@ -104,10 +113,10 @@ source-git-commit: e04b70012188b455382406df167328f963d577da
 
 **工作流程使用案例：**
 
-* [使用案例：建立每週一次的電子郵件傳送](../../automating/using/workflow-weekly-offer.md)
-* [使用案例：建立依位置分段的傳送](../../automating/using/workflow-segmentation-location.md)
-* [使用案例：建立具備輔助功能的傳送](../../automating/using/workflow-created-query-with-complement.md)
-* [使用案例：重新定位傳送新傳送給非開啟者的工作流程](../../automating/using/workflow-cross-channel-retargeting.md)
+* [使用案例： 建立每週一次的電子郵件傳送](../../automating/using/workflow-weekly-offer.md)
+* [使用案例： 建立依位置分段的傳送](../../automating/using/workflow-segmentation-location.md)
+* [使用案例： 建立具備輔助功能的傳送](../../automating/using/workflow-created-query-with-complement.md)
+* [使用案例： 重新定位傳送新傳送給非開啟者的工作流程](../../automating/using/workflow-cross-channel-retargeting.md)
 
 ## 設定活動 {#configuring-activities}
 

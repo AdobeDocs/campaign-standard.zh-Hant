@@ -237,7 +237,7 @@ The number of retries can be changed globally (contact your Adobe technical admi
 
 >[!NOTE]
 >
->參數 **[!UICONTROL Delivery duration]** 不適用於事務性消息。 有關交易式訊息的詳細資訊，請 [參閱本節](../../channels/using/about-transactional-messaging.md)。
+>參數 **[!UICONTROL Delivery duration]** 不適用於事務性消息。 有關交易式訊息的詳細資訊，請參 [閱本節](../../channels/using/about-transactional-messaging.md)。
 
 ### 追蹤參數 {#tracking-parameters}
 
@@ -275,7 +275,7 @@ The number of retries can be changed globally (contact your Adobe technical admi
 
 「批准消息」部分中將詳細 [介紹準備消息](../../sending/using/preparing-the-send.md) 。
 
-* **[!UICONTROL Typology]**: 在傳送之前，必須準備訊息，才能驗證內容和設定。 在準備階段期間應用的驗證規則以類型學 **定義**。 例如，對於電子郵件，準備包括檢查主題、URL和影像等。 選擇要在此欄位中應用的類型學。
+* **[!UICONTROL Typology]**: 在傳送之前，必須準備訊息，才能驗證內容和設定。 在準備階段應用的驗證規則以類型學定 **義**。 例如，對於電子郵件，準備包括檢查主題、URL和影像等。 選擇要在此欄位中應用的類型學。
 
    >[!NOTE]
    >

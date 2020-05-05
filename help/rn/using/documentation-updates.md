@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 62b1f9bb452c229b879f735830b330d0fda5ea3c
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -157,7 +157,7 @@ Deliverability檔案已更新為IP認證的新章節。 [閱讀更多資訊](../
 
 「使用促銷活動」和「Experience Manager」檔案已更新，其中包含如何使用Campaign **-Experience Manager整合的新秘訣**。 [閱讀更多資訊](../../integrating/using/integrating-with-experience-manager.md#tips-aem)
 
-API檔案首頁已經過改良，並重新導向不同的主題。 [閱讀更多資訊](../../api/using/about-campaign-standard-apis.md)
+API檔案首頁已經過改良，並重新導向不同的主題。 [閱讀更多資訊](../../api/using/get-started-apis.md)
 
 ## 檔案更新- 2019年12月 {#doc-updates-december-2019}
 
@@ -179,7 +179,7 @@ Deliverability快速入門手冊已整合至核心檔案並更新。 [閱讀更�
 
 指標 **計算表** 已更新。 [閱讀更多資訊](../../reporting/using/indicator-calculation.md)
 
-API檔案集已整合至Campaign Standard檔案。[閱讀更多資訊](../../api/using/about-campaign-standard-apis.md)
+API檔案集已整合至Campaign Standard檔案。[閱讀更多資訊](../../api/using/get-started-apis.md)
 
 「建立個人化電子郵件快速入門」指南已移動並更新。 [閱讀更多資訊](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
 
@@ -327,7 +327,7 @@ GDPR快速入門手冊已經過改進並充實。 它現在是包含GDPR和CCPA�
 
 在「傳輸檔案」( **Transfer file** )活動的新排序選項中添加了資訊。 [閱讀更多資訊](../../automating/using/transfer-file.md)
 
-已 [更新REST API](../../api/using/about-campaign-standard-apis.md) 檔案：
+已 [更新REST API](../../api/using/get-started-apis.md) 檔案：
 
 * 新增了一個區段，其中包含有關使用Campaign Standard REST API的一般資訊。
 * 已提供預先設計的API要求集合，代表常見使用案例。
@@ -697,7 +697,7 @@ SMS檔案已更新，SMS自動回覆區段已新增 [一些說明](../../channel
 
 透過API專用於工作流程管理的新區段。 [閱讀更多資訊](../../api/using/controlling-a-workflow.md)
 
-新區段專用於主要金鑰，以及使用商業ID做為API中金鑰。 [閱讀更多資訊](../../api/using/about-campaign-standard-apis.md)
+新區段專用於主要金鑰，以及使用商業ID做為API中金鑰。 [閱讀更多資訊](../../api/using/get-started-apis.md)
 
 在API中新增有關簡單和多重篩選的資訊。 [閱讀更多資訊](../../api/using/filtering.md)
 
@@ -849,7 +849,7 @@ REST API中的連結資源——閱 [讀更多](../../developing/using/updating-
 
 觸發器整合： 新增了兩個使用案例。 [閱讀更多資訊](../../integrating/using/abandonment-triggers-use-cases.md)
 
-我們重新設計了開發人員API檔案，提供新資訊和程式碼片段，以改善使用體驗。 [閱讀更多資訊](../../api/using/about-campaign-standard-apis.md)
+我們重新設計了開發人員API檔案，提供新資訊和程式碼片段，以改善使用體驗。 [閱讀更多資訊](../../api/using/get-started-apis.md)
 
 探索新「讀取」觀眾和「 [外部訊號](../../automating/using/read-audience.md) 」工作 [流程活動的範例](../../automating/using/external-signal.md) 。
 
@@ -859,7 +859,7 @@ REST API中的連結資源——閱 [讀更多](../../developing/using/updating-
 
 外部報表的記錄匯出——詳 [細資訊](../../automating/using/exporting-logs.md)
 
-Transactional Messaging API —— 閱讀 [更多資訊](../../api/using/about-campaign-standard-apis.md)
+Transactional Messaging API —— 閱讀 [更多資訊](../../api/using/get-started-apis.md)
 
 交易式訊息的行銷功能——詳 [細內容](../../channels/using/profile-transactional-messages.md)
 

@@ -1,5 +1,5 @@
 ---
-title: 關於 Campaign 整合
+title: 開始使用Campaign整合
 description: Adobe Campaign可讓您使用其他Adobe解決方案，並結合其不同的功能。
 page-status-flag: never-activated
 uuid: 59d7cd99-a6f7-47f1-9b5c-c50e27a2bef8
@@ -7,17 +7,17 @@ contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
-topic-tags: about-campaign-integrations
+topic-tags: get-started-campaign-integrations
 discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 640286c66da3f216cac6264ab6c61652bba209ce
+source-git-commit: a73cbdd1af2ce134e10222ab07709639ba419ebe
 
 ---
 
 
-# 關於 Campaign 整合{#about-campaign-integrations}
+# 關於 Campaign 整合{#get-started-campaign-integrations}
 
 本節詳細說明目前版本的Adobe Campaign與其他解決方案與服務之間的功能整合。
 
@@ -35,7 +35,7 @@ source-git-commit: 640286c66da3f216cac6264ab6c61652bba209ce
 
 >[!NOTE]
 >
->Adobe Campaign Standard也可以連線至Microsoft Dynamics 365:此整合可同步CRM系統中所有可用的連絡資料，讓所有相關的連絡資料都可用於促銷活動。 如需此整合的詳細資訊，請參閱使 [用促銷活動和動態365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)。
+>Adobe Campaign Standard也可以連線至Microsoft Dynamics 365: 此整合可同步CRM系統中所有可用的連絡資料，讓所有相關的連絡資料都可用於促銷活動。 如需此整合的詳細資訊，請參閱使 [用促銷活動和動態365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)。
 
 
 <table> 

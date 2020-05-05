@@ -12,7 +12,7 @@ discoiquuid: aee81724-b425-47b4-af92-e55eff97836f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 40bb454d13de14658bfc30a6454a1a896bf3ad70
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -78,7 +78,7 @@ Adobe Campaign Standard是功能強大的跨通道宣傳管理工具，可協助
 
 **使用您自己的欄位和資源擴充Campaign Standard資料模型** ，並將所有資料模型變更監控為單一檢視。 [開始使用Campaign Standard資料模型](../../developing/using/get-started-data-model.md)
 
-**運用REST API** ，執行各種作業，並將Campaign Standard與您自己的生態系統整合。 [開始使用Campaign Standard REST API](../../api/using/about-campaign-standard-apis.md)
+**運用REST API** ，執行各種作業，並將Campaign Standard與您自己的生態系統整合。 [開始使用Campaign Standard REST API](../../api/using/get-started-apis.md)
 
 **從單一檢視** ，管理Campaign: 監控您的例項，管理使用者的權限。 設定外部伺服器以連線至您的例項，並設定您通訊管道的參數。 [開始使用Campaign Standard管理](../../administration/using/get-started-campaign-administration.md)
 

@@ -12,7 +12,7 @@ discoiquuid: f9bb2235-d388-4025-9ace-734beb0c1961
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
+source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 ---
 
@@ -23,17 +23,17 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 根據使用者偏好的語言和地區傳送訊息，以個人化您的推播通知內容。 您可以直接在內容編輯器中匯入多語言推播通知內容變體，並在單一傳送中傳送多語言推播通知。
 
-此功能可運用收件者描述檔中指定的偏好語言，或是行動應用程式訂閱者的系統語言偏好設定，視推播通知的傳送範本而定。 如果未為特定使用者填入語言偏好設定，系統會使用在建立多語言推播通知時定義的預設變數。 如需如何管理您的設定檔和訂閱者的詳細資訊，請參閱本 [指南](../../audiences/using/about-profiles-and-audiences.md)。
+此功能可運用收件者描述檔中指定的偏好語言，或是行動應用程式訂閱者的系統語言偏好設定，視推播通知的傳送範本而定。 如果未為特定使用者填入語言偏好設定，系統會使用在建立多語言推播通知時定義的預設變數。 如需如何管理您的設定檔和訂閱者的詳細資訊，請參閱本 [指南](../../audiences/using/get-started-profiles-and-audiences.md)。
 
 ![](assets/multivariant_push_1.png)
 
 若要在推播通知傳遞中使用多語言內容變體，請遵循下列步驟：
 
-* [步驟1:上傳多語言內容變體](#step-1--upload-multilingual-content-variant)
-* [步驟2:使用多語言內容變體預覽並完成推播通知](#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants)
-* [步驟3:傳送及分析多語言推播通知傳送](#step-3--send-and-analyze-multilingual-push-notification-delivery)
+* [步驟1: 上傳多語言內容變體](#step-1--upload-multilingual-content-variant)
+* [步驟2: 使用多語言內容變體預覽並完成推播通知](#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants)
+* [步驟3: 傳送及分析多語言推播通知傳送](#step-3--send-and-analyze-multilingual-push-notification-delivery)
 
-## 步驟1:上傳多語言內容變體 {#step-1--upload-multilingual-content-variant}
+## 步驟1: 上傳多語言內容變體 {#step-1--upload-multilingual-content-variant}
 
 在個人化您的多語言推播通知之前，我們首先需要將內容變體上傳至多語言傳送範本，並建立傳送。
 
@@ -52,7 +52,7 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 1. 在視窗 **[!UICONTROL Audiences]** 中，拖放查詢以微調您的觀眾。
 
-   添加的查詢取決於所選模板：如果您選擇范 **[!UICONTROL Send multilingual push to Campaign profiles]** 本，則可以查詢行動應用程式的已知收件者。 而如果您選擇范 **[!UICONTROL Send multilingual push to app subscriber]** 本，則可以查詢已選擇加入之特定應用程式的所有訂閱者。
+   添加的查詢取決於所選模板： 如果您選擇范 **[!UICONTROL Send multilingual push to Campaign profiles]** 本，則可以查詢行動應用程式的已知收件者。 而如果您選擇范 **[!UICONTROL Send multilingual push to app subscriber]** 本，則可以查詢已選擇加入之特定應用程式的所有訂閱者。
    >[!NOTE]
    >
    >如果您以特定語言為目標對象，則需要在CSV檔案中列出每個目標語言。
@@ -69,7 +69,7 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
    ![](assets/multivariant_push_5.png)
 
-1. 此標 **[!UICONTROL Variant selection]** 簽將提供指令碼，以根據傳送範本來決定要考慮哪些語言偏好設定。 這是現成可用的指令碼，不需要您進行任何變更。
+1. 此標 **[!UICONTROL Variant selection]** 簽將提供指令碼，以決定要根據傳送範本來考慮的語言偏好設定。 這是現成可用的指令碼，不需要您進行任何變更。
 1. 如果您想要新增更多未出現在匯入檔案中的變數，可以按一下按鈕並視需要新增 **[!UICONTROL Add an element]** 多種新的語言變數。
 
    新增從檔案上傳的變數以外的變數，將不會將任何內容連結至此語言。 您必須直接在傳送控制面板中編輯內容。
@@ -82,7 +82,7 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 您現在可以開始個人化多語言推播通知。
 
-## 步驟2:使用多語言內容變體預覽並完成推播通知 {#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants}
+## 步驟2: 使用多語言內容變體預覽並完成推播通知 {#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants}
 
 上傳包含內容變體的檔案後，您現在可以預覽推播通知傳送的不同變體。
 
@@ -110,7 +110,7 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 您的多語言推播通知傳送現在已準備好可傳送。
 
-## 步驟3:傳送及分析多語言推播通知傳送 {#step-3--send-and-analyze-multilingual-push-notification-delivery}
+## 步驟3: 傳送及分析多語言推播通知傳送 {#step-3--send-and-analyze-multilingual-push-notification-delivery}
 
 您的多語言內容變體推播通知現在已準備好傳送給您的使用者。
 

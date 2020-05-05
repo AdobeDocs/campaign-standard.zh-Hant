@@ -13,7 +13,7 @@ context-tags: cusResource,overview;eventCusResource,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -97,7 +97,7 @@ Adobe Campaign資源有三個識別碼，而且可以新增其他識別碼。
 
 | 顯示名稱 | 技術名稱 | 說明 | 最佳作法 |
 |--- |--- |--- |--- |
-|  | PKey | <ul><li>PKey是Adobe Campaign表的實體主鍵。</li><li>此識別碼通常對特定Adobe Campaign例項唯一。</li><li>在Adobe Campaign Standard中，一般使用者看不到此值（URL除外）。</li></ul> | <ul><li>通過 [API系統](../../api/using/about-campaign-standard-apis.md)，可以檢索PKey值（該值是生成／散列值，而不是物理密鑰）。</li><li>建議不要將它用於任何其他目的，而不是透過API擷取、更新或刪除記錄。</li></ul> |
+|  | PKey | <ul><li>PKey是Adobe Campaign表的實體主鍵。</li><li>此識別碼通常對特定Adobe Campaign例項唯一。</li><li>在Adobe Campaign Standard中，一般使用者看不到此值（URL除外）。</li></ul> | <ul><li>通過 [API系統](../../api/using/get-started-apis.md)，可以檢索PKey值（該值是生成／散列值，而不是物理密鑰）。</li><li>建議不要將它用於任何其他目的，而不是透過API擷取、更新或刪除記錄。</li></ul> |
 | ID | name或internalName | <ul><li>此資訊是表中記錄的唯一標識符。 此值可以手動更新。</li><li>此識別碼會在部署至不同的Adobe Campaign例項時保留其值。 它的名稱必須與生成的值不同，才能通過包導出。</li><li>這不是表的實際主鍵。</li></ul> | <ul><li>請勿使用特殊字元，例如空格&quot;&quot;、半欄&quot;:&quot;或連字型大小&quot;-&quot;。</li><li>所有這些字元都會以底線&quot;_&quot;（允許的字元）取代。 例如，&quot;abc-def&quot;和&quot;abc:def&quot;會儲存為&quot;abc_def&quot;，並互相覆寫。</li></ul> |
 | 標籤 | 標籤 | <ul><li>標籤是Adobe Campaign中物件或記錄的商業識別碼。</li><li>此對象允許空格和特殊字元。</li><li>它不保證記錄的獨特性。</li></ul> | <ul><li>建議您決定物件標籤的結構。</li><li>這是最易用的解決方案，可為Adobe Campaign使用者識別記錄或物件。</li></ul> |
 | ACS ID | acsId | <ul><li>可產生其他識別碼： [ACS ID](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)。</li><li>由於PKey不能用於Adobe Campaign使用者介面，因此此解決方案可讓您取得插入描述檔記錄時產生的唯一值。</li><li>只有在將記錄插入Adobe Campaign之前，在資源中啟用該選項時，才能自動產生值。</li></ul> | <ul><li>此UUID可用作協調鍵。</li><li>自動生成的ACS ID不能用作工作流或包定義中的引用。</li><li>此值是Adobe Campaign例項專屬的。</li></ul> |
@@ -139,7 +139,7 @@ When you are performing an initial import with very high volumes of data insert 
 
 * 雖然可以在工作流程中加入任何表格，但Adobe建議直接在資料結構定義中定義資源之間的共同連結。
 * 連結的定義應與表格中的實際資料一致。 錯誤的定義可能會影響透過連結擷取的資料，例如意外重複記錄。
-* 以資源名稱一致命名連結：連結名稱應有助於瞭解遠程表是什麼。
+* 以資源名稱一致命名連結： 連結名稱應有助於瞭解遠程表是什麼。
 * 請勿將連結命名為「id」為尾碼。 例如，將其命名為&quot;transaction&quot;，而非&quot;transactionId&quot;。
 
 <!--For more on defining links with other resources, see [this section](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources).-->
@@ -170,6 +170,6 @@ When you are performing an initial import with very high volumes of data insert 
 以下是使用大型表和複雜連接設計資料模型時應遵循的一些最佳實踐。
 
 * 減少欄數，尤其是識別未使用的欄數。
-* 通過避免複雜的連接（如多個條件和／或多個列上的連接）來優化資料模型關係。
+* 通過避免複雜的連接（如多個條件上的連接和／或多個列上的連接）優化資料模型關係。
 * 對於連接鍵，請始終使用數字資料，而不是字串。
 * 盡可能減少日誌保留深度。 如果您需要更深入的歷史記錄，您可以匯整計算和／或處理自訂的日誌表，以儲存較大的歷史記錄。

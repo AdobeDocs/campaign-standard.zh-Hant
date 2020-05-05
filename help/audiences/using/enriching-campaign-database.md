@@ -12,7 +12,7 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d62c8cdac83789cfdffb7fd5e0d6c086e81300b1
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -66,7 +66,7 @@ Campaign Standard與Microsoft Dynamics 365的整合可讓您將Microsoft Dynamic
 
 Campaign Standard API可讓您執行更新資料庫的作業，例如設定檔或服務的建立、更新或刪除。
 
-如需如何使用API的詳細資訊，請參閱專用 [檔案](../../api/using/about-campaign-standard-apis.md)。
+如需如何使用API的詳細資訊，請參閱專用 [檔案](../../api/using/get-started-apis.md)。
 
 >[!CAUTION]
 >

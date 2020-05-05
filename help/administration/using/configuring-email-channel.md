@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
+source-git-commit: 7af424d2b2ce29811dc0deb015113de2de0124c0
 
 ---
 
@@ -38,13 +38,18 @@ source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
 
 ![](assets/channels_1.png)
 
-* **已傳送電子郵件的標題參數**
+* **授權遮色片欄位**
 
-   在本節中，您可以指定 **[!UICONTROL masks]** 發件人地址和錯誤地址的授權。 如果使用數個遮色片，則必須以逗號分隔。 填入這些欄位後，Adobe Campaign會檢查輸入的位址在訊息準備階段是否有效。 此操作模式可確保不使用任何可能觸發傳遞性問題的地址。 傳送者和錯誤位址皆由Adobe設定。 您必須聯絡Adobe客戶服務團隊，以進行更新。
+   列出 **[!UICONTROL Header parameters of sent emails]** 可用來傳送電子郵件給收件者（寄件者位址）並通知其任何錯誤（錯誤位址）的授權電子郵件地址。  Adobe Campaign會檢查輸入的地址在訊息準備階段是否有效。 此操作模式可確保不使用任何可能觸發傳遞性問題的地址。
+   * 傳送者和錯誤位址皆由Adobe設定。 這些欄位不能是空的。
+   * 您無法編輯這些欄位。 若要更新地址，請聯絡Adobe客戶服務團隊。
+   * 若要新增其他位址，您可以使用 [「控制面板](https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html) 」來設定新的子網域，或聯絡Adobe客戶服務團隊。 請注意，如果使用數個遮色片，則會以逗號分隔。
+   * 使用星號(例如**@yourdomain.com)設定位址是個好做法*: 它可讓您使用以子網域名稱結尾的任何位址。
 
 * **可傳遞性**
 
-   此ID由Adobe客戶服務團隊提供。 傳送能力報表必須正確運作。
+   由 **[!UICONTROL Delivery reports ID]** Adobe客戶服務團隊提供。 它使用技術傳遞能力報告中使用的傳遞能力ID來識別每個實例。
+   <!--The Technical Deliverability report is not accessible through the UI in ACS. It will be replaced with 250ok in the future (project starting).-->
 
 * **傳送參數**
 
@@ -70,7 +75,8 @@ source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
 
    在欄位 **[!UICONTROL Time between two significant errors]** 中輸入值，以定義應用程式在發生故障時，在增加錯誤計數器之前等待的時間。 預設值為 **&quot;1d&quot;**,1天。
 
-   到達值 **[!UICONTROL Maximum number of errors before quarantine]** 後，會隔離電子郵件地址。 預設值為 **&quot;5&quot;**:第五個錯誤時，地址將被隔離。 這表示該連絡人將自動排除在後續傳送之外。
+   到達值 **[!UICONTROL Maximum number of errors before quarantine]** 後，會隔離電子郵件地址。 預設值為 **&quot;5&quot;**: 第五個錯誤時，地址將被隔離。 這表示該連絡人將自動排除在後續傳送之外。
+   <!--Actually the way ACS works is that the address is already on the quarantine list on the first bounce, but with a different status meaning that the error count has started.-->
 
    有關隔離的詳細資訊，請參 [閱瞭解隔離管理](../../sending/using/understanding-quarantine-management.md)。
 
@@ -172,14 +178,14 @@ The number of retries can be changed globally (contact your Adobe technical admi
 
 您可以設定要傳送的電子郵件格式。 有三種可用選項：
 
-* **使用收件者偏好設定** （預設模式）:消息格式根據儲存在收件人配置檔案中的資料定義，並預設儲存在 **Email format** 欄位(@emailFormat)中。 如果收件者希望以特定格式接收訊息，則此格式為傳送的格式。 如果欄位未完成，則會傳送多部分替代訊息（請參閱下面）。
-* **讓收件者郵件用戶端選擇最適合的格式（多部分替代）**:消息包含兩種格式：文字和HTML。 接收時顯示的格式取決於收件人的郵件軟體（多部分替代）的配置。
+* **使用收件者偏好設定** （預設模式）: 消息格式根據儲存在收件人配置檔案中的資料定義，並預設儲存在 **Email format** 欄位(@emailFormat)中。 如果收件者希望以特定格式接收訊息，則此格式為傳送的格式。 如果欄位未完成，則會傳送多部分替代訊息（請參閱下面）。
+* **讓收件者郵件用戶端選擇最適合的格式（多部分替代）**: 消息包含兩種格式： 文字和HTML。 接收時顯示的格式取決於收件人的郵件軟體（多部分替代）的配置。
 
    >[!IMPORTANT]
    >
    >此選項包含兩個版本的訊息。 因此，它會影響傳送吞吐量，因為消息大小較大。
 
-* **以文字格式傳送所有訊息**:訊息會以文字格式傳送。 HTML格式不會傳送，但僅當收件者按一下訊息中的連結時，才會用於鏡像頁面。
+* **以文字格式傳送所有訊息**: 訊息會以文字格式傳送。 HTML格式不會傳送，但僅當收件者按一下訊息中的連結時，才會用於鏡像頁面。
 
 #### SMTP測試模式 {#smtp-test-mode}
 
@@ -205,41 +211,41 @@ The number of retries can be changed globally (contact your Adobe technical admi
 
 ![](assets/delivery-validity-period.png)
 
-* **[!UICONTROL Explicitly set validity dates]**:取消選中此框後，您必須在和欄位中輸入 **[!UICONTROL Delivery duration]** 持續時間 **[!UICONTROL Resource validity limit]** 。
+* **[!UICONTROL Explicitly set validity dates]**: 取消選中此框後，您必須在和欄位中輸入 **[!UICONTROL Delivery duration]** 持續時間 **[!UICONTROL Resource validity limit]** 。
 
    如果您想要定義特定的時間和日期，請勾選此方塊。
 
    ![](assets/delivery-set-explicit-dates.png)
 
-* **[!UICONTROL Delivery duration]** / **[!UICONTROL Validity limit for sending messages]**:Adobe Campaign會從開始日期開始傳送訊息。 此欄位允許您指定消息的發送期間。
+* **[!UICONTROL Delivery duration]** / **[!UICONTROL Validity limit for sending messages]**: Adobe Campaign會從開始日期開始傳送訊息。 此欄位允許您指定消息的發送期間。
 
    >[!IMPORTANT]
    >
    >此參數現在由Adobe Campaign Enhanced MTA管理。 **您必須定義最多3.5天的值。** 如果您定義的值高於3.5天，則不會考慮該值。
 
-* **[!UICONTROL Resource validity duration]** / **[!UICONTROL Validity limit date for resources]**:此欄位用於上傳的資源，主要用於鏡像頁面和影像。 本頁上的資源在限定時間內有效（以節省磁碟空間）。
-* **[!UICONTROL Mirror page management]**:鏡像頁是可通過Web瀏覽器線上上訪問的HTML頁。 其內容與電子郵件內容相同。 預設情況下，如果連結插入郵件內容中，將生成鏡像頁。 此欄位可讓您修改產生此頁面的方式：
+* **[!UICONTROL Resource validity duration]** / **[!UICONTROL Validity limit date for resources]**: 此欄位用於上傳的資源，主要用於鏡像頁面和影像。 本頁上的資源在限定時間內有效（以節省磁碟空間）。
+* **[!UICONTROL Mirror page management]**: 鏡像頁是可通過Web瀏覽器線上上訪問的HTML頁。 其內容與電子郵件內容相同。 預設情況下，如果連結插入郵件內容中，將生成鏡像頁。 此欄位可讓您修改產生此頁面的方式：
 
    >[!IMPORTANT]
    >
    >必須已為要建立鏡像頁面的電子郵件定義HTML內容。
 
-   * **[!UICONTROL Generate the mirror page if a mirror link appears in the email content]** （預設模式）:如果連結插入郵件內容，則生成鏡像頁。
-   * **強制生成鏡像頁**:即使消息中未插入到鏡像頁的連結，也會建立鏡像頁。
-   * **不生成鏡像頁**:不會產生任何鏡像頁面，即使連結位於訊息中亦然。
-   * **生成僅使用消息ID可訪問的鏡像頁**:此選項可讓您在傳送記錄視窗中存取包含個人化資訊的鏡像頁面內容。
+   * **[!UICONTROL Generate the mirror page if a mirror link appears in the email content]** （預設模式）: 如果連結插入郵件內容，則生成鏡像頁。
+   * **強制生成鏡像頁**: 即使消息中未插入到鏡像頁的連結，也會建立鏡像頁。
+   * **不生成鏡像頁**: 不會產生任何鏡像頁面，即使連結位於訊息中亦然。
+   * **生成僅使用消息ID可訪問的鏡像頁**: 此選項可讓您在傳送記錄視窗中存取包含個人化資訊的鏡像頁面內容。
 
 >[!NOTE]
 >
->參數 **[!UICONTROL Delivery duration]** 不適用於事務性消息。 有關交易式訊息的詳細資訊，請參 [閱本節](../../channels/using/about-transactional-messaging.md)。
+>參數 **[!UICONTROL Delivery duration]** 不適用於事務性消息。 有關交易式訊息的詳細資訊，請 [參閱本節](../../channels/using/about-transactional-messaging.md)。
 
 ### 追蹤參數 {#tracking-parameters}
 
 該 **[!UICONTROL Tracking]** 部分包含以下參數：
 
-* **[!UICONTROL Activate tracking]**:可讓您啟用／停用訊息URL追蹤。 若要管理每個訊息URL的追蹤，請使用「電子郵 **[!UICONTROL Links]** 件設計器」動作列中的圖示。 請參 [閱關於追蹤的URL](../../designing/using/links.md#about-tracked-urls)。
-* **[!UICONTROL Tracking validity limit]**:可讓您定義在URL上啟動追蹤的持續時間。
-* **[!UICONTROL Substitution URL for expired URLs]**:您可以輸入URL至追蹤過期後將顯示的網頁。
+* **[!UICONTROL Activate tracking]**: 可讓您啟用／停用訊息URL追蹤。 若要管理每個訊息URL的追蹤，請使用「電子郵 **[!UICONTROL Links]** 件設計器」動作列中的圖示。 請參 [閱關於追蹤的URL](../../designing/using/links.md#about-tracked-urls)。
+* **[!UICONTROL Tracking validity limit]**: 可讓您定義在URL上啟動追蹤的持續時間。
+* **[!UICONTROL Substitution URL for expired URLs]**: 您可以輸入URL至追蹤過期後將顯示的網頁。
 
 ### 高級參數 {#advanced-parameters}
 
@@ -269,17 +275,17 @@ The number of retries can be changed globally (contact your Adobe technical admi
 
 「批准消息」部分中將詳細 [介紹準備消息](../../sending/using/preparing-the-send.md) 。
 
-* **[!UICONTROL Typology]**:在傳送之前，必須準備訊息，才能驗證內容和設定。 在準備階段應用的驗證規則以類型學定 **義**。 例如，對於電子郵件，準備包括檢查主題、URL和影像等。 選擇要在此欄位中應用的類型學。
+* **[!UICONTROL Typology]**: 在傳送之前，必須準備訊息，才能驗證內容和設定。 在準備階段期間應用的驗證規則以類型學 **定義**。 例如，對於電子郵件，準備包括檢查主題、URL和影像等。 選擇要在此欄位中應用的類型學。
 
    >[!NOTE]
    >
    >本節會顯示可透過> **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** 選單存取的 [類型](../../sending/using/about-typology-rules.md)。
 
-* **[!UICONTROL Compute the label during delivery preparation]**:可讓您使用個人化欄位、內容區塊和動態文字，在訊息準備階段計算電子郵件的標籤值。
+* **[!UICONTROL Compute the label during delivery preparation]**: 可讓您使用個人化欄位、內容區塊和動態文字，在訊息準備階段計算電子郵件的標籤值。
 
    您也可以使用已宣告至工作流程外部訊號活動的事件變數來個人化傳送標籤。 如需詳細資訊，請參閱[本小節](../../automating/using/calling-a-workflow-with-external-parameters.md)。
 
-* **[!UICONTROL Save SQL queries in the log]**:此選項允許您在準備階段期間在日誌中添加SQL查詢日誌。
+* **[!UICONTROL Save SQL queries in the log]**: 此選項允許您在準備階段期間在日誌中添加SQL查詢日誌。
 
 #### 校對設定 {#proof-settings}
 
@@ -289,13 +295,13 @@ The number of retries can be changed globally (contact your Adobe technical admi
 
 該 **[!UICONTROL SMTP]** 部分包含以下參數：
 
-* **[!UICONTROL Character encoding]**:如果 **[!UICONTROL Force encoding]** 要強制進行消息編碼，請選中該框，然後選擇要使用的編碼。
-* **[!UICONTROL Bounce mails]**:根據預設，彈回郵件會在平台的錯誤收件匣(定義於 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email]** >畫面)中收到 **[!UICONTROL Configuration]** 。 要定義電子郵件的特定錯誤地址，請在欄位中輸入該 **[!UICONTROL Error address]** 地址。
-* **[!UICONTROL Additional SMTP headers]**:此選項允許在消息中添加其他SMTP標頭。 在欄位中輸入的 **[!UICONTROL Headers]** 指令碼必須參照每行一個標題，其形式 **為name:value**。 如有必要，值會自動編碼。
+* **[!UICONTROL Character encoding]**: 如果 **[!UICONTROL Force encoding]** 要強制進行消息編碼，請選中該框，然後選擇要使用的編碼。
+* **[!UICONTROL Bounce mails]**: 根據預設，彈回郵件會在平台的錯誤收件匣(定義於 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email]** >畫面)中收到 **[!UICONTROL Configuration]** 。 要定義電子郵件的特定錯誤地址，請在欄位中輸入該 **[!UICONTROL Error address]** 地址。
+* **[!UICONTROL Additional SMTP headers]**: 此選項允許在消息中添加其他SMTP標頭。 在欄位中輸入的 **[!UICONTROL Headers]** 指令碼必須參照每行一個標題，其形式 **為name:value**。 如有必要，值會自動編碼。
 
    >[!IMPORTANT]
    >
-   >為高級用戶保留添加用於插入其他SMTP標頭的指令碼。 此指令碼的語法必須符合以下內容類型的要求：沒有未使用的空間，沒有空行等。
+   >為高級用戶保留添加用於插入其他SMTP標頭的指令碼。 此指令碼的語法必須符合以下內容類型的要求： 沒有未使用的空間，沒有空行等。
 
 ### 訪問授權參數清單 {#list-of-access-authorization-parameters}
 

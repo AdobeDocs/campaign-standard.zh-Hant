@@ -2,7 +2,7 @@
 title: 使用複合識別鍵呼叫資源
 description: 瞭解如何使用複合識別碼呼叫資源
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -23,9 +23,9 @@ source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 * [建立或擴充資源](../../developing/using/creating-or-extending-the-resource.md)
 * [定義標識鍵](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
-* [Campaign Standard REST API](../../api/using/about-campaign-standard-apis.md)
+* [Campaign Standard REST API](../../api/using/get-started-apis.md)
 
-## 步驟1:配置標識密鑰{#step-1-configure-the-identification-key}
+## 步驟1: 配置標識密鑰{#step-1-configure-the-identification-key}
 
 >[!NOTE]
 > 配置標識密鑰時的全局概念將在本節 [中詳細說明](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)。
@@ -49,7 +49,7 @@ source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 1. 您現在可以設定篩選定義，以便能夠使用其識別碼呼叫資源。
 
-## 步驟2:設定篩選定義{#step-2-configure-the-filter-definition}
+## 步驟2: 設定篩選定義{#step-2-configure-the-filter-definition}
 
 >[!NOTE]
 > 配置篩選器定義時的全域概念將在本節 [中詳細說明](../../developing/using/configuring-filter-definition.md)。
@@ -81,11 +81,11 @@ source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 1. 現在已設定篩選定義。 您可以發佈資源，以便篩選器可用。
 
-## 步驟3:根據資源的標識密鑰調用資源{#step-3-call-the-resource-based-on-its-identification-key}
+## 步驟3: 根據資源的標識密鑰調用資源{#step-3-call-the-resource-based-on-its-identification-key}
 
 一旦設定識別金鑰及其篩選定義後，您就可使用它們來呼叫資源，不論是從Campaign標準介面或REST API。
 
-若要使用介面中的篩選定義，請在工 **[!UICONTROL Query]** 作流程中使用活動(請 [參閱本節](../../automating/using/query.md))。 然後，篩選器便可在左窗格中使用。
+若要使用介面中的篩選定義，請在工作 **[!UICONTROL Query]** 流程中使用活動(請參 [閱本節](../../automating/using/query.md))。 然後，篩選器便可在左窗格中使用。
 
 ![](assets/uc_idkey9.png)
 
@@ -96,9 +96,9 @@ GET /profileAndServicesExt/<resourceName>/by<filterName>?<param1_parameter>=<val
 ```
 
 >[!NOTE]
->若要呼叫客戶篩選，請在步驟2中設定篩選定義時，使用"by"前置詞，後面接著定義的篩選 [器名稱](../../developing/using/uc-calling-resource-id-key.md#step-2-configure-the-filter-definition)。
+>若要呼叫客戶篩選，請在步驟2中設定篩選定義時，使用&quot;by&quot;前置詞，後面接著定義的篩選 [器名稱](../../developing/using/uc-calling-resource-id-key.md#step-2-configure-the-filter-definition)。
 
-在本例中，從"spring"類別擷取具有"123456" CRM ID的描述檔的語法為：
+在本例中，從&quot;spring&quot;類別擷取具有&quot;123456&quot; CRM ID的描述檔的語法為：
 
 ```
 GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byidentification_key?category_parameter=spring&crm_id_parameter=123456

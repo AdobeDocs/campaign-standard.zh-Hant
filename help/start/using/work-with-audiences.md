@@ -12,7 +12,7 @@ discoiquuid: 4ba4f766-fdee-4ff0-8fe4-0612ed2b69a4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 49d76d7a1c0e12369ab1c533adca9f3da19946a8
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -100,7 +100,7 @@ Campaign Standard與Microsoft Dynamics 365的整合可讓您將Microsoft Dynamic
 
 ### 透過API呼叫匯入資料
 
-Campaign Standard API可讓您執行更新資料庫的作業，例如設定檔或服務的建立、更新或刪除。 如需如何使用API的詳細資訊，請參閱專用 [檔案](../../api/using/about-campaign-standard-apis.md)。
+Campaign Standard API可讓您執行更新資料庫的作業，例如設定檔或服務的建立、更新或刪除。 如需如何使用API的詳細資訊，請參閱專用 [檔案](../../api/using/get-started-apis.md)。
 
 >[!CAUTION]
 >

@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Adobe Campaign Standard 產品文件
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
+source-git-commit: a73cbdd1af2ce134e10222ab07709639ba419ebe
 
 ---
 
@@ -34,7 +34,8 @@ source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
     <div>
     <a href="administration/using/about-access-management.md"><strong>角色與安全群組</strong></a>
     </div>
-    <em>瞭解如何定義權限並指派角色給Campaign使用者</em><br>
+    <em>瞭解如何定義權限並指派角色給Campaign使用者</em>
+    <br>
   </td>
   <td valign="top">
     <a href="designing/using/designing-content-in-adobe-campaign.md">
@@ -49,7 +50,7 @@ source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
   <td valign="top">
        <img alt="支援" src="start/using/assets/do-not-localize/help.jpeg" />
     <div><a href="https://helpx.adobe.com/campaign/kb/ac-support.html">
-    取 <strong>得支援</strong></a>
+    <strong>取得支援</strong></a>
     </div>
     <p><em>存取常見問答集、最佳實務、說明資源，並與專家連絡</em></p>
     <br>
@@ -65,5 +66,5 @@ source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 | [控制面板檔案](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/control-panel-home.html) | [促銷活動API](api/using/about-campaign-standard-apis.md) |
 | [實施指南](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html) | [錯誤消息清單](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [發行計畫](rn/using/release-planning.md) | [促銷活動資料模型](developing/using/datamodel-introduction.md) |
-| [已過時和移除的功能](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) | [多解決方案指南](integrating/using/about-campaign-integrations.md) |
-| [開始使用Campaign Standard](start/using/campaign-orchestration.md) | [技術說明](https://helpx.adobe.com/campaign/kb/acs-article-list.html) |
+| [已過時和移除的功能](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) | [多解決方案指南](integrating/using/get-started-campaign-integrations.md) |
+| [開始使用Campaign Standard](start/using/about-campaign-standard.md) | [技術說明](https://helpx.adobe.com/campaign/kb/acs-article-list.html) |

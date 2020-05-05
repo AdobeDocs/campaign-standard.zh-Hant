@@ -1,5 +1,5 @@
 ---
-title: 關於 Campaign Standard API
+title: 開始使用Campaign Standard API
 description: 進一步瞭解Campaing Standard API。
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
@@ -12,59 +12,29 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 27ca2116c49f9c23a56c178a3e3f7baf2f755c45
+source-git-commit: 181f7114bd7b9d633de44687320f0c897e146862
 
 ---
 
 
-# 關於 Campaign Standard API {#about-campaign-standard-apis}
+# 開始使用Campaign Standard API {#get-started-apis}
 
 Campaign Standard API的目的是讓您 **建立Adobe Campaign** Standard的整合，並將Adobe Campaign Standard與您使用的技術面板結合，以建立 **您自己的生態系統** 。
 
 透過Adobe Campaign Standard API，您可以存取下列功能：
 
-<table>
-<tr>
-    <td valign="top">
-        <a href="../../api/using/retrieving-profiles.md"><img width="60px" alt="條件" src="assets/icon_profile.svg"/></a>
-    </td>
-    <td valign="top">
-        <a href="../../api/using/creating-a-service.md"><img width="60px" alt="條件" src="assets/icon_services.svg"/></a>
-    </td>
-    <td valign="top">
-        <a href="../../api/using/interacting-with-custom-resources.md"><img width="60px" alt="條件" src="assets/icon_customresources.svg"/></a>
-    </td>
-    <td valign="top">
-        <a href="../../api/using/interacting-with-marketing-history.md"><img width="60px" alt="條件" src="assets/icon_marketinghistory.svg"/></a>
-    </td>
+<table><tr>
+ <td valign="top"><a href="../../api/using/retrieving-profiles.md"><img width="60px" alt="條件" src="assets/icon_profile.svg"/></a><p><a href="../../api/using/retrieving-profiles.md">設定檔</a></p></td>
+<td valign="top"><a href="../../api/using/creating-a-service.md"><img width="60px" alt="條件" src="assets/icon_services.svg"/></a><p><a href="../../api/using/creating-a-service.md">服務與訂閱</a></p></td>
+<td valign="top"><a href="../../api/using/interacting-with-custom-resources.md"><img width="60px" alt="條件" src="assets/icon_customresources.svg"/></a><p><a href="../../api/using/interacting-with-custom-resources.md">自訂資源</a></p></td>
+<td valign="top"><a href="../../api/using/interacting-with-marketing-history.md"><img width="60px" alt="條件" src="assets/icon_marketinghistory.svg"/></a><p><a href="../../api/using/interacting-with-marketing-history.md">行銷歷史</a></p></td>
 </tr>
 <tr>
-<td>設定檔</td>
-<td>服務與訂閱</td>
-<td>自訂資源</td>
-<td>行銷歷史</td>
-</tr>
-<tr>
-    <td valign="top">
-        <a href="../../api/using/creating-a-privacy-request.md"><img width="60px" alt="條件" src="assets/icon_privacy.svg"/></a>
-    </td>
-    <td valign="top">
-        <a href="../../api/using/managing-transactional-messages.md"><img width="60px" alt="條件" src="assets/icon_transactionalmessage.svg"/></a>
-    </td>
-    <td valign="top">
-        <a href="../../api/using/controlling-a-workflow.md"><img width="60px" alt="條件" src="assets/icon_workflows.svg"/></a>
-    </td>
-    <td valign="top">
-        <a href="../../api/using/retrieving-an-organizational-unit.md"><img width="60px" alt="條件" src="assets/icon_units.svg"/></a>
-    </td>
-</tr>
-<tr>
-<td>隱私權管理</td>
-<td>交易式訊息</td>
-<td>工作流程</td>
-<td>組織單位</td>
-</td>
-</table>
+<td valign="top"><a href="../../api/using/creating-a-privacy-request.md"><img width="60px" alt="條件" src="assets/icon_privacy.svg"/></a><p><a href="../../api/using/creating-a-privacy-request.md">隱私權管理</a></p></td>
+<td valign="top"><a href="../../api/using/managing-transactional-messages.md"><img width="60px" alt="條件" src="assets/icon_transactionalmessage.svg"/></a><p><a href="../../api/using/managing-transactional-messages.md">交易式訊息</a></p></td>
+<td valign="top"><a href="../../api/using/controlling-a-workflow.md"><img width="60px" alt="條件" src="assets/icon_workflows.svg"/></a><p><a href="../../api/using/controlling-a-workflow.md">工作流程</a></p></td>
+<td valign="top"><a href="../../api/using/retrieving-an-organizational-unit.md"><img width="60px" alt="條件" src="assets/icon_units.svg"/></a><p><a href="../../api/using/retrieving-an-organizational-unit.md">組織單位</a></p></td>
+</tr></table>
 
 >[!NOTE]
 >

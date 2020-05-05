@@ -1,6 +1,6 @@
 ---
-title: 「工作流程使用案例：跨通道交付」
-description: 「工作流程使用案例：跨通道交付」
+title: 「工作流程使用案例： 跨通道交付」
+description: 「工作流程使用案例： 跨通道交付」
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
@@ -13,14 +13,14 @@ context-tags: workflow,use-case,query,wait,delivery
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f959441647d1fea41ecce2fc41e3cad3cb536bac
+source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 ---
 
 
-# 工作流程使用案例：建立跨通道傳送{#cross-channel-delivery}
+# 工作流程使用案例： 建立跨通道傳送{#cross-channel-delivery}
 
-本檔案可讓您透過標準使用案例來探索下列Adobe Campaign功能：建立跨通道傳送工作流程。
+本檔案可讓您透過標準使用案例來探索下列Adobe Campaign功能： 建立跨通道傳送工作流程。
 
 這裡的目標是從資料庫的接收者中選擇一個對象，並將其分成兩個不同的組，以便向第一組發送電子郵件和向第二組發送SMS消息。
 
@@ -28,8 +28,8 @@ source-git-commit: f959441647d1fea41ecce2fc41e3cad3cb536bac
 
 如需Adobe Campaign工作流程和不同通道的詳細資訊，請查看下列檔案：
 
-* [探索工作流程](../../automating/using/discovering-workflows.md)
-* [探索通訊通道](../../channels/using/discovering-communication-channels.md)
+* [探索工作流程](../../automating/using/get-started-workflows.md)
+* [探索通訊通道](../../channels/using/get-started-communication-channels.md)
 
 ## 建立工作流程 {#creating-workflow}
 
@@ -39,8 +39,8 @@ source-git-commit: f959441647d1fea41ecce2fc41e3cad3cb536bac
 
 在方案或您選擇的促銷活動中建立新的工作流程：
 
-1. 在中， **[!UICONTROL Marketing Activities]**按一下並**[!UICONTROL Create]** 選擇 **[!UICONTROL Workflow]**。
-1. 選擇 **[!UICONTROL New Workflow]**為工作流類型，然後按一下**[!UICONTROL Next]**。
+1. 在中， **[!UICONTROL Marketing Activities]**&#x200B;按一下並 **[!UICONTROL Create]** 選擇 **[!UICONTROL Workflow]**。
+1. 選擇 **[!UICONTROL New Workflow]** 為工作流類型，然後按一下 **[!UICONTROL Next]**。
 1. 輸入工作流的屬性並按一下 **[!UICONTROL Create]**。
 
 建立工作流的詳細步驟在「生成工作流」( [Building a workflow](../../automating/using/building-a-workflow.md) )部分中顯示。
@@ -51,9 +51,9 @@ source-git-commit: f959441647d1fea41ecce2fc41e3cad3cb536bac
 
 將「查詢」活動插入您的工作流程，以定位將接收您傳送的描述檔。
 
-1. 在 **[!UICONTROL Activities]**>**[!UICONTROL Targeting]**&#x200B;中拖放 **[!UICONTROL Query activity]**。
+1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**&#x200B;中拖放 **[!UICONTROL Query activity]**。
 1. 連按兩下活動。
-1. 在索引標 **[!UICONTROL Target]**簽中，瀏覽快速鍵並選取其中一個[對象](../../audiences/using/about-audiences.md)。
+1. 在索引標 **[!UICONTROL Target]** 簽中，瀏覽快速鍵並選取其中一個 [對象](../../audiences/using/about-audiences.md)。
 1. 將快速鍵拖放至編輯區域。 根據所選快捷方式的類型，將出現一個窗口。
 1. 設定定位元素，然後確認查詢。
 
@@ -61,13 +61,13 @@ source-git-commit: f959441647d1fea41ecce2fc41e3cad3cb536bac
 
 您可以對一或多個元素建立查詢。
 
-使用按 **[!UICONTROL Count]**鈕可查看查詢所定位的描述檔數目估計。
+使用按 **[!UICONTROL Count]** 鈕可查看查詢所定位的描述檔數目估計。
 
 「查詢」節中顯示了構建查詢活動的詳 [細步](../../automating/using/query.md) 驟。
 
 ## 建立區段活動 {#creating-segmentation-activity}
 
-在「查詢」活動識別目標後，您必須選擇一個標準，將目標分成兩個不同的人口族群：一個會收到電子郵件，另一個會收到簡訊。
+在「查詢」活動識別目標後，您必須選擇一個標準，將目標分成兩個不同的人口族群： 一個會收到電子郵件，另一個會收到簡訊。
 
 您必須使用「分段」活動，才能從查詢上游計算的人口中建立一或多個區段。
 
@@ -77,19 +77,19 @@ source-git-commit: f959441647d1fea41ecce2fc41e3cad3cb536bac
 
 若要設定第一個轉場（電子郵件）:
 
-1. 在標籤 **[!UICONTROL Segments]**中，預設會顯示第一個區段。 編輯其屬性以設定該區段。
+1. 在標籤 **[!UICONTROL Segments]** 中，預設會顯示第一個區段。 編輯其屬性以設定該區段。
 
    ![](assets/wkf_segment_properties.png)
 
-1. 選取描述檔作為 **[!UICONTROL Email]**篩選准則。
+1. 選取描述檔作為 **[!UICONTROL Email]** 篩選准則。
 
    ![](assets/wkf_segment_email.png)
 
-1. 在螢幕上顯示的新窗口中，選擇運算 **[!UICONTROL Is not empty]**符。
+1. 在螢幕上顯示的新窗口中，選擇運算 **[!UICONTROL Is not empty]** 符。
 
    ![](assets/wkf_segment_email_not_empty.png)
 
-1. 新增第二個篩選准則， **[!UICONTROL Mobile]**並選取運算子**[!UICONTROL Is empty]**。
+1. 新增第二個篩選准則， **[!UICONTROL Mobile]**&#x200B;並選取運算子 **[!UICONTROL Is empty]**。
 
    ![](assets/wkf_segment_mobile_empty.png)
 
@@ -101,8 +101,8 @@ source-git-commit: f959441647d1fea41ecce2fc41e3cad3cb536bac
 
 已設定您的第一個轉場。 若要設定第二個轉場(SMS):
 
-1. 按一下 **[!UICONTROL Add an element]**按鈕以新增轉場。
-1. 定義一個條件，可讓您擷取已提供行動電話號碼的所有描述檔。 若要這麼做，請使用邏輯運算子在 **[!UICONTROL Mobile]**欄位上建立**[!UICONTROL Is not empty]** 規則。
+1. 按一下 **[!UICONTROL Add an element]** 按鈕以新增轉場。
+1. 定義條件，可讓您擷取已提供行動電話號碼的所有描述檔。 若要這麼做，請使用邏輯運算子在 **[!UICONTROL Mobile]** 欄位上建立 **[!UICONTROL Is not empty]** 規則。
 
    ![](assets/wkf_segment_mobile_not_empty.png)
 
@@ -118,18 +118,18 @@ source-git-commit: f959441647d1fea41ecce2fc41e3cad3cb536bac
 
 ## 建立傳送 {#creating-deliveries}
 
-由於已建立兩個轉場，您現在必須將兩種類型的傳送新增至「區段」活動的對外轉場：一 **[!UICONTROL Email delivery]**個**[!UICONTROL SMS delivery]**。
+由於已建立兩個轉場，您現在必須將兩種類型的傳送新增至「區段」活動的對外轉場： 一 **[!UICONTROL Email delivery]** 個 **[!UICONTROL SMS delivery]**。
 
-Adobe Campaign可讓您將傳送新增至工作流程。 若要這麼做，請從工作流程的活 **[!UICONTROL Channels]**動浮動視窗類別中選取傳送。
+Adobe Campaign可讓您將傳送新增至工作流程。 若要這麼做，請從工作流程的活 **[!UICONTROL Channels]** 動浮動視窗類別中選取傳送。
 
 ![](assets/wkf_segment_deliveries1.png)
 
 若要建立電子郵件傳送：
 
-1. 在第一個區段 **[!UICONTROL Email delivery]**後面拖放。
+1. 在第一個區段 **[!UICONTROL Email delivery]** 後面拖放。
 1. 連按兩下活動以進行編輯。
 1. Select **[!UICONTROL Simple email]**.
-1. 選擇 **[!UICONTROL Add an outbound transition with the population]**並按一下**[!UICONTROL Next]**。
+1. 選擇 **[!UICONTROL Add an outbound transition with the population]** 並按一下 **[!UICONTROL Next]**。
 
    ![](assets/wkf_segment_deliveries2.png)
 
@@ -139,15 +139,15 @@ Adobe Campaign可讓您將傳送新增至工作流程。 若要這麼做，請�
 1. 輸入電子郵件屬性，然後按一下 **[!UICONTROL Next]**。
 1. 若要建立電子郵件的版面，請選取 **[!UICONTROL Use the Email Designer]**。
 1. 編輯並儲存您的內容。
-1. 在消息 **[!UICONTROL Schedule]**儀表板的部分中，在發送消息}**&#x200B;之前取消選擇[!UICONTROL請求確認&#x200B;**。
+1. 在消息 **[!UICONTROL Schedule]** 儀表板的部分中，在發送消息} **之前取消選擇[!UICONTROL請求確認** 。
 
 「電子郵件傳送」區段中會顯示建立「電子郵件」活動 [的詳細步驟](../../automating/using/email-delivery.md) 。
 
 若要建立SMS傳送：
 
-1. 拖放另一個區 **[!UICONTROL SMS delivery]**段之後的區段。
+1. 拖放另一個區 **[!UICONTROL SMS delivery]** 段之後的區段。
 1. 連按兩下活動以進行編輯。
-1. 選擇 **[!UICONTROL SMS]**並按一下**[!UICONTROL Next]**。
+1. 選擇 **[!UICONTROL SMS]** 並按一下 **[!UICONTROL Next]**。
 1. 選取SMS範本，然後按一下 **[!UICONTROL Next]**。
 1. 輸入SMS屬性，然後按一下 **[!UICONTROL Next]**。
 1. 編輯並儲存您的內容。
@@ -162,6 +162,6 @@ Adobe Campaign可讓您將傳送新增至工作流程。 若要這麼做，請�
 
 工作流程啟動後，「查詢」活動所定位的人口族群將會分段，以接收電子郵件或簡訊傳送。
 
-要執行工作流，請按一下 **[!UICONTROL Start]**操作欄中的按鈕。
+要執行工作流，請按一下 **[!UICONTROL Start]** 操作欄中的按鈕。
 
-您可從>進階功能表 **[!UICONTROL Marketing plans]**，透**[!UICONTROL Marketing activities]** 過Adobe Campaign標誌存取傳送內容。 按一下傳送，然 **[!UICONTROL Reports]**後按鈕即可存取傳送報[表](../../reporting/using/about-dynamic-reports.md#accessing-dynamic-reports)，例如傳送摘要、開放率或根據收件者的訊息收件匣而轉換的電子郵件。
+您可從>進階功能表 **[!UICONTROL Marketing plans]** ，透 **[!UICONTROL Marketing activities]** 過Adobe Campaign標誌存取傳送內容。 按一下傳送，然 **[!UICONTROL Reports]** 後按鈕即可存取傳送報 [表](../../reporting/using/about-dynamic-reports.md#accessing-dynamic-reports)，例如傳送摘要、開放率或根據收件者的訊息收件匣而轉換的電子郵件。

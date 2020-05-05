@@ -13,7 +13,7 @@ context-tags: delivery,directMailContent,back;deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
+source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 ---
 
@@ -26,9 +26,9 @@ source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
 >
 >此功能為選擇性。 請檢查您的授權合約。 使用 **[!UICONTROL Export]** 直接郵件時需要角色。 請聯絡您的管理員。
 
-線上通道可讓您建立訊息（電子郵件、簡訊、行動應用程式傳送等）並直接從Adobe Campaign傳送給您的觀眾。 離線通道則不同。 當您準備直接郵寄時，Adobe Campaign會產生一個檔案，其中包含所有目標設定檔和選取的聯絡資訊（例如郵遞區號）。 然後，您就可以將此檔案傳送給直接郵件提供者，由他們負責實際傳送。
+線上通道可讓您建立訊息（電子郵件、簡訊、行動應用程式傳送等） 並直接從Adobe Campaign傳送給您的觀眾。 離線通道則不同。 當您準備直接郵寄時，Adobe Campaign會產生一個檔案，其中包含所有目標設定檔和選取的聯絡資訊（例如郵遞區號）。 然後，您就可以將此檔案傳送給直接郵件提供者，由他們負責實際傳送。
 
-下節將說明如何建立並產生單次直接郵件傳送。 您也可以將直接郵件活動納入工作流程，以協調結合線上和線下通道的宣傳活動。 如需詳細資訊，請參閱「工作 [流程](../../automating/using/workflow-data-and-processes.md) 」指南。
+下節將說明如何建立並產生單次直接郵件傳送。 您也可以將直接郵件活動納入工作流程，以協調結合線上和線下通道的宣傳活動。 如需詳細資訊，請參閱「工作 [流程](../../automating/using/get-started-workflows.md) 」指南。
 
 Adobe Campaign中的使用者程式如下：
 
@@ -54,7 +54,7 @@ Adobe Campaign中的使用者程式如下：
 
 Adobe Campaign提供一組預先定義的計算欄位，這些欄位會遵循最常見的郵遞區號標準化。 這些欄位在節點中可 **[!UICONTROL Postal address]** 用。
 
-預設情況下，地址最多可包含6行：第一個計算欄位(**[!UICONTROL Line 1]** 包含名字和姓氏)、下一行包含郵遞區號（路等），最後一行包含郵遞區號和城鎮。
+預設情況下，地址最多可包含6行： 第一個計算欄位(**[!UICONTROL Line 1]** 包含名字和姓氏)、下一行包含郵遞區號（路等），最後一行包含郵遞區號和城鎮。
 
 ![](assets/direct_mail_23.png)
 

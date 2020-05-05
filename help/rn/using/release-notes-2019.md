@@ -12,7 +12,7 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -36,7 +36,7 @@ source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
    <td> <p>CCPA是加州新推出的隱私法，協調並現代化2020年1月1日生效的資料保護要求。 CCPA適用於持有居住在加州之資料主體資料的Adobe Campaign客戶。</p>
    <p>除了Adobe Campaign中已提供的隱私權功能（包括同意管理、資料保留設定和使用者角色）外，我們還將利用這個機會加入其他功能，以協助您做好CCPA的準備：</p>
    <ul>
-    <li>存取權與刪除權：我們運用了為GDPR新增的功能。 <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#righttoaccess">進一步瞭解</a> </li>
+    <li>存取權與刪除權： 我們運用了為GDPR新增的功能。 <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#righttoaccess">進一步瞭解</a> </li>
     <li><p>在建立隱私權要求時，隱私權核心服務中已新增規則類型（GDPR或CCPA）。 此方法應用於所有存取和刪除請求。 不建議使用促銷活動API和介面來存取和刪除請求。  請參閱「已過 <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">時和已移除的功能」文章</a>。</p></li>
     <li>「設 <strong>定檔」資源已新增「CCPA選擇退出</strong> 」欄位，讓Adobe Campaign使用者追蹤消費者是否選擇退出個人資訊銷售。 <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa">進一步瞭解</a>。</li>
   </ul>
@@ -69,7 +69,7 @@ source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
 * 當使用未知的上下文參數提交交易訊息事件時，Campaign現在會傳回&quot;400&quot;錯誤訊息，而非&quot;500&quot;。 (CAMP-28632)
 * 動態報 **表中已新增** 「排除」校樣區段。 現在預設會選取此區段來篩選報表。 [閱讀更多資訊](../../reporting/using/list-of-components-.md#segments)
 * 「 **訊息過期** 」選項已新增至推播通知。 它可讓您指定訊息不再由Apple(APNS)或Android(FCM)傳送的到期日。 [閱讀更多資訊](../../channels/using/customizing-a-push-notification.md#add-expiration-date)
-* 已對「載入檔案」活 **動進行改** 進：工作流程記錄檔已更清楚、更詳細地說明在無法載入檔案時發生的錯誤。 啟用「保留檔案中的拒 **絕」選項時產生的去話轉場** ，已重新命 **名為「拒絕」**。 [閱讀更多資訊](../../automating/using/load-file.md)
+* 已對「載入檔案」活 **動進行改** 進： 工作流程記錄檔已更清楚、更詳細地說明在無法載入檔案時發生的錯誤。 啟用「保留檔案中的拒 **絕」選項時產生的去話轉場** ，已重新命 **名為「拒絕」**。 [閱讀更多資訊](../../automating/using/load-file.md)
 * 已將多語言相關記錄檔新增至傳送記錄檔，以更清楚瞭解因已上傳CSV檔案中缺少語言而造成的傳送失敗。
 
 **安全性增強功能**
@@ -87,9 +87,9 @@ source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
 * 修正刪除影像時無法移除相關連結的問題。 (CAMP-37234)
 * 修正無法在條件中儲存動態內容 **「順序** 」設定的修改的問題。 (CAMP-36883)
 * 已修正搜尋著陸頁面時的問題。 搜索已從最初建立的50個擴展到所有資料庫。 (CAMP-36839)
-* 修正在「寄件者」中儲存電子郵件傳送者修改的 **問題：名稱** 欄位。 (CAMP-36606)
+* 修正在「寄件者」中儲存電子郵件傳送者修改的 **問題： 名稱** 欄位。 (CAMP-36606)
 * 轉盤元件相容性警告已修改，以反映支援的電子郵件用戶端。
-* 修正行動裝置上的顯示問題。 height屬性現在一律設為「height:auto」。 (CAMP-35497)
+* 修正行動裝置上的顯示問題。 height屬性現在一律設為「height: auto」。 (CAMP-35497)
 * 修正從結構元件刪除片段時，HTML中保留樣式和中繼標籤的問題。 (CAMP-35390)
 * 修正更新可重複使用內容時的片段問題。 (CAMP-35186)
 * 修正在電子郵件中僅顯示行動裝置條件式內容的問題。 (CAMP-35155)
@@ -115,8 +115,8 @@ source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
 * 已改善大型資源的資料庫效能。
 * 傳送SMS訊息時發生的一些錯誤說明已更清楚。 (CAMP-36558)
 * 現在，在執行直接或通過多個活動連接到自身的工作流的 **Scheduler** activity時，會顯示一條錯誤消息，因為這可能導致實例的工作流伺服器卡住。
-* 已做出改進，幫助排除事務性消息傳送故障：「資料」連結在事件設定畫面中已重新命名為「上次交易事件」，現在會以遞減順序列出已接收的事件。 此外，還建立了新的事務事件狀態：&quot;targetingFailed&quot;。 當事務性消息傳遞模組無法豐富用於消息定位的連結時，事務性事件現在將處於此新狀態（而不是「routingFailed」狀態）。
-* 已對介面進行改良，以限制對特定地理或組織單位的著陸頁面存取。 其目的是警告著陸頁面可能受可見性條件所限：現在，在建立著陸頁面時，必須選擇地理單位和組織單位。 選取裝置後，現在會顯示包含相關資訊的橫幅。 測試著陸頁面時顯示的錯誤訊息已變得更清楚。
+* 已做出改進，幫助排除事務性消息傳送故障： 「資料」連結在事件設定畫面中已重新命名為「上次交易事件」，現在會以遞減順序列出已接收的事件。 此外，還建立了新的事務事件狀態： &quot;targetingFailed&quot;。 當事務性消息傳遞模組無法豐富用於消息定位的連結時，事務性事件現在將處於此新狀態（而不是「routingFailed」狀態）。
+* 已對介面進行改良，以限制對特定地理或組織單位的著陸頁面存取。 其目的是警告著陸頁面可能受可見性條件所限： 現在，在建立著陸頁面時，必須選擇地理單位和組織單位。 選取裝置後，現在會顯示包含相關資訊的橫幅。 測試著陸頁面時顯示的錯誤訊息已變得更清楚。
 * 在Campaign Standard API中，如果索引鍵值與原始索引鍵不同，或您使用自己的商業索引鍵作為URI而非Adobe提供的商業索引鍵，則無法使用PATCH操作來修改自訂索引鍵。
 * &quot;阿爾巴尼亞——馬其頓&quot;語已添加到首選語言下拉清單中。 (CAMP-35396)
 
@@ -306,7 +306,7 @@ source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
  <tbody> 
   <tr> 
    <td> 控制面板<br /> </td> 
-   <td> <p>為協助提高管理員使用者的工作效率，您可以輕鬆監控容量並管理執行個體的設定（從SFTP伺服器管理開始）。</p><p>如需詳細資訊，請參 <a href="https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html">閱詳細說明</a><a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/control-panel-overview.html">檔案和操作視訊</a>。</p></td> 
+   <td> <p>為協助提高管理員使用者的工作效率，您可以輕鬆監控容量並管理執行個體的設定（從SFTP伺服器管理開始）。</p><p>如需詳細資訊，請參 <a href="https://docs.adobe.com/content/help/zh-Hant/control-panel/using/control-panel-home.html">閱詳細說明</a><a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/control-panel-overview.html">檔案和操作視訊</a>。</p></td> 
   </tr> 
   <tr> 
    <td> 本機通知<br /> </td> 
@@ -368,7 +368,7 @@ source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
 * 導出包含安全組的包時，它現在包含分配給每個組的角色。 (CAMP-32960)
 * 在「載入檔案」活動中，新選項可讓您檢查您要上載的檔案欄是否符合欄定義。 如需詳細資訊，請參閱詳 [細檔案](../../automating/using/load-file.md)。 (CAMP-32229)
 * 工作流程現在可以從裝載開始，讓您在工作流程中的活動之間使用和共用外部參數。 如需詳細資訊，請參閱詳 [細檔案](../../automating/using/calling-a-workflow-with-external-parameters.md)。 （CAMP-29412和CAMP-29413）
-* Campaign Standard API現在可讓您使用裝載來更新描述檔的地理和組織單位。 如需詳細資訊，請參閱詳 [細檔案](../../api/using/about-campaign-standard-apis.md)。
+* Campaign Standard API現在可讓您使用裝載來更新描述檔的地理和組織單位。 如需詳細資訊，請參閱詳 [細檔案](../../api/using/get-started-apis.md)。
 * 當無法存取資料庫中的物件時，會有更清楚的錯誤訊息，以供您瞭解。
 * 在「擷取檔案」活動中，定義要匯出的檔案名稱時，已更新Javascript功能。 現在，「輸出」欄位中只能使用formatDate函式。 如需詳細資訊，請參閱詳 [細檔案](../../automating/using/extract-file.md)。
 * 自訂資源的自動序列ID產生功能已改良。 新自訂資源的主鍵現在預設為64位。
@@ -424,7 +424,7 @@ source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
  <tbody> 
   <tr> 
    <td> 推播頻道報表改進<br /> </td> 
-   <td> <p>推播頻道報表已新增數項增強功能，讓您以更直覺的方式測量使用者參與度。 在此版本中，我們將推播渠道量度的清單擴充為三個不同的量度：印象、點按、開啟（應用程式開啟）可協助您更有效率地測量和分析使用者與推播通知的互動。 此外，我們也標準化這些量度的定義與實作。 推播通知內建報表也已改良，常用的視覺化和量度也已改善。</p><p> 如需詳細資訊，請參閱詳 <a href="../../reporting/using/push-notification-report.md">細檔案</a>。</p> </td> 
+   <td> <p>推播頻道報表已新增數項增強功能，讓您以更直覺的方式測量使用者參與度。 在此版本中，我們將推播渠道量度的清單擴充為三個不同的量度： 印象、點按、開啟（應用程式開啟）可協助您更有效率地測量和分析使用者與推播通知的互動。 此外，我們也標準化這些量度的定義與實作。 推播通知內建報表也已改良，常用的視覺化和量度也已改善。</p><p> 如需詳細資訊，請參閱詳 <a href="../../reporting/using/push-notification-report.md">細檔案</a>。</p> </td> 
   </tr> 
   <tr> 
    <td> 行動應用程式的啟動整合<br /> </td> 

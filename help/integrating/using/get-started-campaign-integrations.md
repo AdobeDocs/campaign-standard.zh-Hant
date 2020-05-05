@@ -12,7 +12,7 @@ discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a73cbdd1af2ce134e10222ab07709639ba419ebe
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: a73cbdd1af2ce134e10222ab07709639ba419ebe
 
 組織是可讓管理員設定群組和使用者，以及控制Experience Cloud中單一登入的實體。 組織的運作方式類似登入公司，涵蓋所有Experience Cloud產品和解決方案。 通常，組織就是您的公司名稱。 但是，公司可以有許多組織。 使用者和組織管理在 [Adobe Experience Cloud說明入口網站中有詳細說明](https://marketing.adobe.com/resources/help/zh_TW/mcloud/organizations.html)。
 
-如果您想要將其他系統的資料流與Adobe Campaign整合，請參閱我們的 [API檔案](../../api/using/about-campaign-standard-apis.md)。
+如果您想要將其他系統的資料流與Adobe Campaign整合，請參閱我們的 [API檔案](../../api/using/get-started-apis.md)。
 
 >[!NOTE]
 >

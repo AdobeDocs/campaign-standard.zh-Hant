@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5d4560a26c0f5c6d3e8710caf51d4a82fbf80174
+source-git-commit: 62b1f9bb452c229b879f735830b330d0fda5ea3c
 
 ---
 
@@ -20,6 +20,12 @@ source-git-commit: 5d4560a26c0f5c6d3e8710caf51d4a82fbf80174
 # 文件更新{#documentation-updates}
 
 除了Adobe Campaign發行說 [明外](../../rn/using/release-notes.md)，本頁還列出Adobe Campaign Standard檔案中的所有新更新。
+
+## 檔案更新- 2020年5月 {#doc-updates-may-2020}
+
+「促銷活動標準」概觀頁面已豐富並重新組織為主題主題。 [閱讀更多資訊](../../start/using/about-campaign-standard.md)
+
+「電子郵件渠道參數」區段已清楚顯示授權遮色片欄位和傳送報表ID的詳細資訊。 [閱讀更多資訊](../../administration/using/configuring-email-channel.md)
 
 ## 版本20.3 - 2020年5月 {#release-20-3---may-2020}
 
@@ -37,9 +43,9 @@ source-git-commit: 5d4560a26c0f5c6d3e8710caf51d4a82fbf80174
 
 核心檔案中已新增「隱私權與同意」專欄。 [閱讀更多資訊](../../start/using/privacy.md)
 
-* 已新增使用案例，讓您將舊版編輯器電子郵件轉換為電子郵件設計工具。 [閱讀更多資訊](../../designing/using/converting-emails-from-legacy-editor.md)
+已新增使用案例，讓您將舊版編輯器電子郵件轉換為電子郵件設計工具。 [閱讀更多資訊](../../designing/using/converting-emails-from-legacy-editor.md)
 
-* 已新增有關電子郵件設計人員的常見問題區段。 [閱讀更多資訊](../../designing/using/faq-email-designer.md)
+已新增有關電子郵件設計人員的常見問題區段。 [閱讀更多資訊](../../designing/using/faq-email-designer.md)
 
 ## 檔案更新- 2020年4月 {#doc-updates-april-2020}
 
@@ -47,7 +53,7 @@ source-git-commit: 5d4560a26c0f5c6d3e8710caf51d4a82fbf80174
 
 已新增其他資源至檔案首頁。 [閱讀更多資訊](../../campaign-standard-home.md)
 
-Experience Cloud ID服務(ECID)的相關資訊已新增至Adobe Experience Platform資料連接器檔案。 [閱讀更多資訊](../../administration/using/aep-about-data-connector.md#key-concepts)
+Experience Cloud ID服務(ECID)的相關資訊已新增至Adobe Experience Platform資料連接器檔案。 [閱讀更多資訊](../../developing/using/aep-about-data-connector.md#key-concepts)
 
 「設定交易訊息」區段已改良，提供如何存取最新交易事件和更新螢幕擷取畫面的資訊。 [閱讀更多資訊](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)
 
@@ -115,7 +121,7 @@ Campaign電子郵件設計人員檔案和相關頁面已更新，以反映Adobe 
 
 **發行中包含的新功能**
 
-Adobe Experience Platform Data Connector（beta版）-閱 [讀更多](../../administration/using/aep-about-data-connector.md)
+Adobe Experience Platform Data Connector（beta版）-閱 [讀更多](../../developing/using/aep-about-data-connector.md)
 
 觀眾目標（測試版）-閱 [讀更多](../../audiences/using/aep-about-audience-destinations-service.md)
 
@@ -165,7 +171,7 @@ Deliverability快速入門手冊已整合至核心檔案並更新。 [閱讀更�
 
 ## 檔案更新- 2019年11月 {#doc-updates-november-2019}
 
-已新增一個新的使用案例，說明如何使用Campaign Standard中的工作流程來建立控制群組。 閱[讀更多](../../automating/using/workflow-control-group.md)
+已新增一個新的使用案例，說明如何使用Campaign Standard中的工作流程來建立控制群組。 [閱讀更多資訊](../../automating/using/workflow-control-group.md)
 
 與著陸頁面屬性相關的資訊已移入專用區段。 [閱讀更多資訊](../../channels/using/configuring-landing-page.md)
 
@@ -201,7 +207,7 @@ GDPR快速入門手冊已經過改進並充實。 它現在是包含GDPR和CCPA�
 
 「傳送最佳實務」快速入門手冊已移動並更新。 [閱讀更多資訊](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 
-已新增新區段。 它提供可讓您豐富Campaign Standard資料庫的不同方法的概觀。 [閱讀更多資訊](../../start/using/enriching-campaign-database.md)
+已新增新區段。 它提供可讓您豐富Campaign Standard資料庫的不同方法的概觀。 [閱讀更多資訊](../../audiences/using/enriching-campaign-database.md)
 
 已新增一個章節，說明如何使用電子郵件設計工具來設定連結的樣式。 [閱讀更多資訊](../../designing/using/styles.md#about-styling-links)
 
@@ -355,7 +361,7 @@ GDPR快速入門手冊已經過改進並充實。 它現在是包含GDPR和CCPA�
 
 SMS連接器通訊協定和設定知識庫文章已更新，新增選項至SMS外部帳戶，以限制允許連線至SMPP提供者的MTA例項數。 [](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html)
 
-「開始使用指南」已經過豐富和重新整理。 [閱讀更多資訊](../../start/using/campaign-orchestration.md)
+「開始使用指南」已經過豐富和重新整理。 [閱讀更多資訊](../../start/using/about-campaign-standard.md)
 
 「已過時和已移除的功能」頁面已更新。 [閱讀更多資訊](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
@@ -383,7 +389,7 @@ Dreamweaver整合區段已更新並改良。 [閱讀更多資訊](../../designin
 
 「建立自訂內容區塊」區段已增強，並包含定位維度的詳細資訊。 [閱讀更多資訊](../../designing/using/personalization.md#creating-custom-content-blocks)
 
-已新增警告，指出「電子郵件設計器」不支援Internet Explorer 11。 [閱讀更多資訊](../../administration/using/compatible-browsers.md)
+已新增警告，指出「電子郵件設計器」不支援Internet Explorer 11。 [閱讀更多資訊](../../administration/using/about-configuration-guidelines.md)
 
 「刪除資源」部分已添加有關重新起草影響的警告。 [閱讀更多資訊](../../developing/using/deleting-a-resource.md)
 
@@ -445,7 +451,7 @@ Dreamweaver整合區段已更新並改良。 [閱讀更多資訊](../../designin
 
 已更新 [從URL檔案匯入內容](../../designing/using/using-existing-content.md#importing-content-from-a-url) ，其中包含與電子郵件設計工具相關的資訊。
 
-Microsoft Edge（最新版本）已新增至電腦的相容瀏覽器清單。 [閱讀更多資訊](../../administration/using/compatible-browsers.md)
+Microsoft Edge（最新版本）已新增至電腦的相容瀏覽器清單。 [閱讀更多資訊](../../administration/using/about-configuration-guidelines.md)
 
 已新增有關「擷取檔案」活動中新選項的資訊，當傳入轉場為空時，此項資訊無法產生檔案。 [閱讀更多資訊](../../automating/using/extract-file.md)
 
@@ -521,7 +527,7 @@ API檔案已更新，其中包含 **History** API的資訊。 已新增使用案
 
 **發行中包含的新功能**
 
-GDPR:核心服務整合——詳 [細資訊](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)
+GDPR: 核心服務整合——詳 [細資訊](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)
 
 推播改良功能——詳細的傳送回饋——閱 [讀更多](../../channels/using/preparing-and-sending-a-push-notification.md#sending-the-notification)
 
@@ -579,7 +585,7 @@ GDPR API會重新分組允許自動處理GDPR要求的功能。 [閱讀更多資
 
 已更新排程器活動區段。 [閱讀更多資訊](../../automating/using/scheduler.md)
 
-更新有關Campaign和Adobe解決方案整合的說明資料清單。 [閱讀更多資訊](../../integrating/using/about-campaign-integrations.md)。
+更新有關Campaign和Adobe解決方案整合的說明資料清單。 [閱讀更多資訊](../../integrating/using/get-started-campaign-integrations.md)。
 
 更新Campaign Standard產品內容說明。
 
@@ -593,7 +599,7 @@ GDPR API會重新分組允許自動處理GDPR要求的功能。 [閱讀更多資
 
 **此版本隨附的其他檔案更新**
 
-Campaign和Adobe解決方案整合的大部分URL已變更！ 檢查您的書籤！ [閱讀更多資訊](../../integrating/using/about-campaign-integrations.md)
+Campaign和Adobe解決方案整合的大部分URL已變更！ 檢查您的書籤！ [閱讀更多資訊](../../integrating/using/get-started-campaign-integrations.md)
 
 資料模型v1現在可用於內置資源的SQL結構——詳細 [資訊](https://docs.campaign.adobe.com/doc/standard/en/datamodel/datamodel.html)
 
@@ -607,7 +613,7 @@ Campaign和Adobe解決方案整合的大部分URL已變更！ 檢查您的書籤
 
 描述檔匯入範例已更新，提供一些提示，讓您的描述檔準備好接收直接電子郵件。 [閱讀更多資訊](../../automating/using/importing-data.md)
 
-工作流程中提供新活動：活 **[!UICONTROL Enrichment]** 動。 [閱讀更多資訊](../../automating/using/enrichment.md)
+工作流程中提供新活動： 活 **[!UICONTROL Enrichment]** 動。 [閱讀更多資訊](../../automating/using/enrichment.md)
 
 活 **[!UICONTROL Subscription Services]** 動已更新，可支援更多使用案例，包括使用單一檔案更新多項服務的訂閱。 [閱讀更多資訊](../../automating/using/subscription-services.md)
 
@@ -661,7 +667,7 @@ API Signal活動觸發——詳 [細資訊](../../api/using/triggering-a-signal-
 
 疲勞管理——詳 [細內容](../../sending/using/fatigue-rules.md)
 
-內容建立：從URL匯入——閱 [讀更多](../../designing/using/using-existing-content.md#importing-content-from-a-url)
+內容建立： 從URL匯入——閱 [讀更多](../../designing/using/using-existing-content.md#importing-content-from-a-url)
 
 **此版本隨附的其他檔案更新**
 
@@ -723,7 +729,7 @@ SMS檔案已更新，SMS自動回覆區段已新增 [一些說明](../../channel
 
 「傳 [送警報](../../sending/using/receiving-alerts-when-failures-happen.md#delivery-alerting-reasons) 」檔案已更新，其中包含疑難排解區段，提供您在收到警報時可採取的一些動作提示。
 
-有新的快速入門手冊可供使用：它提供一些最佳實務，可用於透過Adobe Campaign傳遞，從建立和鎖定到傳送和監控。 [閱讀更多資訊](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html)
+有新的快速入門手冊可供使用： 它提供一些最佳實務，可用於透過Adobe Campaign傳遞，從建立和鎖定到傳送和監控。 [閱讀更多資訊](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html)
 
 後續訊息檔案已更新，並改良使用案例。 [閱讀更多資訊](../../channels/using/follow-up-messages.md#sending-a-follow-up-message)
 
@@ -777,13 +783,13 @@ Adobe Campaign通知——閱 [讀更多](../../administration/using/sending-int
 
 **此版本隨附的其他檔案更新**
 
-「傳送」指南已重新整理，並重新命名為「頻道」。 [閱讀更多資訊](../../channels/using/discovering-communication-channels.md)
+「傳送」指南已重新整理，並重新命名為「頻道」。 [閱讀更多資訊](../../channels/using/get-started-communication-channels.md)
 
 已更新許多螢幕擷取畫面，以反映介面的變更。
 
-現在有了新的技術：「整合Adobe Mobile SDK與您的行動應用程式」。 [閱讀更多資訊](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html)
+現在有了新的技術： 「整合Adobe Mobile SDK與您的行動應用程式」。 [閱讀更多資訊](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html)
 
-設定People核心服務或Audience Manager與Adobe Campaign整合的指示已更新。 [閱讀更多資訊](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+設定People核心服務或Audience Manager與Adobe Campaign整合的指示（已啟動通訊管道）。mdegrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 修改授權表，使某些角色的功能更清晰。 [閱讀更多資訊](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
 
@@ -829,11 +835,11 @@ Dreamweaver整合(Labs)-閱 [讀更多](https://docs.adobe.com/content/help/en/c
 
 手動傳送時間最佳化——詳 [細資訊](../../sending/using/optimizing-the-sending-time.md)
 
-推播通知：改進——閱 [讀更多](../../channels/using/about-push-notifications.md)
+推播通知： 改進——閱 [讀更多](../../channels/using/about-push-notifications.md)
 
-工作流程：new Signal activity - [Read more](../../automating/using/external-signal.md)
+工作流程： new Signal activity - [Read more](../../automating/using/external-signal.md)
 
-工作流程：新的閱讀對象活動——閱 [讀更多](../../automating/using/read-audience.md)
+工作流程： 新的閱讀對象活動——閱 [讀更多](../../automating/using/read-audience.md)
 
 興趣點資料——詳 [細內容](../../integrating/using/about-campaign-points-of-interest-data-integration.md)
 
@@ -841,7 +847,7 @@ REST API中的連結資源——閱 [讀更多](../../developing/using/updating-
 
 **此版本隨附的其他檔案更新**
 
-觸發器整合：新增了兩個使用案例。 [閱讀更多資訊](../../integrating/using/abandonment-triggers-use-cases.md)
+觸發器整合： 新增了兩個使用案例。 [閱讀更多資訊](../../integrating/using/abandonment-triggers-use-cases.md)
 
 我們重新設計了開發人員API檔案，提供新資訊和程式碼片段，以改善使用體驗。 [閱讀更多資訊](../../api/using/about-campaign-standard-apis.md)
 
@@ -859,13 +865,13 @@ Transactional Messaging API —— 閱讀 [更多資訊](../../api/using/about-c
 
 **此版本隨附的其他檔案更新**
 
-增量查詢工作流活動：新增增模式——閱 [讀更多](../../automating/using/incremental-query.md)
+增量查詢工作流活動： 新增增模式——閱 [讀更多](../../automating/using/incremental-query.md)
 
 排程器工作流程活動更新- [閱讀更多](../../automating/using/scheduler.md)
 
-URL變更：資產核心服務——閱 [讀更多](../../integrating/using/working-with-campaign-and-assets-core-service.md)
+URL變更： 資產核心服務——閱 [讀更多](../../integrating/using/working-with-campaign-and-assets-core-service.md)
 
-URL變更：人員核心服務——閱 [讀更多](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
+URL變更： 人員核心服務——閱 [讀更多](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
 
-設定檔和觀眾指南已重新整理。 [閱讀更多資訊](../../audiences/using/about-profiles-and-audiences.md)
+設定檔和觀眾指南已重新整理。 [閱讀更多資訊](../../audiences/using/get-started-profiles-and-audiences.md)
 

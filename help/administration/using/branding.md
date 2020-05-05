@@ -13,7 +13,7 @@ context-tags: branding,overview;branding,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 54612511de07edc3e6f3eea34ef095c26b35f4af
+source-git-commit: e18407ab4bf70caa417b16bbc645fd2c6ba1818b
 
 ---
 
@@ -36,7 +36,9 @@ source-git-commit: 54612511de07edc3e6f3eea34ef095c26b35f4af
 
 >[!IMPORTANT]
 >
->用戶不能建立或修改品牌：這些作業必須由Adobe Campaign技術管理員執行。 如需任何要求，請聯絡Adobe客戶服務。 多品牌無法用於交易訊息的內容。 如需詳細資訊，請參閱「交 [易式訊息與品牌推廣」](../../channels/using/about-transactional-messaging.md#permissions-and-branding)。
+>用戶不能建立或修改品牌： 這些作業必須由Adobe Campaign技術管理員執行。 如需任何要求，請聯絡Adobe客戶服務。
+>
+>多品牌無法用於交易訊息的內容。 如需詳細資訊，請參閱「交 [易式訊息與品牌推廣」](../../channels/using/about-transactional-messaging.md#permissions-and-branding)。
 
 品牌位於功能表 **[!UICONTROL Administration > Instance settings > Brand configuration]** 中。
 
@@ -125,7 +127,7 @@ source-git-commit: 54612511de07edc3e6f3eea34ef095c26b35f4af
 >
 >品牌設定僅由Adobe管理，因為它需要特定權限和技術設定。
 
-1. Adobe Campaign管理員會在中建立品牌 **[!UICONTROL Administration > Instance settings > Brand configuration]**。 他從進階功 **能表新增了Vacations in the Tropics** 元素，並設定 **[!UICONTROL ID]** 品牌的 **[!UICONTROL Header parameters of sent emails]** 和品牌。
+1. Adobe Campaign管理員會在中建立品牌 **[!UICONTROL Administration > Instance settings > Brand configuration]**。 他從進階功 **能表新增了Vacations in the Tropics** 元素，並設定 **[!UICONTROL ID]** 了品牌的 **[!UICONTROL Header parameters of sent emails]** 和品牌。
 
    ![](assets/branding_07.png)
 

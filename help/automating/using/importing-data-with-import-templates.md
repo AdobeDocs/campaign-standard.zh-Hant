@@ -1,18 +1,18 @@
 ---
 title: 使用匯入範本匯入資料
 description: 瞭解如何收集資料以饋送您的Campaign資料庫。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: bfc03235-2032-448a-a9ed-21ff2a83fa09
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 自動化
-content-type: 參考
-topic-tags: 導入和導出資料
+audience: automating
+content-type: reference
+topic-tags: importing-and-exporting-data
 discoiquuid: fb511bb8-6be7-43f6-86ab-94d5cfa3efc9
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 ---
 
@@ -21,9 +21,9 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 匯入資料可讓您收集資料，以饋送您的促銷活動資料庫。
 
-或者， [Adobe Campaign](../../automating/using/discovering-workflows.md)提供簡化的匯入功能，讓使用者管理管理員定義的特定匯入類型。
+或者， [Adobe Campaign](../../automating/using/get-started-workflows.md)提供簡化的匯入功能，讓使用者管理管理員定義的特定匯入類型。
 
-其工作原理是：管理 **員定義** ，並管理導入模板(請參閱 [定義導入模板](../../automating/using/defining-import-templates.md))。 然後，這些匯入範本會提供給「 &gt;」功能表下具有簡化檢視 **[!UICONTROL Profiles & audiences]** 的使 **[!UICONTROL Imports]** 用者。
+其工作原理是： 管理 **員定義** ，並管理導入模板(請參閱 [定義導入模板](../../automating/using/defining-import-templates.md))。 然後，這些匯入範本會提供給「 >」功能表下具有簡化檢視 **[!UICONTROL Profiles & audiences]** 的使 **[!UICONTROL Imports]** 用者。
 
 因此，這些使用者只需要選擇要執行的匯入類型，並上傳包含要匯入資料的檔案。 管理員定義的工作流將對用戶透明地執行，用戶在導入完成後可以訪問導入結果的詳細資訊。
 

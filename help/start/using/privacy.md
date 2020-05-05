@@ -1,6 +1,6 @@
 ---
-title: 關於Adobe Campaign Standard中的隱私權和建議
-description: 本節內容與Adobe Campaign Standard中的隱私權管理有關。
+title: Adobe Campaign Standard中的隱私權與同意
+description: 本節概述Adobe Campaign Standard中的隱私權、個人資料和同意管理，以及可處理這些項目的工具。
 page-status-flag: never-activated
 uuid: ed9e631c-5ad1-49f1-be1e-b710bc64dc91
 contentOwner: sauviat
@@ -12,7 +12,7 @@ discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0d7dc73afb2e3b69f461d0e389451c9deabc1f23
+source-git-commit: faddcc870adcf9e71e50004a69a219b16ddc044f
 
 ---
 
@@ -110,9 +110,9 @@ Adobe Campaign提供您專屬於隱私權管理的各種功能：
 
 Adobe Campaign原本提供對隱私權至關重要的功能：
 
-* **許可管理**:透過訂閱管理程式，您可以管理收件者的偏好設定，並追蹤哪些收件者已選擇加入何種訂閱類型。 如需詳細資訊，請參 [閱「訂閱](../../audiences/using/about-subscriptions.md) 」 [和「著陸頁面」](../../channels/using/getting-started-with-landing-pages.md)。
-* **資料保留**:所有內置的標準日誌表都具有預設的保留期，通常將其資料儲存限制在6個月或更短。 您可以使用工作流程設定額外的保留期。 如需詳細資訊，請洽詢Adobe顧問或技術管理員。
-* **權限管理**:Adobe Campaign可讓您透過不同的預先建立或自訂角色，管理指派給各種Campaign運算子的權限。 這可讓您管理公司內可存取、修改或匯出不同類型資料的人員。 有關詳細資訊，請參 [閱關於訪問管理](../../administration/using/about-access-management.md)。
+* **許可管理**: 透過訂閱管理程式，您可以管理收件者的偏好設定，並追蹤哪些收件者已選擇加入何種訂閱類型。 如需詳細資訊，請參 [閱「訂閱](../../audiences/using/about-subscriptions.md) 」 [和「著陸頁面」](../../channels/using/getting-started-with-landing-pages.md)。
+* **資料保留**: 所有內置的標準日誌表都具有預設的保留期，通常將其資料儲存限制在6個月或更短。 您可以使用工作流程設定額外的保留期。 如需詳細資訊，請洽詢Adobe顧問或技術管理員。
+* **權限管理**: Adobe Campaign可讓您透過不同的預先建立或自訂角色，管理指派給各種Campaign運算子的權限。 這可讓您管理公司內可存取、修改或匯出不同類型資料的人員。 有關詳細資訊，請參 [閱關於訪問管理](../../administration/using/about-access-management.md)。
 
 如需這些功能以及如何在Adobe Campaign中管理這些功能的詳細資訊，請參 [閱本頁](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#consent)。
 

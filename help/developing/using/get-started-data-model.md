@@ -12,7 +12,7 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aeaddca2188e2bdeda71bd35299ccd14398f3c52
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -61,7 +61,7 @@ Campaign Standard可讓您豐 **富預先定義的資料模型** ，以建立您
 
 <img src="assets/do-not-localize/icon_api.svg" width="60px">
 
-透過Campaign Standard API，建立Adobe Campaign Standard的整合，並將Campaign與您使用的技術面板結合，以建立您自己的生態系統。 [開始使用Campaign Standard REST API](../../api/using/about-campaign-standard-apis.md)
+透過Campaign Standard API，建立Adobe Campaign Standard的整合，並將Campaign與您使用的技術面板結合，以建立您自己的生態系統。 [開始使用Campaign Standard REST API](../../api/using/get-started-apis.md)
 
 ## 其他資源
 

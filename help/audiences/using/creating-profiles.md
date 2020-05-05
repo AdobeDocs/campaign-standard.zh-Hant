@@ -12,7 +12,7 @@ discoiquuid: 4ab8a984-f898-4fff-ad8c-ed8f95362f96
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
 
 * 透過工作流程從檔案匯入描述檔清 [單](../../automating/using/importing-data.md#example--import-workflow-template)
 * 透過登陸頁麵線上收 [集資料](../../channels/using/getting-started-with-landing-pages.md)
-* 透過 [REST API大量建立](../../api/using/about-campaign-standard-apis.md)
+* 透過 [REST API大量建立](../../api/using/get-started-apis.md)
 * 從 [Microsoft Dynamics同步描述檔](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 * 使用圖形介面畫面輸入資料，如下所述
 

@@ -12,7 +12,7 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3c80adb087be0cf420503169f7edf06bd8ae33e0
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 3c80adb087be0cf420503169f7edf06bd8ae33e0
 
 >[!NOTE]
 >
->若要發佈API，請確定您擁有該角 **[!UICONTROL Datamodel]**色。
+>若要發佈API，請確定您擁有該角 **[!UICONTROL Datamodel]** 色。
 
 公開公用API中延伸欄位的步驟如下：
 
@@ -34,4 +34,4 @@ source-git-commit: 3c80adb087be0cf420503169f7edf06bd8ae33e0
 **相關主題：**
 
 * [關於自訂資源](../../developing/using/data-model-concepts.md)
-* [API檔案](../../api/using/about-campaign-standard-apis.md)
+* [API檔案](../../api/using/get-started-apis.md)

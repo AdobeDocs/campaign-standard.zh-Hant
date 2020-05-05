@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e904118852b06263b1320d65867539feb6360053
+source-git-commit: 96a1812ce8775f4bfb3db64a824a9fdc8185ac6b
 
 ---
 
@@ -111,19 +111,17 @@ Adobe Campaign提供預先設定的內容區塊清單。 這些內容區塊是�
 
 現成可用的內容區塊包括：
 
-現成可用的內容區塊包括：
-
-* **[!UICONTROL Database URL in emails (EmailUrlBase)]**:此內容區塊只能用於傳 **送**。
-* **[!UICONTROL Mirror page URL (MirrorPageUrl)]**:此內容區塊只能用於傳 **送**。
-* **[!UICONTROL Link to mirror page (MirrorPage)]**:此內容區塊只能用於傳 **送**。
+* **[!UICONTROL Database URL in emails (EmailUrlBase)]**: 此內容區塊只能用於傳 **送**。
+* **[!UICONTROL Mirror page URL (MirrorPageUrl)]**: 此內容區塊只能用於傳 **送**。
+* **[!UICONTROL Link to mirror page (MirrorPage)]**: 此內容區塊只能用於傳 **送**。
 * **[!UICONTROL Greetings (Greetings)]**
-* **[!UICONTROL Unsubscription link (UnsubscriptionLink)]**:此內容區塊只能用於傳 **送**。
-* **[!UICONTROL Social network sharing links (LandingPageViralLinks)]**:此內容區塊僅能用於著 **陸頁面**。
-* **[!UICONTROL Default sender name (DefaultSenderName)]**:此內容區塊只能用於傳 **送**。
-* **[!UICONTROL Name of default reply-to email address (DefaultReplyName)]**:此內容區塊只能用於傳 **送**。
-* **[!UICONTROL Email address of default sender (DefaultSenderAddress)]**:此內容區塊只能用於傳 **送**。
-* **[!UICONTROL Default error email address (DefaultErrorAddress)]**:此內容區塊只能用於傳 **送**。
-* **[!UICONTROL Default reply-to email address (DefaultReplyAddress)]**:此內容區塊只能用於傳 **送**。
+* **[!UICONTROL Unsubscription link (UnsubscriptionLink)]**: 此內容區塊只能用於傳 **送**。
+* **[!UICONTROL Social network sharing links (LandingPageViralLinks)]**: 此內容區塊僅能用於著 **陸頁面**。
+* **[!UICONTROL Default sender name (DefaultSenderName)]**: 此內容區塊只能用於傳 **送**。
+* **[!UICONTROL Name of default reply-to email address (DefaultReplyName)]**: 此內容區塊只能用於傳 **送**。
+* **[!UICONTROL Email address of default sender (DefaultSenderAddress)]**: 此內容區塊只能用於傳 **送**。
+* **[!UICONTROL Default error email address (DefaultErrorAddress)]**: 此內容區塊只能用於傳 **送**。
+* **[!UICONTROL Default reply-to email address (DefaultReplyAddress)]**: 此內容區塊只能用於傳 **送**。
 * **[!UICONTROL Brand name (BrandingUsualName)]**
 * **[!UICONTROL Link to the brand website (BrandingWebSiteLink)]**
 * **[!UICONTROL Brand logo (BrandingLogo)]**
@@ -143,16 +141,16 @@ Adobe Campaign提供預先設定的內容區塊清單。 這些內容區塊是�
 1. 輸入標籤。
 1. 選擇塊的 **[!UICONTROL Content type]**。 有三種可用選項：
 
-   * **[!UICONTROL Shared]**:內容區塊可用於傳送或著陸頁面。
-   * **[!UICONTROL Delivery]**:內容區塊只能用於傳送。
-   * **[!UICONTROL Landing page]**:內容區塊只能用於著陸頁面。
+   * **[!UICONTROL Shared]**: 內容區塊可用於傳送或著陸頁面。
+   * **[!UICONTROL Delivery]**: 內容區塊只能用於傳送。
+   * **[!UICONTROL Landing page]**: 內容區塊只能用於著陸頁面。
    ![](assets/content_bloc_02.png)
 
 1. 您可以選取 **[!UICONTROL Targeting dimension]**。 如需詳細資訊，請參閱關於 [定位維度](#about-targeting-dimension)。
 
    ![](assets/content_bloc_04.png)
 
-1. 您可以選取選 **[!UICONTROL Depends on format]** 項來定義兩個不同的區塊：一個用於HTML電子郵件，一個用於文本格式的電子郵件。 然後，編輯器（HTML和Text）中會顯示兩個標籤，以定義對應的內容。
+1. 您可以選取選 **[!UICONTROL Depends on format]** 項來定義兩個不同的區塊： 一個用於HTML電子郵件，一個用於文本格式的電子郵件。 然後，編輯器（HTML和Text）中會顯示兩個標籤，以定義對應的內容。
 
    ![](assets/content_bloc_03.png)
 
@@ -200,7 +198,7 @@ Adobe Campaign可讓您根據特定標準或使用追蹤，個人化訊息中的
 
    >[!NOTE]
    >
-   >網域名稱(http://mydomain.com)無法個人化，必須手動輸入。 其餘的URL可以個人化。 例如：http://mydomain.com/`[Gender]`.jpg
+   >網域名稱(http://mydomain.com)無法個人化，必須手動輸入。 其餘的URL可以個人化。 例如： http://mydomain.com/`[Gender]`.jpg
 
 1. 確認您的變更。
 
@@ -214,7 +212,7 @@ Adobe Campaign可讓您根據特定標準或使用追蹤，個人化訊息中的
 
 ![](assets/delivery_content_5.png)
 
-此選項僅適用於下列元素：地址、塊引號、中心、目錄、DIV、DL、FIELDSET、FORM、H1、H2、H3、H4、H5、H6、NOSCRIPT、OL、P、PRE、UL、TR、TD。
+此選項僅適用於下列元素： 地址、塊引號、中心、目錄、DIV、DL、FIELDSET、FORM、H1、H2、H3、H4、H5、H6、NOSCRIPT、OL、P、PRE、UL、TR、TD。
 
 運算式編輯器會顯示在「進階運算式 [編輯」區段中](../../automating/using/editing-queries.md#about-query-editor) 。
 
@@ -239,7 +237,7 @@ Adobe Campaign可讓您根據特定標準或使用追蹤，個人化訊息中的
 
    ![](assets/dynamic_content_3.png)
 
-   依預設，本節包含兩個元素：預設變體和新變體。
+   依預設，本節包含兩個元素： 預設變體和新變體。
 
    >[!NOTE]
    >
@@ -308,9 +306,9 @@ Adobe Campaign可讓您根據特定標準或使用追蹤，個人化訊息中的
 
 每個動態內容只能定義一個優先順序。
 
-## 範例：電子郵件個人化{#example-email-personalization}
+## 範例： 電子郵件個人化{#example-email-personalization}
 
-在此範例中，行銷服務團隊的一名成員已建立電子郵件，通知他的部分客戶，只有他們有特別優惠。 該團隊成員決定根據客戶各自的年齡將電子郵件個人化。 18至27歲的客戶將會收到一封電子郵件，其中包含不同的影像和口號給27歲以上的客戶。
+在此範例中，行銷服務團隊的一名成員已建立電子郵件，通知他的部分客戶，只有他們有特別優惠。 該團隊成員決定根據客戶各自的年齡將電子郵件個人化。 18至27歲的客戶將收到一封電子郵件，其中包含不同的圖片和口號，給27歲以上的客戶。
 
 電子郵件的建立方式如下：
 

@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1de0f5362f3c77fec4b66e330a2d2723f4a0f212
+source-git-commit: caab111b583534cc2e52aa9e45d9fd37c770783c
 
 ---
 
@@ -21,15 +21,15 @@ source-git-commit: 1de0f5362f3c77fec4b66e330a2d2723f4a0f212
 
 開始使用電子郵件設計工具，並從舊版編輯器中建立的電子郵件HTML中建立可重複使用的範本和片段。
 
-此使用案例可讓您使用HTML電子郵件，並將其分為「電子郵件設計器」中的HTML元件，以建立「電子郵件設計器」範本。
-
->[!CAUTION]
+>[!IMPORTANT]
 >
 >本節適用於熟悉HTML程式碼的進階使用者。
 
+此使用案例可讓您使用HTML電子郵件，並將其分為「電子郵件設計器」中的HTML元件，以建立「電子郵件設計器」範本。
+
 >[!NOTE]
 >
->和相容性模式一樣，HTML元件也可編輯，但選項有限：您只能執行就地版本。
+>和相容性模式一樣，HTML元件也可以編輯，但選項有限： 您只能執行就地版本。
 
 ## 準備您的電子郵件內容
 
@@ -40,7 +40,7 @@ source-git-commit: 1de0f5362f3c77fec4b66e330a2d2723f4a0f212
 ## 建立您的電子郵件結構
 
 1. 開啟以 **[!UICONTROL Email Designer]** 建立空的電子郵件內容。
-1. 設定主體級別屬性：背景顏色、寬度等。 如需詳細資訊，請參閱「編輯 [電子郵件樣式](../../designing/using/styles.md)」。
+1. 設定主體級別屬性： 背景顏色、寬度等。 如需詳細資訊，請參閱「編輯 [電子郵件樣式](../../designing/using/styles.md)」。
 1. 添加任意數量的結構元件（如有章節）。 如需詳細資訊，請參閱「 [編輯電子郵件結構」](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 
 ## 新增HTML內容
@@ -96,21 +96,21 @@ source-git-commit: 1de0f5362f3c77fec4b66e330a2d2723f4a0f212
 
 ### 建立電子郵件範本及其結構
 
-1. 拖放以反 **[!UICONTROL Structure Components]** 映我們電子郵件的版面配置。
+1. 拖放以反 **[!UICONTROL Structure components]** 映我們電子郵件的版面配置。
 
-我們需要建立11個結構元件。
+1. 視需要重複多次。 我們需要建立11個結構元件。
 
-![](assets/structure-components-migration.png)
+   ![](assets/structure-components-migration.png)
 
 ### 插入HTML內容元件
 
-1. 在每 **[!UICONTROL HTML component]** 個中插入 **[!UICONTROL structure component]** 。
+1. 在每 **[!UICONTROL HTML component]** 個中插入 **[!UICONTROL Structure component]** 。
 
-![](assets/html-components.png)
+   ![](assets/html-components.png)
 
 1. 針對每個區段，按一下 **[!UICONTROL Show source code]** 。
 
-![](assets/show-source-code.png)
+   ![](assets/show-source-code.png)
 
 1. 插入HTML區段。
 
@@ -122,7 +122,7 @@ source-git-commit: 1de0f5362f3c77fec4b66e330a2d2723f4a0f212
 
 ### 管理樣式以符合行動裝置檢視
 
-插入CSS元素，以確保您的電子郵件適合行動裝置檢視。
+1. 插入CSS元素，以確保您的電子郵件適合行動裝置檢視。
 
 1. 切換至原始碼，並將樣式區段複製貼至新的樣式區段。
 

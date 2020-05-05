@@ -13,14 +13,14 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
 
 # 事件交易式訊息{#event-transactional-messages}
 
-您可以傳送事件交易訊息，以事件為目標。 此類事務性消息不包含配置檔案資訊：傳送目標是由事件本身所包含的資料所定義。
+您可以傳送事件交易訊息，以事件為目標。 此類事務性消息不包含配置檔案資訊： 傳送目標是由事件本身所包含的資料所定義。
 
 建立並發佈事件(如本節所述的購物車放棄 [率](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle))後，就會自動建立對應的交易訊息。
 
@@ -93,7 +93,7 @@ source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
    >
    >放棄購物車的連結是外部URL的連結，會將訪客重新導向至其購物車。 Adobe Campaign不會管理此參數。
 
-1. 在此範例中，您要新增建立事件時所定義的三 [個欄位](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message):名字、最後咨詢的產品、購物車總量。 若要這麼做，請 [在訊息內容中插入個人化欄位](../../designing/using/personalization.md#inserting-a-personalization-field) 。
+1. 在此範例中，您要新增建立事件時所定義的三 [個欄位](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message): 名字、最後咨詢的產品、購物車總量。 若要這麼做，請 [在訊息內容中插入個人化欄位](../../designing/using/personalization.md#inserting-a-personalization-field) 。
 
 1. 瀏覽至> **[!UICONTROL Context]****[!UICONTROL Real-time event]** >的欄位 **[!UICONTROL Event context]**。
 
@@ -150,11 +150,11 @@ source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
 
 1. 選擇系列元素的顯示方式：
 
-   * **[!UICONTROL Row]**:水準，表示一列上另一列下方的每個元素。
-   * **[!UICONTROL Column]**:垂直，表示同一行上的每個元素相鄰。
+   * **[!UICONTROL Row]**: 水準，表示一列上另一列下方的每個元素。
+   * **[!UICONTROL Column]**: 垂直，表示同一行上的每個元素相鄰。
    >[!NOTE]
    >
-   >只 **[!UICONTROL Column]** 有當使用多欄結構元件（、和）時， **[!UICONTROL 2:2 column]****[!UICONTROL 3:3 column]** 才可使用此選 **[!UICONTROL 4:4 column]** 項。 編輯產品清單時，僅填入第一欄：其他欄則不會納入考量。 有關選擇結構元件的詳細資訊，請參 [閱編輯電子郵件結構](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
+   >只 **[!UICONTROL Column]** 有當使用多欄結構元件（、和）時， **[!UICONTROL 2:2 column]****[!UICONTROL 3:3 column]** 才可使用此選 **[!UICONTROL 4:4 column]** 項。 編輯產品清單時，僅填入第一欄： 其他欄則不會納入考量。 有關選擇結構元件的詳細資訊，請參 [閱編輯電子郵件結構](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 
 1. 選擇在配置與事務性消息相關的事件時建立的資料收集。 您可以在> **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** >節點下 **[!UICONTROL Event context]** 找到。
 
@@ -258,7 +258,7 @@ source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
 
 您可以暫停發佈事務性消息， **[!UICONTROL Pause]** 例如使用按鈕修改消息中包含的資料。 因此，這些事件不會再處理，而會保留在Adobe Campaign資料庫的佇列中。
 
-佇列的事件會在REST API中定義的時段內保留(請參閱 [REST API檔案](../../api/using/about-campaign-standard-apis.md))，或在觸發器事件中(如果您使用「觸發器」核心服務，請參閱 [Working with Campaign and Experience Cloud觸發器](../../integrating/using/about-adobe-experience-cloud-triggers.md))。
+佇列的事件會在REST API中定義的時段內保留(請參閱 [REST API檔案](../../api/using/get-started-apis.md))，或在觸發器事件中(如果您使用「觸發器」核心服務，請參閱 [Working with Campaign and Experience Cloud觸發器](../../integrating/using/about-adobe-experience-cloud-triggers.md))。
 
 ![](assets/message-center_pause.png)
 
@@ -296,13 +296,13 @@ source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
 
 * 請確定事務性消息具 **[!UICONTROL Draft]** 有狀態，否則您將無法刪除它。 狀 **[!UICONTROL Draft]** 態會套用至尚未發佈或已未發佈(且未暫停 [](#unpublishing-a-transactional-message) )的 [訊息](#suspending-a-transactional-message-publication)。
 
-* **事務性消息**:除非將另一個事務性消息連結到相應的事件，否則如果事務性消息未發佈，事件配置也需要取消發佈才能成功刪除事務性消息。 如需詳細資訊，請參閱「取 [消發佈事件」](../../administration/using/configuring-transactional-messaging.md#unpublishing-an-event)。
+* **事務性消息**: 除非將另一個事務性消息連結到相應的事件，否則如果事務性消息未發佈，事件配置也需要取消發佈才能成功刪除事務性消息。 如需詳細資訊，請參閱「取 [消發佈事件」](../../administration/using/configuring-transactional-messaging.md#unpublishing-an-event)。
 
    >[!IMPORTANT]
    >
    >刪除已發送通知的事務性消息也會刪除其發送和跟蹤日誌。
 
-* **來自現成可用事件範本的交易訊息（內部交易訊息）**:如果內部事務性消息是唯一與相應內部事件關聯的消息，則無法刪除該消息。 您必須先複製或透過「 > >」功能表，建立另 **[!UICONTROL Resources]** 一個 **[!UICONTROL Templates]** 交易 **[!UICONTROL Transactional message templates]** 訊息。
+* **來自現成可用事件範本的交易訊息（內部交易訊息）**: 如果內部事務性消息是唯一與相應內部事件關聯的消息，則無法刪除該消息。 您必須先複製或透過「 > >」功能表，建立另 **[!UICONTROL Resources]** 一個 **[!UICONTROL Templates]** 交易 **[!UICONTROL Transactional message templates]** 訊息。
 
 ## 事務性消息重試過程 {#transactional-message-retry-process}
 

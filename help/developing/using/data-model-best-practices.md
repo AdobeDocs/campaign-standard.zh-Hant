@@ -14,6 +14,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+workflow-type: tm+mt
+source-wordcount: '1556'
+ht-degree: 0%
 
 ---
 
@@ -170,6 +173,6 @@ When you are performing an initial import with very high volumes of data insert 
 以下是使用大型表和複雜連接設計資料模型時應遵循的一些最佳實踐。
 
 * 減少欄數，尤其是識別未使用的欄數。
-* 通過避免複雜的連接（如多個條件上的連接和／或多個列上的連接）優化資料模型關係。
+* 通過避免複雜的連接（如多個條件和／或多個列上的連接）來優化資料模型關係。
 * 對於連接鍵，請始終使用數字資料，而不是字串。
 * 盡可能減少日誌保留深度。 如果您需要更深入的歷史記錄，您可以匯整計算和／或處理自訂的日誌表，以儲存較大的歷史記錄。

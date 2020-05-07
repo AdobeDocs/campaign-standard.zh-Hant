@@ -3,6 +3,9 @@ title: 使用複合識別鍵呼叫資源
 description: 瞭解如何使用複合識別碼呼叫資源
 translation-type: tm+mt
 source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

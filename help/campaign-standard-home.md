@@ -5,6 +5,9 @@ title: Adobe Campaign Standard 產品文件
 topic: Premium
 translation-type: tm+mt
 source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+workflow-type: tm+mt
+source-wordcount: '197'
+ht-degree: 40%
 
 ---
 

@@ -14,6 +14,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+workflow-type: tm+mt
+source-wordcount: '2479'
+ht-degree: 0%
 
 ---
 
@@ -296,7 +299,7 @@ source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 * 請確定事務性消息具 **[!UICONTROL Draft]** 有狀態，否則您將無法刪除它。 狀 **[!UICONTROL Draft]** 態會套用至尚未發佈或已未發佈(且未暫停 [](#unpublishing-a-transactional-message) )的 [訊息](#suspending-a-transactional-message-publication)。
 
-* **事務性消息**: 除非將另一個事務性消息連結到相應的事件，否則如果事務性消息未發佈，則事件配置也需要取消發佈才能成功刪除事務性消息。 如需詳細資訊，請參閱「取 [消發佈事件」](../../administration/using/configuring-transactional-messaging.md#unpublishing-an-event)。
+* **事務性消息**: 除非將另一個事務性消息連結到相應的事件，否則如果事務性消息未發佈，事件配置也需要取消發佈才能成功刪除事務性消息。 如需詳細資訊，請參閱「取 [消發佈事件」](../../administration/using/configuring-transactional-messaging.md#unpublishing-an-event)。
 
    >[!IMPORTANT]
    >

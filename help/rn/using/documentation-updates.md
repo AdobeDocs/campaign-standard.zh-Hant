@@ -12,7 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: 0c91c22bf181607ae35297532562e20b63771e4a
+workflow-type: tm+mt
+source-wordcount: '5775'
+ht-degree: 1%
 
 ---
 
@@ -717,7 +720,7 @@ SMS檔案已更新，SMS自動回覆區段已新增 [一些說明](../../channel
 
 與Adobe Analytics共用的KPI詳細清單。 [閱讀更多資訊](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
 
-新動態報表影片。 [閱讀更多資訊](../../start/using/how-to-videos.md)
+新動態報表影片。
 
 新增S3帳戶建議。 [閱讀更多資訊](../../administration/using/external-accounts.md#amazon-s3-account-recommendations)
 
@@ -759,7 +762,7 @@ Adobe Campaign通知——閱 [讀更多](../../administration/using/sending-int
 
 **此版本隨附的其他檔案更新**
 
-開始 [使用指南](../../start/using/step-by-step-guides.md) , [](../../start/using/how-to-videos.md) 以及教學影片已重新分組至專屬區段。
+快速入門手冊和操作說明影片已重新分組至專屬區域。
 
 電子郵件轉換檔案已更新。 [閱讀更多資訊](../../sending/using/email-rendering.md)
 

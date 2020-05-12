@@ -13,7 +13,10 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: faddcc870adcf9e71e50004a69a219b16ddc044f
+source-git-commit: e2303055b3370efab204adbdb1b9f567a555a23f
+workflow-type: tm+mt
+source-wordcount: '2331'
+ht-degree: 0%
 
 ---
 
@@ -40,7 +43,7 @@ source-git-commit: faddcc870adcf9e71e50004a69a219b16ddc044f
 
 * **授權遮色片欄位**
 
-   列出 **[!UICONTROL Header parameters of sent emails]** 可用來傳送電子郵件給收件者（寄件者位址）並通知其任何錯誤（錯誤位址）的授權電子郵件地址。  Adobe Campaign會檢查輸入的地址在訊息準備階段是否有效。 此操作模式可確保不使用任何可能觸發傳遞性問題的地址。
+   本 **[!UICONTROL Header parameters of sent emails]** 節列出您可用來傳送電子郵件給收件者（寄件者位址），並讓他們傳回自動回覆的電子郵件地址，例如非同步彈回、離職回覆等。 （錯誤地址）。  Adobe Campaign會檢查輸入的地址在訊息準備階段是否有效。 此操作模式可確保不使用任何可能觸發傳遞性問題的地址。
    * 傳送者和錯誤位址皆由Adobe設定。 這些欄位不能是空的。
    * 您無法編輯這些欄位。 若要更新地址，請聯絡Adobe客戶服務團隊。
    * 若要新增其他位址，您可以使用 [「控制面板](https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html) 」來設定新的子網域，或聯絡Adobe客戶服務團隊。 請注意，如果使用數個遮色片，則會以逗號分隔。
@@ -53,7 +56,7 @@ source-git-commit: faddcc870adcf9e71e50004a69a219b16ddc044f
 
 * **傳送參數**
 
-   Adobe Campaign會從開始日期開始傳送訊息。 該 **[!UICONTROL Message delivery duration]** 欄位允許您指定消息的發送期間。
+   Adobe Campaign會從開始日期開始傳送訊息。 此欄 **[!UICONTROL Message delivery duration]** 位可讓您指定傳送中遇到暫時錯誤或軟彈回數的任何訊息會重試的時間範圍。
 
    >[!IMPORTANT]
    >
@@ -73,7 +76,7 @@ source-git-commit: faddcc870adcf9e71e50004a69a219b16ddc044f
 
 * **電子郵件隔離參數**
 
-   在欄位 **[!UICONTROL Time between two significant errors]** 中輸入值，以定義應用程式在發生故障時，在增加錯誤計數器之前等待的時間。 預設值為 **&quot;1d&quot;**,1天。
+   在欄位 **[!UICONTROL Time between two significant errors]** 中輸入值，以定義應用程式在發生軟跳回故障時增加錯誤計數器之前等待的時間。 預設值為 **&quot;1d&quot;**,1天。
 
    到達值 **[!UICONTROL Maximum number of errors before quarantine]** 後，會隔離電子郵件地址。 預設值為 **&quot;5&quot;**: 第五個錯誤時，地址將被隔離。 這表示該連絡人將自動排除在後續傳送之外。
    <!--Actually the way ACS works is that the address is already on the quarantine list on the first bounce, but with a different status meaning that the error count has started.-->
@@ -104,7 +107,7 @@ source-git-commit: faddcc870adcf9e71e50004a69a219b16ddc044f
 
 非同步彈回數仍由Campaign inMail程式透過規則來 **[!UICONTROL Bounce mails]** 限定。
 
-此規則包含可由遠端伺服器傳回的字元字串清單，讓您限定錯誤(**Hard**、 **Soft** 或 **Ignored**)。
+這些規則包含可由遠端伺服器傳回的字元字串清單，可讓您限定錯誤(**Hard**、 **Soft** 或 **Ignored**)。
 
 >[!NOTE]
 >
@@ -237,7 +240,7 @@ The number of retries can be changed globally (contact your Adobe technical admi
 
 >[!NOTE]
 >
->參數 **[!UICONTROL Delivery duration]** 不適用於事務性消息。 有關交易式訊息的詳細資訊，請參 [閱本節](../../channels/using/about-transactional-messaging.md)。
+>參數 **[!UICONTROL Delivery duration]** 不適用於事務性消息。 有關交易式訊息的詳細資訊，請 [參閱本節](../../channels/using/about-transactional-messaging.md)。
 
 ### 追蹤參數 {#tracking-parameters}
 
@@ -275,7 +278,7 @@ The number of retries can be changed globally (contact your Adobe technical admi
 
 「批准消息」部分中將詳細 [介紹準備消息](../../sending/using/preparing-the-send.md) 。
 
-* **[!UICONTROL Typology]**: 在傳送之前，必須準備訊息，才能驗證內容和設定。 在準備階段期間應用的驗證規則以類型學 **定義**。 例如，對於電子郵件，準備包括檢查主題、URL和影像等。 選擇要在此欄位中應用的類型學。
+* **[!UICONTROL Typology]**: 在傳送之前，必須準備訊息，才能驗證內容和設定。 在準備階段應用的驗證規則以類型學定 **義**。 例如，對於電子郵件，準備包括檢查主題、URL和影像等。 選擇要在此欄位中應用的類型學。
 
    >[!NOTE]
    >

@@ -13,7 +13,10 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: a73cbdd1af2ce134e10222ab07709639ba419ebe
+source-git-commit: fef25718906ba52158ebe4d53bbadc799cd5dd88
+workflow-type: tm+mt
+source-wordcount: '1551'
+ht-degree: 9%
 
 ---
 
@@ -48,7 +51,7 @@ Adobe Campaign隨附一組預先定義的外部帳戶。 若要設定與外部�
 1. Click the **[!UICONTROL Create]** button.
 1. 輸入標籤。 在工作流程中選取外部帳戶時，將會使用標籤和ID。
 1. 選擇要建立的帳戶類型。
-1. 在相關時指定憑證、伺服器位址、埠號或金鑰，以設定帳戶存取權。
+1. 在相關時指定憑證、伺服器位址、埠號或金鑰，以設定帳戶的存取權。
 
    所需資訊通常由您所連接的伺服器提供商提供。
 
@@ -158,7 +161,7 @@ Google reCAPTCHA機制可讓您保護著陸頁面，使其免受機器人程式�
 >
 >在Adobe Campaign Standard中設定外部帳戶所需的資訊，可在Azure入口網站中，透過選取 **[!UICONTROL Settings]** >找到 **[!UICONTROL Access keys]**。
 
-Azure Blob儲存連接器可用來使用傳輸檔案工作流程活動，將資料匯入或 **[!UICONTROLT匯出]** 至Adobe Campaign。 For more on this, refer to this [section](../../automating/using/transfer-file.md#azure-blob-configuration-wf).
+Azure Blob儲存連接器可用來匯入或匯出資料至Adobe Campaign，使用工作流程 **[!UICONTROL Transfer file]** 活動。 For more on this, refer to this [section](../../automating/using/transfer-file.md#azure-blob-configuration-wf).
 
 對於Microsoft Azure Blob儲存外部帳戶，請提供以下詳細資訊：
 

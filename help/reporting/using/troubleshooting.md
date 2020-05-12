@@ -12,7 +12,10 @@ discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 001fc2df11e32bdcc31dfe917884460b4d3de541
+source-git-commit: a894e72bb02fbecb86d43c6d2a13adf7ab10f73e
+workflow-type: tm+mt
+source-wordcount: '665'
+ht-degree: 5%
 
 ---
 
@@ -36,9 +39,9 @@ P1會在第一天開啟兩次電子郵件，然後在第二天開啟三次。
 <table> 
  <thead> 
   <tr> 
-   <th align="center"> <strong>日</strong><br /> </th> 
+   <th align="center"> <strong>日</strong> <br /> </th> 
    <th align="center"> <strong>開啟的郵件</strong> <br /> </th> 
-   <th align="center"> <strong>唯一開啟次數</strong><br /> </th> 
+   <th align="center"> <strong>唯一開啟</strong> <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -64,9 +67,9 @@ P1會在第一天開啟兩次電子郵件，然後在第二天開啟三次。
 <table> 
  <thead> 
   <tr> 
-   <th align="center"> <strong>日</strong><br /> </th> 
+   <th align="center"> <strong>日</strong> <br /> </th> 
    <th align="center"> <strong>開啟的郵件</strong> <br /> </th> 
-   <th align="center"> <strong>唯一開啟次數</strong><br /> </th> 
+   <th align="center"> <strong>唯一開啟</strong> <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -91,7 +94,7 @@ P1會在第一天開啟兩次電子郵件，然後在第二天開啟三次。
 
 這可能是因為，即使我們無法追蹤動作，動態報表中也會使用啟發式來追蹤開 **[!UICONTROL Open]** 啟。
 
-例如，如果使用者在其用戶端上停用影像，然後按一下電子郵件中的連結，則資料庫 **[!UICONTROL Open]** 可能不會追蹤影像，但會 **[!UICONTROL Click]** 追蹤。
+例如，如果使用者在其用戶端上停用影像，然後按一下電子郵件中的連結，則資料庫 **[!UICONTROL Open]** 可能不會追蹤該影像，但會 **[!UICONTROL Click]** 追蹤。
 
 因此，追 **[!UICONTROL Open]** 蹤記錄計數在資料庫中可能沒有相同的計數。
 
@@ -100,6 +103,57 @@ P1會在第一天開啟兩次電子郵件，然後在第二天開啟三次。
 >[!NOTE]
 >
 >由於唯一計數是以HLL為基礎的草圖為基礎，因此可體驗計數之間細微的不一致。
+
+## 如何計算循環／交易傳送的計數？ {#counts-recurring-deliveries}
+
+使用循環傳送和交易傳送時，計數會歸因於父傳送和子傳送。
+我們可以舉一個名為 **R1** set的循環傳送的示例，該傳送設定為每天在第1天(RC1)、第2天(RC2)和第3天(RC3)運行。
+假設只有一個人多次開啟所有子交貨。 在這種情況下，個別循環子傳送會將每個 **[!UICONTROL Open]** 的計數顯示為1。
+但是，由於同一人點按了所有傳送，因此父循環傳送也會有 **[!UICONTROL Unique open]** 1個。
+
+報表應如下所示：
+
+<table> 
+ <thead> 
+  <tr> 
+   <th align="center"> <strong>傳送</strong> <br /> </th> 
+   <th align="center"> <strong>已傳送</strong> <br /> </th> 
+   <th align="center"> <strong>交付</strong> <br /> </th>
+   <th align="center"> <strong>開啟的郵件</strong> <br /> </th> 
+   <th align="center"> <strong>唯一開啟</strong> <br /> </th>
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td align="center"> <strong>R1<br/> </td> 
+   <td align="center"> <strong>100<br/> </td> 
+   <td align="center"> <strong>90<br/> </td> 
+   <td align="center"> <strong>10<br/> </td> 
+   <td align="center"> <strong>3<br/> </td> 
+  </tr> 
+  <tr> 
+   <td align="center"> RC1<br/> </td> 
+   <td align="center"> 20<br /> </td> 
+   <td align="center"> 20<br /> </td> 
+   <td align="center"> 6<br /> </td> 
+   <td align="center"> 1<br /> </td> 
+  </tr>
+    <tr> 
+   <td align="center"> RC2<br /> </td> 
+   <td align="center"> 40<br /> </td> 
+   <td align="center"> 30<br /> </td> 
+   <td align="center"> 2<br /> </td> 
+   <td align="center"> 1<br /> </td> 
+  </tr> 
+    <tr> 
+   <td align="center"> RC3<br /> </td> 
+   <td align="center"> 40<br /> </td> 
+   <td align="center"> 40<br /> </td> 
+   <td align="center"> 2<br /> </td> 
+   <td align="center"> 1<br /> </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 ## 顏色在我的報告表裡有什麼意義？ {#reports-color-signification}
 

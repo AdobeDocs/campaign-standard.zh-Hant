@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0c91c22bf181607ae35297532562e20b63771e4a
+source-git-commit: 72d27b33d6e69af47b34cc6bfeae7b34911e8d10
 workflow-type: tm+mt
-source-wordcount: '5775'
+source-wordcount: '5807'
 ht-degree: 1%
 
 ---
@@ -29,6 +29,8 @@ ht-degree: 1%
 「促銷活動標準」概觀頁面已豐富並重新組織為主題主題。 [閱讀更多資訊](../../start/using/about-campaign-standard.md)
 
 「電子郵件渠道參數」區段已清楚顯示授權遮色片欄位和傳送報表ID的詳細資訊。 [閱讀更多資訊](../../administration/using/configuring-email-channel.md)
+
+核心檔案現在提供使用Adobe Experience Platform SDK來設定行動應用程式，其中包含Launch技術工作流程中Sync Mobile應用程式AEPSDK的詳細資訊。 [閱讀更多資訊](../../administration/using/configuring-a-mobile-application.md)
 
 ## 版本20.3 - 2020年5月 {#release-20-3---may-2020}
 

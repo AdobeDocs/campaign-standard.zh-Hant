@@ -6,15 +6,15 @@ user-guide-title: Adobe Campaign Standard 說明
 translation-type: tm+mt
 source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1441'
+ht-degree: 93%
 
 ---
 
 
 # Adobe Campaign Standard 說明 {#using}
 
-+ [產品文檔](campaign-standard-home.md)
++ [產品文件](campaign-standard-home.md)
 + [最新更新](rn/using/documentation-updates.md)
 + 發行說明 {#release-notes}
    + [最新版本](rn/using/release-notes.md)
@@ -24,7 +24,7 @@ ht-degree: 0%
       + [發行說明 2018 年](rn/using/release-notes-2018.md)
       + [發行說明 2017 年](rn/using/release-notes-2017.md)
    + [發行計畫](rn/using/release-planning.md)
-   + [不建議使用的功能](rn/using/deprecated-features.md)
+   + [已棄用的功能](rn/using/deprecated-features.md)
 + 快速入門 {#getting-started}
    + [關於Adobe Campaign Standard](start/using/about-campaign-standard.md)
    + [隱私權與同意](start/using/privacy.md)
@@ -63,7 +63,7 @@ ht-degree: 0%
       + [識別要傳送的退出設定檔](audiences/using/identifying-opt-out-profiles-for-a-delivery.md)
    + 使用 Adobe Experience Platform {#working-with-adobe-experience-platform}
       + [關於 Audience Destinations 服務](audiences/using/aep-about-audience-destinations-service.md)
-      + [管理 Adobe Experience Platform 受眾](audiences/using/aep-managing-audiences.md)
+      + [管理 Adobe Experience Platform 閱聽眾](audiences/using/aep-managing-audiences.md)
       + [使用統一的區段產生器](audiences/using/aep-using-segment-builder.md)
 + 通訊通道 {#communication-channels}
    + [開始使用通訊管道](channels/using/get-started-communication-channels.md)
@@ -90,11 +90,11 @@ ht-degree: 0%
       + [準備和傳送推播通知](channels/using/preparing-and-sending-a-push-notification.md)
       + [自訂推播通知](channels/using/customizing-a-push-notification.md)
       + [建立多語言推播通知](channels/using/creating-a-multilingual-push-notification.md)
-      + [產生多語言推播通知的CSV檔案](channels/using/generating-csv-multilingual-push.md)
+      + [產生多語言推播通知的 CSV 檔案](channels/using/generating-csv-multilingual-push.md)
       + [基於行動應用程式資料來建立和更新設定檔資訊](channels/using/updating-profile-with-mobile-app-data.md)
-      + [實作推播追蹤](channels/using/push-tracking.md)
-      + [從Adobe Campaign Standard推播通知顯示影像](channels/using/image-push-notification.md)
-      + [瞭解Campaign Standard推播通知裝載結構](channels/using/push-payload.md)
+      + [實施推播追蹤](channels/using/push-tracking.md)
+      + [從 Adobe Campaign Standard 推播通知顯示影像](channels/using/image-push-notification.md)
+      + [瞭解 Campaign Standard 推播通知裝載結構](channels/using/push-payload.md)
    + 應用程式內訊息傳送{#in-app-messaging}
       + [關於應用程式內訊息傳送](channels/using/about-in-app-messaging.md)
       + [準備和傳送應用程式內訊息](channels/using/preparing-and-sending-an-in-app-message.md)
@@ -106,8 +106,8 @@ ht-degree: 0%
       + [定義直接郵件閱聽眾](channels/using/defining-the-direct-mail-audience.md)
       + [定義直接郵件內容](channels/using/defining-the-direct-mail-content.md)
       + [工作流程中的直接郵件示例](channels/using/example-of-direct-mail-in-a-workflow.md)
-   + 交易式訊息傳遞{#transactional-messaging}
-      + [關於交易式訊息傳遞](channels/using/about-transactional-messaging.md)
+   + 交易式訊息傳送 {#transactional-messaging}
+      + [關於交易式訊息傳送](channels/using/about-transactional-messaging.md)
       + [事件交易式訊息](channels/using/event-transactional-messages.md)
       + [設定檔交易式訊息](channels/using/profile-transactional-messages.md)
       + [交易式推播通知](channels/using/transactional-push-notifications.md)
@@ -157,7 +157,7 @@ ht-degree: 0%
       + [使用電子郵件密件副本進行歸檔](sending/using/archiving.md)
    + 監控訊息 {#monitoring-messages}
       + [監控傳送](sending/using/monitoring-a-delivery.md)
-      + [發生故障時接收警報](sending/using/receiving-alerts-when-failures-happen.md)
+      + [發生故障時收到警報](sending/using/receiving-alerts-when-failures-happen.md)
       + [瞭解傳送故障](sending/using/understanding-delivery-failures.md)
       + [瞭解隔離管理](sending/using/understanding-quarantine-management.md)
    + 管理傳送能力 {#managing-deliverability}
@@ -209,46 +209,46 @@ ht-degree: 0%
       + [根據工作流程細分建立報告](reporting/using/creating-a-report-workflow-segment.md)
 + 與其他解決方案整合 {#integrating-with-adobe-cloud}
    + [開始使用Campaign整合](integrating/using/get-started-campaign-integrations.md)
-   + 促銷活動與體驗管理員 {#working-with-campaign-and-experience-manager}
+   + Campaign 與 Experience Manager {#working-with-campaign-and-experience-manager}
       + [關於 Campaign-Experience Manager 整合](integrating/using/integrating-with-experience-manager.md)
-      + [設定Campaign-Experience Manager整合](integrating/using/configure-experience-manager.md)
+      + [設定 Campaign-Experience Manager 整合](integrating/using/configure-experience-manager.md)
       + [在 Adobe Experience Manager 中建立電子郵件內容](integrating/using/creating-email-experience-manager.md)
       + [在 Experience Manager 中建立 Campaign 表單](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
-   + 促銷活動與目標 {#working-with-campaign-and-target}
+   + Campaign 與 Target {#working-with-campaign-and-target}
       + [關於 Campaign-Target 整合](integrating/using/about-campaign-target-integration.md)
       + [設定 Campaign-Target 整合](integrating/using/configuring-the-campaign-target-integration.md)
       + [新增 Target 動態內容](integrating/using/adding-target-dynamic-content.md)
-   + 促銷活動與分析 {#working-with-campaign-and-analytics}
+   + Campaign 與 Analytics {#working-with-campaign-and-analytics}
       + [關於 Campaign-Analytics 整合](integrating/using/about-campaign-analytics-integration.md)
       + [設定 Campaign-Analytics 整合](integrating/using/configure-campaign-analytics-integration.md)
-      + [Analytics 中 Campaign 維度和度量](integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
-   + Campaign and Audience Manager or People core service {#working-with-campaign-and-audience-manager-or-people-core-service}
+      + [Analytics 中的 Campaign 維度和度量](integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
+   + Campaign 與 Audience Manager 或 People 核心服務 {#working-with-campaign-and-audience-manager-or-people-core-service}
       + [關於 Campaign-Audience Manager 或 People 核心服務整合](integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
       + [布建與設定與 Audience Manager 或 People 核心服務整合](integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
       + [疑難排解](integrating/using/troubleshooting.md)
       + [與 Audience Manager 或 People 核心服務共用閱聽眾](integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
       + [協作使用 Campaign 與 Assets 核心服務](integrating/using/working-with-campaign-and-assets-core-service.md)
-   + 行動裝置的促銷活動與分析 {#working-with-campaign-and-analytics-for-mobile}
+   + 行動裝置適用 Campaign 與 Analytics {#working-with-campaign-and-analytics-for-mobile}
       + [關於 Campaign-Points of Interest 資料整合](integrating/using/about-campaign-points-of-interest-data-integration.md)
       + [設定 Campaign-Points of Interest 資料整合](integrating/using/configuring-campaign-points-of-interest-data-integration.md)
       + [使用 Point of Interest 資料個人化 Campaign 訊息](integrating/using/personalizing-campaign-messages-with-point-of-interest-data.md)
-   + 促銷活動和觸發器 {#working-with-campaign-and-triggers}
+   + Campaign 與觸發程式 {#working-with-campaign-and-triggers}
       + [關於 Adobe Experience Cloud 觸發程式](integrating/using/about-adobe-experience-cloud-triggers.md)
       + [在 Experience Cloud 中設定觸發程式](integrating/using/configuring-triggers-in-experience-cloud.md)
       + [在 Campaign 中使用觸發程式](integrating/using/using-triggers-in-campaign.md)
       + [測試您的觸發程式](integrating/using/testing-your-triggers.md)
       + [廢棄觸發程式使用案例](integrating/using/abandonment-triggers-use-cases.md)
-   + Campaign和Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-      + [配置Adobe IO for Microsoft Dynamics 365整合](integrating/using/configure-adobe-io-for-ms-dynamic.md)
-      + 使用Campaign Standard和Microsoft Dynamics 365 {#working-with-campaign-standard-and-ms-dynamics}
+   + Campaign 和 Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
+      + [設定 Adobe IO for Microsoft Dynamics 365 整合](integrating/using/configure-adobe-io-for-ms-dynamic.md)
+      + 使用 Campaign Standard 和 Microsoft Dynamics 365 {#working-with-campaign-standard-and-ms-dynamics}
          + [開始使用Microsoft Dynamics 365整合](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
          + [關於Microsoft Dynamics 365整合](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
          + [要求並設定Microsoft Dynamics 365整合](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
          + [使用Microsoft Dynamics 365整合](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
-      + [配置Adobe IO for Microsoft Dynamics 365整合](integrating/using/configure-adobe-io-for-ms-dynamic.md)
-      + [設定Microsoft Dynamics 365以進行促銷活動整合](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
-      + [針對Microsoft Dynamics 365整合設定Unifi](integrating/using/configure-unifi-for-microsoft-dynamics-365-integration.md)
-      + [映射促銷活動自訂資源和Dynamics 365自訂實體](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
+      + [設定 Adobe IO for Microsoft Dynamics 365 整合](integrating/using/configure-adobe-io-for-ms-dynamic.md)
+      + [設定 Microsoft Dynamics 365 以進行 Campaign 整合](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
+      + [設定 Unifi 以進行 Microsoft Dynamics 365 整合](integrating/using/configure-unifi-for-microsoft-dynamics-365-integration.md)
+      + [映射 Campaign 自訂資源和 Dynamics 365 Custom 實體](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
 + 管理流程和資料 {#managing-processes-and-data}
    + [開始使用資料和流程管理](automating/using/get-started-workflows.md)
    + 工作流程一般操作 {#workflow-general-operation}
@@ -264,7 +264,7 @@ ht-degree: 0%
       + [關於目標定位活動](automating/using/about-targeting-activities.md)
       + [查詢](automating/using/query.md)
       + [增量查詢](automating/using/incremental-query.md)
-      + [聯合](automating/using/union.md)
+      + [聯集](automating/using/union.md)
       + [交集](automating/using/intersection.md)
       + [排除](automating/using/exclusion.md)
       + [細分](automating/using/segmentation.md)
@@ -317,8 +317,8 @@ ht-degree: 0%
       + [重新鎖定非開啟者](automating/using/workflow-cross-channel-retargeting.md)
       + [建立控制群組](automating/using/workflow-control-group.md)
       + [建立跨通道傳送](automating/using/workflow-cross-channel-delivery.md)
-   + 與 Adobe Experience Platform 受眾合作 {#working-with-aep-audiences}
-      + [鎖定 Adobe Experience Platform 受眾](automating/using/aep-targeting-audiences.md)
+   + 與 Adobe Experience Platform 閱聽眾合作 {#working-with-aep-audiences}
+      + [鎖定 Adobe Experience Platform 閱聽眾](automating/using/aep-targeting-audiences.md)
       + [使用 Adobe Experience Platform屬性個人化行銷活動](automating/using/aep-personalizing-campaigns.md)
 + 開發 {#developing}
    + [開始使用Campaign Standard資料模型](developing/using/get-started-data-model.md)
@@ -346,8 +346,8 @@ ht-degree: 0%
       + [將訂閱擴充到應用程式資源](developing/using/extending-the-subscriptions-to-an-application-resource.md)
    + 資料模型 {#datamodel}
       + [簡介](developing/using/datamodel-introduction.md)
-      + [受眾](developing/using/datamodel-audience.md)
-      + [行銷活動](developing/using/datamodel-campaign.md)
+      + [閱聽眾](developing/using/datamodel-audience.md)
+      + [Campaign](developing/using/datamodel-campaign.md)
       + [傳送](developing/using/datamodel-delivery.md)
       + [登錄頁面](developing/using/datamodel-landingpage.md)
       + [行銷歷史記錄](developing/using/datamodel-history.md)

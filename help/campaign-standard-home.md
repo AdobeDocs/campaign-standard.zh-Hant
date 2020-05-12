@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 workflow-type: tm+mt
 source-wordcount: '197'
-ht-degree: 40%
+ht-degree: 100%
 
 ---
 
@@ -18,11 +18,13 @@ ht-degree: 40%
 
 ## 新增功能
 
-* **[使用目標設定檔進行電子郵件測](sending/using/testing-messages-using-target.md)**<br/>試瞭解如何在目標設定檔上測試您的電子郵件
+* **[使用目標設定檔進行電子郵件測試](sending/using/testing-messages-using-target.md)**<br/>使用目標設定檔進行電子郵件測試
 
-* **[隱私權管](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>&#x200B;理瞭解Adobe Campaign提供的工具，協助您符合隱私權規範
+* **[隱私權管理](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>
+瞭解 Adobe Campaign 所提供用來協助您遵從隱私權要求的工具
 
-* **[Campaign Standard行動指南](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>&#x200B;進一步瞭解行動傳送的一般准則
+* **[Campaign Standard 行動指南](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>
+進一步瞭解行動傳送的一般準則
 
 [按一下這裡以取得更多更新](rn/using/documentation-updates.md)
 
@@ -37,7 +39,7 @@ ht-degree: 40%
     <div>
     <a href="administration/using/about-access-management.md"><strong>角色與安全群組</strong></a>
     </div>
-    <em>瞭解如何定義權限並指派角色給Campaign使用者</em>
+    <em>瞭解如何定義權限並向 Campaign 使用者指派角色</em>
     <br>
   </td>
   <td valign="top">
@@ -65,9 +67,9 @@ ht-degree: 40%
 
 | 有用的頁面 | 面向開發人員的資源 |
 |---|---|
-| [發行說明](rn/using/release-notes.md) | [Experience Cloud觸發器](integrating/using/about-adobe-experience-cloud-triggers.md) |
-| [控制面板檔案](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/control-panel-home.html) | [促銷活動API](api/using/get-started-apis.md) |
-| [實施指南](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html) | [錯誤消息清單](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
-| [發行計畫](rn/using/release-planning.md) | [促銷活動資料模型](developing/using/datamodel-introduction.md) |
-| [已過時和移除的功能](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) | [多解決方案指南](integrating/using/get-started-campaign-integrations.md) |
-| [開始使用Campaign Standard](start/using/about-campaign-standard.md) | [技術說明](https://helpx.adobe.com/campaign/kb/acs-article-list.html) |
+| [發行說明](rn/using/release-notes.md) | [Experience Cloud 觸發程式](integrating/using/about-adobe-experience-cloud-triggers.md) |
+| [控制面板文件](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/control-panel-home.html) | [Campaign API](api/using/get-started-apis.md) |
+| [實施指南](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html) | [錯誤訊息清單](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
+| [發行計畫](rn/using/release-planning.md) | [Campaign 資料模型](developing/using/datamodel-introduction.md) |
+| [已棄用及已移除的功能](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) | [多解決方案指南](integrating/using/get-started-campaign-integrations.md) |
+| [開始使用 Campaign Standard](start/using/about-campaign-standard.md) | [技術說明](https://helpx.adobe.com/campaign/kb/acs-article-list.html) |

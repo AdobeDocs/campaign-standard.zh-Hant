@@ -1,5 +1,5 @@
 ---
-title: 發生故障時接收警報
+title: 發生故障時收到警報
 description: 瞭解如何使用警報管理系統。
 page-status-flag: never-activated
 uuid: a3ab733a-e3db-4adc-b930-cd4064b6dc1c
@@ -12,12 +12,15 @@ discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
+source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+workflow-type: tm+mt
+source-wordcount: '2026'
+ht-degree: 1%
 
 ---
 
 
-# 發生故障時接收警報{#receiving-alerts-when-failures-happen}
+# 發生故障時收到警報{#receiving-alerts-when-failures-happen}
 
 ## 關於傳送警報 {#about-delivery-alerting}
 
@@ -102,13 +105,13 @@ source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
 
 傳送警報控制面板中可使用下列標準：
 
-* **[!UICONTROL Deliveries failed]**:在定義範圍內排程的任何傳送，其狀態都有誤。
-* **[!UICONTROL Deliveries with preparation failed]**:任何在定義範圍內修改的傳送，其準備步驟（目標計算和內容產生）均失敗。 如需詳細資訊，請參 [閱準備傳送](../../sending/using/preparing-the-send.md)。
-* **[!UICONTROL Delivery with bad error ratio for soft bounces]**:任何已排程在定義範圍內的傳送，其狀態至少為 **[!UICONTROL In progress]**，且軟反彈錯誤率大於定義的百分比。
-* **[!UICONTROL Delivery with bad error ratio for hard bounces]**:任何已排程在定義範圍內的傳送，其狀態至少 **[!UICONTROL In progress]**&#x200B;為，硬反彈錯誤率大於定義的百分比。
-* **[!UICONTROL Deliveries with long start pending]**:任何在定義範圍內排程的傳送， **[!UICONTROL Start pending]** 其狀態長於定義的持續時間， **[!UICONTROL Start pending]** 狀態表示系統尚未考慮這些訊息。
-* **[!UICONTROL Deliveries with low throughput]**:任何開始的傳送時間都超過定義的持續時間，且小於已處理消息的定義百分比，且吞吐量低於定義值。
-* **[!UICONTROL Deliveries in progress]**:在已定義範圍內排程的任何傳送，其狀態 **[!UICONTROL In progress]** 為。
+* **[!UICONTROL Deliveries failed]**: 在定義範圍內排程的任何傳送，其狀態都有誤。
+* **[!UICONTROL Deliveries with preparation failed]**: 任何在定義範圍內修改的傳送，其準備步驟（目標計算和內容產生）均失敗。 如需詳細資訊，請參 [閱準備傳送](../../sending/using/preparing-the-send.md)。
+* **[!UICONTROL Delivery with bad error ratio for soft bounces]**: 任何已排程在定義範圍內的傳送，其狀態至少為 **[!UICONTROL In progress]**，且軟反彈錯誤率大於定義的百分比。
+* **[!UICONTROL Delivery with bad error ratio for hard bounces]**: 任何已排程在定義範圍內的傳送，其狀態至少 **[!UICONTROL In progress]**&#x200B;為，硬反彈錯誤率大於定義的百分比。
+* **[!UICONTROL Deliveries with long start pending]**: 任何在定義範圍內排程的傳送， **[!UICONTROL Start pending]** 其狀態長於定義的持續時間， **[!UICONTROL Start pending]** 狀態表示系統尚未考慮這些訊息。
+* **[!UICONTROL Deliveries with low throughput]**: 任何開始的傳送時間都超過定義的持續時間，且小於已處理消息的定義百分比，且吞吐量低於定義值。
+* **[!UICONTROL Deliveries in progress]**: 在已定義範圍內排程的任何傳送，其狀態 **[!UICONTROL In progress]** 為。
 
 >[!NOTE]
 >
@@ -128,7 +131,7 @@ source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
 
    ![](assets/delivery-alerting_notification_labels.png)
 
-* **[!UICONTROL Criteria frequency]**:如果滿足一個傳送的標準，則在監控期間內發送的每個通知中重複該標準。 否則，每天（第一次發生時）只會根據一個傳送的警報標準傳送一個警報。
+* **[!UICONTROL Criteria frequency]**: 如果滿足一個傳送的標準，則在監控期間內發送的每個通知中重複該標準。 否則，每天（第一次發生時）只會根據一個傳送的警報標準傳送一個警報。
 
    根據預設，所有准則的此選項都設為每天一次。
 
@@ -157,7 +160,7 @@ source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
 
    ![](assets/delivery-alerting_new-filter.png)
 
-1. 編輯新的篩選定義：在視 **[!UICONTROL Filter definition]** 窗中，將項目拖放 **[!UICONTROL Status]** 至工作區，並選 **[!UICONTROL Finished]** 取為篩選條件。
+1. 編輯新的篩選定義： 在視 **[!UICONTROL Filter definition]** 窗中，將項目拖放 **[!UICONTROL Status]** 至工作區，並選 **[!UICONTROL Finished]** 取為篩選條件。
 
    ![](assets/delivery-alerting_filter-status.png)
 
@@ -190,24 +193,24 @@ source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
 
 ![](assets/delivery-alerting_dashboard_criteria-parameters.png)
 
-* **[!UICONTROL Delivery target minimum size]**:例如，如果您在此欄位中輸入100，則只會針對目標等於或大於100個收件者的傳送傳送通知。 此參數適用於所有條件。
-* **[!UICONTROL Monitoring period before and after the contact date (in hours)]**:當前時間前後的小時數。 只考慮具有此時間範圍內之聯繫日期的交貨。 此參數適用於所有條件。 依預設，此欄位的值會設為24小時。
+* **[!UICONTROL Delivery target minimum size]**: 例如，如果您在此欄位中輸入100，則只會針對目標等於或大於100個收件者的傳送傳送通知。 此參數適用於所有條件。
+* **[!UICONTROL Monitoring period before and after the contact date (in hours)]**: 當前時間前後的小時數。 只考慮具有此時間範圍內之聯繫日期的交貨。 此參數適用於所有條件。 依預設，此欄位的值會設為24小時。
 
    有關聯繫日期的詳細資訊，請參 [閱關於計畫](../../sending/using/about-scheduling-messages.md)。
 
-* **[!UICONTROL Maximum ratio of soft bounce errors]**:系統會針對所有傳送傳送傳送一則通知，其彈跳錯誤率大於指定值。 依預設，此欄位的值會設為0.05(5%)。
+* **[!UICONTROL Maximum ratio of soft bounce errors]**: 系統會針對所有傳送傳送傳送一則通知，其彈跳錯誤率大於指定值。 依預設，此欄位的值會設為0.05(5%)。
 
    如需軟反彈錯誤的詳細資訊，請參 [閱「彈回郵件資格](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) 」 [和傳送失敗類型清單](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)。
 
-* **[!UICONTROL Maximum ratio of hard bounce errors]**:所有傳送的硬反彈錯誤率大於指定值時，都會傳送通知。 依預設，此欄位的值會設為0.05(5%)。
+* **[!UICONTROL Maximum ratio of hard bounce errors]**: 所有傳送的硬反彈錯誤率大於指定值時，都會傳送通知。 依預設，此欄位的值會設為0.05(5%)。
 
    如需有關硬彈回錯誤的詳細資訊，請參 [閱「彈回郵件資格](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) 」 [和傳送失敗類型清單](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)。
 
-* **[!UICONTROL Minimum time threshold for delivery in 'Start pending' status (in minutes)]**:系統會針對狀態超過此欄位 **[!UICONTROL Start pending]** 中指定持續時間的所有傳送傳送傳送通知， **[!UICONTROL Start pending]** 這表示系統尚未考慮訊息。
-* **[!UICONTROL Minimum time required for the computation of the throughput (in minutes)]**:標準中只會考 **[!UICONTROL In progress]** 慮超過指定持續時間的已開始傳送(狀態 **[!UICONTROL Deliveries with low throughput]** )。
-* **[!UICONTROL Maximum percentage of processed messages for the computation of the throughput]**:標準中只會考慮已處理訊息的百分比低於指定百分比的傳送 **[!UICONTROL Deliveries with low throughput]** 。
-* **[!UICONTROL Minimum expected throughput (in sent messages per hour)]**:只有吞吐量低於指定值的傳送才會考慮此標 **[!UICONTROL Deliveries with low throughput]** 準。
-* **[!UICONTROL Minimum processed ratio required for 'Deliveries in progress' criterion]**:只有已處理訊息的百分比高於指定百分比的傳送才會納入考量。
+* **[!UICONTROL Minimum time threshold for delivery in 'Start pending' status (in minutes)]**: 系統會針對狀態超過此欄位 **[!UICONTROL Start pending]** 中指定持續時間的所有傳送傳送傳送通知， **[!UICONTROL Start pending]** 這表示系統尚未考慮訊息。
+* **[!UICONTROL Minimum time required for the computation of the throughput (in minutes)]**: 標準中只會考 **[!UICONTROL In progress]** 慮超過指定持續時間的已開始傳送(狀態 **[!UICONTROL Deliveries with low throughput]** )。
+* **[!UICONTROL Maximum percentage of processed messages for the computation of the throughput]**: 標準中只會考慮已處理訊息的百分比低於指定百分比的傳送 **[!UICONTROL Deliveries with low throughput]** 。
+* **[!UICONTROL Minimum expected throughput (in sent messages per hour)]**: 只有吞吐量低於指定值的傳送才會考慮此標 **[!UICONTROL Deliveries with low throughput]** 準。
+* **[!UICONTROL Minimum processed ratio required for 'Deliveries in progress' criterion]**: 只有已處理訊息的百分比高於指定百分比的傳送才會納入考量。
 
 ### 警報頻率 {#alerting-frequency}
 
@@ -231,15 +234,15 @@ source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
 
 以下是根據遞送滿足的條件接收警報通知的幾個可能原因。
 
-* **[!UICONTROL Deliveries failed]**:此准則會通知您所有狀態錯誤的傳送。 這可能是因為：
+* **[!UICONTROL Deliveries failed]**: 此准則會通知您所有狀態錯誤的傳送。 這可能是因為：
 
    * 傳送伺服器（MTA、訊息傳送代理）有問題
    * Adobe Campaign傳送伺服器與接收伺服器之間的連線逾時
    * 可傳遞性問題
    * 錯誤的工作流程
-   如果傳送是以工作流程觸發，請檢查該工作流程是否已正確啟動。 有關詳細資訊，請參 [閱執行工作流](../../automating/using/executing-a-workflow.md)。 否則，請洽詢您的Adobe Campaign管理員以解決問題。
+   如果傳送是以工作流程觸發，請檢查該工作流程是否已正確啟動。 有關詳細資訊，請參 [閱執行工作流](../../automating/using/about-workflow-execution.md)。 否則，請洽詢您的Adobe Campaign管理員以解決問題。
 
-* **[!UICONTROL Deliveries with preparation failed]**:在下列情況下，傳送準備期間可能會發生錯誤：
+* **[!UICONTROL Deliveries with preparation failed]**: 在下列情況下，傳送準備期間可能會發生錯誤：
 
    * 交貨缺少主題。
    * 個人化欄位中的語法錯誤。
@@ -267,9 +270,9 @@ source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
 
 
 
-* **[!UICONTROL Deliveries with long start pending]**:通常這表示在MTA（消息傳輸代理）級別存在問題。 執行進程正在等待某些資源的可用性。 MTA可能尚未啟動。
+* **[!UICONTROL Deliveries with long start pending]**: 通常這表示在MTA（消息傳輸代理）級別存在問題。 執行進程正在等待某些資源的可用性。 MTA可能尚未啟動。
 
-   **[!UICONTROL Deliveries with low throughput]**:同樣，這是傳遞性問題，意味著MTA太慢。
+   **[!UICONTROL Deliveries with low throughput]**: 同樣，這是傳遞性問題，意味著MTA太慢。
 
    如需這些問題的詳細資訊，請洽詢您的Adobe Campaign管理員。
 

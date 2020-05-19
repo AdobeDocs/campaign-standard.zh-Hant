@@ -1,19 +1,22 @@
 ---
 title: 排除
 description: 「排除」活動可讓您根據特定條件從一個人口中排除元素。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: b79e7f73-37a0-4ec3-ac5a-5449dc1b1f22
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 自動化
-content-type: 參考
-topic-tags: 定位活動
+audience: automating
+content-type: reference
+topic-tags: targeting-activities
 discoiquuid: d5312fcd-43ad-428e-bde9-90f062e9358c
-context-tags: 排除，主
+context-tags: exclusion,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+workflow-type: tm+mt
+source-wordcount: '249'
+ht-degree: 0%
 
 ---
 
@@ -36,13 +39,13 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 1. 將活動拖放 **[!UICONTROL Exclusion]** 至工作流程。
 1. 選擇活動，然後使用顯示的快 ![](assets/edit_darkgrey-24px.png) 速操作中的按鈕將其開啟。
-1. 從入站 **[!UICONTROL Primary set]** 轉變中選擇。 這是從中排除元素的集合。 其他組在被排除在主組之外之前設定匹配元素。
+1. 從入站轉 **[!UICONTROL Primary set]** 換中選擇。 這是從中排除元素的集合。 其他組在被排除在主組之外之前設定匹配元素。
 
    >[!NOTE]
    >
    >傳入的轉場必須包含相同類型的人口。 例如，如果主集包含測試描述檔，其他轉場也必須包含測試描述檔。
 
-1. 如有需要，請管理活動的 [轉場](../../automating/using/executing-a-workflow.md#managing-an-activity-s-outbound-transitions) ，以存取出站人口的進階選項。
+1. 如有需要，請管理活動的 [轉場](../../automating/using/activity-properties.md) ，以存取出站人口的進階選項。
 1. 確認活動的設定並儲存工作流程。
 
 ## Example {#example}

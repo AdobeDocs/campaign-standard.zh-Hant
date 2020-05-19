@@ -12,7 +12,10 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: accc382ca1543d648e60d53cab338537fd9ea3ef
+source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+workflow-type: tm+mt
+source-wordcount: '1046'
+ht-degree: 0%
 
 ---
 
@@ -40,7 +43,7 @@ source-git-commit: accc382ca1543d648e60d53cab338537fd9ea3ef
 
 ## 複製工作流程{#duplicating-workflows}
 
-您可以複製工作流程。 在中， **[!UICONTROL Marketing Activities]**將滑鼠指標暫留在工作流程上，然後按一下**[!UICONTROL Duplicate element]**。 複製後，工作流的修改不會轉存到工作流的副本中。 可以編輯工作流的副本。
+您可以複製工作流程。 在中， **[!UICONTROL Marketing Activities]**&#x200B;將滑鼠指標暫留在工作流程上，然後按一下 **[!UICONTROL Duplicate element]**。 複製後，工作流的修改不會轉存到工作流的副本中。 可以編輯工作流的副本。
 
 ![](assets/duplicating_workflow.png)
 
@@ -62,9 +65,9 @@ source-git-commit: accc382ca1543d648e60d53cab338537fd9ea3ef
 
 ### 轉場效果
 
-仍可執行包含未終止轉場的工作流程：它將產生警告訊息，工作流程在轉場時會暫停，但不會產生錯誤。 您也可以在沒有完成設計的情況下開始工作流程，並隨時完成工作流程。
+仍可執行包含未終止轉場的工作流程： 它將產生警告訊息，工作流程在轉場時會暫停，但不會產生錯誤。 您也可以在沒有完成設計的情況下開始工作流程，並隨時完成。
 
-如需詳細資訊，請參閱「執行 [工作流程」](../../automating/using//executing-a-workflow.md)。
+如需詳細資訊，請參閱「執行 [工作流程」](../../automating/using/about-workflow-execution.md)。
 
 ### 時區
 
@@ -77,7 +80,7 @@ source-git-commit: accc382ca1543d648e60d53cab338537fd9ea3ef
 
 為確保工作流程正常結束，請使用 **[!UICONTROL End activity]**。 請避免將工作流程的最後一個轉場作業單獨進行。
 
-要訪問轉場的詳細視圖，請選中工 **[!UICONTROL Keep interim results]**作流屬性的「執行」部分中的選項。
+要訪問轉場的詳細視圖，請選中工 **[!UICONTROL Keep interim results]** 作流屬性的「執行」部分中的選項。
 
 >[!CAUTION]
 >
@@ -88,7 +91,7 @@ source-git-commit: accc382ca1543d648e60d53cab338537fd9ea3ef
 
 ### 標籤活動{#activity-labeling}
 
-在開發工作流程時，會針對每個活動產生名稱，就像所有Adobe Campaign物件一樣。 雖然工具會產生活動名稱，且無法編輯，但建議在設定活動名稱時，以明確的名稱加上標籤。
+在開發工作流程時，會針對每個活動產生名稱，例如所有Adobe Campaign物件。 雖然工具會產生活動名稱，且無法編輯，但建議在設定活動名稱時，以明確的名稱加上標籤。
 
 ### 複製活動{#activity-duplicating}
 
@@ -96,7 +99,7 @@ source-git-commit: accc382ca1543d648e60d53cab338537fd9ea3ef
 
 ### 排程器活動{#acheduler-activity}
 
-在建立工作流程時，每個分支僅使 **[!UICONTROL Scheduler activity]**用一個。 如果工作流的同一分支有多個調度程式（相互連結），則要執行的任務數將呈指數倍增，這將大大超出資料庫。
+在建立工作流程時，每個分支僅使 **[!UICONTROL Scheduler activity]** 用一個。 如果工作流的同一分支有多個調度程式（相互連結），則要執行的任務數將呈指數倍增，這將大大超出資料庫。
 
 您可以按一下，預覽工作流程的下十個執行 **[!UICONTROL Preview next executions]**。
 
@@ -119,8 +122,8 @@ source-git-commit: accc382ca1543d648e60d53cab338537fd9ea3ef
 
 ## 匯出清單{#exporting-lists}
 
-導出清單選項允許預設情況下導出最多100,000行，並且由 **Nms_ExportListLimit選項定義**。 此選項可由功能管理員管理，位於 **[!UICONTROL Administration]**>**[!UICONTROL Application settings]** >下 **[!UICONTROL Options]**。
-如需詳細資訊，請參閱匯[出清單](../../automating/using/exporting-lists.md)。
+導出清單選項允許預設情況下導出最多100,000行，並且由 **Nms_ExportListLimit選項定義**。 此選項可由功能管理員管理，位於 **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** >下 **[!UICONTROL Options]**。
+如需詳細資訊，請參閱匯 [出清單](../../automating/using/exporting-lists.md)。
 
 ## 疑難排解{#workflow-troubleshooting}
 
@@ -130,25 +133,25 @@ Adobe Campaign提供多種記錄檔，讓您更清楚地瞭解工作流程問題
 
 您可以存取工作流程記錄檔，以監控活動的執行。 它按時間順序對執行的操作和執行錯誤進行索引。 「日誌」頁籤包含所有或某些選定活動的執行歷史記錄。
 「任務」頁籤詳細說明了活動的執行順序。 若要取得活動的詳細資訊，請按一下工作。
-有關詳細資訊，請參閱「監 [視工作流執行」](../../automating/using/executing-a-workflow.md#monitoring)。
+有關詳細資訊，請參閱「監 [視工作流執行」](../../automating/using/monitoring-workflow-execution.md)。
 
 #### Troubleshooting data management activities{#troubleshooting-data-management-activities}
 
 可以在[日誌]頁籤中分析SQL查詢。
 
 1. 在工作流程工作區中，按一下 **[!UICONTROL Edit properties]**。
-1. 在 **[!UICONTROL General]**>**[!UICONTROL Execution]**&#x200B;中，勾選 **[!UICONTROL Save SQL queries in the log]**和選**[!UICONTROL Execute in the engine]** 項並按一下 **[!UICONTROL Confirm]**。
+1. 在 **[!UICONTROL General]** > **[!UICONTROL Execution]**&#x200B;中，勾選 **[!UICONTROL Save SQL queries in the log]** 和選 **[!UICONTROL Execute in the engine]** 項並按一下 **[!UICONTROL Confirm]**。
 
 **要在日誌中查看SQL查詢，請執行以下操作：**
 1. 按一下 **[!UICONTROL Log and Tasks]**.
-1. 在標籤 **[!UICONTROL Logs]**中，開啟面**[!UICONTROL Search]** 板。
+1. 在標籤 **[!UICONTROL Logs]** 中，開啟面 **[!UICONTROL Search]** 板。
 1. 查 **[!UICONTROL Display SQL logs only]**。
 
-查詢顯示在日 **[!UICONTROL Message]**志的列中。
+查詢顯示在日 **[!UICONTROL Message]** 志的列中。
 
 ### 使用傳送記錄檔{#using-delivery-logs}
 
-傳送記錄可監控傳送的成功。 排除記錄在準備傳送期間傳回已排除的訊息。 傳送記錄檔可提供每個描述檔的傳送狀態。
+傳送記錄可監控傳送的成功。 排除記錄在準備傳送期間傳回已排除的訊息。 傳送記錄檔會提供每個描述檔的傳送狀態。
 如需詳細資訊，請參閱「了 [解傳送失敗](../../sending/using/understanding-delivery-failures.md)」。
 
 ### 使用傳送警報{#delivery-alerting}
@@ -158,4 +161,4 @@ Adobe Campaign提供多種記錄檔，讓您更清楚地瞭解工作流程問題
 
 **相關主題：**
 
-* [錯誤管理](../../automating/using/executing-a-workflow.md#error-management)
+* [錯誤管理](../../automating/using/monitoring-workflow-execution.md)

@@ -13,7 +13,10 @@ context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
+source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+workflow-type: tm+mt
+source-wordcount: '1771'
+ht-degree: 0%
 
 ---
 
@@ -80,7 +83,7 @@ source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
 
    此標 **[!UICONTROL Column definition]** 簽可讓您精確指定每欄的資料結構，以匯入不含任何錯誤的資料（例如，使用null管理），並讓它符合Adobe Campaign資料庫中已存在的類型，以供日後作業使用。
 
-   例如，您可以變更欄的標籤，並選取其類型（字串、整數、日期等）甚至指定錯誤處理。
+   例如，您可以變更欄的標籤，並選取其類型（字串、整數、日期等） 甚至指定錯誤處理。
 
    有關詳細資訊，請參閱「列 [格式」部分](#column-format) 。
 
@@ -105,7 +108,7 @@ source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
 
 1. 確認活動的設定並儲存工作流程。
 
-如果活動在執行工作流程後發生任何錯誤，請參閱日誌以獲取有關檔案中錯誤值的詳細資訊。 For more on workflows logs, refer to [this section](../../automating/using/executing-a-workflow.md#monitoring).
+如果活動在執行工作流程後發生任何錯誤，請參閱日誌以獲取有關檔案中錯誤值的詳細資訊。 For more on workflows logs, refer to [this section](../../automating/using/monitoring-workflow-execution.md).
 
 ## 欄格式 {#column-format}
 
@@ -119,40 +122,40 @@ source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
 
 列格式允許您定義每列的值處理：
 
-* **[!UICONTROL Ignore column]**:不會在資料載入期間處理此欄。
-* **[!UICONTROL Data type]**:指定每列所需的資料類型。
-* **[!UICONTROL Format and separators]**，屬 **性**:指定文字的屬性、時間、日期和數值格式，以及欄內容所指定的分隔符號。
+* **[!UICONTROL Ignore column]**: 不會在資料載入期間處理此欄。
+* **[!UICONTROL Data type]**: 指定每列所需的資料類型。
+* **[!UICONTROL Format and separators]**，屬 **性**: 指定文字的屬性、時間、日期和數值格式，以及欄內容所指定的分隔符號。
 
-   * **[!UICONTROL Maximum number of characters]**:指定字串類型列的字元數上限。
+   * **[!UICONTROL Maximum number of characters]**: 指定字串類型列的字元數上限。
 
       載入由長度固定的欄組成的檔案時，必須填入此欄位。
 
-   * **[!UICONTROL Letter case management]**:定義是否需要對文本資料應用字元大 **寫** 。
-   * **[!UICONTROL White space management]**:指定Text資料的字串中是否需要忽略某些 **空格** 。
-   * **[!UICONTROL Time format]**, **[!UICONTROL Date format]**:指定日期、時 **間和日**&#x200B;期 **** 和時間資料的格式 **** 。
-   * **[!UICONTROL Format]**:允許您定義整數和浮點數數數 **據****的數值格式** 。
-   * **[!UICONTROL Separator]**:定義由列上下文指定的分隔符（數值的千位或小數分隔符，日期和時間的千位分隔符） **Date**、 **Time**、 **Date和time**、 ******** Integer numberFloating data的分隔符。
+   * **[!UICONTROL Letter case management]**: 定義是否需要對文本資料應用字元大 **寫** 。
+   * **[!UICONTROL White space management]**: 指定Text資料的字串中是否需要忽略某些 **空格** 。
+   * **[!UICONTROL Time format]**, **[!UICONTROL Date format]**: 指定日期、時 **間和日**&#x200B;期 **** 和時間資料的格式 **** 。
+   * **[!UICONTROL Format]**: 允許您定義整數和浮點數數數 **據****的數值格式** 。
+   * **[!UICONTROL Separator]**: 定義由列上下文指定的分隔符（數值的千位或小數分隔符，日期和時間的千位分隔符） **Date**、 **Time**、 **Date和time**、 ******** Integer numberFloating data的分隔符。
 
-* **[!UICONTROL Remapping of values]**:此欄位僅在列詳細資訊配置中可用。 它可讓您在匯入特定值時加以轉換。 例如，您可將&quot;three&quot;轉換為&quot;3&quot;。
-* **[!UICONTROL Error processing]**:定義在遇到錯誤時的行為。
+* **[!UICONTROL Remapping of values]**: 此欄位僅在列詳細資訊配置中可用。 它可讓您在匯入特定值時加以轉換。 例如，您可將&quot;three&quot;轉換為&quot;3&quot;。
+* **[!UICONTROL Error processing]**: 定義在遇到錯誤時的行為。
 
-   * **[!UICONTROL Ignore the value]**:值被忽略。 在工作流執行日誌中生成警告。
-   * **[!UICONTROL Reject the line]**:不處理整個行。
-   * **[!UICONTROL Use a default value]**:以在欄位中定義的預設值取代造成錯誤的 **[!UICONTROL Default value]** 值。
-   * **[!UICONTROL Use a default value in case the value is not remapped]**:以在欄位中定義的預設值取代導致錯誤的值，除非 **[!UICONTROL Default value]** 已針對錯誤值定義對應(請參閱上 **[!UICONTROL Remapping of values]** 述選項)。
-   * **[!UICONTROL Reject the line when there is no remapping value]**:除非為錯誤值定義了映射(請參閱上面的選 **[!UICONTROL Remapping of values]** 項)，否則不處理整行。
+   * **[!UICONTROL Ignore the value]**: 值被忽略。 在工作流執行日誌中生成警告。
+   * **[!UICONTROL Reject the line]**: 不處理整個行。
+   * **[!UICONTROL Use a default value]**: 以在欄位中定義的預設值取代造成錯誤的 **[!UICONTROL Default value]** 值。
+   * **[!UICONTROL Use a default value in case the value is not remapped]**: 以在欄位中定義的預設值取代導致錯誤的值，除非 **[!UICONTROL Default value]** 已針對錯誤值定義對應(請參閱上 **[!UICONTROL Remapping of values]** 述選項)。
+   * **[!UICONTROL Reject the line when there is no remapping value]**: 除非為錯誤值定義了映射(請參閱上面的選 **[!UICONTROL Remapping of values]** 項)，否則不處理整行。
    >[!NOTE]
    >
    >**[!UICONTROL Error processing]** 有關匯入檔案中值的錯誤。 例如，遇到錯誤的資料類型（「4」全部是「整數」列的字母）、包含超過授權最大數字的字串、分隔符錯誤的日期等。 但是，此選項與空值管理產生的錯誤無關。
 
-* **[!UICONTROL Default value]**:根據選擇的錯誤處理指定預設值。
-* **[!UICONTROL Empty value management]**:指定在資料載入期間如何管理空值。
+* **[!UICONTROL Default value]**: 根據選擇的錯誤處理指定預設值。
+* **[!UICONTROL Empty value management]**: 指定在資料載入期間如何管理空值。
 
-   * **[!UICONTROL Generate an error for numerical fields]**:僅為數字欄位生成錯誤，否則插入NULL值。
-   * **[!UICONTROL Insert NULL in the corresponding field]**:授權空值。 因此插入值NULL。
-   * **[!UICONTROL Generate an error]**:如果值為空，則生成錯誤。
+   * **[!UICONTROL Generate an error for numerical fields]**: 僅為數字欄位生成錯誤，否則插入NULL值。
+   * **[!UICONTROL Insert NULL in the corresponding field]**: 授權空值。 因此插入值NULL。
+   * **[!UICONTROL Generate an error]**: 如果值為空，則生成錯誤。
 
-## 範例1:更新資料庫 {#example-1-update-the-database}
+## 範例1: 更新資料庫 {#example-1-update-the-database}
 
 載入檔案活動主要從傳輸檔案活動中構造資料，以便將其整合到現有資料中。
 
@@ -172,7 +175,7 @@ source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
 
 工作流程開始後，會擷取上傳檔案的資料，然後用來豐富Adobe Campaign資料庫。
 
-## 範例2:傳送包含豐富欄位的電子郵件 {#example-2-email-with-enriched-fields}
+## 範例2: 傳送包含豐富欄位的電子郵件 {#example-2-email-with-enriched-fields}
 
 <!--A new example showing how to send an email containing additional data retrieved from a load file activity has been added. [Read more](example-2-email-with-enriched-fields)-->
 

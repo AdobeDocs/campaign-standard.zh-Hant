@@ -12,7 +12,10 @@ discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c21a6fb4916430deb76d5d01b379453e398f6f25
+source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+workflow-type: tm+mt
+source-wordcount: '4623'
+ht-degree: 0%
 
 ---
 
@@ -42,7 +45,7 @@ source-git-commit: c21a6fb4916430deb76d5d01b379453e398f6f25
    <td> 「疲勞管理」(Fatigue Management)允許您建立疲勞規則，以管理與配置檔案的過度通信。 疲勞規則建立起來很容易，但極具彈性，可計算多個通道（包括交易訊息）的訊息、只計算特定傳送，或將規則套用至特定描述檔。<br /> 如需詳細資訊，請參閱詳 <a href="../../sending/using/fatigue-rules.md">細檔案</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 內容建立：從URL匯入<br /> </td> 
+   <td> 內容建立： 從URL匯入<br /> </td> 
    <td> 從URL匯入可讓您從網站快速擷取創意內容，以建立任何遞送的電子郵件。 此外，您還可讓協力廠商直接透過URL分享內容，以簡化您的創作流程。 匯入的內容可彈性地用作單一傳送的一部分，或在範本層級使用，以確保所有相關促銷活動（不論是以工作流程為基礎或交易性訊息）的品牌一致性，並包含A/B或多變數測試。 從URL匯入會自動轉換並追蹤所有連結，以透過動態報表監控電子郵件效能。<br /> 如需詳細資訊，請參閱詳 <a href="../../designing/using/using-existing-content.md#importing-content-from-a-url">細檔案</a>。<br /> </td> 
   </tr> 
  </tbody> 
@@ -54,7 +57,7 @@ _平台_
 
 * 修正無法正確解壓縮大型壓縮檔案的問題。
 * 品牌管理的安全性已改善。 現在，Adobe技術管理員已保留修改品牌名稱和傳送者位址。
-* 為改善安全性，使用者產生的內容（影像、鏡像頁面、著陸頁面等）無法再由adobe.com網域提供服務。 現在，您必須使用您自己的網域來處理這些資源，並透過品牌的使用。
+* 為改善安全性，使用者產生的內容（影像、鏡像頁面、著陸頁面等） 無法再由adobe.com網域提供服務。 現在，您必須使用您自己的網域來處理這些資源，並透過品牌的使用。
 * 修正顯示及篩選行銷活動時的介面問題。
 * 修正無法使用POST Rest API呼叫更新訂閱日期欄位的問題。
 
@@ -190,7 +193,7 @@ _設定檔與閱聽眾_
  <tbody> 
   <tr> 
    <td> 多語言電子郵件和簡訊傳送<br /> </td> 
-   <td> 根據您自動細分的客戶慣用語言，透過單一傳送方式定義並執行多語言電子郵件與簡訊傳送。 報告每次傳送的效能，包括語言和個別層級。<br /> 越來越多的公司面臨挑戰：在國內外發展時，以多種語言提供內容。 因此，簡化本地化訊息傳遞是跨國公司有效客戶溝通策略的關鍵部分；多語言國家的公司；以及想要在語言層級進一步個人化其內容的公司，不論客戶居住在何處。 如需詳細資訊，請參閱詳 <a href="../../channels/using/creating-a-multilingual-email.md">細檔案</a>。<br /> </td> 
+   <td> 根據您自動細分的客戶慣用語言，透過單一傳送方式定義並執行多語言電子郵件與簡訊傳送。 報告每次傳送的效能，包括語言和個別層級。<br /> 越來越多的公司面臨挑戰：在國內外發展時，以多種語言提供內容。 因此，簡化本地化訊息傳遞是跨國公司有效客戶溝通策略的關鍵部分； 多語言國家的公司； 以及想要在語言層級進一步個人化其內容的公司，不論客戶居住在何處。 如需詳細資訊，請參閱詳 <a href="../../channels/using/creating-a-multilingual-email.md">細檔案</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> Adobe Campaign通知<br /> </td> 
@@ -206,7 +209,7 @@ _設定檔與閱聽眾_
   </tr> 
   <tr> 
    <td> 從促銷活動到Analytics的KPI共用<br /> </td> 
-   <td> 與Adobe Analytics共用宣傳資料，以測量來自Campaign的電子郵件行銷量度，以及透過轉換、統一點按前和點按後行為的其他行銷和廣告努力。<br /> 直接追蹤整體效能，並發現與Analytics中外部程式的協同效能。 將您從這個整合檢視中學到的知識，套用回到您的宣傳活動中；最終改善開放、點進和轉換率，以提升營收和整體宣傳績效。 <br /> 需要Adobe Analytics。 如需詳細資訊，請參閱詳 <a href="../../integrating/using/about-campaign-analytics-integration.md">細檔案</a>。<br /> </td> 
+   <td> 與Adobe Analytics共用宣傳資料，以測量來自Campaign的電子郵件行銷量度，以及透過轉換、統一點按前和點按後行為的其他行銷和廣告努力。<br /> 直接追蹤整體效能，並發現與Analytics中外部程式的協同效能。 將您從這個整合檢視中學到的知識，套用回到您的宣傳活動中； 最終改善開放、點進和轉換率，以提升營收和整體宣傳績效。 <br /> 需要Adobe Analytics。 如需詳細資訊，請參閱詳 <a href="../../integrating/using/about-campaign-analytics-integration.md">細檔案</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 直接郵件通道——返回發件人<br /> </td> 
@@ -247,7 +250,7 @@ _報表_
 
 _工作流程_
 
-* 您現在可以篩選工作流程記錄檔（時段和文字搜尋）。 如需詳細資訊，請參閱詳 [細檔案](../../automating/using/executing-a-workflow.md#monitoring)。
+* 您現在可以篩選工作流程記錄檔（時段和文字搜尋）。 如需詳細資訊，請參閱詳 [細檔案](../../automating/using/monitoring-workflow-execution.md)。
 * 工作流程傳送中現在提供一個選項，可在傳送前先停用確認。
 * 修正無法在循環傳送的建立精靈中設定傳出轉場的問題。
 * 修正使用基於自訂資源欄位的工作流程查詢活動，以及具有大量值的列舉時所發生的問題
@@ -317,7 +320,7 @@ _推播通知_
   </tr> 
   <tr> 
    <td> 交易式推播通知<br /> </td> 
-   <td> 行動應用程式通道已新增至Adobe Campaign的交易訊息功能。 交易式訊息現在支援三個通道：電子郵件、簡訊和推播通知。<br /> 如需詳細資訊，請參閱詳 <a href="../../channels/using/transactional-push-notifications.md">細檔案</a>。<br /> </td> 
+   <td> 行動應用程式通道已新增至Adobe Campaign的交易訊息功能。 交易式訊息現在支援三個通道： 電子郵件、簡訊和推播通知。<br /> 如需詳細資訊，請參閱詳 <a href="../../channels/using/transactional-push-notifications.md">細檔案</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 循環推播通知<br /> </td> 
@@ -329,7 +332,7 @@ _推播通知_
   </tr> 
   <tr> 
    <td> Dreamweaver整合即時<br /> </td> 
-   <td> Adobe Campaign與Dreamweaver的整合現已上線。 它現在可與官方上一版Dreamweaver(17.0.2)搭配使用。<br /> 這需要從以下網址安裝Adobe Campaign整合擴充功能：https://adobe.ly/acdw_addon <a href="https://adobe.ly/acdw_addon"></a><br /> .如需詳細資訊，請參閱此 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">影片</a>。<br /> </td> 
+   <td> Adobe Campaign與Dreamweaver的整合現已上線。 它現在可與官方上一版Dreamweaver(17.0.2)搭配使用。<br /> 這需要從以下網址安裝Adobe Campaign整合擴充功能： <a href="https://adobe.ly/acdw_addon">https://adobe.ly/acdw_addon如需詳細資訊</a><br /> ，請參閱此影 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">片</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -367,7 +370,7 @@ _工作流程_
 
 _整合_
 
-* 興趣點資料：修正計算位置訂閱者時發生的錯誤。
+* 興趣點資料： 修正計算位置訂閱者時發生的錯誤。
 
 _對象與查詢_
 
@@ -424,15 +427,15 @@ _推播通知_
     </ul> 如需詳細資訊，請參閱詳 <a href="../../channels/using/about-push-notifications.md">細檔案</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 工作流程：新訊號活動<br /> </td> 
+   <td> 工作流程： 新訊號活動<br /> </td> 
    <td> 使用新的Signal活動，從其他工作流程觸發 <span class="uicontrol">工作流程</span> 。<br /> 現在，您可以從另一個工作流程開始，支援更複雜的客戶歷程。 您可以更好地監控客戶歷程，並在有問題時做出反應。<br /> 已更新數個工作流程活動：<br /> 
     <ul> 
-     <li> <span class="uicontrol">結束活動</span> :新的標籤可讓您指定在執行此活動後觸發的工作流程。 </li> 
-     <li> <span class="uicontrol">更新資料</span> :使用新的空出轉場功能來新增 <strong>End</strong> 活動，以觸發另一個工作流程。 空的出站轉場不會攜帶任何資料，也不會佔用系統上不必要的空間 </li> 
+     <li> <span class="uicontrol">結束活動</span> : 新的標籤可讓您指定在執行此活動後觸發的工作流程。 </li> 
+     <li> <span class="uicontrol">更新資料</span> : 使用新的空出轉場功能來新增 <strong>End</strong> 活動，以觸發另一個工作流程。 空的出站轉場不會攜帶任何資料，也不會佔用系統上不必要的空間 </li> 
     </ul> 如需詳細資訊，請參閱詳 <a href="../../automating/using/external-signal.md">細檔案</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 工作流程：新的閱讀對象活動<br /> </td> 
+   <td> 工作流程： 新的閱讀對象活動<br /> </td> 
    <td> 從現有受眾開始定位程式，您可以在單一活動中輕鬆選擇和調整這些受眾。<br /> 如需詳細資訊，請參閱詳 <a href="../../automating/using/read-audience.md">細檔案</a>。<br /> </td> 
   </tr> 
   <tr> 

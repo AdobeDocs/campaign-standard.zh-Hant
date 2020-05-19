@@ -1,18 +1,21 @@
 ---
 title: 交集
-description: 「交叉點」活動僅允許您保留活動中不同傳入人口族群的共同元素。
-page-status-flag: 從未激活
+description: 「交叉點」活動允許您僅保留活動中不同傳入人口族群的共同元素。
+page-status-flag: never-activated
 uuid: a60f9811-0158-44b3-952b-392685c006cc
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 自動化
-content-type: 參考
-topic-tags: 定位活動
+audience: automating
+content-type: reference
+topic-tags: targeting-activities
 discoiquuid: 7a107d6b-edc3-44c3-bbb7-ba3dec8e43f9
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+workflow-type: tm+mt
+source-wordcount: '285'
+ht-degree: 0%
 
 ---
 
@@ -36,12 +39,12 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 1. 選擇活動，然後使用顯示的快 ![](assets/edit_darkgrey-24px.png) 速操作中的按鈕將其開啟。
 1. 選擇 **[!UICONTROL Reconciliation type]**:
 
-   * **[!UICONTROL Keys only]**:預設模式。 當來自不同傳入轉場的元素具有相同索引鍵時，活動只會保留一個元素。
-   * **[!UICONTROL All shared columns]**:資料會根據與傳入轉場共用的欄進行調節。 因此，您必須選擇作為比較基礎的主集。 如果傳入人口族群定位維度不同，則可使用此選項。
-   * **[!UICONTROL A selection of columns]**:選擇此選項可定義將應用資料協調的列清單。 首先必須選擇主集（包含源資料的主集），然後指定用於聯接的欄位。
+   * **[!UICONTROL Keys only]**: 預設模式。 當來自不同傳入轉場的元素具有相同索引鍵時，活動只會保留一個元素。
+   * **[!UICONTROL All shared columns]**: 資料會根據與傳入轉場共用的欄進行調節。 因此，您必須選擇作為比較基礎的主集。 如果傳入人口族群定位維度不同，則可使用此選項。
+   * **[!UICONTROL A selection of columns]**: 選擇此選項可定義將應用資料協調的列清單。 首先必須選擇主集（包含源資料的主集），然後指定用於聯接的欄位。
 
 1. 如果您 **[!UICONTROL Use common additional data only]** 只想保留所有傳入轉場中的其他資料，請勾選此方塊。
-1. 如有需要，請管理活動的 [轉場](../../automating/using/executing-a-workflow.md#managing-an-activity-s-outbound-transitions) ，以存取出站人口的進階選項。
+1. 如有需要，請管理活動的 [轉場](../../automating/using/activity-properties.md) ，以存取出站人口的進階選項。
 1. 確認活動的設定並儲存工作流程。
 
 ## Example {#example}

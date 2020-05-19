@@ -12,7 +12,10 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c35468d7c9a3177d755dad2a9ab2e09510d680fa
+source-git-commit: f8c8dd5ec3dcff557d17e92591748cb1b6694122
+workflow-type: tm+mt
+source-wordcount: '591'
+ht-degree: 1%
 
 ---
 
@@ -32,13 +35,13 @@ Adobe會持續評估產品功能，以找出應以更現代的替代方式來取
 >Adobe Campaign Standard版本和新功能列於版本 [說明中](../../rn/using/release-notes.md)。
 
 
-## 不建議使用的功能 {#deprecated-features}
+## 已棄用的功能 {#deprecated-features}
 
 本節列出最新Campaign Standard版本中已標示為已過時的功能。
 
 通常，計畫在未來版本中移除的功能會先設為不建議使用，並提供其他選項。 這些新的Campaign Standard客戶不再可使用這些功能，或不應用於任何新的實作。 也會從產品檔案中移除它們。
 
-建議客戶在目前的部署中是否運用了功能／功能，並規劃變更實施以使用提供的替代方案。 請參閱目標刪除日期以規劃您的環境和項目更新。
+建議客戶在目前的部署中是否運用了功能／功能，並規劃變更實施以使用提供的替代方案。 請參閱目標刪除版本以規劃您的環境和項目更新。
 
 <table> 
  <thead> 
@@ -51,7 +54,7 @@ Adobe會持續評估產品功能，以找出應以更現代的替代方式來取
    <td> <p> 從20.1版開始，SDK v4已過時。 <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">進一步瞭解</a>。</p><br/>
    <p>Adobe <a href="https://aep-sdks.gitbook.io/docs/">Experience Platform Mobile SDK</a> （先前稱為v5）將獨家支援即將推出的Adobe Experience Cloud功能。</p></br>
      <p>
-     <em>目標刪除日期：2020年9月30日</em></p>
+     <em>目標刪除日期： 2020年9月30日</em></p>
      </td> 
   </tr> 
  </tbody> 
@@ -67,7 +70,7 @@ Adobe會持續評估產品功能，以找出應以更現代的替代方式來取
    <td> <p>在啟動Campaign 19.4發行時，已不再使用Campaign API和介面來存取和刪除請求。 2步驟描述檔刪除將無法使用。 使用 <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe隱私權核心服務</a>。</p></br>
    <p>另請參閱 <a href="https://helpx.adobe.com/campaign/kb/acs-privacy.html">Campaign Standard中的隱私權管理</a>。</p>
   <p> 
-  <em>目標刪除日期：2020年7月- Campaign 20.5版本 </em></p>
+  <em>目標刪除版本： Campaign 20.4發行</em></p>
    </td> 
   </tr> 
  </tbody> 
@@ -84,7 +87,7 @@ Adobe會持續評估產品功能，以找出應以更現代的替代方式來取
    <td> <p>在啟動Campaign 19.0版本時，舊版電子郵件編輯器已過時。 使用 <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">全新的電子郵件設計工具</a> ，建立並個人化您的電子郵件內容。 </p></br>
    <p>閱讀本 <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">節</a> ，瞭解如何針對新編輯者調整您的電子郵件範本。</p></br>
   <p> 
-  <em>目標刪除日期：2020年10月- Campaign 20.6發行 </em></p>
+  <em>目標刪除版本： Campaign 20.4發行</em></p>
    </td> 
   </tr> 
  </tbody> 

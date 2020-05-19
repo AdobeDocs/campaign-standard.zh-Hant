@@ -12,14 +12,17 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b4cbc56973a57cde8af6cefa9ff89c7d29ab7b79
+source-git-commit: 422f5eb7011dfcc1d923079e7346394a64934a9a
+workflow-type: tm+mt
+source-wordcount: '1007'
+ht-degree: 0%
 
 ---
 
 
 # 最新版本{#latest-release}
 
-[發行計畫](../../rn/using/release-planning.md) |控 [制面板版本](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) |文 [件更新](../../rn/using/documentation-updates.md) |先 [前的發行說明](../../rn/using/release-notes-2020.md) |已過 [時的功能](../../rn/using/deprecated-features.md)
+[發行計畫](../../rn/using/release-planning.md) |控 [制面板版本](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) |文 [件更新](../../rn/using/documentation-updates.md) |先前 [的發行說明](../../rn/using/release-notes-2020.md) |已過 [時的功能](../../rn/using/deprecated-features.md)
 
 ## 版本20.3 - 2020年5月 {#release-20-3---may-2020}
 
@@ -36,7 +39,7 @@ source-git-commit: b4cbc56973a57cde8af6cefa9ff89c7d29ab7b79
 <td> <p>泰國的個人資料保護法(PDPA)是一項新的隱私法，協調並現代化泰國的資料保護要求。 本規定適用於持有此國家／地區資料主體資料的Adobe Campaign客戶。</p>
 <p>除了Adobe Campaign中已提供的隱私權功能（包括同意管理、資料保留設定和使用者角色）外，我們還將利用這個機會加入其他功能，以協助您做好PDPA的準備：</p>
 <ul>
-<li>存取權與刪除權：我們運用了GDPR和CCPA新增的功能。 <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#righttoaccess">進一步瞭解</a> </li>
+<li>存取權與刪除權： 我們運用了GDPR和CCPA新增的功能。 <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#righttoaccess">進一步瞭解</a> </li>
 <li><p>建立隱私權要求時，PDPA規則類型已新增至隱私權核心服務。 此方法應用於所有存取和刪除請求。 不建議使用促銷活動API和介面來存取和刪除請求。  請參閱「已過 <a href="../../rn/using/deprecated-features.md">時和已移除的功能」文章</a>。</p></li>
 </ul>
 <p>請參閱 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">how-to影片</a>。</p>
@@ -91,7 +94,7 @@ source-git-commit: b4cbc56973a57cde8af6cefa9ff89c7d29ab7b79
 * 現在，登陸頁面中的核取方塊是強制的。
 * 下載動態報表的CSV檔案時，已移除200列的限制。 您現在可以將報表的每一列納入其中。 (CAMP-40810)
 * 在多語言電子郵件的現成可用語言清單中新增ES-US語言。 (CAMP-42279)
-* 隨「傳輸檔案」活動下載的檔案現在會在X天后刪除，其中X由「工作流程」屬性中「執行 **** 」功能表下的「歷史記錄(History in days **** )」欄位決定。 [閱讀更多資訊](../../automating/using/executing-a-workflow.md#workflow-properties)
+* 隨「傳輸檔案」活動下載的檔案現在會在X天后刪除，其中X由「工作流程」屬性中「執行 **** 」功能表下的「歷史記錄(History in days **** )」欄位決定。 [閱讀更多資訊](../../automating/using/managing-execution-options.md)
 
 **體驗平台整合**
 

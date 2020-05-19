@@ -10,7 +10,10 @@ context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c59faa935663bf803ed97f30e45f9b4276b448b8
+source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+workflow-type: tm+mt
+source-wordcount: '1703'
+ht-degree: 0%
 
 ---
 
@@ -49,7 +52,7 @@ source-git-commit: c59faa935663bf803ed97f30e45f9b4276b448b8
 >
 >您將無法複製標題值，因為這些值在活動中被遮色。
 
-接著，重新設定工作流程中指向及／或使用測試版外部API活動資料的其他活動，以指向及／或使用新外部API活動的資料。 活動範例：電子郵件傳送（個人化欄位）、擴充活動等。
+接著，重新設定工作流程中指向及／或使用測試版外部API活動資料的其他活動，以指向及／或使用新外部API活動的資料。 活動範例： 電子郵件傳送（個人化欄位）、擴充活動等。
 
 ### 限制和護欄 {#guardrails}
 
@@ -59,7 +62,7 @@ source-git-commit: c59faa935663bf803ed97f30e45f9b4276b448b8
 * 請求逾時為10分鐘
 * 不允許HTTP重新導向
 * 拒絕非HTTPS Url
-* 「接受：application/json」請求標題和「Content-Type:application/json&quot;回應標題是允許的
+* 「接受： application/json」請求標題和「Content-Type: application/json&quot;回應標題是允許的
 
 >[!CAUTION]
 >
@@ -68,9 +71,9 @@ source-git-commit: c59faa935663bf803ed97f30e45f9b4276b448b8
 
 JSON的特定防護欄已設定：
 
-* **JSON最大深度**:將可處理的自訂巢狀JSON的深度上限限制為10個層級。
-* **JSON金鑰最大長度**:將內部密鑰的最大長度限制為255。 此鍵與列ID相關聯。
-* **允許JSON最大重複金鑰**: 將用作欄ID的重複JSON屬性名稱的總數上限限制為150。
+* **JSON最大深度**: 將可處理的自訂巢狀JSON的深度上限限制為10個層級。
+* **JSON金鑰最大長度**: 將內部密鑰的最大長度限制為255。 此鍵與列ID相關聯。
+* **允許JSON最大重複金鑰**:  將用作欄ID的重複JSON屬性名稱的總數上限限制為150。
 
 
 活動不支援JSON結構，如下：
@@ -116,7 +119,7 @@ JSON剖析器的設計可容納標準JSON結構模式類型，但有些例外。
 
 **平面化核取方塊** 行為：
 
-「平面化」核取方塊(預設值：未勾選)，以指出是否將JSON平面化為索引鍵／值對應。
+「平面化」核取方塊(預設值： 未勾選)，以指出是否將JSON平面化為索引鍵／值對應。
 
 * 當核取 **方塊停用** （未勾選）時，會剖析範例JSON以尋找陣列物件。 使用者將需要提供API回應範例JSON格式的修剪版本，如此Adobe Campaign就能確切判斷使用者想要使用哪個陣列。 在工作流程製作時，將會判斷並記錄巢狀陣列物件的路徑，以便在執行時使用它來存取從API呼叫接收的JSON回應內文中存取該陣列物件。
 
@@ -152,19 +155,19 @@ JSON剖析器的設計可容納標準JSON結構模式類型，但有些例外。
 
 ### 轉換
 
-此標籤可讓您啟用 **出站轉場** 及其標籤。 在逾時或負載超過資料大 **小限制** 時，此特定轉 **換很實用**。
+此標籤可讓您啟用 **出站轉場** 及其標籤。 在逾時或負載超過資料大小限 **制時** ，此特定轉 **換非常實用**。
 
 ![](assets/externalAPI-transition.png)
 
 ### 執行選項
 
-此標籤可用於大部分的工作流活動。 如需詳細資訊，請參閱「活 [動屬性](../../automating/using/executing-a-workflow.md#activity-properties) 」一節。
+此標籤可用於大部分的工作流活動。 如需詳細資訊，請參閱「活 [動屬性](../../automating/using/activity-properties.md) 」一節。
 
 ![](assets/externalAPI-options.png)
 
 ## 疑難排解
 
-此新工作流活動中添加了兩種類型的日誌消息：資訊與錯誤。 它們可協助您疑難排解潛在問題。
+此新工作流活動中添加了兩種類型的日誌消息： 資訊與錯誤。 它們可協助您疑難排解潛在問題。
 
 ### 資訊
 
@@ -206,27 +209,27 @@ JSON剖析器的設計可容納標準JSON結構模式類型，但有些例外。
  </thead> 
  <tbody> 
   <tr> 
-   <td> WKF-560250 —— 超出API要求內文限制(限制：'%d')。</td> 
-   <td> <p>已超出API要求內文限制(限制：'5242880')。</p></td> 
+   <td> WKF-560250 —— 超出API要求內文限制(限制： '%d')。</td> 
+   <td> <p>已超出API要求內文限制(限制： '5242880')。</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560239 —— 超出API回應限制(限制：'%d')。</td> 
-   <td> <p>已超出API回應限制(限制：5242880')。</p></td> 
+   <td> WKF-560239 —— 超出API回應限制(限制： '%d')。</td> 
+   <td> <p>已超出API回應限制(限制： 5242880')。</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560245 —— 無法剖析API URL(錯誤：'%d')。</td> 
-   <td> <p>無法剖析API URL(錯誤：'-2010')。</p>
-   <p> 注意：當API URL失敗驗證規則時，會記錄此錯誤。</p></td>
+   <td> WKF-560245 —— 無法剖析API URL(錯誤： '%d')。</td> 
+   <td> <p>無法剖析API URL(錯誤： '-2010')。</p>
+   <p> 注意： 當API URL失敗驗證規則時，會記錄此錯誤。</p></td>
   </tr> 
   <tr>
-   <td> WKF-560244 - API URL主機不能是'localhost'或IP位址常值(URL主機：'%s')。</td> 
-   <td> <p>API URL主機不得是'localhost'或IP位址常值(URL主機：'localhost')。</p>
-    <p>API URL主機不得是'localhost'或IP位址常值(URL主機：192.168.0.5')。</p>
-    <p>API URL主機不得是'localhost'或IP位址常值(URL主機：'[2001]')。</p></td>
+   <td> WKF-560244 - API URL主機不能是'localhost'或IP位址常值(URL主機： '%s')。</td> 
+   <td> <p>API URL主機不得是'localhost'或IP位址常值(URL主機： 'localhost')。</p>
+    <p>API URL主機不得是'localhost'或IP位址常值(URL主機： 192.168.0.5')。</p>
+    <p>API URL主機不得是'localhost'或IP位址常值(URL主機： '[2001]')。</p></td>
   </tr> 
   <tr> 
-   <td> WKF-560238 - API URL必須是安全URL(https)(請求的URL:'%s')。</td> 
-   <td> <p>API URL必須是安全URL(https)(請求的URL:'https://example.com/api/v1/web-coupon?count=2')。</p></td> 
+   <td> WKF-560238 - API URL必須是安全URL(https)(請求的URL: '%s')。</td> 
+   <td> <p>API URL必須是安全URL(https)(請求的URL: 'https://example.com/api/v1/web-coupon?count=2')。</p></td> 
   </tr> 
   <tr> 
    <td> WKF-560249 —— 無法建立請求內文JSON。 添加「%s」時出錯。</td> 
@@ -234,18 +237,18 @@ JSON剖析器的設計可容納標準JSON結構模式類型，但有些例外。
     <p>無法建立請求正文JSON。 新增「資料」時發生錯誤。</p></td>
   </tr> 
   <tr> 
-   <td> WKF-560246 - HTTP標頭鍵錯誤(標頭鍵：'%s')。</td> 
-   <td> <p>HTTP標頭鍵錯誤(標頭鍵：'%s')。</p>
-   <p> 注意：當自定義標頭密鑰根據 <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC驗證失敗時，將記錄此錯誤</a></p></td> 
+   <td> WKF-560246 - HTTP標頭鍵錯誤(標頭鍵： '%s')。</td> 
+   <td> <p>HTTP標頭鍵錯誤(標頭鍵： '%s')。</p>
+   <p> 注意： 當自定義標頭密鑰根據 <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC驗證失敗時，將記錄此錯誤</a></p></td> 
   </tr>
  <tr> 
-   <td> WKF-560248 —— 不允許HTTP標頭鍵(標頭鍵：'%s')。</td> 
-   <td> <p>不允許HTTP標題鍵(標題鍵：'接受')。</p></td> 
+   <td> WKF-560248 —— 不允許HTTP標頭鍵(標頭鍵： '%s')。</td> 
+   <td> <p>不允許HTTP標題鍵(標題鍵： '接受')。</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560247 - AHTTP標頭值錯誤(標頭值：'%s')。</td> 
-   <td> <p>HTTP標頭值錯誤(標頭值：'%s')。 </p>
-    <p>注意：當自定義標頭值根據 <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC驗證失敗時，將記錄此錯誤</a></p></td> 
+   <td> WKF-560247 - AHTTP標頭值錯誤(標頭值： '%s')。</td> 
+   <td> <p>HTTP標頭值錯誤(標頭值： '%s')。 </p>
+    <p>注意： 當自定義標頭值根據 <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC驗證失敗時，將記錄此錯誤</a></p></td> 
   </tr> 
   <tr> 
    <td> WKF-560240 - JSON裝載有不良屬性'%s'。</td> 
@@ -254,13 +257,13 @@ JSON剖析器的設計可容納標準JSON結構模式類型，但有些例外。
   <tr>
    <td> WKF-560241 —— 格式錯誤的JSON或不可接受的格式。</td> 
    <td> <p>格式錯誤的JSON或不可接受的格式。</p>
-   <p>注意：此訊息僅適用於從外部API剖析回應內文，並在嘗試驗證回應內文是否符合本練習規定的JSON格式時記錄。</p></td>
+   <p>注意： 此訊息僅適用於從外部API剖析回應內文，並在嘗試驗證回應內文是否符合本練習規定的JSON格式時記錄。</p></td>
   </tr>
   <tr> 
-   <td> WKF-560246 —— 活動失敗(原因：'%s')。</td> 
-   <td> <p>當活動因HTTP 401錯誤回應而失敗時——活動失敗(原因：'HTTP - 401')</p>
-        <p>當活動因內部呼叫失敗而失敗時——活動失敗(原因：'iRc - -Nn')。</p>
-        <p>當活動因無效的內容類型標題而失敗時。 -活動失敗(原因：'Content-Type - application/html')。</p></td> 
+   <td> WKF-560246 —— 活動失敗(原因： '%s')。</td> 
+   <td> <p>當活動因HTTP 401錯誤回應而失敗時——活動失敗(原因： 'HTTP - 401')</p>
+        <p>當活動因內部呼叫失敗而失敗時——活動失敗(原因： 'iRc - -Nn')。</p>
+        <p>當活動因無效的內容類型標題而失敗時。 -活動失敗(原因： 'Content-Type - application/html')。</p></td> 
   </tr>
  </tbody> 
 </table>

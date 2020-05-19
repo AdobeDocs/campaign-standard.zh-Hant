@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard 說明
 translation-type: tm+mt
-source-git-commit: 9a8b9f522e5f9ea5d7ea59701cd03878599d97c1
+source-git-commit: 4e5bb76be743fb44a464ebedb466927b87e21584
 workflow-type: tm+mt
 source-wordcount: '1451'
 ht-degree: 92%
@@ -257,7 +257,7 @@ ht-degree: 92%
       + [匯入資料](automating/using/importing-data.md)
       + [使用工作流程資料](automating/using/using-workflow-data.md)
       + [工作流程最佳實務](automating/using/best-practices-workflows.md)
-   + [執行工作流程]{#executing-a-workflow}
+   + 執行工作流程 {#executing-a-workflow}
       + [關於工作流執行](automating/using/about-workflow-execution.md)
       + [工作流程生命週期](automating/using/workflow-life-cycle.md)
       + [執行命令](automating/using/execution-commands.md)

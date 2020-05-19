@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 72d27b33d6e69af47b34cc6bfeae7b34911e8d10
+source-git-commit: 422f5eb7011dfcc1d923079e7346394a64934a9a
 workflow-type: tm+mt
 source-wordcount: '5807'
 ht-degree: 1%
@@ -42,7 +42,7 @@ ht-degree: 1%
 
 **此版本隨附的其他檔案更新**
 
-已在工作流程屬性的欄 **[!UICONTROL History in days]** 位中新增資訊，現在包含活動下載的檔 **[!UICONTROL Transfer file]** 案。 [閱讀更多資訊](../../automating/using/executing-a-workflow.md)
+已在工作流程屬性的欄 **[!UICONTROL History in days]** 位中新增資訊，現在包含活動下載的檔 **[!UICONTROL Transfer file]** 案。 [閱讀更多資訊](../../automating/using/managing-execution-options.md)
 
 在描述檔替代區段中已新增有關主旨行首碼500個字元限制的資訊。 [閱讀更多資訊](../../sending/using/testing-messages-using-target.md)
 
@@ -120,7 +120,7 @@ Campaign電子郵件設計人員檔案和相關頁面已更新，以反映Adobe 
 
 內建的右側已添 **[!UICONTROL Workflow]** 加了資訊。 [閱讀更多資訊](../../administration/using/list-of-roles.md)
 
-已在工作流程屬性中 **[!UICONTROL History in days field]** 的可用資訊中新增。 [閱讀更多資訊](../../automating/using/executing-a-workflow.md)
+已在工作流程屬性中 **[!UICONTROL History in days field]** 的可用資訊中新增。 [閱讀更多資訊](../../automating/using/about-workflow-execution.md)
 
 ## 版本20.1 - 2020年2月 {#release-20-1---february-2020}
 
@@ -818,7 +818,7 @@ Dreamweaver整合即時——閱 [讀更多](https://docs.adobe.com/content/help
 
 針對不同類型的Adobe Campaign使用者新增區段。 [閱讀更多資訊](../../administration/using/users-management.md)
 
-工作流程手冊已重新整理和擴充。 輕鬆瞭解如何建立和執行工作流 [、如何定位和管](../../automating/using/building-a-workflow.md) 理您的Digrement [](../../automating/using/executing-a-workflow.md)[](../../automating/using/targeting-data.md)[](../../automating/using/targeting-data.md#enriching-data)[](../../automating/using/importing-data.md)[](../../automating/using/using-workflow-data.md) 、ImportData、How to use Workflow data Update to Data Update the Database或Send Deliveries的工作流資料。
+工作流程手冊已重新整理和擴充。 輕鬆瞭解如何建立和執行工作流 [、如何定位和管](../../automating/using/building-a-workflow.md) 理您的Digrement [](../../automating/using/about-workflow-execution.md)[](../../automating/using/targeting-data.md)[](../../automating/using/targeting-data.md#enriching-data)[](../../automating/using/importing-data.md)[](../../automating/using/using-workflow-data.md) 、ImportData、How to use Workflow data Update to Data Update the Database或Send Deliveries的工作流資料。
 
 現在動態報表可使用報表指標計算，包括完整說明和計算公式。 [閱讀更多資訊](../../reporting/using/indicator-calculation.md)
 

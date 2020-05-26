@@ -12,7 +12,10 @@ discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 381803b39527e175efc9a0d0ef8f4a427697db2d
+source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+workflow-type: tm+mt
+source-wordcount: '603'
+ht-degree: 5%
 
 ---
 
@@ -26,7 +29,7 @@ source-git-commit: 381803b39527e175efc9a0d0ef8f4a427697db2d
 <td><img src="assets/do-not-localize/icon_privacy.svg" width="60px"><p><a href="#privacy">隱私權規範</a></p></td></tr>
 </table>
 
-促銷活動整合式客戶個人檔案可讓您透過單一檢視追蹤所有通道與客戶的每一次互動，讓您向客戶傳遞相關的個人化訊息。
+Campaign整合式客戶個人檔案可讓您在單一檢視中追蹤所有通道與客戶的每一次互動，讓您向客戶傳遞相關的個人化訊息。
 
 將您的資料庫細分為受眾，以最佳化行銷宣傳的目標。
 
@@ -78,7 +81,7 @@ Adobe Campaign可即時建立豐富的客戶個人檔案，讓您在客戶偏好
 
 <img src="assets/do-not-localize/icon_privacy.svg" width="60px">
 
-Adobe Campaign提供一套工具，可協助您遵循GDPR、CCPA和 **其他隱私權法規** 。
+Adobe Campaign提供一套工具，可協助您遵循GDPR、CCPA和其 **他隱私權法規** 的隱私權規範。
 
 在本文中進一步 [瞭解隱私權管理](https://helpx.adobe.com/campaign/kb/campaign-privacy.html) ，以及我們提供的管理存取權、被遺忘權、同意權、資料保留權和使用者角色的功能。
 
@@ -91,5 +94,5 @@ Campaign中的隱私權和同意，以及如何管理這些資訊，將列在本
 * [使用對象目標服務](../../audiences/using/aep-about-audience-destinations-service.md)
 * [使用Microsoft Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 * [Adobe Shared Audiences](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
-* [使用工作流程匯入描述檔](../../automating/using/importing-data.md)
+* [使用工作流程匯入描述檔](../../automating/using/creating-import-workflow-templates.md)
 * [個人檔案與觀眾影片](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)

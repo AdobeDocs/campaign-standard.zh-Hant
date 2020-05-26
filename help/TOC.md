@@ -4,10 +4,10 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard 說明
 translation-type: tm+mt
-source-git-commit: 4e5bb76be743fb44a464ebedb466927b87e21584
+source-git-commit: a9a6fc70fe8fe4ffa3560c725b7753b001d8e928
 workflow-type: tm+mt
-source-wordcount: '1451'
-ht-degree: 92%
+source-wordcount: '1453'
+ht-degree: 91%
 
 ---
 
@@ -253,9 +253,6 @@ ht-degree: 92%
    + 工作流程一般操作 {#workflow-general-operation}
       + [工作流程介面](automating/using/workflow-interface.md)
       + [建立工作流程](automating/using/building-a-workflow.md)
-      + [目標定位資料](automating/using/targeting-data.md)
-      + [匯入資料](automating/using/importing-data.md)
-      + [使用工作流程資料](automating/using/using-workflow-data.md)
       + [工作流程最佳實務](automating/using/best-practices-workflows.md)
    + 執行工作流程 {#executing-a-workflow}
       + [關於工作流執行](automating/using/about-workflow-execution.md)
@@ -308,8 +305,10 @@ ht-degree: 92%
       + [函式清單](automating/using/list-of-functions.md)
    + 匯入和匯出資料 {#importing-and-exporting-data}
       + [關於資料匯入和匯出](automating/using/about-data-import-and-export.md)
+      + [匯入最佳實務](automating/using/import-best-practices.md)
       + [使用匯入範本匯入資料](automating/using/importing-data-with-import-templates.md)
-      + [定義匯入範本](automating/using/defining-import-templates.md)
+      + [建立工作流程範本以匯入資料](automating/using/creating-import-workflow-templates.md)
+      + [管理加密的資料](automating/using/managing-encrypted-data.md)
       + [匯出日誌](automating/using/exporting-logs.md)
       + [管理套件](automating/using/managing-packages.md)
       + [匯出清單](automating/using/exporting-lists.md)

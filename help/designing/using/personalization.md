@@ -12,7 +12,10 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 96a1812ce8775f4bfb3db64a824a9fdc8185ac6b
+source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+workflow-type: tm+mt
+source-wordcount: '2536'
+ht-degree: 1%
 
 ---
 
@@ -83,7 +86,7 @@ Adobe Campaign可讓您將資料庫中的欄位插入頁面，例如描述檔的
 
 >[!NOTE]
 >
->如果電子郵件是從工作流程建立，在工作流程中計算的其他資料也會顯示在個人化欄位中。 有關從工作流中添加其他資料的詳細資訊，請參閱「豐 [富資料](../../automating/using/targeting-data.md#enriching-data) 」部分。
+>如果電子郵件是從工作流程建立，在工作流程中計算的其他資料也會顯示在個人化欄位中。 有關從工作流中添加其他資料的詳細資訊，請參閱「豐 [富資料](../../automating/using/about-targeting-activities.md#enriching-data) 」部分。
 
 ## 新增內容區塊{#adding-a-content-block}
 

@@ -12,7 +12,10 @@ discoiquuid: 85d13147-fb31-446a-8476-f112c841fb82
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
+source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+workflow-type: tm+mt
+source-wordcount: '787'
+ht-degree: 1%
 
 ---
 
@@ -53,7 +56,7 @@ source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 1. 轉至標 **[!UICONTROL Workflow]** 簽。 從這裡，您可以根據您的需求新增活動，以豐富預設提供的工作流程。
 
-   有關如何配置工作流活動的詳細資訊，請參閱本節中介紹的使用案例： [範例： 匯入工作流程範本](../../automating/using/importing-data.md#example--import-workflow-template)。 此使用案例可協助您設定可重複用於匯入來自Adobe Campaign資料庫中CRM的設定檔的工作流程。
+   有關如何配置工作流活動的詳細資訊，請參閱本節中介紹的使用案例： [範例： 匯入工作流程範本](../../automating/using/creating-import-workflow-templates.md)。 此使用案例可協助您設定可重複用於匯入來自Adobe Campaign資料庫中CRM的設定檔的工作流程。
 
 1. 儲存您的範本，以便正確考慮工作流程的設定。
 1. 從標籤上傳範例檔 **[!UICONTROL Properties]** 案。 上傳的檔案只能有未來匯入或範例資料所需的欄。 範例檔案中的資料可讓您在定義工作流程後，測試簡化的匯入。
@@ -84,6 +87,6 @@ source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 **相關主題：**
 
 * [工作流程](../../automating/using/get-started-workflows.md)
-* [匯入資料](../../automating/using/importing-data.md)
-* [範例： 匯入工作流程範本](../../automating/using/importing-data.md#example--import-workflow-template)
+* [匯入和匯出資料](../../automating/using/about-data-import-and-export.md)
+* [範例： 匯入工作流程範本](../../automating/using/creating-import-workflow-templates.md)
 

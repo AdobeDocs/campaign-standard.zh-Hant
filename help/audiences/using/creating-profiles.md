@@ -12,7 +12,7 @@ discoiquuid: 4ab8a984-f898-4fff-ad8c-ed8f95362f96
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 1%
@@ -26,7 +26,7 @@ ht-degree: 1%
 
 若要在Campaign中建立或更新描述檔，您可以：
 
-* 透過工作流程從檔案匯入描述檔清 [單](../../automating/using/importing-data.md#example--import-workflow-template)
+* 透過工作流程從檔案匯入描述檔清 [單](../../automating/using/creating-import-workflow-templates.md)
 * 透過登陸頁麵線上收 [集資料](../../channels/using/getting-started-with-landing-pages.md)
 * 透過 [REST API大量建立](../../api/using/get-started-apis.md)
 * 從 [Microsoft Dynamics同步描述檔](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)

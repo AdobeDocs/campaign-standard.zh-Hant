@@ -12,7 +12,10 @@ discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+workflow-type: tm+mt
+source-wordcount: '617'
+ht-degree: 2%
 
 ---
 
@@ -22,19 +25,19 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 在建立工作流程並將人口篩選到不同的目標對象後，您可以根據此目標工作流程中定義的區段來評估行銷宣傳的效率。
 若要定位報表中的這些區段：
 
-* [步驟1:使用區段更新描述檔自訂資源](#step-1--update-profiles-custom-resource-segments)
-* [步驟2:建立含區段的工作流程](#step-2--create-a-workflow-segments)
-* [步驟3:建立動態報表以篩選區段](#step-3--create-a-dynamic-report-filter-segments)
+* [步驟1: 使用區段更新描述檔自訂資源](#step-1--update-profiles-custom-resource-segments)
+* [步驟2: 建立含區段的工作流程](#step-2--create-a-workflow-segments)
+* [步驟3: 建立動態報表以篩選區段](#step-3--create-a-dynamic-report-filter-segments)
 
 >[!CAUTION]
 >必須接受動態報告使用協定，才能開始收集這些資料。
 >For more on this agreement, refer to this [page](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
 
-## 步驟1:使用區段更新描述檔自訂資源{#step-1--update-profiles-custom-resource-segments}
+## 步驟1: 使用區段更新描述檔自訂資源{#step-1--update-profiles-custom-resource-segments}
 
 在報告區段代碼之前，您必須更新要 **[!UICONTROL Profiles]** 儲存的區段代碼的自訂資源。
 
-1. 從進階功能表，透過Adobe Campaign標誌，選取 **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** &gt; **[!UICONTROL Custom resources]**，然後選取資 **[!UICONTROL Profile (profile)]** 源。
+1. 從進階功能表，透過Adobe Campaign標誌，選取 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]**，然後選取資 **[!UICONTROL Profile (profile)]** 源。
 1. 在標籤 **[!UICONTROL Sending logs extension]** 的功能表 **[!UICONTROL Data structure]** 中，勾選 **[!UICONTROL Add segment code]** 以允許從定位工作流程儲存區段代碼，並將它傳送至動態報表。
 
    然 **[!UICONTROL Segment code]** 後，報表的維度區 **[!UICONTROL Profile]** 段中就會提供。
@@ -44,7 +47,7 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 1. 儲存自訂資源。
 
 1. 您現在需要發佈自訂資源。
-從進階功能表中，選取 **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** &gt; **[!UICONTROL Publishing]**。
+從進階功能表中，選取 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Publishing]**。
 
    ![](assets/custom_profile_7.png)
 
@@ -54,12 +57,12 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 請注意，當您在中啟用區段代碼時，系統會立即收集區段代碼 **[!UICONTROL Sending logs extension]**。
 
-## 步驟2:建立含區段的工作流程 {#step-2--create-a-workflow-segments}
+## 步驟2: 建立含區段的工作流程 {#step-2--create-a-workflow-segments}
 
 >[!NOTE]
 >如果電子郵件傳送的輸入轉場是空的，則預設會新增先前轉場的區段代碼。
 
-您首先需要建立具有不同目標群體的工作流程。 在此，我們想要傳送會根據受眾年齡而個人化的電子郵件：一個是20到30歲的個人檔案，另一個是30到40歲的個人檔案。
+您首先需要建立具有不同目標群體的工作流程。 在此，我們想要傳送會根據受眾年齡而個人化的電子郵件： 一個是20到30歲的個人檔案，另一個是30到40歲的個人檔案。
 
 1. 建立您的工作流程。 如需如何建立工作流程的詳細資訊，請參閱本 [頁](../../automating/using/building-a-workflow.md)。
 
@@ -69,7 +72,7 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
    ![](assets/report_segment_1.png)
 
-1. 新增活 **[!UICONTROL Segmentation]** 動，將查詢結果分割為兩個目標人口族群。 For more on segmentation, refer to this [page](../../automating/using/targeting-data.md#segmenting-data).
+1. 新增活 **[!UICONTROL Segmentation]** 動，將查詢結果分割為兩個目標人口族群。 For more on segmentation, refer to this [page](../../automating/using/segmentation.md).
 
 1. 按兩下活 **[!UICONTROL Segmentation]** 動以進行設定。 按一下以編輯第一個區段 **[!UICONTROL Edit properties]**。
 
@@ -100,7 +103,7 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 您現在可以存取報表來追蹤區段代碼。
 
-## 步驟3:建立動態報表以篩選區段 {#step-3--create-a-dynamic-report-filter-segments}
+## 步驟3: 建立動態報表以篩選區段 {#step-3--create-a-dynamic-report-filter-segments}
 
 在傳送傳送至您的工作流程後，您可以使用工作流程中的區段代碼來劃分報表。
 

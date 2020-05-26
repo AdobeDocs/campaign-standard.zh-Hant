@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 422f5eb7011dfcc1d923079e7346394a64934a9a
+source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
 workflow-type: tm+mt
-source-wordcount: '5807'
+source-wordcount: '5809'
 ht-degree: 1%
 
 ---
@@ -584,7 +584,7 @@ GDPR API會重新分組允許自動處理GDPR要求的功能。 [閱讀更多資
 
 新增技術，瞭解如何產生多語言CSV檔案以用於推播通知。 [閱讀更多資訊](https://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html)。
 
-已新增有關「更新直 **接郵件隔離」和傳送記錄匯入範本** 的資訊。 [閱讀更多資訊](../../automating/using/defining-import-templates.md)
+已新增有關「更新直 **接郵件隔離」和傳送記錄匯入範本** 的資訊。 [閱讀更多資訊](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates)
 
 更新技術工作流程清單。 [閱讀更多資訊](../../administration/using/technical-workflows.md)
 
@@ -616,7 +616,7 @@ Campaign和Adobe解決方案整合的大部分URL已變更！ 檢查您的書籤
 
 現在提供新選項，可讓您在定義中的許多其他資料時 **[!UICONTROL Query]** 獲得效能。 [閱讀更多資訊](../../automating/using/query.md)
 
-描述檔匯入範例已更新，提供一些提示，讓您的描述檔準備好接收直接電子郵件。 [閱讀更多資訊](../../automating/using/importing-data.md)
+描述檔匯入範例已更新，提供一些提示，讓您的描述檔準備好接收直接電子郵件。 [閱讀更多資訊](../../automating/using/about-data-import-and-export.md)
 
 工作流程中提供新活動： 活 **[!UICONTROL Enrichment]** 動。 [閱讀更多資訊](../../automating/using/enrichment.md)
 
@@ -818,7 +818,7 @@ Dreamweaver整合即時——閱 [讀更多](https://docs.adobe.com/content/help
 
 針對不同類型的Adobe Campaign使用者新增區段。 [閱讀更多資訊](../../administration/using/users-management.md)
 
-工作流程手冊已重新整理和擴充。 輕鬆瞭解如何建立和執行工作流 [、如何定位和管](../../automating/using/building-a-workflow.md) 理您的Digrement [](../../automating/using/about-workflow-execution.md)[](../../automating/using/targeting-data.md)[](../../automating/using/targeting-data.md#enriching-data)[](../../automating/using/importing-data.md)[](../../automating/using/using-workflow-data.md) 、ImportData、How to use Workflow data Update to Data Update the Database或Send Deliveries的工作流資料。
+工作流程手冊已重新整理和擴充。 輕鬆瞭解如何建立和執行工作流 [、如何定](../../automating/using/building-a-workflow.md) 位和管理您的 [](../../automating/using/about-workflow-execution.md)[](../../automating/using/about-targeting-activities.md)[](../../automating/using/about-targeting-activities.md#enriching-data)[](../../automating/using/about-data-import-and-export.md) Target和Export資料、如何匯入Oracle Export資料，以及如何使用工作流程資料來更新資料庫或傳送傳送傳送。
 
 現在動態報表可使用報表指標計算，包括完整說明和計算公式。 [閱讀更多資訊](../../reporting/using/indicator-calculation.md)
 

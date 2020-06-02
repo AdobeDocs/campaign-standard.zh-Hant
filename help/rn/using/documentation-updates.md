@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e89218b584f0d621ca700d4ee2a4866555d00679
+source-git-commit: 15570e42a345e0b8df2fe59d5ce06877e2ac7cf3
 workflow-type: tm+mt
 source-wordcount: '5842'
 ht-degree: 9%
@@ -26,7 +26,7 @@ ht-degree: 9%
 
 ## 檔案更新- 2020年6月 {#doc-updates-june-2020}
 
-Campaign Standard —— 目前無法使用Microsoft Dynamics 365整合。 新連接器正在開發中，未來將可供使用。 如需詳細資訊，請聯絡您的Adobe銷售代表。
+Campaign Standard —— 目前無法使用Microsoft Dynamics 365整合。 新連接器正在開發中，未來將可供使用。 相關說明頁面已移除。 [詳細內容](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 ## 檔案更新- 2020年5月 {#doc-updates-may-2020}
 

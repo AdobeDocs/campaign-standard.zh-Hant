@@ -12,10 +12,10 @@ discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: e89218b584f0d621ca700d4ee2a4866555d00679
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '595'
+ht-degree: 1%
 
 ---
 
@@ -35,11 +35,6 @@ ht-degree: 0%
 組織是可讓管理員設定群組和使用者，以及控制Experience Cloud中單一登入的實體。 組織的運作方式類似登入公司，涵蓋所有Experience Cloud產品和解決方案。 通常，組織就是您的公司名稱。 但是，公司可以有許多組織。 使用者和組織管理在 [Adobe Experience Cloud說明入口網站中有詳細說明](https://marketing.adobe.com/resources/help/zh_TW/mcloud/organizations.html)。
 
 如果您想要將其他系統的資料流與Adobe Campaign整合，請參閱我們的 [API檔案](../../api/using/get-started-apis.md)。
-
->[!NOTE]
->
->Adobe Campaign Standard也可以連線至Microsoft Dynamics 365: 此整合可同步CRM系統中所有可用的連絡資料，讓所有相關的連絡資料都可用於促銷活動。 如需此整合的詳細資訊，請參閱使 [用促銷活動和動態365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)。
-
 
 <table> 
  <thead> 

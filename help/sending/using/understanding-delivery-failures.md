@@ -12,7 +12,10 @@ discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c1287a360cdd1750996b47a27b85a11e90b29df0
+source-git-commit: d05d2692607117e056c360e81d85b7d64c4077a3
+workflow-type: tm+mt
+source-wordcount: '1279'
+ht-degree: 1%
 
 ---
 
@@ -50,33 +53,29 @@ source-git-commit: c1287a360cdd1750996b47a27b85a11e90b29df0
 
 傳送失敗時有三種錯誤類型：
 
-* **硬**:「硬」錯誤表示地址無效。 這包含明確指出地址無效的錯誤訊息，例如：&quot;未知用戶&quot;。
-* **軟**:這可能是暫時錯誤，或無法分類的錯誤，例如：「無效域」或「郵箱已滿」。
-* **已忽略**:這是已知為暫時的錯誤，例如「不在辦公室」，或是技術錯誤，例如，如果傳送者類型是「postmaster」。
+* **硬**: 「硬」錯誤表示地址無效。 這包含明確指出地址無效的錯誤訊息，例如： &quot;未知用戶&quot;。
+* **軟**: 這可能是暫時錯誤，或無法分類的錯誤，例如： 「無效域」或「郵箱已滿」。
+* **已忽略**: 這是已知為暫時的錯誤，例如「不在辦公室」，或是技術錯誤，例如，如果傳送者類型是「postmaster」。
 
 傳送失敗的可能原因有：
 
-* **[!UICONTROL User unknown]** （硬類型）:地址不存在。 此描述檔不會再嘗試傳送。
-* **[!UICONTROL Quarantined address]** （硬類型）:地址被隔離了。
-* **[!UICONTROL Unreachable]** （可變／硬類型）:消息傳送鏈中發生錯誤（例如暫時無法訪問域）。 根據提供者傳回的錯誤，將直接傳送地址給隔離，或重新嘗試傳送，直到Campaign收到證明隔離狀態正確的錯誤或錯誤數達到5為止。
-* **[!UICONTROL Address empty]** （硬類型）:地址未定義。
-* **[!UICONTROL Mailbox full]** （可變類型）:此用戶的郵箱已滿，無法接受更多消息。 可以從隔離清單中刪除此地址，以進行另一次嘗試。 在30天後自動移除。
-
-   In order for the address to be automatically removed from the list of quarantined addresses, the **[!UICONTROL Database cleanup]** technical workflow must be started.
-
-* **[!UICONTROL Refused]** （可變／硬類型）:由於安全反饋是垃圾郵件報告，該地址已被置於隔離狀態。 根據提供者傳回的錯誤，將直接傳送地址給隔離，或者重新嘗試傳送，直到Campaign收到證明隔離狀態正確的錯誤或錯誤數達到5為止。
-* **[!UICONTROL Duplicate]**:區段中已偵測到該位址。
-* **[!UICONTROL Not defined]** （可變類型）:該地址正在限定中，因為錯誤尚未增加。
-
-   當伺服器傳送新錯誤訊息時，會發生此類錯誤：它可能是孤立的錯誤，但如果再次發生，錯誤計數器會增加，這會提醒技術團隊。
-
-* **[!UICONTROL Error ignored]**:此位址位於白名單中，無論如何，都會寄送電子郵件給此位址。
-* **[!UICONTROL Blacklisted address]**:地址在發送時被列入黑名單。
-* **[!UICONTROL Account disabled]** （可變／硬類型）:當Internet訪問提供程式(IAP)檢測到長時間的不活動時，它可以關閉用戶帳戶：傳送至使用者位址的作業將無法進行。 「軟」或「硬」類型取決於收到的錯誤類型：如果帳戶因為6個月的閒置而暫時停用，而且仍可啟動，則會指派狀 **[!UICONTROL Erroneous]** 態並再次嘗試傳送。 如果收到錯誤信號表明帳戶已永久停用，則會直接將其發送到隔離。
-* **[!UICONTROL Not connected]**:當傳送訊息時，描述檔的行動電話已關閉或未連線至網路。
-* **[!UICONTROL Invalid domain]** （可變類型）:電子郵件地址的網域不正確或已不存在。 此描述檔將再次定位，直到錯誤計數達到5。 之後，記錄將設定為「隔離」狀態，不會再重試。
-* **[!UICONTROL Text too long]**:SMS訊息中的字元數量超過限制。 如需詳細資訊，請參 [閱SMS編碼、長度和音譯](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)。
-* **[!UICONTROL Character not supported by encoding]**:sms訊息包含一或多個編碼不支援的字元。 有關詳細資訊，請參 [閱字元表- GSM標準](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard)。
+| 錯誤標籤 | 錯誤類型 | 說明 |
+---------|----------|---------
+| **[!UICONTROL User unknown]** | 硬 | 地址不存在。 此描述檔不會再嘗試傳送。 |
+| **[!UICONTROL Quarantined address]** | 硬 | 地址已置於隔離區。 |
+| **[!UICONTROL Unreachable]** | 軟／硬 | 消息傳送鏈中發生錯誤（例如暫時無法訪問域）。 根據提供者傳回的錯誤，將直接傳送地址給隔離，或者重新嘗試傳送，直到Campaign收到證明隔離狀態正確的錯誤或錯誤數達到5為止。 |
+| **[!UICONTROL Address empty]** | 硬 | 未定義地址。 |
+| **[!UICONTROL Mailbox full]** | Soft | 此用戶的郵箱已滿，無法接受更多消息。 可以從隔離清單中刪除此地址，以進行另一次嘗試。 在30天後自動移除。 In order for the address to be automatically removed from the list of quarantined addresses, the **[!UICONTROL Database cleanup]** technical workflow must be started. |
+| **[!UICONTROL Refused]** | 軟／硬 | 由於安全反饋是垃圾郵件報告，該地址已被置於隔離狀態。 根據提供者傳回的錯誤，將直接傳送地址給隔離，或者重新嘗試傳送，直到Campaign收到證明隔離狀態正確的錯誤或錯誤數達到5為止。 |
+| **[!UICONTROL Duplicate]** | 已忽略 | 區段中已偵測到該位址。 |
+| **[!UICONTROL Not defined]** | Soft | 該地址正在限定中，因為錯誤尚未增加。 當伺服器傳送新錯誤訊息時，會發生此類錯誤： 它可能是孤立的錯誤，但如果再次發生，錯誤計數器會增加，這會提醒技術團隊。 |
+| **[!UICONTROL Error ignored]** | 已忽略 | 此地址位於白名單中，無論如何，都會寄送電子郵件給此地址。 |
+| **[!UICONTROL Blacklisted address]** | 硬 | 地址在發送時被列入黑名單。 |
+| **[!UICONTROL Account disabled]** | 軟／硬 | 當Internet訪問提供程式(IAP)檢測到長時間的不活動時，它可以關閉用戶帳戶： 傳送至使用者位址的作業將無法進行。 「軟」或「硬」類型取決於收到的錯誤類型： 如果帳戶因為6個月的閒置而暫時停用，而且仍可啟動，則會指派狀 **[!UICONTROL Erroneous]** 態並再次嘗試傳送。 如果收到錯誤信號表明帳戶已永久停用，則會直接將其發送到隔離。 |
+| **[!UICONTROL Not connected]** | 已忽略 | 當傳送訊息時，描述檔的行動電話已關閉或未連線至網路。 |
+| **[!UICONTROL Invalid domain]** | Soft | 電子郵件地址的網域不正確或已不存在。 此描述檔將再次定位，直到錯誤計數達到5。 之後，記錄將設定為「隔離」狀態，不會再重試。 |
+| **[!UICONTROL Text too long]** | 已忽略 | SMS訊息中的字元數量超過限制。 如需詳細資訊，請參 [閱SMS編碼、長度和音譯](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)。 |
+| **[!UICONTROL Character not supported by encoding]** | 已忽略 | SMS訊息包含一或多個編碼不支援的字元。 有關詳細資訊，請參 [閱字元表- GSM標準](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard)。 |
 
 ## 傳送暫時失敗後重試 {#retries-after-a-delivery-temporary-failure}
 
@@ -102,8 +101,8 @@ Adobe Campaign Enhanced MTA現在會根據IP在歷史和目前指定網域的執
 
 傳送可能會立即失敗（同步錯誤），或稍後傳送失敗（非同步錯誤）。
 
-* **同步錯誤**:由Adobe Campaign傳送伺服器連絡的遠端伺服器會立即傳回錯誤訊息，不允許傳送至描述檔的伺服器。
-* **非同步錯誤**:接收伺服器稍後會重新發送彈回郵件或SR。 傳送後一週內，可能會發生非同步錯誤。
+* **同步錯誤**: 由Adobe Campaign傳送伺服器連絡的遠端伺服器會立即傳回錯誤訊息，不允許傳送至描述檔的伺服器。
+* **非同步錯誤**: 接收伺服器稍後會重新發送彈回郵件或SR。 傳送後一週內，可能會發生非同步錯誤。
 
 ## 彈回郵件資格 {#bounce-mail-qualification}
 
@@ -129,6 +128,6 @@ To list the various bounces and their associated error types et reasons, click t
 
 傳送電子郵件時，最佳做法是雙重加入機制。 它可保護平台免受錯誤或無效的電子郵件地址、垃圾郵件機器人，並防止可能的垃圾郵件投訴。
 
-原則是先傳送電子郵件確認訪客的同意，再將其儲存為「描述檔」至您的促銷活動資料庫：訪客填寫線上登陸頁面，接著收到電子郵件，必須按一下確認連結才能完成訂閱。
+原則是先傳送電子郵件確認訪客的同意，再將其儲存為「描述檔」至您的促銷活動資料庫： 訪客填寫線上登陸頁面，接著收到電子郵件，必須按一下確認連結才能完成訂閱。
 
 如需詳細資訊，請參閱[本小節](../../channels/using/setting-up-a-double-opt-in-process.md)。

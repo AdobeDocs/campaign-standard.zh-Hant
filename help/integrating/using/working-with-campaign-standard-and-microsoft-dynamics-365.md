@@ -7,31 +7,36 @@ contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
-topic-tags: working-with-campaign-and-experience-manager
+topic-tags: working-with-campaign-and-microsoft-dynamics-365
 discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 277663c4cf0e810f691eeebfade17bf8dd73698e
+source-git-commit: 21135f27fd1d8297edd3dd067446d09c39de9f4f
+workflow-type: tm+mt
+source-wordcount: '397'
+ht-degree: 0%
 
 ---
 
 
 # 開始使用Microsoft Dynamics 365整合
 
-在跨通道通訊中啟用您的CRM資料：瞭解如何將Microsoft Dynamics 365的連絡人傳送至Adobe Campaign，並將促銷活動績效資料（傳送、開啟、點按和彈回）從Adobe Campaign共用回Microsoft Dynamics 365。
+>[!IMPORTANT]
+>
+>此整合目前無法使用。 新連接器正在開發中，未來將可供使用。 如需詳細資訊，請聯絡您的Adobe銷售代表。
+
+在跨通道通訊中啟用您的CRM資料： 瞭解如何將Microsoft Dynamics 365的連絡人傳送至Adobe Campaign，並將促銷活動績效資料（傳送、開啟、點按和彈回）從Adobe Campaign共用回Microsoft Dynamics 365。
 
 >[!NOTE]
 >
 >Microsoft Dynamics 365 / Adobe Campaign Standard整合僅支援 **Microsoft Dynamics 365銷售應用程式** 。
 
-## 優點與使用案例
-
-### 原則
+## 原則
 
 Adobe Campaign與Microsoft Dynamics 365整合可同步CRM系統中所有可用的連絡資料，讓所有相關的連絡資料都可用於促銷活動。
 
-相反地，當Adobe Campaign中的描述檔與訊息互動時，這些資料(例如：傳送、開啟、點按和彈回數)會自動流入Microsoft Dynamics 365，讓連絡人記錄也能與行銷活動一起保存。
+相反地，當Adobe Campaign中的描述檔與訊息互動時，這些資料(例如： 傳送、開啟、點按和彈回數)會自動流入Microsoft Dynamics 365，讓連絡人記錄也能與行銷活動一起保存。
 
 最新版整合也新增了對自訂實體的支援，讓Dynamics 365中的自訂實體與促銷活動中對應的自訂實體同步。
 
@@ -41,9 +46,7 @@ Adobe Campaign與Microsoft Dynamics 365整合可同步CRM系統中所有可用�
 1. 將電子郵件行銷事件（傳送、開啟、點按、彈回）從Campaign傳送至Dynamics 365，以顯示至Dynamics 365介面中的銷售儲存庫
 1. 將自訂實體從Dynamics 365同步至Campaign，以便用於細分和個人化
 
-在這裡觀看Dynamics 365-Campaign Standard整合功能 [影片](https://helpx.adobe.com/campaign/kt/acs/using/acs-ms-dynamics-crm-connector-tutorial.html)。
-
-### 主要優點
+## 主要優點
 
 * 銷售與行銷之間的一致訊息
 

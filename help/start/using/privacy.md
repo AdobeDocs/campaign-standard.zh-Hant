@@ -12,7 +12,10 @@ discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: faddcc870adcf9e71e50004a69a219b16ddc044f
+source-git-commit: 26760a118f87676afe3d359c8db3513c1a190d35
+workflow-type: tm+mt
+source-wordcount: '1479'
+ht-degree: 0%
 
 ---
 
@@ -83,7 +86,7 @@ Adobe Campaign是Adobe Experience Cloud解決方案的一部分。 在Campaign�
 
 因此，身為收集和分享個人資料的公司，您是資料掌控者、客戶是資料主體，而Adobe Campaign在依您的指示處理個人資料時，會當成資料處理者。 請注意，身為資料掌控者，您有責任處理與資料主體的關係，例如管理隱私權 [要求](#privacy-requests)。
 
-當將Campaign與其他Experience Cloud解決方案整合時，如果觀眾可以從一個系統傳輸到另一個系統，例如 [Adobe Analytics](../../audiences/using/aep-about-audience-destinations-service.md)、 [Audience Manager或People核心服務](../../integrating/using/about-campaign-analytics-integration.md)，或與其他解決方案(例如 [](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)[](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)Microsoft Dynamics 365)整合時，您需要支付額外的個人護理費用來保護資料。
+當將Campaign與其他Experience Cloud解決方案整合時，如果觀眾可以從一個系統傳輸到另一個系統，例如 [Adobe Analytics](../../audiences/using/aep-about-audience-destinations-service.md)、 [Audience Manager或People核心服務](../../integrating/using/about-campaign-analytics-integration.md)，或與其他解決方案(例如 [](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)[](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)Microsoft Dynamics 365)整合時，您需要支付額外的個人護理費用來保護資料。
 
 ## 資料擷取 {#data-acquisition}
 
@@ -108,7 +111,7 @@ Adobe Campaign提供您專屬於隱私權管理的各種功能：
 
 ### 同意、保留和角色 {#consent}
 
-Adobe Campaign原本提供對隱私權至關重要的功能：
+Adobe Campaign原本提供對隱私權至關重要的重要功能：
 
 * **許可管理**: 透過訂閱管理程式，您可以管理收件者的偏好設定，並追蹤哪些收件者已選擇加入何種訂閱類型。 如需詳細資訊，請參 [閱「訂閱](../../audiences/using/about-subscriptions.md) 」 [和「著陸頁面」](../../channels/using/getting-started-with-landing-pages.md)。
 * **資料保留**: 所有內置的標準日誌表都具有預設的保留期，通常將其資料儲存限制在6個月或更短。 您可以使用工作流程設定額外的保留期。 如需詳細資訊，請洽詢Adobe顧問或技術管理員。

@@ -12,7 +12,10 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: caab111b583534cc2e52aa9e45d9fd37c770783c
+source-git-commit: bb83fb3b24af0102dc3745517e8604fdac82ee19
+workflow-type: tm+mt
+source-wordcount: '438'
+ht-degree: 0%
 
 ---
 
@@ -21,15 +24,15 @@ source-git-commit: caab111b583534cc2e52aa9e45d9fd37c770783c
 
 開始使用電子郵件設計工具，並從舊版編輯器中建立的電子郵件HTML中建立可重複使用的範本和片段。
 
->[!IMPORTANT]
->
->本節適用於熟悉HTML程式碼的進階使用者。
-
 此使用案例可讓您使用HTML電子郵件，並將其分為「電子郵件設計器」中的HTML元件，以建立「電子郵件設計器」範本。
 
 >[!NOTE]
 >
 >和相容性模式一樣，HTML元件也可以編輯，但選項有限： 您只能執行就地版本。
+
+>[!IMPORTANT]
+>
+>本節適用於熟悉HTML程式碼的進階使用者。
 
 ## 準備您的電子郵件內容
 
@@ -114,7 +117,7 @@ source-git-commit: caab111b583534cc2e52aa9e45d9fd37c770783c
 
 1. 插入HTML區段。
 
-1. 按一下 **[!UICONTROL Save]**.
+1. 按一下「**[!UICONTROL Save]**」。
 
 您現在可以檢查電子郵件的轉換。
 

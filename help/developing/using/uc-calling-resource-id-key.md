@@ -2,10 +2,10 @@
 title: 使用複合識別鍵呼叫資源
 description: 瞭解如何使用複合識別碼呼叫資源
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: 1e1e1f5f9dd239e45d83330aed74a951a7b332d4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '589'
+ht-degree: 6%
 
 ---
 
@@ -99,7 +99,7 @@ GET /profileAndServicesExt/<resourceName>/by<filterName>?<param1_parameter>=<val
 ```
 
 >[!NOTE]
->若要呼叫客戶篩選，請在步驟2中設定篩選定義時，使用&quot;by&quot;前置詞，後面接著定義的篩選 [器名稱](../../developing/using/uc-calling-resource-id-key.md#step-2-configure-the-filter-definition)。
+>若要呼叫自訂篩選，請在步驟2中設定篩選定義時，使用&quot;by&quot;前置詞，後面接著定義的篩選 [器名稱](../../developing/using/uc-calling-resource-id-key.md#step-2-configure-the-filter-definition)。
 
 在本例中，從&quot;spring&quot;類別擷取具有&quot;123456&quot; CRM ID的描述檔的語法為：
 

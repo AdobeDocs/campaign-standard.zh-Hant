@@ -12,7 +12,10 @@ discoiquuid: 2b5b13c8-2e51-4985-a161-c1d7f0fc32b4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: b43e6be265ff2d8ce357ef44672a755028e2e5af
+workflow-type: tm+mt
+source-wordcount: '435'
+ht-degree: 2%
 
 ---
 
@@ -70,11 +73,11 @@ Adobe Campaign中提供的行動裝置、傳訊和 **Email轉譯** ( [Email](htt
 
 ## 電子郵件轉換報表說明 {#email-rendering-report-description}
 
-此報告會以電子郵件呈現方式呈現收件者的呈現方式。 電子郵件轉譯會因收件者開啟電子郵件傳送的方式而異：在瀏覽器、行動裝置上，或透過電子郵件應用程式。
+此報告會以電子郵件呈現方式呈現收件者的呈現方式。 電子郵件轉譯會因收件者開啟電子郵件傳送的方式而異： 在瀏覽器、行動裝置上，或透過電子郵件應用程式。
 
 >[!NOTE]
 >
->您的授權合約中會列出可用的轉譯數。 每次啟用「電 **子郵件轉譯** 」的傳送，都會將您的可用轉譯（稱為Token）減少一。 如果您是Litmus客戶，您可以使用自己的Litmus帳戶來布建和使用Adobe Campaign中的電子郵件轉譯。 如需詳細資訊，請洽詢您的Adobe銷售代表。
+>您的授權合約中會列出可用的轉譯數。 每次啟用「電 **子郵件轉譯** 」的傳送，都會將您的可用轉譯（稱為Token）減少一。
 
 報表摘要會顯示收到、不想要（垃圾訊息）、未收到或待接收的訊息數。
 

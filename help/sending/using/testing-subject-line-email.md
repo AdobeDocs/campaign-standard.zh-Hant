@@ -12,7 +12,10 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6f89b420f0f98c13da1bfff8f9b1b29e015aef89
+source-git-commit: 343ea01229779a32919bd68fd15e0c7ff6863353
+workflow-type: tm+mt
+source-wordcount: '1095'
+ht-degree: 1%
 
 ---
 
@@ -39,7 +42,7 @@ source-git-commit: 6f89b420f0f98c13da1bfff8f9b1b29e015aef89
 1. 開啟內容，並在對應的輸入欄位中輸入電子郵件的主旨。
 1. 按一下 **[!UICONTROL Test subject]** 按鈕以存取視 **[!UICONTROL Test your subject line]** 窗。 您仍然可以從此視窗編輯主題。
 1. 選擇要考慮開放速率預測的正確模型。 目前已推出多種機型，每種機型都對應特定產業。 有關使用模型的詳細資訊，請參 [閱本節](#importing-models)。
-1. 按一下 **[!UICONTROL Test]**.
+1. 按一下「**[!UICONTROL Test]**」。
 
 然後會分析您的主題。
 
@@ -49,10 +52,10 @@ source-git-commit: 6f89b420f0f98c13da1bfff8f9b1b29e015aef89
 
 會計算數個指標，並顯示一組工具，以協助您：
 
-* **預計開放率**:此圖表提供您對電子郵件及其目前主旨的開放率的概念。
-* **主旨長度**:此指標可讓您查看主題的目前長度是否正確，或是需要較長或較短。
-* **彩色字詞**:在測試主題時，以綠色強調的字詞是對提高開放率預測貢獻最大的字詞。 以紅色強調的字詞是對提高開放率預測貢獻最小的字詞。 如果您新增或移除主題中的字詞，反白顯示的字詞將會變更。
-* **類別和字詞建議**:在窗口的下部，將顯示選定模型的多個相關類別。 這些類別會依重要性順序排序，讓您查看主題是否包含透過核取符號與其關聯的字詞。 每個類別都包含一組建議字詞，可用於您的主題中，讓其更相關並提高開放率。 這些單字是特定類別中最常使用的單字。
+* **預計開放率**: 此圖表提供您對電子郵件及其目前主旨的開放率的概念。
+* **主旨長度**: 此指標可讓您查看主題的目前長度是否正確，或是需要較長或較短。
+* **彩色字詞**: 在測試主題時，以綠色強調的字詞是對提高開放率預測貢獻最大的字詞。 以紅色強調的字詞是對提高開放率預測貢獻最小的字詞。 如果您新增或移除主題中的字詞，反白顯示的字詞將會變更。
+* **類別和字詞建議**: 在窗口的下部，將顯示選定模型的多個相關類別。 這些類別會依重要性順序排序，讓您查看主題是否包含透過核取符號與其關聯的字詞。 每個類別都包含一組建議字詞，可用於您的主題中，讓其更相關並提高開放率。 這些單字是特定類別中最常使用的單字。
 
 >[!NOTE]
 >
@@ -65,36 +68,36 @@ source-git-commit: 6f89b420f0f98c13da1bfff8f9b1b29e015aef89
 依預設，Adobe Campaign伺服器上沒有執行任何模型。 獲取模型和激活特徵有兩種方法：
 
 * 您可以根據先前電子郵件訊息的資料來訓練本機模型。
-* 您可以匯入特定產業（醫療等）的預先訓練模型使用套 [件匯入功能](../../automating/using/managing-packages.md) 。
+* 您可以匯入特定產業（醫療等）的預先訓練模型 使用套 [件匯入功能](../../automating/using/managing-packages.md) 。
 
 ### 培訓本地模型 {#training-local-model}
 
 * 如果您已使用Adobe Campaign，本機模型將會自動接受您已傳送訊息的訓練。
-* 如果您是Adobe Campaign的新手，可以從先前的系統/ESP擷取包含4欄的CSV檔案：日期，主旨，開啟，傳送。 若要這麼做，請前往 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email]** > **[!UICONTROL Subject Line Import]** 並依照後續畫面上的指示進行。 主體上載完成後，請導入本地模型，如下所述。 本機模型會自動接受您上傳之資料的訓練。
+* 如果您是Adobe Campaign的新手，可以從先前的系統/ESP擷取包含4欄的CSV檔案： 日期，主旨，開啟，傳送。 若要這麼做，請前往 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email]** > **[!UICONTROL Subject Line Import]** 並依照後續畫面上的指示進行。 主體上載完成後，請導入本地模型，如下所述。 本機模型會自動接受您上傳之資料的訓練。
 * 如果您是Adobe Campaign的新手，但無法如上所述取得CSV檔案，則可使用預先訓練好的模型 [](#pre-trained-models) ，或等到系統中有足夠的傳送資料來訓練本機模型。 系統會自動判斷您目前的資料集是否包含足夠的資料來識別模式和訓練模型。
 
 >[!NOTE]
 >
->培訓您自己的模型不需要定義主題行數。 有關詳細資訊，請參 [閱疑難排解](#troubleshooting)。
+>培訓您自己的模型不需要定義主題行數。 For more on this, see [Troubleshooting](#troubleshooting).
 >
 >實例上只能有一個受過培訓的模型。
 
 要培訓本地模型，請執行以下操作：
-1. 從這裡下載subjectLineTraining.xml [](https://support.neolane.net/webApp/downloadCenter?__userConfig=psaDownloadCenter) ，並使用套 [](../../automating/using/managing-packages.md) 件匯入功能將它上傳至Adobe Campaign實例。 技術工作流程會自動為您進行培訓。
+1. 從這裡下載subjectLineTraining.xml [](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) ，並使用套 [](../../automating/using/managing-packages.md) 件匯入功能將它上傳至Adobe Campaign實例。 技術工作流程會自動為您進行培訓。
 1. 第一次要培訓模型時，管理員可以強制 **[!UICONTROL SubjectLine Training workflow]** 從> **[!UICONTROL Administration]** >菜 **[!UICONTROL Application settings]** 單開始 **[!UICONTROL Workflows]** 。
 1. 模型上傳及訓練後，功能就會自動啟動，訊息的主旨行欄位旁會顯示新選項。
 1. 然後，技術工作流程將會每週自動繼續培訓您的模型。
 
 ### 導入預先培訓的模型 {#pre-trained-models}
 
-要訪問這些型號，請單 [擊](https://support.neolane.net/webApp/extranetLogin) ，然後轉到 **[!UICONTROL Download Center]**。 使用套 [件匯入功能](../../automating/using/managing-packages.md) ，將模型上傳至您的Adobe Campaign例項。
+要訪問這些型號，請按一下 [此處](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)。 使用套 [件匯入功能](../../automating/using/managing-packages.md) ，將模型上傳至您的Adobe Campaign例項。
 
 可用的型號包括：
 
-* 化妝品行業：subjectInsightComsetic.xml
-* 超市業：subjectInsightSupermarket.xml
-* 醫療行業：subjectInsightMedical.xml
-* 培訓的模型：subjectlineTraining.xml。
+* 化妝品行業： subjectInsightComsetic.xml
+* 超市業： subjectInsightSupermarket.xml
+* 醫療行業： subjectInsightMedical.xml
+* 培訓的模型： subjectlineTraining.xml。
 
 這些模型是不能訓練的。
 

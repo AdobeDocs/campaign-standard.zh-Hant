@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 15570e42a345e0b8df2fe59d5ce06877e2ac7cf3
+source-git-commit: babbf78d91d3cab9569eab3b15da50f64a91a560
 workflow-type: tm+mt
-source-wordcount: '5842'
+source-wordcount: '5876'
 ht-degree: 9%
 
 ---
@@ -25,6 +25,10 @@ ht-degree: 9%
 除了Adobe Campaign發行說 [明外](../../rn/using/release-notes.md)，本頁還列出Adobe Campaign Standard檔案中的所有新更新。
 
 ## 檔案更新- 2020年6月 {#doc-updates-june-2020}
+
+舊版支援網站的參考已由新URL取代。 [進一步瞭解](https://helpx.adobe.com/campaign/kb/ac-support.html#acs-support-req)
+
+自訂Litmus帳戶設定已從「收件匣」轉譯功能中移除。 [詳細內容](../../sending/using/email-rendering.md)
 
 Campaign Standard —— 目前無法使用Microsoft Dynamics 365整合。 新連接器正在開發中，未來將可供使用。 相關說明頁面已移除。 [詳細內容](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
@@ -250,7 +254,7 @@ GDPR快速入門手冊已經過改進並充實。 它現在是包含GDPR和CCPA�
 
 在「日誌」頁籤中，在工作流疑難解答部分中添加了一個過程，該過程說明如何顯示SQL查詢。 [詳細內容](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
 
-新增了一篇說明文章，其中包含控制面板中子網域和憑證管理的相關資訊。 [詳細內容](https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/subdomains-branding.html)
+新增了一篇說明文章，其中包含控制面板中子網域和憑證管理的相關資訊。 [詳細內容](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/subdomains-and-certificates/subdomains-branding.html)
 
 描述內容範本和片段的章節已更新。 [詳細內容](../../designing/using/using-reusable-content.md#content-templates)
 

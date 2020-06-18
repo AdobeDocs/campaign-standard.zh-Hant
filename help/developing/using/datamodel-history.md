@@ -10,7 +10,10 @@ discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '1204'
+ht-degree: 0%
 
 ---
 
@@ -45,43 +48,43 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                   <td> </td>
                </tr>
                <tr>
-                  <td>blackList</td>
+                  <td>blockList</td>
                   <td>不再聯絡（透過任何管道）</td>
                   <td>布林值 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blackListEmail</td>
+                  <td>blockListEmail</td>
                   <td>不再透過電子郵件聯絡</td>
                   <td>布林值 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blackListFax</td>
+                  <td>blockListFax</td>
                   <td>不再透過傳真聯絡</td>
                   <td>布林值 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blackListMobile</td>
+                  <td>blockListMobile</td>
                   <td>不再透過SMS聯絡</td>
                   <td>布林值 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blackListPhone</td>
+                  <td>blockListPhone</td>
                   <td>不再透過電話聯絡</td>
                   <td>布林值 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blackListPostalMail</td>
+                  <td>blockListPostalMail</td>
                   <td>不再透過直效郵件聯絡</td>
                   <td>布林值 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blackListPush通知</td>
+                  <td>blockListPush通知</td>
                   <td>不再透過推播通知聯絡</td>
                   <td>布林值 </td>
                   <td> </td>
@@ -198,7 +201,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                <tr>
                   <td>lastName</td>
                   <td>姓氏</td>
-                  <td>字串(50)</td>
+                  <td>字串(30)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -367,10 +370,10 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                         <li>(GMT+13:00)努庫阿洛法——太平洋_通加塔普——太平洋／通加塔普</li>
                         <li>(GMT-06:00)中美洲——美國_里賈納——美國／里賈納</li>
                         <li>(GMT-03:00)布宜諾斯艾利斯，卡宴，福塔雷薩——美洲_布宜諾斯艾利斯——美洲／布宜諾斯艾利斯</li>
-                        <li>(GMT-07:00)洛基山（美國和加拿大）-美國_丹佛——美國／丹佛</li>
+                        <li>(GMT-07:00)落基山（美國和加拿大）-美國_丹佛——美國／丹佛</li>
                         <li>(GMT+01:00)中非——西——非洲_羅安達——非洲／羅安達</li>
                         <li>(GMT+02:00)赫爾辛基，基輔，里加，索非亞，塔林，維爾紐斯——歐洲_赫爾辛基——歐洲／赫爾辛基</li>
-                        <li>(GMT)格林威治標準時間：都柏林、愛丁堡、里斯本、倫敦——歐洲_倫敦——歐洲／倫敦</li>
+                        <li>(GMT)格林威治標準時間： 都柏林、愛丁堡、里斯本、倫敦——歐洲_倫敦——歐洲／倫敦</li>
                         <li>(GMT-07:00)亞利桑那——美國鳳凰城——美國／鳳凰城</li>
                         <li>(GMT+02:00)貝魯特——亞洲_貝魯特——亞洲／貝魯特</li>
                         <li>(GMT+04:30)喀布爾——亞洲_喀布爾——亞洲／喀布爾</li>
@@ -387,7 +390,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                </tr>
                <tr>
                   <td>標題</td>
-                  <td>描述檔</td>
+                  <td>個人資料</td>
                   <td>字串(255)</td>
                   <td> </td>
                </tr>

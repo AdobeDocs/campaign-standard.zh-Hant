@@ -13,7 +13,10 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '233'
+ht-degree: 1%
 
 ---
 
@@ -22,10 +25,10 @@ source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
 
 Campaign隨附一組內建的登陸頁面範本：
 
-* **[!UICONTROL Acquisition]**:這是著陸頁面的預設範本，可讓您擷取和更新促銷活動資料庫中的資料。
-* **[!UICONTROL Subscription]**:此範本應用於提供服務的訂閱。
-* **[!UICONTROL Unsubscription]**:此範本可從寄送給訂閱者的電子郵件連結至服務，以允許他們取消訂閱此服務。
-* **[!UICONTROL Blacklist]**:此範本應在描述檔不想再由促銷活動聯絡時使用。 如需黑名單的詳細資訊，請 [參閱關於促銷活動中的選擇加入和選擇退出](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)。
+* **[!UICONTROL Acquisition]**: 這是著陸頁面的預設範本，可讓您擷取和更新促銷活動資料庫中的資料。
+* **[!UICONTROL Subscription]**: 此範本應用於提供服務的訂閱。
+* **[!UICONTROL Unsubscription]**: 此範本可從寄送給訂閱者的電子郵件連結至服務，以允許他們取消訂閱此服務。
+* **[!UICONTROL Block list]**: 此範本應在描述檔不想再由促銷活動聯絡時使用。 如需區塊清單管理的詳細資訊，請 [參閱關於促銷活動中的選擇加入和選擇退出](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)。
 
 這些範本在建立新登陸頁面時，預設會建議使用。
 

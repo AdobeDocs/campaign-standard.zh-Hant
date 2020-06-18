@@ -12,10 +12,10 @@ discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d05d2692607117e056c360e81d85b7d64c4077a3
+source-git-commit: ecb57ccc4cafa609f7ddccb5f934aa3ab2368dde
 workflow-type: tm+mt
-source-wordcount: '1279'
-ht-degree: 1%
+source-wordcount: '1289'
+ht-degree: 2%
 
 ---
 
@@ -32,14 +32,14 @@ ht-degree: 1%
 >
 >**MTA流程** （或「狀態報告」的「SR」）會限定SMS錯誤訊息。
 
-如果地址被隔離或配置檔案被列入黑名單，在準備傳送時也可以排除郵件。 已排除的訊息會列在 **[!UICONTROL Exclusion logs]** 傳送控制面板的標籤中(請參 [閱本節](../../sending/using/monitoring-a-delivery.md#exclusion-logs))。
+如果地址被隔離，或者配置檔案位於塊清單中，在準備傳送時也可以排除郵件。 已排除的訊息會列在 **[!UICONTROL Exclusion logs]** 傳送控制面板的標籤中(請參 [閱本節](../../sending/using/monitoring-a-delivery.md#exclusion-logs))。
 
 ![](assets/exclusion_logs.png)
 
 **相關主題：**
 
 * [瞭解隔離管理](../../sending/using/understanding-quarantine-management.md)
-* [管理促銷活動中的黑名單](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* [關於 Campaign 中的加入和退出](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 ## 識別訊息的傳送失敗 {#identifying-delivery-failures-for-a-message}
 
@@ -47,7 +47,7 @@ ht-degree: 1%
 
 ![](assets/sending_logs.png)
 
-此外，也提供專屬的現成可用報表。 此報表詳細說明傳送期間遇到的整體硬式和軟式錯誤，以及自動處理彈回數。 如需詳細資訊，請參閱[本小節](../../reporting/using/bounce-summary.md)。
+此外，也提供專屬的現成可用報表。 此報表詳細說明傳送期間遇到的整體硬式和軟式錯誤，以及自動處理彈回數。 如需詳細資訊，請參閱[本章節](../../reporting/using/bounce-summary.md)。
 
 ## 傳送失敗類型和原因 {#delivery-failure-types-and-reasons}
 
@@ -69,8 +69,8 @@ ht-degree: 1%
 | **[!UICONTROL Refused]** | 軟／硬 | 由於安全反饋是垃圾郵件報告，該地址已被置於隔離狀態。 根據提供者傳回的錯誤，將直接傳送地址給隔離，或者重新嘗試傳送，直到Campaign收到證明隔離狀態正確的錯誤或錯誤數達到5為止。 |
 | **[!UICONTROL Duplicate]** | 已忽略 | 區段中已偵測到該位址。 |
 | **[!UICONTROL Not defined]** | Soft | 該地址正在限定中，因為錯誤尚未增加。 當伺服器傳送新錯誤訊息時，會發生此類錯誤： 它可能是孤立的錯誤，但如果再次發生，錯誤計數器會增加，這會提醒技術團隊。 |
-| **[!UICONTROL Error ignored]** | 已忽略 | 此地址位於白名單中，無論如何，都會寄送電子郵件給此地址。 |
-| **[!UICONTROL Blacklisted address]** | 硬 | 地址在發送時被列入黑名單。 |
+| **[!UICONTROL Error ignored]** | 已忽略 | 該地址在允許清單中，無論如何，都會向其發送電子郵件。 |
+| **[!UICONTROL Address on block list]** | 硬 | 發送時，地址已添加到塊清單中。 |
 | **[!UICONTROL Account disabled]** | 軟／硬 | 當Internet訪問提供程式(IAP)檢測到長時間的不活動時，它可以關閉用戶帳戶： 傳送至使用者位址的作業將無法進行。 「軟」或「硬」類型取決於收到的錯誤類型： 如果帳戶因為6個月的閒置而暫時停用，而且仍可啟動，則會指派狀 **[!UICONTROL Erroneous]** 態並再次嘗試傳送。 如果收到錯誤信號表明帳戶已永久停用，則會直接將其發送到隔離。 |
 | **[!UICONTROL Not connected]** | 已忽略 | 當傳送訊息時，描述檔的行動電話已關閉或未連線至網路。 |
 | **[!UICONTROL Invalid domain]** | Soft | 電子郵件地址的網域不正確或已不存在。 此描述檔將再次定位，直到錯誤計數達到5。 之後，記錄將設定為「隔離」狀態，不會再重試。 |
@@ -130,4 +130,4 @@ To list the various bounces and their associated error types et reasons, click t
 
 原則是先傳送電子郵件確認訪客的同意，再將其儲存為「描述檔」至您的促銷活動資料庫： 訪客填寫線上登陸頁面，接著收到電子郵件，必須按一下確認連結才能完成訂閱。
 
-如需詳細資訊，請參閱[本小節](../../channels/using/setting-up-a-double-opt-in-process.md)。
+如需詳細資訊，請參閱[本章節](../../channels/using/setting-up-a-double-opt-in-process.md)。

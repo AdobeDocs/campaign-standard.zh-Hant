@@ -12,9 +12,9 @@ discoiquuid: 5f20ff3f-8242-4735-8c60-c57610edff52
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '220'
 ht-degree: 2%
 
 ---
@@ -22,9 +22,9 @@ ht-degree: 2%
 
 # 返回至寄件者{#return-to-sender}
 
-支援與直接郵件提供者進行平面檔案交換，並納入「傳回至傳送者」資訊。 這允許將相應的郵遞區號排除在未來通訊之外。 此外，您還可以收到錯誤地址的通知，並透過其他管道與客戶互動，或鼓勵他更新其郵遞區號。
+支援與直接郵件提供者交換包含「傳回給寄件者」資訊的平面檔案。 這允許將相應的郵遞區號排除在將來的通訊之外。 此外，您還可以收到錯誤地址的通知，並透過其他管道與客戶互動，或鼓勵他更新其郵遞區號。
 
-例如，聯繫人已移至新位置，但未提供您新的郵遞區號。 提供者會擷取錯誤位址的清單，並傳送此資訊給Adobe Campaign,Adobe Campaign會自動將錯誤位址列入黑名單。
+例如，聯繫人已移至新位置，但未提供您新的郵遞區號。 提供者會擷取錯誤位址的清單，並傳送此資訊給Adobe Campaign,Adobe Campaign會自動將錯誤位址新增至區塊清單。
 
 為了使此功能發揮作用，直接郵件預設傳送模板在內容中包括傳送日誌ID。 因此，Adobe Campaign將能夠將描述檔和傳送資料與提供者傳回的資訊同步。
 
@@ -36,7 +36,7 @@ ht-degree: 2%
 
 匯入完成後，Adobe Campaign會自動執行下列動作：
 
-* 在描述檔層級列入黑名單地址不正確
+* 配置檔案級別的塊清單中添加的地址不正確
 * 傳送主要指標(KPI)已更新
 * 傳送記錄檔已更新
 

@@ -1,19 +1,22 @@
 ---
 title: 管理傳入的 SMS
 description: 瞭解如何在Adobe Campaign中管理STOP SMS和儲存傳入的SMS。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: f063052b-96ef-41b6-bf1b-4006de73f0b9
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 頻道
-content-type: 參考
+audience: channels
+content-type: reference
 topic-tags: sms-messages
 discoiquuid: ee1970e6-1ced-46e0-94e6-8337768300ee
-delivercontext-tags: 傳送，sms內容，返回
+delivercontext-tags: delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '599'
+ht-degree: 1%
 
 ---
 
@@ -54,11 +57,11 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
    * 該操 **[!UICONTROL Send to quarantine]** 作會自動隔離配置檔案電話號碼。
    * 該操 **[!UICONTROL Remove from quarantine]** 作會從隔離中刪除配置檔案電話號碼。
    * 此動 **[!UICONTROL None]** 作可讓您只傳送訊息給收件者，而不需執行動作。
-   例如，在下列設定中，如果收件者傳送關鍵字"STOP"，他們會自動收到取消訂閱的確認，而且其電話號碼將會以狀態傳送至隔離 **[!UICONTROL Blacklisted]** 區。 此狀態僅指電話號碼，設定檔未列入黑名單，因此使用者會繼續收到電子郵件訊息。
+   例如，在下列設定中，如果收件者傳送關鍵字&quot;STOP&quot;，他們會自動收到取消訂閱的確認，而且其電話號碼將會以狀態傳送至隔離 **[!UICONTROL On block list]** 區。 此狀態僅指電話號碼，描述檔不會新增至區塊清單，讓使用者繼續收到電子郵件訊息。
 
    ![](assets/sms_mo.png)
 
-您的收件者現在可以自動取消訂閱您的訊息，並透過此自動回覆傳送至隔離。 隔離的收件者列在可透過「 &gt; **[!UICONTROL Addresses]** &gt; **[!UICONTROL Administration]** 」功能表取得的 **[!UICONTROL Channels]****[!UICONTROL Quarantines]** 表格中。 For more information on quarantines, refer to this [section](../../sending/using/understanding-quarantine-management.md).
+您的收件者現在可以自動取消訂閱您的訊息，並透過此自動回覆傳送至隔離。 隔離的收件者列在可透過「 > **[!UICONTROL Addresses]** > **[!UICONTROL Administration]** 」功能表取得的 **[!UICONTROL Channels]****[!UICONTROL Quarantines]** 表格中。 For more information on quarantines, refer to this [section](../../sending/using/understanding-quarantine-management.md).
 
 如有需要，可儲存這些傳入的SMS。 For more information on this, refer to this [section](#storing-incoming-sms).
 

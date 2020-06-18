@@ -12,7 +12,10 @@ discoiquuid: 45b11631-6b32-4074-8c8d-affd06407810
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6291862737c71b63d8107b03245d5207b6151e96
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '674'
+ht-degree: 1%
 
 ---
 
@@ -30,9 +33,9 @@ source-git-commit: 6291862737c71b63d8107b03245d5207b6151e96
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>標籤</strong><br /> </th> 
-   <th> <strong>欄位名稱</strong><br /> </th> 
-   <th> <strong>指標計算公式</strong><br /> </th> 
+   <th> <strong>標籤</strong> <br /> </th> 
+   <th> <strong>欄位名稱</strong> <br /> </th> 
+   <th> <strong>指標計算公式</strong> <br /> </th> 
    <th> <strong>注釋</strong><br /> </th> 
   </tr> 
  </thead> 
@@ -44,15 +47,15 @@ source-git-commit: 6291862737c71b63d8107b03245d5207b6151e96
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 黑名單<br /> </td> 
-   <td> @黑名單<br /> </td> 
+   <td> 封鎖清單<br /> </td> 
+   <td> @blockslited<br /> </td> 
    <td> count(@failureReason=8, @failureType=2)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 黑名單比率<br /> </td> 
-   <td> @rateBlacklisted<br /> </td> 
-   <td> @blacklisted/@sent<br /> </td> 
+   <td> 封鎖率<br /> </td> 
+   <td> @rateBlocklisted<br /> </td> 
+   <td> @blocklisted/@sent<br /> </td> 
    <td> 比率計算的分母是以「已傳送」計數（「已傳送」+「彈回數」）為基礎。<br /> </td> 
   </tr> 
   <tr> 
@@ -231,9 +234,9 @@ source-git-commit: 6291862737c71b63d8107b03245d5207b6151e96
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>標籤</strong><br /> </th> 
-   <th> <strong>欄位名稱</strong><br /> </th> 
-   <th> <strong>指標計算公式</strong><br /> </th> 
+   <th> <strong>標籤</strong> <br /> </th> 
+   <th> <strong>欄位名稱</strong> <br /> </th> 
+   <th> <strong>指標計算公式</strong> <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -305,9 +308,9 @@ source-git-commit: 6291862737c71b63d8107b03245d5207b6151e96
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>標籤</strong><br /> </th> 
-   <th> <strong>欄位名稱</strong><br /> </th> 
-   <th> <strong>指標計算公式</strong><br /> </th> 
+   <th> <strong>標籤</strong> <br /> </th> 
+   <th> <strong>欄位名稱</strong> <br /> </th> 
+   <th> <strong>指標計算公式</strong> <br /> </th> 
    <th> <strong>注釋</strong><br /> </th> 
   </tr> 
  </thead> 
@@ -334,7 +337,7 @@ source-git-commit: 6291862737c71b63d8107b03245d5207b6151e96
    <td> 獨特印象<br /> </td> 
    <td> @uniqueimpressions<br /> </td> 
    <td> @unique(@count(status=view))<br /> </td> 
-   <td> 針對 <span class="uicontrol">根據其促銷活動設定檔(inAppProfile)範本的Target使用者</span> ，使用者=收件者Id。<br /> 針對 <span class="uicontrol">Target行動應用程式(inAppBroadcast)</span> 和 <span class="uicontrol"></span> Target使用者根據其行動設定檔(inApp)範本的所有使用者，使用者= MC id或相當等級，代表使用者、行動應用程式和裝置的獨特組合。<br /> </td> 
+   <td> 針對 <span class="uicontrol">根據其促銷活動設定檔(inAppProfile)範本的Target使用者</span> ，使用者=收件者Id。<br /> 針對 <span class="uicontrol">Target行動應用程式(inAppBroadcast)</span> 和 <span class="uicontrol"></span> Target使用者根據其行動設定檔(inApp)範本的所有使用者，使用者= MC Id或相當等級，代表使用者、行動應用程式和裝置的獨特組合。<br /> </td> 
   </tr> 
   <tr> 
    <td> 應用程式內點按次數 <br /> </td> 
@@ -346,7 +349,7 @@ source-git-commit: 6291862737c71b63d8107b03245d5207b6151e96
    <td> 獨特的應用程式內點按次數<br /> </td> 
    <td> @uniqueinapp<br /> </td> 
    <td> @unique(@count(status=clicks))<br /> </td> 
-   <td> 針對 <span class="uicontrol">根據其促銷活動設定檔(inAppProfile)範本的Target使用者</span> ，使用者=收件者Id。<br /> 針對 <span class="uicontrol">Target行動應用程式(inAppBroadcast)</span> 和 <span class="uicontrol"></span> Target使用者根據其行動設定檔(inApp)範本的所有使用者，使用者= MC id或相當等級，代表使用者、行動應用程式和裝置的獨特組合。<br /> </td> 
+   <td> 針對 <span class="uicontrol">根據其促銷活動設定檔(inAppProfile)範本的Target使用者</span> ，使用者=收件者Id。<br /> 針對 <span class="uicontrol">Target行動應用程式(inAppBroadcast)</span> 和 <span class="uicontrol"></span> Target使用者根據其行動設定檔(inApp)範本的所有使用者，使用者= MC Id或相當等級，代表使用者、行動應用程式和裝置的獨特組合。<br /> </td> 
   </tr> 
   <tr> 
    <td> 應用程式內點進率<br /> </td> 
@@ -364,7 +367,7 @@ source-git-commit: 6291862737c71b63d8107b03245d5207b6151e96
    <td> 獨特的應用程式內解雇<br /> </td> 
    <td> @uniquecciption<br /> </td> 
    <td> @unique(@count(status=close))<br /> </td> 
-   <td> 針對 <span class="uicontrol">根據其促銷活動設定檔(inAppProfile)範本的Target使用者</span> ，使用者=收件者Id。<br /> 針對 <span class="uicontrol">Target行動應用程式(inAppBroadcast)</span> 和 <span class="uicontrol"></span> Target使用者根據其行動設定檔(inApp)範本的所有使用者，使用者= MC id或相當等級，代表使用者、行動應用程式和裝置的獨特組合。<br /> </td> 
+   <td> 針對 <span class="uicontrol">根據其促銷活動設定檔(inAppProfile)範本的Target使用者</span> ，使用者=收件者Id。<br /> 針對 <span class="uicontrol">Target行動應用程式(inAppBroadcast)</span> 和 <span class="uicontrol"></span> Target使用者根據其行動設定檔(inApp)範本的所有使用者，使用者= MC Id或相當等級，代表使用者、行動應用程式和裝置的獨特組合。<br /> </td> 
   </tr> 
   <tr> 
    <td> 應用程式內解雇率<br /> </td> 

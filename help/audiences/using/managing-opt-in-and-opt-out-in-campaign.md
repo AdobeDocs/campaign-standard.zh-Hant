@@ -12,7 +12,10 @@ discoiquuid: 6b5680f2-bba9-453e-a0d5-8ca69dd02001
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '309'
+ht-degree: 8%
 
 ---
 
@@ -23,15 +26,15 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 運算子可直接從描述檔標籤選擇使用者或退出使 **[!UICONTROL General]** 用。
 
-在此區 **[!UICONTROL No longer contact (blacklist)]** 段中，選取的核取方塊會對應使用者選擇退出的頻道。 根據使用者需求選擇頻道。
+在此區 **[!UICONTROL No longer contact (on block list)]** 段中，選取的核取方塊會對應使用者選擇退出的頻道。 根據使用者需求選擇頻道。
 
 ![](assets/optin_landingpage_3.png)
 
 ## 設定選擇加入和選擇退出登陸頁面 {#setting-up-opt-in-and-opt-out-landing-pages}
 
-若要讓使用者能夠選擇加入或選擇退出，您必須建立並發佈著陸 **[!UICONTROL Profile acquisition]** 頁面。 然後他們就可以根據自己的需求來選擇頻道。 若要這麼做，請依照下列步驟進行。
+若要讓使用者能夠選擇加入或選擇退出，您必須建立並發佈著陸 **[!UICONTROL Profile acquisition]** 頁面。 然後他們就可以根據自己的需求來選擇頻道。 請依照下列步驟以執行此操作。
 
-您也可以設定著陸頁 **[!UICONTROL BlackList]** 面，讓使用者可選擇退出所有傳送。 如需詳細資訊，請參 [閱設定著陸頁面以選擇退出所有傳送](#setting-up-a-landing-page-to-opt-out-from-all-deliveries)。
+您也可以設定著陸頁 **[!UICONTROL Block List]** 面，讓使用者可選擇退出所有傳送。 如需詳細資訊，請參 [閱設定著陸頁面以選擇退出所有傳送](#setting-up-a-landing-page-to-opt-out-from-all-deliveries)。
 
 >[!NOTE]
 >
@@ -53,9 +56,9 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ### 設定著陸頁面以選擇退出所有傳送 {#setting-up-a-landing-page-to-opt-out-from-all-deliveries}
 
-若要讓使用者能夠選擇退出所有傳送，您必須建立並發佈著陸 **[!UICONTROL BlackList]** 頁面。 如需建立著陸頁面的詳細資訊，請參 [閱本頁](../../channels/using/getting-started-with-landing-pages.md)。
+若要讓使用者能夠選擇退出所有傳送，您必須建立並發佈著陸 **[!UICONTROL Block list]** 頁面。 如需建立著陸頁面的詳細資訊，請參 [閱本頁](../../channels/using/getting-started-with-landing-pages.md)。
 
 當使用者按一下著陸頁面連結後，會自 **[!UICONTROL No longer contact (by any channel)]** 動選取描述檔中的選項。
 
-![](assets/blacklisting_allchannels.png)
+![](assets/blocklisting_allchannels.png)
 

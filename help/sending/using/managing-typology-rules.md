@@ -13,7 +13,10 @@ context-tags: typology,overview;typologyRule,main;typologyRule,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ba1fcca02ce9582d85e57bde815ccf3f551ac7a3
+source-git-commit: 7f5bc442b1dae467a6b6de3e048531940f75031f
+workflow-type: tm+mt
+source-wordcount: '554'
+ht-degree: 6%
 
 ---
 
@@ -24,11 +27,11 @@ source-git-commit: ba1fcca02ce9582d85e57bde815ccf3f551ac7a3
 
 類型學規則是商業規則，可讓您在傳送訊息前先對訊息執行檢查和篩選。 可用的類型學規則類型有：
 
-* **篩選規則** :此類型的規則允許您根據查詢中定義的條件排除郵件目標的一部分，如已發送一定數量電子郵件的隔離配置檔案或配置檔案。 如需詳細資訊，請參閱[本小節](../../sending/using/filtering-rules.md)。
+* **篩選規則** : 此類型的規則允許您根據查詢中定義的條件排除郵件目標的一部分，如已發送一定數量電子郵件的隔離配置檔案或配置檔案。 如需詳細資訊，請參閱[本章節](../../sending/using/filtering-rules.md)。
 
-* **疲勞規則** :此類型的規則可讓您定義每個描述檔的訊息數目上限，以避免過度索取。 如需詳細資訊，請參閱[本小節](../../sending/using/fatigue-rules.md)。
+* **疲勞規則** : 此類型的規則可讓您定義每個描述檔的訊息數目上限，以避免過度索取。 如需詳細資訊，請參閱[本章節](../../sending/using/fatigue-rules.md)。
 
-* **控制規則** :此類規則可讓使用者在傳送訊息之前檢查訊息的有效性和品質，例如字元顯示、SMS訊息大小、位址格式等。 如需詳細資訊，請參閱[本小節](../../sending/using/control-rules.md)。
+* **控制規則** : 此類規則可讓使用者在傳送訊息之前檢查訊息的有效性和品質，例如字元顯示、SMS訊息大小、位址格式等。 如需詳細資訊，請參閱[本章節](../../sending/using/control-rules.md)。
 
 「 > > > >」功能表 **[!UICONTROL Administration]** 下方 **[!UICONTROL Channels]** 提供 **[!UICONTROL Typologies]** 排版規 **[!UICONTROL Typology rules]** 則。
 
@@ -69,7 +72,7 @@ source-git-commit: ba1fcca02ce9582d85e57bde815ccf3f551ac7a3
 1. 控制規則（如果規則是在定位開始時套用）。
 1. 篩選規則:
 
-   * 地址限定的原生應用程式規則：定義地址／未驗證地址／黑名單地址／隔離地址／地址質量。
+   * 地址限定的原生應用程式規則： 塊清單上的已定義地址／未驗證地址／地址／隔離地址／地址質量。
    * 篩選由使用者定義的規則。
 
 1. 控制規則（如果規則在定位結束時套用）。

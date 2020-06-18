@@ -13,9 +13,9 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 343ea01229779a32919bd68fd15e0c7ff6863353
+source-git-commit: 017e1e80657a3145a97c6ab62a577a9a2164cc99
 workflow-type: tm+mt
-source-wordcount: '1554'
+source-wordcount: '1561'
 ht-degree: 9%
 
 ---
@@ -51,7 +51,7 @@ Adobe Campaign隨附一組預先定義的外部帳戶。 若要設定與外部�
 1. 按一下&#x200B;**[!UICONTROL Create]**&#x200B;按鈕。
 1. 輸入標籤。 在工作流程中選取外部帳戶時，將會使用標籤和ID。
 1. 選擇要建立的帳戶類型。
-1. 在相關時指定憑證、伺服器位址、埠號或金鑰，以設定帳戶的存取權。
+1. 在相關時指定憑證、伺服器位址、埠號或金鑰，以設定帳戶存取權。
 
    所需資訊通常由您所連接的伺服器提供商提供。
 
@@ -86,7 +86,7 @@ Adobe Campaign隨附一組預先定義的外部帳戶。 若要設定與外部�
 * 時常登入 SFTP 以直接檢查其內容。
 * 請記住，SFTP 硬碟的管理主要是您的責任。
 
-此外，請注意，您嘗試從中啟動SFTP連線的公用IP，必須列在促銷活動例項中。 IP位址的白名單可透過支 [援票證](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)，並提供用於驗證的公開金鑰。
+此外，請注意，您嘗試從中啟動SFTP連線的公用IP必須新增至促銷活動例項的允許清單。 將IP位址新增至允許清單可透過支 [援票證](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)，並提供用於驗證的公開金鑰。
 
 SFTP伺服器可從「控制面板」進行管理。 For more information, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/sftp-management/about-sftp-management.html).
 

@@ -1,25 +1,28 @@
 ---
 title: 關於 Campaign 中的加入和退出
-description: 選擇退出（或黑名單）會導致描述檔不再受任何傳送或特定渠道的傳送所定位。
-page-status-flag: 從未激活
+description: 選擇退出會導致描述檔不再受任何傳送或特定渠道的傳送所定位。
+page-status-flag: never-activated
 uuid: 501d9485-976b-4de7-b242-6886f2814c6c
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
-content-type: 參考
-topic-tags: 瞭解——選擇加入——選擇退出流程
+content-type: reference
+topic-tags: understanding-opt-in-and-opt-out-processes
 discoiquuid: 2f26ec22-0809-4541-b2a1-e84ff868ba6e
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '220'
+ht-degree: 9%
 
 ---
 
 
 # 關於 Campaign 中的加入和退出{#about-opt-in-and-opt-out-in-campaign}
 
-選擇退出（或黑名單）會導致描述檔不再受任何傳送或特定渠道的傳送所定位。
+選擇退出會導致描述檔不再受任何傳送或特定渠道的傳送所定位。
 
 若要讓描述檔能夠選擇加入或選擇退出，您必須建立專屬的登陸頁面。 如需詳細資訊，請參 [閱「設定選擇加入和選擇退出登陸頁面」](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#setting-up-opt-in-and-opt-out-landing-pages)。
 

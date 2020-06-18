@@ -12,9 +12,9 @@ discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+source-git-commit: c89973e2c733d9c0b1c4434e77ef51103ccde0fa
 workflow-type: tm+mt
-source-wordcount: '2026'
+source-wordcount: '2031'
 ht-degree: 1%
 
 ---
@@ -258,7 +258,7 @@ ht-degree: 1%
 
    警報的可能 **[!UICONTROL Delivery with bad error ratio for hard bounces]** 原因為：
 
-   * 收件者已列入黑名單，表示他們不想再被聯繫。
+   * 收件者位於區塊清單中，表示他們不再想與他們聯絡。
    * 收件者的電子郵件地址不存在。
    * 收件者的網域不存在。
    * 收件者的伺服器封鎖傳送。
@@ -280,5 +280,5 @@ ht-degree: 1%
 
 * [瞭解傳送故障](../../sending/using/understanding-delivery-failures.md)
 * [瞭解隔離管理](../../sending/using/understanding-quarantine-management.md)
-* [管理促銷活動中的黑名單](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* [關於 Campaign 中的加入和退出](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 

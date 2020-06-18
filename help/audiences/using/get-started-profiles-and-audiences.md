@@ -12,9 +12,9 @@ discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '609'
 ht-degree: 5%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 5%
 <td><img src="assets/do-not-localize/icon_privacy.svg" width="60px"><p><a href="#privacy">隱私權規範</a></p></td></tr>
 </table>
 
-Campaign整合式客戶個人檔案可讓您在單一檢視中追蹤所有通道與客戶的每一次互動，讓您向客戶傳遞相關的個人化訊息。
+促銷活動整合式客戶個人檔案可讓您透過單一檢視追蹤所有通道與客戶的每一次互動，讓您向客戶傳遞相關的個人化訊息。
 
 將您的資料庫細分為受眾，以最佳化行銷宣傳的目標。
 
@@ -49,7 +49,7 @@ Adobe Campaign可即時建立豐富的客戶個人檔案，讓您在客戶偏好
 
 **觀眾** ，是以特定准則或一組准則為基礎的設定檔清單。 使用工作流程和查詢編輯器，您可以根據行銷活動的資訊、活動及其行銷記錄，建構將由行銷活動定位的對象。 這可讓您依不限數量的准則，篩選訂閱的描述檔、範例或建立目標對象。
 
-閱讀更多：
+詳細內容:
 
 * [關於設定檔](../../audiences/using/about-profiles.md)
 * [使用中的設定檔案](../../audiences/using/active-profiles.md)
@@ -66,13 +66,13 @@ Adobe Campaign可即時建立豐富的客戶個人檔案，讓您在客戶偏好
 
 有了Campaign，我們建議您透過服 **務和登陸頁面** , [使用簡單的加入和退出機制來](../../audiences/using/creating-a-service.md)[](../../channels/using/getting-started-with-landing-pages.md) 更新您的聯絡資訊並擴充資料庫。
 
-在訊 **息中提供取消訂閱連結** ，可讓描述檔在必要時列入黑名單，進而改善您的平台傳遞能力。 如需黑名單的詳細資訊，請 [參閱關於促銷活動中的選擇加入和選擇退出](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)。
+在訊 **息中提供取消訂閱連結** ，將可視需要將描述檔新增至區塊清單，進而改善您的平台傳遞能力。 如需區塊清單管理的詳細資訊，請 [參閱關於促銷活動中的選擇加入和選擇退出](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)。
 
 >[!IMPORTANT]
 >
 >您必須遵守 [Adobe Campaign可接受的使用政策](https://www.adobe.com/legal/terms/aup.html)。
 
-閱讀更多：
+詳細內容:
 
 * [關於訂閱](../../audiences/using/about-subscriptions.md)
 * [關於 Campaign 中的加入和退出](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)

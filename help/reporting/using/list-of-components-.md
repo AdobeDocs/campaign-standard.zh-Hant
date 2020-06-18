@@ -12,7 +12,10 @@ discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '1277'
+ht-degree: 0%
 
 ---
 
@@ -40,7 +43,7 @@ source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
    <td> 開啟或點按訊息的瀏覽器。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 行銷活動<br /> </td> 
+   <td> Campaign<br /> </td> 
    <td> 促銷活動的標籤和ID。<br /> </td> 
   </tr> 
   <tr> 
@@ -85,7 +88,7 @@ source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
   </tr> 
   <tr> 
    <td> 設定檔<br /> </td> 
-   <td> 重新分組在配置檔案資源擴展期間建立的出廠設定和自定義配置檔案欄位，有關詳細資訊，請參閱本頁 <a href="../../developing/using/key-steps-to-add-a-resource.md"></a> 或本 <a href="../../reporting/using/creating-a-custom-profile-dimension.md">示例</a>。<br /> 請注意，當連結至描述檔欄位的自訂資源發佈時，就會立即擷取此維度的資料。<br /> </td> 
+   <td> 重新分組在配置檔案資源擴展期間建立的出廠設定和自定義配置檔案欄位，有關詳細資訊，請參閱本頁 <a href="../../developing/using/key-steps-to-add-a-resource.md"></a> 或本 <a href="../../reporting/using/creating-a-custom-profile-dimension.md">示例</a>。<br /> 請注意，當連結至描述檔欄位的自訂資源發佈時，會立即擷取此維度的資料。<br /> </td> 
   </tr> 
   <tr> 
    <td> 推播平台<br /> </td> 
@@ -149,12 +152,12 @@ source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
  </thead> 
  <tbody> 
   <tr> 
-   <td> 黑名單<br /> </td> 
+   <td> 塊清單<br /> </td> 
    <td> 宣告電子郵件為垃圾訊息或垃圾訊息的收件者數目。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 黑名單比率<br /> </td> 
-   <td> 標示為黑名單的遞送百分比。<br /> </td> 
+   <td> 塊清單速率<br /> </td> 
+   <td> 區塊清單上標示的傳送百分比。<br /> </td> 
   </tr> 
   <tr> 
    <td> 彈回數+錯誤<br /> </td> 
@@ -394,63 +397,63 @@ source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
  </thead> 
  <tbody> 
   <tr> 
-   <td> 年齡：嬰兒潮一代1<br /> </td> 
+   <td> 年齡： 嬰兒潮一代1<br /> </td> 
    <td> 1946年到1954年出生的收件者。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年齡：嬰兒潮一代2<br /> </td> 
+   <td> 年齡： 嬰兒潮一代2<br /> </td> 
    <td> 1955年到1965年出生的收件者。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年齡：從18到25<br /> </td> 
+   <td> 年齡： 從18到25<br /> </td> 
    <td> 18到25歲的收件者。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年齡：從26到30<br /> </td> 
+   <td> 年齡： 從26到30<br /> </td> 
    <td> 26到30歲的收件者。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年齡：從31到40<br /> </td> 
+   <td> 年齡： 從31到40<br /> </td> 
    <td> 31到40歲的收件者。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年齡：從41到50<br /> </td> 
+   <td> 年齡： 從41到50<br /> </td> 
    <td> 41到50歲的收件者。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年齡：X代<br /> </td> 
+   <td> 年齡： X代<br /> </td> 
    <td> 1966年到1976年出生的收件者。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年齡：Y世代（千禧一代）<br /> </td> 
+   <td> 年齡： Y世代（千禧一代）<br /> </td> 
    <td> 1977年到1994年出生的收件者。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年齡：Z世代<br /> </td> 
+   <td> 年齡： Z世代<br /> </td> 
    <td> 1995年到今天的收件者。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年齡：大於50<br /> </td> 
+   <td> 年齡： 大於50<br /> </td> 
    <td> 年齡大於50歲的收件者。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年齡：少於25<br /> </td> 
+   <td> 年齡： 少於25<br /> </td> 
    <td> 年齡低於25歲的收件者。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年齡：少於30<br /> </td> 
+   <td> 年齡： 少於30<br /> </td> 
    <td> 年齡低於30歲的收件者。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年齡：少於40<br /> </td> 
+   <td> 年齡： 少於40<br /> </td> 
    <td> 年齡低於40歲的收件者。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年齡：少於50<br /> </td> 
+   <td> 年齡： 少於50<br /> </td> 
    <td> 年齡低於50歲的收件者。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年齡：無訊息的產生<br /> </td> 
+   <td> 年齡： 無訊息的產生<br /> </td> 
    <td> 1945年或之前出生的收件者。<br /> </td> 
   </tr> 
   <tr> 

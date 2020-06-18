@@ -1,6 +1,6 @@
 ---
-title: 關於Adobe Campaign standard中的傳遞能力
-description: 瞭解與傳遞能力相關的概念和最佳實務，以及Adobe Campaign standard提供的工具，以最佳化傳送您的傳遞。
+title: 關於Adobe Campaign Standard中的傳遞能力
+description: 瞭解與傳遞能力相關的概念和最佳實務，以及Adobe Campaign Standard提供的工具，以最佳化傳送您的傳遞。
 page-status-flag: never-activated
 uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
 contentOwner: sauviat
@@ -13,12 +13,15 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 02b8d847d4506eca96abfa27db1e2efadc2a68d2
+source-git-commit: 121ec37cef6193d3a7085b6d0296b6a2e7cafa06
+workflow-type: tm+mt
+source-wordcount: '663'
+ht-degree: 5%
 
 ---
 
 
-# 關於傳遞能力{#about-deliverability}
+# 關於傳送能力{#about-deliverability}
 
 傳遞能力可讓您測量促銷活動在到達收件者收件匣時是否成功，而不會反彈或標示為垃圾訊息。
 
@@ -36,7 +39,7 @@ source-git-commit: 02b8d847d4506eca96abfa27db1e2efadc2a68d2
 
 若要最佳化Adobe Campaign電子郵件的傳遞能力，我們建議使用下列最佳實務。 傳遞能力問題通常與網際網路服務提供商和郵件伺服器管理員實施的針對垃圾郵件的保護措施有關。
 
-電子郵件傳遞能力是指一組特性，這些特性決定了郵件在短時間內通過個人電子郵件地址到達其目的地的能力，並且在內容和格式方面具有預期的質量。 這些特徵可分為四大類：資料品質、訊息和內容、傳送基礎架構和聲譽。 它們共同構成了成功的電子郵件傳遞能力計畫的基礎。
+電子郵件傳遞能力是指一組特性，這些特性決定了郵件在短時間內通過個人電子郵件地址到達其目的地的能力，並且在內容和格式方面具有預期的質量。 這些特徵可分為四大類： 資料品質、訊息和內容、傳送基礎架構和聲譽。 它們共同構成了成功的電子郵件傳遞能力計畫的基礎。
 
 傳遞率是已傳送成功傳送給收件人的電子郵件數。
 以下列出要檢查的要點，以確保良好的交付能力。
@@ -51,10 +54,10 @@ source-git-commit: 02b8d847d4506eca96abfa27db1e2efadc2a68d2
 * [預覽訊息](../../sending/using/previewing-messages.md)
 * [電子郵件呈現](../../sending/using/email-rendering.md)
 * [監控傳送](../../sending/using/monitoring-a-delivery.md)
-* [發生故障時接收警報](../../sending/using/receiving-alerts-when-failures-happen.md)
+* [發生故障時收到警報](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [瞭解傳送故障](../../sending/using/understanding-delivery-failures.md)
 * [瞭解隔離管理](../../sending/using/understanding-quarantine-management.md)
-* [隔離與黑名單](../../sending/using/understanding-quarantine-management.md#quarantine-vs-blacklisting)
+* [隔離與塊清單](../../sending/using/understanding-quarantine-management.md#quarantine-vs-block-list)
 * [動態報表](../../reporting/using/about-dynamic-reports.md)
 
 ## 檢查網路配置 {#network-configuration}
@@ -63,7 +66,7 @@ source-git-commit: 02b8d847d4506eca96abfa27db1e2efadc2a68d2
 
 ## 傳送至有效位址 {#valid-addresses}
 
-垃圾郵件發送者通常使用基於頻繁名稱和名字清單的地址生成器；此外，他們很少處理郵件伺服器傳回的技術通知。 無效地址的高率通常被解釋為垃圾郵件的標誌。 雙重加入機制和有效處理技術反彈訊息，可避免此情況。
+垃圾郵件發送者通常使用基於頻繁名稱和名字清單的地址生成器； 此外，他們很少處理郵件伺服器傳回的技術通知。 無效地址的高率通常被解釋為垃圾郵件的標誌。 雙重加入機制和有效處理技術反彈訊息，可避免此情況。
 
 ## 降低投訴率 {#reduce-complaint-rate}
 
@@ -75,7 +78,7 @@ ISP和其他組織(請參閱https://www.projecthoneypot.org/)會利用不對應�
 
 ## 改編訊息內容 {#adapt-message-content}
 
-在較小程度上，某些郵件的內容會導致某些篩選器將其檢測為垃圾郵件。 使用某些單字、在主旨行和訊息內使用驚嘆號，會視為垃圾訊息的告示符號。 此外，垃圾郵件發送者已知會用影像取代文字，以防止反垃圾郵件過濾器自動分析違規文字。 因此，含有高比例影像或影像作為附件的訊息（HTML格式）最終可能會遭到封鎖。
+在較小程度上，某些郵件的內容會導致某些篩選器將其檢測為垃圾郵件。 使用某些單字、在主旨行和訊息內使用驚嘆號，會視為垃圾郵件的告示符號。 此外，垃圾郵件發送者已知會用影像取代文字，以防止反垃圾郵件過濾器自動分析違規文字。 因此，含有高比例影像或影像作為附件的訊息（HTML格式）最終可能會遭到封鎖。
 
 ## 定期傳送 {#regular-deliveries}
 

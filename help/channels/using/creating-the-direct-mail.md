@@ -13,7 +13,10 @@ context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '598'
+ht-degree: 1%
 
 ---
 
@@ -46,7 +49,7 @@ source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
    >
    >對象定義與定義一般電子郵件對象非常類似。 請參閱 [建立觀眾](../../audiences/using/creating-audiences.md)。
 
-1. 編輯檔案的內容：欄，以包含每個描述檔、檔案結構、頁首和頁尾。 See [Defining the direct mail content](../../channels/using/defining-the-direct-mail-content.md).
+1. 編輯檔案的內容： 欄，以包含每個描述檔、檔案結構、頁首和頁尾。 See [Defining the direct mail content](../../channels/using/defining-the-direct-mail-content.md).
 
    ![](assets/direct_mail_5.png)
 
@@ -97,6 +100,6 @@ source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
 您現在可以將解壓縮檔案傳送至直效郵件提供者。 對於此，您有幾個選項：
 
 * 透過一般電子郵件傳送，並附上檔案
-* 透過Campaign傳送：在促銷活動工作流程中 [執行直](../../automating/using/direct-mail-delivery.md) 接郵件， **[!UICONTROL Transfer file]** 並新增以透過FTP傳送檔案。 請參閱 [傳輸檔案](../../automating/using/transfer-file.md)。
+* 透過Campaign傳送： 在促銷活動工作流程中 [執行直](../../automating/using/direct-mail-delivery.md) 接郵件， **[!UICONTROL Transfer file]** 並新增以透過FTP傳送檔案。 請參閱 [傳輸檔案](../../automating/using/transfer-file.md)。
 
-提供者會擷取錯誤位址的清單，並傳送此資訊給Adobe Campaign,Adobe Campaign會自動將錯誤位址列入黑名單。 See [Return to sender](../../channels/using/return-to-sender.md).
+提供者會擷取錯誤位址的清單，並傳送此資訊給Adobe Campaign,Adobe Campaign會自動將錯誤位址新增至區塊清單。 See [Return to sender](../../channels/using/return-to-sender.md).

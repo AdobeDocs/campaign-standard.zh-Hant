@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: babbf78d91d3cab9569eab3b15da50f64a91a560
+source-git-commit: 017e1e80657a3145a97c6ab62a577a9a2164cc99
 workflow-type: tm+mt
-source-wordcount: '5876'
+source-wordcount: '5923'
 ht-degree: 9%
 
 ---
@@ -25,6 +25,8 @@ ht-degree: 9%
 除了Adobe Campaign發行說 [明外](../../rn/using/release-notes.md)，本頁還列出Adobe Campaign Standard檔案中的所有新更新。
 
 ## 檔案更新- 2020年6月 {#doc-updates-june-2020}
+
+「白名單」和「黑名單」詞語都已從Adobe Campaign檔案中移除。 產品UI、選項名稱和內部代碼中可能仍會出現這些詞語，但在即將發行的促銷活動版本中，這些詞語會以「blocklist」和「allowlist」取代。
 
 舊版支援網站的參考已由新URL取代。 [進一步瞭解](https://helpx.adobe.com/campaign/kb/ac-support.html#acs-support-req)
 
@@ -562,7 +564,7 @@ GDPR: 核心服務整合——詳 [細資訊](https://docs.campaign.adobe.com/do
 
 查詢活動節已用查詢示例更新。 [詳細內容](../../automating/using/query.md#query-samples)
 
-黑名單專用的章節已更名為「瞭解加入和退出程式」。 它已更新，其中包含如何管理特定頻道的選擇加入，以及如何設定著陸頁面以管理選擇加入和選擇退出的資訊。 [詳細內容](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+專用於區塊清單的區段已更名為「瞭解選擇加入和選擇退出程式」。 它已更新，其中包含如何管理特定頻道的選擇加入，以及如何設定著陸頁面以管理選擇加入和選擇退出的資訊。 [詳細內容](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 瞭解使用Adobe代管SFTP伺服器的最佳實務。 [詳細內容](../../administration/using/external-accounts.md#sftp-external-account)
 
@@ -586,7 +588,7 @@ GDPR: 核心服務整合——詳 [細資訊](https://docs.campaign.adobe.com/do
 
 GDPR API會重新分組允許自動處理GDPR要求的功能。 [詳細內容](../../api/using/creating-a-privacy-request.md)
 
-已新增有關如何設定著陸頁面，讓收件者能夠列入黑名單的資訊。 [詳細內容](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
+已新增有關如何設定著陸頁面的資訊，讓收件者能夠新增至區塊清單。 [詳細內容](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
 「 [Configuring transactional messaging](../../administration/using/configuring-transactional-messaging.md) 」(設定事務性訊息 [)區段已重新整理，](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) 並新增了逐步使用案例。
 
@@ -640,7 +642,7 @@ Campaign和Adobe解決方案整合的大部分URL已變更！ 檢查您的書籤
 
 使用逐 **[!UICONTROL Customizing a push notification]** 步使用案例重新整理區段。 [詳細內容](../../channels/using/customizing-a-push-notification.md)
 
-黑名單管理專屬的新章節。 [詳細內容](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+專門用於塊清單管理的新部分。 [詳細內容](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 已更新有關傳送失敗和隔離的資訊。 [詳細內容](../../sending/using/monitoring-a-delivery.md)
 

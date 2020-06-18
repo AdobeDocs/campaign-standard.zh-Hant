@@ -12,7 +12,10 @@ discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '386'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +24,7 @@ source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
 
 您可以根據客戶行銷個人檔案傳送交易訊息，這可讓您：
 
-* 套用行銷類型學規則，例 **[!UICONTROL Blacklisted address]** 如 [疲勞規則](../../sending/using/fatigue-rules.md)。
+* 套用行銷類型學規則，例 **[!UICONTROL Address on block list]** 如 [疲勞規則](../../sending/using/fatigue-rules.md)。
 * 在訊息中加入取消訂閱連結。
 * 將交易訊息新增至全域傳送報表。
 * 在客戶歷程中運用交易訊息。
@@ -71,11 +74,11 @@ source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
 
    ![](assets/message-center_marketing_sending_logs.png)
 
-1. 選擇該 **[!UICONTROL Exclusions logs]** 頁籤可查看已從消息目標中排除的收件人，如黑名單地址。
+1. 選擇該 **[!UICONTROL Exclusions logs]** 頁籤可查看已從消息目標中排除的收件人，如塊清單中的地址。
 
    ![](assets/message-center_marketing_exclusion_logs.png)
 
-對於任何已選擇退出的設定檔，排 **[!UICONTROL Blacklisted address]** 除了對應的收件者。
+對於任何已選擇退出的設定檔，排 **[!UICONTROL Address on block list]** 除了對應的收件者。
 
 此規則是特定類型學的一部分，適用於基於表的所有事務性消 **[!UICONTROL Profile]** 息。
 

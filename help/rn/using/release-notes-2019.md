@@ -12,7 +12,7 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 50c3188e1bc0eb92fd52637988834ce8538335a3
+source-git-commit: 85dc2b3ba9a781483f88238fbf5a9208a0c18c37
 workflow-type: tm+mt
 source-wordcount: '7626'
 ht-degree: 3%
@@ -59,7 +59,7 @@ ht-degree: 3%
   <tr> 
    <td> 
     <p>Adobe Campaign Standard和Microsoft Dynamics 365之間的整合現已推出。 您將能夠將您的連絡人和自訂實體記錄從Dynamics 365傳輸至Campaign，並從Campaign將電子郵件事件資料傳回Dynamics 365，以便更好地協調銷售／行銷。</p>
-    <p>請參閱詳 <a href="../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md">細檔案</a> ，以設定此整合併檢 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/integrating/microsoft-dynamics365-connector/introduction.html">視操作視訊</a>。</p>
+    <p>請參閱詳 <a href="../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md">細檔案</a> ，以設定此整合併檢 <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/campaign-and-microsoft-dynamics-365/working-with-campaign-standard-and-microsoft-dynamics-365.html">視操作視訊</a>。</p>
   </td>
   </tr> 
  </tbody> 

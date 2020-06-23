@@ -1,5 +1,5 @@
 ---
-title: 鎖定 Adobe Experience Platform 受眾
+title: 鎖定 Adobe Experience Platform 閱聽眾
 description: 瞭解如何在工作流程中鎖定Adobe Experience PLatform受眾。
 page-status-flag: never-activated
 uuid: 528d9472-e447-47af-a6b2-3181aa5fb5ad
@@ -12,18 +12,21 @@ discoiquuid: 19796aca-6e9e-4d3a-8917-ba660ec7993c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
+source-git-commit: be7ab90583e9c6472fd2c86082e832432d0a32b9
+workflow-type: tm+mt
+source-wordcount: '404'
+ht-degree: 5%
 
 ---
 
 
-# 鎖定 Adobe Experience Platform 受眾 {#targeting-aep-audiences}
+# 鎖定 Adobe Experience Platform 閱聽眾 {#targeting-aep-audiences}
 
 >[!IMPORTANT]
 >
 >觀眾目標服務目前為測試版，可能會經常更新，恕不另行通知。 客戶必須在Azure上代管（目前僅限北美地區測試版）才能存取這些功能。 如果您想要存取，請聯絡Adobe客戶服務。
 
-一旦您使用「統一設定檔」區段產生器建立 [](../../audiences/using/aep-about-audience-destinations-service.md) Adobe Experience Platform觀眾後，您就可以像在工作流程中針對Campaign觀眾建立個人化訊息和傳送訊息一樣的方式使用。
+使用「區段產生器」建立 [Adobe Experience Platform觀眾後](../../audiences/using/aep-about-audience-destinations-service.md) ，您就可以在工作流程中以相同方式使用，讓Campaign觀眾個人化並傳送訊息。
 
 若要將Adobe Experience Platform觀眾啟動至您的工作流程，請遵循下列步驟：
 
@@ -35,7 +38,7 @@ source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 1. （選擇性）在選取對象後，您可以按一下眼睛按鈕來檢閱和／或編輯區段定義（請務必再次儲存變更）。
 
-   按一下眼睛按鈕，您只需將您導向「統一區段產生器」（在另一個標籤中），該產生器與「促銷活動」中選取的對象相關聯。
+   按一下眼睛按鈕，您只需將您導向「區段產生器」（在另一個標籤中），此「區段產生器」與「促銷活動」中選取的對象相關聯。
 
 1. 選取元 **[!UICONTROL Platform data mapping]** 素，以指定所選Adobe Experience Platform對象的所需定位維度。
 

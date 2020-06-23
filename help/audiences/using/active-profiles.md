@@ -1,18 +1,21 @@
 ---
 title: 使用中的設定檔案
 description: 您可以存取客戶量度的專屬報表，並在促銷活動資料庫中視覺化作用中的個人檔案。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: ee8ac493-c297-49ca-aed4-3976d8a685a4
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
-content-type: 參考
-topic-tags: 管理配置檔案
+content-type: reference
+topic-tags: managing-profiles
 discoiquuid: e029213f-0b65-41b1-8adf-34fa813b0c70
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 4575c1152f1a33ff18b2200151346cc6e56b45fa
+workflow-type: tm+mt
+source-wordcount: '173'
+ht-degree: 19%
 
 ---
 
@@ -29,3 +32,4 @@ Adobe Campaign提供顯示作用中描述檔數目的報表。 此報告僅提�
 
 ![](assets/audience_active_profiles2.png)
 
+如果您是在AWS上代管並使用Campaign Standard建置10368，您也可以直接從控制面板監控實例上使用的活動配置檔案數。 有關詳細資訊，請參閱「控 [制面板」文檔](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html)。

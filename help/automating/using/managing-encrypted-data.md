@@ -12,10 +12,10 @@ discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: adc5e92183b891a70cac4aa7a6ed96148d104a20
+source-git-commit: 26f8f7855a30fe90dbfee4bb2b5ee55c7bf4e02b
 workflow-type: tm+mt
-source-wordcount: '879'
-ht-degree: 2%
+source-wordcount: '878'
+ht-degree: 1%
 
 ---
 
@@ -26,9 +26,13 @@ ht-degree: 2%
 
 在某些情況下，您要匯入促銷活動伺服器的資料可能需要加密，例如，如果包含PII資料。
 
-若要匯入或匯出加密檔案，您必須先聯絡Adobe客戶服務，以便他們提供您的執行個體所需的加密／解密指令。
+要能夠加密傳出資料或解密傳入資料，您需要使用「控制面板」管理GPG [密鑰](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html)。
 
-若要這麼做，請提交指示：
+>[!NOTE]
+>
+>控制面板適用於AWS托管的所有客戶（現場托管其行銷實例的客戶除外）。
+
+如果您不符合使用「控制面板」的資格，您必須聯絡Adobe客戶服務，以便他們提供您的執行個體所需的加密／解密指令。 若要這麼做，請提交指示：
 
 * 將 **在** 「促銷活動」介面中顯示的標籤，以使用命令。 例如「加密檔案」。
 * 要安 **裝在** 實例上的命令。
@@ -36,12 +40,6 @@ ht-degree: 2%
 處理請求後，加密／解密命令將可在和活動 **[!UICONTROL Pre-processing stage]** 的欄位中 **[!UICONTROL Load file]** 使 **[!UICONTROL Extract file]** 用。 您可以使用這些檔案解密或加密要導入或導出的檔案。
 
 ![](assets/preprocessing-encryption.png)
-
->[!NOTE]
->
->請注意，GPG密鑰可以使用控制面板添加到實例中，該面板可用於AWS托管的所有客戶（現場托管其行銷實例的客戶除外）。
->
->有關詳細資訊，請參閱「控 [制面板」文檔](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/control-panel-home.html)。
 
 **相關主題：**
 

@@ -12,7 +12,10 @@ discoiquuid: 2ea51543-fe4d-462b-b47e-9ccaa1d68dfa
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 37e86c6143c52841e69d610fa9db35dff70a3587
+source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+workflow-type: tm+mt
+source-wordcount: '192'
+ht-degree: 7%
 
 ---
 
@@ -26,7 +29,7 @@ Adobe Campaign Standard和Adobe Analytics之間的整合可讓您：
 * 將您的KPI（關鍵績效指標）資料從Adobe Campaign Standard分享至Adobe Analytics。
 * 使用Adobe Analytics參數豐富追蹤公式。
 
-這可先建立連結至Adobe Analytics的外部帳戶。 然後，技術工作流程會自動啟動，並依預設每15分鐘自動執行一次。 接著您的KPI資料會推送至Analytics。
+首先建立連結至Adobe Analytics的外部帳戶即可。 然後，技術工作流程會自動啟動，並依預設每15分鐘自動執行一次。 接著您的KPI資料會推送至Analytics。
 
 此整合僅適用於電子郵件傳送。
 
@@ -34,7 +37,7 @@ Adobe Analytics的核心服務觸發程式 **與** Adobe Campaign也可進行整
 
 **相關主題：**
 
-* [Analytics 中 Campaign 維度和度量](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
+* [Analytics 中的 Campaign 維度和度量](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
 * [報告](../../reporting/using/about-dynamic-reports.md)
-* [Adobe Analytics檔案](https://marketing.adobe.com/resources/help/en_US/reference/adobe-campaign.html)
+* [Adobe Analytics檔案](https://docs.adobe.com/content/help/en/analytics/integration/adobe-campaign.html)
 

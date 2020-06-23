@@ -1,18 +1,21 @@
 ---
 title: 在 Experience Cloud 中設定觸發程式
-description: '瞭解如何設定Adobe Experience cloud觸發器整合，以便根據客戶先前的行為開始傳送個人化的傳送內容。 '
-page-status-flag: 從未激活
+description: '瞭解如何設定Adobe Experience Cloud觸發器整合，以便根據客戶先前的行為開始傳送個人化的傳送內容。 '
+page-status-flag: never-activated
 uuid: 8fd7b804-9528-46a5-a060-bf16b8dc555d
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 整合
-content-type: 參考
-topic-tags: 使用促銷活動和觸發器
+audience: integrating
+content-type: reference
+topic-tags: working-with-campaign-and-triggers
 discoiquuid: 4163dc0c-8103-4425-b8bf-7aa45c4d3a06
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+workflow-type: tm+mt
+source-wordcount: '860'
+ht-degree: 1%
 
 ---
 
@@ -25,17 +28,17 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 Adobe團隊需要下列資訊才能啟動觸發器：
 
-* Marketing cloud公司名稱
+* Marketing Cloud公司名稱
 * IMS組織ID
-* Analytics登入公司（可與Marketing cloud公司名稱相同）
+* Analytics登入公司（可與Marketing Cloud公司名稱相同）
 
-## 設定解決方案和服務 {#configuring-solutions-and-services}
+## 設定解決方案與服務 {#configuring-solutions-and-services}
 
 若要使用此功能，您需要存取下列解決方案／核心服務：
 
 * Adobe Campaign
 * Adobe Analytics Ultimate、Premium、Foundation、OD、Select、Prime、Mobile Apps、Select或Standard。
-* Experience cloud觸發器核心服務
+* Experience Cloud觸發器核心服務
 
    ![](assets/trigger_uc_prereq_1.png)
 
@@ -43,7 +46,7 @@ Adobe團隊需要下列資訊才能啟動觸發器：
 
    ![](assets/trigger_uc_prereq_2.png)
 
-* Experience cloud訪客ID和Experience cloud人員核心服務
+* Experience Cloud訪客ID和Experience Cloud人員核心服務
 
    ![](assets/trigger_uc_prereq_3.png)
 
@@ -63,13 +66,13 @@ Adobe團隊需要下列資訊才能啟動觸發器：
 
    ![](assets/trigger_uc_conf_1.png)
 
-1. 網站、Adobe Analytics和Adobe Campaign之間的ID協調需要使用鋸齒。 例如，建立別名"visitorid"。
+1. 網站、Adobe Analytics和Adobe Campaign之間的ID協調需要使用鋸齒。 例如，建立別名&quot;visitorid&quot;。
 
    ![](assets/trigger_uc_conf_2.png)
 
-### 設定Experience cloud人員核心服務 {#configuring-experience-cloud-people-core-service}
+### 設定Experience Cloud人員核心服務 {#configuring-experience-cloud-people-core-service}
 
-先前在DTM中參考的別名必須透過客戶屬性在Experience cloud人員核心服務中建立。 請確定您建立新的別名，並在整合程式碼中參照相同的DTM別名（例如"visitorid"）。
+先前在DTM中參考的別名必須透過客戶屬性在Experience Cloud人員核心服務中建立。 請確定您建立新的別名，並在整合程式碼中參照相同的DTM別名（例如&quot;visitorid&quot;）。
 
 ![](assets/trigger_uc_conf_3.png)
 
@@ -79,11 +82,11 @@ Adobe團隊需要下列資訊才能啟動觸發器：
 
 ### 在Campaign中設定觸發程式和別名 {#configuring-triggers-and-aliases-in-campaign}
 
-1. 請確定您已在 **[!UICONTROL Experience Cloud triggers]** Adobe Campaign standard例項中看到。 如果您不這麼做，請連絡Adobe Campaign管理員。
+1. 請確定您已在 **[!UICONTROL Experience Cloud triggers]** Adobe Campaign Standard例項中看到。 如果您不這麼做，請連絡Adobe Campaign管理員。
 
    ![](assets/remarketing_1.png)
 
-1. 別名可讓Analytics中的連絡人與促銷活動中的描述檔協調。 您需要將Experience Cloud ID服務中定義的別名與促銷活動中的共用資料來源相符。 您必須透過資料來源( **[!UICONTROL Administration]** &gt; **[!UICONTROL Application Settings]** &gt; **[!UICONTROL Shared Data Sources]** )，在Adobe Campaign中設定別名解析度。 請務必在下拉式選單中選擇正確的 **[!UICONTROL Data Source/Alias]** 資料來源，此資料來源會與先前步驟中建立的相同客戶屬性資料來源對應。
+1. 別名可讓Analytics中的連絡人與促銷活動中的描述檔協調。 您需要將Experience Cloud ID服務中定義的別名與促銷活動中的共用資料來源相符。 您必須透過資料來源( **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Shared Data Sources]** )，在Adobe Campaign中設定別名解析度。 請務必在下拉式選單中選擇正確的 **[!UICONTROL Data Source/Alias]** 資料來源，此資料來源會與先前步驟中建立的相同客戶屬性資料來源對應。
 
    ![](assets/trigger_uc_conf_5.png)
 
@@ -91,13 +94,13 @@ Adobe團隊需要下列資訊才能啟動觸發器：
    >
    >您可以協調匿名和登入使用者的觸發程式。 對於匿名使用者，描述檔應存在於Adobe Campaign中，而且之前已傳送電子郵件給使用者。 因此，訪客ID設定就足夠了。 但是，如果要協調已登錄用戶的觸發器，則需要設定「聲明的ID資料源」。 如需詳細資訊，請參閱「資 [料來源設定」](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources)。
 
-## 在Experience cloud介面中建立觸發器 {#creating-a-trigger-in-the-experience-cloud-interface}
+## 在Experience Cloud介面中建立觸發器 {#creating-a-trigger-in-the-experience-cloud-interface}
 
-您必須建立Adobe Experience cloud觸發器，才能在Campaign中使用它。
+您必須建立Adobe Experience Cloud觸發器，才能在Campaign中使用它。
 
-在Experience cloud中建立新觸發器，並確定您選取了網站上使用的報表套裝。 請確定您選擇了正確的尺寸，如此觸發器就會啟動。
+在Experience Cloud中建立新觸發器，並確定您選取了網站上使用的報表套裝。 請確定您選擇了正確的尺寸，如此觸發器就會啟動。
 
-請參閱 [Adobe Experience cloud檔案](https://marketing.adobe.com/resources/help/en_US/mcloud/triggers.html) ，觀看此 [影片](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two)。
+請參閱 [Adobe Experience Cloud檔案](https://docs.adobe.com/content/help/en/core-services/interface/activation/triggers.html) ，觀看此 [影片](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two)。
 
 ## 觸發最佳實務和限制 {#triggers-best-practices-and-limitations}
 

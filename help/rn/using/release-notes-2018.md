@@ -12,9 +12,9 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 50c3188e1bc0eb92fd52637988834ce8538335a3
+source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
 workflow-type: tm+mt
-source-wordcount: '5399'
+source-wordcount: '5401'
 ht-degree: 1%
 
 ---
@@ -130,7 +130,7 @@ ht-degree: 1%
 
 **改進**
 
-* Adobe Campaign和Adobe Target整合現在可讓您運用Target的「權 [限](https://marketing.adobe.com/resources/help/en_US/target/target/properties-overview.html) 」功能。 在電子郵件中包含Adobe Target的動態影像時，您現在可以指定Target屬性（at_property代碼）。
+* Adobe Campaign和Adobe Target整合現在可讓您運用Target的「權 [限](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/properties-overview.html) 」功能。 在電子郵件中包含Adobe Target的動態影像時，您現在可以指定Target屬性（at_property代碼）。
 * GDPR隱私權存取／刪除要求現在會考量到具有描述檔資源之下載連結的自訂資源。 對於1個基數簡單連結和N個基數收集連結，您需要在自定義資源中選擇「刪除／複製目標籤錄意味著刪除／複製連結引用的記錄」。 對於0或1個基數簡單連結，選擇「刪除／複製記錄意味著刪除／複製連結引用的目標籤錄」。
 
 **其他變更**
@@ -285,7 +285,7 @@ _工作流程_
 _報告_
 
 * KPI共用工作流程現在會擷取過去2個月而非過去6個月的傳送值。 修正KPI共用外部帳戶顯示截斷日期的問題。
-* 修正「已傳送」、「已傳送」和「彈回數」中可能未考 **慮特定**&#x200B;訊息 **的** 問 ****&#x200B;題。
+* 修正「已傳送」、「已傳送」和「彈回數」中可能未考 **慮特定**&#x200B;訊息 **的******&#x200B;問題。
 * 修正「傳送摘要報表」中選取的時 **間範圍過長時** ，發生的錯誤。
 
 _自訂資源_
@@ -478,7 +478,7 @@ _已知問題_
   </tr> 
   <tr> 
    <td> 時區最佳化傳送<br /> </td> 
-   <td> 排程定期傳送的電子郵件、簡訊和推播通知，以便在每個收件者的時區中，於特定日／時間傳送，以確保您的訊息在適當的時間傳送，而不需設定多個傳送。 <br /> 如需詳細資訊，請參閱詳 <a href="../../automating/using/scheduler.md">細檔案</a>。<br /> </td> 
+   <td> 排程定期傳送的電子郵件、簡訊和推播通知，以便在每個收件者的時區中，於特定日／時間傳送，確保訊息在適當的時間傳送，而不需設定多個傳送。 <br /> 如需詳細資訊，請參閱詳 <a href="../../automating/using/scheduler.md">細檔案</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> API Signal活動觸發<br /> </td> 

@@ -12,7 +12,10 @@ discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c1b7d2210647a87693d93e325a4c888cb23e5f3a
+source-git-commit: 2df909256b910e5e26e0fdac7e150edd0603c8ab
+workflow-type: tm+mt
+source-wordcount: '576'
+ht-degree: 9%
 
 ---
 
@@ -40,11 +43,11 @@ Campaign Standard **訊息準備** ，會分析訊息的目標、個人化和有
 
 **使用各種功能** ，預覽並測試您的訊息： 傳送校樣以測試描述檔或目標描述檔、測試您電子郵件的主旨，並檢查訊息的轉譯，以確保它以最佳方式顯示在各種網頁用戶端、網頁郵件和裝置上。
 
-運用促銷活動排程功能$$來定義訊息的傳送時間。 例如，您可以調整收件者時區的傳送、最佳化傳送時間或計算傳送日期。
+運用促銷活動排程功能來定義訊息的傳送時間。 例如，您可以調整收件者時區的傳送、最佳化傳送時間或計算傳送日期。
 
 在準 **備期間** ，使用類型檢查訊息是否有效，並透過疲勞、控制和定位規則符合您的品質標準。 例如，檢查您的電子郵件是否一律包含主旨行，或將未訂閱者排除在訊息收件者之外。
 
-閱讀更多：
+詳細內容:
 
 * [準備傳送](../../sending/using/preparing-the-send.md)
 * [預覽訊息](../../sending/using/previewing-messages.md)
@@ -63,7 +66,7 @@ Campaign Standard **訊息準備** ，會分析訊息的目標、個人化和有
 
 最後，您可以設定Adobe Campaign，以 **保留透過電子郵件密件副本** ，從您的平台傳送的電子郵件副本。 尤其是，如果您的組織需要封存所有傳出電子郵件訊息以符合法規，您可以啟用此功能。
 
-閱讀更多：
+詳細內容:
 
 * [確認傳送](../../sending/using/confirming-the-send.md)
 * [追蹤訊息](../../sending/using/tracking-messages.md)
@@ -80,7 +83,7 @@ Campaign Standard **訊息準備** ，會分析訊息的目標、個人化和有
 
 Campaign Standard提供數種 **傳遞性工具** ，可協助您改善成功傳送訊息的數量： 傳送傳送處理報告、傳送時間最佳化、訊息預覽、電子郵件轉譯、隔離管理等。
 
-閱讀更多：
+詳細內容:
 
 * [關於傳送能力](../../sending/using/about-deliverability.md)
 * [監控傳送能力](../../sending/using/monitor-deliverability.md)

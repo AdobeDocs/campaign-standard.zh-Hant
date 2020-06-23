@@ -12,7 +12,10 @@ discoiquuid: 77af0772-52b5-46bc-a964-675b45965524
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
+source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+workflow-type: tm+mt
+source-wordcount: '807'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +24,7 @@ source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 ## 匯入對象 {#importing-an-audience}
 
-人員核心服務整合可讓受眾透過技術工作流程直接匯入Adobe Campaign，以豐富您的資料庫。 如需「人員」核心服務中觀眾分享的詳細資訊，請參閱本 [檔案](https://marketing.adobe.com/resources/help/en_US/mcloud/t_publish_audience_segment.html)。
+人員核心服務整合可讓受眾透過技術工作流程直接匯入Adobe Campaign，以豐富您的資料庫。 如需「人員」核心服務中觀眾分享的詳細資訊，請參閱本 [檔案](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-publish.html)。
 
 從Adobe Campaign的「人物」核心服務匯入觀眾／區段，只能由透過IMS連線的 **[!UICONTROL Audiences]** 使用者（透過Adobe ID驗證）執行。
 
@@ -47,7 +50,7 @@ source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 >[!NOTE]
 >
->如果您要將觀眾從Adobe Analytics匯入Adobe Campaign，這些觀眾必須先在People Core Service或Audience Manager中共用。 此程式需要12-24小時，這必須新增至與Campaign同步的24-36小時。 在此特定情況下，觀眾分享的時間最長可達60小時。 如需People Core服務和Audience Manager中Adobe Analytics觀眾分享的詳細資訊，請參閱本文 [件](https://marketing.adobe.com/resources/help/en_US/mcloud/t_publish_audience_segment.html)。
+>如果您要將觀眾從Adobe Analytics匯入Adobe Campaign，這些觀眾必須先在People Core Service或Audience Manager中共用。 此程式需要12-24小時，這必須新增至與Campaign同步的24-36小時。 在此特定情況下，觀眾分享的時間最長可達60小時。 如需People Core服務和Audience Manager中Adobe Analytics觀眾分享的詳細資訊，請參閱本文 [件](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-publish.html)。
 
 ## 匯出觀眾 {#exporting-an-audience}
 
@@ -76,7 +79,7 @@ source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 1. 確認活動的設定並儲存您的工作流程。
 1. 啟動您的工作流程以匯出您的觀眾。 Adobe Campaign和People核心服務之間的同步化可能需要數小時
 
-Adobe Campaign和People核心服務之間的同步化需要24-36小時。 在這段期間後，您將可在People核心服務中尋找新的受眾，並在其他Adobe Experience Cloud解決方案中重複使用。 如需在Adobe People核心服務中使用Adobe Campaign共用觀眾的詳細資訊，請參閱本文 [件](https://marketing.adobe.com/resources/help/en_US/mcloud/t_audience_create.html)。
+Adobe Campaign和People核心服務之間的同步化需要24-36小時。 在這段期間後，您將可在People核心服務中尋找新的受眾，並在其他Adobe Experience Cloud解決方案中重複使用。 如需在Adobe People核心服務中使用Adobe Campaign共用觀眾的詳細資訊，請參閱本文 [件](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-audience-create.html)。
 
 **相關主題：**
 

@@ -12,10 +12,10 @@ discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: b4d0aa1a9f116f022890d5eccd87730a7a513103
 workflow-type: tm+mt
 source-wordcount: '546'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 切勿假設傳入的資料是一致且正確的，或IT部門或Adobe Campaign主管負責處理。 在專案期間，請牢記資料清理。 在匯入資料時，可以消除重複資料、進行協調並維持一致性。
 
-「示例：」( [Example:)中提供了為導入資料而設計的通用工作流模板的示例。 「導入工作流模板](#example--import-workflow-template) 」部分。
+「示例：」( [Example:)中提供了為導入資料而設計的通用工作流模板的示例。 「導入工作流模板](../../automating/using/creating-import-workflow-templates.md) 」部分。
 
 >[!NOTE]
 >

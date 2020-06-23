@@ -13,7 +13,10 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e1fa546313e8d543685ef30a072ae2d97c5bf236
+source-git-commit: be7ab90583e9c6472fd2c86082e832432d0a32b9
+workflow-type: tm+mt
+source-wordcount: '384'
+ht-degree: 4%
 
 ---
 
@@ -28,9 +31,9 @@ source-git-commit: e1fa546313e8d543685ef30a072ae2d97c5bf236
 
 然後，Adobe Campaign Standard將會使用 **Audience Destinations** 服務，從Adobe Experience Platform擷取多步驟和／或跨通道促銷活動計畫的描述檔集合，稱為 **Audiences**。
 
-**觀眾** 是先建立區段來建立 **的**，這些區段實際上是一組規則，基於來自Adobe Experience Platform的客戶描述檔中幾乎任何變數（例如，描述檔、事件、多實體資料），以建立多維目標。 以下專屬檔案中參考了統一描述檔與區段服務的全域概念：
+**觀眾** 是先建立區段來建立 **的**，這些區段實際上是一組規則，基於來自Adobe Experience Platform的客戶描述檔中幾乎任何變數（例如，描述檔、事件、多實體資料），以建立多維目標。 這些專屬檔案中參考了即時客戶個人檔案與細分服務的全域概念：
 
-* [即時客戶個人檔案總覽](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)
+* [即時客戶個人檔案總覽](https://docs.adobe.com/content/help/zh-Hant/experience-platform/profile/home.html)
 * [區段服務概觀](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html)
 
 在建立區段後，您就可以將其啟動為觀眾，以便在 [Campaign Standard工作流程中進行傳送](../../automating/using/aep-targeting-audiences.md)。 此外，您也可以使用Adobe Experience Platform的情境式資料，將動 [態內容](../../automating/using/aep-personalizing-campaigns.md) 個人化並新增至宣傳活動。
@@ -39,14 +42,14 @@ source-git-commit: e1fa546313e8d543685ef30a072ae2d97c5bf236
 
 這些章節中使用的詞語：
 
-* **設定檔**:描述檔是Experience Platform標準資料模型，用來定義消費者屬性。 描述檔也可以是與人員和裝置相關的事件資料和屬性的匯總。
+* **設定檔**: 描述檔是Experience Platform標準資料模型，用來定義消費者屬性。 描述檔也可以是與人員和裝置相關的事件資料和屬性的匯總。
 
-   範例：「無名氏是一名55歲的男性。」
+   範例： 「無名氏是一名55歲的男性。」
 
-* **區段**:一組規則，它使用屬性和事件資料定義資料庫中配置檔案的子集。
+* **區段**: 一組規則，它使用屬性和事件資料定義資料庫中配置檔案的子集。
 
-   範例：&quot;男性>50歲&quot;
+   範例： &quot;男性>50歲&quot;
 
-* **觀眾**:符合區段規則的描述檔集合。
+* **觀眾**: 符合區段規則的描述檔集合。
 
-   範例：資料庫中所有年齡超過50歲男性的相應描述檔清單。
+   範例： 資料庫中所有年齡超過50歲男性的相應描述檔清單。

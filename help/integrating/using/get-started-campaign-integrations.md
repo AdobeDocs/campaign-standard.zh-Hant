@@ -12,10 +12,10 @@ discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 1%
+source-wordcount: '635'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 其他解決方案也可以連結至Adobe Experience Cloud，視您的環境而定。 它們以「組織」（又稱為「租客」）連結。
 
-組織是可讓管理員設定群組和使用者，以及控制Experience Cloud中單一登入的實體。 組織的運作方式類似登入公司，涵蓋所有Experience Cloud產品和解決方案。 通常，組織就是您的公司名稱。 但是，公司可以有許多組織。 使用者和組織管理在 [Adobe Experience Cloud說明入口網站中有詳細說明](https://marketing.adobe.com/resources/help/zh_TW/mcloud/organizations.html)。
+組織是可讓管理員設定群組和使用者，以及控制Experience Cloud中單一登入的實體。 組織的運作方式類似登入公司，涵蓋所有Experience Cloud產品和解決方案。 通常，組織就是您的公司名稱。 但是，公司可以有許多組織。 使用者和組織管理在 [Adobe Experience Cloud說明入口網站中有詳細說明](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html)。
 
 如果您想要將其他系統的資料流與Adobe Campaign整合，請參閱我們的 [API檔案](../../api/using/get-started-apis.md)。
 
@@ -61,7 +61,7 @@ ht-degree: 1%
    <td> Target<br /> Classic、Standard<br /> </td> 
    <td> 可讓您插入在開啟由Adobe Campaign建立和傳送的電子郵件時，由Adobe Target動態計算的影像。<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-target-integration.md">使用Campaign和Target</a> 、整 <br/>合Campaign和Target <a href="https://marketing.adobe.com/resources/help/en_US/target/a4t/c_campaign_and_target.html">,</a><br/>即時視訊中個人化電子郵件影像 <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html"></a> （步驟3）
+    <a href="../../integrating/using/about-campaign-target-integration.md">使用Campaign和Target</a> 、整 <br/>合Campaign和Target <a href="https://docs.adobe.com/content/help/en/target/using/integrate/campaign-and-target.html">,</a><br/>即時視訊中個人化電子郵件影像 <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html"></a> （步驟3）
     </td> 
   </tr> 
   <tr> 

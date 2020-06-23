@@ -4,10 +4,10 @@ solution: Campaign Standard
 title: Adobe Campaign Standard 產品文件
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: 01fed9b50964ae15a2127a1a2f9a3ebca944d6b1
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 100%
+source-wordcount: '196'
+ht-degree: 93%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 ## 新增功能
 
-* **[使用目標設定檔進行電子郵件測試](sending/using/testing-messages-using-target.md)**<br/>使用目標設定檔進行電子郵件測試
+* 「白名單」和「黑名單」詞語都已從Adobe Campaign檔案中移除。 [詳細內容](rn/using/documentation-updates.md)
 
 * **[隱私權管理](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>
 瞭解 Adobe Campaign 所提供用來協助您遵從隱私權要求的工具

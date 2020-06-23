@@ -13,7 +13,7 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3ed78fd610b0d134cd1e60f34c93161cb1e5c50f
+source-git-commit: 4cda0d3a3e65959091cd24bec8af434ab07519f6
 workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 此圖 ![](assets/printpreview_darkgrey-24px.png) 示會開啟工作流程記錄和工作功能表。
 
-工作流歷史記錄將保存在工作流執行選項中指定的持續時間內(請參閱 [工作流屬性](#workflow-properties))。 因此，在此期間，即使在重新啟動後，也會保存所有消息。 如果不想保存先前執行中的消息，則必須按一下按鈕來清除歷史記 ![](assets/delete_darkgrey-24px.png) 錄。
+工作流歷史記錄將保存在工作流執行選項中指定的持續時間內(請參閱 [工作流屬性](../../automating/using/managing-execution-options.md))。 因此，在此期間，即使在重新啟動後，也會保存所有消息。 如果不想保存先前執行中的消息，則必須按一下按鈕來清除歷史記 ![](assets/delete_darkgrey-24px.png) 錄。
 
 該選 **[!UICONTROL Log]** 項卡包含所有活動或任何選定活動的執行歷史記錄。 它按時間順序對執行的操作和執行錯誤進行索引。
 
@@ -55,9 +55,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您可以針對每個活動分別套用此設定。 若要這麼做，請選取活動，然後使用快速動作將其開啟 ![](assets/edit_darkgrey-24px.png)。 然後在「執行選項」頁籤中選擇錯誤 **管理模式** 。 請參閱 [活動執行選項](#activity-execution-options)。
+>您可以針對每個活動分別套用此設定。 若要這麼做，請選取活動，然後使用快速動作將其開啟 ![](assets/edit_darkgrey-24px.png)。 然後在「執行選項」頁籤中選擇錯誤 **管理模式** 。 請參閱 [活動執行選項](../../automating/using/activity-properties.md)。
 
-在工作流 [的屬性中](#workflow-properties)，還提供了與錯誤管理相關的其他選項。
+在工作流 [的屬性中](../../automating/using/managing-execution-options.md)，還提供了與錯誤管理相關的其他選項。
 
 ![](assets/wkf_execution_error.png)
 

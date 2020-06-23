@@ -1,5 +1,5 @@
 ---
-title: 管理 Adobe Experience Platform 受眾
+title: 管理 Adobe Experience Platform 閱聽眾
 description: 瞭解如何在Campaign Standard中管理Adobe Experience Platform。
 page-status-flag: never-activated
 uuid: b3996642-96ec-489e-b146-c8c2cb52aa32
@@ -13,12 +13,15 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e1fa546313e8d543685ef30a072ae2d97c5bf236
+source-git-commit: d487600fc4f3004804e93347b83edfe4e01cceeb
+workflow-type: tm+mt
+source-wordcount: '389'
+ht-degree: 2%
 
 ---
 
 
-# 管理 Adobe Experience Platform 受眾 {#about-audiences}
+# 管理 Adobe Experience Platform 閱聽眾 {#about-audiences}
 
 >[!IMPORTANT]
 >
@@ -44,7 +47,7 @@ source-git-commit: e1fa546313e8d543685ef30a072ae2d97c5bf236
 
    ![](assets/aep_audiences_creation_create.png)
 
-1. 「統一區段產生器」現在應會顯示在您的工作區中。 它可讓您使用Adobe Experience Platform中的資料來建立細分，這些資料最終將用來建立您的觀眾。
+1. 「區段產生器」現在應會顯示在您的工作區中。 它可讓您使用Adobe Experience Platform中的資料來建立細分，這些資料最終將用來建立您的觀眾。
 
 1. 在右窗格中為區段命名，並輸入說明（選用）。
 
@@ -58,7 +61,7 @@ source-git-commit: e1fa546313e8d543685ef30a072ae2d97c5bf236
 
 1. 定義規則，以識別要在觀眾中擷取的個人檔案。
 
-   若要這麼做，請從左窗格拖曳所要的屬性和／或事件至工作區，定義對應的規則，然後按一下按鈕以儲存區段(請參 **[!UICONTROL Create segment]** 閱 [使用統一區段產生器](../../audiences/using/aep-using-segment-builder.md))。
+   若要這麼做，請從左窗格拖曳所要的屬性和／或事件至工作區，定義對應的規則，然後按一下按鈕以儲存區段(請 **[!UICONTROL Create segment]** 參閱 [使用區段產生器](../../audiences/using/aep-using-segment-builder.md))。
 
    ![](assets/aep_audiences_creation_query.png)
 
@@ -66,7 +69,7 @@ source-git-commit: e1fa546313e8d543685ef30a072ae2d97c5bf236
 
 ## 編輯觀眾
 
-若要編輯對象，請視需要在「統一區段產生器」介面中開啟並修改規則(請 [參閱使用統一區段產生器](../../audiences/using/aep-using-segment-builder.md))。
+若要編輯對象，請視需要在「區段產生器」介面中開啟並修改規則(請 [參閱使用區段產生器](../../audiences/using/aep-using-segment-builder.md))。
 
 變更完成後，按一下按鈕 **[!UICONTROL Save segment]** 以更新您的觀眾。
 

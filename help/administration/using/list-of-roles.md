@@ -13,7 +13,10 @@ context-tags: role,overview;role,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 18db1b8cade7d88294ef2609dd4fad95c55fbd37
+source-git-commit: c65cce2168219b3cd8cbd6704bdd0b6f3f55e3e6
+workflow-type: tm+mt
+source-wordcount: '207'
+ht-degree: 7%
 
 ---
 
@@ -26,18 +29,18 @@ source-git-commit: 18db1b8cade7d88294ef2609dd4fad95c55fbd37
 
 有關詳細資訊，請參閱「角 [色和權限」表](/help/administration/using/assets/acs_rights.pdf)，該表根據所選授權詳細說明了介面中可用的功能。
 
-![](assets/user_management_3.png)
+[![image](assets/user_management_3.png](https://docs.adobe.com/content/help/en/campaign-standard/using/administrating/users-and-security/assets/acs_rights.pdf)
 
 您可從功能表管理 **[!UICONTROL Administration > Users & Security > Roles]** 角色。
 
 預設權限為：
 
-* **[!UICONTROL Administration]**:一般管理權限。
-* **[!UICONTROL Datamodel]**:直接執行出版品和建立自訂資源。
-* **[!UICONTROL Generic import]**:對資料執行一般匯入的權限。 要使此功能發揮作用，您需要將角色 **[!UICONTROL Generic import]** 連結到角 **[!UICONTROL Workflow]** 色。
-* **[!UICONTROL Prepare deliveries]**:建立、修改、準備和刪除傳送的權利。 具有此角色的使用者可以準備傳送，但無法傳送。
-* **[!UICONTROL Start deliveries]**:建立、修改、準備、傳送和刪除傳送的權限。
-* **[!UICONTROL Workflow]**:管理工作流程的執行（開始、停止、暫停等）。 具有此角色的使用者即使在工作流程中，也無法傳送傳送。
+* **[!UICONTROL Administration]**: 一般管理權限。
+* **[!UICONTROL Datamodel]**: 直接執行出版品和建立自訂資源。
+* **[!UICONTROL Generic import]**: 對資料執行一般匯入的權限。 要使此功能發揮作用，您需要將角色 **[!UICONTROL Generic import]** 連結到角 **[!UICONTROL Workflow]** 色。
+* **[!UICONTROL Prepare deliveries]**: 建立、修改、準備和刪除傳送的權利。 具有此角色的使用者可以準備傳送，但無法傳送。
+* **[!UICONTROL Start deliveries]**: 建立、修改、準備、傳送和刪除傳送的權限。
+* **[!UICONTROL Workflow]**: 管理工作流程的執行（開始、停止、暫停等）。 具有此角色的使用者即使在工作流程中，也無法傳送傳送。
 
 **相關主題：**
 

@@ -13,9 +13,9 @@ context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+source-git-commit: 2a8cb9aa0d018fec9d5b256beba079c5ec3afaf0
 workflow-type: tm+mt
-source-wordcount: '1771'
+source-wordcount: '1799'
 ht-degree: 0%
 
 ---
@@ -98,6 +98,9 @@ ht-degree: 0%
       ![](assets/wkf_file_loading1.png)
 
 1. 如果要從中載入資料的檔案壓縮到GZIP檔案(.gz)中，請在欄位中 **[!UICONTROL Decompression]** 選擇選 **[!UICONTROL Add a pre-processing step]** 項。 這可讓您在載入資料之前先解壓縮檔案。 只有當檔案來自活動的傳入轉換時，才可使用此選項。
+
+   該 **[!UICONTROL Add a pre-processing step]** 欄位還允許您在將檔案導入資料庫之前對其進行解密。 有關如何使用加密檔案的詳細資訊，請參 [閱本節](../../automating/using/managing-encrypted-data.md)
+
 1. 選 **[!UICONTROL Keep the rejects in a file]** 項可讓您下載包含匯入期間發生錯誤的檔案，並套用至後處理階段。 啟用此選項時，對外轉場會重新命名為「拒絕」。
 
    >[!NOTE]

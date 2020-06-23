@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
 workflow-type: tm+mt
 source-wordcount: '2536'
 ht-degree: 1%
@@ -76,7 +76,7 @@ Adobe Campaign可讓您將資料庫中的欄位插入頁面，例如描述檔的
 
    ![](assets/email_perso_field_2.png)
 
-1. 按一下 **[!UICONTROL Confirm]**.
+1. 按一下「**[!UICONTROL Confirm]**」。
 
 欄位名稱會出現在編輯器中，並反白顯示。
 
@@ -106,7 +106,7 @@ Adobe Campaign提供預先設定的內容區塊清單。 這些內容區塊是�
 
    ![](assets/email_content_block_2.png)
 
-1. 按一下 **[!UICONTROL Save]**.
+1. 按一下「**[!UICONTROL Save]**」。
 
 內容區塊的名稱會顯示在編輯器中，並以黃色反白顯示。 當個人化產生時，它會自動調整至個人檔案。
 
@@ -201,7 +201,7 @@ Adobe Campaign可讓您根據特定標準或使用追蹤，個人化訊息中的
 
    >[!NOTE]
    >
-   >網域名稱(http://mydomain.com)無法個人化，必須手動輸入。 其餘的URL可以個人化。 例如： http://mydomain.com/`[Gender]`.jpg
+   >網域名稱(http://mydomain.com)無法個人化，必須手動輸入。 其餘的URL可以個人化。 例如： http://mydomain.com/ `[Gender]` .jpg
 
 1. 確認您的變更。
 

@@ -12,9 +12,9 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f8c8dd5ec3dcff557d17e92591748cb1b6694122
+source-git-commit: 7622018bff9c8b8573dae139372bea697815849f
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '589'
 ht-degree: 1%
 
 ---
@@ -87,7 +87,7 @@ Adobe會持續評估產品功能，以找出應以更現代的替代方式來取
    <td> <p>在啟動Campaign 19.0版本時，舊版電子郵件編輯器已過時。 使用 <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">全新的電子郵件設計工具</a> ，建立並個人化您的電子郵件內容。 </p></br>
    <p>閱讀本 <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">節</a> ，瞭解如何針對新編輯者調整您的電子郵件範本。</p></br>
   <p> 
-  <em>目標刪除版本： Campaign 20.4發行</em></p>
+  <em>目標刪除版本： 2021年</em></p>
    </td> 
   </tr> 
  </tbody> 
@@ -135,7 +135,7 @@ Adobe會持續評估產品功能，以找出應以更現代的替代方式來取
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Campaign和Adobe Experience Cloud已從2019年春季起停止支援Microsoft Internet Explorer 11和Campaign 19.2版本。 請切換至Microsoft Edge或其他支援的瀏覽器。 <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/getting-started/discovering-the-interface/compatible-browsers.html">進一步瞭解</a>。</p>
+   <td> <p>Adobe Campaign和Adobe Experience Cloud已從2019年春季起停止支援Microsoft Internet Explorer 11和Campaign 19.2版本。 請切換至Microsoft Edge或其他支援的瀏覽器。 <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/administrating/about-configuration-guidelines.html#compatible-browsers">進一步瞭解</a>。</p>
    </td> 
   </tr> 
  </tbody> 

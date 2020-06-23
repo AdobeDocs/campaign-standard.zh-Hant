@@ -13,7 +13,10 @@ context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 78800930d78179c1e390313c35f70627b5df0769
+source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
+workflow-type: tm+mt
+source-wordcount: '1494'
+ht-degree: 0%
 
 ---
 
@@ -40,7 +43,7 @@ source-git-commit: 78800930d78179c1e390313c35f70627b5df0769
 1. 開啟推播通知並存取 **[!UICONTROL Advanced options]** 區段。
 1. 在欄位 **[!UICONTROL Play a sound]** 中，輸入未加上副檔名的音效檔案檔案檔案名稱，以便在收到通知時由行動裝置播放。
 
-   如需支援媒體格式的詳細資訊，請參閱 [Apple](https://support.apple.com/kb/PH16864?locale=en_US) 和 [Android檔案](https://developer.android.com/guide/topics/media/media-formats.html) 。
+   如需支援媒體格式的詳細資訊，請參閱 [Apple](https://support.apple.com/kb/PH16864?locale=en_US) 和 [Android檔案](https://developer.android.com/guide/topics/media/media-formats) 。
 
    ![](assets/push_notif_advanced_7.png)
 
@@ -151,7 +154,7 @@ source-git-commit: 78800930d78179c1e390313c35f70627b5df0769
 若要在推播通知中加入多媒體：
 
 1. 開啟推播通知並存取 **[!UICONTROL Advanced options]** 區段。
-1. 在欄位中輸入檔案的URL，以 **[!UICONTROL Rich media content URL]** 取得各種格式：iOS和Android。
+1. 在欄位中輸入檔案的URL，以 **[!UICONTROL Rich media content URL]** 取得各種格式： iOS和Android。
 
    若是iOS 10或更新版本，您可以插入影像、gif、音訊和視訊檔案。 對於舊版iOS，推播通知將會顯示而不含豐富內容。 如需如何在iOS裝置上顯示Adobe Campaign推播通知影像的詳細步驟，請參閱此 [頁](https://helpx.adobe.com/campaign/kb/display-image-push.html)。
 

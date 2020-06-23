@@ -13,9 +13,9 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 017e1e80657a3145a97c6ab62a577a9a2164cc99
+source-git-commit: 85dc2b3ba9a781483f88238fbf5a9208a0c18c37
 workflow-type: tm+mt
-source-wordcount: '1561'
+source-wordcount: '1559'
 ht-degree: 9%
 
 ---
@@ -131,7 +131,10 @@ Adobe Experience Manager外部帳戶用於整合Campaign與Experience Manager。
 
 當您設定此新外部帳戶時，您必須提供下列詳細資訊：
 
-* 伺服器： 輸入Adobe Experience Manager伺服器的URL。 例如， **http://aem.domain.com:4502**。
+* 伺服器： 輸入Adobe Experience Manager伺服器的URL。 例如：
+
+   ``` http://aem.domain.com:4502 ```
+
 * AEM帳戶認證： 使用可存取Adobe Experience Manager例項的帳戶。 它應該是Experience Manager中促銷活動——遠端群組的帳戶部分。
 
 ## Google reCAPTCHA外部帳戶 {#google-recaptcha-external-account}

@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017e1e80657a3145a97c6ab62a577a9a2164cc99
+source-git-commit: 58c69b6f6efdac8be5d05fe723bbf9ff54d186ee
 workflow-type: tm+mt
-source-wordcount: '5923'
+source-wordcount: '5941'
 ht-degree: 9%
 
 ---
@@ -25,6 +25,8 @@ ht-degree: 9%
 除了Adobe Campaign發行說 [明外](../../rn/using/release-notes.md)，本頁還列出Adobe Campaign Standard檔案中的所有新更新。
 
 ## 檔案更新- 2020年6月 {#doc-updates-june-2020}
+
+已新增使用案例，說明如何使用「控制 [面板](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt) 」和「促 [銷活動](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) 」工作流程來加密和解密資料。
 
 「白名單」和「黑名單」詞語都已從Adobe Campaign檔案中移除。 產品UI、選項名稱和內部代碼中可能仍會出現這些詞語，但在即將發行的促銷活動版本中，這些詞語會以「blocklist」和「allowlist」取代。
 
@@ -484,7 +486,7 @@ Microsoft Edge（最新版本）已新增至電腦的相容瀏覽器清單。 [�
 
 應用程式內訊息（測試版）-閱 [讀更多](../../channels/using/about-in-app-messaging.md)
 
-Adobe Launch整合行動應用程式（測試版）-閱 [讀更多](../../sending/using/about-typology-rules.md#typology-rules)
+Adobe Launch整合行動應用程式（測試版）-閱 [讀更多](../../sending/using/managing-typologies.md)
 
 **此版本隨附的其他檔案更新**
 
@@ -498,7 +500,7 @@ Adobe Launch整合行動應用程式（測試版）-閱 [讀更多](../../sendin
 
 **發行中包含的新功能**
 
-[針對行動應用程式訂閱者](../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android) ，提供 [高優先順序的標幟](../../sending/using/about-typology-rules.md#typology-rules) 和印刷樣式篩選。
+[針對行動應用程式訂閱者](../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android) ，提供 [高優先順序的標幟](../../sending/using/managing-typologies.md) 和印刷樣式篩選。
 
 準備時從URL自動匯入內容。 [詳細內容](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)
 
@@ -794,7 +796,7 @@ Adobe Campaign通知——閱 [讀更多](../../administration/using/sending-int
 
 直接郵件——詳 [細內容](../../channels/using/about-direct-mail.md)
 
-電子郵件密件副本- [閱讀更多](../../administration/using/configuring-email-channel.md#archiving-emails)
+電子郵件密件副本- [閱讀更多](../../sending/using/archiving.md)
 
 **此版本隨附的其他檔案更新**
 

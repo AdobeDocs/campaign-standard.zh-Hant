@@ -1,19 +1,22 @@
 ---
 title: 擷取檔案
 description: 「擷取檔案」活動可讓您以外部檔案的形式從Adobe Campaign匯出資料。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: 631f0fbd-9e8d-4f77-a338-fcb7f4fc1774
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 自動化
-content-type: 參考
-topic-tags: 資料管理活動
+audience: automating
+content-type: reference
+topic-tags: data-management-activities
 discoiquuid: a06509f9-4731-4187-b43d-3bfa361284d3
 context-tags: fileExport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 2a8cb9aa0d018fec9d5b256beba079c5ec3afaf0
+workflow-type: tm+mt
+source-wordcount: '577'
+ht-degree: 0%
 
 ---
 
@@ -41,13 +44,16 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
    ![](assets/wkf_data_export1.png)
 
 1. 選擇活動，然後使用顯示的快 ![](assets/edit_darkgrey-24px.png) 速操作中的按鈕將其開啟。
-1. 輸入輸出檔案 **的標籤**。 檔案的標籤將自動完成，其建立日期和時間為唯一。 例如：recipients_20150815_081532.txt，此檔案是於2015年8月15日08:15:32產生的。
+1. 輸入輸出檔案 **的標籤**。 檔案的標籤將自動完成，其建立日期和時間為唯一。 例如： recipients_20150815_081532.txt，此檔案是於2015年8月15日08:15:32產生的。
 
    >[!NOTE]
    >
    >可以使用此欄位 **[!UICONTROL formatDate]** 中的函式指定檔案名。
 
 1. 如果您喜歡，可以在欄位中選取，以壓縮 **[!UICONTROL Compression]** 輸出 **[!UICONTROL Add a pre-processing step]** 檔案。 輸出檔案將壓縮為GZIP檔案(.gz)。
+
+   該 **[!UICONTROL Add a pre-processing step]** 欄位還允許您在解壓檔案之前對其進行加密。 有關如何使用加密檔案的詳細資訊，請參 [閱本節](../../automating/using/managing-encrypted-data.md)
+
 1. 按一下或 ![](assets/add_darkgrey-24px.png) 按 **[!UICONTROL Add an element]** 鈕添加輸出列。
 
    ![](assets/wkf_data_export2.png)

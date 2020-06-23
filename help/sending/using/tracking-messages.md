@@ -12,7 +12,10 @@ discoiquuid: 6fa50f0d-3dcf-4a9e-bccc-1ecda2bfb449
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b8c3569fc3965f463a06ae8375a623553037e248
+source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+workflow-type: tm+mt
+source-wordcount: '468'
+ht-degree: 17%
 
 ---
 
@@ -25,12 +28,12 @@ source-git-commit: b8c3569fc3965f463a06ae8375a623553037e248
 
 您可以透過授權要求（例如頁面上出現的）通知使用者您的網站已配備網頁追蹤工具，並加上核取方塊來授權使用Cookie，或在其登陸的第一頁頂端新增橫幅等。 彈出式視窗通常會被瀏覽器封鎖，因此應避免出現。
 
-您的資料庫的每個連絡人都可使用追蹤資訊 **[!UICONTROL integrated customer profiles]**。 如需詳細資訊，請參閱[本小節](../../audiences/using/integrated-customer-profile.md)。
+您的資料庫的每個連絡人都可使用追蹤資訊 **[!UICONTROL integrated customer profiles]**。 如需詳細資訊，請參閱[本章節](../../audiences/using/integrated-customer-profile.md)。
 
 Adobe Campaign 使用兩種類型的 Cookie：
 
 * 工作階段Cookie(nid)。 這包含傳送給連絡人的電子郵件識別碼(broadlogId)和訊息範本的識別碼(deliveryId)。 連絡人按一下由 Adobe Campaign 傳送的電子郵件中包含的 URL 後即可添加識別碼，並且允許您追蹤他們在網路上的行為。瀏覽器關閉時，將自動清除工作階段 Cookie。連絡人可以將其瀏覽器設定為拒絕 Cookie。
-* Adobe Experience Cloud解決方案之間共用的Cookie。 這可讓您識別在使用者造訪網站時與Experience Cloud解決方案互動的使用者。 此處提供此Cookie的說 [明](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_mc.html)。
+* Adobe Experience Cloud解決方案之間共用的Cookie。 這可讓您識別在使用者造訪網站時與Experience Cloud解決方案互動的使用者。 此處提供此Cookie的說 [明](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-mc.html)。
 
 使用Adobe Campaign Standard進行追蹤可讓您存取下列功能：
 
@@ -79,10 +82,10 @@ Adobe Campaign 使用兩種類型的 Cookie：
 
 在該列 **[!UICONTROL Type]** 中，可能的值為：
 
-* **[!UICONTROL Email click]**:收件者點按了自訂連結。
-* **[!UICONTROL Mirror page]**:收件者點按了鏡像頁面的連結。
-* **[!UICONTROL Open]**:收件者開啟電子郵件。
-* **[!UICONTROL Opt-out]**:收件者按一下取消訂閱的連結。
+* **[!UICONTROL Email click]**: 收件者點按了自訂連結。
+* **[!UICONTROL Mirror page]**: 收件者點按了鏡像頁面的連結。
+* **[!UICONTROL Open]**: 收件者開啟電子郵件。
+* **[!UICONTROL Opt-out]**: 收件者按一下取消訂閱的連結。
 
 >[!NOTE]
 >

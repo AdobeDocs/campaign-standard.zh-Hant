@@ -1,5 +1,5 @@
 ---
-title: 開始使用Campaign Standard
+title: 開始使用 Campaign Standard
 description: Adobe Campaign是功能強大的跨通道宣傳管理工具，可協助您協調線上和線下策略，以建立個人化的客戶體驗。
 page-status-flag: never-activated
 uuid: 027f6787-d2ef-44ae-a40a-8facdfe2ae77
@@ -12,15 +12,15 @@ discoiquuid: aee81724-b425-47b4-af92-e55eff97836f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: d7846c33f0bc3730fc63a8659c8afc1c868064e0
 workflow-type: tm+mt
 source-wordcount: '793'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# 開始使用Campaign Standard {#about-campaign-standard}
+# Get Started with Campaign Standard {#about-campaign-standard}
 
 Adobe Campaign Standard是功能強大的跨通道宣傳管理工具，可協助您調整線上和線下策略，以建立個人化的客戶體驗。
 
@@ -56,7 +56,7 @@ Adobe Campaign Standard是功能強大的跨通道宣傳管理工具，可協助
 
 透過線上和線下通訊通道設計和傳送訊息，包括透過測試和回應式設計策略針對多種裝置最佳化電子郵件傳送。
 
-**運用Campaign通訊通道** ，在適當的位置提供行銷宣傳： 電子郵件、簡訊、推播通知、應用程式內訊息、直效郵件、登陸頁面。 通過為所有類型的消息（事務性、循環性、多語言消息）建立模板，獲得消息策略的時間和一致性。 改變A/B測試，並運用個人化和動態內容功能擷取觀眾的興趣。 [開始使用通訊管道](../../channels/using/get-started-communication-channels.md)
+**運用Campaign通訊通道** ，在適當的位置提供行銷宣傳： 電子郵件、簡訊、推播通知、應用程式內訊息、直效郵件、登陸頁面。 通過為所有類型的消息（事務性、循環性、多語言消息）建立模板，獲得消息策略的時間和一致性。 執行A/B測試，並運用個人化和動態內容功能擷取觀眾的興趣。 [開始使用通訊管道](../../channels/using/get-started-communication-channels.md)
 
 **使用Campaign電子郵件設計工具** ，建立吸引人、個別自訂的電子郵件訊息。 從頭開始，或運用內建的內容片段或範本，使用針對自適應設計最佳化的HTML格式來設計您的電子郵件。 [開始設計電子郵件內容](../../designing/using/designing-content-in-adobe-campaign.md)
 

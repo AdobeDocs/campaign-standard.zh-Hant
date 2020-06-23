@@ -12,9 +12,9 @@ discoiquuid: a524c700-bad6-4fcf-857a-c31bfae4d30c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3aa987c423181180a5c20bcca04cde04a2bf6086
+source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '656'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 ## 在Campaign中建立映射觸發器 {#creating-a-mapped-trigger-in-campaign}
 
-您應確定在Adobe Experience Cloud（核心服務）中預先定義要監 **[!UICONTROL Triggers]** 控的行為。 For more on this, refer to the [Adobe Experience Cloud documentation](https://marketing.adobe.com/resources/help/en_US/mcloud/triggers.html). 請注意，在定義觸發器時，需要啟用別名。 對於每個行為（瀏覽／表單放棄、新增／刪除產品、作業過期等）,Adobe Experience Cloud中都必須新增觸發器。
+您應確定在Adobe Experience Cloud（核心服務）中預先定義要監 **[!UICONTROL Triggers]** 控的行為。 For more on this, refer to the [Adobe Experience Cloud documentation](https://docs.adobe.com/content/help/en/core-services/interface/activation/triggers.html). 請注意，在定義觸發器時，需要啟用別名。 對於每個行為（瀏覽／表單放棄、新增／刪除產品、作業過期等）,Adobe Experience Cloud中都必須新增觸發器。
 
 您現在必鬚根據現有的Adobe Experience Cloud觸發器，在Adobe Campaign中建立觸發器事件。
 
@@ -36,7 +36,7 @@ ht-degree: 1%
 
    ![](assets/remarketing_1.png)
 
-1. Click the **[!UICONTROL Create]** button. 開啟的建立精靈會顯示Adobe Experience Cloud中定義的所有觸發器清單。 此 **[!UICONTROL Fired by Analytics]** 欄會顯示Adobe Experience Cloud觸發器傳送至Campaign的事件數。 這是在Experience Cloud介面中建立的觸發器對應。
+1. 按一下&#x200B;**[!UICONTROL Create]**&#x200B;按鈕。開啟的建立精靈會顯示Adobe Experience Cloud中定義的所有觸發器清單。 此 **[!UICONTROL Fired by Analytics]** 欄會顯示Adobe Experience Cloud觸發器傳送至Campaign的事件數。 這是在Experience Cloud介面中建立的觸發器對應。
 
    ![](assets/remarketing_2.png)
 

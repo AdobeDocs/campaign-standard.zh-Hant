@@ -12,10 +12,10 @@ discoiquuid: 4ba4f766-fdee-4ff0-8fe4-0612ed2b69a4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
 workflow-type: tm+mt
-source-wordcount: '793'
-ht-degree: 7%
+source-wordcount: '788'
+ht-degree: 9%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 7%
 
 Adobe Campaign設定檔代表儲存在資料庫中的所有連絡人。 每個描述檔都對應至資料庫中的一個項目，其中包含要定位、限定及個別追蹤的該描述檔所需資訊。 這表示描述檔可以： 客戶、潛在客戶、訂閱電子報的個人、收件者、使用者或任何其他面額（視組織而定）。
 
-**閱讀更多資訊**
+**詳細內容**
 
 * [關於設定檔](../../audiences/using/about-profiles.md)
 * [訪問組織中活動配置檔案的數量](../../audiences/using/active-profiles.md)
@@ -82,7 +82,7 @@ Campaign Standard提供數種工具來協助您擴充行銷資料庫。 本節�
 
 如需著陸頁面的詳細資訊，請參閱專 [用檔案](../../channels/using/getting-started-with-landing-pages.md)。
 
-**閱讀更多資訊**
+**詳細內容**
 
 * xxxx
 * xxxx
@@ -90,13 +90,13 @@ Campaign Standard提供數種工具來協助您擴充行銷資料庫。 本節�
 ### 從Microsoft Dynamics 365同步設定檔
 
 Campaign Standard與Microsoft Dynamics 365的整合可讓您將Microsoft Dynamics 365的連絡人資料傳遞至Campaign資料庫。
-然後，這些連絡人會顯示在「設定檔」清單中，並可定位在行銷促銷活動中。 如需此整合的詳細資訊，請參閱專 [用檔案](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)。
+然後，這些連絡人會顯示在「設定檔」清單中，並可定位在行銷促銷活動中。 如需此整合的詳細資訊，請參閱專 [用檔案](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)。
 
 >[!NOTE]
 >
 >請注意，Campaign Standard-Microsoft Dynamics 365連接器目前處於有限可用性，並受限於多項限制，詳細說明請見說明檔案。
 
-**閱讀更多資訊**
+**詳細內容**
 
 * xxxx
 * xxxx
@@ -109,7 +109,7 @@ Campaign Standard API可讓您執行更新資料庫的作業，例如設定檔�
 >
 >在透過API呼叫執行設定檔大量建立或更新之前，請檢查與您的授權合約相應的比例限制。 有關詳細資訊，請參見[此頁面](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers)。
 
-**閱讀更多資訊**
+**詳細內容**
 
 * xxxx
 * xxxx
@@ -122,7 +122,7 @@ Campaign Standard API可讓您執行更新資料庫的作業，例如設定檔�
 
 有了工作流程和查詢編輯器，您就可以建立受眾，這些受眾會根據不同促銷活動的資訊、活動、語言、偏好或行銷記錄來定位。 這可讓您例如篩選訂閱的描述檔，或根據不限數量的條件建立目標對象。
 
-**閱讀更多資訊**
+**詳細內容**
 
 * [關於閱聽眾](../../audiences/using/about-audiences.md)
 * [建立閱聽眾](../../audiences/using/creating-audiences.md)
@@ -135,7 +135,7 @@ GDPR 是歐盟 (EU) 最新制定的一項隱私法規，用於協調和順應時
 
 請參閱本指 [南](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html) ，進一步瞭解Adobe Campaign為協助您符合GDPR而提供的工具和功能。
 
-**閱讀更多資訊**
+**詳細內容**
 
 * xxxx
 * xxxx

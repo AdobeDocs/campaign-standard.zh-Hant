@@ -4,10 +4,10 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard 說明
 translation-type: tm+mt
-source-git-commit: c7bac40fc736c107dcdbc910ab35b9eb53a915f6
+source-git-commit: d487600fc4f3004804e93347b83edfe4e01cceeb
 workflow-type: tm+mt
-source-wordcount: '1403'
-ht-degree: 92%
+source-wordcount: '1402'
+ht-degree: 91%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 92%
    + 使用 Adobe Experience Platform {#working-with-adobe-experience-platform}
       + [關於 Audience Destinations 服務](audiences/using/aep-about-audience-destinations-service.md)
       + [管理 Adobe Experience Platform 閱聽眾](audiences/using/aep-managing-audiences.md)
-      + [使用統一的區段產生器](audiences/using/aep-using-segment-builder.md)
+      + [使用區段產生器](audiences/using/aep-using-segment-builder.md)
 + 通訊通道 {#communication-channels}
    + [開始使用通訊管道](channels/using/get-started-communication-channels.md)
    + 關於通訊通道 {#about-communication-channels}

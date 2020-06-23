@@ -13,7 +13,7 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3ed78fd610b0d134cd1e60f34c93161cb1e5c50f
+source-git-commit: b4d0aa1a9f116f022890d5eccd87730a7a513103
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 0%
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 * **錯誤** （紅色）
 
-   執行工作流時發生錯誤。 工作流已停止，用戶必須執行操作。 若要進一步瞭解此錯誤，請使用 ![](assets/printpreview_darkgrey-24px.png) 按鈕存取工作流程記錄檔(請參 [閱Monitoring](#monitoring))。
+   執行工作流時發生錯誤。 工作流已停止，用戶必須執行操作。 若要進一步瞭解此錯誤，請使用 ![](assets/printpreview_darkgrey-24px.png) 按鈕存取工作流程記錄檔(請參 [閱Monitoring](../../automating/using/monitoring-workflow-execution.md))。
 
 行銷活動清單可讓您顯示所有工作流程及其狀態。 如需詳細資訊，請參閱管 [理行銷活動](../../start/using/marketing-activities.md#about-marketing-activities)。
 

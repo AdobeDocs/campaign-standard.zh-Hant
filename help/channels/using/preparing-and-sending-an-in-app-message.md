@@ -13,7 +13,10 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
+source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+workflow-type: tm+mt
+source-wordcount: '1274'
+ht-degree: 4%
 
 ---
 
@@ -26,12 +29,12 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 Adobe Campaign提供三種類型的應用程式內訊息：
 
-* **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]**:此訊息類型可讓您定位已訂閱您行動應用程式的Adobe Campaign設定檔（CRM設定檔）。 此訊息類型可與Adobe Campaign中所有可用的描述檔屬性個人化，但需要Mobile SDK與Campaign應用程式內訊息服務之間的安全握手，以確保只有授權使用者才會使用包含個人和敏感資訊的訊息。
+* **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]**: 此訊息類型可讓您定位已訂閱您行動應用程式的Adobe Campaign設定檔（CRM設定檔）。 此訊息類型可與Adobe Campaign中所有可用的描述檔屬性個人化，但需要Mobile SDK與Campaign應用程式內訊息服務之間的安全握手，以確保只有授權使用者才會使用包含個人和敏感資訊的訊息。
 
    若要在使用者的裝置上下載此訊息類型，Mobile SDK必須傳送連結欄位，用以將行動設定檔連結至Adobe Campaign中的CRM設定檔。 如需支援應用程式內部所需SDK API的詳細資訊，請參閱本 [頁](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference)。
 
-* **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**:此訊息類型可讓您傳送訊息給行動應用程式的所有使用者（目前或未來），即使他們在Adobe Campaign中沒有現有的設定檔亦然。 因此，當自訂訊息時，無法個人化，因為Adobe Campaign中可能甚至不存在使用者設定檔。
-* **[!UICONTROL Target users based on their Mobile profile (inApp)]**:此訊息類型可讓您鎖定在Adobe Campaign中具有行動設定檔的行動應用程式的所有已知或匿名使用者。 此訊息類型僅能使用非個人和非敏感屬性進行個人化，而且不需要Mobile SDK與Adobe Campaign的應用程式內訊息服務之間的安全握手。
+* **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**: 此訊息類型可讓您傳送訊息給行動應用程式的所有使用者（目前或未來），即使他們在Adobe Campaign中沒有現有的設定檔亦然。 因此，當自訂訊息時，無法個人化，因為Adobe Campaign中可能甚至不存在使用者設定檔。
+* **[!UICONTROL Target users based on their Mobile profile (inApp)]**: 此訊息類型可讓您鎖定在Adobe Campaign中具有行動設定檔的行動應用程式的所有已知或匿名使用者。 此訊息類型僅能使用非個人和非敏感屬性進行個人化，而且不需要Mobile SDK與Adobe Campaign的應用程式內訊息服務之間的安全握手。
 
    有關如何處理個人和敏感資料的詳細資訊，請參閱使用個 [人和敏感資料處理行動設定檔欄位](#handling-mobile-profile-fields-with-personal-and-sensitive-data)。
 
@@ -39,7 +42,7 @@ Adobe Campaign提供三種類型的應用程式內訊息：
 
 ## 使用個人和敏感資料處理行動設定檔欄位 {#handling-mobile-profile-fields-with-personal-and-sensitive-data}
 
-In Adobe Campaign, mobile profile attributes data sent from mobile device are stored in **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** resource which allows you to define the data that you want to collect from your applications' subscribers.
+In Adobe Campaign, mobile profile attributes data sent from mobile device are stored in **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** resource which allows you to define the data that you want to collect from your applications&#39; subscribers.
 
 需要擴充此資源，以收集您要從行動裝置傳送至Adobe Campaign的資料。 若要這麼做，請參閱本 [頁](../../developing/using/extending-the-subscriptions-to-an-application-resource.md) ，以取得詳細步驟。
 
@@ -53,7 +56,7 @@ In Adobe Campaign, mobile profile attributes data sent from mobile device are st
 
 在設定 **[!UICONTROL Subscriptions to an application]** 並發佈自訂資源後，您就可以開始使用範本準備應用程式內傳送 **[!UICONTROL Target users based on their Mobile profile (inApp)]** 內容。 個人化資源將僅提供非個人和非敏感 **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** 欄位。
 
-If you require personalization with **Personal and Sensitive** fields, we recommend using the **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]** template which has additional security mechanism to ensure that your users' PII data remains secure.
+If you require personalization with **Personal and Sensitive** fields, we recommend using the **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]** template which has additional security mechanism to ensure that your users&#39; PII data remains secure.
 
 ## 準備應用程式內訊息 {#preparing-your-in-app-message}
 
@@ -93,19 +96,19 @@ If you require personalization with **Personal and Sensitive** fields, we recomm
 
    有四類事件可供使用：
 
-   * **[!UICONTROL Mobile Application events]**:在行動應用程式中實作的自訂事件。
+   * **[!UICONTROL Mobile Application events]**: 在行動應用程式中實作的自訂事件。
 
       如需建立事件的詳細資訊，請參閱此 [頁面](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)。
 
-   * **[!UICONTROL Life Cycle events]**:Adobe Mobile SDK支援的現成可用生命週期事件。
+   * **[!UICONTROL Life Cycle events]**: Adobe Mobile SDK支援的現成可用生命週期事件。
 
-      有關生命週期事件的詳細資訊，請參閱本 [頁](https://marketing.adobe.com/resources/help/en_US/mobile/android/metrics.html)。
+      有關生命週期事件的詳細資訊，請參閱本 [頁](https://docs.adobe.com/content/help/en/mobile-services/android/metrics.html)。
 
-   * **[!UICONTROL Analytics Events]**:根據您的行動應用程式中所創作的內容，支援下列三個類別：Adobe Analytics、上下文資料或檢視狀態。
+   * **[!UICONTROL Analytics Events]**: 根據您的行動應用程式中所創作的內容，支援下列三個類別： Adobe Analytics、上下文資料或檢視狀態。
 
       請注意，這些事件僅在您擁有Adobe Analytics授權時才可用。
 
-   * **[!UICONTROL Places]**:以下三個類別運用即時位置資料來提供情境相關的行動體驗：放置上下文資料、放置自訂中繼資料或放置事件類型。
+   * **[!UICONTROL Places]**: 以下三個類別運用即時位置資料來提供情境相關的行動體驗： 放置上下文資料、放置自訂中繼資料或放置事件類型。
 
       如需Adobe Places的詳細資訊，請參閱 [Places檔案](https://placesdocs.com/)。
    ![](assets/inapp_creating_4.png)
@@ -128,7 +131,7 @@ If you require personalization with **Personal and Sensitive** fields, we recomm
 
    ![](assets/inapp_creating_6.png)
 
-1. Click **[!UICONTROL Create]**.
+1. 按一下「**[!UICONTROL Create]**」。
 
 您的應用程式內訊息現在已準備好傳送給您的目標對象。
 
@@ -146,7 +149,7 @@ If you require personalization with **Personal and Sensitive** fields, we recomm
 
    ![](assets/inapp_sending_4.png)
 
-1. 完成準備工作後，**「部署」**&#x200B;視窗就會顯示下列 KPI: **「目標」**&#x200B;和&#x200B;**「交付」**。
+1. 完成準備工作後，**「部署」**&#x200B;視窗就會顯示下列 KPI：**「目標」**&#x200B;和&#x200B;**「交付」**。
 
    您可以按一下傳送中的潛在排除或錯 ![](assets/lp_link_properties.png) 誤，以檢查「部署」視窗。
 

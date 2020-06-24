@@ -12,9 +12,9 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e59562bd4f258c4259b8e8e5d9648397d5718792
+source-git-commit: c70d7172af12c2ccad0468f0afdba87bcf4ac839
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 0%
 # 最新版本{#latest-release}
 
 [發行計畫](../../rn/using/release-planning.md) |控 [制面板版本](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) |文 [件更新](../../rn/using/documentation-updates.md) |先前 [的發行說明](../../rn/using/release-notes-2020.md) |已過 [時的功能](../../rn/using/deprecated-features.md)
+
+![](assets/do-not-localize/cp-icon.png) **新的控制面板6月發行** ，包含作用中描述檔監控、子網域傳送能力稽核和GPG金鑰管理。 請參 [閱控制面板發行說明](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)。
 
 ## 版本20.3 - 2020年5月 {#release-20-3---may-2020}
 
@@ -69,9 +71,7 @@ ht-degree: 0%
 </tbody> 
 </table>
 
->[!NOTE]
->
->CNAME子網域的憑證續約將於5月於「促銷活動控制面板」中發行。 有關詳細資訊，請參閱「 [Control Panel Release Note（控制面板發行說明）](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)」。
+![](assets/do-not-localize/cp-icon.png) **新的控制面板可能會針對** CNAME子網域發行憑證續約。 請參 [閱控制面板發行說明](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)。
 
 **改進**
 
@@ -98,7 +98,7 @@ ht-degree: 0%
 * 現在，登陸頁面中的核取方塊是強制的。
 * 下載動態報表的CSV檔案時，已移除200列的限制。 您現在可以將報表的每一列納入其中。 (CAMP-40810)
 * 在多語言電子郵件的現成可用語言清單中新增ES-US語言。 (CAMP-42279)
-* 隨「傳輸檔案」活動下載的檔案現在會在X天后刪除，其中X由「工作流程」屬性中「執行 **** 」功能表下的「歷史記錄(History in days **** )」欄位決定。 [閱讀更多資訊](../../automating/using/managing-execution-options.md)
+* 隨「傳輸檔案」活動下載的檔案現在會在X天后刪除，其中X由「工作流程」屬性中「執行 **** 」功能表下的「歷史記錄(History in days **** )」欄位決定。 [詳細內容](../../automating/using/managing-execution-options.md)
 
 **體驗平台整合**
 

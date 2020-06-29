@@ -13,9 +13,9 @@ context-tags: delivery,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6e87dc8f299f0c9fbb33e5e56c0a76cfef0aa9a6
+source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '857'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,14 @@ ht-degree: 0%
 電子郵件收件者是透過查詢、交叉點等定位活動，在相同工作流程中定義活動上游的位置。
 
 根據工作流執行參數觸發消息準備。 在訊息控制面板中，您可以選擇是否要求傳送訊息的手動確認（預設為必要）。 您可以手動啟動工作流，或將排程器活動置於工作流中以自動執行。
+
+**相關主題：**
+
+* [使用案例： 建立每週一次的電子郵件傳送](../../automating/using/workflow-weekly-offer.md)
+* [使用案例： 建立依位置分段的傳送](../../automating/using/workflow-segmentation-location.md)
+* [使用案例： 建立具備輔助功能的傳送](../../automating/using/workflow-created-query-with-complement.md)
+* [使用案例： 重新定位傳送新傳送給非開啟者的工作流程](../../automating/using/workflow-cross-channel-retargeting.md)
+* [使用案例： 生日寄送](../../automating/using/birthday-delivery.md)
 
 ## 配置 {#configuration}
 
@@ -76,7 +84,7 @@ ht-degree: 0%
 
 當您重新開啟活動時，會將您直接帶至電子郵件控制面板。 只能編輯其內容。
 
-依預設，啟動傳送工作流程只會觸發訊息準備。 在工作流啟動後，仍需要確認從工作流建立的消息的發送。 但是，在訊息控制面板中，而且只有在訊息是從工作流程建立時，您才能停用選 **[!UICONTROL Request confirmation before sending messages]** 項。 取消勾選此選項後，訊息會在準備完成後不另行通知而傳送。
+依預設，啟動傳送工作流程只會觸發訊息準備。 在工作流啟動後，仍需要確認從工作流建立的消息的發送。 但是，在訊息控制面板中，只有在訊息是從工作流程建立時，您才能停用選 **[!UICONTROL Request confirmation before sending messages]** 項。 取消勾選此選項後，訊息會在準備完成後不另行通知而傳送。
 
 ## 注釋 {#remarks}
 
@@ -91,28 +99,3 @@ ht-degree: 0%
 在可從行銷活動清單存取或直接透過相關循環執行存取的父傳送中，您可以檢視已處理的傳送總數（根據設定活動時指定的匯總期間）。 **[!UICONTROL Email delivery]** 若要這麼做，請選取以開啟父傳送區塊的詳 **[!UICONTROL Deployment]** 細資料檢視 ![](assets/wkf_dlv_detail_button.png)。
 
 ![](assets/wkf_display_recurrent_executions_3.png)
-
-## Example {#example}
-
-![](assets/wkf_delivery_example_1.png)
-
-此範例是生日工作流程。 每天都會傳送電子郵件給當天生日的個人檔案。 操作步驟：
-
-* 它 **[!UICONTROL Scheduler]** 可讓您每天上午8點開始工作流程。
-
-   ![](assets/wkf_delivery_example_2.png)
-
-* 此活 **[!UICONTROL Query]** 動可讓您計算每次執行工作流程時，提供電子郵件的設定檔，以及其生日。 生日計算是使用查詢編輯工具的浮動視窗中可用的預先定義篩選器來執行。
-
-   ![](assets/wkf_delivery_example_3.png)
-
-* 重複 **[!UICONTROL Email]** 出現。 傳送會依月份匯總。 因此，一個月內傳送的所有電子郵件都會匯總成單一檢視。 因此，在一年內，會執行365個傳送，但會在Adobe Campaign介面中重新分組為12個檢視(也稱 **為循環執行**)。 歷史記錄和報表詳細資訊會每個月顯示一次，而非每次傳送。
-
-   ![](assets/wkf_delivery_example_4.png)
-
-**相關主題**
-
-* [使用案例： 建立每週一次的電子郵件傳送](../../automating/using/workflow-weekly-offer.md)
-* [使用案例： 建立依位置分段的傳送](../../automating/using/workflow-segmentation-location.md)
-* [使用案例： 建立具備輔助功能的傳送](../../automating/using/workflow-created-query-with-complement.md)
-* [使用案例： 重新定位傳送新傳送給非開啟者的工作流程](../../automating/using/workflow-cross-channel-retargeting.md)

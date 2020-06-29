@@ -12,7 +12,10 @@ discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c1b7d2210647a87693d93e325a4c888cb23e5f3a
+source-git-commit: 2d994d85f126951215f1227301599c554c1f12c8
+workflow-type: tm+mt
+source-wordcount: '521'
+ht-degree: 13%
 
 ---
 
@@ -38,7 +41,7 @@ Adobe Campaign可讓您跨各個通道啟動、衡量和自動化宣傳活動。
 
 **管理範本** ，以設定訊息屬性，並讓您在傳訊策略中獲得時間與一致性。 例如，對於電子郵件，負責設定範本的功能管理員可以定義電子郵件的標準參數，例如對象、排程或內容、與傳送相關的進階參數、有效性、追蹤等，或與定位和個人化（定位內容）相關的預先設定參數。
 
-閱讀更多：
+詳細內容:
 
 * [傳送訊息的關鍵步驟](../../channels/using/key-steps-to-send-a-message.md)
 * [存取訊息](../../channels/using/accessing-messages.md)
@@ -56,7 +59,7 @@ Adobe Campaign可讓您跨各個通道啟動、衡量和自動化宣傳活動。
 
 此外，您還可運用Campaign Standard個 **人化和動態內容功能** ，以吸引受眾的興趣。
 
-閱讀更多：
+詳細內容:
 
 * [建立電子郵件](../../channels/using/about-emails.md)
 * [建立SMS訊息](../../channels/using/about-sms-messages.md)
@@ -72,9 +75,9 @@ Adobe Campaign可讓您跨各個通道啟動、衡量和自動化宣傳活動。
 
 交易式訊息可用於電子郵件、簡訊和推播通知通道，視您的選項而定。 消息類型有兩種： **事件事務性訊息** ，定位沒有描述檔資訊的事件，以 **及描述檔事務性訊息** ，定位您資料庫的描述檔。
 
-閱讀更多：
+詳細內容:
 
-* [關於交易式訊息傳遞](../../channels/using/about-transactional-messaging.md)
+* [關於交易式訊息傳送](../../channels/using/about-transactional-messaging.md)
 * [事件交易式訊息](../../channels/using/event-transactional-messages.md)
 * [設定檔交易式訊息](../../channels/using/profile-transactional-messages.md)
 * [交易式推播通知](../../channels/using/transactional-push-notifications.md)
@@ -88,7 +91,7 @@ Campaign隨附著著陸頁面，這些網頁表單可用來擷取 **受眾的資
 
 著陸頁面也可用來取 **得或更新現有的描述檔**，並設定雙重選擇加入機制，讓您保護平台不受錯誤或無效的電子郵件地址或垃圾郵件機器人。
 
-閱讀更多：
+詳細內容:
 
 * [登錄頁面快速入門](../../channels/using/getting-started-with-landing-pages.md)
 * [著陸頁面範本](../../channels/using/landing-page-templates.md)
@@ -103,3 +106,4 @@ Campaign隨附著著陸頁面，這些網頁表單可用來擷取 **受眾的資
 * [匯入AEM內容](../../integrating/using/creating-email-experience-manager.md)
 * [使用工作流程傳送訊息](../../automating/using/about-channel-activities.md)
 * [通訊管道教學課程影片](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html)
+* [使用案例： 建立跨通道傳送](../../automating/using/workflow-cross-channel-delivery.md)

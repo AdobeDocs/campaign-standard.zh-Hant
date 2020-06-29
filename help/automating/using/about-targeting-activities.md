@@ -12,10 +12,10 @@ discoiquuid: 5f7607a1-5f71-4d66-9688-3e5a1774f1b4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 5%
+source-wordcount: '434'
+ht-degree: 6%
 
 ---
 
@@ -41,14 +41,14 @@ ht-degree: 5%
 * [重複資料刪除](../../automating/using/deduplication.md)
 * [擴充](../../automating/using/enrichment.md)
 
-**[!UICONTROL Targeting]** 活動可讓您定義 **其出站轉** 換的區段代碼。 然後，您可以根據這些區段代碼建立報表，以評估行銷促銷活動的效率。 如需詳細資訊，請參閱[本小節](../../reporting/using/creating-a-report-workflow-segment.md)。
+**[!UICONTROL Targeting]** 活動可讓您定義 **其出站轉** 換的區段代碼。 然後，您可以根據這些區段代碼建立報表，以評估行銷促銷活動的效率。 如需詳細資訊，請參閱[本章節](../../reporting/using/creating-a-report-workflow-segment.md)。
 
 ## 選擇資料 {#selecting-data}
 
 您可以使用下列活動來選取資料：
 
-* 此活 **[!UICONTROL Query]** 動可讓您從Adobe Campaign資料庫中篩選及擷取元素總量。 請參閱 [查詢](../../automating/using/query.md) 節。
-* 此活 **[!UICONTROL Incremental query]** 動可讓您從Adobe Campaign資料庫中篩選及擷取元素總量。 每次執行此活動時，都會排除先前執行的結果。 這可讓您只鎖定新元素請參閱。 [增量查詢](../../automating/using/incremental-query.md) 節。
+* 此活 **[!UICONTROL Query]** 動可讓您從Adobe Campaign資料庫中篩選及擷取一組元素。 請參閱 [查詢](../../automating/using/query.md) 節。
+* 此活 **[!UICONTROL Incremental query]** 動可讓您從Adobe Campaign資料庫中篩選及擷取一組元素。 每次執行此活動時，都會排除先前執行的結果。 這可讓您只鎖定新元素請參閱。 [增量查詢](../../automating/using/incremental-query.md) 節。
 * 此活 **[!UICONTROL Read audience]** 動可讓您擷取現有的觀眾，並套用其他篩選條件來調整觀眾。請參閱「讀取 [觀眾](../../automating/using/read-audience.md) 」區段。
 
 ## 劃分資料 {#segmenting-data}
@@ -70,9 +70,6 @@ Adobe Campaign可讓您處理傳入資料的集合。 因此，您可以合併�
 * 聚合
 * 系列
 
-**相關主題**
+**相關主題：**
 
-* [使用案例： 建立每週一次的電子郵件傳送](../../automating/using/workflow-weekly-offer.md)
-* [使用案例： 建立依位置分段的傳送](../../automating/using/workflow-segmentation-location.md)
-* [使用案例： 建立具備輔助功能的傳送](../../automating/using/workflow-created-query-with-complement.md)
-* [使用案例： 重新定位傳送新傳送給非開啟者的工作流程](../../automating/using/workflow-cross-channel-retargeting.md)
+* [使用案例： 使用其他資料個人化電子郵件](../../automating/using/personalizing-email-with-additional-data.md)

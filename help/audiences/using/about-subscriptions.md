@@ -12,14 +12,17 @@ discoiquuid: 27de5a13-7b7c-4c91-bf26-3dfd324beb8f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
+workflow-type: tm+mt
+source-wordcount: '146'
+ht-degree: 2%
 
 ---
 
 
 # 關於訂閱{#about-subscriptions}
 
-Adobe Campaign可讓您透過一組服務來建立和管理電子報和跨通道 **通訊**:訊息只能傳送給訂閱服務（選擇加入）的設定檔。 這些描述檔是在建立訊息時使用專用的篩選器來識別。
+Adobe Campaign可讓您透過一組服務來建立和管理電子報和跨通道 **通訊**: 訊息只能傳送給訂閱服務（選擇加入）的個人檔案。 這些描述檔是在建立訊息時使用專用的篩選器來識別。
 
 您可以設定訂閱機制，讓客戶有機會訂閱這些服務，尤其是透過電子郵件 **和****登陸頁面**。
 
@@ -29,4 +32,10 @@ Adobe Campaign可讓您透過一組服務來建立和管理電子報和跨通道
 * 訂閱和／或取消訂閱 **確認機制**。
 * 訂閱歷 **史記錄**。
 
-您也可以使用Adobe Campaign Standard API來管理訂閱。 如需詳細資訊，請參閱專用 [檔案](../../api/using/creating-a-service.md) 。
+您也可以使用Adobe Campaign Standard API來管理訂閱。 For more on this, refer to the [dedicated documentation](../../api/using/creating-a-service.md) .
+
+**相關主題**
+
+* [使用案例： 對服務訂戶的增量查詢](../../automating/using/incremental-query-on-subscribers.md)
+* [使用案例： 從檔案更新多個訂閱狀態](../../automating/using/updating-subscriptions-from-file.md)
+* [在匯入檔案後將描述檔訂閱至特定服務](../../automating/using/subscribing-profiles-from-file.md)

@@ -13,7 +13,10 @@ context-tags: delivery,directMailContent,back;deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
+source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
+workflow-type: tm+mt
+source-wordcount: '455'
+ht-degree: 1%
 
 ---
 
@@ -38,6 +41,10 @@ Adobe Campaign中的使用者程式如下：
 1. 設定連絡人日期
 1. 生成檔案
 
+**相關主題：**
+
+* [使用案例： 將電子郵件與直效郵件傳送結合](../../automating/using/coupling-email-direct-mail.md)
+
 ## 建議 {#recommendations}
 
 ### 直接郵件提供者 {#direct-mail-providers}
@@ -57,4 +64,3 @@ Adobe Campaign提供一組預先定義的計算欄位，這些欄位會遵循最
 預設情況下，地址最多可包含6行： 第一個計算欄位(**[!UICONTROL Line 1]** 包含名字和姓氏)、下一行包含郵遞區號（路等），最後一行包含郵遞區號和城鎮。
 
 ![](assets/direct_mail_23.png)
-

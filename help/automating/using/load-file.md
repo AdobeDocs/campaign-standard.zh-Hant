@@ -13,9 +13,9 @@ context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2a8cb9aa0d018fec9d5b256beba079c5ec3afaf0
+source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
 workflow-type: tm+mt
-source-wordcount: '1799'
+source-wordcount: '1341'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,13 @@ ht-degree: 0%
 
 * 使用檔案結構將其應用於其他檔案的資料（使用活動恢復） **[!UICONTROL Transfer file]** 或
 * 使用檔案的結構和資料，將其匯入Adobe Campaign。
+
+**相關主題：**
+
+* [使用案例： 使用外部資料更新資料庫](../../automating/using/update-database-file.md)
+* [使用案例： 根據自動檔案下載更新資料](../../automating/using/update-data-automatic-download.md)
+* [使用案例： 傳送包含豐富欄位的電子郵件](../../automating/using/sending-email-enriched-fields.md)
+* [使用案例： 協調檔案對象與資料庫](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## 配置 {#configuration}
 
@@ -157,75 +164,3 @@ ht-degree: 0%
    * **[!UICONTROL Generate an error for numerical fields]**: 僅為數字欄位生成錯誤，否則插入NULL值。
    * **[!UICONTROL Insert NULL in the corresponding field]**: 授權空值。 因此插入值NULL。
    * **[!UICONTROL Generate an error]**: 如果值為空，則生成錯誤。
-
-## 範例1: 更新資料庫 {#example-1-update-the-database}
-
-載入檔案活動主要從傳輸檔案活動中構造資料，以便將其整合到現有資料中。
-
-以下示例顯示通過傳輸檔案活動自動下載的載入檔案活動的結果，其後是更新資料活動。 此工作流程旨在以新的描述檔豐富Adobe Campaign資料庫，或使用從匯入檔案中復原的資料更新現有的描述檔。
-
-![](assets/load_file_workflow_ex1.png)
-
-1. 將活動拖放 **[!UICONTROL Transfer file]** 至您的工作流程中，並以某種方式加以設定，以便它可以恢復您想要的檔案。
-1. 將活動拖放 **[!UICONTROL Load file]** 到工作流程中，並將其放在活動之 **[!UICONTROL Transfer file]** 後。
-1. 選擇活動，然後使用顯示的快 ![](assets/edit_darkgrey-24px.png) 速操作中的按鈕將其開啟。
-1. 在標籤 **[!UICONTROL File to load]** 的區段中 **[!UICONTROL Execution]** ，勾選選 **[!UICONTROL Use the file specified in the inbound transition]** 選項。
-
-   ![](assets/wkf_file_loading8.png)
-
-1. 依照先前的指定設定您的活動。
-1. 將活動拖放 **[!UICONTROL Update data]** 到工作流程中，並將其置於活動之 **[!UICONTROL Load file]** 後，再加以設定。 請參閱 [更新資料](../../automating/using/update-data.md)。
-
-工作流程開始後，會擷取上傳檔案的資料，然後用來豐富Adobe Campaign資料庫。
-
-## 範例2: 傳送包含豐富欄位的電子郵件 {#example-2-email-with-enriched-fields}
-
-<!--A new example showing how to send an email containing additional data retrieved from a load file activity has been added. [Read more](example-2-email-with-enriched-fields)-->
-
-此外，載入檔案活動也可讓您在相同的工作流程中，從外部檔案傳送內含其他資料的電子郵件。
-
-以下範例說明如何透過載入檔案活動，使用從外部檔案擷取的其他資料來傳送電子郵件。 在此範例中，外部檔案包含描述檔清單及其關聯的帳號。 您想要匯入此資料，以傳送電子郵件給每個設定檔及其帳號。
-
-![](assets/load_file_workflow_ex2.png)
-
-1. 將活動拖放 **[!UICONTROL Query]** 到工作流程中，並開啟它以定義主要目標。
-
-   <!--The Query activity is presented in the [Query](../../automating/using/query.md) section.-->
-
-1. 拖放活動 **[!UICONTROL Load file]** 以指派部分資料至描述檔。 在此示例中，載入包含與資料庫的某些配置檔案相對應的帳戶號的檔案。
-
-   ![](assets/load_file_activity.png)
-
-1. 將活動拖放至 **[!UICONTROL Enrichment]** 您的工作流程中，並將載入檔案和查詢活動連結至工作流程。
-
-1. 在擴充 **[!UICONTROL Advanced relations]** 活動的頁籤中，選擇 **[!UICONTROL 0 or 1 cardinality simple link]** 並定義要用於調節的欄位。 在這裡，我們使用姓氏來協調資料與資料庫配置檔案。
-
-   ![](assets/load_file_enrichment_relation.png)
-
-1. 在標籤 **[!UICONTROL Additional data]** 中，選取您要在電子郵件中使用的元素。 在此處選擇帳戶號（從通過載入檔案活動檢索的檔案中的列）。
-
-   ![](assets/load_file_enrichment_select_element.png)
-
-   <!--![](assets/load_file_enrichment_additional_data.png)-->
-
-   有關詳細資訊，請參 [閱Enrichment](../../automating/using/enrichment.md) 節。
-
-1. 將活動拖放 **[!UICONTROL Segmentation]** 至工作流程中，並開啟它以調整主要目標。
-
-   ![](assets/load_file_segmentation.png)
-
-   如需詳細資訊，請參閱「區 [段](../../automating/using/segmentation.md) 」區段。
-
-1. 將活動拖放 **[!UICONTROL Email delivery]** 到工作流程中並加以開啟。
-
-   <!--The Email delivery activity is presented in the [Email delivery](../../automating/using/email-delivery.md) section.-->
-
-1. 新增個人化欄位，並從節點選取擴充活動（此處為帳戶編號）中定義的其他 **[!UICONTROL Additional data (targetData)]** 資料。 如此可動態擷取電子郵件內容中每個描述檔的帳號。
-
-   ![](assets/load_file_perso_field.png)
-
-1. 儲存電子郵件並啟動工作流程。
-
-電子郵件會傳送至目標。 每個描述檔都會收到含有其對應帳號的電子郵件。
-
-![](assets/load_file_email.png)

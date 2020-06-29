@@ -1,0 +1,47 @@
+---
+title: 使用外部資料更新資料庫
+description: 此使用案例說明如何使用從檔案中復原的資料新增或更新Adobe Campaign資料庫的設定檔。
+page-status-flag: never-activated
+uuid: 1dc55db5-affd-4688-b673-adfb8c1338b5
+contentOwner: sauviat
+products: SG_CAMPAIGN/STANDARD
+audience: automating
+content-type: reference
+topic-tags: data-management-activities
+discoiquuid: 4db83c95-4b75-4a16-8dbf-bd8940431fa9
+context-tags: writer,main
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: 7ffa48365875883a98904d6b344ac005afe26e18
+workflow-type: tm+mt
+source-wordcount: '106'
+ht-degree: 0%
+
+---
+
+
+# 使用外部資料更新資料庫 {#update-database-file}
+
+以下示例顯示活動後 **[!UICONTROL Update data]** 的活動配 **[!UICONTROL Load file]** 置。 此工作流程的目的，是使用從檔案中復原的資料，將描述檔新增或更新至Adobe Campaign資料庫。
+
+在此示例中，使用的協調密鑰是電 **子郵件地址**。 載入「載入檔案 [」活動中的檔案是](../../automating/using/load-file.md)**** .txt格式檔案，包含下列範例資料：
+
+```
+lastname;firstname;email;birthdate
+jackman;megan;megan.jackman@testmail.com;07/08/1975
+phillips;edward;phillips@testmail.com;09/03/1986
+weaver;justin;justin_w@testmail.com;11/15/1990
+martin;babeth;babeth_martin@testmail.net;11/25/1964
+reese;richard;rreese@testmail.com;02/08/1987
+cage;nathalie;cage.nathalie227@testmail.com;07/03/1989
+xiuxiu;andrea;andrea.xiuxiu@testmail.com;09/12/1992
+grimes;daryl;daryl_890@testmail.com;12/06/1979
+tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
+```
+
+「更 [新資料](../../automating/using/update-data.md) 」活動的配置如下：
+
+![](assets/deduplication_example2_writer1.png)
+
+![](assets/deduplication_example2_writer2.png)

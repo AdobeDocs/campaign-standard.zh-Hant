@@ -13,10 +13,10 @@ context-tags: fileExport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2a8cb9aa0d018fec9d5b256beba079c5ec3afaf0
+source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 0%
+source-wordcount: '403'
+ht-degree: 1%
 
 ---
 
@@ -36,6 +36,10 @@ ht-degree: 0%
 >[!CAUTION]
 >
 >活動 **[!UICONTROL Extract file]** 必須放在活動之 **[!UICONTROL Query]** 後才能使用。
+
+**相關主題：**
+
+* [使用案例： 在外部檔案中導出配置檔案](../../automating/using/exporting-profiles-in-file.md)
 
 ## 配置 {#configuration}
 
@@ -77,47 +81,3 @@ ht-degree: 0%
 
 1. 在標籤中 **[!UICONTROL Properties]** ，選取選 **[!UICONTROL Do not generate a file if the inbound transition is empty]** 項以避免在傳入的轉場為空時，在SFTP伺服器上建立和上傳空白檔案。
 1. 確認活動的設定並儲存工作流程。
-
-## Example {#example}
-
-以下示例說明如何在活動後 **[!UICONTROL Extract file]** 配置活 **[!UICONTROL Query]** 動。
-
-此工作流程的目的是匯出外部檔案格式的描述檔清單，以便在Adobe Campaign外使用資料。
-
-1. 將活動拖放 **[!UICONTROL Extract file]** 到工作流程中，並將其置於活動 **[!UICONTROL Query]** 後面。
-
-   在此範例中，查詢是對18到30歲的所有描述檔執行。
-
-1. 開啟「擷取檔案」活動以進行編輯。
-1. 命名輸出檔案。
-1. 新增輸出欄。
-
-   在此範例中，會新增描述檔的電子郵件、年齡、出生日期、名字和姓氏作為輸出欄。
-
-   ![](assets/wkf_data_export6.png)
-
-1. 按一下標 **[!UICONTROL File structure]** 簽以定義：
-
-   * CSV輸出格式
-
-      ![](assets/wkf_data_export7.png)
-
-   * 日期格式
-
-      ![](assets/wkf_data_export9.png)
-
-1. 確認您的活動。
-1. 在活動後拖放活 **[!UICONTROL Transfer file]** 動，以 **[!UICONTROL Extract file]** 恢復外部帳戶上的提取檔案。
-1. 開啟活動並選擇 **[!UICONTROL File upload]** 動作。
-
-   ![](assets/wkf_data_export11.png)
-
-1. 選擇外部帳戶，然後輸入伺服器上資料夾的路徑。
-
-   ![](assets/wkf_data_export12.png)
-
-1. 確認您的活動並儲存您的工作流程。
-1. 啟動工作流程。
-
-   當工作流程已正確執行時，擷取的檔案便可在外部帳戶上使用。
-

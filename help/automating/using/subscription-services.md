@@ -13,12 +13,15 @@ context-tags: setOfService,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
+source-git-commit: 68e689e6bc362f4e948593c3b251f3825aab20ac
+workflow-type: tm+mt
+source-wordcount: '1110'
+ht-degree: 0%
 
 ---
 
 
-# 訂閱服務{#subscription-services}
+# 訂閱服務 {#subscription-services}
 
 ## 說明 {#description}
 
@@ -38,6 +41,11 @@ source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
 
 如果通過專用列在檔案中指定，則此活動還允許您選擇要執行該操作的操作（訂閱或取消訂閱）和服務。
 
+**相關主題：**
+
+* [使用案例： 從檔案更新多個訂閱狀態](../../automating/using/updating-subscriptions-from-file.md)
+* [使用案例： 將配置檔案從檔案預訂到特定服務](../../automating/using/subscribing-profiles-from-file.md)
+
 ## 配置 {#configuration}
 
 1. 將活動拖放 **[!UICONTROL Subscription Services]** 到工作流程中。
@@ -45,15 +53,15 @@ source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
 1. 選擇活動，然後使用顯示的快 ![](assets/edit_darkgrey-24px.png) 速操作中的按鈕將其開啟。
 1. 使用 **[!UICONTROL Service]** 下列其中一個選項，選擇您要管理其訂閱的選項：
 
-   * **[!UICONTROL Select a specific service]**:手動選擇服務。
-   * **[!UICONTROL Select services from the inbound transition]**:服務在入站過渡中指定。 例如，您可以匯入指定每行所管理之服務的檔案。 如果您選擇此選項，請確定資料與服務資源之間已預先建立連結，如本 **範例所示**[](#example--updating-multiple-subscription-statuses-from-a-file)。
+   * **[!UICONTROL Select a specific service]**: 手動選擇服務。
+   * **[!UICONTROL Select services from the inbound transition]**: 服務在入站過渡中指定。 例如，您可以匯入指定每行所管理之服務的檔案。 如果您選擇此選項，請確定資料與服務資源之間已預先建立連結，如本 **範例所示**[](#example--updating-multiple-subscription-statuses-from-a-file)。
 
       然後，對每個記錄動態地選擇要對其執行操作的服務。
 
 1. 使用 **[!UICONTROL Operation type]** 下列選項之一選擇要執行的：
 
-   * **[!UICONTROL Select a specific operation type]**:手動選擇是否要選擇或 **[!UICONTROL Subscribe]** 配置 **[!UICONTROL Unsubscribe]** 式。
-   * **[!UICONTROL Select an operation type from a path of inbound transition]**:選擇入站資料的列，指定對每個記錄執行的操作。
+   * **[!UICONTROL Select a specific operation type]**: 手動選擇是否要選擇或 **[!UICONTROL Subscribe]** 配置 **[!UICONTROL Unsubscribe]** 式。
+   * **[!UICONTROL Select an operation type from a path of inbound transition]**: 選擇入站資料的列，指定對每個記錄執行的操作。
 
       在此列中，必須將操作指定為布爾或整數。 使 **用** 0取消訂閱記錄， **使用** 1訂閱。
 
@@ -66,7 +74,7 @@ source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
 
    現在可以執行了。 一旦執行，您就可以檢視已訂閱或取消訂閱服務的描述檔，以瞭解服務的詳細資訊。
 
-## 範例：在匯入檔案後將描述檔訂閱至特定服務 {#example--subscribing-profiles-to-a-specific-service-after-importing-a-file}
+## 範例： 在匯入檔案後將描述檔訂閱至特定服務 {#example--subscribing-profiles-to-a-specific-service-after-importing-a-file}
 
 此示例說明如何導入包含配置檔案的檔案並將其預訂到現有服務。 匯入檔案後，必須進行協調，以便將匯入的資料識別為描述檔。 為確保檔案不包含任何重複項，將對資料執行重複資料消除活動。
 
@@ -105,7 +113,7 @@ source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
 
    ![](assets/subscription_activity_example4.png)
 
-## 範例：從檔案更新多個訂閱狀態 {#example--updating-multiple-subscription-statuses-from-a-file}
+## 範例： 從檔案更新多個訂閱狀態 {#example--updating-multiple-subscription-statuses-from-a-file}
 
 此示例說明如何導入包含配置檔案的檔案，以及如何將其預訂更新為檔案中指定的多個服務。 匯入檔案後，必須進行協調，以便將匯入的資料識別為具有服務連結的描述檔。 為確保檔案不包含任何重複項，將對資料執行重複資料消除活動。
 
@@ -132,7 +140,7 @@ source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
 
    ![](assets/subscription_example_load_file.png)
 
-   如您所注意的，此操作在檔案中指定為「sub」或「不明嫌犯」。 系統需要一個 **布爾** 或 **** 整數值來識別要執行的操作：「0」取消訂閱，「1」取消訂閱。 為符合此要求，在「操作」列的詳細資訊中執行值的重新映射。
+   如您所注意的，此操作在檔案中指定為「sub」或「不明嫌犯」。 系統需要一個 **布爾** 或 **** 整數值來識別要執行的操作： 「0」取消訂閱，「1」取消訂閱。 為符合此要求，在「操作」列的詳細資訊中執行值的重新映射。
 
    ![](assets/subscription_example_remapping.png)
 

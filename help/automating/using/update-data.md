@@ -13,10 +13,10 @@ context-tags: writer,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 0%
+source-wordcount: '472'
+ht-degree: 1%
 
 ---
 
@@ -32,6 +32,11 @@ ht-degree: 0%
 ## 使用內容 {#context-of-use}
 
 匯 **入檔案後** ，可使用「更新資料」活動，以便將已復原的資料插入Adobe Campaign資料庫。 幾個選項可讓您個人化更新資料。
+
+**相關主題：**
+
+* [使用案例： 根據檔案更新資料](../../automating/using/update-database-file.md)
+* [根據自動檔案下載更新資料](../../automating/using/update-data-automatic-download.md)
 
 ## 配置 {#configuration}
 
@@ -71,29 +76,3 @@ ht-degree: 0%
    如果您已選擇並 **[!UICONTROL Insert only]** 且導入的資料可能包含資料庫中已存在的記錄，請選中該框以 **[!UICONTROL Generate an outbound transition for the rejects]** 避免出現任何可能的錯誤。
 
 1. 確認活動的設定並儲存工作流程。
-
-## Example {#example}
-
-以下活動顯示活動後 **[!UICONTROL Update data]** 的活動配 **[!UICONTROL Load file]** 置。 此工作流程的目的，是使用從檔案中復原的資料，將描述檔新增或更新至Adobe Campaign資料庫。 使用的協調金鑰是電子郵件地址。
-
-載入的檔案為 **.txt格式檔案** ，包含下列範例資料：
-
-```
-lastname;firstname;email;birthdate
-jackman;megan;megan.jackman@testmail.com;07/08/1975
-phillips;edward;phillips@testmail.com;09/03/1986
-weaver;justin;justin_w@testmail.com;11/15/1990
-martin;babeth;babeth_martin@testmail.net;11/25/1964
-reese;richard;rreese@testmail.com;02/08/1987
-cage;nathalie;cage.nathalie227@testmail.com;07/03/1989
-xiuxiu;andrea;andrea.xiuxiu@testmail.com;09/12/1992
-grimes;daryl;daryl_890@testmail.com;12/06/1979
-tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
-```
-
-活動 **[!UICONTROL Update data]** 的配置如下：
-
-![](assets/deduplication_example2_writer1.png)
-
-![](assets/deduplication_example2_writer2.png)
-

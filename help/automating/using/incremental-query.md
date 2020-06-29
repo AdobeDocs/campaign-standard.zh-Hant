@@ -1,19 +1,22 @@
 ---
 title: 增量查詢
 description: 「增量查詢」活動可讓您從Adobe Campaign資料庫中篩選及擷取一組元素。
-page-status-flag: 從未激活
-uuid: 73b42422-e815-43ef-84c0-97c443ccc98
-contentOwner: 紹維亞
+page-status-flag: never-activated
+uuid: 73b42422-e815-43ef-84c0-97c4433ccc98
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 自動化
-content-type: 參考
-topic-tags: 定位活動
+audience: automating
+content-type: reference
+topic-tags: targeting-activities
 discoiquuid: 80961e73-42ec-463a-8496-cff69fab0475
-context-tags: 增量，主
+context-tags: incremental,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
+workflow-type: tm+mt
+source-wordcount: '614'
+ht-degree: 0%
 
 ---
 
@@ -39,7 +42,14 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 此活 **[!UICONTROL Incremental query]** 動可用於各種類型的使用：
 
 * 將個人分段以定義訊息、對象等的目標。
+
 * 匯出資料.
+
+   您可以使用活 **[!UICONTROL Incremental query]** 動定期匯出檔案中的新記錄檔。 例如，如果您想在外部報表或BI工具中使用記錄檔資料，則此功能會很有用。 「導出日誌」部分提供了 [完整示例](../../automating/using/exporting-logs.md) 。
+
+**相關主題**
+
+* [使用案例： 對服務訂戶的增量查詢](../../automating/using/incremental-query-on-subscribers.md)
 
 ## 配置 {#configuration}
 
@@ -52,8 +62,8 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 1. 在標籤 **[!UICONTROL Target]** 中，定義並結合規則以執行查詢。
 1. 在該選 **[!UICONTROL Processed data]** 項卡中，選擇要用於工作流下一個執行的增量模式：
 
-   * **[!UICONTROL Use the exclusion of the results of previous executions]**:會排除每個新執行的先前執行結果。
-   * **[!UICONTROL Use a date field]**:下次執行只考慮所選日期欄位大於或等於活動最後執行日期的結 **[!UICONTROL Incremental query]** 果。 您可以選擇與在頁籤中選擇的資源相關的任何日期 **[!UICONTROL Properties]** 欄位。 此模式在查詢大型資源（如日誌資料）時具有更好的效能。
+   * **[!UICONTROL Use the exclusion of the results of previous executions]**: 會排除每個新執行的先前執行結果。
+   * **[!UICONTROL Use a date field]**: 下次執行只考慮所選日期欄位大於或等於活動最後執行日期的結 **[!UICONTROL Incremental query]** 果。 您可以選擇與在頁籤中選擇的資源相關的任何日期 **[!UICONTROL Properties]** 欄位。 此模式在查詢大型資源（如日誌資料）時具有更好的效能。
 
       在第一次執行工作流程後，您可以在此標籤中看到下次執行時使用的最後一個執行日期。 每次執行工作流程時，都會自動更新它。 您仍然可以手動輸入新值來覆寫此值，以符合您的需求。
    >[!NOTE]
@@ -68,35 +78,3 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 ## 豐富資料 {#enriching-data}
 
 和查詢一樣，您也可以豐富來自的資料 **[!UICONTROL Incremental query]**。 請參閱「 [豐富資料](../../automating/using/query.md#enriching-data) 」一節。
-
-## 範例：對服務訂戶的增量查詢 {#example--incremental-query-on-subscribers-to-a-service}
-
-下列範例顯示活動的設定，該活動會篩選訂閱 **[!UICONTROL Incremental query]** Running Newsletter **** service之Adobe Campaign資料庫中的設定檔，以傳送包含促銷代碼的歡迎電子郵件給他們。
-
-工作流程由下列元素組成：
-
-![](assets/incremental_query_example1.png)
-
-* 活動 **[!UICONTROL Scheduler]** ，每週一早上6點執行工作流。
-
-   ![](assets/incremental_query_example2.png)
-
-* 一 **[!UICONTROL Incremental query]** 個活動，在第一次執行期間鎖定所有目前訂閱者，然後在下列執行期間只鎖定該周的新訂閱者。
-
-   ![](assets/incremental_query_example3.png)
-
-* 活 **[!UICONTROL Email delivery]** 動。 工作流程每週執行一次，但您可以匯總所傳送的電子郵件和每月結果，例如產生整個月（而不只是一週）的報表。
-
-   若要這麼做，請選擇在這裡建立 **[!UICONTROL Recurring email]** 重新分組電子郵件和結果 **[!UICONTROL By month]**。
-
-   定義電子郵件內容並插入歡迎促銷代碼。
-
-   如需詳細資訊，請參閱「電子郵件 [傳送](../../automating/using/email-delivery.md) 」 [和「定義電子郵件內容](../../designing/using/personalization.md) 」區段。
-
-然後開始執行工作流程。 每週新訂閱者都會收到含促銷代碼的歡迎電子郵件。
-
-## 範例：傳送記錄檔的增量查詢 {#example--incremental-query-on-delivery-logs}
-
-您可以使用活 **[!UICONTROL Incremental query]** 動定期匯出檔案中的新記錄檔。 例如，如果您想在外部報表或BI工具中使用記錄檔資料，則此功能會很有用。
-
-「導出日誌」部分提供了 [完整示例](../../automating/using/exporting-logs.md) 。

@@ -13,9 +13,9 @@ context-tags: segmentation,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 740de9fe4666bf12fc97cfa434414668d9394504
+source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '860'
 ht-degree: 0%
 
 ---
@@ -33,9 +33,18 @@ ht-degree: 0%
 >
 >依預設，傳入人口的成員只能屬於單一區段。 篩選器會根據活動中區段的順序套用。
 
+**相關主題：**
+* [使用案例： 區段位置](../../automating/using/workflow-segmentation-location.md)
+* [使用案例： 建立控制群組](../../automating/using/workflow-control-group.md)
+* [使用案例： 根據年齡組劃分](../../automating/using/segmentation-age-groups.md)
+
 ## 使用內容 {#context-of-use}
 
 活 **[!UICONTROL Segmentation]** 動通常位於定位活動（查詢、交叉點、聯合、排除等）之後 以定義基於其形成的段的標準總量。
+
+**相關主題**
+
+* [使用案例： 根據個人檔案的年齡群組劃分個人檔案](../../automating/using/segmentation-age-groups.md)。
 
 ## 配置 {#configuration}
 
@@ -91,31 +100,6 @@ ht-degree: 0%
 
    * 如果 **[!UICONTROL Enable overlapping of outbound populations]** 希望入站人口的成員同時屬於多個段，請選中該選項。 活動的出站人口可能超過入站人口。
    * 如果 **[!UICONTROL Concatenate the code of each segment]** 傳入人口已指派您要保留的區段代碼，請勾選此選項。 活動中指定的區段代碼將新增至初始區段代碼。
-   * 如果 **[!UICONTROL Generate complement]** 要利用剩餘人口，請選中該選項。
+   * 如果 **[!UICONTROL Generate complement]** 要利用剩餘人口，請選中該選項。 請參 [閱使用案例： 建立具備輔助功能的傳送](../../automating/using/workflow-created-query-with-complement.md)。
 
 1. 確認活動的設定並儲存工作流程。
-
-## Example {#example}
-
-下列範例顯示根據年齡組劃分資料庫描述檔的區段。 工作流程的目的是為每個年齡組傳送特定電子郵件。 考慮到此工作流程是測試促銷活動的一部分，每個區段最多只能包含100個隨機選取的設定檔，以便同時使用受限且具代表性的對象。
-
-![](assets/wkf_segment_example_4.png)
-
-工作流程由下列元素組成：
-
-* 用 **[!UICONTROL Scheduler]** 於指定工作流執行日期的活動。 請參閱「 [Scheduler](../../automating/using/scheduler.md) 」部分。
-* 定位 **[!UICONTROL Query]** 已輸入生日和電子郵件地址之人員的個人資料的活動。 請參閱「查 [詢](../../automating/using/query.md) 」部分。
-* 建立 **[!UICONTROL Segmentation]** 3個區段的活動，分為不同的對外轉場： 18-25歲，26-32歲，32歲以上。 區段是根據下列參數定義：
-
-   ![](assets/wkf_segment_example_3.png)
-
-   * 年齡篩選以定義區段的年齡群組
-
-      ![](assets/wkf_segment_new_segment.png)
-
-   * 連 **[!UICONTROL Random sampling]** 結至100上限的 **[!UICONTROL Maximum size]** 類型限制
-
-      ![](assets/wkf_segment_example_1.png)
-
-* 每個 **[!UICONTROL Email delivery]** 區段的活動。 請參閱「電子郵 [件傳送](../../automating/using/email-delivery.md) 」區段。
-

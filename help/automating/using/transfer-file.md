@@ -13,7 +13,10 @@ context-tags: fileTransfer,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3e90acaa1c2b3de2240f01e5dc3440be44e65eba
+source-git-commit: 175709a41607bb9d64da7fac77dd749fa84f7360
+workflow-type: tm+mt
+source-wordcount: '1075'
+ht-degree: 0%
 
 ---
 
@@ -30,12 +33,15 @@ source-git-commit: 3e90acaa1c2b3de2240f01e5dc3440be44e65eba
 >
 >從20.3版開始，隨活動下載的檔案 **[!UICONTROL Transfer File]** 將在X天后刪除，其中X由「工作流程」屬性中功能表 **[!UICONTROL History in days]** 下 **[!UICONTROL Execution]** 的欄位決定。
 
-
 ## 使用內容 {#context-of-use}
 
 設定活動時，會定義資料擷取的方式。 例如，要載入的檔案可以是聯繫人清單。
 
 您可以使用此活動來恢復隨後將與活動一起構建的 **[!UICONTROL Load file]** 資料。
+
+**相關主題：**
+
+* [使用案例： 根據自動檔案下載更新資料](../../automating/using/update-data-automatic-download.md)
 
 ## 配置 {#configuration}
 
@@ -45,10 +51,10 @@ source-git-commit: 3e90acaa1c2b3de2240f01e5dc3440be44e65eba
 
    ![](assets/wkf_file_transfer_01.png)
 
-   * **檔案下載**:可讓您下載檔案。
-   * **檔案上傳**:可讓您上傳檔案。 從Adobe Campaign檔案上傳檔案會在功能表中產生記錄 **[!UICONTROL Export audits]** 項。 有關導出審計的詳細資訊，請參閱「審 [計導出](../../administration/using/auditing-export-logs.md) 」部分。
-   * **測試以查看檔案是否存在**:允許您檢查是否存在檔案。
-   * **檔案清單**:允許您列出伺服器上存在的檔案(在頁籤中定 **[!UICONTROL Protocol]** 義)。 此動作主要用於除錯，以在從遠端伺服器下載檔案之前，先檢查活動是否已根據您的需求進行設定。
+   * **檔案下載**: 可讓您下載檔案。
+   * **檔案上傳**: 可讓您上傳檔案。 從Adobe Campaign檔案上傳檔案會在功能表中產生記錄 **[!UICONTROL Export audits]** 項。 有關導出審計的詳細資訊，請參閱「審 [計導出](../../administration/using/auditing-export-logs.md) 」部分。
+   * **測試以查看檔案是否存在**: 允許您檢查是否存在檔案。
+   * **檔案清單**: 允許您列出伺服器上存在於頁籤中定義的文 **[!UICONTROL Protocol]** 件。 此動作主要用於除錯，以在從遠端伺服器下載檔案之前，先檢查活動是否已根據您的需求進行設定。
 
 1. 選擇要使用的協定：
    * [HTTP](#HTTP-configuration-wf)
@@ -61,7 +67,7 @@ source-git-commit: 3e90acaa1c2b3de2240f01e5dc3440be44e65eba
 
    * **[!UICONTROL Delete the source files after transfer]**
    * **[!UICONTROL Disable passive mode]**
-   * **[!UICONTROL List all files]**:在頁籤中選擇action. **[!UICONTROL File listing]** 時，此選項可 **[!UICONTROL General]** 用。 它可讓您為 **vars.filenames** event變數中伺服器上所有檔案建立索引，其中檔案名稱以&#39; **n&#39;字元分隔** 。
+   * **[!UICONTROL List all files]**: 在頁籤中選擇action. **[!UICONTROL File listing]** 時，此選項可 **[!UICONTROL General]** 用。 它可讓您為 **vars.filenames** event變數中伺服器上所有檔案建立索引，其中檔案名稱以&#39; **n&#39;字元分隔** 。
 
 1. 該選 **[!UICONTROL If no files are found]** 項卡的 **[!UICONTROL Advanced options]** 部分允許您在活動啟動時檢測到任何錯誤或不存在的檔案時配置特定操作。
 
@@ -126,14 +132,14 @@ Microsoft Azure Blob通訊協定可讓您存取位於Microsoft Azure Blob儲存�
 
    您可以在檔案路徑的範例清單下找到：
 
-   * **&quot;campaign/&quot;**:相符項目：位於容器根目錄的「促銷活動」資料夾中的所有blob。
-   * **「促銷活動／新增-」**:相符項目：所有檔案名稱以&quot;new-&quot;開頭且位於「促銷活動」檔案夾下方的blob。
-   * **「」**:新增空路徑可讓您比對容器中所有可用的位塊。
+   * **&quot;campaign/&quot;**: 相符項目：位於容器根目錄的「促銷活動」資料夾中的所有blob。
+   * **「促銷活動／新增-」**: 相符項目：所有檔案名稱以&quot;new-&quot;開頭且位於「促銷活動」檔案夾下方的blob。
+   * **「」**: 新增空路徑可讓您比對容器中所有可用的位塊。
 
 ### Adobe Campaign伺服器上檔案的設定 {#files-server-configuration-wf}
 
 協 **[!UICONTROL File(s) present on the Adobe Campaign server]** 議對應於包含要恢復的檔案的儲存庫。
-元字元或萬用字元（例如*或？）可用來篩選檔案。
+元字元或萬用字元（例如*或？） 可用來篩選檔案。
 
 選擇是否要， **[!UICONTROL Define a file path]** 或 **[!UICONTROL Use a dynamic file path]**&#x200B;選 **[!UICONTROL Use a dynamic file path]** 項可讓您使用標準運算式和事件變數來個人化要傳輸的檔案名稱。 如需詳細資訊，請參閱「使用事件變 [數自訂活動](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables) 」一節。
 
@@ -162,19 +168,3 @@ Microsoft Azure Blob通訊協定可讓您存取位於Microsoft Azure Blob儲存�
 >[!NOTE]
 >
 >如果活動未再次執行，則不會檢查或清除其資料夾。 有了這一點，在傳輸大型檔案時請務必小心。
-
-## Example {#example}
-
-以下示例顯示檔案傳輸活 **動的配置** ，該活動隨後將依次是 **Load file** activity和 **Update data** activity。 此工作流程的目標是新增或更新Adobe Campaign資料庫設定檔，並使用工作流程所復原的資料。
-
-1. 將「傳輸」檔案 **活動拖放** 至您的工作流程中。
-1. 選擇活動，然後使用顯示的快 ![](assets/edit_darkgrey-24px.png) 速操作中的按鈕將其開啟。
-1. 在標籤 **[!UICONTROL Protocol]** 中，選擇 **SFTP**。
-1. 選擇「使 **用在外部帳戶中定義的連接參數** 」選項。
-1. 輸入外部帳戶的名稱。
-1. 輸入遠程 **伺服器上的檔案路徑**。
-
-   ![](assets/wkf_file_transfer_07.png)
-
-1. 確認您的活動並儲存您的工作流程。
-

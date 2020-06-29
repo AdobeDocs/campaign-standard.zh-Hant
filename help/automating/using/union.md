@@ -13,10 +13,10 @@ context-tags: union,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 0%
+source-wordcount: '377'
+ht-degree: 1%
 
 ---
 
@@ -36,6 +36,10 @@ ht-degree: 0%
 ## 使用內容 {#context-of-use}
 
 當執 **[!UICONTROL Union]** 行分段、定義對象或準備訊息目標時，活動可用來結合傳入轉場中的人口族群。
+
+**相關主題：**
+
+* [使用案例： 結合兩個精美受眾](../../automating/using/union-on-two-refined-audiences.md)
 
 ## 配置 {#configuration}
 

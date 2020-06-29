@@ -12,9 +12,9 @@ discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2df909256b910e5e26e0fdac7e150edd0603c8ab
+source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '582'
 ht-degree: 9%
 
 ---
@@ -98,3 +98,4 @@ Campaign Standard提供數種 **傳遞性工具** ，可協助您改善成功傳
 * [檢閱電子郵件傳送和報告（視訊）](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/reviewing-personalized-email-delivery-and-reports.html)
 * [電子郵件快速入門](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
 * [提供最佳實務](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+* [使用案例： 建立控制群組](../../automating/using/workflow-control-group.md)

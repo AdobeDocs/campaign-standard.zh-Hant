@@ -13,7 +13,10 @@ context-tags: query,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6e61fe77c66f77178b47abeb4c45a6a636f87c1d
+source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
+workflow-type: tm+mt
+source-wordcount: '1725'
+ht-degree: 0%
 
 ---
 
@@ -27,6 +30,11 @@ source-git-commit: 6e61fe77c66f77178b47abeb4c45a6a636f87c1d
 此活 **[!UICONTROL Query]** 動可讓您從Adobe Campaign資料庫中篩選及擷取元素總量。 您可以透過 **[!UICONTROL Additional data]** 專用標籤來定義目標人口。 此資料會儲存在其他欄中，且僅能用於進行中的工作流程。
 
 活動使用查詢編輯器工具。 此工具在專屬章節中 [有詳細說明](../../automating/using/editing-queries.md#about-query-editor)。
+
+**相關主題：**
+
+* [查詢示例](../../automating/using/query-samples.md)
+* [使用案例： 重新定位傳送新傳送給非開啟者的工作流程](../../automating/using/workflow-cross-channel-retargeting.md)
 
 ## 使用內容 {#context-of-use}
 
@@ -63,9 +71,7 @@ source-git-commit: 6e61fe77c66f77178b47abeb4c45a6a636f87c1d
 
 定位維度和資源可讓您定義查詢要依據哪些元素來判斷傳送的目標。
 
-定位維度是在定位映射中定義。 如需詳細資訊，請參閱[本小節](../../administration/using/target-mappings-in-campaign.md)。
-
-### 定義查詢的定位維和資源 {#defining-the-targeting-dimension-and-resource-of-a-query}
+定位維度是在定位映射中定義。 如需詳細資訊，請參閱[本章節](../../administration/using/target-mappings-in-campaign.md)。
 
 定位維度和資源是在建立工作流程時，在「查詢」活動 **[!UICONTROL Properties]** 的標籤中定義。
 
@@ -95,33 +101,9 @@ source-git-commit: 6e61fe77c66f77178b47abeb4c45a6a636f87c1d
 
 ![](assets/targeting_dimension5.png)
 
-### 使用與定位維度不同的資源 {#using-resources-different-from-targeting-dimensions}
+預設會設定定位維度和資源，以定位描述檔。 不過，如果您想在遠端表格中尋找特定記錄，則使用與定位維度不同的資源可能會很有用。
 
-預設會設定定位維度和資源，以定位描述檔。
-
-不過，如果您想在遠端表格中尋找特定記錄，則使用與定位維度不同的資源可能會很有用。
-
-**範例1:使用標籤「歡迎回來！」識別傳送所定位的描述檔**。
-
-* 在此案例中，我們要定位描述檔。 我們會將定位維度設為 **[!UICONTROL Profiles (profile)]**。
-* 我們想要根據傳送標籤來篩選選取的描述檔。 因此，我們將資源設定為 **[!UICONTROL Delivery logs]**。 這樣，我們就直接在傳送記錄表中進行篩選，提供更佳的效能。
-
-![](assets/targeting_dimension6.png)
-
-![](assets/targeting_dimension7.png)
-
-**範例2:識別傳送時未鎖定的描述檔，並標示為「歡迎返回！」**
-
-在上個範例中，我們使用與定位維度不同的資源。 只有在您想要查找位於遠程表中 **的記錄** （在我們的示例中是交付日誌）時，才能執行此操作。
-
-如果我們想要尋找不在遠端表格中的記錄 **** （例如，未由特定傳送定位的設定檔），您必須使用相同的資源和定位維度，因為該記錄不會出現在遠端表格中（傳送記錄）。
-
-* 在此案例中，我們要定位描述檔。 我們會將定位維度設為 **[!UICONTROL Profiles (profile)]**。
-* 我們想要根據傳送標籤來篩選選取的描述檔。 無法直接篩選傳送記錄，因為我們正在尋找不在傳送記錄表格中的記錄。 因此，我們將資源設定為 **[!UICONTROL Profile (profile)]** 並在配置檔案表上構建查詢。
-
-![](assets/targeting_dimension8.png)
-
-![](assets/targeting_dimension9.png)
+有關此功能的詳細資訊，請參閱此使用案例： [使用與定位維度不同的資源](../../automating/using/using-resources-different-from-targeting-dimensions.md)
 
 ## 豐富資料 {#enriching-data}
 
@@ -135,13 +117,15 @@ source-git-commit: 6e61fe77c66f77178b47abeb4c45a6a636f87c1d
 
 >[!NOTE]
 >
->別名必須遵守下列語法規則：僅授權英數字元和&quot;_&quot;字元。 別名區分大小寫。 別名必須以&quot;@&quot;字元開頭。 緊接在&quot;@&quot;後面的字元不得為數值。 例如：@myAlias_1和@_1Alias正確；而@myAlias#1和@1Alias則不正確。
+>別名必須遵守下列語法規則： 僅授權英數字元和&quot;_&quot;字元。 別名區分大小寫。 別名必須以&quot;@&quot;字元開頭。 緊接在&quot;@&quot;後面的字元不得為數值。 例如： @myAlias_1和@_1Alias正確； 而@myAlias#1和@1Alias則不正確。
 
 新增任何其他資料後，您可以根據所定義的其他資料建立條件，將額外的篩選層級套用至最初定位的資料。
 
 >[!NOTE]
 >
 >預設情況下， **[!UICONTROL Remove duplicate rows (DISTINCT)]** 選項會在查 **[!UICONTROL Advanced options]** 詢的選 **[!UICONTROL Additional data]** 項卡中選中。 如果活 **[!UICONTROL Query]** 動包含許多（來自100個）已定義的其他資料，則建議基於效能原因取消選中此選項。 請注意，取消勾選此選項會導致重複，視查詢的資料而定。
+
+本節將說明如何使用其他資料個人化電子郵件的使 [用案例](../../automating/using/personalizing-email-with-additional-data.md)。
 
 ### 新增簡單欄位 {#adding-a-simple-field}
 
@@ -150,7 +134,7 @@ source-git-commit: 6e61fe77c66f77178b47abeb4c45a6a636f87c1d
 1. 從標籤 **[!UICONTROL Additional data]** 中新增元素。
 1. 在開啟的視窗中，在欄位中 **[!UICONTROL Expression]** ，選取目標維度中直接可用的其中一個欄位或其中一個連結的維度。 您可以編輯表達式，並使用維欄位中的函式或簡單計算（集合除外）。
 
-   如果 **[!UICONTROL Alias]** 編輯的表達式不是簡單的XPATH路徑，則會自動建立一個表達式(例如：&quot;Year(&lt;@birthDate>)&quot;)。 如果您願意，可以修改它。 如果您只選取一個欄位(例如：&quot;@age&quot;)，您不需要定義 **[!UICONTROL Alias]**。
+   如果 **[!UICONTROL Alias]** 編輯的表達式不是簡單的XPATH路徑，則會自動建立一個表達式(例如： &quot;Year(&lt;@birthDate>)&quot;)。 如果您願意，可以修改它。 如果您只選取一個欄位(例如： &quot;@age&quot;)，您不需要定義 **[!UICONTROL Alias]**。
 
 1. 選擇 **[!UICONTROL Add]** 以確認將欄位添加到其他資料。 執行查詢時，與添加的欄位對應的附加列將出現在活動的出站轉換中。
 
@@ -158,7 +142,7 @@ source-git-commit: 6e61fe77c66f77178b47abeb4c45a6a636f87c1d
 
 ### 添加聚合 {#adding-an-aggregate}
 
-匯總可讓您從定位維度的欄位或連結至定位維度的維度欄位計算值。 例如：描述檔購買的平均金額。
+匯總可讓您從定位維度的欄位或連結至定位維度的維度欄位計算值。 例如： 描述檔購買的平均金額。
 使用帶查詢的聚合時，其函式可返回零，然後視為NULL。 使用查 **[!UICONTROL Output filtering]** 詢的標籤來篩選匯總值：
 
 * 如果您想要零值，您應加以篩選 **[!UICONTROL is null]**。
@@ -246,135 +230,3 @@ source-git-commit: 6e61fe77c66f77178b47abeb4c45a6a636f87c1d
 ![](assets/enrichment_output_filtering2.png)
 
 ![](assets/enrichment_output_filtering.png)
-
-### 範例：使用其他資料個人化電子郵件 {#example--personalizing-an-email-with-additional-data}
-
-下列範例說明如何新增不同類型的其他資料至查詢，以及其作為電子郵件中個人化欄位的用途。
-
-在此範例中， [會使用自訂資](../../developing/using/data-model-concepts.md) 源：
-
-* 擴充 **描述檔資源** ，以便新增欄位，以儲存每個描述檔的忠誠度點數。
-* 已創 **建事務** 資源，並標識資料庫中配置檔案執行的所有採購。 系統會針對每筆交易儲存購買的日期、價格和產品。
-* 已建 **立產品** 資源，並參考可供購買的產品。
-
-目標是傳送電子郵件至至少已儲存一個交易的設定檔。 透過這封電子郵件，客戶將會收到上次交易的提醒，以及其所有交易的概述：購買的產品數、總花費、提醒已累計的忠誠度點數總數。
-
-工作流程如下：
-
-![](assets/enrichment_example1.png)
-
-1. 新增活 **[!UICONTROL Query]** 動，可讓您定位已執行至少一項交易的設定檔。
-
-   ![](assets/enrichment_example2.png)
-
-   從查詢的標籤 **[!UICONTROL Additional data]** 中，定義要顯示在最終電子郵件中的不同資料：
-
-   * 對應於忠誠點 **的** 「描述檔」維度的簡單欄位。 請參閱「 [Adding a simple field](#adding-a-simple-field) 」（添加簡單欄位）部分。
-   * 根據事務處理收集進行兩個匯總：購買的產品數量和花費的總金額。 您可以使用「計數」和「 **[!UICONTROL Data]** 總和」聚合，從聚合配置窗口的選 **項卡中添****** 加它們。 請參閱「添 [加聚合](#adding-an-aggregate) 」部分。
-   * 傳回已生效之上次交易之花費金額、日期和產品的系列。
-
-      若要這麼做，您必須從系列設定視窗的標籤中新增您要顯示的 **[!UICONTROL Data]** 不同欄位。
-
-      要僅返回最近的事務處理，您必須為輸入&quot;1&quot;, **[!UICONTROL Number of lines to return]** 並在標籤中的系列的「日期」欄位上應用降序 ******[!UICONTROL Sort]** 排序。
-
-      請參閱「新 [增系列](#adding-a-collection) 」 [和「排序其他資料](#sorting-additional-data) 」區段。
-   ![](assets/enrichment_example4.png)
-
-   如果要檢查活動的出站轉移是否正確傳輸資料，請首次啟動工作流（沒有活動）並開啟查詢的出站轉移。 **[!UICONTROL Email delivery]**
-
-   ![](assets/enrichment_example5.png)
-
-1. 新增活 **[!UICONTROL Email delivery]** 動。 在電子郵件內容中，插入與查詢中計算的資料對應的個人化欄位。 您可以透過個人化欄位瀏 **[!UICONTROL Additional data (targetData)]** 覽器的連結找到它。
-
-   ![](assets/enrichment_example3.png)
-
-您的工作流程現在已可以執行。 查詢中定位的設定檔將會收到包含其交易所計算資料的個人化電子郵件。
-
-## 查詢示例 {#query-samples}
-
-### 以簡單描述檔屬性為目標 {#targeting-on-simple-profile-attributes}
-
-下列範例顯示一個查詢活動，其設定是針對居住在倫敦的18至30歲男性。
-
-![](assets/query_sample_1.png)
-
-### 針對電子郵件屬性進行定位 {#targeting-on-email-attributes}
-
-下列範例顯示一個查詢活動，其設定是以電子郵件地址網域「orange.co.uk」定位描述檔。
-
-![](assets/query_sample_emaildomain.png)
-
-下列範例顯示已設定為定位其電子郵件地址之描述檔的查詢活動。
-
-![](assets/query_sample_emailnotempty.png)
-
-### 定位生日為今天的個人檔案 {#targeting-profiles-whose-birthday-is-today}
-
-下列範例顯示設定為定位生日為今天的描述檔的查詢活動。
-
-1. 拖曳查 **[!UICONTROL Birthday]** 詢中的篩選器。
-
-   ![](assets/query_sample_birthday.png)
-
-1. 將設定 **[!UICONTROL Filter type]** 為並 **[!UICONTROL Relative]** 選擇 **[!UICONTROL Today]**。
-
-   ![](assets/query_sample_birthday2.png)
-
-### 鎖定開啟特定傳送的設定檔 {#targeting-profiles-who-opened-a-specific-delivery}
-
-下列範例顯示一個查詢活動，其設定為篩選開啟傳送且標籤為「夏季時間」的描述檔。
-
-1. 拖曳查 **[!UICONTROL Opened]** 詢中的篩選器。
-
-   ![](assets/query_sample_opened.png)
-
-1. 選取傳送，然後按一下 **[!UICONTROL Confirm]**。
-
-   ![](assets/query_sample_opened2.png)
-
-### 針對因特定原因而傳送失敗的設定檔 {#targeting-profiles-for-whom-deliveries-failed-for-a-specific-reason}
-
-下列範例顯示一個查詢活動，其設定是篩選因其郵箱已滿而傳送失敗的描述檔。 此查詢僅適用於具有管理權限且屬於組織單位的用 **[!UICONTROL All (all)]** 戶(請參 [閱本節](../../administration/using/organizational-units.md))。
-
-1. 選擇資 **[!UICONTROL Delivery logs]** 源，以便直接在傳送記錄表中篩選(請參 [閱使用與定位維度不同的資源](#using-resources-different-from-targeting-dimensions))。
-
-   ![](assets/query_sample_failure1.png)
-
-1. 拖曳查 **[!UICONTROL Nature of failure]** 詢中的篩選器。
-
-   ![](assets/query_sample_failure2.png)
-
-1. 選擇要定位的失敗類型。 就我們而言 **[!UICONTROL Mailbox full]**。
-
-   ![](assets/query_sample_failure3.png)
-
-### 過去7天未連絡定位設定檔 {#targeting-profiles-not-contacted-during-the-last-7-days}
-
-下列範例顯示一個查詢活動，其設定是用來篩選過去7天未連絡的設定檔。
-
-1. 拖曳查 **[!UICONTROL Delivery logs (logs)]** 詢中的篩選器。
-
-   ![](assets/query_sample_7days.png)
-
-   在下 **[!UICONTROL Does not exist]** 拉式清單中選取，然後拖曳篩 **[!UICONTROL Delivery]** 選器。
-
-   ![](assets/query_sample_7days1.png)
-
-1. 設定篩選如下。
-
-   ![](assets/query_sample_7days2.png)
-
-### 定位按一下特定連結的個人檔案 {#targeting-profiles-who-clicked-a-specific-link-}
-
-1. 拖曳查 **[!UICONTROL Tracking logs (tracking)]** 詢中的篩選器。
-
-   ![](assets/query_sample_trackinglogs.png)
-
-1. 拖曳篩 **[!UICONTROL Label (urlLabel)]** 選器。
-
-   ![](assets/query_sample_trackinglogs2.png)
-
-1. 在欄位 **[!UICONTROL Value]** 中，輸入在傳送中插入連結時所定義的標籤，然後確認。
-
-   ![](assets/query_sample_trackinglogs3.png)
-

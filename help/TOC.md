@@ -4,10 +4,10 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard 說明
 translation-type: tm+mt
-source-git-commit: d487600fc4f3004804e93347b83edfe4e01cceeb
+source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
 workflow-type: tm+mt
-source-wordcount: '1402'
-ht-degree: 91%
+source-wordcount: '1524'
+ht-degree: 83%
 
 ---
 
@@ -105,7 +105,6 @@ ht-degree: 91%
       + [建立直接郵件](channels/using/creating-the-direct-mail.md)
       + [定義直接郵件閱聽眾](channels/using/defining-the-direct-mail-audience.md)
       + [定義直接郵件內容](channels/using/defining-the-direct-mail-content.md)
-      + [工作流程中的直接郵件示例](channels/using/example-of-direct-mail-in-a-workflow.md)
    + 交易式訊息傳送 {#transactional-messaging}
       + [關於交易式訊息傳送](channels/using/about-transactional-messaging.md)
       + [事件交易式訊息](channels/using/event-transactional-messages.md)
@@ -305,14 +304,38 @@ ht-degree: 91%
       + [管理套件](automating/using/managing-packages.md)
       + [匯出清單](automating/using/exporting-lists.md)
       + [使用案例：匯出／匯入自訂資源](automating/using/exporting-importing-custom-resources.md)
-   + 使用案例：工作流程 {#workflow-use-case}
-      + [使用補救來建立傳送](automating/using/workflow-created-query-with-complement.md)
-      + [在建立日期中建立傳送](automating/using/workflow-creation-date-query.md)
-      + [建立每週傳送](automating/using/workflow-weekly-offer.md)
-      + [在位置上建立細分](automating/using/workflow-segmentation-location.md)
-      + [重新鎖定非開啟者](automating/using/workflow-cross-channel-retargeting.md)
-      + [建立控制群組](automating/using/workflow-control-group.md)
-      + [建立跨通道傳送](automating/using/workflow-cross-channel-delivery.md)
+   + 使用案例 {#workflow-use-case}
+      + 交貨 {#deliveries}
+         + [使用補救來建立傳送](automating/using/workflow-created-query-with-complement.md)
+         + [在描述檔建立日期建立傳送](automating/using/workflow-creation-date-query.md)
+         + [建立每週傳送](automating/using/workflow-weekly-offer.md)
+         + [建立跨通道傳送](automating/using/workflow-cross-channel-delivery.md)
+         + [在傳送前識別重複項目](automating/using/identifying-duplicated-before-delivery.md)
+         + [生日寄送](automating/using/birthday-delivery.md)
+         + [將電子郵件與直效郵件傳送結合](automating/using/coupling-email-direct-mail.md)
+         + [傳送包含豐富欄位的電子郵件](automating/using/sending-email-enriched-fields.md)
+         + [使用其他資料個人化電子郵件](automating/using/personalizing-email-with-additional-data.md)
+      + 細分與目標定位 {#segmentation-targeting}
+         + [查詢示例](automating/using/query-samples.md)
+         + [結合兩個精美受眾](automating/using/union-on-two-refined-audiences.md)
+         + [在位置上建立細分](automating/using/workflow-segmentation-location.md)
+         + [重新鎖定非開啟者](automating/using/workflow-cross-channel-retargeting.md)
+         + [對服務訂戶的增量查詢](automating/using/incremental-query-on-subscribers.md)
+         + [根據年齡組劃分](automating/using/segmentation-age-groups.md)
+         + [使用與定位維度不同的資源](automating/using/using-resources-different-from-targeting-dimensions.md)
+         + [建立控制群組](automating/using/workflow-control-group.md)
+      + 資料管理 {#data-management}
+         + [協調檔案對象與資料庫](automating/using/reconcile-file-audience-with-database.md)
+         + [從導入的檔案中消除重複資料](automating/using/deduplicating-data-imported-file.md)
+         + [使用檔案中包含的資料豐富描述檔資料](automating/using/enriching-profile-data-file.md)
+         + [外部信號活動和資料導入](automating/using/external-signal-data-import.md)
+         + [使用外部資料更新資料庫](automating/using/update-database-file.md)
+         + [根據自動檔案下載更新資料](automating/using/update-data-automatic-download.md)
+         + [使用關係進行資料協調](automating/using/reconciliation-using-relations.md)
+         + [使用協調功能更新資料](automating/using/data-update-reconciliation.md)
+         + [在外部檔案中導出配置檔案](automating/using/exporting-profiles-in-file.md)
+         + [從檔案更新多個訂閱狀態](automating/using/updating-subscriptions-from-file.md)
+         + [將配置檔案從檔案預訂到特定服務](automating/using/subscribing-profiles-from-file.md)
    + 與 Adobe Experience Platform 閱聽眾合作 {#working-with-aep-audiences}
       + [鎖定 Adobe Experience Platform 閱聽眾](automating/using/aep-targeting-audiences.md)
       + [使用 Adobe Experience Platform屬性個人化行銷活動](automating/using/aep-personalizing-campaigns.md)

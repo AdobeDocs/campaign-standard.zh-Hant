@@ -1,19 +1,22 @@
 ---
 title: 簡訊傳送
 description: SMS傳送活動可讓您在工作流程中設定傳送單一傳送SMS或循環SMS。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: 736078c6-ac91-4440-825b-4a6ae31894ef
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 自動化
-content-type: 參考
-topic-tags: 頻道活動
+audience: automating
+content-type: reference
+topic-tags: channel-activities
 discoiquuid: 978592b8-989a-446a-8a84-12b7fecfc130
 context-tags: sms,main;delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 16afc307df6902584624d6457954a472b11c5129
+workflow-type: tm+mt
+source-wordcount: '784'
+ht-degree: 0%
 
 ---
 
@@ -53,18 +56,18 @@ SMS收件者是透過查詢、交叉點等定位活動，在相同工作流程�
 
 1. 選擇SMS傳送模式：
 
-   * **[!UICONTROL SMS]**:簡訊只會傳送一次。 您可以在此處指定是否要向活動添加出站轉變。 在本過程的步驟7中詳細介紹了不同的過渡類型。
-   * **[!UICONTROL Recurring SMS]**:根據活動中定義的頻率，會多次傳送簡訊 **[!UICONTROL Scheduler]** 。 選擇發送的聚合期間。 這可讓您將定義期間發生的所有傳送重新分組為一個稱為「循環執行 **** 」的單一檢視，並可從應用程式的行銷活動清單存取。
+   * **[!UICONTROL SMS]**: 簡訊只會傳送一次。 您可以在此處指定是否要向活動添加出站轉變。 在本過程的步驟7中詳細介紹了不同的過渡類型。
+   * **[!UICONTROL Recurring SMS]**: 根據活動中定義的頻率，會多次傳送簡訊 **[!UICONTROL Scheduler]** 。 選擇發送的聚合期間。 這可讓您將定義期間發生的所有傳送重新分組為一個稱為「循環執行 **** 」的單一檢視，並可從應用程式的行銷活動清單存取。
 
       例如，對於每日傳送的循環生日SMS，您可以選擇匯總每月傳送的傳送。 這可讓您每月收到傳送的報告，不過SMS會每天傳送。
 
-1. 選擇SMS類型。 SMS類型來自「 &gt; &gt;」功能表中定義的 **[!UICONTROL Resources]** SMS **[!UICONTROL Templates]** 范 **[!UICONTROL Delivery templates]** 本。
+1. 選擇SMS類型。 SMS類型來自「 > >」功能表中定義的 **[!UICONTROL Resources]** SMS **[!UICONTROL Templates]** 范 **[!UICONTROL Delivery templates]** 本。
 1. 輸入SMS的一般屬性。 您也可以將它附加至現有的促銷活動。 工作流程傳送活動的標籤會以SMS標籤更新。
 1. 定義SMS內容。 請參閱「建立 [SMS訊息」一節](../../channels/using/creating-an-sms-message.md)。
 1. 依預設，活動 **[!UICONTROL SMS delivery]** 不包含任何對外轉場。 如果要將出站轉移添加到活動 **[!UICONTROL SMS delivery]** 中，請轉至高級活動選項的頁籤( **[!UICONTROL General]**![](assets/dlv_activity_params-24px.png) 活動快速操作中的按鈕)，然後選中以下選項之一：
 
-   * **[!UICONTROL Add outbound transition without the population]**:這可讓您產生一個對外轉移，其中包含與傳入轉移完全相同的人口。
-   * **[!UICONTROL Add outbound transition with the population]**:這可讓您產生對外轉場，其中包含傳送SMS的人口。 在交付準備期間排除的目標成員（隔離、無效編號等）會從此轉換中排除。
+   * **[!UICONTROL Add outbound transition without the population]**: 這可讓您產生一個對外轉移，其中包含與傳入轉移完全相同的人口。
+   * **[!UICONTROL Add outbound transition with the population]**: 這可讓您產生對外轉場，其中包含傳送SMS的人口。 在交付準備期間排除的目標成員（隔離、無效編號等） 會從此轉換中排除。
 
 1. 確認活動的設定並儲存工作流程。
 
@@ -79,23 +82,3 @@ SMS收件者是透過查詢、交叉點等定位活動，在相同工作流程�
 不過，循環傳送的執行依預設會被遮色。 若要檢視，請勾選行 **[!UICONTROL Show recurring executions]** 銷活動搜尋面板中的選項。
 
 在可從行銷活動清單存取或直接透過相關循環執行存取的父傳送中，您可以檢視已處理的傳送總數（根據設定活動時指定的匯總期間）。 **[!UICONTROL SMS delivery]** 若要這麼做，請選取以開啟父傳送區塊的詳 **[!UICONTROL Deployment]** 細資料檢視 ![](assets/wkf_dlv_detail_button.png)。
-
-## Example {#example}
-
-![](assets/wkf_sms_example_1.png)
-
-此範例是生日工作流程。 每天都會傳送簡訊給當天生日的個人檔案。 操作步驟：
-
-* 它 **[!UICONTROL Scheduler]** 可讓您每天上午8點開始工作流程。
-
-   ![](assets/wkf_delivery_example_2.png)
-
-* 此活 **[!UICONTROL Query]** 動可讓您計算每次執行工作流程時，提供行動電話號碼且其生日是當天的設定檔。 生日計算是使用查詢編輯工具的浮動視窗中可用的預先定義篩選器來執行。
-
-   ![](assets/wkf_delivery_example_3.png)
-
-* 重複 **[!UICONTROL SMS]** 出現。 傳送會依月份匯總。 所以，在一個月內傳送的所有SMS訊息都會匯整成單一檢視。 因此，在一年內，會執行365個傳送，但會在Adobe Campaign介面中重新分組為12個檢視(也稱 **為循環執行**)。 歷史記錄和報表詳細資訊會每個月顯示一次，而非每次傳送。
-
-   ![](assets/wkf_sms_example_4.png)
-
-如需工作流程中SMS傳送的另一個範例，請參閱使 [用案例：重新定位傳送新傳送給非開啟者的工作流程](../../automating/using/workflow-cross-channel-retargeting.md)。

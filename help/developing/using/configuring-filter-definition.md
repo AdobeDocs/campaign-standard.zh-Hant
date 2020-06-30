@@ -1,19 +1,22 @@
 ---
 title: 設定篩選定義
 description: 探索篩選功能以管理大型資料集。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: c9db95fe-e9aa-40f8-9c0a-e74bb21ac14b
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 開發
-content-type: 參考
-topic-tags: 添加或擴展資源
+audience: developing
+content-type: reference
+topic-tags: adding-or-extending-a-resource
 discoiquuid: 993ab2bd-e05f-468e-9ef8-a603761247f8
 context-tags: cusResource,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: cabe064632c9c2e3de93bc1cff6fa217b4fdf3e6
+workflow-type: tm+mt
+source-wordcount: '541'
+ht-degree: 1%
 
 ---
 
@@ -83,3 +86,8 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ![](assets/custom_resource_filter-definition_email-audience_filter.png)
 
+設定篩選器後，您就可以使用下列語法，從Campaign Standard API使用篩選器：
+
+`GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/by<customFilterName>?<customFilterparam>=<customFilterValue>`
+
+如需詳細資訊，請參閱 [Campaign Standard API檔案](../../api/using/filtering.md#custom-filters)。

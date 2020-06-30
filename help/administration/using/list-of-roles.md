@@ -13,9 +13,9 @@ context-tags: role,overview;role,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c65cce2168219b3cd8cbd6704bdd0b6f3f55e3e6
+source-git-commit: 395791e69d0c4c8a888829539338e338387294de
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '203'
 ht-degree: 7%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 7%
 
 有關詳細資訊，請參閱「角 [色和權限」表](/help/administration/using/assets/acs_rights.pdf)，該表根據所選授權詳細說明了介面中可用的功能。
 
-[![image](assets/user_management_3.png](https://docs.adobe.com/content/help/en/campaign-standard/using/administrating/users-and-security/assets/acs_rights.pdf)
+[![影像](assets/user_management_3.png)](https://docs.adobe.com/content/help/en/campaign-standard/using/administrating/users-and-security/assets/acs_rights.pdf)
 
 您可從功能表管理 **[!UICONTROL Administration > Users & Security > Roles]** 角色。
 

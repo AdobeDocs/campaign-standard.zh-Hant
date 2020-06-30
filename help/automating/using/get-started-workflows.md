@@ -12,10 +12,10 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: a9fbf0479019dfbe2964c517a0370f015d0f380a
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 5%
+source-wordcount: '522'
+ht-degree: 7%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 5%
 <td><img src="assets/do-not-localize/icon_manage.svg" width="60px"><p><a href="#import-export-data">匯入／匯出資料</a></p></td></tr>
 </table>
 
-Adobe Campaign提供完整的圖形環境，可讓您設計複雜的程式，包括區段、促銷活動執行、檔案處理、核准等。 例如，您可以使用工作流程從伺服器下載檔案、解壓縮檔案，然後將其記錄匯入Adobe Campaign資料庫。
+Adobe Campaign提供完整的圖形環境，可讓您設計複雜的程式，包括區段、促銷活動執行、檔案處理等。 例如，您可以使用工作流程從伺服器下載檔案、解壓縮檔案，然後將其記錄匯入Adobe Campaign資料庫。
 
 工作流程也可以讓使用者參與，方法是指派工作或讓他們核准已執行的工作。 這表示您可以指派工作給一或數個使用者，以處理內容或指定目標，並在傳送訊息前核准校樣。
 
@@ -51,7 +51,7 @@ Adobe Campaign提供完整的圖形環境，可讓您設計複雜的程式，包
 
 最後， [資料管理活動](../../automating/using/about-data-management-activities.md) 可讓您控制資料庫中的資料。
 
-閱讀更多：
+詳細內容:
 
 * [建立工作流程](../../automating/using/building-a-workflow.md)
 * [執行工作流程](../../automating/using/about-workflow-execution.md)
@@ -65,7 +65,7 @@ Adobe Campaign提供完整的圖形環境，可讓您設計複雜的程式，包
 
 查詢編輯器隨附預先定 **義的篩選器和規則** ，讓您快速輕鬆篩選。 不過，您也可以使用進階 **的運算式編輯** 功能。 這可讓您手動輸入條件並使用函式，以便形成您自己的規則。
 
-閱讀更多：
+詳細內容:
 
 * [編輯查詢](../../automating/using/editing-queries.md)
 * [進階運算式編輯](../../automating/using/advanced-expression-editing.md)
@@ -87,7 +87,7 @@ Campaign Standard提供數種資 **料管理功能** ，可匯入和匯出資料
 
 最後， [匯出清單](../../automating/using/exporting-lists.md) 可讓您從Campaign Standard匯出任何清單，例如測試設定檔清單、隔離電子郵件地址清單等。
 
-閱讀更多：
+詳細內容:
 
 * [匯入和匯出資料](../../automating/using/about-data-import-and-export.md)
 * [使用案例：匯出／匯入自訂資源](../../automating/using/exporting-importing-custom-resources.md)

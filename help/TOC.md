@@ -4,9 +4,9 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard 說明
 translation-type: tm+mt
-source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
+source-git-commit: 49fdf317bdb73c83c9ddc9e0948ab91e1f60bd18
 workflow-type: tm+mt
-source-wordcount: '1524'
+source-wordcount: '1528'
 ht-degree: 83%
 
 ---
@@ -305,6 +305,7 @@ ht-degree: 83%
       + [匯出清單](automating/using/exporting-lists.md)
       + [使用案例：匯出／匯入自訂資源](automating/using/exporting-importing-custom-resources.md)
    + 使用案例 {#workflow-use-case}
+      + [關於工作流程使用案例](automating/using/about-workflow-use-cases.md)
       + 交貨 {#deliveries}
          + [使用補救來建立傳送](automating/using/workflow-created-query-with-complement.md)
          + [在描述檔建立日期建立傳送](automating/using/workflow-creation-date-query.md)

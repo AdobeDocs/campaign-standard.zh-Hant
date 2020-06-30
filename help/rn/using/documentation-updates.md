@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 58c69b6f6efdac8be5d05fe723bbf9ff54d186ee
+source-git-commit: 446bacfa42fcbc70c7a7c006fa185cdec004c264
 workflow-type: tm+mt
-source-wordcount: '5941'
+source-wordcount: '5954'
 ht-degree: 9%
 
 ---
@@ -25,6 +25,8 @@ ht-degree: 9%
 除了Adobe Campaign發行說 [明外](../../rn/using/release-notes.md)，本頁還列出Adobe Campaign Standard檔案中的所有新更新。
 
 ## 檔案更新- 2020年6月 {#doc-updates-june-2020}
+
+工作流程使用案例已更新並重新組織為主題章節。 [詳細內容](../../automating/using/about-workflow-use-cases.md)
 
 已新增使用案例，說明如何使用「控制 [面板](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt) 」和「促 [銷活動](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) 」工作流程來加密和解密資料。
 

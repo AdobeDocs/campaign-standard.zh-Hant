@@ -4,9 +4,9 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard 說明
 translation-type: tm+mt
-source-git-commit: 49fdf317bdb73c83c9ddc9e0948ab91e1f60bd18
+source-git-commit: 4bf004b035c10ccbdb1ff9dc3fb51ddfdef54777
 workflow-type: tm+mt
-source-wordcount: '1528'
+source-wordcount: '1530'
 ht-degree: 83%
 
 ---
@@ -143,6 +143,7 @@ ht-degree: 83%
       + [傳送校樣](sending/using/sending-proofs.md)
       + [使用目標設定檔測試電子郵件訊息](sending/using/testing-messages-using-target.md)
       + [測試電子郵件的主旨行](sending/using/testing-subject-line-email.md)
+      + [人工智慧型電子郵件](sending/using/predictive.md)
       + [電子郵件呈現](sending/using/email-rendering.md)
       + [使用陷阱](sending/using/using-traps.md)
    + 排程訊息 {#scheduling-messages}

@@ -12,9 +12,9 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 04bc32a9abb2939823f18165e1fe46d9f2315cce
+source-git-commit: f45985c030c3d5059bfef444287c10b842298f49
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1160'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,10 @@ ht-degree: 0%
 </tbody> 
 </table>
 
-![](assets/do-not-localize/cp-icon.png) **新的控制面板可能會針對** CNAME子網域發行憑證續約。 [進一步瞭解](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)。
+**其他功能** （從7月13日起）
+
+* **人工智慧支援的傳送時間最佳化和描述檔計分** -您現在可以最佳化客戶歷程的設計和傳遞，以預測每個人的參與偏好。 Adobe Campaign採用Journey AI，可根據歷史參與度量來分析和預測開放率、最佳傳送時間和可能的流失率。 [進一步瞭解](../../sending/using/predictive.md)
+* **巴西的新隱私權規範** -除了Campaign中已提供的隱私權功能外，Adobe還協助您做好準備，以迎接巴西的Lei Geral de Proteçao de Datos(LGPD)。 建立隱私權要求時，LGPD規定已新增至Adobe隱私權核心服務。 [進一步瞭解](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html)
 
 **改進**
 
@@ -123,3 +126,6 @@ ht-degree: 0%
 * 修正在交易電子郵件中使用個人化時造成資料不一致的問題。 (CAMP-41842)
 * 修正刪除推播通知傳送中的自訂欄位時發生的問題。 (CAMP-37586)
 * 修正使用者無法變更報表的錯誤。 (CAMP-42505)
+
+
+![](assets/do-not-localize/cp-icon.png) **新的控制面板可能會針對** CNAME子網域發行憑證續約。 [進一步瞭解](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)。

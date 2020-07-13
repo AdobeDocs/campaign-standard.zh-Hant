@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 446bacfa42fcbc70c7a7c006fa185cdec004c264
+source-git-commit: 4bf004b035c10ccbdb1ff9dc3fb51ddfdef54777
 workflow-type: tm+mt
-source-wordcount: '5954'
+source-wordcount: '5969'
 ht-degree: 9%
 
 ---
@@ -23,6 +23,10 @@ ht-degree: 9%
 # 文件更新{#documentation-updates}
 
 除了Adobe Campaign發行說 [明外](../../rn/using/release-notes.md)，本頁還列出Adobe Campaign Standard檔案中的所有新更新。
+
+## 檔案更新- 2020年7月 {#doc-updates-july-2020}
+
+以人工智慧為動力的全新電子郵件功能： 傳送時間最佳化和描述檔計分 [詳情](../../sending/using/predictive.md)
 
 ## 檔案更新- 2020年6月 {#doc-updates-june-2020}
 

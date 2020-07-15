@@ -12,7 +12,7 @@ discoiquuid: eb24f4ea-325f-433a-91a0-c45906320bcb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+source-git-commit: bd74905985734412b4fb11ad11d70faf9fcc9ca6
 workflow-type: tm+mt
 source-wordcount: '726'
 ht-degree: 6%
@@ -123,7 +123,7 @@ Audience Manager(AAM)或People核心服務整合可讓您在Adobe Campaign中匯
 
 >[!NOTE]
 >
->如果 **[!UICONTROL AAM Destination ID]** 您要設定促銷活動——觸發器整合的共用資料來源，則 [不需要此欄位](../../integrating/using/configuring-triggers-in-experience-cloud.md)。 **[!UICONTROL Priority]** 只有在設定「觸發器——促銷活動」整合時才需要。 優先順序決定要先配置哪個資料源。 優先順序可以是任何數字，例如1或100。 優先順序越高，協調期間的優先順序越高。
+>如果 **[!UICONTROL AAM Destination ID]** 您要設定促銷活動——觸發器整合的共用資料來源，則 [不需要此欄位](../../integrating/using/configuring-triggers-in-experience-cloud.md)。 **[!UICONTROL Priority]** 只有在設定「觸發器——促銷活動」整合時才需要。 優先順序決定要先設定哪個資料來源。 優先順序可以是任何數字，例如1或100。 優先順序越高，協調期間的優先順序越高。
 
 ### 步驟3: 設定促銷活動追蹤伺服器 {#step-3--configure-campaign-tracking-server}
 

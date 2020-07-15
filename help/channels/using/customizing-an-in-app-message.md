@@ -13,7 +13,10 @@ context-tags: delivery,inAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1269ee2041e0857b077424ba7f50fbfa9519ae7b
+source-git-commit: 4efc42fd6b656c7723ed52f704c801113f9b3817
+workflow-type: tm+mt
+source-wordcount: '1080'
+ht-degree: 1%
 
 ---
 
@@ -24,8 +27,8 @@ source-git-commit: 1269ee2041e0857b077424ba7f50fbfa9519ae7b
 
 應用程式內內容編輯器可讓您在兩種應用程式內訊息模式之間進行選擇：
 
-* [訊息範本](#customizing-with-a-message-template):此範本可讓您使用影像或影片和動作按鈕完全自訂應用程式內。
-* [自訂訊息](#customizing-with-a-custom-html-message):此範本可讓您匯入自訂HTML。
+* [訊息範本](#customizing-with-a-message-template): 此範本可讓您使用影像或影片和動作按鈕完全自訂應用程式內。
+* [自訂訊息](#customizing-with-a-custom-html-message): 此範本可讓您匯入自訂HTML。
 
 ![](assets/inapp_customize_1.png)
 
@@ -37,7 +40,7 @@ source-git-commit: 1269ee2041e0857b077424ba7f50fbfa9519ae7b
 
 * [傳送您的應用程式內訊息](../../channels/using/preparing-and-sending-an-in-app-message.md#sending-your-in-app-message)
 * [應用程式內報告](../../reporting/using/in-app-report.md)
-* [實作本機通知追蹤](https://helpx.adobe.com/campaign/kb/local-notification-tracking.html)
+* [實作本機通知追蹤](../../administration/using/local-tracking.md)
 
 ## 使用訊息範本自訂 {#customizing-with-a-message-template}
 
@@ -45,23 +48,23 @@ source-git-commit: 1269ee2041e0857b077424ba7f50fbfa9519ae7b
 
 下拉 **[!UICONTROL Layout]** 式清單提供4種不同的選項，供您根據訊息需求選擇：
 
-* **[!UICONTROL Full page]**:這種版面類型涵蓋您觀眾裝置的整個螢幕。
+* **[!UICONTROL Full page]**: 這種版面類型涵蓋您觀眾裝置的整個螢幕。
 
    它支援媒體（影像、視訊）、文字和按鈕元件。
 
-* **[!UICONTROL Large modal]**:此版面會出現在大型的警報樣式視窗中，而您的應用程式仍會顯示在背景。
+* **[!UICONTROL Large modal]**: 此版面會出現在大型的警報樣式視窗中，而您的應用程式仍會顯示在背景。
 
    它支援媒體（影像、視訊）、文字和按鈕元件。
 
-* **[!UICONTROL Small modal]**:此版面會以小型警報類型視窗的形式顯示，而您的應用程式仍會顯示在背景中。
+* **[!UICONTROL Small modal]**: 此版面會以小型警報類型視窗的形式顯示，而您的應用程式仍會顯示在背景中。
 
    它支援媒體（影像、視訊）、文字和按鈕元件。
 
-* **[!UICONTROL Alert]**:此類型的版面會以原生作業系統警告訊息的形式顯示。
+* **[!UICONTROL Alert]**: 此類型的版面會以原生作業系統警告訊息的形式顯示。
 
    它只能支援文字和按鈕元件。
 
-* **[!UICONTROL Local notification]**:此類型的版面會以橫幅訊息的形式顯示。
+* **[!UICONTROL Local notification]**: 此類型的版面會以橫幅訊息的形式顯示。
 
    它只能支援音效、文字和目的地。 有關本機通知的詳細資訊，請參 [閱自訂本機通知訊息類型](#customizing-a-local-notification-message-type)。
 
@@ -143,7 +146,7 @@ source-git-commit: 1269ee2041e0857b077424ba7f50fbfa9519ae7b
 ## 自定義本地通知消息類型 {#customizing-a-local-notification-message-type}
 
 本機通知只能由應用程式在特定時間觸發，且視事件而定。 他們會提醒使用者，即使沒有網際網路的存取權，應用程式中也會發生什麼事。
-若要瞭解如何追蹤本機通知，請參閱本 [頁](https://helpx.adobe.com/campaign/kb/local-notification-tracking.html)。
+若要瞭解如何追蹤本機通知，請參閱本 [頁](../../administration/using/local-tracking.md)。
 
 要自定義本地通知，請執行以下操作：
 
@@ -163,7 +166,7 @@ source-git-commit: 1269ee2041e0857b077424ba7f50fbfa9519ae7b
    ![](assets/inapp_customize_19.png)
 
 1. 指定當使用者在欄位中與您的本機通知互動時，重新導向的 **[!UICONTROL Deeplink URL]** 目標。
-1. 若要以鍵值對的形式在裝載中傳遞自訂資料，您可以將自訂欄位新增至本機通知。 在類別 **[!UICONTROL Custom fields]** 中，按一下按 **[!UICONTROL Create an element]** 鈕。
+1. 若要以鍵值配對的形式在裝載中傳遞自訂資料，您可以將自訂欄位新增至本機通知。 在類別 **[!UICONTROL Custom fields]** 中，按一下按 **[!UICONTROL Create an element]** 鈕。
 1. 然後輸 **[!UICONTROL Keys]** 入與每 **[!UICONTROL Values]** 個密鑰關聯的。
 
    請注意，自訂欄位的處理與用途完全取決於行動應用程式。
@@ -194,7 +197,7 @@ source-git-commit: 1269ee2041e0857b077424ba7f50fbfa9519ae7b
 
 在傳送應用程式內訊息之前，您可以使用測試設定檔進行測試，以檢查目標對象收到您的傳送內容後會看到什麼。
 
-1. Click the **[!UICONTROL Preview]** button.
+1. 按一下&#x200B;**[!UICONTROL Preview]**&#x200B;按鈕。
 
    ![](assets/inapp_sending_2.png)
 

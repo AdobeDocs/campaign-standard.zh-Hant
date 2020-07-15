@@ -4,10 +4,10 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard 說明
 translation-type: tm+mt
-source-git-commit: 4bf004b035c10ccbdb1ff9dc3fb51ddfdef54777
+source-git-commit: 06dde80beee2d13956f26a9f6ab8eae130fa83ff
 workflow-type: tm+mt
-source-wordcount: '1530'
-ht-degree: 83%
+source-wordcount: '1557'
+ht-degree: 82%
 
 ---
 
@@ -92,9 +92,6 @@ ht-degree: 83%
       + [建立多語言推播通知](channels/using/creating-a-multilingual-push-notification.md)
       + [產生多語言推播通知的 CSV 檔案](channels/using/generating-csv-multilingual-push.md)
       + [基於行動應用程式資料來建立和更新設定檔資訊](channels/using/updating-profile-with-mobile-app-data.md)
-      + [實施推播追蹤](channels/using/push-tracking.md)
-      + [從 Adobe Campaign Standard 推播通知顯示影像](channels/using/image-push-notification.md)
-      + [瞭解 Campaign Standard 推播通知裝載結構](channels/using/push-payload.md)
    + 應用程式內訊息傳送{#in-app-messaging}
       + [關於應用程式內訊息傳送](channels/using/about-in-app-messaging.md)
       + [準備和傳送應用程式內訊息](channels/using/preparing-and-sending-an-in-app-message.md)
@@ -317,6 +314,7 @@ ht-degree: 83%
          + [將電子郵件與直效郵件傳送結合](automating/using/coupling-email-direct-mail.md)
          + [傳送包含豐富欄位的電子郵件](automating/using/sending-email-enriched-fields.md)
          + [使用其他資料個人化電子郵件](automating/using/personalizing-email-with-additional-data.md)
+         + [傳送循環推播通知](automating/using/recurring-push-notifications.md)
       + 細分與目標定位 {#segmentation-targeting}
          + [查詢示例](automating/using/query-samples.md)
          + [結合兩個精美受眾](automating/using/union-on-two-refined-audiences.md)
@@ -388,6 +386,7 @@ ht-degree: 83%
       + [透過 API 觸發資料引入](developing/using/aep-triggering-data-ingestion.md)
 + 管理 {#administrating}
    + [開始使用Campaign Standard管理](administration/using/get-started-campaign-administration.md)
+   + [監控准則](administration/using/monitoring-guidelines.md)
    + [配置指南](administration/using/about-configuration-guidelines.md)
    + 使用者與安全性 {#users-and-security}
       + [關於存取管理](administration/using/about-access-management.md)
@@ -403,6 +402,13 @@ ht-degree: 83%
       + [設定 SMS 通道](administration/using/configuring-sms-channel.md)
       + [設定行動應用程式](administration/using/configuring-a-mobile-application.md)
       + [設定交易式訊息傳遞](administration/using/configuring-transactional-messaging.md)
+   + 設定行動頻道 {#configuring-mobile}
+      + [實施推播追蹤](administration/using/push-tracking.md)
+      + [從 Adobe Campaign Standard 推播通知顯示影像](administration/using/image-push-notification.md)
+      + [瞭解 Campaign Standard 推播通知裝載結構](administration/using/push-payload.md)
+      + [實作本機通知追蹤](administration/using/local-tracking.md)
+      + [SyncWithLaunch技術工作流程常見問答集](administration/using/syncwithlaunch-faq.md)
+      + [Adobe Experience Platform SDK與Adobe Campaign整合常見問答集](administration/using/aep-faq.md)
    + 應用程式設定 {#application-settings}
       + [關於 Campaign Standard 設定](administration/using/about-campaign-standard-settings.md)
       + [外部帳戶](administration/using/external-accounts.md)

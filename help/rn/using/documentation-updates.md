@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c4cfd36d54044b5988ec2160ba695921fc9d9920
+source-git-commit: 979ddba984bd564bf60b42973c857f2b896eeaf6
 workflow-type: tm+mt
-source-wordcount: '6092'
+source-wordcount: '6089'
 ht-degree: 10%
 
 ---
@@ -24,11 +24,11 @@ ht-degree: 10%
 
 除了Adobe Campaign發行說 [明外](../../rn/using/release-notes.md)，本頁還列出Adobe Campaign Standard檔案中的所有新更新。
 
-## 檔案更新- 2020年7月 {#doc-updates--july-2020}
+## 檔案更新- 2020年7月 {#doc-updates-july-2020}
 
 新增了與「促銷活動標準」監控相關的准則。 [詳細內容](../../administration/using/monitoring-guidelines.md)
 
-已更新外部API護欄。[詳細內容](../../automating/using/external-api.md)
+已更新外部API護欄。 [詳細內容](../../automating/using/external-api.md)
 
 「隱私權管理概述」頁面已更新，加入泰國個人資料保護法(PDPA)和巴西Lei Geral de Proteção de Dados(LGPD)的相關資訊。 [詳細內容](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
@@ -36,9 +36,7 @@ ht-degree: 10%
 
 「促銷活動標準」頁面中的「隱私權管理」已更新，包括如何透過「隱私權核心服務」整合管理隱私權要求的說明。 [詳細內容](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)
 
-## 檔案更新- 2020年7月 {#doc-updates-july-2020}
-
-以人工智慧為動力的全新電子郵件功能： 傳送時間最佳化和描述檔計分 [詳情](../../sending/using/predictive.md)
+以人工智慧為動力的全新電子郵件功能： 傳送時間最佳化和描述檔計分。 [詳細內容](../../sending/using/predictive.md)
 
 ## 檔案更新- 2020年6月 {#doc-updates-june-2020}
 

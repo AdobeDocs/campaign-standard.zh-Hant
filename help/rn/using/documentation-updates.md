@@ -12,10 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4bf004b035c10ccbdb1ff9dc3fb51ddfdef54777
+source-git-commit: 06dde80beee2d13956f26a9f6ab8eae130fa83ff
 workflow-type: tm+mt
-source-wordcount: '5969'
-ht-degree: 9%
+source-wordcount: '6084'
+ht-degree: 10%
 
 ---
 
@@ -23,6 +23,16 @@ ht-degree: 9%
 # 文件更新{#documentation-updates}
 
 除了Adobe Campaign發行說 [明外](../../rn/using/release-notes.md)，本頁還列出Adobe Campaign Standard檔案中的所有新更新。
+
+## 檔案更新- 2020年7月 {#doc-updates--july-2020}
+
+新增了與「促銷活動標準」監控相關的准則。 [詳細內容](../../administration/using/monitoring-guidelines.md)
+
+「隱私權管理概述」頁面已更新，加入泰國個人資料保護法(PDPA)和巴西Lei Geral de Proteção de Dados(LGPD)的相關資訊。 [詳細內容](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
+
+行動頻道指南已重新整理並改良。 新的指南「設定行動頻道」已新增有關行動設定的技術檔案。 [詳細內容](../../administration/using/push-tracking.md)
+
+「促銷活動標準」頁面中的「隱私權管理」已更新，包括如何透過「隱私權核心服務」整合管理隱私權要求的說明。 [詳細內容](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)
 
 ## 檔案更新- 2020年7月 {#doc-updates-july-2020}
 
@@ -34,7 +44,7 @@ ht-degree: 9%
 
 已新增使用案例，說明如何使用「控制 [面板](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt) 」和「促 [銷活動](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) 」工作流程來加密和解密資料。
 
-「白名單」和「黑名單」詞語都已從Adobe Campaign檔案中移除。 產品UI、選項名稱和內部代碼中可能仍會出現這些詞語，但在即將發行的促銷活動版本中，這些詞語會以「blocklist」和「allowlist」取代。
+已從 Adobe Campaign 文件移除「白名單」和「黑名單」等詞語。產品 UI、選項名稱和內部代碼中可能仍會出現這些詞語，但在即將發行的 Campaign 版本中，這些詞語將由「封鎖清單」和「允許清單」取代。
 
 舊版支援網站的參考已由新URL取代。 [進一步瞭解](https://helpx.adobe.com/campaign/kb/ac-support.html#acs-support-req)
 
@@ -812,7 +822,7 @@ Adobe Campaign通知——閱 [讀更多](../../administration/using/sending-int
 
 現在有了新的技術： 「整合Adobe Mobile SDK與您的行動應用程式」。 [詳細內容](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html)
 
-設定People核心服務或Audience Manager與Adobe Campaign整合的指示（已啟動通訊管道）。mdegrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+已新增設定People核心服務或Audience Manager與Adobe Campaign整合的指示。 [詳細內容](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 修改授權表，使某些角色的功能更清晰。 [詳細內容](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
 

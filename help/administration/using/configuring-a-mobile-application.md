@@ -12,9 +12,9 @@ discoiquuid: 2a14500f-5ede-4131-8b1a-b7fd65b7e3aa
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f4f09556fed8c3cca44a72ac6dfeb280379d58c3
+source-git-commit: 7755877031c5ef2dbbac395ac40b2f76670a6499
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1341'
 ht-degree: 0%
 
 ---
@@ -42,6 +42,7 @@ ht-degree: 0%
    * **[!UICONTROL Push notification]**
    * **[!UICONTROL In-App message]**
    * **[!UICONTROL Adobe Places]**
+
    如果沒有，請連絡您的帳戶團隊。
 
 1. 檢查您的使用者是否擁有Adobe Campaign Standard和Experience Platform Launch中的必要權限。
@@ -49,6 +50,7 @@ ht-degree: 0%
 
    * 在Experience Platform Launch中，請確定您的IMS使用者是Experience Platform Launch產品設定檔的一部分。
 此步驟可讓使用者登入Experience Platform Launch以建立和檢視屬性。 如需Experience Platform Launch中產品設定檔的詳細資訊，請參閱建立您的產品設定檔。 在產品設定檔中，公司或屬性上應未設定任何權限，但使用者仍可登入。
+
    若要完成其他工作，例如安裝擴充功能、發佈應用程式、設定環境等，您必須在產品設定檔中設定權限。
 
 1. 在Experience Platform Launch中，建立 **[!UICONTROL Mobile property]**。 如需詳細資訊，請 [參閱「設定行動裝置屬性」](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)。
@@ -136,7 +138,7 @@ ht-degree: 0%
 
 ## Adobe Campaign中的頻道特定應用程式設定 {#channel-specific-config}
 
-您的行動應用程式現在已可供用於Campaign中的推播通知或應用程式內傳送。 您現在可視需要進一步設定，以建立會觸發應用程式內訊息和／或上傳推播憑證的事件。
+您的行動應用程式現在已可供用於Campaign中推播通知或應用程式內傳送。 您現在可視需要進一步設定，以建立會觸發應用程式內訊息和／或上傳推播憑證的事件。
 
 1. 從進階功能表中，選取 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]**。
 
@@ -152,7 +154,7 @@ ht-degree: 0%
 
    ![](assets/launch_7.png)
 
-1. 按一下 **[!UICONTROL Add]**.
+1. 按一下「**[!UICONTROL Add]**」。
 
    當您建立應用程式內訊息時，「觸發器」標籤現在提供您的事件。 如需詳細資訊，請 [參閱「準備和傳送應用程式內訊息」](../../channels/using/preparing-and-sending-an-in-app-message.md)。
 
@@ -182,4 +184,4 @@ ht-degree: 0%
 
 按一下Adobe Campaign中的應用程式，您就可以選擇從Adobe Campaign中完全移除此應用程式，方法是按一下「從促銷活動刪除」。
 
-    ![](assets/launch_9.png)
+![](assets/launch_9.png)

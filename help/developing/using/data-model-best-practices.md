@@ -13,7 +13,7 @@ context-tags: cusResource,overview;eventCusResource,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: b7775e1d95e6a7e08b38fc65b44a061eda7ff079
 workflow-type: tm+mt
 source-wordcount: '1556'
 ht-degree: 0%
@@ -56,11 +56,11 @@ Adobe Campaign預設資料模型會顯示在本 [節](../../developing/using/dat
 
 <!--### What is a customer? {#customer-definition}
 
-If you have customer data in more than one system, you need to determine which solution will allow you to identify records as one person. This work might require rules, eventually a match and merge processes to determine the master record. This master record should be the one sent to Adobe Campaign.
+If you have customer data in more than one system, you need to determine which solution will allow you to identify records as one person. This work might require rules, eventually a match and merge processes to determine the primary record. This primary record should be the one sent to Adobe Campaign.
 
 While some of this data cleansing might be performed in Adobe Campaign, the recommendation is to run these processes outside and only import clean data in Adobe Campaign. You should keep Campaign as a marketing solution more than a data cleansing tool.
 
-Be able to provide a master customer record which will be sent to Adobe Campaign.-->
+Be able to provide a primary customer record which will be sent to Adobe Campaign.-->
 
 ### Adobe Campaign的資料 {#data-for-campaign}
 
@@ -98,7 +98,7 @@ Adobe Campaign資源有三個識別碼，而且可以新增其他識別碼。
 >
 >顯示名稱是透過Adobe Campaign使用者介面顯示給使用者之欄位的名稱。 技術名稱是資源定義中的實際欄位名稱（和表列名稱）。
 
-| 顯示名稱 | 技術名稱 | 說明 | 最佳作法 |
+| 顯示名稱 | 技術名稱 | 說明 | 最佳實務 |
 |--- |--- |--- |--- |
 |  | PKey | <ul><li>PKey是Adobe Campaign表的實體主鍵。</li><li>此識別碼通常對特定Adobe Campaign例項唯一。</li><li>在Adobe Campaign Standard中，一般使用者看不到此值（URL除外）。</li></ul> | <ul><li>通過 [API系統](../../api/using/get-started-apis.md)，可以檢索PKey值（該值是生成／散列值，而不是物理密鑰）。</li><li>建議不要將它用於任何其他目的，而不是透過API擷取、更新或刪除記錄。</li></ul> |
 | ID | name或internalName | <ul><li>此資訊是表中記錄的唯一標識符。 此值可以手動更新。</li><li>此識別碼會在部署至不同的Adobe Campaign例項時保留其值。 它的名稱必須與生成的值不同，才能通過包導出。</li><li>這不是表的實際主鍵。</li></ul> | <ul><li>請勿使用特殊字元，例如空格&quot;&quot;、半欄&quot;:&quot;或連字型大小&quot;-&quot;。</li><li>所有這些字元都會以底線&quot;_&quot;（允許的字元）取代。 例如，&quot;abc-def&quot;和&quot;abc:def&quot;會儲存為&quot;abc_def&quot;，並互相覆寫。</li></ul> |

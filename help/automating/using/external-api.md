@@ -10,9 +10,9 @@ context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+source-git-commit: cad3a63d3e0dd94e4e308110996ed15c75beb904
 workflow-type: tm+mt
-source-wordcount: '1703'
+source-wordcount: '1699'
 ht-degree: 0%
 
 ---
@@ -56,10 +56,10 @@ ht-degree: 0%
 
 ### 限制和護欄 {#guardrails}
 
-為此活動設定了以下護欄：
+以下護欄適用於此活動：
 
-* 50MB http回應資料大小限制
-* 請求逾時為10分鐘
+* 5MB http回應資料大小限制
+* 請求逾時為1分鐘
 * 不允許HTTP重新導向
 * 拒絕非HTTPS Url
 * 「接受： application/json」請求標題和「Content-Type: application/json&quot;回應標題是允許的
@@ -155,7 +155,7 @@ JSON剖析器的設計可容納標準JSON結構模式類型，但有些例外。
 
 ### 轉換
 
-此標籤可讓您啟用 **出站轉場** 及其標籤。 在逾時或負載超過資料大小限 **制時** ，此特定轉 **換非常實用**。
+此標籤可讓您啟用 **出站轉場** 及其標籤。 在逾時或負載超過資料大 **小限制** 時，此特定轉 **換很實用**。
 
 ![](assets/externalAPI-transition.png)
 

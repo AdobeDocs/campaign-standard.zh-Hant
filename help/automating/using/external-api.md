@@ -10,9 +10,9 @@ context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cad3a63d3e0dd94e4e308110996ed15c75beb904
+source-git-commit: bb023ce5f716ffca0f94922de86cda5a8878d470
 workflow-type: tm+mt
-source-wordcount: '1699'
+source-wordcount: '1748'
 ht-degree: 0%
 
 ---
@@ -58,16 +58,15 @@ ht-degree: 0%
 
 以下護欄適用於此活動：
 
-* 5MB http回應資料大小限制
-* 請求逾時為1分鐘
+* 50MBhttp回應資料大小限制（建議使用5MB）
+* 請求逾時為10分鐘
 * 不允許HTTP重新導向
 * 拒絕非HTTPS Url
 * 「接受： application/json」請求標題和「Content-Type: application/json&quot;回應標題是允許的
 
->[!CAUTION]
+>[!NOTE]
 >
->請注意，此活動的用途是擷取促銷活動範圍的資料（最新的選件集、最新的分數等），而非擷取每個描述檔的特定資訊，因為這會導致大量資料傳輸。 如果使用案例需要此項，建議使用「傳輸檔 [案](../../automating/using/transfer-file.md) 」活動。
-
+>從Campaign 20.4版開始，http回應資料大小限制和護欄將降為5MB和1分鐘。  雖然這項變更只會影響新的外部API活動，但建議目前外部API活動的實作與這些新護欄一致，以遵循最佳實務。
 
 JSON的特定防護欄已設定：
 
@@ -75,12 +74,14 @@ JSON的特定防護欄已設定：
 * **JSON金鑰最大長度**: 將內部密鑰的最大長度限制為255。 此鍵與列ID相關聯。
 * **允許JSON最大重複金鑰**:  將用作欄ID的重複JSON屬性名稱的總數上限限制為150。
 
-
 活動不支援JSON結構，如下：
 
 * 將陣列對象與其他非陣列元素組合
 * JSON陣列物件是巢狀內嵌在一或多個中間陣列物件中。
 
+>[!CAUTION]
+>
+>「外部API」活動是指擷取促銷活動範圍的資料（最新選件集、最新分數等），而非擷取每個描述檔的特定資訊，因為這會導致大量資料傳輸。 如果使用案例需要此項，建議使用「傳輸檔 [案](../../automating/using/transfer-file.md) 」活動。
 
 ## 配置 {#configuration}
 
@@ -155,7 +156,7 @@ JSON剖析器的設計可容納標準JSON結構模式類型，但有些例外。
 
 ### 轉換
 
-此標籤可讓您啟用 **出站轉場** 及其標籤。 在逾時或負載超過資料大 **小限制** 時，此特定轉 **換很實用**。
+此標籤可讓您啟用 **出站轉場** 及其標籤。 在逾時或負載超過資料大小限 **制時** ，此特定轉 **換非常實用**。
 
 ![](assets/externalAPI-transition.png)
 

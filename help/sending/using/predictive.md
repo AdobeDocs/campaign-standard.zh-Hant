@@ -12,9 +12,9 @@ discoiquuid: 609355f6-9003-41b9-9981-ea787419fbf5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f45985c030c3d5059bfef444287c10b842298f49
+source-git-commit: ddf585def583acefbb25e7a48318966cd2af49a7
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,7 @@ Adobe Campaign Standard提供兩種新的機器學習模型： **預測性傳送
 
 * **預測性參與計分**: 預測性參與計分可預測收件者與訊息互動的可能性，以及在下次傳送電子郵件後7天內選擇退出（取消訂閱）的可能性。 根據脫離、中度或低度的具體風險，這些概率進一步被分成若干區間。 此外，模型也提供風險百分位數排名，讓客戶瞭解特定客戶與其他客戶的排名。
 
->[!NOTE]
-> **必要條件&#x200B;**
->
+>[!CAUTION]
 >這項功能無法立即在產品中使用。 實作需要Adobe Consulting參與。 請洽詢您的Adobe代表以瞭解更多資訊。
 >
 >另外，此功能需要使用客戶必須提供的Azure儲存空間。

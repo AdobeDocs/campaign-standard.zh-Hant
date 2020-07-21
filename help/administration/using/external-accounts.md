@@ -13,7 +13,7 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 85dc2b3ba9a781483f88238fbf5a9208a0c18c37
+source-git-commit: f00c5cd2f6642048ebd056dcaf5a156f8cf7ca18
 workflow-type: tm+mt
 source-wordcount: '1559'
 ht-degree: 9%
@@ -32,7 +32,7 @@ ht-degree: 9%
 * SFTP。 如需詳細資訊，請參閱[本章節](#sftp-external-account)。
 * Amazon Storage Service(S3)。 如需詳細資訊，請參閱[本章節](#amazon-s3-external-account)。
 * Adobe Experience Manager。 如需詳細資訊，請參閱[本章節](#adobe-experience-manager-external-account)。
-* Adobe Analytics。 如需詳細資訊，請參閱[本章節](../../integrating/using/configure-campaign-analytics-integration.md)。
+* Adobe Analytics. 如需詳細資訊，請參閱[本章節](../../integrating/using/configure-campaign-analytics-integration.md)。
 * Google reCAPTCHA。 如需詳細資訊，請參閱[本章節](#google-recaptcha-external-account)。
 * Microsoft Azure Blob儲存。 如需詳細資訊，請參閱[本章節](#microsoft-azure-external-account)。
 
@@ -51,7 +51,7 @@ Adobe Campaign隨附一組預先定義的外部帳戶。 若要設定與外部�
 1. 按一下&#x200B;**[!UICONTROL Create]**&#x200B;按鈕。
 1. 輸入標籤。 在工作流程中選取外部帳戶時，將會使用標籤和ID。
 1. 選擇要建立的帳戶類型。
-1. 在相關時指定憑證、伺服器位址、埠號或金鑰，以設定帳戶存取權。
+1. 在相關時指定憑證、伺服器位址、埠號或金鑰，以設定帳戶的存取權。
 
    所需資訊通常由您所連接的伺服器提供商提供。
 
@@ -133,7 +133,9 @@ Adobe Experience Manager外部帳戶用於整合Campaign與Experience Manager。
 
 * 伺服器： 輸入Adobe Experience Manager伺服器的URL。 例如：
 
-   ``` http://aem.domain.com:4502 ```
+   ```
+   http://aem.domain.com:4502
+   ```
 
 * AEM帳戶認證： 使用可存取Adobe Experience Manager例項的帳戶。 它應該是Experience Manager中促銷活動——遠端群組的帳戶部分。
 

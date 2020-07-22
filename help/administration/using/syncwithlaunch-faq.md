@@ -1,6 +1,6 @@
 ---
-title: 關於存取管理
-description: 使用角色、群組和組織單位管理您的Adobe Campaign運算子。
+title: 與Launch技術工作流程同步常見問答集
+description: 啟動技術工作流程的常見問題。
 page-status-flag: never-activated
 uuid: 4f538452-cc67-4e03-9e2f-2d9eecc081c7
 contentOwner: sauviat
@@ -12,19 +12,19 @@ discoiquuid: 54028f63-c9ca-4397-a079-e27e0cfdebf6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d0a0c59763af8babc9701206cc39fe41b98e0cd4
+source-git-commit: 6c5cf90211451587537b9a6121430fc4f352384c
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '513'
 ht-degree: 0%
 
 ---
 
 
-# SyncWithLaunch技術工作流程常見問答集 {#syncwithlaunch-faq}
+# 與Launch技術工作流程同步常見問答集 {#syncwithlaunch-faq}
 
-此工 **[!UICONTROL Sync with Launch]** 作流程可讓您自動將所有Adobe Launch行動裝置屬性匯入Adobe Campaign Standard。
+您可以透過專屬的技術工作流程，將Adobe Launch行動裝置屬性匯入Adobe Campaign **[!UICONTROL Sync with Launch]** Standard。 For more information, refer to this [page](../../administration/using/technical-workflows.md)
 
-For more information on this, refer to this [page](../../administration/using/technical-workflows.md).
+下節列出了有關此同步的常見問題。
 
 >[!NOTE]
 >

@@ -13,9 +13,9 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 02fa55789449efe03af75779892303941b8a2871
+source-git-commit: 6c5cf90211451587537b9a6121430fc4f352384c
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '819'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,10 @@ ht-degree: 0%
 ## 關於推播追蹤 {#about-push-tracking}
 
 若要確保已完全開發推播通知，您必須確定追蹤部分已正確實作。
+這假設您已實作推播通知實作的第一部分：
 
-下列步驟可讓您確保推播追蹤已正確實作。 這假設您已實作推播通知實作的第一部分： 註冊應用程式使用者並處理推播通知訊息。
+* 註冊應用程式使用者
+* 處理推播通知訊息
 
 推播追蹤分為三種類型：
 
@@ -37,7 +39,7 @@ ht-degree: 0%
 
 * **推播開啟** -當推播通知已傳送至裝置，且使用者已點按通知導致應用程式開啟時。  這類似於推播點按，但是當通知關閉時，不會觸發推播開啟。
 
-若要實作Campaign Standard的追蹤，行動應用程式必須包含Mobile SDK。 這些SDK可在Adobe Mobile Services上取得。
+若要實作Campaign Standard的追蹤，行動應用程式必須包含Mobile SDK。 這些SDK可在Adobe Mobile Services上取得。 For more on this, refer to this [page](../../administration/using/configuring-a-mobile-application.md).
 
 若要傳送追蹤資訊，有三個變數需要傳送。 兩個是從「促銷活動標準」收到的資料的一部分，另一個是指定印象、按一下或開 **啟的****動作** 變 **數**。
 
@@ -51,7 +53,7 @@ ht-degree: 0%
 
 ### 如何實施推播曝光追蹤 {#push-impression-tracking-android}
 
-若是印象追蹤，在呼叫trackAction()函式時，您必須傳送值&quot;7&quot;以取得動作。
+若是印象追蹤，您必須在呼叫函式時傳送值&quot;7&quot;以執行 **[!UICONTROL trackAction()]** 動作。
 
 ```
 @Override
@@ -73,7 +75,7 @@ public void onMessageReceived(RemoteMessage remoteMessage) {
 
 ### 如何實施點按追蹤 {#push-click-tracking-android}
 
-若是點按追蹤，您必須在呼叫trackAction()函式時傳送動作值&quot;2&quot;。
+若是點按追蹤，您必須在呼叫函式時傳送值&quot;2&quot;以執行 **[!UICONTROL trackAction()]** 動作。
 
 若要追蹤點按，需要處理兩種情況：
 
@@ -82,7 +84,7 @@ public void onMessageReceived(RemoteMessage remoteMessage) {
 
 若要處理此問題，您必須使用兩種方式： 一個用於按一下通知，另一個用於關閉通知。
 
-MyFirebaseMessagingService.java
+**[!UICONTROL MyFirebaseMessagingService.java]**
 
 ```
 private void sendNotification(Map<String, String> data) {
@@ -111,7 +113,7 @@ private void sendNotification(Map<String, String> data) {
 }
 ```
 
-為了讓BroadcastReceiver運作，您必須將它註冊至AndroidManifest.xml
+為了讓您 **[!UICONTROL BroadcastReceiver]** 能夠工作，您需要將它註冊至 **[!UICONTROL AndroidManifest.xml]**
 
 ```
 <manifest>
@@ -152,7 +154,7 @@ public class NotificationDismissedReceiver extends BroadcastReceiver {
 
 若要追蹤開啟，您必須建立「方式」。 目的物件可讓Android OS在執行特定動作時呼叫您的方法。 在此情況下，按一下通知以開啟應用程式。
 
-此程式碼是以點按印象追蹤的實施為基礎。 在設定「方式」後，您現在需要將追蹤資訊傳回至「促銷活動」。 在這種情況下，您必須將「開啟方式」設定為在應用程式中開啟至特定檢視，這會呼叫onResume方法，並在「方式物件」中提供通知資料。
+此程式碼是以點按印象追蹤的實施為基礎。 設定 **[!UICONTROL Intent]** 後，您現在需要將追蹤資訊傳回至Adobe Campaign Standard。 在這種情況下，您必須將設定為 **[!UICONTROL Open Intent]** 開啟至應用程式中的特定檢視，這會呼叫onResume方法，其中包含通知資料 **[!UICONTROL Intent Object]**。
 
 ```
 @Override
@@ -194,7 +196,7 @@ private void handleTracking() {
 
 ### 如何實施推播曝光追蹤 {#push-impression-tracking-iOS}
 
-若是印象追蹤，在呼叫trackAction()函式時，您必須傳送值&quot;7&quot;以取得動作。
+若是印象追蹤，您必須在呼叫函式時傳送值&quot;7&quot;以執行 **[!UICONTROL trackAction()]** 動作。
 
 若要瞭解iOS通知的運作方式，應用程式的三種狀態必須詳細說明：
 
@@ -204,11 +206,11 @@ private void handleTracking() {
 
 如果應用程式關閉，Apple會在應用程式重新啟動之前呼叫該應用程式。 這表示您無法得知iOS上的通知何時收到。
 
-為了在應用程式處於背景時仍能進行曝光追蹤，我們需要傳送 **Content-Available** ，讓應用程式知道必須進行追蹤。
+為了在應用程 **[!UICONTROL Impression]** 式在背景時仍能進行追蹤，我們需要傳送 **[!UICONTROL Content-Available]** 來讓應用程式知道必須進行追蹤。
 
 >[!CAUTION]
 >
->iOS曝光追蹤不準確，不應視為可靠。
+>iOS曝光追蹤不準確，因此不應被視為可靠。
 
 下列程式碼以背景應用程式為目標：
 
@@ -250,7 +252,7 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent noti
 
 ### 如何實施點按追蹤 {#push-click-tracking-iOS}
 
-若是點按追蹤，您必須在呼叫trackAction()函式時傳送動作值&quot;2&quot;。
+若是點按追蹤，您必須在呼叫函式時傳送值&quot;2&quot;以執行 **[!UICONTROL trackAction()]** 動作。
 
 ```
 // AppDelegate.swift
@@ -291,7 +293,7 @@ func registerForPushNotifications() {
 
 ![](assets/tracking_push.png)
 
-然後，若要處理「關閉」並傳送您需要新增下列項目的追蹤資訊：
+然後，若要處 **[!UICONTROL Dismiss]** 理並傳送追蹤資訊，您必須新增下列項目：
 
 ```
 func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {

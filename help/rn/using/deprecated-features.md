@@ -12,9 +12,9 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7622018bff9c8b8573dae139372bea697815849f
+source-git-commit: 2d4b1ba38a7aa33d1fff3415d71080e370cb80f4
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '587'
 ht-degree: 1%
 
 ---
@@ -70,7 +70,7 @@ Adobe會持續評估產品功能，以找出應以更現代的替代方式來取
    <td> <p>在啟動Campaign 19.4發行時，已不再使用Campaign API和介面來存取和刪除請求。 2步驟描述檔刪除將無法使用。 使用 <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe隱私權核心服務</a>。</p></br>
    <p>另請參閱 <a href="https://helpx.adobe.com/campaign/kb/acs-privacy.html">Campaign Standard中的隱私權管理</a>。</p>
   <p> 
-  <em>目標刪除版本： Campaign 20.4發行</em></p>
+  <em>目標刪除日期： 2021年</em></p>
    </td> 
   </tr> 
  </tbody> 
@@ -87,7 +87,7 @@ Adobe會持續評估產品功能，以找出應以更現代的替代方式來取
    <td> <p>在啟動Campaign 19.0版本時，舊版電子郵件編輯器已過時。 使用 <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">全新的電子郵件設計工具</a> ，建立並個人化您的電子郵件內容。 </p></br>
    <p>閱讀本 <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">節</a> ，瞭解如何針對新編輯者調整您的電子郵件範本。</p></br>
   <p> 
-  <em>目標刪除版本： 2021年</em></p>
+  <em>目標刪除日期： 2021年</em></p>
    </td> 
   </tr> 
  </tbody> 

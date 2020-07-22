@@ -4,10 +4,10 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard 說明
 translation-type: tm+mt
-source-git-commit: 06dde80beee2d13956f26a9f6ab8eae130fa83ff
+source-git-commit: 91cb524e104fbaa7f3334578d82b3878cc15fc9b
 workflow-type: tm+mt
-source-wordcount: '1557'
-ht-degree: 82%
+source-wordcount: '1550'
+ht-degree: 81%
 
 ---
 
@@ -404,11 +404,11 @@ ht-degree: 82%
       + [設定交易式訊息傳遞](administration/using/configuring-transactional-messaging.md)
    + 設定行動頻道 {#configuring-mobile}
       + [實施推播追蹤](administration/using/push-tracking.md)
-      + [從 Adobe Campaign Standard 推播通知顯示影像](administration/using/image-push-notification.md)
-      + [瞭解 Campaign Standard 推播通知裝載結構](administration/using/push-payload.md)
+      + [新增影像和視訊iOS](administration/using/image-push-notification.md)
+      + [瞭解推播通知裝載結構](administration/using/push-payload.md)
       + [實作本機通知追蹤](administration/using/local-tracking.md)
       + [SyncWithLaunch技術工作流程常見問答集](administration/using/syncwithlaunch-faq.md)
-      + [Adobe Experience Platform SDK與Adobe Campaign整合常見問答集](administration/using/aep-faq.md)
+      + [開始使用Adobe Experience Platform SDK和Campaign](administration/using/aep-faq.md)
    + 應用程式設定 {#application-settings}
       + [關於 Campaign Standard 設定](administration/using/about-campaign-standard-settings.md)
       + [外部帳戶](administration/using/external-accounts.md)

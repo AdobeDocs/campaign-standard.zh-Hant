@@ -10,9 +10,9 @@ context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bb023ce5f716ffca0f94922de86cda5a8878d470
+source-git-commit: 3bd2fdb56fc94cef4e9c21466a33cdad7ac825d2
 workflow-type: tm+mt
-source-wordcount: '1748'
+source-wordcount: '1754'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->從Campaign 20.4版開始，http回應資料大小限制和護欄將降為5MB和1分鐘。  雖然這項變更只會影響新的外部API活動，但建議目前外部API活動的實作與這些新護欄一致，以遵循最佳實務。
+>從Campaign 20.4版開始，http回應資料大小限制和回應逾時護欄將分別降低為5MB和1分鐘。  雖然這項變更只會影響新的外部API活動，但強烈建議目前外部API活動的實施與這些新的防護欄一致，以遵循最佳實務。
 
 JSON的特定防護欄已設定：
 
@@ -156,7 +156,7 @@ JSON剖析器的設計可容納標準JSON結構模式類型，但有些例外。
 
 ### 轉換
 
-此標籤可讓您啟用 **出站轉場** 及其標籤。 在逾時或負載超過資料大小限 **制時** ，此特定轉 **換非常實用**。
+此標籤可讓您啟用 **出站轉場** 及其標籤。 在逾時或負載超過資料大 **小限制** 時，此特定轉 **換很實用**。
 
 ![](assets/externalAPI-transition.png)
 

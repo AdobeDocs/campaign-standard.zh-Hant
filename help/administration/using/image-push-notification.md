@@ -13,9 +13,9 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6c5cf90211451587537b9a6121430fc4f352384c
+source-git-commit: cf43edcacbab9f1f33ce29e23c0957d8bfa64e7d
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '428'
 ht-degree: 2%
 
 ---
@@ -64,9 +64,9 @@ ht-degree: 2%
 
 如果您的應用程式在 [!DNL Swift]其中，請遵循下列步驟：
 
-1. 開啟您 [的DNL Xcode專案] 。
+1. 開啟您的 [!DNL Xcode] 專案。
 
-1. 在您的 [DNL Xcode專案中] ，選取 **[!UICONTROL File]** > **[!UICONTROL New]** > **[!UICONTROL Target]**。
+1. 在您的專 [!DNL Xcode] 案中，選取 **[!UICONTROL File]** > **[!UICONTROL New]** > **[!UICONTROL Target]**。
 
 1. Select **[!UICONTROL Notification Service Extension]**.
 

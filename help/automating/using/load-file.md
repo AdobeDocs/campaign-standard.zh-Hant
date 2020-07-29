@@ -13,9 +13,9 @@ context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
+source-git-commit: 9a4c2219d5f8b312deb476d852cf5db9cd19afcb
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1364'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,10 @@ ht-degree: 0%
 # 載入檔案 {#load-file}
 
 ## 說明 {#description}
+
+>[!CAUTION]
+>
+>使用此功能時，請記住SFTP儲存空間、資料庫儲存空間和作用中的設定檔限制，請依照您的AdobeCampaign合約規定。
 
 ![](assets/data_loading.png)
 
@@ -154,6 +158,7 @@ ht-degree: 0%
    * **[!UICONTROL Use a default value]**: 以在欄位中定義的預設值取代造成錯誤的 **[!UICONTROL Default value]** 值。
    * **[!UICONTROL Use a default value in case the value is not remapped]**: 以在欄位中定義的預設值取代導致錯誤的值，除非 **[!UICONTROL Default value]** 已針對錯誤值定義對應(請參閱上 **[!UICONTROL Remapping of values]** 述選項)。
    * **[!UICONTROL Reject the line when there is no remapping value]**: 除非為錯誤值定義了映射(請參閱上面的選 **[!UICONTROL Remapping of values]** 項)，否則不處理整行。
+
    >[!NOTE]
    >
    >**[!UICONTROL Error processing]** 有關匯入檔案中值的錯誤。 例如，遇到錯誤的資料類型（「4」全部是「整數」列的字母）、包含超過授權最大數字的字串、分隔符錯誤的日期等。 但是，此選項與空值管理產生的錯誤無關。

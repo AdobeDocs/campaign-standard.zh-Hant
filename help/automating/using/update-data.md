@@ -1,6 +1,6 @@
 ---
 title: 更新資料
-description: 「更新」資料活動允許您對資料庫中的欄位執行成批更新。
+description: 「更新」資料活動可讓您對資料庫中的欄位執行成批更新。
 page-status-flag: never-activated
 uuid: 1dc55db5-affd-4688-b673-adfb8c1338b5
 contentOwner: sauviat
@@ -16,7 +16,7 @@ translation-type: tm+mt
 source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
 workflow-type: tm+mt
 source-wordcount: '472'
-ht-degree: 1%
+ht-degree: 96%
 
 ---
 
@@ -27,52 +27,54 @@ ht-degree: 1%
 
 ![](assets/data_update.png)
 
-此活 **[!UICONTROL Update data]** 動允許您對資料庫中的欄位執行成批更新。
+活動 **[!UICONTROL Update data]** 可讓您對資料庫中的欄位執行大量更新。
 
 ## 使用內容 {#context-of-use}
 
-匯 **入檔案後** ，可使用「更新資料」活動，以便將已復原的資料插入Adobe Campaign資料庫。 幾個選項可讓您個人化更新資料。
+匯入檔案之後，可使用&#x200B;**更新資料**&#x200B;活動，以便將已復原的資料插入 Adobe Campaign 資料庫。數個選項可讓您個人化更新資料。
 
 **相關主題：**
 
 * [使用案例： 根據檔案更新資料](../../automating/using/update-database-file.md)
 * [根據自動檔案下載更新資料](../../automating/using/update-data-automatic-download.md)
 
-## 配置 {#configuration}
+## 設定 {#configuration}
 
-1. 將活動拖放 **[!UICONTROL Update data]** 至工作流程。
-1. 選擇活動，然後使用顯示的快 ![](assets/edit_darkgrey-24px.png) 速操作中的按鈕將其開啟。
-1. 指定 **[!UICONTROL Operation type]** 要執行的：
+1. 將 **[!UICONTROL Update data]** 活動拖放至工作流程中。
+1. 選取活動，然後使用所顯示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
+1. 指定要執行的 **[!UICONTROL Operation type]**：
 
-   * **[!UICONTROL Insert or update]**: 插入資料或更新資料（如果資料庫中已存在記錄）。
-   * **[!UICONTROL Insert only]**: 僅插入資料。 不更新已存在的記錄。 如果定義了協調標準，則只添加未協調的記錄。
+   * **[!UICONTROL Insert or update]**：插入資料或更新資料（如果記錄已存在於資料庫中）。
+   * **[!UICONTROL Insert only]**：僅插入資料。不更新已存在的記錄。如果已定義調解標準，則僅會新增未調解的記錄。
 
-      如果匯入 **[!UICONTROL Generate an outbound transition for rejects]** 的資料包含資料庫中已存在的某些記錄，請核取此方塊，以避免可能的錯誤。
+      如果匯入的資料包含資料庫中已存在的特定記錄，請核取此 **[!UICONTROL Generate an outbound transition for rejects]** 方塊，以避免任何可能的錯誤。
 
-   * **[!UICONTROL Update]**: 更新僅存在於資料庫中的記錄的資料。
-   * **[!UICONTROL Delete]**: 刪除資料。
-   >[!NOTE]
-   >
-   >欄位 **[!UICONTROL Batch size]** 可讓您定義要上傳之資料的最大批次大小。
-
-1. 在頁籤 **[!UICONTROL Identification]** 中，指定如何標識資料庫中的記錄：
-
-   * **[!UICONTROL Using the targeting dimension]**: 選取 **[!UICONTROL Dimension to update]** ，然後指定 **[!UICONTROL Keys for finding records]**。 如需詳細資訊，請參閱「定 [位維度和資源」](../../automating/using/query.md#targeting-dimensions-and-resources)。
-   * 如果輸入的資料符合現有的定位維度，請選取 **[!UICONTROL Using one or more links]** 選項。 然後選擇 **[!UICONTROL Dimension to update]**。
-   如果所選操作類型需要更新，則必須使用協調密鑰。
-
-1. 在標 **[!UICONTROL Fields to update]** 簽中，指定要套用更新的欄位，並視需要新增條件，以執行此更新。 若要這麼做，請使用 **[!UICONTROL Taken into account if]** 欄。 條件會依清單順序逐一套用。 使用右邊的箭頭來變更更新順序。 您可以多次使用相同的目標欄位。
-
-   您可以使用按鈕自動連結欄 ![](assets/wkf_magic_wand-24px.png) 位。 自動連結會偵測同名的欄位。
-
-   在文字操 **[!UICONTROL Insert or update]** 作期間，您可以單獨選擇要應用於每個欄位的操作。 若要這麼做，請在欄中選取您要的 **[!UICONTROL Operation]** 值。
+   * **[!UICONTROL Update]**：更新僅存在於資料庫中記錄的資料。
+   * **[!UICONTROL Delete]**：刪除資料。
 
    >[!NOTE]
    >
-   >**管理更新** ：在執行更新資料活 **[!UICONTROL lastModified]****[!UICONTROL modifiedBy]****[!UICONTROL created]****[!UICONTROL createdBy]** 動時，除非在欄位更新表格上明確執行其設定，否則會自動更新、和欄位。 只對已檢測到至少一個差的記錄執行更新。 如果值相同，則不會執行更新。
+   >**[!UICONTROL Batch size]** 欄位可讓您定義要上傳之資料的最大批次大小。
 
-1. 如有需要，請管理活動的 [轉場](../../automating/using/activity-properties.md) ，以存取出站人口的進階選項。
+1. 在 **[!UICONTROL Identification]** 索引標籤中，指定如何識別資料庫中的記錄：
 
-   如果您已選擇並 **[!UICONTROL Insert only]** 且導入的資料可能包含資料庫中已存在的記錄，請選中該框以 **[!UICONTROL Generate an outbound transition for the rejects]** 避免出現任何可能的錯誤。
+   * **[!UICONTROL Using the targeting dimension]**：選取 **[!UICONTROL Dimension to update]**，然後指定 **[!UICONTROL Keys for finding records]**。如需詳細資訊，請參閱[定位維度和資源](../../automating/using/query.md#targeting-dimensions-and-resources)。
+   * 如果輸入的資料符合現有的定位維度，請選取 **[!UICONTROL Using one or more links]** 選項。然後選取 **[!UICONTROL Dimension to update]**。
+
+   如果所選取的作業類型需要更新，則必須使用調解金鑰。
+
+1. 在&#x200B;**[!UICONTROL Fields to update]** 索引標籤中，指定要套用更新的欄位，並視需要新增條件，以執行此更新。要執行此操作，請使用 **[!UICONTROL Taken into account if]** 欄。條件會依清單順序逐一套用。使用右邊的箭頭以變更更新順序。您可以多次使用相同的目的地欄位。
+
+   您可以使用 ![](assets/wkf_magic_wand-24px.png) 按鈕自動連結欄位。自動連結會偵測具有相同名稱的欄位。
+
+   在 **[!UICONTROL Insert or update]** 類型作業期間，您可以個別選取要對每個欄位套用的作業。要執行此操作，請在 **[!UICONTROL Operation]** 欄中選取您需要的值。
+
+   >[!NOTE]
+   >
+   >**管理更新**：在執行更新資料活動時，除非在欄位更新表格上明確執行其設定，否則會自動更新 **[!UICONTROL lastModified]**、**[!UICONTROL modifiedBy]**、**[!UICONTROL created]**、**[!UICONTROL createdBy]**。只會對至少偵測到一個差異的記錄執行更新。如果值相同，則不會執行更新。
+
+1. 如有需要，請管理活動的[轉變](../../automating/using/activity-properties.md)，以存取輸出母體的進階選項。
+
+   如果您已選取 **[!UICONTROL Insert only]**，而且匯入的資料可能包含資料庫中已存在的記錄，請核取 **[!UICONTROL Generate an outbound transition for the rejects]** 方塊，以避免出現任何可能的錯誤。
 
 1. 確認活動的設定並儲存工作流程。

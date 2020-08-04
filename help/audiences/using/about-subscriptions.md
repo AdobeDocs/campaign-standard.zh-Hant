@@ -1,6 +1,6 @@
 ---
 title: 關於訂閱
-description: 進一步瞭解Campaign Standard中的服務和訂閱。
+description: 深入瞭解 Campaign Standard 中的服務和訂閱。
 page-status-flag: never-activated
 uuid: b0263e40-f910-49f2-a138-0a1302aeeec6
 contentOwner: sauviat
@@ -15,24 +15,24 @@ translation-type: tm+mt
 source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
 workflow-type: tm+mt
 source-wordcount: '146'
-ht-degree: 2%
+ht-degree: 80%
 
 ---
 
 
 # 關於訂閱{#about-subscriptions}
 
-Adobe Campaign可讓您透過一組服務來建立和管理電子報和跨通道 **通訊**: 訊息只能傳送給訂閱服務（選擇加入）的個人檔案。 這些描述檔是在建立訊息時使用專用的篩選器來識別。
+Adobe Campaign可讓您透過一組服務來建立和管理電子報和跨通道&#x200B;**通訊**：只能將傳送給已訂閱服務（選取加入）的設定檔。建立訊息時，會使用專用篩選器來識別這些設定檔。
 
-您可以設定訂閱機制，讓客戶有機會訂閱這些服務，尤其是透過電子郵件 **和****登陸頁面**。
+您可以設定訂閱機制，讓客戶有機會訂閱這些服務，尤其是透過&#x200B;**電子郵件**&#x200B;及&#x200B;**登錄頁面**&#x200B;訂閱的客戶。
 
 每項服務都隨附：
 
-* **訂閱** （選擇加入） **[!UICONTROL Unsubscription]** 和（選擇退出）機制。
-* 訂閱和／或取消訂閱 **確認機制**。
-* 訂閱歷 **史記錄**。
+* **訂閱**（選取加入）及&#x200B;**[!UICONTROL Unsubscription]**（選取退出）機制。
+* 訂閱及/或取消訂閱&#x200B;**確認機制**。
+* 訂閱&#x200B;**歷史記錄**。
 
-您也可以使用Adobe Campaign Standard API來管理訂閱。 For more on this, refer to the [dedicated documentation](../../api/using/creating-a-service.md) .
+您也可以使用 Adobe Campaign Standard API 來管理訂閱。如需詳細資訊，請參閱[專屬文件](../../api/using/creating-a-service.md)。
 
 **相關主題**
 

@@ -1,6 +1,6 @@
 ---
 title: 共用登錄頁面
-description: 瞭解如何測試和發佈Adobe Campaign中的登陸頁面。
+description: 瞭解如何測試和發佈 Adobe Campaign 中的登錄頁面。
 page-status-flag: never-activated
 uuid: fb7b087a-3292-496c-bc41-2e3012bacf59
 contentOwner: sauviat
@@ -11,64 +11,67 @@ topic-tags: landing-pages
 discoiquuid: f7d4bb71-f957-4f86-97c7-8ac0a0030026
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 54612511de07edc3e6f3eea34ef095c26b35f4af
+workflow-type: ht
+source-wordcount: '383'
+ht-degree: 100%
 
 ---
 
 
 # 測試和發佈登錄頁面{#testing-publishing--landing-page}
 
-## 關於著陸頁面發佈 {#about-landing-page-publication}
+## 關於登錄頁面範本 {#about-landing-page-publication}
 
-發佈著陸頁面之前，您必須執行測試：驗證執行、設定存取權並設定著陸頁面生命週期結束。 這些步驟是先決條件，必須小心執行。
+發佈登錄頁面之前，您必須執行測試：驗證執行、設定存取權限並設定登錄頁面生命週期結束。這些步驟是先決條件，必須小心執行。
 
-## 測試著陸頁面 {#testing-the-landing-page-}
+## 測試登錄頁面 {#testing-the-landing-page-}
 
-由於著陸頁面會影響您的平台和資料，因此您需要仔細測試其執行。 操作步驟：
+由於登錄頁面會影響您的平台和資料，因此您需要小心地測試其執行。操作步驟：
 
-1. 按一下 **[!UICONTROL Test]** 著陸頁面動作列中的按鈕。
-1. 從測試畫面中，選取測試描述檔，以及如果著陸頁面是要管理訂閱的測試服務。
+1. 按一下登錄頁面動作列中的 **[!UICONTROL Test]** 按鈕。
+1. 從測試畫面選取測試設定檔，以及測試服務（如果登錄頁面是要管理訂閱）。
 
    ![](assets/lp_test_2.png)
 
 1. 在欄位中輸入資料，並選取選項。
-1. 提交登陸頁面並檢查資料庫中的更新。
+1. 提交登錄頁面並檢查資料庫中的更新。
 
    >[!IMPORTANT]
    >
-   >提交表單時，會更新使用的服務和描述檔。
+   >提交表單時，會更新使用的服務和設定檔。
 
-1. 對各種描述檔和資料重複此步驟。
+1. 對各種設定檔和資料重複執行此步驟。
 
-   您也可以從此螢幕產生著陸頁面縮圖。
+   您也可以從此畫面產生登錄頁面縮圖。
 
 >[!NOTE]
 >
->若要在促銷活動使用者介面中顯示著陸頁面預覽，應用程式伺服器URL必須安全。 在這種情況下，在設定您的品牌時，請使用https://而非http://來 [設定此URL](../../administration/using/branding.md#configuring-and-using-brands)。
+>若要在促銷活動使用者介面中顯示登錄頁面預覽，應用程式伺服器　URL　必須是安全的。在該情況下，在設定您的品牌時，請使用　https://（而非http://）[設定此 URL](../../administration/using/branding.md#configuring-and-using-brands)。
 
 ## 設定有效性參數 {#setting-up-validity-parameters}
 
-在發佈之前，基於安全性原因和平台效能，強烈建議您在登陸頁面屬性中設定到期日。 在選取的日期，著陸頁面會自動取消發佈。 操作步驟：
+基於安全理由和平台效能，我們強烈建議您先在登錄頁面屬性中設定到期日，然後再發佈。在選取的日期時，登錄頁面會自動取消發佈。操作步驟：
 
-1. 編輯透過著陸頁面控制面板中 ![](assets/edit_darkgrey-24px.png) 的按鈕存取的著陸頁面屬性。
+1. 編輯透過登錄頁面控制面板中的 ![](assets/edit_darkgrey-24px.png) 按鈕存取的登錄頁面屬性。
 
    ![](assets/lp_edit_properties_button.png)
 
-1. 在區段中設定到期日期和時間 **[!UICONTROL Publication]** :著陸頁面將在指定的日期自動取消發佈，因此不再提供。
+1. 在 **[!UICONTROL Publication]** 區段中設定到期日及時間：登錄頁面在指定日期將自動取消發佈，因此將無法使用。
 
-   您可以選擇要考慮此日期和時間的時區。
+   您可以選取要針對此日期及時間列入考量的時區。
 
-1. 定義重新導向URL，以在嘗試存取非作用中的著陸頁面時重新導向訪客。
+1. 定義重新導向 URL，以便在嘗試存取非作用的登錄頁面時重新導向訪客。
 
    ![](assets/lp_settings_general.png)
 
 >[!IMPORTANT]
 >
->您也可以定義部署日期和時間：然後著陸頁面就會在指定的日期自動發佈。
+>您也可以定義部署日期及時間：之後，登錄頁面就會在指定的日期自動發佈。
 
-## 發佈著陸頁面 {#publishing-a-landing-page}
+## 設定登錄頁面 {#publishing-a-landing-page}
 
-當您發佈著陸頁面時，該頁面會上線，並可供您的訪客存取。
+當您發佈登錄頁面時，此頁面就會連線，而且可供您的訪客存取。
 
-您可以隨時透過按鈕解除發佈或更新並重新發佈著陸 **[!UICONTROL Publish]** 頁面。 不過，如果重新發佈失敗，而您尚未解除發佈著陸頁面，第一個版本將會維持線上上。
+您可以隨時透過 **[!UICONTROL Publish]** 按鈕取消發佈或更新並重新發佈登錄頁面。不過，如果重新發佈失敗，而且您尚未取消發佈登錄頁面，第一個版本將會維持連線。

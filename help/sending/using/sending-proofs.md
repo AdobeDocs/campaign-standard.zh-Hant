@@ -12,8 +12,11 @@ discoiquuid: 37320ec5-196c-4260-8156-98932da3e4a5
 context-tags: seedMember,overview
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7f90991ed4c7323e3a2f8ac7d38da9ff165ef76
+workflow-type: ht
+source-wordcount: '592'
+ht-degree: 100%
 
 ---
 
@@ -22,50 +25,50 @@ source-git-commit: f7f90991ed4c7323e3a2f8ac7d38da9ff165ef76
 
 ## 關於校樣 {#about-proofs}
 
-證明是一種特定訊息，可讓您在將訊息傳送至主要目標之前先測試訊息。 證明的收件者負責核准訊息（其內容和表格）。
+校樣是一種特定訊息，可讓您在將訊息傳送至主要目標之前先測試訊息。校樣的收件者負責核准訊息（其內容和表格）。
 
-校對收件者有兩種類型：
+校樣收件者有兩種類型：
 
-* **測試設定檔** ，可讓您定位不符合已定義定位准則的其他收件者。
+* **測試設定檔**&#x200B;可讓您鎖定不符合已定義定位準則的其他收件者。
 
-   您可以將這些資料新增至訊息的讀者群，以偵測任何詐用收件者資料庫的行為，或確保電子郵件送達收件匣。 如需詳細資訊，請參閱「管 [理測試設定檔](../../audiences/using/managing-test-profiles.md)」。
+   您可以將這些資料新增至訊息的對象，以偵測任何詐用收件者資料庫的行為，或確保電子郵件送達收件匣。如需詳細資訊，請參閱[管理測試設定檔](../../audiences/using/managing-test-profiles.md)。
 
    >[!NOTE]
    >
-   >為了傳送證明，測試設定檔必須包含在訊息的觀眾中。
+   >為了傳送校樣，必須將測試設定檔包含在訊息的對象中。
 
-* **替代配置檔案** ，允許您將自己置於其中一個目標配置檔案的位置，並獲得配置檔案將接收到的消息的精確表示。 如需詳細資訊，請參閱「使 [用目標設定檔測試電子郵件訊息](../../sending/using/testing-messages-using-target.md)」。
+* **替代設定檔**&#x200B;可讓您將自己置於其中一個目標設定檔的位置，並取得設定檔將接收到之訊息的精確表示。如需詳細資訊，請參閱[使用目標設定檔測試電子郵件訊息](../../sending/using/testing-messages-using-target.md)。
 
    >[!NOTE]
    >
    >此功能僅適用於電子郵件通道。
 
-## 傳送證明 {#sending-a-proof}
+## 傳送校樣 {#sending-a-proof}
 
 若要傳送校樣，請依照下列步驟進行：
 
 1. 請確定校樣收件者已設定：
-   * **測試設定檔** ，必須包含在訊息的讀者中。
-   * **消息準備成功** 後 [，必須添加替代配置檔案(請參](../../sending/using/testing-messages-using-target.md)閱本節)。
+   * **測試設定檔**&#x200B;必須包含在訊息的對象中。
+   * 訊息準備成功之後，必須新增&#x200B;**替代設定檔**（請參閱[本區段](../../sending/using/testing-messages-using-target.md)）。
 
-1. Click the **[!UICONTROL Send a test]** button.
+1. 按一下 **[!UICONTROL Send a test]** 按鈕。
 
    ![](assets/bat_select.png)
 
-1. 選擇要使用的校樣類型：
+1. 選取要使用的校樣類型：
 
-   * **[!UICONTROL Email rendering]**:選取此選項，以測試根據收件匣定位的訊息接收方式。 如需詳細資訊，請參閱「電子郵 [件轉換」](../../sending/using/email-rendering.md)。
-   * **[!UICONTROL Proof]**:選擇此選項，在將消息發送到主目標之前測試該消息。 證明收件者負責核准傳送內容及格式，
-   * **[!UICONTROL Proof + Email rendering]**:此選項會結合前兩個選項。
+   * **[!UICONTROL Email rendering]**：選取此選項，依據設定為目標的收件匣，以測試接收訊息的方式。如需詳細資訊，請參閱[電子郵件呈現](../../sending/using/email-rendering.md)。
+   * **[!UICONTROL Proof]**：選取此選項，在將訊息發送到主要目標之前測試該訊息。校樣收件者會負責藉由檢查傳送的內容及格式來核准傳送。
+   * **[!UICONTROL Proof + Email rendering]**：此選項會結合前兩個選項。
    ![](assets/bat_select1.png)
 
    >[!NOTE]
    >
-   >只有測試設定檔才提供電子郵件轉換功能。 如果未將測試設定檔新增至訊息，則只 **[!UICONTROL Proof]** 有選項可供選取。
+   >只有測試設定檔才提能供電子郵件呈現。如果未將測試設定檔新增至訊息，則只有　**[!UICONTROL Proof]**　選項可供選取。
 
-1. 確認您的選擇。
+1. 確認您的選取。
 
-   校樣會傳送至已設定的收件者。
+   會將校樣傳送至已設定的收件者。
 
    ![](assets/bat_select2.png)
 
@@ -73,38 +76,38 @@ source-git-commit: f7f90991ed4c7323e3a2f8ac7d38da9ff165ef76
 
    ![](assets/bat_view.png)
 
-1. 選取要存取其摘要的證明。 對於電子郵件，如果您已選取「 **Email rendering** 」(電子郵件轉換 **[!UICONTROL Access email rendering]** )選項作為校對類型，則校對標籤右側會顯示圖示。 請參閱 [電子郵件轉譯](../../sending/using/email-rendering.md)。
+1. 選取校樣以存取其摘要。對於電子郵件，如果您已選取&#x200B;**電子郵件呈現**&#x200B;作為校樣類型，**[!UICONTROL Access email rendering]** 圖示就會顯示在校樣標籤的右側。請參閱[電子郵件呈現](../../sending/using/email-rendering.md)。
 
    ![](assets/bat_view2.png)
 
-根據收到證明之人員的意見，您可能會被要求修改傳送的內容。 修改完成後，您必須重新開始準備電子郵件，然後重新傳送證明。 每個新校樣都可使用按鈕 **[!UICONTROL Show proofs]** 存取。
+依據收到校樣之人員的意見，可能會要求您修改傳送的內容。執行修改之後，您必須重新開始電子郵件準備作業，然後重新傳送校樣。每個新校樣都可使用 **[!UICONTROL Show proofs]** 按鈕進行存取。
 
-您必須視需要傳送多份校樣，直到完成傳送內容為止。 完成此作業後，您可以將傳送內容傳送至主要目標並關閉核准週期。
+您必須視需要傳送多份校樣，直到完成傳送內容為止。完成此操作後，您可以將傳送內容傳送至主要目標並關閉核准週期。
 
 ## 設定校樣的主旨行 {#configuring-proofs-subject-line}
 
-當傳送證明時，其主旨行預設會以「 **Proof** 」首碼以及表示證明編號的計數器來設定。
+傳送校樣時，其主旨行預設會包含　**&quot;Proof&quot;**　字首，以及表示校樣號碼的計數器。
 
 ![](assets/proof-prefix.png)
 
-要更改要使用的預設主題行，請執行以下步驟：
+若要變更要使用的預設主題行，請依照下列步驟執行：
 
-1. 在訊息控制面板中，按一下按 **[!UICONTROL Open properties]** 鈕。
-1. 在章節 **[!UICONTROL Advanced parameters]** 中，定義您要在主旨行中預設使用的首碼。
+1. 在訊息控制面板中，按一下 **[!UICONTROL Open properties]** 按鈕。
+1. 在 **[!UICONTROL Advanced parameters]** 區段中，定義您預設要在主旨行中使用的字首。
 
-若要隱藏主題行中的校樣編號，請啟用選 **[!UICONTROL Hide proof prefix counter]** 項。
+若要隱藏主旨行中的校樣號碼，請啟動 **[!UICONTROL Hide proof prefix counter]** 選項。
 
 >[!NOTE]
 >
->如果要隱藏整個校對首碼，請將欄位留 **[!UICONTROL Subject line prefix]** 空。
+>如果要隱藏整個校樣字首，請將　**[!UICONTROL Subject line prefix]**　欄位留空。
 
 ![](assets/proof-prefix-configuration.png)
 
-1. 按一下 **[!UICONTROL Confirm]**. 預設會將設定套用至所選訊息所傳送的所有校樣。
+1. 按一下 **[!UICONTROL Confirm]**。預設會將設定套用至針對所選訊息傳送的所有校樣。
 
 **相關主題：**
 
-* [傳送測試、準備和傳送電子郵件視訊](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/sending-test-preparing-sending-email.html) 。
+* [傳送測試、準備和傳送電子郵件](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/sending-test-preparing-sending-email.html)視訊
 * [使用目標設定檔測試電子郵件訊息](../../sending/using/testing-messages-using-target.md)。
 * [管理測試設定檔](../../audiences/using/managing-test-profiles.md)。
 * [預覽訊息](../../sending/using/previewing-messages.md)

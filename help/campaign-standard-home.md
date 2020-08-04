@@ -6,8 +6,8 @@ topic: Premium
 translation-type: tm+mt
 source-git-commit: ddf585def583acefbb25e7a48318966cd2af49a7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '212'
+ht-degree: 80%
 
 ---
 
@@ -20,12 +20,12 @@ ht-degree: 0%
 
 * **[人工智慧型電子郵件](sending/using/predictive.md)**<br/>使用人工智慧型電子郵件最佳化設計與傳遞
 
-* **[隱私權管理](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>
+* **[隱私權管理](https://helpx.adobe.com/tw/campaign/kb/campaign-privacy.html)**<br/>
 瞭解 Adobe Campaign 所提供用來協助您遵從隱私權要求的工具
 
 * **[外部API](automating/using/external-api.md)**<br/>使用外部API活動，將外部系統的資料匯入工作流程
 
-* **[開始使用行動傳送](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>&#x200B;進一步瞭解行動傳送的一般方針（SMS、推播、應用程式內）
+* **[開始使用行動傳送](https://helpx.adobe.com/tw/campaign/kb/acs-mobile.html)**<br/>&#x200B;進一步瞭解行動傳送的一般方針（SMS、推播、應用程式內）
 
 [按一下這裡以取得更多更新](rn/using/documentation-updates.md)
 
@@ -55,7 +55,7 @@ ht-degree: 0%
   </td>
   <td valign="top">
        <img alt="支援" src="start/using/assets/do-not-localize/help.jpeg" />
-    <div><a href="https://helpx.adobe.com/campaign/kb/ac-support.html">
+    <div><a href="https://helpx.adobe.com/tw/campaign/kb/ac-support.html">
     <strong>取得支援</strong></a>
     </div>
     <p><em>存取常見問答集、最佳實務、說明資源，並與專家連絡</em></p>
@@ -70,7 +70,7 @@ ht-degree: 0%
 |---|---|
 | [發行說明](rn/using/release-notes.md) | [Experience Cloud 觸發程式](integrating/using/about-adobe-experience-cloud-triggers.md) |
 | [控制面板文件](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/control-panel-home.html) | [Campaign API](api/using/get-started-apis.md) |
-| [實施指南](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html) | [錯誤訊息清單](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
+| [實施指南](https://helpx.adobe.com/tw/campaign/kb/campaign-standard-implementation-guide.html) | [錯誤訊息清單](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [發行計畫](rn/using/release-planning.md) | [Campaign 資料模型](developing/using/datamodel-introduction.md) |
-| [已棄用及已移除的功能](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) | [多解決方案指南](integrating/using/get-started-campaign-integrations.md) |
-| [開始使用 Campaign Standard](start/using/about-campaign-standard.md) | [技術說明](https://helpx.adobe.com/campaign/kb/acs-article-list.html) |
+| [已棄用及已移除的功能](https://helpx.adobe.com/tw/campaign/kb/acs-deprecated-and-removed-features.html) | [多解決方案指南](integrating/using/get-started-campaign-integrations.md) |
+| [開始使用 Campaign Standard](start/using/about-campaign-standard.md) | [技術說明](https://helpx.adobe.com/tw/campaign/kb/acs-article-list.html) |

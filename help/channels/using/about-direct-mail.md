@@ -1,6 +1,6 @@
 ---
 title: 關於直接郵件
-description: 瞭解Adobe Campaign中直效郵件通道的主要特性。
+description: 瞭解 Adobe Campaign 中直接郵件通道的主要特性。
 page-status-flag: never-activated
 uuid: 24add992-2efe-4b73-81c9-cda3e921ab16
 contentOwner: sauviat
@@ -16,30 +16,30 @@ translation-type: tm+mt
 source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
 workflow-type: tm+mt
 source-wordcount: '455'
-ht-degree: 1%
+ht-degree: 98%
 
 ---
 
 
 # 關於直接郵件{#about-direct-mail}
 
-直效郵件是一種離線渠道，可讓您個人化並產生直效郵件供應商所需的檔案。 它可讓您在客戶歷程中混合使用線上和線下通道。
+直接郵件是一種離線通道，可讓您個人化並產生直接郵件供應商所需的檔案。它可讓您在客戶歷程中混合使用線上和離線通道。
 
 >[!NOTE]
 >
->此功能為選擇性。 請檢查您的授權合約。 使用 **[!UICONTROL Export]** 直接郵件時需要角色。 請聯絡您的管理員。
+>此功能是選取性的。請檢查您的授權合約。使用直接郵件時需要 **[!UICONTROL Export]** 角色。請聯絡您的管理員。
 
-線上通道可讓您建立訊息（電子郵件、簡訊、行動應用程式傳送等） 並直接從Adobe Campaign傳送給您的觀眾。 離線通道則不同。 當您準備直接郵寄時，Adobe Campaign會產生一個檔案，其中包含所有目標設定檔和選取的聯絡資訊（例如郵遞區號）。 然後，您就可以將此檔案傳送給直接郵件提供者，由他們負責實際傳送。
+線上通道可讓您建立訊息（電子郵件、簡訊、行動應用程式傳送等）並直接從 Adobe Campaign 傳送給您的對象。離線通道則不同。當您準備直接郵件傳送時，Adobe Campaign 會產生一個檔案，其中包含所有目標設定檔和選取的聯絡資訊（例如，郵遞區號）。然後，您就可以將此檔案傳送給直接郵件提供者，由他們負責實際傳送。
 
-下節將說明如何建立並產生單次直接郵件傳送。 您也可以將直接郵件活動納入工作流程，以協調結合線上和線下通道的宣傳活動。 如需詳細資訊，請參閱「工作 [流程](../../automating/using/get-started-workflows.md) 」指南。
+下節將說明如何建立並產生單次直接郵件傳送。您也可以將直接郵件活動納入工作流程，以協調結合線上和離線通道的宣傳活動。如需詳細資訊，請參閱[工作流程](../../automating/using/get-started-workflows.md)指南。
 
-Adobe Campaign中的使用者程式如下：
+Adobe Campaign 中的使用者程序如下：
 
 1. 建立傳送
-1. 選擇對象
+1. 選取對象
 1. 定義內容
-1. 設定連絡人日期
-1. 生成檔案
+1. 設定聯絡日期
+1. 產生檔案
 
 **相關主題：**
 
@@ -47,20 +47,20 @@ Adobe Campaign中的使用者程式如下：
 
 ## 建議 {#recommendations}
 
-### 直接郵件提供者 {#direct-mail-providers}
+### 直接郵件傳送 {#direct-mail-providers}
 
-首先，您需要聯絡直效郵件供應商並收集其建議。 識別摘取檔案中需要包含哪些描述檔資訊，以便個人化通訊並傳送給觀眾。 例如，名字和姓氏、郵遞區號、促銷代碼等。 這些欄位是您要在直接郵件內容的「定 [義抽取](../../channels/using/defining-the-direct-mail-content.md#defining-the-extraction) 」頁籤中添加的欄位。
+首先，您需要聯絡直接郵件供應商並收集其建議。識別需納入解壓縮檔案的設定檔資訊，以便個人化通訊並傳送給對象。例如，名字和姓氏、郵遞區號、促銷代碼等。這些欄位是您要在直接郵件內容之 [Defining the extraction](../../channels/using/defining-the-direct-mail-content.md#defining-the-extraction) 索引標籤中新增欄位。
 
-請確定您已勾選設定 **[!UICONTROL Address specified]** 檔資訊中的方塊。 如果此選項已啟用，則會將描述檔新增至目標。 它不是，在準備階段會被排除在類型規則中(請參 [閱建立直效郵件](../../channels/using/creating-the-direct-mail.md))。 在匯入描述檔時，請勿忘記更新此欄位。
+請確保您已核取設定檔資訊中的 **[!UICONTROL Address specified]**&#x200B;方塊。如果已啟動此選項，則會將設定檔新增至目標。若非如此，則會在準備階段期間被排除於類型規則（請參閱[建立直接郵件](../../channels/using/creating-the-direct-mail.md)）。在匯入設定檔時，請別忘記更新此欄位。
 
 ![](assets/direct_mail_22.png)
 
-### 郵遞區號 {#postal-addresses}
+### 郵寄地址 {#postal-addresses}
 
-添加要包含在抽取檔案中的欄位時，節點中將提供郵遞區 **[!UICONTROL Location]** 域。
+新增要納入解壓縮檔案的欄位時，可於 **[!UICONTROL Location]** 節點取得郵寄地址欄位。
 
-Adobe Campaign提供一組預先定義的計算欄位，這些欄位會遵循最常見的郵遞區號標準化。 這些欄位在節點中可 **[!UICONTROL Postal address]** 用。
+Adobe Campaign　提供一組預先定義的計算欄位，這些欄位會遵循最常見的郵遞區號慣例。這些欄位在　**[!UICONTROL Postal address]**　節點中可供使用。
 
-預設情況下，地址最多可包含6行： 第一個計算欄位(**[!UICONTROL Line 1]** 包含名字和姓氏)、下一行包含郵遞區號（路等），最後一行包含郵遞區號和城鎮。
+依預設，地址最多可包含　6　行：第一個計算欄位（**[!UICONTROL Line 1]** 包含名字和姓氏)、下一行包含郵遞區號（道路等），而最後一行則包含郵遞區號和城鎮。
 
 ![](assets/direct_mail_23.png)

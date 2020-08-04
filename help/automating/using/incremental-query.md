@@ -1,6 +1,6 @@
 ---
 title: 增量查詢
-description: 「增量查詢」活動可讓您從Adobe Campaign資料庫中篩選及擷取一組元素。
+description: 「增量查詢」活動可讓您從 Adobe Campaign 資料庫中篩選及擷取一組元素。
 page-status-flag: never-activated
 uuid: 73b42422-e815-43ef-84c0-97c4433ccc98
 contentOwner: sauviat
@@ -16,7 +16,7 @@ translation-type: tm+mt
 source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 0%
+ht-degree: 98%
 
 ---
 
@@ -27,54 +27,54 @@ ht-degree: 0%
 
 ![](assets/incremental.png)
 
-此活 **[!UICONTROL Incremental query]** 動可讓您從Adobe Campaign資料庫中篩選及擷取一組元素。 每次執行此活動時，都會排除先前執行的結果。 這可讓您只鎖定新元素。
+**[!UICONTROL Incremental query]** 活動可讓您從 Adobe Campaign 資料庫中篩選及擷取元素總量。每次執行此活動時，都會排除先前執行的結果。這可讓您只鎖定新元素。
 
-您可以透過 **[!UICONTROL Additional data]** 專用標籤來定義目標人口。 此資料會儲存在其他欄中，且僅能用於進行中的工作流程。
+您可以透過專用索引標籤來定義目標母體的　**[!UICONTROL Additional data]**。此資料會儲存在其他欄中，且僅能用於進行中的工作流程。
 
-活動使用查詢編輯器工具。 此工具在專屬章節中 [有詳細說明](../../automating/using/editing-queries.md#about-query-editor)。
+活動使用查詢編輯器工具。[專屬區段](../../automating/using/editing-queries.md#about-query-editor)中會詳細說明此工具。
 
 ## 使用內容 {#context-of-use}
 
-必須 **[!UICONTROL Incremental query]** 將一個連結到一個， **[!UICONTROL Scheduler]** 才能定義工作流的執行頻率，從而定義查詢。
+必須將 **[!UICONTROL Incremental query]** 連結到 **[!UICONTROL Scheduler]**，才能定義工作流程的執行頻率，從而定義查詢。
 
-該 **[!UICONTROL Processed data]** 頁籤特定於此活動，允許您根據需要查看活動先前執行的任何結果。
+**[!UICONTROL Processed data]** 索引標籤特定於此活動，可讓您根據需要查看活動先前執行的任何結果。
 
-此活 **[!UICONTROL Incremental query]** 動可用於各種類型的使用：
+**[!UICONTROL Incremental query]** 活動可用於各種類型的使用：
 
 * 將個人分段以定義訊息、對象等的目標。
 
-* 匯出資料.
+* 匯出資料。
 
-   您可以使用活 **[!UICONTROL Incremental query]** 動定期匯出檔案中的新記錄檔。 例如，如果您想在外部報表或BI工具中使用記錄檔資料，則此功能會很有用。 「導出日誌」部分提供了 [完整示例](../../automating/using/exporting-logs.md) 。
+   您可以使用 **[!UICONTROL Incremental query]** 活動定期匯出檔案中的新記錄檔。例如，如果您想在外部報表或 BI 工具中使用記錄檔資料，則此功能會很有用。[匯出記錄檔](../../automating/using/exporting-logs.md)區段提供完整的範例。
 
 **相關主題**
 
 * [使用案例： 對服務訂戶的增量查詢](../../automating/using/incremental-query-on-subscribers.md)
 
-## 配置 {#configuration}
+## 設定 {#configuration}
 
-1. 將活動拖放 **[!UICONTROL Incremental query]** 至工作流程。
-1. 選擇活動，然後使用顯示的快 ![](assets/edit_darkgrey-24px.png) 速操作中的按鈕將其開啟。
-1. 如果要對配置檔案資源以外的資源運行查詢，請轉至活動的頁籤， **[!UICONTROL Properties]** 然後選擇 **[!UICONTROL Resource]** 和 **[!UICONTROL Targeting dimension]**。
+1. 將 **[!UICONTROL Incremental query]** 活動拖放至工作流程中。
+1. 選取活動，然後使用所顯示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
+1. 如果要對設定檔案資源以外的資源運行查詢，請轉至活動的 **[!UICONTROL Properties]** 索引標籤，然後選取 **[!UICONTROL Resource]** 和　**[!UICONTROL Targeting dimension]**。
 
-   您 **[!UICONTROL Resource]** 可以調整浮動視窗中顯示的篩選條件，而與所選資源相關的 **[!UICONTROL Targeting dimension]**，則與您要取得的人口類型（識別的設定檔、傳送、連結至所選資源的資料等）相對應。
+   **[!UICONTROL Resource]** 可讓您調整浮動視窗中顯示的篩選條件，而與所選資源相關的 **[!UICONTROL Targeting dimension]**，則與您要取得的母體類型（識別的設定檔、傳送、連結至所選資源的資料等）相對應。
 
-1. 在標籤 **[!UICONTROL Target]** 中，定義並結合規則以執行查詢。
-1. 在該選 **[!UICONTROL Processed data]** 項卡中，選擇要用於工作流下一個執行的增量模式：
+1. 在 **[!UICONTROL Target]** 索引標籤，定義並結合規則以執行查詢。
+1. 在 **[!UICONTROL Processed data]** 索引標籤中，選取要用於工作流下一個執行的增量模式：
 
-   * **[!UICONTROL Use the exclusion of the results of previous executions]**: 會排除每個新執行的先前執行結果。
-   * **[!UICONTROL Use a date field]**: 下次執行只考慮所選日期欄位大於或等於活動最後執行日期的結 **[!UICONTROL Incremental query]** 果。 您可以選擇與在頁籤中選擇的資源相關的任何日期 **[!UICONTROL Properties]** 欄位。 此模式在查詢大型資源（如日誌資料）時具有更好的效能。
+   * **[!UICONTROL Use the exclusion of the results of previous executions]**：會排除每個新執行的先前執行結果。
+   * **[!UICONTROL Use a date field]**：下次執行只考慮所選日期欄位大於或等於 **[!UICONTROL Incremental query]** 活動最後執行日期的結果。您可以選取與在 **[!UICONTROL Properties]** 索引標籤中選取的資源相關的任何日期欄位。此模式在查詢大型資源（如記錄檔資料）時具有更理想的效能。
 
-      在第一次執行工作流程後，您可以在此標籤中看到下次執行時使用的最後一個執行日期。 每次執行工作流程時，都會自動更新它。 您仍然可以手動輸入新值來覆寫此值，以符合您的需求。
+      在第一次執行工作流程後，您可以在此索引標籤中看到下次執行時使用的最後一個執行日期。每次執行工作流程時，都會自動更新它。您仍然可以手動輸入新值來覆寫此值，以符合您的需求。
    >[!NOTE]
    >
-   >此模 **[!UICONTROL Use a date field]** 式會根據選取的日期欄位，提供更大的彈性。 例如，如果選定欄位與修改日期相對應，則日期欄位模式將允許您檢索最近更新的資料，而另一個模式將僅排除在先前執行中已定位的記錄，即使這些記錄自上次執行工作流後已被修改。
+   >**[!UICONTROL Use a date field]** 模式會根據選取的日期欄位，提供更大的彈性。例如，如果選定欄位與修改日期相對應，則日期欄位模式將可讓您檢索最近更新的資料，而另一個模式將僅排除在先前執行中已定位的記錄，即使這些記錄自上次執行工作流後已被修改。
 
    ![](assets/incremental_query_usedatefield.png)
 
-1. 您可以透過 **[!UICONTROL Additional data]** 專用標籤來定義目標人口。 此資料會儲存在其他欄中，且僅能用於進行中的工作流程。 尤其是，您可以從連結至查詢定位維度的Adobe Campaign資料庫表格新增資料。 請參閱「 [豐富資料](../../automating/using/query.md#enriching-data) 」一節。
+1. 您可以透過專用索引標籤來定義目標母體的　**[!UICONTROL Additional data]**。此資料會儲存在其他欄中，且僅能用於進行中的工作流程。尤其是，您可以從連結至查詢目標維度的 Adobe Campaign 資料庫表格新增資料。請參閱[擴充資料](../../automating/using/query.md#enriching-data)區段。
 1. 確認活動的設定並儲存工作流程。
 
-## 豐富資料 {#enriching-data}
+## 擴充資料 {#enriching-data}
 
-和查詢一樣，您也可以豐富來自的資料 **[!UICONTROL Incremental query]**。 請參閱「 [豐富資料](../../automating/using/query.md#enriching-data) 」一節。
+和查詢一樣，您也可以擴充來自 **[!UICONTROL Incremental query]** 的資料。請參閱[擴充資料](../../automating/using/query.md#enriching-data)區段。

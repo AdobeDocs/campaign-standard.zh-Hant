@@ -1,6 +1,6 @@
 ---
 title: 設定 SMS 通道
-description: 「瞭解SMS設定步驟： 路由、編碼、格式和進階屬性。 "
+description: 「瞭解 SMS 設定步驟：路由、編碼、格式和進階屬性。」
 page-status-flag: never-activated
 uuid: 5f13dbd5-9522-4199-8d9a-44c397cb2458
 contentOwner: sauviat
@@ -16,96 +16,96 @@ translation-type: tm+mt
 source-git-commit: 10339aa3a5d16bb995a763b6d846e234c5f1325a
 workflow-type: tm+mt
 source-wordcount: '1625'
-ht-degree: 1%
+ht-degree: 99%
 
 ---
 
 
 # 設定 SMS 通道{#configuring-sms-channel}
 
-若要傳送SMS訊息，管理員必須在> > > >功能表下設定一或多個 **[!UICONTROL Administration]** 外 **[!UICONTROL Channels]** 部 **[!UICONTROL SMS]** 帳戶 **[!UICONTROL SMS accounts]** 。
+若要傳送 SMS 訊息，管理員必須在 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL SMS]** > **[!UICONTROL SMS accounts]** 功能表下設定一或多個外部帳戶。
 
-建立和修改外部帳戶的步驟在「外部帳戶」部分 [中詳細說](../../administration/using/external-accounts.md) 明。 您會在下方找到傳送SMS訊息之外部帳戶的特定參數。
+建立和修改外部帳戶的步驟在[外部帳戶](../../administration/using/external-accounts.md)區段中詳細說 明。您會在下方找到傳送 SMS 訊息之外部帳戶的特定參數。
 
-## 定義SMS路由 {#defining-an-sms-routing}
+## 定義 SMS 路由 {#defining-an-sms-routing}
 
-外部帳戶 **[!UICONTROL SMS routing via SMPP]** 預設是提供的，但可用於添加其他帳戶。
+預設會提供外部帳戶 **[!UICONTROL SMS routing via SMPP]**，但可用於新增其他帳戶。
 
-如果您想使用SMPP通訊協定，也可以建立新的外部帳戶。 有關SMS通訊協定和設定的詳細資訊，請參閱此 [技術說明](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html)。
+如果您想使用 SMPP 通訊協定，也可以建立新的外部帳戶。有關 SMS 通訊協定和設定的詳細資訊，請參閱此[技術說明](https://helpx.adobe.com/tw/campaign/kb/sms-connector-protocol-and-settings.html)。
 
-1. 從建立新的外部帳戶 **[!UICONTROL Administration > Application settings > External accounts]**。
-1. 將帳戶類型定 **[!UICONTROL Routing]**&#x200B;義為，渠道 **[!UICONTROL Mobile (SMS)]** 定義為，傳送模式為 **[!UICONTROL Bulk delivery]**。
+1. 從 **[!UICONTROL Administration > Application settings > External accounts]** 建立新的外部帳戶。
+1. 將帳戶類型定義為 **[!UICONTROL Routing]**，將通道定義為 **[!UICONTROL Mobile (SMS)]** 並將傳送模式定義為 **[!UICONTROL Bulk delivery]**。
 
    ![](assets/sms_routing.png)
 
-1. 定義連接設定。
+1. 定義連線設定。
 
-   若要輸入傳送SMS訊息的特定連線設定，請連絡您的SMS服務提供者，該服務提供者將向您說明如何填寫不同的外部帳戶欄位。
+   若要輸入傳送 SMS 訊息的特定連線設定，請聯絡您的 SMS 服務提供者，該服務提供者將向您說明如何填入不同的外部帳戶欄位。
 
    ![](assets/sms_connection.png)
 
-   此選 **[!UICONTROL Enable TLS over SMPP]** 項允許您加密SMPP通信。
+   **[!UICONTROL Enable TLS over SMPP]** 選項可讓您加密 SMPP 通訊。
 
-   **[!UICONTROL Enable verbose SMPP traces in the log file]** 允許您將所有SMPP通信轉儲到日誌檔案中。 必須啟用此選項，才能排除連接器故障，並與提供者所看到的流量進行比較。
+   **[!UICONTROL Enable verbose SMPP traces in the log file]** 可讓您將所有 SMPP 通訊傾印到記錄檔案中。必須啟用此選項，才能疑難排解連接器，並與提供者所看到的流量進行比較。
 
-1. 請洽詢Adobe,Adobe會根據所選的提供者，為您提供 **[!UICONTROL SMS-C implementation name]** 進入欄位的值。
-1. 定義SMPP頻道設定。 您可以從 [SMS編碼和格式一節瞭解更多](#sms-encoding-and-formats) 。
+1. 請聯絡 Adobe，他們會根據您選取的提供者，為您提供進入 **[!UICONTROL SMS-C implementation name]** 欄位的值。
+1. 定義 SMPP 通道設定。您可以從 [SMS 編碼和格式](#sms-encoding-and-formats)區段瞭解詳情。
 
-   如果 **[!UICONTROL Store incoming MO in the database]** 您希望將所有傳入的SMS儲存在inSMS表格中，請啟用。 有關如何檢索傳入SMS的詳細資訊，請參閱本 [節](../../channels/using/managing-incoming-sms.md#storing-incoming-sms)。
+   如果您希望將所有傳入的 SMS 儲存到 inSMS 表格中，請啟用 **[!UICONTROL Store incoming MO in the database]**。有關如何檢索傳入 SMS 的詳細資訊，請參閱[本區段](../../channels/using/managing-incoming-sms.md#storing-incoming-sms)。
 
-   此選 **[!UICONTROL Enable Real-time KPI updates during SR processing]** 項可讓您 **[!UICONTROL Delivered]** 在傳送 **[!UICONTROL Bounces + Errors]** 傳送後即時更新或KPI。 這些KPI可在窗口中找 **[!UICONTROL Deployment]** 到，並直接從從提供商接收的SR（狀態報告）重新計算。
+   **[!UICONTROL Enable Real-time KPI updates during SR processing]** 選項可讓您在進行傳送之後，即時更新 **[!UICONTROL Delivered]** 或 **[!UICONTROL Bounces + Errors]** KPI。這些 KPI 可在 **[!UICONTROL Deployment]** 視窗中找到，並直接從提供者接收的 SR（狀態報告）重新計算。
 
    ![](assets/sms_connection_1.png)
 
-1. 定義參 **[!UICONTROL Throughput and timeouts]** 數。
+1. 定義 **[!UICONTROL Throughput and timeouts]** 參數。
 
-   您可以指定每秒MT的出站消息（「MT」,「已終止移動」）的最大吞吐量。 如果您在對應欄位中輸入&quot;0&quot;，則吞吐量將無限制。
+   您可以指定出站訊息（&quot;MT&quot;，Mobile Terminated）的吞吐量上限，以每秒 MT 為單位。如果您在對應欄位中輸入　&quot;0&quot;，則吞吐量將無限制。
 
    與持續時間對應的所有欄位的值需要以秒為單位完成。
 
-1. 定義SMS-C特定參數，以備您需要定義特定編碼對應時使用。 有關詳細資訊，請參閱 [SMSC詳細資訊](#smsc-specifics) 。
+1. 定義　SMS-C　特定參數，以備您需要定義特定編碼對應時使用。如需詳細資訊，請參閱[詳細文件](#smsc-specifics)。
 
-   如果 **[!UICONTROL Send full phone number (send characters other than digits)]** 您不想遵守SMPP協定，並將首碼傳輸 **[!UICONTROL +]** 到SMS提供者(SMS-C)的伺服器，請啟用此選項。
+   如果您不想遵守 SMPP 通訊協定，並將 **[!UICONTROL +]** 首碼傳輸到 SMS 提供者 (SMS-C) 的伺服器，請啟用 **[!UICONTROL Send full phone number (send characters other than digits)]** 選項。
 
-   但是，由於某些提供者需要使用首碼，因此建議您向您的提供者 **[!UICONTROL +]** 查詢，並建議您視需要啟用此選項。
+   但是，由於某些提供者需要使用 **[!UICONTROL +]** 首碼，因此建議您向您的提供者查詢，並建議您視需要啟用此選項。
 
-1. 如有需要，請根據回覆的內容定義自動回覆以觸發動作。 如需詳細資訊，請參閱[本章節](../../channels/using/managing-incoming-sms.md#managing-stop-sms)。
-1. 保存SMS路由外部帳戶的配置。
+1. 如有需要，請根據回覆的內容定義自動回覆以觸發動作。如需詳細資訊，請參閱[本區段](../../channels/using/managing-incoming-sms.md#managing-stop-sms)。
+1. 儲存 SMS 路由外部帳戶的設定。
 
-您現在可以使用新的路由，透過Adobe Campaign傳送SMS訊息。
+您現在可以使用新的路由，透過 Adobe Campaign 傳送 SMS 訊息。
 
-## SMS編碼和格式 {#sms-encoding-and-formats}
+## SMS 編碼和格式 {#sms-encoding-and-formats}
 
-### SMS編碼、長度和音譯 {#sms-encoding--length-and-transliteration}
+### SMS 編碼、長度和音譯 {#sms-encoding--length-and-transliteration}
 
-根據預設，SMS中的字元數量符合GSM（行動通訊全球系統）標準。
+根據預設，SMS 中的字元數量符合 GSM（行動通訊全球系統）標準。
 
-使用GSM編碼的SMS訊息最多只能有160個字元，若是以多個部分傳送的訊息，則每個SMS的SMS訊息最多只能有153個字元。
+使用 GSM 編碼的 SMS 訊息最多只能有 160 個字元，若是以多個部分傳送的訊息，則每個 SMS 的 SMS 訊息最多只能有 153 個字元。
 
 >[!NOTE]
 >
->某些字元會計為兩個字元（括弧、方括弧、歐元符號等）。 可用GSM字元的清單顯示在「字元表- [GSM標準」部分](#table-of-characters---gsm-standard) 。
+>某些字元會計為兩個字元（括弧、方括弧、歐元符號等）。可用 GSM 字元的清單顯示在[字元表 – GSM 標準](#table-of-characters---gsm-standard)區段。
 
-如果您喜歡，可以勾選對應方塊，以授權字母音譯。
+您也可以核取相對應的方塊，以授權字元音譯。
 
 ![](assets/sms_transliteration.png)
 
-音譯包括當GSM標準未考慮到SMS的一個字元時，用另一個字元取代該字元。
+音譯包括當 GSM 標準未考慮到 SMS 的一個字元時，用另一個字元取代該字元。
 
-* 如果音譯是 **授權的**，則在傳送訊息時，未考慮的每個字元會由GSM字元取代。 例如，字母&quot;ë&quot;被&quot;e&quot;取代。 因此，訊息會稍微變更，但字元限制將維持不變。
-* 當音譯未 **授權時**，每個包含未納入考量之字元的訊息都會以二進位格式(Unicode)傳送： 因此，所有字元都將按原樣發送。 不過，使用Unicode的SMS訊息最多只能有70個字元（若是以多個部分傳送的訊息，則每個SMS有67個字元）。 如果超出字元數上限，則會傳送數則訊息，這可能會造成額外成本。
+* 如果音譯已獲得&#x200B;**授權**，則在傳送訊息時，未考慮的每個字元會由 GSM 字元取代。例如，字元 &quot;ë&quot; 會由 &quot;e&quot; 取代。因此，訊息會稍微變更，但字元限制將維持不變。
+* 如果音譯未獲&#x200B;**授權**，每個包含未納入考量之字元的訊息都會以二進位格式 (Unicode) 傳送：因此，所有字元都將按原樣發送。不過，使用 Unicode 的 SMS 訊息最多只能有 70 個字元（若是以多個部分傳送的訊息，則每個 SMS 有 67 個字元）。如果超出字元數上限，則會傳送數則訊息，這可能會造成額外成本。
 
 >[!IMPORTANT]
 >
->將個人化欄位插入您的SMS訊息內容，可能會引入GSM編碼未考慮的字元。 「個人化SMS訊息」區 [段提供內容範例](../../channels/using/personalizing-sms-messages.md) 。
+>將個人化欄位插入您的 SMS 訊息內容，可能會引入 GSM 編碼未考慮的字元。[個人化 SMS 訊息](../../channels/using/personalizing-sms-messages.md)區段提供內容範例。
 
-依預設，字母音譯會停用。 如果您希望SMS訊息中的所有字元都保持原樣，不要變更正確名稱（例如），建議您不要啟用此選項。
+依預設，會停用字元音譯。如果您希望 SMS 訊息中的所有字元都保持原樣，不要變更正確名稱（例如），建議您不要啟用此選項。
 
-不過，如果您的SMS訊息包含許多產生Unicode訊息的字元，您可以選擇啟用此選項，以限制傳送訊息的成本。
+不過，如果您的 SMS 訊息包含許多產生 Unicode 訊息的字元，您可以選取啟用此選項，以限制傳送訊息的成本。
 
-### 字元表- GSM Standard {#table-of-characters---gsm-standard}
+### 字元表 – GSM Standard {#table-of-characters---gsm-standard}
 
-本節介紹GSM標準所考慮的字元。 除下面提及的字元外，所有插入訊息內文的字元都會將整個訊息轉換為二進位格式(Unicode)，因此限制為70個字元。 如需詳細資訊，請參閱 [SMS編碼、長度和音譯](#sms-encoding--length-and-transliteration) 。
+本節介紹 GSM 標準所考慮的字元。除下面提及的字元外，所有插入訊息內文的字元都會將整個訊息轉換為二進位格式 (Unicode)，因此限制為 70 個字元。如需詳細資訊，請參閱 [SMS 編碼、長度和音譯](#sms-encoding--length-and-transliteration)。
 
 **基本字元**
 
@@ -162,7 +162,7 @@ ht-degree: 1%
    <td> t<br /> </td> 
   </tr> 
   <tr> 
-   <td> 埃<br /> </td> 
+   <td> é<br /> </td> 
    <td> <img height="21px" src="assets/omega.png" /> <br /> </td> 
    <td> %<br /> </td> 
    <td> 5<br /> </td> 
@@ -172,7 +172,7 @@ ht-degree: 1%
    <td> u<br /> </td> 
   </tr> 
   <tr> 
-   <td> 烏<br /> </td> 
+   <td> ù<br /> </td> 
    <td> <img height="21px" src="assets/pi.png" /> <br /> </td> 
    <td> &amp;<br /> </td> 
    <td> 6<br /> </td> 
@@ -189,10 +189,10 @@ ht-degree: 1%
    <td> G<br /> </td> 
    <td> W<br /> </td> 
    <td> g<br /> </td> 
-   <td> ww<br /> </td> 
+   <td> w<br /> </td> 
   </tr> 
   <tr> 
-   <td> 奧<br /> </td> 
+   <td> ò<br /> </td> 
    <td> <img height="21px" src="assets/sigma.png" /> <br /> </td> 
    <td> (<br /> </td> 
    <td> 8<br /> </td> 
@@ -222,7 +222,7 @@ ht-degree: 1%
    <td> z<br /> </td> 
   </tr> 
   <tr> 
-   <td> 島<br /> </td> 
+   <td> Ø<br /> </td> 
    <td> ESC<br /> </td> 
    <td> +<br /> </td> 
    <td> ;<br /> </td> 
@@ -233,11 +233,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> ø<br /> </td> 
-   <td> AE<br /> </td> 
+   <td> Æ<br /> </td> 
    <td> ,<br /> </td> 
    <td> &lt;<br /> </td> 
    <td> L<br /> </td> 
-   <td> 厄<br /> </td> 
+   <td> Ö<br /> </td> 
    <td> l<br /> </td> 
    <td> ö<br /> </td> 
   </tr> 
@@ -252,111 +252,111 @@ ht-degree: 1%
    <td> ñ<br /> </td> 
   </tr> 
   <tr> 
-   <td> 奧<br /> </td> 
+   <td> Å<br /> </td> 
    <td> ß<br /> </td> 
    <td> .<br /> </td> 
    <td> &gt;<br /> </td> 
    <td> N<br /> </td> 
    <td> Ü<br /> </td> 
    <td> n<br /> </td> 
-   <td> 女<br /> </td> 
+   <td> ü<br /> </td> 
   </tr> 
   <tr> 
    <td> å<br /> </td> 
-   <td> 埃<br /> </td> 
+   <td> É<br /> </td> 
    <td> /<br /> </td> 
    <td> ?<br /> </td> 
    <td> O<br /> </td> 
    <td> §<br /> </td> 
    <td> o<br /> </td> 
-   <td> a<br /> </td> 
+   <td> à<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-SP: 空間
+SP：Space
 
-ESC: Escape
+ESC：Escape
 
-LF: 行動態消息
+LF：換行
 
-CR: 歸位
+CR：歸位
 
 **進階字元（計算兩次）**
 
 ^ { } [ ~ ] | €
 
-### SMSC細節 {#smsc-specifics}
+### SMSC 細節 {#smsc-specifics}
 
 >[!NOTE]
 >
->這些選項允許您調整連接器以使用非標準SMSC（即不完全遵循SMPP 3.4規範）或特定編碼要求，並且僅應由高級用戶配置。
+>這些選項可讓您調整連接器以使用非標準 SMSC（即不完全遵循 SMPP 3.4 規範）或特定編碼要求，並且僅應由進階使用者設定。
 
-傳送SMS訊息時，Adobe Campaign可以使用一或多種文字編碼。 每個編碼都有其專屬的字元集，並決定符合SMS訊息的字元數。
+傳送 SMS 訊息時，Adobe Campaign 可以使用一或多種文字編碼。每個編碼都有其專屬的字元集，並決定符合 SMS 訊息的字元數。
 
-此欄 **[!UICONTROL DATA_CODING]** 位可讓Adobe Campaign與使用編碼的SMS-C通訊。
+**[!UICONTROL DATA_CODING]** 欄位可讓 Adobe Campaign 與使用編碼的 SMS-C 通訊。
 
 >[!NOTE]
 >
->標準化 **data_coding值與實際使用的編碼** 之間的映射。 然而，某些SMS-C有其獨特的映射： 在這種情況下，您的 **** Adobe Campaign管理員需要宣告此對應。 請洽詢您的供應商以瞭解更多資訊。
+>**data_coding** 值及實際使用編碼之間的對應是標準化的。然而，特定 SMS-C 有其獨特的對應：在這種情況下，您的 **Adobe Campaign** 管理員需要宣告此對應。請洽詢您的提供者以瞭解更多資訊。
 
-此功 **[!UICONTROL Define a specific mapping of encodings]** 能可讓您宣告 **data_codings** ，並視需要強制進行編碼： 若要這麼做，請在表格中指定單一編碼。
+**[!UICONTROL Define a specific mapping of encodings]** 功能可讓您宣告 **data_codings**，並視需要強制進行編碼：若要這麼做，請在表格中指定單一編碼。
 
-**配置**
+**設定**
 
-* 未檢 **[!UICONTROL Define a specific mapping of encodings]** 查該功能時，連接器會採取一般行為：
+* 未檢查 **[!UICONTROL Define a specific mapping of encodings]** 功能時，連接器會採取一般行為：
 
-   * 它會嘗試使用GSM編碼，將 **data_coding = 0的值指派給它**。
-   * 如果GSM編碼失敗，則會使 **用UCS2** 編碼，將值 **data_coding = 8**。
+   * 它會嘗試使用 GSM 編碼，將 **data_coding = 0** 的值指派給它。
+   * 如果 GSM 編碼失敗，則會使用 **UCS2** 編碼，並對其指派值 **data_coding = 8**。
 
    ![](assets/sms_data_coding.png)
 
-* 勾選功 **[!UICONTROL Define a specific mapping of encodings]** 能後，您可以定義要使用的編碼以及連結的欄位 **[!UICONTROL data_coding]** 值。 Adobe Campaign會嘗試使用清單中的第一個編碼，如果第一個編碼不可能，則請執行下列操作。
+* 核取 **[!UICONTROL Define a specific mapping of encodings]** 功能後，您可以定義要使用的編碼以及連結的 **[!UICONTROL data_coding]** 欄位值。Adobe Campaign 會嘗試使用清單中的第一個編碼，如果第一個編碼不可能，則請執行下列操作。
 
-   聲明的順序非常重要： 建議您將清單以成本的遞增 **順序** ，以利於編碼，讓您在每則SMS訊息中盡可能多地顯示字元。
+   宣告的順序非常重要：建議您以&#x200B;**成本**&#x200B;的遞增順序顯示清單，以利於編碼，讓您在每則 SMS 訊息中盡可能多地顯示字元。
 
-   僅聲明您要使用的編碼。 如果SMS-C提供的某些編碼不符合您的使用目的，請勿在清單中宣告。
+   僅宣告您要使用的編碼。如果 SMS-C 提供的某些編碼不符合您的使用目的，請勿在清單中宣告。
 
    ![](assets/sms_data_coding1.png)
 
-### 自動回覆傳送至MO {#automatic-reply-sent-to-the-mo}
+### 自動回覆傳送至 MO {#automatic-reply-sent-to-the-mo}
 
-當描述檔回覆透過「促銷活動」傳送的SMS訊息時，您可以設定自動傳回給他的訊息，以及要執行的動作。
+當描述檔回覆透過 Campaign 傳送的 SMS 訊息時，您可以設定自動傳回給他的訊息，以及要執行的動作。
 
-有關更多資訊，請參見[本節](../../channels/using/managing-incoming-sms.md)。
+如需詳細資訊，請參閱[本區段](../../channels/using/managing-incoming-sms.md)。
 
-## 配置SMS屬性 {#configuring-sms-properties}
+## 設定 SMS 屬性{#configuring-sms-properties}
 
-本節詳細說明SMS傳送或SMS範本屬性畫面中SMS專屬的參數清單。
+本節詳細說明 SMS 傳送或 SMS 範本屬性畫面中 SMS 專屬的參數清單。
 
-用於發送SMS消息的特定參數在和節中 **[!UICONTROL Send]** 重新分組 **[!UICONTROL Advanced parameters]** 。
+用於傳送 SMS 訊息的特定參數會在 **[!UICONTROL Send]** 及 **[!UICONTROL Advanced parameters]** 區段中重新分組。
 
 ![](assets/sms_options.png)
 
 從部 **[!UICONTROL Advanced parameters]** 分：
 
-* 該 **[!UICONTROL From]** 選項允許您使用字串個性化SMS消息發送器的名稱。 此名稱將顯示為收件者行動電話上SMS訊息的傳送者名稱。
+* **[!UICONTROL From]** 選項可讓您使用字串個人化 SMS 訊息寄件者的名稱。此名稱將顯示為收件者行動電話上 SMS 訊息的傳送者姓名。
 
-   如果此欄位為空，則會是使用的外部帳戶中提供的來源號碼。 如果未提供來源號碼，則將使用簡短代碼。 SMS傳送專用的外部帳戶會顯示在「定 [義SMS路由」部分](#defining-an-sms-routing) 。
+   如果此欄位為空，則會是使用的外部帳戶中提供的來源號碼。如果未提供來源號碼，則將使用簡短代碼。SMS 傳送專用的外部帳戶會顯示在[定義 SMS 路由](#defining-an-sms-routing)區段。
 
    ![](assets/sms_smpp_2.png)
 
    >[!IMPORTANT]
    >
-   >請查看您所在國家／地區有關修改發件人地址的法規。 您也應洽詢您的SMS服務供應商，以瞭解他們是否提供此功能。
+   >請查看您所在國家/地區有關修改寄件者地址的法規。您也應洽詢您的 SMS 服務提供者，以瞭解他們是否提供此功能。
 
 從SMS **[!UICONTROL Send]** 範本的區段：
 
-* 選 **[!UICONTROL Maximum number of SMS per message]** 項允許您定義用於發送消息的SMS消息數。 如果超過此數目，則不會傳送訊息。
+* **[!UICONTROL Maximum number of SMS per message]** 選項可讓您定義用於傳送訊息的 SMS 訊息數目。如果超過此數目，則不會傳送訊息。
 
    >[!IMPORTANT]
    >
-   >如果您已將個人化欄位或條件文字插入SMS訊息的內容，訊息的長度，以及因此要傳送的SMS訊息數量，可能會因收件者而異。 有關詳細資訊，請參閱「個 [人化SMS消息](../../channels/using/personalizing-sms-messages.md) 」部分。
+   >如果您已將個人化欄位或條件文字插入 SMS 訊息的內容，訊息的長度，以及因此要傳送的 SMS 訊息數目，可能會因收件者而異。如需詳細資訊，請參閱[個人化 SMS 訊息](../../channels/using/personalizing-sms-messages.md)區段。
 
    ![](assets/sms_smpp_3.png)
 
-* 此 **[!UICONTROL Transmission mode]** 欄位可讓您判斷SMS訊息的傳送方式：
+* **[!UICONTROL Transmission mode]** 欄位可讓您判斷 SMS 訊息的傳送方式：
 
-   * **[!UICONTROL Saved on SIM card]**: 該消息儲存在接收者的電話SIM卡上。
-   * **[!UICONTROL Saved on mobile]**: 該消息儲存在電話的內部儲存器上。
-   * **[!UICONTROL Flash]**: 該消息作為通知在收件人的行動電話上顯示，然後消息消失而不被保存。
+   * **[!UICONTROL Saved on SIM card]**：會將該訊息儲存在收件者的電話 SIM 卡上。
+   * **[!UICONTROL Saved on mobile]**：會將該訊息儲存在電話的內部記憶體中。
+   * **[!UICONTROL Flash]**：該訊息會顯示在收件者的行動電話以作為通知，之後訊息會消失，而不會儲存。

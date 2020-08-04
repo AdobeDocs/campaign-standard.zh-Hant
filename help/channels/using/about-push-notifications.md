@@ -1,6 +1,6 @@
 ---
 title: 關於推播通知
-description: 探索Adobe Campaign推播通知頻道的主要特性。
+description: 探索　Adobe Campaign　推播通知通道的主要特性。
 page-status-flag: never-activated
 uuid: 961aaeb5-6948-4fd2-b8d7-de4510c10566
 contentOwner: sauviat
@@ -16,7 +16,7 @@ translation-type: tm+mt
 source-git-commit: f9632e88b49c2280c76e709376cfb7a7a27abc1f
 workflow-type: tm+mt
 source-wordcount: '1280'
-ht-degree: 2%
+ht-degree: 49%
 
 ---
 
@@ -25,60 +25,60 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->推播通知實作必須由專家使用者執行。 如果您需要協助，請聯絡您的Adobe客戶主管或專業服務合作夥伴。 推播通知是選用功能。 請檢查您的授權合約，並聯絡您的帳戶管理員以啟用它。
+>推播通知實作必須由專家使用者執行。如果您需要協助，請聯絡您的 Adobe 客戶主管或專業服務合作夥伴。推播通知是選用功能。請檢查您的授權合約，並聯絡您的帳戶管理員以啟用它。
 
-Adobe Campaign可讓您將個人化和分段的推播通知傳送至iOS和Android行動裝置。
+Adobe Campaign 可讓您將個人化和分段的推播通知傳送至 iOS 和 Android 行動裝置。
 
-這些訊息是在您在Adobe Campaign中設定的行動應用程式上，透過運用Experience Platform SDK收到的。 如需詳細資訊，請參閱「使 [用Adobe Experience Platform SDK設定行動應用程式」](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)。
+這些訊息是您利用 Experience Platform SDK 在 Adobe Campaign 中設定之行動應用程式接收而來的。如需詳細資訊，請參閱[使用 Adobe Experience Platform SDK 設定行動應用程式](https://helpx.adobe.com/tw/campaign/kb/configuring-app-sdk.html)。
 
-In Adobe Campaign, mobile profile attributes data sent from mobile device are stored in **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** resource which allows you to define the data that you want to collect from your applications&#39; subscribers.
+在 Adobe Campaign 中，由行動裝置傳送的行動設定檔屬性資料會儲存在 **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** 資源中，您可藉此定義要從應用程式訂閱者收集的資料。
 
-需要擴充此資源，以收集您要從行動裝置傳送至Adobe Campaign的資料。 若要這麼做，請參閱本 [頁](../../developing/using/extending-the-subscriptions-to-an-application-resource.md) ，以取得詳細步驟。
+需要擴充此資源，才能收集您要從行動裝置傳送至 Adobe Campaign 的資料。要執行此操作，請參閱本[頁面](../../developing/using/extending-the-subscriptions-to-an-application-resource.md)以取得詳細步驟。
 
-Adobe Campaign提供兩種推播通知類型：
+Adobe Campaign 提供兩種類型的推播通知：
 
-* **[!UICONTROL Alert/Message/Badge]** 文字通知可讓您傳送含有其他內容（音效、徽章、Deeplink等）的標準文字訊息。 在區段中定 **[!UICONTROL Advanced options]** 義。
+* **[!UICONTROL Alert/Message/Badge]** 類型通知可讓您傳送包含您可在&#x200B;**[!UICONTROL Advanced options]** 區段中定義之其他內容（音效、徽章、Deeplink 等）的標準文字型訊息。
 
-   此通知類型可讓您新增標題和訊息，您可在其中使用個人化欄位。 若要個人化您的訊息，請務必選取范 **[!UICONTROL Send push on profiles]** 本。
+   此通知類型可讓您新增標題和訊息，您可在其中使用個人化欄位。若要個人化您的訊息，請務必選取 **[!UICONTROL Send push on profiles]** 範本。
 
-* **[!UICONTROL Silent push]** 類型通知可用來無訊息地通知應用程式，而不會傳送任何訊息或內容給一般使用者。 此類訊息的典型使用案例是讓應用程式知道伺服器上有可供下載的內容。
+* **[!UICONTROL Silent push]** 類型通知可用於無訊息地通知應用程式，而不會傳送任何訊息或內容給一般使用者。此類訊息的典型使用案例是讓應用程式知道伺服器上有可供下載的內容。
 
-可以設定某些特定配置來定義通知行為。 如需詳細資訊，請參閱[本章節](../../channels/using/customizing-a-push-notification.md)。
+可以進行一些特定設定來定義通知行為。如需詳細資訊，請參閱[本區段](../../channels/using/customizing-a-push-notification.md)。
 
-身為專家使用者，若要定義這些特定組態，請參閱行動應用程式 [技術](https://helpx.adobe.com/campaign/kb/acs-article-list.html)。
+身為專家使用者，若要定義這些特定設定，請參閱行動應用程式[技術文件](https://helpx.adobe.com/tw/campaign/kb/acs-article-list.html)。
 
 >[!NOTE]
 >
->隱私權相關法律依國家／地區而異。 有些國家／地區需要您通知使用者行動應用程式收集的資料類型。 請檢查您所在國家／地區的行動應用程式相關法律。 請確定傳送至行動應用程式的推播通知符合Apple（Apple推播通知服務）和Google（Google雲端訊息或Firebase雲端訊息）所指定的必要條件。
+>關於隱私權的法律會依國家/地區而異。有些國家/地區會要求您通知使用者行動應用程式收集的資料類型。請檢查您所在國家/地區的行動應用程式相關法律。請確定傳送至行動應用程式的推播通知符合 Apple（Apple 推播通知服務）和 Google（Google 雲端訊息或 Firebase 雲端訊息）所指定的必要條件。
 
 **相關內容：**
 
 * [準備和傳送推播通知](../../channels/using/preparing-and-sending-a-push-notification.md)
 * [建立多語言推播通知](../../channels/using/creating-a-multilingual-push-notification.md)
 * [推播通知報告](../../reporting/using/push-notification-report.md)
-* [Campaign Standard行動指南](https://helpx.adobe.com/campaign/kb/acs-mobile.html)
+* [Campaign Standard　行動指南](https://helpx.adobe.com/tw/campaign/kb/acs-mobile.html)
 
 ## 必要條件 {#prerequisites}
 
 >[!NOTE]
->若要運用Campaign的推播通知功能，您必須提供。pem格式的有效推播憑證，而不需密碼。
-如果您有有效的p12憑證，則可使用線上資源，輕鬆將它轉換為。pem檔案。
+>若要利用來自 Campaign 的推播通知功能，您需要以 .pem 格式提供有效的推播憑證，而且不含密碼。
+如果您有有效的 p12 憑證，則可使用線上資源，輕鬆地將之轉換為 .pem 檔案。
 
-傳送推播通知前，您應：
+傳送推播通知前，您應該：
 
-1. 在Adobe Campaign中，請確定您可以存取該 **[!UICONTROL Push notification]** 渠道。 如果您無法存取這些渠道，請連絡您的帳戶團隊。
+1. 在　Adobe Campaign　中，確定您可以存取 **[!UICONTROL Push notification]** 通道。如果您無法存取這些通道，請聯絡您的帳戶團隊。
 
-1. 確認您的使用者擁有Adobe Campaign Standard和Experience Platform Launch中的必要權限。
+1. 確認您的使用者擁有　Adobe Campaign Standard 和 Experience Platform Launch　中的必要權限。
 
-1. 在Experience Platform Launch中，建立行動屬性。 如需詳細資訊，請 [參閱「設定行動裝置屬性」](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)。
+1. 在　Experience Platform Launch　中，建立行動屬性。如需詳細資訊，請參閱[設定行動裝置屬性](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)。
 
-1. 在Experience Platform Launch中，安裝擴 **[!UICONTROL Adobe Campaign Standard]** 充功能。
+1. 在　Experience Platform Launch　中，安裝　**[!UICONTROL Adobe Campaign Standard]** 擴充功能。
 
-1. 在Adobe Campaign Standard中，設定您在Experience Platform Launch中建立的行動裝置屬性。 如需詳細資訊，請 [參閱「在Adobe Campaign中設定Experience Platform Launch應用程式」](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#SettingupyourAdobeExperiencePlatformLaunchapplicationinAdobeCampaign)。
+1. 在　Adobe Campaign Standard　中，設定您在　Experience Platform Launch　中建立的行動裝置屬性。如需詳細資訊，請參閱[在　Adobe Campaign　中設定　Experience Platform Launch　應用程式](https://helpx.adobe.com/tw/campaign/kb/configuring-app-sdk.html#SettingupyourAdobeExperiencePlatformLaunchapplicationinAdobeCampaign)。
 
-1. 將特定頻道的組態新增至行動應用程式設定。 如需詳細資訊，請參 [閱Adobe Campaign中的頻道特定應用程式設定](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)。
+1. 將特定通道的設定新增至行動應用程式設定。如需詳細資訊，請參閱[ Adobe Campaign 中的通道特定應用程式設定](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)。
 
-1. 若要支援行動使用案例實作，請參閱有關使用Adobe Experience Platform SDK的擴充功能、Experience Platform Launch規則，以及 [Adobe Campaign Standard支援的行動使用案例中SDK實作的詳細指示](https://helpx.adobe.com/campaign/kb/configure-launch-rules-acs-use-cases.html)。
+1. 若要支援行動使用案例實作，請參閱有關使用 Adobe Experience Platform SDK 擴充功能、Experience Platform Launch 規則，以及 [Adobe Campaign Standard 支援之行動使用案例中 SDK 實作的詳細指示](https://helpx.adobe.com/tw/campaign/kb/configure-launch-rules-acs-use-cases.html)。
 
 ## 推播通知常見問答集 {#push-faq}
 
@@ -93,7 +93,7 @@ Adobe Campaign提供兩種推播通知類型：
 
 ### 我必須做什麼才能在促銷活動中取得推播代號？ {#push-token-acquisition}
 
-請確定布建團隊已在Adobe Campaign Standard中完成布建推播頻道。 從SDK實作setPushIdentifier API。 For more on this, refer to this [page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#set-up-push-messaging).
+請確定布建團隊已在Adobe Campaign Standard中完成布建推播頻道。 從SDK實作setPushIdentifier API。 如需關於此項目的詳細資訊，請參閱此[頁面](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#set-up-push-messaging)。
 
 ### 在促銷活動中擁有推播Token和ECID後，我還需要傳送推播通知嗎？ {#sending-push}
 

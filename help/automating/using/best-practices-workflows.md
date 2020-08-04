@@ -1,5 +1,5 @@
 ---
-title: 工作流程最佳範例
+title: 工作流程最佳實務
 description: 瞭解如何將最佳實務套用至您的工作流程。
 page-status-flag: never-activated
 uuid: ff02b74e-53e8-49c6-bf8e-0c729eaa7d25
@@ -11,39 +11,39 @@ topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1046'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
 # 工作流程最佳實務{#workflow-best-practices}
 
-有了Adobe Campaign，您可以設定所有類型的工作流程，以執行大範圍的工作。 不過，在設計和執行工作流程時，您必須非常小心，因為不當的實施可能會導致效能不佳、錯誤和平台問題。 您可以在下方找到最佳實務和疑難排解秘訣。
+有了 Adobe Campaign，您可以設定所有類型的工作流程，以執行大範圍的工作。不過，在設計和執行工作流程時，您必須非常小心，因為不當實作可能會導致效能不佳、錯誤和平台問題。您可以在下方找到最佳實務和疑難排解提示。
 
 >[!NOTE]
 >
->工作流程設計和執行必須由Adobe Campaign進階使用者執行。
+>工作流程設計和執行必須由 Adobe Campaign 進階使用者執行。
 
 ## 命名{#naming}
 
-為方便工作流程疑難排解，Adobe建議您明確命名工作流程並加上標籤。 填寫工作流程的說明欄位，匯總要執行的程式，讓營運商可輕鬆瞭解。
-如果工作流是涉及多個工作流的流程的一部分，您可以在輸入標籤時使用數字來清楚地對它們進行排序。
+為方便工作流程疑難排解，Adobe 建議您明確命名工作流程並加上標籤。填寫工作流程的說明欄位，彙總要執行的程序，讓營運商可輕鬆瞭解。
+如果工作流程是涉及多個工作流程的流程的一部分，您可以在輸入標籤時，使用數字以清楚地對其進行排序。
 
 例如：
 
-* 001 —— 導入——導入收件人
-* 002 —— 導入——導入銷售
-* 003 —— 導入——導入銷售詳細資訊
-* 010 —— 匯出——匯出傳送記錄檔
-* 011 —— 匯出——匯出追蹤記錄檔
+* 001 – 匯入 – 匯入收件人
+* 002 – 匯入 – 匯入銷售
+* 003 – 匯入 – 匯入銷售詳細資訊
+* 010 – 匯出 – 匯出傳送記錄檔
+* 011 – 匯出 – 匯出追蹤記錄檔
 
 ## 複製工作流程{#duplicating-workflows}
 
-您可以複製工作流程。 在中， **[!UICONTROL Marketing Activities]**&#x200B;將滑鼠指標暫留在工作流程上，然後按一下 **[!UICONTROL Duplicate element]**。 複製後，工作流的修改不會轉存到工作流的副本中。 可以編輯工作流的副本。
+您可以複製工作流程。在 **[!UICONTROL Marketing Activities]** 中，將滑鼠指標停留在工作流程上，然後按一下 **[!UICONTROL Duplicate element]**。複製之後，不會將工作流程的修改轉存到工作流程的副本中。可以編輯工作流程的副本。
 
 ![](assets/duplicating_workflow.png)
 
@@ -51,113 +51,113 @@ ht-degree: 0%
 
 ### 工作流程數量
 
-依預設，我們建議不要同時執行超過20個作用中的工作流程。 在達到此限制後，工作流程將排入佇列，以免影響效能。 同樣地，Adobe建議您將工作流程執行分散到不同的時間。
-在特定情況下，您可能需要執行超過20個工作流程。 它不適用於等待排程執行的工作流程。  如果是，您需要向Campaign專家檢查使用案例，並聯絡Adobe客戶服務以提高限制。
+依預設，我們建議不要同時執行超過 20 個作用中的工作流程。達到此限制之後，會將工作流程排入佇列，以免影響效能。同樣地，Adobe 建議您將工作流程執行分散到不同的時間。
+在特定情況下，您可能需要執行超過 20 個工作流程。不適用於等待排程執行的工作流程。若是如此，您需要向 Campaign 專家檢查使用案例，並聯絡 Adobe 客戶服務以提高限制。
 
 ### 頻率
 
-工作流程無法每隔10分鐘自動執行一次。
-活動的重複頻率不得少於10分鐘。 如果重複頻率設為0（也是預設值），則不會考慮此選項，並會根據執行頻率執行工作流程。
+工作流程無法每隔 10 分鐘自動執行一次。
+活動的重複頻率不得少於 10 分鐘。如果重複頻率設為 0（也是預設值），則不會考慮此選項，並會根據執行頻率執行工作流程。
 
 ### 暫停的工作流程
 
-已暫停或失敗狀態超過7天的工作流程會停止，以減少磁碟空間。 清除任務顯示在工作流日誌中。
+已暫停或失敗狀態超過 7 天的工作流程會停止，以減少使用的磁碟空間。清除任務顯示在工作流程記錄檔中。
 
-### 轉場效果
+### 轉變
 
-仍可執行包含未終止轉場的工作流程： 它將產生警告訊息，工作流程在轉場時會暫停，但不會產生錯誤。 您也可以在沒有完成設計的情況下開始工作流程，並隨時完成。
+仍可執行包含未終止轉變的工作流程：它將產生警告訊息，工作流程在轉變時會暫停，但不會產生錯誤。您也可以在沒有完成設計的情況下開始工作流程，並隨時完成工作流程。
 
-如需詳細資訊，請參閱「執行 [工作流程」](../../automating/using/about-workflow-execution.md)。
+如需詳細資訊，請參閱[執行工作流程](../../automating/using/about-workflow-execution.md)。
 
 ### 時區
 
-工作流屬性允許您定義在其所有活動中預設使用的特定時區。 依預設，工作流程的時區是為目前的促銷活動運算子定義的時區。
+工作流程屬性可讓您定義在其所有活動中預設使用的特定時區。依預設，工作流程的時區是為目前的促銷活動運算子定義的時區。
 
 
 ## 活動{#activity}
 
 ### 工作流程設計
 
-為確保工作流程正常結束，請使用 **[!UICONTROL End activity]**。 請避免將工作流程的最後一個轉場作業單獨進行。
+為確保工作流程正常結束，請使用 **[!UICONTROL End activity]**。請避免讓工作流程的最後一個轉變單獨進行。
 
-要訪問轉場的詳細視圖，請選中工 **[!UICONTROL Keep interim results]** 作流屬性的「執行」部分中的選項。
+若要存取轉變的詳細檢視，請核取工作流程屬性的「執行」區段中的 **[!UICONTROL Keep interim results]** 選項。
 
 >[!CAUTION]
 >
->此選項佔用了大量磁碟空間，旨在幫助您構建工作流並確保正確的配置和行為。 在生產例項中保留未選中狀態。
+>此選項佔用了大量磁碟空間，設計旨在幫助您建構工作流程並確保正確的設定和行為。在生產執行個體中保留未核取的狀態。
 
 ![](assets/keep_interim_best_practices.png)
 
 
-### 標籤活動{#activity-labeling}
+### 標籤活動 {#activity-labeling}
 
-在開發工作流程時，會針對每個活動產生名稱，例如所有Adobe Campaign物件。 雖然工具會產生活動名稱，且無法編輯，但建議在設定活動名稱時，以明確的名稱加上標籤。
+在開發工作流程時，會針對每個活動產生名稱，例如所有 Adobe Campaign 物件。雖然工具會產生活動名稱且無法編輯，但建議在設定活動名稱時，以明確的名稱加上標籤。
 
 ### 複製活動{#activity-duplicating}
 
-若要複製現有活動，您可以使用複製貼上。 如此，您就可保留原本定義的設定。 如需詳細資訊，請參閱「復 [制工作流程」活動](../../automating/using/workflow-interface.md)。
+若要複製現有活動，您可以使用複製貼上。如此，您就可保留原本定義的設定。如需詳細資訊，請參閱[複製工作流程活動](../../automating/using/workflow-interface.md)。
 
 ### 排程器活動{#acheduler-activity}
 
-在建立工作流程時，每個分支僅使 **[!UICONTROL Scheduler activity]** 用一個。 如果工作流的同一分支有多個調度程式（相互連結），則要執行的任務數將呈指數倍增，這將大大超出資料庫。
+在建立工作流程時，每個分支僅使用一個 **[!UICONTROL Scheduler activity]**。如果工作流程的同一分支有多個排程器（相互連結），則要執行的任務數量將呈指數倍增，這將使得資料庫大幅超載。
 
-您可以按一下，預覽工作流程的下十個執行 **[!UICONTROL Preview next executions]**。
+您可以按一下 **[!UICONTROL Preview next executions]**，預覽工作流程後續的十個執行。
 
 ![](assets/preview_scheduler.png)
 
-有關詳細資訊，請參 [閱Scheduler活動](../../automating/using/scheduler.md)。
+如需詳細資訊，請參閱[排程器活動](../../automating/using/scheduler.md)。
 
 ## 使用參數呼叫工作流程{#workflow-with-parameters}
 
-請確定參數的名稱和數目與呼叫工作流時所定義的相同(請參閱呼 [叫工作流時定義參數](../../automating/using/calling-a-workflow-with-external-parameters.md#defining-the-parameters-when-calling-the-workflow))。 參數的類型也必須與預期值一致。
+請確定參數的名稱和數目與呼叫工作流程時所定義的相同（請參閱[呼叫工作流程時定義參數](../../automating/using/calling-a-workflow-with-external-parameters.md#defining-the-parameters-when-calling-the-workflow))。參數的類型也必須與預期值一致。
 
-請確定所有參數都已在中聲明 **[!UICONTROL External signal activity]**。 否則，當執行活動時將發生錯誤。
+請確定所有參數都已在　**[!UICONTROL External signal activity]**　中宣告。否則，執行活動時將發生錯誤。
 
-如需詳細資訊，請參 [閱使用外部參數呼叫工作流程](../../automating/using/calling-a-workflow-with-external-parameters.md)。
+如需詳細資訊，請參閱[使用外部參數呼叫工作流程](../../automating/using/calling-a-workflow-with-external-parameters.md)。
 
-## 導出包{#exporting-packages}
+## 匯出套件{#exporting-packages}
 
-要導出包，導出的資源不能包含預設ID。 因此，必須使用與Adobe Campaign Standard標準範本不同的名稱來變更可匯出資源的ID。
-如需詳細資訊，請參 [閱管理套件](../../automating/using/managing-packages.md)。
+若要匯出套件，匯出的資源不可包含預設　ID。因此，必須使用與　Adobe Campaign Standard　標準範本不同的名稱，以變更可匯出資源的　ID。
+如需詳細資訊，請參閱[管理套件](../../automating/using/managing-packages.md)。
 
 ## 匯出清單{#exporting-lists}
 
-導出清單選項允許預設情況下導出最多100,000行，並且由 **Nms_ExportListLimit選項定義**。 此選項可由功能管理員管理，位於 **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** >下 **[!UICONTROL Options]**。
-如需詳細資訊，請參閱匯 [出清單](../../automating/using/exporting-lists.md)。
+匯出清單選項預設會匯出最多　100,000　行，並且由 **Nms_ExportListLimit　選項定義**。此選項可由功能管理員管理，位於 **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**　下方。
+如需詳細資訊，請參閱[匯出清單](../../automating/using/exporting-lists.md)。
 
 ## 疑難排解{#workflow-troubleshooting}
 
-Adobe Campaign提供多種記錄檔，讓您更清楚地瞭解工作流程問題。
+Adobe Campaign　提供多種記錄檔，讓您更清楚瞭解工作流程問題。
 
 ### 使用工作流程記錄檔{#using-workflow-logs}
 
-您可以存取工作流程記錄檔，以監控活動的執行。 它按時間順序對執行的操作和執行錯誤進行索引。 「日誌」頁籤包含所有或某些選定活動的執行歷史記錄。
-「任務」頁籤詳細說明了活動的執行順序。 若要取得活動的詳細資訊，請按一下工作。
-有關詳細資訊，請參閱「監 [視工作流執行」](../../automating/using/monitoring-workflow-execution.md)。
+您可以存取工作流程記錄檔，以監控活動的執行。其會按時間順序，對執行的操作和執行錯誤進行索引。Logs 索引標籤包含所有或某些選取活動的執行歷史記錄。
+Tasks 索引標籤會詳細說明活動的執行順序。若要取得活動的詳細資訊，請按一下任務。
+有關詳細資訊，請參閱[監控工作流程執行](../../automating/using/monitoring-workflow-execution.md)。
 
-#### Troubleshooting data management activities{#troubleshooting-data-management-activities}
+#### 疑難排解資料管理活動{#troubleshooting-data-management-activities}
 
-可以在[日誌]頁籤中分析SQL查詢。
+您可以在　Log　索引標籤中分析　SQL　查詢。
 
 1. 在工作流程工作區中，按一下 **[!UICONTROL Edit properties]**。
-1. 在 **[!UICONTROL General]** > **[!UICONTROL Execution]**&#x200B;中，勾選 **[!UICONTROL Save SQL queries in the log]** 和選 **[!UICONTROL Execute in the engine]** 項並按一下 **[!UICONTROL Confirm]**。
+1. 在 **[!UICONTROL General]** > **[!UICONTROL Execution]** 中，核取 **[!UICONTROL Save SQL queries in the log]** 及 **[!UICONTROL Execute in the engine]** 選項並按一下 **[!UICONTROL Confirm]**。
 
-**要在日誌中查看SQL查詢，請執行以下操作：**
-1. 按一下 **[!UICONTROL Log and Tasks]**.
-1. 在標籤 **[!UICONTROL Logs]** 中，開啟面 **[!UICONTROL Search]** 板。
-1. 查 **[!UICONTROL Display SQL logs only]**。
+**若要檢視記錄檔中的 SQL 查詢：**
+1. 按一下 **[!UICONTROL Log and Tasks]**。
+1. 在 **[!UICONTROL Logs]** 索引標籤中，開啟 **[!UICONTROL Search]** 面板。
+1. 核取 **[!UICONTROL Display SQL logs only]**。
 
-查詢顯示在日 **[!UICONTROL Message]** 志的列中。
+查詢會顯示在記錄檔的 **[!UICONTROL Message]** 欄中。
 
 ### 使用傳送記錄檔{#using-delivery-logs}
 
-傳送記錄可監控傳送的成功。 排除記錄在準備傳送期間傳回已排除的訊息。 傳送記錄檔會提供每個描述檔的傳送狀態。
-如需詳細資訊，請參閱「了 [解傳送失敗](../../sending/using/understanding-delivery-failures.md)」。
+傳送記錄檔可監控傳送是否成功。排除記錄在準備傳送期間傳回已排除的訊息。傳送記錄檔會提供每個描述檔的傳送狀態。
+如需詳細資訊，請參閱[瞭解傳送失敗](../../sending/using/understanding-delivery-failures.md)。
 
 ### 使用傳送警報{#delivery-alerting}
 
 「傳送警報」功能是警報管理系統，可讓一組使用者自動接收包含其傳送執行資訊的通知。
-如需詳細資訊，請參閱「 [傳送警報」](../../sending/using/receiving-alerts-when-failures-happen.md)。
+如需詳細資訊，請參閱[傳送警報](../../sending/using/receiving-alerts-when-failures-happen.md)。
 
 **相關主題：**
 

@@ -12,10 +12,10 @@ discoiquuid: 2a14500f-5ede-4131-8b1a-b7fd65b7e3aa
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7755877031c5ef2dbbac395ac40b2f76670a6499
+source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
 workflow-type: tm+mt
 source-wordcount: '1341'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->推播通知和應用程式內建置必須由專家使用者執行。 如果您需要協助，請聯絡您的Adobe客戶主管或專業服務合作夥伴。
+>推播通知和應用程式內建置必須由專家使用者執行。 如果您需要協助，請聯絡您的 Adobe 客戶主管或專業服務合作夥伴。
 
 若要使用Experience Platform SDK應用程式傳送推播通知和應用程式內訊息，行動應用程式必須在Adobe Experience Platform Experience Platform Launch中設定，並在Adobe Campaign中設定。
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 設定行動應用程式後，您就可以擷取其收集的PII資料，以從資料庫建立或更新描述檔。 如需更多相關資訊，請參閱本節： [根據行動應用程式資料建立和更新個人檔案資訊](../../channels/using/updating-profile-with-mobile-app-data.md)。
 
-若要進一步瞭解使用Adobe Experience Platform SDK的Adobe Campaign Standard支援的不同行動使用案例，請參閱本 [頁](https://helpx.adobe.com/campaign/kb/configure-launch-rules-acs-use-cases.html)。
+若要進一步瞭解使用Adobe Experience Platform SDK的Adobe Campaign Standard支援的不同行動使用案例，請參閱本 [頁](https://helpx.adobe.com/tw/campaign/kb/configure-launch-rules-acs-use-cases.html)。
 
 要完成配置，請完成以下步驟：
 
@@ -53,18 +53,17 @@ ht-degree: 0%
 
    若要完成其他工作，例如安裝擴充功能、發佈應用程式、設定環境等，您必須在產品設定檔中設定權限。
 
-1. 在Experience Platform Launch中，建立 **[!UICONTROL Mobile property]**。 如需詳細資訊，請 [參閱「設定行動裝置屬性」](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)。
+1. 在Experience Platform Launch中，建立 **[!UICONTROL Mobile property]**。 如需詳細資訊，請參閱[設定行動裝置屬性](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)。
 
 1. 在Experience Platform Launch中，按一下 **[!UICONTROL Extensions]** 標籤，前 **[!UICONTROL Catalog]**&#x200B;往並搜尋擴充 **[!UICONTROL Adobe Campaign Standard]** 功能。 如需詳細資訊，請參 [閱Adobe Campaign Standard](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard)。
 
 1. 若要支援Campaign Standard中的位置使用案例，請安裝 **[!UICONTROL Places]** 擴充功能和 **[!UICONTROL Places Monitor]** 擴充功能。
-   * 在Experience Platform **[!UICONTROL Places]** Launch中安裝擴充功能。 Refer to this [page](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
+   * 在Experience Platform **[!UICONTROL Places]** Launch中安裝擴充功能。 Refer to this [page](https://docs.adobe.com/content/help/zh-Hant/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
    * 在Experience Platform **[!UICONTROL Places Monitor]** Launch中安裝擴充功能。 Refer to this [page](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html)
 
-1. 在Adobe Campaign Standard中，設定您在Experience Platform Launch中建立的行動裝置屬性。 請參閱「 [在Adobe Campaign中設定Adobe Experience Platform Launch應用程式」](../../administration/using/configuring-a-mobile-application.md#set-up-campaign)。
+1. 在　Adobe Campaign Standard　中，設定您在　Experience Platform Launch　中建立的行動裝置屬性。請參閱「 [在Adobe Campaign中設定Adobe Experience Platform Launch應用程式」](../../administration/using/configuring-a-mobile-application.md#set-up-campaign)。
 
-1. 將特定頻道的組態新增至行動應用程式設定。
-如需詳細資訊，請參 [閱Adobe Campaign中的頻道特定應用程式設定](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)。
+1. 將特定通道的設定新增至行動應用程式設定。如需詳細資訊，請參閱[ Adobe Campaign 中的通道特定應用程式設定](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)。
 
 1. 如有需要，您可以刪除您的Experience Platform Launch屬性。
 如需詳細資訊，請參 [閱刪除您的Experience Platform Launch應用程式](../../administration/using/configuring-a-mobile-application.md#delete-app)。
@@ -84,9 +83,9 @@ ht-degree: 0%
 
    ![](assets/launch_10.png)
 
-1. 按一下活 **[!UICONTROL Scheduler]** 動。
+1. Click on the **[!UICONTROL Scheduler]** activity.
 
-1. Select **[!UICONTROL Immediate execution]**.
+1. 選取 **[!UICONTROL Immediate execution]**。
 
    ![](assets/launch_11.png)
 
@@ -118,7 +117,7 @@ ht-degree: 0%
 
    ![](assets/launch_4.png)
 
-1. 您可以在區段下變更行動應用程式的組織單位，以 **[!UICONTROL Access Authorization]** 將對此行動應用程式的存取限制為特定組織單位。 如需詳細資訊，請參閱本頁。
+1. 您可以在區段下變更行動應用程式的組織單位，以 **[!UICONTROL Access Authorization]** 將對此行動應用程式的存取限制為特定組織單位。 如需詳細資訊，請參閱本頁面。
 
    在此，管理員可以通過從下拉清單中選擇子組織單位來指定這些單位。
 
@@ -138,7 +137,7 @@ ht-degree: 0%
 
 ## Adobe Campaign中的頻道特定應用程式設定 {#channel-specific-config}
 
-您的行動應用程式現在已可供用於Campaign中推播通知或應用程式內傳送。 您現在可視需要進一步設定，以建立會觸發應用程式內訊息和／或上傳推播憑證的事件。
+您的行動應用程式現在已可供用於Campaign中的推播通知或應用程式內傳送。 您現在可視需要進一步設定，以建立會觸發您的應用程式內訊息和／或上傳推播憑證的事件。
 
 1. 從進階功能表中，選取 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]**。
 
@@ -154,9 +153,9 @@ ht-degree: 0%
 
    ![](assets/launch_7.png)
 
-1. 按一下「**[!UICONTROL Add]**」。
+1. 按一下 **[!UICONTROL Add]**。
 
-   當您建立應用程式內訊息時，「觸發器」標籤現在提供您的事件。 如需詳細資訊，請 [參閱「準備和傳送應用程式內訊息」](../../channels/using/preparing-and-sending-an-in-app-message.md)。
+   現在，當您建立應用程式內訊息時，「觸發器」標籤上會顯示您的事件。 如需詳細資訊，請 [參閱「準備和傳送應用程式內訊息」](../../channels/using/preparing-and-sending-an-in-app-message.md)。
 
 1. 在行動應 **[!UICONTROL Device-specific settings]** 用程式儀表板的區段中，針對每個裝置提供應用程式詳細資訊，包括iOS的憑證和Android的伺服器金鑰。
 

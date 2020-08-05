@@ -12,15 +12,15 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6c5cf90211451587537b9a6121430fc4f352384c
+source-git-commit: 2b04a5efdde3153d3ede0ad8bc4f56cd4a5fa1df
 workflow-type: tm+mt
-source-wordcount: '818'
-ht-degree: 0%
+source-wordcount: '813'
+ht-degree: 2%
 
 ---
 
 
-# 開始使用Adobe Experience Platform SDK和Campaign Standard {#aep-faq}
+# Experience Platform SDK整合常見問答集 {#aep-faq}
 
 若要使用Experience Platform SDK應用程式傳送推播通知和應用程式內訊息，行動應用程式必須在Adobe Experience Platform SDK中設定，並在Adobe Campaign中設定。
 
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 ## 在Campaign中取得行動設定檔時，我必須做什麼？ {#mobile-profile-campaign}
 
-若要這麼做，請依照下列步驟進行：
+要執行此操作，請遵循下列步驟：
 
 1. 在中配 **[!UICONTROL Mobile property]** 置 [!DNL Launch]。
 1. 安裝Adobe Campaign Standard擴充功能。 請注意，Adobe Campaign Standard擴充功能也 **[!UICONTROL Mobile Core]**&#x200B;需 **[!UICONTROL Profile]** 要 **[!UICONTROL Lifecycle]** 預設安裝的擴充功能 [!DNL Launch]。

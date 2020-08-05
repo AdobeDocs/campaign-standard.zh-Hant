@@ -12,12 +12,15 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 47b5cf6aee969c7a199ec934b5be6bf80bee590e
+source-git-commit: 2b04a5efdde3153d3ede0ad8bc4f56cd4a5fa1df
+workflow-type: tm+mt
+source-wordcount: '492'
+ht-degree: 1%
 
 ---
 
 
-# 為何使用Campaign Standard API {#why-using-campaign-standard-apis}
+# Why use Campaign Standard APIs {#why-using-campaign-standard-apis}
 
 Adobe Campaign Standard提供API，可讓現有系統與ACS平台整合，以即時解決實際問題。
 
@@ -30,7 +33,7 @@ Adobe Campaign Standard提供API，可讓現有系統與ACS平台整合，以即
 * 事件型交易通訊觸發——訂單確認、預訂行程、密碼重設等。
 * 甚至購物車放棄電子郵件通訊。
 
-註冊登陸頁面可讓客戶或潛在客戶註冊其姓名和電子郵件地址。 一旦Campaign standard擷取了個人檔案資訊和偏好設定，就可以根據個人興趣傳送個人化訊息。
+註冊登陸頁面可讓客戶或潛在客戶註冊其姓名和電子郵件地址。 一旦Campaign Standard擷取了個人檔案資訊和偏好設定，就可以根據個人興趣傳送個人化訊息。
 
 它們以下列元素建立：
 
@@ -62,7 +65,7 @@ Adobe Campaign Standard提供API，可讓現有系統與ACS平台整合，以即
 
    ![alt text](assets/postman_collection.png)
 
-1. 選擇「 **建立描述檔****** 」請求，然後使用您自己的資訊(&lt;ORGANIZATION&gt;、&lt;API_KEY&gt;、&lt;ACCESS_TOKEN&gt;)更新「貼文」請求和「標題」標籤。 如需詳細資訊，請參閱[本小節](../../api/using/setting-up-api-access.md)。
+1. 選擇「 **建立描述檔****** 」請求，然後使用您自己的資訊(&lt;ORGANIZATION>、&lt;API_KEY>、&lt;ACCESS_TOKEN>)更新「貼文」請求和「標題」標籤。 如需詳細資訊，請參閱[本區段](../../api/using/setting-up-api-access.md)。
 
    ![alt text](assets/postman_uc1.png)
 
@@ -74,6 +77,6 @@ Adobe Campaign Standard提供API，可讓現有系統與ACS平台整合，以即
 
    ![alt text](assets/postman_uc3.png)
 
-1. 開啟您的Campaign standard例項，然後檢查描述檔是否已建立，並包含裝載的所有資訊。
+1. 開啟您的Campaign Standard例項，然後檢查描述檔是否已建立，並包含裝載的所有資訊。
 
    ![alt text](assets/postman_uc4.png)

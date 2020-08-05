@@ -12,7 +12,10 @@ discoiquuid: 19796aca-6e9e-4d3a-8917-ba660ec7993c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
+source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+workflow-type: tm+mt
+source-wordcount: '271'
+ht-degree: 7%
 
 ---
 
@@ -23,13 +26,13 @@ source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 >
 >觀眾目標服務目前為測試版，可能會經常更新，恕不另行通知。 客戶必須在Azure上代管（目前僅限北美地區測試版）才能存取這些功能。 如果您想要存取，請聯絡Adobe客戶服務。
 >
->**推播和** 應用程式內通道 **** ，目前尚未提供使用Adobe Experience Platform的內容相關資料進行個人化的管道。
+>**推播** 和 **** 應用程式內通道尚無法使用Adobe Experience Platform的情境式資料進行個人化。
 
 在您的工作流程設定好 [Adobe Experience Platform觀眾後](../../audiences/using/aep-about-audience-destinations-service.md)，您就可以使用Experience Data Model(XDM)中獨家存在的描述檔屬性來個人化訊息。
 
 若要這麼做，您必須將下列屬性新增至活 **[!UICONTROL Read audience]** 動：
 
-1. 開啟活 **[!UICONTROL Read audience]** 動。 在標籤 **[!UICONTROL Additional data]** 中，按一下按 **[!UICONTROL Create element]** 鈕。
+1. 開啟活 **[!UICONTROL Read audience]** 動。 In the **[!UICONTROL Additional data]** tab, click the **[!UICONTROL Create element]** button.
 
    請注意， **[!UICONTROL Additional data]** 標籤只有在選取Adobe Experience Platform對象後才可用。
 

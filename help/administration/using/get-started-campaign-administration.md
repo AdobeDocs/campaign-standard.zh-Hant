@@ -1,5 +1,5 @@
 ---
-title: 開始使用Campaign Standard管理
+title: 開始使用 Campaign Standard 管理
 description: Adobe Campaign提供您一套完整的管理工具。 瞭解如何管理您的使用者及設定您的通道。
 page-status-flag: never-activated
 uuid: 64c34729-5c98-4db0-9131-af6dd0e78fb4
@@ -12,12 +12,15 @@ discoiquuid: 5587530a-2308-4be1-9f56-19eeb7a924d5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 40bb454d13de14658bfc30a6454a1a896bf3ad70
+source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+workflow-type: tm+mt
+source-wordcount: '658'
+ht-degree: 14%
 
 ---
 
 
-# 開始使用Campaign Standard管理 {#about-administrating-adobe-campaign}
+# 開始使用 Campaign Standard 管理 {#about-administrating-adobe-campaign}
 
 <table>
 <tr><td><img src="assets/do-not-localize/icon_menu.svg" width="60px"><p><a href="#administration-menu">管理功能表</a></p></td>
@@ -47,17 +50,17 @@ Adobe Campaign是雲端解決方案，為管理員提供不同的方式來設定
 * [例項設定](../../administration/using/branding.md): 此功能表是您定義不同品牌並設定其設定的位置（標誌、管理追蹤、存取著陸頁面的URL網域等）。
 * [部署](../../automating/using/managing-packages.md): 此菜單重組包導入和導出選項。
 * [客戶量度](../../audiences/using/active-profiles.md): Adobe Campaign提供顯示作用中描述檔數目的報表。 此報告僅提供資訊，對帳單沒有直接影響。
-* [隱私權工具](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html): 此功能表可讓您建立GDPR存取和刪除請求，並追蹤其演變。
+* [隱私權工具](https://helpx.adobe.com/tw/campaign/kb/campaign-privacy.html): 此功能表可讓您建立GDPR存取和刪除請求，並追蹤其演變。
 
 ## 使用者與安全性 {#users-security}
 
 <img src="assets/do-not-localize/icon_users.svg"  width="60px">
 
-邀請使用者存取應用程式並管 **理安全性群組**，這些是一組在您組織內共用相同角色和權限的使用者。 依預設，Adobe Campaign提供一組角色 **** ，可讓您定義指派給使用者和使用者群組的統一授權。 結合組 **織單位**，角色為使用者提供介面的篩選檢視，並定義其對不同功能的存取權。
+邀請使用者存取應用程式並管 **理安全性群組**，這些是一組在您組織內共用相同角色和權限的使用者。 By default, Adobe Campaign offers a set of **roles** which allows you to define unitary authorizations assigned to users and user groups. Combined with **organizational units**, roles give users a filtered view of the interface and define their access to the different features.
 
 Campaign Standard也可讓您監控與安全性相關的資訊。 您可以擷取使用者透過螢幕所執行之資料匯出的相關資訊，並運用螢幕來監控組織內所有已安裝的促銷活動授權，以及不同的資訊，例如組建編號、發行版本和合約條款。 **[!UICONTROL Export audits]****[!UICONTROL Licenses]**
 
-閱讀更多：
+詳細內容:
 
 * [使用者管理](../../administration/using/users-management.md)
 * [組織單位](../../administration/using/organizational-units.md)
@@ -76,7 +79,7 @@ Adobe Campaign中的所有通訊管道都必須正確設定，才能有效傳送
 
 設定行 **動應用程式** ，以便能夠使用Adobe Experience Platform SDK傳送應用程式內訊息和推播通知，並透過建立和設定事件來 **設定交易訊息** 。
 
-閱讀更多：
+詳細內容:
 
 * [關於通道設定](../../administration/using/about-channel-configuration.md)
 * [設定電子郵件通道](../../administration/using/configuring-email-channel.md)
@@ -94,7 +97,7 @@ Campaign Standard隨附不同的應用程式元素，可依您的需求進行設
 
 為您的組織定 **義一或多個品牌** ，並設定在應用程式 **** 中傳送即時通知的方式，以防發生重要的系統活動。
 
-閱讀更多：
+詳細內容:
 
 * [關於 Campaign Standard 設定](../../administration/using/about-campaign-standard-settings.md)
 * [外部帳戶](../../administration/using/external-accounts.md)
@@ -106,4 +109,4 @@ Campaign Standard隨附不同的應用程式元素，可依您的需求進行設
 ## 其他資源
 
 * [管理使用者存取權限（視訊）](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html)
-* [控制面板檔案](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/control-panel-home.html)
+* [控制面板文件](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/control-panel-home.html)

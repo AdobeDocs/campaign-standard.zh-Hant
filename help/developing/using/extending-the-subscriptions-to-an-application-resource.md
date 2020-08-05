@@ -12,20 +12,23 @@ discoiquuid: 59faa74e-86fc-42d3-90da-f48580b5ec13
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
+source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+workflow-type: tm+mt
+source-wordcount: '222'
+ht-degree: 25%
 
 ---
 
 
 # 將訂閱擴充到應用程式資源{#extending-the-subscriptions-to-an-application-resource}
 
-In Adobe Campaign, mobile profile attributes data sent from mobile device are stored in **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** resource which allows you to define the data that you want to collect from your applications&#39; subscribers. 如需自訂資源的詳細資訊，請參閱 [本頁](../../developing/using/key-steps-to-add-a-resource.md)。
+在 Adobe Campaign 中，由行動裝置傳送的行動設定檔屬性資料會儲存在 **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** 資源中，您可藉此定義要從應用程式訂閱者收集的資料。For more information on custom resources, refer to [this page](../../developing/using/key-steps-to-add-a-resource.md).
 
 此資源可加以擴充，以收集您要從行動裝置傳送至Adobe Campaign的資料。
 
-1. 從進階功能表，透過Adobe Campaign標誌，選取 **[!UICONTROL Administration]** > **[!UICONTROL Development]**，然後 **[!UICONTROL Custom resources]**。
+1. 從進階功能表，透過 Adobe Campaign 標誌，依序選取 **[!UICONTROL Administration]** > **[!UICONTROL Development]** 及 **[!UICONTROL Custom resources]**。
 1. 按一 **[!UICONTROL Create]** 下並選擇 **[!UICONTROL Extend an existing resource]** 選項。
-1. 選擇資 **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** 源並按一下 **[!UICONTROL Create]**。
+1. Select the **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** resource and click **[!UICONTROL Create]**.
 
    ![](assets/in_app_personal_data_4.png)
 

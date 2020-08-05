@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1f15808bd892305282b838bebbc8fa1ce58283e
+source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
 workflow-type: tm+mt
 source-wordcount: '6092'
 ht-degree: 94%
@@ -472,7 +472,7 @@ Campaign Standard 及 Campaign Classic 的錯誤訊息清單已更新。[瞭解�
 
 「設計內容」指南已更新，以反映電子郵件設計工具的一般可用性和舊版電子郵件內容編輯器的淘汰。[瞭解詳情](../../designing/using/designing-content-in-adobe-campaign.md)
 
-更新[應用程式內](../../channels/using/about-in-app-messaging.md)及[推播通知](../../channels/using/about-push-notifications.md)文件。
+Updated the [In-App](../../channels/using/about-in-app-messaging.md) and [Push notification](../../channels/using/about-push-notifications.md) documentation.
 
 已新增有關 Adobe Campaign 中不同對象類型的詳細資訊。[瞭解詳情](../../audiences/using/about-audiences.md)
 

@@ -4,10 +4,10 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard 說明
 translation-type: tm+mt
-source-git-commit: 91cb524e104fbaa7f3334578d82b3878cc15fc9b
+source-git-commit: 95a7397092f6e07c84967d90908469f630f7a170
 workflow-type: tm+mt
-source-wordcount: '1550'
-ht-degree: 81%
+source-wordcount: '1564'
+ht-degree: 87%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 81%
    + [發行計畫](rn/using/release-planning.md)
    + [已棄用的功能](rn/using/deprecated-features.md)
 + 快速入門 {#getting-started}
-   + [關於Adobe Campaign Standard](start/using/about-campaign-standard.md)
+   + [關於 Adobe Campaign Standard](start/using/about-campaign-standard.md)
    + [隱私權與同意](start/using/privacy.md)
    + 探索介面 {#discovering-the-interface}
       + [關於介面](start/using/about-the-interface.md)
@@ -37,13 +37,13 @@ ht-degree: 81%
       + [行銷活動](start/using/marketing-activities.md)
       + [行銷活動範本](start/using/marketing-activity-templates.md)
       + [時間表](start/using/timeline.md)
-+ 設定檔與閱聽眾 {#profiles-and-audiences}
-   + [開始使用個人檔案和受眾](audiences/using/get-started-profiles-and-audiences.md)
++ 設定檔與對象 {#profiles-and-audiences}
+   + [開始使用個人檔案和對象](audiences/using/get-started-profiles-and-audiences.md)
    + 管理設定檔 {#managing-profiles}
       + [關於設定檔](audiences/using/about-profiles.md)
       + [建立設定檔](audiences/using/creating-profiles.md)
       + [編輯設定檔](audiences/using/editing-profiles.md)
-      + [整合的客戶設定檔](audiences/using/integrated-customer-profile.md)
+      + [整合式客戶設定檔](audiences/using/integrated-customer-profile.md)
       + [使用中的設定檔案](audiences/using/active-profiles.md)
       + [管理測試設定檔](audiences/using/managing-test-profiles.md)
       + [充實 Campaign 資料庫](audiences/using/enriching-campaign-database.md)
@@ -167,9 +167,9 @@ ht-degree: 81%
       + [監控傳送能力](sending/using/monitor-deliverability.md)
       + [疑難排解](sending/using/troubleshooting.md)
    + 使用類型學規則 {#working-with-typology-rules}
-      + [關於類型和類型學規則](sending/using/about-typology-rules.md)
+      + [關於類型與類型學規則](sending/using/about-typology-rules.md)
       + [管理類型](sending/using/managing-typologies.md)
-      + [管理排版規則](sending/using/managing-typology-rules.md)
+      + [管理類型規則](sending/using/managing-typology-rules.md)
       + [篩選規則](sending/using/filtering-rules.md)
       + [疲勞規則](sending/using/fatigue-rules.md)
       + [控制規則](sending/using/control-rules.md)
@@ -205,7 +205,7 @@ ht-degree: 81%
       + [建立自訂設定檔維度](reporting/using/creating-a-custom-profile-dimension.md)
       + [根據工作流程細分建立報告](reporting/using/creating-a-report-workflow-segment.md)
 + 與其他解決方案整合 {#integrating-with-adobe-cloud}
-   + [開始使用Campaign整合](integrating/using/get-started-campaign-integrations.md)
+   + [開始使用 Campaign 整合](integrating/using/get-started-campaign-integrations.md)
    + Campaign 與 Experience Manager {#working-with-campaign-and-experience-manager}
       + [關於 Campaign-Experience Manager 整合](integrating/using/integrating-with-experience-manager.md)
       + [設定 Campaign-Experience Manager 整合](integrating/using/configure-experience-manager.md)
@@ -236,7 +236,7 @@ ht-degree: 81%
       + [測試您的觸發程式](integrating/using/testing-your-triggers.md)
       + [廢棄觸發程式使用案例](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign 和 Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-      + [開始使用Microsoft Dynamics 365整合](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+      + [開始使用 Microsoft Dynamics 365 整合](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 + 管理流程和資料 {#managing-processes-and-data}
    + [開始使用資料和流程管理](automating/using/get-started-workflows.md)
    + 工作流程一般操作 {#workflow-general-operation}
@@ -244,7 +244,7 @@ ht-degree: 81%
       + [建立工作流程](automating/using/building-a-workflow.md)
       + [工作流程最佳實務](automating/using/best-practices-workflows.md)
    + 執行工作流程 {#executing-a-workflow}
-      + [關於工作流執行](automating/using/about-workflow-execution.md)
+      + [關於工作流程執行](automating/using/about-workflow-execution.md)
       + [工作流程生命週期](automating/using/workflow-life-cycle.md)
       + [執行命令](automating/using/execution-commands.md)
       + [監控工作流程執行](automating/using/monitoring-workflow-execution.md)
@@ -270,7 +270,7 @@ ht-degree: 81%
       + [合併連結](automating/using/and-join.md)
       + [排程器](automating/using/scheduler.md)
       + [等待](automating/using/wait.md)
-      + [外部信號](automating/using/external-signal.md)
+      + [外部訊號](automating/using/external-signal.md)
       + [測試](automating/using/test.md)
    + 通道活動 {#channel-activities}
       + [關於通道活動](automating/using/about-channel-activities.md)
@@ -316,13 +316,13 @@ ht-degree: 81%
          + [使用其他資料個人化電子郵件](automating/using/personalizing-email-with-additional-data.md)
          + [傳送循環推播通知](automating/using/recurring-push-notifications.md)
       + 細分與目標定位 {#segmentation-targeting}
-         + [查詢示例](automating/using/query-samples.md)
+         + [查詢範例](automating/using/query-samples.md)
          + [結合兩個精美受眾](automating/using/union-on-two-refined-audiences.md)
          + [在位置上建立細分](automating/using/workflow-segmentation-location.md)
          + [重新鎖定非開啟者](automating/using/workflow-cross-channel-retargeting.md)
          + [對服務訂戶的增量查詢](automating/using/incremental-query-on-subscribers.md)
          + [根據年齡組劃分](automating/using/segmentation-age-groups.md)
-         + [使用與定位維度不同的資源](automating/using/using-resources-different-from-targeting-dimensions.md)
+         + [使用與目標維度　](automating/using/using-resources-different-from-targeting-dimensions.md)　不同的資源
          + [建立控制群組](automating/using/workflow-control-group.md)
       + 資料管理 {#data-management}
          + [協調檔案對象與資料庫](automating/using/reconcile-file-audience-with-database.md)
@@ -340,7 +340,7 @@ ht-degree: 81%
       + [鎖定 Adobe Experience Platform 閱聽眾](automating/using/aep-targeting-audiences.md)
       + [使用 Adobe Experience Platform屬性個人化行銷活動](automating/using/aep-personalizing-campaigns.md)
 + 開發 {#developing}
-   + [開始使用Campaign Standard資料模型](developing/using/get-started-data-model.md)
+   + [開始使用 Campaign Standard 資料模型](developing/using/get-started-data-model.md)
    + 關於自訂資源 {#about-custom-resources}
       + [資料模型概念](developing/using/data-model-concepts.md)
       + [資源狀態](developing/using/resource-statuses.md)
@@ -385,7 +385,7 @@ ht-degree: 81%
       + [映射啟動](developing/using/aep-mapping-activation.md)
       + [透過 API 觸發資料引入](developing/using/aep-triggering-data-ingestion.md)
 + 管理 {#administrating}
-   + [開始使用Campaign Standard管理](administration/using/get-started-campaign-administration.md)
+   + [開始使用 Campaign Standard 管理](administration/using/get-started-campaign-administration.md)
    + [監控准則](administration/using/monitoring-guidelines.md)
    + [配置指南](administration/using/about-configuration-guidelines.md)
    + 使用者與安全性 {#users-and-security}
@@ -406,9 +406,11 @@ ht-degree: 81%
       + [實施推播追蹤](administration/using/push-tracking.md)
       + [新增影像和視訊iOS](administration/using/image-push-notification.md)
       + [瞭解推播通知裝載結構](administration/using/push-payload.md)
-      + [實作本機通知追蹤](administration/using/local-tracking.md)
-      + [SyncWithLaunch技術工作流程常見問答集](administration/using/syncwithlaunch-faq.md)
-      + [開始使用Adobe Experience Platform SDK和Campaign](administration/using/aep-faq.md)
+      + [實施本機通知追蹤](administration/using/local-tracking.md)
+      + [Adobe Launch Synchronization常見問答集](administration/using/syncwithlaunch-faq.md)
+      + [Experience Platform SDK整合常見問答集](administration/using/aep-faq.md)
+      + [設定啟動規則以支援Adobe Campaign Standard使用案例](administration/using/configuring-rules-launch.md)
+      + [Adobe Campaign Standard　支援的行動使用案例](administration/using/supported-mobile-use-cases.md)
    + 應用程式設定 {#application-settings}
       + [關於 Campaign Standard 設定](administration/using/about-campaign-standard-settings.md)
       + [外部帳戶](administration/using/external-accounts.md)
@@ -419,9 +421,9 @@ ht-degree: 81%
       + [資料保留](administration/using/data-retention.md)
       + [更新和維護作業](administration/using/updates-and-maintenance-operations.md)
 + 使用API {#working-with-apis}
-   + [開始使用Campaign Standard API](api/using/get-started-apis.md)
+   + [開始使用 Campaign Standard API](api/using/get-started-apis.md)
    + 關於 Campaign Standard API {#about-campaign-standard-apis}
-      + [為何使用 Campaign Standard API](api/using/why-using-campaign-standard-apis.md)
+      + [為何使用Campaign Standard API](api/using/why-using-campaign-standard-apis.md)
       + [設定 API 存取](api/using/setting-up-api-access.md)
    + 全域概念 {#global-concepts}
       + [必讀](api/using/must-read.md)

@@ -12,7 +12,7 @@ discoiquuid: 4d51229a-745a-4f24-b1c2-22fa203b499c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 422f5eb7011dfcc1d923079e7346394a64934a9a
+source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 2%
@@ -32,6 +32,6 @@ Adobe Campaign可讓您直接在應用程式中接收有關重要系統活動的
 
    ![](assets/pulse_2.png)
 
-* **[!UICONTROL Workflows]**: 每當工作流程發生錯誤時，所選安全性群組的每個成員都會收到通知（電子郵件和應用程式內通知）。 按一下通知或電子郵件連結會顯示對應的工作流程。 預設會在現成可用的工作流程範本中停用通知。 如果要激活它們，請編輯工作流或工作流模板的屬性，並在「常規」>「執行」>「錯誤管理」>「監 **管者」下添加安全組**。 有關安全組的詳細資訊，請參閱管 [理組和用戶](../../administration/using/managing-groups-and-users.md)。 有關工作流屬性的詳細資訊，請參閱 [工作流屬性](../../automating/using/managing-execution-options.md)。
+* **[!UICONTROL Workflows]**: 每當工作流程發生錯誤時，都會通知所選安全性群組的每個成員（電子郵件和應用程式內通知）。 按一下通知或電子郵件連結會顯示對應的工作流程。 預設會在現成可用的工作流程範本中停用通知。 如果要激活它們，請編輯工作流或工作流模板的屬性，並在「常規」>「執行」>「錯誤管理」>「監 **管者」下添加安全組**。 有關安全組的詳細資訊，請參閱管 [理組和用戶](../../administration/using/managing-groups-and-users.md)。 有關工作流屬性的詳細資訊，請參閱 [工作流屬性](../../automating/using/managing-execution-options.md)。
 
    ![](assets/pulse_1.png)

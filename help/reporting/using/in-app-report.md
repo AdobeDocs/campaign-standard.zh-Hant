@@ -1,18 +1,21 @@
 ---
 title: 應用程式內報告
 description: 透過「應用程式內置」報表，瞭解您的應用程式內訊息的成功。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: 802dc606-a314-46dd-b361-b746b0772303
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 報告
-content-type: 參考
-topic-tags: 清單
+audience: reporting
+content-type: reference
+topic-tags: list-of-reports
 discoiquuid: 3f17c2ad-8ba3-4795-93ed-288b2bcee872
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+workflow-type: tm+mt
+source-wordcount: '242'
+ht-degree: 1%
 
 ---
 
@@ -29,21 +32,21 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ![](assets/inapp_report.png)
 
-第一個表 **「應用程式內參與摘要** 」分為三個類別：依日、依行動應用程式和傳送。 它包含接收者對遞送反應的可用資料：
+第一個表 **「應用程式內參與摘要** 」分為三個類別： 依日、依行動應用程式和傳送。 它包含接收者對遞送反應的可用資料：
 
-* **[!UICONTROL Processed/sent]**:應用程式內傳送的傳送總數。
-* **[!UICONTROL Delivered]**:成功傳送的應用程式內訊息數，與已傳送訊息總數相關。
-* **[!UICONTROL Impressions]**:收件者看到的應用程式內訊息總數，視觸發條件是否符合而定。
-* **[!UICONTROL Unique impressions]**:收件者的曝光次數。
-* **[!UICONTROL In-App click through rate]**:按一下Button 1或Button 2的使用者與看到訊息的使用者之比例。
-* **[!UICONTROL In-App dismissal rate]**:收件者關閉的應用程式內訊息的百分比。
+* **[!UICONTROL Processed/sent]**: 應用程式內傳送的傳送總數。
+* **[!UICONTROL Delivered]**: 成功傳送的應用程式內訊息數，與已傳送訊息總數相關。
+* **[!UICONTROL Impressions]**: 收件者看到的應用程式內訊息總數，視觸發條件是否符合而定。
+* **[!UICONTROL Unique impressions]**: 收件者的曝光次數。
+* **[!UICONTROL In-App click through rate]**: 按一下Button 1或Button 2的使用者與看到訊息的使用者之比例。
+* **[!UICONTROL In-App dismissal rate]**: 收件者關閉的應用程式內訊息的百分比。
 
 ![](assets/inapp_report_1.png)
 
-第二個表格 **「應用程式內點按次數與免職** 」分為三個類別：依日、依行動應用程式和傳送。 它包含每個傳送的收件者行為可用資料：
+第二個表格 **「應用程式內點按次數與免職** 」分為三個類別： 依日、依行動應用程式和傳送。 它包含每個傳送的收件者行為可用資料：
 
-* **[!UICONTROL In-App clicks]**:按一下按鈕1或按鈕2的收件者總數。
-* **[!UICONTROL Unique In-App clicks]**:收件者點按按鈕1或按鈕2的次數。
-* **[!UICONTROL In-App dismissal]**:收件者按一下關閉按鈕或自動關閉而關閉的訊息總數。
-* **[!UICONTROL Unique In-App dismissal]**:收件者關閉應用程式內訊息的時間。
+* **[!UICONTROL In-App clicks]**: 按一下按鈕1或按鈕2的收件者總數。
+* **[!UICONTROL Unique In-App clicks]**: 收件者點按按鈕1或按鈕2的次數。
+* **[!UICONTROL In-App dismissal]**: 收件者按一下關閉按鈕或自動關閉而關閉的訊息總數。
+* **[!UICONTROL Unique In-App dismissal]**: 收件者關閉應用程式內訊息的時間。
 

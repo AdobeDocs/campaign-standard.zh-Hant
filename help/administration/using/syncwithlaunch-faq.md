@@ -12,15 +12,15 @@ discoiquuid: 54028f63-c9ca-4397-a079-e27e0cfdebf6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6c5cf90211451587537b9a6121430fc4f352384c
+source-git-commit: 95a7397092f6e07c84967d90908469f630f7a170
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
 
 
-# 與Launch技術工作流程同步常見問答集 {#syncwithlaunch-faq}
+# Adobe Launch Synchronization常見問答集 {#syncwithlaunch-faq}
 
 您可以透過專屬的技術工作流程，將Adobe Launch行動裝置屬性匯入Adobe Campaign **[!UICONTROL Sync with Launch]** Standard。 For more information, refer to this [page](../../administration/using/technical-workflows.md)
 
@@ -28,23 +28,23 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您必須提交票證給Adobe客戶服務（直接或透過您的Adobe聯絡人），才能在您的Campaign實例中啟 **[!UICONTROL syncWithLaunch]** 用技術工作流程。
+>You will need to submit a ticket to Adobe Customer Care (either directly or through your Adobe contact) to have the **[!UICONTROL syncWithLaunch]** technical workflow enabled in your Campaign instance.
 
 ## 我在(組織單位 [!DNL Launch] ALL的非管理員)中建立屬性。 我的應用程式在Adobe Campaign中處於「準備好設定」狀態，但無法開啟／設定它。 {#configuring-property}
 
-只有組織單位ALL的管理員才能在Adobe Campaign Standard中設定行動應用程式。 配置完成後，只有指定組織單位的用戶可以編輯應用程式。 有關組織單位的詳細資訊，請參閱本 [頁](../../administration/using/organizational-units.md)。
+只有組織單位ALL的管理員才能在Adobe Campaign Standard中設定行動應用程式。 配置完成後，只有指定組織單位的用戶可以編輯應用程式。 For more information on organizational unit, refer to this [page](../../administration/using/organizational-units.md).
 
 ## 我無法編輯Adobe Campaign Standard中已設定的行動應用程式，而行動應用程式僅為讀模式。 {#read-mode-mobile-app}
 
 請在區段中檢查行動應用程式的組織 **[!UICONTROL Access Authorization ]** 單位。 只有已指派的組織單位的使用者可以編輯行動應用程式。
 
-有關組織單位的詳細資訊，請參閱本 [頁](../../administration/using/organizational-units.md)。
+For more information on organizational unit, refer to this [page](../../administration/using/organizational-units.md).
 
 ## 我是Adobe Campaign Standard中組織單位為ALL的管理員，但無法設定行動應用程式。 {#org-unit-mobile}
 
 將組織單元設定為ALL的管理員應具有中所有移動屬性的權 [!DNL Launch] 限，以配置移動應用程式。
 
-有關組織單位的詳細資訊，請參閱本 [頁](../../administration/using/organizational-units.md)。
+For more information on organizational unit, refer to this [page](../../administration/using/organizational-units.md).
 
 ## 我在中建立了行動裝置屬 [!DNL Launch] 性，但Adobe Campaign Standard中看不到我的屬性。 {#visibility-mobile-property}
 
@@ -90,4 +90,4 @@ ht-degree: 0%
 
 1. 開啟工作 **[!UICONTROL syncWithLaunch]** 流程。
 
-1. 按一下活 **[!UICONTROL Scheduler]** 動並選取 **[!UICONTROL Immediate execution]**。
+1. Click on the **[!UICONTROL Scheduler]** activity and select **[!UICONTROL Immediate execution]**.

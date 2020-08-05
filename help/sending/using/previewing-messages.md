@@ -12,7 +12,10 @@ discoiquuid: 8428f8ac-8ef5-46cd-9d93-10ec0ecd3ded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 92bbf57f1a6eff67d2551dc83dd8cb5f6b38bd99
+source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+workflow-type: tm+mt
+source-wordcount: '624'
+ht-degree: 15%
 
 ---
 
@@ -25,7 +28,7 @@ Campaign Standard可讓您在傳送訊息之前先預覽訊息，以檢查其個
 
 訊息預覽是使用您新 **增至訊息目標的** 「測試設定檔」來執行。
 
-對於 **電子郵件** ,Campaign Standard可讓您使用目標描述檔來預覽訊息，而非測試描述檔。 這可讓您獲得特定描述檔將會收到之訊息的精確表示。 如需詳細資訊，請參閱「使 [用目標設定檔測試電子郵件訊息](../../sending/using/testing-messages-using-target.md)」。
+對於 **電子郵件** ,Campaign Standard可讓您使用目標描述檔來預覽訊息，而非測試描述檔。 這可讓您獲得特定描述檔將會收到之訊息的精確表示。 如需詳細資訊，請參閱[使用目標設定檔測試電子郵件訊息](../../sending/using/testing-messages-using-target.md)。
 
 若要使用測試設定檔預覽訊息，請依照下列步驟進行：
 
@@ -55,7 +58,7 @@ Campaign Standard可讓您在傳送訊息之前先預覽訊息，以檢查其個
 
 ## 預覽SMS訊息 {#previewing-sms}
 
-對於 **SMS訊息** ,Campaign Standard可讓您使用測試設定檔預覽訊息。 這可讓您獲得特定描述檔將會收到之訊息的精確表示。 如需詳細資訊，請參閱「管 [理測試設定檔](../../audiences/using/managing-test-profiles.md)」。
+對於 **SMS訊息** ,Campaign Standard可讓您使用測試設定檔預覽訊息。 這可讓您獲得特定描述檔將會收到之訊息的精確表示。 如需詳細資訊，請參閱[管理測試設定檔](../../audiences/using/managing-test-profiles.md)。
 
 若要使用測試設定檔預覽SMS訊息，請依照下列步驟進行：
 
@@ -87,7 +90,7 @@ Campaign Standard可讓您在傳送訊息之前先預覽訊息，以檢查其個
 
 ## 預覽推播通知 {#previewing-push}
 
-對於推 **播通知**,Campaign Standard可讓您使用測試設定檔預覽訊息。 這可讓您獲得特定描述檔將會收到之訊息的精確表示。 如需詳細資訊，請參閱「管 [理測試設定檔](../../audiences/using/managing-test-profiles.md)」。
+對於推 **播通知**,Campaign Standard可讓您使用測試設定檔預覽訊息。 這可讓您獲得特定描述檔將會收到之訊息的精確表示。 如需詳細資訊，請參閱[管理測試設定檔](../../audiences/using/managing-test-profiles.md)。
 
 若要使用測試設定檔預覽推播通知，請遵循下列步驟：
 
@@ -115,7 +118,7 @@ Campaign Standard可讓您在傳送訊息之前先預覽訊息，以檢查其個
 
 ## 預覽應用程式內訊息 {#previewing-in-app}
 
-對於 **應用程式內**,Campaign Standard可讓您使用測試設定檔預覽訊息。 這可讓您獲得特定描述檔將會收到之訊息的精確表示。 如需詳細資訊，請參閱「管 [理測試設定檔](../../audiences/using/managing-test-profiles.md)」。
+對於 **應用程式內**,Campaign Standard可讓您使用測試設定檔預覽訊息。 這可讓您獲得特定描述檔將會收到之訊息的精確表示。 如需詳細資訊，請參閱[管理測試設定檔](../../audiences/using/managing-test-profiles.md)。
 
 若要使用測試設定檔預覽應用程式內訊息，請依照下列步驟進行：
 

@@ -4,10 +4,10 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard 說明
 translation-type: tm+mt
-source-git-commit: 95a7397092f6e07c84967d90908469f630f7a170
+source-git-commit: b9fbcbd7d6ea206ae3ed1faca89f4000052f97dc
 workflow-type: tm+mt
 source-wordcount: '1564'
-ht-degree: 87%
+ht-degree: 88%
 
 ---
 
@@ -136,13 +136,13 @@ ht-degree: 87%
    + [開始測試和傳送](sending/using/get-started-sending-messages.md)
    + 準備和測試訊息 {#preparing-and-testing-messages}
       + [預覽傳送](sending/using/previewing-messages.md)
-      + [準備傳送](sending/using/preparing-the-send.md)
       + [傳送校樣](sending/using/sending-proofs.md)
       + [使用目標設定檔測試電子郵件訊息](sending/using/testing-messages-using-target.md)
       + [測試電子郵件的主旨行](sending/using/testing-subject-line-email.md)
       + [人工智慧型電子郵件](sending/using/predictive.md)
       + [電子郵件呈現](sending/using/email-rendering.md)
       + [使用陷阱](sending/using/using-traps.md)
+      + [準備傳送](sending/using/preparing-the-send.md)
    + 排程訊息 {#scheduling-messages}
       + [關於排程訊息](sending/using/about-scheduling-messages.md)
       + [最佳化傳送時間](sending/using/optimizing-the-sending-time.md)
@@ -304,7 +304,7 @@ ht-degree: 87%
       + [使用案例：匯出／匯入自訂資源](automating/using/exporting-importing-custom-resources.md)
    + 使用案例 {#workflow-use-case}
       + [關於工作流程使用案例](automating/using/about-workflow-use-cases.md)
-      + 交貨 {#deliveries}
+      + 傳遞{#deliveries}
          + [使用補救來建立傳送](automating/using/workflow-created-query-with-complement.md)
          + [在描述檔建立日期建立傳送](automating/using/workflow-creation-date-query.md)
          + [建立每週傳送](automating/using/workflow-weekly-offer.md)
@@ -324,7 +324,7 @@ ht-degree: 87%
          + [根據年齡組劃分](automating/using/segmentation-age-groups.md)
          + [使用與目標維度　](automating/using/using-resources-different-from-targeting-dimensions.md)　不同的資源
          + [建立控制群組](automating/using/workflow-control-group.md)
-      + 資料管理 {#data-management}
+      + 資料管理{#data-management}
          + [協調檔案對象與資料庫](automating/using/reconcile-file-audience-with-database.md)
          + [從導入的檔案中消除重複資料](automating/using/deduplicating-data-imported-file.md)
          + [使用檔案中包含的資料豐富描述檔資料](automating/using/enriching-profile-data-file.md)

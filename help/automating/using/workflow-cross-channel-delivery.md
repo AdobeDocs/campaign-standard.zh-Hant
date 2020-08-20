@@ -13,10 +13,10 @@ context-tags: workflow,use-case,query,wait,delivery
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68e689e6bc362f4e948593c3b251f3825aab20ac
+source-git-commit: 73a91344ada17d6eb0da0335e08ea27a1019b4fb
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 86%
+source-wordcount: '856'
+ht-degree: 85%
 
 ---
 
@@ -138,7 +138,7 @@ Adobe Campaign 可讓您將傳送新增至工作流程。若要這麼做，請�
 1. 輸入電子郵件屬性，然後按一下 **[!UICONTROL Next]**。
 1. 若要建立電子郵件的版面，請選取 **[!UICONTROL Use the Email Designer]**。
 1. 編輯並儲存您的內容。
-1. 在訊息控制面板的 **[!UICONTROL Schedule]** 區段中，取消選取在 **[!UICONTROL 先傳送訊息再要求確認}**&#x200B;選項。
+1. 在訊息 **[!UICONTROL Schedule]** 控制面板的區段中，取消選取 **[!UICONTROL Request confirmation before sending messages]** 選項。
 
 若要建立簡訊傳送：
 

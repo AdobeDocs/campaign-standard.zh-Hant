@@ -13,10 +13,10 @@ context-tags: workflow,use-case,query,segmentation,delivery
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68e689e6bc362f4e948593c3b251f3825aab20ac
+source-git-commit: 73a91344ada17d6eb0da0335e08ea27a1019b4fb
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 1%
+source-wordcount: '757'
+ht-degree: 14%
 
 ---
 
@@ -48,28 +48,28 @@ ht-degree: 1%
    ![](assets/wkf_control-group-profile-field-screen.png)
 
 1. 儲存您的變更。
-1. 更新資料庫結構以發佈擴 **[!UICONTROL Profile]** 展資源。 請參 [閱發佈自訂資源](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)。
+1. 更新資料庫結構以發佈擴 **[!UICONTROL Profile]** 展資源。 See [Publishing a custom resource](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
 
 有關擴展自定義資源的詳細資訊，請 [參閱添加資源的關鍵步驟](../../developing/using/key-steps-to-add-a-resource.md)。
 
 ## 建立工作流程 {#creating-a-workflow}
 
-1. 在中， **[!UICONTROL Marketing Activities]**&#x200B;按一下並 **[!UICONTROL Create]** 選擇 **[!UICONTROL Workflow]**。
-1. 選擇 **[!UICONTROL New Workflow]** 為工作流類型，然後按一下 **[!UICONTROL Next]**。
-1. 輸入工作流的屬性並按一下 **[!UICONTROL Create]**。
+1. 在 **[!UICONTROL Marketing Activities]** 中，按一下 **[!UICONTROL Create]** 並選取 **[!UICONTROL Workflow]**。
+1. 選取 **[!UICONTROL New Workflow]** 作為工作流程類型，並按一下 **[!UICONTROL Next]**。
+1. 輸入工作流程的屬性並按一下 **[!UICONTROL Create]**。
 
-建立工作流的詳細步驟在「生成工作流」( [Building a workflow](../../automating/using/building-a-workflow.md) )部分中顯示。
+[建立工作流](../../automating/using/building-a-workflow.md)區段中會列出建立工作流程的詳細步驟。
 
-## 建立查詢活動 {#create-a-query-activity}
+## 建立「查詢」活動 {#create-a-query-activity}
 
 1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**&#x200B;中，拖放 [](../../automating/using/query.md) Query活動。
 1. 連按兩下活動以定義您的目標。
 1. 例如，在拖 **[!UICONTROL Shortcuts]**&#x200B;放中，選 **[!UICONTROL Profile]**&#x200B;取 **[!UICONTROL Age]** 運算子，並在欄 **[!UICONTROL Greater than]** 位中輸入25 **[!UICONTROL Value]** 。
-1. 按一下「**[!UICONTROL Confirm]**」。
+1. 按一下 **[!UICONTROL Confirm]**。
 
-## 建立區段活動 {#creating-a-segmentation-activity}
+## 建立細分活動 {#creating-a-segmentation-activity}
 
-1. 拖放區段 [活動](../../automating/using/segmentation.md) ，然後按兩下它。
+1. Drag and drop a [Segmentation](../../automating/using/segmentation.md) activity and double-click it.
 1. 在標籤 **[!UICONTROL Segments]** 中，選取要編輯的區段。
 1. 在該區 **[!UICONTROL Configuration]** 段的標籤中，選取選 **[!UICONTROL Limit the population of this segment]** 項。
 
@@ -84,25 +84,25 @@ ht-degree: 1%
 
    ![](assets/wkf_control-segment-advanced.png)
 
-1. 按一下「**[!UICONTROL Confirm]**」。
+1. 按一下 **[!UICONTROL Confirm]**。
 
-## 建立電子郵件活動 {#creating-an-email-activity}
+## Creating an Email activity {#creating-an-email-activity}
 
 1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Channels]**&#x200B;中，拖放主要目標區段之 [後的](../../automating/using/email-delivery.md) 「電子郵件傳送」活動。
-1. 按一下活動並選 ![](assets/edit_darkgrey-24px.png) 取以編輯它。
-1. 選擇 **[!UICONTROL Single send email]** 並按一下 **[!UICONTROL Next]**。
+1. Click the activity and select ![](assets/edit_darkgrey-24px.png) to edit it.
+1. 選取 **[!UICONTROL Single send email]** 並按一下 **[!UICONTROL Next]**。
 1. 選取電子郵件範本，然後按一下 **[!UICONTROL Next]**。
 1. 輸入電子郵件屬性，然後按一下 **[!UICONTROL Next]**。
 1. 若要建立電子郵件的版面，請按一下 **[!UICONTROL Use the Email Designer]**。
 1. 編輯並儲存您的內容。
-1. 在消息 **[!UICONTROL Schedule]** 儀表板的部分中，在發送消息} **之前取消選擇[!UICONTROL請求確認** 。
+1. 在訊息 **[!UICONTROL Schedule]** 控制面板的區段中，取消選取 **[!UICONTROL Request confirmation before sending messages]** 選項。
 
 ## 建立更新資料活動 {#creating-update-data-activity}
 
 1. 在控制群組區段 [之後拖放](../../automating/using/update-data.md) 「更新」資料活動。
-1. 選擇活動，然後使用顯示的快 ![](assets/edit_darkgrey-24px.png) 速操作中的按鈕將其開啟。
+1. 選取活動，然後使用所顯示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
 1. 在標籤 **[!UICONTROL General]** 中，從下 **[!UICONTROL Update]** 拉式清 **[!UICONTROL Operation type]** 單中選取。
-1. 在標籤 **[!UICONTROL Identification]** 中，選擇選 **[!UICONTROL Directly using the targeting dimension]** 項。
+1. In the **[!UICONTROL Identification]** tab, select the **[!UICONTROL Directly using the targeting dimension]** option.
 1. 選擇 **[!UICONTROL Profile]** 先前擴展的資源作為要更新的維。
 
    ![](assets/wkf_control-update-identification.png)
@@ -111,7 +111,7 @@ ht-degree: 1%
 
    ![](assets/wkf_control-update-fields-to-update.png)
 
-1. 按一下「**[!UICONTROL Confirm]**」。
+1. 按一下 **[!UICONTROL Confirm]**。
 
 ## 執行工作流程 {#running-the-workflow}
 
@@ -119,7 +119,7 @@ ht-degree: 1%
 
 工作流運行後，將排除控制組的人口，並將消息發送到其餘的主目標。
 
-資 **[!UICONTROL Profile]** 源更新如下： 如果配置檔案在控制組中，則會檢查相應的欄位。
+資 **[!UICONTROL Profile]** 源更新如下：如果配置檔案在控制組中，則會檢查相應的欄位。
 
 ![](assets/wkf_control-group-profile-checked.png)
 

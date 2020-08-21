@@ -13,9 +13,9 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2b8a25a90ea253666fb71c3f7aaf830d736e6c5b
+source-git-commit: 3bace60da0b3cdbbc693507a03cbfb6886b15b4e
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '914'
 ht-degree: 0%
 
 ---
@@ -128,15 +128,15 @@ ht-degree: 0%
 
    您也可以根據事件觸發程式，在Collect PII回傳或不同的回傳中傳遞生命週期資料。 以下是生命週期資料JSON的範例：
 
-       &quot;
-    {
- &quot;marketingCloudId&quot;:&quot;{%mcid%%}&quot;,     &quot;cusDayslastlaunch&quot;
-    : &quot;{%%DaysSinceLastUse%%}&quot;,
-    &quot;cusDaysfirstlaunch&quot;: &quot;{%%DaysSinceFirstUse%}&quot;,
-    &quot;cusLaunches&quot;: &quot;{%%啟動%%}&quot;
- }     
-    &quot;
-   
+   ```
+   {
+   "marketingCloudId":"{%%mcid%%}",
+   "cusDayslastlaunch": "{%%DaysSinceLastUse%%}", 
+   "cusDaysfirstlaunch": "{%%DaysSinceFirstUse%%}", 
+   "cusLaunches": "{%%Launches%%}"
+   }
+   ```
+
    在中定義的資料元素 [!DNL Experience Platform Launch] 應以雙重百分比括住，例如%%mcid%%，而應用程式的上下文變數應以單一百分比括住，例如%contextdata.email%。
 
 1. 在中 **[!UICONTROL Content Type]**，輸入 **application/json**。

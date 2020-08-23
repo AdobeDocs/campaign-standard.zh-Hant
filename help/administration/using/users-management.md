@@ -12,9 +12,9 @@ discoiquuid: 08c8712a-0066-4b8b-8471-2656b8fb23ed
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: 762700893c913d9aea884d00438c84b39a800188
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1143'
 ht-degree: 100%
 
 ---
@@ -139,7 +139,7 @@ Adobe Campaign 可讓您指派一組角色給使用者，以定義使用者可�
 
 1. 檢查您使用者的安全性群組。在這裡，您可以看到使用者已被指派給 **[!UICONTROL Administrators]**&#x200B;安全性群組。
 
-   >[!Note]
+   >[!NOTE]
    >
    >安全性群組只能在 Admin Console 中移除或新增至使用者。
 

@@ -12,10 +12,10 @@ discoiquuid: 4f6317a1-9dfe-4714-bc1c-393629d855cd
 context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
-workflow-type: ht
-source-wordcount: '2479'
+translation-type: tm+mt
+source-git-commit: 762700893c913d9aea884d00438c84b39a800188
+workflow-type: tm+mt
+source-wordcount: '2478'
 ht-degree: 100%
 
 ---
@@ -92,7 +92,7 @@ ht-degree: 100%
 
 1. 新增主旨並編輯訊息內容以符合您的需求。
 
-   >[注意]
+   >[!NOTE]
    >
    >連至「放棄的購物車」連結是外部 URL 的連結，這會將使用者重新導向至其購物車。Adobe Campaign 並未管理此參數。
 
@@ -155,6 +155,7 @@ ht-degree: 100%
 
    * **[!UICONTROL Row]**：水平顯示，表示每列上的每個元素會位在彼此下方。
    * **[!UICONTROL Column]**：垂直顯示，表示每個元素會位在相同列上彼此旁邊。
+
    >[!NOTE]
    >
    >只有使用多欄結構元件時，才可使用　**[!UICONTROL Column]**　選項（**[!UICONTROL 2:2 column]**、**[!UICONTROL 3:3 column]** 及 **[!UICONTROL 4:4 column]**）。編輯產品清單時，僅填入第一欄：不會將其他欄納入考量。如需選取結構元件的詳細資訊，請參閱「[編輯電子郵件結構](../../designing/using/designing-from-scratch.md#defining-the-email-structure)」。

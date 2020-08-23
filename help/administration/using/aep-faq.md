@@ -12,9 +12,9 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2b04a5efdde3153d3ede0ad8bc4f56cd4a5fa1df
+source-git-commit: 762700893c913d9aea884d00438c84b39a800188
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '812'
 ht-degree: 2%
 
 ---
@@ -51,9 +51,9 @@ ht-degree: 2%
 
 ![](assets/faq.png)
 
->[!Note]
+>[!NOTE]
 >
->[!DNL Places] 整合包含將事件置為應用程式內訊息的觸發器（推播通知的不適用），以豐富資料和本機通知 [!DNL Places] 支援的個人檔案。 Refer to this [page](../../channels/using/preparing-and-sending-an-in-app-message.md) for more information. <br>[!DNL Places] 有限的整合包括豐富資料的個 [!DNL Places] 人檔案。
+>[!DNL Places] 整合包含將事件置為應用程式內訊息的觸發器（推播通知不適用），以豐富資料和本機通知 [!DNL Places] 支援的個人檔案。 Refer to this [page](../../channels/using/preparing-and-sending-an-in-app-message.md) for more information. <br>[!DNL Places] 有限的整合包括豐富資料的個 [!DNL Places] 人檔案。
 
 ## Adobe Experience Platform SDK整合可在Adobe Campaign Standard中促進哪些使用案例？ {#aep-use-cases}
 

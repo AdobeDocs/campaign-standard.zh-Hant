@@ -12,10 +12,10 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: 762700893c913d9aea884d00438c84b39a800188
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 2%
+source-wordcount: '464'
+ht-degree: 4%
 
 ---
 
@@ -37,7 +37,7 @@ Adobe Campaign Standard可讓您透過API觸發資料映射的立即擷取，並
 * [映射定義](../../developing/using/aep-mapping-definition.md)
 * [映射啟動](../../developing/using/aep-mapping-activation.md)
 
-建立資料對應後，您必須停止它的執行，以便您可以隨時從API觸發它。 若要這麼做，請依照下列步驟進行：
+建立資料對應後，您必須停止它的執行，以便您可以隨時從API觸發它。 要執行此操作，請依照下列步驟執行：
 
 1. 在「促銷活動標準」中，前往 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** >功能 **[!UICONTROL Status of data export to platform]** 表。
 
@@ -107,14 +107,14 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 ```
 
 >[!NOTE]
-有關XDM映射請求狀態及其相關作業的詳細資訊，請參閱「Campaign Standard」介面的「資料匯出至平台的狀態」功能表 **!UICONTROL [(請參閱&#x200B;]**映射啟動[](../../developing/using/aep-mapping-activation.md))。
+有關XDM映射請求狀態及其相關作業的詳細資訊，請參閱功能表中的「促銷活動標準」介 **[!UICONTROL Status of data export to platform]** 面(請參 [閱映射啟動](../../developing/using/aep-mapping-activation.md))。
 
 GET操作返回以下資訊：
 
-* **batchId**: 只有在批次準備和上傳後發生失敗時，才會填入此欄位，
-* **資訊**: XDM映射ID,
-* **numRecords**: 已收錄的記錄數（僅限成功狀態）,
-* **狀態**: 收錄請求狀態（成功／失敗／進行中）
+* **batchId**:只有在批次準備和上傳後發生失敗時，才會填入此欄位，
+* **資訊**:XDM映射ID,
+* **numRecords**:已收錄的記錄數（僅限成功狀態）,
+* **狀態**:收錄請求狀態（成功／失敗／進行中）
 
 對GET操作的可能響應包括：
 

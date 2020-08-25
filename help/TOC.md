@@ -4,9 +4,9 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard 說明
 translation-type: tm+mt
-source-git-commit: b9fbcbd7d6ea206ae3ed1faca89f4000052f97dc
+source-git-commit: 7a647878a711777dffd83a8f8dccacf9d9238ba6
 workflow-type: tm+mt
-source-wordcount: '1564'
+source-wordcount: '1569'
 ht-degree: 88%
 
 ---
@@ -103,7 +103,8 @@ ht-degree: 88%
       + [定義直接郵件閱聽眾](channels/using/defining-the-direct-mail-audience.md)
       + [定義直接郵件內容](channels/using/defining-the-direct-mail-content.md)
    + 交易式訊息傳送 {#transactional-messaging}
-      + [關於交易式訊息傳送](channels/using/about-transactional-messaging.md)
+      + [交易式訊息快速入門](channels/using/getting-started-with-transactional-msg.md)
+      + [交易式訊息限制](channels/using/transactional-messaging-limitations.md)
       + [事件交易式訊息](channels/using/event-transactional-messages.md)
       + [設定檔交易式訊息](channels/using/profile-transactional-messages.md)
       + [交易式推播通知](channels/using/transactional-push-notifications.md)
@@ -310,7 +311,7 @@ ht-degree: 88%
          + [建立每週傳送](automating/using/workflow-weekly-offer.md)
          + [建立跨通道傳送](automating/using/workflow-cross-channel-delivery.md)
          + [在傳送前識別重複項目](automating/using/identifying-duplicated-before-delivery.md)
-         + [生日寄送](automating/using/birthday-delivery.md)
+         + [生日遞送](automating/using/birthday-delivery.md)
          + [將電子郵件與直效郵件傳送結合](automating/using/coupling-email-direct-mail.md)
          + [傳送包含豐富欄位的電子郵件](automating/using/sending-email-enriched-fields.md)
          + [使用其他資料個人化電子郵件](automating/using/personalizing-email-with-additional-data.md)

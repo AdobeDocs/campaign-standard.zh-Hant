@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
 workflow-type: tm+mt
 source-wordcount: '1825'
 ht-degree: 99%
@@ -64,7 +64,7 @@ ht-degree: 99%
 
 **改進**
 
-* 交易式訊息使用者體驗已增強，介面一致性也已獲改善。[瞭解詳情](../../channels/using/about-transactional-messaging.md)
+* 交易式訊息使用者體驗已增強，介面一致性也已獲改善。[瞭解詳情](../../channels/using/getting-started-with-transactional-msg.md)
 * Campaign Standard 現在可讓您使用工作流程的其他資料，將校樣傳送至測試設定檔。
 * 外部API活動的護欄已更新。[瞭解詳情](../../automating/using/external-api.md)
 

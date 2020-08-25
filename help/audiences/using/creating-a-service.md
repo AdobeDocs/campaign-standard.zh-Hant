@@ -12,9 +12,9 @@ discoiquuid: 6b7788fe-fa6c-472a-97db-765595ce1589
 context-tags: service,wizard;service,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: a8ee3b864b6916871711c6bd2e2d3b794bc706f8
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 100%
 
@@ -52,7 +52,7 @@ ht-degree: 100%
       >
       >您可以在核取 **[!UICONTROL Show internal transactional messages]** 方塊後，按一下 **[!UICONTROL Service properties]** 區段中的標籤，或是從 Adobe Campaign 交易式訊息清單中選取預設訊息，進而修改預設訊息。
 
-   * **[!UICONTROL Custom message]**：此模式可讓您處理每個服務專屬的自訂確認訊息。然後，選取與特定[交易式訊息範本](../../channels/using/about-transactional-messaging.md)相關聯的 **[!UICONTROL Custom subscription event configuration]**。如需詳細資訊，請參閱[確認服務訂閱](../../audiences/using/confirming-subscription-to-a-service.md)。
+   * **[!UICONTROL Custom message]**：此模式可讓您處理每個服務專屬的自訂確認訊息。然後，選取與特定[交易式訊息範本](../../channels/using/getting-started-with-transactional-msg.md)相關聯的 **[!UICONTROL Custom subscription event configuration]**。如需詳細資訊，請參閱[確認服務訂閱](../../audiences/using/confirming-subscription-to-a-service.md)。
 
 1. 儲存服務。現在已可供使用。
 

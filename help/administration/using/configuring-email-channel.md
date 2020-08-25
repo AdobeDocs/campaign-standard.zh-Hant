@@ -12,9 +12,9 @@ discoiquuid: 3752d41f-8c59-4fad-b30f-e98e09cd74a8
 context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;delivery,properties,open
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e2303055b3370efab204adbdb1b9f567a555a23f
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
 source-wordcount: '2331'
 ht-degree: 100%
 
@@ -240,7 +240,7 @@ The number of retries can be changed globally (contact your Adobe technical admi
 
 >[!NOTE]
 >
->**[!UICONTROL Delivery duration]** 參數不適用於異動訊息。如需異動訊息的詳細資訊，請參閱[本節](../../channels/using/about-transactional-messaging.md)。
+>**[!UICONTROL Delivery duration]** 參數不適用於異動訊息。如需異動訊息的詳細資訊，請參閱[本節](../../channels/using/getting-started-with-transactional-msg.md)。
 
 ### 追蹤參數 {#tracking-parameters}
 

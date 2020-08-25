@@ -12,7 +12,7 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 314321c42094b945eba95540375eeeabacb84e64
+source-git-commit: 1043f69841a5a4ddaecc37289c9cfb1c1b5f7f34
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 19%
@@ -22,7 +22,7 @@ ht-degree: 19%
 
 # 關於工作流程使用案例 {#about-workflow-use-cases}
 
-在is區段中，您會發現運用促銷活動工作流程功能的各種使用案例。
+在本節中，您將會發現各種運用促銷活動工作流程功能的使用案例。
 
 它們可協助您探索不同的情境，讓您使用工作流程並回應您的需求。
 
@@ -35,7 +35,7 @@ ht-degree: 19%
 * [建立每週傳送](../../automating/using/workflow-weekly-offer.md)
 * [建立跨通道傳送](../../automating/using/workflow-cross-channel-delivery.md)
 * [在傳送前識別重複項目](../../automating/using/identifying-duplicated-before-delivery.md)
-* [生日寄送](../../automating/using/birthday-delivery.md)
+* [生日遞送](../../automating/using/birthday-delivery.md)
 * [將電子郵件與直效郵件傳送結合](../../automating/using/coupling-email-direct-mail.md)
 * [傳送包含豐富欄位的電子郵件](../../automating/using/sending-email-enriched-fields.md)
 * [使用其他資料個人化電子郵件](../../automating/using/personalizing-email-with-additional-data.md)

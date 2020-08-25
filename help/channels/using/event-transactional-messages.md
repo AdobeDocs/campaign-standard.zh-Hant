@@ -63,7 +63,7 @@ ht-degree: 100%
 
    ![](assets/message-center_5.png)
 
-### 在交易式訊息 {#creating-a-test-profile-outside-the-transactional-----------message} 外部建立測試設定檔
+### 在交易式訊息 外部建立測試設定檔{#creating-a-test-profile-outside-the-transactional-----------message}
 
 您也可以建立新的測試設定檔，或是使用 **[!UICONTROL Test profiles]** 功能表中已存在的測試設定檔。
 

@@ -12,7 +12,7 @@ discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 94%
@@ -29,7 +29,7 @@ ht-degree: 94%
 * 將交易式訊息新增至全域傳送報告。
 * 在客戶歷程中善用交易式訊息。
 
-一旦您建立並發佈事件（如上述[範例](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle)所述的購物車放棄率）之後，就會自動建立對應的交易式訊息。
+一旦您建立並發佈事件（如上述[範例](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)所述的購物車放棄率）之後，就會自動建立對應的交易式訊息。
 
 設定步驟顯示在[設定事件以傳送設定檔交易式訊息](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message)區段中。
 

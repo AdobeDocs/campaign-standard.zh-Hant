@@ -13,9 +13,9 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9927fa9402c23766049afac0f3a10d83ed08236d
+source-git-commit: f85da747cc4e6226172d2ccda452aadb131daa99
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '729'
 ht-degree: 28%
 
 ---
@@ -27,8 +27,9 @@ ht-degree: 28%
 
 <table>
 <tr>
-<td class="noborder"><img src="assets/do-not-localize/icon_transactional.svg" width="90px"></td>
-<td class="noborder"><p>交易式訊息可讓您 <b>即時傳送個別和獨特的訊息</b> ，給客戶。<br>可以是歡迎訊息、訂購發運確認、密碼修改等。</p></td>
+<td class="noborder"><img src="assets/do-not-localize/icon_transactional.svg" width="60px"></td>
+<td class="noborder"><p>交易式訊息可讓您 <b>即時傳送個別和獨特的訊息</b> ，給客戶。</p></td>
+<td class="noborder"><p>可以是歡迎訊息、訂購發運確認、密碼修改等。</p></td>
 </tr>
 </table>
 
@@ -50,20 +51,28 @@ Adobe Campaign Standard API 也提供交易式訊息。如需詳細資訊，請�
 
 <table>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_concepts.svg" width="60px"><br><p><b>什麼是交易訊息？</b></p></td>
-<td><p>它是由網站等提供者所傳送的個人與獨特通訊。 特別需要，因為收件者想要檢查或確認的重要資訊。</p></td>
+<td align="center"><img src="assets/do-not-localize/icon_concepts.svg" width="60px"></td>
+<td align="center"><br><p><b>什麼是交易訊息？</b></p></td>
+<td><p>它是由網站等提供者所傳送的個人與獨特通訊。</p></td>
+<td><p>特別需要，因為收件者想要檢查或確認的重要資訊。</p></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_channels.svg" width="60px"><br><p><b>什麼時候到期？</b></p></td>
-<td><p> 由於此訊息包含重要資訊，因此使用者預期會即時傳送。 因此，觸發的事件和到達的消息之間的延遲必須非常短。</p></td>
+<td align="center"><img src="assets/do-not-localize/icon_channels.svg" width="60px"></td>
+<td align="center"><p><b>什麼時候到期？</b></p></td>
+<td><p> 由於此訊息包含重要資訊，因此使用者預期會即時傳送。</p></td>
+<td><p>因此，觸發的事件和到達的消息之間的延遲必須非常短。</p></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_important.svg" width="60px"><br><p><b>為什麼這很重要？</b></p></td>
-<td><p>一般而言，交易型訊息的公開率很高。 因此，應謹慎設計它，因為它對客戶行為有強烈影響。 它定義了客戶端關係。</p></td>
+<td align="center"><img src="assets/do-not-localize/icon_important.svg" width="60px"></td>
+<td align="center"><p><b>為什麼這很重要？</b></p></td>
+<td><p>一般而言，交易型訊息的公開率很高。 因此，它應當經過精心設計。</p></td>
+<td><p>事實上，它定義了客戶關係，對客戶行為會產生很大影響。</p></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_example.svg" width="60px"><br><b>例如？</b></td>
-<td><p>這可能是建立帳戶後的歡迎訊息、確認訂單已出貨、發票、確認密碼變更的訊息，或客戶瀏覽您的網站後的通知……</p></td>
+<td align="center"><img src="assets/do-not-localize/icon_example.svg" width="60px"></td>
+<td align="center"><b>例如？</b></td>
+<td><p>在建立帳戶、確認訂單已出貨、發票後，可能會是歡迎訊息……</p></td>
+<td><p>也可以是確認密碼變更的訊息，或客戶瀏覽您的網站後的通知……</p></td>
 </tr>
 </table>
 
@@ -71,23 +80,25 @@ Adobe Campaign Standard API 也提供交易式訊息。如需詳細資訊，請�
 
 Adobe Campaign 提供兩種類型的交易式訊息：
 
-* [事件交易訊息](../../channels/using/event-transactional-messages.md) ，以事件為 **目標**。<!--The data contained in the event itself is used to define the delivery target.-->
+<!--[Event transactional messages](../../channels/using/event-transactional-messages.md) targeting an **event**. The data contained in the event itself is used to define the delivery target.-->
 
-   <table>
-    <tr>
-    <td><img src="assets/do-not-localize/icon_event.svg" width="60px"></td>
-    <td><p><ul><li>它們不包含描述檔資訊。</li><li>它們與疲勞規 <a href="../../sending/using/fatigue-rules.md">則不相容</a> （即使是具有輪廓的富集）。</li><li>傳送目標是由事件本身所包含的資料所定義。</li></ul></p></td>
-    </tr>
-    </table>
+<table>
+<tr>
+<td align="center"><a href="../../channels/using/event-transactional-messages.md">事件事務</a><br>性訊息會 <b>觸發事件</b>。</td>
+<td align="center"><img src="assets/do-not-localize/icon_event.svg" width="60px"></td>
+<td><p><ul><li>它們不包含描述檔資訊。</li><li>它們與疲勞規 <a href="../../sending/using/fatigue-rules.md">則不相容</a> （即使是具有輪廓的富集）。</li><li>傳送目標是由事件本身所包含的資料所定義。</li></ul></p></td>
+</tr>
+</table>
 
-* [針對Adobe Campaign行銷資](../../channels/using/profile-transactional-messages.md) 料庫的個人檔案，設定交易訊息 ****。<!--You can use information from the Adobe Campaign database to send a transactional message based on customer marketing profiles.-->
+<!--[Profile transactional messages](../../channels/using/profile-transactional-messages.md) targeting **profiles from the Adobe Campaign marketing database**. You can use information from the Adobe Campaign database to send a transactional message based on customer marketing profiles.-->
 
-   <table>
-    <tr>
-    <td><img src="assets/do-not-localize/icon_profile.svg" width="60px"></td>
-    <td><p>配置檔案事務性消息允許您：<ul><li>套用行銷類型學規則，例如 <b>區塊清單上的位址</b><a href="../../sending/using/fatigue-rules.md">或疲勞規則</a>。</li><li>在訊息中包含取消訂閱連結。</li><li>將交易式訊息新增至全域傳送報告。</li><li>在客戶歷程中善用交易式訊息。</li></ul></p></td>
-    </tr>
-    </table>
+<table>
+<tr>
+<td align="center"><a href="../../channels/using/profile-transactional-messages.md">從Adobe Campaign行</a><br>銷資料 <b>庫設定交易訊息收集設定檔</b>。</td>
+<td align="center"><img src="assets/do-not-localize/icon_profile.svg" width="60px"></td>
+<td><p>配置檔案事務性消息允許您：<ul><li>套用行銷類型學規則，例如 <b>區塊清單上的位址</b><a href="../../sending/using/fatigue-rules.md">或疲勞規則</a>。</li><li>在訊息中包含取消訂閱連結。</li><li>將交易式訊息新增至全域傳送報告。</li><li>在客戶歷程中善用交易式訊息。</li></ul></p></td>
+</tr>
+</table>
 
 在配置將轉換為交易式訊息的事件時定義訊息類型。請參閱[交易式訊息配置](../../administration/using/configuring-transactional-messaging.md)。
 
@@ -107,12 +118,9 @@ Adobe Campaign 可讓您傳送通知電子郵件給已將產品新增至購物�
 
 ### 步驟1 —— 建立和發佈事件設定 {#create-event-configuration}
 
-<table>
-<tr>
-<td class="noborder"><img src="assets/do-not-localize/icon_config.svg" width="60px"></td>
-<td class="noborder"><p>設定將命名為「購物車放棄」的事件，並發佈此事件設定。</p></td>
-</tr>
-</table>
+<img src="assets/do-not-localize/icon_config.svg" width="60px">
+
+設定將命名為「購物車放棄」的事件，並發佈此事件設定。
 
 網站開發人員將會使用的API會部署，並自動建立交易訊息。
 
@@ -120,23 +128,17 @@ Adobe Campaign 可讓您傳送通知電子郵件給已將產品新增至購物�
 
 ### 步驟2 —— 編輯和發佈交易訊息 {#create-transactional-message}
 
-<table>
-<tr>
-<td class="noborder"><img src="assets/do-not-localize/icon_transactional.svg" width="60px"></td>
-<td class="noborder"><p>編輯並個人化交易訊息、進行測試，然後發佈。</p></td>
-</tr>
-</table>
+<img src="assets/do-not-localize/icon_transactional.svg" width="60px">
+
+編輯並個人化交易訊息、進行測試，然後發佈。
 
 For more on editing and publishing a transactional message, see [Event transactional messages](../../channels/using/event-transactional-messages.md).
 
 ### 步驟3 —— 整合事件觸發 {#integrate-event-trigger}
 
-<table>
-<tr>
-<td class="noborder"><img src="assets/do-not-localize/icon_api.svg" width="60px"></td>
-<td class="noborder"><p>使用REST Transactional Messages API將事件整合到您的網站。</p></td>
-</tr>
-</table>
+<img src="assets/do-not-localize/icon_api.svg" width="60px">
+
+使用REST Transactional Messages API將事件整合到您的網站。
 
 當客戶放棄購物車時，會觸發事件。
 
@@ -146,12 +148,9 @@ For more on editing and publishing a transactional message, see [Event transacti
 
 <!--Once all of these steps have been carried out, the message can be delivered:-->
 
-<table>
-<tr>
-<td class="noborder"><img src="assets/do-not-localize/icon_notification.svg" width="60px"></td>
-<td class="noborder"><p><br>當使用者離開網站而未在購物車中訂購產品時，他們會自動收到通知電子郵件。</p></td>
-</tr>
-</table>
+<img src="assets/do-not-localize/icon_notification.svg" width="60px">
+
+當使用者離開網站而未在購物車中訂購產品時，他們會自動收到通知電子郵件。
 
 ## 關鍵步驟 {#key-steps}
 

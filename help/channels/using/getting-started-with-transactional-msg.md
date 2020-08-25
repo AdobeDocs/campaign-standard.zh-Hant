@@ -13,7 +13,7 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 284b177ef6d687cafaf92c50aa2050b8109ac30d
+source-git-commit: 434be1d237e1ce5bd47552d371d2df4670e82f44
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 28%
@@ -35,8 +35,8 @@ Adobe Campaign可讓您將這項功能與資訊系統整合，該資訊系統會
 >[!NOTE]
 >
 >交易式訊息可透過電子郵件、簡訊或推播通知傳送，視您的選項而定。請檢查您的授權合約。
->
->Adobe Campaign會優先處理交易訊息，而非其他傳送。
+
+Adobe Campaign會優先處理交易訊息，而非其他傳送。
 
 Adobe Campaign Standard API 也提供交易式訊息。如需詳細資訊，請參閱[詳細文件](../../api/using/managing-transactional-messages.md)。
 
@@ -63,7 +63,7 @@ Adobe Campaign Standard API 也提供交易式訊息。如需詳細資訊，請�
 <td><p>事實上，它定義了客戶關係，對客戶行為會產生很大影響。</p></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_example.svg" width="60px"><br><b>例如？</b></td>
+<td align="center"><img src="assets/do-not-localize/icon_example.svg" width="60px"><br><p><b>例如？</b></p></td>
 <td><p>在建立帳戶、確認訂單已出貨、發票後，可能會是歡迎訊息……</p></td>
 <td><p>也可以是確認密碼變更的訊息，或客戶瀏覽您的網站後的通知……</p></td>
 </tr>
@@ -77,11 +77,11 @@ Adobe Campaign 提供兩種類型的交易式訊息：
 
 <table>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_event.svg" width="60px"><br><a href="../../channels/using/event-transactional-messages.md">事件事務</a><br>性訊息會 <b>觸發事件</b>。</td>
+<td align="center"><img src="assets/do-not-localize/icon_event.svg" width="60px"><br><p><a href="../../channels/using/event-transactional-messages.md">事件事務</a><br>性訊息建立事 <b>件</b></p></td>
 <td><p><ul><li>它們不包含描述檔資訊。</li><li>它們與疲勞規 <a href="../../sending/using/fatigue-rules.md">則不相容</a> （即使是具有輪廓的富集）。</li><li>傳送目標是由事件本身所包含的資料所定義。</li></ul></p></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_profile.svg" width="60px"><br><a href="../../channels/using/profile-transactional-messages.md">從Adobe Campaign行</a><br>銷資料 <b>庫設定交易訊息收集設定檔</b>。</td>
+<td align="center"><img src="assets/do-not-localize/icon_profile.svg" width="60px"><br><a href="../../channels/using/profile-transactional-messages.md"><p>Profile transactional messages</a><br>targeting <b>profiles from the Adobe Campaign marketing database</b></p></td>
 <td><p>配置檔案事務性消息允許您：<ul><li>套用行銷類型學規則，例如 <b>區塊清單上的位址</b><a href="../../sending/using/fatigue-rules.md">或疲勞規則</a>。</li><li>在訊息中包含取消訂閱連結。</li><li>將交易式訊息新增至全域傳送報告。</li><li>在客戶歷程中善用交易式訊息。</li></ul></p></td>
 </tr>
 </table>

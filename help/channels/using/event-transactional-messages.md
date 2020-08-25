@@ -118,7 +118,7 @@ ht-degree: 100%
 
    您可以檢查個人化欄位是否符合在測試設定檔中輸入的資訊。如需詳細資訊，請參閱[在交易式訊息中定義測試設定檔](#defining-a-test-profile-in-a-transactional-message)。
 
-## 在交易式訊息 {#using-product-listings-in-a-transactional-message} 中使用產品清單
+## 在交易式訊息 中使用產品清單{#using-product-listings-in-a-transactional-message}
 
 您可以建立產品清單，以參考交易式電子郵件內容中的一或多個資料集合。例如，在購物車放棄率電子郵件中，您可以包含使用者離開網站時購物車中的所有產品清單，其中會包含每個產品的影像、價格及其連結。
 

@@ -13,7 +13,7 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0b6607afe05e762c87a95fd88bda0196baa57f1e
+source-git-commit: 6c768132a297d324f6aec87c215222b3587091c6
 workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 87%
@@ -23,16 +23,13 @@ ht-degree: 87%
 
 # 交易式訊息限制 {#transactional-messaging-limitations}
 
-<table>
-<tr>
-<td><img src="assets/do-not-localize/icon_concepts.svg" width="60px"></td>
-<td><p>以下部分列出了在開始建立事務性消息之前應注意的限制。</p></td>
-</tr>
-</table>
+<img src="assets/do-not-localize/icon_concepts.svg" width="60px">
+
+以下部分列出了在開始建立事務性消息之前應注意的限制。
 
 有關事務性消息的詳細資訊，包括如何配置和建立這些消息，請參 [閱事務性消息入門](../../channels/using/getting-started-with-transactional-msg.md)。
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >若要存取交易式訊息，您必須具有管理權限。
 

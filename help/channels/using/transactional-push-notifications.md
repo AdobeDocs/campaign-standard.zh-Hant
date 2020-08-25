@@ -1,18 +1,21 @@
 ---
 title: 交易式推播通知
 description: 瞭解如何建立和發佈交易式推播通知。
-page-status-flag: 從未激活
-uuid: ef31c1b6-9ef8-42e3-b49d-72f9ea8ea32
-contentOwner: 紹維亞
+page-status-flag: never-activated
+uuid: ef31c1b6-9ef8-42e3-b49d-72f9eac8ea32
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 頻道
-content-type: 參考
-topic-tags: 事務性消息傳遞
+audience: channels
+content-type: reference
+topic-tags: transactional-messaging
 discoiquuid: e645d4b9-001f-47d9-8a0f-b4696c75c5d3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
+source-wordcount: '740'
+ht-degree: 13%
 
 ---
 
@@ -23,22 +26,22 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 >[!NOTE]
 >
->推播頻道為選擇性。 請檢查您的授權合約。 如需標準推播通知的詳細資訊，請參閱 [推播通知](../../channels/using/about-push-notifications.md)。
+>推播頻道為選擇性。 請檢查您的授權合約。如需標準推播通知的詳細資訊，請參閱 [推播通知](../../channels/using/about-push-notifications.md)。
 
 您可以傳送兩種類型的交易推播通知：
 
 * 以事件為目標的交易式推播通知。
 * 以Adobe Campaign資料庫的設定檔為目標的交易式推播通知。
 
-在您建立並發佈事件後(本節說明的購物車放棄 [率](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle))，就會自動建立對應的交易推播通知。
+Once you have created and published an event (the cart abandonment explained in [this section](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)), the corresponding transactional push notification is created automatically.
 
-設定步驟會顯示在「設 [定事件以傳送交易推播通知](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) 」區段。
+The configuration steps are presented in the [Configuring an event to send a transactional push notification](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) section.
 
-為了讓事件觸發傳送交易訊息，您必須個人化訊息，然後測試並發佈訊息。
+為了讓事件觸發傳送交易式訊息，您必須個人化訊息，然後再測試之後發佈訊息。
 
 >[!NOTE]
 >
->要訪問事務性消息，您必須是安全組的一 **[!UICONTROL Administrators (all units)]** 部分。
+>您必須是 **[!UICONTROL Administrators (all units)]** 安全群組的成員，才能存取交易式訊息。
 
 ## 針對事件的交易式推播通知 {#transactional-push-notifications-targeting-an-event}
 
@@ -52,23 +55,23 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 該公司將使用一個行動應用程式，透過單一裝置，針對每位使用者傳送一則交易式推播通知（以註冊Token識別）。
 
-1. 轉至為編輯而建立的交易訊息。 See [Event transactional messages](../../channels/using/event-transactional-messages.md).
+1. 移至建立的交易式訊息，以編輯其內容。請參閱[事件交易式訊息](../../channels/using/event-transactional-messages.md)。
 
    ![](assets/message-center_push_message.png)
 
-1. 按一下 **[!UICONTROL Content]** 區塊以修改訊息的標題和內文。
+1. Click the **[!UICONTROL Content]** block to modify your message&#39;s title and body.
 
    您可以插入個人化欄位，以新增您在建立事件時定義的元素。
 
    ![](assets/message-center_push_content.png)
 
-   若要尋找這些欄位，請按一下項目旁的鉛筆，然後按一 **[!UICONTROL Insert personalization field]** 下並選 **[!UICONTROL Context]** 取&gt; **[!UICONTROL Real-time event]** &gt; **[!UICONTROL Event context]**。
+   若要尋找這些欄位，請按一下項目旁的鉛筆，然後按一 **[!UICONTROL Insert personalization field]** 下並選 **[!UICONTROL Context]** 取> **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**。
 
    ![](assets/message-center_push_personalization.png)
 
    如需編輯推播通知內容的詳細資訊，請參 [閱建立推播通知](../../channels/using/preparing-and-sending-a-push-notification.md)。
 
-1. 儲存變更並發佈訊息。 請參 [閱發佈交易訊息](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message)。
+1. 儲存您的變更並發佈訊息。請參閱[發佈交易式訊息](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message)。
 1. 使用Adobe Campaign Standard REST API，在Android(gcm)上使用一個行動應用程式(WeFlight)，將事件傳送至註冊Token(ABCDEF123456789)，其中包含登入資料。
 
    ```
@@ -109,19 +112,19 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 例如，航空公司想要向所有已訂閱其行動應用程式的Adobe Campaign使用者寄送最後一次登入通知。
 
-1. 轉至為編輯而建立的交易訊息。 See [Event transactional messages](../../channels/using/event-transactional-messages.md).
+1. 移至建立的交易式訊息，以編輯其內容。請參閱[事件交易式訊息](../../channels/using/event-transactional-messages.md)。
 
    <!--![](assets/message-center_push_message_profile.png)-->
 
-1. 按一下 **[!UICONTROL Content]** 區塊以修改訊息的標題和內文。
+1. Click the **[!UICONTROL Content]** block to modify your message&#39;s title and body.
 
-   與基於即時事件的配置不同，您可以直接訪問所有配置檔案資訊以個性化您的消息。 請參 [閱插入個人化欄位](../../designing/using/personalization.md#inserting-a-personalization-field)。
+   與基於即時事件的配置不同，您可以直接訪問所有配置檔案資訊以個性化您的消息。 請參閱[插入個人化欄位](../../designing/using/personalization.md#inserting-a-personalization-field)。
 
    <!--![](assets/message-center_push_content_profile.png)-->
 
    如需編輯推播通知內容的詳細資訊。 請參 [閱建立推播通知](../../channels/using/preparing-and-sending-a-push-notification.md)。
 
-1. 儲存變更並發佈訊息。 請參 [閱發佈交易訊息](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message)。
+1. 儲存您的變更並發佈訊息。請參閱[發佈交易式訊息](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message)。
 1. 使用Adobe Campaign Standard REST API，將事件傳送至描述檔。
 
    ```

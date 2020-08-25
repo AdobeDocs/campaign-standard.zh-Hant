@@ -12,7 +12,7 @@ discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
 workflow-type: tm+mt
 source-wordcount: '1157'
 ht-degree: 89%
@@ -80,7 +80,7 @@ ht-degree: 89%
 
 ### 建立事件 {#create-the-event}
 
-確認電子郵件是[交易式訊息](../../channels/using/about-transactional-messaging.md)，當它回應事件時：表單的驗證。您必須先建立事件，然後建立交易式訊息的範本。
+確認電子郵件是[交易式訊息](../../channels/using/getting-started-with-transactional-msg.md)，當它回應事件時：表單的驗證。您必須先建立事件，然後建立交易式訊息的範本。
 
 1. 從 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]** 建立可從 Adobe Campaign 標誌存取的事件，然後輸入標籤 &#39;**CONFIRM**&#39;。
 1. 選取 **[!UICONTROL Profile]** 目標維度，然後按一下 **[!UICONTROL Create]**。

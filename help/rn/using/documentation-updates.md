@@ -12,10 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+source-git-commit: b588366b0697d9cf7aea77b7c9c8ec876b9e0579
 workflow-type: tm+mt
-source-wordcount: '6092'
-ht-degree: 94%
+source-wordcount: '6119'
+ht-degree: 95%
 
 ---
 
@@ -24,33 +24,39 @@ ht-degree: 94%
 
 除了 Adobe Campaign [發行版本](../../rn/using/release-notes.md)以外，本頁還列出 Adobe Campaign Standard 檔案中的所有新更新。
 
+## 檔案更新 – 2020 年 8 月 {#doc-updates-august-2020}
+
+現在提供有關交易式訊息快速入門的新更新章節。 [顯示全文](../../channels/using/getting-started-with-transactional-msg.md)
+
+已移動「事務性消息傳送限制」部分。 [顯示全文](../../channels/using/transactional-messaging-limitations.md)
+
 ## 檔案更新 – 2020 年 7 月 {#doc-updates-july-2020}
 
-新增了與「促銷活動標準」監控相關的准則。 [詳細內容](../../administration/using/monitoring-guidelines.md)
+新增了與「促銷活動標準」監控相關的准則。 [顯示全文](../../administration/using/monitoring-guidelines.md)
 
-外部API護欄和限制區段已更新。[詳細內容](../../automating/using/external-api.md#guardrails)
+外部API護欄和限制區段已更新。[顯示全文](../../automating/using/external-api.md#guardrails)
 
-「隱私權管理概述」頁面已更新，加入泰國個人資料保護法(PDPA)和巴西Lei Geral de Proteção de Dados(LGPD)的相關資訊。 [詳細內容](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
+「隱私權管理概述」頁面已更新，加入泰國個人資料保護法(PDPA)和巴西Lei Geral de Proteção de Dados(LGPD)的相關資訊。 [顯示全文](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
-行動頻道指南已重新整理並改良。 新的指南「設定行動頻道」已新增有關行動設定的技術檔案。 [詳細內容](../../administration/using/push-tracking.md)
+行動頻道指南已重新整理並改良。 新的指南「設定行動頻道」已新增有關行動設定的技術檔案。 [顯示全文](../../administration/using/push-tracking.md)
 
-「促銷活動標準」頁面中的「隱私權管理」已更新，包括如何透過「隱私權核心服務」整合管理隱私權要求的說明。 [詳細內容](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)
+「促銷活動標準」頁面中的「隱私權管理」已更新，包括如何透過「隱私權核心服務」整合管理隱私權要求的說明。 [顯示全文](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)
 
-以人工智慧為動力的全新電子郵件功能： 傳送時間最佳化和描述檔計分。 [詳細內容](../../sending/using/predictive.md)
+以人工智慧為動力的全新電子郵件功能：傳送時間最佳化和描述檔計分。 [顯示全文](../../sending/using/predictive.md)
 
 ## 檔案更新- 2020年6月 {#doc-updates-june-2020}
 
-工作流程使用案例已更新並重新組織為主題章節。 [詳細內容](../../automating/using/about-workflow-use-cases.md)
+更新工作流程使用案例，重新組織至各主題章節。[顯示全文](../../automating/using/about-workflow-use-cases.md)
 
-已新增使用案例，說明如何使用「控制 [面板](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt) 」和「促 [銷活動](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) 」工作流程來加密和解密資料。
+新增使用案例，以說明如何使用「控制面板」及「行銷活動工作流程」進行資料[加密](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt)與[解密](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt)。
 
-已從 Adobe Campaign 文件移除「白名單」和「黑名單」等詞語。產品 UI、選項名稱和內部代碼中可能仍會出現這些詞語，但在即將發行的 Campaign 版本中，這些詞語將由「封鎖清單」和「允許清單」取代。
+「Whitelist」和「blacklist」兩種字詞已從 Adobe Campaign 文件移除。產品 UI、選項名稱及內部代碼仍可能出現這兩種字詞，但未來版本的 Campaign 將以「blocklist」和「allowlist」取代。
 
 舊版支援網站的參考已由新URL取代。 [進一步瞭解](https://helpx.adobe.com/campaign/kb/ac-support.html#acs-support-req)
 
-自訂Litmus帳戶設定已從「收件匣」轉譯功能中移除。 [詳細內容](../../sending/using/email-rendering.md)
+自訂Litmus帳戶設定已從「收件匣」轉譯功能中移除。 [顯示全文](../../sending/using/email-rendering.md)
 
-Campaign Standard —— 目前無法使用Microsoft Dynamics 365整合。 新連接器正在開發中，未來將可供使用。 相關說明頁面已移除。 [詳細內容](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+Campaign Standard —— 目前無法使用Microsoft Dynamics 365整合。 新連接器正在開發中，未來將可供使用。 相關說明頁面已移除。 [顯示全文](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 ## 檔案更新 – 2020 年 5 月 {#doc-updates-may-2020}
 
@@ -128,7 +134,7 @@ MCPNS 在設定行動應用程式時增加了限制。[瞭解詳情](https://hel
 
 說明如何測試電子郵件主旨行以預測其開放率的頁面已更新並改進，包括新的[疑難排解](../../sending/using/testing-subject-line-email.md#troubleshooting)區段。[瞭解詳情](../../sending/using/testing-subject-line-email.md)
 
-交易式訊息區段已更新，以反映多個使用者介面的微幅更新和改良。[瞭解詳情](../../channels/using/about-transactional-messaging.md)
+交易式訊息區段已更新，以反映多個使用者介面的微幅更新和改良。[瞭解詳情](../../channels/using/getting-started-with-transactional-msg.md)
 
 已更新與外部 API 活動防護欄相關的資訊。[瞭解詳情](../../automating/using/external-api.md)
 
@@ -208,7 +214,7 @@ API 檔案首頁已經過改良，並重新導向不同的主題。[瞭解詳情
 
 與登錄頁面屬性相關的資訊已移入專用區段。[瞭解詳情](../../channels/using/configuring-landing-page.md)
 
-控制面板文件已整合到新的協作文件集中。[瞭解詳情](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/control-panel-home.html)
+控制面板文件已整合至新的共同作業文件集。[瞭解詳情](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/control-panel-home.html)
 
 **指標計算**&#x200B;表格已更新。[瞭解詳情](../../reporting/using/indicator-calculation.md)
 
@@ -216,7 +222,7 @@ API 檔案集已整合至 Campaign Standard 檔案。[瞭解詳情](../../api/us
 
 「建立個人化電子郵件快速入門」指南已移動並更新。[瞭解詳情](https://helpx.adobe.com/tw/campaign/kb/acs-get-started-with-emails.html)
 
-已更新「傳送最佳實務」快速入門手冊。[瞭解詳情](https://helpx.adobe.com/tw/campaign/kb/delivery-best-practices.html)
+更新「傳遞最佳實務快速入門手冊」。[瞭解詳情](https://helpx.adobe.com/tw/campaign/kb/delivery-best-practices.html)
 
 資料模型已整合至 Campaign Standard 檔案。[瞭解詳情](../../developing/using/datamodel-audience.md)
 
@@ -232,11 +238,11 @@ Microsoft Dynamics 365 整合 (GA) – [瞭解詳情](../../integrating/using/wo
 
 **此版本隨附的其他檔案更新**
 
-Campaign Standard 及 Campaign Classic 的錯誤訊息清單已更新。[瞭解詳情](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+Campaign Standard 及 Campaign Classic 的錯誤訊息清單已更新。[顯示全文](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
-GDPR 快速入門手冊已經改良並擴充。它現在是包含 GDPR 和 CCPA 的隱私權管理檔案。[瞭解詳情](https://helpx.adobe.com/content/help/tw/campaign/kb/campaign-privacy.html)
+改善並加強 GDPR 快速入門手冊。該手冊現在是包含 GDPR 及 CCPA 的隱私權管理文件。[瞭解詳情](https://helpx.adobe.com/content/help/tw/campaign/kb/campaign-privacy.html)
 
-已新增一個圖表，其中顯示交易式訊息發佈程式。[瞭解詳情](../../channels/using/about-transactional-messaging.md#transactional-messaging-pub-process)
+已新增一個圖表，其中顯示交易式訊息發佈程式。[瞭解詳情](../../administration/using/configuring-transactional-messaging.md#transactional-messaging-pub-process)
 
 「傳送最佳實務」快速入門手冊已移動並更新。[瞭解詳情](https://helpx.adobe.com/tw/campaign/kb/delivery-best-practices.html)
 
@@ -416,7 +422,7 @@ Dreamweaver　整合區段已更新並改良。[瞭解詳情](../../designing/us
 
 「編輯電子郵件內容」一章中已新增建立電子郵件內容的入門體驗，以及「電子郵件設計工具」的其他增強功能。[瞭解詳情](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page)
 
-已新增「交易傳訊」限制的區段。[瞭解詳情](../../channels/using/about-transactional-messaging.md#transactional-messaging-limitations)
+已新增「交易傳訊」限制的區段。[瞭解詳情](../../channels/using/transactional-messaging-limitations.md)
 
 已新增比較 Adobe Campaign 中不同電子郵件撰寫選項的區段。[瞭解詳情](../../designing/using/using-integrations.md#email-design-options-comparison)
 
@@ -822,7 +828,7 @@ Adobe Campaign 通知 – [瞭解詳情](../../administration/using/sending-inte
 
 現在有新技術可用：「將 Adobe Mobile SDK 與行動應用程式整合」。[瞭解詳情](https://helpx.adobe.com/tw/campaign/kb/integrate-mobile-sdk.html)
 
-已新增設定People核心服務或Audience Manager與Adobe Campaign整合的指示。 [詳細內容](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+已新增設定People核心服務或Audience Manager與Adobe Campaign整合的指示。 [顯示全文](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 修改授權表，使某些角色的功能更加清晰。[瞭解詳情](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
 
@@ -846,7 +852,7 @@ Dreamweaver 整合即時 – [瞭解詳情](https://docs.adobe.com/content/help/
 
 針對不同類型的 Adobe Campaign 使用者新增區段。[瞭解詳情](../../administration/using/users-management.md)
 
-已重新組織和擴展工作流程指南。Easily find how to [build](../../automating/using/building-a-workflow.md) and [execute](../../automating/using/about-workflow-execution.md) a workflow, how to [target](../../automating/using/about-targeting-activities.md) and [manage](../../automating/using/about-targeting-activities.md#enriching-data) your data, how to [import and export](../../automating/using/about-data-import-and-export.md) data, and how to use workflow data to update the database or to send deliveries.
+重新組織及擴充「工作流程手冊」。Easily find how to [build](../../automating/using/building-a-workflow.md) and [execute](../../automating/using/about-workflow-execution.md) a workflow, how to [target](../../automating/using/about-targeting-activities.md) and [manage](../../automating/using/about-targeting-activities.md#enriching-data) your data, how to [import and export](../../automating/using/about-data-import-and-export.md) data, and how to use workflow data to update the database or to send deliveries.
 
 現在動態報告可使用報告指標計算，包括完整說明和計算公式。[瞭解詳情](../../reporting/using/indicator-calculation.md)
 

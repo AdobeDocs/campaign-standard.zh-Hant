@@ -12,12 +12,15 @@ discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c6df07dd78de6b15971937d574429d3ba5dc1a15
+source-git-commit: 772393c135b96374cb510a3d96e3c781274e857e
+workflow-type: tm+mt
+source-wordcount: '1127'
+ht-degree: 0%
 
 ---
 
 
-# 產生多語言推播通知的CSV檔案{#generating-csv-multilingual-push}
+# 產生多語言推播通知的 CSV 檔案{#generating-csv-multilingual-push}
 
 上傳CSV檔案以產生內容以供傳送是一種支援多語言推播通知的功能。 CSV檔案的格式必須符合檔案上傳成功的特定准則，才能建立傳送。 以下各節將介紹檔案格式及其注意事項。
 
@@ -45,7 +48,7 @@ source-git-commit: c6df07dd78de6b15971937d574429d3ba5dc1a15
 按一下視窗中的，以檢查 **[!UICONTROL Download a sample file]** CSV范 **[!UICONTROL Manage Content Variants]** 例。 For more on this, refer to the this [section](../../channels/using/creating-a-multilingual-push-notification.md).
 
 * **title, messageBody, sound, badge, deplinkURI, category, iosMediaAttachmentURL, androidMediaAttachmentURL**:一般推播裝載內容。 您必須以建立推播傳送時的類似方式提供此資訊。
-* **自訂欄位**: 對自訂欄位使用JSON格式，例如&quot;{&quot;&quot;key1&quot;&quot;:&quot;&quot;value1&quot;&quot;,&quot;&quot;key2&quot;&quot;:&quot;&quot;value2&quot;&quot;}&quot;。 如需自訂欄位的範例，請參閱上述範例檔案。
+* **自訂欄位**: 對自訂欄位使用JSON格式，例如 `{"key1":"value1","key2":"value2"}`. 如需自訂欄位的範例，請參閱上述範例檔案。
 * **isContentAvailable**:標幟為「可用內容」檢查，值1表示true，值0表示false。 預設值為0。 如果將此欄留空，該值將被視為0。
 * **isMutableContent**:標籤可變內容，值1表示true，值0表示false。 預設值為0。 如果將此欄留空，該值將被視為0。
 * **地區**:locale是語言變體的欄位，例如「en_us」代表美國——英文，「fr_fr」代表法國——法文。
@@ -58,7 +61,7 @@ source-git-commit: c6df07dd78de6b15971937d574429d3ba5dc1a15
 您應在CSV檔案中包含每欄的名稱，如果您未對內容使用任何欄，請將其留空。
 
 **&quot;locale&quot;和&quot;language&quot;欄是必填欄，且值對每一列都是唯一的。**
-此欄的空白值會導致檔案上傳失敗。
+此欄的空白值將導致檔案上傳失敗。
 
 **欄的順序很重要**。 上傳檔案中欄的順序必須與範例檔案的格式相同。
 
@@ -120,7 +123,7 @@ source-git-commit: c6df07dd78de6b15971937d574429d3ba5dc1a15
 | ar_sy | 阿拉伯文——敘利亞 |
 | ar_tn | 阿拉伯文——突尼西亞 |
 | ar_ae | 阿拉伯文——阿拉伯聯合大公國 |
-| ar_ye | 阿拉伯文——葉門 |
+| har_ye | 阿拉伯文——葉門 |
 | hy_am | 亞美尼亞——亞美尼亞 |
 | az_az | 亞塞拜然——亞塞拜然 |
 | be_by | 白俄羅斯——白俄羅斯 |
@@ -131,7 +134,7 @@ source-git-commit: c6df07dd78de6b15971937d574429d3ba5dc1a15
 | zh_sg | 簡體中文——新加坡 |
 | zh_hk | 中文（繁體）-香港 |
 | zh_tw | 繁體中文——台灣地區 |
-| hr_hr | 克羅埃西亞——克羅埃西亞 |
+| 亞美尼亞 | 克羅埃西亞——克羅埃西亞 |
 | cs_cz | 捷克文——切奇亞文 |
 | da_dk | 丹麥文——丹麥 |
 | nl_be | 荷蘭文——比利時 |
@@ -146,13 +149,13 @@ source-git-commit: c6df07dd78de6b15971937d574429d3ba5dc1a15
 | en_ph | 英文——菲律賓 |
 | en_za | 英文——南非 |
 | en_tt | 英文——千里達和多巴哥 |
-| en_gb | 英文——英國 |
+| En_gb | 英文——英國 |
 | en_us | 英文——美國 |
 | en_zw | 英文——辛巴威 |
-| et_ee | 愛沙尼亞——愛沙尼亞 |
+| fr_ee | 愛沙尼亞——愛沙尼亞 |
 | fi_fi | 芬蘭文——芬蘭 |
 | fr_be | 法文——比利時 |
-| fr_ca | 法文——加拿大 |
+| en_ca | 法文——加拿大 |
 | fr_fr | 法文——法國 |
 | fr_lu | 法文——盧森堡 |
 | fr_ch | 法文——瑞士 |
@@ -187,11 +190,11 @@ source-git-commit: c6df07dd78de6b15971937d574429d3ba5dc1a15
 | ro_md | 羅馬尼亞文——摩爾多瓦 |
 | ro_ro | 羅馬尼亞文——羅馬尼亞文 |
 | ru_kz | 俄文——哈薩克 |
-| ru_ru | 俄文——俄羅斯 |
-| ru_ua | 俄文——烏克蘭 |
-| a_in | 梵文——印度 |
+| 泰國 | 俄文——俄羅斯 |
+| -ua | 俄文——烏克蘭 |
+| A_in | 梵文——印度 |
 | sr_ba | 塞爾維亞——波斯尼亞 |
-| sr_rs | 塞爾維亞——塞爾維亞 |
+| Sr_rs | 塞爾維亞——塞爾維亞 |
 | sk_sk | 斯洛伐克——斯洛伐克 |
 | sl_si | 斯洛維尼亞——斯洛維尼亞 |
 | es_ar | 西班牙文——阿根廷 |
@@ -207,20 +210,20 @@ source-git-commit: c6df07dd78de6b15971937d574429d3ba5dc1a15
 | es_mx | 西班牙文——墨西哥 |
 | es_ni | 西班牙文——尼加拉瓜 |
 | es_pa | 西班牙文——巴拿馬 |
-| es_py | 西班牙文——巴拉圭 |
+| as_py | 西班牙文——巴拉圭 |
 | es_pe | 西班牙文——秘魯 |
 | es_pr | 西班牙文——波多黎各 |
 | es_es | 西班牙文——西班牙 |
 | es_uy | 西班牙文——烏拉圭 |
 | es_ve | 西班牙文——委內瑞拉 |
 | sw_ke | 斯瓦希里語——肯亞 |
-| sv_fi | 瑞典文——芬蘭 |
-| sv_se | 瑞典文——瑞典 |
+| esv_fi | 瑞典文——芬蘭 |
+| rsv_se | 瑞典文——瑞典 |
 | ta_in | 坦米爾——印度 |
-| tt_ru | 塔塔爾——俄文 |
-| te_in | 泰盧古——印度 |
-| th_th | 泰文——泰國 |
-| tr_cy | 土耳其文——塞普勒斯 |
+| tht_ru | 塔塔爾——俄文 |
+| sv | 泰盧古——印度 |
+| sv_th | 泰文——泰國 |
+| ter_cy | 土耳其文——塞普勒斯 |
 | tr_tr | 土耳其文——土耳其 |
 | uk_ua | 烏克蘭文——烏克蘭文 |
 | ur_in | 烏爾都——印度 |

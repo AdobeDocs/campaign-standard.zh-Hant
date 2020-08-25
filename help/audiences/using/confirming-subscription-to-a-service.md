@@ -11,9 +11,9 @@ topic-tags: managing-subscriptions
 discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
 source-wordcount: '1322'
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 
 ### 步驟 1：建立確認電子郵件 {#step-1--create-the-confirmation-email-1}
 
-系統會自動傳送確認電子郵件給訂閱電子報的每個個人檔案（透過登錄頁面或任何其他方式）。會將訂閱視為事件，而電子郵件則是[交易式訊息](../../channels/using/about-transactional-messaging.md)，會將目標設為訂閱服務的每個設定檔。
+系統會自動傳送確認電子郵件給訂閱電子報的每個個人檔案（透過登錄頁面或任何其他方式）。會將訂閱視為事件，而電子郵件則是[交易式訊息](../../channels/using/getting-started-with-transactional-msg.md)，會將目標設為訂閱服務的每個設定檔。
 
 建立確認電子郵件的步驟如下。由於服務會參考交易式訊息，因此您需要先建立它。
 
@@ -135,13 +135,13 @@ ht-degree: 100%
 
 ### 步驟 1：建立確認電子郵件 {#step-1--create-the-confirmation-email-2}
 
-系統會透過登錄頁面，自動傳送確認電子郵件給訂閱電子報的每個個人檔案。會將訂閱視為事件，而電子郵件則是[交易式訊息](../../channels/using/about-transactional-messaging.md)，會將目標設為訂閱服務的每個設定檔。
+系統會透過登錄頁面，自動傳送確認電子郵件給訂閱電子報的每個個人檔案。會將訂閱視為事件，而電子郵件則是[交易式訊息](../../channels/using/getting-started-with-transactional-msg.md)，會將目標設為訂閱服務的每個設定檔。
 
 建立這些元素的步驟如下所述。由於登錄頁面會參考交易式訊息，因此您需要先建立它。
 
 #### 建立事件 {#create-the-event-2}
 
-確認電子郵件是一則[交易式訊息](../../channels/using/about-transactional-messaging.md)，當它回應事件時：訂閱服務。此訊息將會傳送以確認訂閱您的電子報。
+確認電子郵件是一則[交易式訊息](../../channels/using/getting-started-with-transactional-msg.md)，當它回應事件時：訂閱服務。此訊息將會傳送以確認訂閱您的電子報。
 
 1. 從 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]** 功能表建立事件，可從 Adobe Campaign 標誌存取。
 1. 輸入標籤，選取目標維度，然後按一下 **[!UICONTROL Create]**。

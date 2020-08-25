@@ -12,7 +12,10 @@ discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
+source-wordcount: '3059'
+ht-degree: 6%
 
 ---
 
@@ -27,18 +30,22 @@ source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
 >
 >配置會隨您要發送的事務性消息類型而有所不同。 有關詳細資訊，請參閱事務 [性事件特定配置](#transactional-event-specific-configurations)。
 
-一旦發佈事件，就會自動建立對應的交易訊息。 For more on transactional messaging, refer to [this page](../../channels/using/about-transactional-messaging.md).
+發佈事件後：
+
+* 網站開發人員將使用的API已部署，交易事件現在可以傳送。 請參 [閱整合網站中事件的觸發](#integrating-the-triggering-of-the-event-in-a-website)。
+
+* 自動建立相應的事務消息。 請參 [閱事務性訊息快速入門](../../channels/using/getting-started-with-transactional-msg.md)。
 
 ## 建立事件 {#creating-an-event}
 
 若要開始，請建立符合您需求的事件。
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >只有擔任組織 **[!UICONTROL Administration]** 單位角色和成員的 **[!UICONTROL All]** 用 [戶](../../administration/using/organizational-units.md) ，才具有建立事件配置的適當權限。
 
-1. 按一下 **[!UICONTROL Adobe Campaign]** 左上角的標誌，然後選取 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**。
-1. Click the **[!UICONTROL Create]** button.
+1. 按一下左上方的 **[!UICONTROL Adobe Campaign]** 標誌，然後選取「**[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**」。
+1. 按一下 **[!UICONTROL Create]** 按鈕。
 1. 為活 **[!UICONTROL Label]** 動做 **[!UICONTROL ID]** 一個和一個。 欄位 **[!UICONTROL ID]** 是必填欄位，開頭應為&quot;EVT&quot;。 如果您不使用此首碼，則會在您按一下後自動新增該首碼 **[!UICONTROL Create]**。
 
    ![](assets/message-center_1.png)
@@ -51,7 +58,7 @@ source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
 
    >[!NOTE]
    >
-   >每個事件設定只能使用一個頻道。 事件建立後，便無法變更渠道。
+   >每個事件設定只能使用一個通道。事件建立後，便無法變更通道。
 
 1. 選取與所需事件設定對應的定位維度，然後按一下 **[!UICONTROL Create]**。
 
@@ -59,11 +66,11 @@ source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
 
 >[!NOTE]
 >
->建立的即時事件數量可能會對您的平台造成影響。 為確保最佳效能，請務必刪除您不再需要的即時事件。 請參 [閱刪除事件](#deleting-an-event)。
+>建立的即時事件數量可能會對您的平台造成影響。 為確保最佳效能，請務必刪除您不再需要的即時事件。 See [Deleting an event](#deleting-an-event).
 
 ## 定義事件屬性 {#defining-the-event-attributes}
 
-在該節 **[!UICONTROL Fields]** 中，定義將整合到事件內容中的屬性，然後可用於個性化事務性消息。
+在該部 **[!UICONTROL Fields]** 分中，定義將整合到事件內容中的屬性，然後可用於個性化事務性消息。
 
 新增和修改欄位的步驟與自訂資源的步 [驟相同](../../developing/using/configuring-the-resource-s-data-structure.md#adding-fields-to-a-resource)。
 
@@ -79,7 +86,7 @@ source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
 
 此系列可用於交易式電子郵件中， [將產品清單新增至訊息內容](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message) ，例如產品清單——價格、參考編號、數量等。 清單的每個產品。
 
-1. 在區段 **[!UICONTROL Collections]** 中，按一下按 **[!UICONTROL Create element]** 鈕。
+1. In the **[!UICONTROL Collections]** section, click the **[!UICONTROL Create element]** button.
 
    ![](assets/message-center_collection_create.png)
 
@@ -105,7 +112,7 @@ source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
 **相關主題：**
 
 * [預覽和發佈事件](#previewing-and-publishing-the-event)
-* [在事務性消息中使用產品清單](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)
+* [在交易式訊息 ](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message) 中使用產品清單
 
 ## 豐富活動內容 {#enriching-the-transactional-message-content}
 
@@ -119,7 +126,7 @@ source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
 
 有關資源建立和發佈的詳細資訊，請參 [閱此頁](../../developing/using/key-steps-to-add-a-resource.md)。
 
-1. 在區段 **[!UICONTROL Enrichment]** 中，按一下按 **[!UICONTROL Create element]** 鈕。
+1. In the **[!UICONTROL Enrichment]** section, click the **[!UICONTROL Create element]** button.
 
    ![](assets/message-center_addenrichment.png)
 
@@ -127,7 +134,7 @@ source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
 
    ![](assets/message-center_new-enrichment.png)
 
-1. 使用按 **[!UICONTROL Create element]** 鈕，將選定資源中的欄位連結到先前添加到事件的其中一個欄位(請 [參閱定義事件屬性](#defining-the-event-attributes))。
+1. 使用按 **[!UICONTROL Create element]** 鈕，將選定資源中的欄位連結到您先前添加到事件的其中一個欄位(請 [參閱定義事件屬性](#defining-the-event-attributes))。
 
    ![](assets/message-center_enrichment-join.png)
 
@@ -135,7 +142,7 @@ source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
 
    ![](assets/message-center_enrichment-join-fields.png)
 
-   您也可以使用資源豐富事務性消息 **[!UICONTROL Service]** 內容。 如需服務的詳細資訊，請參閱本 [節](../../audiences/using/creating-a-service.md)。
+   您也可以使用資源豐富事務性消息 **[!UICONTROL Service]** 內容。 For more on services, see this [section](../../audiences/using/creating-a-service.md).
 
 1. 如果您要建立或編輯以描述檔為基礎的事件，請在區 **[!UICONTROL Targeting enrichment]** 段中，選取要在傳送執行期間用作訊息目標的擴充功能。
 
@@ -150,9 +157,9 @@ source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
 **相關主題：**
 
 * [預覽和發佈事件](#previewing-and-publishing-the-event)。
-* [個人化交易訊息](../../channels/using/event-transactional-messages.md#personalizing-a-transactional-message)。
+* [個人化交易式訊息](../../channels/using/event-transactional-messages.md#personalizing-a-transactional-message).
 
-## 預覽和發佈事件 {#previewing-and-publishing-the-event}
+## Previewing and publishing the event {#previewing-and-publishing-the-event}
 
 您必須先預覽並發佈事件，才能使用事件。
 
@@ -168,6 +175,8 @@ source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
 
    ![](assets/message-center_pub.png)
 
+   網站開發人員將使用的API已部署，交易事件現在可以傳送。
+
 1. 您可以在對應的頁籤中查看發佈日誌。
 
    ![](assets/message-center_logs.png)
@@ -182,7 +191,7 @@ source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
 
    ![](assets/message-center_messagegeneration.png)
 
-要觸發事件發送事務性消息，您必須修改並發佈剛建立的消息。 See [Event transactional messages](../../channels/using/event-transactional-messages.md).
+要觸發事件發送事務性消息，您必須修改並發佈剛建立的消息。 請參閱[事件交易式訊息](../../channels/using/event-transactional-messages.md)。
 
 您也必須將此觸發事件整合至您的網站。 請參 [閱整合網站中事件的觸發](#integrating-the-triggering-of-the-event-in-a-website)。
 
@@ -192,15 +201,21 @@ source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
 
 事件（以JSON格式）會從最新到最舊列出。 此清單可讓您檢查資料（例如內容或事件狀態），以利控制和除錯。
 
+### 交易式訊息發佈程序 {#transactional-messaging-pub-process}
+
+下圖說明了交易式訊息發佈程序。
+
+![](assets/message-center_pub-process.png)
+
 ### 取消發佈事件 {#unpublishing-an-event}
 
-按 **[!UICONTROL Unpublish]** 鈕可讓您取消事件的發佈，該發佈會從REST API中刪除與先前建立的事件對應的資源。 現在，即使事件是透過您的網站觸發，對應的訊息也不會再傳送，也不會儲存在資料庫中。
+按 **[!UICONTROL Unpublish]** 鈕可讓您取消事件的發佈，該發佈會從REST API中刪除與先前建立的事件對應的資源。 現在，即使事件是透過網站觸發，也不會再傳送相對應的訊息，也不會將之儲存在資料庫中。
 
 ![](assets/message-center_unpublish.png)
 
 >[!NOTE]
 >
->如果您已經發佈了相應的事務性消息，事務性消息發佈也將被取消。 請參 [閱取消發佈交易訊息](../../channels/using/event-transactional-messages.md#unpublishing-a-transactional-message)。
+>如果您已經發佈了相應的事務性消息，事務性消息發佈也將被取消。 See [Unpublishing a transactional message](../../channels/using/event-transactional-messages.md#unpublishing-a-transactional-message).
 
 按一下 **[!UICONTROL Publish]** 按鈕以產生新的REST API。
 
@@ -208,16 +223,16 @@ source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
 
 事件一經解除發佈，或事件尚未發佈後，您即可從事件設定清單中刪除。 操作步驟：
 
-1. 按一下 **[!UICONTROL Adobe Campaign]** 左上角的標誌，然後選取 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**。
+1. 按一下左上方的標誌 **[!UICONTROL Adobe Campaign]**，然後選取 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**。
 1. 將滑鼠指標暫留在您選擇的事件設定上，然後選取 **[!UICONTROL Delete element]** 按鈕。
 
    ![](assets/message-center_delete-button.png)
 
    >[!NOTE]
    >
-   >請確定事件設定具 **[!UICONTROL Draft]** 有狀態，否則您將無法刪除它。 狀 **[!UICONTROL Draft]** 態適用於尚未發佈或未發佈的事件 [](#unpublishing-an-event)。
+   >Make sure the event configuration has the **[!UICONTROL Draft]** status, otherwise you will not be able to delete it. The **[!UICONTROL Draft]** status applies to an event that has not been published yet or that has been [unpublished](#unpublishing-an-event).
 
-1. Click the **[!UICONTROL Confirm]** button.
+1. 按一下 **[!UICONTROL Confirm]** 按鈕。
 
    ![](assets/message-center_delete-confirm.png)
 
@@ -229,7 +244,7 @@ source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
 
 建立事件後，您必須將此事件的觸發整合至您的網站。
 
-在「交易式傳訊操作原則 [](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle) 」一節所述的範例中，您希望當客戶在購物車中購買產品之前離開您的網站時，觸發「購物車放棄」事件。 若要這麼做，您的網站網頁開發人員必須使用Adobe Campaign Standard REST API。
+在「交易式傳訊操作原則 [](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) 」一節所述的範例中，您希望當客戶在購物車中購買產品之前離開您的網站時，觸發「購物車放棄」事件。 若要這麼做，您的網站網頁開發人員必須使用Adobe Campaign Standard REST API。
 
 請參閱 [REST API檔案](../../api/using/managing-transactional-messages.md) 。
 
@@ -239,10 +254,10 @@ source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
 
 以下各節詳細介紹了根據所需事務性消息應設定哪些特定配置。 如需設定事件的一般步驟的詳細資訊，請參 [閱建立事件](#creating-an-event)。
 
-### 事件型交易訊息 {#event-based-transactional-messages}
+### Event-based transactional messages {#event-based-transactional-messages}
 
 若要傳送事件型交易訊息，您首先需要建立並設定事件，以事件本身所包含的資料為目標。
-如需詳細資訊，請參 [閱「參與交易訊息](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Managedatatofuelengagingexperiences)」。
+如需詳細資訊，請參 [閱「參與交易訊息](https://helpx.adobe.com/tw/campaign/kb/simplify-campaign-management.html#Managedatatofuelengagingexperiences)」。
 
 1. 建立事件設定時，請選取定 **[!UICONTROL Real-time event]** 位維度(請 [參閱建立事件](#creating-an-event))。
 1. 為事件添加欄位，以便能夠個性化事務性消息(請參 [閱定義事件屬性](#defining-the-event-attributes))。
@@ -250,7 +265,7 @@ source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
 
    >[!NOTE]
    >
-   >事件型交易訊息應僅使用傳送事件中的資料來定義收件者和訊息內容個人化。 不過，您可以使用Adobe Campaign資料庫的資訊，豐富您交易訊息的內容。
+   >事件型交易式訊息應僅使用傳送事件中的資料來定義收件者和訊息內容個人化。不過，您可以使用 Adobe Campaign 資料庫的資訊，豐富您交易式訊息的內容。
 
 1. 預覽並發佈事件(請參閱 [預覽和發佈事件](#previewing-and-publishing-the-event))。
 
@@ -260,13 +275,13 @@ source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
 
 1. 將事件整合至您的網站(請 [參閱整合網站中事件的觸發](#integrating-the-triggering-of-the-event-in-a-website))。
 
-### 基於配置檔案的事務性消息 {#profile-based-transactional-messages}
+### Profile-based transactional messages {#profile-based-transactional-messages}
 
 若要傳送以描述檔為基礎的交易訊息，您首先需要建立並設定Adobe Campaign資料庫中包含的事件定位資料。
 
 1. 建立事件設定時，請選取定 **[!UICONTROL Profile event]** 位維度(請 [參閱建立事件](#creating-an-event))。
 1. 為事件添加欄位，以便能夠個性化事務性消息(請參 [閱定義事件屬性](#defining-the-event-attributes))。 您必須至少添加一個欄位才能建立富集。 您不需要建立其他欄位，例如 **名字** 、 **姓氏** ，因為您可以使用Adobe Campaign資料庫中的個人化欄位。
-1. 建立擴充功能，以便將事件連結至資源(請參 **[!UICONTROL Profile]** 閱豐 [富交易訊息內容](#enriching-the-transactional-message-content))。 使用定位維度時，必須建立 **[!UICONTROL Profile]** 擴充。
+1. 建立擴充功能，以將事件連結至資源(請參 **[!UICONTROL Profile]** 閱豐 [富交易訊息內容](#enriching-the-transactional-message-content))。 使用定位維度時，必須建立 **[!UICONTROL Profile]** 擴充。
 1. 預覽並發佈事件(請參閱 [預覽和發佈事件](#previewing-and-publishing-the-event))。
 
    預覽事件時，REST API不包含指定從資源擷取電子郵件地址或行動電話的屬 **[!UICONTROL Profile]** 性。
@@ -277,14 +292,14 @@ source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
 
 ### 事件型交易推播通知 {#event-based-transactional-push-notifications}
 
-若要傳送交易推播通知，您必須據以設定Adobe Campaign。 請參 [閱推播設定](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)。
+若要傳送交易推播通知，您必須據以設定Adobe Campaign。 請參 [閱推播設定](https://helpx.adobe.com/tw/campaign/kb/configuring-app-sdkv4.html)。
 
 若要向所有選擇接收行動應用程式通知的使用者傳送匿名交易式推播通知，您首先需要建立並設定事件，以事件本身所包含的資料為目標。 相應步驟如下。
 
 事件必須包含下列三個元素：
 
 * 注 **冊Token**，是一個行動應用程式與一個裝置的使用者ID。 它可能不對應Adobe Campaign資料庫中的任何描述檔。
-* 行動 **應用程式名稱** （所有裝置皆可使用一個名稱- Android和iOS）。 這是Adobe Campaign中設定的行動應用程式ID，將用來接收使用者裝置上的推播通知。 For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
+* 行動 **應用程式名稱** （所有裝置皆可使用一個名稱- Android和iOS）。 這是Adobe Campaign中設定的行動應用程式ID，將用來接收使用者裝置上的推播通知。 For more on this, refer to this [page](https://helpx.adobe.com/tw/campaign/kb/configuring-app-sdkv4.html)
 * 推 **播平台** （Android為「gcm」,iOS為「apns」）。
 
 1. 建立事件設定時，請選取 **[!UICONTROL Mobile application]** 渠道和定 **[!UICONTROL Real-time event]** 位維度(請 [參閱建立事件](#creating-an-event))。
@@ -293,7 +308,7 @@ source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
 
    >[!NOTE]
    >
-   >事件型交易訊息應僅使用傳送事件中的資料來定義收件者和訊息內容個人化。 不過，您可以使用Adobe Campaign資料庫的資訊，豐富您交易訊息的內容。
+   >事件型交易式訊息應僅使用傳送事件中的資料來定義收件者和訊息內容個人化。不過，您可以使用 Adobe Campaign 資料庫的資訊，豐富您交易式訊息的內容。
 
 1. 預覽並發佈事件(請參閱 [預覽和發佈事件](#previewing-and-publishing-the-event))。
 
@@ -321,7 +336,7 @@ source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
    >
    >您必須至少添加一個欄位才能建立富集。 您不需要建立其他欄位，例如 **名字** 、 **姓氏** ，因為您可以使用Adobe Campaign資料庫中的個人化欄位。
 
-1. 建立擴充功能，以便將事件連結至資源(請參 **[!UICONTROL Profile]** 閱豐 [富交易訊息內容](#enriching-the-transactional-message-content))。 使用定位維度時，必須建立 **[!UICONTROL Profile]** 擴充。
+1. 建立擴充功能，以將事件連結至資源(請參 **[!UICONTROL Profile]** 閱豐 [富交易訊息內容](#enriching-the-transactional-message-content))。 使用定位維度時，必須建立 **[!UICONTROL Profile]** 擴充。
 1. 預覽並發佈事件(請參閱 [預覽和發佈事件](#previewing-and-publishing-the-event))。
 
    預覽事件時，REST API不包含指定註冊Token、應用程式名稱和推播平台的屬性，因為這些屬性將從資源中擷取 **[!UICONTROL Profile]** 。
@@ -332,9 +347,9 @@ source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
 
 ### 設定事件以傳送後續訊息 {#configuring-an-event-to-send-a-follow-up-message}
 
-後續訊息是預先定義的行銷傳送範本，可用於工作流程中，以傳送訊息給特定交易訊息的收件者。 如需詳細資訊，請參 [閱後續訊息](../../channels/using/follow-up-messages.md)。
+後續訊息是預先定義的行銷傳送範本，可用於工作流程中，以傳送訊息給特定交易訊息的收件者。 For more on this, see [Follow-up messages](../../channels/using/follow-up-messages.md).
 
-1. 使用您建立的事件設定來傳送事件交易訊息。 請參 [閱事件型交易訊息](#event-based-transactional-messages)。
+1. 使用您建立的事件設定來傳送事件交易訊息。 See [Event-based transactional messages](#event-based-transactional-messages).
 1. 設定事件時，請勾選方 **[!UICONTROL Create follow-up delivery template for this event]** 塊，再發佈事件。
 
    ![](assets/message-center_follow-up-checkbox.png)

@@ -13,7 +13,7 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 762700893c913d9aea884d00438c84b39a800188
+source-git-commit: fe9b2156a80f973045a2a7860dac4ac3a1d899e7
 workflow-type: tm+mt
 source-wordcount: '2478'
 ht-degree: 100%
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 您可以傳送目標定位事件的事件交易式訊息。此類交易式訊息不包含設定檔資訊：傳遞目標是由事件本身包含的資料所定義。
 
-一旦您建立並發佈事件（[如本節所述的購物車放棄率](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle)）後，就會自動建立對應的交易式訊息。
+一旦您建立並發佈事件（[如本節所述的購物車放棄率](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)）後，就會自動建立對應的交易式訊息。
 
 設定步驟顯示在「[設定事件以發送交易式訊息](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message)」一節。
 
@@ -63,7 +63,7 @@ ht-degree: 100%
 
    ![](assets/message-center_5.png)
 
-### 在交易式訊息 外部建立測試設定檔{#creating-a-test-profile-outside-the-transactional-----------message}
+### 在交易式訊息 {#creating-a-test-profile-outside-the-transactional-----------message} 外部建立測試設定檔
 
 您也可以建立新的測試設定檔，或是使用 **[!UICONTROL Test profiles]** 功能表中已存在的測試設定檔。
 
@@ -118,7 +118,7 @@ ht-degree: 100%
 
    您可以檢查個人化欄位是否符合在測試設定檔中輸入的資訊。如需詳細資訊，請參閱[在交易式訊息中定義測試設定檔](#defining-a-test-profile-in-a-transactional-message)。
 
-## 在交易式訊息 中使用產品清單{#using-product-listings-in-a-transactional-message}
+## 在交易式訊息 {#using-product-listings-in-a-transactional-message} 中使用產品清單
 
 您可以建立產品清單，以參考交易式電子郵件內容中的一或多個資料集合。例如，在購物車放棄率電子郵件中，您可以包含使用者離開網站時購物車中的所有產品清單，其中會包含每個產品的影像、價格及其連結。
 

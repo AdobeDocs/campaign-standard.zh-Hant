@@ -1,18 +1,21 @@
 ---
 title: 使用 Point of Interest 資料個人化 Campaign 訊息
 description: 瞭解如何透過興趣點資料整合，根據訂閱者的位置建立個人化訊息。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: d74c3e55-f130-441b-bc2a-06ddcd5d9784
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 整合
-content-type: 參考
-topic-tags: 使用促銷活動和分析功能以建立行動裝置
+audience: integrating
+content-type: reference
+topic-tags: working-with-campaign-and-analytics-for-mobile
 discoiquuid: a1736ba3-5121-4d01-bf04-ebb7e701e2e0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
+source-wordcount: '260'
+ht-degree: 10%
 
 ---
 
@@ -21,7 +24,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 在Adobe Campaign中，您可以使用從行動應用程式用戶收集到的地標資料，傳送個人化行銷訊息，例如電子郵件。
 
-您只能對興趣點資料與標準傳送進行回應。 [事務性消息](../../channels/using/about-transactional-messaging.md) 無法使用位置資料。
+您只能對興趣點資料與標準傳送進行回應。 [事務性消息](../../channels/using/getting-started-with-transactional-msg.md) 無法使用位置資料。
 
 你最早能做出反應的時間是10分鐘。
 
@@ -34,7 +37,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    「定義觀眾」區段中會詳細 [說明管理觀](../../audiences/using/creating-audiences.md) 眾。
 
-1. 在視窗 **[!UICONTROL Add a rule - Profile/Subscriptions to an application]** 中，將元素拖放 **[!UICONTROL POI Location Subscription]** 至工作區中。
+1. In the **[!UICONTROL Add a rule - Profile/Subscriptions to an application]** window, drag and drop the **[!UICONTROL POI Location Subscription]** element into the workspace.
 
    ![](assets/poi_add_rule_profile_subscription.png)
 
@@ -42,10 +45,10 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    ![](assets/poi_location_subscription.png)
 
-1. 在欄位 **[!UICONTROL Filter type]** 中，選擇 **[!UICONTROL Relative]**。
+1. 在 **[!UICONTROL Filter type]** 欄位中，選取 **[!UICONTROL Relative]**。
 1. 選中該 **[!UICONTROL Preceding days]** 選項並在 **[!UICONTROL 15]** 相應欄位中輸入。
 1. 定義使用者必須瀏覽地標的次數。
-1. 按一 **[!UICONTROL Confirm]** 下以儲存您的觀眾。
+1. Click **[!UICONTROL Confirm]** to save your audience.
 
    ![](assets/poi_subscriptions_app_audience_defined.png)
 

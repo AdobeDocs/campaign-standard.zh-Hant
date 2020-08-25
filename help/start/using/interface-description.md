@@ -11,9 +11,9 @@ topic-tags: discovering-the-interface
 discoiquuid: dafd9860-cd22-4c30-86b7-631b64db7b3f
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 40bb454d13de14658bfc30a6454a1a896bf3ad70
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
 source-wordcount: '1144'
 ht-degree: 100%
 
@@ -83,7 +83,7 @@ Adobe Campaign 可讓您導覽不同的功能表和畫面，以管理您的行�
 * **[!UICONTROL Marketing activities]** - 如需詳細資訊，請參閱[行銷活動清單](../../start/using/marketing-activities.md#about-marketing-activities)區段。
 * **[!UICONTROL Programs & Campaigns]** - 如需此項目詳細資訊，請參閱[方案清單](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns)區段。
 * **[!UICONTROL Timeline]** - 如需詳細資訊，請參閱[時間表](../../start/using/timeline.md)區段。
-* **[!UICONTROL Transactional messages]**，其中包含子功能表 **[!UICONTROL Deliveries]** 和 **[!UICONTROL Event configuration]** - 如需詳細資訊，請參閱[交易式訊息](../../channels/using/about-transactional-messaging.md)。
+* **[!UICONTROL Transactional messages]**，其中包含子功能表 **[!UICONTROL Deliveries]** 和 **[!UICONTROL Event configuration]** - 如需詳細資訊，請參閱[交易式訊息](../../channels/using/getting-started-with-transactional-msg.md)。
 
 ### 設定檔與對象 {#profiles-e-audiences}
 

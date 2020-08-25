@@ -13,7 +13,10 @@ context-tags: delivery,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 80f6a384e99a7cebbe5c570f3273eceb393fd9b0
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
+source-wordcount: '598'
+ht-degree: 4%
 
 ---
 
@@ -49,7 +52,7 @@ source-git-commit: 80f6a384e99a7cebbe5c570f3273eceb393fd9b0
 
    如需校樣的詳細資訊，請參 [閱傳送校樣](../../sending/using/sending-proofs.md)。
 
-* **[!UICONTROL Send a test]**:可讓您選取要使用的核准模式：或 **[!UICONTROL Email rendering]**&#x200B;兩者 **[!UICONTROL Proof]** 皆適用。 如需測試設定檔的詳細資訊，請參 [閱傳送校樣](../../sending/using/sending-proofs.md)。
+* **[!UICONTROL Send a test]**:可讓您選取要使用的核准模式： **[!UICONTROL Email rendering]**、 **[!UICONTROL Proof]** 或兩者皆適用。 如需測試設定檔的詳細資訊，請參 [閱傳送校樣](../../sending/using/sending-proofs.md)。
 
    只有在您建立測試設定檔後，才會啟用此按鈕。
 
@@ -61,7 +64,7 @@ source-git-commit: 80f6a384e99a7cebbe5c570f3273eceb393fd9b0
 
    有關消息準備的詳細信 [息，請準備發送](../../sending/using/preparing-the-send.md)。
 
-* **[!UICONTROL Confirm send]**:確認傳送訊息。 傳送統計資料會出現在區塊 **[!UICONTROL Deployment]** 中。 此按鈕只會在傳送準備完成後顯示。 您可以隨時使用「停止傳送」和按鈕來停 **止或暫停****[!UICONTROL Pause]** 傳送。
+* **[!UICONTROL Confirm send]**:確認傳送訊息。 傳送統計資料會出現在區塊 **[!UICONTROL Deployment]** 中。 此按鈕只會在傳送準備完成後顯示。 您可以隨時使用「停止傳送」和按鈕來停止 **或暫停****[!UICONTROL Pause]** 傳送。
 
    有關確認發送的詳細資訊，請參 [閱發送消息](../../sending/using/confirming-the-send.md)。
 
@@ -71,8 +74,8 @@ source-git-commit: 80f6a384e99a7cebbe5c570f3273eceb393fd9b0
 
 ![](assets/delivery_dashboard_3.png)
 
-* **[!UICONTROL Deployment]**:可讓您追蹤訊息準備或傳送的進度。 按一下此區塊右下方區段中的按鈕，以存取傳送和分析記錄檔。 只有在準備好傳送後，才會顯示此區塊。 有關此事的更多資訊。 請參閱 [確認傳送](../../sending/using/confirming-the-send.md)。
-* **[!UICONTROL Audience]**:可讓您建立訊息的主要目標以及測試設定檔。 請參閱 [建立觀眾](../../audiences/using/creating-audiences.md)。
+* **[!UICONTROL Deployment]**:可讓您追蹤訊息準備或傳送的進度。 按一下此區塊右下方區段中的按鈕，以存取傳送和分析記錄檔。 只有在準備好傳送後，才會顯示此區塊。 有關此事的更多資訊。 See [Confirming send](../../sending/using/confirming-the-send.md).
+* **[!UICONTROL Audience]**:可讓您建立訊息的主要目標以及測試設定檔。 請參閱[建立對象](../../audiences/using/creating-audiences.md)。
 * **[!UICONTROL Schedule]**:可讓您指定訊息傳送的日期。 請參閱 [排程](../../sending/using/about-scheduling-messages.md)。
 * **[!UICONTROL Content]**:可讓您定義訊息的內容並加以預覽。 See [Key steps to send a message](../../channels/using/key-steps-to-send-a-message.md).
 
@@ -86,7 +89,7 @@ source-git-commit: 80f6a384e99a7cebbe5c570f3273eceb393fd9b0
 
 * *&quot;SMTP測試模式選項已為此電子郵件啟用：不會傳送任何訊息。」*
 
-   For more on this, see [this section](../../administration/using/configuring-email-channel.md#smtp-test-mode).
+   如需詳細資訊，請參閱[本區段](../../administration/using/configuring-email-channel.md#smtp-test-mode)。
 
 * *&quot;路由外部帳戶已禁用。&quot;*
 
@@ -98,8 +101,8 @@ source-git-commit: 80f6a384e99a7cebbe5c570f3273eceb393fd9b0
 
 * *「這是現成可用的交易訊息範本。 如果要修改它，您必須複製它並處理副本。」*
 
-   其中一些現成可用的交易訊息範本是內建的登陸頁面範本。 For more on this, see [this section](../../channels/using/landing-page-templates.md).
+   其中一些現成可用的交易訊息範本是內建的登陸頁面範本。 如需詳細資訊，請參閱[本區段](../../channels/using/landing-page-templates.md)。
 
 * *「此訊息是技術交易訊息範本。 您無法修改或發佈它。」*
 
-   此警告會顯示在不可編輯的空事務性消息模板中。 有關事務性消息的詳細資訊，請參 [閱本節](../../channels/using/about-transactional-messaging.md)。
+   此警告會顯示在不可編輯的空事務性消息模板中。 For more on transactional messages, see [this section](../../channels/using/getting-started-with-transactional-msg.md).

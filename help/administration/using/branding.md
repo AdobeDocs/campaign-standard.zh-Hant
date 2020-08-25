@@ -12,9 +12,9 @@ discoiquuid: cbb1dcec-3bc6-4013-87fa-27d0e5d32bf8
 context-tags: branding,overview;branding,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e18407ab4bf70caa417b16bbc645fd2c6ba1818b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
 source-wordcount: '983'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ ht-degree: 100%
 >
 >一般使用者不能建立或修改品牌：這些操作必須由 Adobe Campaign 技術管理員執行。如需任何請求，請與 Adobe 客戶服務聯繫。
 >
->無法在交易式訊息的內容中使用多品牌推廣。如需詳細資訊，請參閱[交易式訊息與品牌推廣](../../channels/using/about-transactional-messaging.md#permissions-and-branding)。
+>無法在交易式訊息的內容中使用多品牌推廣。如需詳細資訊，請參閱[交易式訊息與品牌推廣](../../channels/using/transactional-messaging-limitations.md#permissions-and-branding)。
 
 可以在 **[!UICONTROL Administration > Instance settings > Brand configuration]** 功能表中找到品牌。
 
@@ -67,6 +67,7 @@ ht-degree: 100%
    * 使用客戶可回覆的電子郵件地址&#x200B;**回覆（電子郵件地址）**。
    * 使用品牌名稱&#x200B;**回覆（姓名）**。
    * 使用的電子郵件有錯誤&#x200B;**的錯誤（電子郵件地址）**。
+
    >[!IMPORTANT]
    >
    >更新電子郵件的標題參數後，如果在範本建立的電子郵件中寄件者的姓名與電子郵件地址未更改時，請檢查範本的進階設定。
@@ -78,6 +79,7 @@ ht-degree: 100%
    * **應用程式伺服器的外部 URL** 用於託管及存取您建立的不同登錄頁面 ，
    * **追蹤伺服器的外部 URL** 在傳遞期間為追蹤的 URL。
    * **鏡像頁面伺服器的外部 URL** 在傳遞期間為預設鏡像頁面。
+
    >[!NOTE]
    >
    >若要在 Campaign 使用者介面中顯示登入頁面預覽與鏡像頁面呈現，應用程式伺服器和鏡像頁面伺服器 URL 必須是安全的。在此情況下，在設定這些 URL 時，請使用 https://，而不是 http://。

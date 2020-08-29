@@ -51,7 +51,7 @@ ht-degree: 96%
 
    ![](assets/typology-rule-label.png)
 
-1. 指定類型規則 **[!UICONTROL Type]**，然後視需要進行設定。請注意，類型規則設定視其類型而異。如需詳細資訊，請參閱&#x200B;**[篩選規則](../../sending/using/filtering-rules.md)**及**[&#x200B;疲勞規則](../../sending/using/fatigue-rules.md)**章節。
+1. 指定類型規則 **[!UICONTROL Type]**，然後視需要進行設定。請注意，類型規則設定視其類型而異。如需詳細資訊，請參閱&#x200B;**[篩選規則](../../sending/using/filtering-rules.md)**&#x200B;及&#x200B;**[疲勞規則](../../sending/using/fatigue-rules.md)**&#x200B;章節。
 
 1. 選取您要包含新規則的類型。要執行此操作，請選取 **[!UICONTROL Typologies]** 標籤，然後按一下 **[!UICONTROL Create element]** 按鈕。
 
@@ -72,7 +72,7 @@ ht-degree: 96%
 1. 控制規則（如果這些規則是在定位開始時套用）。
 1. 篩選規則：
 
-   * 地址限定的原生應用程式規則： 塊清單上的已定義地址／未驗證地址／地址／隔離地址／地址質量。
+   * 地址限定的原生應用程式規則：塊清單上的已定義地址／未驗證地址／地址／隔離地址／地址質量。
    * 篩選由使用者定義的規則。
 
 1. 控制規則（如果這些規則是在定位結束時套用）。

@@ -47,7 +47,7 @@ ht-degree: 99%
 
 **相關主題：**
 
-* [使用案例： 將電子郵件與直效郵件傳送結合](../../automating/using/coupling-email-direct-mail.md)
+* [使用案例：將電子郵件與直效郵件傳送結合](../../automating/using/coupling-email-direct-mail.md)
 * [關於直接郵件](../../channels/using/about-direct-mail.md)
 
 ## 設定 {#configuration}

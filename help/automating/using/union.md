@@ -39,7 +39,7 @@ ht-degree: 98%
 
 **相關主題：**
 
-* [使用案例： 結合兩個精美受眾](../../automating/using/union-on-two-refined-audiences.md)
+* [使用案例：結合兩個精美受眾](../../automating/using/union-on-two-refined-audiences.md)
 
 ## 設定 {#configuration}
 

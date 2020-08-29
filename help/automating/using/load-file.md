@@ -48,10 +48,10 @@ ht-degree: 93%
 
 **相關主題：**
 
-* [使用案例： 使用外部資料更新資料庫](../../automating/using/update-database-file.md)
-* [使用案例： 根據自動檔案下載更新資料](../../automating/using/update-data-automatic-download.md)
-* [使用案例： 傳送包含豐富欄位的電子郵件](../../automating/using/sending-email-enriched-fields.md)
-* [使用案例： 協調檔案對象與資料庫](../../automating/using/reconcile-file-audience-with-database.md)
+* [使用案例：使用外部資料更新資料庫](../../automating/using/update-database-file.md)
+* [使用案例：根據自動檔案下載更新資料](../../automating/using/update-data-automatic-download.md)
+* [使用案例：傳送包含豐富欄位的電子郵件](../../automating/using/sending-email-enriched-fields.md)
+* [使用案例：協調檔案對象與資料庫](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## 設定 {#configuration}
 

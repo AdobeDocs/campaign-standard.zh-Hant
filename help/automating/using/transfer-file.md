@@ -41,7 +41,7 @@ ht-degree: 99%
 
 **相關主題：**
 
-* [使用案例： 根據自動檔案下載更新資料](../../automating/using/update-data-automatic-download.md)
+* [使用案例：根據自動檔案下載更新資料](../../automating/using/update-data-automatic-download.md)
 
 ## 設定 {#configuration}
 

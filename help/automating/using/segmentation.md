@@ -34,9 +34,9 @@ ht-degree: 94%
 >依預設，入站母體的成員只能屬於單一分段。篩選會根據活動中分段的順序套用。
 
 **相關主題：**
-* [使用案例： 區段位置](../../automating/using/workflow-segmentation-location.md)
-* [使用案例： 建立控制群組](../../automating/using/workflow-control-group.md)
-* [使用案例： 根據年齡組劃分](../../automating/using/segmentation-age-groups.md)
+* [使用案例：區段位置](../../automating/using/workflow-segmentation-location.md)
+* [使用案例：建立控制群組](../../automating/using/workflow-control-group.md)
+* [使用案例：根據年齡組劃分](../../automating/using/segmentation-age-groups.md)
 
 ## 使用內容 {#context-of-use}
 
@@ -44,7 +44,7 @@ ht-degree: 94%
 
 **相關主題**
 
-* [使用案例： 根據個人檔案的年齡群組劃分個人檔案](../../automating/using/segmentation-age-groups.md)。
+* [使用案例：根據個人檔案的年齡群組劃分個人檔案](../../automating/using/segmentation-age-groups.md)。
 
 ## 設定 {#configuration}
 

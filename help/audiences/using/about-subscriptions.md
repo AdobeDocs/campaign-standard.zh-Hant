@@ -36,6 +36,6 @@ Adobe Campaign可讓您透過一組服務來建立和管理電子報和跨通道
 
 **相關主題**
 
-* [使用案例： 對服務訂戶的增量查詢](../../automating/using/incremental-query-on-subscribers.md)
-* [使用案例： 從檔案更新多個訂閱狀態](../../automating/using/updating-subscriptions-from-file.md)
+* [使用案例：對服務訂戶的增量查詢](../../automating/using/incremental-query-on-subscribers.md)
+* [使用案例：從檔案更新多個訂閱狀態](../../automating/using/updating-subscriptions-from-file.md)
 * [在匯入檔案後將描述檔訂閱至特定服務](../../automating/using/subscribing-profiles-from-file.md)

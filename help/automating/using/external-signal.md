@@ -45,8 +45,8 @@ ht-degree: 96%
 
 **相關主題**
 
-* [使用案例： 外部信號活動和資料導入](../../automating/using/external-signal-data-import.md)。
-* [使用案例： 呼叫工作流程，以使用外部參數從檔案建立觀眾](../../automating/using/calling-a-workflow-with-external-parameters.md#use-case)
+* [使用案例：外部信號活動和資料導入](../../automating/using/external-signal-data-import.md)。
+* [使用案例：呼叫工作流程，以使用外部參數從檔案建立觀眾](../../automating/using/calling-a-workflow-with-external-parameters.md#use-case)
 
 ## 設定 {#configuration}
 

@@ -41,8 +41,8 @@ ht-degree: 97%
 
 **相關主題：**
 
-* [使用案例： 在描述檔建立日期建立傳送](../../automating/using/workflow-creation-date-query.md)
-* [使用案例： 建立每週二傳送的電子郵件](../../automating/using/workflow-weekly-offer.md)
+* [使用案例：在描述檔建立日期建立傳送](../../automating/using/workflow-creation-date-query.md)
+* [使用案例：建立每週二傳送的電子郵件](../../automating/using/workflow-weekly-offer.md)
 
 ## 設定 {#configuration}
 

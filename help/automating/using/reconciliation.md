@@ -51,9 +51,9 @@ ht-degree: 95%
 
 **相關主題：**
 
-* [使用案例： 使用關係進行資料協調](../../automating/using/reconciliation-using-relations.md)
-* [使用案例： 使用協調功能更新資料](../../automating/using/data-update-reconciliation.md)
-* [使用案例： 協調檔案對象與資料庫](../../automating/using/reconcile-file-audience-with-database.md)
+* [使用案例：使用關係進行資料協調](../../automating/using/reconciliation-using-relations.md)
+* [使用案例：使用協調功能更新資料](../../automating/using/data-update-reconciliation.md)
+* [使用案例：協調檔案對象與資料庫](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## 設定 {#configuration}
 

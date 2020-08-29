@@ -51,7 +51,7 @@ ht-degree: 94%
 * [使用案例：建立依位置分段的傳送](../../automating/using/workflow-segmentation-location.md)
 * [使用案例：建立具備輔助功能的傳送](../../automating/using/workflow-created-query-with-complement.md)
 * [使用案例：重新定位傳送新傳送給非開啟者的工作流程](../../automating/using/workflow-cross-channel-retargeting.md)
-* [使用案例： 生日寄送](../../automating/using/birthday-delivery.md)
+* [使用案例：生日遞送](../../automating/using/birthday-delivery.md)
 
 ## 設定 {#configuration}
 

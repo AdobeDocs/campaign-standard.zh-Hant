@@ -13,9 +13,9 @@ context-tags: deliveryHotClicksReport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: 694fd5802578001ba80b35f0983a068a0a630dd0
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 * 預設情況下，每月只對事務性消息執行一次，而且每次編輯並再次發佈事務性消息時。
 
-   有關事務性消息的詳細資訊，請參 [閱關於事務性消息](../../channels/using/getting-started-with-transactional-msg.md)。
+   有關事務性消息的詳細資訊，請參 [閱事務性消息快速入門](../../channels/using/getting-started-with-transactional-msg.md)。
 
 >[!NOTE]
 >

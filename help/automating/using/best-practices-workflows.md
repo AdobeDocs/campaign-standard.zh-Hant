@@ -11,11 +11,11 @@ topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
-workflow-type: ht
-source-wordcount: '1046'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 51e98bb6212ad96d9c11b848df9dcad25b3f1b61
+workflow-type: tm+mt
+source-wordcount: '1039'
+ht-degree: 98%
 
 ---
 
@@ -109,7 +109,7 @@ ht-degree: 100%
 
 ## 使用參數呼叫工作流程{#workflow-with-parameters}
 
-請確定參數的名稱和數目與呼叫工作流程時所定義的相同（請參閱[呼叫工作流程時定義參數](../../automating/using/calling-a-workflow-with-external-parameters.md#defining-the-parameters-when-calling-the-workflow))。參數的類型也必須與預期值一致。
+請確定參數的名稱和數目與呼叫工作流程時所定義的參數相同(請參閱 [](../../automating/using/defining-parameters-calling-workflow.md)。 參數的類型也必須與預期值一致。
 
 請確定所有參數都已在　**[!UICONTROL External signal activity]**　中宣告。否則，執行活動時將發生錯誤。
 

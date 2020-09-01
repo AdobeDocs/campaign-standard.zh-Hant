@@ -12,11 +12,11 @@ discoiquuid: 4375153c-0621-4d4c-bfcc-66d157f04f6c
 context-tags: queryFilter,overview;audience,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
-workflow-type: ht
-source-wordcount: '1091'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 51e98bb6212ad96d9c11b848df9dcad25b3f1b61
+workflow-type: tm+mt
+source-wordcount: '1092'
+ht-degree: 98%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 此模式可讓您使用進階功能。這些函式可讓您控制用於執行特定查詢的值，例如控制日期、字串、數值欄位、排序等。
 
-編輯運算式時也可以使用事件變數。如需詳細資訊，請參閱[使用事件變數自訂活動](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables)區段。
+編輯運算式時也可以使用工作流程的事件變數。 如需詳細資訊，請參閱[使用事件變數自訂活動](../../automating/using/customizing-workflow-external-parameters.md)區段。
 
 您可以編輯運算式，以：
 
@@ -51,13 +51,14 @@ ht-degree: 100%
    * 定義運算式的輸入欄位。
    * 可用欄位清單，可用於運算式中，並對應至查詢的定位維度(請參閱[定位維度和資源](../../automating/using/query.md#targeting-dimensions-and-resources))。
    * 可用函式的清單，按類別排序。
+
    ![](assets/expression_editor_1.png)
 
 1. 直接在對應欄位中輸入運算式，或使用可用欄位和函式清單來編輯運算式。
 
    按兩下某個欄位或運算式將其新增到游標所在的運算式中。
 
-   您可使用工作流程的事件變數來建立運算式。如需詳細資訊，請參閱[使用事件變數自訂活動](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables)區段。
+   您可使用工作流程的事件變數來建立運算式。如需詳細資訊，請參閱[使用事件變數自訂活動](../../automating/using/customizing-workflow-external-parameters.md)區段。
 
 1. 視需要為規則指定特定名稱。輸入的名稱將作為規則名稱顯示在查詢編輯器工作區中。
 
@@ -79,6 +80,7 @@ ht-degree: 100%
    * **&lt;value1>** 是一個欄位或函式。例如，**@created** 適用於建立設定檔的日期，或是 **Year(@created)** 適用於建立設定檔的年份。
    * **&lt;comparison operator>** 是[「比較」運算子](../../automating/using/advanced-expression-editing.md#comparison-operators)區段中所列的運算子。此運算子定義 **&lt;value1>** 及 **&lt;value2>** 之間的比較方法。
    * **&lt;value2>** 是手動輸入的欄位、函式或值。
+
    >[!NOTE]
    >
    >**&lt;value1>** 及 **&lt;value2>** 類型資料必須相同。例如，如果 **&lt;value1>** 是日期，則 **&lt;value2>** 也必須是日期。
@@ -107,6 +109,7 @@ JavaScript 運算式由一或多個條件組成，並使用下列語法元素：
    * **&lt;context>** 是可讓您指定上下文的欄位或函式。例如，**context.profile.@email** 適用於設定檔的電子郵件地址，或者 **context.profile.firstName.length()** 適用於設定檔名字的字元數。
    * **&lt;comparison operator>** 是[「比較」運算子](../../automating/using/advanced-expression-editing.md#comparison-operators)區段中所列的運算子。此運算子定義 **&lt;context>** 及 **&lt;value2>** 之間的比較方法。
    * **&lt;value2>** 是手動輸入的欄位、函式或值。
+
    >[!NOTE]
    **&lt;context>** 及 **&lt;value2>** 類型資料必須相同。例如，如果 **&lt;context>** 是日期，則 **&lt;value2>** 也必須是日期。
 

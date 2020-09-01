@@ -4,10 +4,10 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard 說明
 translation-type: tm+mt
-source-git-commit: 7a647878a711777dffd83a8f8dccacf9d9238ba6
+source-git-commit: 3cb37426410eeb8be04c9c75afa4505894b15140
 workflow-type: tm+mt
-source-wordcount: '1569'
-ht-degree: 88%
+source-wordcount: '1596'
+ht-degree: 86%
 
 ---
 
@@ -251,7 +251,12 @@ ht-degree: 88%
       + [監控工作流程執行](automating/using/monitoring-workflow-execution.md)
       + [管理執行選項](automating/using/managing-execution-options.md)
       + [管理活動的屬性](automating/using/activity-properties.md)
-   + [使用外部參數呼叫工作流程](automating/using/calling-a-workflow-with-external-parameters.md)
+   + 使用外部參數呼叫工作流程 {#calling-workflow-external-parameters}
+      + [在「外部信號」活動中聲明參數](automating/using/declaring-parameters-external-signal.md)
+      + [在調用工作流時定義參數](automating/using/defining-parameters-calling-workflow.md)
+      + [監控事件變數](automating/using/monitoring-events-variables.md)
+      + [使用外部參數自訂工作流程](automating/using/customizing-workflow-external-parameters.md)
+      + [使用案例](automating/using/use-case-calling-workflow.md)
    + 目標定位活動 {#targeting-activities}
       + [關於目標定位活動](automating/using/about-targeting-activities.md)
       + [查詢](automating/using/query.md)

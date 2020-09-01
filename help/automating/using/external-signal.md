@@ -13,10 +13,10 @@ context-tags: signal,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 16afc307df6902584624d6457954a472b11c5129
+source-git-commit: 3cb37426410eeb8be04c9c75afa4505894b15140
 workflow-type: tm+mt
 source-wordcount: '600'
-ht-degree: 96%
+ht-degree: 93%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 96%
 **相關主題**
 
 * [使用案例：外部信號活動和資料導入](../../automating/using/external-signal-data-import.md)。
-* [使用案例：呼叫工作流程，以使用外部參數從檔案建立觀眾](../../automating/using/calling-a-workflow-with-external-parameters.md#use-case)
+* [使用案例：呼叫工作流程，以使用外部參數從檔案建立觀眾](../../automating/using/use-case-calling-workflow.md)
 
 ## 設定 {#configuration}
 
@@ -56,7 +56,7 @@ ht-degree: 96%
 1. 選取活動，然後使用所顯示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
 1. 編輯活動的標籤。設定觸發 **[!UICONTROL External signal]** 的來源工作流程時需要此標籤。
 
-   如果要使用參數呼叫工作流程，請使用 **[!UICONTROL Parameters]** 區域來進行宣告。如需詳細資訊，請參閱[本區段](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity)。
+   如果要使用參數呼叫工作流程，請使用 **[!UICONTROL Parameters]** 區域來進行宣告。For more on this, refer to this section: [](../../automating/using/declaring-parameters-external-signal.md).
 
    ![](assets/external_signal_configuration.png)
 
@@ -78,7 +78,7 @@ ht-degree: 96%
 
    當您設定 **[!UICONTROL End]** 活動以觸發另一個工作流程時，其圖示會以其他訊號符號更新。
 
-   如果要使用參數呼叫工作流程，請使用 **[!UICONTROL Parameters and values]** 區域。如需詳細資訊，請參閱[本區段](../../automating/using/calling-a-workflow-with-external-parameters.md#defining-the-parameters-when-calling-the-workflow)。
+   如果要使用參數呼叫工作流程，請使用 **[!UICONTROL Parameters and values]** 區域。For more on this, refer to this section: [](../../automating/using/defining-parameters-calling-workflow.md).
 
    ![](assets/external_signal_end.png)
 

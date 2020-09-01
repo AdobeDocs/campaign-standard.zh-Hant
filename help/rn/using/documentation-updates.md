@@ -12,10 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b588366b0697d9cf7aea77b7c9c8ec876b9e0579
+source-git-commit: cbc9114b1179fe6fc0f87a9b9b55397ef60d3cb9
 workflow-type: tm+mt
-source-wordcount: '6119'
-ht-degree: 95%
+source-wordcount: '6144'
+ht-degree: 94%
 
 ---
 
@@ -24,11 +24,17 @@ ht-degree: 95%
 
 除了 Adobe Campaign [發行版本](../../rn/using/release-notes.md)以外，本頁還列出 Adobe Campaign Standard 檔案中的所有新更新。
 
+## 檔案更新 – 2020 年 9 月{#doc-updates-september-2020}
+
+「事件事務性訊息」區段已重新組織並釐清。 [顯示全文](../../channels/using/event-transactional-messages.md)
+
 ## 檔案更新 – 2020 年 8 月 {#doc-updates-august-2020}
 
 現在提供有關交易式訊息快速入門的新更新章節。 [顯示全文](../../channels/using/getting-started-with-transactional-msg.md)
 
 已移動「事務性消息傳送限制」部分。 [顯示全文](../../channels/using/transactional-messaging-limitations.md)
+
+「準備傳送」區段已移動。 [顯示全文](../../sending/using/preparing-the-send.md)
 
 ## 檔案更新 – 2020 年 7 月 {#doc-updates-july-2020}
 

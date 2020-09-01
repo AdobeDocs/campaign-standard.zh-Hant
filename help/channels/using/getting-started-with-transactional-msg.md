@@ -13,10 +13,10 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 434be1d237e1ce5bd47552d371d2df4670e82f44
+source-git-commit: 429142610b969f3bd1460a8ba401c7e83acb7dea
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 28%
+source-wordcount: '753'
+ht-degree: 27%
 
 ---
 
@@ -81,7 +81,7 @@ Adobe Campaign 提供兩種類型的交易式訊息：
 <td><p><ul><li>它們不包含描述檔資訊。</li><li>它們與疲勞規 <a href="../../sending/using/fatigue-rules.md">則不相容</a> （即使是具有輪廓的富集）。</li><li>傳送目標是由事件本身所包含的資料所定義。</li></ul></p></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_profile.svg" width="60px"><br><a href="../../channels/using/profile-transactional-messages.md"><p>Profile transactional messages</a><br>targeting <b>profiles from the Adobe Campaign marketing database</b></p></td>
+<td align="center"><img src="assets/do-not-localize/icon_profile.svg" width="60px"><br><p><a href="../../channels/using/profile-transactional-messages.md">從Adobe Campaign行</a><br>銷資料 <b>庫設定檔交易訊息收集設定檔</b></p></td>
 <td><p>配置檔案事務性消息允許您：<ul><li>套用行銷類型學規則，例如 <b>區塊清單上的位址</b><a href="../../sending/using/fatigue-rules.md">或疲勞規則</a>。</li><li>在訊息中包含取消訂閱連結。</li><li>將交易式訊息新增至全域傳送報告。</li><li>在客戶歷程中善用交易式訊息。</li></ul></p></td>
 </tr>
 </table>
@@ -106,39 +106,67 @@ Adobe Campaign 可讓您傳送通知電子郵件給已將產品新增至購物�
 
 ### 步驟1 —— 建立和發佈事件設定 {#create-event-configuration}
 
-<img src="assets/do-not-localize/icon_config.svg" width="60px">
+<!--<img src="assets/do-not-localize/icon_config.svg" width="60px">
 
-設定將命名為「購物車放棄」的事件，並發佈此事件設定。
+Configure an event that will be named "Cart abandonment" and publish this event configuration.
 
-網站開發人員將會使用的API會部署，並自動建立交易訊息。
+The API that will be used by your website developer is deployed and a transactional message is automatically created.-->
+
+<table>
+<tr>
+<td align="center"><img src="assets/do-not-localize/icon_config.svg" width="60px"><br><p>設定將命名為「購物車放棄」的事件，並發佈此事件設定。</p></td>
+<td>網站開發人員將會使用的API會部署，並自動建立交易訊息。</td>
+</tr>
+</table>
 
 在[設定事件以傳送事件交易式訊息](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message)區段中會顯示建立和發佈事件。
 
 ### 步驟2 —— 編輯和發佈交易訊息 {#create-transactional-message}
 
-<img src="assets/do-not-localize/icon_transactional.svg" width="60px">
+<!--<img src="assets/do-not-localize/icon_transactional.svg" width="60px">
 
-編輯並個人化交易訊息、進行測試，然後發佈。
+Edit and personalize the transactional message, test it, and then publish it.-->
+
+<table>
+<tr>
+<td align="center"><img src="assets/do-not-localize/icon_notification.svg" width="45px"><br><p>編輯並個人化交易訊息、進行測試，然後發佈。</p></td>
+<td>事務性消息隨後將準備好發送。</td>
+</tr>
+</table>
 
 For more on editing and publishing a transactional message, see [Event transactional messages](../../channels/using/event-transactional-messages.md).
 
 ### 步驟3 —— 整合事件觸發 {#integrate-event-trigger}
 
-<img src="assets/do-not-localize/icon_api.svg" width="60px">
+<!--<img src="assets/do-not-localize/icon_api.svg" width="60px">
 
-使用REST Transactional Messages API將事件整合到您的網站。
+Use the REST Transactional Messages API to integrate the event into your website.
 
-當客戶放棄購物車時，會觸發事件。
+The event will be triggered when a client abandons their cart.-->
+
+<table>
+<tr>
+<td align="center"><img src="assets/do-not-localize/icon_api.svg" width="60px"><br><p>使用REST Transactional Messages API將事件整合到您的網站。</p></td>
+<td>當客戶放棄購物車時，會觸發事件。</td>
+</tr>
+</table>
 
 如需將事件整合至網站的詳細資訊，請參閱網 [站整合](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)。
 
 ### 步驟4 —— 訊息傳送 {#message-delivery}
 
-<!--Once all of these steps have been carried out, the message can be delivered:-->
+<!--Once all of these steps have been carried out, the message can be delivered:
 
 <img src="assets/do-not-localize/icon_notification.svg" width="40px">
 
-當使用者離開網站而未在購物車中訂購產品時，他們會自動收到通知電子郵件。
+As soon as a user leaves the site without ordering the products in their cart, they automatically receive a notification email.-->
+
+<table>
+<tr>
+<td align="center"><img src="assets/do-not-localize/icon_channels.svg" width="60px"><br><p>完成所有這些步驟後，即可傳送訊息。</p></td>
+<td>當使用者離開網站而未在購物車中訂購產品時，他們會自動收到通知電子郵件。</td>
+</tr>
+</table>
 
 ## 關鍵步驟 {#key-steps}
 

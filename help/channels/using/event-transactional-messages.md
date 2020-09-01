@@ -13,10 +13,10 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fe9b2156a80f973045a2a7860dac4ac3a1d899e7
+source-git-commit: e8f8755acdc0b778b74e2bfcd4dc898ceff82b90
 workflow-type: tm+mt
-source-wordcount: '2478'
-ht-degree: 100%
+source-wordcount: '2492'
+ht-degree: 93%
 
 ---
 
@@ -29,58 +29,26 @@ ht-degree: 100%
 
 設定步驟顯示在「[設定事件以發送交易式訊息](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message)」一節。
 
-為了讓事件觸發傳送交易式訊息，您必須個人化訊息，然後再測試之後發佈訊息。
-
 >[!NOTE]
->
->您必須是 **[!UICONTROL Administrators (all units)]** 安全群組的成員，才能存取交易式訊息。
 >
 >事件交易式訊息不包含設定檔資訊，因此它們與疲勞規則不相容（即使在設定檔擴充的情況下亦然）。請參閱[疲勞規則](../../sending/using/fatigue-rules.md#choosing-the-channel)。
 
-## 在交易式訊息中定義測試設定檔 {#defining-a-test-profile-in-a-transactional-message}
+為了讓事件觸發傳送交易式訊息，您必須個人化訊息，然後再測試之後發佈訊息。
 
-定義已調整的測試設定檔，這可讓您預覽訊息並傳送校樣以進行檢查。
+## 訪問事務性消息 {#accessing-transactional-messages}
 
-### 在交易式訊息中建立測試設定檔 {#creating-a-test-profile-within-the-transactional-----------message}
+要訪問您建立的事務性消息，請執行以下操作：
 
-1. 若要存取您建立的訊息，請按一下左上方的標誌 **[!UICONTROL Adobe Campaign]**，然後選取「**[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**」。
+1. Click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner.
+1. Select **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
 
    ![](assets/message-center_4.png)
 
-1. 建立將連結至您事件的測試設定檔。
+1. 按一下您選擇的訊息以進行編輯。
 
-   ![](assets/message-center_test-profile.png)
-
-1. 在 **[!UICONTROL Event data used for personalization]** 區段中指定要以 JSON 格式傳送的資訊。這是預覽訊息與測試設定檔收到校樣時，將會使用的內容。
-
-   ![](assets/message-center_event-data.png)
-
-   >[!NOTE]
-   >
-   >您也可以輸入與設定檔表格相關的資訊。請參閱 [豐富交易式訊息內容](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content)。
-
-1. 建立之後，會在交易式訊息中預先指定測試設定檔。按一下訊息的 **[!UICONTROL Test profiles]** 區塊以檢查您的校樣目標。
-
-   ![](assets/message-center_5.png)
-
-### 在交易式訊息 外部建立測試設定檔{#creating-a-test-profile-outside-the-transactional-----------message}
-
-您也可以建立新的測試設定檔，或是使用 **[!UICONTROL Test profiles]** 功能表中已存在的測試設定檔。
-
-1. 按一下左上方的標誌 **[!UICONTROL Adobe Campaign]**，然後選取 **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**。
-1. 在您選取之測試設定檔頁面的 **[!UICONTROL Event]** 區段中，選取您剛剛建立的事件。在此範例中，選取「購物車放棄率 (EVTcartAbandonment)」。
-1. 在 **[!UICONTROL Event data]** 文字方塊中指定要以 JSON 格式傳送的資訊。
-
-   ![](assets/message-center_3.png)
-
-1. 儲存您的變更。
-
-您現在可以存取您所建立的訊息，並選取已更新的測試設定檔。
-
-**相關主題：**
-
-* [管理測試設定檔](../../audiences/using/managing-test-profiles.md)
-* [定義對象](../../audiences/using/creating-audiences.md)
+>[!IMPORTANT]
+>
+>您必須是 **[!UICONTROL Administrators (all units)]** 安全群組的成員，才能存取交易式訊息。
 
 ## 個人化交易式訊息 {#personalizing-a-transactional-message}
 
@@ -118,7 +86,7 @@ ht-degree: 100%
 
    您可以檢查個人化欄位是否符合在測試設定檔中輸入的資訊。如需詳細資訊，請參閱[在交易式訊息中定義測試設定檔](#defining-a-test-profile-in-a-transactional-message)。
 
-## 在交易式訊息 中使用產品清單{#using-product-listings-in-a-transactional-message}
+## 在交易式訊息 {#using-product-listings-in-a-transactional-message} 中使用產品清單
 
 您可以建立產品清單，以參考交易式電子郵件內容中的一或多個資料集合。例如，在購物車放棄率電子郵件中，您可以包含使用者離開網站時購物車中的所有產品清單，其中會包含每個產品的影像、價格及其連結。
 
@@ -240,7 +208,47 @@ ht-degree: 100%
 
 ## 測試交易式訊息 {#testing-a-transactional-message}
 
-儲存交易式訊息之後，您現在就能傳送校樣加以測試。
+您首先需要建立特定的測試設定檔，以便正確檢查交易訊息。
+
+### 定義特定測試設定檔 {#defining-specific-test-profile}
+
+定義將連結至您事件的測試設定檔，讓您預覽訊息並傳送相關證明。
+
+1. From the transactional message dashboard, click the **[!UICONTROL Create test profile]** button.
+
+   ![](assets/message-center_test-profile.png)
+
+1. 在 **[!UICONTROL Event data used for personalization]** 區段中指定要以 JSON 格式傳送的資訊。這是預覽訊息與測試設定檔收到校樣時，將會使用的內容。
+
+   ![](assets/message-center_event-data.png)
+
+   >[!NOTE]
+   >
+   >您也可以輸入與設定檔表格相關的資訊。請參閱 [豐富交易式訊息內容](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content)。
+
+1. 建立後，測試描述檔將預先指定在交易訊息中。 按一下訊息的 **[!UICONTROL Test profiles]** 區塊以檢查您的校樣目標。
+
+   ![](assets/message-center_5.png)
+
+您也可以建立新的測試設定檔，或是使用 **[!UICONTROL Test profiles]** 功能表中已存在的測試設定檔。操作步驟：
+
+1. 按一下左上方的標誌 **[!UICONTROL Adobe Campaign]**，然後選取 **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**。
+1. 在區段 **[!UICONTROL Event]** 中，選取您剛建立的事件。 在此範例中，選取「購物車放棄率 (EVTcartAbandonment)」。
+1. 在 **[!UICONTROL Event data]** 文字方塊中指定要以 JSON 格式傳送的資訊。
+
+   ![](assets/message-center_3.png)
+
+1. 儲存您的變更。
+1. 存取您建立的訊息，並選取更新的測試設定檔。
+
+**相關主題：**
+
+* [管理測試設定檔](../../audiences/using/managing-test-profiles.md)
+* [定義對象](../../audiences/using/creating-audiences.md)
+
+### 傳送證明 {#sending-proof}
+
+建立一或多個特定測試設定檔並儲存交易訊息後，您就可以傳送測試證明。
 
 ![](assets/message-center_10.png)
 
@@ -258,7 +266,7 @@ ht-degree: 100%
 
 ![](assets/message-center_13.png)
 
-## 暫停交易式訊息發佈 {#suspending-a-transactional-message-publication}
+### 暫停交易式訊息發佈 {#suspending-a-transactional-message-publication}
 
 您可以使用　**[!UICONTROL Pause]**　按鈕以暫停發佈交易式訊息，例如，修改訊息中所包含的資料。因此，系統將不會再處理這些事件，而會將之保留在 Adobe Campaign 資料庫的佇列中。
 
@@ -268,7 +276,7 @@ ht-degree: 100%
 
 按一下　**[!UICONTROL Resume]**　時，則會處理所有佇列的事件（前提是這些事件並未過期）。它們現在會包含暫停範本發佈時進行的所有修改。
 
-## 取消發佈交易式訊息 {#unpublishing-a-transactional-message}
+### 取消發佈交易式訊息 {#unpublishing-a-transactional-message}
 
 按一下 **[!UICONTROL Unpublish]** 可讓您取消交易式訊息發佈，同時也可取消相對應事件的發佈，這會從與　REST API（與您先前建立之事件相對應的資源）刪除。
 
@@ -286,7 +294,7 @@ ht-degree: 100%
 
 可透過 **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Workflows]** 存取每天凌晨 4:00 執行的工作流程 **[!UICONTROL Database cleanup]**。
 
-## 刪除交易式訊息 {#deleting-a-transactional-message}
+### 刪除交易式訊息 {#deleting-a-transactional-message}
 
 在取消發佈交易式訊息之後，或尚未發佈交易式訊息時，您可以從交易式訊息清單中刪除該訊息。操作步驟：
 
@@ -333,9 +341,9 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->將事件指派給執行傳送時，其會顯示在此執行傳遞的傳送日誌中，而且只有在這個時候才會顯示。失敗的傳送會顯示在交易式訊息的 **[!UICONTROL Execution list]** 標籤中。
+>將事件指派給執行傳送時，其會顯示在此執行傳遞的傳送日誌中，而且只有在這個時候才會顯示。The failed deliveries are displayed in the **[!UICONTROL Execution list]** tab of the transactional message sending logs.
 
-### 限制 {#limitations}
+### 重試流程限制 {#limitations}
 
 **傳送日誌更新**
 

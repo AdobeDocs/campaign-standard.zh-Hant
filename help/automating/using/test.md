@@ -12,11 +12,11 @@ discoiquuid: 2650bf1f-0bce-4049-a226-2369f6666b95
 context-tags: jstest,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
-workflow-type: ht
-source-wordcount: '176'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 51e98bb6212ad96d9c11b848df9dcad25b3f1b61
+workflow-type: tm+mt
+source-wordcount: '170'
+ht-degree: 91%
 
 ---
 
@@ -52,11 +52,10 @@ ht-degree: 100%
 
    編輯 **[!UICONTROL Condition]** 欄位時，兩個按鈕可提供呼叫事件變數及編輯結合變數和函式的運算式的協助：
 
-   * ![](assets/extsignal_picker.png)：在工作流程中可用的所有變數中選取事件變數（請參閱[使用外部參數](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-a-workflow-with-external-parameters)自訂工作流程）
+   * ![](assets/extsignal_picker.png):在工作流程中可用的所有變數中選取事件變數(請參閱 [](../../automating/using/customizing-workflow-external-parameters.md))
 
       ![](assets/wkf_test_activity_variables.png)
 
    * ![](assets/extsignal_expression_editor.png)：編輯結合變數和函式的運算式。如需運算式編輯器的詳細資訊，請參考[本區段](../../automating/using/advanced-expression-editing.md)。
 
       ![](assets/wkf_test_activity_variables_expression.png)
-

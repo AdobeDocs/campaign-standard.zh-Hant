@@ -13,10 +13,10 @@ context-tags: query,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
+source-git-commit: 3cb37426410eeb8be04c9c75afa4505894b15140
 workflow-type: tm+mt
-source-wordcount: '1725'
-ht-degree: 98%
+source-wordcount: '1720'
+ht-degree: 97%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 98%
 
 1. 在 **[!UICONTROL Transition]** 索引標籤，**[!UICONTROL Enable an outbound transition]** 選項可讓您在查詢活動後新增出站轉變，即使它未擷取任何資料亦然。
 
-   使用標準運算式和事件變數可個人化出站轉變的區段代碼(請參閱[使用事件變數自訂活動](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables))。
+   The outbound transition&#39;s segment code can be personalized using a standard expression and events variables (see [](../../automating/using/customizing-workflow-external-parameters.md)).
 
 1. 確認活動的設定並儲存工作流程。
 

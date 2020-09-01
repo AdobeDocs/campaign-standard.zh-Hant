@@ -12,9 +12,9 @@ discoiquuid: 2590d94c-51ef-4c0f-b1ec-c2837e94da40
 context-tags: typology,overview;typologyRule,main;typologyRule,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: ba1fcca02ce9582d85e57bde815ccf3f551ac7a3
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 4c5fbb5e879bad114c4ca421cd2970f2ba5a3d50
+workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 100%
 
@@ -71,7 +71,7 @@ ht-degree: 100%
 
 1. 存取訊息屬性。請注意，可從 **[!UICONTROL Resources]** > **[!UICONTROL Templates]** 導覽功能表存取訊息範本。
 
-1. 在 **[!UICONTROL Advanced parameters]** > **[!UICONTROL Prearation]** 區段中，選取要連結至訊息的類型。
+1. 在 **[!UICONTROL Advanced parameters]** > **[!UICONTROL Preparation]** 區段中，選取要連結至訊息的類型。
 
    ![](assets/typology_message.png)
 

@@ -13,7 +13,7 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 429142610b969f3bd1460a8ba401c7e83acb7dea
+source-git-commit: 07adae5bac947df794520e48361fd3c20eba5ff8
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 27%
@@ -28,7 +28,12 @@ ht-degree: 27%
 
 <img src="assets/do-not-localize/icon_transactional.svg" width="60px">
 
-交易式訊息可讓您 <b>即時傳送個別和獨特的訊息</b> ，給客戶。 可以是歡迎訊息、訂購發運確認、密碼修改等。
+<table>
+<tr>
+<td ><br><p>交易式訊息可讓您 <b>即時傳送個別和獨特的訊息</b> ，給客戶。</p></td>
+<td>可以是歡迎訊息、訂購發運確認、密碼修改等。</td>
+</tr>
+</table>
 
 Adobe Campaign可讓您將這項功能與資訊系統整合，該資訊系統會傳送要轉換為自訂交易訊息的事件。
 
@@ -112,9 +117,11 @@ Configure an event that will be named "Cart abandonment" and publish this event 
 
 The API that will be used by your website developer is deployed and a transactional message is automatically created.-->
 
+<img src="assets/do-not-localize/icon_config.svg" width="60px">
+
 <table>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_config.svg" width="60px"><br><p>設定將命名為「購物車放棄」的事件，並發佈此事件設定。</p></td>
+<td><br><p>設定將命名為「購物車放棄」的事件，並發佈此事件設定。</p></td>
 <td>網站開發人員將會使用的API會部署，並自動建立交易訊息。</td>
 </tr>
 </table>
@@ -127,9 +134,11 @@ The API that will be used by your website developer is deployed and a transactio
 
 Edit and personalize the transactional message, test it, and then publish it.-->
 
+<img src="assets/do-not-localize/icon_notification.svg" width="45px">
+
 <table>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_notification.svg" width="45px"><br><p>編輯並個人化交易訊息、進行測試，然後發佈。</p></td>
+<td><br><p>編輯並個人化交易訊息、進行測試，然後發佈。</p></td>
 <td>事務性消息隨後將準備好發送。</td>
 </tr>
 </table>
@@ -144,9 +153,11 @@ Use the REST Transactional Messages API to integrate the event into your website
 
 The event will be triggered when a client abandons their cart.-->
 
+<img src="assets/do-not-localize/icon_api.svg" width="60px">
+
 <table>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_api.svg" width="60px"><br><p>使用REST Transactional Messages API將事件整合到您的網站。</p></td>
+<td><br><p>使用REST Transactional Messages API將事件整合到您的網站。</p></td>
 <td>當客戶放棄購物車時，會觸發事件。</td>
 </tr>
 </table>
@@ -161,9 +172,11 @@ The event will be triggered when a client abandons their cart.-->
 
 As soon as a user leaves the site without ordering the products in their cart, they automatically receive a notification email.-->
 
+<img src="assets/do-not-localize/icon_channels.svg" width="60px">
+
 <table>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_channels.svg" width="60px"><br><p>完成所有這些步驟後，即可傳送訊息。</p></td>
+<td><br><p>完成所有這些步驟後，即可傳送訊息。</p></td>
 <td>當使用者離開網站而未在購物車中訂購產品時，他們會自動收到通知電子郵件。</td>
 </tr>
 </table>

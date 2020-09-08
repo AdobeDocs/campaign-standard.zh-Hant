@@ -12,15 +12,15 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2b04a5efdde3153d3ede0ad8bc4f56cd4a5fa1df
+source-git-commit: 87f65e6225f7f22ab347aac33ea9d769af299030
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 1%
+source-wordcount: '491'
+ht-degree: 2%
 
 ---
 
 
-# Why use Campaign Standard APIs {#why-using-campaign-standard-apis}
+# 為何使用 Campaign Standard API {#why-using-campaign-standard-apis}
 
 Adobe Campaign Standard提供API，可讓現有系統與ACS平台整合，以即時解決實際問題。
 
@@ -65,7 +65,7 @@ Adobe Campaign Standard提供API，可讓現有系統與ACS平台整合，以即
 
    ![alt text](assets/postman_collection.png)
 
-1. 選擇「 **建立描述檔****** 」請求，然後使用您自己的資訊(&lt;ORGANIZATION>、&lt;API_KEY>、&lt;ACCESS_TOKEN>)更新「貼文」請求和「標題」標籤。 如需詳細資訊，請參閱[本區段](../../api/using/setting-up-api-access.md)。
+1. 選擇「 **建立描述檔****** 」請求，然後使用您自己的資訊(&lt;ORGANIZATION>、&lt;API_KEY>、&lt;ACCESS_TOKEN>)更新「貼文」請求和「標題」標籤。 如需詳細資訊，請參閱[本章節](../../api/using/setting-up-api-access.md)。
 
    ![alt text](assets/postman_uc1.png)
 

@@ -13,10 +13,10 @@ context-tags: delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
 source-wordcount: '1727'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -431,7 +431,7 @@ ht-degree: 0%
          <td>枚舉（位元組） </td>
          <td>
             <ul>
-               <li>塊清單——塊清單- 3</li>
+               <li>黑名單——黑名單- 3</li>
                <li>無特定動作——無- 0</li>
                <li>取消訂閱——取消訂閱- 2</li>
                <li>無效值- __Invalid_value__ - __Invalid_value__</li>
@@ -592,10 +592,10 @@ ht-degree: 0%
                <li>(GMT+13:00)努庫阿洛法——太平洋_通加塔普——太平洋／通加塔普</li>
                <li>(GMT-06:00)中美洲——美國_里賈納——美國／里賈納</li>
                <li>(GMT-03:00)布宜諾斯艾利斯，卡宴，福塔雷薩——美洲_布宜諾斯艾利斯——美洲／布宜諾斯艾利斯</li>
-               <li>(GMT-07:00)落基山（美國和加拿大）-美國_丹佛——美國／丹佛</li>
+               <li>(GMT-07:00)洛基山（美國和加拿大）-美國_丹佛——美國／丹佛</li>
                <li>(GMT+01:00)中非——西——非洲_羅安達——非洲／羅安達</li>
                <li>(GMT+02:00)赫爾辛基，基輔，里加，索非亞，塔林，維爾紐斯——歐洲_赫爾辛基——歐洲／赫爾辛基</li>
-               <li>(GMT)格林威治標準時間： 都柏林、愛丁堡、里斯本、倫敦——歐洲_倫敦——歐洲／倫敦</li>
+               <li>(GMT)格林威治標準時間：都柏林、愛丁堡、里斯本、倫敦——歐洲_倫敦——歐洲／倫敦</li>
                <li>(GMT-07:00)亞利桑那——美國鳳凰城——美國／鳳凰城</li>
                <li>(GMT+02:00)貝魯特——亞洲_貝魯特——亞洲／貝魯特</li>
                <li>(GMT+04:30)喀布爾——亞洲_喀布爾——亞洲／喀布爾</li>
@@ -636,7 +636,7 @@ ht-degree: 0%
             <ul>
                <li>一般——一般- 0</li>
                <li>取消訂閱服務——取消訂閱- 3</li>
-               <li>塊清單——塊清單- 4</li>
+               <li>黑名單——黑名單- 4</li>
                <li>無效值- __Invalid_value__ - __Invalid_value__</li>
                <li>收購——收購- 1</li>
                <li>訂閱服務——訂閱- 2</li>

@@ -12,10 +12,10 @@ discoiquuid: 7ddaf36c-74e6-4501-b3eb-3d03f005aaa6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7f5bc442b1dae467a6b6de3e048531940f75031f
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 1%
+source-wordcount: '650'
+ht-degree: 3%
 
 ---
 
@@ -28,10 +28,10 @@ ht-degree: 1%
 
 下表提供現成可用篩選規則及其相關渠道的相關資訊。
 
-| 標籤 | 頻道 | 說明 |
+| 標籤 | 通道 | 說明 |
 ---------|----------|---------
 | **[!UICONTROL Address not specified]** | 全部 | 排除沒有指定地址（電子郵件、郵遞區號等）的目標人口。 )。 |
-| **[!UICONTROL Blocklisted address]** | 全部 | 排除塊清單中的地址。 |
+| **[!UICONTROL Denylisted address]** | 全部 | 排除位於密尼清單中的地址。 |
 | **[!UICONTROL Duplicate]** | 全部 | 根據目標人口欄位排除復 **[!UICONTROL Address]** 本。 |
 | **[!UICONTROL Exclude mobile applications]** | 行動應用程式 | 排除不符合訊息中定義之行動應用程式的應用程式訂閱。 |
 | **[!UICONTROL Exclude mobile applications for In-App]** | 應用程式內 | 排除不符合訊息（應用程式內範本）中定義之行動應用程式的應用程式訂閱。 |
@@ -47,13 +47,13 @@ ht-degree: 1%
 
 在電子郵件分析期間，這些規則會比較收件者電子郵件地址與傳送能力例項中管理之加密全域隱藏清單中所包含之禁止地址或網域名稱。 如果有相符項目，則不會傳送訊息給該收件者。
 
-這是為了避免由於惡意活動（尤其是使用Spamtrap）而添加到阻止清單。 例如，如果使用Spamtrap來透過您的其中一個Web表單訂閱，系統會自動傳送確認電子郵件給該Spamtrap，如此會自動將您的位址新增至封鎖清單。
+這是為了避免由於惡意活動（尤其是使用Spamtrap）而被拒絕列出。 例如，如果使用Spamtrap來透過您的其中一個Web表單進行訂閱，系統會自動傳送確認電子郵件給該Spamtrap，這會導致您的位址自動新增至密文清單。
 
 >[!NOTE]
 >
 >全局隱藏清單中包含的地址和域名將被隱藏。 傳送分析記錄中只會指出已排除的收件者數目。
 
-## 建立篩選規則 {#creating-a-filtering-rule}
+## Creating a filtering rule {#creating-a-filtering-rule}
 
 您可以根據自己的需求建立自己的篩選規則。 例如，您可以篩選電子報的目標人口，讓18歲以下的訂閱者永遠無法收到通訊。
 
@@ -91,11 +91,11 @@ ht-degree: 1%
 
 若要這麼做，請開啟排版規則的屬性，然後存取該 **[!UICONTROL Advanced information]** 區段。
 
-依預設，會對進行篩選 **[!UICONTROL Profiles]**。 例如，如果規則針對行動應用程式，則 **[!UICONTROL Filtering dimension]** 可變更為 **[!UICONTROL Subscriptions to an application]**。
+By default, filtering is carried out on the **[!UICONTROL Profiles]**. 例如，如果規則針對行動應用程式，則 **[!UICONTROL Filtering dimension]** 可變更為 **[!UICONTROL Subscriptions to an application]**。
 
 ![](assets/typology_rule-order_2.png)
 
-## 限制篩選規則的適用性 {#restricting-the-applicability-of-a-filtering-rule}
+## Restricting the applicability of a filtering rule {#restricting-the-applicability-of-a-filtering-rule}
 
 您可以根據要傳送的訊息限制篩選規則的適用性。
 

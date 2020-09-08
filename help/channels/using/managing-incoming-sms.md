@@ -13,10 +13,10 @@ delivercontext-tags: delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 1%
+source-wordcount: '594'
+ht-degree: 7%
 
 ---
 
@@ -25,13 +25,13 @@ ht-degree: 1%
 
 ## 管理停止SMS {#managing-stop-sms}
 
-當描述檔回覆透過「促銷活動」傳送的SMS訊息時，您可以設定自動傳回給他的訊息，以及要執行的動作。
+當描述檔回覆透過 Campaign 傳送的 SMS 訊息時，您可以設定自動傳回給他的訊息，以及要執行的動作。
 
 此配置在SMS路由外 **[!UICONTROL Automatic reply sent to the MO]** 部帳戶的 [部分中定義](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)。 MO代表「Mobile Surced」，這表示您可以設定自動回覆給傳送SMS的行動裝置。
 
 若要這麼做：
 
-1. 從進階功能表，透過Adobe Campaign標誌，選擇 **[!UICONTROL Administration > Application settings > External accounts]** 外部 **[!UICONTROL SMS routing via SMPP]** 帳戶。
+1. From the advanced menu, via the Adobe Campaign logo, select **[!UICONTROL Administration > Application settings > External accounts]** then the **[!UICONTROL SMS routing via SMPP]** external account.
 1. 在類別 **[!UICONTROL Automatic reply sent to the MO]** 下，按一 **[!UICONTROL Create element]** 下以開始設定自動回覆。
 
    ![](assets/sms_mo_1.png)
@@ -57,7 +57,8 @@ ht-degree: 1%
    * 該操 **[!UICONTROL Send to quarantine]** 作會自動隔離配置檔案電話號碼。
    * 該操 **[!UICONTROL Remove from quarantine]** 作會從隔離中刪除配置檔案電話號碼。
    * 此動 **[!UICONTROL None]** 作可讓您只傳送訊息給收件者，而不需執行動作。
-   例如，在下列設定中，如果收件者傳送關鍵字&quot;STOP&quot;，他們會自動收到取消訂閱的確認，而且其電話號碼將會以狀態傳送至隔離 **[!UICONTROL On block list]** 區。 此狀態僅指電話號碼，描述檔不會新增至區塊清單，讓使用者繼續收到電子郵件訊息。
+
+   例如，在下列設定中，如果收件者傳送關鍵字&quot;STOP&quot;，他們會自動收到取消訂閱的確認，而且其電話號碼將會以狀態傳送至隔離 **[!UICONTROL Denylisted]** 區。 此狀態僅指電話號碼，設定檔會被拒絕列出，讓使用者繼續收到電子郵件訊息。
 
    ![](assets/sms_mo.png)
 
@@ -75,17 +76,17 @@ ht-degree: 1%
 
 若要這麼做：
 
-1. 在欄位 **[!UICONTROL SMPP channel settings]** 中，選中 **[!UICONTROL Store incoming MO in the database]**。
+1. In the **[!UICONTROL SMPP channel settings]** field, check **[!UICONTROL Store incoming MO in the database]**.
 
    ![](assets/sms_config_mo_2.png)
 
-1. 在標籤 **[!UICONTROL Marketing activities]** 中，按一下， **[!UICONTROL Create]** 然後選取 **[!UICONTROL Workflow]**。
+1. In the **[!UICONTROL Marketing activities]** tab, click **[!UICONTROL Create]** then select **[!UICONTROL Workflow]**.
 
    ![](assets/sms_config_mo_3.png)
 
 1. 選擇您的工作流類型。
 1. 編輯工作流程的屬性，然後按一下 **[!UICONTROL Create]**。 For more on workflows creation, refer to this [section](../../automating/using/building-a-workflow.md).
-1. 拖放活動 **[!UICONTROL Query]** 並按兩下活動。
+1. Drag and drop a **[!UICONTROL Query]** activity and double-click the activity.
 1. 在查詢 **[!UICONTROL Properties]** 的標籤中，在欄 **[!UICONTROL Incoming SMS (inSMS)]** 位中選 **[!UICONTROL Resource]** 擇。
 
    ![](assets/sms_config_mo_4.png)
@@ -94,7 +95,7 @@ ht-degree: 1%
 
    ![](assets/sms_config_mo_5.png)
 
-1. 在此，我們希望定位從前一天開始的每個傳入消息。 在類別 **[!UICONTROL Field]** 中，選擇 **[!UICONTROL Creation date (created)]**。
+1. 在此，我們希望定位從前一天開始的每個傳入消息。 In the **[!UICONTROL Field]** category, select **[!UICONTROL Creation date (created)]**.
 1. 在中 **[!UICONTROL Filter type]**，選擇 **[!UICONTROL Relative]** ，然後 **[!UICONTROL Level of precision]**&#x200B;在中選擇 **[!UICONTROL Day]**。
 
    ![](assets/sms_config_mo_6.png)

@@ -13,10 +13,10 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
+source-git-commit: 8ebded956ef52bb742160d62ebbd8095c390d51c
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 0%
+source-wordcount: '246'
+ht-degree: 2%
 
 ---
 
@@ -29,9 +29,9 @@ ht-degree: 0%
 
 可能的選項包括：
 
-* **[!UICONTROL Default affinity]**: 此欄位允許您強制在特定電腦上執行工作流或工作流活動。
+* **[!UICONTROL Default affinity]**:此欄位允許您強制在特定電腦上執行工作流或工作流活動。
 
-* **[!UICONTROL History in days]**: 指定必須清除歷史記錄的天數。 歷史記錄包含與工作流相關的元素： 日誌、任務、事件（連結至工作流操作的技術對象）以及活動下載的文 **[!UICONTROL Transfer file]** 件。 現成可用的工作流程範本的預設值為30天。
+* **[!UICONTROL History in days]**:指定必須清除歷史記錄的天數。 歷史記錄包含與工作流相關的元素：日誌、任務、事件（連結至工作流操作的技術對象）以及活動下載的文 **[!UICONTROL Transfer file]** 件。 現成可用的工作流程範本的預設值為30天。
 
    清除歷史記錄由資料庫清理技術工作流執行，預設每天執行此工作流程(請 [參閱技術工作流清單](../../administration/using/technical-workflows.md))。
 
@@ -39,12 +39,12 @@ ht-degree: 0%
    >
    >如果 **[!UICONTROL History in days]** 欄位留空，其值將視為&quot;1&quot;，表示歷史記錄將在1天後清除。
 
-* **[!UICONTROL Save SQL queries in the log]**: 允許您將工作流中的SQL查詢保存到日誌中。
+* **[!UICONTROL Save SQL queries in the log]**:允許您將工作流中的SQL查詢保存到日誌中。
 
-* **[!UICONTROL Keep interim results]**: 如果您想要檢視轉場的詳細資訊，請勾選此選項。 警告： 勾選此選項可能會大幅減緩工作流程的執行速度。
+* **[!UICONTROL Keep interim results]**:如果您想要檢視轉場的詳細資訊，請勾選此選項。 警告：勾選此選項可能會大幅減緩工作流程的執行速度。
 
-* **[!UICONTROL Execute in the engine (do not use in production)]**: 可讓您在本端執行工作流程，以用於開發環境測試。
+* **[!UICONTROL Execute in the engine (do not use in production)]**:可讓您在本端執行工作流程，以用於開發環境測試。
 
-* **[!UICONTROL Severity]**: 可讓您指定在Adobe Campaign例項中執行工作流程的優先順序層級。 重要的工作流程會先執行。
+* **[!UICONTROL Severity]**:可讓您指定在Adobe Campaign例項中執行工作流程的優先順序層級。 此欄位僅供Adobe團隊用於監控用途。
 
 本節 **[!UICONTROL Error management]** 提供其他選項，可讓您管理工作流程在發生錯誤時的運作方式。 這些選項在「錯誤管理」 [部分中有詳細](../../automating/using/monitoring-workflow-execution.md#error-management) 說明。

@@ -13,15 +13,15 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 121ec37cef6193d3a7085b6d0296b6a2e7cafa06
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 5%
+source-wordcount: '662'
+ht-degree: 6%
 
 ---
 
 
-# 關於傳送能力{#about-deliverability}
+# 關於傳遞能力{#about-deliverability}
 
 傳遞能力可讓您測量促銷活動在到達收件者收件匣時是否成功，而不會反彈或標示為垃圾訊息。
 
@@ -35,11 +35,11 @@ ht-degree: 5%
 * 消息驗證(SPF、DKIM、DMARC)
 * 發件人信譽
 
-## 要檢查的關鍵點 {#deliverability-key-points}
+## 需要檢查的關鍵點 {#deliverability-key-points}
 
 若要最佳化Adobe Campaign電子郵件的傳遞能力，我們建議使用下列最佳實務。 傳遞能力問題通常與網際網路服務提供商和郵件伺服器管理員實施的針對垃圾郵件的保護措施有關。
 
-電子郵件傳遞能力是指一組特性，這些特性決定了郵件在短時間內通過個人電子郵件地址到達其目的地的能力，並且在內容和格式方面具有預期的質量。 這些特徵可分為四大類： 資料品質、訊息和內容、傳送基礎架構和聲譽。 它們共同構成了成功的電子郵件傳遞能力計畫的基礎。
+電子郵件傳遞能力是指一組特性，這些特性決定了郵件在短時間內通過個人電子郵件地址到達其目的地的能力，並且在內容和格式方面具有預期的質量。 這些特徵可分為四大類：資料品質、訊息和內容、傳送基礎架構和聲譽。 它們共同構成了成功的電子郵件傳遞能力計畫的基礎。
 
 傳遞率是已傳送成功傳送給收件人的電子郵件數。
 以下列出要檢查的要點，以確保良好的交付能力。
@@ -47,7 +47,7 @@ ht-degree: 5%
 ## 傳遞性工具 {#deliverability-tools}
 
 首先，請先參閱Campaign Standard隨附之傳遞性工具相關檔案：
-* [提供最佳實務](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+* [提供最佳實務](https://helpx.adobe.com/tw/campaign/kb/delivery-best-practices.html)
 * [個人化傳送者名稱](../../designing/using/personalization.md#personalizing-the-sender)
 * [測試電子郵件的主旨行](../../sending/using/testing-subject-line-email.md)
 * [最佳化傳送時間](../../sending/using/optimizing-the-sending-time.md)
@@ -57,7 +57,7 @@ ht-degree: 5%
 * [發生故障時收到警報](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [瞭解傳送故障](../../sending/using/understanding-delivery-failures.md)
 * [瞭解隔離管理](../../sending/using/understanding-quarantine-management.md)
-* [隔離與塊清單](../../sending/using/understanding-quarantine-management.md#quarantine-vs-block-list)
+* [隔離與拒絕清單](../../sending/using/understanding-quarantine-management.md#quarantine-vs-block-list)
 * [動態報表](../../reporting/using/about-dynamic-reports.md)
 
 ## 檢查網路配置 {#network-configuration}
@@ -66,7 +66,7 @@ ht-degree: 5%
 
 ## 傳送至有效位址 {#valid-addresses}
 
-垃圾郵件發送者通常使用基於頻繁名稱和名字清單的地址生成器； 此外，他們很少處理郵件伺服器傳回的技術通知。 無效地址的高率通常被解釋為垃圾郵件的標誌。 雙重加入機制和有效處理技術反彈訊息，可避免此情況。
+垃圾郵件發送者通常使用基於頻繁名稱和名字清單的地址生成器；此外，他們很少處理郵件伺服器傳回的技術通知。 無效地址的高率通常被解釋為垃圾郵件的標誌。 雙重加入機制和有效處理技術反彈訊息，可避免此情況。
 
 ## 降低投訴率 {#reduce-complaint-rate}
 

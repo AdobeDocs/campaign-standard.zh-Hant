@@ -12,9 +12,9 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '7626'
+source-wordcount: '7622'
 ht-degree: 8%
 
 ---
@@ -293,7 +293,7 @@ ht-degree: 8%
 * Campaign中已新增「Launch_URL_Campaign」選項，以管理使用Adobe Experience Platform Mobile SDK建立之行動應用程式的屬性。
 * 修正在上傳新建立行動屬性的憑證並退出行動應用程式屬性頁面後，「沙盒環境」選項未勾選的錯誤。
 * 修正無法使用「服務」資源的資訊豐富交易訊息內容的問題。 (CAMP-33707)
-* 修正當嘗試從服務取消訂閱描述檔時，區塊清單著陸頁面中發生的問題。
+* 修正當嘗試從服務取消訂閱描述檔時，登入清單登陸頁面中發生的問題。
 
 ## 版本 19.2 – 2019 年 5 月{#release-19-2---may-2019}
 
@@ -617,7 +617,7 @@ ht-degree: 8%
 * 修正在查詢編輯器中，broadlog和rtEvent追蹤記錄檔之間出現連結條件的問題。 (CAMP-28780)
 * 修正無法儲存「特定動作」著陸頁面選項之修改的問題。 (CAMP-29422)
 * 修正無法匯出工作流程中事件的裝載的問題。 (CAMP-29029)
-* 修正阻止塊清單上的SMS號碼被排除在SMS消息中的問題。 (CAMP-28898)
+* 修正無法將已列出的SMS號碼排除在SMS訊息中的問題。 (CAMP-28898)
 * 修正處理傳入訊息時，SMPP提供者無法收到通知的問題。 (CAMP-29804)
 * 修正允許刪除具有關聯傳送之外部帳戶的問題。 (CAMP-29738)
 * SMS消息的發送吞吐量已得到改進和穩定。

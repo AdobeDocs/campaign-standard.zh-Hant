@@ -12,9 +12,9 @@ discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ecb57ccc4cafa609f7ddccb5f934aa3ab2368dde
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '1289'
+source-wordcount: '1282'
 ht-degree: 81%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 81%
 >
 >**SMS** 錯誤訊息（或 &quot;SR&quot; 作為 &quot;Status Report&quot;）會由 MTA 程序限定。
 
-如果地址被隔離，或者配置檔案位於塊清單中，在準備傳送時也可以排除郵件。 已排除的訊息會列在傳送控制面板的　**[!UICONTROL Exclusion logs]**　索引標籤中（請參閱[本區段](../../sending/using/monitoring-a-delivery.md#exclusion-logs)）。
+如果地址被隔離或配置檔案被取消列出，在準備傳送期間也可以排除郵件。 已排除的訊息會列在傳送控制面板的　**[!UICONTROL Exclusion logs]**　索引標籤中（請參閱[本區段](../../sending/using/monitoring-a-delivery.md#exclusion-logs)）。
 
 ![](assets/exclusion_logs.png)
 
@@ -69,8 +69,8 @@ ht-degree: 81%
 | **[!UICONTROL Refused]** | 軟／硬 | 由於安全反饋是垃圾郵件報告，該地址已被置於隔離狀態。 根據提供者傳回的錯誤，將直接傳送地址給隔離，或者重新嘗試傳送，直到 Campaign 收到證明隔離狀態正確的錯誤或錯誤數達到 5 為止。 |
 | **[!UICONTROL Duplicate]** | 已忽略 | 區段中已偵測到該位址。 |
 | **[!UICONTROL Not defined]** | Soft | 該地址正在限定中，因為錯誤尚未增加。 當伺服器傳送新錯誤訊息時，會發生此類錯誤：它可能是孤立的錯誤，但如果再次發生，錯誤計數器會增加，這會提醒技術團隊。 |
-| **[!UICONTROL Error ignored]** | 已忽略 | 該地址在允許清單中，無論如何，都會向其發送電子郵件。 |
-| **[!UICONTROL Address on block list]** | 硬 | 發送時，地址已添加到塊清單中。 |
+| **[!UICONTROL Error ignored]** | 已忽略 | 允許列出地址，而且在任何情況下都會傳送電子郵件給該地址。 |
+| **[!UICONTROL Denylisted address]** | 硬 | 傳送時，地址已新增至密尼清單。 |
 | **[!UICONTROL Account disabled]** | 軟／硬 | 當Internet訪問提供程式(IAP)檢測到長時間的不活動時，它可以關閉用戶帳戶：傳送至使用者位址的作業將無法進行。 「軟式」或「硬式」類型取決於收到的錯誤類型：如果帳戶因為 6 個月的閒置而暫時停用，而且仍可啟動，則會指派狀態 **[!UICONTROL Erroneous]** 並再次嘗試傳送。如果收到錯誤訊號表明帳戶已永久停用，則會直接將其發送到隔離。 |
 | **[!UICONTROL Not connected]** | 已忽略 | 當傳送訊息時，描述檔的行動電話已關閉或未連線至網路。 |
 | **[!UICONTROL Invalid domain]** | Soft | 電子郵件地址的網域不正確或已不存在。 此設定檔將再次定位，直到錯誤計數達到5。之後，記錄將設定為「隔離」狀態，不會再重試。 |

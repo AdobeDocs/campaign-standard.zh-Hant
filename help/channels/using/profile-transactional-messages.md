@@ -12,10 +12,10 @@ discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 94%
+source-wordcount: '384'
+ht-degree: 95%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 94%
 
 您可以根據客戶行銷設定檔傳送交易式訊息，這可讓您：
 
-* 套用行銷類型規則，例如 **[!UICONTROL Address on block list]** 或[疲勞規則](../../sending/using/fatigue-rules.md)。
+* 套用行銷類型規則，例如 **[!UICONTROL Denylisted address]** 或[疲勞規則](../../sending/using/fatigue-rules.md)。
 * 在訊息中包含取消訂閱連結。
 * 將交易式訊息新增至全域傳送報告。
 * 在客戶歷程中善用交易式訊息。
@@ -74,11 +74,11 @@ ht-degree: 94%
 
    ![](assets/message-center_marketing_sending_logs.png)
 
-1. Select the **[!UICONTROL Exclusions logs]** tab to view recipients who have been excluded from the message target, such as addresses on block list.
+1. Select the **[!UICONTROL Exclusions logs]** tab to view recipients who have been excluded from the message target, such as denylisted addresses.
 
    ![](assets/message-center_marketing_exclusion_logs.png)
 
-對於已選取退出的任何設定檔，**[!UICONTROL Address on block list]**　類型規則會排除相對應的收件人。
+對於已選取退出的任何設定檔，**[!UICONTROL Denylisted address]**　類型規則會排除相對應的收件人。
 
 此規則是特定類型的一部分，其適用於以 **[!UICONTROL Profile]** 表格為基礎的所有交易式訊息。
 

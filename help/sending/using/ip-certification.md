@@ -1,5 +1,5 @@
 ---
-title: 允許Adobe Campaign Standard中的清單
+title: Adobe Campaign Standard中的允許清單
 description: 瞭解如何使用Adobe Campaign Standard最佳化允許清單。
 page-status-flag: never-activated
 uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
@@ -13,9 +13,9 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c89973e2c733d9c0b1c4434e77ef51103ccde0fa
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '322'
 ht-degree: 0%
 
 ---
@@ -25,9 +25,9 @@ ht-degree: 0%
 
 IP認證是傳送最佳實務方案，可協助確保收到電子郵件時不會遭到反垃圾郵件篩選器或其他電子郵件封鎖系統的封鎖。
 
-目前有兩家供應商提供IP認證： Return Path和認證寄件者聯盟。
+目前有兩家供應商提供IP認證：Return Path和認證寄件者聯盟。
 
-認證的寄件者會加入電子郵件允許清單，全球郵箱供應商和電子郵件安全公司都會使用這些清單。 這些商業允許清單基於允許發送者完全略過反垃圾郵件過濾器的系統，或者在他們進入系統時被分配增量點。
+全球郵箱提供商和電子郵件安全公司都允許列出認證發件人。 這些商業許可清單基於允許發送者完全略過反垃圾郵件過濾器的系統，或者在他們進入系統時被分配增量點。
 
 Return [Path Certification方案提供多項優點](https://www.validity.com/products/returnpath/certification/) ，包括：
 * 在頂級郵箱提供商（如Microsoft、AOL、Yahoo、Gmail、Comcast、Orange、Mail.ru等）的收件箱位置有顯著的增加

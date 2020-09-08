@@ -1,6 +1,6 @@
 ---
-title: 開始使用個人檔案和受眾
-description: 「瞭解Adobe Campaign中的設定檔和受眾管理： 定義目標人口族群、選擇對象、篩選收件者、收集資料及更新個人檔案。」
+title: 開始使用個人檔案和對象
+description: 「瞭解Adobe Campaign中的設定檔和受眾管理：定義目標人口族群、選擇對象、篩選收件者、收集資料及更新個人檔案。」
 page-status-flag: never-activated
 uuid: f4cb6c38-c8d1-44ec-93f0-d0f5f30a3d9a
 contentOwner: sauviat
@@ -12,15 +12,15 @@ discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 5%
+source-wordcount: '607'
+ht-degree: 8%
 
 ---
 
 
-# 開始使用個人檔案和受眾{#about-profiles-and-audiences}
+# 開始使用個人檔案和對象{#about-profiles-and-audiences}
 
 <table>
 <tr>
@@ -41,15 +41,15 @@ ht-degree: 5%
 
 當您建立促銷活動或訊息時，您可以從促銷活動資料庫的連絡人中選取、使用簡單或進階標準，或選取對象，來指定傳送的目標。
 
-使用整合式客戶個人檔案和自訂細分，更有 **效地跨所有通道****識別客戶**。 當您瞭解客戶、興趣、人口統計資料和通道偏好時，建立受人關注的個人化體驗會更輕鬆。
+使用整合式客戶個人檔案和自訂細分，更有 **效地跨所有通道****識別客戶**。 當您瞭解客戶、興趣、人口統計資料和通道偏好時，建立受人注目的個人化體驗會更輕鬆。
 
 Adobe Campaign可即時建立豐富的客戶個人檔案，讓您在客戶偏好改變時提供更相關的個人化優惠。 此外，Adobe Campaign整合了進階分析、資料管理和定位功能，以建立受眾。
 
-**Profiles** 是儲存在資料庫中的單個聯繫人。 每個描述檔都對應至資料庫中的一個項目，其中包含要定位、限定及個別追蹤該描述檔的必要資訊： Adobe Campaign可以追蹤線上和線下通道的每次互動，並將其合併為單一個人檔案。
+**Profiles** 是儲存在資料庫中的單個聯繫人。 每個描述檔都對應至資料庫中的一個項目，其中包含要定位、限定及個別追蹤該描述檔的必要資訊：Adobe Campaign可以追蹤線上和線下通道的每次互動，並將其合併為單一個人檔案。
 
 **觀眾** ，是以特定准則或一組准則為基礎的設定檔清單。 使用工作流程和查詢編輯器，您可以根據行銷活動的資訊、活動及其行銷記錄，建構將由行銷活動定位的對象。 這可讓您依不限數量的准則，篩選訂閱的描述檔、範例或建立目標對象。
 
-詳細內容:
+顯示全文:
 
 * [關於設定檔](../../audiences/using/about-profiles.md)
 * [使用中的設定檔案](../../audiences/using/active-profiles.md)
@@ -66,13 +66,13 @@ Adobe Campaign可即時建立豐富的客戶個人檔案，讓您在客戶偏好
 
 有了Campaign，我們建議您透過服 **務和登陸頁面** , [使用簡單的加入和退出機制來](../../audiences/using/creating-a-service.md)[](../../channels/using/getting-started-with-landing-pages.md) 更新您的聯絡資訊並擴充資料庫。
 
-在訊 **息中提供取消訂閱連結** ，將可視需要將描述檔新增至區塊清單，進而改善您的平台傳遞能力。 如需區塊清單管理的詳細資訊，請 [參閱關於促銷活動中的選擇加入和選擇退出](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)。
+在訊 **息中提供取消訂閱連結** ，可讓Profiles在必要時新增至Denylist，進而改善您的平台傳遞能力。 For more on denylist management, refer to [About opt-in and opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 >[!IMPORTANT]
 >
 >您必須遵守 [Adobe Campaign可接受的使用政策](https://www.adobe.com/legal/terms/aup.html)。
 
-詳細內容:
+顯示全文:
 
 * [關於訂閱](../../audiences/using/about-subscriptions.md)
 * [關於 Campaign 中的加入和退出](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
@@ -81,9 +81,9 @@ Adobe Campaign可即時建立豐富的客戶個人檔案，讓您在客戶偏好
 
 <img src="assets/do-not-localize/icon_privacy.svg" width="60px">
 
-Adobe Campaign提供一套工具，可協助您遵循GDPR、CCPA和其 **他隱私權法規** 的隱私權規範。
+Adobe Campaign offers a set of tools to help you with your **Privacy Compliance** for GDPR, CCPA, and other privacy laws.
 
-在本文中進一步 [瞭解隱私權管理](https://helpx.adobe.com/campaign/kb/campaign-privacy.html) ，以及我們提供的管理存取權、被遺忘權、同意權、資料保留權和使用者角色的功能。
+在本文中進一步 [瞭解隱私權管理](https://helpx.adobe.com/tw/campaign/kb/campaign-privacy.html) ，以及我們提供的管理存取權、被遺忘權、同意權、資料保留權和使用者角色的功能。
 
 Campaign中的隱私權和同意，以及如何管理這些資訊，將列在本 [節中](../../start/using/privacy.md)。
 

@@ -10,10 +10,10 @@ discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
 source-wordcount: '1248'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -54,43 +54,43 @@ ht-degree: 0%
                   <td> </td>
                </tr>
                <tr>
-                  <td>blockList</td>
+                  <td>blackList</td>
                   <td>不再聯絡（透過任何管道）</td>
                   <td>布林值 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blockListEmail</td>
+                  <td>blackListEmail</td>
                   <td>不再透過電子郵件聯絡</td>
                   <td>布林值 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blockListFax</td>
+                  <td>blackListFax</td>
                   <td>不再透過傳真聯絡</td>
                   <td>布林值 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blockListMobile</td>
+                  <td>blackListMobile</td>
                   <td>不再透過SMS聯絡</td>
                   <td>布林值 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blockListPhone</td>
+                  <td>blackListPhone</td>
                   <td>不再透過電話聯絡</td>
                   <td>布林值 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blockListPostalMail</td>
+                  <td>blackListPostalMail</td>
                   <td>不再透過直效郵件聯絡</td>
                   <td>布林值 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blockListPush通知</td>
+                  <td>blackListPush通知</td>
                   <td>不再透過推播通知聯絡</td>
                   <td>布林值 </td>
                   <td> </td>
@@ -220,7 +220,7 @@ ht-degree: 0%
                <tr>
                   <td>lastName</td>
                   <td>姓氏</td>
-                  <td>字串(30)</td>
+                  <td>字串(50)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -410,7 +410,7 @@ ht-degree: 0%
                         <li>(GMT-07:00)洛基山（美國和加拿大）-美國_丹佛——美國／丹佛</li>
                         <li>(GMT+01:00)中非——西——非洲_羅安達——非洲／羅安達</li>
                         <li>(GMT+02:00)赫爾辛基，基輔，里加，索非亞，塔林，維爾紐斯——歐洲_赫爾辛基——歐洲／赫爾辛基</li>
-                        <li>(GMT)格林威治標準時間： 都柏林、愛丁堡、里斯本、倫敦——歐洲_倫敦——歐洲／倫敦</li>
+                        <li>(GMT)格林威治標準時間：都柏林、愛丁堡、里斯本、倫敦——歐洲_倫敦——歐洲／倫敦</li>
                         <li>(GMT-07:00)亞利桑那——美國鳳凰城——美國／鳳凰城</li>
                         <li>(GMT+02:00)貝魯特——亞洲_貝魯特——亞洲／貝魯特</li>
                         <li>(GMT+04:30)喀布爾——亞洲_喀布爾——亞洲／喀布爾</li>

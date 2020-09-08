@@ -12,7 +12,7 @@ discoiquuid: 2ea51543-fe4d-462b-b47e-9ccaa1d68dfa
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: da4be48018128a766c749e30301c3c86e9fcf9e9
+source-git-commit: 3534fb2cf9f77168eb3ca0021f4121a44a57916d
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 6%
@@ -38,5 +38,5 @@ Adobe Analytics的核心服務觸發程式 **與** Adobe Campaign也可進行整
 **相關主題：**
 
 * [整合Campaign Standard的概述](https://docs.adobe.com/content/help/en/analytics/integration/adobe-campaign.html)
-* [設定Campaign Standard整合] (https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html)
+* [設定Campaign Standard整合](https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html)
 * [Analytics 中的 Campaign 維度和度量](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)

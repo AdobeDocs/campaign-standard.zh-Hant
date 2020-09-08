@@ -12,10 +12,10 @@ discoiquuid: de3a50b6-ea8f-4521-996b-c49cc1f3c946
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 121ec37cef6193d3a7085b6d0296b6a2e7cafa06
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 81%
+source-wordcount: '786'
+ht-degree: 83%
 
 ---
 
@@ -32,23 +32,23 @@ ht-degree: 81%
 
 郵件準備期間會自動排除其電子郵件地址或電話號碼處於隔離狀態的設定檔（請參閱[識別傳送的隔離地址](#identifying-quarantined-addresses-for-a-delivery)）。這會加快傳送速度，因為錯誤率對傳送速度有顯著影響。
 
-如果無效地址的比率過高，某些網際網路存取提供者會自動將電子郵件視為垃圾郵件。因此，隔離可讓您避免被這些提供者添加到塊清單中。
+如果無效地址的比率過高，某些網際網路存取提供者會自動將電子郵件視為垃圾郵件。因此，隔離可讓您避免被這些提供者拒絕列出。
 
 此外，隔離有助於減少簡訊傳送成本，因為將錯誤的電話號碼排除在遞送服務之外。
 
 如需確保傳送安全並最佳化的最佳實務，請參閱[本頁面](https://helpx.adobe.com/tw/campaign/kb/delivery-best-practices.html)。
 
-### 隔離與塊清單 {#quarantine-vs-block-list}
+### 隔離與拒絕清單 {#quarantine-vs-denylist}
 
 **隔離** (Quarantine)　僅適用於地址，而不適用於設定檔本身。這代表如果兩個設定檔具有相同的電子郵件地址，則兩個設定檔在隔離地址時都會受到影響。
 
 同樣地，被隔離的電子郵件地址的設定檔可以更新其設定檔並輸入新地址，然後再次被傳送動作設為目標。
 
-Being on the **block list**, on the other hand, will result in the profile no longer being targeted by any delivery, for example after an unsubscription (opt-out). 如需區塊清單程式的詳細資訊，請參 [閱關於促銷活動中的選擇加入和選擇退出](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)。
+Being on the **Denylist**, on the other hand, will result in the profile no longer being targeted by any delivery, for example after an unsubscription (opt-out). 如需登入清單程式的詳細資訊，請 [參閱關於促銷活動中的選擇加入和選擇退出](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)。
 
 >[!NOTE]
 >
->當使用者回覆SMS訊息時，其關鍵字如「STOP」，以選擇退出SMS傳送時，其描述檔不會像電子郵件選擇退出程式一樣新增至區塊清單。 會將設定檔電話號碼傳送到隔離區，且狀態為　**[!UICONTROL On block list]**。此狀態僅指電話號碼，設定檔不在區塊清單中，因此使用者會繼續收到電子郵件訊息。 如需詳細資訊，請參閱[本區段](../../channels/using/managing-incoming-sms.md#managing-stop-sms)。
+>當使用者回覆SMS訊息時，其關鍵字如「STOP」，以選擇退出SMS傳送時，不會像電子郵件選擇退出程式一樣拒絕列出其個人檔案。 會將設定檔電話號碼傳送到隔離區，且狀態為　**[!UICONTROL Denylisted]**。此狀態僅指電話號碼，設定檔未登入清單，因此使用者會繼續收到電子郵件訊息。 如需詳細資訊，請參閱[本區段](../../channels/using/managing-incoming-sms.md#managing-stop-sms)。
 
 ## 識別隔離地址 {#identifying-quarantined-addresses}
 
@@ -88,7 +88,7 @@ Adobe Campaign 會根據傳送失敗類型和錯誤訊息限定期間指派的�
 
    重試之後傳送成功時，重新初始化隔離前地址的錯誤計數器。地址狀態變更為　**[!UICONTROL Valid]**，而且會在兩天之後，由　**[!UICONTROL Database cleanup]**　工作流程從隔離區清單中刪除該地址。
 
-如果使用者將電子郵件歸類為垃圾訊息（**回饋迴路**），則訊息會自動重新導向至由　Campaign　管理的技術信箱。之後，系統會自動將使用者的電子郵件地址傳送到狀態為　**[!UICONTROL On block list]**　的隔離區。此狀態僅指地址，描述檔不在區塊清單中，因此使用者會繼續接收SMS訊息和推播通知。
+如果使用者將電子郵件歸類為垃圾訊息（**回饋迴路**），則訊息會自動重新導向至由　Campaign　管理的技術信箱。之後，系統會自動將使用者的電子郵件地址傳送到狀態為　**[!UICONTROL Denylisted]**　的隔離區。此狀態僅指地址，描述檔不在登入清單中，因此使用者會繼續收到SMS訊息和推播通知。
 
 >[!NOTE]
 Adobe Campaign　中的隔離區會區分大小寫。請務必以小寫匯入電子郵件地址，如此一來，稍後就不會將它們重新設為目標。

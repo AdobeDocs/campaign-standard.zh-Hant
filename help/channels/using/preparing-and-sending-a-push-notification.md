@@ -13,10 +13,10 @@ context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '857'
-ht-degree: 2%
+source-wordcount: '852'
+ht-degree: 5%
 
 ---
 
@@ -33,20 +33,21 @@ ht-degree: 2%
 
    您也可以在工作流程中使用推播通知傳送活動。 此活動會顯示在「推 [播通知傳送」區段](../../automating/using/push-notification-delivery.md) 。
 
-1. Select **[!UICONTROL Push notification]**.
+1. 選取 **[!UICONTROL Push notification]**。
 1. 選取範本。
 
    ![](assets/push_notif_type.png)
 
    依預設，您可以選取下列兩個範本之一：
 
-   * **[!UICONTROL Send push to Campaign profiles]**: 使用此範本來定位已訂閱您行動應用程式並選擇接收推播通知的Adobe Campaign CRM設定檔。 您可以將個 [人化欄位](../../designing/using/personalization.md#inserting-a-personalization-field) ，插入您的推播通知中，例如收件者的名字。
-   * **[!UICONTROL Send push to app subscribers]**: 使用此範本，將推播通知傳送給所有已知和匿名行動應用程式使用者，這些使用者已選擇從您的應用程式接收通知。 您可以透過從行動應用程式收集的資料個人化這些訊息。
+   * **[!UICONTROL Send push to Campaign profiles]**:使用此範本來定位已訂閱您行動應用程式並選擇接收推播通知的Adobe Campaign CRM設定檔。 您可以將個 [人化欄位](../../designing/using/personalization.md#inserting-a-personalization-field) ，插入您的推播通知中，例如收件者的名字。
+   * **[!UICONTROL Send push to app subscribers]**:使用此範本，將推播通知傳送給所有已知和匿名行動應用程式使用者，這些使用者已選擇從您的應用程式接收通知。 您可以透過從行動應用程式收集的資料個人化這些訊息。
+
    您也可以選擇多語言範本。 如需詳細資訊，請參閱「 [建立多語言推播通知」](../../channels/using/creating-a-multilingual-push-notification.md)。
 
-   有關模板的詳細資訊，請參閱「管 [理模板](../../start/using/marketing-activity-templates.md) 」部分。
+   For more on templates, refer to the [Managing templates](../../start/using/marketing-activity-templates.md) section.
 
-1. 輸入您的推播通知屬性，並在欄位中選取您的行動應用 **[!UICONTROL Associate a Mobile App to a delivery]** 程式。
+1. Enter your push notification properties and select your mobile app in the **[!UICONTROL Associate a Mobile App to a delivery]** field.
 
    請注意，下拉式清單將同時顯示SDK V4和Experience Platform SDK應用程式。
 
@@ -66,9 +67,9 @@ ht-degree: 2%
 
    ![](assets/push_notif_content.png)
 
-   此處設定的推播通知內容和選項會以裝載的形式傳遞至您的行動應用程式。 Understanding ACS push notification payload structure technote中說明了有效負載的 [詳細結構](https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html) 。
+   此處設定的推播通知內容和選項會以裝載的形式傳遞至您的行動應用程式。 Understanding ACS push notification payload structure technote中說明了有效負載的 [詳細結構](https://helpx.adobe.com/tw/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html) 。
 
-1. 按一下「**[!UICONTROL Create]**」。
+1. 按一下 **[!UICONTROL Create]**。
 
    ![](assets/push_notif_content_2.png)
 
@@ -76,8 +77,8 @@ ht-degree: 2%
 
    如需傳送測試的詳細資訊，請參閱測 [試描述檔](../../sending/using/sending-proofs.md)。
 
-1. 選取您的測試設定檔，然後按一 **[!UICONTROL Preview]** 下以顯示通知： 內容會與測試描述檔資料個人化。
-1. 檢查不同裝置上的推播通知配置： 選取iPhone、Android手機、iPad或Android平板電腦以預覽演算。
+1. 選取您的測試設定檔，然後按一 **[!UICONTROL Preview]** 下以顯示通知：內容會與測試描述檔資料個人化。
+1. 檢查不同裝置上的推播通知配置：選取iPhone、Android手機、iPad或Android平板電腦以預覽演算。
 
    ![](assets/push_notif_preview.png)
 
@@ -91,7 +92,7 @@ ht-degree: 2%
 
 推播通知可透過定義對象條件，傳送至Adobe Campaign中的選定對象。 在下列範例中，我們選取的對象包括4個目標行動應用程式訂閱者。
 
-1. 按一 **[!UICONTROL Prepare]** 下以計算目標並產生通知。
+1. Click **[!UICONTROL Prepare]** to compute the target and generate the notifications.
 
    ![](assets/push_send_1.png)
 
@@ -101,7 +102,7 @@ ht-degree: 2%
 
 1. 在標籤 **[!UICONTROL Exclusion logs]** 中，您可以找到從傳送的目標中排除的所有訊息清單，以及此排除的原因。
 
-   在這裡，我們可以看到我們的其中一個行動應用程式訂閱者因為位址已新增至區塊清單，而其他訂閱者則因為描述檔是重複的。
+   在這裡，我們可以看到我們的其中一個行動應用程式訂閱者因為地址已拒絕列出，而其他訂閱者則因為描述檔重複。
 
    ![](assets/push_send_5.png)
 
@@ -110,13 +111,13 @@ ht-degree: 2%
    ![](assets/push_send_7.png)
 
 1. 您現在可以按一 **[!UICONTROL Confirm]** 下以開始傳送推播通知。
-1. 透過訊息儀表板和記錄檔檢查您的傳送狀態。 如需詳細資訊，請參 [閱傳送訊息](../../sending/using/confirming-the-send.md)[和傳送記錄](../../sending/using/monitoring-a-delivery.md#delivery-logs)。
+1. 透過訊息儀表板和記錄檔檢查您的傳送狀態。如需詳細資訊，請參 [閱傳送訊息](../../sending/using/confirming-the-send.md)[和傳送記錄](../../sending/using/monitoring-a-delivery.md#delivery-logs)。
 
-   在此範例中，訊息控制面板會顯示Adobe Campaign嘗試傳送兩個推播通知： 一個設備已成功傳送到設備，另一個設備失敗。 若要瞭解傳送錯誤的原因，請按一 ![](assets/lp_link_properties.png) 下視窗底部的按 **[!UICONTROL Deployment]** 鈕。
+   在此範例中，訊息控制面板會顯示Adobe Campaign嘗試傳送兩個推播通知：一個設備已成功傳送到設備，另一個設備失敗。 若要瞭解傳送錯誤的原因，請按一 ![](assets/lp_link_properties.png) 下視窗底部的按 **[!UICONTROL Deployment]** 鈕。
 
    ![](assets/push_send_4.png)
 
-1. 在視窗 **[!UICONTROL Deployment]** 中，按一下標 **[!UICONTROL Sending logs]** 簽以存取已傳送的推播通知清單及其狀態。 對於此傳送，一個推播通知已成功傳送，而另一個則因裝置Token錯誤而失敗。 然後，此訂閱者將從進一步的傳送新增至區塊清單。
+1. 在視窗 **[!UICONTROL Deployment]** 中，按一下標 **[!UICONTROL Sending logs]** 簽以存取已傳送的推播通知清單及其狀態。 對於此傳送，一個推播通知已成功傳送，而另一個則因裝置Token錯誤而失敗。 然後，此訂閱者會從進一步的傳送新增至denyist。
 
    >[!NOTE]
    >

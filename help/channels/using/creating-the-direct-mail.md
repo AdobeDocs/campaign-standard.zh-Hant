@@ -13,10 +13,10 @@ context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 95%
+source-wordcount: '594'
+ht-degree: 96%
 
 ---
 
@@ -102,4 +102,4 @@ ht-degree: 95%
 * 透過一般電子郵件傳送，並附上檔案
 * 透過　Campaign　傳送：在促銷活動[工作流程](../../automating/using/direct-mail-delivery.md)中執行直接郵件，並新增　**[!UICONTROL Transfer file]**　以透過　FTP　傳送檔案。請參閱[傳輸檔案](../../automating/using/transfer-file.md)。
 
-提供者會擷取錯誤位址的清單，並傳送此資訊給Adobe Campaign,Adobe Campaign會自動將錯誤位址新增至區塊清單。 請參閱[返回至寄件者](../../channels/using/return-to-sender.md)。
+提供者會擷取錯誤位址的清單，並傳送此資訊給Adobe Campaign,Adobe Campaign會自動拒絕列出錯誤位址。 請參閱[返回至寄件者](../../channels/using/return-to-sender.md)。

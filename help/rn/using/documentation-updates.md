@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cbc9114b1179fe6fc0f87a9b9b55397ef60d3cb9
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '6144'
+source-wordcount: '6097'
 ht-degree: 94%
 
 ---
@@ -55,8 +55,6 @@ ht-degree: 94%
 更新工作流程使用案例，重新組織至各主題章節。[顯示全文](../../automating/using/about-workflow-use-cases.md)
 
 新增使用案例，以說明如何使用「控制面板」及「行銷活動工作流程」進行資料[加密](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt)與[解密](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt)。
-
-「Whitelist」和「blacklist」兩種字詞已從 Adobe Campaign 文件移除。產品 UI、選項名稱及內部代碼仍可能出現這兩種字詞，但未來版本的 Campaign 將以「blocklist」和「allowlist」取代。
 
 舊版支援網站的參考已由新URL取代。 [進一步瞭解](https://helpx.adobe.com/campaign/kb/ac-support.html#acs-support-req)
 
@@ -594,7 +592,7 @@ GDPR：核心服務整合 – [瞭解詳情](https://helpx.adobe.com/tw/campaign
 
 查詢活動節已用查詢示例更新。[瞭解詳情](../../automating/using/query.md#query-samples)
 
-專用於區塊清單的區段已更名為「瞭解選擇加入和選擇退出程式」。 它已更新，其中包含如何管理特定通道的選取加入，以及如何設定登錄頁面以管理選取加入和選取退出的資訊。[瞭解詳情](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+專用於登入清單的章節已更名為「瞭解選擇加入和選擇退出程式」。 它已更新，其中包含如何管理特定通道的選取加入，以及如何設定登錄頁面以管理選取加入和選取退出的資訊。[瞭解詳情](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 瞭解使用 Adobe 代管 SFTP 伺服器的最佳實務。[瞭解詳情](../../administration/using/external-accounts.md#sftp-external-account)
 
@@ -618,7 +616,7 @@ GDPR：核心服務整合 – [瞭解詳情](https://helpx.adobe.com/tw/campaign
 
 GDPR API 會重新分組可自動處理 GDPR 要求的功能。[瞭解詳情](../../api/using/creating-a-privacy-request.md)
 
-已新增有關如何設定著陸頁面的資訊，讓收件者能夠新增至區塊清單。 [瞭解詳情](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
+已新增有關如何設定著陸頁面的資訊，讓收件者能夠拒絕列出。 [瞭解詳情](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
 已重新整理[設定交易式訊息](../../administration/using/configuring-transactional-messaging.md)區段，而且已新增[逐步使用案例](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message)。
 
@@ -672,7 +670,7 @@ datamodel v1 現在可用於內建資源的 SQL 結構 – [瞭解詳情](https:
 
 使用逐步使用案例重新整理　**[!UICONTROL Customizing a push notification]**　區段。[瞭解詳情](../../channels/using/customizing-a-push-notification.md)
 
-專門用於塊清單管理的新部分。 [瞭解詳情](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+新區段專用於登入清單管理。 [瞭解詳情](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 已更新有關傳送失敗和隔離的資訊。[瞭解詳情](../../sending/using/monitoring-a-delivery.md)
 

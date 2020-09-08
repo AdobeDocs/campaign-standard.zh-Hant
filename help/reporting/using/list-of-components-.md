@@ -12,9 +12,9 @@ discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a373eb6546cb3c726e8b6807f6b47b14b3e520e6
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1273'
 ht-degree: 1%
 
 ---
@@ -152,12 +152,12 @@ ht-degree: 1%
  </thead> 
  <tbody> 
   <tr> 
-   <td> 塊清單<br /> </td> 
+   <td> 拒絕列出<br /> </td> 
    <td> 宣告電子郵件為垃圾訊息或垃圾訊息的收件者數目。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 塊清單速率<br /> </td> 
-   <td> 區塊清單上標示的傳送百分比。<br /> </td> 
+   <td> 登記率<br /> </td> 
+   <td> 登入清單上標示的傳送百分比。<br /> </td> 
   </tr> 
   <tr> 
    <td> 彈回數+錯誤<br /> </td> 

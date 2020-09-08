@@ -13,10 +13,10 @@ context-tags: typology,overview;typologyRule,main;typologyRule,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7f5bc442b1dae467a6b6de3e048531940f75031f
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 96%
+source-wordcount: '551'
+ht-degree: 97%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 96%
 1. 控制規則（如果這些規則是在定位開始時套用）。
 1. 篩選規則：
 
-   * 地址限定的原生應用程式規則：塊清單上的已定義地址／未驗證地址／地址／隔離地址／地址質量。
+   * 地址限定的原生應用程式規則：定義地址／未驗證地址／已拒絕列出地址／隔離地址／地址質量。
    * 篩選由使用者定義的規則。
 
 1. 控制規則（如果這些規則是在定位結束時套用）。

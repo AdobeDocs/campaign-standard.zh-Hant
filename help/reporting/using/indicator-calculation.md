@@ -12,10 +12,10 @@ discoiquuid: 45b11631-6b32-4074-8c8d-affd06407810
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 85dc2b3ba9a781483f88238fbf5a9208a0c18c37
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
 source-wordcount: '731'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -47,15 +47,15 @@ ht-degree: 1%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 封鎖清單<br /> </td> 
-   <td> @blockslited<br /> </td> 
+   <td> 拒絕列出<br /> </td> 
+   <td> @黑名單<br /> </td> 
    <td> count(@failureReason=8, @failureType=2)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 封鎖率<br /> </td> 
-   <td> @rateBlocklisted<br /> </td> 
-   <td> @blocklisted/@sent<br /> </td> 
+   <td> 登記率<br /> </td> 
+   <td> @rateBlacklisted<br /> </td> 
+   <td> @blacklisted/@sent<br /> </td> 
    <td> 比率計算的分母是以「已傳送」計數（「已傳送」+「彈回數」）為基礎。<br /> </td> 
   </tr> 
   <tr> 

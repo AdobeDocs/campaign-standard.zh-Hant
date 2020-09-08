@@ -12,9 +12,9 @@ discoiquuid: f67e69f2-09fb-4f33-b2c3-c67a060743e3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bd74905985734412b4fb11ad11d70faf9fcc9ca6
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '444'
 ht-degree: 1%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 1%
 否則，請繼續下一步。 如果是，請遵循以下指南行：
 
 * 檢查交易範本是否已發佈。
-* 檢查配置檔案是否不在塊清單中。
+* 檢查配置檔案是否未被取消列出。
 * 檢查應用類型學規則。
 * 檢查事務性消息的日誌。
 

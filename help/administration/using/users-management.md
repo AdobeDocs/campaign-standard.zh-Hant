@@ -12,10 +12,10 @@ discoiquuid: 08c8712a-0066-4b8b-8471-2656b8fb23ed
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 762700893c913d9aea884d00438c84b39a800188
+source-git-commit: 99edde2738ebf9d2a742aa467b049d6ec7761cc1
 workflow-type: tm+mt
-source-wordcount: '1143'
-ht-degree: 100%
+source-wordcount: '1183'
+ht-degree: 96%
 
 ---
 
@@ -61,6 +61,10 @@ Adobe Campaign 可讓您指派一組角色給使用者，以定義使用者可�
 ### 功能管理員 {#functional-administrators}
 
 功能管理員是可存取介面中最技術部分的使用者。他們負責 **[!UICONTROL Administration]** 角色，並確保平台都已妥善設定，因此行銷人員只需專注於傳送其行銷活動。
+
+>[!CAUTION]
+>
+>只有擁有角色和所有 **[!UICONTROL Administration]** 單位存取權的職能管理員 **** 才能存取傳送記錄、訊息記錄、追蹤記錄、排除記錄、提案記錄和訂閱記錄。 非管理員使用者可以定位這些記錄檔，但是從連結的表格（描述檔、傳送）開始。
 
 功能管理員是唯一可存取 Adobe Campaign 介面之 **[!UICONTROL Administration]** 功能表的使用者。由於這些使用者需要存取技術資源，因此應指派更多進階角色給他們，例如 **[!UICONTROL Administration]** 及 **[!UICONTROL Datamodel]** 現成可用的角色。這些角色會在 **[!UICONTROL Administrators]** 現成可用的安全性群組中結合。如需詳細資訊，請參閱[本區段](../../administration/using/list-of-roles.md)。
 

@@ -13,7 +13,7 @@ context-tags: branding,overview;branding,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4f16f4b36fd77e79ade10b4fe39db737e0de9f4c
+source-git-commit: fc1dc9ca876a0f18b2dad0e02331cfc05a799aad
 workflow-type: tm+mt
 source-wordcount: '1252'
 ht-degree: 79%
@@ -98,9 +98,9 @@ ht-degree: 79%
 
 1. **建立票證** -一旦委派子網域後，Adobe就需要在您的生產環境中進行設定。 若要要求此 [項，請建立Client Care的票證](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) ，並包含下列資訊：
 
-   * 主旨： [ACS] New brand set up
+   * 主旨：ACS新品牌設定
 
-   * 內容：Adobe已委派新網域，我們希望在ACS平台中設定此網域
+   * 內容：Adobe已委派新網域，我們希望在Campaign平台中設定它
 
    * 網域：XXX
 

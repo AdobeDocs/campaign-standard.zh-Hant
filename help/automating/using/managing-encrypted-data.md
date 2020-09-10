@@ -12,10 +12,10 @@ discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e58ac301d82a360d7065be7c1e3490a2a1821344
+source-git-commit: bd48bb03e6f02a65e6f82cd9cb3131f153e19875
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '938'
+ht-degree: 2%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 在某些情況下，您要匯入促銷活動伺服器的資料可能需要加密，例如，如果包含PII資料。
 
-要能夠加密傳出資料或解密傳入資料，您需要使用「控制面板」管理GPG [密鑰](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html)。
+要能夠加密傳出資料或解密傳入資料，您需要使用「控制面板」管理GPG [密鑰](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/instances-settings/gpg-keys-management.html)。
 
 >[!NOTE]
 >
@@ -46,7 +46,7 @@ ht-degree: 0%
 * [載入檔案](../../automating/using/load-file.md)
 * [擷取檔案](../../automating/using/extract-file.md)
 
-## 使用案例： 匯入使用控制面板產生的金鑰加密的資料 {#use-case-gpg-decrypt}
+## 使用案例：匯入使用控制面板產生的金鑰加密的資料 {#use-case-gpg-decrypt}
 
 在此使用案例中，我們將建立工作流程，以便使用「控制面板」中產生的金鑰，匯入在外部系統中加密的資料。
 
@@ -63,14 +63,14 @@ ht-degree: 0%
 
 1. 在外部系統中，使用從「控制面板」下載的公開金鑰來加密要匯入至「促銷活動標準」的資料。
 
-   ![](assets/gpg_external.png)
+   ![](assets/do-not-localize/gpg_external.png)
 
 1. 在Campaign Standard中，建立工作流程以匯入加密的資料，並使用透過控制面板安裝的私密金鑰加以解密。 為此，我們將建立以下工作流程：
 
    ![](assets/gpg_workflow.png)
 
-   * **[!UICONTROL Transfer file]** 活動： 將檔案從外部來源傳輸至促銷活動。 在此範例中，我們想從SFTP伺服器傳輸檔案。
-   * **[!UICONTROL Load file]** 活動： 將檔案中的資料載入到資料庫中，然後使用「控制面板」中生成的專用密鑰對其進行解密。
+   * **[!UICONTROL Transfer file]** 活動：將檔案從外部來源傳輸至促銷活動。 在此範例中，我們想從SFTP伺服器傳輸檔案。
+   * **[!UICONTROL Load file]** 活動：將檔案中的資料載入到資料庫中，然後使用「控制面板」中生成的專用密鑰對其進行解密。
 
 1. 開啟活 **[!UICONTROL Transfer file]** 動，然後根據您的需求進行設定。 有關如何配置活動的全局概念，請參閱本 [節](../../automating/using/load-file.md)。
 
@@ -92,7 +92,7 @@ ht-degree: 0%
 
 1. 您現在可以執行工作流程。
 
-## 使用案例： 使用控制面板上安裝的密鑰加密和導出資料 {#use-case-gpg-encrypt}
+## 使用案例：使用控制面板上安裝的密鑰加密和導出資料 {#use-case-gpg-encrypt}
 
 在此使用案例中，我們將建立工作流程，以便使用「控制面板」上安裝的金鑰來加密和匯出資料。
 
@@ -108,9 +108,9 @@ ht-degree: 0%
 
    ![](assets/gpg-workflow-export.png)
 
-   * **[!UICONTROL Query]** 活動： 在此示例中，我們要執行查詢來定位要導出的資料庫中的資料。
-   * **[!UICONTROL Extract file]** 活動： 加密資料並將其提取到檔案中。
-   * **[!UICONTROL Transfer file]** 活動： 將包含加密資料的檔案傳輸至SFTP伺服器。
+   * **[!UICONTROL Query]** 活動：在此示例中，我們要執行查詢來定位要導出的資料庫中的資料。
+   * **[!UICONTROL Extract file]** 活動：加密資料並將其提取到檔案中。
+   * **[!UICONTROL Transfer file]** 活動：將包含加密資料的檔案傳輸至SFTP伺服器。
 
 1. 配置活 **[!UICONTROL Query]** 動以定位來自資料庫的所需資料。 如需詳細資訊，請參閱[本章節](../../automating/using/query.md)。
 
@@ -130,4 +130,4 @@ ht-degree: 0%
 
 1. 您現在可以執行工作流程。 執行後，查詢的資料目標將匯出至SFTP伺服器，並匯出至加密的。gpg檔案。
 
-   ![](assets/gpg-sftp-encrypt.png)
+   ![](assets/do-not-localize/gpg-sftp-encrypt.png)

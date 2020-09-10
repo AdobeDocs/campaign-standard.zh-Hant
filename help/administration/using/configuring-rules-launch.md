@@ -13,7 +13,7 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3bace60da0b3cdbbc693507a03cbfb6886b15b4e
+source-git-commit: 2112f93fba368435850957e6e90b7c7c88ddf248
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 0%
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 1. 從下拉 **[!UICONTROL Extension]** 式清單中，選取 **[!UICONTROL Mobile Core]**。 然 **[!UICONTROL Experience Cloud ID]** 後在 **[!UICONTROL Data element]** 類型下拉式清單中。
 
-   ![](assets/rules_1.png)
+   ![](assets/do-not-localize/rules_1.png)
 
 1. 若要建立Pkey資料元素，請按一下 **[!UICONTROL Add data element]**。
 
@@ -143,7 +143,7 @@ ht-degree: 0%
 
 1. In **[!UICONTROL Timeout]**, select 0.
 
-   ![](assets/rules_2.png)
+   ![](assets/do-not-localize/rules_2.png)
 
 您的使用者資料現在已設定為傳送至Campaign。
 
@@ -179,7 +179,7 @@ ht-degree: 0%
 
 1. In **[!UICONTROL Timeout]**, select 0.
 
-   ![](assets/rules_3.png)
+   ![](assets/do-not-localize/rules_3.png)
 
 ### 推播通知追蹤回傳 {#push-tracking-postback}
 
@@ -189,7 +189,7 @@ ht-degree: 0%
 
 若要追蹤應用程式動作，請使用trackAction API。 如需詳細資訊，請參閱「 [追蹤應用程式動作](https://app.gitbook.com/@aep-sdks/s/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#track-app-actions)」。
 
-1. 在行 [!DNL Experience Platform Launch]動應用程式儀表板中，按一下標 **[!UICONTROL Rules]** 簽，然後按一下 **[!UICONTROL Add Rule]**。
+1. 在行 [!DNL Experience Platform Launch]動應用程式儀表板中，按一下標 **[!UICONTROL Rules]** 簽並按一下 **[!UICONTROL Add Rule]**。
 
 1. 輸入名稱，例如 **Adobe Campaign —— 推播點按追蹤**。
 
@@ -219,7 +219,7 @@ ht-degree: 0%
 
 ### 位置回傳 {#location-postback}
 
-1. 在行 [!DNL Experience Platform Launch]動應用程式儀表板中，按一下標 **[!UICONTROL Rules]** 簽，然後按一下 **[!UICONTROL Add Rule]**。
+1. 在行 [!DNL Experience Platform Launch]動應用程式儀表板中，按一下標 **[!UICONTROL Rules]** 簽並按一下 **[!UICONTROL Add Rule]**。
 
 1. 鍵入名稱，例如「位 **置」回傳**。
 
@@ -264,4 +264,4 @@ ht-degree: 0%
 
 1. In **[!UICONTROL Timeout]**, select 5.
 
-   ![](assets/rules_4.png)
+   ![](assets/do-not-localize/rules_4.png)

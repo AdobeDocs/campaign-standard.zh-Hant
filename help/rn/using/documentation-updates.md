@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 99edde2738ebf9d2a742aa467b049d6ec7761cc1
 workflow-type: tm+mt
-source-wordcount: '6097'
+source-wordcount: '6128'
 ht-degree: 94%
 
 ---
@@ -28,19 +28,23 @@ ht-degree: 94%
 
 「事件事務性訊息」區段已重新組織並釐清。 [顯示全文](../../channels/using/event-transactional-messages.md)
 
+已新增警告附註，以警告使用者有關記錄檔存取權限限制的問題。 [顯示全文](../../administration/using/users-management.md)
+
+已新增新區段，以詳細說明建立新品牌的程式。 [顯示全文](../../administration/using/branding.md#creating-a-brand)
+
 ## 檔案更新 – 2020 年 8 月 {#doc-updates-august-2020}
 
 現在提供有關交易式訊息快速入門的新更新章節。 [顯示全文](../../channels/using/getting-started-with-transactional-msg.md)
 
-已移動「事務性消息傳送限制」部分。 [顯示全文](../../channels/using/transactional-messaging-limitations.md)
+「事 **務性傳訊限制** 」區段已移 [至](../../channels/using/transactional-messaging-limitations.md)
 
-「準備傳送」區段已移動。 [顯示全文](../../sending/using/preparing-the-send.md)
+「準 **備傳送** 」區段已移 [至](../../sending/using/preparing-the-send.md)
 
 ## 檔案更新 – 2020 年 7 月 {#doc-updates-july-2020}
 
 新增了與「促銷活動標準」監控相關的准則。 [顯示全文](../../administration/using/monitoring-guidelines.md)
 
-外部API護欄和限制區段已更新。[顯示全文](../../automating/using/external-api.md#guardrails)
+外部API護欄和限制區段已更新。 [顯示全文](../../automating/using/external-api.md#guardrails)
 
 「隱私權管理概述」頁面已更新，加入泰國個人資料保護法(PDPA)和巴西Lei Geral de Proteção de Dados(LGPD)的相關資訊。 [顯示全文](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 

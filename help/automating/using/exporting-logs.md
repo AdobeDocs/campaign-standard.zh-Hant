@@ -12,7 +12,10 @@ discoiquuid: ca8a95d8-523f-4085-a2fc-e1d8262cfbae
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
+source-git-commit: 3895755aa2eeceb837f78f591bb6504d3eadec1f
+workflow-type: tm+mt
+source-wordcount: '597'
+ht-degree: 14%
 
 ---
 
@@ -21,9 +24,13 @@ source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 記錄資料，不論是與傳送或訂閱相關，都可透過簡單的工作流程匯出。 它可讓您在自己的報表或BI工具中分析促銷活動的結果。
 
+>[!CAUTION]
+>
+>只有具有角色 [和所有單位](../../administration/using/users-management.md#functional-administrators)存取權的職能管理員 **[!UICONTROL Administration]****** ，才能存取傳送記錄、訊息記錄、追蹤記錄、排除或訂閱記錄。 非管理員使用者可以定位這些記錄檔，但是從連結的表格（描述檔、傳送）開始。
+
 使用只 **[!UICONTROL Incremental query]** 在每次執行工作流時檢索新日誌和用簡單活動來定義輸出列的 **[!UICONTROL Extract file]** 檔案，可以獲得格式和所需的所有資料的檔案。 然後使用活 **[!UICONTROL Transfer file]** 動來擷取最終檔案。 每個工作流執行都由計畫 **[!UICONTROL Scheduler]**。
 
-出口日誌操作可由標準用戶執行。 私人資源，例如： profiles上的broadlogs、追蹤記錄、排除記錄訂閱記錄和訂閱記 **錄記錄** ，只能由功能管理員管理。
+出口日誌操作可由標準用戶執行。 私人資源，例如：profiles上的broadlogs、追蹤記錄、排除記錄訂閱記錄和訂閱記 **錄記錄** ，只能由功能管理員管理。
 
 1. 建立新的工作流程，如本節 [所述](../../automating/using/building-a-workflow.md#creating-a-workflow)。
 1. 新增活 **[!UICONTROL Scheduler]** 動並根據您的需求加以設定。 以下是每月執行的範例。
@@ -36,7 +43,7 @@ source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
       ![](assets/export_logs_query_properties.png)
 
-   * 在標籤 **[!UICONTROL Target]** 中，設定條件以擷取與2016年或之後傳送之傳送相對應的所有傳送記錄。 如需詳細資訊，請參閱「編 [輯查詢](../../automating/using/editing-queries.md#creating-queries) 」一節。
+   * 在標籤 **[!UICONTROL Target]** 中，設定條件以擷取與2016年或之後傳送之傳送相對應的所有傳送記錄。 For more information, refer to the [Editing queries](../../automating/using/editing-queries.md#creating-queries) section.
 
       ![](assets/export_logs_query_target.png)
 
@@ -44,7 +51,7 @@ source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
       ![](assets/export_logs_query_processeddata.png)
 
-      在第一次執行工作流程後，您可以在此標籤中看到下次執行時使用的最後一個執行日期。 每次執行工作流程時，都會自動更新它。 您仍然可以手動輸入新值來覆寫此值，以符合您的需求。
+      在第一次執行工作流程後，您可以在此索引標籤中看到下次執行時使用的最後一個執行日期。每次執行工作流程時，都會自動更新它。您仍然可以手動輸入新值來覆寫此值，以符合您的需求。
 
 1. 新增將 **[!UICONTROL Extract file]** 匯出檔案中查詢資料的活動：
 
@@ -62,7 +69,7 @@ source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
    * 在標籤 **[!UICONTROL File structure]** 中，定義輸出檔案的格式以符合您的需求。
 
-      勾選選 **[!UICONTROL Export labels instead of internal values of enumerations]** 選項，以備您匯出列舉值時使用。 此選項可讓您擷取較短的標籤，這些標籤很容易理解，而非ID。
+      核取 **[!UICONTROL Export labels instead of internal values of enumerations]** 選項，以備您匯出分項清單時使用。此選項可讓您擷取較短的標籤，與 ID 不同，這些標籤很容易理解。
 
 1. 新增活 **[!UICONTROL Transfer file]** 動並設定它，將新建立的檔案從Adobe Campaign伺服器傳輸至您可存取的其他位置，例如SFTP伺服器。
 

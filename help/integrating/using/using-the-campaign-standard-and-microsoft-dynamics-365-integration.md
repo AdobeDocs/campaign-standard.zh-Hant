@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ca6b418351cfbe539da9f1f4a542c2d7014dfc24
+source-git-commit: cd1cbf907eb160b6bbc1a2a2d3dd1c601ac13635
 workflow-type: tm+mt
 source-wordcount: '1186'
 ht-degree: 0%
@@ -105,7 +105,8 @@ ht-degree: 0%
 >電子郵件鏡像頁面的到期期間可在對應的「促銷活動」電子郵件渠道活動的設定畫面中加以修改(請參 [閱「有效期間參數](../../administration/using/configuring-email-channel.md#validity-period-parameters)」)。
 
 >[!NOTE]
-對於選擇退出，在Dynamics 365中修改選擇退出屬性時，如果您已選取Dynamics 365到促銷活動或雙向選擇退出設定，且您已正確對應該特定屬性，則該屬性會反映在促銷活動中。
+>
+>對於選擇退出，在Dynamics 365中修改選擇退出屬性時，如果您已選取Dynamics 365到促銷活動或雙向選擇退出設定，且您已正確對應該特定屬性，則該屬性會反映在促銷活動中。
 
 ## 資料流 {#data-flows}
 
@@ -124,7 +125,8 @@ ht-degree: 0%
 Campaign描述檔表格屬性externalId必須填入Dynamics 365 Contact屬性contactId，才能讓連絡人進入工作。 促銷活動自訂實體也必須填入Dynamics 365唯一ID屬性；不過，此屬性可儲存在任何促銷活動自訂實體屬性中（亦即不必是externalId）。
 
 >[!NOTE]
-對於自訂實體入口，必須在Dynamics 365中為同步化的自訂實體啟用變更追蹤。
+>
+>對於自訂實體入口，必須在Dynamics 365中為同步化的自訂實體啟用變更追蹤。
 
 ### 電子郵件行銷活動流程
 

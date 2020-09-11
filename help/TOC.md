@@ -4,10 +4,10 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard 說明
 translation-type: tm+mt
-source-git-commit: 92c743c707412f25160ca31ab1da04210ad40816
+source-git-commit: ec32aa2a955486362f100382f3a78004fdae4a4f
 workflow-type: tm+mt
-source-wordcount: '1597'
-ht-degree: 86%
+source-wordcount: '1628'
+ht-degree: 85%
 
 ---
 
@@ -237,7 +237,14 @@ ht-degree: 86%
       + [測試您的觸發程式](integrating/using/testing-your-triggers.md)
       + [廢棄觸發程式使用案例](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign 和 Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-      + [開始使用 Microsoft Dynamics 365 整合](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+      + [開始使用 Dynamics 365 整合](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+      + [管理促銷活動和Dynamics之間的資料365](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
+      + [要求整合](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
+      + [設定Adobe I/O](integrating/using/configure-adobe-io-for-ms-dynamic.md)
+      + [設定 Dynamics 365 以進行 Campaign 整合](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
+      + [映射促銷活動自訂資源和Dynamics 365自訂實體](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
+      + [使用 Dynamics 365 整合](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
+      + [整合護欄](integrating/using/ms-dynamics-365-integration-guardrails.md)
 + 管理流程和資料 {#managing-processes-and-data}
    + [開始使用資料和流程管理](automating/using/get-started-workflows.md)
    + 工作流程一般操作 {#workflow-general-operation}

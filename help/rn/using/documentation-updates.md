@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 99edde2738ebf9d2a742aa467b049d6ec7761cc1
+source-git-commit: ec32aa2a955486362f100382f3a78004fdae4a4f
 workflow-type: tm+mt
-source-wordcount: '6128'
+source-wordcount: '6140'
 ht-degree: 94%
 
 ---
@@ -31,6 +31,8 @@ ht-degree: 94%
 已新增警告附註，以警告使用者有關記錄檔存取權限限制的問題。 [顯示全文](../../administration/using/users-management.md)
 
 已新增新區段，以詳細說明建立新品牌的程式。 [顯示全文](../../administration/using/branding.md#creating-a-brand)
+
+全新的Campaign Standard - Microsoft Dynamics 365整合現已推出。 [顯示全文](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 ## 檔案更新 – 2020 年 8 月 {#doc-updates-august-2020}
 

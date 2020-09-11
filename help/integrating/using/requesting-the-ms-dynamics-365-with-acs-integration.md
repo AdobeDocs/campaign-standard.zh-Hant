@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e90f878814e65a9a61ee4013d94fd0bf3b1f7875
+source-git-commit: 0ce73bf7e250c5e88bbb525854e81ef27662ab06
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 3%
@@ -61,12 +61,12 @@ ht-degree: 3%
 
 對於整合資料流的任何問題，請務必將報表套裝納入問題說明以及下列資訊：
 
-* 流程所有者：工程設計師
+* **流程所有者**:工程設計師
 
-* ES進程ID: [在上線過程中提供]
+* **ES進程ID**:在上線過程中提供
 
-* 流程標題：Dynamics 365 / Adobe Campaign Standard整合
+* **流程標題**:Dynamics 365 / Adobe Campaign Standard整合
 
-* 問題說明： [問題說明]
+* **問題說明**:問題說明
 
 整合支援目前提供24x5（星期一至星期五提供，不包括Adobe節假日和中斷時段）。

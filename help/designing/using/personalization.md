@@ -12,10 +12,10 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
+source-git-commit: 8e4f25a1d9ad2aa8fb74a6ddd096bda696f502da
 workflow-type: tm+mt
-source-wordcount: '2536'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 1%
 
 Adobe Campaign傳遞的訊息內容和顯示方式可透過多種不同方式個人化。 這些方式可根據條件結合，視描述檔而定。 一般而言，Adobe Campaign 允許您：
 
-* 插入動態的個人化欄位。請參 [閱插入個人化欄位](#inserting-a-personalization-field)。
-* 插入預先定義的個人化區塊。 請參 [閱新增內容區塊](#adding-a-content-block)。
+* 插入動態的個人化欄位。請參閱[插入個人化欄位](#inserting-a-personalization-field)。
+* 插入預先定義的個人化區塊。 請參閱[新增內容區塊](#adding-a-content-block)。
 * 個人化電子郵件的寄件者。 請參 [閱個人化傳送者](#personalizing-the-sender)。
 * 個人化電子郵件的主題。 See [Personalizing the subject line of an email](../../designing/using/subject-line.md#subject-line).
 * 建立有條件的內容。請參 [閱定義電子郵件中的動態內容](#defining-dynamic-content-in-an-email)。
@@ -46,7 +46,7 @@ Adobe Campaign傳遞的訊息內容和顯示方式可透過多種不同方式個
 
 Adobe Campaign可讓您新增個人化欄位、內容區塊或動態內容，以個人化訊息中的一或多個URL。 操作步驟：
 
-1. 插入外部URL並指定其參數。 請參 [閱插入連結](../../designing/using/links.md#inserting-a-link)。
+1. 插入外部URL並指定其參數。 See [Inserting a link](../../designing/using/links.md#inserting-a-link).
 1. 如果未顯示，請按一下「設定」窗格中選取之URL旁的鉛筆，以存取個人化選項。
 1. 新增您要使用的個人化欄位、內容區塊和動態內容。
 
@@ -76,7 +76,7 @@ Adobe Campaign可讓您將資料庫中的欄位插入頁面，例如描述檔的
 
    ![](assets/email_perso_field_2.png)
 
-1. 按一下「**[!UICONTROL Confirm]**」。
+1. 按一下 **[!UICONTROL Confirm]**。
 
 欄位名稱會出現在編輯器中，並反白顯示。
 
@@ -88,7 +88,7 @@ Adobe Campaign可讓您將資料庫中的欄位插入頁面，例如描述檔的
 >
 >如果電子郵件是從工作流程建立，在工作流程中計算的其他資料也會顯示在個人化欄位中。 有關從工作流中添加其他資料的詳細資訊，請參閱「豐 [富資料](../../automating/using/about-targeting-activities.md#enriching-data) 」部分。
 
-## 新增內容區塊{#adding-a-content-block}
+## Adding a content block{#adding-a-content-block}
 
 Adobe Campaign提供預先設定的內容區塊清單。 這些內容區塊是動態、個人化的，並具有特定的演算。 例如，您可以添加問候語或鏡像頁面的連結。
 
@@ -106,7 +106,7 @@ Adobe Campaign提供預先設定的內容區塊清單。 這些內容區塊是�
 
    ![](assets/email_content_block_2.png)
 
-1. 按一下「**[!UICONTROL Save]**」。
+1. 按一下 **[!UICONTROL Save]**。
 
 內容區塊的名稱會顯示在編輯器中，並以黃色反白顯示。 當個人化產生時，它會自動調整至個人檔案。
 
@@ -114,17 +114,17 @@ Adobe Campaign提供預先設定的內容區塊清單。 這些內容區塊是�
 
 現成可用的內容區塊包括：
 
-* **[!UICONTROL Database URL in emails (EmailUrlBase)]**: 此內容區塊只能用於傳 **送**。
-* **[!UICONTROL Mirror page URL (MirrorPageUrl)]**: 此內容區塊只能用於傳 **送**。
-* **[!UICONTROL Link to mirror page (MirrorPage)]**: 此內容區塊只能用於傳 **送**。
+* **[!UICONTROL Database URL in emails (EmailUrlBase)]**:此內容區塊只能用於傳 **送**。
+* **[!UICONTROL Mirror page URL (MirrorPageUrl)]**:此內容區塊只能用於傳 **送**。
+* **[!UICONTROL Link to mirror page (MirrorPage)]**:此內容區塊只能用於傳 **送**。
 * **[!UICONTROL Greetings (Greetings)]**
-* **[!UICONTROL Unsubscription link (UnsubscriptionLink)]**: 此內容區塊只能用於傳 **送**。
-* **[!UICONTROL Social network sharing links (LandingPageViralLinks)]**: 此內容區塊僅能用於著 **陸頁面**。
-* **[!UICONTROL Default sender name (DefaultSenderName)]**: 此內容區塊只能用於傳 **送**。
-* **[!UICONTROL Name of default reply-to email address (DefaultReplyName)]**: 此內容區塊只能用於傳 **送**。
-* **[!UICONTROL Email address of default sender (DefaultSenderAddress)]**: 此內容區塊只能用於傳 **送**。
-* **[!UICONTROL Default error email address (DefaultErrorAddress)]**: 此內容區塊只能用於傳 **送**。
-* **[!UICONTROL Default reply-to email address (DefaultReplyAddress)]**: 此內容區塊只能用於傳 **送**。
+* **[!UICONTROL Unsubscription link (UnsubscriptionLink)]**:此內容區塊只能用於傳 **送**。
+* **[!UICONTROL Social network sharing links (LandingPageViralLinks)]**:此內容區塊僅能用於著 **陸頁面**。
+* **[!UICONTROL Default sender name (DefaultSenderName)]**:此內容區塊只能用於傳 **送**。
+* **[!UICONTROL Name of default reply-to email address (DefaultReplyName)]**:此內容區塊只能用於傳 **送**。
+* **[!UICONTROL Email address of default sender (DefaultSenderAddress)]**:此內容區塊只能用於傳 **送**。
+* **[!UICONTROL Default error email address (DefaultErrorAddress)]**:此內容區塊只能用於傳 **送**。
+* **[!UICONTROL Default reply-to email address (DefaultReplyAddress)]**:此內容區塊只能用於傳 **送**。
 * **[!UICONTROL Brand name (BrandingUsualName)]**
 * **[!UICONTROL Link to the brand website (BrandingWebSiteLink)]**
 * **[!UICONTROL Brand logo (BrandingLogo)]**
@@ -144,16 +144,17 @@ Adobe Campaign提供預先設定的內容區塊清單。 這些內容區塊是�
 1. 輸入標籤。
 1. 選擇塊的 **[!UICONTROL Content type]**。 有三種可用選項：
 
-   * **[!UICONTROL Shared]**: 內容區塊可用於傳送或著陸頁面。
-   * **[!UICONTROL Delivery]**: 內容區塊只能用於傳送。
-   * **[!UICONTROL Landing page]**: 內容區塊只能用於著陸頁面。
+   * **[!UICONTROL Shared]**:內容區塊可用於傳送或著陸頁面。
+   * **[!UICONTROL Delivery]**:內容區塊只能用於傳送。
+   * **[!UICONTROL Landing page]**:內容區塊只能用於著陸頁面。
+
    ![](assets/content_bloc_02.png)
 
 1. 您可以選取 **[!UICONTROL Targeting dimension]**。 如需詳細資訊，請參閱關於 [定位維度](#about-targeting-dimension)。
 
    ![](assets/content_bloc_04.png)
 
-1. 您可以選取選 **[!UICONTROL Depends on format]** 項來定義兩個不同的區塊： 一個用於HTML電子郵件，一個用於文本格式的電子郵件。 然後，編輯器（HTML和Text）中會顯示兩個標籤，以定義對應的內容。
+1. 您可以選取選 **[!UICONTROL Depends on format]** 項來定義兩個不同的區塊：一個用於HTML電子郵件，一個用於文本格式的電子郵件。 然後，編輯器（HTML和Text）中會顯示兩個標籤，以定義對應的內容。
 
    ![](assets/content_bloc_03.png)
 
@@ -175,7 +176,7 @@ Adobe Campaign提供預先設定的內容區塊清單。 這些內容區塊是�
 
 如果您將此欄位保留為空白，則無論定位維度為何，內容區塊都會與所有訊息相容。 如果您設定定位維度，該區塊將僅與具有相同定位維度的訊息相容。
 
-如需詳細資訊，請參閱「定 [位維度和資源」](../../automating/using/query.md#targeting-dimensions-and-resources)。
+如需詳細資訊，請參閱[目標維度和資源](../../automating/using/query.md#targeting-dimensions-and-resources)。
 
 **相關主題：**
 
@@ -201,7 +202,7 @@ Adobe Campaign可讓您根據特定標準或使用追蹤，個人化訊息中的
 
    >[!NOTE]
    >
-   >網域名稱(http://mydomain.com)無法個人化，必須手動輸入。 其餘的URL可以個人化。 例如： http://mydomain.com/ `[Gender]` .jpg
+   >網域名稱(http://mydomain.com)無法個人化，必須手動輸入。 其餘的URL可以個人化。 例如：http://mydomain.com/ `[Gender]` .jpg
 
 1. 確認您的變更。
 
@@ -209,13 +210,13 @@ Adobe Campaign可讓您根據特定標準或使用追蹤，個人化訊息中的
 
 ### 定義可見性條件{#defining-a-visibility-condition}
 
-您可以在任何元素上指定可見性條件。 只有在遵守條件時，才會顯示它。
+您可以在任何元素上指定可見性條件。 只有在遵守條件時，才會顯示。
 
 要添加可見性條件，請選擇一個塊，然後在其設定欄位中輸入要 **[!UICONTROL Visibility condition]** 考慮的條件。
 
 ![](assets/delivery_content_5.png)
 
-此選項僅適用於下列元素： 地址、塊引號、中心、目錄、DIV、DL、FIELDSET、FORM、H1、H2、H3、H4、H5、H6、NOSCRIPT、OL、P、PRE、UL、TR、TD。
+此選項僅適用於下列元素：地址、塊引號、中心、目錄、DIV、DL、FIELDSET、FORM、H1、H2、H3、H4、H5、H6、NOSCRIPT、OL、P、PRE、UL、TR、TD。
 
 運算式編輯器會顯示在「進階運算式 [編輯」區段中](../../automating/using/editing-queries.md#about-query-editor) 。
 
@@ -226,6 +227,11 @@ Adobe Campaign可讓您根據特定標準或使用追蹤，個人化訊息中的
 >無法為已包含具有動態內容的子元素的區塊或已構成動態內容的區塊定義條件。 無法編輯非可見的動態區塊（如下拉式清單）。
 
 ### 定義電子郵件中的動態內容{#defining-dynamic-content-in-an-email}
+
+>[!CONTEXTUALHELP]
+>id="ac_dynamic_content"
+>title="定義動態內容"
+>abstract="根據運算式編輯器中定義的規則，為收件者定義不同的內容。"
 
 在電子郵件中，您可以定義不同的內容，這些內容會根據透過運算式編輯器定義的條件動態顯示給收件者。 例如，您可以從相同的電子郵件，確保每個描述檔會根據其年齡範圍收到不同的訊息。
 
@@ -240,7 +246,7 @@ Adobe Campaign可讓您根據特定標準或使用追蹤，個人化訊息中的
 
    ![](assets/dynamic_content_3.png)
 
-   依預設，本節包含兩個元素： 預設變體和新變體。
+   依預設，本節包含兩個元素：預設變體和新變體。
 
    >[!NOTE]
    >
@@ -301,7 +307,7 @@ Adobe Campaign可讓您根據特定標準或使用追蹤，個人化訊息中的
 
    ![](assets/delivery_content_61.png)
 
-   您資料庫中的某些描述檔會對應這兩種情況，但只能傳送一封包含一動態內容的電子郵件。
+   您資料庫中的某些描述檔會對應這兩種情況，但只能傳送一封包含動態內容的電子郵件。
 
 1. 因此，您必須定義動態內容的優先順序。 即使優先順序順序為 **1** （以及相應的動態內容）的條件也由此配置檔案滿足其優先順序順序為 **2****或** 3的其它條件，該條件也將被發送到配置檔案。
 
@@ -309,9 +315,9 @@ Adobe Campaign可讓您根據特定標準或使用追蹤，個人化訊息中的
 
 每個動態內容只能定義一個優先順序。
 
-## 範例： 電子郵件個人化{#example-email-personalization}
+## 範例：電子郵件個人化{#example-email-personalization}
 
-在此範例中，行銷服務團隊的一名成員已建立電子郵件，通知他的部分客戶，只有他們有特別優惠。 該團隊成員決定根據客戶各自的年齡將電子郵件個人化。 18至27歲的客戶將收到一封電子郵件，其中包含不同的圖片和口號，給27歲以上的客戶。
+在此範例中，行銷服務團隊的一名成員已建立電子郵件，通知部分客戶，只有他們有特別優惠。 該團隊成員決定根據客戶各自的年齡將電子郵件個人化。 18至27歲的客戶將收到一封電子郵件，其中包含不同的圖片和口號，給27歲以上的客戶。
 
 電子郵件的建立方式如下：
 
@@ -328,6 +334,11 @@ Adobe Campaign可讓您根據特定標準或使用追蹤，個人化訊息中的
    新增和設定個人化欄位的詳細資訊，請參閱「 [插入個人化欄位](#inserting-a-personalization-field) 」一節。
 
 ### 設定影像 {#configuring-images}
+
+>[!CONTEXTUALHELP]
+>id="ac_dynamic_image"
+>title="管理動態影像"
+>abstract="根據運算式編輯器中定義的規則，使用動態影像個人化您的電子郵件。"
 
 在此範例中，套用至影像的動態內容設定如下：
 

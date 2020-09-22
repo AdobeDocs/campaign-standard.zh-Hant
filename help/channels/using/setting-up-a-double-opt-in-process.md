@@ -12,10 +12,10 @@ discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '1146'
-ht-degree: 90%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 90%
 
    ![](assets/optin_confirmlp_newelement.png)
 
-   此內容會移除「拒絕列出」欄位，以便能夠傳送電子郵件。 我們稍後會看到，第一個登錄頁面在確認前將此欄位設為 **true**，以防止傳送電子郵件至未確認的設定檔。如需詳細資訊，請參閱 [步驟 3：建立贏取登錄頁面](#step-3--create-the-acquisition-landing-page)。
+   此內容會移除「登入清單」欄位，以便能夠傳送電子郵件。 我們稍後會看到，第一個登錄頁面在確認前將此欄位設為 **true**，以防止傳送電子郵件至未確認的設定檔。如需詳細資訊，請參閱 [步驟 3：建立贏取登錄頁面](#step-3--create-the-acquisition-landing-page)。
 
 1. 自訂登錄頁面的內容：例如，您可以顯示個人化資料，並將確認按鈕的標籤變更為「按一下此處確認我的訂閱」。
 
@@ -101,12 +101,12 @@ ht-degree: 90%
 
 ### 建立類型 {#create-the-typology-rule}
 
-您需要建立特定[類型](../../sending/using/about-typology-rules.md)，方法是複製現成可用的類型。類型學允許傳送訊息給尚未確認其同意且仍被拒絕的個人檔案。 依預設，排除選擇退出（即拒絕列出）描述檔的類型。 若要建立此類型，請依照下列步驟進行：
+您需要建立特定[類型](../../sending/using/about-typology-rules.md)，方法是複製現成可用的類型。分類法將允許傳送訊息給尚未確認同意且仍在密文名單中的個人檔案。 依預設，排除選擇退出（亦即登入清單）描述檔的類型。 若要建立此類型，請依照下列步驟進行：
 
 1. 從 Adobe Campaign 標誌中，選取&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** 並按一下 **[!UICONTROL Typologies]**。
 1. 複製現成可用的類型 **[!UICONTROL Transactional message on profile (mcTypologyProfile)]**。
 1. 複製確認後，請編輯新的類型，並輸入標籤 **TYPOLOGY_PROFILE**。
-1. Remove the **Denylisted address** rule.
+1. 移除「登 **錄清單上的地址** 」規則。
 1. 按一下 **[!UICONTROL Save]**。
 
 此類型現在可與確認電子郵件關聯。

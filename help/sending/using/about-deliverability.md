@@ -13,7 +13,7 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
+source-git-commit: 5b99fb9fbf8bdac506aeb8a35f30a7ef33aaa7e6
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -47,7 +47,7 @@ ht-degree: 0%
 ## 傳遞性工具 {#deliverability-tools}
 
 首先，請先參閱Campaign Standard隨附之傳遞性工具相關檔案：
-* [提供最佳實務](https://helpx.adobe.com/tw/campaign/kb/delivery-best-practices.html)
+* [提供最佳實務](../../sending/using/delivery-best-practices.md)
 * [個人化傳送者名稱](../../designing/using/personalization.md#personalizing-the-sender)
 * [測試電子郵件的主旨行](../../sending/using/testing-subject-line-email.md)
 * [最佳化傳送時間](../../sending/using/optimizing-the-sending-time.md)

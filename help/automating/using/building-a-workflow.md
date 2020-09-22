@@ -12,11 +12,11 @@ discoiquuid: c26fcb0e-19d5-4bd5-b7d6-2d22ce92ad90
 context-tags: workflow,wizard;workflow,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 422f5eb7011dfcc1d923079e7346394a64934a9a
-workflow-type: ht
-source-wordcount: '929'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: bbb059c2094558ec02661cb6f41d50a91038d58b
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -34,6 +34,10 @@ ht-degree: 100%
 您可以在執行工作流之前或之後開啟活動以檢查或編輯參數。
 
 您可以開啟轉變來檢查在執行工作流程期間或之後傳送的資料是否正確。若要存取轉變的詳細檢視，您必須核取工作流程屬性 **[!UICONTROL Execution]** 區段中的 **[!UICONTROL Keep interim results]** 選項。
+
+>[!CAUTION]
+>
+>此選項佔用了大量磁碟空間，設計旨在幫助您建構工作流程並確保正確的設定和行為。在生產執行個體中保留未核取的狀態。
 
 ![](assets/workflow_overview.png)
 
@@ -96,7 +100,7 @@ ht-degree: 100%
 
 1. 從浮動視窗拖曳活動並將之拖曳至圖中，以新增活動。
 
-   例如，在圖表中新增&#x200B;**[開始](../../automating/using/start-and-end.md)**活動，之後新增**[&#x200B;電子郵件傳送](../../automating/using/email-delivery.md)**活動。
+   例如，在圖表中新增&#x200B;**[開始](../../automating/using/start-and-end.md)**&#x200B;活動，之後新增&#x200B;**[電子郵件傳送](../../automating/using/email-delivery.md)**&#x200B;活動。
 
 1. 將&#x200B;**開始**&#x200B;活動轉變拖曳至&#x200B;**電子郵件傳送**&#x200B;活動，將活動連結在一起。
 

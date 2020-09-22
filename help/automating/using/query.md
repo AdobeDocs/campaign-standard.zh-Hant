@@ -13,10 +13,10 @@ context-tags: query,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3cb37426410eeb8be04c9c75afa4505894b15140
+source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
 workflow-type: tm+mt
-source-wordcount: '1720'
-ht-degree: 97%
+source-wordcount: '1708'
+ht-degree: 96%
 
 ---
 
@@ -71,9 +71,7 @@ ht-degree: 97%
 
 目標維度和資源可讓您定義查詢要依據哪些元素來判斷傳送的目標。
 
-目標維度是在定位對應中定義。如需詳細資訊，請參閱[本區段](../../administration/using/target-mappings-in-campaign.md)。
-
-目標維度和資源是在建立工作流程時，在「查詢」活動的 **[!UICONTROL Properties]** 索引標籤中定義。
+它們是在目 [標映射中配置](../../administration/using/target-mappings-in-campaign.md)，並在建立工作流時在「查詢」活動 **[!UICONTROL Properties]** 的頁籤中定義。
 
 >[!NOTE]
 >

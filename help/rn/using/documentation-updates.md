@@ -12,10 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 23e3b1c3105fd99ec0cd67cb4a3ca5e565604449
+source-git-commit: 5eab422b797e1d486fded57cb64f94fb709d6681
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '6215'
+ht-degree: 92%
 
 ---
 
@@ -39,6 +39,8 @@ Journey AI整合——閱 [讀更多](../../sending/using/predictive.md)
 運用運算式編輯器中提供的新函式，豐富了如何使用外部參數呼叫工作流程的章節。 [顯示全文](../../automating/using/customizing-workflow-external-parameters.md)
 
 在工作流程中已新增建議，以瞭解每個工作流程要使用的活動數。 [顯示全文](../../automating/using/best-practices-workflows.md#number-activities)
+
+已新增有關「傳送」最佳實務的新章節。 [顯示全文](../../sending/using/delivery-best-practices.md)
 
 ## 檔案更新 – 2020 年 9 月{#doc-updates-september-2020}
 
@@ -176,7 +178,7 @@ MCPNS 在設定行動應用程式時增加了限制。[瞭解詳情](https://hel
 
 Adobe Campaign Standard / Adobe Experience Manager 整合檔案已更新和改進。[瞭解詳情](../../integrating/using/configure-experience-manager.md)
 
-Campaign 電子郵件設計工具檔案和相關頁面已更新，以反映 Adobe Creative SDK 折舊。[瞭解詳情](https://helpx.adobe.com/tw/campaign/kb/acs-deprecated-and-removed-features.html)
+The Campaign Email Designer documentation and related pages have been updated to reflect [!DNL Adobe Creative SDK] depreciation. [瞭解詳情](https://helpx.adobe.com/tw/campaign/kb/acs-deprecated-and-removed-features.html)
 
 現在提供 Campaign Standard 資料模型最佳實務的新區段。[瞭解詳情](../../developing/using/data-model-best-practices.md)
 
@@ -248,9 +250,9 @@ API 檔案首頁已經過改良，並重新導向不同的主題。[瞭解詳情
 
 API 檔案集已整合至 Campaign Standard 檔案。[瞭解詳情](../../api/using/get-started-apis.md)
 
-「建立個人化電子郵件快速入門」指南已移動並更新。[瞭解詳情](https://helpx.adobe.com/tw/campaign/kb/acs-get-started-with-emails.html)
+「建立個人化電子郵件快速入門」區段已移動並更新。 [顯示全文](https://helpx.adobe.com/tw/campaign/kb/acs-get-started-with-emails.html)
 
-更新「傳遞最佳實務快速入門手冊」。[瞭解詳情](https://helpx.adobe.com/tw/campaign/kb/delivery-best-practices.html)
+更新「傳遞最佳實務快速入門手冊」。[瞭解詳情](../../sending/using/delivery-best-practices.md)
 
 資料模型已整合至 Campaign Standard 檔案。[瞭解詳情](../../developing/using/datamodel-audience.md)
 
@@ -266,13 +268,13 @@ Microsoft Dynamics 365 整合 (GA) – [瞭解詳情](../../integrating/using/wo
 
 **此版本隨附的其他檔案更新**
 
-Campaign Standard 及 Campaign Classic 的錯誤訊息清單已更新。[顯示全文](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+Adobe Campaign的錯誤訊息清單已更新。 [顯示全文](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
-改善並加強 GDPR 快速入門手冊。該手冊現在是包含 GDPR 及 CCPA 的隱私權管理文件。[瞭解詳情](https://helpx.adobe.com/content/help/tw/campaign/kb/campaign-privacy.html)
+改善並加強 GDPR 快速入門手冊。該手冊現在是包含 GDPR 及 CCPA 的隱私權管理文件。[瞭解詳情](https://helpx.adobe.com/tw/campaign/kb/campaign-privacy.html)
 
 已新增一個圖表，其中顯示交易式訊息發佈程式。[瞭解詳情](../../administration/using/configuring-transactional-messaging.md#transactional-messaging-pub-process)
 
-「傳送最佳實務」快速入門手冊已移動並更新。[瞭解詳情](https://helpx.adobe.com/tw/campaign/kb/delivery-best-practices.html)
+「傳送最佳實務」快速入門手冊已移動並更新。[瞭解詳情](../../sending/using/delivery-best-practices.md)
 
 已新增新區段。它提供可讓您擴充 Campaign Standard 資料庫的不同方法的概觀。[瞭解詳情](../../audiences/using/enriching-campaign-database.md)
 
@@ -610,7 +612,7 @@ GDPR：核心服務整合 – [瞭解詳情](https://helpx.adobe.com/tw/campaign
 
 已新增如何在推播通知中使用自訂欄位的資訊。[瞭解詳情](../../channels/using/customizing-a-push-notification.md#add-custom-fields)
 
-更新傳送最佳實務逐步指南。[瞭解詳情](https://helpx.adobe.com/tw/campaign/kb/delivery-best-practices.html)
+更新傳送最佳實務逐步指南。[瞭解詳情](../../sending/using/delivery-best-practices.md)
 
 已新增追蹤記錄檔類型的資訊。[瞭解詳情](../../sending/using/tracking-messages.md#tracking-logs)
 

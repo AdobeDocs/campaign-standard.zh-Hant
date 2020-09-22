@@ -13,17 +13,17 @@ context-tags: deliveryDomainBreakdownReport,main;campaignDomainBreakdownReport,m
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # 依網域劃分{#breakdown-by-domains}
 
-此報表包含電子郵件傳送對象中每個網域的效能資料。 如果是促銷活動或方案報表，績效資料可供多個對象使用。 此資料可讓您分析每個網域對特定事件的反應行為。 例如，連結顯示、拒絕列出的URL等。
+此報表包含電子郵件傳送對象中每個網域的效能資料。 如果是促銷活動或方案報表，績效資料可供多個對象使用。 此資料可讓您分析每個網域對特定事件的反應行為。 例如，連結顯示、登入清單上的URL等。
 
 ![](assets/delivery_reports_6.png)
 
@@ -42,5 +42,5 @@ ht-degree: 3%
 * **按一下**:內容在傳送中被點按的次數。
 * **取消訂閱**:訂閱連結的點按次數。
 * **鏡像頁**:鏡像頁連結上的點擊次數。
-* **拒絕列出**:宣告電子郵件為垃圾訊息或垃圾訊息的收件者人數。 [進一步瞭解](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* **On denylist**:宣告電子郵件為垃圾訊息或垃圾訊息的收件者人數。 [進一步瞭解](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 

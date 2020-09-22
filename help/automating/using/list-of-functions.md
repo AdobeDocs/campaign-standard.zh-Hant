@@ -11,11 +11,11 @@ topic-tags: filtering-data
 discoiquuid: 3cdbe962-1c59-4cd8-b29e-36aa2562fac6
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: fa9d2be71b4bbf5eceadbd1835db324618f9529c
-workflow-type: ht
-source-wordcount: '1912'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ed920a9b08eb664c2825ba785c75092eb0f2be1e
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -37,6 +37,10 @@ ht-degree: 100%
 * 彙總
 * 字串控制
 * 排序
+
+>[!NOTE]
+>
+>所有活動中都提供其他函式，讓您在使用外部參數呼叫工作流程後使用事件變數。 本節將詳述 [這些內容](../../automating/using/customizing-workflow-external-parameters.md)。
 
 ## 日期 {#dates}
 

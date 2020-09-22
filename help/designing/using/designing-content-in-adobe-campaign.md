@@ -12,7 +12,10 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eb7758c6d2b19bb7a302649626acead97497da9a
+source-git-commit: 67fbf66d8ad358ae5d2caaec5b90beb6304047e6
+workflow-type: tm+mt
+source-wordcount: '1147'
+ht-degree: 4%
 
 ---
 
@@ -65,7 +68,7 @@ source-git-commit: eb7758c6d2b19bb7a302649626acead97497da9a
 
 ![](assets/email_designer_toolbar.png)
 
-編輯 **器介面的** 「上下文」工具欄根據所選區域提供各種功能。 它包含可讓您變更文字樣式的動作按鈕和按鈕。 所執行的修改一律適用於選取的區域。
+編輯 **器介面的** 「上下文」工具欄根據所選區域提供各種功能。 其包含可讓您變更文字樣式的動作按鈕和按鈕。所進行的修改始終適用於選取的區域。
 
 ### 電子郵件設計人員首頁 {#email-designer-home-page}
 
@@ -119,15 +122,15 @@ source-git-commit: eb7758c6d2b19bb7a302649626acead97497da9a
 
    在傳送訊息之前先預覽訊息。 Adobe Campaign提供了使用Litmus測試電子郵件轉譯的方法。 如需詳細資訊，請參閱「電子郵 [件轉換」](../../sending/using/email-rendering.md)。
 
-有關訊息的更多設計與一般最佳實務，請參閱下列Adobe Campaign逐步指南：使 [用Adobe Campaign提供最佳實務](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html)。
+以下部分介紹有關消息的更多設計和一般最佳做法： [提供最佳實務](../../sending/using/delivery-best-practices.md)。
 
 ### 更新片段 {#email-designer-updates}
 
-電子郵件設計人員正在不斷改進。 如果您從頭開始、從現成可用的範本建立電子郵件內容，或者如果您建立片段，下次您開啟內容時可能會收到下列更新訊息：
+電子郵件設計人員正在不斷改進。 如果您從頭開始、從現成可用的範本建立電子郵件內容，或者如果您建立了片段，下次您開啟內容時可能會收到下列更新訊息：
 
 ![](assets/email_designer_fragment_patch_message.png)
 
-Adobe建議將您的內容更新至最新版本，以避免發生CSS衝突等問題。 按一下 **[!UICONTROL Update now]**.
+Adobe建議將您的內容更新至最新版本，以避免發生CSS衝突等問題。 按一下 **[!UICONTROL Update now]**。
 
 如果內容更新期間發生錯誤，請檢查HTML並修正它，然後再次執行此更新。
 
@@ -145,16 +148,16 @@ Adobe建議將您的內容更新至最新版本，以避免發生CSS衝突等問
 
 ## 電子郵件設計人員限制 {#email-designer-limitations}
 
-* 您無法在片段中使用個人化欄位。 如需片段的詳細資訊，請參 [閱本節](../../designing/using/using-reusable-content.md#about-fragments)。
+* 您無法在片段中使用個人化欄位。 For more on fragments, see [this section](../../designing/using/using-reusable-content.md#about-fragments).
 
 <!--* You cannot save directly as a fragment some content of an email that you are editing within the Email Designer. You need to copy-paste the HTML corresponding to that content into a new fragment. For more on this, see [Saving content as a fragment](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).-->
 
 * 在編輯樣式時，只有大多數電子郵件用戶端正式支援的網頁字型才可用。
-* 樣式無法儲存為主題，以供日後重複使用。 不過，CSS樣式可以儲存在內容範本或電子郵件中。 有關樣式的更多資訊，請參 [閱本節](../../designing/using/styles.md)。
+* 樣式無法儲存為主題，以供日後重複使用。 不過，CSS樣式可以儲存在內容範本或電子郵件中。 For more on styles, see [this section](../../designing/using/styles.md).
 
 **相關主題**
 
 * [建立電子郵件](../../channels/using/creating-an-email.md)
 * [設計登錄頁面](../../channels/using/designing-a-landing-page.md)
 * [建立 SMS 訊息](../../channels/using/creating-an-sms-message.md)
-* [建立和傳送推播通知](../../channels/using/preparing-and-sending-a-push-notification.md)
+* [準備和傳送推播通知](../../channels/using/preparing-and-sending-a-push-notification.md)

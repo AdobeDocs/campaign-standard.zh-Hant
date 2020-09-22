@@ -12,7 +12,10 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5e2ea8020c82f578b2cf8c00fa7b9f55b6ce2edd
+source-git-commit: b95a1990cfd8b4ce667c7cb2905af33a261c574b
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -47,7 +50,7 @@ source-git-commit: 5e2ea8020c82f578b2cf8c00fa7b9f55b6ce2edd
 
 您有兩種方式可編輯HTML版本的電子郵件：
 
-* 選擇 **[!UICONTROL Edit]** &gt; **[!UICONTROL HTML]** 以開啟整個電子郵件的HTML版本。
+* 選擇 **[!UICONTROL Edit]** > **[!UICONTROL HTML]** 以開啟整個電子郵件的HTML版本。
 
    ![](assets/email_designer_html1.png)
 
@@ -57,7 +60,7 @@ source-git-commit: 5e2ea8020c82f578b2cf8c00fa7b9f55b6ce2edd
 
    ![](assets/email_designer_html2.png)
 
-如果您修改程式碼的HTML，電子郵件的回應速度可能會中斷。 請務必使用按鈕來測 **[!UICONTROL Preview]** 試。 請參閱 [預覽訊息](../../sending/using/previewing-messages.md)。
+如果您修改程式碼的HTML，電子郵件的回應速度可能會中斷。 請務必使用按鈕來測 **[!UICONTROL Preview]** 試。 請參閱「[預覽訊息](../../sending/using/previewing-messages.md)」。
 
 ## 設計適用於行動裝置轉換的電子郵件 {#switching-to-mobile-view}
 
@@ -106,7 +109,7 @@ source-git-commit: 5e2ea8020c82f578b2cf8c00fa7b9f55b6ce2edd
 
    ![](assets/email_designer_mobile_view_change_content.png)
 
-   再按一下按 **[!UICONTROL Switch to mobile view]** 鈕，返回標準案頭檢視。 會反映變更。
+1. 再按一下按 **[!UICONTROL Switch to mobile view]** 鈕，返回標準案頭檢視。 會反映變更。
 
    ![](assets/email_designer_mobile_view_desktop_content-change.png)
 

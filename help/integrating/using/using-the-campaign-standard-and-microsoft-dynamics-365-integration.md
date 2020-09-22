@@ -12,9 +12,9 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cd1cbf907eb160b6bbc1a2a2d3dd1c601ac13635
+source-git-commit: 6078a16c679d368dd85cecbb8b715e2de3da805a
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 * **出口**:將電子郵件行銷活動從ACS帶入D365（電子郵件傳送、開啟、按一下、彈回）
 
-* **選擇退出**:雙向同步退出狀態（例如blockList）
+* **選擇退出**:雙向同步退出狀態（例如denyList）
 
 有關資料流的詳細資訊，請參 [閱本節](#data-flows)。
 
@@ -149,7 +149,7 @@ D365中顯示以下事件屬性：
 
 ### 退出流程
 
-退出（如blockList）值在系統之間同步；您有下列選項可在上線時選擇：
+退出（如denyList）值在系統之間同步；您有下列選項可在上線時選擇：
 * Dynamics 365是退出的真相來源：退出屬性將會在從Dynamics 365到Campaign Standard的一個方向上同步
 * 「促銷活動標準」是退出的真相來源：退出屬性將會在從促銷活動標準到動態365的一個方向上同步
 * Dynamics 365 AND Campaign Standard是真相的來源：退出屬性將在Campaign Standard和Dynamics 365之間雙向同步
@@ -157,13 +157,13 @@ D365中顯示以下事件屬性：
 或者，如果您有個別的程式來管理系統之間的退出同步，則可停用整合的退出資料流。
 
 選擇退出流程映射由客戶指定，因為不同公司的業務需求可能不同。  在促銷活動方面，只有OOTB選擇退出屬性可用於選擇退出對應：
-* blockList
-* blockListEmail
-* blockListFax
-* blockListMobile
-* blockListPhone
-* blockListPostalMail
-* blockListPush通知
+* denyList
+* denyListEmail
+* denyListFax
+* denyListMobile
+* denyListPhone
+* denyListPostalMail
+* denyListPush通知
 * ccpaOptOut
 
 在Dynamics 365中，大多數選擇退出欄位都有「donot」字首；但是，如果資料類型相容，您也可以利用其他屬性來選擇退出。

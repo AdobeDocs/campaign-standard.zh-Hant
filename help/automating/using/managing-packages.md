@@ -12,11 +12,11 @@ discoiquuid: c3015cdc-8432-4e57-8ac0-43ae7827e3b0
 context-tags: packageDef,overview;packageInstall,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
-workflow-type: ht
-source-wordcount: '1053'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -43,9 +43,11 @@ ht-degree: 100%
 
 ![](assets/packages_14.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
->如果匯出的資源具有預設　ID，則不授權匯出套件。因此，必須使用與　Adobe Campaign Standard　標準範本不同的名稱，以變更可匯出資源的　ID。例如，要匯出測試設定檔，不能使用包含值 &quot;SDM&quot; 或 &quot;sdm&quot; 的 ID。嘗試匯出包含預設 ID 的套件時，您會看到錯誤，例如：「&#39;Brands (branding)&#39; 實體類型使用預設 ID (&#39;BRD1&#39;)，在匯入套件時可能會造成衝突。變更此名稱並重複執行作業。」
+>如果匯出的資源具有預設　ID，則不授權匯出套件。因此，必須使用與　Adobe Campaign Standard　標準範本不同的名稱，以變更可匯出資源的　ID。例如，要匯出測試設定檔，不能使用包含值 &quot;SDM&quot; 或 &quot;sdm&quot; 的 ID。
+>
+>嘗試匯出包含預設 ID 的套件時，您會看到錯誤，例如：「&#39;Brands (branding)&#39; 實體類型使用預設 ID (&#39;BRD1&#39;)，在匯入套件時可能會造成衝突。變更此名稱並重複執行作業。」
 
 [匯出套件](#exporting-a-package)區段會說明套件會出步驟。
 

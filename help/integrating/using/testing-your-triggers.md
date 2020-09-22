@@ -12,10 +12,10 @@ discoiquuid: f67e69f2-09fb-4f33-b2c3-c67a060743e3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 6078a16c679d368dd85cecbb8b715e2de3da805a
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 1%
 
 如果沒有，請聯絡Adobe以檢查管線端點的設定。
 
-如果是，請遵循以下指南行：
+如果是，請遵循下列准則：
 
 * 檢查促銷活動資料來源中的協調ID類型。
 * CustomerId資料來源是透過「客戶屬性」建立。
@@ -74,10 +74,10 @@ ht-degree: 1%
 
 **觸發器是否處於待定狀態？**
 
-否則，請繼續下一步。 如果是，請遵循以下指南行：
+否則，請繼續下一步。 如果是，請遵循下列准則：
 
 * 檢查交易範本是否已發佈。
-* 檢查配置檔案是否未被取消列出。
+* 檢查配置式是否不在denylist中。
 * 檢查應用類型學規則。
 * 檢查事務性消息的日誌。
 

@@ -2,10 +2,10 @@
 title: 使用複合識別鍵呼叫資源
 description: 瞭解如何使用複合識別碼呼叫資源
 translation-type: tm+mt
-source-git-commit: 1e1e1f5f9dd239e45d83330aed74a951a7b332d4
+source-git-commit: 81612f8158a19853e4b3ca05866fa335af493f67
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 6%
 
 在某些情況下，您可能需要為資源定義由兩個欄位組成的標識鍵。 在設定識別金鑰後，您必須設定篩選定義，才能使用此識別金鑰（從Campaign Standard介面或API）呼叫資源。
 
-在此使用案例中， **Profile** resource已擴充為自訂「CRM ID **」和「** category」欄位 **** 。 我們將為Profile資源建立一個標識鍵，該標識鍵將由這兩個欄位組成。 然後，我們將設定篩選定義，以便我們能夠使用識別碼存取描述檔資源。
+在此使用案例中， **Profile** 資源已擴充為自 **訂「CRM ID** 」和「類 **別」欄位** 。 我們將為Profile資源建立一個標識鍵，該標識鍵將由這兩個欄位組成。 然後，我們將設定篩選定義，以便我們能夠使用識別碼存取描述檔資源。
 
 此使用案例的主要步驟為：
 
@@ -28,18 +28,18 @@ ht-degree: 6%
 * [定義標識鍵](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
 * [Campaign Standard REST API](../../api/using/get-started-apis.md)
 
-## 步驟1: 配置標識密鑰{#step-1-configure-the-identification-key}
+## 步驟1:配置標識密鑰{#step-1-configure-the-identification-key}
 
 >[!NOTE]
 > 配置標識密鑰時的全局概念將在本節 [中詳細說明](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)。
 
-1. 在設定識別金鑰之前，請確定資源已擴充至所需欄位，且已發佈。 如需詳細資訊，請參閱[本小節](../../developing/using/creating-or-extending-the-resource.md)。
+1. 在設定識別金鑰之前，請確定資源已擴充至所需欄位，且已發佈。 如需詳細資訊，請參閱[本章節](../../developing/using/creating-or-extending-the-resource.md)。
 
 1. 轉到/ **[!UICONTROL Administration]** / **[!UICONTROL Developement]** / **[!UICONTROL Custom resources]** 菜單，然後開啟資 **[!UICONTROL Profile]** 源。
 
    ![](assets/uc_idkey1.png)
 
-1. 在區段 **[!UICONTROL Identification keys]** 中，按一下按 **[!UICONTROL Create element]** 鈕。
+1. In the **[!UICONTROL Identification keys]** section, click the **[!UICONTROL Create element]** button.
 
    ![](assets/uc_idkey2.png)
 
@@ -48,11 +48,11 @@ ht-degree: 6%
    ![](assets/uc_idkey3.png)
 
    >[!NOTE]
-   > 如果要在配置檔案的介面中顯示兩個自定義欄位，請配置該選 **[!UICONTROL Screen definition]** 項卡。 如需詳細資訊，請參閱[本小節](../../developing/using/configuring-the-screen-definition.md)。
+   > 如果要在配置檔案的介面中顯示兩個自定義欄位，請配置該選 **[!UICONTROL Screen definition]** 項卡。 如需詳細資訊，請參閱[本章節](../../developing/using/configuring-the-screen-definition.md)。
 
 1. 您現在可以設定篩選定義，以便能夠使用其識別碼呼叫資源。
 
-## 步驟2: 設定篩選定義{#step-2-configure-the-filter-definition}
+## 步驟2:設定篩選定義{#step-2-configure-the-filter-definition}
 
 >[!NOTE]
 > 配置篩選器定義時的全域概念將在本節 [中詳細說明](../../developing/using/configuring-filter-definition.md)。
@@ -76,7 +76,7 @@ ht-degree: 6%
    ![](assets/uc_idkey7.png)
 
    >[!NOTE]
-   > 按一下加號按鈕後，就會自動產生參數的名稱。 請注意，因為您需要此項資訊才能使用API的篩選。
+   > 按一下+按 **鈕** ，就會自動產生參數名稱。 請注意，因為您需要此項資訊才能使用API的篩選。
 
 1. 使用構成識別碼的所有欄位（「類別」）重複上述步驟，然後儲存變更。
 
@@ -84,11 +84,11 @@ ht-degree: 6%
 
 1. 現在已設定篩選定義。 您可以發佈資源，以便篩選器可用。
 
-## 步驟3: 根據資源的標識密鑰調用資源{#step-3-call-the-resource-based-on-its-identification-key}
+## 步驟3:根據資源的標識密鑰調用資源{#step-3-call-the-resource-based-on-its-identification-key}
 
 一旦設定識別金鑰及其篩選定義後，您就可使用它們來呼叫資源，不論是從Campaign標準介面或REST API。
 
-若要使用介面中的篩選定義，請在工作 **[!UICONTROL Query]** 流程中使用活動(請參 [閱本節](../../automating/using/query.md))。 然後，篩選器便可在左窗格中使用。
+若要使用介面中的篩選定義，請在工 **[!UICONTROL Query]** 作流程中使用活動(請 [參閱本節](../../automating/using/query.md))。 然後，篩選器便可在左窗格中使用。
 
 ![](assets/uc_idkey9.png)
 

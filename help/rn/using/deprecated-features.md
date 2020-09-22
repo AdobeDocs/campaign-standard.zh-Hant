@@ -12,10 +12,10 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5203f3b3c520f38d91627df2159a90ab5912e6b6
+source-git-commit: 5b99fb9fbf8bdac506aeb8a35f30a7ef33aaa7e6
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '664'
+ht-degree: 17%
 
 ---
 
@@ -134,7 +134,7 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Creative SDK 已終止服務。因此，從Campaign 20.2版開始，Campaign Standard電子郵件中不再提供採用Creative SDK的影像版本。</p></br>
+   <td> <p>[!DNL Adobe Creative SDK]已終止服務。 因此，從Campaign 20.2版開始，Campaign Standard電子郵件中由[!DNL Creative SDK]提供的影像版本已不再提供。</p></br>
    </td> 
   </tr> 
  </tbody> 

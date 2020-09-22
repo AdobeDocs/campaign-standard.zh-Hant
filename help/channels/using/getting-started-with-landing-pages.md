@@ -12,11 +12,11 @@ discoiquuid: ca8d1698-6e8a-4f5a-b017-74a152e14286
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 0dd69cbad3e05a5a7eb36da80264e6eb6aae0e34
-workflow-type: ht
-source-wordcount: '1007'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: c300f50ce83d67be7c8a16f857eb46fb1ce89166
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 **相關主題：**
 
-* [建立登錄頁面教學課程影片](https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/communication-channels/landing-pages/landing-page-create-and-edit.translate.html)影片
+* [建立著陸頁面教學課程影片](https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/communication-channels/landing-pages/landing-page-create-and-edit.translate.html)
 * [建立服務](../../audiences/using/creating-a-service.md)
 * [設定雙重加入程序](setting-up-a-double-opt-in-process.md)
 

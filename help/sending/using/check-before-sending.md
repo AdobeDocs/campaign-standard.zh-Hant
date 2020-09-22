@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d5d9d50474142306457a8c76a24388c3c574791d
+source-git-commit: b80197491b45cff46273e1a41e3dfb7a939f96c5
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 15%
@@ -53,7 +53,7 @@ ht-degree: 15%
 
 傳送校樣可讓您檢查選擇退出連結、鏡像頁面和任何其他連結、驗證訊息、確認影像已顯示、偵測可能的錯誤等。 您也可能想要檢查不同裝置上的設計和演算。
 
-詳細資訊[[在本節中](../../sending/using/sending-proofs.md)。
+在本節 [中進一步瞭解](../../sending/using/sending-proofs.md)。
 
 ## 設定A/B測試傳送 {#a-b-testing-deliveries}
 

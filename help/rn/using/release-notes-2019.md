@@ -12,9 +12,9 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '7622'
+source-wordcount: '7624'
 ht-degree: 8%
 
 ---
@@ -617,7 +617,7 @@ ht-degree: 8%
 * 修正在查詢編輯器中，broadlog和rtEvent追蹤記錄檔之間出現連結條件的問題。 (CAMP-28780)
 * 修正無法儲存「特定動作」著陸頁面選項之修改的問題。 (CAMP-29422)
 * 修正無法匯出工作流程中事件的裝載的問題。 (CAMP-29029)
-* 修正無法將已列出的SMS號碼排除在SMS訊息中的問題。 (CAMP-28898)
+* 修正SMS訊息中無法排除密鑰清單上的SMS號碼的問題。 (CAMP-28898)
 * 修正處理傳入訊息時，SMPP提供者無法收到通知的問題。 (CAMP-29804)
 * 修正允許刪除具有關聯傳送之外部帳戶的問題。 (CAMP-29738)
 * SMS消息的發送吞吐量已得到改進和穩定。

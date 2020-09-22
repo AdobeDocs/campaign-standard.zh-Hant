@@ -12,17 +12,17 @@ discoiquuid: 2a14500f-5ede-4131-8b1a-b7fd65b7e3aa
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+source-git-commit: 3161226c9ab28f8d519f55a408022284919954f6
 workflow-type: tm+mt
-source-wordcount: '1341'
-ht-degree: 7%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # 設定行動應用程式{#configuring-a-mobile-application}
 
-## 使用Adobe Experience Platform SDK設定行動應用程式 {#using-adobe-experience-platform-sdk}
+## Configuring a mobile application using Adobe Experience Platform SDKs {#using-adobe-experience-platform-sdk}
 
 >[!IMPORTANT]
 >
@@ -70,10 +70,6 @@ ht-degree: 7%
 
 ## 從Launch技術工作流程同步行動應用程式AEPSDK {#aepsdk-workflow}
 
->[!IMPORTANT]
->
->此功能是Adobe Campaign自20.3版起的測試版功能。 您必須提交票證給Adobe客戶服務（直接或透過您的Adobe聯絡人），才能在Adobe Campaign實例中啟 **[!UICONTROL sync Mobile app AEPSDK from Launch]** 用技術工作流程。
-
 在Experience Platform Launch中建立及設定您的行動裝置屬性後，技術工作流程 **[!UICONTROL Sync Mobile app AEPSDK from Launch]** 現在會同步化在Adobe Campaign Standard中匯入的Adobe Launch行動裝置屬性。
 
 依預設，技術工作流程每15分鐘開始一次。 如果需要，可以手動重新啟動它：
@@ -95,9 +91,9 @@ ht-degree: 7%
 
 若要在Campaign中使用Experience Platform Launch行動屬性，您也需要在Adobe Campaign中設定此屬性。 在Adobe Campaign中，請確定IMS使用者是「標準使用者和管理員產品設定檔」的一部分。
 
-對於啟用「從Launch同步行動應用程式AEPSDK」技術工作流程功能標幟的使用者，您需要等待技術工作流程執行，並將Launch行動屬性同步至Adobe Campaign。 然後，您就可以在Adobe Campaign中設定它。
+您將需要等待技術工作流程執行，並將Launch mobile屬性同步至Adobe Campaign。 然後，您就可以在Adobe Campaign中設定它。
 
-如需從Launch技術工作流程功能標幟同步行動應用程式AEPSDK的詳細資訊，請參閱本 [節](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow)。
+如需從Launch技術工作流程同步行動應用程式AEPSDK的詳細資訊，請參閱本 [節](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow)。
 
 >[!NOTE]
 >
@@ -127,7 +123,7 @@ ht-degree: 7%
 
 1. 確認行動應用程式的狀態已從變更 **[!UICONTROL Ready to Configure]** 為 **[!UICONTROL Configured]**。
 
-   當「體驗平台啟動促銷活動」延伸模組顯示已成功設定索引鍵時，您也可以驗證是否已在促銷活動中成功設定屬性。
+   當「體驗平台啟動促銷活動」延伸模組顯示已成功設定索引鍵時，您也可以驗證屬性是否已在促銷活動中成功設定。
 
    ![](assets/launch_5.png)
 
@@ -137,7 +133,7 @@ ht-degree: 7%
 
 ## Adobe Campaign中的頻道特定應用程式設定 {#channel-specific-config}
 
-您的行動應用程式現在已可供用於Campaign中的推播通知或應用程式內傳送。 您現在可視需要進一步設定，以建立會觸發您的應用程式內訊息和／或上傳推播憑證的事件。
+您的行動應用程式現在已可供用於Campaign中推播通知或應用程式內傳送。 您現在可視需要進一步設定，以建立會觸發您的應用程式內訊息和／或上傳推播憑證的事件。
 
 1. 從進階功能表中，選取 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]**。
 

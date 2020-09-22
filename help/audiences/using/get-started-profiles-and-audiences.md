@@ -12,10 +12,10 @@ discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: f26fb6bd8b6d103e25bfaedb02d4d1d9342752bf
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 8%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 8%
 
 當您建立促銷活動或訊息時，您可以從促銷活動資料庫的連絡人中選取、使用簡單或進階標準，或選取對象，來指定傳送的目標。
 
-使用整合式客戶個人檔案和自訂細分，更有 **效地跨所有通道****識別客戶**。 當您瞭解客戶、興趣、人口統計資料和通道偏好時，建立受人注目的個人化體驗會更輕鬆。
+使用整合式客戶個人檔案、自訂細分和控 **制群組**，更有 **效地識別所有通** 道的客戶 ****。 當您瞭解客戶、興趣、人口統計資料和通道偏好時，建立受人注目的個人化體驗會更輕鬆。
 
 Adobe Campaign可即時建立豐富的客戶個人檔案，讓您在客戶偏好改變時提供更相關的個人化優惠。 此外，Adobe Campaign整合了進階分析、資料管理和定位功能，以建立受眾。
 
@@ -57,6 +57,7 @@ Adobe Campaign可即時建立豐富的客戶個人檔案，讓您在客戶偏好
 * [充實 Campaign 資料庫](../../audiences/using/enriching-campaign-database.md)
 * [關於閱聽眾](../../audiences/using/about-audiences.md)
 * [在訊息中選取閱聽眾](../../audiences/using/selecting-an-audience-in-a-message.md)
+* [添加控制組](../../sending/using/control-group.md)
 
 ## 許可和許可 {#permission}
 
@@ -85,9 +86,7 @@ Adobe Campaign offers a set of tools to help you with your **Privacy Compliance*
 
 在本文中進一步 [瞭解隱私權管理](https://helpx.adobe.com/tw/campaign/kb/campaign-privacy.html) ，以及我們提供的管理存取權、被遺忘權、同意權、資料保留權和使用者角色的功能。
 
-Campaign中的隱私權和同意，以及如何管理這些資訊，將列在本 [節中](../../start/using/privacy.md)。
-
-您也會找到最佳實務，以協助您在使用我們的服務時符合隱私權規範。
+Campaign中的隱私權和同意，以及如何管理這些資訊，將列在本 [節中](../../start/using/privacy.md)。 您也會找到最佳實務，以協助您在使用我們的服務時符合隱私權規範。
 
 ## 其他資源
 

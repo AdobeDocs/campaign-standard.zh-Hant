@@ -12,10 +12,10 @@ discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
+source-git-commit: d90de8255f7b08da2187bb8d1b16624d0d94bd80
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 9%
+source-wordcount: '580'
+ht-degree: 12%
 
 ---
 
@@ -41,20 +41,20 @@ ht-degree: 9%
 
 Campaign Standard **訊息準備** ，會分析訊息的目標、個人化和有效性。 在此步驟中檢測到的錯誤必須先更正，才能繼續。
 
-**使用各種功能** ，預覽並測試您的訊息： 傳送校樣以測試描述檔或目標描述檔、測試您電子郵件的主旨，並檢查訊息的轉譯，以確保它以最佳方式顯示在各種網頁用戶端、網頁郵件和裝置上。
+**使用各種功能** ，預覽並測試您的訊息：傳送校樣以測試描述檔或目標描述檔、測試您電子郵件的主旨，並檢查訊息的轉譯，以確保它以最佳方式顯示在各種網頁用戶端、網頁郵件和裝置上。
 
 運用促銷活動排程功能來定義訊息的傳送時間。 例如，您可以調整收件者時區的傳送、最佳化傳送時間或計算傳送日期。
 
 在準 **備期間** ，使用類型檢查訊息是否有效，並透過疲勞、控制和定位規則符合您的品質標準。 例如，檢查您的電子郵件是否一律包含主旨行，或將未訂閱者排除在訊息收件者之外。
 
-詳細內容:
+顯示全文:
 
 * [準備傳送](../../sending/using/preparing-the-send.md)
 * [預覽訊息](../../sending/using/previewing-messages.md)
 * [傳送校樣](../../sending/using/sending-proofs.md)
 * [電子郵件呈現](../../sending/using/email-rendering.md)
 * [排程訊息](../../sending/using/about-scheduling-messages.md)
-* [關於類型和類型學規則](../../sending/using/about-typology-rules.md)
+* [關於類型與類型學規則](../../sending/using/about-typology-rules.md)
 
 ## 傳送、監控和追蹤 {#send-track-messages}
 
@@ -66,7 +66,7 @@ Campaign Standard **訊息準備** ，會分析訊息的目標、個人化和有
 
 最後，您可以設定Adobe Campaign，以 **保留透過電子郵件密件副本** ，從您的平台傳送的電子郵件副本。 尤其是，如果您的組織需要封存所有傳出電子郵件訊息以符合法規，您可以啟用此功能。
 
-詳細內容:
+顯示全文:
 
 * [確認傳送](../../sending/using/confirming-the-send.md)
 * [追蹤訊息](../../sending/using/tracking-messages.md)
@@ -81,12 +81,12 @@ Campaign Standard **訊息準備** ，會分析訊息的目標、個人化和有
 
 傳遞能力可讓您測量促銷活動在到達收件者收件匣時是否成功，而不會反彈或標示為垃圾訊息。
 
-Campaign Standard提供數種 **傳遞性工具** ，可協助您改善成功傳送訊息的數量： 傳送傳送處理報告、傳送時間最佳化、訊息預覽、電子郵件轉譯、隔離管理等。
+Campaign Standard提供數種 **傳遞性工具** ，可協助您改善成功傳送訊息的數量：傳送傳送處理報告、傳送時間最佳化、訊息預覽、電子郵件轉譯、隔離管理等。
 
-詳細內容:
+顯示全文:
 
-* [關於傳送能力](../../sending/using/about-deliverability.md)
-* [監控傳送能力](../../sending/using/monitor-deliverability.md)
+* [關於傳遞能力](../../sending/using/about-deliverability.md)
+* [監控傳遞能力](../../sending/using/monitor-deliverability.md)
 * [提升您的名譽](../../sending/using/improving-reputation.md)
 * [技術建議](../../sending/using/technical-recommendations.md)
 * [控制傳送總處理量](../../reporting/using/delivery-throughput.md)
@@ -96,6 +96,6 @@ Campaign Standard提供數種 **傳遞性工具** ，可協助您改善成功傳
 * [設計A/B測試電子郵件](../../channels/using/designing-an-a-b-test-email.md)
 * [傳送測試、準備及傳送電子郵件（視訊）](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/sending-test-preparing-sending-email.html)
 * [檢閱電子郵件傳送和報告（視訊）](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/reviewing-personalized-email-delivery-and-reports.html)
-* [電子郵件快速入門](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
-* [提供最佳實務](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
-* [使用案例： 建立控制群組](../../automating/using/workflow-control-group.md)
+* [電子郵件快速入門](https://helpx.adobe.com/tw/campaign/kb/acs-get-started-with-emails.html)
+* [提供最佳實務](https://helpx.adobe.com/tw/campaign/kb/delivery-best-practices.html)
+* [添加控制組](../../sending/using/control-group.md)

@@ -12,7 +12,10 @@ discoiquuid: 6bb6cee3-5674-4113-8073-5a9572b3e830
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5ed46987a3778dfa100639de8be9b6d5ac5348b4
+source-git-commit: 564613ecc2879be87d1f85f9f15e675697690139
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,10 +28,14 @@ source-git-commit: 5ed46987a3778dfa100639de8be9b6d5ac5348b4
 >
 >對於SMS和推播，您只能定義動態文字。 您可以在登陸頁面中定義動態內容和文字。 如果您想要使用「電子郵件設計器」定義 [動態文本](../../designing/using/designing-content-in-adobe-campaign.md)，請 [參閱定義電子郵件中的動態內容](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)。
 
+請注意，替代對（未包含在Unicode字元集的「基本多語言平面」中的字元）無法儲存為2個位元組（16位元），而且需要編碼為2個UTF-16字元。 這些字元包括一些CJK表意文字、大多數表情符號和一些語言。
+<br>這些字元可能會在動態文字中造成一些不相容的問題。 傳送訊息前，您必須先執行強式測試。
+
+
 以下範例說明如何定義SMS訊息中的動態文字。
 
 1. 在訊息或著陸頁面的正文中選取文字。
-1. 按一下 **[!UICONTROL Enable dynamic text]**.
+1. 按一下 **[!UICONTROL Enable dynamic text]**。
 
    ![](assets/dynamic_text_sms_1.png)
 

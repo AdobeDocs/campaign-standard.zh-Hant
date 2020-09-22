@@ -12,11 +12,11 @@ discoiquuid: 158da6ff-8899-4e7b-b925-8a42c3de46a1
 context-tags: deliveryCreation,wizard;delivery,audience,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
-workflow-type: ht
-source-wordcount: '294'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: e725ef966bcd6df84ed0c82e17fad65f289fd013
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -39,6 +39,7 @@ Adobe Campaign　可讓您在訊息的對象中設定數個設定檔類型。
 
    * 目標
    * 測試設定檔
+
    ![](assets/delivery_audience_definition_2.png)
 
 1. 定義電子郵件的主要　**[!UICONTROL Target]**　功能。這是電子郵件的一般目標對象。
@@ -54,6 +55,10 @@ Adobe Campaign　可讓您在訊息的對象中設定數個設定檔類型。
 1. 定義您要用於電子郵件的　**[!UICONTROL Test profiles]**。測試設定檔會收到您之前可以傳送的校樣，以便先測試電子郵件，然後再將之傳送給主要目標。
 
    如需設定測試設定檔的詳細資訊，請參閱[測試設定檔](../../audiences/using/managing-test-profiles.md)區段。
+
+1. 如有需要，您可以使用對應的標籤定義控制組。 這可讓您從目標中取出一些描述檔，以免他們收到訊息。 For more on this, see [Adding a control group](../../sending/using/control-group.md).
+
+1. 您也可以使用替代地址獲得描述檔將收到的消息的精確表示。  如需詳細資訊，請參閱[使用目標設定檔測試電子郵件訊息](../../sending/using/testing-messages-using-target.md)。
 
 接著會更新對象區塊，並顯示已針對有問題的電子郵件選取目標和測試設定檔。
 

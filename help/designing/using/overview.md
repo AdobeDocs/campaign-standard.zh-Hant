@@ -12,7 +12,10 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: 9ab3cc5a23b9b31b463bc3557b8164307d367d25
+workflow-type: tm+mt
+source-wordcount: '929'
+ht-degree: 3%
 
 ---
 
@@ -27,27 +30,27 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ### 電子郵件設計人員首頁 {#email-designer-home-page}
 
-建立 [電子郵件時](../../channels/using/creating-an-email.md), **[!UICONTROL Email Designer]**首頁會在選取電子郵件內容時自動顯示。
+建立 [電子郵件時](../../channels/using/creating-an-email.md), **[!UICONTROL Email Designer]** 首頁會在選取電子郵件內容時自動顯示。
 
 ![](assets/email_designer_home_page.png)
 
-此標 **[!UICONTROL Properties]**簽可讓您編輯電子郵件詳細資訊，例如標籤、寄件者的地址和名稱，或電子郵件主旨。 您也可以按一下畫面上方的電子郵件標籤，以存取此標籤。
+此標 **[!UICONTROL Properties]** 簽可讓您編輯電子郵件詳細資訊，例如標籤、寄件者的地址和名稱，或電子郵件主旨。 您也可以按一下畫面上方的電子郵件標籤，以存取此標籤。
 
 ![](assets/email_designer_home_properties.png)
 
-此標 **[!UICONTROL Templates]**簽可讓您從現成可用的HTML內容或您已建立的範本中選擇，以快速開始設計電子郵件。 請參閱[內容範本](../../designing/using/using-reusable-content.md#content-templates)。
+此標 **[!UICONTROL Templates]** 簽可讓您從現成可用的HTML內容或您已建立的範本中選擇，以快速開始設計電子郵件。 請參閱 [內容範本](../../designing/using/using-reusable-content.md#content-templates)。
 
 ![](assets/email_designer_home_templates.png)
 
-此標 **[!UICONTROL Learn & support]**簽可讓您輕鬆存取相關檔案和教學課程。
+此標 **[!UICONTROL Learn & support]** 簽可讓您輕鬆存取相關檔案和教學課程。
 
 ![](assets/email_designer_home_support.png)
 
 如果您未選擇模板，「電子郵件設計器」首頁還允許您選擇開始設計內容的方式：
 
-* 按一下 **[!UICONTROL Create]**按鈕，從頭開始新內容。 請參[閱從頭設計電子郵件內容](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)。
-* 按一下按 **[!UICONTROL Upload]**鈕，從您的電腦上傳檔案。 請參[閱從檔案匯入內容](../../designing/using/using-existing-content.md#importing-content-from-a-file)。
-* 按一下按 **[!UICONTROL Import from URL]**鈕，從URL擷取現有內容。 請參[閱從URL匯入內容](../../designing/using/using-existing-content.md#importing-content-from-a-url)。
+* 按一下 **[!UICONTROL Create]** 按鈕，從頭開始新內容。 請參 [閱從頭設計電子郵件內容](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)。
+* 按一下按 **[!UICONTROL Upload]** 鈕，從您的電腦上傳檔案。 請參 [閱從檔案匯入內容](../../designing/using/using-existing-content.md#importing-content-from-a-file)。
+* 按一下按 **[!UICONTROL Import from URL]** 鈕，從URL擷取現有內容。 請參 [閱從URL匯入內容](../../designing/using/using-existing-content.md#importing-content-from-a-url)。
 
 ### 電子郵件設計人員介面 {#email-designer-interface}
 
@@ -67,7 +70,7 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ![](assets/email_designer_toolbar.png)
 
-編輯 **器介面的** 「上下文」工具欄根據所選區域提供各種功能。 它包含可讓您變更文字樣式的動作按鈕和按鈕。 所執行的修改一律適用於選取的區域。
+編輯 **器介面的** 「上下文」工具欄根據所選區域提供各種功能。 其包含可讓您變更文字樣式的動作按鈕和按鈕。所進行的修改始終適用於選取的區域。
 
 ### 術語 {#terminology}
 
@@ -97,22 +100,26 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
    在傳送訊息之前先預覽訊息。 Adobe Campaign提供了使用Litmus測試電子郵件轉譯的方法。 如需詳細資訊，請參閱「電子郵 [件轉換」](../../sending/using/email-rendering.md)。
 
-有關訊息的更多設計與一般最佳實務，請參閱下列Adobe Campaign逐步指南：使 [用Adobe Campaign提供最佳實務](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html)。
+以下部分介紹有關消息的更多設計和一般最佳做法： [提供最佳實務](../../sending/using/delivery-best-practices.md)
 
 ### 電子郵件設計人員限制 {#email-designer-limitations}
 
-* 您無法在片段中使用個人化欄位。 如需片段的詳細資訊，請參 [閱本節](../../designing/using/using-reusable-content.md#about-fragments)。
+* 您無法在片段中使用個人化欄位。 For more on fragments, see [this section](../../designing/using/using-reusable-content.md#about-fragments).
+
 <!--* You cannot save directly as a fragment some content of an email that you are editing within the Email Designer. You need to copy-paste the HTML corresponding to that content into a new fragment. For more on this, see [Saving content as a fragment](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).-->
 * 在編輯樣式時，只有大多數電子郵件用戶端正式支援的網頁字型才可用。
-* 樣式無法儲存為主題，以供日後重複使用。 不過，CSS樣式可以儲存在內容範本或電子郵件中。 有關樣式的更多資訊，請參 [閱本節](../../designing/using/styles.md)。
+* 樣式無法儲存為主題，以供日後重複使用。 不過，CSS樣式可以儲存在內容範本或電子郵件中。 For more on styles, see [this section](../../designing/using/styles.md).
+* 「電子郵件設計工具」不支援反向連結meta標籤。
+* 替代對（未包含在Unicode字元集的「基本多語言平面」中的字元）無法儲存為2個位元組（16位元），且需要編碼為2個UTF-16字元。 這些字元包括一些CJK表意文字、大多數表情符號和一些語言。
+這些字元可能會在動態文字中造成一些不相容的問題。 傳送訊息前，您必須先執行強式測試。
 
 ### 更新片段 {#email-designer-updates}
 
-電子郵件設計人員正在不斷改進。 如果您從頭開始、從現成可用的範本建立電子郵件內容，或者如果您建立片段，下次您開啟內容時可能會收到下列更新訊息：
+電子郵件設計人員正在不斷改進。 如果您從頭開始、從現成可用的範本建立電子郵件內容，或者如果您建立了片段，下次您開啟內容時可能會收到下列更新訊息：
 
 ![](assets/email_designer_fragment_patch_message.png)
 
-Adobe建議將您的內容更新至最新版本，以避免發生CSS衝突等問題。 按一下 **[!UICONTROL Update now]**.
+Adobe建議將您的內容更新至最新版本，以避免發生CSS衝突等問題。 按一下 **[!UICONTROL Update now]**。
 
 如果內容更新期間發生錯誤，請檢查HTML並修正它，然後再次執行此更新。
 

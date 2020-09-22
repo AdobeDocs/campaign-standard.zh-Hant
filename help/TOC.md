@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Adobe Campaign Standard 說明
 breadcrumb-title: Campaign Standard Guide
 translation-type: tm+mt
-source-git-commit: 5884730b7319e9ee456882e66c8b515458e53e86
+source-git-commit: f26fb6bd8b6d103e25bfaedb02d4d1d9342752bf
 workflow-type: tm+mt
-source-wordcount: '1628'
-ht-degree: 85%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -143,6 +143,7 @@ ht-degree: 85%
       + [測試電子郵件的主旨行](sending/using/testing-subject-line-email.md)
       + [人工智慧型電子郵件](sending/using/predictive.md)
       + [電子郵件呈現](sending/using/email-rendering.md)
+      + [添加控制組](sending/using/control-group.md)
       + [使用陷阱](sending/using/using-traps.md)
       + [準備傳送](sending/using/preparing-the-send.md)
    + 排程訊息 {#scheduling-messages}
@@ -338,7 +339,6 @@ ht-degree: 85%
          + [對服務訂戶的增量查詢](automating/using/incremental-query-on-subscribers.md)
          + [根據年齡組劃分](automating/using/segmentation-age-groups.md)
          + [使用與目標維度　](automating/using/using-resources-different-from-targeting-dimensions.md)　不同的資源
-         + [建立控制群組](automating/using/workflow-control-group.md)
       + 資料管理{#data-management}
          + [協調檔案對象與資料庫](automating/using/reconcile-file-audience-with-database.md)
          + [從導入的檔案中消除重複資料](automating/using/deduplicating-data-imported-file.md)

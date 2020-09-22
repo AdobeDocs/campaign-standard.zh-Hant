@@ -12,10 +12,10 @@ discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '2028'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -110,7 +110,7 @@ The **Delivery alerting** feature is an alert management system that enables a g
 * **[!UICONTROL Delivery with bad error ratio for soft bounces]**:任何已排程在定義範圍內的傳送，其狀態至少為 **[!UICONTROL In progress]**，且軟反彈錯誤率大於定義的百分比。
 * **[!UICONTROL Delivery with bad error ratio for hard bounces]**:任何已排程在定義範圍內的傳送，其狀態至少 **[!UICONTROL In progress]**&#x200B;為，硬反彈錯誤率大於定義的百分比。
 * **[!UICONTROL Deliveries with long start pending]**:任何在定義範圍內排程的傳送， **[!UICONTROL Start pending]** 其狀態長於定義的持續時間， **[!UICONTROL Start pending]** 狀態表示系統尚未考慮這些訊息。
-* **[!UICONTROL Deliveries with low throughput]**:任何開始的傳送時間都比定義的持續時間長，且小於已處理消息的定義百分比，而吞吐量低於定義的值。
+* **[!UICONTROL Deliveries with low throughput]**:任何開始的傳送時間都超過定義的持續時間，且小於已處理消息的定義百分比，且吞吐量低於定義值。
 * **[!UICONTROL Deliveries in progress]**:在已定義範圍內排程的任何傳送，其狀態 **[!UICONTROL In progress]** 為。
 
 >[!NOTE]
@@ -261,7 +261,7 @@ The **Delivery alerting** feature is an alert management system that enables a g
 
    警報的可能 **[!UICONTROL Delivery with bad error ratio for hard bounces]** 原因為：
 
-   * 收件者會被拒絕列出，這表示他們不想再被聯繫。
+   * 收件者會新增至密尼清單，表示他們不再想與他們聯絡。
    * 收件者的電子郵件地址不存在。
    * 收件者的網域不存在。
    * 收件者的伺服器封鎖傳送。

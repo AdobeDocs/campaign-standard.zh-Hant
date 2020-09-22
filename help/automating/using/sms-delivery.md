@@ -13,10 +13,10 @@ context-tags: sms,main;delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 16afc307df6902584624d6457954a472b11c5129
+source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
 workflow-type: tm+mt
-source-wordcount: '784'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,11 +29,10 @@ ht-degree: 100%
 
 ![](assets/recurrentsms.png)
 
-**[!UICONTROL SMS delivery]** 活動可讓您在工作流程中設定傳送 SMS。這可以是&#x200B;**單一傳送** SMS，只傳送一次，或是&#x200B;**重複傳送** SMS。
+**[!UICONTROL SMS delivery]** 活動可讓您在工作流程中設定傳送 SMS。這可以是單一傳送 SMS，只傳送一次，或是重複傳送 SMS。
 
-單一傳送的簡訊是標準的簡訊，只傳送一次。
-
-循環 SMS 訊息可讓您在定義的時段內，多次傳送相同的 SMS 至不同的目標。您可以彙總每個期間的傳送，以取得符合您需求的報表。
+* **單一傳送的簡訊是標準的簡訊，只傳送一次。**
+* **循環 SMS 訊息可讓您在定義的時段內，多次傳送相同的 SMS 至不同的目標。**&#x200B;您可以彙總每個期間的傳送，以取得符合您需求的報表。
 
 ## 使用內容 {#context-of-use}
 

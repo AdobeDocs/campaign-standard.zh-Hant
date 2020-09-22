@@ -13,10 +13,10 @@ context-tags: deliveryComplaintsReport,main;campaignComplaintsReport,main;progra
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,4 +29,4 @@ The **[!UICONTROL Complaints]** report identifies the deliveries that have recei
 
 Flop **表** （依收件者網域排序）會顯示已宣告電子郵件或垃圾訊息的收件者數目。 圖表和摘要數字中也提供了表格的結果。
 
-「已 **傳送與拒絕列出的比率** 」表格會列出已宣告電子郵件為垃圾訊息或垃圾訊息的收件者人數。 表按傳送排序。
+「已 **傳送與登入清單** 」表格會列出已宣告電子郵件為垃圾訊息或垃圾訊息的收件者人數。 表按傳送排序。

@@ -12,10 +12,10 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: c1147c4512b1485ae5d927a32970adcd41b540e7
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +26,7 @@ Campaign Standard提供數種工具來協助您擴充行銷資料庫。 本節�
 
 ## 透過工作流程匯入資料 {#importing-data-through-workflows}
 
-工作流程可讓您收集資料，並透過使用活動將其匯入Campaign資 [**[!UICONTROL Data management]**](../../automating/using/about-data-management-activities.md) 料庫。
+工作流程可讓您收集資料，並透過使用活動將其匯入Campaign資 [[!UICONTROL Data management]](../../automating/using/about-data-management-activities.md) 料庫。
 
 本節將介紹在透過工作流程匯入資料時的一般資訊和最佳 [實務](../../automating/using/about-data-import-and-export.md)。
 
@@ -34,11 +34,11 @@ Campaign Standard提供數種工具來協助您擴充行銷資料庫。 本節�
 
 您可以設定兩種範本類型：
 
-* **工作流程範本**: 這些是預先設定的工作流程，您可視需要設定一次，而且每次您要匯入資料並更新資料庫時，都可重複使用。
+* **工作流程範本**:這些是預先設定的工作流程，您可視需要設定一次，而且每次您要匯入資料並更新資料庫時，都可重複使用。
 
    本節將詳細介紹導入資料的工作流模 [板示例](../../automating/using/creating-import-workflow-templates.md)。
 
-* **匯入資料範本**: 像工作流程範本一樣，這些範本是以工作流程為基礎的範本，可設定為上傳檔案以更新資料庫。 在設定後，使用者可在 **[!UICONTROL Profile & audiences]** /功能表下以簡化檢視來使 **[!UICONTROL Imports]** 用它。
+* **匯入資料範本**:像工作流程範本一樣，這些範本是以工作流程為基礎的範本，可設定為上傳檔案以更新資料庫。 在設定後，使用者可在 **[!UICONTROL Profile & audiences]** /功能表下以簡化檢視來使 **[!UICONTROL Imports]** 用它。
 
    如需匯入資料範本的詳細資訊，請參閱專 [用檔案](../../automating/using/importing-data-with-import-templates.md)。
 
@@ -52,14 +52,14 @@ Campaign Standard提供數種工具來協助您擴充行銷資料庫。 本節�
 * 將每個輸入欄位與資料庫中的相應欄位映射。
 * 透過網站或訊息的直接連結，讓登陸頁面線上上提供。
 
-如需著陸頁面的詳細資訊，請參閱專 [用檔案](../../channels/using/getting-started-with-landing-pages.md)。
+For more on landing pages, refer to the [dedicated documentation](../../channels/using/getting-started-with-landing-pages.md).
 
 ## 從Microsoft Dynamics 365同步設定檔
 
 Campaign Standard與Microsoft Dynamics 365的整合可讓您將Microsoft Dynamics 365的連絡人資料傳遞至Campaign資料庫。
 然後，這些連絡人會顯示在「設定檔」清單中，並可定位在行銷促銷活動中。
 
-如需此整合的詳細資訊，請參閱專 [用檔案](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)。
+For more on this integration, refer to the [dedicated documentation](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md).
 
 >[!NOTE]
 >
@@ -71,6 +71,6 @@ Campaign Standard API可讓您執行更新資料庫的作業，例如設定檔�
 
 如需如何使用API的詳細資訊，請參閱專用 [檔案](../../api/using/get-started-apis.md)。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >在透過API呼叫執行設定檔大量建立或更新之前，請檢查與您的授權合約相應的比例限制。 有關詳細資訊，請參見[此頁面](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers)。

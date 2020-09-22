@@ -13,10 +13,10 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 2%
 
 維護您的網域和IP位址信譽至關重要。 以下是建立新平台的一些建議。
 
-開始在新平台上傳送電子郵件是一個敏感的步驟，因為該平台沒有任何使用記錄，也沒有信譽（當傳送的IP從未用於此目的時）。 ISP自然會懷疑從未用於傳送電子郵件的IP位址，而且會突然開始傳送大量電子郵件流量。 實際上，垃圾郵件發送者通常會使用「未知」的IP位址（從未被刪除的位址），在偵測前傳送最多的訊息。
+開始在新平台上傳送電子郵件是一個敏感的步驟，因為該平台沒有任何使用記錄，也沒有信譽（當傳送的IP從未用於此目的時）。 ISP自然會懷疑從未用於傳送電子郵件的IP位址，而且會突然開始傳送大量電子郵件流量。 實際上，垃圾郵件發送者通常會使用「未知」的IP位址（從未新增至密鑰清單的位址），在偵測前傳送最多的訊息。
 
 在生產階段開始時，您無法期望在產出方面達到操作速度。 此外，您不應嘗試以此速率發送消息，因為這可能導致ISP阻塞發送地址，並嚴重危害啟動階段的其他階段。
 

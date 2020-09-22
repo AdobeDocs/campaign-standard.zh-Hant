@@ -12,10 +12,10 @@ discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51e98bb6212ad96d9c11b848df9dcad25b3f1b61
+source-git-commit: ed920a9b08eb664c2825ba785c75092eb0f2be1e
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -51,41 +51,45 @@ $(vars/@parameterName)
 
    ![](assets/wkf_test_activity_variables.png)
 
-* ![](assets/extsignal_expression_editor.png)：編輯結合變數和函式的運算式。如需運算式編輯器的詳細資訊，請參考[本區段](../../automating/using/advanced-expression-editing.md)。
+* ![](assets/extsignal_expression_editor.png):編輯結合變數和函式的運算式(請參 [](../../automating/using/advanced-expression-editing.md)閱)。
 
    ![](assets/wkf_test_activity_variables_expression.png)
 
-**相關主題：**
+   此清單提供可讓您執行複雜篩選的函式。 本節將詳述這些 [函式](../../automating/using/list-of-functions.md)。
 
-* [編輯運算式](../../automating/using/advanced-expression-editing.md#edit-an-expression)
-* [標準語法](../../automating/using/advanced-expression-editing.md#standard-syntax)
-* [函式清單](../../automating/using/list-of-functions.md)
+   此外，您也可以使用下列函式，這些函式可用於所有允許您在使用外部參數呼叫工作流程後使用事件變數的活動(請參 [](../../automating/using/customizing-workflow-external-parameters.md#customizing-activities-with-events-variables)閱):
+
+   | 名稱 | 說明 | 語法 |
+   ---------|----------|---------
+   | 結束於 | 指出字串（第1個參數）是否以特定字串（第2個參數）結尾。 | EndWith(&lt;String>,&lt;String>) |
+   | startWith | 指出字串（第1個參數）是否以特定字串（第2個參數）開頭。 | startWith(&lt;String>,&lt;String>) |
+   | 摘取 | 使用分隔符返回字串的第一個字元。 | Extract(&lt;String>,&lt;Separator>) |
+   | ExtractRight | 使用分隔符返回字串的最後一個字元。 | ExtractRight(&lt;String>,&lt;Separator>) |
+   | DateFormat | 使用第2個參數中指定的格式來格式化日期(範例： &#39;%4Y%2M%2D&#39;) | DateFormat(&lt;Date>,&lt;Format>) |
+   | 檔案名稱 | 返回檔案路徑的名稱。 | FileName(&lt;String>) |
+   | FileExt | 傳回檔案路徑的副檔名。 | FileExt(&lt;String>) |
+   | IsNull | 指出字串或日期是否為空值。 | IsNull(&lt;String/date>) |
+   | UrlUtf8Encode | 以UTF8編碼URL。 | UrlUtf8Encode(&lt;String>) |
 
 ## 使用事件變數自訂活動 {#customizing-activities-with-events-variables}
 
 事件變數可用來自訂數個活動，列於下方一節。 如需如何從活動呼叫變數的詳細資訊，請參 [閱本節](../../automating/using/customizing-workflow-external-parameters.md#using-events-variables)。
 
-**[!UICONTROL Read audience]** 活動：根據事件變數定義要定位的對象。
-
-有關如何使用活動的詳細說明，請參閱專 [用章節](../../automating/using/read-audience.md)。
+**[!UICONTROL Read audience]** 活動：根據事件變數定義要定位的對象。 有關如何使用活動的詳細說明，請參 [閱本節](../../automating/using/read-audience.md)。
 
 ![](assets/extsignal_activities_audience.png)
 
-**[!UICONTROL Test]** 活動：根據事件變數建立條件。
-
-有關如何使用活動的詳細說明，請參閱專 [用章節](../../automating/using/test.md)。
+**[!UICONTROL Test]** 活動：根據事件變數建立條件。 有關如何使用活動的詳細說明，請參 [閱本節](../../automating/using/test.md)。
 
 ![](assets/extsignal_activities_test.png)
 
-**[!UICONTROL Transfer file]** 活動：根據事件變數自訂檔案以進行傳輸。
-
-有關如何使用活動的詳細說明，請參閱專 [用章節](../../automating/using/transfer-file.md)。
+**[!UICONTROL Transfer file]** 活動：根據事件變數自訂檔案以進行傳輸。 有關如何使用活動的詳細說明，請參 [閱本節](../../automating/using/transfer-file.md)。
 
 ![](assets/extsignal_activities_transfer.png)
 
 **[!UICONTROL Query]** 活動：參數可在查詢中參考，方法是使用結合事件變數和函式的運算式。 若要這麼做，請新增規則，然後按一下連 **[!UICONTROL Advanced mode]** 結以存取運算式編輯視窗(請參閱進 [階運算式編輯](../../automating/using/advanced-expression-editing.md))。
 
-有關如何使用活動的詳細說明，請參閱專 [用章節](../../automating/using/query.md)。
+有關如何使用活動的詳細說明，請參 [閱本節](../../automating/using/query.md)。
 
 ![](assets/extsignal_activities_query.png)
 

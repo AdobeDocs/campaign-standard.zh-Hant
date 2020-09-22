@@ -1,19 +1,22 @@
 ---
 title: 工作流程介面
 description: 瞭解建立、編輯和執行工作流程的介面和選項。
-page-status-flag: 從未激活
-uuid: aafe33ed-fa07-4dd9-825e-24209334f1a
-contentOwner: 紹維亞
+page-status-flag: never-activated
+uuid: aafe33ed-fa07-4dd9-825e-242099334f1a
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 自動化
-content-type: 參考
+audience: automating
+content-type: reference
 topic-tags: about-workflows-and-data-management
 discoiquuid: 147fbb0d-17d2-444b-a215-9ad14179c549
-context-tags: 工作流，主；工作流，概述
+context-tags: workflow,main;workflow,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 813f74458bef5e80e24cc0125ddd8d7de6252196
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -53,6 +56,11 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 若要連結兩個活動，請將箭頭的結尾從第一個活動移至下列活動，直到它們連結為止。 您也可以將活動移至其後方的箭頭點，以將其連結至前一個活動。 如果您移動任何活動，它們將保持連結。
 
 處理資料後續活動的轉變包含中介人口族群。 如果您勾選工作流程屬性區 **[!UICONTROL Keep interim results]** 段中的選 **[!UICONTROL Execution]** 項，即可存取這些選項。
+
+>[!CAUTION]
+>
+>此選項佔用了大量磁碟空間，設計旨在幫助您建構工作流程並確保正確的設定和行為。在生產執行個體中保留未核取的狀態。
+
 
 選取活動時，活動周圍會出現快速動作，讓您與其互動。 例如，若要設定活動，請選取活動，然後使用快速動作 ![](assets/edit_darkgrey-24px_table.png) 中的按鈕將其開啟。
 
@@ -116,7 +124,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 <img height="21px" src="assets/checkdisable.png" /> **[!UICONTROL No execution]**<br/>停用活動。
 
-<img height="21px" src="assets/pending_darkgrey-24px_table.png" /> **[!UICONTROL Immediate execution]**<br/>強制立即處理選擇。 此按鈕僅適用於「排程器 <span class="uicontrol">」和</span> 「 <span class="uicontrol"></span> 等待」活動。
+<img height="21px" src="assets/pending_darkgrey-24px_table.png" /> **[!UICONTROL Immediate execution]**<br/>強制立即處理選擇。 此按鈕僅適用於「排程器<span class="uicontrol">」和</span>「<span class="uicontrol"></span>等待」活動。
 
 <img height="21px" src="assets/delete_darkgrey-24px_table.png" /> **[!UICONTROL Delete selection]**<br/>刪除選定的活動。
 

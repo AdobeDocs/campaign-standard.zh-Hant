@@ -12,7 +12,10 @@ discoiquuid: 5587530a-2308-4be1-9f56-19eeb7a924d5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c2ed4b3c85ceef3b604a8f68d924c7e5d9fad900
+source-git-commit: cd2d38ec65ecc0ee5d6d60ce2ae46eb21da6cd45
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -39,7 +42,7 @@ Adobe Campaign Standard僅支援平板裝置上的橫向顯示模式。
 * iOS（7.0版及更新版本）
 * Android（4.4版及更新版本）
 
-## Campaign Standard網路端點 {#campaign-standard-network-endpoints}
+## Campaign Standard 網路端點 {#campaign-standard-network-endpoints}
 
 以下是Campaign Standard中使用的不同端點。
 
@@ -49,7 +52,6 @@ Adobe Campaign Standard僅支援平板裝置上的橫向顯示模式。
 | IMS | `https://adobeid-na1.services.adobe.com`<br>`https://*.adobelogin.com` |
 | Experience Cloud | `https://experiencecloud.adobe.com` |
 | 追蹤 | `https://*.adobedtm.com`<br>`https://*.demdex.net`<br>`https://*.omtrdc.net` |
-| 適用於影像編輯器的Creative SDK | `https://dme0ih8comzn4.cloudfront.net`<br>`https://d42hh4005hpu.cloudfront.net/`<br>`https://cdn-creativesdk.adobe.io/`<br>`https://api-ag.aviary.com/`<br>`https://feather-client-files-aviary-prod-us-east-1.s3.amazonaws.com/` |
 | 資產整合 | `https://*.marketing-assets.adobe.com` |
 | 內部Adobe服務 | `https://*.adobe.io` |
 | 調查 | `https://adobe.allegiancetech.com` |

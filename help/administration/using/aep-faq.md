@@ -12,10 +12,10 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
+source-git-commit: 5b99fb9fbf8bdac506aeb8a35f30a7ef33aaa7e6
 workflow-type: tm+mt
-source-wordcount: '812'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 2%
 
 是的， [!DNL Adobe Experience Platform SDK] Adobe Campaign Standard和Adobe Campaign Classic都可進行整合。 您必須安裝對應的 **[!UICONTROL Extension]** 方式 [!DNL Adobe Launch] 以啟用整合。
 
-如需詳細資訊，請參閱「Campaign Classic」的 [本頁](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaignclassic) ，以及「Campaign Standard [](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) 」的本頁。
+如需關於此項目的詳細資訊，請參閱此[頁面](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard)。
 
 ## Adobe Experience Platform SDK整合可在Adobe Campaign中提供哪些功能？ {#aep-capabilities}
 

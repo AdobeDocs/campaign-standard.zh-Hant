@@ -13,10 +13,10 @@ delivercontext-tags: delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 7%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 7%
    * 該操 **[!UICONTROL Remove from quarantine]** 作會從隔離中刪除配置檔案電話號碼。
    * 此動 **[!UICONTROL None]** 作可讓您只傳送訊息給收件者，而不需執行動作。
 
-   例如，在下列設定中，如果收件者傳送關鍵字&quot;STOP&quot;，他們會自動收到取消訂閱的確認，而且其電話號碼將會以狀態傳送至隔離 **[!UICONTROL Denylisted]** 區。 此狀態僅指電話號碼，設定檔會被拒絕列出，讓使用者繼續收到電子郵件訊息。
+   例如，在下列設定中，如果收件者傳送關鍵字&quot;STOP&quot;，他們會自動收到取消訂閱的確認，而且其電話號碼將會以狀態傳送至隔離 **[!UICONTROL On denylist]** 區。 此狀態僅指電話號碼，設定檔會讓使用者繼續收到電子郵件訊息。
 
    ![](assets/sms_mo.png)
 

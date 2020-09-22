@@ -12,10 +12,10 @@ discoiquuid: aee81724-b425-47b4-af92-e55eff97836f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d7846c33f0bc3730fc63a8659c8afc1c868064e0
+source-git-commit: e4ba42c5bf0dd952690178b7d5070100c7ddf13d
 workflow-type: tm+mt
-source-wordcount: '793'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -36,9 +36,9 @@ Adobe Campaign Standard是功能強大的跨通道宣傳管理工具，可協助
 
 **使用服務和登陸頁面** ，管理客戶的許可和同意，以便設定簡單的選擇加入和選擇退出機制。
 
-**使用多項功能** ，豐富您的資料庫： 工作流程、著陸頁面或API，或Microsoft Dynamics 365。
+**使用多項功能** ，豐富您的資料庫：工作流程、著陸頁面或API，或Microsoft Dynamics 365。
 
-[開始使用個人檔案和受眾](../../audiences/using/get-started-profiles-and-audiences.md)
+[開始使用個人檔案和對象](../../audiences/using/get-started-profiles-and-audiences.md)
 
 ## 協調跨通道行銷宣傳 {#orchestrate-campaigns}
 
@@ -46,7 +46,7 @@ Adobe Campaign Standard是功能強大的跨通道宣傳管理工具，可協助
 
 規劃、協調和協調跨通道宣傳。
 
-**建立計畫和促銷活動** ，以最佳化您的行銷計畫組織。 透過報表分析行銷宣傳的影響。 使用單一介面可存取的多個行銷活動來協調您的宣傳活動，並設定行銷活動範本以節省時間。 [開始使用行銷計畫和活動](../../start/using/programs-and-campaigns.md)
+**建立計畫和促銷活動** ，以最佳化您的行銷計畫組織。 透過報表分析行銷宣傳的影響。 使用單一介面可存取的多種行銷活動來協調您的宣傳活動，並設定行銷活動範本以節省時間。 [開始使用行銷計畫和活動](../../start/using/programs-and-campaigns.md)
 
 **運用工作流程** ，協調並自動化您的宣傳活動。 [開始使用流程和資料管理](../../automating/using/get-started-workflows.md)
 
@@ -56,7 +56,7 @@ Adobe Campaign Standard是功能強大的跨通道宣傳管理工具，可協助
 
 透過線上和線下通訊通道設計和傳送訊息，包括透過測試和回應式設計策略針對多種裝置最佳化電子郵件傳送。
 
-**運用Campaign通訊通道** ，在適當的位置提供行銷宣傳： 電子郵件、簡訊、推播通知、應用程式內訊息、直效郵件、登陸頁面。 通過為所有類型的消息（事務性、循環性、多語言消息）建立模板，獲得消息策略的時間和一致性。 執行A/B測試，並運用個人化和動態內容功能擷取觀眾的興趣。 [開始使用通訊管道](../../channels/using/get-started-communication-channels.md)
+**運用Campaign通訊通道** ，在適當的位置提供行銷宣傳：電子郵件、簡訊、推播通知、應用程式內訊息、直效郵件、登陸頁面。 通過為所有類型的消息（事務性、循環性、多語言消息）建立模板，獲得消息策略的時間和一致性。 執行A/B測試，並運用個人化和動態內容功能擷取觀眾的興趣。 [開始使用通訊管道](../../channels/using/get-started-communication-channels.md)
 
 **使用Campaign電子郵件設計工具** ，建立吸引人、個別自訂的電子郵件訊息。 從頭開始，或運用內建的內容片段或範本，使用針對自適應設計最佳化的HTML格式來設計您的電子郵件。 [開始設計電子郵件內容](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -69,9 +69,9 @@ Adobe Campaign Standard是功能強大的跨通道宣傳管理工具，可協助
 一旦執行了行銷促銷活動並傳送了不同的訊息，Campaign Standard可讓您監控促銷活動，以追蹤其影響及收件者的行為。
 
 **傳送完交貨後** ，請加以監控。 請參閱並匯出有關您遞送的詳細記錄檔。 擷取每個收件者的狀態、從目標中排除的訊息，以及更多度量的相關資訊。
-運用傳送快訊功能，透過電子郵件通知追蹤傳送成功或失敗。 想要進一步瞭解嗎？ [開始使用訊息監控](../../sending/using/monitoring-a-delivery.md)
+運用傳送快訊功能，透過電子郵件通知追蹤傳送的成功或失敗。 想要進一步瞭解嗎？ [開始使用訊息監控](../../sending/using/monitoring-a-delivery.md)
 
-**追蹤您的遞送收件者的行為**。 運用工作階段和永久Cookie來擷取您資料庫中每個連絡人的追蹤資訊。 透過專用記錄檔和報表，監控傳送的追蹤資訊（點選的URL、錯誤頁面、開啟的訊息……）。 [開始使用訊息追蹤](../../sending/using/tracking-messages.md)
+**追蹤您的遞送收件者的行為**。 運用工作階段和永久Cookie來擷取您資料庫中每個連絡人的追蹤資訊。 透過專用記錄檔和報表，監控傳送（點選的URL、鏡像頁面、開啟的訊息……）的追蹤資訊。 [開始使用訊息追蹤](../../sending/using/tracking-messages.md)
 
 **運用動態報表** ，概述與訊息或促銷活動相關的特定量度。 動態報表提供可完全自訂的即時報表，可新增對描述檔資料的存取權，除了功能性電子郵件促銷活動資料（例如開啟和點按）外，還可依描述檔維度（例如性別、城市和年齡）進行人口統計分析。 透過拖放介面，您可以探索資料、判斷電子郵件促銷活動對最重要客戶細分的執行方式，並評估其對收件者的影響。 [開始使用動態報告](../../reporting/using/about-dynamic-reports.md)
 
@@ -79,11 +79,11 @@ Adobe Campaign Standard是功能強大的跨通道宣傳管理工具，可協助
 
 <img width="60px" alt="條件" src="assets/icon_admin.svg"/>
 
-**使用您自己的欄位和資源擴充Campaign Standard資料模型** ，並將所有資料模型變更監控為單一檢視。 [開始使用Campaign Standard資料模型](../../developing/using/get-started-data-model.md)
+**使用您自己的欄位和資源擴充Campaign Standard資料模型** ，並將所有資料模型變更監控為單一檢視。 [開始使用 Campaign Standard 資料模型](../../developing/using/get-started-data-model.md)
 
 **運用REST API** ，執行各種作業，並將Campaign Standard與您自己的生態系統整合。 [開始使用Campaign Standard REST API](../../api/using/get-started-apis.md)
 
-**從單一檢視** ，管理Campaign: 監控您的例項，管理使用者的權限。 設定外部伺服器以連線至您的例項，並設定您通訊管道的參數。 [開始使用Campaign Standard管理](../../administration/using/get-started-campaign-administration.md)
+**從單一檢視** ，管理Campaign:監控您的例項，管理使用者的權限。 設定外部伺服器以連線至您的例項，並設定您通訊管道的參數。 [開始使用 Campaign Standard 管理](../../administration/using/get-started-campaign-administration.md)
 
 **使用Campaign Standard資料管理功能** ，輕鬆匯入和匯出資料。 [開始使用流程和資料管理](../../automating/using/get-started-workflows.md)
 

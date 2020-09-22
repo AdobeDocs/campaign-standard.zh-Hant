@@ -12,10 +12,10 @@ discoiquuid: e029213f-0b65-41b1-8adf-34fa813b0c70
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4575c1152f1a33ff18b2200151346cc6e56b45fa
+source-git-commit: c1147c4512b1485ae5d927a32970adcd41b540e7
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 19%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,10 +26,23 @@ Adobe Campaign提供顯示作用中描述檔數目的報表。 此報告僅提�
 
 ![](assets/audience_active_profiles1.png)
 
-技 **[!UICONTROL Billing]** 術工作流程每月產生一份報告，其中包含過去12個月滾動期間鎖定的作用中描述檔數目。
+>[!NOTE]
+>
+>如果您是在AWS上代管並使用Campaign Standard建置10368，您也可以直接從控制面板監控實例上使用的活動配置檔案數。 For more on this, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
+>
+>請注意，「作用中」描述檔度量僅適用於 **Marketing例項** 。 它不適用於執行實例，即MID（中間採購）和RT（消息中心／即時消息）實例。
 
-在傳遞準備期間 (類型規則，隔離) 被排除的用戶檔案不包含在內。被多個傳遞項目鎖定的用戶檔案將只計算一次。在報表底部，您會找到每個定位維度的作用中描述檔清單。
+
+交貨準備期間排除的設定檔（類型學規則、隔離、控制群組）不會納入考量。 被多個傳遞項目鎖定的用戶檔案將只計算一次。在報表底部，您會找到每個定位維度的作用中描述檔清單。
+
+此報告由技術工作流程每月 **[!UICONTROL Billing]** 產生。 它包含在最近12個月滾動期間定位的活動配置檔案數。
+
+請注意，在準備交貨期間排除的設定檔（分類規則、隔離）不會納入考量。 此外，已由數個遞送鎖定的描述檔只會計算一次。
 
 ![](assets/audience_active_profiles2.png)
 
-如果您是在AWS上代管並使用Campaign Standard建置10368，您也可以直接從控制面板監控實例上使用的活動配置檔案數。 有關詳細資訊，請參閱「控 [制面板」文檔](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html)。
+在報表底部，您會找到帳單工作流程處理的作用中描述檔清單：
+
+* 來 **[!UICONTROL NmsRecipient]** 源包括使用其Campaign Standard設定檔中的資訊聯絡的所有客戶。
+
+* 另一方面，僅使用特定資訊（電子郵件地址、電話號碼）的目標客戶（與其促銷活動設定檔無關），將歸來源所 **[!UICONTROL anonymous]** 有。

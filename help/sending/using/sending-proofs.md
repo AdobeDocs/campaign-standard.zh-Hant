@@ -12,11 +12,11 @@ discoiquuid: 37320ec5-196c-4260-8156-98932da3e4a5
 context-tags: seedMember,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: f7f90991ed4c7323e3a2f8ac7d38da9ff165ef76
-workflow-type: ht
-source-wordcount: '592'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: a07ccaf864c3aef881cb02042b5e00a43c48f0a9
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -60,6 +60,7 @@ ht-degree: 100%
    * **[!UICONTROL Email rendering]**：選取此選項，依據設定為目標的收件匣，以測試接收訊息的方式。如需詳細資訊，請參閱[電子郵件呈現](../../sending/using/email-rendering.md)。
    * **[!UICONTROL Proof]**：選取此選項，在將訊息發送到主要目標之前測試該訊息。校樣收件者會負責藉由檢查傳送的內容及格式來核准傳送。
    * **[!UICONTROL Proof + Email rendering]**：此選項會結合前兩個選項。
+
    ![](assets/bat_select1.png)
 
    >[!NOTE]
@@ -108,7 +109,7 @@ ht-degree: 100%
 **相關主題：**
 
 * [傳送測試、準備和傳送電子郵件](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/sending-test-preparing-sending-email.html)視訊
-* [使用目標設定檔測試電子郵件訊息](../../sending/using/testing-messages-using-target.md)。
-* [管理測試設定檔](../../audiences/using/managing-test-profiles.md)。
+* [使用目標設定檔測試電子郵件訊息](../../sending/using/testing-messages-using-target.md)
+* [管理測試設定檔](../../audiences/using/managing-test-profiles.md)
 * [預覽訊息](../../sending/using/previewing-messages.md)
 * [設定電子郵件通道](../../administration/using/configuring-email-channel.md)

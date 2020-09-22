@@ -12,10 +12,10 @@ discoiquuid: de3a50b6-ea8f-4521-996b-c49cc1f3c946
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '786'
-ht-degree: 83%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 83%
 
 郵件準備期間會自動排除其電子郵件地址或電話號碼處於隔離狀態的設定檔（請參閱[識別傳送的隔離地址](#identifying-quarantined-addresses-for-a-delivery)）。這會加快傳送速度，因為錯誤率對傳送速度有顯著影響。
 
-如果無效地址的比率過高，某些網際網路存取提供者會自動將電子郵件視為垃圾郵件。因此，隔離可讓您避免被這些提供者拒絕列出。
+如果無效地址的比率過高，某些網際網路存取提供者會自動將電子郵件視為垃圾郵件。因此，隔離可讓您避免被這些提供者添加到拒絕清單。
 
 此外，隔離有助於減少簡訊傳送成本，因為將錯誤的電話號碼排除在遞送服務之外。
 
@@ -48,7 +48,7 @@ Being on the **Denylist**, on the other hand, will result in the profile no long
 
 >[!NOTE]
 >
->當使用者回覆SMS訊息時，其關鍵字如「STOP」，以選擇退出SMS傳送時，不會像電子郵件選擇退出程式一樣拒絕列出其個人檔案。 會將設定檔電話號碼傳送到隔離區，且狀態為　**[!UICONTROL Denylisted]**。此狀態僅指電話號碼，設定檔未登入清單，因此使用者會繼續收到電子郵件訊息。 如需詳細資訊，請參閱[本區段](../../channels/using/managing-incoming-sms.md#managing-stop-sms)。
+>當使用者回覆SMS訊息時，使用關鍵字（例如「STOP」），以選擇退出SMS傳送時，他的個人檔案不會像電子郵件選擇退出程式一樣列在拒絕清單中。 會將設定檔電話號碼傳送到隔離區，且狀態為　**[!UICONTROL On denylist]**。此狀態僅指電話號碼，設定檔不在登入清單中，因此使用者會繼續收到電子郵件訊息。 如需詳細資訊，請參閱[本區段](../../channels/using/managing-incoming-sms.md#managing-stop-sms)。
 
 ## 識別隔離地址 {#identifying-quarantined-addresses}
 
@@ -88,7 +88,7 @@ Adobe Campaign 會根據傳送失敗類型和錯誤訊息限定期間指派的�
 
    重試之後傳送成功時，重新初始化隔離前地址的錯誤計數器。地址狀態變更為　**[!UICONTROL Valid]**，而且會在兩天之後，由　**[!UICONTROL Database cleanup]**　工作流程從隔離區清單中刪除該地址。
 
-如果使用者將電子郵件歸類為垃圾訊息（**回饋迴路**），則訊息會自動重新導向至由　Campaign　管理的技術信箱。之後，系統會自動將使用者的電子郵件地址傳送到狀態為　**[!UICONTROL Denylisted]**　的隔離區。此狀態僅指地址，描述檔不在登入清單中，因此使用者會繼續收到SMS訊息和推播通知。
+如果使用者將電子郵件歸類為垃圾訊息（**回饋迴路**），則訊息會自動重新導向至由　Campaign　管理的技術信箱。之後，系統會自動將使用者的電子郵件地址傳送到狀態為　**[!UICONTROL On denylist]**　的隔離區。此狀態僅指地址，描述檔不在登入清單中，因此使用者會繼續收到SMS訊息和推播通知。
 
 >[!NOTE]
 Adobe Campaign　中的隔離區會區分大小寫。請務必以小寫匯入電子郵件地址，如此一來，稍後就不會將它們重新設為目標。

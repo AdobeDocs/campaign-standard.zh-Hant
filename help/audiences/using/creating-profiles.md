@@ -12,10 +12,10 @@ discoiquuid: 4ab8a984-f898-4fff-ad8c-ed8f95362f96
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: c1147c4512b1485ae5d927a32970adcd41b540e7
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 100%
+source-wordcount: '352'
+ht-degree: 97%
 
 ---
 
@@ -23,6 +23,10 @@ ht-degree: 100%
 # 建立設定檔{#creating-profiles}
 
 在 Adobe Campaign 中，預設會使用設定檔來定義訊息的主要目標。
+
+>[!NOTE]
+>
+>現在也可以使用 Adobe Campaign Standard API　建立設定檔。如需詳細資訊，請參閱[專屬文件](../../api/using/creating-profiles.md)。
 
 若要在 Campaign 中建立或更新設定檔，您可以：
 
@@ -38,7 +42,7 @@ ht-degree: 100%
 
    ![](assets/profile_creation_1.png)
 
-1. 然後按一下 **[!UICONTROL Create]**。
+1. 按一下 **[!UICONTROL Create]**。
 
    ![](assets/profile_creation.png)
 
@@ -51,7 +55,7 @@ ht-degree: 100%
    * **[!UICONTROL Channels]** 類別包含電子郵件地址、行動電話號碼、選取退出資訊，讓您知道可透過哪個通道存取設定檔。
    * 設定檔取消訂閱通道之後，就會更新　**[!UICONTROL No longer contact]**　類別。
    * **[!UICONTROL Address]** 類別包含需要填寫的郵遞區號，以及需要將[直接郵件](../../channels/using/about-direct-mail.md)傳送給此設定檔的　**[!UICONTROL Address specified]**　選項。如果未核取 **[!UICONTROL Address specified]** 選項，則會將此設定檔從每個直接郵件發送中排除。
-   * **[!UICONTROL Access authorization]** 類別會指出設定檔的組織單位（[管理權限](../../administration/using/about-access-management.md)）。也請參閱[分割設定檔](../../administration/using/organizational-units.md#partitioning-profiles)。
+   * The **[!UICONTROL Access authorization]** category indicates the profile&#39;s organizational units to [manage permissions](../../administration/using/about-access-management.md). 若要將組織欄位新增至您的設定檔，請參閱[分割設定檔](../../administration/using/organizational-units.md#partitioning-profiles)區段。
    * **[!UICONTROL Traceability]** 類別會使用關於建立或修改設定檔的使用者來自動更新。
 
 1. 按一下 **[!UICONTROL Create]** 以儲存設定檔。
@@ -59,13 +63,6 @@ ht-degree: 100%
 設定檔現在會顯示在清單中。
 
 >[!NOTE]
->
->現在也可以使用 Adobe Campaign Standard API　建立設定檔。如需詳細資訊，請參閱[專屬文件](../../api/using/creating-profiles.md)。
-
-也可以根據其組織單位來分割設定檔。若要將組織欄位新增至您的設定檔，請參閱[分割設定檔](../../administration/using/organizational-units.md#partitioning-profiles)區段。
-
->[!NOTE]
->
 >首選語言欄位的作用是在傳送多語言訊息時選取語言。如需關於多語言訊息的詳細資訊，[請參閱本頁](../../channels/using/creating-a-multilingual-email.md)。
 
 **相關主題：**

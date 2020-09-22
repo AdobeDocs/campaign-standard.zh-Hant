@@ -12,7 +12,7 @@ discoiquuid: 6b5680f2-bba9-453e-a0d5-8ca69dd02001
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 8%
@@ -26,7 +26,7 @@ ht-degree: 8%
 
 運算子可直接從描述檔標籤選擇使用者或退出使 **[!UICONTROL General]** 用。
 
-在此區 **[!UICONTROL No longer contact (denylisted)]** 段中，選取的核取方塊會對應使用者選擇退出的頻道。 根據使用者需求選擇頻道。
+在此區 **[!UICONTROL No longer contact (on denylist)]** 段中，選取的核取方塊會對應使用者選擇退出的頻道。 根據使用者需求選擇頻道。
 
 ![](assets/optin_landingpage_3.png)
 

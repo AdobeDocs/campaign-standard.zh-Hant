@@ -13,10 +13,10 @@ context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9a4c2219d5f8b312deb476d852cf5db9cd19afcb
+source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
 workflow-type: tm+mt
-source-wordcount: '1364'
-ht-degree: 93%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -37,14 +37,14 @@ ht-degree: 93%
 
 設定活動時，會定義資料擷取的方式。例如，要載入的檔案可以是聯絡人清單。
 
->[!CAUTION]
->
->只考慮 &quot;flat&quot; 結構檔案，例如。txt、.csv 等檔案。
-
 您可以：
 
 * 使用檔案結構將其應用於其他檔案的資料（使用 **[!UICONTROL Transfer file]** 活動復原）或
 * 使用檔案的結構和資料，將其匯入 Adobe Campaign。
+
+>[!IMPORTANT]
+>
+>只考慮 &quot;flat&quot; 結構檔案，例如。txt、.csv 等檔案。
 
 **相關主題：**
 

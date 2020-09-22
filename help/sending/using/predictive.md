@@ -12,9 +12,9 @@ discoiquuid: 609355f6-9003-41b9-9981-ea787419fbf5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: acaa07b3e40d0bcbf7c44f866ede141b992015a1
+source-git-commit: c277a6cb18e9a1d83f8a2632049e7cea36414052
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Adobe Campaign Standard提供兩種新的機器學習模型： **預測性傳送
 >[!CAUTION]
 >這項功能無法立即在產品中使用。 實作需要Adobe Consulting參與。 請洽詢您的Adobe代表以瞭解更多資訊。
 >
->另外，此功能需要使用客戶必須提供的Azure儲存空間。
+>此功能需要使用客戶必須提供的Azure儲存空間。
 
 ## 預測性傳送時間最佳化{#predictive-send-time}
 

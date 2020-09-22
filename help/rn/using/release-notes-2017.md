@@ -12,10 +12,10 @@ discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '4623'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -494,7 +494,7 @@ _工作流程_
    <td> 交易訊息的行銷功能<br /> </td> 
    <td> 行銷人員現在可以根據客戶行銷個人檔案傳送交易訊息。 這可讓他們：<br /> 
     <ul> 
-     <li> 套用行銷類型學規則，例如「登 <span class="uicontrol">入清單位址」</span> 。 </li> 
+     <li> 套用行銷類型學規則，例 <span class="uicontrol">如登入清單的地址</span> 。 </li> 
      <li> 在訊息中包含取消訂閱連結。 </li> 
      <li> 將交易式訊息新增至全域傳送報告。 </li> 
      <li> 在客戶歷程中善用交易式訊息。 </li> 
@@ -530,7 +530,7 @@ _推播通知_
 * 修正從應用程式回傳至Adobe Campaign伺服器的問題。
 * 已修正Android可能無 **[!UICONTROL Play a sound]** 法 **[!UICONTROL Custom fields]** 考慮的問題。
 * 修正可能導致在Emojis的Unicode字元中新增額外逸出字元的問題。
-* 當訂閱者的註冊Token被取消列出時，Adobe Campaign中應用程式的訂閱者清單中的對應狀態現在會立即更新。
+* 當訂閱者的註冊Token新增至Denylist時，Adobe Campaign中應用程式的訂閱者清單中的對應狀態現在會立即更新。
 
 _工作流程_
 

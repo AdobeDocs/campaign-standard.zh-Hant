@@ -13,10 +13,10 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
 workflow-type: tm+mt
-source-wordcount: '1274'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -127,7 +127,7 @@ Adobe Campaign 提供兩種類型的清單：
 
    ![](assets/inapp_creating_5.png)
 
-1. 編輯訊息的內容並定義進階選項。請參閱[自訂應用程式內訊息](https://helpx.adobe.com/campaign/standard/channels/using/customizing-a-push-notification.html)。
+1. 編輯訊息的內容並定義進階選項。請參閱[自訂應用程式內訊息](https://helpx.adobe.com/campaign/standard/channels/using/customizing-an-in-app-message.html)。
 
    ![](assets/inapp_creating_6.png)
 

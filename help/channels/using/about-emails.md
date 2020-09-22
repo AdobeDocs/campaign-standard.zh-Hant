@@ -1,19 +1,22 @@
 ---
 title: 關於電子郵件
 description: 探索您可以隨Adobe Campaign傳送的不同電子郵件類型。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: 1650cad5-afc0-4215-9fb4-7f8ad5f504df
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 頻道
-content-type: 參考
-topic-tags: 電子郵件訊息
+audience: channels
+content-type: reference
+topic-tags: email-messages
 discoiquuid: 521463aa-dec0-4f4b-8b71-93a4572e2b33
-context-tags: deliveryCreation，精靈
+context-tags: deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 67fbf66d8ad358ae5d2caaec5b90beb6304047e6
+workflow-type: tm+mt
+source-wordcount: '131'
+ht-degree: 3%
 
 ---
 
@@ -29,4 +32,4 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 * A/B測試電子郵件：測試最多3個版本的電子郵件。
 * 交易電子郵件：根據客戶行為觸發的單一電子郵件。
 
-若要瞭解建立和傳送電子郵件時的最佳實務，請參 [閱「傳送最佳實務](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html) 」逐步指南。
+若要瞭解建立和傳送電子郵件時的最佳實務，請參閱「傳送 [最佳實務](../../sending/using/delivery-best-practices.md) 」一節。

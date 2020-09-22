@@ -12,10 +12,10 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51e98bb6212ad96d9c11b848df9dcad25b3f1b61
+source-git-commit: c4373c444ed51e03c16be05363e9e4128a6f4a58
 workflow-type: tm+mt
-source-wordcount: '1039'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -73,12 +73,15 @@ ht-degree: 98%
 
 工作流程屬性可讓您定義在其所有活動中預設使用的特定時區。依預設，工作流程的時區是為目前的促銷活動運算子定義的時區。
 
-
 ## 活動{#activity}
+
+### 每個工作流程的活動數 {#number-activities}
+
+我們建議在單一工作流程中使用最多100個活動。 超過100種活動，在設計和設定工作流程時可能會遇到一些效能問題。
 
 ### 工作流程設計
 
-為確保工作流程正常結束，請使用 **[!UICONTROL End activity]**。請避免讓工作流程的最後一個轉變單獨進行。
+為確保工作流正常結束，請避免使用 **[!UICONTROL End activity]**
 
 若要存取轉變的詳細檢視，請核取工作流程屬性的「執行」區段中的 **[!UICONTROL Keep interim results]** 選項。
 

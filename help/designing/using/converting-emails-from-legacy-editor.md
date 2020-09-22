@@ -12,9 +12,9 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bb83fb3b24af0102dc3745517e8604fdac82ee19
+source-git-commit: b95a1990cfd8b4ce667c7cb2905af33a261c574b
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->和相容性模式一樣，HTML元件也可以編輯，但選項有限： 您只能執行就地版本。
+>和相容性模式一樣，HTML元件也可以編輯，但選項有限：您只能執行就地版本。
 
 >[!IMPORTANT]
 >
@@ -43,17 +43,17 @@ ht-degree: 0%
 ## 建立您的電子郵件結構
 
 1. 開啟以 **[!UICONTROL Email Designer]** 建立空的電子郵件內容。
-1. 設定主體級別屬性： 背景顏色、寬度等。 如需詳細資訊，請參閱「編輯 [電子郵件樣式](../../designing/using/styles.md)」。
-1. 添加任意數量的結構元件（如有章節）。 如需詳細資訊，請參閱「 [編輯電子郵件結構」](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
+1. 設定主體級別屬性：背景顏色、寬度等。 如需詳細資訊，請參閱[編輯電子郵件樣式](../../designing/using/styles.md)。
+1. 添加任意數量的結構元件（如有章節）。 如需詳細資訊，請參閱「[編輯電子郵件結構](../../designing/using/designing-from-scratch.md#defining-the-email-structure)」。
 
 ## 新增HTML內容
 
-1. 將HTML元件新增至每個結構元件。 如需詳細資訊，請參 [閱新增片段和元件](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
+1. 將HTML元件新增至每個結構元件。 如需詳細資訊，請參閱「[新增片段及元件](../../designing/using/designing-from-scratch.md#defining-the-email-structure)」。
 1. 將HTML複製並貼至每個元件。
 
 ## 管理電子郵件的樣式 {#manage-the-style-of-your-email}
 
-1. 切換至 **[!UICONTROL Mobile view]**。 For more on this, see [this section](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
+1. 切換至 **[!UICONTROL Mobile view]**。 如需詳細資訊，請參閱[本區段](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)。
 
 1. 若要修正此問題，請切換至原始碼模式，並將樣式區段複製貼至新的樣式區段。 例如：
 
@@ -85,7 +85,7 @@ ht-degree: 0%
 
 讓我們嘗試將這封在舊版編輯器中建立的電子郵件轉換為范 **[!UICONTROL Email Designer]** 本。
 
-## 識別您電子郵件的章節
+### 識別您電子郵件的章節
 
 我們可以識別此電子郵件中的11個章節。
 
@@ -117,7 +117,7 @@ ht-degree: 0%
 
 1. 插入HTML區段。
 
-1. 按一下「**[!UICONTROL Save]**」。
+1. 按一下 **[!UICONTROL Save]**。
 
 您現在可以檢查電子郵件的轉換。
 

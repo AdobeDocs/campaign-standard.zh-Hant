@@ -13,10 +13,10 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 6%
 * [發生故障時收到警報](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [瞭解傳送故障](../../sending/using/understanding-delivery-failures.md)
 * [瞭解隔離管理](../../sending/using/understanding-quarantine-management.md)
-* [隔離與拒絕清單](../../sending/using/understanding-quarantine-management.md#quarantine-vs-block-list)
+* [隔離與拒絕清單](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)
 * [動態報表](../../reporting/using/about-dynamic-reports.md)
 
 ## 檢查網路配置 {#network-configuration}

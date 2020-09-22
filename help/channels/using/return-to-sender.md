@@ -12,10 +12,10 @@ discoiquuid: 5f20ff3f-8242-4735-8c60-c57610edff52
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 2%
 
 匯入完成後，Adobe Campaign會自動執行下列動作：
 
-* 描述檔層級會拒絕列出錯誤的位址
+* 在描述檔層級將不正確的地址新增至denylist
 * 傳送主要指標(KPI)已更新
 * 傳送記錄檔已更新
 

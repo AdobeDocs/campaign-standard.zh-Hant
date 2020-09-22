@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Adobe Campaign Standard 說明
 breadcrumb-title: Campaign Standard Guide
 translation-type: tm+mt
-source-git-commit: f26fb6bd8b6d103e25bfaedb02d4d1d9342752bf
+source-git-commit: f83259801fee2709aad48d364d16b4affe041a6d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1651'
+ht-degree: 84%
 
 ---
 
@@ -73,6 +73,14 @@ ht-degree: 0%
       + [存取訊息](channels/using/accessing-messages.md)
       + [訊息儀表板](channels/using/message-dashboard.md)
       + [多語言訊息範本](channels/using/multilingual-messages-template.md)
+   + 提供最佳實務 {#delivery-bestpractices}
+      + [瞭解良好實務](sending/using/delivery-best-practices.md)
+      + [最佳化傳送](sending/using/optimize-delivery.md)
+      + [使用範本](sending/using/use-templates.md)
+      + [建立個人化內容](sending/using/design-and-personalize.md)
+      + [定義正確的受眾](sending/using/define-the-right-audience.md)
+      + [傳送前先檢查](sending/using/check-before-sending.md)
+      + [追蹤和監控](sending/using/track-and-monitor.md)
    + 電子郵件訊息 {#email-messages}
       + [關於電子郵件](channels/using/about-emails.md)
       + [建立電子郵件](channels/using/creating-an-email.md)

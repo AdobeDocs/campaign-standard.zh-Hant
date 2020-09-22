@@ -12,10 +12,10 @@ discoiquuid: a524c700-bad6-4fcf-857a-c31bfae4d30c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+source-git-commit: dddd147d01f935ec6f1513c5f92bddf6e789abb1
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -50,14 +50,31 @@ ht-degree: 98%
 
    ![](assets/remarketing_4.png)
 
-1. 按一下 **[!UICONTROL Publish]** 按鈕，以開始發佈觸發程式事件。
+1. 您現在可以發佈觸發器。 如需詳細資訊，請參閱「 [在促銷活動中發佈觸發器」](../../integrating/using/using-triggers-in-campaign.md#publishing-trigger-in-campaign)。
+
+## 在Campaign中發佈觸發器 {#publishing-trigger-in-campaign}
+
+根據現有的Adobe Experience Cloud觸發器在Adobe Campaign中建立觸發器事件後，您現在需要發佈它。
+
+1. 在您先前建立的觸發器中，按一下 **[!UICONTROL Publish]** 按鈕以開始發佈觸發器事件。
+
+   ![](assets/trigger_publish_1.png)
+
+1. 您可以在下查看觸發器發佈的進度 **[!UICONTROL Publication]**。
+
+   ![](assets/trigger_publish_2.png)
+
+1. 發佈完成後，下列訊息會出現在下方 **[!UICONTROL Publication]**。
+
+   ![](assets/trigger_publish_3.png)
+
 1. 如果您在發佈觸發程式事件後，仍需在觸發程式綱要中進行變更，請按一下 **[!UICONTROL Update schema]** 按鈕以擷取最新變更。
 
    請注意，此動作會取消發佈您的觸發程式與交易式訊息，之後您將需要重新發佈。
 
-   ![](assets/remarketing_11.png)
+   ![](assets/trigger_publish_4.png)
 
-此 **[!UICONTROL Show Trigger in Experience Cloud]** 按鈕可讓您在 Adobe Experience Cloud 中檢視觸發程式定義。
+1. Click **[!UICONTROL Show Trigger in Experience Cloud]** button allows you to view the trigger definition in Adobe Experience Cloud.
 
 發佈事件之後，就會自動建立連結至新事件的交易式範本。之後，您必須修改並發佈剛建立的範本。如需詳細資訊，請參閱[編輯範本](../../start/using/marketing-activity-templates.md)一節。
 

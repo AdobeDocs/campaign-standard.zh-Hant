@@ -12,10 +12,10 @@ discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: 67fbf66d8ad358ae5d2caaec5b90beb6304047e6
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 17%
+source-wordcount: '521'
+ht-degree: 16%
 
 ---
 
@@ -102,7 +102,7 @@ Campaign隨附著著陸頁面，這些網頁表單可用來擷取 **受眾的資
 ## 其他資源
 
 * [最佳化您的傳遞能力](../../sending/using/about-deliverability.md)
-* [提供最佳實務](https://helpx.adobe.com/tw/campaign/kb/delivery-best-practices.html)
+* [提供最佳實務](../../sending/using/delivery-best-practices.md)
 * [設計電子郵件內容](../../designing/using/designing-content-in-adobe-campaign.md)
 * [匯入AEM內容](../../integrating/using/creating-email-experience-manager.md)
 * [使用工作流程傳送訊息](../../automating/using/about-channel-activities.md)

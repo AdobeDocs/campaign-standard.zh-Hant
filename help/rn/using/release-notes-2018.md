@@ -12,9 +12,9 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '5398'
+source-wordcount: '5400'
 ht-degree: 4%
 
 ---
@@ -89,7 +89,7 @@ ht-degree: 4%
 * 修正從相機上傳並以縱向模式拍攝的像片，在不想要的旋轉位置顯示的問題。
 * 修正在Creative Designer中使用查詢編輯器介面時，選取資訊不清楚的問題。
 * 修正使用Creative Designer中的查詢編輯器介面時，無法正確複製元素的問題。
-* 修正即使已透過自動回覆取消訂閱SMS訊息，仍持續傳送SMS訊息給已拒絕列出的收件者的問題。 (CAMP-27128)
+* 修正即使已透過自動回覆取消訂閱SMS訊息，仍持續傳送SMS訊息給電子清單上的收件者的問題。 (CAMP-27128)
 * 修正無法顯示導致「資料庫清除」工作流程 **失敗的錯誤** 。 (CAMP-26876)
 * 修正推播通知定義中無法刪除自訂欄位的問題。 (CAMP-25588)
 

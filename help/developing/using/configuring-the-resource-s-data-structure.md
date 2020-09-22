@@ -12,9 +12,9 @@ discoiquuid: 4f22ee35-1d5f-4c75-95b4-3e38b85de26e
 context-tags: cusResource,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 6cf00f9b9bafdd54d8424a353b33dc689c0f59aa
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 81612f8158a19853e4b3ca05866fa335af493f67
+workflow-type: tm+mt
 source-wordcount: '1657'
 ht-degree: 100%
 
@@ -154,6 +154,7 @@ ht-degree: 100%
    * **[!UICONTROL 1 cardinality simple link]**：來源表格的一個執行個體最多可以具有目標表格的相對應執行個體。
    * **[!UICONTROL N cardinality collection link]**：來源表格的一個出現次數可以具有多個目標表的相應出現次數，但目標表的一個出現次數最多可以具有來源表格的一個對應出現次數。
    * **[!UICONTROL 0 or 1 cardinality simple link]**：來源表格的一個執行個體最多可以具有目標表的一個相應執行個體或無。請注意，這類 **[!UICONTROL Link type]** 可能會導致效能問題。
+
    ![](assets/schema_extension_29.png)
 
 1. 在 **[!UICONTROL New link]** 畫面中，預設會完成 **[!UICONTROL Label]** 及 **[!UICONTROL ID]** 欄位，但您可以加以編輯。
@@ -161,8 +162,6 @@ ht-degree: 100%
    >[!NOTE]
    >
    >最多使用 30 個字元。
-
-   >[!IMPORTANT]
    >
    >建立後無法重新命名連結。若要重新命名連結，您必須刪除連結並重新建立連結。
 
@@ -178,6 +177,7 @@ ht-degree: 100%
 
    * **[!UICONTROL Use the primary key to make the join]**：此連接定義可讓您使用設定主鍵來調解購買的主鍵。
    * **[!UICONTROL Define specific join conditions]**：此連接定義可讓您手動選取將連接兩個資源的欄位。請注意，如果資料未正確設定，**Purchase** 記錄將不會顯示。
+
    ![](assets/schema_extension_17.png)
 
 所建立的連結將顯示在 **[!UICONTROL Links]** 區段中的清單中。

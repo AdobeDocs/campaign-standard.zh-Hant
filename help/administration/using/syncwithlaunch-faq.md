@@ -12,9 +12,9 @@ discoiquuid: 54028f63-c9ca-4397-a079-e27e0cfdebf6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 95a7397092f6e07c84967d90908469f630f7a170
+source-git-commit: 5396772ca53740c78c5a7df3ef75d27b838de8a0
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -25,10 +25,6 @@ ht-degree: 0%
 您可以透過專屬的技術工作流程，將Adobe Launch行動裝置屬性匯入Adobe Campaign **[!UICONTROL Sync with Launch]** Standard。 For more information, refer to this [page](../../administration/using/technical-workflows.md)
 
 下節列出了有關此同步的常見問題。
-
->[!NOTE]
->
->You will need to submit a ticket to Adobe Customer Care (either directly or through your Adobe contact) to have the **[!UICONTROL syncWithLaunch]** technical workflow enabled in your Campaign instance.
 
 ## 我在(組織單位 [!DNL Launch] ALL的非管理員)中建立屬性。 我的應用程式在Adobe Campaign中處於「準備好設定」狀態，但無法開啟／設定它。 {#configuring-property}
 

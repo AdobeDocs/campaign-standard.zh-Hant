@@ -12,9 +12,9 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 621c29ae08770b50629ba3d27116f93f8b5c3f62
+source-git-commit: 2ef169d9bf76856bb687af88358e0452953313a0
 workflow-type: tm+mt
-source-wordcount: '1439'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,8 @@ ht-degree: 0%
 
 由於Dynamics 365和Campaign之間的退出屬性不同，以及每個客戶的業務需求不同，因此選擇退出對應仍留作客戶完成的練習。  請務必確保退出選項在系統之間正確映射，以便維護最終用戶退出首選項，並且他們不會通過他們選擇退出的通道接收通信。
 
-請注意，只有具有&quot;blockList&quot;前置詞（例如blockListEmail）或CCPA選擇退出的特定屬性的促銷活動屬性才能用於選擇退出映射。  在Dynamics 365中，大多數選擇退出欄位都有「donot」字首；但是，如果資料類型相容，您也可以利用其他屬性來選擇退出。
+請注意，只有首碼為「不再透過電子郵件聯絡」的促銷活動屬性或CCPA選擇退出的特定屬性才能用於選擇退出映射。 [進一步瞭解](../../developing/using/datamodel-profile.md).
+在Dynamics 365中，大多數選擇退出欄位都有「donot」字首；但是，如果資料類型相容，您也可以利用其他屬性來選擇退出。
 
 在布建整合時，您將有機會指定您的企業需要何種退出設定：
 

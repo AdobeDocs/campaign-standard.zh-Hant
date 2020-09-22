@@ -12,10 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ec32aa2a955486362f100382f3a78004fdae4a4f
+source-git-commit: 23e3b1c3105fd99ec0cd67cb4a3ca5e565604449
 workflow-type: tm+mt
-source-wordcount: '6140'
-ht-degree: 94%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,6 +23,22 @@ ht-degree: 94%
 # 文件更新{#documentation-updates}
 
 除了 Adobe Campaign [發行版本](../../rn/using/release-notes.md)以外，本頁還列出 Adobe Campaign Standard 檔案中的所有新更新。
+
+## 發行版本 20.4 – 2020 年 10 月 {#release-20-4---october-2020}
+
+**此版本包含的新功能**
+
+Control groups - [Read More](../../sending/using/control-group.md)
+
+外部API（OAuth支援）-閱 [讀更多](../../automating/using/external-api.md)
+
+Journey AI整合——閱 [讀更多](../../sending/using/predictive.md)
+
+**此版本隨附的其他文件更新**
+
+運用運算式編輯器中提供的新函式，豐富了如何使用外部參數呼叫工作流程的章節。 [顯示全文](../../automating/using/customizing-workflow-external-parameters.md)
+
+在工作流程中已新增建議，以瞭解每個工作流程要使用的活動數。 [顯示全文](../../automating/using/best-practices-workflows.md#number-activities)
 
 ## 檔案更新 – 2020 年 9 月{#doc-updates-september-2020}
 
@@ -33,6 +49,8 @@ ht-degree: 94%
 已新增新區段，以詳細說明建立新品牌的程式。 [顯示全文](../../administration/using/branding.md#creating-a-brand)
 
 全新的Campaign Standard - Microsoft Dynamics 365整合現已推出。 [顯示全文](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+
+已在「作用中描述檔」報表中新增匿名來源的資訊。 [顯示全文](../../audiences/using/active-profiles.md)
 
 ## 檔案更新 – 2020 年 8 月 {#doc-updates-august-2020}
 
@@ -220,7 +238,7 @@ API 檔案首頁已經過改良，並重新導向不同的主題。[瞭解詳情
 
 ## 檔案更新 – 2019 年 11 月 {#doc-updates-november-2019}
 
-已新增一個新的使用案例，說明如何使用 Campaign Standard 中的工作流程來建立控制群組。[瞭解詳情](../../automating/using/workflow-control-group.md)
+已新增一個新的使用案例，說明如何使用 Campaign Standard 中的工作流程來建立控制群組。
 
 與登錄頁面屬性相關的資訊已移入專用區段。[瞭解詳情](../../channels/using/configuring-landing-page.md)
 
@@ -276,7 +294,7 @@ Campaign Standard 及 Campaign Classic 的錯誤訊息清單已更新。[顯示�
 
 推播通知區段中已新增一個區段，說明如何根據行動應用程式訂閱資料建立和更新個人檔案資訊。[瞭解詳情](../../channels/using/updating-profile-with-mobile-app-data.md)
 
-已新增新範例，說明如何傳送包含從載入檔案活動擷取之其他資料的電子郵件。[瞭解詳情](../../automating/using/load-file.md#example-2-email-with-enriched-fields)
+已新增新範例，說明如何傳送包含從載入檔案活動擷取之其他資料的電子郵件。[瞭解詳情](../../automating/using/sending-email-enriched-fields.md)
 
 已新增如何使用補漏白的新區段。[瞭解詳情](../../sending/using/using-traps.md)。
 
@@ -466,7 +484,7 @@ Campaign Standard 及 Campaign Classic 的錯誤訊息清單已更新。[瞭解�
 
 已新增有關如何透過複製貼上作業複製工作流程活動的新區段。[瞭解詳情](../../automating/using/workflow-interface.md#duplicating-workflow-activities)
 
-已新增查詢（[瞭解詳情](../../automating/using/query.md)）及分段（[瞭解詳情](../../automating/using/segmentation.md)）活動中新選項的資訊，如果活動未擷取任何資料，則可讓您在活動後新增出站轉變。
+已新增查詢（[瞭解詳情](../../automating/using/query-samples.md)）及分段（[瞭解詳情](../../automating/using/segmentation.md)）活動中新選項的資訊，如果活動未擷取任何資料，則可讓您在活動後新增出站轉變。
 
 在「更新資料」活動區段中新增新的「批次大小」欄位的資訊，可讓您定義要上傳之資料的最大批次大小。[瞭解詳情](../../automating/using/update-data.md#configuration)
 
@@ -568,7 +586,7 @@ API 檔案已更新，其中包含 **History** API的資訊。已新增使用案
 
 已更新「準備傳送」角色定義。[瞭解詳情](../../administration/using/list-of-roles.md)
 
-在查詢活動區段中新增範例，說明如何定位在傳送中點按特定連結的設定檔。[瞭解詳情](../../automating/using/query.md#targeting-profiles-who-clicked-a-specific-link-)
+在查詢活動區段中新增範例，說明如何定位在傳送中點按特定連結的設定檔。[瞭解詳情](../../automating/using/query-samples.md#targeting-profiles-who-clicked-a-specific-link-)
 
 在 API 檔案中新增與&#x200B;**自訂篩選器**&#x200B;相關的區段。[瞭解詳情](../../api/using/filtering.md)
 
@@ -622,7 +640,7 @@ GDPR：核心服務整合 – [瞭解詳情](https://helpx.adobe.com/tw/campaign
 
 GDPR API 會重新分組可自動處理 GDPR 要求的功能。[瞭解詳情](../../api/using/creating-a-privacy-request.md)
 
-已新增有關如何設定著陸頁面的資訊，讓收件者能夠拒絕列出。 [瞭解詳情](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
+已新增有關如何設定著陸頁面的資訊，讓收件者能夠登入登入清單。 [瞭解詳情](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
 已重新整理[設定交易式訊息](../../administration/using/configuring-transactional-messaging.md)區段，而且已新增[逐步使用案例](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message)。
 
@@ -658,7 +676,7 @@ datamodel v1 現在可用於內建資源的 SQL 結構 – [瞭解詳情](https:
 
 已更新　**[!UICONTROL Working with typologies]**　區段，以改善可見度。[瞭解詳情](../../sending/using/about-typology-rules.md)
 
-可在　**[!UICONTROL Query]**　中定義許多其他資料時取得效能的新選項，現在已可供使用。[瞭解詳情](../../automating/using/query.md)
+可在　**[!UICONTROL Query]**　中定義許多其他資料時取得效能的新選項，現在已可供使用。[瞭解詳情](../../automating/using/query-samples.md)
 
 設定檔匯入範例已更新，提供一些提示，讓您的設定檔準備好接收直接電子郵件。[瞭解詳情](../../automating/using/about-data-import-and-export.md)
 
@@ -672,7 +690,7 @@ datamodel v1 現在可用於內建資源的 SQL 結構 – [瞭解詳情](https:
 
 新增如何使用SMS自動回覆的逐步使用案例。[瞭解詳情](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
-已新增有關如何根據使用者在循環工作流程中的時區傳送傳送的資訊。[瞭解詳情](../../automating/using/push-notification-delivery.md#sending-a-recurring-push-notification-with-a-workflow)
+已新增有關如何根據使用者在循環工作流程中的時區傳送傳送的資訊。[瞭解詳情](../../automating/using/recurring-push-notifications.md)
 
 使用逐步使用案例重新整理　**[!UICONTROL Customizing a push notification]**　區段。[瞭解詳情](../../channels/using/customizing-a-push-notification.md)
 

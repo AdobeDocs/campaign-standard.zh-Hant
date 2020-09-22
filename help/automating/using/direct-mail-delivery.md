@@ -13,7 +13,7 @@ context-tags: directMail,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
+source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 99%
@@ -29,11 +29,10 @@ ht-degree: 99%
 
 ![](assets/recurrentpaper.png)
 
-**[!UICONTROL Direct mail delivery]** 活動可讓您設定並準備包含您要用於直接郵件促銷活動之設定檔資料的檔案。這可以是一次使用的直接郵件，也可以是&#x200B;**循環性**&#x200B;直接郵件。
+**[!UICONTROL Direct mail delivery]** 活動可讓您設定並準備包含您要用於直接郵件促銷活動之設定檔資料的檔案。這可以是一次使用的直接郵件，也可以是循環性直接郵件。
 
-標準的直接郵件只傳送一次。
-
-循環郵件可讓您在定義的時段內，多次傳送相同的直接郵件給不同的目標。您可以彙總每個期間的傳送，以取得符合您需求的報表。
+* **標準的直接郵件只傳送一次。**
+* **循環郵件可讓您在定義的時段內，多次傳送相同的直接郵件給不同的目標。**&#x200B;您可以彙總每個期間的傳送，以取得符合您需求的報表。
 
 ## 使用內容 {#context-of-use}
 

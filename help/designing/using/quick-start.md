@@ -12,7 +12,10 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6aa48a9f36e0716b036288862d1a0064e489be92
+source-git-commit: b95a1990cfd8b4ce667c7cb2905af33a261c574b
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -40,13 +43,13 @@ source-git-commit: 6aa48a9f36e0716b036288862d1a0064e489be92
 
 >[!NOTE]
 >
->在這兩種建立策略中，在傳送電子郵件之前先填妥主題行是非常重要的。 瞭解如何 [新增主旨行](#add-a-subject-line)。
+>在這兩種建立策略中，在傳送電子郵件之前先填妥主題行是十分重要的。 瞭解如何 [新增主旨行](#add-a-subject-line)。
 
 ### 從頭開始建立電子郵件 {#from-scratch-email}
 
 您可以輕鬆建立電子郵件、新增元件並個人化其內容，以便快速傳送。 您可以視需要調整樣式選項以配合您的內容。 如需有關管理樣式設定和內嵌屬性的詳細資訊，請參閱「編 [輯電子郵件樣式」](../../designing/using/styles.md)。
 
-1. 建立電子郵件。
+1. 建立電子郵件.
 1. 關閉首頁。
 
 ### 新增主旨行 {#add-a-subject-line}
@@ -75,33 +78,33 @@ source-git-commit: 6aa48a9f36e0716b036288862d1a0064e489be92
 
 * **影像**
 
-1. 在「 **內容元件**」中，將影像拖放至其中一個結構元件中。
-1. 按一 **下瀏覽**。
-1. 從您的電腦選取影像檔案。
+   1. 在「 **內容元件**」中，將影像拖放至其中一個結構元件中。
+   1. 按一 **下瀏覽**。
+   1. 從您的電腦選取影像檔案。
 
-![](assets/browse-image-quick-start.png)
+   ![](assets/browse-image-quick-start.png)
 
 * **文字與個人化**
 
-1. 在「 **內容元件**」中，將文字拖放至其中一個結構元件中。
-1. 按一下元件並輸入文字。
-1. 若要新增個人化欄位，請按一下工 **具列中的「插入個人化** 」欄位。
-1. 選擇您需要的欄位，例如名字。
+   1. 在「 **內容元件**」中，將文字拖放至其中一個結構元件中。
+   1. 按一下元件並輸入文字。
+   1. 若要新增個人化欄位，請按一下工 **具列中的「插入個人化** 」欄位。
+   1. 選擇您需要的欄位，例如名字。
 
-![](assets/edit-text-quick-start.png)
+   ![](assets/edit-text-quick-start.png)
 
 * **HTML**
 
-1. 在「 **內容元件**」中，將HTML拖放至其中一個結構元件中。
-1. 按一 **下顯示原始碼**。
-1. 輸入您的HTML內容。
-1. 按一下 **儲存**。
+   1. 在「 **內容元件**」中，將HTML拖放至其中一個結構元件中。
+   1. 按一 **下顯示原始碼**。
+   1. 輸入您的HTML內容。
+   1. 按一下 **儲存**。
 
-![](assets/html-component-source-code.png)
+   ![](assets/html-component-source-code.png)
 
-如果您熟悉HTML，則可使用內容元件，從原始頁尾複製並貼上HTML **[!UICONTROL Html]** 程式碼。 如需詳細資訊，請參閱關於 [內容元件](../../designing/using/designing-from-scratch.md#about-content-components)。
+   如果您熟悉HTML，則可使用內容元件，從原始頁尾複製並貼上HTML **[!UICONTROL Html]** 程式碼。 如需詳細資訊，請參閱關於 [內容元件](../../designing/using/designing-from-scratch.md#about-content-components)。
 
-![](assets/des_loading_compatible_fragment_9.png)
+   ![](assets/des_loading_compatible_fragment_9.png)
 
 ### 設定電子郵件元件的樣式
 
@@ -128,10 +131,10 @@ source-git-commit: 6aa48a9f36e0716b036288862d1a0064e489be92
 不同的範本呈現多種元素的組合。 例如，「羽化」範本有邊界，而「Astro」範本沒有邊界。 如需詳細資訊，請參閱「內 [容範本」](../../designing/using/using-reusable-content.md#content-templates)。
 1. 轉至「電 **[!UICONTROL Properties]** 子郵件設計器」首頁的標籤（可透過首頁圖示存取）並填寫 **[!UICONTROL Subject]** 章節。
 1. 您可以結合這些元素來建立許多電子郵件變體。 例如，您可以選擇結構元件並從內容相關工具列按一下，以複製 **[!UICONTROL Duplicate]** 電子郵件區段。
-1. 可以使用左側的藍色箭頭將元素移動，以將結構元件拖曳到另一個元件下方或上方。 如需詳細資訊，請參閱「 [編輯電子郵件結構」](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
-1. 您也可以移動元件以變更每個結構元素的組織。 如需詳細資訊，請參 [閱新增片段和元件](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
+1. 可以使用左側的藍色箭頭將元素移動，以將結構元件拖曳到另一個元件下方或上方。 如需詳細資訊，請參閱「[編輯電子郵件結構](../../designing/using/designing-from-scratch.md#defining-the-email-structure)」。
+1. 您也可以移動元件以變更每個結構元素的組織。 如需詳細資訊，請參閱「[新增片段及元件](../../designing/using/designing-from-scratch.md#defining-the-email-structure)」。
 1. 根據您的需求修改每個元素的內容：影像、文字、連結。
-1. 視需要調整樣式選項以配合您的內容。 如需詳細資訊，請參閱「編輯 [電子郵件樣式](../../designing/using/styles.md)」。
+1. 視需要調整樣式選項以配合您的內容。 如需詳細資訊，請參閱[編輯電子郵件樣式](../../designing/using/styles.md)。
 
 ## 使用現有的電子郵件內容 {#with-existing-content}
 

@@ -13,10 +13,10 @@ context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: c300f50ce83d67be7c8a16f857eb46fb1ce89166
 workflow-type: tm+mt
-source-wordcount: '852'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -102,7 +102,7 @@ ht-degree: 5%
 
 1. 在標籤 **[!UICONTROL Exclusion logs]** 中，您可以找到從傳送的目標中排除的所有訊息清單，以及此排除的原因。
 
-   在這裡，我們可以看到我們的其中一個行動應用程式訂閱者因為地址已拒絕列出，而其他訂閱者則因為描述檔重複。
+   在這裡，我們可以看到我們的行動應用程式訂閱者被排除，因為該位址在登入清單上，而其他訂閱者則因為描述檔是重複的。
 
    ![](assets/push_send_5.png)
 
@@ -117,7 +117,7 @@ ht-degree: 5%
 
    ![](assets/push_send_4.png)
 
-1. 在視窗 **[!UICONTROL Deployment]** 中，按一下標 **[!UICONTROL Sending logs]** 簽以存取已傳送的推播通知清單及其狀態。 對於此傳送，一個推播通知已成功傳送，而另一個則因裝置Token錯誤而失敗。 然後，此訂閱者會從進一步的傳送新增至denyist。
+1. 在視窗 **[!UICONTROL Deployment]** 中，按一下標 **[!UICONTROL Sending logs]** 簽以存取已傳送的推播通知清單及其狀態。 對於此傳送，一個推播通知已成功傳送，而另一個則因裝置Token錯誤而失敗。 然後，此訂閱者會從進一步的傳送新增至denylist。
 
    >[!NOTE]
    >

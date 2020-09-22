@@ -12,10 +12,10 @@ discoiquuid: 7ddaf36c-74e6-4501-b3eb-3d03f005aaa6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 3%
 | 標籤 | 通道 | 說明 |
 ---------|----------|---------
 | **[!UICONTROL Address not specified]** | 全部 | 排除沒有指定地址（電子郵件、郵遞區號等）的目標人口。 )。 |
-| **[!UICONTROL Denylisted address]** | 全部 | 排除位於密尼清單中的地址。 |
+| **[!UICONTROL Address on denylist]** | 全部 | 排除位於密尼清單中的地址。 |
 | **[!UICONTROL Duplicate]** | 全部 | 根據目標人口欄位排除復 **[!UICONTROL Address]** 本。 |
 | **[!UICONTROL Exclude mobile applications]** | 行動應用程式 | 排除不符合訊息中定義之行動應用程式的應用程式訂閱。 |
 | **[!UICONTROL Exclude mobile applications for In-App]** | 應用程式內 | 排除不符合訊息（應用程式內範本）中定義之行動應用程式的應用程式訂閱。 |
@@ -47,7 +47,7 @@ ht-degree: 3%
 
 在電子郵件分析期間，這些規則會比較收件者電子郵件地址與傳送能力例項中管理之加密全域隱藏清單中所包含之禁止地址或網域名稱。 如果有相符項目，則不會傳送訊息給該收件者。
 
-這是為了避免由於惡意活動（尤其是使用Spamtrap）而被拒絕列出。 例如，如果使用Spamtrap來透過您的其中一個Web表單進行訂閱，系統會自動傳送確認電子郵件給該Spamtrap，這會導致您的位址自動新增至密文清單。
+這是為了避免由於惡意活動（尤其是使用Spamtrap）而被添加到密鑰清單中。 例如，如果使用Spamtrap來透過您的其中一個Web表單進行訂閱，系統會自動傳送確認電子郵件給該Spamtrap，這會導致您的位址自動新增至密文清單。
 
 >[!NOTE]
 >

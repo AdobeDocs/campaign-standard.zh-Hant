@@ -13,10 +13,10 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 9ba56ca09a1ae948b6d4b1945085f59db1ade973
 workflow-type: tm+mt
-source-wordcount: '1557'
-ht-degree: 96%
+source-wordcount: '1774'
+ht-degree: 84%
 
 ---
 
@@ -35,6 +35,7 @@ ht-degree: 96%
 * Adobe Analytics。如需詳細資訊，請參閱[本區段](../../integrating/using/configure-campaign-analytics-integration.md)。
 * Google reCAPTCHA。如需詳細資訊，請參閱[本區段](#google-recaptcha-external-account)。
 * Microsoft Azure Blob 儲存。如需詳細資訊，請參閱[本區段](#microsoft-azure-external-account)。
+* OAuth 2.0. For more on this, refer to [this section](#oauth-account).
 
 >[!NOTE]
 >
@@ -94,6 +95,23 @@ SFTP 伺服器可從「控制面板」進行管理。如需詳細資訊，請參
 >
 >控制面板僅適用於 AWS 代管客戶的管理員使用者。
 [在此處](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/faq.html#ims-org-id)查看您的執行個體是否在 AWS 上代管。
+
+## OAuth 2.0帳戶 {#oauth-account}
+
+若為OAuth 2.0外部帳戶，請提供下列詳細資訊：
+
+* 授 **權類型**:僅支 **援用戶端憑證** 。
+* 安 **全API URL**:輸入授權端點。
+* **OAuth 2.0敏感認證**:本節是針對性質敏感的認證。 憑證值新增後，會在螢幕上遮色；到那時，它們將無法閱讀或編輯。 如果授權端點要求將特定憑證插入HTTP授權標題，而非POST內文參數，則可以為該憑證選擇「在標題中包含」選項。
+* **OAuth 2.0非敏感性認證**:本節是針對性質不敏感的認證。 憑證值新增後，會顯示在畫面上；也可以編輯。  如果授權端點要求將特定憑證插入HTTP授權標題，而非POST內文參數，則可以為該憑證選擇「在標題中包含」選項。
+
+在設定結束時，按一下「 **測試連接器** 」以確認外部帳戶設定正確。
+
+![](assets/external_accounts_OAuth.png)
+
+>[!NOTE]
+>
+>認證「Content-Type:application/x-www-form-urlencoded」和「grant_type=client_credentials」會自動新增至API呼叫；因此，您不需要在認證區段中新增它們。
 
 ## Amazon S3 外部帳戶 {#amazon-s3-external-account}
 

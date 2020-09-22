@@ -12,11 +12,11 @@ discoiquuid: 3ba165e1-420f-4d6f-b339-467b066b42d0
 context-tags: activity,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: e4ba42c5bf0dd952690178b7d5070100c7ddf13d
+workflow-type: tm+mt
 source-wordcount: '472'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -89,7 +89,7 @@ ht-degree: 100%
 * [建立電子郵件](../../channels/using/creating-an-email.md)
 * [建立簡訊](../../channels/using/creating-an-sms-message.md)
 * [自訂推播通知](../../channels/using/preparing-and-sending-a-push-notification.md)
-* [建立　InApp　訊息](../../channels/using/about-in-app-messaging.md)
+* [建立應用程式內訊息](../../channels/using/about-in-app-messaging.md)
 * [建立工作流程](../../automating/using/building-a-workflow.md#creating-a-workflow)
 * [設定登錄頁面](../../channels/using/getting-started-with-landing-pages.md)
 * [建立促銷活動](../../start/using/programs-and-campaigns.md#creating-a-campaign)

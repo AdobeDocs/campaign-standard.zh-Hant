@@ -12,10 +12,10 @@ discoiquuid: 2b5b13c8-2e51-4985-a161-c1d7f0fc32b4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b43e6be265ff2d8ce357ef44672a755028e2e5af
+source-git-commit: 3af649cfaae195ae5e75406ca3a0743b9b1f65d2
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -78,6 +78,13 @@ Litmus [網站](https://litmus.com/email-testing)列出可在 Adobe Campaign 中
 >[!NOTE]
 >
 >您的授權協議中會列出可用的呈現數量。每次啟用「**電子郵件呈現**」傳送時，您的可用呈現（也稱為 Token）都會減少一次。
+>
+>Token帳戶是每個個別轉譯，而非整個「電子郵件」轉譯報表，這表示：
+>
+>**每次產生** 「收件匣」轉譯報表時，會扣除每個訊息傳送用戶端一個代號：一個Outlook 2000轉譯的Token、一個Outlook轉譯的Token、一個Apple Mail轉譯的Token，等等。
+>
+>**對於相同的傳送**，如果您再次產生電子郵件轉譯，可用的Token數量會依產生的轉譯數量而再次減少。
+
 
 報告摘要會顯示已接收、不想要（垃圾郵件）、未接收或待接收的郵件數目。
 

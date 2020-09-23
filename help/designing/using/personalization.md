@@ -12,10 +12,10 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8e4f25a1d9ad2aa8fb74a6ddd096bda696f502da
+source-git-commit: 40199be7858dba4660a941fc6b960f20fac9f9e5
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2573'
+ht-degree: 3%
 
 ---
 
@@ -231,7 +231,7 @@ Adobe Campaign可讓您根據特定標準或使用追蹤，個人化訊息中的
 >[!CONTEXTUALHELP]
 >id="ac_dynamic_content"
 >title="定義動態內容"
->abstract="根據運算式編輯器中定義的規則，為收件者定義不同的內容。"
+>abstract="定義將僅根據您將定義的條件顯示給某些配置檔案的不同內容。"
 
 在電子郵件中，您可以定義不同的內容，這些內容會根據透過運算式編輯器定義的條件動態顯示給收件者。 例如，您可以從相同的電子郵件，確保每個描述檔會根據其年齡範圍收到不同的訊息。
 
@@ -338,7 +338,7 @@ Adobe Campaign可讓您根據特定標準或使用追蹤，個人化訊息中的
 >[!CONTEXTUALHELP]
 >id="ac_dynamic_image"
 >title="管理動態影像"
->abstract="根據運算式編輯器中定義的規則，使用動態影像個人化您的電子郵件。"
+>abstract="根據您要定義的條件，使用動態影像個人化您的電子郵件。"
 
 在此範例中，套用至影像的動態內容設定如下：
 

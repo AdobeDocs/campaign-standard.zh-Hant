@@ -12,10 +12,10 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 796490350855213578808651cd18df24b1d3f2d1
+source-git-commit: 40199be7858dba4660a941fc6b960f20fac9f9e5
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1052'
+ht-degree: 1%
 
 ---
 
@@ -107,7 +107,8 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
 >title="背景設定"
->abstract="電子郵件設計工具可讓您個人化內容的背景色彩或背景影像。"
+>abstract="電子郵件設計工具可讓您個人化內容的背景色彩或背景影像。請注意，並非所有電子郵件客戶都支援背景影像。"
+>additional-url="https://docs.google.com/spreadsheets/d/1TLo62YKm3tThUWDOIliCQFWs3dpNjpDfw6DdTr1oGOw/edit#gid=0" text="其他資訊"
 
 在使用電子郵件設計工具設定背景時，Adobe建議您：
 

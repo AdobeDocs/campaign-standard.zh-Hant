@@ -12,10 +12,10 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8e4f25a1d9ad2aa8fb74a6ddd096bda696f502da
+source-git-commit: 40199be7858dba4660a941fc6b960f20fac9f9e5
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '709'
+ht-degree: 6%
 
 ---
 
@@ -51,7 +51,7 @@ Adobe Campaign提供數種電子郵件編寫選項。 您可以使用Dreamweaver
 >[!CONTEXTUALHELP]
 >id="ac_product_listing"
 >title="使用產品清單"
->abstract="產品清單可讓您參考電子郵件內容中的一或多個資料集合。"
+>abstract="產品清單可讓您參考資料收集並顯示在電子郵件內容中。"
 
 產品清單可讓您參考電子郵件內容中的一或多個資料集合。 這些清單可用於交易電子郵件。 此處提供此功能的專屬 [區](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)。
 

@@ -1,6 +1,6 @@
 ---
 title: 開始使用動態報告
-description: 使用動態報表，將變數和維度拖放至自由格式環境，並分析促銷活動的成功。
+description: 存取促銷活動內建的傳送報表，並拖放變數和維度以建立新的動態報表，並分析促銷活動的成功。
 page-status-flag: never-activated
 uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
 contentOwner: sauviat
@@ -12,10 +12,10 @@ discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 787d1cb906acfba5887e6090f1d6b854bd096b0c
+source-git-commit: e67a173c5409d7693a3d7dab8f8ca3b03aeb886f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '362'
+ht-degree: 12%
 
 ---
 

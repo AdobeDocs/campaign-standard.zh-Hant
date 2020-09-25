@@ -12,10 +12,10 @@ discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: 8d55a92deeccabcb6970de6cce4b5e297bc431d8
 workflow-type: tm+mt
-source-wordcount: '3059'
-ht-degree: 6%
+source-wordcount: '3169'
+ht-degree: 7%
 
 ---
 
@@ -112,7 +112,7 @@ ht-degree: 6%
 **相關主題：**
 
 * [預覽和發佈事件](#previewing-and-publishing-the-event)
-* [在交易式訊息 ](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message) 中使用產品清單
+* [在交易式訊息中使用產品清單](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)
 
 ## 豐富活動內容 {#enriching-the-transactional-message-content}
 
@@ -134,7 +134,7 @@ ht-degree: 6%
 
    ![](assets/message-center_new-enrichment.png)
 
-1. 使用按 **[!UICONTROL Create element]** 鈕，將選定資源中的欄位連結到您先前添加到事件的其中一個欄位(請 [參閱定義事件屬性](#defining-the-event-attributes))。
+1. 使用按 **[!UICONTROL Create element]** 鈕，將選定資源中的欄位連結到先前添加到事件的其中一個欄位(請 [參閱定義事件屬性](#defining-the-event-attributes))。
 
    ![](assets/message-center_enrichment-join.png)
 
@@ -201,12 +201,6 @@ ht-degree: 6%
 
 事件（以JSON格式）會從最新到最舊列出。 此清單可讓您檢查資料（例如內容或事件狀態），以利控制和除錯。
 
-### 交易式訊息發佈程序 {#transactional-messaging-pub-process}
-
-下圖說明了交易式訊息發佈程序。
-
-![](assets/message-center_pub-process.png)
-
 ### 取消發佈事件 {#unpublishing-an-event}
 
 按 **[!UICONTROL Unpublish]** 鈕可讓您取消事件的發佈，該發佈會從REST API中刪除與先前建立的事件對應的資源。 現在，即使事件是透過網站觸發，也不會再傳送相對應的訊息，也不會將之儲存在資料庫中。
@@ -218,6 +212,14 @@ ht-degree: 6%
 >如果您已經發佈了相應的事務性消息，事務性消息發佈也將被取消。 See [Unpublishing a transactional message](../../channels/using/event-transactional-messages.md#unpublishing-a-transactional-message).
 
 按一下 **[!UICONTROL Publish]** 按鈕以產生新的REST API。
+
+### 交易式訊息發佈程序 {#transactional-messaging-pub-process}
+
+下圖說明了交易式訊息發佈程序。
+
+![](assets/message-center_pub-process.png)
+
+有關發佈、暫停和取消發佈交易式訊息的詳細資訊，請參 [閱本節](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message)。
 
 ### 刪除事件 {#deleting-an-event}
 
@@ -240,13 +242,31 @@ ht-degree: 6%
 >
 >刪除已發佈且已使用的事件配置也會刪除對應的事務性消息及其發送和跟蹤日誌。
 
+## 搜尋交易事件 {#searching-transactional-events}
+
+要訪問和搜索已建立的事務事件，請執行以下步驟。
+
+1. 按一下左上方的 **[!UICONTROL Adobe Campaign]** 標誌，然後選取「**[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**」。
+1. 按一下 **[!UICONTROL Show search]** 按鈕。
+
+   ![](assets/message-center_search-events.png)
+
+1. 您可以篩選 **[!UICONTROL Publication status]**。 這可讓您僅顯示已發佈的事件，例如。
+1. 您也可以使用篩選事件 **[!UICONTROL Last event received]**。 例如，如果輸入10，則只會顯示上次10天前或更久收到的事件配置。 這可讓您顯示在指定期間內哪些事件處於非活動狀態。
+
+   ![](assets/message-center_last-event-received.png)
+
+   >[!NOTE]
+   >
+   >預設值為0。 然後會顯示所有事件。
+
 ## 整合網站中事件的觸發 {#integrating-the-triggering-of-the-event-in-a-website}
 
 建立事件後，您必須將此事件的觸發整合至您的網站。
 
 在「交易式傳訊操作原則 [](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) 」一節所述的範例中，您希望當客戶在購物車中購買產品之前離開您的網站時，觸發「購物車放棄」事件。 若要這麼做，您的網站網頁開發人員必須使用Adobe Campaign Standard REST API。
 
-請參閱 [REST API檔案](../../api/using/managing-transactional-messages.md) 。
+請參閱 [REST API檔案](../../api/using/managing-transactional-messages.md)。
 
 ## 事務性事件特定配置 {#transactional-event-specific-configurations}
 

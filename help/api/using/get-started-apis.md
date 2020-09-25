@@ -1,6 +1,6 @@
 ---
-title: 開始使用Campaign Standard API
-description: 進一步瞭解Campaing Standard API。
+title: 開始使用 Campaign Standard API
+description: Campaign Standard API的目的，是讓您將Campaign與您使用的技術面板結合，以建立整合併建立您自己的生態系統。
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -12,15 +12,15 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
+source-git-commit: e67a173c5409d7693a3d7dab8f8ca3b03aeb886f
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 13%
+source-wordcount: '244'
+ht-degree: 18%
 
 ---
 
 
-# Get started with Campaign Standard APIs {#get-started-apis}
+# 開始使用 Campaign Standard API {#get-started-apis}
 
 Campaign Standard API的目的是讓您 **建立Adobe Campaign** Standard的整合，並將Adobe Campaign Standard與您使用的技術面板結合，以建立 **您自己的生態系統** 。
 

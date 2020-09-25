@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 893cd3a07063f8349dfeeae0f3274a6f54bf04f7
+source-git-commit: 8d55a92deeccabcb6970de6cce4b5e297bc431d8
 workflow-type: tm+mt
 source-wordcount: '2441'
 ht-degree: 4%
@@ -97,7 +97,7 @@ ht-degree: 4%
 * 我們已透過全新動態內容相關說明，將使用者介面與檔案完全連結，讓您輕鬆存取最新說明內容，改善了電子郵件設計人員的使用體驗。 ****
 * 修正在編輯訊息文字版本時，移除訊息中分行符號的問題。 (CAMP-44483)
 * 修正HTML範本的純文字版本無法自動產生及同步的問題。 (CAMP-44195)
-* 修正調整影像大小時可能發生的問題。 傳送訊息後，影像無法在Microsoft Outlook中正確顯示。 (CAMP-44656)
+* 修正調整影像大小時可能發生的問題。 傳送訊息後，影像在Microsoft Outlook中無法正確顯示。 (CAMP-44656)
 * 修正插入按鈕並將其寬度設為「auto」時發生的問題。 傳送訊息後，按鈕的內容就不會完全顯示。 (CAMP-44560)
 * 修正從附加的HTML檔案上傳內容時發生的問題。 訊息傳送至Gmail位址後，就無法套用CSS，造成轉換問題。 (CAMP-44085)
 * 修正在內容範本中直接修改先前用於訊息的內容片段時，無法更新這些片段的問題。 (CAMP-43973)
@@ -116,7 +116,7 @@ ht-degree: 4%
 * 發佈自訂資源時，現在會在準備後顯示確認快顯視窗。
 * 自訂資源失敗時顯示的快顯訊息已改善，以更清楚明瞭。
 * 工作流程中的運算式編輯器已經過改良，以避免執行錯誤。 [提供新功能](../../automating/using/customizing-workflow-external-parameters.md) :這些變數可用於所有活動中，這些活動可讓您在呼叫具有外部參數的工作流程後使用事件變數。 此外，運算式編輯器中現在會顯示工具提示及函式說明。
-* 交易事件清單中已新增篩選器。 它們允許您根據事件配置的狀態以及上次接收事件的時間來過濾事件配置。
+* [交易事件清單](../../administration/using/configuring-transactional-messaging.md#searching-transactional-events) ，已新增了新的篩選器。 它們允許您根據事件配置的狀態以及上次接收事件的時間來過濾事件配置。
 * 導出軟體包時顯示的日誌已更具體和詳細地說明在出現故障時遇到的錯誤。
 * 傳送訊息後，您現在可以搜尋、篩選及匯出追蹤的URL [清單](../../sending/using/tracking-messages.md)。
 * Launch [和Campaign之間的自動同步現在](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow) GA，並依預設啟用。

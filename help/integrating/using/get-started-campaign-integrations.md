@@ -1,6 +1,6 @@
 ---
-title: 開始使用Campaign整合
-description: Adobe Campaign可讓您使用其他Adobe解決方案，並結合其不同的功能。
+title: 開始使用 Campaign 整合
+description: 瞭解如何結合Adobe Campaign的進階促銷活動管理功能與建立的解決方案集，協助您個人化使用者的體驗，例如Adobe Analytics、Experience Manager、Target、Dreamweaver等。
 page-status-flag: never-activated
 uuid: 59d7cd99-a6f7-47f1-9b5c-c50e27a2bef8
 contentOwner: sauviat
@@ -12,10 +12,10 @@ discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+source-git-commit: 1a7e6bf967cb1745ea357ad7ee054dc42397f6e2
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 0%
+source-wordcount: '656'
+ht-degree: 7%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Adobe Campaign Standard也可以連線至Microsoft Dynamics 365: 此整合可同步CRM系統中所有可用的連絡資料，讓所有相關的連絡資料都可用於促銷活動。 如需此整合的詳細資訊，請參閱使 [用促銷活動和動態365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)。
+>Adobe Campaign Standard也可以連線至Microsoft Dynamics 365:此整合可同步CRM系統中所有可用的連絡資料，讓所有相關的連絡資料都可用於促銷活動。 如需此整合的詳細資訊，請參閱使 [用促銷活動和動態365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)。
 
 
 <table> 
@@ -97,13 +97,13 @@ ht-degree: 0%
    <td> Dreamweaver<br /> </td> 
    <td> 可讓您編輯Dreamweaver的電子郵件內容，並與Adobe Campaign同步化。<br /> </td> 
    <td> 
-    <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">使用Dreamweaver視訊建立個人化電子郵件</a> , <br/>使 <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">用適用於Dreamweaver的Campaign擴充功能</a> 
+    <a href="https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.translate.html">使用Dreamweaver視訊建立個人化電子郵件</a> , <br/>使 <a href="https://helpx.adobe.com/tw/dreamweaver/using/working-with-dreamweaver-and-campaign.html">用適用於Dreamweaver的Campaign擴充功能</a> 
   </td> 
   </tr> 
   <tr> 
    <td> 體驗平台SDK<br /> </td> 
    <td> 允許使用Experience Platform SDK在Adobe Campaign中自動執行行動應用程式屬性啟動程式。<br /> </td> 
-   <td> <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">使用Experience Platform SDK設定行動應用程式</a><br /> </td> 
+   <td> <a href="https://helpx.adobe.com/tw/campaign/kb/configuring-app-sdk.html">使用Experience Platform SDK設定行動應用程式</a><br /> </td> 
   </tr> 
  </tbody> 
 </table>

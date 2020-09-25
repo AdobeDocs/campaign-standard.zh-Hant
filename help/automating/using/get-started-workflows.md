@@ -1,6 +1,6 @@
 ---
 title: 開始使用流程和資料管理
-description: Adobe Campaign提供完整的圖形環境，讓您設計並自動化流程。
+description: 運用Adobe Campaign的工作流程功能，透過強大的完整圖形環境自動化流程。 瞭解如何載入資料、管理受眾、傳送訊息、實作資料管理週期、自動化技術流程等。
 page-status-flag: never-activated
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
 contentOwner: sauviat
@@ -12,10 +12,10 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a9fbf0479019dfbe2964c517a0370f015d0f380a
+source-git-commit: 1a7e6bf967cb1745ea357ad7ee054dc42397f6e2
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 7%
+source-wordcount: '539'
+ht-degree: 8%
 
 ---
 
@@ -51,7 +51,7 @@ Adobe Campaign提供完整的圖形環境，可讓您設計複雜的程式，包
 
 最後， [資料管理活動](../../automating/using/about-data-management-activities.md) 可讓您控制資料庫中的資料。
 
-詳細內容:
+顯示全文:
 
 * [建立工作流程](../../automating/using/building-a-workflow.md)
 * [執行工作流程](../../automating/using/about-workflow-execution.md)
@@ -61,11 +61,11 @@ Adobe Campaign提供完整的圖形環境，可讓您設計複雜的程式，包
 
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 
-運用查 **詢編輯器** ，篩選資料庫中的資料，並建立人口族群，以更好地定位收件者。 查詢編輯器可用於在Campaign Standard中執行多個操作： 建立查詢類型對象、定義傳送目標或工作流程活動中的人口族群。
+運用查 **詢編輯器** ，篩選資料庫中的資料，並建立人口族群，以更好地定位收件者。 查詢編輯器可用於在Campaign Standard中執行多個操作：建立查詢類型對象、定義傳送目標或工作流程活動中的人口族群。
 
 查詢編輯器隨附預先定 **義的篩選器和規則** ，讓您快速輕鬆篩選。 不過，您也可以使用進階 **的運算式編輯** 功能。 這可讓您手動輸入條件並使用函式，以便形成您自己的規則。
 
-詳細內容:
+顯示全文:
 
 * [編輯查詢](../../automating/using/editing-queries.md)
 * [進階運算式編輯](../../automating/using/advanced-expression-editing.md)
@@ -87,7 +87,7 @@ Campaign Standard提供數種資 **料管理功能** ，可匯入和匯出資料
 
 最後， [匯出清單](../../automating/using/exporting-lists.md) 可讓您從Campaign Standard匯出任何清單，例如測試設定檔清單、隔離電子郵件地址清單等。
 
-詳細內容:
+顯示全文:
 
 * [匯入和匯出資料](../../automating/using/about-data-import-and-export.md)
 * [使用案例：匯出／匯入自訂資源](../../automating/using/exporting-importing-custom-resources.md)
@@ -96,4 +96,4 @@ Campaign Standard提供數種資 **料管理功能** ，可匯入和匯出資料
 
 * [流程與資料管理教學課程影片](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/getting-started/create-workflow.html)
 * [技術工作流程](../../administration/using/technical-workflows.md)
-* [開始使用Campaign Standard資料模型](../../developing/using/get-started-data-model.md)
+* [開始使用 Campaign Standard 資料模型](../../developing/using/get-started-data-model.md)

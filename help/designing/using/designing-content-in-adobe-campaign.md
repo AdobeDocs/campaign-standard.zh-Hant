@@ -1,6 +1,6 @@
 ---
 title: 在Adobe Campaign中設計內容
-description: 瞭解您可以使用Adobe Campaign在內容中定義的所有元素。
+description: 使用Campaign電子郵件設計工具，透過拖放介面建立吸引人且個別自訂的電子郵件。 從空白的一張白紙開始，或運用現有的內容片段或範本，針對每封電子郵件設計並調整所有內容
 page-status-flag: never-activated
 uuid: 8f73407f-ab90-46bc-aeb6-bd87fcb0404c
 contentOwner: sauviat
@@ -12,9 +12,9 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 67fbf66d8ad358ae5d2caaec5b90beb6304047e6
+source-git-commit: 3859c91e4aa083d897c02769495113f62e071f3c
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1162'
 ht-degree: 4%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 4%
 
 在Adobe Campaign中建立電子郵件後，您必須定義其內容。
 
-電子郵件設計工具可讓您透過拖放式介面，透過原生Creative Cloud整合，建立吸引人、個別自訂的電子郵件。 不論您是從空白的位置開始，或是運用現有的內容片段或範本，針對每封電子郵件（不論是促銷或交易）設計和調整所有內容。
+電子郵件設計工具可讓您透過拖放介面，建立吸引人、個別自訂的電子郵件。 不論您是從空白的位置開始，或是運用現有的內容片段或範本，針對每封電子郵件（不論是促銷或交易）設計和調整所有內容。
 
 電子郵件設計工具是專為提供最佳化的HTML以進行多方互動設計而設計，可讓您透過使用者介面，輕鬆定義並套用可見性條件和動態內容至電子郵件、範本或片段。 只要按一下按鈕，您就可以順暢地在拖放介面和HTML程式碼之間切換。
 

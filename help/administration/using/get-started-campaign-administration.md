@@ -1,6 +1,6 @@
 ---
 title: 開始使用 Campaign Standard 管理
-description: 瞭解如何管理使用者、定義角色及授予權限；瞭解監控准則、頻道特定的組態和應用程式設定，例如目標對應、技術工作流程、品牌推廣、資料保留等。
+description: 探索用戶和權限管理、監控准則、特定於通道的配置和應用程式設定准則。
 page-status-flag: never-activated
 uuid: 64c34729-5c98-4db0-9131-af6dd0e78fb4
 contentOwner: sauviat
@@ -12,9 +12,9 @@ discoiquuid: 5587530a-2308-4be1-9f56-19eeb7a924d5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 12674de42a9c6f4439a485b67a9aa0fecd32ba25
+source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '650'
 ht-degree: 14%
 
 ---

@@ -1,6 +1,6 @@
 ---
 title: 開始使用 Campaign Standard
-description: Adobe Campaign是功能強大的跨通道宣傳管理工具，可協助您協調線上和線下策略，以建立個人化的客戶體驗。
+description: 探索主要功能、使用者介面和全域方針。
 page-status-flag: never-activated
 uuid: 027f6787-d2ef-44ae-a40a-8facdfe2ae77
 contentOwner: sauviat
@@ -12,10 +12,10 @@ discoiquuid: aee81724-b425-47b4-af92-e55eff97836f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e4ba42c5bf0dd952690178b7d5070100c7ddf13d
+source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '777'
+ht-degree: 4%
 
 ---
 

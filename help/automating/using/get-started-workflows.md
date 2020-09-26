@@ -1,6 +1,6 @@
 ---
 title: 開始使用流程和資料管理
-description: 運用Adobe Campaign的工作流程功能，透過強大的完整圖形環境自動化流程。 瞭解如何載入資料、管理受眾、傳送訊息、實作資料管理週期、自動化技術流程等。
+description: 使用工作流程自動化流程、載入資料、管理受眾、傳送訊息、實施資料管理週期、自動化技術流程等。
 page-status-flag: never-activated
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
 contentOwner: sauviat
@@ -12,9 +12,9 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1a7e6bf967cb1745ea357ad7ee054dc42397f6e2
+source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '526'
 ht-degree: 8%
 
 ---

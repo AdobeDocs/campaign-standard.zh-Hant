@@ -1,6 +1,6 @@
 ---
 title: 在Adobe Campaign中設計內容
-description: 使用Campaign電子郵件設計工具，透過拖放介面建立吸引人且個別自訂的電子郵件。 從空白的一張白紙開始，或運用現有的內容片段或範本，針對每封電子郵件設計並調整所有內容
+description: 使用Campaign電子郵件設計工具，從空白位置開始建立電子郵件內容，或運用現有的內容片段或範本。
 page-status-flag: never-activated
 uuid: 8f73407f-ab90-46bc-aeb6-bd87fcb0404c
 contentOwner: sauviat
@@ -12,9 +12,9 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3859c91e4aa083d897c02769495113f62e071f3c
+source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
 workflow-type: tm+mt
-source-wordcount: '1162'
+source-wordcount: '1145'
 ht-degree: 4%
 
 ---

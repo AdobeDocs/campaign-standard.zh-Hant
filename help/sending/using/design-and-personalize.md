@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aa77208174960a67c67af8a6de7edbbff47355a0
+source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
 workflow-type: tm+mt
 source-wordcount: '908'
 ht-degree: 7%
@@ -142,4 +142,4 @@ ht-degree: 7%
 
 Adobe建議預覽您的訊息，以檢查其個人化，以及收件者如何看到您的傳送。
 
-* 在「電子郵件設計器」 **[!UICONTROL Preview]** 中，按鈕可讓您檢視收件者的每個內容的轉換。 個性化欄位和內容的條件元素被所選配置檔案的相應資訊替換。 [進一步瞭解](../../sending/using/previewing-messages.md)
+在「電子郵件設計器」 **[!UICONTROL Preview]** 中，按鈕可讓您檢視收件者的每個內容的轉換。 個性化欄位和內容的條件元素被所選配置檔案的相應資訊替換。 [進一步瞭解](../../sending/using/previewing-messages.md)

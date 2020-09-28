@@ -2,12 +2,12 @@
 product: adobe campaign
 sub-product: adobe campaign standard
 audience: end-user
-user-guide-title: 瀏覽Adobe Campaign Standard說明中心
+user-guide-title: Adobe Campaign Standard說明中心
 breadcrumb-title: Campaign Standard Guide
 translation-type: tm+mt
-source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
+source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
 workflow-type: tm+mt
-source-wordcount: '1653'
+source-wordcount: '1652'
 ht-degree: 83%
 
 ---

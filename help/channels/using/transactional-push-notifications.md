@@ -12,7 +12,7 @@ discoiquuid: e645d4b9-001f-47d9-8a0f-b4696c75c5d3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
 workflow-type: tm+mt
 source-wordcount: '740'
 ht-degree: 13%
@@ -72,6 +72,7 @@ The configuration steps are presented in the [Configuring an event to send a tra
    如需編輯推播通知內容的詳細資訊，請參 [閱建立推播通知](../../channels/using/preparing-and-sending-a-push-notification.md)。
 
 1. 儲存您的變更並發佈訊息。請參閱[發佈交易式訊息](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message)。
+
 1. 使用Adobe Campaign Standard REST API，在Android(gcm)上使用一個行動應用程式(WeFlight)，將事件傳送至註冊Token(ABCDEF123456789)，其中包含登入資料。
 
    ```
@@ -114,13 +115,9 @@ The configuration steps are presented in the [Configuring an event to send a tra
 
 1. 移至建立的交易式訊息，以編輯其內容。請參閱[事件交易式訊息](../../channels/using/event-transactional-messages.md)。
 
-   <!--![](assets/message-center_push_message_profile.png)-->
-
 1. Click the **[!UICONTROL Content]** block to modify your message&#39;s title and body.
 
    與基於即時事件的配置不同，您可以直接訪問所有配置檔案資訊以個性化您的消息。 請參閱[插入個人化欄位](../../designing/using/personalization.md#inserting-a-personalization-field)。
-
-   <!--![](assets/message-center_push_content_profile.png)-->
 
    如需編輯推播通知內容的詳細資訊。 請參 [閱建立推播通知](../../channels/using/preparing-and-sending-a-push-notification.md)。
 
@@ -142,4 +139,3 @@ The configuration steps are presented in the [Configuring an event to send a tra
    >[!NOTE]
    >
    >沒有註冊Token、應用程式和推播平台欄位。 在此示例中，協調是使用電子郵件欄位執行的。
-

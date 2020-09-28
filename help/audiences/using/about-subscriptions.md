@@ -12,10 +12,10 @@ discoiquuid: 27de5a13-7b7c-4c91-bf26-3dfd324beb8f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
+source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 80%
+source-wordcount: '222'
+ht-degree: 53%
 
 ---
 
@@ -34,8 +34,18 @@ Adobe Campaign可讓您透過一組服務來建立和管理電子報和跨通道
 
 您也可以使用 Adobe Campaign Standard API 來管理訂閱。如需詳細資訊，請參閱[專屬文件](../../api/using/creating-a-service.md)。
 
-**相關主題**
+## 設定和管理訂閱的關鍵步驟
+
+請依照下列步驟建立訂閱機制：
+
+1. **建立服務** -依照本節所 [述的步驟](../../audiences/using/creating-a-service.md) ，建立訂閱服務
+1. **分享連結** -瞭解如何在本頁促銷和分享 [您的服務](../../audiences/using/promoting-a-service.md)
+1. **監視訂閱** -探索本節中監視服務訂閱的 [幾種方式](../../audiences/using/monitoring-subscriptions.md)
+1. **確認訂閱** -依照本 [教學課程](../../audiences/using/confirming-subscription-to-a-service.md) ，傳送訂閱確認訊息
+
+## 其他資源
 
 * [使用案例：對服務訂戶的增量查詢](../../automating/using/incremental-query-on-subscribers.md)
 * [使用案例：從檔案更新多個訂閱狀態](../../automating/using/updating-subscriptions-from-file.md)
 * [在匯入檔案後將描述檔訂閱至特定服務](../../automating/using/subscribing-profiles-from-file.md)
+* [在促銷活動中選擇加入和選擇退出](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)

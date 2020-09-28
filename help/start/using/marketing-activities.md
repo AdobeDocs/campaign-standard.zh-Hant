@@ -13,10 +13,10 @@ context-tags: activity,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e4ba42c5bf0dd952690178b7d5070100c7ddf13d
+source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 99%
+source-wordcount: '487'
+ht-degree: 82%
 
 ---
 
@@ -47,14 +47,14 @@ ht-degree: 99%
 
 在主區域中，清單中的每種活動類型都有一個圖示：
 
-* ![](assets/marketing_program_icon.png)：方案
-* ![](assets/marketing_campaign_icon.png)：Campaign
-* ![](assets/marketing_email_icon.png)：電子郵件
-* ![](assets/marketing_sms_icon.png)：簡訊
-* ![](assets/marketing_push_icon.png)：推播通知
-* ![](assets/marketing_lp_icon.png)：應用程式內訊息
-* ![](assets/marketing_lp_icon.png)：登錄頁面
-* ![](assets/marketing_workflow_icon.png)：工作流程
+* ![](assets/marketing_program_icon.png) 方案
+* ![](assets/marketing_campaign_icon.png) Campaign
+* ![](assets/marketing_email_icon.png) 電子郵件
+* ![](assets/marketing_sms_icon.png) SMS
+* ![](assets/marketing_push_icon.png) 推播通知
+* ![](assets/marketing_lp_icon.png) 應用程式內訊息
+* ![](assets/marketing_lp_icon.png) 著陸頁面
+* ![](assets/marketing_workflow_icon.png) 工作流程
 
 根據其有效期和狀態，與此圖示關聯的顏色指示相應活動的執行狀態。
 
@@ -86,16 +86,16 @@ ht-degree: 99%
 
 根據情境，您可以：
 
-* [建立電子郵件](../../channels/using/creating-an-email.md)
-* [建立簡訊](../../channels/using/creating-an-sms-message.md)
-* [自訂推播通知](../../channels/using/preparing-and-sending-a-push-notification.md)
-* [建立應用程式內訊息](../../channels/using/about-in-app-messaging.md)
-* [建立工作流程](../../automating/using/building-a-workflow.md#creating-a-workflow)
-* [設定登錄頁面](../../channels/using/getting-started-with-landing-pages.md)
-* [建立促銷活動](../../start/using/programs-and-campaigns.md#creating-a-campaign)
-* [建立方案](../../start/using/programs-and-campaigns.md#creating-a-program)
+* 建立電子郵件——了 [解詳細資訊](../../channels/using/creating-an-email.md)
+* 建立SMS —— 瞭解 [更多](../../channels/using/creating-an-sms-message.md)
+* 建立推播通知——了 [解詳細](../../channels/using/preparing-and-sending-a-push-notification.md)
+* 建立應用程式內訊息——瞭解 [更多](../../channels/using/about-in-app-messaging.md)
+* 建立工作流程——了 [解更多](../../automating/using/building-a-workflow.md#creating-a-workflow)
+* 建立著陸頁面——了 [解詳細](../../channels/using/getting-started-with-landing-pages.md)
+* 建立促銷活動——了 [解詳細內容](../../start/using/programs-and-campaigns.md#creating-a-campaign)
+* 建立計畫——了 [解詳細](../../start/using/programs-and-campaigns.md#creating-a-program)
 
 >[!NOTE]
 >
->您也可以從行銷活動清單建立行銷活動。在此情況下，您可以建立任何類型的活動。您可以選取透過活動的屬性，將行銷活動連結至上層促銷活動（或者，如果您已建立方案，則連結至上層方案）。
+>您也可以從行銷活動清單建立行銷活動。在這種情況下，您可以建立任何類型的活動，並選擇透過活動屬性將行銷活動連結至父促銷活動（或建立方案時連結至父方案）。
 

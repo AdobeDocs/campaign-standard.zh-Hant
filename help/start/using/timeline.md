@@ -12,11 +12,11 @@ discoiquuid: 53e3db10-5fed-4fc3-b41e-5226f1e05246
 context-tags: campaignCalendar,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
-workflow-type: ht
-source-wordcount: '380'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
+workflow-type: tm+mt
+source-wordcount: '372'
+ht-degree: 90%
 
 ---
 
@@ -35,7 +35,10 @@ ht-degree: 100%
 
 藍色垂直線是時間順序標籤，可反白顯示目前日期。依預設，它位於畫面中央。您可以在畫面中向右或向左捲動，以修改顯示的句點。
 
-![](assets/timeline_zoom_in.png) 和 ![](assets/timeline_zoom_out.png) 按鈕可讓您增加或縮小周長。![](assets/timeline_zoom_in.png) 按鈕也會增加較有限期間（直到顯示天數為止）的詳細程度，而 ![](assets/timeline_zoom_out.png) 按鈕可讓您顯示較大的期間。
+使用表徵圖；
+
+* ![](assets/timeline_zoom_in.png) 減少周長，或在更有限的期間內增加細節層級，直到顯示天數為止
+* ![](assets/timeline_zoom_out.png) 增加周長，或顯示更長的時間範圍
 
 按一下每個程式名稱右側的箭頭，以顯示對應的內容。方案可包含子方案、行銷活動和登錄頁面。行銷活動的部署方式與程式相同，可包含電子郵件、簡訊和登錄頁面。
 
@@ -49,12 +52,12 @@ ht-degree: 100%
 
 每個元素都有與其類型對應的圖示：
 
-* ![](assets/timeline_program_icon.png)：方案
-* ![](assets/timeline_campaign_icon.png)：Campaign
-* ![](assets/timeline_lp_icon.png)：登錄頁面
-* ![](assets/timeline_email_icon.png)：電子郵件
-* ![](assets/timeline_sms_icon.png)：簡訊
-* ![](assets/timeline_push_icon.png)：推播通知
+* ![](assets/timeline_program_icon.png) 方案
+* ![](assets/timeline_campaign_icon.png) Campaign
+* ![](assets/timeline_lp_icon.png) 著陸頁面
+* ![](assets/timeline_email_icon.png) 電子郵件
+* ![](assets/timeline_sms_icon.png) SMS
+* ![](assets/timeline_push_icon.png) 推播通知
 
 每個方塊左邊方塊的彩色線會指出相關元素的狀態。
 

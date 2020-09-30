@@ -12,9 +12,9 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8d55a92deeccabcb6970de6cce4b5e297bc431d8
+source-git-commit: 97760e8b5fe0eb4905dcae69e8bbbefa837a461f
 workflow-type: tm+mt
-source-wordcount: '2441'
+source-wordcount: '2442'
 ht-degree: 4%
 
 ---
@@ -97,7 +97,7 @@ ht-degree: 4%
 * 我們已透過全新動態內容相關說明，將使用者介面與檔案完全連結，讓您輕鬆存取最新說明內容，改善了電子郵件設計人員的使用體驗。 ****
 * 修正在編輯訊息文字版本時，移除訊息中分行符號的問題。 (CAMP-44483)
 * 修正HTML範本的純文字版本無法自動產生及同步的問題。 (CAMP-44195)
-* 修正調整影像大小時可能發生的問題。 傳送訊息後，影像在Microsoft Outlook中無法正確顯示。 (CAMP-44656)
+* 修正調整影像大小時可能發生的問題。 傳送訊息後，影像無法在Microsoft Outlook中正確顯示。 (CAMP-44656)
 * 修正插入按鈕並將其寬度設為「auto」時發生的問題。 傳送訊息後，按鈕的內容就不會完全顯示。 (CAMP-44560)
 * 修正從附加的HTML檔案上傳內容時發生的問題。 訊息傳送至Gmail位址後，就無法套用CSS，造成轉換問題。 (CAMP-44085)
 * 修正在內容範本中直接修改先前用於訊息的內容片段時，無法更新這些片段的問題。 (CAMP-43973)
@@ -120,7 +120,6 @@ ht-degree: 4%
 * 導出軟體包時顯示的日誌已更具體和詳細地說明在出現故障時遇到的錯誤。
 * 傳送訊息後，您現在可以搜尋、篩選及匯出追蹤的URL [清單](../../sending/using/tracking-messages.md)。
 * Launch [和Campaign之間的自動同步現在](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow) GA，並依預設啟用。
-* 事務性消息可以高優先順序發送，即使在大量交付工作負載的情況下也是如此。
 * 移除傳送校樣匯出，已最佳化工作流程匯出封裝的大小。
 * 已新增新訊息，以顯示「檔案傳輸」活動中已下載檔案 **的大小** 。
 * 無效作業Token的錯誤訊息已改進。
@@ -134,6 +133,7 @@ ht-degree: 4%
 **修補程式**
 
 * 修正在啟用追蹤時，您無法使用推播通知或應用程式內訊息的目標連結的問題。
+* 修正當大量傳送時，交易訊息中的高優先順序不受重視的問題。
 * 修正無法將品牌指派給交易電子郵件的問題。 發佈步驟中可能會顯示數個錯誤訊息。 (CAMP-44988)
 * 修正工作流程使用者介面中，無法將資訊儲存在要求數值之欄位中的問題。 (CAMP-44025)
 * 修正在匯入範本工作流程中使用 **Test** 活動時，可能顯示錯誤訊息的問題。 (CAMP-42910)

@@ -12,7 +12,10 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fa80fefc1c897afb8448fc0121705102091ecf5c
+source-git-commit: b0e69280912ee70e6f53efd24782474395c57f74
+workflow-type: tm+mt
+source-wordcount: '361'
+ht-degree: 1%
 
 ---
 
@@ -44,6 +47,7 @@ Adobe Campaign Standard API存取權是透過下列步驟設定。 這些步驟�
 
    * &lt;ORGANIZATION> :您的生產實例，
    * &lt;ORGANIZATION-mkt-stage>:您的舞台實例。
+
    若要取得您的組織ID值，請洽詢您的管理員或Adobe技術聯絡人。 建立新整合時，您也可以在授權清單(請參閱 <a href="https://www.adobe.io/authentication.html">Adobe IO檔案</a>)中擷取它至Adobe I/O。
 
 * **&lt;ACCESS_TOKEN>**:透過POST請求交換您的JSON Web Token時擷取的個人存取Token。
@@ -51,3 +55,17 @@ Adobe Campaign Standard API存取權是透過下列步驟設定。 這些步驟�
 * **&lt;API_KEY>**:您的個人API金鑰。 在建立與Adobe Campaign Service的新整合後，Adobe I/O中就會提供此資訊。
 
    ![alt text](assets/tenant.png)
+
+## 疑難排解
+
+在AdobeIO整合期間，如果出現下列錯誤：
+
+```
+{ 
+"code": 502, 
+"message": "Oops. Something went wrong. Check your URI and try again." 
+}
+```
+
+
+請洽詢您的管理員或Adobe技術聯絡人，以檢查CNAME參數是否建立正確。

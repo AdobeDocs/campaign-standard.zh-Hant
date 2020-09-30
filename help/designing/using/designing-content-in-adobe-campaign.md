@@ -12,9 +12,9 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5636b2ab5a673b0a52158b1a5411e090e4b45ca7
+source-git-commit: 97760e8b5fe0eb4905dcae69e8bbbefa837a461f
 workflow-type: tm+mt
-source-wordcount: '1138'
+source-wordcount: '1208'
 ht-degree: 4%
 
 ---
@@ -154,6 +154,8 @@ Adobe建議將您的內容更新至最新版本，以避免發生CSS衝突等問
 
 * 在編輯樣式時，只有大多數電子郵件用戶端正式支援的網頁字型才可用。
 * 樣式無法儲存為主題，以供日後重複使用。 不過，CSS樣式可以儲存在內容範本或電子郵件中。 For more on styles, see [this section](../../designing/using/styles.md).
+* 「電子郵件設計工具」不支援反向連結meta標籤。
+* 替代對（未包含在Unicode字元集的「基本多語言平面」中的字元）無法儲存為2個位元組（16位元），且需要編碼為2個UTF-16字元。 這些字元包括一些CJK表意文字、大多數表情符號和一些語言。<br>這些字元可能會在動態文字中造成一些不相容的問題。 傳送訊息前，您必須先執行強式測試。
 
 **相關主題**
 

@@ -12,9 +12,9 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 97760e8b5fe0eb4905dcae69e8bbbefa837a461f
+source-git-commit: 7168162baa26c960475d8c9c613989d0338f95c2
 workflow-type: tm+mt
-source-wordcount: '2442'
+source-wordcount: '2387'
 ht-degree: 4%
 
 ---
@@ -89,7 +89,6 @@ ht-degree: 4%
 * **工作流程執行改進** （測試版）:在全球工作流程倡議的背景下，我們已開發出一些重大改進，以穩定記憶體管理、減少延遲並最佳化執行期間工作流程所耗用的記憶體。 這些改良功能目前為beta版，僅適用於一組客戶。 預計於2021年初全面上市。
 * 為了改善安全性，Campaign現在使用簽 **名機制** ，來追蹤電子郵件中的連結。
 * 上傳iOS憑證或Android金鑰時，行動應 **用程式設定已改良** ，並出現更清楚的錯誤訊息。
-* 現在 **可針對交易推播訊息定位設定檔使用新的傳送對應** (mapRtEventAppSubRcp)。 這些傳送的傳送、排除和追蹤記錄檔現在可在broadLogAppSubRcp、excludeLogAppSubRcp和trackingLogAppSubRcp表格中使用。 這可解決當使用描述檔目標維度傳送交易推播訊息時，造成傳送分析失敗 **的問** 題。
 * **SMS錯誤管理已經改進** ，以防止將太多配置檔案添加到隔離清單中。 依預設，SMS錯誤現在會設定為軟錯誤，而非硬錯誤。 請參見[此頁面](https://helpx.adobe.com/tw/campaign/kb/sms-connector-protocol-and-settings.html)。
 
 **電子郵件設計人員增強功能**
@@ -97,7 +96,7 @@ ht-degree: 4%
 * 我們已透過全新動態內容相關說明，將使用者介面與檔案完全連結，讓您輕鬆存取最新說明內容，改善了電子郵件設計人員的使用體驗。 ****
 * 修正在編輯訊息文字版本時，移除訊息中分行符號的問題。 (CAMP-44483)
 * 修正HTML範本的純文字版本無法自動產生及同步的問題。 (CAMP-44195)
-* 修正調整影像大小時可能發生的問題。 傳送訊息後，影像無法在Microsoft Outlook中正確顯示。 (CAMP-44656)
+* 修正調整影像大小時可能發生的問題。 傳送訊息後，影像在Microsoft Outlook中無法正確顯示。 (CAMP-44656)
 * 修正插入按鈕並將其寬度設為「auto」時發生的問題。 傳送訊息後，按鈕的內容就不會完全顯示。 (CAMP-44560)
 * 修正從附加的HTML檔案上傳內容時發生的問題。 訊息傳送至Gmail位址後，就無法套用CSS，造成轉換問題。 (CAMP-44085)
 * 修正在內容範本中直接修改先前用於訊息的內容片段時，無法更新這些片段的問題。 (CAMP-43973)

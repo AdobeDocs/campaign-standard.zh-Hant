@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: e67a173c5409d7693a3d7dab8f8ca3b03aeb886f
 workflow-type: tm+mt
 source-wordcount: '232'
-ht-degree: 73%
+ht-degree: 97%
 
 ---
 
@@ -19,14 +19,14 @@ ht-degree: 73%
 
 ## 新增功能
 
-* **[控制群組](sending/using/control-group.md)**<br/>透過排除促銷活動的一部分對象，評估促銷活動的影響
+* **[控制組](sending/using/control-group.md)**<br/>透過排除部分對象，以評估行銷活動的影響
 
-* **[人工智慧型電子郵件](sending/using/predictive.md)**<br/>使用人工智慧型電子郵件最佳化設計與傳遞
+* **[AI 支援電子郵件](sending/using/predictive.md)**<br/>使用 AI 支援電子郵件最佳化設計與傳遞
 
 * **[隱私權管理](https://helpx.adobe.com/tw/campaign/kb/campaign-privacy.html)**<br/>
 瞭解 Adobe Campaign 所提供用來協助您遵從隱私權要求的工具
 
-* **[外部API](automating/using/external-api.md)**<br/>使用外部API活動，將外部系統的資料匯入工作流程
+* **[外部 API](automating/using/external-api.md)**<br/>使用外部 API 活動，將外部系統的資料匯入工作流程
 
 * **[開始使用行動傳送](https://helpx.adobe.com/tw/campaign/kb/acs-mobile.html)**<br/>&#x200B;進一步瞭解行動傳送的一般方針（SMS、推播、應用程式內）
 
@@ -54,7 +54,7 @@ ht-degree: 73%
     <a href="designing/using/designing-content-in-adobe-campaign.md"><strong>設計電子郵件</strong></a>
     </div>
     <em>瞭解如何使用電子郵件設計工具以建立回應式和個人化的電子郵件</em>
-    <br>     
+    <br>
   </td>
   <td valign="top">
        <img alt="支援" src="start/using/assets/do-not-localize/help.jpeg" />

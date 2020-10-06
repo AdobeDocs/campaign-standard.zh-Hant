@@ -9,22 +9,22 @@ topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9a8e3087ef6a0cf2f1d68cb145a67af3c05d27ec
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '2269'
+ht-degree: 100%
 
 ---
 
 
-# 外部 API{#external-api}
+# 外部 API {#external-api}
 
 ## 說明 {#description}
 
 ![](assets/wf_externalAPI.png)
 
-**[!UICONTROL External API]** 活動會透過 **HTTP API** 呼叫，從&#x200B;**外部系統**&#x200B;將資料匯入工作流程中。
+**[!UICONTROL External API]** 活動會透過 **HTTP API** 呼叫，從&#x200B;**外部系統**&#x200B;將資料帶入工作流程中。
 
 外部系統端點可以是公用 API 端點、客戶管理系統或無伺服器應用程式執行個體（例如 [Adobe I/O Runtime](https://www.adobe.io/apis/experienceplatform/runtime.html)），以及一些類別。
 
@@ -38,19 +38,19 @@ ht-degree: 0%
 * 能夠重新接收 JSON 回應、將它對應至輸出表格，並傳遞至下游的其他工作流程活動。
 * 具有出站特定轉變的故障管理
 
-### 向後相容性注意事項 {#from-beta-to-ga}
+### 回溯相容性注意事項 {#from-beta-to-ga}
 
-在Campaign Standard 20.4版本中，http回應資料大小限制和回應逾時護欄已降低，以符合最佳實務（請參閱「限制和護欄」一節）。 這些保證修改不會對現有的外部API活動生效；因此，建議您在所有工作流程中，以新版本取代現有的外部API活動。
+藉由 Campaign Standard 20.4 版本的發佈，http 回應資料大小限制和回應逾時護欄已降低，以符合最佳實務（請參閱「限制和護欄」一節）。這些護欄修改不會對現有的外部 API 活動產生影響；因此，建議您在所有工作流程中，以新版本取代現有的外部 API 活動。
 
-如果您要從Campaign Standard 20.2（或更舊版本）升級，請注意，Campaign Standard 20.3版中的External API功能將Trom測試版移至General Availability。
+如果您要從 Campaign Standard 20.2（或更舊版本）升級，請注意，Campaign Standard 20.3 版中的外部 API 功能將從測試版移至 General Availability。
 
-因此，如果您使用測試版外部 API 活動，則需要在所有工作流程中以 GA 外部 API 活動來取代這些活動。  從Campaign Standard 20.3版開始，使用External API測試版的工作流程將無法運作。
+因此，如果您使用測試版外部 API 活動，則需要在所有工作流程中以 GA 外部 API 活動來取代這些活動。  從 Campaign Standard 20.3 版開始，使用外部 API 測試版的工作流程將無法運作。
 
 取代外部 API 活動時，將新的外部 API 活動新增至工作流程、手動複製設定詳細資訊，然後刪除舊活動。
 
 >[!NOTE]
 >
->您將無法複製超過特定活動的標題值，因為這些值在活動中被遮色。
+>您將無法複製活動指定標題值，因為這些值在活動中被遮罩。
 
 接著，重新設定工作流程中指向及/或使用測試版外部 API 活動資料的其他活動，以指向及/或使用新外部 API 活動的資料。活動範例：電子郵件傳送（個人化欄位）、擴充活動等。
 
@@ -58,8 +58,8 @@ ht-degree: 0%
 
 以下護欄適用於此活動：
 
-* 5MB http回應資料大小限制(注意：這與舊版50MB限制的變更)
-* 請求逾時為1分鐘(注意：這與舊版中10分鐘逾時的變更)
+* 5MB http 回應資料大小限制（注意：這與之前版本中 50MB 的限制有所不同）
+* 請求逾時為 1 分鐘（注意：這與之前版本中 10 分鐘逾時有所不同）
 * 不允許 HTTP 重新導向
 * 拒絕非 HTTPS Url
 * 允許使用 &quot;Accept: application/json&quot; 要求標頭及 &quot;Content-Type: application/json&quot; 回應標頭
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->「外部API」活動是指擷取促銷活動範圍的資料（最新選件集、最新分數等），而非擷取每個描述檔的特定資訊，因為這會導致大量資料傳輸。 如果使用案例需要此項目，建議使用[傳輸檔案](../../automating/using/transfer-file.md)活動。
+>外部 API 活動的用途是擷取促銷活動範圍的資料（最新的選件集、最新的分數等），而非擷取每個設定檔的特定資訊，因為這會導致大量資料傳輸。如果使用案例需要此項目，建議使用[傳輸檔案](../../automating/using/transfer-file.md)活動。
 
 ## 設定 {#configuration}
 
@@ -95,7 +95,7 @@ ht-degree: 0%
 
 ### 出站對應
 
-此標籤可讓您定義 API 呼叫傳回的範例 **JSON 結構**。
+此索引標籤可讓您定義 API 呼叫傳回的範例 **JSON 結構**。
 
 ![](assets/externalAPI-outbound.png)
 
@@ -104,37 +104,37 @@ JSON 剖析器的設計可容納標準 JSON 結構模式類型，但有些例外
 範例 JSON 定義必須具有&#x200B;**下列特性**：
 
 * **陣列元素**必須包含第一級屬性（不支援較深的層級）。
-   **屬性名稱**，最終將成為輸出臨時表格之輸出模式的欄名稱。
+   **屬性名稱**，最終將成為輸出臨時表格之輸出架構的欄名稱。
 * 要擷取的 **JSON 元素**&#x200B;必須在 JSON 回應內的 10 級或更低巢狀層級。
 * **欄名稱**，定義是以 &quot;data&quot; 陣列的第一個元素為基礎。
 列定義（新增/刪除）和屬性的類型值可以在 **Column definition** 索引標籤中編輯。
 
 **平面化核取方塊**&#x200B;行為：
 
-「平面化」核取方塊(預設值：未勾選)，以指出是否將 JSON 平面化為索引鍵/值對應。
+平面化核取方塊（預設值：未勾選），以指出是否將 JSON 平面化為索引鍵/值對應。
 
 * **停用核取方塊**（未勾選）時，會剖析範例 JSON 以尋找陣列物件。使用者將需要提供 API 回應範例 JSON 格式的裁剪版本，如此 Adobe Campaign 就能確切判斷使用者想要使用哪個陣列。在工作流程製作時，將會判斷並記錄巢狀陣列物件的路徑，以便在執行時使用它來存取從 API 呼叫接收的 JSON 回應內文中存取該陣列物件。
 
-* **啟用核取方塊**（已核取）後，範例 JSON 將會平面化，而提供之範例 JSON 中指定的所有屬性將用於建立輸出臨時表格的欄，並顯示在 Column Definitions 標籤上。請注意，如果範例 JSON 中有任何陣列物件，則這些陣列物件的所有元素也會平面化。
+* **啟用核取方塊**（已核取）後，範例 JSON 將會平面化，而提供之範例 JSON 中指定的所有屬性將用於建立輸出臨時表格的欄，並顯示在 Column Definitions 索引標籤上。請注意，如果範例 JSON 中有任何陣列物件，則這些陣列物件的所有元素也會平面化。
 
 
 如果已&#x200B;**驗證解析**，則會出現一條訊息，邀請您在「列定義」索引標籤中自訂資料對應。在其他情況下，會顯示錯誤訊息。
 
 ### 執行
 
-此頁籤用於定義連接端點。 該 **[!UICONTROL URL]** 欄位允許您定義將向 **ACS發送資料的HTTPS端點** 。
+此索引標籤可讓您定義連接端點。該&#x200B;**[!UICONTROL URL]**&#x200B;欄位允許您定義將向 ACS 發送資料的 **HTTPS 端點**。
 
-如果端點需要，可使用兩種驗證方法：
+如果端點需要，則可以使用兩種驗證方法：
 
-* 基本驗證：在欄位中輸入您的使用者名稱／密碼 **[!UICONTROL Request Header(s)]** 資訊。
+* 基本驗證：在 **[!UICONTROL Request Header(s)]** 欄位中輸入您的使用者名稱/密碼資訊。
 
-* OAuth驗證：按一下，您 **[!UICONTROL Use connection parameters defined in an external account]**&#x200B;可以選取定義OAuth驗證的外部帳戶。 For more information, refer to the [External accounts](../../administration/using/external-accounts.md) section.
+* OAuth 驗證：按一下 **[!UICONTROL Use connection parameters defined in an external account]**，您可以選取定義 OAuth 驗證的外部帳戶。如需詳細資訊，請參閱[外部帳戶](../../administration/using/external-accounts.md)。
 
 ![](assets/externalAPI-execution.png)
 
 ### 屬性
 
-此標籤可讓您控制外部 API 活動的&#x200B;**一般屬性**，例如 UI 中顯示的標籤。無法自訂內部 ID。
+此索引標籤可讓您控制外部 API 活動的&#x200B;**一般屬性**，例如， UI 中顯示的標籤。無法自訂內部 ID。
 
 ![](assets/externalAPI-properties.png)
 
@@ -160,7 +160,7 @@ JSON 剖析器的設計可容納標準 JSON 結構模式類型，但有些例外
 
 ### 執行選項
 
-此標籤可用於大部分的工作流程活動。如需詳細資訊，請參閱[活動屬性](../../automating/using/activity-properties.md)區段。
+此索引標籤可用於大部分的工作流程活動。如需詳細資訊，請參閱[活動屬性](../../automating/using/activity-properties.md)區段。
 
 ![](assets/externalAPI-options.png)
 
@@ -184,32 +184,32 @@ JSON 剖析器的設計可容納標準 JSON 結構模式類型，但有些例外
    <td> <p>叫用 API URL 'https://example.com/api/v1/web-coupon?count=2'。</p></td> 
   </tr> 
   <tr> 
-   <td> 由於%d毫秒中的%s，正在重試API URL '%s'，嘗試%d。</td> 
-   <td> <p>由於HTTP - 401（2364毫秒）而重試API URL 'https://example.com/api/v1/web-coupon?count=0'，請嘗試2。</p></td>
+   <td> 由於 %d 毫秒中的 %s 與嘗試 %d，正在重試 API URL '%s'。</td> 
+   <td> <p>由於 HTTP - 401（2364 毫秒）與嘗試 2，而重試 API URL 'https://example.com/api/v1/web-coupon?count=0'。</p></td>
   </tr> 
   <tr> 
    <td> 正在傳輸 '%s'(%s / %s) 的內容。</td> 
    <td> <p>從 'https://example.com/api/v1/web-coupon?count=2'(1234 / 1234) 傳輸內容。</p></td> 
   </tr>
   <tr> 
-   <td> 使用提供者ID「%s」的快取存取Token。</td> 
-   <td> <p>使用快取存取Token做為提供者ID 'EXT25'。 注意： EXT25是外部帳戶的ID（或名稱）。 </p></td> 
+   <td> 使用提供者 ID '%s' 的快取存取權杖。</td> 
+   <td> <p>使用提供者 ID 'EXT25' 的快取存取權杖。注意： EXT25 是外部帳戶的 ID（或名稱）。 </p></td> 
   </tr>
   <tr> 
-   <td> 已從伺服器為提供者ID「%s」提取訪問Token。</td> 
-   <td> <p>從提供者ID 'EXT25'的伺服器擷取存取Token。 注意：EXT25是外部帳戶的ID（或名稱）。</p></td> 
+   <td> 已從伺服器為提供者 ID '%s' 擷取存取權杖。</td> 
+   <td> <p>已從伺服器為提供者 ID 'EXT25' 擷取存取權杖。注意：EXT25 是外部帳戶的 ID（或名稱）。</p></td> 
   </tr>
   <tr> 
-   <td> 正在重新整理OAuth存取Token，因為發生錯誤(HTTP:'%d')。</td> 
-   <td> <p>正在重新整理OAuth存取Token，因為發生錯誤(HTTP:)。</p></td> 
+   <td> 正在重新整理 OAuth 存取權杖，因為發生錯誤 (HTTP:'%d')。</td> 
+   <td> <p>正在重新整理 OAuth 存取權杖，因為發生錯誤 (HTTP:)。</p></td> 
   </tr>
   <tr> 
-   <td> 重新整理OAuth存取Token時發生錯誤(錯誤：'%d')。 </td> 
-   <td> <p>重新整理OAuth存取Token時發生錯誤(錯誤：)。</p></td> 
+   <td> 重新整理 OAuth 存取權杖時發生錯誤（錯誤：'%d'）。 </td> 
+   <td> <p>重新整理 OAuth 存取權杖時發生錯誤（錯誤：'404'）。</p></td> 
   </tr>
   <tr> 
-   <td> 嘗試%d時，無法使用指定的外部帳戶擷取OAuth存取Token，在%d毫秒內重試。</td> 
-   <td> <p>嘗試1時，無法使用指定的外部帳戶擷取OAuth存取Token，於1387毫秒後重試。</p></td> 
+   <td> 嘗試 %d 時，無法使用指定的外部帳戶擷取 OAuth 存取權杖，在 %d 毫秒內重試。</td> 
+   <td> <p>嘗試 1 時，無法使用指定的外部帳戶擷取 OAuth 存取權杖，於 1387 毫秒內重試。</p></td> 
   </tr>
  </tbody> 
 </table>
@@ -227,27 +227,27 @@ JSON 剖析器的設計可容納標準 JSON 結構模式類型，但有些例外
  </thead> 
  <tbody> 
   <tr> 
-   <td> WKF-560250 – 超出 API 要求內文限制 (限制：'%d')。</td> 
-   <td> <p>已超出 API 要求內文限制 (限制：'5242880')。</p></td> 
+   <td> WKF-560250 – 超出 API 要求內文限制（限制：'%d'）。</td> 
+   <td> <p>已超出 API 要求內文限制（限制：'5242880'）。</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560239 – 超出 API 回應限制 (限制：'%d')。</td> 
-   <td> <p>已超出 API 回應限制 (限制：5242880')。</p></td> 
+   <td> WKF-560239 – 超出 API 回應限制（限制：'%d'）。</td> 
+   <td> <p>已超出 API 回應限制（限制：5242880'）。</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560245 – 無法剖析 API URL (錯誤：'%d')。</td> 
-   <td> <p>無法剖析 API URL (錯誤：'-2010')。</p>
+   <td> WKF-560245 – 無法剖析 API URL（錯誤：'%d'）。</td> 
+   <td> <p>無法剖析 API URL（錯誤：'-2010'）。</p>
    <p> 注意：當 API URL 失敗驗證規則時，會記錄此錯誤。</p></td>
   </tr> 
   <tr>
-   <td> WKF-560244 - API URL主機不能是 'localhost' 或 IP 位址常值 (URL 主機：'%s')。</td> 
-   <td> <p>API URL主機不得是 'localhost' 或IP位址常值 (URL 主機： 'localhost' )。</p>
-    <p>API URL主機不得是 'localhost' 或IP位址常值 (URL 主機：192.168.0.5')。</p>
-    <p>API URL主機不得是 'localhost' 或 IP 位址常值 (URL 主機：'[2001]')。</p></td>
+   <td> WKF-560244 - API URL 主機不能是 'localhost' 或 IP 位址常值（URL 主機：'%s'）。</td> 
+   <td> <p>API URL主機不得是 'localhost' 或 IP 位址常值（URL 主機： 'localhost'）。</p>
+    <p>API URL主機不得是 'localhost' 或 IP 位址常值（URL 主機：192.168.0.5'）。</p>
+    <p>API URL主機不得是 'localhost' 或 IP 位址常值（URL 主機：'[2001]'）。</p></td>
   </tr> 
   <tr> 
-   <td> WKF-560238 - API URL必須是安全URL (https) (請求的 URL：'%s')。</td> 
-   <td> <p>API URL 必須是安全 URL(https) (請求的 URL：'https://example.com/api/v1/web-coupon?count=2’)。</p></td> 
+   <td> WKF-560238 - API URL 必須是安全 URL (https)（請求的 URL：'%s'）。</td> 
+   <td> <p>API URL 必須是安全 URL(https)（請求的 URL：'https://example.com/api/v1/web-coupon?count=2'）。</p></td> 
   </tr> 
   <tr> 
    <td> WKF-560249 – 無法建立請求內文 JSON。新增 '%s' 時出錯。</td> 
@@ -255,17 +255,17 @@ JSON 剖析器的設計可容納標準 JSON 結構模式類型，但有些例外
     <p>無法建立請求正文 JSON。新增 'data' 時發生錯誤。</p></td>
   </tr> 
   <tr> 
-   <td> WKF-560246 - HTTP 標頭鍵錯誤(標頭鍵：'%s')。</td> 
-   <td> <p>HTTP 標頭鍵錯誤 (標頭鍵：'%s')。</p>
+   <td> WKF-560246 - HTTP 標頭鍵錯誤（標頭鍵：'%s'）。</td> 
+   <td> <p>HTTP 標頭鍵錯誤（標頭鍵：'%s'）。</p>
    <p> 注意：當自訂標頭密鑰根據 <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a> 驗證失敗時，將記錄此錯誤</p></td> 
   </tr>
  <tr> 
-   <td> WKF-560248 – 不允許 HTTP 標頭鍵 (標頭鍵：'%s')。</td> 
-   <td> <p>不允許 HTTP 標題鍵 (標題鍵：'接受')。</p></td> 
+   <td> WKF-560248 – 不允許 HTTP 標頭鍵（標頭鍵：'%s'）。</td> 
+   <td> <p>不允許 HTTP 標題鍵（標題鍵：'接受'）。</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560247 - HTTP標頭值錯誤(標頭值：'%s')。</td> 
-   <td> <p>HTTP 標頭值錯誤 (標頭值：'%s')。 </p>
+   <td> WKF-560247 - HTTP 標頭值錯誤（標頭值：'%s'）。</td> 
+   <td> <p>HTTP 標頭值錯誤（標頭值：'%s'）。 </p>
     <p>注意：當自訂標頭值根據 <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a> 驗證失敗時，將記錄此錯誤</p></td> 
   </tr> 
   <tr> 
@@ -278,42 +278,42 @@ JSON 剖析器的設計可容納標準 JSON 結構模式類型，但有些例外
    <p>注意：此訊息僅適用於從外部 API 剖析回應內文，並在嘗試驗證回應內文是否符合本練習規定的 JSON 格式時記錄。</p></td>
   </tr>
   <tr> 
-   <td> WKF-560246 – 活動失敗 (原因：'%s')。</td> 
-   <td> <p>當活動因 HTTP 401 錯誤回應而失敗時 – 活動失敗 (原因：'HTTP - 401')</p>
-        <p>當活動因內部呼叫失敗而失敗時 – 活動失敗 (原因：'iRc - -Nn')。</p>
-        <p>當活動因無效的內容類型標題而失敗時。-活動失敗(原因：'Content-Type - application/html')。</p></td> 
+   <td> WKF-560246 – 活動失敗（原因：'%s'）。</td> 
+   <td> <p>當活動因 HTTP 401 錯誤回應而失敗時 – 活動失敗（原因：'HTTP - 401'）</p>
+        <p>當活動因內部呼叫失敗而失敗時 – 活動失敗（原因：'iRc - -Nn'）。</p>
+        <p>當活動因無效的內容類型標題而失敗時。- 活動失敗（原因：'Content-Type - application/html'）。</p></td> 
   </tr>
   <tr> 
-   <td> WKF-560278 - "初始化OAuth helper時出錯(錯誤：'%d')"。</td> 
-   <td> <p>此錯誤表示活動無法初始化內部OAuth2.0協助工具，因為使用外部帳戶中設定的屬性初始化協助工具時發生錯誤。</p></td>
+   <td> WKF-560278 -「初始化 OAuth 協助程式時發生錯誤（錯誤：'%d'）」。</td> 
+   <td> <p>此錯誤表示活動無法初始化內部 OAuth2.0 協助程式設施，因為使用外部帳戶中設定的屬性初始化協助程式時發生錯誤。</p></td>
   </tr>
   <tr> 
-   <td> WKF-560279 - "不允許HTTP標頭鍵(標頭鍵：'%s')。"</td> 
-   <td> <p>此警告（非錯誤）訊息指出OAuth 2.0外部帳戶已設定為新增憑證作為HTTP標題，但因為標題金鑰是保留的標題金鑰，所以不允許使用標題金鑰。</p></td>
+   <td> WKF-560279 -「不允許 HTTP 標頭鍵（標頭鍵：'%s'）。」</td> 
+   <td> <p>此警告（非錯誤）訊息指出 OAuth 2.0 外部帳戶已設定為新增憑證作為 HTTP 標頭，但因為標頭金鑰是保留的標頭金鑰，所以不允許使用此金鑰。</p></td>
   </tr>
   <tr> 
-   <td> WKF-560280 —— 找不到'%s' ID的外部帳戶。</td> 
-   <td> <p>找不到「EXT25」 ID的外部帳戶。  注意：此錯誤表示活動已設定為使用已找不到的外部帳戶。 當帳戶已從資料庫刪除時，這種情況最有可能發生，因此在正常作業環境中不可能發生。</p></td>
+   <td> WKF-560280 - 找不到 '%s' ID 的外部帳戶。</td> 
+   <td> <p>找不到 'EXT25' ID 的外部帳戶。注意：此錯誤指出活動已設定為使用無法再找到的外部帳戶。當帳戶已從 DB 刪除時最有可能發生此情況，因此在正常作業環境中不可能發生。</p></td>
   </tr>
   <tr> 
-   <td> WKF-560281 —— 已停用'%s' ID的外部帳戶。</td> 
-   <td> <p>「EXT25」 ID的外部帳戶已禁用。 注意：此錯誤表示活動已設定為使用外部帳戶，但該帳戶已停用（或標示為非作用中）。</p></td>
+   <td> WKF-560281 - 已停用 '%s' ID 的外部帳戶。</td> 
+   <td> <p>'EXT25' ID 的外部帳戶已停用。注意：此錯誤指出活動已設定為使用外部帳戶，但該帳戶已停用（或標示為非使用中）。</p></td>
   </tr>
   <tr> 
-   <td> WKF-560282 —— 不支援協定。</td> 
-   <td> <p>此錯誤表示與活動相關聯的外部帳戶不是OAuth2.0外部帳戶。 因此，除非活動配置發生某些損壞或手動更改，否則不太可能發生此錯誤。</p></td>
+   <td> WKF-560282 - 不支援協議。</td> 
+   <td> <p>此錯誤指出與活動相關聯的外部帳戶不是 OAuth2.0 外部帳戶。因此，除非活動設定發生某些損壞或手動更改，否則不太可能發生此錯誤。</p></td>
   </tr>
   <tr> 
-   <td> WKF-560283 —— 無法擷取OAuth存取Token。</td> 
-   <td> <p>此錯誤的最常見原因是外部帳戶的設定錯誤(例如 使用外部帳戶，而不測試連線是否成功)。 可能會變更外部帳戶的url/認證。</p></td>
+   <td> WKF-560283 - 擷取 OAuth 存取權杖失敗。</td> 
+   <td> <p>此錯誤的最常見原因是外部帳戶的設定錯誤（例如，在使用外部帳戶時，未先測試連線是否成功）。外部帳戶上的 URL/認證可能已變更。</p></td>
   </tr>
   <tr> 
-   <td> CRL-290199 —— 無法觸及頁面：%s。</td> 
-   <td> <p>為OAuth設定外部帳戶UI畫面時，會顯示此錯誤訊息。 這表示外部授權伺服器的URL不正確／已變更／來自伺服器的回應為「找不到頁面」。</p></td>
+   <td> CRL-290199 - 無法觸達頁面：%s。</td> 
+   <td> <p>為 OAuth 設定外部帳戶 UI 螢幕畫面時，會顯示此錯誤訊息。這表示外部授權伺服器的 URL 不正確/已變更/來自伺服器的回應為「找不到頁面」。</p></td>
   </tr>
   <tr> 
-   <td> CRL-290200 —— 不完整／不正確的憑證。</td> 
-   <td> <p>為OAuth設定外部帳戶UI畫面時，會顯示此錯誤訊息。 這表示憑證不正確或遺失了連接至驗證伺服器的其他必要憑證。
+   <td> CRL-290200 - 不完整/不正確的認證。</td> 
+   <td> <p>為 OAuth 設定外部帳戶 UI 螢幕畫面時，會顯示此錯誤訊息。這表示認證不正確或遺失連接至驗證伺服器的其他必要認證。
 </p></td>
   </tr>
  </tbody> 

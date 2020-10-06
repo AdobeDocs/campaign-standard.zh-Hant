@@ -13,10 +13,10 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c300f50ce83d67be7c8a16f857eb46fb1ce89166
+source-git-commit: 32f3b8ac0108bbce10e443c39f1f766ddf97db84
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1006'
+ht-degree: 99%
 
 ---
 
@@ -95,9 +95,9 @@ ht-degree: 0%
 
    ![](assets/lp-steps3.png)
 
-   >[!NOTE]
-   >
-   >您的修改僅對正在編輯的登錄頁面有效。如果您想要將這些修改套用至其他登錄頁面，您可以在專用的範本中執行這些修改，然後從該範本建立其他登錄頁面。
+>[!NOTE]
+>
+>您的修改僅對正在編輯的登錄頁面有效。如果您想要將這些修改套用至其他登錄頁面，您可以在專用的範本中執行這些修改，然後從該範本建立其他登錄頁面。
 
 ## 步驟　3 –設計登錄頁面 {#design-the-landing-page}
 

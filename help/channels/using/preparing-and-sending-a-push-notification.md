@@ -1,5 +1,5 @@
 ---
-title: 準備和傳送推播通知
+title: 建立並傳送推播通知
 description: 請依照下列步驟，在Adobe Campaign中建立單一傳送推播通知。
 page-status-flag: never-activated
 uuid: 01997725-ca0a-420c-9e81-5ea801652f87
@@ -13,10 +13,10 @@ context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c300f50ce83d67be7c8a16f857eb46fb1ce89166
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '856'
+ht-degree: 4%
 
 ---
 
@@ -86,7 +86,9 @@ ht-degree: 0%
 
    >[!CAUTION]
    >
-   >如果裝載大小超過4KB限制，則不會傳送訊息。 個人化資料會影響訊息的大小。
+   >如果裝載大小超過4KB限制，則不會傳送訊息。
+
+請注意，個人化資料會影響訊息的大小。
 
 ## 傳送通知 {#sending-the-notification}
 
@@ -131,4 +133,3 @@ ht-degree: 0%
 
 * [推播通知報告](../../reporting/using/push-notification-report.md)
 * [在工作流程中傳送推播通知](../../automating/using/push-notification-delivery.md)
-

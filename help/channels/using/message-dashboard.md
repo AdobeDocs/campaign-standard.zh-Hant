@@ -13,9 +13,9 @@ context-tags: delivery,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '587'
 ht-degree: 4%
 
 ---
@@ -52,21 +52,11 @@ ht-degree: 4%
 
    如需校樣的詳細資訊，請參 [閱傳送校樣](../../sending/using/sending-proofs.md)。
 
-* **[!UICONTROL Send a test]**:可讓您選取要使用的核准模式： **[!UICONTROL Email rendering]**、 **[!UICONTROL Proof]** 或兩者皆適用。 如需測試設定檔的詳細資訊，請參 [閱傳送校樣](../../sending/using/sending-proofs.md)。
+* **[!UICONTROL Send a test]**:可讓您選取要使用的核准模式： **[!UICONTROL Email rendering]** （僅限電子郵件）, **[!UICONTROL Proof]** 或兩者皆有。 如需測試設定檔的詳細資訊，請參 [閱傳送校樣](../../sending/using/sending-proofs.md)。 只有在您建立測試設定檔後，才會啟用此按鈕。
 
-   只有在您建立測試設定檔後，才會啟用此按鈕。
+* **[!UICONTROL Prepare send]**:開始準備傳送。 此 **[!UICONTROL Deployment]** 塊將出現並顯示準備結果。 只有在輸入目標後，此按鈕才會顯示。 您可以隨時使用對應的按鈕停止準備。 For more on message preparation, refer to [Preparing the send](../../sending/using/preparing-the-send.md).
 
-   >[!NOTE]
-   >
-   >對於SMS訊息，沒有別的選擇：它自動變成 **[!UICONTROL Proof]**。
-
-* **[!UICONTROL Prepare send]**:開始準備傳送。 此 **[!UICONTROL Deployment]** 塊將出現並顯示準備結果。 只有在輸入目標後，此按鈕才會顯示。 您可以隨時使用對應的按鈕停止準備。
-
-   有關消息準備的詳細信 [息，請準備發送](../../sending/using/preparing-the-send.md)。
-
-* **[!UICONTROL Confirm send]**:確認傳送訊息。 傳送統計資料會出現在區塊 **[!UICONTROL Deployment]** 中。 此按鈕只會在傳送準備完成後顯示。 您可以隨時使用「停止傳送」和按鈕來停止 **或暫停****[!UICONTROL Pause]** 傳送。
-
-   有關確認發送的詳細資訊，請參 [閱發送消息](../../sending/using/confirming-the-send.md)。
+* **[!UICONTROL Confirm send]**:確認傳送訊息。 傳送統計資料會出現在區塊 **[!UICONTROL Deployment]** 中。 此按鈕只會在傳送準備完成後顯示。 您可以隨時使用「停止傳送」和按鈕來停止 **或暫停****[!UICONTROL Pause]** 傳送。 有關確認發送的詳細資訊，請參閱 [發送消息](../../sending/using/confirming-the-send.md)。
 
 ## 塊 {#blocks}
 

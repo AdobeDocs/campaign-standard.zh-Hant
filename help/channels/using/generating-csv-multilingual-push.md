@@ -12,7 +12,7 @@ discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 772393c135b96374cb510a3d96e3c781274e857e
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
 source-wordcount: '1127'
 ht-degree: 0%
@@ -28,22 +28,20 @@ ht-degree: 0%
 
 多語言推播需要CSV檔案中14欄：
 
-* 標題
-* messageBody
-* sound
-* 徽章
-* deeplinkURI
-* 類別
-* iosMediaAttachmentURL
-* androidMediaAttachmentURL
-* isContentAvailable
-* isMutableContent
-* customFields
-* 語言
-* 語言
-* silentPush
-
-![](assets/multilingual_push_1.png)
+1. 標題
+1. messageBody
+1. sound
+1. adge
+1. deeplinkURI
+1. 類別
+1. iosMediaAttachmentURL
+1. androidMediaAttachmentURL
+1. isContentAvailable
+1. isMutableContent
+1. customFields
+1. 語言
+1. 語言
+1. silentPush
 
 按一下視窗中的，以檢查 **[!UICONTROL Download a sample file]** CSV范 **[!UICONTROL Manage Content Variants]** 例。 For more on this, refer to the this [section](../../channels/using/creating-a-multilingual-push-notification.md).
 
@@ -123,7 +121,7 @@ ht-degree: 0%
 | ar_sy | 阿拉伯文——敘利亞 |
 | ar_tn | 阿拉伯文——突尼西亞 |
 | ar_ae | 阿拉伯文——阿拉伯聯合大公國 |
-| har_ye | 阿拉伯文——葉門 |
+| ar_ye | 阿拉伯文——葉門 |
 | hy_am | 亞美尼亞——亞美尼亞 |
 | az_az | 亞塞拜然——亞塞拜然 |
 | be_by | 白俄羅斯——白俄羅斯 |
@@ -134,7 +132,7 @@ ht-degree: 0%
 | zh_sg | 簡體中文——新加坡 |
 | zh_hk | 中文（繁體）-香港 |
 | zh_tw | 繁體中文——台灣地區 |
-| 亞美尼亞 | 克羅埃西亞——克羅埃西亞 |
+| hr_hr | 克羅埃西亞——克羅埃西亞 |
 | cs_cz | 捷克文——切奇亞文 |
 | da_dk | 丹麥文——丹麥 |
 | nl_be | 荷蘭文——比利時 |
@@ -149,13 +147,13 @@ ht-degree: 0%
 | en_ph | 英文——菲律賓 |
 | en_za | 英文——南非 |
 | en_tt | 英文——千里達和多巴哥 |
-| En_gb | 英文——英國 |
+| en_gb | 英文——英國 |
 | en_us | 英文——美國 |
 | en_zw | 英文——辛巴威 |
-| fr_ee | 愛沙尼亞——愛沙尼亞 |
+| et_ee | 愛沙尼亞——愛沙尼亞 |
 | fi_fi | 芬蘭文——芬蘭 |
 | fr_be | 法文——比利時 |
-| en_ca | 法文——加拿大 |
+| fr_ca | 法文——加拿大 |
 | fr_fr | 法文——法國 |
 | fr_lu | 法文——盧森堡 |
 | fr_ch | 法文——瑞士 |
@@ -190,13 +188,13 @@ ht-degree: 0%
 | ro_md | 羅馬尼亞文——摩爾多瓦 |
 | ro_ro | 羅馬尼亞文——羅馬尼亞文 |
 | ru_kz | 俄文——哈薩克 |
-| 泰國 | 俄文——俄羅斯 |
-| -ua | 俄文——烏克蘭 |
-| A_in | 梵文——印度 |
+| ru_ru | 俄文——俄羅斯 |
+| ru_ua | 俄文——烏克蘭 |
+| a_in | 梵文——印度 |
 | sr_ba | 塞爾維亞——波斯尼亞 |
 | Sr_rs | 塞爾維亞——塞爾維亞 |
-| sk_sk | 斯洛伐克——斯洛伐克 |
-| sl_si | 斯洛維尼亞——斯洛維尼亞 |
+| -sk | 斯洛伐克——斯洛伐克 |
+| srl_si | 斯洛維尼亞——斯洛維尼亞 |
 | es_ar | 西班牙文——阿根廷 |
 | es_bo | 西班牙文——玻利維亞 |
 | es_cl | 西班牙文——智利 |
@@ -210,22 +208,22 @@ ht-degree: 0%
 | es_mx | 西班牙文——墨西哥 |
 | es_ni | 西班牙文——尼加拉瓜 |
 | es_pa | 西班牙文——巴拿馬 |
-| as_py | 西班牙文——巴拉圭 |
+| es_py | 西班牙文——巴拉圭 |
 | es_pe | 西班牙文——秘魯 |
 | es_pr | 西班牙文——波多黎各 |
 | es_es | 西班牙文——西班牙 |
 | es_uy | 西班牙文——烏拉圭 |
 | es_ve | 西班牙文——委內瑞拉 |
 | sw_ke | 斯瓦希里語——肯亞 |
-| esv_fi | 瑞典文——芬蘭 |
-| rsv_se | 瑞典文——瑞典 |
+| sv_fi | 瑞典文——芬蘭 |
+| t_se | 瑞典文——瑞典 |
 | ta_in | 坦米爾——印度 |
-| tht_ru | 塔塔爾——俄文 |
-| sv | 泰盧古——印度 |
-| sv_th | 泰文——泰國 |
-| ter_cy | 土耳其文——塞普勒斯 |
-| tr_tr | 土耳其文——土耳其 |
+| tt_ru | 塔塔爾——俄文 |
+| 中文 | 泰盧古——印度 |
+| th_th | 泰文——泰國 |
+| tr_cy | 土耳其文——塞普勒斯 |
+| sv_tr | 土耳其文——土耳其 |
 | uk_ua | 烏克蘭文——烏克蘭文 |
 | ur_in | 烏爾都——印度 |
 | ur_pk | 烏爾都——巴基斯坦 |
-| vi_vn | 越南——越南 |
+| tr_vn | 越南——越南 |

@@ -1,19 +1,22 @@
 ---
 title: 基於行動應用程式資料來建立和更新設定檔資訊
 description: 瞭解如何根據行動應用程式資料建立和更新個人檔案資訊。
-page-status-flag: 從未激活
-uuid: 8cf74cad-b1ba-4ad-83bd-7289cb22d5f4
-contentOwner: 勒梅特
+page-status-flag: never-activated
+uuid: 8cf74cad-b1ba-4aad-83bd-7289cb22d5f4
+contentOwner: lemaitre
 products: SG_CAMPAIGN/STANDARD
-audience: 頻道
-content-type: 參考
-topic-tags: 推播通知
+audience: channels
+content-type: reference
+topic-tags: push-notifications
 discoiquuid: dc944c85-2059-46df-b396-676fe3617dd1
-context-tags: delivery,mobileAppContent，返回
+context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+workflow-type: tm+mt
+source-wordcount: '1010'
+ht-degree: 4%
 
 ---
 
@@ -25,7 +28,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 本頁說明在Mobile Application以排程方式傳送Collect PII資料後，建立／更新描述檔資料的工作流程的步驟。
 
 * **PII** 代表「個人識別資訊」。 它可以是任何資料，包括未出現在促銷活動資料庫「設定檔」表格中的資訊，例如「行動地標 [分析」](../../integrating/using/about-campaign-points-of-interest-data-integration.md)。 PII由行動應用程式開發人員（通常與行銷人員）定義。
-* **Collect PII** 是從行動應用程式對Adobe Campaign standard中的Rest API進行HTTP-POST作業。
+* **Collect PII** 是從行動應用程式對Adobe Campaign Standard中的Rest API進行HTTP-POST作業。
 
 此使用案例的目的是建立或更新Campaign Standard描述檔（如果行動應用程式傳回的PII資料包含描述檔相關資料）。
 
@@ -34,8 +37,8 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 在「行動應用程式訂閱」資料建立或更新「設定檔」之前，請先執行數個設定步驟，以在「促銷活動標準」中啟用推播通知：
 
 1. [建立行動應用程式](../../administration/using/configuring-a-mobile-application.md)
-1. [將Adobe Mobile SDK與您的行動應用程式整合](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html)。
-1. [設定Adobe Campaign以傳送推播通知](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)。
+1. [將Adobe Mobile SDK與您的行動應用程式整合](https://helpx.adobe.com/tw/campaign/kb/integrate-mobile-sdk.html)。
+1. [設定Adobe Campaign以傳送推播通知](https://helpx.adobe.com/tw/campaign/kb/configuring-app-sdkv4.html)。
 
 ## 步驟1 —— 擴充推播通知／訂閱的描述檔資源
 
@@ -76,56 +79,60 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 * AppSubscription表格中空白的任何欄位都不應更新至描述檔表格中。
 * AppSubscription表格中已更新的任何記錄都應包含在下次執行的工作流程中。
 
-若要建立工作流程，請遵循下列步驟：
+若要建立工作流程，請將下列活動拖放至工作區，並將它們連結在一起： **[!UICONTROL Start]**, **[!UICONTROL Scheduler]**, **[!UICONTROL Incremental query]**, **[!UICONTROL Update data]**。
 
-1. 將下列活動拖放至工作區，並將它們連結在一起：
-   1. **[!UICONTROL Start]**
-   1. **[!UICONTROL Scheduler]**
-   1. **[!UICONTROL Incremental query]**
-   1. **[!UICONTROL Update data]**
-   ![](assets/update_profile0.png)
+![](assets/update_profile0.png)
 
-1. 設定活 **[!UICONTROL Scheduler]** 動。 在標 **[!UICONTROL General]** 簽中，設定 **[!UICONTROL Execution frequency]** （例如「每日」）、 **[!UICONTROL Time]** （例如「1:00:00 AM」）和 **[!UICONTROL Start]** （例如「今天的日期」）。
+然後，請依照下列步驟來設定每個活動。
 
-   ![](assets/update_profile2.png)
+### 設定活 **[!UICONTROL Scheduler]** 動
 
-1. 設定活 **[!UICONTROL Incremental query]** 動。
-   1. 在標 **[!UICONTROL Properties]** 簽中，按一下 **[!UICONTROL Select an element]** 欄位的圖 **[!UICONTROL Resource]** 示，然後選取元 **[!UICONTROL Subscriptions to an application (nms:appSubscriptionRcp:appSubscriptionRcpDetail)]** 素。
+在標 **[!UICONTROL General]** 簽中，設定 **[!UICONTROL Execution frequency]** （例如「每日」）、 **[!UICONTROL Time]** （例如「1:00:00 AM」）和 **[!UICONTROL Start]** （例如「今天的日期」）。
 
-      ![](assets/update_profile3.png)
+![](assets/update_profile2.png)
 
-   1. 在標籤 **[!UICONTROL Target]** 中，拖曳篩選 **[!UICONTROL Mobile application]** 器，然後選取行動應用程式名稱。
+### 設定活 **[!UICONTROL Incremental query]** 動。
 
-      ![](assets/update_profile4.png)
+1. 在標 **[!UICONTROL Properties]** 簽中，按一下 **[!UICONTROL Select an element]** 欄位的圖 **[!UICONTROL Resource]** 示，然後選取元 **[!UICONTROL Subscriptions to an application (nms:appSubscriptionRcp:appSubscriptionRcpDetail)]** 素。
 
-   1. 在標籤 **[!UICONTROL Processed data]** 中，選 **[!UICONTROL Use a date field]**&#x200B;擇，然後將字 **[!UICONTROL Last modified (lastModified)]** 段添加為 **[!UICONTROL Path to the date field]**。
+   ![](assets/update_profile3.png)
 
-      ![](assets/update_profile5.png)
+1. 在標籤 **[!UICONTROL Target]** 中，拖曳篩選 **[!UICONTROL Mobile application]** 器，然後選取行動應用程式名稱。
 
-1. 設定活 **[!UICONTROL Update data]** 動。
-   1. 在標 **[!UICONTROL Identification]** 簽中，請確定欄位已設 **[!UICONTROL Dimension to update]** 為「描述檔（描述檔）」，然後按一下 **[!UICONTROL Create element]** 按鈕以新增欄位作為協調標準。
+   ![](assets/update_profile4.png)
 
-      ![](assets/update_profile_createelement.png)
+1. 在標籤 **[!UICONTROL Processed data]** 中，選 **[!UICONTROL Use a date field]**&#x200B;擇，然後將字 **[!UICONTROL Last modified (lastModified)]** 段添加為 **[!UICONTROL Path to the date field]**。
 
-   1. 在欄位 **[!UICONTROL Source]** 中，從appSubscriptionRcp表格選取欄位作為協調欄位。 可以是描述檔的電子郵件、crmId、marketingCloudId等。 在此範例中，我們將使用「電子郵件(cusEmail)」欄位。
-   1. 在欄位 **[!UICONTROL Destination]** 中，從描述檔表格中選取欄位，以協調appSubscriptionRcp表格中的資料。 它可以是描述檔的電子郵件，或任何延伸欄位，例如crmId、marketingCloudId等。 在此範例中，我們需要選取「電子郵件（電子郵件）」欄位，以從appSubscriptionRcp表格中將其對應至「電子郵件(cusEmail)」欄位。
+   ![](assets/update_profile5.png)
 
-      ![](assets/update_profile7.png)
+### 設定活 **[!UICONTROL Update data]** 動。
 
-   1. 在標 **[!UICONTROL Fields to update]** 簽中，按一下按 **[!UICONTROL Create element]** 鈕，然後將appSubscriptionRcp表格（欄位）中的欄位與您要在「描述檔」表格（欄位）中更新的欄位對應&#x200B;**[!UICONTROL Source]****[!UICONTROL Destination]** 。
-   1. 在欄位 **[!UICONTROL Enabled if]** 中，添加表達式以確保只有在源欄位包含值時才更新配置檔案表中的相應欄位。 若要這麼做，請從清單中選取欄位，然後新增「!=""運算式(如果「來源」欄位位於「運 `[target/@cusEmail]` 算式」編輯器中，請務必輸入 `[target/@cusEmail] != ''"`)。
+1. 在標 **[!UICONTROL Identification]** 簽中，請確定欄位已設 **[!UICONTROL Dimension to update]** 為「描述檔（描述檔）」，然後按一下 **[!UICONTROL Create element]** 按鈕以新增欄位作為協調標準。
 
-      ![](assets/update_profile8.png)
+   ![](assets/update_profile_createelement.png)
 
-      >[!NOTE]
-      >
-      >在這種情況下，Workflow會執行UPSERT，但因為它基於增量查詢資料，所以只會插入。 變更查詢會影響插入或更新的資料。
-      >此外，「要更新的欄位」標籤中的設定會決定在特定條件下插入或更新哪些欄位。 這些設定對於每個應用程式或客戶而言都是唯一的。 設定這些設定時請務必小心，因為根據appSubscriptionRcp資料更新描述檔中的記錄可能會變更使用者的個人資訊，而不需驗證。
+1. 在欄位 **[!UICONTROL Source]** 中，從appSubscriptionRcp表格選取欄位作為協調欄位。 可以是描述檔的電子郵件、crmId、marketingCloudId等。 在此範例中，我們將使用「電子郵件(cusEmail)」欄位。
 
-   1. 新增要插入／更新至描述檔的所有欄位後，按一下 **[!UICONTROL Confirm]**。
+1. 在欄位 **[!UICONTROL Destination]** 中，從描述檔表格中選取欄位，以協調appSubscriptionRcp表格中的資料。 它可以是描述檔的電子郵件，或任何延伸欄位，例如crmId、marketingCloudId等。 在此範例中，我們需要選取「電子郵件（電子郵件）」欄位，以從appSubscriptionRcp表格中將其對應至「電子郵件(cusEmail)」欄位。
 
-      ![](assets/update_profile9.png)
+   ![](assets/update_profile7.png)
 
-1. 保存工作流，然後按一下「開始」以啟動工作流進程。
+1. 在標 **[!UICONTROL Fields to update]** 簽中，按一下按 **[!UICONTROL Create element]** 鈕，然後將appSubscriptionRcp表格（欄位）中的欄位與您要在「描述檔」表格（欄位）中更新的欄位對應&#x200B;**[!UICONTROL Source]****[!UICONTROL Destination]** 。
 
-   ![](assets/update_profile10.png)
+1. 在欄位 **[!UICONTROL Enabled if]** 中，添加表達式以確保只有在源欄位包含值時才更新配置檔案表中的相應欄位。 若要這麼做，請從清單中選取欄位，然後新增「!=&quot;&quot;運算式(如果「來源」欄位位於「運 `[target/@cusEmail]` 算式」編輯器中，請務必輸入 `[target/@cusEmail] != ''"`)。
+
+   ![](assets/update_profile8.png)
+
+>[!NOTE]
+>
+>在這種情況下，工作流將執行UPSERT，但因為它基於數 **[!UICONTROL Incremental query]** 據只插入。 變更查詢會影響插入或更新的資料。
+>此外，「要更新的欄位」標籤中的設定會決定在特定條件下插入或更新哪些欄位。 這些設定對於每個應用程式或客戶而言都是唯一的。
+>設定這些設定時請務必小心，因為根據appSubscriptionRcp資料更新描述檔中的記錄可能會變更使用者的個人資訊，而不需驗證。
+
+新增要插入／更新至描述檔的所有欄位後，按一下 **[!UICONTROL Confirm]**。
+
+![](assets/update_profile9.png)
+
+儲存工作流程，然後按一 **[!UICONTROL Start]** 下以執行工作流程。
+
+![](assets/update_profile10.png)

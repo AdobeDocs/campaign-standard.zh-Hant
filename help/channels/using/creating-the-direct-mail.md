@@ -13,7 +13,7 @@ context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
 source-wordcount: '594'
 ht-degree: 96%
@@ -25,11 +25,11 @@ ht-degree: 96%
 
 建立直接郵件傳送與建立一般電子郵件非常類似。下列步驟將說明此通道的特定設定。如需其他選項的詳細資訊，請參閱[建立電子郵件](../../channels/using/creating-an-email.md)。
 
-1. 建立新的直接郵件傳送。您可以從 Adobe Campaign [首頁](../../start/using/interface-description.md#home-page)、[行銷活動](../../start/using/marketing-activities.md#creating-a-marketing-activity)或[行行銷活動清單](../../start/using/programs-and-campaigns.md#creating-a-campaign)建立一個傳送。
+>[!NOTE]
+>
+>您也可以在工作流程中新增直接郵件活動。如需詳細資訊，請參閱[工作流程](../../automating/using/direct-mail-delivery.md)指南。
 
-   >[!NOTE]
-   >
-   >您也可以在工作流程中新增直接郵件活動。如需詳細資訊，請參閱[工作流程](../../automating/using/direct-mail-delivery.md)指南。
+1. 建立新的直接郵件傳送。您可以從 Adobe Campaign [首頁](../../start/using/interface-description.md#home-page)、[行銷活動](../../start/using/marketing-activities.md#creating-a-marketing-activity)或[行行銷活動清單](../../start/using/programs-and-campaigns.md#creating-a-campaign)建立一個傳送。
 
    ![](assets/direct_mail_1.png)
 

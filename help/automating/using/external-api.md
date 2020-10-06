@@ -44,7 +44,7 @@ ht-degree: 100%
 
 如果您要從 Campaign Standard 20.2（或更舊版本）升級，請注意，Campaign Standard 20.3 版中的外部 API 功能將從測試版移至 General Availability。
 
-因此，如果您使用測試版外部 API 活動，則需要在所有工作流程中以 GA 外部 API 活動來取代這些活動。  從 Campaign Standard 20.3 版開始，使用外部 API 測試版的工作流程將無法運作。
+因此，如果您使用測試版外部 API 活動，則需要在所有工作流程中以 GA 外部 API 活動來取代這些活動。 從 Campaign Standard 20.3 版開始，使用外部 API 測試版的工作流程將無法運作。
 
 取代外部 API 活動時，將新的外部 API 活動新增至工作流程、手動複製設定詳細資訊，然後刪除舊活動。
 
@@ -180,35 +180,35 @@ JSON 剖析器的設計可容納標準 JSON 結構模式類型，但有些例外
  </thead> 
  <tbody> 
   <tr> 
-   <td> 叫用 API URL '%s'。</td> 
+   <td> Invoking API URL '%s'.</td> 
    <td> <p>叫用 API URL 'https://example.com/api/v1/web-coupon?count=2'。</p></td> 
   </tr> 
   <tr> 
-   <td> 由於 %d 毫秒中的 %s 與嘗試 %d，正在重試 API URL '%s'。</td> 
+   <td> Retrying API URL '%s' due to %s in %d ms, attempt %d.</td> 
    <td> <p>由於 HTTP - 401（2364 毫秒）與嘗試 2，而重試 API URL 'https://example.com/api/v1/web-coupon?count=0'。</p></td>
   </tr> 
   <tr> 
-   <td> 正在傳輸 '%s'(%s / %s) 的內容。</td> 
+   <td> Transferring content from '%s' (%s / %s).</td> 
    <td> <p>從 'https://example.com/api/v1/web-coupon?count=2'(1234 / 1234) 傳輸內容。</p></td> 
   </tr>
   <tr> 
-   <td> 使用提供者 ID '%s' 的快取存取權杖。</td> 
+   <td> Using cached access token for provider ID '%s'.</td> 
    <td> <p>使用提供者 ID 'EXT25' 的快取存取權杖。注意： EXT25 是外部帳戶的 ID（或名稱）。 </p></td> 
   </tr>
   <tr> 
-   <td> 已從伺服器為提供者 ID '%s' 擷取存取權杖。</td> 
+   <td> Fetched access token from server for provider ID '%s'.</td> 
    <td> <p>已從伺服器為提供者 ID 'EXT25' 擷取存取權杖。注意：EXT25 是外部帳戶的 ID（或名稱）。</p></td> 
   </tr>
   <tr> 
-   <td> 正在重新整理 OAuth 存取權杖，因為發生錯誤 (HTTP:'%d')。</td> 
+   <td> Refreshing OAuth access token due to error (HTTP: '%d').</td> 
    <td> <p>正在重新整理 OAuth 存取權杖，因為發生錯誤 (HTTP:)。</p></td> 
   </tr>
   <tr> 
-   <td> 重新整理 OAuth 存取權杖時發生錯誤（錯誤：'%d'）。 </td> 
+   <td> Error refreshing OAuth access token (error: '%d'). </td> 
    <td> <p>重新整理 OAuth 存取權杖時發生錯誤（錯誤：'404'）。</p></td> 
   </tr>
   <tr> 
-   <td> 嘗試 %d 時，無法使用指定的外部帳戶擷取 OAuth 存取權杖，在 %d 毫秒內重試。</td> 
+   <td> Failed to fetch the OAuth access token using the specified external account on attempt %d, retrying in %d ms.</td> 
    <td> <p>嘗試 1 時，無法使用指定的外部帳戶擷取 OAuth 存取權杖，於 1387 毫秒內重試。</p></td> 
   </tr>
  </tbody> 
@@ -227,92 +227,92 @@ JSON 剖析器的設計可容納標準 JSON 結構模式類型，但有些例外
  </thead> 
  <tbody> 
   <tr> 
-   <td> WKF-560250 – 超出 API 要求內文限制（限制：'%d'）。</td> 
+   <td> WKF-560250 - API request body exceeded limit (limit: '%d').</td> 
    <td> <p>已超出 API 要求內文限制（限制：'5242880'）。</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560239 – 超出 API 回應限制（限制：'%d'）。</td> 
+   <td> WKF-560239 -  API response exceeded limit (limit: '%d').</td> 
    <td> <p>已超出 API 回應限制（限制：5242880'）。</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560245 – 無法剖析 API URL（錯誤：'%d'）。</td> 
+   <td> WKF-560245 - API URL could not be parsed (error: '%d').</td> 
    <td> <p>無法剖析 API URL（錯誤：'-2010'）。</p>
    <p> 注意：當 API URL 失敗驗證規則時，會記錄此錯誤。</p></td>
   </tr> 
   <tr>
-   <td> WKF-560244 - API URL 主機不能是 'localhost' 或 IP 位址常值（URL 主機：'%s'）。</td> 
+   <td> WKF-560244 - API URL host must not be 'localhost', or IP address literal (URL host: '%s').</td> 
    <td> <p>API URL主機不得是 'localhost' 或 IP 位址常值（URL 主機： 'localhost'）。</p>
     <p>API URL主機不得是 'localhost' 或 IP 位址常值（URL 主機：192.168.0.5'）。</p>
     <p>API URL主機不得是 'localhost' 或 IP 位址常值（URL 主機：'[2001]'）。</p></td>
   </tr> 
   <tr> 
-   <td> WKF-560238 - API URL 必須是安全 URL (https)（請求的 URL：'%s'）。</td> 
+   <td> WKF-560238 - API URL must be a secure URL (https) (requested URL: '%s').</td> 
    <td> <p>API URL 必須是安全 URL(https)（請求的 URL：'https://example.com/api/v1/web-coupon?count=2'）。</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560249 – 無法建立請求內文 JSON。新增 '%s' 時出錯。</td> 
+   <td> WKF-560249 – 無法建立請求內文 JSON。Error when adding '%s'.</td> 
    <td> <p>無法建立請求正文 JSON。新增 'params' 時出錯。</p>
     <p>無法建立請求正文 JSON。新增 'data' 時發生錯誤。</p></td>
   </tr> 
   <tr> 
-   <td> WKF-560246 - HTTP 標頭鍵錯誤（標頭鍵：'%s'）。</td> 
-   <td> <p>HTTP 標頭鍵錯誤（標頭鍵：'%s'）。</p>
+   <td> WKF-560246 - HTTP header key is bad (header key: '%s').</td> 
+   <td> <p>HTTP header key is bad (header key: '%s').</p>
    <p> 注意：當自訂標頭密鑰根據 <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a> 驗證失敗時，將記錄此錯誤</p></td> 
   </tr>
  <tr> 
-   <td> WKF-560248 – 不允許 HTTP 標頭鍵（標頭鍵：'%s'）。</td> 
+   <td> WKF-560248 - HTTP header key is not allowed (header key: '%s').</td> 
    <td> <p>不允許 HTTP 標題鍵（標題鍵：'接受'）。</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560247 - HTTP 標頭值錯誤（標頭值：'%s'）。</td> 
-   <td> <p>HTTP 標頭值錯誤（標頭值：'%s'）。 </p>
+   <td> WKF-560247 -  A HTTP header value is bad (header value: '%s').</td> 
+   <td> <p>HTTP header value is bad (header value: '%s'). </p>
     <p>注意：當自訂標頭值根據 <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a> 驗證失敗時，將記錄此錯誤</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560240 - JSON 裝載有不良屬性 '%s'。</td> 
+   <td> WKF-560240 - JSON payload has bad property '%s'.</td> 
    <td> <p>JSON 裝載包含不正確的屬性 'plash'。</p></td>
   </tr> 
   <tr>
-   <td> WKF-560241 – 格式錯誤的 JSON 或不可接受的格式。</td> 
+   <td> WKF-560241 - Malformed JSON or unacceptable format.</td> 
    <td> <p>格式錯誤的 JSON 或不可接受的格式。</p>
    <p>注意：此訊息僅適用於從外部 API 剖析回應內文，並在嘗試驗證回應內文是否符合本練習規定的 JSON 格式時記錄。</p></td>
   </tr>
   <tr> 
-   <td> WKF-560246 – 活動失敗（原因：'%s'）。</td> 
+   <td> WKF-560246 - Activity failed (reason: '%s').</td> 
    <td> <p>當活動因 HTTP 401 錯誤回應而失敗時 – 活動失敗（原因：'HTTP - 401'）</p>
         <p>當活動因內部呼叫失敗而失敗時 – 活動失敗（原因：'iRc - -Nn'）。</p>
         <p>當活動因無效的內容類型標題而失敗時。- 活動失敗（原因：'Content-Type - application/html'）。</p></td> 
   </tr>
   <tr> 
-   <td> WKF-560278 -「初始化 OAuth 協助程式時發生錯誤（錯誤：'%d'）」。</td> 
+   <td> WKF-560278 - "Error initializing OAuth helper (error: '%d')" .</td> 
    <td> <p>此錯誤表示活動無法初始化內部 OAuth2.0 協助程式設施，因為使用外部帳戶中設定的屬性初始化協助程式時發生錯誤。</p></td>
   </tr>
   <tr> 
-   <td> WKF-560279 -「不允許 HTTP 標頭鍵（標頭鍵：'%s'）。」</td> 
+   <td> WKF-560279 - "HTTP header key is not allowed (header key: '%s')."</td> 
    <td> <p>此警告（非錯誤）訊息指出 OAuth 2.0 外部帳戶已設定為新增憑證作為 HTTP 標頭，但因為標頭金鑰是保留的標頭金鑰，所以不允許使用此金鑰。</p></td>
   </tr>
   <tr> 
-   <td> WKF-560280 - 找不到 '%s' ID 的外部帳戶。</td> 
+   <td> WKF-560280 - External account of '%s' ID cannot be found.</td> 
    <td> <p>找不到 'EXT25' ID 的外部帳戶。注意：此錯誤指出活動已設定為使用無法再找到的外部帳戶。當帳戶已從 DB 刪除時最有可能發生此情況，因此在正常作業環境中不可能發生。</p></td>
   </tr>
   <tr> 
-   <td> WKF-560281 - 已停用 '%s' ID 的外部帳戶。</td> 
+   <td> WKF-560281 - External account of '%s' ID is disabled.</td> 
    <td> <p>'EXT25' ID 的外部帳戶已停用。注意：此錯誤指出活動已設定為使用外部帳戶，但該帳戶已停用（或標示為非使用中）。</p></td>
   </tr>
   <tr> 
-   <td> WKF-560282 - 不支援協議。</td> 
+   <td> WKF-560282 - Protocol not supported.</td> 
    <td> <p>此錯誤指出與活動相關聯的外部帳戶不是 OAuth2.0 外部帳戶。因此，除非活動設定發生某些損壞或手動更改，否則不太可能發生此錯誤。</p></td>
   </tr>
   <tr> 
-   <td> WKF-560283 - 擷取 OAuth 存取權杖失敗。</td> 
+   <td> WKF-560283 - Failed to fetch the OAuth access token.</td> 
    <td> <p>此錯誤的最常見原因是外部帳戶的設定錯誤（例如，在使用外部帳戶時，未先測試連線是否成功）。外部帳戶上的 URL/認證可能已變更。</p></td>
   </tr>
   <tr> 
-   <td> CRL-290199 - 無法觸達頁面：%s。</td> 
+   <td> CRL-290199 - Cannot reach page at: %s.</td> 
    <td> <p>為 OAuth 設定外部帳戶 UI 螢幕畫面時，會顯示此錯誤訊息。這表示外部授權伺服器的 URL 不正確/已變更/來自伺服器的回應為「找不到頁面」。</p></td>
   </tr>
   <tr> 
-   <td> CRL-290200 - 不完整/不正確的認證。</td> 
+   <td> CRL-290200 - Incomplete/Incorrect credentials.</td> 
    <td> <p>為 OAuth 設定外部帳戶 UI 螢幕畫面時，會顯示此錯誤訊息。這表示認證不正確或遺失連接至驗證伺服器的其他必要認證。
 </p></td>
   </tr>

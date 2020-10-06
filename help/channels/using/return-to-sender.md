@@ -12,10 +12,10 @@ discoiquuid: 5f20ff3f-8242-4735-8c60-c57610edff52
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '214'
+ht-degree: 2%
 
 ---
 
@@ -39,4 +39,3 @@ ht-degree: 0%
 * 在描述檔層級將不正確的地址新增至denylist
 * 傳送主要指標(KPI)已更新
 * 傳送記錄檔已更新
-

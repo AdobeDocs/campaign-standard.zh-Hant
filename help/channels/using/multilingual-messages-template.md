@@ -11,9 +11,9 @@ topic-tags: managing-templates
 discoiquuid: 064c5c4a-f579-4bab-adf3-51c92eb4518f
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 100%
 
@@ -41,6 +41,7 @@ Adobe Campaign 隨附設為 **EN** 的預設語言。預設語言可變更為其
    >您也可以按一下範本屬性中的 **[!UICONTROL Initialize content variant]** 按鈕，修改多語言範本中現有的標準範本。
 
 1. 修改屬性以自訂標籤、追蹤等。
+
 1. 按一下變體動態磚，以修改所需變體的數目。變體視窗隨即顯示將
 
    ![](assets/multi_template_variants.png)
@@ -54,6 +55,7 @@ Adobe Campaign 隨附設為 **EN** 的預設語言。預設語言可變更為其
    >請勿刪除「預設」變體，因為它是傳送至設定檔的變體，而且沒有完整的偏好語言參數。
 
 1. 視需要自訂標籤變體，然後按一下 **[!UICONTROL Confirm]**。
+
 1. 您也可以直接為每個變體新增內容。
 
 您現在可以依據這個多語言範本，建立電子郵件或簡訊。

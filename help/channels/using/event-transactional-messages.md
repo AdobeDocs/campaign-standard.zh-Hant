@@ -13,10 +13,10 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2480'
+ht-degree: 89%
 
 ---
 
@@ -52,7 +52,9 @@ ht-degree: 0%
 
 ## 個人化交易式訊息 {#personalizing-a-transactional-message}
 
-若要在交易式訊息中設定個人化，請執行下列步驟：
+在此示例中，您將通過添加在建立事件時定義的三個欄位來瞭解如何個性化 [事務性消息](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message):名字、最後咨詢的產品、購物車總量。
+
+To do this, you will [insert a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field) in the message content.
 
 1. 按一下 **[!UICONTROL Content]** 區塊以修改訊息的主旨與內容。在此範例中，選取包含影像與文字的任何範本。如需電子郵件內容範本的詳細資訊，請參閱「[使用範本進行設計](../../designing/using/using-reusable-content.md#designing-templates)」。
 
@@ -64,9 +66,7 @@ ht-degree: 0%
    >
    >連至「放棄的購物車」連結是外部 URL 的連結，這會將使用者重新導向至其購物車。Adobe Campaign 並未管理此參數。
 
-1. 在此範例中，您希望在新增[建立事件](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message)時定義三個欄位：名字、最後諮詢的產品、購物車數量總計。要執行此操作，請在訊息內容中[插入個人化欄位](../../designing/using/personalization.md#inserting-a-personalization-field)。
-
-1. 透過 **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** 瀏覽至那些欄位。
+1. 瀏覽> **[!UICONTROL Context]****[!UICONTROL Real-time event]** >以取 **[!UICONTROL Event context]** 得個人化欄位：名字、最後咨詢的產品、購物車總量。
 
    ![](assets/message-center_7.png)
 
@@ -90,19 +90,17 @@ ht-degree: 0%
 
 您可以建立產品清單，以參考交易式電子郵件內容中的一或多個資料集合。例如，在購物車放棄率電子郵件中，您可以包含使用者離開網站時購物車中的所有產品清單，其中會包含每個產品的影像、價格及其連結。
 
+透過此影片進 [一步瞭解](https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.translate.html)。
+
 >[!IMPORTANT]
 >
 >只有在透過「[電子郵件設計工具](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface)」介面編輯交易式電子郵件訊息時，才能使用產品清單。
-
-若要在交易式訊息中新增放棄的產品清單，請遵循以下步驟。
-
-您也可以觀看一組影片，其中說明在交易式電子郵件中設定產品清單所需的步驟。如需詳細資訊，請參閱[此頁面](https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.translate.html)。
-
->[!NOTE]
 >
 >Adobe Campaign 不支援巢狀產品清單，這表示您無法將產品清單加入另一個產品清單中。
 
-### 定義產品清單 {#defining-a-product-listing}
+在以下範例中，您將學習在交易訊息中新增放棄產品清單的步驟。
+
+### 步驟1:定義產品清單 {#defining-a-product-listing}
 
 您必須先在事件層級中定義產品清單以及您想要顯示清單中各產品的欄位，才能在交易式訊息中使用產品清單。如需詳細資訊，請參閱「[定義資料集合](../../administration/using/configuring-transactional-messaging.md#defining-data-collections)」。
 
@@ -144,7 +142,7 @@ ht-degree: 0%
    >
    >如果您希望清單的元素垂直顯示　(**[!UICONTROL Column]**)，則會根據已選取的結構元件（2、3 或 4 欄）來限制項目數目上限。如需選取結構元件的詳細資訊，請參閱「[編輯電子郵件結構](../../designing/using/designing-from-scratch.md#defining-the-email-structure)」。
 
-### 填入產品清單 {#populating-the-product-listing}
+### 步驟2:填入產品清單 {#populating-the-product-listing}
 
 若要顯示從連結至交易式電子郵件之事件的產品清單，請遵循下列步驟。
 

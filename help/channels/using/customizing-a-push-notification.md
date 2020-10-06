@@ -13,10 +13,10 @@ context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
 source-wordcount: '1494'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -116,11 +116,7 @@ ht-degree: 99%
 
 若要將到期日期新增至推播通知：
 
-1. 核取 **[!UICONTROL Expire message]** 選項。
-
-   >[!NOTE]
-   >
-   >透過選取 **[!UICONTROL Expire message]** 選項，持續時間會自動設定為 0。如果您未變更值，APNS 和 FCM 都會嘗試立即傳送訊息。如果失敗，則不會重新發送消息。
+1. Check the **[!UICONTROL Expire message]** option: by selecting the **[!UICONTROL Expire message]** option, the duration is automatically set to 0. 如果您未變更值，APNS 和 FCM 都會嘗試立即傳送訊息。如果失敗，則不會重新發送消息。
 
 1. 在 **[!UICONTROL Duration]** 欄位中，選取推播通知的有效性。
 
@@ -191,4 +187,3 @@ ht-degree: 99%
 核取 **[!UICONTROL High priority]** 方塊可讓您設定推播通知的高優先順序或一般優先順序。如需訊息優先順序的詳細資訊，請參閱 [Google 開發人員檔案](https://firebase.google.com/docs/cloud-messaging/concept-options#setting-the-priority-of-a-message)。
 
 ![](assets/push_notif_advanced_11.png)
-

@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
 workflow-type: tm+mt
 source-wordcount: '1652'
-ht-degree: 83%
+ht-degree: 98%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 83%
    + 使用 Adobe Experience Platform {#working-with-adobe-experience-platform}
       + [關於 Audience Destinations 服務](audiences/using/aep-about-audience-destinations-service.md)
       + [管理 Adobe Experience Platform 閱聽眾](audiences/using/aep-managing-audiences.md)
-      + [使用區段產生器](audiences/using/aep-using-segment-builder.md)
+      + [使用區段建置器](audiences/using/aep-using-segment-builder.md)
 + 通訊通道 {#communication-channels}
    + [開始使用通訊管道](channels/using/get-started-communication-channels.md)
    + 關於通訊通道 {#about-communication-channels}
@@ -101,7 +101,7 @@ ht-degree: 83%
       + [建立多語言推播通知](channels/using/creating-a-multilingual-push-notification.md)
       + [產生多語言推播通知的 CSV 檔案](channels/using/generating-csv-multilingual-push.md)
       + [基於行動應用程式資料來建立和更新設定檔資訊](channels/using/updating-profile-with-mobile-app-data.md)
-   + 應用程式內訊息傳送{#in-app-messaging}
+   + 應用程式內訊息傳送 {#in-app-messaging}
       + [關於應用程式內訊息傳送](channels/using/about-in-app-messaging.md)
       + [準備和傳送應用程式內訊息](channels/using/preparing-and-sending-an-in-app-message.md)
       + [自訂應用程式內訊息](channels/using/customizing-an-in-app-message.md)
@@ -112,7 +112,7 @@ ht-degree: 83%
       + [定義直接郵件閱聽眾](channels/using/defining-the-direct-mail-audience.md)
       + [定義直接郵件內容](channels/using/defining-the-direct-mail-content.md)
    + 交易式訊息傳送 {#transactional-messaging}
-      + [交易式訊息快速入門](channels/using/getting-started-with-transactional-msg.md)
+      + [開始使用交易式訊息](channels/using/getting-started-with-transactional-msg.md)
       + [交易式訊息限制](channels/using/transactional-messaging-limitations.md)
       + [事件交易式訊息](channels/using/event-transactional-messages.md)
       + [設定檔交易式訊息](channels/using/profile-transactional-messages.md)
@@ -131,7 +131,7 @@ ht-degree: 83%
    + [電子郵件設計工具快速入門](designing/using/quick-start.md)
    + [定義主旨行和寄件者](designing/using/subject-line.md)
    + 建立電子郵件內容{#building-email-content}
-      + [從頭設計電子郵件](designing/using/designing-from-scratch.md)
+      + [從草稿開始設計電子郵件](designing/using/designing-from-scratch.md)
       + [使用現有內容](designing/using/using-existing-content.md)
       + [使用可重複使用的內容](designing/using/using-reusable-content.md)
       + [使用多重解決方案整合](designing/using/using-integrations.md)
@@ -149,9 +149,9 @@ ht-degree: 83%
       + [傳送校樣](sending/using/sending-proofs.md)
       + [使用目標設定檔測試電子郵件訊息](sending/using/testing-messages-using-target.md)
       + [測試電子郵件的主旨行](sending/using/testing-subject-line-email.md)
-      + [人工智慧型電子郵件](sending/using/predictive.md)
+      + [由 AI 支援電子郵件](sending/using/predictive.md)
       + [電子郵件呈現](sending/using/email-rendering.md)
-      + [添加控制組](sending/using/control-group.md)
+      + [新增控制群組](sending/using/control-group.md)
       + [使用陷阱](sending/using/using-traps.md)
       + [準備傳送](sending/using/preparing-the-send.md)
    + 排程訊息 {#scheduling-messages}
@@ -248,11 +248,11 @@ ht-degree: 83%
       + [廢棄觸發程式使用案例](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign 和 Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
       + [開始使用 Dynamics 365 整合](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
-      + [管理促銷活動和Dynamics之間的資料365](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
+      + [在 Campaign 和 Dynamics 365 之間管理資料](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
       + [要求整合](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
-      + [設定Adobe I/O](integrating/using/configure-adobe-io-for-ms-dynamic.md)
+      + [設定 Adobe I/O](integrating/using/configure-adobe-io-for-ms-dynamic.md)
       + [設定 Dynamics 365 以進行 Campaign 整合](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
-      + [映射促銷活動自訂資源和Dynamics 365自訂實體](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
+      + [對應 Campaign 自訂資源和 Dynamics 365 自訂實體](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
       + [使用 Dynamics 365 整合](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
       + [整合護欄](integrating/using/ms-dynamics-365-integration-guardrails.md)
 + 管理流程和資料 {#managing-processes-and-data}
@@ -270,8 +270,8 @@ ht-degree: 83%
       + [管理活動的屬性](automating/using/activity-properties.md)
    + 使用外部參數呼叫工作流程 {#calling-workflow-external-parameters}
       + [概觀](automating/using/calling-a-workflow-with-external-parameters.md)
-      + [在「外部信號」活動中聲明參數](automating/using/declaring-parameters-external-signal.md)
-      + [在調用工作流時定義參數](automating/using/defining-parameters-calling-workflow.md)
+      + [在外部信號活動中聲明參數](automating/using/declaring-parameters-external-signal.md)
+      + [在呼叫工作流程時定義參數](automating/using/defining-parameters-calling-workflow.md)
       + [監控事件變數](automating/using/monitoring-events-variables.md)
       + [使用外部參數自訂工作流程](automating/using/customizing-workflow-external-parameters.md)
       + [使用案例](automating/using/use-case-calling-workflow.md)
@@ -321,44 +321,44 @@ ht-degree: 83%
       + [匯入最佳實務](automating/using/import-best-practices.md)
       + [使用匯入範本匯入資料](automating/using/importing-data-with-import-templates.md)
       + [建立工作流程範本以匯入資料](automating/using/creating-import-workflow-templates.md)
-      + [管理加密的資料](automating/using/managing-encrypted-data.md)
+      + [管理已加密的資料](automating/using/managing-encrypted-data.md)
       + [匯出日誌](automating/using/exporting-logs.md)
       + [管理套件](automating/using/managing-packages.md)
       + [匯出清單](automating/using/exporting-lists.md)
-      + [使用案例：匯出／匯入自訂資源](automating/using/exporting-importing-custom-resources.md)
+      + [使用案例：匯出/匯入自訂資源](automating/using/exporting-importing-custom-resources.md)
    + 使用案例 {#workflow-use-case}
       + [關於工作流程使用案例](automating/using/about-workflow-use-cases.md)
-      + 傳遞{#deliveries}
+      + 傳遞 {#deliveries}
          + [使用補救來建立傳送](automating/using/workflow-created-query-with-complement.md)
-         + [在描述檔建立日期建立傳送](automating/using/workflow-creation-date-query.md)
+         + [在設定檔建立日期中建立傳送](automating/using/workflow-creation-date-query.md)
          + [建立每週傳送](automating/using/workflow-weekly-offer.md)
          + [建立跨通道傳送](automating/using/workflow-cross-channel-delivery.md)
-         + [在傳送前識別重複項目](automating/using/identifying-duplicated-before-delivery.md)
-         + [生日遞送](automating/using/birthday-delivery.md)
-         + [將電子郵件與直效郵件傳送結合](automating/using/coupling-email-direct-mail.md)
-         + [傳送包含豐富欄位的電子郵件](automating/using/sending-email-enriched-fields.md)
+         + [在傳遞之前識別重複項目](automating/using/identifying-duplicated-before-delivery.md)
+         + [生日傳遞](automating/using/birthday-delivery.md)
+         + [將電子郵件與直接郵件傳送連接](automating/using/coupling-email-direct-mail.md)
+         + [傳送包含擴充欄位的電子郵件](automating/using/sending-email-enriched-fields.md)
          + [使用其他資料個人化電子郵件](automating/using/personalizing-email-with-additional-data.md)
          + [傳送循環推播通知](automating/using/recurring-push-notifications.md)
       + 細分與目標定位 {#segmentation-targeting}
          + [查詢範例](automating/using/query-samples.md)
-         + [結合兩個精美受眾](automating/using/union-on-two-refined-audiences.md)
+         + [聯合兩個完善的對象](automating/using/union-on-two-refined-audiences.md)
          + [在位置上建立細分](automating/using/workflow-segmentation-location.md)
          + [重新鎖定非開啟者](automating/using/workflow-cross-channel-retargeting.md)
-         + [對服務訂戶的增量查詢](automating/using/incremental-query-on-subscribers.md)
-         + [根據年齡組劃分](automating/using/segmentation-age-groups.md)
-         + [使用與目標維度　](automating/using/using-resources-different-from-targeting-dimensions.md)　不同的資源
+         + [對服務訂閱者的增量查詢](automating/using/incremental-query-on-subscribers.md)
+         + [根據年齡群體細分](automating/using/segmentation-age-groups.md)
+         + [使用與目標維度不同的資源](automating/using/using-resources-different-from-targeting-dimensions.md)
       + 資料管理{#data-management}
-         + [協調檔案對象與資料庫](automating/using/reconcile-file-audience-with-database.md)
-         + [從導入的檔案中消除重複資料](automating/using/deduplicating-data-imported-file.md)
-         + [使用檔案中包含的資料豐富描述檔資料](automating/using/enriching-profile-data-file.md)
-         + [外部信號活動和資料導入](automating/using/external-signal-data-import.md)
+         + [使用資料庫調解檔案對象](automating/using/reconcile-file-audience-with-database.md)
+         + [從匯入的檔案中重複刪除資料](automating/using/deduplicating-data-imported-file.md)
+         + [使用檔案包含的資料擴充設定檔資料](automating/using/enriching-profile-data-file.md)
+         + [外部信號活動和資料匯入](automating/using/external-signal-data-import.md)
          + [使用外部資料更新資料庫](automating/using/update-database-file.md)
          + [根據自動檔案下載更新資料](automating/using/update-data-automatic-download.md)
          + [使用關係進行資料協調](automating/using/reconciliation-using-relations.md)
          + [使用協調功能更新資料](automating/using/data-update-reconciliation.md)
-         + [在外部檔案中導出配置檔案](automating/using/exporting-profiles-in-file.md)
+         + [在外部檔案中匯出設定檔](automating/using/exporting-profiles-in-file.md)
          + [從檔案更新多個訂閱狀態](automating/using/updating-subscriptions-from-file.md)
-         + [將配置檔案從檔案預訂到特定服務](automating/using/subscribing-profiles-from-file.md)
+         + [從檔案訂閱設定檔至特定服務](automating/using/subscribing-profiles-from-file.md)
    + 與 Adobe Experience Platform 閱聽眾合作 {#working-with-aep-audiences}
       + [鎖定 Adobe Experience Platform 閱聽眾](automating/using/aep-targeting-audiences.md)
       + [使用 Adobe Experience Platform屬性個人化行銷活動](automating/using/aep-personalizing-campaigns.md)
@@ -410,7 +410,7 @@ ht-degree: 83%
 + 管理 {#administrating}
    + [開始使用 Campaign Standard 管理](administration/using/get-started-campaign-administration.md)
    + [監控准則](administration/using/monitoring-guidelines.md)
-   + [配置指南](administration/using/about-configuration-guidelines.md)
+   + [設定指南](administration/using/about-configuration-guidelines.md)
    + 使用者與安全性 {#users-and-security}
       + [關於存取管理](administration/using/about-access-management.md)
       + [使用者管理](administration/using/users-management.md)
@@ -425,14 +425,14 @@ ht-degree: 83%
       + [設定 SMS 通道](administration/using/configuring-sms-channel.md)
       + [設定行動應用程式](administration/using/configuring-a-mobile-application.md)
       + [設定交易式訊息傳遞](administration/using/configuring-transactional-messaging.md)
-   + 設定行動頻道 {#configuring-mobile}
+   + 設定行動裝置頻道 {#configuring-mobile}
       + [實施推播追蹤](administration/using/push-tracking.md)
-      + [新增影像和視訊iOS](administration/using/image-push-notification.md)
-      + [瞭解推播通知裝載結構](administration/using/push-payload.md)
+      + [新增影像和影片 iOS](administration/using/image-push-notification.md)
+      + [瞭解 推播通知裝載結構](administration/using/push-payload.md)
       + [實施本機通知追蹤](administration/using/local-tracking.md)
-      + [Adobe Launch Synchronization常見問答集](administration/using/syncwithlaunch-faq.md)
-      + [Experience Platform SDK整合常見問答集](administration/using/aep-faq.md)
-      + [設定啟動規則以支援Adobe Campaign Standard使用案例](administration/using/configuring-rules-launch.md)
+      + [Adobe Launch Synchronization 常見問答集](administration/using/syncwithlaunch-faq.md)
+      + [Experience Platform SDK 整合常見問答集](administration/using/aep-faq.md)
+      + [設定啟動規則以支援Adobe Campaign Standard 使用案例](administration/using/configuring-rules-launch.md)
       + [Adobe Campaign Standard　支援的行動使用案例](administration/using/supported-mobile-use-cases.md)
    + 應用程式設定 {#application-settings}
       + [關於 Campaign Standard 設定](administration/using/about-campaign-standard-settings.md)
@@ -446,7 +446,7 @@ ht-degree: 83%
 + 使用API {#working-with-apis}
    + [開始使用 Campaign Standard API](api/using/get-started-apis.md)
    + 關於 Campaign Standard API {#about-campaign-standard-apis}
-      + [為何使用Campaign Standard API](api/using/why-using-campaign-standard-apis.md)
+      + [為何使用 Campaign Standard API](api/using/why-using-campaign-standard-apis.md)
       + [設定 API 存取](api/using/setting-up-api-access.md)
    + 全域概念 {#global-concepts}
       + [必讀](api/using/must-read.md)

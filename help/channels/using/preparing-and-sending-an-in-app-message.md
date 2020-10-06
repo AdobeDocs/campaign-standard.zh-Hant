@@ -13,10 +13,10 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1274'
+ht-degree: 98%
 
 ---
 
@@ -171,4 +171,3 @@ Adobe Campaign 提供兩種類型的清單：
 
 * [應用程式內報告](../../reporting/using/in-app-report.md)
 * [在工作流程中傳送應用程式內訊息](../../automating/using/in-app-delivery.md)
-

@@ -12,11 +12,11 @@ discoiquuid: e526b205-2d01-4a8b-9685-ba1d9a1f459f
 context-tags: trigger,overview;trigger,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1e790f550f6eb84954f199caeda88a8fd90dfd85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '475'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -29,14 +29,14 @@ Experience Cloud 啟動核心服務 **[!UICONTROL Triggers]** 與 Adobe Campaign
 
 在 Adobe Campaign 中，您選取先前建立的觸發器，您會以資料圖資料豐富事件資料，並定義連結至該觸發器的異動訊息範本。例如，當用戶端放棄在您的網站上瀏覽時，會將事件傳送至 Adobe Campaign，然後 Adobe Campaign 會在 15 分鐘內傳送給用戶的再行銷電子郵件來運用此事件。
 
-下圖詳述此整合的運作方式。
+下圖詳細說明此整合的運作方式。
 
 ![](assets/triggers_diagram.png)
 
 **相關主題：**
 
-* 瞭解不同類型的觸發器：[Adobe Experience Cloud 檔案](https://docs.adobe.com/content/help/en/core-services/interface/activation/triggers.html)。
-* 觀看「[根據網站活動觸發再行銷訊息](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two)」影片。
+* 瞭解不同類型的觸發器：[Adobe Experience Cloud 文件](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/activation/triggers.html)。
+* 觀看「[根據網站活動觸發再行銷訊息](https://helpx.adobe.com/tw/marketing-cloud/how-to/email-marketing.html#step-two)」影片。
 * 瞭解我們的兩個[放棄觸發器使用案例](../../integrating/using/abandonment-triggers-use-cases.md)。
 
 ## 觸發使用者流程 {#triggers-user-process}

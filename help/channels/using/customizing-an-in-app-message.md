@@ -13,7 +13,7 @@ context-tags: delivery,inAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4efc42fd6b656c7723ed52f704c801113f9b3817
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
 source-wordcount: '1080'
 ht-degree: 100%
@@ -207,4 +207,3 @@ ht-degree: 100%
    ![](assets/inapp_sending_3.png)
 
 1. 您現在可以傳送訊息，並透過傳送報告來評估其影響。如需報告的詳細資訊，請參閱[本區段](../../reporting/using/in-app-report.md)。
-

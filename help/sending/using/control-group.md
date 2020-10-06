@@ -1,6 +1,6 @@
 ---
-title: 在發送消息時添加控制組
-description: 瞭解如何使用Adobe Campaign Standard定義訊息目標時，如何新增控制群組。
+title: 發送訊息時新增控制組
+description: 瞭解如何使用 Adobe Campaign Standard 定義訊息目標時，新增控制組。
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
@@ -12,186 +12,186 @@ discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
 context-tags: workflow,use-case,query,segmentation,delivery
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cd38d849052e44e5a50c69d7f8184feb2227fdf4
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1332'
+ht-degree: 100%
 
 ---
 
 
-# 添加控制組 {#adding-control-group}
+# 新增控制組 {#adding-control-group}
 
-您可以使用控制群組來避免傳送訊息給部分觀眾，以評估促銷活動的影響。
+您可以使用控制組來避免傳送訊息給部分觀眾，以評估行銷活動的影響。
 
-若要在Adobe Campaign中執行此動作，請在定 <b>義傳送目標時</b> ，建立控制群組。 描述檔會隨機新增至控制群組、篩選或不篩選，或根據標準。
+若要在 Adobe Campaign 中執行此動作，請在定義傳送目標時，建立<b>控制組</b>。設定檔會隨機新增至控制組、篩選或不篩選，或根據標準。
 
-然後，您就可以比較收到訊息的目標群體行為與未定位之聯絡人的行為。 您也可以根據傳送記錄，在未來的促銷活動中定位控制群組。
+然後，您將能夠將接收到消息的目標人口的行為與未作為目標的連絡人的行為進行比較。根據傳送日誌，您也可以在未來的行銷活動中定位控制群。
 
 <!--The control group is built when the delivery is prepared.-->
 
 ## 概觀 {#overview}
 
-可從主目標隨機提取控制組和／或從特定種群中選擇。 因此，定義控制組的主要方法有兩種：
-* **從** main目標擷取多個描述檔。
-* **根據** 查詢中定義的條件排除某些配置檔案。
+可以從主要目標隨機擷取控制組和/或從特定人口中選取。因此，定義控制組的主要方法有兩種：
+* 從主要目標&#x200B;**擷取**&#x200B;多個設定檔。
+* 根據查詢中定義的條件&#x200B;**排除**&#x200B;一些設定檔。
 
 定義控制組時，可以使用這兩種方法。
 
-在交付準備步驟中屬於控制組的所有配置檔案都將從主目標中刪除。 一旦傳送訊息，他們就不會收到。
+在傳送準備步驟中屬於控制組的所有設定檔將會從主要目標中移除。訊息傳送後，他們將無法接收。
 
-## 從目標人口中提取 {#extraction-target-population}
+## 從目標人口中擷取 {#extraction-target-population}
 
-若要定義控制群組，您可以選擇隨機或根據排序、百分比或固定數目的設定檔從目標人口中擷取。
+若要定義控制組，您可以選擇從目標人口中隨機或基於排序、百分比或固定數量的設定檔中擷取。
 
-### 目標提取 {#target-extraction}
+### 目標擷取 {#target-extraction}
 
-首先，定義從目標中提取描述檔的方式： **隨機** 或根據排序 **而定**。
+首先，定義從目標中擷取設定檔的方式： **隨機**&#x200B;或根據&#x200B;**排序**。
 
-在該部 **[!UICONTROL Target extraction]** 分下，選擇以下選項之一：
+在 **[!UICONTROL Target extraction]** 部分下，選擇以下選項之一：
 
-* **[!UICONTROL Random sampling]**:在準備傳送時，Adobe Campaign會隨機擷取一些描述檔，這些描述檔對應您要設定的百分比或最大數目做為 [大小限制](#size-limit)。
+* **[!UICONTROL Random sampling]**：在準備傳送時，Adobe Campaign 將隨機擷取與百分比或您設定為[大小限制](#size-limit)的最大數量對應的多個設定檔。
 
-   例如，如果您接著在區段中將臨界值設為10, **[!UICONTROL Limits]** 則控制群組將從目標群組隨機選取10%。<!--Change screenshot to match example)-->
+   例如，如果您接著在 **[!UICONTROL Limits]** 部分中將臨界值設為 10，則控制組將從目標人口隨機選取10%。<!--Change screenshot to match example)-->
 
    ![](assets/control-group-random-sampling.png)
 
-* **[!UICONTROL Keep only the first records after sorting]**:此選項可讓您根據一或多個排序順序定義限制。
+* **[!UICONTROL Keep only the first records after sorting]**：此選項可讓您根據一或多個排序順序定義限制。
 
    例如：
 
-   * 選擇字 **[!UICONTROL Age]** 段作為排序標準。
-   * 將100定義為區段中的臨 **[!UICONTROL Limits]** 界值(請參閱 [大小限制](#size-limit))。
-   * 保留選 **[!UICONTROL Descending sort]** 項為選中狀態。
+   * 選取 **[!UICONTROL Age]** 欄位作為排序標準。
+   * 在 **[!UICONTROL Limits]** 部分將 100 定義為臨界值（請參閱[大小限制](#size-limit)）。
+   * 保留 **[!UICONTROL Descending sort]** 選項為已核取狀態。
 
-   因此，控制組將由100個最舊的接收者組成。<!--Change screenshot to match example)-->
+   因此，控制組將由 100 個最舊的收件者組成。<!--Change screenshot to match example)-->
 
    ![](assets/control-group-keep-first-records.png)
 
-   定義控制群組（包含進行少量或頻繁購買的設定檔），並比較其行為與已聯絡收件者的行為，這可能會很有趣。
+   定義包含很少或頻繁購買的設定檔的控制組，並將他們的行為與已聯絡的收件人行為進行比較，這可能很有趣。
 
 >[!NOTE]
 >
->如果 **[!UICONTROL No extraction]** 您不想使用選項，請選 **[!UICONTROL Target extraction]** 取。
+>如果您不想使用 **[!UICONTROL Target extraction]** 選項，請選取 **[!UICONTROL No extraction]**。
 
 <!--![](assets/control-group-no-extraction.png)-->
 
 ### 大小限制 {#size-limit}
 
-無論您選 **[!UICONTROL Random sampling]** 取或 **[!UICONTROL Keep only the first records after sorting]**&#x200B;是選取，您都必須設定如何限制從主目標擷取的描述檔數目。 執行下列任一項作業：
+無論您選取 **[!UICONTROL Random sampling]** 或 **[!UICONTROL Keep only the first records after sorting]**，您必須設定如何限制從主要目標擷取的設定檔數量。執行下列任一項項目：
 
-* 選取 **[!UICONTROL Size (as a % of the initial population)]** 並填入對應的影格。
+* 選取 **[!UICONTROL Size (as a % of the initial population)]**，並填入對應的框架。
 
-   例如，如果您設定10，則Adobe Campaign會：
-   * 隨機擷取目標人口的10%。
-   * 如果您選取欄 **[!UICONTROL Age]** 位作為排序標準，請從目標人口中擷取最舊10%的描述檔。
-
-   >[!NOTE]
-   >
-   >如果取消選 **[!UICONTROL Descending sort]** 項，則會提取10%最年輕的配置檔案。
-
-* 選取 **[!UICONTROL Maximum size]** 並填入對應的影格。
-
-   例如，如果您設定100,Adobe Campaign將會：
-   * 從目標人口中隨機擷取100個描述檔。
-   * 如果您選取欄 **[!UICONTROL Age]** 位作為排序標準，請從目標人口中擷取100個最舊的描述檔。
+   例如，如果您設定 10，則根據以上所選取的選項，Adobe Campaign 會：
+   * 隨機擷取目標人口的 10%。
+   * 如果您選取 **[!UICONTROL Age]** 欄位作為排序標準，請從目標人口中擷取最舊 10% 的設定檔。
 
    >[!NOTE]
    >
-   >如果取消選 **[!UICONTROL Descending sort]** 項，則會提取100個最年輕的配置檔案。
+   >如果您取消核取 **[!UICONTROL Descending sort]** 選項，將會擷取 10% 最年輕的設定檔。
+
+* 選取 **[!UICONTROL Maximum size]**，並填入對應的框架。
+
+   例如，如果您設定 100，Adobe Campaign 將會：
+   * 從目標人口中隨機擷取 100 個設定檔。
+   * 如果您選取 **[!UICONTROL Age]** 欄位作為排序標準，則從目標人口中擷取 100 個最舊的設定檔。
+
+   >[!NOTE]
+   >
+   >如果您取消核取 **[!UICONTROL Descending sort]** 選項，將會擷取 100 個最年輕的設定檔。
 
 ## 排除特定人口 {#excluding-specific-population}
 
-另一個定義控制群組的方法是使用查詢從目標中排除特定人口族群。
+定義控制組的另一種方法是使用査詢從目標中排除特定的人口。
 
 操作步驟：
 
-1. From the **[!UICONTROL Target exclusion]** section, click **[!UICONTROL Define target exclusion]**.
+1. 在 **[!UICONTROL Target exclusion]** 部分中，按一下 **[!UICONTROL Define target exclusion]**。
 
    ![](assets/control-group-define-target-exclusion.png)
 
-1. 使用查詢編輯器定義排 [除條件](../../automating/using/editing-queries.md)。 您也可以選取先 [前建立](../../audiences/using/about-audiences.md) 的對象。
+1. 使用[查詢編輯器](../../automating/using/editing-queries.md)定義排除條件。您也可以選取之前已建立的[閱聽眾](../../audiences/using/about-audiences.md)。
 
    ![](assets/control-group-target-exclusion.png)
 
 1. 按一下 **[!UICONTROL Confirm]**。
 
-與查詢結果匹配的配置檔案將從目標中排除。
+與查詢結果相符的設定檔將從目標中排除。
 
 <!--For more on using the query editor, see the [Editing queries](../../automating/using/editing-queries.md) section.-->
 
 ## 使用案例：設定控制組 {#control-group-example}
 
-以下範例說明如何使用這兩種方法定義控制群組：從主要目標擷取描述檔，並使用查詢排除特定人口族群。
+以下範例說明如何使用這兩種方法定義控制組：從主要目標擷取設定檔，以及使用查詢排除特定人口。
 
-1. 建立工作流程. [建立工作流](../../automating/using/building-a-workflow.md)區段中會列出建立工作流程的詳細步驟。
-1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**&#x200B;中，拖放 [](../../automating/using/query.md) Query活動。 連按兩下活動並定義您的目標。 <!--For example, in **[!UICONTROL Shortcuts]**, drag and drop **[!UICONTROL Profile]**, select **[!UICONTROL Age]** with the operator **[!UICONTROL Greater than]** and type 25 in the **[!UICONTROL Value]** field.-->
+1. 建立工作流程。[建立工作流](../../automating/using/building-a-workflow.md)區段中會列出建立工作流程的詳細步驟。
+1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Targeting]** 中，拖放[查詢](../../automating/using/query.md)活動。連按兩下活動並定義您的目標。 <!--For example, in **[!UICONTROL Shortcuts]**, drag and drop **[!UICONTROL Profile]**, select **[!UICONTROL Age]** with the operator **[!UICONTROL Greater than]** and type 25 in the **[!UICONTROL Value]** field.-->
 
-1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Channels]**&#x200B;中，拖放主要目標區段之 [後的「電子郵件傳送](../../automating/using/email-delivery.md) 」活動並加以編輯。
-1. 按一下傳 **[!UICONTROL Audience]** 送控制面板中的區塊。
+1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Channels]** 中，在主要目標細分和編輯後，拖放[電子郵件傳送](../../automating/using/email-delivery.md)活動。
+1. 從傳送控制面板按一下 **[!UICONTROL Audience]** 區塊。
 
 1. 選取 **[!UICONTROL Control group]** 索引標籤。
 
    ![](assets/control-group-tab.png)
 
-1. 從節 **[!UICONTROL Target extraction]** 中選擇 **[!UICONTROL Keep only the first records after sorting]**。
-1. 依年齡排序，並保留排序 **[!UICONTROL Descending]** 選項為勾選。
+1. 從 **[!UICONTROL Target extraction]** 區段中選取 **[!UICONTROL Keep only the first records after sorting]**。
+1. 依年齡排序，並保留 **[!UICONTROL Descending]** 排序選項為已核取。
 
    ![](assets/control-group-sorting-column.png)
 
-1. 將100設為最大大小。 將提取目標中最舊的100個配置檔案。
+1. 將 100 設定為最大大小。將從目標中擷取 100 個最舊的設定檔。
 
-1. 在區段 **[!UICONTROL Target exclusion]** 中，根據您使用查詢編輯器選擇的准則，定義將從目標中排除的描述 [檔](../../automating/using/editing-queries.md)。 例如，「年齡小於20歲」。
+1. 在 **[!UICONTROL Target exclusion]** 區段中，根據您使用[查詢編輯器](../../automating/using/editing-queries.md)選擇的條件，定義將從目標中排除的設定檔。例如，「年齡小於 20 歲」。
 
    ![](assets/control-group-target-exclusion-example.png)
 
-   年齡低於20歲的描述檔將被排除。
+   年齡在 20 歲以下的設定檔將被排除在外。
 
-1. 啟動 [傳送準備](../../sending/using/preparing-the-send.md) , [並確認傳送](../../sending/using/confirming-the-send.md)。
+1. 啟動[傳送準備](../../sending/using/preparing-the-send.md)，並[確認傳送](../../sending/using/confirming-the-send.md)。
 
-提取的描述檔（100個最舊的描述檔）和根據查詢定義的描述檔（20下的描述檔）將從主目標中撤回。 他們不會收到訊息。
+擷取的設定檔（100 個最舊的設定檔）和根據査詢定義的設定檔（20 個以下的設定檔）將從主要目標中撤回。他們並不會收到訊息。
 
-## 比較結果 {#delivery-logs}
+## 比較此結果 {#delivery-logs}
 
-既然您已將傳送內容傳送，您可以對控制群組做什麼？
+既然您已傳送訊息，您可以對控制組做什麼？
 
-您可以提取發 **送日誌** ，以比較未接收通信的控制組與有效目標的操作方式。 您也可以使用傳送記錄檔來建 **立另一個定位**。
+您可以擷取&#x200B;**發送日誌**，以將未接收到通訊的控制組行為與有效目標進行比較。您也可以使用傳送記錄來&#x200B;**建置其他目標定位**。
 
 >[!IMPORTANT]
 >
->您必須擁有管 [理員角色](../../administration/using/users-management.md#functional-administrators) ，並成為組織單 **[!UICONTROL All]** 位的一 [員](../../administration/using/organizational-units.md) ，才能連線至Adobe Campaign。 如果您想要限制特定使用者或使用者群組的存取權，請勿將其連結至 **[!UICONTROL All]** 能夠存取傳送記錄的裝置。
+>您必須擁有[管理員角色](../../administration/using/users-management.md#functional-administrators) ，並成為 **[!UICONTROL All]** [組織單位](../../administration/using/organizational-units.md)的一 員 ，才能與 Adobe Campaign 連線。如果要限制特定使用者或使用者群組的存取權，請勿將其連結到能夠存取傳送記錄的 **[!UICONTROL All]** 單位。
 
-### 檢查傳送記錄檔 {#checking-logs}
+### 檢查傳送記錄 {#checking-logs}
 
-要查看消息發送後哪些配置檔案已從目標中刪除，請檢查 **[!UICONTROL Delivery logs]**。 如需傳送記錄檔的詳細資訊以及如何存取記錄檔，請參 [閱本節](../../sending/using/monitoring-a-delivery.md#delivery-logs)。
+查看在發送訊息後從目標中刪除的設定檔，請檢查 **[!UICONTROL Delivery logs]**。如需傳送記錄的詳細資訊以及存取傳送記錄的方法，請參閱[本節](../../sending/using/monitoring-a-delivery.md#delivery-logs)。
 
-* 在標籤中 **[!UICONTROL Sending logs]** ，您可以看到已提取和排除的配置檔案。 他們擁有 **[!UICONTROL Ignored]** 失敗 **[!UICONTROL Control group]** 的地位和原因。
+* 在 **[!UICONTROL Sending logs]** 索引標籤中，您可以查看已擷取和已排除的設定檔。他們擁有 **[!UICONTROL Ignored]** 狀態，並且 **[!UICONTROL Control group]** 為失敗的原因。
 
    ![](assets/control-group-sending-logs.png)
 
-* 您也可以檢查標 **[!UICONTROL Exclusion causes]** 簽，查看傳送中未包含的描述檔數目。
+* 您也可以檢查 **[!UICONTROL Exclusion causes]** 索引標籤，以查看傳送中未包含的設定檔數量。
 
    ![](assets/control-group-exclusion-causes.png)
 
 ### 使用控制組日誌 {#using-logs}
 
-傳送後，您可以使用傳送記錄來篩選未收到訊息的描述檔。 請遵循下列步驟：
+傳送後，您可以使用傳送記錄來篩選未接收訊息的設定檔。請遵循以下步驟：
 
-1. 建立工作流程. [建立工作流](../../automating/using/building-a-workflow.md)區段中會列出建立工作流程的詳細步驟。
-1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**&#x200B;中，拖放 [](../../automating/using/query.md) Query活動。
-1. 在標 **[!UICONTROL Properties]** 簽中，設 **[!UICONTROL Delivery logs]** 置為 **[!UICONTROL Resource]** 和 **[!UICONTROL Profile]** 作為 **[!UICONTROL Targeting dimension]**。
+1. 建立工作流程。[建立工作流](../../automating/using/building-a-workflow.md)區段中會列出建立工作流程的詳細步驟。
+1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Targeting]** 中，拖放[查詢](../../automating/using/query.md)活動。
+1. 在 **[!UICONTROL Properties]** 索引標籤中，設定 **[!UICONTROL Delivery logs]** 為 **[!UICONTROL Resource]** 和 **[!UICONTROL Profile]** 為 **[!UICONTROL Targeting dimension]**。
 
    ![](assets/control-group-delivery-properties.png)
 
 1. 在 **[!UICONTROL Target]** 索引標籤中，按一下 **[!UICONTROL Delivery logs]**。
-1. 拖放並選 **[!UICONTROL Status]** 取為 **[!UICONTROL Ignored]** 篩選條件。
+1. 拖放 **[!UICONTROL Status]** 並選取 **[!UICONTROL Ignored]** 為篩選條件。
 
    ![](assets/control-group-status-ignored.png)
 
 1. 按一下 **[!UICONTROL Confirm]**。
 
-1. 仍然在標 **[!UICONTROL Target]** 簽中，拖放並選 **[!UICONTROL Nature of failure]** 取 **[!UICONTROL Control group]** 作為篩選條件。
+1. 仍然在 **[!UICONTROL Target]** 索引標籤中，拖放 **[!UICONTROL Nature of failure]** 並選取 **[!UICONTROL Control group]** 作為篩選條件。
 
    ![](assets/control-group-nature-of-failure.png)
 
@@ -199,46 +199,46 @@ ht-degree: 0%
 
    ![](assets/control-group-delivery-target.png)
 
-然後，您可以使用Extract檔案活動和 **Transfer檔案活動** (例如 **** )導出日誌資料。 這可讓您在自己的報告工具中，與控制群組相比，分析有效目標上的促銷活動結果。 For more on exporting logs, see [this section](../../automating/using/exporting-logs.md).
+然後，您可以使用&#x200B;**擷取檔案**&#x200B;活動，隨後使用&#x200B;**傳輸檔案**&#x200B;活動（作為範例）匯出日誌資料。這將使您能夠在您自己的報告工具中分析與控制組相比的有效目標行銷活動的結果。如需匯出日誌的詳細資訊，請參閱[本節](../../automating/using/exporting-logs.md)。
 
-### 定位控制群組 {#targeting-control-group}
+### 目標定位控制組 {#targeting-control-group}
 
-若要根據未收到訊息的描述檔進行定位，您也可以使用傳送記錄檔。 請遵循下列步驟：
+若要根據未收到訊息的設定檔進行目標定位，您也可以使用傳送記錄。請遵循以下步驟：
 
-1. 建立工作流程. [建立工作流](../../automating/using/building-a-workflow.md)區段中會列出建立工作流程的詳細步驟。
-1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**&#x200B;中，拖放第一個 [](../../automating/using/query.md) 查詢活動。
-1. 在標 **[!UICONTROL Properties]** 簽中，確保選 **[!UICONTROL Profile]** 擇資源作為和 **[!UICONTROL Resource]** 。 **[!UICONTROL Targeting dimension]**
+1. 建立工作流程。[建立工作流](../../automating/using/building-a-workflow.md)區段中會列出建立工作流程的詳細步驟。
+1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Targeting]** 中，拖放第一個[查詢](../../automating/using/query.md)活動。
+1. 在 **[!UICONTROL Properties]** 索引標籤中，確保 **[!UICONTROL Profile]** 資源已選取作為 **[!UICONTROL Resource]** 和 **[!UICONTROL Targeting dimension]**。
 
    ![](assets/control-group-delivery-properties-profile.png)
 
-1. 在標籤 **[!UICONTROL Target]** 中，展開 **[!UICONTROL Delivery]** 並拖放 **[!UICONTROL Delivery logs]**。
+1. 在 **[!UICONTROL Target]** 索引標籤中，展開 **[!UICONTROL Delivery]** 並拖放 **[!UICONTROL Delivery logs]**。
 
    ![](assets/control-group-query-delivery-logs.png)
 
-1. 在視窗 **[!UICONTROL Add a rule]** 中，拖放 **[!UICONTROL Delivery]**。
+1. 在 **[!UICONTROL Add a rule]** 視窗中，拖放 **[!UICONTROL Delivery]**。
 
    ![](assets/control-group-rule-delivery.png)
 
-1. 選擇您傳送的電子郵件作為篩選條件。 按一下 **[!UICONTROL Confirm]**。
+1. 選擇您發送的電子郵件作為篩選條件。按一下 **[!UICONTROL Confirm]**。
 
    ![](assets/control-group-email-sent.png)
 
-1. 返回窗 **[!UICONTROL Add a rule]** 口，拖放並選 **[!UICONTROL Status]** 擇 **[!UICONTROL Ignored]** 作為篩選條件。 按一下 **[!UICONTROL Confirm]**。
+1. 返回 **[!UICONTROL Add a rule]** 視窗，拖放 **[!UICONTROL Status]** 並選擇 **[!UICONTROL Ignored]** 為篩選條件。按一下 **[!UICONTROL Confirm]**。
 
    ![](assets/control-group-status-ignored.png)
 
-1. 拖放並選 **[!UICONTROL Nature of failure]** 取為 **[!UICONTROL Control group]** 篩選條件。 按一下 **[!UICONTROL Confirm]**。
+1. 拖放 **[!UICONTROL Nature of failure]** 並選取 **[!UICONTROL Control group]** 為篩選條件。按一下 **[!UICONTROL Confirm]**。
 
    ![](assets/control-group-nature-of-failure.png)
 
-1. 請確定條件都與 **AND** Boolean運算子對齊。
+1. 請確定每個條件都與 **和**&#x200B;布林值運算子對齊。
 
    ![](assets/control-group-delivery-logs-conditions.png)
 
 1. 按一下 **[!UICONTROL Confirm]**。
 
-您現在可以定位未收到第一則訊息的描述檔，因為這些描述檔是控制群組的一部分，並傳送另一封電子郵件給他們。
+現在，您可以定位未收到第一條訊息的設定檔，因為它們是控制組的一部分，並向他們發送另一封電子郵件。
 
-在相同的工作流程中，您也可以建立另一個查詢來定位已收到電子郵件的描述檔，並傳送不同的訊息給他們。
+在相同的工作流程中，您也可以建立另一個查詢來定位已收到電子郵件的設定檔，並向其發送不同的訊息。
 
 ![](assets/control-group-targeted-by-delivery.png)

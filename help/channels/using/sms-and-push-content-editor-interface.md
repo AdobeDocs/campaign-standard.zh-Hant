@@ -12,9 +12,9 @@ discoiquuid: 4e214eb9-d299-4095-b786-8d1de9b1c8a2
 context-tags: delivery,smsContent,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 100%
 
@@ -96,4 +96,3 @@ SMS 及推播內容編輯器提供下列功能：
 * 新增內容區塊。如需詳細資訊，請參閱[新增內容區塊](../../designing/using/personalization.md#adding-a-content-block)。
 * 新增動態文字。如需詳細資訊，請參閱[定義動態文字](../../channels/using/defining-dynamic-text.md)。
 * 個人化 SMS 傳送者的名稱（僅限 SMS）。有關此項目的詳細資訊，請參閱 [SMS 設定](../../administration/using/configuring-sms-channel.md#configuring-sms-properties)。
-

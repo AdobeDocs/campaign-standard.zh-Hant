@@ -13,10 +13,10 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f9632e88b49c2280c76e709376cfb7a7a27abc1f
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
 source-wordcount: '1280'
-ht-degree: 49%
+ht-degree: 50%
 
 ---
 
@@ -147,7 +147,7 @@ openssl pkcs12 -in pushcert.p12 -out pushcert.pem -nodes -clcerts
 
 ### 我要如何在促銷活動中啟用推送報表？ {#push-reporting-enable}
 
-請遵循下列步驟：
+請遵循以下步驟：
 
 * 設定推播追蹤回傳。 您可在這裡找到 [指示](../../administration/using/configuring-a-mobile-application.md)。
 * 從Mobile Core實作trackAction API。 Refer to this [page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference) for more information.
@@ -164,5 +164,5 @@ Adobe推播促銷活動頻道提供現成可用的報表。 請參閱本 [檔案
 
 是的，推送訊息支援深層連結。 深層連結應包括：
 
-* 說明傳送追蹤必須停用才能讓深層連結運作的語言。
+* 說明傳送追蹤必須停用才能讓開發人員運作的語言。
 * Appsflyer與Branch合作，可進行開發連結追蹤。 如需分支與Adobe Campaign Standard整合的詳細資訊，請參閱本 [頁](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1)。

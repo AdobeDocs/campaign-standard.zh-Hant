@@ -9,10 +9,11 @@ audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
 discoiquuid: 6fa50f0d-3dcf-4a9e-bccc-1ecda2bfb449
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 72366d56e21933bcd79e907e5f8d5a9ad5281725
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +32,7 @@ source-git-commit: 72366d56e21933bcd79e907e5f8d5a9ad5281725
 
 ## 建議與限制 {#recommendations-and-limitations}
 
-* 此功能為選擇性。 請檢查您的授權合約，並聯絡您的帳戶管理員以啟用它。
+* 此功能是選取性的。請檢查您的授權合約，並聯絡您的帳戶管理員以啟用它。
 * 您選擇的密件副本位址必須提供給將為您設定的Adobe團隊。
 * 您只能使用一個密件副本電子郵件地址。
 * 只會將成功傳送的電子郵件納入考量。 彈回數不是。
@@ -49,7 +50,7 @@ source-git-commit: 72366d56e21933bcd79e907e5f8d5a9ad5281725
 1. 前往「 **資源** >范 **本** > **傳送範本**」。
 1. 複製現成可用的范 **[!UICONTROL Send via email]** 本。
 1. 選擇複製的模板。
-1. 按一下 **[!UICONTROL Edit properties]** 按鈕以編輯範本的屬性。
+1. Click the **[!UICONTROL Edit properties]** button to edit the template&#39;s properties.
 1. 展開該 **[!UICONTROL Send]** 部分。
 1. 核取方 **[!UICONTROL Archive emails]** 塊，以根據此範本保留每個傳送之所有已傳送訊息的副本。
 

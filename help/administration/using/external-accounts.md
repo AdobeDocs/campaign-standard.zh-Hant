@@ -9,14 +9,12 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 discoiquuid: d5c6a3d4-f767-46c1-a8c0-3b9dc52dcea8
-internal: n
-snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 9ba56ca09a1ae948b6d4b1945085f59db1ade973
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '1774'
-ht-degree: 84%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -87,14 +85,16 @@ Adobe Campaign 隨附一組預先定義的外部帳戶。若要設定與外部�
 * 時常登入 SFTP 以直接檢查其內容。
 * 請記住，SFTP 硬碟的管理主要是您的責任。
 
-此外，請注意，您嘗試從中啟動SFTP連線的公用IP必須新增至促銷活動例項的allowlist。 Adding IP addresses to the allowlist can be requested via a [support ticket](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html), along with providing the public key to use for authentication.
+此外，請注意，您嘗試從中啟動SFTP連線的公用IP必須新增至促銷活動例項的allowlist。 Adding IP addresses to the allowlist can be requested via a [support ticket](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html), along with providing the public key to use for authentication.
 
 SFTP 伺服器可從「控制面板」進行管理。如需詳細資訊，請參閱[控制面板文件](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/sftp-management/about-sftp-management.html)。
 
 >[!NOTE]
 >
 >控制面板僅適用於 AWS 代管客戶的管理員使用者。
-[在此處](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/faq.html#ims-org-id)查看您的執行個體是否在 AWS 上代管。
+
+>
+>[在此處](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/faq.html#ims-org-id)查看您的執行個體是否在 AWS 上代管。
 
 ## OAuth 2.0帳戶 {#oauth-account}
 

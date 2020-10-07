@@ -9,17 +9,18 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
 discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 37e86c6143c52841e69d610fa9db35dff70a3587
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # 關於 Campaign-Experience Manager 整合{#integrating-with-experience-manager}
 
-Adobe Campaign Standard與Adobe Experience Manager的整合可讓您在Adobe Campaign電子郵件中使用在Adobe Experience Manager中建立的內容。
+Adobe Campaign Standard與Adobe Experience Manager之間的整合可讓您在Adobe Campaign電子郵件中使用Adobe Experience Manager中建立的內容。
 
 因此，您可以充份運用Adobe Experience Manager內容編輯功能以及Adobe Campaign的傳送和資料管理功能。 請注意，您無法對從Adobe Experience Manager匯入的內容執行A/B測試。
 
@@ -35,7 +36,7 @@ Adobe Campaign Standard與Adobe Experience Manager 6.1、6.2、6.3、6.4和6.5�
 
    由於電子郵件範本可在Adobe Experience Manager中編輯，因此在Adobe Experience Manager中編輯任何範本看起來都會更輕鬆。 但某些範本並不容易調整。 此整合不建議針對一位客戶的個人化範本，而應直接在Adobe Campaign Standard中編輯。
 
-   有關模板的詳細資訊，請參閱本 [頁](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/templates.html)。
+   For more information on templates, refer to this [page](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/templates.html).
 
 * **請確定在實作期間已設定Externalizer**
 
@@ -45,9 +46,9 @@ Adobe Campaign Standard與Adobe Experience Manager 6.1、6.2、6.3、6.4和6.5�
 
 * **組織您的電子郵件範本，以避免誤用。**
 
-   讓範本保持條理，可確保適當的範本位於適當的檔案夾中，而不會誤選錯誤的範本。 在實作期間，應建立路徑以將範本儲存在正確的位置。
+   讓範本保持條理，可確保適當的範本位於適當的檔案夾中，而不會誤選錯誤的範本。 在實作期間，應建立路徑以將範本儲存在正確位置。
 
-   有關模板的詳細資訊，請參閱本 [頁](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/templates.html#template-availability)。
+   For more information on templates, refer to this [page](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/templates.html#template-availability).
 
 * **立即開始使用現成可用的元件。**
 

@@ -9,13 +9,11 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '4627'
+ht-degree: 5%
 
 ---
 
@@ -408,7 +406,7 @@ _推播通知_
    <td> 透過Adobe Campaign與Dreamweaver整合，您現在可以透過Adobe解決方案，建立電子郵件宣傳的整合程式。<br /> 您可以在Dreamweaver中編輯Adobe Campaign電子郵件，並讓這兩個解決方案之間的內容順暢地同步化。<br /> 在初始版本中，整合功能是「Labs」功能，僅能與Dreamweaver搶鮮版測試版搭配使用。 如果您想要啟動它，請聯絡AC-DW-integration@adobe.com。<br /> 如需詳細資訊，請參閱此影 <a href="https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.translate.html">片</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 手動傳送時間最佳化<br /> </td> 
+   <td> Manual send time optimization<br /> </td> 
    <td> 您現在可以在傳送層級或使用工作流程，手動定義每個收件者的自訂傳送時間。 <br /> 有兩個新選項可供使用： <br /> 
     <ul> 
      <li> 所有收件者都會收到訊息，其時區已納入考量。 </li> 

@@ -9,24 +9,25 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 881c89272884c6340e170ab13e84612a5af19acd
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # 使用影像 {#images}
 
-## 插入影像{#inserting-images}
+## Inserting images{#inserting-images}
 
 您可以在電子郵件和登陸頁面中插入影像。
 
 根據您的設定，可使用下列影像類型：
 
 * 本機影像
-* 從Adobe Experience cloud共用的影像——請參閱使 [用促銷活動和資產核心服務](../../integrating/using/working-with-campaign-and-assets-core-service.md) /隨選資產
+* 從Adobe Experience Cloud共用的影像——請參閱使 [用促銷活動和資產核心服務](../../integrating/using/working-with-campaign-and-assets-core-service.md) /隨選資產
 * 來自Adobe Target的動態影像——請參閱使 [用Campaign和Target](../../integrating/using/about-campaign-target-integration.md)
 
 >[!CAUTION]
@@ -35,12 +36,12 @@ source-git-commit: 881c89272884c6340e170ab13e84612a5af19acd
 
 ### 在電子郵件中插入影像 {#inserting-images-in-an-email}
 
-1. 添加結構元件。 如需詳細資訊，請參閱「 [編輯電子郵件結構」](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
+1. 添加結構元件。 如需詳細資訊，請參閱「[編輯電子郵件結構](../../designing/using/designing-from-scratch.md#defining-the-email-structure)」。
 1. 在此結構元件中，新增內容 **[!UICONTROL Image]** 元件。
 
    ![](assets/des_insert_images_1.png)
 
-1. 按一下 **[!UICONTROL Browse]**. 拖放影像，或按一下以從您的電腦選取檔案。
+1. 按一下 **[!UICONTROL Browse]**。拖放影像，或按一下以從您的電腦選取檔案。
 
    ![](assets/des_insert_images_2.png)
 

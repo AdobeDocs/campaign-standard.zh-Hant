@@ -10,13 +10,11 @@ content-type: reference
 topic-tags: application-settings
 discoiquuid: cbb1dcec-3bc6-4013-87fa-27d0e5d32bf8
 context-tags: branding,overview;branding,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: fc1dc9ca876a0f18b2dad0e02331cfc05a799aad
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '1252'
-ht-degree: 79%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -96,7 +94,7 @@ ht-degree: 79%
 
 1. **委派新子網域** -對於Adobe要使用的任何新子網域，第一步是委派它。 您可以透過「促銷活 [動控制面板](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/subdomains-and-certificates/subdomains-branding.html) 」執行此動作，或聯絡Adobe技術聯絡人。 在本文中進一步瞭解子 [網域委派](https://helpx.adobe.com/tw/campaign/kb/domain-name-delegation.html)。
 
-1. **建立票證** -一旦委派子網域後，Adobe就需要在您的生產環境中進行設定。 若要要求此 [項，請建立Client Care的票證](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) ，並包含下列資訊：
+1. **建立票證** -一旦委派子網域後，Adobe就需要在您的生產環境中進行設定。 若要要求此 [項，請建立Client Care的票證](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html) ，並包含下列資訊：
 
    * 主旨：ACS新品牌設定
 

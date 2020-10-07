@@ -1,6 +1,6 @@
 ---
 title: 新增 Target 動態內容
-description: 瞭解如何在您的Adobe Campaign傳遞中新增Adobe Target動態內容。
+description: 瞭解如何將Adobe Target動態內容新增至您的Adobe Campaign傳遞內容。
 page-status-flag: never-activated
 uuid: b3cc045f-7924-480e-8c61-8246510f3adb
 contentOwner: sauviat
@@ -9,13 +9,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
 discoiquuid: 45ddf7b7-98f7-4fdd-bb4a-49ec8490e877
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -56,7 +54,7 @@ ht-degree: 2%
 
 **相關主題：**
 
-* [Adobe Target Portal](https://docs.adobe.com/content/help/en/target/using/integrate/campaign-and-target.html)
+* [Adobe Target Portal](https://docs.adobe.com/content/help/zh-Hant/target/using/integrate/campaign-and-target.html)
 * [關於電子郵件內容設計](../../designing/using/designing-content-in-adobe-campaign.md)
-* [在即時視訊中個人化電子郵件影像](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html)
+* [在即時視訊中個人化電子郵件影像](https://helpx.adobe.com/tw/marketing-cloud/how-to/email-marketing.html)
 

@@ -9,10 +9,11 @@ audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 discoiquuid: 0130733d-4e3f-40cd-b959-56381f2c8f44
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 6cf00f9b9bafdd54d8424a353b33dc689c0f59aa
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,11 +32,11 @@ source-git-commit: 6cf00f9b9bafdd54d8424a353b33dc689c0f59aa
 要重新草擬和刪除已發佈的資源，請執行以下操作：
 
 1. 選擇要重新繪製的資源。
-1. 按一下 **[!UICONTROL Re-draft]** 動作列中的按鈕。
+1. 按一下動作列中的 **[!UICONTROL Re-draft]** 按鈕。
 
    ![](assets/schema_extension_uc26.png)
 
-1. 按一下 **[!UICONTROL Ok]**.
+1. 按一下 **[!UICONTROL Ok]**。
 
    >[!IMPORTANT]
    >
@@ -59,5 +60,5 @@ source-git-commit: 6cf00f9b9bafdd54d8424a353b33dc689c0f59aa
 
 >[!NOTE]
 >
->如果修改或刪除了用於事件的自定義資源的欄位，則相應的事件將自動取消發佈。 See [Configuring transactional messaging](../../administration/using/configuring-transactional-messaging.md).
+>如果修改或刪除用於事件之自訂資源的欄位，則相對應的事件將會自動取消發佈。See [Configuring transactional messaging](../../administration/using/configuring-transactional-messaging.md).
 

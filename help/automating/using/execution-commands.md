@@ -10,12 +10,10 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 906c85ea-83b7-4268-86da-cd353f1dc591
 context-tags: workflow,overview;workflow,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 3ed78fd610b0d134cd1e60f34c93161cb1e5c50f
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -35,7 +33,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->啟動是非同步程式： 請求會儲存，並會由工作流程執行引擎盡快處理。
+>啟動是非同步程式：請求會儲存，並會由工作流程執行引擎盡快處理。
 
 **暫停**
 
@@ -61,7 +59,7 @@ ht-degree: 0%
 
 **已暫停執行**
 
-按鈕 ![](assets/check_pause_darkgrey-24px.png) 會暫停所選活動的工作流： 不會執行此任務以及隨後執行的所有任務（位於同一個分支中）。
+按鈕 ![](assets/check_pause_darkgrey-24px.png) 會暫停所選活動的工作流：不會執行此任務以及隨後執行的所有任務（位於同一個分支中）。
 
 **無執行**
 

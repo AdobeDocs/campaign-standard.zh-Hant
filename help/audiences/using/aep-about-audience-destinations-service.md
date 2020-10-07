@@ -10,13 +10,11 @@ content-type: reference
 topic-tags: managing-audiences
 discoiquuid: 750ecd8d-67a5-4180-bfec-2a8e3098c812
 context-tags: audience,wizard;audience,overview;delivery,audience,back
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: be7ab90583e9c6472fd2c86082e832432d0a32b9
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '384'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
@@ -38,18 +36,18 @@ ht-degree: 4%
 
 在建立區段後，您就可以將其啟動為觀眾，以便在 [Campaign Standard工作流程中進行傳送](../../automating/using/aep-targeting-audiences.md)。 此外，您也可以使用Adobe Experience Platform的情境式資料，將動 [態內容](../../automating/using/aep-personalizing-campaigns.md) 個人化並新增至宣傳活動。
 
-本節也提供操作說 [明影片](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html)。
+本節也提供操作說 [明影片](https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.translate.html)。
 
 這些章節中使用的詞語：
 
-* **設定檔**: 描述檔是Experience Platform標準資料模型，用來定義消費者屬性。 描述檔也可以是與人員和裝置相關的事件資料和屬性的匯總。
+* **設定檔**:描述檔是Experience Platform標準資料模型，用來定義消費者屬性。 描述檔也可以是與人員和裝置相關的事件資料和屬性的匯總。
 
-   範例： 「無名氏是一名55歲的男性。」
+   範例：「無名氏是一名55歲的男性。」
 
-* **區段**: 一組規則，它使用屬性和事件資料定義資料庫中配置檔案的子集。
+* **區段**:一組規則，它使用屬性和事件資料定義資料庫中配置檔案的子集。
 
-   範例： &quot;男性>50歲&quot;
+   範例：&quot;男性>50歲&quot;
 
-* **觀眾**: 符合區段規則的描述檔集合。
+* **觀眾**:符合區段規則的描述檔集合。
 
-   範例： 資料庫中所有年齡超過50歲男性的相應描述檔清單。
+   範例：資料庫中所有年齡超過50歲男性的相應描述檔清單。

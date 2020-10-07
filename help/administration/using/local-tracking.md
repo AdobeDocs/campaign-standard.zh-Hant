@@ -10,12 +10,10 @@ content-type: reference
 topic-tags: push-notifications
 discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: d0a0c59763af8babc9701206cc39fe41b98e0cd4
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -25,7 +23,7 @@ ht-degree: 0%
 
 ## 關於本機追蹤 {#about-local-tracking}
 
-在本頁中，瞭解如何確保正確實作本機通知追蹤。 請注意，這表示本機通知已設定。
+在本頁中，瞭解如何確保已正確實施本機通知追蹤。 請注意，這表示本機通知已設定。
 
 本機通知追蹤可分割為三種類型：
 
@@ -37,7 +35,7 @@ ht-degree: 0%
 
 若要實作Adobe Campaign Standard的追蹤，行動應用程式必須在應用程式中加入Mobile SDK。 這些SDK可在中取 [!DNL Adobe Mobile Services]得。
 
-若要傳送追蹤資訊，需要傳送三個變數： 兩者是從Adobe Campaign收到的資料的一部分，另一則是動作變數，決定是曝光、點按或開啟。
+若要傳送追蹤資訊，需要傳送三個變數：兩者是從Adobe Campaign收到的資料的一部分，另一則是動作變數，決定是曝光、點按或開啟。
 
 | 變數 | 值 |
 | :-: | :-: |
@@ -57,11 +55,11 @@ Adobe Experience Platform Mobile SDK會在觸發本機通知時啟動印象追�
 
 若要說明如何實作曝光追蹤，我們需要瞭解應用程式的三種狀態：
 
-* **前景**: 當應用程式目前處於作用中，且在前景的螢幕上時。
+* **前景**:當應用程式目前處於作用中，且在前景的螢幕上時。
 
-* **背景**: 當應用程式未在螢幕上，但程式也未關閉時。 當連按兩下「首頁」按鈕時，通常會在背景顯示所有應用程式。
+* **背景**:當應用程式未在螢幕上，但程式也未關閉時。 當連按兩下「首頁」按鈕時，通常會在背景顯示所有應用程式。
 
-* **關閉／關閉**: 當應用程式的程式被終止時。 如果應用程式已關閉，Apple會在應用程式重新啟動之前呼叫它。 這表示您永遠無法真正知道iOS上的通知是何時收到的。
+* **關閉／關閉**:當應用程式的程式被終止時。 如果應用程式已關閉，Apple會在應用程式重新啟動之前呼叫它。 這表示您永遠無法真正知道iOS上的通知是何時收到的。
 
 為了讓曝光追蹤在應用程式背景時仍能運作，我們需要傳送「可用內容」讓應用程式知道必須進行追蹤。
 

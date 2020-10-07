@@ -10,12 +10,10 @@ content-type: reference
 topic-tags: about-custom-resources
 discoiquuid: 4e0468da-3052-4ce5-8174-45aba1f5c4ed
 context-tags: cusResource,overview;eventCusResource,overview
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: b7775e1d95e6a7e08b38fc65b44a061eda7ff079
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '1556'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -81,7 +79,7 @@ Be able to provide a primary customer record which will be sent to Adobe Campaig
 ### 資料類型 {#data-types}
 
 為確保系統的良好架構和效能，請遵循下列最佳實務，在Adobe Campaign中設定資料：
-* 字串欄位的長度應一律以欄定義。 依預設，Adobe Campaign中的最大長度為255個字元，但Adobe建議您在已知大小不會超過較短長度時，將欄位保持在較短的長度。
+* 字串欄位的長度應一律以欄定義。 依預設，Adobe Campaign中的最大長度為255個字元，但Adobe建議您在已知大小不會超過較短長度的情況下，將欄位保持在較短的長度。
 * 如果您確定來源系統的大小被高估且無法達到，則Adobe Campaign中的欄位會比來源系統中的欄位短，這是可接受的。 這可能表示Adobe Campaign中的字串較短或整數較小。
 
 ## 配置資料結構 {#configuring-data-structure}
@@ -142,14 +140,14 @@ When you are performing an initial import with very high volumes of data insert 
 
 * 雖然可以在工作流程中加入任何表格，但Adobe建議直接在資料結構定義中定義資源之間的共同連結。
 * 連結的定義應與表格中的實際資料一致。 錯誤的定義可能會影響透過連結擷取的資料，例如意外重複記錄。
-* 以資源名稱一致命名連結： 連結名稱應有助於瞭解遠程表是什麼。
+* 以資源名稱一致命名連結：連結名稱應有助於瞭解遠程表是什麼。
 * 請勿將連結命名為「id」為尾碼。 例如，將其命名為&quot;transaction&quot;，而非&quot;transactionId&quot;。
 
 <!--For more on defining links with other resources, see [this section](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources).-->
 
 ## 效能 {#performance}
 
-為確保隨時提供更佳的效能，請遵循以下最佳實務。
+為了確保隨時都能提供更佳的效能，請遵循下列最佳實務。
 
 ### 一般性建議 {#general-recommendations}
 
@@ -175,4 +173,4 @@ When you are performing an initial import with very high volumes of data insert 
 * 減少欄數，尤其是識別未使用的欄數。
 * 通過避免複雜的連接（如多個條件和／或多個列上的連接）來優化資料模型關係。
 * 對於連接鍵，請始終使用數字資料，而不是字串。
-* 盡可能減少日誌保留深度。 如果您需要更深入的歷史記錄，您可以匯整計算和／或處理自訂的日誌表，以儲存較大的歷史記錄。
+* 盡可能減少日誌保留深度。 如果您需要更深入的歷史記錄，您可以匯總計算和／或處理自訂的日誌表，以儲存較大的歷史記錄。

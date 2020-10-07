@@ -9,13 +9,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-assets-core-service
 discoiquuid: e6fefe10-afd5-4628-8d9b-69eeb38070eb
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 10%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

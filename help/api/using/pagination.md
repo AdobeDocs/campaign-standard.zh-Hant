@@ -9,10 +9,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 59405df2bbb51d7cd944a0630b2b82db864f3920
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +32,7 @@ source-git-commit: 59405df2bbb51d7cd944a0630b2b82db864f3920
 
 <br/>
 
-***請求範例&#x200B;***
+***請求範例***
 
 顯示1個描述檔資源記錄的範例GET請求。
 
@@ -64,7 +65,7 @@ source-git-commit: 59405df2bbb51d7cd944a0630b2b82db864f3920
 }
 ```
 
-預設情況下， **與具有** 大量資料的表交互時，下一個節點不可用。 若要能夠執行分頁，您必須將 **_forcePagination=true** 參數新增至呼叫URL。
+預設情況下， **與具有大量資料** 的表交互時，下一個節點不可用。 若要能夠執行分頁，您必須將 **_forcePagination=true** 參數新增至呼叫URL。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_forcePagination=true \

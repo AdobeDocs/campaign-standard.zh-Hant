@@ -9,10 +9,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,8 +23,10 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 >[!CAUTION]
 >
 >Campaign Standard 18.7版本已淘汰「地理單位」功能。
-因此，從18.7版開始，新的「促銷活動標準」例項以及沒有建立地理單位的現有例項，都無法實作此功能。
-如需詳細資訊，請參閱「已過時的 <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">功能</a> 」頁面。
+>
+>因此，從18.7版開始，新的「促銷活動標準」例項以及沒有建立地理單位的現有例項，都無法實作此功能。
+>
+>如需詳細資訊，請參閱「已過時的 <a href="https://helpx.adobe.com/tw/campaign/kb/acs-deprecated-and-removed-features.html">功能</a> 」頁面。
 
 geoUnit **** Base端點可讓您與地理單位互動，例如，可讓您更新其屬性或更新描述檔的單位。
 

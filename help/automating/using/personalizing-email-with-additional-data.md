@@ -10,10 +10,8 @@ content-type: reference
 topic-tags: targeting-activities
 discoiquuid: 8d46ce28-0101-4f13-865a-2208ed6d6139
 context-tags: query,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -21,7 +19,7 @@ ht-degree: 0%
 ---
 
 
-# Personalizing an email with additional data {#example--personalizing-an-email-with-additional-data}
+# 使用其他資料個人化電子郵件 {#example--personalizing-an-email-with-additional-data}
 
 下列範例說明如何新增不同類型的其他資料至查詢，以及其作為電子郵件中個人化欄位的用途。如需如何豐富活動所定位資料的詳細 **[!UICONTROL Query]** 資訊，請參閱 [本節](../../automating/using/query.md#enriching-data)。
 

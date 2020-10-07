@@ -9,13 +9,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 discoiquuid: a524c700-bad6-4fcf-857a-c31bfae4d30c
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: dddd147d01f935ec6f1513c5f92bddf6e789abb1
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '725'
+ht-degree: 87%
 
 ---
 
@@ -24,11 +22,11 @@ ht-degree: 0%
 
 ## 在 Campaign 中建立對應的觸發程式 {#creating-a-mapped-trigger-in-campaign}
 
-您應確保在 Adobe Experience Cloud（**[!UICONTROL Triggers]** 核心服務）中預先定義要監控之行為。如需詳細資訊，請參閱 [Adobe Experience Cloud 文件](https://docs.adobe.com/content/help/en/core-services/interface/activation/triggers.html)。請注意，定義觸發程式時需要啟用別名。對於每個行為（瀏覽/放棄表單、新增/刪除產品、工作階段過期等），必須在 Adobe Experience Cloud 中新增一個新的觸發程式。
+您應確保在 Adobe Experience Cloud（**[!UICONTROL Triggers]** 核心服務）中預先定義要監控之行為。如需詳細資訊，請參閱 [Adobe Experience Cloud 文件](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/activation/triggers.html)。請注意，定義觸發程式時需要啟用別名。對於每個行為（瀏覽/放棄表單、新增/刪除產品、工作階段過期等），必須在 Adobe Experience Cloud 中新增一個新的觸發程式。
 
 您現在必須依據現有的 Adobe Experience Cloud 觸發程式，在 Adobe Campaign 中建立觸發程式事件。
 
-您可以觀看此[影片](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two)，有助於您瞭解如何在 Adobe Campaign 中設定觸發程式。
+您可以觀看此[影片](https://helpx.adobe.com/tw/marketing-cloud/how-to/email-marketing.html#step-two)，有助於您瞭解如何在 Adobe Campaign 中設定觸發程式。
 
 設定步驟如下：
 

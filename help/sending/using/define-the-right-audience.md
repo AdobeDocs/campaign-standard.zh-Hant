@@ -10,13 +10,11 @@ content-type: reference
 topic-tags: deliveries-best-practices
 discoiquuid: 0cbc4e92-482f-4dac-a1fb-b738e7127938
 index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: d5d9d50474142306457a8c76a24388c3c574791d
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -58,7 +56,7 @@ ht-degree: 1%
 
 在本節中進一步瞭解 [測試設定檔](../../audiences/using/managing-test-profiles.md)。
 
-您可以使用 [「控制」群組](../../sending/using/control-group.md) ，透過排除其受眾的一部分來評估促銷活動的影響。 然後，您就可以比較收到訊息的目標群體行為與未定位之聯絡人的行為。 您也可以根據傳送記錄，在未來的促銷活動中定位控制群組。
+You can use [Control groups](../../sending/using/control-group.md) to measure the impact of your campaigns by excluding a portion of their audience. 然後，您將能夠將接收到消息的目標人口的行為與未作為目標的連絡人的行為進行比較。根據傳送日誌，您也可以在未來的行銷活動中定位控制群。
 
 ## 消除重複地址 {#deduplicate-addresses}
 

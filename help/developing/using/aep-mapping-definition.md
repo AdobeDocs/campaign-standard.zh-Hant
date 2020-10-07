@@ -9,10 +9,11 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c2ed4b3c85ceef3b604a8f68d924c7e5d9fad900
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -38,8 +39,8 @@ source-git-commit: c2ed4b3c85ceef3b604a8f68d924c7e5d9fad900
 
 1. 填寫必填欄位並選取：
 
-   * 定位 **維度**: 此為要映射的促銷活動標準結構
-   * 資料 **集**: 這是與Adobe Experience Platform中的XDM架構相關聯的資料套件。
+   * 定位 **維度**:此為要映射的促銷活動標準結構
+   * 資料 **集**:這是與Adobe Experience Platform中的XDM架構相關聯的資料套件。
 
 >[!NOTE]
 >
@@ -63,7 +64,7 @@ source-git-commit: c2ed4b3c85ceef3b604a8f68d924c7e5d9fad900
 
 您可以透過API自訂XDM擴充功能，並定義您自己的擴充功能，讓您更能控制對應。
 
-有關XDM [API的詳細資訊](https://docs.adobe.com/content/help/en/experience-platform/xdm/api/getting-started.html) ，請參閱架構註冊表API教學課程。
+有關XDM [API的詳細資訊](https://docs.adobe.com/content/help/zh-Hant/experience-platform/xdm/api/getting-started.html) ，請參閱架構註冊表API教學課程。
 
 要映射枚舉欄位，需要使用表達式編輯器來定義與XDM值對應的每個枚舉值。 例如，postalAdressfield需要定義為：
 

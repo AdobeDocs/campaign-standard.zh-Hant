@@ -1,18 +1,19 @@
 ---
 title: 設定 Campaign-Analytics 整合
 description: 瞭解如何設定Adobe Analytics整合，以開始測量電子郵件傳送的成功。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: bdaa00b0-7445-469c-8268-9d06c53ce2b0
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 整合
-content-type: 參考
-topic-tags: 搭配促銷活動與分析
+audience: integrating
+content-type: reference
+topic-tags: working-with-campaign-and-analytics
 discoiquuid: 92b9004c-cba0-41fd-a035-32bee1d6a42c
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,8 +26,8 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 外部帳戶和技術工作流程只能由平台的功能管理員管理。
 
-1. 從進階功能表，透過Adobe Campaign標誌，選取 **[!UICONTROL Administration > Application settings > External accounts]**。
-1. 選擇外 **[!UICONTROL Share KPIs with Adobe Analytics]** 部帳戶。
+1. From the advanced menu, via the Adobe Campaign logo, select **[!UICONTROL Administration > Application settings > External accounts]**.
+1. Select the **[!UICONTROL Share KPIs with Adobe Analytics]** external account.
 
    ![](assets/analytics_2.png)
 
@@ -36,7 +37,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    ![](assets/analytics_1.png)
 
-1. Click the **[!UICONTROL Refresh report suites]** button.
+1. 按一下 **[!UICONTROL Refresh report suites]** 按鈕。
 1. 從下拉式 **[!UICONTROL Analytics default report suite]** 清單中選取您要使用Adobe Campaign資料豐富的Adobe Analytics報表套裝。
 
    您的外部帳戶現已準備就緒，並可與Adobe Analytics連結。 您可以隨時勾選方塊來停用 **[!UICONTROL Enabled]** 它。
@@ -53,5 +54,5 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 * [外部帳戶](../../administration/using/external-accounts.md)
 * [技術工作流程](../../administration/using/technical-workflows.md)
-* [共用整合式促銷活動報告視訊的KPI](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html)
+* [共用整合式促銷活動報告視訊的KPI](https://helpx.adobe.com/tw/marketing-cloud/how-to/email-marketing.html)
 

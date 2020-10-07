@@ -1,18 +1,19 @@
 ---
 title: 授權
 description: 進一步瞭解您實例上安裝的授權。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: fea2ea2b-e036-4fe4-9db2-7ba25ec8fb3b
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 管理
-content-type: 參考
-topic-tags: 使用者與安全性
+audience: administration
+content-type: reference
+topic-tags: users-and-security
 discoiquuid: b0056f83-610e-4fdc-95cd-bb5ed9f5c483
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

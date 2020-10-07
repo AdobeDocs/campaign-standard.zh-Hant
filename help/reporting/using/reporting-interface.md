@@ -1,18 +1,19 @@
 ---
 title: 報告介面
 description: 進一步瞭解動態報表介面，以及如何在不同的標籤和功能表中導覽。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: da6bcf7a-1d57-4d00-a3ba-d84214592417
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 報告
-content-type: 參考
+audience: reporting
+content-type: reference
 topic-tags: about-reporting
 discoiquuid: 14d86b4f-2782-48ec-8968-393a6de4f853
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -119,7 +120,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    1. 按一下欄位並在下拉式清單中選取收件者，或輸入其電子郵件地址，以選擇您電子郵件的收件者。
    1. 檢查 **[!UICONTROL Show scheduling options]** 您是否想要傳送週期性電子郵件。 您也可以在標籤中選取， **[!UICONTROL Send Report on schedule]** 以完成此 **[!UICONTROL Share]** 作業。
-   1. Click **[!UICONTROL Send now]**. 接著，您的收件者將會收到電子郵件，並附上您的報表。
+   1. 按一下 **[!UICONTROL Send now]**。接著，您的收件者將會收到電子郵件，並附上您的報表。
 
 * **[!UICONTROL Send report on schedule]**:排程您的報表，並定期傳送電子郵件給收件者。
 

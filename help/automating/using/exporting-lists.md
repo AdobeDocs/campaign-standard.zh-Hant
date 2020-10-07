@@ -9,28 +9,29 @@ audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
 discoiquuid: 12c874da-435f-44b6-a3c8-873301e177cc
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e35fdca6cb8cad79975f8150aa63bd65e50a4e1a
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # 匯出清單{#exporting-lists}
 
-Adobe Campaign可讓您直接將清單匯出至檔案中，以供日後使用。 導出檔案中的清單會生成菜單中的日誌 **[!UICONTROL Export audits]**條目。 有關導出審計的詳細資訊，請參閱「審[計導出](../../administration/using/auditing-export-logs.md)」部分。
+Adobe Campaign可讓您直接將清單匯出至檔案中，以供日後使用。 導出檔案中的清單會生成菜單中的日誌 **[!UICONTROL Export audits]** 條目。 有關匯出稽核的詳細資訊，請參閱[稽核匯出](../../administration/using/auditing-export-logs.md)區段。
 
-導出清單選項允許預設情況下導出最多100,000行，並且由 **Nms_ExportListLimit選項定義** 。 此選項可由功能管理員管理，位於 **[!UICONTROL Administration]**>**[!UICONTROL Application settings]** >功 **[!UICONTROL Options]**能表。
+The export list option allows you to export a maximum of 100,000 lines by default and defined by the **Nms_ExportListLimit** option. This option can be managed by the functional administrator, under the **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** menu.
 
-對於具有角色的用戶，所有具有「清單 **」模式** 視圖的螢幕都提供導出列 **[!UICONTROL EXPORT (export)]**表。
+對於具有角色的用戶，所有具有「清單 **」模式** 視圖的螢幕都提供導出列 **[!UICONTROL EXPORT (export)]** 表。
 
-1. 前往您選擇的 **清單** 。 例如，測試描述檔概述畫面( **[!UICONTROL Profiles & audiences]**>**[!UICONTROL Test profiles]** )。
+1. 前往您選擇的 **清單** 。 例如，測試描述檔概述畫面( **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]** )。
 1. 檢查螢幕是否處於列 **表模** 式。
 
    ![](assets/export_list_mode_switch.png)
 
-1. 使用右上角的按鈕，依您要匯出的順序來組織清 **[!UICONTROL Configure list]**單中的欄。 除了配置的列外，還將導出資源的主鍵。
+1. 使用右上角的按鈕，依您要匯出的順序來組織清 **[!UICONTROL Configure list]** 單中的欄。 除了配置的列外，還將導出資源的主鍵。
 1. 如果您喜歡，可以套用篩選。 若要這麼做，請按一下左上角的按鈕以顯示搜尋窗格。
 
    如果您從包含不同資源的清單進行匯出，則必須套用篩選，如此清單中才會顯示一種資源類型。

@@ -9,10 +9,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e60ec7790da46d234b66baf4c3db23815056b9fb
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +29,7 @@ source-git-commit: e60ec7790da46d234b66baf4c3db23815056b9fb
 
 <br/>
 
-***請求範例&#x200B;***
+***請求範例***
 
 使用GET請求擷取描述檔的行銷記錄。
 

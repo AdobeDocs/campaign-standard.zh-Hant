@@ -9,10 +9,11 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 1dff41bc7b64d2f7ed7c88e002675e50e68a825f
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +32,7 @@ Adobe Experience Platform Data Connector是專為瞭解Adobe Campaign Standard�
 
 以下各節將說明在Campaign Standard和Adobe Experience Platform之間執行資料對應的關鍵步驟。 這從建立XDM架構和資料集開始。
 
-本頁也提供操作 [影片](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html)。
+本頁也提供操作 [影片](https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.translate.html)。
 
 >[!NOTE]
 >一旦設定Adobe Experience Platform Data Connector並成功將資料匯入Adobe Experience Platform後，您就必須啟用資料集，讓資料能包含在即時客戶個人檔案中。
@@ -70,7 +71,7 @@ Adobe Experience Platform Data Connector是專為瞭解Adobe Campaign Standard�
 
 * 不支援立即可用的訂閱事件傳輸。 若要傳輸訂閱事件，您可以在Adobe Experience Platform上建立對應的XDM和資料集，然後為這些資料設定自訂資料對應。
 
-* 關於隱私權要求（存取和刪除動作），客戶需要透過隱私權核心服務提出個 [別要求](https://docs.adobe.com/content/help/en/experience-platform/privacy/home.html#how-to-use-privacy-service-to-manage-privacy-job-requests): 一個用於Campaign，另一個用於Adobe Experience Platform。 如需詳細資訊，請參 [閱關於促銷活動](https://helpx.adobe.com/campaign/kb/acs-privacy.html#righttoaccess)[中的隱私權要求](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ManagingPrivacyRequests) 。
+* 關於隱私權要求（存取和刪除動作），客戶需要透過隱私權核心服務提出個 [別要求](https://docs.adobe.com/content/help/en/experience-platform/privacy/home.html#how-to-use-privacy-service-to-manage-privacy-job-requests):一個用於Campaign，另一個用於Adobe Experience Platform。 如需詳細資訊，請參 [閱關於促銷活動](https://helpx.adobe.com/campaign/kb/acs-privacy.html#righttoaccess)[中的隱私權要求](https://helpx.adobe.com/tw/campaign/kb/acs-privacy.html#ManagingPrivacyRequests) 。
 
 * 對於每個XDM欄位，DULE標籤必須在Adobe Experience Platform中完成。 這是客戶應對應用DULE標籤的責任。
 

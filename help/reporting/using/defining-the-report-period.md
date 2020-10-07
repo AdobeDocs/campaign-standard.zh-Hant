@@ -1,6 +1,6 @@
 ---
 title: 定義報告期間
-description: 報表的時段可讓您根據選擇的日期來篩選資料。
+description: 報表的時段可讓您根據所選日期來篩選資料。
 page-status-flag: never-activated
 uuid: 8dfd1ae6-a5a0-4900-bd6f-7815749d0b60
 contentOwner: sauviat
@@ -9,10 +9,11 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 discoiquuid: 8ff74630-860c-4f1c-9aa7-21c3326e47da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 44049443f8028ed26089ee0d49944ebac6a62111
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

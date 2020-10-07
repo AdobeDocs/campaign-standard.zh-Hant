@@ -1,5 +1,5 @@
 ---
-title: 映射促銷活動自訂資源和Dynamics 365自訂實體
+title: 對應 Campaign 自訂資源和 Dynamics 365 自訂實體
 description: 瞭解如何在Adobe Campaign Standard和Microsoft Dynamics 365整合的背景下，對應資源和實體。
 page-status-flag: never-activated
 uuid: ed6c1b76-87f7-4d23-b5e2-0765297a905c
@@ -9,12 +9,10 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
 discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e11de4d4482400e62be2db076c88da5ae30d60cc
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -26,7 +24,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->這項功能無法立即在產品中使用。 實作需要Adobe Consulting參與。 請洽詢您的Adobe代表以瞭解更多資訊。
+>這項功能無法立即在產品中使用。此實作需要 Adobe Consulting 參與。請洽詢您的 Adobe 代表以瞭解更多資訊。
 
 ## 必要條件
 

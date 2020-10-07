@@ -1,5 +1,5 @@
 ---
-title: 關於工作流執行
+title: 關於工作流程執行
 description: 進一步瞭解工作流程執行。
 page-status-flag: never-activated
 uuid: ff02b74e-53e8-49c6-bf8e-0c729eaa7d25
@@ -10,18 +10,16 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 906c85ea-83b7-4268-86da-cd353f1dc591
 context-tags: workflow,overview;workflow,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 3ed78fd610b0d134cd1e60f34c93161cb1e5c50f
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 
-# 關於工作流執行 {#about-workflow-execution}
+# 關於工作流程執行 {#about-workflow-execution}
 
 工作流程一律以手動方式啟動。 但是，啟動後，它可以保持非活動狀態，具體取決於在 [Scheduler活動中指定的資訊](../../automating/using/scheduler.md) 。
 
@@ -29,7 +27,7 @@ ht-degree: 0%
 >
 > Adobe建議客戶排定工作流程執行的優先順序，並執行最多20個並行工作流程執行，以一致地在執行個體中達到最佳效能。 可計畫並行執行超過20個工作流，預設情況下將按順序執行。 您可以將票證提交給客戶服務，以調整併發工作流執行的最大數量的預設設定。
 
-執行相關動作（開始、停止、暫停等） 是非 **同步進程** : 命令將保存，並在伺服器可用來應用該命令後生效。
+執行相關動作（開始、停止、暫停等） 是非 **同步進程** :命令將保存，並在伺服器可用來應用該命令後生效。
 
 在工作流程中，每個活動的結果通常會透過轉場（以箭頭表示）傳送至下列活動。
 
@@ -39,19 +37,19 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->仍可執行包含未終止轉場的工作流程： 將會產生警告訊息，工作流程在轉場時會暫停，但不會產生錯誤。 您也可以開始工作流程，而不需完成設計，而且可以隨時完成設計。
+>仍可執行包含未終止轉場的工作流程：將會產生警告訊息，工作流程在轉場時會暫停，但不會產生錯誤。 您也可以開始工作流程，而不需完成設計，而且可以隨時完成設計。
 
 執行活動後，轉場中傳送的記錄數就會顯示在其上方。
 
 ![](assets/wkf_transition_count.png)
 
-您可以開啟轉場來檢查在執行工作流程期間或之後傳送的資料是否正確。 您可以檢視資料和資料結構。
+您可以開啟轉變來檢查在執行工作流程期間或之後傳送的資料是否正確。您可以檢視資料和資料結構。
 
 依預設，只能存取工作流程上次轉換的詳細資訊。 要能夠訪問前述活動的結果，您需要在啟動工作流之前，先 **[!UICONTROL Keep interim results]** 檢查工作流 **[!UICONTROL Execution]** 屬性部分中的選項。
 
 >[!NOTE]
 >
->此選項會耗用大量記憶體，並可協助建立工作流程，並確保其正確設定和運作。 在生產例項中保留未選中狀態。
+>此選項會耗用大量記憶體，並可協助建立工作流程，並確保其正確設定和運作。 在生產執行個體中保留未核取的狀態。
 
 當轉場開啟時，您可以編輯轉場， **[!UICONTROL Label]** 或將轉場連 **[!UICONTROL Segment code]** 結至它。 若要這麼做，請編輯對應的欄位並確認您的修改。
 

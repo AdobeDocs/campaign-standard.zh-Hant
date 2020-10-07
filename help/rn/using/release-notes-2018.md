@@ -9,13 +9,11 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '5400'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -30,7 +28,7 @@ ht-degree: 4%
 
 ## 發行版本 18.9 – 2018 年 9 月 {#release-18-9---september-2018}
 
-**新增了哪些功能？**
+**新增功能？**
 
 <table> 
  <thead> 
@@ -95,7 +93,7 @@ ht-degree: 4%
 
 ## 發行版本 18.7 – 2018 年7 月 {#release-18-7---july-2018}
 
-**新增了哪些功能？**
+**新增功能？**
 
 <table> 
  <thead> 
@@ -196,7 +194,7 @@ ht-degree: 4%
 
 ## 版本 18.5 – 2018 年 5 月{#release-18-5---may-2018}
 
-**新增了哪些功能？**
+**新增功能？**
 
 <table> 
  <thead> 

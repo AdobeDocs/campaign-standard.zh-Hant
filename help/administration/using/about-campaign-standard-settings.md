@@ -9,11 +9,12 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 discoiquuid: d5c6a3d4-f767-46c1-a8c0-3b9dc52dcea8
-internal: n
-snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '132'
+ht-degree: 9%
 
 ---
 
@@ -26,9 +27,9 @@ source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
 * 設定目標對應，以管理傳送傳送所需的技術設定，
 * 在應用程式中設定內部通知等。
 
-這些設定可從／功 **[!UICONTROL Administration]**能表**[!UICONTROL Application settings]** 取用。
+這些設定可從／功 **[!UICONTROL Administration]** 能表 **[!UICONTROL Application settings]** 取用。
 
-此外，功能表中也提供技術選 **[!UICONTROL Options]**項，讓您更具體地設定應用程式。 其中有些是內建的促銷活動，有些則可視需要手動新增（可用選項會依您實例安裝的套件而有所不同）。
+此外，功能表中也提供技術選 **[!UICONTROL Options]** 項，讓您更具體地設定應用程式。 其中有些是內建的促銷活動，有些則可視需要手動新增（可用選項會依您實例安裝的套件而有所不同）。
 
 >[!IMPORTANT]
 >

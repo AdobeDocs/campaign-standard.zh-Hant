@@ -9,12 +9,10 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -29,21 +27,22 @@ ht-degree: 0%
 1. 從中建立新的工作流模板 **[!UICONTROL Resources > Templates > Workflow templates]**。
 1. 新增下列活動：
 
-   * **[!UICONTROL Load file]**: 定義包含要導入資料的檔案的預期結構。
+   * **[!UICONTROL Load file]**:定義包含要導入資料的檔案的預期結構。
 
       >[!NOTE]
       >
       >您只能從單一檔案匯入資料。 如果工作流程有多 **[!UICONTROL Load file]** 個活動，則每次都會使用相同的檔案。
 
-   * **[!UICONTROL Reconciliation]**: 協調導入的資料與資料庫資料。
-   * **[!UICONTROL Segmentation]**: 根據記錄是否可以調節，建立篩選器以不同方式處理記錄。
-   * **[!UICONTROL Deduplication]**: 在將傳入檔案插入資料庫之前，先從該檔案中消除重複資料。
-   * **[!UICONTROL Update data]**: 使用導入的配置檔案更新資料庫。
+   * **[!UICONTROL Reconciliation]**:協調導入的資料與資料庫資料。
+   * **[!UICONTROL Segmentation]**:根據記錄是否可以調節，建立篩選器以不同方式處理記錄。
+   * **[!UICONTROL Deduplication]**:在將傳入檔案插入資料庫之前，先從該檔案中消除重複資料。
+   * **[!UICONTROL Update data]**:使用導入的配置檔案更新資料庫。
+
    ![](assets/import_template_example0.png)
 
 1. 設定活 **[!UICONTROL Load file]** 動：
 
-   * 上傳範例檔案以定義預期的結構。 範例檔案應僅包含幾行，但是導入時需要的所有列。 檢查並編輯檔案格式，以確保每列的類型設定正確： 文字、日期、整數等。 例如：
+   * 上傳範例檔案以定義預期的結構。 範例檔案應僅包含幾行，但是導入時需要的所有列。 檢查並編輯檔案格式，以確保每列的類型設定正確：文字、日期、整數等。 例如：
 
       ```
       lastname;firstname;birthdate;email;crmID
@@ -60,8 +59,9 @@ ht-degree: 0%
 
 1. 設定活 **[!UICONTROL Reconciliation]** 動。 此活動的目的是識別傳入的資料。
 
-   * 在標籤 **[!UICONTROL Relations]** 中，選 **[!UICONTROL Create element]** 取並定義匯入資料與收件者定位維度之間的連結(請參閱 [定位維度和資源](../../automating/using/query.md#targeting-dimensions-and-resources))。 在此範例中， **CRM ID** custom欄位可用來建立連結條件。 只要您需要欄位或欄位組合，就能識別唯一記錄。
+   * 在標籤 **[!UICONTROL Relations]** 中，選 **[!UICONTROL Create element]** 取並定義匯入資料與收件者定位維度之間的連結(請參閱 [定位維度和資源](../../automating/using/query.md#targeting-dimensions-and-resources))。 在此範例中， **CRM ID** custom欄位用來建立連結條件。 只要您需要欄位或欄位組合，就能識別唯一記錄。
    * 在頁籤 **[!UICONTROL Identification]** 中，將選項保留為未 **[!UICONTROL Identify the document from the working data]** 選中狀態。
+
    ![](assets/import_template_example2.png)
 
 1. 設定活 **[!UICONTROL Segmentation]** 動，以擷取一個轉場中已協調的收件者，以及在第二個轉場中無法協調但擁有足夠資料的收件者。
@@ -71,12 +71,12 @@ ht-degree: 0%
    無法協調且沒有足夠資料的收件者會在補充的對外轉場中選取，並可匯出成個別檔案或略過。
 
    * 在活 **[!UICONTROL General]** 動的標籤中，將設為 **[!UICONTROL Resource type]** 並 **[!UICONTROL Temporary resource]** 選擇作 **[!UICONTROL Reconciliation]** 為目標集。
-   * 在選 **[!UICONTROL Advanced options]** 項卡中，選 **[!UICONTROL Generate complement]** 中該選項可查看是否無法在資料庫中插入任何記錄。 如果需要，您可以對補充資料套用進一步的處理： 檔案匯出、清單更新等。
+   * 在選 **[!UICONTROL Advanced options]** 項卡中，選 **[!UICONTROL Generate complement]** 中該選項可查看是否無法在資料庫中插入任何記錄。 如果需要，您可以對補充資料套用進一步的處理：檔案匯出、清單更新等。
    * 在標籤的第一個區 **[!UICONTROL Segments]** 段中，在傳入人口中新增篩選條件，以僅選擇描述檔的CRM ID不等於0的記錄。 這樣，在該子集中選擇與資料庫配置檔案協調的檔案資料。
 
       ![](assets/import_template_example3.png)
 
-   * 添加第二個段，該段選擇具有足夠資料要插入到資料庫中的未協調記錄。 例如： 電子郵件地址、名字和姓氏。 未協調的記錄的配置檔案的CRM ID值等於0。
+   * 添加第二個段，該段選擇具有足夠資料要插入到資料庫中的未協調記錄。 例如：電子郵件地址、名字和姓氏。 未協調的記錄的配置檔案的CRM ID值等於0。
 
       ![](assets/import_template_example3_2.png)
 
@@ -105,6 +105,7 @@ ht-degree: 0%
 
    * 在此範例中，電子郵件欄位可用來尋找獨特的描述檔。 您可以使用任何您確定已填入的欄位，以及唯一組合的一部分。
    * 選擇 **[!UICONTROL Deduplication method]**。 在這種情況下，應用程式會自動決定在出現重複記錄時保存哪些記錄。
+
    ![](assets/import_template_example7.png)
 
 1. 設定先前 **[!UICONTROL Update data]** 設定之活動之 **[!UICONTROL Deduplication]** 後的活動。

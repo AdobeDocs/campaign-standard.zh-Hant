@@ -1,5 +1,5 @@
 ---
-title: 使用區段產生器
+title: 使用區段建置器
 description: 瞭解如何使用「區段產生器」來建立觀眾。
 page-status-flag: never-activated
 uuid: b3996642-96ec-489e-b146-c8c2cb52aa32
@@ -10,18 +10,16 @@ content-type: reference
 topic-tags: managing-audiences
 discoiquuid: 750ecd8d-67a5-4180-bfec-2a8e3098c812
 context-tags: audience,wizard;audience,overview;delivery,audience,back
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: be7ab90583e9c6472fd2c86082e832432d0a32b9
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '878'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Using the Segment Builder {#using-the-segment-builder}
+# 使用區段建置器 {#using-the-segment-builder}
 
 >[!IMPORTANT]
 >
@@ -63,7 +61,7 @@ ht-degree: 2%
 
    ![](assets/aep_audiences_configure_rules.png)
 
-1. 按一下&#x200B;**[!UICONTROL Create segment]**&#x200B;按鈕。
+1. 按一下 **[!UICONTROL Create segment]** 按鈕。
 
 ## 尋找區段的正確欄位
 
@@ -73,11 +71,11 @@ ht-degree: 2%
 
 欄位會組織成標籤：
 
-* **[!UICONTROL Attributes]**: 現有的描述檔屬性，可能源自您的Adobe Campaign資料庫和／或Adobe Experience Platform。 它們指附加至描述檔的靜態資訊（例如電子郵件地址、居住國家、忠誠度方案狀態等）。
+* **[!UICONTROL Attributes]**:現有的描述檔屬性，可能源自您的Adobe Campaign資料庫和／或Adobe Experience Platform。 它們指附加至描述檔的靜態資訊（例如電子郵件地址、居住國家、忠誠度方案狀態等）。
 
    ![](assets/aep_audiences_attributestab.png)
 
-* **[!UICONTROL Events]**: 識別與您公司客戶觸點有互動的消費者的活動，例如「兩週內訂購兩次的任何人」。 這可從Adobe Analytics串流，或使用協力廠商的ETL工具直接吸收到Adobe Experience Platform。
+* **[!UICONTROL Events]**:識別與您公司客戶觸點有互動的消費者的活動，例如「兩週內訂購兩次的任何人」。 這可從Adobe Analytics串流，或使用協力廠商的ETL工具直接吸收到Adobe Experience Platform。
 
    ![](assets/aep_audiences_eventstab.png)
 
@@ -85,7 +83,7 @@ ht-degree: 2%
 >
 >**多實體分段** ，可讓您根據產品、商店或其他非描述檔類別，以其他資料擴充描述檔資料。 連線後，其他類別的資料就會變成描述檔架構的原生資料。
 >
->For more on this, refer to the [dedicated documentation](https://docs.adobe.com/content/help/en/experience-platform/segmentation/multi-entity-segmentation.html).
+>如需詳細資訊，請參閱[專屬文件](https://docs.adobe.com/content/help/en/experience-platform/segmentation/multi-entity-segmentation.html)。
 
 依預設，「區段產生器」會顯示資料已存在的欄位。 要顯示完整方案，包括沒有資料的欄位，請啟用設 **[!UICONTROL Show full XDM schema]** 置中的選項。
 
@@ -129,7 +127,7 @@ ht-degree: 2%
 
 「區段產生器」可讓您比較兩個欄位以定義規則。 例如，其家鄉地址與工作地址的郵遞區號不同的女性。
 
-若要這麼做，請依照下列步驟進行：
+要執行此操作，請依照下列步驟執行：
 
 1. 將您要比較的第一個欄位（例如，首頁位址郵遞區號）拖曳至中心工作區。
 

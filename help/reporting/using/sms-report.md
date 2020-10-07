@@ -1,18 +1,19 @@
 ---
 title: SMS 報告
 description: '透過SMS現成可用的報表，瞭解您的SMS傳送成功。 '
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: af672a56-f304-4ea9-99b1-e9886a6e1823
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 報告
-content-type: 參考
-topic-tags: 清單
+audience: reporting
+content-type: reference
+topic-tags: list-of-reports
 discoiquuid: a9afbb76-d2b3-44c7-b97a-1694501aa913
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

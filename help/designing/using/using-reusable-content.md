@@ -9,10 +9,8 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 40199be7858dba4660a941fc6b960f20fac9f9e5
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1804'
 ht-degree: 0%
@@ -200,7 +198,7 @@ HTML內容範本可從「進階」功能表 **[!UICONTROL Resources]** 的> **[!
 >
 >如果修改片段，變更會自動傳播至使用片段的電子郵件中。 如需詳細資訊，請參閱關於 [片段](#about-fragments)。
 
-### 建立內容片段 {#creating-a-content-fragment}
+### Creating a content fragment {#creating-a-content-fragment}
 
 您可以建立自己的內容片段，以視需要在一或多封電子郵件中使用這些片段。
 

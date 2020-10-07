@@ -9,13 +9,11 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 4ba4f766-fdee-4ff0-8fe4-0612ed2b69a4
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '586'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -55,7 +53,7 @@ ht-degree: 4%
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, a lacinia risus. Nunc pharetra frizilla enim eu suscipit. Mauris consectetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
-**詳細內容**
+**顯示全文**
 
 * xxxx
 * xxxx
@@ -66,7 +64,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mau
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, a lacinia risus. Nunc pharetra frizilla enim eu suscipit. Mauris consectetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
-**詳細內容**
+**顯示全文**
 
 * xxxx
 * xxxx
@@ -80,7 +78,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mau
 個人化訊息是傳送相關內容、提供個人化體驗並提高開放率和轉化率的關鍵。 Adobe Campaign傳遞的跨通道訊息可透過多種不同方式個人化。 這些方式可根據描述檔與條件結合。 您可以：
 
 * 在訊息 [中插入動態個人化欄位](../../designing/using/personalization.md#inserting-a-personalization-field) ,
-* 插入預 [先定義的個人化區塊](../../designing/using/personalization.md#adding-a-content-block)
+* Insert [predefined personalization blocks](../../designing/using/personalization.md#adding-a-content-block)
 * [個人化電子郵件](../../designing/using/subject-line.md) 或簡訊的傳送者。
 * [個人化電子郵件的主旨](../../designing/using/subject-line.md) ，或使用 [Predictive主旨行功能來最佳化電子郵件](../../designing/using/subject-line.md#subject-line) ,
 * 在電 [子郵件或登陸頁面](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) 中 [建立條件式內容](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
@@ -88,7 +86,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mau
 
 ![](assets/delivery_content_43.png)
 
-**詳細內容**
+**顯示全文**
 
 * 透過端對端範例 [探索電子郵件個人化](../../designing/using/personalization.md#example-email-personalization)
 * [個人化URL](../../designing/using/personalization.md#personalizing-urls)
@@ -109,7 +107,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mau
 有了Adobe Campaign，您可以個別監控和追蹤每個傳送。 訊息控制面板會顯示專用記錄檔，供後續程式、規則及識別可能的錯誤和警告。
 
 
-**詳細內容**
+**顯示全文**
 
 * [存取報表](../../reporting/using/about-dynamic-reports.md)
 * [監控傳送](../../sending/using/monitoring-a-delivery.md)
@@ -121,7 +119,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mau
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, a lacinia risus. Nunc pharetra frizilla enim eu suscipit. Mauris consectetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
-**詳細內容**
+**顯示全文**
 
 * xxxx
 * xxxx

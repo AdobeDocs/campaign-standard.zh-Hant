@@ -7,10 +7,11 @@ products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -34,7 +35,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                </tr>
                <tr>
                   <td>aamMappingId</td>
-                  <td>Audience manager對應ID</td>
+                  <td>Audience Manager對應ID</td>
                   <td>字串(100)</td>
                   <td> </td>
                </tr>
@@ -69,7 +70,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                   <td> </td>
                </tr>
                <tr>
-                  <td>計數</td>
+                  <td>count</td>
                   <td>計數</td>
                   <td>整數 </td>
                   <td> </td>
@@ -136,7 +137,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                </tr>
                <tr>
                   <td>isAMC</td>
-                  <td>Adobe Marketing cloud受眾</td>
+                  <td>Adobe Marketing Cloud受眾</td>
                   <td>布林值 </td>
                   <td> </td>
                </tr>
@@ -208,7 +209,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                </tr>
                <tr>
                   <td>標題</td>
-                  <td>觀眾</td>
+                  <td>閱聽眾</td>
                   <td>字串(255)</td>
                   <td> </td>
                </tr>

@@ -9,13 +9,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
 discoiquuid: a416fae1-3812-4404-844e-ed6d6df0dcf5
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -30,6 +28,6 @@ Adobe Target可使用數種資料：
 
 * Adobe Campaign資料庫的資料
 * 連結至Adobe Target中訪客ID的區段（如果使用的資料不受法律限制）
-* Adobe Target資料： 用戶代理， IP地址，地理本地化資料
+* Adobe Target資料：用戶代理， IP地址，地理本地化資料
 
-如需Adobe Campaign與Adobe Target整合的詳細資訊，您也可以參閱 [Adobe Target入口網站](https://docs.adobe.com/content/help/en/target/using/integrate/campaign-and-target.html)。
+如需Adobe Campaign與Adobe Target整合的詳細資訊，您也可以參閱 [Adobe Target入口網站](https://docs.adobe.com/content/help/zh-Hant/target/using/integrate/campaign-and-target.html)。

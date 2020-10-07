@@ -1,18 +1,19 @@
 ---
 title: 關於通道設定
 description: 「每個通道都需要配置：技術配置、消息屬性和模板。」
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: 867b1c4b-4c79-4c52-9d0a-ef71993e50a2
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 管理
-content-type: 參考
-topic-tags: 配置通道
+audience: administration
+content-type: reference
+topic-tags: configuring-channels
 discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -30,4 +31,4 @@ Adobe Campaign中的所有通訊管道都必須正確設定，才能有效傳送
 
 功能 **[!UICONTROL Channel]** 表會重新分組連結至不同應用程式通道（電子郵件、簡訊）的技術參數，以及分類和隔離管理。
 
-管理員可以在「 &gt;」功能表中存 **[!UICONTROL Administration]** 取這些 **[!UICONTROL Channels]** 組態。
+Administrators can access these configurations in the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** menu.

@@ -9,13 +9,11 @@ audience: reporting
 content-type: reference
 topic-tags: troubleshooting
 discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: a894e72bb02fbecb86d43c6d2a13adf7ab10f73e
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -39,19 +37,19 @@ P1會在第一天開啟兩次電子郵件，然後在第二天開啟三次。
 <table> 
  <thead> 
   <tr> 
-   <th align="center"> <strong>日</strong> <br /> </th> 
+   <th align="center"> <strong>Day</strong> <br /> </th> 
    <th align="center"> <strong>開啟的郵件</strong> <br /> </th> 
    <th align="center"> <strong>唯一開啟</strong> <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td align="center"> 第1天<br /> </td> 
+   <td align="center"> Day 1<br /> </td> 
    <td align="center"> 2 + 1 = 3<br /> </td> 
    <td align="center"> 1 + 1 = 2<br /> </td> 
   </tr> 
   <tr> 
-   <td align="center"> 第2天<br /> </td> 
+   <td align="center"> Day 2<br /> </td> 
    <td align="center"> 3 + 0 = 3<br /> </td> 
    <td align="center"> 1 + 0 = 1<br /> </td> 
   </tr>
@@ -67,19 +65,19 @@ P1會在第一天開啟兩次電子郵件，然後在第二天開啟三次。
 <table> 
  <thead> 
   <tr> 
-   <th align="center"> <strong>日</strong> <br /> </th> 
+   <th align="center"> <strong>Day</strong> <br /> </th> 
    <th align="center"> <strong>開啟的郵件</strong> <br /> </th> 
    <th align="center"> <strong>唯一開啟</strong> <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td align="center"> 第1天<br /> </td> 
+   <td align="center"> Day 1<br /> </td> 
    <td align="center"> 6<br /> </td> 
    <td align="center"> 2<br /> </td>
   </tr> 
   <tr> 
-   <td align="center"> 第2天<br /> </td> 
+   <td align="center"> Day 2<br /> </td> 
    <td align="center"> 3<br /> </td> 
    <td align="center"> 2<br /> </td> 
   </tr> 
@@ -94,7 +92,7 @@ P1會在第一天開啟兩次電子郵件，然後在第二天開啟三次。
 
 這可能是因為，即使我們無法追蹤動作，動態報表中也會使用啟發式來追蹤開 **[!UICONTROL Open]** 啟。
 
-例如，如果使用者在其用戶端上停用影像，然後按一下電子郵件中的連結，則資料庫 **[!UICONTROL Open]** 可能不會追蹤該影像，但會 **[!UICONTROL Click]** 追蹤。
+例如，如果使用者在其用戶端上停用影像，然後按一下電子郵件中的連結，則資料庫 **[!UICONTROL Open]** 可能不會追蹤影像，但會 **[!UICONTROL Click]** 追蹤。
 
 因此，追 **[!UICONTROL Open]** 蹤記錄計數在資料庫中可能沒有相同的計數。
 
@@ -163,7 +161,7 @@ P1會在第一天開啟兩次電子郵件，然後在第二天開啟三次。
 
 ![](assets/troubleshooting_1.png)
 
-如果您將自訂 **[!UICONTROL Conditional formatting]** 變更為，當值達到上限時，儲存格會變得更綠色。 然而，如果達到下限，就會變紅。
+如果您變更為 **[!UICONTROL Conditional formatting]** 自訂，當值達到上限時，儲存格會變得更綠。 然而，如果達到下限，就會變紅。
 
 例如，在這裡，我們將 **[!UICONTROL Upper limit]** 設為500 **[!UICONTROL Lower limit]** 和0。
 

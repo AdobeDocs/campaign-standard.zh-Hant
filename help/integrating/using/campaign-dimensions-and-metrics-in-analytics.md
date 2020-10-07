@@ -1,23 +1,24 @@
 ---
-title: Analytics 中 Campaign 維度和度量
+title: Analytics 中的 Campaign 維度和度量
 description: 瞭解您可在Adobe Analytics中找到的不同維度，以開始追蹤您從Adobe Campaign傳送的電子郵件。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: effa1028-66b2-4bef-b5e4-7319dbb23d5d
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 整合
-content-type: 參考
-topic-tags: 搭配促銷活動與分析
+audience: integrating
+content-type: reference
+topic-tags: working-with-campaign-and-analytics
 discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Analytics 中 Campaign 維度和度量{#campaign-dimensions-and-metrics-in-analytics}
+# Analytics 中的 Campaign 維度和度量{#campaign-dimensions-and-metrics-in-analytics}
 
 Adobe Campaign與Adobe Analytics整合可讓您直接在Adobe Analytics中追蹤電子郵件傳送的成功。
 

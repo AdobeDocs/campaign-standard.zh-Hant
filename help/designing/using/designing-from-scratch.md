@@ -1,5 +1,5 @@
 ---
-title: '從頭設計電子郵件 '
+title: '從草稿開始設計電子郵件 '
 description: 瞭解如何在電子郵件設計工具中從頭開始設計電子郵件內容。
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
@@ -9,10 +9,8 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 40199be7858dba4660a941fc6b960f20fac9f9e5
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1241'
 ht-degree: 2%
@@ -20,7 +18,7 @@ ht-degree: 2%
 ---
 
 
-# 從頭設計電子郵件 {#designing-an-email-content-from-scratch}
+# 從草稿開始設計電子郵件 {#designing-an-email-content-from-scratch}
 
 瞭解如何掌握電子郵件內容版本。 使用電子郵件設計工具，您可以建立電子郵件和範本，不論是否使用您自己預先定義的內容。
 
@@ -32,7 +30,7 @@ ht-degree: 2%
 1. 新增影像並編輯電子郵件的文字。 請參 [閱插入影像](../../designing/using/images.md#inserting-images)。
 1. 新增個人化欄位、連結等，以個人化您的電子郵件。 請參 [閱插入個人化欄位](../../designing/using/personalization.md#inserting-a-personalization-field)、 [插入連結](../../designing/using/links.md#inserting-a-link)[和定義電子郵件中的動態內容](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)。
 1. 定義您電子郵件的主旨行。 See [Personalizing the subject line of an email](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
-1. 預覽您的電子郵件。
+1. 預覽您的電子郵件.
 1. 儲存您的內容，並在確定您已定義對象並正確排程傳送後繼續處理訊息。
 
 您也可以檢視此簡 [介影片](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=chi_hant)。

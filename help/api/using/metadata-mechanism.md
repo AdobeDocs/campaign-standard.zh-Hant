@@ -9,10 +9,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,11 +28,11 @@ source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
 
 * 「內 **容** 」節點返回資源的欄位。 對於內容節點中的 **每個欄位** ，我們可以找到以下欄位：
 
-   * "apiName":API中使用的屬性名稱。
+   * &quot;apiName&quot;:API中使用的屬性名稱。
    * 「類型」:這是高階類型定義（字串、數字、連結、集合、列舉……）。
-   * "dataPolicy":欄位的值必須遵循給定的策略規則。 例如，若dataPolicy規則設為「email」，則值必須是有效的電子郵件。 在PATCH或POST期間，dataPolicy可以檢查值或修改要轉換的值（例如，smartCase）。
+   * &quot;dataPolicy&quot;:欄位的值必須遵循給定的策略規則。 例如，若dataPolicy規則設為「email」，則值必須是有效的電子郵件。 在PATCH或POST期間，dataPolicy可以檢查值或修改要轉換的值（例如，smartCase）。
    * 「類別」:給出查詢編輯器中欄位的類別。
-   * "resType":這是技術類型。
+   * &quot;resType&quot;:這是技術類型。
 
       如果「type」已填入值「link」或「collection」,resTarget值即為連結所定位之資源的名稱。
 如果「type」已完成，且值為「enumeration」，則會新增「values」欄位，而每個enumeration值都會在值節點中詳 **細說** 明。

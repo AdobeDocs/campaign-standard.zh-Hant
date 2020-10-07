@@ -1,6 +1,6 @@
 ---
 title: 使用協調功能更新資料
-description: 下列範例示範從包含新用戶端的匯入檔案直接建立描述檔對象的工作流程。
+description: 下列範例會示範一個工作流程，其會從包含新客戶之匯入檔案直接建立設定檔對象。
 page-status-flag: never-activated
 uuid: 7884db8c-1717-4724-be15-3b0b32ccc071
 contentOwner: sauviat
@@ -10,12 +10,10 @@ content-type: reference
 topic-tags: data-management-activities
 discoiquuid: cb8c43f4-9cdd-4e85-99a4-004b36b336aa
 context-tags: reconciliation,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 175709a41607bb9d64da7fac77dd749fa84f7360
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -23,11 +21,11 @@ ht-degree: 0%
 
 # 使用協調功能更新資料 {#data-update-reconciliation}
 
-下列範例示範從包含新用戶端的匯入檔案直接建立描述檔對象的工作流程。 它由以下活動組成：
+下列範例會示範一個工作流程，其會從包含新客戶之匯入檔案直接建立設定檔對象。它由下列活動組成：
 
 ![](assets/identification_example2.png)
 
-* 載 [入檔案](../../automating/using/load-file.md) ，此活動會載入並偵測要匯入之檔案的資料。 匯入的檔案包含下列資料：
+* A [Load file](../../automating/using/load-file.md) activity, which loads and detects tshe data of the file to import. 匯入的檔案包含下列資料：
 
    ```
    lastname;firstname;email;dateofbirth
@@ -42,10 +40,10 @@ ht-degree: 0%
    tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
    ```
 
-* 「 [協調](../../automating/using/reconciliation.md) 」活動，將載入檔案的每列連結到配置檔案維列。 無法識別的檔案記錄（遺失資料、不相容的資料類型等） 會被忽略，以保留最終觀眾資料的完整性。
+* A [Reconciliation](../../automating/using/reconciliation.md) activity, which links each column of the loaded file to a profile dimension column. 無法識別的檔案記錄（遺失資料、不相容的資料類型等）會遭到忽略，以保留最終對象資料的完整性。
 
    ![](assets/identification_example1.png)
 
-* 「儲 [存觀眾](../../automating/using/save-audience.md) 」活動，可儲存設定檔的觀眾。
+* A [Save audience](../../automating/using/save-audience.md) activity, which saves the audience of profiles.
 
    ![](assets/identification_example3.png)

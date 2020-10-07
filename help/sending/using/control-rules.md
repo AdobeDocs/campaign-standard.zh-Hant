@@ -9,10 +9,11 @@ audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
 discoiquuid: 305cadde-6424-4c6f-b11b-1e8bdbad6ef1
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: f5054272683ed846b5e0a4e64ed20c49309f8d58
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '440'
+ht-degree: 3%
 
 ---
 
@@ -29,7 +30,7 @@ source-git-commit: f5054272683ed846b5e0a4e64ed20c49309f8d58
 
 一組預設規則可確保標準控制項。 下表提供這些規則的相關資訊，以及其相關的通道與執 [行階段](#control-rules-execution-phases)。
 
-| 標籤 | 頻道 | 執行階段 | 說明 |
+| 標籤 | 通道 | 執行階段 | 說明 |
 ---------|----------|---------|---------
 | **[!UICONTROL A/B Test]** | 電子郵件 | 個人化開始時 | 擷取測試人口族群，以進行A/B測試傳送。 |
 | **[!UICONTROL Check delivery size]** | 全部 | 定位後 | 檢查消息的大小。 |
@@ -48,12 +49,12 @@ source-git-commit: f5054272683ed846b5e0a4e64ed20c49309f8d58
 
 控制規則可套用至交貨生命週期的不同階段：
 
-* **在定位開始時**: 該控制規則可在此階段應用，以便在發生錯誤時不執行個人化步驟。
+* **在定位開始時**:該控制規則可在此階段應用，以便在發生錯誤時不執行個人化步驟。
 
-* **定位後**: 定位後執行可讓您瞭解定位的卷，以套用控制規則。
+* **定位後**:定位後執行可讓您瞭解定位的卷，以套用控制規則。
 
-   例如，「檢查 **校樣大小** 」控制規則適用於定位階段後： 如果有太多的證明收件者，此規則會防止準備訊息個人化。
+   例如，「檢查 **校樣大小** 」控制規則適用於定位階段後：如果有太多的證明收件者，此規則會防止準備訊息個人化。
 
-* **個人化開始時**: 當核取與訊息個人化核准相關時套用。 在分析階段中執行消息個性化。
+* **個人化開始時**:當核取與訊息個人化核准相關時套用。 在分析階段中執行消息個性化。
 
-* **在分析結束時**: 當檢查需要完成訊息個人化時。
+* **在分析結束時**:當檢查需要完成訊息個人化時。

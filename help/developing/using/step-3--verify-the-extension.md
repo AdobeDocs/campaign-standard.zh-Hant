@@ -1,18 +1,19 @@
 ---
 title: '"步驟 3：驗證擴充"'
 description: 瞭解如何使用Rest API存取擴充欄位。
-page-status-flag: 從未激活
-uuid: 35ba89a5-a354-466f-91a0-50de11a2e00
-contentOwner: 紹維亞
+page-status-flag: never-activated
+uuid: 35ba89a5-a354-466f-91a0-50de111a2e00
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 開發
-content-type: 參考
-topic-tags: use-case-extending-the-api
+audience: developing
+content-type: reference
+topic-tags: use-case--extending-the-api
 discoiquuid: 21bad242-5921-445c-8df9-3d57dbe35197
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

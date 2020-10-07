@@ -1,19 +1,20 @@
 ---
 title: 追蹤指標
 description: 透過現成可用的追蹤指標報表，瞭解客戶在收到電子郵件訊息時的行為。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: b2df8846-4caf-45e6-a8ff-ee37655383c2
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 報告
-content-type: 參考
-topic-tags: 清單
+audience: reporting
+content-type: reference
+topic-tags: list-of-reports
 discoiquuid: 64abc885-2aec-423f-bf5b-5a623a16ca6d
 context-tags: deliveryTrackingReports,main;campaignTrackingReport,main;programTrackingReport,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -34,6 +35,6 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 * **開啟**:傳送中訊息開啟的次數。
 * **按一下**:內容在傳送中被點按的次數。
 * **取消訂閱**:訂閱連結的點按次數。
-* **** 垃圾郵件：宣告電子郵件為垃圾訊息的收件者人數。
+* **垃圾郵件：** 宣告電子郵件為垃圾訊息的收件者人數。
 * **鏡像頁**:鏡像頁連結上的點擊次數。
 

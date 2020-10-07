@@ -9,13 +9,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 3590fd42e4692df6bba21ac721568ae60dfcdd65
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +26,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->這項功能無法立即在產品中使用。 實作需要Adobe Consulting參與。 請洽詢您的Adobe代表以瞭解更多資訊。
+>這項功能無法立即在產品中使用。此實作需要 Adobe Consulting 參與。請洽詢您的 Adobe 代表以瞭解更多資訊。
 
 ## 原則
 
@@ -43,7 +41,7 @@ Adobe Campaign與Microsoft Dynamics 365整合可同步CRM系統中所有可用�
 1. 將Dynamics 365的連絡人同步至Campaign，以便在行銷促銷活動中鎖定他們
 1. 將自訂實體從Dynamics 365同步至Campaign，以便用於細分和個人化
 1. 將電子郵件行銷事件（傳送、開啟、點按、彈回）從Campaign傳送至Dynamics 365，以顯示至Dynamics 365介面中的銷售儲存庫
-1. 在Dynamics 365和ACS之間同步選擇退出（例如，請勿以電子郵件傳送）狀態，以維護客戶隱私權偏好設定。
+1. 在Dynamics 365和ACS之間同步選擇退出（例如，請勿以電子郵件傳送）狀態，以維持客戶的隱私偏好設定。
 
 ## 主要優點
 

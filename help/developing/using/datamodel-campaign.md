@@ -7,10 +7,11 @@ products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 8f47bf0cc1d5f694df1e1829ccd03c72df28d7de
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -139,7 +140,7 @@ source-git-commit: 8f47bf0cc1d5f694df1e1829ccd03c72df28d7de
                </tr>
                <tr>
                   <td>方案（方案庫）</td>
-                  <td>計畫</td>
+                  <td>方案</td>
                   <td>link </td>
                   <td> </td>
                </tr>
@@ -182,7 +183,7 @@ source-git-commit: 8f47bf0cc1d5f694df1e1829ccd03c72df28d7de
                </tr>
                <tr>
                   <td>標題</td>
-                  <td>促銷活動</td>
+                  <td>Campaign</td>
                   <td>字串(255)</td>
                   <td> </td>
                </tr>

@@ -9,13 +9,11 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 8d55a92deeccabcb6970de6cce4b5e297bc431d8
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '3169'
-ht-degree: 7%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -34,7 +32,7 @@ ht-degree: 7%
 
 * 網站開發人員將使用的API已部署，交易事件現在可以傳送。 請參 [閱整合網站中事件的觸發](#integrating-the-triggering-of-the-event-in-a-website)。
 
-* 自動建立相應的事務消息。 請參 [閱事務性訊息快速入門](../../channels/using/getting-started-with-transactional-msg.md)。
+* 自動建立相應的事務消息。 See [Getting started with transactional messaging](../../channels/using/getting-started-with-transactional-msg.md).
 
 ## 建立事件 {#creating-an-event}
 
@@ -134,7 +132,7 @@ ht-degree: 7%
 
    ![](assets/message-center_new-enrichment.png)
 
-1. 使用按 **[!UICONTROL Create element]** 鈕，將選定資源中的欄位連結到先前添加到事件的其中一個欄位(請 [參閱定義事件屬性](#defining-the-event-attributes))。
+1. 使用按 **[!UICONTROL Create element]** 鈕，將選定資源中的欄位連結到您先前添加到事件的其中一個欄位(請 [參閱定義事件屬性](#defining-the-event-attributes))。
 
    ![](assets/message-center_enrichment-join.png)
 

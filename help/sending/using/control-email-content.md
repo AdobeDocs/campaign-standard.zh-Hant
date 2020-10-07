@@ -1,6 +1,6 @@
 ---
-title: 在Adobe Campaign standard中控制電子郵件內容
-description: 瞭解如何在編輯您的電子郵件內容時，改善Adobe Campaign standard的傳遞能力。
+title: 在Adobe Campaign Standard中控制電子郵件內容
+description: 瞭解如何在編輯您的電子郵件內容時，改善Adobe Campaign Standard的傳遞能力。
 page-status-flag: never-activated
 uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
 contentOwner: sauviat
@@ -10,15 +10,16 @@ content-type: reference
 topic-tags: sheduling-messages
 discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# 控制電子郵件內容{#control-email-content}
+# 控管電子郵件內容{#control-email-content}
 
 為了提高電子郵件的傳遞率，並確保您的電子郵件送達您的收件人，電子郵件必須遵守一定數量的規則。
 
@@ -47,9 +48,9 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 如需定義電子郵件主旨行的詳細資訊，請參 [閱本節](../../designing/using/subject-line.md)。
 
-## 傳送時間最佳化 {#send-time-optimization}
+## Send time optimization {#send-time-optimization}
 
-若要提高訊息的成功率，您可以手動定義每個收件者的傳送時間。 每個描述檔都會在指定的日期和時間收到訊息。
+若要提高訊息的成功率，您可以手動定義每個收件者的傳送時間。 每個設定檔都會在指定的日期和時間收到訊息。
 
 如需詳細資訊，請參 [閱最佳化傳送時間](../../sending/using/optimizing-the-sending-time.md)。
 
@@ -65,7 +66,7 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ## 反垃圾郵件分析 {#anti-spam-analysis}
 
-Adobe Campaign的訊息編輯器整合了 **Anti-spam分析** ，可讓您對電子郵件進行分數，以判斷訊息是否有可能被收到時使用的防垃圾郵件工具視為垃圾郵件的風險。 有關詳細資訊，請參閱預 [覽消息](../../sending/using/previewing-messages.md)。
+Adobe Campaign的訊息編輯器整合了 **Anti-spam分析** ，可讓您對電子郵件進行分數，以判斷訊息是否有可能被收到時使用的防垃圾郵件工具視為垃圾郵件的風險。 For more on this, see [Previewing messages](../../sending/using/previewing-messages.md).
 
 在消息內容編輯器中，按一下 **[!UICONTROL Preview]**。 如果反垃圾郵件檢查檢測到此郵件存在高風險，則會發出消息警告。 按一 **[!UICONTROL Anti-spam analysis]** 下以檢視詳細資訊。
 
@@ -75,8 +76,8 @@ Adobe Campaign的訊息編輯器整合了 **Anti-spam分析** ，可讓您對電
 
 在傳送訊息之前，您可以檢查訊息在不同裝置上的外觀。 這是為了確保它以最佳方式顯示在各種Web用戶端、Web郵件和裝置上。
 
-為了允許此動作，Adobe Campaign會擷取轉譯，並將它提供在專用報表中。 這可讓您在可接收訊息的不同內容中預覽所傳送的訊息。
+為了執行此操作，Adobe Campaign 會擷取呈現，並將之用於專用報告中。這可讓您在可接收訊息的不同內容中預覽所傳送的訊息。
 
-如需詳細資訊，請參閱「電子郵 [件轉換」](../../sending/using/email-rendering.md)。
+如需詳細資訊，請參閱「[電子郵件轉譯](../../sending/using/email-rendering.md)」。
 
 ![](assets/inbox_rendering_report_3.png)

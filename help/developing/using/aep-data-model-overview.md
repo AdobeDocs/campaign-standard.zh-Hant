@@ -9,10 +9,11 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c2ed4b3c85ceef3b604a8f68d924c7e5d9fad900
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +34,7 @@ XDM工作區可讓您檢視、建立和擴充資料結構。
 
 若要存取XDM使用者介面，請開啟Adobe Experience Platform。 導航到「資料模型」窗口以建立或擴展XDM架構。
 
-請參閱完整的 [XDM工作區檔案](https://docs.adobe.com/content/help/en/experience-platform/xdm/api/getting-started.html)。
+請參閱完整的 [XDM工作區檔案](https://docs.adobe.com/content/help/zh-Hant/experience-platform/xdm/api/getting-started.html)。
 
 ![](assets/aep_xdmworkspace.png)
 
@@ -48,4 +49,4 @@ XDM工作區可讓您檢視、建立和擴充資料結構。
 * 查看模式描述符
 * 建立、更新和刪除模式描述符
 
-「開發人員指南」中提供所有控制API呼叫的 [詳細資訊](https://docs.adobe.com/content/help/en/experience-platform/xdm/api/getting-started.html)。
+「開發人員指南」中提供所有控制API呼叫的 [詳細資訊](https://docs.adobe.com/content/help/zh-Hant/experience-platform/xdm/api/getting-started.html)。

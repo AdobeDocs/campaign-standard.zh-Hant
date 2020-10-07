@@ -9,10 +9,11 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 discoiquuid: 8d3ba7bf-90ae-4c6d-aaeb-a48572a69f2f
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,8 +24,8 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 要編輯現有配置式並咨詢與其關聯的資料，或修改它，請執行以下步驟：
 
-1. 在Adobe Campaign首頁中，按一下卡 **[!UICONTROL Customer profiles]** 片或標 **[!UICONTROL Profiles]** 簽。
-1. 選擇聯繫人。
+1. 在 Adobe Campaign 首頁，按一下 **[!UICONTROL Customer profiles]** 資訊卡或 **[!UICONTROL Profiles]** 索引標籤。
+1. 選取聯絡人。
 1. 按一下 **[!UICONTROL Edit profile properties]** 圖示以存取描述檔的詳細資訊。
 
    ![](assets/profile_creation2.png)
@@ -37,11 +38,11 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
    >
    >您只能修改頁籤中的 **[!UICONTROL General]** 資訊——除部分之 **[!UICONTROL Traceability]** 外。
 
-您也可以使用Adobe Campaign Standard API來建立描述檔版本。 如需詳細資訊，請參閱專用 [檔案](../../api/using/updating-profiles.md) 。
+您也可以使用Adobe Campaign Standard API來建立描述檔版本。 如需詳細資訊，請參閱[專屬文件](../../api/using/updating-profiles.md)。
 
 相關主題：
 
-* [整合的客戶設定檔](../../audiences/using/integrated-customer-profile.md)
+* [整合式客戶設定檔](../../audiences/using/integrated-customer-profile.md)
 * [在收件者的時區傳送](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)
 
 ## 一般描述檔資料 {#general-profile-data}
@@ -51,7 +52,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 * 聯絡資訊，其中包含收件者的名字、姓氏、出生日期、像片、慣用語言(適用於多語 [言電子郵](../../channels/using/creating-a-multilingual-email.md)件)等。
 * 可連絡描述檔的渠道，其中包含收件者的電子郵件地址、行動電話號碼和退出資訊。
 * 郵遞區號( [用於直郵](../../channels/using/about-direct-mail.md))和連絡人的時區(以排 [程其時區的訊息](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md))。
-* 存取授權，指出收件者的組織單位(以管 [理權限](../../administration/using/about-access-management.md))。 另請參見 [Partitioning profiles](../../administration/using/organizational-units.md#partitioning-profiles)。
+* 存取授權，指出收件者的組織單位(以管 [理權限](../../administration/using/about-access-management.md))。 也請參閱[分割設定檔](../../administration/using/organizational-units.md#partitioning-profiles)。
 
 ![](assets/profile_creation4.png)
 

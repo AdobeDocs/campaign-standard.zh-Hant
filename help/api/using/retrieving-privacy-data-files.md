@@ -9,10 +9,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,21 +22,21 @@ source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 
 >[!CAUTION]
 >
->隱 [私權核心服務](https://adobe.io/apis/cloudplatform/gdpr.html) 「整合」是您應用於所有存取和刪除要求的方法。 從19.4開始，已不再使用促銷活動API和介面來存取和刪除請求。 如需Campaign Standard已停用和移除功能的詳細資訊，請參 [閱此頁](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)。
+>隱 [私權核心服務](https://adobe.io/apis/cloudplatform/gdpr.html) 「整合」是您應用於所有存取和刪除要求的方法。 從19.4開始，已不再使用促銷活動API和介面來存取和刪除請求。 如需Campaign Standard已停用和移除功能的詳細資訊，請參 [閱此頁](https://helpx.adobe.com/tw/campaign/kb/acs-deprecated-and-removed-features.html)。
 
 要檢索包含與協調值關聯的所有資訊的檔案，請執行以下三步驟：
 
-1. 執行 **POST** requests，以建立屬性 **type="access"的新請求**，請 [參閱Creating a new privacy request](../../api/using/creating-a-privacy-request.md)。
+1. 執行 **POST** requests，以建立屬性 **type=&quot;access&quot;的新請求**，請 [參閱Creating a new privacy request](../../api/using/creating-a-privacy-request.md)。
 
 1. 執行 **GET** 要求以擷取有關要求的資訊。
 
-1. 在傳回的privacyRequestData **** URL上執行 **** POST請求，並在裝載內使用隱私權請求內部名稱，以擷取資料檔案。 例如：{"name":"PT17"}。
+1. 在傳回的privacyRequestData **** URL上執行 **** POST請求，並在裝載內使用隱私權請求內部名稱，以擷取資料檔案。 例如：{&quot;name&quot;:&quot;PT17&quot;}。
 
 <br/>
 
 ***請求範例***
 
-使用type="access"屬性建立隱私權要求。
+使用type=&quot;access&quot;屬性建立隱私權要求。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool \

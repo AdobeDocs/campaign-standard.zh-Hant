@@ -9,10 +9,11 @@ audience: channels
 content-type: reference
 topic-tags: email-messages
 discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +30,7 @@ source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
    ![](assets/multi_create1.png)
 
-1. 定義電子郵件的一般屬性和目標對象，就像標準電子郵件一樣。 請參閱「建 [立觀眾](../../audiences/using/creating-audiences.md) 」區段。
+1. 定義電子郵件的一般屬性與目標對象，就像標準電子郵件一樣。請參閱[建立對象](../../audiences/using/creating-audiences.md)區段。
 1. 在建立嚮導的第四步中，定義變型選項。 如果多語 [言範本](../../channels/using/multilingual-messages-template.md) 已包含所有正確的參數，您可以直接按一下按 **[!UICONTROL Create]** 鈕。
 
    ![](assets/multi_create4.png)
@@ -37,14 +38,14 @@ source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
    如有需要，請使用按鈕新增變 **[!UICONTROL Add an element]** 數。 **[!UICONTROL Default]** 變型不能刪除。 設為時， **[!UICONTROL default]**&#x200B;會 [使用描述檔的偏好語言](../../audiences/using/creating-profiles.md) ，來選擇變體。 您也可以將變 **[!UICONTROL Default]** 型設為任何其他語言。
 
 1. 確認電子郵件的建立：然後會顯示電子郵件控制面板。
-1. 定義每個變體的電子郵件內容。 根據您選擇的範本，您可以定義多個主題、數個傳送者名稱或數個不同的內容。 使用下拉式選單，在元素的不同變體之間導覽。 如需詳細資訊，請參閱內容 [編輯器一節](../../designing/using/designing-content-in-adobe-campaign.md) 。
+1. 定義每個變體的電子郵件內容。 根據您所選取的範本，您可以定義多個主旨、數個寄件者名稱或數個不同內容。使用下拉式選單，在元素的不同變體之間導覽。 如需詳細資訊，請參閱[內容編輯器](../../designing/using/designing-content-in-adobe-campaign.md)區段。
 
    ![](assets/multi_selectcontent.png)
 
 1. 測試並驗證您的訊息。 請參閱「傳 [送校樣](../../sending/using/sending-proofs.md) 」一節。
 1. 使用排程傳送 **[!UICONTROL Send after confirmation option]**。
-1. 傳送電子郵件後，您就可以存取其記錄檔和報表，以評估促銷活動的成功。 For more on reporting, refer to [this section](../../reporting/using/about-dynamic-reports.md).
+1. 傳送電子郵件後，您就可以存取其記錄檔和報表，以評估促銷活動的成功。 如需報告的詳細資訊，請參閱[本區段](../../reporting/using/about-dynamic-reports.md)。
 
 **相關主題：**
 
-* [使用單一工作流程觸及多語言觀眾](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
+* [使用單一工作流程觸及多語言觀眾](https://helpx.adobe.com/tw/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)

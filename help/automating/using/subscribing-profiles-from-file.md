@@ -1,5 +1,5 @@
 ---
-title: 將配置檔案從檔案預訂到特定服務
+title: 從檔案訂閱設定檔至特定服務
 description: 此使用案例說明如何匯入包含描述檔的檔案，並將其訂閱至現有服務。
 page-status-flag: never-activated
 uuid: 56637024-15ab-4145-9c48-3fbd27ab8af8
@@ -10,28 +10,26 @@ content-type: reference
 topic-tags: data-management-activities
 discoiquuid: 74a6df0e-fd85-4404-a42c-9a7406512717
 context-tags: setOfService,workflow,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 
-# 在匯入檔案後將描述檔訂閱至特定服務 {#subscribing-profiles-to-a-specific-service-after-importing-a-file}
+# Subscribing profiles to a specific service after importing a file {#subscribing-profiles-to-a-specific-service-after-importing-a-file}
 
-此示例說明如何導入包含配置檔案的檔案並將其預訂到現有服務。 匯入檔案後，必須進行協調，以便將匯入的資料識別為描述檔。 為確保檔案不包含任何重複項，將對資料執行重複資料消除活動。
+此範例說明如何匯入包含設定檔的檔案並將其訂閱至現有服務中。匯入檔案後，必須進行調解，以便將匯入的資料識別為設定檔。為確保檔案不包含任何重複項目，將對資料執行重複資料刪除活動。
 
 工作流程如下：
 
 ![](assets/subscription_activity_example1.png)
 
-* 「載 [入檔案](../../automating/using/load-file.md) 」(Load file)活動載入配置檔案並定義導入列的結構。
+* A [Load file](../../automating/using/load-file.md) activity loads the profile file and defines the structure of the imported columns.
 
-   在此範例中，載入的檔案是。csv格式，並包含下列資料：
+   在此範例中，載入檔案為 .csv 格式，並包含以下資料：
 
    ```
    lastname;firstname;email;birthdate;subdate
@@ -48,14 +46,14 @@ ht-degree: 0%
 
    ![](assets/subscription_activity_example2.png)
 
-* 「協 [調](../../automating/using/reconciliation.md) 」活動會將檔案中的資料識別為屬於Adobe Campaign資料庫的描述檔維度。 僅配置 **[!UICONTROL Identification]** 了頁籤。 它會根據描述檔的電子郵件地址識別檔案資料。
+* A [Reconciliation](../../automating/using/reconciliation.md) activity identifies the data from the file as belonging to the profile dimension of the Adobe Campaign database. 僅設定 **[!UICONTROL Identification]** 索引標籤。它會根據描述檔的電子郵件地址識別檔案資料。
 
    ![](assets/subscription_activity_example3.png)
 
-* 根據臨 [時資源(](../../automating/using/deduplication.md) 由協調產生 **)的電子郵件欄位** ，重複資料消除可識別任何重複資料。 如果從檔案匯入的資料包含任何重複項目，服務的訂閱將會失敗。
+* A [Deduplication](../../automating/using/deduplication.md) based on the **email** field of the temporary resource (resulting from the reconciliation) identifies any duplicates. 如果從檔案匯入的資料包含任何重複項目，所有資料服務的訂閱將會失敗。
 
    ![](assets/subscription_activity_example5.png)
 
-* 「訂 [閱服務](../../automating/using/subscription-services.md) 」活動可讓您選擇描述檔必須訂閱的服務、與訂閱日期對應的欄位，以及訂閱的來源。
+* A [Subscription Services](../../automating/using/subscription-services.md) activity lets you select the service to which the profiles must be subscribed, the field corresponding to the subscription date, and the origin of the subscription.
 
    ![](assets/subscription_activity_example4.png)

@@ -9,10 +9,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: f251e4b5187aa09f65a5d8d6215f208a09cd9159
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,9 +24,9 @@ Adobe Campaign REST API的可用端點：
 
 * **/profileAndServices**:與現成可用的欄位互動。 此端點無法訪問擴展欄位。
 * **/profileAndServicesExt**:與在描述檔或服務自訂資源擴充期間新增的自訂欄位互動。 For more on custom resources, refer to [this section](../../api/using/custom-resources.md).
-* **/&lt;transactionalAPI&gt;**:與事務性消息API交互（事務性消息API端點的名稱取決於實例配置）。 如需詳細資訊，請參閱[本小節](../../api/using/managing-transactional-messages.md)。
-* **/workflow/execution**:與工作流程互動。 如需詳細資訊，請參閱[本小節](../../api/using/controlling-a-workflow.md)。
-* **/privacy/privacyTool**:與隱私權API互動，允許自動處理隱私權要求。 如需詳細資訊，請參閱[本小節](../../api/using/creating-a-privacy-request.md)。
+* **/&lt;transactionalAPI>**:與事務性消息API交互（事務性消息API端點的名稱取決於實例配置）。 如需詳細資訊，請參閱[本章節](../../api/using/managing-transactional-messages.md)。
+* **/workflow/execution**:與工作流程互動。 如需詳細資訊，請參閱[本章節](../../api/using/controlling-a-workflow.md)。
+* **/privacy/privacyTool**:與隱私權API互動，允許自動處理隱私權要求。 如需詳細資訊，請參閱[本章節](../../api/using/creating-a-privacy-request.md)。
 * **/history**:擷取描述檔的行銷記錄。 有關Campaign中整合式客戶個人檔案的詳細資訊，請參閱 [Campaign檔案](https://helpx.adobe.com/campaign/standard/audiences/using/integrated-customer-profile.html)。
 
 依預設，profileAndServices和profileServicesExt **API的可用****** 主要資源為：

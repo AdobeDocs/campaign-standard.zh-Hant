@@ -9,13 +9,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 discoiquuid: 77af0772-52b5-46bc-a964-675b45965524
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +26,7 @@ ht-degree: 2%
 
 從Adobe Campaign的「人物」核心服務匯入觀眾／區段，只能由透過IMS連線的 **[!UICONTROL Audiences]** 使用者（透過Adobe ID驗證）執行。
 
-1. 前往功能 **[!UICONTROL Audiences]** 表。
+1. Go to the **[!UICONTROL Audiences]** menu.
 1. 在動作列中，選 **[!UICONTROL Create]** 取要移至畫面以建立觀眾。
 1. 指定新對象的標籤。
 1. 將觀眾設 **[!UICONTROL Type]** 定為 **[!UICONTROL Experience Cloud]** 指出所建立的觀眾是從People核心服務匯入的觀眾。
@@ -61,7 +59,7 @@ ht-degree: 2%
 1. 從方案、促銷活動或行銷活動清單建立新的工作流程。
 1. 使用可用的不同活動，鎖定一組描述檔。
 1. 定位後，將活動拖放至工 **[!UICONTROL Save audience]** 作流程中，然後開啟它。
-1. Select **[!UICONTROL Share in Adobe Experience Cloud]**.
+1. 選取 **[!UICONTROL Share in Adobe Experience Cloud]**。
 
    ![](assets/aam_save_audience_activity.png)
 
@@ -69,6 +67,7 @@ ht-degree: 2%
 
    * 如果您選取現有對象，則只會將新記錄新增至對象。
    * 若要將個人檔案清單匯出至新對象，請填妥欄 **[!UICONTROL Segment name]** 位，然後按一 **[!UICONTROL Create]** 下，再選取新建立的對象。
+
    ![](assets/aam_save_audience_segment_picker.png)
 
    為了進行協調和交換，這些記錄必須有Adobe Experience Cloud ID（「訪客ID」或「宣告的ID」）。 匯入和匯出對象時，不協調的記錄會被忽略。
@@ -84,5 +83,5 @@ Adobe Campaign和People核心服務之間的同步化需要24-36小時。 在這
 **相關主題：**
 
 * [工作流程](../../automating/using/get-started-workflows.md)
-* [觀眾](../../audiences/using/about-audiences.md)
+* [受眾](../../audiences/using/about-audiences.md)
 

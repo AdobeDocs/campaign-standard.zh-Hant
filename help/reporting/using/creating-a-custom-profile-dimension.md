@@ -9,10 +9,11 @@ audience: reporting
 content-type: reference
 topic-tags: customizing-reports
 discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '813'
+ht-degree: 5%
 
 ---
 
@@ -38,7 +39,7 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 若要這麼做：
 
-1. 從進階功能表中，選擇 **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** &gt; **[!UICONTROL Custom resources]** 然後選 **[!UICONTROL Profile (profile)]** 擇自訂資源。
+1. 從進階功能表中，選擇 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]** 然後選 **[!UICONTROL Profile (profile)]** 擇自訂資源。
 
    ![](assets/custom_profile_1.png)
 
@@ -58,15 +59,15 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
    ![](assets/custom_profile_13.png)
 
-1. 輸入， **[!UICONTROL Label]** 然後 **[!UICONTROL Value]** 按一下 **[!UICONTROL Add]**。 在此範例中，我們需要建立價值金、銀和銅。 完成時 **[!UICONTROL Confirm]** 按一下。
+1. 輸入， **[!UICONTROL Label]** 然後 **[!UICONTROL Value]** 按一下 **[!UICONTROL Add]**。 在此範例中，我們需要建立價值金、銀和銅。 Click **[!UICONTROL Confirm]** when done.
 
    ![](assets/custom_profile_14.png)
 
-1. 選擇選 **[!UICONTROL Screen definition]** 項卡。 在下拉 **[!UICONTROL Detail screen configuration]** 式清單中，勾選 **[!UICONTROL Add personalized fields]** 區段以在我們的描述檔中建立新區段。
+1. 選取 **[!UICONTROL Screen definition]** 索引標籤。在下拉 **[!UICONTROL Detail screen configuration]** 式清單中，勾選 **[!UICONTROL Add personalized fields]** 區段以在我們的描述檔中建立新區段。
 
    ![](assets/custom_profile_4.png)
 
-1. 按一下 **[!UICONTROL Add an element]** 按鈕以建立新區段。 選擇 **[!UICONTROL Type]**:, **[!UICONTROL Input field]**&#x200B;或 **[!UICONTROL Value]****[!UICONTROL List]**，則新增至此新區段的欄位。
+1. 按一下 **[!UICONTROL Add an element]** 按鈕以建立新區段。 選擇 **[!UICONTROL Type]**: **[!UICONTROL Input field]**、 **[!UICONTROL Value]** 或 **[!UICONTROL List]**，則新增此新區段的欄位。
 
    ![](assets/custom_profile_5.png)
 
@@ -76,7 +77,7 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
    ![](assets/custom_profile_6.png)
 
-1. 從進階選單中，選取 **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** &gt; **[!UICONTROL Publication]** 以開始發佈自訂資源。
+1. 從進階選單中，選取 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Publication]** 以開始發佈自訂資源。
 1. 完 **[!UICONTROL Prepare publication]** 成準備後，按一下按 **[!UICONTROL Publish]** 鈕。
 
    ![](assets/custom_profile_7.png)
@@ -89,29 +90,29 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 現在您的描述檔欄位已建立，我們需要使用我們的描述檔欄位來擴充傳送記錄檔，以在動態報表中建立相關的自訂描述檔維度。
 
-在使用我們的描述檔欄位擴充記錄檔之前，請確定已接受PII視窗以存取標 **[!UICONTROL Sending logs extension]** 簽。 For more on this, refer to this [page](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
+在使用我們的描述檔欄位擴充記錄檔之前，請確定已接受PII視窗以存取標 **[!UICONTROL Sending logs extension]** 簽。 如需關於此項目的詳細資訊，請參閱此[頁面](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)。
 
 >[!NOTE]
 >
 >管理員只能使用配置檔案欄位擴展日誌。
 
-1. 從進階功能表中，選擇 **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** &gt; **[!UICONTROL Custom resources]** 然後選 **[!UICONTROL Profile (profile)]** 擇自訂資源。
+1. 從進階功能表中，選擇 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]** 然後選 **[!UICONTROL Profile (profile)]** 擇自訂資源。
 1. 開啟 **[!UICONTROL Sending logs extension]** 下拉式清單。
-1. Click the **[!UICONTROL Create element]** button.
+1. 按一下 **[!UICONTROL Create element]** 按鈕。
 
    ![](assets/custom_profile_9.png)
 
-1. 選取您先前建立的欄位，然後按一下 **[!UICONTROL Confirm]**。
+1. Select your previously created field and click **[!UICONTROL Confirm]**.
 1. 勾選以 **[!UICONTROL Add this field in Dynamic reporting as a new dimension]** 建立您的自訂描述檔維度。
 
    ![](assets/custom_profile_10.png)
 
-   此選項僅在接受PII視窗時才可用。 For more on this, refer to this [page](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
+   此選項僅在接受PII視窗時才可用。 如需關於此項目的詳細資訊，請參閱此[頁面](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)。
 
 1. 按一 **[!UICONTROL Add]** 下，然後儲存自訂資源。
 1. 由於自訂資源已修改，因此我們需要發佈它以實作新的變更。
 
-   從進階選單中，選取 **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** &gt; **[!UICONTROL Publication]** 以開始發佈自訂資源。
+   從進階選單中，選取 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Publication]** 以開始發佈自訂資源。
 
 1. 完 **[!UICONTROL Prepare publication]** 成準備後，按一下按 **[!UICONTROL Publish]** 鈕。
 
@@ -125,7 +126,7 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 發佈您的設定檔欄位後，您就可以開始傳送。 在此範例中，我們要定位在忠誠度方案中註冊的每個收件者。
 
-1. 在標籤 **[!UICONTROL Marketing activities]** 中，按一下， **[!UICONTROL Create]** 然後選取 **[!UICONTROL Email]**。
+1. 在 **[!UICONTROL Marketing activities]** 索引標籤中，按一下 **[!UICONTROL Create]**，然後選取 **[!UICONTROL Email]**。
 1. 選擇一 **[!UICONTROL Email type]** 個，然後輸入您電子郵件的屬性。
 1. 若要定位已註冊至忠誠度方案的收件者，請拖放 **[!UICONTROL Profiles (attributes)]** 活動。
 1. 從下拉式清單中選取您先前 **[!UICONTROL Field]** 建立的欄位。
@@ -137,9 +138,9 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
    ![](assets/custom_profile_17.png)
 
 1. 按一 **[!UICONTROL Confirm]** 下，然後在完成篩選後按一 **[!UICONTROL Next]**&#x200B;下。
-1. 定義並個人化訊息內容、傳送者名稱和主旨。 如需建立電子郵件的詳細資訊，請參閱本 [頁](../../designing/using/designing-content-in-adobe-campaign.md)。
+1. 定義並個人化訊息內容、傳送者名稱和主旨。 For more information on email creation refer to this [page](../../designing/using/designing-content-in-adobe-campaign.md).
 
-   然後，按一下 **[!UICONTROL Create]**。
+   Then, click **[!UICONTROL Create]**.
 
 1. 準備就緒後，您可以預覽並傳送訊息。 有關如何準備和傳送訊息的詳細資訊，請參閱本 [頁](../../sending/using/preparing-the-send.md)。
 

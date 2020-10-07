@@ -9,13 +9,11 @@ audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 5636b2ab5a673b0a52158b1a5411e090e4b45ca7
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 16%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -78,7 +76,7 @@ Adobe Campaign可讓您跨各個通道啟動、衡量和自動化宣傳活動。
 顯示全文:
 
 * [關於交易式傳訊](../../channels/using/getting-started-with-transactional-msg.md)
-* [交易式訊息快速入門](../../channels/using/getting-started-with-transactional-msg.md)
+* [開始使用交易式訊息](../../channels/using/getting-started-with-transactional-msg.md)
 * [事件交易式訊息](../../channels/using/event-transactional-messages.md)
 * [設定檔交易式訊息](../../channels/using/profile-transactional-messages.md)
 * [交易式推播通知](../../channels/using/transactional-push-notifications.md)
@@ -106,5 +104,5 @@ Campaign隨附著著陸頁面，這些網頁表單可用來擷取 **受眾的資
 * [設計電子郵件內容](../../designing/using/designing-content-in-adobe-campaign.md)
 * [匯入AEM內容](../../integrating/using/creating-email-experience-manager.md)
 * [使用工作流程傳送訊息](../../automating/using/about-channel-activities.md)
-* [通訊管道教學課程影片](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html)
+* [通訊管道教學課程影片](https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html)
 * [使用案例：建立跨通道傳送](../../automating/using/workflow-cross-channel-delivery.md)

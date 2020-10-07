@@ -10,18 +10,16 @@ content-type: reference
 topic-tags: push-notifications
 discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 2112f93fba368435850957e6e90b7c7c88ddf248
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '914'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# 設定啟動規則以支援Adobe Campaign Standard使用案例 {#configuring-rules-launch}
+# 設定啟動規則以支援Adobe Campaign Standard 使用案例 {#configuring-rules-launch}
 
 在中， [!DNL Adobe Experience Platform Launch]您需要建立資料元素和規則，以便將PII和其他資料從行動應用程式傳送至 [!DNL Adobe Campaign Standard]。
 
@@ -53,7 +51,7 @@ ht-degree: 0%
 
 1. 例如 **[!UICONTROL Name]** ，在欄位中輸入 **mcid**。
 
-1. 從下拉 **[!UICONTROL Extension]** 式清單中，選取 **[!UICONTROL Mobile Core]**。 然 **[!UICONTROL Experience Cloud ID]** 後在 **[!UICONTROL Data element]** 類型下拉式清單中。
+1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Mobile Core]**. 然 **[!UICONTROL Experience Cloud ID]** 後在 **[!UICONTROL Data element]** 類型下拉式清單中。
 
    ![](assets/do-not-localize/rules_1.png)
 
@@ -61,13 +59,13 @@ ht-degree: 0%
 
 1. 例如 **[!UICONTROL Name]** ，在欄位中鍵入 **pkey**。
 
-1. 從下拉 **[!UICONTROL Extension]** 式清單中，選取 **[!UICONTROL Adobe Campaign Standard]**。 然 **[!UICONTROL pkey]** 後在 **[!UICONTROL Data element]** 類型下拉式清單中。
+1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Adobe Campaign Standard]**. 然 **[!UICONTROL pkey]** 後在 **[!UICONTROL Data element]** 類型下拉式清單中。
 
 1. 若要建立促銷活動伺服器資料元素，請按一下 **[!UICONTROL Add data element]**。
 
 1. 在欄位 **[!UICONTROL Name]** 中，輸入名稱，例如 **camp-server**。
 
-1. 從下拉 **[!UICONTROL Extension]** 式清單中，選取 **[!UICONTROL Adobe Campaign Standard]**。 然後， **[!UICONTROL Campaign Server]** 在「類 **[!UICONTROL Data element]** 型」(Type)下拉式清單中。
+1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Adobe Campaign Standard]**. 然後， **[!UICONTROL Campaign Server]** 在「類 **[!UICONTROL Data element]** 型」(Type)下拉式清單中。
 
 ## 建立規則 {#creating-rules}
 
@@ -92,13 +90,13 @@ ht-degree: 0%
 
 1. In the **[!UICONTROL Events]** section, click **[!UICONTROL Add]**.
 
-1. 從下拉 **[!UICONTROL Extension]** 式清單中，選取 **[!UICONTROL Mobile Core]**。 然後， **[!UICONTROL Collect PII]** 在下 **[!UICONTROL Event type]** 拉式清單中。
+1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Mobile Core]**. 然後， **[!UICONTROL Collect PII]** 在下 **[!UICONTROL Event type]** 拉式清單中。
 
 1. 按一下 **[!UICONTROL Keep changes]**。
 
 1. In the **[!UICONTROL Actions]** section, click **[!UICONTROL Add]**.
 
-1. 從下拉 **[!UICONTROL Extension]** 式清單中，選取 **[!UICONTROL Mobile Core]**。 然後， **[!UICONTROL Send PII]** 在下 **[!UICONTROL Action type]** 拉式清單中。
+1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Mobile Core]**. 然後， **[!UICONTROL Send PII]** 在下 **[!UICONTROL Action type]** 拉式清單中。
 
 1. 在 **[!UICONTROL URL]**&#x200B;中，輸入以下URL:
 
@@ -157,13 +155,13 @@ ht-degree: 0%
 
 1. In the **[!UICONTROL Events]** section, click **[!UICONTROL Add]**.
 
-1. 從下拉 **[!UICONTROL Extension]** 式清單中，選取 **[!UICONTROL Adobe Campaign Standard]**。 然後， **[!UICONTROL In-App click tracking]** 在下 **[!UICONTROL Event type]** 拉式清單中。
+1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Adobe Campaign Standard]**. 然後， **[!UICONTROL In-App click tracking]** 在下 **[!UICONTROL Event type]** 拉式清單中。
 
 1. 按一下 **[!UICONTROL Keep changes]**。
 
 1. In the **[!UICONTROL Actions]** section, click **[!UICONTROL Add]**.
 
-1. 從下拉 **[!UICONTROL Extension]** 式清單中，選取 **[!UICONTROL Mobile Core]**。 然後， **[!UICONTROL Send postback]** 在下 **[!UICONTROL Event type]** 拉式清單中。
+1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Mobile Core]**. 然後， **[!UICONTROL Send postback]** 在下 **[!UICONTROL Event type]** 拉式清單中。
 
 1. 在 **[!UICONTROL URL]**&#x200B;中，鍵入以下URL:
 
@@ -195,13 +193,13 @@ ht-degree: 0%
 
 1. In the **[!UICONTROL Events]** section, click **[!UICONTROL Add]**.
 
-1. 從下拉 **[!UICONTROL Extension]** 式清單中，選取 **[!UICONTROL Mobile Core]**。 然後， **[!UICONTROL Track Action]** 在下 **[!UICONTROL Event type]** 拉式清單中。
+1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Mobile Core]**. 然後， **[!UICONTROL Track Action]** 在下 **[!UICONTROL Event type]** 拉式清單中。
 
 1. 從下拉 **[!UICONTROL Action]** 式清單中，選 **[!UICONTROL Action]**&#x200B;取、選 **[!UICONTROL equals]**&#x200B;取和輸入 **追蹤**。
 
 1. 按一下 **[!UICONTROL Keep changes]**。然後，在區 **[!UICONTROL Actions]** 段中按一下 **[!UICONTROL Add]**。
 
-1. 從下拉 **[!UICONTROL Extension]** 式清單中，選取 **[!UICONTROL Mobile Core]**。 然後， **[!UICONTROL Send postback]** 在下 **[!UICONTROL Action type]** 拉式清單中。
+1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Mobile Core]**. 然後， **[!UICONTROL Send postback]** 在下 **[!UICONTROL Action type]** 拉式清單中。
 
 1. 在 **[!UICONTROL URL]**&#x200B;中，輸入以下URL:
 
@@ -231,7 +229,7 @@ ht-degree: 0%
 
 1. In the **[!UICONTROL Actions]** section, click **[!UICONTROL Add]**.
 
-1. 從下拉 **[!UICONTROL Extension]** 式清單中，選取 **[!UICONTROL Mobile Core]**。 然後， **[!UICONTROL Send postback]** 從下 **[!UICONTROL Action type]** 拉式清單中。
+1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Mobile Core]**. 然後， **[!UICONTROL Send postback]** 從下 **[!UICONTROL Action type]** 拉式清單中。
 
 1. 輸入名稱，例如「行動 **核心——傳送位置回傳」**。
 

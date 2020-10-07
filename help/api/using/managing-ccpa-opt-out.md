@@ -1,5 +1,5 @@
 ---
-title: 管理CCPA選擇退出
+title: 管理 CCPA 選擇退出
 description: 瞭解如何使用API管理CCPA選擇退出
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
@@ -9,15 +9,16 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '153'
+ht-degree: 3%
 
 ---
 
 
-# 管理CCPA選擇退出 {#managing-ccpa-optout}
+# 管理 CCPA 選擇退出 {#managing-ccpa-optout}
 
 可使用 **** ccpaOptOut配置檔案屬性和「true」或「false」值來監視和管理配置檔案的CCPA退出狀態：
 
@@ -30,7 +31,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 >
 >「CCPA選擇退出」屬性僅從19.4開始提供。對於19.3環境，您需要擴展Profiles資源並添加布爾欄位。 此欄位將會新增至具有所選標籤的API。 我們建議您使用「退出CCPA」。
 >
->如需詳細資訊，請參閱隱私權 [管理檔案](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ccpa)。
+>For more on this, refer to the [Privacy management documentation](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ccpa).
 
 <br/>
 

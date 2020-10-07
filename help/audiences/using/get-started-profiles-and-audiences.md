@@ -9,13 +9,11 @@ audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
 discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 8%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,11 +27,11 @@ ht-degree: 8%
 <td><img src="assets/do-not-localize/icon_privacy.svg" width="60px"><p><a href="#privacy">隱私權規範</a></p></td></tr>
 </table>
 
-促銷活動整合式客戶個人檔案可讓您透過單一檢視追蹤所有通道與客戶的每一次互動，讓您向客戶傳遞相關的個人化訊息。
+Campaign Integrated Customer Profile 可讓您透過單一檢視追蹤所有通道上與客戶的每一次互動，讓您向客戶傳遞相關的個人化訊息。
 
-將您的資料庫細分為受眾，以最佳化行銷宣傳的目標。
+將您的資料庫細分為受眾，以最佳化行銷活動的目標。
 
-使用服務和登陸頁面管理客戶權限和同意，以設定輕鬆的加入和退出機制。
+使用服務和登陸頁面，管理客戶權限和同意，以便設定簡單的選擇加入和選擇退出機制。
 
 ## 劃分和定位 {#segmenting-targeting}
 
@@ -57,7 +55,7 @@ Adobe Campaign可即時建立豐富的客戶個人檔案，讓您在客戶偏好
 * [充實 Campaign 資料庫](../../audiences/using/enriching-campaign-database.md)
 * [關於閱聽眾](../../audiences/using/about-audiences.md)
 * [在訊息中選取閱聽眾](../../audiences/using/selecting-an-audience-in-a-message.md)
-* [添加控制組](../../sending/using/control-group.md)
+* [新增控制群組](../../sending/using/control-group.md)
 
 ## 許可和許可 {#permission}
 

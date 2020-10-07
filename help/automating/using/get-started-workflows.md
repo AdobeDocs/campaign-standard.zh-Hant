@@ -9,13 +9,11 @@ audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 5636b2ab5a673b0a52158b1a5411e090e4b45ca7
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 8%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -90,7 +88,7 @@ Campaign Standard提供數種資 **料管理功能** ，可匯入和匯出資料
 顯示全文:
 
 * [匯入和匯出資料](../../automating/using/about-data-import-and-export.md)
-* [使用案例：匯出／匯入自訂資源](../../automating/using/exporting-importing-custom-resources.md)
+* [使用案例：匯出/匯入自訂資源](../../automating/using/exporting-importing-custom-resources.md)
 
 ## 其他資源
 

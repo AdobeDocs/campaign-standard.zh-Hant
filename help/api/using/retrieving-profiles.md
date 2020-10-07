@@ -1,5 +1,5 @@
 ---
-title: 檢索配置檔案
+title: 檢索設定檔
 description: 進一步瞭解如何使用API擷取描述檔。
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
@@ -9,19 +9,20 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# 檢索配置檔案 {#retrieving-profiles}
+# 檢索設定檔 {#retrieving-profiles}
 
 檢索配置式是使用 **GET請求** 。
 
-然後，您可以使用篩選器、排序和編頁來調整搜尋。 有關詳細資訊，請參閱「其 [他操作](../../api/using/sorting.md) 」。
+然後，您可以使用篩選器、排序和編頁來調整搜尋。 For more on this, refer to the [Additional operations](../../api/using/sorting.md) section.
 
 <br/>
 

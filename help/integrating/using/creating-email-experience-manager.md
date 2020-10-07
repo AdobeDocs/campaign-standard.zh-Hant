@@ -9,10 +9,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
 discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 9efce905cd767013a22afb2a4d642e42b6616ef1
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '414'
+ht-degree: 2%
 
 ---
 
@@ -49,7 +50,7 @@ source-git-commit: 9efce905cd767013a22afb2a4d642e42b6616ef1
 
 1. 開啟您的新電子郵件內容。
 
-1. 在中 **[!UICONTROL Page properties]**，設 **[!UICONTROL Adobe Campaign]** 置為 **[!UICONTROL Cloud Service Configuration]**。 這可讓您的內容與Adobe Campaign實例進行通訊。
+1. 在中 **[!UICONTROL Page properties]**，設 **[!UICONTROL Adobe Campaign]** 置為 **[!UICONTROL Cloud Service Configuration]**。 如此可讓您的內容與Adobe Campaign實例進行通訊。
 
    如需詳細資訊，請觀看下列影片：
 

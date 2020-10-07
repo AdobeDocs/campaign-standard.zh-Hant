@@ -10,12 +10,10 @@ content-type: reference
 topic-tags: push-notifications
 discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 08513f960eb28f50e89e86e3130cf40c38e9a63e
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -260,7 +258,7 @@ public void onResume() {
 
 ## 使用推播通知追蹤使用者互動 {#track-user-push}
 
-您需要建立推播通知追蹤回傳的規則。 如需詳細資訊，請參 [閱推播通知追蹤回傳](../../administration/using/configuring-rules-launch.md#push-tracking-postback)。
+您需要建立推播通知追蹤回傳的規則。 如需詳細資訊，請參閱 [推播通知追蹤回傳](../../administration/using/configuring-rules-launch.md#push-tracking-postback)。
 
 ### 使用iOS {#track-user-push-ios}
 

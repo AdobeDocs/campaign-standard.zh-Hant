@@ -9,13 +9,11 @@ audience: automating
 content-type: reference
 topic-tags: channel-activities
 discoiquuid: 19796aca-6e9e-4d3a-8917-ba660ec7993c
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 7%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -62,4 +60,4 @@ ht-degree: 7%
 
 * [探索通訊通道](../../channels/using/get-started-communication-channels.md)
 * [關於通道活動](../../automating/using/about-channel-activities.md)
-* [個人化遞送](../../designing/using/personalization.md)
+* [個人化傳遞](../../designing/using/personalization.md)

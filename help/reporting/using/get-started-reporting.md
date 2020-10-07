@@ -9,18 +9,16 @@ audience: reporting
 content-type: reference
 topic-tags: about-reporting
 discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 12%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Get started with dynamic reporting {#get-started-reporting}
+# 開始使用動態報告 {#get-started-reporting}
 
 <table>
 <tr>
@@ -35,7 +33,7 @@ ht-degree: 12%
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-使用動態報 **告拖放介面**，您可以探索資料、判斷電子郵件促銷活動對最重要客戶細分的執行方式，以及從單一位置評估其對收件者的影響。
+With Dynamic reporting **drag-and-drop interface**, you can explore data, determine how your email campaigns performed against your most important customer segments and measure their impact on recipients from one single place.
 
 **運用多種功能** ，管理動態報表：即時重新整理資料、列印報表，或將其匯出為CSV檔案。 您也可以透過單次或循環寄送的電子郵件，與Campaign Standard使用者共用報表。
 

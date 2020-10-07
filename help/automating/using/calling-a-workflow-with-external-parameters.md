@@ -9,13 +9,11 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 5da41379d718d78d7990fd2d767ec21216487b0d
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +26,7 @@ Campaign Standard可讓您使用參數（要定位的對象名稱、要匯入的
 
 使用參數調用工作流的過程如下：
 
-1. 在活動中聲明參 **[!UICONTROL External signal]** 數。 請參 [閱聲明外部信號活動中的參數](../../automating/using/declaring-parameters-external-signal.md)。
+1. 在活動中聲明參 **[!UICONTROL External signal]** 數。 See [Declaring the parameters in the External signal activity](../../automating/using/declaring-parameters-external-signal.md).
 1. 設定活 **[!UICONTROL End]** 動或API呼叫，以定義參數並觸發工作流程 **[!UICONTROL External signal]** 活動。 See [](../../automating/using/defining-parameters-calling-workflow.md)
 1. 觸發工作流程後，這些參數便會被收錄到工作流程的事件變數中，並可在工作流程中使用。 請參閱[](../../automating/using/customizing-workflow-external-parameters.md)。
 

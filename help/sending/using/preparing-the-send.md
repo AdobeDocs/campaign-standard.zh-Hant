@@ -9,10 +9,11 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 discoiquuid: 003abc83-7f07-471f-ab2f-1d352d22c26f
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '459'
+ht-degree: 2%
 
 ---
 
@@ -37,7 +38,7 @@ source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
 
    ![](assets/preparing_delivery_6.png)
 
-1. 您的訊息會在準備傳送階段期間自動儲存。 如果您需要在準備步驟後對郵件的排程進行任何變更，則需要確定您再次按一下按鈕，以便將這些變更納入考量。 **[!UICONTROL Prepare]** 有關如何安排消息的詳細資訊，請參閱本 [頁](../../sending/using/about-scheduling-messages.md)。
+1. 您的訊息會在準備傳送階段期間自動儲存。 如果在準備步驟後需要對郵件的時間表進行任何更改，則需要確保再次按一下按鈕，以便將這些更改納入考慮範圍。 **[!UICONTROL Prepare]** For more information on how to schedule a message, refer to this [page](../../sending/using/about-scheduling-messages.md).
 
    ![](assets/preparing_delivery_5.png)
 
@@ -55,9 +56,9 @@ source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
 
 準備完成後，您的訊息就會準備好傳送。 有關詳細資訊，請參 [閱確認發送](../../sending/using/confirming-the-send.md)。
 
-**類型學規則**
+**類型規則**
 
-Adobe Campaign隨附一組內建的排版規則，這些規則會在訊息準備期間套用。 它們用來檢查訊息是否有效，以及是否符合您的品質標準。 請參閱 [類型](../../sending/using/about-typology-rules.md)。 例如，您可以定義自己的排版規則，以設定全域跨通道疲勞規則，自動排除促銷活動中過度索取的個人檔案。 請參 [閱疲勞規則](../../sending/using/fatigue-rules.md)。
+Adobe Campaign隨附一組內建的排版規則，這些規則會在訊息準備期間套用。 它們用來檢查訊息是否有效，以及是否符合您的品質標準。 請參閱 [類型](../../sending/using/about-typology-rules.md)。 例如，您可以定義自己的排版規則，以設定全域跨通道疲勞規則，自動排除促銷活動中過度索取的個人檔案。 請參閱[疲勞規則](../../sending/using/fatigue-rules.md)。
 
 **SMS訊息檢查**
 

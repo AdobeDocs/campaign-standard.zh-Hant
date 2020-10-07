@@ -10,10 +10,11 @@ content-type: reference
 topic-tags: preparing-and-testing-messages
 discoiquuid: 37320ec5-196c-4260-8156-98932da3e4a5
 context-tags: seedMember,overview
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: b44e4e7e6b48ebc5c618b014eacfc9909bc2661e
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -37,11 +38,11 @@ source-git-commit: b44e4e7e6b48ebc5c618b014eacfc9909bc2661e
 1. **在「電子郵件設計器** 」中預覽描述檔的訊息顯示方式。
 1. 傳送校樣。
 
-如需全域程式的詳細資訊，請參閱此處提供的教學課程 [影片](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html)。
+如需全域程式的詳細資訊，請參閱此處提供的教學課程 [影片](https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.translate.html)。
 
 >[!IMPORTANT]
 >
->此功能可讓您將個人資料傳送至外部電子郵件地址。 請記住，在Campaign Standard中執行隱私權要求（GDPR和CCPA）不會在外部執行該要求。
+>此功能可以讓您將個人資料傳送至外部電子郵件地址。請記住，在Campaign Standard 執行隱私權要求 (GDPR和CCPA) 不會在外部執行該要求。
 
 ## 選擇配置檔案和替代地址 {#selecting-profiles}
 
@@ -115,7 +116,7 @@ Campaign Standard可讓您匯入可用於測試的設定檔對象。 例如，�
 
    ![](assets/substitution_preparation.png)
 
-1. 在標籤 **[!UICONTROL Profile substitutions]** 中，按一下 **[!UICONTROL Import from an audience]**。
+1. 在 **[!UICONTROL Profile substitutions]** 索引標籤中，按一下 **[!UICONTROL Import from an audience]**。
 
    ![](assets/substitution_audience_import.png)
 
@@ -131,7 +132,7 @@ Campaign Standard可讓您匯入可用於測試的設定檔對象。 例如，�
 
    ![](assets/substitution_fromaudience.png)
 
-1. Click the **[!UICONTROL Import]** button. 來自對應於消息目標的觀眾的概要檔案被添加到標 **[!UICONTROL Profile substitution]** 簽，以及相關聯的替代地址和前置詞。
+1. 按一下 **[!UICONTROL Import]** 按鈕。來自對應於消息目標的觀眾的概要檔案被添加到標 **[!UICONTROL Profile substitution]** 簽，以及相關聯的替代地址和前置詞。
 
 ![](assets/substitution_audience_imported.png)
 
@@ -155,7 +156,7 @@ Campaign Standard可讓您匯入可用於測試的設定檔對象。 例如，�
 
    ![](assets/substitution_preview_access.png)
 
-1. 選取標 **[!UICONTROL Preview]** 簽，然後按一下 **[!UICONTROL Change profile]**。
+1. Select the **[!UICONTROL Preview]** tab, then click **[!UICONTROL Change profile]**.
 
    ![](assets/substitution_preview_changeprofile.png)
 
@@ -194,6 +195,7 @@ Campaign Standard可讓您匯入可用於測試的設定檔對象。 例如，�
    * **[!UICONTROL Load file]** 活動：匯入CSV檔案(如需此活動的詳細資訊，請參閱 [本節](../../automating/using/load-file.md))。
    * **[!UICONTROL Reconciliation]** 活動：將檔案中的資訊連結到資料庫中的資訊。 在此範例中，我們將使用描述檔的電子郵件地址做為協調欄位(如需此活動的詳細資訊，請參 [閱本節](../../automating/using/reconciliation.md))。
    * **[!UICONTROL Save audience]** 活動：根據匯入的檔案建立對象(如需此活動的詳細資訊，請參 [閱本節](../../automating/using/save-audience.md))。
+
    ![](assets/substitution_uc2.png)
 
 1. 執行工作流程，然後前往標 **[!UICONTROL Audiences]** 簽，以檢查對象是否已使用所需資訊建立。
@@ -212,11 +214,11 @@ Campaign Standard可讓您匯入可用於測試的設定檔對象。 例如，�
 
 ### 步驟3:配置消息的「配置檔案替代」頁籤
 
-1. 開啟活 **[!UICONTROL Email delivery]** 動。 在訊息控制面板中，按一下 **[!UICONTROL Audience]** 區塊。
+1. 開啟活 **[!UICONTROL Email delivery]** 動。 In the message dashboard, click the **[!UICONTROL Audience]** block.
 
    ![](assets/substitution_uc5.png)
 
-1. 選取標 **[!UICONTROL Profile substitutions]** 簽，然後按一下 **[!UICONTROL Import from an audience]**。
+1. Select the **[!UICONTROL Profile substitutions]** tab, then click **[!UICONTROL Import from an audience]**.
 
    ![](assets/substitution_uc6.png)
 
@@ -230,7 +232,7 @@ Campaign Standard可讓您匯入可用於測試的設定檔對象。 例如，�
 
    ![](assets/substitution_uc8.png)
 
-1. Click the **[!UICONTROL Import]** button. 來自觀眾的個人檔案會新增至清單，並加上其相關的替代地址和主旨行字首。
+1. 按一下 **[!UICONTROL Import]** 按鈕。來自觀眾的個人檔案會新增至清單，並加上其相關的替代地址和主旨行字首。
 
    ![](assets/substitution_uc9.png)
 
@@ -244,7 +246,7 @@ Campaign Standard可讓您匯入可用於測試的設定檔對象。 例如，�
 
    ![](assets/substitution_uc10.png)
 
-1. 選取標 **[!UICONTROL Preview]** 簽，然後按一下 **[!UICONTROL Change profile]**。
+1. Select the **[!UICONTROL Preview]** tab, then click **[!UICONTROL Change profile]**.
 
    ![](assets/substitution_uc_preview.png)
 
@@ -260,7 +262,7 @@ Campaign Standard可讓您匯入可用於測試的設定檔對象。 例如，�
 
 ### 步驟5:傳送校樣
 
-1. 在訊息控制面板中，按一下按 **[!UICONTROL Test]** 鈕，然後確認。
+1. In the message dashboard, click the **[!UICONTROL Test]** button, then confirm.
 
    ![](assets/substitution_uc_sendproof.png)
 

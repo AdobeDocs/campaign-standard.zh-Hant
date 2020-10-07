@@ -9,13 +9,11 @@ audience: sending
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 343ea01229779a32919bd68fd15e0c7ff6863353
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +30,7 @@ ht-degree: 1%
 >
 >此功能適用於電子郵件訊息和僅包含英文內容的資料庫。 如果您的例項包含其他語言的電子郵件，則訓練好的模型會不一致，並導致錯誤的結果。 只有在實例上已有模型可用時，才會顯示允許測試主題的選項。
 
-有關導入模型的詳細資訊，請參 [閱本節](#importing-models)。
+For more on importing models, see this [section](#importing-models).
 
 ## 測試主題行 {#testing-subject-line}
 
@@ -40,9 +38,9 @@ ht-degree: 1%
 
 1. 建立或開啟您的電子郵件。
 1. 開啟內容，並在對應的輸入欄位中輸入電子郵件的主旨。
-1. 按一下 **[!UICONTROL Test subject]** 按鈕以存取視 **[!UICONTROL Test your subject line]** 窗。 您仍然可以從此視窗編輯主題。
-1. 選擇要考慮開放速率預測的正確模型。 目前已推出多種機型，每種機型都對應特定產業。 有關使用模型的詳細資訊，請參 [閱本節](#importing-models)。
-1. 按一下「**[!UICONTROL Test]**」。
+1. Click the **[!UICONTROL Test subject]** button to access the **[!UICONTROL Test your subject line]** window. 您仍然可以從此視窗編輯主題。
+1. 選擇要考慮開放速率預測的正確模型。 目前已推出多種機型，每種機型都對應特定產業。 For more on using models, see this [section](#importing-models).
+1. 按一下 **[!UICONTROL Test]**。
 
 然後會分析您的主題。
 
@@ -50,12 +48,12 @@ ht-degree: 1%
 >
 >如果主題行太短，則無法分析並顯示錯誤消息。
 
-會計算數個指標，並顯示一組工具，以協助您：
+會計算數個指標，並顯示一組工具以協助您：
 
-* **預計開放率**: 此圖表提供您對電子郵件及其目前主旨的開放率的概念。
-* **主旨長度**: 此指標可讓您查看主題的目前長度是否正確，或是需要較長或較短。
-* **彩色字詞**: 在測試主題時，以綠色強調的字詞是對提高開放率預測貢獻最大的字詞。 以紅色強調的字詞是對提高開放率預測貢獻最小的字詞。 如果您新增或移除主題中的字詞，反白顯示的字詞將會變更。
-* **類別和字詞建議**: 在窗口的下部，將顯示選定模型的多個相關類別。 這些類別會依重要性順序排序，讓您查看主題是否包含透過核取符號與其關聯的字詞。 每個類別都包含一組建議字詞，可用於您的主題中，讓其更相關並提高開放率。 這些單字是特定類別中最常使用的單字。
+* **預計開放率**:此圖表提供您對電子郵件及其目前主旨的開放率的概念。
+* **主旨長度**:此指標可讓您查看主題的目前長度是否正確，或是需要較長或較短。
+* **彩色字詞**:在測試主題時，以綠色強調的字詞是對提高開放率預測貢獻最大的字詞。 以紅色強調的字詞是對提高開放率預測貢獻最小的字詞。 如果您新增或移除主題中的字詞，反白顯示的字詞將會變更。
+* **類別和字詞建議**:在窗口的下部，將顯示選定模型的多個相關類別。 這些類別會依重要性順序排序，讓您查看主題是否包含透過核取符號與其關聯的字詞。 每個類別都包含一組建議字詞，可用於您的主題中，讓其更相關並提高開放率。 這些單字是特定類別中最常使用的單字。
 
 >[!NOTE]
 >
@@ -73,7 +71,7 @@ ht-degree: 1%
 ### 培訓本地模型 {#training-local-model}
 
 * 如果您已使用Adobe Campaign，本機模型將會自動接受您已傳送訊息的訓練。
-* 如果您是Adobe Campaign的新手，可以從先前的系統/ESP擷取包含4欄的CSV檔案： 日期，主旨，開啟，傳送。 若要這麼做，請前往 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email]** > **[!UICONTROL Subject Line Import]** 並依照後續畫面上的指示進行。 主體上載完成後，請導入本地模型，如下所述。 本機模型會自動接受您上傳之資料的訓練。
+* 如果您是Adobe Campaign的新手，可以從先前的系統/ESP擷取包含4欄的CSV檔案：日期，主旨，開啟，傳送。 若要這麼做，請前往 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email]** > **[!UICONTROL Subject Line Import]** 並依照後續畫面上的指示進行。 主體上載完成後，請導入本地模型，如下所述。 本機模型會自動接受您上傳之資料的訓練。
 * 如果您是Adobe Campaign的新手，但無法如上所述取得CSV檔案，則可使用預先訓練好的模型 [](#pre-trained-models) ，或等到系統中有足夠的傳送資料來訓練本機模型。 系統會自動判斷您目前的資料集是否包含足夠的資料來識別模式和訓練模型。
 
 >[!NOTE]
@@ -94,14 +92,14 @@ ht-degree: 1%
 
 可用的型號包括：
 
-* 化妝品行業： subjectInsightComsetic.xml
-* 超市業： subjectInsightSupermarket.xml
-* 醫療行業： subjectInsightMedical.xml
-* 培訓的模型： subjectlineTraining.xml。
+* 化妝品行業：subjectInsightComsetic.xml
+* 超市業：subjectInsightSupermarket.xml
+* 醫療行業：subjectInsightMedical.xml
+* 培訓的模型：subjectlineTraining.xml。
 
 這些模型是不能訓練的。
 
-上傳模型後，功能就會自動啟動，訊息的主旨行欄位旁會顯示新選項。
+上傳模型後，功能就會自動啟動，訊息的主旨行欄位旁會出現新選項。
 
 >[!NOTE]
 >

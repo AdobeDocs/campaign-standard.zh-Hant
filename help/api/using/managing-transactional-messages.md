@@ -9,17 +9,18 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: cd559678dfadc575db42f3101e53bae2b971a049
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # 管理交易式訊息 {#managing-transactional-messages}
 
-## 關於交易式訊息傳遞
+## 關於交易式訊息傳送
 
 建立事件後，您必須將此事件的觸發整合至您的網站。
 
@@ -40,7 +41,7 @@ source-git-commit: cd559678dfadc575db42f3101e53bae2b971a049
 POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 ```
 
-* **&lt;ORGANIZATION>**:您的個人組織ID。 Refer to [this section](../../api/using/must-read.md).
+* **&lt;ORGANIZATION>**:您的個人組織ID。 請參閱[本區段](../../api/using/must-read.md)。
 
 * **&lt;transactionalAPI>**:交易訊息API endPoints。
 
@@ -88,7 +89,7 @@ POST響應返回建立事務事件時的事務事件狀態。 要檢索其當前
 
 <br/>
 
-***請求範例&#x200B;***
+***請求範例***
 
 POST要求傳送事件。
 
@@ -140,7 +141,7 @@ POST要求傳送事件。
 
 * **待定**:事件擱置中——事件在剛觸發時進入此狀態。
 * **處理**:事件正在等待傳送——它正被轉換為訊息並傳送訊息。
-* **暫停**:正在暫停事件進程。 它不再處理，但會保留在Adobe Campaign資料庫的佇列中。 如需詳細資訊，請參閱促銷活動 [檔案](https://helpx.adobe.com/campaign/standard/channels/using/event-transactional-messages.html#unpublishing-a-transactional-message)。
+* **暫停**:正在暫停事件進程。 它不再處理，但會保留在Adobe Campaign資料庫的佇列中。 For more on this, refer to the [Campaign documentation](https://helpx.adobe.com/campaign/standard/channels/using/event-transactional-messages.html#unpublishing-a-transactional-message).
 * **已處理**:已處理事件並成功傳送訊息。
 * **忽略**:傳送會忽略事件，通常是在隔離地址時。
 * **deliveryFailed**:處理事件時發生傳送錯誤。

@@ -10,10 +10,11 @@ content-type: reference
 topic-tags: users-and-security
 discoiquuid: 6f60c653-1d12-4d27-9bc8-ce8c19bca466
 context-tags: orgUnit,overview;orgUnit,main;geoUnit,overview;geoUnit,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,13 +27,13 @@ source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
 
 >[!IMPORTANT]
 >
->如果使用者未連結至任何單位，該使用者將無法連結至Adobe Campaign。 如果您想要限制特定使用者或使用者群組的存取權，請勿將其連結至裝 **[!UICONTROL All]**置。
+>如果使用者未連結至任何單位，該使用者將無法連結至Adobe Campaign。 如果您想要限制特定使用者或使用者群組的存取權，請勿將其連結至裝 **[!UICONTROL All]** 置。
 >
->預設情況下， **[!UICONTROL All (all)]**將組織單位分配給安全**[!UICONTROL Administrators]** 組。 它是唯讀的，無法修改。
+>依預設，將 **[!UICONTROL All (all)]** 組織單位指派給 **[!UICONTROL Administrators]** 安全性群組。其為唯讀狀態且無法修改。
 
 用戶對父單元中的所有對象都具有只讀訪問權限。 他可以讀取和寫入其單位和子單位的所有對象。 用戶無法訪問並行分支中的對象。
 
-預設情況下，只有 **[!UICONTROL All]**設備可用。
+預設情況下，只有 **[!UICONTROL All]** 設備可用。
 
 在為用戶分配組織單位時，此單位將始終應用於用戶建立的對象。
 
@@ -50,30 +51,30 @@ source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
 
 我們現在需要為Geometrixx Chates和Geometrixx安全性群組建立組織單位：
 
-1. 從Adobe促銷活動進階功能表，選 **[!UICONTROL Administration]**取>**[!UICONTROL Users & security]** > **[!UICONTROL Organizational units]**。
-1. 按一下 **[!UICONTROL Create]**開始配置組織單位。
+1. 從Adobe促銷活動進階功能表，選 **[!UICONTROL Administration]** 取> **[!UICONTROL Users & security]** > **[!UICONTROL Organizational units]**。
+1. 按一下 **[!UICONTROL Create]** 開始配置組織單位。
 
    ![](assets/manage_units_1.png)
 
-1. 將預設值 **[!UICONTROL Label]**變更**[!UICONTROL ID]** 為Geometrixx。
+1. 將預設值 **[!UICONTROL Label]** 變更 **[!UICONTROL ID]** 為Geometrixx。
 1. 然後，將此設備連結到父設備。 我們選了 **[!UICONTROL All]**。
 
    ![](assets/manage_units_2.png)
 
-1. 最後，按一下 **[!UICONTROL Create]**開始將新組織單位分配給安全組。
+1. 最後，按一下 **[!UICONTROL Create]** 開始將新組織單位分配給安全組。
 1. 請依照與Geometrixx Chattes單元相同的程式進行，只不過其父單位必須是先前建立的單位Geometrixx。
 
    ![](assets/manage_units_3.png)
 
 若要查看指派不同單位給不同安全性群組的影響，指派給管理員和Geometrixx群組的使用者將建立兩個電子郵件範本，以查看指派給標準使用者和Geometrixxx Chastes的其他使用者可以或無法存取的項目。
 
-1. 從進階功能表中，選取 **[!UICONTROL Resources]**>**[!UICONTROL Templates]** > **[!UICONTROL Delivery Templates]**。
-1. 複製現有範本，並視需要加以個人化。 有關詳細資訊，請參閱關於 [模板部分](../../start/using/marketing-activity-templates.md) 。
-1. 建立模板時，選擇要為模 **[!UICONTROL Edit properties]**板分配設備的表徵圖。
+1. 從進階功能表中，選取 **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery Templates]**。
+1. 複製現有範本，並視需要加以個人化。 For more on this, refer to the [About templates](../../start/using/marketing-activity-templates.md) section.
+1. 建立模板時，選擇要為模 **[!UICONTROL Edit properties]** 板分配設備的表徵圖。
 
    ![](assets/manage_units_6.png)
 
-1. 在下拉 **[!UICONTROL Access authorization]**式功能表中，選取組織單位。
+1. 在下拉 **[!UICONTROL Access authorization]** 式功能表中，選取組織單位。
 
    在此，我們將使用先前建立的組織單位Geometrixx建立一個範本。
 
@@ -89,9 +90,9 @@ source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
 
 ![](assets/manage_units_8.png)
 
-組織單位可以限制對不同功能（例如描述檔）的存取。 例如，如果我們的Geometrixxx Chates使用者存取標 **[!UICONTROL Profiles]**簽，他將能夠完整存取並修改Geometrixxx Chats組織單位的描述檔。
+組織單位可以限制對不同功能（例如描述檔）的存取。 例如，如果我們的Geometrixxx Chates使用者存取標 **[!UICONTROL Profiles]** 簽，他將能夠完整存取並修改Geometrixxx Chats組織單位的描述檔。
 
-具有Geometrixx組織單位的描述檔將只讀，但若我們的使用者嘗試修改一個描述檔，則會出現下列錯誤： **[!UICONTROL You do not have the rights needed to modify the 'profile' resource of ID]**。
+具有Geometrixx組織單位的描述檔將只讀，但若我們的使用者嘗試修改一個描述檔，則會出現下列錯誤： **[!UICONTROL You do not have the rights needed to modify the 'profile' resource of ID]**.
 
 ![](assets/manage_units_10.png)
 
@@ -113,14 +114,14 @@ source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
 
    ![](assets/user_management_9.png)
 
-1. 按一下 **[!UICONTROL Save]**.
+1. 按一下 **[!UICONTROL Save]**。
 1. 重新發佈自訂資源以更新結構。 有關發佈過程的詳細資訊，請參閱「 [更新結構](../../developing/using/data-model-concepts.md) 」部分。
 
-組織單位欄位會新增至您在區段中的設定檔 **[!UICONTROL Access authorization]**中。
+組織單位欄位會新增至您在區段中的設定檔 **[!UICONTROL Access authorization]** 中。
 
 ![](assets/user_management_10.png)
 
-**相關主題**:
+**相關主題**：
 
 * [關於單位](../../administration/using/organizational-units.md#about-units)
 * [關於存取管理](../../administration/using/about-access-management.md)

@@ -9,13 +9,11 @@ audience: sending
 content-type: reference
 topic-tags: about-sending-messages-with-campaign
 discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -98,4 +96,4 @@ Campaign Standard提供數種 **傳遞性工具** ，可協助您改善成功傳
 * [檢閱電子郵件傳送和報告（視訊）](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/reviewing-personalized-email-delivery-and-reports.html)
 * [電子郵件快速入門](https://helpx.adobe.com/tw/campaign/kb/acs-get-started-with-emails.html)
 * [提供最佳實務](../../sending/using/delivery-best-practices.md)
-* [添加控制組](../../sending/using/control-group.md)
+* [新增控制群組](../../sending/using/control-group.md)

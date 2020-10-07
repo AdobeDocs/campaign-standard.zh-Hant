@@ -9,10 +9,11 @@ audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +24,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 您只能為您所管理的IMS組織建立API金鑰。 如果顯示此訊息，而您想要建立API金鑰，而且您想要向IMS組織的管理員提出要求。
 
-* **對Adobe.io執行請求時，您會收到{"error_code":"403023","message":"Profile is not valid"}**
+* **對Adobe.io執行請求時，您會收到{&quot;error_code&quot;:&quot;403023&quot;,&quot;message&quot;:&quot;Profile is not valid&quot;}**
 
 這表示您的特定促銷活動產品的IMS布建有問題：ims團隊需要修正它。
 
@@ -79,11 +80,11 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 }
 ```
 
-* **對Adobe.io執行請求時，您會收到{"code":500, "message":"Aorsh. 出了點問題。 請檢查您的URI，然後再試一次。"}**
+* **對Adobe.io執行請求時，您會收到{&quot;code&quot;:500, &quot;message&quot;:&quot;Aorsh. 出了點問題。 請檢查您的URI，然後再試一次。&quot;}**
 
 Adobe.io宣告您的無效URI:您請求的URI很可能無效。 在Adobe.io上，當您選取Campaign服務時，會收到含有可能organization_id清單的選擇器。 您必須檢查您選擇的是否是您置入URL的URL。
 
-* **對Adobe.io執行請求時，您會收到{"error_code":"401013","message":"Oauth token is not valid"}**
+* **對Adobe.io執行請求時，您會收到{&quot;error_code&quot;:&quot;401013&quot;,&quot;message&quot;:&quot;Oauth token is not valid&quot;}**
 
 您的Token無效（用來產生Token的不當IMS呼叫）或您的Token已過期。
 

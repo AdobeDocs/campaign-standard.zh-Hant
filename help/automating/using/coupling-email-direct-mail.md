@@ -1,5 +1,5 @@
 ---
-title: 將電子郵件與直效郵件傳送結合
+title: 將電子郵件與直接郵件傳送連接
 description: 此使用案例提供從工作流程傳送電子郵件和直接郵件的範例。
 page-status-flag: never-activated
 uuid: 1db691b8-c072-4e99-b2fa-27844a179c55
@@ -10,24 +10,22 @@ content-type: reference
 topic-tags: direct-mail
 discoiquuid: 141fa646-5260-4450-bafb-431ef7736c73
 context-tags: delivery,directMailContent,back
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# 將電子郵件與直效郵件傳送結合 {#coupling-email-direct-mail}
+# 將電子郵件與直接郵件傳送連接 {#coupling-email-direct-mail}
 
-身為行銷人員，您可能想要透過直效郵件傳送型錄。 在紙本目錄中，某些頁面會使用促銷代碼和連結，在網站上購買產品，提供10%的折扣。
+身為行銷人員，您可能想要透過直效郵件傳送型錄。在紙本型錄中，某些頁面會使用促銷代碼和連結，透過網站購買產品可享有 10% 的折扣。
 
-線下與線上的結合十分有趣，因為有些客戶寧願線上上訂購，但偏好在書面上檢視產品。
+離線和線上的結合十分有趣，因為有些客戶寧願線上訂購，但偏好在書面上檢視產品。
 
-以下是可使用的直效郵件範本範例。
+以下是可使用的直接郵件範本範例。
 
 ![](assets/direct_mail_9.png)
 

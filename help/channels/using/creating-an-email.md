@@ -9,13 +9,11 @@ audience: channels
 content-type: reference
 topic-tags: email-messages
 discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e1e092249a447039c0d845f143be532f845ca1dc
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '549'
+ht-degree: 20%
 
 ---
 
@@ -54,7 +52,7 @@ ht-degree: 0%
 
    ![](assets/email_creation_4.png)
 
-   您可以直接使用預先定義的內容範本，或使用Dreamweaver或Adobe Experience Manager來設計訊息。 如果您不想當設計人員，也可以上傳已為您準備好的內容，或從URL匯入現有內容。 請參 [閱選擇現有內容](../../designing/using/using-existing-content.md)。
+   您可以直接使用預先定義的內容範本，或使用Dreamweaver或Adobe Experience Manager來設計訊息。 如果您不想當設計人員，也可以上傳已為您準備好的內容，或從URL匯入現有內容。 請參閱「[選擇現有內容](../../designing/using/using-existing-content.md)」。
 
 1. 預覽您的訊息。 請參閱「[預覽訊息](../../sending/using/previewing-messages.md)」。
 1. 確認建立電子郵件。

@@ -7,10 +7,11 @@ products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -40,7 +41,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                </tr>
                <tr>
                   <td>abTesting</td>
-                  <td>A/B測試</td>
+                  <td>A/B 測試</td>
                   <td>項目 </td>
                   <td> </td>
                </tr>
@@ -58,7 +59,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                </tr>
                <tr>
                   <td>aemContents</td>
-                  <td>Adobe Experience manager內容</td>
+                  <td>Adobe Experience Manager內容</td>
                   <td>系列 </td>
                   <td> </td>
                </tr>
@@ -100,13 +101,13 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                </tr>
                <tr>
                   <td>campaign(campaignBase)</td>
-                  <td>促銷活動</td>
+                  <td>Campaign</td>
                   <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>cmsAccount(extAccountAEMBase)</td>
-                  <td>Adobe Experience manager帳戶</td>
+                  <td>Adobe Experience Manager帳戶</td>
                   <td>link </td>
                   <td> </td>
                </tr>
@@ -235,7 +236,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                </tr>
                <tr>
                   <td>表徵圖</td>
-                  <td>表徵圖</td>
+                  <td>圖示</td>
                   <td>枚舉（位元組） </td>
                   <td>
                      <ul>
@@ -274,7 +275,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                </tr>
                <tr>
                   <td>迭代</td>
-                  <td>交貨</td>
+                  <td>傳遞</td>
                   <td>系列 </td>
                   <td> </td>
                </tr>
@@ -337,7 +338,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                </tr>
                <tr>
                   <td>對應(deliveryMapping)</td>
-                  <td>目標映射</td>
+                  <td>目標對應</td>
                   <td>link </td>
                   <td> </td>
                </tr>
@@ -355,7 +356,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                </tr>
                <tr>
                   <td>messageType</td>
-                  <td>頻道</td>
+                  <td>通道</td>
                   <td>枚舉（位元組） </td>
                   <td>
                      <ul>
@@ -414,7 +415,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                </tr>
                <tr>
                   <td>方案（方案庫）</td>
-                  <td>計畫</td>
+                  <td>方案</td>
                   <td>link </td>
                   <td> </td>
                </tr>

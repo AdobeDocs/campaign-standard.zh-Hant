@@ -1,18 +1,19 @@
 ---
 title: 添加資源的關鍵步驟
 description: 在此處瞭解在Adobe Campaign資料模型中新增資源的關鍵步驟。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: b8a32659-17ec-4e3e-92f2-0a0d6aaf2629
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 開發
-content-type: 參考
-topic-tags: 添加或擴展資源
+audience: developing
+content-type: reference
+topic-tags: adding-or-extending-a-resource
 discoiquuid: 7e130e62-3f6e-41cc-8108-e64127d8d6ec
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,5 +30,5 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 >[!CAUTION]
 >
->建立和修改資源是敏感操作，僅由專家用戶執行。
+>建立和修改資源是敏感操作，僅由專家使用者執行。
 

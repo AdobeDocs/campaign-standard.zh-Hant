@@ -9,13 +9,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 discoiquuid: bf718329-f181-46f7-80a2-b525a8dee46d
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 1e790f550f6eb84954f199caeda88a8fd90dfd85
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -33,14 +31,14 @@ Adobe Campaign可讓您使用不同的Adobe Experience Cloud應用程式來交�
 
 整合支援兩種Adobe Experience Cloud ID:
 
-* **訪客ID**: 這種ID類型可讓您協調Adobe Experience Cloud訪客與Adobe Campaign設定檔。 一旦透過Adobe IMS啟用連線，Marketing Cloud訪客ID服務就會啟動，取代Adobe Campaign使用的永久Cookie。 這可讓您識別訪客，然後將其連結至描述檔。
+* **訪客ID**:這種ID類型可讓您協調Adobe Experience Cloud訪客與Adobe Campaign設定檔。 一旦透過Adobe IMS啟用連線，Marketing Cloud訪客ID服務就會啟動，取代Adobe Campaign使用的永久Cookie。 這可讓您識別訪客，然後將其連結至描述檔。
    <br>當訪客ID按一下透過Adobe Campaign傳送的電子郵件中的描述檔時，就會立即連結至描述檔：
    * 如果描述檔已有訪客ID，則描述檔的瀏覽器資料可讓Adobe Campaign復原並自動將描述檔連結至訪客ID。
    * 如果找不到訪客ID，則會建立新ID。 此訪客ID儲存在描述檔追蹤記錄檔中。
 
    然後，具有相同CNAME的其他Adobe Marketing Cloud應用程式將會識別該ID。
 
-* **宣告的ID**: 此類型的ID可讓您將任何類型的資料與Adobe Campaign資料庫的元素協調。 在Adobe Campaign中，它會以預先定義的協調金鑰呈現。 在交換資料時，會雜湊Adobe Campaign資料庫識別碼。 然後，這些雜湊ID會與匯入或匯出中涉及之Adobe Marketing Cloud觀眾的雜湊ID進行比較。
+* **宣告的ID**:此類型的ID可讓您將任何類型的資料與Adobe Campaign資料庫的元素協調。 在Adobe Campaign中，它會以預先定義的協調金鑰呈現。 在交換資料時，會雜湊Adobe Campaign資料庫識別碼。 然後，這些雜湊ID會與匯入或匯出中涉及之Adobe Marketing Cloud觀眾的雜湊ID進行比較。
    <br>此整合支援一般宣告的ID、雜湊的宣告ID和加密的宣告ID。
 
    >[!CAUTION]
@@ -51,6 +49,6 @@ Adobe Campaign可讓您使用不同的Adobe Experience Cloud應用程式來交�
 
    例如，您可以解密加密的電子郵件地址或SMS號碼，即使Adobe Campaign資料庫中不存在觸發訊息，也可以傳送給使用者。
 
-下圖詳述此整合的運作方式。 AAM代表Adobe Audience Manager和ACS for Adobe Campaign Standard。
+下圖詳細說明此整合的運作方式。AAM代表Adobe Audience Manager和ACS for Adobe Campaign Standard。
 
 ![](assets/aam_diagram.png)

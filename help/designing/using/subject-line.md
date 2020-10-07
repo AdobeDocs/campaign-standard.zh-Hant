@@ -9,10 +9,11 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 6f89b420f0f98c13da1bfff8f9b1b29e015aef89
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,13 +28,13 @@ source-git-commit: 6f89b420f0f98c13da1bfff8f9b1b29e015aef89
 >
 >如果主旨行為空白，則訊息控制面板和電子郵件設計工具中會顯示警告。
 
-1. 建立電子郵件。
+1. 建立電子郵件.
 1. 轉到「電 **[!UICONTROL Properties]** 子郵件設計器」首頁的頁籤（可通過首頁表徵圖訪問）。
-1. 填寫區 **[!UICONTROL Subject]** 段。
+1. Fill in the **[!UICONTROL Subject]** section.
 
    ![](assets/email_designer_subject.png)
 
-1. 您也可以按一下對應的圖示，將個人化欄位、內容區塊和動態內容新增至主題行。 如需詳細資訊，請參閱「個 [人化」](../../designing/using/personalization.md)。
+1. 您也可以按一下對應的圖示，將個人化欄位、內容區塊和動態內容新增至主題行。 For more on this, see [Personalization](../../designing/using/personalization.md).
 1. 您可以嘗試不同的主題行，以便在傳送電子郵件之前，先估計您的電子郵件開放率。 如需詳細資訊，請參 [閱測試電子郵件的主旨行](../../sending/using/testing-subject-line-email.md)。
 
 ## 定義電子郵件的電子郵件發件人 {#email-sender}
@@ -46,7 +47,7 @@ source-git-commit: 6f89b420f0f98c13da1bfff8f9b1b29e015aef89
 
    您可以按一下「傳送者名稱」區塊，以變更 **傳送者名稱** 。 然後，欄位會變成可編輯，您可以輸入要使用的名稱。
 
-   此欄位可以個人化。 若要這麼做，您可以按一下傳送者名稱下方的圖示，新增個人化欄位、內容區塊和動態內容。 如需詳細資訊，請參閱「個 [人化」](../../designing/using/personalization.md)。
+   此欄位可以個人化。 若要這麼做，您可以按一下傳送者名稱下方的圖示，新增個人化欄位、內容區塊和動態內容。 For more on this, see [Personalization](../../designing/using/personalization.md).
 
 * 無 **[!UICONTROL From: email address]** 法從此部分編輯欄位。 您可以透過從其控制面板編輯電子郵件的屬性來變更。 如需詳細資訊，請參 [閱電子郵件進階參數清單](../../administration/using/configuring-email-channel.md#advanced-parameters)。
 

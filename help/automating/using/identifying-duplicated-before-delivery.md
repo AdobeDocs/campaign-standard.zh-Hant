@@ -1,6 +1,6 @@
 ---
-title: 在傳送前識別重複項目
-description: 以下示例說明了一個重複資料消除，它允許您在發送電子郵件之前排除目標的重複項。 這表示您不必多次傳送通訊至相同的描述檔。
+title: 在傳遞之前識別重複項目
+description: 以下範例說明重複資料刪除可讓您在傳送電子郵件之前排除目標的重複項目。這表示您可以避免將通訊多次傳送至相同的設定檔。
 page-status-flag: never-activated
 uuid: 11a22a9c-3bfe-4953-8a52-2f4e93c128fb
 contentOwner: sauviat
@@ -10,36 +10,34 @@ content-type: reference
 topic-tags: targeting-activities
 discoiquuid: e7a5e1e7-4680-46c7-98b8-0a47bb7be2b8
 context-tags: dedup,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 7ffa48365875883a98904d6b344ac005afe26e18
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '285'
-ht-degree: 0%
+ht-degree: 78%
 
 ---
 
 
-# 在傳送前識別重複項目 {#identifying-duplicates-before-a-delivery}
+# 在傳遞之前識別重複項目 {#identifying-duplicates-before-a-delivery}
 
-以下示例說明了一個重複資料消除，它允許您在發送電子郵件之前排除目標的重複項。 這表示您不必多次傳送通訊至相同的描述檔。
+以下範例說明重複資料刪除可讓您在傳送電子郵件之前排除目標的重複項目。這表示您可以避免將通訊多次傳送至相同的設定檔。
 
-工作流由以下幾部分組成：
+工作流程由以下部分組成：
 
 ![](assets/deduplication_example_workflow.png)
 
-* 一 [個查詢](../../automating/using/query.md) ，允許您定義電子郵件的目標。 在此，工作流將目標鎖定在客戶端資料庫中已存留超過一年的18到25歲的所有配置檔案。
+* A [Query](../../automating/using/query.md) which allows you to define the target of the email. 在此，工作流將目標鎖定在客戶端資料庫中已存留超過一年的 18 到 25 歲的所有配置檔案。
 
    ![](assets/deduplication_example_query.png)
 
-* 重複 [資料消除](../../automating/using/deduplication.md) (Deduplication)活動，允許您識別來自前一查詢的重複項。 在此示例中，每個復本僅保存一條記錄。 重複項目是使用電子郵件地址識別。 這表示每個要存在於定位中的電子郵件地址只能傳送一次電子郵件傳送。
+* A [Deduplication](../../automating/using/deduplication.md) activity, which allows you to identify the duplicates that come from the preceding query. 在此範例中，僅會針對每個重複項目儲存一個記錄。重複項目是使用電子郵件地址識別。這表示每個要存在於定位中的電子郵件地址只能傳送一次電子郵件傳送。
 
-   選擇的重複資料消除方 **[!UICONTROL Non-empty value]**&#x200B;法。 這可讓您確保在記錄中，若有重複項目，優先順序會指定給已提供 **名字** 。 如果在電子郵件內容的個人化欄位中使用名字，這會使其更連貫。
+   選取的重複刪除資料方法是 **[!UICONTROL Non-empty value]**。這可讓您確保在記錄中，若有重複項目，會對已提供&#x200B;**名字**&#x200B;的項目指定優先順序。如果在電子郵件內容的個人化欄位中使用名字，這會使其更加連貫。
 
-   此外，還新增了額外的轉場功能，以保留復本並列出復本。
+   此外，還新增了額外的轉變功能，以保留複本並列出複本。
 
    ![](assets/deduplication_example_dedup.png)
 
-* 在重 [復資料消除](../../automating/using/email-delivery.md) (DTF)的主要出站過渡之後發送電子郵件。
-* 在重複 [資料消除的額外過渡](../../automating/using/save-audience.md) 後放置的「保存對象」活動，以便將重複資料保存在 **Duplicates對象中** 。 此對象可重複使用，以直接將其成員排除在每封電子郵件的傳送之外。
+* An [Email delivery](../../automating/using/email-delivery.md) placed after the main outbound transition of the deduplication.
+* A [Save audience](../../automating/using/save-audience.md) activity placed after the additional transition of the deduplication to save the duplicates in a **Duplicates** audience. 此對象可重複使用，以直接將其成員排除在每封電子郵件的傳送之外。

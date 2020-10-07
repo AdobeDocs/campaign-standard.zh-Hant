@@ -9,10 +9,8 @@ audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
 discoiquuid: 6fa50f0d-3dcf-4a9e-bccc-1ecda2bfb449
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 17%
@@ -82,10 +80,10 @@ Adobe Campaign 使用兩種類型的 Cookie：
 
 在該列 **[!UICONTROL Type]** 中，可能的值為：
 
-* **[!UICONTROL Email click]**: 收件者點按了自訂連結。
-* **[!UICONTROL Mirror page]**: 收件者點按了鏡像頁面的連結。
-* **[!UICONTROL Open]**: 收件者開啟電子郵件。
-* **[!UICONTROL Opt-out]**: 收件者按一下取消訂閱的連結。
+* **[!UICONTROL Email click]**:收件者點按了自訂連結。
+* **[!UICONTROL Mirror page]**:收件者點按了鏡像頁面的連結。
+* **[!UICONTROL Open]**:收件者開啟電子郵件。
+* **[!UICONTROL Opt-out]**:收件者按一下取消訂閱的連結。
 
 >[!NOTE]
 >

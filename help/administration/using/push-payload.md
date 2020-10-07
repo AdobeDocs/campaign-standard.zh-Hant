@@ -10,18 +10,16 @@ content-type: reference
 topic-tags: push-notifications
 discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 91cb524e104fbaa7f3334578d82b3878cc15fc9b
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 
-# Understanding push notifications payload structure {#push-payload}
+# 瞭解 推播通知裝載結構 {#push-payload}
 
 Adobe Campaign可讓您在iOS和Android行動裝置上，將個人化和分段的推播通知傳送至行動應用程式（行動應用程式）。
 
@@ -214,7 +212,7 @@ Adobe Campaign可讓您在iOS和Android行動裝置上，將個人化和分段�
 | 訊息標題 <br>訊息內文 | 警報→警 <br> 報→正文 | 標題內 <br>文 | 此資料包含警報消息的具體資訊。<br>標題和正文鍵提供警報的內容。 |
 | 播放音效 | sound | sound | 自訂音效以播放警報。 |
 | 徽章的值 | 徽章 | 徽章 | 用於標籤應用程式圖示的整數值。 |
-| 新增深層連結 | uri | 納 | 開發人員可讓您將使用者直接帶到應用程式內的內容（而非開啟網頁瀏覽器頁面）。 |
+| 新增深層連結 | uri | 納 | 開發人員可讓您將使用者直接導向到應用程式內的內容（而非開啟網頁瀏覽器頁面）。 |
 | 類別 | 類別 | 類別 | 顯示具有遠程通知的自定義操作。 <br>類別鍵可協助系統將該類別的動作顯示為警報介面中的按鈕。 |
 | 自訂欄位 | custom_field1, custom_field2 ... | custom_field1, custom_field2 ... | 您想要傳送至應用程式的任何自訂資料。 |
 | 多媒體內容URL（影像、gif、音訊和視訊檔案）<br>（僅適用於iOS 10或更新版本） | media-attachment-url | 納 | 媒體檔案的URL，以新增豐富內容至通知。 <br>當提供此URL的值時，可變內容標幟會自動傳送至裝載。 <br> （僅適用於iOS 10或更新版本） |

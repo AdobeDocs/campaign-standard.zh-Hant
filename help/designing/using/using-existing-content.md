@@ -9,16 +9,17 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: d68dbc3e9579f044b7ac1f76ac729548057bb6ec
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Designing using existing content {#designing-using-existing-content}
 
-## 選取現有內容{#selecting-an-existing-content}
+## Selecting an existing content{#selecting-an-existing-content}
 
 Adobe Campaign隨附一組預先定義的內容，以協助您開始使用。 您可以使用其中一項，或者，如果您需要傳送的訊息內容是在Adobe Campaign以外準備，則可從電腦或URL匯入。
 
@@ -39,6 +40,7 @@ Adobe Campaign隨附一組預先定義的內容，以協助您開始使用。 �
    * [從頭開始](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)，開始創作：按一下按 **[!UICONTROL Create]** 鈕。
    * [以ZIP或HTML檔案形式從您的電腦取得內容](#importing-content-from-a-file):按一下按 **[!UICONTROL Upload]** 鈕。
    * [來自現有URL的內容](#importing-content-from-a-url) （僅限電子郵件）:按一下按 **[!UICONTROL Import from URL]** 鈕。
+
    ![](assets/des_loading_2.png)
 
 1. 載入內容。 選取的內容會取代目前的內容。
@@ -64,7 +66,7 @@ Adobe Campaign隨附一組預先定義的內容，以協助您開始使用。 �
 
 ## 匯入現有的電子郵件內容 {#importing}
 
-### 從檔案匯入內容 {#importing-content-from-a-file}
+### Importing content from a file {#importing-content-from-a-file}
 
 在「電子郵件設計器」首頁中，按一 **[!UICONTROL Upload]** 下按鈕，從電腦上傳檔案，然後確認。
 
@@ -79,7 +81,7 @@ zip檔案結構沒有限制。 但是，參照HTML檔案必須是相對的，並
 >
 >對於電子郵件內容，我們建議您匯入包含樣式表的單一HTML檔案。
 
-#### 從URL匯入內容 {#importing-content-from-a-url}
+#### Importing content from a URL {#importing-content-from-a-url}
 
 在從URL匯入內容之前，請務必遵循下列要求：
 
@@ -102,7 +104,7 @@ zip檔案結構沒有限制。 但是，參照HTML檔案必須是相對的，並
    ![](assets/email_designer_importfromurl.png)
 
 1. 定義將從中擷取內容的URL。
-1. 按一下 **[!UICONTROL Confirm]**.
+1. 按一下 **[!UICONTROL Confirm]**。
 
 **相關主題：**
 
@@ -160,7 +162,7 @@ zip檔案結構沒有限制。 但是，參照HTML檔案必須是相對的，並
 
 有關將現有電子郵件轉換為與電子郵件設計人員相容的電子郵件的詳細資訊，請參 [閱本節](../../designing/using/using-existing-content.md)。
 
-**相關主題**:
+**相關主題**：
 
 * [建立電子郵件](../../channels/using/creating-an-email.md)
 * [電子郵件設計人員簡介影片](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=chi_hant)
@@ -207,11 +209,11 @@ zip檔案結構沒有限制。 但是，參照HTML檔案必須是相對的，並
 在您識別所有區塊後，請在「電子郵件設計器」中，針對現有電子郵件的每個區段重複下列步驟：
 
 1. 開啟「電子郵件設計工具」以建立空的電子郵件內容。
-1. 設定主體級別屬性：背景顏色、寬度等。 如需詳細資訊，請參閱「編輯 [電子郵件樣式](../../designing/using/styles.md)」。
-1. 添加結構元件。 如需詳細資訊，請參閱「 [編輯電子郵件結構」](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
-1. 新增HTML元件。 如需詳細資訊，請參 [閱新增片段和元件](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
+1. 設定主體級別屬性：背景顏色、寬度等。 如需詳細資訊，請參閱[編輯電子郵件樣式](../../designing/using/styles.md)。
+1. 添加結構元件。 如需詳細資訊，請參閱「[編輯電子郵件結構](../../designing/using/designing-from-scratch.md#defining-the-email-structure)」。
+1. 新增HTML元件。 如需詳細資訊，請參閱「[新增片段及元件](../../designing/using/designing-from-scratch.md#defining-the-email-structure)」。
 1. 將HTML複製並貼入該元件。
-1. 切換至行動裝置檢視。 For more on this, see [this section](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
+1. 切換至行動裝置檢視。 如需詳細資訊，請參閱[本區段](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)。
 
    回應式檢視會中斷，因為您的CSS遺失。
 

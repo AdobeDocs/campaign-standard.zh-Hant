@@ -9,10 +9,11 @@ audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
 discoiquuid: 36750524-eb54-47e8-aa1b-ae0b94f58cb1
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 80f6a384e99a7cebbe5c570f3273eceb393fd9b0
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

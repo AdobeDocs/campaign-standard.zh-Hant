@@ -10,13 +10,11 @@ content-type: reference
 topic-tags: push-notifications
 discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 6c5cf90211451587537b9a6121430fc4f352384c
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '819'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -39,7 +37,7 @@ ht-degree: 0%
 
 * **推播開啟** -當推播通知已傳送至裝置，且使用者已點按通知導致應用程式開啟時。  這類似於推播點按，但是當通知關閉時，不會觸發推播開啟。
 
-若要實作Campaign Standard的追蹤，行動應用程式必須包含Mobile SDK。 這些SDK可在Adobe Mobile Services上取得。 For more on this, refer to this [page](../../administration/using/configuring-a-mobile-application.md).
+若要實作Campaign Standard的追蹤，行動應用程式必須包含Mobile SDK。 這些SDK可在Adobe Mobile Services上取得。 如需關於此項目的詳細資訊，請參閱此[頁面](../../administration/using/configuring-a-mobile-application.md)。
 
 若要傳送追蹤資訊，有三個變數需要傳送。 兩個是從「促銷活動標準」收到的資料的一部分，另一個是指定印象、按一下或開 **啟的****動作** 變 **數**。
 
@@ -82,7 +80,7 @@ public void onMessageReceived(RemoteMessage remoteMessage) {
 * 使用者會看到通知，但會將其清除。
 * 使用者會看到通知，並按一下通知，將其轉換為開啟的追蹤。
 
-若要處理此問題，您必須使用兩種方式： 一個用於按一下通知，另一個用於關閉通知。
+若要處理此問題，您必須使用兩種方式：一個用於按一下通知，另一個用於關閉通知。
 
 **[!UICONTROL MyFirebaseMessagingService.java]**
 
@@ -200,11 +198,11 @@ private void handleTracking() {
 
 若要瞭解iOS通知的運作方式，應用程式的三種狀態必須詳細說明：
 
-* **前景**: 當應用程式目前處於作用中且目前在畫面上（在前景中）時。
-* **背景**: 當is應用程式未在螢幕上，但程式未關閉時。 當您按兩下「首頁」按鈕時，通常會展示背景中的所有應用程式。
-* **關閉／關閉**: 應用程式的程式已經中斷。
+* **前景**:當應用程式目前處於作用中且目前在畫面上（在前景中）時。
+* **背景**:當is應用程式未在螢幕上，但程式未關閉時。 當您按兩下「首頁」按鈕時，通常會展示背景中的所有應用程式。
+* **關閉／關閉**:應用程式的程式已經中斷。
 
-如果應用程式關閉，Apple會在應用程式重新啟動之前呼叫該應用程式。 這表示您無法得知iOS上的通知何時收到。
+如果應用程式關閉，Apple會在應用程式重新啟動之前呼叫該應用程式。 這表示您將無法得知iOS上的通知何時收到。
 
 為了在應用程 **[!UICONTROL Impression]** 式在背景時仍能進行追蹤，我們需要傳送 **[!UICONTROL Content-Available]** 來讓應用程式知道必須進行追蹤。
 

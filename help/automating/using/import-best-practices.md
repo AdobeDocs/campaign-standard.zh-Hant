@@ -9,13 +9,11 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 9a4c2219d5f8b312deb476d852cf5db9cd19afcb
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '569'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -24,7 +22,7 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->使用此功能時，請記住SFTP儲存空間、資料庫儲存空間和作用中的設定檔限制，請依照您的AdobeCampaign合約規定。
+>使用此功能時，請記住SFTP儲存空間、資料庫儲存空間和作用中的設定檔限制，請視您的Adobe Campaign合約而定。
 
 謹慎並遵循下面詳述的幾個簡單規則，將有助於確保資料庫內的資料一致性，並避免在資料庫更新或資料匯出期間發生常見錯誤。
 
@@ -38,7 +36,7 @@ ht-degree: 1%
 
 切勿假設傳入的資料是一致且正確的，或IT部門或Adobe Campaign主管負責處理。 在專案期間，請牢記資料清理。 在匯入資料時，可以消除重複資料、進行協調並維持一致性。
 
-「示例：」( [Example:)中提供了為導入資料而設計的通用工作流模板的示例。 「導入工作流模板](../../automating/using/creating-import-workflow-templates.md) 」部分。
+「示例：」( [Example:)中提供了為導入資料而設計的通用工作流模板的示例。「導入工作流模板](../../automating/using/creating-import-workflow-templates.md) 」部分。
 
 >[!NOTE]
 >
@@ -48,7 +46,7 @@ ht-degree: 1%
 
 * [載入檔案活動](../../automating/using/load-file.md)
 * [協調活動](../../automating/using/reconciliation.md)
-* [區段活動](../../automating/using/segmentation.md)
+* [細分活動](../../automating/using/segmentation.md)
 * [重複資料消除活動](../../automating/using/deduplication.md)
 * [更新資料活動](../../automating/using/update-data.md)
 
@@ -58,10 +56,10 @@ ht-degree: 1%
 
 例如：
 
-* 分隔符號： 制表符或分號
+* 分隔符號：制表符或分號
 * 首行含標題
 * 無字串分隔字元
-* 日期格式： YYYY/MM/DD HH:mm:SS
+* 日期格式：YYYY/MM/DD HH:mm:SS
 
 要導入的檔案示例：
 

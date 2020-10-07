@@ -9,12 +9,10 @@ audience: automating
 content-type: reference
 topic-tags: channel-activities
 discoiquuid: e61bdaee-4b48-4845-a2a5-574b577ea796
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 7ffa48365875883a98904d6b344ac005afe26e18
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -30,14 +28,15 @@ ht-degree: 0%
 
 1. Scheduler [](../../automating/using/scheduler.md) （調度程式）活動允許您在傳送開始前的工作流天數開始，以便能夠在任何給定時區的晚上8點向每個訂戶發送通知：
 
-   * 在欄位中， **[!UICONTROL Execution frequency]** 選取「每月」。
+   * In the **[!UICONTROL Execution frequency]** field, select Monthly.
    * 在欄位中選擇8 **[!UICONTROL Time]** pm。
    * 選擇每月傳送的日期。
    * 為工作流選擇開始日期，至少在交貨開始前一天。 否則，如果所選時間已在其時區中過去，某些收件者可能會在一天後收到此訊息。
    * 在標籤 **[!UICONTROL Execution options]** 中，在欄位中選取您的工作流程將在哪個時 **[!UICONTROL Time zone]** 區開始。 例如，在這裡，工作流程將於太平洋時間的晚上8點開始，即當月第一天的一週，以便為所有適用的時區建立傳送。
+
    >[!NOTE]
    >
-   >依預設，選取的時區是工作流屬性中定義的時區(請參 [閱建立工作流](../../automating/using/building-a-workflow.md))。
+   >依預設，選取的時區是工作流程屬性中定義的時區（請參閱[建立工作流程](../../automating/using/building-a-workflow.md)）。
 
    ![](assets/wkf_push_example_5.png)
 
@@ -54,9 +53,9 @@ ht-degree: 0%
 1. 「推 [播通知傳送](../../automating/using/push-notification-delivery.md) 」活動可讓您輸入訊息的內容，並選取您要使用的個人化欄位：
 
    * 選擇選 **[!UICONTROL Recurring notification]** 項。
-   * 定義推播通知內容。 如需推播通知內容的詳細資訊，請參閱此 [節](../../channels/using/preparing-and-sending-a-push-notification.md)。
-   * 在塊中 **[!UICONTROL Schedule]** 選擇 **[!UICONTROL Messages to be sent automatically on the time zone specified below]**。 在這裡，我們選擇了 **[!UICONTROL Time zone of the contact date]** 太平洋作為工作流 **[!UICONTROL Scheduler]**。
-   * 在欄位 **[!UICONTROL Optimize the sending time per recipient]** 中，選擇 **[!UICONTROL Send at the recipient's time zone]**。
+   * 定義推播通知內容。 For more information on push notification content, refer to this [section](../../channels/using/preparing-and-sending-a-push-notification.md).
+   * In the **[!UICONTROL Schedule]** block, select **[!UICONTROL Messages to be sent automatically on the time zone specified below]**. 在這裡，我們選擇了 **[!UICONTROL Time zone of the contact date]** 太平洋作為工作流 **[!UICONTROL Scheduler]**。
+   * 在 **[!UICONTROL Optimize the sending time per recipient]** 欄位中，選取 **[!UICONTROL Send at the recipient's time zone]**。
 
       ![](assets/wkf_push_example_4.png)
 

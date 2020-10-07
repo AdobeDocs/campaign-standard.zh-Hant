@@ -10,13 +10,11 @@ content-type: reference
 topic-tags: managing-audiences
 discoiquuid: 750ecd8d-67a5-4180-bfec-2a8e3098c812
 context-tags: audience,wizard;audience,overview;delivery,audience,back
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: d487600fc4f3004804e93347b83edfe4e01cceeb
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -67,7 +65,7 @@ ht-degree: 2%
 
 觀眾現在已準備好要啟動，您可將其用作促銷活動的目標(請參閱「定 [位Adobe Experience Platform觀眾](../../automating/using/aep-targeting-audiences.md)」)。
 
-## 編輯觀眾
+## 編輯對象
 
 若要編輯對象，請視需要在「區段產生器」介面中開啟並修改規則(請 [參閱使用區段產生器](../../audiences/using/aep-using-segment-builder.md))。
 

@@ -1,18 +1,19 @@
 ---
 title: 新增視覺效果
 description: 動態報表提供一組視覺化，以新增圖形表示至報表。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: f4d851c1-8ef8-4295-a7bc-eb9608fbc497
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 報告
-content-type: 參考
-topic-tags: 自訂報表
+audience: reporting
+content-type: reference
+topic-tags: customizing-reports
 discoiquuid: 6170342b-7e16-4cc5-81a0-fa0bef8569a8
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -39,6 +40,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
    * **顯示雙軸**:將另一個軸添加到圖形中。
    * **限制最大項目**:限制顯示的圖形數。
    * **閾值**:可讓您設定圖形的臨界值。 它看起來像黑色的虛線。
+
    ![](assets/dynamic_report_visualization_3.png)
 
 此視覺化功能可讓您更清楚地檢視報表中的資料。

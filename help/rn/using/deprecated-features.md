@@ -9,13 +9,11 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
 discoiquuid: null
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 5b99fb9fbf8bdac506aeb8a35f30a7ef33aaa7e6
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '664'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
@@ -68,7 +66,7 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
  <tbody> 
   <tr> 
    <td> <p>在啟動Campaign 19.4發行時，已不再使用Campaign API和介面來存取和刪除請求。 2步驟描述檔刪除將無法使用。 使用 <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe隱私權核心服務</a>。</p></br>
-   <p>另請參閱 <a href="https://helpx.adobe.com/campaign/kb/acs-privacy.html">Campaign Standard中的隱私權管理</a>。</p>
+   <p>另請參閱 <a href="https://helpx.adobe.com/tw/campaign/kb/acs-privacy.html">Campaign Standard中的隱私權管理</a>。</p>
   <p> 
   <em>目標移除日期：2021 年</em></p>
    </td> 

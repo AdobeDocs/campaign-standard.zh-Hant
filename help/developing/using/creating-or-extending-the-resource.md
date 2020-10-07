@@ -9,10 +9,11 @@ audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 discoiquuid: 8dc45c37-6908-407e-8e41-4a4188cba2b3
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -38,13 +39,13 @@ source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 1. 從 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom Resources]**&#x200B;按一下按 **[!UICONTROL Create]** 鈕。
 1. 選擇要執行的動作：
 
-   * **[!UICONTROL Create a new resource]**:輸入和 **[!UICONTROL Label]** 字 **[!UICONTROL ID]** 段。 欄位 **[!UICONTROL ID]** 為必填欄位。 如果將「標籤」欄位保留為空白，則會自動從ID完成。
+   * **[!UICONTROL Create a new resource]**:輸入和 **[!UICONTROL Label]** 字 **[!UICONTROL ID]** 段。 **[!UICONTROL ID]** 欄位為必填欄位。如果將「標籤」欄位保留為空白，則會自動從ID完成。
 
       ![](assets/schema_extension_2.png)
 
       >[!NOTE]
       >
-      >最多使用30個字元。
+      >最多使用 30 個字元。
 
    * **[!UICONTROL Extend an existing resource]**:選擇要擴展的資源。
 

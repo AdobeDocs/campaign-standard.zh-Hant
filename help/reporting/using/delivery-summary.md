@@ -1,19 +1,20 @@
 ---
 title: 傳送摘要
 description: 透過「傳送摘要現成可用」報表，瞭解您的傳送統計資料，例如傳送數、彈回數和開啟數。
-page-status-flag: 從未激活
+page-status-flag: never-activated
 uuid: 9f64a430-8fee-4c4c-96e6-2913f4d6b831
-contentOwner: 紹維亞
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 報告
-content-type: 參考
-topic-tags: 清單
+audience: reporting
+content-type: reference
+topic-tags: list-of-reports
 discoiquuid: 536067df-d16d-472a-850a-5fb7c609d60a
-context-tags: deliveryLecurationReport,main;campaignLecurrationReport,main;programLecurrationReport,main
-internal: n
-snippet: y
+context-tags: deliveryCirculationReport,main;campaignCirculationReport,main;programCirculationReport,main
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

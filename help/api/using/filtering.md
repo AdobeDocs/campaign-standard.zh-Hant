@@ -9,10 +9,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +30,7 @@ source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
 
 ***請求範例***
 
-下面的示例負載顯示如何檢索「配置檔案」資源的「byText」過濾器元資料。 首先，對"profile"資源元資料執行GET請求。
+下面的示例負載顯示如何檢索「配置檔案」資源的「byText」過濾器元資料。 首先，對&quot;profile&quot;資源元資料執行GET請求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/resourceType/profile \
@@ -197,11 +198,11 @@ source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
 
 ## 自訂篩選器
 
-如果您想要使用自訂篩選，則必須在Adobe Campaign standard介面中建立並自訂篩選。 然後，自訂篩選器的行為將與預設篩選器相同：
+如果您想要使用自訂篩選，則必須在Adobe Campaign Standard介面中建立並自訂篩選。 然後，自訂篩選器的行為將與預設篩選器相同：
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/by<customFilterName>?<customFilterparam>=<customFilterValue>`
 
-如需詳細資訊，請參閱Campaign standard檔案：
+如需詳細資訊，請參閱Campaign Standard檔案：
 
 * [設定篩選定義](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html).
 * [使用案例：使用複合標識鍵調用資源](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html)。
@@ -210,7 +211,7 @@ source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
 
 ***請求範例***
 
-檢索事務處理金額為100$或更多的「配置檔案」資源的GET請求示例。 請注意，「byAmount」篩選器已先在Adobe Campaign standard介面中定義，並連結至「交易」自訂表格。
+檢索事務處理金額為100$或更多的「配置檔案」資源的GET請求示例。 請注意，「byAmount」篩選器已先在Adobe Campaign Standard介面中定義，並連結至「交易」自訂表格。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byAmount?amount_parameter=100 \

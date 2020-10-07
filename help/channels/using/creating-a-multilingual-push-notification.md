@@ -9,10 +9,11 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 discoiquuid: f9bb2235-d388-4025-9ace-734beb0c1961
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,11 +30,11 @@ source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 若要在推播通知傳遞中使用多語言內容變體，請遵循下列步驟：
 
-* [步驟1: 上傳多語言內容變體](#step-1--upload-multilingual-content-variant)
-* [步驟2: 使用多語言內容變體預覽並完成推播通知](#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants)
-* [步驟3: 傳送及分析多語言推播通知傳送](#step-3--send-and-analyze-multilingual-push-notification-delivery)
+* [步驟1:上傳多語言內容變體](#step-1--upload-multilingual-content-variant)
+* [步驟2:使用多語言內容變體預覽並完成推播通知](#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants)
+* [步驟3:傳送及分析多語言推播通知傳送](#step-3--send-and-analyze-multilingual-push-notification-delivery)
 
-## 步驟1: 上傳多語言內容變體 {#step-1--upload-multilingual-content-variant}
+## 步驟1:上傳多語言內容變體 {#step-1--upload-multilingual-content-variant}
 
 在個人化您的多語言推播通知之前，我們首先需要將內容變體上傳至多語言傳送範本，並建立傳送。
 
@@ -46,13 +47,13 @@ source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
    ![](assets/multivariant_push_2.png)
 
-1. 輸入您的推播通知屬性，並在欄位中選取您的行動應用 **[!UICONTROL Associate a Mobile App to a delivery]** 程式。
+1. Enter your push notification properties and select your mobile app in the **[!UICONTROL Associate a Mobile App to a delivery]** field.
 
    請注意，下拉式清單將同時顯示SDK V4和Adobe Experience Platform SDK應用程式。
 
 1. 在視窗 **[!UICONTROL Audiences]** 中，拖放查詢以微調您的觀眾。
 
-   添加的查詢取決於所選模板： 如果您選擇范 **[!UICONTROL Send multilingual push to Campaign profiles]** 本，則可以查詢行動應用程式的已知收件者。 而如果您選擇范 **[!UICONTROL Send multilingual push to app subscriber]** 本，則可以查詢已選擇加入之特定應用程式的所有訂閱者。
+   添加的查詢取決於所選模板：如果您選擇范 **[!UICONTROL Send multilingual push to Campaign profiles]** 本，您可以查詢行動應用程式的已知收件者。 而如果您選擇范 **[!UICONTROL Send multilingual push to app subscriber]** 本，則可以查詢已選擇加入之特定應用程式的所有訂閱者。
    >[!NOTE]
    >
    >如果您以特定語言為目標對象，則需要在CSV檔案中列出每個目標語言。
@@ -61,7 +62,7 @@ source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 1. 在視窗 **[!UICONTROL Manage Content Variants]** 中，拖放您的檔案或從電腦選取檔案。
 
-   檔案必須是UTF8編碼，而且必須有特定的版面，您可以按一下選項找 **[!UICONTROL Download the sample file]** 到。 您也應使用正確的語法來設定值。 如需檔案格式和支援地區設定的詳細資訊，請參閱此 [技術](https://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html)。
+   檔案必須是UTF8編碼，而且必須有特定的版面，您可以按一下選項找 **[!UICONTROL Download the sample file]** 到。 您也應使用正確的語法來設定值。 如需檔案格式和支援地區設定的詳細資訊，請參閱此 [技術](https://helpx.adobe.com/tw/campaign/kb/acs-generate-csv-multilingual-push.html)。
 
    ![](assets/multivariant_push_4.png)
 
@@ -82,7 +83,7 @@ source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 您現在可以開始個人化多語言推播通知。
 
-## 步驟2: 使用多語言內容變體預覽並完成推播通知 {#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants}
+## 步驟2:使用多語言內容變體預覽並完成推播通知 {#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants}
 
 上傳包含內容變體的檔案後，您現在可以預覽推播通知傳送的不同變體。
 
@@ -98,7 +99,7 @@ source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 1. 您也可以按一下內容變體，進一步自訂內容變體，例如使用個人化欄位。
 
-   如需如何自訂推播通知的詳細資訊，請參閱本 [節](../../channels/using/customizing-a-push-notification.md)。
+   For more information on how to customize your push notification, refer to this [section](../../channels/using/customizing-a-push-notification.md).
 
    ![](assets/multivariant_push_9.png)
 
@@ -110,7 +111,7 @@ source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 您的多語言推播通知傳送現在已準備好可傳送。
 
-## 步驟3: 傳送及分析多語言推播通知傳送 {#step-3--send-and-analyze-multilingual-push-notification-delivery}
+## 步驟3:傳送及分析多語言推播通知傳送 {#step-3--send-and-analyze-multilingual-push-notification-delivery}
 
 您的多語言內容變體推播通知現在已準備好傳送給您的使用者。
 
@@ -123,7 +124,7 @@ source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
    ![](assets/multivariant_push_13.png)
 
-1. Select **[!UICONTROL Push notification report]**.
+1. 選取 **[!UICONTROL Push notification report]**。
 1. 將維度拖放至 **[!UICONTROL Variant]** 您的面板，開始篩選資料。
 
    ![](assets/multivariant_push_11.png)
@@ -134,4 +135,4 @@ source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 * [推播通知報告](../../reporting/using/push-notification-report.md)
 * [在工作流程中傳送推播通知](../../automating/using/push-notification-delivery.md)
-* [使用單一工作流程觸及多語言觀眾](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
+* [使用單一工作流程觸及多語言觀眾](https://helpx.adobe.com/tw/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)

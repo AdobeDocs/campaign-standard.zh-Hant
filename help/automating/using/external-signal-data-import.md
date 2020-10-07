@@ -10,24 +10,22 @@ content-type: reference
 topic-tags: execution-activities
 discoiquuid: 911c71b5-da8b-4916-b645-13bba6d21715
 context-tags: signal,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 
-# 外部信號和資料導入 {#external-signal-data-import}
+# External signal and data import {#external-signal-data-import}
 
-以下示例說明了 **[!UICONTROL External signal]** 典型使用案例中的活動。 在源工作流中執行資料導入。 完成匯入並更新資料庫後，就會觸發第二個工作流程。 此第二個工作流程用於更新匯入資料的匯總。
+以下範例說明典型使用案例中的 **[!UICONTROL External signal]** 活動。在來源工作流程中執行資料匯入。完成匯入並更新資料庫後，就會觸發第二個工作流程。此第二個工作流程用於更新匯入資料的彙總。
 
-源工作流如下所示：
+來源工作流程如下所示：
 
-* 載入 [檔案活動](../../automating/using/load-file.md) ，會上傳包含新購買資料的檔案。 請注意，由於 [在資料庫中預設不存在購買資料](../../developing/using/data-model-concepts.md) ，因此資料庫已相應擴展。
+* [載入檔案](../../automating/using/load-file.md)活動會上傳包含新購買資料的檔案。請注意，由於資料庫中預設沒有購買資料，因此[資料庫已相應擴展](../../developing/using/data-model-concepts.md)。
 
    例如：
 
@@ -41,16 +39,16 @@ ht-degree: 0%
    aze128;04/03/2016;clara.smith@example.com;A8;149
    ```
 
-* 「協 [調](../../automating/using/reconciliation.md) 」活動會建立導入資料和資料庫之間的連結，以便事務資料正確連接到配置檔案和產品。
-* 「更 [新資料](../../automating/using/update-data.md) 」活動將插入並更新帶有傳入資料的資料庫的「事務」資源。
-* End [](../../automating/using/start-and-end.md) 活動會觸發目標工作流，用於更新聚合。
+* [調解](../../automating/using/reconciliation.md)活動會建立匯入資料和資料庫之間的連結，以便交易資料正確連接到設定檔和產品。
+* [更新資料](../../automating/using/update-data.md)活動將插入並更新帶有傳入資料的資料庫的「交易」資源。
+* An [End](../../automating/using/start-and-end.md) activity triggers the destination workflow, which is used to update aggregates.
 
 ![](assets/signal_example_source1.png)
 
 目標工作流程如下：
 
-* External [signal](../../automating/using/external-signal.md) activity會等待源工作流成功完成。
-* 查詢 [活動](../../automating/using/query.md#enriching-data) ，會定位描述檔，並以收集集來豐富描述檔，以擷取最後的購買日期。
-* 「更 [新資料](../../automating/using/update-data.md) 」活動會將其他資料儲存在專用的自訂欄位中。 請注意，配置檔案資源已擴展到添加「上次購 **買日期** 」欄位。
+* An [External signal](../../automating/using/external-signal.md) activity waits for the source workflow to be successfully finished.
+* [查詢](../../automating/using/query.md#enriching-data)活動會定位設定檔，並以收集來擴充設定檔，以擷取最後的購買日期。
+* [更新資料](../../automating/using/update-data.md)活動會將其他資料儲存在專用的自訂欄位中。請注意，設定檔資源已擴展到新增&#x200B;**上次購買日期**&#x200B;欄位。
 
 ![](assets/signal_example_source2.png)

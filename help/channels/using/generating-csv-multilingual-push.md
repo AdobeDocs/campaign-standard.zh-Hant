@@ -9,12 +9,10 @@ audience: channels
 content-type: reference
 topic-tags: email-messages
 discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -192,9 +190,9 @@ ht-degree: 0%
 | ru_ua | 俄文——烏克蘭 |
 | a_in | 梵文——印度 |
 | sr_ba | 塞爾維亞——波斯尼亞 |
-| Sr_rs | 塞爾維亞——塞爾維亞 |
-| -sk | 斯洛伐克——斯洛伐克 |
-| srl_si | 斯洛維尼亞——斯洛維尼亞 |
+| sr_rs | 塞爾維亞——塞爾維亞 |
+| sk_sk | 斯洛伐克——斯洛伐克 |
+| sl_si | 斯洛維尼亞——斯洛維尼亞 |
 | es_ar | 西班牙文——阿根廷 |
 | es_bo | 西班牙文——玻利維亞 |
 | es_cl | 西班牙文——智利 |
@@ -216,14 +214,14 @@ ht-degree: 0%
 | es_ve | 西班牙文——委內瑞拉 |
 | sw_ke | 斯瓦希里語——肯亞 |
 | sv_fi | 瑞典文——芬蘭 |
-| t_se | 瑞典文——瑞典 |
+| sv_se | 瑞典文——瑞典 |
 | ta_in | 坦米爾——印度 |
 | tt_ru | 塔塔爾——俄文 |
-| 中文 | 泰盧古——印度 |
+| te_in | 泰盧古——印度 |
 | th_th | 泰文——泰國 |
 | tr_cy | 土耳其文——塞普勒斯 |
-| sv_tr | 土耳其文——土耳其 |
+| tr_tr | 土耳其文——土耳其 |
 | uk_ua | 烏克蘭文——烏克蘭文 |
 | ur_in | 烏爾都——印度 |
 | ur_pk | 烏爾都——巴基斯坦 |
-| tr_vn | 越南——越南 |
+| vi_vn | 越南——越南 |

@@ -1,5 +1,5 @@
 ---
-title: 監控隱私權要求
+title: 監控隱私權請求
 description: 瞭解如何使用API監控隱私權要求
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
@@ -9,19 +9,20 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '54'
+ht-degree: 25%
 
 ---
 
 
-# 監控隱私權要求 {#monitoring-a-privacy-request}
+# 監控隱私權請求 {#monitoring-a-privacy-request}
 
 您可以使用 **GET要求來監控已建立隱私權要求的** 相關資訊。
 
-「隱私權管理」檔案中提供狀態 [清單說明](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)。
+「隱私權管理」檔案中提供狀態 [清單說明](https://helpx.adobe.com/tw/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)。
 
 <br/>
 

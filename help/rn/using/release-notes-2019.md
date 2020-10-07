@@ -9,13 +9,11 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '7624'
-ht-degree: 8%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +24,7 @@ ht-degree: 8%
 
 ## 發行版本19.4 - 2019年12月 {#release-19-4---october-2019}
 
-**新增了哪些功能？**
+**新增功能？**
 
 <table> 
  <thead> 
@@ -40,7 +38,7 @@ ht-degree: 8%
    <p>除了Adobe Campaign中已提供的隱私權功能（包括同意管理、資料保留設定和使用者角色）外，我們還將利用這個機會加入其他功能，以協助您做好CCPA的準備：</p>
    <ul>
     <li>存取權與刪除權：我們運用了為GDPR新增的功能。 <a href="https://helpx.adobe.com/content/help/tw/campaign/kb/acs-privacy.html#righttoaccess">進一步瞭解</a> </li>
-    <li><p>在建立隱私權要求時，隱私權核心服務中已新增規則類型（GDPR或CCPA）。 此方法是您應該用於所有存取和刪除請求的方法。不建議使用促銷活動 API 和介面來存取和刪除請求。請參閱<a href="https://helpx.adobe.com/tw/campaign/kb/acs-deprecated-and-removed-features.html">「已過時和已移除的功能」文章</a>。</p></li>
+    <li><p>在建立隱私權要求時，隱私權核心服務中已新增規則類型（GDPR或CCPA）。 此方法是您應該用於所有存取和刪除請求的方法。不建議使用促銷活動 API 和介面來存取和刪除請求。請參閱「<a href="https://helpx.adobe.com/tw/campaign/kb/acs-deprecated-and-removed-features.html">已過時和已移除的功能</a>」文章。</p></li>
     <li>「設 <strong>定檔」資源已新增「CCPA選擇退出</strong> 」欄位，讓Adobe Campaign使用者追蹤消費者是否選擇退出個人資訊銷售。 <a href="https://helpx.adobe.com/content/help/tw/campaign/kb/acs-privacy.html#ccpa">進一步瞭解</a>。</li>
   </ul>
     <p>請參閱<a href="https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/privacy/privacy-overview.translate.html">作法影片</a>。</p>
@@ -81,7 +79,7 @@ ht-degree: 8%
 * 已增強安全性，以防止在電子郵件標題中插入。
 * 已增強安全性，以防範可使用xtk運算式（電子郵件HTML、文字內容與主題、簡訊和推播通知內容）的SSRF攻擊。
 
-**電子郵件設計人員增強功能**
+**電子郵件設計工具增強功能**
 
 * 修正在電子郵件中插入時，無法追蹤取消訂閱、訂閱和登陸頁面連結的問題。 (CAMP-37809)
 * 修正建立新電子郵件和選取範本時，可能會導致錯誤的問題。 (CAMP-38000)
@@ -152,7 +150,7 @@ ht-degree: 8%
 
 ## 發行版本 19.3 – 2019 年 7 月 {#release-19-3---july-2019}
 
-**新增了哪些功能？**
+**新增功能？**
 
 <table> 
  <thead> 
@@ -177,7 +175,7 @@ ht-degree: 8%
 
 * 已修正安全性問題，以防止拒絕服務(DoS)攻擊無效請求以取得影像。 (CAMP-33454)
 
-**電子郵件設計人員增強功能**
+**電子郵件設計工具增強功能**
 
 * 修正每次新增元件時，都會新增其他HTML樣式標籤至HTML範本的問題，此問題可能會大幅增加範本的大小。 (CAMP-34694)
 * 修正某些右上方工具列功能表選項無法使用的問題。 (CAMP-34577)
@@ -297,7 +295,7 @@ ht-degree: 8%
 
 ## 版本 19.2 – 2019 年 5 月{#release-19-2---may-2019}
 
-**新增了哪些功能？**
+**新增功能？**
 
 <table> 
  <thead> 
@@ -330,7 +328,7 @@ ht-degree: 8%
 
 * 修正報告工作區中的潛在點按劫持安全性問題。
 
-**電子郵件設計人員增強功能**
+**電子郵件設計工具增強功能**
 
 * 修正復製片段並嘗試在「電子郵件設計器」中使用片段時發生的問題。 (CAMP-33193)
 * 修正在「電子郵件設計器」介面中使用內嵌元素時，會建立不需要的空格的問題。 (CAMP-32163)
@@ -338,7 +336,7 @@ ht-degree: 8%
 * 修正即使移除Microsoft Office標籤後，仍會在「電子郵件設計人員HTML」模式中顯示該標籤的問題。 (CAMP-32141)
 * 如果您使用舊版電子郵件設計工具建立電子郵件，在開啟此電子郵件內容時，現在會出現快顯視窗提示使用者更新為最新版本。 (CAMP-31529)
 * 修正當傳送給某些訊息傳送用戶端時，使用電子郵件設計工具建立的電子郵件會扭曲影像的問題。 (CAMP-31407)
-* 修正在HTML模式中建立時，某些元素（例如清單或按鈕）無法在純文字模式中正確顯示的問題。 (CAMP-32582、CAMP-32542)
+* 修正在HTML模式中建立時，某些元素（例如清單或按鈕）無法在純文字模式中正確顯示的問題。 (CAMP-32582, CAMP-32542)
 * 修正內容範本或片段屬性中無法顯示超過50個組織單位的問題。 (CAMP-32932)
 * 修正當收到使用Outlook上的「電子郵件設計器」建立的電子郵件時，檢視區背景顏色的問題。 (CAMP-31402)
 * 修正在Outlook中開啟時，使用「電子郵件設計器」建立的電子郵件內容無法回應的問題。 (CAMP-31400)
@@ -401,7 +399,7 @@ ht-degree: 8%
 
 ## 發行版本 19.1.3 – 2019 年 3 月 {#release-19-1-3---march-2019}
 
-**電子郵件設計人員增強功能**
+**電子郵件設計工具增強功能**
 
 * 修正在儲存範本後無法修改範本的問題。
 * 修正在電子郵件中使用先前建立的範本時的各種問題。
@@ -415,7 +413,7 @@ ht-degree: 8%
 
 ## 版本 19.1 – 2019 年 2 月 {#release-19-1---february-2019}
 
-**新增了哪些功能？**
+**新增功能？**
 
 <table> 
  <thead> 
@@ -453,7 +451,7 @@ ht-degree: 8%
 
 * 已更新產生的著陸頁面HTML程式碼，以防止搜尋引擎建立索引。
 
-**電子郵件設計人員增強功能**
+**電子郵件設計工具增強功能**
 
 * Behance藝術家設計的4種同級最佳回應式電子郵件範本現已推出。
 
@@ -521,7 +519,7 @@ ht-degree: 8%
 
 ## 發行版本 19.0 – 2019 年 1 月 {#release-19-0---january-2019}
 
-**新增了哪些功能？**
+**新增功能？**
 
 <table> 
  <colgroup><col style="width: 30%"><col style="width: 70%"></colgroup>
@@ -540,7 +538,7 @@ ht-degree: 8%
      <li> 能夠在準 <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">備時自動從URL擷取內容</a> </li> 
      <li> 完全 <a href="../../designing/using/using-reusable-content.md#content-templates">符合現成可用的內容範本</a>。 </li> 
     </ul> 
-    <p>如需詳細資訊，請參閱<a href="../../designing/using/designing-content-in-adobe-campaign.md">詳細文件</a>及<a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">作法影片</a>。以下列出改進和修正。</p><p>因此，舊版電子郵件內容編輯器現在已不再提供。 For more information, refer to this <a href="https://helpx.adobe.com/tw/campaign/kb/acs-deprecated-and-removed-features.html">page</a>.</p> </td> 
+    <p>如需詳細資訊，請參閱<a href="../../designing/using/designing-content-in-adobe-campaign.md">詳細文件</a>及<a href="https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/designing-content/email-designer/email-designer-overview.html">作法影片</a>。以下列出改進和修正。</p><p>因此，舊版電子郵件內容編輯器現在已不再提供。 For more information, refer to this <a href="https://helpx.adobe.com/tw/campaign/kb/acs-deprecated-and-removed-features.html">page</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Product Listings in Transactional Emails<br /> </td> 

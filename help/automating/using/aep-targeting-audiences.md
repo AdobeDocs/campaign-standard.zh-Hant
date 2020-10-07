@@ -9,13 +9,11 @@ audience: automating
 content-type: reference
 topic-tags: channel-activities
 discoiquuid: 19796aca-6e9e-4d3a-8917-ba660ec7993c
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -62,9 +60,9 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->Campaign Standard可讓您在所有傳送通道中鎖定Adobe Experience Platform受眾： 電子郵件、簡訊、直接郵件訊息、推播通知和應用程式內訊息。
+>Campaign Standard可讓您在所有傳送通道中鎖定Adobe Experience Platform受眾：電子郵件、簡訊、直接郵件訊息、推播通知和應用程式內訊息。
 >
->*注意： 對於所有推播和應用程式內訊息，Campaign Standard僅支援傳送已知描述檔。
+>*注意：對於所有推播和應用程式內訊息，Campaign Standard僅支援傳送已知描述檔。
 
 如需如何使用工作流程和傳送的詳細資訊，請參閱下列章節：
 

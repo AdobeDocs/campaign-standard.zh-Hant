@@ -9,10 +9,8 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 2a14500f-5ede-4131-8b1a-b7fd65b7e3aa
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 3161226c9ab28f8d519f55a408022284919954f6
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -109,7 +107,8 @@ ht-degree: 0%
    >[!NOTE]
    >
    >依預設，若要擷取在Adobe Launch中建立的行動應用程式清單，Campaign Standard會使用NmsServer_URL選項中定義的值來尋找相符的屬性。
-在某些情況下，行動應用程式的促銷活動端點可能與NmsServer_URL中定義的端點不同。 在這種情況下，請在Launch_URL_Campaign選項中定義端點。 Campaign會使用此選項的值，在Adobe Launch中尋找相符的屬性。
+   >
+   >在某些情況下，行動應用程式的促銷活動端點可能與NmsServer_URL中定義的端點不同。 在這種情況下，請在Launch_URL_Campaign選項中定義端點。 Campaign會使用此選項的值，在Adobe Launch中尋找相符的屬性。
 
    ![](assets/launch_4.png)
 

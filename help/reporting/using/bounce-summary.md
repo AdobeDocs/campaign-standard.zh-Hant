@@ -10,17 +10,18 @@ content-type: reference
 topic-tags: list-of-reports
 discoiquuid: 5ae561b4-03cf-4541-87ff-47f1027d53b8
 context-tags: bounceReport,main;campaignCirculationReport,main;programCirculationReport,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: bee7ea0f1728da2a96c1f225b91b13a7903be660
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # 退回摘要{#bounce-summary}
 
-此報表詳細說明傳送期間遇到的整體硬式和軟式錯誤，以及自動處理彈回數。
+此報表詳細說明傳送期間遇到的整體硬式和軟式錯誤，以及自動處理退信。
 
 ![](assets/campaign_reports_bounces.png)
 

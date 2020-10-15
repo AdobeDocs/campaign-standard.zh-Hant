@@ -1,6 +1,6 @@
 ---
 title: 在 Adobe Campaign 中設計內容
-description: 從頭開始建立電子郵件內容、匯入HTML或運用現有範本。
+description: 從頭開始建立電子郵件內容，讀入 HTML 或運用現有範本。
 page-status-flag: never-activated
 uuid: 8f73407f-ab90-46bc-aeb6-bd87fcb0404c
 contentOwner: sauviat
@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1208'
-ht-degree: 90%
+ht-degree: 91%
 
 ---
 

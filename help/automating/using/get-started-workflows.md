@@ -1,6 +1,6 @@
 ---
 title: 開始使用流程和資料管理
-description: 使用工作流程自動化流程、管理資料和受眾、傳送訊息等。
+description: 使用工作流程自動化程序，管理資料和對象、傳送訊息等。
 page-status-flag: never-activated
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
 contentOwner: sauviat
@@ -12,8 +12,8 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '519'
+ht-degree: 13%
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: 開始使用個人檔案和對象
-description: 定義目標人口族群、選取對象、篩選收件者、收集資料及更新個人檔案。
+description: 定義目標人口、選取對象、篩選收件者、收集資料及更新設定檔。
 page-status-flag: never-activated
 uuid: f4cb6c38-c8d1-44ec-93f0-d0f5f30a3d9a
 contentOwner: sauviat
@@ -12,8 +12,8 @@ discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '604'
+ht-degree: 20%
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: 開始使用 Campaign Standard 管理
-description: 探索用戶和權限管理、監控准則、特定於通道的配置和應用程式設定准則。
+description: 探索使用者和權限管理、監控準則、通道特定的配置和應用程式設定準則。
 page-status-flag: never-activated
 uuid: 64c34729-5c98-4db0-9131-af6dd0e78fb4
 contentOwner: sauviat
@@ -12,8 +12,8 @@ discoiquuid: 5587530a-2308-4be1-9f56-19eeb7a924d5
 translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '650'
+ht-degree: 16%
 
 ---
 

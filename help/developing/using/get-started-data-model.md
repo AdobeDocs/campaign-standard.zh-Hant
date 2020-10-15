@@ -1,6 +1,6 @@
 ---
 title: 開始使用 Campaign Standard 資料模型
-description: 以自訂欄位和資源豐富Campaign Standard資料模型，並擴充REST API以公開延伸欄位。
+description: 利用自訂欄位和資源讓 Campaign Standard 資料模型豐富化，並延伸 REST API 以公開延伸的欄位。
 page-status-flag: never-activated
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
 contentOwner: sauviat
@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '350'
-ht-degree: 24%
+ht-degree: 29%
 
 ---
 

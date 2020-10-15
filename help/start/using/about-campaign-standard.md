@@ -1,6 +1,6 @@
 ---
 title: 開始使用 Campaign Standard
-description: 探索主要功能、使用者介面和全域方針。
+description: 探索重要功能、使用者介面和全域準則。
 page-status-flag: never-activated
 uuid: 027f6787-d2ef-44ae-a40a-8facdfe2ae77
 contentOwner: sauviat
@@ -12,8 +12,8 @@ discoiquuid: aee81724-b425-47b4-af92-e55eff97836f
 translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '777'
+ht-degree: 100%
 
 ---
 

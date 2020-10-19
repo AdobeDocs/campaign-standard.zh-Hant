@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: working-with-campaign-and-triggers
 discoiquuid: 4163dc0c-8103-4425-b8bf-7aa45c4d3a06
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 100f7eef03d10a66832920708ad415f8f0d3883c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '860'
+ht-degree: 7%
 
 ---
 
@@ -54,7 +54,7 @@ Adobe團隊需要下列資訊才能啟動觸發器：
 
 >[!CAUTION]
 >
->子域委派是傳遞性的關鍵要素。 請確定Adobe Campaign電子郵件是從網站使用的相同網域傳送。
+>子域配置是可傳遞性關鍵元素。 請確定Adobe Campaign電子郵件是從網站使用的相同網域傳送。
 
 您必須設定 [Experience Cloud DTM核心服務](#configuring-experience-cloud-dtm-core-service)、 [Experience Cloud People Core Service](#configuring-experience-cloud-people-core-service) 和 [Campaign](#configuring-triggers-and-aliases-in-campaign) ，才能執行這些使用案例。
 

@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 discoiquuid: eb24f4ea-325f-433a-91a0-c45906320bcb
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 100f7eef03d10a66832920708ad415f8f0d3883c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '726'
+ht-degree: 8%
 
 ---
 
@@ -127,7 +127,7 @@ Audience Manager(AAM)或People核心服務整合可讓您在Adobe Campaign中匯
 
 若要設定與People Core服務或Audience Manager的整合，我們還需要設定促銷活動追蹤伺服器。
 
-在這裡，您必須確定促銷活動追蹤伺服器已註冊在網域(CNAME)上。 您可在本文中找到有關網域名稱委派的 [詳細資訊](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/Technotes/AdobeCampaign_Deliverability_Sub_Domain_Delegation.pdf)。
+在這裡，您必須確定促銷活動追蹤伺服器已註冊在網域(CNAME)上。 您可在本文中找到有關網域名稱設定的 [詳細資訊](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/Technotes/AdobeCampaign_Deliverability_Sub_Domain_Delegation.pdf)。
 
 ### 步驟4:設定訪客ID服務 {#step-4--configure-the-visitor-id-service}
 

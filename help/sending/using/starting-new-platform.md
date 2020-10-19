@@ -11,10 +11,10 @@ topic-tags: sheduling-messages
 discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 100f7eef03d10a66832920708ad415f8f0d3883c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '444'
+ht-degree: 2%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 * 但是，如果您希望重新命名無效地址，則最好在平台信譽建立後再逐個逐個地執行此操作，以便隨著時間的推移「稀釋」不良地址的使用。
 
 總結啟動時應遵循的原則：
-* **委派專用的子網域給Adobe** ，此子網域專用於從Adobe傳送的電子郵件宣傳。
+* **設定專用的子網域** ，以搭配Adobe傳送之電子郵件促銷活動專用的Campaign運作。
 * **將無效／非活動地址導入隔離表** （如果您有此資訊）。
 * **限制傳送總處理量** (技術設定：限制匹配項數)。
 * **逐漸增加發送的卷**:從一開始就不要將整個資料庫作為目標，而是每次傳送時新增清單的一小部分。 這應可讓您在每個步驟增加音量，同時降低無效地址的總體速率。

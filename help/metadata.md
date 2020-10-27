@@ -8,13 +8,13 @@ getting-started-url: https://helpx.adobe.com/campaign/get-started.html
 tutorials-title: 教學課程
 tutorials-url: https://helpx.adobe.com/campaign/kt/index/target-videos.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/campaign-standard.zh-Hant
-solution: Campaign
+solution: Campaign, Campaign Standard
 index: true
 translation-type: tm+mt
-source-git-commit: b80197491b45cff46273e1a41e3dfb7a939f96c5
+source-git-commit: fc00fc040d4e4d52a27c713835cbaa8062d84bc2
 workflow-type: tm+mt
-source-wordcount: '32'
-ht-degree: 46%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

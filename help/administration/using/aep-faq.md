@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 8eaece864ca0f3795cd36ea0cc7a01737822d9e8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '914'
+ht-degree: 3%
 
 ---
 
@@ -105,3 +105,11 @@ CollectPII呼叫的頻率和設計應根據業務需求而定，不應當在DB�
 * Launch &amp; Experience Platform SDK檔案快速入 [門](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)
 * 升級至Experience Platform SDK文 [件](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep)
 * Github Experience Platform SDK文 [件](https://github.com/Adobe-Marketing-Cloud/acp-sdks/)
+
+## 我在建立推播通知傳送時收到錯誤「您在傳送時沒有寫入存取權」。 {#write-access-error}
+
+您應檢查下列項目：
+
+* 行動應用程式應對應至需要建立和傳送推播傳送之使用者的組織單位。 子組織單位的使用者無法使用映射至父組織單位的應用程式來建立推送傳送。
+
+* 建立推播傳送的促銷活動或方案應對應至需要建立和傳送推播傳送之使用者的組織單位。 子組織單位的使用者無法在映射至父組織單位的促銷活動或方案中建立推播傳送。

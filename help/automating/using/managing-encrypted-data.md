@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 4e338fb9399f85127e1d8e5f7f178a8d3d0a47cc
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '938'
+ht-degree: 3%
 
 ---
 
@@ -61,8 +61,6 @@ ht-degree: 0%
 
 1. 在外部系統中，使用從「控制面板」下載的公開金鑰來加密要匯入至「促銷活動標準」的資料。
 
-   ![](assets/do-not-localize/gpg_external.png)
-
 1. 在Campaign Standard中，建立工作流程以匯入加密的資料，並使用透過控制面板安裝的私密金鑰加以解密。 為此，我們將建立以下工作流程：
 
    ![](assets/gpg_workflow.png)
@@ -102,7 +100,7 @@ ht-degree: 0%
 
    ![](assets/gpg_install.png)
 
-1. 在Campaign Standard中，建立工作流程以匯出資料，並使用透過「控制面板」安裝的私密金鑰匯出。 為此，我們將建立以下工作流程：
+1. 在Campaign Standard中，建立工作流程以匯出資料，並使用透過控制面板安裝的私密金鑰加密資料。 為此，我們將建立以下工作流程：
 
    ![](assets/gpg-workflow-export.png)
 
@@ -127,5 +125,3 @@ ht-degree: 0%
    ![](assets/gpg-transfer-encrypt.png)
 
 1. 您現在可以執行工作流程。 執行後，查詢的資料目標將匯出至SFTP伺服器，並匯出至加密的。gpg檔案。
-
-   ![](assets/do-not-localize/gpg-sftp-encrypt.png)

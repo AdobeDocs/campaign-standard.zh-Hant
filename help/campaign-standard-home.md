@@ -5,10 +5,10 @@ title: Adobe Campaign Standard 產品文件
 description: 瀏覽Campaign Standard產品檔案
 topic: Premium
 translation-type: tm+mt
-source-git-commit: e67a173c5409d7693a3d7dab8f8ca3b03aeb886f
+source-git-commit: 932e703ccb20ea3eefe82d7a695513076d4f4d19
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 97%
+source-wordcount: '224'
+ht-degree: 91%
 
 ---
 
@@ -19,14 +19,13 @@ ht-degree: 97%
 
 ## 新增功能
 
+* **[更新的發行規](rn/using/release-planning.md)**<br/>划即將到來的1月發行日期已新增至發行計畫
+
 * **[控制組](sending/using/control-group.md)**<br/>透過排除部分對象，以評估行銷活動的影響
 
 * **[AI 支援電子郵件](sending/using/predictive.md)**<br/>使用 AI 支援電子郵件最佳化設計與傳遞
 
-* **[隱私權管理](https://helpx.adobe.com/tw/campaign/kb/campaign-privacy.html)**<br/>
-瞭解 Adobe Campaign 所提供用來協助您遵從隱私權要求的工具
-
-* **[外部 API](automating/using/external-api.md)**<br/>使用外部 API 活動，將外部系統的資料匯入工作流程
+* **[外部 API](automating/using/external-api.md)**<br/> 使用外部 API 活動，將外部系統的資料匯入工作流程
 
 * **[開始使用行動傳送](https://helpx.adobe.com/tw/campaign/kb/acs-mobile.html)**<br/>&#x200B;進一步瞭解行動傳送的一般方針（SMS、推播、應用程式內）
 

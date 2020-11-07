@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: campaign-standard-releases
 discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 1b2c4e2105a75f31b0b895bee2de9a9a79850910
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '6220'
+ht-degree: 98%
 
 ---
 
@@ -42,7 +42,7 @@ Journey AI 整合 - [瞭解詳情](../../sending/using/predictive.md)
 
 已新增區段，說明可依據事件狀態和上次收到事件時搜尋事件設定的新篩選器。 [顯示全文](../../administration/using/configuring-transactional-messaging.md#searching-transactional-events)
 
-## 檔案更新 – 2020 年 9 月{#doc-updates-september-2020}
+## 2020 年 9 月{#doc-updates-september-2020}
 
 事件交易式訊息區段已重新組織並釐清。[顯示全文](../../channels/using/event-transactional-messages.md)
 
@@ -54,7 +54,7 @@ Journey AI 整合 - [瞭解詳情](../../sending/using/predictive.md)
 
 已在「啟用」設定檔報告中新增匿名來源的資訊。[顯示全文](../../audiences/using/active-profiles.md)
 
-## 檔案更新 – 2020 年 8 月 {#doc-updates-august-2020}
+## 2020 年 8 月{#doc-updates-august-2020}
 
 有關交易式訊息快速入門的最新章節已供使用。[顯示全文](../../channels/using/getting-started-with-transactional-msg.md)
 
@@ -62,7 +62,7 @@ Journey AI 整合 - [瞭解詳情](../../sending/using/predictive.md)
 
 **準備傳送**&#x200B;章節已移至[此](../../sending/using/preparing-the-send.md)
 
-## 檔案更新 – 2020 年 7 月 {#doc-updates-july-2020}
+## 2020 年 7 月{#doc-updates-july-2020}
 
 新增了與 Campaign Standard 監視相關的准則。[顯示全文](../../administration/using/monitoring-guidelines.md)
 
@@ -76,7 +76,7 @@ Campaign Standard 頁面中的「隱私權管理」已更新，其中包括如�
 
 新 AI 支援電子郵件的功能：傳送時間最佳化和設定檔計分。[顯示全文](../../sending/using/predictive.md)
 
-## 文件更新 - 2020 年 6 月 {#doc-updates-june-2020}
+## 2020 年 6 月 {#doc-updates-june-2020}
 
 更新工作流程使用案例，重新組織至各主題章節。[顯示全文](../../automating/using/about-workflow-use-cases.md)
 
@@ -88,7 +88,7 @@ Campaign Standard 頁面中的「隱私權管理」已更新，其中包括如�
 
 Campaign Standard - 目前無法使用 Microsoft Dynamics 365 整合。新連接器正在開發中，未來將可供使用。相關說明頁面已移除。[顯示全文](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
-## 文件更新 – 2020 年 5 月 {#doc-updates-may-2020}
+## 2020 年 5 月 {#doc-updates-may-2020}
 
 Campaign Standard 概觀頁面已擴充並重新組織為主題式主題。[瞭解詳情](../../start/using/about-campaign-standard.md)
 
@@ -114,9 +114,9 @@ External API 活動 (GA) – [瞭解詳情](../../automating/using/external-api.
 
 已新增使用案例，讓您將舊版編輯器電子郵件轉換為電子郵件設計工具。[瞭解詳情](../../designing/using/converting-emails-from-legacy-editor.md)
 
-已新增有關電子郵件設計工具的常見問題區段。[瞭解詳情](../../designing/using/faq-email-designer.md)
+已新增有關電子郵件設計工具的常見問題區段。[顯示全文](../../designing/using/faq-email-designer.md)
 
-## 文件更新 – 2020 年 4 月 {#doc-updates-april-2020}
+## 2020 年 4 月 {#doc-updates-april-2020}
 
 核心檔案現在提供與 Adobe Campaign Standard 檔案整合的 Microsoft Dynamics 365。[瞭解詳情](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
@@ -166,9 +166,9 @@ MCPNS 在設定行動應用程式時增加了限制。[瞭解詳情](https://hel
 
 交易式訊息區段已更新，以反映多個使用者介面的微幅更新和改良。[瞭解詳情](../../channels/using/getting-started-with-transactional-msg.md)
 
-已更新與外部 API 活動防護欄相關的資訊。[瞭解詳情](../../automating/using/external-api.md)
+已更新與外部 API 活動防護欄相關的資訊。[顯示全文](../../automating/using/external-api.md)
 
-## 文件更新 – 2020 年 3 月 {#doc-updates-march-2020}
+## 2020 年 3月 {#doc-updates-march-2020}
 
 核心文件已新增有關增強型 MTA 的詳細資訊，尤其是有關電子郵件處理規則和退回郵件資格的資訊。[瞭解詳情](../../administration/using/configuring-email-channel.md#email-processing-rules)
 
@@ -212,9 +212,9 @@ Adobe Campaign Enhanced MTA 說明檔案說明升級的傳送基礎架構，可�
 
 已新增附註，指出應用程式伺服器和鏡像頁面伺服器 URL 必須安全，才能從 Campaign 使用者介面顯示登錄頁面和鏡像頁面預覽。[瞭解詳情](../../administration/using/branding.md#configuring-and-using-brands)
 
-「匯出記錄檔」區段已更新，以反映「傳送記錄檔」和「追蹤記錄檔」資源中「傳送記錄檔 ID」的可用性，可匯出每個記錄檔的唯一識別碼。[瞭解詳情](../../automating/using/exporting-logs.md)
+「匯出記錄檔」區段已更新，以反映「傳送記錄檔」和「追蹤記錄檔」資源中「傳送記錄檔 ID」的可用性，可匯出每個記錄檔的唯一識別碼。[顯示全文](../../automating/using/exporting-logs.md)
 
-## 文件更新 – 2020 年 1 月 {#doc-updates-january-2020}
+## 2020 年 1 月 {#doc-updates-january-2020}
 
 傳送檔案已更新為 IP 認證的新區段。[瞭解詳情](../../sending/using/ip-certification.md)
 
@@ -228,7 +228,7 @@ Adobe Campaign Enhanced MTA 說明檔案說明升級的傳送基礎架構，可�
 
 API 檔案首頁已經過改良，並重新導向不同的主題。[瞭解詳情](../../api/using/get-started-apis.md)
 
-## 文件更新 – 2019 年 12 月 {#doc-updates-december-2019}
+## 11月- 2019年12月 {#doc-updates-december-2019}
 
 已更新「設定 S3 外部帳戶」文件。[瞭解詳情](../../administration/using/external-accounts.md#amazon-s3-external-account)
 
@@ -237,8 +237,6 @@ API 檔案首頁已經過改良，並重新導向不同的主題。[瞭解詳情
 傳送快速入門手冊已整合至核心文件並更新。[瞭解詳情](../../sending/using/about-deliverability.md)
 
 有關如何匯出/匯入自訂資源的快速入門手冊已整合至核心文件。[瞭解詳情](../../automating/using/exporting-importing-custom-resources.md)
-
-## 文件更新 – 2019 年 11 月 {#doc-updates-november-2019}
 
 已新增一個新的使用案例，說明如何使用 Campaign Standard 中的工作流程來建立控制群組。
 
@@ -282,7 +280,7 @@ Adobe Campaign的錯誤訊息清單已更新。 [顯示全文](https://docs.camp
 
 與隱私權相關的資訊已新增至 API 文件[按一下此處](../../api/using/creating-a-privacy-request.md)
 
-## 文件更新 – 2019 年 10 月 {#doc-updates-october-2019}
+## Sept. - Oct. 2019 {#doc-updates-october-2019}
 
 已新增與 Campaign Standard 設定相關的新區段。[瞭解詳情](../../administration/using/about-campaign-standard-settings.md)
 
@@ -291,8 +289,6 @@ Adobe Campaign的錯誤訊息清單已更新。 [顯示全文](https://docs.camp
 「交易式傳訊」區段已使用最新的 UI 更新加以修改，包括使用電子郵件設計工具編輯內容。[瞭解詳情](../../channels/using/event-transactional-messages.md)
 
 登陸頁面區段已重新組織。此外，還已新增一個區段，詳細說明設定登陸頁面的步驟。[瞭解詳情](../../channels/using/getting-started-with-landing-pages.md)
-
-## 文件更新 – 2019 年 9 月{#doc-updates-september-2019}
 
 推播通知區段中已新增一個區段，說明如何根據行動應用程式訂閱資料建立和更新設定檔資訊。[瞭解詳情](../../channels/using/updating-profile-with-mobile-app-data.md)
 
@@ -304,7 +300,7 @@ Adobe Campaign的錯誤訊息清單已更新。 [顯示全文](https://docs.camp
 
 電子郵件設計工具指南已重新整理。[瞭解詳情](../../designing/using/designing-content-in-adobe-campaign.md)
 
-## 文件更新 – 2019 年 8 月 {#doc-updates-august-2019}
+## 2019 年 8 月{#doc-updates-august-2019}
 
 已新增關於工作流程的使用案例，其著重於查詢的新區段。[瞭解詳情](../../automating/using/workflow-created-query-with-complement.md)
 
@@ -356,7 +352,7 @@ Campaign Standard 及 Campaign Classic 的錯誤訊息清單已更新。[瞭解�
 
 在自訂資源文件中新增警告。我們建議對自訂資源 ID 使用最多 30 個字元。這也適用於自訂資源欄位、索引和連結。[瞭解詳情](../../developing/using/creating-or-extending-the-resource.md)
 
-## 文件更新 – 2019 年 7 月 {#doc-updates-2019}
+## 2019年6至7月 {#doc-updates-2019}
 
 新增「登錄頁面」限制的頁面。[瞭解詳情](../../channels/using/getting-started-with-landing-pages.md#landing-page-limitations)
 
@@ -943,4 +939,3 @@ URL變更：資產核心服務 – [瞭解詳情](../../integrating/using/workin
 URL變更：人員核心服務 – [瞭解詳情](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
 
 設定檔和對象指南已重新整理。[瞭解詳情](../../audiences/using/get-started-profiles-and-audiences.md)
-

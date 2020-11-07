@@ -5,10 +5,10 @@ title: Adobe Campaign Standard 產品文件
 description: 瀏覽Campaign Standard產品檔案
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 8da8c469fad3cab24046cd531ae036a79a053d75
+source-git-commit: 1b2c4e2105a75f31b0b895bee2de9a9a79850910
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 91%
+source-wordcount: '221'
+ht-degree: 90%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 91%
 
 ## 新增功能
 
-* **[更新的發行規](rn/using/release-planning.md)**<br/>划即將於2021年2月發行的日期已新增至發行計畫
+* **[更新的發行計畫](rn/using/release-planning.md)**<br/> 2021年2月即將發行的發行日期已新增至發行計畫
 
 * **[控制組](sending/using/control-group.md)**<br/>透過排除部分對象，以評估行銷活動的影響
 
@@ -29,7 +29,7 @@ ht-degree: 91%
 
 * **[開始使用行動傳送](https://helpx.adobe.com/tw/campaign/kb/acs-mobile.html)**<br/>&#x200B;進一步瞭解行動傳送的一般方針（SMS、推播、應用程式內）
 
-[按一下這裡以取得更多更新](rn/using/documentation-updates.md)
+[更多更新](rn/using/documentation-updates.md)
 
 ## 熱門頁面
 

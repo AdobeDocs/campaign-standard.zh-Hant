@@ -11,10 +11,10 @@ topic-tags: data-management-activities
 discoiquuid: 752f2aed-f897-485e-b329-f3cc1756ee8e
 context-tags: fileTransfer,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 121b36056317cc89909607220f988c02ae470f08
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1043'
+ht-degree: 99%
 
 ---
 
@@ -136,7 +136,7 @@ Microsoft Azure Blob　通訊協定可讓您存取位於　Microsoft Azure Blob�
 超字元或萬用字元（例如　* 或 ?）可用於篩選檔案。
 
 選取是否 **[!UICONTROL Define a file path]** 或 **[!UICONTROL Use a dynamic file path]**
-**[!UICONTROL Use a dynamic file path]**　選項可讓您使用標準運算式和事件變數來個人化要傳輸的檔案名稱。For more on this, refer to this section: [](../../automating/using/customizing-workflow-external-parameters.md).
+**[!UICONTROL Use a dynamic file path]**　選項可讓您使用標準運算式和事件變數來個人化要傳輸的檔案名稱。有關詳細資訊，請參見[此頁面](../../automating/using/customizing-workflow-external-parameters.md)。
 
 請注意，路徑必須相對於　Adobe Campaign　伺服器的儲存空間目錄。檔案位於 **sftp&lt;yourinstancename>/** 目錄。您也無法瀏覽儲存空間上方的目錄。例如：
 

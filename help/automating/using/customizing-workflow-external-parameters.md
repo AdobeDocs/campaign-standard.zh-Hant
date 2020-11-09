@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 121b36056317cc89909607220f988c02ae470f08
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '803'
+ht-degree: 1%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 觸發工作流程後，參數會被收錄到事件變數中，並可用來自訂工作流程的活動。
 
-例如，它們可用來定義要在活動中讀取的對象、 **[!UICONTROL Read audience]** 要在活動中傳輸的檔案 **[!UICONTROL Transfer file]** 的名稱等。 (see [](../../automating/using/customizing-workflow-external-parameters.md)).
+例如，它們可用來定義要在活動中讀取的對象、 **[!UICONTROL Read audience]** 要在活動中傳輸的檔案 **[!UICONTROL Transfer file]** 的名稱等。 (see [this page](../../automating/using/customizing-workflow-external-parameters.md)).
 
 ## 使用事件變數 {#using-events-variables}
 
@@ -49,13 +49,13 @@ $(vars/@parameterName)
 
    ![](assets/wkf_test_activity_variables.png)
 
-* ![](assets/extsignal_expression_editor.png):編輯結合變數和函式的運算式(請參 [](../../automating/using/advanced-expression-editing.md)閱)。
+* ![](assets/extsignal_expression_editor.png):編輯結合變數和函式的運算式(請參 [閱本頁](../../automating/using/advanced-expression-editing.md))。
 
    ![](assets/wkf_test_activity_variables_expression.png)
 
    此清單提供可讓您執行複雜篩選的函式。 本節將詳述這些 [函式](../../automating/using/list-of-functions.md)。
 
-   此外，您也可以使用下列函式，這些函式可用於所有允許您在使用外部參數呼叫工作流程後使用事件變數的活動(請參 [](../../automating/using/customizing-workflow-external-parameters.md#customizing-activities-with-events-variables)閱):
+   此外，您也可以使用下列函式，這些函式可用於所有允許您在使用外部參數呼叫工作流程後使用事件變數的活動(請參 [閱本節](../../automating/using/customizing-workflow-external-parameters.md#customizing-activities-with-events-variables)):
 
    | 名稱 | 說明 | 語法 |
    ---------|----------|---------

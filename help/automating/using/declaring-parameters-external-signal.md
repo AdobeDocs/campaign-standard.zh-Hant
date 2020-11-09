@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 121b36056317cc89909607220f988c02ae470f08
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '108'
 ht-degree: 5%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 5%
 
    >[!CAUTION]
    >
-   >請確定參數的名稱和數目與呼叫工作流程時所定義的參數相同(請參 [](../../automating/using/defining-parameters-calling-workflow.md)閱)。 此外，參數類型必須與預期值一致。
+   >請確定參數的名稱和數目與呼叫工作流程時所定義的參數相同(請參 [閱本頁](../../automating/using/defining-parameters-calling-workflow.md))。 此外，參數類型必須與預期值一致。
 
    ![](assets/extsignal_declaringparameters_1.png)
 

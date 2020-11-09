@@ -5,7 +5,7 @@ title: Adobe Campaign Standard 產品文件
 description: 瀏覽Campaign Standard產品檔案
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 1b2c4e2105a75f31b0b895bee2de9a9a79850910
+source-git-commit: da0763c6b8dcac0d7e1c30decde768fd1da05b55
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 90%

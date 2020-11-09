@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 121b36056317cc89909607220f988c02ae470f08
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '188'
+ht-degree: 13%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 在定義參數之前，請確定：
 
-* 參數已在活動中聲 **[!UICONTROL External Signal]** 明。 請參閱[](../../automating/using/declaring-parameters-external-signal.md)。
+* 參數已在活動中聲 **[!UICONTROL External Signal]** 明。 請參閱[本頁](../../automating/using/declaring-parameters-external-signal.md)。
 * 包含信號活動的工作流正在運行。
 
 要配置活 **[!UICONTROL End]** 動，請執行以下步驟：
@@ -33,7 +33,7 @@ ht-degree: 0%
 1. 選擇要調用的工作流和外部信號活動。
 1. 按一下 **[!UICONTROL Create element]** 按鈕以新增參數，然後填入其名稱和值。
 
-   * **[!UICONTROL Name]**:已在活動中宣告的名 **[!UICONTROL External signal]** 稱(請參 [](../../automating/using/declaring-parameters-external-signal.md)閱)。
+   * **[!UICONTROL Name]**:已在活動中宣告的名 **[!UICONTROL External signal]** 稱(請參 [閱本頁](../../automating/using/declaring-parameters-external-signal.md))。
    * **[!UICONTROL Value]**:要指派給參數的值。 值應遵循 **Standard語法**，如本 [節所述](../../automating/using/advanced-expression-editing.md#standard-syntax)。
 
    ![](assets/extsignal_definingparameters_2.png)

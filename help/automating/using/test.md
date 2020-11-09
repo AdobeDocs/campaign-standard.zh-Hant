@@ -11,10 +11,10 @@ topic-tags: execution-activities
 discoiquuid: 2650bf1f-0bce-4049-a226-2369f6666b95
 context-tags: jstest,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 121b36056317cc89909607220f988c02ae470f08
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 91%
+source-wordcount: '172'
+ht-degree: 90%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 91%
 
    編輯 **[!UICONTROL Condition]** 欄位時，兩個按鈕可提供呼叫事件變數及編輯結合變數和函式的運算式的協助：
 
-   * ![](assets/extsignal_picker.png):在工作流程中可用的所有變數中選取事件變數(請參閱 [](../../automating/using/customizing-workflow-external-parameters.md))
+   * ![](assets/extsignal_picker.png):在工作流程中可用的所有變數中選取事件變數(請參 [閱本頁](../../automating/using/customizing-workflow-external-parameters.md))
 
       ![](assets/wkf_test_activity_variables.png)
 

@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 7f0af4deeaf641e2aded9278b97eb498edd85d08
 workflow-type: tm+mt
-source-wordcount: '1479'
+source-wordcount: '1456'
 ht-degree: 3%
 
 ---
@@ -40,7 +40,7 @@ Adobe Campaign是一套功能強大的工具，可用來收集和處理大量資
 
 >[!NOTE]
 >
->如需有關GDPR、CCPA和PDPA如何套用至Adobe Campaign的詳細資訊，請參 [閱本頁](https://helpx.adobe.com/tw/campaign/kb/campaign-privacy-overview.html#whatisgdpr)。
+>如需有關GDPR、CCPA和PDPA如何套用至Adobe Campaign的詳細資訊，請參 [閱本節](../../start/using/privacy-management.md#privacy-management-regulations)。
 
 ### Adobe Experience Cloud privacy {#experience-cloud-privacy}
 
@@ -78,7 +78,7 @@ Adobe Campaign是Adobe Experience Cloud解決方案的一部分。 在Campaign�
 * **個人資料** ，是指可直接或間接識別活人的資訊。
 * **敏感個人資料** ，是指與個人種族、政治觀點、宗教信仰、犯罪背景、遺傳資訊、健康資料、性偏好、生物識別資訊，以及工會會員相關的資訊。
 
-主 [要法規](#privacy-regulations) ，是指管理資料的不同實體，具體如下：
+主 [要法規](#privacy-regulations) ，是指管理資料的不同實體：
 * 資 **料掌控者** ，是決定收集、使用及分享個人資料之方式與目的的權威。
 * 資 **料處理者** ，是指依據資料控制者的指示收集、使用或分享個人資料的任何個人或一方。
 * 資 **料主體** ：指任何正在收集、使用或分享個人資料的活人，以及可參照該個人資料直接或間接識別的個人。
@@ -98,12 +98,12 @@ Adobe Campaign可讓您收集資料，包括個人和敏感資訊。 因此，�
 
 ## 隱私權管理 {#privacy-management}
 
-隱私權管理是指所有可協助您遵守隱私權法規（GDPR、CCPA等）的程式和工具。 取得本頁隱私權管理的概 [述](https://helpx.adobe.com/tw/campaign/kb/campaign-privacy-overview.html)。
+隱私權管理是指所有可協助您遵守隱私權法規（GDPR、CCPA等）的程式和工具。 概述本頁的隱私權管理 [內容](../../start/using/privacy-management.md)。
 
 Adobe Campaign提供您專屬於隱私權管理的各種功能：
 * 許可管理、資料保留和用戶角色。 請參閱[本區段](#consent)。
 * 隱私權要求（存取權與被遺忘權）。 請參閱[本區段](#privacy-requests)。
-* 選擇退出銷售個人資訊（CCPA專屬）。 請參閱[本區段](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ccpa)。
+* 選擇退出銷售個人資訊（CCPA專屬）。 請參閱[本區段](https://helpx.adobe.com/tw/campaign/kb/acs-privacy.html#ccpa)。
 
 本節將提供Campaign中的主要隱私權功能及相關角色的 [範例](https://helpx.adobe.com/campaign/kb/campaign-privacy-more.html#gdprpersonasandflow)。
 
@@ -116,7 +116,7 @@ Adobe Campaign原本提供對隱私權至關重要的功能：
 * **資料保留**:所有內置的標準日誌表都具有預設的保留期，通常將其資料儲存限制在6個月或更短。 您可以使用工作流程設定額外的保留期。 如需詳細資訊，請洽詢Adobe顧問或技術管理員。
 * **權限管理**:Adobe Campaign可讓您透過不同的預先建立或自訂角色，管理指派給各種Campaign運算子的權限。 這可讓您管理公司內可存取、修改或匯出不同類型資料的人員。 有關詳細資訊，請參 [閱關於訪問管理](../../administration/using/about-access-management.md)。
 
-如需這些功能以及如何在Adobe Campaign中管理這些功能的詳細資訊，請參 [閱本頁](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#consent)。
+如需這些功能以及如何在Adobe Campaign中管理這些功能的詳細資訊，請參 [閱本節](../../start/using/privacy-management.md#consent-retention-roles)。
 
 ### 隱私權要求 {#privacy-requests}
 
@@ -128,7 +128,7 @@ Adobe Campaign提供其他功能，協助您做為資料掌控者，針對特定
 
 >[!NOTE]
 >
->本套工具可協助您符合GDPR、CCPA和PDPA的隱私權規範。 如需這些不同法規的詳細資訊，請參 [閱本頁](https://helpx.adobe.com/tw/campaign/kb/campaign-privacy-overview.html#whatisgdpr)。
+>本套工具可協助您符合GDPR、CCPA和PDPA的隱私權規範。 有關這些不同法規的詳細資訊，請參 [閱本節](../../start/using/privacy-management.md#privacy-management-regulations)。
 
 <!--* **GDPR** (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
 
@@ -140,7 +140,7 @@ Adobe Campaign提供其他功能，協助您做為資料掌控者，針對特定
 
 ## 追蹤功能 {#tracking-capabilities}
 
-由於Adobe Campaign的追蹤功能，您可以使用工作階段Cookie和永久Cookie來追蹤傳送收件者的行為。 For more on tracking, see [this page](../../sending/using/tracking-messages.md).
+由於Adobe Campaign的追蹤功能，您可以使用工作階段Cookie和永久Cookie來追蹤傳送收件者的行為。 For more on tracking, see [this section](../../sending/using/tracking-messages.md).
 
 >[!NOTE]
 >

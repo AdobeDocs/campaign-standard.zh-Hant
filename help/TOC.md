@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Adobe Campaign Standard 說明中心
 breadcrumb-title: Campaign Standard 指南
 translation-type: tm+mt
-source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
+source-git-commit: 424123972ae189d15a2282b6065190dac4a89d5d
 workflow-type: tm+mt
-source-wordcount: '1655'
-ht-degree: 98%
+source-wordcount: '1658'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,9 @@ ht-degree: 98%
    + [已棄用的功能](rn/using/deprecated-features.md)
 + 快速入門 {#getting-started}
    + [關於 Adobe Campaign Standard](start/using/about-campaign-standard.md)
-   + [隱私權與同意](start/using/privacy.md)
+   + 隱私權 {#privacy}
+      + [隱私權與同意](start/using/privacy.md)
+      + [隱私權管理](start/using/privacy-management.md)
    + 探索介面 {#discovering-the-interface}
       + [關於介面](start/using/about-the-interface.md)
       + [介面說明](start/using/interface-description.md)
@@ -73,14 +75,14 @@ ht-degree: 98%
       + [存取訊息](channels/using/accessing-messages.md)
       + [訊息儀表板](channels/using/message-dashboard.md)
       + [多語言訊息範本](channels/using/multilingual-messages-template.md)
-   + 提供最佳實務 {#delivery-bestpractices}
-      + [瞭解良好實務](sending/using/delivery-best-practices.md)
-      + [最佳化傳送](sending/using/optimize-delivery.md)
+   + 傳遞最佳實務{#delivery-bestpractices}
+      + [瞭解好的實務](sending/using/delivery-best-practices.md)
+      + [最佳化傳遞](sending/using/optimize-delivery.md)
       + [使用範本](sending/using/use-templates.md)
-      + [建立個人化內容](sending/using/design-and-personalize.md)
-      + [定義正確的受眾](sending/using/define-the-right-audience.md)
+      + [建置個人化內容](sending/using/design-and-personalize.md)
+      + [定義正確受眾](sending/using/define-the-right-audience.md)
       + [傳送前先檢查](sending/using/check-before-sending.md)
-      + [追蹤和監控](sending/using/track-and-monitor.md)
+      + [追蹤和監視](sending/using/track-and-monitor.md)
    + 電子郵件訊息 {#email-messages}
       + [關於電子郵件](channels/using/about-emails.md)
       + [建立電子郵件](channels/using/creating-an-email.md)

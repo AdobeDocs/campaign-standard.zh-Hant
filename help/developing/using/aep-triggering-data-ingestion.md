@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 66417375168a9e4cbecdba71b1dcd94e844589c2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '464'
+ht-degree: 4%
 
 ---
 
@@ -57,8 +57,11 @@ POST操作會觸發XDM映射到Adobe Experience Platform的立即接收：
 >
 >為了執行收錄的POST API呼叫，使用者必須具有 **SQL函式執行角色** ，此角色可由Campaign Standard管理員透過執行下列JS指令碼提供：
 >
->`var sqlRoleObj = REST.head.roleBase.sql.get();
-REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);`
+>
+```
+>var sqlRoleObj = REST.head.roleBase.sql.get();
+>REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);
+>```
 
 POST操作返回有關已建立請求狀態的資訊：
 
@@ -105,7 +108,8 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 ```
 
 >[!NOTE]
-有關XDM映射請求狀態及其相關作業的詳細資訊，請參閱功能表中的「促銷活動標準」介 **[!UICONTROL Status of data export to platform]** 面(請參 [閱映射啟動](../../developing/using/aep-mapping-activation.md))。
+>
+>有關XDM映射請求狀態及其相關作業的詳細資訊，請參閱功能表中的「促銷活動標準」介 **[!UICONTROL Status of data export to platform]** 面(請參 [閱映射啟動](../../developing/using/aep-mapping-activation.md))。
 
 GET操作返回以下資訊：
 

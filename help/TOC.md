@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Adobe Campaign Standard 說明中心
 breadcrumb-title: Campaign Standard 指南
 translation-type: tm+mt
-source-git-commit: 424123972ae189d15a2282b6065190dac4a89d5d
+source-git-commit: fe3e9e17993846f8f8c5b4afbab6ad8e348c33ed
 workflow-type: tm+mt
-source-wordcount: '1658'
-ht-degree: 100%
+source-wordcount: '1660'
+ht-degree: 99%
 
 ---
 
@@ -31,6 +31,7 @@ ht-degree: 100%
    + 隱私權 {#privacy}
       + [隱私權與同意](start/using/privacy.md)
       + [隱私權管理](start/using/privacy-management.md)
+      + [隱私權要求](start/using/privacy-requests.md)
    + 探索介面 {#discovering-the-interface}
       + [關於介面](start/using/about-the-interface.md)
       + [介面說明](start/using/interface-description.md)

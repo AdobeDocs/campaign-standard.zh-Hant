@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: campaign-standard-releases
 discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 translation-type: tm+mt
-source-git-commit: 5667b18dfc9bceb52765d98d3c842d9aad1bc004
+source-git-commit: 18cd7a2956a16972b41a797e580cc68ac76abdc8
 workflow-type: tm+mt
-source-wordcount: '6235'
+source-wordcount: '6239'
 ht-degree: 98%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 98%
 
 ## 2020 年11月 {#doc-updates-november-2020}
 
-「隱私權」區段已移動，並包含新頁面： [隱私權管理](../../start/using/privacy-management.md)。
+「隱私權」區段已移動，並包含兩個新頁面： [隱私權管理](../../start/using/privacy-management.md) , [以及隱私權要求](../../start/using/privacy-requests.md)。
 
 ## 發行版本 20.4 – 2020 年 10 月 {#release-20-4---october-2020}
 

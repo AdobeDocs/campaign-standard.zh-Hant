@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: campaign-standard-deprecated-features
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 2dc4ac62e3b10753f7b8681d86cfe7f3b3a30a20
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '662'
 ht-degree: 18%
 
 ---
@@ -20,12 +20,12 @@ ht-degree: 18%
 
 # 被取代和已移除的功能 {#deprecated-and-removed-features}
 
-Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代的舊功能，以提升整體客戶價值，並時時考慮回溯相容性。
+Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代舊的功能，以提升整體客戶價值，並時時考慮回溯相容性。
 
 若要通知即將移除／取代Campaign Standard功能，請套用下列規則：
 
 * 首先我們發佈功能棄用的消息。雖然已過時的功能仍可供現有使用者使用，但無法進一步增強，也無法記錄。
-* 後續最新版本，則將最先移除已棄用的功能。本頁面將公佈實際的移除日期。
+* 後續最新發行版本，則將最先移除已棄用的功能。本頁面將公佈實際的移除日期。
 
 此流程讓客戶在實際移除之前，至少可以適應一個版本發行週期，以調整實作方式，及適應已棄用功能的新版本或後繼功能。
 
@@ -66,7 +66,7 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
  <tbody> 
   <tr> 
    <td> <p>在啟動Campaign 19.4發行時，已不再使用Campaign API和介面來存取和刪除請求。 2步驟描述檔刪除將無法使用。 使用 <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe隱私權核心服務</a>。</p></br>
-   <p>另請參閱 <a href="https://helpx.adobe.com/tw/campaign/kb/acs-privacy.html">Campaign Standard中的隱私權管理</a>。</p>
+   <p>另請參閱管 <a href="https://helpx.adobe.com/tw/campaign/kb/acs-privacy.html">理隱私權要求</a>。</p>
   <p> 
   <em>目標移除日期：2021 年</em></p>
    </td> 
@@ -138,7 +138,7 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
  </tbody> 
 </table>
 
-## 相容性終止 {#end-of-compatibility}
+## 相容性終止{#end-of-compatibility}
 
 <table> 
  <thead> 

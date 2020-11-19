@@ -5,7 +5,7 @@ title: Adobe Campaign Standard 產品文件
 description: 瀏覽Campaign Standard產品檔案
 topic: Premium
 translation-type: tm+mt
-source-git-commit: da0763c6b8dcac0d7e1c30decde768fd1da05b55
+source-git-commit: c1b9d2f8e16007f525465f28f3cee404fc491088
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 90%
@@ -19,7 +19,7 @@ ht-degree: 90%
 
 ## 新增功能
 
-* **[更新的發行計畫](rn/using/release-planning.md)**<br/> 2021年2月即將發行的發行日期已新增至發行計畫
+* **[更新的發行計畫](rn/using/release-planning.md)**<br/> 2021年2月即將發行的日期已新增至發行計畫
 
 * **[控制組](sending/using/control-group.md)**<br/>透過排除部分對象，以評估行銷活動的影響
 

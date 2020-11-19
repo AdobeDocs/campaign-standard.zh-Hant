@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: campaign-standard-release-planning
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 8da8c469fad3cab24046cd531ae036a79a053d75
+source-git-commit: c1b9d2f8e16007f525465f28f3cee404fc491088
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 98%
@@ -30,7 +30,7 @@ Adobe 透過新增功能、增強功能和修正不斷改進其解決方案。
 
 **新增功能！**&#x200B;訂閱 [Campaign Standard 發行通知](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU)，直接在收件匣中取得有關即將發行的詳細資訊。
 
-## 版本21.1 —— 二月發行 {#release-21-1-release}
+## 版本21.1 - 2月發行 {#release-21-1-release}
 
 環境更新會在以下指定時段內以波形進行。有關此版本的詳細資訊，請參閱[版本說明](../../rn/using/release-notes.md)。如果您有任何其他問題，請聯絡 [Adobe Client Care](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)。
 

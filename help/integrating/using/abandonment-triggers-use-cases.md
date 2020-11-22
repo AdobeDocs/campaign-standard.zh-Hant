@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 廢棄觸發程式使用案例
 description: 瞭解如何與這些不同的使用案例整合搭配使用 Experience Cloud Triggers。
-page-status-flag: never-activated
-uuid: 9e236165-afd5-4155-9151-c1941dc0af99
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-discoiquuid: 1b9aeec5-70bb-4d72-a3e9-12342abf08f7
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '993'
+ht-degree: 100%
 
 ---
 

@@ -1,20 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 使用傳送範本
-seo-title: 使用傳送範本
-page-status-flag: never-activated
-uuid: a540efc7-105d-4c7f-a2ee-ade4d22b3445
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-discoiquuid: 0cbc4e92-482f-4dac-a1fb-b738e7127938
 index: y
 translation-type: tm+mt
-source-git-commit: 100f7eef03d10a66832920708ad415f8f0d3883c
+source-git-commit: a7300666587362048431d0bafacc317170b317aa
 workflow-type: tm+mt
-source-wordcount: '802'
-ht-degree: 9%
+source-wordcount: '799'
+ht-degree: 10%
 
 ---
 
@@ -23,7 +19,7 @@ ht-degree: 9%
 
 提供範本可針對大多數常見活動類型提供現成的藍本，以提高效率。 使用範本，行銷人員可以在較短的時間內，以最少的自訂方式部署新的促銷活動。
 
-在本節中進一步瞭解傳送 [範本](../../start/using/marketing-activity-templates.md)。
+Learn more about delivery templates in [this section](../../start/using/marketing-activity-templates.md).
 
 ## 開始使用傳送範本 {#gs-templates}
 

@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 傳送訊息的關鍵步驟
 description: 請依照下列步驟，使用 Adobe Campaign 建立和傳送訊息。
-page-status-flag: never-activated
-uuid: d3fbb1e6-6444-4b56-b9d6-ae39bd8d4804
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
-discoiquuid: a51351ee-e3b6-4996-9e68-b7d5157b8207
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '174'
+ht-degree: 93%
 
 ---
 

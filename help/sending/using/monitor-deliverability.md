@@ -1,25 +1,22 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 監控Adobe Campaign Standard中的傳遞能力
 description: 使用Adobe Campaign Standard提供的工具監控平台的傳遞能力。
-page-status-flag: never-activated
-uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '422'
+ht-degree: 7%
 
 ---
 
 
-# 監控傳遞能力{#monitor-deliverability}
+# 監視傳遞能力{#monitor-deliverability}
 
 以下是Adobe Campaign提供的報 **[!UICONTROL Delivery throughput]** 表詳細資訊以及不同的監控工具。 以下是有關交付能力監控的一些附加准則：
 * 定期檢查整個平台的傳送吞吐量，以確認其是否與原始設定一致。
@@ -42,7 +39,7 @@ ht-degree: 0%
 
 其他報表可用，例如 **[!UICONTROL Delivery summary]** 或 **[!UICONTROL Non-deliverables and bounces]**。 如需詳細資訊，請參閱動 [態報表](../../reporting/using/about-dynamic-reports.md)。
 
-## 監控傳遞{#monitoring-deliveries}
+## 監視傳遞{#monitoring-deliveries}
 
 訊息控制面板可讓您存取傳送記錄檔： **[!UICONTROL Sending logs]**、 **[!UICONTROL Exclusion logs]**、 **[!UICONTROL Exclusion causes]****[!UICONTROL Tracking logs]** 和 **[!UICONTROL Tracked URLs]**。 其中會顯示傳送的詳細資料、已排除的目標、原因，以及開啟和點按數等追蹤資訊。
 

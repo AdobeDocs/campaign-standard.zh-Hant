@@ -1,20 +1,17 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 擷取檔案
 description: 「擷取檔案」活動可讓您以外部檔案的形式從 Adobe Campaign 匯出資料。
-page-status-flag: never-activated
-uuid: 631f0fbd-9e8d-4f77-a338-fcb7f4fc1774
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
-discoiquuid: a06509f9-4731-4187-b43d-3bfa361284d3
 context-tags: fileExport,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '403'
+ht-degree: 91%
 
 ---
 

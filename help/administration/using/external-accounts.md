@@ -1,20 +1,17 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 外部帳戶
 description: 設定外部帳戶以設定與外部系統（例如 SFTP 伺服器）的連線。
-page-status-flag: never-activated
-uuid: 5d2e2e3d-5d1f-4466-97e5-842c50390146
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: application-settings
-discoiquuid: d5c6a3d4-f767-46c1-a8c0-3b9dc52dcea8
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1774'
+ht-degree: 85%
 
 ---
 

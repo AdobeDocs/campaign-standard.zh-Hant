@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 後續訊息
 description: 瞭解如何建立和發佈後續訊息。
-page-status-flag: never-activated
-uuid: d2a17da2-e935-420a-8531-78ed6a1fe68b
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
-discoiquuid: 9615e369-754f-4f6a-a1b1-14462f946666
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '722'
+ht-degree: 4%
 
 ---
 

@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 測試您的觸發程式
 description: null
-page-status-flag: never-activated
-uuid: b3a6667d-e843-4ad6-817e-d91542b5f2e2
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-discoiquuid: f67e69f2-09fb-4f33-b2c3-c67a060743e3
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '443'
+ht-degree: 2%
 
 ---
 
@@ -37,7 +34,7 @@ ht-degree: 0%
 如果已建立觸發器，請繼續下一步。 否則，表示觸發器端點連接失敗。 檢查Experience Cloud（啟動服務）中是否已布建觸發器。 如果沒有，請連絡您的Adobe客戶主管或專業服務合作夥伴。 需要下列資訊：
 
 * Marketing Cloud公司名稱
-* IMS組織ID
+* IMS 組織 ID
 * Analytics登入公司（可與Marketing Cloud公司名稱相同）
 
 **嘗試發佈觸發器**

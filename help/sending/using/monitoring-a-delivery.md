@@ -1,20 +1,17 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 在 Adobe Campaign Standard 中監控傳送
 description: 瞭解如何在 Adobe Campaign Standard 中監控傳送。
-page-status-flag: never-activated
-uuid: 7772c607-debd-40fd-8322-4d49119979b4
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-discoiquuid: eb9fa216-4568-423a-9396-8f7b82181ae9
 context-tags: delivery,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '461'
+ht-degree: 86%
 
 ---
 

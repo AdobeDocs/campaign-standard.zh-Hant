@@ -1,20 +1,17 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 訊息儀表板
 description: 探索訊息儀表板的組成，包括動作列和各種功能區塊。
-page-status-flag: never-activated
-uuid: 9bb44ee8-2cf6-43ce-94a4-367f4e469713
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
-discoiquuid: 90a78742-697f-46da-8c54-108048e57b67
 context-tags: delivery,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '587'
+ht-degree: 4%
 
 ---
 

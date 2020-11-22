@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 推播通知傳送
 description: 「推播通知傳送」活動可讓您設定在工作流程中傳送單一傳送推播通知或週期性推播通知。
-page-status-flag: never-activated
-uuid: 994d8fe3-29f0-4b5c-89ee-c6be7c60a31b
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: channel-activities
-discoiquuid: e61bdaee-4b48-4845-a2a5-574b577ea796
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '772'
+ht-degree: 47%
 
 ---
 

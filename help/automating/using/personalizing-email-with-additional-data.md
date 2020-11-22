@@ -1,20 +1,17 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 使用其他資料個人化電子郵件
 description: 此使用案例說明如何新增不同類型的其他資料至查詢，並將它當成電子郵件中的個人化欄位。
-page-status-flag: never-activated
-uuid: b3c629fa-370e-481c-b347-fcf9f5a5e847
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 8d46ce28-0101-4f13-865a-2208ed6d6139
 context-tags: query,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '479'
+ht-degree: 86%
 
 ---
 

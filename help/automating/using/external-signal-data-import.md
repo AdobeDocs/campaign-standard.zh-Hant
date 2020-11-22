@@ -1,20 +1,17 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 外部信號和資料導入
 description: 以下示例說明與資料導入一起使用的外部信號活動。
-page-status-flag: never-activated
-uuid: 884b6daf-bfd9-440b-8336-004b80c76def
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: execution-activities
-discoiquuid: 911c71b5-da8b-4916-b645-13bba6d21715
 context-tags: signal,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '229'
+ht-degree: 79%
 
 ---
 

@@ -1,20 +1,17 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 將電子郵件與直接郵件傳送連接
 description: 此使用案例提供從工作流程傳送電子郵件和直接郵件的範例。
-page-status-flag: never-activated
-uuid: 1db691b8-c072-4e99-b2fa-27844a179c55
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: direct-mail
-discoiquuid: 141fa646-5260-4450-bafb-431ef7736c73
 context-tags: delivery,directMailContent,back
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '119'
+ht-degree: 84%
 
 ---
 

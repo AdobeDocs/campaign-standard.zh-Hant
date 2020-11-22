@@ -1,20 +1,17 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 自訂應用程式內訊息
 description: 瞭解如何使用各種選項來自訂您的應用程式內訊息。
-page-status-flag: never-activated
-uuid: 1d9c08ed-4de5-440d-bf51-4a437eec67d5
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: in-app-messaging
-discoiquuid: c9c3e033-e319-447b-8d87-ff7dd4941876
 context-tags: delivery,inAppContent,back
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1080'
+ht-degree: 100%
 
 ---
 

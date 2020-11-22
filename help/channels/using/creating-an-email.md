@@ -1,26 +1,23 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 建立電子郵件
 description: 請依照下列步驟，在Adobe Campaign中建立單一傳送的電子郵件。
-page-status-flag: never-activated
-uuid: 74c7ef35-82c0-4bc4-b1f6-8e74fdcaea3c
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: email-messages
-discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '549'
-ht-degree: 20%
+ht-degree: 22%
 
 ---
 
 
 # 建立電子郵件{#creating-an-email}
 
-您可以從促銷活動、 [Adobe Campaign首頁或](../../start/using/marketing-activities.md#creating-a-marketing-activity)行銷活動清單 [中建立電子郵件](../../start/using/interface-description.md#home-page)[](../../start/using/marketing-activities.md#about-marketing-activities)。 您也可以從工作流程建立單一傳送和循環寄送的電子郵件。
+You can create an email from a [campaign](../../start/using/marketing-activities.md#creating-a-marketing-activity), from the Adobe Campaign [home page](../../start/using/interface-description.md#home-page), or in the [marketing activity list](../../start/using/marketing-activities.md#about-marketing-activities). 您也可以從工作流程建立單一傳送和循環寄送的電子郵件。
 
 1. 開始建立電子郵件行銷活動後，請選取您要使用的範本。
 

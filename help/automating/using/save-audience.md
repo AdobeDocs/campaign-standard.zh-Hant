@@ -1,20 +1,17 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 儲存對象
 description: 「儲存對象」活動可讓您更新現有的對象，或是從工作流程中的母體運算上游建立新的對象。
-page-status-flag: never-activated
-uuid: 8babb173-fa59-44a7-a2a5-49f45ba6bf99
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 1f6bb048-7abd-499b-a4b0-187f9492dc47
 context-tags: saveAudience,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '803'
+ht-degree: 100%
 
 ---
 
@@ -67,7 +64,6 @@ ht-degree: 0%
       >[!NOTE]
       >
       >只有在管理員已設定 Adobe Experience Cloud 的共用對象功能時，才可使用此選項。如需詳細資訊，請參閱[使用 Campaign 及 People Core Service](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)。
-
    更新期間儲存或可用的對象類型會視工作流程上游的活動而定。
 
    如果對象的目標定位維度在儲存時未知（例如，如果來自匯入的檔案），則會建立或更新對象為 **[!UICONTROL File]** 類型觀眾。

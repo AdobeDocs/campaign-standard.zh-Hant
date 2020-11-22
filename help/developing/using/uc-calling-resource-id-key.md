@@ -1,11 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 使用複合識別鍵呼叫資源
 description: 瞭解如何使用複合識別碼呼叫資源
 translation-type: tm+mt
-source-git-commit: 81612f8158a19853e4b3ca05866fa335af493f67
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '588'
+ht-degree: 7%
 
 ---
 

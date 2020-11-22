@@ -1,20 +1,17 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 簡訊傳送
 description: SMS 傳送活動可讓您在工作流程中設定傳送單一傳送 SMS 或循環 SMS。
-page-status-flag: never-activated
-uuid: 736078c6-ac91-4440-825b-4a6ae31894ef
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: channel-activities
-discoiquuid: 978592b8-989a-446a-8a84-12b7fecfc130
 context-tags: sms,main;delivery,smsContent,back
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '784'
+ht-degree: 100%
 
 ---
 

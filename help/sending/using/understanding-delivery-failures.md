@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 瞭解傳送故障
 description: 瞭解如何使用 Campaign 管理傳送失敗。
-page-status-flag: never-activated
-uuid: 2735aa05-7b6f-47c9-98c4-a15cc33be39d
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1285'
+ht-degree: 81%
 
 ---
 

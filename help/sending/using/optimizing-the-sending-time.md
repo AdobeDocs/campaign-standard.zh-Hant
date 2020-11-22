@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 最佳化傳送時間
 description: 瞭解如何設定傳送時間並改善訊息的開放率。
-page-status-flag: never-activated
-uuid: c2c13934-9819-4e18-b5c7-60915c907f37
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-discoiquuid: 609355f6-9003-41b9-9981-ea787419fbf5
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '272'
+ht-degree: 100%
 
 ---
 

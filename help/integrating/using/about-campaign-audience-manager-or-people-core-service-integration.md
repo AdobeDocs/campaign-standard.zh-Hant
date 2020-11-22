@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 關於 Campaign-Audience Manager 或 People 核心服務整合
 description: 透過Audience Manager / People核心服務整合，您可以在不同的Adobe Experience Cloud解決方案中共用受眾或細分。
-page-status-flag: never-activated
-uuid: 39e3c78e-cccd-4823-afe9-abc7f8aef034
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
-discoiquuid: bf718329-f181-46f7-80a2-b525a8dee46d
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '468'
+ht-degree: 5%
 
 ---
 

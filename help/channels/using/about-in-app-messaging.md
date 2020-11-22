@@ -1,20 +1,17 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 關於應用程式內訊息傳送
 description: 使用應用程式內訊息傳送在行動應用程式內顯示訊息或警報。
-page-status-flag: never-activated
-uuid: 6784cdfc-6db9-41dd-9fbb-2e756a5bcb5f
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: in-app-messaging
-discoiquuid: a4168cfb-22bf-4ab3-b9d8-6e76e1bdc055
 context-tags: delivery,triggers,back
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '930'
+ht-degree: 29%
 
 ---
 

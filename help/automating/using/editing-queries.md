@@ -1,20 +1,17 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 編輯查詢
 description: 運用預先定義的篩選器和規則來建立人口族群。
-page-status-flag: never-activated
-uuid: a49c7739-a96c-45cb-9ac5-1ce299161a97
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: filtering-data
-discoiquuid: 84306a1e-0d9f-44cc-88a7-36d7e5b4da1f
 context-tags: queryFilter,overview;audience,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '782'
+ht-degree: 100%
 
 ---
 

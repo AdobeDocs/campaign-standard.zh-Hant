@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 新增視覺效果
 description: 動態報表提供一組視覺化，以新增圖形表示至報表。
-page-status-flag: never-activated
-uuid: f4d851c1-8ef8-4295-a7bc-eb9608fbc497
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
-discoiquuid: 6170342b-7e16-4cc5-81a0-fa0bef8569a8
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '220'
+ht-degree: 1%
 
 ---
 

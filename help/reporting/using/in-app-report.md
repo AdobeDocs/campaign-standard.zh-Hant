@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 應用程式內報告
 description: 透過「應用程式內置」報表，瞭解您的應用程式內訊息的成功。
-page-status-flag: never-activated
-uuid: 802dc606-a314-46dd-b361-b746b0772303
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
-discoiquuid: 3f17c2ad-8ba3-4795-93ed-288b2bcee872
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '242'
+ht-degree: 1%
 
 ---
 

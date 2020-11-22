@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 發行說明 2017 年
 description: 本頁列出 2017 年的所有 Adobe Campaign Standard 版本。
-page-status-flag: never-activated
-uuid: d73f8186-e309-441b-969d-71d0a1c33cf4
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '4627'
 ht-degree: 5%
@@ -75,7 +72,7 @@ _推播通知_
 * 現在，您可以協調行動應用程式使用者的資料，從Adobe Campaign資料庫建立或更新個人檔案。
 * Adobe Campaign現在會優先處理交易式推播通知，而非標準推播通知。
 
-_報表_
+_報告_
 
 * 修正無法在電子郵件內容中顯示熱點按百分比的問題。
 * 已修正登入清單量度的問題，此量度會計為硬性反彈，而非彈回。
@@ -155,7 +152,7 @@ _交易式訊息_
 * 已修正可能無法重新導向追蹤連結的問題。
 * 修正無法停用電子郵件或SMS訊息中特定連結追蹤的問題。
 
-_報表_
+_報告_
 
 * 已 **改善** 「熱點點按」報表。 此外，現在也可以根據傳送中定義的每個條件內容顯示熱點按，並可針對每次執行循環傳送或交易訊息顯示熱點按。 如需詳細資訊，請參閱[相關的文件](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion)，以瞭解詳情。
 * 修正隔離度量無法擷取正確資料的問題。
@@ -239,7 +236,7 @@ _推播通知_
 * 修正當推播通知只包含標題（而訊息內文中沒有任何內容）時，推播通知無法顯示在iOS裝置上的問題。
 * 修正強制要追蹤傳送中的媒體附件URL，導致影片和圖片無法內嵌在傳送中的問題。 推播通知的URL類型追蹤現在預設會停用。
 
-_報表_
+_報告_
 
 * 已修正圖表和表格之間的值顯示不同的問題。
 * 修正將推播通知值顯示為電子郵件值的問題。
@@ -290,7 +287,7 @@ _工作流程_
 
 * 修正變更動作以在活動中執行時發生的 **[!UICONTROL Transfer file]** 問題。
 
-_報表_
+_報告_
 
 * 計 **[!UICONTROL Spam]** 算和 **[!UICONTROL Spam rate]** 指標已變更。
 * 已 **[!UICONTROL Bounce]** 改善量度以取得更精確的結果。
@@ -375,7 +372,7 @@ _對象與查詢_
 * 修正查詢編輯器中的系列無法使用總計和平均匯總的問題。
 * 修正變更篩選器資源後，查詢編輯器無法重新載入的問題。
 
-_報表_
+_報告_
 
 * 修正在選取表格中的多列時，無法正確計算「開啟率」度量的問題。
 * 修正僅將量度顯示為整數值的錯誤。 量度現在可顯示小數。

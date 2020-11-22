@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 開始使用通訊管道
 description: 就各種通道建立個人化訊息，使用範本、建立登陸頁面並檢查最佳作法。
-page-status-flag: never-activated
-uuid: 5d61d8df-8256-4f28-8dd3-e791891e312f
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
-discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 22%
@@ -100,7 +97,7 @@ Campaign隨附著著陸頁面，這些網頁表單可用來擷取 **受眾的資
 ## 其他資源
 
 * [最佳化您的傳遞能力](../../sending/using/about-deliverability.md)
-* [提供最佳實務](../../sending/using/delivery-best-practices.md)
+* [傳遞最佳實務](../../sending/using/delivery-best-practices.md)
 * [設計電子郵件內容](../../designing/using/designing-content-in-adobe-campaign.md)
 * [匯入AEM內容](../../integrating/using/creating-email-experience-manager.md)
 * [使用工作流程傳送訊息](../../automating/using/about-channel-activities.md)

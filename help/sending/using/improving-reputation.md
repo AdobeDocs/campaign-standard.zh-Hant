@@ -1,20 +1,17 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 使用Adobe Campaign Standard提升您的聲譽
 description: 瞭解如何透過管理重複的電子郵件地址和隔離來改善您使用Adobe Campaign Standard的聲譽。
-page-status-flag: never-activated
-uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '458'
+ht-degree: 2%
 
 ---
 
@@ -43,7 +40,7 @@ ht-degree: 0%
 
 ## 隔離 {#quarantines}
 
-Adobe Campaign 管理隔離地址的清單。在傳送分析期間，預設會排除隔離地址的收件者：它們不是目標。
+Adobe Campaign 管理隔離地址清單。在傳送分析期間，預設會排除隔離地址的收件者：它們不是目標。
 
 隔離管理在本節中 [有詳細說明](../../sending/using/understanding-quarantine-management.md)。
 

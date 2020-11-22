@@ -1,20 +1,17 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 管理登錄頁面表單資料
 description: 瞭解如何管理登錄頁面表單資料。
-page-status-flag: never-activated
-uuid: 5b222ea2-6628-457f-a618-bfc0e5eb93dd
-contentOwner: lemaitre
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: landing-pages
-discoiquuid: 899c7152-f415-4df9-b4b4-5ff3470a4e32
 context-tags: landingPage,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '394'
+ht-degree: 100%
 
 ---
 

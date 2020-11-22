@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 發生故障時收到警報
 description: 瞭解如何使用警報管理系統。
-page-status-flag: never-activated
-uuid: a3ab733a-e3db-4adc-b930-cd4064b6dc1c
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2031'
+ht-degree: 2%
 
 ---
 
@@ -108,7 +105,7 @@ The **Delivery alerting** feature is an alert management system that enables a g
 * **[!UICONTROL Delivery with bad error ratio for soft bounces]**:任何已排程在定義範圍內的傳送，其狀態至少為 **[!UICONTROL In progress]**，且軟反彈錯誤率大於定義的百分比。
 * **[!UICONTROL Delivery with bad error ratio for hard bounces]**:任何已排程在定義範圍內的傳送，其狀態至少 **[!UICONTROL In progress]**&#x200B;為，硬反彈錯誤率大於定義的百分比。
 * **[!UICONTROL Deliveries with long start pending]**:任何在定義範圍內排程的傳送， **[!UICONTROL Start pending]** 其狀態長於定義的持續時間， **[!UICONTROL Start pending]** 狀態表示系統尚未考慮這些訊息。
-* **[!UICONTROL Deliveries with low throughput]**:任何開始的傳送時間都超過定義的持續時間，且小於已處理消息的定義百分比，且吞吐量低於定義值。
+* **[!UICONTROL Deliveries with low throughput]**:任何開始的傳送時間都比定義的持續時間長，且小於已處理消息的定義百分比，而吞吐量低於定義的值。
 * **[!UICONTROL Deliveries in progress]**:在已定義範圍內排程的任何傳送，其狀態 **[!UICONTROL In progress]** 為。
 
 >[!NOTE]

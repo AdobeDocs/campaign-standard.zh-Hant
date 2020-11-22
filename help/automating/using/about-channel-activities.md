@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 關於通道活動
 description: 可從螢幕左側使用通道活動。
-page-status-flag: never-activated
-uuid: 900e0580-2e56-4aaf-b584-58d8e9a408cf
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: channel-activities
-discoiquuid: 4e665635-5f2a-4344-a924-4e6f6f848568
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '65'
+ht-degree: 100%
 
 ---
 

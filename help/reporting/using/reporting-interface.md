@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 報告介面
 description: 進一步瞭解動態報表介面，以及如何在不同的標籤和功能表中導覽。
-page-status-flag: never-activated
-uuid: da6bcf7a-1d57-4d00-a3ba-d84214592417
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-discoiquuid: 14d86b4f-2782-48ec-8968-393a6de4f853
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '731'
+ht-degree: 3%
 
 ---
 

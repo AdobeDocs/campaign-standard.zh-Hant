@@ -1,20 +1,17 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 在 Adobe Campaign Standard 中設定電子郵件通道
 description: 瞭解如何在 Adobe Campaign Standard 中設定電子郵件通道。
-page-status-flag: never-activated
-uuid: 9fddb655-b445-41f3-9b02-5d356fc88aa1
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-discoiquuid: 3752d41f-8c59-4fad-b30f-e98e09cd74a8
 context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;delivery,properties,open
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2331'
+ht-degree: 100%
 
 ---
 
@@ -35,7 +32,7 @@ ht-degree: 0%
 
 ## 電子郵件通道參數 {#email-channel-parameters}
 
-電子郵件設定畫面可用於定義電子郵件通道的參數。管理員可以存取「**[!UICONTROL Administration]>[!UICONTROL Channels]>[!UICONTROL Email]>[!UICONTROL Configuration]**」功能表中的這些設定。
+電子郵件設定畫面可用於定義電子郵件通道的參數。管理員可以存取「**[!UICONTROL Administration]> [!UICONTROL Channels] > [!UICONTROL Email] >[!UICONTROL Configuration]**」功能表中的這些設定。
 
 ![](assets/channels_1.png)
 

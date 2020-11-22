@@ -1,20 +1,17 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 管理套件
 description: 管理員可以定義套件，以透過結構化　XML　檔案在不同　Adobe Campaign　執行個體之間交換資源。
-page-status-flag: never-activated
-uuid: d041f549-bfc5-4e6b-87bf-a63c7c224bca
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
-discoiquuid: c3015cdc-8432-4e57-8ac0-43ae7827e3b0
 context-tags: packageDef,overview;packageInstall,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1053'
+ht-degree: 100%
 
 ---
 

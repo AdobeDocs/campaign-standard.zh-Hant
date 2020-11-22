@@ -1,20 +1,17 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 建立工作流程
 description: 本節詳細說明建立新工作流程的主要原則和最佳實務。
-page-status-flag: never-activated
-uuid: 11374f64-8d34-40da-937b-09f419250f4c
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
-discoiquuid: c26fcb0e-19d5-4bd5-b7d6-2d22ce92ad90
 context-tags: workflow,wizard;workflow,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '958'
+ht-degree: 100%
 
 ---
 

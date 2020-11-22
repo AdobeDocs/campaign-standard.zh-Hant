@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 開始測試和傳送
 description: 準備、測試、排程、傳送及監控您的訊息。
-page-status-flag: never-activated
-uuid: 58666444-6e7c-4049-b2d2-8b26eabf5a82
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: about-sending-messages-with-campaign
-discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
@@ -69,7 +66,7 @@ Campaign Standard **訊息準備** ，會分析訊息的目標、個人化和有
 * [確認傳送](../../sending/using/confirming-the-send.md)
 * [追蹤訊息](../../sending/using/tracking-messages.md)
 * [使用電子郵件密件副本進行歸檔](../../sending/using/archiving.md)
-* [監控傳送](../../sending/using/monitoring-a-delivery.md)
+* [監視](../../sending/using/monitoring-a-delivery.md)
 * [瞭解傳送故障](../../sending/using/understanding-delivery-failures.md)
 * [瞭解隔離管理](../../sending/using/understanding-quarantine-management.md)
 
@@ -84,7 +81,7 @@ Campaign Standard提供數種 **傳遞性工具** ，可協助您改善成功傳
 顯示全文:
 
 * [關於傳遞能力](../../sending/using/about-deliverability.md)
-* [監控傳遞能力](../../sending/using/monitor-deliverability.md)
+* [監視傳遞能力](../../sending/using/monitor-deliverability.md)
 * [提升您的名譽](../../sending/using/improving-reputation.md)
 * [技術建議](../../sending/using/technical-recommendations.md)
 * [控制傳送總處理量](../../reporting/using/delivery-throughput.md)
@@ -95,5 +92,5 @@ Campaign Standard提供數種 **傳遞性工具** ，可協助您改善成功傳
 * [傳送測試、準備及傳送電子郵件（視訊）](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/sending-test-preparing-sending-email.html)
 * [檢閱電子郵件傳送和報告（視訊）](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/reviewing-personalized-email-delivery-and-reports.html)
 * [電子郵件快速入門](https://helpx.adobe.com/tw/campaign/kb/acs-get-started-with-emails.html)
-* [提供最佳實務](../../sending/using/delivery-best-practices.md)
+* [傳遞最佳實務](../../sending/using/delivery-best-practices.md)
 * [新增控制群組](../../sending/using/control-group.md)

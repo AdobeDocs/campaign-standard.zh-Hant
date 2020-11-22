@@ -1,20 +1,17 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 關於直接郵件
 description: 瞭解 Adobe Campaign 中直接郵件通道的主要特性。
-page-status-flag: never-activated
-uuid: 24add992-2efe-4b73-81c9-cda3e921ab16
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: direct-mail
-discoiquuid: e1fbf39c-9c30-493c-8322-9c71e18ce98c
 context-tags: delivery,directMailContent,back;deliveryCreation,wizard
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '455'
+ht-degree: 98%
 
 ---
 

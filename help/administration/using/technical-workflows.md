@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 技術工作流程
 description: 技術工作流程是現成的工作流程，旨在處理 Adobe Campaign 中的背景技術程式，以確保平台正常運作。
-page-status-flag: never-activated
-uuid: 6e763dc1-e1d3-4d94-bc0b-ef5b1703d8e5
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: application-settings
-discoiquuid: e9f147bd-6a5b-4b82-b9bb-311e38e22c62
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 100%

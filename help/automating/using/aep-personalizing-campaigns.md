@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 使用 Adobe Experience Platform屬性個人化行銷活動
 description: 瞭解如何使用Adobe Experience Platform屬性個人化您的宣傳活動。
-page-status-flag: never-activated
-uuid: 528d9472-e447-47af-a6b2-3181aa5fb5ad
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: channel-activities
-discoiquuid: 19796aca-6e9e-4d3a-8917-ba660ec7993c
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '271'
+ht-degree: 8%
 
 ---
 

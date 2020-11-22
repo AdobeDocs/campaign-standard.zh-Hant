@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 設定行動應用程式
 description: 瞭解如何設定Adobe Campaign，以使用SDK V4或Experience Platform SDK傳送推播通知或應用程式內訊息。
-page-status-flag: never-activated
-uuid: 63e1476a-7875-4f48-ba9e-97f1a0007e42
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-discoiquuid: 2a14500f-5ede-4131-8b1a-b7fd65b7e3aa
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1283'
+ht-degree: 7%
 
 ---
 
@@ -122,7 +119,7 @@ ht-degree: 0%
 
 1. 確認行動應用程式的狀態已從變更 **[!UICONTROL Ready to Configure]** 為 **[!UICONTROL Configured]**。
 
-   當「體驗平台啟動促銷活動」延伸模組顯示已成功設定索引鍵時，您也可以驗證屬性是否已在促銷活動中成功設定。
+   當「體驗平台啟動促銷活動」延伸模組顯示已成功設定索引鍵時，您也可以驗證是否已在促銷活動中成功設定屬性。
 
    ![](assets/launch_5.png)
 

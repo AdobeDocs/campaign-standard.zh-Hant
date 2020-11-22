@@ -1,25 +1,21 @@
 ---
-title: 定義正確的受眾
-seo-title: 定義正確的受眾
-page-status-flag: never-activated
-uuid: a540efc7-105d-4c7f-a2ee-ade4d22b3445
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
+solution: Campaign Standard
+product: campaign
+title: 定義正確受眾
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-discoiquuid: 0cbc4e92-482f-4dac-a1fb-b738e7127938
 index: y
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: a7300666587362048431d0bafacc317170b317aa
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '500'
+ht-degree: 11%
 
 ---
 
 
-# 定義正確的受眾 {#define-the-right-audience}
+# 定義正確受眾 {#define-the-right-audience}
 
 目標人口是關鍵：仔細建立您的清單、在熱門的電子郵件用戶端和行動裝置上測試您的電子郵件，並確保您的電子郵件清單是最新的（沒有未知或過時的位址）。 您也可以傳送校樣，協助設定完整的驗證週期。
 

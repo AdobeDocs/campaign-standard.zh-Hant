@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 重新鎖定非開啟者
 description: 此使用案例說明如何重新定位非開啟者。
-page-status-flag: never-activated
-uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: execution-activities
-discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
 context-tags: workflow,use-case,query,wait,delivery
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 38%

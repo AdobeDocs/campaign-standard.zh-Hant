@@ -1,18 +1,15 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 設定 Adobe IO for Microsoft Dynamics 365 整合
 description: 瞭解如何設定Adobe IO for Microsoft Dynamics 365整合。
-page-status-flag: never-activated
-uuid: effa1028-66b2-4bef-b5e4-7319dbb23d5d
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
-discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '504'
 ht-degree: 3%
 
 ---
@@ -32,7 +29,7 @@ Adobe Campaign Standard - Microsoft Dynamics 365整合在本頁 [中說明](../.
 >
 >管理員需要執行下列步驟。
 
-## 設定
+## 配置
 
 您需要建立新的Adobe IO專案，並加以設定以進行整合。
 
@@ -66,7 +63,7 @@ Adobe Campaign Standard - Microsoft Dynamics 365整合在本頁 [中說明](../.
 
    ![](assets/adobeIO5.png)
 
-1. 在下一個畫面中，您將選取要與此專案關聯的產品設定檔。 選取標題中包含的產品設定檔：您促銷活動例項的租用戶ID - [!UICONTROL Administrators]
+1. 在下一個畫面中，您將選取要與此專案關聯的產品設定檔。 選擇解決方案中包含的產品配置檔案：促銷活動標準產品：campaigntitle:您促銷活動例項的租用戶ID - [!UICONTROL Administrators]
 
    範例：Campaign Standard - your-campaign-tenantID —— 管理員
 

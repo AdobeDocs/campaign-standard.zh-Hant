@@ -1,20 +1,17 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 根據自動檔案下載更新資料
 description: '以下範例顯示透過傳輸檔案活動自動下載的載入檔案活動的結果，之後會進行更新資料活動。 '
-page-status-flag: never-activated
-uuid: 69af12cc-6f82-4977-9f53-aa7bc26f5d7e
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
-discoiquuid: 584ff893-9b1b-46c9-9628-714ab349ab88
 context-tags: fileImport,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '279'
+ht-degree: 79%
 
 ---
 

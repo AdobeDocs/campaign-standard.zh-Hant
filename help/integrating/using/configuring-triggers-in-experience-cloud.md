@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 在 Experience Cloud 中設定觸發程式
 description: '瞭解如何設定Adobe Experience Cloud觸發器整合，以便根據客戶先前的行為開始傳送個人化的傳送內容。 '
-page-status-flag: never-activated
-uuid: 8fd7b804-9528-46a5-a060-bf16b8dc555d
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-discoiquuid: 4163dc0c-8103-4425-b8bf-7aa45c4d3a06
 translation-type: tm+mt
-source-git-commit: 100f7eef03d10a66832920708ad415f8f0d3883c
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '860'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -27,7 +24,7 @@ ht-degree: 7%
 Adobe團隊需要下列資訊才能啟動觸發器：
 
 * Marketing Cloud公司名稱
-* IMS組織ID
+* IMS 組織 ID
 * Analytics登入公司（可與Marketing Cloud公司名稱相同）
 
 ## 設定解決方案和服務 {#configuring-solutions-and-services}

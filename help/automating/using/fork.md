@@ -1,20 +1,17 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 分支
 description: 「分支」活動可讓您建立出站轉變，以同時啟動多個活動。
-page-status-flag: never-activated
-uuid: e4eaf69b-84ee-4f79-8b80-99284697cd2c
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: execution-activities
-discoiquuid: f8ffe7af-e18c-4599-8fd0-fcd192565323
 context-tags: fork,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '210'
+ht-degree: 100%
 
 ---
 

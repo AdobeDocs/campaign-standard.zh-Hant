@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 建立多語言推播通知
 description: 建立多語言推播通知，以使用者慣用的語言和地區為目標。
-page-status-flag: never-activated
-uuid: d4aff741-e969-47c6-bae8-787c6c673191
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: push-notifications
-discoiquuid: f9bb2235-d388-4025-9ace-734beb0c1961
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '920'
+ht-degree: 3%
 
 ---
 

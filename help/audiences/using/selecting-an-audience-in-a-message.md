@@ -1,20 +1,17 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 在訊息中選取對象
 description: '"選取電子郵件對象的逐步程序：主要目標母體及測試設定檔。"'
-page-status-flag: never-activated
-uuid: 7d8f8446-f2e0-49c1-83f6-9667b29bc228
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
 topic-tags: managing-audiences
-discoiquuid: 158da6ff-8899-4e7b-b925-8a42c3de46a1
 context-tags: deliveryCreation,wizard;delivery,audience,back
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '364'
+ht-degree: 83%
 
 ---
 

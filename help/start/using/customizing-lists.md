@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 自訂清單
 description: 「瞭解如何自訂Adobe Campaign Standard中的顯示畫面並對清單畫面採取行動：排序、篩選、刪除或複製元素。 清單畫面會顯示一或多個特定資源的元素。」
-page-status-flag: never-activated
-uuid: 3350583c-91ca-4ea5-ac14-6b6f11c4a64a
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-discoiquuid: 4ba4f766-fdee-4ff0-8fe4-0612ed2b69a4
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '393'
+ht-degree: 1%
 
 ---
 

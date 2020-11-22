@@ -1,20 +1,17 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 確認傳送
 description: 瞭解如何完成訊息準備。
-page-status-flag: never-activated
-uuid: 1eaecb32-ffd2-45d0-a8b4-f97bee59a1bd
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
-discoiquuid: 8bb160b1-7de9-4c1f-bb89-b2e5fdafed41
 context-tags: delivery,deployment,back
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '312'
+ht-degree: 100%
 
 ---
 

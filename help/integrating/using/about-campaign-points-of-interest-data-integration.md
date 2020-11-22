@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 關於 Campaign-Points of Interest 資料整合
 description: 透過從行動應用程式的訂閱者收集地標資料，透過Adobe Campaign的整合，傳送以位置為基礎的行銷訊息給訂閱者。
-page-status-flag: never-activated
-uuid: 1e6840c8-0472-4da2-85ed-f9a65147555a
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
-discoiquuid: bc10c650-80cd-4146-ae82-c5981fc62bec
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '198'
+ht-degree: 6%
 
 ---
 

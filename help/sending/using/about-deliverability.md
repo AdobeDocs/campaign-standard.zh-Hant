@@ -1,20 +1,17 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 關於Adobe Campaign Standard中的傳遞能力
 description: 瞭解與傳遞能力相關的概念和最佳實務，以及Adobe Campaign Standard提供的工具，以最佳化傳送您的傳遞。
-page-status-flag: never-activated
-uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '657'
+ht-degree: 5%
 
 ---
 
@@ -45,7 +42,7 @@ ht-degree: 0%
 ## 傳遞性工具 {#deliverability-tools}
 
 首先，請先參閱Campaign Standard隨附之傳遞性工具相關檔案：
-* [提供最佳實務](../../sending/using/delivery-best-practices.md)
+* [傳遞最佳實務](../../sending/using/delivery-best-practices.md)
 * [個人化傳送者名稱](../../designing/using/personalization.md#personalizing-the-sender)
 * [測試電子郵件的主旨行](../../sending/using/testing-subject-line-email.md)
 * [最佳化傳送時間](../../sending/using/optimizing-the-sending-time.md)

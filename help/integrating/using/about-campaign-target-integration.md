@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 關於 Campaign-Target 整合
 description: 透過Adobe Target整合，您可以將Adobe Target產生的動態影像插入Adobe Campaign訊息中。
-page-status-flag: never-activated
-uuid: eb43f054-9c00-4ca4-acdd-e2306937af3c
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
-discoiquuid: a416fae1-3812-4404-844e-ed6d6df0dcf5
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '166'
+ht-degree: 9%
 
 ---
 

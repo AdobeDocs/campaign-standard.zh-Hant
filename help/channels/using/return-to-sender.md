@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 返回至寄件者
 description: 瞭解如何收到錯誤地址的通知，並排除它，以免日後通訊。
-page-status-flag: never-activated
-uuid: 11981c2f-0b7f-4166-9daa-ec6a6b4d5367
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: direct-mail
-discoiquuid: 5f20ff3f-8242-4735-8c60-c57610edff52
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '214'
+ht-degree: 2%
 
 ---
 

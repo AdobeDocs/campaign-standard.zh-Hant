@@ -1,20 +1,17 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 訂閱服務
 description: 「訂閱服務」活動可讓您大量擷取設定檔，並訂閱至服務或取消訂閱服務。
-page-status-flag: never-activated
-uuid: 56637024-15ab-4145-9c48-3fbd27ab8af8
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
-discoiquuid: 74a6df0e-fd85-4404-a42c-9a7406512717
 context-tags: setOfService,workflow,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1110'
+ht-degree: 98%
 
 ---
 

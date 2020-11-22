@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Campaign 中鎖定對應
 description: 目標對應是促銷活動用來傳送訊息的技術物件。 它們包含傳送遞送所需的所有技術設定。
-page-status-flag: never-activated
-uuid: 0c3841cb-56fb-4b4f-970d-947edd1c2112
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: application-settings
-discoiquuid: 73d06242-a02f-4a8d-85e9-73efffb5eda1
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '101'
+ht-degree: 16%
 
 ---
 

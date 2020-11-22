@@ -1,20 +1,17 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 根據年齡群體細分
 description: 本頁根據資料庫設定檔的年齡群組，呈現資料庫設定檔的分段。 工作流程的目的是為每個年齡群組傳送特定電子郵件。
-page-status-flag: never-activated
-uuid: 77796f18-cad5-4e7a-9d7b-4ed0dd8943bf
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 0ccd9d02-772e-406b-874a-5381dd0c8709
 context-tags: segmentation,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '198'
+ht-degree: 66%
 
 ---
 

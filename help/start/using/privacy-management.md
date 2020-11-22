@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Adobe Campaign Standard中的隱私權管理
 description: 進一步瞭解Adobe Campaign Standard的隱私權管理功能。
-page-status-flag: never-activated
-uuid: ed9e631c-5ad1-49f1-be1e-b710bc64dc91
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 translation-type: tm+mt
-source-git-commit: 2dc4ac62e3b10753f7b8681d86cfe7f3b3a30a20
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '928'
 ht-degree: 0%

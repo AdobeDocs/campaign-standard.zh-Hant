@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 布建與設定與 Audience Manager 或 People 核心服務整合
 description: '瞭解如何設定Audience Manager / People核心服務整合，以便開始使用不同的Adobe Experience Cloud解決方案來分享受眾或細分。 '
-page-status-flag: never-activated
-uuid: e7329644-0033-4729-b4a7-61bef137f4b5
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
-discoiquuid: eb24f4ea-325f-433a-91a0-c45906320bcb
 translation-type: tm+mt
-source-git-commit: 100f7eef03d10a66832920708ad415f8f0d3883c
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '726'
 ht-degree: 8%

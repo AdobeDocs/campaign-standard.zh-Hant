@@ -1,20 +1,17 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 基於行動應用程式資料來建立和更新設定檔資訊
 description: 瞭解如何根據行動應用程式資料建立和更新個人檔案資訊。
-page-status-flag: never-activated
-uuid: 8cf74cad-b1ba-4aad-83bd-7289cb22d5f4
-contentOwner: lemaitre
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: push-notifications
-discoiquuid: dc944c85-2059-46df-b396-676fe3617dd1
 context-tags: delivery,mobileAppContent,back
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1010'
+ht-degree: 4%
 
 ---
 

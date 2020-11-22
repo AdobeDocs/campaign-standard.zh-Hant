@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 匯出清單
 description: 'Adobe Campaign可讓您直接從檔案中匯出顯示為清單的資料，以供日後使用。 '
-page-status-flag: never-activated
-uuid: c64fe706-bd6e-4746-958e-f94226f4e2cb
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
-discoiquuid: 12c874da-435f-44b6-a3c8-873301e177cc
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '423'
+ht-degree: 5%
 
 ---
 

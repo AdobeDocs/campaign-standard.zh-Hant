@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: '"步驟 1：將擴充欄位新增至設定檔資源"'
 description: 瞭解如何擴充描述檔資源。
-page-status-flag: never-activated
-uuid: cb93ed40-3b00-458d-9554-883954565fdb
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
-discoiquuid: e9a7d1ab-9a4a-49d2-a725-7bcf8fc240d6
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '61'
+ht-degree: 55%
 
 ---
 

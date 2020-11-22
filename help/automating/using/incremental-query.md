@@ -1,20 +1,17 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 增量查詢
 description: 「增量查詢」活動可讓您從 Adobe Campaign 資料庫中篩選及擷取一組元素。
-page-status-flag: never-activated
-uuid: 73b42422-e815-43ef-84c0-97c4433ccc98
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 80961e73-42ec-463a-8496-cff69fab0475
 context-tags: incremental,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '614'
+ht-degree: 98%
 
 ---
 

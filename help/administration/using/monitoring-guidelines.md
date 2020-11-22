@@ -1,30 +1,27 @@
 ---
-title: 監控准則
+solution: Campaign Standard
+product: campaign
+title: 監視准則
 description: 本節提供監控促銷活動標準的一般准則。
-page-status-flag: never-activated
-uuid: cf0d782d-47bf-40ae-ab6f-d1d47fa15792
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: introduction
-discoiquuid: 8b33e6af-15c3-4b30-8ad6-d76a1f33be21
 index: y
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '496'
+ht-degree: 9%
 
 ---
 
 
-# 監控准則 {#monitoring-guidelines}
+# 監視准則 {#monitoring-guidelines}
 
 <table>
 <tr><td><img src="assets/do-not-localize/icon_system.svg" width="60px"><p><a href="#monitoring-system">監控系統</a></p></td>
 <td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#moniroting-workflows">監控工作流程</a></p></td>
-<td><img src="assets/do-not-localize/icon_send.svg" width="60px"><p><a href="#monitoring-deliveries">監控傳遞</a></p></td></tr>
+<td><img src="assets/do-not-localize/icon_send.svg" width="60px"><p><a href="#monitoring-deliveries">監視傳遞</a></p></td></tr>
 </table>
 
 Campaign Standard提供數種監控例項的方式，以確保您的系統正常運作，並最終疑難排解在設定工作流程、傳送傳送等時可能發生的問題。
@@ -65,7 +62,7 @@ Campaign Standard提供數種監控例項的方式，以確保您的系統正常
 **通知**Campaign Standard可讓您傳送通知給主管，以監控工作流的執行情況，並查看是否有任何需要您注意的錯誤。
 [顯示全文](../../automating/using/monitoring-workflow-execution.md#error-management)
 
-## 監控傳遞{#monitoring-deliveries}
+## 監視傳遞{#monitoring-deliveries}
 
 <img src="assets/do-not-localize/icon_send.svg" width="60px">
 

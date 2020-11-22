@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 設定 Campaign-Points of Interest 資料整合
 description: 瞭解如何設定Adobe Campaign中的地標資料功能，以根據訂閱者的位置傳送個人化訊息。
-page-status-flag: never-activated
-uuid: 0689a06c-cc1a-442f-95b8-a07fcec85d79
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
-discoiquuid: a967c6cc-c53b-41b4-866b-90860d78f463
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1340'
+ht-degree: 3%
 
 ---
 

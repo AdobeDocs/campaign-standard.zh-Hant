@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 監控訂閱
 description: 瞭解如何使用儀表板和報告來追蹤訂閱者並評估服務的成功程度。
-page-status-flag: never-activated
-uuid: b0d8eb80-fa51-4518-a5e6-56de4046f6ff
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
-discoiquuid: 36750524-eb54-47e8-aa1b-ae0b94f58cb1
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '357'
+ht-degree: 1%
 
 ---
 

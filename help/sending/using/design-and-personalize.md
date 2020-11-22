@@ -1,25 +1,21 @@
 ---
-title: 建立個人化內容
-seo-title: 建立個人化內容
-page-status-flag: never-activated
-uuid: a540efc7-105d-4c7f-a2ee-ade4d22b3445
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
+solution: Campaign Standard
+product: campaign
+title: 建置個人化內容
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-discoiquuid: 0cbc4e92-482f-4dac-a1fb-b738e7127938
 index: y
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: a7300666587362048431d0bafacc317170b317aa
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '905'
+ht-degree: 7%
 
 ---
 
 
-# 建立個人化內容 {#build-personalized-content}
+# 建置個人化內容 {#build-personalized-content}
 
 在設計訊息內容時，請盡量避免可能導致您無法執行傳送的常見問題。 大部分時候，可能的錯誤都與個人化、使用現 [有內容時的格式化](../../designing/using/personalization.md)-以及轉換 [HTML內容——以及影像有](../../designing/using/using-existing-content.md)[](../../designing/using/using-existing-content.md#converting-an-html-content)[](../../designing/using/images.md)關。
 

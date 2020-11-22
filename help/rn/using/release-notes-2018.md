@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 發行說明 2018 年
 description: 本頁列出 2018 年的所有 Adobe Campaign Standard 版本。
-page-status-flag: never-activated
-uuid: 99f92a54-4b3d-48b9-b08d-e98b24e75f62
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '5400'
+ht-degree: 4%
 
 ---
 
@@ -421,7 +418,7 @@ _推播通知_
 * 修正某些個人化欄位無法在iOS推播通知中運作的錯誤。
 * 修正推播通知控制面板中，點按和開啟率顯示為0%的錯誤。
 
-_報表_
+_報告_
 
 * 修正某些瀏覽器中報表清單顯示為空白的錯誤。
 * 修正技術工作流程中，在 **[!UICONTROL Report sharing]** 到達其過期限制之前發生的錯誤。
@@ -508,7 +505,7 @@ _推播通知_
 * 新增推播通知預覽影片的暫停按鈕。
 * 推播通知預覽現在適用於不同的裝置，例如iPhone、Android、平板電腦。
 
-_報表_
+_報告_
 
 * 修正顯示超過100%的比率的錯誤。
 * 修正使用者無法以CSV格式下載報表的問題。

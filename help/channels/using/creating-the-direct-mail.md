@@ -1,20 +1,17 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 建立直接郵件
 description: 請依照下列步驟，在 Adobe Campaign 中建立直接郵件傳送。
-page-status-flag: never-activated
-uuid: 3b1365c4-4ea1-4434-818b-05ff0c9b42c1
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: direct-mail
-discoiquuid: 5b02227f-9438-4001-bc2f-3d8661d173b3
 context-tags: delivery,directMailContent,back
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '594'
+ht-degree: 96%
 
 ---
 

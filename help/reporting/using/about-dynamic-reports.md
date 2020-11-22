@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 動態報告快速入門
 description: 使用動態報表，將變數和維度拖放至自由格式環境，並分析促銷活動的成功。
-page-status-flag: never-activated
-uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '791'
+ht-degree: 5%
 
 ---
 
@@ -73,7 +70,7 @@ ht-degree: 0%
 | 地區 | 動態報告 | Microsoft Dynamics 365連接器 |
 |---|---|---|
 | 美洲與亞太地區（亞太地區） | **功能已推出**。 <br> 除ExternalID外，沒有立即可用的自訂設定檔資訊推送至美國報告中心。 | **功能已推出**。 <br>除「外部ID」和「收件者ID」外，沒有立即可用的或自訂的描述檔欄位傳送至美國資料中心。 <br>除鏡像頁面ID外，所有在美國資料中心處理的Adobe Campaign Standard事件欄位。 <br>有關Microsoft Dynamics 365整合的詳細資訊，請參閱本 [頁](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)。 |
-| EMEA（歐洲中東和非洲） | **功能已推出**。 <br>除ExternalID外，沒有將現成可用的自訂設定檔資訊推送至EMEA報告中心。 | **功能已推出。** <br>除「外部ID」和「收件者ID」外，沒有立即可用或自訂的描述檔欄位傳送至EMEA資料中心。 <br>除鏡像頁面ID外，所有在EMEA資料中心處理的Adobe Campaign Standard事件欄位。  <br>**[!UICONTROL Control data]**其中包含Adobe I/O註冊資料，以及在美國資料中心傳送及儲存之客戶使用者事件的ID。<br>有關Microsoft Dynamics 365整合的詳細資訊，請參閱本[頁](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)。 |
+| EMEA（歐洲中東和非洲） | **功能已推出**。 <br>除ExternalID外，沒有將現成可用的自訂設定檔資訊推送至EMEA報告中心。 | **功能已推出。** <br>除「外部ID」和「收件者ID」外，沒有立即可用或自訂的描述檔欄位傳送至EMEA資料中心。 <br>除鏡像頁面ID外，所有在EMEA資料中心處理的Adobe Campaign Standard事件欄位。  <br>**[!UICONTROL Control data]**其中包含Adobe I/O註冊資料，以及在美國資料中心傳送及儲存之客戶使用者事件的ID。<br>有關Microsoft Dynamics 365整合的詳細資訊，請參閱本 [頁](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)。 |
 
 這個選項不是最終選項，您隨時都可以在 **[!UICONTROL Enable PII data to be transferred to US region to use reporting on Profile data]** > **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** 中變更 **[!UICONTROL Options]**。
 

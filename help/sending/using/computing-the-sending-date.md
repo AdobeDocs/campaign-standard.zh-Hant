@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 計算傳送日期
 description: 瞭解如何在特定日期和時間傳送訊息。
-page-status-flag: never-activated
-uuid: fbbb37a0-7257-4407-a4c9-f76bf04460d4
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-discoiquuid: 02a87cc6-c40c-44fe-bb4e-b68870a4859b
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '999'
+ht-degree: 1%
 
 ---
 

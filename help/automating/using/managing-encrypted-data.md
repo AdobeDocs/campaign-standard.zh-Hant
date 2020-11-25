@@ -7,7 +7,7 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 3523a067e4fc4b1d22159fc93171fd1e0b32f05c
 workflow-type: tm+mt
 source-wordcount: '938'
 ht-degree: 3%
@@ -45,7 +45,7 @@ ht-degree: 3%
 
 在此使用案例中，我們將建立工作流程，以便使用「控制面板」中產生的金鑰，匯入在外部系統中加密的資料。
 
-本節也提供教學課程影片，說明如何使用GPG金鑰解密 [資料](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/decrypting-data.html)。
+本節也提供教學課程影片，說明如何使用GPG金鑰解密 [資料](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/decrypting-data.html?lang=en#instance-settings)。
 
 執行此使用案例的步驟如下：
 
@@ -89,7 +89,7 @@ ht-degree: 3%
 
 在此使用案例中，我們將建立工作流程，以便使用「控制面板」上安裝的金鑰來加密和匯出資料。
 
-本節也提供教學課程影片，說明如何使用GPG金鑰來加密 [資料](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/using-a-gpg-key-to-encrypt-data.html)。
+本節也提供教學課程影片，說明如何使用GPG金鑰來加密 [資料](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/using-a-gpg-key-to-encrypt-data.html?lang=en#instance-settings))。
 
 執行此使用案例的步驟如下：
 

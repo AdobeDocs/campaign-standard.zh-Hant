@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 79e0b945e2c34bc396b7852851df848a76d62979
 workflow-type: tm+mt
-source-wordcount: '2269'
-ht-degree: 100%
+source-wordcount: '2156'
+ht-degree: 98%
 
 ---
 
@@ -38,19 +38,13 @@ ht-degree: 100%
 
 ### 回溯相容性注意事項 {#from-beta-to-ga}
 
-藉由 Campaign Standard 20.4 版本的發佈，http 回應資料大小限制和回應逾時護欄已降低，以符合最佳實務（請參閱「限制和護欄」一節）。這些護欄修改不會對現有的外部 API 活動產生影響；因此，建議您在所有工作流程中，以新版本取代現有的外部 API 活動。
-
-如果您要從 Campaign Standard 20.2（或更舊版本）升級，請注意，Campaign Standard 20.3 版中的外部 API 功能將從測試版移至 General Availability。
-
-因此，如果您使用測試版外部 API 活動，則需要在所有工作流程中以 GA 外部 API 活動來取代這些活動。 從 Campaign Standard 20.3 版開始，使用外部 API 測試版的工作流程將無法運作。
+With the Campaign Standard 20.4 release, the http response data size limit and response timeout guardrails have been lowered to align with best practices - see [Limitations and guardrails](#guardrails). 這些護欄修改不會對現有的外部 API 活動產生影響；因此，建議您在所有工作流程中，以新版本取代現有的外部 API 活動。
 
 取代外部 API 活動時，將新的外部 API 活動新增至工作流程、手動複製設定詳細資訊，然後刪除舊活動。
 
 >[!NOTE]
 >
 >您將無法複製活動指定標題值，因為這些值在活動中被遮罩。
-
-接著，重新設定工作流程中指向及/或使用測試版外部 API 活動資料的其他活動，以指向及/或使用新外部 API 活動的資料。活動範例：電子郵件傳送（個人化欄位）、擴充活動等。
 
 ### 限制和護欄 {#guardrails}
 

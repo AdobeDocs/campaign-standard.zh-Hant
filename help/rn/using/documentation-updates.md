@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: abf2bb68ca0a2bbad6347184f2c091726021af89
 workflow-type: tm+mt
-source-wordcount: '6239'
-ht-degree: 98%
+source-wordcount: '6311'
+ht-degree: 97%
 
 ---
 
@@ -22,6 +22,12 @@ ht-degree: 98%
 ## 2020 年11月 {#doc-updates-november-2020}
 
 「隱私權」區段已移動，並包含兩個新頁面： [隱私權管理](../../start/using/privacy-management.md) , [以及隱私權要求](../../start/using/privacy-requests.md)。
+
+「Adobe Experience Platform Data Connector」區段中已新增有關隱私權管理相關資料對應驗證錯誤以及如何疑難排解的資訊。 [顯示全文](../../developing/using/aep-mapping-activation.md)
+
+「個人資料與角色」區段已更新為使用案例案例，以說明不同角色在隱私權方面如何互動。 [顯示全文](../../start/using/privacy.md#use-case-scenario)
+
+已新增一節，其中列出隱私權的常見問題。 [顯示全文](../../start/using/privacy-faq.md)
 
 ## 發行版本 20.4 – 2020 年 10 月 {#release-20-4---october-2020}
 

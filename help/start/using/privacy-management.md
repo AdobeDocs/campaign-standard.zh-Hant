@@ -7,9 +7,9 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: a9afa91302684ddd37a94a9999d90bf8c8e7abee
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '964'
 ht-degree: 0%
 
 ---
@@ -17,17 +17,39 @@ ht-degree: 0%
 
 # 隱私權管理 {#privacy-management}
 
-Adobe Campaign提供一套工具，可協助您遵守隱私權法規（包括GDPR、CCPA、PDPA、LGPD）。
+Adobe Campaign offers a set of tools to help you comply with [Privacy regulations](#privacy-management-regulations) (including GDPR, CCPA, PDPA, LGPD).
 
-* 本節提供有關隱私權管理的一般資訊，以及Adobe Campaign為管理存取權和被遺 [忘權所提供的功能](#right-access-forgotten)。
+以下是Adobe Campaign為確保GDPR和其他隱私權法規的準備而提供的五大功能：
 
-* 此外，還包含管理隱私權(同意、資[料保留和使用者角色](#consent-retention-roles))的重要功能，以及使用Adobe Campaign時協助您符合隱私權規範的最佳實務。
+![](assets/privacy-gdpr-use-cases.png)
 
-## 隱私權管理法規 {#privacy-management-regulations}
+* **存取權**
+
+* **刪除權**
+
+如需詳細資訊，請 [參閱存取權與被遺忘權](#right-access-forgotten)。
+
+* **許可管理**
+
+* **資料保留**
+
+* **權限管理**
+
+有關詳細資訊，請參 [閱「同意」、「保留和角色」](#consent-retention-roles)。
+
+<!--This section presents general information on what Privacy management is and the features provided by Adobe Campaign to manage the [Right to Access and Right to be Forgotten](#right-access-forgotten).
+
+It also contains information on important features to manage Privacy ([consent, data retention and user roles](#consent-retention-roles)), as well as best practices to help you with your Privacy compliance when using Adobe Campaign.-->
+
+## 隱私權管理規定 {#privacy-management-regulations}
 
 Adobe Campaign的功能可協助您遵守下列法規：
 
-* **GDPR** ([通用資料保護規則](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en))是歐盟(EU)的隱私權法，協調並現代化歐盟國家的資料保護要求。
+* **GDPR** ([通用資料保護規則](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en))是歐盟(EU)的隱私權法，協調並現代化歐盟國家的資料保護要求。 請遵循下列連結，以尋找有關GDPR的一般資訊：
+
+   * https://www.adobe.com/privacy/general-data-protection-regulation.html
+   * https://www.adobe.com/marketing-cloud/campaign/general-data-protection-regulation.html
+
 * **CCPA** ([California Consumer Privacy Act](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&amp;division=3.&amp;title=1.81.5。&amp;part=4。&amp;chapter=&amp;article=))為加州居民提供個人資訊的新權利，並對在加州經營業務的特定實體規定資料保護責任。
 * **PDPA** ([個人資料保護法](https://secureprivacy.ai/thailand-pdpa-summary-what-businesses-need-to-know/))是一項新的隱私權法，協調並現代化泰國的資料保護要求。
 * **LGPD** ([Lei Geral de Proteção de Dados](https://iapp.org/media/pdf/resource_center/Brazilian_General_Data_Protection_Law.pdf))將於2021年初生效，適用於巴西所有收集或處理個人資料的公司。
@@ -49,6 +71,10 @@ Adobe Campaign的功能可協助您遵守下列法規：
 如要瞭解如何建立 **Access** 和 **Delete請求，以及Adobe Campaign如何處理這些請求，請參** 閱實作步驟 [](../../start/using/privacy-requests.md#about-privacy-requests)。
 
 此處也提供有關Campaign Standard隱私權管理的教 [學課程](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=en#privacy)。
+
+>[!NOTE]
+>
+>如需有關個人資料以及管理資料的不同實體（資料控制者、資料處理者和資料主體）的詳細資訊，請參 [閱個人資料和人員](../../start/using/privacy.md#personal-data)。
 
 ## 同意、保留和角色 {#consent-retention-roles}
 

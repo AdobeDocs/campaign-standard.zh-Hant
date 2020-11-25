@@ -7,10 +7,10 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 3a4e8628b916291244d142d9cc4a6a84b799502b
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 1%
+source-wordcount: '478'
+ht-degree: 0%
 
 ---
 
@@ -39,9 +39,29 @@ ht-degree: 1%
 
 ![](assets/aep_statusmapping.png)
 
-資料擷取工作狀態：
+資料擷取工作狀態為：
 
 * **[!UICONTROL Created]**:建立資料提取作業並正在進行資料提取。
 * **[!UICONTROL Failed]**:資料擷取工作失敗。 原因欄位說明失敗的原因。 故障可以是暫時的或永久的。 在發生瞬時故障時，在配置的間隔後建立新的提取作業。 作為疑難排解的第一步，使用者可以檢查失敗的原因欄位。 如果原因將使用者重新導向至Adobe Experience Platform UI，使用者可登入Adobe Experience Platform，並可檢查資料集中的批次狀態，以判斷確切的失敗原因。
 * **[!UICONTROL Uploaded]**:首先在Adobe Experience Platform中建立批次，然後資料會擷取至該批次。 批次ID欄位會顯示Adobe Experience Platform中批次的批次ID。 Adobe Experience Platform也會對批次執行貼文驗證。 批次會先標示為已上傳，直到Adobe Experience Platform完成貼文驗證步驟為止。 工作會在上傳後持續輪詢Adobe Experience Platform以取得批次狀態。 批可以在Adobe Experience Platform中進行「失敗」或「成功」狀態的貼文驗證。
 * **[!UICONTROL Success]**:將批次上傳至Adobe Experience Platform後，作業狀態（平台中的貼文驗證）會在設定的間隔後進行檢查。 「成功」狀態可識別Adobe Experience Platform中的資料擷取成功。
+
+在某些情況下，發佈對應時，您可能會收到以下驗證錯誤。
+
+![](assets/aep_datamapping_ccpa.png)
+
+當您使用的XDM架構未更新為與隱私權管理相關的最新XDM欄位，且仍包含已過時的「ccpa」 XDM欄位時，就會發生此情況。
+
+要更新XDM模式，請執行以下步驟：
+
+1. 使用XDM對應頁面上的連結，前往Adobe Experience Platform上的資料集。
+
+1. 導覽至您的XDM架構。
+
+1. 將「提供隱私權」混合新增至架構。
+
+   ![](assets/aep_datamapping_privacyfield.png)
+
+1. 儲存結構，然後重新嘗試發佈對應。 出版物現在應該通過。
+
+   ![](assets/aep_save_mapping.png)

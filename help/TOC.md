@@ -6,9 +6,9 @@ user-guide-title: Campaign Standard
 breadcrumb-title: Campaign Standard
 title: Campaign Standard 指南
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: abf2bb68ca0a2bbad6347184f2c091726021af89
 workflow-type: tm+mt
-source-wordcount: '1661'
+source-wordcount: '1663'
 ht-degree: 99%
 
 ---
@@ -33,6 +33,7 @@ ht-degree: 99%
       + [隱私權與同意](start/using/privacy.md)
       + [隱私權管理](start/using/privacy-management.md)
       + [隱私權要求](start/using/privacy-requests.md)
+      + [隱私權常見問答集](start/using/privacy-faq.md)
    + 探索介面 {#discovering-the-interface}
       + [關於介面](start/using/about-the-interface.md)
       + [介面說明](start/using/interface-description.md)

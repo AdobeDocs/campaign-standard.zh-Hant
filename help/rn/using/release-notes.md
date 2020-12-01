@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '2412'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 98%
 
 [發行計畫](../../rn/using/release-planning.md) | [控制面板版本](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/release-notes.html) | [文件更新](../../rn/using/documentation-updates.md) | [先前的發行版本](../../rn/using/release-notes-2020.md) | [已過時的功能](../../rn/using/deprecated-features.md)
 
-![](assets/do-not-localize/cp-icon.png) **新的控制面板10月發行** ，其中包含使用CNAME的網域設定和新的資料庫監控功能。 [進一步瞭解](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/release-notes.html)。
+![](assets/do-not-localize/cp-icon.png) **新控制面板 10 月發行版本**，其中包含使用 CNAME 的網域設定及新的資料庫監控功能。[進一步瞭解](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/release-notes.html)。
 
 ## 發行版本 20.4 – 2020 年 10 月 {#release-20-4---october-2020}
 
@@ -33,9 +33,9 @@ ht-degree: 98%
 </thead> 
 <tbody> 
 <tr> 
-  <td> <p>您現在可以使用<strong>控制組組</strong>，透過排除其閱聽眾的一部分來評估行銷活動的影響。然後，您將能夠將接收到消息的目標人口的行為與未作為目標的連絡人的行為進行比較。根據傳送日誌，您也可以在未來的行銷活動中定位控制群。
+  <td> <p>您現在可以使用<strong>控制組組</strong>，透過排除其閱聽眾的一部分來評估行銷活動的影響。然後，您將能夠將接收到消息的目標人口的行為與未作為目標的聯絡人的行為進行比較。根據傳送日誌，您也可以在未來的行銷活動中定位控制群。
 </p>
-<p>如需詳細資訊，請參閱<a href="../../sending/using/control-group.md">詳細文件</a>及<a href="https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html">作法影片</a>。
+<p>如需詳細資訊，請參閱<a href="../../sending/using/control-group.md">詳細文件</a>及<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html?lang=zh-Hant#communication-channels">作法影片</a>。
 </p>
 </td> 
 </tr> 
@@ -88,7 +88,7 @@ ht-degree: 98%
 * 上傳 iOS 憑證或 Android 金鑰時，行動應用程式設定已改良為顯示&#x200B;**更清楚的錯誤訊息**。
 * **SMS 錯誤管理**&#x200B;已得到改善，以防止將過多的設定檔新增到隔離清單中。依預設，SMS 錯誤現在會設定為軟錯誤，而非硬錯誤。請參見[此頁面](https://helpx.adobe.com/tw/campaign/kb/sms-connector-protocol-and-settings.html)。
 
-**電子郵件設計人員增強功能**
+**電子郵件設計工具增強功能**
 
 * 我們透過&#x200B;**新的動態上下文幫助**&#x200B;改善電子郵件設計工具中的使用者體驗，該幫助完全連接了使用者介面和文件，從而可以輕鬆存取最新的幫助內容。
 * 修正編輯文字版本時移除訊息中分行符號的問題。(CAMP-44483)
@@ -129,7 +129,7 @@ ht-degree: 98%
 **修補程式**
 
 * 修正在啟用追蹤時，您無法使用推播通知或應用程式內訊息的目標連結的問題。
-* 修正當大量傳送時，交易訊息中的高優先順序不受重視的問題。
+* 修正大量傳送時，交易訊息中高優先順序未正確排列的問題。
 * 修正無法將品牌指派給交易式電子郵件的問題。發佈步驟中可能會顯示數個錯誤訊息。(CAMP-44988)
 * 修正工作流程使用者介面中，無法將資訊儲存在要求數值之欄位中的問題。(CAMP-44025)
 * 修正在匯入範本工作流程中使用&#x200B;**測試**&#x200B;活動時，錯誤訊息可能會顯示的問題。(CAMP-42910)

@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
 translation-type: tm+mt
-source-git-commit: de8afa7e942b7ee831837b1f9506488f7ca835f0
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '452'
 ht-degree: 98%
 
 ---
@@ -27,7 +27,7 @@ Adobe 透過新增功能、增強功能和修正不斷改進其解決方案。
 
 **新增功能！**&#x200B;訂閱 [Campaign Standard 發行通知](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU)，直接在收件匣中取得有關即將發行的詳細資訊。
 
-## 版本21.1 - 2月發行 {#release-21-1-release}
+## 版本21.1 - 2月發行版本{#release-21-1-release}
 
 環境更新會在以下指定時段內以波形進行。有關此版本的詳細資訊，請參閱[版本說明](../../rn/using/release-notes.md)。如果您有任何其他問題，請聯絡 [Adobe Client Care](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)。
 
@@ -45,7 +45,7 @@ Adobe 透過新增功能、增強功能和修正不斷改進其解決方案。
   </tr>
   <tr>
    <td> 製作<br /> </td>
-   <td>2021年2月1日至8日<br /> </td>
+   <td>2021年2月1日- 8日<br /> </td>
   </tr>
  </tbody>
 </table>
@@ -54,7 +54,7 @@ Adobe 透過新增功能、增強功能和修正不斷改進其解決方案。
 
 **問：影響是什麼？**
 
-答：變更列在[發行版本](../../rn/using/release-notes.md)中，包括相關檔案的連結。Adobe 也建議參閱[已過時和已移除功能](https://helpx.adobe.com/tw/campaign/kb/acs-deprecated-and-removed-features.html)頁面。這些頁面適用於 Stage 環境升級日期的新版本。
+答：變更列在[發行版本](../../rn/using/release-notes.md)中，包括相關檔案的連結。Adobe 也建議參閱[已過時和已移除功能](../../rn/using/deprecated-features.md)頁面。這些頁面適用於 Stage 環境升級日期的新版本。
 
 **問：什麼是驗證程式？**
 

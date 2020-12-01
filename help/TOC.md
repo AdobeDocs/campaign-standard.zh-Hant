@@ -26,7 +26,7 @@ ht-degree: 99%
       + [發行說明 2018 年](rn/using/release-notes-2018.md)
       + [發行說明 2017 年](rn/using/release-notes-2017.md)
    + [發行計畫](rn/using/release-planning.md)
-   + [已棄用的功能](rn/using/deprecated-features.md)
+   + [已過時的功能](rn/using/deprecated-features.md)
 + 快速入門 {#getting-started}
    + [關於 Adobe Campaign Standard](start/using/about-campaign-standard.md)
    + 探索介面 {#discovering-the-interface}
@@ -42,7 +42,7 @@ ht-degree: 99%
    + 隱私權 {#privacy}
       + [隱私權與同意](start/using/privacy.md)
       + [隱私權管理](start/using/privacy-management.md)
-      + [隱私權請求](start/using/privacy-requests.md)
+      + [隱私權要求](start/using/privacy-requests.md)
       + [隱私權常見問答集](start/using/privacy-faq.md)
 + 設定檔與對象 {#profiles-and-audiences}
    + [開始使用個人檔案和對象](audiences/using/get-started-profiles-and-audiences.md)

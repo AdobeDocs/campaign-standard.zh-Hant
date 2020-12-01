@@ -7,9 +7,9 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '226'
 ht-degree: 100%
 
 ---
@@ -22,11 +22,11 @@ Adobe Campaign 可讓您定義並管理指派給不同使用者的權限。權�
 * **組織單位**：這些功能可讓您定義平台不同物件（電子郵件、工作流程、範本、使用者、設定檔等）的權限階層。請參閱[組織單位](../../administration/using/organizational-units.md)區段。
 * **角色**：一組統一權限，可讓您定義分配給使用者和使用者群組的授權。請參閱[角色清單](../../administration/using/list-of-roles.md)區段。
 
-   與組織單位結合之後，角色可讓使用者檢視介面的篩選檢視，並定義其對不同功能的存取權限。如需詳細資訊，請參閱[授權表格](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)。
+   與組織單位結合之後，角色可讓使用者檢視介面的篩選檢視，並定義其對不同功能的存取權限。如需詳細資訊，請參閱[授權表格](../../administration/using/list-of-roles.md)。
 
 >[!IMPORTANT]
 >
->請注意，地理單位功能已過時。如需詳細資訊，請參閱此[頁面](https://helpx.adobe.com/tw/campaign/kb/acs-deprecated-and-removed-features.html)。
+>請注意，地理單位功能已過時。如需詳細資訊，請參閱此[頁面](../../rn/using/deprecated-features.md)。
 
 平台的功能管理員可在 **[!UICONTROL Administration > Users & Security]** 功能表下方管理角色、群組和組織單位。
 

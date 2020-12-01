@@ -7,15 +7,15 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 3%
+source-wordcount: '138'
+ht-degree: 0%
 
 ---
 
 
-# 關於地理單位 {#about-geographical-units}
+# 關於地理單位{#about-geographical-units}
 
 >[!CAUTION]
 >
@@ -23,8 +23,8 @@ ht-degree: 3%
 >
 >因此，從18.7版開始，新的「促銷活動標準」例項以及沒有建立地理單位的現有例項，都無法實作此功能。
 >
->如需詳細資訊，請參閱「已過時的 <a href="https://helpx.adobe.com/tw/campaign/kb/acs-deprecated-and-removed-features.html">功能</a> 」頁面。
+>有關詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html"> Deprecated features</a>頁。
 
-geoUnit **** Base端點可讓您與地理單位互動，例如，可讓您更新其屬性或更新描述檔的單位。
+**geoUnitBase**&#x200B;端點可讓您與地理單位互動，例如，讓您更新其屬性或更新描述檔的單位。
 
-在擴 **展配置檔案資源時** ，將「地理單位」欄位添加到配置檔案中。 因此，請記得永遠使用profileAndServicesExt **端點** ，與地理單位互動。 如需描述檔資源擴充功能的詳細資訊，請參閱促銷活 [動檔案](https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles)。
+當擴展配置檔案資源時，將&#x200B;**地理單元**&#x200B;欄位添加到配置檔案中。 因此，請記得永遠使用&#x200B;**profileAndServicesExt**&#x200B;端點來與地理單位互動。 如需描述檔資源擴充功能的詳細資訊，請參閱[促銷活動檔案](https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles)。

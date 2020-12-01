@@ -7,10 +7,10 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '709'
-ht-degree: 7%
+source-wordcount: '721'
+ht-degree: 5%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 7%
 
 Adobe Campaign提供數種電子郵件編寫選項。 您可以使用Dreamweaver等解決方案，在電子郵件設計工具中編輯您的電子郵件內容並建立回應式訊息。 您也可以使用Adobe Experience Manager以電子郵件傳送內容，並在Adobe Campaign Standard的電子郵件中使用。
 
-## 在Dreamweaver中編輯內容 {#editing-content-in-dreamweaver}
+## 在Dreamweaver中編輯內容{#editing-content-in-dreamweaver}
 
 與Dreamweaver整合的Adobe Campaign Standard可讓您在Dreamweaver介面中編輯電子郵件內容。 您可以存取Dreamweaver的強大介面，來設計和開發互動式電子郵件內容。
 
@@ -33,24 +33,26 @@ Adobe Campaign提供數種電子郵件編寫選項。 您可以使用Dreamweaver
 
 * **在Dreamweaver中新增Campaign個人化**
 
-   對於電子郵件開發人員，您不再需要新增類似文字 `[[FIRSTNAME_PLACEHOLDER]]` ，也不需要尋找資料模型表格的語法。 Dreamweaver中的Campaign工具列會直接連線至您的Campaign例項的資料模型。 這表示您可以從「名字」到「地址」之類的項目，提取任何個人化所需的資料。 如果您已在Campaign中建立內容區塊，您也可以直接將這些區塊拖曳至Dreamweaver。
+   對於電子郵件開發人員，您不再需要新增例如`[[FIRSTNAME_PLACEHOLDER]]`等文字，也不需要尋找資料模型表格的語法。 Dreamweaver中的Campaign工具列會直接連線至您的Campaign例項的資料模型。 這表示您可以從「名字」到「地址」之類的項目，提取任何個人化所需的資料。 如果您已在Campaign中建立內容區塊，您也可以直接將這些區塊拖曳至Dreamweaver。
 
-此功能在Dreamweaver說明檔案中有詳細 [說明](https://helpx.adobe.com/tw/dreamweaver/using/working-with-dreamweaver-and-campaign.html)。 此外，還 [提供](https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.translate.html) 展示影片。
+此功能在Dreamweaver說明檔案中詳細說明，此處可存取[](https://helpx.adobe.com/tw/dreamweaver/using/working-with-dreamweaver-and-campaign.html)。
 
-## 在Experience Manager中編輯內容 {#editing-content-in-experience-manager}
+![](assets/do-not-localize/how-to-video.png) [在影片中探索此功能](#video)
+
+## 在Experience Manager {#editing-content-in-experience-manager}中編輯內容
 
 您可以在Experience Manager中編輯電子郵件內容，然後在Adobe Campaign Standard中用於一或多則電子郵件訊息。 請參閱[此文件](../../integrating/using/integrating-with-experience-manager.md)。
 
-## 產品清單 {#product-listing}
+## 產品清單{#product-listing}
 
 >[!CONTEXTUALHELP]
 >id="ac_product_listing"
 >title="使用產品清單"
 >abstract="產品清單可讓您參考資料收集並顯示在電子郵件內容中。"
 
-產品清單可讓您參考電子郵件內容中的一或多個資料集合。 這些清單可用於交易電子郵件。 此處提供此功能的專屬 [區](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)。
+產品清單可讓您參考電子郵件內容中的一或多個資料集合。 這些清單可用於交易電子郵件。 此功能的專用部分[此處](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)。
 
-## 電子郵件設計選項比較 {#email-design-options-comparison}
+## 電子郵件設計選項比較{#email-design-options-comparison}
 
 Adobe Campaign提供數種電子郵件編寫選項。 下表顯示了每種方案的主要可能性、優點和限制。
 
@@ -78,7 +80,7 @@ Adobe Campaign提供數種電子郵件編寫選項。 下表顯示了每種方�
   </tr> 
   <tr> 
    <td> <strong>更新HTML</strong><br /> </td> 
-   <td> 僅在HTML元件內<br /> </td> 
+   <td> 僅限HTML元件內部<br /> </td> 
    <td> 不支援<br /> </td> 
    <td> 支援<br /> </td> 
   </tr> 
@@ -97,12 +99,12 @@ Adobe Campaign提供數種電子郵件編寫選項。 下表顯示了每種方�
   <tr> 
    <td> <strong>校對／預覽</strong><br /> </td> 
    <td> 支援<br /> </td> 
-   <td> 在促銷活動的AEM<br /> Proof中預覽<br /> </td> 
-   <td> 在Campaign中預覽和校樣<br /> </td> 
+   <td> 在AEM<br /> Proof in Campaign<br />中預覽 </td> 
+   <td> 在促銷活動中預覽和校樣<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>產品清單</strong><br /> </td> 
-   <td> 電子郵件交易訊息支援<br /> </td> 
+   <td> 電子郵件事務性消息<br />支援 </td> 
    <td> 不支援<br /> </td> 
    <td> 不支援<br /> </td> 
   </tr> 
@@ -134,19 +136,27 @@ Adobe Campaign提供數種電子郵件編寫選項。 下表顯示了每種方�
      <p>-難以實作的進階個人化</p>
      <p>-需要在Adobe Campaign中傳送測試</p>
   </td> 
-   <td> 不支援動態內容<br /> </td> 
+   <td> 不支援的動態內容<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>閱聽眾</strong><br /> </td> 
-   <td> 想要保留使用HTML元件與拖放功能結合的彈性的行銷人員<br /> </td> 
-   <td> 已使用Experience Manager的行銷人員，希望使用標準電子郵件範本，而且幾乎不需個人化<br /> </td> 
+   <td> 想要保持靈活彈性，搭配拖放功能使用HTML元件的行銷人員<br /> </td> 
+   <td> 已使用Experience Manager的行銷人員，想要使用標準電子郵件範本，而且個人化程度很低<br /> </td> 
    <td> 想要撰寫電子郵件內容程式碼並直接與Adobe Campaign整合的開發人員<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>若要進一步瞭解</strong><br /> </td> 
-   <td> 請參 <a href="../../designing/using/designing-content-in-adobe-campaign.md">閱電子郵件設計工具</a>。<br /> </td> 
-   <td> See <a href="../../integrating/using/integrating-with-experience-manager.md">Integrating with Experience Manager</a>.<br /> </td> 
-   <td> 請參 <a href="https://helpx.adobe.com/tw/dreamweaver/using/working-with-dreamweaver-and-campaign.html">閱Dreamweaver和Campaign</a> ，並觀看此 <a href="https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.translate.html">影片</a>。<br /> </td> 
+   <td> 請參閱<a href="../../designing/using/designing-content-in-adobe-campaign.md">關於電子郵件設計器</a>。<br /> </td> 
+   <td> 請參閱<a href="../../integrating/using/integrating-with-experience-manager.md">與Experience Manager</a>整合。<br /> </td> 
+   <td> 請參閱<a href="https://helpx.adobe.com/tw/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver和Campaign</a>並觀賞此<a href="#video">影片</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
+
+## 教學課程影片{#video}
+
+本影片說明如何使用Dreamweaver建立和編輯Adobe Campaign Standard的內容。
+
+>[!VIDEO](https://video.tv.adobe.com/v/23121?quality=12&captions=eng)
+
+其他Campaign Standard操作說明影片可在[這裡](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant)取得。

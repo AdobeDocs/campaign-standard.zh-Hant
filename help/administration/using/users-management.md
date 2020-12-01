@@ -7,10 +7,10 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '1183'
-ht-degree: 96%
+source-wordcount: '1216'
+ht-degree: 95%
 
 ---
 
@@ -24,6 +24,8 @@ Adobe Campaign 可讓您指派一組角色給使用者，以定義使用者可�
 以下各節將詳細介紹特定角色和相應的授權：[瞭解角色](../../administration/using/list-of-roles.md)和[授權](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)。
 
 管理員可從 Admin Console 管理使用者。然後，使用者會自動與 Adobe Campaign 同步。如需詳細資訊，請參閱 [Admin Console](https://helpx.adobe.com/tw/enterprise/using/users.html) 文件。
+
+![](assets/do-not-localize/how-to-video.png) [在影片中探索此功能](#video)
 
 若要在 Adobe Campaign 中檢視使用者，請按一下左上方的 **[!UICONTROL Adobe Campaign]** 標誌，然後選取 **[!UICONTROL Administration > Users & Security > Users]**。
 
@@ -59,7 +61,7 @@ Adobe Campaign 可讓您指派一組角色給使用者，以定義使用者可�
 
 >[!CAUTION]
 >
->只有擁有角色和所有 **[!UICONTROL Administration]** 單位存取權的職能管理員 **** 才能存取傳送記錄、訊息記錄、追蹤記錄、排除記錄、提案記錄和訂閱記錄。 非管理員使用者可以定位這些記錄檔，但是從連結的表格（描述檔、傳送）開始。
+>只有具有&#x200B;**[!UICONTROL Administration]**&#x200B;角色和&#x200B;**所有**&#x200B;單元訪問權限的職能管理員才能訪問發送日誌、消息日誌、跟蹤日誌、排除日誌、提案日誌和訂閱日誌。 非管理員使用者可以定位這些記錄檔，但是從連結的表格（描述檔、傳送）開始。
 
 功能管理員是唯一可存取 Adobe Campaign 介面之 **[!UICONTROL Administration]** 功能表的使用者。由於這些使用者需要存取技術資源，因此應指派更多進階角色給他們，例如 **[!UICONTROL Administration]** 及 **[!UICONTROL Datamodel]** 現成可用的角色。這些角色會在 **[!UICONTROL Administrators]** 現成可用的安全性群組中結合。如需詳細資訊，請參閱[本區段](../../administration/using/list-of-roles.md)。
 
@@ -151,3 +153,11 @@ Adobe Campaign 可讓您指派一組角色給使用者，以定義使用者可�
 1. 按一下 **[!UICONTROL Save]**。
 
 您的使用者現在已準備好使用 Adobe Campaign Standard。
+
+## 教學課程影片(#video)
+
+此影片顯示如何管理使用者存取權限。
+
+>[!VIDEO](https://video.tv.adobe.com/v/24671?quality=12)
+
+其他Campaign Standard操作說明影片可在[這裡](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant)取得。

@@ -7,16 +7,16 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 739943deccf6320de71bd6a255eb0b2fb20d5df5
 workflow-type: tm+mt
-source-wordcount: '1210'
-ht-degree: 5%
+source-wordcount: '1212'
+ht-degree: 6%
 
 ---
 
-# Designing using existing content {#designing-using-existing-content}
+# 使用現有內容{#designing-using-existing-content}進行設計
 
-## Selecting an existing content{#selecting-an-existing-content}
+## 選擇現有內容{#selecting-an-existing-content}
 
 Adobe Campaign隨附一組預先定義的內容，以協助您開始使用。 您可以使用其中一項，或者，如果您需要傳送的訊息內容是在Adobe Campaign以外準備，則可從電腦或URL匯入。
 
@@ -24,19 +24,19 @@ Adobe Campaign隨附一組預先定義的內容，以協助您開始使用。 �
 
 >[!NOTE]
 >
->下圖顯示如何使用電子郵件設計器載入現有 [內容](../../designing/using/designing-content-in-adobe-campaign.md)。
+>下圖顯示如何使用[電子郵件設計器](../../designing/using/designing-content-in-adobe-campaign.md)載入現有內容。
 
 1. 建立電子郵件或登陸頁面後，請開啟其內容。
-1. 按一下首頁圖示以存取 **[!UICONTROL Email Designer]** 首頁。
+1. 按一下首頁圖示以存取&#x200B;**[!UICONTROL Email Designer]**&#x200B;首頁。
 
    ![](assets/des_loading_1.png)
 
 1. 選取您要載入之內容的來源：
 
-   * [內容範本](../../designing/using/using-reusable-content.md#content-templates):按一下標 **[!UICONTROL Templates]** 簽。
+   * [內容範本](../../designing/using/using-reusable-content.md#content-templates):按一下該選 **[!UICONTROL Templates]** 項卡。
    * [從頭開始](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)，開始創作：按一下按 **[!UICONTROL Create]** 鈕。
    * [以ZIP或HTML檔案形式從您的電腦取得內容](#importing-content-from-a-file):按一下按 **[!UICONTROL Upload]** 鈕。
-   * [來自現有URL的內容](#importing-content-from-a-url) （僅限電子郵件）:按一下按 **[!UICONTROL Import from URL]** 鈕。
+   * [來自現有URL的內容](#importing-content-from-a-url) （僅適用於電子郵件）:按一下按 **[!UICONTROL Import from URL]** 鈕。
 
    ![](assets/des_loading_2.png)
 
@@ -46,26 +46,26 @@ Adobe Campaign隨附一組預先定義的內容，以協助您開始使用。 �
 
    >[!NOTE]
    >
-   >電子郵 [件設計器](../../designing/using/designing-content-in-adobe-campaign.md) (Email Designer)使用特定標籤。 上傳至Campaign的標準HTML內容必須符合預期的標籤，才能完全相容並可從電子郵件設計工具編輯。 如果不符合，您的內容會以相容模式 [上傳](#compatibility-mode)。 若要讓現有內容相容，請參 [閱本節](#editing-existing-contents-with-the-email-designer)。
+   >[電子郵件設計器](../../designing/using/designing-content-in-adobe-campaign.md)使用特定標籤。 上傳至Campaign的標準HTML內容必須符合預期的標籤，才能完全相容並可從電子郵件設計工具編輯。 如果不符合，您的內容會以[相容模式](#compatibility-mode)上傳。 若要讓現有內容相容，請參閱[本節](#editing-existing-contents-with-the-email-designer)。
 
 **相關主題：**
 
 * [建立電子郵件](../../channels/using/creating-an-email.md)
 * [管理著陸頁面](../../channels/using/getting-started-with-landing-pages.md)
 
-## 使用電子郵件設計工具編輯現有內容{#editing-existing-contents-with-the-email-designer}
+## 使用電子郵件設計器編輯現有內容{#editing-existing-contents-with-the-email-designer}
 
-若要充份運用電子郵件設計工具的 [版本可能性](../../designing/using/designing-content-in-adobe-campaign.md)，您上傳的HTML必須包含特定的標籤，才能與WYSIWYG編輯器相容。
+若要充份運用[電子郵件設計工具](../../designing/using/designing-content-in-adobe-campaign.md)的版本可能性，您上傳的HTML必須包含特定標籤，才能與WYSIWYG編輯器相容。
 
-如果HTML的全部或部分沒有此標籤，則內容會以「相容模式 [](#compatibility-mode)」載入。
+如果HTML的全部或部分沒有此標籤，則內容會以「 [相容模式](#compatibility-mode)」載入。
 
-若要讓現有的外部內容在電子郵件設計器中完全可編輯，請參 [閱使用現有內容設計電子郵件](../../designing/using/using-existing-content.md) 。
+要使現有外部內容在電子郵件設計器中完全可編輯，請參閱[使用現有內容設計電子郵件](../../designing/using/using-existing-content.md)部分。
 
-## 匯入現有的電子郵件內容 {#importing}
+## 匯入現有的電子郵件內容{#importing}
 
-### Importing content from a file {#importing-content-from-a-file}
+### 從檔案{#importing-content-from-a-file}導入內容
 
-在「電子郵件設計器」首頁中，按一 **[!UICONTROL Upload]** 下按鈕，從電腦上傳檔案，然後確認。
+在「電子郵件設計器」首頁中，按一下&#x200B;**[!UICONTROL Upload]**&#x200B;按鈕從電腦上傳檔案，然後進行確認。
 
 zip檔案結構沒有限制。 但是，參照HTML檔案必須是相對的，並且必須遵循zip檔案夾的樹狀結構。
 
@@ -78,12 +78,12 @@ zip檔案結構沒有限制。 但是，參照HTML檔案必須是相對的，並
 >
 >對於電子郵件內容，我們建議您匯入包含樣式表的單一HTML檔案。
 
-#### Importing content from a URL {#importing-content-from-a-url}
+#### 從URL {#importing-content-from-a-url}匯入內容
 
 在從URL匯入內容之前，請務必遵循下列要求：
 
 * 內容必須透過此URL公開提供。
-* 出於安全原因，僅允許以開頭 **[!UICONTROL https]** 的URL。
+* 出於安全原因，僅允許以&#x200B;**[!UICONTROL https]**&#x200B;開頭的URL。
 * 請確定所有資源（影像、CSS）都已設定在絕對連結和HTTPS中。 否則，在發送電子郵件後，鏡像頁面將不會顯示其資源。 以下是絕對連結定義的範例：
 
    ```
@@ -96,24 +96,26 @@ zip檔案結構沒有限制。 但是，參照HTML檔案必須是相對的，並
 
 若要從URL擷取現有內容，請遵循下列步驟：
 
-1. 從「電子郵件設計器」首頁中，選擇該 **[!UICONTROL Import from URL]** 按鈕。
+1. 從「電子郵件設計器」首頁中，選擇&#x200B;**[!UICONTROL Import from URL]**&#x200B;按鈕。
 
    ![](assets/email_designer_importfromurl.png)
 
 1. 定義將從中擷取內容的URL。
 1. 按一下 **[!UICONTROL Confirm]**。
 
-**相關主題：**
+在影片中探索此功能.
 
-[從URL視訊匯入內容](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#Workingwithexistingcontent)
+>[!VIDEO](https://video.tv.adobe.com/v/25926?quality=12)
 
-### 準備時自動從URL擷取內容 {#retrieving-content-from-a-url-automatically-at-preparation-time}
+其他Campaign Standard操作說明影片可在[這裡](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant)取得。
+
+### 在準備時間{#retrieving-content-from-a-url-automatically-at-preparation-time}自動從URL擷取內容
 
 在準備訊息時從URL匯入內容，可讓您在每次準備電子郵件時擷取最新的HTML內容。 如此，循環電子郵件的內容在傳送時都會隨時更新。 此功能也可讓您建立排程在特定日期的訊息，即使內容尚未就緒亦然。
 
 若要在準備時擷取內容，請遵循下列步驟：
 
-1. 選擇選 **[!UICONTROL Content imported during preparation]** 項。
+1. 選擇&#x200B;**[!UICONTROL Content imported during preparation]**&#x200B;選項。
 
    ![](assets/email_designer_importfromurl2.png)
 
@@ -123,24 +125,24 @@ zip檔案結構沒有限制。 但是，參照HTML檔案必須是相對的，並
    >
    >在此步驟中，不應將內容編輯器中顯示的HTML納入考量。 將在準備階段檢索。
 
-1. 若要預覽已擷取的URL內容，請在建立訊息後開啟訊息，然後按一下按 **[!UICONTROL Preview]** 鈕。
+1. 若要預覽已擷取的URL內容，請在建立訊息後開啟訊息，然後按一下&#x200B;**[!UICONTROL Preview]**&#x200B;按鈕。
 
 您可以個人化將擷取內容的遠端URL。 要執行此操作，請遵循下列步驟：
 
-1. 按一下畫面上方的電子郵件標籤，以存取「電子郵件設計器」 **[!UICONTROL Properties]** 標籤。
-1. 尋找欄 **[!UICONTROL Remote URL]** 位。
+1. 按一下畫面上方的電子郵件標籤，以存取「電子郵件設計器&#x200B;**[!UICONTROL Properties]**」標籤。
+1. 尋找&#x200B;**[!UICONTROL Remote URL]**&#x200B;欄位。
 
    ![](assets/email_designer_importfromurl4.png)
 
 1. 插入所需的個人化欄位、內容區塊或動態文字。
 
-   例 **[!UICONTROL Current date - YYYYMMDD]** 如，內容區塊可讓您插入當天的日期。
+   例如，**[!UICONTROL Current date - YYYYMMDD]**&#x200B;內容區塊可讓您插入當天的日期。
 
    >[!NOTE]
    >
-   >可用的個人化欄位僅連結 **至「傳送** 」屬性（電子郵件建立日期、狀態、促銷活動標籤……）。
+   >可用的個人化欄位僅連結至&#x200B;**Delivery**&#x200B;屬性（電子郵件建立日期、狀態、促銷活動標籤……）。
 
-### 相容模式 {#compatibility-mode}
+### 相容模式{#compatibility-mode}
 
 上傳內容時，它必須包含特定標籤，才能與「電子郵件設計器」的WYSIWYG編輯器完全相容並可編輯。
 
@@ -157,15 +159,15 @@ zip檔案結構沒有限制。 但是，參照HTML檔案必須是相對的，並
 
 其他修改（例如在電子郵件中新增章節或進階樣式）必須直接在電子郵件的原始碼中透過HTML模式進行。
 
-有關將現有電子郵件轉換為與電子郵件設計人員相容的電子郵件的詳細資訊，請參 [閱本節](../../designing/using/using-existing-content.md)。
+有關將現有電子郵件轉換為與電子郵件設計器相容的電子郵件的詳細資訊，請參閱[本節](../../designing/using/using-existing-content.md)。
 
 **相關主題**：
 
 * [建立電子郵件](../../channels/using/creating-an-email.md)
-* [電子郵件設計人員簡介影片](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=chi_hant)
+* [電子郵件設計人員簡介影片](../../designing/using/designing-content-in-adobe-campaign.md#video)
 * [從頭設計電子郵件內容](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 
-## 轉換HTML內容 {#converting-an-html-content}
+## 轉換HTML內容{#converting-an-html-content}
 
 如果您想要建立模組範本和片段的架構，以便結合在多封電子郵件中重複使用，您應考慮將電子郵件的HTML轉換為電子郵件設計人員範本。
 

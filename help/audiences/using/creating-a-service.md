@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: managing-subscriptions
 context-tags: service,wizard;service,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 100%
+source-wordcount: '440'
+ht-degree: 95%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 100%
 # 建立服務{#creating-a-service}
 
 為了能夠管理訂閱，您必須先建立並設定服務。設定新服務可讓您指定設定檔在訂閱或取消訂閱服務時，將會收到的電子郵件確認。您也會定義連結至服務的訂閱和取消訂閱登錄頁面。例如，插入電子郵件中的服務訂閱連結會自動將設定檔導向服務中指定的訂閱登錄頁面。
+
+![](assets/do-not-localize/how-to-video.png) [在影片中探索此功能](#video)
 
 若要設定服務：
 
@@ -55,7 +57,14 @@ ht-degree: 100%
 
 **相關主題：**
 
-* [管理服務及訂閱](https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/profiles-and-audiences/services-and-subscriptions.translate.html)影片
 * [推廣服務](../../audiences/using/promoting-a-service.md)
 * [建立由訂閱者建立的對象](../../audiences/using/creating-audiences.md#creating-list-audiences)
 * [將登錄頁面連結至服務](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)
+
+## 教學課程影片{#video}
+
+此影片說明如何建立服務及管理其訂閱。
+
+>[!VIDEO](https://video.tv.adobe.com/v/24673?quality=12)
+
+其他Campaign Standard操作說明影片可在[這裡](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant)取得。

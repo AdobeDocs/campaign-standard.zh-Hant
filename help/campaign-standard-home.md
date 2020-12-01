@@ -6,9 +6,9 @@ title: Adobe Campaign Standard 產品文件
 description: 瀏覽Campaign Standard產品檔案
 topic: Premium
 translation-type: tm+mt
-source-git-commit: a7300666587362048431d0bafacc317170b317aa
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '216'
 ht-degree: 90%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 90%
 
 ## 新增功能
 
-* **[更新的發行計畫](rn/using/release-planning.md)**<br/> 2021年2月即將發行的日期已新增至發行計畫
+* **[更新的發](rn/using/release-planning.md)**<br/> 行計畫即將於2021年2月發行的日期已新增至發行計畫
 
 * **[控制組](sending/using/control-group.md)**<br/>透過排除部分對象，以評估行銷活動的影響
 
@@ -75,5 +75,5 @@ ht-degree: 90%
 | [控制面板文件](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/control-panel-home.html) | [Campaign API](api/using/get-started-apis.md) |
 | [實施指南](https://helpx.adobe.com/tw/campaign/kb/campaign-standard-implementation-guide.html) | [錯誤訊息清單](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [發行計畫](rn/using/release-planning.md) | [Campaign 資料模型](developing/using/datamodel-introduction.md) |
-| [已棄用及已移除的功能](https://helpx.adobe.com/tw/campaign/kb/acs-deprecated-and-removed-features.html) | [多解決方案指南](integrating/using/get-started-campaign-integrations.md) |
+| [已棄用及已移除的功能](rn/using/deprecated-features.md)) | [多解決方案指南](integrating/using/get-started-campaign-integrations.md) |
 | [開始使用 Campaign Standard](start/using/about-campaign-standard.md) | [技術說明](https://helpx.adobe.com/tw/campaign/kb/acs-article-list.html) |

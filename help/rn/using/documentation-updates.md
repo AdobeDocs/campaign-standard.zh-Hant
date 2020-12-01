@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 0690765f26398391b4604136b203541a109e203b
 workflow-type: tm+mt
 source-wordcount: '6305'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -29,13 +29,13 @@ ht-degree: 97%
 
 已新增一節，其中列出隱私權的常見問題。 [顯示全文](../../start/using/privacy-faq.md)
 
-「隱私權」區段已移動，並包含兩個新頁面：[隱私權管理](../../start/using/privacy-management.md)和[管理隱私權要求](../../start/using/privacy-requests.md)。
+「隱私權」區段已移動並擴充而包含兩個新頁面：[隱私權管理](../../start/using/privacy-management.md)及[管理隱私權要求](../../start/using/privacy-requests.md)。
 
 「Adobe Experience Platform Data Connector」區段中已新增有關隱私權管理相關資料對應驗證錯誤以及如何疑難排解的資訊。 [顯示全文](../../developing/using/aep-mapping-activation.md)
 
 ## 發行版本 20.4 – 2020 年 10 月 {#release-20-4---october-2020}
 
-**此版本包含的新功能**
+**發行中包含的新功能**
 
 控制組 - [瞭解詳情](../../sending/using/control-group.md)
 
@@ -49,9 +49,9 @@ Journey AI 整合 - [瞭解詳情](../../sending/using/predictive.md)
 
 已在工作流程最佳實踐中新增了有關每個工作流程要使用的活動數量的建議。[顯示全文](../../automating/using/best-practices-workflows.md#number-activities)
 
-已新增有關「傳送」最佳實務的新章節。 [顯示全文](../../sending/using/delivery-best-practices.md)
+已新增關於「傳送」最佳實務的新區段。[顯示全文](../../sending/using/delivery-best-practices.md)
 
-已新增區段，說明可依據事件狀態和上次收到事件時搜尋事件設定的新篩選器。 [顯示全文](../../administration/using/configuring-transactional-messaging.md#searching-transactional-events)
+已新增區段，說明可依據其狀態及上次收到事件的時間而搜尋事件設定的新篩選器。[顯示全文](../../administration/using/configuring-transactional-messaging.md#searching-transactional-events)
 
 ## 2020 年 9 月{#doc-updates-september-2020}
 
@@ -189,7 +189,7 @@ MCPNS 在設定行動應用程式時增加了限制。[瞭解詳情](https://hel
 
 Adobe Campaign Standard / Adobe Experience Manager 整合檔案已更新和改進。[瞭解詳情](../../integrating/using/configure-experience-manager.md)
 
-促銷活動電子郵件設計工具檔案和相關頁面已更新，以反映[!DNL Adobe Creative SDK]折舊。 [瞭解詳情](../../rn/using/deprecated-features.md)
+Campaign 電子郵件設計工具檔案和相關頁面已更新，以反映 [!DNL Adobe Creative SDK] 折舊。[瞭解詳情](../../rn/using/deprecated-features.md)
 
 現在提供 Campaign Standard 資料模型最佳實務的新區段。[瞭解詳情](../../developing/using/data-model-best-practices.md)
 
@@ -239,7 +239,7 @@ Adobe Campaign Enhanced MTA 說明檔案說明升級的傳送基礎架構，可�
 
 API 檔案首頁已經過改良，並重新導向不同的主題。[瞭解詳情](../../api/using/get-started-apis.md)
 
-## 11月- 2019年12月{#doc-updates-december-2019}
+## 2019 年 11 月至 12 日 {#doc-updates-december-2019}
 
 已更新「設定 S3 外部帳戶」文件。[瞭解詳情](../../administration/using/external-accounts.md#amazon-s3-external-account)
 
@@ -259,7 +259,7 @@ API 檔案首頁已經過改良，並重新導向不同的主題。[瞭解詳情
 
 API 文件集已整合至 Campaign Standard 文件。[瞭解詳情](../../api/using/get-started-apis.md)
 
-「建立個人化電子郵件快速入門」區段已移動並更新。 [顯示全文](https://helpx.adobe.com/tw/campaign/kb/acs-get-started-with-emails.html)
+「建立個人化電子郵件快速入門」區段已移動並更新。[顯示全文](https://helpx.adobe.com/tw/campaign/kb/acs-get-started-with-emails.html)
 
 更新「傳遞最佳實務快速入門手冊」。[瞭解詳情](../../sending/using/delivery-best-practices.md)
 
@@ -277,7 +277,7 @@ Microsoft Dynamics 365 整合 (GA) – [瞭解詳情](../../integrating/using/wo
 
 **此版本隨附的其他文件更新**
 
-Adobe Campaign的錯誤訊息清單已更新。 [顯示全文](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+Adobe Campaign 的錯誤訊息清單已更新。[顯示全文](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
 改善並加強 GDPR 快速入門手冊。該手冊現在是包含 GDPR 及 CCPA 的隱私權管理文件。[瞭解詳情](https://helpx.adobe.com/tw/campaign/kb/campaign-privacy.html)
 
@@ -291,7 +291,7 @@ Adobe Campaign的錯誤訊息清單已更新。 [顯示全文](https://docs.camp
 
 與隱私權相關的資訊已新增至 API 文件[按一下此處](../../api/using/creating-a-privacy-request.md)
 
-## 9月- 2019年10月{#doc-updates-october-2019}
+## 2019 年 9 月至 10 月{#doc-updates-october-2019}
 
 已新增與 Campaign Standard 設定相關的新區段。[瞭解詳情](../../administration/using/about-campaign-standard-settings.md)
 
@@ -363,7 +363,7 @@ Campaign Standard 及 Campaign Classic 的錯誤訊息清單已更新。[瞭解�
 
 在自訂資源文件中新增警告。我們建議對自訂資源 ID 使用最多 30 個字元。這也適用於自訂資源欄位、索引和連結。[瞭解詳情](../../developing/using/creating-or-extending-the-resource.md)
 
-## 2019年6月- 7月{#doc-updates-2019}
+## 2019 年 6 月至 7 月{#doc-updates-2019}
 
 新增「登錄頁面」限制的頁面。[瞭解詳情](../../channels/using/getting-started-with-landing-pages.md#landing-page-limitations)
 
@@ -603,7 +603,7 @@ API 檔案已更新，其中包含 **History** API 的資訊。已新增使用�
 
 **發行中包含的新功能**
 
-GDPR：核心服務整合 – [瞭解詳情](https://helpx.adobe.com/tw/campaign/kb/campaign-privacy.html)
+GDPR：核心服務整合 – [瞭解詳情](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)
 
 推播改良功能 – 詳細的傳送回饋 – [瞭解詳情](../../channels/using/preparing-and-sending-a-push-notification.md#sending-the-notification)
 
@@ -637,7 +637,7 @@ GDPR：核心服務整合 – [瞭解詳情](https://helpx.adobe.com/tw/campaign
 
 **發行中包含的新功能**
 
-歐盟通用資料保護規則 (GDPR) – [瞭解詳情](https://helpx.adobe.com/tw/campaign/kb/campaign-privacy.html)
+歐盟通用資料保護規則 (GDPR) – [瞭解詳情](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)
 
 適用於電子郵件的 Creative Designer – [瞭解詳情](../../designing/using/designing-content-in-adobe-campaign.md)
 

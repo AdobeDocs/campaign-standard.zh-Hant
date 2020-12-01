@@ -79,7 +79,7 @@ ht-degree: 99%
 
    您必須將票證提交至 Adobe 客戶服務（直接或透過您的 Adobe 聯絡人），才能在您的 Campaign 執行個體中啟用 syncWithLaunch 技術工作流程。(CAMP-40082)
 
-**電子郵件設計人員增強功能**
+**電子郵件設計工具增強功能**
 
 * 與嚴格的 W3C 相比，電子郵件設計人員現在可以處理更有彈性的 HTML 格式。(CAMP-42529)
 * 修正[可點選影像](../../designing/using/links.md#inserting-a-link)的問題，以防止連結在內容區塊中顯示在影像旁邊。(CAMP-41586)
@@ -291,7 +291,7 @@ ht-degree: 99%
 * 管理員安全組的組織單元不能再更改。
 * 建立設定檔案時，現在必須填寫「組織單位」欄位。
 * 現在，只有刪除連結至 Experience Cloud 的事件和交易範本時，才能刪除 Experience Cloud 觸發器。
-* [!DNL Adobe Creative SDK] 已經退役。現在已在 Campaign Standard 中停用。請參閱[已過時和已移除的功能](../../rn/using/deprecated-features.md)頁面。
+* [!DNL Adobe Creative SDK] 已終止服務。現在已在 Campaign Standard 中停用。請參閱[已過時和已移除的功能](../../rn/using/deprecated-features.md)頁面。
 
 
 **修補程式**

@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: sms-messages
 delivercontext-tags: deliveryCreation,wizard
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 100%
+source-wordcount: '538'
+ht-degree: 96%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 100%
 建立簡訊傳送與建立一般電子郵件非常類似。下列步驟將說明此通道的特定設定。如需其他選項的詳細資訊，請參閱[建立電子郵件](../../channels/using/creating-an-email.md)。
 
 在 [SMS 設定](../../administration/using/configuring-sms-channel.md)區段中會詳細說明進階 SMS 參數。
+
+![](assets/do-not-localize/how-to-video.png) [在影片中探索此功能](#video)
 
 若要建立 SMS 訊息並傳送至行動電話，您需要：
 
@@ -78,4 +80,11 @@ ht-degree: 100%
 
 * [關於 SMS 和推播內容版本](../../channels/using/about-sms-and-push-content-design.md)
 * [管理範本](../../start/using/marketing-activity-templates.md)
-* [建立 SMS 傳送](https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/communication-channels/mobile/sms/sms-delivery.translate.html)影片。
+
+## 教學課程影片{#video}
+
+此影片示範如何建立SMS傳送。
+
+>[!VIDEO](https://video.tv.adobe.com/v/25265/?quality=12)
+
+其他Campaign Standard操作說明影片可在[這裡](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant)取得。

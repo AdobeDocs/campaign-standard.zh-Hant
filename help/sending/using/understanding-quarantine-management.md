@@ -7,9 +7,9 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '781'
 ht-degree: 82%
 
 ---
@@ -31,15 +31,15 @@ ht-degree: 82%
 
 此外，隔離有助於減少簡訊傳送成本，因為將錯誤的電話號碼排除在遞送服務之外。
 
-如需確保傳送安全並最佳化的最佳實務，請參閱[本頁面](https://helpx.adobe.com/tw/campaign/kb/delivery-best-practices.html)。
+如需確保傳送安全並最佳化的最佳實務，請參閱[本頁面](../../sending/using/delivery-best-practices.md)。
 
-### 隔離與拒絕清單 {#quarantine-vs-denylist}
+### 隔離與拒絕清單{#quarantine-vs-denylist}
 
 **隔離** (Quarantine)　僅適用於地址，而不適用於設定檔本身。這代表如果兩個設定檔具有相同的電子郵件地址，則兩個設定檔在隔離地址時都會受到影響。
 
 同樣地，被隔離的電子郵件地址的設定檔可以更新其設定檔並輸入新地址，然後再次被傳送動作設為目標。
 
-Being on the **Denylist**, on the other hand, will result in the profile no longer being targeted by any delivery, for example after an unsubscription (opt-out). 如需登入清單程式的詳細資訊，請 [參閱關於促銷活動中的選擇加入和選擇退出](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)。
+另一方面，如果位於&#x200B;**Denylist**，則會導致描述檔不再被任何傳送鎖定，例如在取消訂閱（選擇退出）後。 如需登入清單程式的詳細資訊，請參閱[關於促銷活動中的選擇加入和選擇退出。](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 >[!NOTE]
 >
@@ -86,8 +86,7 @@ Adobe Campaign 會根據傳送失敗類型和錯誤訊息限定期間指派的�
 如果使用者將電子郵件歸類為垃圾訊息（**回饋迴路**），則訊息會自動重新導向至由　Campaign　管理的技術信箱。之後，系統會自動將使用者的電子郵件地址傳送到狀態為　**[!UICONTROL On denylist]**　的隔離區。此狀態僅指地址，描述檔不在登入清單中，因此使用者會繼續收到SMS訊息和推播通知。
 
 >[!NOTE]
->
->Adobe Campaign　中的隔離區會區分大小寫。請務必以小寫匯入電子郵件地址，如此一來，稍後就不會將它們重新設為目標。
+Adobe Campaign　中的隔離區會區分大小寫。請務必以小寫匯入電子郵件地址，如此一來，稍後就不會將它們重新設為目標。
 
 在隔離地址清單中（請參閱[識別整個平台的隔離地址](#identifying-quarantined-addresses-for-the-entire-platform)），**[!UICONTROL Error reason]**　欄位會表示所選地址被置於隔離區的原因。
 

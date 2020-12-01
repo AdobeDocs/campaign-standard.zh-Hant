@@ -7,10 +7,10 @@ audience: sending
 content-type: reference
 topic-tags: about-sending-messages-with-campaign
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: e20485978deba54f45010a41921b948f049222f2
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 14%
+source-wordcount: '589'
+ht-degree: 15%
 
 ---
 
@@ -30,17 +30,19 @@ ht-degree: 14%
 
 最後，運用Campaign Standard中提供的傳遞性指引和工具，以改善傳遞的訊息數量，並確保成功進行行銷宣傳。
 
-## 準備和測試 {#prepare-test-send}
+![](assets/do-not-localize/how-to-video.png) [瞭解如何傳送測試電子郵件、準備並傳送電子郵件至視訊](#video)
+
+## 準備並測試{#prepare-test-send}
 
 <img src="assets/do-not-localize/icon_prepare.svg" width="60px">
 
-Campaign Standard **訊息準備** ，會分析訊息的目標、個人化和有效性。 在此步驟中檢測到的錯誤必須先更正，才能繼續。
+促銷活動標準&#x200B;**訊息準備**&#x200B;會分析訊息的目標、個人化和有效性。 在此步驟中檢測到的錯誤必須先更正，才能繼續。
 
-**使用各種功能** ，預覽並測試您的訊息：傳送校樣以測試描述檔或目標描述檔、測試您電子郵件的主旨，並檢查訊息的轉譯，以確保它以最佳方式顯示在各種網頁用戶端、網頁郵件和裝置上。
+**使用各種** 功能預覽和測試訊息：傳送校樣以測試描述檔或目標描述檔、測試您電子郵件的主旨，並檢查訊息的轉譯，以確保它以最佳方式顯示在各種網頁用戶端、網頁郵件和裝置上。
 
 運用促銷活動排程功能來定義訊息的傳送時間。 例如，您可以調整收件者時區的傳送、最佳化傳送時間或計算傳送日期。
 
-在準 **備期間** ，使用類型檢查訊息是否有效，並透過疲勞、控制和定位規則符合您的品質標準。 例如，檢查您的電子郵件是否一律包含主旨行，或將未訂閱者排除在訊息收件者之外。
+使用&#x200B;**類型**&#x200B;在準備期間檢查您的訊息是否有效，並透過疲勞、控制和定位規則符合您的品質標準。 例如，檢查您的電子郵件是否一律包含主旨行，或將未訂閱者排除在訊息收件者之外。
 
 顯示全文:
 
@@ -51,15 +53,15 @@ Campaign Standard **訊息準備** ，會分析訊息的目標、個人化和有
 * [排程訊息](../../sending/using/about-scheduling-messages.md)
 * [關於類型與類型學規則](../../sending/using/about-typology-rules.md)
 
-## 傳送、監控和追蹤 {#send-track-messages}
+## 傳送、監視及追蹤{#send-track-messages}
 
 <img src="assets/do-not-localize/icon_send.svg"  width="60px">
 
-訊息準備就緒後，您可以確認傳送和存取記錄檔和報表，以 **監控傳送** ，並評估促銷活動的成功。 Adobe Campaign也提供電子郵件警報系統，以追蹤傳送成功或失敗的情況，以及隔離管理功能。
+訊息準備就緒後，您可以確認傳送和存取記錄檔及報表至&#x200B;**，監控傳送**&#x200B;並評估促銷活動的成功。 Adobe Campaign也提供電子郵件警報系統，以追蹤傳送成功或失敗的情況，以及隔離管理功能。
 
-**使用工作階段** 和永久Cookie來擷取追蹤資訊（點選的URL、鏡像頁面、已開啟的訊息……），以追蹤訊息收件者的行為。
+**使用工** 作階段和永久Cookie來擷取追蹤資訊（點選的URL、鏡像頁面、已開啟的訊息……），以追蹤訊息收件者的行為。
 
-最後，您可以設定Adobe Campaign，以 **保留透過電子郵件密件副本** ，從您的平台傳送的電子郵件副本。 尤其是，如果您的組織需要封存所有傳出電子郵件訊息以符合法規，您可以啟用此功能。
+最後，您可以設定Adobe Campaign，將透過電子郵件密件副本從您的平台傳送的電子郵件&#x200B;**保留為**。 尤其是，如果您的組織需要封存所有傳出電子郵件訊息以符合法規，您可以啟用此功能。
 
 顯示全文:
 
@@ -70,13 +72,13 @@ Campaign Standard **訊息準備** ，會分析訊息的目標、個人化和有
 * [瞭解傳送故障](../../sending/using/understanding-delivery-failures.md)
 * [瞭解隔離管理](../../sending/using/understanding-quarantine-management.md)
 
-## 傳遞能力准則 {#improve-deliverability}
+## 傳遞能力准則{#improve-deliverability}
 
 <img src="assets/do-not-localize/icon_deliverability.svg"  width="60px">
 
 傳遞能力可讓您測量促銷活動在到達收件者收件匣時是否成功，而不會反彈或標示為垃圾訊息。
 
-Campaign Standard提供數種 **傳遞性工具** ，可協助您改善成功傳送訊息的數量：傳送傳送處理報告、傳送時間最佳化、訊息預覽、電子郵件轉譯、隔離管理等。
+Campaign Standard提供數種&#x200B;**傳遞性工具**，可協助您改善成功傳送訊息的數量：傳送傳送處理報告、傳送時間最佳化、訊息預覽、電子郵件轉譯、隔離管理等。
 
 顯示全文:
 
@@ -89,8 +91,14 @@ Campaign Standard提供數種 **傳遞性工具** ，可協助您改善成功傳
 ## 其他資源
 
 * [設計A/B測試電子郵件](../../channels/using/designing-an-a-b-test-email.md)
-* [傳送測試、準備及傳送電子郵件（視訊）](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/sending-test-preparing-sending-email.html)
-* [檢閱電子郵件傳送和報告（視訊）](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/reviewing-personalized-email-delivery-and-reports.html)
 * [電子郵件快速入門](https://helpx.adobe.com/tw/campaign/kb/acs-get-started-with-emails.html)
 * [傳遞最佳實務](../../sending/using/delivery-best-practices.md)
 * [新增控制群組](../../sending/using/control-group.md)
+
+## 教學課程影片{#video}
+
+此影片說明如何在Campaign Standard中傳送測試電子郵件、準備並傳送電子郵件。
+
+>[!VIDEO](https://video.tv.adobe.com/v/24013/)
+
+其他Campaign Standard操作說明影片可在[這裡](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant)取得。

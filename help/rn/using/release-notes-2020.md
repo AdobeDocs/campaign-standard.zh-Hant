@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '2948'
+source-wordcount: '2945'
 ht-degree: 99%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 99%
 
 # 發行說明 2020 年{#release-notes-2020}
 
-[發行計畫](https://helpx.adobe.com/tw/campaign/kb/acs-release-planning.html) | [控制面板版本](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/release-notes.html) | [文件更新](../../rn/using/documentation-updates.md) | [先前的發行版本](../../rn/using/release-notes-2019.md) | [已過時的功能](https://helpx.adobe.com/tw/campaign/kb/acs-deprecated-and-removed-features.html)
+[發行計畫](https://helpx.adobe.com/tw/campaign/kb/acs-release-planning.html) | [控制面板版本](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/release-notes.html) | [文件更新](../../rn/using/documentation-updates.md) | [先前的發行版本](../../rn/using/release-notes-2019.md) | [已過時的功能](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html)
 
 ![](assets/do-not-localize/cp-icon.png) **新的控制面板 6 月版本**，包含作用中設定檔監控、子網域傳遞送能力稽核及 GPG 金鑰管理。[進一步瞭解](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/release-notes.html)。
 
@@ -291,7 +291,7 @@ ht-degree: 99%
 * 管理員安全組的組織單元不能再更改。
 * 建立設定檔案時，現在必須填寫「組織單位」欄位。
 * 現在，只有刪除連結至 Experience Cloud 的事件和交易範本時，才能刪除 Experience Cloud 觸發器。
-* [!DNL Adobe Creative SDK] 已經退役。 現在已在 Campaign Standard 中停用。請參閱[已過時和已移除的功能](https://helpx.adobe.com/tw/campaign/kb/acs-deprecated-and-removed-features.html)頁面。
+* [!DNL Adobe Creative SDK] 已經退役。現在已在 Campaign Standard 中停用。請參閱[已過時和已移除的功能](../../rn/using/deprecated-features.md)頁面。
 
 
 **修補程式**

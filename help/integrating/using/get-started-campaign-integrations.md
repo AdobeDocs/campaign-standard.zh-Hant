@@ -7,10 +7,10 @@ audience: integrating
 content-type: reference
 topic-tags: get-started-campaign-integrations
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
 source-wordcount: '632'
-ht-degree: 92%
+ht-degree: 91%
 
 ---
 
@@ -49,14 +49,14 @@ ht-degree: 92%
    <td> Experience Manager<br /> 6.1、6.2、6.3、6.4、6.5<br /> </td> 
    <td> 可讓您直接在 Adobe Experience Manager 中建立對應至 Adobe Campaign 資料庫的電子郵件內容或表單。<br /> </td> 
    <td> 
-     <a href="../../integrating/using/integrating-with-experience-manager.md">使用Campaign和Experience Manager</a>、 <a href="https://helpx.adobe.com/tw/experience-manager/6-4/sites/administering/using/campaignstandard.html">整合Experience Manager和Campaign Standard</a>, <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_AEM.html">使用Experience Manager和Campaign建立電子郵件</a> 
+     <a href="../../integrating/using/integrating-with-experience-manager.md">使用Campaign和Experience Manager</a>、 <a href="https://helpx.adobe.com/tw/experience-manager/6-4/sites/administering/using/campaignstandard.html">整合Experience Manager和Campaign Standard</a>, <a href="https://gn.adobe.com/doc/standard/getting_started/en/ACS_AEM.html">使用Experience Manager和Campaign建立電子郵件</a> 
     </td> 
   </tr> 
   <tr> 
    <td> Target<br /> Classic、Standard<br /> </td> 
    <td> 可讓您在開啟由 Adobe Campaign 建立和發傳送的電子郵件活動時插入由 Adobe Target 動態運算的影像。<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-target-integration.md">使用Campaign和Target</a>、整 <a href="https://docs.adobe.com/content/help/zh-Hant/target/using/integrate/campaign-and-target.html">合Campaign和Target</a>, <a href="https://helpx.adobe.com/tw/marketing-cloud/how-to/email-marketing.html">即時視訊中個人化電子郵件影像</a> （步驟3）
+    <a href="../../integrating/using/about-campaign-target-integration.md">使用Campaign和Target</a>、整 <a href="https://docs.adobe.com/content/help/zh-Hant/target/using/integrate/campaign-and-target.html">合Campaign和Target</a>, <a href="https://helpx.adobe.com/tw/marketing-cloud/how-to/email-marketing.html">在即時視訊中個人化</a> 電子郵件影像（步驟3）
     </td> 
   </tr> 
   <tr> 
@@ -92,7 +92,7 @@ ht-degree: 92%
    <td> Dreamweaver<br /> </td> 
    <td> 可讓您從 Dreamweaver 編輯電子郵件內容，並與 Adobe Campaign 同步化。<br /> </td> 
    <td> 
-    <a href="https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.translate.html">使用Dreamweaver視訊建立個人化電子郵件</a> ，使用 <a href="https://helpx.adobe.com/tw/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Campaign擴充功能for Dreamweaver</a> 
+    <a href="https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.translate.html">使用</a> Dreamweavervideo、Use  <a href="https://helpx.adobe.com/tw/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Campaign extension for Dreamweaver建立個人化電子郵件</a> 
   </td> 
   </tr> 
   <tr> 

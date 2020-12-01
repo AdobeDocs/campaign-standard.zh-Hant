@@ -6,9 +6,9 @@ user-guide-title: Campaign Standard
 breadcrumb-title: Campaign Standard
 title: Campaign Standard 指南
 translation-type: tm+mt
-source-git-commit: abf2bb68ca0a2bbad6347184f2c091726021af89
+source-git-commit: 817eebd4fe9ed33bdb2820912556cfda25ef66a5
 workflow-type: tm+mt
-source-wordcount: '1663'
+source-wordcount: '1664'
 ht-degree: 99%
 
 ---
@@ -29,20 +29,21 @@ ht-degree: 99%
    + [已棄用的功能](rn/using/deprecated-features.md)
 + 快速入門 {#getting-started}
    + [關於 Adobe Campaign Standard](start/using/about-campaign-standard.md)
-   + 隱私權 {#privacy}
-      + [隱私權與同意](start/using/privacy.md)
-      + [隱私權管理](start/using/privacy-management.md)
-      + [隱私權要求](start/using/privacy-requests.md)
-      + [隱私權常見問答集](start/using/privacy-faq.md)
    + 探索介面 {#discovering-the-interface}
       + [關於介面](start/using/about-the-interface.md)
       + [介面說明](start/using/interface-description.md)
       + [自訂清單](start/using/customizing-lists.md)
+      + [協助功能](start/using/accessibility.md)
    + 使用行銷活動 {#marketing-plans}
       + [方案與行銷活動](start/using/programs-and-campaigns.md)
       + [行銷活動](start/using/marketing-activities.md)
       + [行銷活動範本](start/using/marketing-activity-templates.md)
       + [時間表](start/using/timeline.md)
+   + 隱私權 {#privacy}
+      + [隱私權與同意](start/using/privacy.md)
+      + [隱私權管理](start/using/privacy-management.md)
+      + [隱私權請求](start/using/privacy-requests.md)
+      + [隱私權常見問答集](start/using/privacy-faq.md)
 + 設定檔與對象 {#profiles-and-audiences}
    + [開始使用個人檔案和對象](audiences/using/get-started-profiles-and-audiences.md)
    + 管理設定檔 {#managing-profiles}

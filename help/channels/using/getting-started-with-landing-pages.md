@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '1006'
-ht-degree: 99%
+source-wordcount: '1027'
+ht-degree: 97%
 
 ---
 
@@ -24,9 +24,10 @@ ht-degree: 99%
 
 在本頁面中，您將會找到這些步驟的相關資訊及專用檔案的參考，以取得更多詳細資訊。
 
+![](assets/do-not-localize/how-to-video.png) [探索如何在視訊中建立登陸頁面](#video)
+
 **相關主題：**
 
-* [建立著陸頁面教學課程影片](https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/communication-channels/landing-pages/landing-page-create-and-edit.translate.html)
 * [建立服務](../../audiences/using/creating-a-service.md)
 * [設定雙重加入程序](setting-up-a-double-opt-in-process.md)
 
@@ -131,3 +132,11 @@ ht-degree: 99%
 發佈後，您的登錄頁面就可供使用。然後，您可以設定不同的機制來存取該機制，以便在資料庫中獲取新設定檔案或獲取有關現有設定檔案的其他資訊。
 
 如需這些差異的詳細資訊，請參閱[本區段](../../channels/using/testing-publishing-landing-page.md#publishing-a-landing-page)。
+
+## 教學課程影片{#video}
+
+此影片示範如何建立和編輯著陸頁面。
+
+>[!VIDEO](https://video.tv.adobe.com/v/24093?quality=12)
+
+其他Campaign Standard操作說明影片可在[這裡](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant)取得。

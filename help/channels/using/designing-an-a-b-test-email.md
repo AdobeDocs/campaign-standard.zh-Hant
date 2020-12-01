@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: email-messages
 context-tags: delivery,abTesting,back;deliveryCreation,wizard;delivery,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '817'
 ht-degree: 100%
 
 ---
@@ -83,10 +83,6 @@ Adobe Campaign 中的 A/B 測試功能允許您定義兩至三種電子郵件變
    >如果此處打結，則必須手動選取成功變體。您可以通知電子郵件建立者與修改者已選取變體或需要選取變體。請參閱 [Adobe Campaign 通知](../../administration/using/sending-internal-notifications.md)。
 
 您的電子郵件現在已定義並傳送。您可以存取其日誌與報告，以評估行銷活動的成功。
-
-**相關主題**：
-
-[建立電子郵件](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/create-email-from-homepage.html)影片
 
 ## 關於 A/B 測試指標 {#about-a-b-test-indicators}
 

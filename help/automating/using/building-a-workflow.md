@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,wizard;workflow,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '958'
-ht-degree: 100%
+source-wordcount: '983'
+ht-degree: 96%
 
 ---
 
@@ -36,10 +36,11 @@ ht-degree: 100%
 
 ![](assets/workflow_overview.png)
 
-
 ## 建立工作流程 {#creating-a-workflow}
 
 您可以從方案、行銷活動或行銷活動清單建立工作流程。
+
+![](assets/do-not-localize/how-to-video.png) [瞭解如何在視訊中建立工作流程](#video)
 
 建立行銷活動在[建立行銷活動](../../start/using/marketing-activities.md#creating-a-marketing-activity)區段中有詳細說明。
 
@@ -67,14 +68,13 @@ ht-degree: 100%
 
 1. 確認建立活動，然後會顯示該活動的控制面板。有關詳細資訊，請參閱[工作流程介面](../../automating/using/workflow-interface.md)區段。
 
-1. 一旦工作流準備好進行設定後，您可以按一下 **[!UICONTROL Edit properties]** 按鈕來存取其他選項。例如，您可以定義特定時區，以便在工作流的所有活動中預設使用。依預設，工作流程的時區是為目前的促銷活動運算子定義的時區。
+1. 一旦工作流準備好進行設定後，您可以按一下 **[!UICONTROL Edit properties]** 按鈕來存取其他選項。
+
+   例如，您可以定義特定時區，以便在工作流的所有活動中預設使用。依預設，工作流程的時區是為目前的促銷活動運算子定義的時區。
+
+   有關工作流屬性的詳細資訊，請參閱[此頁](../../automating/using/managing-execution-options.md)。
 
    ![](assets/workflow_properties.png)
-
-**相關主題：**
-
-* [建立工作流程](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/managing-processes-and-data/workflow-general-operation/building-a-workflow.translate.html) 影片
-* [工作流程屬性](../../automating/using/managing-execution-options.md)
 
 ## 新增和連結活動 {#adding-and-linking-activities}
 
@@ -130,3 +130,11 @@ ht-degree: 100%
 1. 定義處理資料所需的所有不同選項。請參閱本檔案中活動的特定區段，瞭解每個活動的可能選項。
 1. 保存活動，然後對工作流的每個活動重複這些操作。
 1. 儲存工作流程。
+
+## 教學課程影片{#video}
+
+此影片說明如何建立工作流程。
+
+>[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
+
+其他Campaign Standard操作說明影片可在[這裡](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant)取得。

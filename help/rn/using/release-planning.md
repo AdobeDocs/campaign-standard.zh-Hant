@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
 source-wordcount: '452'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe 透過新增功能、增強功能和修正不斷改進其解決方案。
 
 **新增功能！**&#x200B;訂閱 [Campaign Standard 發行通知](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU)，直接在收件匣中取得有關即將發行的詳細資訊。
 
-## 版本21.1 - 2月發行版本{#release-21-1-release}
+## 版本 21.1 - 2 月發行{#release-21-1-release}
 
 環境更新會在以下指定時段內以波形進行。有關此版本的詳細資訊，請參閱[版本說明](../../rn/using/release-notes.md)。如果您有任何其他問題，請聯絡 [Adobe Client Care](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)。
 
@@ -41,11 +41,11 @@ Adobe 透過新增功能、增強功能和修正不斷改進其解決方案。
  <tbody>
   <tr>
    <td>Stage<br /> </td>
-   <td>2021年1月25日至27日<br /> </td>
+   <td>2021 年 1 月 25 日至 27 日<br /> </td>
   </tr>
   <tr>
    <td> 製作<br /> </td>
-   <td>2021年2月1日- 8日<br /> </td>
+   <td>2021 年 2 月 1 日至 8 日<br /> </td>
   </tr>
  </tbody>
 </table>
@@ -80,4 +80,4 @@ Adobe 透過新增功能、增強功能和修正不斷改進其解決方案。
 
 答：登入 Campaign 時，將會顯示版本通知快顯視窗及最新版本。
 
-如有任何其他問題，請連絡 [Adobe Client Care](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)。
+如有任何其他問題，請聯絡 [Adobe Client Care](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)。

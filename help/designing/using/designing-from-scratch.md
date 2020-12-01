@@ -7,9 +7,9 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2d28048590b52b81f27cd1cfe10be029bbc35197
 workflow-type: tm+mt
-source-wordcount: '1241'
+source-wordcount: '1239'
 ht-degree: 2%
 
 ---
@@ -22,21 +22,21 @@ ht-degree: 2%
 以下是使用電子郵件設計工具從頭開始建立和設計電子郵件內容的主要步驟：
 
 1. 建立電子郵件並開啟其內容。
-1. 新增結構元件以塑造電子郵件。 請參閱 [編輯電子郵件結構](#defining-the-email-structure)。
-1. 在結構元件中插入內容元件和片段。 請參 [閱新增片段和內容元件](#defining-the-email-structure)。
-1. 新增影像並編輯電子郵件的文字。 請參 [閱插入影像](../../designing/using/images.md#inserting-images)。
-1. 新增個人化欄位、連結等，以個人化您的電子郵件。 請參 [閱插入個人化欄位](../../designing/using/personalization.md#inserting-a-personalization-field)、 [插入連結](../../designing/using/links.md#inserting-a-link)[和定義電子郵件中的動態內容](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)。
-1. 定義您電子郵件的主旨行。 See [Personalizing the subject line of an email](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
+1. 新增結構元件以塑造電子郵件。 請參閱[編輯電子郵件結構](#defining-the-email-structure)。
+1. 在結構元件中插入內容元件和片段。 請參閱[新增片段和內容元件](#defining-the-email-structure)。
+1. 新增影像並編輯電子郵件的文字。 請參閱[插入影像](../../designing/using/images.md#inserting-images)。
+1. 新增個人化欄位、連結等，以個人化您的電子郵件。 請參閱[插入個人化欄位](../../designing/using/personalization.md#inserting-a-personalization-field)、[插入連結](../../designing/using/links.md#inserting-a-link)和[定義電子郵件中的動態內容。](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
+1. 定義您電子郵件的主旨行。 請參閱[個人化電子郵件的主旨行](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email)。
 1. 預覽您的電子郵件.
 1. 儲存您的內容，並在確定您已定義對象並正確排程傳送後繼續處理訊息。
 
-您也可以檢視此簡 [介影片](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=chi_hant)。
+您也可以查看此[簡介影片](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=chi_hant)。
 
 >[!NOTE]
 >
->為避免從頭開始設計電子郵件內容，您可以使用現成可用的內容範本。 如需詳細資訊，請參閱「內 [容範本」](../../designing/using/using-reusable-content.md#content-templates)。
+>為避免從頭開始設計電子郵件內容，您可以使用現成可用的內容範本。 如需詳細資訊，請參閱[內容範本](../../designing/using/using-reusable-content.md#content-templates)。
 
-## 定義電子郵件結構 {#defining-the-email-structure}
+## 定義電子郵件結構{#defining-the-email-structure}
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components"
@@ -53,7 +53,7 @@ ht-degree: 2%
 要編輯電子郵件的結構：
 
 1. 開啟現有內容或建立新的電子郵件內容。
-1. 選取 **[!UICONTROL Structure components]** 左側的 **+** 圖示以存取。
+1. 選擇左側的&#x200B;**+**&#x200B;表徵圖以訪問&#x200B;**[!UICONTROL Structure components]**。
 
    ![](assets/email_designer_structure.png)
 
@@ -71,7 +71,7 @@ ht-degree: 2%
 
 1. 多個由一個或多個列組成的結構元件可用。
 
-   選取 **[!UICONTROL n:n column]** 元件以定義您選擇的欄數（介於3和10之間）。 您也可以移動每欄底部的箭頭來定義每欄的寬度。
+   選擇&#x200B;**[!UICONTROL n:n column]**&#x200B;元件以定義您選擇的欄數（介於3和10之間）。 您也可以移動每欄底部的箭頭來定義每欄的寬度。
 
    ![](assets/email_designer_n-n-column.png)
 
@@ -81,7 +81,7 @@ ht-degree: 2%
 
 定義結構後，您就可以將內容片段和元件新增至電子郵件。
 
-## 使用前標 {#preheader}
+## 使用前標{#preheader}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
@@ -90,18 +90,17 @@ ht-degree: 2%
 
 前置標題是從收件匣檢視電子郵件時，主旨行後面的簡短摘要文字。 預報頭可提供較高的開放率。
 
-選取編 **[!UICONTROL Preheader]** 輯方塊並完成內容。
+選擇&#x200B;**[!UICONTROL Preheader]**&#x200B;編輯框並完成內容。
 
 ![](assets/email_designer_preheader.png)
 
-您可以在 **[!UICONTROL Content block]**&#x200B;前標內 **[!UICONTROL Dynamic content]** 容中 **[!UICONTROL Personalization fields]** 新增、或。
+您可以在前標內容中添加&#x200B;**[!UICONTROL Content block]**、**[!UICONTROL Dynamic content]**&#x200B;或&#x200B;**[!UICONTROL Personalization fields]**。
 
 >[!NOTE]
 >
 >請注意，預先標題與所有電子郵件程式不相容。 不支援時，將不會顯示預先標題。
 
-
-## 使用內容元件 {#about-content-components}
+## 使用內容元件{#about-content-components}
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components"
@@ -116,45 +115,43 @@ ht-degree: 2%
 
 ### **[!UICONTROL Button]**
 
-如果您需要使用多個按鈕，而不是從頭開始編輯每個按鈕，則可使用內容相關工 **[!UICONTROL Button]** 具列來複製元件。
+如果您需要使用多個按鈕，而不是從頭開始編輯每個按鈕，則可以使用上下文工具欄複製&#x200B;**[!UICONTROL Button]**&#x200B;元件。
 
-您也可以將按鈕儲存至可重複使用的片段。 如需詳細資訊，請參 [閱「建立內容片段](../../designing/using/using-reusable-content.md#creating-a-content-fragment) 」 [和「將內容儲存為片段」](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment)。
+您也可以將按鈕儲存至可重複使用的片段。 For more on this, see [Creating a content fragment](../../designing/using/using-reusable-content.md#creating-a-content-fragment) and [Saving content as a fragment](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
 
-選擇 **[!UICONTROL Fallback view]** 以在電子郵件設計器中顯示備援影像。
+選擇&#x200B;**[!UICONTROL Fallback view]**&#x200B;以在電子郵件設計器中顯示備用影像。
 
 ### **[!UICONTROL Text]**
 
-    使用此元件在您的電子郵件中插入文字。 您可以在**[!UICONTROL Component Settings]**中調整文字的顏色、樣式和大小。
+使用此元件在您的電子郵件中插入文字。 您可以調整&#x200B;**[!UICONTROL Component Settings]**&#x200B;中文字的顏色、樣式和大小。
 
 ### **[!UICONTROL Divider]**
 
-    使用此元件在電子郵件中插入分界線。 您可以在**[!UICONTROL Component Settings]**中選取分行的顏色、樣式和大小。
+使用此元件在電子郵件中插入分界線。 可以在&#x200B;**[!UICONTROL Component Settings]**&#x200B;中選擇分行的顏色、樣式和大小。
 
-### **[!UICONTROL Html]**
+### **[!UICONTROL HTML]**
 
 使用此元件可複製並貼上現有HTML的不同部分。 這可讓您建立免費的模組化HTML元件。
 
 >[!NOTE]
 >
->免費的HTML元件可以編輯，但選項有限。 如果未內嵌所有樣式，請務必在HTML程式碼的 **head** （標題）區段中新增正確的CSS，否則電子郵件將無法回應。 使用按 **[!UICONTROL Preview]** 鈕來測試內容的回應速度(請參閱 [預覽訊息](../../sending/using/previewing-messages.md))。
+>免費的HTML元件可以編輯，但選項有限。 如果未插入所有樣式，請務必在HTML程式碼的&#x200B;**head**&#x200B;區段中新增正確的CSS，否則電子郵件將無法回應。 使用&#x200B;**[!UICONTROL Preview]**&#x200B;按鈕測試內容的回應速度（請參閱[預覽訊息](../../sending/using/previewing-messages.md)）。
 
 為了讓外部內容與電子郵件設計人員相容，Adobe建議從頭開始建立訊息，並將內容從您現有的電子郵件複製到片段和元件。
 
-當您有無法重新建立的內容時，您可以使用內容元件從原始電子郵件複製並貼上HTML **[!UICONTROL Html]** 程式碼。 繼續之前，請務必熟悉HTML。
-
-<!-- A full example is presented below. -->
+當您有無法重新建立的內容時，可以使用&#x200B;**[!UICONTROL Html]**&#x200B;內容元件，從原始電子郵件複製並貼上HTML程式碼。 繼續之前，請務必熟悉HTML。
 
 >[!NOTE]
 >
 >新內容不會是原始電子郵件的完整副本，但下列步驟會引導您建立盡可能接近的訊息。
 
-    **複製您的內容之前**
-    
-    1。 在原始電子郵件中，從您要傳送的每封電子郵件中識別可重複使用的區段。
-    1. 儲存您要使用的所有影像和資產。
-    1. 如果您熟悉HTML，請將原始HTML內容分割為不同的部分。
+**複製內容之前**
 
-### 視訊 {#video-settings}
+1. 在原始電子郵件中，從您要傳送的每封電子郵件中識別可重複使用的區段。
+1. 儲存您要使用的所有影像和資產。
+1. 如果您熟悉HTML，請將原始HTML內容分割為不同的部分。
+
+### 視頻{#video-settings}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_video"
@@ -162,8 +159,7 @@ ht-degree: 2%
 >abstract="使用此元件將影片插入您的電子郵件中。 請注意，視訊並非適用於所有電子郵件客戶。 我們建議設定備援影像。"
 >additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="其他資訊"
 
-
-將視訊元件插入電子郵件的結構元件，並在中輸入視訊連結 **[!UICONTROL Component Settings]**。
+將視訊元件插入電子郵件的結構元件，並在&#x200B;**[!UICONTROL Component Settings]**&#x200B;中輸入視訊連結。
 
 >[!NOTE]
 >
@@ -177,21 +173,21 @@ ht-degree: 2%
 
 ### **[!UICONTROL Social]**
 
-使用此元件，在電子郵件中插入社交媒體頁面的連結。 您可以選取要顯示的連結及其圖示大小 **[!UICONTROL Component Settings]**。
+使用此元件，在電子郵件中插入社交媒體頁面的連結。 您可以選取要顯示的連結，以及&#x200B;**[!UICONTROL Component Settings]**&#x200B;中其圖示的大小。
 
-### 轉盤 {#carousel-settings}
+### 轉盤{#carousel-settings}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_carousel"
 >title="轉盤設定"
 >abstract="瞭解如何將轉盤插入並設定在您的內容中。請注意，轉盤不適用於所有電子郵件用戶端，當不支援轉盤時，將會顯示備援影像。"
 
-1. 將元件拖放 **[!UICONTROL Carousel]** 到結構元件內。
+1. 將&#x200B;**[!UICONTROL Carousel]**&#x200B;元件拖放至結構元件內。
 1. 瀏覽以從您的電腦選取影像。
 
    ![](assets/des_carousel_browse.png)
 
-1. 在窗格 **[!UICONTROL Settings]** 中，設定您要在轉盤中的縮圖數。
+1. 在&#x200B;**[!UICONTROL Settings]**&#x200B;窗格中，設定您要在轉盤中的縮圖數。
 1. 從您的電腦選擇備援影像。
 
    ![](assets/des_carousel_fallback.png)

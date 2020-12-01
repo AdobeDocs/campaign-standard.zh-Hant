@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: abf2bb68ca0a2bbad6347184f2c091726021af89
+source-git-commit: 0690765f26398391b4604136b203541a109e203b
 workflow-type: tm+mt
-source-wordcount: '6311'
+source-wordcount: '6305'
 ht-degree: 97%
 
 ---
@@ -19,15 +19,19 @@ ht-degree: 97%
 
 除了 Adobe Campaign [發行版本](../../rn/using/release-notes.md)以外，本頁還列出 Adobe Campaign Standard 檔案中的所有新更新。
 
+## 2020 年 12 月{#doc-updates-december-2020}
+
+「隱私權」區段已移動。 [顯示全文](../../start/using/privacy.md)
+
 ## 2020 年11月 {#doc-updates-november-2020}
-
-「隱私權」區段已移動，並包含兩個新頁面： [隱私權管理](../../start/using/privacy-management.md) , [以及隱私權要求](../../start/using/privacy-requests.md)。
-
-「Adobe Experience Platform Data Connector」區段中已新增有關隱私權管理相關資料對應驗證錯誤以及如何疑難排解的資訊。 [顯示全文](../../developing/using/aep-mapping-activation.md)
 
 「個人資料與角色」區段已更新為使用案例案例，以說明不同角色在隱私權方面如何互動。 [顯示全文](../../start/using/privacy.md#use-case-scenario)
 
 已新增一節，其中列出隱私權的常見問題。 [顯示全文](../../start/using/privacy-faq.md)
+
+「隱私權」區段已移動，並包含兩個新頁面：[隱私權管理](../../start/using/privacy-management.md)和[管理隱私權要求](../../start/using/privacy-requests.md)。
+
+「Adobe Experience Platform Data Connector」區段中已新增有關隱私權管理相關資料對應驗證錯誤以及如何疑難排解的資訊。 [顯示全文](../../developing/using/aep-mapping-activation.md)
 
 ## 發行版本 20.4 – 2020 年 10 月 {#release-20-4---october-2020}
 
@@ -185,7 +189,7 @@ MCPNS 在設定行動應用程式時增加了限制。[瞭解詳情](https://hel
 
 Adobe Campaign Standard / Adobe Experience Manager 整合檔案已更新和改進。[瞭解詳情](../../integrating/using/configure-experience-manager.md)
 
-The Campaign Email Designer documentation and related pages have been updated to reflect [!DNL Adobe Creative SDK] depreciation. [瞭解詳情](https://helpx.adobe.com/tw/campaign/kb/acs-deprecated-and-removed-features.html)
+促銷活動電子郵件設計工具檔案和相關頁面已更新，以反映[!DNL Adobe Creative SDK]折舊。 [瞭解詳情](../../rn/using/deprecated-features.md)
 
 現在提供 Campaign Standard 資料模型最佳實務的新區段。[瞭解詳情](../../developing/using/data-model-best-practices.md)
 
@@ -235,7 +239,7 @@ Adobe Campaign Enhanced MTA 說明檔案說明升級的傳送基礎架構，可�
 
 API 檔案首頁已經過改良，並重新導向不同的主題。[瞭解詳情](../../api/using/get-started-apis.md)
 
-## 11月- 2019年12月 {#doc-updates-december-2019}
+## 11月- 2019年12月{#doc-updates-december-2019}
 
 已更新「設定 S3 外部帳戶」文件。[瞭解詳情](../../administration/using/external-accounts.md#amazon-s3-external-account)
 
@@ -287,7 +291,7 @@ Adobe Campaign的錯誤訊息清單已更新。 [顯示全文](https://docs.camp
 
 與隱私權相關的資訊已新增至 API 文件[按一下此處](../../api/using/creating-a-privacy-request.md)
 
-## Sept. - Oct. 2019 {#doc-updates-october-2019}
+## 9月- 2019年10月{#doc-updates-october-2019}
 
 已新增與 Campaign Standard 設定相關的新區段。[瞭解詳情](../../administration/using/about-campaign-standard-settings.md)
 
@@ -359,7 +363,7 @@ Campaign Standard 及 Campaign Classic 的錯誤訊息清單已更新。[瞭解�
 
 在自訂資源文件中新增警告。我們建議對自訂資源 ID 使用最多 30 個字元。這也適用於自訂資源欄位、索引和連結。[瞭解詳情](../../developing/using/creating-or-extending-the-resource.md)
 
-## 2019年6至7月 {#doc-updates-2019}
+## 2019年6月- 7月{#doc-updates-2019}
 
 新增「登錄頁面」限制的頁面。[瞭解詳情](../../channels/using/getting-started-with-landing-pages.md#landing-page-limitations)
 
@@ -435,7 +439,7 @@ Campaign Standard 及 Campaign Classic 的錯誤訊息清單已更新。[瞭解�
 
 「開始使用指南」已經過擴充和重新整理。[瞭解詳情](../../start/using/about-campaign-standard.md)
 
-「已過時和已移除的功能」頁面已更新。[瞭解詳情](https://helpx.adobe.com/tw/campaign/kb/acs-deprecated-and-removed-features.html)
+「已過時和已移除的功能」頁面已更新。[瞭解詳情](../../rn/using/deprecated-features.md)
 
 Dreamweaver 整合區段已更新並改良。[瞭解詳情](../../designing/using/using-integrations.md#editing-content-in-dreamweaver)
 
@@ -573,7 +577,7 @@ Adobe Launch 整合行動應用程式（測試版）– [瞭解詳情](../../sen
 
 已新增多語言範本預設語言的相關資訊。[瞭解詳情](../../channels/using/multilingual-messages-template.md)
 
-已更新「使用者與安全性」指南，以反映新 Campaign Standard 執行個體的地理單位功能折舊，以及未建立地理單位的現有執行個體（從 18.7 版開始）。[瞭解詳情](https://helpx.adobe.com/tw/campaign/kb/acs-deprecated-and-removed-features.html)
+已更新「使用者與安全性」指南，以反映新 Campaign Standard 執行個體的地理單位功能折舊，以及未建立地理單位的現有執行個體（從 18.7 版開始）。[瞭解詳情](../../rn/using/deprecated-features.md)
 
 ## 發行版本18.6 – 2018 年 6 月{#release-18-6---june-2018}
 

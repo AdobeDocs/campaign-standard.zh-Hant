@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
 translation-type: tm+mt
-source-git-commit: de8afa7e942b7ee831837b1f9506488f7ca835f0
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '658'
 ht-degree: 17%
 
 ---
@@ -27,7 +27,7 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
 此流程讓客戶在實際移除之前，至少可以適應一個版本發行週期，以調整實作方式，及適應已棄用功能的新版本或後繼功能。
 
 >[!NOTE]
->Adobe Campaign Standard releases and new capabilities are listed in the [Release Notes](../../rn/using/release-notes.md).
+>[發行說明](../../rn/using/release-notes.md)中列出了Adobe Campaign Standard版本和新功能。
 
 
 ## 已棄用的功能 {#deprecated-features}
@@ -47,7 +47,7 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
  <tbody> 
   <tr> 
    <td> <p> 從20.1版開始，SDK v4已過時。 <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">進一步瞭解</a>。</p><br/>
-   <p>Adobe <a href="https://aep-sdks.gitbook.io/docs/">Experience Platform Mobile SDK</a> （先前稱為v5）將獨家支援即將推出的Adobe Experience Cloud功能。</p></br>
+   <p><a href="https://aep-sdks.gitbook.io/docs/">Adobe Experience Platform Mobile SDK</a>（先前稱為v5）將獨家支援即將推出的Adobe Experience Cloud功能。</p></br>
      <p>
      <em>目標刪除日期：2021年8月31日</em></p>
      </td> 
@@ -62,8 +62,8 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>在啟動Campaign 19.4發行時，已不再使用Campaign API和介面來存取和刪除請求。 2步驟描述檔刪除將無法使用。 使用 <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe隱私權核心服務</a>。</p></br>
-   <p>另請參閱管 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=en">理隱私權要求</a>。</p>
+   <td> <p>在啟動Campaign 19.4發行時，已不再使用Campaign API和介面來存取和刪除請求。 2步驟描述檔刪除將無法使用。 使用<a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe隱私權核心服務</a>。</p></br>
+   <p>另請參閱<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=en">管理隱私權請求</a>。</p>
   <p> 
   <em>目標移除日期：2021 年</em></p>
    </td> 
@@ -79,10 +79,10 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>在啟動Campaign 19.0版本時，舊版電子郵件編輯器已過時。 使用 <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">全新的電子郵件設計工具</a> ，建立並個人化您的電子郵件內容。 </p></br>
-   <p>閱讀本 <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">節</a> ，瞭解如何針對新編輯者調整您的電子郵件範本。</p></br>
+   <td> <p>在啟動Campaign 19.0版本時，舊版電子郵件編輯器已過時。 使用<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">促銷活動電子郵件設計工具</a>來建立並個人化您的電子郵件內容。 </p></br>
+   <p>請閱讀<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">本節</a>，瞭解如何針對新編輯者調整您的電子郵件範本。</p></br>
   <p> 
-  <em>目標移除日期：2021 年</em></p>
+  <em>目標刪除日期：2021年底</em></p>
    </td> 
   </tr> 
  </tbody> 
@@ -102,7 +102,7 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
  </tbody> 
 </table>
 
-## Removed Features {#removed-features}
+## 已移除功能{#removed-features}
 
 本節列出已從Campaign Standard移除的功能。
 
@@ -114,7 +114,7 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>「傾 <b>向分數</b> 」已從Adobe Experience Cloud觸發程式終止服務。 因此，此選項已從Adobe Campaign Standard中移除。 為避免Enrichment結構描述中「傾向」分數的任何過時值，建議更新結構以擷取最新變更並重新發佈現有的觸發器。 如需詳細資訊，請參閱「 <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html#publishing-trigger-in-campaign"> 在促銷活動中發佈觸發器」 </a>。
+   <td> <p><b>傾向分數</b>已從Adobe Experience Cloud觸發器中終止服務。 因此，此選項已從Adobe Campaign Standard中移除。 為避免Enrichment結構描述中「傾向」分數的任何過時值，建議更新結構以擷取最新變更並重新發佈現有的觸發器。 如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html">在Campaign </a>中發佈觸發器。
 </p></br>
    </td> 
   </tr> 
@@ -145,7 +145,7 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Campaign和Adobe Experience Cloud已從2019年春季起停止支援Microsoft Internet Explorer 11和Campaign 19.2版本。 請切換至Microsoft Edge或其他支援的瀏覽器。 <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/administrating/about-configuration-guidelines.html#compatible-browsers">進一步瞭解</a>。</p>
+   <td> <p>Adobe Campaign和Adobe Experience Cloud已從2019年春季起停止支援Microsoft Internet Explorer 11和Campaign 19.2版本。 請切換至Microsoft Edge或其他支援的瀏覽器。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/about-configuration-guidelines.html">進一步瞭解</a>。</p>
    </td> 
   </tr> 
  </tbody> 

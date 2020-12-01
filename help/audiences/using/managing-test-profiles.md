@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 100%
+source-wordcount: '449'
+ht-degree: 95%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 100%
 ## 關於測試設定檔 {#about-test-profiles}
 
 測試設定檔可讓您鎖定與定義之目標定位條件不相符的其他收件者。已將他們新增至郵件的對象中，以偵測任何詐用收件者資料庫之行為，或確保電子郵件送達至收件匣中。
+
+![](assets/do-not-localize/how-to-video.png) [在影片中探索此功能](#video)
 
 您可以從進階功能表 **[!UICONTROL Profiles & audiences > Test profiles]** 管理您的測試設定檔。
 
@@ -65,10 +67,6 @@ ht-degree: 100%
 
 然後，測試設定檔將新增至設定檔清單。
 
-**相關主題：**
-
-[建立測試設定檔](https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/profiles-and-audiences/test-profiles.translate.html) 影片
-
 ## 編輯測試設定檔 {#editing-test-profiles}
 
 若要編輯測試設定檔並查閱其連結的資料，或對其進行修改，請執行以下步驟：
@@ -79,3 +77,11 @@ ht-degree: 100%
    ![](assets/test_profile_edit.png)
 
 1. 如果您已輸入變更，請按一下 **[!UICONTROL Save]** ，或選取測試設定檔名稱，然後 **[!UICONTROL Test profiles]** 在螢幕頂端的部分，返回至測試設定檔的控制面板。
+
+## 教學課程影片{#video}
+
+此影片說明如何建立測試設定檔。
+
+>[!VIDEO](https://video.tv.adobe.com/v/24094?quality=12)
+
+其他Campaign Standard操作說明影片可在[這裡](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant)取得。

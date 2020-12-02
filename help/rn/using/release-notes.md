@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
+source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
 workflow-type: tm+mt
 source-wordcount: '2412'
 ht-degree: 100%
@@ -112,7 +112,7 @@ ht-degree: 100%
 * 發佈自訂資源時，準備後將顯示確認快顯視窗。
 * 自訂資源失敗時顯示的快顯視窗訊息已改善，以更清楚明瞭。
 * 工作流程中的運算式編輯器已經過改善，以防止執行錯誤。[新功能](../../automating/using/customizing-workflow-external-parameters.md)可供使用：可以用於所有允許您在使用外部參數調用工作流程後使用事件變數的活動中。此外，運算式編輯器中現在會顯示工具提示，其中包含功能說明。
-* [交易事件清單中已新增篩選器。](../../channels/using/configuring-transactional-event.md#searching-transactional-events)它們允許您根據事件設定的狀態，以及上次接收事件的時間來篩選事件設定。
+* [交易事件清單中已新增篩選器。](../../administration/using/configuring-transactional-messaging.md#searching-transactional-events)它們允許您根據事件設定的狀態，以及上次接收事件的時間來篩選事件設定。
 * 匯出套件時顯示的日誌已更具體，並且詳細地說明在出現故障時遇到的錯誤。
 * 傳送訊息後，您現在可以搜尋、篩選及匯出[追蹤的 URL](../../sending/using/tracking-messages.md) 清單。
 * [Launch 和 Campaign 之間的自動同步](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow)現在為 GA，並且依預設啟用。

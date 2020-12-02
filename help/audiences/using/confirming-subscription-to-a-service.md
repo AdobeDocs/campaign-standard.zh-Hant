@@ -7,10 +7,10 @@ audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
 workflow-type: tm+mt
-source-wordcount: '1322'
-ht-degree: 100%
+source-wordcount: '1321'
+ht-degree: 96%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 100%
 1. 從 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]** 功能表建立事件，可從 Adobe Campaign 標誌存取。
 1. 輸入標籤，選取目標維度，然後按一下 **[!UICONTROL Create]**。
 
-   設定步驟將顯示在[設定交易式訊息傳送](../../administration/using/configuring-transactional-messaging.md)區段。
+   配置步驟顯示在[配置事務事件](../../channels/using/configuring-transactional-event.md)部分。
 
 1. 在 **[!UICONTROL Fields]** 區段中，按一下 **[!UICONTROL Create element]** 並將 **[!UICONTROL publicLabel]** 新增至資料結構以啟用調解。
 
@@ -85,17 +85,17 @@ ht-degree: 100%
 1. 從 Adobe Campaign 標誌中，選取 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** 並按一下 **[!UICONTROL Transactional messages]**。
 1. 選取與您剛發佈之事件對應的交易式電子郵件。
 
-1. 按一下 **[!UICONTROL Content]** 區段並選取電子郵件範本。有關編輯交易式訊息內容的詳細資訊，請參閱[事件交易式訊息](../../channels/using/event-transactional-messages.md)。
+1. 按一下 **[!UICONTROL Content]** 區段並選取電子郵件範本。有關編輯事務性消息內容的詳細資訊，請參閱[編輯事務性消息](../../channels/using/editing-transactional-message.md)。
 1. 由於您可以直接存取 **[!UICONTROL Service]** 資源中的所有欄位，因此您可以從 **[!UICONTROL Context]** > **[!UICONTROL Real-time event (rtEvent)]** > **[!UICONTROL Event context (ctx)]** >**[!UICONTROL Service]** 節點選取任何欄位，以個人化您的內容。
 
    ![](assets/confirmation_personalization-service.png)
 
-   有關個人化交易式訊息的詳細資訊，請參閱[本區段](../../channels/using/event-transactional-messages.md#personalizing-a-transactional-message)。
+   有關個人化交易式訊息的詳細資訊，請參閱[本區段](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message)。
 
-1. 使用測試設定檔預覽訊息。如需詳細資訊，請參閱[在交易式訊息中定義測試設定檔](../../channels/using/event-transactional-messages.md#defining-a-test-profile-in-a-transactional-message)。
+1. 使用測試設定檔預覽訊息。如需詳細資訊，請參閱[定義特定測試描述檔](../../channels/using/publishing-transactional-message.md#defining-specific-test-profile)。
 
 1. 按一下 **[!UICONTROL Save & close]** 以儲存您的內容。
-1. 發佈交易式訊息。請參閱[發佈交易式訊息](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message)。
+1. 發佈交易式訊息。請參閱[發佈交易式訊息](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)。
 
 ### 步驟 2：建立和設定服務 {#step-2--create-and-configure-the-service-1}
 
@@ -141,7 +141,7 @@ ht-degree: 100%
 1. 從 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]** 功能表建立事件，可從 Adobe Campaign 標誌存取。
 1. 輸入標籤，選取目標維度，然後按一下 **[!UICONTROL Create]**。
 
-   設定步驟將顯示在[設定交易式訊息傳送](../../administration/using/configuring-transactional-messaging.md)區段。
+   配置步驟顯示在[配置事務事件](../../channels/using/configuring-transactional-event.md)部分。
 
 1. 在 **[!UICONTROL Fields]** 區段中，按一下 **[!UICONTROL Create element]** 並將 **[!UICONTROL serviceName]** 新增至資料結構以啟用調解。
 

@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
+source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
 workflow-type: tm+mt
 source-wordcount: '7623'
 ht-degree: 8%
@@ -203,9 +203,9 @@ ht-degree: 8%
 
 * 透過與Adobe Experience Platform Location Services的整合，Adobe Campaign現在可相容，透過Experience Platform SDK，將以位置為基礎的行銷訊息傳送給行動應用程式的用戶。 如需詳細資訊，請參閱[相關的文件](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md)，以瞭解詳情。
 * 報告功能已經改善，以提供更佳的體驗。 若要使用此功能，您必須接受動態報表使用合約。 有關詳細資訊，請參閱[詳細說明文檔](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)。
-* 在工作流程中，已新增一個新選項，以預覽工作流程的下十個執行。 For more on this, refer to the [detailed documentation](../../automating/using/scheduler.md).
-* 在「排程器」活動中，新選項允許您為每月傳送選擇特定周的特定日期。 For more on this, refer to the [detailed documentation](../../automating/using/scheduler.md).
-* 在建立不含匯總期間的週期性傳送時，傳送控制面板現在可讓您在傳送傳送前要求確認。 For more on this, refer to the [detailed documentation](../../sending/using/confirming-the-send.md).
+* 在工作流程中，已新增一個新選項，以預覽工作流程的下十個執行。 有關詳細資訊，請參閱[詳細說明文檔](../../automating/using/scheduler.md)。
+* 在「排程器」活動中，新選項允許您為每月傳送選擇特定周的特定日期。 有關詳細資訊，請參閱[詳細說明文檔](../../automating/using/scheduler.md)。
+* 在建立不含匯總期間的週期性傳送時，傳送控制面板現在可讓您在傳送傳送前要求確認。 有關詳細資訊，請參閱[詳細說明文檔](../../sending/using/confirming-the-send.md)。
 * 您現在可以使用已在工作流程外部訊號活動中宣告的事件變數，個人化傳送的標籤。 有關詳細資訊，請參閱[詳細說明文檔](../../automating/using/calling-a-workflow-with-external-parameters.md)。
 * GDPR刪除查詢已改進，以獲得更佳的效能。 (CAMP-33504)
 * 「ftp」選項已從外部帳戶設定介面中移除。 (CAMP-34472)
@@ -488,7 +488,7 @@ ht-degree: 8%
 
 **其他變更**
 
-* Adobe Campaign和Adobe Experience Cloud將從2019年春季起停止支援Microsoft Internet Explorer 11和Campaign Standard 19.2版本。 請切換至Microsoft Edge或其他支援的瀏覽器。 請參閱[已過時和已移除的功能](../../rn/using/deprecated-features.md)頁面。
+* Adobe Campaign和Adobe Experience Cloud將從2019年春季起停止支援Microsoft Internet Explorer 11和Campaign Standard 19.2版本。 請切換至 Microsoft Edge 或其他支援的瀏覽器。請參閱[已過時和已移除的功能](../../rn/using/deprecated-features.md)頁面。
 * 描述檔資源的&#x200B;**國家代碼**&#x200B;欄位已重新命名為&#x200B;**國家／地區代碼**。
 
 **修補程式**
@@ -539,7 +539,7 @@ ht-degree: 8%
   </tr> 
   <tr> 
    <td> 交易電子郵件中的產品清單<br /> </td> 
-   <td> <p>您現在可以在交易電子郵件訊息中參考一或多個產品集合。 例如，您可以自動傳送購物車放棄電子郵件，列出使用者購物車中包含影像、價格和每個產品的連結的所有產品。</p><p>如需詳細資訊，請參閱<a href="../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message">詳細文件</a>及<a href="https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.translate.html">作法影片</a>。</p> </td> 
+   <td> <p>您現在可以在交易電子郵件訊息中參考一或多個產品集合。 例如，您可以自動傳送購物車放棄電子郵件，列出使用者購物車中包含影像、價格和每個產品的連結的所有產品。</p><p>如需詳細資訊，請參閱<a href="../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message">詳細文件</a>及<a href="https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.translate.html">作法影片</a>。</p> </td> 
   </tr> 
   <tr> 
    <td> 電子郵件設計器中的Mobile View<br /> </td> 

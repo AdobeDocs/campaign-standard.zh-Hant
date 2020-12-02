@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 0690765f26398391b4604136b203541a109e203b
+source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
 workflow-type: tm+mt
-source-wordcount: '6305'
+source-wordcount: '6303'
 ht-degree: 98%
 
 ---
@@ -51,11 +51,11 @@ Journey AI 整合 - [瞭解詳情](../../sending/using/predictive.md)
 
 已新增關於「傳送」最佳實務的新區段。[顯示全文](../../sending/using/delivery-best-practices.md)
 
-已新增區段，說明可依據其狀態及上次收到事件的時間而搜尋事件設定的新篩選器。[顯示全文](../../administration/using/configuring-transactional-messaging.md#searching-transactional-events)
+已新增區段，說明可依據其狀態及上次收到事件的時間而搜尋事件設定的新篩選器。[顯示全文](../../channels/using/configuring-transactional-event.md#searching-transactional-events)
 
 ## 2020 年 9 月{#doc-updates-september-2020}
 
-事件交易式訊息區段已重新組織並釐清。[顯示全文](../../channels/using/event-transactional-messages.md)
+事件交易式訊息區段已重新組織並釐清。[顯示全文](../../channels/using/editing-transactional-message.md)
 
 已新增警告註釋，以警告使用者有關日誌存取權限限制的問題。[顯示全文](../../administration/using/users-management.md)
 
@@ -135,7 +135,7 @@ External API 活動 (GA) – [瞭解詳情](../../automating/using/external-api.
 
 Experience Cloud ID 服務 (ECID) 的相關資訊已新增至 Adobe Experience Platform 資料連接器檔案。[瞭解詳情](../../developing/using/aep-about-data-connector.md#key-concepts)
 
-「設定交易式訊息」區段已改良，提供如何存取最新交易事件和更新螢幕擷取畫面的資訊。[瞭解詳情](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)
+「交易式訊息」區段已改良，提供如何存取最新交易事件和更新螢幕擷取畫面的資訊。 [瞭解詳情](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
 
 已改進分類和分類規則檔案，並更新內建分類規則的其他資訊。[瞭解詳情](../../sending/using/about-typology-rules.md)
 
@@ -143,15 +143,15 @@ Experience Cloud ID 服務 (ECID) 的相關資訊已新增至 Adobe Experience P
 
 傳送暫時失敗後重試的說明檔案已更新，其中提供更多詳細資料，說明在升級至增強 MTA 後，如何管理重試。[瞭解詳情](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)
 
-刪除交易式訊息區段已增強並釐清。[瞭解詳情](../../channels/using/event-transactional-messages.md#deleting-a-transactional-message)
+刪除交易式訊息區段已增強並釐清。[瞭解詳情](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message)
 
 **預覽傳送**&#x200B;區段已更新為行動傳送範例。[瞭解詳情](../../sending/using/previewing-messages.md)
 
-已新增有關交易式訊息和刪除未使用之即時事件的最佳實務。[瞭解詳情](../../administration/using/configuring-transactional-messaging.md#creating-an-event)
+已新增有關交易式訊息和刪除未使用之即時事件的最佳實務。[瞭解詳情](../../channels/using/configuring-transactional-event.md#creating-an-event)
 
 「設定電子郵件通道」區段已更新，其中說明現在由 Adobe Campaign Enhanced MTA 管理的所有電子郵件設定。[瞭解詳情](../../administration/using/configuring-email-channel.md)
 
-「設定交易式訊息」區段已更新，內含編輯事件設定所需權限以及如何擴充交易式訊息之集合的詳細資訊。[瞭解詳情](../../administration/using/configuring-transactional-messaging.md)。
+「交易式訊息」區段已更新，其中包含編輯事件設定所需權限的詳細資訊，以及如何豐富交易式訊息中的系列。 [瞭解詳情](../../channels/using/configuring-transactional-event.md)。
 
 ## 版本 20.2 – 2020 年 4 月 {#release-20-2---april-2020}
 
@@ -171,7 +171,7 @@ MCPNS 在設定行動應用程式時增加了限制。[瞭解詳情](https://hel
 
 新的設定指南區段已新增到管理指南中。有關相容瀏覽器和作業系統的區段已從「快速入門」指南移至本區段。Campaign Standard 網路端點的技術也已新增至本節。[瞭解詳情](../../administration/using/about-configuration-guidelines.md)
 
-現在提供新區段，說明如何刪除事件設定。[瞭解詳情](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
+現在提供新區段，說明如何刪除事件設定。[瞭解詳情](../../channels/using/publishing-transactional-event.md#deleting-an-event)
 
 說明如何測試電子郵件主旨行以預測其開放率的頁面已更新並改進，包括新的[疑難排解](../../sending/using/testing-subject-line-email.md#troubleshooting)區段。[瞭解詳情](../../sending/using/testing-subject-line-email.md)
 
@@ -207,7 +207,7 @@ Adobe Experience Platform Data Connector（測試版） – [瞭解詳情](../..
 
 **此版本隨附的其他文件更新**
 
-隱私權管理檔案已更新，其中包含如何為自訂設定檔資源建立 CCPA 選取退出欄位的資訊。[瞭解詳情](https://helpx.adobe.com/content/help/tw/campaign/kb/acs-privacy.html)
+隱私權管理檔案已更新，其中包含如何為自訂設定檔資源建立 CCPA 選取退出欄位的資訊。[瞭解詳情](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html)
 
 「發行版本」已重新整理和改良。[瞭解詳情](../../rn/using/release-notes.md)
 
@@ -281,7 +281,7 @@ Adobe Campaign 的錯誤訊息清單已更新。[顯示全文](https://docs.camp
 
 改善並加強 GDPR 快速入門手冊。該手冊現在是包含 GDPR 及 CCPA 的隱私權管理文件。[瞭解詳情](https://helpx.adobe.com/tw/campaign/kb/campaign-privacy.html)
 
-已新增一個圖表，其中顯示交易式訊息發佈程式。[瞭解詳情](../../administration/using/configuring-transactional-messaging.md#transactional-messaging-pub-process)
+已新增一個圖表，其中顯示交易式訊息發佈程式。[瞭解詳情](../../channels/using/publishing-transactional-message.md#transactional-messaging-pub-process)
 
 「傳送最佳實務」快速入門手冊已移動並更新。[瞭解詳情](../../sending/using/delivery-best-practices.md)
 
@@ -297,7 +297,7 @@ Adobe Campaign 的錯誤訊息清單已更新。[顯示全文](https://docs.camp
 
 新增一節，說明如何傳送自動自訂確認電子郵件給已訂閱特定服務的設定檔。[瞭解詳情](../../audiences/using/confirming-subscription-to-a-service.md)
 
-「交易式傳訊」區段已使用最新的 UI 更新加以修改，包括使用電子郵件設計工具編輯內容。[瞭解詳情](../../channels/using/event-transactional-messages.md)
+「交易式傳訊」區段已使用最新的 UI 更新加以修改，包括使用電子郵件設計工具編輯內容。[瞭解詳情](../../channels/using/editing-transactional-message.md)
 
 登陸頁面區段已重新組織。此外，還已新增一個區段，詳細說明設定登陸頁面的步驟。[瞭解詳情](../../channels/using/getting-started-with-landing-pages.md)
 
@@ -307,7 +307,7 @@ Adobe Campaign 的錯誤訊息清單已更新。[顯示全文](https://docs.camp
 
 已新增如何使用補漏白的新區段。[瞭解詳情](../../sending/using/using-traps.md)。
 
-已在頁面上新增關於 **Launch_URL_Campaign** 選項的附註，說明如何使用 Adobe Experience Platform SDK 設定行動應用程式。[瞭解詳情](https://helpx.adobe.com/tw/campaign/kb/configuring-app-sdk.html)
+已在頁面上新增關於 **Launch_URL_Campaign** 選項的附註，說明如何使用 Adobe Experience Platform SDK 設定行動應用程式。[瞭解詳情](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
 
 電子郵件設計工具指南已重新整理。[瞭解詳情](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -379,7 +379,7 @@ Campaign Standard 及 Campaign Classic 的錯誤訊息清單已更新。[瞭解�
 
 **發行中包含的新功能**
 
-控制面板 – [瞭解詳情](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/control-panel-home.html)
+控制面板 – [瞭解詳情](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
 
 本機通知 – [瞭解詳情](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
 
@@ -427,7 +427,7 @@ Campaign Standard 及 Campaign Classic 的錯誤訊息清單已更新。[瞭解�
 
 「管理連結」區段已更新，內含如何在「電子郵件設計工具」中管理追蹤 URL 的其他資訊。[瞭解詳情](../../designing/using/links.md#inserting-a-link)
 
-已新增新區段，以說明特定交易式訊息重試過程。[瞭解詳情](../../channels/using/event-transactional-messages.md#transactional-message-retry-process)
+已新增新區段，以說明特定交易式訊息重試過程。[瞭解詳情](../../channels/using/publishing-transactional-message.md#transactional-message-retry-process)
 
 「使用 API 擴充功能發佈資源」區段已經過釐清，並已更新為最新的 UI 變更。[瞭解詳情](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension)
 
@@ -505,7 +505,7 @@ Campaign Standard 及 Campaign Classic 的錯誤訊息清單已更新。[瞭解�
 
 電子郵件設計工具一般可用性 – [瞭解詳情](../../designing/using/designing-content-in-adobe-campaign.md)
 
-交易電子郵件中的產品清單 – [瞭解詳情](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)
+交易電子郵件中的產品清單 – [瞭解詳情](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message)
 
 電子郵件設計工具中的行動裝置檢視 – [瞭解詳情](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)
 
@@ -533,9 +533,9 @@ Microsoft Edge（最新版本）已新增至電腦的相容瀏覽器清單。[�
 
 「使用 SDK V4 設定行動應用程式」區段已移至[此處](https://helpx.adobe.com/tw/campaign/kb/configuring-app-sdkv4.html)。
 
-「使用 Adobe Experience Platform SDK 設定行動應用程式」一節已移至[此處](https://helpx.adobe.com/tw/campaign/kb/configuring-app-sdk.html)。
+「使用 Adobe Experience Platform SDK 設定行動應用程式」一節已移至[此處](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)。
 
-視訊已更新並移至[此處](https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/overview.translate.html)。
+視訊已更新並移至[此處](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)。
 
 已更新「使用者類型」區段。[瞭解詳情](../../administration/using/users-management.md)
 
@@ -565,7 +565,7 @@ Adobe Launch 整合行動應用程式（測試版）– [瞭解詳情](../../sen
 
 **此版本隨附的其他文件更新**
 
-已新增有關 SMS 連接器通訊協定和設定的新技術。[瞭解詳情](https://helpx.adobe.com/tw/campaign/kb/sms-connector-protocol-and-settings.html)
+已新增有關 SMS 連接器通訊協定和設定的新技術。[瞭解詳情](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html)
 
 更新 Experience Manager 與 Adobe Campaign 檔案的整合。[瞭解詳情](../../reporting/using/creating-a-custom-profile-dimension.md)
 
@@ -643,7 +643,7 @@ GDPR：核心服務整合 – [瞭解詳情](https://docs.campaign.adobe.com/doc
 
 多語言推播傳送 – [瞭解詳情](../../channels/using/creating-a-multilingual-push-notification.md)
 
-在交易式訊息傳遞中使用自訂資源 – [瞭解詳情](../../administration/using/configuring-transactional-messaging.md)
+在交易式訊息傳遞中使用自訂資源 – [瞭解詳情](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)
 
 **此版本隨附的其他文件更新**
 
@@ -651,7 +651,7 @@ GDPR API 會重新分組可自動處理 GDPR 要求的功能。[瞭解詳情](..
 
 已新增有關如何設定登錄頁面，讓收件者能夠列入封鎖清單的資訊。[瞭解詳情](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
-已重新整理[設定交易式訊息](../../administration/using/configuring-transactional-messaging.md)區段，而且已新增[逐步使用案例](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message)。
+已重新整理[設定交易式訊息](../../channels/using/configuring-transactional-event.md)區段，而且已新增[逐步使用案例](../../channels/using/transactional-messaging-use-case.md)。
 
 新增技術，瞭解如何產生多語言 CSV 檔案以用於推播通知。[瞭解詳情](https://helpx.adobe.com/tw/campaign/kb/acs-generate-csv-multilingual-push.html)。
 
@@ -767,7 +767,7 @@ API Signal 活動觸發 – [瞭解詳情](../../api/using/triggering-a-signal-a
 
 已新增技術，說明行動應用程式中接收的裝載結構。[瞭解詳情。](https://helpx.adobe.com/tw/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html)
 
-在 Adobe Mobile Services 介面中定義回傳時，「推播」通道設定[區段](https://helpx.adobe.com/tw/campaign/kb/configuring-app-sdkv4.html)已隨作業系統版本上的新裝載資料更新。
+在 Adobe Mobile Services 介面中定義回傳時，「推播」通道設定[區段](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)已隨作業系統版本上的新裝載資料更新。
 
 SMS 檔案已更新，[SMS 自動回覆](../../channels/using/managing-incoming-sms.md#managing-stop-sms)區段已新增一些說明。
 
@@ -863,7 +863,7 @@ Adobe Campaign 通知 – [瞭解詳情](../../administration/using/sending-inte
 
 已更新所有螢幕擷取畫面以反映介面的變更。
 
-現在有新技術可用：「將 Adobe Mobile SDK 與行動應用程式整合」。[瞭解詳情](https://helpx.adobe.com/tw/campaign/kb/integrate-mobile-sdk.html)
+現在有新技術可用：「將 Adobe Mobile SDK 與行動應用程式整合」。[瞭解詳情](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html)
 
 新增了設定 People 核心服務或 Audience Manager 與 Adobe Campaign 整合的說明。[顯示全文](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
@@ -893,9 +893,9 @@ Dreamweaver 整合即時 – [瞭解詳情](https://docs.adobe.com/content/help/
 
 現在動態報告可使用報告指標計算，包括完整說明和計算公式。[瞭解詳情](../../reporting/using/indicator-calculation.md)
 
-關於 Adobe Mobile Services 設定的新專屬區段，以在 Adobe Campaign 中使用推播通知和 Point of Interest 資料。[瞭解詳情](https://helpx.adobe.com/tw/campaign/kb/configuring-app-sdkv4.html)
+關於 Adobe Mobile Services 設定的新專屬區段，以在 Adobe Campaign 中使用推播通知和 Point of Interest 資料。[瞭解詳情](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
 
-已更新行動應用程式設定和實作區段，包括設定和傳送推播通知的更詳細步驟。[瞭解詳情](https://helpx.adobe.com/tw/campaign/kb/configuring-app-sdkv4.html)
+已更新行動應用程式設定和實作區段，包括設定和傳送推播通知的更詳細步驟。[瞭解詳情](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
 
 已更新如何在 Campaign 中處理影像的區段。[瞭解詳情](../../designing/using/images.md#setting-up-image-properties)
 
@@ -907,7 +907,7 @@ Dreamweaver 整合即時 – [瞭解詳情](https://docs.adobe.com/content/help/
 
 動態報告 – [瞭解詳情](../../reporting/using/about-dynamic-reports.md)
 
-Dreamweaver 整合 (Labs)– [瞭解詳情](https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.translate.html)
+Dreamweaver 整合 (Labs)– [瞭解詳情](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
 
 手動傳送時間最佳化 – [瞭解詳情](../../sending/using/optimizing-the-sending-time.md)
 
@@ -937,7 +937,7 @@ REST API 中的連結資源 – [瞭解詳情](../../developing/using/updating-t
 
 Transactional Messaging API – [瞭解詳情](../../api/using/get-started-apis.md)
 
-交易式訊息的行銷功能 – [瞭解詳情](../../channels/using/profile-transactional-messages.md)
+交易式訊息的行銷功能- [閱讀更多](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities)
 
 **此版本隨附的其他文件更新**
 

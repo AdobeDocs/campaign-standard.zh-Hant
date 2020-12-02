@@ -7,10 +7,10 @@ audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 translation-type: tm+mt
-source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
+source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 21%
+source-wordcount: '517'
+ht-degree: 22%
 
 ---
 
@@ -72,11 +72,10 @@ Adobe Campaign可讓您跨各個通道啟動、衡量和自動化宣傳活動。
 
 顯示全文:
 
+* [關於交易式傳訊](../../channels/using/getting-started-with-transactional-msg.md)
 * [開始使用交易式訊息](../../channels/using/getting-started-with-transactional-msg.md)
-* [設定交易事件](../../channels/using/configuring-transactional-event.md)
-* [發佈交易事件](../../channels/using/publishing-transactional-event.md)
-* [編輯事務性消息](../../channels/using/editing-transactional-message.md)
-* [發佈交易式訊息](../../channels/using/publishing-transactional-message.md)
+* [事件交易式訊息](../../channels/using/event-transactional-messages.md)
+* [設定檔交易式訊息](../../channels/using/profile-transactional-messages.md)
 * [交易式推播通知](../../channels/using/transactional-push-notifications.md)
 * [後續訊息](../../channels/using/follow-up-messages.md)
 

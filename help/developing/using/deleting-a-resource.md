@@ -7,9 +7,9 @@ audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '242'
 ht-degree: 14%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 14%
 
 # 刪除資源{#deleting-a-resource}
 
-要刪除資源，相關資源必須是 **[!UICONTROL Draft]**。 如果滿足以下條件，則資 **[!UICONTROL Draft]** 源處於狀態：
+要刪除資源，相關資源必須是&#x200B;**[!UICONTROL Draft]**。 如果：**[!UICONTROL Draft]**
 
 * 它剛剛建立，尚未發佈。
 * 如果已經發佈，則必須重新起草資源。
@@ -43,13 +43,13 @@ ht-degree: 14%
 
    >[!NOTE]
    >
-   >如果重新繪製現成可用的配置檔案（配置檔案）資源的擴展，則還必須重新繪製您可能已定義的 **Test配置檔案(seedMember)****** 。 如需擴充描述檔資源的詳細資訊，請參 [閱本節](../../developing/using/extending-the-profile-resource-with-a-new-field.md)。
+   >如果您重新繪製現成可用的&#x200B;**描述檔（描述檔）**&#x200B;資源的擴展，則還必須重新繪製您已定義的任何&#x200B;**測試描述檔(seedMember)**&#x200B;擴展。 有關擴展配置檔案資源的詳細資訊，請參閱[本節](../../developing/using/extending-the-profile-resource-with-a-new-field.md)。
 
-1. 發佈資源。 如需詳細步驟，請參閱 [發佈自訂資源](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)。
+1. 發佈資源。 有關更詳細的步驟，請參閱[發佈自訂資源](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)。
 
-   然後，資源會進入 **Draft** （草稿）模式，其啟動狀態為 **[!UICONTROL Inactive]**。
+   然後，資源進入&#x200B;**Draft**&#x200B;模式，其激活狀態為&#x200B;**[!UICONTROL Inactive]**。
 
-1. 在模 **[!UICONTROL List]** 式中，檢查要刪除的資源，然後按一下 ![](assets/delete_darkgrey-24px.png) 圖 **[!UICONTROL Delete element]** 標。
+1. 在&#x200B;**[!UICONTROL List]**&#x200B;模式中，檢查要刪除的資源，然後按一下![](assets/delete_darkgrey-24px.png) **[!UICONTROL Delete element]**&#x200B;表徵圖。
 
    ![](assets/schema_extension_uc28.png)
 
@@ -57,5 +57,4 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->如果修改或刪除用於事件之自訂資源的欄位，則相對應的事件將會自動取消發佈。See [Configuring transactional messaging](../../administration/using/configuring-transactional-messaging.md).
-
+>如果修改或刪除用於事件之自訂資源的欄位，則相對應的事件將會自動取消發佈。請參閱[取消發佈事務性事件](../../channels/using/publishing-transactional-event.md#unpublishing-an-event)。

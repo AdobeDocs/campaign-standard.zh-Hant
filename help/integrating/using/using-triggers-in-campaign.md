@@ -7,10 +7,10 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 87%
+source-wordcount: '727'
+ht-degree: 85%
 
 ---
 
@@ -45,21 +45,21 @@ ht-degree: 87%
 
    ![](assets/remarketing_4.png)
 
-1. 您現在可以發佈觸發器。 如需詳細資訊，請參閱「 [在促銷活動中發佈觸發器」](../../integrating/using/using-triggers-in-campaign.md#publishing-trigger-in-campaign)。
+1. 您現在可以發佈觸發器。 如需詳細資訊，請參閱[在Campaign](../../integrating/using/using-triggers-in-campaign.md#publishing-trigger-in-campaign)中發佈觸發器。
 
-## 在Campaign中發佈觸發器 {#publishing-trigger-in-campaign}
+## 在促銷活動{#publishing-trigger-in-campaign}中發佈觸發器
 
 根據現有的Adobe Experience Cloud觸發器在Adobe Campaign中建立觸發器事件後，您現在需要發佈它。
 
-1. 在您先前建立的觸發器中，按一下 **[!UICONTROL Publish]** 按鈕以開始發佈觸發器事件。
+1. 在您先前建立的觸發器中，按一下&#x200B;**[!UICONTROL Publish]**&#x200B;按鈕以開始發佈觸發器事件。
 
    ![](assets/trigger_publish_1.png)
 
-1. 您可以在下查看觸發器發佈的進度 **[!UICONTROL Publication]**。
+1. 您可以在&#x200B;**[!UICONTROL Publication]**&#x200B;下檢查觸發器發佈的進度。
 
    ![](assets/trigger_publish_2.png)
 
-1. 發佈完成後，下列訊息會出現在下方 **[!UICONTROL Publication]**。
+1. 發佈完成後，**[!UICONTROL Publication]**&#x200B;下將顯示以下消息。
 
    ![](assets/trigger_publish_3.png)
 
@@ -69,7 +69,7 @@ ht-degree: 87%
 
    ![](assets/trigger_publish_4.png)
 
-1. Click **[!UICONTROL Show Trigger in Experience Cloud]** button allows you to view the trigger definition in Adobe Experience Cloud.
+1. 按一下&#x200B;**[!UICONTROL Show Trigger in Experience Cloud]**&#x200B;按鈕可讓您在Adobe Experience Cloud中檢視觸發器定義。
 
 發佈事件之後，就會自動建立連結至新事件的交易式範本。之後，您必須修改並發佈剛建立的範本。如需詳細資訊，請參閱[編輯範本](../../start/using/marketing-activity-templates.md)一節。
 
@@ -77,7 +77,7 @@ ht-degree: 87%
 
 在您建立並發佈觸發程式事件後，即會自動建立相對應的交易式範本。如需詳細資訊，請參閱[在 Campaign 中建立對應觸發程式](#creating-a-mapped-trigger-in-campaign)一節。
 
-為了讓事件觸發傳送交易式訊息，您必須個人化訊息，然後測試之後再發佈訊息。這些步驟與標準交易式訊息的步驟相同。如需詳細資訊，請參閱[交易式範本](../../channels/using/event-transactional-messages.md#personalizing-a-transactional-message)一節。
+為了讓事件觸發傳送交易式訊息，您必須個人化訊息，然後測試之後再發佈訊息。這些步驟與標準交易式訊息的步驟相同。有關詳細資訊，請參閱[編輯事務性消息](../../channels/using/editing-transactional-message.md)部分。
 
 >[!NOTE]
 >

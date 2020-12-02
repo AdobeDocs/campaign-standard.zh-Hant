@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
+source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
 workflow-type: tm+mt
 source-wordcount: '5402'
 ht-degree: 4%
@@ -327,7 +327,7 @@ _自訂資源_
     <ul> 
      <li> 利用自訂欄位做為協調標準，將交易訊息與描述檔相符 </li> 
      <li> 利用完整的個人檔案、服務和連結資料，進一步個人化交易訊息 </li> 
-    </ul> 如需詳細資訊，請參閱<a href="../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content">相關的文件</a>，以瞭解詳情。<br /> </td> 
+    </ul> 如需詳細資訊，請參閱<a href="../../administration/using/configuring-transactional-messaging.md">相關的文件</a>，以瞭解詳情。<br /> </td> 
   </tr> 
  </tbody> 
 </table>

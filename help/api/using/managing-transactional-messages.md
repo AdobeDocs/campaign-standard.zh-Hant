@@ -7,10 +7,10 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
 workflow-type: tm+mt
-source-wordcount: '711'
-ht-degree: 1%
+source-wordcount: '678'
+ht-degree: 3%
 
 ---
 
@@ -19,18 +19,18 @@ ht-degree: 1%
 
 ## 關於交易式訊息傳送
 
-建立事件後，您必須將此事件的觸發整合至您的網站。
+建立並發佈交易事件後，您必須將觸發此事件整合到您的網站中。
 
 >[!NOTE]
 >
->建立和發佈事件會顯示在「促銷活 [動」檔案中](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html)。
+>設定事件會顯示在[本節](../../channels/using/configuring-transactional-event.md)中。
 
 例如，您希望當客戶在購物車中購買產品之前離開您的網站時，觸發「購物車放棄」事件。 若要這麼做，您的網頁開發人員必須使用REST交易訊息API。
 
-1. 開發人員根據POST方法傳送請求，觸發事 [務事件的傳送](#sending-a-transactional-event)。
-1. 對POST要求的回應包含主要金鑰，可讓開發人員透過GET要求傳送一或多個要求。 這樣，他就可以獲得事件 [狀態](#transactional-event-status)。
+1. 開發人員根據POST方法發送請求，該方法觸發事務事件[的發送。](#sending-a-transactional-event)
+1. 對POST要求的回應包含主要金鑰，可讓開發人員透過GET要求傳送一或多個要求。 這樣，他能夠獲得[事件狀態](#transactional-event-status)。
 
-## 傳送交易事件 {#sending-a-transactional-event}
+## 傳送事務性事件{#sending-a-transactional-event}
 
 事務性事件是透過具有下列URL結構的POST要求傳送：
 
@@ -38,9 +38,9 @@ ht-degree: 1%
 POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 ```
 
-* **&lt;ORGANIZATION>**:您的個人組織ID。 請參閱[本區段](../../api/using/must-read.md)。
+* **&lt;organization>**:您的個人組織ID。請參閱[本區段](../../api/using/must-read.md)。
 
-* **&lt;transactionalAPI>**:交易訊息API endPoints。
+* **&lt;transactionalapi>**:交易訊息API endPoints。
 
    事務性消息API端點的名稱取決於實例配置。 它對應於值&quot;mc&quot;後跟您的個人組織ID。 讓我們以Geometrixx公司為例，其組織ID為&quot;geometrixx&quot;。 在這種情況下，開機自檢要求如下：
 
@@ -48,13 +48,13 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
    （請注意，交易訊息API端點也會在API預覽期間顯示）
 
-* **&lt;eventID>**:您要傳送的事件類型。 此ID是在建立事件定義時產生。 請參閱促銷活 [動檔案](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html)。
+* **&lt;eventid>**:您要傳送的事件類型。此ID是在建立事件設定時產生（請參閱[本節](../../channels/using/configuring-transactional-event.md#creating-an-event)）。
 
 ### POST請求標題
 
 請求必須包含「內容類型：application/json」標題。
 
-您必須新增字元集，例如 **utf-8**。 請注意，此值取決於您使用的REST應用程式。
+您必須新增字元集，例如&#x200B;**utf-8**。 請注意，此值取決於您使用的REST應用程式。
 
 ```
 -X POST \
@@ -67,11 +67,11 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
 ### POST請求正文
 
-事件資料包含在JSON POST內文中。 事件結構取決於其定義。 資源定義畫面中的API預覽按鈕提供請求範例。 請參閱促銷活 [動檔案](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html)。
+事件資料包含在JSON POST內文中。 事件結構取決於其定義。 資源定義畫面中的API預覽按鈕提供請求範例。 請參閱[本區段](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)。
 
 可以將下列可選參數添加到事件內容中，以管理連結到事件的事務性消息的發送：
 
-* **到期** （可選）:在此日期之後，事務性事件的傳送將被取消。
+* **expiration** （可選）:在此日期之後，事務性事件的傳送將被取消。
 * **scheduled** （可選）:從此日期開始，將處理事務性事件併發送事務性消息。
 
 >[!NOTE]
@@ -132,13 +132,13 @@ POST要求傳送事件。
 }
 ```
 
-### 交易事件狀態 {#transactional-event-status}
+### 事務性事件狀態{#transactional-event-status}
 
 在回應中，「狀態」欄位可讓您知道事件是否已處理：
 
 * **待定**:事件擱置中——事件在剛觸發時進入此狀態。
 * **處理**:事件正在等待傳送——它正被轉換為訊息並傳送訊息。
-* **暫停**:正在暫停事件進程。 它不再處理，但會保留在Adobe Campaign資料庫的佇列中。 For more on this, refer to the [Campaign documentation](https://helpx.adobe.com/campaign/standard/channels/using/event-transactional-messages.html#unpublishing-a-transactional-message).
+* **暫停**:正在暫停事件進程。它不再處理，但會保留在Adobe Campaign資料庫的佇列中。 如需詳細資訊，請參閱[本章節](../../channels/using/publishing-transactional-message.md#suspending-a-transactional-message-publication)。
 * **已處理**:已處理事件並成功傳送訊息。
 * **忽略**:傳送會忽略事件，通常是在隔離地址時。
 * **deliveryFailed**:處理事件時發生傳送錯誤。

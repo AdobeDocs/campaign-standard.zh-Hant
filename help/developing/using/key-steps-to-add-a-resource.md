@@ -7,7 +7,7 @@ audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 translation-type: tm+mt
-source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
+source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 47%
@@ -25,7 +25,7 @@ ht-degree: 47%
 1. [設定篩選定義](../../developing/using/configuring-filter-definition.md)
 1. [更新資料庫結構](../../developing/using/updating-the-database-structure.md)
 
->[!IMPORTANT]
+>[!CAUTION]
 >
 >建立和修改資源是敏感操作，僅由專家使用者執行。
 
@@ -34,3 +34,4 @@ ht-degree: 47%
 >[!VIDEO](https://video.tv.adobe.com/v/27715?quality=9&captions=eng)
 
 其他Campaign Standard操作說明影片可在[這裡](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant)取得。
+

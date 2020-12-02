@@ -7,7 +7,7 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 translation-type: tm+mt
-source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
+source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 5%
@@ -50,7 +50,7 @@ Adobe Campaign提供數種電子郵件編寫選項。 您可以使用Dreamweaver
 >title="使用產品清單"
 >abstract="產品清單可讓您參考資料收集並顯示在電子郵件內容中。"
 
-產品清單可讓您參考電子郵件內容中的一或多個資料集合。 這些清單可用於交易電子郵件。 此功能的專用部分[此處](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message)。
+產品清單可讓您參考電子郵件內容中的一或多個資料集合。 這些清單可用於交易電子郵件。 此功能的專用部分[此處](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)。
 
 ## 電子郵件設計選項比較{#email-design-options-comparison}
 

@@ -7,7 +7,7 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 translation-type: tm+mt
-source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
+source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 5%
@@ -50,7 +50,7 @@ Adobe Campaign提供數種電子郵件編寫選項。 您可以使用Dreamweaver
 >title="使用產品清單"
 >abstract="產品清單可讓您參考資料收集並顯示在電子郵件內容中。"
 
-產品清單可讓您參考電子郵件內容中的一或多個資料集合。 這些清單可用於交易電子郵件。 此功能的專用部分[此處](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)。
+產品清單可讓您參考電子郵件內容中的一或多個資料集合。 這些清單可用於交易電子郵件。 此功能的專用部分[此處](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message)。
 
 ## 電子郵件設計選項比較{#email-design-options-comparison}
 
@@ -148,7 +148,7 @@ Adobe Campaign提供數種電子郵件編寫選項。 下表顯示了每種方�
    <td> <strong>若要進一步瞭解</strong><br /> </td> 
    <td> 請參閱<a href="../../designing/using/designing-content-in-adobe-campaign.md">關於電子郵件設計器</a>。<br /> </td> 
    <td> 請參閱<a href="../../integrating/using/integrating-with-experience-manager.md">與Experience Manager</a>整合。<br /> </td> 
-   <td> 請參閱<a href="https://helpx.adobe.com/tw/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver和Campaign</a>並觀賞此<a href="#video">影片</a>。<br /> </td> 
+   <td> 請參閱<a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver和Campaign</a>並觀賞此<a href="#video">影片</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>

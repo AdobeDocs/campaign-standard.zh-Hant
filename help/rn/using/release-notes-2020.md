@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
+source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
 workflow-type: tm+mt
 source-wordcount: '2945'
 ht-degree: 99%
@@ -19,7 +19,7 @@ ht-degree: 99%
 
 [發行計畫](https://helpx.adobe.com/tw/campaign/kb/acs-release-planning.html) | [控制面板版本](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/release-notes.html) | [文件更新](../../rn/using/documentation-updates.md) | [先前的發行版本](../../rn/using/release-notes-2019.md) | [已過時的功能](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html)
 
-![](assets/do-not-localize/cp-icon.png) **新的控制面板 6 月版本**，包含作用中設定檔監控、子網域傳遞送能力稽核及 GPG 金鑰管理。[進一步瞭解](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/release-notes.html)。
+![](assets/do-not-localize/cp-icon.png) **新的控制面板 6 月版本**，包含作用中設定檔監控、子網域傳遞送能力稽核及 GPG 金鑰管理。[進一步瞭解](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)。
 
 ## 版本 20.3 - 2020 年 5 月{#release-20-3---may-2020}
 
@@ -123,7 +123,7 @@ ht-degree: 99%
 * 修正使用者無法變更報告的錯誤。(CAMP-42505)
 
 
-![](assets/do-not-localize/cp-icon.png) **新的控制面板可能會與 CNAME 子網域發行**&#x200B;憑證續約。[進一步瞭解](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/release-notes.html)。
+![](assets/do-not-localize/cp-icon.png) **新的控制面板可能會與 CNAME 子網域發行**&#x200B;憑證續約。[進一步瞭解](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)。
 
 ## 版本 20.2 – 2020 年 4 月 {#release-20-2---april-2020}
 
@@ -161,7 +161,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->新功能將於 4 月在「Campaign 控制面板」中發佈，包括 Google TXT 記錄管理、資料庫空間監控和電子郵件警報。有關這些功能的詳細資訊，請參閱[控制面板發行說明](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/release-notes.html)。
+>新功能將於 4 月在「Campaign 控制面板」中發佈，包括 Google TXT 記錄管理、資料庫空間監控和電子郵件警報。有關這些功能的詳細資訊，請參閱[控制面板發行說明](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)。
 
 **改進**
 
@@ -203,7 +203,7 @@ ht-degree: 99%
 
 * 修正在 **Alias** 欄位中新增空格後，接著建立新列項目時，**擴充**&#x200B;工作流程活動可能發生的問題。(CAMP-39229)
 * 修正傳送證明訊息時，每個測試設定檔都可定位的問題。
-* 修正取消發佈和刪除事件設定後發生的問題。[瞭解詳情](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
+* 修正取消發佈和刪除事件設定後發生的問題。[瞭解詳情](../../channels/using/publishing-transactional-event.md#deleting-an-event)
 * 修正變更工作流程時 **Save** 按鈕消失的問題。
 * 修正在 Campaign 處理後手動刪除隱私權要求時，即使在清除後，與要求相關的資料也無法刪除的問題。
 * 修正預覽或傳送包含 Adobe Experience Manager 特殊字元之訊息時可能發生的問題。

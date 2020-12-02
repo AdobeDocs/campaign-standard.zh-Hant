@@ -7,10 +7,10 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 translation-type: tm+mt
-source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
+source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 3%
+source-wordcount: '711'
+ht-degree: 1%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 3%
 
 ## 關於交易式訊息傳送
 
-建立並發佈交易事件後，您必須將觸發此事件整合到您的網站中。
+建立事件後，您必須將此事件的觸發整合至您的網站。
 
 >[!NOTE]
 >
->設定事件會顯示在[本節](../../channels/using/configuring-transactional-event.md)中。
+>建立和發佈事件會顯示在[促銷活動檔案](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html)中。
 
 例如，您希望當客戶在購物車中購買產品之前離開您的網站時，觸發「購物車放棄」事件。 若要這麼做，您的網頁開發人員必須使用REST交易訊息API。
 
@@ -48,7 +48,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
    （請注意，交易訊息API端點也會在API預覽期間顯示）
 
-* **&lt;eventid>**:您要傳送的事件類型。此ID是在建立事件設定時產生（請參閱[本節](../../channels/using/configuring-transactional-event.md#creating-an-event)）。
+* **&lt;eventid>**:您要傳送的事件類型。此ID是在建立事件定義時產生。 請參閱[促銷活動檔案](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html)。
 
 ### POST請求標題
 
@@ -67,7 +67,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
 ### POST請求正文
 
-事件資料包含在JSON POST內文中。 事件結構取決於其定義。 資源定義畫面中的API預覽按鈕提供請求範例。 請參閱[本區段](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)。
+事件資料包含在JSON POST內文中。 事件結構取決於其定義。 資源定義畫面中的API預覽按鈕提供請求範例。 請參閱[促銷活動檔案](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html)。
 
 可以將下列可選參數添加到事件內容中，以管理連結到事件的事務性消息的發送：
 
@@ -138,7 +138,7 @@ POST要求傳送事件。
 
 * **待定**:事件擱置中——事件在剛觸發時進入此狀態。
 * **處理**:事件正在等待傳送——它正被轉換為訊息並傳送訊息。
-* **暫停**:正在暫停事件進程。它不再處理，但會保留在Adobe Campaign資料庫的佇列中。 如需詳細資訊，請參閱[本章節](../../channels/using/publishing-transactional-message.md#suspending-a-transactional-message-publication)。
+* **暫停**:正在暫停事件進程。它不再處理，但會保留在Adobe Campaign資料庫的佇列中。 如需詳細資訊，請參閱[促銷活動檔案](https://helpx.adobe.com/campaign/standard/channels/using/event-transactional-messages.html#unpublishing-a-transactional-message)。
 * **已處理**:已處理事件並成功傳送訊息。
 * **忽略**:傳送會忽略事件，通常是在隔離地址時。
 * **deliveryFailed**:處理事件時發生傳送錯誤。

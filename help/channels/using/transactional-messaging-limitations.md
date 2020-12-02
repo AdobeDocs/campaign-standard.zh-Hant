@@ -8,35 +8,35 @@ content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 840795064021688e25f8c9ae3c7150bcc1f085b1
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 87%
+source-wordcount: '637'
+ht-degree: 78%
 
 ---
 
 
-# 交易式訊息限制 {#transactional-messaging-limitations}
+# 事務性消息傳遞最佳實踐和限制{#transactional-messaging-limitations}
 
 <img src="assets/do-not-localize/icon_concepts.svg" width="60px">
 
-以下部分列出了在開始建立事務性消息之前應注意的限制。
+以下部分列出了在開始建立事務性消息之前應注意的最佳做法和限制。
 
-有關事務性消息的詳細資訊，包括如何配置和建立這些消息，請參 [閱事務性消息入門](../../channels/using/getting-started-with-transactional-msg.md)。
+<!--For more on transactional messages, including on how to configure and create them, see [Getting started with transactional messaging](../../channels/using/getting-started-with-transactional-msg.md).-->
 
 >[!IMPORTANT]
 >
->若要存取交易式訊息，您必須具有管理權限。
+>要訪問事務性消息，您必須具有[administration](../../administration/using/users-management.md#functional-administrators)權限。
 
-## 設計與發佈 {#design-and-publication}
+## 事件配置和發佈{#design-and-publication}
 
-在設計和發佈交易式訊息時，您需要執行的某些步驟無法還原。您必須注意下列限制：
+當您設定和發佈交易事件時，無法還原您需要執行的部分步驟。 您必須注意下列限制：
 
-* 每個事件設定只能使用一個通道。請參閱[建立事件](../../administration/using/configuring-transactional-messaging.md#creating-an-event)。
+* 每個事件設定只能使用一個通道。請參閱[建立事件](../../channels/using/configuring-transactional-event.md#creating-an-event)。
 * 事件建立後，便無法變更通道。因此，如果訊息未成功傳送，您需要設計機制，允許使用工作流程從其他通道傳送訊息。請參閱[工作流程資料和程序](../../automating/using/get-started-workflows.md)。
-* 在事件建立後，您無法變更目標維度 **[!UICONTROL Real-time event]** 或 **[!UICONTROL Profile]** ）。請參閱[建立事件](../../administration/using/configuring-transactional-messaging.md#creating-an-event)。
-* 無法回滾發佈，但可以取消發佈事件：此操作使事件和關聯的交易式訊息無法存取。請參閱[取消發佈事件](../../administration/using/configuring-transactional-messaging.md#unpublishing-an-event)。
-* 唯一可與事件關聯的交易式訊息是發佈該事件時自動建立的訊息。請參閱[預覽和發佈事件](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)。
+* 在事件建立後，您無法變更目標維度 **[!UICONTROL Real-time event]** 或 **[!UICONTROL Profile]** ）。請參閱[建立事件](../../channels/using/configuring-transactional-event.md#creating-an-event)。
+* 無法回滾發佈，但可以取消發佈事件：此操作使事件和關聯的交易式訊息無法存取。請參閱[取消發佈事件](../../channels/using/publishing-transactional-event.md#unpublishing-an-event)。
+* 唯一可與事件關聯的交易式訊息是發佈該事件時自動建立的訊息。請參閱[預覽和發佈事件](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)。
 
 ## 個人化{#personalization}
 
@@ -44,18 +44,20 @@ ht-degree: 87%
 
 ### 事件型交易訊息
 
-* 個人化資訊來自事件本身所包含的資料。請參閱[事件交易式訊息](../../channels/using/event-transactional-messages.md)。
-* You **cannot** use **[!UICONTROL Unsubscription link]** content blocks in an event transactional message.
-* 事件型交易式訊息應僅使用傳送事件中的資料來定義收件者和訊息內容個人化。不過，您可以使用 Adobe Campaign 資料庫的資訊，豐富您交易式訊息的內容。請參閱 [豐富交易式訊息內容](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content)。
-* 由於事件交易式訊息不包含配置設定檔資訊，因此它們與疲勞規則不相容，即使在擴充設定檔案的情況下也是如此。請參閱[疲勞規則](../../sending/using/fatigue-rules.md)。
+* 個人化資訊來自事件本身所包含的資料。請參閱[事件型事務性消息配置](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages)。
+* **cannot**&#x200B;不能在事件事務性消息中使用&#x200B;**[!UICONTROL Unsubscription link]**&#x200B;內容塊。
+* 事件型交易式訊息應僅使用傳送事件中的資料來定義收件者和訊息內容個人化。不過，您可以使用 Adobe Campaign 資料庫的資訊，豐富您交易式訊息的內容。請參閱[豐富事件](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)和[個人化事務性消息](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message)。
+* 由於事件交易式訊息不包含配置設定檔資訊，因此它們與疲勞規則不相容，即使在擴充設定檔案的情況下也是如此。
 
 ### 基於配置檔案的事務性消息
 
-* 個人化資訊可來自事件中包含的資料，或來自已調解的設定檔記錄。請參閱[設定檔交易式訊息](../../channels/using/profile-transactional-messages.md)。
-* You **can** use **[!UICONTROL Unsubscription link]** content blocks in a profile transactional message. 請參閱[新增內容區塊](../../designing/using/personalization.md#adding-a-content-block)。
+* 個人化資訊可來自事件中包含的資料，或來自已調解的設定檔記錄。請參閱[基於概要的事務性消息配置](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages)和[基於概要的事務性消息具體性](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities)。
+* 您&#x200B;**可以**&#x200B;在描述檔事務性訊息中使用&#x200B;**[!UICONTROL Unsubscription link]**&#x200B;內容區塊。 請參閱[新增內容區塊](../../designing/using/personalization.md#adding-a-content-block)。
 * 疲勞規則與設定檔交易式訊息相容。請參閱[疲勞規則](../../sending/using/fatigue-rules.md)。
 
-請注意，產品清單僅適用於交易電子郵件訊息。請參閱[在交易式訊息中使用產品清單](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)。
+### 產品清單
+
+請注意，產品清單僅適用於交易型&#x200B;**電子郵件訊息**。 請參閱[在交易式訊息中使用產品清單](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message)。
 
 ## 權限與品牌化 {#permissions-and-branding}
 
@@ -74,4 +76,4 @@ ht-degree: 87%
 ## 匯出和匯入交易式訊息 {#exporting-and-importing-transactional-messages}
 
 * 要匯出交易式訊息，在[建立封包匯出](../../automating/using/managing-packages.md#creating-a-package)時需要包含相應的事件配置。
-* 透過封包[匯入交易式訊息後](../../automating/using/managing-packages.md#importing-a-package)，交易式訊息清單中不會顯示該訊息。您需要[發佈事件設定](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)，才能使關聯的交易式訊息可用。
+* 透過封包[匯入交易式訊息後](../../automating/using/managing-packages.md#importing-a-package)，交易式訊息清單中不會顯示該訊息。您需要[發佈事件設定](../../channels/using/publishing-transactional-event.md)，才能使關聯的交易式訊息可用。

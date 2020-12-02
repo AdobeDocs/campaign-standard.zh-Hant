@@ -7,10 +7,10 @@ audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 22%
+source-wordcount: '524'
+ht-degree: 21%
 
 ---
 
@@ -32,9 +32,9 @@ Adobe Campaign可讓您跨各個通道啟動、衡量和自動化宣傳活動。
 
 <img src="assets/do-not-localize/icon_concepts.svg" width="60px">
 
-**運用「促銷活動訊息儀表板** 」，從單一位置設定和傳送訊息，並存取各種功能，例如排程、多語言訊息……
+**運用促銷活** 動訊息儀表板，從單一位置設定和傳送訊息，並存取各種功能，例如排程、多語言訊息……
 
-**管理範本** ，以設定訊息屬性，並讓您在傳訊策略中獲得時間與一致性。 例如，對於電子郵件，負責設定範本的功能管理員可以定義電子郵件的標準參數，例如對象、排程或內容、與傳送相關的進階參數、有效性、追蹤等，或與定位和個人化（定位內容）相關的預先設定參數。
+**管理** 範本以設定訊息屬性，並讓您在傳訊策略中獲得時間與一致性。例如，對於電子郵件，負責設定範本的功能管理員可以定義電子郵件的標準參數，例如對象、排程或內容、與傳送相關的進階參數、有效性、追蹤等，或與定位和個人化（定位內容）相關的預先設定參數。
 
 顯示全文:
 
@@ -52,7 +52,7 @@ Adobe Campaign可讓您跨各個通道啟動、衡量和自動化宣傳活動。
 
 對於每個通道，都提供特定功能。 例如，電子郵件渠道允許您執行A/B測試，以測試最多3個版本的電子郵件。 透過SMS頻道，管理STOP SMS訊息，並將收件者傳入的SMS儲存至您的資料庫。
 
-此外，您還可運用Campaign Standard個 **人化和動態內容功能** ，以吸引受眾的興趣。
+此外，運用Campaign Standard **個人化和動態內容功能**&#x200B;來擷取觀眾的興趣。
 
 顯示全文:
 
@@ -66,16 +66,17 @@ Adobe Campaign可讓您跨各個通道啟動、衡量和自動化宣傳活動。
 
 <img src="assets/do-not-localize/icon_transactional.svg" width="60px">
 
-**即時傳送個別且獨特的訊息** ，給您的客戶：歡迎訊息、訂單運送確認、密碼修改等。
+**即時傳送個** 別和獨特訊息給客戶：歡迎訊息、訂單運送確認、密碼修改等。
 
-交易式訊息可用於電子郵件、簡訊和推播通知通道，視您的選項而定。 消息類型有兩種： **事件事務性訊息** ，定位沒有描述檔資訊的事件，以 **及描述檔事務性訊息** ，定位您資料庫的描述檔。
+交易式訊息可用於電子郵件、簡訊和推播通知通道，視您的選項而定。 消息類型有兩種：**事件事務性消息**&#x200B;定位沒有配置檔案資訊的事件，以及&#x200B;**配置檔案事務性消息**&#x200B;定位資料庫中的配置檔案。
 
 顯示全文:
 
-* [關於交易式傳訊](../../channels/using/getting-started-with-transactional-msg.md)
 * [開始使用交易式訊息](../../channels/using/getting-started-with-transactional-msg.md)
-* [事件交易式訊息](../../channels/using/event-transactional-messages.md)
-* [設定檔交易式訊息](../../channels/using/profile-transactional-messages.md)
+* [設定交易事件](../../channels/using/configuring-transactional-event.md)
+* [發佈交易事件](../../channels/using/publishing-transactional-event.md)
+* [編輯事務性消息](../../channels/using/editing-transactional-message.md)
+* [發佈交易式訊息](../../channels/using/publishing-transactional-message.md)
 * [交易式推播通知](../../channels/using/transactional-push-notifications.md)
 * [後續訊息](../../channels/using/follow-up-messages.md)
 
@@ -83,9 +84,9 @@ Adobe Campaign可讓您跨各個通道啟動、衡量和自動化宣傳活動。
 
 <img src="assets/do-not-localize/icon_landing.svg" width="60px">
 
-Campaign隨附著著陸頁面，這些網頁表單可用來擷取 **受眾的資訊**、提供服務訂閱、顯示資料及擴充資料庫。
+Campaign隨附著著陸頁面，這些網頁表單可用來&#x200B;**擷取您的觀眾的相關資訊**、提供服務訂閱、顯示資料並擴充您的資料庫。
 
-著陸頁面也可用來取 **得或更新現有的描述檔**，並設定雙重選擇加入機制，讓您保護平台不受錯誤或無效的電子郵件地址或垃圾郵件機器人。
+著陸頁面也可用於&#x200B;**取得或更新現有的描述檔**，並設定雙重加入機制，讓您保護平台不受錯誤或無效的電子郵件地址或垃圾郵件機器人。
 
 顯示全文:
 

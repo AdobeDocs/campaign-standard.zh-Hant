@@ -7,7 +7,7 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 translation-type: tm+mt
-source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
+source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
 workflow-type: tm+mt
 source-wordcount: '2573'
 ht-degree: 3%
@@ -167,7 +167,7 @@ Adobe Campaign提供預先設定的內容區塊清單。 這些內容區塊是�
 
 事實上，在編輯訊息時，您只能選擇具有與訊息定位維度相容之定位維度的內容區塊。
 
-例如，**[!UICONTROL Unsubscription link]**&#x200B;區塊的定位維度是&#x200B;**[!UICONTROL Profiles]**，因為它包含特定於&#x200B;**[!UICONTROL Profiles]**&#x200B;資源的個人化欄位。 因此，您不能在[事件事務性消息](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types)中使用&#x200B;**[!UICONTROL Unsubscription link]**&#x200B;塊，因為該類型消息的目標維度為&#x200B;**[!UICONTROL Real-time events]**。 但是，您可以在[描述檔事務性訊息](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types)中使用&#x200B;**取消訂閱連結**&#x200B;區塊，因為該類型訊息的定位維度是&#x200B;**描述檔**。 最後，**[!UICONTROL Link to mirror page]**&#x200B;區塊沒有定位維度，因此您可以在任何訊息中使用它。
+例如，**[!UICONTROL Unsubscription link]**&#x200B;區塊的定位維度是&#x200B;**[!UICONTROL Profiles]**，因為它包含特定於&#x200B;**[!UICONTROL Profiles]**&#x200B;資源的個人化欄位。 因此，您不能在[事件事務性消息](../../channels/using/event-transactional-messages.md)中使用&#x200B;**[!UICONTROL Unsubscription link]**&#x200B;塊，因為該類型消息的目標維度為&#x200B;**[!UICONTROL Real-time events]**。 但是，您可以在[描述檔事務性訊息](../../channels/using/profile-transactional-messages.md)中使用&#x200B;**取消訂閱連結**&#x200B;區塊，因為該類型訊息的定位維度是&#x200B;**描述檔**。 最後，**[!UICONTROL Link to mirror page]**&#x200B;區塊沒有定位維度，因此您可以在任何訊息中使用它。
 
 如果您將此欄位保留為空白，則無論定位維度為何，內容區塊都會與所有訊息相容。 如果您設定定位維度，該區塊將僅與具有相同定位維度的訊息相容。
 
@@ -283,63 +283,63 @@ Adobe Campaign可讓您根據特定標準或使用追蹤，個人化訊息中的
 
 >[!CAUTION]
 >
->在準備好消息後，在發送消息之前，請使用證明對其進行測試。 如果不執行此操作，則可能未檢測到某些錯誤，並且可能未發送電子郵件。
+>在您準備好訊息後，在傳送訊息之前，請使用證明加以測試。 如果您不這麼做，則可能無法偵測到某些錯誤，且可能無法傳送電子郵件。
 
 **相關主題：**
 
 * [傳送校樣](../../sending/using/sending-proofs.md)
 * [進階運算式編輯](../../automating/using/editing-queries.md#about-query-editor)
 
-### 優先順序順序{#order-of-priority}
+### 優先順序{#order-of-priority}
 
-在表達式編輯器中，定義動態內容時，優先順序順序如下。
+在運算式編輯器中，定義動態內容時，優先順序如下。
 
-1. 可以定義兩個不同的動態內容，其中&#x200B;**包含兩個不同的條件**，例如：
+1. 您使用&#x200B;**兩個不同的條件定義兩個不同的動態內容，例如：**
 
    **條件1:** 側寫的性別為男性，
 
-   **條件2:** 檔案在20到30歲之間。
+   **條件2:** 描述檔為20到30歲。
 
    ![](assets/delivery_content_61.png)
 
-   資料庫中的某些配置檔案符合這兩種情況，但只能發送一封包含一個動態內容的電子郵件。
+   您資料庫中的某些描述檔會對應這兩種情況，但只能傳送一封包含動態內容的電子郵件。
 
-1. 因此，必須定義動態內容的優先順序。 優先順序順序為&#x200B;**1**&#x200B;的條件（以及相應的動態內容）將被發送到配置檔案，即使優先順序順序為&#x200B;**2**&#x200B;或&#x200B;**3**&#x200B;的另一條件也由此配置檔案滿足。
+1. 因此，您必須定義動態內容的優先順序。 即使該配置式也滿足優先順序順序為&#x200B;**2**&#x200B;或&#x200B;**3**&#x200B;的其它條件，優先順序順序為&#x200B;**1**（以及相應的動態內容）的條件也被發送到配置式。
 
    ![](assets/delivery_content_62.png)
 
-每個動態內容只能定義一個優先順序順序。
+每個動態內容只能定義一個優先順序。
 
-## 示例：電子郵件個性化{#example-email-personalization}
+## 範例：電子郵件個人化{#example-email-personalization}
 
-在此示例中，營銷服務團隊的一名成員建立了一封電子郵件，通知他的一些客戶只有他們才有特別優惠。 團隊成員決定根據客戶各自的年齡對電子郵件進行個性化設定。 年齡在18歲至27歲之間的客戶將收到一封電子郵件，其中包含不同的影像和口號，這些客戶將收到27歲以上的客戶。
+在此範例中，行銷服務團隊的一名成員已建立電子郵件，通知部分客戶，只有他們有特別優惠。 該團隊成員決定根據客戶各自的年齡將電子郵件個人化。 18至27歲的客戶將收到一封電子郵件，其中包含不同的圖片和口號，給27歲以上的客戶。
 
 電子郵件的建立方式如下：
 
-* 將動態內容應用到影像，並且根據年齡範圍配置這些動態內容。
+* 動態內容被應用到影像，並且這些動態內容根據年齡範圍被配置。
 
    ![](assets/delivery_content_43.png)
 
-   在[定義電子郵件](#defining-dynamic-content-in-an-email)部分中詳細介紹了添加和配置動態內容。
+   在[定義電子郵件](#defining-dynamic-content-in-an-email)區段中的動態內容中，將詳述新增和設定動態內容。
 
-* 個性化欄位和動態內容被應用到文本。 根據配置檔案的年齡範圍，電子郵件以配置檔案的名稱或配置檔案的標題和姓氏開頭。
+* 個人化欄位和動態內容會套用至文字。 根據描述檔的年齡範圍，電子郵件會從描述檔的名字或描述檔的標題和姓氏開始。
 
    ![](assets/delivery_content_44.png)
 
-   在[插入個性化欄位](#inserting-a-personalization-field)部分中詳細介紹了添加和配置個性化欄位。
+   [插入個人化欄位](#inserting-a-personalization-field)區段中詳細說明了新增和設定個人化欄位。
 
 ### 配置映像{#configuring-images}
 
 >[!CONTEXTUALHELP]
 >id="ac_dynamic_image"
->title="管理動態映像"
->abstract="根據您將要定義的條件，使用動態影像個性化您的電子郵件。"
+>title="管理動態影像"
+>abstract="根據您要定義的條件，使用動態影像個人化您的電子郵件。"
 
-在本示例中，應用於影像的動態內容配置如下：
+在此範例中，套用至影像的動態內容設定如下：
 
-**針對18-27歲兒童：**
+**目標18-27歲：**
 
-1. 在&#x200B;**[!UICONTROL Properties]**&#x200B;調色板中選擇動態內容，然後按一下&#x200B;**[!UICONTROL Edit]**&#x200B;按鈕。
+1. 在&#x200B;**[!UICONTROL Properties]**&#x200B;浮動視窗中選取動態內容，然後按一下&#x200B;**[!UICONTROL Edit]**&#x200B;按鈕。
 
    ![](assets/delivery_content_48.png)
 
@@ -347,38 +347,38 @@ Adobe Campaign可讓您根據特定標準或使用追蹤，個人化訊息中的
 
    ![](assets/delivery_content_49.png)
 
-1. 選擇「大於或等於&#x200B;**」運算子，然後輸入** 18 **以建立早於18**&#x200B;的&#x200B;**表達式。**
+1. 選擇&#x200B;**大於或等於**&#x200B;運算子，然後輸入&#x200B;**18**&#x200B;以建立早於18 **運算式。**
 
    ![](assets/delivery_content_50.png)
 
-1. 添加新的&#x200B;**[!UICONTROL Age]**&#x200B;條件。
+1. 新增&#x200B;**[!UICONTROL Age]**&#x200B;條件。
 
-   在值欄位中，選擇&#x200B;**小於或等於**&#x200B;運算子後跟27以建立小於27 **的**&#x200B;表達式。
+   在值欄位中選擇&#x200B;**小於或等於**&#x200B;運算子後跟27以建立小於27 **的**&#x200B;表達式。
 
    ![](assets/delivery_content_51.png)
 
 1. 確認您的變更。
 
-**要針對27歲及以上的配置檔案：**
+**要定位27歲及以上的配置檔案，請執行以下操作：**
 
-1. 從調色板中選擇動態內容並對其進行編輯。
+1. 從浮動視窗中選取動態內容並加以編輯。
 1. 編輯標籤，然後從&#x200B;**[!UICONTROL Profile]**&#x200B;節點中選擇&#x200B;**[!UICONTROL Age]**&#x200B;欄位。
-1. 在值欄位中添加&#x200B;**大於**&#x200B;運算子後跟27，以建立早於27 **的**&#x200B;表達式。
+1. 在值欄位中新增&#x200B;**Greater than**&#x200B;運算子，後接27，以建立早於27 **的**&#x200B;運算式。
 
    ![](assets/delivery_content_52.png)
 
 1. 確認您的變更。
 
-您的動態內容已正確配置。
+您的動態內容已正確設定。
 
 ### 配置文本{#configuring-text}
 
-在本示例中，應用於文本的動態內容配置如下：
+在此範例中，套用至文字的動態內容設定如下：
 
-**要針對18-27之間的陳舊配置檔案：**
+**要定位18-27之間的過時配置檔案：**
 
 1. 選擇所需的結構元件並添加動態內容。
-1. 編輯動態內容並配置目標表達式。 請參閱[配置映像](#configuring-images)。
+1. 編輯動態內容並設定定位運算式。 請參閱[設定影像](#configuring-images)。
 1. 在結構元件中，在所需位置，按一下上下文工具欄中的&#x200B;**[!UICONTROL Personalize]**&#x200B;表徵圖並選擇&#x200B;**[!UICONTROL Insert personalization field]**。
 
    ![](assets/delivery_content_53.png)
@@ -387,41 +387,41 @@ Adobe Campaign可讓您根據特定標準或使用追蹤，個人化訊息中的
 
    ![](assets/delivery_content_54.png)
 
-1. 然後，您的個性化欄位將完全插入選定的動態內容中。
+1. 然後，您的個人化欄位會完美地插入所選動態內容。
 
-**要針對27歲及以上的配置檔案：**
+**要定位27歲及以上的配置檔案，請執行以下操作：**
 
 1. 選擇所需的結構元件並添加動態內容。
-1. 編輯動態內容並配置目標表達式。 請參閱[配置映像](#configuring-images)。
+1. 編輯動態內容並設定定位運算式。 請參閱[設定影像](#configuring-images)。
 1. 在結構元件中，在所需位置，按一下上下文工具欄中的&#x200B;**[!UICONTROL Personalize]**&#x200B;表徵圖並選擇&#x200B;**[!UICONTROL Insert personalization field]**。
 1. 從下拉清單中選擇&#x200B;**[!UICONTROL Title]**。
-1. 類似地繼續添加&#x200B;**[!UICONTROL Last name]**&#x200B;欄位。
+1. 以類似方式繼續，新增&#x200B;**[!UICONTROL Last name]**&#x200B;欄位。
 
    ![](assets/delivery_content_56.png)
 
-您的個性化欄位現在應完美地插入到所選的動態內容中。
+您的個人化欄位現在應完美地插入所選動態內容。
 
 ### 預覽電子郵件{#previewing-emails}
 
-預覽允許您在發送&#x200B;**[!UICONTROL Proofs]**&#x200B;之前檢查個性化欄位和動態內容是否配置正確。 在預覽期間，您可以選擇與電子郵件目標對應的不同測試配置檔案。
+預覽可讓您在傳送&#x200B;**[!UICONTROL Proofs]**&#x200B;之前，檢查個人化欄位和動態內容是否已正確設定。 在預覽期間，您可以選取與電子郵件目標對應的不同測試設定檔。
 
-如果沒有測試配置檔案，預設顯示的電子郵件為：
+若沒有測試設定檔，預設會顯示的電子郵件為：
 
 ![](assets/delivery_content_45.png)
 
-該電子郵件在口號中沒有個性化欄位，並且使用預設影像。
+電子郵件的口號中沒有個人化欄位，而且會使用預設影像。
 
-第一測試簡檔對應於年齡在18到27歲之間的客戶。 通過選擇此配置檔案，將顯示以下電子郵件：
+第一測試簡檔對應於年齡在18到27歲之間的客戶。 選取此描述檔後，會顯示下列電子郵件：
 
 ![](assets/delivery_content_46.png)
 
-與18-27年前的表達式（特別是配置檔案的名稱）對應的個性化欄位被正確配置，並且影像也根據配置檔案而改變。
+對應於18-27歲運算式的個人化欄位，尤其是描述檔的名字，已正確設定，而且影像也已根據描述檔而變更。
 
-第二個配置檔案對應於年齡超過27歲的客戶端，並生成以下電子郵件：
+第二個描述檔對應於年齡超過27歲的客戶，並產生下列電子郵件：
 
 ![](assets/delivery_content_47.png)
 
-影像因為動態內容而發生了改變，而出現的口號正是為這個目標公眾定義的更正式的口號。
+由於動態內容，影像已經變更，而出現的口號正是針對此目標公眾所定義的更正式口號。
 
 **相關主題：**
 

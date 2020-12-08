@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
+source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
 workflow-type: tm+mt
-source-wordcount: '2945'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -203,7 +203,7 @@ ht-degree: 99%
 
 * 修正在 **Alias** 欄位中新增空格後，接著建立新列項目時，**擴充**&#x200B;工作流程活動可能發生的問題。(CAMP-39229)
 * 修正傳送證明訊息時，每個測試設定檔都可定位的問題。
-* 修正取消發佈和刪除事件設定後發生的問題。[瞭解詳情](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
+* 修正取消發佈和刪除事件設定後發生的問題。[瞭解詳情](../../channels/using/publishing-transactional-event.md#deleting-an-event)
 * 修正變更工作流程時 **Save** 按鈕消失的問題。
 * 修正在 Campaign 處理後手動刪除隱私權要求時，即使在清除後，與要求相關的資料也無法刪除的問題。
 * 修正預覽或傳送包含 Adobe Experience Manager 特殊字元之訊息時可能發生的問題。

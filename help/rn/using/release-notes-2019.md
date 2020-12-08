@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
+source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
 workflow-type: tm+mt
 source-wordcount: '7623'
 ht-degree: 8%
@@ -539,7 +539,7 @@ ht-degree: 8%
   </tr> 
   <tr> 
    <td> 交易電子郵件中的產品清單<br /> </td> 
-   <td> <p>您現在可以在交易電子郵件訊息中參考一或多個產品集合。 例如，您可以自動傳送購物車放棄電子郵件，列出使用者購物車中包含影像、價格和每個產品的連結的所有產品。</p><p>如需詳細資訊，請參閱<a href="../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message">詳細文件</a>及<a href="https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.translate.html">作法影片</a>。</p> </td> 
+   <td> <p>您現在可以在交易電子郵件訊息中參考一或多個產品集合。 例如，您可以自動傳送購物車放棄電子郵件，列出使用者購物車中包含影像、價格和每個產品的連結的所有產品。</p><p>如需詳細資訊，請參閱<a href="../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message">詳細文件</a>及<a href="https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.translate.html">作法影片</a>。</p> </td> 
   </tr> 
   <tr> 
    <td> 電子郵件設計器中的Mobile View<br /> </td> 

@@ -7,7 +7,7 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 translation-type: tm+mt
-source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
+source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
 workflow-type: tm+mt
 source-wordcount: '2573'
 ht-degree: 3%
@@ -167,7 +167,7 @@ Adobe Campaign提供預先設定的內容區塊清單。 這些內容區塊是�
 
 事實上，在編輯訊息時，您只能選擇具有與訊息定位維度相容之定位維度的內容區塊。
 
-例如，**[!UICONTROL Unsubscription link]**&#x200B;區塊的定位維度是&#x200B;**[!UICONTROL Profiles]**，因為它包含特定於&#x200B;**[!UICONTROL Profiles]**&#x200B;資源的個人化欄位。 因此，您不能在[事件事務性消息](../../channels/using/event-transactional-messages.md)中使用&#x200B;**[!UICONTROL Unsubscription link]**&#x200B;塊，因為該類型消息的目標維度為&#x200B;**[!UICONTROL Real-time events]**。 但是，您可以在[描述檔事務性訊息](../../channels/using/profile-transactional-messages.md)中使用&#x200B;**取消訂閱連結**&#x200B;區塊，因為該類型訊息的定位維度是&#x200B;**描述檔**。 最後，**[!UICONTROL Link to mirror page]**&#x200B;區塊沒有定位維度，因此您可以在任何訊息中使用它。
+例如，**[!UICONTROL Unsubscription link]**&#x200B;區塊的定位維度是&#x200B;**[!UICONTROL Profiles]**，因為它包含特定於&#x200B;**[!UICONTROL Profiles]**&#x200B;資源的個人化欄位。 因此，您不能在[事件事務性消息](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types)中使用&#x200B;**[!UICONTROL Unsubscription link]**&#x200B;塊，因為該類型消息的目標維度為&#x200B;**[!UICONTROL Real-time events]**。 但是，您可以在[描述檔事務性訊息](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types)中使用&#x200B;**取消訂閱連結**&#x200B;區塊，因為該類型訊息的定位維度是&#x200B;**描述檔**。 最後，**[!UICONTROL Link to mirror page]**&#x200B;區塊沒有定位維度，因此您可以在任何訊息中使用它。
 
 如果您將此欄位保留為空白，則無論定位維度為何，內容區塊都會與所有訊息相容。 如果您設定定位維度，該區塊將僅與具有相同定位維度的訊息相容。
 

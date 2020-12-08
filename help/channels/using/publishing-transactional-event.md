@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: 9ad23468d3d1cf386d9558e6cd2344ea2316fc82
+source-git-commit: caa41d6c727385bd6e77f64750872f191a5ad040
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 7%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 7%
 
 >[!IMPORTANT]
 >
->事件配置和發佈必須由[管理員](../../administration/using/users-management.md#functional-administrators)執行。
+>只有[職能管理員](../../administration/using/users-management.md#functional-administrators) <!--being part of the **[!UICONTROL All]** [organizational unit](../../administration/using/organizational-units.md) -->擁有發佈事件配置的適當權限。
 
 [本節](../../channels/using/publishing-transactional-message.md)提供了一個圖表，說明整個事務性消息傳遞發佈過程，包括發佈和取消發佈事件配置。
 
 發佈完成後：
 * 自動建立相應的事務消息。 請參閱[編輯事務性消息](../../channels/using/editing-transactional-message.md)。
-* 網站開發人員將使用的API已部署，交易事件現在可以傳送。 請參閱「整合事件觸發」(../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)。
+* 網站開發人員將使用的API已部署，交易事件現在可以傳送。 請參閱[整合事件觸發](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)。
 
 ## 預覽和發佈事件{#previewing-and-publishing-the-event}
 
@@ -36,13 +36,13 @@ ht-degree: 7%
 
 1. 按一下&#x200B;**[!UICONTROL API preview]**&#x200B;按鈕，查看網站開發人員在發佈之前將會使用的REST API模擬。
 
-   發佈事件後，此按鈕也可讓您在生產中檢視API的預覽。 請參閱「整合事件觸發」(../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)。
+   發佈事件後，此按鈕也可讓您在生產中檢視API的預覽。 請參閱[整合事件觸發](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)。
 
    ![](assets/message-center_api_preview.png)
 
    >[!NOTE]
    >
-   >REST API會依所選渠道和所選定的定位維度而有所不同。 有關各種配置的詳細資訊，請參閱[事務性事件特定配置](../../channels/using/configuring-transactional-event.md#transactional-event-specific-configurations)。
+   >REST API會依所選渠道和所選定的定位維度而有所不同。 有關各種配置的詳細資訊，請參閱[本節](../../channels/using/configuring-transactional-event.md#transactional-event-specific-configurations)。
 
 1. 按一下&#x200B;**[!UICONTROL Publish]**&#x200B;啟動發佈。
 
@@ -66,11 +66,7 @@ ht-degree: 7%
 
    >[!NOTE]
    >
-   >* 要觸發事件發送事務性消息，您必須修改並發佈剛建立的消息。 請參閱[編輯](../../channels/using/editing-transactional-message.md)和[發佈事務性消息](../../channels/using/publishing-transactional-message.md)部分。
-      >
-      >
-   * 您也必須將此觸發事件[整合至您的網站。](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
-
+   >要觸發事件發送事務性消息，您必須修改並發佈剛建立的消息。 請參閱[編輯](../../channels/using/editing-transactional-message.md)和[發佈事務性消息](../../channels/using/publishing-transactional-message.md)部分。 您也必須將此觸發事件[整合至您的網站。](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
 
 1. 一旦Adobe Campaign開始接收與此事件設定相關的事件，您就可以按一下&#x200B;**[!UICONTROL History]**&#x200B;區段下的&#x200B;**[!UICONTROL Latest transactional events]**&#x200B;連結，存取您的協力廠商服務所傳送並由Adobe Campaign處理的最新事件。
 

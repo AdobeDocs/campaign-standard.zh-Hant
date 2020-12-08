@@ -7,9 +7,9 @@ audience: designing
 content-type: reference
 topic-tags: accessibility
 translation-type: tm+mt
-source-git-commit: c10633d1371cd6475a573a8c851c5f7e364baf62
+source-git-commit: 6632216ce4697892ea08b32641c9c026482ca713
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -66,10 +66,6 @@ Adobe Campaign Standard可讓您設計並測試不同裝置上的電子郵件和
 ![](assets/accessibility_6.png)
 
 ## 上下文幫助{#contextual-help}
-
->[!NOTE]
->
-> 只有在使用電子郵件設計工具時，才能提供內容相關的說明。
 
 內容相關說明可協助您更清楚瞭解可用的不同要求欄位和功能。 它也會引導您閱讀產品檔案，以進一步瞭解所選功能。
 

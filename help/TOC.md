@@ -6,10 +6,10 @@ user-guide-title: Campaign Standard
 breadcrumb-title: 促銷活動標準
 title: Campaign Standard 指南
 translation-type: tm+mt
-source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
+source-git-commit: c276c468627208b584a0342414cdbe382e349f50
 workflow-type: tm+mt
-source-wordcount: '1664'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -119,11 +119,18 @@ ht-degree: 99%
       + [定義直接郵件內容](channels/using/defining-the-direct-mail-content.md)
    + 交易式訊息傳送 {#transactional-messaging}
       + [開始使用交易式訊息](channels/using/getting-started-with-transactional-msg.md)
-      + [交易式訊息限制](channels/using/transactional-messaging-limitations.md)
-      + [事件交易式訊息](channels/using/event-transactional-messages.md)
-      + [設定檔交易式訊息](channels/using/profile-transactional-messages.md)
+      + [最佳做法和限制](channels/using/transactional-messaging-limitations.md)
+      + 事件配置{#event-configuration}
+         + [設定交易事件](channels/using/configuring-transactional-event.md)
+         + [發佈交易事件](channels/using/publishing-transactional-event.md)
+      + 事務性消息版本{#transactional-message-edition}
+         + [編輯事務性消息](channels/using/editing-transactional-message.md)
+         + [測試交易式訊息](channels/using/testing-transactional-message.md)
+         + [事務性消息生命週期](channels/using/publishing-transactional-message.md)
+         + [執行與監控](channels/using/transactional-message-execution.md)
       + [交易式推播通知](channels/using/transactional-push-notifications.md)
       + [後續訊息](channels/using/follow-up-messages.md)
+      + [交易式訊息使用案例](channels/using/transactional-messaging-use-case.md)
    + 登錄頁面 {#landing-pages}
       + [登錄頁面快速入門](channels/using/getting-started-with-landing-pages.md)
       + [關於登錄頁面範本](channels/using/landing-page-templates.md)
@@ -430,7 +437,6 @@ ht-degree: 99%
       + [設定電子郵件通道](administration/using/configuring-email-channel.md)
       + [設定 SMS 通道](administration/using/configuring-sms-channel.md)
       + [設定行動應用程式](administration/using/configuring-a-mobile-application.md)
-      + [設定交易式訊息傳遞](administration/using/configuring-transactional-messaging.md)
    + 設定行動裝置頻道 {#configuring-mobile}
       + [實施推播追蹤](administration/using/push-tracking.md)
       + [新增影像和影片 iOS](administration/using/image-push-notification.md)

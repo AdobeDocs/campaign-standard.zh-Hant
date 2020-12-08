@@ -7,10 +7,10 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 translation-type: tm+mt
-source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
+source-git-commit: 83cf4dc73540725d1b642b68091f704806f3eb63
 workflow-type: tm+mt
-source-wordcount: '1216'
-ht-degree: 95%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 95%
 
 Adobe Campaign 可讓您指派一組角色給使用者，以定義使用者可存取的介面部分。
 
-以下各節將詳細介紹特定角色和相應的授權：[瞭解角色](../../administration/using/list-of-roles.md)和[授權](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)。
+以下各節將詳細介紹特定角色和相應的授權：[瞭解角色](../../administration/using/list-of-roles.md)和[授權](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)。
 
 管理員可從 Admin Console 管理使用者。然後，使用者會自動與 Adobe Campaign 同步。如需詳細資訊，請參閱 [Admin Console](https://helpx.adobe.com/tw/enterprise/using/users.html) 文件。
 
@@ -37,7 +37,7 @@ Adobe Campaign 可讓您指派一組角色給使用者，以定義使用者可�
 
 * [管理使用者權限](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/access-management.html)影片
 * [角色清單](../../administration/using/list-of-roles.md)
-* [授權清單](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
+* [授權清單](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)
 
 ## 使用者類型 {#type-of-users}
 
@@ -59,7 +59,7 @@ Adobe Campaign 可讓您指派一組角色給使用者，以定義使用者可�
 
 功能管理員是可存取介面中最技術部分的使用者。他們負責 **[!UICONTROL Administration]** 角色，並確保平台都已妥善設定，因此行銷人員只需專注於傳送其行銷活動。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >只有具有&#x200B;**[!UICONTROL Administration]**&#x200B;角色和&#x200B;**所有**&#x200B;單元訪問權限的職能管理員才能訪問發送日誌、消息日誌、跟蹤日誌、排除日誌、提案日誌和訂閱日誌。 非管理員使用者可以定位這些記錄檔，但是從連結的表格（描述檔、傳送）開始。
 

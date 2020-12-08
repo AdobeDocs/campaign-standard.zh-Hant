@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: users-and-security
 context-tags: user,overview;user,main;security,overview;security,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 0556fec284c5873fbf5025cab15d73adb009ee37
 workflow-type: tm+mt
-source-wordcount: '926'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,15 +24,18 @@ ht-degree: 97%
 
 使用者必須始終連結到安全性群組。這可讓您指派他們特定的角色和組織單位。
 
-如需角色的詳細資訊，下頁的表格會依據使用者角色而提供不同作業：[Adobe Campaign Standard 授權](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)。
+如需角色的詳細資訊，下頁的表格會依據使用者角色而提供不同作業：[Adobe Campaign Standard 授權](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)。
 
 預設安全性群組為：
 
 * **[!UICONTROL Administrators]**
 * **[!UICONTROL Delivery supervisors]**
-* **[!UICONTROL Message Center agents]**
 * **[!UICONTROL Standard Users]**
 * **[!UICONTROL Workflow supervisors]**
+
+>[!IMPORTANT]
+>
+>**[!UICONTROL Access to the deliverability parameters (Deliverability)]**&#x200B;和&#x200B;**[!UICONTROL Message Center agents (mcExec)]**&#x200B;安全組僅為內部組，不應分配給用戶。
 
 如果使用者未連結至任何安全性群組，他將無法存取 Adobe Campaign。
 

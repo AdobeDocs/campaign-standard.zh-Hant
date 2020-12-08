@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
+source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
 workflow-type: tm+mt
-source-wordcount: '4627'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -493,7 +493,7 @@ _工作流程_
      <li> 在訊息中包含取消訂閱連結。 </li> 
      <li> 將交易式訊息新增至全域傳送報告。 </li> 
      <li> 在客戶歷程中善用交易式訊息。 </li> 
-    </ul> 如需詳細資訊，請參閱<a href="../../channels/using/profile-transactional-messages.md">相關的文件</a>，以瞭解詳情。<br /> </td> 
+    </ul> 如需詳細資訊，請參閱<a href="../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities">相關的文件</a>，以瞭解詳情。<br /> </td> 
   </tr> 
   <tr> 
    <td> 事務性消息傳遞API<br /> </td> 

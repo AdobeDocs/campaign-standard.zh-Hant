@@ -7,10 +7,10 @@ audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
 translation-type: tm+mt
-source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
+source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 14%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -74,7 +74,7 @@ Adobe Campaign中的所有通訊管道都必須正確設定，才能有效傳送
 
 配置各種&#x200B;**email**&#x200B;參數：反彈、隔離、電子郵件屬性和路由參數的處理規則、類型規則。 定義&#x200B;**SMS**&#x200B;頻道的路由配置和屬性，以及SMS編碼和格式。
 
-設定&#x200B;**行動應用程式**，以便能夠使用Adobe Experience Platform SDK傳送應用程式內訊息和推播通知，並透過建立和設定事件來設定&#x200B;**交易訊息**。
+設定&#x200B;**行動應用程式**，以便能夠使用Adobe Experience Platform SDK傳送應用程式內訊息和推播通知。
 
 顯示全文:
 
@@ -82,7 +82,6 @@ Adobe Campaign中的所有通訊管道都必須正確設定，才能有效傳送
 * [設定電子郵件通道](../../administration/using/configuring-email-channel.md)
 * [設定 SMS 通道](../../administration/using/configuring-sms-channel.md)
 * [設定行動應用程式](../../administration/using/configuring-a-mobile-application.md)
-* [設定交易式訊息傳遞](../../administration/using/configuring-transactional-messaging.md)
 
 ## 應用程式設定 {#application-settings}
 

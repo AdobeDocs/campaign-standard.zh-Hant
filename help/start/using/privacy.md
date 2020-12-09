@@ -2,15 +2,15 @@
 solution: Campaign Standard
 product: campaign
 title: 隱私權與同意
-description: 瞭解Adobe Campaign Standard中的隱私權、個人資料和許可管理
+description: 瞭解 Adobe Campaign Standard 中的隱私權、個人資料和同意管理
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c76f4b6e3bc0feb50e5776836552fdceaff61ea7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1657'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Adobe Campaign 是一款強大的工具，用於收集和處理包括個人資�
 
 >[!NOTE]
 >
->如需有關GDPR、CCPA、PDPA和LGPD如何套用至Adobe Campaign的詳細資訊，請參閱[本節](../../start/using/privacy-management.md#privacy-management-regulations)。
+>如需如何將 GDPR、CCPA、PDPA 以及 LGPD 套用至 Adobe Campaign 的詳細資訊，請參閱[本節](../../start/using/privacy-management.md#privacy-management-regulations)。
 
 ### Adobe Experience Cloud 隱私權 {#experience-cloud-privacy}
 
@@ -84,31 +84,31 @@ Adobe Campaign 是 Adobe Experience Cloud 解決方案的一部分。在 Campaig
 
 因此，身為收集和分享個人資料的公司，您是資料控制方、客戶是資料主體，而 Adobe Campaign 在依您的指示處理個人資料時，會作為資料處理方。請注意，身為資料控制方，您有責任處理與資料主體的關係，例如管理[隱私權要求](#privacy-requests)。
 
-### 使用案例方案{#use-case-scenario}
+### 使用案例情境{#use-case-scenario}
 
-為了說明不同角色如何互動，以下是GDPR客戶體驗的高階使用案例。
+為了說明不同角色如何互動，以下是 GDPR 客戶體驗的高階使用案例。
 
-在此範例中，航空公司是Adobe Campaign客戶。 該公司是&#x200B;**資料控制器**，該航空公司的所有客戶是&#x200B;**資料主體**。 勞拉是航空公司的客戶。
+在此範例中，航空公司是 Adobe Campaign 客戶。該公司是&#x200B;**資料控制方**，而該航空公司的所有客戶為&#x200B;**資料主體**。Laura 在此特定案例中是航空公司的客戶。
 
 以下是此範例中使用的不同角色：
 
-* **資** 料主 **題勞拉**。她是收到航空公司留言的收件人。 勞拉可能是常客，但可能會在某個時刻決定，她不希望這家航空公司提供任何個人化廣告或營銷資訊。 她會要求航空公司（根據他們的流程）刪除她的常旅客號碼。
+* **Laura** 是&#x200B;**資料主體**。她是收到航空公司訊息的收件人。Laura 可能是常客，但可能會在某個時間點決定不想要收到關於這家航空公司提供的任何個人化廣告或行銷訊息。她會要求航空公司（根據他們的流程）刪除她的常旅客號碼。
 
-* **阿內** 斯是 **航** 空公司的資料掌控者。她會收到Laura的請求，擷取用來識別資料主體的有用ID，並在Adobe Campaign中提交請求。
+* **Anne** 是航空公司的&#x200B;**資料控制方**。她會收到 Laura 的請求，檢索用於識別資料主體的有用 ID，並在 Adobe Campaign 中提交請求。
 
-* **Adobe** Campaign是資 **料處理者**。
+* **Adobe Campaign** 是&#x200B;**資料處理方**。
 
 ![](assets/privacy-gdpr-flow.png)
 
 以下是此使用案例的一般流程：
 
-1. **資料主體**(Laura)透過電子郵件、客戶服務或入口網站，向&#x200B;**資料掌控者**&#x200B;傳送GDPR要求。
+1. **資料主體** (Laura) 透過電子郵件、客戶服務或網站入口，向&#x200B;**資料控制方**&#x200B;傳送 GDPR 請求。
 
-1. **資料控制器**(Anne)透過介面或使用API將GDPR要求推送至Campaign。
+1. **資料控制方** (Anne) 透過介面或使用 API 將 GDPR 請求推送至 Campaign。
 
-1. 當&#x200B;**資料處理者**(Adobe Campaign)收到資訊後，會對GDPR要求採取動作，並傳送回應或確認給&#x200B;**資料控制者**(Anne)。
+1. 當&#x200B;**資料處理方** (Adobe Campaign) 收到資訊後，會對 GDPR 請求採取行動，並傳送回應或向&#x200B;**資料控制方** (Anne) 進行確認。
 
-1. 然後，**資料控制器**(Anne)審閱該資訊並將其發回到&#x200B;**資料主體**(Laura)。
+1. 然後，**資料控制方** (Anne) 會審查該資訊並將其傳送回&#x200B;**資料主體** (Laura)。
 
 ## 資料擷取 {#data-acquisition}
 
@@ -149,9 +149,9 @@ Adobe Campaign 提供其他功能，協助您作為資料控制方，針對特�
 
 * **被遺忘的權利**（刪除要求）為資料主體賦予權利，讓資料控制方得以清除其個人資料。
 
-**Access**&#x200B;和&#x200B;**Delete**&#x200B;請求在[本節](../../start/using/privacy-management.md#right-access-forgotten)中顯示。
+[本部分](../../start/using/privacy-management.md#right-access-forgotten)會顯示&#x200B;**存取**&#x200B;及&#x200B;**刪除**&#x200B;要求。
 
-建立這些請求的實施步驟詳見[本節](../../start/using/privacy-requests.md)。 此外，您也可以在[此處](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=zh-Hant#privacy)取得教學課程。
+建立這些要求的實作步驟將於[本部分](../../start/using/privacy-requests.md)詳細說明。此外，您也可以在[此處](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=zh-Hant#privacy)取得教學課程。
 
 ## 追蹤功能 {#tracking-capabilities}
 

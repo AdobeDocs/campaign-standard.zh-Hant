@@ -6,28 +6,28 @@ description: 深入瞭解 Adobe Campaign Standard 的隱私權管理功能。
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a9afa91302684ddd37a94a9999d90bf8c8e7abee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '964'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 
 # 隱私權管理 {#privacy-management}
 
-Adobe Campaign提供一套工具，可協助您遵守[隱私權規定](#privacy-management-regulations)（包括GDPR、CCPA、PDPA、LGPD）。
+Adobe Campaign 提供一套工具，以協助您遵守[隱私權法規](#privacy-management-regulations)（包含 GDPR、CCPA、PDPA、LGPD）。
 
-以下是Adobe Campaign為確保GDPR和其他隱私權法規的準備而提供的五大功能：
+以下是 Adobe Campaign 為確保 GDPR 和其他隱私權法規的準備而提供的五大功能：
 
 ![](assets/privacy-gdpr-use-cases.png)
 
-* **存取權**
+* **存取權限**
 
-* **刪除權**
+* **刪除權限**
 
-如需詳細資訊，請參閱[存取權與被遺忘權](#right-access-forgotten)。
+如需詳細資訊，請參閱[存取權限與要消除的權限](#right-access-forgotten)。
 
 * **同意管理**
 
@@ -35,17 +35,17 @@ Adobe Campaign提供一套工具，可協助您遵守[隱私權規定](#privacy-
 
 * **權限管理**
 
-有關詳細資訊，請參閱[同意、保留和角色](#consent-retention-roles)。
+如需詳細資訊，請參閱[同意、保留和角色](#consent-retention-roles)。
 
 <!--This section presents general information on what Privacy management is and the features provided by Adobe Campaign to manage the [Right to Access and Right to be Forgotten](#right-access-forgotten).
 
 It also contains information on important features to manage Privacy ([consent, data retention and user roles](#consent-retention-roles)), as well as best practices to help you with your Privacy compliance when using Adobe Campaign.-->
 
-## 隱私權管理規定{#privacy-management-regulations}
+## 隱私權管理法規 {#privacy-management-regulations}
 
 Adobe Campaign 的功能可協助您遵循下列法規：
 
-* **GDPR**（[一般資料保護規範](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en)）是歐盟 (EU) 的隱私權法律，其可為歐盟國家協調資料保護要求並以現代化方式規範資料保護要求。請遵循下列連結，以尋找有關GDPR的一般資訊：
+* **GDPR**（[一般資料保護規範](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en)）是歐盟 (EU) 的隱私權法律，其可為歐盟國家協調資料保護要求並以現代化方式規範資料保護要求。請遵循下列連結，以尋找有關 GDPR 的一般資訊：
 
    * https://www.adobe.com/privacy/general-data-protection-regulation.html
    * https://www.adobe.com/marketing-cloud/campaign/general-data-protection-regulation.html

@@ -5,9 +5,9 @@ product: campaign
 title: Adobe Campaign Standard 產品文件
 description: 瀏覽　Adobe Campaign Standard 產品文件
 topic: Premium
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '216'
 ht-degree: 100%
 
@@ -75,5 +75,5 @@ ht-degree: 100%
 | [控制面板文件](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/control-panel-home.html) | [Campaign API](api/using/get-started-apis.md) |
 | [實施指南](https://helpx.adobe.com/tw/campaign/kb/campaign-standard-implementation-guide.html) | [錯誤訊息清單](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [發行計畫](rn/using/release-planning.md) | [Campaign 資料模型](developing/using/datamodel-introduction.md) |
-| [已過時及已移除的功能](rn/using/deprecated-features.md)) | [多解決方案指南](integrating/using/get-started-campaign-integrations.md) |
+| [已過時及已移除的功能](rn/using/deprecated-features.md)） | [多解決方案指南](integrating/using/get-started-campaign-integrations.md) |
 | [開始使用 Campaign Standard](start/using/about-campaign-standard.md) | [技術說明](https://helpx.adobe.com/tw/campaign/kb/acs-article-list.html) |

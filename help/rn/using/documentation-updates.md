@@ -9,8 +9,8 @@ topic-tags: campaign-standard-releases
 translation-type: tm+mt
 source-git-commit: 83cf4dc73540725d1b642b68091f704806f3eb63
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '6359'
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## 2020 年 12 月{#doc-updates-december-2020}
 
-「隱私權」區段已移動。 [顯示全文](../../start/using/privacy.md)
+「隱私權」區段已移動。[顯示全文](../../start/using/privacy.md)
 
 「事務性」消息傳遞區已重新整理和改進，其中明確的入門區包括[增強圖表](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)和[端對端使用案例](../../channels/using/transactional-messaging-use-case.md)，以說明完整流程。 [顯示全文](../../channels/using/getting-started-with-transactional-msg.md)
 
@@ -29,13 +29,13 @@ ht-degree: 0%
 
 ## 2020 年11月 {#doc-updates-november-2020}
 
-「個人資料與角色」區段已更新為使用案例，以說明不同角色在隱私權方面如何進行互動。[顯示全文](../../start/using/privacy.md#use-case-scenario)
+「個人資料與角色」區段已更新為使用案例情境，以說明不同角色在隱私權方面如何互動。[顯示全文](../../start/using/privacy.md#use-case-scenario)
 
-已新增區段，其中會列出隱私權的常見問答集。[顯示全文](../../start/using/privacy-faq.md)
+已新增一個區段，其中列出「隱私權」的常見問題集。[顯示全文](../../start/using/privacy-faq.md)
 
 「隱私權」區段已移動並擴充而包含兩個新頁面：[隱私權管理](../../start/using/privacy-management.md)及[管理隱私權要求](../../start/using/privacy-requests.md)。
 
-「Adobe Experience Platform Data Connector」區段中已新增有關隱私權管理相關資料對應驗證錯誤以及如何疑難排解的資訊。 [顯示全文](../../developing/using/aep-mapping-activation.md)
+「Adobe Experience Platform Data Connector」區段中已新增有關隱私權管理相關資料對應驗證錯誤以及如何疑難排解的資訊。[顯示全文](../../developing/using/aep-mapping-activation.md)
 
 ## 發行版本 20.4 – 2020 年 10 月 {#release-20-4---october-2020}
 

@@ -6,9 +6,9 @@ description: 瞭解如何在 Adobe Campaign Standard 中管理隱私權要求
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1711'
 ht-degree: 100%
 

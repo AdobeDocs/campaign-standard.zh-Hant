@@ -7,10 +7,10 @@ audience: designing
 content-type: reference
 topic-tags: accessibility
 translation-type: tm+mt
-source-git-commit: 6632216ce4697892ea08b32641c9c026482ca713
+source-git-commit: 6ea28c457b1024dab315b60281adaee56eb80cd0
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 100%
+source-wordcount: '607'
+ht-degree: 45%
 
 ---
 
@@ -19,31 +19,33 @@ ht-degree: 100%
 
 瞭解 Adobe Campaign Standard 工作區中的協助工具支援。
 
-協助工具是指讓產品適用於視覺、聽覺、認知、運動和其他殘疾人士。軟體產品的協助工具功能範例包括螢幕閱讀器支援、圖形等效文字、鍵盤快速鍵、將顯示顏色變更為高對比等。
+協助工具是指讓產品適用於視覺、聽覺、認知、運動和其他殘疾人士。軟體產品的協助功能範例包括語義結構化內容、螢幕閱讀器支援、圖形的文字等效功能、鍵盤快速鍵等。
 
-Adobe Campaign Standard 提供了一些易於使用的工具，如對比度、鍵盤導覽、上下文幫助和回應式調整大小。
+Adobe Campaign Standard提供多種功能，讓您更容易使用，例如對比、標籤、結構化內容、鍵盤導覽和內容相關說明。
 
 ## 協助工具功能{#accessibility-features}
 
-### 對比度{#contrast}
+### 對比度和顏色{#contrast}
 
-Adobe Campaign Standard 使用者介面致力於在應用程式中提供足夠的對比功能，以確保為視力不足或色彩缺乏的使用者提供可存取的檢視體驗。
+Adobe Campaign Standard使用者介面致力於在應用程式中提供足夠的對比，以確保為視力不足或色彩不足的使用者提供可存取的檢視體驗。
 
-* 工作流程的暫停和取消圖示已更新為改善背景和前景之間的對比度。
-
-   ![](assets/accessibility_1.png)
-
-* 傳送成功時顯示的文字包含大型綠色文字，背景和前景的對比度不足。對比度已更新，最低比例為 3:1。
+* 大型文字和標題已增強，以符合3:1的對比度。
 
    ![](assets/accessibility_2.png)
 
-* Adobe Campaign Standard 可確保顏色、形狀或位置並非唯一用來傳達資訊或階層的方法。
+* 應用程式中的說明內容和內文已更新，以符合4.5:1的對比度。
+
+* 工作流程的暫停和取消圖示已更新，以改善背景和前景色的對比。
+
+   ![](assets/accessibility_1.png)
+
+* 顏色、形狀和位置並非在應用程式中傳達資訊或階層的唯一方法。
 
 ### 使用者介面 {#user-interface}
 
-Adobe Campaign Standard 使用者介面可以讓使用者更輕鬆地檢視和聆聽內容，包括將前景與背景分開，以及將替代文字新增至不同的可用按鈕。
+Adobe Campaign Standard使用者介面可讓所有使用者更輕鬆地與內容互動，方法是在視覺元素中加入替代文字，並使用語義結構以視覺化和程式設計方式傳達資訊。
 
-* 當使用者將必要的 ID 欄位留空時，圖形會以視覺化方式指出哪個欄位有錯誤，並顯示錯誤訊息文字。
+* 當使用者將必要的ID欄位留空時，圖形會以視覺化方式指出哪個欄位有錯誤訊息文字，並以程式設計方式將相同的資訊傳送給使用者，例如螢幕閱讀器等輔助技術。
 
    ![](assets/accessibility_3.png)
 
@@ -51,39 +53,35 @@ Adobe Campaign Standard 使用者介面可以讓使用者更輕鬆地檢視和�
 
    ![](assets/accessibility_4.png)
 
-* 已新增影像按鈕的替代文字，其可供閱讀，而非檢視插圖。
+* 已新增影像的替代文字和按鈕的可存取名稱，並可使用輔助技術朗讀，而非僅依賴視覺提示來識別元素。
 
-   ![](assets/accessibility_5.png)
+<!--
+### Create responsive resize for multiple devices {#resize-devices}
 
-* 使用清單時，資料表格標題儲存格在表格的角落處不會留空。
+When designing for multiple devices and platforms, it's important to create a seamless experience for screen sizes across mobile and desktop resolutions.
 
-### 為多部裝置建立回應式調整大小{#resize-devices}
-
-針對多種裝置和平台進行設計時，請務必針對行動裝置和桌上型電腦解析度的螢幕大小建立順暢的體驗。
-
-Adobe Campaign Standard 可以讓您設計和測試不同裝置上的電子郵件和推播通知，例如：iPhone、Android 裝置、iPad、Android 平板電腦和桌上型電腦。
+Adobe Campaign Standard allows you to design and test emails and push notifications on different devices such as: iPhone, Android devices, iPad, Android tablet and desktop.
 
 ![](assets/accessibility_6.png)
+-->
 
 ## 上下文幫助{#contextual-help}
 
-上下文幫助可協助您更清楚瞭解可用的不同請求欄位和功能。它也會引導您閱讀產品文件，以進一步瞭解所選功能的資訊。
+情境式的說明可協助您更清楚地瞭解可用的不同要求欄位和功能。 它也會引導您閱讀產品文件，以進一步瞭解所選功能的資訊。
 
-在設計電子郵件時，您可以將游標暫留在資訊按鈕上。將會出現工具提示，提供功能說明和產品文件的連結。
+在設計電子郵件時，您可以存取工具提示，其中提供功能說明和產品檔案的連結。
 
 ![](assets/accessibility_7.png)
 
-## 支援螢幕放大器{#screen-magnifiers}
+## 支援協助技術{#screen-magnifiers}
 
-螢幕閱讀器會讀取出現在電腦螢幕上的文字。它也會讀取非文字資訊，例如，協助工具標籤或屬性中提供的應用程式按鈕標籤或影像說明。
-
-在 Adobe Campaign Standard 中，即使使用者覆寫文字間距屬性，內容和功能仍可供使用。
+我們致力於讓Adobe Campaign Standard應用程式能透過各種輔助技術盡可能地使用，包括但不限於修改的鍵盤、螢幕放大軟體、螢幕閱讀器、語音辨識軟體和其他輔助裝置。
 
 ## 使用您的偏好語言{#languages}
 
 Adobe Campaign Standard 提供不同的語言版本：英文、法文和德文。
 
-請注意，語言是在安裝時已設定好的，之後無法變更。
+請注意，語言是在安裝時設定，之後無法變更。
 
 ## 鍵盤快速鍵{#shortcuts}
 

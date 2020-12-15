@@ -2,16 +2,16 @@
 solution: Campaign Standard
 product: campaign
 title: 交易式訊息限制
-description: 瞭解Adobe Campaign Standard中有關交易訊息的主要限制和建議。
+description: 瞭解Adobe Campaign Standard中有關交易訊息的主要建議和限制。
 audience: channels
 content-type: reference
-topic-tags: landing-pages
-context-tags: landingPage,wizard;landingPage,overview;landingPage,main
+topic-tags: transactional-messaging
+context-tags: null
 translation-type: tm+mt
-source-git-commit: c276c468627208b584a0342414cdbe382e349f50
+source-git-commit: 0092ad11314fab232663f558ca6635b8fcc03133
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '742'
+ht-degree: 66%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 <img src="assets/do-not-localize/icon_concepts.svg" width="60px">
 
-以下部分列出了在開始建立事務性消息之前應注意的最佳做法和限制。
+本節列出了在開始建立事務性消息之前應注意的最佳做法和限制。
 
 <!--For more on transactional messages, including on how to configure and create them, see [Getting started with transactional messaging](../../channels/using/getting-started-with-transactional-msg.md).-->
 
@@ -38,6 +38,12 @@ ht-degree: 0%
 * 在事件建立後，您無法變更目標維度 **[!UICONTROL Real-time event]** 或 **[!UICONTROL Profile]** ）。請參閱[建立事件](../../channels/using/configuring-transactional-event.md#creating-an-event)。
 * 無法回滾發佈，但可以取消發佈事件：此操作使事件和關聯的交易式訊息無法存取。請參閱[取消發佈事件](../../channels/using/publishing-transactional-event.md#unpublishing-an-event)。
 * 唯一可與事件關聯的交易式訊息是發佈該事件時自動建立的訊息。請參閱[預覽和發佈事件](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)。
+
+## 事務性消息數{#transactional-message-number}
+
+已發佈的交易訊息數量可能會對您的平台產生重大影響。 為獲得最佳效能，發佈的事務性消息數應保持在100以下。 為確保此，請取消發佈或刪除任何未使用的事務性消息。 請參閱[取消發佈事務性消息](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message)和[刪除事務性消息](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message)。
+
+為確保最佳效能，您也可以取消發佈或刪除未使用的事件。 事實上，取消發佈或刪除事件也會取消發佈或刪除相應的交易訊息，以及其傳送和追蹤記錄（如果有）。 請參閱[取消發佈事件](../../channels/using/publishing-transactional-event.md#unpublishing-an-event)和[刪除事件](../../channels/using/publishing-transactional-event.md#deleting-an-event)。
 
 ## 個人化{#personalization}
 

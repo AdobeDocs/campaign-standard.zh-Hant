@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
 translation-type: tm+mt
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
+source-git-commit: 7b1d74760a3c33e4c1c74fe5b4512392b550379b
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 90%
+source-wordcount: '707'
+ht-degree: 85%
 
 ---
 
@@ -40,6 +40,18 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
 
 <table> 
  <thead> 
+ <tr> 
+   <th> <strong>預測性主旨行</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p> 自2020年12月15日起，預測性主旨行功能已過時。</p><br/>
+   <p>我們建議您利用人工智慧的電子郵件功能，根據歷史參與度量來分析和預測開放率、最佳傳送時間以及可能的流失率。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html">進一步瞭解</a></p></br>
+     <p>
+     <em>目標移除：2021年4月</em></p>
+     </td> 
+  </tr> 
   <tr> 
    <th> <strong>SDK v4 的推播通知</strong><br /> </th> 
   </tr> 
@@ -65,7 +77,7 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
    <td> <p>自 Campaign 19.4 版本以來，不建議使用促銷活動 API 和介面來存取和刪除請求。將無法使用兩步驟的設定檔刪除作業。使用 <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe 隱私權核心服務</a>。</p></br>
    <p>另請參閱<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=en">管理隱私權要求</a>。</p>
   <p> 
-  <em>目標移除日期：2021 年</em></p>
+  <em>目標移除日期：2021 年 4 月</em></p>
    </td> 
   </tr> 
  </tbody> 

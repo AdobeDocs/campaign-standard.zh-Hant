@@ -7,9 +7,9 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 1e7359db2de1a9c420af33ac85c0597c098ae3f8
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '338'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 # 定義電子郵件的主旨行和發件人{#defining-the-subject-line-of-an-email}
 
-## Defining the subject line of an email {#subject-line}
+## 定義電子郵件的主旨行{#subject-line}
 
 留言主體是準備和發送留言的必備主題。
 
@@ -26,27 +26,26 @@ ht-degree: 2%
 >如果主旨行為空白，則訊息控制面板和電子郵件設計工具中會顯示警告。
 
 1. 建立電子郵件.
-1. 轉到「電 **[!UICONTROL Properties]** 子郵件設計器」首頁的頁籤（可通過首頁表徵圖訪問）。
-1. Fill in the **[!UICONTROL Subject]** section.
+1. 轉至「電子郵件設計器」首頁的&#x200B;**[!UICONTROL Properties]**&#x200B;頁籤（可通過首頁表徵圖訪問）。
+1. 填寫&#x200B;**[!UICONTROL Subject]**&#x200B;區段。
 
    ![](assets/email_designer_subject.png)
 
-1. 您也可以按一下對應的圖示，將個人化欄位、內容區塊和動態內容新增至主題行。 For more on this, see [Personalization](../../designing/using/personalization.md).
-1. 您可以嘗試不同的主題行，以便在傳送電子郵件之前，先估計您的電子郵件開放率。 如需詳細資訊，請參 [閱測試電子郵件的主旨行](../../sending/using/testing-subject-line-email.md)。
+1. 您也可以按一下對應的圖示，將個人化欄位、內容區塊和動態內容新增至主題行。 如需詳細資訊，請參閱[個人化](../../designing/using/personalization.md)。
 
-## 定義電子郵件的電子郵件發件人 {#email-sender}
+## 定義電子郵件{#email-sender}的電子郵件發件人
 
-要定義將出現在所發送郵件標題中的發件人名稱，請轉至「電子郵件設計器」首頁的頁籤（可通過首頁表徵圖訪問）。 **[!UICONTROL Properties]**
+要定義將出現在發送郵件標題中的發件人名稱，請轉至「電子郵件設計器」首頁的&#x200B;**[!UICONTROL Properties]**&#x200B;頁籤（可通過首頁表徵圖訪問）。
 
 ![](assets/delivery_content_edition16.png)
 
-* 該 **[!UICONTROL From: name]** 欄位允許您輸入發件人名稱。 預設情況下，預設的 **「發件人名稱** 」塊會自動輸入到欄位中。 預設寄件者電子郵件地址和寄件者名稱是透過進階功 **[!UICONTROL Brands]** 能表下的Adobe Campaign標誌加以定義 **[!UICONTROL Administration > Instance settings > Brand configuration]** 。
+* **[!UICONTROL From: name]**&#x200B;欄位允許您輸入發件人名稱。 預設情況下，預設&#x200B;**發件人名稱**&#x200B;塊會自動輸入到欄位中。 預設寄件者電子郵件地址和寄件者名稱定義於&#x200B;**[!UICONTROL Brands]**&#x200B;中，可透過進階功能表&#x200B;**[!UICONTROL Administration > Instance settings > Brand configuration]**&#x200B;下的Adobe Campaign標誌存取。
 
-   您可以按一下「傳送者名稱」區塊，以變更 **傳送者名稱** 。 然後，欄位會變成可編輯，您可以輸入要使用的名稱。
+   通過按一下&#x200B;**發件人名稱**&#x200B;塊，可以更改發件人名稱。 然後，欄位會變成可編輯，您可以輸入要使用的名稱。
 
-   此欄位可以個人化。 若要這麼做，您可以按一下傳送者名稱下方的圖示，新增個人化欄位、內容區塊和動態內容。 For more on this, see [Personalization](../../designing/using/personalization.md).
+   此欄位可以個人化。 若要這麼做，您可以按一下傳送者名稱下方的圖示，新增個人化欄位、內容區塊和動態內容。 如需詳細資訊，請參閱[個人化](../../designing/using/personalization.md)。
 
-* 無 **[!UICONTROL From: email address]** 法從此部分編輯欄位。 您可以透過從其控制面板編輯電子郵件的屬性來變更。 如需詳細資訊，請參 [閱電子郵件進階參數清單](../../administration/using/configuring-email-channel.md#advanced-parameters)。
+* **[!UICONTROL From: email address]**&#x200B;欄位無法從此區段編輯。 您可以透過從其控制面板編輯電子郵件的屬性來變更。 如需詳細資訊，請參閱[電子郵件進階參數清單](../../administration/using/configuring-email-channel.md#advanced-parameters)。
 
 >[!NOTE]
 >

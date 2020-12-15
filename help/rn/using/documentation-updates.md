@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 83cf4dc73540725d1b642b68091f704806f3eb63
+source-git-commit: 3d271b7125a382f7864857df4541a6be28894992
 workflow-type: tm+mt
-source-wordcount: '6359'
+source-wordcount: '6357'
 ht-degree: 97%
 
 ---
@@ -21,11 +21,13 @@ ht-degree: 97%
 
 ## 2020 年 12 月{#doc-updates-december-2020}
 
+「事務性」消息傳送部分已重新整理和改進，其中明確的入門部分包括[增強的結構描述](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)和[端到端使用案例](../../channels/using/transactional-messaging-use-case.md)，以說明完整過程。 [顯示全文](../../channels/using/getting-started-with-transactional-msg.md)
+
 「隱私權」區段已移動。[顯示全文](../../start/using/privacy.md)
 
-「事務性」消息傳遞區已重新整理和改進，其中明確的入門區包括[增強圖表](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)和[端對端使用案例](../../channels/using/transactional-messaging-use-case.md)，以說明完整流程。 [顯示全文](../../channels/using/getting-started-with-transactional-msg.md)
-
 已新增協助工具頁面，以進一步瞭解Adobe Campaign Standard工作區中的協助工具支援。 [顯示全文](../../start/using/accessibility.md)
+
+「事務性傳訊」區段已新增一個限制，指出為獲得最佳效能，已發佈的事務性訊息數量應維持在100以下。 [顯示全文](../../channels/using/transactional-messaging-limitations.md#transactional-message-number)
 
 ## 2020 年11月 {#doc-updates-november-2020}
 
@@ -176,8 +178,6 @@ MCPNS 在設定行動應用程式時增加了限制。[瞭解詳情](https://hel
 新的設定指南區段已新增到管理指南中。有關相容瀏覽器和作業系統的區段已從「快速入門」指南移至本區段。Campaign Standard 網路端點的技術也已新增至本節。[瞭解詳情](../../administration/using/about-configuration-guidelines.md)
 
 現在提供新區段，說明如何刪除事件設定。[瞭解詳情](../../channels/using/publishing-transactional-event.md#deleting-an-event)
-
-說明如何測試電子郵件主旨行以預測其開放率的頁面已更新並改進，包括新的[疑難排解](../../sending/using/testing-subject-line-email.md#troubleshooting)區段。[瞭解詳情](../../sending/using/testing-subject-line-email.md)
 
 交易式訊息區段已更新，以反映多個使用者介面的微幅更新和改良。[瞭解詳情](../../channels/using/getting-started-with-transactional-msg.md)
 

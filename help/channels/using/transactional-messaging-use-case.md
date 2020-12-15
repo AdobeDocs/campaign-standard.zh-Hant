@@ -1,21 +1,17 @@
 ---
-title: 設定交易式訊息傳遞
-description: 瞭解如何設定交易式訊息。
-page-status-flag: never-activated
-uuid: 4caeadbe-f4a7-43ce-986d-e99fa9ca0d0d
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
-audience: administration
+solution: Campaign Standard
+product: campaign
+title: 交易式訊息使用案例
+description: 探索Adobe Campaign交易訊息功能的端對端範例。
+audience: channels
 content-type: reference
-topic-tags: configuring-channels
-discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
-internal: n
-snippet: y
+topic-tags: transactional-messaging
+context-tags: null
 translation-type: tm+mt
-source-git-commit: caa41d6c727385bd6e77f64750872f191a5ad040
+source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '504'
+ht-degree: 2%
 
 ---
 

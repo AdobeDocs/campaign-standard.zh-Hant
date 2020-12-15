@@ -1,17 +1,17 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 事件交易式訊息
-description: 瞭解如何建立與發佈事件交易式訊息。
+title: 測試交易式訊息
+description: 瞭解如何在Adobe Campaign中測試交易訊息。
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: caa41d6c727385bd6e77f64750872f191a5ad040
+source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '278'
+ht-degree: 39%
 
 ---
 

@@ -1,17 +1,17 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 設定交易式訊息傳遞
-description: 瞭解如何設定交易式訊息。
+title: 發佈交易事件
+description: 瞭解如何預覽、發佈、取消發佈和刪除交易事件設定。
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: caa41d6c727385bd6e77f64750872f191a5ad040
+source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '607'
+ht-degree: 6%
 
 ---
 

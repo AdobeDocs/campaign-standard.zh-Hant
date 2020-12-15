@@ -1,17 +1,17 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 事件交易式訊息
-description: 瞭解如何建立與發佈事件交易式訊息。
+title: 事務性消息傳遞執行和監控
+description: 瞭解交易式訊息執行，並瞭解如何監控交易式訊息。
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: c276c468627208b584a0342414cdbe382e349f50
+source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '740'
+ht-degree: 62%
 
 ---
 

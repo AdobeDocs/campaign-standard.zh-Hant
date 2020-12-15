@@ -2,15 +2,15 @@
 solution: Campaign Standard
 product: campaign
 title: 後續訊息
-description: 瞭解如何建立和發佈後續訊息。
+description: 瞭解如何建立、管理和傳送後續訊息。
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 translation-type: tm+mt
-source-git-commit: caa41d6c727385bd6e77f64750872f191a5ad040
+source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '773'
+ht-degree: 2%
 
 ---
 

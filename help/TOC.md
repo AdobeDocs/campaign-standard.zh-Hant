@@ -3,14 +3,14 @@ solution: Campaign Standard
 product: campaign
 audience: end-user
 user-guide-title: Campaign Standard
-user-guide-description: '說明中心，以瞭解使用Campaign Standard所需的主要功能、工作、設定和其他資源。 '
+user-guide-description: '說明中心會解說主要功能、工作、設定和使用 Campaign Standard 所需的其他資源。 '
 breadcrumb-title: 促銷活動標準
 title: Campaign Standard 指南
 translation-type: tm+mt
-source-git-commit: f4a42e6f6bfcc32f315f8a82f2b77b8169a56d95
+source-git-commit: 642b916369433d9a7a23d818e94f5e189a1c8596
 workflow-type: tm+mt
-source-wordcount: '1703'
-ht-degree: 97%
+source-wordcount: '1696'
+ht-degree: 98%
 
 ---
 
@@ -162,7 +162,6 @@ ht-degree: 97%
       + [預覽傳送](sending/using/previewing-messages.md)
       + [傳送校樣](sending/using/sending-proofs.md)
       + [使用目標設定檔測試電子郵件訊息](sending/using/testing-messages-using-target.md)
-      + [測試電子郵件的主旨行](sending/using/testing-subject-line-email.md)
       + [由 AI 支援電子郵件](sending/using/predictive.md)
       + [電子郵件呈現](sending/using/email-rendering.md)
       + [新增控制群組](sending/using/control-group.md)

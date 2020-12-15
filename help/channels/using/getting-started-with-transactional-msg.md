@@ -1,17 +1,17 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 設定事務性消息的主要步驟
+title: 開始使用交易式訊息
 description: 瞭解什麼是交易式訊息，並瞭解在Adobe Campaign Standard中設定交易式訊息的主要步驟。
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: c276c468627208b584a0342414cdbe382e349f50
+source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '963'
+ht-degree: 8%
 
 ---
 

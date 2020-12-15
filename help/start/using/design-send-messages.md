@@ -7,9 +7,9 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 1e7359db2de1a9c420af33ac85c0597c098ae3f8
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '577'
 ht-degree: 5%
 
 ---
@@ -74,18 +74,18 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mau
 
 個人化訊息是傳送相關內容、提供個人化體驗並提高開放率和轉化率的關鍵。 Adobe Campaign傳遞的跨通道訊息可透過多種不同方式個人化。 這些方式可根據描述檔與條件結合。 您可以：
 
-* 在訊息 [中插入動態個人化欄位](../../designing/using/personalization.md#inserting-a-personalization-field) ,
-* Insert [predefined personalization blocks](../../designing/using/personalization.md#adding-a-content-block)
-* [個人化電子郵件](../../designing/using/subject-line.md) 或簡訊的傳送者。
-* [個人化電子郵件的主旨](../../designing/using/subject-line.md) ，或使用 [Predictive主旨行功能來最佳化電子郵件](../../designing/using/subject-line.md#subject-line) ,
-* 在電 [子郵件或登陸頁面](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) 中 [建立條件式內容](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
-* 在SMS [訊息](../../channels/using/defining-dynamic-text.md) 或推播通知中插入動態文字
+* 在訊息中插入[動態個人化欄位](../../designing/using/personalization.md#inserting-a-personalization-field)
+* 插入[預先定義的個人化區塊](../../designing/using/personalization.md#adding-a-content-block)
+* [個人化](../../designing/using/subject-line.md) 電子郵件或簡訊的發送者
+* [個人化電子](../../designing/using/subject-line.md) 郵件的主旨
+* 在電子郵件](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)或登陸頁面](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)中建立[條件式內容[
+* 在SMS訊息或推播通知中插入[動態文字](../../channels/using/defining-dynamic-text.md)
 
 ![](assets/delivery_content_43.png)
 
 **顯示全文**
 
-* 透過端對端範例 [探索電子郵件個人化](../../designing/using/personalization.md#example-email-personalization)
+* 透過[端對端範例](../../designing/using/personalization.md#example-email-personalization)探索電子郵件個人化
 * [個人化URL](../../designing/using/personalization.md#personalizing-urls)
 * [設定影像的個人化](../../designing/using/personalization.md#personalizing-an-image-source)
 

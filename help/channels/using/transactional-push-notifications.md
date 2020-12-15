@@ -2,16 +2,16 @@
 solution: Campaign Standard
 product: campaign
 title: 交易式推播通知
-description: 瞭解如何建立和發佈交易推播         通知。
+description: 瞭解如何使用Adobe Campaign Standard傳送交易推播通知。
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: caa41d6c727385bd6e77f64750872f191a5ad040
+source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1336'
+ht-degree: 4%
 
 ---
 

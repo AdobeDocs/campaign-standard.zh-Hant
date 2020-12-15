@@ -1,17 +1,17 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 設定交易式訊息傳遞
-description: 瞭解如何設定交易式訊息。
-audience: administration
+title: 設定交易事件
+description: 瞭解如何在Adobe Campaign中設定交易事件。
+audience: channels
 content-type: reference
-topic-tags: configuring-channels
+topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: caa41d6c727385bd6e77f64750872f191a5ad040
+source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1672'
+ht-degree: 6%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 設定完成後，必須發佈事件。 請參閱[發佈事務性事件](../../channels/using/publishing-transactional-event.md)。
 
-## 建立事件{#creating-an-event}
+## 建立一個事件 {#creating-an-event}
 
 若要開始，請建立符合您需求的事件。
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->即時事件的數量可能會對您的平台造成影響。 為確保最佳效能，請務必刪除未使用的即時事件。 請參閱[刪除事件](../../channels/using/publishing-transactional-event.md#deleting-an-event)。
+>交易事件的數量可能會對您的平台造成影響。 為確保最佳效能，請確定您刪除未使用的事件。 請參閱[刪除事件](../../channels/using/publishing-transactional-event.md#deleting-an-event)。
 
 ## 定義事件屬性{#defining-the-event-attributes}
 

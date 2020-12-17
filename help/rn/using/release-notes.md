@@ -6,9 +6,9 @@ description: 本頁詳細說明最新 Campaign Standard 版本的內容
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2412'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 [發行計畫](../../rn/using/release-planning.md) | [控制面板版本](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/release-notes.html) | [文件更新](../../rn/using/documentation-updates.md) | [先前的發行版本](../../rn/using/release-notes-2020.md) | [已過時的功能](../../rn/using/deprecated-features.md)
 
-![](assets/do-not-localize/cp-icon.png) **新控制面板 10 月發行版本**，其中包含使用 CNAME 的網域設定及新的資料庫監控功能。[進一步瞭解](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)。
+![](assets/do-not-localize/cp-icon.png) **新控制面板 10 月發行版本**，其中包含使用 CNAME 的網域設定及新的資料庫監控功能。[進一步瞭解](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/release-notes.html)。
 
 ## 發行版本 20.4 – 2020 年 10 月 {#release-20-4---october-2020}
 

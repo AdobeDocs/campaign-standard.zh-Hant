@@ -3,14 +3,14 @@ solution: Campaign Standard
 product: campaign
 audience: end-user
 user-guide-title: Campaign Standard
-user-guide-description: '說明中心會解說主要功能、工作、設定和使用 Campaign Standard 所需的其他資源。 '
+user-guide-description: '說明中心，以瞭解使用 Campaign Standard 所需的主要功能、工作、設定和其他資源。 '
 breadcrumb-title: 促銷活動標準
 title: Campaign Standard 指南
 translation-type: tm+mt
 source-git-commit: 642b916369433d9a7a23d818e94f5e189a1c8596
 workflow-type: tm+mt
 source-wordcount: '1696'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -118,20 +118,20 @@ ht-degree: 98%
       + [建立直接郵件](channels/using/creating-the-direct-mail.md)
       + [定義直接郵件閱聽眾](channels/using/defining-the-direct-mail-audience.md)
       + [定義直接郵件內容](channels/using/defining-the-direct-mail-content.md)
-   + 交易式訊息傳送 {#transactional-messaging}
-      + [開始使用交易式訊息](channels/using/getting-started-with-transactional-msg.md)
-      + [最佳做法和限制](channels/using/transactional-messaging-limitations.md)
-      + 事件配置{#event-configuration}
-         + [設定交易事件](channels/using/configuring-transactional-event.md)
-         + [發佈交易事件](channels/using/publishing-transactional-event.md)
-      + 事務性消息版本{#transactional-message-edition}
-         + [編輯事務性消息](channels/using/editing-transactional-message.md)
-         + [測試交易式訊息](channels/using/testing-transactional-message.md)
-         + [事務性消息生命週期](channels/using/publishing-transactional-message.md)
+   + 異動訊息傳送 {#transactional-messaging}
+      + [開始使用異動訊息](channels/using/getting-started-with-transactional-msg.md)
+      + [最佳實務和限制](channels/using/transactional-messaging-limitations.md)
+      + 事件設定{#event-configuration}
+         + [設定異動事件](channels/using/configuring-transactional-event.md)
+         + [發佈異動事件](channels/using/publishing-transactional-event.md)
+      + 異動訊息版本{#transactional-message-edition}
+         + [編輯異動訊息](channels/using/editing-transactional-message.md)
+         + [測試異動訊息](channels/using/testing-transactional-message.md)
+         + [異動訊息生命週期](channels/using/publishing-transactional-message.md)
          + [執行與監控](channels/using/transactional-message-execution.md)
-      + [交易式推播通知](channels/using/transactional-push-notifications.md)
+      + [異動推播通知](channels/using/transactional-push-notifications.md)
       + [後續訊息](channels/using/follow-up-messages.md)
-      + [交易式訊息使用案例](channels/using/transactional-messaging-use-case.md)
+      + [異動訊息使用案例](channels/using/transactional-messaging-use-case.md)
    + 登錄頁面 {#landing-pages}
       + [登錄頁面快速入門](channels/using/getting-started-with-landing-pages.md)
       + [關於登錄頁面範本](channels/using/landing-page-templates.md)
@@ -473,30 +473,30 @@ ht-degree: 98%
       + [自訂資源](api/using/custom-resources.md)
    + [與自訂資源互動](api/using/interacting-with-custom-resources.md)
    + 管理設定檔 {#managing-profiles}
-      + [檢索設定檔](api/using/retrieving-profiles.md)
+      + [擷取設定檔](api/using/retrieving-profiles.md)
       + [更新設定檔](api/using/updating-profiles.md)
       + [建立設定檔](api/using/creating-profiles.md)
    + 管理服務與訂閱 {#managing-services-and-subscriptiopns}
       + [建立服務](api/using/creating-a-service.md)
-      + [檢索訂閱](api/using/retrieving-subscriptions.md)
+      + [擷取訂閱](api/using/retrieving-subscriptions.md)
       + [執行訂閱](api/using/perform-subscriptions.md)
       + [刪除訂閱](api/using/deleting-subscriptions.md)
    + [與行銷歷史記錄互動](api/using/interacting-with-marketing-history.md)
    + 隱私權管理 {#privacy-management}
       + [建立隱私權請求](api/using/creating-a-privacy-request.md)
       + [監控隱私權請求](api/using/monitoring-a-privacy-request.md)
-      + [檢索隱私資料檔案](api/using/retrieving-privacy-data-files.md)
+      + [擷取隱私資料檔案](api/using/retrieving-privacy-data-files.md)
       + [管理 CCPA 選擇退出](api/using/managing-ccpa-opt-out.md)
-   + [管理交易式訊息](api/using/managing-transactional-messages.md)
+   + [管理異動訊息](api/using/managing-transactional-messages.md)
    + 管理工作流程 {#managing-workflows}
       + [控管工作流程](api/using/controlling-a-workflow.md)
-      + [觸發信號活動](api/using/triggering-a-signal-activity.md)
+      + [觸發訊號活動](api/using/triggering-a-signal-activity.md)
    + 管理組織單位 {#managing-organizational-units}
-      + [檢索設定檔的組織單位](api/using/retrieving-an-organizational-unit.md)
+      + [擷取設定檔的組織單位](api/using/retrieving-an-organizational-unit.md)
       + [更新設定檔的組織單位](api/using/updating-profile-organizational-unit.md)
       + [更新組織單位屬性](api/using/updating-organizational-unit-attributes.md)
    + 管理地理單位 {#managing-geographical-units}
-      + [檢索設定檔的地理單位](api/using/retrieving-a-geographical-unit.md)
+      + [擷取設定檔的地理單位](api/using/retrieving-a-geographical-unit.md)
       + [更新設定檔的地理單位](api/using/updating-a-geographical-unit.md)
       + [更新地理單位屬性](api/using/updating-geographical-unit-attributes.md)
    + [疑難排解](api/using/troubleshooting.md)

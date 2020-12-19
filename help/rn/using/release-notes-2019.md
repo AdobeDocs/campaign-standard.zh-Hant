@@ -17,7 +17,7 @@ ht-degree: 8%
 
 # 發行說明 2019 年{#release-notes-2019}
 
-[Release Planning ](https://helpx.adobe.com/tw/campaign/kb/acs-release-planning.html) Control Plenases [| Documentation Updates](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/release-notes.html) | Latest Notes [| Release](../../rn/using/documentation-updates.md)  [](../../rn/using/release-notes.md)  [| Deprecated Features](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html)
+[Release Planning ](https://helpx.adobe.com/tw/campaign/kb/acs-release-planning.html) Control Plenases [| Documentation Updates](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/release-notes.html) | Latest Notes [| Release](../../rn/using/documentation-updates.md)  [](../../rn/using/release-notes.md)  [| Deprecated Features](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=zh-Hant#release-notes)
 
 ## 版本19.4 - 2019年12月{#release-19-4---october-2019}
 

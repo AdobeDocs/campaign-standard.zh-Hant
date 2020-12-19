@@ -17,13 +17,13 @@ ht-degree: 4%
 
 # 更新設定檔 {#updating-profiles}
 
-更新配置式是使用 **PATCH請求執行** 。
+更新配置式是使用&#x200B;**PATCH**&#x200B;請求執行的。
 
 `https://mc.adobe.io/<ORGANIZATION>/campaign/<apiName>/<resourceName>/<PKEY>`
 
-1. 第一步是檢 **索配置檔案**。
+1. 第一步是&#x200B;**檢索配置檔案**。
 
-1. 在第二個請求中，我們將對配置檔案執行 **PATCH請求** ，並在裝載中包含已完成的資訊。
+1. 在第二個請求中，我們將對配置檔案執行&#x200B;**PATCH請求** ，並在裝載中執行已完成的資訊。
 
 1. 要檢查PATCH請求是否更新了配置檔案，我們可以執行最終的GET請求。
 

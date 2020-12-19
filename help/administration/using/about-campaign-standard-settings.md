@@ -18,15 +18,15 @@ ht-degree: 9%
 
 # 關於 Campaign Standard 設定{#about-campaign-standard-settings}
 
-[!DNL Campaign] Standard隨附不同的應用程式元素，可依您的需求進行設定。 例如：
+[!DNL Campaign] Standard隨附不同的應用程式元素，可依您的需求進行設定。例如：
 
 * 設定外部帳戶，
 * 設定目標對應，以管理傳送傳送所需的技術設定，
 * 在應用程式中設定內部通知等。
 
-這些設定可從／功 **[!UICONTROL Administration]** 能表 **[!UICONTROL Application settings]** 取用。
+這些設定可從&#x200B;**[!UICONTROL Administration]** / **[!UICONTROL Application settings]**&#x200B;功能表取得。
 
-此外，功能表中也提供技術選 **[!UICONTROL Options]** 項，讓您更具體地設定應用程式。 其中有些是內建的促銷活動，有些則可視需要手動新增（可用選項會依您實例安裝的套件而有所不同）。
+此外，**[!UICONTROL Options]**&#x200B;功能表中還提供技術選項，讓您更明確地設定應用程式。 其中有些是內建的促銷活動，有些則可視需要手動新增（可用選項會依您實例安裝的套件而有所不同）。
 
 >[!IMPORTANT]
 >

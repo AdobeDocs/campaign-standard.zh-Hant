@@ -27,4 +27,4 @@ ht-degree: 3%
 * A/B測試電子郵件：測試最多3個版本的電子郵件。
 * 交易電子郵件：根據客戶行為觸發的單一電子郵件。
 
-若要瞭解建立和傳送電子郵件時的最佳實務，請參閱「傳送 [最佳實務](../../sending/using/delivery-best-practices.md) 」一節。
+若要瞭解建立和傳送電子郵件時的最佳實務，請參閱[傳送最佳實務](../../sending/using/delivery-best-practices.md)一節。

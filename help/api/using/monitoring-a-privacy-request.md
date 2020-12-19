@@ -17,9 +17,9 @@ ht-degree: 25%
 
 # 監控隱私權請求 {#monitoring-a-privacy-request}
 
-您可以使用 **GET要求來監控已建立隱私權要求的** 相關資訊。
+您可以使用&#x200B;**GET**&#x200B;請求來監控有關已建立隱私權請求的資訊。
 
-「隱私權管理」檔案中提供狀態 [清單說明](https://helpx.adobe.com/tw/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)。
+狀態清單說明可在[隱私權管理文檔](https://helpx.adobe.com/tw/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)中找到。
 
 <br/>
 

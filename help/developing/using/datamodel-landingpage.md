@@ -606,7 +606,7 @@ ht-degree: 1%
          </td>
       </tr>
       <tr>
-         <td>標題</td>
+         <td>title</td>
          <td>著陸頁面</td>
          <td>字串(255)</td>
          <td> </td>

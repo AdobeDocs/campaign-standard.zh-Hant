@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '213'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -212,7 +212,7 @@ ht-degree: 5%
                   <td> </td>
                </tr>
                <tr>
-                  <td>標題</td>
+                  <td>title</td>
                   <td>服務</td>
                   <td>字串(255)</td>
                   <td> </td>

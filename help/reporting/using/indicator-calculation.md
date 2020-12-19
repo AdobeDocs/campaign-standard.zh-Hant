@@ -36,22 +36,22 @@ ht-degree: 2%
  </thead> 
  <tbody> 
   <tr> 
-   <td> 帳戶已停用<br /> </td> 
+   <td> 帳戶已禁用<br /> </td> 
    <td> @disabled<br /> </td> 
    <td> count(@failureReason=4)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> On denylist<br /> </td> 
-   <td> @黑名單<br /> </td> 
+   <td> @blacklisted<br /> </td> 
    <td> count(@failureReason=8, @failureType=2)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 登記率<br /> </td> 
+   <td> 登錄率<br /> </td> 
    <td> @rateBlacklisted<br /> </td> 
    <td> @blacklisted/@sent<br /> </td> 
-   <td> 比率計算的分母是以「已傳送」計數（「已傳送」+「彈回數」）為基礎。<br /> </td> 
+   <td> 比率計算的分母是基於「已傳送」計數（「已傳送」+「彈回數」）。<br /> </td> 
   </tr> 
   <tr> 
    <td> 彈回數+錯誤<br /> </td> 
@@ -74,20 +74,20 @@ ht-degree: 2%
   <tr> 
    <td> 點進率<br /> </td> 
    <td> @clickthrough<br /> </td> 
-   <td> @uniqueclicks/@delived<br /> </td> 
+   <td> @uniqueclicks/@delivered<br /> </td> 
    <td> 比率計算的分母僅基於「已傳送」。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 交付<br /> </td> 
+   <td> 已傳送<br /> </td> 
    <td> @delivered<br /> </td> 
    <td> count(@status=1)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 交付率<br /> </td> 
+   <td> 傳送率<br /> </td> 
    <td> @rateDelivered<br /> </td> 
    <td> @delivered/@sent<br /> </td> 
-   <td> 比率計算的分母是以「已傳送」計數（「已傳送」+「彈回數」）為基礎。<br /> </td> 
+   <td> 比率計算的分母是基於「已傳送」計數（「已傳送」+「彈回數」）。<br /> </td> 
   </tr> 
   <tr> 
    <td> 硬彈回數<br /> </td> 
@@ -99,7 +99,7 @@ ht-degree: 2%
    <td> 硬彈回數率<br /> </td> 
    <td> @rateHardBounces<br /> </td> 
    <td> @hardBounces/@sent<br /> </td> 
-   <td> 比率計算的分母是以「已傳送」計數（「已傳送」+「彈回數」）為基礎。<br /> </td> 
+   <td> 比率計算的分母是基於「已傳送」計數（「已傳送」+「彈回數」）。<br /> </td> 
   </tr> 
   <tr> 
    <td> 無效的域<br /> </td> 
@@ -153,7 +153,7 @@ ht-degree: 2%
    <td> 隔離率<br /> </td> 
    <td> @rateQuarantine<br /> </td> 
    <td> @quarantine/@sent<br /> </td> 
-   <td> 比率計算的分母是以「已傳送」計數（「已傳送」+「彈回數」）為基礎。<br /> </td> 
+   <td> 比率計算的分母是基於「已傳送」計數（「已傳送」+「彈回數」）。<br /> </td> 
   </tr>
   <tr> 
    <td> 已拒絕<br /> </td> 
@@ -165,10 +165,10 @@ ht-degree: 2%
    <td> 拒絕率<br /> </td> 
    <td> @rateRejected<br /> </td> 
    <td> @rejected/@sent<br /> </td> 
-   <td> 比率計算的分母是以「已傳送」計數（「已傳送」+「彈回數」）為基礎。<br /> </td> 
+   <td> 比率計算的分母是基於「已傳送」計數（「已傳送」+「彈回數」）。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 已處理／已傳送<br /> </td> 
+   <td> 已處理／已發送<br /> </td> 
    <td> @sent<br /> </td> 
    <td> @delivered + @bounces<br /> </td> 
    <td> </td> 
@@ -183,12 +183,12 @@ ht-degree: 2%
    <td> 軟反彈率<br /> </td> 
    <td> @rateSoftBounces<br /> </td> 
    <td> @softBounces/@sent<br /> </td> 
-   <td> 比率計算的分母是以「已傳送」計數（「已傳送」+「彈回數」）為基礎。<br /> </td> 
+   <td> 比率計算的分母是基於「已傳送」計數（「已傳送」+「彈回數」）。<br /> </td> 
   </tr> 
   <tr> 
    <td> 獨特點按<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> 獨特點按次數是使用ThetaSketch概念計算的。 For more on this, refer to this <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">example</a>.<br /> </td> 
+   <td> 獨特點按次數是使用ThetaSketch概念計算的。 有關詳細資訊，請參閱此<a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">example</a>。<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -198,7 +198,7 @@ ht-degree: 2%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 無法訪問 <br /> </td> 
+   <td> 無法訪問<br /> </td> 
    <td> @unreachable<br /> </td> 
    <td> count(@failureReason=3)<br /> </td> 
    <td> </td> 
@@ -236,17 +236,17 @@ ht-degree: 2%
  </thead> 
  <tbody> 
   <tr> 
-   <td> 已處理／已傳送<br /> </td> 
+   <td> 已處理／已發送<br /> </td> 
    <td> @sent<br /> </td> 
    <td> @count(status=sent)<br /> </td> 
   </tr> 
   <tr> 
-   <td> 交付<br /> </td> 
+   <td> 已傳送<br /> </td> 
    <td> @delivered<br /> </td> 
-   <td> @count(status=delived)<br /> </td> 
+   <td> @count(status=delivered)<br /> </td> 
   </tr> 
   <tr> 
-   <td> 交付率<br /> </td> 
+   <td> 傳送率<br /> </td> 
    <td> @rateDelivered<br /> </td> 
    <td> (@delivered/@sent)*100<br /> </td> 
   </tr> 
@@ -268,12 +268,12 @@ ht-degree: 2%
   <tr> 
    <td> 唯一開啟<br /> </td> 
    <td> @uniqueopens<br /> </td> 
-   <td> 唯一開啟是使用唯一RecipientId的ThetaSketch概念計算。 For more on this, refer to this <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">example</a>.<br /> </td> 
+   <td> 唯一開啟是使用唯一RecipientId的ThetaSketch概念計算。 有關詳細資訊，請參閱此<a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">example</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 印象<br /> </td> 
    <td> @impressions<br /> </td> 
-   <td> @count(status=delived)<br /> </td> 
+   <td> @count(status=delivered)<br /> </td> 
   </tr> 
   <tr> 
    <td> 獨特印象<br /> </td> 
@@ -288,7 +288,7 @@ ht-degree: 2%
   <tr> 
    <td> 獨特點按<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> 獨特點按次數是使用ThetaSketch概念計算的。 For more on this, refer to this <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">example</a>.<br /> </td> 
+   <td> 獨特點按次數是使用ThetaSketch概念計算的。 有關詳細資訊，請參閱此<a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">example</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 點進率<br /> </td> 
@@ -311,31 +311,31 @@ ht-degree: 2%
  </thead> 
  <tbody> 
   <tr> 
-   <td> 已處理／已傳送<br /> </td> 
+   <td> 已處理／已發送<br /> </td> 
    <td> @sent<br /> </td> 
    <td> @count(status=sent)<br /> </td> 
    <td> sent=delivered<br /> </td> 
   </tr> 
   <tr> 
-   <td> 交付<br /> </td> 
+   <td> 已傳送<br /> </td> 
    <td> @delivered<br /> </td> 
-   <td> @count(status=delived)<br /> </td> 
+   <td> @count(status=delivered)<br /> </td> 
    <td> delivered=sent<br /> </td> 
   </tr> 
   <tr> 
    <td> 印象<br /> </td> 
    <td> @impressions<br /> </td> 
-   <td> @count(status=view)或@count（status=button 1按一下+按鈕2按一下+免除）<br /> </td> 
+   <td> @count(status=view)或@count(status=button 1 click + button 2 click + encomments)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> 獨特印象<br /> </td> 
    <td> @uniqueimpressions<br /> </td> 
    <td> @unique(@count(status=view))<br /> </td> 
-   <td> 針對 <span class="uicontrol">根據其促銷活動設定檔(inAppProfile)範本的Target使用者</span> ，使用者=收件者Id。<br /> 針對 <span class="uicontrol">Target行動應用程式(inAppBroadcast)</span> 和 <span class="uicontrol"></span> Target使用者根據其行動設定檔(inApp)範本的所有使用者，使用者= MC Id或相當等級，代表使用者、行動應用程式和裝置的獨特組合。<br /> </td> 
+   <td> 對於<span class="uicontrol">根據其促銷活動設定檔(inAppProfile)</span>範本的Target使用者，使用者=收件者Id。<br /> 針對 <span class="uicontrol">Target行動應用程式(inAppBroadcast)和</span>  <span class="uicontrol"></span> Target使用者根據其行動設定檔(inApp)範本的所有使用者，使用者= MC Id或相當等級，代表使用者、行動應用程式和裝置的獨特組合。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 應用程式內點按次數 <br /> </td> 
+   <td> 應用程式內點按<br /> </td> 
    <td> @inappclicks<br /> </td> 
    <td> @count(status=click)<br /> </td> 
    <td> </td> 
@@ -344,30 +344,30 @@ ht-degree: 2%
    <td> 獨特的應用程式內點按次數<br /> </td> 
    <td> @uniqueinapp<br /> </td> 
    <td> @unique(@count(status=clicks))<br /> </td> 
-   <td> 針對 <span class="uicontrol">根據其促銷活動設定檔(inAppProfile)範本的Target使用者</span> ，使用者=收件者Id。<br /> 針對 <span class="uicontrol">Target行動應用程式(inAppBroadcast)</span> 和 <span class="uicontrol"></span> Target使用者根據其行動設定檔(inApp)範本的所有使用者，使用者= MC Id或相當等級，代表使用者、行動應用程式和裝置的獨特組合。<br /> </td> 
+   <td> 對於<span class="uicontrol">根據其促銷活動設定檔(inAppProfile)</span>範本的Target使用者，使用者=收件者Id。<br /> 針對 <span class="uicontrol">Target行動應用程式(inAppBroadcast)和</span>  <span class="uicontrol"></span> Target使用者根據其行動設定檔(inApp)範本的所有使用者，使用者= MC Id或相當等級，代表使用者、行動應用程式和裝置的獨特組合。<br /> </td> 
   </tr> 
   <tr> 
    <td> 應用程式內點進率<br /> </td> 
    <td> @inappclickthrough<br /> </td> 
-   <td> 按鈕1或按鈕2的點按總次數／印象總數*100<br /> </td> 
+   <td> 按鈕1或按鈕2的點按總次數／印象總次數*100<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> 應用程式內解雇<br /> </td> 
-   <td> @compicent<br /> </td> 
+   <td> @compiconce<br /> </td> 
    <td> @count(status=close)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 獨特的應用程式內解雇<br /> </td> 
-   <td> @uniquecciption<br /> </td> 
+   <td> 獨特的應用程式內解散<br /> </td> 
+   <td> @uniqueccomplicention<br /> </td> 
    <td> @unique(@count(status=close))<br /> </td> 
-   <td> 針對 <span class="uicontrol">根據其促銷活動設定檔(inAppProfile)範本的Target使用者</span> ，使用者=收件者Id。<br /> 針對 <span class="uicontrol">Target行動應用程式(inAppBroadcast)</span> 和 <span class="uicontrol"></span> Target使用者根據其行動設定檔(inApp)範本的所有使用者，使用者= MC Id或相當等級，代表使用者、行動應用程式和裝置的獨特組合。<br /> </td> 
+   <td> 對於<span class="uicontrol">根據其促銷活動設定檔(inAppProfile)</span>範本的Target使用者，使用者=收件者Id。<br /> 針對 <span class="uicontrol">Target行動應用程式(inAppBroadcast)和</span>  <span class="uicontrol"></span> Target使用者根據其行動設定檔(inApp)範本的所有使用者，使用者= MC Id或相當等級，代表使用者、行動應用程式和裝置的獨特組合。<br /> </td> 
   </tr> 
   <tr> 
    <td> 應用程式內解雇率<br /> </td> 
-   <td> @unitsalrate<br /> </td> 
-   <td> 關閉總次數／曝光總次數*100<br /> </td> 
+   <td> @unitresalrate<br /> </td> 
+   <td> 關閉／總印象數*100<br /> </td> 
    <td> </td> 
   </tr> 
  </tbody> 

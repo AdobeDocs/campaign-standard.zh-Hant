@@ -28,15 +28,15 @@ ht-degree: 75%
 
 若要建立工作流程，請依照下列步驟進行：
 
-1. Drag and drop a [Query](../../automating/using/query.md) activity into your workflow and open it to define the main target.
+1. 將[Query](../../automating/using/query.md)活動拖放到工作流中，然後將其開啟以定義主目標。
 
    <!--The Query activity is presented in the [Query](../../automating/using/query.md) section.-->
 
-1. Drag and drop a [Load file](../../automating/using/load-file.md) activity to assign some data to a profile. 在此範例中，載入包含與資料庫之一些設定檔相對應帳號的檔案。
+1. 拖放[載入檔案](../../automating/using/load-file.md)活動，以指派部分資料至描述檔。 在此範例中，載入包含與資料庫之一些設定檔相對應帳號的檔案。
 
    ![](assets/load_file_activity.png)
 
-1. Drag and drop an [Enrichment](../../automating/using/enrichment.md) activity into your workflow and link the load file and query activities to it.
+1. 將[Enrichment](../../automating/using/enrichment.md)活動拖放至您的工作流程中，並將載入檔案和查詢活動連結至工作流程。
 
 1. 在擴充活動的 **[!UICONTROL Advanced relations]** 索引標籤中，選取 **[!UICONTROL 0 or 1 cardinality simple link]** 並定義要用於調解的欄位。在此處，我們會使用姓氏來調整資料和資料庫設定檔。
 
@@ -50,13 +50,13 @@ ht-degree: 75%
 
    如需詳細資訊，請參閱[擴充](../../automating/using/enrichment.md)區段。
 
-1. Drag and drop a [Segmentation](../../automating/using/segmentation.md) activity into your workflow and open it to refine the main target.
+1. 將[Segmentation](../../automating/using/segmentation.md)活動拖放至工作流程中，並開啟它以調整主要目標。
 
    ![](assets/load_file_segmentation.png)
 
    如需詳細資訊，請參閱[分段](../../automating/using/segmentation.md)區段。
 
-1. Drag and drop an [Email delivery](../../automating/using/email-delivery.md) activity into your workflow and open it.
+1. 將[電子郵件傳送](../../automating/using/email-delivery.md)活動拖放至您的工作流程並開啟。
 
    <!--The Email delivery activity is presented in the [Email delivery](../../automating/using/email-delivery.md) section.-->
 

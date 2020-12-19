@@ -17,17 +17,17 @@ ht-degree: 1%
 
 # 授權{#licenses}
 
-此 **[!UICONTROL Licenses]** 視窗可讓您檢視實例上已安裝的授權，以及其相關的不同資訊，例如組建編號、發行版本，或合約條款是否已被接受及由誰接受。
+**[!UICONTROL Licenses]**&#x200B;視窗可讓您檢視實例上已安裝的授權，以及其相關的不同資訊，例如組建編號、發行版本，或合約條款是否已被接受，以及合約對象。
 
 ![](assets/license_1.png)
 
 有了新建版本或新功能，授權條款可能會變更，而且需要由執行個體的系統管理員接受。
 
-在登入後，標準使用者將會出現下列視窗，其部分不需要任何動作。 他們仍可以按一下按鈕，在Adobe Campaign上 **[!UICONTROL OK]** 運作。
+在登入後，標準使用者將會出現下列視窗，其部分不需要任何動作。 他們仍可以按一下&#x200B;**[!UICONTROL OK]**&#x200B;按鈕，在Adobe Campaign上運作。
 
 ![](assets/license_2.png)
 
-管理員必須在安裝組建程式後30天內閱讀並確認新的協定條款，方法是檢查並 **[!UICONTROL I accept the terms from the license agreement]** 按一下 **[!UICONTROL Confirm]**。
+管理員必須在安裝組建後30天內閱讀並確認新協定條款，方法是選中&#x200B;**[!UICONTROL I accept the terms from the license agreement]**&#x200B;並按一下&#x200B;**[!UICONTROL Confirm]**。
 
 ![](assets/license_3.png)
 

@@ -40,7 +40,7 @@ ht-degree: 11%
 </tr>
 </table>
 
-## 客戶個人檔案 {#customer-profiles}
+## 客戶個人檔案{#customer-profiles}
 
 <img width="60px" alt="條件" src="assets/icon_profile.svg"/>
 
@@ -51,23 +51,23 @@ Adobe Campaign設定檔代表儲存在資料庫中的所有連絡人。 每個�
 * [關於用戶檔案](../../audiences/using/about-profiles.md)
 * [訪問組織中活動配置檔案的數量](../../audiences/using/active-profiles.md)
 
-## 豐富您的資料庫 {#populating-database}
+## 豐富資料庫{#populating-database}
 
 <img width="60px" alt="條件" src="assets/icon_populate.svg"/>
 
 Campaign Standard提供數種工具來協助您擴充行銷資料庫。 本節詳細說明您可使用不同方法將資料插入Campaign，並參考專用檔案。
 
-### 透過工作流程匯入資料 {#importing-data-through-workflows}
+### 透過工作流程{#importing-data-through-workflows}匯入資料
 
-工作流程可讓您收集資料，並透過使用活動將其匯入Campaign資 [**[!UICONTROL Data management]**](../../automating/using/about-data-management-activities.md) 料庫。 本節將介紹在透過工作流程匯入資料時的一般資訊和最佳 [實務](../../automating/using/about-data-import-and-export.md)。
+工作流程可讓您收集資料，並透過使用[**[!UICONTROL Data management]**](../../automating/using/about-data-management-activities.md)活動將其匯入Campaign資料庫。 [本節](../../automating/using/about-data-import-and-export.md)介紹了在通過工作流導入資料時的一般資訊和最佳做法。
 
 此外，您還可以設定範本以匯入資料。 如果您需要定期匯入具有相同結構的檔案，請使用匯入範本是最佳做法。 您可以設定兩種範本類型：
 
-* **工作流程範本**:這些是預先設定的工作流程，您可視需要設定一次，而且每次您要匯入資料並更新資料庫時，都可重複使用。 本節將詳細介紹導入資料的工作流模 [板示例](../../automating/using/creating-import-workflow-templates.md)。
+* **工作流程範本**:這些是預先設定的工作流程，您可視需要設定一次，而且每次您要匯入資料並更新資料庫時，都可重複使用。[本節](../../automating/using/creating-import-workflow-templates.md)中詳細說明了導入資料的工作流模板示例。
 
-* **匯入資料範本**:像工作流程範本一樣，這些範本是以工作流程為基礎的範本，可設定為上傳檔案以更新資料庫。 在設定後，使用者可在 **[!UICONTROL Profile & audiences]** /功能表下以簡化檢視來使 **[!UICONTROL Imports]** 用它。 如需匯入資料範本的詳細資訊，請參閱專 [用檔案](../../automating/using/importing-data-with-import-templates.md)。
+* **匯入資料範本**:像工作流程範本一樣，這些範本是以工作流程為基礎的範本，可設定為上傳檔案以更新資料庫。在設定後，使用者可在&#x200B;**[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]**&#x200B;選單下，以簡化的檢視來使用這些檢視。 有關導入資料模板的詳細資訊，請參閱[專用文檔](../../automating/using/importing-data-with-import-templates.md)。
 
-### 從著陸頁面收集資料 {#collecting-data-from-landing-pages}
+### 從著陸頁面收集資料{#collecting-data-from-landing-pages}
 
 登陸頁面是Web表單，可用來收集資料並建立或更新資料庫中的現有資訊。 其原則如下：
 
@@ -75,7 +75,7 @@ Campaign Standard提供數種工具來協助您擴充行銷資料庫。 本節�
 * 將每個輸入欄位與資料庫中的相應欄位映射。
 * 透過網站或訊息的直接連結，讓登陸頁面線上上提供。
 
-For more on landing pages, refer to the [dedicated documentation](../../channels/using/getting-started-with-landing-pages.md).
+如需著陸頁面的詳細資訊，請參閱[專屬檔案](../../channels/using/getting-started-with-landing-pages.md)。
 
 **顯示全文**
 
@@ -85,7 +85,7 @@ For more on landing pages, refer to the [dedicated documentation](../../channels
 ### 從Microsoft Dynamics 365同步設定檔
 
 Campaign Standard與Microsoft Dynamics 365的整合可讓您將Microsoft Dynamics 365的連絡人資料傳遞至Campaign資料庫。
-然後，這些連絡人會顯示在「設定檔」清單中，並可定位在行銷促銷活動中。 For more on this integration, refer to the [dedicated documentation](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md).
+然後，這些連絡人會顯示在「設定檔」清單中，並可定位在行銷促銷活動中。 有關此整合的詳細資訊，請參閱[專屬檔案](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)。
 
 >[!NOTE]
 >
@@ -98,7 +98,7 @@ Campaign Standard與Microsoft Dynamics 365的整合可讓您將Microsoft Dynamic
 
 ### 透過API呼叫匯入資料
 
-Campaign Standard API可讓您執行更新資料庫的作業，例如設定檔或服務的建立、更新或刪除。 如需如何使用API的詳細資訊，請參閱專用 [檔案](../../api/using/get-started-apis.md)。
+Campaign Standard API可讓您執行更新資料庫的作業，例如設定檔或服務的建立、更新或刪除。 有關如何使用API的詳細資訊，請參閱[專用檔案](../../api/using/get-started-apis.md)。
 
 >[!CAUTION]
 >
@@ -109,7 +109,7 @@ Campaign Standard API可讓您執行更新資料庫的作業，例如設定檔�
 * xxxx
 * xxxx
 
-## 組織您的受眾 {#organizing-audiences}
+## 組織您的觀眾{#organizing-audiences}
 
 <img width="60px" alt="條件" src="assets/icon_audience.svg"/>
 
@@ -128,7 +128,7 @@ Campaign Standard API可讓您執行更新資料庫的作業，例如設定檔�
 
 GDPR 是歐盟 (EU) 最新制定的一項隱私法規，用於協調和順應時代更新資料保護需求。GDPR 適用於所持有資料的主體居住於歐盟的 Adobe Campaign 客戶。除了Adobe Campaign中已提供的隱私權功能（包括同意管理、資料保留設定和使用者角色）外，我們還將此機會作為資料處理者加入其他功能，以協助您做好準備，以做為特定GDPR要求的資料掌控者。
 
-請參閱本指 [南](https://helpx.adobe.com/tw/campaign/kb/campaign-privacy.html) ，進一步瞭解Adobe Campaign為協助您符合GDPR而提供的工具和功能。
+請參閱本[指南](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)以進一步瞭解Adobe Campaign為協助您符合GDPR所提供的工具和功能。
 
 **顯示全文**
 

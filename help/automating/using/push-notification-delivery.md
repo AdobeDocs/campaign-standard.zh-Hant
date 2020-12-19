@@ -23,14 +23,14 @@ ht-degree: 47%
 
 ![](assets/recurrentpush.png)
 
-The **[!UICONTROL Push notification]** activity allows you to configure sending a push notification in a workflow. 這可以是單一傳送通知，只傳送一次，也可以是循環通知。
+**[!UICONTROL Push notification]**&#x200B;活動可讓您設定在工作流程中傳送推播通知。 這可以是單一傳送通知，只傳送一次，也可以是循環通知。
 
-* **單一** 傳送通知是標準的行動應用推播通知傳送，只傳送一次。
-* **循環通知** ，可讓您在定義的時段內，多次傳送相同的行動應用程式推播通知傳送至不同的目標。 您可以彙總每個期間的傳送，以取得符合您需求的報表。
+* **單** 一通知是傳送一次的標準行動應用推播通知。
+* **循環** 通知可讓您在定義的時段內，多次傳送相同的行動應用程式推播通知傳送給不同的目標。您可以彙總每個期間的傳送，以取得符合您需求的報表。
 
 ## 使用內容 {#context-of-use}
 
-The **[!UICONTROL Push notification]** activity is generally used to automate sending a notification to a target calculated in the same workflow.
+**[!UICONTROL Push notification]**&#x200B;活動通常用於自動傳送通知給相同工作流程中計算的目標。
 
 當連結至排程器時，您可以定義循環推播通知。
 
@@ -53,18 +53,18 @@ The **[!UICONTROL Push notification]** activity is generally used to automate se
 
 1. 選取推播通知傳送模式：
 
-   * **[!UICONTROL Single notification]**:推播通知只會傳送一次。 您可以在此處指定是否要向活動新增出站轉變。在本過程的步驟 7 中詳細說明不同的轉變類型。
-   * **[!UICONTROL Recurring notification]**:根據活動中定義的頻率，推播通知會傳送數次 **[!UICONTROL Scheduler]** 。 選取傳送的彙總期間。This allows you to regroup all the sends that occur during the defined period in one single push notification that is also called **recurring execution** and can be accessed from the application&#39;s marketing activity list.
+   * **[!UICONTROL Single notification]**:推播通知只會傳送一次。您可以在此處指定是否要向活動新增出站轉變。在本過程的步驟 7 中詳細說明不同的轉變類型。
+   * **[!UICONTROL Recurring notification]**:根據活動中定義的頻率，推播通知會傳送數次 **[!UICONTROL Scheduler]** 。選取傳送的彙總期間。這可讓您在單一推播通知中重新分組定義期間發生的所有傳送，此通知也稱為&#x200B;**循環執行**，可從應用程式的行銷活動清單存取。
 
       例如，對於每日傳送的循環生日通知，您可以選擇匯總每月傳送的傳送。 這可讓您每月收到有關傳送的報表，不過通知會每天傳送。
 
-1. 選擇通知類型。 這些類型來自「 > >」功能表中定義 **[!UICONTROL Resources]** 的推 **[!UICONTROL Templates]** 播通 **[!UICONTROL Delivery templates]** 知範本。
+1. 選擇通知類型。 這些類型來自於在&#x200B;**[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**&#x200B;功能表中定義的推播通知範本。
 1. 輸入推播通知的一般屬性。 您也可以將它附加至現有的行銷活動。工作流程的傳送活動標籤會以推播通知標籤更新。
-1. 定義推播通知內容。 請參閱 [建立推播通知](../../channels/using/preparing-and-sending-a-push-notification.md)
+1. 定義推播通知內容。 請參閱[建立推播通知](../../channels/using/preparing-and-sending-a-push-notification.md)
 1. 依預設，**[!UICONTROL Push notification]** 活動不包含任何外站轉變。如果要將出站轉變新增到 **[!UICONTROL Push Notification]** 活動中，請轉至高階活動選項的　**[!UICONTROL General]**　索引標籤（活動快速操作中的　![](assets/dlv_activity_params-24px.png)　按鈕），然後核取以下選項之一：
 
    * **[!UICONTROL Add outbound transition without the population]**：這可讓您產生一個外站轉變，其中包含與入站轉變完全相同的母體。
-   * **[!UICONTROL Add outbound transition with the population]**:這可讓您產生對外轉場，其中包含傳送通知的人口。 傳送準備期間排除的目標成員會排除在此轉換之外。
+   * **[!UICONTROL Add outbound transition with the population]**:這可讓您產生對外轉場，其中包含傳送通知的人口。傳送準備期間排除的目標成員會排除在此轉換之外。
 
 1. 確認活動的設定並儲存工作流程。
 
@@ -76,4 +76,4 @@ The **[!UICONTROL Push notification]** activity is generally used to automate se
 
 您可以在應用程式的行銷活動清單中存取在工作流程中建立的傳送。您可以使用控制面板來檢視工作流程的執行狀態。推播通知摘要窗格中的連結可讓您直接存取連結的元素（工作流程、促銷活動等）。
 
-In the parent deliveries, which can be accessed from the marketing activity list, you can view the total number of sends that have been processed (according to the aggregation period specified when the **[!UICONTROL Push notification]** activity was configured). 若要這麼做，請選取 ![](assets/wkf_dlv_detail_button.png)，以開啟上層傳送 **[!UICONTROL Deployment]** 區塊的詳細資訊檢視。
+在可從行銷活動清單存取的父傳送中，您可以檢視已處理的傳送總數（根據&#x200B;**[!UICONTROL Push notification]**&#x200B;活動設定時指定的匯總期間）。 若要這麼做，請選取 ![](assets/wkf_dlv_detail_button.png)，以開啟上層傳送 **[!UICONTROL Deployment]** 區塊的詳細資訊檢視。

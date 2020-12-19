@@ -111,7 +111,7 @@ ht-degree: 98%
 
 若要將到期日期新增至推播通知：
 
-1. Check the **[!UICONTROL Expire message]** option: by selecting the **[!UICONTROL Expire message]** option, the duration is automatically set to 0. 如果您未變更值，APNS 和 FCM 都會嘗試立即傳送訊息。如果失敗，則不會重新發送消息。
+1. 選中&#x200B;**[!UICONTROL Expire message]**&#x200B;選項：通過選擇&#x200B;**[!UICONTROL Expire message]**&#x200B;選項，持續時間會自動設定為0。 如果您未變更值，APNS 和 FCM 都會嘗試立即傳送訊息。如果失敗，則不會重新發送消息。
 
 1. 在 **[!UICONTROL Duration]** 欄位中，選取推播通知的有效性。
 

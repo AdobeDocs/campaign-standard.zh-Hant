@@ -18,7 +18,7 @@ ht-degree: 86%
 
 # 使用其他資料個人化電子郵件 {#example--personalizing-an-email-with-additional-data}
 
-下列範例說明如何新增不同類型的其他資料至查詢，以及其作為電子郵件中個人化欄位的用途。如需如何豐富活動所定位資料的詳細 **[!UICONTROL Query]** 資訊，請參閱 [本節](../../automating/using/query.md#enriching-data)。
+下列範例說明如何新增不同類型的其他資料至查詢，以及其作為電子郵件中個人化欄位的用途。有關如何豐富&#x200B;**[!UICONTROL Query]**&#x200B;活動所定位的資料的詳細資訊，請參閱[本節](../../automating/using/query.md#enriching-data)。
 
 在此範例中，會使用[自訂資源](../../developing/using/data-model-concepts.md)：
 
@@ -32,7 +32,7 @@ ht-degree: 86%
 
 ![](assets/enrichment_example1.png)
 
-1. Add a [Query](../../automating/using/query.md) activity, which allows you to target the profiles that have carried out at least one transaction.
+1. 新增[Query](../../automating/using/query.md)活動，可讓您定位已執行至少一項交易的設定檔。
 
    ![](assets/enrichment_example2.png)
 
@@ -53,7 +53,7 @@ ht-degree: 86%
 
    ![](assets/enrichment_example5.png)
 
-1. 新增電子 [郵件傳送](../../automating/using/email-delivery.md) 活動。 在電子郵件內容中，插入與查詢中計算的資料對應的個人化欄位。您可以透過個人化欄位瀏覽器的 **[!UICONTROL Additional data (targetData)]** 連結找到它。
+1. 新增[電子郵件傳送](../../automating/using/email-delivery.md)活動。 在電子郵件內容中，插入與查詢中計算的資料對應的個人化欄位。您可以透過個人化欄位瀏覽器的 **[!UICONTROL Additional data (targetData)]** 連結找到它。
 
    ![](assets/enrichment_example3.png)
 

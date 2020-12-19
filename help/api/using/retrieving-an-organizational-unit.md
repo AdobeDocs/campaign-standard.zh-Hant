@@ -1,7 +1,7 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 檢索設定檔的組織單位
+title: 擷取設定檔的組織單位
 description: 瞭解如何使用API來瞭解個人檔案的組織單位。
 audience: developing
 content-type: reference
@@ -15,9 +15,9 @@ ht-degree: 12%
 ---
 
 
-# 檢索設定檔的組織單位 {#retrieving-organizational-units}
+# 擷取設定檔的組織單位 {#retrieving-organizational-units}
 
-1. 對配置檔案PKey執行GET請求以檢索 **orgUnit** URL。
+1. 對配置檔案PKey執行GET請求以檢索&#x200B;**orgUnit** URL。
 1. 對URL執行GET請求，以擷取有關組織單位的詳細資訊。
 
 <br/>

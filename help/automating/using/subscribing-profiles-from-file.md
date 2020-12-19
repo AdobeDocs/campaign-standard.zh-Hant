@@ -16,7 +16,7 @@ ht-degree: 53%
 ---
 
 
-# Subscribing profiles to a specific service after importing a file {#subscribing-profiles-to-a-specific-service-after-importing-a-file}
+# 在導入檔案{#subscribing-profiles-to-a-specific-service-after-importing-a-file}後將配置檔案預訂到特定服務
 
 此範例說明如何匯入包含設定檔的檔案並將其訂閱至現有服務中。匯入檔案後，必須進行調解，以便將匯入的資料識別為設定檔。為確保檔案不包含任何重複項目，將對資料執行重複資料刪除活動。
 
@@ -24,7 +24,7 @@ ht-degree: 53%
 
 ![](assets/subscription_activity_example1.png)
 
-* A [Load file](../../automating/using/load-file.md) activity loads the profile file and defines the structure of the imported columns.
+* [載入檔案](../../automating/using/load-file.md)活動會載入描述檔，並定義匯入欄的結構。
 
    在此範例中，載入檔案為 .csv 格式，並包含以下資料：
 
@@ -43,14 +43,14 @@ ht-degree: 53%
 
    ![](assets/subscription_activity_example2.png)
 
-* A [Reconciliation](../../automating/using/reconciliation.md) activity identifies the data from the file as belonging to the profile dimension of the Adobe Campaign database. 僅設定 **[!UICONTROL Identification]** 索引標籤。它會根據描述檔的電子郵件地址識別檔案資料。
+* [協調](../../automating/using/reconciliation.md)活動將來自檔案的資料標識為屬於Adobe Campaign資料庫的配置檔案維。 僅設定 **[!UICONTROL Identification]** 索引標籤。它會根據描述檔的電子郵件地址識別檔案資料。
 
    ![](assets/subscription_activity_example3.png)
 
-* A [Deduplication](../../automating/using/deduplication.md) based on the **email** field of the temporary resource (resulting from the reconciliation) identifies any duplicates. 如果從檔案匯入的資料包含任何重複項目，所有資料服務的訂閱將會失敗。
+* 基於臨時資源（由協調產生）的&#x200B;**email**&#x200B;欄位的[重複資料消除](../../automating/using/deduplication.md)標識任何重複項。 如果從檔案匯入的資料包含任何重複項目，所有資料服務的訂閱將會失敗。
 
    ![](assets/subscription_activity_example5.png)
 
-* A [Subscription Services](../../automating/using/subscription-services.md) activity lets you select the service to which the profiles must be subscribed, the field corresponding to the subscription date, and the origin of the subscription.
+* [訂閱服務](../../automating/using/subscription-services.md)活動可讓您選擇必須訂閱描述檔的服務、與訂閱日期對應的欄位，以及訂閱的來源。
 
    ![](assets/subscription_activity_example4.png)

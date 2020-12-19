@@ -18,9 +18,9 @@ ht-degree: 33%
 
 # 使用外部資料更新資料庫 {#update-database-file}
 
-The following example shows the configuration of an **[!UICONTROL Update data]** activity following a **[!UICONTROL Load file]** activity. 此工作流程的目的在於，使用從檔案復原的資料，將設定檔新增或更新至 Adobe Campaign 資料庫。
+以下示例顯示&#x200B;**[!UICONTROL Load file]**&#x200B;活動後的&#x200B;**[!UICONTROL Update data]**&#x200B;活動的配置。 此工作流程的目的在於，使用從檔案復原的資料，將設定檔新增或更新至 Adobe Campaign 資料庫。
 
-在此示例中，使用的協調密鑰是電 **子郵件地址**。 載入「載入檔案 [」活動中的檔案是](../../automating/using/load-file.md)**** .txt格式檔案，包含下列範例資料：
+在此示例中，使用的協調密鑰是&#x200B;**電子郵件地址**。 在[Load file](../../automating/using/load-file.md)活動中載入的檔案是包含以下示例資料的&#x200B;**.txt**&#x200B;格式檔案：
 
 ```
 lastname;firstname;email;birthdate
@@ -35,7 +35,7 @@ grimes;daryl;daryl_890@testmail.com;12/06/1979
 tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
 ```
 
-The [Update data](../../automating/using/update-data.md) activity is configured as follows:
+[Update data](../../automating/using/update-data.md)活動的配置如下：
 
 ![](assets/deduplication_example2_writer1.png)
 

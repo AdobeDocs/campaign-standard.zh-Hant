@@ -18,8 +18,8 @@ ht-degree: 3%
 
 # 取消訂閱{#unsubscriptions}
 
-The **[!UICONTROL Unsubscriptions]** report identifies the deliveries with the most unsubscriptions.
+**[!UICONTROL Unsubscriptions]**&#x200B;報表會識別取消訂閱次數最多的傳送。
 
 ![](assets/delivery_reports_unsub.png)
 
-表格 **[!UICONTROL TOP 5 deliveries]** 和圖表顯示前5個已傳送訊息數量最高的傳送，以及已取消訂閱的收件者數量。 此處列出的資料是根據訊息取消訂閱連結的點按次數而定。
+**[!UICONTROL TOP 5 deliveries]**&#x200B;表格和圖表顯示前5個傳送內容，其中傳送訊息數目最多，而收件者數目則未訂閱。 此處列出的資料是根據訊息取消訂閱連結的點按次數而定。

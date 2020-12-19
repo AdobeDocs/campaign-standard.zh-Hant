@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
 source-wordcount: '138'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 >
 >因此，從18.7版開始，新的「促銷活動標準」例項以及沒有建立地理單位的現有例項，都無法實作此功能。
 >
->有關詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html"> Deprecated features</a>頁。
+>有關詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=zh-Hant#release-notes"> Deprecated features</a>頁。
 
 **geoUnitBase**&#x200B;端點可讓您與地理單位互動，例如，讓您更新其屬性或更新描述檔的單位。
 

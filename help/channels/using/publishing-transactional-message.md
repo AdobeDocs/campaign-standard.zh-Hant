@@ -1,7 +1,7 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 事務性消息生命週期
+title: 異動訊息生命週期
 description: 瞭解如何發佈、暫停、取消發佈和刪除交易式訊息。
 audience: channels
 content-type: reference
@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
 source-wordcount: '651'
-ht-degree: 74%
+ht-degree: 76%
 
 ---
 
 
-# 事務性消息生命週期{#publishing-transactional-message}
+# 異動訊息生命週期 {#publishing-transactional-message}
 
 當[事務性消息](../../channels/using/editing-transactional-message.md)準備好發送時，可以發佈該消息。
 
@@ -99,8 +99,8 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 ![](assets/message-center_13.png)
 
 **相關主題**：
-* [編輯事務性消息](../../channels/using/editing-transactional-message.md)
-* [測試交易式訊息](../../channels/using/testing-transactional-message.md)
+* [編輯異動訊息](../../channels/using/editing-transactional-message.md)
+* [測試異動訊息](../../channels/using/testing-transactional-message.md)
 * [整合事件觸發](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
 
 ## 暫停交易式訊息發佈 {#suspending-a-transactional-message-publication}

@@ -1,7 +1,7 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 開始使用交易式訊息
+title: 開始使用異動訊息
 description: 瞭解什麼是交易式訊息，並瞭解在Adobe Campaign Standard中設定交易式訊息的主要步驟。
 audience: channels
 content-type: reference
@@ -16,7 +16,7 @@ ht-degree: 8%
 ---
 
 
-# 開始使用交易式訊息 {#getting-started-with-transactional-messaging}
+# 開始使用異動訊息 {#getting-started-with-transactional-messaging}
 
 ## 概觀 {#overview}
 
@@ -137,5 +137,5 @@ Adobe Campaign提供兩種交易訊息。
 
 * [傳送訊息的關鍵步驟](../../channels/using/key-steps-to-send-a-message.md)
 * [開始使用通訊管道](../../channels/using/get-started-communication-channels.md)
-* [交易式推播通知](../../channels/using/transactional-push-notifications.md)
+* [異動推播通知](../../channels/using/transactional-push-notifications.md)
 * [後續訊息](../../channels/using/follow-up-messages.md)

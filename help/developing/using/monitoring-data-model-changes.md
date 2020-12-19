@@ -17,7 +17,7 @@ ht-degree: 16%
 
 # 監控資料模型變更{#monitoring-data-model-changes}
 
-功 **[!UICONTROL Diagnosis]** 能表可讓您參考應用程式產生的不同技術物件，以進行分析。
+**[!UICONTROL Diagnosis]**&#x200B;功能表可讓您參考應用程式產生的不同技術物件，以進行分析。
 
 >[!NOTE]
 >

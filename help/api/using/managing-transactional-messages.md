@@ -1,7 +1,7 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 管理交易式訊息
+title: 管理異動訊息
 description: 瞭解如何使用API管理交易訊息。
 audience: developing
 content-type: reference
@@ -9,13 +9,13 @@ topic-tags: campaign-standard-apis
 translation-type: tm+mt
 source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '678'
+ht-degree: 3%
 
 ---
 
 
-# 管理交易式訊息 {#managing-transactional-messages}
+# 管理異動訊息 {#managing-transactional-messages}
 
 ## 關於交易式訊息傳送
 

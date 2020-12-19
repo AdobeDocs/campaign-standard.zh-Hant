@@ -23,7 +23,7 @@ ht-degree: 4%
 
 Adobe Campaign Standard可讓您透過API觸發資料映射的立即擷取，並擷取擷取擷取請求的狀態。
 
-本頁介紹如何觸發和檢索資料映射的提取狀態。 如需Campaign Standard API的全域資訊，請參 [閱本節](../../api/using/get-started-apis.md)。
+本頁介紹如何觸發和檢索資料映射的提取狀態。 有關Campaign Standard API的全域資訊，請參閱[本節](../../api/using/get-started-apis.md)。
 
 ## 必要條件 {#prerequisites}
 
@@ -34,9 +34,9 @@ Adobe Campaign Standard可讓您透過API觸發資料映射的立即擷取，並
 
 建立資料對應後，您必須停止它的執行，以便您可以隨時從API觸發它。 要執行此操作，請依照下列步驟執行：
 
-1. 在「促銷活動標準」中，前往 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** >功能 **[!UICONTROL Status of data export to platform]** 表。
+1. 在「促銷活動標準」中，前往&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]**&#x200B;功能表。
 
-1. 連按兩下資料對應以開啟它，然後按一下 **[!UICONTROL Stop]** 按鈕。
+1. 連按兩下資料對應以開啟它，然後按一下&#x200B;**[!UICONTROL Stop]**&#x200B;按鈕。
 
    ![](assets/aep_datamapping_stop.png)
 
@@ -44,7 +44,7 @@ Adobe Campaign Standard可讓您透過API觸發資料映射的立即擷取，並
 
 資料映射執行現在停止。 您可以使用Campaign Standard API手動觸發它。
 
-## 開始立即擷取資料對應 {#starting-immediate-ingestion}
+## 開始立即提取資料映射{#starting-immediate-ingestion}
 
 POST操作會觸發XDM映射到Adobe Experience Platform的立即接收：
 
@@ -52,9 +52,10 @@ POST操作會觸發XDM映射到Adobe Experience Platform的立即接收：
 
 >[!NOTE]
 >
->為了執行收錄的POST API呼叫，使用者必須具有 **SQL函式執行角色** ，此角色可由Campaign Standard管理員透過執行下列JS指令碼提供：
+>為了執行收錄的POST API呼叫，使用者必須具有&#x200B;**SQL函式執行**&#x200B;角色，此角色可由Campaign Standard管理員執行下列JS指令碼來提供：
 >
->```
+>
+```
 >var sqlRoleObj = REST.head.roleBase.sql.get();
 >REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);
 >```
@@ -94,7 +95,7 @@ POST操作返回有關已建立請求狀態的資訊：
 }
 ```
 
-## 檢索提取請求的狀態 {#retrieving-status}
+## 檢索提取請求的狀態{#retrieving-status}
 
 您可以使用GET操作和參數中所需的請求ID來擷取擷取請求的狀態：
 
@@ -105,7 +106,7 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 
 >[!NOTE]
 >
->有關XDM映射請求狀態及其相關作業的詳細資訊，請參閱功能表中的「促銷活動標準」介 **[!UICONTROL Status of data export to platform]** 面(請參 [閱映射啟動](../../developing/using/aep-mapping-activation.md))。
+>有關XDM映射請求狀態及其相關作業的詳細資訊，請參閱&#x200B;**[!UICONTROL Status of data export to platform]**&#x200B;功能表中的「促銷活動標準」介面（請參閱[映射啟動](../../developing/using/aep-mapping-activation.md)）。
 
 GET操作返回以下資訊：
 

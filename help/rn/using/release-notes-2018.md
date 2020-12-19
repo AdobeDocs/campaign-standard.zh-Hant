@@ -9,8 +9,8 @@ topic-tags: campaign-standard-releases
 translation-type: tm+mt
 source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '5402'
+ht-degree: 4%
 
 ---
 
@@ -118,7 +118,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> 用戶管理<br /> </td> 
-   <td> 現在，新的「促銷活動標準」例項以及未建立地理單位的現有例項（從18.7版開始）無法使用地理單位功能。<br /> 如需詳細資訊，請參閱本 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">頁</a>。<br /> </td> 
+   <td> 現在，新的「促銷活動標準」例項以及未建立地理單位的現有例項（從18.7版開始）無法使用地理單位功能。<br /> 如需詳細資訊，請參閱本 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=zh-Hant#release-notes">頁</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>

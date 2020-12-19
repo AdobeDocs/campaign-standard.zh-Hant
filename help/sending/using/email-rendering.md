@@ -76,7 +76,7 @@ Litmus [網站](https://litmus.com/email-testing)列出可在 Adobe Campaign 中
 >
 >Token帳戶是每個個別轉譯，而非整個「電子郵件」轉譯報表，這表示：
 >
->**每次產生** 「收件匣」轉譯報表時，會扣除每個訊息傳送用戶端一個代號：一個Outlook 2000轉譯的Token、一個Outlook轉譯的Token、一個Apple Mail轉譯的Token，等等。
+>**每次** 產生「收件匣」轉譯報表時，會扣除每個訊息傳送用戶端一個代號：一個Outlook 2000轉譯的Token、一個Outlook轉譯的Token、一個Apple Mail轉譯的Token，等等。
 >
 >**對於相同的傳送**，如果您再次產生電子郵件轉譯，可用的Token數量會依產生的轉譯數量而再次減少。
 

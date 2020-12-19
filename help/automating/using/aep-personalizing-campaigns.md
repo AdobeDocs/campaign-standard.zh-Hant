@@ -21,15 +21,15 @@ ht-degree: 8%
 >
 >觀眾目標服務目前為測試版，可能會經常更新，恕不另行通知。 客戶必須在Azure上代管（目前僅限北美地區測試版）才能存取這些功能。 如果您想要存取，請聯絡Adobe客戶服務。
 >
->**推播** 和 **** 應用程式內通道尚無法使用Adobe Experience Platform的情境式資料進行個人化。
+>**Pushand** In- **** Appchannels尚未提供使用Adobe Experience Platform的內容相關資料進行個人化的功能。
 
-在您的工作流程設定好 [Adobe Experience Platform觀眾後](../../audiences/using/aep-about-audience-destinations-service.md)，您就可以使用Experience Data Model(XDM)中獨家存在的描述檔屬性來個人化訊息。
+一旦您的工作流程設定了[Adobe Experience Platform觀眾](../../audiences/using/aep-about-audience-destinations-service.md)，您就可以使用Experience Data Model(XDM)中獨家存在的描述檔屬性來個人化訊息。
 
-若要這麼做，您必須將下列屬性新增至活 **[!UICONTROL Read audience]** 動：
+若要這麼做，您必須將下列屬性新增至&#x200B;**[!UICONTROL Read audience]**&#x200B;活動：
 
-1. 開啟活 **[!UICONTROL Read audience]** 動。 In the **[!UICONTROL Additional data]** tab, click the **[!UICONTROL Create element]** button.
+1. 開啟&#x200B;**[!UICONTROL Read audience]**&#x200B;活動。 在&#x200B;**[!UICONTROL Additional data]**&#x200B;標籤中，按一下&#x200B;**[!UICONTROL Create element]**&#x200B;按鈕。
 
-   請注意， **[!UICONTROL Additional data]** 標籤只有在選取Adobe Experience Platform對象後才可用。
+   請注意，**[!UICONTROL Additional data]**&#x200B;標籤只有在選取Adobe Experience Platform對象後才可用。
 
    ![](assets/aep_wkf_readaudience_attributes.png)
 
@@ -37,11 +37,11 @@ ht-degree: 8%
    >
    >此功能不支援陣列和地圖資料類型。 此外，只有聯合架構中的資料才會顯示在選擇器中。
 
-1. 從清單中選取所需的XDM欄位，然後按一下 **[!UICONTROL Confirm]**。
+1. 從清單中選擇所需的XDM欄位，然後按一下&#x200B;**[!UICONTROL Confirm]**。
 
    ![](assets/aep_wkf_readaudience_perso1.png)
 
-1. 按一下 **[!UICONTROL Add]** 按鈕，將其新增至其他資料清單。
+1. 按一下&#x200B;**[!UICONTROL Add]**&#x200B;按鈕，將其新增至其他資料清單。
 
    ![](assets/aep_wkf_readaudience_perso3.png)
 
@@ -49,9 +49,9 @@ ht-degree: 8%
 
    >[!NOTE]
    >
-   >在活動中最多可以添加20個XDM字 **[!UICONTROL Read audience]** 段。
+   >在&#x200B;**[!UICONTROL Read audience]**&#x200B;活動中最多可以添加20個XDM欄位。
 
-1. 新增所有欄位後，按一下按 **[!UICONTROL Confirm]** 鈕以儲存變更。 現在，您可以透過這些工具個人化您的遞送。
+1. 新增所有欄位後，按一下&#x200B;**[!UICONTROL Confirm]**&#x200B;按鈕以儲存您所做的變更。 現在，您可以透過這些工具個人化您的遞送。
 
 如需如何建立和個人化傳送的詳細資訊，請參閱Campaign Standard檔案：
 

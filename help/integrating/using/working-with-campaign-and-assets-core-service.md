@@ -21,7 +21,7 @@ ht-degree: 10%
 
 從Adobe Experience Cloud共用的資源可用於您的電子郵件和登陸頁面。
 
-1. 編輯電子郵件或著陸頁面的內容時，請移至影像區塊，然後透過內容相關 **[!UICONTROL Image shared from Adobe Experience Cloud]** 的選單進行選取。
+1. 編輯電子郵件或著陸頁面的內容時，請前往影像區塊，然後透過內容相關選單選擇&#x200B;**[!UICONTROL Image shared from Adobe Experience Cloud]**。
 
    ![](assets/dam_insert_image_dce.png)
 

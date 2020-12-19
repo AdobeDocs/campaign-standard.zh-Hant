@@ -37,7 +37,7 @@ ht-degree: 8%
 
 <img src="assets/do-not-localize/start.svg"  width="60px">
 
-**[傳送前先檢查](check-before-sending.md)** -避免常見錯誤
+**[傳送前檢查](check-before-sending.md)** -避免常見錯誤
 
 <img src="assets/do-not-localize/troubleshoot.svg"  width="60px">
 

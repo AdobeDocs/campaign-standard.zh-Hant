@@ -24,8 +24,8 @@ ht-degree: 78%
 
 ![](assets/enrichment_example_workflow.png)
 
-* A [Query](../../automating/using/query.md) activity that targets the profiles who will receive the message.
-* A [Load file](../../automating/using/load-file.md) activity that loads the purchase data. 例如：
+* [Query](../../automating/using/query.md)活動，其目標是將接收消息的配置檔案。
+* 載入購買資料的[載入檔案](../../automating/using/load-file.md)活動。 例如：
 
    ```
    tcode;tdate;customer;product;tamount
@@ -39,7 +39,7 @@ ht-degree: 78%
 
    在此範例檔案中，我們將使用電子郵件地址來調解資料與資料庫設定檔。您也可以啟用唯一 ID，如[本文件](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)所述。
 
-* An [Enrichment](../../automating/using/enrichment.md) activity that creates a link between the transaction data loaded from the file and the profiles selected in the **[!UICONTROL Query]**. 該連結在活動的 **[!UICONTROL Advanced relations]** 索引標籤中定義。連結以來自 **[!UICONTROL Load file]** 活動的轉變為基礎。它使用設定檔資源的「電子郵件」欄位和匯入檔案的「客戶」列作為調解標準。
+* [Enrichment](../../automating/using/enrichment.md)活動，在從檔案載入的事務資料和在&#x200B;**[!UICONTROL Query]**&#x200B;中選擇的配置檔案之間建立連結。 該連結在活動的 **[!UICONTROL Advanced relations]** 索引標籤中定義。連結以來自 **[!UICONTROL Load file]** 活動的轉變為基礎。它使用設定檔資源的「電子郵件」欄位和匯入檔案的「客戶」列作為調解標準。
 
    ![](assets/enrichment_example_workflow2.png)
 
@@ -77,11 +77,11 @@ ht-degree: 78%
 
       ![](assets/enrichment_example_workflow9.png)
 
-* A [Segmentation](../../automating/using/segmentation.md) activity with only one segment, that retrieves profiles of the initial target that have at least two transactions recorded. 將排除僅包含一個交易的設定檔。要執行此操作，區段的查詢會在先前定義的彙總上進行。
+* 只有一個區段的[分段](../../automating/using/segmentation.md)活動，可檢索至少記錄了兩個事務的初始目標的概要檔案。 將排除僅包含一個交易的設定檔。要執行此操作，區段的查詢會在先前定義的彙總上進行。
 
    ![](assets/enrichment_example_workflow5.png)
 
-* An [Email delivery](../../automating/using/email-delivery.md) activity that uses the additional data defined in the **[!UICONTROL Enrichment]** to dynamically retrieve the two last purchases made by the profile. 新增個人化欄位時，可在&#x200B;**其他資料　(TargetData)**　節點中找到其他資料。
+* [電子郵件傳送](../../automating/using/email-delivery.md)活動，使用&#x200B;**[!UICONTROL Enrichment]**&#x200B;中定義的其他資料動態擷取描述檔最後購買的兩項資料。 新增個人化欄位時，可在&#x200B;**其他資料　(TargetData)**　節點中找到其他資料。
 
    ![](assets/enrichment_example_workflow10.png)
 

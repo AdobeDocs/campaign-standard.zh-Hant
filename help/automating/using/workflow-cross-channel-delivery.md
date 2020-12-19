@@ -65,7 +65,7 @@ ht-degree: 86%
 
 由「查詢」活動識別目標後，您必須選取一個準則，將目標細分成兩個不同的母體：一個會收到電子郵件，另一個則會收到簡訊。
 
-You have to use a [Segmentation](../../automating/using/segmentation.md) activity to create one or several segments from a population computed upstream in a query.
+您必須使用[Segmentation](../../automating/using/segmentation.md)活動，才能從查詢上游計算的人口中建立一或多個區段。
 
 ![](assets/wkf_segment_activity.png)
 
@@ -112,7 +112,7 @@ You have to use a [Segmentation](../../automating/using/segmentation.md) activit
 
 ## 建立傳送 {#creating-deliveries}
 
-As two transitions were already created, you must now add two types of deliveries to the outbound transitions of the Segmentation activity: an [Email delivery](../../automating/using/email-delivery.md) activity and an [SMS delivery](../../automating/using/sms-delivery.md) activity.
+由於已建立兩個轉場，您現在必須將兩種類型的傳送新增至「區段」活動的對外轉場：[電子郵件傳送](../../automating/using/email-delivery.md)活動和[SMS傳送](../../automating/using/sms-delivery.md)活動。
 
 Adobe Campaign 可讓您將傳送新增至工作流程。若要這麼做，請從工作流程的活動色盤 **[!UICONTROL Channels]** 類別中選取傳送。
 
@@ -120,7 +120,7 @@ Adobe Campaign 可讓您將傳送新增至工作流程。若要這麼做，請�
 
 若要建立電子郵件傳送：
 
-1. 在第一個區段後 [拖放「電子郵件](../../automating/using/email-delivery.md) 」傳送活動。
+1. 將[電子郵件傳送](../../automating/using/email-delivery.md)活動拖放至第一個區段之後。
 1. 連按兩下活動以進行編輯。
 1. 選取 **[!UICONTROL Simple email]**。
 1. 選取 **[!UICONTROL Add an outbound transition with the population]** 並按一下 **[!UICONTROL Next]**。
@@ -133,11 +133,11 @@ Adobe Campaign 可讓您將傳送新增至工作流程。若要這麼做，請�
 1. 輸入電子郵件屬性，然後按一下 **[!UICONTROL Next]**。
 1. 若要建立電子郵件的版面，請選取 **[!UICONTROL Use the Email Designer]**。
 1. 編輯並儲存您的內容。
-1. 在訊息 **[!UICONTROL Schedule]** 控制面板的區段中，取消選取 **[!UICONTROL Request confirmation before sending messages]** 選項。
+1. 在消息儀表板的&#x200B;**[!UICONTROL Schedule]**&#x200B;部分中，取消選擇&#x200B;**[!UICONTROL Request confirmation before sending messages]**&#x200B;選項。
 
 若要建立簡訊傳送：
 
-1. 將SMS傳送活 [動拖放至](../../automating/using/sms-delivery.md) 其他區段之後。
+1. 將[SMS delivery](../../automating/using/sms-delivery.md)活動拖放到另一個區段後面。
 1. 連按兩下活動以進行編輯。
 1. 選取 **[!UICONTROL SMS]** 並按一下 **[!UICONTROL Next]**。
 1. 選取簡訊範本，並按一下 **[!UICONTROL Next]**。
@@ -150,7 +150,7 @@ Adobe Campaign 可讓您將傳送新增至工作流程。若要這麼做，請�
 
 ## 執行工作流程 {#running-the-workflow}
 
-Once the workflow is started, the population targeted by the **[!UICONTROL Query]** activity will be segmented to receive an Email or SMS delivery.
+工作流程啟動後，**[!UICONTROL Query]**&#x200B;活動所定位的人口族群將會分段，以接收電子郵件或簡訊傳送。
 
 若要執行工作流程，請按一下動作列中的 **[!UICONTROL Start]** 按鈕。
 

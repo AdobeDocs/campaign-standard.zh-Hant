@@ -35,7 +35,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->所有活動中都提供其他函式，讓您在使用外部參數呼叫工作流程後使用事件變數。 本節將詳述 [這些內容](../../automating/using/customizing-workflow-external-parameters.md)。
+>所有活動中都提供其他函式，讓您在使用外部參數呼叫工作流程後使用事件變數。 [本節](../../automating/using/customizing-workflow-external-parameters.md)將詳細說明。
 
 ## 日期 {#dates}
 

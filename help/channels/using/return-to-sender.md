@@ -25,7 +25,7 @@ ht-degree: 2%
 
 ![](assets/direct_mail_return_sender_1.png)
 
-導入模板位於下 **[!UICONTROL Adobe Campaign > Resources > Templates > Import templates > Update Direct Mail quarantines and delivery logs]**。 複製此範本以建立您自己的範本。 有關使用導入模板的詳細資訊，請參閱使 [用導入模板](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates)。
+**[!UICONTROL Adobe Campaign > Resources > Templates > Import templates > Update Direct Mail quarantines and delivery logs]**&#x200B;下提供導入模板。 複製此範本以建立您自己的範本。 有關使用導入模板的詳細資訊，請參閱[使用導入模板](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates)。
 
 ![](assets/direct_mail_return_sender_2.png)
 

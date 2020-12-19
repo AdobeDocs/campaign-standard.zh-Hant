@@ -30,7 +30,7 @@ ht-degree: 85%
 * Adobe Analytics。如需詳細資訊，請參閱[本區段](../../integrating/using/configure-campaign-analytics-integration.md)。
 * Google reCAPTCHA。如需詳細資訊，請參閱[本區段](#google-recaptcha-external-account)。
 * Microsoft Azure Blob 儲存。如需詳細資訊，請參閱[本區段](#microsoft-azure-external-account)。
-* OAuth 2.0. For more on this, refer to [this section](#oauth-account).
+* OAuth 2.0.有關詳細資訊，請參閱[本節](#oauth-account)。
 
 >[!NOTE]
 >
@@ -82,7 +82,7 @@ Adobe Campaign 隨附一組預先定義的外部帳戶。若要設定與外部�
 * 時常登入 SFTP 以直接檢查其內容。
 * 請記住，SFTP 硬碟的管理主要是您的責任。
 
-此外，請注意，您嘗試從中啟動SFTP連線的公用IP必須新增至促銷活動例項的allowlist。 Adding IP addresses to the allowlist can be requested via a [support ticket](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html), along with providing the public key to use for authentication.
+此外，請注意，您嘗試從中啟動SFTP連線的公用IP必須新增至促銷活動例項的allowlist。 可通過[支援票證](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)請求將IP地址添加到允許清單中，並提供用於驗證的公共密鑰。
 
 SFTP 伺服器可從「控制面板」進行管理。如需詳細資訊，請參閱[控制面板文件](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/sftp-management/about-sftp-management.html)。
 
@@ -93,16 +93,16 @@ SFTP 伺服器可從「控制面板」進行管理。如需詳細資訊，請參
 >
 >[在此處](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/faq.html#ims-org-id)查看您的執行個體是否在 AWS 上代管。
 
-## OAuth 2.0帳戶 {#oauth-account}
+## OAuth 2.0帳戶{#oauth-account}
 
 若為OAuth 2.0外部帳戶，請提供下列詳細資訊：
 
-* 授 **權類型**:僅支 **援用戶端憑證** 。
-* 安 **全API URL**:輸入授權端點。
-* **OAuth 2.0敏感認證**:本節是針對性質敏感的認證。 憑證值新增後，會在螢幕上遮色；到那時，它們將無法閱讀或編輯。 如果授權端點要求將特定憑證插入HTTP授權標題，而非POST內文參數，則可以為該憑證選擇「在標題中包含」選項。
-* **OAuth 2.0非敏感性認證**:本節是針對性質不敏感的認證。 憑證值新增後，會顯示在畫面上；也可以編輯。  如果授權端點要求將特定憑證插入HTTP授權標題，而非POST內文參數，則可以為該憑證選擇「在標題中包含」選項。
+* A **授予類型**:僅支援&#x200B;**用戶端認證**。
+* A **Secure API URL**:輸入授權端點。
+* **OAuth 2.0敏感認證**:本節是針對性質敏感的認證。憑證值新增後，會在螢幕上遮色；到那時，它們將無法閱讀或編輯。 如果授權端點要求將特定憑證插入HTTP授權標題，而非POST內文參數，則可以為該憑證選擇「在標題中包含」選項。
+* **OAuth 2.0非敏感性認證**:本節是針對性質不敏感的認證。憑證值新增後，會顯示在畫面上；也可以編輯。  如果授權端點要求將特定憑證插入HTTP授權標題，而非POST內文參數，則可以為該憑證選擇「在標題中包含」選項。
 
-在設定結束時，按一下「 **測試連接器** 」以確認外部帳戶設定正確。
+在配置結束時，按一下&#x200B;**測試連接器**&#x200B;以驗證外部帳戶設定正確。
 
 ![](assets/external_accounts_OAuth.png)
 

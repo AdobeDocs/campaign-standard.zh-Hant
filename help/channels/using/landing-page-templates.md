@@ -23,7 +23,7 @@ Campaign 隨附一組內建的登錄頁面範本：
 * **[!UICONTROL Acquisition]**：這是登錄頁面的預設範本，可讓您擷取和更新 Campaign 資料庫中的資料。
 * **[!UICONTROL Subscription]**：此範本應用於提供服務的訂閱。
 * **[!UICONTROL Unsubscription]**：此範本可從寄送給訂閱者的電子郵件連結至服務，讓他們得以取消訂閱此服務。
-* **[!UICONTROL Denylist]**：此範本應在設定檔不想再由 Campaign 聯絡時使用。For more about denylist management, refer to [About opt-in and opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+* **[!UICONTROL Denylist]**：此範本應在設定檔不想再由 Campaign 聯絡時使用。如需登入清單管理的詳細資訊，請參閱[關於促銷活動中的選擇加入和選擇退出。](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 這些範本在建立新登錄頁面時，預設會建議使用。
 

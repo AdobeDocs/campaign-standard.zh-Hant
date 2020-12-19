@@ -41,26 +41,26 @@ ht-degree: 7%
 
 您可以將自己的HTML內容上傳到電子郵件設計器。 如果尚未透過電子郵件設計工具建立，則會以相容模式載入，以保留原始HTML，但會限制透過UI的特定版本功能。
 
-有關詳細資訊，請參閱「兼 [容性」模式](../../designing/using/using-existing-content.md#compatibility-mode)
+有關詳細資訊，請參閱[相容模式](../../designing/using/using-existing-content.md#compatibility-mode)
 
 ## 如何建立我的第一個電子郵件內容？
 
 首先，從首頁建立電子郵件。
 然後，若要新增內容至電子郵件，您需要新增結構元件，並在其中插入內容元件。
 
-如需詳細資訊，請參閱從頭 [開始建立電子郵件](../../designing/using/quick-start.md#from-scratch-email)
+如需詳細資訊，請參閱[從頭開始建立電子郵件](../../designing/using/quick-start.md#from-scratch-email)
 
 ## 我為何需要更新片段？
 
 電子郵件設計工具正在不斷改進。如果您從頭開始建立電子郵件內容、從現成可用的範本建立內容，或者如果您已建立片段，您可能需要將內容更新至最新版本，以避免發生CSS衝突等問題。
 
-如需詳細資訊，請參閱「更 [新片段」](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-updates)
+如需詳細資訊，請參閱[更新片段](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-updates)
 
 ## 我可以在主題中儲存樣式嗎？
 
 樣式無法儲存為主題，以供日後重複使用。不過，CSS 樣式可以儲存在內容範本或電子郵件中。
 
-如需詳細資訊，請參閱樣 [式](../../designing/using/styles.md)
+如需詳細資訊，請參閱[Styles](../../designing/using/styles.md)
 
 ## 哪些字型可用？
 

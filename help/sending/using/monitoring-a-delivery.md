@@ -21,7 +21,7 @@ ht-degree: 86%
 有數種方式可監控傳送並評估其影響。 身為功能管理員，您可以存取訊息記錄檔和傳送記錄檔。
 >[!CAUTION]
 >
->只有具有角色 [和所有單位](../../administration/using/users-management.md#functional-administrators)存取權的職能管理員 **[!UICONTROL Administration]****** ，才能存取傳送記錄、訊息記錄、追蹤記錄、排除或訂閱記錄。 非管理員使用者可以定位這些記錄檔，但是從連結的表格（描述檔、傳送）開始。
+>只有具有&#x200B;**[!UICONTROL Administration]**&#x200B;角色和&#x200B;**所有**&#x200B;單元訪問權的[管理員](../../administration/using/users-management.md#functional-administrators)才能訪問發送日誌、消息日誌、跟蹤日誌、排除或訂閱日誌。 非管理員使用者可以定位這些記錄檔，但是從連結的表格（描述檔、傳送）開始。
 
 * **訊息記錄檔**：可直接從訊息控制面板存取這些記錄檔。其中會顯示傳送的詳細資料、已排除的目標、原因，以及開啟和點按數等追蹤資訊。
 

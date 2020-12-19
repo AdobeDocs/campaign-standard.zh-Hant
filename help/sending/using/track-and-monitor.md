@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: a7300666587362048431d0bafacc317170b317aa
 workflow-type: tm+mt
 source-wordcount: '410'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -31,31 +31,31 @@ ht-degree: 3%
 
 * 從訊息控制面板，您可以存取此特定訊息的數個報表。
 
-如需詳細資訊，請參 [閱監控傳送](../../sending/using/monitoring-a-delivery.md)。
+有關詳細資訊，請參閱[監視傳送](../../sending/using/monitoring-a-delivery.md)。
 
 ## 追蹤 {#tracking-deliveries}
 
-為了更清楚瞭解目標描述檔的行為，您可以追蹤他們對傳送的反應：接收、開啟、點按連結、取消訂閱等。 請參閱傳 **送的「追蹤記錄** 」標籤。
+為了更清楚瞭解目標描述檔的行為，您可以追蹤他們對傳送的反應：接收、開啟、點按連結、取消訂閱等。 請參閱傳送的&#x200B;**追蹤記錄**&#x200B;標籤。
 
-**提示**:預設會啟用訊息追蹤。 若要設定URL，請在傳送精靈的下方區段中選取「顯示URL」選項。 對於訊息的每個URL，您可以選擇是否啟用追蹤。
+**提示**:預設會啟用訊息追蹤。若要設定URL，請在傳送精靈的下方區段中選取「顯示URL」選項。 對於訊息的每個URL，您可以選擇是否啟用追蹤。
 
-如需詳細資訊，請參閱「追 [蹤訊息](../../sending/using/tracking-messages.md) 」區段和 [「追蹤指標](../../reporting/using/tracking-indicators.md) 」說明。
+有關詳細資訊，請參閱[跟蹤消息](../../sending/using/tracking-messages.md)部分和[跟蹤指示符](../../reporting/using/tracking-indicators.md)說明。
 
-## 動態報表 {#dyn-reports}
+## 動態報告{#dyn-reports}
 
 動態報表可讓您建立可完全自訂的即時報表，以監控您的促銷活動。 維度、量度和視覺化可讓您評估促銷活動對收件者的影響和成功。
 
 **提示** -內建報表可供您監控促銷活動，但您也可以將任何度量或維度拖放至報表，以自訂這些報表。
 
-For more on this, refer to the [Reporting guide](../../reporting/using/about-dynamic-reports.md).
+有關詳細資訊，請參閱[報告指南](../../reporting/using/about-dynamic-reports.md)。
 
 ## 熱點點按
 
 「熱點點按」報表會以每個連結的點按百分比呈現訊息內容（HTML和／或文字）。 透過顯示每個動態內容的點按百分比，您可以測量哪些內容最吸引收件者。
 
-如需詳細資訊，請參閱「熱點 [點按」報表](../../reporting/using/hot-clicks.md)。
+有關詳細資訊，請參閱[熱按一下報告](../../reporting/using/hot-clicks.md)。
 
-## 傳送效能提示 {#performance-tips}
+## 傳送效能提示{#performance-tips}
 
 * 請勿在實例上將交貨保持為失敗狀態，因為這會維護臨時表並影響效能。
 

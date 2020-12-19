@@ -33,10 +33,10 @@ Adobe Campaign可讓您透過一組服務來建立和管理電子報和跨通道
 
 請依照下列步驟建立訂閱機制：
 
-1. **建立服務** -依照本節所 [述的步驟](../../audiences/using/creating-a-service.md) ，建立訂閱服務
+1. **建立服務** -請依照本節中 [說明的](../../audiences/using/creating-a-service.md) 步驟建立訂閱服務
 1. **分享連結** -瞭解如何在本頁促銷和分享 [您的服務](../../audiences/using/promoting-a-service.md)
-1. **監視訂閱** -探索本節中監視服務訂閱的 [幾種方式](../../audiences/using/monitoring-subscriptions.md)
-1. **確認訂閱** -依照本 [教學課程](../../audiences/using/confirming-subscription-to-a-service.md) ，傳送訂閱確認訊息
+1. **監視訂閱** -探索數種方式，以監控本節中您服 [務的訂閱](../../audiences/using/monitoring-subscriptions.md)
+1. **確認訂閱** -依照本 [教學](../../audiences/using/confirming-subscription-to-a-service.md) 課程傳送訂閱確認訊息
 
 ## 其他資源
 

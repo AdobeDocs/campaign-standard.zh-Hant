@@ -17,17 +17,17 @@ ht-degree: 25%
 
 # 將訂閱擴充到應用程式資源{#extending-the-subscriptions-to-an-application-resource}
 
-在 Adobe Campaign 中，由行動裝置傳送的行動設定檔屬性資料會儲存在 **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** 資源中，您可藉此定義要從應用程式訂閱者收集的資料。For more information on custom resources, refer to [this page](../../developing/using/key-steps-to-add-a-resource.md).
+在 Adobe Campaign 中，由行動裝置傳送的行動設定檔屬性資料會儲存在 **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** 資源中，您可藉此定義要從應用程式訂閱者收集的資料。有關自定義資源的詳細資訊，請參閱[此頁](../../developing/using/key-steps-to-add-a-resource.md)。
 
 此資源可加以擴充，以收集您要從行動裝置傳送至Adobe Campaign的資料。
 
 1. 從進階功能表，透過 Adobe Campaign 標誌，依序選取 **[!UICONTROL Administration]** > **[!UICONTROL Development]** 及 **[!UICONTROL Custom resources]**。
-1. 按一 **[!UICONTROL Create]** 下並選擇 **[!UICONTROL Extend an existing resource]** 選項。
-1. Select the **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** resource and click **[!UICONTROL Create]**.
+1. 按一下&#x200B;**[!UICONTROL Create]**&#x200B;並選擇&#x200B;**[!UICONTROL Extend an existing resource]**&#x200B;選項。
+1. 選擇&#x200B;**[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]**&#x200B;資源，然後按一下&#x200B;**[!UICONTROL Create]**。
 
    ![](assets/in_app_personal_data_4.png)
 
-1. 在標籤 **[!UICONTROL Fields]** 的類別中， **[!UICONTROL Data structure]** 定義您要從行動應用程式擷取的客戶資料，方法是按一下 **[!UICONTROL Add field]** 按鈕。
+1. 在&#x200B;**[!UICONTROL Data structure]**&#x200B;標籤的&#x200B;**[!UICONTROL Fields]**&#x200B;類別中，按一下&#x200B;**[!UICONTROL Add field]**&#x200B;按鈕，定義要從行動應用程式擷取的客戶資料。
 
    >[!NOTE]
    >
@@ -35,15 +35,15 @@ ht-degree: 25%
 
    ![](assets/in_app_personal_data.png)
 
-1. 新增 **[!UICONTROL Label]** 和 **[!UICONTROL ID]** 新欄位。 選擇欄位的 **[!UICONTROL Type]**。
+1. 將&#x200B;**[!UICONTROL Label]**&#x200B;和&#x200B;**[!UICONTROL ID]**&#x200B;新增至新欄位。 選擇欄位的&#x200B;**[!UICONTROL Type]**。
 
    ![](assets/schema_extension_uc9.png)
 
-1. 在類別 **[!UICONTROL Link to profiles]** 中，設定用於將Adobe Campaign資料庫的描述檔連結至應用程式的訂閱者（例如電子郵件）的協調金鑰。
+1. 在&#x200B;**[!UICONTROL Link to profiles]**&#x200B;類別中，設定用於將Adobe Campaign資料庫的描述檔連結至應用程式訂閱者（例如電子郵件）的協調金鑰。
 
    請注意，對於您的應用程式內訊息，您只能為所有行動應用程式定義一個協調金鑰。
 
    ![](assets/in_app_personal_data_3.png)
 
-1. **[!UICONTROL Save]** 並發佈您的自訂資源。 有關自定義資源發佈的詳細資訊，請參 [閱此頁](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)。
+1. **[!UICONTROL Save]** 並發佈您的自訂資源。有關自定義資源發佈的詳細資訊，請參閱此[頁](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)。
 

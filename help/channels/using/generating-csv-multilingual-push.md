@@ -19,11 +19,11 @@ ht-degree: 0%
 
 上傳CSV檔案以產生內容以供傳送是一種支援多語言推播通知的功能。 CSV檔案的格式必須符合檔案上傳成功的特定准則，才能建立傳送。 以下各節將介紹檔案格式及其注意事項。
 
-## 檔案格式 {#file-format}
+## 檔案格式{#file-format}
 
 多語言推播需要CSV檔案中14欄：
 
-1. 標題
+1. title
 1. messageBody
 1. sound
 1. adge
@@ -38,27 +38,26 @@ ht-degree: 0%
 1. 語言
 1. silentPush
 
-按一下視窗中的，以檢查 **[!UICONTROL Download a sample file]** CSV范 **[!UICONTROL Manage Content Variants]** 例。 For more on this, refer to the this [section](../../channels/using/creating-a-multilingual-push-notification.md).
+在&#x200B;**[!UICONTROL Manage Content Variants]**&#x200B;視窗中按一下&#x200B;**[!UICONTROL Download a sample file]**&#x200B;以檢查CSV範例。 有關詳細資訊，請參閱[部分](../../channels/using/creating-a-multilingual-push-notification.md)。
 
-* **title, messageBody, sound, badge, deplinkURI, category, iosMediaAttachmentURL, androidMediaAttachmentURL**:一般推播裝載內容。 您必須以建立推播傳送時的類似方式提供此資訊。
-* **自訂欄位**: 對自訂欄位使用JSON格式，例如 `{"key1":"value1","key2":"value2"}`. 如需自訂欄位的範例，請參閱上述範例檔案。
-* **isContentAvailable**:標幟為「可用內容」檢查，值1表示true，值0表示false。 預設值為0。 如果將此欄留空，該值將被視為0。
-* **isMutableContent**:標籤可變內容，值1表示true，值0表示false。 預設值為0。 如果將此欄留空，該值將被視為0。
+* **title, messageBody, sound, badge, deplinkURI, category, iosMediaAttachmentURL, androidMediaAttachmentURL**:一般推播裝載內容。您必須以建立推播傳送時的類似方式提供此資訊。
+* **自訂欄位**:對自訂欄位使用JSON格式，例如 `{"key1":"value1","key2":"value2"}`.如需自訂欄位的範例，請參閱上述範例檔案。
+* **isContentAvailable**:標幟為「可用內容」檢查，值1表示true，值0表示false。預設值為0。 如果將此欄留空，該值將被視為0。
+* **isMutableContent**:標籤可變內容，值1表示true，值0表示false。預設值為0。 如果將此欄留空，該值將被視為0。
 * **地區**:locale是語言變體的欄位，例如「en_us」代表美國——英文，「fr_fr」代表法國——法文。
-* **語言**:與語言環境關聯的語言的名稱。 例如，如果地區設定為&quot;en_us&quot;，則語言名稱應為&quot;English-United States&quot;。
-* **silentPush**:推播通知類型的旗標。 如果是一般推播通知，則值應為0。 如果是無訊息推播，則值應為1。 預設值為0。 如果將此欄留空，該值將被視為0。
+* **語言**:與語言環境關聯的語言的名稱。例如，如果地區設定為&quot;en_us&quot;，則語言名稱應為&quot;English-United States&quot;。
+* **silentPush**:推播通知類型的旗標。如果是一般推播通知，則值應為0。 如果是無訊息推播，則值應為1。 預設值為0。 如果將此欄留空，該值將被視為0。
 
-## 建立csv檔案的限制與准則 {#constraints-guideline-csv}
+## 建立csv檔案{#constraints-guideline-csv}的限制與准則
 
-**每個列的名稱都是固定的**。
-您應在CSV檔案中包含每欄的名稱，如果您未對內容使用任何欄，請將其留空。
+**每個列的名稱都是固定的**。您應在CSV檔案中包含每欄的名稱，如果您未對內容使用任何欄，請將其留空。
 
 **&quot;locale&quot;和&quot;language&quot;欄是必填欄，且值對每一列都是唯一的。**
 此欄的空白值將導致檔案上傳失敗。
 
-**欄的順序很重要**。 上傳檔案中欄的順序必須與範例檔案的格式相同。
+**欄的順序很重要**。上傳檔案中欄的順序必須與範例檔案的格式相同。
 
-**引號欄內容**。 由於這是CSV（代表逗號分隔值）檔案，所以任何包含逗號(,)的欄內容都必須加上引號。 例如，「Hello, Tom!」
+**引號欄內容**。由於這是CSV（代表逗號分隔值）檔案，所以任何包含逗號(,)的欄內容都必須加上引號。 例如，「Hello, Tom!」
 
 **UTF-8編碼對於國際字元是必要的。**
 
@@ -66,9 +65,9 @@ ht-degree: 0%
 
 **變型不符。** 如果您使用內容區塊並鎖定具特定語言的對象，您必須在CSV檔案中列出每個目標語言，否則傳送傳送時會發生錯誤。
 
-## 在csv檔案中插入個人化欄位 {#personalization-field-csv}
+## 在csv檔案{#personalization-field-csv}中插入個人化欄位
 
-如果您想要使用個人化欄位，您應在檔 <span> 案中加入標籤。
+如果您想要使用個人化欄位，應在檔案中加入<span>標籤。
 
 若要將&quot;firstName&quot;個人化欄位插入messageBody，訊息必須是：
 
@@ -86,7 +85,7 @@ ht-degree: 0%
 
 * 一個是靜態類。 無論您打算使用哪個個人化欄位，都一律是class=&quot;nl-dce-field nl-dce-done&quot;。
 
-* 另一個是資料nl-expr，它是個人化領域的路徑。 例如，如果您從UI插入「firstName」個人化欄位，導覽路徑將是 **[!UICONTROL Context (context)]** > **[!UICONTROL Profile (profile)]** > **[!UICONTROL First name (firstName)]** （如下圖所示）。 在這種情況下，路徑將是
+* 另一個是資料nl-expr，它是個人化領域的路徑。 例如，如果您從UI插入&quot;firstName&quot;個人化欄位，導覽路徑將是&#x200B;**[!UICONTROL Context (context)]** > **[!UICONTROL Profile (profile)]** > **[!UICONTROL First name (firstName)]**（如下圖所示）。 在這種情況下，路徑將是
 
    ```
    /context/profile/firstName. data-nl-expr="/context/profile/firstName".
@@ -94,7 +93,7 @@ ht-degree: 0%
 
 ![](assets/multilingual_push_2.png)
 
-## 地區和語言名稱 {#locale-language-names}
+## 地區和語言名稱{#locale-language-names}
 
 支援下列語言：
 

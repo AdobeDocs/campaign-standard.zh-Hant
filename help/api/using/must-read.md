@@ -25,13 +25,13 @@ ht-degree: 0%
 
 ## 資源表示法
 
-所有API資源都可在 **JSON中使用** ，其副檔名為URL，或在HTTP接受標題內：
+所有API資源都可在&#x200B;**JSON**&#x200B;中使用，其URL副檔名或在HTTP接受標題中：
 
 `GET /profileAndServices/<resourceName>.json`
 
 >[!NOTE]
 >
->在URL中沒有副檔名時， **json格式是內容類型的預設格式** 。
+>在URL中沒有副檔名時，**json格式是content-type的預設1**&#x200B;格式。
 
 <br/>
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 * Adobe Campaign產生的自動主要金鑰值絕對不能儲存在外部資料庫或網站中。 您必須在資料庫定義中生成特定的鍵欄位，並在開發過程中使用它。
 
-## 自訂金鑰 {#custom-keys}
+## 自訂金鑰{#custom-keys}
 
 如果描述檔資源已使用自訂金鑰欄位進行擴充，您可將此欄位用作金鑰，而非Adobe Campaign產生的自動主要金鑰：
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 如果密鑰值與原始密鑰不同，或者您使用自己的業務密鑰作為URI而不是Adobe提供的密鑰，則不能使用PATCH操作來修改自定義密鑰。
 
-僅對頂層描述檔 **資源使用自訂金鑰** 。 URL由API傳回，不應由您自己建立。
+僅對&#x200B;**頂層配置檔案資源**&#x200B;使用自定義鍵。 URL由API傳回，不應由您自己建立。
 
 <br/>
 

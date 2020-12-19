@@ -65,7 +65,7 @@ ht-degree: 5%
    * **[!UICONTROL Transfer file]** 活動：將檔案從外部來源傳輸至促銷活動。在此範例中，我們想從SFTP伺服器傳輸檔案。
    * **[!UICONTROL Load file]** 活動：將檔案中的資料載入到資料庫中，然後使用「控制面板」中生成的專用密鑰對其進行解密。
 
-1. 開啟&#x200B;**[!UICONTROL Transfer file]**&#x200B;活動，然後根據您的需求進行設定。 有關如何配置活動的全局概念，請參閱[本節](../../automating/using/load-file.md)。
+1. 開啟&#x200B;**[!UICONTROL Transfer file]**&#x200B;活動，然後根據您的需求進行設定。 有關如何配置活動的全局概念可在[本節](../../automating/using/load-file.md)中獲得。
 
    在&#x200B;**[!UICONTROL Protocol]**&#x200B;標籤中，指定您要傳輸的sftp伺服器和加密。gpg檔案的詳細資訊。
 
@@ -107,7 +107,7 @@ ht-degree: 5%
 
 1. 配置&#x200B;**[!UICONTROL Query]**&#x200B;活動以定位資料庫中所需的資料。 如需詳細資訊，請參閱[本章節](../../automating/using/query.md)。
 
-1. 開啟&#x200B;**[!UICONTROL Extract file]**&#x200B;活動，然後根據您的需求（輸出檔案、欄、格式等）進行設定。 有關如何配置活動的全局概念，請參閱[本節](../../automating/using/extract-file.md)。
+1. 開啟&#x200B;**[!UICONTROL Extract file]**&#x200B;活動，然後根據您的需求（輸出檔案、欄、格式等）進行設定。 有關如何配置活動的全局概念可在[本節](../../automating/using/extract-file.md)中獲得。
 
    將預處理階段新增至活動，以加密要擷取的資料。 若要這麼做，請選取加密GPG金鑰，以用來加密資料。
 
@@ -117,7 +117,7 @@ ht-degree: 5%
    >
    >括弧中的值是使用GPG加密工具生成密鑰對時定義的&#x200B;**注釋**。 請確定您選擇了正確的相符金鑰，否則收件者將無法解密檔案。
 
-1. 開啟&#x200B;**[!UICONTROL Transfer file]**&#x200B;活動，然後指定您要傳送檔案的SFTP伺服器。 有關如何配置活動的全局概念可在[本節](../../automating/using/transfer-file.md)中獲得。
+1. 開啟&#x200B;**[!UICONTROL Transfer file]**&#x200B;活動，然後指定您要傳送檔案的SFTP伺服器。 有關如何配置活動的全局概念，請參閱[本節](../../automating/using/transfer-file.md)。
 
    ![](assets/gpg-transfer-encrypt.png)
 

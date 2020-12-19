@@ -24,11 +24,11 @@ ht-degree: 78%
 
 ![](assets/deduplication_example_workflow.png)
 
-* A [Query](../../automating/using/query.md) which allows you to define the target of the email. 在此，工作流將目標鎖定在客戶端資料庫中已存留超過一年的 18 到 25 歲的所有配置檔案。
+* [Query](../../automating/using/query.md)，可讓您定義電子郵件的目標。 在此，工作流將目標鎖定在客戶端資料庫中已存留超過一年的 18 到 25 歲的所有配置檔案。
 
    ![](assets/deduplication_example_query.png)
 
-* A [Deduplication](../../automating/using/deduplication.md) activity, which allows you to identify the duplicates that come from the preceding query. 在此範例中，僅會針對每個重複項目儲存一個記錄。重複項目是使用電子郵件地址識別。這表示每個要存在於定位中的電子郵件地址只能傳送一次電子郵件傳送。
+* [重複資料消除](../../automating/using/deduplication.md)活動，允許您識別來自前一查詢的重複資料。 在此範例中，僅會針對每個重複項目儲存一個記錄。重複項目是使用電子郵件地址識別。這表示每個要存在於定位中的電子郵件地址只能傳送一次電子郵件傳送。
 
    選取的重複刪除資料方法是 **[!UICONTROL Non-empty value]**。這可讓您確保在記錄中，若有重複項目，會對已提供&#x200B;**名字**&#x200B;的項目指定優先順序。如果在電子郵件內容的個人化欄位中使用名字，這會使其更加連貫。
 
@@ -36,5 +36,5 @@ ht-degree: 78%
 
    ![](assets/deduplication_example_dedup.png)
 
-* An [Email delivery](../../automating/using/email-delivery.md) placed after the main outbound transition of the deduplication.
-* A [Save audience](../../automating/using/save-audience.md) activity placed after the additional transition of the deduplication to save the duplicates in a **Duplicates** audience. 此對象可重複使用，以直接將其成員排除在每封電子郵件的傳送之外。
+* 在重複資料消除的主要出站轉移之後放置[電子郵件傳送](../../automating/using/email-delivery.md)。
+* A [儲存在重複資料消除附加轉移之後放置的觀眾](../../automating/using/save-audience.md)活動，以儲存&#x200B;**重複的觀眾**&#x200B;中的重複項目。 此對象可重複使用，以直接將其成員排除在每封電子郵件的傳送之外。

@@ -1,7 +1,7 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 發佈交易事件
+title: 發佈異動事件
 description: 瞭解如何預覽、發佈、取消發佈和刪除交易事件設定。
 audience: channels
 content-type: reference
@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
 source-wordcount: '607'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
 
-# 發佈事務性事件{#publishing-transactional-event}
+# 發佈異動事件 {#publishing-transactional-event}
 
 完成[configuration](../../channels/using/configuring-transactional-event.md)後，該事件即可發佈。 預覽、發佈、取消發佈和刪除事件的步驟如下。
 

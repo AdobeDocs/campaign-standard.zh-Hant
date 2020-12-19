@@ -63,7 +63,7 @@ Campaign Standard隨附一組&#x200B;**現成可用的動態報表**，可讓您
 
 拖放&#x200B;**視覺化項目**，將資料的圖形表示新增至報表，並根據您的需求進行設定。
 
-Create reports based on **custom profile data** created during the Profile resource extension, and **reports based on segments** defined in targeting workflows.
+根據在描述檔資源擴充期間建立的&#x200B;**自訂描述檔資料**&#x200B;建立報表，以及根據定位工作流程中定義的區段&#x200B;**建立報表。**
 
 顯示全文:
 

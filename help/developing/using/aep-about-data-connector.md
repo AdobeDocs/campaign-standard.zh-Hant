@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
 source-wordcount: '789'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -68,7 +68,7 @@ Adobe Experience Platform Data Connector的適用對象為&#x200B;**資料工程
 
 * 不支援立即可用的訂閱事件傳輸。 若要傳輸訂閱事件，您可以在Adobe Experience Platform上建立對應的XDM和資料集，然後為這些資料設定自訂資料對應。
 
-* 關於隱私權要求（存取和刪除動作），客戶需要透過[隱私權核心服務](https://docs.adobe.com/content/help/en/experience-platform/privacy/home.html#how-to-use-privacy-service-to-manage-privacy-job-requests)提出個別要求：一個用於Campaign，另一個用於Adobe Experience Platform。 如需詳細資訊，請參閱促銷活動中的[關於隱私權要求](https://helpx.adobe.com/campaign/kb/acs-privacy.html#righttoaccess)和[管理隱私權要求](https://helpx.adobe.com/tw/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)。
+* 關於隱私權要求（存取和刪除動作），客戶需要透過[隱私權核心服務](https://docs.adobe.com/content/help/en/experience-platform/privacy/home.html#how-to-use-privacy-service-to-manage-privacy-job-requests)提出個別要求：一個用於Campaign，另一個用於Adobe Experience Platform。 如需詳細資訊，請參閱促銷活動中的[關於隱私權要求](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=zh-Hant#getting-started)和[管理隱私權要求](https://helpx.adobe.com/tw/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)。
 
 * 對於每個XDM欄位，DULE標籤必須在Adobe Experience Platform中完成。 這是客戶應對應用DULE標籤的責任。
 

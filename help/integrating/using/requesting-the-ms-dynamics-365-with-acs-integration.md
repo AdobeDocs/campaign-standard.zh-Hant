@@ -25,15 +25,15 @@ ht-degree: 3%
 
 流程圖詳細資訊（映射至上述步驟）:
 
-* **步驟1** —— 假設您已擁有或正在購買Microsoft Dynamics 365的銷售授權和Adobe Campaign Standard授權。
+* **步驟1** -假設您已擁有或正在購買Microsoft Dynamics 365的銷售授權和Adobe Campaign Standard授權。
 
-* **步驟2** —— 標準整合方案對所有客戶都是免費的；不過，視您的需求而定，可能會產生額外成本(請參閱 [整合護欄和界限](../../integrating/using/ms-dynamics-365-integration-guardrails.md))。 需要簽署新的銷售訂單，才能運用整合。
+* **步驟2** -標準整合方案對所有客戶都是免費的；不過，視您的需求而定，可能會產生額外成本(請參閱 [整合護欄和界限](../../integrating/using/ms-dynamics-365-integration-guardrails.md))。需要簽署新的銷售訂單，才能運用整合。
 
-* **步驟3** - Dynamics 365和Campaign的完整整合前步驟。 請參 [閱設定此整合](#configure-this-integration)。
+* **步驟3** - Dynamics 365和Campaign的完整整合前步驟。請參閱[設定此整合](#configure-this-integration)。
 
-* **步驟4-7** - Adobe入門團隊將會與您合作完成入門程式。
+* **步驟4-7**  - Adobe入門團隊將會與您合作完成入門程式。
 
-## 設定此整合 {#configure-this-integration}
+## 設定此整合{#configure-this-integration}
 
 需要為此整合配置三個系統：Adobe Campaign Standard、Microsoft Dynamics 365 for Sales和整合工具。 設定文章會連結在下方。
 
@@ -43,9 +43,9 @@ ht-degree: 3%
 >
 >下列文章中的步驟將引導您建立整合／註冊，其中涉及指派權限和／或管理存取權。  您有責任確保這些步驟在執行前符合您的公司政策，並謹慎執行。
 
-在ADOBE CAMPAIGN中，您必須設定API存取權，並設定整合工具的新整合。 若要達成此目的，請參 [閱本文](../../integrating/using/configure-adobe-io-for-ms-dynamic.md)。
+在ADOBE CAMPAIGN中，您必須設定API存取權，並設定整合工具的新整合。 若要達成此目的，請參閱[本文](../../integrating/using/configure-adobe-io-for-ms-dynamic.md)。
 
-在MICROSOFT DYNAMICS 365中，您需要建立新的應用程式註冊，並讓應用程式使用者能夠使用整合。  若要針對此整合設定Microsoft Dynamics 365，請參閱 [本文](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)。
+在MICROSOFT DYNAMICS 365中，您需要建立新的應用程式註冊，並讓應用程式使用者能夠使用整合。  若要針對此整合設定Microsoft Dynamics 365，請參閱[本文](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)。
 
 您必須與Adobe入門團隊合作，以設定入口、出口和退出資料流的設定。
 

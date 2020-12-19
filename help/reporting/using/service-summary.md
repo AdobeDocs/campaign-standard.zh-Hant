@@ -18,11 +18,11 @@ ht-degree: 14%
 
 # 服務摘要{#service-summary}
 
-詳細 **[!UICONTROL Service summary]** 說明您服務的訂閱與取消訂閱的演變。
-此報表只能透過進階功能表>從您的「服務」頁面 **[!UICONTROL Profiles & Audiences]** 存取 **[!UICONTROL Services]**。 如需關於此項目的詳細資訊，請參閱此[頁面](../../audiences/using/monitoring-subscriptions.md#service-reports)。
+**[!UICONTROL Service summary]**詳細說明訂閱與取消訂閱服務的演變。
+只有您的「服務」頁面才能透過進階功能表**[!UICONTROL Profiles & Audiences]** > **[!UICONTROL Services]**&#x200B;存取此報告。 如需關於此項目的詳細資訊，請參閱此[頁面](../../audiences/using/monitoring-subscriptions.md#service-reports)。
 
 ![](assets/service-summary.png)
 
-視 **[!UICONTROL Subscription evolution curves]** 覺化會根據下拉式清單中選取的項目，詳細 **[!UICONTROL Period]** 列出訂閱和取消訂閱的數目。
+**[!UICONTROL Subscription evolution curves]**&#x200B;視覺化會根據下拉式清單列中選擇的&#x200B;**[!UICONTROL Period]**&#x200B;來詳細說明訂閱和取消訂閱的數目。
 
-它 **[!UICONTROL Overall subscription evolution]** 可讓您檢視不同時段訂閱者的演變。
+**[!UICONTROL Overall subscription evolution]**&#x200B;可讓您查看不同時段內訂閱者的演變。

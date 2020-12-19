@@ -17,7 +17,7 @@ ht-degree: 3%
 
 # 與自訂資源互動 {#interacting-with-custom-resources}
 
-使用 **/customResources** 端點，可以在REST中公開ACS自定義資源。 根據此API，可使用自訂實體與外部端點之間的整合。
+**/customResources**&#x200B;端點允許您在REST中公開ACS自定義資源。 根據此API，可使用自訂實體與外部端點之間的整合。
 
 /customResources端點的行為與/profileAndServices端點完全相同。
 
@@ -44,5 +44,5 @@ POST /customResources/<customResourceName>
 
 >[!NOTE]
 >隱私權API端點和工作流程(/privacy/privacyTool)不會管理未連結至描述檔實體的自訂資源。
->您有責任為這些自訂資源管理和清除任何PII。 如需隱私權工具的詳細資訊，請 [按一下這裡](../../api/using/creating-a-privacy-request.md)。
+>您有責任為這些自訂資源管理和清除任何PII。 有關隱私工具的詳細資訊，請按一下這裡[。](../../api/using/creating-a-privacy-request.md)
 

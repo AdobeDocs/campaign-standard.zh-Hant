@@ -64,7 +64,6 @@ ht-degree: 100%
       >[!NOTE]
       >
       >只有在管理員已設定 Adobe Experience Cloud 的共用對象功能時，才可使用此選項。如需詳細資訊，請參閱[使用 Campaign 及 People Core Service](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)。
-
    更新期間儲存或可用的對象類型會視工作流程上游的活動而定。
 
    如果對象的目標定位維度在儲存時未知（例如，如果來自匯入的檔案），則會建立或更新對象為 **[!UICONTROL File]** 類型觀眾。

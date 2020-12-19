@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
 workflow-type: tm+mt
 source-wordcount: '524'
-ht-degree: 21%
+ht-degree: 23%
 
 ---
 
@@ -72,12 +72,12 @@ Adobe Campaign可讓您跨各個通道啟動、衡量和自動化宣傳活動。
 
 顯示全文:
 
-* [開始使用交易式訊息](../../channels/using/getting-started-with-transactional-msg.md)
-* [設定交易事件](../../channels/using/configuring-transactional-event.md)
-* [發佈交易事件](../../channels/using/publishing-transactional-event.md)
-* [編輯事務性消息](../../channels/using/editing-transactional-message.md)
+* [開始使用異動訊息](../../channels/using/getting-started-with-transactional-msg.md)
+* [設定異動事件](../../channels/using/configuring-transactional-event.md)
+* [發佈異動事件](../../channels/using/publishing-transactional-event.md)
+* [編輯異動訊息](../../channels/using/editing-transactional-message.md)
 * [發佈交易式訊息](../../channels/using/publishing-transactional-message.md)
-* [交易式推播通知](../../channels/using/transactional-push-notifications.md)
+* [異動推播通知](../../channels/using/transactional-push-notifications.md)
 * [後續訊息](../../channels/using/follow-up-messages.md)
 
 ## 登錄頁面 {#landing-pages}

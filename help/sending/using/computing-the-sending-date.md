@@ -19,7 +19,7 @@ ht-degree: 1%
 
 您可以定義公式，在特定日期和時間將訊息傳送給每個收件者。
 
-## 自訂日期公式 {#customizing-date-formula}
+## 自訂日期公式{#customizing-date-formula}
 
 例如，您可以在啟動程式期間使用傳送時間最佳化。
 
@@ -33,57 +33,57 @@ ht-degree: 1%
 
 ![](assets/send-time_opt_workflow1.png)
 
-1. 存取行銷活動清單並建立新的工作流程。 See [Creating a workflow](../../automating/using/building-a-workflow.md#creating-a-workflow).
-1. Drag and drop a **Query** activity into your workflow and open it. 請參閱 [查詢](../../automating/using/query.md) 節。
-1. 選取對象（例如所有Gold客戶），然後按一下以 **[!UICONTROL Confirm]** 儲存查詢。
-1. Drag and drop a **Segmentation** activity into your workflow and open it. 請參閱 [區段](../../automating/using/segmentation.md) 。
+1. 存取行銷活動清單並建立新的工作流程。 請參閱[建立工作流](../../automating/using/building-a-workflow.md#creating-a-workflow)。
+1. 將&#x200B;**Query**&#x200B;活動拖放到工作流中並將其開啟。 請參閱[Query](../../automating/using/query.md)一節。
+1. 選取對象，例如所有Gold客戶，然後按一下&#x200B;**[!UICONTROL Confirm]**&#x200B;以儲存查詢。
+1. 將&#x200B;**Segmentation**&#x200B;活動拖放至您的工作流程並開啟它。 請參閱[區段](../../automating/using/segmentation.md)一節。
 1. 定義五個區段。 針對每個區段：
 
-   * 填寫欄 **[!UICONTROL Segment code]** 位：手動輸入要傳送訊息的日期和時間。
+   * 填寫&#x200B;**[!UICONTROL Segment code]**&#x200B;欄位：手動輸入要傳送訊息的日期和時間。
 
-      例如，您想在6月1日10:00 AM GMT+1傳送第一批批。 使用下列格式： **YYYY-MM-DD hh:mm:ss+tz**。
+      例如，您想在6月1日10:00 AM GMT+1傳送第一批批。 使用下列格式：**YYYY-MM-DD hh:mm:ss+tz**。
 
       ![](assets/send-time_opt_segment_configuration.png)
 
-      要在次日發送下一批，請為第 **二個段輸入2017-06-02 10:00:00+01** 。
+      要在次日發送下一批，請為第二個段輸入&#x200B;**2017-06-02 10:00:00+01**。
 
       對於其餘段，按如下方式定義下一批：
 
       * **2017-06-03 10:00:00+01**
       * **2017-06-04 10:00:00+01**
       * **2017-06-05 10:00:00+01**
-   * 請確定您選取了 **[!UICONTROL Limit the population of this segment]** 選項。
+   * 請務必選取&#x200B;**[!UICONTROL Limit the population of this segment]**&#x200B;選項。
 
-      在標籤 **[!UICONTROL Limitation]** 中，選 **[!UICONTROL Random sampling]** 取並輸入每個區段的所需百分比：第一批10，第二批15，依此類推。
+      在&#x200B;**[!UICONTROL Limitation]**&#x200B;標籤中，選擇&#x200B;**[!UICONTROL Random sampling]**&#x200B;並輸入每個區段的所需百分比：第一批10，第二批15，依此類推。
 
       ![](assets/send-time_opt_segment_limitation.png)
 
 
-1. 定義所有區段後，選取並 **[!UICONTROL Generate all segments in the same transition]** 按一下 **[!UICONTROL Confirm]**。
+1. 定義所有區段後，請選取&#x200B;**[!UICONTROL Generate all segments in the same transition]**，然後按一下&#x200B;**[!UICONTROL Confirm]**。
 
    ![](assets/send-time_opt_segment_dates.png)
 
-1. Drag and drop an **Email delivery** activity into your workflow and open it. 請參閱「電 [子郵件傳送](../../automating/using/email-delivery.md) 」區段。
-1. 按一下電 **[!UICONTROL Schedule]** 子郵件控制面板中的區段，然後選取 **[!UICONTROL Messages to be sent automatically on the date specified below]**。
-1. 在欄位 **[!UICONTROL Start sending from]** 中，定義連絡人日期。
-1. 從傳送時間最佳化下拉式功能表中，選擇 **[!UICONTROL Send at a custom date defined by a formula]**。
-1. 按一下 **[!UICONTROL Edit an expression]** 欄位的按 **[!UICONTROL Custom date formula]** 鈕。
+1. 將&#x200B;**電子郵件傳送**&#x200B;活動拖放至您的工作流程並開啟。 請參閱[電子郵件傳送](../../automating/using/email-delivery.md)一節。
+1. 按一下電子郵件控制面板中的&#x200B;**[!UICONTROL Schedule]**&#x200B;區段，然後選取&#x200B;**[!UICONTROL Messages to be sent automatically on the date specified below]**。
+1. 在&#x200B;**[!UICONTROL Start sending from]**&#x200B;欄位中，定義連絡人日期。
+1. 從「傳送時間最佳化」下拉式選單中，選擇&#x200B;**[!UICONTROL Send at a custom date defined by a formula]**。
+1. 按一下&#x200B;**[!UICONTROL Custom date formula]**&#x200B;欄位的&#x200B;**[!UICONTROL Edit an expression]**&#x200B;按鈕。
 
    ![](assets/send-time_opt_formula_define.png)
 
-1. 使用函式和欄位建立 **[!UICONTROL ToDateTime]** 下列運算 **[!UICONTROL Segment code]** 式。 您也可以直接在運算式中輸入，但請務必使用正確的語法和拼字。
+1. 使用&#x200B;**[!UICONTROL ToDateTime]**&#x200B;函式和&#x200B;**[!UICONTROL Segment code]**&#x200B;欄位建立下列運算式。 您也可以直接在運算式中輸入，但請務必使用正確的語法和拼字。
 
    ```
    ToDateTime([targetData/@segmentCode])
    ```
 
-   此函 **[!UICONTROL ToDateTime]** 數會將區段代碼從文字字串轉換為日期和時間值。
+   **[!UICONTROL ToDateTime]**&#x200B;函式會將區段代碼從文字字串轉換為日期和時間值。
 
    確認運算式以返回上一個畫面。
 
    ![](assets/send-time_opt_formula_define_segment.png)
 
-   在窗口 **[!UICONTROL Schedule]** 中，自定義日期公式顯示如下：
+   在&#x200B;**[!UICONTROL Schedule]**&#x200B;視窗中，自訂日期公式顯示如下：
 
    ```
    ToDateTime([targetData/@segmentCode])
@@ -99,7 +99,7 @@ ht-degree: 1%
 >
 >確認傳送時，請確定所有日期都在未來。 否則，消息將在確認發送後立即發送。
 
-## 使用運算式 {#using-an-expression}
+## 使用運算式{#using-an-expression}
 
 傳送時間最佳化也適用於呼叫中心相關的促銷活動。 您可以確保不會同時收到所有消息。 這可讓您的組織根據其能力處理呼叫數。
 
@@ -109,55 +109,55 @@ ht-degree: 1%
 
 ![](assets/send-time_opt_workflow2.png)
 
-1. 存取行銷活動清單並建立新的工作流程。 See [Creating a workflow](../../automating/using/building-a-workflow.md#creating-a-workflow).
-1. Drag and drop a **Query** activity into your workflow and open it. 請參閱 [查詢](../../automating/using/query.md) 節。
-1. 選取對象，例如超過35個描述檔，然後按一下 **[!UICONTROL Confirm]** 以儲存查詢。
-1. Drag and drop a **Segmentation** activity into your workflow and open it. 請參閱 [區段](../../automating/using/segmentation.md) 。
+1. 存取行銷活動清單並建立新的工作流程。 請參閱[建立工作流](../../automating/using/building-a-workflow.md#creating-a-workflow)。
+1. 將&#x200B;**Query**&#x200B;活動拖放到工作流中並將其開啟。 請參閱[Query](../../automating/using/query.md)一節。
+1. 選取對象，例如超過35個描述檔，然後按一下&#x200B;**[!UICONTROL Confirm]**&#x200B;以儲存查詢。
+1. 將&#x200B;**Segmentation**&#x200B;活動拖放至您的工作流程並開啟它。 請參閱[區段](../../automating/using/segmentation.md)一節。
 1. 定義四個區段。 針對每個區段：
 
    * 定義區段代碼如下：
 
-      * 8:00 AM - 10:00 AM: **0**. 訊息將於上午8:00（聯絡日期）傳送至目標人口的第一季。
-      * 10:00 AM - 12:00 PM: **2**. 訊息將於上午10:00（聯絡日期+ 2小時）傳送至目標人口的第二季。
-      * 2:00 PM - 4:00 PM: **6**. 客服中心在下午12:00至2:00之間關閉，訊息將於下午2:00（聯絡日期+ 6小時）傳送至目標人口的第三季。
-      * 4:00 PM - 6:00 PM: **8**. 訊息將於下午4:00（聯絡日期+ 8小時）傳送至目標人口的最後一季。
+      * 8:00 AM - 10:00 AM:**0**。 訊息將於上午8:00（聯絡日期）傳送至目標人口的第一季。
+      * 10:00 AM - 12:00 PM:**2**。 訊息將於上午10:00（聯絡日期+ 2小時）傳送至目標人口的第二季。
+      * 2:00 PM - 4:00 PM:**6**。 客服中心在下午12:00至2:00之間關閉，訊息將於下午2:00（聯絡日期+ 6小時）傳送至目標人口的第三季。
+      * 4:00 PM - 6:00 PM:**8**。 訊息將於下午4:00（聯絡日期+ 8小時）傳送至目標人口的最後一季。
 
       >[!NOTE]
       >
       >聯絡日期將在工作流程的稍後「電子郵件傳送」活動中定義。
 
-   * 請確定您選取了 **[!UICONTROL Limit the population of this segment]** 選項。
-   * 在標籤 **[!UICONTROL Limitation]** 中，選 **[!UICONTROL Random sampling]** 取並輸入每個區段的所需百分比： **25**.
+   * 請務必選取&#x200B;**[!UICONTROL Limit the population of this segment]**&#x200B;選項。
+   * 在&#x200B;**[!UICONTROL Limitation]**&#x200B;標籤中，選擇&#x200B;**[!UICONTROL Random sampling]**&#x200B;並輸入每個區段的所需百分比：**25**。
 
 
-1. 定義所有區段後，選取並 **[!UICONTROL Generate all segments in the same transition]** 按一下 **[!UICONTROL Confirm]**。
+1. 定義所有區段後，請選取&#x200B;**[!UICONTROL Generate all segments in the same transition]**，然後按一下&#x200B;**[!UICONTROL Confirm]**。
 
    ![](assets/send-time_opt_segment.png)
 
-1. Drag and drop an **Email delivery** activity into your workflow and open it. 請參閱「電 [子郵件傳送](../../automating/using/email-delivery.md) 」區段。
-1. 按一下電 **[!UICONTROL Schedule]** 子郵件儀表板中的區段。
+1. 將&#x200B;**電子郵件傳送**&#x200B;活動拖放至您的工作流程並開啟。 請參閱[電子郵件傳送](../../automating/using/email-delivery.md)一節。
+1. 按一下電子郵件控制面板中的&#x200B;**[!UICONTROL Schedule]**&#x200B;區段。
 1. 選取 **[!UICONTROL Messages to be sent automatically on the date specified below]**。
-1. 在欄位 **[!UICONTROL Start sending from]** 中，定義連絡人日期。
+1. 在&#x200B;**[!UICONTROL Start sending from]**&#x200B;欄位中，定義連絡人日期。
 
    在此範例中，選取5月25日8:00 AM。
 
-1. 從傳送時間最佳化下拉式功能表中，選擇並 **[!UICONTROL Send at a custom date defined by a formula]** 按一下按 **[!UICONTROL Edit an expression]** 鈕。
+1. 從傳送時間最佳化下拉式選單中，選擇&#x200B;**[!UICONTROL Send at a custom date defined by a formula]**，然後按一下&#x200B;**[!UICONTROL Edit an expression]**&#x200B;按鈕。
 
    ![](assets/send-time_opt_formula_expression.png)
 
-1. 在中， **[!UICONTROL Expression editor]**&#x200B;設定日期和區段代碼，以計算每個客戶的資料。
+1. 在&#x200B;**[!UICONTROL Expression editor]**&#x200B;中，設定日期和區段代碼，以計算每位客戶的資料。
 
-   在函式清單中，選擇 **[!UICONTROL AddHours]**。
+   在函式清單中，選擇&#x200B;**[!UICONTROL AddHours]**。
 
    ![](assets/send-time_opt_formula_expression_addhours.png)
 
-   在可用欄位中，選取 **[!UICONTROL Current delivery]** > **[!UICONTROL Delivery scheduling]** > **[!UICONTROL Contact date]**。
+   在可用欄位中，選擇&#x200B;**[!UICONTROL Current delivery]** > **[!UICONTROL Delivery scheduling]** > **[!UICONTROL Contact date]**。
 
    ![](assets/send-time_opt_formula_expression_contact_date.png)
 
-   這可讓您擷取欄位中指定的日期和時間 **[!UICONTROL Start sending from]** 。
+   這可讓您擷取在&#x200B;**[!UICONTROL Start sending from]**&#x200B;欄位中指定的日期和時間。
 
-   在函式清單中，選擇 **[!UICONTROL ToInteger]**。 在可用欄位中，選取 **[!UICONTROL Additional data]** > **[!UICONTROL Segment code]**。
+   在函式清單中，選擇&#x200B;**[!UICONTROL ToInteger]**。 在可用欄位中，選擇&#x200B;**[!UICONTROL Additional data]** > **[!UICONTROL Segment code]**。
 
    ![](assets/send-time_opt_formula_expression_segment_code.png)
 

@@ -10,8 +10,8 @@ context-tags: orgUnit,overview;orgUnit,main;geoUnit,overview;geoUnit,main
 translation-type: tm+mt
 source-git-commit: 824c91669bd717e5bf31dab9005e4c3b9e497edf
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '842'
+ht-degree: 4%
 
 ---
 

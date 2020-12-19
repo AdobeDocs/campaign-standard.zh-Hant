@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '1448'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -27,11 +27,11 @@ ht-degree: 0%
 
 不過，描述檔刪除與隱私權刪除不同。 促銷活動中的隱私權刪除會移除促銷活動描述檔記錄和相關記錄項目；但是，定期刪除描述檔只會刪除ACS描述檔記錄，而保留在促銷活動記錄中。
 
-如果整合中啟用了描述檔刪除功能，則需要執行其他步驟，才能正確處理資料主體的隱私權要求。 請參閱以下章節中 [的步驟](#manage-privacy-requests)。
+如果整合中啟用了描述檔刪除功能，則需要執行其他步驟，才能正確處理資料主體的隱私權要求。 請參閱](#manage-privacy-requests)下方[一節中的步驟。
 
 ## 隱私權
 
-### 管理隱私權要求 {#manage-privacy-requests}
+### 管理隱私權要求{#manage-privacy-requests}
 
 此整合旨在在Microsoft Dynamics 365和Adobe Campaign Standard之間傳輸使用者資料(包括但不限於個人資訊（若您的使用者資料中包含）。 身為資料掌控者，貴公司有責任遵守任何適用於您收集和使用個人資料的隱私權法律和法規。
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 如果您已設定整合，在Dynamics 365中刪除連絡人時，對促銷活動發出定期的描述檔刪除呼叫，請遵循下列步驟。 確保在此過程中未對相關記錄進行更新。
 
-1. 向 [Adobe Experience Platform Privacy Service發出隱私權刪除要求](https://www.adobe.io/apis/experiencecloud/gdpr.html)
+1. 向[Adobe Experience Platform Privacy Service](https://www.adobe.io/apis/experiencecloud/gdpr.html)發出隱私權刪除要求
 
 1. 監控請求，直到成功完成
 
@@ -56,18 +56,17 @@ ht-degree: 0%
 * [Adobe Campaign Standard](https://www.adobe.io/apis/experiencecloud/gdpr/docs.html)
 
 
-### 隱私權和連結資源 {#privacy-linked-resources}
+### 隱私權和連結資源{#privacy-linked-resources}
 
 如果任何促銷活動自訂資源記錄包含客戶使用促銷活動時適用的個人資訊，該記錄應連結至對應的促銷活動描述檔記錄（直接或透過其他自訂資源），如此，描述檔記錄上的隱私權相關刪除也可以刪除包含個人資訊的連結自訂資源記錄；必須配置實體之間的連結和刪除選項，以啟用連結記錄的類級聯刪除。 個人資訊不應輸入至未連結至描述檔的自訂資源。
 
-在本節中瞭解如何對應促銷活動資源 [和Dynamics 365實體](../../integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)。
+瞭解如何在本節](../../integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)中映射促銷活動資源和Dynamics 365實體[。
 
 ## 選擇退出
 
 由於Dynamics 365和Campaign之間的退出屬性不同，以及每個客戶的業務需求不同，因此選擇退出對應仍留作客戶完成的練習。  請務必確保退出選項在系統之間正確映射，以便維護最終用戶退出首選項，並且他們不會通過他們選擇退出的通道接收通信。
 
-請注意，只有首碼為「不再透過電子郵件聯絡」的促銷活動屬性或CCPA選擇退出的特定屬性才能用於選擇退出映射。 [進一步瞭解](../../developing/using/datamodel-profile.md).
-在Dynamics 365中，大多數選擇退出欄位都有「donot」字首；但是，如果資料類型相容，您也可以利用其他屬性來選擇退出。
+請注意，只有首碼為「不再透過電子郵件聯絡」的促銷活動屬性或CCPA選擇退出的特定屬性才能用於選擇退出映射。 [進一步瞭解](../../developing/using/datamodel-profile.md)。在Dynamics 365中，大多數選擇退出欄位都有「donot」字首；但是，如果資料類型相容，您也可以利用其他屬性來選擇退出。
 
 在布建整合時，您將有機會指定您的企業需要何種退出設定：
 
@@ -99,7 +98,7 @@ ht-degree: 0%
 
 此整合將同步從Dynamics 365到Campaign的連絡人和自訂實體。 整合不會修改在整合以外建立的促銷活動記錄（亦即，不是由同步工作建立），包括整合設定時現有的促銷活動記錄。
 
-由於此整合使用 **[!UICONTROL externalId]** Campaign中的欄位，將Campaign描述檔記錄與Dynamics 365連絡人記錄同步，因此，您要從Dynamics 365同步的記錄，必須填入此Campaign欄位(**[!UICONTROL externalId]****[!UICONTROL contactId]** )的Dynamics 365。  自訂實體也會使用Dynamics 365唯一ID同步化。 「促銷活動」自訂實體需要將此ID屬性包含為表格欄。 externalId欄可用來儲存此屬性值，但促銷活動自訂實體不需要它。
+由於此整合使用促銷活動中的&#x200B;**[!UICONTROL externalId]**&#x200B;欄位，將促銷活動描述檔記錄與Dynamics 365連絡人記錄同步，因此，您必須在此促銷活動欄位(**[!UICONTROL externalId]**)中填入Dynamics 365 **[!UICONTROL contactId]**，以取得您要從Dynamics 365同步的記錄。  自訂實體也會使用Dynamics 365唯一ID同步化。 「促銷活動」自訂實體需要將此ID屬性包含為表格欄。 externalId欄可用來儲存此屬性值，但促銷活動自訂實體不需要它。
 
 請記住，Dynamics 365仍是真相的來源，而且當整合偵測到Dynamics 365端的更新時，促銷活動描述檔資料可以覆寫。  視您現有的部署而定，也可能需要其他步驟來啟用整合；因此，建議您與Adobe技術聯絡人密切合作。
 

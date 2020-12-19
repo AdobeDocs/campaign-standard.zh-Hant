@@ -1,7 +1,7 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 檢索隱私資料檔案
+title: 擷取隱私資料檔案
 description: 瞭解如何使用API擷取隱私權資料檔案
 audience: developing
 content-type: reference
@@ -15,7 +15,7 @@ ht-degree: 4%
 ---
 
 
-# 檢索隱私資料檔案 {#retrieving-privacy-data-files}
+# 擷取隱私資料檔案 {#retrieving-privacy-data-files}
 
 >[!CAUTION]
 >

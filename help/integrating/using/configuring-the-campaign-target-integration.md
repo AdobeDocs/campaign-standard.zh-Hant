@@ -27,11 +27,11 @@ Adobe Campaign首先需要設定，才能使用與Adobe Target的整合功能，
 * Adobe Target租用戶
 * 指定Adobe Target rawbox以建立與Adobe Campaign的連線
 
-1. 從進階功能表，透過左上角的Adobe Campaign標誌，選取 **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**。
+1. 從進階功能表，透過左上角的Adobe Campaign標誌，選取&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**。
 1. 若要設定Adobe Target的伺服器和租用戶選項，請依此填入下列欄位：
 
-   * **[!UICONTROL TNT_TenantName]**:Adobe Target租用戶的名稱。 此值與Adobe Target的名稱相對應 **[!UICONTROL Client]**。
-   * **[!UICONTROL TNT_EdgeServer]**:用於整合的Adobe Target伺服器。 預設已提供此選項。 此值與Adobe Target相 **[!UICONTROL Server Domain]**&#x200B;對應，後跟 **/m2** 值。 例如： **tt.omtrdc.net/m2**.
+   * **[!UICONTROL TNT_TenantName]**:Adobe Target租用戶的名稱。此值與Adobe Target **[!UICONTROL Client]**&#x200B;的名稱相對應。
+   * **[!UICONTROL TNT_EdgeServer]**:用於整合的Adobe Target伺服器。預設已提供此選項。 此值與Adobe Target **[!UICONTROL Server Domain]**&#x200B;對應，後面接著&#x200B;**/m2**&#x200B;值。 例如：**tt.omtrdc.net/m2**。
 
    ![](assets/tar_options.png)
 

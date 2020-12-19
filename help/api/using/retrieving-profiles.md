@@ -1,7 +1,7 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 檢索設定檔
+title: 擷取設定檔
 description: 進一步瞭解如何使用API擷取描述檔。
 audience: developing
 content-type: reference
@@ -15,11 +15,11 @@ ht-degree: 4%
 ---
 
 
-# 檢索設定檔 {#retrieving-profiles}
+# 擷取設定檔 {#retrieving-profiles}
 
-檢索配置式是使用 **GET請求** 。
+檢索配置式時使用&#x200B;**GET**&#x200B;請求。
 
-然後，您可以使用篩選器、排序和編頁來調整搜尋。 For more on this, refer to the [Additional operations](../../api/using/sorting.md) section.
+然後，您可以使用篩選器、排序和編頁來調整搜尋。 有關詳細資訊，請參閱[ Additional operations](../../api/using/sorting.md)一節。
 
 <br/>
 

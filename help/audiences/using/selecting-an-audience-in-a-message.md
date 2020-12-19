@@ -51,7 +51,7 @@ Adobe Campaign　可讓您在訊息的對象中設定數個設定檔類型。
 
    如需設定測試設定檔的詳細資訊，請參閱[測試設定檔](../../audiences/using/managing-test-profiles.md)區段。
 
-1. 如有需要，您可以使用對應的標籤定義控制組。 這可讓您從目標中取出一些描述檔，以免他們收到訊息。 For more on this, see [Adding a control group](../../sending/using/control-group.md).
+1. 如有需要，您可以使用對應的標籤定義控制組。 這可讓您從目標中取出一些描述檔，以免他們收到訊息。 有關詳細資訊，請參閱[添加控制組](../../sending/using/control-group.md)。
 
 1. 您也可以使用替代地址獲得描述檔將收到的消息的精確表示。  如需詳細資訊，請參閱[使用目標設定檔測試電子郵件訊息](../../sending/using/testing-messages-using-target.md)。
 

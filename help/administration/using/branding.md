@@ -28,7 +28,7 @@ ht-degree: 80%
 
 設定與使用品牌的主要原則為：
 
-1. 建立與設定品牌操作需要特定權限，並由 Adobe Campaign 技術管理員執行。在Campaign中取得新品牌的步驟，請參閱 [本節](#creating-a-brand)。
+1. 建立與設定品牌操作需要特定權限，並由 Adobe Campaign 技術管理員執行。在促銷活動中取得新品牌的步驟在本節[中詳細說明。](#creating-a-brand)
 1. 為此品牌建立一或多個傳遞與登錄頁面範本。請參閱[建立範本](../../start/using/marketing-activity-templates.md)區段。
 1. 根據此範本建立訊息與登錄頁面。請參閱[建立電子郵件](../../channels/using/creating-an-email.md)及[建立登錄頁面](../../channels/using/designing-a-landing-page.md)區段。
 
@@ -85,13 +85,13 @@ ht-degree: 80%
 
    ![](assets/branding_05.png)
 
-## Creating a new brand {#creating-a-brand}
+## 建立新品牌{#creating-a-brand}
 
 您可以在Campaign中新增組織實體，或建立新類型的電子郵件，您需要在不同的子網域下傳送。 若要執行此動作，請依照下列步驟：
 
-1. **設定新子網域** -對於Adobe要使用的任何新子網域，第一步是設定它。 您可以透過「促銷活 [動控制面板](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/subdomains-and-certificates/subdomains-branding.html) 」執行此動作，或聯絡Adobe技術聯絡人。 在本文中進一步瞭解子 [網域設定](https://helpx.adobe.com/tw/campaign/kb/domain-name-delegation.html)。
+1. **設定新子網域** -對於Adobe要使用的任何新子網域，第一步是設定它。您可以透過[促銷活動控制面板](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/subdomains-and-certificates/subdomains-branding.html)執行此動作，或聯絡您的Adobe技術聯絡人。 在本文](https://helpx.adobe.com/tw/campaign/kb/domain-name-delegation.html)中進一步瞭解子網域設定[。
 
-1. **建立票證** -一旦設定子網域後，Adobe就需要在您的生產環境中進行設定。 若要要求此 [項，請建立Client Care的票證](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html) ，並包含下列資訊：
+1. **建立票證** -一旦設定子網域後，Adobe就需要在您的生產環境中加以設定。若要要求此項，請[建立票證給Client Care](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)，並提供下列資訊：
 
    * 主旨：ACS新品牌設定
 
@@ -101,9 +101,9 @@ ht-degree: 80%
 
    * 生產URL:XXX.campaign.adobe.com
 
-1. **建立傳送範本** -新品牌推出後，最佳實務是建立至少一個參考此新品牌的新空白傳送範本。 [進一步瞭解](#linking-a-brand-to-a-template)。
+1. **建立傳送範本** -新品牌推出後，最佳實務是建立至少一個參考此新品牌的新空白傳送範本。[進一步瞭解](#linking-a-brand-to-a-template)。
 
-1. **檢查傳遞性准則** -在開始使用新網域之前，應先與Adobe Deliverability團隊討論該策略。 例如，如果應建立新的相似性以在網域之間分割IP，以及／或應定義加速計畫，這些特性將有助於定義最佳實務。 在本節中進一步瞭解傳遞 [能力最佳實務](../../sending/using/about-deliverability.md)。
+1. **檢查傳遞性准則** -開始使用新網域之前，應先與Adobe Deliverability團隊討論該策略。例如，如果應建立新的相似性以在網域之間分割IP，以及／或應定義加速計畫，這些特性將有助於定義最佳實務。 在本節](../../sending/using/about-deliverability.md)中，進一步瞭解傳遞能力最佳實踐[。
 
 ## 為電子郵件指派品牌 {#assigning-a-brand-to-an-email}
 

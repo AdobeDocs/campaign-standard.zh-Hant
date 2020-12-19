@@ -15,7 +15,7 @@ ht-degree: 7%
 ---
 
 
-# 體驗資料模型概觀 {#experience-data-model-overview}
+# 體驗資料模型概觀{#experience-data-model-overview}
 
 >[!IMPORTANT]
 >
@@ -25,13 +25,13 @@ Experience Data Model(XDM)是一組標準的資料結構，可將資料擷取到
 
 XDM架構的建立和管理可通過專用的API或XDM用戶介面獲得。
 
-## XDM工作區 {#xdm-workspace}
+## XDM工作區{#xdm-workspace}
 
 XDM工作區可讓您檢視、建立和擴充資料結構。
 
 若要存取XDM使用者介面，請開啟Adobe Experience Platform。 導航到「資料模型」窗口以建立或擴展XDM架構。
 
-請參閱完整的 [XDM工作區檔案](https://docs.adobe.com/content/help/zh-Hant/experience-platform/xdm/api/getting-started.html)。
+請參閱完整的[XDM工作區文檔](https://docs.adobe.com/content/help/zh-Hant/experience-platform/xdm/api/getting-started.html)。
 
 ![](assets/aep_xdmworkspace.png)
 
@@ -46,4 +46,4 @@ XDM工作區可讓您檢視、建立和擴充資料結構。
 * 查看模式描述符
 * 建立、更新和刪除模式描述符
 
-「開發人員指南」中提供所有控制API呼叫的 [詳細資訊](https://docs.adobe.com/content/help/zh-Hant/experience-platform/xdm/api/getting-started.html)。
+[開發人員指南](https://docs.adobe.com/content/help/en/experience-platform/xdm/api/getting-started.html)中提供了控制API呼叫的所有詳細資訊。

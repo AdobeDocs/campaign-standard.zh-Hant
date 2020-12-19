@@ -44,7 +44,7 @@ ht-degree: 92%
 
 1. 將 **[!UICONTROL Segmentation]** 活動拖放至工作流程中。
 1. 選取活動，然後使用所顯示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
-1. In the **[!UICONTROL General]** tab, select the **[!UICONTROL Resource type]** on which the segmentation has to be carried out:
+1. 在&#x200B;**[!UICONTROL General]**&#x200B;標籤中，選擇必須執行分段的&#x200B;**[!UICONTROL Resource type]**:
 
    * **[!UICONTROL Database resource]** 如果對資料庫中已存在的資料執行分段。根據您要分段的資料選取 **[!UICONTROL Filtering dimension]**。依預設，會對&#x200B;**設定檔**&#x200B;執行分段。
    * **[!UICONTROL Temporary resource]** 如果對工作流的臨時資料執行分段：選取包含要分段資料的 **[!UICONTROL Targeted set]**。在匯入檔案或資料庫中的資料已變得充實之後，可以使用此使用案例。
@@ -96,6 +96,6 @@ ht-degree: 92%
 
    * 如果您希望入站母體同時屬於數個區段，請核取 **[!UICONTROL Enable overlapping of outbound populations]** 選項。活動的出站母體可能超過入站母體。
    * 如果入站母體已指派您要保留的區段代碼，請核取 **[!UICONTROL Concatenate the code of each segment]** 選項。會將活動中指定的區段代碼新增至初始區段代碼。
-   * 如果要利用剩餘母體，請核取 **[!UICONTROL Generate complement]** 選項。See [Use case: Creating deliveries with a complement](../../automating/using/workflow-created-query-with-complement.md).
+   * 如果要利用剩餘母體，請核取 **[!UICONTROL Generate complement]** 選項。請參閱[使用案例：使用補體](../../automating/using/workflow-created-query-with-complement.md)建立遞送。
 
 1. 確認活動的設定並儲存工作流程。

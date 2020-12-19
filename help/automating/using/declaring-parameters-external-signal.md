@@ -15,16 +15,16 @@ ht-degree: 5%
 ---
 
 
-# Declaring the parameters in the External signal activity {#declaring-the-parameters-in-the-external-signal-activity}
+# 聲明外部信號活動{#declaring-the-parameters-in-the-external-signal-activity}中的參數
 
-使用參數呼叫工作流程的第一步是在活動中宣告這 **[!UICONTROL External signal]** 些參數。
+使用參數呼叫工作流的第一步是在&#x200B;**[!UICONTROL External signal]**&#x200B;活動中聲明這些參數。
 
-1. Open the **[!UICONTROL External signal]** activity, then select the **[!UICONTROL Parameters]** tab.
-1. 按一下 **[!UICONTROL Create element]** 按鈕，然後指定每個參數的名稱和類型。
+1. 開啟&#x200B;**[!UICONTROL External signal]**&#x200B;活動，然後選取&#x200B;**[!UICONTROL Parameters]**&#x200B;標籤。
+1. 按一下&#x200B;**[!UICONTROL Create element]**&#x200B;按鈕，然後指定每個參數的名稱和類型。
 
    >[!CAUTION]
    >
-   >請確定參數的名稱和數目與呼叫工作流程時所定義的參數相同(請參 [閱本頁](../../automating/using/defining-parameters-calling-workflow.md))。 此外，參數類型必須與預期值一致。
+   >請確定參數的名稱和數目與呼叫工作流時定義的相同（請參閱[本頁](../../automating/using/defining-parameters-calling-workflow.md)）。 此外，參數類型必須與預期值一致。
 
    ![](assets/extsignal_declaringparameters_1.png)
 

@@ -18,7 +18,7 @@ ht-degree: 4%
 
 # 開啟的郵件{#opens}
 
-The **[!UICONTROL Opens]** report identifies the deliveries that have been most viewed by recipients.
+**[!UICONTROL Opens]**&#x200B;報表可識別收件者最常檢視的傳送。
 
 ![](assets/delivery_reports_opens.png)
 
@@ -29,4 +29,4 @@ The **[!UICONTROL Opens]** report identifies the deliveries that have been most 
 * 平台
 * 網域
 
-The **[!UICONTROL TOP 5]** table and graph display the deliveries with the highest number of delivered messages.
+**[!UICONTROL TOP 5]**&#x200B;表格和圖表顯示傳送訊息數量最多的傳送。

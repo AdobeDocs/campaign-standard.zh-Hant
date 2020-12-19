@@ -24,7 +24,7 @@ ht-degree: 3%
 
 ## 存取Adobe Experience Platform受眾
 
-若要存取Adobe Experience Platform區段產生器，請導覽至Campaign Standard首頁上的資訊卡（或頁首中的連結），然後選取 **[!UICONTROL Audiences]****[!UICONTROL Audiences]****[!UICONTROL Adobe Experience Platform]** 環境。
+若要存取Adobe Experience Platform區段產生器，請導覽至Campaign Standard首頁上的&#x200B;**[!UICONTROL Audiences]**&#x200B;資訊卡（或標題中的&#x200B;**[!UICONTROL Audiences]**&#x200B;連結），然後選取&#x200B;**[!UICONTROL Adobe Experience Platform]**&#x200B;環境。
 
 ![](assets/aep_audiences_access.png)
 
@@ -38,7 +38,7 @@ ht-degree: 3%
 
 若要直接在Campaign Standard中建立Adobe Experience Platform觀眾，請遵循下列步驟：
 
-1. 從Adobe Experience Platform區段清單頁面，按一 **[!UICONTROL New audience]** 下位於右角的按鈕。
+1. 從Adobe Experience Platform區段清單頁面，按一下位於右角的&#x200B;**[!UICONTROL New audience]**&#x200B;按鈕。
 
    ![](assets/aep_audiences_creation_create.png)
 
@@ -48,24 +48,24 @@ ht-degree: 3%
 
    ![](assets/aep_audiences_creation_edit_name.png)
 
-1. 若要成功建立區段，您必須選取符合 **此區段行銷目的的合** 並原則。
+1. 若要成功建立區段，您必須選擇符合此區段行銷目的的&#x200B;**合併原則**。
 
-   在設定窗格中，會選取「平台」預設合併原則。 如需合併原則的詳細資訊，請參閱「區段產生器」使用指 [南中的專屬章節](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)。
+   在設定窗格中，會選取「平台」預設合併原則。 有關合併策略的詳細資訊，請參閱[區段產生器使用手冊](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)中的專用部分。
 
    ![](assets/aep_audiences_mergepolicy.png)
 
 1. 定義規則，以識別要在觀眾中擷取的個人檔案。
 
-   若要這麼做，請從左窗格拖曳所要的屬性和／或事件至工作區，定義對應的規則，然後按一下按鈕以儲存區段(請 **[!UICONTROL Create segment]** 參閱 [使用區段產生器](../../audiences/using/aep-using-segment-builder.md))。
+   若要這麼做，請從左窗格拖曳所要的屬性和／或事件至工作區，定義對應的規則，然後按一下&#x200B;**[!UICONTROL Create segment]**&#x200B;按鈕以儲存區段（請參閱[使用區段產生器](../../audiences/using/aep-using-segment-builder.md)）。
 
    ![](assets/aep_audiences_creation_query.png)
 
-觀眾現在已準備好要啟動，您可將其用作促銷活動的目標(請參閱「定 [位Adobe Experience Platform觀眾](../../automating/using/aep-targeting-audiences.md)」)。
+觀眾現在已準備好要啟動，您可將其用作促銷活動的目標（請參閱[定位Adobe Experience Platform觀眾](../../automating/using/aep-targeting-audiences.md)）。
 
 ## 編輯對象
 
-若要編輯對象，請視需要在「區段產生器」介面中開啟並修改規則(請 [參閱使用區段產生器](../../audiences/using/aep-using-segment-builder.md))。
+若要編輯對象，請視需要在「區段產生器」介面中開啟並修改規則（請參閱「使用區段產生器」[）。](../../audiences/using/aep-using-segment-builder.md)
 
-變更完成後，按一下按鈕 **[!UICONTROL Save segment]** 以更新您的觀眾。
+變更完成後，按一下&#x200B;**[!UICONTROL Save segment]**&#x200B;按鈕以更新您的觀眾。
 
 ![](assets/aep_audiences_editing.png)

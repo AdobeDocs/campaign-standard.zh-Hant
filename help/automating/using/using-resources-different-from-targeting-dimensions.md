@@ -20,7 +20,7 @@ ht-degree: 81%
 
 此使用案例說明如何使用與定位維度不同的資源，例如，在遠端表格中尋找特定記錄。
 
-如需定位維度和資源的詳細資訊，請參閱 [本節](../../automating/using/query.md#targeting-dimensions-and-resources)
+有關定位維度和資源的更多資訊，請參閱[本節](../../automating/using/query.md#targeting-dimensions-and-resources)
 
 **範例　1：使用標籤「歡迎回來！」識別傳送所定位的設定檔**。
 

@@ -1,7 +1,7 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 交易式推播通知
+title: 異動推播通知
 description: 瞭解如何使用Adobe Campaign Standard傳送交易推播通知。
 audience: channels
 content-type: reference
@@ -16,7 +16,7 @@ ht-degree: 4%
 ---
 
 
-# 交易式推播通知{#transactional-push-notifications}
+# 異動推播通知{#transactional-push-notifications}
 
 您可以使用Adobe Campaign在iOS和Android行動裝置上傳送交易推播通知。 這些訊息是在您在Adobe Campaign中設定的行動應用程式上，透過運用Experience Cloud Mobile SDK收到的。
 

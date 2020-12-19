@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# 執行訂閱 {#performing-subscriptions}
+# 執行預訂{#performing-subscriptions}
 
 ## 方法1:將配置式預訂到服務
 

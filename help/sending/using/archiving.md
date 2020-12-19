@@ -21,13 +21,13 @@ ht-degree: 5%
 
 尤其是，如果您的組織需要封存所有傳出電子郵件訊息以符合法規，您可以啟用此功能。 它可讓您將對應已傳送訊息的完全隱藏副本傳送至您必須指定的密件副本電子郵件地址（傳送收件者不可見）。
 
-啟用後，您必須從電子郵件傳送範本中的選 **[!UICONTROL Archive emails]** 項啟用電子郵件密件副本。
+啟用後，您必須從電子郵件傳送範本的&#x200B;**[!UICONTROL Archive emails]**&#x200B;選項啟用電子郵件密件副本。
 
 >[!NOTE]
 >
 >Adobe Campaign本身不會管理封存的檔案。 它確實可讓您將您選擇的訊息傳送至專用位址，以便使用外部系統處理及封存。
 
-## 建議與限制 {#recommendations-and-limitations}
+## 建議與限制{#recommendations-and-limitations}
 
 * 此功能是選取性的。請檢查您的授權合約，並聯絡您的帳戶管理員以啟用它。
 * 您選擇的密件副本位址必須提供給將為您設定的Adobe團隊。
@@ -40,19 +40,19 @@ ht-degree: 5%
 >
 >目前，已封存的電子郵件無法與Adobe Campaign Enhanced MTA一起傳送，即使您已升級至Enhanced MTA亦然。
 
-## 啟動電子郵件封存 {#activating-email-archiving}
+## 激活電子郵件歸檔{#activating-email-archiving}
 
-啟用後，電子郵件密件副本會透過專 [用選項](../../start/using/marketing-activity-templates.md)，在電子郵件範本中啟動：
+啟用後，電子郵件密件副本會透過專用選項在[電子郵件範本](../../start/using/marketing-activity-templates.md)中啟動：
 
-1. 前往「 **資源** >范 **本** > **傳送範本**」。
-1. 複製現成可用的范 **[!UICONTROL Send via email]** 本。
+1. 前往「**資源** > **範本** > **傳送範本**」。
+1. 複製現成可用的&#x200B;**[!UICONTROL Send via email]**&#x200B;範本。
 1. 選擇複製的模板。
-1. Click the **[!UICONTROL Edit properties]** button to edit the template&#39;s properties.
-1. 展開該 **[!UICONTROL Send]** 部分。
-1. 核取方 **[!UICONTROL Archive emails]** 塊，以根據此範本保留每個傳送之所有已傳送訊息的副本。
+1. 按一下&#x200B;**[!UICONTROL Edit properties]**&#x200B;按鈕以編輯範本的屬性。
+1. 展開&#x200B;**[!UICONTROL Send]**&#x200B;部分。
+1. 選中&#x200B;**[!UICONTROL Archive emails]**&#x200B;框，以保存基於此模板的每個傳送的所有已發送消息副本。
 
    ![](assets/email_archiving.png)
 
 >[!NOTE]
 >
->如果開啟並點進傳送至密件副本位址的電子郵件，則會在傳送分析中考慮 **[!UICONTROL Total opens]** 這 **[!UICONTROL Clicks]** 一點，這可能會造成一些誤算。
+>如果已開啟並點進傳送至密件副本位址的電子郵件，則會在傳送分析的&#x200B;**[!UICONTROL Total opens]**&#x200B;和&#x200B;**[!UICONTROL Clicks]**&#x200B;中考慮此問題，這可能會造成一些誤算。

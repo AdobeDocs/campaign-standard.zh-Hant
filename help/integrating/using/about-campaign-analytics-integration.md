@@ -28,7 +28,7 @@ Adobe Campaign Standard和Adobe Analytics之間的整合可讓您：
 
 此整合僅適用於電子郵件傳送。
 
-Adobe Analytics的核心服務觸發程式 **與** Adobe Campaign也可進行整合。 它可讓您傳送個人化電子郵件給客戶，以回應Adobe Analytics在您網站上追蹤的特定行為（15分鐘內）。
+Adobe Analytics核心服務&#x200B;**Triggers**&#x200B;與Adobe Campaign也可進行整合。 它可讓您傳送個人化電子郵件給客戶，以回應Adobe Analytics在您網站上追蹤的特定行為（15分鐘內）。
 
 **相關主題：**
 

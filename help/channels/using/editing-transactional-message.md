@@ -1,7 +1,7 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 編輯事務性消息
+title: 編輯異動訊息
 description: 瞭解如何存取、編輯和個人化交易訊息。
 audience: channels
 content-type: reference
@@ -16,7 +16,7 @@ ht-degree: 59%
 ---
 
 
-# 編輯事務性消息{#editing-transactional-message}
+# 編輯異動訊息 {#editing-transactional-message}
 
 建立並發佈事件<!--(the cart abandonment example as explained in [this section](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle))-->後，將自動建立相應的事務性消息。
 

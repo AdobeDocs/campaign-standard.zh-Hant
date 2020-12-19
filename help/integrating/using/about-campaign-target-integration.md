@@ -27,4 +27,4 @@ Adobe Target可使用數種資料：
 * 連結至Adobe Target中訪客ID的區段（如果使用的資料不受法律限制）
 * Adobe Target資料：用戶代理， IP地址，地理本地化資料
 
-如需Adobe Campaign與Adobe Target整合的詳細資訊，您也可以參閱 [Adobe Target入口網站](https://docs.adobe.com/content/help/zh-Hant/target/using/integrate/campaign-and-target.html)。
+如需Adobe Campaign與Adobe Target整合的詳細資訊，您也可以參閱[Adobe Target Portal](https://docs.adobe.com/content/help/zh-Hant/target/using/integrate/campaign-and-target.html)。

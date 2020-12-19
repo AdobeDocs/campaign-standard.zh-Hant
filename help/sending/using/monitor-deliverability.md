@@ -18,7 +18,7 @@ ht-degree: 7%
 
 # 監視傳遞能力{#monitor-deliverability}
 
-以下是Adobe Campaign提供的報 **[!UICONTROL Delivery throughput]** 表詳細資訊以及不同的監控工具。 以下是有關交付能力監控的一些附加准則：
+以下是&#x200B;**[!UICONTROL Delivery throughput]**&#x200B;報表的詳細資訊，以及Adobe Campaign提供的不同監控工具。 以下是有關交付能力監控的一些附加准則：
 * 定期檢查整個平台的傳送吞吐量，以確認其是否與原始設定一致。
 * 檢查傳送範本中的重試設定是否正確（重試期間為30分鐘，重試次數超過20次）。
 * 定期確認彈回信箱是否可存取，且帳戶不會過期。
@@ -31,29 +31,29 @@ ht-degree: 7%
 
 此報表包含特定時段內整個平台的傳送吞吐量資訊，以測量傳送訊息的速度。
 
-如需詳細資訊，請參閱「傳送 [總處理能力」](../../reporting/using/delivery-throughput.md)。
+有關詳細資訊，請參閱[傳送吞吐量](../../reporting/using/delivery-throughput.md)。
 
 ![](assets/delivery_reports_1.png)
 
 您可以變更時標來設定顯示的值。
 
-其他報表可用，例如 **[!UICONTROL Delivery summary]** 或 **[!UICONTROL Non-deliverables and bounces]**。 如需詳細資訊，請參閱動 [態報表](../../reporting/using/about-dynamic-reports.md)。
+其他報表也可用，例如&#x200B;**[!UICONTROL Delivery summary]**&#x200B;或&#x200B;**[!UICONTROL Non-deliverables and bounces]**。 如需詳細資訊，請參閱[動態報表](../../reporting/using/about-dynamic-reports.md)。
 
 ## 監視傳遞{#monitoring-deliveries}
 
-訊息控制面板可讓您存取傳送記錄檔： **[!UICONTROL Sending logs]**、 **[!UICONTROL Exclusion logs]**、 **[!UICONTROL Exclusion causes]****[!UICONTROL Tracking logs]** 和 **[!UICONTROL Tracked URLs]**。 其中會顯示傳送的詳細資料、已排除的目標、原因，以及開啟和點按數等追蹤資訊。
+訊息控制面板可讓您存取傳送記錄檔：**[!UICONTROL Sending logs]**、**[!UICONTROL Exclusion logs]**、**[!UICONTROL Exclusion causes]**、**[!UICONTROL Tracking logs]**&#x200B;和&#x200B;**[!UICONTROL Tracked URLs]**。 其中會顯示傳送的詳細資料、已排除的目標、原因，以及開啟和點按數等追蹤資訊。
 
-如需詳細資訊，請參 [閱監控傳送](../../sending/using/monitoring-a-delivery.md)。
+有關詳細資訊，請參閱[監視傳送](../../sending/using/monitoring-a-delivery.md)。
 
 ![](assets/sending_delivery1.png)
 
-## 接收警報 {#receiving-alerts}
+## 接收警報{#receiving-alerts}
 
-The **[!UICONTROL Delivery alerting]** feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries.
+**[!UICONTROL Delivery alerting]**&#x200B;功能是警報管理系統，可讓一組使用者自動接收包含其傳送內容執行資訊的通知。
 
-有關詳細資訊，請參 [閱Receiving alerts when failures oun](../../sending/using/receiving-alerts-when-failures-happen.md).
+有關詳細資訊，請參閱[發生故障時接收警報](../../sending/using/receiving-alerts-when-failures-happen.md)。
 
-## Signal Spam {#signal-spam}
+## 信號垃圾郵件{#signal-spam}
 
 Signal Spam是法國服務，為法國ISP(Orange、SFR)提供匿名回饋迴路報告。
 

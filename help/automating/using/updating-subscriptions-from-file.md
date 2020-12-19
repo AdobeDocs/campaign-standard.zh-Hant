@@ -24,7 +24,7 @@ ht-degree: 76%
 
 ![](assets/subscription_activity_example1.png)
 
-* A [Load file](../../automating/using/load-file.md) activity loads the profile file and defines the structure of the imported columns.
+* [載入檔案](../../automating/using/load-file.md)活動會載入描述檔，並定義匯入欄的結構。
 
    在此範例中，載入檔案為 .csv 格式，並包含以下資料：
 
@@ -49,7 +49,7 @@ ht-degree: 76%
 
    如果您的檔案已使用 &quot;0&quot; 及 &quot;1&quot; 來識別此操作，則不需要重新映射這些值。僅確定在 **[!UICONTROL Column definition]** 索引標籤中將此欄處理為 **Boolean** 或 **Integer**。
 
-* A [Reconciliation](../../automating/using/reconciliation.md) activity identifies the data from the file as belonging to the profile dimension of the Adobe Campaign database. 透過 **[!UICONTROL Identification]** 索引標籤，檔案的 **email** 欄位與設定檔資源的 **email** 欄位相符。
+* [協調](../../automating/using/reconciliation.md)活動將來自檔案的資料標識為屬於Adobe Campaign資料庫的配置檔案維。 透過 **[!UICONTROL Identification]** 索引標籤，檔案的 **email** 欄位與設定檔資源的 **email** 欄位相符。
 
    ![](assets/subscription_activity_example3.png)
 
@@ -57,11 +57,11 @@ ht-degree: 76%
 
    ![](assets/subscription_example_service_relation.png)
 
-* A [Deduplication](../../automating/using/deduplication.md) based on the **email** field of the temporary resource (resulting from the reconciliation) identifies duplicates. 消除重複項目非常重要，因為所有資料的服務訂閱將會在出現重複項目時失敗。
+* 基於臨時資源（由協調產生）的&#x200B;**email**&#x200B;欄位的[重複資料消除](../../automating/using/deduplication.md)標識重複資料。 消除重複項目非常重要，因為所有資料的服務訂閱將會在出現重複項目時失敗。
 
    ![](assets/subscription_activity_example5.png)
 
-* A [Subscription Services](../../automating/using/subscription-services.md) activity identifies the services to update as coming from the transition, through the link created in the **[!UICONTROL Reconciliation]** activity.
+* [訂閱服務](../../automating/using/subscription-services.md)活動通過&#x200B;**[!UICONTROL Reconciliation]**&#x200B;活動中建立的連結，將要更新的服務標識為來自轉移。
 
    將 **[!UICONTROL Operation type]** 識別為來自檔案的 **operation** 欄位。此處只能選取 Boolean 或 Integer 欄位。如果檔案中包含要執行的操作欄未出現在清單中，請確保您已正確設定 **[!UICONTROL Load file]** 活動中的欄格式，如本範例前面所述 。
 

@@ -19,12 +19,12 @@ ht-degree: 3%
 
 Adobe Campaign與Adobe Analytics整合可讓您直接在Adobe Analytics中追蹤電子郵件傳送的成功。
 
-Analytics中 **[!UICONTROL dimensions]** 找到的促銷活動列於下列：
+Analytics中找到的促銷活動&#x200B;**[!UICONTROL dimensions]**&#x200B;列於下方：
 
 <table> 
  <thead> 
   <tr> 
-   <th> 維<br /> </th> 
+   <th> Dimension<br /> </th> 
    <th> 定義<br /> </th> 
   </tr> 
  </thead> 
@@ -35,11 +35,11 @@ Analytics中 **[!UICONTROL dimensions]** 找到的促銷活動列於下列：
   </tr> 
   <tr> 
    <td> 促銷活動標籤<br /> </td> 
-   <td> 促銷活動中顯示的促銷活動標籤<br /> </td> 
+   <td> 促銷活動的標籤，如促銷活動所示<br /> </td> 
   </tr> 
   <tr> 
    <td> 傳送ID<br /> </td> 
-   <td> 如促銷活動中所示的傳送內部名稱。<br /> 例如，DM1是計畫每週傳送子傳送的循環傳送。 DM2 、 DM3和DM4在前三週發送。 然後，「傳送ID」維度會顯示每個傳送的結果，即DM1到DM4。 <br /> </td> 
+   <td> 如促銷活動中所示的傳送內部名稱。<br /> 例如，DM1是計畫每週傳送子傳送的循環傳送。DM2 、 DM3和DM4在前三週發送。 然後，「傳送ID」維度會顯示每個傳送的結果，即DM1到DM4。<br /> </td> 
   </tr> 
   <tr> 
    <td> 傳送標籤<br /> </td> 
@@ -47,16 +47,16 @@ Analytics中 **[!UICONTROL dimensions]** 找到的促銷活動列於下列：
   </tr> 
   <tr> 
    <td> 已執行傳送ID<br /> </td> 
-   <td> 如促銷活動中所示的傳送內部名稱。 這隻涉及在促銷活動中執行時的傳送。<br /> 例如，DM1是計畫每週傳送子傳送的循環傳送。 DM2 、 DM3和DM4在前三週發送。 然後，「已執行的傳送ID」維將顯示已執行傳送的結果，即子傳送DM2、DM3和DM4。 <br /> </td> 
+   <td> 如促銷活動中所示的傳送內部名稱。 這隻涉及在促銷活動中執行時的傳送。<br /> 例如，DM1是計畫每週傳送子傳送的循環傳送。DM2 、 DM3和DM4在前三週發送。 然後，「已執行的傳送ID」維將顯示已執行傳送的結果，即子傳送DM2、DM3和DM4。<br /> </td> 
   </tr> 
   <tr> 
    <td> 已執行傳送標籤<br /> </td> 
-   <td> 促銷活動中顯示的傳送標籤。 這隻涉及在促銷活動中執行時的傳送。<br /> </td> 
+   <td> 促銷活動中顯示的傳送標籤。 這隻涉及促銷活動中執行時的傳送。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Analytics中 **[!UICONTROL metrics]** 找到的促銷活動列於下列：
+Analytics中找到的促銷活動&#x200B;**[!UICONTROL metrics]**&#x200B;列於下方：
 
 <table> 
  <thead> 
@@ -67,28 +67,28 @@ Analytics中 **[!UICONTROL metrics]** 找到的促銷活動列於下列：
  </thead> 
  <tbody> 
   <tr> 
-   <td> 已點按<br /> </td> 
+   <td> 已按一下<br /> </td> 
    <td> 內容在傳送中被點按的次數。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 交付<br /> </td> 
-   <td> 成功發送的消息數，與已發送消息總數相關。<br /> </td> 
+   <td> 已傳送<br /> </td> 
+   <td> 成功發送的消息數，與發送的消息總數相關。<br /> </td> 
   </tr> 
   <tr> 
    <td> 已開啟<br /> </td> 
-   <td> 傳送中訊息開啟的次數。<br /> </td> 
+   <td> 在傳送中開啟訊息的次數。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 已傳送<br /> </td> 
+   <td> 已發送<br /> </td> 
    <td> 傳送的傳送總數。<br /> </td> 
   </tr> 
   <tr> 
    <td> 總彈回數<br /> </td> 
-   <td> 傳送和自動傳回處理期間累積的錯誤總數，與傳送的訊息總數相關。<br /> </td> 
+   <td> 傳送和自動回傳處理期間累積的錯誤總數與已傳送訊息總數相關。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 獨特開啟<br /> </td> 
-   <td> 開啟傳送的收件者數。<br /> </td> 
+   <td> 唯一開啟<br /> </td> 
+   <td> 開啟交貨的收件人數。<br /> </td> 
   </tr> 
   <tr> 
    <td> 唯一點按<br /> </td> 

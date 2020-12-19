@@ -26,7 +26,7 @@ Adobe Campaign　可讓您使用查詢手動建立閱聽眾，或自動使用專
 
 您可以在　Adobe Campaign　中控制不同的閱聽眾類型。閱聽眾類型與建立閱聽眾的方式相對應：
 
-* **[!UICONTROL Query]**:指出觀眾是使用Adobe Campaign資料庫 [資料的查詢](../../automating/using/editing-queries.md#about-query-editor) ，透過觀眾清單建立的。 在每次進一步使用時重新計算由查詢定義的閱聽眾。
+* **[!UICONTROL Query]**:指出觀眾是使用Adobe Campaign資 [](../../automating/using/editing-queries.md#about-query-editor) 料庫的查詢資料透過觀眾清單建立的。在每次進一步使用時重新計算由查詢定義的閱聽眾。
 * **[!UICONTROL List]**：指出閱聽眾是固定的設定檔清單。這些清單會在[工作流程](../../automating/using/get-started-workflows.md)中建立，而且在儲存閱聽眾時會知道資料維度。例如，在目標定位活動（尤其是 **[!UICONTROL Query]**）之後，或是協調從檔案匯入的資料之後。
 * **[!UICONTROL File]**：指出閱聽眾是從[檔案匯入](../../automating/using/load-file.md)工作流程直接建立，而且在儲存閱聽眾時不會知道資料維度。
 * **[!UICONTROL Experience Cloud]**：指出閱聽眾是從　Adobe Experience Cloud　匯入。只有已設定閱聽眾共用功能時，才可使用此選項。如需詳細資訊，請參閱[從　Adobe Experience Cloud　匯入閱聽眾](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md#importing-an-audience)。

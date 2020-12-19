@@ -1,7 +1,7 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 設定交易事件
+title: 設定異動事件
 description: 瞭解如何在Adobe Campaign中設定交易事件。
 audience: channels
 content-type: reference
@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
 source-wordcount: '1672'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
 
-# 配置事務事件{#configuring-transactional-event}
+# 設定異動事件 {#configuring-transactional-event}
 
 若要使用Adobe Campaign傳送交易訊息，您首先需要建立並設定事件，以說明事件資料的結構。
 
@@ -221,7 +221,7 @@ The steps to configure an  event to send an SMS transactional message are the sa
 
 * The specificities to edit the content of an SMS transactional message are the same as for a [standard SMS](../../channels/using/about-sms-and-push-content-design.md).-->
 
-### 交易式推播通知 {#transactional-push-notifications}
+### 異動推播通知 {#transactional-push-notifications}
 
 您可以傳送兩種類型的交易推播通知：
 * 匿名交易式推播通知，適用於已選擇從行動應用程式接收通知的所有使用者。 請參閱[設定事件型交易推播通知](../../channels/using/transactional-push-notifications.md#event-based-transactional-push-notifications)。

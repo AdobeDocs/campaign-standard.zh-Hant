@@ -58,7 +58,7 @@ ht-degree: 95%
 
 1. 在 **[!UICONTROL Transition]** 索引標籤，**[!UICONTROL Enable an outbound transition]** 選項可讓您在查詢活動後新增出站轉變，即使它未擷取任何資料亦然。
 
-   The outbound transition&#39;s segment code can be personalized using a standard expression and events variables (see [this page](../../automating/using/customizing-workflow-external-parameters.md)).
+   對外轉場的區段代碼可使用標準運算式和事件變數進行個人化（請參閱[本頁](../../automating/using/customizing-workflow-external-parameters.md)）。
 
 1. 確認活動的設定並儲存工作流程。
 
@@ -66,7 +66,7 @@ ht-degree: 95%
 
 目標維度和資源可讓您定義查詢要依據哪些元素來判斷傳送的目標。
 
-它們是在目 [標映射中配置](../../administration/using/target-mappings-in-campaign.md)，並在建立工作流時在「查詢」活動 **[!UICONTROL Properties]** 的頁籤中定義。
+它們在[目標映射](../../administration/using/target-mappings-in-campaign.md)中配置，並在建立工作流時在查詢活動的&#x200B;**[!UICONTROL Properties]**&#x200B;頁籤中定義。
 
 >[!NOTE]
 >
@@ -96,7 +96,7 @@ ht-degree: 95%
 
 預設會設定目標維度和資源，以定位設定檔。不過，如果您想在遠端表格中尋找特定記錄，則使用與目標維度不同的資源可能會很實用。
 
-有關此功能的詳細資訊，請參閱此使用案例： [使用與定位維度不同的資源](../../automating/using/using-resources-different-from-targeting-dimensions.md)
+有關此功能的詳細資訊，請參閱此使用案例：[使用與定位維度不同的資源](../../automating/using/using-resources-different-from-targeting-dimensions.md)
 
 ## 擴充資料 {#enriching-data}
 
@@ -118,7 +118,7 @@ ht-degree: 95%
 >
 >依預設，會在查詢的 **[!UICONTROL Additional data]** 索引標籤的 **[!UICONTROL Advanced options]** 核取 **[!UICONTROL Remove duplicate rows (DISTINCT)]** 選項。如果 **[!UICONTROL Query]** 活動包含許多（來自 100個）已定義的其他資料，則建議基於效能原因取消選中此選項。請注意，取消核取此選項會導致重複，視查詢的資料而定。
 
-本節將說明如何使用其他資料個人化電子郵件的使 [用案例](../../automating/using/personalizing-email-with-additional-data.md)。
+有關如何使用其他資料個人化電子郵件的使用案例，請參閱本節[。](../../automating/using/personalizing-email-with-additional-data.md)
 
 ### 新增簡單欄位 {#adding-a-simple-field}
 

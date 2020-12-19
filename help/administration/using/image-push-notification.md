@@ -24,7 +24,7 @@ ht-degree: 20%
 
 在本檔案中，瞭解如何從Adobe Campaign Standard iOS推播通知顯示影像。
 
-## 步驟1:設定推播通知 {#set-up-push}
+## 步驟1:設定推播通知{#set-up-push}
 
 推播通知受Experience Platform SDK支援。
 
@@ -34,40 +34,40 @@ ht-degree: 20%
 
 若要使用Experience Cloud SDK應用程式傳送推播通知，行動應用程式必須在Adobe Experience Platform Launch中設定，並在Adobe Campaign中設定。 如需關於此項目的詳細資訊，請參閱此[頁面](https://helpx.adobe.com/tw/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign)。
 
-## 步驟2:在Adobe Campaign中自訂您的推播通知 {#customize-push}
+## 步驟2:在Adobe Campaign {#customize-push}中自訂您的推播通知
 
 為了微調您的推播通知，Adobe Campaign 可讓您在設計推播通知時存取一組進階選項。
 
 1. 自訂推播通知. 如需關於此項目的詳細資訊，請參閱此[頁面](../../channels/using/preparing-and-sending-a-push-notification.md)。
 
-1. 從您的推播通知內容頁面，存取該 **[!UICONTROL Advanced options]** 區段。
+1. 從您的推播通知內容頁面，存取&#x200B;**[!UICONTROL Advanced options]**&#x200B;區段。
 
-1. 在欄位中輸入檔案的URL **[!UICONTROL Rich media content URL]** 。
+1. 在&#x200B;**[!UICONTROL Rich media content URL]**欄位中輸入檔案的URL。
 若是 iOS 10 或更新版本，您可以插入影像、gif、音訊和視訊檔案。
 
    ![](assets/push_notif_advanced_6.png)
 
 1. 預覽並儲存您的推播通知。
 
-## 步驟3:調整行動應用程式程式碼 {#mobile-app-code}
+## 步驟3:調整行動應用程式碼{#mobile-app-code}
 
 在Adobe Campaign中自訂推播通知後，您必須設定行動應用程式，才能在裝置上顯示影像。
 
 >[!NOTE]
 >
->如果您的應用程式位於Objective-C中，請參閱下列文 [件](https://docs.adobe.com/content/help/en/mobile-services/ios/messaging-ios/push-messaging/c-set-up-rich-push-notif-ios.html)。
+>如果您的應用程式位於Objective-C中，請參閱以下[檔案](https://docs.adobe.com/content/help/en/mobile-services/ios/messaging-ios/push-messaging/c-set-up-rich-push-notif-ios.html)。
 
-如果您的應用程式在 [!DNL Swift]其中，請遵循下列步驟：
+如果您的應用程式位於[!DNL Swift]中，請遵循下列步驟：
 
-1. 開啟您的 [!DNL Xcode] 專案。
+1. 開啟您的[!DNL Xcode]專案。
 
-1. 在您的專 [!DNL Xcode] 案中，選取 **[!UICONTROL File]** > **[!UICONTROL New]** > **[!UICONTROL Target]**。
+1. 在[!DNL Xcode]專案中，選取&#x200B;**[!UICONTROL File]** > **[!UICONTROL New]** > **[!UICONTROL Target]**。
 
 1. 選取 **[!UICONTROL Notification Service Extension]**。
 
    ![](assets/push_notif_advanced_12.png)
 
-1. 檢查是否已 **建立NotificationService.swift** 檔案類別。
+1. 檢查是否已建立&#x200B;**NotificationService.swift**&#x200B;檔案類。
 
 1. 編輯此類別，並以下列項目取代預設內容。
 這可讓應用程式使用影像URL處理傳入的參數、加以剖析、在本機複製，然後從推播通知中顯示。
@@ -152,9 +152,9 @@ userInfo: [AnyHashable("media-attachment-url"): https://pbs.twimg.com/profile_im
 }]
 ```
 
-## 步驟4:測試傳送推播 {#test-send-push}
+## 步驟4:測試傳送推播{#test-send-push}
 
-您現在可以測試建立應用程式以及您在上述步驟2中建立的傳送。 如需準備和傳送推播通知的詳細資訊，請參閱此 [頁](../../channels/using/preparing-and-sending-a-push-notification.md)。
+您現在可以測試建立應用程式以及您在上述步驟2中建立的傳送。 如需準備和傳送推播通知的詳細資訊，請參閱此[頁面](../../channels/using/preparing-and-sending-a-push-notification.md)。
 
 ![](assets/push_notif_advanced_34.png)
 

@@ -21,10 +21,10 @@ ht-degree: 5%
 此報表包含與傳送或數個傳送的傳送吞吐量相關的資料。 它提供：
 
 * 每小時處理的訊息數
-* 顯示 **[!UICONTROL Top 5 deliveries]** 5個傳送的表格和互補摘要數字，在重試次數中獲得最佳增益。
+* **[!UICONTROL Top 5 deliveries]**&#x200B;表格和互補摘要數字，顯示5個傳送，重試次數增加最多。
 
 ![](assets/delivery_reports_1.png)
 
 >[!NOTE]
 >
->此頁 **[!UICONTROL Delivery throughput]** 面會顯示從Campaign傳送至Adobe Campaign Enhanced MTA的訊息的傳送速度。
+>**[!UICONTROL Delivery throughput]**&#x200B;頁面會顯示從Campaign傳送至Adobe Campaign Enhanced MTA的訊息的傳輸速度。

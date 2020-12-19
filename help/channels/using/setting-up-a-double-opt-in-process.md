@@ -27,7 +27,7 @@ ht-degree: 90%
 
 若要設定此設定，您必須：
 
-1. 建立並發佈登錄頁面，讓訪客可以註冊並訂閱。此登錄頁面可從網站取得。Visitors who fill in and submit this landing page will be stored in the database but added to the denylist, in order not to receive any communication before the final validation (see [Denylist management in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
+1. 建立並發佈登錄頁面，讓訪客可以註冊並訂閱。此登錄頁面可從網站取得。填寫並提交此著陸頁面的訪客會儲存在資料庫中，但會新增至登入清單，以便在最終驗證之前不會收到任何通訊（請參閱Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)中的「登入清單管理」）。[
 1. 使用確認連結自動建立及傳送選取加入的電子郵件。此電子郵件將定位提交登錄頁面的訪客。它將以電子郵件範本為基礎，可以定位「選取退出」設定檔。
 1. 重新導向至確認登錄頁面。此最終登錄頁面將建議一個確認按鈕：訪客必須按一下它。您可以設計歡迎電子郵件，在確認完成時傳送，例如在電子郵件中為新收件者新增特殊優惠。
 
@@ -101,7 +101,7 @@ ht-degree: 90%
 1. 從 Adobe Campaign 標誌中，選取&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** 並按一下 **[!UICONTROL Typologies]**。
 1. 複製現成可用的類型 **[!UICONTROL Transactional message on profile (mcTypologyProfile)]**。
 1. 複製確認後，請編輯新的類型，並輸入標籤 **TYPOLOGY_PROFILE**。
-1. 移除「登 **錄清單上的地址** 」規則。
+1. 刪除denylist **上的**&#x200B;地址規則。
 1. 按一下 **[!UICONTROL Save]**。
 
 此類型現在可與確認電子郵件關聯。

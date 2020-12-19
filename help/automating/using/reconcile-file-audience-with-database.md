@@ -50,6 +50,6 @@ ht-degree: 87%
 
 ![](assets/readaudience_activity_example2.png)
 
-* A [Read audience](../../automating/using/read-audience.md) activity uploads the File audience created in the import workflow. 尚未與 Adobe Campaign 資料庫調解對象資料。
+* [讀取對象](../../automating/using/read-audience.md)活動會上傳在匯入工作流程中建立的檔案對象。 尚未與 Adobe Campaign 資料庫調解對象資料。
 * [調解](../../automating/using/reconciliation.md)活動會透過 **[!UICONTROL Identification]** 索引標籤，將傳入資料識別為設定檔。例如，使用&#x200B;**電子郵件**&#x200B;欄位作為調解標準。
 * [更新資料](../../automating/using/update-data.md)活動將插入和更新包含傳入資料之資料庫的設定檔資源。由於已將資料識別為設定檔，您可以選取 **[!UICONTROL Directly using the targeting dimension]** 選項，然後再選取活動之 **[!UICONTROL Identification]** 索引標籤中的 **[!UICONTROL Profiles]**。之後，您只需要在隨後出現的索引標籤中新增需要更新的欄位清單即可。

@@ -15,19 +15,19 @@ ht-degree: 16%
 ---
 
 
-# 傳送前先執行所有檢查 {#perform-all-checks}
+# 傳送{#perform-all-checks}之前，請先執行所有檢查
 
 當訊息準備就緒後，請確定其內容在所有裝置上都正確顯示，且不包含任何錯誤，例如錯誤的個人化或損壞的連結。
 
 在傳送訊息之前，請確定參數和設定與傳送一致。
 
-## 驗證為何是關鍵 {#validation-is-key}
+## 驗證為何是關鍵{#validation-is-key}
 
 在傳送傳送內容之前，您必須確保收件者會收到您真正想要傳送的訊息。 為此，您需要驗證訊息內容和傳送參數。
 
 此步驟可讓您偵測可能的錯誤並加以修正，然後再傳送至主要目標。
 
-本節將介紹驗證傳送 [的步驟](../../sending/using/get-started-sending-messages.md#prepare-test-send)。
+驗證傳送的步驟在本節[中顯示。](../../sending/using/get-started-sending-messages.md#prepare-test-send)
 
 ## 電子郵件呈現 {#email-rendering}
 
@@ -41,15 +41,15 @@ ht-degree: 16%
 
 * 電子郵件轉換功能對於識別您的電子郵件宣傳是否成功超越主要ISP（網際網路服務供應商）和網路郵件服務的篩選至關重要。 此類工具會將電子郵件的預檢副本傳送至測試收件匣網路，讓您瞭解訊息在這些服務間的顯示或呈現方式。 它們也可能包含報表和程式碼修正選項，可協助您快速識別並進行修正，以改善傳遞性。
 
-在本節 [中進一步瞭解](../../sending/using/email-rendering.md)。
+瞭解本節[的更多資訊。](../../sending/using/email-rendering.md)
 
-## 校對訊息 {#proof-messages}
+## 校對訊息{#proof-messages}
 
 傳送校樣可讓您檢查選擇退出連結、鏡像頁面和任何其他連結、驗證訊息、確認影像已顯示、偵測可能的錯誤等。 您也可能想要檢查不同裝置上的設計和演算。
 
-在本節 [中進一步瞭解](../../sending/using/sending-proofs.md)。
+瞭解本節[的更多資訊。](../../sending/using/sending-proofs.md)
 
-## 設定A/B測試傳送 {#a-b-testing-deliveries}
+## 設定A/B測試傳送{#a-b-testing-deliveries}
 
 如果您有數個內容要傳送電子郵件，您可以使用A/B測試來找出哪個版本對目標群體的影響最大。
 
@@ -59,5 +59,5 @@ ht-degree: 16%
 
 * 選取成功率最高的成功率，並將它傳送至目標的其他部分
 
-在本節 [中進一步瞭解](../../channels/using/designing-an-a-b-test-email.md)。
+瞭解本節[的更多資訊。](../../channels/using/designing-an-a-b-test-email.md)
 

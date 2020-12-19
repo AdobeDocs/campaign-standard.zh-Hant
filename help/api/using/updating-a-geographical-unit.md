@@ -17,7 +17,7 @@ ht-degree: 10%
 
 # 更新設定檔的地理單位 {#updating-a-geographical-unit}
 
-1. 對geoUnitBase資源執行GET **請求** ，以檢索地理單位PKey。
+1. 對&#x200B;**geoUnitBase**&#x200B;資源執行GET請求以檢索地理單元PKey。
 1. 對配置檔案PKey執行PATCH請求，並在裝載中使用所需的地理單元PKey。
 
 <br/>

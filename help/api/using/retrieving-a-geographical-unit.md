@@ -1,7 +1,7 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 檢索設定檔的地理單位
+title: 擷取設定檔的地理單位
 description: 瞭解如何使用API擷取描述檔的地理單位。
 audience: developing
 content-type: reference
@@ -15,9 +15,9 @@ ht-degree: 12%
 ---
 
 
-# 檢索設定檔的地理單位 {#retrieving-geographical-unit}
+# 擷取設定檔的地理單位 {#retrieving-geographical-unit}
 
-1. 對配置檔案PKey執行GET請求以檢索 **geoUnit** URL。
+1. 對配置檔案PKey執行GET請求以檢索&#x200B;**geoUnit** URL。
 1. 在URL上執行GET請求，以擷取有關地理單位的詳細資訊。
 
 <br/>

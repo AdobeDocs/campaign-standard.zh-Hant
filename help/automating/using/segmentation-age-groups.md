@@ -26,9 +26,9 @@ ht-degree: 66%
 
 工作流程由下列元素組成：
 
-* A [Scheduler activity](../../automating/using/segmentation.md) to specify the workflow&#39;s execution date.
-* A [Query](../../automating/using/query.md) activity to target profiles of people whose birthday and email address have been entered.
-* A [Segmentation](../../automating/using/segmentation.md) activity to create 3 segments divided into different outbound transitions: 18-25-year old, 26-32-year old and profiles that are over 32 years old. 區段會依據下列參數定義：
+* [調度程式活動](../../automating/using/segmentation.md)以指定工作流的執行日期。
+* [Query](../../automating/using/query.md)活動，用於定位已輸入生日和電子郵件地址的人員的配置檔案。
+* [分段](../../automating/using/segmentation.md)活動，以建立3個分成不同對外轉場的區段：18-25歲，26-32歲，32歲以上。 區段會依據下列參數定義：
 
    ![](assets/wkf_segment_example_3.png)
 
@@ -40,4 +40,4 @@ ht-degree: 66%
 
       ![](assets/wkf_segment_example_1.png)
 
-* 每個 [區段的電子郵件](../../automating/using/email-delivery.md) 傳送活動。
+* 每個區段的[電子郵件傳送](../../automating/using/email-delivery.md)活動。

@@ -1,7 +1,7 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 交易式訊息使用案例
+title: 異動訊息使用案例
 description: 探索Adobe Campaign交易訊息功能的端對端範例。
 audience: channels
 content-type: reference
@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
 source-wordcount: '504'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
 
-# 事務性消息傳遞使用案例{#transactional-messaging-use-case}
+# 異動訊息使用案例 {#transactional-messaging-use-case}
 
 在此範例中，您想使用Adobe Campaign交易傳訊功能，在您網站上每次購買後傳送確認電子郵件，透過客戶CRM ID識別客戶。
 

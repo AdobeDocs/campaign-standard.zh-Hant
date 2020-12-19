@@ -22,7 +22,7 @@ ht-degree: 67%
 
 ![](assets/identification_example2.png)
 
-* A [Load file](../../automating/using/load-file.md) activity, which loads and detects tshe data of the file to import. 匯入的檔案包含下列資料：
+* [載入檔案](../../automating/using/load-file.md)活動，可載入並偵測要匯入之檔案的資料。 匯入的檔案包含下列資料：
 
    ```
    lastname;firstname;email;dateofbirth
@@ -37,10 +37,10 @@ ht-degree: 67%
    tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
    ```
 
-* A [Reconciliation](../../automating/using/reconciliation.md) activity, which links each column of the loaded file to a profile dimension column. 無法識別的檔案記錄（遺失資料、不相容的資料類型等）會遭到忽略，以保留最終對象資料的完整性。
+* [協調](../../automating/using/reconciliation.md)活動，將載入檔案的每列連結到配置檔案維列。 無法識別的檔案記錄（遺失資料、不相容的資料類型等）會遭到忽略，以保留最終對象資料的完整性。
 
    ![](assets/identification_example1.png)
 
-* A [Save audience](../../automating/using/save-audience.md) activity, which saves the audience of profiles.
+* A [儲存觀眾](../../automating/using/save-audience.md)活動，可儲存設定檔的觀眾。
 
    ![](assets/identification_example3.png)

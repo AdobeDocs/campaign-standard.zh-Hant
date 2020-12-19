@@ -1,7 +1,7 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 測試交易式訊息
+title: 測試異動訊息
 description: 瞭解如何在Adobe Campaign中測試交易訊息。
 audience: channels
 content-type: reference

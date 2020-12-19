@@ -328,7 +328,7 @@ CR：歸位
 
 ![](assets/sms_options.png)
 
-From the **[!UICONTROL Advanced parameters]** section:
+從&#x200B;**[!UICONTROL Advanced parameters]**&#x200B;部分：
 
 * **[!UICONTROL From]** 選項可讓您使用字串個人化 SMS 訊息寄件者的名稱。此名稱將顯示為收件者行動電話上 SMS 訊息的傳送者姓名。
 
@@ -340,7 +340,7 @@ From the **[!UICONTROL Advanced parameters]** section:
    >
    >請查看您所在國家/地區有關修改寄件者地址的法規。您也應洽詢您的 SMS 服務提供者，以瞭解他們是否提供此功能。
 
-從SMS **[!UICONTROL Send]** 範本的區段：
+從SMS範本的&#x200B;**[!UICONTROL Send]**&#x200B;區段：
 
 * **[!UICONTROL Maximum number of SMS per message]** 選項可讓您定義用於傳送訊息的 SMS 訊息數目。如果超過此數目，則不會傳送訊息。
 

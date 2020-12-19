@@ -71,13 +71,13 @@ ht-degree: 93%
 
 ## 活動{#activity}
 
-### 每個工作流程的活動數 {#number-activities}
+### 每個工作流的活動數{#number-activities}
 
 我們建議在單一工作流程中使用最多100個活動。 超過100種活動，在設計和設定工作流程時可能會遇到一些效能問題。
 
 ### 工作流程設計
 
-為確保工作流正常結束，請避免使用 **[!UICONTROL End activity]**
+為確保工作流正常結束，請避免使用&#x200B;**[!UICONTROL End activity]**，讓工作流程的最後一次轉場完全自行進行。
 
 若要存取轉變的詳細檢視，請核取工作流程屬性的「執行」區段中的 **[!UICONTROL Keep interim results]** 選項。
 
@@ -108,7 +108,7 @@ ht-degree: 93%
 
 ## 使用參數呼叫工作流程{#workflow-with-parameters}
 
-請確定參數的名稱和數目與呼叫工作流程時所定義的參數相同(請參 [閱本頁](../../automating/using/defining-parameters-calling-workflow.md)。 參數的類型也必須與預期值一致。
+請確定參數的名稱和數目與呼叫工作流時定義的相同（請參閱[本頁](../../automating/using/defining-parameters-calling-workflow.md)）。 參數的類型也必須與預期值一致。
 
 請確定所有參數都已在　**[!UICONTROL External signal activity]**　中宣告。否則，執行活動時將發生錯誤。
 

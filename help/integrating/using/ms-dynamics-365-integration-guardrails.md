@@ -53,7 +53,7 @@ ht-degree: 0%
 
 * 我們鼓勵您通知已知的例項，指出整合的使用量會大幅增加或「尖峰」（例如，新記錄或更新記錄會大幅增加），因為這可能會導致資料同步速度變慢。
 
-* 在整合中，您需要完成Microsoft Azure和Dynamics 365中的預先整合設定步驟。 請參閱本頁的 [設定步驟](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
+* 在整合中，您需要完成Microsoft Azure和Dynamics 365中的預先整合設定步驟。 請參閱本頁的配置步驟[](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
 
 * 預期您會將Dynamics 365和Campaign資料模型帶入整合，並加以維護。
 

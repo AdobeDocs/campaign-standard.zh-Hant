@@ -43,7 +43,7 @@ ht-degree: 4%
 
 ## 選擇配置檔案和替代地址{#selecting-profiles}
 
-若要使用目標描述檔進行測試，您必須先選取它們，然後定義接收校樣的替代位址。 To do this, you can either [select specific profiles](#selecting-individual-profiles) among the targeted profiles, or [import profiles from an existing audience](#importing-from-audience).
+若要使用目標描述檔進行測試，您必須先選取它們，然後定義接收校樣的替代位址。 若要這麼做，您可以在目標描述檔中選取[特定描述檔](#selecting-individual-profiles)，或從現有對象](#importing-from-audience)匯入描述檔。[
 
 >[!NOTE]
 >

@@ -19,13 +19,13 @@ ht-degree: 1%
 
 依預設，清單中會載入25個資源。
 
-使 **用_lineCount** 參數可以限制響應中列出的資源數。  然後，可以使用下 **一個節** 點來顯示下一個結果。
+**_lineCount**&#x200B;參數允許您限制響應中列出的資源數。  然後，可以使用&#x200B;**next**&#x200B;節點來顯示下一個結果。
 
 >[!NOTE]
 >
->請務必使用在下一個節點中傳回 **的** URL值來執行分頁請求。
+>請務必使用&#x200B;**next**&#x200B;節點中傳回的URL值來執行分頁請求。
 >
->會計 **算_lineStart** 請求，且必須一律用在下一個節點傳回的URL **中** 。
+>會計算&#x200B;**_lineStart**&#x200B;請求，且必須一律使用在&#x200B;**next**&#x200B;節點中傳回的URL中。
 
 <br/>
 
@@ -41,7 +41,7 @@ ht-degree: 1%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-回應請求，下一個節 **點** ，執行分頁。
+回應請求，並使用&#x200B;**next**&#x200B;節點執行分頁。
 
 ```
 {
@@ -62,7 +62,7 @@ ht-degree: 1%
 }
 ```
 
-預設情況下， **與具有大量資料** 的表交互時，下一個節點不可用。 若要能夠執行分頁，您必須將 **_forcePagination=true** 參數新增至呼叫URL。
+預設情況下，與具有大量資料的表交互時，**next**&#x200B;節點不可用。 若要能夠執行分頁，您必須將&#x200B;**_forcePagination=true**&#x200B;參數新增至呼叫URL。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_forcePagination=true \
@@ -74,4 +74,4 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->在Campaign Standard **XtkBigTableThreshold選項中定義表被視為大的記錄數** 。 預設值為100,000條記錄。
+>Campaign Standard **XtkBigTableThreshold**&#x200B;選項中定義了表被視為大的記錄數。 預設值為100,000條記錄。

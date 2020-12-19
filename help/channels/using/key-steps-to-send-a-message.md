@@ -17,7 +17,7 @@ ht-degree: 93%
 
 # 傳送訊息的關鍵步驟{#key-steps-to-send-a-message}
 
-To learn the delivery best practices, consult the [Delivery best practices](../../sending/using/delivery-best-practices.md) section.
+要瞭解交付最佳實踐，請參閱[交付最佳實踐](../../sending/using/delivery-best-practices.md)一節。
 
 建立和傳送訊息的步驟如下：
 

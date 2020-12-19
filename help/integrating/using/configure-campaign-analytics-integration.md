@@ -23,25 +23,25 @@ ht-degree: 9%
 
 外部帳戶和技術工作流程只能由平台的功能管理員管理。
 
-1. From the advanced menu, via the Adobe Campaign logo, select **[!UICONTROL Administration > Application settings > External accounts]**.
-1. Select the **[!UICONTROL Share KPIs with Adobe Analytics]** external account.
+1. 從進階功能表，透過Adobe Campaign標誌，選取&#x200B;**[!UICONTROL Administration > Application settings > External accounts]**。
+1. 選擇&#x200B;**[!UICONTROL Share KPIs with Adobe Analytics]**&#x200B;外部帳戶。
 
    ![](assets/analytics_2.png)
 
-1. 在欄位 **[!UICONTROL Web services user name]** 中指 **[!UICONTROL Web services share secret]** 定您的 **[!UICONTROL Connection]** 和。
+1. 在&#x200B;**[!UICONTROL Connection]**&#x200B;欄位中指定&#x200B;**[!UICONTROL Web services user name]**&#x200B;和&#x200B;**[!UICONTROL Web services share secret]**。
 
-   您可在Analytics中選取這些參數 **[!UICONTROL Admin > Company settings > Web services]**。
+   您可在Analytics中選取&#x200B;**[!UICONTROL Admin > Company settings > Web services]**&#x200B;來找到這些參數。
 
    ![](assets/analytics_1.png)
 
 1. 按一下 **[!UICONTROL Refresh report suites]** 按鈕。
-1. 從下拉式 **[!UICONTROL Analytics default report suite]** 清單中選取您要使用Adobe Campaign資料豐富的Adobe Analytics報表套裝。
+1. 在&#x200B;**[!UICONTROL Analytics default report suite]**&#x200B;下拉式清單中，選取您要使用Adobe Campaign資料豐富的Adobe Analytics報表套裝。
 
-   您的外部帳戶現已準備就緒，並可與Adobe Analytics連結。 您可以隨時勾選方塊來停用 **[!UICONTROL Enabled]** 它。
+   您的外部帳戶現已準備就緒，並可與Adobe Analytics連結。 您可以隨時勾選&#x200B;**[!UICONTROL Enabled]**&#x200B;方塊以停用它。
 
    ![](assets/analytics.png)
 
-技術 **[!UICONTROL Share KPIs with Adobe Analytics]** 工作流程現在會自動啟動，並可從進階選單中選取以檢視 **[!UICONTROL Administration > Application settings > Workflow]**。 此技術工作流程將每15分鐘自動執行一次，並在Adobe Analytics中推播最多6個月的舊資料。
+**[!UICONTROL Share KPIs with Adobe Analytics]**&#x200B;技術工作流程現在會自動啟動，並可從進階功能表選取&#x200B;**[!UICONTROL Administration > Application settings > Workflow]**&#x200B;來檢視。 此技術工作流程將每15分鐘自動執行一次，並在Adobe Analytics中推播最多6個月的舊資料。
 
 ![](assets/analytics_3.png)
 
@@ -51,5 +51,5 @@ ht-degree: 9%
 
 * [外部帳戶](../../administration/using/external-accounts.md)
 * [技術工作流程](../../administration/using/technical-workflows.md)
-* [共用整合式促銷活動報告視訊的KPI](https://helpx.adobe.com/tw/marketing-cloud/how-to/email-marketing.html)
+* [共用整合式促銷活動報告視訊的KPI(關](https://helpx.adobe.com/tw/marketing-cloud/how-to/email-marketing.html) 鍵績效指標)
 

@@ -19,7 +19,7 @@ ht-degree: 3%
 
 篩選規則允許您根據查詢中定義的條件排除郵件目標的一部分，如已發送一定數量電子郵件的隔離配置檔案或配置檔案。
 
-## 預設篩選排版規則 {#default-filtering-typology-rules}
+## 預設篩選類型規則{#default-filtering-typology-rules}
 
 下表提供現成可用篩選規則及其相關渠道的相關資訊。
 
@@ -27,7 +27,7 @@ ht-degree: 3%
 ---------|----------|---------
 | **[!UICONTROL Address not specified]** | 全部 | 排除沒有指定地址（電子郵件、郵遞區號等）的目標人口。 )。 |
 | **[!UICONTROL Address on denylist]** | 全部 | 排除位於密尼清單中的地址。 |
-| **[!UICONTROL Duplicate]** | 全部 | 根據目標人口欄位排除復 **[!UICONTROL Address]** 本。 |
+| **[!UICONTROL Duplicate]** | 全部 | 根據目標人口&#x200B;**[!UICONTROL Address]**&#x200B;欄位排除重複項。 |
 | **[!UICONTROL Exclude mobile applications]** | 行動應用程式 | 排除不符合訊息中定義之行動應用程式的應用程式訂閱。 |
 | **[!UICONTROL Exclude mobile applications for In-App]** | 應用程式內 | 排除不符合訊息（應用程式內範本）中定義之行動應用程式的應用程式訂閱。 |
 | **[!UICONTROL Exclude mobile applications for In-App broadcast]** | 應用程式內 | 排除不符合訊息中定義之行動應用程式的應用程式訂閱（應用程式內廣播範本） |
@@ -48,29 +48,29 @@ ht-degree: 3%
 >
 >全局隱藏清單中包含的地址和域名將被隱藏。 傳送分析記錄中只會指出已排除的收件者數目。
 
-## Creating a filtering rule {#creating-a-filtering-rule}
+## 建立篩選規則{#creating-a-filtering-rule}
 
 您可以根據自己的需求建立自己的篩選規則。 例如，您可以篩選電子報的目標人口，讓18歲以下的訂閱者永遠無法收到通訊。
 
 若要建立篩選排版規則，請遵循下列步驟：
 
-1. 建立新的排版規則。 本節將詳細說明建立排版規則的 [主要步驟](../../sending/using/managing-typology-rules.md)。
+1. 建立新的排版規則。 建立排版規則的主要步驟詳見[本節](../../sending/using/managing-typology-rules.md)。
 
-1. 選取規 **[!UICONTROL Filtering]** 則類型，然後指定所要的渠道。
+1. 選擇&#x200B;**[!UICONTROL Filtering]**&#x200B;規則類型，然後指定所需的頻道。
 
-1. 在標籤 **[!UICONTROL Filtering criteria]** 中，選擇類別中的訂 **[!UICONTROL Subscription]** 閱。
+1. 在&#x200B;**[!UICONTROL Filtering criteria]**&#x200B;標籤中，選擇&#x200B;**[!UICONTROL Subscription]**&#x200B;類別中的預訂。
 
    ![](assets/typology_create-rule-subscription.png)
 
-1. 在查 **[!UICONTROL Explorer]** 詢編輯器的頁籤中，將節 **[!UICONTROL Subscriber]** 點拖放到螢幕的主部分。
+1. 在查詢編輯器的&#x200B;**[!UICONTROL Explorer]**&#x200B;頁籤中，將&#x200B;**[!UICONTROL Subscriber]**&#x200B;節點拖放到螢幕的主部分。
 
    ![](assets/typology_create-rule-subscriber.png)
 
-1. 選取 **[!UICONTROL Age]** 欄位並定義篩選條件，讓訂閱者的年齡在18歲或以上。
+1. 選擇&#x200B;**[!UICONTROL Age]**&#x200B;欄位並定義篩選條件，讓訂閱者的年齡為18歲或以上。
 
    ![](assets/typology_create-rule-age.png)
 
-1. 在標籤 **[!UICONTROL Typologies]** 中，將此規則連結至類型學。
+1. 在&#x200B;**[!UICONTROL Typologies]**&#x200B;標籤中，將此規則連結至類型學。
 
    ![](assets/typology_create-rule-typology.png)
 
@@ -80,21 +80,21 @@ ht-degree: 3%
 
 每當在訊息中使用此規則時，會自動排除被視為未成年者的訂閱者。
 
-## 設定篩選規則的定位內容 {#configuring-filtering-rules-targeting-context}
+## 設定篩選規則的定位內容{#configuring-filtering-rules-targeting-context}
 
-「促銷活動標準」可讓您設 **定「定位** 」和「篩 **** 選」維度，以根據您要定位的資料而使用。
+「促銷活動標準」可讓您設定&#x200B;**定位**&#x200B;和&#x200B;**篩選**&#x200B;維度，以根據您要定位的資料使用。
 
-若要這麼做，請開啟排版規則的屬性，然後存取該 **[!UICONTROL Advanced information]** 區段。
+若要這麼做，請開啟排版規則的屬性，然後存取&#x200B;**[!UICONTROL Advanced information]**&#x200B;區段。
 
-By default, filtering is carried out on the **[!UICONTROL Profiles]**. 例如，如果規則針對行動應用程式，則 **[!UICONTROL Filtering dimension]** 可變更為 **[!UICONTROL Subscriptions to an application]**。
+預設情況下，對&#x200B;**[!UICONTROL Profiles]**&#x200B;進行過濾。 例如，如果規則針對行動應用程式，則&#x200B;**[!UICONTROL Filtering dimension]**&#x200B;可變更為&#x200B;**[!UICONTROL Subscriptions to an application]**。
 
 ![](assets/typology_rule-order_2.png)
 
-## Restricting the applicability of a filtering rule {#restricting-the-applicability-of-a-filtering-rule}
+## 限制篩選規則{#restricting-the-applicability-of-a-filtering-rule}的適用性
 
 您可以根據要傳送的訊息限制篩選規則的適用性。
 
-1. 在排版規則的標 **[!UICONTROL Application criteria]** 簽中，取消選 **[!UICONTROL Apply the rule on all deliveries]** 中選項，該選項預設啟用。
+1. 在排版規則的&#x200B;**[!UICONTROL Application criteria]**&#x200B;標籤中，取消勾選&#x200B;**[!UICONTROL Apply the rule on all deliveries]**&#x200B;選項，此選項預設為啟用。
 
    ![](assets/typology_limit.png)
 

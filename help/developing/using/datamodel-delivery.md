@@ -524,7 +524,7 @@ ht-degree: 6%
                   <td> </td>
                </tr>
                <tr>
-                  <td>標題</td>
+                  <td>title</td>
                   <td>傳送</td>
                   <td>字串(255)</td>
                   <td> </td>

@@ -17,13 +17,13 @@ ht-degree: 3%
 
 # 建立設定檔 {#creating-profiles}
 
-建立配置式時會對配置 **式資源** 執行POST請求。
+建立配置式時，在配置式資源上使用&#x200B;**POST**&#x200B;請求執行。
 
 >[!CAUTION]
 >
->如果要將 <b>orgUnit</b> 與建立的配置檔案關聯，您需要將此欄位擴展配置檔案資源，並在發佈擴展後對 <b></b> ProfileAndServicesExt端點執行POST請求。
+>如果要將<b>orgUnit</b>關聯到建立的配置檔案，您需要將此欄位擴展配置檔案資源，並在發佈擴展後，對<b>ProfileAndServicesExt</b>端點執行POST請求。
 >
->如需描述檔資源擴充功能的詳細資訊，請參閱促銷活 <a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">動檔案</a>。
+>如需描述檔資源擴充功能的詳細資訊，請參閱<a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">促銷活動檔案</a>。
 
 <br/>
 

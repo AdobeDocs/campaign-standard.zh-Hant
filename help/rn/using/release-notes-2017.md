@@ -9,8 +9,8 @@ topic-tags: campaign-standard-releases
 translation-type: tm+mt
 source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '4627'
+ht-degree: 5%
 
 ---
 
@@ -314,7 +314,7 @@ _推播通知_
    <td> 您現在可以存取Creative SDK所提供的完整功能集，以在編輯電子郵件或登陸頁面時，直接在內容編輯器中增強您的影像。<br /> 這項功能不需要購買其他Creative Cloud解決方案。<br /> 如需詳細資訊，請參閱詳 <a href="../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk">細檔案</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 交易式推播通知<br /> </td> 
+   <td> 異動推播通知<br /> </td> 
    <td> 行動應用程式通道已新增至Adobe Campaign的交易訊息功能。 交易式訊息現在支援三個通道：電子郵件、簡訊和推播通知。<br /> 如需詳細資訊，請參閱詳 <a href="../../channels/using/transactional-push-notifications.md">細檔案</a>。<br /> </td> 
   </tr> 
   <tr> 

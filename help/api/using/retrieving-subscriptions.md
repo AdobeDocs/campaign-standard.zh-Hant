@@ -1,7 +1,7 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 檢索訂閱
+title: 擷取訂閱
 description: 瞭解如何使用API擷取訂閱。
 audience: developing
 content-type: reference
@@ -15,7 +15,7 @@ ht-degree: 2%
 ---
 
 
-# 檢索訂閱 {#retrieving-subscriptions}
+# 擷取訂閱 {#retrieving-subscriptions}
 
 ## 檢索預訂服務的配置檔案
 

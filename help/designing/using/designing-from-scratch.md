@@ -117,7 +117,7 @@ ht-degree: 2%
 
 如果您需要使用多個按鈕，而不是從頭開始編輯每個按鈕，則可以使用上下文工具欄複製&#x200B;**[!UICONTROL Button]**&#x200B;元件。
 
-您也可以將按鈕儲存至可重複使用的片段。 For more on this, see [Creating a content fragment](../../designing/using/using-reusable-content.md#creating-a-content-fragment) and [Saving content as a fragment](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
+您也可以將按鈕儲存至可重複使用的片段。 如需詳細資訊，請參閱「建立內容片段](../../designing/using/using-reusable-content.md#creating-a-content-fragment)」和「將內容儲存為片段](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment)」。[[
 
 選擇&#x200B;**[!UICONTROL Fallback view]**&#x200B;以在電子郵件設計器中顯示備用影像。
 

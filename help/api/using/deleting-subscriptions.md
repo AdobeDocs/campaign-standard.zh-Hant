@@ -19,7 +19,7 @@ ht-degree: 1%
 
 <!--NOTE TO WRITER: There are two duplicate headings that seem to have the same content. Delete one? Rename if different?-->
 
-## 刪除特定配置檔案的服務訂閱 {#deleting-service-subscription}
+## 刪除特定配置檔案{#deleting-service-subscription}的服務預訂
 
 這是一個三步驟的過程。
 

@@ -34,17 +34,17 @@ Adobe Campaign提供完整的圖形環境，可讓您設計複雜的程式，包
 * 將資料匯入促銷活動資料庫。
 * 技術流程，例如資料庫清理、追蹤資訊的復原等。
 
-## 工作流程活動 {#workflow-activities}
+## 工作流活動{#workflow-activities}
 
 <img src="assets/do-not-localize/icon_workflows.svg" width="60px">
 
 您可使用各種活動來協助您設計工作流程。
 
-[定位活動](../../automating/using/about-targeting-activities.md) ，可讓您定義集合，並使用交叉點、聯合或排除作業來分割或組合這些集，以建立一或多個定位。
+[定位](../../automating/using/about-targeting-activities.md) 活動允許您通過定義集並使用交叉點、聯合或排除操作拆分或組合這些集來構建一個或多個目標。
 
-使用 [執行活動](../../automating/using/about-execution-activities.md)，協調您的工作流程及其活動，而 [](../../automating/using/about-channel-activities.md) Channel活動則可讓您結合Campaign Standard通訊管道來建立跨通道的工作流程。
+使用[執行活動](../../automating/using/about-execution-activities.md)來協調您的工作流程及其活動，而[渠道活動](../../automating/using/about-channel-activities.md)則可讓您結合Campaign Standard通訊管道來建立跨通道工作流程。
 
-最後， [資料管理活動](../../automating/using/about-data-management-activities.md) 可讓您控制資料庫中的資料。
+最後，[資料管理活動](../../automating/using/about-data-management-activities.md)可讓您控制資料庫中的資料。
 
 顯示全文:
 
@@ -52,13 +52,13 @@ Adobe Campaign提供完整的圖形環境，可讓您設計複雜的程式，包
 * [執行工作流程](../../automating/using/about-workflow-execution.md)
 * [工作流程最佳實務](../../automating/using/best-practices-workflows.md)
 
-## 篩選資料 {#filter-data}
+## 篩選資料{#filter-data}
 
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 
-運用查 **詢編輯器** ，篩選資料庫中的資料，並建立人口族群，以更好地定位收件者。 查詢編輯器可用於在Campaign Standard中執行多個操作：建立查詢類型對象、定義傳送目標或工作流程活動中的人口族群。
+運用&#x200B;**查詢編輯器**&#x200B;來篩選資料庫中的資料，並建立人口族群，以更好地定位收件者。 查詢編輯器可用於在Campaign Standard中執行多個操作：建立查詢類型對象、定義傳送目標或工作流程活動中的人口族群。
 
-查詢編輯器隨附預先定 **義的篩選器和規則** ，讓您快速輕鬆篩選。 不過，您也可以使用進階 **的運算式編輯** 功能。 這可讓您手動輸入條件並使用函式，以便形成您自己的規則。
+查詢編輯器隨附&#x200B;**預先定義的篩選器和規則**，以便快速且輕鬆地篩選。 不過，您也可以使用&#x200B;**進階運算式編輯**&#x200B;功能。 這可讓您手動輸入條件並使用函式，以便形成您自己的規則。
 
 顯示全文:
 
@@ -66,21 +66,21 @@ Adobe Campaign提供完整的圖形環境，可讓您設計複雜的程式，包
 * [進階運算式編輯](../../automating/using/advanced-expression-editing.md)
 * [函式清單](../../automating/using/list-of-functions.md)
 
-## 匯入／匯出資料 {#import-export-data}
+## 匯入／匯出資料{#import-export-data}
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-Campaign Standard提供數種資 **料管理功能** ，可匯入和匯出資料。
+Campaign Standard提供數種&#x200B;**資料管理功能**，以匯入和匯出資料。
 
-[工作流程資料管理活動](../../automating/using/about-data-management-activities.md) ，可讓您匯入資料、對欄位執行大量更新、接收或傳送檔案，或將未識別的資料連結至現有資源。
+[工作流程資料管](../../automating/using/about-data-management-activities.md) 理活動可讓您匯入資料、對欄位執行大量更新、接收或傳送檔案，或將未識別的資料連結至現有資源。
 
-使用 [匯入範本](../../automating/using/importing-data-with-import-templates.md)，透過簡化的匯入功能，管理管理員定義的特定匯入類型。
+使用[Import templates](../../automating/using/importing-data-with-import-templates.md)，透過簡化的匯入功能管理管理員定義的特定匯入類型。
 
-[匯出記錄](../../automating/using/exporting-logs.md) (Exporting logs)可讓您透過簡單的工作流程匯出記錄檔資料，讓您能夠在自己的報表或BI工具中分析行銷宣傳的結果。
+[匯出](../../automating/using/exporting-logs.md) 記錄可讓您透過簡單的工作流程匯出記錄資料，讓您能夠在自己的報表或BI工具中分析行銷宣傳的結果。
 
-運用 [套件](../../automating/using/managing-packages.md) ，以在不同促銷活動例項之間交換資源，例如複製例項的設定，或將資料從伺服器傳輸至其他伺服器，包括自訂資源。
+利用[Packages](../../automating/using/managing-packages.md)在不同促銷活動例項之間交換資源，例如複製例項的設定，或將資料從伺服器傳輸至其他伺服器，包括自訂資源。
 
-最後， [匯出清單](../../automating/using/exporting-lists.md) 可讓您從Campaign Standard匯出任何清單，例如測試設定檔清單、隔離電子郵件地址清單等。
+最後，[匯出清單](../../automating/using/exporting-lists.md)可讓您從Campaign Standard匯出任何清單，例如測試設定檔清單、隔離電子郵件地址清單等。
 
 顯示全文:
 

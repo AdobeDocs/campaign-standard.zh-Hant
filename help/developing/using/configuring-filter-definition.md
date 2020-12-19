@@ -85,4 +85,4 @@ ht-degree: 95%
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/by<customFilterName>?<customFilterparam>=<customFilterValue>`
 
-如需詳細資訊，請參閱 [Campaign Standard API檔案](../../api/using/filtering.md#custom-filters)。
+如需詳細資訊，請參閱[促銷活動標準API檔案](../../api/using/filtering.md#custom-filters)。

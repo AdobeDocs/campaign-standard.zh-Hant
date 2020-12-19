@@ -28,7 +28,7 @@ ht-degree: 7%
 
 **Audience** 是先建立區段來建立 **的**，這實際上是一組規則，基於來自Adobe Experience Platform的客戶描述檔中幾乎任何變數（例如，描述檔、事件、多實體資料），以建立多維度目標。這些專屬檔案中參考了即時客戶個人檔案與細分服務的全域概念：
 
-* [即時客戶個人檔案總覽](https://docs.adobe.com/content/help/zh-Hant/experience-platform/profile/home.html)
+* [即時客戶個人檔案總覽](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)
 * [區段服務概觀](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html)
 
 在建立區段後，您就可以將其啟動為[促銷活動標準工作流程](../../automating/using/aep-targeting-audiences.md)中的對象，以進行傳送。 此外，您也可以使用Adobe Experience Platform中的內容相關資料，將[個人化](../../automating/using/aep-personalizing-campaigns.md)並新增動態內容至您的促銷活動。

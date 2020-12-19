@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# 取得／貼文／修補／刪除動詞 {#verbs}
+# GET / POST / PATCH / DELETE動詞{#verbs}
 
 對資源執行操作的可用動詞包括：
 

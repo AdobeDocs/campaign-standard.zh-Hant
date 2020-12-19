@@ -1,7 +1,7 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 設定指南
+title: 配置指南
 description: 瞭解Campaign Standard設定方針。
 audience: administration
 content-type: reference

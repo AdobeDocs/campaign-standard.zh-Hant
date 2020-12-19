@@ -21,15 +21,15 @@ ht-degree: 0%
 
 * **入口**:
 
-   * 將Dynamics **** 365的連絡人匯入Campaign
+   * 將&#x200B;**連絡人**&#x200B;從Dynamics 365匯入Campaign
 
-   * **自訂實體**:將自訂表格從Dynamics 365匯入Campaign。 在本節 [中進一步瞭解](../../integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)。
+   * **自訂實體**:將自訂表格從Dynamics 365匯入Campaign。瞭解本節[的更多資訊。](../../integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
 
 * **出口**:將電子郵件行銷活動從ACS帶入D365（電子郵件傳送、開啟、按一下、彈回）
 
 * **選擇退出**:雙向同步退出狀態（例如denyList）
 
-有關資料流的詳細資訊，請參 [閱本節](#data-flows)。
+有關資料流的詳細資訊，請參閱本節[。](#data-flows)
 
 ## Adobe Campaign Standard使用者體驗
 
@@ -97,13 +97,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->電子郵件鏡像頁面的到期期間可在對應的「促銷活動」電子郵件渠道活動的設定畫面中加以修改(請參 [閱「有效期間參數](../../administration/using/configuring-email-channel.md#validity-period-parameters)」)。
+>電子郵件鏡像頁面的到期期間可在對應的「促銷活動」電子郵件頻道活動的設定畫面中修改（請參閱[有效期間參數](../../administration/using/configuring-email-channel.md#validity-period-parameters)）。
 
 >[!NOTE]
 >
 >對於選擇退出，在Dynamics 365中修改選擇退出屬性時，如果您已選取Dynamics 365到促銷活動或雙向選擇退出設定，且您已正確對應該特定屬性，則該屬性會反映在促銷活動中。
 
-## 資料流 {#data-flows}
+## 資料流{#data-flows}
 
 ### 連絡人與自訂實體入口
 

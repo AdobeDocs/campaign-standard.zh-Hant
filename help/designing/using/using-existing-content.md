@@ -212,7 +212,7 @@ zip檔案結構沒有限制。 但是，參照HTML檔案必須是相對的，並
 1. 添加結構元件。 如需詳細資訊，請參閱「[編輯電子郵件結構](../../designing/using/designing-from-scratch.md#defining-the-email-structure)」。
 1. 新增HTML元件。 如需詳細資訊，請參閱「[新增片段及元件](../../designing/using/designing-from-scratch.md#defining-the-email-structure)」。
 1. 將HTML複製並貼入該元件。
-1. 切換至行動裝置檢視。 如需詳細資訊，請參閱[本區段](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)。
+1. 切換至行動裝置檢視。 如需詳細資訊，請參閱[本節](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)。
 
    回應式檢視會中斷，因為您的CSS遺失。
 

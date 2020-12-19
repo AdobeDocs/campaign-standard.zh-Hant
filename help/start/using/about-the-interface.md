@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '432'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Campaign的使用者介面是以所有Adobe Experience Cloud解決方案�
 
 您可存取的促銷活動介面、功能和選項可能會視您的合約和使用者權限而有所不同。 酒店提供英文、法文和德文版本。
 
-請注意，語言是在安裝時設定，之後無法變更。
+請注意，語言是在安裝時已設定好的，之後無法變更。
 
 為了因應不同用途和新功能，Adobe Campaign使用者介面及其所有元素都會定期更新。 您可能會注意到您使用的版本與本文中顯示的畫面有一些差異。
 
@@ -32,8 +32,8 @@ Adobe Campaign的使用者介面是以所有Adobe Experience Cloud解決方案�
 使用Adobe Campaign建立和策劃行銷宣傳的主要步驟為：
 
 * **準備** -此初始階段可讓使用者正式確定促銷活動的需求、意圖和目標：建立行銷計畫、識別目標、定義內容和建立模式、預期結果和相關人員。
-* **定位** -定位階段可讓使用者定義資料收集模式、其結構、區段、受眾、種子和測試、篩選條件以進行設計等。 在此階段中，您也可以設定訂閱／取消訂閱方法。 請參閱 [設定檔與觀眾](../../audiences/using/about-profiles.md)。
-* **建立消息和內容** -此階段涉及選擇通 [信渠道](../../channels/using/get-started-communication-channels.md)。 您也可以設計著 [陸頁面](../../channels/using/getting-started-with-landing-pages.md) ，以取得或更新描述檔，並擴充您的資料庫。 請參 [閱「建立電子郵](../../channels/using/creating-an-email.md)件 [、建立SMS訊息](../../channels/using/creating-an-sms-message.md)、建立推播通知、 [](../../channels/using/preparing-and-sending-a-push-notification.md)[](../../channels/using/about-in-app-messaging.md)[](../../channels/using/creating-the-direct-mail.md)在應用程式中建立推播訊息、建立直接遞送郵件」。
-* **測試和傳送** -執行階段可讓使用者在傳送前，透過預覽畫面和傳送校對給核准者，執行各種驗證步驟（內容、目標）。 請參閱 [測試和傳送](../../sending/using/get-started-sending-messages.md)。
-* **監控和報告** -一旦執行了促銷活動並傳送了不同的訊息，此階段可讓使用者收集傳送的不同狀態，以及追蹤和監控資訊。 系統會產生促銷活動和傳送報表，以追蹤促銷活動和收件者活動的影響。 請參閱 [報告工具](../../reporting/using/about-dynamic-reports.md)。
-* **自動化** -在此階段，還有其他因素，例如匯入／匯出機制實施方法、資料管理和更新模式、個人化資料識別等。 定義。 See [Workflows and data management](../../automating/using/get-started-workflows.md).
+* **定位** -定位階段可讓使用者定義資料收集模式、其結構、區段、受眾、種子和測試、篩選條件以進行設計等。在此階段中，您也可以設定訂閱／取消訂閱方法。 請參閱[設定檔與觀眾](../../audiences/using/about-profiles.md)。
+* **建立消息和內容** -此階段涉及選擇通 [信渠道](../../channels/using/get-started-communication-channels.md)。您也可以設計[著陸頁面](../../channels/using/getting-started-with-landing-pages.md)來取得或更新描述檔，並擴充您的資料庫。 請參閱[建立電子郵件](../../channels/using/creating-an-email.md)、[建立SMS訊息](../../channels/using/creating-an-sms-message.md)、[建立推播通知](../../channels/using/preparing-and-sending-a-push-notification.md)、[建立應用程式內訊息](../../channels/using/about-in-app-messaging.md)、[建立直接郵件傳送](../../channels/using/creating-the-direct-mail.md)。
+* **測試和傳送** -執行階段可讓使用者在傳送之前，透過預覽畫面和傳送校對給核准者，執行各種驗證步驟（內容、目標）。請參閱[測試和傳送](../../sending/using/get-started-sending-messages.md)。
+* **監控和報告** -一旦執行了促銷活動並傳送了不同的訊息，此階段可讓使用者收集傳送的不同狀態，以及追蹤和監控資訊。系統會產生促銷活動和傳送報表，以追蹤促銷活動和收件者活動的影響。 請參閱[報告工具](../../reporting/using/about-dynamic-reports.md)。
+* **自動化** -在此階段中，其他因素包括匯入／匯出機制實施方法、資料管理和更新模式、個人化資料識別等。定義。 請參閱[工作流程與資料管理](../../automating/using/get-started-workflows.md)。

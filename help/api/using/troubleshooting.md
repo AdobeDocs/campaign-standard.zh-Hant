@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 疑難排解 {#troubleshooting}
 
-* **前往Adobe.io Console時，您會收到下列錯誤：「Adobe I/O主控台僅適用於選擇的企業帳戶成員。 如果您認為您應該擁有存取權，請連絡您的系統管理員。」**
+* **前往Adobe.io Console時，您會收到下列錯誤：「Adobe I/O主控台僅適用於選擇的企業帳戶成員。如果您認為您應該擁有訪問權限，請聯繫您的系統管理員。&quot;**
 
 您只能為您所管理的IMS組織建立API金鑰。 如果顯示此訊息，而您想要建立API金鑰，而且您想要向IMS組織的管理員提出要求。
 
@@ -77,7 +77,7 @@ ht-degree: 0%
 }
 ```
 
-* **對Adobe.io執行請求時，您會收到{&quot;code&quot;:500, &quot;message&quot;:&quot;Aorsh. 出了點問題。 請檢查您的URI，然後再試一次。&quot;}**
+* **對Adobe.io執行請求時，您會收到{&quot;code&quot;:500, &quot;message&quot;:&quot;Aorsh.出了點問題。 檢查您的URI並再試一次。&quot;}**
 
 Adobe.io宣告您的無效URI:您請求的URI很可能無效。 在Adobe.io上，當您選取Campaign服務時，會收到含有可能organization_id清單的選擇器。 您必須檢查您選擇的是否是您置入URL的URL。
 
@@ -87,7 +87,7 @@ Adobe.io宣告您的無效URI:您請求的URI很可能無效。 在Adobe.io上�
 
 * **我在創作完成後就看不到個人檔案**
 
-根據實例配置，建立的配置檔案需要與 **orgUnit關聯**。 若要瞭解如何在您的建立中新增此欄位，請參 [閱本節](../../api/using/creating-profiles.md)。
+根據實例配置，建立的配置檔案必須與&#x200B;**orgUnit**&#x200B;關聯。 要瞭解如何在建立中添加此欄位，請參考[本節](../../api/using/creating-profiles.md)。
 
 <!-- * (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu’un POST)
 

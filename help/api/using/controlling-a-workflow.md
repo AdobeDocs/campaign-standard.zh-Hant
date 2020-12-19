@@ -32,7 +32,7 @@ ht-degree: 9%
 * 繼續
 * 停止
 
-有關執行命令的詳細資訊，請參閱促銷活動 [檔案](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/executing-a-workflow/about-workflow-execution.html)。
+有關執行命令的詳細資訊，請參閱[促銷活動文檔](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/executing-a-workflow/about-workflow-execution.html)。
 
 <br/>
 

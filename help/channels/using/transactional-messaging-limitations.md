@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: 0092ad11314fab232663f558ca6635b8fcc03133
+source-git-commit: 5758e5f0f6811a97f51e995fa3c378a7c7117ff5
 workflow-type: tm+mt
 source-wordcount: '742'
 ht-degree: 66%
@@ -64,7 +64,7 @@ ht-degree: 66%
 
 ### 產品清單
 
-請注意，產品清單僅適用於交易型&#x200B;**電子郵件訊息**。 請參閱[在交易式訊息中使用產品清單](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message)。
+請注意，產品清單僅適用於交易型&#x200B;**電子郵件訊息**。 請參閱[在交易式訊息中使用產品清單](../../designing/using/using-product-listings.md)。
 
 ## 品牌推廣 {#permissions-and-branding}
 

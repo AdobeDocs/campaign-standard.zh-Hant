@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
+source-git-commit: 5758e5f0f6811a97f51e995fa3c378a7c7117ff5
 workflow-type: tm+mt
 source-wordcount: '1672'
 ht-degree: 7%
@@ -68,7 +68,7 @@ ht-degree: 7%
 
 您可以新增元素的集合至事件內容，每個元素本身包含數個屬性。
 
-此系列可用於交易電子郵件中，以新增[產品清單](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message)至訊息內容，例如產品清單——價格、參考編號、數量等。 清單的每個產品。
+此系列可用於交易電子郵件中，以新增[產品清單](../../designing/using/using-product-listings.md)至訊息內容，例如產品清單——價格、參考編號、數量等。 清單的每個產品。
 
 1. 在&#x200B;**[!UICONTROL Collections]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL Create element]**&#x200B;按鈕。
 
@@ -96,7 +96,7 @@ ht-degree: 7%
 **相關主題：**
 
 * [預覽和發佈事件](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
-* [在交易式訊息中使用產品清單](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message)
+* [在交易式訊息中使用產品清單](../../designing/using/using-product-listings.md)
 * [發佈交易式訊息](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
 
 ## 豐富事件{#enriching-the-transactional-message-content}

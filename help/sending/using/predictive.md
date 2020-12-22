@@ -7,10 +7,10 @@ audience: sending
 content-type: reference
 topic-tags: ai-powered-emails
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 127964c5360344c83dc5ad6a0e2e8523d8995739
 workflow-type: tm+mt
-source-wordcount: '1061'
-ht-degree: 100%
+source-wordcount: '1064'
+ht-degree: 98%
 
 ---
 
@@ -32,7 +32,7 @@ Adobe Campaign Standard 提供兩種新的機器學習模型： **預測性傳�
 >[!CAUTION]
 >這項功能無法立即在產品中使用。此實作需要 Adobe Consulting 參與。請洽詢您的 Adobe 代表以瞭解更多資訊。
 >
->此功能需要使用必須由客戶提供的 Azure 儲存空間。
+>此功能需要使用客戶必須提供的Azure或Amazon S3儲存空間。
 
 ## 預測性傳送時間最佳化{#predictive-send-time}
 

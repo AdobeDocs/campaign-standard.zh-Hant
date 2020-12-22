@@ -7,10 +7,10 @@ user-guide-description: '說明中心，以瞭解使用 Campaign Standard 所需
 breadcrumb-title: 促銷活動標準
 title: Campaign Standard 指南
 translation-type: tm+mt
-source-git-commit: 642b916369433d9a7a23d818e94f5e189a1c8596
+source-git-commit: b5f982ee320cb98174153a53fe8f28b4b6c31790
 workflow-type: tm+mt
-source-wordcount: '1696'
-ht-degree: 100%
+source-wordcount: '1710'
+ht-degree: 99%
 
 ---
 
@@ -152,6 +152,7 @@ ht-degree: 100%
       + [編輯純文字、HTML 和行動電子郵件](designing/using/plain-text-html-modes.md)
       + [將舊版編輯器電子郵件轉換給電子郵件設計人員](designing/using/converting-emails-from-legacy-editor.md)
    + [個人化電子郵件內容](designing/using/personalization.md)
+   + [使用產品清單](designing/using/using-product-listings.md)
    + [管理電子郵件樣式](designing/using/styles.md)
    + [管理連結](designing/using/links.md)
    + [管理影像](designing/using/images.md)
@@ -435,7 +436,6 @@ ht-degree: 100%
    + 設定通道 {#configuring-channels}
       + [關於通道設定](administration/using/about-channel-configuration.md)
       + [設定電子郵件通道](administration/using/configuring-email-channel.md)
-      + [設定 SMS 通道](administration/using/configuring-sms-channel.md)
       + [設定行動應用程式](administration/using/configuring-a-mobile-application.md)
    + 設定行動裝置頻道 {#configuring-mobile}
       + [實施推播追蹤](administration/using/push-tracking.md)
@@ -446,6 +446,10 @@ ht-degree: 100%
       + [Experience Platform SDK 整合常見問答集](administration/using/aep-faq.md)
       + [設定啟動規則以支援Adobe Campaign Standard 使用案例](administration/using/configuring-rules-launch.md)
       + [Adobe Campaign Standard　支援的行動使用案例](administration/using/supported-mobile-use-cases.md)
+   + 設定 SMS 通道 {#configuring-sms}
+      + [實作簡訊頻道](administration/using/configuring-sms-channel.md)
+      + [SMS連接器通訊協定與設定](administration/using/sms-protocol.md)
+      + [SMS疑難排解](administration/using/troubleshooting-sms.md)
    + 應用程式設定 {#application-settings}
       + [關於 Campaign Standard 設定](administration/using/about-campaign-standard-settings.md)
       + [外部帳戶](administration/using/external-accounts.md)

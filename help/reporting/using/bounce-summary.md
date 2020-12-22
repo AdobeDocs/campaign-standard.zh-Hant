@@ -8,17 +8,17 @@ content-type: reference
 topic-tags: list-of-reports
 context-tags: bounceReport,main;campaignCirculationReport,main;programCirculationReport,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2bc5eae996dfa3ecdde3540f3a4f759c668e93ec
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 8%
+source-wordcount: '277'
+ht-degree: 1%
 
 ---
 
 
 # 退回摘要{#bounce-summary}
 
-此報表詳細說明傳送期間遇到的整體硬式和軟式錯誤，以及自動處理退信。
+此報表詳細說明在傳送期間遇到的整體硬錯誤和軟錯誤，以及自動處理彈回數（請參閱[瞭解傳送失敗](../../sending/using/understanding-delivery-failures.md)）。
 
 ![](assets/campaign_reports_bounces.png)
 

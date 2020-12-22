@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 3d271b7125a382f7864857df4541a6be28894992
+source-git-commit: 77abbdf824be705b0a3409442e45d28dc0abaa2f
 workflow-type: tm+mt
-source-wordcount: '6357'
-ht-degree: 99%
+source-wordcount: '6372'
+ht-degree: 98%
 
 ---
 
@@ -21,13 +21,19 @@ ht-degree: 99%
 
 ## 2020 年 12 月{#doc-updates-december-2020}
 
-「事務性」消息傳送部分已重新整理和改進，其中明確的入門部分包括[增強的結構描述](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)和[端到端使用案例](../../channels/using/transactional-messaging-use-case.md)，以說明完整過程。 [顯示全文](../../channels/using/getting-started-with-transactional-msg.md)
+**預測性主** 體連結功能現已過時。[顯示全文](../../rn/using/deprecated-features.md)
 
-「隱私權」區段已移動。[顯示全文](../../start/using/privacy.md)
+**交易式訊息**&#x200B;快速入門區段現在包含[增強的結構描述](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)和[端對端使用案例](../../channels/using/transactional-messaging-use-case.md)，以說明實施程式。 [顯示全文](../../channels/using/getting-started-with-transactional-msg.md)
 
-已新增協助功能頁面，以進一步瞭解 Adobe Campaign Standard 工作區中的協助功能支援。[顯示全文](../../start/using/accessibility.md)
+**隱私**&#x200B;部分已移至[此處](../../start/using/privacy.md)。
 
-「事務性傳訊」區段已新增一個限制，指出為獲得最佳效能，已發佈的事務性訊息數量應維持在100以下。 [顯示全文](../../channels/using/transactional-messaging-limitations.md#transactional-message-number)
+有新的&#x200B;**協助工具**&#x200B;頁面可供使用：它詳細說明Adobe Campaign Standard工作區中的協助工具支援。 [顯示全文](../../start/using/accessibility.md)
+
+已添加警告說明，為獲得最佳效能，已發佈的事務性消息數應保持在100以下。 [顯示全文](../../channels/using/transactional-messaging-limitations.md#transactional-message-number)
+
+SMS連接器通訊協定和設定頁面已移至[此處](../../administration/using/sms-protocol.md)。
+
+**在事務性消息**&#x200B;中使用產品清單部分已移到[此處](../../designing/using/using-product-listings.md)。
 
 ## 2020 年11月 {#doc-updates-november-2020}
 
@@ -509,7 +515,7 @@ Campaign Standard 及 Campaign Classic 的錯誤訊息清單已更新。[瞭解�
 
 電子郵件設計工具一般可用性 – [瞭解詳情](../../designing/using/designing-content-in-adobe-campaign.md)
 
-異動電子郵件中的產品清單 – [瞭解詳情](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message)
+異動電子郵件中的產品清單 – [瞭解詳情](../../designing/using/using-product-listings.md)
 
 電子郵件設計工具中的行動裝置檢視 – [瞭解詳情](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)
 

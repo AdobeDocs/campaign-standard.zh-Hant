@@ -5,11 +5,11 @@ product: campaign
 title: Adobe Campaign Standard 產品文件
 description: 瀏覽　Adobe Campaign Standard 產品文件
 topic: Premium
-translation-type: ht
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
-workflow-type: ht
-source-wordcount: '216'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 74645dbd3ae24be49475be7ec50d0d3464823ec2
+workflow-type: tm+mt
+source-wordcount: '234'
+ht-degree: 86%
 
 ---
 
@@ -20,7 +20,9 @@ ht-degree: 100%
 
 ## 新增功能
 
-* **[更新的發行計畫](rn/using/release-planning.md)**<br/>已將 2021 年 2 月即將發行的日期新增至發行計畫
+* **[更新不正確的硬](https://helpx.adobe.com/campaign/kb/update-bounce-qualification.html)**<br/> 體彈回數瞭解如何在Gmail中斷後更新不正確的硬體彈回數
+
+* **[發行](rn/using/release-planning.md)**<br/> 計畫即將於2021年2月發行的日期已新增至發行計畫
 
 * **[控制組](sending/using/control-group.md)**<br/>透過排除部分對象，以評估行銷活動的影響
 
@@ -75,5 +77,5 @@ ht-degree: 100%
 | [控制面板文件](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/control-panel-home.html) | [Campaign API](api/using/get-started-apis.md) |
 | [實施指南](https://helpx.adobe.com/tw/campaign/kb/campaign-standard-implementation-guide.html) | [錯誤訊息清單](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [發行計畫](rn/using/release-planning.md) | [Campaign 資料模型](developing/using/datamodel-introduction.md) |
-| [已過時及已移除的功能](rn/using/deprecated-features.md)） | [多解決方案指南](integrating/using/get-started-campaign-integrations.md) |
+| [已過時及已移除的功能](rn/using/deprecated-features.md) | [多解決方案指南](integrating/using/get-started-campaign-integrations.md) |
 | [開始使用 Campaign Standard](start/using/about-campaign-standard.md) | [技術說明](https://helpx.adobe.com/tw/campaign/kb/acs-article-list.html) |

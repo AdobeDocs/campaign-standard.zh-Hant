@@ -6,11 +6,11 @@ description: 瞭解 Adobe Campaign Standard 工作區中的協助工具支援。
 audience: designing
 content-type: reference
 topic-tags: accessibility
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6ea28c457b1024dab315b60281adaee56eb80cd0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '607'
-ht-degree: 45%
+ht-degree: 100%
 
 ---
 
@@ -21,21 +21,21 @@ ht-degree: 45%
 
 協助工具是指讓產品適用於視覺、聽覺、認知、運動和其他殘疾人士。軟體產品的協助功能範例包括語義結構化內容、螢幕閱讀器支援、圖形的文字等效功能、鍵盤快速鍵等。
 
-Adobe Campaign Standard提供多種功能，讓您更容易使用，例如對比、標籤、結構化內容、鍵盤導覽和內容相關說明。
+Adobe Campaign Standard 提供多種功能，讓您能更輕鬆使用對比、標籤、結構化內容、鍵盤導覽和內容相關說明等內容。
 
 ## 協助工具功能{#accessibility-features}
 
-### 對比度和顏色{#contrast}
+### 對比和顏色{#contrast}
 
-Adobe Campaign Standard使用者介面致力於在應用程式中提供足夠的對比，以確保為視力不足或色彩不足的使用者提供可存取的檢視體驗。
+Adobe Campaign Standard 使用者介面致力於在應用程式中提供足夠的對比功能，以確保為視力不足或色彩缺乏的使用者提供可存取的檢視體驗。
 
-* 大型文字和標題已增強，以符合3:1的對比度。
+* 大型文字和標題已增強，以符合 3:1 的對比。
 
    ![](assets/accessibility_2.png)
 
-* 應用程式中的說明內容和內文已更新，以符合4.5:1的對比度。
+* 應用程式中的說明內容和內文已更新，以符合 4.5:1 的對比。
 
-* 工作流程的暫停和取消圖示已更新，以改善背景和前景色的對比。
+* 工作流程的暫停和取消圖示已更新為改善背景和前景顏色之間的對比。
 
    ![](assets/accessibility_1.png)
 
@@ -43,9 +43,9 @@ Adobe Campaign Standard使用者介面致力於在應用程式中提供足夠的
 
 ### 使用者介面 {#user-interface}
 
-Adobe Campaign Standard使用者介面可讓所有使用者更輕鬆地與內容互動，方法是在視覺元素中加入替代文字，並使用語義結構以視覺化和程式設計方式傳達資訊。
+Adobe Campaign Standard 使用者介面可讓所有使用者更輕鬆地與內容互動，方法是在視覺元素中加入替代文字，並使用語義結構以視覺化和程式設計方式傳達資訊。
 
-* 當使用者將必要的ID欄位留空時，圖形會以視覺化方式指出哪個欄位有錯誤訊息文字，並以程式設計方式將相同的資訊傳送給使用者，例如螢幕閱讀器等輔助技術。
+* 當使用者將必要的 ID 欄位留空時，圖形會以視覺化方式指出哪個欄位有錯誤訊息文字，並以程式設計方式將相同的資訊傳送給使用者，例如螢幕閱讀器等輔助技術。
 
    ![](assets/accessibility_3.png)
 
@@ -65,9 +65,9 @@ Adobe Campaign Standard allows you to design and test emails and push notificati
 ![](assets/accessibility_6.png)
 -->
 
-## 上下文幫助{#contextual-help}
+## 內容說明{#contextual-help}
 
-情境式的說明可協助您更清楚地瞭解可用的不同要求欄位和功能。 它也會引導您閱讀產品文件，以進一步瞭解所選功能的資訊。
+內容說明可協助您更清楚瞭解可用的不同請求欄位和功能。它也會引導您閱讀產品文件，以進一步瞭解所選功能的資訊。
 
 在設計電子郵件時，您可以存取工具提示，其中提供功能說明和產品檔案的連結。
 
@@ -75,13 +75,13 @@ Adobe Campaign Standard allows you to design and test emails and push notificati
 
 ## 支援協助技術{#screen-magnifiers}
 
-我們致力於讓Adobe Campaign Standard應用程式能透過各種輔助技術盡可能地使用，包括但不限於修改的鍵盤、螢幕放大軟體、螢幕閱讀器、語音辨識軟體和其他輔助裝置。
+我們致力於讓 obe Campaign Standard 應用程式能透過各種輔助技術而徹底發揮使用範圍，包含但不限於修改的鍵盤、螢幕放大軟體、螢幕閱讀器、語音辨識軟體和其他輔助裝置。
 
 ## 使用您的偏好語言{#languages}
 
 Adobe Campaign Standard 提供不同的語言版本：英文、法文和德文。
 
-請注意，語言是在安裝時設定，之後無法變更。
+請注意，語言是在安裝時已設定好的，之後無法變更。
 
 ## 鍵盤快速鍵{#shortcuts}
 

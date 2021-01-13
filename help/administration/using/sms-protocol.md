@@ -7,7 +7,7 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 6ac2a2d5b2a0924847e54068145d6def22f8023f
+source-git-commit: 458517259c6668e08a25f8c3cd3f193f27e536fb
 workflow-type: tm+mt
 source-wordcount: '8382'
 ht-degree: 0%
@@ -104,7 +104,7 @@ SMPP傳輸單元（「資料包」）稱為PDU。 **PDU**&#x200B;包含命令、
 
 例如，在發送MT時，使用發射器連接，並通過發射器通道發送確認MT的`RESP`。 當您收到MO（或SR）時，接收器連接用於接收MO併發送確認MO的`RESP`。
 
-![](assets/sms_protocol_1.png)
+![](assets/do-not-localize/sms_protocol_1.png)
 
 在Adobe Campaign Standard中，MT和SR協調是MTA的原生功能，因此沒有專用的SMS程式。
 
@@ -500,7 +500,7 @@ Adobe Campaign Standard的連線總數公式：
 
 最大窗口為4的傳輸示例：
 
-![](assets/sms_protocol_2.png)
+![](assets/do-not-localize/sms_protocol_2.png)
 
 當網路連結有高延遲時，此視窗有助於提高總處理能力。  窗口的值必須至少是SMS/s乘以鏈路的延遲（以秒為單位），這樣連接器在發送下一條消息之前就不會等待`SUBMIT_SM_RESP`。
 如果窗口太大，在發生連接問題時，可能會發送更多重複消息。 此外，大部分供應商對視窗有非常嚴格的限制，並拒絕超出限制的訊息。
@@ -688,7 +688,7 @@ regex中未包含足夠的上下文，可能會造成小的安全性缺陷：消
 
 如果選中，則在處理SR的狀態文本期間將保留&#x200B;**Text**&#x200B;欄位。
 
-如果提供者將此欄位中的重要資料（如ID或狀態）放入此欄位，這就很有用。 通常，此欄位可安全地捨棄，因為它可能包含具有非ASCII編碼的文字，並中斷regex處理。
+如果提供者將此欄位中的重要資料（例如ID或狀態）放入此欄位，這就很有用。 通常，此欄位可安全地捨棄，因為它可能包含具有非ASCII編碼的文字，並中斷regex處理。
 
 如果SR欄位中ID的`Extraction`regex不夠具體，則啟用此選項可能會引入非常小的安全漏洞。 **Text**&#x200B;欄位的內容可被解析為ID，攻擊者可使用該欄位插入偽造的ID，這可能導致部分拒絕服務情況。
 
@@ -758,7 +758,7 @@ SMS協定將SMS限制在255個部分，但有些手機無法將長消息與10個
 
 ## SMPP連接器{#ACS-SMPP-connector}
 
-![](assets/sms_protocol_3.png)
+![](assets/do-not-localize/sms_protocol_3.png)
 
 箭頭代表資料流。
 

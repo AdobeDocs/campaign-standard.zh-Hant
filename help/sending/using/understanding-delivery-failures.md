@@ -7,10 +7,10 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 46bcdeec3731a7da12997cb195195fecfa2f84e5
 workflow-type: tm+mt
-source-wordcount: '1285'
-ht-degree: 81%
+source-wordcount: '1299'
+ht-degree: 80%
 
 ---
 
@@ -76,7 +76,7 @@ ht-degree: 81%
 
 如果訊息因 **Ignored** 類型的臨時錯誤而失敗，則在傳送期間將執行重試。如需錯誤類型的詳細資訊，請參閱[傳送失敗類型和原因](#delivery-failure-types-and-reasons)。
 
-Adobe Campaign Enhanced MTA 現在會根據 IP 在歷史和目前指定網域的執行狀況，管理重試次數（在發送開始後應執行多少次重試）和兩次重試之間的最小延遲。會忽略 Campaign 中的&#x200B;**重試次數**&#x200B;設定。
+Adobe Campaign Enhanced MTA 現在會根據 IP 在歷史和目前指定網域的執行狀況，管理重試次數（在發送開始後應執行多少次重試）和兩次重試之間的最小延遲。會忽略 Campaign 中的&#x200B;**重試次數**&#x200B;設定。請注意，Adobe Campaign Enhanced MTA不適用於推播頻道。
 
 要修改傳送的持續時間，請轉至傳送或傳遞範本的進階參數，並編輯&#x200B;**[!UICONTROL Delivery duration]**&#x200B;有效期間[區段的 ](../../administration/using/configuring-email-channel.md#validity-period-parameters) 欄位。
 

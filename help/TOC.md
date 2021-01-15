@@ -4,13 +4,13 @@ product: campaign
 audience: end-user
 user-guide-title: Campaign Standard
 user-guide-description: '說明中心，以瞭解使用 Campaign Standard 所需的主要功能、工作、設定和其他資源。 '
-breadcrumb-title: 促銷活動標準
+breadcrumb-title: Campaign Standard
 title: Campaign Standard 指南
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b5f982ee320cb98174153a53fe8f28b4b6c31790
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1710'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -447,9 +447,9 @@ ht-degree: 99%
       + [設定啟動規則以支援Adobe Campaign Standard 使用案例](administration/using/configuring-rules-launch.md)
       + [Adobe Campaign Standard　支援的行動使用案例](administration/using/supported-mobile-use-cases.md)
    + 設定 SMS 通道 {#configuring-sms}
-      + [實作簡訊頻道](administration/using/configuring-sms-channel.md)
-      + [SMS連接器通訊協定與設定](administration/using/sms-protocol.md)
-      + [SMS疑難排解](administration/using/troubleshooting-sms.md)
+      + [實作 SMS 通道](administration/using/configuring-sms-channel.md)
+      + [SMS 連接器通訊協定及設定](administration/using/sms-protocol.md)
+      + [SMS 疑難排解](administration/using/troubleshooting-sms.md)
    + 應用程式設定 {#application-settings}
       + [關於 Campaign Standard 設定](administration/using/about-campaign-standard-settings.md)
       + [外部帳戶](administration/using/external-accounts.md)

@@ -5,11 +5,11 @@ product: campaign
 title: Adobe Campaign Standard 產品文件
 description: 瀏覽　Adobe Campaign Standard 產品文件
 topic: Premium
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 74645dbd3ae24be49475be7ec50d0d3464823ec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '234'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 86%
 
 ## 新增功能
 
-* **[更新不正確的硬](https://helpx.adobe.com/campaign/kb/update-bounce-qualification.html)**<br/> 體彈回數瞭解如何在Gmail中斷後更新不正確的硬體彈回數
+* **[更新不正確的硬退信](https://helpx.adobe.com/campaign/kb/update-bounce-qualification.html)**<br/>&#x200B;瞭解如何在 Gmail 中斷後更新不正確的硬退信
 
-* **[發行](rn/using/release-planning.md)**<br/> 計畫即將於2021年2月發行的日期已新增至發行計畫
+* **[規劃發行計畫](rn/using/release-planning.md)**<br/>已將 2021 年 2 月即將發行的日期新增至發行計畫
 
 * **[控制組](sending/using/control-group.md)**<br/>透過排除部分對象，以評估行銷活動的影響
 

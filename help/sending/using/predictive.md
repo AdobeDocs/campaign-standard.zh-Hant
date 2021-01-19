@@ -19,7 +19,7 @@ ht-degree: 98%
 
 ## 開始使用 AI 支援電子郵件{#journey-ai-ovv}
 
-使用 Campaign，您可以最佳化客戶旅程的設計和傳送，以預測每個人的參與偏好。Adobe Campaign 採用 Journey AI，可根據歷史參與量度來分析和預測開放率、最佳傳送時間和可能的流失率。
+使用 Campaign，您可以最佳化客戶歷程的設計和傳送，以預測每個人的參與偏好。Adobe Campaign 採用 Journey AI，可根據歷史參與量度來分析和預測開放率、最佳傳送時間和可能的流失率。
 
 **機器學習模型**
 

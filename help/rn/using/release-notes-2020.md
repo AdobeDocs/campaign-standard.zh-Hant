@@ -6,9 +6,9 @@ description: 本頁列出 2020 年的所有 Adobe Campaign Standard 版本。
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2945'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 [發行計畫](https://helpx.adobe.com/tw/campaign/kb/acs-release-planning.html) | [控制面板版本](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/release-notes.html) | [文件更新](../../rn/using/documentation-updates.md) | [先前的發行版本](../../rn/using/release-notes-2019.md) | [已過時的功能](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=zh-Hant#release-notes)
 
-![](assets/do-not-localize/cp-icon.png) **新的控制面板 6 月版本**，包含作用中設定檔監控、子網域傳遞送能力稽核及 GPG 金鑰管理。[進一步瞭解](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/release-notes.html)。
+![](assets/do-not-localize/cp-icon.png) **新的控制面板 6 月版本**，包含作用中設定檔監控、子網域傳遞送能力稽核及 GPG 金鑰管理。[進一步瞭解](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)。
 
 ## 版本 20.3 - 2020 年 5 月{#release-20-3---may-2020}
 
@@ -68,7 +68,7 @@ ht-degree: 100%
 
 **其他功能**（從 7 月 13 日起）
 
-* **由 AI 支援的傳送時間最佳化和設定檔計分** - 您現在可以最佳化客戶旅程的設計和傳遞，以預測每個人的參與偏好。Adobe Campaign 採用 Journey AI，可根據歷史參與量度來分析和預測開放率、最佳傳送時間和可能的流失率。[進一步瞭解](../../sending/using/predictive.md)
+* **由 AI 支援的傳送時間最佳化和設定檔計分** - 您現在可以最佳化客戶歷程的設計和傳遞，以預測每個人的參與偏好。Adobe Campaign 採用 Journey AI，可根據歷史參與量度來分析和預測開放率、最佳傳送時間和可能的流失率。[進一步瞭解](../../sending/using/predictive.md)
 * **巴西的新隱私權規範** - 除了 Campaign 中已提供的隱私權功能以外，Adobe 協助您做好準備，以迎接巴西的 Lei Geral de Proteçao de Datos (LGPD)。建立隱私權要求時，LGPD 規則類型已新增至 Adobe 隱私權核心服務。[進一步瞭解](https://helpx.adobe.com/tw/campaign/kb/campaign-privacy-overview.html)
 
 **改進**
@@ -123,7 +123,7 @@ ht-degree: 100%
 * 修正使用者無法變更報告的錯誤。(CAMP-42505)
 
 
-![](assets/do-not-localize/cp-icon.png) **新的控制面板可能會與 CNAME 子網域發行**&#x200B;憑證續約。[進一步瞭解](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/release-notes.html)。
+![](assets/do-not-localize/cp-icon.png) **新的控制面板可能會與 CNAME 子網域發行**&#x200B;憑證續約。[進一步瞭解](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)。
 
 ## 版本 20.2 – 2020 年 4 月 {#release-20-2---april-2020}
 
@@ -161,7 +161,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->新功能將於 4 月在「Campaign 控制面板」中發佈，包括 Google TXT 記錄管理、資料庫空間監控和電子郵件警報。有關這些功能的詳細資訊，請參閱[控制面板發行說明](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/release-notes.html)。
+>新功能將於 4 月在「Campaign 控制面板」中發佈，包括 Google TXT 記錄管理、資料庫空間監控和電子郵件警報。有關這些功能的詳細資訊，請參閱[控制面板發行說明](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)。
 
 **改進**
 

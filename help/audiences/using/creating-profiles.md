@@ -7,7 +7,7 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 translation-type: tm+mt
-source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
+source-git-commit: b471fddd49037770e33a113374afd60c2e79e69b
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 89%
@@ -30,7 +30,7 @@ ht-degree: 89%
 * 透過[工作流程](../../automating/using/creating-import-workflow-templates.md)從檔案匯入設定檔清單
 * 透過[登錄頁面](../../channels/using/getting-started-with-landing-pages.md)線上收集資料
 * 透過 [REST API](../../api/using/get-started-apis.md) 大量建立
-* 從 [Microsoft Dynamics](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md) 同步設定檔
+* 從 [Microsoft Dynamics](../../integrating/using/d365-acs-get-started.md) 同步設定檔
 * 使用圖形化介面畫面輸入資料，如下所述
 
 例如，若要直接在使用者介面中建立新的設定檔，請遵循下列步驟：

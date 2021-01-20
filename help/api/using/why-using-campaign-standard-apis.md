@@ -7,7 +7,7 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 9eca72e744524cf201d998abd9acf718fdaca0f8
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 3%
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 # 為何使用 Campaign Standard API {#why-using-campaign-standard-apis}
 
-Adobe Campaign Standard提供API，可讓現有系統與ACS平台整合，以即時解決實際問題。
+Adobe Campaign Standard提供API，可讓現有系統與Campaign平台整合，以即時解決實際問題。
 
 註冊或選擇退出頁面等公開網站需要連線至後端系統，以儲存設定檔資訊。 Adobe Campaign等後端系統具備將描述檔資料內嵌在其中並執行自訂作業的彈性和能力。
 

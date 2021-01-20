@@ -7,7 +7,7 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 9eca72e744524cf201d998abd9acf718fdaca0f8
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 3%
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 # 與自訂資源互動 {#interacting-with-custom-resources}
 
-**/customResources**&#x200B;端點允許您在REST中公開ACS自定義資源。 根據此API，可使用自訂實體與外部端點之間的整合。
+**/customResources**&#x200B;端點可讓您在REST中公開Campaign自訂資源。 根據此API，可使用自訂實體與外部端點之間的整合。
 
 /customResources端點的行為與/profileAndServices端點完全相同。
 

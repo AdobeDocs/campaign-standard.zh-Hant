@@ -7,7 +7,7 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 434edb8e1c3396ad29edd9ee60866c93e82a2c1b
 workflow-type: tm+mt
 source-wordcount: '788'
 ht-degree: 11%
@@ -85,7 +85,7 @@ Campaign Standard提供數種工具來協助您擴充行銷資料庫。 本節�
 ### 從Microsoft Dynamics 365同步設定檔
 
 Campaign Standard與Microsoft Dynamics 365的整合可讓您將Microsoft Dynamics 365的連絡人資料傳遞至Campaign資料庫。
-然後，這些連絡人會顯示在「設定檔」清單中，並可定位在行銷促銷活動中。 有關此整合的詳細資訊，請參閱[專屬檔案](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)。
+然後，這些連絡人會顯示在「設定檔」清單中，並可定位在行銷促銷活動中。 有關此整合的詳細資訊，請參閱[專屬檔案](../../integrating/using/d365-acs-get-started.md)。
 
 >[!NOTE]
 >

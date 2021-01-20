@@ -7,7 +7,7 @@ audience: integrating
 content-type: reference
 topic-tags: get-started-campaign-integrations
 translation-type: tm+mt
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
+source-git-commit: b471fddd49037770e33a113374afd60c2e79e69b
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 91%
@@ -33,7 +33,7 @@ ht-degree: 91%
 
 >[!NOTE]
 >
->Adobe Campaign Standard 也可以連線至 Microsoft Dynamics 365：此整合可以同步 CRM 系統中所有可用的連絡資料，讓所有相關的連絡資料都可在行銷活動中使用。如需此整合的詳細資訊，請參閱[使用行銷活動和 Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)。
+>Adobe Campaign Standard 也可以連線至 Microsoft Dynamics 365：此整合可以同步 CRM 系統中所有可用的連絡資料，讓所有相關的連絡資料都可在行銷活動中使用。如需此整合的詳細資訊，請參閱[使用行銷活動和 Dynamics 365](../../integrating/using/d365-acs-get-started.md)。
 
 
 <table> 

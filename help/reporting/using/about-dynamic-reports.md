@@ -7,7 +7,7 @@ audience: reporting
 content-type: reference
 topic-tags: about-reporting
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: b471fddd49037770e33a113374afd60c2e79e69b
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 5%
@@ -69,8 +69,8 @@ ht-degree: 5%
 
 | 地區 | 動態報告 | Microsoft Dynamics 365連接器 |
 |---|---|---|
-| 美洲與亞太地區（亞太地區） | **功能已推出**。<br> 除ExternalID外，沒有立即可用的自訂設定檔資訊推送至美國報告中心。 | **功能已推出**。<br>除「外部ID」和「收件者ID」外，沒有立即可用的或自訂的描述檔欄位傳送至美國資料中心。<br>除鏡像頁面ID外，所有在美國資料中心處理的Adobe Campaign Standard事件欄位。<br>有關Microsoft Dynamics 365整合的詳細資訊，請參閱本 [頁](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)。 |
-| EMEA（歐洲中東和非洲） | **功能已推出**。<br>除ExternalID外，沒有將現成可用的自訂設定檔資訊推送至EMEA報告中心。 | **功能已推出。** <br>除「外部ID」和「收件者ID」外，沒有立即可用或自訂的描述檔欄位傳送至EMEA資料中心。<br>除鏡像頁面ID外，所有在EMEA資料中心處理的Adobe Campaign Standard事件欄位。<br>**[!UICONTROL Control data]**其中包含Adobe I/O註冊資料，以及在美國資料中心傳送及儲存之客戶使用者事件的ID。<br>有關Microsoft Dynamics 365整合的詳細資訊，請參閱本 [頁](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)。 |
+| 美洲與亞太地區（亞太地區） | **功能已推出**。<br> 除ExternalID外，沒有立即可用的自訂設定檔資訊推送至美國報告中心。 | **功能已推出**。<br>除「外部ID」和「收件者ID」外，沒有立即可用的或自訂的描述檔欄位傳送至美國資料中心。<br>除鏡像頁面ID外，所有在美國資料中心處理的Adobe Campaign Standard事件欄位。<br>有關Microsoft Dynamics 365整合的詳細資訊，請參閱本 [頁](../../integrating/using/d365-acs-get-started.md)。 |
+| EMEA（歐洲中東和非洲） | **功能已推出**。<br>除ExternalID外，沒有將現成可用的自訂設定檔資訊推送至EMEA報告中心。 | **功能已推出。** <br>除「外部ID」和「收件者ID」外，沒有立即可用或自訂的描述檔欄位傳送至EMEA資料中心。<br>除鏡像頁面ID外，所有在EMEA資料中心處理的Adobe Campaign Standard事件欄位。<br>**[!UICONTROL Control data]**其中包含Adobe I/O註冊資料，以及在美國資料中心傳送及儲存之客戶使用者事件的ID。<br>有關Microsoft Dynamics 365整合的詳細資訊，請參閱本 [頁](../../integrating/using/d365-acs-get-started.md)。 |
 
 此選項不是最終選項，您始終可以通過在&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Options]**&#x200B;中選擇&#x200B;**[!UICONTROL Enable PII data to be transferred to US region to use reporting on Profile data]**&#x200B;來更改它。
 

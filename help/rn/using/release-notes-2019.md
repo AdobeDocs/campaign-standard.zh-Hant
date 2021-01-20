@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 5758e5f0f6811a97f51e995fa3c378a7c7117ff5
+source-git-commit: 16f937fc34783f22a0c118bb5e2e3f39abb85615
 workflow-type: tm+mt
-source-wordcount: '7623'
+source-wordcount: '7607'
 ht-degree: 8%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 8%
   <tr> 
    <td> 
     <p>Adobe Campaign Standard和Microsoft Dynamics 365之間的整合現已推出。 您將能夠將您的連絡人和自訂實體記錄從Dynamics 365傳輸至Campaign，並從Campaign將電子郵件事件資料傳回Dynamics 365，以便更好地協調銷售／行銷。</p>
-    <p>請參閱<a href="../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md">詳細說明檔案</a>以設定此整合併檢視<a href="https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/campaign-and-microsoft-dynamics-365/working-with-campaign-standard-and-microsoft-dynamics-365.html">how-to影片</a>。</p>
+    <p>請參閱<a href="../../integrating/using/d365-acs-get-started.md">詳細說明檔案</a>以設定此整合。</p>
   </td>
   </tr> 
  </tbody> 

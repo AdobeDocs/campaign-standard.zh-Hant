@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: push-notifications
 context-tags: delivery,mobileAppContent,back
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 9eca72e744524cf201d998abd9acf718fdaca0f8
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '857'
 ht-degree: 4%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 4%
    * **[!UICONTROL Send push to Campaign profiles]**:使用此範本來定位已訂閱您行動應用程式並選擇接收推播通知的Adobe Campaign CRM設定檔。您可以將[personalization](../../designing/using/personalization.md#inserting-a-personalization-field)欄位插入您的推播通知，例如收件者的名字。
    * **[!UICONTROL Send push to app subscribers]**:使用此範本，將推播通知傳送給所有已知和匿名行動應用程式使用者，這些使用者已選擇從您的應用程式接收通知。您可以透過從行動應用程式收集的資料個人化這些訊息。
 
-   您也可以選擇多語言範本。 如需詳細資訊，請參閱「建立多語言推播通知[」。](../../channels/using/creating-a-multilingual-push-notification.md)
+   您也可以選擇多語言範本。 如需詳細資訊，請參閱「建立多語言推播通知](../../channels/using/creating-a-multilingual-push-notification.md)」。[
 
    有關模板的詳細資訊，請參閱[管理模板](../../start/using/marketing-activity-templates.md)部分。
 
@@ -62,7 +62,7 @@ ht-degree: 4%
 
    ![](assets/push_notif_content.png)
 
-   此處設定的推播通知內容和選項會以裝載的形式傳遞至您的行動應用程式。 [瞭解ACS推播通知有效載荷結構](https://helpx.adobe.com/tw/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html)技術中介紹了有效載荷的詳細結構。
+   此處設定的推播通知內容和選項會以裝載的形式傳遞至您的行動應用程式。 [瞭解促銷活動標準推播通知有效負荷結構](https://helpx.adobe.com/tw/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html)技術中說明了有效負荷的詳細結構。
 
 1. 按一下 **[!UICONTROL Create]**。
 

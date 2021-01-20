@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
 translation-type: tm+mt
-source-git-commit: 79e0b945e2c34bc396b7852851df848a76d62979
+source-git-commit: 9eca72e744524cf201d998abd9acf718fdaca0f8
 workflow-type: tm+mt
 source-wordcount: '2156'
 ht-degree: 98%
@@ -114,7 +114,7 @@ JSON 剖析器的設計可容納標準 JSON 結構模式類型，但有些例外
 
 ### 執行
 
-此索引標籤可讓您定義連接端點。該&#x200B;**[!UICONTROL URL]**&#x200B;欄位允許您定義將向 ACS 發送資料的 **HTTPS 端點**。
+此索引標籤可讓您定義連接端點。**[!UICONTROL URL]**&#x200B;欄位可讓您定義將資料傳送至促銷活動的&#x200B;**HTTPS端點**。
 
 如果端點需要，則可以使用兩種驗證方法：
 

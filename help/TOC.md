@@ -4,13 +4,13 @@ product: campaign
 audience: end-user
 user-guide-title: Campaign Standard
 user-guide-description: '說明中心，以瞭解使用 Campaign Standard 所需的主要功能、工作、設定和其他資源。 '
-breadcrumb-title: Campaign Standard
+breadcrumb-title: 促銷活動標準
 title: Campaign Standard 指南
-translation-type: ht
-source-git-commit: b5f982ee320cb98174153a53fe8f28b4b6c31790
-workflow-type: ht
-source-wordcount: '1710'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 16f937fc34783f22a0c118bb5e2e3f39abb85615
+workflow-type: tm+mt
+source-wordcount: '1728'
+ht-degree: 97%
 
 ---
 
@@ -261,14 +261,17 @@ ht-degree: 100%
       + [測試您的觸發程式](integrating/using/testing-your-triggers.md)
       + [廢棄觸發程式使用案例](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign 和 Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-      + [開始使用 Dynamics 365 整合](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
-      + [在 Campaign 和 Dynamics 365 之間管理資料](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
-      + [要求整合](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
-      + [設定 Adobe I/O](integrating/using/configure-adobe-io-for-ms-dynamic.md)
-      + [設定 Dynamics 365 以進行 Campaign 整合](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
-      + [對應 Campaign 自訂資源和 Dynamics 365 自訂實體](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
-      + [使用 Dynamics 365 整合](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
-      + [整合護欄](integrating/using/ms-dynamics-365-integration-guardrails.md)
+      + [開始使用Microsoft Dynamics 365整合](integrating/using/d365-acs-get-started.md)
+      + [最佳實務和限制](integrating/using/d365-acs-notices-and-recommendations.md)
+      + [配置Microsoft Dynamics 365](integrating/using/d365-acs-configure-d365.md)
+      + [設定Campaign和Adobe I/O](integrating/using/d365-acs-configure-adobe-io.md)
+      + 設定整合應用程式{#configure-integration-tool}
+         + [開始使用整合應用程式](integrating/using/d365-acs-self-service-app-quick-start-guide.md)
+         + [存取整合應用程式](integrating/using/d365-acs-self-service-app-control-access.md)
+         + [將系統與整合應用程式連接](integrating/using/d365-acs-self-service-app-settings.md)
+         + [管理同步工作流程](integrating/using/d365-acs-self-service-app-workflows.md)
+         + [在Microsoft Dynamics 365和Campaign之間映射資料](integrating/using/d365-acs-self-service-app-data-sync.md)
+      + [使用 Microsoft Dynamics 365 整合](integrating/using/d365-acs-using-the-integration.md)
 + 管理流程和資料 {#managing-processes-and-data}
    + [開始使用資料和流程管理](automating/using/get-started-workflows.md)
    + 工作流程一般操作 {#workflow-general-operation}

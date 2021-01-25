@@ -7,9 +7,9 @@ user-guide-description: '說明中心，以瞭解使用 Campaign Standard 所需
 breadcrumb-title: 促銷活動標準
 title: Campaign Standard 指南
 translation-type: tm+mt
-source-git-commit: 16f937fc34783f22a0c118bb5e2e3f39abb85615
+source-git-commit: 77fe514d4862fafcc6201d0cec9045469bb2643d
 workflow-type: tm+mt
-source-wordcount: '1728'
+source-wordcount: '1731'
 ht-degree: 97%
 
 ---
@@ -21,7 +21,8 @@ ht-degree: 97%
 + [最新更新](rn/using/documentation-updates.md)
 + 發行說明 {#release-notes}
    + [最新版本](rn/using/release-notes.md)
-   + 舊版 {#previous-releases}
+   + [早期發行說明](rn/using/early-release-notes.md)
+   + 舊的發行版本{#previous-releases}
       + [發行說明 2020 年](rn/using/release-notes-2020.md)
       + [發行說明 2019 年](rn/using/release-notes-2019.md)
       + [發行說明 2018 年](rn/using/release-notes-2018.md)

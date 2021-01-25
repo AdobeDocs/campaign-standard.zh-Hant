@@ -9,15 +9,15 @@ topic-tags: campaign-standard-releases
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: 1bf35c654b9c526330a70f7647ec7d9fd87e2335
+source-git-commit: c5807da6bc9a33adcba6fc9825b0496bb5dc609b
 workflow-type: tm+mt
-source-wordcount: '2586'
+source-wordcount: '2587'
 ht-degree: 3%
 
 ---
 
 
-# 新版本{#new-release}
+# 早期發行說明{#new-release}
 
 [Release Planning ](../../rn/using/release-planning.md) Control Plenases [| Documentation Updates](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/release-notes.html) | Latest Notes [| Release](../../rn/using/documentation-updates.md)  [](../../rn/using/release-notes.md)  [| Deprecated Features](../../rn/using/deprecated-features.md)
 

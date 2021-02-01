@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: monitoring-messages
 context-tags: delivery,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 7080c002ca20028a4721d09a0d86a746ab47467c
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 86%
@@ -19,7 +19,8 @@ ht-degree: 86%
 # 監控傳送{#monitoring-a-delivery}
 
 有數種方式可監控傳送並評估其影響。 身為功能管理員，您可以存取訊息記錄檔和傳送記錄檔。
->[!CAUTION]
+
+>[!IMPORTANT]
 >
 >只有具有&#x200B;**[!UICONTROL Administration]**&#x200B;角色和&#x200B;**所有**&#x200B;單元訪問權的[管理員](../../administration/using/users-management.md#functional-administrators)才能訪問發送日誌、消息日誌、跟蹤日誌、排除或訂閱日誌。 非管理員使用者可以定位這些記錄檔，但是從連結的表格（描述檔、傳送）開始。
 

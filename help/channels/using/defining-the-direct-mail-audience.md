@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: direct-mail
 context-tags: delivery,directMailContent,back
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: e34d3f032cd49585f86178264e7779b3c92993ae
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 100%
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 對於每個目標設定檔，在擷取檔案中將新增一行。每個收件者所包括的設定檔資訊量，會在「[定義擷取](../../channels/using/defining-the-direct-mail-content.md#defining-the-extraction)」畫面中定義。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >請確定您的設定檔包含郵寄地址，因為此資訊對於直接郵件提供者至關重要。另請確保您已核取設定檔資訊中的 **[!UICONTROL Address specified]**&#x200B;方塊。請參閱[建議](../../channels/using/about-direct-mail.md#recommendations)。
 

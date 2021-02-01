@@ -7,9 +7,9 @@ audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 0f057375e5cd63605af460f08cd39bed00435184
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '357'
 ht-degree: 5%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->目前，已封存的電子郵件無法與Adobe Campaign Enhanced MTA一起傳送，即使您已升級至Enhanced MTA亦然。
+>目前，已封存的電子郵件無法與Adobe Campaign Enhanced MTA一起傳送。
 
 ## 激活電子郵件歸檔{#activating-email-archiving}
 

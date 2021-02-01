@@ -7,10 +7,10 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 translation-type: tm+mt
-source-git-commit: 46bcdeec3731a7da12997cb195195fecfa2f84e5
+source-git-commit: 0f057375e5cd63605af460f08cd39bed00435184
 workflow-type: tm+mt
-source-wordcount: '1299'
-ht-degree: 80%
+source-wordcount: '1256'
+ht-degree: 69%
 
 ---
 
@@ -76,19 +76,23 @@ ht-degree: 80%
 
 如果訊息因 **Ignored** 類型的臨時錯誤而失敗，則在傳送期間將執行重試。如需錯誤類型的詳細資訊，請參閱[傳送失敗類型和原因](#delivery-failure-types-and-reasons)。
 
-Adobe Campaign Enhanced MTA 現在會根據 IP 在歷史和目前指定網域的執行狀況，管理重試次數（在發送開始後應執行多少次重試）和兩次重試之間的最小延遲。會忽略 Campaign 中的&#x200B;**重試次數**&#x200B;設定。請注意，Adobe Campaign Enhanced MTA不適用於推播頻道。
+重試次數（在發送開始後應執行多少次重試）和兩次重試之間的最小延遲現在取決於IP在歷史和當前指定域上的執行情況。 <!--managed by the Adobe Campaign Enhanced MTA,-->會忽略 Campaign 中的&#x200B;**重試次數**&#x200B;設定。
+
+<!--Please note that Adobe Campaign Enhanced MTA is not available for the Push channel.-->
 
 要修改傳送的持續時間，請轉至傳送或傳遞範本的進階參數，並編輯&#x200B;**[!UICONTROL Delivery duration]**&#x200B;有效期間[區段的 ](../../administration/using/configuring-email-channel.md#validity-period-parameters) 欄位。
 
 >[!IMPORTANT]
 >
->**您的 Campaign 傳送中的&#x200B;**[!UICONTROL Delivery duration]**參數現在僅在設為 3.5 天或更少時使用。** 如果您定義的值超過 3.5 天，則不會考慮該值，因為該值現在是由 Adobe Campaign Enhanced MTA 管理。
+>**您的 Campaign 傳送中的&#x200B;**[!UICONTROL Delivery duration]**參數現在僅在設為 3.5 天或更少時使用。** 如果您定義的值超過　3.5　天，則不會考慮該值。
 
-例如，如果您希望某個傳送的重試在一天後停止，您可以將傳送持續時間設為 **1d**，而 Enhanced MTA 會在一天後移除重試佇列中的訊息，以遵守該設定。
+例如，如果您希望某個傳送的重試在一天後停止，可以將傳送持續時間設定為&#x200B;**1d**，並且重試隊列中的消息將在一天後被刪除。
+
+<!--For example, if you want retries for a delivery to stop after one day, you can set the delivery duration to **1d**, and the Enhanced MTA will honor that setting by removing messages in the retry queue after one day.-->
 
 >[!NOTE]
 >
->當訊息在 Enhanced MTA 佇列中停留 3.5 天且無法傳送時，訊息會逾時，其狀態會從[傳送記錄檔](../../sending/using/monitoring-a-delivery.md#delivery-logs)中的 **[!UICONTROL Sent]** 更新為 **[!UICONTROL Failed]**。
+>當消息在重試隊列中最多3.5天且無法發送時，它將超時，其狀態將在[發送日誌](../../sending/using/monitoring-a-delivery.md#delivery-logs)中更新為&#x200B;**[!UICONTROL Failed]**。<!--from **[!UICONTROL Sent]**-->
 
 <!--The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
 
@@ -101,13 +105,13 @@ Adobe Campaign Enhanced MTA 現在會根據 IP 在歷史和目前指定網域的
 
 ## 退回郵件資格 {#bounce-mail-qualification}
 
-對於同步傳送失敗錯誤訊息，Enhanced MTA 會決定退信類型和資格，並將該資訊傳回至 Campaign。
-
-inMail 程序仍會透過 **[!UICONTROL Inbound email]** 規則來限定非同步退信。若要存取這些規則，請按一下左上方的 **[!UICONTROL Adobe Campaign]** 標誌，然後依序選取 **[!UICONTROL Administration > Channels > Email > Email processing rules]** 及 **[!UICONTROL Bounce mails]**。如需詳細資訊，請參閱](../../administration/using/configuring-email-channel.md#email-processing-rules)本區段[。
+對於同步傳送失敗錯誤訊息，Adobe Campaign Enhanced MTA（訊息傳送代理）會決定反彈類型和資格，並將該資訊傳回至Campaign。
 
 >[!NOTE]
 >
->Adobe Campaign Enhanced MTA 現在會管理退信限定。 Campaign **[!UICONTROL Message qualification]** 表格中的退信限定不再使用。
+> Campaign **[!UICONTROL Message qualification]** 表格中的退信限定不再使用。
+
+inMail 程序仍會透過 **[!UICONTROL Inbound email]** 規則來限定非同步退信。若要存取這些規則，請按一下左上方的 **[!UICONTROL Adobe Campaign]** 標誌，然後依序選取 **[!UICONTROL Administration > Channels > Email > Email processing rules]** 及 **[!UICONTROL Bounce mails]**。如需詳細資訊，請參閱](../../administration/using/configuring-email-channel.md#email-processing-rules)本區段[。
 
 <!--Bounces can have the following qualification statuses:
 
@@ -119,7 +123,7 @@ To list the various bounces and their associated error types et reasons, click t
 
 ![](assets/qualification.png)-->
 
-## 利用雙重加入機制最佳化郵件傳遞能力 {#optimizing-mail-deliverability-with-double-opt-in-mechanism}
+## 使用雙重選擇加入機制{#optimizing-mail-deliverability-with-double-opt-in-mechanism}最佳化電子郵件傳送能力
 
 傳送電子郵件時，最佳作法是雙重加入機制。它可保護平台免受錯誤或無效的電子郵件地址、垃圾郵件機器人，並防止可能的垃圾郵件投訴。
 

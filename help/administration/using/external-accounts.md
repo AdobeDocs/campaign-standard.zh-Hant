@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: application-settings
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 6dda990d046cceae2a0c0da87764d4b6a16d9ae8
 workflow-type: tm+mt
-source-wordcount: '1774'
+source-wordcount: '1773'
 ht-degree: 85%
 
 ---
@@ -102,7 +102,7 @@ SFTP 伺服器可從「控制面板」進行管理。如需詳細資訊，請參
 * **OAuth 2.0敏感認證**:本節是針對性質敏感的認證。憑證值新增後，會在螢幕上遮色；到那時，它們將無法閱讀或編輯。 如果授權端點要求將特定憑證插入HTTP授權標題，而非POST內文參數，則可以為該憑證選擇「在標題中包含」選項。
 * **OAuth 2.0非敏感性認證**:本節是針對性質不敏感的認證。憑證值新增後，會顯示在畫面上；也可以編輯。  如果授權端點要求將特定憑證插入HTTP授權標題，而非POST內文參數，則可以為該憑證選擇「在標題中包含」選項。
 
-在配置結束時，按一下&#x200B;**測試連接器**&#x200B;以驗證外部帳戶設定正確。
+輸入帳戶資訊後，按一下「測試連線」，確認外部帳戶已正確設定。****
 
 ![](assets/external_accounts_OAuth.png)
 

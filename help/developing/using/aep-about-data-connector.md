@@ -7,9 +7,9 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
+source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '783'
 ht-degree: 5%
 
 ---
@@ -32,7 +32,7 @@ Adobe Experience Platform Data Connector的適用對象為&#x200B;**資料工程
 ![](assets/do-not-localize/how-to-video.png) [在影片中探索此功能](#video)
 
 >[!NOTE]
->一旦設定Adobe Experience Platform Data Connector並成功將資料匯入Adobe Experience Platform後，您就必須啟用資料集，讓資料能包含在即時客戶個人檔案中。
+>一旦設定Adobe Experience Platform Data Connector並將資料成功地吸收到Adobe Experience Platform後，您就需要啟用資料集，讓資料能包含在即時客戶個人檔案中。
 >
 >這可透過API或Adobe Experience Platform介面來執行。 如需詳細資訊，請參閱專屬檔案：
 >
@@ -44,7 +44,7 @@ Adobe Experience Platform Data Connector的適用對象為&#x200B;**資料工程
 
 * 預設情況下，「開箱對應」僅適用於「促銷活動標準」中提供的欄位。 若要吸收所有自訂欄位和資源，每位客戶都需要定義自己的對應。
 
-* Adobe Experience Platform Data Connector會定期在平台上推送描述檔資料&#x200B;。 間隔時間為15mn。 此值可使用[Adobe Experience Platform APIs](https://docs.adobe.com/content/help/en/experience-platform/ingestion/home.html)加以修改。
+* Adobe Experience Platform Data Connector會定期在平台上推送描述檔資料&#x200B;。 時間間隔為15分鐘。 此值可使用[Adobe Experience Platform APIs](https://docs.adobe.com/content/help/en/experience-platform/ingestion/home.html)加以修改。
 
 * 資料工程師可以發佈、修改及暫停從Campaign到Adobe Experience Platform的對應。
 
@@ -80,6 +80,6 @@ Adobe Experience Platform Data Connector的適用對象為&#x200B;**資料工程
 
 此影片提供有關Adobe Experience Platform Data Connector的概述。
 
-https://video.tv.adobe.com/v/27304?quality=12&amp;captions=chi_hant
+>[!VIDEO](https://video.tv.adobe.com/v/27304?quality=12&captions=eng)
 
 有關Adobe Experience Platform Data Connector的其他影片請至[這裡](https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.translate.html)。

@@ -7,10 +7,10 @@ user-guide-description: '說明中心，以瞭解使用 Campaign Standard 所需
 breadcrumb-title: 促銷活動標準
 title: Campaign Standard 指南
 translation-type: tm+mt
-source-git-commit: 77fe514d4862fafcc6201d0cec9045469bb2643d
+source-git-commit: 36efc64f9be3863e5e16381aaba445d2f13eac4d
 workflow-type: tm+mt
-source-wordcount: '1731'
-ht-degree: 97%
+source-wordcount: '1755'
+ht-degree: 95%
 
 ---
 
@@ -237,6 +237,7 @@ ht-degree: 97%
       + [設定 Campaign-Experience Manager 整合](integrating/using/configure-experience-manager.md)
       + [在 Adobe Experience Manager 中建立電子郵件內容](integrating/using/creating-email-experience-manager.md)
       + [在 Experience Manager 中建立 Campaign 表單](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
+      + [使用Adobe Experience Manager整合建立多語言電子郵件](integrating/using/creating-multilingual-email-aem.md)
    + Campaign 與 Target {#working-with-campaign-and-target}
       + [關於 Campaign-Target 整合](integrating/using/about-campaign-target-integration.md)
       + [設定 Campaign-Target 整合](integrating/using/configuring-the-campaign-target-integration.md)
@@ -450,6 +451,7 @@ ht-degree: 97%
       + [Experience Platform SDK 整合常見問答集](administration/using/aep-faq.md)
       + [設定啟動規則以支援Adobe Campaign Standard 使用案例](administration/using/configuring-rules-launch.md)
       + [Adobe Campaign Standard　支援的行動使用案例](administration/using/supported-mobile-use-cases.md)
+      + [如何將您的行動應用程式從SDK v4移轉至Adobe Experience Platform SDK](administration/using/sdkv4-migration.md)
    + 設定 SMS 通道 {#configuring-sms}
       + [實作 SMS 通道](administration/using/configuring-sms-channel.md)
       + [SMS 連接器通訊協定及設定](administration/using/sms-protocol.md)

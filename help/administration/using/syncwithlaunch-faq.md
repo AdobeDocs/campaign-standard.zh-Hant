@@ -7,7 +7,7 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: a8730046710445022f6df1e7af407bb078a3edf9
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## 我無法編輯Adobe Campaign Standard中已設定的行動應用程式，而行動應用程式僅為讀模式。{#read-mode-mobile-app}
 
-在&#x200B;**[!UICONTROL Access Authorization ]**&#x200B;區段中檢查行動應用程式的組織單位。 只有已指派的組織單位的使用者可以編輯行動應用程式。
+在&#x200B;**[!UICONTROL Access Authorization]**&#x200B;區段中檢查行動應用程式的組織單位。 只有已指派的組織單位的使用者可以編輯行動應用程式。
 
 有關組織單位的詳細資訊，請參閱此[頁](../../administration/using/organizational-units.md)。
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 1. 檢查「Launch_URL_Campaign」或「NmsServer_URL」是否正確。
 
-1. 然後，檢查[!DNL Launch]和Adobe Campaign之間的同步是否已透過&#x200B;**[!UICONTROL syncWithLaunch]**&#x200B;技術工作流程完成。
+1. 然後，檢查[!DNL Launch]與Adobe Campaign之間的同步是否已透過&#x200B;**[!UICONTROL syncWithLaunch]**&#x200B;技術工作流程完成。
 
 ## 如何檢查Adobe Campaign和Launch之間的同步是否已完成？{#sync-campaign-launch}
 

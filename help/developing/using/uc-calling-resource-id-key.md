@@ -4,7 +4,7 @@ product: campaign
 title: 使用複合識別鍵呼叫資源
 description: 瞭解如何使用複合識別碼呼叫資源
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 7%
@@ -37,7 +37,7 @@ ht-degree: 7%
 
 1. 在設定識別金鑰之前，請確定資源已擴充至所需欄位，且已發佈。 如需詳細資訊，請參閱[本章節](../../developing/using/creating-or-extending-the-resource.md)。
 
-1. 前往&#x200B;**[!UICONTROL Administration]** / **[!UICONTROL Developement]** / **[!UICONTROL Custom resources]**&#x200B;功能表，然後開啟&#x200B;**[!UICONTROL Profile]**&#x200B;資源。
+1. 前往&#x200B;**[!UICONTROL Administration]** / **[!UICONTROL Development]** / **[!UICONTROL Custom resources]**&#x200B;功能表，然後開啟&#x200B;**[!UICONTROL Profile]**&#x200B;資源。
 
    ![](assets/uc_idkey1.png)
 

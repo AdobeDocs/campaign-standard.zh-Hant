@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 7080c002ca20028a4721d09a0d86a746ab47467c
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 100%
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 # 關於排程訊息{#about-scheduling-messages}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >每當對傳送排程進行變更時時，您必須先按一下 **Prepare** 按鈕，再按 **Confirm**，以重新準備傳送作業。
 
@@ -42,7 +42,7 @@ ht-degree: 100%
 
    ![](assets/delivery_planning.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >複製傳送時，會刪除所有排程設定。除非您已排程新的聯絡日期，否則將在確認傳送後立即傳送複製的傳送。
 

@@ -5,7 +5,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 translation-type: tm+mt
-source-git-commit: 6be7a20cde8fcaee73972b8919765ea631f2f1ee
+source-git-commit: efa30d7ed4a0caf929da6f485681078318849cda
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 整合應用程式提供三個工作流程：
 
-![](assets/d365-to-acs-ui-page-workflows.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows.png)
 
 **Microsoft Dynamics 365 to Campaign**
 * 將&#x200B;*連絡人*&#x200B;從Microsoft Dynamics 365傳送至Adobe Campaign
@@ -71,4 +71,4 @@ ht-degree: 0%
 
 在&#x200B;**Stop**&#x200B;按鈕中添加警告指示，以告知您何時(a)更新了工作流，但(b)尚未執行此工作流的「停止／開始」。
 
-![](assets/d365-to-acs-icon-stop-with-changes.png)
+![](assets/do-not-localize/d365-to-acs-icon-stop-with-changes.png)

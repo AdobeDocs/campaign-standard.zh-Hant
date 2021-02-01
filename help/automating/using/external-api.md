@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
 translation-type: tm+mt
-source-git-commit: 9eca72e744524cf201d998abd9acf718fdaca0f8
+source-git-commit: 6dda990d046cceae2a0c0da87764d4b6a16d9ae8
 workflow-type: tm+mt
-source-wordcount: '2156'
-ht-degree: 98%
+source-wordcount: '2180'
+ht-degree: 95%
 
 ---
 
@@ -114,13 +114,13 @@ JSON 剖析器的設計可容納標準 JSON 結構模式類型，但有些例外
 
 ### 執行
 
-此索引標籤可讓您定義連接端點。**[!UICONTROL URL]**&#x200B;欄位可讓您定義將資料傳送至促銷活動的&#x200B;**HTTPS端點**。
+此索引標籤可讓您定義連接端點。**[!UICONTROL URL]**&#x200B;欄位可讓您定義Campaign Standard將與之通訊的&#x200B;**HTTPS端點**。
 
 如果端點需要，則可以使用兩種驗證方法：
 
-* 基本驗證：在 **[!UICONTROL Request Header(s)]** 欄位中輸入您的使用者名稱/密碼資訊。
+* 基本驗證：在&#x200B;**[!UICONTROL Request Header(s)]**&#x200B;部分中輸入您的用戶名／密碼資訊。
 
-* OAuth 驗證：按一下 **[!UICONTROL Use connection parameters defined in an external account]**，您可以選取定義 OAuth 驗證的外部帳戶。如需詳細資訊，請參閱[外部帳戶](../../administration/using/external-accounts.md)。
+* OAuth驗證：按一下外部帳戶中的&#x200B;**[!UICONTROL Use connection parameters defined in an external account]**，即可選取定義OAuth驗證的外部帳戶。 如需詳細資訊，請參閱[外部帳戶](../../administration/using/external-accounts.md)。
 
 ![](assets/externalAPI-execution.png)
 
@@ -155,6 +155,10 @@ JSON 剖析器的設計可容納標準 JSON 結構模式類型，但有些例外
 此索引標籤可用於大部分的工作流程活動。如需詳細資訊，請參閱[活動屬性](../../automating/using/activity-properties.md)區段。
 
 ![](assets/externalAPI-options.png)
+
+## 測試
+
+若要使用簡單的測試端點來測試外部API功能，您可以使用Postman Echo:https://docs.postman-echo.com。
 
 ## 疑難排解
 
@@ -256,8 +260,8 @@ JSON 剖析器的設計可容納標準 JSON 結構模式類型，但有些例外
    <td> <p>不允許 HTTP 標題鍵（標題鍵：'接受'）。</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560247 -  A HTTP header value is bad (header value: '%s').</td> 
-   <td> <p>HTTP header value is bad (header value: '%s'). </p>
+   <td> WKF-560247 - An HTTP header value is bad(header value:'%s')。</td> 
+   <td> <p>HTTP標頭值錯誤(標頭值：'%s')。 </p>
     <p>注意：當自訂標頭值根據 <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a> 驗證失敗時，將記錄此錯誤</p></td> 
   </tr> 
   <tr> 

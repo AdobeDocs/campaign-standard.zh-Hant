@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
+source-git-commit: 0f057375e5cd63605af460f08cd39bed00435184
 workflow-type: tm+mt
 source-wordcount: '963'
 ht-degree: 8%
@@ -39,8 +39,6 @@ Adobe Campaign可讓您將這項功能與資訊系統整合，該資訊系統會
 >Adobe Campaign會優先處理交易訊息，而非其他傳送。
 
 <!--Guidelines to implement transactional messaging capabilities in your website are detailed in [this section](../../api/using/managing-transactional-messages.md).-->
-
-<!--All transactional messages are now sent with the Adobe Campaign Enhanced MTA for improved deliverability, throughput, and bounce handling. All impacts are the same as for standard marketing messages. For more on this, see [this section](../../administration/using/configuring-email-channel.md).-->
 
 在開始使用事務性消息傳遞之前，請務必閱讀相應的[最佳實踐和限制](../../channels/using/transactional-messaging-limitations.md)。
 

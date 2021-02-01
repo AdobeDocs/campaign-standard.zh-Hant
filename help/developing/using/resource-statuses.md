@@ -7,7 +7,7 @@ audience: developing
 content-type: reference
 topic-tags: about-custom-resources
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 1%
@@ -34,7 +34,7 @@ ht-degree: 1%
    >
    >當您要重新草擬的資源仍包含其他資源的連結，且狀態為「已發佈」時，**[!UICONTROL Cancel re-draft]**&#x200B;選項即可使用。 此選項允許您恢復「重新繪製」進程。 然後，自訂資源將返回其原始狀態。
 
-* **已發佈**:資源已發佈。如果資源在上次修改日期之後被修改，則會顯示一條消息，要求您重新發佈資源，以便考慮到最新修改。
+* **已發佈**:資源已發佈。如果資源在上次修改日期之後被修改，則會顯示一則消息，邀請您重新發佈資源，以便考慮到最新修改。
 
 **[!UICONTROL Do not publish latest modifications]**&#x200B;欄位可防止在未來發佈期間考慮修改。
 

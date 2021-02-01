@@ -7,10 +7,10 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 7080c002ca20028a4721d09a0d86a746ab47467c
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 85%
+source-wordcount: '513'
+ht-degree: 83%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 85%
 
 Litmus [網站](https://litmus.com/email-testing)列出可在 Adobe Campaign 中用於&#x200B;**電子郵件呈現**&#x200B;的行動裝置、傳送訊息與網頁郵件客戶端（請按一下&#x200B;**檢視所有電子郵件客戶端**）。
 
-## 檢查電子郵件呈現報告 {#checking-the-email-rendering-report}
+## 產生電子郵件演算{#checking-the-email-rendering-report}
 
 在您建立電子郵件傳送並定義其內容以及目標定位人口族群後，請遵循下列步驟。
 
@@ -66,20 +66,21 @@ Litmus [網站](https://litmus.com/email-testing)列出可在 Adobe Campaign 中
 * [傳送校樣](../../sending/using/sending-proofs.md)
 * [查詢編輯器](../../automating/using/editing-queries.md#about-query-editor)
 
-## 電子郵件呈現報告說明 {#email-rendering-report-description}
+## 電子郵件轉換報告{#email-rendering-report-description}
 
 此報告會以收件者看到的方式來顯示電子郵件呈現。電子郵件呈現會因收件者開啟電子郵件傳送的方式而異：在瀏覽器中、行動裝置上，或是透過電子郵件應用程式。
 
->[!NOTE]
->
->您的授權協議中會列出可用的呈現數量。每次啟用「**電子郵件呈現**」傳送時，您的可用呈現（也稱為 Token）都會減少一次。
->
->Token帳戶是每個個別轉譯，而非整個「電子郵件」轉譯報表，這表示：
->
->**每次** 產生「收件匣」轉譯報表時，會扣除每個訊息傳送用戶端一個代號：一個Outlook 2000轉譯的Token、一個Outlook轉譯的Token、一個Apple Mail轉譯的Token，等等。
->
->**對於相同的傳送**，如果您再次產生電子郵件轉譯，可用的Token數量會依產生的轉譯數量而再次減少。
+### 電子郵件轉換Token
 
+您的授權協議中會列出可用的呈現數量。每次啟用「**電子郵件呈現**」傳送時，您的可用呈現（也稱為 Token）都會減少一次。
+
+Token帳戶是每個個別轉譯，而非整個「電子郵件」轉譯報表，這表示：
+
+* **每次** 產生「電子郵件」轉譯報表時，會扣除每個訊息傳送用戶端一個代號：一個Outlook 2000轉譯的Token、一個Outlook轉譯的Token、一個Apple Mail轉譯的Token，等等。
+
+* **對於相同的傳送**，如果您再次產生電子郵件轉譯，可用的Token數量會依產生的轉譯數量而再次減少。
+
+### 報告摘要
 
 報告摘要會顯示已接收、不想要（垃圾郵件）、未接收或待接收的郵件數目。
 

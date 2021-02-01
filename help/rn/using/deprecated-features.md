@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
 translation-type: tm+mt
-source-git-commit: 32aba66dd8987414cf90df1e7bfb9c419c5f68ff
+source-git-commit: becaf20fefb6fce05db0824baa69670f810966dc
 workflow-type: tm+mt
-source-wordcount: '707'
-ht-degree: 85%
+source-wordcount: '734'
+ht-degree: 80%
 
 ---
 
@@ -62,8 +62,9 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> 自 20.1 版本以來，已過時 SDK v4。<a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">進一步瞭解</a>。</p><br/>
-   <p>Adobe <a href="https://aep-sdks.gitbook.io/docs/">Experience Platform Mobile SDK</a>（先前稱為 v5）將獨家支援即將推出的 Adobe Experience Cloud 功能。</p></br>
+   <td> <p> 從Campaign 20.1版開始，SDK v4已過時。 <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">進一步瞭解</a>。</p><br/>
+   <p>Adobe <a href="https://aep-sdks.gitbook.io/docs/">Experience Platform Mobile SDK</a>（先前稱為 v5）將獨家支援即將推出的 Adobe Experience Cloud 功能。</p>
+   <p>在本頁</a>中，瞭解如何從SDK v4移轉至Adobe Experience Platform Mobile SDK <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">。</a></p></br>
      <p>
      <em>目標刪除日期：2021年8月31日</em></p>
      </td> 
@@ -112,7 +113,7 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>自 18.7 版本以來，「地理」單位已過時。在 Campaign 中，「組織」和「地理」單位是完全相同的結構。使用者應單獨使用「組織」單位來建立其使用者權限/資料存取階層。<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/organizational-units.html?lang=zh-Hant#administrating">進一步瞭解</a>。請注意，新的 Campaign Standard 執行個體，以及未建立地理單位的現有執行個體，則無法使用自 18.7 版以來實作的這個功能。</p>
+   <td> <p>從Campaign 18.7版開始，地理單位已過時。 在 Campaign 中，「組織」和「地理」單位是完全相同的結構。使用者應單獨使用「組織」單位來建立其使用者權限/資料存取階層。<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/organizational-units.html?lang=zh-Hant#administrating">進一步瞭解</a>。請注意，新的 Campaign Standard 執行個體，以及未建立地理單位的現有執行個體，則無法使用自 18.7 版以來實作的這個功能。</p>
    </td> 
   </tr> 
  </tbody> 

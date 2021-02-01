@@ -7,10 +7,10 @@ audience: designing
 content-type: reference
 topic-tags: about-content-design
 translation-type: tm+mt
-source-git-commit: 15a4484ba846b1e08e5fa456a5448e76d60949c5
+source-git-commit: 300ffd374d7542817ffb7f37614e67804549cc3d
 workflow-type: tm+mt
-source-wordcount: '1225'
-ht-degree: 87%
+source-wordcount: '1250'
+ht-degree: 88%
 
 ---
 
@@ -118,7 +118,9 @@ ht-degree: 87%
 
    在傳送訊息之前先預覽訊息。Adobe Campaign 提供了使用 Litmus 測試電子郵件轉譯的方法。如需詳細資訊，請參閱「[電子郵件轉譯](../../sending/using/email-rendering.md)」。
 
-以下部分介紹有關消息的更多設計和一般最佳做法：[傳遞最佳實務](../../sending/using/delivery-best-practices.md)。
+* 「電子郵件設計工具」不支援反向連結meta標籤。
+
+有關訊息的更多設計與一般最佳實務，請參閱下列 Adobe Campaign 逐步指南：[使用 Adobe Campaign 傳送最佳實務](https://helpx.adobe.com/tw/campaign/kb/delivery-best-practices.html)。
 
 ### 更新片段 {#email-designer-updates}
 

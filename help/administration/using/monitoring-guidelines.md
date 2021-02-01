@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: introduction
 index: y
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 4b87ebc2585b87f918bbd688c5858394d8d4a742
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 9%
@@ -50,8 +50,8 @@ Campaign Standard提供數種監控例項的方式，以確保您的系統正常
 **導出審**
 核導出審核允許您監視對實例執行的導出：從工作流程上傳的檔案、清單匯出和從直接郵件訊息下載的檔案。[顯示全文](../../administration/using/auditing-export-logs.md)
 
-**許**
-可功 **[!UICONTROL Licenses]** 能表可監控例項的相關資訊：安裝的授權、建置版本和條款合約接受。[顯示全文](../../administration/using/licenses.md)
+**授**
+權透過 **[!UICONTROL Licenses]** 功能表，監控您的例項資訊：安裝的授權、建置版本和條款合約接受。[顯示全文](../../administration/using/licenses.md)
 
 ## 監控工作流程 {#monitoring-workflows}
 
@@ -63,7 +63,7 @@ Campaign Standard提供數種監控例項的方式，以確保您的系統正常
 **記錄檔和**
 工作工作流程記錄檔監控是分析工作流程並確保工作流程正常執行的關鍵步驟。[顯示全文](../../automating/using/monitoring-workflow-execution.md#workflow-log-and-tasks)
 
-**NotificationsCampaign Standard可讓您傳送通知給主管，以監控您的工作流的執行情況，並查看是否有任何需要您注意的錯誤。**
+**NotificationsCampaign Standard可讓您傳送通知給主管，以監控工作流程的執行，並查看是否有任何需要您注意的錯誤。**
 [顯示全文](../../automating/using/monitoring-workflow-execution.md#error-management)
 
 ## 監視傳遞{#monitoring-deliveries}
@@ -71,7 +71,7 @@ Campaign Standard提供數種監控例項的方式，以確保您的系統正常
 <img src="assets/do-not-localize/icon_send.svg" width="60px">
 
 **DeliverabilityCampaign**
-Standard提供數種傳送功能工具，可協助您改善成功傳送訊息的數量：傳送傳送處理報告、傳送時間最佳化、訊息預覽、電子郵件轉譯、隔離管理等。[顯示全文](../../sending/using/about-deliverability.md)
+Standard提供數種傳送功能工具，可協助您改善成功傳送訊息的數量：傳送吞吐量報告、傳送時間最佳化、訊息預覽、電子郵件轉譯、隔離管理等。[顯示全文](../../sending/using/about-deliverability.md)
 
 **傳**
 送傳送傳送訊息後，詳細記錄檔可讓您監控傳送情況並評估促銷活動的成功，以及追蹤訊息收件者的行為。[顯示全文](../../sending/using/monitoring-a-delivery.md)
@@ -80,4 +80,4 @@ Standard提供數種傳送功能工具，可協助您改善成功傳送訊息的
 警報使用傳送警報功能，您可以設定警報，自動傳送給一組使用者，告知傳送的執行：發送或準備失敗，跳出率不高，吞吐量低等。[顯示全文](../../sending/using/receiving-alerts-when-failures-happen.md)
 
 **動態報**
-告動態報告提供各種報告，幫助您隨時得知傳送的執行情形：彈回數、依收件者檢視的絕大多數版本、傳送的總處理量等。[顯示全文](../../reporting/using/about-dynamic-reports.md)
+告動態報告提供各種報告，幫助您隨時得知傳送的執行情形：彈回數、收件者檢視的傳送次數最多、傳送的總處理量等。[顯示全文](../../reporting/using/about-dynamic-reports.md)

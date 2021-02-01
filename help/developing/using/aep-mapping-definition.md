@@ -7,7 +7,7 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 2%
@@ -51,7 +51,7 @@ ht-degree: 2%
 
 **[!UICONTROL Create new field mapping]**&#x200B;按鈕可讓您選擇「促銷活動標準」欄位，以及XDM架構中的對應欄位路徑運算式。
 
-如果您找不到「促銷活動標準」欄位，您可以使用搜尋欄位來搜尋欄位。 目前，搜尋只適用於階層中開啟的欄位。
+如果您找不到Adobe Campaign Standard欄位，您可以使用搜尋欄位來搜尋欄位。 目前，搜尋只適用於階層中開啟的欄位。
 
 ![](assets/aep_mapfield.png)
 

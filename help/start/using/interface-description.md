@@ -7,10 +7,10 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 4a039670745810de40fe3622d21d7830d6e33d2c
 workflow-type: tm+mt
-source-wordcount: '1144'
-ht-degree: 96%
+source-wordcount: '1244'
+ht-degree: 81%
 
 ---
 
@@ -47,7 +47,7 @@ Adobe Campaign 可讓您導覽不同的功能表和畫面，以管理您的行�
 
 ## 頂端列 {#top-bar}
 
-每個畫面上都會顯示頂端列，讓您透過 Adobe Campaign 瀏覽其功能，並存取已連線的 Adobe 設定檔、通知、其他 Adobe Experience Cloud 服務與解決方案及其文件。
+每個螢幕上都會顯示頂端列，讓您瀏覽Adobe Campaign的功能，並存取連線的Adobe個人檔案、通知、Adobe Experience Cloud服務和解決方案，以及檔案。
 
 導覽原則為：
 
@@ -57,13 +57,25 @@ Adobe Campaign 可讓您導覽不同的功能表和畫面，以管理您的行�
 
 * 此 **[!UICONTROL Home]** 連結允許您顯示 Adobe Campaign 首頁。
 * 這些 **[!UICONTROL Marketing activities]**、**[!UICONTROL Programs & Campaigns]**、**[!UICONTROL Profiles]**、**[!UICONTROL Audiences]** 和 **[!UICONTROL Reports]** 連結可以讓您存取與這些功能連結的檢視。
-* 此 **[!UICONTROL Help]** 按鈕可以讓您存取產品文件與內容相關說明、發行說明、版本號碼、法律注意事項，以及 Adobe Experience Cloud 社群與客戶服務的連結。
+* **解決方案切換器**&#x200B;圖示可讓您在組織之間切換或切換至不同的應用程式。
+* **[!UICONTROL Help]**&#x200B;按鈕可讓您存取Adobe Campaign Standard檔案、視訊、發行說明和版本規劃，以及Adobe Experience Cloud社群和客戶服務的連結。
+* 「組織」按鈕
+* 此&#x200B;**通知**&#x200B;圖示會顯示最新警報或資訊。
+* 此&#x200B;**使用者**&#x200B;圖示可讓您顯示連結至設定檔的資訊。它可以訪問&#x200B;**[!UICONTROL Sign out]**&#x200B;按鈕和&#x200B;**[!UICONTROL About]**&#x200B;螢幕。
+
+### 說明 {#help}
+
+* **[!UICONTROL Search]** 將Adobe Experience League帶入產品：搜尋結果包括檔案和說明文章、社群論壇的結果和更多視訊內容，讓您更輕鬆地存取更多內容，協助您充分運用應用程式。
+* **[!UICONTROL Help]** 頁籤
+   * 連結可讓您快速存取Adobe Campaign Standard檔案、視訊和發行說明。
+   * **[!UICONTROL Learning]** 此連結可讓您存取Adobe Campaign內容庫。
+   * **[!UICONTROL Community]** 此連結允許您訪問ACS專門討論的論壇。
+
+* **[!UICONTROL Support]** 標籤可讓您開啟支援案例，並透過電話或Twitter與我們聯絡。
+
+* **[!UICONTROL Feedback]**  讓您更輕鬆地報告問題或分享您的想法。
 
    ![](assets/ux_help.png)
-
-* 此&#x200B;**選取解決方案**&#x200B;圖示可以讓您切換至其他 Adobe Experience Cloud 解決方案以及其設定檔設定。
-* 此&#x200B;**通知**&#x200B;圖示會顯示最新警報或資訊。
-* 此&#x200B;**使用者**&#x200B;圖示可讓您顯示連結至設定檔的資訊。它提供此 **[!UICONTROL Sign out]** 按鈕的存取權限。
 
 ## 進階功能表 {#advanced-menu}
 

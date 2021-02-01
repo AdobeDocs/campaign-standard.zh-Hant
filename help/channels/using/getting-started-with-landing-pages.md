@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 translation-type: tm+mt
-source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
+source-git-commit: e34d3f032cd49585f86178264e7779b3c92993ae
 workflow-type: tm+mt
 source-wordcount: '1027'
 ht-degree: 97%
@@ -40,7 +40,7 @@ ht-degree: 97%
 * 登錄頁面僅限於 **[!UICONTROL Profile]** 和 **[!UICONTROL Subscription]** 資源。可從 **[!UICONTROL Profile]** 儲存及更新記錄，以及訂閱/取消訂閱 **[!UICONTROL Service]**。
 有關資源設定的詳細資訊，請參閱[設定資源的資料結構](../../developing/using/configuring-the-resource-s-data-structure.md)。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >登錄頁面無法顯示或更新來自 **[!UICONTROL Profile]** 及 **[!UICONTROL Subscription]** 以外之任何資源的資料。
 
@@ -113,7 +113,7 @@ ht-degree: 97%
 
 ![](assets/lp-steps5.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >登錄頁面測試只能使用設定檔進行，而不能使用測試設定檔。提交表單時，選取的設定檔資料將會實際更新。若要避免修改真正的設定檔，請使用假造的客戶設定檔。
 

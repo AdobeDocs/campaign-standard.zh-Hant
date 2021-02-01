@@ -7,9 +7,9 @@ audience: reporting
 content-type: reference
 topic-tags: about-reporting
 translation-type: tm+mt
-source-git-commit: 6fffc6a3574c71c01f1e07ff4e6e6aa194479079
+source-git-commit: e129cde33b24831122433bd4b400204f38799b11
 workflow-type: tm+mt
-source-wordcount: '1285'
+source-wordcount: '1295'
 ht-degree: 1%
 
 ---
@@ -247,8 +247,12 @@ ht-degree: 1%
    <td> 開啟交貨的收件人數。<br /> </td> 
   </tr> 
   <tr> 
+   <td> 唯一取消訂閱<br /> </td> 
+   <td> 點按取消訂閱連結的收件者數。<br /> </td> 
+  </tr> 
+  <tr> 
    <td> 取消訂閱率<br /> </td> 
-   <td> 收件者取消訂閱與已傳送訊息的百分比。<br /> </td> 
+   <td> 與已傳送的訊息相比，唯一取消訂閱的數目。<br /> </td> 
   </tr> 
   <tr> 
    <td> 取消訂閱<br /> </td> 

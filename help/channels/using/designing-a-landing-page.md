@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: e34d3f032cd49585f86178264e7779b3c92993ae
 workflow-type: tm+mt
 source-wordcount: '1662'
 ht-degree: 100%
@@ -106,7 +106,7 @@ ht-degree: 100%
 
 ![](assets/delivery_content_17.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >特定工具列功能可讓您設定 HTML 內容的格式。但是，如果頁面包含 CSS 樣式表，則樣式表中的&#x200B;**指示**&#x200B;可能會證明其&#x200B;**優先順序**&#x200B;高於透過工具列指定的指示。
 

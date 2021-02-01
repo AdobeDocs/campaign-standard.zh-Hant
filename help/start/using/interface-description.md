@@ -7,10 +7,10 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 translation-type: tm+mt
-source-git-commit: 64eb4fd9bf50cf4a4fb16c1bf8ee29f3f2f583c2
+source-git-commit: c981bd524400e49929d9557aab730ce1ec615551
 workflow-type: tm+mt
-source-wordcount: '1249'
-ht-degree: 81%
+source-wordcount: '1257'
+ht-degree: 80%
 
 ---
 
@@ -64,11 +64,11 @@ Adobe Campaign 可讓您導覽不同的功能表和畫面，以管理您的行�
 
 ### 說明 {#help}
 
-**Help**&#x200B;圖示將Adobe Experience League帶入產品。
+在右上角，**Help**&#x200B;圖示將Adobe Experience League帶入產品。
 
 ![](assets/ux_help.png)
 
-* **[!UICONTROL Search]** 欄位：搜尋結果包括檔案和說明文章、社群論壇的結果和更多視訊內容，讓您更輕鬆地存取更多內容，協助您充分運用應用程式。
+使用&#x200B;**[!UICONTROL Search]**&#x200B;欄位尋找指引。 搜尋結果包括檔案和說明文章、社群論壇的結果和視訊內容，讓您更輕鬆地存取更多內容，以協助您充份運用應用程式。
 
 三個標籤可協助您尋找說明和協助：
 

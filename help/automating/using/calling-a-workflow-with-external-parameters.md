@@ -2,12 +2,12 @@
 solution: Campaign Standard
 product: campaign
 title: 概觀
-description: 本節詳細說明如何使用外部參數調用工作流。
+description: 本節詳細說明如何使用外部參數呼叫工作流程。
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 05b6a9caebdd65f20357070af8bd44cb8ba146c7
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 2%

@@ -6,7 +6,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 translation-type: tm+mt
-source-git-commit: 1e05db3fecc87a026750f40acb0ff063706e3f38
+source-git-commit: efa30d7ed4a0caf929da6f485681078318849cda
 workflow-type: tm+mt
 source-wordcount: '1071'
 ht-degree: 2%
@@ -65,7 +65,7 @@ Adobe Campaign Standard與Microsoft Dynamics 365自助服務整合應用程式�
 
 當您第一次瀏覽至UI時，您應該會看到頁首如下所示：
 
-![](assets/d365-to-acs-ui-header.png)
+![](assets/do-not-localize/d365-to-acs-ui-header.png)
 
 >[!NOTE]
 >
@@ -79,7 +79,7 @@ Adobe Campaign Standard與Microsoft Dynamics 365自助服務整合應用程式�
 
 如果您擁有正確的組織和例項，請按一下「漢堡包」功能表以顯示下拉式功能表。 然後按一下下拉式選單中的&#x200B;**[!UICONTROL Settings...]**，以造訪您輸入Microsoft Dynamics 365和Campaign認證的頁面（請參閱下面）。
 
-![](assets/d365-to-acs-ui-page-workflows-menu-pointers.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-menu-pointers.png)
 
 在&#x200B;**[!UICONTROL Settings]**&#x200B;頁面中，填寫下列章節：
 
@@ -94,11 +94,11 @@ Adobe Campaign Standard與Microsoft Dynamics 365自助服務整合應用程式�
 
 在&#x200B;**[!UICONTROL Workflows]**&#x200B;頁面中，按一下與&#x200B;**[!UICONTROL Microsoft Dynamics 365 to Campaign]**&#x200B;工作流程關聯的鉛筆圖示以編輯其設定。
 
-![](assets/d365-to-acs-ui-page-workflows-ingress-edit-pointer.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-ingress-edit-pointer.png)
 
 在&#x200B;**[!UICONTROL Microsoft Dynamics 365 to Campaign]**&#x200B;頁中，您可以訪問已配置的表映射清單。  它會預設為立即可用的聯絡人／描述檔對應。 所有其他自訂實體都需要個別設定。
 
-![](assets/d365-to-acs-ui-page-ingress-top-pointers.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-top-pointers.png)
 
 在&#x200B;**[!UICONTROL Edit Table Mapping]**&#x200B;頁面中，勾選&#x200B;**[!UICONTROL Mappings]**&#x200B;區段，以確保Microsoft Dynamics 365的欄位已對應至促銷活動中的正確欄位。 如果您需要新增任何其他映射，請立即新增，以及任何替換項或篩選器。 [進一步瞭解](../../integrating/using/d365-acs-self-service-app-data-sync.md)。
 
@@ -108,10 +108,10 @@ Adobe Campaign Standard與Microsoft Dynamics 365自助服務整合應用程式�
 
 >[!IMPORTANT]
 >
->我們&#x200B;**強烈**&#x200B;建議您先在舞台或開發環境中執行此動作，然後再在Production中執行。 請檢查標題中是否選擇了階段／開發實例。
+>我們&#x200B;**強烈**&#x200B;建議您先在舞台或開發環境中執行此動作，然後再在Production中執行。 請檢查標題中是否選取了stage/dev實例。
 
 
-![](assets/d365-to-acs-ui-page-workflows-ingress-play-pointer.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-ingress-play-pointer.png)
 
 在執行後，您應該可以在Microsoft Dynamics 365中新增或修改項目，並在幾分鐘內觀察Adobe Campaign中的這些變更，以進行測試。 如果您需要隨時停止此程式，只需按相同的按鈕即可停止。 [進一步瞭解](../../integrating/using/d365-acs-self-service-app-workflows.md#workflow-status)
 
@@ -124,9 +124,9 @@ Adobe Campaign Standard與Microsoft Dynamics 365自助服務整合應用程式�
 
 選擇要檢視／編輯的&#x200B;**ORG**&#x200B;和&#x200B;**INSTANCE**。 但是，當您將滑鼠游標置於欄位上方時，這些欄位會變成唯讀。
 
-當您按一下標題右側有三行水準線![](assets/d365-to-acs-icon-hamburger.png)的按鈕時，將會顯示下拉式功能表。
+當您按一下標題右側有三行水準線![](assets//do-not-localize/d365-to-acs-icon-hamburger.png)的按鈕時，將會顯示下拉式功能表。
 
-下拉式選單中的項目為
+下拉式選單中的項目為：
 
 * **設定**:選取此選項會傳送您至螢幕，讓您指定Microsoft Dynamics 365和Adobe Campaign的API認證，以及應用程式的其他一般設定。
 
@@ -146,14 +146,14 @@ Adobe Campaign Standard與Microsoft Dynamics 365自助服務整合應用程式�
 
 以下是&#x200B;**[!UICONTROL Edit Table Mapping]**&#x200B;畫面中顯示階層連結和頁面標題的範例。 在這種情況下，您可以按一下&#x200B;**[!UICONTROL Workflows]**&#x200B;或&#x200B;**[!UICONTROL Microsoft Dynamics 365 to Campaign]**&#x200B;文字，前往其中一個先前的畫面。 **[!UICONTROL Edit Table Mapping]** 在此例中，瀏覽路徑標示無法點按，因為它是目前的畫面。
 
-![](assets/d365-to-acs-breadcrumbs-ingress.png)
+![](assets/do-not-localize/d365-to-acs-breadcrumbs-ingress.png)
 
 ### 常用按鈕{#app-buttons}
 
 自助服務應用程式中的多個頁面會使用下列圖示。
 
-![](assets/d365-to-acs-icon-add.png) -將新項目添加到清單。
+![](assets/do-not-localize/d365-to-acs-icon-add.png) -將新項目添加到清單。
 
-![](assets/d365-to-acs-icon-edit.png) -編輯已存在的項目
+![](assets/do-not-localize/d365-to-acs-icon-edit.png) -編輯已存在的項目
 
-![](assets/d365-to-acs-icon-delete.png) -從項目清單中刪除項目
+![](assets/do-not-localize/d365-to-acs-icon-delete.png) -從項目清單中刪除項目

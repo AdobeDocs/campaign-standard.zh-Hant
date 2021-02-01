@@ -6,7 +6,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 translation-type: tm+mt
-source-git-commit: 6be7a20cde8fcaee73972b8919765ea631f2f1ee
+source-git-commit: efa30d7ed4a0caf929da6f485681078318849cda
 workflow-type: tm+mt
 source-wordcount: '1795'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 **[!UICONTROL Microsoft Dynamics 365 to Campaign]**&#x200B;頁面顯示Microsoft Dynamics 365中的實體清單，以及將與之同步的Adobe Campaign中的自訂資源。 您可以新增映射、編輯或刪除現有映射。
 
-![](assets/d365-to-acs-ui-page-ingress-top.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-top.png)
 
 下表說明此表中的各列：
 
@@ -67,7 +67,7 @@ ht-degree: 0%
 1. 使用下拉式清單來選擇要對應的Microsoft Dynamics 365和Campaign表格。
 頁面上的大部分其他輸入都將視您選擇的表格而定。
 
-   ![](assets/d365-to-acs-ui-page-ingress-choose-tables.png)
+   ![](assets/do-not-localize/d365-to-acs-ui-page-ingress-choose-tables.png)
 
    >[!NOTE]
    >不能多次映射每個表。 因此，您會注意到下拉式選擇將不包含已映射的表。
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 如果您編輯現有的映射，則會看到表選擇不可編輯。
 
-![](assets/d365-to-acs-ui-page-ingress-table-read-only.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-table-read-only.png)
 
 這是依設計而定，因為頁面中的進一步輸入是以這些表格相關的欄位為基礎。 更改表會使與這些表關聯的所有欄位都無效。  如果要將表更改為映射，則需要返回上一頁、刪除要更改的映射，並添加新映射。
 
@@ -106,7 +106,7 @@ ht-degree: 0%
 
 將新的Microsoft Dynamics 365新增至「促銷活動」表格對應時，您需要識別ID欄位。
 
-![](assets/d365-to-acs-ui-page-ingress-mappings-first-key.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-mappings-first-key.png)
 
 Microsoft Dynamics 365主鍵是唯讀的，因為應用程式會偵測到它。
 
@@ -118,7 +118,7 @@ Microsoft Dynamics 365主鍵是唯讀的，因為應用程式會偵測到它。
 
 主鍵始終是&#x200B;**[!UICONTROL Field Mappings]**&#x200B;部分中列出的第一個欄位名。 提醒您，右側會列出下列圖示，提醒您這些是主要按鍵。
 
-![](assets/d365-to-acs-icon-primary-key.png)
+![](assets/do-not-localize/d365-to-acs-icon-primary-key.png)
 
 #### 新增其他欄位對應
 
@@ -126,14 +126,14 @@ Microsoft Dynamics 365主鍵是唯讀的，因為應用程式會偵測到它。
 
 在清單中選取「Microsoft Dynamics 365」和「促銷活動」欄位：
 
-![](assets/d365-to-acs-ui-page-ingress-new-field-mapping.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-new-field-mapping.png)
 
 這些清單包含與您在頁面頂端選取的Microsoft Dynamics 365和促銷活動表格相關聯的欄位名稱。
 
 **[!UICONTROL Apply updates]**&#x200B;切換器可讓您控制此欄位的更新是否會從Microsoft Dynamics 365傳播至Campaign:
-* 如果它已開啟![](assets/d365-to-acs-icon-switch-on.png)，則更新時，Microsoft Dynamics 365中值的更新會傳播至Adobe Campaign。
+* 如果它已開啟![](assets/do-not-localize/d365-to-acs-icon-switch-on.png)，則更新時，Microsoft Dynamics 365中值的更新會傳播至Adobe Campaign。
 
-* 如果您關閉![](assets/d365-to-acs-icon-switch-off.png)，則值將在最初載入（或重新播放）資料時傳播，但Microsoft Dynamics 365中欄位的增量更新將不傳播。
+* 如果您關閉![](assets/do-not-localize/d365-to-acs-icon-switch-off.png)，則值將在最初載入（或重新播放）資料時傳播，但Microsoft Dynamics 365中欄位的增量更新將不傳播。
 
 >[!NOTE]
 >
@@ -142,7 +142,7 @@ Microsoft Dynamics 365主鍵是唯讀的，因為應用程式會偵測到它。
 
 當您選取欄位值時，您會看到下拉式選單下方顯示的資料類型。   在將值從一個欄位對應至另一個欄位時，請記住這一點。
 
-![](assets/d365-to-acs-ui-page-ingress-mappings-fields-selected.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-mappings-fields-selected.png)
 
 >[!NOTE]
 >
@@ -194,7 +194,7 @@ Microsoft Dynamics 365主鍵是唯讀的，因為應用程式會偵測到它。
 
 您可以控制的4個度量為：**Sends**、**Clicks**、**Opens**&#x200B;和&#x200B;**Bounces**。
 
-![](assets/d365-to-acs-ui-page-workflows-egress.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-egress.png)
 
 選擇&#x200B;**是**&#x200B;以確認您確實希望該類型的事件流到Microsoft Dynamics 365。
 
@@ -208,7 +208,7 @@ Microsoft Dynamics 365主鍵是唯讀的，因為應用程式會偵測到它。
 
 請記住，您必須按一下「儲存」以儲存您的選擇。 另請記住，您必須停止「**促銷活動至Microsoft Dynamics 365**」工作流程，然後按一下「播放」進行整合，以合併您的變更。
 
-![](assets/d365-to-acs-ui-page-workflows-optinout-disabled.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-optinout-disabled.png)
 
 ### 選擇加入／退出同步方向
 

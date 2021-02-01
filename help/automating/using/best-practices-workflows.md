@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 431ab4e83b9d0944cd7b990c3af0e38950dd0272
 workflow-type: tm+mt
-source-wordcount: '1071'
-ht-degree: 93%
+source-wordcount: '1120'
+ht-degree: 89%
 
 ---
 
@@ -49,6 +49,10 @@ ht-degree: 93%
 
 依預設，我們建議不要同時執行超過 20 個作用中的工作流程。達到此限制之後，會將工作流程排入佇列，以免影響效能。同樣地，Adobe 建議您將工作流程執行分散到不同的時間。
 在特定情況下，您可能需要執行超過 20 個工作流程。不適用於等待排程執行的工作流程。若是如此，您需要向 Campaign 專家檢查使用案例，並聯絡 Adobe 客戶服務以提高限制。
+
+>[!NOTE]
+>
+>在啟動工作流之前，[!DNL Campaign Standard]將檢查是否有足夠的系統物理記憶體來運行工作流。 如果沒有足夠的可用記憶體，則會收到一條消息，通知您工作流執行將被延遲，直到伺服器上的負載下降並系統記憶體增加為止。
 
 ### 頻率
 

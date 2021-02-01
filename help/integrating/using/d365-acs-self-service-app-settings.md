@@ -5,7 +5,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 translation-type: tm+mt
-source-git-commit: 6be7a20cde8fcaee73972b8919765ea631f2f1ee
+source-git-commit: efa30d7ed4a0caf929da6f485681078318849cda
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 2%
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 Microsoft Dynamics 365憑證可授予整合應用程式從Microsoft Dynamics 365提取資料的權限。  您必須先依照畫面[「設定Microsoft Dynamics 365 for Campaign整合](../../integrating/using/d365-acs-configure-d365.md)」中的步驟進行，才能產生將貼至此畫面的值。 以下說明的輸入將參照此畫面。
 
-![](assets/d365-to-acs-ui-page-workflows-settings-d365.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-d365.png)
 
 * **[!UICONTROL Client ID]**:在本節中瞭解如何參考您的用 [戶端ID](../../integrating/using/d365-acs-configure-d365.md#register-a-new-app)
 
@@ -39,7 +39,7 @@ Adobe Campaign認證是使用[Adobe I/O](https://www.adobe.io/)產生。 您必�
 
 下圖將詳細說明Adobe I/O與設定畫面輸入之間的對應。
 
-![](assets/d365-to-acs-ui-page-workflows-settings-adobeio.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-adobeio.png)
 
 * *私密金鑰*:定義此項的程式會從按一下「產生公用／私用鑰匙對」按鈕開始。這將建立您必須下載的zip檔案。 下載後，請解壓縮檔案，以產生兩個名為certificate_pub.crt和private.key的檔案。 請務必將private.key放在安全的位置，而不要共用它。 在文本編輯器中開啟private.key檔案。 在文字編輯器中複製整個值（在PC上為ctrl-A然後為ctrl-C，在Mac上為cmd-A然後為cmd-C）。 這應包括完整的「BEGIN PRIVATE KEY」和「END PRIVATE KEY」行。 將此整個多行文字貼入「設定」畫面的「私密金鑰」輸入。
 
@@ -58,7 +58,7 @@ Adobe Campaign認證是使用[Adobe I/O](https://www.adobe.io/)產生。 您必�
 
 若要定義Microsoft Dynamics 365整合的促銷活動SFTP設定，請存取下列區段：
 
-![](assets/d365-to-acs-ui-page-workflows-settings-sftp.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-sftp.png)
 
 您需要指定：
 

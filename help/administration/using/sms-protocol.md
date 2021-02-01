@@ -1,21 +1,21 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: SMS連接器通訊協定與設定
+title: SMS 連接器通訊協定及設定
 description: 進一步瞭解SMS連接器以及如何設定它。
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 458517259c6668e08a25f8c3cd3f193f27e536fb
+source-git-commit: 4b87ebc2585b87f918bbd688c5858394d8d4a742
 workflow-type: tm+mt
-source-wordcount: '8382'
+source-wordcount: '8666'
 ht-degree: 0%
 
 ---
 
 
-# SMS連接器協定和設定{#sms-connector-protocol}
+# SMS 連接器通訊協定及設定 {#sms-connector-protocol}
 
 >[!NOTE]
 >
@@ -521,7 +521,7 @@ Adobe Campaign Standard的連線總數公式：
 
 0表示無限制，MTA會盡快傳送MT。
 
-通常建議將此設定保持在1000以下，因為無法保證精確的吞吐量高於此數字，除非對最終體系結構和特別要求的SMPP提供商進行適當基準測試。 將連接數增加到1000 MT/s以上可能更好。
+一般建議將此設定保持在1000以下，因為除非對最終架構進行適當基準測試，否則無法保證高於此數目的精確吞吐量。 如果您需要超過1000的吞吐量，請與您的供應商聯繫。 將連接數增加到1000 MT/s以上可能更好。
 
 #### 重新連接{#time-reconnection}之前的時間
 
@@ -698,6 +698,10 @@ regex中未包含足夠的上下文，可能會造成小的安全性缺陷：消
 
 此設定僅允許每條消息添加一個TLV選項。
 
+>[!NOTE]
+>
+>從21.1版開始，現在可以新增多個選用參數。 如需詳細資訊，請參閱本[區段](../../administration/using/sms-protocol.md#automatic-reply-tlv)。
+
 ### 自動回覆傳送至 MO {#automatic-reply}
 
 此功能可讓您快速回覆文字至MO，並處理傳送至區塊清單的簡短程式碼。
@@ -715,6 +719,12 @@ regex中未包含足夠的上下文，可能會造成小的安全性缺陷：消
 >發送完整電話號碼設定對自動回復隔離機制的行為有影響：如果未勾選發送完整電話號碼，則將加號(&quot;+&quot;)加上輸入隔離的電話號碼，使其與國際電話號碼格式相容。
 
 表格中的所有項目都會以指定順序處理，直到有一個規則符合為止。 如果多個規則符合MO，則只會套用最上方的規則。
+
+### 自動回覆可選參數(TLV){#automatic-reply-tlv}
+
+從21.1版開始，您可以新增選用參數以自動回覆MT。 它們作為可選的TLV參數添加到回復的`SUBMIT_SM PDU`中，如[SMPP規範](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)（第131頁）第5.3節所述。
+
+有關可選參數的詳細資訊，請參閱此[部分](../../administration/using/sms-protocol.md#smpp-optional-parameters)。
 
 ## SMS傳送範本參數{#sms-delivery-template-parameters}
 
@@ -754,7 +764,19 @@ SMS協定將SMS限制在255個部分，但有些手機無法將長消息與10個
 
 #### 有效期{#validity-period}
 
-有效期間在`SUBMIT_SM PDU`的`validity_period`欄位中傳送。 日期一律格式化為絕對UTC時間格式，日期欄位將以&quot;00+&quot;結束。
+有效期間在`SUBMIT_SM PDU`的`validity_period`欄位中傳送。 日期一律以絕對UTC時間格式（日期欄位將以&quot;00+&quot;結尾）。
+
+#### SMPP可選參數(TLV){#smpp-optional-parameters}
+
+從21.1版開始，您可以在每個傳送給此傳送的MT中新增多個可選參數。 這些可選參數被添加到回復的`SUBMIT_SM PDU`中，如[SMPP規範](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)（第131頁）的5.3節所述。
+
+表格中的每一行都代表一個可選參數：
+
+* **參數**:參數說明。未傳送給提供者。
+* **標籤Id**:可選參數的標籤。必須是有效的十六進位，格式為0x1234。 無效的值會導致傳送準備錯誤。
+* **值**:選填欄位的值。當傳送至提供者時，編碼為UTF-8。 編碼格式無法變更，無法傳送二進位值或使用不同的編碼，例如UTF-16或GSM7。
+
+如果任何可選參數的&#x200B;**標籤Id**&#x200B;與外部帳戶中定義的&#x200B;**服務標籤Id**&#x200B;相同，則此表中定義的值將佔上風。
 
 ## SMPP連接器{#ACS-SMPP-connector}
 
@@ -799,7 +821,9 @@ SMS協定將SMS限制在255個部分，但有些手機無法將長消息與10個
 
 檢查您沒有舊的SMS外部帳戶。 如果您停用測試帳戶，您就會面臨在生產系統上重新啟用測試帳戶並產生潛在衝突的風險。
 
-如果您在同一個Adobe Campaign實例上有多個帳戶連線至同一個提供者，請連絡該提供者，以確定他們實際區分這些帳戶之間的連線。 若有多個帳戶具有相同的登入，則需要額外的設定。
+檢查沒有其他實例連接到此帳戶。 尤其是，請確定舞台環境未連線至帳戶。 有些提供者支援此項功能，但需要在Adobe Campaign端和提供者平台上進行非常特定的設定。
+
+如果您需要在連線至相同提供者的相同Adobe Campaign例項上擁有多個帳戶，請連絡提供者，以確定他們實際區分這些帳戶的連線。 若有多個帳戶具有相同的登入，則需要額外的設定。
 
 ### 在檢查{#enable-verbose}期間啟用詳細SMPP跟蹤
 

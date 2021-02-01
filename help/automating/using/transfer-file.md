@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: fileTransfer,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: b3088ed3bbb8828393e28df8f982ed36e7e74590
 workflow-type: tm+mt
-source-wordcount: '1043'
-ht-degree: 99%
+source-wordcount: '1095'
+ht-degree: 92%
 
 ---
 
@@ -135,13 +135,15 @@ Microsoft Azure Blob　通訊協定可讓您存取位於　Microsoft Azure Blob�
 選取是否 **[!UICONTROL Define a file path]** 或 **[!UICONTROL Use a dynamic file path]**
 **[!UICONTROL Use a dynamic file path]**　選項可讓您使用標準運算式和事件變數來個人化要傳輸的檔案名稱。有關詳細資訊，請參見[此頁面](../../automating/using/customizing-workflow-external-parameters.md)。
 
-請注意，路徑必須相對於　Adobe Campaign　伺服器的儲存空間目錄。檔案位於 **sftp&lt;yourinstancename>/** 目錄。您也無法瀏覽儲存空間上方的目錄。例如：
+請注意，路徑必須相對於　Adobe Campaign　伺服器的儲存空間目錄。檔案位於 **sftp&lt;yourinstancename>/** 目錄。您也無法瀏覽儲存空間上方的目錄。
 
-    >**user&amp;lt;yourinstancename>/my_recipients.csv** 是正確的。
-    >
-    >**../hello/my_recipients.csv** 是不正確的。
-    >
-    >**//myserver/hello/myrecipients.csv** 是不正確的。
+例如：
+
+`user&lt;yourinstancename>/my_recipients.csv` 正確。
+
+`../hello/my_recipients.csv` 不正確。
+
+`//myserver/hello/myrecipients.csv` 不正確。
 
 ## 歷史化設定 {#historization-settings}
 
@@ -160,3 +162,16 @@ Microsoft Azure Blob　通訊協定可讓您存取位於　Microsoft Azure Blob�
 >[!NOTE]
 >
 >如果活動未再次執行，則不會檢查或清除其資料夾。考慮到這一點，在傳輸大型檔案時請務必小心。
+
+## 輸出變數{#output-variables}
+
+**[!UICONTROL Transfer file]**&#x200B;活動會產生事件變數作為輸出，您可將其運用在其他活動中，例如使用[Test](../../automating/using/test.md)活動來檢查下載的檔案數。
+
+請注意，事件變數也可使用外部訊號傳遞至另一個工作流程（請參閱使用外部參數自訂工作流程](../../automating/using/customizing-workflow-external-parameters.md)）。[
+
+可用的輸出變數包括：
+
+* **[!UICONTROL fileName]**:已傳送檔案的名稱。
+* **[!UICONTROL filesCount]**:轉換檔案數。
+
+

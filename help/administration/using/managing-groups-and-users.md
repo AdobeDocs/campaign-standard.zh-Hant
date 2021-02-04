@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: users-and-security
 context-tags: user,overview;user,main;security,overview;security,main
 translation-type: tm+mt
-source-git-commit: 0556fec284c5873fbf5025cab15d73adb009ee37
+source-git-commit: ae2b6587d71f0915da05e53bf45c67c7a37a42c8
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 96%
+source-wordcount: '940'
+ht-degree: 88%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 96%
 
 使用者必須始終連結到安全性群組。這可讓您指派他們特定的角色和組織單位。
 
-如需角色的詳細資訊，下頁的表格會依據使用者角色而提供不同作業：[Adobe Campaign Standard 授權](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)。
+有關角色的詳細資訊，下頁中的表格顯示根據用戶角色可用的操作：[Adobe Campaign Standard授權](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)。
 
 預設安全性群組為：
 
@@ -35,9 +35,9 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Access to the deliverability parameters (Deliverability)]**&#x200B;和&#x200B;**[!UICONTROL Message Center agents (mcExec)]**&#x200B;安全組僅為內部組，不應分配給用戶。
+>**[!UICONTROL Access to the deliverability parameters (Deliverability)]**&#x200B;和&#x200B;**[!UICONTROL Message Center agents (mcExec)]**&#x200B;安全性群組僅為Adobe內部群組，不應指派給任何使用者。
 
-如果使用者未連結至任何安全性群組，他將無法存取 Adobe Campaign。
+若要能夠存取Adobe Campaign，必須將每位使用者指派給安全性群組。
 
 若要限制使用者的存取權，請勿將使用者新增至 Campaign Standard 使用者群組，因為此使用者連結至 **[!UICONTROL All]** 組織單位。
 
@@ -146,5 +146,5 @@ Administrator 使用者必須建立一組用於指派組織單位的安全性群
 
 >[!IMPORTANT]
 >
->如果從 Admin Console 的安全性群組中移除使用者，雖然他們仍是 Adobe Campaign 安全性群組的成員，但他們將無法再登入 Adobe Campaign。在此情況下，請在 Admin Console 中移除該使用者的電子郵件地址，以防止他們收到敏感資訊。
+>如果使用者從管理控制台的安全性群組中移除，他們將仍是Adobe Campaign安全性群組的一部分，而且將無法再登入Adobe Campaign。 在此情況下，請在 Admin Console 中移除該使用者的電子郵件地址，以防止他們收到敏感資訊。
 

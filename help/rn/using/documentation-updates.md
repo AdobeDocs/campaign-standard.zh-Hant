@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: a039818cb5d4169ae921df39e9ea9bc9230fceb0
+source-git-commit: b040a5c6948967d053130268329a8ba4879e363b
 workflow-type: tm+mt
-source-wordcount: '6511'
-ht-degree: 98%
+source-wordcount: '6540'
+ht-degree: 96%
 
 ---
 
@@ -37,13 +37,15 @@ Unified Experience Cloud介面- [閱讀更多](../../start/using/interface-descr
 
 已在使用&#x200B;**[!UICONTROL Transfer file]**&#x200B;活動後可用的新&#x200B;**[!UICONTROL filesCount]**&#x200B;輸出變數上新增了資訊。 [顯示全文](../../automating/using/transfer-file.md#output-variables)
 
-**設定電子郵件頻道**&#x200B;區段已更新，以釐清最新適用的電子郵件設定。 本頁底部會列出某些仍在某些客戶使用的舊參數。 [顯示全文](../../administration/using/configuring-email-channel.md)
+**設定電子郵件頻道**&#x200B;區段已更新，以釐清最新適用的電子郵件設定。 某些仍在某些客戶使用的舊參數會列在頁面底部。 [顯示全文](../../administration/using/configuring-email-channel.md)
 
 ## 2020 年 12 月{#doc-updates-december-2020}
 
 **預測性主旨行**&#x200B;功能現已過時。[顯示全文](../../rn/using/deprecated-features.md)
 
-**異動訊息**&#x200B;快速入門區段現在包含[增強型架構](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)及[端對端使用案例](../../channels/using/transactional-messaging-use-case.md)以說明實作程序。[顯示全文](../../channels/using/getting-started-with-transactional-msg.md)
+**事務性消息傳遞**&#x200B;入門部分現在包含[增強的結構描述](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)，以便更好地瞭解該過程。
+
+現在提供一個端到端的使用案例，來說明事務性消息傳遞實施過程。 [顯示全文](../../channels/using/transactional-messaging-use-case.md)
 
 **隱私權**&#x200B;區段已移至[此處](../../start/using/privacy.md)。
 
@@ -57,11 +59,13 @@ SMS 連接器通訊協定及設定頁面已移至[此處](../../administration/u
 
 ## 2020 年11月 {#doc-updates-november-2020}
 
-「個人資料與角色」區段已更新為使用案例情境，以說明不同角色在隱私權方面如何互動。[顯示全文](../../start/using/privacy.md#use-case-scenario)
+**個人資料與角色**&#x200B;區段已更新為使用案例案例，以說明不同角色在隱私權方面如何互動。 [顯示全文](../../start/using/privacy.md#use-case-scenario)
 
 已新增一個區段，其中列出「隱私權」的常見問題集。[顯示全文](../../start/using/privacy-faq.md)
 
-「隱私權」區段已移動並擴充而包含兩個新頁面：[隱私權管理](../../start/using/privacy-management.md)及[管理隱私權要求](../../start/using/privacy-requests.md)。
+**Privacy**&#x200B;區段已移動，並包含兩個新頁面：[隱私權管理](../../start/using/privacy-management.md)和[管理隱私權要求](../../start/using/privacy-requests.md)。
+
+**Transactional messaging**&#x200B;區段已重新整理並收集到一個位置，以改善導覽。 [顯示全文](../../channels/using/getting-started-with-transactional-msg.md)
 
 「Adobe Experience Platform Data Connector」區段中已新增有關隱私權管理相關資料對應驗證錯誤以及如何疑難排解的資訊。[顯示全文](../../developing/using/aep-mapping-activation.md)
 
@@ -87,7 +91,7 @@ Journey AI 整合 - [瞭解詳情](../../sending/using/predictive.md)
 
 ## 2020 年 9 月{#doc-updates-september-2020}
 
-事件異動訊息區段已重新組織並釐清。[顯示全文](../../channels/using/editing-transactional-message.md)
+**事件事務性消息**&#x200B;部分已重新整理和澄清。 [顯示全文](../../channels/using/editing-transactional-message.md)
 
 已新增警告註釋，以警告使用者有關日誌存取權限限制的問題。[顯示全文](../../administration/using/users-management.md)
 
@@ -101,9 +105,9 @@ Journey AI 整合 - [瞭解詳情](../../sending/using/predictive.md)
 
 有關異動訊息快速入門的最新章節已供使用。[顯示全文](../../channels/using/getting-started-with-transactional-msg.md)
 
-**異動訊息限制**&#x200B;章節已移至[此](../../channels/using/transactional-messaging-limitations.md)
+**異動訊息限制**&#x200B;章節已移至[此](../../channels/using/transactional-messaging-limitations.md).
 
-**準備傳送**&#x200B;章節已移至[此](../../sending/using/preparing-the-send.md)
+**準備傳送**&#x200B;章節已移至[此](../../sending/using/preparing-the-send.md).
 
 ## 2020 年 7 月{#doc-updates-july-2020}
 

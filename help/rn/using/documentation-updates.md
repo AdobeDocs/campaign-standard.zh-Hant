@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: b040a5c6948967d053130268329a8ba4879e363b
 workflow-type: tm+mt
 source-wordcount: '6540'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -25,19 +25,19 @@ ht-degree: 96%
 
 電子郵件反饋服務- [閱讀更多](../../sending/using/confirming-the-send.md#email-feedback-service)
 
-Adobe Experience Manager整合改進- [閱讀詳細內容](../../integrating/using/creating-multilingual-email-aem.md)
+Adobe Experience Manager 整合改進 - [瞭解詳情](../../integrating/using/creating-multilingual-email-aem.md)
 
-Unified Experience Cloud介面- [閱讀更多](../../start/using/interface-description.md#top-bar)
+統一 Experience Cloud 介面 - [瞭解詳情](../../start/using/interface-description.md#top-bar)
 
 **此版本隨附的其他文件更新**
 
-已新增有關如何根據電子郵件、名字、姓氏或任何自訂欄位來搜尋描述檔的資訊。 [顯示全文](../../audiences/using/integrated-customer-profile.md)
+已新增有關如何根據電子郵件、名字、姓氏或任何自訂欄位來搜尋設定檔的資訊。[顯示全文](../../audiences/using/integrated-customer-profile.md)
 
-新的GetOption函式已新增資訊，可讓您在使用外部參數呼叫工作流程時傳回指定函式的值。 [顯示全文](../../automating/using/customizing-workflow-external-parameters.md#using-events-variables)
+新的 GetOption 函式已新增資訊，可讓您在使用外部參數呼叫工作流程時傳回指定函式的值。[顯示全文](../../automating/using/customizing-workflow-external-parameters.md#using-events-variables)
 
-已在使用&#x200B;**[!UICONTROL Transfer file]**&#x200B;活動後可用的新&#x200B;**[!UICONTROL filesCount]**&#x200B;輸出變數上新增了資訊。 [顯示全文](../../automating/using/transfer-file.md#output-variables)
+已在使用&#x200B;**[!UICONTROL Transfer file]**&#x200B;活動後可用的新&#x200B;**[!UICONTROL filesCount]**&#x200B;輸出變數上新增了資訊。[顯示全文](../../automating/using/transfer-file.md#output-variables)
 
-**設定電子郵件頻道**&#x200B;區段已更新，以釐清最新適用的電子郵件設定。 某些仍在某些客戶使用的舊參數會列在頁面底部。 [顯示全文](../../administration/using/configuring-email-channel.md)
+**設定電子郵件通道**&#x200B;區段已更新，以釐清最新適用的電子郵件設定。某些仍在某些客戶使用的舊參數會列在頁面底部。 [顯示全文](../../administration/using/configuring-email-channel.md)
 
 ## 2020 年 12 月{#doc-updates-december-2020}
 
@@ -147,7 +147,7 @@ Campaign Standard 概觀頁面已擴充並重新組織為主題式主題。[瞭�
 
 **發行中包含的新功能**
 
-泰國個人資料保護法案 (PDPA) – [瞭解詳情](https://helpx.adobe.com/content/help/tw/campaign/kb/acs-privacy.html)
+泰國個人資料保護法案 (PDPA) – [瞭解詳情](https://helpx.adobe.com/tw/campaign/kb/acs-privacy.html)
 
 External API 活動 (GA) – [瞭解詳情](../../automating/using/external-api.md)
 
@@ -305,7 +305,7 @@ API 文件集已整合至 Campaign Standard 文件。[瞭解詳情](../../api/us
 
 **發行中包含的新功能**
 
-加州消費者隱私法 (CCPA) – [瞭解詳情](https://helpx.adobe.com/content/help/tw/campaign/kb/acs-privacy.html#ccpa)
+加州消費者隱私法 (CCPA) – [瞭解詳情](https://helpx.adobe.com/tw/campaign/kb/acs-privacy.html#ccpa)
 
 Microsoft Dynamics 365 整合 (GA) – [瞭解詳情](../../integrating/using/d365-acs-get-started.md)
 
@@ -637,7 +637,7 @@ API 檔案已更新，其中包含 **History** API 的資訊。已新增使用�
 
 **發行中包含的新功能**
 
-GDPR：核心服務整合 – [瞭解詳情](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)
+GDPR：核心服務整合 – [瞭解詳情](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=zh-Hant)
 
 推播改良功能 – 詳細的傳送回饋 – [瞭解詳情](../../channels/using/preparing-and-sending-a-push-notification.md#sending-the-notification)
 
@@ -711,7 +711,7 @@ GDPR API 會重新分組可自動處理 GDPR 要求的功能。[瞭解詳情](..
 
 Campaign 和 Adobe 解決方案整合的大多數 URL 已變更！檢查您的書籤！[瞭解詳情](../../integrating/using/get-started-campaign-integrations.md)
 
-datamodel v1 現在可用於內建資源的 SQL 結構 – [瞭解詳情](https://docs.campaign.adobe.com/doc/standard/en/datamodel/datamodel.html)
+datamodel v1 現在可用於內建資源的 SQL 結構 – [瞭解詳情](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/datamodel/datamodel-audience.html?lang=zh-Hant)
 
 已新增有關如何在傳送中準備訊息的資訊[瞭解詳情](../../sending/using/preparing-the-send.md)
 
@@ -839,7 +839,7 @@ SMS 檔案已更新，[SMS 自動回覆](../../channels/using/managing-incoming-
 
 [傳送警報](../../sending/using/receiving-alerts-when-failures-happen.md#delivery-alerting-reasons)文件已更新，其中包含疑難排解區段，提供您在收到警報時可採取的一些動作提示。
 
-有新的快速入門手冊可供使用：它提供一些最佳實務，可用於透過 Adobe Campaign 傳遞，從建立和定位到傳送和監控。[瞭解詳情](https://helpx.adobe.com/tw/campaign/kb/delivery-best-practices.html)
+有新的快速入門手冊可供使用：它提供一些最佳實務，可用於透過 Adobe Campaign 傳遞，從建立和定位到傳送和監控。[瞭解詳情](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/delivery-best-practices.html?lang=zh-Hant)
 
 後續訊息檔案已更新，並改良使用案例。[瞭解詳情](../../channels/using/follow-up-messages.md#sending-a-follow-up-message)
 

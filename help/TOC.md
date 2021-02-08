@@ -4,13 +4,13 @@ product: campaign
 audience: end-user
 user-guide-title: Campaign Standard
 user-guide-description: '說明中心，以瞭解使用 Campaign Standard 所需的主要功能、工作、設定和其他資源。 '
-breadcrumb-title: 促銷活動標準
+breadcrumb-title: Campaign Standard
 title: Campaign Standard 指南
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 36efc64f9be3863e5e16381aaba445d2f13eac4d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1755'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -237,7 +237,7 @@ ht-degree: 95%
       + [設定 Campaign-Experience Manager 整合](integrating/using/configure-experience-manager.md)
       + [在 Adobe Experience Manager 中建立電子郵件內容](integrating/using/creating-email-experience-manager.md)
       + [在 Experience Manager 中建立 Campaign 表單](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
-      + [使用Adobe Experience Manager整合建立多語言電子郵件](integrating/using/creating-multilingual-email-aem.md)
+      + [使用 Adobe Experience Manager 整合建立多語言電子郵件](integrating/using/creating-multilingual-email-aem.md)
    + Campaign 與 Target {#working-with-campaign-and-target}
       + [關於 Campaign-Target 整合](integrating/using/about-campaign-target-integration.md)
       + [設定 Campaign-Target 整合](integrating/using/configuring-the-campaign-target-integration.md)
@@ -263,16 +263,16 @@ ht-degree: 95%
       + [測試您的觸發程式](integrating/using/testing-your-triggers.md)
       + [廢棄觸發程式使用案例](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign 和 Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-      + [開始使用Microsoft Dynamics 365整合](integrating/using/d365-acs-get-started.md)
+      + [開始使用 Microsoft Dynamics 365 整合](integrating/using/d365-acs-get-started.md)
       + [最佳實務和限制](integrating/using/d365-acs-notices-and-recommendations.md)
-      + [配置Microsoft Dynamics 365](integrating/using/d365-acs-configure-d365.md)
-      + [設定Campaign和Adobe I/O](integrating/using/d365-acs-configure-adobe-io.md)
+      + [設定 Microsoft Dynamics 365](integrating/using/d365-acs-configure-d365.md)
+      + [設定 Campaign 和 Adobe I/O](integrating/using/d365-acs-configure-adobe-io.md)
       + 設定整合應用程式{#configure-integration-tool}
          + [開始使用整合應用程式](integrating/using/d365-acs-self-service-app-quick-start-guide.md)
          + [存取整合應用程式](integrating/using/d365-acs-self-service-app-control-access.md)
          + [將系統與整合應用程式連接](integrating/using/d365-acs-self-service-app-settings.md)
          + [管理同步工作流程](integrating/using/d365-acs-self-service-app-workflows.md)
-         + [在Microsoft Dynamics 365和Campaign之間映射資料](integrating/using/d365-acs-self-service-app-data-sync.md)
+         + [在 Microsoft Dynamics 365 和 Campaign 之間對應資料](integrating/using/d365-acs-self-service-app-data-sync.md)
       + [使用 Microsoft Dynamics 365 整合](integrating/using/d365-acs-using-the-integration.md)
 + 管理流程和資料 {#managing-processes-and-data}
    + [開始使用資料和流程管理](automating/using/get-started-workflows.md)
@@ -451,7 +451,7 @@ ht-degree: 95%
       + [Experience Platform SDK 整合常見問答集](administration/using/aep-faq.md)
       + [設定啟動規則以支援Adobe Campaign Standard 使用案例](administration/using/configuring-rules-launch.md)
       + [Adobe Campaign Standard　支援的行動使用案例](administration/using/supported-mobile-use-cases.md)
-      + [如何將您的行動應用程式從SDK v4移轉至Adobe Experience Platform SDK](administration/using/sdkv4-migration.md)
+      + [如何將您的行動應用程式從 SDK v4 移轉至 Adobe Experience Platform SDK](administration/using/sdkv4-migration.md)
    + 設定 SMS 通道 {#configuring-sms}
       + [實作 SMS 通道](administration/using/configuring-sms-channel.md)
       + [SMS 連接器通訊協定及設定](administration/using/sms-protocol.md)

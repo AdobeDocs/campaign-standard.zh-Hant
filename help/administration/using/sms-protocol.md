@@ -7,9 +7,9 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 4b87ebc2585b87f918bbd688c5858394d8d4a742
+source-git-commit: 160eb4f23d9d683695457c1a1f35be1c300b7793
 workflow-type: tm+mt
-source-wordcount: '8666'
+source-wordcount: '8665'
 ht-degree: 0%
 
 ---
@@ -478,7 +478,7 @@ Adobe Campaign Standard的連線總數公式：
 
 * 如果未提供原始碼，預覽會顯示簡碼。 它將反映手機上的真實行為。
 
-* 自動回復功能的塊清單設定僅發送給隔離用戶特定短代碼。
+* 自動回覆功能的denylist設定只會傳送來隔離使用者特定簡短代碼。
 
 #### 來源噸/NPI，目的地噸/NPI {#ton-npi}
 
@@ -704,7 +704,7 @@ regex中未包含足夠的上下文，可能會造成小的安全性缺陷：消
 
 ### 自動回覆傳送至 MO {#automatic-reply}
 
-此功能可讓您快速回覆文字至MO，並處理傳送至區塊清單的簡短程式碼。
+此功能可讓您快速回覆文字給MO，並處理傳送至Denylist的簡短程式碼。
 
 **關鍵字**&#x200B;和&#x200B;**簡碼**&#x200B;欄定義條件以觸發自動回覆。 如果兩個欄位都相符，則會傳送MO並觸發其他動作。 若要指定萬用字元，您應將欄位留空。 關鍵字會比對MO文字中第一個英數字詞，忽略標點符號和前導空格。 這表示&#x200B;**Keyword**&#x200B;欄位不能包含空格，且必須是單一字詞。
 

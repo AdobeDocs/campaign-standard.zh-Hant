@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 41f2280c72a2f6bee3e4e972fab17a7ac94b966c
+source-git-commit: 46d864de0ffd5dce718a2a2c055c3194e45fcdd2
 workflow-type: tm+mt
 source-wordcount: '2610'
 ht-degree: 99%
@@ -38,7 +38,7 @@ ht-degree: 99%
 <li><b>傳遞的</b>指標的計算現在基於來自增強型 MTA 的即時回饋，以改進精確度和反應性。</li>
 <li>EFS 可解決同步軟退信的延遲問題。</li>
 </ul>
-<p>如需詳細資訊，請參閱<a href="../../sending/using/confirming-the-send.md#email-feedback-service">詳細文件</a>。
+<p>如需詳細資訊，請參閱<a href="../../sending/using/confirming-the-send.md#message-indicators">詳細文件</a>。
 </p>
 </td> 
 </tr> 

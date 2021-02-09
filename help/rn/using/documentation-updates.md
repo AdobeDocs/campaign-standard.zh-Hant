@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: b040a5c6948967d053130268329a8ba4879e363b
+source-git-commit: 87c43d3f97747da03e66634d7236d30a3ec733dc
 workflow-type: tm+mt
 source-wordcount: '6540'
 ht-degree: 98%
@@ -23,7 +23,7 @@ ht-degree: 98%
 
 **發行中包含的新功能**
 
-電子郵件反饋服務- [閱讀更多](../../sending/using/confirming-the-send.md#email-feedback-service)
+電子郵件反饋服務- [閱讀更多](../../sending/using/confirming-the-send.md#message-indicators)
 
 Adobe Experience Manager 整合改進 - [瞭解詳情](../../integrating/using/creating-multilingual-email-aem.md)
 

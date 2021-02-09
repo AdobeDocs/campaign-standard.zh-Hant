@@ -7,7 +7,7 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 translation-type: tm+mt
-source-git-commit: 05b6a9caebdd65f20357070af8bd44cb8ba146c7
+source-git-commit: 3a87f15ee7e934c39224cd7f64aafb80d73b433b
 workflow-type: tm+mt
 source-wordcount: '813'
 ht-degree: 1%
@@ -63,7 +63,7 @@ $(vars/@parameterName)
    | DateFormat | 使用第2個參數中指定的格式來格式化日期(範例： &#39;%4Y%2M%2D&#39;) | DateFormat(&lt;Date>,&lt;Format>) |
    | 檔案名稱 | 返回檔案路徑的名稱。 | FileName(&lt;String>) |
    | FileExt | 傳回檔案路徑的副檔名。 | FileExt(&lt;String>) |
-   | GetOption | 傳回指定函式的值。 | GetOption(&lt;optionName> |
+   | GetOption | 傳回指定函式的值。 | GetOption(&lt;optionName>) |
    | IsNull | 指出字串或日期是否為空值。 | IsNull(&lt;String/date>) |
    | UrlUtf8Encode | 以UTF8編碼URL。 | UrlUtf8Encode(&lt;String>) |
 

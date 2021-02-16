@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 87c43d3f97747da03e66634d7236d30a3ec733dc
+source-git-commit: ea0755d22b34c4c961fd8715ecf4551ffcdcb58e
 workflow-type: tm+mt
-source-wordcount: '6540'
-ht-degree: 98%
+source-wordcount: '6571'
+ht-degree: 97%
 
 ---
 
@@ -18,6 +18,10 @@ ht-degree: 98%
 # 文件更新{#documentation-updates}
 
 除了 Adobe Campaign [發行版本](../../rn/using/release-notes.md)以外，本頁還列出 Adobe Campaign Standard 檔案中的所有新更新。
+
+## 2021 年 2 月 {#doc-updates-february-2021}
+
+已新增相關資訊，瞭解如何確保在先前執行的一或多個工作仍待執行之前，不會重新排程工作流程。 [顯示全文](../../automating/using/scheduled-workflows-execution.md)
 
 ## 版本 21.1 – 2021 年 2 月 {#release-21-1---february-2021}
 

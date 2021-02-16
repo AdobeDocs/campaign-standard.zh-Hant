@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: schedule,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 9b76f02b03ba1180f852b446f0dbbae26a27d4bd
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 97%
+source-wordcount: '614'
+ht-degree: 89%
 
 ---
 
@@ -33,6 +33,8 @@ ht-degree: 97%
 >[!CAUTION]
 >
 >**[!UICONTROL Repetition frequency]** 活動的時間不能少於　10　分鐘。這表示工作流程無法每　10　分鐘自動執行多次。
+
+在設計包含多個活動的計畫工作流時，您需要確保在工作流完成之前不會重新計畫該工作流。 若要這麼做，您必須設定您的工作流程，以便在先前執行的一或多個工作仍待定時，防止其執行。 有關詳細資訊，請參見[此頁面](../../automating/using/scheduled-workflows-execution.md)。
 
 **相關主題：**
 

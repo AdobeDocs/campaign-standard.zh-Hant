@@ -22,12 +22,12 @@ ht-degree: 5%
 
 1. 您可以透過輕鬆新增結構和內容元件並個人化其內容，以快速傳送，從空白畫布&#x200B;**建立電子郵件。**&#x200B;您也可以完全管理樣式元素。 如需詳細資訊，請快速入門[或參閱[完整檔案](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)。](#from-scratch-email)
 
-1. 您可以從&#x200B;**的現成範本**&#x200B;中，選取範本並從此處建立新的電子郵件內容，以建立電子郵件。 [進一步瞭解](#building-content-from-an-out-of-the-box-template)
+1. 您可以從&#x200B;**的現成範本**&#x200B;中，選取範本並從此處建立新的電子郵件內容，以建立電子郵件。 [進一步了解](#building-content-from-an-out-of-the-box-template)
 
 您也可以建立電子郵件[，內含現有內容](#with-existing-content):
 
-1. 您可以&#x200B;**轉換現有的HTML內容**（在外部或舊版編輯器中建立）。 [進一步瞭解](#converting-an-html-content)
-1. 您可以在相容性模式下，直接匯入現有的HTML內容&#x200B;**。**[進一步瞭解](#compatibility-mode)
+1. 您可以&#x200B;**轉換現有的HTML內容**（在外部或舊版編輯器中建立）。 [進一步了解](#converting-an-html-content)
+1. 您可以在相容性模式下，直接匯入現有的HTML內容&#x200B;**。**[進一步了解](#compatibility-mode)
 
 | 無內容 | 使用內容 |
 |---|---|
@@ -38,7 +38,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->在這兩種建立策略中，在傳送電子郵件之前先填妥主題行是十分重要的。 瞭解如何[新增主旨行](#add-a-subject-line)。
+>在這兩個建立策略中，在傳送電子郵件之前先填妥主題行至關重要。 瞭解如何[新增主旨行](#add-a-subject-line)。
 
 ### 從頭開始建立電子郵件{#from-scratch-email}
 

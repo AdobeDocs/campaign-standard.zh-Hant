@@ -17,7 +17,7 @@ ht-degree: 8%
 
 # 發行說明 2019 年{#release-notes-2019}
 
-[Release Planning ](https://helpx.adobe.com/tw/campaign/kb/acs-release-planning.html) Control Plenases [| Documentation Updates](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/release-notes.html) | Latest Notes [| Release](../../rn/using/documentation-updates.md)  [](../../rn/using/release-notes.md)  [| Deprecated Features](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=zh-Hant#release-notes)
+[Release Planning ](https://helpx.adobe.com/tw/campaign/kb/acs-release-planning.html) Control Planning Releases [| Documentation Updates](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/release-notes.html) | Latest Notes [](../../rn/using/documentation-updates.md) | Release [](../../rn/using/release-notes.md)  [| Deprecated Features](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=zh-Hant#release-notes)
 
 ## 版本19.4 - 2019年12月{#release-19-4---october-2019}
 
@@ -34,9 +34,9 @@ ht-degree: 8%
    <td> <p>CCPA是加州新推出的隱私法，協調並現代化2020年1月1日生效的資料保護要求。 CCPA適用於持有居住在加州之資料主體資料的Adobe Campaign客戶。</p>
    <p>除了Adobe Campaign中已提供的隱私權功能（包括同意管理、資料保留設定和使用者角色）外，我們還將利用這個機會加入其他功能，以協助您做好CCPA的準備：</p>
    <ul>
-    <li>存取權與刪除權：我們運用了為GDPR新增的功能。 <a href="https://helpx.adobe.com/content/help/tw/campaign/kb/acs-privacy.html#righttoaccess">進一步瞭解</a> </li>
+    <li>存取權與刪除權：我們運用了為GDPR新增的功能。 <a href="https://helpx.adobe.com/content/help/tw/campaign/kb/acs-privacy.html#righttoaccess">進一步了解</a> </li>
     <li><p>在建立隱私權要求時，隱私權核心服務中已新增規則類型（GDPR或CCPA）。 此方法是您應該用於所有存取和刪除請求的方法。不建議使用促銷活動 API 和介面來存取和刪除請求。請參閱「<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">已過時和已移除的功能</a>」文章。</p></li>
-    <li>「設定檔」資源已新增<strong>CCPA選擇退出</strong>欄位，讓Adobe Campaign使用者追蹤消費者是否選擇退出個人資訊銷售。 <a href="https://helpx.adobe.com/content/help/tw/campaign/kb/acs-privacy.html#ccpa">進一步瞭解</a>。</li>
+    <li>「設定檔」資源已新增<strong>CCPA選擇退出</strong>欄位，讓Adobe Campaign使用者追蹤消費者是否選擇退出個人資訊銷售。 <a href="https://helpx.adobe.com/tw/campaign/kb/acs-privacy.html#ccpa">進一步瞭解</a>。</li>
   </ul>
     <p>請參閱<a href="https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/privacy/privacy-overview.translate.html">作法影片</a>。</p>
 </td> 
@@ -68,7 +68,7 @@ ht-degree: 8%
 * 在動態報表中新增了新的&#x200B;**排除proof**&#x200B;區段。 現在預設會選取此區段來篩選報表。 [顯示全文](../../reporting/using/list-of-components-.md#segments)
 * 推播通知已新增&#x200B;**訊息過期**&#x200B;選項。 它可讓您指定訊息不再由Apple(APNS)或Android(FCM)傳送的到期日。 [顯示全文](../../channels/using/customizing-a-push-notification.md#add-expiration-date)
 * 已對&#x200B;**Load file**&#x200B;活動進行了改進：工作流程記錄檔已更清楚、更詳細地說明在無法載入檔案時發生的錯誤。 激活&#x200B;**Keep the rejects in a file**&#x200B;選項時生成的出站過渡已更名為&#x200B;**Rejects**。 [顯示全文](../../automating/using/load-file.md)
-* 已將多語言相關記錄檔新增至傳送記錄檔，以更清楚瞭解因已上傳CSV檔案中缺少語言而造成的傳送失敗。
+* 已將多語言相關記錄檔新增至傳送記錄檔，以更清楚瞭解因已上傳CSV檔案中遺漏語言而造成的傳送失敗。
 
 **安全性增強功能**
 
@@ -135,7 +135,7 @@ ht-degree: 8%
 * 修正建立&#x200B;**分段**&#x200B;活動時的轉場問題。 (CAMP-35033)
 * 修正&#x200B;**Query**&#x200B;活動中，**encryption_aescbcDecrypt**&#x200B;函式無法解密&#x200B;**encryption_aescbcEncrypt**&#x200B;函式的問題。 (CAMP-34952)
 * 修正無法在傳送中顯示&#x200B;**追蹤記錄**&#x200B;的問題。 (CAMP-34855)
-* 修正使用&#x200B;**傳送時間最佳化**&#x200B;自訂日期公式時，可能會因為工作流程的其他資料發生錯誤而無法傳送推播通知的問題。 (CAMP-30336)
+* 修正使用&#x200B;**傳送時間最佳化**&#x200B;自訂日期公式時，可能會因工作流程的其他資料發生錯誤而無法傳送推播通知的問題。 (CAMP-30336)
 * 修正無法發佈自訂資源的問題。 (CAMP-37425)
 * 修正管理員使用者無法修改匯入封裝的問題。  (CAMP-37176)
 * 修正當傳送活動連結至空的&#x200B;**讀取對象**&#x200B;活動時，工作流無法傳送校樣的問題。 (CAMP-37164)
@@ -339,7 +339,7 @@ ht-degree: 8%
 * 修正在Outlook中開啟時，使用「電子郵件設計器」建立的電子郵件內容無法回應的問題。 (CAMP-31400)
 * 修正動態內容在電子郵件主旨中使用時無法正常運作的問題。 (CAMP-32837)
 * 修正與未正確逸出的電子郵件主旨相關的問題。
-* 修正無法將片段載入「電子郵件設計器」左側浮動視窗的問題。
+* 修正無法將片段載入「電子郵件設計器」左側浮動視窗中的問題。
 * 修正重新整理片段清單時，電子郵件內容版本期間建立的片段無法顯示在「電子郵件設計器」左側浮動視窗中的問題。
 * 已修正在電子郵件中使用動態內容時發生的數個問題。
 * 修正嘗試使用RGB值定義顏色時，檢色器發生的問題。
@@ -437,7 +437,7 @@ ht-degree: 8%
    <td> <p>已新增下列工作流程功能：</p> 
     <ul> 
      <li> 您現在可以從同一個促銷活動例項，複製或貼上工作流程或其他工作流程中的活動。 如此，您就可輕鬆複製整個工作流程或特定活動，並保留最初定義的設定。 如需詳細資訊，請參閱<a href="../../automating/using/workflow-interface.md#duplicating-workflow-activities">相關的文件</a>，以瞭解詳情。(CAMP-20014) </li> 
-     <li> 使用<strong>載入檔案</strong>活動時，您現在可以在包含已拒絕記錄的檔案名稱中新增時間戳記。 如需詳細資訊，請參閱<a href="../../automating/using/load-file.md#configuration">相關的文件</a>，以瞭解詳情。 </li> 
+     <li> 使用<strong>載入檔案</strong>活動時，您現在可以在包含拒絕記錄的檔案名稱中新增時間戳記。 如需詳細資訊，請參閱<a href="../../automating/using/load-file.md#configuration">相關的文件</a>，以瞭解詳情。 </li> 
      <li> <strong>「查</strong> 詢」和「 <strong></strong> 區段」活動現在可讓您在活動未擷取任何資料時啟用傳出轉場。 </li> 
     </ul> </td> 
   </tr> 

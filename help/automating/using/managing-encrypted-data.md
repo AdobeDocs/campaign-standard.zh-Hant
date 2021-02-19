@@ -49,7 +49,7 @@ ht-degree: 5%
 
 執行此使用案例的步驟如下：
 
-1. 使用「控制面板」產生金鑰對（公開／私用）。 [控制面板文檔](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data)中提供了詳細步驟。
+1. 使用「控制面板」產生金鑰對（公開／私用）。 有關詳細步驟，請參閱[控制面板文檔](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data)。
 
    * 公開金鑰將會與外部系統共用，外部系統會使用它來加密要傳送至Campaign的資料。
    * Campaign將使用私密金鑰解密傳入的加密資料。
@@ -93,7 +93,7 @@ ht-degree: 5%
 
 執行此使用案例的步驟如下：
 
-1. 使用GPG公用程式產生GPG金鑰對（公用／私用），然後將公用金鑰安裝至「控制面板」。 [控制面板文檔](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data)中提供了詳細步驟。
+1. 使用GPG公用程式產生GPG金鑰對（公用／私用），然後將公用金鑰安裝至「控制面板」。 有關詳細步驟，請參閱[控制面板文檔](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data)。
 
    ![](assets/gpg_install.png)
 
@@ -117,7 +117,7 @@ ht-degree: 5%
    >
    >括弧中的值是使用GPG加密工具生成密鑰對時定義的&#x200B;**注釋**。 請確定您選擇了正確的相符金鑰，否則收件者將無法解密檔案。
 
-1. 開啟&#x200B;**[!UICONTROL Transfer file]**&#x200B;活動，然後指定您要傳送檔案的SFTP伺服器。 有關如何配置活動的全局概念，請參閱[本節](../../automating/using/transfer-file.md)。
+1. 開啟&#x200B;**[!UICONTROL Transfer file]**&#x200B;活動，然後指定您要傳送檔案的SFTP伺服器。 有關如何配置活動的全局概念可在[本節](../../automating/using/transfer-file.md)中獲得。
 
    ![](assets/gpg-transfer-encrypt.png)
 

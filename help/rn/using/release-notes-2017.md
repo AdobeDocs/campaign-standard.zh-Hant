@@ -200,7 +200,7 @@ _設定檔與閱聽眾_
   </tr> 
   <tr> 
    <td> 資料來源中的加密宣告ID<br /> </td> 
-   <td> 使用加密的連絡資訊（電子郵件地址或電話號碼）做為宣告的ID，傳送電子郵件和簡訊觸發器，而不需要Campaign中的現有設定檔。 由於Encrypted Declared ID可由Adobe Campaign Standard解碼，所以當Campaign從包含先前未知聯絡人的其他Experience Cloud解決方案接收受眾時，現在可以建立新的可銷售個人檔案。<br /> 透過電子郵件和簡訊即時鎖定客戶和未知潛在客戶，以分別提高現有客戶群的忠誠度並贏得新客戶。潛在客戶在Adobe Campaign中驗證並運用這些見解後，就可充份運用您的第一方Cookie資料（來自Adobe Audience Manager*）。 <br /> *需要Adobe Audience Manager。如需詳細資訊，請參閱<a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">相關的文件</a>，以瞭解詳情。<br /> </td> 
+   <td> 使用加密的連絡資訊（電子郵件地址或電話號碼）做為宣告的ID，傳送電子郵件和簡訊觸發器，而不需在Campaign中使用現有的設定檔。 由於Encrypted Declared ID可由Adobe Campaign Standard解碼，所以當Campaign從包含先前未知聯絡人的其他Experience Cloud解決方案接收受眾時，現在可以建立新的可銷售個人檔案。<br /> 透過電子郵件和簡訊即時鎖定客戶和未知潛在客戶，以分別提高現有客戶群的忠誠度並贏得新客戶。潛在客戶在Adobe Campaign中驗證並運用這些見解後，就可充份運用您的第一方Cookie資料（來自Adobe Audience Manager*）。 <br /> *需要Adobe Audience Manager。如需詳細資訊，請參閱<a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">相關的文件</a>，以瞭解詳情。<br /> </td> 
   </tr> 
   <tr> 
    <td> 從促銷活動到Analytics的KPI共用<br /> </td> 

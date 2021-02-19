@@ -37,5 +37,5 @@ ht-degree: 3%
 * **按一下**:內容在傳送中被點按的次數。
 * **取消訂閱**:訂閱連結的點按次數。
 * **鏡像頁**:鏡像頁連結上的點擊次數。
-* **On denylist**:宣告電子郵件為垃圾訊息或垃圾訊息的收件者人數。[進一步瞭解](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* **On denylist**:宣告電子郵件為垃圾訊息或垃圾訊息的收件者人數。[進一步了解](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 

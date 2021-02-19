@@ -45,7 +45,7 @@ ht-degree: 5%
 
    ![](assets/tar_additional_decisionning_parameters.png)
 
-1. 預覽您的電子郵件，以查看選取不同的描述檔時，影像插入的變更是否取決於在Adobe Target活動和Adobe Campaign中指定的參數。
+1. 預覽您的電子郵件，以查看在選取不同的描述檔時，影像插入的變更是否取決於Adobe Target活動和Adobe Campaign中指定的參數。
 
 現在可以傳送包含動態影像的傳送內容。 其結果可在Adobe Target中找到。
 

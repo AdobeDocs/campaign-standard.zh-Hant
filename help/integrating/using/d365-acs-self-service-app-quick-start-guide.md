@@ -113,7 +113,7 @@ Adobe Campaign Standard與Microsoft Dynamics 365自助服務整合應用程式�
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-ingress-play-pointer.png)
 
-在執行後，您應該可以在Microsoft Dynamics 365中新增或修改項目，並在幾分鐘內觀察Adobe Campaign中的這些變更，以進行測試。 如果您需要隨時停止此程式，只需按相同的按鈕即可停止。 [進一步瞭解](../../integrating/using/d365-acs-self-service-app-workflows.md#workflow-status)
+在執行後，您應該可以在Microsoft Dynamics 365中新增或修改項目，並在幾分鐘內觀察Adobe Campaign中的這些變更，以進行測試。 如果您需要隨時停止此程式，只需按相同的按鈕即可停止。 [進一步了解](../../integrating/using/d365-acs-self-service-app-workflows.md#workflow-status)
 
 
 ## 整合應用程式工作區{#self-service-app-workspace}

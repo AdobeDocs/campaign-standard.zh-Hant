@@ -59,7 +59,7 @@ ht-degree: 7%
 
 ### 鏡像頁
 
-一律包含鏡像頁面連結。 首選位置是電子郵件的頂端。 [進一步瞭解](../../designing/using/personalization.md#adding-a-content-block)
+一律包含鏡像頁面連結。 首選位置是電子郵件的頂端。 [進一步了解](../../designing/using/personalization.md#adding-a-content-block)
 
 ### 取消訂閱連結
 
@@ -136,4 +136,4 @@ ht-degree: 7%
 
 Adobe建議預覽您的訊息，以檢查其個人化，以及收件者如何看到您的傳送。
 
-在「電子郵件設計器」中，**[!UICONTROL Preview]**&#x200B;按鈕可讓您檢視收件者的每個內容的轉換。 個性化欄位和內容的條件元素被所選配置檔案的相應資訊替換。 [進一步瞭解](../../sending/using/previewing-messages.md)
+在「電子郵件設計器」中，**[!UICONTROL Preview]**&#x200B;按鈕可讓您檢視收件者的每個內容的轉換。 個性化欄位和內容的條件元素被所選配置檔案的相應資訊替換。 [進一步了解](../../sending/using/previewing-messages.md)

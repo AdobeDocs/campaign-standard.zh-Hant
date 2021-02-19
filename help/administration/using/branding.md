@@ -28,7 +28,7 @@ ht-degree: 80%
 
 設定與使用品牌的主要原則為：
 
-1. 建立與設定品牌操作需要特定權限，並由 Adobe Campaign 技術管理員執行。在促銷活動中取得新品牌的步驟在本節[中詳細說明。](#creating-a-brand)
+1. 建立與設定品牌操作需要特定權限，並由 Adobe Campaign 技術管理員執行。在促銷活動中取得新品牌的步驟在本節](#creating-a-brand)中詳細說明。[
 1. 為此品牌建立一或多個傳遞與登錄頁面範本。請參閱[建立範本](../../start/using/marketing-activity-templates.md)區段。
 1. 根據此範本建立訊息與登錄頁面。請參閱[建立電子郵件](../../channels/using/creating-an-email.md)及[建立登錄頁面](../../channels/using/designing-a-landing-page.md)區段。
 
@@ -103,7 +103,7 @@ ht-degree: 80%
 
 1. **建立傳送範本** -新品牌推出後，最佳實務是建立至少一個參考此新品牌的新空白傳送範本。[進一步瞭解](#linking-a-brand-to-a-template)。
 
-1. **檢查傳遞性准則** -開始使用新網域之前，應先與Adobe Deliverability團隊討論該策略。例如，如果應建立新的相似性以在網域之間分割IP，以及／或應定義加速計畫，這些特性將有助於定義最佳實務。 在本節](../../sending/using/about-deliverability.md)中，進一步瞭解傳遞能力最佳實踐[。
+1. **檢查傳遞性准則** -開始使用新網域之前，應先與Adobe Deliverability團隊討論該策略。例如，如果應建立新的相似性以在網域之間分割IP，以及／或應定義加速計畫，這些特性有助於定義最佳實務。 在本節](../../sending/using/about-deliverability.md)中，進一步瞭解傳遞能力最佳實踐[。
 
 ## 為電子郵件指派品牌 {#assigning-a-brand-to-an-email}
 

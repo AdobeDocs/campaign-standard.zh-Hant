@@ -69,7 +69,7 @@ ht-degree: 38%
 1. 輸入sms屬性，然後按一下&#x200B;**[!UICONTROL Next]**。
 1. 若要建立sms的版面，請按一下&#x200B;**[!UICONTROL Email Designer]**。
 1. 插入元素或選取現有範本。
-1. 使用各個位置專屬的優惠，個人化您的簡訊。
+1. 利用每個位置專屬的優惠，個人化您的簡訊。
 有關詳細資訊，請參閱[設計sms](../../channels/using/creating-an-sms-message.md)部分。
 1. 按一下 **[!UICONTROL Preview]** 以檢查版面。
 1. 按一下 **[!UICONTROL Save]**。

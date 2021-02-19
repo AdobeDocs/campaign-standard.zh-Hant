@@ -47,7 +47,7 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
  <tbody> 
   <tr> 
    <td> <p> 自2020年12月15日起，預測性主旨行功能已過時。</p><br/>
-   <p>我們建議您利用人工智慧的電子郵件功能，根據歷史參與度量來分析和預測開放率、最佳傳送時間以及可能的流失率。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html">進一步瞭解</a></p></br>
+   <p>我們建議您利用人工智慧的電子郵件功能，根據歷史參與度量來分析和預測開放率、最佳傳送時間以及可能的流失率。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html">進一步了解</a></p></br>
      <p>
      <em>目標移除：2021年4月</em></p>
      </td> 

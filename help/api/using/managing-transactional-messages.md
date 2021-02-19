@@ -27,7 +27,7 @@ ht-degree: 3%
 
 例如，您希望當客戶在購物車中購買產品之前離開您的網站時，觸發「購物車放棄」事件。 若要這麼做，您的網頁開發人員必須使用REST交易訊息API。
 
-1. 開發人員根據POST方法發送請求，該方法觸發事務事件[的發送。](#sending-a-transactional-event)
+1. 開發人員根據POST方法發送請求，該方法觸發事務事件](#sending-a-transactional-event)的發送。[
 1. 對POST要求的回應包含主要金鑰，可讓開發人員透過GET要求傳送一或多個要求。 這樣，他能夠獲得[事件狀態](#transactional-event-status)。
 
 ## 傳送事務性事件{#sending-a-transactional-event}

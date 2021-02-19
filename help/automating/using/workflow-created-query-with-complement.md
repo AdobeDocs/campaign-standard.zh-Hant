@@ -39,7 +39,7 @@ ht-degree: 41%
 1. 在&#x200B;**[!UICONTROL Activities]** > **[!UICONTROL Targeting]**&#x200B;中，拖放[ Segmentation](../../automating/using/segmentation.md)活動，然後按兩下它。
 1. 將滑鼠指標暫留在區段上，然後按一下![](assets/edit_darkgrey-24px.png)，以定位今年在資料庫中新增的客戶。
 1. 拖放&#x200B;**[!UICONTROL Profiles]**&#x200B;並選擇&#x200B;**[!UICONTROL Created]**&#x200B;和&#x200B;**[!UICONTROL Relative]**&#x200B;過濾器類型。
-1. 將&#x200B;**[!UICONTROL Level of precision]**&#x200B;更改為&#x200B;**[!UICONTROL Year]**&#x200B;並選擇&#x200B;**[!UICONTROL This year]**。
+1. 將&#x200B;**[!UICONTROL Level of precision]**&#x200B;變更為&#x200B;**[!UICONTROL Year]**&#x200B;並選取&#x200B;**[!UICONTROL This year]**。
 1. 按兩下 **[!UICONTROL Confirm]**。
 1. 在&#x200B;**[!UICONTROL Advanced Options]**&#x200B;中，勾選&#x200B;**[!UICONTROL Generate complement]**&#x200B;以建立以其餘收件者為目標的區段。
 1. 按一下 **[!UICONTROL Confirm]**。

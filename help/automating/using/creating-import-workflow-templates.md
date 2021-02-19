@@ -94,7 +94,7 @@ ht-degree: 1%
       >
       >如果您打算將直效郵件傳送給這些個人檔案，請務必包含郵遞區號，因為這項資訊對於直效郵件提供者而言十分重要。 另請確定已勾選設定檔資訊中的&#x200B;**[!UICONTROL Address specified]**&#x200B;方塊。 若要從工作流程更新此選項，只需將元素新增至要更新的欄位，然後將&#x200B;**1**&#x200B;指定為&#x200B;**[!UICONTROL Source]**，並選取`postalAddress/@addrDefined`欄位為&#x200B;**[!UICONTROL Destination]**。 有關直效郵件和使用&#x200B;**[!UICONTROL Address specified]**&#x200B;選項的更多資訊，請參見[本文檔](../../channels/using/about-direct-mail.md#recommendations)。
 
-1. 配置&#x200B;**[!UICONTROL Deduplication]**&#x200B;活動，該活動位於包含未協調的配置檔案的轉換之後：
+1. 配置&#x200B;**[!UICONTROL Deduplication]**&#x200B;活動，該活動位於包含未協調的配置檔案的轉換後：
 
    * 在&#x200B;**[!UICONTROL Properties]**&#x200B;頁籤中，將&#x200B;**[!UICONTROL Resource type]**&#x200B;設定為從工作流的&#x200B;**[!UICONTROL Reconciliation]**&#x200B;活動生成的臨時資源。
 

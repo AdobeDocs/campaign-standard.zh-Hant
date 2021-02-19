@@ -185,7 +185,7 @@ ht-degree: 7%
 
    在預覽事件時，REST API會根據選取的頻道，包含指定電子郵件地址、行動電話或推播通知特定屬性的屬性。
 
-   發佈事件後，會自動建立連結至新事件的交易訊息。 要觸發事件發送事務性消息，必須[modify](../../channels/using/editing-transactional-message.md)和[publish](../../channels/using/publishing-transactional-message.md)剛建立的消息。
+   發佈事件後，會自動建立連結至新事件的交易訊息。 要觸發事件發送事務性消息，您必須[modify](../../channels/using/editing-transactional-message.md)和[publish](../../channels/using/publishing-transactional-message.md)剛建立的消息。
 
 1. 將事件整合至您的網站（請參閱[整合事件觸發](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)）。
 

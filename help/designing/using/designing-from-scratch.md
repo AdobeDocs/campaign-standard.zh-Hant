@@ -30,7 +30,7 @@ ht-degree: 2%
 1. 預覽您的電子郵件.
 1. 儲存您的內容，並在確定您已定義對象並正確排程傳送後繼續處理訊息。
 
-您也可以查看此[簡介影片](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=chi_hant)。
+您也可以查看此[簡介影片](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true)。
 
 >[!NOTE]
 >

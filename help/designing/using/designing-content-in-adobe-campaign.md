@@ -120,7 +120,7 @@ ht-degree: 88%
 
 * 「電子郵件設計工具」不支援反向連結meta標籤。
 
-有關訊息的更多設計與一般最佳實務，請參閱下列 Adobe Campaign 逐步指南：[使用 Adobe Campaign 傳送最佳實務](https://helpx.adobe.com/tw/campaign/kb/delivery-best-practices.html)。
+有關訊息的更多設計與一般最佳實務，請參閱下列 Adobe Campaign 逐步指南：[使用 Adobe Campaign 傳送最佳實務](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/delivery-best-practices.html?lang=zh-Hant)。
 
 ### 更新片段 {#email-designer-updates}
 

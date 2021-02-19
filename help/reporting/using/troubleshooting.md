@@ -124,7 +124,7 @@ P1會在第一天開啟兩次電子郵件，然後在第二天開啟三次。
    <td align="center"> <strong>100<br/> </td> 
    <td align="center"> <strong>90<br/> </td> 
    <td align="center"> <strong>10<br/> </td> 
-   <td align="center"> <strong>1<br/> </td> 
+   <td align="center"> <strong>3<br/> </td> 
   </tr> 
   <tr> 
    <td align="center"> RC1<br/> </td> 

@@ -1,8 +1,8 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: SMS疑難排解
-description: SMS疑難排解
+title: SMS 疑難排解
+description: SMS 疑難排解
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# SMS疑難排解{#sms-troubleshooting}
+# SMS 疑難排解 {#sms-troubleshooting}
 
 ## 不同外部帳戶之間的衝突{#external-account-conflict}
 

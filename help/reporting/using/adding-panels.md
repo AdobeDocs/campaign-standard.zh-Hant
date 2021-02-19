@@ -2,7 +2,7 @@
 solution: Campaign Standard
 product: campaign
 title: 新增面板
-description: 動態報表可讓您新增面板，以根據選擇的時段，更好地篩選資料。
+description: 動態報表可讓您新增面板，以根據選擇的時段更好地篩選資料。
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports

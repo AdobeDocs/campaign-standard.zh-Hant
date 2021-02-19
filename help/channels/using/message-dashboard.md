@@ -61,7 +61,7 @@ ht-degree: 4%
 
 * **[!UICONTROL Deployment]**:可讓您追蹤訊息準備或傳送的進度。按一下此區塊右下方區段中的按鈕，以存取傳送和分析記錄檔。 只有在準備好傳送後，才會顯示此區塊。 有關此事的更多資訊。 請參閱[確認send](../../sending/using/confirming-the-send.md)。
 * **[!UICONTROL Audience]**:可讓您建立訊息的主要目標以及測試設定檔。請參閱[建立對象](../../audiences/using/creating-audiences.md)。
-* **[!UICONTROL Schedule]**:可讓您指定訊息傳送的日期。請參閱[計畫](../../sending/using/about-scheduling-messages.md)。
+* **[!UICONTROL Schedule]**:可讓您指定訊息的傳送日期。請參閱[計畫](../../sending/using/about-scheduling-messages.md)。
 * **[!UICONTROL Content]**:可讓您定義訊息的內容並加以預覽。請參閱[發送消息的關鍵步驟](../../channels/using/key-steps-to-send-a-message.md)。
 
 ## 警告{#warnings}

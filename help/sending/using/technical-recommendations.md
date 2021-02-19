@@ -20,7 +20,7 @@ ht-degree: 0%
 
 以下列出幾種可用來改善傳遞率的技術、組態和工具。 以下是一些主要技術術語的定義。
 
-**反向DNS**:Adobe Campaign會檢查是否提供反向DNS以取得IP位址，且這會正確指向IP。
+**反向DNS**:Adobe Campaign會檢查是否提供反向DNS來識別IP位址，且這會正確指向IP。
 
 **MX規** 則可用來控制促銷活動MTA（訊息傳送代理）傳送電子郵件至每個個別電子郵件網域或ISP（例如hotmail.com、comcast.net）的速度。這些規則通常基於ISP發佈的限制（例如每個SMTP連接不包含超過20條消息）。
 

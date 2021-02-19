@@ -31,24 +31,24 @@ ht-degree: 11%
 
 依預設，傳送範本以&#x200B;**描述檔**&#x200B;為目標。 Adobe Campaign會為您的傳送提供其他目標對應，您可以根據需要進行變更。
 
-這些映射在本節[中顯示。](../../automating/using/query.md#targeting-dimensions-and-resources)
+這些映射在本節](../../automating/using/query.md#targeting-dimensions-and-resources)中顯示。[
 
 您也可以建立和使用自訂的目標對應。 如需詳細資訊，請參閱[本章節](../../administration/using/target-mappings-in-campaign.md)。
 
 ## 外部資料{#external-data}
 
-您可以將內容傳送給儲存在外部檔案而非儲存在資料庫中的收件者。 為此，設計工作流程會從檔案將資料載入您的資料庫並建立相關對象。  瞭解更多[在此使用案例中](../../automating/using/use-case-calling-workflow.md)。 另請參閱[使用參數調用工作流](../../automating/using/calling-a-workflow-with-external-parameters.md)。
+您可以將內容傳送給儲存在外部檔案而非儲存在資料庫中的收件者。 為此，設計工作流程會從檔案將資料載入您的資料庫，並建立相關對象。  瞭解更多[在此使用案例中](../../automating/using/use-case-calling-workflow.md)。 另請參閱[使用參數調用工作流](../../automating/using/calling-a-workflow-with-external-parameters.md)。
 
 ## 傳送給您的訂閱者{#send-to-subscribers}
 
-若要傳送訊息給電子報的訂閱者，您可以直接將訂閱者鎖定在對應的資訊服務。 瞭解本節[的更多資訊。](../../audiences/using/about-subscriptions.md)
+若要傳送訊息給電子報的訂閱者，您可以直接將訂閱者鎖定在對應的資訊服務。 瞭解本節](../../audiences/using/about-subscriptions.md)的更多資訊。[
 
 **提示** -您可以建立「清單」對象，透過工作流程鎖定電子報的訂閱者。然後，您可以在傳送中選取此對象。 如需詳細資訊，請參閱[建立清單對象](../../audiences/using/creating-audiences.md#creating-list-audiences)。
 
 ## 校樣、測試設定檔和控制群組{#proofs-test-control-groups}
 
 若要測試傳送內容，請在傳送至主要目標之前先使用校樣。
-請確定您選取了適當的校樣收件者，因為他們會驗證訊息的表單和內容。 發送校樣的步驟在本節[中介紹。](../../sending/using/sending-proofs.md)
+請確定您選取了適當的校樣收件者，因為他們會驗證訊息的表單和內容。 發送校樣的步驟在本節](../../sending/using/sending-proofs.md)中介紹。[
 
 在本節](../../audiences/using/managing-test-profiles.md)中進一步瞭解測試設定檔[。
 

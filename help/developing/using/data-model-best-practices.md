@@ -59,7 +59,7 @@ Be able to provide a primary customer record which will be sent to Adobe Campaig
 
 ### Adobe Campaign的資料{#data-for-campaign}
 
-哪些資料應傳送至Adobe Campaign? 確定您的行銷活動所需的資料至關重要。
+哪些資料應傳送至Adobe Campaign? 確定行銷活動所需的資料至關重要。
 
 >[!NOTE]
 >

@@ -25,7 +25,7 @@ ht-degree: 26%
 
    >[!NOTE]
    >
-   >如果API已發佈（亦即，若您已針對此資源或其他資源勾選此選項一次），則會強制進行API更新。
+   >如果API已發佈（亦即您已針對此資源或其他資源勾選此選項一次），則會強制進行API更新。
 
 1. 按一下&#x200B;**[!UICONTROL Profiles & Services API Preview]**&#x200B;頁籤。
 

@@ -6,9 +6,9 @@ description: 深入瞭解 Adobe Campaign Standard 的隱私權管理功能。
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: a9afa91302684ddd37a94a9999d90bf8c8e7abee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 100%
 

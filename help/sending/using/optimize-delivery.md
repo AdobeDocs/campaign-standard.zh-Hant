@@ -31,7 +31,7 @@ ht-degree: 6%
 
    **提示** -為避免此問題，請與團隊中的其他成員協調交貨的排程，以確保獲得最佳效能。
 
-* [工作流執行](../../automating/using/about-workflow-execution.md) :監控工作流程是避免平台效能問題的關鍵。 請遵循本頁[所列的准則。 ](../../automating/using/monitoring-workflow-execution.md)進一步瞭解[工作流程最佳實務](../../automating/using/best-practices-workflows.md)一節。
+* [工作流執行](../../automating/using/about-workflow-execution.md) :監控工作流程是避免平台效能問題的關鍵。 請遵循本頁](../../automating/using/monitoring-workflow-execution.md)所列的准則。 [進一步瞭解[工作流程最佳實務](../../automating/using/best-practices-workflows.md)一節。
 
 * 您可以使用[促銷活動控制面板功能](https://docs.adobe.com/content/help/en/control-panel/using/discover-control-panel/key-features.html)來監控您的平台，使用[效能監控](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/about-performance-monitoring.html)功能。
 
@@ -63,7 +63,7 @@ ht-degree: 6%
 
 **提示**
 
-* 在傳送分析期間，預設會排除隔離地址的收件者：它們不是目標。 這會加快傳送速度，因為錯誤率對傳送速度有顯著影響。例如，當收件箱已滿或地址不存在時，可以隔離電子郵件地址。 [進一步瞭解](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses)
+* 在傳送分析期間，預設會排除隔離地址的收件者：它們不是目標。 這會加快傳送速度，因為錯誤率對傳送速度有顯著影響。例如，當收件箱已滿或地址不存在時，可以隔離電子郵件地址。 [進一步了解](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses)
 
 * Adobe Campaign會根據傳回的錯誤類型管理錯誤位址。 如需詳細資訊，請參閱[本章節](../../sending/using/understanding-quarantine-management.md)。
 

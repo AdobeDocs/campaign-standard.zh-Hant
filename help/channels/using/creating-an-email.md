@@ -60,7 +60,7 @@ ht-degree: 19%
    >
    >若要儲存您的電子郵件，您必須先對內容進行一些編輯。 如果此時按一下&#x200B;**[!UICONTROL Cancel]**，將無法完成嚮導，並且將不建立您的電子郵件。
 
-   接著會顯示電子郵件控制面板。 它允許您檢查消息並準備send[。](../../sending/using/preparing-the-send.md)
+   接著會顯示電子郵件控制面板。 它允許您檢查消息並準備send](../../sending/using/preparing-the-send.md)。[
 
    右上角的&#x200B;**[!UICONTROL Edit properties]**&#x200B;按鈕可讓您編輯電子郵件的屬性。 例如，您可以設定電子郵件，以便在傳送準備時計算其標籤。  [本節](../../administration/using/configuring-email-channel.md#list-of-email-properties)列出了可用參數。
 

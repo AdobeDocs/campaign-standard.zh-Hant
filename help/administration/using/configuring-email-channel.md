@@ -335,7 +335,7 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 彈回數可以有下列資格狀態：
 
 * **[!UICONTROL To qualify]**:彈回郵件必須符合條件。必須由交付能力團隊完成資格認證，以確保平台的交付能力正常運作。 只要郵件不符合條件，反彈郵件就不會用來豐富電子郵件處理規則清單。
-* **[!UICONTROL Keep]**:彈回郵件已經合格，將會被「更新」用於傳遞 **性工** 作流程，以便與現有的電子郵件處理規則進行比較並豐富清單。
+* **[!UICONTROL Keep]**:彈回郵件已經合格，將會被「更新」用於傳遞 **性工** 作流程，以便與現有電子郵件處理規則進行比較並豐富清單。
 * **[!UICONTROL Ignore]**:彈回郵件是合格的，但「更新」不會用於傳遞 **能力工** 作流程。因此，它不會傳送至用戶端例項。
 
 <!--Bounces are qualified through the **[!UICONTROL Bounce mails]** processing rule. For more on accessing this rule, refer to this [section](#legacy-bounce-mail-qualification).-->

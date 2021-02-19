@@ -19,7 +19,7 @@ ht-degree: 9%
 
 Adobe Experience Cloud中Adobe Campaign與Adobe Target（Classic和Standard）的整合可讓您將動態影像從Adobe Target插入Adobe Campaign電子郵件傳送。
 
-此整合可讓收件者接收透過Adobe Campaign傳送的電子郵件，包括Adobe Target所提供之動態內容版本。 根據建立電子郵件時預先指定的規則，計算此動態版本。
+此整合功能可讓收件者接收透過Adobe Campaign傳送的電子郵件，包括Adobe Target所提供之動態內容版本。 根據建立電子郵件時預先指定的規則，計算此動態版本。
 
 Adobe Target可使用數種資料：
 

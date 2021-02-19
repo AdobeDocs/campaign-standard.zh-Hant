@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: 6c171d45d655e4055d4a3c7927f1dd8e0913eeaa
 workflow-type: tm+mt
 source-wordcount: '1202'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# 如何將您的行動應用程式從SDK v4移轉至Adobe Experience Platform SDK {#sdkv4-migration}
+# 如何將您的行動應用程式從 SDK v4 移轉至 Adobe Experience Platform SDK {#sdkv4-migration}
 
 >[!IMPORTANT]
 >

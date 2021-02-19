@@ -1,7 +1,7 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 透過Adobe Experience Manager整合建立多語言版電子郵件。
+title: 使用 Adobe Experience Manager 整合建立多語言電子郵件.
 description: 透過Adobe Experience Manager整合，您可以直接在AEM中建立內容，並稍後在Adobe Campaign中使用。
 audience: integrating
 content-type: reference
@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: 3672f0bc4ebc551c4eb34660a3a55d44fa726f1a
 workflow-type: tm+mt
 source-wordcount: '594'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
 
-# 使用Adobe Experience Manager整合{#creating-multilingual-email-aem}建立多語言電子郵件
+# 使用 Adobe Experience Manager 整合建立多語言電子郵件 {#creating-multilingual-email-aem}
 
 使用本檔案，您將瞭解如何使用Adobe Experience Manager內容和語言副本建立多語言電子郵件。
 

@@ -128,7 +128,7 @@ Campaign Standard API可讓您執行更新資料庫的作業，例如設定檔�
 
 GDPR 是歐盟 (EU) 最新制定的一項隱私法規，用於協調和順應時代更新資料保護需求。GDPR 適用於所持有資料的主體居住於歐盟的 Adobe Campaign 客戶。除了Adobe Campaign中已提供的隱私權功能（包括同意管理、資料保留設定和使用者角色）外，我們還將此機會作為資料處理者加入其他功能，以協助您做好準備，以做為特定GDPR要求的資料掌控者。
 
-請參閱本[指南](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)以進一步瞭解Adobe Campaign為協助您符合GDPR所提供的工具和功能。
+請參閱本[指南](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=zh-Hant)以進一步瞭解Adobe Campaign為協助您符合GDPR所提供的工具和功能。
 
 **顯示全文**
 

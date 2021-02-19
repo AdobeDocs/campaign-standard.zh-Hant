@@ -19,7 +19,7 @@ ht-degree: 0%
 您可以將Microsoft Dynamics 365中的表格同步到Microsoft Dynamics 365的「促銷活動」和「促銷活動」行銷量度到Microsoft Dynamics 365。 同步通過三個專用的技術工作流程執行：**[!UICONTROL Microsoft Dynamics 365 to Campaign]**、**[!UICONTROL Campaign to Microsoft Dynamics 365]**、**[!UICONTROL Opt-In/Out]**。 請參閱本節至[瞭解詳細內容](../../integrating/using/d365-acs-self-service-app-workflows.md)。
 
 >[!IMPORTANT]
->您必須停止／啟動&#x200B;**[!UICONTROL Microsoft Dynamics 365 to Campaign]**&#x200B;工作流程，才能將您的變更納入考量。 [進一步瞭解](../../integrating/using/d365-acs-self-service-app-workflows.md)
+>您必須停止／啟動&#x200B;**[!UICONTROL Microsoft Dynamics 365 to Campaign]**&#x200B;工作流程，才能將您的變更納入考量。 [進一步了解](../../integrating/using/d365-acs-self-service-app-workflows.md)
 
 
 ## 將表格從Microsoft Dynamics 365對應至Campaign
@@ -74,7 +74,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL OK]**&#x200B;確認：應用程式需要短暫的時間才能讀取與所選表格相關的欄位資訊。
 
-然後，可以繼續映射配置。 [進一步瞭解](#new-mapping-settings)
+然後，可以繼續映射配置。 [進一步了解](#new-mapping-settings)
 
 >[!IMPORTANT]
 >

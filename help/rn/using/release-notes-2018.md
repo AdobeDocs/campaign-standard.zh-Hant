@@ -203,7 +203,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td> GDPR:核心服務整合<br /> </td> 
-   <td> 「隱私權核心服務整合」可讓您透過單一JSON API呼叫，在多解決方案內容中自動化您的GDPR要求。 <br /> 從隱私權核心服務推送至所有Experience Cloud解決方案的GDPR要求現在由Campaign自動處理。<br /> 如需詳細資訊，請參閱詳 <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">細檔案</a>。<br /> </td> 
+   <td> 「隱私權核心服務整合」可讓您透過單一JSON API呼叫，在多解決方案內容中自動化您的GDPR要求。 <br /> 從隱私權核心服務推送至所有Experience Cloud解決方案的GDPR要求現在由Campaign自動處理。<br /> 如需詳細資訊，請參閱詳 <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=zh-Hant">細檔案</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 推播改進——詳細的傳送回饋<br /> </td> 
@@ -473,7 +473,7 @@ _已知問題_
   </tr> 
   <tr> 
    <td> 時區最佳化傳送<br /> </td> 
-   <td> 排程定期傳送的電子郵件、簡訊和推播通知，以便在每個收件者的時區中，於特定日／時間傳送，以確保您的訊息在適當的時間傳送，而不需設定多個傳送。 <br /> 如需詳細資訊，請參閱詳 <a href="../../automating/using/scheduler.md">細檔案</a>。<br /> </td> 
+   <td> 排程定期傳送的電子郵件、簡訊和推播通知，以便在每個收件者的時區中，於特定日／時間傳送，確保訊息在適當的時間傳送，而不需設定多個傳送。 <br /> 如需詳細資訊，請參閱詳 <a href="../../automating/using/scheduler.md">細檔案</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> API信號活動觸發<br /> </td> 

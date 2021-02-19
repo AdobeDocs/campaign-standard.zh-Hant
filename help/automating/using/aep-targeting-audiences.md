@@ -21,7 +21,7 @@ ht-degree: 5%
 >
 >觀眾目標服務目前為測試版，可能會經常更新，恕不另行通知。 客戶必須在Azure上代管（目前僅限北美地區測試版）才能存取這些功能。 如果您想要存取，請聯絡Adobe客戶服務。
 
-使用「區段產生器」建立[Adobe Experience Platform觀眾](../../audiences/using/aep-about-audience-destinations-service.md)後，您就可以與工作流程中的「促銷活動」觀眾相同的方式使用&lt;a0/>Adobe Experience Platform觀眾，以個人化和傳送訊息。
+使用「區段產生器」建立[Adobe Experience Platform觀眾](../../audiences/using/aep-about-audience-destinations-service.md)後，您就可以與工作流程中的「促銷活動」觀眾相同的方式使用Adobe Experience Platform觀眾，以個人化和傳送訊息。
 
 若要將Adobe Experience Platform觀眾啟動至您的工作流程，請遵循下列步驟：
 

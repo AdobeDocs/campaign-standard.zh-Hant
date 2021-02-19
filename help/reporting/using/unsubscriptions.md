@@ -2,7 +2,7 @@
 solution: Campaign Standard
 product: campaign
 title: 取消訂閱
-description: 透過「取消訂閱現成可用」報表，瞭解客戶取消訂閱您送貨的次數。
+description: 透過「取消訂閱現成可用」報表，瞭解客戶取消訂閱您的遞送的次數。
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports

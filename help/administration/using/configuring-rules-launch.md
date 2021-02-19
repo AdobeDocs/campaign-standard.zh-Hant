@@ -220,7 +220,7 @@ ht-degree: 1%
 
 1. 在&#x200B;**[!UICONTROL Events]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL Add]**。
 
-1. 建立事件，例如輸入POI或退出POI。 從&#x200B;**[!UICONTROL Extension]**&#x200B;下拉式清單中，選擇&#x200B;**Places - Beta**。 然後，在&#x200B;**下拉式清單中輸入POI**&#x200B;或&#x200B;**退出POI**。**[!UICONTROL Event type]**
+1. 建立事件，例如輸入POI或退出POI。 從&#x200B;**[!UICONTROL Extension]**&#x200B;下拉式清單中，選擇&#x200B;**Places - Beta**。 然後，在&#x200B;**[!UICONTROL Event type]**&#x200B;下拉式清單中輸入POI **或**&#x200B;退出POI **。**
 
 1. 輸入名稱，例如，**Places - Beta —— 輸入POI**&#x200B;或&#x200B;**Exit POI**。
 

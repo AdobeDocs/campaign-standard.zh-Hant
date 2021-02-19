@@ -23,11 +23,11 @@ ht-degree: 0%
 
 **Microsoft Dynamics 365 to Campaign**
 * 將&#x200B;*連絡人*&#x200B;從Microsoft Dynamics 365傳送至Adobe Campaign
-* *自訂實體*:將自訂表格從Microsoft Dynamics 365匯入Adobe Campaign。[進一步瞭解](../../integrating/using/d365-acs-using-the-integration.md#data-flows)
+* *自訂實體*:將自訂表格從Microsoft Dynamics 365匯入Adobe Campaign。[進一步了解](../../integrating/using/d365-acs-using-the-integration.md#data-flows)
 * 這也稱為&#x200B;**Ingress**（指從Microsoft Dynamics 365傳入Adobe Campaign的資料）
 
 **Campaign to Microsoft Dynamics 365**
-* 從Adobe Campaign Standard傳送電子郵件行銷活動至Dynamics 365（電子郵件傳送、開啟、按一下、彈回）。 [進一步瞭解](../../integrating/using/d365-acs-using-the-integration.md#email-marketing-event-flow)
+* 從Adobe Campaign Standard傳送電子郵件行銷活動至Dynamics 365（電子郵件傳送、開啟、按一下、彈回）。 [進一步了解](../../integrating/using/d365-acs-using-the-integration.md#email-marketing-event-flow)
 * 這也稱為&#x200B;**Egress**（指Adobe Campaign到Microsoft Dynamics 365的資料匯出）
 
 **選擇加入／退出**
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 * **停止**:「停 **** 止」按鈕會要求停止執行中的工作流程。僅當與工作流關聯的進程當前正在運行時，此按鈕才會顯示。
 
-編輯工作流時，您的更新不會立即併入正在運行的進程的規則中，直到您停止工作流，然後按一下&#x200B;**開始**&#x200B;按鈕。 然後，您的更新會併入執行中的進程中（一旦進程返回&#x200B;**RUNNING**&#x200B;狀態）。
+編輯工作流時，您的更新不會立即併入正在運行的進程的規則中，直到您停止工作流，然後按一下&#x200B;**開始**&#x200B;按鈕。 然後，您的更新會併入執行中的程式（當程式返回&#x200B;**RUNNING**&#x200B;狀態後）。
 
 在&#x200B;**Stop**&#x200B;按鈕中添加警告指示，以告知您何時(a)更新了工作流，但(b)尚未執行此工作流的「停止／開始」。
 

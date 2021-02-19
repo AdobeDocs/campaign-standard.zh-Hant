@@ -9,9 +9,9 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2879066634a8a123ef5d07d46aa96479f156a923
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1479'
 ht-degree: 100%
 
@@ -128,7 +128,7 @@ Adobe Campaign 提供其他功能，協助您作為資料控制方，針對特�
 
 >[!NOTE]
 >
->本套工具可協助您遵循 GDPR、CCPA 及 PDPA 的隱私權規範。如需這些不同法規的詳細資訊，請參閱[本頁面](https://helpx.adobe.com/tw/campaign/kb/campaign-privacy-overview.html#whatisgdpr)。
+>本套工具可協助您遵循 GDPR、CCPA 及 PDPA 的隱私權規範。如需這些不同法規的詳細資訊，請參閱[本頁面](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)。
 
 <!--* **GDPR** (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
 

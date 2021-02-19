@@ -32,7 +32,7 @@ ht-degree: 3%
 1. 在設定擴充功能後，請在&#x200B;**[!UICONTROL Adobe Experience Platform Launch]**&#x200B;中建立資料元素，以從這些擴充功能擷取資料。 請參閱此[頁](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Step1Createdataelements)以建立您的資料元素。
 
 1. 然後，在&#x200B;**[!UICONTROL Adobe Experience Platform Launch]**&#x200B;中，您需要建立規則，以支援興趣點和Adobe Campaign之間的行動使用案例。\
-   當使用者進入以地理圍欄&#x200B;**[!UICONTROL Point of Interest]**&#x200B;時，將會觸發此規則。 請參閱此[頁面](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Locationpostback)以建立規則。
+   當使用者進入隔離&#x200B;**[!UICONTROL Point of Interest]**&#x200B;的地域時，將會觸發此規則。 請參閱此[頁面](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Locationpostback)以建立規則。
 
 1. 在「位置」中定義&#x200B;**[!UICONTROL Points of Interest]**。 請參閱[建立地標](https://docs.adobe.com/content/help/en/places/using/poi-mgmt-ui/create-a-poi-ui.html)。
 
@@ -187,7 +187,7 @@ Mobile核心服務的軟體開發套件(SDK)可協助將行動應用程式整合
 
 特定的自訂資源可讓您定義要從應用程式訂閱者收集的資料。
 
-此步驟在「使用SDK V4[設定行動應用程式」頁面中說明。](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
+此步驟在「使用SDK V4](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)設定行動應用程式」頁面中說明。[
 
 
 ## 存取用於收集位置資料的行動應用程式{#accessing-mobile-apps-used-to-collect-location-data}

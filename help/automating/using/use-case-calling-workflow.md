@@ -25,7 +25,7 @@ ht-degree: 1%
 
 1. **進行API呼叫** 以使用外部參數觸發Workflow 1。請參閱[步驟1:設定API呼叫](../../automating/using/use-case-calling-workflow.md#step-1--configuring-the-api-call)。
 1. **建立工作流程1**:工作流將傳輸檔案並將其載入到資料庫中。然後，它會測試資料是否空白，並最終將描述檔儲存至觀眾。 最後，它將觸發Workflow 2。 請參閱[步驟2:設定工作流程1](../../automating/using/use-case-calling-workflow.md#step-2--configuring-workflow-1)。
-1. **建立工作流程2**:工作流程會讀取在Workflow 1中建立的觀眾，然後傳送個人化訊息至描述檔，並使用參數自訂區段代碼。請參閱[步驟3:設定工作流程2](../../automating/using/use-case-calling-workflow.md#step-3--configuring-workflow-2)。
+1. **建立工作流程2**:工作流程會讀取在Workflow 1中建立的觀眾，然後傳送個人化訊息給描述檔，並使用參數自訂區段代碼。請參閱[步驟3:設定工作流程2](../../automating/using/use-case-calling-workflow.md#step-3--configuring-workflow-2)。
 
 ![](assets/extsignal_uc_process.png)
 

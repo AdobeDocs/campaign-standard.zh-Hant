@@ -62,7 +62,7 @@ ht-degree: 1%
 }
 ```
 
-預設情況下，與具有大量資料的表交互時，**next**&#x200B;節點不可用。 若要能夠執行分頁，您必須將&#x200B;**_forcePagination=true**&#x200B;參數新增至呼叫URL。
+預設情況下，與具有大量資料的表交互時，**next**&#x200B;節點不可用。 若要執行分頁，您必須將&#x200B;**_forcePagination=true**&#x200B;參數新增至呼叫URL。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_forcePagination=true \

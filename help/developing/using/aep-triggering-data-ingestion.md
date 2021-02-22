@@ -54,8 +54,7 @@ POST操作會觸發XDM映射到Adobe Experience Platform的立即接收：
 >
 >為了執行收錄的POST API呼叫，使用者必須具有&#x200B;**SQL函式執行**&#x200B;角色，此角色可由Campaign Standard管理員執行下列JS指令碼來提供：
 >
->
-```
+>```
 >var sqlRoleObj = REST.head.roleBase.sql.get();
 >REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);
 >```

@@ -7,10 +7,10 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 translation-type: tm+mt
-source-git-commit: c981bd524400e49929d9557aab730ce1ec615551
+source-git-commit: 05a44f5baa66df70a57da9467baf71a953aed856
 workflow-type: tm+mt
-source-wordcount: '1257'
-ht-degree: 80%
+source-wordcount: '1289'
+ht-degree: 92%
 
 ---
 
@@ -64,21 +64,23 @@ Adobe Campaign 可讓您導覽不同的功能表和畫面，以管理您的行�
 
 ### 說明 {#help}
 
-在右上角，**Help**&#x200B;圖示將Adobe Experience League帶入產品。
+每個畫面上都會顯示頂端列，讓您透過 Adobe Campaign 瀏覽其功能，並存取已連線的 Adobe 設定檔、通知、其他 Adobe Experience Cloud 服務與解決方案及其文件。
 
-![](assets/ux_help.png)
+導覽原則為：
 
-使用&#x200B;**[!UICONTROL Search]**&#x200B;欄位尋找指引。 搜尋結果包括檔案和說明文章、社群論壇的結果和視訊內容，讓您更輕鬆地存取更多內容，以協助您充份運用應用程式。
+* 該頁面左上角的 **[!UICONTROL Adobe Campaign]** 標誌可讓您存取進階功能與設定。功能表視您的設定檔與權限。
 
-三個標籤可協助您尋找說明和協助：
+   進階功能表會顯示在[進階功能表](#advanced-menu)區段中。
 
-1. **[!UICONTROL Help]**&#x200B;標籤包含：
-   * 快速存取Adobe Campaign Standard檔案及內容相關連結。
-   * **[!UICONTROL Learning]**&#x200B;連結，可讓您存取Adobe Campaign課程單元庫。
-   * a **[!UICONTROL Community]**&#x200B;連結，以存取專門討論您對促銷活動之問題的論壇。
-   * 直接存取：說明中心、客戶服務、Experience Cloud產品狀態、開發人員連線、發行說明、發行計畫和&#x200B;**[!UICONTROL About]**&#x200B;畫面。
-1. **[!UICONTROL Support]**&#x200B;標籤可讓您開啟支援案例，並透過電話或Twitter與我們聯絡。
-1. **[!UICONTROL Feedback]**&#x200B;標籤可讓您更輕鬆地報告問題或分享您的想法。
+* 此 **[!UICONTROL Home]** 連結允許您顯示 Adobe Campaign 首頁。
+* 這些 **[!UICONTROL Marketing activities]**、**[!UICONTROL Programs & Campaigns]**、**[!UICONTROL Profiles]**、**[!UICONTROL Audiences]** 和 **[!UICONTROL Reports]** 連結可以讓您存取與這些功能連結的檢視。
+* 此 **[!UICONTROL Help]** 按鈕可以讓您存取產品文件與內容相關說明、發行說明、版本號碼、法律注意事項，以及 Adobe Experience Cloud 社群與客戶服務的連結。
+
+   ![](assets/ux_help.png)
+
+* 此&#x200B;**選取解決方案**&#x200B;圖示可以讓您切換至其他 Adobe Experience Cloud 解決方案以及其設定檔設定。
+* 此&#x200B;**通知**&#x200B;圖示會顯示最新警報或資訊。
+* 此&#x200B;**使用者**&#x200B;圖示可讓您顯示連結至設定檔的資訊。它提供此 **[!UICONTROL Sign out]** 按鈕的存取權限。
 
 ## 進階功能表 {#advanced-menu}
 

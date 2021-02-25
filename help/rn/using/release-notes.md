@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: cb903760fc8fa6168b97a2b02ab7896cd1a8b250
+source-git-commit: d4f689084974c18e5b2836ec0f2867ebdc137a4d
 workflow-type: tm+mt
-source-wordcount: '2627'
-ht-degree: 98%
+source-wordcount: '2478'
+ht-degree: 99%
 
 ---
 
@@ -63,29 +63,31 @@ ht-degree: 98%
 </tbody> 
 </table>
 
+<!--
 <table> 
 <thead> 
 <tr> 
-<th> <strong>統一的 Experience Cloud 介面</strong><br /> </th> 
+<th> <strong>Unified Experience Cloud interface</strong><br /> </th> 
 </tr> 
 </thead> 
 <tbody> 
 <tr> 
 <td>
-<p>Adobe Campaign 頁首已變更，以統一並改善您所有 Experience Cloud 產品和服務的體驗。這些變更旨在讓您的生活更輕鬆，包括：</p>
+<p>Adobe Campaign header bar has been changed to unify and improve your experience across all Experience Cloud products and services. These changes are designed to make your life easier, including:</p>
 <ul>
-<li>更輕鬆地在組織之間切換，或切換至不同的應用程式。</li>
-<li>改進的使用者說明 - 將 Experience League 帶入產品中，搜尋結果也包含社群論壇的結果和更多視訊內容，讓您更輕鬆地存取更多內容，以協助您充分運用應用程式。我們也在「說明」功能表中新增了意見回饋機制，讓您更輕鬆地報告問題或分享您的想法。</li>
-<li>改進的通知 - 通知下拉式清單現在有兩個索引標籤：一個用於您自己的產品通知，另一個用於更多全球產品公告。</li>
+<li>Easier switching between your organizations or to a different application.</li>
+<li>Improved User Help – Bringing the Experience League into the product, search results also include results from community forums and more video content, giving you easier access to more content to help get the most out of the application. We've also added a feedback mechanism right in the Help menu, making it easier to report issues or share your ideas.</li>
+<li>Improved Notifications – Notifications drop-down now has two tabs: one for your own product notifications, and one for more global product announcements.</li>
 </ul>
-<p>如需詳細資訊，請參閱<a href="../../start/using/interface-description.md#top-bar">詳細文件</a>。
+<p>For more information refer to the <a href="../../start/using/interface-description.md#top-bar">detailed documentation</a>.
 </p>
-<p>注意：此變更將逐步推展至2月10日到3月1日之間的所有客戶環境。
+<p>NOTE: This change will be progressively rolled out to all customer environments between Feb 10 and March 1st.
 </p>
 </td> 
 </tr> 
 </tbody> 
 </table>
+-->
 
 **功能改善**
 

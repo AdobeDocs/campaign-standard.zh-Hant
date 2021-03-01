@@ -23,7 +23,7 @@ ht-degree: 13%
 <td><img src="assets/do-not-localize/icon_manage.svg" width="60px"><p><a href="#import-export-data">匯入／匯出資料</a></p></td></tr>
 </table>
 
-Adobe Campaign提供完整的圖形環境，可讓您設計複雜的程式，包括區段、促銷活動執行、檔案處理等。 例如，您可以使用工作流程從伺服器下載檔案、解壓縮檔案，然後將其記錄匯入Adobe Campaign資料庫。
+Adobe Campaign提供完整的圖形環境，讓您設計複雜的程式，包括區段、促銷活動執行、檔案處理等。 例如，您可以使用工作流程從伺服器下載檔案、解壓縮檔案，然後將其記錄匯入Adobe Campaign資料庫。
 
 工作流程也可以讓使用者參與，方法是指派工作或讓他們核准已執行的工作。 這表示您可以指派工作給一或數個使用者，以處理內容或指定目標，並在傳送訊息前核准校樣。
 
@@ -42,7 +42,7 @@ Adobe Campaign提供完整的圖形環境，可讓您設計複雜的程式，包
 
 [定位](../../automating/using/about-targeting-activities.md) 活動允許您通過定義集並使用交叉點、聯合或排除操作拆分或組合這些集來構建一個或多個目標。
 
-使用[執行活動](../../automating/using/about-execution-activities.md)來協調您的工作流程及其活動，而[渠道活動](../../automating/using/about-channel-activities.md)則可讓您結合Campaign Standard通訊管道來建立跨通道工作流程。
+使用[執行活動](../../automating/using/about-execution-activities.md)來協調您的工作流及其活動，而[渠道活動](../../automating/using/about-channel-activities.md)則可讓您結合Campaign Standard通訊渠道以建立跨通道工作流程。
 
 最後，[資料管理活動](../../automating/using/about-data-management-activities.md)可讓您控制資料庫中的資料。
 
@@ -56,7 +56,7 @@ Adobe Campaign提供完整的圖形環境，可讓您設計複雜的程式，包
 
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 
-運用&#x200B;**查詢編輯器**&#x200B;來篩選資料庫中的資料，並建立人口族群，以更好地定位收件者。 查詢編輯器可用於在Campaign Standard中執行多個操作：建立查詢類型對象、定義傳送目標或工作流程活動中的人口族群。
+運用&#x200B;**查詢編輯器**&#x200B;來篩選資料庫中的資料，並建立人口族群，以更好地定位收件者。 查詢編輯器可用於在Campaign Standard中執行以下幾個操作：建立查詢類型對象、定義傳送目標或工作流程活動中的人口族群。
 
 查詢編輯器隨附&#x200B;**預先定義的篩選器和規則**，以便快速且輕鬆地篩選。 不過，您也可以使用&#x200B;**進階運算式編輯**&#x200B;功能。 這可讓您手動輸入條件並使用函式，以便形成您自己的規則。
 
@@ -70,7 +70,7 @@ Adobe Campaign提供完整的圖形環境，可讓您設計複雜的程式，包
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-Campaign Standard提供數種&#x200B;**資料管理功能**，以匯入和匯出資料。
+Campaign Standard提供數種&#x200B;**資料管理功能**&#x200B;以匯入和匯出資料。
 
 [工作流程資料管](../../automating/using/about-data-management-activities.md) 理活動可讓您匯入資料、對欄位執行大量更新、接收或傳送檔案，或將未識別的資料連結至現有資源。
 

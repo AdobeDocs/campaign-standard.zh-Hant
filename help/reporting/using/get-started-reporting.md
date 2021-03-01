@@ -34,7 +34,7 @@ ht-degree: 19%
 
 使用動態報表&#x200B;**拖放介面**，您可以探索資料、判斷電子郵件促銷活動對最重要客戶區段的執行方式，並從單一位置測量其對收件者的影響。
 
-**運用多種功** 能管理動態報表：即時重新整理資料、列印報表，或將其匯出為CSV檔案。您也可以透過單次或循環寄送的電子郵件，與Campaign Standard使用者共用報表。
+**運用多種功** 能管理動態報表：即時重新整理資料、列印報表，或將其匯出為CSV檔案。您也可以透過單次或循環寄送的電子郵件，與Campaign Standard使用者分享您的報表。
 
 顯示全文:
 
@@ -80,8 +80,8 @@ Campaign Standard隨附一組&#x200B;**現成可用的動態報表**，可讓您
 
 ## 教學課程影片{#video}
 
-此影片提供Adobe Campaign Standard報告功能的概觀。
+本視訊概述Adobe Campaign Standard的報告功能。
 
 >[!VIDEO](https://video.tv.adobe.com/v/23021?quality=12&captions=eng)
 
-其他Campaign Standard操作說明影片可在[這裡](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant)取得。
+其他Campaign Standardhow-to影片可在[這裡](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant)取得。

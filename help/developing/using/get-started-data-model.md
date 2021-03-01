@@ -31,7 +31,7 @@ ht-degree: 30%
 
 促銷活動使用的資料是透過預先定義之資料模型&#x200B;**中定義的不同資源來定義。**&#x200B;資料模型會針對一組行銷相關資源顯示現成可用的SQL結構：傳送、觀眾、登陸頁面、個人檔案等。 每個資源都提供關聯的篩選，讓您在資源中導覽。
 
-**診斷**&#x200B;功能表可讓您列出Campaign Standard產生的技術物件：資料結構、網頁、篩選器等，讓您監控資料模型及對其進行的任何變更。
+**診斷**&#x200B;菜單允許您列出由Campaign Standard生成的技術對象：資料結構、網頁、篩選器等，讓您監控資料模型及對其進行的任何變更。
 
 顯示全文:
 
@@ -46,7 +46,7 @@ ht-degree: 30%
 
 Campaign Standard可讓您&#x200B;**豐富預先定義的資料模型**，以建立您自己的資源（例如新增購買或產品表格），或使用新欄位擴充現有資源。 您也可以設定「促銷活動」畫面，以最佳化已建立之新資源和欄位的導覽。
 
-此外，您可以&#x200B;**擴充Campaign Standard REST API**，以便在自訂資源設定檔的API擴充欄位中公開。 例如，這可讓您以帳單系統產生的促銷代碼來更新客戶的個人檔案。
+此外，您可以&#x200B;**擴充Campaign StandardREST API**，以便在自訂資源描述檔的API擴充欄位中公開。 例如，這可讓您以帳單系統產生的促銷代碼來更新客戶的個人檔案。
 
 顯示全文:
 
@@ -59,7 +59,7 @@ Campaign Standard可讓您&#x200B;**豐富預先定義的資料模型**，以建
 
 <img src="assets/do-not-localize/icon_api.svg" width="60px">
 
-透過Campaign Standard API，建立Adobe Campaign Standard的整合，並將Campaign與您使用的技術面板結合，以建立您自己的生態系統。 [開始使用 Campaign Standard REST API](../../api/using/get-started-apis.md)
+透過Campaign StandardAPI，建立Adobe Campaign Standard的整合，並將Campaign與您使用的技術面板結合，以建立您自己的生態系統。 [開始使用 Campaign Standard REST API](../../api/using/get-started-apis.md)
 
 ## 其他資源
 

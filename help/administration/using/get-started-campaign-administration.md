@@ -24,11 +24,11 @@ ht-degree: 14%
 <td><img src="assets/do-not-localize/icon_settings.svg" width="60px"><p><a href="#application-settings">應用程式設定</a></p></td></tr>
 </table>
 
-Adobe Campaign是雲端解決方案，為管理員提供不同的方式來設定應用程式。 雖然基礎架構設定由Adobe執行，但功能管理員可執行下列各項設定作業。
+作為雲端解決方案，Adobe Campaign為管理員提供不同的方式來設定應用程式。 雖然基礎架構配置由Adobe執行，但功能管理員可以執行下面詳細介紹的各種配置操作。
 
 >[!NOTE]
 >
->如果您對實作和設定事項有任何疑問或要求，請聯絡您的Adobe銷售代表。
+>如果您對實作和設定事項有任何疑問或要求，請連絡您的Adobe銷售代表。
 
 請注意，如果您的實例是在AWS上代管，管理員用戶也可以利用Campaign Control Panel來管理每個實例的設定和跟蹤使用實例。 如需詳細資訊，請參閱[專屬文件](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)。
 
@@ -36,7 +36,7 @@ Adobe Campaign是雲端解決方案，為管理員提供不同的方式來設定
 
 <img src="assets/do-not-localize/icon_menu.svg" width="60px">
 
-當按一下左上角的Adobe Campaign標誌時，可透過&#x200B;**[!UICONTROL Administration]**&#x200B;功能表執行不同的Adobe Campaign管理作業。 此部分介面只能由平台的功能管理員存取。
+當按一下左上角的Adobe Campaign標誌時，可透過&#x200B;**[!UICONTROL Administration]**&#x200B;選單執行不同的Adobe Campaign管理作業。 此部分介面只能由平台的功能管理員存取。
 
 可用的不同功能表包括：
 
@@ -53,7 +53,7 @@ Adobe Campaign是雲端解決方案，為管理員提供不同的方式來設定
 
 <img src="assets/do-not-localize/icon_users.svg"  width="60px">
 
-邀請使用者存取應用程式並管理&#x200B;**安全性群組**，這些是一組在您組織內共用相同角色和權限的使用者。 依預設，Adobe Campaign提供一組&#x200B;**角色**，可讓您定義指派給使用者和使用者群組的統一授權。 角色與&#x200B;**組織單位**&#x200B;結合後，為用戶提供了介面的篩選視圖，並定義了對不同功能的訪問權。
+邀請使用者存取應用程式並管理&#x200B;**安全性群組**，這些是一組在您組織內共用相同角色和權限的使用者。 依預設，Adobe Campaign提供一組&#x200B;**角色**，可讓您定義指派給使用者和使用者群組的單一授權。 角色與&#x200B;**組織單位**&#x200B;結合後，為用戶提供了介面的篩選視圖，並定義了對不同功能的訪問權。
 
 Campaign Standard也可讓您監控與安全性相關的資訊。 您可以透過&#x200B;**[!UICONTROL Export audits]**&#x200B;畫面擷取使用者匯出資料的相關資訊，並運用&#x200B;**[!UICONTROL Licenses]**&#x200B;畫面來監控組織內所有已安裝的促銷活動授權，以及不同的資訊，例如組建編號、發行版本和合約條款。
 
@@ -70,11 +70,11 @@ Campaign Standard也可讓您監控與安全性相關的資訊。 您可以透�
 
 <img src="assets/do-not-localize/icon_channels.svg" width="60px">
 
-Adobe Campaign中的所有通訊管道都必須正確設定，才能有效傳送訊息。**[!UICONTROL Channel]**&#x200B;功能表可讓您管理連結至不同管道的技術參數。
+必須正確配置Adobe Campaign的所有通信通道才能有效地發送消息。**[!UICONTROL Channel]**&#x200B;菜單允許您管理連結到不同通道的技術參數。
 
 配置各種&#x200B;**email**&#x200B;參數：反彈、隔離、電子郵件屬性和路由參數的處理規則、類型規則。 定義&#x200B;**SMS**&#x200B;頻道的路由配置和屬性，以及SMS編碼和格式。
 
-設定&#x200B;**行動應用程式**，以便能夠使用Adobe Experience Platform SDK傳送應用程式內訊息和推播通知。
+設定&#x200B;**行動應用程式**，以便能夠使用Adobe Experience PlatformSDK傳送應用程式內訊息和推播通知。
 
 顯示全文:
 
@@ -89,7 +89,7 @@ Adobe Campaign中的所有通訊管道都必須正確設定，才能有效傳送
 
 Campaign Standard隨附不同的應用程式元素，可依您的需求進行設定。
 
-設定&#x200B;**外部帳戶**，這些帳戶用於將Adobe Campaign連接至外部伺服器。 存取「促銷活動標準」目標對應，並使用&#x200B;**技術工作流程**&#x200B;監控您的平台。
+設定&#x200B;**外部帳戶**，這些帳戶用於將Adobe Campaign連接到外部伺服器。 存取Campaign Standard目標對應，並使用&#x200B;**技術工作流程**&#x200B;監控您的平台。
 
 為您的組織定義一或多個&#x200B;**品牌**，並設定在應用程式中傳送&#x200B;**即時通知**，以備發生重要系統活動時使用。
 

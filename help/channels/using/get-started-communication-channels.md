@@ -26,7 +26,7 @@ ht-degree: 23%
 </table>
 
 Adobe Campaign可讓您跨各個通道啟動、衡量和自動化宣傳活動。
-協調所有行銷通道並非不可能的任務。 借助Adobe Campaign，您可以將來自不同系統、裝置和通道的客戶資料匯入單一個人檔案。 然後，適時地提供相關的宣傳活動，在客戶歷程中以正確的位置和方式與客戶見面。
+協調所有行銷通道並非不可能的任務。 在Adobe Campaign的協助下，您可以將來自不同系統、裝置和通道的客戶資料匯入單一個人檔案。 然後，適時地提供相關的宣傳活動，在客戶歷程中以正確的位置和方式與客戶見面。
 
 ## 全域概念 {#global-concepts}
 
@@ -48,11 +48,11 @@ Adobe Campaign可讓您跨各個通道啟動、衡量和自動化宣傳活動。
 
 <img src="assets/do-not-localize/icon_channels.svg"  width="60px">
 
-**Adobe Campaign提供** 5種通訊管道：電子郵件、簡訊、推播通知、應用程式內訊息和直接郵件傳送。
+**Adobe Campaign有** 五個通信渠道：電子郵件、簡訊、推播通知、應用程式內訊息和直接郵件傳送。
 
 對於每個通道，都提供特定功能。 例如，電子郵件渠道允許您執行A/B測試，以測試最多3個版本的電子郵件。 透過SMS頻道，管理STOP SMS訊息，並將收件者傳入的SMS儲存至您的資料庫。
 
-此外，運用Campaign Standard **個人化和動態內容功能**&#x200B;來擷取觀眾的興趣。
+此外，您還可運用Campaign Standard **個人化和動態內容功能**&#x200B;來擷取觀眾的興趣。
 
 顯示全文:
 
@@ -100,7 +100,7 @@ Campaign隨附著著陸頁面，這些網頁表單可用來&#x200B;**擷取您�
 * [最佳化您的傳遞能力](../../sending/using/about-deliverability.md)
 * [傳遞最佳實務](../../sending/using/delivery-best-practices.md)
 * [設計電子郵件內容](../../designing/using/designing-content-in-adobe-campaign.md)
-* [匯入AEM內容](../../integrating/using/creating-email-experience-manager.md)
+* [匯入內AEM容](../../integrating/using/creating-email-experience-manager.md)
 * [使用工作流程傳送訊息](../../automating/using/about-channel-activities.md)
 * [通訊管道教學課程影片](https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html)
 * [使用案例：建立跨通道傳送](../../automating/using/workflow-cross-channel-delivery.md)

@@ -49,7 +49,7 @@ ht-degree: 91%
    <td> Experience Manager<br /> 6.1、6.2、6.3、6.4、6.5<br /> </td> 
    <td> 可讓您直接在 Adobe Experience Manager 中建立對應至 Adobe Campaign 資料庫的電子郵件內容或表單。<br /> </td> 
    <td> 
-     <a href="../../integrating/using/integrating-with-experience-manager.md">使用Campaign和Experience Manager</a>、 <a href="https://helpx.adobe.com/tw/experience-manager/6-4/sites/administering/using/campaignstandard.html">整合Experience Manager和Campaign Standard</a>, <a href="https://gn.adobe.com/doc/standard/getting_started/en/ACS_AEM.html">使用Experience Manager和Campaign建立電子郵件</a> 
+     <a href="../../integrating/using/integrating-with-experience-manager.md">使用促銷活動和Experience Manager</a>、 <a href="https://helpx.adobe.com/tw/experience-manager/6-4/sites/administering/using/campaignstandard.html">整合Experience Manager和Campaign Standard</a>, <a href="https://gn.adobe.com/doc/standard/getting_started/en/ACS_AEM.html">建立包含Experience Manager和促銷活動的電子郵件</a> 
     </td> 
   </tr> 
   <tr> 
@@ -92,7 +92,7 @@ ht-degree: 91%
    <td> Dreamweaver<br /> </td> 
    <td> 可讓您從 Dreamweaver 編輯電子郵件內容，並與 Adobe Campaign 同步化。<br /> </td> 
    <td> 
-    <a href="https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.translate.html">使用</a> Dreamweavervideo、Use  <a href="https://helpx.adobe.com/tw/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Campaign extension for Dreamweaver建立個人化電子郵件</a> 
+    <a href="https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.translate.html">使用</a> Dreamweavervideo、Use  <a href="https://helpx.adobe.com/tw/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Campaign extension forDreamweaver建立個人化電子郵件</a> 
   </td> 
   </tr> 
   <tr> 

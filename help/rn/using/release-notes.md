@@ -101,7 +101,7 @@ ht-degree: 99%
 
 * 使用事件變數的活動現在可使用新的 **GetOption** 函式，在呼叫具有外部參數的工作流程後即可使用。這可讓您傳回指定函式的值。[進一步瞭解](../../automating/using/customizing-workflow-external-parameters.md)
 
-* 新選項可讓Campaign Standard在啟動工作流程之前，先檢查系統上的實體記憶體&#x200B;**可用性。**&#x200B;如果記憶體量太低，工作流程執行將延遲，直到系統記憶體達到此臨界值。這樣可以避免效能進一步降低並降低停機風險。當伺服器上的負載降低，而記憶體增加時，工作流程就會自動恢復。請注意，此選項為唯讀且無法修改。[進一步瞭解](../../automating/using/best-practices-workflows.md#execution)
+* 新選項允許Campaign Standard在啟動工作流之前檢查系統上的物理記憶體&#x200B;**可用性。**&#x200B;如果記憶體量太低，工作流程執行將延遲，直到系統記憶體達到此臨界值。這樣可以避免效能進一步降低並降低停機風險。當伺服器上的負載降低，而記憶體增加時，工作流程就會自動恢復。請注意，此選項為唯讀且無法修改。[進一步瞭解](../../automating/using/best-practices-workflows.md#execution)
 
 * Adobe Campaign Standard 提供新的流程，可讓您更輕鬆地從舊版 SDK v4 行動應用程式移轉至 **Adobe Experience Platform Mobile SDK**。請參見[此頁面](../../administration/using/sdkv4-migration.md)。
 

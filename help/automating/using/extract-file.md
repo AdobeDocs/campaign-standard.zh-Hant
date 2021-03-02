@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: fileExport,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: c29eff0d241cd561a7e609ab44222700e2a8868d
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 91%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -49,11 +49,11 @@ ht-degree: 91%
    >
    >可以使用此欄位的 **[!UICONTROL formatDate]** 函式指定檔案名稱。
 
-1. 您也可以在 **[!UICONTROL Add a pre-processing step]** 欄位中選取 **[!UICONTROL Compression]** 以壓縮輸出檔案。輸出檔案將壓縮為 GZIP 檔案 (.gz)。
+1. 您也可以在 **[!UICONTROL Add a post-processing stage]** 欄位中選取 **[!UICONTROL Compression]** 以壓縮輸出檔案。輸出檔案將壓縮為 GZIP 檔案 (.gz)。
 
-   **[!UICONTROL Add a pre-processing step]**&#x200B;欄位還允許您在解壓檔案之前對其進行加密。 有關如何使用加密檔案的詳細資訊，請參閱[本節](../../automating/using/managing-encrypted-data.md)
+   **[!UICONTROL Add a post-processing stage]**&#x200B;欄位還允許您在解壓檔案之前對其進行加密。 有關如何使用加密檔案的詳細資訊，請參閱[本節](../../automating/using/managing-encrypted-data.md)
 
-1. 按一下 ![](assets/add_darkgrey-24px.png) 或 **[!UICONTROL Add an element]** 按鈕以新增至輸出欄。
+1. 按一下&#x200B;**[!UICONTROL Create element]**&#x200B;按鈕以添加輸出列。
 
    ![](assets/wkf_data_export2.png)
 

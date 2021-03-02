@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: sending-and-tracking-messages
 context-tags: delivery,deployment,back
 translation-type: tm+mt
-source-git-commit: 8c636ec7a35e9c34210bbb04b1b13aaa6a431345
+source-git-commit: d08821c526d54dabc3b74651449a2f01e99c2a6a
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 20%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 20%
 
 在您j完成訊息準備並執行核准步驟後，即可傳送訊息。如需訊息準備的詳細資訊，請參閱[準備傳送](../../sending/using/preparing-the-send.md)。
 
-只有具有 **[!UICONTROL Start deliveries]** 角色的使用者才能確認傳送。如需詳細資訊，請參閱[角色清單](../../administration/using/list-of-roles.md)區段。
+只有&#x200B;**[!UICONTROL Start deliveries]**&#x200B;角色的使用者可以確認傳送。 如需詳細資訊，請參閱[角色清單](../../administration/using/list-of-roles.md)區段。
 
 <!--Users without this role will see the following message: 
 
@@ -42,9 +42,9 @@ ht-degree: 20%
 
 >[!NOTE]
 >
->如果已排程訊息，則會在達到傳送時間時傳送訊息。如需排程訊息的詳細資訊，請參閱[本區段](../../sending/using/about-scheduling-messages.md)。
+>如果訊息已排程，則會在到達傳送時間時傳送訊息。 如需排程訊息的詳細資訊，請參閱[本區段](../../sending/using/about-scheduling-messages.md)。
 
-如果您使用不含彙總期間的循環傳送，則可在傳送傳遞前要求確認。若要這麼做，在設定訊息時，請開啟傳送控制面板的&#x200B;**[!UICONTROL Schedule]**&#x200B;區塊並啟動專用選項。
+如果您使用不含彙總期間的循環傳送，則可在傳送傳遞前要求確認。設定訊息時，請開啟傳送控制面板的&#x200B;**[!UICONTROL Schedule]**&#x200B;區塊並啟動專用選項。
 
 ![](assets/confirmation_recurring_deliveries.png)
 
@@ -65,7 +65,7 @@ ht-degree: 20%
 
 ![](assets/sending_delivery.png)
 
-如果KPI更新時間太長或未考慮發送日誌的結果，請按一下&#x200B;**[!UICONTROL Deployment]**&#x200B;窗口中的&#x200B;**[!UICONTROL Compute stats]**&#x200B;按鈕。
+如果KPI更新時間太長或無法反映發送日誌的結果，請按一下&#x200B;**[!UICONTROL Deployment]**&#x200B;窗口中的&#x200B;**[!UICONTROL Compute stats]**&#x200B;按鈕。
 
 ![](assets/sending_delivery7.png)
 
@@ -94,7 +94,7 @@ ht-degree: 20%
 
 * 否則，狀態變化為&#x200B;**[!UICONTROL Failed]**&#x200B;並相應地降低&#x200B;**[!UICONTROL Delivered]**&#x200B;百分比。
 
-因此，您應等到有效期結束時，才能查看最終的&#x200B;**[!UICONTROL Delivered]**&#x200B;百分比，以及實際的&#x200B;**[!UICONTROL Sent]**&#x200B;和&#x200B;**[!UICONTROL Failed]**&#x200B;訊息的最終數字。
+因此，您必須等到有效期結束，才能查看最終的&#x200B;**[!UICONTROL Delivered]**&#x200B;百分比，以及最終的&#x200B;**[!UICONTROL Sent]**&#x200B;和&#x200B;**[!UICONTROL Failed]**&#x200B;訊息數。
 
 ### 電子郵件回饋服務（測試版）{#email-feedback-service}
 
@@ -112,7 +112,7 @@ ht-degree: 20%
 
 ![](assets/efs-pending.png)
 
-當訊息實際傳送至目標描述檔，並且從增強MTA即時回報此資訊後，傳送記錄會顯示成功接收訊息之每個位址的&#x200B;**[!UICONTROL Sent]**&#x200B;狀態。 每次成功傳送時，**[!UICONTROL Delivered]**&#x200B;百分比會隨之增加。
+當從「增強MTA」即時報告傳回目標描述檔的訊息傳送時，傳送記錄會顯示成功接收訊息之每個位址的&#x200B;**[!UICONTROL Sent]**&#x200B;狀態。 每次成功傳送時，**[!UICONTROL Delivered]**&#x200B;百分比會隨之增加。
 
 當硬彈回訊息從增強的MTA回報時，其記錄狀態會從&#x200B;**[!UICONTROL Pending]**&#x200B;變更為&#x200B;**[!UICONTROL Failed]**，而&#x200B;**[!UICONTROL Bounces + errors]**&#x200B;百分比也會隨之增加。
 
@@ -134,10 +134,22 @@ ht-degree: 20%
 
 下表顯示了EFS功能引入的KPI和發送日誌狀態的更改。
 
-| 發送進程中的步驟<br> | KPI摘要<br>沒有EFS | 發送日誌狀態<br>不帶EFS | KPI摘要<br>具有EFS | 發送日誌狀態<br>WITH EFS |
-|--- |--- |--- | --- | --- |
-| 訊息從促銷活動成功中繼至增強的MTA | <ul><li>**[!UICONTROL Delivered]** 百分比以100%開始</li><li>**[!UICONTROL Bounces + errors]** 百分比開始為0%</li></ul> | 已傳送 | <ul><li>**[!UICONTROL Delivered]** 百分比開始為0%</li><li>**[!UICONTROL Bounces + errors]** 百分比開始為0%</li></ul> | 待定 |
-| 從增強的MTA回報硬反彈訊息 | <ul><li>**[!UICONTROL Delivered]** 百分比會因此減少</li><li>**[!UICONTROL Bounces + errors]** 百分比隨之增加</li></ul> | 失敗 | <ul><li>**[!UICONTROL Delivered]**&#x200B;百分比無變化</li><li>**[!UICONTROL Bounces + errors]** 百分比隨之增加</li></ul> | 失敗 |
-| 從增強的MTA回報軟反彈訊息 | <ul><li>**[!UICONTROL Delivered]**&#x200B;百分比無變化</li><li>**[!UICONTROL Bounces + errors]**&#x200B;百分比無變化</li></ul> | 已傳送 | <ul><li>**[!UICONTROL Delivered]**&#x200B;百分比無變化</li><li>**[!UICONTROL Bounces + errors]** 百分比隨之增加</li></ul> | 失敗 |
-| 軟反彈訊息重試成功 | <ul><li>**[!UICONTROL Delivered]**&#x200B;百分比無變化</li><li>**[!UICONTROL Bounces + errors]**&#x200B;百分比無變化</li></ul> | 已傳送 | <ul><li>**[!UICONTROL Delivered]** 百分比隨之增加</li><li>**[!UICONTROL Bounces + errors]** 百分比會因此減少</li></ul> | 已傳送 |
-| 軟反彈訊息重試失敗 | <ul><li>**[!UICONTROL Delivered]** 百分比會因此減少</li><li>**[!UICONTROL Bounces + errors]** 百分比隨之增加</li></ul> | 失敗 | <ul><li> **[!UICONTROL Delivered]**&#x200B;百分比無變化 </li><li> **[!UICONTROL Bounces + errors]**&#x200B;百分比無變化 </li></ul> | 失敗 |
+**使用電子郵件回饋服務**
+
+| 傳送程式的步驟 | KPI摘要 | 正在發送日誌狀態 |
+|--- |--- |--- |
+| 訊息從促銷活動成功中繼至增強的MTA | <ul><li>**[!UICONTROL Delivered]** 百分比開始為0%</li><li>**[!UICONTROL Bounces + errors]** 百分比開始為0%</li></ul> | 待定 |
+| 從增強的MTA回報硬反彈訊息 | <ul><li>**[!UICONTROL Delivered]**&#x200B;百分比無變化</li><li>**[!UICONTROL Bounces + errors]** 百分比隨之增加</li></ul> | 失敗 |
+| 從增強的MTA回報軟反彈訊息 | <ul><li>**[!UICONTROL Delivered]**&#x200B;百分比無變化</li><li>**[!UICONTROL Bounces + errors]** 百分比隨之增加</li></ul> | 失敗 |
+| 軟反彈訊息重試成功 | <ul><li>**[!UICONTROL Delivered]** 百分比隨之增加</li><li>**[!UICONTROL Bounces + errors]** 百分比會因此減少</li></ul> | 已傳送 |
+| 軟反彈訊息重試失敗 | <ul><li> **[!UICONTROL Delivered]**&#x200B;百分比無變化 </li><li> **[!UICONTROL Bounces + errors]**&#x200B;百分比無變化 </li></ul> | 失敗 |
+
+**不提供電子郵件意見回應服務**
+
+| 傳送程式的步驟 | KPI摘要 | 正在發送日誌狀態 |
+|--- |--- |--- |
+| 訊息從促銷活動成功中繼至增強的MTA | <ul><li>**[!UICONTROL Delivered]** 百分比以100%開始</li><li>**[!UICONTROL Bounces + errors]** 百分比開始為0%</li></ul> | 已傳送 |
+| 從增強的MTA回報硬反彈訊息 | <ul><li>**[!UICONTROL Delivered]** 百分比會因此減少</li><li>**[!UICONTROL Bounces + errors]** 百分比隨之增加</li></ul> | 失敗 |
+| 從增強的MTA回報軟反彈訊息 | <ul><li>**[!UICONTROL Delivered]**&#x200B;百分比無變化</li><li>**[!UICONTROL Bounces + errors]**&#x200B;百分比無變化</li></ul> | 已傳送 |
+| 軟反彈訊息重試成功 | <ul><li>**[!UICONTROL Delivered]**&#x200B;百分比無變化</li><li>**[!UICONTROL Bounces + errors]**&#x200B;百分比無變化</li></ul> | 已傳送 |
+| 軟反彈訊息重試失敗 | <ul><li>**[!UICONTROL Delivered]** 百分比會因此減少</li><li>**[!UICONTROL Bounces + errors]** 百分比隨之增加</li></ul> | 失敗 |

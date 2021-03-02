@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: fileImport,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: c29eff0d241cd561a7e609ab44222700e2a8868d
 workflow-type: tm+mt
-source-wordcount: '1364'
-ht-degree: 93%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 93%
 
 >[!CAUTION]
 >
->使用此功能時，請記住SFTP儲存空間、資料庫儲存空間和作用中的設定檔限制，請視您的Adobe Campaign合約而定。
+>使用此功能時，請記住SFTP儲存空間、DB儲存空間和作用中的設定檔限制(依您的Adobe Campaign合約規定)。
 
 ![](assets/data_loading.png)
 
@@ -103,9 +103,9 @@ ht-degree: 93%
 
       ![](assets/wkf_file_loading1.png)
 
-1. 如果要從中載入資料的檔案壓縮到 GZIP 檔案 (.gz) 中，請在 **[!UICONTROL Add a pre-processing step]** 欄位中選取 **[!UICONTROL Decompression]** 選項。這可讓您在載入資料之前先解壓縮檔案。只有當檔案來自活動的入站轉變時，才可使用此選項。
+1. 如果要從中載入資料的檔案壓縮到 GZIP 檔案 (.gz) 中，請在 **[!UICONTROL Add a pre-processing stage]** 欄位中選取 **[!UICONTROL Decompression]** 選項。這可讓您在載入資料之前先解壓縮檔案。只有當檔案來自活動的入站轉變時，才可使用此選項。
 
-   **[!UICONTROL Add a pre-processing step]**&#x200B;欄位還允許您在將檔案導入資料庫之前對其進行解密。 有關如何使用加密檔案的詳細資訊，請參閱[本節](../../automating/using/managing-encrypted-data.md)
+   **[!UICONTROL Add a pre-processing stage]**&#x200B;欄位還允許您在將檔案導入資料庫之前對其進行解密。 有關如何使用加密檔案的詳細資訊，請參閱[本節](../../automating/using/managing-encrypted-data.md)
 
 1. **[!UICONTROL Keep the rejects in a file]** 選項可讓您下載包含匯入期間發生錯誤的檔案，並套用至後期處理階段。啟動此選項時，外站轉變會重新命名為「拒絕」。
 

@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: ea0755d22b34c4c961fd8715ecf4551ffcdcb58e
+source-git-commit: 6dd54dc72fdaf3261d13ca972f1258bcbb3c1e3a
 workflow-type: tm+mt
-source-wordcount: '6571'
+source-wordcount: '6616'
 ht-degree: 97%
 
 ---
@@ -19,9 +19,11 @@ ht-degree: 97%
 
 除了 Adobe Campaign [發行版本](../../rn/using/release-notes.md)以外，本頁還列出 Adobe Campaign Standard 檔案中的所有新更新。
 
-## 2021 年 2 月 {#doc-updates-february-2021}
+## 2021 年 3月 {#doc-updates-march-2021}
 
-已新增相關資訊，瞭解如何確保在先前執行的一或多個工作仍待執行之前，不會重新排程工作流程。 [顯示全文](../../automating/using/scheduled-workflows-execution.md)
+已新增資訊，以指定在查詢中選取au audience時，其定義會被複製而非參考。 [顯示全文](../../audiences/using/selecting-an-audience-in-a-message.md)
+
+與觀眾目標服務和Adobe Experience Platform資料連接器相關的資訊已重新分組為新區段。 [顯示全文](../../integrating/using/aep-about-audience-destinations-service.md)
 
 ## 版本 21.1 – 2021 年 2 月 {#release-21-1---february-2021}
 
@@ -42,6 +44,8 @@ Adobe Experience Manager 整合改進 - [瞭解詳情](../../integrating/using/c
 已在使用&#x200B;**[!UICONTROL Transfer file]**&#x200B;活動後可用的新&#x200B;**[!UICONTROL filesCount]**&#x200B;輸出變數上新增了資訊。[顯示全文](../../automating/using/transfer-file.md#output-variables)
 
 **設定電子郵件通道**&#x200B;區段已更新，以釐清最新適用的電子郵件設定。某些仍在某些客戶使用的舊參數會列在頁面底部。 [顯示全文](../../administration/using/configuring-email-channel.md)
+
+已新增相關資訊，瞭解如何確保在先前執行的一或多個工作仍待執行之前，不會重新排程工作流程。 [顯示全文](../../automating/using/scheduled-workflows-execution.md)
 
 ## 2020 年 12 月{#doc-updates-december-2020}
 
@@ -71,7 +75,7 @@ SMS 連接器通訊協定及設定頁面已移至[此處](../../administration/u
 
 **Transactional messaging**&#x200B;區段已重新整理並收集到一個位置，以改善導覽。 [顯示全文](../../channels/using/getting-started-with-transactional-msg.md)
 
-「Adobe Experience Platform Data Connector」區段中已新增有關隱私權管理相關資料對應驗證錯誤以及如何疑難排解的資訊。[顯示全文](../../developing/using/aep-mapping-activation.md)
+「Adobe Experience Platform Data Connector」區段中已新增有關隱私權管理相關資料對應驗證錯誤以及如何疑難排解的資訊。[顯示全文](../../integrating/using/aep-mapping-activation.md)
 
 ## 發行版本 20.4 – 2020 年 10 月 {#release-20-4---october-2020}
 
@@ -173,7 +177,7 @@ External API 活動 (GA) – [瞭解詳情](../../automating/using/external-api.
 
 已將其他資源新增至文件首頁。[瞭解詳情](../../campaign-standard-home.md)
 
-Experience Cloud ID 服務 (ECID) 的相關資訊已新增至 Adobe Experience Platform 資料連接器檔案。[瞭解詳情](../../developing/using/aep-about-data-connector.md#key-concepts)
+Experience Cloud ID 服務 (ECID) 的相關資訊已新增至 Adobe Experience Platform 資料連接器檔案。[瞭解詳情](../../integrating/using/aep-about-data-connector.md#key-concepts)
 
 「異動訊息」區段已改良，提供如何存取最新異動事件和更新螢幕擷取畫面的資訊。[瞭解詳情](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
 
@@ -239,9 +243,9 @@ Campaign 電子郵件設計工具檔案和相關頁面已更新，以反映 [!DN
 
 **發行中包含的新功能**
 
-Adobe Experience Platform Data Connector（測試版） – [瞭解詳情](../../developing/using/aep-about-data-connector.md)
+Adobe Experience Platform Data Connector（測試版） – [瞭解詳情](../../integrating/using/aep-about-data-connector.md)
 
-對象目標（測試版） – [瞭解詳情](../../audiences/using/aep-about-audience-destinations-service.md)
+對象目標（測試版） – [瞭解詳情](../../integrating/using/aep-about-audience-destinations-service.md)
 
 **此版本隨附的其他文件更新**
 

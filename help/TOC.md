@@ -7,9 +7,9 @@ user-guide-description: '說明中心，以瞭解使用 Campaign Standard 所需
 breadcrumb-title: 協助中心
 title: Campaign Standard 指南
 translation-type: tm+mt
-source-git-commit: b6fe1491e3ff519f50e1492abcac7b79dc0e64e6
+source-git-commit: c9db89a98d8b246217add34ce09e6405ce3d5cde
 workflow-type: tm+mt
-source-wordcount: '1759'
+source-wordcount: '1756'
 ht-degree: 99%
 
 ---
@@ -70,10 +70,6 @@ ht-degree: 99%
       + [關於 Campaign 中的加入和退出](audiences/using/about-opt-in-and-opt-out-in-campaign.md)
       + [管理 Campaign 中的加入和退出](audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
       + [識別要傳送的退出設定檔](audiences/using/identifying-opt-out-profiles-for-a-delivery.md)
-   + 使用 Adobe Experience Platform {#working-with-adobe-experience-platform}
-      + [關於 Audience Destinations 服務](audiences/using/aep-about-audience-destinations-service.md)
-      + [管理 Adobe Experience Platform 閱聽眾](audiences/using/aep-managing-audiences.md)
-      + [使用區段建置器](audiences/using/aep-using-segment-builder.md)
 + 通訊通道 {#communication-channels}
    + [開始使用通訊管道](channels/using/get-started-communication-channels.md)
    + 關於通訊通道 {#about-communication-channels}
@@ -274,6 +270,19 @@ ht-degree: 99%
          + [管理同步工作流程](integrating/using/d365-acs-self-service-app-workflows.md)
          + [在 Microsoft Dynamics 365 和 Campaign 之間對應資料](integrating/using/d365-acs-self-service-app-data-sync.md)
       + [使用 Microsoft Dynamics 365 整合](integrating/using/d365-acs-using-the-integration.md)
+   + 促銷活動與Adobe Experience Platform{#adobe-experience-platform}
+      + 對象目標服務{#audience-destinations}
+         + [關於 Audience Destinations 服務](integrating/using/aep-about-audience-destinations-service.md)
+         + [管理 Adobe Experience Platform 閱聽眾](integrating/using/aep-managing-audiences.md)
+         + [使用區段建置器](integrating/using/aep-using-segment-builder.md)
+         + [鎖定 Adobe Experience Platform 閱聽眾](integrating/using/aep-targeting-audiences.md)
+         + [使用 Adobe Experience Platform屬性個人化行銷活動](integrating/using/aep-personalizing-campaigns.md)
+      + Adobe Experience Platform Data Connector {#data-connector}
+         + [關於 Adobe Experience Platform Data Connector](integrating/using/aep-about-data-connector.md)
+         + [Experience Platform 資料模型概觀](integrating/using/aep-data-model-overview.md)
+         + [映射定義](integrating/using/aep-mapping-definition.md)
+         + [映射啟動](integrating/using/aep-mapping-activation.md)
+         + [透過 API 觸發資料引入](integrating/using/aep-triggering-data-ingestion.md)
 + 管理流程和資料 {#managing-processes-and-data}
    + [開始使用資料和流程管理](automating/using/get-started-workflows.md)
    + 工作流程一般操作 {#workflow-general-operation}
@@ -379,9 +388,6 @@ ht-degree: 99%
          + [在外部檔案中匯出設定檔](automating/using/exporting-profiles-in-file.md)
          + [從檔案更新多個訂閱狀態](automating/using/updating-subscriptions-from-file.md)
          + [從檔案訂閱設定檔至特定服務](automating/using/subscribing-profiles-from-file.md)
-   + 與 Adobe Experience Platform 閱聽眾合作 {#working-with-aep-audiences}
-      + [鎖定 Adobe Experience Platform 閱聽眾](automating/using/aep-targeting-audiences.md)
-      + [使用 Adobe Experience Platform屬性個人化行銷活動](automating/using/aep-personalizing-campaigns.md)
 + 開發 {#developing}
    + [開始使用 Campaign Standard 資料模型](developing/using/get-started-data-model.md)
    + 關於自訂資源 {#about-custom-resources}
@@ -421,12 +427,6 @@ ht-degree: 99%
       + [追蹤記錄檔](developing/using/datamodel-tracking.md)
       + [取消訂閱事件](developing/using/datamodel-unsubscription.md)
       + [訪客](developing/using/datamodel-visitor.md)
-   + Adobe Experience Platform Data Connector {#mapping-campaign-and-aep-data}
-      + [關於 Adobe Experience Platform Data Connector](developing/using/aep-about-data-connector.md)
-      + [Experience Platform 資料模型概觀](developing/using/aep-data-model-overview.md)
-      + [映射定義](developing/using/aep-mapping-definition.md)
-      + [映射啟動](developing/using/aep-mapping-activation.md)
-      + [透過 API 觸發資料引入](developing/using/aep-triggering-data-ingestion.md)
 + 管理 {#administrating}
    + [開始使用 Campaign Standard 管理](administration/using/get-started-campaign-administration.md)
    + [監控准則](administration/using/monitoring-guidelines.md)

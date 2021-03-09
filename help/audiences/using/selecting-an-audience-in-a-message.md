@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: managing-audiences
 context-tags: deliveryCreation,wizard;delivery,audience,back
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: bdeb3e0c81cf729436a722bfd349a39d5dcad351
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 83%
+source-wordcount: '411'
+ht-degree: 74%
 
 ---
 
@@ -39,13 +39,15 @@ Adobe Campaign　可讓您在訊息的對象中設定數個設定檔類型。
 
 1. 定義電子郵件的主要　**[!UICONTROL Target]**　功能。這是電子郵件的一般目標對象。
 
-   目標會在　**[!UICONTROL Target]**　標籤中定義，而且是由資料庫中識別的設定檔組成。
-
-   您可以使用[查詢編輯器](../../automating/using/editing-queries.md#creating-queries)功能來建立主要目標。
+   目標會在　**[!UICONTROL Target]**　標籤中定義，而且是由資料庫中識別的設定檔組成。您可以使用[查詢編輯器](../../automating/using/editing-queries.md#creating-queries)功能來建立主要目標。
 
    在此標籤中，**[!UICONTROL Shortcuts]**　浮動視窗僅包含預先定義的篩選條件，以及在已識別設定檔中定義的對象。**[!UICONTROL Explorer]** 選項可讓您存取其他設定。
 
    因此，您可以重複使用和結合現有的對象，對其套用其他篩選器等。
+
+   >[!NOTE]
+   >
+   >當定位對象時，請注意，對象的定義未參考，而是複製&#x200B;**至查詢。**&#x200B;如果您在查詢中定位對象後對對象進行任何變更，請務必再次設定查詢，將新定義納入考量。
 
 1. 定義您要用於電子郵件的　**[!UICONTROL Test profiles]**。測試設定檔會收到您之前可以傳送的校樣，以便先測試電子郵件，然後再將之傳送給主要目標。
 

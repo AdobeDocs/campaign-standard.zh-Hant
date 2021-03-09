@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
 translation-type: tm+mt
-source-git-commit: 558f88a129264560851832ca70628509661cb208
+source-git-commit: 1b971fbf7b5d36283434db0389534a3dda2ebb45
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '466'
 ht-degree: 97%
 
 ---
@@ -25,9 +25,7 @@ Adobe 透過新增功能、增強功能和修正不斷改進其解決方案。
 
 所有發行日期皆可能變更：我們建議您定期造訪本頁面，以檢查更新。
 
-**新增功能！**&#x200B;訂閱 [Campaign Standard 發行通知](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU)，直接在收件匣中取得有關即將發行的詳細資訊。
-
-## 版本 21.1 - 2 月發行{#release-21-1-release}
+## 版本 21.2 - 5 月發行 {#release-21-2-release}
 
 環境更新會在以下指定時段內以波形進行。透過電子郵件向每位客戶傳達確切日期。
 
@@ -43,16 +41,18 @@ Adobe 透過新增功能、增強功能和修正不斷改進其解決方案。
  <tbody>
   <tr>
    <td>Stage<br /> </td>
-   <td>2021 年 22 月 1 日至 2 日<br /> </td>
+   <td>2021年4月19日至20日<br /> </td>
   </tr>
   <tr>
    <td> 製作<br /> </td>
-   <td>2021年2月8日- 3月1日<br /> </td>
+   <td>2021年4月26日至5月3日<br /> </td>
   </tr>
  </tbody>
 </table>
 
 如果您有任何其他問題，請聯絡 [Adobe Client Care](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)。
+
+訂閱 [Campaign Standard 發行通知](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU)，直接在收件匣中取得有關即將發行的詳細資訊。
 
 ## 問題與解答 {#questions-and-answers}
 

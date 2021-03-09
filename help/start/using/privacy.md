@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 translation-type: tm+mt
-source-git-commit: 2879066634a8a123ef5d07d46aa96479f156a923
+source-git-commit: 35d61efce8d752ea30b7eaad55e6c23d4debd853
 workflow-type: tm+mt
 source-wordcount: '1479'
 ht-degree: 100%
@@ -85,7 +85,7 @@ Adobe Campaign 是 Adobe Experience Cloud 解決方案的一部分。在 Campaig
 
 因此，身為收集和分享個人資料的公司，您是資料控制方、客戶是資料主體，而 Adobe Campaign 在依您的指示處理個人資料時，會作為資料處理方。請注意，身為資料控制方，您有責任處理與資料主體的關係，例如管理[隱私權要求](#privacy-requests)。
 
-將 Campaign 與其他 Experience Cloud 解決方案整合時，如果閱聽眾可以從一個系統傳輸到另一個系統（例如 [Audience Destinations 服務](../../audiences/using/aep-about-audience-destinations-service.md)、[Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md)、[Audience Manager 或 People 核心服務](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)，或是其他解決方案，如 [Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md)），您需要支付額外的個人護理費用來保護資料。
+將 Campaign 與其他 Experience Cloud 解決方案整合時，如果閱聽眾可以從一個系統傳輸到另一個系統（例如 [Audience Destinations 服務](../../integrating/using/aep-about-audience-destinations-service.md)、[Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md)、[Audience Manager 或 People 核心服務](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)，或是其他解決方案，如 [Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md)），您需要支付額外的個人護理費用來保護資料。
 
 ## 資料擷取 {#data-acquisition}
 

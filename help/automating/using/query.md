@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: query,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: bdeb3e0c81cf729436a722bfd349a39d5dcad351
 workflow-type: tm+mt
-source-wordcount: '1710'
-ht-degree: 95%
+source-wordcount: '1757'
+ht-degree: 93%
 
 ---
 
@@ -50,6 +50,11 @@ ht-degree: 95%
    如需詳細資訊，請參閱[目標維度和資源](#targeting-dimensions-and-resources)。
 
 1. 在 **[!UICONTROL Target]** 索引標籤，定義並結合規則以執行查詢。
+
+   >[!NOTE]
+   >
+   >當定位對象時，請注意，對象的定義未參考，而是複製&#x200B;**至查詢。**&#x200B;如果您在查詢中定位對象後對對象進行任何變更，請務必再次設定查詢，將新定義納入考量。
+
 1. 您可以透過專用索引標籤來定義目標母體的　**[!UICONTROL Additional data]**。此資料會儲存在其他欄中，且僅能用於進行中的工作流程。尤其是，您可以從連結至查詢目標維度的 Adobe Campaign 資料庫表格新增資料。請參閱[擴充資料](#enriching-data)區段。
 
    >[!NOTE]

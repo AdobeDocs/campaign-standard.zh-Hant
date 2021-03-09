@@ -6,7 +6,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 translation-type: tm+mt
-source-git-commit: efa30d7ed4a0caf929da6f485681078318849cda
+source-git-commit: 93e4310c606cb39a1071b8e20d88978839007765
 workflow-type: tm+mt
 source-wordcount: '1071'
 ht-degree: 2%
@@ -31,7 +31,7 @@ Adobe Campaign Standard與Microsoft Dynamics 365自助服務整合應用程式�
 
 ## 必要條件 {#self-service-app-prerequisites}
 
-您必須設定Microsoft Dynamics 365和Adobe Campaign Standard，讓整合應用程式能夠存取您的資料。 在Dynamics 365、Adobe Campaign Standard和Adobe I/O中進行設定需要一些時間；不過，一旦設定好這些功能後，您就可以透過自助服務整合應用程式的使用者介面來控制整合。
+您必須設定Microsoft Dynamics 365和Adobe Campaign Standard，讓整合應用程式能夠存取您的資料。 在Dynamics 365、Adobe Campaign Standard和Adobe I/O中進行配置需要一些時間；不過，一旦設定好這些功能後，您就可以透過自助服務整合應用程式的使用者介面來控制整合。
 
 請從下列章節進一步瞭解：
 
@@ -52,9 +52,9 @@ Adobe Campaign Standard與Microsoft Dynamics 365自助服務整合應用程式�
 
 開啟瀏覽器並瀏覽至與您所在地區關聯的連接器：
 
-* [亞太地區](http://d365-acs-ap.ea.adobe.com/)
-* [歐洲、中東或非洲(EMEA)](http://d365-acs-em.ea.adobe.com/)
-* [美洲](http://d365-acs-na.ea.adobe.com/)
+* [亞太地區](https://d365-acs-ap.ea.adobe.com/)
+* [歐洲、中東或非洲(EMEA)](https://d365-acs-em.ea.adobe.com/)
+* [美洲](https://d365-acs-am.ea.adobe.com/)
 
 ## 隱私權要求確認{#self-service-app-acknowledgement}
 
@@ -113,7 +113,7 @@ Adobe Campaign Standard與Microsoft Dynamics 365自助服務整合應用程式�
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-ingress-play-pointer.png)
 
-在執行後，您應該可以在Microsoft Dynamics 365中新增或修改項目，並在幾分鐘內觀察Adobe Campaign中的這些變更，以進行測試。 如果您需要隨時停止此程式，只需按相同的按鈕即可停止。 [進一步了解](../../integrating/using/d365-acs-self-service-app-workflows.md#workflow-status)
+在執行後，您應該可以在Microsoft Dynamics 365中新增或修改項目，並在幾分鐘內觀察Adobe Campaign的這些變更，以進行測試。 如果您需要隨時停止此程式，只需按相同的按鈕即可停止。 [進一步了解](../../integrating/using/d365-acs-self-service-app-workflows.md#workflow-status)
 
 
 ## 整合應用程式工作區{#self-service-app-workspace}
@@ -130,9 +130,9 @@ Adobe Campaign Standard與Microsoft Dynamics 365自助服務整合應用程式�
 
 * **設定**:選取此選項會傳送您至螢幕，讓您指定Microsoft Dynamics 365和Adobe Campaign的API認證，以及應用程式的其他一般設定。
 
-* **檔案**:此選項是此整合專用之Adobe Campaign檔案的連結
+* **檔案**:此選項是此整合特有的Adobe Campaign檔案連結
 
-* **客戶服務**:這是Experience Cloud檔案的連結，與開立客戶服務票證有關
+* **客戶服務**:這是與開啟客戶服務票證相關的Experience Cloud文檔的連結
 
 * **登出**:這會將您登出應用程式，並允許您以其他使用者的身分登入。
 

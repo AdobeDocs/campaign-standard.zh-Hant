@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 36e0f6be4dc8c1a6e4b0d8878d190f2abce99fcd
+source-git-commit: 35d61efce8d752ea30b7eaad55e6c23d4debd853
 workflow-type: tm+mt
 source-wordcount: '5323'
 ht-degree: 100%
@@ -268,7 +268,7 @@ ht-degree: 100%
 
 **體驗平台整合**
 
-* 從&#x200B;**讀取閱聽眾**&#x200B;活動啟動 Adobe [Experience Platform Audiences](../../automating/using/aep-targeting-audiences.md) 已經有所改善，而可提供較出色的效能及穩定性。此外，工作流程記錄檔已經更清楚且更詳細地記錄啟動工作，讓您在讀取 Adobe Experience Platform 閱聽眾時，能夠更輕鬆地進行監控和疑難排解。
+* 從&#x200B;**讀取閱聽眾**&#x200B;活動啟動 Adobe [Experience Platform Audiences](../../integrating/using/aep-targeting-audiences.md) 已經有所改善，而可提供較出色的效能及穩定性。此外，工作流程記錄檔已經更清楚且更詳細地記錄啟動工作，讓您在讀取 Adobe Experience Platform 閱聽眾時，能夠更輕鬆地進行監控和疑難排解。
 
 **修補程式**
 
@@ -361,7 +361,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Campaign Standard 中的 Adobe Experience Platform 功能目前為測試版，可能會經常更新，恕不另行通知。請參閱詳細說明文件：[體驗平台資料連接器](../../developing/using/aep-about-data-connector.md)，[對象目的地](../../audiences/using/aep-about-audience-destinations-service.md)
+>Campaign Standard 中的 Adobe Experience Platform 功能目前為測試版，可能會經常更新，恕不另行通知。請參閱詳細說明文件：[體驗平台資料連接器](../../integrating/using/aep-about-data-connector.md)，[對象目的地](../../integrating/using/aep-about-audience-destinations-service.md)
 
 * 在工作流程記錄中，每隔 10 分鐘，Campaign 現在會顯示目前執行中的工作已處理的記錄數。
 * 修正匯入已從資料庫刪除的 Adobe Experience Platform 設定檔時可能發生的問題。
@@ -408,7 +408,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td> <p>Adobe Experience Platform Data Connector 現在已與 Adobe Campaign Standard 整合。您可以將 XTK 資料（在 Campaign 中收錄的資料）對應至 Adobe Experience Platform 資料模型 (XDM)，讓您的 Campaign 資料可在 Adobe Experience Platform 上使用。 </p>
-    <p>請注意，此功能僅適用於 Azure 上代管的客戶。如需啟動此功能與條件的詳細資訊，請參閱<a href="../../developing/using/aep-about-data-connector.md">詳細文件</a>及<a href="https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.translate.html">作法影片</a>。</p>
+    <p>請注意，此功能僅適用於 Azure 上代管的客戶。如需啟動此功能與條件的詳細資訊，請參閱<a href="../../integrating/using/aep-about-data-connector.md">詳細文件</a>及<a href="https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.translate.html">作法影片</a>。</p>
    </td> 
   </tr> 
  </tbody> 
@@ -423,7 +423,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td> <p>對象目標可讓您將 Adobe Experience Platform 的分段共用給 Adobe Campaign。</p>
-    <p>請注意，此功能僅適用於 Azure 上代管的客戶。如需啟動此功能與條件的詳細資訊，請參閱<a href="../../audiences/using/aep-about-audience-destinations-service.md">詳細文件</a>及<a href="https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.translate.html">作法影片</a>。 </p>
+    <p>請注意，此功能僅適用於 Azure 上代管的客戶。如需啟動此功能與條件的詳細資訊，請參閱<a href="../../integrating/using/aep-about-audience-destinations-service.md">詳細文件</a>及<a href="https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.translate.html">作法影片</a>。 </p>
    </td> 
   </tr> 
  </tbody> 

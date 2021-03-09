@@ -7,7 +7,7 @@ audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
 translation-type: tm+mt
-source-git-commit: b471fddd49037770e33a113374afd60c2e79e69b
+source-git-commit: 35d61efce8d752ea30b7eaad55e6c23d4debd853
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 20%
@@ -36,7 +36,7 @@ Campaign Integrated Customer Profile 可讓您透過單一檢視追蹤所有通�
 
 當您建立促銷活動或訊息時，您可以從促銷活動資料庫的連絡人中選取、使用簡單或進階標準，或選取對象，來指定傳送的目標。
 
-使用&#x200B;**整合式客戶個人檔案**、**自訂區段**&#x200B;和&#x200B;**控制群組**，更有效地識別所有通道的客戶。 當您瞭解客戶、興趣、人口統計資料和通道偏好時，建立受人關注的個人化體驗會更輕鬆。
+使用&#x200B;**整合式客戶個人檔案**、**自訂區段**&#x200B;和&#x200B;**控制群組**，更有效地識別所有通道的客戶。 當您瞭解客戶、興趣、人口統計資料和通道偏好時，建立受人注目的個人化體驗會更輕鬆。
 
 Adobe Campaign即時建立豐富的客戶個人檔案，讓您在客戶偏好改變時提供更相關的個人化優惠。 此外，Adobe Campaign還整合了進階分析、資料管理和定位功能，以建立受眾。
 
@@ -85,7 +85,7 @@ Adobe Campaign提供一套工具，可協助您遵循GDPR、CCPA和其他隱私�
 
 ## 其他資源
 
-* [使用對象目標服務](../../audiences/using/aep-about-audience-destinations-service.md)
+* [使用對象目標服務](../../integrating/using/aep-about-audience-destinations-service.md)
 * [使用Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md)
 * [Adobe分享的觀眾](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
 * [使用工作流程匯入描述檔](../../automating/using/creating-import-workflow-templates.md)

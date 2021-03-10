@@ -4,7 +4,7 @@ product: campaign
 audience: end-user
 user-guide-title: Campaign Standard
 user-guide-description: '說明中心，以瞭解使用 Campaign Standard 所需的主要功能、工作、設定和其他資源。 '
-breadcrumb-title: 協助中心
+breadcrumb-title: 說明中心
 title: Campaign Standard 指南
 translation-type: tm+mt
 source-git-commit: c9db89a98d8b246217add34ce09e6405ce3d5cde

@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 1b971fbf7b5d36283434db0389534a3dda2ebb45
 workflow-type: tm+mt
 source-wordcount: '466'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -27,9 +27,9 @@ Adobe 透過新增功能、增強功能和修正不斷改進其解決方案。
 
 ## 版本 21.2 - 5 月發行 {#release-21-2-release}
 
-環境更新會在以下指定時段內以波形進行。透過電子郵件向每位客戶傳達確切日期。
+環境更新會在以下指定時段內以波形進行。已透過電子郵件向每位客戶傳達確切日期。
 
-當中繼環境升級開始時，[版本注意事項](../../rn/using/release-notes.md)中提供了有關此版本的詳細資訊。
+當開始升級中繼環境時，[發行說明](../../rn/using/release-notes.md)中提供了關於此版本的詳細資訊。
 
 <table>
  <thead>
@@ -44,7 +44,7 @@ Adobe 透過新增功能、增強功能和修正不斷改進其解決方案。
    <td>2021年4月19日至20日<br /> </td>
   </tr>
   <tr>
-   <td> 製作<br /> </td>
+   <td> 生產<br /> </td>
    <td>2021年4月26日至5月3日<br /> </td>
   </tr>
  </tbody>

@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 6dd54dc72fdaf3261d13ca972f1258bcbb3c1e3a
 workflow-type: tm+mt
 source-wordcount: '6616'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 97%
 
 **發行中包含的新功能**
 
-電子郵件反饋服務- [閱讀更多](../../sending/using/confirming-the-send.md#message-indicators)
+電子郵件回饋服務 - [顯示全文](../../sending/using/confirming-the-send.md#message-indicators)
 
 Adobe Experience Manager 整合改進 - [瞭解詳情](../../integrating/using/creating-multilingual-email-aem.md)
 
@@ -43,17 +43,17 @@ Adobe Experience Manager 整合改進 - [瞭解詳情](../../integrating/using/c
 
 已在使用&#x200B;**[!UICONTROL Transfer file]**&#x200B;活動後可用的新&#x200B;**[!UICONTROL filesCount]**&#x200B;輸出變數上新增了資訊。[顯示全文](../../automating/using/transfer-file.md#output-variables)
 
-**設定電子郵件通道**&#x200B;區段已更新，以釐清最新適用的電子郵件設定。某些仍在某些客戶使用的舊參數會列在頁面底部。 [顯示全文](../../administration/using/configuring-email-channel.md)
+**設定電子郵件通道**&#x200B;區段已更新，以釐清最新適用的電子郵件設定。本頁面底部會列出某些仍使用於特定客戶的舊參數。[顯示全文](../../administration/using/configuring-email-channel.md)
 
-已新增相關資訊，瞭解如何確保在先前執行的一或多個工作仍待執行之前，不會重新排程工作流程。 [顯示全文](../../automating/using/scheduled-workflows-execution.md)
+已新增相關資訊，瞭解如何確保在先前執行的一或多個工作尚在等待執行前，不會重新排程工作流程。 [顯示全文](../../automating/using/scheduled-workflows-execution.md)
 
 ## 2020 年 12 月{#doc-updates-december-2020}
 
 **預測性主旨行**&#x200B;功能現已過時。[顯示全文](../../rn/using/deprecated-features.md)
 
-**事務性消息傳遞**&#x200B;入門部分現在包含[增強的結構描述](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)，以便更好地瞭解該過程。
+**「異動訊息傳送快速入門」**&#x200B;部分現在包含[增強的架構](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)，以便更佳瞭解該過程。
 
-現在提供一個端到端的使用案例，來說明事務性消息傳遞實施過程。 [顯示全文](../../channels/using/transactional-messaging-use-case.md)
+將以一個端到端的使用案例，來說明異動訊息傳送的實施過程。 [顯示全文](../../channels/using/transactional-messaging-use-case.md)
 
 **隱私權**&#x200B;區段已移至[此處](../../start/using/privacy.md)。
 
@@ -65,15 +65,15 @@ SMS 連接器通訊協定及設定頁面已移至[此處](../../administration/u
 
 **在異動訊息中使用產品清單**&#x200B;區段已移至[此處](../../designing/using/using-product-listings.md)。
 
-## 2020 年11月 {#doc-updates-november-2020}
+## 2020 年 11 月 {#doc-updates-november-2020}
 
-**個人資料與角色**&#x200B;區段已更新為使用案例案例，以說明不同角色在隱私權方面如何互動。 [顯示全文](../../start/using/privacy.md#use-case-scenario)
+**「個人資料與角色」**&#x200B;部分已更新為使用案例情境，以說明不同角色在隱私權方面如何互動。[顯示全文](../../start/using/privacy.md#use-case-scenario)
 
 已新增一個區段，其中列出「隱私權」的常見問題集。[顯示全文](../../start/using/privacy-faq.md)
 
-**Privacy**&#x200B;區段已移動，並包含兩個新頁面：[隱私權管理](../../start/using/privacy-management.md)和[管理隱私權要求](../../start/using/privacy-requests.md)。
+**「隱私權」**&#x200B;部分已移動並擴充而包含兩個新頁面：[隱私權管理](../../start/using/privacy-management.md)及[管理隱私權要求](../../start/using/privacy-requests.md)。
 
-**Transactional messaging**&#x200B;區段已重新整理並收集到一個位置，以改善導覽。 [顯示全文](../../channels/using/getting-started-with-transactional-msg.md)
+**「異動訊息傳送」**&#x200B;部分已重新整理並收集到一個位置，以改善導覽。 [顯示全文](../../channels/using/getting-started-with-transactional-msg.md)
 
 「Adobe Experience Platform Data Connector」區段中已新增有關隱私權管理相關資料對應驗證錯誤以及如何疑難排解的資訊。[顯示全文](../../integrating/using/aep-mapping-activation.md)
 
@@ -99,7 +99,7 @@ Journey AI 整合 - [瞭解詳情](../../sending/using/predictive.md)
 
 ## 2020 年 9 月{#doc-updates-september-2020}
 
-**事件事務性消息**&#x200B;部分已重新整理和澄清。 [顯示全文](../../channels/using/editing-transactional-message.md)
+**「事件異動訊息」** 部分已重新整理並釐清。[顯示全文](../../channels/using/editing-transactional-message.md)
 
 已新增警告註釋，以警告使用者有關日誌存取權限限制的問題。[顯示全文](../../administration/using/users-management.md)
 
@@ -115,7 +115,7 @@ Journey AI 整合 - [瞭解詳情](../../sending/using/predictive.md)
 
 **異動訊息限制**&#x200B;章節已移至[此](../../channels/using/transactional-messaging-limitations.md).
 
-**準備傳送**&#x200B;章節已移至[此](../../sending/using/preparing-the-send.md).
+**「準備傳送」**&#x200B;部分已移至[此](../../sending/using/preparing-the-send.md)。
 
 ## 2020 年 7 月{#doc-updates-july-2020}
 

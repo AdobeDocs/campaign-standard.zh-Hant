@@ -7,10 +7,12 @@ audience: channels
 content-type: reference
 topic-tags: in-app-messaging
 context-tags: delivery,triggers,back
+feature: 應用程式中
+role: 業務從業人員
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '934'
 ht-degree: 29%
 
 ---
@@ -44,11 +46,11 @@ ht-degree: 29%
 
 ## 應用程式內常見問答{#in-app-faq}
 
-### 若要進一步瞭解Adobe Campaign Standard中的應用程式內通道，有哪些有用的資源建議？{#resources-inapp}
+### 若要進一步瞭解Adobe Campaign Standard的應用程式內通路，有哪些有用的資源建議？{#resources-inapp}
 
 查看以下資源：
 
-* [教學影片](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/mobile/in-app/in-app-message-overview.html)
+* [視訊Tutorials](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/mobile/in-app/in-app-message-overview.html)
 * [部落格文章](https://theblog.adobe.com/get-more-out-of-the-new-in-app-message-channel-from-adobe-campaign/)
 * [社群頁面](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
@@ -71,7 +73,7 @@ ht-degree: 29%
 
 ### 哪些報表適用於應用程式內渠道？{#report-inapp}
 
-Adobe Campaign for In-App頻道提供現成可用的報表。 請參閱此[文檔](../../reporting/using/in-app-report.md)。
+Adobe Campaign針對應用程式內通道提供現成可用的報表。 請參閱此[文檔](../../reporting/using/in-app-report.md)。
 
 請參閱此[頁面](../../reporting/using/indicator-calculation.md#in-app-delivery)以瞭解如何計算每個應用程式內度量。
 
@@ -100,7 +102,7 @@ Adobe Campaign for In-App頻道提供現成可用的報表。 請參閱此[文�
 是的，應用程式內訊息支援深層連結。 深層連結應包括：
 
 * 說明傳送追蹤必須停用才能讓深層連結運作的語言。
-* Appsflyer與Branch合作，可進行開發連結追蹤。 如需分支與Adobe Campaign Standard整合的詳細資訊，請參閱此[頁面](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1)。
+* Appsflyer與Branch合作，可進行開發連結追蹤。 有關分支和Adobe Campaign Standard整合的詳細資訊，請參閱此[頁](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1)。
 
 ### 當使用者從推播通知啟動應用程式時，是否可觸發應用程式內訊息？{#inapp-push-trigger}
 

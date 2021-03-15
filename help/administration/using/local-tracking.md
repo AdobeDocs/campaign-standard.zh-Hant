@@ -7,10 +7,13 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
+feature: 例項設定
+role: 管理員
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '730'
 ht-degree: 0%
 
 ---
@@ -32,7 +35,7 @@ ht-degree: 0%
 
 若要實作Adobe Campaign Standard的追蹤，行動應用程式必須在應用程式中加入Mobile SDK。 這些SDK可在[!DNL Adobe Mobile Services]中使用。
 
-若要傳送追蹤資訊，需要傳送三個變數：兩者是從Adobe Campaign收到的資料的一部分，另一則是動作變數，決定是曝光、點按或開啟。
+若要傳送追蹤資訊，需要傳送三個變數：2是從Adobe Campaign收到的資料的一部分，2則是動作變數，決定是曝光、點按或開啟。
 
 | 變數 | 值 |
 | :-: | :-: |
@@ -46,7 +49,7 @@ ht-degree: 0%
 
 ### 對於Android {#implement-local-impression-tracking-android}
 
-Adobe Experience Platform Mobile SDK會在觸發本機通知時啟動印象追蹤。
+Adobe Experience Platform行動SDK會在觸發本機通知時啟動印象追蹤。
 
 ### 對於iOS {#implement-local-impression-tracking-ios}
 
@@ -60,7 +63,7 @@ Adobe Experience Platform Mobile SDK會在觸發本機通知時啟動印象追�
 
 為了讓曝光追蹤在應用程式背景時仍能運作，我們需要傳送「可用內容」讓應用程式知道必須進行追蹤。
 
-Adobe Experience Platform Mobile SDK會在觸發本機通知時啟動印象追蹤。
+Adobe Experience Platform行動SDK會在觸發本機通知時啟動印象追蹤。
 
 >[!CAUTION]
 >
@@ -78,7 +81,7 @@ Adobe Experience Platform Mobile SDK會在觸發本機通知時啟動印象追�
 
 * 使用者會看到通知並點按，這會轉為開啟的追蹤。
 
-Adobe Experience Platform Mobile SDK會追蹤第一個點按案例。
+第一個點按案例由Adobe Experience Platform行動SDK追蹤。
 
 ### 對於iOS {#implement-click-tracking-ios}
 
@@ -148,7 +151,7 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive respo
 
 若要追蹤開放，我們需要建立意圖。 目的物件可讓Android OS在完成特定動作時呼叫您的方法，在此例中，按一下通知以開啟應用程式。
 
-此程式碼是以點按印象追蹤的實施為基礎。 在設定意圖後，您現在需要將追蹤資訊傳回至Adobe Campaign。 在這種情況下，觸發通知的Android檢視([!DNL Activity])將會因使用者點按而開啟或帶入前景。 [!DNL Activity]中的意圖對象包含可用於跟蹤開啟的通知資料。
+此程式碼是以點按印象追蹤的實施為基礎。 在設定意圖後，您現在需要將追蹤資訊傳回Adobe Campaign。 在這種情況下，觸發通知的Android檢視([!DNL Activity])將會因使用者點按而開啟或帶入前景。 [!DNL Activity]中的意圖對象包含可用於跟蹤開啟的通知資料。
 
 MainActivity.java(extends [!DNL Activity])
 

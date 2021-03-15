@@ -7,10 +7,13 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
+feature: 交易式傳訊
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '612'
 ht-degree: 8%
 
 ---
@@ -68,7 +71,7 @@ ht-degree: 8%
    >
    >要觸發事件發送事務性消息，您必須修改並發佈剛建立的消息。 請參閱[編輯](../../channels/using/editing-transactional-message.md)和[發佈事務性消息](../../channels/using/publishing-transactional-message.md)部分。 您也必須將此觸發事件[整合至您的網站。](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
 
-1. 一旦Adobe Campaign開始接收與此事件設定相關的事件，您就可以按一下&#x200B;**[!UICONTROL History]**&#x200B;區段下的&#x200B;**[!UICONTROL Latest transactional events]**&#x200B;連結，存取您的協力廠商服務所傳送並由Adobe Campaign處理的最新事件。
+1. 一旦Adobe Campaign開始接收與此事件配置相關的事件，您可以按一下&#x200B;**[!UICONTROL History]**&#x200B;部分下的&#x200B;**[!UICONTROL Latest transactional events]**&#x200B;連結，訪問您的第三方服務發送並由Adobe Campaign處理的最新事件。
 
 ![](assets/message-center_latest-events.png)
 

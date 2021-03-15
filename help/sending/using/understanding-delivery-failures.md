@@ -6,10 +6,13 @@ description: 瞭解如何使用 Campaign 管理傳送失敗。
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
+feature: 傳送能力
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 0f057375e5cd63605af460f08cd39bed00435184
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1256'
+source-wordcount: '1260'
 ht-degree: 69%
 
 ---
@@ -105,7 +108,7 @@ ht-degree: 69%
 
 ## 退回郵件資格 {#bounce-mail-qualification}
 
-對於同步傳送失敗錯誤訊息，Adobe Campaign Enhanced MTA（訊息傳送代理）會決定反彈類型和資格，並將該資訊傳回至Campaign。
+對於同步傳送失敗錯誤訊息，Adobe Campaign增強型MTA（訊息傳送代理）會決定反彈類型和資格，並將該資訊傳回至促銷活動。
 
 >[!NOTE]
 >

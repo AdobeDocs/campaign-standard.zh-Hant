@@ -6,10 +6,13 @@ description: 探索使用者和權限管理、監控準則、通道特定的配�
 audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
+feature: 存取管理
+role: 管理員
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '648'
 ht-degree: 14%
 
 ---

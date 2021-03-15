@@ -2,15 +2,18 @@
 solution: Campaign Standard
 product: campaign
 title: 建立並傳送推播通知
-description: 請依照下列步驟，在Adobe Campaign中建立單一傳送推播通知。
+description: 請依照下列步驟，在Adobe Campaign建立單一傳送推播通知。
 audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: delivery,mobileAppContent,back
+feature: 推播
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 9eca72e744524cf201d998abd9acf718fdaca0f8
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '861'
 ht-degree: 4%
 
 ---
@@ -24,7 +27,7 @@ ht-degree: 4%
 
 1. 在&#x200B;**[!UICONTROL Marketing activities]**&#x200B;視窗中，[建立新的行銷活動](../../start/using/marketing-activities.md#creating-a-marketing-activity)。
 
-   請注意，您也可以從[促銷活動](../../start/using/marketing-activities.md#creating-a-marketing-activity)或從Adobe Campaign [首頁](../../start/using/interface-description.md#home-page)建立單一推播通知。
+   請注意，您也可以從[促銷活動](../../start/using/marketing-activities.md#creating-a-marketing-activity)或從Adobe Campaign[首頁](../../start/using/interface-description.md#home-page)建立單一推播通知。
 
    您也可以在工作流程中使用推播通知傳送活動。 此活動顯示在[推播通知傳送](../../automating/using/push-notification-delivery.md)區段中。
 
@@ -35,7 +38,7 @@ ht-degree: 4%
 
    依預設，您可以選取下列兩個範本之一：
 
-   * **[!UICONTROL Send push to Campaign profiles]**:使用此範本來定位已訂閱您行動應用程式並選擇接收推播通知的Adobe Campaign CRM設定檔。您可以將[personalization](../../designing/using/personalization.md#inserting-a-personalization-field)欄位插入您的推播通知，例如收件者的名字。
+   * **[!UICONTROL Send push to Campaign profiles]**:使用此範本來定位已訂閱您行動應用程式並選擇接收推播通知的Adobe CampaignCRM個人檔案。您可以將[personalization](../../designing/using/personalization.md#inserting-a-personalization-field)欄位插入您的推播通知，例如收件者的名字。
    * **[!UICONTROL Send push to app subscribers]**:使用此範本，將推播通知傳送給所有已知和匿名行動應用程式使用者，這些使用者已選擇從您的應用程式接收通知。您可以透過從行動應用程式收集的資料個人化這些訊息。
 
    您也可以選擇多語言範本。 如需詳細資訊，請參閱「建立多語言推播通知](../../channels/using/creating-a-multilingual-push-notification.md)」。[
@@ -44,13 +47,13 @@ ht-degree: 4%
 
 1. 輸入您的推播通知屬性，並在&#x200B;**[!UICONTROL Associate a Mobile App to a delivery]**&#x200B;欄位中選取您的行動應用程式。
 
-   請注意，下拉式清單將同時顯示SDK V4和Experience Platform SDK應用程式。
+   請注意，下拉式清單將同時顯示SDK V4和Experience PlatformSDK應用程式。
 
    ![](assets/push_notif_properties.png)
 
    您可以將推播通知連結至促銷活動。 若要這麼做，請從已建立的促銷活動中選取它。
 
-1. 在下列畫面中，您可以指定對象，例如所有訂閱特定行動應用程式的VIP客戶。 如需詳細資訊，請參閱[建立觀眾](../../audiences/using/creating-audiences.md)。
+1. 在下列畫面中，您可以指定對象，例如所有訂閱特定行動VIP應用程式的客戶。 如需詳細資訊，請參閱[建立觀眾](../../audiences/using/creating-audiences.md)。
 
    系統會根據上一步驟中選取的行動應用程式，自動篩選您的觀眾。
 
@@ -62,7 +65,7 @@ ht-degree: 4%
 
    ![](assets/push_notif_content.png)
 
-   此處設定的推播通知內容和選項會以裝載的形式傳遞至您的行動應用程式。 [瞭解促銷活動標準推播通知有效負荷結構](https://helpx.adobe.com/tw/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html)技術中說明了有效負荷的詳細結構。
+   此處設定的推播通知內容和選項會以裝載的形式傳遞至您的行動應用程式。 [瞭解Campaign Standard推播通知有效載荷結構](https://helpx.adobe.com/tw/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html)技術中描述了有效載荷的詳細結構。
 
 1. 按一下 **[!UICONTROL Create]**。
 
@@ -87,7 +90,7 @@ ht-degree: 4%
 
 ## 傳送通知{#sending-the-notification}
 
-推播通知可透過定義對象條件，傳送至Adobe Campaign中的選定對象。 在下列範例中，我們選取的對象包括4個目標行動應用程式訂閱者。
+推播通知可透過定義對象條件，傳送至Adobe Campaign的選定對象。 在下列範例中，我們選取的對象包括4個目標行動應用程式訂閱者。
 
 1. 按一下&#x200B;**[!UICONTROL Prepare]**&#x200B;計算目標並生成通知。
 
@@ -118,7 +121,7 @@ ht-degree: 4%
 
    >[!NOTE]
    >
-   >原因可能是Adobe Campaign下游的任何失敗。 如果apns和fcm等提供者出現故障，原因也將反映出這一點。 有關提供者故障的詳細資訊，請參閱[Apple](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CommunicatingwithAPNs.html)和[Android](https://firebase.google.com/docs/cloud-messaging/http-server-ref)檔案。
+   >原因可能是Adobe Campaign下游的失敗。 如果apns和fcm等提供者出現故障，原因也將反映出這一點。 有關提供者故障的詳細資訊，請參閱[Apple](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CommunicatingwithAPNs.html)和[Android](https://firebase.google.com/docs/cloud-messaging/http-server-ref)檔案。
 
    ![](assets/push_send_6.png)
 

@@ -6,11 +6,14 @@ description: 使用其他 Adobe 解決方案，並將其不同的功能與 Campa
 audience: integrating
 content-type: reference
 topic-tags: get-started-campaign-integrations
+feature: 觸發器
+role: 資料架構師
+level: 中級
 translation-type: tm+mt
-source-git-commit: b471fddd49037770e33a113374afd60c2e79e69b
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 91%
+source-wordcount: '636'
+ht-degree: 90%
 
 ---
 

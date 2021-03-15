@@ -6,11 +6,14 @@ description: 瞭解如何在內容編輯器或電子郵件設計工具中預覽�
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
+feature: 種子地址
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 15%
+source-wordcount: '629'
+ht-degree: 14%
 
 ---
 
@@ -19,7 +22,7 @@ ht-degree: 15%
 
 ## 預覽電子郵件{#previewing-emails}
 
-Campaign Standard可讓您在傳送訊息之前先預覽訊息，以檢查其個人化及收件者將如何看到訊息。
+Campaign Standard可讓您在傳送訊息之前先預覽訊息，以檢查其個人化情況，以及收件者將如何看見訊息。
 
 消息預覽是使用您添加到消息目標的&#x200B;**測試配置檔案**&#x200B;執行的。
 
@@ -53,7 +56,7 @@ Campaign Standard可讓您在傳送訊息之前先預覽訊息，以檢查其個
 
 ## 預覽SMS訊息{#previewing-sms}
 
-對於&#x200B;**SMS**&#x200B;訊息，Campaign Standard可讓您使用測試設定檔預覽訊息。 這可讓您獲得特定描述檔將會收到之訊息的精確表示。 如需詳細資訊，請參閱[管理測試設定檔](../../audiences/using/managing-test-profiles.md)。
+對於&#x200B;**SMS**&#x200B;訊息，Campaign Standard可讓您使用測試設定檔來預覽訊息。 這可讓您獲得特定描述檔將會收到之訊息的精確表示。 如需詳細資訊，請參閱[管理測試設定檔](../../audiences/using/managing-test-profiles.md)。
 
 若要使用測試設定檔預覽SMS訊息，請依照下列步驟進行：
 
@@ -85,7 +88,7 @@ Campaign Standard可讓您在傳送訊息之前先預覽訊息，以檢查其個
 
 ## 預覽推播通知{#previewing-push}
 
-對於&#x200B;**推播通知**,Campaign Standard可讓您使用測試設定檔預覽訊息。 這可讓您獲得特定描述檔將會收到之訊息的精確表示。 如需詳細資訊，請參閱[管理測試設定檔](../../audiences/using/managing-test-profiles.md)。
+對於&#x200B;**推播通知**,Campaign Standard允許您使用測試配置檔案預覽消息。 這可讓您獲得特定描述檔將會收到之訊息的精確表示。 如需詳細資訊，請參閱[管理測試設定檔](../../audiences/using/managing-test-profiles.md)。
 
 若要使用測試設定檔預覽推播通知，請遵循下列步驟：
 
@@ -113,7 +116,7 @@ Campaign Standard可讓您在傳送訊息之前先預覽訊息，以檢查其個
 
 ## 預覽應用程式內訊息{#previewing-in-app}
 
-對於&#x200B;**In-App**,Campaign Standard可讓您使用測試設定檔預覽訊息。 這可讓您獲得特定描述檔將會收到之訊息的精確表示。 如需詳細資訊，請參閱[管理測試設定檔](../../audiences/using/managing-test-profiles.md)。
+對於&#x200B;**In-App**,Campaign Standard允許您使用測試配置檔案預覽消息。 這可讓您獲得特定描述檔將會收到之訊息的精確表示。 如需詳細資訊，請參閱[管理測試設定檔](../../audiences/using/managing-test-profiles.md)。
 
 若要使用測試設定檔預覽應用程式內訊息，請依照下列步驟進行：
 

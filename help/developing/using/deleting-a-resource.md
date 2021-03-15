@@ -6,10 +6,13 @@ description: '瞭解如何刪除資源 '
 audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
+feature: 資料模型
+role: 開發人員
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '246'
 ht-degree: 14%
 
 ---

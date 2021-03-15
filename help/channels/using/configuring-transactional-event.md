@@ -2,15 +2,18 @@
 solution: Campaign Standard
 product: campaign
 title: 設定異動事件
-description: 瞭解如何在Adobe Campaign中設定交易事件。
+description: 瞭解如何在Adobe Campaign設定交易事件。
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
+feature: 交易式傳訊
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 5758e5f0f6811a97f51e995fa3c378a7c7117ff5
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1672'
+source-wordcount: '1677'
 ht-degree: 7%
 
 ---
@@ -18,7 +21,7 @@ ht-degree: 7%
 
 # 設定異動事件 {#configuring-transactional-event}
 
-若要使用Adobe Campaign傳送交易訊息，您首先需要建立並設定事件，以說明事件資料的結構。
+若要與Adobe Campaign傳送交易訊息，您必須先建立並設定事件，以說明事件資料的結構。
 
 >[!IMPORTANT]
 >
@@ -46,7 +49,7 @@ ht-degree: 7%
 
 1. 選取與所需事件設定對應的定位維度，然後按一下&#x200B;**[!UICONTROL Create]**。
 
-   事件型交易訊息會鎖定事件本身包含的資料，而以描述檔為基礎的交易訊息則會鎖定Adobe Campaign資料庫中包含的資料。 有關詳細資訊，請參閱[特定配置](#transactional-event-specific-configurations)。
+   基於事件的事務性消息目標是事件本身包含的資料，而基於概要的事務性消息目標是Adobe Campaign資料庫中包含的資料。 有關詳細資訊，請參閱[特定配置](#transactional-event-specific-configurations)。
 
 >[!NOTE]
 >
@@ -81,7 +84,7 @@ ht-degree: 7%
 
    ![](assets/message-center_collection_fields.png)
 
-1. **[!UICONTROL Enrichment]**&#x200B;標籤可讓您豐富系列的每個項目。 這可讓您使用Adobe Campaign資料庫或您建立之其他資源的資訊，個人化對應產品清單的元素。
+1. **[!UICONTROL Enrichment]**&#x200B;標籤可讓您豐富系列的每個項目。 這樣，您就可以使用Adobe Campaign資料庫或您建立的其他資源的資訊個性化相應產品清單的元素。
 
 >[!NOTE]
 >
@@ -101,7 +104,7 @@ ht-degree: 7%
 
 ## 豐富事件{#enriching-the-transactional-message-content}
 
-您可以利用Adobe Campaign資料庫的資訊豐富交易式訊息內容，以個人化您的訊息。 例如，您可以從每個收件者的姓氏或CRM ID中，復原資料，例如其地址、出生日期或「描述檔」表格中新增的任何其他自訂欄位，以個人化傳送給他們的資訊。
+您可以利用Adobe Campaign資料庫中的資訊豐富事務性消息內容，以便個性化消息。 例如，您可以從每個收件者的姓氏或CRM ID中，復原資料，例如其地址、出生日期或「描述檔」表格中新增的任何其他自訂欄位，以個人化傳送給他們的資訊。
 
 可以利用擴展的&#x200B;**[!UICONTROL Profile and services Ext API]**&#x200B;資訊豐富事務性消息內容。 如需詳細資訊，請參閱[擴充API:發佈擴充功能](../../developing/using/step-2--publish-the-extension.md)
 
@@ -179,7 +182,7 @@ ht-degree: 7%
 1. 將欄位添加到事件中，以便能夠個性化事務性消息（請參閱[定義事件屬性](#defining-the-event-attributes)）。
 1. 事件型交易式訊息應僅使用傳送事件中的資料來定義收件者和訊息內容個人化。
 
-   不過，如果您想要使用Adobe Campaign資料庫的其他資訊，則可以豐富交易訊息內容（請參閱[豐富交易訊息內容](#enriching-the-transactional-message-content)）。
+   但是，如果您想使用Adobe Campaign資料庫中的其他資訊，則可以豐富事務性消息內容（請參見[豐富事務性消息內容](#enriching-the-transactional-message-content)）。
 
 1. 預覽並發佈事件（請參閱[預覽並發佈事件](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)）。
 
@@ -193,10 +196,10 @@ ht-degree: 7%
 
 您可以根據客戶個人檔案傳送交易訊息，這可讓您套用行銷類型學規則、包含取消訂閱連結、將訊息新增至全域傳送報表，並在客戶歷程中運用此訊息。
 
-若要傳送以描述檔為基礎的交易訊息，您首先需要從Adobe Campaign資料庫&#x200B;**建立並設定以**&#x200B;資料為目標的事件。
+要發送基於配置檔案的事務性消息，首先需要建立並配置以Adobe Campaign資料庫&#x200B;**資料為目標的事件**。
 
 1. 建立事件配置時，選擇&#x200B;**[!UICONTROL Profile event]**&#x200B;目標維（請參閱[建立事件](#creating-an-event)）。
-1. 將欄位添加到事件中，以便能夠個性化事務性消息（請參閱[定義事件屬性](#defining-the-event-attributes)）。 您必須至少添加一個欄位才能建立富集。 您不需要建立其他欄位，例如&#x200B;**名字**&#x200B;和&#x200B;**姓氏**，因為您可以使用Adobe Campaign資料庫中的個人化欄位。
+1. 將欄位添加到事件中，以便能夠個性化事務性消息（請參閱[定義事件屬性](#defining-the-event-attributes)）。 您必須至少添加一個欄位才能建立富集。 您不需要建立其他欄位，例如&#x200B;**名字**&#x200B;和&#x200B;**姓氏**，因為您將能夠使用Adobe Campaign資料庫中的個人化欄位。
 1. 建立擴充功能，以將事件連結至&#x200B;**[!UICONTROL Profile]**&#x200B;資源（請參閱[豐富事件](#enriching-the-transactional-message-content)），並選取此擴充功能為&#x200B;**[!UICONTROL Targeting enrichment]**。
 
    >[!IMPORTANT]
@@ -225,11 +228,11 @@ The steps to configure an  event to send an SMS transactional message are the sa
 
 您可以傳送兩種類型的交易推播通知：
 * 匿名交易式推播通知，適用於已選擇從行動應用程式接收通知的所有使用者。 請參閱[設定事件型交易推播通知](../../channels/using/transactional-push-notifications.md#event-based-transactional-push-notifications)。
-* 已訂閱您行動應用程式之Adobe Campaign設定檔的交易式推播通知。 請參閱[設定以描述檔為基礎的交易推播通知](../../channels/using/transactional-push-notifications.md#profile-based-transactional-push-notifications)。
+* 已訂閱您行動應用程式的Adobe Campaign個人資料的交易式推播通知。 請參閱[設定以描述檔為基礎的交易推播通知](../../channels/using/transactional-push-notifications.md#profile-based-transactional-push-notifications)。
 
 >[!IMPORTANT]
 >
->若要傳送交易推播通知，您必須據以設定Adobe Campaign。 請參閱[設定行動應用程式](../../administration/using/configuring-a-mobile-application.md)。
+>若要傳送交易推播通知，您必須依此設定Adobe Campaign。 請參閱[設定行動應用程式](../../administration/using/configuring-a-mobile-application.md)。
 
 ### 後續訊息 {#follow-up-messages}
 

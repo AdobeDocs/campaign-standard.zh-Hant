@@ -2,14 +2,17 @@
 solution: Campaign Standard
 product: campaign
 title: 傳送內部通知
-description: 瞭解如何傳送即時系統通知給您的Adobe Campaign使用者。
+description: 瞭解如何傳送即時系統通知給您的Adobe Campaign用戶。
 audience: administration
 content-type: reference
 topic-tags: application-settings
+feature: 例項設定
+role: 管理員
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '268'
 ht-degree: 2%
 
 ---
@@ -17,7 +20,7 @@ ht-degree: 2%
 
 # 傳送內部通知{#sending-internal-notifications}
 
-Adobe Campaign可讓您直接在應用程式中接收有關重要系統活動的通知。 即時通知可讓相關利益相關者隨時得知相關資訊，讓使用者能夠立即直接從應用程式中處理活動通知。 團隊的成果是，提高了靈活性、效率和更順暢地執行宣傳活動。
+Adobe Campaign提供您直接在應用程式中接收有關重要系統活動的通知。 即時通知可讓相關利益相關者隨時得知相關資訊，讓使用者能夠立即直接從應用程式中處理活動通知。 團隊的成果是，提高了靈活性、效率和更順暢地執行宣傳活動。
 
 ![](assets/pulse_3.png)
 

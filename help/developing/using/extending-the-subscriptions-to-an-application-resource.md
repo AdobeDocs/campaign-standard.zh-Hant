@@ -2,15 +2,18 @@
 solution: Campaign Standard
 product: campaign
 title: 將訂閱擴充到應用程式資源
-description: null
+description: 瞭解如何將訂閱延伸至應用程式資源
 audience: developing
 content-type: reference
 topic-tags: use-cases--extending-resources
+feature: 資料模型
+role: 開發人員
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 25%
+source-wordcount: '236'
+ht-degree: 23%
 
 ---
 
@@ -19,7 +22,7 @@ ht-degree: 25%
 
 在 Adobe Campaign 中，由行動裝置傳送的行動設定檔屬性資料會儲存在 **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** 資源中，您可藉此定義要從應用程式訂閱者收集的資料。有關自定義資源的詳細資訊，請參閱[此頁](../../developing/using/key-steps-to-add-a-resource.md)。
 
-此資源可加以擴充，以收集您要從行動裝置傳送至Adobe Campaign的資料。
+可擴充此資源，以收集您要從行動裝置傳送至Adobe Campaign的資料。
 
 1. 從進階功能表，透過 Adobe Campaign 標誌，依序選取 **[!UICONTROL Administration]** > **[!UICONTROL Development]** 及 **[!UICONTROL Custom resources]**。
 1. 按一下&#x200B;**[!UICONTROL Create]**&#x200B;並選擇&#x200B;**[!UICONTROL Extend an existing resource]**&#x200B;選項。
@@ -39,7 +42,7 @@ ht-degree: 25%
 
    ![](assets/schema_extension_uc9.png)
 
-1. 在&#x200B;**[!UICONTROL Link to profiles]**&#x200B;類別中，設定用於將Adobe Campaign資料庫的描述檔連結至應用程式訂閱者（例如電子郵件）的協調金鑰。
+1. 在&#x200B;**[!UICONTROL Link to profiles]**&#x200B;類別中，配置用於將配置檔案從Adobe Campaign資料庫連結到應用程式訂戶（如電子郵件）的協調密鑰。
 
    請注意，對於您的應用程式內訊息，您只能為所有行動應用程式定義一個協調金鑰。
 

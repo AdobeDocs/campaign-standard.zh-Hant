@@ -2,14 +2,16 @@
 solution: Campaign Standard
 product: campaign
 title: 關於工作流程使用案例
-description: 進一步瞭解您可以使用Campaign Standard工作流程來執行的使用案例。
+description: 進一步瞭解您可使用Campaign Standard工作流程來執行的使用案例。
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
+feature: 工作流程
+role: 資料架構師
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '237'
 ht-degree: 71%
 
 ---

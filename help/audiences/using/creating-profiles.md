@@ -6,11 +6,14 @@ description: 瞭解如何使用 API、匯入功能、線上贏取、自動或手
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
+feature: 設定檔
+role: 業務從業人員
+level: 初學者
 translation-type: tm+mt
-source-git-commit: b471fddd49037770e33a113374afd60c2e79e69b
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 89%
+source-wordcount: '384'
+ht-degree: 88%
 
 ---
 
@@ -68,4 +71,4 @@ ht-degree: 89%
 
 >[!VIDEO](https://video.tv.adobe.com/v/24993?quality=12)
 
-其他Campaign Standard操作說明影片可在[這裡](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant)取得。
+其他Campaign Standardhow-to影片可在[這裡](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant)取得。

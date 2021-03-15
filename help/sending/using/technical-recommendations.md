@@ -1,16 +1,19 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Adobe Campaign Standard的可傳遞性技術建議
-description: 閱讀有關使用Adobe Campaign Standard改善傳遞能力的一些技術建議。
+title: Adobe Campaign Standard的交付能力技術建議
+description: 閱讀一些技術建議，以改善與Adobe Campaign Standard的交付能力。
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
+feature: 傳送能力
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -20,7 +23,7 @@ ht-degree: 0%
 
 以下列出幾種可用來改善傳遞率的技術、組態和工具。 以下是一些主要技術術語的定義。
 
-**反向DNS**:Adobe Campaign會檢查是否提供反向DNS來識別IP位址，且這會正確指向IP。
+**反向DNS**:Adobe Campaign會檢查IP位址是否提供反向DNS，且這會正確指向IP。
 
 **MX規** 則可用來控制促銷活動MTA（訊息傳送代理）傳送電子郵件至每個個別電子郵件網域或ISP（例如hotmail.com、comcast.net）的速度。這些規則通常基於ISP發佈的限制（例如每個SMTP連接不包含超過20條消息）。
 
@@ -38,4 +41,4 @@ DMARC可運用250ok產生的報表。
 
 **SMTP** （簡單郵件傳輸協定）是電子郵件傳輸的網際網路標準。
 
-**專用IP**:Adobe為每位客戶提供專屬的IP策略，以提升IP，以建立聲譽並最佳化傳送效能。
+**專用IP**:Adobe為每個客戶提供專屬的IP策略，以提升IP，以建立聲譽並最佳化傳送效能。

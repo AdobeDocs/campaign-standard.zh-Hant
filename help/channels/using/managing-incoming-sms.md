@@ -2,15 +2,18 @@
 solution: Campaign Standard
 product: campaign
 title: 管理傳入的 SMS
-description: 瞭解如何在Adobe Campaign中管理STOP SMS和儲存傳入的SMS。
+description: 瞭解如何在Adobe Campaign管理STOP SMS和儲存傳入的SMS。
 audience: channels
 content-type: reference
 topic-tags: sms-messages
 delivercontext-tags: delivery,smsContent,back
+feature: SMS
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '597'
 ht-degree: 7%
 
 ---

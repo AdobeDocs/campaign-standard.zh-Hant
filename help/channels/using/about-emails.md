@@ -2,15 +2,18 @@
 solution: Campaign Standard
 product: campaign
 title: 關於電子郵件
-description: 探索您可以隨Adobe Campaign傳送的不同電子郵件類型。
+description: 探索您可與Adobe Campaign一起傳送的不同電子郵件類型。
 audience: channels
 content-type: reference
 topic-tags: email-messages
 context-tags: deliveryCreation,wizard
+feature: 電子郵件
+role: 業務從業人員
+level: 初學者
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '135'
 ht-degree: 3%
 
 ---
@@ -18,7 +21,7 @@ ht-degree: 3%
 
 # 關於電子郵件{#about-emails}
 
-電子郵件通道是Adobe Campaign的核心通道之一，可讓您排程個人化電子郵件並傳送至特定目標。
+電子郵件通道是Adobe Campaign的核心通道之一，可讓您排程個人化電子郵件並傳送給特定目標。
 
 您可以傳送不同類型的電子郵件：
 

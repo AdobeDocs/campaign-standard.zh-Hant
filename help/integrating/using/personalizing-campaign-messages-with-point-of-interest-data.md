@@ -6,10 +6,13 @@ description: 瞭解如何透過興趣點資料整合，根據訂閱者的位置�
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
+feature: 受眾
+role: 資料架構師
+level: 中級
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '264'
 ht-degree: 10%
 
 ---
@@ -17,7 +20,7 @@ ht-degree: 10%
 
 # 使用 Point of Interest 資料個人化 Campaign 訊息{#personalizing-campaign-messages-with-point-of-interest-data}
 
-在Adobe Campaign中，您可以使用從行動應用程式用戶收集到的地標資料，傳送個人化行銷訊息，例如電子郵件。
+在Adobe Campaign，您可以使用從行動應用程式的訂閱者收集的地標資料，傳送個人化行銷訊息，例如電子郵件。
 
 您只能對興趣點資料與標準傳送進行回應。 [事務](../../channels/using/getting-started-with-transactional-msg.md) 性消息不能使用位置資料。
 

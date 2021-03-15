@@ -2,22 +2,25 @@
 solution: Campaign Standard
 product: campaign
 title: 建立電子郵件
-description: 請依照下列步驟，在Adobe Campaign中建立單一傳送的電子郵件。
+description: 請依照下列步驟，在Adobe Campaign建立單一傳送的電子郵件。
 audience: channels
 content-type: reference
 topic-tags: email-messages
+feature: 電子郵件
+role: 業務從業人員
+level: 初學者
 translation-type: tm+mt
-source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 19%
+source-wordcount: '560'
+ht-degree: 20%
 
 ---
 
 
 # 建立電子郵件{#creating-an-email}
 
-您可以從[促銷活動](../../start/using/marketing-activities.md#creating-a-marketing-activity)、從Adobe Campaign [首頁](../../start/using/interface-description.md#home-page)或[行銷活動清單](../../start/using/marketing-activities.md#about-marketing-activities)建立電子郵件。 您也可以從工作流程建立單一傳送和循環寄送的電子郵件。
+您可以從[促銷活動](../../start/using/marketing-activities.md#creating-a-marketing-activity)、從Adobe Campaign[首頁](../../start/using/interface-description.md#home-page)或[行銷活動清單](../../start/using/marketing-activities.md#about-marketing-activities)建立電子郵件。 您也可以從工作流程建立單一傳送和循環寄送的電子郵件。
 
 ![](assets/do-not-localize/how-to-video.png) [在影片中探索此功能](#video)
 
@@ -91,7 +94,7 @@ ht-degree: 19%
 **相關主題**：
 
 * [建立個人](https://helpx.adobe.com/tw/campaign/kb/acs-get-started-with-emails.html) 化電子郵件逐步指南
-* [Adobe Campaign與Dreamweaver整合](../../designing/using/using-integrations.md#editing-content-in-dreamweaver)
+* [Adobe Campaign和Dreamweaver一體化](../../designing/using/using-integrations.md#editing-content-in-dreamweaver)
 * [與Adobe Experience Manager整合](../../integrating/using/integrating-with-experience-manager.md)
 
 ## 教學課程影片{#video}
@@ -100,4 +103,4 @@ ht-degree: 19%
 
 >[!VIDEO](https://video.tv.adobe.com/v/23721?quality=12)
 
-其他Campaign Standard操作說明影片可在[這裡](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant)取得。
+其他Campaign Standardhow-to影片可在[這裡](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant)取得。

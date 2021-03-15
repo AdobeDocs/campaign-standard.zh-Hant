@@ -1,16 +1,19 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 使用Adobe Campaign Standard啟動新平台
-description: 瞭解如何使用Adobe Campaign Standard來設定新平台，同時維持您的網域和IP位址信譽。
+title: 與Adobe Campaign Standard合作開發新平台
+description: 瞭解如何建立新平台，同時維持您的網域和IP位址與Adobe Campaign Standard的聲譽。
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
+feature: 傳送能力
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '448'
 ht-degree: 2%
 
 ---
@@ -29,7 +32,7 @@ ht-degree: 2%
 * 但是，如果您希望重新命名無效地址，則最好在平台信譽建立後再逐個逐個地執行此操作，以便隨著時間的推移「稀釋」不良地址的使用。
 
 總結啟動時應遵循的原則：
-* **設定專用的** 子網域，以搭配Campaign運作，此為Adobe傳送之電子郵件促銷活動的特定功能。
+* **設定專屬** 的子網域，以搭配「促銷活動」運作，此活動專用於從Adobe傳送的電子郵件促銷活動。
 * **將無效／非活動地址導入隔離表** （如果您有此資訊）。
 * **限制傳送通** 路(技術設定：限制匹配項數)。
 * **逐漸增加發送的卷**:從一開始就不要將整個資料庫作為目標，而是每次傳送時新增清單的一小部分。這應可讓您在每個步驟增加音量，同時降低無效地址的總體速率。

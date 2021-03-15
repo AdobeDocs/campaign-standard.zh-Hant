@@ -7,11 +7,14 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
+feature: 工作流程
+role: 資料架構師
+level: 中級
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 0%
+source-wordcount: '679'
+ht-degree: 1%
 
 ---
 
@@ -69,7 +72,7 @@ ht-degree: 0%
 
 **[!UICONTROL Affinity]**&#x200B;欄位可讓您強制在特定機器上執行工作流程或工作流程活動。 若要這麼做，您必須為相關的工作流程或活動指定一或數個相關性。
 
-**[!UICONTROL Time zone]**&#x200B;欄位可讓您選取活動的時區。 Adobe Campaign可讓您管理同一執行個體上多個國家／地區之間的時間差異。 建立實例時，將配置所應用的設定。
+**[!UICONTROL Time zone]**&#x200B;欄位可讓您選取活動的時區。 Adobe Campaign允許您在同一實例上管理多個國家之間的時間差。 建立實例時，將配置所應用的設定。
 
 >[!NOTE]
 >

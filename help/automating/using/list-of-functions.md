@@ -6,10 +6,13 @@ description: 查詢編輯工具可讓您使用進階功能執行複雜的過濾�
 audience: automating
 content-type: reference
 topic-tags: filtering-data
+feature: 工作流程
+role: 資料架構師
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: ef170f2282fcc46e36c90dada2083dea25b95f7c
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1940'
+source-wordcount: '1944'
 ht-degree: 98%
 
 ---

@@ -2,14 +2,17 @@
 solution: Campaign Standard
 product: campaign
 title: 審核匯出日誌
-description: 管理員可以追蹤從Adobe Campaign匯出的內容。
+description: 管理員可追蹤從Adobe Campaign出口的產品。
 audience: administration
 content-type: reference
 topic-tags: users-and-security
+feature: 存取管理
+role: 管理員
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '117'
 ht-degree: 5%
 
 ---

@@ -6,10 +6,14 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
+description: 「提供範本可針對大多數常見活動類型提供現成的藍本，以提高效率。」
+feature: 傳送能力
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: a7300666587362048431d0bafacc317170b317aa
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '819'
 ht-degree: 10%
 
 ---
@@ -25,7 +29,7 @@ ht-degree: 10%
 
 [傳送範本](../../start/using/marketing-activity-templates.md#creating-a-new-template)可讓您定義一組符合您需求且可重複使用於未來傳送的技術和功能屬性。 然後，您就可以節省時間，並視需要標準化傳送。
 
-當您在Adobe Campaign中管理多個品牌時，Adobe建議每個品牌擁有一個子網域。 例如，銀行可以有多個子域，對應於每個區域機構。 如果銀行擁有bluebank.com網域，其子網域可以是@ny.bluebank.com、@ma.bluebank.com、@ca.bluebank.com等。 每個子網域有一個傳送範本，讓您隨時針對每個品牌使用正確的預先設定參數，以避免錯誤並節省您的時間。
+當您在Adobe Campaign管理多個品牌時，Adobe建議每個品牌有一個子網域。 例如，銀行可以有多個子域，對應於每個區域機構。 如果銀行擁有bluebank.com網域，其子網域可以是@ny.bluebank.com、@ma.bluebank.com、@ca.bluebank.com等。 每個子網域有一個傳送範本，讓您隨時針對每個品牌使用正確的預先設定參數，以避免錯誤並節省您的時間。
 
 **提示**:為避免Campaign中的設定錯誤，建議您複製原生範本並變更其屬性，而不要建立新範本。
 
@@ -39,7 +43,7 @@ ht-degree: 10%
 
 * 地址必須明確標識發件人。 域必須由發送者擁有並註冊。
 
-* Adobe建議建立與傳送和回覆所指定之位址對應的電子郵件帳戶。 請洽詢您的訊息系統管理員。
+* Adobe建議建立與傳送和回覆所指定位址對應的電子郵件帳戶。 請洽詢您的訊息系統管理員。
 
 在電子郵件模板屬性的&#x200B;**[!UICONTROL Advanced parameters]**&#x200B;部分， **[!UICONTROL From (email address)]**&#x200B;欄位與發件人地址相對應。
 
@@ -49,13 +53,13 @@ ht-degree: 10%
 
 **[!UICONTROL Reply to]**&#x200B;欄位會對應回覆使用的電子郵件地址和名稱。
 
-**提示** - Adobe建議使用現有的真實地址，例如您品牌的客戶服務。在這種情況下，如果收件者傳送回覆，客戶服務將能夠處理。
+**提示** -Adobe建議使用現有的實際地址，例如您品牌的客戶服務。在這種情況下，如果收件者傳送回覆，客戶服務將能夠處理。
 
 要更改將出現在發送郵件標題中的發件人名稱，請轉至「電子郵件設計器」首頁的&#x200B;**[!UICONTROL Properties]**&#x200B;頁籤（可通過首頁表徵圖訪問），然後按一下&#x200B;**[!UICONTROL Default sender name]**&#x200B;塊。
 
 ![](assets/template-content.png)
 
-為了提高您的交貨率，Adobe建議使用收件者可輕鬆識別的名稱，例如您的品牌名稱。
+為提高交貨的開業率，Adobe建議使用收件人可輕鬆識別的名稱，例如您的品牌名稱。
 
 **提示** -若要進一步改善收件者的體驗，您可以新增人員的姓名，例如「Emma from Megastore」。
 
@@ -79,15 +83,15 @@ ht-degree: 10%
 
 在範本屬性的&#x200B;**[!UICONTROL Advanced parameters]** > **[!UICONTROL Preparation]**&#x200B;區段中，根據您的需求變更預設類型。
 
-例如，為了更好地控制對外流量，您可以定義每個子網域可使用一個相似性，並為每個相似性建立一個類型，以定義哪些IP位址。 相關性在實例的配置檔案中定義。 請洽詢您的Adobe Campaign管理員。
+例如，為了更好地控制對外流量，您可以定義每個子網域可使用一個相似性，並為每個相似性建立一個類型，以定義哪些IP位址。 相關性在實例的配置檔案中定義。 聯繫您的Adobe Campaign管理員。
 
 有關類型的詳細資訊，請參閱[本節](../../sending/using/managing-typologies.md)。
 
 ## 將品牌連結至範本
 
-與品牌身分相關的已傳送電子郵件參數（例如品牌標誌或寄件者位址）在Adobe Campaign中集中管理。 您可以建立一或多個品牌，並將其連結至傳送範本。
+與品牌身分相關的已傳送電子郵件參數（例如品牌標誌或寄件者位址），在Adobe Campaign集中管理。 您可以建立一或多個品牌，並將其連結至傳送範本。
 
-如需有關在Adobe Campaign中使用和設定品牌的詳細資訊，請參閱品牌推廣。
+如需在Adobe Campaign使用及設定品牌的詳細資訊，請參閱品牌推廣。
 
 若要顯示或變更指派給傳送範本的品牌，請選取範本的「編輯屬性」按鈕，並導覽至品牌的詳細資料。
 

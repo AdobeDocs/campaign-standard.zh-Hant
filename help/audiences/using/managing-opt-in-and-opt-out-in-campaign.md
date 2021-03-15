@@ -2,14 +2,17 @@
 solution: Campaign Standard
 product: campaign
 title: 管理 Campaign 中的加入和退出
-description: 瞭解Adobe Campaign中如何管理選擇加入和選擇退出。
+description: 瞭解在Adobe Campaign如何管理選擇加入和選擇退出。
 audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
+feature: 受眾
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '313'
 ht-degree: 8%
 
 ---

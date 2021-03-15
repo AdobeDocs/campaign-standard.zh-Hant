@@ -6,10 +6,13 @@ description: 瞭解如何在電子郵件設計工具中定義主旨行和電子�
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
+feature: 電子郵件設計
+role: 業務從業人員
+level: 初學者
 translation-type: tm+mt
-source-git-commit: 1e7359db2de1a9c420af33ac85c0597c098ae3f8
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '343'
 ht-degree: 2%
 
 ---
@@ -39,7 +42,7 @@ ht-degree: 2%
 
 ![](assets/delivery_content_edition16.png)
 
-* **[!UICONTROL From: name]**&#x200B;欄位允許您輸入發件人名稱。 預設情況下，預設&#x200B;**發件人名稱**&#x200B;塊會自動輸入到欄位中。 預設寄件者電子郵件地址和寄件者名稱定義於&#x200B;**[!UICONTROL Brands]**&#x200B;中，可透過進階功能表&#x200B;**[!UICONTROL Administration > Instance settings > Brand configuration]**&#x200B;下的Adobe Campaign標誌存取。
+* **[!UICONTROL From: name]**&#x200B;欄位允許您輸入發件人名稱。 預設情況下，預設&#x200B;**發件人名稱**&#x200B;塊會自動輸入到欄位中。 預設寄件者電子郵件地址和寄件者名稱定義在&#x200B;**[!UICONTROL Brands]**&#x200B;中，可透過進階功能表&#x200B;**[!UICONTROL Administration > Instance settings > Brand configuration]**&#x200B;下的Adobe Campaign標誌存取。
 
    通過按一下&#x200B;**發件人名稱**&#x200B;塊，可以更改發件人名稱。 然後，欄位會變成可編輯，您可以輸入要使用的名稱。
 

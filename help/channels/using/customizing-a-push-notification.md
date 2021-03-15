@@ -7,10 +7,13 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: delivery,mobileAppContent,back
+feature: 推播
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1498'
 ht-degree: 98%
 
 ---

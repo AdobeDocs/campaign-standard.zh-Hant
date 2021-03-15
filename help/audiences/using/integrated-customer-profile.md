@@ -7,10 +7,13 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 context-tags: marketingHistory,main
+feature: 設定檔
+role: 業務從業人員
+level: 初學者
 translation-type: tm+mt
-source-git-commit: b3088ed3bbb8828393e28df8f982ed36e7e74590
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '285'
 ht-degree: 48%
 
 ---
@@ -22,7 +25,7 @@ ht-degree: 48%
 
 若要存取整合式客戶設定檔，請執行以下步驟：
 
-1. 從Adobe Campaign首頁，按一下&#x200B;**[!UICONTROL Customer profiles]**&#x200B;卡片或&#x200B;**描述檔**&#x200B;標籤以顯示描述檔清單。
+1. 在Adobe Campaign首頁中，按一下&#x200B;**[!UICONTROL Customer profiles]**&#x200B;卡或&#x200B;**配置檔案**&#x200B;頁籤以顯示配置檔案清單。
 
 1. 若要根據特定欄位來搜尋描述檔，請開啟搜尋窗格，然後選取您要執行搜尋的欄位。
 

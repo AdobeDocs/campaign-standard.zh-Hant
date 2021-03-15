@@ -6,11 +6,14 @@ description: 在這裡尋找     動態報表及其定義。
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
+feature: 報告
+role: 領導者
+level: 初學者
 translation-type: tm+mt
-source-git-commit: e129cde33b24831122433bd4b400204f38799b11
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1295'
-ht-degree: 1%
+source-wordcount: '1298'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +24,7 @@ ht-degree: 1%
 
 [![影像](assets/dynamic_report_compatibility.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=en)
 
-## 維{#dimensions}
+## Dimension{#dimensions}
 
 下表提供報表中使用的維度清單及其定義。
 
@@ -362,7 +365,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> 已處理／已發送<br /> </td> 
-   <td> 從Adobe Campaign傳送作為傳送傳送程式一部分的應用程式內訊息總數。<br /> </td> 
+   <td> 在傳送傳送程式中從Adobe Campaign傳送的應用程式內訊息總數。<br /> </td> 
   </tr> 
   <tr> 
    <td> 獨特印象<br /> </td> 

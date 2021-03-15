@@ -6,10 +6,13 @@ description: 使用API前必須先閱讀。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: 資料工程師
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
@@ -19,8 +22,8 @@ ht-degree: 0%
 
 ## 技術需求
 
-* Adobe Campaign API僅能用於伺服器對伺服器。
-* 如果您要實作的使用案例符合Adobe Campaign API所允許的規模，請務必洽詢您的Adobe技術聯絡人。
+* Adobe CampaignAPI僅能用於伺服器到伺服器。
+* 請務必洽詢您的Adobe技術聯絡人，確認您要實作的使用案例是否符合Adobe CampaignAPI所允許的比例。
 * 設定AdobeIO存取權需要特定權限，如有任何問題，請聯絡Adobe支援。
 
 ## 資源表示法
@@ -49,17 +52,17 @@ ht-degree: 0%
 
 * 請勿嘗試自行建立URL。 API會傳回所有URL。 不過，您仍可以根據頂層資源名稱來建立URL。
 
-* 說明示例的自動主鍵(PKey)值不打算用於其他特定部署。 這些應用程式是由Adobe Campaign API所製作。
+* 說明示例的自動主鍵(PKey)值不打算用於其他特定部署。 由Adobe CampaignAPI製作。
 
-* Adobe Campaign產生的自動主要金鑰值絕對不能儲存在外部資料庫或網站中。 您必須在資料庫定義中生成特定的鍵欄位，並在開發過程中使用它。
+* Adobe Campaign生成的自動主鍵值絕對不能儲存到外部資料庫或網站中。 您必須在資料庫定義中生成特定的鍵欄位，並在開發過程中使用它。
 
 ## 自訂金鑰{#custom-keys}
 
-如果描述檔資源已使用自訂金鑰欄位進行擴充，您可將此欄位用作金鑰，而非Adobe Campaign產生的自動主要金鑰：
+如果配置檔案資源已擴展自定義密鑰欄位，則可以將此欄位用作密鑰，而不是由Adobe Campaign生成的自動主密鑰：
 
 `GET /.../profileAndServicesExt/profile/<customKey>`
 
-如果密鑰值與原始密鑰不同，或者您使用自己的業務密鑰作為URI而不是Adobe提供的密鑰，則不能使用PATCH操作來修改自定義密鑰。
+如果鍵值與原始鍵不同，或者您使用自己的業務鍵作為URI，而非PATCH提供的業務鍵，則無法使用Adobe操作修改自定義鍵。
 
 僅對&#x200B;**頂層配置檔案資源**&#x200B;使用自定義鍵。 URL由API傳回，不應由您自己建立。
 
@@ -67,7 +70,7 @@ ht-degree: 0%
 
 ***請求範例***
 
-若要使用自訂金鑰擷取描述檔的訂閱，請對自訂金鑰執行GET作業。
+若要使用自訂索引鍵擷取描述檔的訂閱，請對自訂索引鍵執行GET作業。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/<customKey> \

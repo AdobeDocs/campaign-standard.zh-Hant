@@ -6,11 +6,14 @@ description: '透過SMS現成可用的報表，瞭解您的SMS傳送成功。 '
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
+feature: 報告
+role: 領導者
+level: 中級
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 5%
+source-wordcount: '76'
+ht-degree: 6%
 
 ---
 

@@ -7,11 +7,14 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: saveAudience,main
+feature: 工作流程
+role: 資料架構師
+level: 中級
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 100%
+source-wordcount: '807'
+ht-degree: 99%
 
 ---
 
@@ -64,7 +67,6 @@ ht-degree: 100%
       >[!NOTE]
       >
       >只有在管理員已設定 Adobe Experience Cloud 的共用對象功能時，才可使用此選項。如需詳細資訊，請參閱[使用 Campaign 及 People Core Service](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)。
-
    更新期間儲存或可用的對象類型會視工作流程上游的活動而定。
 
    如果對象的目標定位維度在儲存時未知（例如，如果來自匯入的檔案），則會建立或更新對象為 **[!UICONTROL File]** 類型觀眾。

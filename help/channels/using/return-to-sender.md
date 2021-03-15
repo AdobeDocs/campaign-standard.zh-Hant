@@ -6,10 +6,13 @@ description: 瞭解如何收到錯誤地址的通知，並排除它，以免日�
 audience: channels
 content-type: reference
 topic-tags: direct-mail
+feature: 直接郵件
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '219'
 ht-degree: 2%
 
 ---
@@ -19,9 +22,9 @@ ht-degree: 2%
 
 支援與直接郵件提供者進行平面檔案交換，並納入「傳回至傳送者」資訊。 這允許將相應的郵遞區號排除在未來通訊之外。 此外，您還可以收到錯誤地址的通知，並透過其他管道與客戶互動，或鼓勵他更新其郵遞區號。
 
-例如，聯繫人已移至新位置，但未提供您新的郵遞區號。 提供者會擷取錯誤位址的清單，並傳送此資訊給Adobe Campaign,Adobe Campaign會自動拒絕列出錯誤位址。
+例如，聯繫人已移至新位置，但未提供您新的郵遞區號。 提供者會擷取錯誤位址的清單，並傳送此資訊給Adobe Campaign，以自動取消列出錯誤位址。
 
-為了使此功能發揮作用，直接郵件預設傳送模板在內容中包括傳送日誌ID。 因此，Adobe Campaign將能夠將描述檔和傳送資料與提供者傳回的資訊同步。
+為了使此功能發揮作用，直接郵件預設傳送模板在內容中包括傳送日誌ID。 因此，Adobe Campaign將能夠將配置檔案和交付資料與提供商返回的資訊同步。
 
 ![](assets/direct_mail_return_sender_1.png)
 

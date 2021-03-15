@@ -5,10 +5,13 @@ title: DataModel
 description: 瞭解資料模型
 audience: developing
 content-type: reference
+feature: 資料模型
+role: 開發人員
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '175'
 ht-degree: 9%
 
 ---
@@ -99,7 +102,7 @@ ht-degree: 9%
                </tr>
                <tr>
                   <td>marketingCloudId</td>
-                  <td>Marketing Cloud ID</td>
+                  <td>Marketing CloudID</td>
                   <td>字串(256)</td>
                   <td> </td>
                </tr>

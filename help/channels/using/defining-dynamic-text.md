@@ -2,14 +2,17 @@
 solution: Campaign Standard
 product: campaign
 title: 定義動態文字
-description: 瞭解如何根據Adobe Campaign中定義的條件，動態地向使用者顯示不同的文字。
+description: 瞭解如何根據Adobe Campaign定義的條件，動態地向使用者顯示不同的文字。
 audience: designing
 content-type: reference
 topic-tags: defining-conditional-content
+feature: SMS
+role: 業務從業人員
+level: 初學者
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '217'
 ht-degree: 3%
 
 ---

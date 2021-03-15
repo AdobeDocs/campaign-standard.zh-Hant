@@ -6,10 +6,13 @@ description: 瞭解如何在傳送前定義準備。
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
+feature: 傳送時間最佳化
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '465'
 ht-degree: 2%
 
 ---
@@ -55,7 +58,7 @@ ht-degree: 2%
 
 **類型規則**
 
-Adobe Campaign隨附一組內建的排版規則，這些規則會在訊息準備期間套用。 它們用來檢查訊息是否有效，以及是否符合您的品質標準。 請參閱[類型](../../sending/using/about-typology-rules.md)。 例如，您可以定義自己的排版規則，以設定全域跨通道疲勞規則，自動排除促銷活動中過度索取的個人檔案。 請參閱[疲勞規則](../../sending/using/fatigue-rules.md)。
+Adobe Campaign提供一套內建的排版規則，在訊息準備期間套用。 它們用來檢查訊息是否有效，以及是否符合您的品質標準。 請參閱[類型](../../sending/using/about-typology-rules.md)。 例如，您可以定義自己的排版規則，以設定全域跨通道疲勞規則，自動排除促銷活動中過度索取的個人檔案。 請參閱[疲勞規則](../../sending/using/fatigue-rules.md)。
 
 **SMS訊息檢查**
 

@@ -6,10 +6,14 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
+description: 「當您的內容準備好時，瞭解您如何仔細定義將收到您訊息的對象。」
+feature: 傳送能力
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: a7300666587362048431d0bafacc317170b317aa
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '520'
 ht-degree: 11%
 
 ---
@@ -25,11 +29,11 @@ ht-degree: 11%
 
 當您的內容準備好時，您需要仔細定義將收到訊息的對象。
 
-為了讓傳遞成功，您想要將最相關的個人化內容傳送給適當的收件者。 Adobe Campaign可讓您建立最精確的目標：您可以根據收件者的年齡、當地語系、他們購買的商品，如果他們點選先前遞送的連結，等等。 有了Adobe Campaign，您也可以定義測試設定檔、控制群組和種子位址，以確定您的目標正確無誤。
+為了讓傳遞成功，您想要將最相關的個人化內容傳送給適當的收件者。 Adobe Campaign可讓您建立最精確的目標：您可以根據收件者的年齡、當地語系、他們購買的商品，如果他們點選先前遞送的連結，等等。 有了Adobe Campaign，您也可以定義測試設定檔、控制群組和種子位址，以確定目標正確無誤。
 
 ## 目標映射{#target-mappings}
 
-依預設，傳送範本以&#x200B;**描述檔**&#x200B;為目標。 Adobe Campaign會為您的傳送提供其他目標對應，您可以根據需要進行變更。
+依預設，傳送範本以&#x200B;**描述檔**&#x200B;為目標。 Adobe Campaign為您的傳送提供其他目標對應，您可以根據需求進行變更。
 
 這些映射在本節](../../automating/using/query.md#targeting-dimensions-and-resources)中顯示。[
 

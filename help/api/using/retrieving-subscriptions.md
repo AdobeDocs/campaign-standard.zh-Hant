@@ -6,10 +6,13 @@ description: 瞭解如何使用API擷取訂閱。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: 資料工程師
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '200'
 ht-degree: 2%
 
 ---
@@ -88,7 +91,7 @@ ht-degree: 2%
 這是兩個步驟的程式。
 
 1. 擷取指定描述檔的訂閱URL。
-1. 對URL執行GET要求。 它會傳回描述檔的訂閱清單，以及每個相關服務。
+1. 對URL執行GET請求。 它會傳回描述檔的訂閱清單，以及每個相關服務。
 
 <br/>
 

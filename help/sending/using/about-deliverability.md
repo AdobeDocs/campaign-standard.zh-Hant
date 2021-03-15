@@ -1,16 +1,19 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 關於Adobe Campaign Standard中的傳遞能力
-description: 瞭解與傳遞能力相關的概念和最佳實務，以及Adobe Campaign Standard提供的工具，以最佳化傳送您的傳遞。
+title: 論Adobe Campaign Standard的傳遞能力
+description: 瞭解有關遞送能力的概念和最佳實務，以及Adobe Campaign Standard提供的工具，以最佳化傳送遞送。
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
+feature: 傳送能力
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 1e7359db2de1a9c420af33ac85c0597c098ae3f8
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '654'
 ht-degree: 5%
 
 ---
@@ -32,7 +35,7 @@ ht-degree: 5%
 
 ## 需要檢查的關鍵點 {#deliverability-key-points}
 
-若要最佳化Adobe Campaign電子郵件的傳遞能力，我們建議使用下列最佳實務。 傳遞能力問題通常與網際網路服務提供商和郵件伺服器管理員實施的針對垃圾郵件的保護措施有關。
+若要最佳化您Adobe Campaign電子郵件的傳遞能力，我們建議使用下列最佳實務。 傳遞能力問題通常與網際網路服務提供商和郵件伺服器管理員實施的針對垃圾郵件的保護措施有關。
 
 電子郵件傳遞能力是指一組特性，這些特性決定了郵件在短時間內通過個人電子郵件地址到達其目的地的能力，並且在內容和格式方面具有預期的質量。 這些特徵可分為四大類：資料品質、訊息和內容、傳送基礎架構和聲譽。 它們共同構成了成功的電子郵件傳遞能力計畫的基礎。
 
@@ -41,7 +44,7 @@ ht-degree: 5%
 
 ## 傳遞性工具{#deliverability-tools}
 
-首先，請先參閱Campaign Standard隨附之傳遞性工具相關檔案：
+首先，請先參閱隨附Campaign Standard的可交付性工具相關檔案：
 * [傳遞最佳實務](../../sending/using/delivery-best-practices.md)
 * [個人化傳送者名稱](../../designing/using/personalization.md#personalizing-the-sender)
 * [最佳化傳送時間](../../sending/using/optimizing-the-sending-time.md)

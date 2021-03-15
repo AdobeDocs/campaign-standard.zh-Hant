@@ -6,10 +6,13 @@ description: 進一步瞭解使用API進行自訂資源管理/
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: 資料工程師
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 9eca72e744524cf201d998abd9acf718fdaca0f8
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '187'
 ht-degree: 3%
 
 ---
@@ -36,7 +39,7 @@ ht-degree: 3%
 GET /customResources/resourceType/<customResourceName>
 ```
 
-要執行建立、更新或刪除，請使用GET、POST、PATCH、DELETE。
+要執行建立、更新或刪除，使用GET、POST、PATCH、DELETE。
 
 ```
 POST /customResources/<customResourceName>

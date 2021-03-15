@@ -6,10 +6,13 @@ description: 本節詳細說明如何使用外部參數調用工作流。
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
+feature: 工作流程
+role: 資料架構師
+level: 中級
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '981'
 ht-degree: 1%
 
 ---
@@ -35,7 +38,7 @@ ht-degree: 1%
 
 ## 步驟1:設定API呼叫{#step-1--configuring-the-api-call}
 
-進行API呼叫，以使用參數觸發Workflow 1。 如需API呼叫語法的詳細資訊，請參閱[ Campaign Standard REST APIs檔案](../../api/using/triggering-a-signal-activity.md)。
+進行API呼叫，以使用參數觸發Workflow 1。 有關API調用語法的詳細資訊，請參閱[Campaign StandardREST API文檔](../../api/using/triggering-a-signal-activity.md)。
 
 在本例中，我們要使用下列參數來呼叫工作流程：
 

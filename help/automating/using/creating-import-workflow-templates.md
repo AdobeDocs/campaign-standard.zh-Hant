@@ -6,10 +6,13 @@ description: 瞭解如何建立工作流程範本以匯入資料。
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
+feature: 工作流程
+role: 資料架構師
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1176'
 ht-degree: 1%
 
 ---
@@ -19,7 +22,7 @@ ht-degree: 1%
 
 如果您需要定期匯入具有相同結構的檔案，請使用匯入範本是最佳做法。
 
-此範例說明如何預先設定可重複用於匯入來自Adobe Campaign資料庫中CRM的設定檔的工作流程。
+此範例說明如何預先設定可重複用於匯入來自Adobe Campaign資料庫CRM之描述檔的工作流程。
 
 1. 從&#x200B;**[!UICONTROL Resources > Templates > Workflow templates]**&#x200B;建立新的工作流程範本。
 1. 新增下列活動：

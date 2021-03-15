@@ -6,10 +6,13 @@ description: 瞭解如何疑難排解共用資源時的問題。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
+feature: 觸發器
+role: 資料架構師
+level: 中級
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '349'
 ht-degree: 1%
 
 ---
@@ -17,7 +20,7 @@ ht-degree: 1%
 
 # 疑難排解{#troubleshooting}
 
-使用與Audience Manager或People核心服務整合時可能會發生錯誤。
+使用與Audience Manager或人員核心服務的整合時，可能會遇到錯誤。
 
 在此情況下，請確定下列元素已正確設定：
 
@@ -46,6 +49,6 @@ ht-degree: 1%
    * **AES的Encryption IV** (Initialization Vector)
    * **頻道** （電子郵件／簡訊／其他）:此欄位可讓您直接解密電子郵件地址和簡訊號碼。確保協調密鑰與&#x200B;**Channel**&#x200B;欄位的設定匹配。 如果選擇「其他」，則不會發生此特定解密，並且會使用協調密鑰來協調資料。
 
-   由於技術工作流程已停止或暫停，Experience Cloud觀眾可能無法共用。 直接按一下資料來源中的&#x200B;**[!UICONTROL Show ImportShared Audience workflow]**&#x200B;選項，以存取&#x200B;**[!UICONTROL Import shared audience]**&#x200B;工作流程。
+   Experience Cloud對象可能無法共用，因為技術工作流程已停止或暫停。 直接按一下資料來源中的&#x200B;**[!UICONTROL Show ImportShared Audience workflow]**&#x200B;選項，以存取&#x200B;**[!UICONTROL Import shared audience]**&#x200B;工作流程。
 
-透過「人員」核心服務共用觀眾或匯入觀眾時，可能會發生遺失部分資料的情況。 只會傳送ID（「訪客ID」或「Declared ID」）與描述檔維度可協調的記錄。 不會匯入Adobe Campaign未識別之「人員」核心服務區段的ID。
+透過「人員」核心服務共用觀眾或匯入觀眾時，可能會發生遺失部分資料的情況。 只會傳送ID（「訪客ID」或「Declared ID」）與描述檔維度可協調的記錄。 不會匯入「人員」核心服務區段中未被Adobe Campaign識別的ID。

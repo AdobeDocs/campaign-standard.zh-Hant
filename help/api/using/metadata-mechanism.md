@@ -6,18 +6,21 @@ description: 進一步瞭解中繼資料機制。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: 資料工程師
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 1%
+source-wordcount: '231'
+ht-degree: 2%
 
 ---
 
 
 # 中繼資料機制 {#metadata-mechanism}
 
-在GET請求中，可使用&#x200B;**resourceType**&#x200B;檢索資源元資料：
+您可以在GET請求中使用&#x200B;**resourceType**&#x200B;來檢索資源元資料：
 
 `GET /profileAndServices/resourceType/<resourceName>`
 

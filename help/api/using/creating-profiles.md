@@ -6,11 +6,14 @@ description: 進一步瞭解如何使用API建立設定檔。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: 資料工程師
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 3%
+source-wordcount: '108'
+ht-degree: 4%
 
 ---
 
@@ -29,7 +32,7 @@ ht-degree: 3%
 
 ***請求範例***
 
-建立具有電子郵件「john.doe@mail.com」之描述檔的POST要求範例。
+建立描述檔的範例POST要求，電子郵件為「john.doe@mail.com」。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \

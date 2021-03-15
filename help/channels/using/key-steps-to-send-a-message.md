@@ -6,11 +6,14 @@ description: 請依照下列步驟，使用 Adobe Campaign 建立和傳送訊息
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
+feature: 概觀
+role: 業務從業人員
+level: 初學者
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 93%
+source-wordcount: '178'
+ht-degree: 91%
 
 ---
 

@@ -2,15 +2,17 @@
 solution: Campaign Standard
 product: campaign
 title: '"步驟 2：發佈擴充"'
-description: null
 audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
+feature: 資料模型
+role: 開發人員
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 26%
+source-wordcount: '97'
+ht-degree: 25%
 
 ---
 

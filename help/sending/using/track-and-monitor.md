@@ -6,10 +6,14 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
+description: 瞭解Adobe Campaign如何讓您追蹤已傳送的訊息，並瞭解收件者對您的傳送有何反應
+feature: 傳送能力
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: a7300666587362048431d0bafacc317170b317aa
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '436'
 ht-degree: 4%
 
 ---
@@ -17,7 +21,7 @@ ht-degree: 4%
 
 # 追蹤和監視 {#track-and-monitor}
 
-您按了「傳送」按鈕？ 讓我們看看會發生什麼。 傳送後，Adobe Campaign可讓您追蹤已傳送的訊息，並瞭解收件者對傳送的反應。 這可協助您改善未來的傳送方式，並最佳化您的下一個促銷活動。
+您按了「傳送」按鈕？ 讓我們看看會發生什麼。 傳送後，Adobe Campaign可讓您追蹤傳送的訊息，並瞭解收件者對傳送的反應。 這可協助您改善未來的傳送方式，並最佳化您的下一個促銷活動。
 
 ## 監視傳遞{#monitoring-deliveries}
 
@@ -27,7 +31,7 @@ ht-degree: 4%
 
 * 您可以控制傳送記錄檔中訊息的狀態。
 
-* 為了追蹤傳送成功或失敗，Adobe Campaign提供電子郵件警報系統，可傳送通知給使用者重要的系統活動。
+* 為了追蹤傳送成功或失敗的情況，Adobe Campaign提供電子郵件警報系統，可傳送通知，告知使用者重要的系統活動。
 
 * 從訊息控制面板，您可以存取此特定訊息的數個報表。
 
@@ -43,7 +47,7 @@ ht-degree: 4%
 
 ## 動態報告{#dyn-reports}
 
-動態報表可讓您建立可完全自訂的即時報表，以監控您的促銷活動。 維度、量度和視覺化可讓您評估促銷活動對收件者的影響和成功。
+動態報表可讓您建立可完全自訂的即時報表，以監控您的促銷活動。 Dimension、量度和視覺化可讓您評估促銷活動對收件者的影響和成功。
 
 **提示** -內建報表可供您監控促銷活動，但您也可以將任何度量或維度拖放至報表，以自訂這些報表。
 

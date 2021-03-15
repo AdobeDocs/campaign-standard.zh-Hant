@@ -6,11 +6,14 @@ description: 瞭解如何使用API擷取描述檔的地理單位。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: 資料工程師
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '80'
-ht-degree: 12%
+source-wordcount: '84'
+ht-degree: 13%
 
 ---
 
@@ -18,7 +21,7 @@ ht-degree: 12%
 # 擷取設定檔的地理單位 {#retrieving-geographical-unit}
 
 1. 對配置檔案PKey執行GET請求以檢索&#x200B;**geoUnit** URL。
-1. 在URL上執行GET請求，以擷取有關地理單位的詳細資訊。
+1. 在URL上執行GET請求，以擷取地理單位的詳細資訊。
 
 <br/>
 
@@ -48,7 +51,7 @@ ht-degree: 12%
 }
 ```
 
-對URL執行GET要求以擷取更多資訊。
+對URL執行GET請求以擷取更多資訊。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/geoUnitBase/<PKEY> \

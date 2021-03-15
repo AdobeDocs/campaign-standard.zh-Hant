@@ -1,16 +1,19 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 使用Adobe Campaign Standard提升您的聲譽
-description: 瞭解如何透過管理重複的電子郵件地址和隔離來改善您使用Adobe Campaign Standard的聲譽。
+title: 提高你在Adobe Campaign Standard的聲譽
+description: 瞭解如何透過管理重複的電子郵件位址和隔離來改善您與Adobe Campaign Standard的聲譽。
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
+feature: 傳送能力
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '462'
 ht-degree: 2%
 
 ---
@@ -18,7 +21,7 @@ ht-degree: 2%
 
 # 提升您的名譽{#improving-reputation}
 
-為避免讓收件者筋疲力盡，請從目標位置刪除重複的電子郵件地址。 此步驟可保護您的發送信譽並確保良好的隔離管理。 Adobe Campaign提供必要的工具來實施這些建議，並避免ISP將其新增至密文清單的風險。
+為避免讓收件者筋疲力盡，請從目標位置刪除重複的電子郵件地址。 此步驟可保護您的發送信譽並確保良好的隔離管理。 Adobe Campaign提供了實施這些建議的必要工具，並避免ISP加入密文清單的風險。
 
 在下面，您將找到有關複製和隔離管理的詳細資訊。
 

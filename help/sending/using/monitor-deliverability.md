@@ -1,16 +1,19 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 監控Adobe Campaign Standard中的傳遞能力
+title: Adobe Campaign Standard的可交付性監測
 description: 使用Adobe Campaign Standard提供的工具監控平台的傳遞能力。
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
+feature: 傳送能力
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '426'
 ht-degree: 7%
 
 ---
@@ -18,7 +21,7 @@ ht-degree: 7%
 
 # 監視傳遞能力{#monitor-deliverability}
 
-以下是&#x200B;**[!UICONTROL Delivery throughput]**&#x200B;報表的詳細資訊，以及Adobe Campaign提供的不同監控工具。 以下是有關交付能力監控的一些附加准則：
+以下是&#x200B;**[!UICONTROL Delivery throughput]**&#x200B;報告以及Adobe Campaign提供的不同監控工具的詳細資訊。 以下是有關交付能力監控的一些附加准則：
 * 定期檢查整個平台的傳送吞吐量，以確認其是否與原始設定一致。
 * 檢查傳送範本中的重試設定是否正確（重試期間為30分鐘，重試次數超過20次）。
 * 定期確認彈回信箱是否可存取，且帳戶不會過期。
@@ -65,4 +68,4 @@ Signal Spam也提供直接投訴，讓使用者透過專用介面登入。 然�
 
 250ok是一種監控解決方案，提供IP和網域密碼表，以及信譽指標。
 
-提供的資訊是即時的，可提供主動幫助。 250ok是Adobe可傳遞性內部工具的輔助解決方案。
+提供的資訊是即時的，可提供主動幫助。 250ok是Adobe傳遞能力內部工具的輔助解決方案。

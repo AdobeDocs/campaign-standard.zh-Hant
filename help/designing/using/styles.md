@@ -6,10 +6,13 @@ description: 瞭解如何在電子郵件設計工具中管理電子郵件樣式�
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
+feature: 電子郵件設計
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1052'
+source-wordcount: '1057'
 ht-degree: 1%
 
 ---
@@ -77,7 +80,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->根據您的選擇（結構元件、欄或內容元件），結果將不相同。 Adobe建議在欄層級設定&#x200B;**[!UICONTROL Padding]**&#x200B;和&#x200B;**[!UICONTROL Margin]**&#x200B;參數。
+>根據您的選擇（結構元件、欄或內容元件），結果將不相同。 Adobe建議在列級別設定&#x200B;**[!UICONTROL Padding]**&#x200B;和&#x200B;**[!UICONTROL Margin]**&#x200B;參數。
 
 對於&#x200B;**[!UICONTROL Padding]**&#x200B;和&#x200B;**[!UICONTROL Margin]**，按一下鎖定表徵圖可中斷頂部和底部或右和左參數之間的同步。 這可讓您個別調整每個參數。
 
@@ -105,7 +108,7 @@ ht-degree: 1%
 >abstract="電子郵件設計工具可讓您個人化內容的背景色彩或背景影像。請注意，並非所有電子郵件客戶都支援背景影像。"
 >additional-url="https://docs.google.com/spreadsheets/d/1TLo62YKm3tThUWDOIliCQFWs3dpNjpDfw6DdTr1oGOw/edit#gid=0" text="其他資訊"
 
-在使用電子郵件設計工具設定背景時，Adobe建議您：
+在使用電子郵件設計工具設定背景時，Adobe建議：
 
 1. 如果您的設計需要，請將背景顏色套用至電子郵件的正文。
 1. 在大多數情況下，請在欄層級設定背景顏色。

@@ -2,14 +2,17 @@
 solution: Campaign Standard
 product: campaign
 title: 自訂清單
-description: 「瞭解如何自訂Adobe Campaign Standard中的顯示畫面並對清單畫面採取行動：排序、篩選、刪除或複製元素。 清單畫面會顯示一或多個特定資源的元素。」
+description: 「瞭解如何自訂顯示並在Adobe Campaign Standard的清單畫面上動作：排序、篩選、刪除或複製元素。 清單畫面會顯示一或多個特定資源的元素。」
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
+feature: Campaign
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '397'
 ht-degree: 1%
 
 ---
@@ -19,7 +22,7 @@ ht-degree: 1%
 
 **列** 表螢幕允許您顯示一個或多個給定資源的元素。
 
-Adobe Campaign有兩種清單類型：
+Adobe Campaign有兩種類型的清單：
 
 * **omunique**&#x200B;清單，即包含單一類型的資源時。 例如，描述檔清單只包含描述檔。
 * **異構**&#x200B;清單，當它包含幾種資源時。 例如，行銷活動清單包含著陸頁面、工作流程、電子郵件、簡訊等。

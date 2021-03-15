@@ -2,15 +2,17 @@
 solution: Campaign Standard
 product: campaign
 title: 外部 API
-description: null
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
+feature: 工作流程
+role: 資料架構師
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 6dda990d046cceae2a0c0da87764d4b6a16d9ae8
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '2180'
+source-wordcount: '2184'
 ht-degree: 95%
 
 ---
@@ -38,7 +40,7 @@ ht-degree: 95%
 
 ### 回溯相容性注意事項 {#from-beta-to-ga}
 
-在Campaign Standard 20.4版本中，http回應資料大小限制和回應逾時護欄已降低，以符合最佳實務——請參閱[限制和護欄](#guardrails)。 這些護欄修改不會對現有的外部 API 活動產生影響；因此，建議您在所有工作流程中，以新版本取代現有的外部 API 活動。
+在Campaign Standard20.4版本中，http回應資料大小限制和回應逾時護欄已降低，以符合最佳實務——請參閱[限制和護欄](#guardrails)。 這些護欄修改不會對現有的外部 API 活動產生影響；因此，建議您在所有工作流程中，以新版本取代現有的外部 API 活動。
 
 取代外部 API 活動時，將新的外部 API 活動新增至工作流程、手動複製設定詳細資訊，然後刪除舊活動。
 

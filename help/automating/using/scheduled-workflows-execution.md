@@ -7,11 +7,14 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
+feature: 工作流程
+role: 資料架構師
+level: 中級
 translation-type: tm+mt
-source-git-commit: 4a61c988f95dd84797e6e33707651304223045fb
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 0%
+source-wordcount: '426'
+ht-degree: 2%
 
 ---
 
@@ -20,7 +23,7 @@ ht-degree: 0%
 
 ## 關於排程的工作流程執行
 
-在「促銷活動標準」中，工作流程引擎保證只有一個程式執行工作流程例項。 阻止導入、長時間運行查詢或寫入資料庫等活動會阻止在運行時執行任何其他任務。
+在Campaign Standard中，工作流引擎保證僅由一個進程執行工作流實例。 阻止導入、長時間運行查詢或寫入資料庫等活動會阻止在運行時執行任何其他任務。
 
 另一方面，非阻塞活動不會阻止其他任務的執行(通常是等待事件（如&#x200B;**[!UICONTROL Scheduler]**&#x200B;活動）的活動。
 

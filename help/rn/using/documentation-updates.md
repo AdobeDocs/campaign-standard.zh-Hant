@@ -6,10 +6,13 @@ description: 瞭解 Adobe Campaign Standard 檔案的所有最新更新。
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
+feature: 概觀
+role: 業務從業人員
+level: 初學者
 translation-type: tm+mt
-source-git-commit: 6dd54dc72fdaf3261d13ca972f1258bcbb3c1e3a
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '6616'
+source-wordcount: '6620'
 ht-degree: 99%
 
 ---

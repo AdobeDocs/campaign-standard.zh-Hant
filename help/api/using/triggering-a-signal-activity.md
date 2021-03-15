@@ -6,10 +6,13 @@ description: 瞭解如何使用API觸發訊號活動。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: 資料工程師
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '326'
 ht-degree: 2%
 
 ---
@@ -17,9 +20,9 @@ ht-degree: 2%
 
 # 觸發訊號活動 {#triggering-a-signal-activity}
 
-在Adobe Campaign Standard工作流程中，可能有一或多個&#x200B;**外部訊號**&#x200B;活動。 這些活動是等待觸發的&quot;聽眾&quot;。
+在Adobe Campaign Standard工作流中，可以有一個或多個&#x200B;**外部信號**&#x200B;活動。 這些活動是等待觸發的&quot;聽眾&quot;。
 
-促銷活動標準API可讓您觸發&#x200B;**外部訊號**&#x200B;活動來呼叫工作流程。 API呼叫可包含將納入工作流程事件變數的參數（要定位的對象名稱、要匯入的檔案名稱、訊息內容的一部分等）。 如此，您就可輕鬆將Campaign自動化與外部系統整合。
+Campaign StandardAPI可讓您觸發&#x200B;**外部訊號**&#x200B;活動，以呼叫工作流程。 API呼叫可包含將納入工作流程事件變數的參數（要定位的對象名稱、要匯入的檔案名稱、訊息內容的一部分等）。 如此，您就可輕鬆將Campaign自動化與外部系統整合。
 
 >[!NOTE]
 >
@@ -31,7 +34,7 @@ ht-degree: 2%
 
    `GET https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>`
 
-1. 在傳回的URL上執行&#x200B;**POST**&#x200B;要求，以觸發信號活動，並在裝載中使用&#x200B;**&quot;source&quot;**&#x200B;參數。 此屬性為必填屬性，可讓您指出觸發請求來源。
+1. 對傳回的URL執行&#x200B;**POST**&#x200B;要求，以觸發信號活動，並在裝載中使用&#x200B;**&quot;source&quot;**&#x200B;參數。 此屬性為必填屬性，可讓您指出觸發請求來源。
 
 如果您想使用參數來呼叫工作流，請使用&#x200B;**&quot;parameters&quot;**&#x200B;屬性將其新增至裝載。 語法由參數的名稱及其值組成(支援下列類型：**字串**、**數字**、**布林**&#x200B;和&#x200B;**日期／時間**)。
 
@@ -91,7 +94,7 @@ ht-degree: 2%
 }
 ```
 
-若要觸發信號活動，請在觸發URL上使用「來源」執行POST要求。 如果您想使用參數呼叫工作流，請新增「參數」屬性。
+若要觸發信號活動，請在觸發URL上使用&quot;source&quot;執行POST要求。 如果您想使用參數呼叫工作流，請新增「參數」屬性。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<PKEY>/activities/activity/<PKEY>/trigger \

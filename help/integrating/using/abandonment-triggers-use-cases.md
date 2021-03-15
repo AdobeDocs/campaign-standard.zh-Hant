@@ -6,11 +6,14 @@ description: 瞭解如何與這些不同的使用案例整合搭配使用 Experi
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
+feature: 觸發器
+role: 資料架構師
+level: 中級
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 100%
+source-wordcount: '997'
+ht-degree: 99%
 
 ---
 

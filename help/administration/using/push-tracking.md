@@ -7,10 +7,13 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
+feature: 例項設定
+role: 管理員
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: df1ec680d0efcf69a00128a876a2e14ba0f6e771
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '953'
 ht-degree: 1%
 
 ---
@@ -20,7 +23,7 @@ ht-degree: 1%
 
 ## 關於推播追蹤{#about-push-tracking}
 
-若要確保已完全開發推播通知，您必須確定追蹤部分已正確實作，因為並非每個推播通知都已啟用追蹤。 若要啟用此功能，開發人員需要識別哪些傳送已啟用追蹤，Adobe Campaign Standard會傳送名為`_acsDeliveryTracking`的旗標，其中&#x200B;**on**&#x200B;或&#x200B;**off**&#x200B;有兩個值。 應用程式開發人員只應在變數設為&#x200B;**on**&#x200B;的傳送時傳送追蹤請求。
+若要確保已完全開發推播通知，您必須確定追蹤部分已正確實作，因為並非每個推播通知都已啟用追蹤。 為啟用此功能，開發人員需要識別哪些傳送已啟用追蹤，Adobe Campaign Standard會傳送名為`_acsDeliveryTracking`的旗標，其中&#x200B;**on**&#x200B;或&#x200B;**off**&#x200B;有兩個值。 應用程式開發人員只應在變數設為&#x200B;**on**&#x200B;的傳送時傳送追蹤請求。
 
 >[!IMPORTANT]
 >
@@ -34,9 +37,9 @@ ht-degree: 1%
 
 * **推播開啟** -當推播通知已傳送至裝置，且使用者已按一下通知，導致應用程式開啟時。這類似於推播點按，但是當通知關閉時，不會觸發推播開啟。
 
-若要實作Campaign Standard的追蹤，行動應用程式必須包含Mobile SDK。 這些SDK可在Adobe Mobile Services上取得。 如需關於此項目的詳細資訊，請參閱此[頁面](../../administration/using/configuring-a-mobile-application.md)。
+若要實作Campaign Standard追蹤，行動應用程式必須包含Mobile SDK。 這些SDK可在AdobeMobile Services上取得。 如需關於此項目的詳細資訊，請參閱此[頁面](../../administration/using/configuring-a-mobile-application.md)。
 
-若要傳送追蹤資訊，有三個變數需要傳送。 兩個是從Campaign Standard收到的資料的一部分，而動作變數則決定它是&#x200B;**印象**、**按一下**&#x200B;或&#x200B;**開啟**。
+若要傳送追蹤資訊，有三個變數需要傳送。 兩個是從Campaign Standard接收的資料的一部分，一個操作變數指示其是&#x200B;**印象**、**按一下**&#x200B;或&#x200B;**開啟**。
 
 | 變數 | 值 |
 |:-:|:-:|
@@ -172,7 +175,7 @@ public class NotificationDismissedReceiver extends BroadcastReceiver {
 
 若要追蹤開啟，您必須建立「方式」。 目的物件可讓Android OS在執行特定動作時呼叫您的方法。 在此情況下，按一下通知以開啟應用程式。
 
-此程式碼是以點按印象追蹤的實施為基礎。 設定&#x200B;**[!UICONTROL Intent]**&#x200B;後，您現在需要將追蹤資訊傳回至Adobe Campaign Standard。 在這種情況下，您必須將&#x200B;**[!UICONTROL Open Intent]**&#x200B;設為在應用程式中開啟至某個檢視，這會呼叫onResume方法，並在&#x200B;**[!UICONTROL Intent Object]**&#x200B;中提供通知資料。
+此程式碼是以點按印象追蹤的實施為基礎。 設定&#x200B;**[!UICONTROL Intent]**&#x200B;後，您現在需要將追蹤資訊傳回Adobe Campaign Standard。 在這種情況下，您必須將&#x200B;**[!UICONTROL Open Intent]**&#x200B;設為在應用程式中開啟至某個檢視，這會呼叫onResume方法，並在&#x200B;**[!UICONTROL Intent Object]**&#x200B;中提供通知資料。
 
 對於在21.1版本之前建立的傳送或具有自訂範本的傳送，請參閱此[章節](../../administration/using/push-tracking.md#about-push-tracking)。
 

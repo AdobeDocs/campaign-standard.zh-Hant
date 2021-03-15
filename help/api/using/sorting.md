@@ -6,10 +6,13 @@ description: 進一步瞭解如何執行排序作業
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: 資料工程師
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '93'
 ht-degree: 11%
 
 ---
@@ -25,7 +28,7 @@ ht-degree: 11%
 
 ***請求範例***
 
-* GET要求範例，以依字母順序在資料庫中擷取電子郵件。
+* 以按字母順序在資料庫中檢索電子郵件的示例GET請求。
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email/email?_order=email \
@@ -50,7 +53,7 @@ ht-degree: 11%
    }
    ```
 
-* GET要求範例，以遞減字母順序擷取資料庫中的電子郵件。
+* 以遞減字母順序在資料庫中擷取電子郵件的範例GET請求。
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_order=email%20desc \

@@ -1,15 +1,18 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 在Adobe Campaign Standard中封存訊息
-description: 瞭解如何使用密件副本電子郵件地址使用Adobe Campaign Standard封存電子郵件。
+title: 在Adobe Campaign Standard歸檔郵件
+description: 瞭解如何使用密件副本電子郵件地址與Adobe Campaign Standard封存電子郵件。
 audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
+feature: 效能監控
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 0f057375e5cd63605af460f08cd39bed00435184
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '362'
 ht-degree: 5%
 
 ---
@@ -17,7 +20,7 @@ ht-degree: 5%
 
 # 使用電子郵件密件副本進行歸檔{#archiving-emails}
 
-您可以設定Adobe Campaign，以保留透過電子郵件密件副本從您的平台傳送的電子郵件副本。
+您可以設定Adobe Campaign，將透過電子郵件密件副本從您的平台傳送的電子郵件副本保留下來。
 
 尤其是，如果您的組織需要封存所有傳出電子郵件訊息以符合法規，您可以啟用此功能。 它可讓您將對應已傳送訊息的完全隱藏副本傳送至您必須指定的密件副本電子郵件地址（傳送收件者不可見）。
 
@@ -25,12 +28,12 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->Adobe Campaign本身不會管理封存的檔案。 它確實可讓您將您選擇的訊息傳送至專用位址，以便使用外部系統處理及封存。
+>Adobe Campaign本身不管理歸檔檔案。 它確實可讓您將您選擇的訊息傳送至專用位址，以便使用外部系統處理及封存。
 
-## 建議與限制{#recommendations-and-limitations}
+## Recommendations和限制{#recommendations-and-limitations}
 
 * 此功能是選取性的。請檢查您的授權合約，並聯絡您的帳戶管理員以啟用它。
-* 您選擇的密件副本位址必須提供給將為您設定的Adobe團隊。
+* 您選擇的密件副本地址必須提供給將為您配置的Adobe團隊。
 * 您只能使用一個密件副本電子郵件地址。
 * 只會將成功傳送的電子郵件納入考量。 彈回數不是。
 * 出於隱私原因，密件副本電子郵件必須由能夠安全地儲存個人識別資訊(PII)的歸檔系統處理。
@@ -38,7 +41,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->目前，已封存的電子郵件無法與Adobe Campaign Enhanced MTA一起傳送。
+>目前封存的電子郵件無法與Adobe Campaign增強型MTA一起傳送。
 
 ## 激活電子郵件歸檔{#activating-email-archiving}
 

@@ -7,11 +7,14 @@ audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 context-tags: cusResource,main
+feature: 資料模型
+role: 開發人員
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 95%
+source-wordcount: '545'
+ht-degree: 94%
 
 ---
 
@@ -81,8 +84,8 @@ ht-degree: 95%
 
 ![](assets/custom_resource_filter-definition_email-audience_filter.png)
 
-設定篩選器後，您就可以使用下列語法，從Campaign Standard API使用篩選器：
+設定篩選器後，您就可以使用下列語法，從Campaign StandardAPI使用篩選器：
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/by<customFilterName>?<customFilterparam>=<customFilterValue>`
 
-如需詳細資訊，請參閱[促銷活動標準API檔案](../../api/using/filtering.md#custom-filters)。
+有關詳細資訊，請參閱[Campaign StandardAPI文檔](../../api/using/filtering.md#custom-filters)。

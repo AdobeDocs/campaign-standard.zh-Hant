@@ -7,10 +7,13 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
+feature: 推播
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1284'
 ht-degree: 50%
 
 ---
@@ -83,14 +86,14 @@ Adobe Campaign 提供兩種類型的推播通知：
 
 查看以下資源：
 
-* [教學影片](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
+* [視訊Tutorials](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
 * [產品檔案](../../channels/using/about-push-notifications.md)
 * 使用AEP SDK [說明檔案](../../administration/using/configuring-a-mobile-application.md)進行設定
 * [社群頁面](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### 我必須做什麼才能在促銷活動中取得推播代號？{#push-token-acquisition}
 
-請確定布建團隊已在Adobe Campaign Standard中完成布建推播頻道。 從SDK實作setPushIdentifier API。 如需關於此項目的詳細資訊，請參閱此[頁面](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#set-up-push-messaging)。
+請確定布建團隊已完成Adobe Campaign Standard的推播頻道布建。 從SDK實作setPushIdentifier API。 如需關於此項目的詳細資訊，請參閱此[頁面](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#set-up-push-messaging)。
 
 ### 在促銷活動中擁有推播Token和ECID後，我還需要傳送推播通知嗎？{#sending-push}
 
@@ -153,7 +156,7 @@ openssl pkcs12 -in pushcert.p12 -out pushcert.pem -nodes -clcerts
 
 ### 哪些報表適用於推播渠道？{#push-report-available}
 
-Adobe推播促銷活動頻道提供現成可用的報表。 請參閱此[文檔](../../reporting/using/push-notification-report.md)。
+在Adobe Campaign推播頻道提供現成可用的報表。 請參閱此[文檔](../../reporting/using/push-notification-report.md)。
 
 請參閱此[頁面](../../reporting/using/indicator-calculation.md#push-notification-delivery)以瞭解如何計算每個推播量度。
 
@@ -162,4 +165,4 @@ Adobe推播促銷活動頻道提供現成可用的報表。 請參閱此[文檔]
 是的，推送訊息支援深層連結。 深層連結應包括：
 
 * 說明傳送追蹤必須停用才能讓開發人員運作的語言。
-* Appsflyer與Branch合作，可進行開發連結追蹤。 如需分支與Adobe Campaign Standard整合的詳細資訊，請參閱此[頁面](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1)。
+* Appsflyer與Branch合作，可進行開發連結追蹤。 有關分支和Adobe Campaign Standard整合的詳細資訊，請參閱此[頁](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1)。

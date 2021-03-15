@@ -6,10 +6,13 @@ description: 定義目標人口、選取對象、篩選收件者、收集資料�
 audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
+feature: 設定檔
+role: 業務從業人員
+level: 初學者
 translation-type: tm+mt
-source-git-commit: 35d61efce8d752ea30b7eaad55e6c23d4debd853
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '608'
 ht-degree: 20%
 
 ---

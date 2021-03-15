@@ -6,11 +6,14 @@ description: 瞭解如何使用API更新地理單位屬性
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: 資料工程師
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 11%
+source-wordcount: '90'
+ht-degree: 12%
 
 ---
 
@@ -18,7 +21,7 @@ ht-degree: 11%
 # 更新地理單位屬性 {#managing-geographical-units}
 
 1. 對&#x200B;**geoUnitBase**&#x200B;資源執行GET請求以檢索地理單元PKey。
-1. 對地理單元執行PATCH請求，並在裝載中更新屬性。
+1. 對地理單位執行PATCH請求，並在裝載中更新屬性。
 
 <br/>
 
@@ -50,7 +53,7 @@ ht-degree: 11%
 },
 ```
 
-對地理單元執行PATCH請求，並在裝載中更新屬性。
+對地理單位執行PATCH請求，並在裝載中更新屬性。
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/<PKEY> \

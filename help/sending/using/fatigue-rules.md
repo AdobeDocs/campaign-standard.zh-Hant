@@ -6,11 +6,14 @@ description: 建立疲乏規則，以管理使用設定檔的過度通訊。
 audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
+feature: 態樣規則
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '2342'
-ht-degree: 100%
+source-wordcount: '2347'
+ht-degree: 99%
 
 ---
 

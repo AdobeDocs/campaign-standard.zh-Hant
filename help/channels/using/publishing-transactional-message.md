@@ -7,11 +7,14 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
+feature: 交易式傳訊
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 76%
+source-wordcount: '656'
+ht-degree: 75%
 
 ---
 
@@ -107,7 +110,7 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 您可以使用　**[!UICONTROL Pause]**　按鈕以暫停發佈交易式訊息，例如，修改訊息中所包含的資料。因此，系統將不會再處理這些事件，而會將之保留在 Adobe Campaign 資料庫的佇列中。
 
-佇列的事件會在REST API中定義的時段內保留（請參閱[REST API檔案](../../api/using/managing-transactional-messages.md)），或在使用「觸發器」核心服務時的觸發器事件（請參閱[關於Adobe Experience Cloud觸發器](../../integrating/using/about-adobe-experience-cloud-triggers.md)）。
+佇列的事件會在REST API中定義的時段內保留（請參閱[REST API檔案](../../api/using/managing-transactional-messages.md)），或在使用「觸發器」核心服務時的觸發器事件(請參閱[關於Adobe Experience Cloud Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md))。
 
 ![](assets/message-center_pause.png)
 

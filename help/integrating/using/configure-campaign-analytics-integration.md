@@ -6,10 +6,13 @@ description: 瞭解如何設定Adobe Analytics整合，以開始測量電子郵�
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
+feature: 觸發器
+role: 資料架構師
+level: 中級
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '220'
 ht-degree: 9%
 
 ---
@@ -17,13 +20,13 @@ ht-degree: 9%
 
 # 設定 Campaign-Analytics 整合{#configure-campaign-analytics-integration}
 
-此整合可讓您直接從Adobe Campaign將關鍵績效指標資料分享至Adobe Analytics Standard或Premium。
+此整合可讓您直接從Adobe Campaign分享關鍵績效指標資料至Adobe Analytics Standard或Premium。
 
 若要開始整合Adobe Campaign Standard和Adobe Analytics，您必須先設定連結至Adobe Analytics的外部帳戶。
 
 外部帳戶和技術工作流程只能由平台的功能管理員管理。
 
-1. 從進階功能表，透過Adobe Campaign標誌，選取&#x200B;**[!UICONTROL Administration > Application settings > External accounts]**。
+1. 從高級菜單中，通過Adobe Campaign徽標選擇&#x200B;**[!UICONTROL Administration > Application settings > External accounts]**。
 1. 選擇&#x200B;**[!UICONTROL Share KPIs with Adobe Analytics]**&#x200B;外部帳戶。
 
    ![](assets/analytics_2.png)
@@ -35,17 +38,17 @@ ht-degree: 9%
    ![](assets/analytics_1.png)
 
 1. 按一下 **[!UICONTROL Refresh report suites]** 按鈕。
-1. 在&#x200B;**[!UICONTROL Analytics default report suite]**&#x200B;下拉式清單中，選取您要使用Adobe Campaign資料豐富的Adobe Analytics報表套裝。
+1. 在&#x200B;**[!UICONTROL Analytics default report suite]**&#x200B;下拉式清單中，選取您要豐富Adobe Campaign資料的Adobe Analytics報表套裝。
 
-   您的外部帳戶現已準備就緒，並可與Adobe Analytics連結。 您可以隨時勾選&#x200B;**[!UICONTROL Enabled]**&#x200B;方塊以停用它。
+   您的外部帳戶現已準備就緒，可與Adobe Analytics連結。 您可以隨時勾選&#x200B;**[!UICONTROL Enabled]**&#x200B;方塊以停用它。
 
    ![](assets/analytics.png)
 
-**[!UICONTROL Share KPIs with Adobe Analytics]**&#x200B;技術工作流程現在會自動啟動，並可從進階功能表選取&#x200B;**[!UICONTROL Administration > Application settings > Workflow]**&#x200B;來檢視。 此技術工作流程將每15分鐘自動執行一次，並在Adobe Analytics中推播最多6個月的舊資料。
+**[!UICONTROL Share KPIs with Adobe Analytics]**&#x200B;技術工作流程現在會自動啟動，並可從進階功能表選取&#x200B;**[!UICONTROL Administration > Application settings > Workflow]**&#x200B;來檢視。 此技術工作流程將每15分鐘自動執行一次，並將在Adobe Analytics推播最多6個月的舊資料。
 
 ![](assets/analytics_3.png)
 
-您的資料現在可在Adobe Analytics中使用。
+您的資料現在可在Adobe Analytics取得。
 
 **相關主題：**
 

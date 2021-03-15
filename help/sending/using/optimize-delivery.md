@@ -6,10 +6,14 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
+description: 瞭解如何確保上游傳送程式的安全並最佳化。
+feature: 傳送能力
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: a7300666587362048431d0bafacc317170b317aa
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: '746'
 ht-degree: 6%
 
 ---
@@ -19,7 +23,7 @@ ht-degree: 6%
 
 在開始建立傳送之前，您可以採取數個動作來保護並最佳化上游傳送程式。
 
-以下章節概述最佳化Adobe Campaign設定的最佳實務和建議程式。 遵循這些實務可將下游可能遇到的問題降到最低。
+下節概述了Adobe Campaign最佳配置的最佳做法和建議程式。 遵循這些實務可將下游可能遇到的問題降到最低。
 
 ## 平台效能
 
@@ -53,7 +57,7 @@ ht-degree: 6%
 
 * 啟動新平台時，請套用本頁](../../sending/using/starting-new-platform.md)中詳細的[建議。
 
-* 請連絡您的Adobe代表以取得協助。
+* 請洽詢您的Adobe代表以取得協助。
 
 ## 隔離管理{#quarantine-management}
 
@@ -65,7 +69,7 @@ ht-degree: 6%
 
 * 在傳送分析期間，預設會排除隔離地址的收件者：它們不是目標。 這會加快傳送速度，因為錯誤率對傳送速度有顯著影響。例如，當收件箱已滿或地址不存在時，可以隔離電子郵件地址。 [進一步了解](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses)
 
-* Adobe Campaign會根據傳回的錯誤類型管理錯誤位址。 如需詳細資訊，請參閱[本章節](../../sending/using/understanding-quarantine-management.md)。
+* Adobe Campaign根據傳回的錯誤類型管理錯誤地址。 如需詳細資訊，請參閱[本章節](../../sending/using/understanding-quarantine-management.md)。
 
 * 如果無效地址的比率過高，某些網際網路存取提供者會自動將電子郵件視為垃圾郵件。因此，隔離可讓您避免被這些提供者添加到拒絕清單。
 
@@ -73,7 +77,7 @@ ht-degree: 6%
 
 ## 雙選機制{#double-opt-in}
 
-為避免傳送訊息至無效位址、限制不當通訊並改善寄件者信譽，Adobe建議實作訂閱後確認的雙重選擇加入機制。 這有助於確保收件者有意訂閱。
+為避免將訊息傳送至無效位址、限制不當通訊並改善寄件者信譽，Adobe建議實作訂閱後確認的雙重選擇機制。 這有助於確保收件者有意訂閱。
 
 實施此機制的詳細資訊請見[本節](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)。
 

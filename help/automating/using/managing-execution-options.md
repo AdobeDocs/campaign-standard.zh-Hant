@@ -7,10 +7,13 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
+feature: 工作流程
+role: 資料架構師
+level: 初學者
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '268'
 ht-degree: 13%
 
 ---
@@ -44,6 +47,6 @@ ht-degree: 13%
 
 * **[!UICONTROL Execute in the engine (do not use in production)]**:可讓您在本端執行工作流程，以用於開發環境測試。
 
-* **[!UICONTROL Severity]**:可讓您指定在Adobe Campaign例項中執行工作流程的優先順序層級。此欄位僅供Adobe團隊用於監控用途。
+* **[!UICONTROL Severity]**:允許您指定在Adobe Campaign實例中執行工作流的優先順序。此欄位僅供Adobe團隊用於監控用途。
 
 **[!UICONTROL Error management]**&#x200B;區段提供其他選項，可讓您管理工作流程在發生錯誤時的行為。 這些選項在[錯誤管理](../../automating/using/monitoring-workflow-execution.md#error-management)部分中有詳細說明。

@@ -2,15 +2,18 @@
 solution: Campaign Standard
 product: campaign
 title: 開始使用異動訊息
-description: 瞭解什麼是交易式訊息，並瞭解在Adobe Campaign Standard中設定交易式訊息的主要步驟。
+description: 瞭解什麼是交易式訊息，並瞭解在Adobe Campaign Standard設定交易式訊息的主要步驟。
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
+feature: 交易式傳訊
+role: 業務從業人員
+level: 初學者
 translation-type: tm+mt
-source-git-commit: 0f057375e5cd63605af460f08cd39bed00435184
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '968'
 ht-degree: 8%
 
 ---
@@ -30,13 +33,13 @@ ht-degree: 8%
 
 * **例如？** 它可能是建立帳戶後的歡迎訊息、確認訂單已出貨、發票、確認密碼變更的訊息，或客戶瀏覽您的網站後的通知等。
 
-Adobe Campaign可讓您將這項功能與資訊系統整合，該資訊系統會傳送要轉換為自訂交易訊息的事件。
+Adobe Campaign允許您將此功能與資訊系統整合，該資訊系統將要轉換為自定義事務消息的事件發送出去。
 
 交易訊息可以透過電子郵件、SMS或[推播通知](../../channels/using/transactional-push-notifications.md)傳送，視您的選項而定。 請檢查您的授權合約。
 
 >[!NOTE]
 >
->Adobe Campaign會優先處理交易訊息，而非其他傳送。
+>Adobe Campaign將處理事務性消息的優先順序放在任何其他發送的優先順序。
 
 <!--Guidelines to implement transactional messaging capabilities in your website are detailed in [this section](../../api/using/managing-transactional-messages.md).-->
 
@@ -50,13 +53,13 @@ Adobe Campaign可讓您將這項功能與資訊系統整合，該資訊系統會
 
 例如，假設您是一家有網站的公司，客戶可以在那裡購買產品。
 
-Adobe Campaign可讓您傳送通知電子郵件給已將產品新增至購物車的客戶。 當其中一人離開您的網站而未完成購買（觸發促銷活動事件的外部事件）時，會自動傳送購物車放棄電子郵件給他們（交易式訊息傳送）。
+Adobe Campaign允許您向已將產品添加到購物車的客戶發送通知電子郵件。 當其中一人離開您的網站而未完成購買（觸發促銷活動事件的外部事件）時，會自動傳送購物車放棄電子郵件給他們（交易式訊息傳送）。
 
 [本節](#key-steps)中將此功能放置到位的主要步驟如下。
 
 ## 事務性消息類型{#transactional-message-types}
 
-Adobe Campaign提供兩種交易訊息。
+在Adobe Campaign，有兩種類型的事務性消息。
 
 **事件事務** 性消息包含事件本身中的資料。這些訊息：
 * 不包含描述檔資訊，因此不能包含取消訂閱連結。
@@ -66,7 +69,7 @@ Adobe Campaign提供兩種交易訊息。
 您可能想要傳送事件交易訊息給需要擷取忘記密碼（例如）或確認訂單的客戶。 事實上，您不希望收件者取消訂閱此類通訊，而且此通知不應新增至行銷訊息的計數器，做為疲勞規則的一部分。
 
 **從Campaign行銷資** 料庫設定交易式訊息收集設定檔。使用此類消息，您可以：
-* 運用Adobe Campaign資料庫中的資料。
+* 利用Adobe Campaign資料庫中的資料。
 * 將[enrichment](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)新增至事件設定，以個人化您的訊息。
 * 套用[行銷類型學規則](../../sending/using/managing-typology-rules.md)或[疲勞規則](../../sending/using/fatigue-rules.md)。
 * 在訊息中包含取消訂閱連結。
@@ -79,7 +82,7 @@ Adobe Campaign提供兩種交易訊息。
 
 ## 關鍵步驟{#key-steps}
 
-在Adobe Campaign中建立和管理個人化交易訊息的主要步驟在以下結構中進行概述。
+在以下模式中概述了在Adobe Campaign建立和管理個性化事務性消息的主要步驟。
 
 ![](assets/message-center-overview.png)
 
@@ -119,7 +122,7 @@ Adobe Campaign提供兩種交易訊息。
 |--- |--- |--- |
 | 此步驟由您網站的開發人員執行。 | 使用REST Transactional Messages API將事件整合到您的網站。 | 當客戶放棄購物車時，會觸發事件。 |
 
-建立事件後，您必須將觸發此事件整合到您的網站中。<!--In this example, you want a "Cart abandonment" event to be triggered whenever one of your clients leaves your website before purchasing the products in their cart.--> 若要這麼做，您的網站網頁開發人員必須使 **用Adobe Campaign Standard REST API**。
+建立事件後，您必須將觸發此事件整合到您的網站中。<!--In this example, you want a "Cart abandonment" event to be triggered whenever one of your clients leaves your website before purchasing the products in their cart.--> 若要這麼做，您的網站網頁開發人員必須使用 **Adobe Campaign StandardREST API**。
 
 如需有關使用Campaign REST API管理交易訊息的詳細資訊，請參閱[REST API檔案](../../api/using/managing-transactional-messages.md)。
 

@@ -6,18 +6,21 @@ description: 進一步瞭解使用API進行自訂資源管理/
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: 資料工程師
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 5%
+source-wordcount: '208'
+ht-degree: 6%
 
 ---
 
 
 # 自訂資源 {#custom-resources}
 
-Adobe Campaign隨附預先定義的資料模型，其中資料是透過不同的資源來定義。 您可以擴充資源以新增您自己的自訂欄位或自訂表格（例如購買或產品表格），以豐富所提供的資料模型。
+Adobe Campaign提供預先定義的資料模型，其中資料是透過不同的資源來定義。 您可以擴充資源以新增您自己的自訂欄位或自訂表格（例如購買或產品表格），以豐富所提供的資料模型。
 
 自訂資源可透過使用&#x200B;**/profileAndServicesExt**&#x200B;端點的API以及自訂資源名稱來存取。
 
@@ -37,7 +40,7 @@ Adobe Campaign隨附預先定義的資料模型，其中資料是透過不同的
 
 ***請求範例***
 
-存取擴充設定檔AndServicesExt資源的GET要求範例。
+存取擴充profileAndServicesExt資源的GET要求範例。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/\

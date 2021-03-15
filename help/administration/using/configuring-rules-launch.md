@@ -1,16 +1,19 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 設定Adobe Experience Platform啟動規則以支援Adobe Campaign Standard使用案例
-description: 設定Adobe Experience Platform啟動規則以支援Adobe Campaign Standard使用案例
+title: 配置Adobe Experience Platform Launch規則以支援Adobe Campaign Standard使用案例
+description: 配置Adobe Experience Platform Launch規則以支援Adobe Campaign Standard使用案例
 audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
+feature: 例項設定
+role: 管理員
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '918'
 ht-degree: 1%
 
 ---
@@ -148,7 +151,7 @@ ht-degree: 1%
 
 1. 在[!DNL Experience Platform Launch]的行動應用程式儀表板中，選取&#x200B;**[!UICONTROL Rules]**&#x200B;標籤，然後按一下&#x200B;**[!UICONTROL Add Rule]**。
 
-1. 輸入名稱，例如&#x200B;**Adobe Campaign —— 應用程式內點按tracking**。
+1. 輸入名稱，例如&#x200B;**Adobe Campaign-應用程式內按一下tracking**。
 
 1. 在&#x200B;**[!UICONTROL Events]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL Add]**。
 
@@ -186,7 +189,7 @@ ht-degree: 1%
 
 1. 在[!DNL Experience Platform Launch]的行動應用程式儀表板中，按一下&#x200B;**[!UICONTROL Rules]**&#x200B;標籤，然後按一下&#x200B;**[!UICONTROL Add Rule]**。
 
-1. 輸入名稱，例如&#x200B;**Adobe Campaign —— 推播點按追蹤**。
+1. 輸入名稱，例如&#x200B;**Adobe Campaign-推播點按追蹤**。
 
 1. 在&#x200B;**[!UICONTROL Events]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL Add]**。
 

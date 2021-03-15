@@ -6,11 +6,14 @@ description: 您可以存取客戶量度的專屬報表，並在促銷活動資�
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
+feature: 設定檔
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 5%
+source-wordcount: '314'
+ht-degree: 6%
 
 ---
 
@@ -23,7 +26,7 @@ Adobe Campaign提供顯示作用中描述檔數目的報表。 此報告僅提�
 
 >[!NOTE]
 >
->如果您是在AWS上代管並使用Campaign Standard建置10368，您也可以直接從控制面板監控實例上使用的活動配置檔案數。 有關詳細資訊，請參閱[控制面板文檔](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html)。
+>如果您是在AWS上代管，並使用來自build 10368的Campaign Standard，您也可以直接從控制面板監視實例上使用的活動配置檔案的數量。 有關詳細資訊，請參閱[控制面板文檔](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html)。
 >
 >請注意，「作用中描述檔」度量僅適用於&#x200B;**行銷例項**。 它不適用於執行實例，即MID（中間採購）和RT（消息中心／即時消息）實例。
 
@@ -38,6 +41,6 @@ Adobe Campaign提供顯示作用中描述檔數目的報表。 此報告僅提�
 
 在報表底部，您會找到帳單工作流程處理的作用中描述檔清單：
 
-* **[!UICONTROL NmsRecipient]**&#x200B;來源包含使用其Campaign Standard設定檔中的資訊聯絡的所有客戶。
+* **[!UICONTROL NmsRecipient]**&#x200B;來源包含使用其Campaign Standard配置檔案中的資訊聯繫的所有客戶。
 
 * 另一方面，僅使用特定資訊（電子郵件地址、電話號碼）鎖定的客戶（與其促銷活動設定檔無關）將位於&#x200B;**[!UICONTROL anonymous]**&#x200B;來源下。

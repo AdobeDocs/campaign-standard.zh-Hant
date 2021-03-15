@@ -2,15 +2,18 @@
 solution: Campaign Standard
 product: campaign
 title: 監視准則
-description: 本節提供監控促銷活動標準的一般准則。
+description: 本節介紹監控Campaign Standard的一般准則。
 audience: production
 content-type: reference
 topic-tags: introduction
 index: y
+feature: 存取管理
+role: 管理員
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 4b87ebc2585b87f918bbd688c5858394d8d4a742
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '500'
 ht-degree: 9%
 
 ---
@@ -24,7 +27,7 @@ ht-degree: 9%
 <td><img src="assets/do-not-localize/icon_send.svg" width="60px"><p><a href="#monitoring-deliveries">監視傳遞</a></p></td></tr>
 </table>
 
-Campaign Standard提供數種監控例項的方式，以確保您的系統正常運作，並最終疑難排解在設定工作流程、傳送傳送等時可能發生的問題。
+Campaign Standard提供數種監控例項的方式，以確保您的系統正常運作，並最終排解在設定工作流程、傳送傳送等時可能發生的問題。
 
 ## 監視系統{#monitoring-system}
 

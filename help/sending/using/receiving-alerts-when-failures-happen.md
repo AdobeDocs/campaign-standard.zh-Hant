@@ -6,10 +6,13 @@ description: 瞭解如何使用警報管理系統。
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
+feature: 校樣
+role: 業務從業人員
+level: 初學者
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '2031'
+source-wordcount: '2035'
 ht-degree: 2%
 
 ---
@@ -31,9 +34,9 @@ ht-degree: 2%
 * 低吞吐量的傳送
 * 傳送進行中
 
-警報的收件者可監控Adobe Campaign正在處理的傳送內容，並在執行時發生問題時採取適當動作。
+警報的接收者可以監控Adobe Campaign正在處理的交貨，並在執行中出現問題時採取適當行動。
 
-這些警報通知可根據Adobe Campaign介面中控制面板所定義的特定警報標準加以自訂。
+這些警報通知可以根據通過Adobe Campaign介面中的儀表板定義的特定警報標準進行自定義。
 
 >[!NOTE]
 >
@@ -54,7 +57,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->要訪問和配置控制面板和警報標準，您必須具有管理權限或顯示在&#x200B;**交付監管員**&#x200B;安全組中。 標準使用者無法存取Adobe Campaign介面中的控制面板。 他們只能接收警報通知。 如需Adobe Campaign中使用者與安全性的詳細資訊，請參閱[使用者類型](../../administration/using/users-management.md)和[關於安全性群組](../../administration/using/managing-groups-and-users.md#about-security-groups)。
+>要訪問和配置控制面板和警報標準，您必須具有管理權限或顯示在&#x200B;**交付監管員**&#x200B;安全組中。 標準使用者無法存取Adobe Campaign介面中的控制面板。 他們只能接收警報通知。 有關Adobe Campaign的用戶和安全性的詳細資訊，請參閱[用戶類型](../../administration/using/users-management.md)和[關於安全組](../../administration/using/managing-groups-and-users.md#about-security-groups)。
 
 從Adobe Campaign介面，您可以：
 
@@ -105,7 +108,7 @@ ht-degree: 2%
 * **[!UICONTROL Delivery with bad error ratio for soft bounces]**:任何已排程在定義範圍內的傳送，其狀態至少為 **[!UICONTROL In progress]**，且軟反彈錯誤率大於定義的百分比。
 * **[!UICONTROL Delivery with bad error ratio for hard bounces]**:任何已排程在定義範圍內的傳送，其狀態至少 **[!UICONTROL In progress]**&#x200B;為，硬反彈錯誤率大於定義的百分比。
 * **[!UICONTROL Deliveries with long start pending]**:任何在定義範圍內排程的傳送， **[!UICONTROL Start pending]** 其狀態長於定義的持 **[!UICONTROL Start pending]** 續時間，狀態表示系統尚未考慮訊息。
-* **[!UICONTROL Deliveries with low throughput]**:任何開始的傳送時間都超過定義的持續時間，且小於已處理消息的定義百分比，且吞吐量低於定義值。
+* **[!UICONTROL Deliveries with low throughput]**:任何開始的傳送時間都比定義的持續時間長，且小於已處理消息的定義百分比，而吞吐量低於定義的值。
 * **[!UICONTROL Deliveries in progress]**:在已定義範圍內，以狀態排程的任何 **[!UICONTROL In progress]** 傳送。
 
 >[!NOTE]
@@ -144,7 +147,7 @@ ht-degree: 2%
 
 為此，您首先需要擴充&#x200B;**Delivery**&#x200B;資源，並新增篩選器，讓您只選擇狀態為&#x200B;**[!UICONTROL Finished]**&#x200B;的傳送。
 
-1. 前往&#x200B;**Adobe Campaign** > **管理** > **開發** > **自訂資源**，然後按一下&#x200B;**[!UICONTROL Create]**。
+1. 前往「**Adobe Campaign** > **管理** > **開發** > **自訂資源**」，然後按一下「**[!UICONTROL Create]**」。
 1. 選擇&#x200B;**[!UICONTROL Extend an existing resource]**，從下拉清單中選擇&#x200B;**[!UICONTROL Delivery]**&#x200B;資源，然後按一下&#x200B;**[!UICONTROL Create]**&#x200B;進行編輯。
 
    ![](assets/delivery-alerting_extend-delivery-cus.png)
@@ -215,11 +218,11 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->此選項適用於Adobe Campaign中定義的所有控制面板。 不能為每個儀表板設定特定頻率。
+>此選項適用於Adobe Campaign定義的所有控制面板。 不能為每個儀表板設定特定頻率。
 
 ## 傳送警報原因{#delivery-alerting-reasons}
 
-**傳送警報**&#x200B;功能可透過電子郵件和儀表板自動通知您所有參與的Adobe Campaign使用者有關傳送執行狀態的資訊。
+**傳送警報**&#x200B;功能可透過電子郵件和儀表板自動通知您所有參與的Adobe Campaign用戶有關傳送執行狀態的資訊。
 
 現在，當您收到傳送警報通知時，請提供一些可以執行的提示。
 
@@ -232,11 +235,11 @@ ht-degree: 2%
 * **[!UICONTROL Deliveries failed]**:此准則會通知您所有狀態錯誤的傳送。這可能是因為：
 
    * 傳送伺服器（MTA、訊息傳送代理）有問題
-   * Adobe Campaign傳送伺服器與接收伺服器之間的連線逾時
+   * Adobe Campaign發送伺服器與接收伺服器之間的連接超時
    * 可傳遞性問題
    * 錯誤的工作流程
 
-   如果傳送是以工作流程觸發，請檢查該工作流程是否已正確啟動。 有關詳細資訊，請參閱[執行工作流](../../automating/using/about-workflow-execution.md)。 否則，請洽詢您的Adobe Campaign管理員以解決問題。
+   如果傳送是以工作流程觸發，請檢查該工作流程是否已正確啟動。 有關詳細資訊，請參閱[執行工作流](../../automating/using/about-workflow-execution.md)。 否則，請與您的Adobe Campaign管理員聯絡以解決問題。
 
 * **[!UICONTROL Deliveries with preparation failed]**:在下列情況下，傳送準備期間可能會發生錯誤：
 
@@ -265,7 +268,7 @@ ht-degree: 2%
 
    * 建立篩選類型規則，以在傳送分析期間排除訊息目標的一部分，例如隔離的收件者。 請參閱[建立篩選規則](../../sending/using/filtering-rules.md)。
    * 定期更新客戶資料庫，以維護良好的隔離管理流程。 請參閱[關於隔離](../../sending/using/understanding-quarantine-management.md#about-quarantines)。
-   * 一般而言，請盡可能提高傳遞能力。 請參閱Adobe Campaign [Deliverability](../../sending/using/about-deliverability.md)詳細檔案，並連絡您的Adobe Campaign管理員以取得協助。
+   * 一般而言，請盡可能提高傳遞能力。 請參閱Adobe Campaign[交付能力](../../sending/using/about-deliverability.md)詳細文檔，並聯繫Adobe Campaign管理員以獲得幫助。
 
 
 
@@ -273,7 +276,7 @@ ht-degree: 2%
 
    **[!UICONTROL Deliveries with low throughput]**:同樣，這是傳遞性問題，意味著MTA太慢。
 
-   如需這些問題的詳細資訊，請洽詢您的Adobe Campaign管理員。
+   有關這些問題的更多資訊，請洽詢您的Adobe Campaign管理員。
 
 **相關主題：**
 

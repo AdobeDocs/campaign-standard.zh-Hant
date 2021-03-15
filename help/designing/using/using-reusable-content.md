@@ -6,10 +6,13 @@ description: 開始使用電子郵件設計工具建立可重複使用的電子�
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
+feature: 電子郵件設計
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 739943deccf6320de71bd6a255eb0b2fb20d5df5
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1819'
+source-wordcount: '1824'
 ht-degree: 1%
 
 ---
@@ -22,7 +25,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-> 在Adobe Campaign Standard中，您可以建立可從&#x200B;**資源** > **範本**&#x200B;選單存取的不同範本類型。 「電子郵件設計器」中使用的模板是「內容」模板。 如需詳細資訊，請參閱[關於範本](../../start/using/marketing-activity-templates.md)。
+> 在Adobe Campaign Standard，您可以建立可從&#x200B;**資源** > **模板**&#x200B;菜單訪問的不同類型的模板。 「電子郵件設計器」中使用的模板是「內容」模板。 如需詳細資訊，請參閱[關於範本](../../start/using/marketing-activity-templates.md)。
 
 ![](assets/do-not-localize/how-to-video.png) [瞭解如何在視訊中建立範本](#video)
 
@@ -30,7 +33,7 @@ ht-degree: 1%
 
 您可以管理[電子郵件設計器](../../designing/using/designing-content-in-adobe-campaign.md)首頁的&#x200B;**[!UICONTROL Templates]**&#x200B;標籤中提供的HTML內容。
 
-現成可用的電子郵件內容範本包括18種行動裝置最佳化版面，以及4種Behance藝術家設計的同級最佳回應範本。 它們符合最新的使用方式，例如客戶歡迎訊息、電子報和重新參與電子郵件等。 您可以輕鬆自訂品牌內容，以簡化從頭設計電子郵件的程式。
+現成可用的電子郵件內容範本包括18種行動裝置最佳化版面，以及4種由Behance藝術家設計的同級最佳回應範本。 它們符合最新的使用方式，例如客戶歡迎訊息、電子報和重新參與電子郵件等。 您可以輕鬆自訂品牌內容，以簡化從頭設計電子郵件的程式。
 
 ![](assets/template_content.png)
 
@@ -146,7 +149,7 @@ HTML內容範本可從[進階功能表](../../start/using/interface-description.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23106?quality=12)
 
-其他Campaign Standard操作說明影片可在[這裡](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant)取得。
+其他Campaign Standardhow-to影片可在[這裡](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant)取得。
 
 ## 關於片段{#about-fragments}
 
@@ -302,7 +305,7 @@ To save as a fragment some email content that you created, follow the steps belo
 
 要執行此操作，請遵循下列步驟：
 
-1. 在Adobe Campaign中，前往&#x200B;**[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]**&#x200B;並建立標題的片段。 有關詳細資訊，請參閱[建立內容片段](#creating-a-content-fragment)。
+1. 在Adobe Campaign，前往&#x200B;**[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]**&#x200B;並建立標題的片段。 有關詳細資訊，請參閱[建立內容片段](#creating-a-content-fragment)。
 1. 在片段中添加所需數量的結構元件。
 
    ![](assets/des_loading_compatible_fragment_1.png)

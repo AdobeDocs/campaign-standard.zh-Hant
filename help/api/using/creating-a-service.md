@@ -6,18 +6,21 @@ description: 瞭解如何使用API建立服務。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: 資料工程師
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 8%
+source-wordcount: '77'
+ht-degree: 9%
 
 ---
 
 
 # 建立服務 {#creating-a-service}
 
-服務建立是在服務資源上使用&#x200B;**POST**&#x200B;請求執行的。
+建立服務時對服務資源使用&#x200B;**POST**&#x200B;請求。
 
 如果您想要建立具有特定屬性的服務，請將其新增至裝載中。 否則，將使用預設服務建立新服務。
 

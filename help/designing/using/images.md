@@ -6,10 +6,13 @@ description: 瞭解如何使用電子郵件設計工具管理電子郵件中的�
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
+feature: 電子郵件設計
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '308'
 ht-degree: 3%
 
 ---
@@ -24,12 +27,12 @@ ht-degree: 3%
 根據您的設定，可使用下列影像類型：
 
 * 本機影像
-* 從Adobe Experience Cloud共用的影像——請參閱[使用促銷活動和資產核心服務](../../integrating/using/working-with-campaign-and-assets-core-service.md) /隨選資產
+* 從Adobe Experience Cloud分享的影像——請參閱[使用促銷活動和資產核心服務](../../integrating/using/working-with-campaign-and-assets-core-service.md) /隨選資產
 * 來自Adobe Target的動態影像——請參閱[使用促銷活動和Target](../../integrating/using/about-campaign-target-integration.md)
 
 >[!CAUTION]
 >
->如果您選擇編輯電子郵件的HTML版本以直接新增影像，則不得在HTML頁面的&lt;script>標籤&#x200B;**中呼叫**&#x200B;外部檔案。 這些檔案不會匯入至Adobe Campaign伺服器。
+>如果您選擇編輯電子郵件的HTML版本以直接新增影像，則不得在HTML頁面的&lt;script>標籤&#x200B;**中呼叫**&#x200B;外部檔案。 這些檔案不會導入到Adobe Campaign伺服器。
 
 ### 在電子郵件{#inserting-images-in-an-email}中插入影像
 
@@ -55,9 +58,9 @@ ht-degree: 3%
 * **影像** 標題可讓您定義影像的標題。
 * **Alt text** (email)或 **Caption** (landing page)可讓您定義連結至影像的標題(與 **** altHTML屬性相對應)。
 * 編輯電子郵件時，**Style**&#x200B;可讓您指定影像大小、背景和邊框。
-* 編輯著陸頁面時，**Dimensions**&#x200B;可讓您以像素指定影像大小。
+* 編輯著陸頁面時，**Dimension**&#x200B;可讓您指定影像大小（像素）。
 
-編輯器允許您使用與瀏覽器相容的格式&#x200B;**的所有影像類型**。 為與編輯器相容，**&quot;Flash&quot;類型的動畫**&#x200B;必須插入HTML頁面，如下所示：
+編輯器允許您使用與瀏覽器相容的格式&#x200B;**的所有影像類型**。 要與編輯器相容，**&quot;Flash&quot;類型的動畫**&#x200B;必須按如下方式插入HTML頁面：
 
 ```
 <object type="application/x-shockwave-flash" data="http://www.mydomain.com/flash/your_animation.swf" width="200" height="400">

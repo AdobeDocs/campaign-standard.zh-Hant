@@ -2,15 +2,18 @@
 solution: Campaign Standard
 product: campaign
 title: 關於 SMS 訊息
-description: 瞭解Adobe Campaign中SMS頻道的主要特性。
+description: 瞭解Adobe CampaignSMS頻道的主要特性。
 audience: channels
 content-type: reference
 topic-tags: sms-messages
 delivercontext-tags: deliveryCreation,wizard;delivery,smsContent,back
+feature: SMS
+role: 業務從業人員
+level: 初學者
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '273'
 ht-degree: 23%
 
 ---
@@ -18,7 +21,7 @@ ht-degree: 23%
 
 # 關於 SMS 訊息{#about-sms-messages}
 
-Adobe Campaign可讓您傳遞SMS（簡訊服務）訊息。
+Adobe Campaign允許您傳遞SMS（簡訊服務）訊息。
 
 >[!NOTE]
 >

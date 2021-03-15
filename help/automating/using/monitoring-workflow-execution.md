@@ -7,10 +7,13 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
+feature: 工作流程
+role: 資料架構師
+level: 中級
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '581'
 ht-degree: 3%
 
 ---
@@ -58,7 +61,7 @@ ht-degree: 3%
 
 可能的選項包括：
 
-* **[!UICONTROL Supervisors]**:可讓您定義工作流程遇到錯誤時要通知的群組（電子郵件和應用程式內通知）。如果未定義任何群組，則不會通知任何人。 如需Adobe Campaign通知的詳細資訊，請參閱[Adobe Campaign通知](../../administration/using/sending-internal-notifications.md)。
+* **[!UICONTROL Supervisors]**:可讓您定義工作流程遇到錯誤時要通知的群組（電子郵件和應用程式內通知）。如果未定義任何群組，則不會通知任何人。 有關Adobe Campaign通知的詳細資訊，請參閱[Adobe Campaign通知](../../administration/using/sending-internal-notifications.md)。
 
 * **[!UICONTROL In case of error]**:允許您指定在活動遇到錯誤時要執行的操作。有兩個選項可供使用：
 

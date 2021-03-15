@@ -6,10 +6,13 @@ description: 瞭解如何編輯現有的設定檔並存取聯絡資訊、偏好�
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
+feature: 設定檔
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '318'
 ht-degree: 11%
 
 ---
@@ -29,13 +32,13 @@ ht-degree: 11%
 
    描述檔的屬性視窗提供數個標籤，可讓您存取所有描述檔資訊。
 
-   其他標籤也可能會根據已在Adobe Campaign中建立或擴充的自訂資源而顯示。 有關自定義資源的詳細資訊，請參閱[關於自定義資源](../../developing/using/data-model-concepts.md)。
+   其他標籤也可能會根據在Adobe Campaign建立或擴充的自訂資源而顯示。 有關自定義資源的詳細資訊，請參閱[關於自定義資源](../../developing/using/data-model-concepts.md)。
 
    >[!NOTE]
    >
    >您只能修改&#x200B;**[!UICONTROL General]**&#x200B;標籤中的資訊- **[!UICONTROL Traceability]**&#x200B;部分除外。
 
-您也可以使用Adobe Campaign Standard API來建立描述檔版本。 如需詳細資訊，請參閱[專屬文件](../../api/using/updating-profiles.md)。
+Profiles Edition也可使用Adobe Campaign StandardAPI。 如需詳細資訊，請參閱[專屬文件](../../api/using/updating-profiles.md)。
 
 相關主題：
 

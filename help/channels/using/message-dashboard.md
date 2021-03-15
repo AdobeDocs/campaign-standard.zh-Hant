@@ -7,10 +7,13 @@ audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 context-tags: delivery,main
+feature: 概觀
+role: 業務從業人員
+level: 初學者
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '591'
 ht-degree: 4%
 
 ---
@@ -82,7 +85,7 @@ ht-degree: 4%
 
 * *&quot;無法發送消息，因為當前IP相關性不由任何發送進程處理。&quot;*
 
-   如果您看到此訊息，在IP相似性定義層級或傳送程式層級會發生問題。 請聯絡您的Adobe管理員。
+   如果您看到此訊息，在IP相似性定義層級或傳送程式層級會發生問題。 請洽詢您的Adobe管理員。
 
 * *「這是現成可用的交易訊息範本。如果要修改它，必須複製它並處理副本。&quot;*
 

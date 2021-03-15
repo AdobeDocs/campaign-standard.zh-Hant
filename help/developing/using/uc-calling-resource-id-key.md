@@ -3,10 +3,13 @@ solution: Campaign Standard
 product: campaign
 title: 使用複合識別鍵呼叫資源
 description: 瞭解如何使用複合識別碼呼叫資源
+feature: 資料模型
+role: 開發人員
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '592'
 ht-degree: 7%
 
 ---
@@ -14,7 +17,7 @@ ht-degree: 7%
 
 # 使用複合識別鍵呼叫資源{#calling-a-resource-using-a-composite-identification-key}
 
-在某些情況下，您可能需要為資源定義由兩個欄位組成的標識鍵。 在設定識別金鑰後，您必須設定篩選定義，才能使用此識別金鑰（從Campaign Standard介面或API）呼叫資源。
+在某些情況下，您可能需要為資源定義由兩個欄位組成的標識鍵。 一旦配置了標識密鑰，您需要配置過濾器定義，以便能夠通過Campaign Standard介面或API使用該標識密鑰調用資源。
 
 在此使用案例中，**Profile**&#x200B;資源已擴展為自定義&#x200B;**&quot;CRM ID&quot;**&#x200B;和&#x200B;**&quot;category&quot;**&#x200B;欄位。 我們將為Profile資源建立一個標識鍵，該標識鍵將由這兩個欄位組成。 然後，我們將設定篩選定義，以便我們能夠使用識別碼存取描述檔資源。
 
@@ -28,7 +31,7 @@ ht-degree: 7%
 
 * [建立或擴充資源](../../developing/using/creating-or-extending-the-resource.md)
 * [定義標識鍵](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
-* [Campaign Standard REST API](../../api/using/get-started-apis.md)
+* [Campaign StandardREST API](../../api/using/get-started-apis.md)
 
 ## 步驟1:配置標識鍵{#step-1-configure-the-identification-key}
 
@@ -94,7 +97,7 @@ ht-degree: 7%
 
 ![](assets/uc_idkey9.png)
 
-若要使用Campaign Standard REST API的篩選定義，請使用下列語法：
+若要使用Campaign StandardREST API的篩選定義，請使用下列語法：
 
 ```
 GET /profileAndServicesExt/<resourceName>/by<filterName>?<param1_parameter>=<value>&<param2_parameter>=<value>
@@ -109,4 +112,4 @@ GET /profileAndServicesExt/<resourceName>/by<filterName>?<param1_parameter>=<val
 GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byidentification_key?category_parameter=spring&crm_id_parameter=123456
 ```
 
-如需詳細資訊，請參閱[Campaign Standard REST APIs檔案](../../api/using/filtering.md)。
+有關詳細資訊，請參閱[Campaign StandardREST API文檔](../../api/using/filtering.md)。

@@ -6,11 +6,14 @@ description: 瞭解如何使用API更新個人檔案的組織單位。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: 資料工程師
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 10%
+source-wordcount: '100'
+ht-degree: 11%
 
 ---
 
@@ -50,7 +53,7 @@ ht-degree: 10%
 },
 ```
 
-對配置檔案執行PATCH請求，在裝載中使用所需組織單元的PKey。
+對配置檔案執行PATCH請求，並在裝載中使用所需組織單元的PKey。
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/<PKEY> \

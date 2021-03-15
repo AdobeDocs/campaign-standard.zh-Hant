@@ -6,11 +6,14 @@ description: 瞭解如何設定傳送時間並改善訊息的開放率。
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
+feature: 傳送時間最佳化
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 100%
+source-wordcount: '278'
+ht-degree: 97%
 
 ---
 

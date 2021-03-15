@@ -6,10 +6,13 @@ description: 瞭解如何執行分頁作業。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: 資料工程師
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '161'
 ht-degree: 1%
 
 ---
@@ -31,7 +34,7 @@ ht-degree: 1%
 
 ***請求範例***
 
-顯示1個描述檔資源記錄的範例GET請求。
+顯示1個配置檔案資源記錄的示例GET請求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_lineCount=1 \
@@ -74,4 +77,4 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Campaign Standard **XtkBigTableThreshold**&#x200B;選項中定義了表被視為大的記錄數。 預設值為100,000條記錄。
+>在Campaign Standard **XtkBigTableThreshold**&#x200B;中定義表被視為大的記錄數。 預設值為100,000條記錄。

@@ -6,10 +6,13 @@ description: 使用篩選規則來調整訊息的讀者。
 audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
+feature: 態樣規則
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '658'
 ht-degree: 3%
 
 ---
@@ -82,7 +85,7 @@ ht-degree: 3%
 
 ## 設定篩選規則的定位內容{#configuring-filtering-rules-targeting-context}
 
-「促銷活動標準」可讓您設定&#x200B;**定位**&#x200B;和&#x200B;**篩選**&#x200B;維度，以根據您要定位的資料使用。
+Campaign Standard可讓您設定&#x200B;**定位**&#x200B;和&#x200B;**篩選**&#x200B;維度，以根據您要定位的資料使用。
 
 若要這麼做，請開啟排版規則的屬性，然後存取&#x200B;**[!UICONTROL Advanced information]**&#x200B;區段。
 

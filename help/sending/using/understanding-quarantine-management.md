@@ -6,10 +6,13 @@ description: 瞭解如何透過隔離管理來最佳化您的傳送能力。
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
+feature: 傳送能力
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '785'
 ht-degree: 82%
 
 ---
@@ -86,8 +89,7 @@ Adobe Campaign 會根據傳送失敗類型和錯誤訊息限定期間指派的�
 如果使用者將電子郵件歸類為垃圾訊息（**回饋迴路**），則訊息會自動重新導向至由　Campaign　管理的技術信箱。之後，系統會自動將使用者的電子郵件地址傳送到狀態為　**[!UICONTROL On denylist]**　的隔離區。此狀態僅指地址，描述檔不在登入清單中，因此使用者會繼續收到SMS訊息和推播通知。
 
 >[!NOTE]
->
->Adobe Campaign　中的隔離區會區分大小寫。請務必以小寫匯入電子郵件地址，如此一來，稍後就不會將它們重新設為目標。
+Adobe Campaign　中的隔離區會區分大小寫。請務必以小寫匯入電子郵件地址，如此一來，稍後就不會將它們重新設為目標。
 
 在隔離地址清單中（請參閱[識別整個平台的隔離地址](#identifying-quarantined-addresses-for-the-entire-platform)），**[!UICONTROL Error reason]**　欄位會表示所選地址被置於隔離區的原因。
 

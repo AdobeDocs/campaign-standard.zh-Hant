@@ -6,10 +6,13 @@ description: 瞭解豐富資料庫的各種方法。
 audience: start
 content-type: reference
 topic-tags: about-adobe-campaign
+feature: 設定檔
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: b471fddd49037770e33a113374afd60c2e79e69b
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '451'
 ht-degree: 3%
 
 ---
@@ -51,18 +54,18 @@ Campaign Standard提供數種工具來協助您擴充行銷資料庫。 本節�
 
 ## 從Microsoft Dynamics 365同步設定檔
 
-Campaign Standard與Microsoft Dynamics 365的整合可讓您將Microsoft Dynamics 365的連絡人資料傳遞至Campaign資料庫。
+與Microsoft Dynamics 365的Campaign Standard整合可讓您將Microsoft Dynamics 365的連絡人資料傳遞至Campaign資料庫。
 然後，這些連絡人會顯示在「設定檔」清單中，並可定位在行銷促銷活動中。
 
 有關此整合的詳細資訊，請參閱[專屬檔案](../../integrating/using/d365-acs-get-started.md)。
 
 >[!NOTE]
 >
->請注意，Campaign Standard-Microsoft Dynamics 365連接器目前處於有限可用性，並受限於多項限制，詳細說明請見說明檔案。
+>請注意，Campaign Standard- Microsoft Dynamics 365連接器目前處於有限可用性，並受限於多項限制，詳細說明請見說明檔案。
 
 ## 透過API呼叫匯入資料
 
-Campaign Standard API可讓您執行更新資料庫的作業，例如設定檔或服務的建立、更新或刪除。
+Campaign StandardAPI允許您執行更新資料庫的操作，如配置檔案或服務的建立、更新或刪除。
 
 有關如何使用API的詳細資訊，請參閱[專用檔案](../../api/using/get-started-apis.md)。
 

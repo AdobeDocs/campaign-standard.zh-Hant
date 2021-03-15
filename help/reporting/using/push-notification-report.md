@@ -6,10 +6,13 @@ description: 透過「立即可用的推播通知」報表，瞭解推播通知�
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
+feature: 報告
+role: 領導者
+level: 中級
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '387'
 ht-degree: 1%
 
 ---
@@ -21,7 +24,7 @@ ht-degree: 1%
 >
 >請注意，您必須將&#x200B;**[!UICONTROL Message type]**&#x200B;量度拖放至表格，才能依您的傳送類型分割資料，在此情況下，推送通知傳送。
 
-**推播通知**&#x200B;報表提供Adobe Campaign中推播通知的行銷績效詳細資訊。 這份現成可用的報表將協助您瞭解使用者如何與推播通知、行動應用程式和傳送互動。
+**推播通知**&#x200B;報表提供Adobe Campaign推播通知的行銷績效詳細資訊。 這份現成可用的報表將協助您瞭解使用者如何與推播通知、行動應用程式和傳送互動。
 
 行動應用程式中需要一些設定才能實施推播追蹤，請參閱此[page](../../administration/using/push-tracking.md)以取得詳細步驟。
 

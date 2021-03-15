@@ -6,10 +6,13 @@ description: 瞭解如何執行篩選操作。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: 資料工程師
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '438'
 ht-degree: 1%
 
 ---
@@ -47,7 +50,7 @@ ht-degree: 1%
   }
 ```
 
-對URL執行GET要求。 它會傳回描述檔資源的篩選清單，其中中繼資料與每個篩選相關聯。
+對URL執行GET請求。 它會傳回描述檔資源的篩選清單，其中中繼資料與每個篩選相關聯。
 
 ```
 {
@@ -101,7 +104,7 @@ ht-degree: 1%
 
 ***請求範例***
 
-* 檢索「服務」資源的GET請求示例，類型為「電子郵件」。
+* 檢索「服務」資源（類型為「電子郵件」）的GET請求示例。
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel?channel=email \
@@ -133,7 +136,7 @@ ht-degree: 1%
    }
    ```
 
-* 擷取「描述檔」資源的範例GET要求，其中包含「Doe」(在
+* 擷取「描述檔」資源的範例GET要求，其中包含「Doe」於
 電子郵件或姓氏欄位（byText篩選器會搜尋電子郵件和姓氏欄位）。
 
    ```
@@ -162,7 +165,7 @@ ht-degree: 1%
    }
    ```
 
-* GET要求範例，以擷取「email」類型和「sport」標籤的服務資源。
+* 以「email」類型和「sport」標籤擷取服務資源的範例GET要求。
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/byText?channel=email&text=sport \
@@ -200,7 +203,7 @@ ht-degree: 1%
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/by<customFilterName>?<customFilterparam>=<customFilterValue>`
 
-如需詳細資訊，請參閱Campaign Standard檔案：
+有關詳細資訊，請參閱Campaign Standard文檔：
 
 * [設定篩選定義](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html).
 * [使用案例：使用複合標識鍵調用資源](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html)。
@@ -209,7 +212,7 @@ ht-degree: 1%
 
 ***請求範例***
 
-檢索事務處理金額為100$或更多的「配置檔案」資源的GET請求示例。 請注意，「byAmount」篩選器已先在Adobe Campaign Standard介面中定義，並連結至「交易」自訂表格。
+檢索事務處理金額為100$或更多的「配置檔案」資源的示例GET請求。 請注意，「byAmount」篩選器已先在Adobe Campaign Standard介面中定義，並連結至「Transaction」自訂表格。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byAmount?amount_parameter=100 \

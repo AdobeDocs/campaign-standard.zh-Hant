@@ -6,10 +6,13 @@ description: 瞭解如何根據報表中工作流程的區段來檢查傳送是�
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
+feature: 報告
+role: 領導者
+level: 中級
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '620'
 ht-degree: 2%
 
 ---
@@ -32,7 +35,7 @@ ht-degree: 2%
 
 在報告區段代碼之前，您必須更新&#x200B;**[!UICONTROL Profiles]**&#x200B;自訂資源，以儲存區段代碼。
 
-1. 從進階功能表，透過Adobe Campaign標誌，選取&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]**，然後選取&#x200B;**[!UICONTROL Profile (profile)]**&#x200B;資源。
+1. 從高級菜單中，通過Adobe Campaign徽標選擇&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]** ，然後選擇&#x200B;**[!UICONTROL Profile (profile)]**&#x200B;資源。
 1. 在&#x200B;**[!UICONTROL Data structure]**&#x200B;標籤的&#x200B;**[!UICONTROL Sending logs extension]**&#x200B;功能表中，勾選&#x200B;**[!UICONTROL Add segment code]**&#x200B;以允許從定位工作流程儲存區段代碼，並將它傳送至動態報表。
 
    然後，**[!UICONTROL Segment code]**&#x200B;將可在報表的&#x200B;**[!UICONTROL Profile]**&#x200B;維度區段中使用。

@@ -7,10 +7,13 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 context-tags: orgUnit,overview;orgUnit,main;geoUnit,overview;geoUnit,main
+feature: 存取管理
+role: 管理員
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 824c91669bd717e5bf31dab9005e4c3b9e497edf
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '846'
 ht-degree: 4%
 
 ---
@@ -24,7 +27,7 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->如果使用者未連結至任何單位，該使用者將無法連結至Adobe Campaign。 如果您想要限制特定使用者或使用者群組的存取權，請勿將其連結至&#x200B;**[!UICONTROL All]**&#x200B;裝置。 建議在導入任何配置檔案之前添加&#x200B;**訪問授權管理欄位**&#x200B;選項。 如需詳細資訊，請參閱本[區段](../../administration/using/organizational-units.md#partitioning-profiles)。
+>如果用戶未連結到任何設備，則該用戶將無法連接到Adobe Campaign。 如果您想要限制特定使用者或使用者群組的存取權，請勿將其連結至&#x200B;**[!UICONTROL All]**&#x200B;裝置。 建議在導入任何配置檔案之前添加&#x200B;**訪問授權管理欄位**&#x200B;選項。 如需詳細資訊，請參閱本[區段](../../administration/using/organizational-units.md#partitioning-profiles)。
 >
 >依預設，將 **[!UICONTROL All (all)]** 組織單位指派給 **[!UICONTROL Administrators]** 安全性群組。其為唯讀狀態且無法修改。
 
@@ -44,26 +47,26 @@ ht-degree: 4%
 
 組織單位可讓您根據使用者所連結的組織來篩選例項。 在您的例項中，此單位可代表地區、國家或甚至品牌。
 
-在此，我們先前已建立對兩個使用者具有不同角色的安全性群組：一個用戶被分配給安全組Administrators和Geometrixx，另一個用戶屬於安全組Standard用戶和Geometrixx Chastes。請參閱[建立安全組並為完整示例分配用戶](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users)。
+在此，我們先前已建立對兩個使用者具有不同角色的安全性群組：一個用戶被分配給安全組管理員和Geometrixx，另一個用戶屬於安全組標準用戶和Geometrixx服裝請參閱[建立安全組並為完整示例分配用戶](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users)。
 
-我們現在需要為Geometrixx Chates和Geometrixx安全性群組建立組織單位：
+我們現在需要為Geometrixx服裝和Geometrixx安全小組建立組織單位：
 
 1. 從Adobe促銷活動進階功能表，選擇&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Users & security]** > **[!UICONTROL Organizational units]**。
 1. 按一下&#x200B;**[!UICONTROL Create]**&#x200B;開始配置組織單元。
 
    ![](assets/manage_units_1.png)
 
-1. 將預設的&#x200B;**[!UICONTROL Label]**&#x200B;和&#x200B;**[!UICONTROL ID]**&#x200B;變更為Geometrixx。
+1. 將預設&#x200B;**[!UICONTROL Label]**&#x200B;和&#x200B;**[!UICONTROL ID]**&#x200B;更改為Geometrixx。
 1. 然後，將此設備連結到父設備。 這裡，我們選擇了&#x200B;**[!UICONTROL All]**。
 
    ![](assets/manage_units_2.png)
 
 1. 最後，按一下&#x200B;**[!UICONTROL Create]**&#x200B;開始將新組織單元分配給安全組。
-1. 請依照與Geometrixx Chattes單元相同的程式進行，只不過其父單位必須是先前建立的單位Geometrixx。
+1. 對「Geometrixx服裝」單元執行相同的步驟，但其父單位必須是先前建立的單位「Geometrixx」。
 
    ![](assets/manage_units_3.png)
 
-若要查看指派不同單位給不同安全性群組的影響，指派給管理員和Geometrixx群組的使用者將建立兩個電子郵件範本，以查看指派給標準使用者和Geometrixxx Chastes的其他使用者可以或無法存取的項目。
+要查看為不同安全組分配不同設備的影響，分配給管理員和Geometrixx組的用戶將建立兩個電子郵件模板，以查看分配給標準用戶和Geometrixx的其他用戶可以訪問或無法訪問哪些內容。
 
 1. 從高級菜單中，選擇&#x200B;**[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery Templates]**。
 1. 複製現有範本，並視需要加以個人化。 有關詳細資訊，請參閱[關於templates](../../start/using/marketing-activity-templates.md)部分。
@@ -73,23 +76,23 @@ ht-degree: 4%
 
 1. 在&#x200B;**[!UICONTROL Access authorization]**&#x200B;下拉菜單中，選擇組織單位。
 
-   在此，我們將使用先前建立的組織單位Geometrixx建立一個範本。
+   在此，我們將使用先前建立的組織單位Geometrixx建立一個模板。
 
    ![](assets/manage_units_5.png)
 
-1. 依照相同的程式建立指派給先前建立之Geometrixx Chates組織單位的第二個範本。
+1. 按照相同的步驟建立分配給先前建立的Geometrixx服裝組織單位的第二個模板。
 
-指派給「標準使用者」和「Geometrixx服裝」群組的使用者將能夠檢視這兩個範本。 由於組織單位的階層結構，他將擁有連結至Geometrixx Chats單位之範本的讀取和寫入存取權，並僅擁有連結至Geometrixx單位之範本的唯讀存取權。
+指派給「標準使用者」和「Geometrixx服裝」群組的使用者將能夠檢視這兩個範本。 由於組織單位的分層結構，他將擁有與Geometrixx服裝單位連結的模板的讀寫權限，並僅對與Geometrixx單位連結的模板進行只讀訪問。
 
 ![](assets/manage_units_7.png)
 
-由於Geometrixx Chattes單位是Geometrixx的子單位，當使用者嘗試修改Geometrixx範本時，會出現下列訊息：
+由於Geometrixx服裝單元是Geometrixx的子單元，因此當用戶嘗試修改Geometrixx模板時，將顯示以下消息：
 
 ![](assets/manage_units_8.png)
 
-組織單位可以限制對不同功能（例如描述檔）的存取。 例如，如果我們的Geometrixx Chates使用者存取&#x200B;**[!UICONTROL Profiles]**&#x200B;標籤，他將能夠完整存取並修改Geometrixx Chates組織單位的描述檔。
+組織單位可以限制對不同功能（例如描述檔）的存取。 例如，如果我們的Geometrixx服裝用戶訪問&#x200B;**[!UICONTROL Profiles]**&#x200B;頁籤，他將能夠完全訪問和修改Geometrixx服裝組織單位的配置檔案。
 
-具有Geometrixx組織單位的描述檔將只讀，但若我們的使用者嘗試修改一個描述檔，則會出現下列錯誤：**[!UICONTROL You do not have the rights needed to modify the 'profile' resource of ID]**。
+雖然具有Geometrixx組織單位的描述檔將只讀，但如果我們的使用者嘗試修改一個描述檔，則會出現下列錯誤：**[!UICONTROL You do not have the rights needed to modify the 'profile' resource of ID]**。
 
 ![](assets/manage_units_10.png)
 

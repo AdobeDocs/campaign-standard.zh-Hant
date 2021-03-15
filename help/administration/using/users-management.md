@@ -6,11 +6,14 @@ description: 'Adobe Campaign 使用者具有特定角色。探索主要使用者
 audience: administration
 content-type: reference
 topic-tags: users-and-security
+feature: 存取管理
+role: 管理員
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 83cf4dc73540725d1b642b68091f704806f3eb63
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1220'
-ht-degree: 95%
+source-wordcount: '1224'
+ht-degree: 94%
 
 ---
 
@@ -160,4 +163,4 @@ Adobe Campaign 可讓您指派一組角色給使用者，以定義使用者可�
 
 >[!VIDEO](https://video.tv.adobe.com/v/24671?quality=12)
 
-其他Campaign Standard操作說明影片可在[這裡](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant)取得。
+其他Campaign Standardhow-to影片可在[這裡](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant)取得。

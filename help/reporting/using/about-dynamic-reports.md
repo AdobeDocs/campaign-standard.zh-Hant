@@ -6,10 +6,13 @@ description: 使用動態報表，將變數和維度拖放至自由格式環境�
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
+feature: 報告
+role: 領導者
+level: 初學者
 translation-type: tm+mt
-source-git-commit: b471fddd49037770e33a113374afd60c2e79e69b
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '794'
 ht-degree: 5%
 
 ---
@@ -55,22 +58,22 @@ ht-degree: 5%
 有三個選項可供使用：
 
 * **[!UICONTROL Ask me later]**:按一下「 **稍後詢問我**」，視窗將會在24小時內停止顯示。在您接受或拒絕合約之前，描述檔維度不會顯示在您的報表中，也不會收集或傳送客戶的個人識別資訊。
-* **[!UICONTROL Accept]**:接受本合約後，您即授權Adobe Campaign收集客戶的個人身分識別資訊，並將這些資訊傳送至報告或資料中心。
+* **[!UICONTROL Accept]**:接受本合約後，您即授權Adobe Campaign收集客戶的個人身分識別資訊，並將其傳送至報告或資料中心。
 * **[!UICONTROL Decline]**:拒絕合約後，描述檔維度將不會出現在您的報表中，而且客戶的個人識別資訊也不會收集或傳送。請注意，在此情況下，仍會收集外部ID並用於識別使用者。
 
 下表依您所在地區，顯示接受本合約後的情況。
 
 |  | 動態報告 | Microsoft Dynamics 365連接器 |
 |---|---|---|
-| 美洲與亞太地區（亞太地區） | **功能已推出**。<br>立即可用（例如，依年齡劃分的城市、國家／地區、州、性別和細分）和自訂個人檔案資訊推入美國報告中心。如需描述檔維度的詳細資訊，請參閱此[頁面](../../reporting/using/list-of-components-.md) | **功能已推出**。<br>所有現成可用的設定檔和自訂設定檔欄位，以及Adobe Campaign Standard事件欄位，都會在美國資料中心處理。 |
-| EMEA（歐洲中東和非洲） | **功能已推出**。<br>立即可用（例如，根據年齡劃分的城市、國家／地區、州、性別和細分）和自訂個人檔案資訊推送至EMEA報告中心。如需描述檔維度的詳細資訊，請參閱此[頁面](../../reporting/using/list-of-components-.md) | **功能已推出。** <br>在EMEA資料中心處理的所有現成可用和自訂描述檔欄位和Adobe Campaign Standard事件欄位。<br>**[!UICONTROL Control data]**其中包含Adobe I/O註冊資料，以及在美國資料中心傳送及儲存之客戶使用者事件的ID。 |
+| 美洲與亞太地區（亞太地區） | **功能已推出**。<br>立即可用（例如，依年齡劃分的城市、國家／地區、州、性別和細分）和自訂個人檔案資訊推入美國報告中心。如需描述檔維度的詳細資訊，請參閱此[頁面](../../reporting/using/list-of-components-.md) | **功能已推出**。<br>所有現成可用的設定檔和自訂設定檔欄位以及Adobe Campaign Standard事件欄位都會在美國資料中心處理。 |
+| EMEA（歐洲中東和非洲） | **功能已推出**。<br>立即可用（例如，根據年齡劃分的城市、國家／地區、州、性別和細分）和自訂個人檔案資訊推送至EMEA報告中心。如需描述檔維度的詳細資訊，請參閱此[頁面](../../reporting/using/list-of-components-.md) | **功能已推出。** <br>在EMEA資料中心處理的所有現成和自訂描述檔欄位和Adobe Campaign Standard事件欄位。<br>**[!UICONTROL Control data]**其中包含Adobe I/O註冊資料和在美國資料中心傳送及儲存的客戶使用者事件的ID。 |
 
 下表顯示拒絕此協定後會發生的情況，具體取決於您的地區。 請注意，即使您拒絕本合約，仍可報告傳送和Microsoft Dynamics 365整合。
 
 | 地區 | 動態報告 | Microsoft Dynamics 365連接器 |
 |---|---|---|
-| 美洲與亞太地區（亞太地區） | **功能已推出**。<br> 除ExternalID外，沒有立即可用的自訂設定檔資訊推送至美國報告中心。 | **功能已推出**。<br>除「外部ID」和「收件者ID」外，沒有立即可用的或自訂的描述檔欄位傳送至美國資料中心。<br>除鏡像頁面ID外，所有在美國資料中心處理的Adobe Campaign Standard事件欄位。<br>有關Microsoft Dynamics 365整合的詳細資訊，請參閱本 [頁](../../integrating/using/d365-acs-get-started.md)。 |
-| EMEA（歐洲中東和非洲） | **功能已推出**。<br>除ExternalID外，沒有將現成可用的自訂設定檔資訊推送至EMEA報告中心。 | **功能已推出。** <br>除「外部ID」和「收件者ID」外，沒有立即可用或自訂的描述檔欄位傳送至EMEA資料中心。<br>除鏡像頁面ID外，所有在EMEA資料中心處理的Adobe Campaign Standard事件欄位。<br>**[!UICONTROL Control data]**其中包含Adobe I/O註冊資料，以及在美國資料中心傳送及儲存之客戶使用者事件的ID。<br>有關Microsoft Dynamics 365整合的詳細資訊，請參閱本 [頁](../../integrating/using/d365-acs-get-started.md)。 |
+| 美洲與亞太地區（亞太地區） | **功能已推出**。<br> 除ExternalID外，沒有立即可用的自訂設定檔資訊推送至美國報告中心。 | **功能已推出**。<br>除「外部ID」和「收件者ID」外，沒有立即可用的或自訂的描述檔欄位傳送至美國資料中心。<br>除鏡像頁面ID外，所有Adobe Campaign Standard事件欄位都在美國資料中心中處理。<br>有關Microsoft Dynamics 365整合的詳細資訊，請參閱本 [頁](../../integrating/using/d365-acs-get-started.md)。 |
+| EMEA（歐洲中東和非洲） | **功能已推出**。<br>除ExternalID外，沒有將現成可用的自訂設定檔資訊推送至EMEA報告中心。 | **功能已推出。** <br>除「外部ID」和「收件者ID」外，沒有立即可用或自訂的描述檔欄位傳送至EMEA資料中心。<br>除鏡像頁面ID外，所有Adobe Campaign Standard事件欄位都在EMEA資料中心處理。<br>**[!UICONTROL Control data]**其中包含Adobe I/O註冊資料和在美國資料中心傳送及儲存的客戶使用者事件的ID。<br>有關Microsoft Dynamics 365整合的詳細資訊，請參閱本 [頁](../../integrating/using/d365-acs-get-started.md)。 |
 
 此選項不是最終選項，您始終可以通過在&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Options]**&#x200B;中選擇&#x200B;**[!UICONTROL Enable PII data to be transferred to US region to use reporting on Profile data]**&#x200B;來更改它。
 

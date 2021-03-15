@@ -7,10 +7,13 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: delivery,mobileAppContent,back
+feature: 推播
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1014'
 ht-degree: 4%
 
 ---
@@ -23,16 +26,16 @@ ht-degree: 4%
 本頁說明在Mobile Application以排程方式傳送Collect PII資料後，建立／更新描述檔資料的工作流程的步驟。
 
 * **** PII代表「個人識別資訊」。它可以是任何資料，包括促銷活動資料庫中未顯示在「設定檔」表格中的資訊，例如Analytics for Mobile [興趣點](../../integrating/using/about-campaign-points-of-interest-data-integration.md)。 PII由行動應用程式開發人員（通常與行銷人員）定義。
-* **收集** PII是從行動應用程式對Adobe Campaign Standard中的Rest API進行HTTP-POST作業。
+* **收集** PII是從行動應用程式對Adobe Campaign Standard的Rest API進行HTTPPOST作業。
 
-此使用案例的目的是建立或更新Campaign Standard描述檔（如果行動應用程式傳回的PII資料包含描述檔相關資料）。
+此使用案例的目的是，如果行動應用程式傳回的PII資料包含與描述檔相關的資料，則建立或更新Campaign Standard描述檔。
 
 ## 必要條件
 
-在「行動應用程式訂閱」資料建立或更新「設定檔」之前，請先執行數個設定步驟，以在「促銷活動標準」中啟用推播通知：
+在根據「行動應用程式訂閱」資料建立或更新「設定檔」之前，需執行數個設定步驟以啟用Campaign Standard中的推播通知：
 
 1. [建立行動應用程式](../../administration/using/configuring-a-mobile-application.md)
-1. [將Adobe Mobile SDK與您的行動應用程式整合](https://helpx.adobe.com/tw/campaign/kb/integrate-mobile-sdk.html)。
+1. [將AdobeMobile SDK與您的行動應用程式整合](https://helpx.adobe.com/tw/campaign/kb/integrate-mobile-sdk.html)。
 1. [設定Adobe Campaign以傳送推播通知](https://helpx.adobe.com/tw/campaign/kb/configuring-app-sdkv4.html)。
 
 ## 步驟1 —— 擴充推播通知／訂閱的描述檔資源
@@ -58,7 +61,7 @@ ht-degree: 4%
 
 ## 步驟2 —— 建立工作流程
 
-使用Campaign Standard中的「工作流程」可讓管理員在AppSubscription（訂閱者）資料和描述檔或收件者資料之間唯一識別並同步資料。 雖然基於工作流的更新不會即時同步描述檔資料，但不應造成任何不當的資料庫鎖定或開銷。
+在Campaign Standard中使用「工作流程」可讓管理員在AppSubscription（訂閱者）資料和「設定檔」或「收件者」資料之間唯一識別並同步資料。 雖然基於工作流的更新不會即時同步描述檔資料，但不應造成任何不當的資料庫鎖定或開銷。
 
 建立工作流程的主要步驟為：
 

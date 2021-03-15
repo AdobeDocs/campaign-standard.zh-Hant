@@ -6,11 +6,14 @@ description: 瞭解如何使用API來瞭解個人檔案的組織單位。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: 資料工程師
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 12%
+source-wordcount: '83'
+ht-degree: 13%
 
 ---
 
@@ -18,7 +21,7 @@ ht-degree: 12%
 # 擷取設定檔的組織單位 {#retrieving-organizational-units}
 
 1. 對配置檔案PKey執行GET請求以檢索&#x200B;**orgUnit** URL。
-1. 對URL執行GET請求，以擷取有關組織單位的詳細資訊。
+1. 在URL上執行GET請求，以擷取有關組織單位的詳細資訊。
 
 <br/>
 
@@ -48,7 +51,7 @@ ht-degree: 12%
 }
 ```
 
-對URL執行GET要求以擷取更多資訊。
+對URL執行GET請求以擷取更多資訊。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/<PKEY> \

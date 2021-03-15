@@ -2,15 +2,18 @@
 solution: Campaign Standard
 product: campaign
 title: 交易式訊息限制
-description: 瞭解Adobe Campaign Standard中有關交易訊息的主要建議和限制。
+description: 瞭解有關Adobe Campaign Standard交易訊息的主要建議和限制。
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
+feature: 交易式傳訊
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 5758e5f0f6811a97f51e995fa3c378a7c7117ff5
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '747'
 ht-degree: 66%
 
 ---

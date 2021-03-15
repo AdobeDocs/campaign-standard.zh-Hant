@@ -2,15 +2,18 @@
 solution: Campaign Standard
 product: campaign
 title: 配置指南
-description: 瞭解Campaign Standard設定方針。
+description: 瞭解Campaign Standard配置准則。
 audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
+feature: 存取管理
+role: 管理員
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 10%
+source-wordcount: '121'
+ht-degree: 9%
 
 ---
 
@@ -19,9 +22,9 @@ ht-degree: 10%
 
 ## 相容瀏覽器{#compatible-browsers}
 
-Adobe Campaign Standard與大部份適用於電腦的瀏覽器以及平板電腦的主要作業系統相容。
+Adobe Campaign Standard與大多數電腦瀏覽器以及平板電腦的主要作業系統相容。
 
-Adobe Campaign Standard僅支援平板裝置上的橫向顯示模式。
+Adobe Campaign Standard僅支援平板電腦的橫向顯示模式。
 
 以下是與Adobe Campaign Standard相容的瀏覽器清單：
 

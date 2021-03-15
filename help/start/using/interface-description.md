@@ -6,10 +6,13 @@ description: 「瞭解如何導覽與使用 Adobe Campaign 工作區： 首頁�
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
+feature: 概觀
+role: 業務從業人員
+level: 初學者
 translation-type: tm+mt
-source-git-commit: 05a44f5baa66df70a57da9467baf71a953aed856
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1289'
+source-wordcount: '1293'
 ht-degree: 92%
 
 ---
@@ -47,7 +50,7 @@ Adobe Campaign 可讓您導覽不同的功能表和畫面，以管理您的行�
 
 ## 頂端列 {#top-bar}
 
-每個螢幕上都會顯示頂端列，讓您瀏覽Adobe Campaign的功能，並存取連線的Adobe個人檔案、通知、Adobe Experience Cloud解決方案和Campaign檔案。
+每個螢幕上都會顯示頂端列，讓您瀏覽Adobe Campaign的功能，並存取連線的Adobe資料、通知、Adobe Experience Cloud解決方案和宣傳檔案。
 
 導覽原則為：
 

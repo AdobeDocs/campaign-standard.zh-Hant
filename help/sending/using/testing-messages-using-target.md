@@ -7,10 +7,13 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
+feature: 控制組
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: e20485978deba54f45010a41921b948f049222f2
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1514'
+source-wordcount: '1519'
 ht-degree: 4%
 
 ---
@@ -99,7 +102,7 @@ ht-degree: 4%
 
 ### 從觀眾{#importing-from-audience}匯入個人檔案
 
-Campaign Standard可讓您匯入可用於測試的設定檔對象。 例如，這可讓您傳送至唯一的電子郵件地址，以不同描述檔為目標的整組訊息。
+Campaign Standard可讓您匯入可用於測試的個人檔案對象。 例如，這可讓您傳送至唯一的電子郵件地址，以不同描述檔為目標的整組訊息。
 
 此外，如果您的觀眾已設定了位址和首碼欄，您就可以在&#x200B;**[!UICONTROL Profile substitutions]**&#x200B;標籤中匯入這些資訊。 [本節](#use-case)中詳細說明了使用替代地址匯入觀眾的範例。
 
@@ -273,4 +276,4 @@ Campaign Standard可讓您匯入可用於測試的設定檔對象。 例如，�
 
 >[!VIDEO](https://video.tv.adobe.com/v/32368?quality=12)
 
-其他Campaign Standard操作說明影片可在[這裡](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant)取得。
+其他Campaign Standardhow-to影片可在[這裡](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant)取得。

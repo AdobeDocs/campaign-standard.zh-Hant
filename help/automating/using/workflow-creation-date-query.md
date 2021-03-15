@@ -7,10 +7,13 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,query
+feature: 工作流程
+role: 資料架構師
+level: 中級
 translation-type: tm+mt
-source-git-commit: 45c80b5e6bf2169c5acf6eea70da9e2f130982c8
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '358'
 ht-degree: 38%
 
 ---

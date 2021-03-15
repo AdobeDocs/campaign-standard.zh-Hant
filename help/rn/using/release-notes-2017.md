@@ -6,10 +6,13 @@ description: 本頁列出 2017 年的所有 Adobe Campaign Standard 版本。
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
+feature: 概觀
+role: 業務從業人員
+level: 初學者
 translation-type: tm+mt
-source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '4627'
+source-wordcount: '4631'
 ht-degree: 5%
 
 ---
@@ -17,11 +20,11 @@ ht-degree: 5%
 
 # 發行說明 2017 年{#release-notes}
 
-想要尋找2017年版Adobe Campaign Standard嗎？
+在尋找2017年發行的Adobe Campaign Standard?
 
 每個版本都提供新功能和修補程式。 按一下某個版本以檢視其內容。
 
-檢視Adobe Campaign Standard的最新[檔案更新](../../rn/using/documentation-updates.md)。 如果您要尋找較新的版本，請參閱此[頁面](../../rn/using/release-notes.md)。
+檢視Adobe Campaign Standard最新的[檔案更新](../../rn/using/documentation-updates.md)。 如果您要尋找較新的版本，請參閱此[頁面](../../rn/using/release-notes.md)。
 
 ## 發行版本 17.10 – 2017 年 10 月 {#release-17-10---october-2017}
 
@@ -51,10 +54,10 @@ ht-degree: 5%
 _平台_
 
 * 修正無法正確解壓縮大型壓縮檔案的問題。
-* 品牌管理的安全性已改善。 現在，Adobe技術管理員已保留修改品牌名稱和傳送者位址。
+* 品牌管理的安全性已改善。 修改品牌名稱和傳送者位址現在會保留給Adobe技術管理員。
 * 為改善安全性，使用者產生的內容（影像、鏡像頁面、著陸頁面等） 無法再由adobe.com網域提供服務。 現在，您必須使用您自己的網域來處理這些資源，並透過品牌的使用。
 * 修正顯示及篩選行銷活動時的介面問題。
-* 修正無法使用POST Rest API呼叫更新訂閱日期欄位的問題。
+* 修正訂閱日期欄位無法以POST剩餘API呼叫更新的問題。
 
 _電子郵件、簡訊訊息和直效郵件_
 
@@ -70,7 +73,7 @@ _推播通知_
 * 推播通知現在在GCM和啟用FCM的Android行動應用程式上都受支援。
 * 修正複製推播通知範本時無法儲存內容的錯誤。
 * 現在，您可以協調行動應用程式使用者的資料，從Adobe Campaign資料庫建立或更新個人檔案。
-* Adobe Campaign現在會優先處理交易式推播通知，而非標準推播通知。
+* Adobe Campaign現在將處理交易推播通知的優先順序放在標準推播通知之上。
 
 _報告_
 
@@ -124,7 +127,7 @@ _自訂資源_
   </tr> 
   <tr> 
    <td> 大量訂閱來源與日期<br /> </td> 
-   <td> 透過此「大量訂閱」增強功能，您現在可以透過工作流程中的「訂閱服務」活動，直接將訂閱資訊（來源和日期）儲存在Adobe Campaign Standard資料庫中。<br /> 如需詳細資訊，請參閱詳 <a href="../../automating/using/subscription-services.md">細檔案</a>。<br /> </td> 
+   <td> 透過此大量訂閱增強功能，您現在可以透過工作流程中的訂閱服務活動，直接將訂閱資訊（來源和日期）儲存在Adobe Campaign Standard資料庫中。<br /> 如需詳細資訊，請參閱詳 <a href="../../automating/using/subscription-services.md">細檔案</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -133,7 +136,7 @@ _自訂資源_
 
 _平台_
 
-* 有些客戶需要能夠運用Adobe Campaign Standard提供的ID，因為他們無法管理唯一的金鑰來識別自己的記錄。 此ID(**ACS ID**)可以導出，並在更新資料時用作協調密鑰。 如需詳細資訊，請參閱[相關的文件](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)，以瞭解詳情。
+* 有些客戶需要能夠運用來自Adobe Campaign Standard的ID，因為他們無法管理唯一的金鑰來識別自己的記錄。 此ID(**ACS ID**)可以導出，並在更新資料時用作協調密鑰。 如需詳細資訊，請參閱[相關的文件](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)，以瞭解詳情。
 * FTP通訊協定已過時。 您現在應改用SFTP。 為了不封鎖現有實作，FTP上的現有設定仍舊如舊，但新活動不會顯示選項。
 
 _電子郵件、簡訊訊息和直效郵件_
@@ -192,19 +195,19 @@ _設定檔與閱聽眾_
   </tr> 
   <tr> 
    <td> Adobe Campaign通知<br /> </td> 
-   <td> 直接在Adobe Campaign Standard中接收有關重要系統活動的通知。 例如，當您正在進行的傳送進度或工作流程發生錯誤時，將會通知您。<br /> 即時通知可讓相關利益相關者隨時得知相關資訊，讓使用者能夠立即直接從應用程式中處理活動通知。團隊的成果是，提高了靈活性、效率和更順暢地執行宣傳活動。 如需詳細資訊，請參閱<a href="../../administration/using/sending-internal-notifications.md">相關的文件</a>，以瞭解詳情。<br /> </td> 
+   <td> 直接在Adobe Campaign Standard接收有關重要系統活動的通知。 例如，當您正在進行的傳送進度或工作流程發生錯誤時，將會通知您。<br /> 即時通知可讓相關利益相關者隨時得知相關資訊，讓使用者能夠立即直接從應用程式中處理活動通知。團隊的成果是，提高了靈活性、效率和更順暢地執行宣傳活動。 如需詳細資訊，請參閱<a href="../../administration/using/sending-internal-notifications.md">相關的文件</a>，以瞭解詳情。<br /> </td> 
   </tr> 
   <tr> 
    <td> 傳送警報<br /> </td> 
-   <td> 除了直接在Adobe Campaign Standard中檢視通知外，Adobe Campaign現在還提供電子郵件警報系統，可針對重要系統活動向使用者或外部利益相關者觸發電子郵件警報。 建立、管理和接收可自訂的警報和儀表板，以追蹤傳送的成功或失敗。<br /> Adobe Campaign傳送快訊透過電子郵件和資料板，讓公司內所有相關的Adobe Campaign使用者自動得知傳送執行狀態，進而大幅提升效率。如需詳細資訊，請參閱<a href="../../sending/using/receiving-alerts-when-failures-happen.md">相關的文件</a>，以瞭解詳情。<br /> </td> 
+   <td> 除了直接在Adobe Campaign Standard查看通知外，Adobe Campaign現在還提供電子郵件警報系統，以觸發向用戶或外部利益相關者發送重要系統活動的電子郵件警報。 建立、管理和接收可自訂的警報和儀表板，以追蹤傳送的成功或失敗。<br /> Adobe Campaign交付警報通過電子郵件和儀表板讓公司中所有相關的Adobe Campaign用戶自動獲知交付執行狀態，從而提高了效率。如需詳細資訊，請參閱<a href="../../sending/using/receiving-alerts-when-failures-happen.md">相關的文件</a>，以瞭解詳情。<br /> </td> 
   </tr> 
   <tr> 
    <td> 資料來源中的加密宣告ID<br /> </td> 
-   <td> 使用加密的連絡資訊（電子郵件地址或電話號碼）做為宣告的ID，傳送電子郵件和簡訊觸發器，而不需在Campaign中使用現有的設定檔。 由於Encrypted Declared ID可由Adobe Campaign Standard解碼，所以當Campaign從包含先前未知聯絡人的其他Experience Cloud解決方案接收受眾時，現在可以建立新的可銷售個人檔案。<br /> 透過電子郵件和簡訊即時鎖定客戶和未知潛在客戶，以分別提高現有客戶群的忠誠度並贏得新客戶。潛在客戶在Adobe Campaign中驗證並運用這些見解後，就可充份運用您的第一方Cookie資料（來自Adobe Audience Manager*）。 <br /> *需要Adobe Audience Manager。如需詳細資訊，請參閱<a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">相關的文件</a>，以瞭解詳情。<br /> </td> 
+   <td> 使用加密的連絡資訊（電子郵件地址或電話號碼）做為宣告的ID，傳送電子郵件和簡訊觸發器，而不需在Campaign中使用現有的設定檔。 由於Encrypted Declared ID可由Adobe Campaign Standard解碼，所以Campaign現在可以從包含先前未知聯絡人的其他Experience Cloud解決方案接收受眾時，可以建立新的可銷售個人檔案。<br /> 透過電子郵件和簡訊即時鎖定客戶和未知潛在客戶，以分別提高現有客戶群的忠誠度並贏得新客戶。潛在客戶在Adobe Campaign驗證並運用這些見解後，即可充份運用您的第一方Cookie資料(來自Adobe Audience Manager*)。 <br /> *需要Adobe Audience Manager。如需詳細資訊，請參閱<a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">相關的文件</a>，以瞭解詳情。<br /> </td> 
   </tr> 
   <tr> 
    <td> 從促銷活動到Analytics的KPI共用<br /> </td> 
-   <td> 與Adobe Analytics共用宣傳資料，以測量來自Campaign的電子郵件行銷量度，以及透過轉換、統一點按前和點按後行為的其他行銷和廣告努力。<br /> 直接追蹤整體效能，並發現與Analytics中外部程式的協同效能。將您從這個整合檢視中學到的知識，套用回到您的宣傳活動中；最終改善開放、點進和轉換率，以提升營收和整體宣傳績效。 <br /> 需要Adobe Analytics。如需詳細資訊，請參閱<a href="../../integrating/using/about-campaign-analytics-integration.md">相關的文件</a>，以瞭解詳情。<br /> </td> 
+   <td> 與Adobe Analytics分享宣傳資料，以測量來自Campaign的電子郵件行銷量度，以及透過轉換、統一點按前和點按後行為的其他行銷和廣告努力。<br /> 直接追蹤整體效能，並發現與Analytics中外部程式的協同效能。將您從這個整合檢視中學到的知識，套用回到您的宣傳活動中；最終改善開放、點進和轉換率，以提升營收和整體宣傳績效。 <br /> Adobe Analytics是必要條件。如需詳細資訊，請參閱<a href="../../integrating/using/about-campaign-analytics-integration.md">相關的文件</a>，以瞭解詳情。<br /> </td> 
   </tr> 
   <tr> 
    <td> 直接郵件通道——返回發件人<br /> </td> 
@@ -264,11 +267,11 @@ _工作流程_
  <tbody> 
   <tr> 
    <td> 直接郵件<br /> </td> 
-   <td> 透過Adobe Campaign Standard的第一個離線通道Direct Mail突破數位障礙，與實體世界連結。 這項功能可讓您個人化並產生直接郵件供應商所需的檔案，做為跨通道宣傳的一部分。 運用Direct Mail透過吸引人的觸點，將客戶帶往您的應用程式、網站或商店，來重新吸引客戶或增強客戶體驗。<br /> 如需詳細資訊，請參閱詳 <a href="../../channels/using/about-direct-mail.md">細檔案</a>。<br /> </td> 
+   <td> 透過Adobe Campaign Standard的第一個線下通道Direct Mail突破數位障礙，與實體世界連結。 這項功能可讓您個人化並產生直接郵件供應商所需的檔案，做為跨通道宣傳的一部分。 運用Direct Mail透過吸引人的觸點，將客戶帶往您的應用程式、網站或商店，來重新吸引客戶或增強客戶體驗。<br /> 如需詳細資訊，請參閱詳 <a href="../../channels/using/about-direct-mail.md">細檔案</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 電子郵件密件副本<br /> </td> 
-   <td> 電子郵件密件副本可儲存傳送給個別收件者的獨特電子郵件訊息，讓品牌可封存這些訊息。 借由將密件副本電子郵件地址新增至所有電子郵件，Adobe Campaign Standard客戶可透過此功能保留每封電子郵件的完整副本。 這是金融服務業的常見法律要求，有助於協助客戶服務中心即時解決衝突。<br /> 如需詳細資訊，請參閱詳 <a href="../../sending/using/archiving.md">細檔案</a>。<br /> </td> 
+   <td> 電子郵件密件副本可儲存傳送給個別收件者的獨特電子郵件訊息，讓品牌可封存這些訊息。 透過將密件副本電子郵件地址新增至所有電子郵件，Adobe Campaign Standard客戶可透過此功能保存每封電子郵件的完整副本。 這是金融服務業的常見法律要求，有助於協助客戶服務中心即時解決衝突。<br /> 如需詳細資訊，請參閱詳 <a href="../../sending/using/archiving.md">細檔案</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -311,23 +314,23 @@ _推播通知_
  <tbody> 
   <tr> 
    <td> Creative SDK的增強影像版本功能<br /> </td> 
-   <td> 您現在可以存取Creative SDK所提供的完整功能集，以在編輯電子郵件或登陸頁面時，直接在內容編輯器中增強您的影像。<br /> 這項功能不需要購買其他Creative Cloud解決方案。<br /> 如需詳細資訊，請參閱詳 <a href="../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk">細檔案</a>。<br /> </td> 
+   <td> 您現在可以存取Creative SDK所提供的完整功能集，以在編輯電子郵件或登陸頁面時，直接在內容編輯器中增強您的影像。<br /> 這項功能不需要購買額外的Creative Cloud解決方案。<br /> 如需詳細資訊，請參閱詳 <a href="../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk">細檔案</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 異動推播通知<br /> </td> 
-   <td> 行動應用程式通道已新增至Adobe Campaign的交易訊息功能。 交易式訊息現在支援三個通道：電子郵件、簡訊和推播通知。<br /> 如需詳細資訊，請參閱詳 <a href="../../channels/using/transactional-push-notifications.md">細檔案</a>。<br /> </td> 
+   <td> 移動應用渠道已經添加到Adobe Campaign的交易傳訊功能中。 交易式訊息現在支援三個通道：電子郵件、簡訊和推播通知。<br /> 如需詳細資訊，請參閱詳 <a href="../../channels/using/transactional-push-notifications.md">細檔案</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 循環推播通知<br /> </td> 
    <td> 您現在可以在工作流程中設定週期性推播通知。 您可以在客戶期望定期更新（例如每週提醒以查看新內容或促銷活動）的情況下，使用循環推播通知。<br /> 如需詳細資訊，請參閱詳 <a href="../../automating/using/push-notification-delivery.md">細檔案</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Amazon Simple Storage Service(S3)連接器<br /> </td> 
-   <td> Amazon Simple Storage Service(S3)連接器現在可用來匯入或匯出資料至Adobe Campaign。 可在工作流活動中設定。 設定是在外部帳戶中完成。<br /> 如需詳細資訊，請參閱詳 <a href="../../administration/using/external-accounts.md">細檔案</a>。<br /> </td> 
+   <td> Amazon簡單儲存服務(S3)連接器<br /> </td> 
+   <td> Amazon簡單儲存服務(S3)連接器現在可用於將資料導入或導出到Adobe Campaign。 可在工作流活動中設定。 設定是在外部帳戶中完成。<br /> 如需詳細資訊，請參閱詳 <a href="../../administration/using/external-accounts.md">細檔案</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Dreamweaver整合即時<br /> </td> 
-   <td> Adobe Campaign與Dreamweaver的整合現已上線。 它現在可與官方上一版Dreamweaver(17.0.2)搭配使用。<br /> 這需要從以下網址安裝Adobe Campaign整合擴充功能： <a href="https://adobe.ly/acdw_addon">https://adobe.ly/acdw_</a><br /> addon如需詳細資訊，請參閱此 <a href="https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.translate.html">影片</a>。<br /> </td> 
+   <td> Dreamweaver整合live<br /> </td> 
+   <td> Adobe Campaign與Dreamweaver的整合現已實現。 它現在可與官方上一版Dreamweaver(17.0.2)搭配使用。<br /> 這需要從此處安裝Adobe Campaign整合擴展： <a href="https://adobe.ly/acdw_addon">https://adobe.ly/acdw_</a><br /> addon如需詳細資訊，請參閱此 <a href="https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.translate.html">影片</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -400,7 +403,7 @@ _推播通知_
   </tr> 
   <tr> 
    <td> Dreamweaver整合(Labs)<br /> </td> 
-   <td> 透過Adobe Campaign與Dreamweaver整合，您現在可以透過Adobe解決方案，建立電子郵件宣傳的整合程式。<br /> 您可以在Dreamweaver中編輯Adobe Campaign電子郵件，並讓這兩個解決方案之間的內容順暢地同步化。<br /> 在初始版本中，整合功能是「Labs」功能，僅能與Dreamweaver搶鮮版測試版搭配使用。如果您想要啟動它，請聯絡AC-DW-integration@adobe.com。<br /> 如需詳細資訊，請參閱此影 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">片</a>。<br /> </td> 
+   <td> 透過Adobe Campaign與Dreamweaver的整合，您現在可以透過Adobe解決方案，建立電子郵件宣傳的整合流程。<br /> 您可以編輯Dreamweaver的Adobe Campaign電子郵件，讓兩個解決方案之間的內容順暢地同步。<br /> 在初始版本中，整合功能是「Labs」功能，僅適用於Dreamweaver搶鮮版測試版。如果您想要啟動它，請聯絡AC-DW-integration@adobe.com。<br /> 如需詳細資訊，請參閱此影 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">片</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 手動傳送時間最佳化<br /> </td> 
@@ -435,7 +438,7 @@ _推播通知_
   </tr> 
   <tr> 
    <td> 興趣點資料<br /> </td> 
-   <td> 地標資料整合了Adobe Campaign與Adobe Analytics for Mobile。 當使用者開啟品牌應用程式時，品牌可以從使用者的行動位置收集資料，名為<strong>地標</strong>。 這可讓品牌運用Adobe Campaign工作流程，根據使用者的位置傳送個人化訊息。 此通道運用Mobile核心服務的SDK。<br /> 請注意，使用此功能需要Analytics for Mobile，這是付費解決方案。<br /> 如需詳細資訊，請參閱詳 <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">細檔案</a>。<br /> </td> 
+   <td> 興趣點資料整合了Adobe Campaign與Adobe Analytics的行動裝置整合。 當使用者開啟品牌應用程式時，品牌可以從使用者的行動位置收集資料，名為<strong>地標</strong>。 這可讓品牌運用Adobe Campaign的工作流程，根據使用者的位置傳送個人化訊息。 此通道運用Mobile核心服務的SDK。<br /> 請注意，使用此功能需要Analytics for Mobile，這是付費解決方案。<br /> 如需詳細資訊，請參閱詳 <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">細檔案</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> REST API<br /> </td> 
@@ -522,10 +525,10 @@ _電子郵件和簡訊_
 
 _推播通知_
 
-* 修正從應用程式回傳至Adobe Campaign伺服器的問題。
+* 修正無法從應用程式回傳至Adobe Campaign伺服器的問題。
 * 修正可能無法將&#x200B;**[!UICONTROL Play a sound]**&#x200B;和&#x200B;**[!UICONTROL Custom fields]**&#x200B;納入Android考量的問題。
 * 修正可能導致在Emojis的Unicode字元中新增額外逸出字元的問題。
-* 當訂閱者的註冊Token新增至Denylist時，Adobe Campaign中應用程式的訂閱者清單中的對應狀態現在會立即更新。
+* 當訂戶的註冊Token被添加到登錄清單中時，對應的狀態現在立即在Adobe Campaign的訂戶清單中更新。
 
 _工作流程_
 
@@ -537,7 +540,7 @@ _工作流程_
 
 _整合_
 
-* 修正在Adobe Campaign中部署事件觸發器時，可能造成錯誤的問題。 當「30天內回傳的可能性」中繼資料已新增至Adobe Marketing Cloud的「放棄」觸發器時，就會發生此錯誤。
-* 修正從「人員」核心服務匯入觀眾時，技術工作流程可能會清除「目標維度」欄位的問題。 後續查詢無法擷取匯入的觀眾。
+* 修正在Adobe Campaign部署事件觸發器時，可能造成錯誤的問題。 當「30天內回訪的可能性」中繼資料已新增至Adobe Marketing Cloud的「放棄」觸發器時，就會發生此錯誤。
+* 修正從「人員」核心服務匯入觀眾時，技術工作流程可能會清除「目標Dimension」欄位的問題。 後續查詢無法擷取匯入的觀眾。
 * 修正選取選項&#x200B;**[!UICONTROL Share in Adobe Marketing Cloud]**&#x200B;時，工作流程的&#x200B;**[!UICONTROL Save audience]**&#x200B;活動可能會失敗的問題。
 

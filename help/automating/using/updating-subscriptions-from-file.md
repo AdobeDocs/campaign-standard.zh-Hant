@@ -7,10 +7,13 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 context-tags: setOfService,workflow,main
+feature: 工作流程
+role: 資料架構師
+level: 中級
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '421'
 ht-degree: 76%
 
 ---
@@ -49,7 +52,7 @@ ht-degree: 76%
 
    如果您的檔案已使用 &quot;0&quot; 及 &quot;1&quot; 來識別此操作，則不需要重新映射這些值。僅確定在 **[!UICONTROL Column definition]** 索引標籤中將此欄處理為 **Boolean** 或 **Integer**。
 
-* [協調](../../automating/using/reconciliation.md)活動將來自檔案的資料標識為屬於Adobe Campaign資料庫的配置檔案維。 透過 **[!UICONTROL Identification]** 索引標籤，檔案的 **email** 欄位與設定檔資源的 **email** 欄位相符。
+* [協調](../../automating/using/reconciliation.md)活動將檔案中的資料標識為屬於Adobe Campaign資料庫的配置檔案維。 透過 **[!UICONTROL Identification]** 索引標籤，檔案的 **email** 欄位與設定檔資源的 **email** 欄位相符。
 
    ![](assets/subscription_activity_example3.png)
 

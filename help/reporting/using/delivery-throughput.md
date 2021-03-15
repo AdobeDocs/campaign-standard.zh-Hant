@@ -7,11 +7,14 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 context-tags: deliveryThroughputReport,main;campaignThroughputReport,main;programThroughputReport,main
+feature: 報告
+role: 領導者
+level: 中級
 translation-type: tm+mt
-source-git-commit: 0f057375e5cd63605af460f08cd39bed00435184
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 4%
+source-wordcount: '85'
+ht-degree: 5%
 
 ---
 
@@ -27,4 +30,4 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->**[!UICONTROL Delivery throughput]**&#x200B;頁面顯示從Campaign傳送至Adobe Campaign Enhanced MTA（訊息傳送代理）訊息的中繼處理速度。
+>**[!UICONTROL Delivery throughput]**&#x200B;頁顯示從Campaign到Adobe Campaign增強型MTA（消息傳輸代理）的消息中繼的吞吐量速度。

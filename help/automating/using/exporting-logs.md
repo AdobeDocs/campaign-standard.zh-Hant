@@ -6,10 +6,13 @@ description: 記錄資料，不論是與傳送或訂閱相關，都可透過簡�
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
+feature: 工作流程
+role: 資料架構師
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '601'
 ht-degree: 14%
 
 ---
@@ -68,7 +71,7 @@ ht-degree: 14%
 
 1. 新增&#x200B;**[!UICONTROL Transfer file]**&#x200B;活動，並設定它將新建立的檔案從Adobe Campaign伺服器傳輸至您可存取的其他位置，例如SFTP伺服器。
 
-   * 在&#x200B;**[!UICONTROL General]**&#x200B;標籤中，選擇&#x200B;**[!UICONTROL File upload]**，因為目的是將檔案從Adobe Campaign傳送至其他伺服器。
+   * 在&#x200B;**[!UICONTROL General]**&#x200B;標籤中，選擇&#x200B;**[!UICONTROL File upload]** ，因為目的是將檔案從Adobe Campaign發送到另一台伺服器。
    * 在&#x200B;**[!UICONTROL Protocol]**&#x200B;標籤中，指定傳輸參數並選擇要使用的[外部帳戶](../../administration/using/external-accounts.md#creating-an-external-account)。
 
 1. 新增&#x200B;**[!UICONTROL End]**&#x200B;活動，以確保活動正確結束並儲存您的工作流程。

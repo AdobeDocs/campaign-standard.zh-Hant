@@ -6,10 +6,13 @@ description: 根據不同的資源狀態來發現其發佈狀態。
 audience: developing
 content-type: reference
 topic-tags: about-custom-resources
+feature: 資料模型
+role: 開發人員
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '227'
 ht-degree: 1%
 
 ---

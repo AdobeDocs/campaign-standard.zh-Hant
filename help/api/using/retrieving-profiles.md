@@ -6,10 +6,13 @@ description: 進一步瞭解如何使用API擷取描述檔。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: 資料工程師
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: da0aa6c111f3e44bb502c1e5c4ad7feff9108d81
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '233'
 ht-degree: 5%
 
 ---
@@ -21,13 +24,13 @@ ht-degree: 5%
 
 然後，您可以使用篩選器、排序和編頁來調整搜尋。 有關詳細資訊，請參閱[ Additional operations](../../api/using/sorting.md)一節。
 
-此外，Campaign Standard API可讓您根據下列其中一個欄位來搜尋描述檔：電子郵件、名字、姓氏或任何自訂欄位。 如需詳細資訊，請參閱[本章節](#searching-field)。
+此外，Campaign StandardAPI可讓您根據下列其中一個欄位來搜尋描述檔：電子郵件、名字、姓氏或任何自訂欄位。 如需詳細資訊，請參閱[本章節](#searching-field)。
 
 <br/>
 
 ***請求範例***
 
-* 擷取所有描述檔的範例GET要求。
+* 擷取所有描述檔的範例GET請求。
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \

@@ -4,10 +4,13 @@ description: 瞭解如何設定Campaign-Dynamics整合應用程式
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
+feature: Microsoft CRM整合
+role: 資料架構師
+level: 中級
 translation-type: tm+mt
-source-git-commit: efa30d7ed4a0caf929da6f485681078318849cda
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '801'
 ht-degree: 2%
 
 ---
@@ -17,7 +20,7 @@ ht-degree: 2%
 
 ## 新增認證至整合應用程式
 
-**[!UICONTROL Settings]**&#x200B;螢幕可讓您指定Microsoft Dynamics 365和Adobe API憑證。 您也可以設定與Adobe Campaign SFTP例項相關的設定。
+**[!UICONTROL Settings]**&#x200B;螢幕可讓您指定Microsoft Dynamics 365和AdobeAPI憑證。 您也可以設定與Adobe CampaignSFTP例項相關的設定。
 
 ### Microsoft Dynamics 365認證
 
@@ -33,11 +36,11 @@ Microsoft Dynamics 365憑證可授予整合應用程式從Microsoft Dynamics 365
 
 * **[!UICONTROL URL]**:網址的格式為「https://&lt;servername>.api.crm.dynamics.com/」
 
-### Adobe API認證
+### AdobeAPI認證
 
-Adobe Campaign認證是使用[Adobe I/O](https://www.adobe.io/)產生。 您必須造訪畫面[「設定Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md)」，然後依照指示進行，才能填寫本節的輸入。
+使用[Adobe I/O](https://www.adobe.io/)生成Adobe Campaign證書。 您需要瀏覽畫面[設定Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md)，然後依照指示進行，才能填寫本節的輸入。
 
-下圖將詳細說明Adobe I/O與設定畫面輸入之間的對應。
+下圖將詳細說明Adobe I/O和設定畫面輸入之間的對應。
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-adobeio.png)
 
@@ -45,11 +48,11 @@ Adobe Campaign認證是使用[Adobe I/O](https://www.adobe.io/)產生。 您必�
 
 * *URL*:此值將符合模式https\://mc.adobe.io/&lt;campaign-instance-name>。整合應用程式的頁首包含「組織」和「例項」。 URL的「campaign-instance-name」部分只是在此例項值中找到的名稱。
 
-## Adobe Campaign SFTP設定{#ac-smtp-settings}
+## Adobe CampaignSFTP設定{#ac-smtp-settings}
 
-這些設定是選擇性的。 如果您打算使用Adobe Campaign SFTP例項從連接器輸出記錄檔，則需要定義它們。 如果您在整合執行時遇到問題，而且需要除錯輸出為何不符合您的期望，這將很有幫助。
+這些設定是選擇性的。 如果您打算使用Adobe CampaignSFTP例項從連接器輸出記錄檔，則需要定義它們。 如果您在整合執行時遇到問題，而且需要除錯輸出為何不符合您的期望，這將很有幫助。
 
-設定SFTP伺服器的另一個原因是，如果您打算執行選擇加入／退出工作流程，而且有資料從Adobe Campaign流向Microsoft Dynamics 365（**[!UICONTROL Unidirectional (Campaign to Microsoft Dynamics 365)]**&#x200B;或&#x200B;**[!UICONTROL Bidirectional]**）。
+如果您計畫執行選擇加入／退出工作流程，而且有資料從Adobe Campaign流到Microsoft Dynamics 365（**[!UICONTROL Unidirectional (Campaign to Microsoft Dynamics 365)]**&#x200B;或&#x200B;**[!UICONTROL Bidirectional]**），則設定SFTP伺服器的另一個原因是。
 
 >[!IMPORTANT]
 >
@@ -68,11 +71,11 @@ Adobe Campaign認證是使用[Adobe I/O](https://www.adobe.io/)產生。 您必�
 
 * **SFTP金鑰**:如果您有SSH密鑰，請將其添加到此處。否則，請參閱[本節](#ac-control-panel-settings)。
 
-* 您的Adobe Campaign SFTP設定中需要包含&#x200B;**IP範圍**。 必須允許列出這些項目，以便整合使用SFTP端點。
+* **IP範圍**&#x200B;必須包含在您的Adobe CampaignSFTP配置中。 必須允許列出這些項目，以便整合使用SFTP端點。
 
-* **您要將記錄檔匯出至您的Adobe Campaign SFTP嗎？** 允許您確定整合是否將日誌資訊輸出到SFTP端點。如果Adobe Campaign或Microsoft Dynamics 365未顯示您預期的資訊，此功能可用於協助除錯。
+* **是否要將日誌導出到您的Adobe CampaignSFTP?** 允許您確定整合是否將日誌資訊輸出到SFTP端點。如果Adobe Campaign或Microsoft Dynamics 365未顯示您預期的資訊，則此選項可用於協助除錯。
 
-## Adobe Campaign {#ac-control-panel-settings}中的SFTP設定
+## Adobe Campaign{#ac-control-panel-settings}中的SFTP設定
 
 在下列區段中探索使用[促銷活動控制面板](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hant)進行SFTP管理：
 
@@ -88,4 +91,4 @@ Adobe Campaign認證是使用[Adobe I/O](https://www.adobe.io/)產生。 您必�
 
 完成配置後，使用私鑰登錄到SFTP伺服器並建立目錄&quot;d365_loads/exports&quot;。
 
-[請造訪本](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=en#sftp-management) 頁，以取得有關Adobe Campaign Standard SFTP伺服器的資訊。
+[請造訪本](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=en#sftp-management) 頁，以取得有關Adobe Campaign StandardSFTP伺服器的資訊。

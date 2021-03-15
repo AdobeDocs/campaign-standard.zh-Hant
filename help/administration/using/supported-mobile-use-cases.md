@@ -1,16 +1,19 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 使用Adobe Experience Platform SDK支援的Adobe Campaign Standard行動使用案例
+title: 使用Adobe Campaign StandardSDK支援的行動使用案例
 description: 本檔案提供如何支援行動使用案例的資訊。
 audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
+feature: 例項設定
+role: 管理員
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '957'
 ht-degree: 0%
 
 ---
@@ -20,7 +23,7 @@ ht-degree: 0%
 
 在本頁中，您將會找到[!DNL Adobe Campaign Standard]中使用[!DNL Adobe Experience Platform SDKs]支援的每個行動使用案例清單。 請注意，支援這些使用案例需要安裝和設定[!DNL Adobe Experience Platform SDKs]、[!DNL Adobe Experience Platform Launch]和[!DNL Adobe Campaign Standard]。 有關此問題的詳細資訊，請參閱此[頁](../../administration/using/configuring-a-mobile-application.md)。
 
-Adobe Campaign Standard支援下列使用案例：
+Adobe Campaign Standard支援以下使用案例：
 
 * [在Campaign Standard中註冊行動設定檔](../../administration/using/supported-mobile-use-cases.md#register-mobile-profile)
 * [傳送推播Token至Campaign Standard](../../administration/using/supported-mobile-use-cases.md#send-push-token)
@@ -32,11 +35,11 @@ Adobe Campaign Standard支援下列使用案例：
 
 若要設定這些使用案例，您需要[!DNL Experience Platform Launch]的下列擴充功能：
 
-* **[!DNL Adobe Campaign Standard]** <br>若要安裝及設定Campaign Standard擴充功能，請參 [閱Experience Platform Launch中的Configure the Campaign Standard擴充功能](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#configure-the-campaign-standard-extension-in-experience-platform-launch)。
+* **[!DNL Adobe Campaign Standard]** <br>要安裝和配置Campaign Standard擴展，請參 [閱在Experience Platform Launch中配置Campaign Standard擴展](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#configure-the-campaign-standard-extension-in-experience-platform-launch)。
 * **[!DNL Mobile Core]**，會自動安裝。<br>如需行動核心擴充功能的詳細資訊，請參閱 [行動核心](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core)。
 * **[!DNL Profile]**，會自動安裝。<br>如需描述檔擴充功能的詳細資訊，請參閱 [描述檔](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/profile)。
 
-## 在Campaign Standard中註冊行動設定檔{#register-mobile-profile}
+## 在{#register-mobile-profile}Campaign Standard中註冊行動設定檔
 
 ### 使用iOS {#register-mobile-profile-ios}
 
@@ -109,7 +112,7 @@ public void onResume() {
  }
 ```
 
-## 傳送推播Token至Adobe Campaign Standard {#send-push-token}
+## 傳送推播Token至Adobe Campaign Standard{#send-push-token}
 
 ### 使用iOS {#send-push-token-ios}
 
@@ -180,7 +183,7 @@ MobileCore.collectPii(data);
 
 >[!NOTE]
 >
->Adobe Campaign不會區分自訂資料或行動應用程式的生命週期資料。 這兩種資料都可以使用collectPii回傳規則，以回應行動應用程式中的事件，傳送至伺服器。
+>Adobe Campaign不會將自訂資料或生命週期資料與行動應用程式區分開來。 這兩種資料都可以使用collectPii回傳規則，以回應行動應用程式中的事件，傳送至伺服器。
 
 ### 使用iOS {#enrich-mobile-profile-lifecycle-ios}
 
@@ -343,7 +346,7 @@ ACPCampaign.resetLinkageFields(linkageFields)
 
 ### 使用Android {#linkage-fields-inapp-android}
 
-若要設定連結欄位，以針對以Android中應用程式內訊息為基礎的描述檔範本進行其他驗證，必須具備下列Experience Platform SDK:
+若要設定連結欄位，以針對以Android中應用程式內訊息為基礎的描述檔範本進行其他驗證，必須具備下列Experience PlatformSDK:
 
 * 設定連結欄位<br>有關詳細資訊，請參閱[設定連結欄位](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference#set-linkage-fields)。
 * 重設連結欄位<br>有關詳細資訊，請參閱[重設連結欄位](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference#reset-linkage-fields)。

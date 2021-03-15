@@ -6,10 +6,13 @@ description: 瞭解如何使用API管理CCPA選擇退出
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: 資料工程師
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '152'
 ht-degree: 4%
 
 ---
@@ -34,7 +37,7 @@ ht-degree: 4%
 
 ***請求範例***
 
-* 擷取描述檔CCPA退出狀態的範例GET要求。
+* 擷取描述檔CCPA退出狀態的範例GET請求。
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \
@@ -44,7 +47,7 @@ ht-degree: 4%
    -H 'Content-Type: application/json;charset=utf-8'
    ```
 
-   回應GET要求。
+   回應GET請求。
 
    ```
    {
@@ -56,7 +59,7 @@ ht-degree: 4%
    }
    ```
 
-* 標示CCPA退出描述檔的POST要求範例。
+* 標示CCPA選擇退出描述檔的POST請求範例。
 
    ```
    -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/ \
@@ -73,7 +76,7 @@ ht-degree: 4%
    -d }'
    ```
 
-   回應GET要求。
+   回應GET請求。
 
    ```
    {
@@ -86,7 +89,7 @@ ht-degree: 4%
    }
    ```
 
-* 更新CCPA選擇退出配置檔案的PATCH請求示例。
+* 更新CCPA選擇退出描述檔的PATCH請求範例。
 
    ```
    -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \
@@ -100,7 +103,7 @@ ht-degree: 4%
    -d }'
    ```
 
-   回應GET要求。
+   回應GET請求。
 
    ```
    {

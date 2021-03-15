@@ -6,11 +6,14 @@ description: 本節詳細說明如何使用外部參數呼叫工作流程。
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
+feature: 工作流程
+role: 資料架構師
+level: 中級
 translation-type: tm+mt
-source-git-commit: 05b6a9caebdd65f20357070af8bd44cb8ba146c7
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 2%
+source-wordcount: '190'
+ht-degree: 3%
 
 ---
 

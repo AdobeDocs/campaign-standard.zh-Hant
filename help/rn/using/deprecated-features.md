@@ -6,11 +6,14 @@ description: 本頁列出 Adobe Campaign Standard 已過時和已移除的功能
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
+feature: 概觀
+role: 業務從業人員
+level: 初學者
 translation-type: tm+mt
-source-git-commit: becaf20fefb6fce05db0824baa69670f810966dc
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '734'
-ht-degree: 80%
+source-wordcount: '738'
+ht-degree: 79%
 
 ---
 
@@ -64,7 +67,7 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
   <tr> 
    <td> <p> 從Campaign 20.1版開始，SDK v4已過時。 <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">進一步瞭解</a>。</p><br/>
    <p>Adobe <a href="https://aep-sdks.gitbook.io/docs/">Experience Platform Mobile SDK</a>（先前稱為 v5）將獨家支援即將推出的 Adobe Experience Cloud 功能。</p>
-   <p>在本頁</a>中，瞭解如何從SDK v4移轉至Adobe Experience Platform Mobile SDK <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">。</a></p></br>
+   <p>在本頁</a>中，瞭解如何從SDK v4移轉至Adobe Experience Platform行動SDK <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">。</a></p></br>
      <p>
      <em>目標刪除日期：2021年8月31日</em></p>
      </td> 

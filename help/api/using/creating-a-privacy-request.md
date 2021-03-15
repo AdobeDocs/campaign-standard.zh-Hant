@@ -6,11 +6,14 @@ description: 瞭解如何使用API建立隱私權要求
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: 資料工程師
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 6%
+source-wordcount: '214'
+ht-degree: 7%
 
 ---
 
@@ -19,7 +22,7 @@ ht-degree: 6%
 
 >[!CAUTION]
 >
->[隱私核心服務](https://adobe.io/apis/cloudplatform/gdpr.html)整合是您應用於所有存取和刪除請求的方法。 從19.4開始，已不再使用促銷活動API和介面來存取和刪除請求。 有關Campaign Standard已過時和已移除功能的詳細資訊，請參閱[本頁](../../rn/using/deprecated-features.md)。
+>[隱私核心服務](https://adobe.io/apis/cloudplatform/gdpr.html)整合是您應用於所有存取和刪除請求的方法。 從19.4開始，已不再使用促銷活動API和介面來存取和刪除請求。 有關Campaign Standard已過時和已刪除功能的詳細資訊，請參閱[此頁](../../rn/using/deprecated-features.md)。
 
 隱私權請求是使用&#x200B;**POST**&#x200B;請求建立的。
 
@@ -28,17 +31,17 @@ ht-degree: 6%
 裝載必須包含下列參數：
 
 * **名稱**:唯一的內部名稱
-* **namespace**:在Campaign Standard介面中設定的命名空間名稱
+* **namespace**:在Campaign Standard介面中配置的命名空間名稱
 * **reconsibilityValue**:基於命名空間中定義的協調鍵的協調值
 * **標籤**:請求標籤
 * **類型**:請求類型。接受的值是「存取」或「刪除」。
-* **規章**:監管類型。範例：「GDPR」、「CCPA」。 此參數為必要參數，且可從Campaign Standard 19.4版開始使用。 如果您使用舊版軟體，則不需要將它新增至裝載。
+* **規章**:監管類型。範例：「GDPR」、「CCPA」。 此參數為必需參數，可從Campaign Standard19.4版開始使用。 如果您使用舊版軟體，則不需要將它新增至裝載。
 
 <br/>
 
 ***請求範例***
 
-此POST要求會根據命名空間AMCDS2中定義的電子郵件協調金鑰，建立隱私權要求：
+此POST請求會根據命名空間AMCDS2中定義的電子郵件協調金鑰，建立隱私權請求：
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool \

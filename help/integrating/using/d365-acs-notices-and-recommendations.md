@@ -6,10 +6,13 @@ description: 瞭解Campaign Standard和Microsoft Dynamics 365如何管理常見�
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
+feature: Microsoft CRM整合
+role: 資料架構師
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: cce30fd5cd3d5d63563d1dab3bb1e7554c26fb3e
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '2467'
+source-wordcount: '2473'
 ht-degree: 1%
 
 ---
@@ -19,21 +22,21 @@ ht-degree: 1%
 
 ## 管理資料{#acs-msdyn-manage-data}
 
-對於聯絡人和自訂實體同步，此整合將&#x200B;**Microsoft Dynamics 365視為真相來源**。  同步化屬性的任何變更應在Dynamics 365中進行，而不是在Adobe Campaign Standard中進行)。  如果在促銷活動中進行變更，則在同步期間，這些變更最終會在促銷活動中被覆寫，因為同步是單向的。
+對於聯絡人和自訂實體同步，此整合將&#x200B;**Microsoft Dynamics 365視為真相來源**。  對同步屬性所做的任何變更都應在Dynamics 365中進行，而不是在Adobe Campaign Standard)。  如果在促銷活動中進行變更，則在同步期間，這些變更最終會在促銷活動中被覆寫，因為同步是單向的。
 
 此整合可選擇性地設定為在Dynamics 365中刪除連絡人時，向促銷活動發出描述檔刪除呼叫，以協助維持資料的完整性。 不過，描述檔刪除與隱私權刪除不同。 促銷活動中的隱私權刪除會移除促銷活動描述檔記錄和相關記錄項目；但是，定期刪除描述檔只會刪除促銷活動描述檔記錄，而保留在促銷活動記錄中。 如果整合中啟用了描述檔刪除功能，則需要執行其他步驟，才能正確處理資料主體的隱私權要求。 請參閱[隱私權一節中的步驟](#manage-privacy-requests)。
 
 ## 隱私權{#acs-msdyn-manage-privacy}
 
-此整合旨在在Microsoft Dynamics 365和Adobe Campaign Standard之間傳輸使用者資料。 如果您的使用者資料中包含此資料，則此資料會包含個人資訊。  身為資料掌控者，貴公司有責任遵守任何適用於您收集和使用個人資料的隱私權法律和法規。
+此整合可在Microsoft Dynamics 365和Adobe Campaign Standard之間傳輸使用者資料。 如果您的使用者資料中包含此資料，則此資料會包含個人資訊。  身為資料掌控者，貴公司有責任遵守任何適用於您收集和使用個人資料的隱私權法律和法規。
 
-此整合旨在在Microsoft Dynamics 365和Adobe Campaign Standard之間傳輸使用者資料(包括但不限於個人資訊（若您的使用者資料中包含）。 身為資料掌控者，貴公司有責任遵守任何適用於您收集和使用個人資料的隱私權法律和法規。
+此整合旨在在Microsoft Dynamics 365和Adobe Campaign Standard之間傳輸一般使用者資料(包括但不限於個人資訊（如果資訊包含在您的使用者資料中）。 身為資料掌控者，貴公司有責任遵守任何適用於您收集和使用個人資料的隱私權法律和法規。
 
-此整合不會發佈任何資料主體隱私權（例如GDPR），刪除或處理任何其他隱私權要求（選擇退出除外）。 在處理隱私權要求時，您應該在Microsoft Dynamics 365和Campaign（透過Adobe Experience Platform隱私權服務）中單獨執行。
+此整合不會發佈任何資料主體隱私權（例如GDPR），刪除或處理任何其他隱私權要求（選擇退出除外）。 在處理隱私權要求時，您應該在Microsoft Dynamics 365和Campaign(透過Adobe Experience Platform Privacy Service)中單獨執行。
 
 如果您已設定整合，在Dynamics 365中刪除連絡人時，對促銷活動發出定期的描述檔刪除呼叫，請遵循下列步驟。 確保在此過程中未對相關記錄進行更新。
 
-1. 向[Adobe Experience Platform Privacy Service](https://www.adobe.io/apis/experiencecloud/gdpr.html)發出隱私權刪除要求
+1. 向[Adobe Experience Platform Privacy Service](https://www.adobe.io/apis/experiencecloud/gdpr.html)發出隱私刪除請求
 
 1. 監控請求，直到成功完成
 
@@ -69,9 +72,9 @@ ht-degree: 1%
 
 在布建整合時，您將有機會指定您的企業需要何種退出設定：
 
-* **單向(Microsoft Dynamics 365 to Campaign)**:Dynamics 365是退出的真相。退出屬性將會在從Dynamics 365到Campaign Standard的一個方向上同步
-* **單向（促銷活動至Microsoft Dynamics 365）**:「促銷活動標準」是退出的真相來源。退出屬性將會在從Campaign Standard到Dynamics 365的一個方向上同步
-* **雙向**:Dynamics 365 AND Campaign Standard是真相的來源。退出屬性將在Campaign Standard和Dynamics 365之間雙向同步
+* **單向(Microsoft Dynamics 365 to Campaign)**:Dynamics 365是退出的真相。退出屬性將在從Dynamics 365到Campaign Standard的一個方向上同步
+* **單向（促銷活動至Microsoft Dynamics 365）**:Campaign Standard是退出的真相來源。退出屬性將在從Campaign Standard到動態365的一個方向上同步
+* **雙向**:動態365和Campaign Standard都是真相來源。選擇退出屬性將在Campaign Standard和Dynamics 365之間雙向同步
 
 或者，如果您有個別的程式來管理系統之間的退出同步，則可停用整合的退出資料流。
 
@@ -81,13 +84,13 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->請檢閱並視需要更新Adobe Campaign中的預設和特定類型規則，然後再在此處進行變更，以確保這些變更正確套用至所有傳出的通訊。 例如，請確定任何對應至選擇退出偏好設定的對應，都能準確反映收件者的意圖／通訊選擇，且不會不慎中斷傳送關係或交易訊息，例如客戶訂單確認。
+>請先檢閱並視情況更新Adobe Campaign的預設及特定類型規則，再在此進行變更，以確保這些變更正確套用至所有傳出通訊。 例如，請確定任何對應至選擇退出偏好設定的對應，都能準確反映收件者的意圖／通訊選擇，且不會不慎中斷傳送關係或交易訊息，例如客戶訂單確認。
 
 如果您選取「**雙向**&#x200B;或&#x200B;**單向（促銷活動至Microsoft Dynamics 365）**&#x200B;選擇退出設定」，促銷活動選擇退出資料將會透過工作流程定期匯出至您的促銷活動SFTP儲存區（請參閱下方的促銷活動SFTP使用情形）。 如果您的促銷活動選擇退出工作流程停止執行，您需要盡快手動重新啟動，以降低錯過選擇退出同步的可能性。
 
 >[!IMPORTANT]
 >
->如果您需要&#x200B;**Bidirectional**&#x200B;或&#x200B;**單向(Campaign to Microsoft Dynamics 365)**&#x200B;選擇退出設定，則需要向Adobe技術聯絡人提出要求，以便在您的促銷活動實例上設定選擇退出工作流程
+>如果您需要&#x200B;**Bidironical**&#x200B;或&#x200B;**單向(Campaign to Microsoft Dynamics 365)**&#x200B;選擇退出設定，您必須向Adobe技術聯絡人提出要求，以便在促銷活動例項上設定選擇退出工作流程
 
 ## 促銷活動SFTP使用
 
@@ -131,11 +134,11 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->您的特定動作（例如初始錄入記錄、重新播放記錄資料等） 可能導致大量記錄從Microsoft Dynamics 365擷取至您的Adobe Campaign實例。 為降低效能問題的風險，建議您停止所有促銷活動程式（例如，無行銷活動、無工作流程執行等） 直到大量記錄已收錄到促銷活動中為止。
+>您的特定動作（例如初始錄入記錄、重新播放記錄資料等） 可能會導致大量記錄從Microsoft Dynamics 365擷取到您的Adobe Campaign實例。 為降低效能問題的風險，建議您停止所有促銷活動程式（例如，無行銷活動、無工作流程執行等） 直到大量記錄已收錄到促銷活動中為止。
 
 ### 自訂實體
 
-[Microsoft Dynamics 365-Adobe Campaign Standard整合](../../integrating/using/d365-acs-get-started.md)支援自訂實體，讓Dynamics 365中的自訂實體與Campaign中的對應自訂資源同步。
+[Microsoft Dynamics 365-Adobe Campaign Standard整合](../../integrating/using/d365-acs-get-started.md)支援自訂實體，讓Dynamics 365中的自訂實體與促銷活動中對應的自訂資源同步。
 
 整合支援連結和非連結的表格。
 
@@ -181,7 +184,7 @@ ht-degree: 1%
 
 * 如果您選擇保留促銷活動自訂實體中的現有資料，則需要準備整合的資料。
 
-* Adobe和客戶之間可能需要建立入門維護視窗。
+* 上線維護窗口可能需要在Adobe和客戶之間建立。
 
 * 請注意，整合的使用量大幅增加或「尖峰」（例如，新記錄或更新記錄的大幅增加）可能會造成資料同步的緩慢。
 
@@ -193,7 +196,7 @@ ht-degree: 1%
 
 此整合旨在解決Microsoft Dynamics 365和Campaign之間常見資料移動的一般使用案例，但並非要解決每個客戶的特定使用案例：
 
-* 整合不會發佈任何隱私權（例如GDPR）刪除。 滿足最終用戶隱私要求的責任由客戶負責；此類要求應分別在Campaign（透過Adobe Experience Platform Privacy Service）和Dynamics 365中提出。 如有需要，整合會定期執行刪除，以協助進行資料同步。   請參閱[隱私權區段](#manage-privacy-requests)以取得詳細資訊。
+* 整合不會發佈任何隱私權（例如GDPR）刪除。 滿足最終用戶隱私要求的責任由客戶負責；此類要求應分別在Campaign(透過Adobe Experience Platform Privacy Service)和Dynamics 365中提出。 如有需要，整合會定期執行刪除，以協助進行資料同步。   請參閱[隱私權區段](#manage-privacy-requests)以取得詳細資訊。
 
 * 促銷活動與Dynamics 365之間不會同步任何描述檔或自訂實體資料，但退出資訊除外（如果客戶已設定）。
 
@@ -201,4 +204,4 @@ ht-degree: 1%
 
 * 不支援從Dynamics 365內撰寫和觸發促銷活動電子郵件促銷活動。
 
-* 整合&#x200B;**not**&#x200B;支援在Dynamics 365和Campaign Standard資料模型之間重新建立資料。 預計整合將會將一個Dynamics 365表格同步至一個Campaign表格。
+* 整合&#x200B;**not**&#x200B;支援在Dynamics 365和Campaign Standard資料模型之間重構資料。 預計整合將會將一個Dynamics 365表格同步至一個Campaign表格。

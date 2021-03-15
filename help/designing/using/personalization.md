@@ -6,10 +6,13 @@ description: 瞭解如何在電子郵件設計人員中個人化電子郵件。
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
+feature: 電子郵件設計
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '2573'
+source-wordcount: '2578'
 ht-degree: 3%
 
 ---
@@ -17,7 +20,7 @@ ht-degree: 3%
 
 # 個人化電子郵件內容 {#personalization}
 
-Adobe Campaign傳遞的訊息內容和顯示方式可透過多種不同方式個人化。 這些方式可根據條件結合，視描述檔而定。 一般而言，Adobe Campaign 允許您：
+Adobe Campaign傳遞的資訊內容和顯示可以通過幾種不同的方式實現個性化。 這些方式可根據條件結合，視描述檔而定。 一般而言，Adobe Campaign 允許您：
 
 * 插入動態的個人化欄位。請參閱[插入個人化欄位](#inserting-a-personalization-field)。
 * 插入預先定義的個人化區塊。 請參閱[新增內容區塊](#adding-a-content-block)。
@@ -39,7 +42,7 @@ Adobe Campaign傳遞的訊息內容和顯示方式可透過多種不同方式個
 
 ## 個人化URL{#personalizing-urls}
 
-Adobe Campaign可讓您新增個人化欄位、內容區塊或動態內容，以個人化訊息中的一或多個URL。 操作步驟：
+Adobe Campaign可讓您在訊息中新增個人化欄位、內容區塊或動態內容，以個人化一或多個URL。 操作步驟：
 
 1. 插入外部URL並指定其參數。 請參閱[插入連結](../../designing/using/links.md#inserting-a-link)。
 1. 如果未顯示，請按一下「設定」窗格中選取之URL旁的鉛筆，以存取個人化選項。
@@ -55,7 +58,7 @@ Adobe Campaign可讓您新增個人化欄位、內容區塊或動態內容，以
 
 ## 插入個人化欄位{#inserting-a-personalization-field}
 
-Adobe Campaign可讓您將資料庫中的欄位插入頁面，例如描述檔的名字。
+Adobe Campaign允許您將資料庫中的欄位插入頁面，如配置檔案的名字。
 
 >[!NOTE]
 >
@@ -181,7 +184,7 @@ Adobe Campaign提供預先設定的內容區塊清單。 這些內容區塊是�
 
 ## 個人化影像來源{#personalizing-an-image-source}
 
-Adobe Campaign可讓您根據特定標準或使用追蹤，個人化訊息中的一或多張影像。 這是透過將個人化欄位、內容區塊或動態內容插入影像來源來完成的。 操作步驟：
+Adobe Campaign允許您根據特定標準或使用追蹤來個人化訊息中的一或多張影像。 這是透過將個人化欄位、內容區塊或動態內容插入影像來源來完成的。 操作步驟：
 
 1. 將影像插入訊息內容，或選取已存在的影像。
 1. 在影像屬性浮動視窗中，勾選&#x200B;**[!UICONTROL Enable personalization]**&#x200B;選項。

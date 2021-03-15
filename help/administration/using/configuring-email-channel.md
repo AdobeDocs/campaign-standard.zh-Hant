@@ -7,10 +7,13 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;delivery,properties,open
+feature: 例項設定
+role: 管理員
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: bdbba06289eef65d9e42b7d82086f8fa14e1473c
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '2564'
+source-wordcount: '2568'
 ht-degree: 77%
 
 ---
@@ -105,7 +108,7 @@ ht-degree: 77%
 
 >[!IMPORTANT]
 >
->同步傳送失敗錯誤訊息現在由Adobe Campaign Enhanced MTA限定，此MTA可決定反彈類型和資格，並將該資訊傳回至Campaign。
+>同步傳送失敗錯誤訊息現在由Adobe Campaign增強型MTA提供資格，此MTA可決定反彈類型和資格，並將該資訊傳回至促銷活動。
 
 有關退信限定的詳細資訊，請參閱[本節](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)。
 
@@ -314,7 +317,7 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 
 [配置菜單](#email-channel-parameters)和[電子郵件屬性的發送參數](#retries-parameters)中的&#x200B;**[!UICONTROL Retries]**&#x200B;設定指示在發送開始後應執行多少次重試(**[!UICONTROL Number of retries]** / **[!UICONTROL Max. number of retries]**)和兩次重試之間的最小延遲(**[!UICONTROL Retry period]**)。
 
-可以全域變更重試次數（連絡您的Adobe技術管理員），或針對每個傳送或傳送範本變更重試次數。
+可全域變更重試次數(請洽詢您的Adobe技術管理員)或每個傳送或傳送範本。
 
 依預設，會為第一天排程5次重試，最低間隔為1小時，分佈在一天的24小時內。 每天一次重試的程式設定在此之後，直到交貨期限為止，交貨期限在&#x200B;**[!UICONTROL Configuration]**&#x200B;菜單的&#x200B;**[!UICONTROL Delivery parameters]**&#x200B;部分或在交貨級別的&#x200B;**[!UICONTROL Validity period]**&#x200B;部分中全局定義（請參見下面的[交貨期間](#legacy-delivery-duration)部分）。
 

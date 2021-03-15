@@ -6,10 +6,14 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
+description: 瞭解如何設計訊息內容並嘗試避免可能導致您無法執行傳送的常見問題。 
+feature: 傳送能力
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: a7300666587362048431d0bafacc317170b317aa
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '930'
 ht-degree: 7%
 
 ---
@@ -21,7 +25,7 @@ ht-degree: 7%
 
 ## 最佳化個人化{#optimize-personalization}
 
-為避免常見問題，避免您無法執行傳送作業，並改善收件者的體驗，Adobe Campaign可讓您個人化您的訊息。
+為避免常見問題，避免您無法執行傳送，並改善收件者的體驗，Adobe Campaign可讓您個人化訊息。
 
 您可以使用儲存在Adobe Campaign資料庫中或透過追蹤、登陸頁面、訂閱等方式收集的收件者資料。
 個人化基本資訊會顯示在[本節](../../designing/using/personalization.md)中。
@@ -134,6 +138,6 @@ ht-degree: 7%
 
 ## 預覽您的訊息{#preview-msg}
 
-Adobe建議預覽您的訊息，以檢查其個人化，以及收件者如何看到您的傳送。
+Adobe建議預覽您的訊息，以檢查其個人化，以及收件者將如何看到您的傳送。
 
 在「電子郵件設計器」中，**[!UICONTROL Preview]**&#x200B;按鈕可讓您檢視收件者的每個內容的轉換。 個性化欄位和內容的條件元素被所選配置檔案的相應資訊替換。 [進一步了解](../../sending/using/previewing-messages.md)

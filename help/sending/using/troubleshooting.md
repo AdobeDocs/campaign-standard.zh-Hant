@@ -1,16 +1,19 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 疑難排解Adobe Campaign Standard中的傳遞能力問題
-description: 瞭解在Adobe Campaign Standard遇到傳遞性問題時，該如何辦事。
+title: 疑難排解Adobe Campaign Standard的交付能力問題
+description: 瞭解在遇到Adobe Campaign Standard的傳遞能力問題時，該怎麼做。
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
+feature: 傳送能力
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '463'
 ht-degree: 1%
 
 ---
@@ -29,7 +32,7 @@ ht-degree: 1%
 * 更新訂閱表單以偵測輸入的網域名稱中的任何錯誤(例如：gmaul.com或yaho.com)。
 * 如果您發現錯誤，指出您的訊息已宣告為垃圾訊息，或您的訊息經常遭到封鎖，請嘗試將過去12個月中未開啟或點按其中一則訊息的收件者排除在目標位置。
 
-如果問題持續存在，請聯絡商業或傳遞性服務，或Adobe Campaign支援。
+如果問題持續存在，請聯絡商業或傳遞性服務或Adobe Campaign支援。
 
 ## Denylist與隔離{#denylist-versus-quarantine}
 

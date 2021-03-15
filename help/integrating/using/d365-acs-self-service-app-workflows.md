@@ -4,10 +4,13 @@ description: 促銷活動與動態整合工作流程
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
+feature: Microsoft CRM整合
+role: 資料架構師
+level: 中級
 translation-type: tm+mt
-source-git-commit: efa30d7ed4a0caf929da6f485681078318849cda
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -22,13 +25,13 @@ ht-degree: 0%
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows.png)
 
 **Microsoft Dynamics 365 to Campaign**
-* 將&#x200B;*連絡人*&#x200B;從Microsoft Dynamics 365傳送至Adobe Campaign
+* 將&#x200B;*contacts*&#x200B;從Microsoft Dynamics 365發送到Adobe Campaign
 * *自訂實體*:將自訂表格從Microsoft Dynamics 365匯入Adobe Campaign。[進一步了解](../../integrating/using/d365-acs-using-the-integration.md#data-flows)
-* 這也稱為&#x200B;**Ingress**（指從Microsoft Dynamics 365傳入Adobe Campaign的資料）
+* 這也稱為&#x200B;**Ingress**(指從Microsoft Dynamics 365傳入至Adobe Campaign的資料)
 
 **Campaign to Microsoft Dynamics 365**
-* 從Adobe Campaign Standard傳送電子郵件行銷活動至Dynamics 365（電子郵件傳送、開啟、按一下、彈回）。 [進一步了解](../../integrating/using/d365-acs-using-the-integration.md#email-marketing-event-flow)
-* 這也稱為&#x200B;**Egress**（指Adobe Campaign到Microsoft Dynamics 365的資料匯出）
+* 來自Adobe Campaign Standard的電子郵件行銷事件會傳送至Dynamics 365（電子郵件傳送、開啟、按一下、彈回數）。 [進一步了解](../../integrating/using/d365-acs-using-the-integration.md#email-marketing-event-flow)
+* 這也稱為&#x200B;**Egress**(指從Adobe Campaign到Microsoft Dynamics 365的資料輸出)
 
 **選擇加入／退出**
 
@@ -36,7 +39,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->強烈建議您先停止&#x200B;**Microsoft Dynamics 365至Campaign**&#x200B;工作流程，再發佈Adobe Campaign Standard或Microsoft Dynamics 365的變更。 這些變更包括對整合目前使用的資源／實體（及其相關欄位）、連結、識別碼欄等的更新。 若無法這麼做，可能導致資料遺失及／或工作流程意外停止。
+>強烈建議您先停止&#x200B;**Microsoft Dynamics 365至Campaign**&#x200B;工作流程，再發佈對Adobe Campaign Standard或Microsoft Dynamics 365的變更。 這些變更包括對整合目前使用的資源／實體（及其相關欄位）、連結、識別碼欄等的更新。 若無法這麼做，可能導致資料遺失及／或工作流程意外停止。
 
 ## 工作流程積壓
 

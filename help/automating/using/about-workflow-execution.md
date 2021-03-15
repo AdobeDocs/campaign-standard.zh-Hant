@@ -7,10 +7,13 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
+feature: 工作流程
+role: 資料架構師
+level: 中級
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '378'
 ht-degree: 8%
 
 ---
@@ -22,7 +25,7 @@ ht-degree: 8%
 
 >[!CAUTION]
 >
-> Adobe建議客戶排定工作流程執行的優先順序，並執行最多20個並行工作流程執行，以一致地在執行個體中達到最佳效能。 可計畫並行執行超過20個工作流，預設情況下將按順序執行。 您可以將票證提交給客戶服務，以調整併發工作流執行的最大數量的預設設定。
+> Adobe建議客戶排定工作流程執行的優先順序，並執行最多20個並行工作流程執行，以一致地在執行個體間達到最佳效能。 可計畫並行執行超過20個工作流，預設情況下將按順序執行。 您可以將票證提交給客戶服務，以調整併發工作流執行的最大數量的預設設定。
 
 執行相關動作（開始、停止、暫停等） are **asynchronous** processes:命令將保存，並在伺服器可用來應用該命令後生效。
 
@@ -50,4 +53,4 @@ ht-degree: 8%
 
 開啟轉場時，您可以編輯其&#x200B;**[!UICONTROL Label]**，或將&#x200B;**[!UICONTROL Segment code]**&#x200B;連結至該轉場。 若要這麼做，請編輯對應的欄位並確認您的修改。
 
-使用Campaign Standard REST API，您可以&#x200B;**start**、**pause**、**resume**&#x200B;和&#x200B;**stop**&#x200B;工作流程。 您可以在[API檔案中找到更多REST呼叫的詳細資訊和範例。](../../api/using/controlling-a-workflow.md)
+使用Campaign StandardREST API，您可以&#x200B;**start**、**pause**、**resume**&#x200B;和&#x200B;**stop**&#x200B;工作流。 您可以在[API檔案中找到更多REST呼叫的詳細資訊和範例。](../../api/using/controlling-a-workflow.md)

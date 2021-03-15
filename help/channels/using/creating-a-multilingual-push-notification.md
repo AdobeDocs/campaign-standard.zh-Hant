@@ -6,10 +6,13 @@ description: 建立多語言推播通知，以使用者慣用的語言和地區�
 audience: channels
 content-type: reference
 topic-tags: push-notifications
+feature: 推播
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '924'
 ht-degree: 3%
 
 ---
@@ -40,13 +43,13 @@ ht-degree: 3%
 >如果要為每個語言變體手動建立變體，也可以跳過此步驟。
 
 1. 在&#x200B;**[!UICONTROL Marketing activities]**&#x200B;中，按一下&#x200B;**[!UICONTROL Create]**&#x200B;按鈕，然後選擇&#x200B;**[!UICONTROL Push notification]**。
-1. 如果您要定位已訂閱您行動應用程式的Adobe Campaign設定檔或範本&#x200B;**[!UICONTROL Send multilingual push to app subscriber]**，以傳送推播通知給選擇從行動應用程式接收通知的所有使用者，請選取範本&#x200B;**[!UICONTROL Send multilingual push to Campaign profiles]**。
+1. 如果您要定位已訂閱您行動應用程式的Adobe Campaign個人檔案，或是範本&#x200B;**[!UICONTROL Send multilingual push to app subscriber]**，以傳送推播通知給所有選擇接收行動應用程式通知的使用者，請選取範本&#x200B;**[!UICONTROL Send multilingual push to Campaign profiles]**。
 
    ![](assets/multivariant_push_2.png)
 
 1. 輸入您的推播通知屬性，並在&#x200B;**[!UICONTROL Associate a Mobile App to a delivery]**&#x200B;欄位中選取您的行動應用程式。
 
-   請注意，下拉式清單將同時顯示SDK V4和Adobe Experience Platform SDK應用程式。
+   請注意，下拉式清單將同時顯示SDK V4和Adobe Experience PlatformSDK應用程式。
 
 1. 在&#x200B;**[!UICONTROL Audiences]**&#x200B;視窗中，拖放查詢以微調您的觀眾。
 

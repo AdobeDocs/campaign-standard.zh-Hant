@@ -2,16 +2,19 @@
 solution: Campaign Standard
 product: campaign
 title: 在外部檔案中匯出設定檔
-description: 此使用案例說明如何匯出外部檔案格式的描述檔清單，以便在Adobe Campaign外部使用資料。
+description: 此使用案例說明如何以外部檔案的形式匯出描述檔清單，以便在Adobe Campaign以外使用資料。
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
 context-tags: fileExport,main
+feature: 工作流程
+role: 資料架構師
+level: 中級
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 68%
+source-wordcount: '231'
+ht-degree: 67%
 
 ---
 

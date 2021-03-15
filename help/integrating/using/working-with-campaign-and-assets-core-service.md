@@ -2,24 +2,27 @@
 solution: Campaign Standard
 product: campaign
 title: 協作使用 Campaign 與 Assets 核心服務
-description: 透過資產核心服務整合，在您的Adobe Campaign訊息和登陸頁面中使用Adobe Experience Cloud內共用的任何資源。
+description: 透過Assets核心服務整合，在您的Adobe Campaign訊息和登陸頁面中使用Adobe Experience Cloud內共用的任何資源。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-assets-core-service
+feature: 人員核心服務整合
+role: 資料架構師
+level: 中級
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 10%
+source-wordcount: '164'
+ht-degree: 9%
 
 ---
 
 
 # 協作使用 Campaign 與 Assets 核心服務{#working-with-campaign-and-assets-core-service}
 
-將資產核心服務或隨選資產（視您的Adobe Experience Cloud環境設定而定）與Adobe Campaign整合，可讓您在Adobe Campaign電子郵件和登陸頁面中使用Adobe Experience Cloud內共用的任何資產。
+將Assets核心服務或Assets on Demand(視您的Adobe Experience Cloud環境組態而定)與Adobe Campaign整合，可讓您在Adobe Campaign電子郵件和登陸頁面中使用Adobe Experience Cloud內共用的任何資產。
 
-從Adobe Experience Cloud共用的資源可用於您的電子郵件和登陸頁面。
+從Adobe Experience Cloud分享的資源可用於您的電子郵件和登陸頁面。
 
 1. 編輯電子郵件或著陸頁面的內容時，請前往影像區塊，然後透過內容相關選單選擇&#x200B;**[!UICONTROL Image shared from Adobe Experience Cloud]**。
 

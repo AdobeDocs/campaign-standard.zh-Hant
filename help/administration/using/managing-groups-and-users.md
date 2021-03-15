@@ -7,10 +7,13 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 context-tags: user,overview;user,main;security,overview;security,main
+feature: 存取管理
+role: 管理員
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: ae2b6587d71f0915da05e53bf45c67c7a37a42c8
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '944'
 ht-degree: 88%
 
 ---
@@ -35,9 +38,9 @@ ht-degree: 88%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Access to the deliverability parameters (Deliverability)]**&#x200B;和&#x200B;**[!UICONTROL Message Center agents (mcExec)]**&#x200B;安全性群組僅為Adobe內部群組，不應指派給任何使用者。
+>**[!UICONTROL Access to the deliverability parameters (Deliverability)]**&#x200B;和&#x200B;**[!UICONTROL Message Center agents (mcExec)]**&#x200B;安全組僅Adobe內部，不應分配給任何用戶。
 
-若要能夠存取Adobe Campaign，必須將每位使用者指派給安全性群組。
+要訪問Adobe Campaign，必須將每個用戶分配給安全組。
 
 若要限制使用者的存取權，請勿將使用者新增至 Campaign Standard 使用者群組，因為此使用者連結至 **[!UICONTROL All]** 組織單位。
 
@@ -146,5 +149,5 @@ Administrator 使用者必須建立一組用於指派組織單位的安全性群
 
 >[!IMPORTANT]
 >
->如果使用者從管理控制台的安全性群組中移除，他們將仍是Adobe Campaign安全性群組的一部分，而且將無法再登入Adobe Campaign。 在此情況下，請在 Admin Console 中移除該使用者的電子郵件地址，以防止他們收到敏感資訊。
+>如果用戶從管理控制台中的安全組中刪除，他們將保持Adobe Campaign安全組的一部分，並且無法再登錄Adobe Campaign。 在此情況下，請在 Admin Console 中移除該使用者的電子郵件地址，以防止他們收到敏感資訊。
 

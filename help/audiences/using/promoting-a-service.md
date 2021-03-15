@@ -2,14 +2,17 @@
 solution: Campaign Standard
 product: campaign
 title: 推廣服務
-description: 使用Adobe Campaign透過專屬的登陸頁面、電子郵件或直接在您的網站上推廣服務並吸引客戶。
+description: 使用Adobe Campaign來推廣服務，並透過專屬的登陸頁面、電子郵件或直接在您的網站上吸引客戶。
 audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
+feature: 受眾
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '200'
 ht-degree: 3%
 
 ---

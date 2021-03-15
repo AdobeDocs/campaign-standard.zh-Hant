@@ -6,22 +6,25 @@ description: 瞭解如何設定Microsoft Dynamics 365以進行Campaign整合。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
+feature: Microsoft CRM整合
+role: 資料架構師
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 3ba3e0db816832ea57c124a9bea1fa82cf068859
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '917'
 ht-degree: 1%
 
 ---
 
 
-# 設定Microsoft Dynamics 365，以與Adobe Campaign Standard整合
+# 配置Microsoft Dynamics 365以與Adobe Campaign Standard整合
 
-瞭解如何設定Microsoft Dynamics 365整合，並透過Adobe Campaign Standard的跨通道通訊啟動您的CRM資料。
+瞭解如何設定Microsoft Dynamics 365整合，並啟用您與Adobe Campaign Standard的跨通道通訊的CRM資料。
 
 ## 概觀
 
-本頁[說明與Microsoft Dynamics 365整合的Adobe Campaign Standard的一般說明。](../../integrating/using/d365-acs-get-started.md)
+[本頁](../../integrating/using/d365-acs-get-started.md)介紹了Adobe Campaign Standard與Microsoft Dynamics 365整合的一般說明。
 
 但是，必須設定多個應用程式才能啟用整合，本文將著重於Dynamics 365中所需的步驟。
 
@@ -106,12 +109,12 @@ OAuth存取Token可讓整合工具透過網頁API與您的Microsoft Dynamics 365
    * **[!UICONTROL User Name]** （電子郵件）:adobe_api_`<stage-or-prod>`@`<your-d365-hostname>`&quot;(例如，adobe_api_stage@some-company.crm.dynamics.com)
    * **[!UICONTROL Application ID]**:您在Azure AD中註冊的應用程式ID（此為必要項）
    * 您可以留空&#x200B;**[!UICONTROL Application ID URI]**&#x200B;和&#x200B;**[!UICONTROL Azure AD Object ID]**
-   * **[!UICONTROL Full Name]**:Adobe API  `<stage or prod>`
+   * **[!UICONTROL Full Name]**:AdobeAPI  `<stage or prod>`
    * **[!UICONTROL Email]**:與(或 **[!UICONTROL User Name]** 管理員的電子郵件（如果您願意）相同
 
    如需建立應用程式使用者的詳細資訊，請參閱[本節](https://docs.microsoft.com/en-gb/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user)。
 
-1. 按一下使用者圖示並上傳Adobe Campaign圖示；這是當Dynamics 365中出現新的Adobe事件時，在「時間軸」檢視中顯示的圖示。
+1. 按一下使用者圖示並上傳Adobe Campaign圖示；這是當新Adobe事件出現在Dynamics 365時，在「時間軸」檢視中顯示的圖示。
 
 1. 按一下頂部功能區中的&#x200B;**[!UICONTROL MANAGE ROLES]**&#x200B;開啟用戶角色清單。
 
@@ -123,17 +126,17 @@ OAuth存取Token可讓整合工具透過網頁API與您的Microsoft Dynamics 365
 
 請依照本頁](https://docs.microsoft.com/en-us/onedrive/find-your-office-365-tenant-id)中的指示[尋找您的租用戶ID。  在整合工具的預先整合設定期間，您將需要此ID。
 
-## 安裝Microsoft Dynamics 365的Campaign Standard {#install-appsource-app}
+## 安裝Microsoft Dynamics 365的Campaign Standard{#install-appsource-app}
 
 若要將Dynamics 365應用程式整合至您的Campaign Standard環境，請遵循下列步驟：
 
-1. 導覽至下列連結：[https://appsource.microsoft.com/en-us/marketplace/apps](https://appsource.microsoft.com/en-us/marketplace/apps)並在搜尋列中搜尋&#x200B;_Adobe Campaign for Dynamics 365_。
+1. 導覽至下列連結：[https://appsource.microsoft.com/en-us/marketplace/apps](https://appsource.microsoft.com/en-us/marketplace/apps)並在搜尋列中搜尋&#x200B;_Adobe Campaign的Dynamics 365_。
 或者，您也可以導覽至此[link](https://appsource.microsoft.com/en-us/product/dynamics-365/adobecampaign.re4snj-a4n7-5t6y-a14br-d5d1b?flightCodes=adobesignhide&amp;tab=Overview)。
 1. 請依照指示，為您的Dynamics 365例項安裝應用程式。
 1. 安裝後，導覽至您的Dynamics 365例項，並以管理員身分登入。
 1. 按一下右上角的齒輪表徵圖，然後按一下&#x200B;**[!UICONTROL Advanced Settings]**。 在頂端橫幅中，按一下&#x200B;**[!UICONTROL Settings]**&#x200B;旁的下拉式清單，按一下&#x200B;**[!UICONTROL Process Center]**&#x200B;下方的&#x200B;**[!UICONTROL Processes]**。
 1. 搜索&#x200B;**[!UICONTROL Adobe Campaign Email Bounce]**&#x200B;任務並按一下它。
-1. 在&#x200B;**[!UICONTROL Administration]**&#x200B;標籤上，將擁有者變更為先前建立的Adobe API應用程式使用者，方法是從頂端功能區按一下&#x200B;**[!UICONTROL Actions]**，然後選取&#x200B;**[!UICONTROL Assign to another User]**&#x200B;選項，從下拉式清單中選取&#x200B;**[!UICONTROL Adobe API application user]**。
+1. 在&#x200B;**[!UICONTROL Administration]**&#x200B;標籤中，將擁有者變更為先前建立的AdobeAPI應用程式使用者，方法是從頂端功能區按一下&#x200B;**[!UICONTROL Actions]**，然後選取&#x200B;**[!UICONTROL Assign to another User]**&#x200B;選項，從下拉式清單中選取&#x200B;**[!UICONTROL Adobe API application user]**。
 1. 重新啟動程式。
 1. 對&#x200B;**[!UICONTROL Adobe Campaign Email Click]**&#x200B;任務執行相同操作。
 
@@ -143,5 +146,5 @@ OAuth存取Token可讓整合工具透過網頁API與您的Microsoft Dynamics 365
 
 **相關主題**
 
-* [設定Adobe IO for Microsoft Dynamics 365整](../../integrating/using/d365-acs-configure-adobe-io.md) 合是設定整合的下一步
+* [設定Microsoft Dynamics 365整合的AdobeIO](../../integrating/using/d365-acs-configure-adobe-io.md) 是設定整合的下一步
 * [開始使用自助服務整合應](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) 用程式，其中包含啟動及執行整合的完整步驟清單。

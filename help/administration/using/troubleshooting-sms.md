@@ -6,10 +6,13 @@ description: SMS 疑難排解
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
+feature: 例項設定
+role: 管理員
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 80e4f752a1b9b6c8b0125a502c05c19796e98104
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '2696'
+source-wordcount: '2700'
 ht-degree: 0%
 
 ---
@@ -39,7 +42,7 @@ Adobe Campaign將外部帳戶視為不相關的實體。
 
 * **在任何時候只有一個帳戶處於活動狀態時，問題未出現**
 
-   帳戶之間有衝突。 如前所述，Adobe Campaign會個別處理帳戶，但提供者可能會將其視為單一帳戶。
+   帳戶之間有衝突。 如前所述，Adobe Campaign單獨處理帳戶，但提供商可以將其視為單個帳戶。
 
    * 您在所有帳戶之間使用不同的登入／密碼組合。
 您必須聯絡提供者，以診斷他們可能的衝突。
@@ -48,7 +51,7 @@ Adobe Campaign將外部帳戶視為不相關的實體。
 提供者無法得知`BIND PDU`來自哪個外部帳戶，因此他們會將來自多個帳戶的所有連線視為單一帳戶。 他們可能已隨機將MO和SR路由到兩個帳戶，導致問題。
 如果提供者支援相同登入／密碼組合的多個簡短代碼，您必須詢問他們在`BIND PDU`中放置該簡短代碼的位置。 請注意，此項資訊必須放在`BIND PDU`中，而不是放在`SUBMIT_SM`中，因為`BIND PDU`是唯一可正確傳送MO的地方。
 請參閱上述每種PDU](../../administration/using/sms-protocol.md#information-pdu)中的[資訊部分，瞭解`BIND PDU`中有哪個欄位可用，通常在`address_range`中添加短代碼，但需要提供商的特殊支援。 請與他們聯絡，瞭解他們希望如何個別傳送多個簡短代碼。
-Adobe Campaign支援在同一外部帳戶上處理多個簡短代碼。
+Adobe Campaign支援處理相同外部帳戶的多個簡短代碼。
 
 ## 一般{#external-account-issues}的外部帳戶問題
 
@@ -75,7 +78,7 @@ Adobe Campaign支援在同一外部帳戶上處理多個簡短代碼。
 
 * 檢查網路是否已正確配置，以便能夠與提供者建立TCP連接。
 
-* 要求提供者檢查他們是否已將IP正確新增至Adobe Campaign例項的允許清單。
+* 請要求提供者檢查他們是否將IP正確添加到Adobe Campaign實例的允許清單。
 
 * 檢查&#x200B;**External account**&#x200B;設定。 向提供者詢問欄位的值。
 
@@ -87,11 +90,11 @@ Adobe Campaign支援在同一外部帳戶上處理多個簡短代碼。
 
 如果發生以下任一情況，則將連接視為不穩定：
 
-* 重新啟動MTA將會暫時修正問題。 這表示不穩定的連線會觸發Adobe Campaign Standard的MTA調節，重新啟動MTA會清除調節。 在找到根本原因之前，將再次發生。
+* 重新啟動MTA將會暫時修正問題。 這表示不穩定的連接會觸發Adobe Campaign Standard的MTA調節，重新啟動MTA會清除調節。 在找到根本原因之前，將再次發生。
 
 * 提供程式發送`UNBIND PDU`s。
 
-* `enquire_link` 逾時，不論是在Adobe Campaign或提供者端。在此情況下，您可能會看到`ENQUIRE_LINK_RESP`包含非零錯誤代碼。
+* `enquire_link` 逾時，不論是在Adobe Campaign方面，還是在供應商方面。在此情況下，您可能會看到`ENQUIRE_LINK_RESP`包含非零錯誤代碼。
 
 * 有很多`BIND PDU`s。一天中不應超過幾個，具體取決於連接數。 每小時多於1個BIND PDU應該是警報。
 
@@ -127,7 +130,7 @@ Adobe Campaign支援在同一外部帳戶上處理多個簡短代碼。
 
 * 如果所有這些步驟都能運作，您可以確信問題出在提供方。 他們必須在其平台上進行疑難排解。
 
-* 如果它有效但吞吐量不一致，請嘗試調整發送窗口並降低MT吞吐量。 您需要與提供者合作來調整。 Adobe Campaign可以很快傳送訊息，因此供應商的裝置上可能會發生效能問題。
+* 如果它有效但吞吐量不一致，請嘗試調整發送窗口並降低MT吞吐量。 您需要與提供者合作來調整。 Adobe Campaign可以很快地發送消息，因此供應商的設備上可能出現效能問題。
 
 ## 複製MT（同一條SMS會一行多次發送）{#duplicated-MT}
 
@@ -147,7 +150,7 @@ Adobe Campaign支援在同一外部帳戶上處理多個簡短代碼。
 
 * 檢查`DELIVER_SM PDU`是否來自提供者，且其格式正確。
 
-* 及時以成功的`DELIVER_SM_RESP PDU`檢查Adobe Campaign回覆。 在Adobe Campaign Standard上，這可確保已套用整個處理邏輯，如果不是這種情況，則保證記錄檔中會出現錯誤訊息，告知處理失敗的原因。
+* 及時檢查Adobe Campaign以成功`DELIVER_SM_RESP PDU`回覆。 在Adobe Campaign Standard，這保證整個處理邏輯已經應用，如果不是這種情況，它保證在日誌中出現錯誤消息，說明處理失敗的原因。
 
 如果`DELIVER_SM PDU`未成功確認，則應檢查以下內容：
 
@@ -155,7 +158,7 @@ Adobe Campaign支援在同一外部帳戶上處理多個簡短代碼。
 
 * 檢查`broadLogMsg`表中是否正確設定了錯誤。
 
-* 若為Adobe Campaign Standard，請檢查`broadLog`和`broadLogExec`表格是否已正確同步。
+* 對於Adobe Campaign Standard，檢查`broadLog`和`broadLogExec`表是否正確同步。
 
 如果您修正了所有問題，但某些無效SR仍在提供方的緩衝區中，則可使用&#x200B;**無效ID確認計數**&#x200B;選項跳過這些問題。 這應謹慎使用，並在緩衝區清除後盡快重設為0。
 
@@ -167,7 +170,7 @@ Adobe Campaign支援在同一外部帳戶上處理多個簡短代碼。
 
 * 如果MO(`DELIVER_SM PDU`)未出現在跟蹤中，則問題出在提供方。 他們必須在其平台上進行疑難排解。
 
-* 如果出現`DELIVER_SM PDU`，請檢查Adobe Campaign是否已確認`DELIVER_SM_RESP PDU`成功（代碼0）。 此RESP可保證Adobe Campaign已套用所有處理邏輯（自動回覆和允許／拒絕清單）。 如果不是，請在MTA記錄檔中搜尋錯誤訊息。
+* 如果出現`DELIVER_SM PDU`，請檢查是否由Adobe Campaign確認`DELIVER_SM_RESP PDU`（代碼0）成功。 此RESP保證所有處理邏輯都由Adobe Campaign（自動回覆和允許／拒絕清單）所套用。 如果不是，請在MTA記錄檔中搜尋錯誤訊息。
 
 * 如果已啟用自動回覆，請檢查`SUBMIT_SM`是否已傳送給提供者。 如果不是，則保證會在MTA記錄檔中找到錯誤訊息。
 
@@ -177,17 +180,17 @@ Adobe Campaign支援在同一外部帳戶上處理多個簡短代碼。
 
 * 檢查隔離表和傳送日誌中的電話號碼格式是否完全相同。  如果沒有，請參閱此[部分](../../administration/using/sms-protocol.md#automatic-reply)，如果您對國際電話號碼格式的加號前置詞有問題。
 
-* 查看簡碼。 如果收件者的簡短代碼與外部帳戶中定義的代碼相同，或者是空白代碼（空白=任何簡短代碼），則可能會發生排除。 如果整個Adobe Campaign例項只使用一個簡短代碼，則將所有&#x200B;**short code**&#x200B;欄位保留為空白會比較容易。
+* 查看簡碼。 如果收件者的簡短代碼與外部帳戶中定義的代碼相同，或者是空白代碼（空白=任何簡短代碼），則可能會發生排除。 如果整個Adobe Campaign實例只使用一個短代碼，則更容易將所有&#x200B;**短代碼**&#x200B;欄位留空。
 
 ## 編碼問題{#encoding-issues}
 
 **步驟1:與提供者聯絡**
 
-聯絡他們，看看他們有什麼問題。 他們應該能夠告訴您問題是站在他們這邊還是站在Adobe Campaign這邊。 如果問題出在Adobe Campaign中，他們應該能夠確切地告訴您哪個欄位不正確。
+聯絡他們，看看他們有什麼問題。 他們應該能夠告訴你，問題是站在他們這邊還是在Adobe Campaign那邊。 如果問題出在Adobe Campaign，他們應該能夠確切地告訴你哪個欄位不正確。
 
 **步驟2:瞭解訊息中的內容**
 
-Unicode允許許多類似字元的變體，而Adobe Campaign無法處理這些變體。
+Unicode允許許多類似字元的變體，而Adobe Campaign無法處理所有變體。
 
 最常見的問題來源是從文字處理器複製貼上，將常見字元變更為印刷正確的版本：空格變為非破斷空格，雙引號變為開號和閉號，減號變為各種連字型大小等。
 
@@ -197,7 +200,7 @@ Unicode允許許多類似字元的變體，而Adobe Campaign無法處理這些�
 
 若要將Unicode轉換為十六進位，您可以使用線上工具，例如[Unicode代碼轉換器](https://r12a.github.io/app-conversion/)網站。 輸入文字，確定沒有PII（例如電話號碼），然後按一下「轉換&#x200B;**」。**&#x200B;您會在底部看到十六進位值（UTF-32區域）。
 
-開啟有關編碼問題的票證時（無論是提供者或Adobe Campaign支援），一律會包含您輸入的內容與所見內容的十六進位版本。
+開啟有關編碼問題的票證時，無論是提供者還是Adobe Campaign支援，始終包含您鍵入的內容和所看到內容的十六進位版本。
 
 **步驟3:瞭解您應傳送的內容**
 
@@ -211,9 +214,9 @@ Unicode允許許多類似字元的變體，而Adobe Campaign無法處理這些�
 
 ## 在與SMS問題{#element-include}通訊時要包含的元素
 
-每當您在SMS問題上尋求協助時，不論是開啟Adobe Campaign的支援票證、向SMS提供者傳送或是與問題相關的任何通訊方式，您都必須包含下列資訊，以確保其符合資格。 合格的問題是更快解決問題的關鍵。
+每當您在SMS問題上尋求協助時，不論是開啟支援票證給Adobe Campaign、SMS提供者，或是與此問題進行任何通訊時，您都需要包含下列資訊，以確保其符合資格。 合格的問題是更快解決問題的關鍵。
 
-* **當問題出現時** 啟用詳細的SMPP消息。沒有這個，大部分的SMS問題都是無法解決的。
+* **當問題出現** 時啟用詳細SMPP消息。沒有這個，大部分的SMS問題都是無法解決的。
 
 * 如果問題與SMS流量有關，請先聯絡提供者。 其平台最適合用於SMS流量問題的即時有效診斷。
 
@@ -274,7 +277,7 @@ Unicode允許許多類似字元的變體，而Adobe Campaign無法處理這些�
 
 **即時啟用**
 
-Adobe Campaign Standard MTA有HTTP控制介面，可讓您即時變更追蹤篩選。
+Adobe Campaign StandardMTA有HTTP控制介面，可讓您即時變更追蹤篩選。
 POST呼叫可啟用／停用追蹤。 啟用SMPP追蹤的URL範例：
 
 ```

@@ -6,11 +6,14 @@ description: 探索如何使用電子郵件設計工具中現有的內容電子�
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
+feature: 電子郵件設計
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 739943deccf6320de71bd6a255eb0b2fb20d5df5
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1212'
-ht-degree: 6%
+source-wordcount: '1217'
+ht-degree: 5%
 
 ---
 
@@ -18,7 +21,7 @@ ht-degree: 6%
 
 ## 選擇現有內容{#selecting-an-existing-content}
 
-Adobe Campaign隨附一組預先定義的內容，以協助您開始使用。 您可以使用其中一項，或者，如果您需要傳送的訊息內容是在Adobe Campaign以外準備，則可從電腦或URL匯入。
+Adobe Campaign提供一套預先定義的內容，以協助您開始使用。 您可以使用其中一項，或者，如果您需要傳送的訊息內容是在Adobe Campaign以外的地區準備，您可以從電腦或URL匯入。
 
 建立電子郵件或登陸頁面時，您可以選擇從其他來源載入現有內容。
 
@@ -107,7 +110,7 @@ zip檔案結構沒有限制。 但是，參照HTML檔案必須是相對的，並
 
 >[!VIDEO](https://video.tv.adobe.com/v/25926?quality=12)
 
-其他Campaign Standard操作說明影片可在[這裡](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant)取得。
+其他Campaign Standardhow-to影片可在[這裡](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant)取得。
 
 ### 在準備時間{#retrieving-content-from-a-url-automatically-at-preparation-time}自動從URL擷取內容
 

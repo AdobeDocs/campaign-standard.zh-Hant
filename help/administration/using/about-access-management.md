@@ -6,11 +6,14 @@ description: 使用角色、群組和組織單位管理您的 Adobe Campaign 運
 audience: administration
 content-type: reference
 topic-tags: users-and-security
+feature: 存取管理
+role: 管理員
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 100%
+source-wordcount: '230'
+ht-degree: 98%
 
 ---
 

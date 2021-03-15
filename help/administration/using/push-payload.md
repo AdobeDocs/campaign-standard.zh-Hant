@@ -1,16 +1,19 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 瞭解促銷活動標準推播通知裝載結構
+title: 瞭解Campaign Standard推播通知有效負載結構
 description: 本檔案旨在說明行動應用程式中所接收的負載結構。
 audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
+feature: 例項設定
+role: 管理員
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1152'
 ht-degree: 3%
 
 ---
@@ -18,11 +21,11 @@ ht-degree: 3%
 
 # 瞭解 推播通知裝載結構 {#push-payload}
 
-Adobe Campaign可讓您在iOS和Android行動裝置上，將個人化和分段的推播通知傳送至行動應用程式（行動應用程式）。
+Adobe Campaign可讓您將iOS和Android行動裝置上的個人化和分段推播通知傳送至行動應用程式（行動應用程式）。
 
 在行動應用程式上收到的每個推播通知都會攜帶一些資訊，當傳送「警報」推播通知時，應用程式會使用這些資訊來顯示推播通知，而且很可能還會進一步計算，尤其是傳送無訊息推播通知時。
 
-此資訊由行動應用程式程式碼在事件處理常式中接收，指出已收到推播通知。 從Adobe Campaign Standard傳送推播通知時，行動應用程式中收到的資訊也可能包含Campaign Standard特定資訊，這些資訊可用於運用Campaign Standard提供的某些功能。 此外，裝載可包含行動應用程式可使用的自訂資料。
+此資訊由行動應用程式程式碼在事件處理常式中接收，指出已收到推播通知。 從Adobe Campaign Standard傳送推播通知時，行動應用程式中收到的資訊也可能包含Campaign Standard特定資訊，這些資訊可用來運用Campaign Standard提供的某些功能。 此外，裝載可包含行動應用程式可使用的自訂資料。
 
 本檔案說明從Adobe Campaign Standard成功將推播通知傳送至應用程式時，行動應用程式中收到的裝載結構。
 
@@ -34,7 +37,7 @@ Adobe Campaign可讓您在iOS和Android行動裝置上，將個人化和分段�
 
 本節詳細說明適用於各種行動平台的範例裝載結構，並說明其中包含的主要屬性。 這是事件處理常式中行動應用程式程式程式碼所接收之裝載的結構，表示已收到推播通知。
 
-有效負載屬性及其值會依「推播通知」進階選項中提供的組態而有所不同。 本節也提供Campaign Standard UI中這些設定與裝載中屬性之間的對應，以釐清Campaign Standard中設定選項時裝載的變更方式。
+有效負載屬性及其值會依「推播通知」進階選項中提供的組態而有所不同。 本節還提供Campaign StandardUI中這些配置與裝載中屬性之間的映射，以釐清Campaign Standard中配置選項時裝載的變更方式。
 
 ### 針對iOS行動應用程式{#payload-structure-ios}
 
@@ -112,7 +115,7 @@ Adobe Campaign可讓您在iOS和Android行動裝置上，將個人化和分段�
 
 ### 對於Android應用程式{#payload-structure-android}
 
-**從Adobe Campaign傳送至Android應用程式的裝載範例**
+**從Adobe Campaign傳送至Android應用程式的範例裝載**
 
 ```
 {
@@ -202,7 +205,7 @@ Adobe Campaign可讓您在iOS和Android行動裝置上，將個人化和分段�
 >
 >自2018年1月起，Android裝載中對「通知」訊息的支援已移除，以啟用應用程式喚醒並將控制項傳遞至行動應用程式，而不需要使用者與應用程式互動。
 
-### 促銷活動標準設定與裝載屬性之間的對應{#mapping-payload}
+### Campaign Standard配置和裝載屬性之間的映射{#mapping-payload}
 
 | 促銷活動設定 | iOS中受影響的屬性 | Android中的影響屬性 | 說明 |
 |:-:|:-:|:-:|:-:|

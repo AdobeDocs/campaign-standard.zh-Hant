@@ -7,11 +7,14 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 context-tags: extAccount,main;extAccount,overview
+feature: 例項設定
+role: 管理員
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 9%
+source-wordcount: '136'
+ht-degree: 8%
 
 ---
 
@@ -30,4 +33,4 @@ ht-degree: 9%
 
 >[!IMPORTANT]
 >
->這些選項在安裝促銷活動時已經設定，且僅應由進階使用者修改。 如果您有任何疑問或要求，請聯絡您的Adobe聯絡人。
+>這些選項在安裝促銷活動時已經設定，且僅應由進階使用者修改。 如果您有任何疑問或要求，請洽詢您的Adobe聯絡人。

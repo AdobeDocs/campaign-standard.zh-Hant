@@ -7,11 +7,14 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 context-tags: setOfService,workflow,main
+feature: 工作流程
+role: 資料架構師
+level: 中級
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 53%
+source-wordcount: '242'
+ht-degree: 52%
 
 ---
 
@@ -43,7 +46,7 @@ ht-degree: 53%
 
    ![](assets/subscription_activity_example2.png)
 
-* [協調](../../automating/using/reconciliation.md)活動將來自檔案的資料標識為屬於Adobe Campaign資料庫的配置檔案維。 僅設定 **[!UICONTROL Identification]** 索引標籤。它會根據描述檔的電子郵件地址識別檔案資料。
+* [協調](../../automating/using/reconciliation.md)活動將檔案中的資料標識為屬於Adobe Campaign資料庫的配置檔案維。 僅設定 **[!UICONTROL Identification]** 索引標籤。它會根據描述檔的電子郵件地址識別檔案資料。
 
    ![](assets/subscription_activity_example3.png)
 

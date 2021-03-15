@@ -2,14 +2,17 @@
 solution: Campaign Standard
 product: campaign
 title: 關於 Campaign-Audience Manager 或 People 核心服務整合
-description: 透過Audience Manager / People核心服務整合，您可以在不同的Adobe Experience Cloud解決方案中共用受眾或細分。
+description: 透過Audience Manager/人員核心服務整合，您可以在不同的Adobe Experience Cloud解決方案中分享受眾或細分。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
+feature: 觸發器
+role: 資料架構師
+level: 中級
 translation-type: tm+mt
-source-git-commit: 9eca72e744524cf201d998abd9acf718fdaca0f8
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '472'
 ht-degree: 5%
 
 ---
@@ -19,33 +22,33 @@ ht-degree: 5%
 
 >[!CAUTION]
 >
->根據交換的資料，匯入Adobe Campaign中的觀眾可能會受到法律限制。
+>根據交換的資料，匯入Adobe Campaign的受眾可能會受到法律限制。
 
-Adobe Campaign可讓您使用不同的Adobe Experience Cloud應用程式來交換和分享受眾／細分。 將&#x200B;**Adobe Campaign**&#x200B;與&#x200B;**People core service**（又稱為&#x200B;**Profiles &amp; Audiences core service**）或Adobe Audience Manager整合，可讓您：
+Adobe Campaign可讓您與不同的Adobe Experience Cloud應用程式交換和分享受眾／細分。 將&#x200B;**Adobe Campaign**&#x200B;與&#x200B;**人員核心服務**（又稱為&#x200B;**設定檔與觀眾核心服務**）或Adobe Audience Manager整合，可讓您：
 
-* 從不同的Adobe Experience Cloud解決方案將受眾／細分匯入Adobe Campaign。 您可從Adobe Campaign的&#x200B;**[!UICONTROL Audiences]**&#x200B;功能表匯入觀眾。
-* 將觀眾匯出為共用的觀眾／區段。 這些受眾可用於您所使用的不同Adobe Experience Cloud解決方案。 使用&#x200B;**[!UICONTROL Save audience]**&#x200B;活動，在工作流程中定位活動後，可匯出觀眾。
+* 將不同Adobe Experience Cloud解決方案的受眾／細分匯入Adobe Campaign。 您可從Adobe Campaign的&#x200B;**[!UICONTROL Audiences]**&#x200B;功能表匯入觀眾。
+* 將觀眾匯出為共用的觀眾／區段。 這些受眾可用於您使用的不同Adobe Experience Cloud解決方案。 使用&#x200B;**[!UICONTROL Save audience]**&#x200B;活動，在工作流程中定位活動後，可匯出觀眾。
 
-整合支援兩種Adobe Experience Cloud ID:
+整合支援兩種Adobe Experience CloudID:
 
-* **訪客ID**:這種ID類型可讓您協調Adobe Experience Cloud訪客與Adobe Campaign設定檔。一旦透過Adobe IMS啟用連線，Marketing Cloud訪客ID服務就會啟動，取代Adobe Campaign使用的永久Cookie。 這可讓您識別訪客，然後將其連結至描述檔。
-   <br>當訪客ID按一下透過Adobe Campaign傳送的電子郵件中的描述檔時，就會立即連結至描述檔：
+* **訪客ID**:此類ID可讓您協調Adobe Experience Cloud訪客與Adobe Campaign描述檔。一旦透過AdobeIMS啟用連線，Marketing Cloud訪客ID服務就會啟動，取代Adobe Campaign使用的永久Cookie。 這可讓您識別訪客，然後將其連結至描述檔。
+   <br>當訪客ID在透過Adobe Campaign傳送的電子郵件中按一下描述檔時，就會連結至描述檔：
    * 如果描述檔已有訪客ID，則描述檔的瀏覽器資料可讓Adobe Campaign復原並自動將描述檔連結至訪客ID。
    * 如果找不到訪客ID，則會建立新ID。 此訪客ID儲存在描述檔追蹤記錄檔中。
 
-   然後，具有相同CNAME的其他Adobe Marketing Cloud應用程式將會識別該ID。
+   ID將會由其他具有相同CNAME的Adobe Marketing Cloud應用程式識別。
 
-* **宣告的ID**:此類型的ID可讓您將任何類型的資料與Adobe Campaign資料庫的元素協調。在Adobe Campaign中，它會以預先定義的協調金鑰呈現。 在交換資料時，會雜湊Adobe Campaign資料庫識別碼。 然後，這些雜湊ID會與匯入或匯出中涉及之Adobe Marketing Cloud觀眾的雜湊ID進行比較。
+* **宣告的ID**:此類型的ID可讓您將任何類型的資料與Adobe Campaign資料庫的元素協調。它在Adobe Campaign被表示為預先定義的和解密鑰。 在交換資料時，對Adobe Campaign資料庫標識符進行散列處理。 然後，這些雜湊ID會與匯入或匯出所涉及之Adobe Marketing Cloud觀眾的雜湊ID進行比較。
    <br>此整合支援一般宣告的ID、雜湊的宣告ID和加密的宣告ID。
 
    >[!CAUTION]
    >
-   >宣告的ID僅能與Adobe Audience Manager搭配使用。 沒有宣告的ID將無法運作。
+   >宣告的ID只能與Adobe Audience Manager搭配使用。 沒有宣告的ID將無法運作。
 
    加密可讓您透過指定加密演算法，使用宣告的ID在資料來源（例如PII）中共用加密資料。
 
-   例如，您可以解密加密的電子郵件地址或SMS號碼，即使Adobe Campaign資料庫中不存在觸發訊息，也可以傳送給使用者。
+   例如，您可以解密加密的電子郵件地址或SMS號碼，因此也可以傳送觸發訊息給您的使用者，即使其設定檔在Adobe Campaign資料庫中不存在亦然。
 
-下圖詳細說明此整合的運作方式。AAM代表Adobe Audience Manager和ACS for Adobe Campaign Standard。
+下圖詳細說明此整合的運作方式。這裡是AAMAdobe Audience Manager和Adobe Campaign Standard的ACS。
 
 ![](assets/aam_diagram.png)

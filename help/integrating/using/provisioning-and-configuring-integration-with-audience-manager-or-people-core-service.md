@@ -2,14 +2,17 @@
 solution: Campaign Standard
 product: campaign
 title: 布建與設定與 Audience Manager 或 People 核心服務整合
-description: '瞭解如何設定Audience Manager / People核心服務整合，以便開始使用不同的Adobe Experience Cloud解決方案來分享受眾或細分。 '
+description: '瞭解如何設定Audience Manager/人員核心服務整合，以便開始使用不同的Adobe Experience Cloud解決方案分享受眾或細分。 '
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
+feature: 人員核心服務整合
+role: 資料架構師
+level: 中級
 translation-type: tm+mt
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '726'
 ht-degree: 9%
 
 ---
@@ -17,11 +20,11 @@ ht-degree: 9%
 
 # 布建與設定與 Audience Manager 或 People 核心服務整合{#provisioning-and-configuring-integration-with-audience-manager-or-people-core-service}
 
-在Adobe Campaign中布建和設定Audience Manager和People核心的步驟有兩個：[先提交請求至Adobe](#submitting-request-to-adobe)再提交至[設定Adobe Campaign](#configuring-the-integration-in-adobe-campaign)中的整合。
+Adobe CampaignAudience Manager和人員核心的設定和配置分為兩個步驟：[向Adobe](#submitting-request-to-adobe)然後[提交請求，在Adobe Campaign配置整合。](#configuring-the-integration-in-adobe-campaign)
 
 ## 向 Adobe 提交請求 {#submitting-request-to-adobe}
 
-Audience Manager(AAM)或People核心服務整合可讓您在Adobe Campaign中匯入和匯出觀眾或區段。
+Audience Manager(AAM)或人員核心服務整合可讓您匯入和匯出Adobe Campaign的觀眾或區段。
 
 必須先設定此整合。若要請求佈建此整合，請傳送電子郵件寄至 [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com)，並提供下列資訊：
 
@@ -29,7 +32,7 @@ Audience Manager(AAM)或People核心服務整合可讓您在Adobe Campaign中匯
  <tbody> 
   <tr> 
    <td> <strong>請求類型：</strong><br /> </td> 
-   <td> 設定AAM/People核心服務——促銷活動整合 </td> 
+   <td> 設定AAM/人員核心服務——促銷活動整合 </td> 
   </tr> 
   <tr> 
    <td> <strong>組織名稱：</strong><br /> </td> 
@@ -37,14 +40,14 @@ Audience Manager(AAM)或People核心服務整合可讓您在Adobe Campaign中匯
   </tr> 
   <tr> 
    <td> <strong>IMS 組織 ID</strong><br /> </td> 
-   <td> 您的IMS組織ID。 <br> 您可以在Experience Cloud的「管理」功能表中找到您的IMS組織ID。當您第一次連線至Adobe Experience Cloud時，也會提供。 </td> 
+   <td> 您的IMS組織ID。 <br> 您可以在「管理」功能表的Experience Cloud上找到您的IMS組織ID。當您第一次連接Adobe Experience Cloud時，也會提供此功能。 </td> 
   </tr> 
   <tr> 
    <td> <strong>環境:</strong><br /> </td> 
    <td> 範例：製作 </td> 
   </tr> 
   <tr> 
-   <td> <strong>AAM或人員服務</strong><br /> </td> 
+   <td> <strong>或AAM人員服務</strong><br /> </td> 
    <td> 範例：Adobe Audience Manager。 請務必向布建團隊提及您是否擁有Audience Manager授權。</td> 
   </tr> 
   <tr> 
@@ -58,18 +61,18 @@ Audience Manager(AAM)或People核心服務整合可讓您在Adobe Campaign中匯
  </tbody> 
 </table>
 
-## 在Adobe Campaign中設定整合{#configuring-the-integration-in-adobe-campaign}
+## 在Adobe Campaign配置整合{#configuring-the-integration-in-adobe-campaign}
 
-提交此要求後，Adobe會繼續為您提供整合，並聯絡您，提供您必須完成設定的詳細資訊：
+提交此請求後，Adobe將繼續為您提供整合，並聯絡您以提供詳細資訊和資訊，以完成設定：
 
-* [步驟1:設定或檢查Adobe Campaign中的外部帳戶](#step-1--configure-or-check-the-external-accounts-in-adobe-campaign)
+* [步驟1:在Adobe Campaign配置或檢查外部帳戶](#step-1--configure-or-check-the-external-accounts-in-adobe-campaign)
 * [步驟2:設定資料來源](#step-2--configure-the-data-sources)
 * [步驟3:設定促銷活動追蹤伺服器](#step-3--configure-campaign-tracking-server)
 * [步驟4:設定訪客ID服務](#step-4--configure-the-visitor-id-service)
 
-### 步驟1:在Adobe Campaign {#step-1--configure-or-check-the-external-accounts-in-adobe-campaign}中設定或檢查外部帳戶
+### 步驟1:在Adobe Campaign{#step-1--configure-or-check-the-external-accounts-in-adobe-campaign}中配置或檢查外部帳戶
 
-我們首先需要在Adobe Campaign中設定或檢查外部帳戶。 這些帳戶應由Adobe設定，且必要的資訊應已傳達給您。
+我們首先需要在Adobe Campaign設定或檢查外部帳戶。 這些帳戶應該由Adobe設定，而且必要的資訊應該已傳達給您。
 
 若要這麼做：
 
@@ -86,12 +89,12 @@ Audience Manager(AAM)或People核心服務整合可讓您在Adobe Campaign中匯
 
 ### 步驟2:設定Data Sources {#step-2--configure-the-data-sources}
 
-在Audience Manager中建立下列兩個資料來源：Adobe Campaign(MID)和Adobe Campaign(DeclaredId)。 同時，Adobe Campaign提供下列兩個資料來源：
+在Audience Manager中建立下列兩個資料來源：Adobe Campaign(MID)和Adobe Campaign(DelaredId)。 同時，這兩個資料來源在Adobe Campaign也有：
 
 * **[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]**:這是預設為訪客ID設定的現成可用資料來源。從「促銷活動」建立的區段將是此資料來源的一部分。
-* **宣告** 的ID資料來源：此資料來源需要建立並對應至Audience Manager **[!UICONTROL DeclaredId]** 的資料來源定義。
+* **宣告** 的ID資料來源：此資料來源需要建立並與Audience Manager中的 **[!UICONTROL DeclaredId]** 資料來源定義對應。
 
-請注意，若有多個網域的網站不同，Adobe Campaign不支援根據ECID進行協調。
+請注意，若是多個網域不同的網站，Adobe Campaign不支援以ECID為基礎的協調。
 
 要配置&#x200B;**[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]**&#x200B;資料源：
 
@@ -111,7 +114,7 @@ Audience Manager(AAM)或People核心服務整合可讓您在Adobe Campaign中匯
 
 1. 在&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Shared Data Sources]**&#x200B;中，按一下&#x200B;**[!UICONTROL Create]**&#x200B;按鈕。
 1. 編輯您的資料來源的&#x200B;**[!UICONTROL Label]**。
-1. 在&#x200B;**[!UICONTROL Data Source/ Alias]**&#x200B;下拉式清單中，選擇與Audience Manager中&#x200B;**[!UICONTROL DeclaredID]**&#x200B;資料來源對應的資料來源。
+1. 在&#x200B;**[!UICONTROL Data Source/ Alias]**&#x200B;下拉式清單中，選擇與&#x200B;**[!UICONTROL DeclaredID]**&#x200B;資料來源對應的「資料來源」(來自Audience Manager)。
 1. 輸入Adobe提供的&#x200B;**[!UICONTROL Data Source / Alias]**&#x200B;和&#x200B;**[!UICONTROL AAM Destination ID]**，以設定您的資料來源。
 1. 視需要設定&#x200B;**[!UICONTROL Reconciliation process]**。
 1. 按一下 **[!UICONTROL Save]**。

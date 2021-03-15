@@ -6,10 +6,13 @@ description: 瞭解如何追蹤您的遞送收件者的行為。
 audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
+feature: 效能監控
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 79e172d08557bfeebd088d8a0e8756c5965318cb
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '492'
 ht-degree: 18%
 
 ---
@@ -19,7 +22,7 @@ ht-degree: 18%
 
 ## 關於追蹤{#about-tracking}
 
-由於Adobe Campaign的追蹤功能，您可以追蹤遞送收件者的行為。 Adobe Campaign 透過工作階段 Cookie 和永久性 Cookie 實現上述功能。
+由於其追蹤功能，Adobe Campaign可讓您追蹤送貨收件者的行為。 Adobe Campaign 透過工作階段 Cookie 和永久性 Cookie 實現上述功能。
 
 您可以透過授權要求（例如頁面上出現的）通知使用者您的網站已配備網頁追蹤工具，並加上核取方塊來授權使用Cookie，或在其登陸的第一頁頂端新增橫幅等。 彈出式視窗通常會被瀏覽器封鎖，因此應避免出現。
 
@@ -28,9 +31,9 @@ ht-degree: 18%
 Adobe Campaign 使用兩種類型的 Cookie：
 
 * 工作階段Cookie(nid)。 這包含傳送給連絡人的電子郵件識別碼(broadlogId)和訊息範本的識別碼(deliveryId)。 連絡人按一下由 Adobe Campaign 傳送的電子郵件中包含的 URL 後即可添加識別碼，並且允許您追蹤他們在網路上的行為。瀏覽器關閉時，將自動清除工作階段 Cookie。連絡人可以將其瀏覽器設定為拒絕 Cookie。
-* Adobe Experience Cloud解決方案之間共用的Cookie。 這可讓您識別在使用者造訪網站時與Experience Cloud解決方案互動的使用者。 此Cookie的說明可在[這裡](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-mc.html)取得。
+* 在Adobe Experience Cloud解決方案之間共用的Cookie。 這可讓您識別在Experience Cloud解決方案造訪網站時與之互動的使用者。 此Cookie的說明可在[這裡](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-mc.html)取得。
 
-使用Adobe Campaign Standard進行追蹤可讓您存取下列功能：
+透過Adobe Campaign Standard追蹤，您可以存取下列功能：
 
 <table>
 <tr>
@@ -61,7 +64,7 @@ Adobe Campaign 使用兩種類型的 Cookie：
 
 ## 跟蹤日誌{#tracking-logs}
 
-**[!UICONTROL Tracking logs]**&#x200B;標籤會列出此傳送的追蹤歷史記錄。 此標籤會顯示已傳送訊息的追蹤資訊，例如Adobe Campaign已追蹤的所有URL。 此標籤中的追蹤資訊會每10分鐘更新一次。
+**[!UICONTROL Tracking logs]**&#x200B;標籤會列出此傳送的追蹤歷史記錄。 此標籤顯示已傳送訊息的追蹤資訊，例如Adobe Campaign所追蹤的所有URL。 此標籤中的追蹤資訊會每10分鐘更新一次。
 
 >[!NOTE]
 >

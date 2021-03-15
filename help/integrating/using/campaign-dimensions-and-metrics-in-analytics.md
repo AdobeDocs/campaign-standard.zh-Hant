@@ -2,14 +2,17 @@
 solution: Campaign Standard
 product: campaign
 title: Analytics 中的 Campaign 維度和度量
-description: 瞭解您可在Adobe Analytics中找到的不同維度，以開始追蹤您從Adobe Campaign傳送的電子郵件。
+description: 瞭解您在Adobe Analytics可找到的不同維度，以開始追蹤您從Adobe Campaign傳送的電子郵件。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
+feature: 觸發器
+role: 資料架構師
+level: 中級
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '324'
 ht-degree: 3%
 
 ---
@@ -17,7 +20,7 @@ ht-degree: 3%
 
 # Analytics 中的 Campaign 維度和度量{#campaign-dimensions-and-metrics-in-analytics}
 
-Adobe Campaign與Adobe Analytics整合可讓您直接在Adobe Analytics中追蹤電子郵件傳送的成功。
+Adobe Campaign與Adobe Analytics的整合可讓您直接在Adobe Analytics追蹤電子郵件傳送的成功。
 
 Analytics中找到的促銷活動&#x200B;**[!UICONTROL dimensions]**&#x200B;列於下方：
 

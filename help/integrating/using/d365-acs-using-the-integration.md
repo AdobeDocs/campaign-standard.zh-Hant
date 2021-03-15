@@ -1,13 +1,16 @@
 ---
 title: 使用 Microsoft Dynamics 365 整合
-description: 瞭解如何搭配Campaign Standard整合使用Microsoft Dynamics 365
+description: 瞭解如何使用Microsoft Dynamics 365與Campaign Standard整合
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
+feature: Microsoft CRM整合
+role: 資料架構師
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: fe5d40235abc33c0ea7e929cd2e69b7030cea0b1
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1607'
+source-wordcount: '1613'
 ht-degree: 0%
 
 ---
@@ -15,11 +18,11 @@ ht-degree: 0%
 
 # 使用Microsoft Dynamics 365整合
 
-Adobe Campaign Standard與Microsoft Dynamics 365整合會執行數種資料流。 這些流在[本頁](../../integrating/using/d365-acs-self-service-app-workflows.md)中有詳細說明。
+「Adobe Campaign Standard與Microsoft Dynamics 365的整合」會執行數個資料流。 這些流在[本頁](../../integrating/using/d365-acs-self-service-app-workflows.md)中有詳細說明。
 
 有關資料流的詳細資訊，請參閱本文檔的[資料流](#data-flows)部分。
 
-## Adobe Campaign Standard使用者體驗
+## Adobe Campaign Standard用戶體驗
 
 在Microsoft Dynamics 365中建立、修改或刪除連絡人（如果已啟用刪除）時，該連絡人會傳送至Campaign Standard。 這些連絡人會顯示在促銷活動的「設定檔」畫面中，並可定位在行銷促銷活動中。 請參閱下方的「描述檔」畫面。
 
@@ -33,7 +36,7 @@ Adobe Campaign Standard與Microsoft Dynamics 365整合會執行數種資料流�
 
 * Adobe Campaign電子郵件傳送
 
-* Adobe Campaign電子郵件開啟
+* Adobe Campaign電子郵件開放
 
 * Adobe Campaign電子郵件URL點按
 
@@ -43,7 +46,7 @@ Adobe Campaign Standard與Microsoft Dynamics 365整合會執行數種資料流�
 
 >[!NOTE]
 >
->AppSource中的&#x200B;**Adobe Campaign for Microsoft Dynamics 365**&#x200B;應用程式必須安裝在您的Microsoft Dynamics 365例項中，才能檢視這些事件。 [進一步瞭解](../../integrating/using/d365-acs-configure-d365.md#install-appsource-app)。
+>AppSource中的&#x200B;**Microsoft Dynamics 365**&#x200B;應用程式的Adobe Campaign必須安裝在您的Microsoft Dynamics 365例項中，才能檢視這些事件。 [進一步瞭解](../../integrating/using/d365-acs-configure-d365.md#install-appsource-app)。
 
 下面是「Dynamics User」的「Contact」（聯繫人）螢幕快照。 在「時間軸」檢視中，您會注意到Dynamics使用者已寄送電子郵件，與促銷活動名稱「2019LoyaltyCamp」和傳送名稱「DM190」相關。 Dynamics使用者開啟電子郵件，並點選了電子郵件中的URL;這兩個動作都會建立事件，如下所示。 如果您往右拐，就會看到「關係助理」(RA)卡；目前，它包含要追蹤所點按URL的工作。
 
@@ -53,7 +56,7 @@ Adobe Campaign Standard與Microsoft Dynamics 365整合會執行數種資料流�
 
 ![](assets/do-not-localize/MSdynamicsACS-usage5.png)
 
-以下是關係助理(RA)卡的特寫。 AppSource應用程式包含會監視Adobe電子郵件URL點按事件的工作流程。 發生此事件時，它會建立工作並設定到期日。 這可讓工作顯示在RA卡中，讓它更加可見。 Adobe電子郵件彈回數事件的工作流程類似，新增了協調無效電子郵件地址的任務。 這些工作流程可在解決方案中關閉。
+以下是關係助理(RA)卡的特寫。 AppSource應用程式包含會監視Adobe電子郵件URL點按事件的工作流程。 發生此事件時，它會建立工作並設定到期日。 這可讓工作顯示在RA卡中，讓它更加可見。 「Adobe電子郵件彈回數」事件的工作流程類似，新增任務以協調無效的電子郵件地址。 這些工作流程可在解決方案中關閉。
 
 ![](assets/do-not-localize/MSdynamicsACS-usage6.png)
 
@@ -73,7 +76,7 @@ Adobe Campaign Standard與Microsoft Dynamics 365整合會執行數種資料流�
 
 * **關於**:連絡人姓名
 
-* **促銷活動名稱**:Campaign Standard中的促銷活動ID
+* **促銷活動名稱**:促銷活動ID在Campaign Standard
 
 * **傳送名稱**:Campaign Standard中的傳送ID
 
@@ -109,7 +112,7 @@ Campaign描述檔表格屬性externalId必須填入Dynamics 365 Contact屬性con
 
 #### 自訂實體
 
-[Microsoft Dynamics 365-Adobe Campaign Standard整合](../../integrating/using/d365-acs-get-started.md)支援自訂實體，讓Dynamics 365中的自訂實體與Campaign中的對應自訂資源同步。
+[Microsoft Dynamics 365-Adobe Campaign Standard整合](../../integrating/using/d365-acs-get-started.md)支援自訂實體，讓Dynamics 365中的自訂實體與促銷活動中對應的自訂資源同步。
 
 自訂資源中的新資料可用於數種用途，包括分段和個人化。
 
@@ -157,9 +160,9 @@ Dynamics 365中會顯示下列事件屬性：
 
 退出（如denyList）值在系統之間同步；您有下列選項可在上線時選擇：
 
-* **單向(Microsoft Dynamics 365 to Campaign)**:Dynamics 365是退出的真相。退出屬性將會在從Dynamics 365到Campaign Standard的單一方向上同步化」
-* **單向（促銷活動至Microsoft Dynamics 365）**:「促銷活動標準」是退出的真相來源。退出屬性將會在從Campaign Standard到Dynamics 365的一個方向上同步
-* **雙向**:Dynamics 365 AND Campaign Standard是真相的來源。退出屬性將在Campaign Standard和Dynamics 365之間雙向同步
+* **單向(Microsoft Dynamics 365 to Campaign)**:Dynamics 365是退出的真相。退出屬性將在從Dynamics 365到Campaign Standard的一個方向上同步。」
+* **單向（促銷活動至Microsoft Dynamics 365）**:Campaign Standard是退出的真相來源。退出屬性將在從Campaign Standard到動態365的一個方向上同步
+* **雙向**:動態365和Campaign Standard都是真相來源。選擇退出屬性將在Campaign Standard和Dynamics 365之間雙向同步
 
 或者，如果您有個別的程式來管理系統之間的退出同步，則可停用整合的退出資料流。
 

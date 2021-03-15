@@ -7,11 +7,14 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 context-tags: extAccount,main;extAccount,overview
+feature: 例項設定
+role: 管理員
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 6dda990d046cceae2a0c0da87764d4b6a16d9ae8
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1773'
-ht-degree: 85%
+source-wordcount: '1777'
+ht-degree: 84%
 
 ---
 
@@ -99,8 +102,8 @@ SFTP 伺服器可從「控制面板」進行管理。如需詳細資訊，請參
 
 * A **授予類型**:僅支援&#x200B;**用戶端認證**。
 * A **Secure API URL**:輸入授權端點。
-* **OAuth 2.0敏感認證**:本節是針對性質敏感的認證。憑證值新增後，會在螢幕上遮色；到那時，它們將無法閱讀或編輯。 如果授權端點要求將特定憑證插入HTTP授權標題，而非POST內文參數，則可以為該憑證選擇「在標題中包含」選項。
-* **OAuth 2.0非敏感性認證**:本節是針對性質不敏感的認證。憑證值新增後，會顯示在畫面上；也可以編輯。  如果授權端點要求將特定憑證插入HTTP授權標題，而非POST內文參數，則可以為該憑證選擇「在標題中包含」選項。
+* **OAuth 2.0敏感認證**:本節是針對性質敏感的認證。憑證值新增後，會在螢幕上遮色；到那時，它們將無法閱讀或編輯。 如果授權端點要求將特定憑證插入HTTP授權標題，而非POST主體參數，則可以為該憑證選擇「在標題中包含」選項。
+* **OAuth 2.0非敏感性認證**:本節是針對性質不敏感的認證。憑證值新增後，會顯示在畫面上；也可以編輯。  如果授權端點要求將特定憑證插入HTTP授權標題，而非POST主體參數，則可以為該憑證選擇「在標題中包含」選項。
 
 輸入帳戶資訊後，按一下「測試連線」，確認外部帳戶已正確設定。****
 

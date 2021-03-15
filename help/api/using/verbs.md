@@ -1,21 +1,24 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 取得／貼文／修補／刪除動詞
-description: 進一步瞭解Campaign Standard API中使用的動詞。
+title: GET/POST/PATCH/DELETE動詞
+description: 進一步瞭解Campaign StandardAPI中使用的動詞。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: 資料工程師
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '133'
 ht-degree: 0%
 
 ---
 
 
-# GET / POST / PATCH / DELETE動詞{#verbs}
+# GET/POST/PATCH/DELETE動詞{#verbs}
 
 對資源執行操作的可用動詞包括：
 
@@ -30,7 +33,7 @@ ht-degree: 0%
 
 ***請求範例***
 
-* 描述檔集合的GET要求範例。
+* 描述檔集合的GET請求範例。
 
 
    ```
@@ -92,7 +95,7 @@ ht-degree: 0%
    }
    ```
 
-* 建立描述檔的POST要求範例。
+* 建立描述檔的POST請求範例。
 
 
    ```
@@ -116,7 +119,7 @@ ht-degree: 0%
    }
    ```
 
-* 更新配置檔案的PATCH請求示例。
+* 更新描述檔的PATCH請求範例。
 
    ```
    -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -136,7 +139,7 @@ ht-degree: 0%
    }
    ```
 
-* 刪除描述檔的範例DELETE請求。
+* 刪除描述檔的DELETE請求範例。
 
    ```
    -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \

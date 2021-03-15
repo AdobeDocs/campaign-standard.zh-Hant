@@ -6,10 +6,13 @@ description: 瞭解如何與個人檔案的行銷記錄互動。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: 資料工程師
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '151'
 ht-degree: 10%
 
 ---
@@ -28,7 +31,7 @@ ht-degree: 10%
 
 ***請求範例***
 
-使用GET請求擷取描述檔的行銷記錄。
+使用GET請求擷取描述檔的行銷歷史記錄。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/history/"<PKEY>" \

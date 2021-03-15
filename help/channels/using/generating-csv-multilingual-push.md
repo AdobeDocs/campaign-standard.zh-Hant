@@ -1,15 +1,18 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 使用Campaign Standard產生多語言推播通知的CSV檔案
+title: 產生CSV檔案，以產生多語言推播通知及Campaign Standard
 description: 上傳CSV檔案以產生內容以供傳送是一種支援多語言推播通知的功能。
 audience: channels
 content-type: reference
 topic-tags: email-messages
+feature: 推播
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1131'
 ht-degree: 0%
 
 ---
@@ -53,7 +56,7 @@ ht-degree: 0%
 **每個列的名稱都是固定的**。您應在CSV檔案中包含每欄的名稱，如果您未對內容使用任何欄，請將其留空。
 
 **&quot;locale&quot;和&quot;language&quot;欄是必填欄，且值對每一列都是唯一的。**
-此欄的空白值會導致檔案上傳失敗。
+此欄的空白值將導致檔案上傳失敗。
 
 **欄的順序很重要**。上傳檔案中欄的順序必須與範例檔案的格式相同。
 

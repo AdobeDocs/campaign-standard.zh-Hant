@@ -6,11 +6,14 @@ description: 瞭解如何使用控制規則來強化訊息的品質檢查。
 audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
+feature: 態樣規則
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 3%
+source-wordcount: '445'
+ht-degree: 4%
 
 ---
 

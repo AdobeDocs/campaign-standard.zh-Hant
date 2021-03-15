@@ -2,22 +2,25 @@
 solution: Campaign Standard
 product: campaign
 title: 關於介面
-description: 促銷活動工作區是以所有Adobe Experience Cloud解決方案通用的概念為基礎。
+description: 促銷活動工作區是以所有Adobe Experience Cloud解決方案共同的概念為基礎。
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
+feature: 概觀
+role: 業務從業人員
+level: 初學者
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 4%
+source-wordcount: '436'
+ht-degree: 5%
 
 ---
 
 
 # 關於介面{#about-the-interface}
 
-Adobe Campaign的使用者介面是以所有Adobe Experience Cloud解決方案共同的概念為基礎。
+Adobe Campaign的用戶介面基於所有Adobe Experience Cloud解決方案都通用的概念。
 
 此介面適用於網頁瀏覽器。 它可完全調整大小，因此可自動適應使用它的介質：桌上型電腦或平板電腦。 每個元素都與使用滑鼠或觸控螢幕相容。
 
@@ -25,11 +28,11 @@ Adobe Campaign的使用者介面是以所有Adobe Experience Cloud解決方案�
 
 請注意，語言是在安裝時已設定好的，之後無法變更。
 
-為了因應不同用途和新功能，Adobe Campaign使用者介面及其所有元素都會定期更新。 您可能會注意到您使用的版本與本文中顯示的畫面有一些差異。
+為適應所提供的不同用途和新功能，Adobe Campaign用戶介面及其所有要素定期更新。 您可能會注意到您使用的版本與本文中顯示的畫面有一些差異。
 
 這些解決方案都遵循導覽原則。
 
-使用Adobe Campaign建立和策劃行銷宣傳的主要步驟為：
+與Adobe Campaign合作建立及策劃行銷活動的主要步驟包括：
 
 * **準備** -此初始階段可讓使用者正式確定促銷活動的需求、意圖和目標：建立行銷計畫、識別目標、定義內容和建立模式、預期結果和相關人員。
 * **定位** -定位階段可讓使用者定義資料收集模式、其結構、區段、受眾、種子和測試、篩選條件以進行設計等。在此階段中，您也可以設定訂閱／取消訂閱方法。 請參閱[設定檔與觀眾](../../audiences/using/about-profiles.md)。

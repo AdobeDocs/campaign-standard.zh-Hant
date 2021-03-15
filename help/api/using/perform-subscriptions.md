@@ -6,10 +6,13 @@ description: 瞭解如何使用API執行訂閱。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: 資料工程師
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
@@ -43,7 +46,7 @@ ht-degree: 0%
   }
 ```
 
-對訂閱URL執行POST要求，並在裝載內使用所需的服務主要金鑰。
+對訂閱URL執行POST要求，並在裝載中使用所需的服務主要金鑰。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \

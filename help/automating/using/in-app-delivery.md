@@ -6,10 +6,13 @@ description: 「應用程式內傳送」活動可讓您設定在工作流程中�
 audience: automating
 content-type: reference
 topic-tags: channel-activities
+feature: 工作流程
+role: 資料架構師
+level: 中級
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '696'
 ht-degree: 43%
 
 ---
@@ -50,7 +53,7 @@ ht-degree: 43%
 
 1. 選取「應用程式內」訊息類型。 這將取決於&#x200B;**[!UICONTROL Query]**&#x200B;活動中定位的資料。
 
-   * **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]**:此訊息類型可讓您鎖定已訂閱您行動應用程式的Adobe Campaign設定檔，並使用Campaign中的設定檔屬性個人化應用程式內訊息。
+   * **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]**:此訊息類型可讓您鎖定已訂閱您行動應用程式的Adobe Campaign個人檔案，並使用Campaign中的個人檔案屬性個人化應用程式內訊息。
    * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**:此訊息類型可讓您傳送訊息給行動應用程式的所有使用者，即使他們在促銷活動中沒有現有的設定檔。
    * **[!UICONTROL Target users based on their Mobile profile (inApp)]**:此訊息類型可讓您定位在Campaign中具有行動設定檔的行動應用程式的所有使用者（無論已知或未知），並使用從行動裝置取得的任何設定檔屬性個人化應用程式內訊息。
 

@@ -6,11 +6,14 @@ description: 本頁詳細說明最新 Campaign Standard 版本的內容
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-translation-type: ht
-source-git-commit: d4f689084974c18e5b2836ec0f2867ebdc137a4d
-workflow-type: ht
-source-wordcount: '2478'
-ht-degree: 100%
+feature: 概觀
+role: 業務從業人員
+level: 初學者
+translation-type: tm+mt
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+workflow-type: tm+mt
+source-wordcount: '2482'
+ht-degree: 99%
 
 ---
 

@@ -6,11 +6,14 @@ description: 瞭解如何測試和發佈 Adobe Campaign 中的登錄頁面。
 audience: channels
 content-type: reference
 topic-tags: landing-pages
+feature: 登錄頁面
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 100%
+source-wordcount: '388'
+ht-degree: 99%
 
 ---
 

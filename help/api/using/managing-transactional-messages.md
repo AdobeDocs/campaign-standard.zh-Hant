@@ -6,10 +6,13 @@ description: 瞭解如何使用API管理交易訊息。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: 資料工程師
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '682'
 ht-degree: 3%
 
 ---
@@ -28,11 +31,11 @@ ht-degree: 3%
 例如，您希望當客戶在購物車中購買產品之前離開您的網站時，觸發「購物車放棄」事件。 若要這麼做，您的網頁開發人員必須使用REST交易訊息API。
 
 1. 開發人員根據POST方法發送請求，該方法觸發事務事件](#sending-a-transactional-event)的發送。[
-1. 對POST要求的回應包含主要金鑰，可讓開發人員透過GET要求傳送一或多個要求。 這樣，他能夠獲得[事件狀態](#transactional-event-status)。
+1. 對POST請求的回應包含主鍵，可讓開發人員透過GET請求傳送一或多個請求。 這樣，他能夠獲得[事件狀態](#transactional-event-status)。
 
 ## 傳送事務性事件{#sending-a-transactional-event}
 
-事務性事件是透過具有下列URL結構的POST要求傳送：
+事務性事件是透過具有下列URL結構的POST請求傳送：
 
 ```
 POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
@@ -42,7 +45,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
 * **&lt;transactionalapi>**:交易訊息API endPoints。
 
-   事務性消息API端點的名稱取決於實例配置。 它對應於值&quot;mc&quot;後跟您的個人組織ID。 讓我們以Geometrixx公司為例，其組織ID為&quot;geometrixx&quot;。 在這種情況下，開機自檢要求如下：
+   事務性消息API端點的名稱取決於實例配置。 它對應於值&quot;mc&quot;後跟您的個人組織ID。 讓我們以Geometrixx公司為例，其組織ID為&quot;geometrixx&quot;。 在這種情況下，POST要求如下：
 
    `POST https://mc.adobe.io/geometrixx/campaign/mcgeometrixx/<eventID>`
 
@@ -65,9 +68,9 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 -H 'Content-Length:79' \
 ```
 
-### POST請求正文
+### POST請求主體
 
-事件資料包含在JSON POST內文中。 事件結構取決於其定義。 資源定義畫面中的API預覽按鈕提供請求範例。 請參閱[本區段](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)。
+事件資料包含在JSONPOST內文中。 事件結構取決於其定義。 資源定義畫面中的API預覽按鈕提供請求範例。 請參閱[本區段](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)。
 
 可以將下列可選參數添加到事件內容中，以管理連結到事件的事務性消息的發送：
 
@@ -78,7 +81,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 >
 >&quot;expiration&quot;和&quot;scheduled&quot;參數的值遵循ISO 8601格式。 ISO 8601指定使用大寫字母&quot;T&quot;來分隔日期和時間。 不過，您可將它從輸入或輸出中移除，以提高可讀性。
 
-### 對POST請求的回應
+### 回應POST請求
 
 POST響應返回建立事務事件時的事務事件狀態。 要檢索其當前狀態（事件資料、事件狀態……），請在GET請求中使用POST響應返回的主鍵：
 
@@ -88,7 +91,7 @@ POST響應返回建立事務事件時的事務事件狀態。 要檢索其當前
 
 ***請求範例***
 
-POST要求傳送事件。
+POST傳送事件的請求。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/mcAdobe/EVTcartAbandonment \
@@ -138,10 +141,10 @@ POST要求傳送事件。
 
 * **待定**:事件擱置中——事件在剛觸發時進入此狀態。
 * **處理**:事件正在等待傳送——它正被轉換為訊息並傳送訊息。
-* **暫停**:正在暫停事件進程。它不再處理，但會保留在Adobe Campaign資料庫的佇列中。 如需詳細資訊，請參閱[本章節](../../channels/using/publishing-transactional-message.md#suspending-a-transactional-message-publication)。
+* **暫停**:正在暫停事件進程。它不再被處理，而是保存在Adobe Campaign資料庫的隊列中。 如需詳細資訊，請參閱[本章節](../../channels/using/publishing-transactional-message.md#suspending-a-transactional-message-publication)。
 * **已處理**:已處理事件並成功傳送訊息。
 * **忽略**:傳送會忽略事件，通常是在隔離地址時。
 * **deliveryFailed**:處理事件時發生傳送錯誤。
 * **routingFailed**:路由階段失敗——例如，當找不到指定的事件類型時，可能會發生這種情況。
 * **tooOld**:該事件在處理之前過期——可能因各種原因而發生，例如，當傳送失敗數次（這會導致事件不再是最新狀態），或當伺服器過載後無法再處理事件。
-* **targetingFailed**:「促銷活動標準」無法擴充用於訊息定位的連結。
+* **targetingFailed**:Campaign Standard無法擴充用於訊息定位的連結。

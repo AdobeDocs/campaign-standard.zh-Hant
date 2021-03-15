@@ -6,10 +6,13 @@ description: 利用自訂欄位和資源讓 Campaign Standard 資料模型豐富
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
+feature: 資料模型
+role: 開發人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 35d61efce8d752ea30b7eaad55e6c23d4debd853
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '340'
 ht-degree: 30%
 
 ---

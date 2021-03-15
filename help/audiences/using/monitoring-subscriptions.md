@@ -6,10 +6,13 @@ description: 瞭解如何使用儀表板和報告來追蹤訂閱者並評估服�
 audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
+feature: 受眾
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '361'
 ht-degree: 1%
 
 ---
@@ -17,7 +20,7 @@ ht-degree: 1%
 
 # 監控訂閱{#monitoring-subscriptions}
 
-使用Adobe Campaign介面來追蹤您的訂閱者並評估服務的成功程度。
+使用Adobe Campaign介面來追蹤訂閱者並評估服務的成功程度。
 
 您有幾個選項可用來監視訂閱與取消訂閱：
 

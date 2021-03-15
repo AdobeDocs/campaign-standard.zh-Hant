@@ -6,10 +6,13 @@ description: 進一步瞭解API端點。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: 資料工程師
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '247'
 ht-degree: 10%
 
 ---
@@ -17,7 +20,7 @@ ht-degree: 10%
 
 # 端點 {#endpoints}
 
-Adobe Campaign REST API的可用端點：
+Adobe CampaignREST API的可用端點：
 
 * **/profileAndServices**:與現成可用的欄位互動。此端點無法訪問擴展欄位。
 * **/profileAndServicesExt**:與在描述檔或服務自訂資源擴充期間新增的自訂欄位互動。有關自定義資源的詳細資訊，請參閱[本節](../../api/using/custom-resources.md)。

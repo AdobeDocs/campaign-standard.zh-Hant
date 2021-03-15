@@ -1,16 +1,19 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 在Adobe Campaign Standard中控制電子郵件內容
-description: 瞭解如何在編輯您的電子郵件內容時，改善Adobe Campaign Standard的傳遞能力。
+title: 控制Adobe Campaign Standard的電子郵件內容
+description: 瞭解如何在編輯您的電子郵件內容時改善Adobe Campaign Standard的傳遞能力。
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
+feature: 傳送能力
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 1e7359db2de1a9c420af33ac85c0597c098ae3f8
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '695'
 ht-degree: 8%
 
 ---
@@ -25,7 +28,7 @@ ht-degree: 8%
 * **個人化您的電子郵件**:個人化電子郵件會增加開啟訊息的機率。
 * **影像和文字**:尊重適當的文字／影像比例（例如60%的文字和40%的影像）。
 * **取消訂閱連結和登陸頁面**:取消訂閱連結是必備的。它必須可見且有效，而且表單必須正常運作。
-* **使用** Adobe Campaign提供的工具來最佳化您的電子郵件內容（傳送分析、反垃圾訊息分析）。
+* **使用** Adobe Campaign提供的工具最佳化您的電子郵件內容（傳送分析、反垃圾訊息分析）。
 
 有關編輯電子郵件內容的其他資訊，請參閱[電子郵件設計人員概述](../../designing/using/designing-content-in-adobe-campaign.md)和[郵件設計最佳實踐](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices)。
 
@@ -55,7 +58,7 @@ ht-degree: 8%
 
 ## 反垃圾郵件分析{#anti-spam-analysis}
 
-Adobe Campaign的訊息編輯器整合了&#x200B;**反垃圾訊息分析**，可讓您對電子郵件進行分數，以判斷訊息是否具有收到時使用的反垃圾訊息工具被視為垃圾訊息的風險。 有關詳細資訊，請參閱[預覽消息](../../sending/using/previewing-messages.md)。
+Adobe Campaign的郵件編輯器整合了&#x200B;**反垃圾郵件分析**，該分析允許您對電子郵件進行分數，以確定郵件是否存在被接收時使用的反垃圾郵件工具視為垃圾郵件的風險。 有關詳細資訊，請參閱[預覽消息](../../sending/using/previewing-messages.md)。
 
 在消息內容編輯器中，按一下&#x200B;**[!UICONTROL Preview]**。 如果反垃圾郵件檢查檢測到此郵件存在高風險，則會發出消息警告。 按一下&#x200B;**[!UICONTROL Anti-spam analysis]**&#x200B;以檢視詳細資訊。
 

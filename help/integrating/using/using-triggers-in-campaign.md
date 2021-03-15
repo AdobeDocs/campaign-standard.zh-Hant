@@ -2,15 +2,17 @@
 solution: Campaign Standard
 product: campaign
 title: 在 Campaign 中使用觸發程式
-description: null
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
+feature: 觸發器
+role: 資料架構師
+level: 中級
 translation-type: tm+mt
-source-git-commit: 83cf4dc73540725d1b642b68091f704806f3eb63
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '751'
-ht-degree: 83%
+source-wordcount: '755'
+ht-degree: 82%
 
 ---
 
@@ -53,7 +55,7 @@ ht-degree: 83%
 
 ## 在促銷活動{#publishing-trigger-in-campaign}中發佈觸發器
 
-根據現有的Adobe Experience Cloud觸發器在Adobe Campaign中建立觸發器事件後，您現在需要發佈它。
+根據現有的Adobe Experience Cloud觸發器在Adobe Campaign建立觸發器事件後，您現在需要發佈它。
 
 1. 在您先前建立的觸發器中，按一下&#x200B;**[!UICONTROL Publish]**&#x200B;按鈕以開始發佈觸發器事件。
 
@@ -73,7 +75,7 @@ ht-degree: 83%
 
    ![](assets/trigger_publish_4.png)
 
-1. 按一下&#x200B;**[!UICONTROL Show Trigger in Experience Cloud]**&#x200B;按鈕可讓您在Adobe Experience Cloud中檢視觸發器定義。
+1. 按一下&#x200B;**[!UICONTROL Show Trigger in Experience Cloud]**&#x200B;按鈕可以在Adobe Experience Cloud查看觸發器定義。
 
 發佈事件之後，就會自動建立連結至新事件的交易式範本。之後，您必須修改並發佈剛建立的範本。如需詳細資訊，請參閱[編輯範本](../../start/using/marketing-activity-templates.md)一節。
 

@@ -6,10 +6,13 @@ description: 瞭解如何使用電子郵件設計工具管理連結。
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
+feature: 電子郵件設計
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '597'
 ht-degree: 2%
 
 ---
@@ -37,9 +40,9 @@ ht-degree: 2%
 
       您可以為URL定義個人化。 請參閱[個人化URL](../../designing/using/using-reusable-content.md#creating-a-content-fragment)。
 
-   * **著陸頁面**:提供Adobe Campaign登陸頁面的存取權。
+   * **著陸頁面**:存取Adobe Campaign登陸頁面。
    * **訂閱連結**:插入訂閱Adobe Campaign服務的連結。
-   * **取消訂閱連結**:插入要取消訂閱Adobe Campaign服務的連結。
+   * **取消訂閱連結**:插入取消訂閱Adobe Campaign服務的連結。
    * **定義動作的連結**:定義著陸頁面中的元素被點按時的動作。
 
       >[!NOTE]
@@ -75,7 +78,7 @@ ht-degree: 2%
 
 ## 關於追蹤的URL {#about-tracked-urls}
 
-Adobe Campaign可讓您在收件者按一下電子郵件中包含的URL時追蹤其行為。 如需追蹤的詳細資訊，請參閱[本節](../../sending/using/tracking-messages.md#about-tracking)。
+Adobe Campaign可讓您追蹤收件者在點按電子郵件中包含的URL時的行為。 如需追蹤的詳細資訊，請參閱[本節](../../sending/using/tracking-messages.md#about-tracking)。
 
 動作列中的&#x200B;**[!UICONTROL Links]**&#x200B;圖示會自動顯示將要追蹤之內容的所有URL清單。
 
@@ -83,7 +86,7 @@ Adobe Campaign可讓您在收件者按一下電子郵件中包含的URL時追蹤
 
 >[!NOTE]
 >
->預設會啟用追蹤。 只有在Adobe Campaign中啟用追蹤時，此功能才適用於電子郵件。 如需追蹤參數的詳細資訊，請參閱[本節](../../administration/using/configuring-email-channel.md#tracking-parameters)。
+>預設會啟用追蹤。 此功能僅適用於電子郵件，前提是追蹤已在Adobe Campaign啟動。 如需追蹤參數的詳細資訊，請參閱[本節](../../administration/using/configuring-email-channel.md#tracking-parameters)。
 
 每個連結的URL、類別、標籤和追蹤類型都可從此清單中修改。 若要編輯連結，請按一下對應的鉛筆圖示。
 
@@ -102,7 +105,7 @@ Adobe Campaign可讓您在收件者按一下電子郵件中包含的URL時追蹤
 
 >[!NOTE]
 >
->依預設，Adobe Campaign會追蹤所有內容URL，但&#x200B;**Mirror page URL**&#x200B;和&#x200B;**Unsubscription**&#x200B;連結除外。
+>依預設，在Adobe Campaign，會追蹤除&#x200B;**鏡像頁面URL**&#x200B;和&#x200B;**取消訂閱**&#x200B;連結以外的所有內容URL。
 
 您可以編輯&#x200B;**[!UICONTROL Category]**&#x200B;欄位，依訊息中使用的URL而重新群組URL。 這些類別可顯示報表，例如在[URL中，然後按一下streams](../../reporting/using/urls-and-click-streams.md)。
 

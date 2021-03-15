@@ -2,14 +2,17 @@
 solution: Campaign Standard
 product: campaign
 title: 使用 Adobe Experience Manager 整合建立多語言電子郵件.
-description: 透過Adobe Experience Manager整合，您可以直接在AEM中建立內容，並稍後在Adobe Campaign中使用。
+description: 透過Adobe Experience Manager整合，您可以直接在中建立內容，AEM並稍後在Adobe Campaign使用。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
+feature: 觸發器
+role: 資料架構師
+level: 中級
 translation-type: tm+mt
-source-git-commit: 3672f0bc4ebc551c4eb34660a3a55d44fa726f1a
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '598'
 ht-degree: 5%
 
 ---
@@ -21,11 +24,11 @@ ht-degree: 5%
 
 先決條件為：
 
-* 存取為整合設定的AEM例項。
+* 存取為整AEM合設定的例項。
 * 存取為整合設定的Adobe Campaign例項。
-* Adobe Campaign多語言電子郵件範本，已設定為接收AEM內容。
+* Adobe Campaign多語言電子郵件範本，設定為接收AEM內容。
 
-## 在Adobe Experience Manager中建立新的電子郵件內容{#creating-email-content-aem}
+## 在Adobe Experience Manager建立新的電子郵件內容{#creating-email-content-aem}
 
 1. 從Adobe Experience Manager首頁，選擇&#x200B;**[!UICONTROL Site]**。
 
@@ -45,19 +48,19 @@ ht-degree: 5%
 
    ![](assets/aem_acs_4.png)
 
-1. 從&#x200B;**[!UICONTROL Workflow]**&#x200B;標籤中，選擇&#x200B;**[!UICONTROL Approve for Adobe Campaign]**&#x200B;驗證工作流。 如果Adobe Campaign使用的內容未經核准，您將無法在Adobe Campaign中傳送電子郵件。
+1. 從&#x200B;**[!UICONTROL Workflow]**&#x200B;標籤中，選擇&#x200B;**[!UICONTROL Approve for Adobe Campaign]**&#x200B;驗證工作流。 如果電子郵件使用的內容未經核准，您將無法在Adobe Campaign傳送電子郵件。
 
    ![](assets/aem_acs_7.png)
 
 1. 從&#x200B;**[!UICONTROL Complete work item]**&#x200B;視窗按一下&#x200B;**[!UICONTROL Complete]**，然後按一下&#x200B;**[!UICONTROL Newsletter review]**。
 
-1. 按一下 **[!UICONTROL Complete]**，之後 **[!UICONTROL Newsletter approval]**。在定義內容和傳送參數後，您就可以在Adobe Campaign Standard中繼續核准、準備和傳送電子郵件。
+1. 按一下 **[!UICONTROL Complete]**，之後 **[!UICONTROL Newsletter approval]**。定義內容和傳送參數後，您就可以在Adobe Campaign Standard繼續核准、準備和傳送電子郵件。
 
    ![](assets/aem_acs_8.png)
 
 ## 建立語言副本{#creating-language-copies}
 
-在設計您的電子郵件內容後，您現在需要建立語言副本，這些副本將與Adobe Campaign Standard同步為變體。
+在設計您的電子郵件內容後，您現在需要建立語言副本，並與Adobe Campaign Standard同步為變體。
 
 1. 選擇您先前建立的頁面，按一下&#x200B;**[!UICONTROL Create]**，然後按一下&#x200B;**[!UICONTROL Language Copy]**。
 
@@ -77,17 +80,17 @@ ht-degree: 5%
 
 >[!CAUTION]
 >
->每個語言副本都需要透過&#x200B;**[!UICONTROL Approve for Adobe Campaign]**&#x200B;驗證工作流程進行核准。 如果Adobe Campaign使用的內容未經核准，您將無法在Adobe Campaign中傳送電子郵件。
+>每個語言副本都需要透過&#x200B;**[!UICONTROL Approve for Adobe Campaign]**&#x200B;驗證工作流程進行核准。 如果電子郵件使用的內容未經核准，您將無法在Adobe Campaign傳送電子郵件。
 
 ![](assets/aem_acs_11.png)
 
-## 在Adobe Campaign Standard {#multilingual-acs}中建立您的多語言內容
+## 在Adobe Campaign Standard建立您的多語言內容{#multilingual-acs}
 
 1. 從Adobe Campaign Standard首頁，按一下&#x200B;**[!UICONTROL Create an email]**。
 
    ![](assets/aem_acs_12.png)
 
-1. 選取您的Adobe Campaign多語言電子郵件範本，此範本設定為接收Adobe Experience Manager內容。 若要進一步瞭解如何建立連結至Adobe Experience Manager例項的範本，請參閱此[頁面](../../integrating/using/configure-experience-manager.md#config-acs)。
+1. 選擇您的Adobe Campaign多語言電子郵件模板，該模板配置為接收Adobe Experience Manager內容。 若要進一步瞭解如何建立連結至您的Adobe Experience Manager例項的範本，請參閱此[頁面](../../integrating/using/configure-experience-manager.md#config-acs)。
 
    >[!NOTE]
    >
@@ -105,7 +108,7 @@ ht-degree: 5%
 
    ![](assets/aem_acs_16.png)
 
-1. 選取您先前建立的Adobe Experience Manager內容，然後按一下&#x200B;**[!UICONTROL Confirm]**。 此處顯示的Adobe Experience Manager內容僅是已驗證的內容，可在&#x200B;**[!UICONTROL Label]**&#x200B;和&#x200B;**[!UICONTROL Path]**&#x200B;上篩選。
+1. 選取您先前建立的Adobe Experience Manager內容，然後按一下&#x200B;**[!UICONTROL Confirm]**。 此處顯示的Adobe Experience Manager內容僅是經驗證的內容，可在&#x200B;**[!UICONTROL Label]**&#x200B;和&#x200B;**[!UICONTROL Path]**&#x200B;上過濾。
 
    >[!NOTE]
    >
@@ -113,7 +116,7 @@ ht-degree: 5%
 
    ![](assets/aem_acs_17.png)
 
-1. 按一下&#x200B;**[!UICONTROL Create variants]**&#x200B;連結您的多語言內容。 然後，Adobe Campaign Standard會自動將其他語言副本連結至此內容。 所建立的變數會與Adobe Experience Manager中選擇的變數具有相同的標籤和程式碼語言。
+1. 按一下&#x200B;**[!UICONTROL Create variants]**&#x200B;連結您的多語言內容。 Adobe Campaign Standard會自動將其他語言版本連結至此內容。 所建立的變體會與在Adobe Experience Manager選擇的變體具有相同的標籤和程式碼語言。
 
    ![](assets/aem_acs_18.png)
 
@@ -121,7 +124,7 @@ ht-degree: 5%
 
    ![](assets/aem_acs_19.png)
 
-1. 如果您的內容或變體已在Adobe Experience Manager中更新，您可以直接在Adobe Campaign Standard中與&#x200B;**[!UICONTROL Refresh AEM contents]**&#x200B;按鈕同步化。
+1. 如果您的內容或變體在Adobe Experience Manager更新，您可以直接在Adobe Campaign Standard與&#x200B;**[!UICONTROL Refresh AEM contents]**&#x200B;按鈕同步。
 
 1. 您的電子郵件現在已可供傳送。 有關此問題的詳細資訊，請參閱此[頁](../../sending/using/get-started-sending-messages.md)。
 

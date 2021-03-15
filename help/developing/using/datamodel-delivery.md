@@ -5,10 +5,13 @@ title: DataModel
 description: 瞭解資料模型
 audience: developing
 content-type: reference
+feature: 資料模型
+role: 開發人員
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '691'
 ht-degree: 6%
 
 ---
@@ -57,7 +60,7 @@ ht-degree: 6%
                </tr>
                <tr>
                   <td>aemContents</td>
-                  <td>Adobe Experience Manager內容</td>
+                  <td>Adobe Experience Manager目錄</td>
                   <td>系列 </td>
                   <td> </td>
                </tr>
@@ -127,8 +130,8 @@ ht-degree: 6%
                   <td>枚舉（位元組） </td>
                   <td>
                      <ul>
-                        <li>Adobe Experience Manager - aem - 1</li>
-                        <li>Adobe Campaign - campaign - 0</li>
+                        <li>Adobe Experience Manager- aem - 1</li>
+                        <li>Adobe Campaign-促銷活動- 0</li>
                         <li>無效值- __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>

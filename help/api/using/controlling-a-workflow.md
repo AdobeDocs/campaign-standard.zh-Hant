@@ -6,24 +6,27 @@ description: 瞭解如何使用API控制工作流程。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: 資料工程師
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 9%
+source-wordcount: '100'
+ht-degree: 10%
 
 ---
 
 
 # 控管工作流程 {#controlling-a-workflow}
 
-您可以直接從REST API，透過包含工作流程ID和必要執行命令的POST請求，控制工作流程：
+您可以直接從REST API控制工作流，透過包含工作流ID和所需執行命令的POST請求：
 
 `POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>/commands`
 
 >[!CAUTION]
 >
->如果Adobe Campaign中的工作流程ID已變更，API要求將無法運作。
+>如果在Adobe Campaign更改了工作區ID,API請求將不再有效。
 
 有四個執行命令可用於控制工作流：
 

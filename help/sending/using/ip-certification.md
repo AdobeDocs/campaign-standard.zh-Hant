@@ -1,16 +1,19 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Adobe Campaign Standard中的允許清單
-description: 瞭解如何使用Adobe Campaign Standard最佳化允許清單。
+title: Adobe Campaign Standard州津貼
+description: 瞭解如何與Adobe Campaign Standard一起最佳化允許清單。
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
+feature: 傳送能力
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '327'
 ht-degree: 0%
 
 ---

@@ -6,11 +6,14 @@ description: 瞭解如何使用API刪除訂閱。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: 資料工程師
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 1%
+source-wordcount: '237'
+ht-degree: 2%
 
 ---
 
@@ -25,7 +28,7 @@ ht-degree: 1%
 
 1. 擷取所要描述檔的訂閱URL。
 1. 對訂閱URL執行GET要求。
-1. 對所需的服務URL執行DELETE請求。
+1. 對所要的服務URL執行DELETE請求。
 
 如果刪除請求成功，回應狀態為204無內容。
 
@@ -33,7 +36,7 @@ ht-degree: 1%
 
 ***請求範例***
 
-下面的示例負載說明如何從服務中取消訂閱profil。 首先執行GET請求以擷取描述檔。
+下面的示例負載說明如何從服務中取消訂閱profil。 首先執行GET請求以檢索配置檔案。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -80,7 +83,7 @@ ht-degree: 1%
 ...
 ```
 
-對所需的服務URL執行DELETE請求。
+對所要的服務URL執行DELETE請求。
 
 ```
 -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \

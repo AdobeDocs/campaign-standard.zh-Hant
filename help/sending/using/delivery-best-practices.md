@@ -6,10 +6,14 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
+description: 瞭解與傳送設計及與Adobe Campaign相關的最佳實務。
+feature: 傳送能力
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: c477012a8404b897640ca3ece1c71e9014adf9bd
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '99'
 ht-degree: 8%
 
 ---
@@ -17,7 +21,7 @@ ht-degree: 8%
 
 # 傳遞最佳實務{#delivery-best-practices}
 
-瞭解與Adobe Campaign的傳送設計和傳送相關的最佳實務。 使用下列連結來導覽主題並尋找指引。
+瞭解與傳送設計及與Adobe Campaign相關的最佳實務。 使用下列連結來導覽主題並尋找指引。
 
 <img src="assets/do-not-localize/optimize.svg"  width="60px">
 

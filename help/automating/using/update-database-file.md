@@ -2,16 +2,19 @@
 solution: Campaign Standard
 product: campaign
 title: 使用外部資料更新資料庫
-description: 此使用案例說明如何使用從檔案中復原的資料新增或更新Adobe Campaign資料庫的設定檔。
+description: 此使用案例介紹如何使用從檔案中恢復的資料向Adobe Campaign資料庫添加或更新配置檔案。
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
 context-tags: writer,main
+feature: 工作流程
+role: 資料架構師
+level: 中級
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 33%
+source-wordcount: '110'
+ht-degree: 32%
 
 ---
 

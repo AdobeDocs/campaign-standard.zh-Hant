@@ -7,9 +7,9 @@ user-guide-description: '說明中心，以瞭解使用 Campaign Standard 所需
 title: Campaign Standard 指南
 breadcrumb-title: 說明中心
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
 workflow-type: tm+mt
-source-wordcount: '1751'
+source-wordcount: '1754'
 ht-degree: 99%
 
 ---
@@ -46,6 +46,7 @@ ht-degree: 99%
       + [隱私權管理](start/using/privacy-management.md)
       + [隱私權要求](start/using/privacy-requests.md)
       + [隱私權常見問答集](start/using/privacy-faq.md)
+   + [說明與支援選項](support.md)
 + 設定檔與對象 {#profiles-and-audiences}
    + [開始使用個人檔案和對象](audiences/using/get-started-profiles-and-audiences.md)
    + 管理設定檔 {#managing-profiles}

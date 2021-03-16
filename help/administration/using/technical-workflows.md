@@ -10,9 +10,9 @@ feature: 例項設定
 role: 管理員
 level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '658'
 ht-degree: 99%
 
 ---
@@ -77,11 +77,6 @@ Adobe Campaign 可立即提供技術工作流程。技術工作流程是排程�
    <td> <span class="uicontrol">KPI 與 Adobe Analytics 之調解</span> <br /> </td> 
    <td> <span class="uicontrol">kpiReconciliation</span> <br /> </td> 
    <td> 此工作流程每天從報告服務擷取 KPI 一次，並與 Adobe Analytics 中的資料進行調解。之後，會視需要推播差異。預設會每天凌晨 4:20 開始。<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="uicontrol">管理 CCPA 選取退出</span> <br /> </td> 
-   <td> <span class="uicontrol">mobileAppOptOutMgt</span> <br /> </td> 
-   <td> 此工作流程會更新行動裝置上通知的取消訂閱。預設會從上午 1:00 到午夜，每 6 小時啟動一次。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">訊息中心本機封存</span> <br /> </td> 

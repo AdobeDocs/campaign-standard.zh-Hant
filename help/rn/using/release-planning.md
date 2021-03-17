@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
 source-wordcount: '470'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -44,18 +44,18 @@ Adobe 透過新增功能、增強功能和修正不斷改進其解決方案。
  <tbody>
   <tr>
    <td>Stage<br /> </td>
-   <td>2021年4月19日至20日<br /> </td>
+   <td>2021 年 4 月 19 日至 20 日<br /> </td>
   </tr>
   <tr>
    <td> 生產<br /> </td>
-   <td>2021年4月26日至5月3日<br /> </td>
+   <td>2021 年 4 月 26 日至 5 月 3 日<br /> </td>
   </tr>
  </tbody>
 </table>
 
 如果您有任何其他問題，請聯絡 [Adobe Client Care](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)。
 
-訂閱 [Campaign Standard 發行通知](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU)，直接在收件匣中取得有關即將發行的詳細資訊。
+訂閱 [Campaign Standard 發行通知](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU)，以直接在收件匣中取得有關即將發行的詳細資訊。
 
 ## 問題與解答 {#questions-and-answers}
 

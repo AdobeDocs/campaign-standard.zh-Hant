@@ -10,9 +10,9 @@ feature: 報告
 role: 領導者
 level: 中級
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: d32bc25fe4e74605ac5cb78c162e242f790bdad5
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '670'
 ht-degree: 5%
 
 ---
@@ -65,21 +65,27 @@ P1會在第一天開啟兩次電子郵件，然後在第二天開啟三次。
 <table> 
  <thead> 
   <tr> 
-   <th align="center"> <strong>日</strong> <br /> </th> 
+   <th align="center"> <strong></strong> <br /> </th> 
    <th align="center"> <strong>開啟的郵件</strong> <br /> </th> 
    <th align="center"> <strong>唯一開啟</strong> <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
+   <td align="center"> <strong> Day </strong><br /> </td> 
+   <td align="center"> <strong> 6  </strong><br /> </td> 
+   <td align="center"> <strong> 2</strong><br /> </td>
+  </tr> 
+  <tr>
+  <tr> 
    <td align="center"> 第1天<br /> </td> 
-   <td align="center"> 6<br /> </td> 
+   <td align="center"> 3<br /> </td> 
    <td align="center"> 2<br /> </td>
   </tr> 
   <tr> 
    <td align="center"> 第2天<br /> </td> 
    <td align="center"> 3<br /> </td> 
-   <td align="center"> 2<br /> </td> 
+   <td align="center"> 1<br /> </td> 
   </tr> 
  </tbody> 
 </table>

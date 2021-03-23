@@ -7,9 +7,9 @@ user-guide-description: '說明中心，以瞭解使用 Campaign Standard 所需
 title: Campaign Standard 指南
 breadcrumb-title: 說明中心
 translation-type: tm+mt
-source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
-source-wordcount: '1754'
+source-wordcount: '1743'
 ht-degree: 99%
 
 ---
@@ -182,11 +182,7 @@ ht-degree: 99%
       + [瞭解隔離管理](sending/using/understanding-quarantine-management.md)
    + 管理傳送能力 {#managing-deliverability}
       + [關於傳送能力](sending/using/about-deliverability.md)
-      + [啟動新平台](sending/using/starting-new-platform.md)
       + [控管電子郵件內容](sending/using/control-email-content.md)
-      + [提升您的名譽](sending/using/improving-reputation.md)
-      + [IP 認證](sending/using/ip-certification.md)
-      + [技術建議](sending/using/technical-recommendations.md)
       + [監控傳送能力](sending/using/monitor-deliverability.md)
       + [疑難排解](sending/using/troubleshooting.md)
    + 使用類型學規則 {#working-with-typology-rules}
@@ -271,8 +267,8 @@ ht-degree: 99%
          + [管理同步工作流程](integrating/using/d365-acs-self-service-app-workflows.md)
          + [在 Microsoft Dynamics 365 和 Campaign 之間對應資料](integrating/using/d365-acs-self-service-app-data-sync.md)
       + [使用 Microsoft Dynamics 365 整合](integrating/using/d365-acs-using-the-integration.md)
-   + 促銷活動與Adobe Experience Platform{#adobe-experience-platform}
-      + 對象目標服務{#audience-destinations}
+   + 行銷活動與 Adobe Experience Platform{#adobe-experience-platform}
+      + 閱聽眾目標服務{#audience-destinations}
          + [關於 Audience Destinations 服務](integrating/using/aep-about-audience-destinations-service.md)
          + [管理 Adobe Experience Platform 閱聽眾](integrating/using/aep-managing-audiences.md)
          + [使用區段建置器](integrating/using/aep-using-segment-builder.md)

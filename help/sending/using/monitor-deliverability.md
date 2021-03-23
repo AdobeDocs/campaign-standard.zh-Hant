@@ -11,10 +11,10 @@ feature: 傳送能力
 role: 業務從業人員
 level: 中級
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 7%
+source-wordcount: '310'
+ht-degree: 10%
 
 ---
 
@@ -26,7 +26,6 @@ ht-degree: 7%
 * 檢查傳送範本中的重試設定是否正確（重試期間為30分鐘，重試次數超過20次）。
 * 定期確認彈回信箱是否可存取，且帳戶不會過期。
 * 檢查每個傳送吞吐量，以確定其與傳送內容的有效性一致(例如：&#39;flash銷售&#39;應在幾分鐘內完成，而非數天內完成)。
-* 使用波時，請確認每個波在觸發下一波之前有足夠的時間完成。
 * 檢查錯誤數和新隔離數量是否與其他遞送一致。
 * 請仔細查閱傳送記錄，以檢查反白顯示的錯誤類型（登入清單、DNS問題、反垃圾訊息規則等）。
 
@@ -56,16 +55,18 @@ ht-degree: 7%
 
 有關詳細資訊，請參閱[發生故障時接收警報](../../sending/using/receiving-alerts-when-failures-happen.md)。
 
-## 信號垃圾郵件{#signal-spam}
+<!--## External tools (#external-tools)
 
-Signal Spam是法國服務，為法國ISP(Orange、SFR)提供匿名回饋迴路報告。
+### Signal Spam {#signal-spam}
 
-本服務可讓您追蹤法國ISP的聲譽，並追蹤客戶的活動演變。
+Signal Spam is a French service which offers anonymized feedback loop reporting for French ISPs (Orange, SFR).
 
-Signal Spam也提供直接投訴，讓使用者透過專用介面登入。 然後，這些投訴會被隔離在電子郵件地址資料庫中。
+This service allows you to follow the reputation of the French ISPs and track customers' activity evolution.
 
-## 250ok {#solution-250ok}
+Signal Spam also provides direct complaints that end users log through a dedicated interface. Those complaints are then quarantined from the email address database.
 
-250ok是一種監控解決方案，提供IP和網域密碼表，以及信譽指標。
+### 250ok {#solution-250ok}
 
-提供的資訊是即時的，可提供主動幫助。 250ok是Adobe傳遞能力內部工具的輔助解決方案。
+250ok is a monitoring solution which provides IP and domain denylists, as well as reputation indicators.
+
+The information provided is real-time, which allows for a pro-active assistance. 250ok a complementary solution to the Adobe deliverability internal tools.-->

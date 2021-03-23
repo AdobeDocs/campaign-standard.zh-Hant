@@ -11,10 +11,10 @@ feature: 傳送能力
 role: 業務從業人員
 level: 中級
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 1%
+source-wordcount: '471'
+ht-degree: 2%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 1%
 
 * **拒絕清單上的電子郵件地址與隔離的電子郵件地址之間有何區別？**
 
-   * 狀態&#x200B;**[!UICONTROL On denylist]**&#x200B;是回饋迴路的結果（當某人將訊息報告為垃圾訊息時）。
+   * 狀態&#x200B;**[!UICONTROL On denylist]**&#x200B;是[反饋循環](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops)（當某人將郵件報告為垃圾郵件時）的結果。
 
    * 狀態&#x200B;**[!UICONTROL Quarantined]**&#x200B;是軟反彈或硬反彈的結果。
    如需詳細資訊，請參閱[本區段](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)。

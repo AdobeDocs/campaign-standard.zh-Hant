@@ -11,10 +11,10 @@ feature: 傳送能力
 role: 業務從業人員
 level: 中級
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
 source-wordcount: '99'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 8%
 
 <img src="assets/do-not-localize/custom.svg"  width="60px">
 
-**[個人化內容](optimize-delivery.md)** -套用正確的設定
+**[個人化內容](design-and-personalize.md)** -套用正確的設定
 
 <img src="assets/do-not-localize/profiles.svg"  width="60px">
 

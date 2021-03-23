@@ -9,10 +9,10 @@ topic-tags: about-sending-messages-with-campaign
 role: 業務從業人員
 level: 中級
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 15%
+source-wordcount: '598'
+ht-degree: 14%
 
 ---
 
@@ -86,9 +86,8 @@ Campaign Standard提供數種&#x200B;**可傳遞性工具**，幫助您改進成
 
 * [關於傳遞能力](../../sending/using/about-deliverability.md)
 * [監視傳遞能力](../../sending/using/monitor-deliverability.md)
-* [提升您的名譽](../../sending/using/improving-reputation.md)
-* [技術建議](../../sending/using/technical-recommendations.md)
-* [控制傳送總處理量](../../reporting/using/delivery-throughput.md)
+* [Adobe交付能力最佳實踐指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html)
+* [控制傳送吞吐量](../../reporting/using/delivery-throughput.md)
 
 ## 其他資源
 

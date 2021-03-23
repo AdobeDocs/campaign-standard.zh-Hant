@@ -10,10 +10,10 @@ feature: 概觀
 role: 業務從業人員
 level: 初學者
 translation-type: tm+mt
-source-git-commit: a632087e69a952ff71b828670a1df19ead3dc2c8
+source-git-commit: dd71d843436220c0313d08d76c17633306301456
 workflow-type: tm+mt
-source-wordcount: '6639'
-ht-degree: 99%
+source-wordcount: '6736'
+ht-degree: 98%
 
 ---
 
@@ -26,9 +26,15 @@ ht-degree: 99%
 
 列出傳送訊息之關鍵步驟的章節已增強，並附上其他資訊和參考。 [顯示全文](../../channels/using/key-steps-to-send-a-message.md)
 
-已新增資訊，以指定在查詢中選取au audience時，其定義會被複製而非參考。 [顯示全文](../../audiences/using/selecting-an-audience-in-a-message.md)
+已新增資訊，以指定在查詢中選取 au 閱聽眾時，其定義會被複製而非參考。 [顯示全文](../../audiences/using/selecting-an-audience-in-a-message.md)
 
-與觀眾目標服務和Adobe Experience Platform資料連接器相關的資訊已重新分組為新區段。 [顯示全文](../../integrating/using/aep-about-audience-destinations-service.md)
+與閱聽眾目標服務和 Adobe Experience Platform 資料連接器相關的資訊已重新分組為新部分。 [顯示全文](../../integrating/using/aep-about-audience-destinations-service.md)
+
+**Declared** ID資料來源現在也可與People核心服務整合搭配使用。已在促銷活動Audience Manager或人員核心服務整合檔案中新增資訊。 [顯示全文](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
+
+已新增有關如何為行動應用程式實施本機追蹤的資訊。 [顯示全文](../../administration/using/local-tracking.md)
+
+[傳遞能力](../../sending/using/about-deliverability.md)區段已更新，現在包含新[Adobe傳遞能力最佳實踐指南](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html)的連結。 與可適用於各種Adobe解決方案的傳遞能力相關的所有一般資訊都已移至[最佳實踐指南附錄](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html#additional-resources)。
 
 ## 版本 21.1 – 2021 年 2 月 {#release-21-1---february-2021}
 
@@ -274,7 +280,7 @@ Adobe Campaign Enhanced MTA 說明檔案說明升級的傳送基礎架構，可�
 
 ## 2020 年 1 月 {#doc-updates-january-2020}
 
-傳送檔案已更新為 IP 認證的新區段。[瞭解詳情](../../sending/using/ip-certification.md)
+傳送檔案已更新為 IP 認證的新區段。<!--[Read more](../../sending/using/ip-certification.md)-->
 
 目前提供新區段，說明如何建立跨通道傳送工作流程。[瞭解詳情](../../automating/using/workflow-cross-channel-delivery.md)
 

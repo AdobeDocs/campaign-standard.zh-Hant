@@ -11,9 +11,9 @@ feature: 傳送能力
 role: 業務從業人員
 level: 中級
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '754'
 ht-degree: 6%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 6%
 
    * 在檢查您的電子郵件是否具有傳遞能力時，您希望將重點放在四個主要類別：資料品質、訊息和內容、傳送基礎架構和聲譽。 有關本主題的深入探討，請參閱[本節](../../sending/using/about-deliverability.md)。
 
-* 啟動新平台時，請套用本頁](../../sending/using/starting-new-platform.md)中詳細的[建議。
+* 啟動新平台時，請套用本頁[中詳細說明的建議。](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html#transition-process)
 
 * 請洽詢您的Adobe代表以取得協助。
 

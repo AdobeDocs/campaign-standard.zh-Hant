@@ -10,7 +10,7 @@ feature: 電子郵件設計
 role: 業務從業人員
 level: 中級
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
 source-wordcount: '2578'
 ht-degree: 3%

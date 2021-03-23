@@ -11,9 +11,9 @@ feature: 說明與支援選項
 role: 業務從業人員
 level: 初學者
 translation-type: tm+mt
-source-git-commit: a632087e69a952ff71b828670a1df19ead3dc2c8
+source-git-commit: 9cb375656d57f6ff19ff24b72ccbf83dee54b6a1
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '568'
 ht-degree: 5%
 
 ---
@@ -37,42 +37,50 @@ ht-degree: 5%
 
 <img src="start/using/assets/do-not-localize/icon-faq.svg" width="60px">
 
-### 主題問答
-
-依主題閱讀一組特定問答：
-
-* [傳送能力](sending/using/monitor-deliverability.md)
-* [InApp和推播通知](administration/using/aep-faq.md)
-* [電子郵件設計工具](designing/using/faq-email-designer.md)
-
-### 常見問題
-
-* [工作流程中的錯誤管理](automating/using/monitoring-workflow-execution.md#error-management)
-* [工作流程執行疑難排解](automating/using/best-practices-workflows.md)
-* [API疑難排解](api/using/troubleshooting.md)
-* [瞭解交付失敗](sending/using/understanding-delivery-failures.md)
-
-### 最佳實務
-
-* [工作流程最佳實務](automating/using/best-practices-workflows.md)
-* [工作流程監控](automating/using/about-workflow-execution.md)
-* [瞭解追蹤管理](sending/using/tracking-messages.md)
-* [傳遞能力最佳實務](sending/using/about-deliverability.md)
-* [使用工作流程匯入資料](automating/using/creating-import-workflow-templates.md)
-* [時區管理](sending/using/sending-messages-at-the-recipient-s-time-zone.md)
-* [在失敗時收到通知](sending/using/receiving-alerts-when-failures-happen.md)
-* [匯入或轉換電子郵件內容](designing/using/using-existing-content.md)
-* [傳遞最佳實務](sending/using/delivery-best-practices.md)
-
-### 操作說明
-
-* [升級至新版本](rn/using/release-planning.md)
-* [監控傳送](sending/using/monitoring-a-delivery.md)
-* [瞭解隔離管理](sending/using/understanding-quarantine-management.md)
-* [隱私權與同意管理](start/using/privacy-management.md)
-* [設計查詢](automating/using/query.md)
-* [查詢示例](automating/using/query-samples.md)
-* [設定行動頻道](https://helpx.adobe.com/campaiacs-mobile.html)
+<table>
+    <tr><td><strong>主題問答</strong></td><td><strong>常見問題</strong></td><td><strong>最佳實務</strong></td><td><strong>操作說明</strong></td></tr>
+    <tr>
+    <td valign="top">
+        <ul>
+        <li><a href="sending/using/monitor-deliverability.md">傳送能力</a></li>
+        <li><a href="administration/using/aep-faq.md">InApp和推播通知</a></li>
+        <li><a href="designing/using/faq-email-designer.md">電子郵件設計工具</a></li>
+        </ul>
+    </td>
+    <td valign="top">
+        <ul>
+        <li><a href="automating/using/monitoring-workflow-execution.md#error-management">工作流程中的錯誤管理</a></li>
+        <li><a href="automating/using/best-practices-workflows.md">工作流程執行疑難排解</a></li>
+        <li><a href="api/using/troubleshooting.md">API疑難排解</a></li>
+        <li><a href="sending/using/understanding-delivery-failures.md">瞭解傳送失敗</a></li>
+        </ul>
+    </td>
+   <td valign="top">
+        <ul>
+        <li><a href="automating/using/best-practices-workflows.md">工作流程最佳實務</a></li>
+        <li><a href="automating/using/about-workflow-execution.md">工作流程監控</a></li>
+        <li><a href="sending/using/tracking-messages.md">瞭解追蹤管理</a></li>
+        <li><a href="sending/using/about-deliverability.md">傳遞能力最佳實務</a></li>
+        <li><a href="automating/using/creating-import-workflow-templates.md">使用工作流程匯入資料</a></li>
+        <li><a href="sending/using/sending-messages-at-the-recipient-s-time-zone.md">時區管理</a></li>
+        <li><a href="sending/using/receiving-alerts-when-failures-happen.md">在失敗時收到通知</a></li>
+        <li><a href="designing/using/using-existing-content.md">匯入或轉換電子郵件內容</a></li>
+        <li><a href="sending/using/delivery-best-practices.md">傳遞最佳實務</a></li>
+        </ul>
+    </td>
+    <td valign="top">
+        <ul>
+        <li><a href="rn/using/release-planning.md">升級至新版本</a></li>
+        <li><a href="sending/using/monitoring-a-delivery.md">監控傳送</a></li>
+        <li><a href="sending/using/understanding-quarantine-management.md">瞭解隔離管理</a></li>
+        <li><a href="start/using/privacy-management.md">隱私權與同意管理</a></li>
+        <li><a href="automating/using/query.md">設計查詢</a></li>
+        <li><a href="automating/using/query-samples.md">查詢示例</a></li>
+        <li><a href="https://helpx.adobe.com/campaiacs-mobile.html">設定行動頻道</a></li>
+        </ul>
+    </td>
+    </tr>
+</table>
 
 ## Campaign 控制面板
 
@@ -107,7 +115,7 @@ ht-degree: 5%
 
 <img src="start/using/assets/do-not-localize/icon-support.svg" width="60px">
 
-新訂票系統已通過[Adobe Admin Console](https://adminconsole.adobe.com/overview)。 新系統要求每個使用者都有新的個別帳戶，並擁有正確的權限。 如果您發現無法與Adobe ID登入，請透過Experience League申請存取權，客戶服務團隊會盡快為您設定。 [進一步了解](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
+新的訂票系統已通過[Adobe Admin Console](https://adminconsole.adobe.com/overview)。 新系統要求每個使用者都有新的個別帳戶，並擁有正確的權限。 如果您發現無法與Adobe ID登入，請透過Experience League申請存取權，客戶服務團隊會盡快為您設定。 [進一步了解](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
 
 ### 問專家！
 
@@ -115,9 +123,7 @@ ht-degree: 5%
 
 ### 建立票證或開始聊天
 
-建立案例可讓您聯絡Adobe客戶支援團隊，瞭解您在Adobe產品上遇到的任何問題。
-
-為協助解決或疑難排解您的問題，Adobe Admin Console將允許您與Adobe客戶支援部門進行交談。
+建立案例可讓您聯絡Adobe客戶支援團隊，瞭解您在Adobe產品上遇到的任何問題。 為協助解決或疑難排解您的問題，Adobe Admin Console將允許您與Adobe客戶支援部門進行交談。
 
 要在該新系統中記錄問題或啟動聊天會話，請連接到[Adobe Admin Console](https://adminconsole.adobe.com/overview)。
 

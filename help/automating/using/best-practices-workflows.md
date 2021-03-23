@@ -11,10 +11,10 @@ feature: 工作流程
 role: 資料架構師
 level: 初學者
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: b82335a0c0bf1abc7b9645beee83ac659c4d6b83
 workflow-type: tm+mt
 source-wordcount: '1183'
-ht-degree: 85%
+ht-degree: 84%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 85%
 
 ### 工作流程數量
 
-依預設，我們建議不要同時執行超過 20 個作用中的工作流程。達到此限制之後，會將工作流程排入佇列，以免影響效能。同樣地，Adobe 建議您將工作流程執行分散到不同的時間。
+依預設，我們建議不要同時執行超過 20 個作用中的工作流程。達到此限制之後，會將工作流程排入佇列，以免影響效能。同樣地，Adobe建議您將工作流程執行分散到一段時間。
 在特定情況下，您可能需要執行超過 20 個工作流程。不適用於等待排程執行的工作流程。若是如此，您需要向 Campaign 專家檢查使用案例，並聯絡 Adobe 客戶服務以提高限制。
 
 >[!NOTE]

@@ -10,10 +10,10 @@ feature: 概觀
 role: 業務從業人員
 level: 初學者
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 274a9db2061f78dae9e31790629485d0411d83fb
 workflow-type: tm+mt
 source-wordcount: '2482'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 99%
 <li><b>傳遞的</b>指標的計算現在基於來自增強型 MTA 的即時回饋，以改進精確度和反應性。</li>
 <li>EFS 可解決同步軟退信的延遲問題。</li>
 </ul>
-<p>如需詳細資訊，請參閱<a href="../../sending/using/confirming-the-send.md#message-indicators">詳細文件</a>。
+<p>如需詳細資訊，請參閱<a href="../../sending/using/confirming-the-send.md">詳細文件</a>。
 </p>
 </td> 
 </tr> 

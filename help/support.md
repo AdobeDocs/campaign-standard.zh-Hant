@@ -11,9 +11,9 @@ feature: 說明與支援選項
 role: 業務從業人員
 level: 初學者
 translation-type: tm+mt
-source-git-commit: 9cb375656d57f6ff19ff24b72ccbf83dee54b6a1
+source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '593'
 ht-degree: 5%
 
 ---
@@ -91,9 +91,13 @@ ht-degree: 5%
 「控制面板」可讓您管理每個執行個體的設定並追蹤使用情形，協助您以產品Campaign Standard管理員的身分提高工作效率。
 [按一](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=en#discover-control-panel) 下這裡以取得詳細資訊。
 
+>[!NOTE]
+>
+>所有管理員使用者都可存取控制面板。 授予使用者管理員存取權的步驟詳見[本頁](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel)。
+
 ### 如何存取控制面板？
 
-控制面板可直接從Adobe Experience Cloud獲得。 僅供管理員使用者存取。 [按一](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=en#discover-control-panel) 下這裡以取得詳細資訊。
+控制面板可直接從Adobe Experience Cloud獲得。 [按一](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=en#discover-control-panel) 下這裡以取得詳細資訊。
 
 ### 「控制面板」常見問答集
 

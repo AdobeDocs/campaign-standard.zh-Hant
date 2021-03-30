@@ -11,10 +11,10 @@ feature: 例項設定
 role: 管理員
 level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
 workflow-type: tm+mt
-source-wordcount: '1777'
-ht-degree: 84%
+source-wordcount: '1778'
+ht-degree: 83%
 
 ---
 
@@ -91,10 +91,7 @@ SFTP 伺服器可從「控制面板」進行管理。如需詳細資訊，請參
 
 >[!NOTE]
 >
->控制面板僅適用於 AWS 代管客戶的管理員使用者。
-
->
->[在此處](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/faq.html#ims-org-id)查看您的執行個體是否在 AWS 上代管。
+>所有管理員使用者都可存取控制面板。 授予使用者管理員存取權的步驟詳見[本頁](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel)。
 
 ## OAuth 2.0帳戶{#oauth-account}
 

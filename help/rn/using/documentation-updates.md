@@ -10,9 +10,9 @@ feature: 概觀
 role: 業務從業人員
 level: 初學者
 translation-type: tm+mt
-source-git-commit: dd71d843436220c0313d08d76c17633306301456
+source-git-commit: 7bea3b75467d52cb4ffed77416df7c0baf5480e2
 workflow-type: tm+mt
-source-wordcount: '6736'
+source-wordcount: '6748'
 ht-degree: 98%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 98%
 除了 Adobe Campaign [發行版本](../../rn/using/release-notes.md)以外，本頁還列出 Adobe Campaign Standard 檔案中的所有新更新。
 
 ## 2021 年 3月 {#doc-updates-march-2021}
+
+Campaign Standard的「說明與支援選項」頁面已整合至核心檔案。 [顯示全文](../../support.md)
 
 列出傳送訊息之關鍵步驟的章節已增強，並附上其他資訊和參考。 [顯示全文](../../channels/using/key-steps-to-send-a-message.md)
 
@@ -148,7 +150,7 @@ Campaign Standard 頁面中的「隱私權管理」已更新，其中包括如�
 
 新增使用案例，以說明如何使用「控制面板」及「行銷活動工作流程」進行資料[加密](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt)與[解密](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt)。
 
-舊版支援網站的參考已由新 URL 取代。[進一步瞭解](https://helpx.adobe.com/tw/campaign/kb/ac-support.html)
+舊版支援網站的參考已由新 URL 取代。[進一步瞭解](../../support.md)
 
 自訂 Litmus 帳戶設定已從收件匣轉譯功能中移除。[顯示全文](../../sending/using/email-rendering.md)
 

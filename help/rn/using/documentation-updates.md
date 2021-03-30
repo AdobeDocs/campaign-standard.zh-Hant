@@ -6,7 +6,7 @@ description: 瞭解 Adobe Campaign Standard 檔案的所有最新更新。
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: 概觀
+feature: 概覽
 role: 業務從業人員
 level: 初學者
 translation-type: tm+mt
@@ -26,7 +26,7 @@ ht-degree: 98%
 
 Campaign Standard的「說明與支援選項」頁面已整合至核心檔案。 [顯示全文](../../support.md)
 
-列出傳送訊息之關鍵步驟的章節已增強，並附上其他資訊和參考。 [顯示全文](../../channels/using/key-steps-to-send-a-message.md)
+列出傳送訊息關鍵步驟的章節已增強，並附上其他資訊和參考。[顯示全文](../../channels/using/key-steps-to-send-a-message.md)
 
 已新增資訊，以指定在查詢中選取 au 閱聽眾時，其定義會被複製而非參考。 [顯示全文](../../audiences/using/selecting-an-audience-in-a-message.md)
 
@@ -450,7 +450,7 @@ Campaign Standard 及 Campaign Classic 的錯誤訊息清單已更新。[瞭解�
 
 直接從 Adobe Campaign 取得的內容說明連結已更新。
 
-以下[頁面](https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/overview.translate.html)成為 Adobe Campaign Standard 的官方「視訊」頁面。
+以下[頁面](https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/overview.html)成為 Adobe Campaign Standard 的官方「視訊」頁面。
 
 已新增資料保留的區段，包括標準表格的預設保留值。[瞭解詳情](../../administration/using/data-retention.md)
 
@@ -938,7 +938,7 @@ Creative SDK的增強影像版本功能 – [瞭解詳情](../../designing/using
 
 Amazon Simple Storage Service (S3) 連接器 – [瞭解詳情](../../administration/using/external-accounts.md)
 
-Dreamweaver 整合即時 – [瞭解詳情](https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.translate.html)
+Dreamweaver 整合即時 – [瞭解詳情](https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html)
 
 **此版本隨附的其他文件更新**
 

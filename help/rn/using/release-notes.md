@@ -6,7 +6,7 @@ description: 本頁詳細說明最新 Campaign Standard 版本的內容
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: 概觀
+feature: 概覽
 role: 業務從業人員
 level: 初學者
 translation-type: tm+mt

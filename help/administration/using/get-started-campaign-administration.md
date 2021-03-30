@@ -10,9 +10,9 @@ feature: 存取管理
 role: 管理員
 level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '641'
 ht-degree: 14%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 14%
 >
 >如果您對實作和設定事項有任何疑問或要求，請連絡您的Adobe銷售代表。
 
-請注意，如果您的實例是在AWS上代管，管理員用戶也可以利用Campaign Control Panel來管理每個實例的設定和跟蹤使用實例。 如需詳細資訊，請參閱[專屬文件](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)。
+請注意，管理員使用者也可以運用「促銷活動控制面板」來管理每個例項的設定和追蹤使用實例。 如需詳細資訊，請參閱[專屬文件](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)。
 
 ## 管理菜單{#administration-menu}
 

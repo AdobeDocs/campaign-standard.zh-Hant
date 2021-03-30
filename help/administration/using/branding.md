@@ -11,10 +11,10 @@ feature: 例項設定
 role: 管理員
 level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
 workflow-type: tm+mt
-source-wordcount: '1254'
-ht-degree: 80%
+source-wordcount: '1286'
+ht-degree: 78%
 
 ---
 
@@ -93,6 +93,10 @@ ht-degree: 80%
 您可以在Campaign中新增組織實體，或建立新類型的電子郵件，您需要在不同的子網域下傳送。 若要執行此動作，請依照下列步驟：
 
 1. **配置新子域** -對於要由Adobe使用的任何新子域，第一步是配置該子域。您可以透過[促銷活動控制面板](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/subdomains-and-certificates/subdomains-branding.html)執行此動作，或聯絡Adobe技術聯絡人。 在本文](https://helpx.adobe.com/tw/campaign/kb/domain-name-delegation.html)中進一步瞭解子網域設定[。
+
+   >[!NOTE]
+   >
+   >所有管理員使用者都可存取控制面板。 授予使用者管理員存取權的步驟詳見[本頁](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel)。
 
 1. **建立票證** -一旦配置了子域，Adobe將需要在生產環境中設定它。若要要求此項，請[建立票證給Client Care](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)，並提供下列資訊：
 

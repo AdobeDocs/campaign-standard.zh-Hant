@@ -6,14 +6,14 @@ description: 瞭解 Adobe Campaign Standard 工作區中的協助工具支援。
 audience: designing
 content-type: reference
 topic-tags: accessibility
-feature: Campaign
-role: 業務從業人員
-level: 中級
-translation-type: tm+mt
+feature: 行銷活動
+role: 商務從業人員
+level: 中繼
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '611'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

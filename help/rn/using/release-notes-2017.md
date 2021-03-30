@@ -10,7 +10,7 @@ feature: 概觀
 role: 業務從業人員
 level: 初學者
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 274a9db2061f78dae9e31790629485d0411d83fb
 workflow-type: tm+mt
 source-wordcount: '4631'
 ht-degree: 5%
@@ -44,7 +44,7 @@ ht-degree: 5%
   </tr> 
   <tr> 
    <td> 內容建立：從URL<br />匯入 </td> 
-   <td> 從URL匯入可讓您從網站快速擷取創意內容，以建立任何遞送的電子郵件。 此外，您還可讓協力廠商直接透過URL分享內容，以簡化您的創作流程。 匯入的內容可彈性地用作單一傳送的一部分，或在範本層級使用，以確保所有相關促銷活動（不論是以工作流程為基礎或交易性訊息）的品牌一致性，並包含A/B或多變數測試。 從URL匯入會自動轉換並追蹤所有連結，以透過動態報表監控電子郵件效能。<br /> 如需詳細資訊，請參閱詳 <a href="../../designing/using/using-existing-content.md#importing-content-from-a-url">細檔案</a>。<br /> </td> 
+   <td> 從URL匯入可讓您從網站快速擷取創意內容，以建立任何遞送的電子郵件。 此外，您還可讓協力廠商直接透過URL分享內容，以簡化您的創作流程。 匯入的內容可彈性地用作單一傳送的一部分，或在範本層級使用，以確保所有相關促銷活動（不論是以工作流程為基礎或交易性訊息）的品牌一致性，並包含A/B或多變數測試。 從URL匯入會自動轉換並追蹤所有連結，以透過動態報表監控電子郵件效能。<br /> 如需詳細資訊，請參閱詳 <a href="../../designing/using/using-existing-content.md">細檔案</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>

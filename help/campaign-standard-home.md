@@ -4,7 +4,7 @@ solution: Campaign Standard
 product: campaign
 title: Adobe Campaign Standard 產品文件
 description: 瀏覽　Adobe Campaign Standard 產品文件
-feature: 概觀
+feature: 概覽
 role: 業務從業人員
 level: 初學者
 translation-type: tm+mt
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 * **[促銷活動 21.1 2 月版本已上線！](rn/using/release-notes.md)**<br/>探索新功能、最新更新和修正
 
-* **[更新不正確的硬退信](https://helpx.adobe.com/campaign/kb/update-bounce-qualification.html)**<br/>&#x200B;瞭解如何在 Gmail 中斷後更新不正確的硬退信
+* **[更新不正確的硬退信](https://helpx.adobe.com/tw/campaign/kb/update-bounce-qualification.html)**<br/>&#x200B;瞭解如何在 Gmail 中斷後更新不正確的硬退信
 
 * **[控制組](sending/using/control-group.md)**<br/>透過排除部分對象，以評估行銷活動的影響
 

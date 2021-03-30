@@ -10,9 +10,9 @@ feature: 設定檔
 role: 業務從業人員
 level: 中級
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '310'
 ht-degree: 6%
 
 ---
@@ -26,10 +26,9 @@ Adobe Campaign提供顯示作用中描述檔數目的報表。 此報告僅提�
 
 >[!NOTE]
 >
->如果您是在AWS上代管，並使用來自build 10368的Campaign Standard，您也可以直接從控制面板監視實例上使用的活動配置檔案的數量。 有關詳細資訊，請參閱[控制面板文檔](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html)。
+>如果您使用來自build 10368的Campaign Standard，您也可以直接從「控制面板」監視實例上使用的活動配置檔案數。 有關詳細資訊，請參閱[控制面板文檔](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html)。
 >
 >請注意，「作用中描述檔」度量僅適用於&#x200B;**行銷例項**。 它不適用於執行實例，即MID（中間採購）和RT（消息中心／即時消息）實例。
-
 
 交貨準備期間排除的設定檔（類型學規則、隔離、控制群組）不會納入考量。 被多個傳遞項目鎖定的用戶檔案將只計算一次。在報表底部，您會找到每個定位維度的作用中描述檔清單。
 

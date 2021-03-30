@@ -6,14 +6,14 @@ description: 本頁列出 2020 年的所有 Adobe Campaign Standard 版本。
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: 概觀
+feature: 概覽
 role: 業務從業人員
 level: 初學者
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5327'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 99%
 
 [發行計畫](https://helpx.adobe.com/tw/campaign/kb/acs-release-planning.html) | [控制面板版本](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/release-notes.html) | [文件更新](../../rn/using/documentation-updates.md) | [先前的發行版本](../../rn/using/release-notes-2019.md) | [已過時的功能](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=zh-Hant#release-notes)
 
-![](assets/do-not-localize/cp-icon.png) **新的控制面板 6 月版本**，包含作用中設定檔監控、子網域傳遞送能力稽核及 GPG 金鑰管理。[進一步瞭解](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)。
+![](assets/do-not-localize/cp-icon.png) **新的控制面板 6 月版本**，包含作用中設定檔監控、子網域傳遞送能力稽核及 GPG 金鑰管理。[進一步瞭解](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/release-notes.html)。
 
-![](assets/do-not-localize/cp-icon.png) **新控制面板 10 月發行版本**，其中包含使用 CNAME 的網域設定及新的資料庫監控功能。[進一步瞭解](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)。
+![](assets/do-not-localize/cp-icon.png) **新控制面板 10 月發行版本**，其中包含使用 CNAME 的網域設定及新的資料庫監控功能。[進一步瞭解](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/release-notes.html)。
 
 ## 發行版本 20.4 – 2020 年 10 月 {#release-20-4---october-2020}
 
@@ -210,7 +210,7 @@ ht-degree: 99%
 <li>存取權限與刪除權限：我們已運用 GDPR 和 CCPA 新增的功能。<a href="https://helpx.adobe.com/content/help/tw/campaign/kb/acs-privacy.html#righttoaccess">進一步瞭解</a> </li>
 <li><p>建立隱私權要求時，PDPA 規則類型已新增至隱私權核心服務。此方法是您應該用於所有存取和刪除請求的方法。不建議使用促銷活動 API 和介面來存取和刪除請求。請參閱「<a href="../../rn/using/deprecated-features.md">已過時和已移除的功能</a>」文章。</p></li>
 </ul>
-<p>請參閱<a href="https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/privacy/privacy-overview.translate.html">作法影片</a>。</p>
+<p>請參閱<a href="https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/privacy/privacy-overview.html">作法影片</a>。</p>
 </td> 
 </tr> 
 </tbody> 
@@ -231,7 +231,7 @@ ht-degree: 99%
 <li>從 JSON 選取並使用陣列物件，而不需將物件命名為 "data"，或讓它位於頂層。</li>
 </ul>
 <p><strong>注意：</strong>客戶在其工作流程中，需要使用 GA External API 活動來<strong>取代所有測試版 External API 活動</strong>。使用 External API 測試版的工作流程將在 20.3 中停止運作。</p>
-<p>如需詳細資訊，請參閱<a href="../../automating/using/external-api.md">詳細文件</a>及<a href="https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/managing-processes-and-data/data-management-activities/external-api-activity.translate.html">作法影片</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../../automating/using/external-api.md">詳細文件</a>及<a href="https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">作法影片</a>。</p>
 </td> 
 </tr> 
 </tbody> 
@@ -294,7 +294,7 @@ ht-degree: 99%
 * 修正使用者無法變更報告的錯誤。(CAMP-42505)
 
 
-![](assets/do-not-localize/cp-icon.png) **新的控制面板可能會與 CNAME 子網域發行**&#x200B;憑證續約。[進一步瞭解](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)。
+![](assets/do-not-localize/cp-icon.png) **新的控制面板可能會與 CNAME 子網域發行**&#x200B;憑證續約。[進一步瞭解](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/release-notes.html)。
 
 ## 版本 20.2 – 2020 年 4 月 {#release-20-2---april-2020}
 
@@ -324,7 +324,7 @@ ht-degree: 99%
  <tbody> 
   <tr> 
    <td> <p>除了測試設定檔以外，您現在還可以在真正的目標設定檔上測試電子郵件。這可讓您獲得設定檔將會收到的訊息的精確表示：自訂欄位、動態和個人化資訊，包括工作流程的其他資料等。 </p>
-    <p>如需詳細資訊，請參閱<a href="../../sending/using/testing-messages-using-target.md">詳細文件</a>及<a href="https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.translate.html">教學影片</a>。 </p>
+    <p>如需詳細資訊，請參閱<a href="../../sending/using/testing-messages-using-target.md">詳細文件</a>及<a href="https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html">教學影片</a>。 </p>
    </td> 
   </tr> 
  </tbody> 
@@ -332,7 +332,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->新功能將於 4 月在「Campaign 控制面板」中發佈，包括 Google TXT 記錄管理、資料庫空間監控和電子郵件警報。有關這些功能的詳細資訊，請參閱[控制面板發行說明](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)。
+>新功能將於 4 月在「Campaign 控制面板」中發佈，包括 Google TXT 記錄管理、資料庫空間監控和電子郵件警報。有關這些功能的詳細資訊，請參閱[控制面板發行說明](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/release-notes.html)。
 
 **改進**
 
@@ -411,7 +411,7 @@ ht-degree: 99%
  <tbody> 
   <tr> 
    <td> <p>Adobe Experience Platform Data Connector 現在已與 Adobe Campaign Standard 整合。您可以將 XTK 資料（在 Campaign 中收錄的資料）對應至 Adobe Experience Platform 資料模型 (XDM)，讓您的 Campaign 資料可在 Adobe Experience Platform 上使用。 </p>
-    <p>請注意，此功能僅適用於 Azure 上代管的客戶。如需啟動此功能與條件的詳細資訊，請參閱<a href="../../integrating/using/aep-about-data-connector.md">詳細文件</a>及<a href="https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.translate.html">作法影片</a>。</p>
+    <p>請注意，此功能僅適用於 Azure 上代管的客戶。如需啟動此功能與條件的詳細資訊，請參閱<a href="../../integrating/using/aep-about-data-connector.md">詳細文件</a>及<a href="https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">作法影片</a>。</p>
    </td> 
   </tr> 
  </tbody> 
@@ -426,7 +426,7 @@ ht-degree: 99%
  <tbody> 
   <tr> 
    <td> <p>對象目標可讓您將 Adobe Experience Platform 的分段共用給 Adobe Campaign。</p>
-    <p>請注意，此功能僅適用於 Azure 上代管的客戶。如需啟動此功能與條件的詳細資訊，請參閱<a href="../../integrating/using/aep-about-audience-destinations-service.md">詳細文件</a>及<a href="https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.translate.html">作法影片</a>。 </p>
+    <p>請注意，此功能僅適用於 Azure 上代管的客戶。如需啟動此功能與條件的詳細資訊，請參閱<a href="../../integrating/using/aep-about-audience-destinations-service.md">詳細文件</a>及<a href="https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html">作法影片</a>。 </p>
    </td> 
   </tr> 
  </tbody> 

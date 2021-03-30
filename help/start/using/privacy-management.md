@@ -7,13 +7,13 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 feature: 隱私權
-role: 業務從業人員
-level: 中級
-translation-type: tm+mt
+role: 商業從業人員
+level: 中繼
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '968'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Adobe Campaign 的功能可協助您遵循下列法規：
 
 * **GDPR**（[一般資料保護規範](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en)）是歐盟 (EU) 的隱私權法律，其可為歐盟國家協調資料保護要求並以現代化方式規範資料保護要求。請遵循下列連結，以尋找有關 GDPR 的一般資訊：
 
-   * https://www.adobe.com/privacy/general-data-protection-regulation.html
+   * https://www.adobe.com/tw/privacy/general-data-protection-regulation.html
    * https://www.adobe.com/marketing-cloud/campaign/general-data-protection-regulation.html
 
 * **CCPA**（[加州消費者隱私保護法](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&amp;division=3.&amp;title=1.81.5.&amp;part=4.&amp;chapter=&amp;article=)）為加州居民提供新的個資權利，並對在加州經營業務的特定實體賦予資料保護責任。

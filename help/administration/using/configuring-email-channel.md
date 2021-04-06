@@ -10,14 +10,14 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 feature: 例項設定
 role: 管理員
 level: 經驗豐富
+exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: b899d1926526fccb2fe1fa42db7a4e4317ddb1cb
 workflow-type: tm+mt
-source-wordcount: '2568'
-ht-degree: 77%
+source-wordcount: '2602'
+ht-degree: 76%
 
 ---
-
 
 # 設定電子郵件通道{#configuring-email-channel}
 
@@ -311,7 +311,7 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 
 ## 舊版設定{#legacy-settings}
 
-如果您是&#x200B;**not**&#x200B;執行最新版的促銷活動，則下列所述的參數和UI區段仍適用於您。
+如果您是&#x200B;**NOT**&#x200B;執行最新版的促銷活動，則下列所述的參數和UI區段仍適用於您。
 
 ### 重試次數 {#legacy-retries}
 
@@ -340,6 +340,10 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 * **[!UICONTROL To qualify]**:彈回郵件必須符合條件。必須由交付能力團隊完成資格認證，以確保平台的交付能力正常運作。 只要郵件不符合條件，反彈郵件就不會用來豐富電子郵件處理規則清單。
 * **[!UICONTROL Keep]**:彈回郵件已經合格，將會被「更新」用於傳遞 **性工** 作流程，以便與現有電子郵件處理規則進行比較並豐富清單。
 * **[!UICONTROL Ignore]**:彈回郵件是合格的，但「更新」不會用於傳遞 **能力工** 作流程。因此，它不會傳送至用戶端例項。
+
+>[!NOTE]
+>
+>如果ISP發生中斷，透過Campaign傳送的電子郵件會錯誤標示為彈回。 若要修正此問題，您必須更新彈回資格。 如需詳細資訊，請參閱[此頁面](../../administration/using/update-bounce-qualification.md)。
 
 <!--Bounces are qualified through the **[!UICONTROL Bounce mails]** processing rule. For more on accessing this rule, refer to this [section](#legacy-bounce-mail-qualification).-->
 

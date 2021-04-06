@@ -7,14 +7,14 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 hidefromtoc: true
+exl-id: b06e9009-70c7-459f-8a9f-d5b7020d662f
 translation-type: tm+mt
-source-git-commit: 9edf26fa933e9faedecef3b381cb160230a51668
+source-git-commit: f58a6d067a562e5e157e249e6b97c02669caf3a5
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 1%
 
 ---
-
 
 # 在ISP中斷{#update-bounce-qualification.md}後更新彈回資格
 
@@ -58,4 +58,3 @@ ht-degree: 1%
 **相關主題：**
 * [瞭解傳送失敗](../../sending/using/understanding-delivery-failures.md)
 * [退回郵件資格](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)
-

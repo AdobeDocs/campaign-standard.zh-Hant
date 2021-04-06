@@ -7,16 +7,16 @@ audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
 feature: 效能監控
-role: 業務從業人員
-level: 中級
+role: 商務從業人員
+level: 中階程度
+exl-id: 7bf380d7-195e-413d-b14e-85e78b07ba8b
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: f7d77f524a6c141066056e53fc8616f35189fc39
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 5%
+source-wordcount: '367'
+ht-degree: 6%
 
 ---
-
 
 # 使用電子郵件密件副本進行歸檔{#archiving-emails}
 
@@ -41,7 +41,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->目前封存的電子郵件無法與Adobe Campaign增強型MTA一起傳送。
+>目前，歸檔電子郵件仍由使用簡單SMTP中繼的舊式歸檔模組發送。
 
 ## 激活電子郵件歸檔{#activating-email-archiving}
 

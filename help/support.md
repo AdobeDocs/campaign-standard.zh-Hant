@@ -10,11 +10,11 @@ hidefromtoc: true
 feature: 說明與支援選項
 role: 業務從業人員
 level: 初學者
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '593'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -42,37 +42,37 @@ ht-degree: 91%
     <tr>
     <td valign="top">
         <ul>
-        <li><a href="sending/using/monitor-deliverability.md">傳遞度</a></li>
-        <li><a href="administration/using/aep-faq.md">應用程式內與推播通知</a></li>
-        <li><a href="designing/using/faq-email-designer.md">電子郵件設計工具</a></li>
+        <li><a href="sending/using/monitor-deliverability.md">達成能力</a></li>
+        <li><a href="administration/using/aep-faq.md">應用程式內通知與推送通知</a></li>
+        <li><a href="designing/using/faq-email-designer.md">電子郵件 Designer</a></li>
         </ul>
     </td>
     <td valign="top">
         <ul>
         <li><a href="automating/using/monitoring-workflow-execution.md#error-management">工作流程中的錯誤管理</a></li>
-        <li><a href="automating/using/best-practices-workflows.md">工作流程執行疑難排解</a></li>
-        <li><a href="api/using/troubleshooting.md">API疑難排解</a></li>
-        <li><a href="sending/using/understanding-delivery-failures.md">瞭解傳送失敗</a></li>
+        <li><a href="automating/using/best-practices-workflows.md">有關執行工作流程的疑難排解</a></li>
+        <li><a href="api/using/troubleshooting.md">API 疑難排解</a></li>
+        <li><a href="sending/using/understanding-delivery-failures.md">瞭解傳遞失敗的原因</a></li>
         </ul>
     </td>
    <td valign="top">
         <ul>
         <li><a href="automating/using/best-practices-workflows.md">工作流程最佳實務</a></li>
-        <li><a href="automating/using/about-workflow-execution.md">工作流程監視</a></li>
-        <li><a href="sending/using/tracking-messages.md">瞭解追蹤管理</a></li>
-        <li><a href="sending/using/about-deliverability.md">傳遞度最佳實務</a></li>
-        <li><a href="automating/using/creating-import-workflow-templates.md">以工作流程匯入資料</a></li>
+        <li><a href="automating/using/about-workflow-execution.md">監視工作流程</a></li>
+        <li><a href="sending/using/tracking-messages.md">認識追蹤管理</a></li>
+        <li><a href="sending/using/about-deliverability.md">傳遞能力最佳實務</a></li>
+        <li><a href="automating/using/creating-import-workflow-templates.md">透過工作流程匯入資料</a></li>
         <li><a href="sending/using/sending-messages-at-the-recipient-s-time-zone.md">時區管理</a></li>
         <li><a href="sending/using/receiving-alerts-when-failures-happen.md">在失敗發生時接收通知</a></li>
         <li><a href="designing/using/using-existing-content.md">匯入或轉換電子郵件內容</a></li>
-        <li><a href="sending/using/delivery-best-practices.md">傳遞最佳實務</a></li>
+        <li><a href="sending/using/delivery-best-practices.md">關於傳遞的最佳實務</a></li>
         </ul>
     </td>
     <td valign="top">
         <ul>
         <li><a href="rn/using/release-planning.md">升級至新版本</a></li>
         <li><a href="sending/using/monitoring-a-delivery.md">監視傳遞</a></li>
-        <li><a href="sending/using/understanding-quarantine-management.md">瞭解隔離管理</a></li>
+        <li><a href="sending/using/understanding-quarantine-management.md">認識隔離管理</a></li>
         <li><a href="start/using/privacy-management.md">隱私權與同意管理</a></li>
         <li><a href="automating/using/query.md">設計查詢</a></li>
         <li><a href="automating/using/query-samples.md">查詢範例</a></li>
@@ -93,11 +93,11 @@ ht-degree: 91%
 
 >[!NOTE]
 >
->所有管理員使用者都可存取控制面板。 授予使用者管理員存取權的步驟詳見[本頁](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel)。
+>所有管理員使用者都可存取控制面板。 授予使用者管理員存取權限的步驟已詳載於[本頁](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hant#discover-control-panel)中。
 
 ### 如何存取控制面板？
 
-控制面板可直接從 Adobe Experience Cloud 存取。 [按一下這裡](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=en#discover-control-panel)以獲得更多資訊。
+控制面板可直接從 Adobe Experience Cloud 存取。 [按一下這裡](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=zh-Hant#discover-control-panel)以獲得更多資訊。
 
 ### 「控制面板」常見問答集
 
@@ -119,7 +119,7 @@ ht-degree: 91%
 
 <img src="start/using/assets/do-not-localize/icon-support.svg" width="60px">
 
-新的訂票系統已通過[Adobe Admin Console](https://adminconsole.adobe.com/overview)。 新系統要求每個使用者都需要有新的個別帳戶，並擁有正確的權限。 如果您發現無法使用 Adobe ID 登入，請透過 Experience League 申請存取權限，客戶服務團隊會盡快為您設定。 [了解更多](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
+新票證系統已透過 [Adobe Admin Console](https://adminconsole.adobe.com/overview) 提供。 新系統要求每個使用者都需要有新的個別帳戶，並擁有正確的權限。 如果您發現無法使用 Adobe ID 登入，請透過 Experience League 申請存取權限，客戶服務團隊會盡快為您設定。 [了解更多](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
 
 ### 詢問專家！
 
@@ -131,4 +131,4 @@ ht-degree: 91%
 
 如要在該新系統中記錄問題或啟動聊天工作階段，請連結到 [Adobe Admin Console](https://adminconsole.adobe.com/overview)。
 
-請依照[本頁](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)中介紹的詳細過程操作。
+請依照[本頁](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)中介紹的詳細過程操作。

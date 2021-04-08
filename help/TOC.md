@@ -182,7 +182,7 @@ ht-degree: 99%
       + [瞭解隔離管理](sending/using/understanding-quarantine-management.md)
    + 管理傳送能力 {#managing-deliverability}
       + [關於傳送能力](sending/using/about-deliverability.md)
-      + [控管電子郵件內容](sending/using/control-email-content.md)
+      + [控制電子郵件內容](sending/using/control-email-content.md)
       + [監控傳送能力](sending/using/monitor-deliverability.md)
       + [疑難排解](sending/using/troubleshooting.md)
    + 使用類型學規則 {#working-with-typology-rules}

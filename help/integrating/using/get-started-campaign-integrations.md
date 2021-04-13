@@ -7,16 +7,16 @@ audience: integrating
 content-type: reference
 topic-tags: get-started-campaign-integrations
 feature: 觸發器
-role: 資料架構師
-level: 中級
+role: Data Architect
+level: Intermediate
+exl-id: ecf88c7d-6729-4b3a-85c4-60427bb57442
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 3f0c24baf489c516a7a3f665e8c23cec0ed2c3bf
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 90%
+source-wordcount: '669'
+ht-degree: 86%
 
 ---
-
 
 # 關於 Campaign 整合{#get-started-campaign-integrations}
 
@@ -74,6 +74,11 @@ ht-degree: 90%
    <td> 可讓您使用的不同 Adobe Experience Cloud 應用程式交換受眾。<br /> </td> 
    <td> <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">People 服務核心（設定檔與觀眾）</a><br /> </td> 
   </tr> 
+    <tr> 
+   <td>Adobe即時客戶資料平台(RTCDP)<br /> </td> 
+   <td> Adobe Campaign與Adobe即時客戶資料平台(RTCDP)的整合可讓您共用區段資料，並將觀眾匯入Adobe Campaign。</td>
+   <td><a href="../../integrating/using/get-started-sources-destinations.md">開始使用來源和目標</a></td>
+  </tr> 
   <tr> 
    <td> 資產核心服務與隨選資產<br /> </td> 
    <td> 可讓您將 Adobe Experience Cloud 資料庫中的資產插入到 Adobe Campaign 中建立的電子郵件和登錄頁中。<br /> </td> 
@@ -105,4 +110,3 @@ ht-degree: 90%
   </tr> 
  </tbody> 
 </table>
-

@@ -5,16 +5,16 @@ product: campaign
 title: Adobe Campaign Standard 產品文件
 description: 瀏覽　Adobe Campaign Standard 產品文件
 feature: 概覽
-role: 業務從業人員
-level: 初學者
+role: Business Practitioner
+level: Beginner
+exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
 translation-type: ht
-source-git-commit: 89f2557865ea943405cec1ac53ea20f08ca32aaa
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '237'
+source-wordcount: '234'
 ht-degree: 100%
 
 ---
-
 
 # 說明中心 {#campaign-standard-documentation}
 

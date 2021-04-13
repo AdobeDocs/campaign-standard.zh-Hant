@@ -8,11 +8,11 @@ feature: 概覽
 role: Business Practitioner
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '234'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: c2d3217156bd942ec0948e65d48c65be3b89e71e
+workflow-type: tm+mt
+source-wordcount: '238'
+ht-degree: 93%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 ## 新增功能
 
-* **[促銷活動 21.1 2 月版本已上線！](rn/using/release-notes.md)**<br/>探索新功能、最新更新和修正
+* **[促銷活動- RTCDP整](integrating/using/get-started-sources-destinations.md)**<br/> 合瞭解如何在促銷活動和即時客戶資料平台(RTCDP)之間共用資料
 
 * **[更新不正確的硬退信](https://helpx.adobe.com/tw/campaign/kb/update-bounce-qualification.html)**<br/>&#x200B;瞭解如何在 Gmail 中斷後更新不正確的硬退信
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 
 ## 熱門頁面
 
-<table style="table-layout:fixed">
+<table>
 <tr>
   <td valign="top">
     <a href="administration/using/about-access-management.md">

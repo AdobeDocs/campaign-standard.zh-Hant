@@ -7,16 +7,16 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: 資料工程師
-level: 經驗豐富
+role: Data Engineer
+level: Experienced
+exl-id: 19bfeecb-da60-479c-a929-0cfb72ef59e3
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 01e4eb027b55815c3680b26691e61cbe5b63ee8c
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '191'
 ht-degree: 3%
 
 ---
-
 
 # 與自訂資源互動 {#interacting-with-custom-resources}
 
@@ -26,12 +26,13 @@ ht-degree: 3%
 
 此API中公開的自訂資源包括：
 
-* 連結到配置檔案實體的所有實體
-* 所有連結至描述檔實體子系的實體
+* 未在/profileAndServicesExt下公開的所有項
 * 所有與個人檔案無關的實體，以及這些實體的子孫。
+* 預設情況下，所有與任何事物無關的實體及其子孫。
 
 >[!NOTE]
 >/profileAndServicesExt下可用的自訂資源不會公開於/customResources API中。
+
 
 以下是從自訂資源擷取中繼資料的範例：
 
@@ -48,4 +49,3 @@ POST /customResources/<customResourceName>
 >[!NOTE]
 >隱私權API端點和工作流程(/privacy/privacyTool)不會管理未連結至描述檔實體的自訂資源。
 >您有責任為這些自訂資源管理和清除任何PII。 有關隱私工具的詳細資訊，請按一下這裡[。](../../api/using/creating-a-privacy-request.md)
-

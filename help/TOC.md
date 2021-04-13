@@ -6,11 +6,11 @@ user-guide-title: Campaign Standard
 user-guide-description: '說明中心，以瞭解使用 Campaign Standard 所需的主要功能、工作、設定和其他資源。 '
 title: Campaign Standard 指南
 breadcrumb-title: 說明中心
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 918e73c66cd372a84c87f1f686ce67026858c849
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1750'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -439,7 +439,7 @@ ht-degree: 99%
    + 設定通道 {#configuring-channels}
       + [關於通道設定](administration/using/about-channel-configuration.md)
       + [設定電子郵件通道](administration/using/configuring-email-channel.md)
-      + [在ISP中斷後更新反彈資格](administration/using/update-bounce-qualification.md)
+      + [在 ISP 中斷後更新彈出資格](administration/using/update-bounce-qualification.md)
       + [設定行動應用程式](administration/using/configuring-a-mobile-application.md)
    + 設定行動裝置頻道 {#configuring-mobile}
       + [實施推播追蹤](administration/using/push-tracking.md)

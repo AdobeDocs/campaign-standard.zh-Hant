@@ -7,16 +7,16 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: 資料工程師
-level: 經驗豐富
+role: Data Engineer
+level: Experienced
+exl-id: 9e2d1b59-55a5-4715-adfb-35191a9df536
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 01e4eb027b55815c3680b26691e61cbe5b63ee8c
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
-
 
 # Must-Read {#must-read}
 
@@ -25,6 +25,12 @@ ht-degree: 0%
 * Adobe CampaignAPI僅能用於伺服器到伺服器。
 * 請務必洽詢您的Adobe技術聯絡人，確認您要實作的使用案例是否符合Adobe CampaignAPI所允許的比例。
 * 設定AdobeIO存取權需要特定權限，如有任何問題，請聯絡Adobe支援。
+
+## 權限與存取
+
+* 預設情況下，Adobe CampaignAPI使用管理員上下文，因此組織單位和角色不適用。
+* Adobe CampaignAPI被排除在角色上下文之外。
+* 如果您想要設定具有組織單位或角色的API，請先洽詢您的Adobe技術聯絡人。
 
 ## 資源表示法
 

@@ -7,16 +7,16 @@ audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
 feature: 設定檔
-role: 業務從業人員
-level: 初學者
+role: Business Practitioner
+level: Beginner
+exl-id: b4de2f1a-09ec-486d-b1ef-66208cbe211f
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: c5a9c27a2ce459dfd0f04159095bfc8a2cf4c0f6
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '607'
 ht-degree: 20%
 
 ---
-
 
 # 開始使用個人檔案和對象{#about-profiles-and-audiences}
 
@@ -88,7 +88,7 @@ Adobe Campaign提供一套工具，可協助您遵循GDPR、CCPA和其他隱私�
 
 ## 其他資源
 
-* [使用對象目標服務](../../integrating/using/aep-about-audience-destinations-service.md)
+* [將Adobe Experience Platform觀眾收錄至Campaign](../../integrating/using/ingest-aep-data.md)
 * [使用Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md)
 * [Adobe分享的觀眾](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
 * [使用工作流程匯入描述檔](../../automating/using/creating-import-workflow-templates.md)

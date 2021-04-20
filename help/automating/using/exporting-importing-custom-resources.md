@@ -6,9 +6,9 @@ description: 本教學課程說明如何匯出和匯入自訂資源的套件。
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
-feature: 工作流程
-role: 資料架構師
-level: 經驗豐富
+feature: Workflows
+role: Data Architect
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

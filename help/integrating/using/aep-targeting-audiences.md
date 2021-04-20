@@ -6,9 +6,9 @@ description: 瞭解如何在工作流程中鎖定Adobe Experience Platform受眾
 audience: automating
 content-type: reference
 topic-tags: channel-activities
-feature: Microsoft CRM整合
-role: 資料架構師
-level: 經驗豐富
+feature: Microsoft CRM Integration
+role: Data Architect
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

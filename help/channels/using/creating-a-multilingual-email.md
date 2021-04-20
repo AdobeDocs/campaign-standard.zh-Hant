@@ -6,9 +6,9 @@ description: 請依照下列步驟建立以不同慣用語言為目標的多語�
 audience: channels
 content-type: reference
 topic-tags: email-messages
-feature: 電子郵件
-role: 業務從業人員
-level: 中級
+feature: Email
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

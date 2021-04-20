@@ -6,7 +6,7 @@ description: 瞭解如何在 Adobe Campaign Standard 中管理隱私權要求
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-feature: 隱私權
+feature: Privacy
 role: Business Practitioner
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b

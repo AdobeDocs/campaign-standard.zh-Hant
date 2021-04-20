@@ -6,7 +6,7 @@ description: 本頁詳細說明最新 Campaign Standard 版本的內容
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: 概覽
+feature: Overview
 role: Business Practitioner
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113

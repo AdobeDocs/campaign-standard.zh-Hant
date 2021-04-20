@@ -6,9 +6,9 @@ description: 您可以存取客戶量度的專屬報表，並在促銷活動資�
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
-feature: 設定檔
-role: 業務從業人員
-level: 中級
+feature: Profiles
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
 workflow-type: tm+mt

@@ -6,9 +6,9 @@ description: 就各種通道建立個人化訊息，使用範本、建立登陸�
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
-feature: 概觀
-role: 業務從業人員
-level: 初學者
+feature: Overview
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

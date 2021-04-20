@@ -6,9 +6,9 @@ description: 選擇退出會導致描述檔不再受任何傳送或特定渠道�
 audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
-feature: 受眾
-role: 業務從業人員
-level: 初學者
+feature: Audiences
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

@@ -6,9 +6,9 @@ description: 技術工作流程是現成的工作流程，旨在處理 Adobe Cam
 audience: administration
 content-type: reference
 topic-tags: application-settings
-feature: 例項設定
-role: 管理員
-level: 經驗豐富
+feature: Instance Settings
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
 workflow-type: tm+mt

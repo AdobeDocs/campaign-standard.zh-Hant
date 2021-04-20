@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: 「當您的內容準備好時，瞭解您如何仔細定義將收到您訊息的對象。」
-feature: 傳送能力
-role: 業務從業人員
-level: 中級
+feature: Deliverability
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

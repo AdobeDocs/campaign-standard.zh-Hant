@@ -6,8 +6,8 @@ description: 進一步瞭解將資料匯入資料庫時要遵循的最佳實務�
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
-feature: 工作流程
-role: 資料架構師
+feature: Workflows
+role: Data Architect
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

@@ -6,8 +6,8 @@ description: 準備、測試、排程、傳送及監控您的訊息。
 audience: sending
 content-type: reference
 topic-tags: about-sending-messages-with-campaign
-role: 業務從業人員
-level: 中級
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt

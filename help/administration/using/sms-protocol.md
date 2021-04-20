@@ -6,9 +6,9 @@ description: 進一步瞭解SMS連接器以及如何設定它。
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: 例項設定
-role: 管理員
-level: 經驗豐富
+feature: Instance Settings
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

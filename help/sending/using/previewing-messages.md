@@ -6,9 +6,9 @@ description: 瞭解如何在內容編輯器或電子郵件設計工具中預覽�
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
-feature: 種子地址
-role: 業務從業人員
-level: 中級
+feature: Seed Address
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

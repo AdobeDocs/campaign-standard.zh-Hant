@@ -6,9 +6,9 @@ description: 進一步瞭解動態報表介面，以及如何在不同的標籤�
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-feature: 報告
-role: 領導者
-level: 初學者
+feature: Reporting
+role: Leader
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

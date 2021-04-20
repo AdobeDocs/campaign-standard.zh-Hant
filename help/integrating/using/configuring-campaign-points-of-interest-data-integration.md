@@ -6,9 +6,9 @@ description: 瞭解如何設定Adobe Campaign的地標資料功能，以根據�
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
-feature: 受眾
-role: 資料架構師
-level: 中級
+feature: Audiences
+role: Data Architect
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

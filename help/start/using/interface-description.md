@@ -6,9 +6,9 @@ description: 「瞭解如何導覽與使用 Adobe Campaign 工作區： 首頁�
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-feature: 概觀
-role: 業務從業人員
-level: 初學者
+feature: Overview
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

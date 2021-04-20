@@ -6,9 +6,9 @@ description: 透過Audience Manager/人員核心服務整合，您可以在不�
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
-feature: 觸發器
-role: 資料架構師
-level: 中級
+feature: Triggers
+role: Data Architect
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: a6272db76fbfca7b9ebcc3734368f7c032b234af
 workflow-type: tm+mt

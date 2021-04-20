@@ -6,9 +6,9 @@ description: 瞭解如何在電子郵件設計人員中個人化電子郵件。
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: 電子郵件設計
-role: 業務從業人員
-level: 中級
+feature: Email Design
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt

@@ -6,9 +6,9 @@ description: 透過「應用程式內置」報表，瞭解您的應用程式內�
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
-feature: 報告
-role: 領導者
-level: 中級
+feature: Reporting
+role: Leader
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

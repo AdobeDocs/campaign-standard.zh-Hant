@@ -6,8 +6,8 @@ description: 進一步瞭解您可使用Campaign Standard工作流程來執行�
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
-feature: 工作流程
-role: 資料架構師
+feature: Workflows
+role: Data Architect
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

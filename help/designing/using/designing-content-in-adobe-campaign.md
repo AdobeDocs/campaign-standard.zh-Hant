@@ -6,9 +6,9 @@ description: 從頭開始建立電子郵件內容，讀入 HTML 或運用現有�
 audience: designing
 content-type: reference
 topic-tags: about-content-design
-feature: 電子郵件設計
-role: 業務從業人員
-level: 初學者
+feature: Email Design
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

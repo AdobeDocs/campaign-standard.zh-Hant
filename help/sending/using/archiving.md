@@ -6,9 +6,9 @@ description: 瞭解如何使用密件副本電子郵件地址與Adobe Campaign S
 audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
-feature: 效能監控
-role: 商務從業人員
-level: 中階程度
+feature: Performance Monitoring
+role: Business Practitioner
+level: Intermediate
 exl-id: 7bf380d7-195e-413d-b14e-85e78b07ba8b
 translation-type: tm+mt
 source-git-commit: f7d77f524a6c141066056e53fc8616f35189fc39

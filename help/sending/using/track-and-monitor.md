@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: 瞭解Adobe Campaign如何讓您追蹤已傳送的訊息，並瞭解收件者對您的傳送有何反應
-feature: 傳送能力
-role: 業務從業人員
-level: 中級
+feature: Deliverability
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

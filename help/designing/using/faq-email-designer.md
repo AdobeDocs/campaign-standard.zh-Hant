@@ -6,9 +6,9 @@ description: 電子郵件設計人員的常見問題。
 audience: designing
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
-feature: 電子郵件設計
-role: 業務從業人員
-level: 中級
+feature: Email Design
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

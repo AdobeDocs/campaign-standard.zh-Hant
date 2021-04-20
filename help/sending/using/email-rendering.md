@@ -6,9 +6,9 @@ description: 探索電子郵件呈現功能。
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
-feature: 傳送時間最佳化
-role: 業務從業人員
-level: 中級
+feature: Send Time Optimization
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

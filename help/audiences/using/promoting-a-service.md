@@ -6,9 +6,9 @@ description: 使用Adobe Campaign來推廣服務，並透過專屬的登陸頁�
 audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
-feature: 受眾
-role: 業務從業人員
-level: 中級
+feature: Audiences
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

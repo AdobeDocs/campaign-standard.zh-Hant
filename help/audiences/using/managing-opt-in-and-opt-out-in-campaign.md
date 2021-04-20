@@ -6,9 +6,9 @@ description: 瞭解在Adobe Campaign如何管理選擇加入和選擇退出。
 audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
-feature: 受眾
-role: 業務從業人員
-level: 中級
+feature: Audiences
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

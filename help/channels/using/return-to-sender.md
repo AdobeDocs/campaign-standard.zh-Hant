@@ -6,9 +6,9 @@ description: 瞭解如何收到錯誤地址的通知，並排除它，以免日�
 audience: channels
 content-type: reference
 topic-tags: direct-mail
-feature: 直接郵件
-role: 業務從業人員
-level: 中級
+feature: Direct Mail
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

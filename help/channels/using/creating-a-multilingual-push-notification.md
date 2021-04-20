@@ -6,9 +6,9 @@ description: 建立多語言推播通知，以使用者慣用的語言和地區�
 audience: channels
 content-type: reference
 topic-tags: push-notifications
-feature: 推播
-role: 業務從業人員
-level: 中級
+feature: Push
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

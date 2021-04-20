@@ -6,9 +6,9 @@ description: '瞭解如何設定Audience Manager/人員核心服務整合，以�
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
-feature: 人員核心服務整合
-role: 資料架構師
-level: 中級
+feature: People Core Service Integration
+role: Data Architect
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

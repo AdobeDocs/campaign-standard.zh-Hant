@@ -6,9 +6,9 @@ description: 「Adobe Campaign　範本可讓您視需要預先設定參數：�
 audience: start
 content-type: reference
 topic-tags: managing-templates
-feature: Campaign
-role: 業務從業人員
-level: 初學者
+feature: Campaigns
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

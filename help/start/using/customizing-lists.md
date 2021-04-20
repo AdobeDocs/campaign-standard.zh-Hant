@@ -6,9 +6,9 @@ description: 「瞭解如何自訂顯示並在Adobe Campaign Standard的清單�
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-feature: Campaign
-role: 業務從業人員
-level: 中級
+feature: Campaigns
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

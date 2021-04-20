@@ -6,9 +6,9 @@ description: 請依照下列步驟，在Adobe Campaign建立單一傳送的電�
 audience: channels
 content-type: reference
 topic-tags: email-messages
-feature: 電子郵件
-role: 業務從業人員
-level: 初學者
+feature: Email
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

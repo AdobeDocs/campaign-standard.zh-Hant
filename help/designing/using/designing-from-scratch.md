@@ -6,9 +6,9 @@ description: 瞭解如何在電子郵件設計工具中從頭開始設計電子�
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: 電子郵件設計
-role: 業務從業人員
-level: 初學者
+feature: Email Design
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

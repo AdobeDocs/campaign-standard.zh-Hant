@@ -6,9 +6,9 @@ description: 瞭解 Adobe Campaign 資料模型。
 audience: developing
 content-type: reference
 context-tags: cusResource,overview;eventCusResource,overview
-feature: 資料模型
-role: 開發人員
-level: 經驗豐富
+feature: Data Model
+role: Developer
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

@@ -5,7 +5,7 @@ title: 將資料從Campaign匯出至Adobe Experience Platform
 description: 瞭解如何將資料從Campaign Standard匯出至Adobe Experience Platform。
 audience: integrating
 content-type: reference
-feature: 來源和目標
+feature: Sources and Destinations
 role: Data Architect
 level: Intermediate
 translation-type: tm+mt

@@ -6,7 +6,7 @@ description: 本頁列出 Adobe Campaign Standard 即將發行的版本。
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
-feature: 概覽
+feature: Overview
 role: Business Practitioner
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1

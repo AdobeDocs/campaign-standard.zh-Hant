@@ -5,7 +5,7 @@ title: 開始使用來源和目標
 description: 進一步瞭解Adobe Experience Platform來源和目的地。
 audience: integrating
 content-type: reference
-feature: 來源和目標
+feature: Sources and Destinations
 role: Data Architect
 level: Intermediate
 translation-type: tm+mt

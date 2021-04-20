@@ -6,9 +6,9 @@ description: 請依照下列步驟，使用 Adobe Campaign 建立和傳送訊息
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
-feature: 概觀
-role: 業務從業人員
-level: 初學者
+feature: Overview
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
 workflow-type: tm+mt

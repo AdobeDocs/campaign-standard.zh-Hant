@@ -6,7 +6,7 @@ description: 利用自訂欄位和資源讓 Campaign Standard 資料模型豐富
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
-feature: 資料模型
+feature: Data Model
 role: Developer
 level: Intermediate
 exl-id: a8d15053-c20f-4334-a732-3b36cb00794d

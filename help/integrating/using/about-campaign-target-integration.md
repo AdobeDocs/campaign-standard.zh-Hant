@@ -6,9 +6,9 @@ description: 透過Adobe Target整合，您可以將Adobe Target產生的動態�
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
-feature: 觸發器
-role: 資料架構師
-level: 中級
+feature: Triggers
+role: Data Architect
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

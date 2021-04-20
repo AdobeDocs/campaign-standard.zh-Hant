@@ -7,9 +7,9 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;delivery,properties,open
-feature: 例項設定
-role: 管理員
-level: 經驗豐富
+feature: Instance Settings
+role: Administrator
+level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
 translation-type: tm+mt
 source-git-commit: b899d1926526fccb2fe1fa42db7a4e4317ddb1cb

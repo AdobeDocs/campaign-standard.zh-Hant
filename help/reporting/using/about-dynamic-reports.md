@@ -6,9 +6,9 @@ description: 使用動態報表，將變數和維度拖放至自由格式環境�
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-feature: 報告
-role: 領導者
-level: 初學者
+feature: Reporting
+role: Leader
+level: Beginner
 translation-type: tm+mt
 source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt

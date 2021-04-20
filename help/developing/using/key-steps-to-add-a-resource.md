@@ -6,9 +6,9 @@ description: 在此處瞭解在Adobe Campaign資料模型中添加資源的關�
 audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
-feature: 資料模型
-role: 開發人員
-level: 經驗豐富
+feature: Data Model
+role: Developer
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

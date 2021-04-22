@@ -4,15 +4,15 @@ solution: Campaign Standard
 product: campaign
 title: Adobe Campaign Standard 產品文件
 description: 瀏覽　Adobe Campaign Standard 產品文件
-feature: Overview
+feature: 概覽
 role: Business Practitioner
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c2d3217156bd942ec0948e65d48c65be3b89e71e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '238'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 93%
 
 ## 新增功能
 
-* **[促銷活動- RTCDP整](integrating/using/get-started-sources-destinations.md)**<br/> 合瞭解如何在促銷活動和即時客戶資料平台(RTCDP)之間共用資料
+* **[Campaign - RTCDP 整合](integrating/using/get-started-sources-destinations.md)**<br/>瞭解如何在 Campaign 和即時客戶資料平台 (RTCDP) 之間共用資料
 
 * **[更新不正確的硬退信](https://helpx.adobe.com/tw/campaign/kb/update-bounce-qualification.html)**<br/>&#x200B;瞭解如何在 Gmail 中斷後更新不正確的硬退信
 

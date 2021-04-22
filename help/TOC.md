@@ -6,11 +6,11 @@ user-guide-title: Campaign Standard
 user-guide-description: '說明中心，以瞭解使用 Campaign Standard 所需的主要功能、工作、設定和其他資源。 '
 title: Campaign Standard 指南
 breadcrumb-title: 說明中心
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 479819df78953e7703738f31e3ef8bd9146416d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1779'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -268,17 +268,17 @@ ht-degree: 98%
          + [在 Microsoft Dynamics 365 和 Campaign 之間對應資料](integrating/using/d365-acs-self-service-app-data-sync.md)
       + [使用 Microsoft Dynamics 365 整合](integrating/using/d365-acs-using-the-integration.md)
    + 行銷活動與 Adobe Experience Platform{#adobe-experience-platform}
-      + Adobe Experience Platform源和目標{#aep-sources-destinations}
+      + Adobe Experience Platform 來源和目標{#aep-sources-destinations}
          + [開始使用來源和目標](integrating/using/get-started-sources-destinations.md)
-         + [將Adobe Experience Platform觀眾收錄至Campaign](integrating/using/ingest-aep-data.md)
-         + [將資料從Campaign匯出至Adobe Experience Platform](integrating/using/export-campaign-data.md)
-      + 觀眾目標服務（測試版）{#audience-destinations}
+         + [將Adobe Experience Platform 閱聽眾獲取至 Campaign](integrating/using/ingest-aep-data.md)
+         + [將資料從 Campaign 匯出至 Adobe Experience Platform](integrating/using/export-campaign-data.md)
+      + 閱聽眾目標服務 (Beta){#audience-destinations}
          + [關於 Audience Destinations 服務](integrating/using/aep-about-audience-destinations-service.md)
          + [管理 Adobe Experience Platform 閱聽眾](integrating/using/aep-managing-audiences.md)
          + [使用區段建置器](integrating/using/aep-using-segment-builder.md)
          + [鎖定 Adobe Experience Platform 閱聽眾](integrating/using/aep-targeting-audiences.md)
          + [使用 Adobe Experience Platform屬性個人化行銷活動](integrating/using/aep-personalizing-campaigns.md)
-      + Adobe Experience Platform Data Connector (beta) {#data-connector}
+      + Adobe Experience Platform Data 連接器 (Beta) {#data-connector}
          + [關於 Adobe Experience Platform Data Connector](integrating/using/aep-about-data-connector.md)
          + [Experience Platform 資料模型概觀](integrating/using/aep-data-model-overview.md)
          + [映射定義](integrating/using/aep-mapping-definition.md)

@@ -6,15 +6,15 @@ description: 本頁列出 Adobe Campaign Standard 即將發行的版本。
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
-feature: Overview
+feature: 概覽
 role: Business Practitioner
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6b0995f37251644f959425de5bfcc2620e0ef877
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '468'
+ht-degree: 100%
 
 ---
 
@@ -65,7 +65,7 @@ Adobe 透過新增功能、增強功能和修正不斷改進其解決方案。
 
 **問：什麼是驗證程式？**
 
-答：當您的測試執行個體升級時，Adobe 建議驗證您的流程，且使用案例與此新版本搭配運作正常，並向 [Adobe Client Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) 報告任何問題。
+答：當您的測試執行個體升級時，Adobe 建議驗證您的流程，且使用案例與此新版本搭配運作正常，並向 [Adobe Client Care](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html) 報告任何問題。
 
 **問：在升級過程中是否可以存取執行個體？**
 
@@ -87,4 +87,4 @@ Adobe 透過新增功能、增強功能和修正不斷改進其解決方案。
 
 答：登入 Campaign 時，將會顯示版本通知快顯視窗及最新版本。
 
-如有任何其他問題，請聯絡 [Adobe Client Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)。
+如有任何其他問題，請聯絡 [Adobe Client Care](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)。

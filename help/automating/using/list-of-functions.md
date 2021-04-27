@@ -6,17 +6,17 @@ description: 查詢編輯工具可讓您使用進階功能執行複雜的過濾�
 audience: automating
 content-type: reference
 topic-tags: filtering-data
-feature: Workflows
+feature: 工作流程
 role: Data Architect
 level: Experienced
+exl-id: d1575626-55bb-4303-a796-ad323a399330
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 33cba2254bb90951880126cd9978f1890ee72e9c
 workflow-type: tm+mt
-source-wordcount: '1944'
-ht-degree: 98%
+source-wordcount: '1941'
+ht-degree: 97%
 
 ---
-
 
 # 函式清單{#list-of-functions}
 
@@ -660,7 +660,7 @@ ht-degree: 98%
   <tr> 
    <td> <strong>encryption_aescbcEncrypt</strong><br /> </td> 
    <td> 使用　AES　演算法（CBC　區塊模式）加密字元字串（第　1　參數），其中包含鍵（第　2　參數）和初始化向量（第　3　參數）。密鑰和初始化向量必須以十六進位表示(以 <strong>\x</strong>　開始)。結果將以十六進位表示，而不是 <strong>\x</strong>。<br /> 請注意，密鑰大小可以是　128　位、192　位、256　位（16、24、32　個十六進位字元），但建議您使用　256　位和與密鑰長度相同的隨機　IV。<br /> </td> 
-   <td> encryption_aescbcEncrypt(&lt;String&gt;, &lt;String&gt;, &lt;String&gt;)<br />，例如： encryption_aescbcEncrypt(johndoe@example.com, "<strong>\x012345689ABCDEF0123456789ABCDEF</strong>", "<strong>\x0123456789ABCDEFCBA9876543210</strong>」)<br /> </td> 
+   <td> encryption_aescbcEncrypt(&lt;String&gt;, &lt;String&gt;, &lt;String&gt;)<br />例如：encryption_aescbcEncrypt(johndoe@example.com, "<strong>\\x0123456789ABCDEF0123456789ABCDEF</strong>", "<strong>\\x0123456789ABCDEFEDCBA9876543210</strong>")<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -749,4 +749,3 @@ ht-degree: 98%
   </tr> 
  </tbody> 
 </table>
-

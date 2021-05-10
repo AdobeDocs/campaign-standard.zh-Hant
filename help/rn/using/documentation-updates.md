@@ -10,11 +10,11 @@ feature: 概覽
 role: Business Practitioner
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-translation-type: ht
-source-git-commit: d694ffb4f375a4ad18c1115e2b0475625332eabe
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: dbc176188d936160e04956e7598bd219ba80347e
+workflow-type: tm+mt
 source-wordcount: '6777'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -40,7 +40,7 @@ Campaign Standard 的「說明與支援選項」頁面已整合至核心文件�
 
 已新增有關如何為行動應用程式實施本機追蹤的資訊。 [顯示全文](../../administration/using/local-tracking.md)
 
-[傳遞能力](../../sending/using/about-deliverability.md)區段已更新，現在包含新 [Adobe 傳遞能力最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=zh-Hant)的連結。 針對適用各種 Adobe 解決方案的傳遞能力其所有一般資訊都已移至[最佳實務指南附錄](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=zh-Hant#additional-resources)。
+[傳遞能力](../../sending/using/about-deliverability.md)區段已更新，現在包含新 [Adobe 傳遞能力最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=zh-Hant)的連結。 針對適用各種 Adobe 解決方案的傳遞能力其所有一般資訊都已移至[最佳實務指南附錄](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html#additional-resources)。
 
 ## 版本 21.1 – 2021 年 2 月 {#release-21-1---february-2021}
 
@@ -266,7 +266,7 @@ Adobe Experience Platform Data Connector（測試版） – [瞭解詳情](../..
 
 **此版本隨附的其他文件更新**
 
-隱私權管理檔案已更新，其中包含如何為自訂設定檔資源建立 CCPA 選取退出欄位的資訊。[瞭解詳情](https://helpx.adobe.com/tw/campaign/kb/acs-privacy.html)
+隱私權管理檔案已更新，其中包含如何為自訂設定檔資源建立 CCPA 選取退出欄位的資訊。[瞭解詳情](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html)
 
 「發行版本」已重新整理和改良。[瞭解詳情](../../rn/using/release-notes.md)
 
@@ -366,7 +366,7 @@ Adobe Campaign 的錯誤訊息清單已更新。[顯示全文](https://docs.camp
 
 已新增如何使用補漏白的新區段。[瞭解詳情](../../sending/using/using-traps.md)。
 
-已在頁面上新增關於 **Launch_URL_Campaign** 選項的附註，說明如何使用 Adobe Experience Platform SDK 設定行動應用程式。[瞭解詳情](https://helpx.adobe.com/tw/campaign/kb/configuring-app-sdk.html)
+已在頁面上新增關於 **Launch_URL_Campaign** 選項的附註，說明如何使用 Adobe Experience Platform SDK 設定行動應用程式。[瞭解詳情](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
 
 電子郵件設計工具指南已重新整理。[瞭解詳情](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -438,7 +438,7 @@ Campaign Standard 及 Campaign Classic 的錯誤訊息清單已更新。[瞭解�
 
 **發行中包含的新功能**
 
-控制面板 – [瞭解詳情](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/control-panel-home.html)
+控制面板 – [瞭解詳情](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
 
 本機通知 – [瞭解詳情](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
 
@@ -592,9 +592,9 @@ Microsoft Edge（最新版本）已新增至電腦的相容瀏覽器清單。[�
 
 「使用 SDK V4 設定行動應用程式」區段已移至[此處](https://helpx.adobe.com/tw/campaign/kb/configuring-app-sdkv4.html)。
 
-「使用 Adobe Experience Platform SDK 設定行動應用程式」一節已移至[此處](https://helpx.adobe.com/tw/campaign/kb/configuring-app-sdk.html)。
+「使用 Adobe Experience Platform SDK 設定行動應用程式」一節已移至[此處](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)。
 
-視訊已更新並移至[此處](https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/overview.html)。
+視訊已更新並移至[此處](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)。
 
 已更新「使用者類型」區段。[瞭解詳情](../../administration/using/users-management.md)
 
@@ -624,7 +624,7 @@ Adobe Launch 整合行動應用程式（測試版）– [瞭解詳情](../../sen
 
 **此版本隨附的其他文件更新**
 
-已新增有關 SMS 連接器通訊協定和設定的新技術。[瞭解詳情](https://helpx.adobe.com/tw/campaign/kb/sms-connector-protocol-and-settings.html)
+已新增有關 SMS 連接器通訊協定和設定的新技術。[瞭解詳情](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html)
 
 更新 Experience Manager 與 Adobe Campaign 檔案的整合。[瞭解詳情](../../reporting/using/creating-a-custom-profile-dimension.md)
 
@@ -696,7 +696,7 @@ GDPR：核心服務整合 – [瞭解詳情](https://experienceleague.adobe.com/
 
 **發行中包含的新功能**
 
-歐盟通用資料保護規則 (GDPR) – [瞭解詳情](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=zh-Hant)
+歐盟通用資料保護規則 (GDPR) – [瞭解詳情](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)
 
 適用於電子郵件的 Creative Designer – [瞭解詳情](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -826,7 +826,7 @@ API Signal 活動觸發 – [瞭解詳情](../../api/using/triggering-a-signal-a
 
 已新增技術，說明行動應用程式中接收的裝載結構。[瞭解詳情。](https://helpx.adobe.com/tw/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html)
 
-在 Adobe Mobile Services 介面中定義回傳時，「推播」通道設定[區段](https://helpx.adobe.com/tw/campaign/kb/configuring-app-sdkv4.html)已隨作業系統版本上的新裝載資料更新。
+在 Adobe Mobile Services 介面中定義回傳時，「推播」通道設定[區段](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)已隨作業系統版本上的新裝載資料更新。
 
 SMS 檔案已更新，[SMS 自動回覆](../../channels/using/managing-incoming-sms.md#managing-stop-sms)區段已新增一些說明。
 
@@ -922,7 +922,7 @@ Adobe Campaign 通知 – [瞭解詳情](../../administration/using/sending-inte
 
 已更新所有螢幕擷取畫面以反映介面的變更。
 
-現在有新技術可用：「將 Adobe Mobile SDK 與行動應用程式整合」。[瞭解詳情](https://helpx.adobe.com/tw/campaign/kb/integrate-mobile-sdk.html)
+現在有新技術可用：「將 Adobe Mobile SDK 與行動應用程式整合」。[瞭解詳情](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html)
 
 新增了設定 People 核心服務或 Audience Manager 與 Adobe Campaign 整合的說明。[顯示全文](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
@@ -952,9 +952,9 @@ Dreamweaver 整合即時 – [瞭解詳情](https://docs.adobe.com/content/help/
 
 現在動態報告可使用報告指標計算，包括完整說明和計算公式。[瞭解詳情](../../reporting/using/indicator-calculation.md)
 
-關於 Adobe Mobile Services 設定的新專屬區段，以在 Adobe Campaign 中使用推播通知和 Point of Interest 資料。[瞭解詳情](https://helpx.adobe.com/tw/campaign/kb/configuring-app-sdkv4.html)
+關於 Adobe Mobile Services 設定的新專屬區段，以在 Adobe Campaign 中使用推播通知和 Point of Interest 資料。[瞭解詳情](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
 
-已更新行動應用程式設定和實作區段，包括設定和傳送推播通知的更詳細步驟。[瞭解詳情](https://helpx.adobe.com/tw/campaign/kb/configuring-app-sdkv4.html)
+已更新行動應用程式設定和實作區段，包括設定和傳送推播通知的更詳細步驟。[瞭解詳情](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
 
 已更新如何在 Campaign 中處理影像的區段。[瞭解詳情](../../designing/using/images.md#setting-up-image-properties)
 
@@ -966,7 +966,7 @@ Dreamweaver 整合即時 – [瞭解詳情](https://docs.adobe.com/content/help/
 
 動態報告 – [瞭解詳情](../../reporting/using/about-dynamic-reports.md)
 
-Dreamweaver 整合 (Labs)– [瞭解詳情](https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html)
+Dreamweaver 整合 (Labs)– [瞭解詳情](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
 
 手動傳送時間最佳化 – [瞭解詳情](../../sending/using/optimizing-the-sending-time.md)
 

@@ -1,45 +1,49 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 使用中的設定檔案
-description: 您可以存取客戶量度的專屬報表，並在促銷活動資料庫中視覺化作用中的個人檔案。
-audience: audiences
-content-type: reference
-topic-tags: managing-profiles
-feature: Profiles
+title: 促銷活動中設定檔
+description: 瞭解如何存取客戶指標和作用中的個人檔案
+feature: 設定檔
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
+exl-id: 22516348-7695-4579-99eb-480e5b723ccc
+source-git-commit: d2fcf2ca22bb5fe3632280f922dfed0972f6eb09
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 6%
+source-wordcount: '290'
+ht-degree: 5%
 
 ---
 
+# 客戶量度{#customer-metrics}
 
-# 使用中的設定檔案{#active-profiles}
-
-Adobe Campaign提供顯示作用中描述檔數目的報表。 此報告僅提供資訊，對帳單沒有直接影響。 只有管理員才能存取此報告，位於&#x200B;**[!UICONTROL Administration > Customer metrics]**&#x200B;下。
+促銷活動功能管理員可從&#x200B;**[!UICONTROL Administration > Customer metrics]**&#x200B;存取&#x200B;**[!UICONTROL Customer metrics]**&#x200B;報表。
 
 ![](assets/audience_active_profiles1.png)
 
+此時會顯示報表：
+
+* Experience CloudID
+* IMS組織ID
+* **活動配置檔案數**
+* 例項中可用的定位維度清單
+
+此報告由&#x200B;**[!UICONTROL Billing]**&#x200B;技術工作流程每月產生。
+
+## 使用中的設定檔案{#active-profiles}
+
+根據您的合約，您的每個促銷活動例項都會布建特定數目的作用中描述檔。 請參閱您的授權合約，以取得已購買之有效設定檔數目的參考。
+
 >[!NOTE]
 >
->如果您使用來自build 10368的Campaign Standard，您也可以直接從「控制面板」監視實例上使用的活動配置檔案數。 有關詳細資訊，請參閱[控制面板文檔](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html)。
->
->請注意，「作用中描述檔」度量僅適用於&#x200B;**行銷例項**。 它不適用於執行實例，即MID（中間採購）和RT（消息中心／即時消息）實例。
+>身為管理員使用者，您也可以直接從「控制面板」監視執行個體上使用的作用中描述檔數目。 有關詳細資訊，請參閱[控制面板文檔](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html)。
 
-交貨準備期間排除的設定檔（類型學規則、隔離、控制群組）不會納入考量。 被多個傳遞項目鎖定的用戶檔案將只計算一次。在報表底部，您會找到每個定位維度的作用中描述檔清單。
 
-此報告由&#x200B;**[!UICONTROL Billing]**&#x200B;技術工作流程每月產生。 它包含在最近12個月滾動期間定位的活動配置檔案數。
-
-請注意，在準備交貨期間排除的設定檔（分類規則、隔離）不會納入考量。 此外，已由數個遞送鎖定的描述檔只會計算一次。
+「個人檔案」是代表最終客戶、潛在客戶或潛在客戶的資訊記錄。 如果描述檔已在過去12個月內透過任何渠道被促銷活動傳送定位，則會將其視為&#x200B;**active**。 交付準備期間排除的配置檔案（例如，通過分類規則或隔離機制）不會被考慮在內。 被多個傳遞項目鎖定的用戶檔案將只計算一次。此報告僅提供資訊，對帳單沒有直接影響。
 
 ![](assets/audience_active_profiles2.png)
 
-在報表底部，您會找到帳單工作流程處理的作用中描述檔清單：
+在報表底部，您會找到每個定位維度的作用中描述檔清單。 它顯示過去12個月滾動期間定位的作用中描述檔數。
 
-* **[!UICONTROL NmsRecipient]**&#x200B;來源包含使用其Campaign Standard配置檔案中的資訊聯繫的所有客戶。
+* **[!UICONTROL NmsRecipient]**&#x200B;源包含使用其Campaign Standard配置檔案中的資訊聯繫的所有配置檔案。
 
-* 另一方面，僅使用特定資訊（電子郵件地址、電話號碼）鎖定的客戶（與其促銷活動設定檔無關）將位於&#x200B;**[!UICONTROL anonymous]**&#x200B;來源下。
+* 客戶&#x200B;**[!UICONTROL anonymous]**&#x200B;來源僅顯示使用特定資訊（電子郵件地址、電話號碼）進行定位的設定檔數目，與其促銷活動設定檔無關。

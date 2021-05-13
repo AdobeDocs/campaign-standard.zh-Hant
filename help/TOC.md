@@ -6,11 +6,10 @@ user-guide-title: Campaign Standard
 user-guide-description: '說明中心，以瞭解使用 Campaign Standard 所需的主要功能、工作、設定和其他資源。 '
 title: Campaign Standard 指南
 breadcrumb-title: 說明中心
-translation-type: ht
-source-git-commit: 830c003e36cec41e5cf480f66812900312609e9f
-workflow-type: ht
-source-wordcount: '1783'
-ht-degree: 100%
+source-git-commit: c656aba6c9db769208a8af120d492f6a8a2a944e
+workflow-type: tm+mt
+source-wordcount: '1785'
+ht-degree: 99%
 
 ---
 
@@ -19,7 +18,7 @@ ht-degree: 100%
 
 + [產品文件](campaign-standard-home.md)
 + [最新更新](rn/using/documentation-updates.md)
-+ 發行說明 {#release-notes}
++ 發行說明{#release-notes}
    + [最新版本](rn/using/release-notes.md)
    + [早期發行說明](rn/using/early-release-notes.md)
    + 舊的發行版本{#previous-releases}
@@ -45,23 +44,23 @@ ht-degree: 100%
    + 隱私權 {#privacy}
       + [隱私權與同意](start/using/privacy.md)
       + [隱私權管理](start/using/privacy-management.md)
-      + [隱私權要求](start/using/privacy-requests.md)
+      + [隱私權請求](start/using/privacy-requests.md)
       + [隱私權常見問答集](start/using/privacy-faq.md)
    + [說明與支援選項](support.md)
-+ 設定檔與對象 {#profiles-and-audiences}
++ 設定檔與閱聽眾 {#profiles-and-audiences}
    + [開始使用個人檔案和對象](audiences/using/get-started-profiles-and-audiences.md)
    + 管理設定檔 {#managing-profiles}
       + [關於設定檔](audiences/using/about-profiles.md)
       + [建立設定檔](audiences/using/creating-profiles.md)
       + [編輯設定檔](audiences/using/editing-profiles.md)
       + [整合式客戶設定檔](audiences/using/integrated-customer-profile.md)
-      + [使用中的設定檔案](audiences/using/active-profiles.md)
+      + [度量和作用中的設定檔](audiences/using/active-profiles.md)
       + [管理測試設定檔](audiences/using/managing-test-profiles.md)
       + [充實 Campaign 資料庫](audiences/using/enriching-campaign-database.md)
    + 管理閱聽眾 {#managing-audiences}
       + [關於閱聽眾](audiences/using/about-audiences.md)
-      + [建立閱聽眾](audiences/using/creating-audiences.md)
-      + [在訊息中選取閱聽眾](audiences/using/selecting-an-audience-in-a-message.md)
+      + [建立對象](audiences/using/creating-audiences.md)
+      + [在訊息中選取對象](audiences/using/selecting-an-audience-in-a-message.md)
    + 管理訂閱 {#managing-subscriptions}
       + [關於訂閱](audiences/using/about-subscriptions.md)
       + [建立服務](audiences/using/creating-a-service.md)
@@ -115,9 +114,9 @@ ht-degree: 100%
       + [關於直接郵件](channels/using/about-direct-mail.md)
       + [返回至寄件者](channels/using/return-to-sender.md)
       + [建立直接郵件](channels/using/creating-the-direct-mail.md)
-      + [定義直接郵件閱聽眾](channels/using/defining-the-direct-mail-audience.md)
+      + [定義直接郵件對象](channels/using/defining-the-direct-mail-audience.md)
       + [定義直接郵件內容](channels/using/defining-the-direct-mail-content.md)
-   + 異動訊息傳送 {#transactional-messaging}
+   + 傳送異動訊息 {#transactional-messaging}
       + [開始使用異動訊息](channels/using/getting-started-with-transactional-msg.md)
       + [最佳實務和限制](channels/using/transactional-messaging-limitations.md)
       + 事件設定{#event-configuration}
@@ -164,7 +163,7 @@ ht-degree: 100%
       + [使用目標設定檔測試電子郵件訊息](sending/using/testing-messages-using-target.md)
       + [由 AI 支援電子郵件](sending/using/predictive.md)
       + [電子郵件呈現](sending/using/email-rendering.md)
-      + [新增控制群組](sending/using/control-group.md)
+      + [新增控制組](sending/using/control-group.md)
       + [使用陷阱](sending/using/using-traps.md)
       + [準備傳送](sending/using/preparing-the-send.md)
    + 排程訊息 {#scheduling-messages}
@@ -177,23 +176,23 @@ ht-degree: 100%
       + [追蹤訊息](sending/using/tracking-messages.md)
       + [使用電子郵件密件副本進行歸檔](sending/using/archiving.md)
    + 監控訊息 {#monitoring-messages}
-      + [監控傳送](sending/using/monitoring-a-delivery.md)
+      + [監視](sending/using/monitoring-a-delivery.md)
       + [發生故障時收到警報](sending/using/receiving-alerts-when-failures-happen.md)
       + [瞭解傳送故障](sending/using/understanding-delivery-failures.md)
       + [瞭解隔離管理](sending/using/understanding-quarantine-management.md)
    + 管理傳送能力 {#managing-deliverability}
-      + [關於傳送能力](sending/using/about-deliverability.md)
+      + [關於傳遞能力](sending/using/about-deliverability.md)
       + [控制電子郵件內容](sending/using/control-email-content.md)
-      + [監控傳送能力](sending/using/monitor-deliverability.md)
+      + [監視傳遞能力](sending/using/monitor-deliverability.md)
       + [疑難排解](sending/using/troubleshooting.md)
    + 使用類型學規則 {#working-with-typology-rules}
-      + [關於類型與類型學規則](sending/using/about-typology-rules.md)
+      + [關於類型與類型規則](sending/using/about-typology-rules.md)
       + [管理類型](sending/using/managing-typologies.md)
       + [管理類型規則](sending/using/managing-typology-rules.md)
       + [篩選規則](sending/using/filtering-rules.md)
       + [疲勞規則](sending/using/fatigue-rules.md)
       + [控制規則](sending/using/control-rules.md)
-+ 報告 {#reporting}
++ 報告{#reporting}
    + [動態報告快速入門](reporting/using/get-started-reporting.md)
    + 關於報告 {#about-reporting}
       + [關於動態報告](reporting/using/about-dynamic-reports.md)
@@ -300,7 +299,7 @@ ht-degree: 100%
       + [管理活動的屬性](automating/using/activity-properties.md)
       + [排程工作流程的重疊執行](automating/using/scheduled-workflows-execution.md)
    + 使用外部參數呼叫工作流程 {#calling-workflow-external-parameters}
-      + [概觀](automating/using/calling-a-workflow-with-external-parameters.md)
+      + [概覽](automating/using/calling-a-workflow-with-external-parameters.md)
       + [在外部信號活動中聲明參數](automating/using/declaring-parameters-external-signal.md)
       + [在呼叫工作流程時定義參數](automating/using/defining-parameters-calling-workflow.md)
       + [監控事件變數](automating/using/monitoring-events-variables.md)
@@ -313,9 +312,9 @@ ht-degree: 100%
       + [聯集](automating/using/union.md)
       + [交集](automating/using/intersection.md)
       + [排除](automating/using/exclusion.md)
-      + [細分](automating/using/segmentation.md)
-      + [讀取閱聽眾](automating/using/read-audience.md)
-      + [儲存閱聽眾](automating/using/save-audience.md)
+      + [分段](automating/using/segmentation.md)
+      + [讀取對象](automating/using/read-audience.md)
+      + [儲存對象](automating/using/save-audience.md)
       + [重複資料刪除](automating/using/deduplication.md)
       + [擴充](automating/using/enrichment.md)
    + 執行活動 {#execution-activities}
@@ -343,11 +342,11 @@ ht-degree: 100%
       + [擷取檔案](automating/using/extract-file.md)
       + [訂閱服務](automating/using/subscription-services.md)
       + [外部 API](automating/using/external-api.md)
-   + 篩選資料 {#filtering-data}
+   + 篩選資料{#filtering-data}
       + [編輯查詢](automating/using/editing-queries.md)
       + [進階運算式編輯](automating/using/advanced-expression-editing.md)
       + [函式清單](automating/using/list-of-functions.md)
-   + 匯入和匯出資料 {#importing-and-exporting-data}
+   + 匯入和匯出資料{#importing-and-exporting-data}
       + [關於資料匯入和匯出](automating/using/about-data-import-and-export.md)
       + [匯入最佳實務](automating/using/import-best-practices.md)
       + [使用匯入範本匯入資料](automating/using/importing-data-with-import-templates.md)
@@ -431,8 +430,8 @@ ht-degree: 100%
       + [訪客](developing/using/datamodel-visitor.md)
 + 管理 {#administrating}
    + [開始使用 Campaign Standard 管理](administration/using/get-started-campaign-administration.md)
-   + [監控准則](administration/using/monitoring-guidelines.md)
-   + [設定指南](administration/using/about-configuration-guidelines.md)
+   + [監視准則](administration/using/monitoring-guidelines.md)
+   + [配置指南](administration/using/about-configuration-guidelines.md)
    + 使用者與安全性 {#users-and-security}
       + [關於存取管理](administration/using/about-access-management.md)
       + [使用者管理](administration/using/users-management.md)
@@ -444,7 +443,7 @@ ht-degree: 100%
    + 設定通道 {#configuring-channels}
       + [關於通道設定](administration/using/about-channel-configuration.md)
       + [設定電子郵件通道](administration/using/configuring-email-channel.md)
-      + [在 ISP 中斷後更新彈出資格](administration/using/update-bounce-qualification.md)
+      + [在 ISP 中斷後更新跳出資格](administration/using/update-bounce-qualification.md)
       + [設定行動應用程式](administration/using/configuring-a-mobile-application.md)
    + 設定行動裝置頻道 {#configuring-mobile}
       + [實施推播追蹤](administration/using/push-tracking.md)
@@ -469,7 +468,7 @@ ht-degree: 100%
       + [傳送內部通知](administration/using/sending-internal-notifications.md)
       + [資料保留](administration/using/data-retention.md)
       + [更新和維護作業](administration/using/updates-and-maintenance-operations.md)
-+ 使用API {#working-with-apis}
++ 使用 API {#working-with-apis}
    + [開始使用 Campaign Standard API](api/using/get-started-apis.md)
    + 關於 Campaign Standard API {#about-campaign-standard-apis}
       + [為何使用 Campaign Standard API](api/using/why-using-campaign-standard-apis.md)

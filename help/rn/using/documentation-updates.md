@@ -10,10 +10,9 @@ feature: 概覽
 role: Business Practitioner
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-translation-type: tm+mt
-source-git-commit: dbc176188d936160e04956e7598bd219ba80347e
+source-git-commit: d1bd8cce4dd45c2fca032c5f02309dfc8c56c25d
 workflow-type: tm+mt
-source-wordcount: '6777'
+source-wordcount: '6790'
 ht-degree: 99%
 
 ---
@@ -22,13 +21,20 @@ ht-degree: 99%
 
 除了 Adobe Campaign [發行版本](../../rn/using/release-notes.md)以外，本頁還列出 Adobe Campaign Standard 檔案中的所有新更新。
 
+## 2021 年 5 月 {#doc-updates-may-2021}
+
+**作用中描述檔**&#x200B;報表區段已更新。 [顯示全文](../../audiences/using/active-profiles.md)
+
+**發行計畫**&#x200B;頁面已更新為新日期。 [顯示全文](../../rn/using/release-planning.md)
+
+
 ## 2021 年 4 月 {#doc-updates-april-2021}
 
 本節將討論如何與 Adobe Experience Platform 來源及目標合作，以便在 Campaign Standard 和 Adobe 即時客戶資料平台 (RTCDP) 之間共用資料。 [顯示全文](../../integrating/using/get-started-sources-destinations.md)
 
 ## 2021 年 3 月 {#doc-updates-march-2021}
 
-Campaign Standard 的「說明與支援選項」頁面已整合至核心文件。 [顯示全文](../../support.md)
+新&#x200B;**說明與支援選項**&#x200B;頁面。 [顯示全文](../../support.md)
 
 列出傳送訊息關鍵步驟的章節已增強，並附上其他資訊和參考。[顯示全文](../../channels/using/key-steps-to-send-a-message.md)
 

@@ -7,17 +7,16 @@ audience: start
 content-type: reference
 topic-tags: marketing-plans
 context-tags: activity,overview
-feature: Campaigns
+feature: 行銷活動
 role: Business Practitioner
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: c75471aa-b947-4488-a569-5412d3825c64
+source-git-commit: 6ca6fabc42f63791f4c2b0f1d2d6bd8ea5e27f7a
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '488'
 ht-degree: 82%
 
 ---
-
 
 # 行銷活動{#marketing-activities}
 
@@ -33,7 +32,7 @@ ht-degree: 82%
 >
 >您也可以從首頁選取 **[!UICONTROL Marketing activities]** 資訊卡，以存取行銷活動。
 
-![](assets/marketing_activities_1.png)
+![](assets/marketing_activities.png)
 
 **[!UICONTROL Search]** 窗格可讓您根據不同的準則來篩選元素：名稱（標籤和 ID）、日期、狀態或活動類型。依預設，會選取所有活動類型，但方案除外。
 
@@ -96,4 +95,3 @@ ht-degree: 82%
 >[!NOTE]
 >
 >您也可以從行銷活動清單建立行銷活動。在這種情況下，您可以建立任何類型的活動，並選擇透過活動屬性將行銷活動連結至父促銷活動（或建立方案時連結至父方案）。
-

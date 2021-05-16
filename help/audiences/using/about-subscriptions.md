@@ -3,24 +3,20 @@ solution: Campaign Standard
 product: campaign
 title: 關於訂閱
 description: 深入瞭解 Campaign Standard 中的服務和訂閱。
-audience: audiences
-content-type: reference
-topic-tags: managing-subscriptions
-feature: Audiences
+feature: 受眾
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 177f0115-d269-44e8-94e0-123360ea6299
+source-git-commit: 326683683c1564dc4c828d1ed34a3c13bae3a46e
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 52%
+source-wordcount: '221'
+ht-degree: 40%
 
 ---
 
-
 # 關於訂閱{#about-subscriptions}
 
-Adobe Campaign可讓您透過一組服務來建立和管理電子報和跨通道&#x200B;**通訊**：只能將傳送給已訂閱服務（選取加入）的設定檔。建立訊息時，會使用專用篩選器來識別這些設定檔。
+使用Adobe Campaign建立和管理電子報和跨通道通訊，透過一組&#x200B;**服務**:訊息只會傳送給訂閱服務（選擇加入）的設定檔。 建立訊息時，會使用專用篩選器來識別這些設定檔。
 
 您可以設定訂閱機制，讓客戶有機會訂閱這些服務，尤其是透過&#x200B;**電子郵件**&#x200B;及&#x200B;**登錄頁面**&#x200B;訂閱的客戶。
 

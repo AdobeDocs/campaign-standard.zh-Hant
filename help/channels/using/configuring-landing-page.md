@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,main
-feature: Landing Pages
+feature: 登錄頁面
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 0b9795e9-83e6-4399-a3b1-fc69081f6a82
+source-git-commit: 2cf8b960789ccf32b4782faa337654986e3fddbf
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 99%
+source-wordcount: '659'
+ht-degree: 97%
 
 ---
-
 
 # 設定登錄頁面 {#configuring-landing-page}
 
@@ -70,12 +69,11 @@ ht-degree: 99%
 
    如果頁面的訪客與資料庫中的設定檔相對應，則其資料會顯示在與資料庫資料對應的表單欄位中，而登錄頁面的個人化元素也會納入考量。
 
-   ![](assets/lp_parameters_3.png)
+   ![](assets/lp_parameters_3_temp.png)
 
-您也可以：
+您也可以使用&#x200B;**[!UICONTROL Authorize unidentified visitors]**&#x200B;選項，授權任何訪客存取著陸頁面。
 
-* 使用 URL 參數來識別訪客，使用下列 **[!UICONTROL Authorize visitor identification via URL parameters]** 選項：之後，您必須選取載入索引鍵，並將篩選參數對應至相對應 URL 的參數。
-* 使用選項 **[!UICONTROL Authorize unidentified visitors]** 授權任何訪客存取登錄頁面。
+<!--Use the URL parameters to identify the visitors, using the **[!UICONTROL Authorize visitor identification via URL parameters]** option: then you must choose the loading key and map the filter parameters with the parameters of the corresponding URL.-->
 
 也可以將登錄頁面連結至組織單位。這將定義使用者對於不同登錄頁面的存取權限。若要分配組織單位：
 
@@ -111,7 +109,7 @@ ht-degree: 99%
 1. 核取 **[!UICONTROL Use reCAPTCHA to protect your site from spam and abuse]** 選項。
 1. 選取您先前建立的 Google reCAPTCHA 外部帳戶。
 
-   ![](assets/lp_parameters_google.png)
+   ![](assets/lp_parameters_google_temp.png)
 
 1. 按一下 **[!UICONTROL Confirm]**。
 

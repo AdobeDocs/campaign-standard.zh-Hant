@@ -9,9 +9,9 @@ role: Business Practitioner
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
 source-git-commit: 105bc765f658cab39ec2628e39d51426005da6bd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '239'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 93%
 
 * **[Campaign - RTCDP 整合](integrating/using/get-started-sources-destinations.md)**<br/>瞭解如何在 Campaign 和即時客戶資料平台 (RTCDP) 之間共用資料
 
-* **[更新不正確的硬](https://helpx.adobe.com/tw/campaign/kb/update-bounce-qualification.html)**<br/> 體彈回數瞭解如何在電子郵件中斷後更新不正確的硬體彈回數
+* **[更新不正確的硬退件](https://helpx.adobe.com/tw/campaign/kb/update-bounce-qualification.html)**<br/>&#x200B;瞭解如何在電子郵件中斷後更新不正確的硬退件
 
 * **[控制組](sending/using/control-group.md)**<br/>透過排除部分對象，以評估行銷活動的影響
 

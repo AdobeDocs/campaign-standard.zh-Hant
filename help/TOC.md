@@ -6,10 +6,10 @@ user-guide-title: Campaign Standard
 user-guide-description: '說明中心，以瞭解使用 Campaign Standard 所需的主要功能、工作、設定和其他資源。 '
 title: Campaign Standard 指南
 breadcrumb-title: 說明中心
-source-git-commit: 105bc765f658cab39ec2628e39d51426005da6bd
+source-git-commit: c98aa913f4004d49a897ea71e39cbfe6b3dd53c1
 workflow-type: tm+mt
 source-wordcount: '1783'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -18,14 +18,14 @@ ht-degree: 100%
 
 + [產品文件](campaign-standard-home.md)
 + [最新更新](rn/using/documentation-updates.md)
-+ 發行說明{#release-notes}
++ 發行說明 {#release-notes}
    + [最新版本](rn/using/release-notes.md)
-   + [早期發行說明](rn/using/early-release-notes.md)
+   + [早期發行說明](rn/using/e-release-notes.md)
    + 舊的發行版本{#previous-releases}
       + [發行說明 2020 年](rn/using/release-notes-2020.md)
-      + [發行說明 2019 年](rn/using/release-notes-2019.md)
-      + [發行說明 2018 年](rn/using/release-notes-2018.md)
-      + [發行說明 2017 年](rn/using/release-notes-2017.md)
+      + [發行說明2019年](rn/using/release-notes-2019.md)
+      + [發行說明2018年](rn/using/release-notes-2018.md)
+      + [發行說明2017年](rn/using/release-notes-2017.md)
    + [發行計畫](rn/using/release-planning.md)
    + [已過時的功能](rn/using/deprecated-features.md)
    + [追蹤的 URL 簽名問題](rn/using/tracked-urls.md)
@@ -78,12 +78,12 @@ ht-degree: 100%
       + [存取訊息](channels/using/accessing-messages.md)
       + [訊息儀表板](channels/using/message-dashboard.md)
       + [多語言訊息範本](channels/using/multilingual-messages-template.md)
-   + 傳遞最佳實務{#delivery-bestpractices}
+   + 傳遞最佳實務 {#delivery-bestpractices}
       + [瞭解好的實務](sending/using/delivery-best-practices.md)
       + [最佳化傳遞](sending/using/optimize-delivery.md)
       + [使用範本](sending/using/use-templates.md)
       + [建置個人化內容](sending/using/design-and-personalize.md)
-      + [定義正確受眾](sending/using/define-the-right-audience.md)
+      + [定義正確對象](sending/using/define-the-right-audience.md)
       + [傳送前先檢查](sending/using/check-before-sending.md)
       + [追蹤和監視](sending/using/track-and-monitor.md)
    + 電子郵件訊息 {#email-messages}
@@ -130,7 +130,7 @@ ht-degree: 100%
       + [異動推播通知](channels/using/transactional-push-notifications.md)
       + [後續訊息](channels/using/follow-up-messages.md)
       + [異動訊息使用案例](channels/using/transactional-messaging-use-case.md)
-   + 登錄頁面 {#landing-pages}
+   + 登陸頁面 {#landing-pages}
       + [登錄頁面快速入門](channels/using/getting-started-with-landing-pages.md)
       + [關於登錄頁面範本](channels/using/landing-page-templates.md)
       + [設定登錄頁面](channels/using/configuring-landing-page.md)
@@ -183,7 +183,7 @@ ht-degree: 100%
    + 管理傳送能力 {#managing-deliverability}
       + [關於傳遞能力](sending/using/about-deliverability.md)
       + [控制電子郵件內容](sending/using/control-email-content.md)
-      + [監視傳遞能力](sending/using/monitor-deliverability.md)
+      + [監視傳遞性](sending/using/monitor-deliverability.md)
       + [疑難排解](sending/using/troubleshooting.md)
    + 使用類型學規則 {#working-with-typology-rules}
       + [關於類型與類型規則](sending/using/about-typology-rules.md)
@@ -198,7 +198,7 @@ ht-degree: 100%
       + [關於動態報告](reporting/using/about-dynamic-reports.md)
       + [報告介面](reporting/using/reporting-interface.md)
       + [元件清單](reporting/using/list-of-components-.md)
-      + [指示器計算](reporting/using/indicator-calculation.md)
+      + [指標計算](reporting/using/indicator-calculation.md)
       + [疑難排解](reporting/using/troubleshooting.md)
    + 報告清單 {#list-of-reports}
       + [定義報告期間](reporting/using/defining-the-report-period.md)
@@ -268,9 +268,9 @@ ht-degree: 100%
          + [在 Microsoft Dynamics 365 和 Campaign 之間對應資料](integrating/using/d365-acs-self-service-app-data-sync.md)
       + [使用 Microsoft Dynamics 365 整合](integrating/using/d365-acs-using-the-integration.md)
    + 行銷活動與 Adobe Experience Platform{#adobe-experience-platform}
-      + Adobe Experience Platform 來源和目標{#aep-sources-destinations}
+      + Adobe Experience Platform 來源和目標 {#aep-sources-destinations}
          + [開始使用來源和目標](integrating/using/get-started-sources-destinations.md)
-         + [將Adobe Experience Platform 閱聽眾獲取至 Campaign](integrating/using/ingest-aep-data.md)
+         + [將 Adobe Experience Platform 對象內嵌至 Campaign](integrating/using/ingest-aep-data.md)
          + [將資料從 Campaign 匯出至 Adobe Experience Platform](integrating/using/export-campaign-data.md)
       + 閱聽眾目標服務 (Beta){#audience-destinations}
          + [關於 Audience Destinations 服務](integrating/using/aep-about-audience-destinations-service.md)
@@ -304,24 +304,24 @@ ht-degree: 100%
       + [在呼叫工作流程時定義參數](automating/using/defining-parameters-calling-workflow.md)
       + [監控事件變數](automating/using/monitoring-events-variables.md)
       + [使用外部參數自訂工作流程](automating/using/customizing-workflow-external-parameters.md)
-      + [使用案例](automating/using/use-case-calling-workflow.md)
+      + [使用實例](automating/using/use-case-calling-workflow.md)
    + 目標定位活動 {#targeting-activities}
       + [關於目標定位活動](automating/using/about-targeting-activities.md)
       + [查詢](automating/using/query.md)
       + [增量查詢](automating/using/incremental-query.md)
-      + [聯集](automating/using/union.md)
+      + [聯合](automating/using/union.md)
       + [交集](automating/using/intersection.md)
       + [排除](automating/using/exclusion.md)
       + [分段](automating/using/segmentation.md)
       + [讀取對象](automating/using/read-audience.md)
       + [儲存對象](automating/using/save-audience.md)
-      + [重複資料刪除](automating/using/deduplication.md)
+      + [去重複化](automating/using/deduplication.md)
       + [擴充](automating/using/enrichment.md)
    + 執行活動 {#execution-activities}
       + [關於執行活動](automating/using/about-execution-activities.md)
       + [開始和結束](automating/using/start-and-end.md)
       + [分支](automating/using/fork.md)
-      + [合併連結](automating/using/and-join.md)
+      + [AND-join](automating/using/and-join.md)
       + [排程器](automating/using/scheduler.md)
       + [等待](automating/using/wait.md)
       + [外部訊號](automating/using/external-signal.md)
@@ -356,8 +356,8 @@ ht-degree: 100%
       + [管理套件](automating/using/managing-packages.md)
       + [匯出清單](automating/using/exporting-lists.md)
       + [使用案例：匯出/匯入自訂資源](automating/using/exporting-importing-custom-resources.md)
-   + 使用案例 {#workflow-use-case}
-      + [關於工作流程使用案例](automating/using/about-workflow-use-cases.md)
+   + 使用實例 {#workflow-use-case}
+      + [關於工作流程使用實例](automating/using/about-workflow-use-cases.md)
       + 傳遞 {#deliveries}
          + [使用補救來建立傳送](automating/using/workflow-created-query-with-complement.md)
          + [在設定檔建立日期中建立傳送](automating/using/workflow-creation-date-query.md)
@@ -377,7 +377,7 @@ ht-degree: 100%
          + [對服務訂閱者的增量查詢](automating/using/incremental-query-on-subscribers.md)
          + [根據年齡群體細分](automating/using/segmentation-age-groups.md)
          + [使用與目標維度不同的資源](automating/using/using-resources-different-from-targeting-dimensions.md)
-      + 資料管理{#data-management}
+      + 資料管理 {#data-management}
          + [使用資料庫調解檔案對象](automating/using/reconcile-file-audience-with-database.md)
          + [從匯入的檔案中重複刪除資料](automating/using/deduplicating-data-imported-file.md)
          + [使用檔案包含的資料擴充設定檔資料](automating/using/enriching-profile-data-file.md)
@@ -417,7 +417,7 @@ ht-degree: 100%
       + [簡介](developing/using/datamodel-introduction.md)
       + [閱聽眾](developing/using/datamodel-audience.md)
       + [Campaign](developing/using/datamodel-campaign.md)
-      + [傳送](developing/using/datamodel-delivery.md)
+      + [傳遞](developing/using/datamodel-delivery.md)
       + [登錄頁面](developing/using/datamodel-landingpage.md)
       + [行銷歷史記錄](developing/using/datamodel-history.md)
       + [個人資料](developing/using/datamodel-profile.md)
@@ -428,10 +428,10 @@ ht-degree: 100%
       + [追蹤記錄檔](developing/using/datamodel-tracking.md)
       + [取消訂閱事件](developing/using/datamodel-unsubscription.md)
       + [訪客](developing/using/datamodel-visitor.md)
-+ 管理 {#administrating}
++ 系統管理 {#administrating}
    + [開始使用 Campaign Standard 管理](administration/using/get-started-campaign-administration.md)
-   + [監視准則](administration/using/monitoring-guidelines.md)
-   + [配置指南](administration/using/about-configuration-guidelines.md)
+   + [監視指南](administration/using/monitoring-guidelines.md)
+   + [設定指南](administration/using/about-configuration-guidelines.md)
    + 使用者與安全性 {#users-and-security}
       + [關於存取管理](administration/using/about-access-management.md)
       + [使用者管理](administration/using/users-management.md)
@@ -457,8 +457,8 @@ ht-degree: 100%
       + [如何將您的行動應用程式從 SDK v4 移轉至 Adobe Experience Platform SDK](administration/using/sdkv4-migration.md)
    + 設定 SMS 通道 {#configuring-sms}
       + [實作 SMS 通道](administration/using/configuring-sms-channel.md)
-      + [SMS 連接器通訊協定及設定](administration/using/sms-protocol.md)
-      + [SMS 疑難排解](administration/using/troubleshooting-sms.md)
+      + [簡訊連接器通訊協定及設定](administration/using/sms-protocol.md)
+      + [簡訊疑難排解](administration/using/troubleshooting-sms.md)
    + 應用程式設定 {#application-settings}
       + [關於 Campaign Standard 設定](administration/using/about-campaign-standard-settings.md)
       + [外部帳戶](administration/using/external-accounts.md)

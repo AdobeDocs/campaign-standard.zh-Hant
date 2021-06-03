@@ -10,16 +10,21 @@ feature: 概覽
 role: Business Practitioner
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: e996a5c6722c211c931427ff59f8d219d493aca7
-workflow-type: ht
-source-wordcount: '2479'
-ht-degree: 100%
+source-git-commit: 3206835d231378f40ed468286384a56cb38f0059
+workflow-type: tm+mt
+source-wordcount: '2500'
+ht-degree: 99%
 
 ---
 
 # 最新版本{#latest-release}
 
 [發行計畫](../../rn/using/release-planning.md) | [控制面板版本](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/release-notes.html) | [文件更新](../../rn/using/documentation-updates.md) | [先前的發行版本](../../rn/using/release-notes-2020.md) | [已過時的功能](../../rn/using/deprecated-features.md)
+
+
+## 發行版本21.2 – 2021 年 6 月{#release-21-2}
+
+下一個Campaign Standard版本包含的新功能、改良和修正項目會列在[搶鮮版發行說明](e-release-notes.md)中。
 
 ## 版本 21.1 – 2021 年 2 月 {#release-21-1---february-2021}
 

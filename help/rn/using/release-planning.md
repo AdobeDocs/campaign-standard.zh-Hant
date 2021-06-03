@@ -10,11 +10,10 @@ feature: 概覽
 role: Business Practitioner
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-translation-type: ht
-source-git-commit: 8b8f41917349800327b2bddc820e677f913cdaf7
-workflow-type: ht
-source-wordcount: '466'
-ht-degree: 100%
+source-git-commit: c98aa913f4004d49a897ea71e39cbfe6b3dd53c1
+workflow-type: tm+mt
+source-wordcount: '462'
+ht-degree: 97%
 
 ---
 
@@ -32,7 +31,7 @@ Adobe 透過新增功能、增強功能和修正不斷改進其解決方案。
 
 環境更新會在以下指定時段內以波形進行。已透過電子郵件向每位客戶傳達確切日期。
 
-當開始升級中繼環境時，[發行說明](../../rn/using/release-notes.md)中提供了關於此版本的詳細資訊。
+有關此版本的詳細資訊，請參閱[Early Release Notes](../../rn/using/e-release-notes.md)。
 
 <table>
  <thead>
@@ -65,7 +64,7 @@ Adobe 透過新增功能、增強功能和修正不斷改進其解決方案。
 
 **問：什麼是驗證程式？**
 
-答：當您的測試執行個體升級時，Adobe 建議驗證您的流程，且使用案例與此新版本搭配運作正常，並向 [Adobe Client Care](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html) 報告任何問題。
+答：當您的測試執行個體升級時，Adobe 建議驗證您的流程，且使用案例與此新版本搭配運作正常，並向 [Adobe Client Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) 報告任何問題。
 
 **問：在升級過程中是否可以存取執行個體？**
 
@@ -87,4 +86,4 @@ Adobe 透過新增功能、增強功能和修正不斷改進其解決方案。
 
 答：登入 Campaign 時，將會顯示版本通知快顯視窗及最新版本。
 
-如有任何其他問題，請聯絡 [Adobe Client Care](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)。
+如有任何其他問題，請聯絡 [Adobe Client Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)。

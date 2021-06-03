@@ -8,9 +8,9 @@ role: Business Practitioner
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: c98aa913f4004d49a897ea71e39cbfe6b3dd53c1
+source-git-commit: 7eb12fbb89f677eb7184cb5ff200d3f8a466d3c8
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '1032'
 ht-degree: 3%
 
 ---
@@ -53,6 +53,9 @@ ht-degree: 3%
 * 標準使用者現在可以使用與電子郵件設計工具的資產核心服務整合。
 
 * 已新增新訊息，以確認成功從v4推送應用程式移轉至v5推送應用程式。
+
+* 在建立JSONWeb Token以驗證Campaign StandardAPI期間，產品設定檔現在為&#x200B;**被視為**。 這表示分配給安全性群組（符合AdobeIO上的產品設定檔）的組織單位和角色，將套用至Campaign Standard休息API呼叫所需的IMS技術帳戶。 (CAMP-47479)
+
 
 **修補程式**
 
@@ -111,5 +114,3 @@ ht-degree: 3%
 * 修正電子郵件設計工具中，當嘗試選取資產時，資產核心服務整合持續失敗的問題。 (CAMP-47446)
 
 * 修正由於促銷活動不支援來自Journey Orchestration之事件所傳送具有確切值（即結尾為00）的時間戳記，而封鎖某些Journey Orchestration傳送的問題。
-
-* 已最佳化updateDeliveryIndicators技術工作流程。 具有相同broadlog/trackinglog架構的傳送ID現在會分組在一起。 這會限制查詢的數量，進而改善效能。

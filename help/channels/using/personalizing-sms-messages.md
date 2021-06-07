@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: sms-messages
 delivercontext-tags: deliveryCreation,wizard;delivery,smsContent,back;delivery,smsContent,back
-feature: SMS
+feature: 簡訊
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6c01662e-1e19-4cec-aa21-6e84b9b7a677
+source-git-commit: b564ecce0fab3ebcc1afb02fd2cae3f7eafd025e
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 99%
+source-wordcount: '432'
+ht-degree: 100%
 
 ---
-
 
 # 個人化 SMS 訊息{#personalizing-sms-messages}
 
@@ -39,4 +38,15 @@ ht-degree: 99%
 
 ## SMS 寄件者 {#sms-sender}
 
-您可以個人化 SMS 寄件者的名稱。有關詳細資訊，請參閱 [SMS 設定](../../administration/using/configuring-sms-channel.md#configuring-sms-properties)區段。
+>[!IMPORTANT]
+>
+>請查看您所在國家/地區有關修改寄件者地址的法規。您也應洽詢您的 SMS 服務提供者，以瞭解他們是否提供此功能。
+
+**[!UICONTROL From]** 選項可讓您使用字串個人化 SMS 訊息寄件者的名稱。此名稱將顯示為收件者行動電話上 SMS 訊息的傳送者姓名。
+
+如果此欄位為空，則會是使用的外部帳戶中提供的來源號碼。如果未提供來源號碼，則將使用簡短代碼。SMS 傳送專用的外部帳戶會顯示在[定義 SMS 路由](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)區段。
+
+![](assets/sms_creation_8.png)
+
+
+

@@ -6,15 +6,14 @@ description: 使用其他 Adobe 解決方案，並將其不同的功能與 Campa
 audience: integrating
 content-type: reference
 topic-tags: get-started-campaign-integrations
-feature: Triggers
+feature: 觸發因子
 role: Data Architect
 level: Intermediate
 exl-id: ecf88c7d-6729-4b3a-85c4-60427bb57442
-translation-type: tm+mt
-source-git-commit: 3f0c24baf489c516a7a3f665e8c23cec0ed2c3bf
+source-git-commit: bc2a4af29e7ed9e9e7b338b7aa7d8bb30628f0b6
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 86%
+source-wordcount: '720'
+ht-degree: 79%
 
 ---
 
@@ -49,21 +48,21 @@ ht-degree: 86%
  </thead> 
  <tbody> 
   <tr> 
-   <td> Experience Manager<br /> 6.1、6.2、6.3、6.4、6.5<br /> </td> 
+   <td> Adobe Experience Manager<br /> </td> 
    <td> 可讓您直接在 Adobe Experience Manager 中建立對應至 Adobe Campaign 資料庫的電子郵件內容或表單。<br /> </td> 
    <td> 
-     <a href="../../integrating/using/integrating-with-experience-manager.md">使用促銷活動和Experience Manager</a>、 <a href="https://helpx.adobe.com/tw/experience-manager/6-4/sites/administering/using/campaignstandard.html">整合Experience Manager和Campaign Standard</a>, <a href="https://gn.adobe.com/doc/standard/getting_started/en/ACS_AEM.html">建立包含Experience Manager和促銷活動的電子郵件</a> 
+     <a href="../../integrating/using/integrating-with-experience-manager.md">使用Campaign與Experience Manager</a>、整合 <a href="https://helpx.adobe.com/tw/experience-manager/6-4/sites/administering/using/campaignstandard.html">Experience Manager與Campaign Standard</a>、使用 <a href="https://gn.adobe.com/doc/standard/getting_started/en/ACS_AEM.html">Experience Manager與促銷活動建立電子郵件</a> 
     </td> 
   </tr> 
   <tr> 
-   <td> Target<br /> Classic、Standard<br /> </td> 
+   <td> Adobe Target<br /> </td> 
    <td> 可讓您在開啟由 Adobe Campaign 建立和發傳送的電子郵件活動時插入由 Adobe Target 動態運算的影像。<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-target-integration.md">使用Campaign和Target</a>、整 <a href="https://docs.adobe.com/content/help/zh-Hant/target/using/integrate/campaign-and-target.html">合Campaign和Target</a>, <a href="https://helpx.adobe.com/tw/marketing-cloud/how-to/email-marketing.html">在即時視訊中個人化</a> 電子郵件影像（步驟3）
+    <a href="../../integrating/using/about-campaign-target-integration.md">使用Campaign和Target</a>、整合 <a href="https://docs.adobe.com/content/help/zh-Hant/target/using/integrate/campaign-and-target.html">Campaign和Target</a>、以即 <a href="https://helpx.adobe.com/tw/marketing-cloud/how-to/email-marketing.html">時影片個人化電子郵</a> 件影像（步驟3）
     </td> 
   </tr> 
   <tr> 
-   <td> Analytics<br /> Standard、Premium <br /> </td> 
+   <td> Adobe Analytics<br /> </td> 
    <td> 可讓您直接在 Adobe Analytics 中追蹤電子郵件傳送的成功情況。<br /> </td> 
    <td> 
     <a href="../../integrating/using/about-campaign-analytics-integration.md">與 Analytics 共用行銷活動資料</a>，<a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">共用 KPI 以整合行銷活動報告</a>影片（步驟 1）
@@ -74,13 +73,13 @@ ht-degree: 86%
    <td> 可讓您使用的不同 Adobe Experience Cloud 應用程式交換受眾。<br /> </td> 
    <td> <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">People 服務核心（設定檔與觀眾）</a><br /> </td> 
   </tr> 
-    <tr> 
-   <td>Adobe即時客戶資料平台(RTCDP)<br /> </td> 
-   <td> Adobe Campaign與Adobe即時客戶資料平台(RTCDP)的整合可讓您共用區段資料，並將觀眾匯入Adobe Campaign。</td>
+   <tr> 
+   <td> AdobeReal-time Customer Data Platform(RTCDP)<br /> </td> 
+   <td> Adobe Campaign與Adobe即時客戶資料平台(RTCDP)的整合可讓您共用區段資料，並將對象匯入Adobe Campaign。</td>
    <td><a href="../../integrating/using/get-started-sources-destinations.md">開始使用來源和目標</a></td>
   </tr> 
   <tr> 
-   <td> 資產核心服務與隨選資產<br /> </td> 
+   <td> Adobe資產核心服務與隨選資產<br /> </td> 
    <td> 可讓您將 Adobe Experience Cloud 資料庫中的資產插入到 Adobe Campaign 中建立的電子郵件和登錄頁中。<br /> </td> 
    <td> <a href="../../integrating/using/working-with-campaign-and-assets-core-service.md">資產核心服務</a> 或隨選資產<br /> </td> 
   </tr> 
@@ -90,21 +89,26 @@ ht-degree: 86%
    <td> <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">傳送含有 Campaign 和興趣點資料的位置型行銷訊息</a> （行動裝置分析）<br /> </td> 
   </tr> 
   <tr> 
-   <td> Experience Cloud Triggers<br /> </td> 
+   <td> Adobe Experience Cloud 觸發因子<br /> </td> 
    <td> 可讓您在 Adobe Campaign 中向您的客戶傳送個人化電子郵件，作為對 Adobe Analytics 在您的網站上追蹤的特定行為的反應。<br /> </td> 
    <td> 
     <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">在 Campaign Standard 中使用 Experience Cloud 觸發器</a>、<a href="../../integrating/using/abandonment-triggers-use-cases.md">放棄觸發器 Campaign 使用案例</a>，<a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">根據網站活動影片觸發再行銷訊息</a>（步驟 2）
     </td> 
   </tr> 
+    <tr> 
+   <td> AdobeJourney Orchestration<br /> </td> 
+   <td> 允許在AdobeJourney Orchestration的內容中使用Adobe Campaign Standard的交易式訊息功能，透過現成可用的動作來傳送電子郵件、推播通知和簡訊。<br /> </td> 
+   <td> <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/working-with-adobe-campaign.html?lang=en">使用AdobeJourney Orchestration和Adobe Campaign Standard</a><br /> </td> 
+  </tr> 
   <tr> 
-   <td> Dreamweaver<br /> </td> 
+   <td> Adobe Dreamweaver<br /> </td> 
    <td> 可讓您從 Dreamweaver 編輯電子郵件內容，並與 Adobe Campaign 同步化。<br /> </td> 
    <td> 
-    <a href="https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.translate.html">使用</a> Dreamweavervideo、Use  <a href="https://helpx.adobe.com/tw/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Campaign extension forDreamweaver建立個人化電子郵件</a> 
+    <a href="https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.translate.html">使用Dreamweavervideo建立個人化</a> 電子郵件，使 <a href="https://helpx.adobe.com/tw/dreamweaver/using/working-with-dreamweaver-and-campaign.html">用Dreamweaver的Campaign擴充功能</a> 
   </td> 
   </tr> 
   <tr> 
-   <td> Experience Platform SDK<br /> </td> 
+   <td> Adobe Experience Platform SDK<br /> </td> 
    <td> 允許使用 Experience Platform SDK 在 Adobe Campaign 中自動化行動應用程式屬性啟用程序。<br /> </td> 
    <td> <a href="https://helpx.adobe.com/tw/campaign/kb/configuring-app-sdk.html">使用 Experience Platform SDK 設定行動應用程式</a><br /> </td> 
   </tr> 

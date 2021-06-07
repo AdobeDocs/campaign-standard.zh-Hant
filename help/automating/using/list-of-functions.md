@@ -10,11 +10,10 @@ feature: 工作流程
 role: Data Architect
 level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
-translation-type: tm+mt
-source-git-commit: 33cba2254bb90951880126cd9978f1890ee72e9c
+source-git-commit: 2672d2f58a2d46394454a88e63f8d09ea7e96148
 workflow-type: tm+mt
-source-wordcount: '1941'
-ht-degree: 97%
+source-wordcount: '1971'
+ht-degree: 96%
 
 ---
 
@@ -38,7 +37,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->所有活動中都提供其他函式，讓您在使用外部參數呼叫工作流程後使用事件變數。 [本節](../../automating/using/customizing-workflow-external-parameters.md)將詳細說明。
+>所有活動中都提供其他函式，可讓您在使用外部參數呼叫工作流程後使用事件變數。 在[本節](../../automating/using/customizing-workflow-external-parameters.md)中詳細介紹了這些規則。
 
 ## 日期 {#dates}
 
@@ -284,7 +283,7 @@ ht-degree: 97%
  </tbody> 
 </table>
 
-## Geomarketing {#geomarketing}
+## 地理行銷 {#geomarketing}
 
 地理行銷函式用於操縱地理值。
 
@@ -660,7 +659,7 @@ ht-degree: 97%
   <tr> 
    <td> <strong>encryption_aescbcEncrypt</strong><br /> </td> 
    <td> 使用　AES　演算法（CBC　區塊模式）加密字元字串（第　1　參數），其中包含鍵（第　2　參數）和初始化向量（第　3　參數）。密鑰和初始化向量必須以十六進位表示(以 <strong>\x</strong>　開始)。結果將以十六進位表示，而不是 <strong>\x</strong>。<br /> 請注意，密鑰大小可以是　128　位、192　位、256　位（16、24、32　個十六進位字元），但建議您使用　256　位和與密鑰長度相同的隨機　IV。<br /> </td> 
-   <td> encryption_aescbcEncrypt(&lt;String&gt;, &lt;String&gt;, &lt;String&gt;)<br />例如：encryption_aescbcEncrypt(johndoe@example.com, "<strong>\\x0123456789ABCDEF0123456789ABCDEF</strong>", "<strong>\\x0123456789ABCDEFEDCBA9876543210</strong>")<br /> </td> 
+   <td> encryption_aescbcEncrypt(&lt;String&gt;, &lt;String&gt;, &lt;String&gt;)<br />例如：encryption_aescbcEncrypt(johndoe@example.com, "<strong>\\x0123456789ABCDEF0123456789ABCDEF</strong>", "<strong>\\x0123456789ABCDEFFEDCBA9876543210</strong>")<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -707,8 +706,16 @@ ht-degree: 97%
    <td> <strong>Min</strong>, Min<br /> </td> 
    <td> 傳回數值、字串或日期欄中的最小值。<br /> </td> 
    <td> Min(&lt;value&gt;)<br /> </td> 
-  </tr> 
+  </tr>
   <tr> 
+   <td> <strong>StringAgg</strong>, String匯總<br /> </td> 
+   <td> 傳回字串類型列值的串連，用第二個引數中的字元分隔（預設分隔符號為逗號）。<br /> </td> 
+   <td> StringAgg(&lt;string values&gt;,&lt;separator&gt;)
+  </tr>
+
+
+
+<tr> 
    <td> <strong>Sum</strong>, Sum<br /> </td> 
    <td> 傳回數值欄中值的總和。<br /> </td> 
    <td> Sum(&lt;value&gt;)<br /> </td> 

@@ -6,17 +6,16 @@ description: 技術工作流程是現成的工作流程，旨在處理 Adobe Cam
 audience: administration
 content-type: reference
 topic-tags: application-settings
-feature: Instance Settings
+feature: 執行個體設定
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
+exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
+source-git-commit: 6d25a618b2520c867393bf0ef795567de4c57e98
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 99%
+source-wordcount: '695'
+ht-degree: 95%
 
 ---
-
 
 # 技術工作流程{#technical-workflows}
 
@@ -100,9 +99,14 @@ Adobe Campaign 可立即提供技術工作流程。技術工作流程是排程�
    <td> 此工作流程會同步在 Adobe Campaign Standard 中匯入的 Adobe Launch 行動裝置屬性。每 15 分鐘開始一次。<br /> </td> 
   </tr>
   <tr> 
-   <td> <span class="uicontrol">更新傳送執行</span> <br /> </td> 
-   <td> <span class="uicontrol">updateDeliveryExecInfo</span> <br /> </td> 
-   <td> 此工作流程會更新傳送的追蹤。預設會每 10 分鐘啟動一次。<br /> </td> 
+   <td> <span class="uicontrol">追蹤記錄復原</span> <br /> </td> 
+   <td> <span class="uicontrol">SyncWithLaunch</span> <br /> </td> 
+   <td> 此工作流程會同步在 Adobe Campaign Standard 中匯入的 Adobe Launch 行動裝置屬性。每 15 分鐘開始一次。<br /> </td> 
+  </tr>
+  <tr> 
+   <td> <span class="uicontrol">恢復跟蹤日誌</span> <br /> </td> 
+   <td> <span class="uicontrol">trackingLogRecovery</span> <br /> </td> 
+   <td> 此工作流程會還原遺失的追蹤記錄。 請注意，此技術工作流程僅用於特定內容，並限於Adobe內部使用。 <br>預設會每 10 分鐘啟動一次。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">更新傳送指標</span> <br /> </td> 
@@ -121,4 +125,3 @@ Adobe Campaign 可立即提供技術工作流程。技術工作流程是排程�
   </tr> 
  </tbody> 
 </table>
-

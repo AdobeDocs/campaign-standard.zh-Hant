@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,main
-feature: Landing Pages
+feature: 登錄頁面
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 28398843-a170-48cf-b9c0-dca7af56236d
+source-git-commit: c9d2edbc0731734967af033dc318f5f60ea5cc8d
 workflow-type: tm+mt
-source-wordcount: '1667'
-ht-degree: 99%
+source-wordcount: '1668'
+ht-degree: 96%
 
 ---
-
 
 # 設計登錄頁面{#designing-a-landing-page}
 
@@ -27,19 +26,19 @@ ht-degree: 99%
 
 設計登錄頁面時，您需要定義頁面本身、確認頁面及錯誤頁面的內容。使用動作列下方的切換器，以顯示和設定其中的每個頁面。
 
-登錄頁面的內容是透過 Campaign 內容編輯器設計而成。
+登錄頁面的內容是透過Campaign內容編輯器設計。
 
 >[!NOTE]
 >
->如果您的執行個體是在 Adobe Campaign Standard 19.0 發行之前安裝，則仍可存取舊版電子郵件內容編輯器。登錄頁面的介面、使用原則和設定大致與下述相同。但是，舊版電子郵件內容編輯器中可能無法使用或維護所有功能，因為此編輯器自 19.0 版起即已淘汰。若要透過具有擴充功能的拖放介面快速來編輯電子郵件內容，請使用[電子郵件設計工具](../../designing/using/designing-content-in-adobe-campaign.md)。
+>為了進行電子郵件設計，如果您的執行個體是在Adobe Campaign Standard 19.0版本之前安裝，您仍可存取舊版電子郵件內容編輯器。 登錄頁面的介面、使用原則和設定大致與下述相同。但是，舊版電子郵件內容編輯器中可能無法使用或維護所有功能，因為此編輯器自 19.0 版起即已淘汰。若要透過具有擴充功能的拖放介面快速來編輯電子郵件內容，請使用[電子郵件設計工具](../../designing/using/designing-content-in-adobe-campaign.md)。
 
 此頁面說明登錄頁面內容編輯器的特異性。如需一或多個行銷活動常見動作的詳細資訊，請參閱&#x200B;**設計電子郵件內容**&#x200B;指南中的下列區段：
 
 * [插入個人化欄位](../../designing/using/personalization.md#inserting-a-personalization-field)
-* [新增內容區塊](../../designing/using/personalization.md#adding-a-content-block)。
-* [插入連結](../../designing/using/links.md#inserting-a-link)。
-* [插入影像](../../designing/using/images.md)。
-* [內容設計的一般最佳實務](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices)。
+* [新增內容區塊](../../designing/using/personalization.md#adding-a-content-block)
+* [插入連結](../../designing/using/links.md#inserting-a-link)
+* [插入影像](../../designing/using/images.md)
+* [內容設計的一般最佳實務](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices)
 
 >[!NOTE]
 >如果您有以 HTML 格式預先定義的登錄頁面，則可使用 **[!UICONTROL Change content]** 按鈕直接匯入頁面。

@@ -7,17 +7,16 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 context-tags: extAccountMobile,overview;extAccount,main;delivery,smsContent,back
-feature: Instance Settings
+feature: 執行個體設定
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
+source-git-commit: b564ecce0fab3ebcc1afb02fd2cae3f7eafd025e
 workflow-type: tm+mt
-source-wordcount: '1629'
-ht-degree: 99%
+source-wordcount: '1567'
+ht-degree: 95%
 
 ---
-
 
 # 設定 SMS 通道{#configuring-sms-channel}
 
@@ -333,15 +332,11 @@ CR：歸位
 
 從&#x200B;**[!UICONTROL Advanced parameters]**&#x200B;部分：
 
-* **[!UICONTROL From]** 選項可讓您使用字串個人化 SMS 訊息寄件者的名稱。此名稱將顯示為收件者行動電話上 SMS 訊息的傳送者姓名。
+* **[!UICONTROL Short code]**&#x200B;可讓您將特定的簡碼新增至您的傳送。 在郵件準備期間，會自動排除選擇退出此特定簡訊代碼的收件者。 有關如何配置短代碼的詳細資訊，請參閱[此部分](../../channels/using/managing-incoming-sms.md)。
 
-   如果此欄位為空，則會是使用的外部帳戶中提供的來源號碼。如果未提供來源號碼，則將使用簡短代碼。SMS 傳送專用的外部帳戶會顯示在[定義 SMS 路由](#defining-an-sms-routing)區段。
-
-   ![](assets/sms_smpp_2.png)
-
-   >[!IMPORTANT]
+   >[!NOTE]
    >
-   >請查看您所在國家/地區有關修改寄件者地址的法規。您也應洽詢您的 SMS 服務提供者，以瞭解他們是否提供此功能。
+   >如果&#x200B;**[!UICONTROL Short code]**&#x200B;欄位留空，則使用外部帳戶中設定的&#x200B;**[!UICONTROL Short code]**&#x200B;欄位值。
 
 從SMS範本的&#x200B;**[!UICONTROL Send]**&#x200B;區段：
 

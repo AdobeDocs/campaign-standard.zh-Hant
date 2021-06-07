@@ -10,10 +10,10 @@ feature: 概覽
 role: Business Practitioner
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: c98aa913f4004d49a897ea71e39cbfe6b3dd53c1
+source-git-commit: 2daf09071482ab858c73bc8f4f287495e9f8be4b
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 97%
+source-wordcount: '461'
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Adobe 透過新增功能、增強功能和修正不斷改進其解決方案。
 
 環境更新會在以下指定時段內以波形進行。已透過電子郵件向每位客戶傳達確切日期。
 
-有關此版本的詳細資訊，請參閱[Early Release Notes](../../rn/using/e-release-notes.md)。
+有關此版本的詳細資訊，請參閱[版本說明](../../rn/using/release-notes.md)。
 
 <table>
  <thead>

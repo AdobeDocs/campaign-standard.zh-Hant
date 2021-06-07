@@ -6,17 +6,16 @@ description: 本頁列出 Adobe Campaign Standard 已過時和已移除的功能
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
-feature: Overview
+feature: 概覽
 role: Business Practitioner
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
+source-git-commit: a68adf4de790e30ab9dd1f79e5daeb7feb45c83b
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 79%
+source-wordcount: '728'
+ht-degree: 80%
 
 ---
-
 
 # 被取代和已移除的功能 {#deprecated-and-removed-features}
 
@@ -43,50 +42,18 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
 
 <table> 
  <thead> 
- <tr> 
-   <th> <strong>預測性主旨行</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p> 自2020年12月15日起，預測性主旨行功能已過時。</p><br/>
-   <p>我們建議您利用人工智慧的電子郵件功能，根據歷史參與度量來分析和預測開放率、最佳傳送時間以及可能的流失率。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html">進一步了解</a></p></br>
-     <p>
-     <em>目標移除：2021年4月</em></p>
-     </td> 
-  </tr> 
-  </tbody> 
-</table>
-<table> 
- <thead> 
   <tr> 
    <th> <strong>SDK v4 的推播通知</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> 從Campaign 20.1版開始，SDK v4已過時。 <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">進一步瞭解</a>。</p><br/>
+   <td> <p> 自Campaign第20.1發行版本開始，已棄用SDK v4。 <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">進一步瞭解</a>。</p><br/>
    <p>Adobe <a href="https://aep-sdks.gitbook.io/docs/">Experience Platform Mobile SDK</a>（先前稱為 v5）將獨家支援即將推出的 Adobe Experience Cloud 功能。</p>
-   <p>在本頁</a>中，瞭解如何從SDK v4移轉至Adobe Experience Platform行動SDK <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">。</a></p></br>
+   <p>在本頁面</a>了解如何從SDK v4移轉至Adobe Experience Platform Mobile SDK <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">。</a></p></br>
      <p>
-     <em>目標刪除日期：2021年8月31日</em></p>
+     <em>目標移除日期：2021年8月31日</em></p>
      </td> 
-  </tr> 
- </tbody> 
-</table>
-<table> 
- <thead> 
-  <tr> 
-   <th> <strong>隱私權要求 – Campaign API 及介面</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p>自 Campaign 19.4 版本以來，不建議使用促銷活動 API 和介面來存取和刪除請求。將無法使用兩步驟的設定檔刪除作業。使用 <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe 隱私權核心服務</a>。</p></br>
-   <p>另請參閱<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=en">管理隱私權要求</a>。</p>
-  <p> 
-  <em>目標移除日期：2021 年 4 月</em></p>
-   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -99,10 +66,10 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>自 Campaign 19.0 版本以來，已過時舊版電子郵件編輯器。使用<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">促銷活動電子郵件設計工具</a>來建立並個人化您的電子郵件內容。 </p></br>
+   <td> <p>自 Campaign 19.0 版本以來，已過時舊版電子郵件編輯器。使用<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">Campaign電子郵件設計工具</a>來建立並個人化您的電子郵件內容。 </p></br>
    <p>請參閱<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">本節</a>，瞭解如何針對新的編輯器調整您的電子郵件範本。</p></br>
   <p> 
-  <em>目標刪除日期：2021年底</em></p>
+  <em>目標移除日期：2021年底</em></p>
    </td> 
   </tr> 
  </tbody> 
@@ -116,7 +83,7 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>從Campaign 18.7版開始，地理單位已過時。 在 Campaign 中，「組織」和「地理」單位是完全相同的結構。使用者應單獨使用「組織」單位來建立其使用者權限/資料存取階層。<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/organizational-units.html?lang=zh-Hant#administrating">進一步瞭解</a>。請注意，新的 Campaign Standard 執行個體，以及未建立地理單位的現有執行個體，則無法使用自 18.7 版以來實作的這個功能。</p>
+   <td> <p>自Campaign第18.7發行版本開始，不再使用地理單位。 在 Campaign 中，「組織」和「地理」單位是完全相同的結構。使用者應單獨使用「組織」單位來建立其使用者權限/資料存取階層。<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/organizational-units.html?lang=zh-Hant#administrating">進一步瞭解</a>。請注意，新的 Campaign Standard 執行個體，以及未建立地理單位的現有執行個體，則無法使用自 18.7 版以來實作的這個功能。</p>
    </td> 
   </tr> 
  </tbody> 
@@ -125,6 +92,37 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
 ## 已移除的功能 {#removed-features}
 
 本節列出已從 Campaign Standard 移除的功能。
+
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> <strong>隱私權要求 – Campaign API 及介面</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p>自 Campaign 21.2 版本以來，不建議使用促銷活動 API 和介面來存取和刪除請求。將無法使用兩步驟的設定檔刪除作業。使用 <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe 隱私權核心服務</a>。</p></br>
+   <p>另請參閱<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=en">管理隱私權要求</a>。</p>
+  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+<table> 
+ <thead> 
+ <tr> 
+   <th> <strong>預測性主旨行</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p> 從2021年4月起，預測性主旨行功能已停止支援。</p><br/>
+   <p>建議您運用AI支援的電子郵件功能，根據歷史參與量度來分析和預測開放率、最佳傳送時間和可能的流失率。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html">瞭解更多</a></p></br>
+     </td> 
+  </tr> 
+  </tbody> 
+</table>
 
 <table> 
  <thead> 

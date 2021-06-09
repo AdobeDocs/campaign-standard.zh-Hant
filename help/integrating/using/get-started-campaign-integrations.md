@@ -10,10 +10,10 @@ feature: 觸發因子
 role: Data Architect
 level: Intermediate
 exl-id: ecf88c7d-6729-4b3a-85c4-60427bb57442
-source-git-commit: bc2a4af29e7ed9e9e7b338b7aa7d8bb30628f0b6
+source-git-commit: c101113e2180006b300611a0cbea1b0f9a70df70
 workflow-type: tm+mt
-source-wordcount: '720'
-ht-degree: 79%
+source-wordcount: '714'
+ht-degree: 76%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 79%
 
 根據您的環境而定，其他解決方案也可以連結至 Adobe Experience Cloud。它們作為「組織」（又稱為「租戶」）連結。
 
-組織是可以讓管理員設定群組和使用者，以及控制 Experience Cloud 中單一登入的實體。組織的運作方式類似登入公司，其涵蓋所有 Experience Cloud 產品和解決方案。通常，組織就是您的公司名稱。但是，一個公司可以有許多組織。使用者和組織管理在 [Adobe Experience Cloud 說明入口網站](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/manage-users-and-products/organizations.html)中有詳細解說。
+組織是可以讓管理員設定群組和使用者，以及控制 Experience Cloud 中單一登入的實體。組織的運作方式類似登入公司，其涵蓋所有 Experience Cloud 產品和解決方案。通常，組織就是您的公司名稱。但是，一個公司可以有許多組織。使用者和組織管理在 [Adobe Experience Cloud 說明入口網站](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html)中有詳細解說。
 
 如果您想要將其他系統的資料流程與 Adobe Campaign 整合，請參閱我們的 [API 文件](../../api/using/get-started-apis.md)。
 
@@ -58,7 +58,7 @@ ht-degree: 79%
    <td> Adobe Target<br /> </td> 
    <td> 可讓您在開啟由 Adobe Campaign 建立和發傳送的電子郵件活動時插入由 Adobe Target 動態運算的影像。<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-target-integration.md">使用Campaign和Target</a>、整合 <a href="https://docs.adobe.com/content/help/zh-Hant/target/using/integrate/campaign-and-target.html">Campaign和Target</a>、以即 <a href="https://helpx.adobe.com/tw/marketing-cloud/how-to/email-marketing.html">時影片個人化電子郵</a> 件影像（步驟3）
+    <a href="../../integrating/using/about-campaign-target-integration.md">使用Campaign和Target</a>、整合 <a href="https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html">Campaign和Target</a>、以即 <a href="https://helpx.adobe.com/tw/marketing-cloud/how-to/email-marketing.html">時影片個人化電子郵</a> 件影像（步驟3）
     </td> 
   </tr> 
   <tr> 
@@ -104,7 +104,7 @@ ht-degree: 79%
    <td> Adobe Dreamweaver<br /> </td> 
    <td> 可讓您從 Dreamweaver 編輯電子郵件內容，並與 Adobe Campaign 同步化。<br /> </td> 
    <td> 
-    <a href="https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.translate.html">使用Dreamweavervideo建立個人化</a> 電子郵件，使 <a href="https://helpx.adobe.com/tw/dreamweaver/using/working-with-dreamweaver-and-campaign.html">用Dreamweaver的Campaign擴充功能</a> 
+    <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">使用Dreamweavervideo建立個人化</a> 電子郵件，使 <a href="https://helpx.adobe.com/tw/dreamweaver/using/working-with-dreamweaver-and-campaign.html">用Dreamweaver的Campaign擴充功能</a> 
   </td> 
   </tr> 
   <tr> 

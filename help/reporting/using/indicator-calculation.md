@@ -1,28 +1,27 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 指示器計算
-description: 透過每個量度公式的清單，瞭解報表的結果。
+title: 指標計算
+description: 透過每個量度公式的清單來了解報表的結果。
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-feature: Reporting
+feature: 報告功能
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 47cc11d7-89e8-4d1c-9638-5f66a53cef7e
+source-git-commit: a9a91df349b107b06f229db33812a27addfb5c27
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '727'
 ht-degree: 2%
 
 ---
 
-
-# 指示器計算{#indicator-calculation}
+# 指標計算{#indicator-calculation}
 
 >[!NOTE]
 >
->為了更好地處理及管理大量資料和即時分析，動態報告會使用概略匯整來進行不同的計數估計。 近似聚合提供有界的記憶體使用，而且通常比精確計算更快。
+>為了更好地處理和管理大量和即時分析，動態報告使用近似聚合來進行不同的計數估計。 近似聚合提供有界的記憶體使用，且通常比精確計算快。
 
 下表提供不同報表中使用的指標清單及其計算公式，視傳送類型而定。
 
@@ -33,8 +32,8 @@ ht-degree: 2%
   <tr> 
    <th> <strong>標籤</strong> <br /> </th> 
    <th> <strong>欄位名稱</strong> <br /> </th> 
-   <th> <strong>指標計算公式</strong> <br /> </th> 
-   <th> <strong>注釋</strong><br /> </th> 
+   <th> <strong>指示器計算公式</strong> <br /> </th> 
+   <th> <strong>註解</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -45,25 +44,25 @@ ht-degree: 2%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> On denylist<br /> </td> 
+   <td> 在封鎖清單上<br /> </td> 
    <td> @blacklisted<br /> </td> 
-   <td> count(@failureReason=8, @failureType=2)<br /> </td> 
+   <td> count(@failureReason=8, @failureType=2<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 登錄率<br /> </td> 
+   <td> 封鎖清單率<br /> </td> 
    <td> @rateBlacklisted<br /> </td> 
    <td> @blacklisted/@sent<br /> </td> 
-   <td> 比率計算的分母是基於「已傳送」計數（「已傳送」+「彈回數」）。<br /> </td> 
+   <td> 速率計算的分母是以「已傳送」計數（傳送+彈回數）為基礎。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 彈回數+錯誤<br /> </td> 
+   <td> 跳出數+錯誤<br /> </td> 
    <td> @bounces<br /> </td> 
    <td> count(@status=2)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 反彈+錯誤率<br /> </td> 
+   <td> 跳出+錯誤率<br /> </td> 
    <td> @rateBounces<br /> </td> 
    <td> @bounces/@sent<br /> </td> 
    <td> </td> 
@@ -71,14 +70,14 @@ ht-degree: 2%
   <tr> 
    <td> 按一下<br /> </td> 
    <td> @clicks<br /> </td> 
-   <td> count（@trackingUrlType=1或10或11）<br /> </td> 
+   <td> count(@trackingUrlType=1或10或11)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> 點進率<br /> </td> 
    <td> @clickthrough<br /> </td> 
    <td> @uniqueclicks/@delivered<br /> </td> 
-   <td> 比率計算的分母僅基於「已傳送」。<br /> </td> 
+   <td> 速率計算的分母僅基於「已傳送」。<br /> </td> 
   </tr> 
   <tr> 
    <td> 已傳送<br /> </td> 
@@ -90,19 +89,19 @@ ht-degree: 2%
    <td> 傳送率<br /> </td> 
    <td> @rateDelivered<br /> </td> 
    <td> @delivered/@sent<br /> </td> 
-   <td> 比率計算的分母是基於「已傳送」計數（「已傳送」+「彈回數」）。<br /> </td> 
+   <td> 速率計算的分母是以「已傳送」計數（傳送+彈回數）為基礎。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 硬彈回數<br /> </td> 
+   <td> 硬跳出數<br /> </td> 
    <td> @hardBounces<br /> </td> 
    <td> count(@failureType=2 AND @failureReason=8)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 硬彈回數率<br /> </td> 
+   <td> 硬跳出率<br /> </td> 
    <td> @rateHardBounces<br /> </td> 
    <td> @hardBounces/@sent<br /> </td> 
-   <td> 比率計算的分母是基於「已傳送」計數（「已傳送」+「彈回數」）。<br /> </td> 
+   <td> 速率計算的分母是以「已傳送」計數（傳送+彈回數）為基礎。<br /> </td> 
   </tr> 
   <tr> 
    <td> 無效的域<br /> </td> 
@@ -120,7 +119,7 @@ ht-degree: 2%
    <td> 鏡像頁<br /> </td> 
    <td> @mirrorPage<br /> </td> 
    <td> count(@trackingUrlType=6)<br /> </td> 
-   <td> 比率計算的分母僅基於「已傳送」。<br /> </td> 
+   <td> 速率計算的分母僅基於「已傳送」。<br /> </td> 
   </tr> 
   <tr> 
    <td> 鏡像頁面速率<br /> </td> 
@@ -141,10 +140,10 @@ ht-degree: 2%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 開放率<br /> </td> 
+   <td> 開啟率<br /> </td> 
    <td> @rateOpens<br /> </td> 
    <td> @opens/@delivered<br /> </td> 
-   <td> 比率計算的分母僅基於「已傳送」。<br /> </td> 
+   <td> 速率計算的分母僅基於「已傳送」。<br /> </td> 
   </tr> 
   <tr> 
    <td> 隔離<br /> </td> 
@@ -156,7 +155,7 @@ ht-degree: 2%
    <td> 隔離率<br /> </td> 
    <td> @rateQuarantine<br /> </td> 
    <td> @quarantine/@sent<br /> </td> 
-   <td> 比率計算的分母是基於「已傳送」計數（「已傳送」+「彈回數」）。<br /> </td> 
+   <td> 速率計算的分母是以「已傳送」計數（傳送+彈回數）為基礎。<br /> </td> 
   </tr>
   <tr> 
    <td> 已拒絕<br /> </td> 
@@ -168,36 +167,36 @@ ht-degree: 2%
    <td> 拒絕率<br /> </td> 
    <td> @rateRejected<br /> </td> 
    <td> @rejected/@sent<br /> </td> 
-   <td> 比率計算的分母是基於「已傳送」計數（「已傳送」+「彈回數」）。<br /> </td> 
+   <td> 速率計算的分母是以「已傳送」計數（傳送+彈回數）為基礎。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 已處理／已發送<br /> </td> 
+   <td> 已處理/已傳送<br /> </td> 
    <td> @sent<br /> </td> 
    <td> @delivered + @bounces<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 軟彈跳<br /> </td> 
+   <td> 軟跳出<br /> </td> 
    <td> @softBounces<br /> </td> 
    <td> count(@failureType=1)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 軟反彈率<br /> </td> 
+   <td> 軟跳出率<br /> </td> 
    <td> @rateSoftBounces<br /> </td> 
    <td> @softBounces/@sent<br /> </td> 
-   <td> 比率計算的分母是基於「已傳送」計數（「已傳送」+「彈回數」）。<br /> </td> 
+   <td> 速率計算的分母是以「已傳送」計數（傳送+彈回數）為基礎。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 獨特點按<br /> </td> 
+   <td> 不重複點按<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> 獨特點按次數是使用ThetaSketch概念計算的。 有關詳細資訊，請參閱此<a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">example</a>。<br /> </td> 
+   <td> 不重複點按次數是使用ThetaSketch概念計算。 有關詳細資訊，請參閱此<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">example</a>。<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 唯一開啟<br /> </td> 
+   <td> 唯一開啟次數<br /> </td> 
    <td> @uniqueopens<br /> </td> 
-   <td> unique(@trackingUrlType=1,2,3,6,10,11)<br /> </td> 
+   <td> 唯一(@trackingUrlType=1,2,3,6,10,11)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -216,7 +215,7 @@ ht-degree: 2%
    <td> 取消訂閱率<br /> </td> 
    <td> @rateUnsubscribes<br /> </td> 
    <td> @unsubscribes/@delivered<br /> </td> 
-   <td> 比率計算的分母僅基於「已傳送」。<br /> </td> 
+   <td> 速率計算的分母僅基於「已傳送」。<br /> </td> 
   </tr> 
   <tr> 
    <td> 用戶未知<br /> </td> 
@@ -234,12 +233,12 @@ ht-degree: 2%
   <tr> 
    <th> <strong>標籤</strong> <br /> </th> 
    <th> <strong>欄位名稱</strong> <br /> </th> 
-   <th> <strong>指標計算公式</strong> <br /> </th> 
+   <th> <strong>指示器計算公式</strong> <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> 已處理／已發送<br /> </td> 
+   <td> 已處理/已傳送<br /> </td> 
    <td> @sent<br /> </td> 
    <td> @count(status=sent)<br /> </td> 
   </tr> 
@@ -254,7 +253,7 @@ ht-degree: 2%
    <td> (@delivered/@sent)*100<br /> </td> 
   </tr> 
   <tr> 
-   <td> 反彈+錯誤率<br /> </td> 
+   <td> 跳出+錯誤率<br /> </td> 
    <td> @rateBounces<br /> </td> 
    <td> (@delivered/@sent)*100<br /> </td> 
   </tr> 
@@ -264,22 +263,22 @@ ht-degree: 2%
    <td> @count(status=open)<br /> </td> 
   </tr> 
   <tr> 
-   <td> 開放率<br /> </td> 
+   <td> 開啟率<br /> </td> 
    <td> @rateOpens<br /> </td> 
    <td> (@opens/@delivered)*100<br /> </td> 
   </tr> 
   <tr> 
-   <td> 唯一開啟<br /> </td> 
+   <td> 唯一開啟次數<br /> </td> 
    <td> @uniqueopens<br /> </td> 
-   <td> 唯一開啟是使用唯一RecipientId的ThetaSketch概念計算。 有關詳細資訊，請參閱此<a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">example</a>。<br /> </td> 
+   <td> 唯一開啟次數是使用唯一RecipientIds的ThetaSketch概念計算。 有關詳細資訊，請參閱此<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">example</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 印象<br /> </td> 
+   <td> 曝光數<br /> </td> 
    <td> @impressions<br /> </td> 
    <td> @count(status=delivered)<br /> </td> 
   </tr> 
   <tr> 
-   <td> 獨特印象<br /> </td> 
+   <td> 不重複曝光數<br /> </td> 
    <td> @uniqueimpressions<br /> </td> 
    <td> @unique(@count(status=view))<br /> </td> 
   </tr> 
@@ -289,9 +288,9 @@ ht-degree: 2%
    <td> @count(status=interact)<br /> </td> 
   </tr> 
   <tr> 
-   <td> 獨特點按<br /> </td> 
+   <td> 不重複點按<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> 獨特點按次數是使用ThetaSketch概念計算的。 有關詳細資訊，請參閱此<a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">example</a>。<br /> </td> 
+   <td> 不重複點按次數是使用ThetaSketch概念計算。 有關詳細資訊，請參閱此<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">example</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 點進率<br /> </td> 
@@ -308,13 +307,13 @@ ht-degree: 2%
   <tr> 
    <th> <strong>標籤</strong> <br /> </th> 
    <th> <strong>欄位名稱</strong> <br /> </th> 
-   <th> <strong>指標計算公式</strong> <br /> </th> 
-   <th> <strong>注釋</strong><br /> </th> 
+   <th> <strong>指示器計算公式</strong> <br /> </th> 
+   <th> <strong>註解</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> 已處理／已發送<br /> </td> 
+   <td> 已處理/已傳送<br /> </td> 
    <td> @sent<br /> </td> 
    <td> @count(status=sent)<br /> </td> 
    <td> sent=delivered<br /> </td> 
@@ -323,19 +322,19 @@ ht-degree: 2%
    <td> 已傳送<br /> </td> 
    <td> @delivered<br /> </td> 
    <td> @count(status=delivered)<br /> </td> 
-   <td> delivered=sent<br /> </td> 
+   <td> delived=sent<br /> </td> 
   </tr> 
   <tr> 
-   <td> 印象<br /> </td> 
+   <td> 曝光數<br /> </td> 
    <td> @impressions<br /> </td> 
-   <td> @count(status=view)或@count(status=button 1 click + button 2 click + encomments)<br /> </td> 
+   <td> @count(status=view)或@count(status=button 1 click + button 2 click + encristations)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 獨特印象<br /> </td> 
+   <td> 不重複曝光數<br /> </td> 
    <td> @uniqueimpressions<br /> </td> 
    <td> @unique(@count(status=view))<br /> </td> 
-   <td> 對於<span class="uicontrol">根據其促銷活動設定檔(inAppProfile)</span>範本的Target使用者，使用者=收件者Id。<br /> 針對 <span class="uicontrol">Target行動應用程式(inAppBroadcast)和</span>  <span class="uicontrol"></span> Target使用者根據其行動設定檔(inApp)範本的所有使用者，使用者= MC Id或相當等級，代表使用者、行動應用程式和裝置的獨特組合。<br /> </td> 
+   <td> 若為<span class="uicontrol">根據促銷活動設定檔(inAppProfile)</span>範本定位使用者，使用者=收件者Id。<br /> 若是 <span class="uicontrol">根據行動設定檔(inApp)</span> 鎖定行動應用程式的所有使用者 <span class="uicontrol">和</span> 根據行動設定檔(inApp)定位使用者範本，使用者= MC Id或等同項目，代表使用者、行動應用程式和裝置的不重複組合。<br /> </td> 
   </tr> 
   <tr> 
    <td> 應用程式內點按<br /> </td> 
@@ -344,35 +343,34 @@ ht-degree: 2%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 獨特的應用程式內點按次數<br /> </td> 
+   <td> 不重複應用程式內點按次數<br /> </td> 
    <td> @uniqueinapp<br /> </td> 
    <td> @unique(@count(status=clicks))<br /> </td> 
-   <td> 對於<span class="uicontrol">根據其促銷活動設定檔(inAppProfile)</span>範本的Target使用者，使用者=收件者Id。<br /> 針對 <span class="uicontrol">Target行動應用程式(inAppBroadcast)和</span>  <span class="uicontrol"></span> Target使用者根據其行動設定檔(inApp)範本的所有使用者，使用者= MC Id或相當等級，代表使用者、行動應用程式和裝置的獨特組合。<br /> </td> 
+   <td> 若為<span class="uicontrol">根據促銷活動設定檔(inAppProfile)</span>範本定位使用者，使用者=收件者Id。<br /> 若是 <span class="uicontrol">根據行動設定檔(inApp)</span> 鎖定行動應用程式的所有使用者 <span class="uicontrol">和</span> 根據行動設定檔(inApp)定位使用者範本，使用者= MC Id或等同項目，代表使用者、行動應用程式和裝置的不重複組合。<br /> </td> 
   </tr> 
   <tr> 
    <td> 應用程式內點進率<br /> </td> 
    <td> @inappclickthrough<br /> </td> 
-   <td> 按鈕1或按鈕2的點按總次數／印象總次數*100<br /> </td> 
+   <td> 按鈕1或按鈕2的點按總次數/曝光總次數*100<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> 應用程式內解雇<br /> </td> 
-   <td> @compiconce<br /> </td> 
+   <td> @dismissal<br /> </td> 
    <td> @count(status=close)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 獨特的應用程式內解散<br /> </td> 
-   <td> @uniqueccomplicention<br /> </td> 
-   <td> @unique(@count(status=close))<br /> </td> 
-   <td> 對於<span class="uicontrol">根據其促銷活動設定檔(inAppProfile)</span>範本的Target使用者，使用者=收件者Id。<br /> 針對 <span class="uicontrol">Target行動應用程式(inAppBroadcast)和</span>  <span class="uicontrol"></span> Target使用者根據其行動設定檔(inApp)範本的所有使用者，使用者= MC Id或相當等級，代表使用者、行動應用程式和裝置的獨特組合。<br /> </td> 
+   <td> 應用程式內不重複解雇<br /> </td> 
+   <td> @uniquedismissal<br /> </td> 
+   <td> @unique(@count(status=close)<br /> </td> 
+   <td> 若為<span class="uicontrol">根據促銷活動設定檔(inAppProfile)</span>範本定位使用者，使用者=收件者Id。<br /> 若是 <span class="uicontrol">根據行動設定檔(inApp)</span> 鎖定行動應用程式的所有使用者 <span class="uicontrol">和</span> 根據行動設定檔(inApp)定位使用者範本，使用者= MC Id或等同項目，代表使用者、行動應用程式和裝置的不重複組合。<br /> </td> 
   </tr> 
   <tr> 
    <td> 應用程式內解雇率<br /> </td> 
-   <td> @unitresalrate<br /> </td> 
-   <td> 關閉／總印象數*100<br /> </td> 
+   <td> @dismissalrate<br /> </td> 
+   <td> 總結/總曝光數*100<br /> </td> 
    <td> </td> 
   </tr> 
  </tbody> 
 </table>
-

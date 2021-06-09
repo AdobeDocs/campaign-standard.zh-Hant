@@ -8,9 +8,9 @@ feature: 概覽
 role: Business Practitioner
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-source-git-commit: 105bc765f658cab39ec2628e39d51426005da6bd
-workflow-type: ht
-source-wordcount: '239'
+source-git-commit: 92860772ba1ef7ff1503831f05c69d540851258f
+workflow-type: tm+mt
+source-wordcount: '237'
 ht-degree: 100%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 100%
 | 有用的頁面 | 面向開發人員的資源 |
 |---|---|
 | [發行說明](rn/using/release-notes.md) | [Experience Cloud 觸發程式](integrating/using/about-adobe-experience-cloud-triggers.md) |
-| [控制面板文件](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/control-panel-home.html) | [Campaign API](api/using/get-started-apis.md) |
+| [控制面板文件](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hant) | [Campaign API](api/using/get-started-apis.md) |
 | [實施指南](https://helpx.adobe.com/tw/campaign/kb/campaign-standard-implementation-guide.html) | [錯誤訊息清單](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [發行計畫](rn/using/release-planning.md) | [Campaign 資料模型](developing/using/datamodel-introduction.md) |
 | [已過時及已移除的功能](rn/using/deprecated-features.md) | [多解決方案指南](integrating/using/get-started-campaign-integrations.md) |

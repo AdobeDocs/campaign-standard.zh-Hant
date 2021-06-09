@@ -7,16 +7,15 @@ audience: channels
 content-type: reference
 topic-tags: in-app-messaging
 context-tags: delivery,triggers,back;deliveryCreation,wizard
-feature: In App
+feature: 應用程式內
 role: Business Practitioner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
+source-git-commit: 7272d2ca2b499069e00a3ded1cb6693147c64dfc
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1272'
 ht-degree: 98%
 
 ---
-
 
 # 準備和傳送應用程式內訊息{#preparing-and-sending-an-in-app-message}
 
@@ -99,7 +98,7 @@ Adobe Campaign 提供兩種類型的清單：
 
    * **[!UICONTROL Life Cycle events]**：Adobe Mobile SDK 支援的現成可用生命週期事件。
 
-      有關生命週期事件的詳細資訊，請參閱本[頁面](https://docs.adobe.com/content/help/en/mobile-services/android/metrics.html)。
+      有關生命週期事件的詳細資訊，請參閱本[頁面](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html)。
 
    * **[!UICONTROL Analytics Events]**：根據您的行動應用程式中所創作的內容，支援下列三個類別： Adobe Analytics、內容資料或檢視狀態。
 
@@ -118,7 +117,7 @@ Adobe Campaign 提供兩種類型的清單：
 
 1. 如果您使用 **[!UICONTROL Places]** 觸發器，Places 內容資料、Places 自訂中繼資料或 Places 事件類型將會根據所有在 Adobe Places 中建立的 Libraries 及其 Points of Interest 自動填入。
 
-   請注意，此觸發器僅會套用至 Experience Platform Launch 中 Places 擴充功能中選取之 Libraries 的 Points of Interest。有關 Places 擴充功能以及如何安裝的詳細資訊，請參閱本[文件](https://docs.adobe.com/content/help/zh-Hant/places/using/places-ext-aep-sdks/places-extension/places-extension.html)。
+   請注意，此觸發器僅會套用至 Experience Platform Launch 中 Places 擴充功能中選取之 Libraries 的 Points of Interest。有關 Places 擴充功能以及如何安裝的詳細資訊，請參閱本[文件](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html)。
 
 1. 在 **[!UICONTROL Frequency & duration]** 索引標籤中，選取觸發的頻率、開始和結束日期、一週中的某天，以及應用程式內訊息生效的當天時間。
 

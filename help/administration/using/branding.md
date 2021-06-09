@@ -7,17 +7,16 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 context-tags: branding,overview;branding,main
-feature: Instance Settings
+feature: 執行個體設定
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
+exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
+source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
 workflow-type: tm+mt
-source-wordcount: '1286'
-ht-degree: 78%
+source-wordcount: '1282'
+ht-degree: 80%
 
 ---
-
 
 # 品牌推廣{#branding}
 
@@ -31,7 +30,7 @@ ht-degree: 78%
 
 設定與使用品牌的主要原則為：
 
-1. 建立與設定品牌操作需要特定權限，並由 Adobe Campaign 技術管理員執行。在促銷活動中取得新品牌的步驟在本節](#creating-a-brand)中詳細說明。[
+1. 建立與設定品牌操作需要特定權限，並由 Adobe Campaign 技術管理員執行。在Campaign中取得新品牌的步驟在本區段](#creating-a-brand)中詳細說明。[
 1. 為此品牌建立一或多個傳遞與登錄頁面範本。請參閱[建立範本](../../start/using/marketing-activity-templates.md)區段。
 1. 根據此範本建立訊息與登錄頁面。請參閱[建立電子郵件](../../channels/using/creating-an-email.md)及[建立登錄頁面](../../channels/using/designing-a-landing-page.md)區段。
 
@@ -90,27 +89,27 @@ ht-degree: 78%
 
 ## 建立新品牌{#creating-a-brand}
 
-您可以在Campaign中新增組織實體，或建立新類型的電子郵件，您需要在不同的子網域下傳送。 若要執行此動作，請依照下列步驟：
+您可以在Campaign中新增組織的實體，或建立新類型的電子郵件，您需要將其傳送至不同的子網域下。 若要執行此作業，請遵循下列步驟：
 
-1. **配置新子域** -對於要由Adobe使用的任何新子域，第一步是配置該子域。您可以透過[促銷活動控制面板](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/subdomains-and-certificates/subdomains-branding.html)執行此動作，或聯絡Adobe技術聯絡人。 在本文](https://helpx.adobe.com/tw/campaign/kb/domain-name-delegation.html)中進一步瞭解子網域設定[。
+1. **設定新子網域**  — 針對Adobe要使用的任何新子網域，第一步是進行設定。您可以透過[促銷活動控制面板](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=zh-Hant)執行此作業，或聯絡您的Adobe技術連絡人。 了解更多子網域設定[，請參閱本文](https://helpx.adobe.com/tw/campaign/kb/domain-name-delegation.html)。
 
    >[!NOTE]
    >
-   >所有管理員使用者都可存取控制面板。 授予使用者管理員存取權的步驟詳見[本頁](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel)。
+   >所有管理員使用者都可存取控制面板。 授予使用者管理員存取權限的步驟已詳載於[本頁](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hant#discover-control-panel)中。
 
-1. **建立票證** -一旦配置了子域，Adobe將需要在生產環境中設定它。若要要求此項，請[建立票證給Client Care](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)，並提供下列資訊：
+1. **建立票證**  — 一旦設定子網域，Adobe就需要在您的生產環境中進行設定。若要要求此項，請[使用下列資訊建立票證給Client Care](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html):
 
-   * 主旨：ACS新品牌設定
+   * 主題：ACS新品牌設定
 
-   * 內容：已設定新網域，我們想要在我們的Campaign平台中設定它
+   * 內容：已設定新網域，我們想要在Campaign平台中進行設定
 
-   * 網域：XXX
+   * 域：XXX
 
    * 生產URL:XXX.campaign.adobe.com
 
-1. **建立傳送範本** -新品牌推出後，最佳實務是建立至少一個參考此新品牌的新空白傳送範本。[進一步瞭解](#linking-a-brand-to-a-template)。
+1. **建立傳遞範本**  — 新品牌推出後，最佳實務是至少建立一個參考此新品牌的新空白傳遞範本。[瞭解更多](#linking-a-brand-to-a-template)。
 
-1. **檢查交付能力准則** -開始使用新域之前，應先與Adobe交付能力團隊討論該策略。例如，如果應建立新的相似性以在網域之間分割IP，以及／或應定義加速計畫，這些特性有助於定義最佳實務。 在本節](../../sending/using/about-deliverability.md)中，進一步瞭解傳遞能力最佳實踐[。
+1. **檢查傳遞能力准則**  — 開始使用新網域之前，應與Adobe傳遞團隊討論策略。例如，如果應建立新相關性以在網域之間分割IP，和/或應定義提升計畫，這些變數將有助於定義最佳實務。 在本小節](../../sending/using/about-deliverability.md)中進一步了解傳遞能力最佳實務[。
 
 ## 為電子郵件指派品牌 {#assigning-a-brand-to-an-email}
 
@@ -200,4 +199,3 @@ ht-degree: 78%
 1. 您的電子郵件已設定好。您可以先檢查資訊，再使用測試設定檔進行測試，然後將其傳送給您的對象。
 
    ![](assets/branding_16.png)
-

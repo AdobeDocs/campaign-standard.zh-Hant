@@ -2,51 +2,50 @@
 solution: Campaign Standard
 product: campaign
 title: 體驗資料模型概觀
-description: Experience Data Model(XDM)是一組標準的資料結構，可將資料擷取到其中，以便與Adobe Experience Platform解決方案和產品搭配使用。
+description: Experience Data Model(XDM)是一組標準資料結構，可將資料擷取至其中，以便與Adobe Experience Platform解決方案和產品搭配使用。
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Microsoft CRM Integration
+feature: Microsoft CRM整合
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: cc1aa669-30cd-4ea4-9fab-4d1b6c373744
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 7%
+source-wordcount: '248'
+ht-degree: 0%
 
 ---
 
-
-# 體驗資料模型概觀{#experience-data-model-overview}
+# 體驗資料模型概述{#experience-data-model-overview}
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform資料連接器目前正在測試中，可能會在不另行通知的情況下頻繁更新。 客戶必須在Azure上代管（目前僅限北美地區測試版）才能存取這些功能。 如果您想要存取，請聯絡Adobe客戶服務。
+>Adobe Experience Platform Data Connector目前為測試版，可能會經常更新，恕不另行通知。 客戶必須在Azure上托管（目前測試版僅供北美使用），才能存取這些功能。 如果您想要存取權限，請聯絡Adobe客戶服務。
 
-Experience Data Model(XDM)是一組標準的資料結構，可將資料擷取到其中，以便與Adobe Experience Platform解決方案和產品搭配使用。
+Experience Data Model(XDM)是一組標準資料結構，可將資料擷取至其中，以便與Adobe Experience Platform解決方案和產品搭配使用。
 
-XDM架構的建立和管理可通過專用的API或XDM用戶介面獲得。
+您可透過專用的API或XDM使用者介面，建立及管理XDM結構描述。
 
 ## XDM工作區{#xdm-workspace}
 
 XDM工作區可讓您檢視、建立和擴充資料結構。
 
-要訪問XDM用戶介面，請開啟Adobe Experience Platform。 導航到「資料模型」窗口以建立或擴展XDM架構。
+若要存取XDM使用者介面，請開啟Adobe Experience Platform。 導覽至「資料模型」視窗，以建立或擴充XDM架構。
 
-請參閱完整的[XDM工作區文檔](https://docs.adobe.com/content/help/zh-Hant/experience-platform/xdm/api/getting-started.html)。
+請參閱完整的[XDM工作區檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html)。
 
 ![](assets/aep_xdmworkspace.png)
 
 ## XDM API {#xdm-api}
 
-您可以透過XDM架構API執行下列動作：
+您可以透過XDM結構API執行下列動作：
 
-* 查看現有方案的清單
-* 查看特定方案擴展現有方案
+* 檢視現有結構的清單
+* 查看特定架構擴展現有架構
 * 新增欄位至擴充功能
-* 建立和更新新架構
-* 查看模式描述符
-* 建立、更新和刪除模式描述符
+* 建立和更新新結構
+* 查看架構描述符
+* 建立、更新和刪除架構描述符
 
-[開發人員指南](https://docs.adobe.com/content/help/en/experience-platform/xdm/api/getting-started.html)中提供了控制API呼叫的所有詳細資訊。
+所有處理API呼叫的詳細資訊都可在[開發人員指南](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html)中取得。

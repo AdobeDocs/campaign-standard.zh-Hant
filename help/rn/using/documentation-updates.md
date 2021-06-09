@@ -10,10 +10,10 @@ feature: 概覽
 role: Business Practitioner
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: ec0dc31e39424a540ca71ff15355814c0e79a283
+source-git-commit: c101113e2180006b300611a0cbea1b0f9a70df70
 workflow-type: tm+mt
-source-wordcount: '6866'
-ht-degree: 99%
+source-wordcount: '6852'
+ht-degree: 98%
 
 ---
 
@@ -330,7 +330,7 @@ API 檔案首頁已經過改良，並重新導向不同的主題。[瞭解詳情
 
 與登陸頁面屬性相關的資訊已移入專用區段。[瞭解詳情](../../channels/using/configuring-landing-page.md)
 
-控制面板文件已整合至新的共同作業文件集。[瞭解詳情](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/control-panel-home.html)
+控制面板文件已整合至新的共同作業文件集。[瞭解詳情](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hant)
 
 **指標計算**&#x200B;表格已更新。[瞭解詳情](../../reporting/using/indicator-calculation.md)
 
@@ -394,7 +394,7 @@ Adobe Campaign 的錯誤訊息清單已更新。[顯示全文](https://docs.camp
 
 已在工作流程疑難排解區段中新增一個程序，說明如何在 Log 索引標籤中顯示 SQL 查詢。[瞭解詳情](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
 
-已新增一篇說明文章，其中包含控制面板中子網域和憑證管理的相關資訊。[瞭解詳情](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/subdomains-and-certificates/subdomains-branding.html)
+已新增一篇說明文章，其中包含控制面板中子網域和憑證管理的相關資訊。[瞭解詳情](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=zh-Hant)
 
 描述內容範本和片段的區段已更新。[瞭解詳情](../../designing/using/using-reusable-content.md#content-templates)
 
@@ -456,7 +456,7 @@ Campaign Standard 及 Campaign Classic 的錯誤訊息清單已更新。[瞭解�
 
 **發行中包含的新功能**
 
-控制面板 – [瞭解詳情](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
+控制面板 – [瞭解詳情](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
 
 本機通知 – [瞭解詳情](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
 
@@ -472,7 +472,7 @@ Campaign Standard 及 Campaign Classic 的錯誤訊息清單已更新。[瞭解�
 
 直接從 Adobe Campaign 取得的內容說明連結已更新。
 
-以下[頁面](https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/overview.html)成為 Adobe Campaign Standard 的官方「視訊」頁面。
+以下[頁面](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/overview.html)成為 Adobe Campaign Standard 的官方「視訊」頁面。
 
 已新增資料保留的區段，包括標準表格的預設保留值。[瞭解詳情](../../administration/using/data-retention.md)
 
@@ -612,7 +612,7 @@ Microsoft Edge（最新版本）已新增至電腦的相容瀏覽器清單。[�
 
 「使用 Adobe Experience Platform SDK 設定行動應用程式」一節已移至[此處](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)。
 
-視訊已更新並移至[此處](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)。
+視訊已更新並移至[此處](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/overview.html)。
 
 已更新「使用者類型」區段。[瞭解詳情](../../administration/using/users-management.md)
 
@@ -960,7 +960,7 @@ Creative SDK的增強影像版本功能 – [瞭解詳情](../../designing/using
 
 Amazon Simple Storage Service (S3) 連接器 – [瞭解詳情](../../administration/using/external-accounts.md)
 
-Dreamweaver 整合即時 – [瞭解詳情](https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html)
+Dreamweaver 整合即時 – [瞭解詳情](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
 
 **此版本隨附的其他文件更新**
 
@@ -984,7 +984,7 @@ Dreamweaver 整合即時 – [瞭解詳情](https://docs.adobe.com/content/help/
 
 動態報告 – [瞭解詳情](../../reporting/using/about-dynamic-reports.md)
 
-Dreamweaver 整合 (Labs)– [瞭解詳情](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
+Dreamweaver 整合 (Labs)– [瞭解詳情](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
 
 手動傳送時間最佳化 – [瞭解詳情](../../sending/using/optimizing-the-sending-time.md)
 

@@ -2,37 +2,36 @@
 solution: Campaign Standard
 product: campaign
 title: 在 Experience Cloud 中設定觸發程式
-description: '瞭解如何設定Adobe Experience Cloud Triggers整合，以開始根據客戶先前的行為，將個人化的傳送傳送傳送給客戶。 '
+description: '了解如何設定Adobe Experience Cloud Triggers整合，以開始根據客戶先前的行為將個人化傳遞傳送至客戶。 '
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-feature: Triggers
+feature: 觸發因子
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 8%
+source-wordcount: '859'
+ht-degree: 7%
 
 ---
-
 
 # 在 Experience Cloud 中設定觸發程式{#configuring-triggers-in-experience-cloud}
 
 ## 啟用功能{#activating-the-functionality}
 
-必須通過Adobe在Adobe Campaign激活該功能。 請聯絡您的Adobe銷售代表或專業服務合作夥伴。
+必須透過Adobe在Adobe Campaign中啟動功能。 請連絡您的Adobe客戶經理或專業服務合作夥伴。
 
-Adobe團隊需要下列資訊才能啟動觸發程式：
+Adobe團隊需要下列資訊才能啟動觸發器：
 
 * Marketing Cloud公司名稱
 * IMS 組織 ID
-* Analytics登入公司(可與Marketing Cloud公司名稱相同)
+* Analytics登入公司(可以與Marketing Cloud公司名稱相同)
 
 ## 配置解決方案和服務{#configuring-solutions-and-services}
 
-若要使用此功能，您需要存取下列解決方案／核心服務：
+若要使用此功能，您必須能存取下列解決方案/核心服務：
 
 * Adobe Campaign
 * Adobe Analytics Ultimate、Premium、Foundation、OD、Select、Prime、行動應用程式、Select 或 Standard。
@@ -54,65 +53,64 @@ Adobe團隊需要下列資訊才能啟動觸發程式：
 
 >[!CAUTION]
 >
->子域配置是可傳遞性關鍵元素。 請確定Adobe Campaign電子郵件是從網站使用的相同網域傳送。
+>子網域配置是傳遞能力關鍵元素。 請確定Adobe Campaign電子郵件的傳送網域與網站使用的網域相同。
 
-您需要配置[Experience CloudDTM核心服務](#configuring-experience-cloud-dtm-core-service)、[Experience Cloud人員核心服務](#configuring-experience-cloud-people-core-service)和[促銷活動](#configuring-triggers-and-aliases-in-campaign)來執行這些使用案例。
+您需要設定[Experience CloudDTM核心服務](#configuring-experience-cloud-dtm-core-service)、[Experience Cloud人員核心服務](#configuring-experience-cloud-people-core-service)和[促銷活動](#configuring-triggers-and-aliases-in-campaign)來執行這些使用案例。
 
-### 配置Experience CloudDTM核心服務{#configuring-experience-cloud-dtm-core-service}
+### 設定Experience CloudDTM核心服務{#configuring-experience-cloud-dtm-core-service}
 
 1. 在Experience CloudDTM核心服務（動態標籤管理）中，為您的網站頁面啟用Experience CloudID和Adobe Analytics。
 
    ![](assets/trigger_uc_conf_1.png)
 
-1. Adobe Analytics和Adobe Campaign需要使用鋸齒，才能協調網站的ID。 例如，建立別名&quot;visitorid&quot;。
+1. 網站、Adobe Analytics和Adobe Campaign之間的ID調解需要使用鋸齒。 建立別名，例如「visitorid」。
 
    ![](assets/trigger_uc_conf_2.png)
 
-### 配置Experience Cloud人核心服務{#configuring-experience-cloud-people-core-service}
+### 配置Experience Cloud人員核心服務{#configuring-experience-cloud-people-core-service}
 
-先前在DTM中參考的別名必須透過客戶屬性在Experience Cloud人員核心服務中建立。 請確定您建立新的別名，並在整合程式碼中參照相同的DTM別名（例如&quot;visitorid&quot;）。
+先前在DTM中參考的別名需透過Experience Cloud屬性在客戶人員核心服務中建立。 請務必建立新別名，並在整合程式碼中參照相同的DTM別名（例如「visitorid」）。
 
 ![](assets/trigger_uc_conf_3.png)
 
 >[!NOTE]
 >
->我們將在Adobe Campaign的「資料來源」中使用此「客戶屬性」（下一步）。
+>我們將在Adobe Campaign的資料來源中使用此客戶屬性（下一步）。
 
-### 在促銷活動{#configuring-triggers-and-aliases-in-campaign}中設定觸發程式和別名
+### 在Campaign {#configuring-triggers-and-aliases-in-campaign}中設定觸發程式和別名
 
-1. 請確定您的Adobe Campaign Standard實例上顯示&#x200B;**[!UICONTROL Experience Cloud triggers]**。 如果您沒有，請聯絡Adobe Campaign管理員。
+1. 請確定您的Adobe Campaign Standard執行個體上已顯示&#x200B;**[!UICONTROL Experience Cloud triggers]**。 如果您沒有，請聯絡Adobe Campaign管理員。
 
    ![](assets/remarketing_1.png)
 
-1. 別名可讓Analytics中的連絡人與促銷活動中的描述檔協調。 您需要將Experience CloudID服務中定義的別名與促銷活動中的共用資料來源相符。 您需要通過資料源(**[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Shared Data Sources]**)在Adobe Campaign配置別名解析。 請務必在&#x200B;**[!UICONTROL Data Source/Alias]**&#x200B;下拉式選單中選擇正確的資料來源，此下拉式選單會與先前步驟中建立的相同客戶屬性資料來源對應。
+1. 別名可讓Analytics中的連絡人與Campaign中的設定檔調解。 您需要比對Experience CloudID服務中定義的別名與促銷活動中的共用資料來源。 您需要透過資料來源(**[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Shared Data Sources]**)在Adobe Campaign中設定別名解析。 請務必在&#x200B;**[!UICONTROL Data Source/Alias]**&#x200B;下拉式選單中選擇正確的資料來源，該下拉式選單與先前步驟中建立的相同客戶屬性資料來源對應。
 
    ![](assets/trigger_uc_conf_5.png)
 
    >[!NOTE]
    >
-   >您可以協調匿名和登入使用者的觸發程式。 對於匿名用戶，描述檔應存在於Adobe Campaign，而且以前已傳送電子郵件給用戶。 因此，訪客ID設定就足夠了。 但是，如果要協調已登錄用戶的觸發器，則需要設定「聲明的ID資料源」。 有關詳細資訊，請參閱[資料源配置](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources)。
+   >您可以協調匿名和登入使用者的觸發器。 若為匿名使用者，設定檔應存在於Adobe Campaign中，且之前已傳送電子郵件給使用者。 對此，訪客ID設定就足夠了。 不過，如果您想要調解登入使用者的觸發器，則需要設定「宣告ID資料來源」。 有關詳細資訊，請參閱[資料源配置](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources)。
 
 ## 在Experience Cloud介面{#creating-a-trigger-in-the-experience-cloud-interface}中建立觸發器
 
-必須建立Adobe Experience Cloud觸發器，才能在Campaign中使用它。
+需要建立Adobe Experience Cloud觸發程式，才能在Campaign中使用。
 
-在Experience Cloud中建立新觸發器，並確定您選取網站上使用的報表套裝。 請確定您選擇了正確的尺寸，如此觸發器就會啟動。
+在「Experience Cloud」中建立新觸發器，並確定您選取網站上使用的報表套裝。 請確定您選取正確的維度，以便觸發器。
 
-請參閱[Adobe Experience Cloud文檔](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/activation/triggers.html)並觀看此[視頻](https://helpx.adobe.com/tw/marketing-cloud/how-to/email-marketing.html#step-two)。
+請參閱[Adobe Experience Cloud檔案](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html)並觀看此[影片](https://helpx.adobe.com/tw/marketing-cloud/how-to/email-marketing.html#step-two)。
 
 ## 觸發最佳實務和限制{#triggers-best-practices-and-limitations}
 
-以下是使用「促銷活動——觸發器」整合的最佳實務和限制清單：
+以下是使用Campaign — 觸發器整合的最佳實務和限制清單：
 
-* 如果您有多個Campaign Standard例項，則只要所有例項位於相同的IMS組織ID，就可接收觸發器。 Analytics也必須位於相同的IMS組織ID上。
-* 您無法使用來自兩個不同報表套裝的事件，在「觸發核心服務」中建立觸發器。
-* 觸發器基於事務性消息。 只要您必須非常快地傳送訊息，就會使用交易式訊息。 您不能將事務性消息排入隊列，然後以批次方式循環。
-* 觸發器在本質上並非決定性的。 產生觸發器時，會傳送與Cookie相關的所有別名，因此，若是共用瀏覽器(例如零售資訊站、資料庫、網路咖啡館或家中的共用裝置（夫妻從同一裝置登入），就無法對應至正確的ID。 使用瀏覽器登入的所有ID都會傳送至促銷活動，促銷活動會根據第一次的協調傳送訊息。 如果有多個「電子郵件ID」符合協調的資格，則Campaign不會傳送電子郵件。 除非Analytics擷取並傳送正確的電子郵件ID，否則Campaign無法得知該ID。
-* 您無法在Campaign中儲存裝載內容。 觸發器無法用於更新描述檔資料。
+* 如果您有多個Campaign Standard例項，則只要觸發器位於相同的IMS組織ID，所有例項都能接收觸發器。 Analytics也必須位於相同的IMS組織ID上。
+* 您無法使用來自兩個不同報表套裝的事件，在觸發核心服務中建立觸發器。
+* 觸發器是根據交易式訊息。 每當您必須快速傳送訊息時，就會使用交易式訊息。 您無法將交易式訊息排入佇列，然後以批次方式重複執行。
+* 觸發器本質上並非決定性因素。 產生觸發器時，會傳送與Cookie相關聯的所有別名，因此若是共用瀏覽器(例如零售資訊站、資料庫、網吧或家中的共用裝置（從同一部裝置登入的丈夫和妻子），則無法對應至正確的ID。 使用瀏覽器登入的所有ID都會傳送至Campaign，而Campaign會根據第一次調解傳送訊息。 如果有多個「電子郵件ID」符合調解的資格，則Campaign不會傳送電子郵件。 除非由Analytics擷取並傳送，否則Campaign無法知道正確的電子郵件ID。
+* 您無法在Campaign中儲存裝載的內容。 觸發器無法用於更新設定檔的資料。
 * 觸發器不支援客戶屬性（亦即，只有報表套裝資料可用來定義觸發器業務規則）。
-* 促銷活動不支援系列的集合。
+* Campaign不支援集合的集合。
 
 >[!CAUTION]
 >
->您的網站必須與Adobe Campaign伺服器在相同網域上執行。 否則，您無法使用訪客ID協調並以匿名方式聯絡造訪網站的使用者。
-
+>您的網站必須執行與Adobe Campaign伺服器相同的網域。 否則，您無法使用訪客id來調解並聯絡匿名造訪網站的使用者。

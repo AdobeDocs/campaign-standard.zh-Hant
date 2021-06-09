@@ -2,52 +2,51 @@
 solution: Campaign Standard
 product: campaign
 title: 關於 Audience Destinations 服務
-description: 進一步瞭解觀眾目標服務。
+description: 進一步了解Audience Destinations服務。
 audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: audience,wizard;audience,overview;delivery,audience,back
-feature: Microsoft CRM Integration
+feature: Microsoft CRM整合
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 34235749-d056-4d4c-9939-7dc52f980a76
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 7%
+source-wordcount: '379'
+ht-degree: 2%
 
 ---
-
 
 # 關於 Audience Destinations 服務 {#about-audiences}
 
 >[!IMPORTANT]
 >
->觀眾目標服務目前為測試版，可能會經常更新，恕不另行通知。 客戶必須在Azure上代管（目前僅限北美地區測試版）才能存取這些功能。 如果您想要存取，請聯絡Adobe客戶服務。
+>Audience Destinations服務目前為測試版，可能會經常更新，恕不另行通知。 客戶必須在Azure上托管（目前測試版僅供北美使用），才能存取這些功能。 如果您想要存取權限，請聯絡Adobe客戶服務。
 
-運用[Adobe Experience Platform](https://docs.adobe.com/content/help/en/experience-platform/landing/home.html)建立以大型複雜資料集為基礎的高針對性受眾，讓您的消費者體驗更臻完美。 Adobe Experience Platform整合線上和線下來源(包括Adobe Analytics)的個人檔案、行為和多實體資料，協助您建立360度全方位的客戶視圖，讓您有效管理客戶體驗。
+運用[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html)根據大型複雜資料集建立高度鎖定的對象，讓您的消費者體驗更強大。 Adobe Experience Platform整合了線上和離線來源(包括Adobe Analytics)的設定檔、行為和多實體資料，可協助您建立客戶的360度檢視，讓您有效管理客戶體驗。
 
-然後，Adobe Campaign Standard將使用&#x200B;**觀眾目標**&#x200B;服務從Adobe Experience Platform擷取描述檔集合，稱為&#x200B;**觀眾**，以用於多步驟和／或跨通道促銷活動。
+然後，Adobe Campaign Standard將使用&#x200B;**Audience Destinations**&#x200B;服務，從Adobe Experience Platform擷取多步驟及/或跨頻道行銷活動方案的設定檔集合，稱為&#x200B;**Audiences**。
 
-**Audiences** 是先建立區段來建立 **的**，這些區段實質上是一組規則，以來自Adobe Experience Platform的客戶描述檔中幾乎任何變數（例如描述檔、事件、多實體資料）為基礎，以建立多維目標。這些專屬檔案中參考了即時客戶個人檔案與細分服務的全域概念：
+**** 對象是透過第一 **次建立區段**&#x200B;來建立，這實際上是一組基於Adobe Experience Platform客戶設定檔中幾乎任何變數（例如，設定檔、事件、多實體資料）的規則，以建立多維目標。以下專屬檔案會參考即時客戶個人檔案和區段服務的全域概念：
 
-* [即時客戶個人檔案總覽](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)
-* [區段服務概觀](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html)
+* [即時客戶個人檔案概觀](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
+* [區段服務概觀](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html)
 
-在建立區段後，您就可以將區段啟動為[Campaign Standard工作流程](../../integrating/using/aep-targeting-audiences.md)中的對象，以進行傳送。 此外，您還可以使用Adobe Experience Platform的情境資料，將[個人化](../../integrating/using/aep-personalizing-campaigns.md)並新增動態內容至您的促銷活動。
+建立區段後，您就可以在[Campaign Standard工作流程](../../integrating/using/aep-targeting-audiences.md)中，將其啟動為傳送的對象。 此外，您也可以使用來自Adobe Experience Platform的內容資料來[個人化](../../integrating/using/aep-personalizing-campaigns.md)，並將動態內容新增至您的促銷活動。
 
-![](assets/do-not-localize/how-to-video.png) 本節也提供操作說 [明影片](https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.translate.html)。
+![](assets/do-not-localize/how-to-video.png) 本節也提供作法 [影片](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html)。
 
-這些章節中使用的詞語：
+這些小節中使用的詞語：
 
-* **設定檔**:描述檔是Experience Platform標準資料模型，用於定義使用者屬性。描述檔也可以是與人員和裝置相關的事件資料和屬性的匯總。
+* **設定檔**:設定檔是Experience Platform標準資料模型，用來定義使用者的屬性。設定檔也可以是與人員和裝置相關的事件資料和屬性的匯總。
 
-   範例：「無名氏是一名55歲的男性。」
+   範例：「無名氏是55歲的男性。」
 
-* **區段**:一組規則，它使用屬性和事件資料定義資料庫中配置檔案的子集。
+* **區段**:一組規則，可定義資料庫中的設定檔子集，使用屬性和事件資料。
 
-   範例：&quot;男性>50歲&quot;
+   範例：「男性> 50歲。」
 
-* **觀眾**:符合區段規則的描述檔集合。
+* **對象**:符合區段規則的設定檔集合。
 
-   範例：資料庫中所有年齡超過50歲男性的相應描述檔清單。
+   範例：資料庫中與50歲以上男性對應的設定檔清單。

@@ -7,17 +7,16 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 context-tags: trigger,overview;trigger,main
-feature: Triggers
+feature: 觸發因子
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 9dc75d6a-d79a-49aa-a0c0-b1dd6c144ce6
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 99%
+source-wordcount: '474'
+ht-degree: 98%
 
 ---
-
 
 # 關於 Adobe Experience Cloud 觸發程式{#about-adobe-experience-cloud-triggers}
 
@@ -33,7 +32,7 @@ Experience Cloud 啟動核心服務 **[!UICONTROL Triggers]** 與 Adobe Campaign
 
 **相關主題：**
 
-* 瞭解不同類型的觸發器：[Adobe Experience Cloud 文件](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/activation/triggers.html)。
+* 瞭解不同類型的觸發器：[Adobe Experience Cloud 文件](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html)。
 * 觀看「[根據網站活動觸發再行銷訊息](https://helpx.adobe.com/tw/marketing-cloud/how-to/email-marketing.html#step-two)」影片。
 * 瞭解我們的兩個[放棄觸發器使用案例](../../integrating/using/abandonment-triggers-use-cases.md)。
 
@@ -65,4 +64,3 @@ Experience Cloud 啟動核心服務 **[!UICONTROL Triggers]** 與 Adobe Campaign
 >[!NOTE]
 >
 >如需最佳實務與技術限制的詳細資訊，請參閱[觸發器最佳實務與限制](../../integrating/using/configuring-triggers-in-experience-cloud.md#triggers-best-practices-and-limitations)。
-

@@ -7,17 +7,16 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 context-tags: extAccount,main;extAccount,overview
-feature: Instance Settings
+feature: 執行個體設定
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
+exl-id: 747e82ff-d3e6-4945-8f29-80e4a190c96f
+source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
 workflow-type: tm+mt
-source-wordcount: '1778'
-ht-degree: 83%
+source-wordcount: '1774'
+ht-degree: 84%
 
 ---
-
 
 # 外部帳戶{#external-accounts}
 
@@ -33,7 +32,7 @@ ht-degree: 83%
 * Adobe Analytics。如需詳細資訊，請參閱[本區段](../../integrating/using/configure-campaign-analytics-integration.md)。
 * Google reCAPTCHA。如需詳細資訊，請參閱[本區段](#google-recaptcha-external-account)。
 * Microsoft Azure Blob 儲存。如需詳細資訊，請參閱[本區段](#microsoft-azure-external-account)。
-* OAuth 2.0.有關詳細資訊，請參閱[本節](#oauth-account)。
+* OAuth 2.0。有關詳細資訊，請參閱[此部分](#oauth-account)。
 
 >[!NOTE]
 >
@@ -85,30 +84,30 @@ Adobe Campaign 隨附一組預先定義的外部帳戶。若要設定與外部�
 * 時常登入 SFTP 以直接檢查其內容。
 * 請記住，SFTP 硬碟的管理主要是您的責任。
 
-此外，請注意，您嘗試從中啟動SFTP連線的公用IP必須新增至促銷活動例項的allowlist。 可通過[支援票證](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)請求將IP地址添加到允許清單中，並提供用於驗證的公共密鑰。
+另請注意，您嘗試起始SFTP連線的公用IP必須新增至Campaign執行個體的允許清單。 可通過[支援票證](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)請求將IP地址添加到允許清單，並提供用於驗證的公鑰。
 
-SFTP 伺服器可從「控制面板」進行管理。如需詳細資訊，請參閱[控制面板文件](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/sftp-management/about-sftp-management.html)。
+SFTP 伺服器可從「控制面板」進行管理。如需詳細資訊，請參閱[控制面板文件](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html)。
 
 >[!NOTE]
 >
->所有管理員使用者都可存取控制面板。 授予使用者管理員存取權的步驟詳見[本頁](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel)。
+>所有管理員使用者都可存取控制面板。 授予使用者管理員存取權限的步驟已詳載於[本頁](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hant#discover-control-panel)中。
 
 ## OAuth 2.0帳戶{#oauth-account}
 
 若為OAuth 2.0外部帳戶，請提供下列詳細資訊：
 
-* A **授予類型**:僅支援&#x200B;**用戶端認證**。
-* A **Secure API URL**:輸入授權端點。
-* **OAuth 2.0敏感認證**:本節是針對性質敏感的認證。憑證值新增後，會在螢幕上遮色；到那時，它們將無法閱讀或編輯。 如果授權端點要求將特定憑證插入HTTP授權標題，而非POST主體參數，則可以為該憑證選擇「在標題中包含」選項。
-* **OAuth 2.0非敏感性認證**:本節是針對性質不敏感的認證。憑證值新增後，會顯示在畫面上；也可以編輯。  如果授權端點要求將特定憑證插入HTTP授權標題，而非POST主體參數，則可以為該憑證選擇「在標題中包含」選項。
+* A **授予類型**:僅支援&#x200B;**用戶端憑證**。
+* A **安全API URL**:輸入授權端點。
+* **OAuth 2.0敏感憑證**:本節的用途為具有敏感性質的認證。新增憑證值後，會在畫面上遮罩這些值；此時，這些字元將無法閱讀或編輯。 如果授權端點要求將特定憑據插入HTTP授權標題(而非POST主體參數)中，則可以為該憑據選擇「在標題中包括」選項。
+* **OAuth 2.0非敏感憑證**:本節的用途為非敏感憑證。新增憑證值後，這些值會顯示在畫面上；也可以編輯。  如果授權端點要求將特定憑據插入HTTP授權標題(而非POST主體參數)中，則可以為該憑據選擇「在標題中包括」選項。
 
-輸入帳戶資訊後，按一下「測試連線」，確認外部帳戶已正確設定。****
+輸入帳戶資訊後，按一下&#x200B;**測試連線**&#x200B;以確認外部帳戶已正確設定。
 
 ![](assets/external_accounts_OAuth.png)
 
 >[!NOTE]
 >
->認證「Content-Type:application/x-www-form-urlencoded」和「grant_type=client_credentials」會自動新增至API呼叫；因此，您不需要在認證區段中新增它們。
+>憑證「Content-Type:application/x-www-form-urlencoded」和「grant_type=client_credentials」將自動新增至API呼叫；因此，您不需要將其新增至憑證區段。
 
 ## Amazon S3 外部帳戶 {#amazon-s3-external-account}
 

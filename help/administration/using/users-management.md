@@ -6,17 +6,16 @@ description: 'Adobe Campaign 使用者具有特定角色。探索主要使用者
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-feature: Access Management
+feature: 存取管理
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6605203e-78f8-4ebd-b256-a621a3a9d638
+source-git-commit: 7808aea42f417994a61fdde84a44299c0954b346
 workflow-type: tm+mt
-source-wordcount: '1224'
+source-wordcount: '1220'
 ht-degree: 94%
 
 ---
-
 
 # 使用者管理{#users-management}
 
@@ -38,7 +37,7 @@ Adobe Campaign 可讓您指派一組角色給使用者，以定義使用者可�
 
 **相關主題：**
 
-* [管理使用者權限](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/access-management.html)影片
+* [管理使用者權限](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html)影片
 * [角色清單](../../administration/using/list-of-roles.md)
 * [授權清單](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)
 
@@ -64,7 +63,7 @@ Adobe Campaign 可讓您指派一組角色給使用者，以定義使用者可�
 
 >[!IMPORTANT]
 >
->只有具有&#x200B;**[!UICONTROL Administration]**&#x200B;角色和&#x200B;**所有**&#x200B;單元訪問權限的職能管理員才能訪問發送日誌、消息日誌、跟蹤日誌、排除日誌、提案日誌和訂閱日誌。 非管理員使用者可以定位這些記錄檔，但是從連結的表格（描述檔、傳送）開始。
+>只有具有&#x200B;**[!UICONTROL Administration]**&#x200B;角色且可存取&#x200B;**所有**&#x200B;單位的功能管理員才能存取傳送記錄檔、訊息記錄檔、追蹤記錄檔、排除記錄檔、主張記錄檔和訂閱記錄檔。 非管理員使用者可以鎖定這些記錄，但從連結的表格（設定檔、傳送）開始。
 
 功能管理員是唯一可存取 Adobe Campaign 介面之 **[!UICONTROL Administration]** 功能表的使用者。由於這些使用者需要存取技術資源，因此應指派更多進階角色給他們，例如 **[!UICONTROL Administration]** 及 **[!UICONTROL Datamodel]** 現成可用的角色。這些角色會在 **[!UICONTROL Administrators]** 現成可用的安全性群組中結合。如需詳細資訊，請參閱[本區段](../../administration/using/list-of-roles.md)。
 
@@ -159,8 +158,8 @@ Adobe Campaign 可讓您指派一組角色給使用者，以定義使用者可�
 
 ## 教學課程影片(#video)
 
-此影片顯示如何管理使用者存取權限。
+此影片說明如何管理使用者存取權限。
 
 >[!VIDEO](https://video.tv.adobe.com/v/24671?quality=12)
 
-其他Campaign Standardhow-to影片可在[這裡](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant)取得。
+其他Campaign Standard操作說明影片可在[此處](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant)取得。

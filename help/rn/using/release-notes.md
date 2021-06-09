@@ -10,7 +10,7 @@ feature: 概覽
 role: Business Practitioner
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 4c979ce95653292e727e2b34efb678074939bb02
+source-git-commit: d5bea4a96576dc13aa06939876ef6549115a2b75
 workflow-type: tm+mt
 source-wordcount: '1010'
 ht-degree: 6%
@@ -22,7 +22,7 @@ ht-degree: 6%
 
 ## 發行版本21.2 – 2021 年 6 月{#release-21-2---june-2021}
 
-下列為下一版Campaign Standard中包含的新功能、改良和修正。	以下列出此Campaign Standard發行中包含的新功能、改良和修正。
+下列為下一版Campaign Standard中包含的新功能、改良和修正。 以下列出此Campaign Standard發行中包含的新功能、改良和修正。
 
 **功能改善**
 

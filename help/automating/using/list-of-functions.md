@@ -10,10 +10,10 @@ feature: 工作流程
 role: Data Architect
 level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
-source-git-commit: 2672d2f58a2d46394454a88e63f8d09ea7e96148
+source-git-commit: 887396a0871a8ed93642c55a49c8737f5c98bfc2
 workflow-type: tm+mt
-source-wordcount: '1971'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -707,11 +707,7 @@ ht-degree: 96%
    <td> 傳回數值、字串或日期欄中的最小值。<br /> </td> 
    <td> Min(&lt;value&gt;)<br /> </td> 
   </tr>
-  <tr> 
-   <td> <strong>StringAgg</strong>, String匯總<br /> </td> 
-   <td> 傳回字串類型列值的串連，用第二個引數中的字元分隔（預設分隔符號為逗號）。<br /> </td> 
-   <td> StringAgg(&lt;string values&gt;,&lt;separator&gt;)
-  </tr>
+
 
 
 

@@ -10,10 +10,10 @@ feature: 概覽
 role: Business Practitioner
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: d5bea4a96576dc13aa06939876ef6549115a2b75
+source-git-commit: 887396a0871a8ed93642c55a49c8737f5c98bfc2
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -39,8 +39,6 @@ ht-degree: 6%
 * 在多變體傳送中，如果已刪除預設變體，則使用者無法再建立語言副本。 現在會在語言副本建立期間顯示訊息。 (CAMP-48235)
 
 * 現在預設會停用兩步驟設定檔刪除程式（自Campaign 19.4版本起即淘汰）。 之前，您必須先從Campaign介面手動停用，才能使用隱私權核心服務。 若未這麼做，會導致刪除請求在未完成的情況下維持擱置狀態。
-
-* 引入新的「StringAgg」匯總函式以串連字串類型欄的值。 (CAMP-47077)[ 進一步瞭解](../../automating/using/list-of-functions.md#aggregates)
 
 * 在動態報表中，已移除&#x200B;**排除校樣**&#x200B;區段。 (CAMP-46161)
 

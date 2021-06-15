@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Campaign Standard
 user-guide-description: '說明中心，以瞭解使用 Campaign Standard 所需的主要功能、工作、設定和其他資源。 '
 title: Campaign Standard 指南
-breadcrumb-title: 說明中心
-source-git-commit: 633992a3120eeef4aacd1dadeb4e0b47dbbcb999
+breadcrumb-title: Adobe Campaign Standard檔案
+source-git-commit: 5b94e57efb29ba1c3feeba21b41e68571bd646b1
 workflow-type: tm+mt
-source-wordcount: '1785'
+source-wordcount: '1787'
 ht-degree: 99%
 
 ---
@@ -419,7 +419,7 @@ ht-degree: 99%
       + [閱聽眾](developing/using/datamodel-audience.md)
       + [Campaign](developing/using/datamodel-campaign.md)
       + [傳遞](developing/using/datamodel-delivery.md)
-      + [登錄頁面](developing/using/datamodel-landingpage.md)
+      + [登陸頁面](developing/using/datamodel-landingpage.md)
       + [行銷歷史記錄](developing/using/datamodel-history.md)
       + [個人資料](developing/using/datamodel-profile.md)
       + [方案](developing/using/datamodel-program.md)

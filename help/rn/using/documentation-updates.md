@@ -13,7 +13,7 @@ exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: c101113e2180006b300611a0cbea1b0f9a70df70
 workflow-type: tm+mt
 source-wordcount: '6852'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -21,17 +21,17 @@ ht-degree: 98%
 
 除了 Adobe Campaign [發行版本](../../rn/using/release-notes.md)以外，本頁還列出 Adobe Campaign Standard 檔案中的所有新更新。
 
-## 發行版本21.2 – 2021 年 6 月{#release-21-2---june-2021}
+## 發行版本 21.2 – 2021 年 6 月{#release-21-2---june-2021}
 
 **發行中包含的新功能**
 
-登錄頁面驗證 — 您現在可以將強制合約選項新增至登錄頁面。 [顯示全文](../../channels/using/managing-landing-page-form-data.md#agreement-checkbox)
+登陸頁面驗證 — 您現在可以將強制合約選項新增至登陸頁面。 [顯示全文](../../channels/using/managing-landing-page-form-data.md#agreement-checkbox)
 
-已更新&#x200B;**電子郵件大小**&#x200B;區段，其中包含電子郵件大小上限的資訊，現在預設會設為100 MB。 [顯示全文](../../sending/using/design-and-personalize.md#email-size)
+已更新&#x200B;**電子郵件大小**&#x200B;區段，其中包含電子郵件大小上限的資訊，現在預設為 100 MB。 [顯示全文](../../sending/using/design-and-personalize.md#email-size)
 
 **此版本隨附的其他文件更新**
 
-已新增有關如何在交易式推播通知中變更目標對應的資訊。 [顯示全文](../../channels/using/transactional-push-notifications.md#change-target-mapping)
+已新增有關如何在異動推播通知中變更目標對應的資訊。 [顯示全文](../../channels/using/transactional-push-notifications.md#change-target-mapping)
 
 ## 2021 年 5 月 {#doc-updates-may-2021}
 

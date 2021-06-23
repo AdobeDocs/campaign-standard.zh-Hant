@@ -8,10 +8,10 @@ feature: 概覽
 role: Business Practitioner
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-source-git-commit: 5b94e57efb29ba1c3feeba21b41e68571bd646b1
-workflow-type: ht
-source-wordcount: '239'
-ht-degree: 100%
+source-git-commit: c0362e6b440f19dcbce965910d9594a1bc3991ae
+workflow-type: tm+mt
+source-wordcount: '241'
+ht-degree: 90%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 100%
 
 ## 新增功能
 
-* **[Campaign - RTCDP 整合](integrating/using/get-started-sources-destinations.md)**<br/>瞭解如何在 Campaign 和即時客戶資料平台 (RTCDP) 之間共用資料
+* **[Apple Mail隱私保護常](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html)**<br/> 見問題集根據Apple關於iOS 15的公告，尋找初始指引
 
-* **[更新不正確的硬退件](https://helpx.adobe.com/tw/campaign/kb/update-bounce-qualification.html)**<br/>&#x200B;瞭解如何在電子郵件中斷後更新不正確的硬退件
+* **[Campaign - RTCDP 整合](integrating/using/get-started-sources-destinations.md)**<br/>瞭解如何在 Campaign 和即時客戶資料平台 (RTCDP) 之間共用資料
 
 * **[控制組](sending/using/control-group.md)**<br/>透過排除部分對象，以評估行銷活動的影響
 

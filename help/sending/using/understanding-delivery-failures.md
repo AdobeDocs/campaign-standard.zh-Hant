@@ -10,17 +10,16 @@ feature: 達成能力
 role: Business Practitioner
 level: Intermediate
 exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
-translation-type: tm+mt
-source-git-commit: dbc176188d936160e04956e7598bd219ba80347e
+source-git-commit: c41d51538b8a8376a034c7d2db77b66b21256fd8
 workflow-type: tm+mt
 source-wordcount: '1307'
 ht-degree: 66%
 
 ---
 
-# 瞭解傳送故障{#understanding-delivery-failures}
+# 瞭解傳遞故障{#understanding-delivery-failures}
 
-## 瞭解傳送故障{#about-delivery-failures}
+## 瞭解傳送故障 {#about-delivery-failures}
 
 當傳送無法傳送至設定檔時，遠端伺服器會自動傳送錯誤訊息，此錯誤訊息會由 Adobe Campaign 平台擷取，並限定為隔離電子郵件地址或電話號碼。請參閱[退信資格](#bounce-mail-qualification)。
 
@@ -30,15 +29,15 @@ ht-degree: 66%
 >
 >**SMS** 錯誤訊息（或 &quot;SR&quot; 作為 &quot;Status Report&quot;）會由 MTA 程序限定。
 
-如果地址被隔離，或者配置檔案位於拒絕清單中，也可以在準備傳送期間排除郵件。 已排除的訊息會列在傳送控制面板的　**[!UICONTROL Exclusion logs]**　索引標籤中（請參閱[本區段](../../sending/using/monitoring-a-delivery.md#exclusion-logs)）。
+如果地址被隔離或設定檔位於封鎖清單上，在準備傳送期間也可以排除訊息。 已排除的訊息會列在傳送控制面板的　**[!UICONTROL Exclusion logs]**　索引標籤中（請參閱[本區段](../../sending/using/monitoring-a-delivery.md#exclusion-logs)）。
 
 ![](assets/exclusion_logs.png)
 
 **相關主題：**
 
 * [瞭解隔離管理](../../sending/using/understanding-quarantine-management.md)
-* [關於 Campaign 中的加入和退出](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
-* [彈回數](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)
+* [關於 Campaign 中的選擇加入和選擇退出](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* [跳出數](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)
 
 ## 識別訊息的傳送失敗 {#identifying-delivery-failures-for-a-message}
 
@@ -59,33 +58,33 @@ ht-degree: 66%
 傳送失敗的可能原因有：
 
 | 錯誤標籤 | 錯誤類型 | 說明 |
----------|----------|---------
+| ---------|----------|---------|
 | **[!UICONTROL User unknown]** | 硬 | 地址不存在。 此設定檔不會再嘗試傳送。 |
-| **[!UICONTROL Quarantined address]** | 硬 | 地址已置於隔離區。 |
-| **[!UICONTROL Unreachable]** | 軟／硬 | 消息傳送鏈中發生錯誤（例如暫時無法訪問域）。 根據提供者傳回的錯誤，將直接傳送地址給隔離，或者重新嘗試傳送，直到 Campaign 收到證明隔離狀態正確的錯誤或錯誤數達到 5 為止。 |
-| **[!UICONTROL Address empty]** | 硬 | 未定義地址。 |
-| **[!UICONTROL Mailbox full]** | Soft | 此用戶的郵箱已滿，無法接受更多消息。 可以從隔離清單中刪除此地址，以進行另一次嘗試。在 30 天後自動移除。為了從隔離位址清單自動移除位址，您必須啟動 **[!UICONTROL Database cleanup]** 技術工作流程。 |
-| **[!UICONTROL Refused]** | 軟／硬 | 由於安全反饋是垃圾郵件報告，該地址已被置於隔離狀態。 根據提供者傳回的錯誤，將直接傳送地址給隔離，或者重新嘗試傳送，直到 Campaign 收到證明隔離狀態正確的錯誤或錯誤數達到 5 為止。 |
-| **[!UICONTROL Duplicate]** | 已忽略 | 區段中已偵測到該位址。 |
-| **[!UICONTROL Not defined]** | Soft | 該地址正在限定中，因為錯誤尚未增加。 當伺服器傳送新錯誤訊息時，會發生此類錯誤：它可能是孤立的錯誤，但如果再次發生，錯誤計數器會增加，這會提醒技術團隊。 |
-| **[!UICONTROL Error ignored]** | 已忽略 | 地址在allowlist上，無論如何，都會寄送電子郵件給它。 |
-| **[!UICONTROL Address on denylist]** | 硬 | 傳送時，地址已新增至密尼清單。 |
-| **[!UICONTROL Account disabled]** | 軟／硬 | 當Internet訪問提供程式(IAP)檢測到長時間的不活動時，它可以關閉用戶帳戶：傳送至使用者位址的作業將無法進行。 「軟式」或「硬式」類型取決於收到的錯誤類型：如果帳戶因為 6 個月的閒置而暫時停用，而且仍可啟動，則會指派狀態 **[!UICONTROL Erroneous]** 並再次嘗試傳送。如果收到錯誤訊號表明帳戶已永久停用，則會直接將其發送到隔離。 |
-| **[!UICONTROL Not connected]** | 已忽略 | 當傳送訊息時，描述檔的行動電話已關閉或未連線至網路。 |
-| **[!UICONTROL Invalid domain]** | Soft | 電子郵件地址的網域不正確或已不存在。 此設定檔將再次定位，直到錯誤計數達到5。之後，記錄將設定為「隔離」狀態，不會再重試。 |
-| **[!UICONTROL Text too long]** | 已忽略 | SMS訊息中的字元數量超過限制。 如需詳細資訊，請參閱 [SMS 編碼、長度和音譯](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)。 |
+| **[!UICONTROL Quarantined address]** | 硬 | 地址被置於隔離區。 |
+| **[!UICONTROL Unreachable]** | 軟/硬 | 訊息傳送鏈中發生錯誤（例如暫時無法存取網域）。 根據提供者傳回的錯誤，將直接傳送地址給隔離，或者重新嘗試傳送，直到 Campaign 收到證明隔離狀態正確的錯誤或錯誤數達到 5 為止。 |
+| **[!UICONTROL Address empty]** | 硬 | 地址未定義。 |
+| **[!UICONTROL Mailbox full]** | 軟 | 此用戶的郵箱已滿，無法接受更多郵件。 可以從隔離清單中刪除此地址，以進行另一次嘗試。在 30 天後自動移除。為了從隔離位址清單自動移除位址，您必須啟動 **[!UICONTROL Database cleanup]** 技術工作流程。 |
+| **[!UICONTROL Refused]** | 軟/硬 | 由於安全反饋是垃圾郵件報告，該地址已被置於隔離狀態。 根據提供者傳回的錯誤，將直接傳送地址給隔離，或者重新嘗試傳送，直到 Campaign 收到證明隔離狀態正確的錯誤或錯誤數達到 5 為止。 |
+| **[!UICONTROL Duplicate]** | 已忽略 | 已在分段中偵測到該位址。 |
+| **[!UICONTROL Not defined]** | 軟 | 該地址正在限定中，因為錯誤尚未增加。 | 然而。 當伺服器傳送新錯誤訊息時，會發生此類錯誤：它可能是孤立的錯誤，但如果再次發生，錯誤計數器會增加，這會提醒技術團隊。 |
+| **[!UICONTROL Error ignored]** | 已忽略 | 該位址位於允許清單中，無論如何，都會寄送電子郵件給該位址。 |
+| **[!UICONTROL Address on denylist]** | 硬 | 地址已在發送時添加到封鎖清單中。 |
+| **[!UICONTROL Account disabled]** | 軟/硬 | 當Internet訪問提供程式(IAP)檢測到長時間的不活動時，它可以關閉用戶帳戶：之後，無法傳送至使用者位址。 「軟式」或「硬式」類型取決於收到的錯誤類型：如果帳戶因為 6 個月的閒置而暫時停用，而且仍可啟動，則會指派狀態 **[!UICONTROL Erroneous]** 並再次嘗試傳送。如果收到錯誤訊號表明帳戶已永久停用，則會直接將其發送到隔離。 |
+| **[!UICONTROL Not connected]** | 已忽略 | 發送消息時，配置檔案的行動電話已關閉或未連接到網路。 |
+| **[!UICONTROL Invalid domain]** | 軟 | 電子郵件地址的網域不正確或已不存在。 此設定檔將再次定位，直到錯誤計數達到5。之後，記錄將設定為「隔離」狀態，不會再重試。 |
+| **[!UICONTROL Text too long]** | 已忽略 | SMS訊息中的字元數超過限制。 如需詳細資訊，請參閱 [SMS 編碼、長度和音譯](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)。 |
 | **[!UICONTROL Character not supported by encoding]** | 已忽略 | SMS訊息包含一或多個編碼不支援的字元。 有關詳細資訊，請參閱[字元表- GSM標準](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard)。 |
 
 
 **相關主題：**
-* [硬彈回數](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces)
-* [柔和彈回數](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
+* [硬跳出數](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces)
+* [軟跳出數](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
 
 ## 傳送暫時失敗後重試 {#retries-after-a-delivery-temporary-failure}
 
 如果訊息因 **Ignored** 類型的臨時錯誤而失敗，則在傳送期間將執行重試。如需錯誤類型的詳細資訊，請參閱[傳送失敗類型和原因](#delivery-failure-types-and-reasons)。
 
-重試次數（在發送開始後應執行多少次重試）和兩次重試之間的最小延遲現在取決於IP在歷史和當前指定域上的執行情況。 <!--managed by the Adobe Campaign Enhanced MTA,-->會忽略 Campaign 中的&#x200B;**重試次數**&#x200B;設定。
+根據IP在歷史和目前指定網域的執行狀況，重試次數（在發送開始後應執行多少次重試）和兩次重試之間的最小延遲現在為<!--managed by the Adobe Campaign Enhanced MTA,-->。 會忽略 Campaign 中的&#x200B;**重試次數**&#x200B;設定。
 
 <!--Please note that Adobe Campaign Enhanced MTA is not available for the Push channel.-->
 
@@ -95,11 +94,11 @@ ht-degree: 66%
 >
 >**您的 Campaign 傳送中的&#x200B;**[!UICONTROL Delivery duration]**參數現在僅在設為 3.5 天或更少時使用。** 如果您定義的值超過　3.5　天，則不會考慮該值。
 
-例如，如果您希望某個傳送的重試在一天後停止，可以將傳送持續時間設定為&#x200B;**1d**，並且重試隊列中的消息將在一天後被刪除。
+例如，如果您希望某個傳送的重試在一天後停止，您可以將傳送持續時間設為&#x200B;**1d**，而重試佇列中的訊息將在一天後移除。
 
 >[!NOTE]
 >
->當消息在重試隊列中最多3.5天且無法發送時，它將超時，其狀態將在[發送日誌](../../sending/using/monitoring-a-delivery.md#delivery-logs)中更新為&#x200B;**[!UICONTROL Failed]**。<!--from **[!UICONTROL Sent]**-->
+>當訊息在重試佇列中停留最多3.5天且無法傳送時，訊息會逾時，其狀態會在[傳送記錄](../../sending/using/monitoring-a-delivery.md#delivery-logs)中更新為&#x200B;**[!UICONTROL Failed]**。<!--from **[!UICONTROL Sent]**-->
 
 <!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
@@ -113,15 +112,15 @@ The default configuration allows five retries at one-hour intervals, followed by
 
 ## 退回郵件資格 {#bounce-mail-qualification}
 
-對於同步傳送失敗錯誤訊息，Adobe Campaign增強型MTA（訊息傳送代理）會決定反彈類型和資格，並將該資訊傳回至促銷活動。
+對於同步傳送失敗錯誤訊息，Adobe Campaign Enhanced MTA（訊息傳輸代理）會決定退信類型和資格，並將該資訊傳回至Campaign。
 
 >[!NOTE]
 >
 > Campaign **[!UICONTROL Message qualification]** 表格中的退信限定不再使用。
 
-inMail 程序仍會透過 **[!UICONTROL Inbound email]** 規則來限定非同步退信。若要存取這些規則，請按一下左上方的 **[!UICONTROL Adobe Campaign]** 標誌，然後依序選取 **[!UICONTROL Administration > Channels > Email > Email processing rules]** 及 **[!UICONTROL Bounce mails]**。如需此規則的詳細資訊，請參閱[本節](../../administration/using/configuring-email-channel.md#email-processing-rules)。
+inMail 程序仍會透過 **[!UICONTROL Inbound email]** 規則來限定非同步退信。若要存取這些規則，請按一下左上方的 **[!UICONTROL Adobe Campaign]** 標誌，然後依序選取 **[!UICONTROL Administration > Channels > Email > Email processing rules]** 及 **[!UICONTROL Bounce mails]**。有關此規則的詳細資訊，請參閱[此部分](../../administration/using/configuring-email-channel.md#email-processing-rules)。
 
-有關彈回數和不同種類彈回數的詳細資訊，請參閱[本節](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)。
+有關跳出數和不同跳出數類型的詳細資訊，請參閱[此部分](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)。
 
 <!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 
@@ -135,7 +134,7 @@ To list the various bounces and their associated error types et reasons, click t
 
 ![](assets/qualification.png)-->
 
-## 使用雙重選擇加入機制{#optimizing-mail-deliverability-with-double-opt-in-mechanism}最佳化電子郵件傳送能力
+## 使用雙重加入機制最佳化電子郵件傳遞能力 {#optimizing-mail-deliverability-with-double-opt-in-mechanism}
 
 傳送電子郵件時，最佳作法是雙重加入機制。它可保護平台免受錯誤或無效的電子郵件地址、垃圾郵件機器人，並防止可能的垃圾郵件投訴。
 

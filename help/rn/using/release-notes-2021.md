@@ -1,7 +1,7 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 發行說明2021年
+title: 發行說明 2021 年
 description: 本頁列出 2021 年的所有 Adobe Campaign Standard 版本。
 audience: rn
 content-type: reference
@@ -11,13 +11,13 @@ role: Business Practitioner
 level: Beginner
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
 source-git-commit: 4a8dfc0b8f321447e0ebc23a9f5bbef337454d9f
-workflow-type: tm+mt
-source-wordcount: '2536'
-ht-degree: 95%
+workflow-type: ht
+source-wordcount: '2535'
+ht-degree: 100%
 
 ---
 
-# 發行說明 2021{#release-notes-2021}
+# 2021 年發行說明 {#release-notes-2021}
 
 [發行計畫](../../rn/using/release-planning.md) | [控制面板版本](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=zh-Hant) | [文件更新](../../rn/using/documentation-updates.md) | [先前的發行版本](../../rn/using/release-notes-2020.md) | [已過時的功能](../../rn/using/deprecated-features.md)
 
@@ -151,11 +151,11 @@ ht-degree: 95%
 
 * 修正工作流程中複製貼上&#x200B;**重複資料刪除**&#x200B;活動時，可能發生且已執行一次，使用暫時資源的問題。重複後，活動的資源會自動設定為空，導致工作流程中其他活動出現問題。貼上後，活動的資源現在會維持不變，以便盡快觸發錯誤，而不是稍後在工作流程中觸發。(CAMP-46903)
 
-* 修正透過引入新的[目標對應](../../administration/using/target-mappings-in-campaign.md)來傳送交易式推播通知目標設定檔時，導致傳送分析失敗的問題：**設定檔 — 推送**(*mapRtEventAppSubRcp*)的即時事件。 [設定檔交易式推播通知](../../channels/using/transactional-push-notifications.md#transactional-push-notifications-targeting-a-profile)的傳送、排除和追蹤記錄現在會儲存在&#x200B;*broadLogAppSubRcp*、*excludeLogAppSubRcp*&#x200B;和&#x200B;*trackingLogAppSubRcp*&#x200B;表格中。
+* 修正傳送異動推播訊息目標定位設定檔時，傳送分析失敗的問題，方法是引入新的[目標定位對應](../../administration/using/target-mappings-in-campaign.md): **設定檔 - 推播的即時事件** (*mapRtEventAppSubRcp*)。[設定檔異動推播通知](../../channels/using/transactional-push-notifications.md#transactional-push-notifications-targeting-a-profile)的傳遞、排除和追蹤記錄現在會儲存在 *broadLogAppSubRcp*、*excludeLogAppSubRcp* 和 *trackingLogAppSubRcp* 表格。
 
    >[!IMPORTANT]
    >
-   >由於此變更，如果您使用現有的設定檔推播交易式通知(在升級至Adobe Campaign 21.1之前建立)，建議您將目標對應更新至新目標對應，然後再次發佈訊息。 請參閱[此處](../../channels/using/transactional-push-notifications.md#change-target-mapping)詳細的步驟。 使用先前的目標對應&#x200B;**Profile — 即時事件**(*mapRtEventRcp*)可能導致傳送準備時間較長且效能降低。
+   >由於此變更，如果您使用現有的設定檔推播異動通知 (在升級至 Adobe Campaign 21.1 之前建立)，建議您將目標對應更新至新版，然後再次發佈訊息。 請參閱[此處](../../channels/using/transactional-push-notifications.md#change-target-mapping)的詳細步驟。 使用先前的目標對應&#x200B;**設定檔 — 即時事件**(*mapRtEventRcp*) 可能導致傳遞準備時間較長且效能降低。
 
 * 修正顯示 5000 列時無法執行傳遞報告的問題。
 * 修正 A/B 測試的問題，此問題會導致變數 B 的內容在修改傳遞範本後無法更新。(CAMP-45235)

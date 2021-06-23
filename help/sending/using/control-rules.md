@@ -10,7 +10,7 @@ feature: 態樣規則
 role: Business Practitioner
 level: Intermediate
 exl-id: 6461c128-1e42-4685-88f8-507244147e6f
-source-git-commit: c41d51538b8a8376a034c7d2db77b66b21256fd8
+source-git-commit: f75df49e7957437df72c814aa9055d34770f22d6
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 4%
@@ -30,7 +30,7 @@ ht-degree: 4%
 一組預設規則可確保標準控制項。 下表提供這些規則的相關資訊，以及它們的相關通道和[執行階段](#control-rules-execution-phases)。
 
 | 標籤 | 通道 | 執行階段 | 說明 |
-|---------|----------|---------|---------
+|---------|----------|---------|---------|
 | **[!UICONTROL A/B Test]** | 電子郵件 | 個人化開始時 | 透過A/B測試擷取傳送的測試母體。 |
 | **[!UICONTROL Check delivery size]** | 全部 | 定位後 | 檢查訊息的大小。 |
 | **[!UICONTROL Check email content is not empty]** | 電子郵件 | 定位後 | 如果訊息的內容為空，則產生錯誤。 |

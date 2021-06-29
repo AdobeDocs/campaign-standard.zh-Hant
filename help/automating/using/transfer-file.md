@@ -7,17 +7,16 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 context-tags: fileTransfer,main
-feature: Workflows
+feature: 工作流程
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
+source-git-commit: 643b8cb973a95155e64fed7df04e15aa2332a22d
 workflow-type: tm+mt
-source-wordcount: '1099'
-ht-degree: 92%
+source-wordcount: '1116'
+ht-degree: 91%
 
 ---
-
 
 # 傳輸檔案{#transfer-file}
 
@@ -106,6 +105,12 @@ Amazon S3　通訊協定可讓您透過　Amazon Simple Storage Service(S3)　�
 
    ![](assets/wkf_file_transfer_08.png)
 
+   >[!CAUTION]
+   >
+   > Amazon S3不支援萬用字元。
+   >
+   > 若要定位多個檔案，例如`my_file_02`和`my _file_3433`，可使用下列語法：`acs-myawsbucket.s3.amazonaws.com/object-path/my_file_`。
+
 4. 如果要在傳輸完成時刪除源檔案，請核取 **[!UICONTROL Delete the source files after transfer]**。
 
 ### 使用　Microsoft Azure Blob　儲存設定 {#azure-blob-configuration-wf}
@@ -136,7 +141,7 @@ Microsoft Azure Blob　通訊協定可讓您存取位於　Microsoft Azure Blob�
 超字元或萬用字元（例如　* 或 ?）可用於篩選檔案。
 
 選取是否 **[!UICONTROL Define a file path]** 或 **[!UICONTROL Use a dynamic file path]**
-**[!UICONTROL Use a dynamic file path]**　選項可讓您使用標準運算式和事件變數來個人化要傳輸的檔案名稱。有關詳細資訊，請參見[此頁面](../../automating/using/customizing-workflow-external-parameters.md)。
+**[!UICONTROL Use a dynamic file path]**　選項可讓您使用標準運算式和事件變數來個人化要傳輸的檔案名稱。如需詳細資訊，請參閱[此頁面](../../automating/using/customizing-workflow-external-parameters.md)。
 
 請注意，路徑必須相對於　Adobe Campaign　伺服器的儲存空間目錄。檔案位於 **sftp&lt;yourinstancename>/** 目錄。您也無法瀏覽儲存空間上方的目錄。
 
@@ -166,15 +171,13 @@ Microsoft Azure Blob　通訊協定可讓您存取位於　Microsoft Azure Blob�
 >
 >如果活動未再次執行，則不會檢查或清除其資料夾。考慮到這一點，在傳輸大型檔案時請務必小心。
 
-## 輸出變數{#output-variables}
+## 輸出變數 {#output-variables}
 
-**[!UICONTROL Transfer file]**&#x200B;活動會產生事件變數作為輸出，您可將其運用在其他活動中，例如使用[Test](../../automating/using/test.md)活動來檢查下載的檔案數。
+**[!UICONTROL Transfer file]**&#x200B;活動會產生事件變數作為輸出，您可在其他活動中利用它，例如使用[Test](../../automating/using/test.md)活動來檢查下載的檔案數。
 
-請注意，事件變數也可使用外部訊號傳遞至另一個工作流程（請參閱使用外部參數自訂工作流程](../../automating/using/customizing-workflow-external-parameters.md)）。[
+請注意，事件變數也可以使用外部訊號傳遞至另一個工作流程（請參閱[使用外部參數自訂工作流程](../../automating/using/customizing-workflow-external-parameters.md)）。
 
 可用的輸出變數包括：
 
 * **[!UICONTROL fileName]**:已傳送檔案的名稱。
-* **[!UICONTROL filesCount]**:轉換檔案數。
-
-
+* **[!UICONTROL filesCount]**:已傳送的檔案數。

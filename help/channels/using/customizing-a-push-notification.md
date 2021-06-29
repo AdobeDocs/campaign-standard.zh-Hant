@@ -7,19 +7,18 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: delivery,mobileAppContent,back
-feature: Push
+feature: 推播
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 3fe3495b-e360-4169-b295-86ad93753468
+source-git-commit: f19b2d618828cb4d83aa3acbc6fbb3ffb4d3af20
 workflow-type: tm+mt
-source-wordcount: '1498'
-ht-degree: 98%
+source-wordcount: '1511'
+ht-degree: 97%
 
 ---
 
-
-# 自訂推播通知{#customizing-a-push-notification}
+# 自訂推送通知{#customizing-a-push-notification}
 
 為了微調您的推播通知，Adobe Campaign 可讓您在設計推播通知時存取一組進階選項。
 
@@ -45,7 +44,9 @@ ht-degree: 98%
 
    ![](assets/push_notif_advanced_7.png)
 
-1. 如果已在行動應用程式的套件中定義檔案，則傳送通知時會播放音效檔案。否則，會播放裝置的預設音效。
+1. 如果已在行動應用程式的套件中定義檔案，則傳送通知時會播放音效檔案。您可以將其設定為&#x200B;**default**&#x200B;以播放裝置的預設音效。
+
+   如果&#x200B;**[!UICONTROL Play a sound]**&#x200B;欄位為空，則不會播放任何聲音。
 
 然後，使用者只有在手機未靜音時，才會收到推播通知和音效。
 
@@ -114,7 +115,7 @@ ht-degree: 98%
 
 若要將到期日期新增至推播通知：
 
-1. 選中&#x200B;**[!UICONTROL Expire message]**&#x200B;選項：通過選擇&#x200B;**[!UICONTROL Expire message]**&#x200B;選項，持續時間會自動設定為0。 如果您未變更值，APNS 和 FCM 都會嘗試立即傳送訊息。如果失敗，則不會重新發送消息。
+1. 檢查&#x200B;**[!UICONTROL Expire message]**&#x200B;選項：透過選取&#x200B;**[!UICONTROL Expire message]**&#x200B;選項，持續時間會自動設為0。 如果您未變更值，APNS 和 FCM 都會嘗試立即傳送訊息。如果失敗，則不會重新發送消息。
 
 1. 在 **[!UICONTROL Duration]** 欄位中，選取推播通知的有效性。
 

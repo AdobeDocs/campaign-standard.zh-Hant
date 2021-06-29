@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: in-app-messaging
 context-tags: delivery,inAppContent,back
-feature: In App
+feature: 應用程式內
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 7d06cf9c-06b6-4041-8360-4f6bdbd48dd3
+source-git-commit: 8e418be1fa880a4c23cbe4aa4e1a72fc4112b16b
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '977'
 ht-degree: 99%
 
 ---
-
 
 # 自訂應用程式內訊息{#customizing-an-in-app-message}
 
@@ -128,7 +127,7 @@ ht-degree: 99%
 1. 如果您選取的是 **[!UICONTROL Redirect]** 動作，請在 **[!UICONTROL Destination URL]** 欄位中輸入您的網頁 URL 或深層連結。
 1. 在預覽視窗中或按一下「預覽」按鈕，檢查您的訊息內容。
 
-   請參閱「[預覽應用程式內訊息](#previewing-the-in-app-message)」頁面。
+   請參閱「[預覽應用程式內訊息](../../channels/using/preparing-and-sending-an-in-app-message.md#previewing-the-in-app-message)」頁面。
 
    ![](assets/inapp_customize_11.png)
 
@@ -190,18 +189,3 @@ ht-degree: 99%
 ![](assets/inapp_customize_3.png)
 
 匯入 HTML 之後，您就可以在預覽視窗的不同裝置上找到檔案的預覽。
-
-## 預覽應用程式內訊息 {#previewing-the-in-app-message}
-
-在傳送應用程式內訊息之前，您可以使用測試設定檔進行測試，以檢查目標對象收到您的傳遞內容後會看到什麼內容。
-
-1. 按一下 **[!UICONTROL Preview]** 按鈕。
-
-   ![](assets/inapp_sending_2.png)
-
-1. 按一下 **[!UICONTROL Select a test profile]** 按鈕並選取其中一個測試設定檔，以開始預覽您的傳送。如需測試設定檔的詳細資訊，請參閱[本區段](../../audiences/using/managing-test-profiles.md)。
-1. 在不同的裝置（例如，Android、iPhone 手機或平板電腦）上檢查您的訊息。您也可以檢查個人化欄位是否會擷取正確的資料。
-
-   ![](assets/inapp_sending_3.png)
-
-1. 您現在可以傳送訊息，並透過傳送報告來評估其影響。如需報告的詳細資訊，請參閱[本區段](../../reporting/using/in-app-report.md)。

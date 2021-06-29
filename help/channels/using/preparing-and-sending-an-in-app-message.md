@@ -10,18 +10,14 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 feature: 應用程式內
 role: Business Practitioner
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-source-git-commit: 7272d2ca2b499069e00a3ded1cb6693147c64dfc
+source-git-commit: 8e418be1fa880a4c23cbe4aa4e1a72fc4112b16b
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1173'
 ht-degree: 98%
 
 ---
 
 # 準備和傳送應用程式內訊息{#preparing-and-sending-an-in-app-message}
-
->[!NOTE]
->
->應用程式內個人化需仰賴連結欄位，連結欄位通常是 CRM ID 和/或行動應用程式登入 ID。當您與 Adobe Campaign 搭配使用時，應自行負責保護此連結欄位。如果您無法確保連結欄位的安全，您的個人化訊息可能會很脆弱。如果您未遵守安全的連結欄位構成、管理和保護實務，Adobe 將不負責因未經授權存取或使用任何描述檔資料而造成的損害。
 
 Adobe Campaign 提供兩種類型的清單：
 
@@ -32,29 +28,15 @@ Adobe Campaign 提供兩種類型的清單：
 * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**：此訊息類型可讓您傳送訊息給行動應用程式的所有使用者（目前或未來），即使他們在 Adobe Campaign 中沒有現有的設定檔亦然。因此，當自訂訊息時，無法個人化，因為 Adobe Campaign 中可能甚至不存在使用者設定檔。
 * **[!UICONTROL Target users based on their Mobile profile (inApp)]**：此訊息類型可讓您鎖定在 Adobe Campaign 中具有行動設定檔的行動應用程式的所有已知或匿名使用者。此訊息類型僅能使用非個人和非敏感屬性進行個人化，而且不需要 Mobile SDK 與 Adobe Campaign 的應用程式內訊息服務之間的安全交握。
 
-   有關如何處理個人和敏感資料的詳細資訊，請參閱使用[個人和敏感資料處理行動設定檔欄位](#handling-mobile-profile-fields-with-personal-and-sensitive-data)。
+   有關如何處理個人和敏感資料的詳細資訊，請參閱使用[個人和敏感資料處理行動設定檔欄位](../../channels/using/about-in-app-messaging.md#handling-mobile-profile-fields-with-personal-and-sensitive-data)。
 
 ![](assets/diagram_inapp.png)
 
-## 使用個人和敏感資料處理行動設定檔欄位 {#handling-mobile-profile-fields-with-personal-and-sensitive-data}
-
-在 Adobe Campaign 中，由行動裝置傳送的行動設定檔屬性資料會儲存在 **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** 資源中，您可藉此定義要從應用程式訂閱者收集的資料。
-
-需要擴充此資源，才能收集您要從行動裝置傳送至 Adobe Campaign 的資料。要執行此操作，請參閱本[頁面](../../developing/using/extending-the-subscriptions-to-an-application-resource.md)以取得詳細步驟。
-
-為了提供更安全的應用程式內訊息個人化功能，您需要據此設定這項資源的行動設定檔欄位。在您的 **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** 中，建立新行動設定檔欄位時，請和取 **[!UICONTROL Personal and Sensitive]** 在應用程式內訊息個人化期間使用這些設定檔。
-
->[!NOTE]
->
->如果此表格上已有具有自訂資源擴充功能的現有實作，我們建議您在將欄位用於個人化應用程式內訊息之前，先適當地標籤欄位。
-
-![](assets/in_app_personal_data_2.png)
-
-在設定並發佈 **[!UICONTROL Subscriptions to an application]** 自訂資源後，您就可以開始使用 **[!UICONTROL Target users based on their Mobile profile (inApp)]** 範本準備應用程式內傳送內容。個人化 **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** 資源將僅提供非個人和非敏感欄位。
-
-若需使用 **Personal and Sensitive** 欄位來達到個人化目的，建議您使用 **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]** 範本，此範本提供額外的安全機制，能確保使用者的 PII 資料安全無虞。
-
 ## 準備應用程式內訊息 {#preparing-your-in-app-message}
+
+>[!CAUTION]
+>
+>應用程式內個人化需仰賴連結欄位，連結欄位通常是 CRM ID 和/或行動應用程式登入 ID。當您與 Adobe Campaign 搭配使用時，應自行負責保護此連結欄位。如果您無法確保連結欄位的安全，您的個人化訊息可能會很脆弱。如果您未遵守安全的連結欄位構成、管理和保護實務，Adobe 將不負責因未經授權存取或使用任何描述檔資料而造成的損害。
 
 使用 Adobe Campaign 建立獨立應用程式內訊息的步驟如下：
 
@@ -136,6 +118,21 @@ Adobe Campaign 提供兩種類型的清單：
 * [自訂應用程式內訊息](../../channels/using/customizing-an-in-app-message.md)
 * [應用程式內報告](../../reporting/using/in-app-report.md)
 * [在工作流程中傳送應用程式內訊息](../../automating/using/in-app-delivery.md)
+
+## 預覽應用程式內訊息 {#previewing-the-in-app-message}
+
+在傳送應用程式內訊息之前，您可以使用測試設定檔進行測試，以檢查目標對象收到您的傳遞內容後會看到什麼內容。
+
+1. 按一下 **[!UICONTROL Preview]** 按鈕。
+
+   ![](assets/inapp_sending_2.png)
+
+1. 按一下 **[!UICONTROL Select a test profile]** 按鈕並選取其中一個測試設定檔，以開始預覽您的傳送。如需測試設定檔的詳細資訊，請參閱[本區段](../../audiences/using/managing-test-profiles.md)。
+1. 在不同的裝置（例如，Android、iPhone 手機或平板電腦）上檢查您的訊息。您也可以檢查個人化欄位是否會擷取正確的資料。
+
+   ![](assets/inapp_sending_3.png)
+
+1. 您現在可以傳送訊息，並透過傳送報告來評估其影響。
 
 ## 傳送您的應用程式內訊息 {#sending-your-in-app-message}
 

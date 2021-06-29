@@ -6,10 +6,10 @@ user-guide-title: Campaign Standard
 user-guide-description: '說明中心，以瞭解使用 Campaign Standard 所需的主要功能、工作、設定和其他資源。 '
 title: Campaign Standard 指南
 breadcrumb-title: Adobe Campaign Standard 文件
-source-git-commit: 49b9e97c1eb53b99c8118e08e5ba1ca94bc59c65
-workflow-type: ht
-source-wordcount: '1788'
-ht-degree: 100%
+source-git-commit: 8e418be1fa880a4c23cbe4aa4e1a72fc4112b16b
+workflow-type: tm+mt
+source-wordcount: '1790'
+ht-degree: 99%
 
 ---
 
@@ -111,6 +111,7 @@ ht-degree: 100%
       + [關於應用程式內訊息傳送](channels/using/about-in-app-messaging.md)
       + [準備和傳送應用程式內訊息](channels/using/preparing-and-sending-an-in-app-message.md)
       + [自訂應用程式內訊息](channels/using/customizing-an-in-app-message.md)
+      + [應用程式內常見問題集](channels/using/in-app-faq.md)
    + 直接郵件 {#direct-mail}
       + [關於直接郵件](channels/using/about-direct-mail.md)
       + [退回至寄件者](channels/using/return-to-sender.md)

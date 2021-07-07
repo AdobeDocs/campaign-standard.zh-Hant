@@ -1,7 +1,7 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 協作使用 Campaign 與 Assets 核心服務
+title: 使用 Campaign 與 Assets 核心服務
 description: 透過Assets核心服務整合，在您的Adobe Campaign訊息和登陸頁面中使用Adobe Experience Cloud內共用的任何資源。
 audience: integrating
 content-type: reference
@@ -10,20 +10,22 @@ feature: 人員核心服務整合
 role: Data Architect
 level: Intermediate
 exl-id: 0ef8bbae-03a2-4369-bc57-a56302e0ab21
-source-git-commit: c101113e2180006b300611a0cbea1b0f9a70df70
+source-git-commit: e86cc930f9b6b3f3990f3b16b3d8fd2d19e126b7
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 9%
+source-wordcount: '192'
+ht-degree: 8%
 
 ---
 
-# 協作使用 Campaign 與 Assets 核心服務{#working-with-campaign-and-assets-core-service}
-
-將Assets核心服務或隨選資產(視您的Adobe Experience Cloud環境設定而定)與Adobe Campaign整合，可讓您在Adobe Campaign電子郵件和登錄頁面中，使用Adobe Experience Cloud內共用的任何資產。
+# 使用 Campaign 與 Assets 核心服務{#working-with-campaign-and-assets-core-service}
 
 >[!CAUTION]
 >
-> 與Assets核心服務的整合僅限於[功能管理員](../../administration/using/users-management.md#functional-administrators)。
+> Experience Cloud資產現在已終止服務。 若為新實作，您無法再將Experience Cloud資產與Adobe Campaign Standard整合。
+
+將Assets核心服務或隨選資產(視您的Adobe Experience Cloud環境設定而定)與Adobe Campaign整合，可讓您在Adobe Campaign電子郵件和登錄頁面中，使用Adobe Experience Cloud內共用的任何資產。
+
+與Assets核心服務的整合僅限於[功能管理員](../../administration/using/users-management.md#functional-administrators)。
 
 從Adobe Experience Cloud共用的資源可用於電子郵件和登錄頁面，如下所示：
 

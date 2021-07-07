@@ -10,10 +10,10 @@ feature: 概覽
 role: Business Practitioner
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-source-git-commit: a68adf4de790e30ab9dd1f79e5daeb7feb45c83b
+source-git-commit: e86cc930f9b6b3f3990f3b16b3d8fd2d19e126b7
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 80%
+source-wordcount: '773'
+ht-degree: 76%
 
 ---
 
@@ -32,13 +32,29 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
 >[發行說明](../../rn/using/release-notes.md)將列出 Adobe Campaign Standard 發行版本和新功能。
 
 
-## 已過時的功能 {#deprecated-features}
+## 已棄用功能 {#deprecated-features}
 
 本節列出最新 Campaign Standard 發行版本中已標示為過時的功能。
 
 通常，未來新發行版本預計移除的功能，將先設為過時並提供替代方案。新的 Campaign Standard 客戶將無法使用這些功能，或者這些功能將不用於任何新實施。產品文件亦將移除這些功能。
 
 建議客戶檢視是否在目前部署運用了過時的功能，並規劃實施變更的計畫以使用所提供的替代方案。請參閱目標移除版本，據此規劃您的環境和專案更新。
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> <strong>Experience Cloud資產整合</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p> 自2021年7月起，Assets現已成為舊版核心服務，並持續提供維護。 <a href="https://experienceleague.adobe.com/docs/core-services/interface/services/assets/experience-cloud-assets.html?lang=en">深入瞭解</a>。</p>
+   <p>若為新實作，您無法再將Experience Cloud資產與Adobe Campaign Standard整合。</p>
+     <em>目標移除日期：2022 年</em></p>
+     </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 <table> 
  <thead> 
@@ -118,7 +134,7 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
  <tbody> 
   <tr> 
    <td> <p> 從2021年4月起，預測性主旨行功能已停止支援。</p><br/>
-   <p>建議您運用AI支援的電子郵件功能，根據歷史參與量度來分析和預測開放率、最佳傳送時間和可能的流失率。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html">瞭解更多</a></p></br>
+   <p>建議您運用AI支援的電子郵件功能，根據歷史參與量度來分析和預測開放率、最佳傳送時間和可能的流失率。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html">深入瞭解</a></p></br>
      </td> 
   </tr> 
   </tbody> 
@@ -153,7 +169,7 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
  </tbody> 
 </table>
 
-## 相容性終止{#end-of-compatibility}
+## 相容性終止 {#end-of-compatibility}
 
 <table> 
  <thead> 

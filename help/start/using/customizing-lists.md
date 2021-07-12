@@ -2,61 +2,60 @@
 solution: Campaign Standard
 product: campaign
 title: 自訂清單
-description: 「瞭解如何自訂顯示並在Adobe Campaign Standard的清單畫面上動作：排序、篩選、刪除或複製元素。 清單畫面會顯示一或多個特定資源的元素。」
+description: 「了解如何自訂顯示以及在Adobe Campaign Standard中的清單畫面上操作：排序、篩選、刪除或複製元素。 列出螢幕，顯示一或多個指定資源的元素。」
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-feature: Campaigns
-role: Business Practitioner
+feature: 行銷活動
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 651a53b4-e02f-4963-99e6-2e2c324b1c8c
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '394'
 ht-degree: 1%
 
 ---
 
-
 # 自訂清單{#customizing-lists}
 
-**列** 表螢幕允許您顯示一個或多個給定資源的元素。
+**** 清單畫面可讓您顯示一或多個指定資源的元素。
 
-Adobe Campaign有兩種類型的清單：
+Adobe Campaign有兩種清單：
 
-* **omunique**&#x200B;清單，即包含單一類型的資源時。 例如，描述檔清單只包含描述檔。
-* **異構**&#x200B;清單，當它包含幾種資源時。 例如，行銷活動清單包含著陸頁面、工作流程、電子郵件、簡訊等。
+* **齊次**&#x200B;清單，即它包含單一類型的資源時。 例如，設定檔清單僅包含設定檔。
+* **異構**&#x200B;清單，即它包含多種類型的資源時。 例如，行銷活動清單包含登錄頁面、工作流程、電子郵件、簡訊等。
 
-清單以列顯示。 每個欄可依遞增或遞減順序一次排序。
+清單會以欄顯示。 每欄可一次依遞增或遞減順序排序。
 
-清單中的元素有一個複選框，允許您選擇這些元素。 只要選取一或多個元素，您就可執行數個動作，例如編輯、複製和刪除這些元素。
+清單中的元素有一個可讓您選取的核取方塊。 選取一或多個元素，即可執行數個動作，例如編輯、複製和刪除這些元素。
 
-將滑鼠指標暫留在清單中的元素上時，**快速動作**。 這些動作可讓使用者對暫留的元素執行各種動作，例如編輯、選取、刪除或顯示詳細資訊。
+將滑鼠游標暫留在清單中的元素上時，**快速動作**。 這些動作可讓使用者對暫留的元素執行各種動作，例如編輯、選取、刪除或顯示詳細資料。
 
 ![](assets/overview_list_quickactions.png)
 
 您也可以設定是否顯示清單中的欄。 要添加或刪除列：
 
-1. 確定螢幕處於&#x200B;**List**&#x200B;模式。
+1. 請確定畫面處於&#x200B;**List**&#x200B;模式。
 
    ![](assets/export_list_mode_switch.png)
 
-1. 選擇操作欄中的![](assets/columnsettings.png)按鈕，轉到清單配置窗口。
+1. 通過選擇操作欄中的![](assets/columnsettings.png)按鈕，轉到清單配置窗口。
 
    ![](assets/list_configuration1.png)
 
-1. 新增您要納入清單的欄。 若要這麼做，請從視窗左側選取欄，然後使用動作列的![](assets/arrowright.png)按鈕來新增欄。
+1. 新增您要納入清單的欄。 要執行此操作，請從窗口的左側選擇一列，然後使用操作欄中的![](assets/arrowright.png)按鈕添加一列。
 
    可選列對應於清單資源。
 
-   對於每個新增的欄，指定是否依預設套用排序：
+   針對新增的每欄，指定是否依預設套用排序：
 
-   * **[!UICONTROL NO]**:欄上沒有排序
-   * **[!UICONTROL ASC]**:對列應用升序（上升）排序
-   * **[!UICONTROL DESC]**:對列應用降序（拒絕）排序。
+   * **[!UICONTROL NO]**:對列不排序
+   * **[!UICONTROL ASC]**:對欄套用遞增（上升）排序
+   * **[!UICONTROL DESC]**:對欄套用降序（遞減）排序。
 
-1. 通過選中與要刪除的列對應的框來刪除不想顯示的列。 然後，使用動作列的![](assets/delete.png)按鈕確認刪除。
-1. 一旦您的清單包含正確的欄，您就可以勾選您要移動的欄，以變更這些欄在清單中的顯示順序。 然後，使用![](assets/arrowdown.png)和![](assets/arrowup.png)箭頭。
-1. 選擇&#x200B;**[!UICONTROL OK]**&#x200B;以確認您的清單配置。
+1. 勾選與要刪除的欄相對應的方塊，以刪除您不想顯示的欄。 然後，使用動作列中的![](assets/delete.png)按鈕確認刪除。
+1. 一旦清單包含正確的欄，您就可以檢查您要移動的欄，以變更清單中這些欄的顯示順序。 然後，使用![](assets/arrowdown.png)和![](assets/arrowup.png)箭頭。
+1. 選擇&#x200B;**[!UICONTROL OK]**&#x200B;以確認清單配置。
 
-您的清單現在會顯示為您已設定的清單。
+您的清單現在會依您設定的方式顯示。

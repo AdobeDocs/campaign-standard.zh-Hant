@@ -2,32 +2,31 @@
 solution: Campaign Standard
 product: campaign
 title: 測試異動訊息
-description: 瞭解如何在Adobe Campaign測試交易訊息。
+description: 了解如何在Adobe Campaign中測試交易式訊息。
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transactional Messaging
-role: Business Practitioner
+feature: 異動訊息傳送
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 5138826d-ae08-403b-91ef-91027ef6e78e
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 39%
+source-wordcount: '280'
+ht-degree: 40%
 
 ---
 
+# 測試異動訊息 {#testing-a-transactional-message}
 
-# 測試交易式訊息 {#testing-a-transactional-message}
+發佈交易式訊息之前，您可以建立特定測試設定檔，讓您正確檢查訊息。
 
-在發佈交易訊息之前，您可以建立特定測試設定檔，讓您正確檢查訊息。
+## 定義特定測試設定檔 {#defining-specific-test-profile}
 
-## 定義特定測試配置檔案{#defining-specific-test-profile}
+定義將連結至您事件的測試設定檔，以便您預覽訊息並傳送相關校樣。
 
-定義將連結至您事件的測試設定檔，讓您預覽訊息並傳送相關證明。
-
-1. 在[事務性消息儀表板](../../channels/using/editing-transactional-message.md#accessing-transactional-messages)中，按一下&#x200B;**[!UICONTROL Create test profile]**&#x200B;按鈕。
+1. 在[交易式訊息控制面板](../../channels/using/editing-transactional-message.md#accessing-transactional-messages)中，按一下&#x200B;**[!UICONTROL Create test profile]**&#x200B;按鈕。
 
    ![](assets/message-center_test-profile.png)
 
@@ -37,9 +36,9 @@ ht-degree: 39%
 
    >[!NOTE]
    >
-   >如果您豐富了消息，還可以輸入與其它表相關的資訊，如&#x200B;**[!UICONTROL Profile]**。 請參閱[豐富事件](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)和[個人化事務性消息](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message)。
+   >如果您擴充了訊息，您也可以輸入與其他表格相關的資訊，例如&#x200B;**[!UICONTROL Profile]**。 請參閱[豐富事件](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)和[個人化交易式訊息](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message)。
 
-1. 建立後，測試描述檔將預先指定在交易訊息中。 按一下訊息的 **[!UICONTROL Test profiles]** 區塊以檢查您的校樣目標。
+1. 建立後，會在交易式訊息中預先指定測試設定檔。 按一下訊息的 **[!UICONTROL Test profiles]** 區塊以檢查您的校樣目標。
 
    ![](assets/message-center_5.png)
 
@@ -57,12 +56,12 @@ ht-degree: 39%
 **相關主題：**
 
 * [管理測試設定檔](../../audiences/using/managing-test-profiles.md)
-* [建立閱聽眾](../../audiences/using/creating-audiences.md)
+* [建立對象](../../audiences/using/creating-audiences.md)
 
-## 傳送證明{#sending-proof}
+## 傳送校樣 {#sending-proof}
 
-建立一或多個特定測試設定檔並儲存交易訊息後，您就可以傳送測試證明。
+建立一或多個特定測試設定檔並儲存交易式訊息後，您就可以傳送校樣來測試它。
 
 ![](assets/message-center_10.png)
 
-傳送校樣的步驟詳見[傳送校樣](../../sending/using/sending-proofs.md)一節。
+在[傳送校樣](../../sending/using/sending-proofs.md)區段中會詳細說明傳送校樣的步驟。

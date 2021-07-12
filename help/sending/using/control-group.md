@@ -7,17 +7,16 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,query,segmentation,delivery
-feature: Control Groups
-role: Business Practitioner
+feature: 控制組
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 553897d4-2652-453f-960e-bb2993889f37
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1337'
-ht-degree: 99%
+source-wordcount: '1334'
+ht-degree: 100%
 
 ---
-
 
 # 新增控制組 {#adding-control-group}
 
@@ -29,7 +28,7 @@ ht-degree: 99%
 
 <!--The control group is built when the delivery is prepared.-->
 
-## 概觀 {#overview}
+## 概覽 {#overview}
 
 可以從主要目標隨機擷取控制組和/或從特定人口中選取。因此，定義控制組的主要方法有兩種：
 * 從主要目標&#x200B;**擷取**&#x200B;多個設定檔。

@@ -7,21 +7,20 @@ audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
 context-tags: typology,overview;typologyRule,main;typologyRule,overview
-feature: Typology Rules
-role: Business Practitioner
+feature: 態樣規則
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 5ef66b1b-1c81-42fb-a18c-fcf7f21e1ff7
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '554'
 ht-degree: 96%
 
 ---
 
-
 # 管理類型規則 {#managing-typology-rules}
 
-## 關於類型規則 {#about-typology-rules}
+## 關於類型學規則 {#about-typology-rules}
 
 類型規則是商業規則，可讓您在傳送訊息前先對訊息執行檢查和篩選。類型規則的可用類型為：
 
@@ -70,7 +69,7 @@ ht-degree: 96%
 1. 控制規則（如果這些規則是在定位開始時套用）。
 1. 篩選規則：
 
-   * 地址限定的原生應用程式規則：已定義地址／未驗證地址／拒絕清單上的地址／隔離地址／地址質量。
+   * 地址限定的本機應用規則：封鎖清單/隔離位址/位址品質上已定義的位址/未驗證的位址/位址。
    * 篩選由使用者定義的規則。
 
 1. 控制規則（如果這些規則是在定位結束時套用）。

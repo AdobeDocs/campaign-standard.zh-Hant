@@ -7,17 +7,16 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 context-tags: marketingHistory,main
-feature: Profiles
-role: Business Practitioner
+feature: 設定檔
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: cf3c6408-7fa0-423a-b34b-f4fee771fb47
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '282'
 ht-degree: 48%
 
 ---
-
 
 # 整合式客戶設定檔{#integrated-customer-profile}
 
@@ -25,20 +24,20 @@ ht-degree: 48%
 
 若要存取整合式客戶設定檔，請執行以下步驟：
 
-1. 在Adobe Campaign首頁中，按一下&#x200B;**[!UICONTROL Customer profiles]**&#x200B;卡或&#x200B;**配置檔案**&#x200B;頁籤以顯示配置檔案清單。
+1. 從Adobe Campaign首頁，按一下&#x200B;**[!UICONTROL Customer profiles]**&#x200B;卡片或&#x200B;**Profiles**&#x200B;標籤以顯示設定檔清單。
 
-1. 若要根據特定欄位來搜尋描述檔，請開啟搜尋窗格，然後選取您要執行搜尋的欄位。
+1. 要根據特定欄位搜索配置檔案，請開啟搜索窗格，然後選擇要在其上執行搜索的欄位。
 
 
    ![](assets/profile-search.png)
 
-1. 指定您要搜尋的值，然後按Enter。
+1. 指定要搜索的值，然後按Enter鍵。
 
    >[!NOTE]
    >
-   >請注意，搜尋可根據電子郵件、名字和姓氏欄位，以及擴充資源時新增的自訂欄位來執行。
+   >請注意，搜尋可以根據電子郵件、名字和姓氏欄位，以及擴充資源時已新增的自訂欄位來執行。
    >
-   >搜索區分大小寫，僅對前置詞執行。 例如，您將無法使用姓氏的最後字母來尋找描述檔。
+   >搜尋區分大小寫，且僅對字首執行。 例如，您將無法使用其姓氏的最後字母來尋找設定檔。
 
 1. 選擇聯繫人以開啟其配置檔案。
 
@@ -48,7 +47,7 @@ ht-degree: 48%
 
 此頁面會收集關於設定檔的重要資訊及事件清單。
 
-按一下清單中的事件以開啟它：您可以訪問已發送的消息或配置檔案已訂閱的服務。
+按一下清單中的事件以開啟：您可以存取已傳送的訊息或設定檔已訂閱的服務。
 
 ![](assets/mkt_hist_view.png)
 

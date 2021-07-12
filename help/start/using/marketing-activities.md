@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: marketing-plans
 context-tags: activity,overview
 feature: 行銷活動
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: c75471aa-b947-4488-a569-5412d3825c64
-source-git-commit: 6ca6fabc42f63791f4c2b0f1d2d6bd8ea5e27f7a
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 82%
@@ -50,7 +50,7 @@ ht-degree: 82%
 * ![](assets/marketing_sms_icon.png) SMS
 * ![](assets/marketing_push_icon.png) 推播通知
 * ![](assets/marketing_lp_icon.png) 應用程式內訊息
-* ![](assets/marketing_lp_icon.png) 著陸頁面
+* ![](assets/marketing_lp_icon.png) 登陸頁面
 * ![](assets/marketing_workflow_icon.png) 工作流程
 
 根據其有效期和狀態，與此圖示關聯的顏色指示相應活動的執行狀態。
@@ -83,15 +83,15 @@ ht-degree: 82%
 
 根據情境，您可以：
 
-* 建立電子郵件- [瞭解詳細內容](../../channels/using/creating-an-email.md)
-* 建立SMS - [瞭解詳細內容](../../channels/using/creating-an-sms-message.md)
-* 建立推播通知- [瞭解詳細內容](../../channels/using/preparing-and-sending-a-push-notification.md)
-* 建立應用程式內訊息- [瞭解詳細內容](../../channels/using/about-in-app-messaging.md)
-* 建立工作流程- [瞭解詳細內容](../../automating/using/building-a-workflow.md#creating-a-workflow)
-* 建立著陸頁面- [瞭解詳細內容](../../channels/using/getting-started-with-landing-pages.md)
-* 建立促銷活動- [瞭解詳細內容](../../start/using/programs-and-campaigns.md#creating-a-campaign)
-* 建立程式- [瞭解詳情](../../start/using/programs-and-campaigns.md#creating-a-program)
+* 建立電子郵件 — [了解更多](../../channels/using/creating-an-email.md)
+* 建立SMS - [深入了解](../../channels/using/creating-an-sms-message.md)
+* 建立推播通知 — [了解更多](../../channels/using/preparing-and-sending-a-push-notification.md)
+* 建立應用程式內訊息 — [深入了解](../../channels/using/about-in-app-messaging.md)
+* 建立工作流程 — [了解更多](../../automating/using/building-a-workflow.md#creating-a-workflow)
+* 建立登錄頁面 — [深入了解](../../channels/using/getting-started-with-landing-pages.md)
+* 建立促銷活動 — [了解更多](../../start/using/programs-and-campaigns.md#creating-a-campaign)
+* 建立程式 — [了解更多](../../start/using/programs-and-campaigns.md#creating-a-program)
 
 >[!NOTE]
 >
->您也可以從行銷活動清單建立行銷活動。在這種情況下，您可以建立任何類型的活動，並選擇透過活動屬性將行銷活動連結至父促銷活動（或建立方案時連結至父方案）。
+>您也可以從行銷活動清單建立行銷活動。在此情況下，您可以建立任何類型的活動，並選擇透過活動的屬性將行銷活動連結至父促銷活動（或如果您建立方案，則連結至父方案）。

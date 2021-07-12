@@ -6,19 +6,18 @@ description: 瞭解如何測試和發佈 Adobe Campaign 中的登錄頁面。
 audience: channels
 content-type: reference
 topic-tags: landing-pages
-feature: Landing Pages
-role: Business Practitioner
+feature: 登陸頁面
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: af849377-686f-45b3-bf6e-5069a8966987
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 99%
+source-wordcount: '385'
+ht-degree: 100%
 
 ---
 
-
-# 測試和發佈登錄頁面{#testing-publishing--landing-page}
+# 測試和發佈登陸頁面{#testing-publishing--landing-page}
 
 ## 關於登錄頁面範本 {#about-landing-page-publication}
 

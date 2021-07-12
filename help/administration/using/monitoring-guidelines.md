@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: introduction
 index: y
 feature: 存取管理
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 5f25f2b2-ca41-4baf-ade2-42bbafb4790d
-source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 20%
@@ -28,7 +28,7 @@ ht-degree: 20%
 
 Campaign Standard提供數種監控執行個體的方式，以確保您的系統運作正常，並最終疑難排解在設定工作流程、傳送傳遞等作業時可能發生的問題。
 
-## 監視系統{#monitoring-system}
+## 監控系統 {#monitoring-system}
 
 <img src="assets/do-not-localize/icon_system.svg" width="60px">
 
@@ -47,7 +47,7 @@ Campaign Standard介面提供通知窗格，可讓您隨時了解系統中發生
 
 >[!NOTE]
 >
->所有管理員使用者都可存取控制面板。 授予使用者管理員存取權限的步驟已詳載於[本頁](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hant#discover-control-panel)中。
+>所有管理員使用者都可存取控制面板。 授予使用者管理員存取權限的步驟已詳載於[本頁](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel)中。
 
 **技術物件**
 
@@ -82,7 +82,7 @@ Campaign Standard介面提供通知窗格，可讓您隨時了解系統中發生
 Campaign Standard可讓您傳送通知給主管，以監控工作流程的執行，並查看是否有任何需要您注意的錯誤。
 [顯示全文](../../automating/using/monitoring-workflow-execution.md#error-management)
 
-## 監視傳遞{#monitoring-deliveries}
+## 監視傳遞 {#monitoring-deliveries}
 
 <img src="assets/do-not-localize/icon_send.svg" width="60px">
 

@@ -2,42 +2,41 @@
 solution: Campaign Standard
 product: campaign
 title: 異動訊息生命週期
-description: 瞭解如何發佈、暫停、取消發佈和刪除交易式訊息。
+description: 了解如何發佈、暫停、取消發佈和刪除交易式訊息。
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transactional Messaging
-role: Business Practitioner
+feature: 異動訊息傳送
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 12fe13c2-899d-4c85-8381-ba812ff26f54
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 75%
+source-wordcount: '653'
+ht-degree: 76%
 
 ---
 
-
 # 異動訊息生命週期 {#publishing-transactional-message}
 
-當[事務性消息](../../channels/using/editing-transactional-message.md)準備好發送時，可以發佈該消息。
+當[交易式訊息](../../channels/using/editing-transactional-message.md)準備好傳送時，即可發佈。
 
-發佈、暫停、取消發佈和刪除交易性訊息的步驟如下。
+發佈、暫停、取消發佈和刪除交易式訊息的步驟如下所述。
 
 >[!IMPORTANT]
 >
->只有[Administration](../../administration/using/users-management.md#functional-administrators)角色的用戶才能訪問和發佈事務性消息。
+>只有具有[Administration](../../administration/using/users-management.md#functional-administrators)角色的使用者才能存取和發佈交易式訊息。
 
 ## 交易式訊息發佈程序 {#transactional-messaging-pub-process}
 
-下圖說明了整個事務性消息傳遞發佈流程。
+下圖說明了整體交易式訊息發佈程式。
 
 ![](assets/message-center_pub-process.png)
 
 **相關主題：**
 * [發佈交易式訊息](#publishing-a-transactional-message)
-* [暫停交易訊息](#suspending-a-transactional-message-publication)
+* [暫停交易式訊息](#suspending-a-transactional-message-publication)
 * [取消發佈交易式訊息](#unpublishing-a-transactional-message)
 * [發佈事件](../../channels/using/publishing-transactional-event.md)
 
@@ -91,13 +90,13 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 ## 發佈交易式訊息 {#publishing-a-transactional-message}
 
-編輯並測試您的交易訊息後，您就可以發佈它。 只需按一下&#x200B;**[!UICONTROL Publish]**&#x200B;按鈕。
+編輯並測試交易式訊息後，即可發佈。 只需按一下&#x200B;**[!UICONTROL Publish]**&#x200B;按鈕。
 
 ![](assets/message-center_12.png)
 
 現在，觸發「購物車放棄率」事件之後，則會自動提示訊息，其中包含收件者的職務及姓氏、購物車 URL、上次諮詢的產品或產品清單（如果您已定義產品清單），以及要傳送的購物車總金額。
 
-若要存取關於交易式訊息的報告，請使用 **[!UICONTROL Reports]** 按鈕。請參閱[動態報表](../../reporting/using/about-dynamic-reports.md)。
+若要存取關於交易式訊息的報告，請使用 **[!UICONTROL Reports]** 按鈕。請參閱[動態報告](../../reporting/using/about-dynamic-reports.md)。
 
 ![](assets/message-center_13.png)
 
@@ -110,7 +109,7 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 您可以使用　**[!UICONTROL Pause]**　按鈕以暫停發佈交易式訊息，例如，修改訊息中所包含的資料。因此，系統將不會再處理這些事件，而會將之保留在 Adobe Campaign 資料庫的佇列中。
 
-佇列的事件會在REST API中定義的時段內保留（請參閱[REST API檔案](../../api/using/managing-transactional-messages.md)），或在使用「觸發器」核心服務時的觸發器事件(請參閱[關於Adobe Experience Cloud Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md))。
+在REST API中定義的時段期間，會保留佇列的事件（請參閱[REST API檔案](../../api/using/managing-transactional-messages.md)），或是保留在觸發事件中（如果您使用的是Triggers核心服務）(請參閱[關於Adobe Experience Cloud Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md))。
 
 ![](assets/message-center_pause.png)
 

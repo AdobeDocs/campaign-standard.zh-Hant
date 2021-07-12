@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: configuring-channels
 context-tags: extAccountMobile,overview;extAccount,main;delivery,smsContent,back
 feature: 執行個體設定
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
-source-git-commit: b564ecce0fab3ebcc1afb02fd2cae3f7eafd025e
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '1567'
 ht-degree: 95%
@@ -322,7 +322,7 @@ CR：歸位
 
 如需詳細資訊，請參閱[本區段](../../channels/using/managing-incoming-sms.md)。
 
-## 設定 SMS 屬性{#configuring-sms-properties}
+## 設定 SMS 屬性 {#configuring-sms-properties}
 
 本節詳細說明 SMS 傳送或 SMS 範本屬性畫面中 SMS 專屬的參數清單。
 

@@ -1,29 +1,29 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 開始使用通訊管道
+title: 開始使用通訊頻道
 description: 就各種通道建立個人化訊息，使用範本、建立登陸頁面並檢查最佳作法。
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 feature: 概覽
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 4ea5b0eb-35da-4db6-a529-ba636be7825f
-source-git-commit: 7272d2ca2b499069e00a3ded1cb6693147c64dfc
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 23%
 
 ---
 
-# 開始使用通訊管道 {#discovering-communication-channels}
+# 開始使用通訊頻道 {#discovering-communication-channels}
 
 <table>
 <tr>
 <td><img src="assets/do-not-localize/icon_concepts.svg" width="60px"><p><a href="#global-concepts">全域概念</a></p></td>
-<td><img src="assets/do-not-localize/icon_channels.svg" width="60px"><p><a href="#available-communication-channels">通訊通道</a></p></td>
-<td><img src="assets/do-not-localize/icon_transactional.svg" width="60px"><p><a href="#transactional-messages">交易式訊息</a></p></td>
+<td><img src="assets/do-not-localize/icon_channels.svg" width="60px"><p><a href="#available-communication-channels">通訊頻道</a></p></td>
+<td><img src="assets/do-not-localize/icon_transactional.svg" width="60px"><p><a href="#transactional-messages">異動訊息</a></p></td>
 <td><img src="assets/do-not-localize/icon_landing.svg" width="60px"><p><a href="#landing-pages">登錄頁面</a></p></td></tr>
 </table>
 
@@ -40,13 +40,13 @@ Adobe Campaign可讓您啟動、測量及自動化每個管道的行銷活動。
 
 顯示全文:
 
-* [傳送訊息的關鍵步驟](../../channels/using/key-steps-to-send-a-message.md)
+* [傳送訊息的重要步驟](../../channels/using/key-steps-to-send-a-message.md)
 * [存取訊息](../../channels/using/accessing-messages.md)
 * [訊息儀表板](../../channels/using/message-dashboard.md)
 * [多語言訊息範本](../../channels/using/multilingual-messages-template.md)
 * [行銷活動範本](../../start/using/marketing-activity-templates.md)
 
-## 通訊通道 {#available-communication-channels}
+## 通訊頻道 {#available-communication-channels}
 
 <img src="assets/do-not-localize/icon_channels.svg"  width="60px">
 
@@ -79,10 +79,10 @@ Adobe Campaign可讓您啟動、測量及自動化每個管道的行銷活動。
 * [發佈異動事件](../../channels/using/publishing-transactional-event.md)
 * [編輯異動訊息](../../channels/using/editing-transactional-message.md)
 * [發佈交易式訊息](../../channels/using/publishing-transactional-message.md)
-* [異動推播通知](../../channels/using/transactional-push-notifications.md)
-* [後續訊息](../../channels/using/follow-up-messages.md)
+* [異動推送通知](../../channels/using/transactional-push-notifications.md)
+* [後續追蹤訊息](../../channels/using/follow-up-messages.md)
 
-## 登陸頁面 {#landing-pages}
+## 登錄頁面 {#landing-pages}
 
 <img src="assets/do-not-localize/icon_landing.svg" width="60px">
 
@@ -92,10 +92,10 @@ Campaign隨附著登錄頁面，這些網頁表單可用於&#x200B;**擷取對�
 
 顯示全文:
 
-* [登錄頁面快速入門](../../channels/using/getting-started-with-landing-pages.md)
+* [登陸頁面快速入門](../../channels/using/getting-started-with-landing-pages.md)
 * [登錄頁面範本](../../channels/using/landing-page-templates.md)
-* [管理登錄頁面表單資料](../../channels/using/managing-landing-page-form-data.md)
-* [設定雙重加入程序](../../channels/using/setting-up-a-double-opt-in-process.md)
+* [管理登陸頁面表單資料](../../channels/using/managing-landing-page-form-data.md)
+* [設定雙重選擇加入流程](../../channels/using/setting-up-a-double-opt-in-process.md)
 
 ## 其他資源
 

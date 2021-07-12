@@ -8,18 +8,17 @@ content-type: reference
 topic-tags: editing-sms-and-push-content
 context-tags: delivery,smsContent,back
 feature: SMS
-role: Business Practitioner
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 1c918d20-b549-424f-a97c-3895b4e1b3b2
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 98%
+source-wordcount: '166'
+ht-degree: 100%
 
 ---
 
-
-# 關於 SMS 和推播內容設計{#about-sms-and-push-content-design}
+# 關於簡訊和推送內容設計{#about-sms-and-push-content-design}
 
 使用內容編輯器，在 Adobe Campaign 中定義、修改及個人化您的 SMS 訊息和推播通知內容。
 
@@ -42,5 +41,5 @@ ht-degree: 98%
 
 **相關主題：**
 
-* [建立 SMS 訊息](../../channels/using/creating-an-sms-message.md)
+* [建立簡訊訊息](../../channels/using/creating-an-sms-message.md)
 * [準備和傳送推播通知](../../channels/using/preparing-and-sending-a-push-notification.md)

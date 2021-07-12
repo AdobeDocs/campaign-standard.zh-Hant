@@ -7,10 +7,10 @@ audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
 feature: 效能監控
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: fac29bc2-57fa-40f9-a160-cd75f695b91e
-source-git-commit: 8a62ee661b77c3e3062e46477bfce5911e9415ff
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 24%
@@ -19,7 +19,7 @@ ht-degree: 24%
 
 # 追蹤訊息{#tracking-messages}
 
-## 關於追蹤{#about-tracking}
+## 關於追蹤 {#about-tracking}
 
 有了Adobe Campaign的追蹤功能，您便能追蹤傳送收件者的行為。 Adobe Campaign 透過工作階段 Cookie 和永久性 Cookie 實現上述功能。
 
@@ -61,7 +61,7 @@ Adobe Campaign 使用兩種類型的 Cookie：
 </tr>
 </table>
 
-## 追蹤記錄{#tracking-logs}
+## 追蹤記錄 {#tracking-logs}
 
 **[!UICONTROL Tracking logs]**&#x200B;索引標籤會列出此傳送的追蹤歷史記錄。 此索引標籤會顯示已傳送訊息的追蹤資訊，例如Adobe Campaign已追蹤的所有URL。 此標籤中的追蹤資訊每10分鐘更新一次。
 

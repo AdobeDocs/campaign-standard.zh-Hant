@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 feature: 概覽
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
-source-git-commit: df86191b2941a6121a52b2255e19f8b623b64be6
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '5298'
 ht-degree: 98%
@@ -191,7 +191,7 @@ ht-degree: 98%
 
 
 
-## 版本 20.3 - 2020 年 5 月{#release-20-3---may-2020}
+## 版本 20.3 – 2020 年 5 月 {#release-20-3---may-2020}
 
 **新增功能？**
 
@@ -380,15 +380,15 @@ ht-degree: 98%
 * 修正執行具有數個入站轉變的活動時，工作流程中可能發生的問題。
 * 修正標準使用者無法在工作流程查詢或傳送中將「訂閱應用程式」作為目標維度的問題。(CAMP-37618)
 
-## 版本 20.1.4 - 2020 年 2 月 {#release-20-1-4---february-2020}
+## 版本 20.1.4 – 2020 年 2 月 {#release-20-1-4---february-2020}
 
 * 修正在現有工作流程中開啟&#x200B;**讀取對象**&#x200B;活動的問題。(CAMP-41002)
 
-## 版本 20.1.3 - 2020 年 2 月 {#release-20-1-3---february-2020}
+## 版本 20.1.3 – 2020 年 2 月 {#release-20-1-3---february-2020}
 
 * 修正 CAMP-39273 在 20.1 中針對使用漏洞之客戶所引進的回歸問題。已反轉 CAMP-39273。
 
-## 版本 20.1.2 - 2020 年 2 月 {#release-20-1-2---february-2020}
+## 版本 20.1.2 – 2020 年 2 月 {#release-20-1-2---february-2020}
 
 **電子郵件設計工具增強功能**
 

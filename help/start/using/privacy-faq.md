@@ -9,23 +9,22 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
-feature: Privacy
-role: Business Practitioner
+feature: 隱私權
+role: User
 level: Intermediate
 exl-id: 8f8ce032-5cff-44d3-9d3b-52511dbcaaab
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '814'
 ht-degree: 100%
 
 ---
 
-# 隱私權常見問答集{#privacy-faq}
+# 隱私權常見問答集 {#privacy-faq}
 
 以下是使用 Adobe Campaign 時，有關隱私權與同意的常見問答集。
 
-## 主要條款{#key-terms}
+## 主要條款 {#key-terms}
 
 **隱私權的主要條款為何？**
 
@@ -36,7 +35,7 @@ ht-degree: 100%
 * [存取權限與被遺忘的權利](../../start/using/privacy-management.md#right-access-forgotten)
 * [同意、保留和角色](../../start/using/privacy-management.md#consent-retention-roles)
 
-## 隱私權法規準備{#privacy-regulations-readiness}
+## 隱私權法規準備 {#privacy-regulations-readiness}
 
 **Adobe Campaign 對遵守最新的隱私權法規有何建議？**
 
@@ -72,7 +71,7 @@ Adobe 不提供法律建議。您應該與自己的法律顧問合作，確保�
 
 * 確保 Adobe Campaign 的每位使用者都擁有執行其所需工作的適當存取權，但沒有執行其他工作的任何其他權利。
 
-## 保留使用者參與{#preserve-user-engagement}
+## 保留使用者參與 {#preserve-user-engagement}
 
 **資料控制方如何在對使用者參與影響最小的情況下獲得同意？**
 
@@ -82,7 +81,7 @@ Adobe 不提供法律建議。您應該與自己的法律顧問合作，確保�
 
 行銷人員不會將這些增強的同意要求視為對有價市場的風險，而是可以將它們視為品牌參與度和忠誠度以及客戶滿意度和信任的真正指標。
 
-## 管理同意{#manage-consent}
+## 管理同意 {#manage-consent}
 
 **資料控制方如何在 Adobe Campaign 中管理同意？**
 
@@ -92,7 +91,7 @@ Adobe 不提供法律建議。您應該與自己的法律顧問合作，確保�
 
 例如，將 Adobe Campaign 中的資料模型擴充為不僅在人們選擇加入時追蹤，還可追蹤選擇加入的時間標記，以及擷取精確同意範圍的某類指標。
 
-## 資料刪除{#data-deletion}
+## 資料刪除 {#data-deletion}
 
 **Adobe Campaign 中的資料控制方可以根據資料主體的客戶請求刪除哪些資料？**
 
@@ -106,13 +105,13 @@ Adobe 不提供法律建議。您應該與自己的法律顧問合作，確保�
 
 Adobe Campaign 中的報告是以根據來自傳送和追蹤記錄彙總資料計算的指標為基礎。因此，移除個別記錄檔時，不應該影響報告上顯示的度量。
 
-## 重新匯入資料{#re-import-data}
+## 重新匯入資料 {#re-import-data}
 
 **通常在 Adobe Campaign 中，記錄會從外部資料來源上傳。我是否需要留意稍後可能重新匯入資料？**
 
 作為資料控制方，您需要確保在收到刪除請求時，從所有系統刪除資料主體的所有必要資料。
 
-## 再次選擇加入{#opt-in-again}
+## 再次選擇加入 {#opt-in-again}
 
 **資料主體（其資料已從 Adobe Campaign 中清除）可以稍後再次選擇加入嗎？**
 

@@ -7,26 +7,25 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
-feature: Landing Pages
-role: Business Practitioner
+feature: 登陸頁面
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 29d1badf-9ce3-470c-9bdc-169586d2e943
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 93%
+source-wordcount: '234'
+ht-degree: 94%
 
 ---
 
-
-# 關於登錄頁面範本 {#landing-page-templates}
+# 關於登陸頁面範本 {#landing-page-templates}
 
 Campaign 隨附一組內建的登錄頁面範本：
 
 * **[!UICONTROL Acquisition]**：這是登錄頁面的預設範本，可讓您擷取和更新 Campaign 資料庫中的資料。
 * **[!UICONTROL Subscription]**：此範本應用於提供服務的訂閱。
 * **[!UICONTROL Unsubscription]**：此範本可從寄送給訂閱者的電子郵件連結至服務，讓他們得以取消訂閱此服務。
-* **[!UICONTROL Denylist]**：此範本應在設定檔不想再由 Campaign 聯絡時使用。如需登入清單管理的詳細資訊，請參閱[關於促銷活動中的選擇加入和選擇退出。](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* **[!UICONTROL Denylist]**：此範本應在設定檔不想再由 Campaign 聯絡時使用。如需封鎖清單管理的詳細資訊，請參閱[關於Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)中的選擇加入和選擇退出。
 
 這些範本在建立新登錄頁面時，預設會建議使用。
 
@@ -47,4 +46,3 @@ Campaign 隨附一組內建的登錄頁面範本：
 ```
 
 「類型」屬性的正式清單可在下列位址取得：[https://www.w3schools.com/tags/att_input_type.asp](https://www.w3schools.com/tags/att_input_type.asp)
-

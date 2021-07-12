@@ -7,10 +7,10 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 feature: 執行個體設定
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '1281'
 ht-degree: 7%
@@ -19,7 +19,7 @@ ht-degree: 7%
 
 # 設定行動應用程式{#configuring-a-mobile-application}
 
-## 使用Adobe Experience Platform SDK設定行動應用程式{#using-adobe-experience-platform-sdk}
+## 使用Adobe Experience Platform SDK設定行動應用程式 {#using-adobe-experience-platform-sdk}
 
 >[!IMPORTANT]
 >
@@ -65,7 +65,7 @@ ht-degree: 7%
 1. 如有需要，您可以刪除Experience Platform Launch屬性。
 如需詳細資訊，請參閱[刪除Experience Platform Launch應用程式](../../administration/using/configuring-a-mobile-application.md#delete-app)。
 
-## 從Launch技術工作流程{#aepsdk-workflow}同步行動應用程式AEPSDK
+## 從Launch技術工作流程同步行動應用程式AEPSDK {#aepsdk-workflow}
 
 在Experience Platform Launch中建立和設定您的行動屬性後，**[!UICONTROL Sync Mobile app AEPSDK from Launch]**&#x200B;技術工作流程現在會同步在Adobe Campaign Standard中匯入的AdobeLaunch行動屬性。
 
@@ -84,7 +84,7 @@ ht-degree: 7%
 
 您的工作流程現在會重新啟動並同步在Adobe Campaign Standard中匯入的AdobeLaunch行動屬性。
 
-## 在Adobe Campaign {#set-up-campaign}中設定Adobe Experience Platform Launch應用程式
+## 在Adobe Campaign中設定您的Adobe Experience Platform Launch應用程式 {#set-up-campaign}
 
 若要在Campaign中使用Experience Platform Launch行動屬性，您也需在Adobe Campaign中設定此屬性。 在Adobe Campaign中，確認IMS使用者屬於標準使用者和管理員產品設定檔的一部分。
 
@@ -129,7 +129,7 @@ ht-degree: 7%
 
    如需詳細資訊，請參閱[發佈設定](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-configuration)。
 
-## Adobe Campaign {#channel-specific-config}中的通道特定應用程式配置
+## Adobe Campaign中的通道特定應用程式設定 {#channel-specific-config}
 
 您的行動應用程式現在已準備好用於Campaign以進行推播通知或應用程式內傳遞。 您現在可以視需要進一步設定，以建立會觸發您的應用程式內訊息和/或上傳推送憑證的事件。
 
@@ -147,7 +147,7 @@ ht-degree: 7%
 
    ![](assets/launch_7.png)
 
-1. 按一下 **[!UICONTROL Add]**。
+1. 按一下&#x200B;**[!UICONTROL Add]**。
 
    現在當您建立應用程式內訊息時，您的事件可在「觸發器」標籤上使用。 如需詳細資訊，請參閱[準備和傳送應用程式內訊息](../../channels/using/preparing-and-sending-an-in-app-message.md)。
 
@@ -163,7 +163,7 @@ ht-degree: 7%
 
 1. 按一下&#x200B;**[!UICONTROL Mobile application subscribers]**&#x200B;標籤可查看訂閱者清單以及這些訂閱者的其他相關資訊，例如，他們是否選擇退出您的通知。
 
-## 刪除Adobe Experience Platform Launch應用程式{#delete-app}
+## 刪除您的Adobe Experience Platform Launch應用程式 {#delete-app}
 
 刪除Experience Platform Launch應用程式無法還原。
 

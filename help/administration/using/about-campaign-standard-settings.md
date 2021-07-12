@@ -7,30 +7,29 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 context-tags: extAccount,main;extAccount,overview
-feature: Instance Settings
-role: Administrator
+feature: 執行個體設定
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 47ecacbf-2a6a-4f33-972a-b2e47dc0284e
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '134'
 ht-degree: 8%
 
 ---
-
 
 # 關於 Campaign Standard 設定{#about-campaign-standard-settings}
 
 [!DNL Campaign] Standard隨附不同的應用程式元素，可依您的需求進行設定。例如：
 
 * 設定外部帳戶，
-* 設定目標對應，以管理傳送傳送所需的技術設定，
-* 在應用程式中設定內部通知等。
+* 設定目標對應以管理傳送所需的技術設定，
+* 在應用程式內設定內部通知等。
 
 這些設定可從&#x200B;**[!UICONTROL Administration]** / **[!UICONTROL Application settings]**&#x200B;功能表取得。
 
-此外，**[!UICONTROL Options]**&#x200B;功能表中還提供技術選項，讓您更明確地設定應用程式。 其中有些是內建的促銷活動，有些則可視需要手動新增（可用選項會依您實例安裝的套件而有所不同）。
+此外，**[!UICONTROL Options]**&#x200B;功能表中也提供技術選項，讓您能夠更具體地配置應用程式。 其中有些是安裝Campaign時內建的，有些則可視需要手動新增（可用選項會依執行個體所安裝的套件而有所不同）。
 
 >[!IMPORTANT]
 >
->這些選項在安裝促銷活動時已經設定，且僅應由進階使用者修改。 如果您有任何疑問或要求，請洽詢您的Adobe聯絡人。
+>安裝Campaign時已設定這些選項，且僅應由進階使用者修改。 如果您有任何疑問或要求，請洽詢您的Adobe連絡人。

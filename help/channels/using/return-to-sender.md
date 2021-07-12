@@ -1,39 +1,38 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 返回至寄件者
-description: 瞭解如何收到錯誤地址的通知，並排除它，以免日後通訊。
+title: 退回至寄件者
+description: 了解如何收到錯誤地址的通知，並將其排除在未來通訊之外。
 audience: channels
 content-type: reference
 topic-tags: direct-mail
-feature: Direct Mail
-role: Business Practitioner
+feature: 直接郵件
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6783aa68-7fd7-4f53-86bf-853c0fea5899
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 2%
+source-wordcount: '216'
+ht-degree: 3%
 
 ---
 
+# 退回至寄件者{#return-to-sender}
 
-# 返回至寄件者{#return-to-sender}
+支援與包含「返回至寄件者」資訊的直接郵件提供者進行一般檔案交換。 這可將對應的郵遞區號排除在未來通訊之外。 這也可讓您收到錯誤地址的通知，並透過其他管道與客戶互動，或鼓勵客戶更新其郵遞區號。
 
-支援與直接郵件提供者進行平面檔案交換，並納入「傳回至傳送者」資訊。 這允許將相應的郵遞區號排除在未來通訊之外。 此外，您還可以收到錯誤地址的通知，並透過其他管道與客戶互動，或鼓勵他更新其郵遞區號。
+例如，某個連絡人已移至新位置，但並未提供您新的郵遞區號。 提供者會擷取錯誤位址的清單，並將此資訊傳送至Adobe Campaign，以自動封鎖錯誤位址。
 
-例如，聯繫人已移至新位置，但未提供您新的郵遞區號。 提供者會擷取錯誤位址的清單，並傳送此資訊給Adobe Campaign，以自動取消列出錯誤位址。
-
-為了使此功能發揮作用，直接郵件預設傳送模板在內容中包括傳送日誌ID。 因此，Adobe Campaign將能夠將配置檔案和交付資料與提供商返回的資訊同步。
+為了讓此功能發揮作用，直接郵件預設傳送範本在內容中包含傳送記錄檔ID。 因此，Adobe Campaign將能將設定檔和傳送資料與提供者傳回的資訊同步。
 
 ![](assets/direct_mail_return_sender_1.png)
 
-**[!UICONTROL Adobe Campaign > Resources > Templates > Import templates > Update Direct Mail quarantines and delivery logs]**&#x200B;下提供導入模板。 複製此範本以建立您自己的範本。 有關使用導入模板的詳細資訊，請參閱[使用導入模板](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates)。
+匯入範本位於&#x200B;**[!UICONTROL Adobe Campaign > Resources > Templates > Import templates > Update Direct Mail quarantines and delivery logs]**&#x200B;下。 複製此範本以建立您自己的範本。 有關使用導入模板的詳細資訊，請參閱[使用導入模板](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates)。
 
 ![](assets/direct_mail_return_sender_2.png)
 
-匯入完成後，Adobe Campaign會自動執行下列動作：
+匯入完成時，Adobe Campaign會自動執行下列動作：
 
-* 在描述檔層級將不正確的地址新增至denylist
-* 傳送主要指標(KPI)已更新
+* 設定檔層級的封鎖清單新增了不正確的位址
+* 更新傳遞主要指標(KPI)
 * 傳送記錄檔已更新

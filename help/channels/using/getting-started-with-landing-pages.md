@@ -7,18 +7,17 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
-feature: Landing Pages
-role: Business Practitioner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+feature: 登陸頁面
+role: User
+exl-id: 8015c555-9521-478c-8669-66b9cc145887
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1031'
-ht-degree: 96%
+source-wordcount: '1029'
+ht-degree: 97%
 
 ---
 
-
-# 登錄頁面快速入門 {#getting-started-with-landing-pages}
+# 登陸頁面快速入門 {#getting-started-with-landing-pages}
 
 設定登錄頁面的主要步驟如下：
 
@@ -26,12 +25,12 @@ ht-degree: 96%
 
 在本頁面中，您將會找到這些步驟的相關資訊及專用檔案的參考，以取得更多詳細資訊。
 
-![](assets/do-not-localize/how-to-video.png) [探索如何在視訊中建立登陸頁面](#video)
+![](assets/do-not-localize/how-to-video.png) [探索如何在影片中建立登錄頁面](#video)
 
 **相關主題：**
 
 * [建立服務](../../audiences/using/creating-a-service.md)
-* [設定雙重加入程序](setting-up-a-double-opt-in-process.md)
+* [設定雙重選擇加入流程](setting-up-a-double-opt-in-process.md)
 
 ## 登錄頁面限制{#landing-page-limitations}
 
@@ -135,10 +134,10 @@ ht-degree: 96%
 
 如需這些差異的詳細資訊，請參閱[本區段](../../channels/using/testing-publishing-landing-page.md#publishing-a-landing-page)。
 
-## 教學課程影片{#video}
+## 教學課程影片 {#video}
 
-此影片示範如何建立和編輯著陸頁面。
+此影片說明如何建立和編輯登錄頁面。
 
 >[!VIDEO](https://video.tv.adobe.com/v/24093?quality=12)
 
-其他Campaign Standardhow-to影片可在[這裡](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant)取得。
+其他Campaign Standard操作說明影片可在[此處](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant)取得。

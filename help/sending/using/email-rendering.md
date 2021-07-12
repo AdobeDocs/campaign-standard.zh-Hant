@@ -6,19 +6,18 @@ description: 探索電子郵件呈現功能。
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
-feature: Send Time Optimization
-role: Business Practitioner
+feature: 傳送時間最佳化
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 31f4e557-55b3-4bf5-8d5d-9d412b7670a6
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '516'
 ht-degree: 82%
 
 ---
 
-
-# 電子郵件呈現{#email-rendering}
+# 電子郵件轉譯{#email-rendering}
 
 在按下 **[!UICONTROL Send]** 按鈕之前，請確定您的郵件會以最佳方式顯示在各種 Web 用戶端、網頁郵件與裝置上。
 
@@ -26,7 +25,7 @@ ht-degree: 82%
 
 Litmus [網站](https://litmus.com/email-testing)列出可在 Adobe Campaign 中用於&#x200B;**電子郵件呈現**&#x200B;的行動裝置、傳送訊息與網頁郵件客戶端（請按一下&#x200B;**檢視所有電子郵件客戶端**）。
 
-## 產生電子郵件演算{#checking-the-email-rendering-report}
+## 產生電子郵件呈現 {#checking-the-email-rendering-report}
 
 在您建立電子郵件傳送並定義其內容以及目標定位人口族群後，請遵循下列步驟。
 
@@ -69,21 +68,21 @@ Litmus [網站](https://litmus.com/email-testing)列出可在 Adobe Campaign 中
 * [傳送校樣](../../sending/using/sending-proofs.md)
 * [查詢編輯器](../../automating/using/editing-queries.md#about-query-editor)
 
-## 電子郵件轉換報告{#email-rendering-report-description}
+## 電子郵件呈現報告 {#email-rendering-report-description}
 
 此報告會以收件者看到的方式來顯示電子郵件呈現。電子郵件呈現會因收件者開啟電子郵件傳送的方式而異：在瀏覽器中、行動裝置上，或是透過電子郵件應用程式。
 
-### 電子郵件轉換Token
+### 電子郵件呈現Token
 
 您的授權協議中會列出可用的呈現數量。每次啟用「**電子郵件呈現**」傳送時，您的可用呈現（也稱為 Token）都會減少一次。
 
-Token帳戶是每個個別轉譯，而非整個「電子郵件」轉譯報表，這表示：
+代號會用於每個個別呈現，而非整個電子郵件呈現報告，這表示：
 
-* **每次** 產生「電子郵件」轉譯報表時，會扣除每個訊息傳送用戶端一個代號：一個Outlook 2000轉譯的Token、一個Outlook轉譯的Token、一個Apple Mail轉譯的Token，等等。
+* **每次** 產生電子郵件呈現報表時，每個傳訊用戶端都會扣除一個代號：一個Outlook 2000呈現的代號、一個Outlook呈現的代號、一個Apple Mail呈現的代號等。
 
-* **對於相同的傳送**，如果您再次產生電子郵件轉譯，可用的Token數量會依產生的轉譯數量而再次減少。
+* **對於相同傳送**，如果您再次產生電子郵件呈現，可用的Token數量會再次減少為產生的呈現數量。
 
-### 報告摘要
+### 報表摘要
 
 報告摘要會顯示已接收、不想要（垃圾郵件）、未接收或待接收的郵件數目。
 

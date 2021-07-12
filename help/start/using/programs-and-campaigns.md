@@ -7,17 +7,16 @@ audience: start
 content-type: reference
 topic-tags: marketing-plans
 context-tags: campaign,overview;campaignExplorer,main
-feature: Campaigns
-role: Business Practitioner
+feature: 行銷活動
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 3f4f9307-c65f-47bb-bc92-ce8b5d06557f
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 99%
+source-wordcount: '642'
+ht-degree: 100%
 
 ---
-
 
 # 方案與行銷活動{#programs-and-campaigns}
 
@@ -103,4 +102,3 @@ Adobe Campaign 可讓您規劃行銷活動，以便建立和管理不同類型�
 * 綠色：方案/行銷活動已完成 – **[!UICONTROL Finished]** 狀態。依預設，目前日期會自動顯示為有效開始日期，而結束日期會根據開始日期（**D+186 天**）計算。您可以在方案或行銷活動屬性中變更這些日期。
 
 ![](assets/programs_and_campaigns.png)
-

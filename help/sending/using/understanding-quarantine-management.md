@@ -6,17 +6,16 @@ description: 瞭解如何透過隔離管理來最佳化您的傳送能力。
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-feature: Deliverability
-role: Business Practitioner
+feature: 達成能力
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '782'
 ht-degree: 82%
 
 ---
-
 
 # 瞭解隔離管理{#understanding-quarantine-management}
 
@@ -30,23 +29,23 @@ ht-degree: 82%
 
 郵件準備期間會自動排除其電子郵件地址或電話號碼處於隔離狀態的設定檔（請參閱[識別傳送的隔離地址](#identifying-quarantined-addresses-for-a-delivery)）。這會加快傳送速度，因為錯誤率對傳送速度有顯著影響。
 
-如果無效地址的比率過高，某些網際網路存取提供者會自動將電子郵件視為垃圾郵件。因此，隔離可讓您避免被這些提供者添加到拒絕清單。
+如果無效地址的比率過高，某些網際網路存取提供者會自動將電子郵件視為垃圾郵件。因此，隔離可讓您避免被這些提供者新增至封鎖清單。
 
 此外，隔離有助於減少簡訊傳送成本，因為將錯誤的電話號碼排除在遞送服務之外。
 
 如需確保傳送安全並最佳化的最佳實務，請參閱[本頁面](../../sending/using/delivery-best-practices.md)。
 
-### 隔離與拒絕清單{#quarantine-vs-denylist}
+### 隔離與封鎖清單 {#quarantine-vs-denylist}
 
 **隔離** (Quarantine)　僅適用於地址，而不適用於設定檔本身。這代表如果兩個設定檔具有相同的電子郵件地址，則兩個設定檔在隔離地址時都會受到影響。
 
 同樣地，被隔離的電子郵件地址的設定檔可以更新其設定檔並輸入新地址，然後再次被傳送動作設為目標。
 
-另一方面，如果位於&#x200B;**Denylist**，則會導致描述檔不再被任何傳送鎖定，例如在取消訂閱（選擇退出）後。 如需登入清單程式的詳細資訊，請參閱[關於促銷活動中的選擇加入和選擇退出。](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+另一方面，位於&#x200B;**Denylist**&#x200B;時，則會導致設定檔不再被任何傳送鎖定，例如在取消訂閱（選擇退出）之後。 如需封鎖清單程式的詳細資訊，請參閱[關於Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)中的選擇加入和選擇退出。
 
 >[!NOTE]
 >
->當使用者回覆SMS訊息時，使用關鍵字（例如「STOP」），以選擇退出SMS傳送時，他的個人檔案不會像電子郵件選擇退出程式一樣列在拒絕清單中。 會將設定檔電話號碼傳送到隔離區，且狀態為　**[!UICONTROL On denylist]**。此狀態僅指電話號碼，設定檔不在登入清單中，因此使用者會繼續收到電子郵件訊息。 如需詳細資訊，請參閱[本區段](../../channels/using/managing-incoming-sms.md#managing-stop-sms)。
+>當使用者回覆SMS訊息時，其關鍵字如「STOP」，以選擇退出SMS傳送時，其設定檔不會像電子郵件選擇退出程式一樣列在封鎖清單中。 會將設定檔電話號碼傳送到隔離區，且狀態為　**[!UICONTROL On denylist]**。此狀態僅指電話號碼，而設定檔不在封鎖清單中，因此使用者會繼續收到電子郵件訊息。 如需詳細資訊，請參閱[本章節](../../channels/using/managing-incoming-sms.md#managing-stop-sms)。
 
 ## 識別隔離地址 {#identifying-quarantined-addresses}
 
@@ -86,7 +85,7 @@ Adobe Campaign 會根據傳送失敗類型和錯誤訊息限定期間指派的�
 
    重試之後傳送成功時，重新初始化隔離前地址的錯誤計數器。地址狀態變更為　**[!UICONTROL Valid]**，而且會在兩天之後，由　**[!UICONTROL Database cleanup]**　工作流程從隔離區清單中刪除該地址。
 
-如果使用者將電子郵件歸類為垃圾訊息（**回饋迴路**），則訊息會自動重新導向至由　Campaign　管理的技術信箱。之後，系統會自動將使用者的電子郵件地址傳送到狀態為　**[!UICONTROL On denylist]**　的隔離區。此狀態僅指地址，描述檔不在登入清單中，因此使用者會繼續收到SMS訊息和推播通知。
+如果使用者將電子郵件歸類為垃圾訊息（**回饋迴路**），則訊息會自動重新導向至由　Campaign　管理的技術信箱。之後，系統會自動將使用者的電子郵件地址傳送到狀態為　**[!UICONTROL On denylist]**　的隔離區。此狀態僅指位址，而設定檔不在封鎖清單上，因此使用者會繼續收到SMS訊息和推播通知。
 
 >[!NOTE]
 Adobe Campaign　中的隔離區會區分大小寫。請務必以小寫匯入電子郵件地址，如此一來，稍後就不會將它們重新設為目標。
@@ -94,4 +93,3 @@ Adobe Campaign　中的隔離區會區分大小寫。請務必以小寫匯入電
 在隔離地址清單中（請參閱[識別整個平台的隔離地址](#identifying-quarantined-addresses-for-the-entire-platform)），**[!UICONTROL Error reason]**　欄位會表示所選地址被置於隔離區的原因。
 
 ![](assets/quarantines2.png)
-

@@ -7,18 +7,18 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,main
-feature: 登錄頁面
-role: Business Practitioner
+feature: 登陸頁面
+role: User
 level: Intermediate
 exl-id: 7083447c-4cac-41cb-8453-369819e0c7c1
-source-git-commit: d84a11d4064938792a2e2c365b6085c263f55648
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 62%
 
 ---
 
-# 管理登錄頁面表單資料{#managing-landing-page-form-data}
+# 管理登陸頁面表單資料{#managing-landing-page-form-data}
 
 ## 變更登錄頁面表單資料屬性{#changing-a-landing-page-form-data-properties}
 
@@ -62,7 +62,7 @@ ht-degree: 62%
 1. 定義 **[!UICONTROL Form parameter mapping]**：此部分允許您對應登錄頁面欄位參數以及調解金鑰中使用的參數。
 1. 選取 **[!UICONTROL Update strategy]**：如果調解金鑰恢復現有資料庫設定檔，您可以選取使用此設定檔以表單中輸入的資料進行更新，或者改為阻止此更新。
 
-## 協定複選框{#agreement-checkbox}
+## 協定核取方塊 {#agreement-checkbox}
 
 您可以在提交登錄頁面之前新增設定檔必須勾選的核取方塊。
 
@@ -94,7 +94,7 @@ To avoid this, Adobe recommends you always add to your landing page a checkbox w
    <div id="HtmlPage_htmlPage.line3" data-nl-format="datetime"><input type="checkbox" class="nl-dce-todo" data-nl-bindto="agreement" data-nl-agreementmsg="You must agree with the terms and conditions before proceeding" />I agree with the terms and conditions</div>
    -->
 
-1. 按一下 **[!UICONTROL Hide source]**。
+1. 按一下&#x200B;**[!UICONTROL Hide source]**。
 
 1. 隨即顯示新核取方塊。 選取它。
 
@@ -120,6 +120,6 @@ To avoid this, Adobe recommends you always add to your landing page a checkbox w
    >
    >預設情況下，此操作是強制操作，無法更改。
 
-1. 按一下 **[!UICONTROL Confirm]**。
+1. 按一下&#x200B;**[!UICONTROL Confirm]**。
 
 現在，每次顯示登錄頁面時，使用者必須先選取此核取方塊，才能提交表單。 若未顯示，則會顯示警告，且在啟動核取方塊前，使用者無法提交表單。

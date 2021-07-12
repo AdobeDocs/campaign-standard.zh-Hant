@@ -10,11 +10,11 @@ content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 feature: 隱私權
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 0fc71c2f-f294-43f7-825c-73ab4d43fcf7
-source-git-commit: 694d596ea3c7b85759716ae44b2713ed3f8b5dcf
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '1478'
 ht-degree: 100%
 
@@ -120,7 +120,7 @@ Adobe Campaign 提供專屬於隱私權管理的各種功能：
 
 如需這些功能及如何在 Adobe Campaign 中管理這些功能的詳細資訊，請參閱[本頁面](https://helpx.adobe.com/tw/campaign/kb/campaign-privacy-overview.html#consent)。
 
-### 隱私權要求 {#privacy-requests}
+### 隱私權請求 {#privacy-requests}
 
 Adobe Campaign 提供其他功能，協助您作為資料控制方，針對特定隱私權要求預作準備：
 
@@ -130,7 +130,7 @@ Adobe Campaign 提供其他功能，協助您作為資料控制方，針對特�
 
 >[!NOTE]
 >
->本套工具可協助您遵循 GDPR、CCPA 及 PDPA 的隱私權規範。如需這些不同法規的詳細資訊，請參閱[本頁面](https://helpx.adobe.com/tw/campaign/kb/campaign-privacy-overview.html#whatisgdpr)。
+>本套工具可協助您遵循 GDPR、CCPA 及 PDPA 的隱私權規範。如需這些不同法規的詳細資訊，請參閱[本頁面](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)。
 
 <!--* **GDPR** (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
 

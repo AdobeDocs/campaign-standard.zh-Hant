@@ -6,33 +6,32 @@ description: 探索純文字和HTML模式
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: 電子郵件設計
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 760c3c30-c899-4cf4-ba59-fb2fade9fc5e
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
 
+# 編輯純文字、HTML和行動電子郵件格式 {#plain-text-and-html-modes}
 
-# 編輯純文字、HTML和行動電子郵件格式{#plain-text-and-html-modes}
+電子郵件設計工具可讓您編輯數次轉譯的電子郵件。 您可以產生電子郵件的文字版本、編輯電子郵件的HTML來源，以及設計行動檢視的電子郵件。
 
-電子郵件設計工具可讓您編輯數個轉譯電子郵件。 您可以產生電子郵件的文字版本、編輯電子郵件的HTML來源，並設計行動裝置檢視的電子郵件。
+## 產生電子郵件的文字版本 {#generating-a-text-version-of-the-email}
 
-## 生成電子郵件的文本版本{#generating-a-text-version-of-the-email}
-
-依預設，會自動產生您電子郵件的&#x200B;**[!UICONTROL Plain text]**&#x200B;版本，並與&#x200B;**[!UICONTROL Edit]**&#x200B;版本同步。
+依預設，系統會自動產生您的電子郵件的&#x200B;**[!UICONTROL Plain text]**&#x200B;版本，並與&#x200B;**[!UICONTROL Edit]**&#x200B;版本同步。
 
 新增至HTML版本的個人化欄位和內容區塊也會與純文字版本同步。
 
 >[!NOTE]
 >
->若要在純文字版本中使用內容區塊，請確定它們不包含HTML程式碼。
+>若要以純文字版本使用內容區塊，請確定它們不包含HTML程式碼。
 
-要使純文字檔案版本與HTML版本不同，可以通過從電子郵件的&#x200B;**[!UICONTROL Plain text]**&#x200B;視圖按一下&#x200B;**[!UICONTROL Sync with HTML]**&#x200B;開關來禁用此同步。
+要使純文字檔案版本與HTML版本不同，可以按一下電子郵件&#x200B;**[!UICONTROL Plain text]**&#x200B;視圖中的&#x200B;**[!UICONTROL Sync with HTML]**&#x200B;開關來禁用此同步。
 
 ![](assets/email_designer_textversion.png)
 
@@ -42,58 +41,58 @@ ht-degree: 0%
 >
 >如果在禁用同步時編輯&#x200B;**[!UICONTROL Plain text]**&#x200B;版本，則下次啟用&#x200B;**[!UICONTROL Sync with HTML]**&#x200B;選項時，在純文字檔案版本中所做的所有更改都將替換為HTML版本。 在&#x200B;**[!UICONTROL Plain text]**&#x200B;檢視中所做的變更無法反映在&#x200B;**[!UICONTROL HTML]**&#x200B;檢視中。
 
-## 在HTML {#editing-an-email-content-source-in-html}中編輯電子郵件內容來源
+## 在HTML中編輯電子郵件內容來源 {#editing-an-email-content-source-in-html}
 
-對於最進階的使用者和除錯，您可以直接在HTML中檢視和編輯電子郵件內容。
+對於最進階的使用者和除錯，您可以直接以HTML檢視和編輯電子郵件內容。
 
-您有兩種方式可編輯HTML版本的電子郵件：
+您有兩種方式可編輯電子郵件的HTML版本：
 
-* 選擇&#x200B;**[!UICONTROL Edit]** > **[!UICONTROL HTML]**&#x200B;以開啟整個電子郵件的HTML版本。
+* 選取&#x200B;**[!UICONTROL Edit]** > **[!UICONTROL HTML]**&#x200B;以開啟整個電子郵件的HTML版本。
 
    ![](assets/email_designer_html1.png)
 
 * 從WYSIWYG介面中，選擇一個元素並按一下&#x200B;**[!UICONTROL Source code]**&#x200B;表徵圖。
 
-   只顯示所選元素的源。 如果所選元素是&#x200B;**[!UICONTROL HTML]**&#x200B;內容元件，則可以編輯原始碼。 其他元件則為唯讀模式，但仍可在電子郵件的完整HTML版本中編輯。
+   僅顯示所選元素的源。 如果所選元素是&#x200B;**[!UICONTROL HTML]**&#x200B;內容元件，則可以編輯原始碼。 其他元件則為唯讀模式，但仍可以以電子郵件的完整HTML版本編輯。
 
    ![](assets/email_designer_html2.png)
 
-如果您修改程式碼的HTML，電子郵件的回應速度可能會中斷。 請務必使用&#x200B;**[!UICONTROL Preview]**&#x200B;按鈕來測試它。 請參閱「[預覽訊息](../../sending/using/previewing-messages.md)」。
+如果您修改程式碼的HTML，電子郵件的回應可能會中斷。 請務必使用&#x200B;**[!UICONTROL Preview]**&#x200B;按鈕進行測試。 請參閱「[預覽訊息](../../sending/using/previewing-messages.md)」。
 
-## 設計行動轉換電子郵件{#switching-to-mobile-view}
+## 為行動轉譯設計電子郵件 {#switching-to-mobile-view}
 
-您可以個別編輯行動顯示的所有樣式選項，以微調電子郵件的互動式設計。 例如，您可以調整邊界和填補空白、使用較小或較大的字型大小、變更按鈕，或套用行動版電子郵件專用的不同背景顏色。
+您可以分別編輯行動顯示的所有樣式選項，微調電子郵件的回應式設計。 例如，您可以調整邊距和邊框間距、使用較小或較大的字型大小、更改按鈕，或應用特定於行動版電子郵件的不同背景顏色。
 
-所有樣式選項都可在行動裝置檢視中使用。 「電子郵件設計器」樣式設定先前會顯示在此頁面。
+所有樣式選項均可在行動檢視中使用。 電子郵件設計工具樣式設定先前會顯示在此頁面上。
 
-1. 建立電子郵件並開始編輯內容。 如需詳細資訊，請參閱[從頭設計電子郵件內容](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)。
-1. 要訪問專用的移動視圖，請選擇&#x200B;**[!UICONTROL Switch to mobile view]**&#x200B;按鈕。
+1. 建立電子郵件並開始編輯內容。 如需詳細資訊，請參閱[從草稿開始設計電子郵件內容](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)。
+1. 若要存取專用的行動檢視，請選取&#x200B;**[!UICONTROL Switch to mobile view]**&#x200B;按鈕。
 
    ![](assets/email_designer_mobile_view_switch.png)
 
-   隨即顯示電子郵件的行動版本。 它包含案頭檢視中定義的所有元件和樣式。
+   螢幕上會顯示電子郵件的行動版本。 它包含案頭檢視中定義的所有元件和樣式。
 
-1. 獨立編輯所有樣式設定，例如背景顏色、對齊、填補、邊界、字型系列、文字顏色等。
+1. 獨立編輯所有樣式設定，如背景顏色、對齊方式、邊框間距、邊距、字型系列、文字顏色等。
 
    ![](assets/email_designer_mobile_view.png)
 
-1. 在行動檢視中編輯任何樣式設定時，修改僅會套用至行動顯示。
+1. 在行動檢視中編輯任何樣式設定時，修改只會套用至行動顯示。
 
-   例如，縮小影像大小、新增綠色背景並變更行動檢視中的間距。
+   例如，縮小影像大小、新增綠色背景並變更行動檢視中的邊框間距。
 
    ![](assets/email_designer_mobile_view_change.png)
 
-1. 您可以在行動裝置上顯示元件時隱藏元件。 要執行此操作，請從&#x200B;**[!UICONTROL Display options]**&#x200B;中選擇&#x200B;**[!UICONTROL Show only on desktop devices]**。
+1. 在行動裝置上顯示元件時，您可以隱藏該元件。 要執行此操作，請從&#x200B;**[!UICONTROL Display options]**&#x200B;中選擇&#x200B;**[!UICONTROL Show only on desktop devices]**。
 
-   您也可以選擇在桌上型裝置上隱藏此元件，這表示此元件只會顯示在行動裝置上。 要執行此操作，請選擇&#x200B;**[!UICONTROL Show only on mobile devices]**。
+   您也可以選擇在桌上型電腦裝置上隱藏此元件，這表示此元件只會顯示在行動裝置上。 要執行此操作，請選擇&#x200B;**[!UICONTROL Show only on mobile devices]**。
 
-   例如，此選項可讓您在行動裝置上顯示特定影像，在桌上型裝置上顯示其他影像。
+   例如，此選項可讓您在行動裝置上顯示特定影像，在案頭裝置上顯示另一個影像。
 
-   您可以從行動裝置或案頭檢視設定此選項。
+   您可以從行動或案頭檢視設定此選項。
 
    ![](assets/email_designer_mobile_hide.png)
 
-1. 再次按一下&#x200B;**[!UICONTROL Switch to mobile view]**&#x200B;按鈕返回標準案頭視圖。 您剛做的樣式變更不會反映在內。
+1. 再按一下&#x200B;**[!UICONTROL Switch to mobile view]**&#x200B;按鈕，返回標準案頭視圖。 您剛做的樣式變更不會反映在內。
 
    ![](assets/email_designer_mobile_view_desktop_no-change.png)
 
@@ -101,23 +100,23 @@ ht-degree: 0%
    >
    >唯一的例外是&#x200B;**[!UICONTROL Style inline]**&#x200B;設定。 任何樣式內嵌設定變更也會套用至標準案頭檢視。
 
-1. 任何對電子郵件結構或內容的其他變更，例如文字編輯、上傳新影像、新增元件等。 也會套用至標準檢視。
+1. 對電子郵件的結構或內容進行任何其他變更，例如文字編輯、上傳新影像、新增元件等。 也會套用至標準檢視。
 
-   例如，切換回行動裝置檢視、編輯部分文字並取代影像。
+   例如，切換回行動檢視、編輯一些文字並取代影像。
 
    ![](assets/email_designer_mobile_view_change_content.png)
 
-1. 再次按一下&#x200B;**[!UICONTROL Switch to mobile view]**&#x200B;按鈕返回標準案頭視圖。 會反映變更。
+1. 再按一下&#x200B;**[!UICONTROL Switch to mobile view]**&#x200B;按鈕，返回標準案頭視圖。 會反映變更。
 
    ![](assets/email_designer_mobile_view_desktop_content-change.png)
 
-1. 移除行動檢視中的樣式會帶您回到案頭模式中套用的樣式。
+1. 移除行動檢視中的樣式會回到案頭模式中已套用的樣式。
 
-   例如，在行動裝置檢視中，將綠色背景顏色套用至按鈕。
+   例如，在行動檢視中，將綠色背景顏色套用至按鈕。
 
    ![](assets/email_designer_mobile_view_background_mobile.png)
 
-1. 切換至案頭檢視，並將灰色背景套用至相同的按鈕。
+1. 切換至案頭檢視，並將灰色背景套用至相同按鈕。
 
    ![](assets/email_designer_mobile_view_background_desktop.png)
 
@@ -125,10 +124,10 @@ ht-degree: 0%
 
    ![](assets/email_designer_mobile_view_background_mobile_disabled.png)
 
-   案頭檢視中定義的背景顏色現在會套用：會變成灰色（而非空白）。
+   現在已套用案頭檢視中定義的背景顏色：會變成灰色（非空白）。
 
-   唯一的例外是&#x200B;**[!UICONTROL Border color]**&#x200B;設定。 在行動檢視中停用時，即使在案頭檢視中定義了邊框色彩，也不會再套用邊框。
+   唯一的例外是&#x200B;**[!UICONTROL Border color]**&#x200B;設定。 在行動檢視中停用時，即使案頭檢視中已定義邊框顏色，也不會再套用邊框。
 
 >[!NOTE]
 >
->[片段](../../designing/using/using-reusable-content.md#about-fragments)中不提供行動檢視。
+>行動檢視無法在[片段](../../designing/using/using-reusable-content.md#about-fragments)中使用。

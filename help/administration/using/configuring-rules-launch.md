@@ -8,17 +8,17 @@ content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
 feature: 執行個體設定
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: b5f4f612-ea23-4007-b427-069777ecdd58
-source-git-commit: fba2ecddb2ebbf600be28724c8658d6d61eb9ecd
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 1%
 
 ---
 
-# 設定啟動規則以支援Adobe Campaign Standard 使用案例 {#configuring-rules-launch}
+# 設定啟動規則以支援 Adobe Campaign Standard 使用案例 {#configuring-rules-launch}
 
 在[!DNL Adobe Experience Platform Launch]中，您需要建立資料元素和規則，以將PII和其他資料從行動應用程式傳送至[!DNL Adobe Campaign Standard]。
 
@@ -33,7 +33,7 @@ ht-degree: 1%
    * [推播通知追蹤回傳](../../administration/using/configuring-rules-launch.md#push-tracking-postback)
    * [位置回傳](../../administration/using/configuring-rules-launch.md#location-postback)
 
-## 建立資料元素{#create-data-elements}
+## 建立資料元素 {#create-data-elements}
 
 以下是建議您在[!DNL Experience Platform Launch]中建立的資料元素。
 您可以視需要建立其他資料元素。
@@ -66,7 +66,7 @@ ht-degree: 1%
 
 1. 從&#x200B;**[!UICONTROL Extension]**&#x200B;下拉式清單中，選取&#x200B;**[!UICONTROL Adobe Campaign Standard]**。 然後，**[!UICONTROL Data element]**&#x200B;類型下拉式清單中的&#x200B;**[!UICONTROL Campaign Server]**。
 
-## 建立規則{#creating-rules}
+## 建立規則 {#creating-rules}
 
 您需要建立下列規則：
 
@@ -75,7 +75,7 @@ ht-degree: 1%
 * [推播通知追蹤回傳](../../administration/using/configuring-rules-launch.md#push-tracking-postback)
 * [位置回傳](../../administration/using/configuring-rules-launch.md#location-postback)
 
-### PII回傳{#pii-postback}
+### PII回傳 {#pii-postback}
 
 >[!NOTE]
 >
@@ -91,7 +91,7 @@ ht-degree: 1%
 
 1. 從&#x200B;**[!UICONTROL Extension]**&#x200B;下拉式清單中，選取&#x200B;**[!UICONTROL Mobile Core]**。 然後， **[!UICONTROL Event type]**&#x200B;下拉式清單中的&#x200B;**[!UICONTROL Collect PII]**。
 
-1. 按一下 **[!UICONTROL Keep changes]**。
+1. 按一下&#x200B;**[!UICONTROL Keep changes]**。
 
 1. 在&#x200B;**[!UICONTROL Actions]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL Add]**。
 
@@ -144,7 +144,7 @@ ht-degree: 1%
 
 您的使用者資料現在已設定為傳送至Campaign。
 
-### 應用程式內追蹤回傳{#inapp-tracking-postback}
+### 應用程式內追蹤回傳 {#inapp-tracking-postback}
 
 >[!NOTE]
 >
@@ -160,7 +160,7 @@ ht-degree: 1%
 
 1. 從&#x200B;**[!UICONTROL Extension]**&#x200B;下拉式清單中，選取&#x200B;**[!UICONTROL Adobe Campaign Standard]**。 然後， **[!UICONTROL Event type]**&#x200B;下拉式清單中的&#x200B;**[!UICONTROL In-App click tracking]**。
 
-1. 按一下 **[!UICONTROL Keep changes]**。
+1. 按一下&#x200B;**[!UICONTROL Keep changes]**。
 
 1. 在&#x200B;**[!UICONTROL Actions]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL Add]**。
 
@@ -182,7 +182,7 @@ ht-degree: 1%
 
    ![](assets/do-not-localize/rules_3.png)
 
-### 推播通知追蹤回傳{#push-tracking-postback}
+### 推播通知追蹤回傳 {#push-tracking-postback}
 
 >[!NOTE]
 >
@@ -222,7 +222,7 @@ ht-degree: 1%
 
 1. 在&#x200B;**[!UICONTROL Timeout]**&#x200B;中，選擇0。
 
-### 位置回傳{#location-postback}
+### 位置回傳 {#location-postback}
 
 1. 在[!DNL Experience Platform Launch]中，從您的行動應用程式控制面板，按一下&#x200B;**[!UICONTROL Rules]**&#x200B;標籤，然後按一下&#x200B;**[!UICONTROL Add Rule]**。
 

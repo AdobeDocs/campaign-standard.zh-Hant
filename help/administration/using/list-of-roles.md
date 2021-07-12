@@ -7,17 +7,16 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 context-tags: role,overview;role,main
-feature: Access Management
-role: Administrator
+feature: 存取管理
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 00714c80-bdaf-4241-bf2f-51498ca1dbef
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 83%
+source-wordcount: '237'
+ht-degree: 84%
 
 ---
-
 
 # 角色清單{#list-of-roles}
 
@@ -33,7 +32,7 @@ ht-degree: 83%
 
    >[!NOTE]
    >
-   >如果您需要使用Experience Cloud觸發器，則需要&#x200B;**[!UICONTROL Administration]**&#x200B;右側才能訪問Experience Cloud觸發器菜單。 有關Experience Cloud觸發器的詳細資訊，請參閱此[頁](../../integrating/using/about-adobe-experience-cloud-triggers.md)。
+   >如果您需要使用Experience Cloud觸發器，則需要&#x200B;**[!UICONTROL Administration]**&#x200B;權利才能存取Experience Cloud觸發器功能表。 如需Experience Cloud觸發器的詳細資訊，請參閱此[page](../../integrating/using/about-adobe-experience-cloud-triggers.md)。
 
 * **[!UICONTROL Datamodel]**：直接執行出版品和建立自訂資源。
 * **[!UICONTROL Generic import]**：對資料執行一般匯入的權限。若要讓此功能發揮作用，您需要將 **[!UICONTROL Generic import]** 角色連結到 **[!UICONTROL Workflow]** 角色。

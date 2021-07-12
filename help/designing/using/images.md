@@ -2,65 +2,64 @@
 solution: Campaign Standard
 product: campaign
 title: 使用影像
-description: 瞭解如何使用電子郵件設計工具管理電子郵件中的影像。
+description: 了解如何使用電子郵件設計工具管理電子郵件中的影像。
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: 電子郵件設計
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: b58a378d-18da-4c0f-b4e7-5d0a02aab4c2
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '305'
 ht-degree: 3%
 
 ---
 
-
-# 使用影像{#images}
+# 使用影像 {#images}
 
 ## 插入影像{#inserting-images}
 
-您可以在電子郵件和登陸頁面中插入影像。
+您可以在電子郵件和登錄頁面中插入影像。
 
-根據您的設定，可使用下列影像類型：
+根據您的配置，可使用下列類型的影像：
 
 * 本機影像
-* 從Adobe Experience Cloud分享的影像——請參閱[使用促銷活動和資產核心服務](../../integrating/using/working-with-campaign-and-assets-core-service.md) /隨選資產
-* 來自Adobe Target的動態影像——請參閱[使用促銷活動和Target](../../integrating/using/about-campaign-target-integration.md)
+* 從Adobe Experience Cloud共用的影像 — 請參閱[使用促銷活動和資產核心服務](../../integrating/using/working-with-campaign-and-assets-core-service.md) /隨選資產
+* 來自Adobe Target的動態影像 — 請參閱[使用促銷活動和Target](../../integrating/using/about-campaign-target-integration.md)
 
 >[!CAUTION]
 >
->如果您選擇編輯電子郵件的HTML版本以直接新增影像，則不得在HTML頁面的&lt;script>標籤&#x200B;**中呼叫**&#x200B;外部檔案。 這些檔案不會導入到Adobe Campaign伺服器。
+>如果您選擇編輯電子郵件的HTML版本以直接新增影像，則不得在HTML頁面的&lt;script>標籤&#x200B;**中呼叫**&#x200B;外部檔案。 這些檔案將不會匯入Adobe Campaign伺服器。
 
-### 在電子郵件{#inserting-images-in-an-email}中插入影像
+### 在電子郵件中插入影像 {#inserting-images-in-an-email}
 
-1. 添加結構元件。 如需詳細資訊，請參閱「[編輯電子郵件結構](../../designing/using/designing-from-scratch.md#defining-the-email-structure)」。
-1. 在此結構元件中，新增&#x200B;**[!UICONTROL Image]**&#x200B;內容元件。
+1. 新增結構元件。 如需詳細資訊，請參閱「[編輯電子郵件結構](../../designing/using/designing-from-scratch.md#defining-the-email-structure)」。
+1. 在此結構元件內，新增&#x200B;**[!UICONTROL Image]**&#x200B;內容元件。
 
    ![](assets/des_insert_images_1.png)
 
-1. 按一下 **[!UICONTROL Browse]**。拖放影像，或按一下以從您的電腦選取檔案。
+1. 按一下 **[!UICONTROL Browse]**。拖放影像，或按一下以從電腦選取檔案。
 
    ![](assets/des_insert_images_2.png)
 
 1. 選取您剛新增的內容元件。
-1. 檢查影像屬性並視需要調整。
+1. 檢查影像屬性，並視需要進行調整。
 
    ![](assets/des_insert_images_3.png)
 
 ## 設定影像屬性{#setting-up-image-properties}
 
-當您選取包含影像的區塊時，浮動視窗中會提供下列屬性：
+選取包含影像的區塊時，浮動視窗中會提供下列屬性：
 
 * **啟用** 個人化可讓您自訂影像來源。請參閱[個人化影像來源](../../designing/using/personalization.md#personalizing-an-image-source)。
 * **影像** 標題可讓您定義影像的標題。
-* **Alt text** (email)或 **Caption** (landing page)可讓您定義連結至影像的標題(與 **** altHTML屬性相對應)。
+* **替代文字** （電子郵件）或 **標題** （登陸頁面）可讓您定義連結至影像的標題(與altHTML屬 **** 性相對應)。
 * 編輯電子郵件時，**Style**&#x200B;可讓您指定影像大小、背景和邊框。
-* 編輯著陸頁面時，**Dimension**&#x200B;可讓您指定影像大小（像素）。
+* 編輯登錄頁面時，**Dimension**&#x200B;可讓您以像素指定影像大小。
 
-編輯器允許您使用與瀏覽器相容的格式&#x200B;**的所有影像類型**。 要與編輯器相容，**&quot;Flash&quot;類型的動畫**&#x200B;必須按如下方式插入HTML頁面：
+編輯器可讓您使用與瀏覽器相容的&#x200B;**所有影像類型**。 要與編輯器相容，**&quot;Flash&quot;類型的動畫**&#x200B;必須按如下方式插入HTML頁面：
 
 ```
 <object type="application/x-shockwave-flash" data="http://www.mydomain.com/flash/your_animation.swf" width="200" height="400">

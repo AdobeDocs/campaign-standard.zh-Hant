@@ -7,18 +7,18 @@ audience: channels
 content-type: reference
 topic-tags: sms-messages
 delivercontext-tags: deliveryCreation,wizard;delivery,smsContent,back;delivery,smsContent,back
-feature: 簡訊
-role: Business Practitioner
+feature: SMS
+role: User
 level: Intermediate
 exl-id: 6c01662e-1e19-4cec-aa21-6e84b9b7a677
-source-git-commit: b564ecce0fab3ebcc1afb02fd2cae3f7eafd025e
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 100%
 
 ---
 
-# 個人化 SMS 訊息{#personalizing-sms-messages}
+# 個人化簡訊訊息{#personalizing-sms-messages}
 
 個人化 SMS 訊息的原則與[電子郵件](../../designing/using/personalization.md#inserting-a-personalization-field)的原則。不過，您必須注意音譯選項，因為這些選項可能會影響編碼，進而影響要傳送的 SMS 訊息數量。如需詳細資訊，請參閱[音譯和 SMS 長度](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)區段。
 

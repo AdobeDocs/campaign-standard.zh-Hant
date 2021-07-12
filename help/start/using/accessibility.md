@@ -6,19 +6,18 @@ description: 瞭解 Adobe Campaign Standard 工作區中的協助工具支援。
 audience: designing
 content-type: reference
 topic-tags: accessibility
-feature: Campaigns
-role: Business Practitioner
+feature: 行銷活動
+role: User
 level: Intermediate
 exl-id: 958f7beb-ab41-4492-bc0a-e9e342e3c12e
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 100%
 
 ---
 
-# Adobe Campaign Standard 中的協助工具{#accessibility-acs}
+# Adobe Campaign Standard 中的協助工具 {#accessibility-acs}
 
 瞭解 Adobe Campaign Standard 工作區中的協助工具支援。
 
@@ -26,9 +25,9 @@ ht-degree: 100%
 
 Adobe Campaign Standard 提供多種功能，讓您能更輕鬆使用對比、標籤、結構化內容、鍵盤導覽和內容相關說明等內容。
 
-## 協助工具功能{#accessibility-features}
+## 協助工具功能 {#accessibility-features}
 
-### 對比和顏色{#contrast}
+### 對比和顏色 {#contrast}
 
 Adobe Campaign Standard 使用者介面致力於在應用程式中提供足夠的對比功能，以確保為視力不足或色彩缺乏的使用者提供可存取的檢視體驗。
 
@@ -68,7 +67,7 @@ Adobe Campaign Standard allows you to design and test emails and push notificati
 ![](assets/accessibility_6.png)
 -->
 
-## 內容說明{#contextual-help}
+## 內容說明 {#contextual-help}
 
 內容說明可協助您更清楚瞭解可用的不同請求欄位和功能。它也會引導您閱讀產品文件，以進一步瞭解所選功能的資訊。
 
@@ -76,33 +75,33 @@ Adobe Campaign Standard allows you to design and test emails and push notificati
 
 ![](assets/accessibility_7.png)
 
-## 支援協助技術{#screen-magnifiers}
+## 支援協助技術 {#screen-magnifiers}
 
 我們致力於讓 obe Campaign Standard 應用程式能透過各種輔助技術而徹底發揮使用範圍，包含但不限於修改的鍵盤、螢幕放大軟體、螢幕閱讀器、語音辨識軟體和其他輔助裝置。
 
-## 使用您的偏好語言{#languages}
+## 使用您的偏好語言 {#languages}
 
 Adobe Campaign Standard 提供不同的語言版本：英文、法文和德文。
 
 請注意，語言是在安裝時已設定好的，之後無法變更。
 
-## 鍵盤快速鍵{#shortcuts}
+## 鍵盤快速鍵 {#shortcuts}
 
-### 首頁{#homepage-shortcuts}
+### 首頁 {#homepage-shortcuts}
 
 | 快速鍵 | 動作 |
 |:-:|:-:|
 | 標籤 | 導覽使用者介面的個別元素 |
 | 輸入或空格 | 啟用選取的項目 |
 
-### 電子郵件設計工具{#email-designer-shortcuts}
+### 電子郵件設計工具 {#email-designer-shortcuts}
 
 | 快速鍵 | 動作 |
 |:-:|:-:|
 | CTRL + Z | 還原 |
 | CTRL + Y | 取消復原 |
 
-### 動態報告{#report-shortcuts}
+### 動態報告 {#report-shortcuts}
 
 | 快速鍵 | 動作 |
 |:-:|:-:|
@@ -123,7 +122,7 @@ Adobe Campaign Standard 提供不同的語言版本：英文、法文和德文�
 | Shift + Alt + S | 依排程傳送報告 |
 | Shift = Alt + L | 排程報告 |
 
-## 進一步閱讀{#further-reading}
+## 進一步閱讀 {#further-reading}
 
 Adobe Campaign Standard 致力於提供日益提升功能的協助工具，讓產品更易於每個人使用。
 

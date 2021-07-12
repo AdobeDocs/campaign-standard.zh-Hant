@@ -8,25 +8,24 @@ content-type: reference
 topic-tags: editing-sms-and-push-content
 context-tags: delivery,smsContent,back
 feature: SMS
-role: Business Practitioner
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: d430d0e7-1201-49c6-aad3-a2c03d02290c
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 99%
+source-wordcount: '331'
+ht-degree: 100%
 
 ---
 
-
-# SMS 和推播內容編輯器介面{#sms-and-push-content-editor-interface}
+# 簡訊和推送內容編輯器介面{#sms-and-push-content-editor-interface}
 
 會將 SMS 和推播內容編輯器組織為兩個不同的區段，讓您檢視和編輯訊息。
 
 1. **動作列**&#x200B;包含頁面的一般選項。您可以從此處插入個人化欄位或內容區塊、新增條件文字並預覽 SMS 內容。請參閱 [SMS 及推播內容編輯器動作列](#sms-and-push-content-editor-action-bar)。
 1. 螢幕的&#x200B;**編輯區域**&#x200B;可讓您直接輸入文字訊息，並選取要插入個人化的位置。請參閱 [SMS 及推播內容版本模式](#sms-and-push-content-edition-modes)。
 
-## SMS 及推播內容編輯器介面動作列{#sms-and-push-content-editor-action-bar}
+## SMS 及推播內容編輯器介面動作列 {#sms-and-push-content-editor-action-bar}
 
 動作列包含不同的按鈕，可讓您與正在建立的內容互動。
 
@@ -85,7 +84,7 @@ ht-degree: 99%
  </tbody> 
 </table>
 
-## SMS 及推播內容版本模式{#sms-and-push-content-edition-modes}
+## SMS 及推播內容版本模式 {#sms-and-push-content-edition-modes}
 
 SMS 及推播內容編輯器提供下列功能：
 

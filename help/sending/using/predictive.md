@@ -6,17 +6,16 @@ description: 瞭解如何使用預測性傳送時間和參與度評分。
 audience: sending
 content-type: reference
 topic-tags: ai-powered-emails
-feature: Send Time Optimization
-role: Business Practitioner
+feature: 傳送時間最佳化
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: e1cb04e6-eb38-4bcc-b071-321cc11ccc7e
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1070'
+source-wordcount: '1067'
 ht-degree: 97%
 
 ---
-
 
 # 使用 AI 支援電子郵件最佳化設計與傳送{#journey-ai}
 
@@ -35,7 +34,7 @@ Adobe Campaign Standard 提供兩種新的機器學習模型： **預測性傳�
 >[!IMPORTANT]
 >這項功能無法立即在產品中使用。此實作需要 Adobe Consulting 參與。請洽詢您的 Adobe 代表以瞭解更多資訊。
 >
->此功能需要使用客戶必須提供的Azure或AmazonS3儲存空間。
+>此功能需要使用客戶必須提供的Azure或Amazon S3儲存空間。
 
 ## 預測性傳送時間最佳化{#predictive-send-time}
 
@@ -112,7 +111,7 @@ AddHours([currentDelivery/scheduling/@contactDate],
 
 
 
-## 預測性參與計分 {#predictive-scoring}
+## 預測性參與度評分 {#predictive-scoring}
 
 預測性參與計分可以讓您：
 
@@ -152,26 +151,3 @@ AddHours([currentDelivery/scheduling/@contactDate],
 例如，使用&#x200B;**保留級別**&#x200B;標準：
 
 ![](assets/do-not-localize/predictive_score_query.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

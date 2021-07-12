@@ -7,17 +7,16 @@ audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: readAudience,main;audience,overview;delivery,audience,back
-feature: Audiences
-role: Business Practitioner
+feature: 對象
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: b40e4f6f-34bb-40f9-80e8-e9f1bce5548c
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '973'
-ht-degree: 99%
+source-wordcount: '970'
+ht-degree: 100%
 
 ---
-
 
 # 建立對象{#creating-audiences}
 
@@ -147,4 +146,3 @@ Adobe Campaign 可讓您與 Adobe Experience Cloud 共用和交換對象。**Exp
 或者，如果您需要刪除對象，您只需選取一或多個對象，然後按一下 **[!UICONTROL Delete element]** 按鈕。
 
 ![](assets/audience_delete_1.png)
-

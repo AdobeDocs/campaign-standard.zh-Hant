@@ -4,12 +4,13 @@ product: campaign
 title: 早期發行說明
 description: 早期發行說明
 feature: 概覽
-role: Business Practitioner
+role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 7eb12fbb89f677eb7184cb5ff200d3f8a466d3c8
-workflow-type: ht
+exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 100%
 
@@ -24,7 +25,7 @@ ht-degree: 100%
 > 在預備環境升級日期前，此內容可能會有所變更，恕不另行通知。 請參閱[發行計劃頁面](../../rn/using/release-planning.md)以瞭解更多資訊。
 
 
-## 發行版本 21.2 – 2021 年 6 月{#release-21-2---june-2021}
+## 發行版本 21.2 – 2021 年 6 月 {#release-21-2---june-2021}
 
 **功能改善**
 
@@ -54,7 +55,7 @@ ht-degree: 100%
 
 * 已新增新訊息，以確認成功從 v4 推送應用程式移轉至 v5 推送應用程式。
 
-* 在建立 JSONWeb Token 以驗證 Campaign StandardAPI 期間，產品設定檔現在為&#x200B;**已考量**。 這表示分配給安全性群組 (符合 AdobeIO 上的產品設定檔) 的組織單位和角色，將套用至 Campaign Standard Rest API 呼叫所需的 IMS 技術帳戶。 (CAMP-47479)
+* 在建立 JSONWeb Token 以驗證 Campaign Standard API 期間，產品設定檔現在為&#x200B;**已考量**。 這表示分配給安全性群組 (符合 AdobeIO 上的產品設定檔) 的組織單位和角色，將套用至 Campaign Standard Rest API 呼叫所需的 IMS 技術帳戶。 (CAMP-47479)
 
 
 **修補程式**
@@ -91,7 +92,7 @@ ht-degree: 100%
 
 * 修正在變更工作流程的內部名稱後，重設&#x200B;**增量查詢**&#x200B;活動的問題。 將日期欄位用作增量模式時，就會發生此問題。 (CAMP-47674)
 
-* 修正當使用 Adobe Experience Manager 整合建立多語言電子郵件時，傳遞摘要無法顯示預覽縮圖的問題。 使用&#x200B;**「語言副本建立」**&#x200B;按鈕建立電子郵件變體時，會發生此問題。 (CAMP-47810)
+* 修正當使用 Adobe Experience Manager 整合建立多語言電子郵件時，傳遞摘要無法顯示預覽縮圖的問題。 使用&#x200B;**建立語言副本**&#x200B;按鈕建立電子郵件變體時，就會發生此問題。 (CAMP-47810)
 
 * 修正使用者無法透過電子郵件或簡訊子傳遞存取父傳遞的問題。 (CAMP-47986)
 

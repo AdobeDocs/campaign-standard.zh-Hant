@@ -7,17 +7,16 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
-feature: Proofs
-role: Business Practitioner
+feature: 校樣
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 75b64c43-f066-45e7-8d61-95eba8f52b05
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '584'
 ht-degree: 99%
 
 ---
-
 
 # 傳送校樣 {#sending-proofs}
 
@@ -41,7 +40,7 @@ ht-degree: 99%
    >
    >此功能僅適用於電子郵件通道。
 
-## 傳送校樣 {#sending-a-proof}
+## 傳送證明 {#sending-a-proof}
 
 若要傳送校樣，請依照下列步驟進行：
 
@@ -110,4 +109,4 @@ ht-degree: 99%
 * [使用目標設定檔測試電子郵件訊息](../../sending/using/testing-messages-using-target.md)
 * [管理測試設定檔](../../audiences/using/managing-test-profiles.md)
 * [預覽訊息](../../sending/using/previewing-messages.md)
-* [設定電子郵件通道](../../administration/using/configuring-email-channel.md)
+* [設定電子郵件頻道](../../administration/using/configuring-email-channel.md)

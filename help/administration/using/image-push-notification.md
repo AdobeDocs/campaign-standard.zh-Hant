@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
 feature: 執行個體設定
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 474c8002-4263-4617-9480-6a9b603bde8e
-source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 20%
@@ -26,7 +26,7 @@ ht-degree: 20%
 
 在本檔案中，了解如何從Adobe Campaign Standard iOS推播通知顯示影像。
 
-## 步驟1:設定推播通知{#set-up-push}
+## 步驟1:設定推播通知 {#set-up-push}
 
 推播通知受Experience PlatformSDK支援。
 
@@ -36,7 +36,7 @@ ht-degree: 20%
 
 若要透過Experience CloudSDK應用程式傳送推播通知，行動應用程式必須在Adobe Experience Platform Launch中設定，並在Adobe Campaign中設定。 如需關於此項目的詳細資訊，請參閱此[頁面](https://helpx.adobe.com/tw/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign)。
 
-## 步驟2:在Adobe Campaign {#customize-push}中自訂推播通知
+## 步驟2:在Adobe Campaign中自訂推播通知 {#customize-push}
 
 為了微調您的推播通知，Adobe Campaign 可讓您在設計推播通知時存取一組進階選項。
 
@@ -51,7 +51,7 @@ ht-degree: 20%
 
 1. 預覽並儲存推播通知。
 
-## 步驟3:調整行動應用程式代碼{#mobile-app-code}
+## 步驟3:調整行動應用程式程式碼 {#mobile-app-code}
 
 在Adobe Campaign中自訂推播通知後，您必須設定行動應用程式以在裝置上顯示影像。
 
@@ -154,7 +154,7 @@ userInfo: [AnyHashable("media-attachment-url"): https://pbs.twimg.com/profile_im
 }]
 ```
 
-## 步驟4:測試傳送推播{#test-send-push}
+## 步驟4:測試傳送推播 {#test-send-push}
 
 您現在可以測試建立應用程式以及您在上述步驟2中建立的傳送。 如需準備和傳送推播通知的詳細資訊，請參閱此[page](../../channels/using/preparing-and-sending-a-push-notification.md)。
 

@@ -1,23 +1,23 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 開始使用個人檔案和對象
+title: 開始使用設定檔和對象
 description: 定義目標人口、選取對象、篩選收件者、收集資料及更新設定檔。
 audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
 feature: 設定檔
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: b4de2f1a-09ec-486d-b1ef-66208cbe211f
-source-git-commit: bc55ccea9691d904bbc1b64d93d0a7b8486940e5
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 22%
 
 ---
 
-# 開始使用個人檔案和對象{#about-profiles-and-audiences}
+# 開始使用設定檔和對象{#about-profiles-and-audiences}
 
 <table>
 <tr>
@@ -32,7 +32,7 @@ Campaign Integrated Customer Profile 可讓您透過單一檢視追蹤所有通�
 
 使用服務和登陸頁面，管理客戶權限和同意，以便設定簡單的選擇加入和選擇退出機制。
 
-## 分段並定位{#segmenting-targeting}
+## 劃分和定位 {#segmenting-targeting}
 
 <img src="assets/do-not-localize/icon_segment.svg" width="60px">
 
@@ -52,7 +52,7 @@ Adobe Campaign可即時建立豐富的客戶設定檔，讓您隨著客戶偏好
 * [使用中的設定檔案](../../audiences/using/active-profiles.md)
 * [管理測試設定檔](../../audiences/using/managing-test-profiles.md)
 * [充實 Campaign 資料庫](../../audiences/using/enriching-campaign-database.md)
-* [關於閱聽眾](../../audiences/using/about-audiences.md)
+* [關於對象](../../audiences/using/about-audiences.md)
 * [在訊息中選取對象](../../audiences/using/selecting-an-audience-in-a-message.md)
 * [新增控制組](../../sending/using/control-group.md)
 
@@ -73,7 +73,7 @@ Adobe Campaign可即時建立豐富的客戶設定檔，讓您隨著客戶偏好
 顯示全文:
 
 * [關於訂閱](../../audiences/using/about-subscriptions.md)
-* [關於 Campaign 中的加入和退出](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* [關於 Campaign 中的選擇加入和選擇退出](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 ## 隱私權法規遵循 {#privacy}
 

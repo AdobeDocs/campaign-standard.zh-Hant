@@ -6,17 +6,16 @@ description: 使用角色、群組和組織單位管理您的 Adobe Campaign 運
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-feature: Access Management
-role: Administrator
+feature: 存取管理
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6aa53aa9-aa5c-4b29-ad84-d983da241ceb
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 98%
+source-wordcount: '228'
+ht-degree: 99%
 
 ---
-
 
 # 關於存取管理{#about-access-management}
 
@@ -48,4 +47,3 @@ Adobe Campaign 可讓您定義並管理指派給不同使用者的權限。權�
 * [組織單位](../../administration/using/organizational-units.md)
 * [角色清單](../../administration/using/list-of-roles.md)
 * [管理群組和使用者](../../administration/using/managing-groups-and-users.md)
-

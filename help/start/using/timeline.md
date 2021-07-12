@@ -7,17 +7,16 @@ audience: start
 content-type: reference
 topic-tags: marketing-plans
 context-tags: campaignCalendar,main
-feature: Campaigns
-role: Business Practitioner
+feature: 行銷活動
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: d012e2e7-8022-4bfe-8290-3c512b60d9cf
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '373'
 ht-degree: 90%
 
 ---
-
 
 # 時間表{#timeline}
 
@@ -35,8 +34,8 @@ ht-degree: 90%
 
 使用表徵圖；
 
-* ![](assets/timeline_zoom_in.png) 減少周長，或在更有限的期間內增加細節層級，直到顯示天數為止
-* ![](assets/timeline_zoom_out.png) 增加周長，或顯示更長的時間範圍
+* ![](assets/timeline_zoom_in.png) 減少周長，或在更有限的期間內增加詳細程度，直到顯示天數為止
+* ![](assets/timeline_zoom_out.png) 增加周長，或顯示更大的時間範圍
 
 按一下每個程式名稱右側的箭頭，以顯示對應的內容。方案可包含子方案、行銷活動和登錄頁面。行銷活動的部署方式與程式相同，可包含電子郵件、簡訊和登錄頁面。
 
@@ -52,7 +51,7 @@ ht-degree: 90%
 
 * ![](assets/timeline_program_icon.png) 方案
 * ![](assets/timeline_campaign_icon.png) Campaign
-* ![](assets/timeline_lp_icon.png) 著陸頁面
+* ![](assets/timeline_lp_icon.png) 登陸頁面
 * ![](assets/timeline_email_icon.png) 電子郵件
 * ![](assets/timeline_sms_icon.png) SMS
 * ![](assets/timeline_push_icon.png) 推播通知

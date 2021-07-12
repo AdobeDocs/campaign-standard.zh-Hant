@@ -1,27 +1,27 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 發行說明2019年
+title: 發行說明 2019 年
 description: 本頁列出 2019 年的所有 Adobe Campaign Standard 版本。
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 feature: 概覽
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
-source-git-commit: df86191b2941a6121a52b2255e19f8b623b64be6
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '7591'
-ht-degree: 8%
+source-wordcount: '7590'
+ht-degree: 7%
 
 ---
 
-# 發行說明 2019{#release-notes-2019}
+# 發行說明 2019 年{#release-notes-2019}
 
 [發行計畫](https://helpx.adobe.com/tw/campaign/kb/acs-release-planning.html) |  [控制面板發行](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=zh-Hant) |  [檔案更新](../../rn/using/documentation-updates.md)  |  [最新發行說明](../../rn/using/release-notes.md) |  [已棄用的功能](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=zh-Hant#release-notes)
 
-## 發行版本19.4 - 2019年12月{#release-19-4---october-2019}
+## 發行版本19.4 - 2019年12月 {#release-19-4---october-2019}
 
 **新增功能？**
 
@@ -36,9 +36,9 @@ ht-degree: 8%
    <td> <p>CCPA是加州新推出的隱私權法，調和了2020年1月1日起生效的資料保護要求，並將其現代化。 CCPA適用於為居住在加州的資料主體保管資料的Adobe Campaign客戶。</p>
    <p>除了Adobe Campaign中已提供的隱私權功能（包括同意管理、資料保留設定和使用者角色）之外，我們也趁此次機會加入其他功能，以協助您為CCPA做好準備：</p>
    <ul>
-    <li>存取權與刪除權：我們善用針對GDPR新增的功能。 <a href="https://helpx.adobe.com/content/help/tw/campaign/kb/acs-privacy.html#righttoaccess">瞭解更多</a> </li>
+    <li>存取權與刪除權：我們善用針對GDPR新增的功能。 <a href="https://helpx.adobe.com/content/help/tw/campaign/kb/acs-privacy.html#righttoaccess">深入瞭解</a> </li>
     <li><p>建立隱私權要求時，隱私權核心服務已新增規範類型（GDPR或CCPA）。 此方法是您應該用於所有存取和刪除請求的方法。不建議使用促銷活動 API 和介面來存取和刪除請求。請參閱「<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">已過時和已移除的功能</a>」文章。</p></li>
-    <li>「設定檔」資源已新增<strong>CCPA選擇退出</strong>欄位，讓Adobe Campaign使用者追蹤消費者是否選擇退出個人資訊銷售。 <a href="https://helpx.adobe.com/tw/campaign/kb/acs-privacy.html#ccpa">瞭解更多</a>。</li>
+    <li>「設定檔」資源已新增<strong>CCPA選擇退出</strong>欄位，讓Adobe Campaign使用者追蹤消費者是否選擇退出個人資訊銷售。 <a href="https://helpx.adobe.com/tw/campaign/kb/acs-privacy.html#ccpa">深入瞭解</a>。</li>
   </ul>
     <p>請參閱<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">作法影片</a>。</p>
 </td> 
@@ -267,13 +267,13 @@ ht-degree: 8%
 * 修正非管理員使用者無法儲存或排程報表的問題。 (CAMP-31133)
 * 修正在「載入檔案」工作流程活動中使用「|」作為日期分隔符號的問題。 (CAMP-34706)
 
-## 發行版本19.2.4 – 2019 年 6 月{#release-19-2-4---june-2019}
+## 發行版本 19.2.4 – 2019 年 6 月 {#release-19-2-4---june-2019}
 
 **電子郵件設計工具**
 
 * 修正在HTML中使用空白樣式標籤時，使用者無法編輯片段的問題。 這是CAMP-33778 19.2.3的後續修正。
 
-## 發行版本19.2.3 – 2019 年 6 月{#release-19-2-3---june-2019}
+## 發行版本 19.2.3 – 2019 年 6 月 {#release-19-2-3---june-2019}
 
 **電子郵件設計工具**
 
@@ -292,7 +292,7 @@ ht-degree: 8%
 * 修正無法透過服務資源的資訊擴充交易式訊息內容的問題。 (CAMP-33707)
 * 修正了封鎖清單登錄頁面中嘗試從服務取消訂閱設定檔時發生的問題。
 
-## 版本 19.2 – 2019 年 5 月{#release-19-2---may-2019}
+## 版本 19.2 – 2019 年 5 月 {#release-19-2---may-2019}
 
 **新增功能？**
 
@@ -366,14 +366,14 @@ ht-degree: 8%
 * 郵遞區號維度已從動態報告中移除。 建議您改用「城市」、「國家/地區」、「州」維度。
 * 應用程式內訊息的「首次啟動」生命週期事件觸發器已移除。
 * 匯出包含安全組時，它現在包含指派給每個群組的角色。 (CAMP-32960)
-* 在「載入檔案」活動中，新選項可讓您檢查要上傳的檔案的欄是否符合欄定義。 如需詳細資訊，請參閱[相關的文件](../../automating/using/load-file.md)，以瞭解詳情。(CAMP-32229)
-* 現在可以使用裝載來啟動工作流程，讓您在工作流程中的活動之間使用和共用外部參數。 如需詳細資訊，請參閱[相關的文件](../../automating/using/calling-a-workflow-with-external-parameters.md)，以瞭解詳情。(CAMP-29412和CAMP-29413)
+* 在「載入檔案」活動中，新選項可讓您檢查要上傳的檔案的欄是否符合欄定義。 如需詳細資訊，請參閱[詳細檔案](../../automating/using/load-file.md)。 (CAMP-32229)
+* 現在可以使用裝載來啟動工作流程，讓您在工作流程中的活動之間使用和共用外部參數。 如需詳細資訊，請參閱[詳細檔案](../../automating/using/calling-a-workflow-with-external-parameters.md)。 (CAMP-29412和CAMP-29413)
 * Campaign StandardAPI現在可讓您使用裝載來更新設定檔的地理和組織單位。 如需詳細資訊，請參閱[相關的文件](../../api/using/get-started-apis.md)，以瞭解詳情。
 * 無法存取資料庫中的物件時，錯誤訊息已更清楚明瞭，以便了解。
 * 在擷取檔案活動中，定義要匯出的檔案名稱時，已更新Javascript功能。 現在只有formatDate函式可在「輸出」欄位中使用。 如需詳細資訊，請參閱[相關的文件](../../automating/using/extract-file.md)，以瞭解詳情。
 * 改善自訂資源的自動序列ID產生。 新自訂資源的主要金鑰現在預設為64位元。
 * 改善自訂資源發佈測試模式。 如果上次自訂資源發佈失敗且未修正，系統現在會向使用者顯示警告訊息。 在自訂資源發佈失敗後，您可以回復至上次使用的版本。 如需詳細資訊，請參閱[相關的文件](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)，以瞭解詳情。
-* 已在傳輸檔案活動中新增選項。 它可讓您在使用檔案下載動作時，以SFTP模式排序檔案。 如需詳細資訊，請參閱[相關的文件](../../automating/using/transfer-file.md)，以瞭解詳情。(CAMP-33109)
+* 已在傳輸檔案活動中新增選項。 它可讓您在使用檔案下載動作時，以SFTP模式排序檔案。 如需詳細資訊，請參閱[詳細檔案](../../automating/using/transfer-file.md)。 (CAMP-33109)
 
 **修補程式**
 
@@ -438,7 +438,7 @@ ht-degree: 8%
    <td> 工作流程增強功能<br /> </td> 
    <td> <p>已新增下列工作流程功能：</p> 
     <ul> 
-     <li> 您現在可以從相同的Campaign例項複製貼上工作流程或其他工作流程中的活動。 這樣，您就可以輕鬆複製整個工作流程或特定活動，並保留最初定義的設定。 如需詳細資訊，請參閱<a href="../../automating/using/workflow-interface.md#duplicating-workflow-activities">相關的文件</a>，以瞭解詳情。(CAMP-20014) </li> 
+     <li> 您現在可以從相同的Campaign例項複製貼上工作流程或其他工作流程中的活動。 這樣，您就可以輕鬆複製整個工作流程或特定活動，並保留最初定義的設定。 如需詳細資訊，請參閱<a href="../../automating/using/workflow-interface.md#duplicating-workflow-activities">詳細檔案</a>。 (CAMP-20014) </li> 
      <li> 使用<strong>載入檔案</strong>活動時，您現在可以將時間戳記新增至包含已拒絕記錄的檔案名稱。 如需詳細資訊，請參閱<a href="../../automating/using/load-file.md#configuration">相關的文件</a>，以瞭解詳情。 </li> 
      <li> <strong></strong> 如果活 <strong></strong> 動未擷取任何資料，查詢和區段活動現在可讓您啟用出站轉變。 </li> 
     </ul> </td> 

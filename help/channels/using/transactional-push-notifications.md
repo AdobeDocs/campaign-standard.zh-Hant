@@ -1,24 +1,24 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 異動推播通知
+title: 異動推送通知
 description: 了解如何使用Adobe Campaign Standard傳送交易式推播通知。
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: 交易式傳訊
-role: Business Practitioner
+feature: 異動訊息傳送
+role: User
 level: Intermediate
 exl-id: 61988c1d-d538-47b1-94c1-f3fbdf314b65
-source-git-commit: 33d3dc43a64b9670666844a3266e2aa2458a1c40
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '1453'
 ht-degree: 4%
 
 ---
 
-# 異動推播通知{#transactional-push-notifications}
+# 異動推送通知{#transactional-push-notifications}
 
 您可以使用Adobe Campaign在iOS和Android行動裝置上傳送交易推播通知。 這些訊息會在您利用Experience Cloud行動SDK在Adobe Campaign中設定的行動應用程式上接收。
 
@@ -33,13 +33,13 @@ ht-degree: 4%
 * [以事件為目標的交易式推播通知](#transactional-push-notifications-targeting-an-event)
 * [交易式推播通知以來自](#transactional-push-notifications-targeting-a-profile) Adobe Campaign資料庫的設定檔為目標
 
-## 以事件{#transactional-push-notifications-targeting-an-event}為目標的交易式推播通知
+## 以事件為目標的交易式推播通知 {#transactional-push-notifications-targeting-an-event}
 
 您可以使用Adobe Campaign將&#x200B;**匿名交易推播通知傳送給已選擇從行動應用程式接收通知的所有使用者**。
 
 在此情況下，只會使用事件本身包含的資料來定義傳送目標&#x200B;**。**&#x200B;不會利用來自Adobe Campaign整合設定檔資料庫的資料。
 
-### 設定事件型交易式推播通知{#configuring-event-based-transactional-push-notification}
+### 設定事件型交易式推播通知 {#configuring-event-based-transactional-push-notification}
 
 若要傳送交易式推播通知給選擇從行動應用程式接收通知的所有使用者，您必須先建立並設定事件，以事件本身包含的資料為目標。
 
@@ -71,7 +71,7 @@ ht-degree: 4%
 
 1. 將事件整合至您的網站（請參閱[整合觸發](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)的事件）。
 
-### 傳送事件型交易式推播通知{#sending-event-based-transactional-push-notification}
+### 傳送事件型交易式推播通知 {#sending-event-based-transactional-push-notification}
 
 例如，航空公司想要邀請其行動應用程式使用者前往相關登機口。
 
@@ -119,7 +119,7 @@ ht-degree: 4%
 
 *「你好簡·格林，剛開始登機！請轉至B18門。&quot;*
 
-## 以設定檔{#transactional-push-notifications-targeting-a-profile}為目標的交易式推播通知
+## 以設定檔為目標的交易式推播通知 {#transactional-push-notifications-targeting-a-profile}
 
 您可以傳送交易式推播通知&#x200B;**給已訂閱您行動應用程式**&#x200B;的Adobe Campaign設定檔。 此傳送可包含[個人化欄位](../../designing/using/personalization.md#inserting-a-personalization-field)，例如直接從Adobe Campaign資料庫擷取的收件者名字。
 
@@ -133,7 +133,7 @@ ht-degree: 4%
 
 有關訪問和編輯配置檔案的詳細資訊，請參閱[關於配置檔案](../../audiences/using/about-profiles.md)。
 
-### 設定設定檔交易式推播通知{#configuring-profile-based-transactional-push-notification}
+### 設定設定檔交易式推播通知 {#configuring-profile-based-transactional-push-notification}
 
 若要傳送交易式推播通知給已訂閱您行動應用程式的Adobe Campaign設定檔，您必須先建立並設定以Adobe Campaign資料庫為目標的事件。
 
@@ -163,7 +163,7 @@ ht-degree: 4%
 
 1. 將事件整合至您的網站（請參閱[整合觸發](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)的事件）。
 
-### 傳送設定檔交易式推播通知{#sending-profile-based-transactional-push-notification}
+### 傳送設定檔交易式推播通知 {#sending-profile-based-transactional-push-notification}
 
 例如，某家航空公司想要傳送最後一次登機電話給所有已訂閱其行動應用程式的Adobe Campaign使用者。
 
@@ -196,7 +196,7 @@ ht-degree: 4%
 >
 >沒有註冊Token、應用程式和推播平台欄位。 在此範例中，調解是使用電子郵件欄位執行。
 
-## 變更交易式推播通知{#change-target-mapping}中的目標對應
+## 變更交易式推播通知中的目標對應 {#change-target-mapping}
 
 交易式推播通知使用特定的[目標對應](../../administration/using/target-mappings-in-campaign.md)，其中包含傳送此類傳送所需的技術設定。
 
@@ -210,7 +210,7 @@ ht-degree: 4%
 
 1. 展開&#x200B;**[!UICONTROL Advanced parameters]**&#x200B;區段。
 
-1. 按一下 **[!UICONTROL Select a 'Target mapping' element]**。
+1. 按一下&#x200B;**[!UICONTROL Select a 'Target mapping' element]**。
 
    ![](assets/message-center_push_target-mapping.png)
 

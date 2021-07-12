@@ -7,11 +7,11 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 feature: 概覽
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 887396a0871a8ed93642c55a49c8737f5c98bfc2
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '990'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 # 最新版本{#latest-release}
 
-## 發行版本 21.2 – 2021 年 6 月{#release-21-2---june-2021}
+## 發行版本 21.2 – 2021 年 6 月 {#release-21-2---june-2021}
 
 以下列出下一版 Campaign Standard 發行版本中包含的新功能、改良和修正。以下列出此 Campaign Standard 發行中包含的新功能、改良和修正。
 

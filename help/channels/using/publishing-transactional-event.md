@@ -2,84 +2,83 @@
 solution: Campaign Standard
 product: campaign
 title: 發佈異動事件
-description: 瞭解如何預覽、發佈、取消發佈和刪除交易事件設定。
+description: 了解如何預覽、發佈、取消發佈和刪除交易式事件設定。
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transactional Messaging
-role: Business Practitioner
+feature: 異動訊息傳送
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6bcd8dcd-d710-4ca3-937d-bf4339f36069
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '609'
 ht-degree: 8%
 
 ---
 
-
 # 發佈異動事件 {#publishing-transactional-event}
 
-完成[configuration](../../channels/using/configuring-transactional-event.md)後，該事件即可發佈。 預覽、發佈、取消發佈和刪除事件的步驟如下。
+完成[configuration](../../channels/using/configuring-transactional-event.md)後，該事件即可發佈。 以下說明預覽、發佈、取消發佈和刪除事件的步驟。
 
 >[!IMPORTANT]
 >
->只有[職能管理員](../../administration/using/users-management.md#functional-administrators) <!--being part of the **[!UICONTROL All]** [organizational unit](../../administration/using/organizational-units.md) -->擁有發佈事件配置的適當權限。
+>只有[功能管理員](../../administration/using/users-management.md#functional-administrators) <!--being part of the **[!UICONTROL All]** [organizational unit](../../administration/using/organizational-units.md) -->具有發佈事件設定的適當權限。
 
-[本節](../../channels/using/publishing-transactional-message.md)提供了一個圖表，說明整個事務性消息傳遞發佈過程，包括發佈和取消發佈事件配置。
+[此小節](../../channels/using/publishing-transactional-message.md)中提供一個圖表，說明整個交易式訊息發佈過程，包括發佈和取消發佈事件配置。
 
 發佈完成後：
-* 自動建立相應的事務消息。 請參閱[編輯事務性消息](../../channels/using/editing-transactional-message.md)。
-* 網站開發人員將使用的API已部署，交易事件現在可以傳送。 請參閱[整合事件觸發](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)。
+* 會自動建立對應的交易式訊息。 請參閱[編輯交易式訊息](../../channels/using/editing-transactional-message.md)。
+* 系統已部署網站開發人員將使用的API，且現在可以傳送交易事件。 請參閱[整合事件觸發](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)。
 
-## 預覽和發佈事件{#previewing-and-publishing-the-event}
+## 預覽和發佈事件 {#previewing-and-publishing-the-event}
 
 您必須先預覽並發佈事件，才能使用事件。
 
-1. 按一下&#x200B;**[!UICONTROL API preview]**&#x200B;按鈕，查看網站開發人員在發佈之前將會使用的REST API模擬。
+1. 按一下&#x200B;**[!UICONTROL API preview]**&#x200B;按鈕，查看網站開發人員在發佈REST API前所使用的模擬。
 
-   發佈事件後，此按鈕也可讓您在生產中檢視API的預覽。 請參閱[整合事件觸發](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)。
+   發佈事件後，此按鈕也可讓您在生產環境中查看API的預覽。 請參閱[整合事件觸發](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)。
 
    ![](assets/message-center_api_preview.png)
 
    >[!NOTE]
    >
-   >REST API會依所選渠道和所選定的定位維度而有所不同。 有關各種配置的詳細資訊，請參閱[本節](../../channels/using/configuring-transactional-event.md#transactional-event-specific-configurations)。
+   >REST API會根據選取的管道和選取的目標維度而有所不同。 有關各種配置的詳細資訊，請參閱[此部分](../../channels/using/configuring-transactional-event.md#transactional-event-specific-configurations)。
 
-1. 按一下&#x200B;**[!UICONTROL Publish]**&#x200B;啟動發佈。
+1. 按一下&#x200B;**[!UICONTROL Publish]**&#x200B;以開始發佈。
 
    ![](assets/message-center_pub.png)
 
-   網站開發人員將使用的API已部署，交易事件現在可以傳送。
+   系統已部署網站開發人員將使用的API，且現在可以傳送交易事件。
 
-1. 您可以在對應的頁籤中查看發佈日誌。
+1. 您可以在對應索引標籤中檢視發佈記錄檔。
 
    ![](assets/message-center_logs.png)
 
    >[!IMPORTANT]
    >
-   >每次修改事件時，您必須再按一下&#x200B;**[!UICONTROL Publish]**，以產生網站開發人員將使用的更新REST API。
+   >每次修改事件時，必須再次按一下&#x200B;**[!UICONTROL Publish]**，以產生網站開發人員將使用的更新REST API。
 
-   發佈事件後，會自動建立連結至新事件的[交易訊息](../../channels/using/editing-transactional-message.md)。
+   發佈事件後，會自動建立連結至新事件的[交易式訊息](../../channels/using/editing-transactional-message.md)。
 
-1. 您可以透過位於左側區域的連結直接存取此交易性訊息。
+1. 您可以透過左側區域的連結直接存取此交易式訊息。
 
    ![](assets/message-center_messagegeneration.png)
 
    >[!NOTE]
    >
-   >要觸發事件發送事務性消息，您必須修改並發佈剛建立的消息。 請參閱[編輯](../../channels/using/editing-transactional-message.md)和[發佈事務性消息](../../channels/using/publishing-transactional-message.md)部分。 您也必須將此觸發事件[整合至您的網站。](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
+   >為了讓事件觸發傳送交易式訊息，您必須修改並發佈剛建立的訊息。 請參閱[編輯](../../channels/using/editing-transactional-message.md)和[發佈交易式訊息](../../channels/using/publishing-transactional-message.md)區段。 您也必須將此觸發事件](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)整合至您的網站。[
 
-1. 一旦Adobe Campaign開始接收與此事件配置相關的事件，您可以按一下&#x200B;**[!UICONTROL History]**&#x200B;部分下的&#x200B;**[!UICONTROL Latest transactional events]**&#x200B;連結，訪問您的第三方服務發送並由Adobe Campaign處理的最新事件。
+1. Adobe Campaign開始接收與此事件設定相關的事件後，您可以按一下&#x200B;**[!UICONTROL History]**&#x200B;區段下的&#x200B;**[!UICONTROL Latest transactional events]**&#x200B;連結，以存取您的第三方服務傳送並由Adobe Campaign處理的最新事件。
 
 ![](assets/message-center_latest-events.png)
 
-事件（以JSON格式）會從最新到最舊列出。 此清單可讓您檢查資料（例如內容或事件狀態），以利控制和除錯。
+事件（JSON格式）會從最近到最舊列出。 此清單可讓您檢查資料（例如內容或事件狀態），以利控制和偵錯。
 
-## 取消發佈事件{#unpublishing-an-event}
+## 取消發佈事件 {#unpublishing-an-event}
 
-**[!UICONTROL Unpublish]**&#x200B;按鈕可讓您取消事件的發佈，該發佈會從REST API中刪除與先前建立的事件對應的資源。
+**[!UICONTROL Unpublish]**&#x200B;按鈕可讓您取消事件的發佈，該發佈會從與REST API（與您先前建立之事件相對應的資源）刪除。
 
 現在，即使事件是透過網站觸發，也不會再傳送相對應的訊息，也不會將之儲存在資料庫中。
 
@@ -87,9 +86,9 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->如果您已經發佈了相應的事務性消息，事務性消息發佈也將被取消。 請參閱[取消發佈事務性消息](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message)。
+>如果您已發佈對應的交易式訊息，交易式訊息發佈也會被取消。 請參閱[取消發佈交易式訊息](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message)。
 
-按一下&#x200B;**[!UICONTROL Publish]**&#x200B;按鈕以生成新的REST API。
+按一下&#x200B;**[!UICONTROL Publish]**&#x200B;按鈕以產生新的REST API。
 
 <!--## Transactional messaging publication process {#transactional-messaging-pub-process}
 
@@ -99,18 +98,18 @@ The chart below illustrates the transactional messaging publication process.
 
 For more on publishing, pausing and unpublishing a transactional message, see [this section](../../channels/using/publishing-transactional-message.md).-->
 
-## 刪除事件{#deleting-an-event}
+## 刪除事件 {#deleting-an-event}
 
-事件一經解除發佈，或事件尚未發佈後，您即可從事件設定清單中刪除。 操作步驟：
+取消發佈事件或尚未發佈事件後，您可以從事件設定清單中刪除該事件。 操作步驟：
 
 1. 按一下左上方的標誌 **[!UICONTROL Adobe Campaign]**，然後選取 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**。
-1. 將滑鼠指標暫留在您選擇的事件設定上，然後選取&#x200B;**[!UICONTROL Delete element]**&#x200B;按鈕。
+1. 將滑鼠移至所選事件配置上，然後選取&#x200B;**[!UICONTROL Delete element]**&#x200B;按鈕。
 
    ![](assets/message-center_delete-button.png)
 
    >[!NOTE]
    >
-   >請確定事件配置具有&#x200B;**[!UICONTROL Draft]**&#x200B;狀態，否則您將無法刪除它。 **[!UICONTROL Draft]**&#x200B;狀態適用於尚未發佈或[未發佈](#unpublishing-an-event)的事件。
+   >請確定事件設定具有&#x200B;**[!UICONTROL Draft]**&#x200B;狀態，否則您將無法將其刪除。 **[!UICONTROL Draft]**&#x200B;狀態適用於尚未發佈或已[unpublished](#unpublishing-an-event)的事件。
 
 1. 按一下 **[!UICONTROL Confirm]** 按鈕。
 
@@ -118,4 +117,4 @@ For more on publishing, pausing and unpublishing a transactional message, see [t
 
 >[!IMPORTANT]
 >
->刪除已發佈且已使用的事件配置也會刪除對應的事務性消息及其發送和跟蹤日誌。
+>刪除已發佈且已使用的事件設定也會刪除對應的交易式訊息及其傳送和追蹤記錄。

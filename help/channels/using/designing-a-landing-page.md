@@ -7,20 +7,20 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,main
-feature: 登錄頁面
-role: Business Practitioner
+feature: 登陸頁面
+role: User
 level: Intermediate
 exl-id: 28398843-a170-48cf-b9c0-dca7af56236d
-source-git-commit: c9d2edbc0731734967af033dc318f5f60ea5cc8d
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '1668'
 ht-degree: 96%
 
 ---
 
-# 設計登錄頁面{#designing-a-landing-page}
+# 設計登陸頁面{#designing-a-landing-page}
 
-## 關於登錄頁面內容設計內容設計{#about-content-design}
+## 關於登錄頁面內容設計內容設計 {#about-content-design}
 
 會將登錄頁面建立為任何[行銷活動](../../start/using/marketing-activities.md#about-marketing-activities)的形式。
 
@@ -287,7 +287,7 @@ ht-degree: 96%
 
 您也可以使用工具列來變更字型屬性：調整字型大小、使文字變為粗體或斜體、畫底線或變更文字的顏色。請參閱[本區段](../../channels/using/designing-a-landing-page.md#landing-page-content-editor-interface)。
 
-### 在登錄頁面中插入影像{#inserting-images-in-a-landing-page}
+### 在登錄頁面中插入影像 {#inserting-images-in-a-landing-page}
 
 1. 在登錄頁面內容中，選取包含影像的區塊。
 1. 選取 **[!UICONTROL Insert]** 按鈕。

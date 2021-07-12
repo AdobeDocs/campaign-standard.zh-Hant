@@ -6,17 +6,16 @@ description: 探索重要功能、使用者介面和全域準則。
 audience: start
 content-type: reference
 topic-tags: about-adobe-campaign
-feature: Overview
-role: Business Practitioner
+feature: 概覽
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: b62c70fe-c838-4a0e-9b0a-2e916a06ff39
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '781'
-ht-degree: 99%
+source-wordcount: '778'
+ht-degree: 100%
 
 ---
-
 
 # 開始使用 Campaign Standard {#about-campaign-standard}
 
@@ -36,7 +35,7 @@ Adobe Campaign Standard 是功能強大的跨頻道行銷活動管理工具，�
 
 使用多項功能&#x200B;**豐富您的資料庫**：工作流程、登陸頁面或 API，或 Microsoft Dynamics 365。
 
-[開始使用個人檔案和對象](../../audiences/using/get-started-profiles-and-audiences.md)
+[開始使用設定檔和對象](../../audiences/using/get-started-profiles-and-audiences.md)
 
 ## 協調跨頻道行銷活動 {#orchestrate-campaigns}
 

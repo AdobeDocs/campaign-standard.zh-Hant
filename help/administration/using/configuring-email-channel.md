@@ -8,17 +8,17 @@ content-type: reference
 topic-tags: configuring-channels
 context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;delivery,properties,open
 feature: 執行個體設定
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '2598'
 ht-degree: 76%
 
 ---
 
-# 設定電子郵件通道{#configuring-email-channel}
+# 設定電子郵件頻道{#configuring-email-channel}
 
 身為 Campaign [管理員](../../administration/using/users-management.md#functional-administrators)，您可以進行電子郵件通道設定。這些進階設定包含一般電子郵件通道參數、電子郵件路由帳戶、電子郵件處理規則和電子郵件屬性。在本頁，您將學會如何編輯一般電子郵件和傳送參數的預設值。
 
@@ -72,7 +72,7 @@ ht-degree: 76%
 
    如需隔離的詳細資訊，請參閱[瞭解隔離管理](../../sending/using/understanding-quarantine-management.md)。
 
-## 電子郵件路由帳戶{#email-routing-accounts}
+## 電子郵件路由帳戶 {#email-routing-accounts}
 
 預設會提供 **[!UICONTROL Integrated email routing]** 外部帳戶。其包含可讓應用程式傳送電子郵件的技術參數。
 
@@ -240,7 +240,7 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 * **[!UICONTROL Tracking validity limit]**：可讓您定義要對 URL 啟動追蹤的持續時間。
 * **[!UICONTROL Substitution URL for expired URLs]**：您可以對追蹤過期後將顯示的網頁輸入 URL。
 
-### 進階參數 {#advanced-parameters}
+### 高級參數 {#advanced-parameters}
 
 **[!UICONTROL Advanced parameters]** 一節包含多個參數。
 
@@ -308,7 +308,7 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 
 * 會自動完成 **[!UICONTROL Created by]**、**[!UICONTROL Created]**、**[!UICONTROL Modified by]** 及 **[!UICONTROL Last modified]** 欄位。
 
-## 舊版設定{#legacy-settings}
+## 舊版設定 {#legacy-settings}
 
 如果您&#x200B;**NOT**&#x200B;執行最新版的Campaign，則下列說明的參數和UI區段仍適用於您。
 
@@ -320,7 +320,7 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 
 依預設，會為第一天排程五次重試，最小間隔為一小時，分散在一天的24小時內。 在此之後並直到傳送截止日期（在&#x200B;**[!UICONTROL Configuration]**&#x200B;菜單的&#x200B;**[!UICONTROL Delivery parameters]**&#x200B;部分中全局定義）或在傳送級別的&#x200B;**[!UICONTROL Validity period]**&#x200B;部分中（請參閱下面的[傳送持續時間](#legacy-delivery-duration)部分），每天一次重試。
 
-### 傳送持續時間{#legacy-delivery-duration}
+### 傳送持續時間 {#legacy-delivery-duration}
 
 [設定功能表](#email-channel-parameters)中的&#x200B;**[!UICONTROL Message delivery duration]**&#x200B;參數可讓您指定傳送中遇到暫時錯誤或軟退信的任何郵件會重試的時間範圍。
 
@@ -346,7 +346,7 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 
 <!--Bounces are qualified through the **[!UICONTROL Bounce mails]** processing rule. For more on accessing this rule, refer to this [section](#legacy-bounce-mail-qualification).-->
 
-### 傳遞的指標報告{#legacy-delivered-status-report}
+### 傳遞的指標報告 {#legacy-delivered-status-report}
 
 在每則訊息的&#x200B;**[!UICONTROL Summary]**&#x200B;檢視中，當系統回報軟退信和硬退信時，在傳送的有效期間內，**[!UICONTROL Delivered]**&#x200B;百分比會逐漸上升。
 

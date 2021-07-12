@@ -2,34 +2,33 @@
 solution: Campaign Standard
 product: campaign
 title: 推廣服務
-description: 使用Adobe Campaign來推廣服務，並透過專屬的登陸頁面、電子郵件或直接在您的網站上吸引客戶。
+description: 使用Adobe Campaign來推廣服務，並透過專屬登陸頁面、電子郵件或直接在您的網站上與客戶互動。
 audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
-feature: Audiences
-role: Business Practitioner
+feature: 對象
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: c1f8770a-8b25-41db-aa52-828e181a563d
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '197'
 ht-degree: 3%
 
 ---
 
-
 # 推廣服務{#promoting-a-service}
 
-您可以以數種方式提供服務的訂閱，並讓您的訪客能夠管理其訂閱。
+您可以透過數種方式提供服務的訂閱，並讓您的訪客能夠管理其訂閱。
 
-您可以使用促銷活動來促銷服務，方法是：
+您可以使用Campaign透過下列方式促銷服務：
 
-* [將服務訂閱或取消訂閱連結插入電子郵件](../../designing/using/links.md#inserting-a-link)。
+* [在電子郵件中插入服務訂閱或取消訂閱連結](../../designing/using/links.md#inserting-a-link)。
 
-* [在電子郵件中插入訂閱或取消訂閱登陸頁面的連結](../../designing/using/links.md)。在此情況下，服務必須直接在相關登陸頁面的屬性中引用（請參閱[將登陸頁面連結至服務](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)）。
+* [在電子郵件中插入訂閱或取消訂閱登錄頁面的連結](../../designing/using/links.md)。在此情況下，服務必須在相關登錄頁面的屬性中直接參照（請參閱[將登錄頁面連結至服務](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)）。
 
    >[!NOTE]
    >
-   >此外，還必須讓訂閱者能夠取消訂閱。 若要這麼做，請在自動傳送給新訂閱者的確認電子郵件（定義於服務屬性中）以及未來電子報電子郵件中插入服務<b>取消訂閱連結</b>。
+   >也必須讓訂閱者有取消訂閱的可能性。 要執行此操作，請在自動傳送給新訂閱者的確認電子郵件（在服務屬性中定義）以及未來電子報電子郵件中插入服務<b>取消訂閱連結</b>。
 
-* 在網站上提供訂閱或取消訂閱登陸頁面。 提供您登陸頁面存取權的URL必須指定參數，例如相關服務，以及存取該服務的描述檔ID。 此ID可在著陸頁面參數中定義（請參閱[設定著陸頁面](../../channels/using/configuring-landing-page.md)）。
+* 讓網站上可以使用訂閱或取消訂閱登錄頁面。 授予您登錄頁面存取權的URL必須指定參數（例如相關服務），以及存取該參數的設定檔ID。 此ID可在登錄頁面參數中定義（請參閱[設定登錄頁面](../../channels/using/configuring-landing-page.md)）。

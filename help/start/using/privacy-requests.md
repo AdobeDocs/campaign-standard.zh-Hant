@@ -7,11 +7,11 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 feature: 隱私權
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
-source-git-commit: 664274abc26925044625a31489b10e5339a2ef7b
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '1624'
 ht-degree: 100%
 
@@ -89,7 +89,7 @@ Adobe Campaign 提供資料控制方工具，可針對儲存在 Adobe Campaign �
 
 1. 按一下 **[!UICONTROL Create]**。您現在可以根據新的命名空間來建立隱私權要求。如果您使用數個命名空間，您將需要為每個命名空間建立一個隱私權要求。
 
-### 建立隱私權要求 {#create-privacy-request}
+### 建立隱私權請求 {#create-privacy-request}
 
 >[!IMPORTANT]
 >

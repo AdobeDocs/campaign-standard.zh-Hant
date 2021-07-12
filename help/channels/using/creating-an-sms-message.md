@@ -8,18 +8,17 @@ content-type: reference
 topic-tags: sms-messages
 delivercontext-tags: deliveryCreation,wizard
 feature: SMS
-role: Business Practitioner
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 36442480-c6b6-4b7d-b566-40169a7c8544
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 95%
+source-wordcount: '539'
+ht-degree: 96%
 
 ---
 
-
-# 建立 SMS 訊息{#creating-an-sms-message}
+# 建立簡訊訊息{#creating-an-sms-message}
 
 建立簡訊傳送與建立一般電子郵件非常類似。下列步驟將說明此通道的特定設定。如需其他選項的詳細資訊，請參閱[建立電子郵件](../../channels/using/creating-an-email.md)。
 
@@ -84,10 +83,10 @@ ht-degree: 95%
 * [關於 SMS 和推播內容版本](../../channels/using/about-sms-and-push-content-design.md)
 * [管理範本](../../start/using/marketing-activity-templates.md)
 
-## 教學課程影片{#video}
+## 教學課程影片 {#video}
 
-此影片示範如何建立SMS傳送。
+此影片說明如何建立簡訊傳送。
 
 >[!VIDEO](https://video.tv.adobe.com/v/25265/?quality=12)
 
-其他Campaign Standardhow-to影片可在[這裡](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant)取得。
+其他Campaign Standard操作說明影片可在[此處](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant)取得。

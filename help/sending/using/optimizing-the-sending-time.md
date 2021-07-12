@@ -6,17 +6,16 @@ description: 瞭解如何設定傳送時間並改善訊息的開放率。
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-feature: Send Time Optimization
-role: Business Practitioner
+feature: 傳送時間最佳化
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: f35b46c6-de88-4efa-b3b7-8bb9024e40a8
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 97%
+source-wordcount: '275'
+ht-degree: 98%
 
 ---
-
 
 # 最佳化傳送時間{#optimizing-the-sending-time}
 
@@ -46,4 +45,3 @@ ht-degree: 97%
 * **[!UICONTROL Send at a custom date defined by a formula]**：每位收件者都會在指定公式設定的日期和時間收到訊息。
 
    請參閱[計算傳送日期](../../sending/using/computing-the-sending-date.md)。
-

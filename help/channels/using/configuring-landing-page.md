@@ -7,18 +7,18 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,main
-feature: 登錄頁面
-role: Business Practitioner
+feature: 登陸頁面
+role: User
 level: Intermediate
 exl-id: 0b9795e9-83e6-4399-a3b1-fc69081f6a82
-source-git-commit: 2cf8b960789ccf32b4782faa337654986e3fddbf
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 97%
 
 ---
 
-# 設定登錄頁面 {#configuring-landing-page}
+# 設定登陸頁面 {#configuring-landing-page}
 
 ## 確認登錄頁面提交 {#confirm-a-landing-page-submission}
 
@@ -71,7 +71,7 @@ ht-degree: 97%
 
    ![](assets/lp_parameters_3_temp.png)
 
-您也可以使用&#x200B;**[!UICONTROL Authorize unidentified visitors]**&#x200B;選項，授權任何訪客存取著陸頁面。
+您也可以使用&#x200B;**[!UICONTROL Authorize unidentified visitors]**&#x200B;選項授權任何訪客存取登錄頁面。
 
 <!--Use the URL parameters to identify the visitors, using the **[!UICONTROL Authorize visitor identification via URL parameters]** option: then you must choose the loading key and map the filter parameters with the parameters of the corresponding URL.-->
 

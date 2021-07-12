@@ -6,17 +6,16 @@ description: 「瞭解如何導覽與使用 Adobe Campaign 工作區： 首頁�
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-feature: Overview
-role: Business Practitioner
+feature: 概覽
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: afdd981d-f6c7-4800-9e60-3018e0e41c74
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1293'
+source-wordcount: '1290'
 ht-degree: 92%
 
 ---
-
 
 # 介面說明{#interface-description}
 
@@ -41,7 +40,7 @@ Adobe Campaign 可讓您導覽不同的功能表和畫面，以管理您的行�
 * **[!UICONTROL Create an SMS]** 卡片會帶您前往簡訊建立助理。此助理可以讓您選取簡訊類型、選取訊息收件者並定義內容。請參閱[建立簡訊](../../channels/using/creating-an-sms-message.md)區段。
 * 此 **[!UICONTROL Create a Direct mail]** 卡片會將您帶到直接郵件建立助理。請參閱[建立直接郵件](../../channels/using/creating-the-direct-mail.md)區段。
 * 此 **[!UICONTROL Create a push notification]** 卡片會帶您前往通知建立助理。此助理可以讓您選取推播通知類型、選取訊息收件者並定義您的內容。請參閱[建立推播通知](../../channels/using/preparing-and-sending-a-push-notification.md)區段。
-* **[!UICONTROL Create an In-App message]**&#x200B;卡會帶您前往「應用程式內建立助理」。 此助理可讓您選取您要建立的應用程式內訊息類型、定義其屬性、對象和內容。 請參閱[建立應用程式內訊息](../../channels/using/about-in-app-messaging.md)一節。
+* **[!UICONTROL Create an In-App message]**&#x200B;卡片會帶您前往應用程式內建立助理。 此助理可讓您選取您要建立的應用程式內訊息類型、定義其屬性、對象和內容。 請參閱[建立應用程式內訊息](../../channels/using/about-in-app-messaging.md)區段。
 * 此 **[!UICONTROL Marketing activities]** 卡片會帶您進入所有活動、方案與行銷活動的完整清單，尤其是電子郵件、簡訊、工作流程和登錄頁面。然後，您可在此處依名稱、日期、狀態或活動類型進行搜尋並篩選元素。如需詳細資訊，請參閱[行銷活動清單](../../start/using/marketing-activities.md#about-marketing-activities)區段。
 * 此 **[!UICONTROL Programs & campaigns]** 卡片會帶您進入可以建立與管理行銷活動的方案清單。請參閱[方案清單](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns)。
 * 此 **[!UICONTROL Timeline]** 卡片會直接帶您進入行銷活動的互動式時間表，您可以在其中諮詢目前的方案及其內容。請參閱[時間表](../../start/using/timeline.md)。
@@ -50,7 +49,7 @@ Adobe Campaign 可讓您導覽不同的功能表和畫面，以管理您的行�
 
 ## 頂端列 {#top-bar}
 
-每個螢幕上都會顯示頂端列，讓您瀏覽Adobe Campaign的功能，並存取連線的Adobe資料、通知、Adobe Experience Cloud解決方案和宣傳檔案。
+每個畫面都會顯示頂端列，讓您導覽Adobe Campaign功能，並存取已連線的Adobe設定檔、通知、Adobe Experience Cloud解決方案和Campaign檔案。
 
 導覽原則為：
 
@@ -60,10 +59,10 @@ Adobe Campaign 可讓您導覽不同的功能表和畫面，以管理您的行�
 
 * 此 **[!UICONTROL Home]** 連結允許您顯示 Adobe Campaign 首頁。
 * 這些 **[!UICONTROL Marketing activities]**、**[!UICONTROL Programs & Campaigns]**、**[!UICONTROL Profiles]**、**[!UICONTROL Audiences]** 和 **[!UICONTROL Reports]** 連結可以讓您存取與這些功能連結的檢視。
-* **解決方案切換器**&#x200B;圖示可讓您在組織之間切換或切換至不同的應用程式。
-* **[!UICONTROL Help]**&#x200B;表徵圖在](#help)下方說明。[
+* 此&#x200B;**解決方案切換器**&#x200B;圖示可讓您在組織之間切換，或切換至其他應用程式。
+* **[!UICONTROL Help]**&#x200B;圖示在](#help)下方描述。[
 * 此&#x200B;**通知**&#x200B;圖示會顯示最新警報或資訊。
-* 此&#x200B;**使用者**&#x200B;圖示可讓您顯示連結至設定檔的資訊。如果您需要&#x200B;**[!UICONTROL Sign out]**，請使用此圖示。
+* 此&#x200B;**使用者**&#x200B;圖示可讓您顯示連結至設定檔的資訊。如果需要&#x200B;**[!UICONTROL Sign out]**，請使用此圖示。
 
 ### 說明 {#help}
 
@@ -117,7 +116,7 @@ Adobe Campaign 可讓您導覽不同的功能表和畫面，以管理您的行�
 * **[!UICONTROL Content blocks]** - 如需詳細資訊，請參閱[新增內容區塊](../../designing/using/personalization.md#adding-a-content-block)區段。
 * **[!UICONTROL Content templates & fragments]** - 如需詳細資訊，請參閱[內容範本](../../designing/using/using-reusable-content.md#content-templates)區段。
 
-### 管理員 {#administration}
+### 管理 {#administration}
 
 此 **[!UICONTROL Administration]** 圖示可以讓您存取進階功能，而這些功能僅能由功能管理員執行。如需詳細資訊，請參閱[管理員](../../administration/using/get-started-campaign-administration.md)區段。
 

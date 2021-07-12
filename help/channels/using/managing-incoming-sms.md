@@ -1,24 +1,24 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 管理傳入的 SMS
+title: 管理傳入的簡訊
 description: 了解如何在Adobe Campaign中管理停止SMS和儲存傳入的SMS。
 audience: channels
 content-type: reference
 topic-tags: sms-messages
 delivercontext-tags: delivery,smsContent,back
-feature: 簡訊
-role: Business Practitioner
+feature: SMS
+role: User
 level: Intermediate
 exl-id: 86cb6f4c-a5a7-4d9d-bbfd-4a70af38cf3a
-source-git-commit: b564ecce0fab3ebcc1afb02fd2cae3f7eafd025e
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '621'
 ht-degree: 7%
 
 ---
 
-# 管理傳入的 SMS{#managing-incoming-sms}
+# 管理傳入的簡訊{#managing-incoming-sms}
 
 ## 管理停止SMS {#managing-stop-sms}
 
@@ -59,7 +59,7 @@ ht-degree: 7%
 
    ![](assets/sms_mo.png)
 
-1. 按一下 **[!UICONTROL Save]**。
+1. 按一下&#x200B;**[!UICONTROL Save]**。
 
 1. 從SMS傳送&#x200B;**[!UICONTROL Properties]**&#x200B;的&#x200B;**[!UICONTROL Advanced parameters]**&#x200B;中，您可以設定特定&#x200B;**[!UICONTROL Short code]**&#x200B;以自動排除選擇退出的收件者。 有關詳細資訊，請參閱[此部分](../../administration/using/configuring-sms-channel.md#configuring-sms-properties)。
 

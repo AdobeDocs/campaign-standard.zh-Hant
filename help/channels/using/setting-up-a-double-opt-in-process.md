@@ -6,19 +6,18 @@ description: 請依照下列步驟，使用 Adobe Campaign 中的登錄頁面來
 audience: channels
 content-type: reference
 topic-tags: landing-pages
-feature: Landing Pages
-role: Business Practitioner
+feature: 登陸頁面
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 188b1750-e062-4328-9829-6f2848356b5c
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1152'
 ht-degree: 90%
 
 ---
 
-
-# 設定雙重加入程序{#setting-up-a-double-opt-in-process}
+# 設定雙重選擇加入流程{#setting-up-a-double-opt-in-process}
 
 ## 關於雙重選取加入 {#about-double-opt-in}
 
@@ -30,7 +29,7 @@ ht-degree: 90%
 
 若要設定此設定，您必須：
 
-1. 建立並發佈登錄頁面，讓訪客可以註冊並訂閱。此登錄頁面可從網站取得。填寫並提交此著陸頁面的訪客會儲存在資料庫中，但會新增至登入清單，以便在最終驗證之前不會收到任何通訊（請參閱Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)中的「登入清單管理」）。[
+1. 建立並發佈登錄頁面，讓訪客可以註冊並訂閱。此登錄頁面可從網站取得。填寫並提交此登錄頁面的訪客會儲存在資料庫中，但會新增至封鎖清單中，以便在最終驗證之前不會收到任何通訊（請參閱Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)中的封鎖清單管理）。[
 1. 使用確認連結自動建立及傳送選取加入的電子郵件。此電子郵件將定位提交登錄頁面的訪客。它將以電子郵件範本為基礎，可以定位「選取退出」設定檔。
 1. 重新導向至確認登錄頁面。此最終登錄頁面將建議一個確認按鈕：訪客必須按一下它。您可以設計歡迎電子郵件，在確認完成時傳送，例如在電子郵件中為新收件者新增特殊優惠。
 
@@ -58,7 +57,7 @@ ht-degree: 90%
 
    ![](assets/optin_confirmlp_newelement.png)
 
-   此內容會移除「登入清單」欄位，以便能夠傳送電子郵件。 我們稍後會看到，第一個登錄頁面在確認前將此欄位設為 **true**，以防止傳送電子郵件至未確認的設定檔。如需詳細資訊，請參閱 [步驟 3：建立贏取登錄頁面](#step-3--create-the-acquisition-landing-page)。
+   此內容會移除「封鎖清單上」欄位，以便能夠傳送電子郵件。 我們稍後會看到，第一個登錄頁面在確認前將此欄位設為 **true**，以防止傳送電子郵件至未確認的設定檔。如需詳細資訊，請參閱 [步驟 3：建立贏取登錄頁面](#step-3--create-the-acquisition-landing-page)。
 
 1. 自訂登錄頁面的內容：例如，您可以顯示個人化資料，並將確認按鈕的標籤變更為「按一下此處確認我的訂閱」。
 
@@ -99,12 +98,12 @@ ht-degree: 90%
 
 ### 建立類型 {#create-the-typology-rule}
 
-您需要建立特定[類型](../../sending/using/about-typology-rules.md)，方法是複製現成可用的類型。分類法將允許傳送訊息給尚未確認同意且仍在密文名單中的個人檔案。 依預設，排除選擇退出（亦即登入清單）描述檔的類型。 若要建立此類型，請依照下列步驟進行：
+您需要建立特定[類型](../../sending/using/about-typology-rules.md)，方法是複製現成可用的類型。類型可讓傳送訊息給尚未確認同意且仍在封鎖清單中的設定檔。 依預設，排除選擇退出（亦即封鎖清單上）設定檔的類型。 若要建立此類型，請依照下列步驟進行：
 
 1. 從 Adobe Campaign 標誌中，選取&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** 並按一下 **[!UICONTROL Typologies]**。
 1. 複製現成可用的類型 **[!UICONTROL Transactional message on profile (mcTypologyProfile)]**。
 1. 複製確認後，請編輯新的類型，並輸入標籤 **TYPOLOGY_PROFILE**。
-1. 刪除denylist **上的**&#x200B;地址規則。
+1. 移除&#x200B;**封鎖清單上的地址**&#x200B;規則。
 1. 按一下 **[!UICONTROL Save]**。
 
 此類型現在可與確認電子郵件關聯。
@@ -135,7 +134,7 @@ ht-degree: 90%
 
    並將值設為 **true**。
 
-   這是強制新增至登入清單，並避免傳送訊息給未確認其同意的訪客的強制性。 驗證 CONFIRMATION 登錄頁面後，會在確認後將此欄位設 為 **false**。如需詳細資訊，請參閱[步驟 1：建立確認登錄頁面](#step-1--create-the-confirmation-landing-page)。
+   這是強制新增至封鎖清單，並避免傳送訊息給未確認同意的訪客。 驗證 CONFIRMATION 登錄頁面後，會在確認後將此欄位設 為 **false**。如需詳細資訊，請參閱[步驟 1：建立確認登錄頁面](#step-1--create-the-confirmation-landing-page)。
 
 1. 在 **[!UICONTROL Job]** > **[!UICONTROL Specific actions]** 區段中，選取 **[!UICONTROL Start sending messages]** 選項。
 1. 在相關聯的下拉式清單中，選取您建立的 **CONFIRM** 交易式訊息範本。

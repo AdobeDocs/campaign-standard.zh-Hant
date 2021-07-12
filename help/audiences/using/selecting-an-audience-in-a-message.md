@@ -7,17 +7,16 @@ audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: deliveryCreation,wizard;delivery,audience,back
-feature: Audiences
-role: Business Practitioner
+feature: 對象
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 239959ad-6386-42bf-a86a-5694cdaecd83
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 73%
+source-wordcount: '412'
+ht-degree: 74%
 
 ---
-
 
 # 在訊息中選取對象{#selecting-an-audience-in-a-message}
 
@@ -50,17 +49,16 @@ Adobe Campaign　可讓您在訊息的對象中設定數個設定檔類型。
 
    >[!NOTE]
    >
-   >當定位對象時，請注意，對象的定義未參考，而是複製&#x200B;**至查詢。**&#x200B;如果您在查詢中定位對象後對對象進行任何變更，請務必再次設定查詢，將新定義納入考量。
+   >鎖定目標對象時，請注意未參考對象的定義，而是將&#x200B;**複製**&#x200B;複製到查詢中。 如果您在對象已定位於查詢中後對對象進行任何變更，請務必再次設定查詢以將新定義納入考量。
 
 1. 定義您要用於電子郵件的　**[!UICONTROL Test profiles]**。測試設定檔會收到您之前可以傳送的校樣，以便先測試電子郵件，然後再將之傳送給主要目標。
 
    如需設定測試設定檔的詳細資訊，請參閱[測試設定檔](../../audiences/using/managing-test-profiles.md)區段。
 
-1. 如有需要，您可以使用對應的標籤定義控制組。 這可讓您從目標中取出一些描述檔，以免他們收到訊息。 有關詳細資訊，請參閱[添加控制組](../../sending/using/control-group.md)。
+1. 如有需要，您可以使用對應的索引標籤來定義控制組。 這可讓您從目標中撤回部分設定檔，以便他們不會收到訊息。 有關詳細資訊，請參閱[添加控制組](../../sending/using/control-group.md)。
 
-1. 您也可以使用替代地址獲得描述檔將收到的消息的精確表示。  如需詳細資訊，請參閱[使用目標設定檔測試電子郵件訊息](../../sending/using/testing-messages-using-target.md)。
+1. 您也可以使用替代地址來取得設定檔將收到之訊息的精確表示。  如需詳細資訊，請參閱[使用目標設定檔測試電子郵件訊息](../../sending/using/testing-messages-using-target.md)。
 
 接著會更新對象區塊，並顯示已針對有問題的電子郵件選取目標和測試設定檔。
 
 ![](assets/delivery_audience_definition_3.png)
-

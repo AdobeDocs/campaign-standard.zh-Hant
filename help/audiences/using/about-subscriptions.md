@@ -3,11 +3,11 @@ solution: Campaign Standard
 product: campaign
 title: 關於訂閱
 description: 深入瞭解 Campaign Standard 中的服務和訂閱。
-feature: 受眾
-role: Business Practitioner
+feature: 對象
+role: User
 level: Intermediate
 exl-id: 177f0115-d269-44e8-94e0-123360ea6299
-source-git-commit: 326683683c1564dc4c828d1ed34a3c13bae3a46e
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 40%
@@ -16,7 +16,7 @@ ht-degree: 40%
 
 # 關於訂閱{#about-subscriptions}
 
-使用Adobe Campaign建立和管理電子報和跨通道通訊，透過一組&#x200B;**服務**:訊息只會傳送給訂閱服務（選擇加入）的設定檔。 建立訊息時，會使用專用篩選器來識別這些設定檔。
+使用Adobe Campaign，透過一組&#x200B;**services**&#x200B;建立和管理電子報和跨通道通訊：訊息只會傳送給訂閱服務（選擇加入）的設定檔。 建立訊息時，會使用專用篩選器來識別這些設定檔。
 
 您可以設定訂閱機制，讓客戶有機會訂閱這些服務，尤其是透過&#x200B;**電子郵件**&#x200B;及&#x200B;**登錄頁面**&#x200B;訂閱的客戶。
 
@@ -28,18 +28,18 @@ ht-degree: 40%
 
 您也可以使用 Adobe Campaign Standard API 來管理訂閱。如需詳細資訊，請參閱[專屬文件](../../api/using/creating-a-service.md)。
 
-## 設定和管理訂閱的關鍵步驟
+## 設定及管理訂閱的關鍵步驟
 
 請依照下列步驟建立訂閱機制：
 
-1. **建立服務** -請依照本節中 [說明的](../../audiences/using/creating-a-service.md) 步驟建立訂閱服務
-1. **分享連結** -瞭解如何在本頁促銷和分享 [您的服務](../../audiences/using/promoting-a-service.md)
-1. **監視訂閱** -探索數種方式，以監控本節中您服 [務的訂閱](../../audiences/using/monitoring-subscriptions.md)
-1. **確認訂閱** -依照本 [教學](../../audiences/using/confirming-subscription-to-a-service.md) 課程傳送訂閱確認訊息
+1. **建立服務**  — 請依照本節 [所述步](../../audiences/using/creating-a-service.md) 驟建立訂閱服務
+1. **共用連結**  — 在本頁面中了解如何促銷和共 [用您的服務](../../audiences/using/promoting-a-service.md)
+1. **監視訂閱**  — 在本小節中探索數種監視服務訂閱 [的方式](../../audiences/using/monitoring-subscriptions.md)
+1. **確認訂閱**  — 請依照本 [教學](../../audiences/using/confirming-subscription-to-a-service.md) 課程傳送訂閱確認訊息
 
 ## 其他資源
 
-* [使用案例：對服務訂戶的增量查詢](../../automating/using/incremental-query-on-subscribers.md)
+* [使用案例：對服務訂閱者的增量查詢](../../automating/using/incremental-query-on-subscribers.md)
 * [使用案例：從檔案更新多個訂閱狀態](../../automating/using/updating-subscriptions-from-file.md)
-* [在匯入檔案後將描述檔訂閱至特定服務](../../automating/using/subscribing-profiles-from-file.md)
-* [在促銷活動中選擇加入和選擇退出](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* [匯入檔案後將設定檔訂閱至特定服務](../../automating/using/subscribing-profiles-from-file.md)
+* [Campaign中的加入和退出](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)

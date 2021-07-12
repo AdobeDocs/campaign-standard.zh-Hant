@@ -7,10 +7,10 @@ audience: designing
 content-type: reference
 topic-tags: about-content-design
 feature: 電子郵件設計
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 85d6361b-6c27-42c0-bac4-774b71625bf8
-source-git-commit: 7133ee5561c60d795c8d396c167ea79a9266392b
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '1250'
 ht-degree: 87%
@@ -160,8 +160,8 @@ Adobe 建議將您的內容更新至最新版本，以避免發生 CSS 衝突等
 **相關主題**
 
 * [建立電子郵件](../../channels/using/creating-an-email.md)
-* [設計登錄頁面](../../channels/using/designing-a-landing-page.md)
-* [建立 SMS 訊息](../../channels/using/creating-an-sms-message.md)
+* [設計登陸頁面](../../channels/using/designing-a-landing-page.md)
+* [建立簡訊訊息](../../channels/using/creating-an-sms-message.md)
 * [準備和傳送推播通知](../../channels/using/preparing-and-sending-a-push-notification.md)
 
 ## 教學課程影片 {#video}

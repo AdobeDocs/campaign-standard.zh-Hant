@@ -8,10 +8,10 @@ topic-tags: deliveries-best-practices
 index: y
 description: 了解如何保護並最佳化上游的傳送程式。
 feature: 達成能力
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 28b0cf6d-c1f1-4d55-b9bc-0d6bfb063471
-source-git-commit: 8a62ee661b77c3e3062e46477bfce5911e9415ff
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 8%
@@ -38,7 +38,7 @@ ht-degree: 8%
 
 * 您可以使用[促銷活動控制面板功能](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=zh-Hant)，使用[效能監控](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html)功能來監控您的平台。
 
-## 正在檢查網路配置{#network-config}
+## 檢查網路配置 {#network-config}
 
 要在處理大量電子郵件時優化傳送，並避免被誤認為是垃圾郵件發送者，請確保您擁有不嘗試隱藏伺服器身份的合法網路配置。
 
@@ -58,7 +58,7 @@ ht-degree: 8%
 
 * 請連絡您的Adobe代表以取得協助。
 
-## 隔離管理{#quarantine-management}
+## 隔離管理 {#quarantine-management}
 
 維護良好的隔離管理流程符合您的最大利益。
 
@@ -66,7 +66,7 @@ ht-degree: 8%
 
 **提示**
 
-* 在傳送分析期間，預設會排除被隔離的收件者：它們不是目標。 這會加快傳送速度，因為錯誤率對傳送速度有顯著影響。例如，收件匣已滿或地址不存在時，可以隔離電子郵件地址。 [瞭解更多](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses)
+* 在傳送分析期間，預設會排除被隔離的收件者：它們不是目標。 這會加快傳送速度，因為錯誤率對傳送速度有顯著影響。例如，收件匣已滿或地址不存在時，可以隔離電子郵件地址。 [深入瞭解](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses)
 
 * Adobe Campaign會根據傳回的錯誤類型來管理錯誤位址。 如需詳細資訊，請參閱[本章節](../../sending/using/understanding-quarantine-management.md)。
 
@@ -74,7 +74,7 @@ ht-degree: 8%
 
 * 隔離管理也有助於將錯誤的電話號碼排除在傳送之外，以降低簡訊傳送成本。
 
-## 雙重加入機制{#double-opt-in}
+## 雙重加入機制 {#double-opt-in}
 
 為避免傳送訊息至無效位址、限制不當通訊並改善寄件者信譽，Adobe建議實作訂閱後確認的雙重加入機制。 這有助於確保收件者刻意訂閱。
 

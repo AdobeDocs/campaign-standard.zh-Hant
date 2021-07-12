@@ -8,17 +8,17 @@ content-type: reference
 topic-tags: application-settings
 context-tags: branding,overview;branding,main
 feature: 執行個體設定
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
-source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '1282'
 ht-degree: 80%
 
 ---
 
-# 品牌推廣{#branding}
+# 品牌{#branding}
 
 ## 關於品牌識別 {#about-brand-identity}
 
@@ -87,7 +87,7 @@ ht-degree: 80%
 
    ![](assets/branding_05.png)
 
-## 建立新品牌{#creating-a-brand}
+## 建立新品牌 {#creating-a-brand}
 
 您可以在Campaign中新增組織的實體，或建立新類型的電子郵件，您需要將其傳送至不同的子網域下。 若要執行此作業，請遵循下列步驟：
 
@@ -95,7 +95,7 @@ ht-degree: 80%
 
    >[!NOTE]
    >
-   >所有管理員使用者都可存取控制面板。 授予使用者管理員存取權限的步驟已詳載於[本頁](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hant#discover-control-panel)中。
+   >所有管理員使用者都可存取控制面板。 授予使用者管理員存取權限的步驟已詳載於[本頁](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel)中。
 
 1. **建立票證**  — 一旦設定子網域，Adobe就需要在您的生產環境中進行設定。若要要求此項，請[使用下列資訊建立票證給Client Care](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html):
 
@@ -107,7 +107,7 @@ ht-degree: 80%
 
    * 生產URL:XXX.campaign.adobe.com
 
-1. **建立傳遞範本**  — 新品牌推出後，最佳實務是至少建立一個參考此新品牌的新空白傳遞範本。[瞭解更多](#linking-a-brand-to-a-template)。
+1. **建立傳遞範本**  — 新品牌推出後，最佳實務是至少建立一個參考此新品牌的新空白傳遞範本。[深入瞭解](#linking-a-brand-to-a-template)。
 
 1. **檢查傳遞能力准則**  — 開始使用新網域之前，應與Adobe傳遞團隊討論策略。例如，如果應建立新相關性以在網域之間分割IP，和/或應定義提升計畫，這些變數將有助於定義最佳實務。 在本小節](../../sending/using/about-deliverability.md)中進一步了解傳遞能力最佳實務[。
 

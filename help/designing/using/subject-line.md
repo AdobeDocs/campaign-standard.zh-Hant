@@ -1,58 +1,57 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 定義電子郵件的主旨行和發件人
-description: 瞭解如何在電子郵件設計工具中定義主旨行和電子郵件寄件者。
+title: 定義電子郵件的主旨行和寄件者
+description: 了解如何在電子郵件設計工具中定義電子郵件的主旨行和寄件者。
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: 電子郵件設計
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 22112517-40f7-4966-84bf-40794e5d0f79
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '340'
 ht-degree: 2%
 
 ---
 
+# 定義電子郵件的主旨行和寄件者{#defining-the-subject-line-of-an-email}
 
-# 定義電子郵件的主旨行和發件人{#defining-the-subject-line-of-an-email}
+## 定義電子郵件的主旨行 {#subject-line}
 
-## 定義電子郵件的主旨行{#subject-line}
-
-留言主體是準備和發送留言的必備主題。
+訊息主體是準備和傳送訊息的必要項目。
 
 >[!NOTE]
 >
->如果主旨行為空白，則訊息控制面板和電子郵件設計工具中會顯示警告。
+>如果主旨行空白，訊息控制面板和電子郵件設計工具中會顯示警告。
 
 1. 建立電子郵件.
-1. 轉至「電子郵件設計器」首頁的&#x200B;**[!UICONTROL Properties]**&#x200B;頁籤（可通過首頁表徵圖訪問）。
+1. 前往電子郵件設計工具首頁的&#x200B;**[!UICONTROL Properties]**&#x200B;標籤（可透過首頁圖示存取）。
 1. 填寫&#x200B;**[!UICONTROL Subject]**&#x200B;區段。
 
    ![](assets/email_designer_subject.png)
 
-1. 您也可以按一下對應的圖示，將個人化欄位、內容區塊和動態內容新增至主題行。 如需詳細資訊，請參閱[個人化](../../designing/using/personalization.md)。
+1. 您也可以按一下對應的圖示，將個人化欄位、內容區塊和動態內容新增至主旨行。 如需詳細資訊，請參閱[個人化](../../designing/using/personalization.md)。
 
-## 定義電子郵件{#email-sender}的電子郵件發件人
+## 定義電子郵件的電子郵件寄件者 {#email-sender}
 
-要定義將出現在發送郵件標題中的發件人名稱，請轉至「電子郵件設計器」首頁的&#x200B;**[!UICONTROL Properties]**&#x200B;頁籤（可通過首頁表徵圖訪問）。
+要定義將顯示在已發送郵件標題中的發件人名稱，請轉到電子郵件設計器首頁的&#x200B;**[!UICONTROL Properties]**&#x200B;頁簽（可通過首頁表徵圖訪問）。
 
 ![](assets/delivery_content_edition16.png)
 
-* **[!UICONTROL From: name]**&#x200B;欄位允許您輸入發件人名稱。 預設情況下，預設&#x200B;**發件人名稱**&#x200B;塊會自動輸入到欄位中。 預設寄件者電子郵件地址和寄件者名稱定義在&#x200B;**[!UICONTROL Brands]**&#x200B;中，可透過進階功能表&#x200B;**[!UICONTROL Administration > Instance settings > Brand configuration]**&#x200B;下的Adobe Campaign標誌存取。
+* **[!UICONTROL From: name]**&#x200B;欄位允許您輸入發件人名稱。 預設情況下，預設的&#x200B;**發件人名稱**&#x200B;塊將自動輸入到欄位中。 預設的寄件者電子郵件地址和寄件者名稱定義在&#x200B;**[!UICONTROL Brands]**&#x200B;中，可透過進階功能表&#x200B;**[!UICONTROL Administration > Instance settings > Brand configuration]**&#x200B;下的Adobe Campaign標誌存取。
 
-   通過按一下&#x200B;**發件人名稱**&#x200B;塊，可以更改發件人名稱。 然後，欄位會變成可編輯，您可以輸入要使用的名稱。
+   您可以按一下&#x200B;**寄件者名稱**&#x200B;區塊以變更寄件者名稱。 欄位隨後變成可編輯，您可以輸入要使用的名稱。
 
-   此欄位可以個人化。 若要這麼做，您可以按一下傳送者名稱下方的圖示，新增個人化欄位、內容區塊和動態內容。 如需詳細資訊，請參閱[個人化](../../designing/using/personalization.md)。
+   此欄位可個人化。 若要這麼做，您可以按一下寄件者名稱下方的圖示，以新增個人化欄位、內容區塊和動態內容。 如需詳細資訊，請參閱[個人化](../../designing/using/personalization.md)。
 
-* **[!UICONTROL From: email address]**&#x200B;欄位無法從此區段編輯。 您可以透過從其控制面板編輯電子郵件的屬性來變更。 如需詳細資訊，請參閱[電子郵件進階參數清單](../../administration/using/configuring-email-channel.md#advanced-parameters)。
+* 無法從此部分編輯&#x200B;**[!UICONTROL From: email address]**&#x200B;欄位。 您可以透過從其控制面板編輯電子郵件的屬性來變更它。 如需詳細資訊，請參閱[電子郵件進階參數清單](../../administration/using/configuring-email-channel.md#advanced-parameters)。
 
 >[!NOTE]
 >
->標題參數不得為空。 發件人地址是允許發送電子郵件的強制性地址（RFC標準）。 Adobe Campaign會檢查輸入的電子郵件地址語法。
+>標題參數不得為空。 發送者的地址是強制性的，以允許發送電子郵件（RFC標準）。 Adobe Campaign會檢查輸入之電子郵件地址的語法。
 
 **相關主題：**
 

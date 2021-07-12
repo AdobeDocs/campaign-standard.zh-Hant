@@ -2,22 +2,21 @@
 solution: Campaign Standard
 product: campaign
 title: 訊息儀表板
-description: 探索訊息儀表板的組成，包括動作列和各種功能區塊。
+description: 探索訊息控制面板的組成，包括動作列和各種功能區塊。
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 context-tags: delivery,main
-feature: Overview
-role: Business Practitioner
+feature: 概覽
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 886aae39-2029-471c-b4d1-c6ca57d0e568
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '588'
 ht-degree: 4%
 
 ---
-
 
 # 訊息儀表板{#message-dashboard}
 
@@ -25,17 +24,17 @@ ht-degree: 4%
 
 ![](assets/delivery_dashboard_2.png)
 
-## 灰色條{#gray-bar}
+## 灰條 {#gray-bar}
 
 灰色列會重新分組連結至訊息的各種圖示。
 
-* **[!UICONTROL Summary]**:顯示／隱藏與消息相關的主要資訊。
+* **[!UICONTROL Summary]**:顯示/隱藏有關訊息的主要資訊。
 * **[!UICONTROL Edit properties]**:可讓您編輯訊息的進 [階參數](../../administration/using/configuring-email-channel.md#list-of-email-properties)。
 * **[!UICONTROL Reports]**:可讓您存取與訊息相關的報表。
 
 **相關主題：**
 
-* [設定通道](../../administration/using/about-channel-configuration.md)
+* [設定頻道](../../administration/using/about-channel-configuration.md)
 * [存取報表](../../reporting/using/about-dynamic-reports.md)
 
 ## 動作列 {#action-bar}
@@ -44,30 +43,30 @@ ht-degree: 4%
 
 ![](assets/delivery_dashboard_4.png)
 
-視已設定的參數和進度而定，某些圖示可能無法使用。
+視已設定的參數和進行的進度而定，某些圖示可能無法使用。
 
-* **[!UICONTROL Show proofs]**:顯示／隱藏已傳送的校樣清單（如果有的話）。只有在您傳送校樣後，才會啟用此按鈕。
+* **[!UICONTROL Show proofs]**:顯示/隱藏已傳送的校樣清單（如果存在）。只有在您傳送校樣後，才會啟用此按鈕。
 
    如需校樣的詳細資訊，請參閱[傳送校樣](../../sending/using/sending-proofs.md)。
 
-* **[!UICONTROL Send a test]**:可讓您選取要使用的核准模式： **[!UICONTROL Email rendering]** （僅限電子郵件），或 **[!UICONTROL Proof]** 兩者皆有。如需測試設定檔的詳細資訊，請參閱[傳送校樣](../../sending/using/sending-proofs.md)。 只有在您建立測試設定檔後，才會啟用此按鈕。
+* **[!UICONTROL Send a test]**:可讓您選取要使用的核准模式： **[!UICONTROL Email rendering]** （僅限電子郵件）或 **[!UICONTROL Proof]** 兩者皆有。如需測試設定檔的詳細資訊，請參閱[傳送校樣](../../sending/using/sending-proofs.md)。 只有在您建立測試設定檔後，才會啟用此按鈕。
 
-* **[!UICONTROL Prepare send]**:開始準備傳送。出現&#x200B;**[!UICONTROL Deployment]**&#x200B;塊並顯示準備結果。 只有在輸入目標後，此按鈕才會顯示。 您可以隨時使用對應的按鈕停止準備。 有關消息準備的詳細資訊，請參閱[準備send](../../sending/using/preparing-the-send.md)。
+* **[!UICONTROL Prepare send]**:開始準備傳送。出現&#x200B;**[!UICONTROL Deployment]**&#x200B;區塊並顯示準備結果。 只有在輸入目標後，才會顯示此按鈕。 您可以隨時使用對應的按鈕停止準備。 如需訊息準備的詳細資訊，請參閱[準備傳送](../../sending/using/preparing-the-send.md)。
 
-* **[!UICONTROL Confirm send]**:確認傳送訊息。傳送統計資料會出現在&#x200B;**[!UICONTROL Deployment]**&#x200B;區塊中。 此按鈕只會在傳送準備完成後顯示。 您可以隨時使用&#x200B;**Stop send**&#x200B;和&#x200B;**[!UICONTROL Pause]**&#x200B;按鈕來停止或暫停傳送。 有關確認發送的詳細資訊，請參閱[發送消息](../../sending/using/confirming-the-send.md)。
+* **[!UICONTROL Confirm send]**:確認傳送訊息。發送統計資訊將出現在&#x200B;**[!UICONTROL Deployment]**&#x200B;塊中。 此按鈕僅在準備好傳送後才會顯示。 您可以隨時使用&#x200B;**Stop send**&#x200B;和&#x200B;**[!UICONTROL Pause]**&#x200B;按鈕來停止或暫停傳送。 如需確認傳送的詳細資訊，請參閱[傳送訊息](../../sending/using/confirming-the-send.md)。
 
-## 塊{#blocks}
+## 區塊 {#blocks}
 
-主螢幕由不同的塊組成。 按一下區塊內部以存取對應的參數畫面：
+主螢幕由不同的區塊組成。 按一下區塊內部以存取對應的參數畫面：
 
 ![](assets/delivery_dashboard_3.png)
 
-* **[!UICONTROL Deployment]**:可讓您追蹤訊息準備或傳送的進度。按一下此區塊右下方區段中的按鈕，以存取傳送和分析記錄檔。 只有在準備好傳送後，才會顯示此區塊。 有關此事的更多資訊。 請參閱[確認send](../../sending/using/confirming-the-send.md)。
+* **[!UICONTROL Deployment]**:可讓您追蹤訊息準備或傳送的進度。按一下此區塊右下角的按鈕，以存取傳送和分析記錄檔。 只有在準備好傳送後，才會顯示此區塊。 有關詳細資訊。 請參閱[確認傳送](../../sending/using/confirming-the-send.md)。
 * **[!UICONTROL Audience]**:可讓您建立訊息的主要目標以及測試設定檔。請參閱[建立對象](../../audiences/using/creating-audiences.md)。
-* **[!UICONTROL Schedule]**:可讓您指定訊息的傳送日期。請參閱[計畫](../../sending/using/about-scheduling-messages.md)。
-* **[!UICONTROL Content]**:可讓您定義訊息的內容並加以預覽。請參閱[發送消息的關鍵步驟](../../channels/using/key-steps-to-send-a-message.md)。
+* **[!UICONTROL Schedule]**:可讓您指定傳送訊息的日期。請參閱[排程](../../sending/using/about-scheduling-messages.md)。
+* **[!UICONTROL Content]**:可讓您定義訊息的內容並加以預覽。請參閱[傳送訊息的關鍵步驟](../../channels/using/key-steps-to-send-a-message.md)。
 
-## 警告{#warnings}
+## 警告 {#warnings}
 
 在某些情況下，訊息控制面板頂端的黃色橫幅中可能會出現警告。
 
@@ -75,22 +74,22 @@ ht-degree: 4%
 
 以下是可顯示的訊息清單：
 
-* *&quot;SMTP測試模式選項已為此電子郵件啟用：不會傳送任何訊息。」*
+* *「已為此電子郵件啟用SMTP測試模式選項：不會傳送任何訊息。」*
 
    如需詳細資訊，請參閱[本節](../../administration/using/configuring-email-channel.md#smtp-test-mode)。
 
-* *&quot;路由外部帳戶已禁用。&quot;*
+* *&quot;已禁用路由外部帳戶。&quot;*
 
    有關詳細資訊，請參閱[外部帳戶](../../administration/using/external-accounts.md)。
 
-* *&quot;無法發送消息，因為當前IP相關性不由任何發送進程處理。&quot;*
+* *&quot;無法傳送訊息，因為目前的IP相關性未由任何傳送程式處理。&quot;*
 
-   如果您看到此訊息，在IP相似性定義層級或傳送程式層級會發生問題。 請洽詢您的Adobe管理員。
+   如果您看到此訊息，在IP相關性定義層級或傳送程式層級會發生問題。 請連絡您的Adobe管理員。
 
-* *「這是現成可用的交易訊息範本。如果要修改它，必須複製它並處理副本。&quot;*
+* *「這是現成可用的交易式訊息範本。如果要修改它，必須複製它並處理副本。&quot;*
 
-   其中一些現成可用的交易訊息範本是內建的登陸頁面範本。 如需詳細資訊，請參閱[本節](../../channels/using/landing-page-templates.md)。
+   其中有些現成可用的交易式訊息範本是內建的登錄頁面範本。 如需詳細資訊，請參閱[本節](../../channels/using/landing-page-templates.md)。
 
-* *「此訊息是技術交易訊息範本。您無法修改或發佈它。&quot;*
+* *「此訊息是技術交易式訊息範本。您無法修改或發佈它。&quot;*
 
-   此警告會顯示在不可編輯的空事務性消息模板中。 有關事務性消息的詳細資訊，請參閱[本節](../../channels/using/getting-started-with-transactional-msg.md)。
+   此警告會顯示在無法編輯的空白交易式訊息範本中。 如需交易式訊息的詳細資訊，請參閱[此區段](../../channels/using/getting-started-with-transactional-msg.md)。

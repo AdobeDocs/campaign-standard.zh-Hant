@@ -1,74 +1,73 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 豐富資料庫
-description: 瞭解豐富資料庫的各種方法。
+title: 擴充資料庫
+description: 了解擴充資料庫的各種方法。
 audience: start
 content-type: reference
 topic-tags: about-adobe-campaign
-feature: Profiles
-role: Business Practitioner
+feature: 設定檔
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 9c55a8b3-034e-4319-8a88-7b59e83fa458
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '448'
 ht-degree: 3%
 
 ---
 
+# 擴充資料庫{#enriching-the-database}
 
-# 豐富資料庫{#enriching-the-database}
+Campaign Standard提供數種工具，可協助您擴充行銷資料庫。 本節詳細說明您可用來將資料插入Campaign的不同方法，以及專用檔案的參考。
 
-Campaign Standard提供數種工具來協助您擴充行銷資料庫。 本節詳細說明您可使用不同方法將資料插入Campaign，並參考專用檔案。
+## 透過工作流程匯入資料 {#importing-data-through-workflows}
 
-## 透過工作流程{#importing-data-through-workflows}匯入資料
+工作流程可讓您透過[[!UICONTROL Data management]](../../automating/using/about-data-management-activities.md)活動來收集資料，並將其匯入Campaign資料庫。
 
-工作流程可讓您收集資料，並透過使用[[!UICONTROL Data management]](../../automating/using/about-data-management-activities.md)活動將其匯入Campaign資料庫。
+透過工作流程匯入資料時的一般資訊和最佳實務會顯示在[此區段](../../automating/using/about-data-import-and-export.md)中。
 
-[本節](../../automating/using/about-data-import-and-export.md)介紹了在通過工作流導入資料時的一般資訊和最佳做法。
+此外，您也可以設定範本以匯入資料。 如果您需要定期匯入具有相同結構的檔案，最好使用匯入範本。
 
-此外，您還可以設定範本以匯入資料。 如果您需要定期匯入具有相同結構的檔案，請使用匯入範本是最佳做法。
+您可以設定兩種類型的範本：
 
-您可以設定兩種範本類型：
+* **工作流程範本**:這些是預先配置的工作流，您可以根據需要設定一次，並在每次要導入資料和更新資料庫時重複使用。
 
-* **工作流程範本**:這些是預先設定的工作流程，您可視需要設定一次，而且每次您要匯入資料並更新資料庫時，都可重複使用。
+   [本區段](../../automating/using/creating-import-workflow-templates.md)中會詳細說明匯入資料的工作流程範本範例。
 
-   [本節](../../automating/using/creating-import-workflow-templates.md)中詳細說明了導入資料的工作流模板示例。
+* **匯入資料範本**:與工作流模板一樣，這些模板是基於工作流的模板，設定為上載檔案以更新資料庫。設定後，使用者可透過&#x200B;**[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]**&#x200B;功能表下的簡化檢視加以使用。
 
-* **匯入資料範本**:像工作流程範本一樣，這些範本是以工作流程為基礎的範本，可設定為上傳檔案以更新資料庫。在設定後，使用者可在&#x200B;**[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]**&#x200B;選單下，以簡化的檢視來使用這些檢視。
+   有關匯入資料範本的詳細資訊，請參閱[專用檔案](../../automating/using/importing-data-with-import-templates.md)。
 
-   有關導入資料模板的詳細資訊，請參閱[專用文檔](../../automating/using/importing-data-with-import-templates.md)。
+## 從登錄頁面收集資料 {#collecting-data-from-landing-pages}
 
-## 從著陸頁面收集資料{#collecting-data-from-landing-pages}
+登錄頁面是網頁表單，可用來收集資料，以及建立或更新資料庫中的現有資訊。
 
-登陸頁面是Web表單，可用來收集資料並建立或更新資料庫中的現有資訊。
+原則如下：
 
-其原則如下：
+* 新增輸入欄位以收集資料（名字、姓氏、電子郵件等），以建立並設計您的登錄頁面。
+* 將每個輸入欄位與資料庫中的對應欄位對應。
+* 讓登錄頁面可透過網站或透過訊息的直接連結線上取得。
 
-* 新增輸入欄位以收集資料（名字、姓氏、電子郵件等），以建立並設計您的登陸頁面。
-* 將每個輸入欄位與資料庫中的相應欄位映射。
-* 透過網站或訊息的直接連結，讓登陸頁面線上上提供。
+如需登錄頁面的詳細資訊，請參閱[專用檔案](../../channels/using/getting-started-with-landing-pages.md)。
 
-如需著陸頁面的詳細資訊，請參閱[專屬檔案](../../channels/using/getting-started-with-landing-pages.md)。
+## 從Microsoft Dynamics 365同步配置檔案
 
-## 從Microsoft Dynamics 365同步設定檔
+Campaign Standard與Microsoft Dynamics 365的整合可讓您將聯絡資料從Microsoft Dynamics 365傳遞至Campaign資料庫。
+然後，這些聯絡人會顯示在「設定檔」清單中，並可定位在行銷活動中。
 
-與Microsoft Dynamics 365的Campaign Standard整合可讓您將Microsoft Dynamics 365的連絡人資料傳遞至Campaign資料庫。
-然後，這些連絡人會顯示在「設定檔」清單中，並可定位在行銷促銷活動中。
-
-有關此整合的詳細資訊，請參閱[專屬檔案](../../integrating/using/d365-acs-get-started.md)。
+如需此整合的詳細資訊，請參閱[專用檔案](../../integrating/using/d365-acs-get-started.md)。
 
 >[!NOTE]
 >
->請注意，Campaign Standard- Microsoft Dynamics 365連接器目前處於有限可用性，並受限於多項限制，詳細說明請見說明檔案。
+>請注意，Campaign Standard- Microsoft Dynamics 365連接器目前處於有限可用性，且受到幾項限制，詳細說明於本檔案中。
 
 ## 透過API呼叫匯入資料
 
-Campaign StandardAPI允許您執行更新資料庫的操作，如配置檔案或服務的建立、更新或刪除。
+Campaign StandardAPI可讓您執行更新資料庫的操作，例如設定檔或服務的建立、更新或刪除。
 
-有關如何使用API的詳細資訊，請參閱[專用檔案](../../api/using/get-started-apis.md)。
+如需如何使用API的詳細資訊，請參閱[專用檔案](../../api/using/get-started-apis.md)。
 
 >[!IMPORTANT]
 >
->在透過API呼叫執行設定檔大量建立或更新之前，請檢查與您的授權合約相應的比例限制。 有關詳細資訊，請參見[此頁面](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers)。
+>在透過API呼叫執行設定檔大量建立或更新之前，請檢查與您的授權合約相對應的比例限制。 如需詳細資訊，請參閱[此頁面](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers)。

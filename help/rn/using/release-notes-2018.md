@@ -1,23 +1,23 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 發行說明2018年
+title: 發行說明 2018 年
 description: 本頁列出 2018 年的所有 Adobe Campaign Standard 版本。
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 feature: 概覽
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
-source-git-commit: df86191b2941a6121a52b2255e19f8b623b64be6
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '5402'
-ht-degree: 4%
+source-wordcount: '5401'
+ht-degree: 3%
 
 ---
 
-# 發行說明 2018{#release-notes}
+# 發行說明 2018 年{#release-notes}
 
 正在尋找2018年的特定版本Adobe Campaign Standard?
 
@@ -90,7 +90,7 @@ ht-degree: 4%
 * 修正無法顯示導致&#x200B;**資料庫清理**&#x200B;工作流程失敗的錯誤的問題。 (CAMP-26876)
 * 修正無法刪除推播通知定義中自訂欄位的問題。 (CAMP-25588)
 
-## 發行版本 18.7 – 2018 年7 月 {#release-18-7---july-2018}
+## 發行版本 18.7 – 2018 年 7 月 {#release-18-7---july-2018}
 
 **新增功能？**
 
@@ -153,7 +153,7 @@ ht-degree: 4%
 * 修正創意設計工具中，使用內建樣式將部分文字變更為連結或編輯該連結時，造成不想要的顏色字型和格式的問題。 (CAMP-26001)
 * 修正熱點點按報表無法顯示包含動態內容之傳遞中每個條件的百分比問題。 以前，只會顯示對預設變體的點按。
 
-## 發行版本18.6 – 2018 年 6 月{#release-18-6---june-2018}
+## 發行版本 18.6 – 2018 年 6 月 {#release-18-6---june-2018}
 
 **功能改善**
 
@@ -191,7 +191,7 @@ ht-degree: 4%
 * 修正動態報告中帳戶層級國際資料的顯示問題。
 * 現在可以建立不含訂閱或取消訂閱確認訊息的服務。
 
-## 版本 18.5 – 2018 年 5 月{#release-18-5---may-2018}
+## 版本 18.5 – 2018 年 5 月 {#release-18-5---may-2018}
 
 **新增功能？**
 
@@ -217,7 +217,7 @@ ht-degree: 4%
     <ul> 
      <li> 使用「凍結」資料導出擴展廣播：身為行銷人員，我想匯出區段代碼等於「A」（來自工作流程引擎）的所有設定檔。 </li> 
      <li> 「凍結」資料的分段：身為行銷人員，我想<strong>重新定位</strong>自上次傳送以來已贏得1000個忠誠度點的所有設定檔，或其區段代碼等於「A」。 </li> 
-    </ul> 如需詳細資訊，請參閱<a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">相關的文件</a>，以瞭解詳情。<br /> </td> 
+    </ul> 如需詳細資訊，請參閱<a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">詳細檔案</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 使用自訂設定檔資料進行動態報告<br /> </td> 
@@ -307,7 +307,7 @@ _自訂資源_
     <ul> 
      <li> 訪問權限：可讓資料主體接收資料控制者擷取的其個人資料副本，可能包括儲存在Adobe Campaign中的資料。 </li> 
      <li> 刪除權限：為資料主體賦予權利，讓資料控制者擷取的個人資料遭到清除，可能包括儲存在Adobe Campaign中的資料。 </li> 
-    </ul> 如需詳細資訊，請參閱<a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">相關的文件</a>，以瞭解詳情。<br /> </td> 
+    </ul> 如需詳細資訊，請參閱<a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">詳細檔案</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 電子郵件創意設計工具（測試版）<br /> </td> 
@@ -329,7 +329,7 @@ _自訂資源_
     <ul> 
      <li> 運用自訂欄位作為調解標準，將交易式訊息與設定檔比對 </li> 
      <li> 運用完整的設定檔、服務和連結資料，進一步個人化交易式訊息 </li> 
-    </ul> 如需詳細資訊，請參閱<a href="../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content">相關的文件</a>，以瞭解詳情。<br /> </td> 
+    </ul> 如需詳細資訊，請參閱<a href="../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content">詳細檔案</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -465,7 +465,7 @@ _已知問題_
   </tr> 
   <tr> 
    <td> 推送新功能<br /> </td> 
-   <td> 推播訊息預覽 — 從推播通知內容編輯器預覽在iOS和Android裝置上顯示的推播通知，在測試或執行傳送前可先檢視收件者所見到的內容。<br />如需詳細資訊，請參閱<a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">相關的文件</a>，以瞭解詳情。<br /> 可用內容 — 如果使用者在一段時間後都未開啟應用程式，系統便會將其資料視為過時。這會導致使用者在最終開啟應用程式時，必須更新或取代資料，而這可能導致使用應用程式的延遲。 透過新增的「可用內容」支援，Adobe Campaign使用者可在傳送推播通知時，喚醒應用程式以在背景重新整理資料，讓使用者的應用程式內體驗更具一致性和控制力。<br /> 可變動內容 — 透過新增的「可變動內容」支援，Adobe Campaign使用者現在可運用行動應用程式擴充功能，進一步修改來自Adobe Campaign之推播通知的內容或呈現方式。例如，使用者可以運用「可變內容」來：<br /> 
+   <td> 推播訊息預覽 — 從推播通知內容編輯器預覽在iOS和Android裝置上顯示的推播通知，在測試或執行傳送前可先檢視收件者所見到的內容。<br /> 如需詳細資訊，請參閱詳 <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">細檔案</a>。<br /> 可用內容 — 如果使用者在一段時間後都未開啟應用程式，系統便會將其資料視為過時。這會導致使用者在最終開啟應用程式時，必須更新或取代資料，而這可能導致使用應用程式的延遲。 透過新增的「可用內容」支援，Adobe Campaign使用者可在傳送推播通知時，喚醒應用程式以在背景重新整理資料，讓使用者的應用程式內體驗更具一致性和控制力。<br /> 可變動內容 — 透過新增的「可變動內容」支援，Adobe Campaign使用者現在可運用行動應用程式擴充功能，進一步修改來自Adobe Campaign之推播通知的內容或呈現方式。例如，使用者可以運用「可變內容」來：<br /> 
     <ul> 
      <li> 解密以加密格式傳送的資料 </li> 
      <li> 下載影像或其他媒體檔案，並將其新增為通知的附件 </li> 
@@ -518,7 +518,7 @@ _工作流程_
 * 修正在查詢中使用其他資料並新增包含空格之別名時，會導致錯誤訊息的問題。 非英數字元現在由「_」取代。
 * 修正在某些情況下，技術工作流程計算KPI可預設停止的問題。
 
-_設定檔與閱聽眾_
+_設定檔與對象_
 
 * 修正在對象的查詢中新增多個篩選器時發生的錯誤。
 * 修正變更設定檔圖片時發生的顯示問題。

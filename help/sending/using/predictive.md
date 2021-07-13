@@ -10,10 +10,10 @@ feature: 傳送時間最佳化
 role: User
 level: Intermediate
 exl-id: e1cb04e6-eb38-4bcc-b071-321cc11ccc7e
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 356bac989a6bd4c9039910e2d9c59f33ce1153f8
 workflow-type: tm+mt
-source-wordcount: '1067'
-ht-degree: 97%
+source-wordcount: '1048'
+ht-degree: 99%
 
 ---
 
@@ -33,8 +33,7 @@ Adobe Campaign Standard 提供兩種新的機器學習模型： **預測性傳�
 
 >[!IMPORTANT]
 >這項功能無法立即在產品中使用。此實作需要 Adobe Consulting 參與。請洽詢您的 Adobe 代表以瞭解更多資訊。
->
->此功能需要使用客戶必須提供的Azure或Amazon S3儲存空間。
+
 
 ## 預測性傳送時間最佳化{#predictive-send-time}
 

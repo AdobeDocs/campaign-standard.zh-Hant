@@ -13,7 +13,7 @@ exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '461'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -43,11 +43,11 @@ Adobe 透過新增功能、增強功能和修正不斷改進其解決方案。
  <tbody>
   <tr>
    <td>Stage<br /> </td>
-   <td>2021年9月7日–8日<br /> </td>
+   <td>2021 年 9 月 7 日 – 8 日<br /> </td>
   </tr>
   <tr>
    <td>生產<br /> </td>
-   <td>2021年9月14-21日<br /> </td>
+   <td>2021 年 9 月 14 - 21 日<br /> </td>
   </tr>
  </tbody>
 </table>
@@ -56,7 +56,7 @@ Adobe 透過新增功能、增強功能和修正不斷改進其解決方案。
 
 訂閱 [Campaign Standard 發行通知](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU)，以直接在收件匣中取得有關即將發行的詳細資訊。
 
-## 問題與解答 {#questions-and-answers}
+## 問答集 {#questions-and-answers}
 
 **問：影響是什麼？**
 

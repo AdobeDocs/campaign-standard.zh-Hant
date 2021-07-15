@@ -10,16 +10,22 @@ feature: 概覽
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: c56d0e0ab4496ae769dc504107f677ef6ea74068
 workflow-type: tm+mt
-source-wordcount: '6852'
-ht-degree: 100%
+source-wordcount: '6893'
+ht-degree: 99%
 
 ---
 
 # 文件更新{#documentation-updates}
 
 除了 Adobe Campaign [發行版本](../../rn/using/release-notes.md)以外，本頁還列出 Adobe Campaign Standard 檔案中的所有新更新。
+
+## 2021年7月 {#doc-updates-july-2021}
+
+已新增新區段，說明如何讓使用者從單一登陸頁面訂閱或取消訂閱多項服務。 [顯示全文](../../channels/using/managing-landing-page-form-data.md#multiple-subscriptions)
+
+更新並釐清&#x200B;**管理登錄頁面表單資料**&#x200B;區段。 [顯示全文](../../channels/using/managing-landing-page-form-data.md)
 
 ## 發行版本 21.2 – 2021 年 6 月 {#release-21-2---june-2021}
 

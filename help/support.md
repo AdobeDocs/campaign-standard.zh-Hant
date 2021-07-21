@@ -12,7 +12,7 @@ role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '590'
 ht-degree: 100%
 
@@ -130,4 +130,4 @@ ht-degree: 100%
 
 如要在該新系統中記錄問題或啟動聊天工作階段，請連結到 [Adobe Admin Console](https://adminconsole.adobe.com/overview)。
 
-請依照[本頁](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)中介紹的詳細過程操作。
+請依照[本頁](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)中介紹的詳細過程操作。

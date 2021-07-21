@@ -14,7 +14,7 @@ role: User
 level: Intermediate
 exl-id: 8f8ce032-5cff-44d3-9d3b-52511dbcaaab
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '814'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 # 隱私權常見問答集 {#privacy-faq}
 
-以下是使用 Adobe Campaign 時，有關隱私權與同意的常見問答集。
+以下是使用 Adobe Campaign 時，隱私權與同意的相關常見問答集。
 
 ## 主要條款 {#key-terms}
 

@@ -11,15 +11,15 @@ role: User
 level: Beginner
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2535'
 ht-degree: 100%
 
 ---
 
-# 發行說明 2021 年{#release-notes-2021}
+# 2021 年發行說明{#release-notes-2021}
 
-[發行計畫](../../rn/using/release-planning.md) | [控制面板版本](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=zh-Hant) | [文件更新](../../rn/using/documentation-updates.md) | [先前的發行版本](../../rn/using/release-notes-2020.md) | [已過時的功能](../../rn/using/deprecated-features.md)
+[發行計畫](../../rn/using/release-planning.md) | [控制面板發行](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=zh-Hant) | [文件更新](../../rn/using/documentation-updates.md) | [先前的發行版本](../../rn/using/release-notes-2020.md) | [已棄用功能](../../rn/using/deprecated-features.md)
 
 ## 版本 21.1 – 2021 年 2 月 {#release-21-1---february-2021}
 

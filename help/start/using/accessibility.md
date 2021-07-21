@@ -11,7 +11,7 @@ role: User
 level: Intermediate
 exl-id: 958f7beb-ab41-4492-bc0a-e9e342e3c12e
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '608'
 ht-degree: 100%
 
@@ -77,7 +77,7 @@ Adobe Campaign Standard allows you to design and test emails and push notificati
 
 ## 支援協助技術 {#screen-magnifiers}
 
-我們致力於讓 obe Campaign Standard 應用程式能透過各種輔助技術而徹底發揮使用範圍，包含但不限於修改的鍵盤、螢幕放大軟體、螢幕閱讀器、語音辨識軟體和其他輔助裝置。
+我們致力於讓 Adobe Campaign Standard 應用程式能透過各種輔助技術而徹底發揮效用，包含但不限於修改過鍵盤、螢幕放大軟體、螢幕閱讀器、語音辨識軟體和其他輔助裝置。
 
 ## 使用您的偏好語言 {#languages}
 

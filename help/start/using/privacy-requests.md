@@ -11,13 +11,13 @@ role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1624'
 ht-degree: 100%
 
 ---
 
-# 管理隱私權要求 {#privacy-requests}
+# 管理隱私權請求 {#privacy-requests}
 
 如需隱私權管理的一般簡報，請參閱[本節](../../start/using/privacy-management.md)。
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 >
 >自 19.4 版本以來，不建議使用 Campaign API 和介面來存取和刪除要求。對於任何 GDPR、CPA、PDPA 或 LGPD 存取和刪除要求，您都需要使用[隱私權核心服務](#create-privacy-request)整合方法。
 
-## 關於隱私權要求 {#about-privacy-requests}
+## 關於隱私權請求 {#about-privacy-requests}
 
 為協助您加速隱私權準備，Adobe Campaign 可讓您處理存取和刪除要求。[本節](../../start/using/privacy-management.md#right-access-forgotten)說明&#x200B;**存取權限**&#x200B;及&#x200B;**被遺忘的權利**（刪除要求）。
 
@@ -143,7 +143,7 @@ Adobe Campaign 提供資料控制方工具，可針對儲存在 Adobe Campaign �
 
    ![](assets/privacy-cus-resource-option.png)
 
-### 隱私權要求狀態 {#privacy-request-statuses}
+### 隱私權請求狀態 {#privacy-request-statuses}
 
 隱私權要求的不同狀態如下：
 

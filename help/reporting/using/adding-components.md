@@ -10,9 +10,9 @@ feature: 報告
 role: Leader
 level: Intermediate
 exl-id: 3db44dec-c48a-4903-a4c6-6bfea33fc38a
-source-git-commit: cc464da0e455ae9c95fc3fe3f00bb3e1c6ff22ae
+source-git-commit: 8062995481a889d8865267e6134efa74648753f6
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '280'
 ht-degree: 4%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 4%
 
    * **Dimension**:從傳送記錄（例如收件者的瀏覽器或網域）取得詳細資訊，或是傳送成功。
    * **量度**:取得訊息狀態的詳細資訊。例如，如果已傳送訊息，且使用者已開啟該訊息。
-   * **[!UICONTROL Segments]**:根據收件者的年齡範圍篩選資料。**[!UICONTROL Segments]** 可直接拖放至自由表格或面板頂端列中。預設已選取&#x200B;**[!UICONTROL Exclude proof]**&#x200B;區段，但可視需要變更。
+   * **[!UICONTROL Segments]**:根據收件者的年齡範圍篩選資料。**[!UICONTROL Segments]** 可直接拖放至自由表格或面板頂端列中。
 
       只有在管理員核准了將顯示在畫面上的動態報告使用協定的條款與條件後，才能使用此類別。 如果管理員拒絕協定，**[!UICONTROL Components]**&#x200B;標籤中將不會顯示這些區段，且資料將不會收集。
 

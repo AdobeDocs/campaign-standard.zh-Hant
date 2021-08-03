@@ -10,10 +10,10 @@ feature: 執行個體設定
 role: Admin
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 8204ed1118b5445420d99dbc0438752a4dc26846
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 95%
+source-wordcount: '719'
+ht-degree: 93%
 
 ---
 
@@ -107,7 +107,12 @@ Adobe Campaign 可立即提供技術工作流程。技術工作流程是排程�
    <td> <span class="uicontrol">恢復跟蹤日誌</span> <br /> </td> 
    <td> <span class="uicontrol">trackingLogRecovery</span> <br /> </td> 
    <td> 此工作流程會還原遺失的追蹤記錄。 請注意，此技術工作流程僅用於特定內容，並限於Adobe內部使用。 <br>預設會每 10 分鐘啟動一次。<br /> </td> 
-  </tr> 
+  </tr>
+  <tr> 
+   <td> <span class="uicontrol">更新傳送執行</span> <br/> </td> 
+   <td> <span class="uicontrol">updateDeliveryExecInfo</span> <br/> </td> 
+   <td> 此工作流程會複製本機資料庫中的broadlog和追蹤記錄檔。 預設會每 10 分鐘啟動一次。<br/> </td> 
+  </tr>
   <tr> 
    <td> <span class="uicontrol">更新傳送指標</span> <br /> </td> 
    <td> <span class="uicontrol">updateDeliveryIndicators</span> <br /> </td> 

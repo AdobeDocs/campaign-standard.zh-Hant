@@ -2,21 +2,21 @@
 solution: Campaign Standard
 product: campaign
 title: 外部 API
+description: 外部API活動會透過HTTP API呼叫，從外部系統將資料匯入Campaign Standard工作流程。
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
-feature: Workflows
+feature: 工作流程
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 44ad654e-bde9-4189-8765-0479d81dc0f7
+source-git-commit: d3482dfad245807aedee6deb36fd67e43c7a66b9
 workflow-type: tm+mt
-source-wordcount: '2184'
-ht-degree: 95%
+source-wordcount: '2201'
+ht-degree: 94%
 
 ---
-
 
 # 外部 API {#external-api}
 
@@ -40,7 +40,7 @@ ht-degree: 95%
 
 ### 回溯相容性注意事項 {#from-beta-to-ga}
 
-在Campaign Standard20.4版本中，http回應資料大小限制和回應逾時護欄已降低，以符合最佳實務——請參閱[限制和護欄](#guardrails)。 這些護欄修改不會對現有的外部 API 活動產生影響；因此，建議您在所有工作流程中，以新版本取代現有的外部 API 活動。
+在Campaign Standard20.4版本中，http回應資料大小限制和回應逾時護欄已降低，以符合最佳實務 — 請參閱[限制和護欄](#guardrails)。 這些護欄修改不會對現有的外部 API 活動產生影響；因此，建議您在所有工作流程中，以新版本取代現有的外部 API 活動。
 
 取代外部 API 活動時，將新的外部 API 活動新增至工作流程、手動複製設定詳細資訊，然後刪除舊活動。
 
@@ -120,9 +120,9 @@ JSON 剖析器的設計可容納標準 JSON 結構模式類型，但有些例外
 
 如果端點需要，則可以使用兩種驗證方法：
 
-* 基本驗證：在&#x200B;**[!UICONTROL Request Header(s)]**&#x200B;部分中輸入您的用戶名／密碼資訊。
+* 基本驗證：在&#x200B;**[!UICONTROL Request Header(s)]**&#x200B;部分輸入您的用戶名/密碼資訊。
 
-* OAuth驗證：按一下外部帳戶中的&#x200B;**[!UICONTROL Use connection parameters defined in an external account]**，即可選取定義OAuth驗證的外部帳戶。 如需詳細資訊，請參閱[外部帳戶](../../administration/using/external-accounts.md)。
+* OAuth驗證：按一下外部帳戶中的&#x200B;**[!UICONTROL Use connection parameters defined in an external account]**，您可以選取定義OAuth驗證的外部帳戶。 如需詳細資訊，請參閱[外部帳戶](../../administration/using/external-accounts.md)。
 
 ![](assets/externalAPI-execution.png)
 
@@ -160,7 +160,7 @@ JSON 剖析器的設計可容納標準 JSON 結構模式類型，但有些例外
 
 ## 測試
 
-若要使用簡單的測試端點來測試外部API功能，您可以使用Postman Echo:https://docs.postman-echo.com。
+若要以簡單的測試端點測試外部API功能，您可以使用Postman Echo:https://docs.postman-echo.com。
 
 ## 疑難排解
 
@@ -262,8 +262,8 @@ JSON 剖析器的設計可容納標準 JSON 結構模式類型，但有些例外
    <td> <p>不允許 HTTP 標題鍵（標題鍵：'接受'）。</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560247 - An HTTP header value is bad(header value:'%s')。</td> 
-   <td> <p>HTTP標頭值錯誤(標頭值：'%s')。 </p>
+   <td> WKF-560247 - HTTP標題值錯誤(標題值：「%s」)。</td> 
+   <td> <p>HTTP標題值錯誤(標題值：「%s」)。 </p>
     <p>注意：當自訂標頭值根據 <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a> 驗證失敗時，將記錄此錯誤</p></td> 
   </tr> 
   <tr> 

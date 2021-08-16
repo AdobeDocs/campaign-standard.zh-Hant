@@ -2,6 +2,7 @@
 solution: Campaign Standard
 product: campaign
 title: 在 Campaign 中使用觸發程式
+description: 根據現有的Adobe Experience Cloud觸發程式，在Adobe Campaign中建立觸發程式事件。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
@@ -9,10 +10,10 @@ feature: 觸發因子
 role: Data Architect
 level: Intermediate
 exl-id: 6b8d5118-89ed-49c2-b601-0aff472fcadd
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: d3482dfad245807aedee6deb36fd67e43c7a66b9
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 82%
+source-wordcount: '765'
+ht-degree: 80%
 
 ---
 
@@ -52,7 +53,7 @@ ht-degree: 82%
 
 1. 您現在可以發佈觸發器。 如需詳細資訊，請參閱[在Campaign](../../integrating/using/using-triggers-in-campaign.md#publishing-trigger-in-campaign)中發佈觸發程式。
 
-## 在Campaign {#publishing-trigger-in-campaign}中發佈觸發程式
+## 在Campaign中發佈觸發程式 {#publishing-trigger-in-campaign}
 
 根據現有的Adobe Experience Cloud觸發程式在Adobe Campaign中建立觸發程式事件後，您現在需要發佈它。
 

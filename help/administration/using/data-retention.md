@@ -2,6 +2,7 @@
 solution: Campaign Standard
 product: campaign
 title: 資料保留
+description: Campaign中的標準記錄表有預先設定的保留期，通常會將其資料儲存限制在6個月或更短時間。 了解標準表格的預設保留值。
 audience: administration
 content-type: reference
 topic-tags: application-settings
@@ -9,10 +10,10 @@ feature: 執行個體設定
 role: Admin
 level: Experienced
 exl-id: 01cfa2a0-4ff5-4520-a515-11676de82528
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: d3482dfad245807aedee6deb36fd67e43c7a66b9
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 63%
+source-wordcount: '162'
+ht-degree: 52%
 
 ---
 

@@ -6,14 +6,14 @@ description: 本頁列出 Adobe Campaign Standard 即將發行的版本。
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
-feature: 概覽
+feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: 89514dad1e318f32dafd3d8add664c37b03c8fb7
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 96%
+source-wordcount: '426'
+ht-degree: 100%
 
 ---
 
@@ -27,11 +27,11 @@ Adobe 透過新增功能、增強功能和修正不斷改進其解決方案。
 
 所有發行日期皆可能變更：我們建議您定期造訪本頁面，以檢查更新。
 
-## 版本21.3 - 2021年9月發行 {#release-21-3-release}
+## 版本 21.3 - 2021 年 9 月發行 {#release-21-3-release}
 
 環境更新會在以下指定時段內以波形進行。已透過電子郵件向每位客戶傳達確切日期。
 
-有關此版本的詳細資訊，請參閱[Early Release Notes](../../rn/using/early-release-notes.md)。
+有關此版本的詳細資訊，請參閱[較早的發行說明](../../rn/using/early-release-notes.md)。
 
 <table>
  <thead>

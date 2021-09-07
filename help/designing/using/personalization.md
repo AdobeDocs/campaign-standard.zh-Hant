@@ -6,13 +6,13 @@ description: 探索如何在電子郵件設計工具中個人化電子郵件。
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: 電子郵件設計
+feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3ea58bcf-234e-4dac-b296-da3f57e18a7d
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 671fd9e7ff0551ae9ae5fec26cee0b4c4939ab2f
 workflow-type: tm+mt
-source-wordcount: '2575'
+source-wordcount: '2583'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,8 @@ ht-degree: 3%
 Adobe Campaign傳送的訊息內容和顯示可透過數種不同方式個人化。 根據設定檔，可根據條件結合這些方式。 一般而言，Adobe Campaign 允許您：
 
 * 插入動態的個人化欄位。請參閱[插入個人化欄位](#inserting-a-personalization-field)。
-* 插入預先定義的個人化區塊。請參閱[新增內容區塊](#adding-a-content-block)。
+* 插入預定義的個人化區塊。
+請參閱[新增內容區塊](#adding-a-content-block)。
 * 個人化電子郵件的寄件者。 請參閱[個人化寄件者](#personalizing-the-sender)。
 * 個人化電子郵件的主旨。 請參閱[個人化電子郵件的主旨行](../../designing/using/subject-line.md#subject-line)。
 * 建立有條件的內容。請參閱[定義電子郵件](#defining-dynamic-content-in-an-email)中的動態內容。
@@ -53,7 +54,9 @@ Adobe Campaign可讓您透過新增個人化欄位、內容區塊或動態內容
 
 >[!NOTE]
 >
->個人化URL無法套用至網域名稱，也無法套用至URL副檔名。 如果個人化不正確，則在訊息分析期間會顯示錯誤訊息。 選取內容區塊時，不得選取元素，例如&#x200B;**連結至鏡像頁面**。 此類型的區塊在連結內是禁止的。
+>停用追蹤連結的URL簽章機制時，個人化URL無法套用至網域名稱，也無法套用至URL擴充功能。 如果個人化不正確，則在訊息分析期間會顯示錯誤訊息。
+>
+>選取內容區塊時，不得選取元素，例如&#x200B;**連結至鏡像頁面**。 此類型的區塊在連結內是禁止的。
 
 ## 插入個人化欄位{#inserting-a-personalization-field}
 

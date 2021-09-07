@@ -6,14 +6,14 @@ description: 'Adobe Campaign 使用者具有特定角色。探索主要使用者
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-feature: 存取管理
+feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 6605203e-78f8-4ebd-b256-a621a3a9d638
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
-source-wordcount: '1220'
-ht-degree: 94%
+source-wordcount: '1218'
+ht-degree: 93%
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Campaign 可讓您指派一組角色給使用者，以定義使用者可�
 
 ![](assets/do-not-localize/how-to-video.png) [在影片中探索此功能](#video)
 
-若要在 Adobe Campaign 中檢視使用者，請按一下左上方的 **[!UICONTROL Adobe Campaign]** 標誌，然後選取 **[!UICONTROL Administration > Users & Security > Users]**。
+若要在Adobe Campaign中檢視使用者，請按一下左上角的&#x200B;**Adobe**&#x200B;標誌，然後選取&#x200B;**[!UICONTROL Administration > Users & Security > Users]**。
 
 若要從 Adobe Campaign 存取使用者管理介面，請按一下 **[!UICONTROL User administration]**。
 
@@ -156,7 +156,7 @@ Adobe Campaign 可讓您指派一組角色給使用者，以定義使用者可�
 
 您的使用者現在已準備好使用 Adobe Campaign Standard。
 
-## 教學課程影片(#video)
+## 教學課程影片 {#video}
 
 此影片說明如何管理使用者存取權限。
 

@@ -6,13 +6,13 @@ description: 本頁列出 2021 年的所有 Adobe Campaign Standard 版本。
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: 概覽
+feature: Overview
 role: User
 level: Beginner
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '2535'
+source-git-commit: a723d0c2b67d2a0d54a1bc2f89a16481da96f606
+workflow-type: tm+mt
+source-wordcount: '3509'
 ht-degree: 100%
 
 ---
@@ -20,6 +20,94 @@ ht-degree: 100%
 # 2021 年發行說明{#release-notes-2021}
 
 [發行計畫](../../rn/using/release-planning.md) | [控制面板發行](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=zh-Hant) | [文件更新](../../rn/using/documentation-updates.md) | [先前的發行版本](../../rn/using/release-notes-2020.md) | [已棄用功能](../../rn/using/deprecated-features.md)
+
+## 發行版本 21.2 – 2021 年 6 月 {#release-21-2---june-2021}
+
+以下列出下一版 Campaign Standard 發行版本中包含的新功能、改良和修正。以下列出此 Campaign Standard 發行中包含的新功能、改良和修正。
+
+**功能改善**
+
+* 您現在可以在設計登陸頁面時，新增必要核取方塊，要求設定檔在提交表單前先選取該核取方塊。 如需詳細資訊，請參閱[詳細文件](../../channels/using/managing-landing-page-form-data.md#agreement-checkbox)。
+
+* 針對觸發程式整合，已改善觸發程式裝載中沒有調解資料時顯示的錯誤訊息：「裝載中缺少別名資料」。
+
+* 已改善從佇列擷取推播通知的效能。
+
+**其他變更**
+
+* 已停用追蹤連結的 URL 簽章機制，以防止在第三方安全工具修改後，造成某些有效且已簽署的追蹤連結遭到錯誤封鎖的問題。
+
+* 在多變體傳送中，如果已刪除預設變體，則使用者無法再建立語言副本。 現在會在語言副本建立期間顯示訊息。 (CAMP-48235)
+
+* 現在預設會停用兩步驟設定檔刪除程式 (自 Campaign 19.4 版本起即淘汰)。 之前，您必須先從 Campaign 介面手動停用，才能使用隱私權核心服務。 若未這麼做，會導致刪除請求在未完成的情況下維持擱置狀態。
+
+* 在動態報告中，已移除&#x200B;**「排除校樣」**&#x200B;區段。 (CAMP-46161)
+
+* 已新增警告訊息，以在上傳 iOS 憑證時 (未在 Campaign 應用程式中使用 platformPrincipal 值) 通知使用者。
+
+* 電子郵件的最大大小現在預設為 100 MB。 此限制可防止任何可能無限增加電子郵件大小而導致系統當機的錯誤。 (CAMP-47445)[ 進一步瞭解](../../sending/using/design-and-personalize.md#email-size)
+
+* 標準使用者現在可以使用電子郵件設計工具的資產核心服務整合。
+
+* 已新增新訊息，以確認成功從 v4 推送應用程式移轉至 v5 推送應用程式。
+
+* 在建立 JSONWeb Token 以驗證 Campaign Standard API 期間，產品設定檔現在為&#x200B;**已考量**。 這表示分配給安全性群組 (符合 AdobeIO 上的產品設定檔) 的組織單位和角色，將套用至 Campaign Standard Rest API 呼叫所需的 IMS 技術帳戶。 (CAMP-47479)
+
+**修補程式**
+
+* 修正了無法套用批次處理記錄表格 (**xtkjoblog**) 之到期選項的問題。 這會使表格無法正確清除。
+
+* 修正無法變更&#x200B;**細分**&#x200B;工作流程活動中篩選器順序的問題。 (CAMP-48357)
+
+* 修正 20.4 的回歸，該回歸可能導致傳送失敗，並產生 null 值錯誤。 (CAMP-48591)
+
+* 修正無法透過&#x200B;**共用** > **「立即傳送報告」**&#x200B;或&#x200B;**「依排程傳送報告」**&#x200B;功能表傳送報告的問題。 (CAMP-47798)
+
+* 修正由於篩選從 Gmail 帳戶收到的追蹤事件可能導致 Gmail 開啟率不正確的回歸。(CAMP-46504)
+
+* 修正 Adobe Campaign Standard 中的報告與 Adobe Analytics 中的報告之間資料不一致的各種問題。 (CAMP-47671, CAMP-47296)
+
+* 修正準備失敗後無法存取傳遞記錄的問題。 (CAMP-48296)
+
+* 修正嘗試編輯、刪除或傳送自訂報告時，可能顯示錯誤訊息的問題。 (CAMP-47789, CAMP-47798)
+
+* 修正建立新自訂資源並啟用&#x200B;**「不要同步」**&#x200B;選項時，API 呼叫失敗的問題。 (CAMP-48014)
+
+* 修正啟用&#x200B;**「不要同步」**&#x200B;選項的自訂資源可參考已重新起草或刪除的綱要的問題。 此問題會在發佈自訂資源時造成錯誤。
+
+* 修正在相同外部帳戶上使用多個短程式碼時，簡訊選擇退出的問題。
+
+* 修正發佈資料庫後，無法存取新傳送警示準則 (「您嘗試存取的資源無法連線」) 的問題。 (CAMP-48221)
+
+* 修正某些具有動態報告的 Campaign 執行個體中缺少追蹤記錄的問題。 已新增新的[技術工作流程](../../administration/using/technical-workflows.md)，以還原這些追蹤記錄。 (CAMP-47885)
+
+* 修正動態報告中未顯示傳遞資料的問題。 報告已設定為 0。 (CAMP-47480)
+
+* 修正伺服器 JavaScript HTTP 用戶端無法連線至外部 URL 的問題。
+
+* 修正在變更工作流程的內部名稱後，重設&#x200B;**增量查詢**&#x200B;活動的問題。 將日期欄位用作增量模式時，就會發生此問題。 (CAMP-47674)
+
+* 修正當使用 Adobe Experience Manager 整合建立多語言電子郵件時，傳遞摘要無法顯示預覽縮圖的問題。 使用&#x200B;**建立語言副本**&#x200B;按鈕建立電子郵件變體時，就會發生此問題。 (CAMP-47810)
+
+* 修正使用者無法透過電子郵件或簡訊子傳遞存取父傳遞的問題。 (CAMP-47986)
+
+* 修正透過 REST API 傳送異動訊息，但遺失自訂事件時，可能導致 CPU 和記憶體耗用過量的問題。 (CAMP-47147)
+
+* 修正異動訊息 API 錯誤，該錯誤有時會阻止即時訊息的傳送。
+
+* 修正使用&#x200B;**依排程傳送報告**&#x200B;選項後未收到報告的問題。 (CAMP-48583, CAMP-47786)
+
+* 修正使用&#x200B;**立即傳送報告選項**&#x200B;後收到的報告不完整且遺失資料的問題。 (CAMP-48583)
+
+* 修正電子郵件設計工具上傳影像時，影像尺寸縮小的問題。 (CAMP-47017)
+
+* 修正建立傳遞時，無法顯示所有可用 Experience Manager 範本的問題。 (CAMP-48132)
+
+* 修正已傳送傳遞之「摘要」頁面中的 Campaign 連結無法將使用者重新導向至相關行銷活動的錯誤。 (CAMP-48012)
+
+* 修正電子郵件設計工具中，當嘗試選取資產時，資產核心服務整合持續失敗的問題。 (CAMP-47446)
+
+* 修正由於 Campaign 不支援來自 Journey Orchestration 之事件所傳送具有確切值 (即結尾為 00) 的時間戳記，而封鎖某些 Journey Orchestration 傳送的問題。
 
 ## 版本 21.1 – 2021 年 2 月 {#release-21-1---february-2021}
 

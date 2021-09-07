@@ -10,10 +10,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-source-git-commit: 92edfbc2b7bb035d311f107b5b4c39f2521b07f6
+source-git-commit: bb964907851b11f8cc247425024f6e7c828aed5d
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 80%
+source-wordcount: '871'
+ht-degree: 66%
 
 ---
 
@@ -43,20 +43,35 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>SDK v4 的推播通知</strong><br /> </th> 
+   <th> <strong>與Audience Destinations服務整合</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> 自Campaign第20.1發行版本開始，已棄用SDK v4。 <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">進一步瞭解</a>。</p><br/>
-   <p>Adobe <a href="https://aep-sdks.gitbook.io/docs/">Experience Platform Mobile SDK</a>（先前稱為 v5）將獨家支援即將推出的 Adobe Experience Cloud 功能。</p>
-   <p>在本頁面</a>了解如何從SDK v4移轉至Adobe Experience Platform Mobile SDK <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">。</a></p></br>
-     <p>
-     <em>目標移除日期：2021年8月31日</em></p>
+   <td> <p> 自Campaign Standard第21.3發行版本開始，已不建議與Audience Destinations服務整合。 </p>
+   <p>若為新實作，您無法再將Audience Destinations服務與Adobe Campaign Standard整合。 不過，您可以透過來源和目的地整合Campaign和Adobe Experience Platform。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=en">深入瞭解</a>。</p>
+     <em>目標移除日期：2022 年</em></p>
      </td> 
   </tr> 
  </tbody> 
 </table>
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> <strong>與Adobe Experience Platform Data Connector整合</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p> 自Campaign Standard第21.3發行版本開始，已不建議與Adobe Experience Platform Data Connector整合。 </p>
+   <p>若為新實作，您無法再將Adobe Experience Platform Data Connector與Adobe Campaign Standard整合。 不過，您可以透過來源和目的地整合Campaign和Adobe Experience Platform。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=en">深入瞭解</a>。</p>
+     <em>目標移除日期：2022 年</em></p>
+     </td> 
+  </tr> 
+ </tbody> 
+</table>
+
 
 <table> 
  <thead> 
@@ -69,7 +84,7 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
    <td> <p>自 Campaign 19.0 版本以來，已過時舊版電子郵件編輯器。使用<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">Campaign電子郵件設計工具</a>來建立並個人化您的電子郵件內容。 </p></br>
    <p>請參閱<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">本節</a>，瞭解如何針對新的編輯器調整您的電子郵件範本。</p></br>
   <p> 
-  <em>目標移除日期：2021年底</em></p>
+  <em>目標移除日期：2022 年</em></p>
    </td> 
   </tr> 
  </tbody> 
@@ -93,6 +108,24 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
 
 本節列出已從 Campaign Standard 移除的功能。
 
+
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> <strong>SDK v4 的推播通知</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p> 自Campaign第20.1發行版本開始，已棄用SDK v4。 <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">進一步瞭解</a>。</p><br/>
+   <p><a href="https://aep-sdks.gitbook.io/docs/">Adobe Experience Platform Mobile SDK</a>（先前稱為v5）現在獨家支援即將推出的Adobe Experience Cloud功能。</p>
+   <p>2021年8月31日後，客戶可以繼續下載和使用第4版SDK，但是將不提供客戶服務支援或論壇存取權。</p>
+   <p>在本頁面</a>了解如何從SDK v4移轉至Adobe Experience Platform Mobile SDK <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">。</a></p></br>
+     </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 <table> 
  <thead> 

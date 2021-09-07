@@ -9,16 +9,15 @@ topic-tags: working-with-campaign-and-triggers
 feature: Triggers
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 88007e6f-2cdd-4fea-9739-525beaf7c658
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
-source-wordcount: '997'
-ht-degree: 99%
+source-wordcount: '994'
+ht-degree: 98%
 
 ---
 
-
-# 廢棄觸發程式使用案例{#abandonment-triggers-use-cases}
+# 棄用觸發程式使用案例{#abandonment-triggers-use-cases}
 
 本節介紹可使用 Adobe Campaign 與 Experience Cloud 觸發程式之間的整合，以實施的不同使用案例。您會找到兩個使用案例的範例：
 
@@ -67,7 +66,7 @@ ht-degree: 99%
 
 在　Adobe Campaign　中，您需要建立連結至您在　Experience Cloud　中建立的觸發程式。
 
-1. 若要在　Adobe Campaign　中建立觸發程式，請按一下左上方的標誌　**[!UICONTROL Adobe Campaign]**，然後選取 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud triggers]**。
+1. 若要在Adobe Campaign中建立「觸發器」，請按一下左上角的&#x200B;**Adobe**&#x200B;標誌，然後選取&#x200B;**[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud triggers]**。
 
    ![](assets/remarketing_1.png)
 
@@ -164,4 +163,3 @@ ht-degree: 99%
 1. 稍後，相同的訪客/收件者會收到再行銷訊息。訊息包含最近搜尋的目的地。
 
    ![](assets/trigger_uc_search_7.png)
-

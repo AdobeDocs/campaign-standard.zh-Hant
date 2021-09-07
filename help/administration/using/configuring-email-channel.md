@@ -7,13 +7,13 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;delivery,properties,open
-feature: 執行個體設定
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
-source-wordcount: '2598'
+source-wordcount: '2597'
 ht-degree: 76%
 
 ---
@@ -332,7 +332,7 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 
 ### 退回郵件資格 {#legacy-bounce-mail-qualification}
 
-若要列出各種退信及其相關的錯誤類型和原因，請按一下左上方的&#x200B;**[!UICONTROL Adobe Campaign]**&#x200B;標誌，然後選取&#x200B;**[!UICONTROL Administration > Channels > Quarantines > Message qualification]**。
+若要列出各種退信及其相關的錯誤類型和原因，請按一下左上方的&#x200B;**Adobe**&#x200B;標誌，然後選取&#x200B;**[!UICONTROL Administration > Channels > Quarantines > Message qualification]**。
 
 退信可以有下列資格狀態：
 

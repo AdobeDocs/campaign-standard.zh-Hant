@@ -6,14 +6,14 @@ description: 「瞭解如何導覽與使用 Adobe Campaign 工作區： 首頁�
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-feature: 概覽
+feature: Overview
 role: User
 level: Beginner
 exl-id: afdd981d-f6c7-4800-9e60-3018e0e41c74
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
-source-wordcount: '1290'
-ht-degree: 92%
+source-wordcount: '1258'
+ht-degree: 79%
 
 ---
 
@@ -53,7 +53,7 @@ Adobe Campaign 可讓您導覽不同的功能表和畫面，以管理您的行�
 
 導覽原則為：
 
-* 該頁面左上角的 **[!UICONTROL Adobe Campaign]** 標誌可讓您存取進階功能與設定。功能表視您的設定檔與權限。
+* 頁面左上角的&#x200B;**Adobe**&#x200B;標誌可讓您存取進階功能和設定。 功能表視您的設定檔與權限。
 
    進階功能表會顯示在[進階功能表](#advanced-menu)區段中。
 
@@ -66,23 +66,21 @@ Adobe Campaign 可讓您導覽不同的功能表和畫面，以管理您的行�
 
 ### 說明 {#help}
 
-每個畫面上都會顯示頂端列，讓您透過 Adobe Campaign 瀏覽其功能，並存取已連線的 Adobe 設定檔、通知、其他 Adobe Experience Cloud 服務與解決方案及其文件。
+右上角的&#x200B;**Help**&#x200B;圖示會將Adobe Experience League帶入產品中。
 
-導覽原則為：
+![](assets/ux_help.png)
 
-* 該頁面左上角的 **[!UICONTROL Adobe Campaign]** 標誌可讓您存取進階功能與設定。功能表視您的設定檔與權限。
+使用&#x200B;**[!UICONTROL Search]**&#x200B;欄位查找指南。 搜尋結果包括檔案和說明文章、社群論壇的結果和影片內容，讓您更輕鬆地存取更多內容，以協助您充份運用應用程式。
 
-   進階功能表會顯示在[進階功能表](#advanced-menu)區段中。
+三個標籤可協助您尋找說明和協助：
 
-* 此 **[!UICONTROL Home]** 連結允許您顯示 Adobe Campaign 首頁。
-* 這些 **[!UICONTROL Marketing activities]**、**[!UICONTROL Programs & Campaigns]**、**[!UICONTROL Profiles]**、**[!UICONTROL Audiences]** 和 **[!UICONTROL Reports]** 連結可以讓您存取與這些功能連結的檢視。
-* 此 **[!UICONTROL Help]** 按鈕可以讓您存取產品文件與內容相關說明、發行說明、版本號碼、法律注意事項，以及 Adobe Experience Cloud 社群與客戶服務的連結。
-
-   ![](assets/ux_help.png)
-
-* 此&#x200B;**選取解決方案**&#x200B;圖示可以讓您切換至其他 Adobe Experience Cloud 解決方案以及其設定檔設定。
-* 此&#x200B;**通知**&#x200B;圖示會顯示最新警報或資訊。
-* 此&#x200B;**使用者**&#x200B;圖示可讓您顯示連結至設定檔的資訊。它提供此 **[!UICONTROL Sign out]** 按鈕的存取權限。
+1. **[!UICONTROL Help]**&#x200B;標籤包含：
+   * 快速存取Adobe Campaign Standard檔案及內容連結。
+   * **[!UICONTROL Learning]**&#x200B;連結，可讓您存取Adobe Campaign課程庫。
+   * **[!UICONTROL Community]**&#x200B;連結，可存取Campaign上專屬的論壇。
+   * 直接存取：說明中心、客戶服務、Experience Cloud產品狀態、開發人員連線、發行說明、發行計畫和&#x200B;**[!UICONTROL About]**&#x200B;畫面。
+1. **[!UICONTROL Support]**&#x200B;標籤可讓您開啟支援案例，並透過電話或Twitter與我們連絡。
+1. **[!UICONTROL Feedback]**&#x200B;標籤可讓您更輕鬆地回報問題或分享您的想法。
 
 ## 進階功能表 {#advanced-menu}
 

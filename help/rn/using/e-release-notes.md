@@ -1,28 +1,30 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 最新版本
-description: 本頁詳細說明最新 Campaign Standard 版本的內容
-audience: rn
-content-type: reference
-topic-tags: campaign-standard-releases
+title: 早期發行說明
+description: 早期發行說明
 feature: Overview
 role: User
 level: Beginner
-exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 08d2e4552bcb5f5eef9f92e5a0293270b577f873
+hide: true
+hidefromtoc: true
+exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
+source-git-commit: ac129fd21382d1d89263acae2fdbe280709f5946
 workflow-type: tm+mt
 source-wordcount: '1072'
-ht-degree: 38%
+ht-degree: 42%
 
 ---
 
+# 早期發行說明 {#new-release}
 
-# 最新版本{#latest-release}
+本頁說明下一版 Campaign Standard 中包含的新功能、改善和修正。
+
+>[!CAUTION]
+>
+> 在預備環境升級日期前，此內容可能會有所變更，恕不另行通知。 請參閱[發行計劃頁面](../../rn/using/release-planning.md)以瞭解更多資訊。
 
 ## 發行版本 21.3 – 2021 年 9 月 {#release-21-3---sept-2021}
-
-以下列出最新Campaign Standard發行中包含的新功能、改良和修正。
 
 **有哪些新增功能？**
 
@@ -98,7 +100,7 @@ ht-degree: 38%
 
 * 在連結至 Adobe Experience Manager 內容的工作流程中建立循環傳送時，現在會在傳送前檢查內容核准狀態。
 * 資料庫連線限制現在已與 Campaign 套件對齊，以避免連線錯誤。
-* 自訂資源發佈中的新一致性檢查會防止使用者建立重複索引，而導致發佈失敗。 改良的錯誤訊息會視需要要求使用者重新命名索引。
+* 新增在自訂資源中建立索引時的一致性檢查，並改善錯誤訊息。
 
 **其他變更**
 

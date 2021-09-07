@@ -10,7 +10,7 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
-source-git-commit: 084838ff5ff369aaaa7715f5bec87a5133093750
+source-git-commit: c37437678a669f7ce90082ee17a7896cddec9284
 workflow-type: tm+mt
 source-wordcount: '1268'
 ht-degree: 30%
@@ -41,7 +41,7 @@ ht-degree: 30%
 
 * **** 隔離僅適用於 **地址** （或電話號碼等），不適用於設定檔本身。例如，被隔離的電子郵件地址的設定檔可以更新其設定檔並輸入新地址，然後再次被傳送動作定位。 同樣地，如果兩個設定檔的電話號碼恰好相同，則兩者在隔離號碼時都會受到影響。
 
-   隔離的地址或電話號碼顯示在[排除日誌](identifying-quarantined-addresses-for-a-delivery)中（針對傳送），或顯示在[隔離清單](#identifying-quarantined-addresses-for-the-entire-platform)中（針對整個平台）。
+   隔離的地址或電話號碼顯示在[排除日誌](#identifying-quarantined-addresses-for-a-delivery)中（針對傳送），或顯示在[隔離清單](#identifying-quarantined-addresses-for-the-entire-platform)中（針對整個平台）。
 
 * 另一方面，位於&#x200B;**denylist**&#x200B;時，會導致指定通道的&#x200B;**profile**&#x200B;不再由傳送定位，例如在取消訂閱（選擇退出）後。 例如，如果電子郵件通道封鎖清單上的設定檔有兩個電子郵件地址，則兩個地址都將從傳送中排除。 如需封鎖清單程式的詳細資訊，請參閱[關於Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)中的選擇加入和選擇退出。
 

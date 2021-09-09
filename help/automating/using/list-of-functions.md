@@ -6,14 +6,14 @@ description: 查詢編輯工具可讓您使用進階功能執行複雜的過濾�
 audience: automating
 content-type: reference
 topic-tags: filtering-data
-feature: 工作流程
+feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
-source-git-commit: 887396a0871a8ed93642c55a49c8737f5c98bfc2
+source-git-commit: cedb8a0837d9c0339149efd2a99c777a12ef260d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1970'
+ht-degree: 96%
 
 ---
 
@@ -222,7 +222,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <strong>ToDateTimeWithTimezone</strong><br /> </td> 
-   <td> 將字串轉換為日期+時區。<br />範例：ToDateTimeWithTimezone ("2019-02-19 08:09:00", "Asia/Tehran")<br /> </td> 
+   <td> 將字串轉換為日期+時區。<br /> 範例：ToDateTimeWithTimezone("2019-02-19 08:09: 00", "Asia/Tehran")<br /> </td> 
    <td> ToDateTimeWithTimezone(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
@@ -480,7 +480,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-## String {#string}
+## 字串 {#string}
 
 字串函式可用來控制一組字串。
 
@@ -707,11 +707,12 @@ ht-degree: 0%
    <td> 傳回數值、字串或日期欄中的最小值。<br /> </td> 
    <td> Min(&lt;value&gt;)<br /> </td> 
   </tr>
-
-
-
-
-<tr> 
+  <tr>
+   <td> <strong>StringAgg</strong>, String匯總<br /> </td>
+   <td> 傳回字串類型列值的串連，用第二個引數中的字元分隔（預設分隔符號為逗號）。<br /> </td>
+   <td> StringAgg(&lt;string values&gt;,&lt;separator&gt;)
+  </tr>
+  <tr> 
    <td> <strong>Sum</strong>, Sum<br /> </td> 
    <td> 傳回數值欄中值的總和。<br /> </td> 
    <td> Sum(&lt;value&gt;)<br /> </td> 

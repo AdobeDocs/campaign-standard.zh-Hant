@@ -10,9 +10,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 08d2e4552bcb5f5eef9f92e5a0293270b577f873
+source-git-commit: cedb8a0837d9c0339149efd2a99c777a12ef260d
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1074'
 ht-degree: 38%
 
 ---
@@ -104,7 +104,7 @@ ht-degree: 38%
 
 * Adobe Experience Platform Data Connector和Audience Destinations服務現已透過Campaign Standard淘汰。 如果您使用這些功能，則需移至「Adobe來源」和「目的地」，並調整實作。 [深入瞭解](../../integrating/using/get-started-sources-destinations.md)
 * [此頁面](deprecated-features.md)中列出已棄用和已移除的功能。
-* 引入新的「StringAgg」匯總函式以串連字串類型欄的值。 (CAMP-47077)
+* 引入新的「StringAgg」匯總函式以串連字串類型欄的值。 (CAMP-47077)[ 進一步瞭解](../../automating/using/list-of-functions.md#aggregates)
 * 已改善&#x200B;**更新傳送指標**(updateDeliveryIndicators)技術工作流程，以提升效能。
 * 應用程式內訊息範本現在可供Campaign Standard支援的所有語言使用。
 * 透過減少傳遞分析期間對追蹤伺服器的呼叫數，已針對交易式訊息最佳化傳送準備時間。

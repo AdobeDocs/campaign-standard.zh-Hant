@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 關於 Campaign-Points of Interest 資料整合
 description: 從行動應用程式的訂閱者收集地標資料，透過Adobe Campaign中的整合，傳送位置型行銷訊息給訂閱者。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
-feature: 對象
+feature: Audiences
 role: Data Architect
 level: Intermediate
 exl-id: 358194f9-34ce-4dd5-b9b2-1a7d541879ab
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '196'
 ht-degree: 6%
 
 ---

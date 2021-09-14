@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Campaign 中目標定位對應
 description: 目標對應是Campaign用來傳送訊息的技術物件。 它們包含傳送傳遞所需的所有技術設定。
 audience: administration
 content-type: reference
 topic-tags: application-settings
-feature: 執行個體設定
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: d5e5cfa8-03f0-47be-9645-b9ee6ac4643c
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '101'
 ht-degree: 16%
 
 ---

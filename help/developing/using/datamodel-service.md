@@ -1,21 +1,18 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: DataModel
-description: 瞭解資料模型
+description: 了解資料模型
 audience: developing
 content-type: reference
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: a326b38f-ca88-4a44-a7c2-b6e34497a364
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 5%
+source-wordcount: '213'
+ht-degree: 7%
 
 ---
-
 
 # 服務(nms:service)
 
@@ -49,7 +46,7 @@ ht-degree: 5%
                <tr>
                   <td>createdBy(userBase)</td>
                   <td>建立者</td>
-                  <td>link </td>
+                  <td>連結 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -65,7 +62,7 @@ ht-degree: 5%
                   <td> </td>
                </tr>
                <tr>
-                  <td>end</td>
+                  <td>結束</td>
                   <td>結束日期</td>
                   <td>日期 </td>
                   <td> </td>
@@ -73,13 +70,13 @@ ht-degree: 5%
                <tr>
                   <td>geoUnit(geoUnitBase)</td>
                   <td>地理單位</td>
-                  <td>link </td>
+                  <td>連結 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>歷史</td>
                   <td>訂閱歷史記錄</td>
-                  <td>系列 </td>
+                  <td>集合 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -95,20 +92,20 @@ ht-degree: 5%
                   <td> </td>
                </tr>
                <tr>
-                  <td>標籤</td>
+                  <td>label</td>
                   <td>標籤</td>
                   <td>字串(128)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>lastModified</td>
-                  <td>上次修改日期</td>
+                  <td>上次修改時間</td>
                   <td>日期 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>limitedDuration</td>
-                  <td>有限期</td>
+                  <td>有限持續時間</td>
                   <td>布林值 </td>
                   <td> </td>
                </tr>
@@ -125,8 +122,8 @@ ht-degree: 5%
                   <td>
                      <ul>
                         <li>行動(SMS)- sms - 1</li>
-                        <li>電子郵件——電子郵件- 0</li>
-                        <li>無效值- __Invalid_value__ - __Invalid_value__</li>
+                        <li>電子郵件 — 電子郵件 — 0</li>
+                        <li>無效值 — __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
@@ -136,16 +133,16 @@ ht-degree: 5%
                   <td>枚舉（位元組） </td>
                   <td>
                      <ul>
-                        <li>病毒式營銷- 1</li>
-                        <li>電子報——電子報- 0</li>
-                        <li>無效值- __Invalid_value__ - __Invalid_value__</li>
+                        <li>病毒 — 病毒 — 1</li>
+                        <li>電子報 — 電子報 — 0</li>
+                        <li>無效值 — __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
                <tr>
                   <td>modifiedBy(userBase)</td>
                   <td>修改者</td>
-                  <td>link </td>
+                  <td>連結 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -157,7 +154,7 @@ ht-degree: 5%
                <tr>
                   <td>orgUnit(orgUnitBase)</td>
                   <td>組織單位</td>
-                  <td>link </td>
+                  <td>連結 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -167,21 +164,21 @@ ht-degree: 5%
                   <td> </td>
                </tr>
                <tr>
-                  <td>start</td>
+                  <td>開始</td>
                   <td>開始日期</td>
                   <td>日期 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>subLandingPage(landingPageSubscriptionBase)</td>
-                  <td>訂閱登陸頁面</td>
-                  <td>link </td>
+                  <td>訂閱登錄頁面</td>
+                  <td>連結 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>subScenario(deliveryMCTemplateBase)</td>
                   <td>訂閱確認</td>
-                  <td>link </td>
+                  <td>連結 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -193,19 +190,19 @@ ht-degree: 5%
                <tr>
                   <td>訂閱</td>
                   <td>訂閱</td>
-                  <td>系列 </td>
+                  <td>集合 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>targetResource</td>
-                  <td>定位維度</td>
+                  <td>目標維度</td>
                   <td>字串(255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>範本（服務）</td>
                   <td>服務模板</td>
-                  <td>link </td>
+                  <td>連結 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -221,34 +218,34 @@ ht-degree: 5%
                   <td> </td>
                </tr>
                <tr>
-                  <td>nimsLandingPage(landingPageUnsubscriptionBase)</td>
-                  <td>取消訂閱登陸頁面</td>
-                  <td>link </td>
+                  <td>unsubLandingPage(landingPageUnsubscriptionBase)</td>
+                  <td>取消訂閱登錄頁面</td>
+                  <td>連結 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>nimsScenario(deliveryMCTemplateBase)</td>
+                  <td>unsubScenario(deliveryMCTemplateBase)</td>
                   <td>取消訂閱確認</td>
-                  <td>link </td>
+                  <td>連結 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>minsumScenarioEventType</td>
-                  <td>NimmessScenarioEventType</td>
+                  <td>unsubScenarioEventType</td>
+                  <td>UnsubScenarioEventType</td>
                   <td>字串 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>validityDuration</td>
-                  <td>有效期</td>
+                  <td>有效期間</td>
                   <td>數字 </td>
                   <td> </td>
                </tr>
             </table>
 
-## 濾鏡
+## 篩選器
 
-在指定時段內可用（由Planning提供）
+在指定時段內可用（按Planning）
 
 <table>
     <tr>
@@ -265,7 +262,7 @@ ht-degree: 5%
     </tr>
 </table>
 
-依頻道類型（依頻道）
+按通道類型(byChannel)
 
 <table>
 <tr>
@@ -274,11 +271,11 @@ ht-degree: 5%
 </tr>
 <tr>
 <td>頻道</td>
-<td>枚舉</td>
+<td>分項清單</td>
 </tr>
 </table>
 
-依名稱或標籤（依Text）
+按名稱或標籤(byText)
 
 <table>
 <tr>
@@ -291,7 +288,7 @@ ht-degree: 5%
 </tr>
 </table>
 
-透過定位資源(byTargetResource)
+依目標資源(byTargetResource)
 
 <table>
 <tr>

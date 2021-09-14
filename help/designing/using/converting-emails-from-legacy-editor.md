@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: '將舊版編輯器電子郵件轉換為電子郵件設計工具 '
 description: 探索如何使用在舊版編輯器電子郵件中建立的電子郵件傳送給電子郵件設計工具。
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: 電子郵件設計
+feature: Email Design
 role: User
 level: Intermediate
 exl-id: 2b024052-ed42-44f3-9990-be7425cc79d7
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '438'
 ht-degree: 8%
 
 ---

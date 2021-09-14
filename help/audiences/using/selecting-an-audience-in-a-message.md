@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 在訊息中選取對象
 description: '"選取電子郵件對象的逐步程序：主要目標母體及測試設定檔。"'
 audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: deliveryCreation,wizard;delivery,audience,back
-feature: 對象
+feature: Audiences
 role: User
 level: Intermediate
 exl-id: 239959ad-6386-42bf-a86a-5694cdaecd83
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '411'
 ht-degree: 74%
 
 ---

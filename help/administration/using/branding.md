@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 品牌推廣
 description: 探索所有可用來管理品牌識別的工具。
 audience: administration
 content-type: reference
 topic-tags: application-settings
 context-tags: branding,overview;branding,main
-feature: 執行個體設定
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1280'
 ht-degree: 80%
 
 ---
@@ -95,7 +93,7 @@ ht-degree: 80%
 
    >[!NOTE]
    >
-   >所有管理員使用者都可存取控制面板。 授予使用者管理員存取權限的步驟已詳載於[本頁](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel)中。
+   >所有管理員使用者都可存取控制面板。 授予使用者管理員存取權限的步驟已詳載於[本頁](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hant#discover-control-panel)中。
 
 1. **建立票證**  — 一旦設定子網域，Adobe就需要在您的生產環境中進行設定。若要要求此項，請[使用下列資訊建立票證給Client Care](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html):
 

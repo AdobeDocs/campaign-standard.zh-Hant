@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 開始使用流程和資料管理
 description: 使用工作流程自動化程序，管理資料和對象、傳送訊息等。
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
-feature: 工作流程
+feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
-source-git-commit: 7808aea42f417994a61fdde84a44299c0954b346
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '517'
 ht-degree: 40%
 
 ---
@@ -36,7 +34,7 @@ Adobe Campaign 提供完整的圖形環境，讓您設計複雜程式，包括�
 * 將資料匯入 Campaign 資料庫。
 * 技術流程，例如資料庫清理、復原追蹤資訊等。
 
-## 工作流活動{#workflow-activities}
+## 工作流程活動 {#workflow-activities}
 
 <img src="assets/do-not-localize/icon_workflows.svg" width="60px">
 
@@ -68,7 +66,7 @@ Adobe Campaign 提供完整的圖形環境，讓您設計複雜程式，包括�
 * [進階運算式編輯](../../automating/using/advanced-expression-editing.md)
 * [函式清單](../../automating/using/list-of-functions.md)
 
-## 匯入/匯出資料{#import-export-data}
+## 匯入/匯出資料 {#import-export-data}
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 

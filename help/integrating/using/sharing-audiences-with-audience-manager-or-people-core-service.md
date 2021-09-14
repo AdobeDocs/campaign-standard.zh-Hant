@@ -1,25 +1,23 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: 與 Audience Manager 或 People 核心服務共用閱聽眾
+title: 與 Audience Manager 或 People 核心服務共用對象
 description: 了解如何在不同的Adobe Experience Cloud解決方案中匯入或匯出您的對象。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
-feature: 人員核心服務整合
+feature: People Core Service Integration
 role: Data Architect
 level: Intermediate
 exl-id: b0d063de-863c-42e7-98dd-c4c86da3281e
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '801'
 ht-degree: 2%
 
 ---
 
-# 與 Audience Manager 或 People 核心服務共用閱聽眾{#sharing-audiences-with-audience-manager-or-people-core-service}
+# 與 Audience Manager 或 People 核心服務共用對象{#sharing-audiences-with-audience-manager-or-people-core-service}
 
-## 匯入對象{#importing-an-audience}
+## 匯入對象 {#importing-an-audience}
 
 People核心服務整合可讓對象透過技術工作流程直接匯入Adobe Campaign，以豐富您的資料庫。 如需「People」核心服務中受眾共用的詳細資訊，請參閱本[檔案](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)。
 
@@ -49,7 +47,7 @@ People核心服務整合可讓對象透過技術工作流程直接匯入Adobe Ca
 >
 >如果您要將對象從Adobe Analytics匯入Adobe Campaign，必須先在People核心服務或Audience Manager中共用這些對象。 此程式需要12到24小時，必須與Campaign同步，將其新增至24到36小時。 在該特定情況下，受眾共用時間範圍最多可為60小時。 如需People核心服務與Audience Manager中Adobe Analytics受眾共用的詳細資訊，請參閱本[檔案](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)。
 
-## 匯出對象{#exporting-an-audience}
+## 匯出對象 {#exporting-an-audience}
 
 對象可使用工作流程和&#x200B;**[!UICONTROL Save audience]**&#x200B;活動，從Adobe Campaign匯出至Audience Manager或人員核心服務。
 

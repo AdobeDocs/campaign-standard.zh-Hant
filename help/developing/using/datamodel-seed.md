@@ -1,21 +1,18 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: DataModel
-description: 瞭解資料模型
+description: 了解資料模型
 audience: developing
 content-type: reference
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 9b522c84-e296-47c7-9588-2e5ed08ab631
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '171'
 ht-degree: 9%
 
 ---
-
 
 # 種子成員(nms:seedMember)
 
@@ -36,8 +33,8 @@ ht-degree: 9%
                </tr>
                <tr>
                   <td>國家（國家）</td>
-                  <td>國家／地區</td>
-                  <td>link </td>
+                  <td>國家/地區</td>
+                  <td>連結 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -49,7 +46,7 @@ ht-degree: 9%
                <tr>
                   <td>createdBy(userBase)</td>
                   <td>建立者</td>
-                  <td>link </td>
+                  <td>連結 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -66,7 +63,7 @@ ht-degree: 9%
                </tr>
                <tr>
                   <td>emailRendering</td>
-                  <td>電子郵件呈現</td>
+                  <td>電子郵件轉譯</td>
                   <td>布林值 </td>
                   <td> </td>
                </tr>
@@ -79,7 +76,7 @@ ht-degree: 9%
                <tr>
                   <td>geoUnit(geoUnitBase)</td>
                   <td>地理單位</td>
-                  <td>link </td>
+                  <td>連結 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -90,7 +87,7 @@ ht-degree: 9%
                </tr>
                <tr>
                   <td>lastModified</td>
-                  <td>上次修改日期</td>
+                  <td>上次修改時間</td>
                   <td>日期 </td>
                   <td> </td>
                </tr>
@@ -121,7 +118,7 @@ ht-degree: 9%
                <tr>
                   <td>modifiedBy(userBase)</td>
                   <td>修改者</td>
-                  <td>link </td>
+                  <td>連結 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -132,7 +129,7 @@ ht-degree: 9%
                </tr>
                <tr>
                   <td>nms_recipient</td>
-                  <td>個人資料</td>
+                  <td>設定檔</td>
                   <td>項目 </td>
                   <td> </td>
                </tr>
@@ -145,18 +142,18 @@ ht-degree: 9%
                <tr>
                   <td>orgUnit(orgUnitBase)</td>
                   <td>組織單位</td>
-                  <td>link </td>
+                  <td>連結 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>手機</td>
+                  <td>phone</td>
                   <td>電話</td>
                   <td>字串(32)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>證明</td>
-                  <td>證明</td>
+                  <td>校樣</td>
                   <td>布林值 </td>
                   <td> </td>
                </tr>
@@ -168,7 +165,7 @@ ht-degree: 9%
                </tr>
                <tr>
                   <td>registrationToken</td>
-                  <td>註冊Token</td>
+                  <td>註冊令牌</td>
                   <td>字串(256)</td>
                   <td> </td>
                </tr>
@@ -186,8 +183,8 @@ ht-degree: 9%
                </tr>
                <tr>
                   <td>stateLink(state)</td>
-                  <td>州</td>
-                  <td>link </td>
+                  <td>狀態</td>
+                  <td>連結 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -210,13 +207,13 @@ ht-degree: 9%
                </tr>
                <tr>
                   <td>陷阱</td>
-                  <td>陷阱</td>
+                  <td>補漏白</td>
                   <td>布林值 </td>
                   <td> </td>
                </tr>
             </table>
 
-## 濾鏡
+## 篩選器
 
 依事件類型(byEventType)
 
@@ -231,7 +228,7 @@ ht-degree: 9%
         </tr>
     </table>
 
-依名稱或標籤（依Text）
+按名稱或標籤(byText)
 
 <table>
         <tr>
@@ -244,7 +241,7 @@ ht-degree: 9%
         </tr>
     </table>
 
-依使用（依使用）
+依使用方式（依使用方式）
 
 <table>
         <tr>
@@ -274,6 +271,6 @@ ht-degree: 9%
     </tr>
     <tr>
     <td>seedMember</td>
-    <td>link</td>
+    <td>連結</td>
     </tr>
 </table>

@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 關於介面
 description: Campaign工作區以所有Adobe Experience Cloud解決方案通用的概念為基礎。
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-feature: 概覽
+feature: Overview
 role: User
 level: Beginner
 exl-id: d32f2dd1-c579-4a3e-8330-b39bce941656
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 5%
+source-wordcount: '432'
+ht-degree: 4%
 
 ---
 

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 開始和結束
 description: 「開始」和「結束」活動可讓您清楚標示工作流程的開始和結束位置。
 audience: automating
@@ -9,14 +7,13 @@ topic-tags: execution-activities
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 1dfc547f-747d-403e-a5b7-a68f56191c71
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 98%
+source-wordcount: '274'
+ht-degree: 100%
 
 ---
-
 
 # 開始和結束{#start-and-end}
 
@@ -51,4 +48,3 @@ ht-degree: 98%
 以下範例說明如何使用　**[!UICONTROL Start]**　活動和數個　**[!UICONTROL End]**　活動執行複雜的工作流程。已針對第一個 **[!UICONTROL End]** 活動核取　**[!UICONTROL Stop all tasks in progress]**　方塊。完成相對應的任務之後，將會停止整個工作流程：其效果與已選取 ![](assets/stop_darkgrey-24px.png) 按鈕相同（請參閱[動作列](../../automating/using/workflow-interface.md#action-bar)區段）。
 
 ![](assets/wkf_start_end_example.png)
-

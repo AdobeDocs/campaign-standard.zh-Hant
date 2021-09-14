@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 建立多語言電子郵件
 description: 請依照下列步驟，建立以不同偏好語言鎖定收件者的多語言電子郵件。
 audience: channels
 content-type: reference
 topic-tags: email-messages
-feature: 電子郵件
+feature: Email
 role: User
 level: Intermediate
 exl-id: fcf192cb-f2d5-4340-bc2f-add0c195ad4e
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '292'
 ht-degree: 25%
 
 ---

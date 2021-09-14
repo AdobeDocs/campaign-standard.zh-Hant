@@ -1,8 +1,6 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 對服務訂閱者的增量查詢
-description: 以下示例說明如何配置增量查詢活動以篩選服務的訂戶。
+description: 下列範例說明如何設定增量查詢活動，以篩選服務的訂閱者。
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -10,14 +8,13 @@ context-tags: incremental,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: c80ed1f6-ad8a-4448-a6df-b9881327228a
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 66%
+source-wordcount: '211'
+ht-degree: 67%
 
 ---
-
 
 # 對服務訂閱者的增量查詢 {#example--incremental-query-on-subscribers-to-a-service}
 
@@ -27,11 +24,11 @@ ht-degree: 66%
 
 ![](assets/incremental_query_example1.png)
 
-* [排程器](../../automating/using/scheduler.md)活動，每週一早上6點執行工作流。
+* [排程器](../../automating/using/scheduler.md)活動，每週一早上6:00執行工作流。
 
    ![](assets/incremental_query_example2.png)
 
-* [增量查詢](../../automating/using/incremental-query.md)活動，其目標在第一次執行期間是所有當前訂閱者，然後在以下執行期間只針對該周的新訂閱者。
+* [增量查詢](../../automating/using/incremental-query.md)活動，在第一次執行期間鎖定所有當前訂閱者，然後在以下執行期間只鎖定該周的新訂閱者。
 
    ![](assets/incremental_query_example3.png)
 
@@ -39,6 +36,6 @@ ht-degree: 66%
 
    要執行此操作，請選取在這裡建立 **[!UICONTROL Recurring email]** 重新分組電子郵件和結果 **[!UICONTROL By month]**。
 
-   定義電子郵件內容並插入歡迎促銷代碼。有關詳細資訊，請參閱[定義電子郵件內容](../../designing/using/personalization.md)部分。
+   定義電子郵件內容並插入歡迎促銷代碼。如需詳細資訊，請參閱[定義電子郵件內容](../../designing/using/personalization.md)區段。
 
 然後開始執行工作流程。每週新訂閱者都會收到包含促銷代碼的歡迎電子郵件。

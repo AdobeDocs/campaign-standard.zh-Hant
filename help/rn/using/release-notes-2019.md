@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 發行說明 2019 年
 description: 本頁列出 2019 年的所有 Adobe Campaign Standard 版本。
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: 概覽
+feature: Overview
 role: User
 level: Beginner
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '7590'
-ht-degree: 7%
+source-wordcount: '7589'
+ht-degree: 8%
 
 ---
 
@@ -23,7 +21,7 @@ ht-degree: 7%
 
 ## 發行版本19.4 - 2019年12月 {#release-19-4---october-2019}
 
-**新增功能？**
+**有哪些新增功能？**
 
 <table> 
  <thead> 
@@ -36,7 +34,7 @@ ht-degree: 7%
    <td> <p>CCPA是加州新推出的隱私權法，調和了2020年1月1日起生效的資料保護要求，並將其現代化。 CCPA適用於為居住在加州的資料主體保管資料的Adobe Campaign客戶。</p>
    <p>除了Adobe Campaign中已提供的隱私權功能（包括同意管理、資料保留設定和使用者角色）之外，我們也趁此次機會加入其他功能，以協助您為CCPA做好準備：</p>
    <ul>
-    <li>存取權與刪除權：我們善用針對GDPR新增的功能。 <a href="https://helpx.adobe.com/content/help/tw/campaign/kb/acs-privacy.html#righttoaccess">深入瞭解</a> </li>
+    <li>存取權與刪除權：我們善用針對GDPR新增的功能。 <a href="https://helpx.adobe.com/content/help/tw/campaign/kb/acs-privacy.html#righttoaccess">瞭解更多</a> </li>
     <li><p>建立隱私權要求時，隱私權核心服務已新增規範類型（GDPR或CCPA）。 此方法是您應該用於所有存取和刪除請求的方法。不建議使用促銷活動 API 和介面來存取和刪除請求。請參閱「<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">已過時和已移除的功能</a>」文章。</p></li>
     <li>「設定檔」資源已新增<strong>CCPA選擇退出</strong>欄位，讓Adobe Campaign使用者追蹤消費者是否選擇退出個人資訊銷售。 <a href="https://helpx.adobe.com/tw/campaign/kb/acs-privacy.html#ccpa">深入瞭解</a>。</li>
   </ul>
@@ -149,7 +147,7 @@ ht-degree: 7%
 
 ## 發行版本 19.3 – 2019 年 7 月 {#release-19-3---july-2019}
 
-**新增功能？**
+**有哪些新增功能？**
 
 <table> 
  <thead> 
@@ -203,7 +201,7 @@ ht-degree: 7%
 
 **其他改善項目**
 
-* 透過與Adobe Experience Platform Location Services的整合，Adobe Campaign現在可相容，透過Experience PlatformSDK將位置型行銷訊息傳送給行動應用程式的訂閱者。 如需詳細資訊，請參閱[相關的文件](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md)，以瞭解詳情。
+* 透過與Adobe Experience Platform Location Services的整合，Adobe Campaign現在可相容，透過Experience PlatformSDK將位置型行銷訊息傳送給行動應用程式的訂閱者。 如需詳細資訊，請參閱[詳細文件](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md)，以瞭解詳情。
 * 已改善報表功能，以獲得更佳體驗。 若要使用此功能，您必須接受動態報告使用協定。 有關詳細資訊，請參閱[詳細檔案](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)。
 * 在工作流程中，已新增新選項，以預覽工作流程接下來的十個執行。 有關詳細資訊，請參閱[詳細檔案](../../automating/using/scheduler.md)。
 * 在排程器活動中，新選項可讓您為每月傳送選取特定星期的特定一天。 有關詳細資訊，請參閱[詳細檔案](../../automating/using/scheduler.md)。
@@ -292,9 +290,9 @@ ht-degree: 7%
 * 修正無法透過服務資源的資訊擴充交易式訊息內容的問題。 (CAMP-33707)
 * 修正了封鎖清單登錄頁面中嘗試從服務取消訂閱設定檔時發生的問題。
 
-## 版本 19.2 – 2019 年 5 月 {#release-19-2---may-2019}
+## 發行版本 19.2 – 2019 年 5 月 {#release-19-2---may-2019}
 
-**新增功能？**
+**有哪些新增功能？**
 
 <table> 
  <thead> 
@@ -306,11 +304,11 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td> 控制面板<br /> </td> 
-   <td> <p>若要協助您提高身為管理員使用者的工作效率，您可以輕鬆監控執行個體的容量並管理其設定（從SFTP伺服器管理開始）。</p><p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hant">詳細文件</a>及<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=en">作法影片</a>。</p></td> 
+   <td> <p>若要協助您提高身為管理員使用者的工作效率，您可以輕鬆監控執行個體的容量並管理其設定（從SFTP伺服器管理開始）。</p><p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hant">詳細文件</a>及<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=zh-Hant">作法影片</a>。</p></td> 
   </tr> 
   <tr> 
    <td> 本機通知<br /> </td> 
-   <td> <p>本機通知訊息可讓您在行動應用程式內有新資料可用時通知使用者，即使無法存取網際網路或行動應用程式在前景執行亦然。 行動應用程式會在特定時間並根據事件來觸發本機通知。</p><p>如需詳細資訊，請參閱<a href="../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type">相關的文件</a>，以瞭解詳情。</p></td> 
+   <td> <p>本機通知訊息可讓您在行動應用程式內有新資料可用時通知使用者，即使無法存取網際網路或行動應用程式在前景執行亦然。 行動應用程式會在特定時間並根據事件來觸發本機通知。</p><p>如需詳細資訊，請參閱<a href="../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type">詳細文件</a>，以瞭解詳情。</p></td> 
   </tr> 
   <tr> 
    <td> 工作流程增強功能 — 將裝載新增至外部訊號活動<br /> </td> 
@@ -318,7 +316,7 @@ ht-degree: 7%
   </tr> 
   <tr> 
    <td> 登錄頁面增強功能 — Google reCAPTCHA<br /> </td> 
-   <td> <p>運用Google reCAPTCHA來防止登陸頁面上出現垃圾訊息，而無須客戶採取任何動作。</p><p>如需詳細資訊，請參閱<a href="../../channels/using/configuring-landing-page.md#setting-google-recaptcha">相關的文件</a>，以瞭解詳情。</p></td> 
+   <td> <p>運用Google reCAPTCHA來防止登陸頁面上出現垃圾訊息，而無須客戶採取任何動作。</p><p>如需詳細資訊，請參閱<a href="../../channels/using/configuring-landing-page.md#setting-google-recaptcha">詳細文件</a>，以瞭解詳情。</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -366,14 +364,14 @@ ht-degree: 7%
 * 郵遞區號維度已從動態報告中移除。 建議您改用「城市」、「國家/地區」、「州」維度。
 * 應用程式內訊息的「首次啟動」生命週期事件觸發器已移除。
 * 匯出包含安全組時，它現在包含指派給每個群組的角色。 (CAMP-32960)
-* 在「載入檔案」活動中，新選項可讓您檢查要上傳的檔案的欄是否符合欄定義。 如需詳細資訊，請參閱[詳細檔案](../../automating/using/load-file.md)。 (CAMP-32229)
-* 現在可以使用裝載來啟動工作流程，讓您在工作流程中的活動之間使用和共用外部參數。 如需詳細資訊，請參閱[詳細檔案](../../automating/using/calling-a-workflow-with-external-parameters.md)。 (CAMP-29412和CAMP-29413)
-* Campaign StandardAPI現在可讓您使用裝載來更新設定檔的地理和組織單位。 如需詳細資訊，請參閱[相關的文件](../../api/using/get-started-apis.md)，以瞭解詳情。
+* 在「載入檔案」活動中，新選項可讓您檢查要上傳的檔案的欄是否符合欄定義。 如需詳細資訊，請參閱[詳細文件](../../automating/using/load-file.md)，以瞭解詳情。(CAMP-32229)
+* 現在可以使用裝載來啟動工作流程，讓您在工作流程中的活動之間使用和共用外部參數。 如需詳細資訊，請參閱[詳細文件](../../automating/using/calling-a-workflow-with-external-parameters.md)，以瞭解詳情。(CAMP-29412和CAMP-29413)
+* Campaign StandardAPI現在可讓您使用裝載來更新設定檔的地理和組織單位。 如需詳細資訊，請參閱[詳細文件](../../api/using/get-started-apis.md)，以瞭解詳情。
 * 無法存取資料庫中的物件時，錯誤訊息已更清楚明瞭，以便了解。
-* 在擷取檔案活動中，定義要匯出的檔案名稱時，已更新Javascript功能。 現在只有formatDate函式可在「輸出」欄位中使用。 如需詳細資訊，請參閱[相關的文件](../../automating/using/extract-file.md)，以瞭解詳情。
+* 在擷取檔案活動中，定義要匯出的檔案名稱時，已更新Javascript功能。 現在只有formatDate函式可在「輸出」欄位中使用。 如需詳細資訊，請參閱[詳細文件](../../automating/using/extract-file.md)，以瞭解詳情。
 * 改善自訂資源的自動序列ID產生。 新自訂資源的主要金鑰現在預設為64位元。
-* 改善自訂資源發佈測試模式。 如果上次自訂資源發佈失敗且未修正，系統現在會向使用者顯示警告訊息。 在自訂資源發佈失敗後，您可以回復至上次使用的版本。 如需詳細資訊，請參閱[相關的文件](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)，以瞭解詳情。
-* 已在傳輸檔案活動中新增選項。 它可讓您在使用檔案下載動作時，以SFTP模式排序檔案。 如需詳細資訊，請參閱[詳細檔案](../../automating/using/transfer-file.md)。 (CAMP-33109)
+* 改善自訂資源發佈測試模式。 如果上次自訂資源發佈失敗且未修正，系統現在會向使用者顯示警告訊息。 在自訂資源發佈失敗後，您可以回復至上次使用的版本。 如需詳細資訊，請參閱[詳細文件](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)，以瞭解詳情。
+* 已在傳輸檔案活動中新增選項。 它可讓您在使用檔案下載動作時，以SFTP模式排序檔案。 如需詳細資訊，請參閱[詳細文件](../../automating/using/transfer-file.md)，以瞭解詳情。(CAMP-33109)
 
 **修補程式**
 
@@ -410,9 +408,9 @@ ht-degree: 7%
 * 修正無法編輯類型規則的問題。 (CAMP-31750)
 * 修正inMail程式可能意外停止的問題。 (CAMP-31238)
 
-## 版本 19.1 – 2019 年 2 月 {#release-19-1---february-2019}
+## 發行版本 19.1 – 2019 年 2 月 {#release-19-1---february-2019}
 
-**新增功能？**
+**有哪些新增功能？**
 
 <table> 
  <thead> 
@@ -424,11 +422,11 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td> 推播通道報告改善<br /> </td> 
-   <td> <p>推播通道報表已新增數項增強功能，可讓您更直覺地測量使用者參與度。 在此版本中，「推播」管道量度清單已擴增至三種量度：曝光數、點按次數、開啟次數（應用程式開啟次數）可協助您更有效測量和分析使用者與推播通知的互動。 除此之外，我們也標準化這些量度的定義與實作。 推播通知內建報表也已改良為常用的視覺效果和量度。</p><p> 如需詳細資訊，請參閱<a href="../../reporting/using/push-notification-report.md">相關的文件</a>，以瞭解詳情。</p> </td> 
+   <td> <p>推播通道報表已新增數項增強功能，可讓您更直覺地測量使用者參與度。 在此版本中，「推播」管道量度清單已擴增至三種量度：曝光數、點按次數、開啟次數（應用程式開啟次數）可協助您更有效測量和分析使用者與推播通知的互動。 除此之外，我們也標準化這些量度的定義與實作。 推播通知內建報表也已改良為常用的視覺效果和量度。</p><p> 如需詳細資訊，請參閱<a href="../../reporting/using/push-notification-report.md">詳細文件</a>，以瞭解詳情。</p> </td> 
   </tr> 
   <tr> 
    <td> 行動應用程式的Launch整合<br /> </td> 
-   <td> <p>此版本包含Adobe Campaign與Adobe Experience Platform Launch和行動SDK中適用於Adobe Campaign Standard的GA版Android和iOS擴充功能的整合。 這些擴充功能支援推送訊息、應用程式內訊息和行動應用程式設定檔更新。</p><p> 如需詳細資訊，請參閱<a href="https://helpx.adobe.com/tw/campaign/kb/configuring-app-sdk.html">相關的文件</a>，以瞭解詳情。</p> </td> 
+   <td> <p>此版本包含Adobe Campaign與Adobe Experience Platform Launch和行動SDK中適用於Adobe Campaign Standard的GA版Android和iOS擴充功能的整合。 這些擴充功能支援推送訊息、應用程式內訊息和行動應用程式設定檔更新。</p><p> 如需詳細資訊，請參閱<a href="https://helpx.adobe.com/tw/campaign/kb/configuring-app-sdk.html">詳細文件</a>，以瞭解詳情。</p> </td> 
   </tr> 
   <tr> 
    <td> 行動應用程式內傳訊<br /> </td> 
@@ -438,8 +436,8 @@ ht-degree: 7%
    <td> 工作流程增強功能<br /> </td> 
    <td> <p>已新增下列工作流程功能：</p> 
     <ul> 
-     <li> 您現在可以從相同的Campaign例項複製貼上工作流程或其他工作流程中的活動。 這樣，您就可以輕鬆複製整個工作流程或特定活動，並保留最初定義的設定。 如需詳細資訊，請參閱<a href="../../automating/using/workflow-interface.md#duplicating-workflow-activities">詳細檔案</a>。 (CAMP-20014) </li> 
-     <li> 使用<strong>載入檔案</strong>活動時，您現在可以將時間戳記新增至包含已拒絕記錄的檔案名稱。 如需詳細資訊，請參閱<a href="../../automating/using/load-file.md#configuration">相關的文件</a>，以瞭解詳情。 </li> 
+     <li> 您現在可以從相同的Campaign例項複製貼上工作流程或其他工作流程中的活動。 這樣，您就可以輕鬆複製整個工作流程或特定活動，並保留最初定義的設定。 如需詳細資訊，請參閱<a href="../../automating/using/workflow-interface.md#duplicating-workflow-activities">詳細文件</a>，以瞭解詳情。(CAMP-20014) </li> 
+     <li> 使用<strong>載入檔案</strong>活動時，您現在可以將時間戳記新增至包含已拒絕記錄的檔案名稱。 如需詳細資訊，請參閱<a href="../../automating/using/load-file.md#configuration">詳細文件</a>，以瞭解詳情。 </li> 
      <li> <strong></strong> 如果活 <strong></strong> 動未擷取任何資料，查詢和區段活動現在可讓您啟用出站轉變。 </li> 
     </ul> </td> 
   </tr> 
@@ -454,19 +452,19 @@ ht-degree: 7%
 
 * 由Behance藝術家設計的四組同級最佳回應式電子郵件範本現已推出。
 
-   如需詳細資訊，請參閱[相關的文件](../../designing/using/using-reusable-content.md#content-templates)，以瞭解詳情。
+   如需詳細資訊，請參閱[詳細文件](../../designing/using/using-reusable-content.md#content-templates)，以瞭解詳情。
 
 * 我們的全新入門體驗將協助您更快開始建立電子郵件，並讓您更輕鬆地存取檔案和教學課程。
 
-   如需詳細資訊，請參閱[相關的文件](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page)，以瞭解詳情。
+   如需詳細資訊，請參閱[詳細文件](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page)，以瞭解詳情。
 
 * 您現在可以根據需求，靈活設定欄數和寬度。
 
-   如需詳細資訊，請參閱[相關的文件](../../designing/using/designing-from-scratch.md#defining-the-email-structure)，以瞭解詳情。
+   如需詳細資訊，請參閱[詳細文件](../../designing/using/designing-from-scratch.md#defining-the-email-structure)，以瞭解詳情。
 
 * 在行動檢視中編輯時，您可以僅在行動顯示中隱藏特定元件，以有效利用空間。
 
-   如需詳細資訊，請參閱[相關的文件](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)，以瞭解詳情。
+   如需詳細資訊，請參閱[詳細文件](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)，以瞭解詳情。
 
 * 您現在可以在現有的社交管道之上，將自訂的社交管道新增至您的電子郵件範本。
 * 修正使用超過18個結構時，無法向下捲動結構功能表的問題。 (CAMP-31173)
@@ -486,7 +484,7 @@ ht-degree: 7%
 * 「設定檔」建立畫面中的「時區」下拉式清單已從「位址」區段移至介面的上方區段。
 * 您現在可以在設定自訂資源畫面時新增分隔符號，讓您將欄位組織為類別。
 
-   如需詳細資訊，請參閱[相關的文件](../../developing/using/configuring-the-screen-definition.md#defining-the-detail-screen-configuration)，以瞭解詳情。
+   如需詳細資訊，請參閱[詳細文件](../../developing/using/configuring-the-screen-definition.md#defining-the-detail-screen-configuration)，以瞭解詳情。
 
 **其他變更**
 
@@ -518,7 +516,7 @@ ht-degree: 7%
 
 ## 發行版本 19.0 – 2019 年 1 月 {#release-19-0---january-2019}
 
-**新增功能？**
+**有哪些新增功能？**
 
 <table> 
  <colgroup><col style="width: 30%"><col style="width: 70%"></colgroup>
@@ -545,7 +543,7 @@ ht-degree: 7%
   </tr> 
   <tr> 
    <td> 電子郵件設計工具中的行動裝置檢視<br /> </td> 
-   <td> <p>您現在可以在編輯電子郵件內容時，切換至專用的行動檢視。 這可讓您分別編輯行動顯示的所有樣式選項，例如調整邊界、縮小字型大小、改變背景顏色等，以微調電子郵件的回應式設計。</p><p> 如需詳細資訊，請參閱<a href="../../designing/using/plain-text-html-modes.md#switching-to-mobile-view">相關的文件</a>，以瞭解詳情。</p> </td> 
+   <td> <p>您現在可以在編輯電子郵件內容時，切換至專用的行動檢視。 這可讓您分別編輯行動顯示的所有樣式選項，例如調整邊界、縮小字型大小、改變背景顏色等，以微調電子郵件的回應式設計。</p><p> 如需詳細資訊，請參閱<a href="../../designing/using/plain-text-html-modes.md#switching-to-mobile-view">詳細文件</a>，以瞭解詳情。</p> </td> 
   </tr> 
   <tr> 
    <td> 應用程式內傳訊測試版改善<br /> </td> 
@@ -555,7 +553,7 @@ ht-degree: 7%
      <li> 與Analytics API整合，以填入「觸發器」下拉式清單 </li> 
      <li> 傳遞範本的直覺式外觀和說明 </li> 
      <li> 從可用性角度對製作介面進行增強 </li> 
-    </ul> <p>如需詳細資訊，請參閱<a href="../../channels/using/about-in-app-messaging.md">相關的文件</a>，以瞭解詳情。</p> </td> 
+    </ul> <p>如需詳細資訊，請參閱<a href="../../channels/using/about-in-app-messaging.md">詳細文件</a>，以瞭解詳情。</p> </td> 
   </tr> 
  </tbody> 
 </table>

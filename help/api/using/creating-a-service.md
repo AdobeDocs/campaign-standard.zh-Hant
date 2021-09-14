@@ -1,34 +1,31 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 建立服務
-description: 瞭解如何使用API建立服務。
+description: 了解如何使用API建立服務。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 91bbce9e-a618-4be2-840b-c7d021271f4e
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 9%
+source-wordcount: '73'
+ht-degree: 8%
 
 ---
 
-
 # 建立服務 {#creating-a-service}
 
-建立服務時對服務資源使用&#x200B;**POST**&#x200B;請求。
+服務建立是使用服務資源上的&#x200B;**POST**&#x200B;請求執行的。
 
-如果您想要建立具有特定屬性的服務，請將其新增至裝載中。 否則，將使用預設服務建立新服務。
+如果您想要使用特定屬性建立服務，請將它們新增至裝載中。 否則，將使用預設服務建立新服務。
 
 <br/>
 
-***請求範例***
+***範例要求***
 
-建立具有特定屬性的服務的POST請求示例。
+建立具有特定屬性之服務的POST請求範例。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/ \
@@ -45,7 +42,7 @@ ht-degree: 9%
 -d }
 ```
 
-它返回具有更新屬性的新建立服務。
+它會傳回具有更新屬性的新建立服務。
 
 ```
 {

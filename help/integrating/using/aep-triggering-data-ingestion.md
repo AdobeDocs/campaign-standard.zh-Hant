@@ -1,19 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 透過 API 觸發資料引入
-description: 瞭解如何透過API觸發資料擷取。
+description: 了解如何透過API觸發資料擷取。
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Microsoft CRM整合
+feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: d67a796a-0730-4502-802c-d0b3583dd1dc
-translation-type: tm+mt
-source-git-commit: a4e1edc23cf750e44026f388f7b0fff3a80ec663
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '464'
 ht-degree: 4%
 
 ---
@@ -22,40 +19,40 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform資料連接器目前正在測試中，可能會在不另行通知的情況下頻繁更新。 客戶必須在Azure上代管（目前僅限北美地區測試版）才能存取這些功能。 如果您想要存取，請聯絡Adobe客戶服務。
+>Adobe Experience Platform Data Connector目前為測試版，可能會經常更新，恕不另行通知。 客戶必須在Azure上托管（目前測試版僅供北美使用），才能存取這些功能。 如果您想要存取權限，請聯絡Adobe客戶服務。
 
-Adobe Campaign Standard允許您通過API觸發資料映射的立即接收，並檢索接收請求的狀態。
+Adobe Campaign Standard可讓您透過API觸發立即擷取資料對應，並擷取擷取請求的狀態。
 
-本頁介紹如何觸發和檢索資料映射的提取狀態。 有關Campaign StandardAPI的全局資訊，請參閱[本節](../../api/using/get-started-apis.md)。
+本頁面說明如何觸發和擷取資料對應的擷取狀態。 如需Campaign StandardAPI的全域資訊，請參閱[此區段](../../api/using/get-started-apis.md)。
 
-## 必要條件 {#prerequisites}
+## 先決條件 {#prerequisites}
 
-使用API之前，必須先在Campaign Standard介面中設定並發佈資料對應。 有關這些內容的詳細資訊，請參閱下列章節：
+使用API之前，必須先在Campaign Standard介面中設定並發佈資料對應。 如需詳細資訊，請參閱以下章節：
 
-* [映射定義](../../integrating/using/aep-mapping-definition.md)
-* [映射啟動](../../integrating/using/aep-mapping-activation.md)
+* [對應定義](../../integrating/using/aep-mapping-definition.md)
+* [對應啟動](../../integrating/using/aep-mapping-activation.md)
 
-建立資料對應後，您必須停止它的執行，以便您可以隨時從API觸發它。 要執行此操作，請依照下列步驟執行：
+建立資料對應後，您必須停止該資料對應的執行，以便隨時從API觸發。 要執行此操作，請依照下列步驟執行：
 
-1. 在Campaign Standard中，轉至&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]**&#x200B;菜單。
+1. 在「Campaign Standard」中，前往「**[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]**」功能表。
 
-1. 連按兩下資料對應以開啟它，然後按一下&#x200B;**[!UICONTROL Stop]**&#x200B;按鈕。
+1. 按兩下資料映射以開啟它，然後按一下&#x200B;**[!UICONTROL Stop]**&#x200B;按鈕。
 
    ![](assets/aep_datamapping_stop.png)
 
-1. 儲存變更
+1. 儲存您的變更
 
-資料映射執行現在停止。 您可以使用Campaign StandardAPI來手動觸發。
+資料對應執行現已停止。 您可以使用Campaign StandardAPI來手動觸發。
 
-## 開始立即提取資料映射{#starting-immediate-ingestion}
+## 開始立即擷取資料對應 {#starting-immediate-ingestion}
 
-通過POST操作，可以立即提取XDM映射到Adobe Experience Platform:
+系統會透過POST操作觸發立即擷取XDM對應至Adobe Experience Platform:
 
 `POST https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM Mapping ID>/ingest`
 
 >[!NOTE]
 >
->要執行收錄POSTAPI調用，用戶必須具有&#x200B;**SQL函式執行**&#x200B;角色，該角色可由Campaign Standard管理員通過執行以下JS指令碼提供：
+>若要執行內嵌POSTAPI呼叫，使用者必須具有&#x200B;**SQL函式執行**&#x200B;角色，可由Campaign Standard管理員透過執行下列JS指令碼來提供：
 >
 >
 ```
@@ -65,7 +62,7 @@ Adobe Campaign Standard允許您通過API觸發資料映射的立即接收，並
 
 POST操作返回有關已建立請求狀態的資訊：
 
-* 成功提交XDM映射的請求：
+* 已成功提交XDM對應的請求：
 
 ```
 {
@@ -75,7 +72,7 @@ POST操作返回有關已建立請求狀態的資訊：
 }
 ```
 
-* XDM映射請求已在進行中：
+* XDM對應的請求已在進行中：
 
 ```
 {
@@ -85,7 +82,7 @@ POST操作返回有關已建立請求狀態的資訊：
 }
 ```
 
-* 請求失敗，因為XDM映射未發佈或已停止：
+* 請求失敗，因為XDM對應未發佈或已停止：
 
 ```
 {
@@ -98,9 +95,9 @@ POST操作返回有關已建立請求狀態的資訊：
 }
 ```
 
-## 檢索提取請求的狀態{#retrieving-status}
+## 擷取擷取請求的狀態 {#retrieving-status}
 
-可以使用參數中的GET操作和所需請求ID來檢索提取請求的狀態：
+擷取請求的狀態可透過GET操作和參數中所需的請求ID來擷取：
 
 ```
 GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM Mapping ID>/ingest
@@ -109,18 +106,18 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 
 >[!NOTE]
 >
->有關XDM映射請求狀態及其相關作業的詳細資訊，請參見&#x200B;**[!UICONTROL Status of data export to platform]**&#x200B;菜單中的Campaign Standard介面（請參閱[映射激活](../../integrating/using/aep-mapping-activation.md)）。
+>有關XDM對應請求狀態及其相關作業的詳細資訊，請參閱&#x200B;**[!UICONTROL Status of data export to platform]**&#x200B;功能表的Campaign Standard介面（請參閱[對應啟動](../../integrating/using/aep-mapping-activation.md)）。
 
 GET操作返回以下資訊：
 
 * **batchId**:只有在批次準備和上傳後發生失敗時，才會填入此欄位，
-* **資訊**:XDM映射ID,
-* **numRecords**:已收錄的記錄數（僅限成功狀態）,
-* **狀態**:收錄請求狀態（成功／失敗／進行中）
+* **資訊**:XDM對應ID,
+* **numRecords**:已擷取的記錄數（僅限成功狀態）,
+* **狀態**:擷取請求狀態（成功/失敗/進行中）
 
-對GET操作的可能響應包括：
+對GET操作的可能響應為：
 
-* 成功收錄請求：
+* 成功擷取請求：
 
    ```
    {
@@ -132,7 +129,7 @@ GET操作返回以下資訊：
    }
    ```
 
-* 收錄請求失敗，已收錄0個記錄：
+* 內嵌請求失敗，內嵌0個記錄：
 
    ```
    {
@@ -144,7 +141,7 @@ GET操作返回以下資訊：
    }
    ```
 
-* 收錄請求失敗，有些記錄在批次下上傳：
+* 內嵌請求失敗，部分記錄在批次下上載：
 
    ```
    {
@@ -156,7 +153,7 @@ GET操作返回以下資訊：
    }
    ```
 
-* 在收錄某些記錄後，收錄請求中止（這可能發生在當機情形中）:
+* 擷取某些記錄後擷取請求已中止（可能會在當機情況下發生）:
 
    ```
    {
@@ -168,7 +165,7 @@ GET操作返回以下資訊：
    }
    ```
 
-* 正在收錄請求（當請求在批次中上傳資料或批次準備請求時）:
+* 正在內嵌請求（當請求以批次上傳資料，或正在為請求準備批次時）:
 
    ```
    {

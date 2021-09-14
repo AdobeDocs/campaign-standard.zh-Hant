@@ -1,23 +1,21 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: 關於 Adobe Experience Platform Data Connector
+title: 關於 Adobe Experience Platform 資料連接器
 description: 管理XDM結構，讓您的Campaign Standard資料可在Adobe Experience Platform上使用。
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Microsoft CRM整合
+feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: f4fcf256-e030-4d7b-b4b7-2448acc2ae1c
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '771'
 ht-degree: 4%
 
 ---
 
-# 關於 Adobe Experience Platform Data Connector {#about-aep-data-connector}
+# 關於 Adobe Experience Platform 資料連接器 {#about-aep-data-connector}
 
 >[!IMPORTANT]
 >
@@ -42,7 +40,7 @@ Adobe Experience Platform Data Connector適用於了解Adobe Campaign Standard�
 >* [使用API為即時客戶個人檔案和身分服務設定資料集](https://experienceleague.adobe.com/docs/experience-platform/catalog/api/getting-started.html)
 
 
-## 重要概念{#key-concepts}
+## 重要概念 {#key-concepts}
 
 * 「現成可用對應」僅適用於預設以Campaign Standard提供的欄位。 若要擷取所有自訂欄位和資源，每個客戶都需要定義自己的對應。
 

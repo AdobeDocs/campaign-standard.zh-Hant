@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 測試
 description: 「測試」活動會根據測試結果啟用轉變。
 audience: automating
@@ -10,16 +8,15 @@ context-tags: jstest,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 62a064f7-6d0b-49ca-9834-eccb5bf42496
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 80%
+source-wordcount: '190'
+ht-degree: 82%
 
 ---
 
-
-# 測試 {#test}
+# 測試{#test}
 
 ## 說明 {#description}
 
@@ -50,9 +47,9 @@ ht-degree: 80%
 
    編輯 **[!UICONTROL Condition]** 欄位時，兩個按鈕可提供呼叫事件變數及編輯結合變數和函式的運算式的協助：
 
-   * ![](assets/extsignal_picker.png):在工作流程中可用的所有變數中選取事件變數(請參 [閱本頁](../../automating/using/customizing-workflow-external-parameters.md))。
+   * ![](assets/extsignal_picker.png):在工作流程中可用的所有變數中選取事件變數(請參閱 [本頁面](../../automating/using/customizing-workflow-external-parameters.md))。
 
-      例如，您可以使用&#x200B;**[!UICONTROL filesCount]**&#x200B;變數檢查[檔案傳輸](../../automating/using/transfer-file.md)活動後下載的檔案數。
+      例如，您可以使用&#x200B;**[!UICONTROL filesCount]**&#x200B;變數，在[檔案傳輸](../../automating/using/transfer-file.md)活動之後檢查下載的檔案數。
 
       ![](assets/wkf_test_activity_variables.png)
 

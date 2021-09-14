@@ -1,40 +1,37 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 擷取隱私資料檔案
-description: 瞭解如何使用API擷取隱私權資料檔案
+description: 了解如何使用API擷取隱私權資料檔案
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: df06cb86-dba2-41e4-81d0-66f3a86e47bd
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 4%
+source-wordcount: '194'
+ht-degree: 21%
 
 ---
-
 
 # 擷取隱私資料檔案 {#retrieving-privacy-data-files}
 
 >[!CAUTION]
 >
->[隱私核心服務](https://adobe.io/apis/cloudplatform/gdpr.html)整合是您應用於所有存取和刪除請求的方法。 從19.4開始，已不再使用促銷活動API和介面來存取和刪除請求。 有關Campaign Standard已過時和已刪除功能的詳細資訊，請參閱[此頁](../../rn/using/deprecated-features.md)。
+>[隱私權核心服務](https://adobe.io/apis/cloudplatform/gdpr.html)整合是您應用於所有存取和刪除請求的方法。 自 19.4 版本以來，不建議使用 Campaign API 和介面來存取和刪除請求。有關 Campaign Standard 已過時和已刪除功能的詳細資訊，請參閱[此頁](../../rn/using/deprecated-features.md)。
 
-要檢索包含與協調值關聯的所有資訊的檔案，請執行以下三步驟：
+要檢索包含與調解值關聯的所有資訊的檔案，請執行以下三步過程：
 
-1. 執行&#x200B;**POST**&#x200B;請求，以建立屬性為&#x200B;**type=&quot;access&quot;**&#x200B;的新請求，請參閱[建立新的隱私請求](../../api/using/creating-a-privacy-request.md)。
+1. 執行&#x200B;**POST**&#x200B;請求以建立具有屬性&#x200B;**type=&quot;access&quot;**&#x200B;的新請求，請參閱[建立新的隱私權請求](../../api/using/creating-a-privacy-request.md)。
 
 1. 執行&#x200B;**GET**&#x200B;請求以檢索有關請求的資訊。
 
-1. 對傳回的&#x200B;**privacyRequestData** URL執行&#x200B;**POST**&#x200B;請求，並在裝載內執行隱私權要求內部名稱，以擷取資料檔案。 例如：{&quot;name&quot;:&quot;PT17&quot;}。
+1. 對傳回的&#x200B;**privacyRequestData** URL執行&#x200B;**POST**&#x200B;要求，並在裝載內使用隱私權要求內部名稱，以擷取資料檔案。 例如：{&quot;name&quot;:&quot;PT17&quot;}。
 
 <br/>
 
-***請求範例***
+***範例要求***
 
 使用type=&quot;access&quot;屬性建立隱私權要求。
 
@@ -57,7 +54,7 @@ ht-degree: 4%
 
 <!-- + réponse -->
 
-執行GET請求以擷取有關請求的資訊。
+執行GET請求以擷取請求的相關資訊。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool \
@@ -67,7 +64,7 @@ ht-degree: 4%
 -H 'Content-Type: application/json;charset=utf-8'
 ```
 
-它會傳回具有關聯URL的privacyRequestData屬性。
+它會傳回privacyRequestData屬性及相關聯的URL。
 
 ```
 {
@@ -88,7 +85,7 @@ ht-degree: 4%
 },
 ```
 
-在privacyRequestData URL上執行POST要求，並在裝載中使用要求內部名稱。
+在privacyRequestData URL上執行POST要求，並在裝載內使用要求內部名稱。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool/<PKEY>/privacyRequestData \

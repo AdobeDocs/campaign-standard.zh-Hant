@@ -1,25 +1,23 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 發行說明 2020 年
 description: 本頁列出 2020 年的所有 Adobe Campaign Standard 版本。
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: 概覽
+feature: Overview
 role: User
 level: Beginner
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '5298'
+source-wordcount: '5297'
 ht-degree: 98%
 
 ---
 
 # 發行說明 2020 年{#release-notes-2020}
 
-[發行計畫](https://helpx.adobe.com/tw/campaign/kb/acs-release-planning.html) | [控制面板版本](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=zh-Hant) | [文件更新](../../rn/using/documentation-updates.md) | [先前的發行版本](../../rn/using/release-notes-2019.md) | [已過時的功能](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=zh-Hant#release-notes)
+[發行計畫](https://helpx.adobe.com/tw/campaign/kb/acs-release-planning.html) | [控制面板發行](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=zh-Hant) | [文件更新](../../rn/using/documentation-updates.md) | [先前的發行版本](../../rn/using/release-notes-2019.md) | [已棄用功能](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=zh-Hant#release-notes)
 
 ![](assets/do-not-localize/cp-icon.png) **新的控制面板 6 月版本**，包含作用中設定檔監控、子網域傳遞送能力稽核及 GPG 金鑰管理。[進一步瞭解](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html)。
 
@@ -191,7 +189,7 @@ ht-degree: 98%
 
 
 
-## 版本 20.3 – 2020 年 5 月 {#release-20-3---may-2020}
+## 發行版本 20.3 – 2020 年 5 月 {#release-20-3---may-2020}
 
 **新增功能？**
 
@@ -295,7 +293,7 @@ ht-degree: 98%
 
 ![](assets/do-not-localize/cp-icon.png) **新的控制面板可能會與 CNAME 子網域發行**&#x200B;憑證續約。[進一步瞭解](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html)。
 
-## 版本 20.2 – 2020 年 4 月 {#release-20-2---april-2020}
+## 發行版本 20.2 – 2020 年 4 月 {#release-20-2---april-2020}
 
 **新增功能？**
 
@@ -380,15 +378,15 @@ ht-degree: 98%
 * 修正執行具有數個入站轉變的活動時，工作流程中可能發生的問題。
 * 修正標準使用者無法在工作流程查詢或傳送中將「訂閱應用程式」作為目標維度的問題。(CAMP-37618)
 
-## 版本 20.1.4 – 2020 年 2 月 {#release-20-1-4---february-2020}
+## 發行版本 20.1.4 – 2020 年 2 月 {#release-20-1-4---february-2020}
 
 * 修正在現有工作流程中開啟&#x200B;**讀取對象**&#x200B;活動的問題。(CAMP-41002)
 
-## 版本 20.1.3 – 2020 年 2 月 {#release-20-1-3---february-2020}
+## 發行版本 20.1.3 – 2020 年 2 月 {#release-20-1-3---february-2020}
 
 * 修正 CAMP-39273 在 20.1 中針對使用漏洞之客戶所引進的回歸問題。已反轉 CAMP-39273。
 
-## 版本 20.1.2 – 2020 年 2 月 {#release-20-1-2---february-2020}
+## 發行版本 20.1.2 – 2020 年 2 月 {#release-20-1-2---february-2020}
 
 **電子郵件設計工具增強功能**
 
@@ -396,7 +394,7 @@ ht-degree: 98%
 * 修正使用動態內容時新增空格的問題。(CAMP-40605)
 * 修正設定交易式電子郵件範本時的問題。(CAMP-40604)
 
-## 版本 20.1 – 2020 年 2 月 {#release-20-1---february-2020}
+## 發行版本 20.1 – 2020 年 2 月 {#release-20-1---february-2020}
 
 **新增功能？**
 

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 使用協調功能更新資料
 description: 下列範例會示範一個工作流程，其會從包含新客戶之匯入檔案直接建立設定檔對象。
 audience: automating
@@ -10,14 +8,13 @@ context-tags: reconciliation,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: cfca6202-791d-4baf-b5ed-677d2480cf06
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 66%
+source-wordcount: '128'
+ht-degree: 67%
 
 ---
-
 
 # 使用協調功能更新資料 {#data-update-reconciliation}
 
@@ -25,7 +22,7 @@ ht-degree: 66%
 
 ![](assets/identification_example2.png)
 
-* [載入檔案](../../automating/using/load-file.md)活動，可載入並偵測要匯入之檔案的資料。 匯入的檔案包含下列資料：
+* [載入檔案](../../automating/using/load-file.md)活動，可載入並檢測要匯入的檔案的資料。 匯入的檔案包含下列資料：
 
    ```
    lastname;firstname;email;dateofbirth
@@ -40,10 +37,10 @@ ht-degree: 66%
    tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
    ```
 
-* [協調](../../automating/using/reconciliation.md)活動，將載入檔案的每列連結到配置檔案維列。 無法識別的檔案記錄（遺失資料、不相容的資料類型等）會遭到忽略，以保留最終對象資料的完整性。
+* [調解](../../automating/using/reconciliation.md)活動，將載入檔案的每一欄連結至設定檔維度欄。 無法識別的檔案記錄（遺失資料、不相容的資料類型等）會遭到忽略，以保留最終對象資料的完整性。
 
    ![](assets/identification_example1.png)
 
-* A [儲存觀眾](../../automating/using/save-audience.md)活動，可儲存設定檔的觀眾。
+* [儲存對象](../../automating/using/save-audience.md)活動，可儲存設定檔的對象。
 
    ![](assets/identification_example3.png)

@@ -1,38 +1,35 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 建立設定檔
-description: 進一步瞭解如何使用API建立設定檔。
+description: 進一步了解如何使用API建立設定檔。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 69e8d034-6bdd-4b82-bcd7-1ef4be0a59b3
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 4%
+source-wordcount: '104'
+ht-degree: 3%
 
 ---
 
-
 # 建立設定檔 {#creating-profiles}
 
-建立配置式時，在配置式資源上使用&#x200B;**POST**&#x200B;請求執行。
+在設定檔資源上，使用&#x200B;**POST**&#x200B;請求來建立設定檔。
 
 >[!CAUTION]
 >
->如果要將<b>orgUnit</b>關聯到建立的配置檔案，您需要將此欄位擴展配置檔案資源，並在發佈擴展後，對<b>ProfileAndServicesExt</b>端點執行POST請求。
+>如果要將<b>orgUnit</b>關聯到建立的配置檔案，則需要將配置檔案資源擴展到此欄位，並在發佈擴展後，在<b>ProfileAndServicesExt</b>端點上執行POST請求。
 >
->如需描述檔資源擴充功能的詳細資訊，請參閱<a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">促銷活動檔案</a>。
+>如需設定檔資源擴充功能的詳細資訊，請參閱<a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">Campaign檔案</a>。
 
 <br/>
 
-***請求範例***
+***範例要求***
 
-建立描述檔的範例POST要求，電子郵件為「john.doe@mail.com」。
+以電子郵件「john.doe@mail.com」建立設定檔的POST請求範例。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
@@ -44,7 +41,7 @@ ht-degree: 4%
 -d '{"email":"john.doe@mail.com"}'
 ```
 
-它會傳回新建立的設定檔，並加上「john.doe@mail.com」電子郵件地址。
+它會傳回新建立的設定檔，並附上「john.doe@mail.com」電子郵件地址。
 
 ```
 {

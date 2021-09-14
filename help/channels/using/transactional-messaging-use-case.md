@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 異動訊息使用案例
 description: 探索Adobe Campaign交易式訊息功能的端對端範例。
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: 異動訊息傳送
+feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: ee1a9705-4c21-4d46-a178-fde2e059f443
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '504'
 ht-degree: 4%
 
 ---

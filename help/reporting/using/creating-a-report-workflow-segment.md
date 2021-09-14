@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 根據工作流程細分建立報告
 description: 了解如何根據報表中的工作流程區段來檢查傳送是否成功。
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
-feature: 報告
+feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 514bffa0-2413-4212-b1b9-e070031c462f
-source-git-commit: c001aaba50bdce8d949acc6daf74f3c7738bd117
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '624'
 ht-degree: 2%
 
 ---

@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Campaign和Microsoft Dynamics 365資料管理
 description: 了解Campaign Standard和Microsoft Dynamics 365如何管理常見資料
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
-feature: Microsoft CRM整合
+feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
-source-git-commit: f28aab2ac295d8a45598f5d76a86e594deeece4a
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '2510'
+source-wordcount: '2507'
 ht-degree: 1%
 
 ---
@@ -55,7 +53,7 @@ ht-degree: 1%
 >
 >如果任何促銷活動自訂資源記錄包含適用於客戶使用促銷活動的個人資訊，則此類記錄應連結至對應的促銷活動設定檔記錄（直接或透過其他自訂資源），這樣設定檔記錄上與隱私權相關的刪除也可以刪除包含個人資訊的連結自訂資源記錄；必須配置實體之間的連結和刪除選項，以啟用這種類級聯的連結記錄刪除。 個人資訊不應輸入未連結至設定檔的自訂資源中。
 
-## 退出{#opt-out}
+## 選擇退出 {#opt-out}
 
 由於Microsoft Dynamics 365和Campaign之間的選擇退出屬性有所差異，以及每個客戶的業務需求有所差異，因此選擇退出對應已保留為供客戶完成的練習。  請務必確保在系統之間正確對應選擇退出，以便保持最終用戶選擇退出首選項，並且他們不會通過選擇退出的通道接收通信。
 
@@ -95,7 +93,7 @@ ht-degree: 1%
 
 您的Campaign SFTP儲存空間需要供以下使用案例的整合使用。  您需要確保SFTP帳戶有足夠的儲存容量來容納這些使用案例。 超過授權的SFTP儲存容量，可能會嚴重影響Campaign、整合和/或SFTP帳戶的功能使用。
 
-| 使用實例 | 說明 |
+| 使用案例 | 說明 |
 |---|---|
 | 雙向和單向（向Microsoft Dynamics 365進行的促銷活動） | 雙向和單向(Campaign to Microsoft Dynamics 365)選擇退出資料流將利用Campaign SFTP儲存空間。 促銷活動工作流程將增量變更匯出至SFTP資料夾。 整合會從該處擷取記錄和程式。 |
 | 退出記錄檔 | 疑難排解整合時，從連接器輸出記錄檔將有所幫助。 可開啟/關閉輸出日誌。 |
@@ -103,7 +101,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->您需負責從SFTP資料夾存取和下載的資訊。 如果資訊包含個人資料，您需負責遵守任何適用的隱私權法律和法規。 [瞭解更多](#acs-msdyn-manage-privacy)。
+>您需負責從SFTP資料夾存取和下載的資訊。 如果資訊包含個人資料，您需負責遵守任何適用的隱私權法律和法規。 [深入瞭解](#acs-msdyn-manage-privacy)。
 
 ## 資料管理
 
@@ -151,7 +149,7 @@ Dynamics 365選擇退出資料流程的雙向和Campaign是此作法的例外。
 
 * （假設促銷活動中&#x200B;**1基數簡單連結**）如果子記錄在Dynamics 365中更新或刪除，且該變更在父記錄在促銷活動中顯示之前（不可能，但是是遠端可能）已寫入促銷活動，則該更新或刪除不會在促銷活動中處理，且會擲回錯誤。 如果是更新，則需要在Dynamics 365中再次更新相關記錄，以便同步更新的記錄。 如果是刪除，則需要在促銷活動端個別處理相關記錄，因為Dynamics 365中已沒有記錄可刪除或更新。
 
-* 如果您遇到您認為隱藏了子記錄且無法存取這些記錄的情況，您可以暫時將基數連結類型變更為&#x200B;**0或1個基數簡單連結**&#x200B;以存取這些記錄。
+* 如果您遇到您認為隱藏了子記錄且無法訪問這些記錄的情況，可以暫時將基數連結類型更改為&#x200B;**0或1個基數簡單連結**&#x200B;以訪問這些記錄。
 
 您可在此區段](../../developing/using/key-steps-to-add-a-resource.md)找到更全面的Campaign自訂資源概觀。[
 

@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 更新和維護作業
 description: 有關Adobe Campaign伺服器更新和維護操作的資訊。
 audience: administration
 content-type: reference
 topic-tags: application-settings
-feature: 執行個體設定
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 4da0b7b0-a854-4935-9f5f-04bfc764b18d
-source-git-commit: d3482dfad245807aedee6deb36fd67e43c7a66b9
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '166'
 ht-degree: 43%
 
 ---

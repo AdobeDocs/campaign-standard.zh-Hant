@@ -1,8 +1,6 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 查詢範例
-description: 此部分在使用查詢活動時顯示使用案例。
+description: 本節說明使用查詢活動時的使用案例。
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -10,18 +8,17 @@ context-tags: query,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 0a71e3a7-60e6-49ec-af2e-099ad0d69a15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 89%
+source-wordcount: '334'
+ht-degree: 90%
 
 ---
 
-
 # 查詢範例 {#query-samples}
 
-本節介紹使用&#x200B;**[!UICONTROL Query]**&#x200B;活動時的使用案例。 有關如何使用&#x200B;**[!UICONTROL Query]**&#x200B;活動的詳細資訊，請參閱[本節](../../automating/using/query.md)。
+本節說明使用&#x200B;**[!UICONTROL Query]**&#x200B;活動時的使用案例。 有關如何使用&#x200B;**[!UICONTROL Query]**&#x200B;活動的詳細資訊，請參閱[此區段](../../automating/using/query.md)。
 
 ## 對簡單設定檔屬性進行定位 {#targeting-on-simple-profile-attributes}
 

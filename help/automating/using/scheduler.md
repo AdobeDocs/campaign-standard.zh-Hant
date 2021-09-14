@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 排程器
 description: 排程器活動可讓您在工作流程或活動啟動時進行排程。
 audience: automating
@@ -10,14 +8,13 @@ context-tags: schedule,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 39f7b216-b3cd-4aa6-b5df-23e6805076df
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 88%
+source-wordcount: '614'
+ht-degree: 89%
 
 ---
-
 
 # 排程器{#scheduler}
 
@@ -37,12 +34,12 @@ ht-degree: 88%
 >
 >**[!UICONTROL Repetition frequency]** 活動的時間不能少於　10　分鐘。這表示工作流程無法每　10　分鐘自動執行多次。
 
-在設計包含多個活動的計畫工作流時，您需要確保在工作流完成之前不會重新計畫該工作流。 若要這麼做，您必須設定您的工作流程，以便在先前執行的一或多個工作仍待定時，防止其執行。 有關詳細資訊，請參見[此頁面](../../automating/using/scheduled-workflows-execution.md)。
+在設計包括多個活動的排程工作流程時，您必須確定在工作流程完成之前不會重新排程。 若要這麼做，您必須設定工作流程，以在先前執行的一或多個任務仍擱置時防止其執行。 如需詳細資訊，請參閱[此頁面](../../automating/using/scheduled-workflows-execution.md)。
 
 **相關主題：**
 
-* [使用案例：在描述檔建立日期建立傳送](../../automating/using/workflow-creation-date-query.md)
-* [使用案例：建立每週二傳送的電子郵件](../../automating/using/workflow-weekly-offer.md)
+* [使用案例：在設定檔建立日期中建立傳送](../../automating/using/workflow-creation-date-query.md)
+* [使用案例：每週二建立電子郵件傳送](../../automating/using/workflow-weekly-offer.md)
 
 ## 設定 {#configuration}
 
@@ -82,4 +79,3 @@ ht-degree: 88%
 在在下列範例中，已將活動設定每週啟動工作流程，每隔一週的星期一上午　7:00 啟動工作流程，但持續時間不確定。
 
 ![](assets/wkf_scheduler_example.png)
-

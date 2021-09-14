@@ -1,24 +1,22 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: 使用區段建置器
+title: 使用區段產生器
 description: 了解如何使用區段產生器建立對象。
 audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: audience,wizard;audience,overview;delivery,audience,back
-feature: Microsoft CRM整合
+feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
 exl-id: 9a6c542e-10ed-4e77-abb3-36324e1cb38f
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 2%
+source-wordcount: '866'
+ht-degree: 3%
 
 ---
 
-# 使用區段建置器 {#using-the-segment-builder}
+# 使用區段產生器 {#using-the-segment-builder}
 
 >[!IMPORTANT]
 >

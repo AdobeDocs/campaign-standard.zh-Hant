@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 廢棄觸發程式使用案例
 description: 瞭解如何與這些不同的使用案例整合搭配使用 Experience Cloud Triggers。
 audience: integrating
@@ -10,7 +8,7 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 88007e6f-2cdd-4fea-9739-525beaf7c658
-source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '994'
 ht-degree: 98%

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 電子郵件傳送
 description: 「電子郵件傳送」活動可讓您設定在工作流程中傳送單一傳送電子郵件或循環電子郵件。
 audience: automating
@@ -10,16 +8,15 @@ context-tags: delivery,workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: e38ff3dd-8fb0-419b-9090-a3165852bf83
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '857'
 ht-degree: 94%
 
 ---
 
-
-# 電子郵件傳送{#email-delivery}
+# 電子郵件傳遞{#email-delivery}
 
 ## 說明 {#description}
 
@@ -49,7 +46,7 @@ ht-degree: 94%
 * [使用案例：建立依位置分段的傳送](../../automating/using/workflow-segmentation-location.md)
 * [使用案例：建立具備輔助功能的傳送](../../automating/using/workflow-created-query-with-complement.md)
 * [使用案例：重新定位傳送新傳送給非開啟者的工作流程](../../automating/using/workflow-cross-channel-retargeting.md)
-* [使用案例：生日遞送](../../automating/using/birthday-delivery.md)
+* [使用案例：生日傳遞](../../automating/using/birthday-delivery.md)
 
 ## 設定 {#configuration}
 
@@ -68,7 +65,7 @@ ht-degree: 94%
       例如，對於每日傳送的循環生日電子郵件，您可以選取匯總每月傳送的傳送。這可讓您每月收到傳送的報告，不過電子郵件會每天傳送。
    >[!NOTE]
    >
-   >循環傳送是根據&#x200B;**聚合期間**&#x200B;準備的。 例如，如果匯總期間是「按天」，則每天只重新準備一次傳送。 如果您計畫每天呼叫此工作流程多次，請使用[!UICONTROL No aggregation]。
+   >循環傳送是根據&#x200B;**匯總期間**&#x200B;準備。 例如，如果匯總期間為「依日」，則傳送將僅每天重新準備一次。 如果您計畫每天呼叫此工作流程多次，請使用[!UICONTROL No aggregation]。
 
 1. 選取電子郵件類型。電子郵件類型來自 **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** 功能表中定義的電子郵件範本。
 1. 輸入電子郵件的一般屬性。您也可以將它附加至現有的行銷活動。工作流程傳送活動的標籤會以電子郵件標籤更新。

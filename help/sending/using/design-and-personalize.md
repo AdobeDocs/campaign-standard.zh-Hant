@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 建置個人化內容
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: 了解如何設計訊息內容，並嘗試避免可能妨礙您執行傳送的常見問題。 
-feature: 達成能力
+feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 938989c9-ef19-4297-9b8b-c38eb1cec1f0
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1033'
 ht-degree: 7%
 
 ---
@@ -62,7 +60,7 @@ ht-degree: 7%
 
 ### 鏡像頁面
 
-一律包含鏡像頁面連結。 偏好位置是電子郵件的頂端。 [深入瞭解](../../designing/using/personalization.md#adding-a-content-block)
+一律包含鏡像頁面連結。 偏好位置是電子郵件的頂端。 [瞭解更多](../../designing/using/personalization.md#adding-a-content-block)
 
 ### 取消訂閱連結
 
@@ -149,4 +147,4 @@ Adobe建議保留最大郵件大小預設值。 不過，此值只能由[功能�
 
 Adobe建議預覽您的訊息，以檢查其個人化以及收件者如何看到您的傳遞。
 
-在電子郵件設計工具中，**[!UICONTROL Preview]**&#x200B;按鈕可讓您檢視收件者的每個內容呈現。 個人化欄位和內容的條件元素會取代為所選設定檔的對應資訊。 [深入瞭解](../../sending/using/previewing-messages.md)
+在電子郵件設計工具中，**[!UICONTROL Preview]**&#x200B;按鈕可讓您檢視收件者的每個內容呈現。 個人化欄位和內容的條件元素會取代為所選設定檔的對應資訊。 [瞭解更多](../../sending/using/previewing-messages.md)

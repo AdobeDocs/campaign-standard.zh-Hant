@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Campaign Standard 已過時和移除的功能
 description: 本頁列出 Adobe Campaign Standard 已過時和已移除的功能。
 audience: rn
@@ -10,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-source-git-commit: bb964907851b11f8cc247425024f6e7c828aed5d
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '871'
-ht-degree: 66%
+ht-degree: 67%
 
 ---
 
@@ -136,7 +134,7 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
  <tbody> 
   <tr> 
    <td> <p>自 Campaign 21.2 版本以來，不建議使用促銷活動 API 和介面來存取和刪除請求。將無法使用兩步驟的設定檔刪除作業。使用 <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe 隱私權核心服務</a>。</p></br>
-   <p>另請參閱<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=en">管理隱私權要求</a>。</p>
+   <p>另請參閱<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=zh-Hant">管理隱私權要求</a>。</p>
   </td> 
   </tr> 
  </tbody> 
@@ -151,7 +149,7 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
  <tbody> 
   <tr> 
    <td> <p> 從2021年4月起，預測性主旨行功能已停止支援。</p><br/>
-   <p>建議您運用AI支援的電子郵件功能，根據歷史參與量度來分析和預測開放率、最佳傳送時間和可能的流失率。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html">深入瞭解</a></p></br>
+   <p>建議您運用AI支援的電子郵件功能，根據歷史參與量度來分析和預測開放率、最佳傳送時間和可能的流失率。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html">瞭解更多</a></p></br>
      </td> 
   </tr> 
   </tbody> 

@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 自訂推播通知
 description: 瞭解如何使用各種進階選項自訂推播通知。
 audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: delivery,mobileAppContent,back
-feature: 推播
+feature: Push
 role: User
 level: Intermediate
 exl-id: 3fe3495b-e360-4169-b295-86ad93753468
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1511'
+source-wordcount: '1510'
 ht-degree: 97%
 
 ---

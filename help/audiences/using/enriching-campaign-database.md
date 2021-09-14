@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 擴充資料庫
 description: 了解擴充資料庫的各種方法。
 audience: start
 content-type: reference
 topic-tags: about-adobe-campaign
-feature: 設定檔
+feature: Profiles
 role: User
 level: Intermediate
 exl-id: 9c55a8b3-034e-4319-8a88-7b59e83fa458
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '447'
 ht-degree: 3%
 
 ---

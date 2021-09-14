@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 追蹤的 URL 簽名問題
 description: 追蹤的 URL 簽名問題
 hidefromtoc: true
 hide: true
-source-git-commit: 65c81f2f9e4fc80e7b2f7c0bdc0302e90f068b1e
-workflow-type: ht
+exl-id: 8c2725a8-2c3a-448a-8c04-c0c2a5950574
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 100%
 
 ---
 
-
-# 追蹤的 URL 簽名問題{#tracked-urls}
+# 追蹤的 URL 簽名問題 {#tracked-urls}
 
 在最近變更後，Campaign 傳送的追蹤 URL 可能會失敗。 有些信件匣受到的影響比其他信件匣大，因為有些公司有特定的安全工具，這些工具可能會影響連結並替代 URL 簽名機制。
 
@@ -38,4 +36,3 @@ Adobe 將與您合作，盡快更新您的設定。 您將會收到電子郵件�
 >[!NOTE]
 >
 >如對這些變更有任何疑問，請聯絡 [Adobe 客戶服務](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)。
-

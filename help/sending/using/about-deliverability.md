@@ -1,20 +1,18 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 關於Adobe Campaign Standard中的傳遞能力
 description: 了解與傳遞能力相關的概念和最佳實務，以及Adobe Campaign Standard提供的工具，以最佳化傳送您的內容。
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
-feature: 達成能力
+feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 5e523519-7192-4031-9d96-559af23074d9
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '746'
-ht-degree: 8%
+source-wordcount: '745'
+ht-degree: 7%
 
 ---
 

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 編輯查詢
 description: 運用預先定義的篩選器和規則來建立人口族群。
 audience: automating
@@ -10,14 +8,13 @@ context-tags: queryFilter,overview;audience,main
 feature: Workflows
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: a0adb913-2ee7-4cce-9b4f-74ebb7f1ce6a
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '786'
-ht-degree: 99%
+source-wordcount: '782'
+ht-degree: 100%
 
 ---
-
 
 # 編輯查詢{#editing-queries}
 

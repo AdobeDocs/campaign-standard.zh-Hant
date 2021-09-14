@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 排除
 description: 「排除」活動可讓您根據特定條件從一個母體中排除元素。
 audience: automating
@@ -10,14 +8,13 @@ context-tags: exclusion,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: dccb9545-0d7e-4d40-9a8f-2915b4da99a7
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 98%
+source-wordcount: '249'
+ht-degree: 100%
 
 ---
-
 
 # 排除{#exclusion}
 
@@ -51,4 +48,3 @@ ht-degree: 98%
 下列範例顯示兩個查詢活動，其設定是從 Adobe Campaign 資料庫篩選年齡介於 18 到 27 歲之間且電子郵件地址無效的設定檔。之後，會從第一組中排除包含無效電子郵件地址的設定檔。舉例來說，這可讓您傳送電子郵件。
 
 ![](assets/wkf_exclusion_example.png)
-

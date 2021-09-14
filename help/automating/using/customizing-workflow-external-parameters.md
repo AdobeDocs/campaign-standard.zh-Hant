@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 使用外部參數呼叫工作流程
 description: 本節詳細說明如何使用外部參數呼叫工作流程。
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
-feature: 工作流程
+feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 8c1a47ed-3467-4fcd-8747-86f0e8f15cec
-source-git-commit: c41d51538b8a8376a034c7d2db77b66b21256fd8
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '813'
 ht-degree: 1%
 
 ---

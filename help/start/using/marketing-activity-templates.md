@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 關於範本
 description: 「Adobe Campaign　範本可讓您視需要預先設定參數：範本可能包含行銷活動的完整或部分設定，以簡化非技術使用者使用　Adobe Campaign　的作業。」
 audience: start
 content-type: reference
 topic-tags: managing-templates
-feature: 行銷活動
+feature: Campaigns
 role: User
 level: Beginner
 exl-id: a0f02f69-d72d-48ca-8b38-aaab8d1acfad
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '402'
 ht-degree: 100%
 
 ---

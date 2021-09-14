@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 開始使用 Campaign 整合
 description: 使用其他 Adobe 解決方案，並將其不同的功能與 Campaign 結合。
 audience: integrating
 content-type: reference
 topic-tags: get-started-campaign-integrations
-feature: 觸發因子
+feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: ecf88c7d-6729-4b3a-85c4-60427bb57442
-source-git-commit: c101113e2180006b300611a0cbea1b0f9a70df70
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 76%
+source-wordcount: '713'
+ht-degree: 77%
 
 ---
 
@@ -104,7 +102,7 @@ ht-degree: 76%
    <td> Adobe Dreamweaver<br /> </td> 
    <td> 可讓您從 Dreamweaver 編輯電子郵件內容，並與 Adobe Campaign 同步化。<br /> </td> 
    <td> 
-    <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">使用Dreamweavervideo建立個人化</a> 電子郵件，使 <a href="https://helpx.adobe.com/tw/dreamweaver/using/working-with-dreamweaver-and-campaign.html">用Dreamweaver的Campaign擴充功能</a> 
+    <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=zh-Hant">使用Dreamweavervideo建立個人化</a> 電子郵件，使 <a href="https://helpx.adobe.com/tw/dreamweaver/using/working-with-dreamweaver-and-campaign.html">用Dreamweaver的Campaign擴充功能</a> 
   </td> 
   </tr> 
   <tr> 

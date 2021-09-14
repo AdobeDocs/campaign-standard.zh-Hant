@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 早期發行說明
 description: 早期發行說明
-feature: 概覽
+feature: Overview
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 89514dad1e318f32dafd3d8add664c37b03c8fb7
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 45%
+source-wordcount: '413'
+ht-degree: 100%
 
 ---
 
@@ -23,7 +21,6 @@ ht-degree: 45%
 >[!CAUTION]
 >
 > 在預備環境升級日期前，此內容可能會有所變更，恕不另行通知。 請參閱[發行計劃頁面](../../rn/using/release-planning.md)以瞭解更多資訊。
-
 
 ## 發行版本 21.3 – 2021 年 9 月 {#release-21-3---sept-2021}
 
@@ -62,13 +59,13 @@ ht-degree: 45%
 <tbody> 
 <tr> 
 <td>
-<p>新的「稽核軌跡」功能可即時擷取在Adobe Campaign中發生之動作和事件的完整清單。 其中包括自助式存取資料記錄，以協助回答下列問題：</p>
+<p>新的稽核軌跡功能可以針對在 Adobe Campaign 內發生的動作和事件即時擷取完整清單。功能包括自助式存取歷史資料記錄，以協助回答下列問題：</p>
 <ul>
 <li>此工作流程有什麼改變，上次更新的是誰？</li>
-<li>上次的變更是誰？</li>
+<li>上次進行變更的是誰？</li>
 <li>上一個狀態是什麼？</li>
 </ul>
-<p>Adobe Campaign現在會稽核下列項目的建立、編輯和刪除動作：工作流程、選項、自訂資源。 也會追蹤這些項目的修改。</p>
+<p>Adobe Campaign 現在會稽核下列項目的建立、編輯和刪除動作：工作流程、選項、自訂資源。 也會追蹤這些項目的修改。</p>
 <!--<p>For more information refer to the <a href="../../administration/using/audit.md">detailed documentation</a>.
 </p>-->
 </td> 
@@ -86,7 +83,7 @@ ht-degree: 45%
 <tbody> 
 <tr> 
 <td>
-<p>您現在可以以診斷模式執行Campaign工作流程。 此模式會記錄資訊，以協助疑難排解執行問題。 如果工作流查詢預設需要超過一分鐘的時間，則記錄整個執行計畫。</p>
+<p>您現在可以透過診斷模式執行 Campaign 工作流程。 此模式會記錄資訊，以協助疑難排解執行問題。 如果工作流程查詢預設需要超過一分鐘的時間，則記錄整個執行計劃。</p>
 <!--<p>For more information refer to the <a href="../../administration/using/audit.md">detailed documentation</a>.
 </p>-->
 </td> 
@@ -96,13 +93,13 @@ ht-degree: 45%
 
 **功能改善**
 
-* 在連結至Adobe Experience Manager內容的工作流程中建立循環傳送時，現在會在傳送前檢查內容核准狀態。
-* 資料庫連線限制現在已與Campaign套件對齊，以避免連線錯誤。
+* 在連結至 Adobe Experience Manager 內容的工作流程中建立循環傳送時，現在會在傳送前檢查內容核准狀態。
+* 資料庫連線限制現在已與 Campaign 套件對齊，以避免連線錯誤。
 * 新增在自訂資源中建立索引時的一致性檢查，並改善錯誤訊息。
 
 **修補程式**
 
-* 修正從URL匯入電子郵件內容時的逾時錯誤。 (CAMP-49054)
-* 修正存取已建立書籤的URL或從瀏覽器重新整理頁面時，作業結束所造成的錯誤(-69)。 (CAMP-49003、CAMP-48930、CAMP-48894)
+* 修正從 URL 匯入電子郵件內容時的逾時錯誤。 (CAMP-49054)
+* 修正存取已建立書籤的 URL 或從瀏覽器重新整理頁面時，工作階段結束所造成的錯誤 (-69)。 (CAMP-49003、CAMP-48930、CAMP-48894)
 * 修正了將規則從舊版傳遞能力伺服器同步至新傳遞能力伺服器的問題。 (CAMP-48923)
-* 修正在「電子郵件設計工具」中載入含有HTML標籤的電子郵件範本的問題。 (CAMP-48243)
+* 修正當在「電子郵件設計工具」中載入含有 HTML 標籤的電子郵件範本時所發生的問題。 (CAMP-48243)

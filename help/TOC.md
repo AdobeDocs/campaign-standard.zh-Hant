@@ -1,12 +1,10 @@
 ---
-solution: Campaign, Campaign Standard
-product: campaign
 audience: end-user
 user-guide-title: Campaign Standard
 user-guide-description: '說明中心，以瞭解使用 Campaign Standard 所需的主要功能、工作、設定和其他資源。 '
 title: Campaign Standard 指南
 breadcrumb-title: Adobe Campaign Standard 文件
-source-git-commit: 7da7984edc744fcdf20247b043112b82e3d8de63
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '1792'
 ht-degree: 100%

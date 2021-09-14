@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 方案與行銷活動
 description: 在 Adobe Campaign 中，計畫和行銷活動可讓您對連結到它們的不同行銷活動進行分組和協調。方案和行銷活動的報表可讓您分析其影響。
 audience: start
 content-type: reference
 topic-tags: marketing-plans
 context-tags: campaign,overview;campaignExplorer,main
-feature: 行銷活動
+feature: Campaigns
 role: User
 level: Beginner
 exl-id: 3f4f9307-c65f-47bb-bc92-ce8b5d06557f
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '641'
 ht-degree: 100%
 
 ---

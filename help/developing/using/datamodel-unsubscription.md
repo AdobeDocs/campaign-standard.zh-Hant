@@ -1,21 +1,18 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: DataModel
-description: 瞭解資料模型
+description: 了解資料模型
 audience: developing
 content-type: reference
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 508361d1-6a0b-4476-a058-4162fb3e8d5e
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: '53'
 ht-degree: 5%
 
 ---
-
 
 # 取消訂閱事件(nms:rtEvent)
 
@@ -26,7 +23,7 @@ ht-degree: 5%
                   <th>名稱</th>
                   <th>唯讀</th>
                   <th>類型</th>
-                  <th>必要</th>
+                  <th>必填</th>
                </tr>
                <tr>
                   <td>PKey</td>
@@ -49,7 +46,7 @@ ht-degree: 5%
                <tr>
                   <td>emailFormat</td>
                   <td>False</td>
-                  <td>枚舉</td>
+                  <td>分項清單</td>
                   <td>False</td>
                </tr>
                <tr>
@@ -66,7 +63,7 @@ ht-degree: 5%
                </tr>
             </table>
 
-## 濾鏡
+## 篩選器
 
 byEmail
 
@@ -90,7 +87,7 @@ byStatusOrType
         </tr>
         <tr>
         <td>狀態</td>
-        <td>枚舉</td>
+        <td>分項清單</td>
         </tr>
         <tr>
         <td>type</td>

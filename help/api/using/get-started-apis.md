@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 開始使用 Campaign Standard API
 description: 將 Campaign 與一組技術結合，以建立整合並建置您自己的生態系統。
 audience: developing
@@ -9,14 +7,13 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: c6968252-a012-4029-bbb8-66f4f693e99b
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 98%
+source-wordcount: '233'
+ht-degree: 100%
 
 ---
-
 
 # 開始使用 Campaign Standard API {#get-started-apis}
 

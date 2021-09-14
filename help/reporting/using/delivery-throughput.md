@@ -1,8 +1,6 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: 傳送總處理能力
-description: 透過「立即可用的傳送總處理能力」報表，瞭解您的傳送成功與否。
+title: 傳遞總處理能力
+description: 透過「傳遞吞吐量」現成可用的報表，了解您的傳送是否成功。
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -10,24 +8,23 @@ context-tags: deliveryThroughputReport,main;campaignThroughputReport,main;progra
 feature: Reporting
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 53bb4efb-949e-4831-af0d-e7af0ffa6b81
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 5%
+source-wordcount: '82'
+ht-degree: 4%
 
 ---
 
+# 傳遞總處理能力{#delivery-throughput}
 
-# 傳送總處理能力{#delivery-throughput}
-
-此報表包含與傳送或數個傳送的傳送吞吐量相關的資料。 它提供：
+此報表包含與傳送或數個傳送的傳送輸送量相關的資料。 它提供：
 
 * 每小時處理的訊息數
-* **[!UICONTROL Top 5 deliveries]**&#x200B;表格和互補摘要數字，顯示5個傳送，重試次數增加最多。
+* **[!UICONTROL Top 5 deliveries]**&#x200B;表格和互補摘要數字，顯示重試時具有最佳增益的五個傳送。
 
 ![](assets/delivery_reports_1.png)
 
 >[!NOTE]
 >
->**[!UICONTROL Delivery throughput]**&#x200B;頁顯示從Campaign到Adobe Campaign增強型MTA（消息傳輸代理）的消息中繼的吞吐量速度。
+>**[!UICONTROL Delivery throughput]**&#x200B;頁面顯示從Campaign轉送至Adobe Campaign Enhanced MTA（訊息傳輸代理）的訊息的輸送速度。

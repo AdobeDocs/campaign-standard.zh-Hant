@@ -1,20 +1,18 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 角色清單
 description: 瞭解您可指派給使用者的角色清單。
 audience: administration
 content-type: reference
 topic-tags: users-and-security
 context-tags: role,overview;role,main
-feature: 存取管理
+feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 00714c80-bdaf-4241-bf2f-51498ca1dbef
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 84%
+source-wordcount: '235'
+ht-degree: 85%
 
 ---
 

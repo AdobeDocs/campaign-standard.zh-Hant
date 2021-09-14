@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 生日傳遞
 description: 此範例是生日工作流程。每天都會傳送電子郵件給當天生日的設定檔。
 audience: automating
@@ -10,14 +8,13 @@ context-tags: delivery,workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 535ddbce-d8ba-4578-9e37-10604291c95d
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 68%
+source-wordcount: '172'
+ht-degree: 69%
 
 ---
-
 
 # 生日傳遞 {#birthday-delivery}
 
@@ -25,9 +22,9 @@ ht-degree: 68%
 
 此範例是生日工作流程。每天都會傳送電子郵件給當天生日的設定檔。
 
-若要建立工作流程，請依照下列步驟進行：
+若要建立工作流程，請遵循下列步驟：
 
-* [排程器](../../automating/using/scheduler.md)允許您每天上午8點啟動工作流。
+* [排程器](../../automating/using/scheduler.md)可讓您每天上午8:00開始工作流程。
 
    ![](assets/wkf_delivery_example_2.png)
 
@@ -35,6 +32,6 @@ ht-degree: 68%
 
    ![](assets/wkf_delivery_example_3.png)
 
-* [電子郵件傳送](../../automating/using/email-delivery.md)是循環的。 傳送會依月份匯總。所以，在一個月內傳送的所有電子郵件都會彙總成單一檢視。因此，在一年內，會執行 365 個傳送，但會在 Adobe Campaign 介面中重新分組為 12 個檢視（也稱為 **recurring executions**)。歷史記錄和報表詳細資訊會每個月顯示一次，而非每次傳送。
+* [電子郵件傳送](../../automating/using/email-delivery.md)會重複出現。 傳送會依月份匯總。所以，在一個月內傳送的所有電子郵件都會彙總成單一檢視。因此，在一年內，會執行 365 個傳送，但會在 Adobe Campaign 介面中重新分組為 12 個檢視（也稱為 **recurring executions**)。歷史記錄和報表詳細資訊會每個月顯示一次，而非每次傳送。
 
    ![](assets/wkf_delivery_example_4.png)

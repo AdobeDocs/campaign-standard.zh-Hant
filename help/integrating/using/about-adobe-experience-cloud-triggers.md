@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 關於 Adobe Experience Cloud 觸發程式
 description: 透過 Adobe Analytics 追蹤客戶的特定行為，您現在可以在 Adobe Campaign 中傳送個人化電子郵件給客戶。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 context-tags: trigger,overview;trigger,main
-feature: 觸發因子
+feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 9dc75d6a-d79a-49aa-a0c0-b1dd6c144ce6
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '473'
 ht-degree: 98%
 
 ---
@@ -52,7 +50,7 @@ Experience Cloud 啟動核心服務 **[!UICONTROL Triggers]** 與 Adobe Campaign
 
 [本節](../../integrating/using/abandonment-triggers-use-cases.md)將說明完整的使用案例。
 
-## 重要附註 {#important-notes}
+## 重要備註 {#important-notes}
 
 以下是使用「觸發程式 – 促銷活動」整合之前要考慮的一些重要附註：
 

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 讀取對象
 description: 「讀取對象」活動可讓您擷取現有對象，並套用其他篩選條件加以改良。
 audience: automating
@@ -10,14 +8,13 @@ context-tags: readAudience,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 9a77a2c7-cc1c-416f-8103-bb7d5c84a373
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 86%
+source-wordcount: '206'
+ht-degree: 87%
 
 ---
-
 
 # 讀取對象{#read-audience}
 
@@ -33,8 +30,8 @@ ht-degree: 86%
 
 **相關主題**
 
-* [使用案例：結合兩個精美受眾](../../automating/using/union-on-two-refined-audiences.md)
-* [使用案例：協調檔案對象與資料庫](../../automating/using/reconcile-file-audience-with-database.md)
+* [使用案例：聯合兩個完善的對象](../../automating/using/union-on-two-refined-audiences.md)
+* [使用案例：使用資料庫調解檔案對象](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## 設定 {#configuration}
 
@@ -44,7 +41,7 @@ ht-degree: 86%
 
    您可以擷取下列類型的對象：**[!UICONTROL List]**、**[!UICONTROL Query]**、**[!UICONTROL File]** 及 **[!UICONTROL Experience Cloud]**。如需對象類型的詳細資訊，請參閱[對象](../../audiences/using/about-audiences.md)文件。
 
-   **[!UICONTROL Use a dynamic audience]** 選項可讓您根據工作流程的事件變數定義要定位的對象名稱。有關詳細資訊，請參閱[本頁](../../automating/using/customizing-workflow-external-parameters.md)部分。
+   **[!UICONTROL Use a dynamic audience]** 選項可讓您根據工作流程的事件變數定義要定位的對象名稱。有關詳細資訊，請參閱[此頁面](../../automating/using/customizing-workflow-external-parameters.md)區段。
 
    ![](assets/readaudience_activity1.png)
 

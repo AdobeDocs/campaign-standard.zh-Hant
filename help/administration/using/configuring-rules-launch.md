@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 設定Adobe Experience Platform Launch規則以支援Adobe Campaign Standard使用案例
 description: 設定Adobe Experience Platform Launch規則以支援Adobe Campaign Standard使用案例
 audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
-feature: 執行個體設定
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b5f4f612-ea23-4007-b427-069777ecdd58
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '954'
 ht-degree: 1%
 
 ---

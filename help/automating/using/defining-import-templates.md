@@ -1,13 +1,10 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 定義匯入範本
 description: 匯入範本可減少所需的設定，並更快速地匯入資料。
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
-translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '787'
 ht-degree: 100%

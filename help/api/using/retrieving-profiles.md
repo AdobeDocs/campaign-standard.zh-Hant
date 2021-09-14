@@ -1,36 +1,33 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 擷取設定檔
-description: 進一步瞭解如何使用API擷取描述檔。
+description: 進一步了解如何使用API擷取設定檔。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 19679804-f728-49fa-b26e-8f31b67c29bf
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '229'
 ht-degree: 5%
 
 ---
 
-
 # 擷取設定檔 {#retrieving-profiles}
 
-檢索配置式時使用&#x200B;**GET**&#x200B;請求。
+擷取設定檔是使用&#x200B;**GET**&#x200B;請求執行。
 
-然後，您可以使用篩選器、排序和編頁來調整搜尋。 有關詳細資訊，請參閱[ Additional operations](../../api/using/sorting.md)一節。
+然後，您可以使用篩選器、排序和分頁來縮小搜尋範圍。 有關詳細資訊，請參閱[其他操作](../../api/using/sorting.md)部分。
 
-此外，Campaign StandardAPI可讓您根據下列其中一個欄位來搜尋描述檔：電子郵件、名字、姓氏或任何自訂欄位。 如需詳細資訊，請參閱[本章節](#searching-field)。
+此外，Campaign StandardAPI可讓您根據下列其中一個欄位來搜尋設定檔：電子郵件、名字、姓氏或任何自訂欄位。 如需詳細資訊，請參閱[本章節](#searching-field)。
 
 <br/>
 
-***請求範例***
+***範例要求***
 
-* 擷取所有描述檔的範例GET請求。
+* 擷取所有設定檔的GET請求範例。
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
@@ -40,7 +37,7 @@ ht-degree: 5%
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-   回應請求。
+   要求的回應。
 
    ```
    {
@@ -56,7 +53,7 @@ ht-degree: 5%
    }
    ```
 
-* 擷取前10個電子郵件值的範例GET要求。
+* 擷取前10個電子郵件值的GET請求範例。
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_lineCount=10 \
@@ -66,7 +63,7 @@ ht-degree: 5%
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-   回應請求。 「下一個」節點會傳回URL，讓您存取下一個10個電子郵件值。
+   要求的回應。 「下一個」節點會傳回URL，供您存取下一個10個電子郵件值。
 
    ```
    {
@@ -89,17 +86,17 @@ ht-degree: 5%
    }
    ```
 
-## 根據{#searching-field}欄位搜尋描述檔
+## 根據欄位搜尋設定檔 {#searching-field}
 
-**[!UICONTROL filterType]**&#x200B;參數允許您根據以下欄位之一檢索配置檔案：擴充描述檔資源時，在進階篩選中新增的電子郵件、名字、姓氏或任何自訂欄位。
+**[!UICONTROL filterType]**&#x200B;參數可讓您根據以下其中一個欄位擷取設定檔：擴充設定檔資源時，在「進階篩選」中新增的電子郵件、名字、姓氏或任何自訂欄位。
 
 >[!NOTE]
 >
->搜索區分大小寫，僅對前置詞執行。 例如，您將無法使用姓氏的最後字母來尋找描述檔。
+>搜尋區分大小寫，且僅對字首執行。 例如，您將無法使用其姓氏的最後字母來尋找設定檔。
 
-***請求範例***
+***範例要求***
 
-* 根據名字篩選描述檔的範例要求。
+* 根據名字篩選設定檔的範例請求。
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=John&filterType=firstName \
@@ -109,7 +106,7 @@ ht-degree: 5%
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-* 根據姓氏篩選描述檔的範例要求。
+* 根據姓氏篩選設定檔的範例請求。
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Miller&filterType=lastName \
@@ -119,7 +116,7 @@ ht-degree: 5%
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-* 根據電子郵件篩選描述檔的範例要求。
+* 根據電子郵件篩選設定檔的範例請求。
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=John%40gmail.com&filterType=email \
@@ -129,7 +126,7 @@ ht-degree: 5%
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-* 根據「嗜好」自訂欄位篩選描述檔的範例要求。
+* 根據「嗜好」自訂欄位篩選設定檔的範例請求。
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byText?cusHobby=Dancing&filterType=Hobby \

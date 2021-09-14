@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 發行說明 2018 年
 description: 本頁列出 2018 年的所有 Adobe Campaign Standard 版本。
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: 概覽
+feature: Overview
 role: User
 level: Beginner
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '5401'
-ht-degree: 3%
+source-wordcount: '5400'
+ht-degree: 4%
 
 ---
 
@@ -27,7 +25,7 @@ ht-degree: 3%
 
 ## 發行版本 18.9 – 2018 年 9 月 {#release-18-9---september-2018}
 
-**新增功能？**
+**有哪些新增功能？**
 
 <table> 
  <thead> 
@@ -61,7 +59,7 @@ ht-degree: 3%
 
 * 定義促銷活動屬性時選取行動應用程式，以鎖定特定行動應用程式上的使用者。 此功能適用於推播和應用程式內傳訊通道。
 
-   如需詳細資訊，請參閱[相關的文件](../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification)，以瞭解詳情。
+   如需詳細資訊，請參閱[詳細文件](../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification)，以瞭解詳情。
 
 * 使用Creative Designer介面選取內容區塊時，清單中的所有內容區塊現在都會載入並顯示。 (CAMP-27311)
 
@@ -92,7 +90,7 @@ ht-degree: 3%
 
 ## 發行版本 18.7 – 2018 年 7 月 {#release-18-7---july-2018}
 
-**新增功能？**
+**有哪些新增功能？**
 
 <table> 
  <thead> 
@@ -191,9 +189,9 @@ ht-degree: 3%
 * 修正動態報告中帳戶層級國際資料的顯示問題。
 * 現在可以建立不含訂閱或取消訂閱確認訊息的服務。
 
-## 版本 18.5 – 2018 年 5 月 {#release-18-5---may-2018}
+## 發行版本 18.5 – 2018 年 5 月 {#release-18-5---may-2018}
 
-**新增功能？**
+**有哪些新增功能？**
 
 <table> 
  <thead> 
@@ -217,7 +215,7 @@ ht-degree: 3%
     <ul> 
      <li> 使用「凍結」資料導出擴展廣播：身為行銷人員，我想匯出區段代碼等於「A」（來自工作流程引擎）的所有設定檔。 </li> 
      <li> 「凍結」資料的分段：身為行銷人員，我想<strong>重新定位</strong>自上次傳送以來已贏得1000個忠誠度點的所有設定檔，或其區段代碼等於「A」。 </li> 
-    </ul> 如需詳細資訊，請參閱<a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">詳細檔案</a>。<br /> </td> 
+    </ul> 如需詳細資訊，請參閱<a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">詳細文件</a>，以瞭解詳情。<br /> </td> 
   </tr> 
   <tr> 
    <td> 使用自訂設定檔資料進行動態報告<br /> </td> 
@@ -263,7 +261,7 @@ ht-degree: 3%
 * 修正了無法載入「創作設計工具」的問題。 (CAMP-24573)
 * 修正移除電子郵件主旨中個人化欄位後新增之字元的問題。 (CAMP-24113)
 
-## 版本 18.4 – 2018 年 4 月 {#release-18-4---april-2018}
+## 發行版本 18.4 – 2018 年 4 月 {#release-18-4---april-2018}
 
 **修補程式**
 
@@ -307,7 +305,7 @@ _自訂資源_
     <ul> 
      <li> 訪問權限：可讓資料主體接收資料控制者擷取的其個人資料副本，可能包括儲存在Adobe Campaign中的資料。 </li> 
      <li> 刪除權限：為資料主體賦予權利，讓資料控制者擷取的個人資料遭到清除，可能包括儲存在Adobe Campaign中的資料。 </li> 
-    </ul> 如需詳細資訊，請參閱<a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">詳細檔案</a>。<br /> </td> 
+    </ul> 如需詳細資訊，請參閱<a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">詳細文件</a>，以瞭解詳情。<br /> </td> 
   </tr> 
   <tr> 
    <td> 電子郵件創意設計工具（測試版）<br /> </td> 
@@ -329,7 +327,7 @@ _自訂資源_
     <ul> 
      <li> 運用自訂欄位作為調解標準，將交易式訊息與設定檔比對 </li> 
      <li> 運用完整的設定檔、服務和連結資料，進一步個人化交易式訊息 </li> 
-    </ul> 如需詳細資訊，請參閱<a href="../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content">詳細檔案</a>。<br /> </td> 
+    </ul> 如需詳細資訊，請參閱<a href="../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content">詳細文件</a>，以瞭解詳情。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -379,7 +377,7 @@ _異動訊息_
 * 修正了延伸傳送資源時，交易式訊息範本的錯誤。
 * 現在可以刪除交易式訊息。
 
-## 版本 18.2 – 2018 年 2 月 {#release-18-2---february-2018}
+## 發行版本 18.2 – 2018 年 2 月 {#release-18-2---february-2018}
 
 **新功能**
 
@@ -465,7 +463,7 @@ _已知問題_
   </tr> 
   <tr> 
    <td> 推送新功能<br /> </td> 
-   <td> 推播訊息預覽 — 從推播通知內容編輯器預覽在iOS和Android裝置上顯示的推播通知，在測試或執行傳送前可先檢視收件者所見到的內容。<br /> 如需詳細資訊，請參閱詳 <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">細檔案</a>。<br /> 可用內容 — 如果使用者在一段時間後都未開啟應用程式，系統便會將其資料視為過時。這會導致使用者在最終開啟應用程式時，必須更新或取代資料，而這可能導致使用應用程式的延遲。 透過新增的「可用內容」支援，Adobe Campaign使用者可在傳送推播通知時，喚醒應用程式以在背景重新整理資料，讓使用者的應用程式內體驗更具一致性和控制力。<br /> 可變動內容 — 透過新增的「可變動內容」支援，Adobe Campaign使用者現在可運用行動應用程式擴充功能，進一步修改來自Adobe Campaign之推播通知的內容或呈現方式。例如，使用者可以運用「可變內容」來：<br /> 
+   <td> 推播訊息預覽 — 從推播通知內容編輯器預覽在iOS和Android裝置上顯示的推播通知，在測試或執行傳送前可先檢視收件者所見到的內容。<br />如需詳細資訊，請參閱<a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">詳細文件</a>，以瞭解詳情。<br /> 可用內容 — 如果使用者在一段時間後都未開啟應用程式，系統便會將其資料視為過時。這會導致使用者在最終開啟應用程式時，必須更新或取代資料，而這可能導致使用應用程式的延遲。 透過新增的「可用內容」支援，Adobe Campaign使用者可在傳送推播通知時，喚醒應用程式以在背景重新整理資料，讓使用者的應用程式內體驗更具一致性和控制力。<br /> 可變動內容 — 透過新增的「可變動內容」支援，Adobe Campaign使用者現在可運用行動應用程式擴充功能，進一步修改來自Adobe Campaign之推播通知的內容或呈現方式。例如，使用者可以運用「可變內容」來：<br /> 
     <ul> 
      <li> 解密以加密格式傳送的資料 </li> 
      <li> 下載影像或其他媒體檔案，並將其新增為通知的附件 </li> 

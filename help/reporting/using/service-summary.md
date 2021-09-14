@@ -1,8 +1,6 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 服務摘要
-description: 透過「服務」摘要即裝即用的報告，瞭解訂閱與取消訂閱的演變。
+description: 透過服務摘要現成可用的報表，了解訂閱和取消訂閱的演變。
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -10,22 +8,21 @@ context-tags: deliveryTopUrlReport,main;campaignTopUrlReport,main;programTopUrlR
 feature: Reporting
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: b680b0c3-a65b-416f-8e28-46a9b494c754
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 15%
+source-wordcount: '82'
+ht-degree: 14%
 
 ---
 
-
 # 服務摘要{#service-summary}
 
-**[!UICONTROL Service summary]**詳細說明訂閱與取消訂閱服務的演變。
-只有您的「服務」頁面才能透過進階功能表**[!UICONTROL Profiles & Audiences]** > **[!UICONTROL Services]**&#x200B;存取此報告。 如需關於此項目的詳細資訊，請參閱此[頁面](../../audiences/using/monitoring-subscriptions.md#service-reports)。
+**[!UICONTROL Service summary]**詳細說明服務的訂閱和取消訂閱的演變。
+您只能透過進階功能表**[!UICONTROL Profiles & Audiences]** > **[!UICONTROL Services]**，從「服務」頁面存取此報表。 如需關於此項目的詳細資訊，請參閱此[頁面](../../audiences/using/monitoring-subscriptions.md#service-reports)。
 
 ![](assets/service-summary.png)
 
-**[!UICONTROL Subscription evolution curves]**&#x200B;視覺化會根據下拉式清單列中選擇的&#x200B;**[!UICONTROL Period]**&#x200B;來詳細說明訂閱和取消訂閱的數目。
+**[!UICONTROL Subscription evolution curves]**&#x200B;視覺效果會根據下拉式清單中選取的&#x200B;**[!UICONTROL Period]**&#x200B;來詳細說明訂閱和取消訂閱的數量。
 
-**[!UICONTROL Overall subscription evolution]**&#x200B;可讓您查看不同時段內訂閱者的演變。
+**[!UICONTROL Overall subscription evolution]**&#x200B;可讓您查看訂閱者在不同時段內的演變。

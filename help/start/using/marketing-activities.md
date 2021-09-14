@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 行銷活動
 description: 「瞭解如何建立和管理您的行銷活動：促銷活動、電子郵件、簡訊和推播通知傳送、登錄頁面、工作流程。您可以輕鬆設計新活動、編輯現有活動，並查詢其狀態和有效性。」
 audience: start
 content-type: reference
 topic-tags: marketing-plans
 context-tags: activity,overview
-feature: 行銷活動
+feature: Campaigns
 role: User
 level: Beginner
 exl-id: c75471aa-b947-4488-a569-5412d3825c64
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '487'
 ht-degree: 82%
 
 ---

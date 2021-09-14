@@ -1,28 +1,25 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 執行訂閱
-description: 瞭解如何使用API執行訂閱。
+description: 了解如何使用API執行訂閱。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 64f321a3-436a-4b7c-99d8-0c006203012e
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
 
+# 執行訂閱 {#performing-subscriptions}
 
-# 執行預訂{#performing-subscriptions}
+## 方法1:將設定檔訂閱至服務
 
-## 方法1:將配置式預訂到服務
-
-執行GET請求以檢索配置檔案。
+執行GET請求以擷取設定檔。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -32,7 +29,7 @@ ht-degree: 0%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它會傳回描述檔的訂閱URL。
+它會傳回設定檔的訂閱URL。
 
 ```
   {
@@ -46,7 +43,7 @@ ht-degree: 0%
   }
 ```
 
-對訂閱URL執行POST要求，並在裝載中使用所需的服務主要金鑰。
+在訂閱URL上，使用裝載內所需的服務主要金鑰執行POST要求。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
@@ -58,7 +55,7 @@ ht-degree: 0%
 -d '{"service":{"PKey":"<PKEY>"}}'
 ```
 
-它返回已完成服務節點的更新配置檔案。
+它會傳回已完成服務節點的更新設定檔。
 
 ```
 {
@@ -73,7 +70,7 @@ ht-degree: 0%
 }
 ```
 
-## 方法2:新增描述檔至服務的訂閱者
+## 方法2:將設定檔新增至服務的訂閱者
 
 執行GET請求以檢索服務。
 
@@ -99,7 +96,7 @@ ht-degree: 0%
   },
 ```
 
-在訂閱URL上提出POST要求，並在裝載中使用所需的描述檔主要金鑰。
+對訂閱URL提出POST要求，並在裝載內使用所需的設定檔主要金鑰。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign//profileAndServices/service/<PKEY>/subscriptions/ \
@@ -111,7 +108,7 @@ ht-degree: 0%
 -d '{"subscriber":{"PKey":"<PKEY>"}}'
 ```
 
-它返回已完成訂閱者節點的更新服務。
+它會傳回已完成訂閱者節點的更新服務。
 
 ```
 {

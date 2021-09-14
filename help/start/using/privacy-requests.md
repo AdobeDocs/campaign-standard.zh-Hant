@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 隱私權要求
 description: 瞭解如何在 Adobe Campaign Standard 中管理隱私權要求
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-feature: 隱私權
+feature: Privacy
 role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '1624'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '1623'
 ht-degree: 100%
 
 ---

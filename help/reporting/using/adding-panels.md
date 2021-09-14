@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 新增面板
 description: 動態報表可讓您新增面板，以根據所選的時段更好地篩選資料。
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
-feature: 報告
+feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: e48b9630-c5ce-4d5d-90e6-97b77fbe3d50
-source-git-commit: 8062995481a889d8865267e6134efa74648753f6
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '345'
 ht-degree: 1%
 
 ---

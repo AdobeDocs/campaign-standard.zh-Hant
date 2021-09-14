@@ -1,8 +1,6 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 使用資料庫調解檔案對象
-description: 此範例說明如何使用「讀取對象」活動協調直接從檔案匯入建立的對象。
+description: 此範例說明如何使用讀取對象活動調解直接從檔案匯入建立的對象。
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -10,14 +8,13 @@ context-tags: readAudience,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6a59907d-850e-4d61-b1f7-8fc8b915580e
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 86%
+source-wordcount: '254'
+ht-degree: 87%
 
 ---
-
 
 # 使用資料庫調解檔案對象 {#example--reconcile-a-file-audience-with-the-database}
 

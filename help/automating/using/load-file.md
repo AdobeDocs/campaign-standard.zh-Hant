@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 載入檔案
 description: 「載入檔案」活動可讓您以單一結構化形式匯入資料，以便在 Adobe Campaign 中使用此資料。
 audience: automating
@@ -10,14 +8,13 @@ context-tags: fileImport,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 373e4012-9daf-4da7-aad6-54726d991544
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1368'
+source-wordcount: '1364'
 ht-degree: 93%
 
 ---
-
 
 # 載入檔案 {#load-file}
 
@@ -25,7 +22,7 @@ ht-degree: 93%
 
 >[!CAUTION]
 >
->使用此功能時，請記住SFTP儲存空間、DB儲存空間和作用中的設定檔限制(依您的Adobe Campaign合約規定)。
+>使用此功能時，請記得您的Adobe Campaign合約所規定的SFTP儲存空間、資料庫儲存空間和作用中設定檔限制。
 
 ![](assets/data_loading.png)
 
@@ -48,8 +45,8 @@ ht-degree: 93%
 
 * [使用案例：使用外部資料更新資料庫](../../automating/using/update-database-file.md)
 * [使用案例：根據自動檔案下載更新資料](../../automating/using/update-data-automatic-download.md)
-* [使用案例：傳送包含豐富欄位的電子郵件](../../automating/using/sending-email-enriched-fields.md)
-* [使用案例：協調檔案對象與資料庫](../../automating/using/reconcile-file-audience-with-database.md)
+* [使用案例：傳送包含擴充欄位的電子郵件](../../automating/using/sending-email-enriched-fields.md)
+* [使用案例：使用資料庫調解檔案對象](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## 設定 {#configuration}
 
@@ -108,7 +105,7 @@ ht-degree: 93%
 
 1. 如果要從中載入資料的檔案壓縮到 GZIP 檔案 (.gz) 中，請在 **[!UICONTROL Add a pre-processing stage]** 欄位中選取 **[!UICONTROL Decompression]** 選項。這可讓您在載入資料之前先解壓縮檔案。只有當檔案來自活動的入站轉變時，才可使用此選項。
 
-   **[!UICONTROL Add a pre-processing stage]**&#x200B;欄位還允許您在將檔案導入資料庫之前對其進行解密。 有關如何使用加密檔案的詳細資訊，請參閱[本節](../../automating/using/managing-encrypted-data.md)
+   **[!UICONTROL Add a pre-processing stage]**&#x200B;欄位還允許您在將檔案導入資料庫之前解密該檔案。 有關如何處理加密檔案的詳細資訊，請參閱[此部分](../../automating/using/managing-encrypted-data.md)
 
 1. **[!UICONTROL Keep the rejects in a file]** 選項可讓您下載包含匯入期間發生錯誤的檔案，並套用至後期處理階段。啟動此選項時，外站轉變會重新命名為「拒絕」。
 

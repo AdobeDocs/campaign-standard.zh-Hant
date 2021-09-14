@@ -1,26 +1,23 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 管理 CCPA 選擇退出
-description: 瞭解如何使用API管理CCPA選擇退出
+description: 了解如何使用API管理CCPA選擇退出
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: bfc52511-f66f-4948-a939-d0d77e8ef03c
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '148'
 ht-degree: 4%
 
 ---
 
-
 # 管理 CCPA 選擇退出 {#managing-ccpa-optout}
 
-使用&#x200B;**ccpaOptOut**&#x200B;描述檔屬性和「true」或「false」值，可監控和管理描述檔的CCPA退出狀態：
+可使用&#x200B;**ccpaOptOut**&#x200B;設定檔屬性和「true」或「false」值來監控及管理設定檔的CCPA選擇退出狀態：
 
 `"ccpaOptOut": <value>`
 
@@ -29,15 +26,15 @@ ht-degree: 4%
 
 >[!CAUTION]
 >
->「CCPA選擇退出」屬性僅從19.4開始提供。對於19.3環境，您需要擴展Profiles資源並添加布爾欄位。 此欄位將會新增至具有所選標籤的API。 我們建議您使用「退出CCPA」。
+>「CCPA選擇退出」屬性僅從19.4版開始可用。對於19.3環境，您需要擴充設定檔資源並新增布林值欄位。 此欄位將會以所選標籤新增至API。 建議您使用「選擇退出CCPA」。
 >
->有關詳細資訊，請參閱[管理隱私請求文檔](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa)。
+>如需詳細資訊，請參閱[管理隱私權要求檔案](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa)。
 
 <br/>
 
-***請求範例***
+***範例要求***
 
-* 擷取描述檔CCPA退出狀態的範例GET請求。
+* 擷取設定檔CCPA選擇退出狀態的GET請求範例。
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \
@@ -47,7 +44,7 @@ ht-degree: 4%
    -H 'Content-Type: application/json;charset=utf-8'
    ```
 
-   回應GET請求。
+   回應GET要求。
 
    ```
    {
@@ -59,7 +56,7 @@ ht-degree: 4%
    }
    ```
 
-* 標示CCPA選擇退出描述檔的POST請求範例。
+* 標示CCPA選擇退出設定檔的POST請求範例。
 
    ```
    -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/ \
@@ -76,7 +73,7 @@ ht-degree: 4%
    -d }'
    ```
 
-   回應GET請求。
+   回應GET要求。
 
    ```
    {
@@ -89,7 +86,7 @@ ht-degree: 4%
    }
    ```
 
-* 更新CCPA選擇退出描述檔的PATCH請求範例。
+* 更新CCPA選擇退出設定檔的PATCH請求範例。
 
    ```
    -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \
@@ -103,7 +100,7 @@ ht-degree: 4%
    -d }'
    ```
 
-   回應GET請求。
+   回應GET要求。
 
    ```
    {

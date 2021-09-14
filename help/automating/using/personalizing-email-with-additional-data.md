@@ -1,8 +1,6 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 使用其他資料個人化電子郵件
-description: 此使用案例說明如何新增不同類型的其他資料至查詢，並將它當成電子郵件中的個人化欄位。
+description: 此使用案例說明如何新增不同類型的其他資料至查詢，並將其作為電子郵件中的個人化欄位使用。
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -10,18 +8,17 @@ context-tags: query,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: b207dc73-03dc-4f25-95e5-573e4b4bce54
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 85%
+source-wordcount: '479'
+ht-degree: 86%
 
 ---
 
-
 # 使用其他資料個人化電子郵件 {#example--personalizing-an-email-with-additional-data}
 
-下列範例說明如何新增不同類型的其他資料至查詢，以及其作為電子郵件中個人化欄位的用途。有關如何豐富&#x200B;**[!UICONTROL Query]**&#x200B;活動所定位的資料的詳細資訊，請參閱[本節](../../automating/using/query.md#enriching-data)。
+下列範例說明如何新增不同類型的其他資料至查詢，以及其作為電子郵件中個人化欄位的用途。有關如何豐富&#x200B;**[!UICONTROL Query]**&#x200B;活動所定位資料的詳細資訊，請參閱[此部分](../../automating/using/query.md#enriching-data)。
 
 在此範例中，會使用[自訂資源](../../developing/using/data-model-concepts.md)：
 
@@ -35,7 +32,7 @@ ht-degree: 85%
 
 ![](assets/enrichment_example1.png)
 
-1. 新增[Query](../../automating/using/query.md)活動，可讓您定位已執行至少一項交易的設定檔。
+1. 新增[Query](../../automating/using/query.md)活動，可讓您定位已執行至少一個交易的設定檔。
 
    ![](assets/enrichment_example2.png)
 

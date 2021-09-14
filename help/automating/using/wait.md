@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 等待
 description: 「等待」活動會暫時暫停執行工作流程的一部分。
 audience: automating
@@ -10,14 +8,13 @@ context-tags: wait,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 2ddc1b2b-0df5-4c91-a381-451cc094f2eb
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 99%
+source-wordcount: '296'
+ht-degree: 100%
 
 ---
-
 
 # 等待{#wait}
 
@@ -56,4 +53,3 @@ ht-degree: 99%
 * 24 小時的 **[!UICONTROL Wait]** 活動會在傳送邀請與工作流程的其餘時間之間暫停。
 * 第二個 **[!UICONTROL Query]** 目標是收到第一封電子郵件但未點按內部訂閱連結的設定檔。
 * 第二個 **[!UICONTROL Email delivery]** 會將邀請的提醒傳送給選取的人員。
-

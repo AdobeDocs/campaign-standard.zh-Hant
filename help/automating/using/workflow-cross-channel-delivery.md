@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 跨通道傳送
 description: 此使用案例說明如何建立跨通道傳送
 audience: automating
@@ -10,16 +8,15 @@ context-tags: workflow,use-case,query,wait,delivery
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 9cee2005-a99b-47cb-b573-a25812614409
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '860'
+source-wordcount: '856'
 ht-degree: 86%
 
 ---
 
-
-# 建立跨通道傳送{#cross-channel-delivery}
+# 建立跨頻道傳遞{#cross-channel-delivery}
 
 該文件允許您透過標準使用案例來探索以下 Adobe Campaign 功能：建立跨通道傳送工作流程。
 
@@ -68,7 +65,7 @@ ht-degree: 86%
 
 由「查詢」活動識別目標後，您必須選取一個準則，將目標細分成兩個不同的母體：一個會收到電子郵件，另一個則會收到簡訊。
 
-您必須使用[Segmentation](../../automating/using/segmentation.md)活動，才能從查詢上游計算的人口中建立一或多個區段。
+您必須使用[Segmentation](../../automating/using/segmentation.md)活動，才能從查詢上游運算的母體中建立一或多個區段。
 
 ![](assets/wkf_segment_activity.png)
 
@@ -115,7 +112,7 @@ ht-degree: 86%
 
 ## 建立傳送 {#creating-deliveries}
 
-由於已建立兩個轉場，您現在必須將兩種類型的傳送新增至「區段」活動的對外轉場：[電子郵件傳送](../../automating/using/email-delivery.md)活動和[SMS傳送](../../automating/using/sms-delivery.md)活動。
+由於已建立兩個轉變，您現在必須將兩種類型的傳送新增至「細分」活動的出站轉變中：[電子郵件傳送](../../automating/using/email-delivery.md)活動和[SMS傳送](../../automating/using/sms-delivery.md)活動。
 
 Adobe Campaign 可讓您將傳送新增至工作流程。若要這麼做，請從工作流程的活動色盤 **[!UICONTROL Channels]** 類別中選取傳送。
 
@@ -123,7 +120,7 @@ Adobe Campaign 可讓您將傳送新增至工作流程。若要這麼做，請�
 
 若要建立電子郵件傳送：
 
-1. 將[電子郵件傳送](../../automating/using/email-delivery.md)活動拖放至第一個區段之後。
+1. 在第一個區段後，拖放[電子郵件傳送](../../automating/using/email-delivery.md)活動。
 1. 連按兩下活動以進行編輯。
 1. 選取 **[!UICONTROL Simple email]**。
 1. 選取 **[!UICONTROL Add an outbound transition with the population]** 並按一下 **[!UICONTROL Next]**。
@@ -136,11 +133,11 @@ Adobe Campaign 可讓您將傳送新增至工作流程。若要這麼做，請�
 1. 輸入電子郵件屬性，然後按一下 **[!UICONTROL Next]**。
 1. 若要建立電子郵件的版面，請選取 **[!UICONTROL Use the Email Designer]**。
 1. 編輯並儲存您的內容。
-1. 在消息儀表板的&#x200B;**[!UICONTROL Schedule]**&#x200B;部分中，取消選擇&#x200B;**[!UICONTROL Request confirmation before sending messages]**&#x200B;選項。
+1. 在訊息控制面板的&#x200B;**[!UICONTROL Schedule]**&#x200B;區段中，取消選取&#x200B;**[!UICONTROL Request confirmation before sending messages]**&#x200B;選項。
 
 若要建立簡訊傳送：
 
-1. 將[SMS delivery](../../automating/using/sms-delivery.md)活動拖放到另一個區段後面。
+1. 將[SMS傳送](../../automating/using/sms-delivery.md)活動拖放至另一個區段之後。
 1. 連按兩下活動以進行編輯。
 1. 選取 **[!UICONTROL SMS]** 並按一下 **[!UICONTROL Next]**。
 1. 選取簡訊範本，並按一下 **[!UICONTROL Next]**。
@@ -153,7 +150,7 @@ Adobe Campaign 可讓您將傳送新增至工作流程。若要這麼做，請�
 
 ## 執行工作流程 {#running-the-workflow}
 
-工作流程啟動後，**[!UICONTROL Query]**&#x200B;活動所定位的人口族群將會分段，以接收電子郵件或簡訊傳送。
+工作流程開始後，**[!UICONTROL Query]**&#x200B;活動鎖定的母體將會分段，以接收電子郵件或簡訊傳送。
 
 若要執行工作流程，請按一下動作列中的 **[!UICONTROL Start]** 按鈕。
 

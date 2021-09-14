@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 簡訊傳送
 description: SMS 傳送活動可讓您在工作流程中設定傳送單一傳送 SMS 或循環 SMS。
 audience: automating
@@ -10,16 +8,15 @@ context-tags: sms,main;delivery,smsContent,back
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 65d3f3d8-039d-4188-a6a4-0065724aa82b
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '788'
-ht-degree: 99%
+source-wordcount: '784'
+ht-degree: 100%
 
 ---
 
-
-# 簡訊傳送{#sms-delivery}
+# 簡訊傳遞{#sms-delivery}
 
 ## 說明 {#description}
 

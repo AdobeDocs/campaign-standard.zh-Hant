@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 建立電子郵件
 description: 請依照下列步驟，在Adobe Campaign中建立單一傳送的電子郵件。
 audience: channels
 content-type: reference
 topic-tags: email-messages
-feature: 電子郵件
+feature: Email
 role: User
 level: Beginner
 exl-id: 4483e469-0a2b-494d-b768-950168759727
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 20%
+source-wordcount: '556'
+ht-degree: 19%
 
 ---
 

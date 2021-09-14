@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 查詢
 description: 「查詢」活動可讓您從 Adobe Campaign 資料庫中篩選及擷取一組元素。
 audience: automating
@@ -10,14 +8,13 @@ context-tags: query,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 0c26a0f9-9d71-4692-ae86-d47e2df53bb7
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1761'
+source-wordcount: '1757'
 ht-degree: 93%
 
 ---
-
 
 # 查詢{#query}
 
@@ -56,7 +53,7 @@ ht-degree: 93%
 
    >[!NOTE]
    >
-   >當定位對象時，請注意，對象的定義未參考，而是複製&#x200B;**至查詢。**&#x200B;如果您在查詢中定位對象後對對象進行任何變更，請務必再次設定查詢，將新定義納入考量。
+   >鎖定目標對象時，請注意未參考對象的定義，而是將&#x200B;**複製**&#x200B;複製到查詢中。 如果您在對象已定位於查詢中後對對象進行任何變更，請務必再次設定查詢以將新定義納入考量。
 
 1. 您可以透過專用索引標籤來定義目標母體的　**[!UICONTROL Additional data]**。此資料會儲存在其他欄中，且僅能用於進行中的工作流程。尤其是，您可以從連結至查詢目標維度的 Adobe Campaign 資料庫表格新增資料。請參閱[擴充資料](#enriching-data)區段。
 
@@ -66,7 +63,7 @@ ht-degree: 93%
 
 1. 在 **[!UICONTROL Transition]** 索引標籤，**[!UICONTROL Enable an outbound transition]** 選項可讓您在查詢活動後新增出站轉變，即使它未擷取任何資料亦然。
 
-   對外轉場的區段代碼可使用標準運算式和事件變數進行個人化（請參閱[本頁](../../automating/using/customizing-workflow-external-parameters.md)）。
+   使用標準運算式和事件變數可個人化出站轉變的區段代碼（請參閱[此頁面](../../automating/using/customizing-workflow-external-parameters.md)）。
 
 1. 確認活動的設定並儲存工作流程。
 
@@ -74,7 +71,7 @@ ht-degree: 93%
 
 目標維度和資源可讓您定義查詢要依據哪些元素來判斷傳送的目標。
 
-它們在[目標映射](../../administration/using/target-mappings-in-campaign.md)中配置，並在建立工作流時在查詢活動的&#x200B;**[!UICONTROL Properties]**&#x200B;頁籤中定義。
+它們在[target對應](../../administration/using/target-mappings-in-campaign.md)中設定，並在建立工作流程時在「查詢」活動的&#x200B;**[!UICONTROL Properties]**&#x200B;標籤中定義。
 
 >[!NOTE]
 >
@@ -104,9 +101,9 @@ ht-degree: 93%
 
 預設會設定目標維度和資源，以定位設定檔。不過，如果您想在遠端表格中尋找特定記錄，則使用與目標維度不同的資源可能會很實用。
 
-有關此功能的詳細資訊，請參閱此使用案例：[使用與定位維度不同的資源](../../automating/using/using-resources-different-from-targeting-dimensions.md)
+如需詳細資訊，請參閱此使用案例：[使用與目標維度不同的資源](../../automating/using/using-resources-different-from-targeting-dimensions.md)
 
-## 擴充資料 {#enriching-data}
+## 豐富資料 {#enriching-data}
 
 **[!UICONTROL Query]**、**[!UICONTROL Incremental query]** 及 **[!UICONTROL Enrichment]**　的　**[!UICONTROL Additional data]**　索引標籤可讓您擴充目標資料，並將此資料傳輸至下列工作流程活動，以便在其中使用。您尤其可以新增：
 
@@ -126,7 +123,7 @@ ht-degree: 93%
 >
 >依預設，會在查詢的 **[!UICONTROL Additional data]** 索引標籤的 **[!UICONTROL Advanced options]** 核取 **[!UICONTROL Remove duplicate rows (DISTINCT)]** 選項。如果 **[!UICONTROL Query]** 活動包含許多（來自 100個）已定義的其他資料，則建議基於效能原因取消選中此選項。請注意，取消核取此選項會導致重複，視查詢的資料而定。
 
-有關如何使用其他資料個人化電子郵件的使用案例，請參閱本節[。](../../automating/using/personalizing-email-with-additional-data.md)
+[此區段](../../automating/using/personalizing-email-with-additional-data.md)提供如何使用其他資料個人化電子郵件的使用案例。
 
 ### 新增簡單欄位 {#adding-a-simple-field}
 

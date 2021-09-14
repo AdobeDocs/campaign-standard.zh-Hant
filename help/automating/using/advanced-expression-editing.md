@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 進階運算式編輯
 description: 查詢版精靈可讓您定義進階運算式。
 audience: automating
@@ -10,14 +8,13 @@ context-tags: queryFilter,overview;audience,main
 feature: Workflows
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: f11754fb-188e-4cae-bd5b-0dfbf74befb3
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1096'
+source-wordcount: '1092'
 ht-degree: 98%
 
 ---
-
 
 # 進階運算式編輯{#advanced-expression-editing}
 
@@ -27,7 +24,7 @@ ht-degree: 98%
 
 此模式可讓您使用進階功能。這些函式可讓您控制用於執行特定查詢的值，例如控制日期、字串、數值欄位、排序等。
 
-編輯運算式時也可以使用工作流程的事件變數。 如需詳細資訊，請參閱[使用事件變數自訂活動](../../automating/using/customizing-workflow-external-parameters.md)區段。
+編輯運算式時，也可以使用工作流程的事件變數。 如需詳細資訊，請參閱[使用事件變數自訂活動](../../automating/using/customizing-workflow-external-parameters.md)區段。
 
 您可以編輯運算式，以：
 
@@ -213,4 +210,3 @@ context.profile.age > 21 && context.profile.firstName.length() > 0
   </tr> 
  </tbody> 
 </table>
-

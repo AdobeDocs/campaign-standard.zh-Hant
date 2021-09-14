@@ -1,34 +1,31 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 排序
-description: 進一步瞭解如何執行排序作業
+description: 進一步了解如何執行排序操作
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 7db25b8d-a6f1-4151-bf37-c47e9991ae48
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '89'
 ht-degree: 11%
 
 ---
 
-
 # 排序
 
-排序可依遞增或遞減順序進行。 若要這麼做，請在您的請求中使用&#x200B;**%20desc**&#x200B;或&#x200B;**%20asc**&#x200B;參數。
+排序可依遞增或遞減順序使用。 要執行此操作，請對您的請求使用&#x200B;**%20desc**&#x200B;或&#x200B;**%20asc**&#x200B;參數。
 
-要知道欄位是否可以排序，請將「可排序」參數檢入資源元資料中。 如需詳細資訊，請參閱[本章節](../../api/using/metadata-mechanism.md)。
+若要知道欄位是否可排序，請將「可排序」參數檢查至資源中繼資料。 如需詳細資訊，請參閱[本章節](../../api/using/metadata-mechanism.md)。
 
 <br/>
 
-***請求範例***
+***範例要求***
 
-* 以按字母順序在資料庫中檢索電子郵件的示例GET請求。
+* 以依字母順序擷取資料庫中電子郵件的範例GET請求。
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email/email?_order=email \
@@ -38,7 +35,7 @@ ht-degree: 11%
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-   回應請求。
+   要求的回應。
 
    ```
    {
@@ -53,7 +50,7 @@ ht-degree: 11%
    }
    ```
 
-* 以遞減字母順序在資料庫中擷取電子郵件的範例GET請求。
+* 以英數字元遞減順序擷取資料庫中電子郵件的範例GET請求。
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_order=email%20desc \
@@ -63,7 +60,7 @@ ht-degree: 11%
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-   回應請求。
+   要求的回應。
 
    ```
    {

@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 新增 Target 動態內容
 description: 了解如何在您的其中一項Adobe Campaign傳遞中新增Adobe Target動態內容。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
-feature: 觸發因子
+feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 7dfbd89f-877e-4598-bfe3-d743bb31ae9e
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '444'
 ht-degree: 4%
 
 ---

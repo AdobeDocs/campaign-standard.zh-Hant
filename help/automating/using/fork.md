@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 分支
 description: 「分支」活動可讓您建立出站轉變，以同時啟動多個活動。
 audience: automating
@@ -10,14 +8,13 @@ context-tags: fork,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 1a5e1ecd-b3f1-4dbe-a816-12d27a3bc0f7
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 98%
+source-wordcount: '210'
+ht-degree: 100%
 
 ---
-
 
 # 分支{#fork}
 
@@ -44,4 +41,3 @@ ht-degree: 98%
 下列範例顯示兩個查詢活動的交集，這些活動是以 Adobe Campaign 資料庫中的設定檔為目標，在此情況下，是指居住在巴黎的女性。因此，「分支」活動可讓您同時使用多個活動：一個可讓對象記住計算的母體數量，另一個可區隔母體，以傳送兩封不同的電子郵件，並針對每個區段設定目標內容。第一封電子郵件是傳送給年齡介於 18 至 40 歲的巴黎女性，另一封則傳送給 40 歲以上的巴黎女性。
 
 ![](assets/wkf_fork_example.png)
-

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 擴充
 description: 「擴充」活動是進階活動，可讓您定義要在工作流程中處理的其他資料。
 audience: automating
@@ -10,14 +8,13 @@ context-tags: enrichment,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: c8af67b0-6789-4b4e-9d01-e2dfa14f1e8f
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 95%
+source-wordcount: '541'
+ht-degree: 96%
 
 ---
-
 
 # 擴充{#enrichment}
 
@@ -37,8 +34,8 @@ ht-degree: 95%
 
 **相關主題**
 
-* [使用案例：使用檔案中包含的資料豐富描述檔資料](../../automating/using/enriching-profile-data-file.md)。
-* [使用案例：傳送包含豐富欄位的電子郵件](../../automating/using/sending-email-enriched-fields.md)
+* [使用案例：使用檔案](../../automating/using/enriching-profile-data-file.md)中包含的資料擴充設定檔資料。
+* [使用案例：傳送包含擴充欄位的電子郵件](../../automating/using/sending-email-enriched-fields.md)
 
 ## 設定 {#configuration}
 

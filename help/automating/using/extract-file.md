@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 擷取檔案
 description: 「擷取檔案」活動可讓您以外部檔案的形式從 Adobe Campaign 匯出資料。
 audience: automating
@@ -10,14 +8,13 @@ context-tags: fileExport,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ccf73563-f0f8-4397-ba96-7c5727562acd
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 89%
+source-wordcount: '402'
+ht-degree: 86%
 
 ---
-
 
 # 擷取檔案{#extract-file}
 
@@ -37,7 +34,7 @@ ht-degree: 89%
 
 **相關主題：**
 
-* [使用案例：在外部檔案中導出配置檔案](../../automating/using/exporting-profiles-in-file.md)
+* [使用案例：在外部檔案中匯出設定檔](../../automating/using/exporting-profiles-in-file.md)
 
 ## 設定 {#configuration}
 
@@ -46,7 +43,7 @@ ht-degree: 89%
    ![](assets/wkf_data_export1.png)
 
 1. 選取活動，然後使用所顯示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
-1. 輸入&#x200B;**輸出檔案**&#x200B;的標籤。將自動在檔案的標籤內填入建立的日期與時間，所以該標籤會是唯一的。例如：recipients_20150815_081532.txt，此檔案是於 2015 年 8 月 15 日 08:15:32 產生的。
+1. 輸入&#x200B;**輸出檔案**&#x200B;的標籤。將自動在檔案的標籤內填入建立的日期與時間，所以該標籤會是唯一的。例如：recipients_20150815_081532.txt，此檔案是於2015年8月15日08:15:32產生的。
 
    >[!NOTE]
    >
@@ -54,9 +51,9 @@ ht-degree: 89%
 
 1. 您也可以在 **[!UICONTROL Add a post-processing stage]** 欄位中選取 **[!UICONTROL Compression]** 以壓縮輸出檔案。輸出檔案將壓縮為 GZIP 檔案 (.gz)。
 
-   **[!UICONTROL Add a post-processing stage]**&#x200B;欄位還允許您在解壓檔案之前對其進行加密。 有關如何使用加密檔案的詳細資訊，請參閱[本節](../../automating/using/managing-encrypted-data.md)
+   **[!UICONTROL Add a post-processing stage]**&#x200B;欄位還允許您在解壓檔案之前對其進行加密。 有關如何處理加密檔案的詳細資訊，請參閱[此部分](../../automating/using/managing-encrypted-data.md)
 
-1. 按一下&#x200B;**[!UICONTROL Create element]**&#x200B;按鈕以添加輸出列。
+1. 按一下&#x200B;**[!UICONTROL Create element]**&#x200B;按鈕以新增輸出欄。
 
    ![](assets/wkf_data_export2.png)
 

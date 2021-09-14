@@ -1,8 +1,6 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 使用外部資料更新資料庫
-description: 此使用案例介紹如何使用從檔案中恢復的資料向Adobe Campaign資料庫添加或更新配置檔案。
+description: 此使用案例說明如何使用從檔案復原的資料，將設定檔新增或更新至Adobe Campaign資料庫。
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
@@ -10,20 +8,19 @@ context-tags: writer,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 2df7fbed-b979-4706-bd56-83f712cc3070
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 32%
+source-wordcount: '106'
+ht-degree: 33%
 
 ---
 
-
 # 使用外部資料更新資料庫 {#update-database-file}
 
-以下示例顯示&#x200B;**[!UICONTROL Load file]**&#x200B;活動後的&#x200B;**[!UICONTROL Update data]**&#x200B;活動的配置。 此工作流程的目的在於，使用從檔案復原的資料，將設定檔新增或更新至 Adobe Campaign 資料庫。
+下列範例顯示&#x200B;**[!UICONTROL Load file]**&#x200B;活動後的&#x200B;**[!UICONTROL Update data]**&#x200B;活動設定。 此工作流程的目的在於，使用從檔案復原的資料，將設定檔新增或更新至 Adobe Campaign 資料庫。
 
-在此示例中，使用的協調密鑰是&#x200B;**電子郵件地址**。 在[Load file](../../automating/using/load-file.md)活動中載入的檔案是包含以下示例資料的&#x200B;**.txt**&#x200B;格式檔案：
+在此範例中，使用的調解金鑰為&#x200B;**電子郵件地址**。 在[載入檔案](../../automating/using/load-file.md)活動中載入的檔案是&#x200B;**.txt**&#x200B;格式檔案，包含下列範例資料：
 
 ```
 lastname;firstname;email;birthdate
@@ -38,7 +35,7 @@ grimes;daryl;daryl_890@testmail.com;12/06/1979
 tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
 ```
 
-[Update data](../../automating/using/update-data.md)活動的配置如下：
+[更新資料](../../automating/using/update-data.md)活動的配置如下：
 
 ![](assets/deduplication_example2_writer1.png)
 

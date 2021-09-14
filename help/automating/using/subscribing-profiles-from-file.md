@@ -1,8 +1,6 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 從檔案訂閱設定檔至特定服務
-description: 此使用案例說明如何匯入包含描述檔的檔案，並將其訂閱至現有服務。
+description: 此使用案例顯示如何匯入包含設定檔的檔案，並將其訂閱至現有服務。
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
@@ -10,16 +8,15 @@ context-tags: setOfService,workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 06ae4a5c-f112-4aac-b776-437ac35a8f02
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 52%
+source-wordcount: '238'
+ht-degree: 53%
 
 ---
 
-
-# 在導入檔案{#subscribing-profiles-to-a-specific-service-after-importing-a-file}後將配置檔案預訂到特定服務
+# 匯入檔案後將設定檔訂閱至特定服務 {#subscribing-profiles-to-a-specific-service-after-importing-a-file}
 
 此範例說明如何匯入包含設定檔的檔案並將其訂閱至現有服務中。匯入檔案後，必須進行調解，以便將匯入的資料識別為設定檔。為確保檔案不包含任何重複項目，將對資料執行重複資料刪除活動。
 
@@ -27,7 +24,7 @@ ht-degree: 52%
 
 ![](assets/subscription_activity_example1.png)
 
-* [載入檔案](../../automating/using/load-file.md)活動會載入描述檔，並定義匯入欄的結構。
+* [載入檔案](../../automating/using/load-file.md)活動載入設定檔檔案並定義匯入欄的結構。
 
    在此範例中，載入檔案為 .csv 格式，並包含以下資料：
 
@@ -46,14 +43,14 @@ ht-degree: 52%
 
    ![](assets/subscription_activity_example2.png)
 
-* [協調](../../automating/using/reconciliation.md)活動將檔案中的資料標識為屬於Adobe Campaign資料庫的配置檔案維。 僅設定 **[!UICONTROL Identification]** 索引標籤。它會根據描述檔的電子郵件地址識別檔案資料。
+* [調解](../../automating/using/reconciliation.md)活動會將檔案中的資料識別為屬於Adobe Campaign資料庫的設定檔維度。 僅設定 **[!UICONTROL Identification]** 索引標籤。它會根據描述檔的電子郵件地址識別檔案資料。
 
    ![](assets/subscription_activity_example3.png)
 
-* 基於臨時資源（由協調產生）的&#x200B;**email**&#x200B;欄位的[重複資料消除](../../automating/using/deduplication.md)標識任何重複項。 如果從檔案匯入的資料包含任何重複項目，所有資料服務的訂閱將會失敗。
+* 根據臨時資源的&#x200B;**email**&#x200B;欄位（調解後產生）的[重複資料刪除](../../automating/using/deduplication.md)識別任何重複項目。 如果從檔案匯入的資料包含任何重複項目，所有資料服務的訂閱將會失敗。
 
    ![](assets/subscription_activity_example5.png)
 
-* [訂閱服務](../../automating/using/subscription-services.md)活動可讓您選擇必須訂閱描述檔的服務、與訂閱日期對應的欄位，以及訂閱的來源。
+* [訂閱服務](../../automating/using/subscription-services.md)活動可讓您選取必須訂閱設定檔的服務、與訂閱日期相對應的欄位，以及訂閱的來源。
 
    ![](assets/subscription_activity_example4.png)

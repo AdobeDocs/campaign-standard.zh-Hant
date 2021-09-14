@@ -1,8 +1,6 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 依網域劃分
-description: 透過「依網域劃分現成可用報表」，瞭解依客戶網域而定的傳送效能資料。
+description: 透過「依網域劃分」現成可用的報表，了解您所傳送的效能資料（視每個客戶的網域而定）。
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -10,35 +8,33 @@ context-tags: deliveryDomainBreakdownReport,main;campaignDomainBreakdownReport,m
 feature: Reporting
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 513d74ae-10c0-4d41-a7d1-8ed655e1a2d1
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '235'
 ht-degree: 3%
 
 ---
 
-
 # 依網域劃分{#breakdown-by-domains}
 
-此報表包含電子郵件傳送對象中每個網域的效能資料。 如果是促銷活動或方案報表，績效資料可供多個對象使用。 此資料可讓您分析每個網域對特定事件的反應行為。 例如，連結顯示、登入清單上的URL等。
+此報表包含電子郵件傳送對象中所呈現之每個網域的效能資料。 如果是行銷活動或方案報表，則效能資料可供多個對象使用。 此資料可讓您分析每個網域的行為以回應特定事件。 例如連結顯示、封鎖清單上的URL等。
 
 ![](assets/delivery_reports_6.png)
 
-表&#x200B;**廣播統計**&#x200B;包含每個域可能遇到的錯誤的可用資料，例如：
+表&#x200B;**廣播統計資料**&#x200B;包含每個域可能遇到的錯誤的可用資料，例如：
 
-* **已處理／已傳送**:傳送的電子郵件數。
-* **交付**:傳送的電子郵件數。
-* **彈回數+錯誤**:無法傳送的訊息數。
-* **硬跳**:永久錯誤的總數，例如錯誤的電子郵件地址。
-* **軟彈跳**:臨時錯誤（如完整收件箱）的總數。
+* **已處理/已傳送**:已傳送的電子郵件數。
+* **傳遞**:已傳送的電子郵件數。
+* **跳出數+錯誤**:無法傳遞的郵件數。
+* **硬跳出**:永久錯誤的總數，例如錯誤的電子郵件地址。
+* **軟跳出**:臨時錯誤（如完整收件箱）的總數。
 
-第二表&#x200B;**追蹤統計資料**&#x200B;包含接收者對交付反應的可用資料，例如：
+第二個表&#x200B;**追蹤統計資料**&#x200B;包含接收者再次傳遞的可用資料，例如：
 
-* **交付**:傳送的電子郵件數
-* **開啟**:傳送中訊息開啟的次數。
-* **按一下**:內容在傳送中被點按的次數。
+* **傳遞**:已傳送的電子郵件數
+* **開啟**:傳遞中開啟訊息的次數。
+* **按一下**:傳送中內容的點按次數。
 * **取消訂閱**:訂閱連結的點按次數。
-* **鏡像頁**:鏡像頁連結上的點擊次數。
-* **On denylist**:宣告電子郵件為垃圾訊息或垃圾訊息的收件者人數。[進一步了解](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
-
+* **鏡像頁**:鏡像頁面連結上的點按次數。
+* **封鎖清單上**:宣告電子郵件為垃圾郵件或垃圾郵件的收件人數。[瞭解更多](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)

@@ -1,8 +1,6 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: 傳送摘要
-description: 透過「傳送摘要現成可用」報表，瞭解您的傳送統計資料，例如傳送數、彈回數和開啟數。
+title: 傳遞摘要
+description: 透過「傳送摘要」現成可用的報表，了解您的傳送統計資料，例如傳送數、退信和開啟數。
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -10,34 +8,33 @@ context-tags: deliveryCirculationReport,main;campaignCirculationReport,main;prog
 feature: Reporting
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: d6ddc022-16ad-438b-8c6e-fc6abc704f09
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 2%
+source-wordcount: '218'
+ht-degree: 1%
 
 ---
 
+# 傳遞摘要{#delivery-summary}
 
-# 傳送摘要{#delivery-summary}
-
-**[!UICONTROL Delivery summary]**&#x200B;報表會詳細列出與電子郵件或數封電子郵件相關的主要資訊。
+**[!UICONTROL Delivery summary]**&#x200B;報表詳細說明與電子郵件或數封電子郵件相關的主要資訊。
 
 ![](assets/campaign_reports_1.png)
 
-每個表都由摘要數字和圖表表示。 您可以變更詳細資訊在其各自視覺化設定中的顯示方式。
+每個表由摘要數字和圖表表示。 您可以變更詳細資料在其個別視覺效果設定中的顯示方式。
 
-**傳送統計資料**&#x200B;表格包含可用於傳送電子郵件的資料，例如：
+**傳送統計資料**&#x200B;表包含可用於傳送電子郵件的資料，例如：
 
 * **[!UICONTROL Processed/sent]**:傳送的傳送總數。
-* **[!UICONTROL Delivered]**:成功發送的消息數，與已發送消息總數相關。已引發的錯誤（彈回數）會納入考量。 但是，投訴（垃圾郵件聲明）和離開郵件（如「不在辦公室」）並未考慮在內。
-* **[!UICONTROL Bounces + Errors]**:傳送和自動傳回處理期間累積的錯誤總數與傳送訊息總數相關。
+* **[!UICONTROL Delivered]**:已成功傳送的訊息數，與已傳送的訊息總數相關。引發的錯誤（退信）會納入考量。 但是，投訴（垃圾郵件宣告）和離開郵件（例如「外出」）並未被考慮在內。
+* **[!UICONTROL Bounces + Errors]**:傳送和自動回傳處理期間累積的錯誤總數，與已傳送訊息的總數相關。
 
-**開啟並點按**&#x200B;表格包含每個傳送之收件者活動的可用資料，例如：
+**開啟並點按**&#x200B;表格包含每個傳送的收件者活動可用資料，例如：
 
-* **按一下**:內容在傳送中被點按的次數。
-* **開啟**:傳送中訊息開啟的次數。
-* **唯一開啟次數**:開啟傳送的收件者數。
-* **獨特點按**:點選傳送中內容的收件者數。
+* **按一下**:內容在傳送中的點按次數。
+* **開啟**:傳遞中開啟訊息的次數。
+* **不重複開啟次數**:開啟傳遞的收件者人數。
+* **不重複點按**:在傳遞中按一下內容的收件者人數。
 
-**Domain repartition**&#x200B;表格會根據收件者的網域顯示傳送狀態。
+**網域重新分區**&#x200B;表格會根據收件者的網域顯示傳送狀態。

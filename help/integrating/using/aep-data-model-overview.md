@@ -1,23 +1,21 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 體驗資料模型概觀
 description: Experience Data Model(XDM)是一組標準資料結構，可將資料擷取至其中，以便與Adobe Experience Platform解決方案和產品搭配使用。
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Microsoft CRM整合
+feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: cc1aa669-30cd-4ea4-9fab-4d1b6c373744
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
 
-# 體驗資料模型概述{#experience-data-model-overview}
+# 體驗資料模型概觀 {#experience-data-model-overview}
 
 >[!IMPORTANT]
 >
@@ -27,7 +25,7 @@ Experience Data Model(XDM)是一組標準資料結構，可將資料擷取至其
 
 您可透過專用的API或XDM使用者介面，建立及管理XDM結構描述。
 
-## XDM工作區{#xdm-workspace}
+## XDM工作區 {#xdm-workspace}
 
 XDM工作區可讓您檢視、建立和擴充資料結構。
 

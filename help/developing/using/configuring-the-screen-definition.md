@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 設定螢幕定義
 description: 瞭解如何根據資源資料結構定義新的 Adobe Campaign 畫面。
 audience: developing
@@ -10,16 +8,15 @@ context-tags: cusResource,main
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: dc45f487-7502-478d-a2b3-51669cc6b225
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 99%
+source-wordcount: '614'
+ht-degree: 100%
 
 ---
 
-
-# 設定螢幕定義{#configuring-the-screen-definition}
+# 設定畫面定義{#configuring-the-screen-definition}
 
 在建立資源或向現有資源新增欄位時，可以定義希望這些欄位在介面中的顯示方式。
 

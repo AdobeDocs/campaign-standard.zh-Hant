@@ -1,32 +1,28 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: SMS 報告
-description: '透過SMS現成可用的報表，瞭解您的SMS傳送成功。 '
+title: 簡訊報告
+description: '透過SMS現成報表，了解您的SMS傳送是否成功。 '
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 feature: Reporting
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 1d04bcd0-77f7-4bf0-a322-ec5cb5c1ce14
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 6%
+source-wordcount: '73'
+ht-degree: 5%
 
 ---
 
+# 簡訊報告{#sms-report}
 
-# SMS 報告{#sms-report}
-
-**SMS**&#x200B;報表提供有關SMS傳送的詳細資訊，例如傳送率和反彈率。
+**SMS**&#x200B;報表提供SMS傳送的詳細資訊，例如傳送和反彈率。
 
 ![](assets/dynamic_report_sms.png)
 
-**SMS摘要**&#x200B;表格、圖形和摘要編號包含已發送的SMS傳送的可用資料。
+**SMS摘要**&#x200B;表格、圖表和摘要編號包含已傳送之SMS傳送的可用資料。
 
-* **已處理／已傳送**:傳送的簡訊數。
-* **交付**:傳送的簡訊數。
-* **彈回數+錯誤**:無法傳送的訊息數。
-
+* **已處理/已傳送**:已傳送的簡訊數。
+* **傳遞**:傳送的簡訊數量。
+* **跳出數+錯誤**:無法傳遞的郵件數。

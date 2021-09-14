@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 關於排程訊息
 description: 瞭解如何排程訊息。
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
-feature: 傳送時間最佳化
+feature: Send Time Optimization
 role: User
 exl-id: 6b26615b-4aa6-401d-a12d-25cef4cd0524
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 98%
+source-wordcount: '268'
+ht-degree: 100%
 
 ---
 

@@ -1,8 +1,6 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: 外部信號和資料導入
-description: 以下示例說明與資料導入一起使用的外部信號活動。
+title: 外部訊號和資料匯入
+description: 下列範例說明與資料匯入搭配使用的外部訊號活動。
 audience: automating
 content-type: reference
 topic-tags: execution-activities
@@ -10,16 +8,15 @@ context-tags: signal,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: e2997cf5-861b-4202-aeb7-3a47c4d55bef
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 78%
+source-wordcount: '229'
+ht-degree: 79%
 
 ---
 
-
-# 外部信號和資料導入{#external-signal-data-import}
+# 外部訊號和資料匯入 {#external-signal-data-import}
 
 以下範例說明典型使用案例中的 **[!UICONTROL External signal]** 活動。在來源工作流程中執行資料匯入。完成匯入並更新資料庫後，就會觸發第二個工作流程。此第二個工作流程用於更新匯入資料的彙總。
 
@@ -41,7 +38,7 @@ ht-degree: 78%
 
 * [調解](../../automating/using/reconciliation.md)活動會建立匯入資料和資料庫之間的連結，以便交易資料正確連接到設定檔和產品。
 * [更新資料](../../automating/using/update-data.md)活動將插入並更新帶有傳入資料的資料庫的「交易」資源。
-* [End](../../automating/using/start-and-end.md)活動會觸發目標工作流，用於更新聚合。
+* [End](../../automating/using/start-and-end.md)活動會觸發目標工作流程，用於更新匯總。
 
 ![](assets/signal_example_source1.png)
 

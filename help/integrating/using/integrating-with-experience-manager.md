@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 關於 Campaign-Experience Manager 整合
 description: 透過Adobe Experience Manager整合，您可以直接在AEM中建立內容，並稍後在Adobe Campaign中使用。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
-feature: 觸發因子
+feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: ff94f69b-3036-4103-a841-6b85feb0eb7e
-source-git-commit: f6e94cf98662e708730be672149d836ef0e56522
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '631'
 ht-degree: 1%
 
 ---
@@ -29,7 +27,7 @@ Adobe Campaign Standard與Adobe Experience Manager 6.1、6.2、6.3、6.4和6.5�
 >
 > Adobe Experience Manager 6.5不再提供Adobe Campaign Standard範本。
 
-## 如何使用Campaign-Experience Manager整合的提示{#tips-aem}
+## 如何使用Campaign-Experience Manager整合的秘訣 {#tips-aem}
 
 * **了解要與整合搭配使用的範本**
 

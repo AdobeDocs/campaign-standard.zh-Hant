@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 開始使用電子郵件設計工具
 description: 開始使用電子郵件設計工具建立電子郵件內容。
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: 電子郵件設計
+feature: Email Design
 role: User
 level: Beginner
 exl-id: 47f53290-2190-4181-bcd5-e60287189c41
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '924'
 ht-degree: 5%
 
 ---
@@ -25,12 +23,12 @@ ht-degree: 5%
 
 1. 您可以透過輕鬆新增結構和內容元件，並個人化其內容以快速傳送，從空白畫布&#x200B;**建立電子郵件。**&#x200B;您也可以完全管理樣式元素。 如需詳細資訊，請快速入門[或參閱[完整檔案](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)。](#from-scratch-email)
 
-1. 您可以從現成範本&#x200B;**中選取範本，然後從這裡建立新電子郵件內容，以**&#x200B;建立電子郵件。 [深入瞭解](#building-content-from-an-out-of-the-box-template)
+1. 您可以從現成範本&#x200B;**中選取範本，然後從這裡建立新電子郵件內容，以**&#x200B;建立電子郵件。 [瞭解更多](#building-content-from-an-out-of-the-box-template)
 
 您也可以使用現有內容](#with-existing-content)建立電子郵件[:
 
-1. 您可以&#x200B;**轉換現有的HTML內容**（在外部或舊版編輯器中建立）。 [深入瞭解](#converting-an-html-content)
-1. 您可以在相容模式中直接匯入現有的HTML內容&#x200B;**。**[深入瞭解](#compatibility-mode)
+1. 您可以&#x200B;**轉換現有的HTML內容**（在外部或舊版編輯器中建立）。 [瞭解更多](#converting-an-html-content)
+1. 您可以在相容模式中直接匯入現有的HTML內容&#x200B;**。**[瞭解更多](#compatibility-mode)
 
 | 無內容 | 包含內容 |
 |---|---|

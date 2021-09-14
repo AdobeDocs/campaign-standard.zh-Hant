@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 聯集
 description: 「聯集」活動可讓您將多個活動的結果重新分組到單一目標中。
 audience: automating
@@ -10,16 +8,15 @@ context-tags: union,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 3189745c-dcc9-4719-b080-85ffa3bb66be
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 97%
+source-wordcount: '377'
+ht-degree: 98%
 
 ---
 
-
-# 聯集{#union}
+# 聯合{#union}
 
 ## 說明 {#description}
 
@@ -37,7 +34,7 @@ ht-degree: 97%
 
 **相關主題：**
 
-* [使用案例：結合兩個精美受眾](../../automating/using/union-on-two-refined-audiences.md)
+* [使用案例：聯合兩個完善的對象](../../automating/using/union-on-two-refined-audiences.md)
 
 ## 設定 {#configuration}
 

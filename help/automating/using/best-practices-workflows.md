@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 工作流程最佳實務
 description: 瞭解如何將最佳實務套用至您的工作流程。
 audience: automating
@@ -10,14 +8,13 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Beginner
-translation-type: tm+mt
-source-git-commit: b82335a0c0bf1abc7b9645beee83ac659c4d6b83
+exl-id: 9f5ec2dc-7881-4c68-a5bb-403b01b8b7f8
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1179'
 ht-degree: 84%
 
 ---
-
 
 # 工作流程最佳實務{#workflow-best-practices}
 
@@ -50,12 +47,12 @@ ht-degree: 84%
 
 ### 工作流程數量
 
-依預設，我們建議不要同時執行超過 20 個作用中的工作流程。達到此限制之後，會將工作流程排入佇列，以免影響效能。同樣地，Adobe建議您將工作流程執行分散到一段時間。
+依預設，我們建議不要同時執行超過 20 個作用中的工作流程。達到此限制之後，會將工作流程排入佇列，以免影響效能。同樣地，Adobe建議您將工作流程執行分散到不同的時間。
 在特定情況下，您可能需要執行超過 20 個工作流程。不適用於等待排程執行的工作流程。若是如此，您需要向 Campaign 專家檢查使用案例，並聯絡 Adobe 客戶服務以提高限制。
 
 >[!NOTE]
 >
->在啟動工作流之前，[!DNL Campaign Standard]將檢查是否有足夠的系統物理記憶體來運行工作流。 如果沒有足夠的可用記憶體，則會收到一條消息，通知您工作流執行將被延遲，直到伺服器上的負載下降並系統記憶體增加為止。
+>在啟動工作流之前， [!DNL Campaign Standard]將檢查是否有足夠的系統物理記憶體來運行工作流。 如果可用記憶體不足，則會發出一條消息，通知您工作流執行將被延遲，直到伺服器上的負載下降，系統記憶體增加為止。
 
 ### 頻率
 
@@ -78,13 +75,13 @@ ht-degree: 84%
 
 ## 活動{#activity}
 
-### 每個工作流的活動數{#number-activities}
+### 每個工作流的活動數 {#number-activities}
 
-我們建議在單一工作流程中使用最多100個活動。 超過100種活動，在設計和設定工作流程時可能會遇到一些效能問題。
+建議在單一工作流程中使用最多100個活動。 超過100個活動，在設計和設定工作流程時可能會遇到一些效能問題。
 
 ### 工作流程設計
 
-為確保工作流正常結束，請避免使用&#x200B;**[!UICONTROL End activity]**，讓工作流程的最後一次轉場完全自行進行。
+為確保工作流程正常結束，請避免使用&#x200B;**[!UICONTROL End activity]**，讓工作流程的最後一個轉變單獨進行。
 
 若要存取轉變的詳細檢視，請核取工作流程屬性的「執行」區段中的 **[!UICONTROL Keep interim results]** 選項。
 
@@ -113,11 +110,11 @@ ht-degree: 84%
 
 如需詳細資訊，請參閱[排程器活動](../../automating/using/scheduler.md)。
 
-在設計包含多個活動的計畫工作流時，您需要確保在工作流完成之前不會重新計畫該工作流。 若要這麼做，您必須設定您的工作流程，以便在先前執行的一或多個工作仍待定時，防止其執行。 有關詳細資訊，請參見[此頁面](../../automating/using/scheduled-workflows-execution.md)。
+在設計包括多個活動的排程工作流程時，您必須確定在工作流程完成之前不會重新排程。 若要這麼做，您必須設定工作流程，以在先前執行的一或多個任務仍擱置時防止其執行。 如需詳細資訊，請參閱[此頁面](../../automating/using/scheduled-workflows-execution.md)。
 
 ## 使用參數呼叫工作流程{#workflow-with-parameters}
 
-請確定參數的名稱和數目與呼叫工作流時定義的相同（請參閱[本頁](../../automating/using/defining-parameters-calling-workflow.md)）。 參數的類型也必須與預期值一致。
+請確定參數的名稱和數目與呼叫工作流程時所定義的相同（請參閱[此頁面](../../automating/using/defining-parameters-calling-workflow.md)）。 參數的類型也必須與預期值一致。
 
 請確定所有參數都已在　**[!UICONTROL External signal activity]**　中宣告。否則，執行活動時將發生錯誤。
 

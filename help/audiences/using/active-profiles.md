@@ -1,15 +1,13 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 促銷活動作用中設定檔
 description: 了解如何存取客戶量度和作用中設定檔
-feature: 設定檔
+feature: Profiles
 role: User
 level: Intermediate
 exl-id: 22516348-7695-4579-99eb-480e5b723ccc
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '227'
 ht-degree: 7%
 
 ---
@@ -43,4 +41,3 @@ Campaign功能管理員可從&#x200B;**[!UICONTROL Administration > Customer met
 >[!NOTE]
 >
 >身為管理員使用者，您也可以直接從「控制面板」監控執行個體上使用的作用中設定檔數目。 有關詳細資訊，請參閱[控制面板檔案](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html)。
-

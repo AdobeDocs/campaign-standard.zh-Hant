@@ -1,20 +1,18 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 行銷活動傳遞最佳實務
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: 了解與傳送內容設計和使用Adobe Campaign傳送相關的最佳實務。
-feature: 達成能力
+feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ba080b64-9106-4d5b-958b-3c5e738cb42a
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 8%
+source-wordcount: '95'
+ht-degree: 7%
 
 ---
 

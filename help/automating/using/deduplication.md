@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 重複資料刪除
 description: 重複資料刪除活動可讓您刪除入站活動結果中的重複項目。
 audience: automating
@@ -10,16 +8,15 @@ context-tags: dedup,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 57c56e4a-892c-46d6-9bb4-6a345a8d9f5b
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 96%
+source-wordcount: '567'
+ht-degree: 97%
 
 ---
 
-
-# 重複資料刪除{#deduplication}
+# 去重複化{#deduplication}
 
 ## 說明 {#description}
 
@@ -40,7 +37,7 @@ ht-degree: 96%
 **相關主題**
 
 * [使用案例：在傳送前識別重複項目](../../automating/using/identifying-duplicated-before-delivery.md)
-* [使用案例：從導入的檔案中消除重複資料](../../automating/using/deduplicating-data-imported-file.md)
+* [使用案例：從匯入的檔案中重複刪除資料](../../automating/using/deduplicating-data-imported-file.md)
 
 ## 設定 {#configuration}
 

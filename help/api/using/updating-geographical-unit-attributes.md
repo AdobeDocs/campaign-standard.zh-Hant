@@ -1,31 +1,28 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 更新地理單位屬性
-description: 瞭解如何使用API更新地理單位屬性
+description: 了解如何使用API更新地理單位屬性
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 86810821-6f62-46ab-ba0b-2175797fe9dd
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 12%
+source-wordcount: '86'
+ht-degree: 11%
 
 ---
 
-
 # 更新地理單位屬性 {#managing-geographical-units}
 
-1. 對&#x200B;**geoUnitBase**&#x200B;資源執行GET請求以檢索地理單元PKey。
-1. 對地理單位執行PATCH請求，並在裝載中更新屬性。
+1. 在&#x200B;**geoUnitBase**&#x200B;資源上執行GET請求以檢索地理單位PKey。
+1. 在地理單位上執行PATCH要求，並在裝載中更新屬性。
 
 <br/>
 
-***請求範例***
+***範例要求***
 
 檢索地理單位清單。
 
@@ -37,7 +34,7 @@ ht-degree: 12%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它返回所有地理單位。 檢索所需單元的PKey。
+它會傳回所有地理單位。 檢索所需單元的PKey。
 
 ```
 {
@@ -53,7 +50,7 @@ ht-degree: 12%
 },
 ```
 
-對地理單位執行PATCH請求，並在裝載中更新屬性。
+在地理單位上執行PATCH要求，並在裝載中更新屬性。
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/<PKEY> \

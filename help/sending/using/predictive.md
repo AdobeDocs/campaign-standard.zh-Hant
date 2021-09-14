@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 預測性使用者參與能力
 description: 瞭解如何使用預測性傳送時間和參與度評分。
 audience: sending
 content-type: reference
 topic-tags: ai-powered-emails
-feature: 傳送時間最佳化
+feature: Send Time Optimization
 role: User
 level: Intermediate
 exl-id: e1cb04e6-eb38-4bcc-b071-321cc11ccc7e
-source-git-commit: 356bac989a6bd4c9039910e2d9c59f33ce1153f8
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 99%
+source-wordcount: '1045'
+ht-degree: 100%
 
 ---
 
@@ -33,7 +31,6 @@ Adobe Campaign Standard 提供兩種新的機器學習模型： **預測性傳�
 
 >[!IMPORTANT]
 >這項功能無法立即在產品中使用。此實作需要 Adobe Consulting 參與。請洽詢您的 Adobe 代表以瞭解更多資訊。
-
 
 ## 預測性傳送時間最佳化{#predictive-send-time}
 
@@ -107,7 +104,6 @@ AddHours([currentDelivery/scheduling/@contactDate],
 >[!NOTE]
 >
 >資料模型可能會因您的實作而異。
-
 
 
 ## 預測性參與度評分 {#predictive-scoring}

@@ -1,8 +1,6 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 從檔案更新多個訂閱狀態
-description: 此使用案例說明如何匯入包含描述檔的檔案，並將其訂閱更新為檔案中指定的數項服務。
+description: 此使用案例顯示如何匯入包含設定檔的檔案，以及如何更新其對檔案中指定之數個服務的訂閱。
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
@@ -10,14 +8,13 @@ context-tags: setOfService,workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 2e98561a-97fd-483a-a547-c4e6d33993dc
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '417'
 ht-degree: 76%
 
 ---
-
 
 # 從檔案更新多個訂閱狀態 {#updating-multiple-subscription-statuses-from-a-file}
 
@@ -27,7 +24,7 @@ ht-degree: 76%
 
 ![](assets/subscription_activity_example1.png)
 
-* [載入檔案](../../automating/using/load-file.md)活動會載入描述檔，並定義匯入欄的結構。
+* [載入檔案](../../automating/using/load-file.md)活動載入設定檔檔案並定義匯入欄的結構。
 
    在此範例中，載入檔案為 .csv 格式，並包含以下資料：
 
@@ -52,7 +49,7 @@ ht-degree: 76%
 
    如果您的檔案已使用 &quot;0&quot; 及 &quot;1&quot; 來識別此操作，則不需要重新映射這些值。僅確定在 **[!UICONTROL Column definition]** 索引標籤中將此欄處理為 **Boolean** 或 **Integer**。
 
-* [協調](../../automating/using/reconciliation.md)活動將檔案中的資料標識為屬於Adobe Campaign資料庫的配置檔案維。 透過 **[!UICONTROL Identification]** 索引標籤，檔案的 **email** 欄位與設定檔資源的 **email** 欄位相符。
+* [調解](../../automating/using/reconciliation.md)活動會將檔案中的資料識別為屬於Adobe Campaign資料庫的設定檔維度。 透過 **[!UICONTROL Identification]** 索引標籤，檔案的 **email** 欄位與設定檔資源的 **email** 欄位相符。
 
    ![](assets/subscription_activity_example3.png)
 
@@ -60,11 +57,11 @@ ht-degree: 76%
 
    ![](assets/subscription_example_service_relation.png)
 
-* 基於臨時資源（由協調產生）的&#x200B;**email**&#x200B;欄位的[重複資料消除](../../automating/using/deduplication.md)標識重複資料。 消除重複項目非常重要，因為所有資料的服務訂閱將會在出現重複項目時失敗。
+* 根據臨時資源的&#x200B;**email**&#x200B;欄位（調解後產生）的[重複資料刪除](../../automating/using/deduplication.md)識別重複項目。 消除重複項目非常重要，因為所有資料的服務訂閱將會在出現重複項目時失敗。
 
    ![](assets/subscription_activity_example5.png)
 
-* [訂閱服務](../../automating/using/subscription-services.md)活動通過&#x200B;**[!UICONTROL Reconciliation]**&#x200B;活動中建立的連結，將要更新的服務標識為來自轉移。
+* [訂閱服務](../../automating/using/subscription-services.md)活動識別要更新的服務是來自轉變，通過&#x200B;**[!UICONTROL Reconciliation]**&#x200B;活動中建立的連結。
 
    將 **[!UICONTROL Operation type]** 識別為來自檔案的 **operation** 欄位。此處只能選取 Boolean 或 Integer 欄位。如果檔案中包含要執行的操作欄未出現在清單中，請確保您已正確設定 **[!UICONTROL Load file]** 活動中的欄格式，如本範例前面所述 。
 

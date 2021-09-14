@@ -1,21 +1,18 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: DataModel
-description: 瞭解資料模型
+description: 了解資料模型
 audience: developing
 content-type: reference
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: b05dc67a-6447-4d22-99f2-8a14a0ee46d2
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '222'
 ht-degree: 7%
 
 ---
-
 
 # 程式(nms:program)
 
@@ -37,7 +34,7 @@ ht-degree: 7%
                <tr>
                   <td>活動</td>
                   <td>活動</td>
-                  <td>系列 </td>
+                  <td>集合 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -55,7 +52,7 @@ ht-degree: 7%
                <tr>
                   <td>createdBy(userBase)</td>
                   <td>建立者</td>
-                  <td>link </td>
+                  <td>連結 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -65,7 +62,7 @@ ht-degree: 7%
                   <td> </td>
                </tr>
                <tr>
-                  <td>end</td>
+                  <td>結束</td>
                   <td>結束日期</td>
                   <td>日期 </td>
                   <td> </td>
@@ -73,7 +70,7 @@ ht-degree: 7%
                <tr>
                   <td>geoUnit(geoUnitBase)</td>
                   <td>地理單位</td>
-                  <td>link </td>
+                  <td>連結 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -89,14 +86,14 @@ ht-degree: 7%
                   <td> </td>
                </tr>
                <tr>
-                  <td>標籤</td>
+                  <td>label</td>
                   <td>標籤</td>
                   <td>字串(128)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>lastModified</td>
-                  <td>上次修改日期</td>
+                  <td>上次修改時間</td>
                   <td>日期 </td>
                   <td> </td>
                </tr>
@@ -106,19 +103,19 @@ ht-degree: 7%
                   <td>枚舉（字串）(255)</td>
                   <td>
                      <ul>
-                        <li>進行中——已啟動——已啟動</li>
-                        <li>編輯——版本——版本</li>
-                        <li>完成——完成——完成</li>
-                        <li>警告——警告——警告</li>
-                        <li>錯誤——錯誤——錯誤</li>
-                        <li>無效值- __Invalid_value__ - __Invalid_value__</li>
+                        <li>進行中 — 已啟動 — 已啟動</li>
+                        <li>編輯 — 版本 — 版本</li>
+                        <li>已完成 — 已完成 — 已完成</li>
+                        <li>警告 — 警告 — 警告</li>
+                        <li>錯誤 — 錯誤 — 錯誤</li>
+                        <li>無效值 — __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
                <tr>
                   <td>modifiedBy(userBase)</td>
                   <td>修改者</td>
-                  <td>link </td>
+                  <td>連結 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -130,23 +127,23 @@ ht-degree: 7%
                <tr>
                   <td>orgUnit(orgUnitBase)</td>
                   <td>組織單位</td>
-                  <td>link </td>
+                  <td>連結 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>父(programBase)</td>
+                  <td>parent(programBase)</td>
                   <td>父程式</td>
-                  <td>link </td>
+                  <td>連結 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>realtimeReport</td>
-                  <td>即時報告</td>
+                  <td>即時報表</td>
                   <td>項目 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>start</td>
+                  <td>開始</td>
                   <td>開始日期</td>
                   <td>日期 </td>
                   <td> </td>
@@ -157,17 +154,17 @@ ht-degree: 7%
                   <td>枚舉（位元組） </td>
                   <td>
                      <ul>
-                        <li>開始——開始- 1</li>
-                        <li>編輯——版本- 0</li>
-                        <li>完成——完成- 2</li>
-                        <li>無效值- __Invalid_value__ - __Invalid_value__</li>
+                        <li>已開始 — 已開始 — 1</li>
+                        <li>編輯 — 版本 — 0</li>
+                        <li>已完成 — 已完成 — 2</li>
+                        <li>無效值 — __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
                <tr>
-                  <td>範本（方案）</td>
-                  <td>方案範本</td>
-                  <td>link </td>
+                  <td>模板（程式）</td>
+                  <td>方案模板</td>
+                  <td>連結 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -184,7 +181,7 @@ ht-degree: 7%
                </tr>
             </table>
 
-## 濾鏡
+## 篩選器
 
 按邏輯狀態（按邏輯狀態）
 
@@ -195,11 +192,11 @@ ht-degree: 7%
     </tr>
     <tr>
     <td>state</td>
-    <td>枚舉</td>
+    <td>分項清單</td>
     </tr>
 </table>
 
-依名稱或標籤（依Text）
+按名稱或標籤(byText)
 
 <table>
     <tr>
@@ -229,7 +226,7 @@ ht-degree: 7%
     </tr>
 </table>
 
-從異構清單包括連續傳送（具有Continuous）
+包括從異構清單（具有Continuous）進行連續傳遞
 
 <table>
     <tr>
@@ -242,7 +239,7 @@ ht-degree: 7%
     </tr>
 </table>
 
-包括子程式(withParent)
+包括子程式（與父項）
 
 <table>
         <tr>
@@ -255,7 +252,7 @@ ht-degree: 7%
         </tr>
     </table>
 
-僅限合格的父代（合格父代）
+僅限合格父母（合格父母）
 
 <table>
     <tr>
@@ -264,11 +261,11 @@ ht-degree: 7%
     </tr>
     <tr>
     <td>方案</td>
-    <td>link</td>
+    <td>連結</td>
     </tr>
 </table>
 
-為指定期間計畫（按計畫）
+指定期間的計畫（按計畫）
 
 <table>
     <tr>
@@ -285,7 +282,7 @@ ht-degree: 7%
     </tr>
 </table>
 
-在指定期間內（依日曆）
+在指定期間存在（按日曆）
 
 <table>
     <tr>

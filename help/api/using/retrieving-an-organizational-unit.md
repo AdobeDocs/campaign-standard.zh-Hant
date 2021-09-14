@@ -1,33 +1,30 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 擷取設定檔的組織單位
-description: 瞭解如何使用API來瞭解個人檔案的組織單位。
+description: 了解如何使用API匯入設定檔的組織單位。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 37048884-bd03-46ea-8e2e-a73ad568153b
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 13%
+source-wordcount: '79'
+ht-degree: 12%
 
 ---
-
 
 # 擷取設定檔的組織單位 {#retrieving-organizational-units}
 
 1. 對配置檔案PKey執行GET請求以檢索&#x200B;**orgUnit** URL。
-1. 在URL上執行GET請求，以擷取有關組織單位的詳細資訊。
+1. 在URL上執行GET要求，以擷取有關組織單位的詳細資訊。
 
 <br/>
 
-***請求範例***
+***範例要求***
 
-擷取描述檔記錄。
+擷取設定檔記錄。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/<PKEY> \
@@ -37,7 +34,7 @@ ht-degree: 13%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它返回配置檔案的orgUnit URL。
+它會傳回設定檔的orgUnit URL。
 
 ```
 {
@@ -51,7 +48,7 @@ ht-degree: 13%
 }
 ```
 
-對URL執行GET請求以擷取更多資訊。
+在URL上執行GET要求以擷取詳細資訊。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/<PKEY> \
@@ -61,7 +58,7 @@ ht-degree: 13%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它返回有關組織單位的詳細資訊。
+它會傳回組織單位的詳細資訊。
 
 ```
 {

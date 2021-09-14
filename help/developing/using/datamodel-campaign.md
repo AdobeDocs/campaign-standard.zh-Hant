@@ -1,21 +1,18 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: DataModel
-description: 瞭解資料模型
+description: 了解資料模型
 audience: developing
 content-type: reference
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: a63fe730-a6b2-4ae0-93da-9f8ee7824c9f
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '216'
 ht-degree: 7%
 
 ---
-
 
 # 促銷活動(nms:campaign)
 
@@ -37,7 +34,7 @@ ht-degree: 7%
                <tr>
                   <td>活動</td>
                   <td>活動</td>
-                  <td>系列 </td>
+                  <td>集合 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -55,7 +52,7 @@ ht-degree: 7%
                <tr>
                   <td>createdBy(userBase)</td>
                   <td>建立者</td>
-                  <td>link </td>
+                  <td>連結 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -66,12 +63,12 @@ ht-degree: 7%
                </tr>
                <tr>
                   <td>持續時間</td>
-                  <td>促銷活動持續時間</td>
+                  <td>促銷活動期間</td>
                   <td>數字 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>end</td>
+                  <td>結束</td>
                   <td>結束日期</td>
                   <td>日期 </td>
                   <td> </td>
@@ -79,7 +76,7 @@ ht-degree: 7%
                <tr>
                   <td>geoUnit(geoUnitBase)</td>
                   <td>地理單位</td>
-                  <td>link </td>
+                  <td>連結 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -95,14 +92,14 @@ ht-degree: 7%
                   <td> </td>
                </tr>
                <tr>
-                  <td>標籤</td>
+                  <td>label</td>
                   <td>標籤</td>
                   <td>字串(128)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>lastModified</td>
-                  <td>上次修改日期</td>
+                  <td>上次修改時間</td>
                   <td>日期 </td>
                   <td> </td>
                </tr>
@@ -112,19 +109,19 @@ ht-degree: 7%
                   <td>枚舉（字串）(255)</td>
                   <td>
                      <ul>
-                        <li>進行中——已啟動——已啟動</li>
-                        <li>編輯——版本——版本</li>
-                        <li>完成——完成——完成</li>
-                        <li>警告——警告——警告</li>
-                        <li>錯誤——錯誤——錯誤</li>
-                        <li>無效值- __Invalid_value__ - __Invalid_value__</li>
+                        <li>進行中 — 已啟動 — 已啟動</li>
+                        <li>編輯 — 版本 — 版本</li>
+                        <li>已完成 — 已完成 — 已完成</li>
+                        <li>警告 — 警告 — 警告</li>
+                        <li>錯誤 — 錯誤 — 錯誤</li>
+                        <li>無效值 — __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
                <tr>
                   <td>modifiedBy(userBase)</td>
                   <td>修改者</td>
-                  <td>link </td>
+                  <td>連結 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -136,23 +133,23 @@ ht-degree: 7%
                <tr>
                   <td>orgUnit(orgUnitBase)</td>
                   <td>組織單位</td>
-                  <td>link </td>
+                  <td>連結 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>方案（方案庫）</td>
+                  <td>程式(programBase)</td>
                   <td>方案</td>
-                  <td>link </td>
+                  <td>連結 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>realtimeReport</td>
-                  <td>即時報告</td>
+                  <td>即時報表</td>
                   <td>項目 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>start</td>
+                  <td>開始</td>
                   <td>開始日期</td>
                   <td>日期 </td>
                   <td> </td>
@@ -163,17 +160,17 @@ ht-degree: 7%
                   <td>枚舉（位元組） </td>
                   <td>
                      <ul>
-                        <li>開始——開始- 1</li>
-                        <li>編輯——版本- 0</li>
-                        <li>完成——完成- 2</li>
-                        <li>無效值- __Invalid_value__ - __Invalid_value__</li>
+                        <li>已開始 — 已開始 — 1</li>
+                        <li>編輯 — 版本 — 0</li>
+                        <li>已完成 — 已完成 — 2</li>
+                        <li>無效值 — __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
                <tr>
-                  <td>範本（促銷活動）</td>
-                  <td>促銷活動範本</td>
-                  <td>link </td>
+                  <td>範本（行銷活動）</td>
+                  <td>行銷活動範本</td>
+                  <td>連結 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -190,7 +187,7 @@ ht-degree: 7%
                </tr>
             </table>
 
-## 濾鏡
+## 篩選器
 
 按邏輯狀態（按邏輯狀態）
 
@@ -201,11 +198,11 @@ ht-degree: 7%
     </tr>
     <tr>
     <td>state</td>
-    <td>枚舉</td>
+    <td>分項清單</td>
     </tr>
 </table>
 
-依名稱或標籤（依Text）
+按名稱或標籤(byText)
 
 <table>
     <tr>
@@ -235,7 +232,7 @@ ht-degree: 7%
     </tr>
 </table>
 
-依狀態（依狀態）
+按狀態（按狀態）
 
 <table>
     <tr>
@@ -244,11 +241,11 @@ ht-degree: 7%
     </tr>
     <tr>
     <td>state</td>
-    <td>枚舉</td>
+    <td>分項清單</td>
     </tr>
 </table>
 
-從異構清單包括連續傳送（具有Continuous）
+包括從異構清單（具有Continuous）進行連續傳遞
 
 <table>
     <tr>
@@ -261,7 +258,7 @@ ht-degree: 7%
     </tr>
 </table>
 
-為指定期間計畫（按計畫）
+指定期間的計畫（按計畫）
 
 <table>
     <tr>
@@ -278,7 +275,7 @@ ht-degree: 7%
     </tr>
 </table>
 
-在指定期間內（依日曆）
+在指定期間存在（按日曆）
 
 <table>
     <tr>

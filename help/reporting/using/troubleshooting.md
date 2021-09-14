@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 疑難排解
 description: 請在這裡找到與動態報告相關的常見問題。
 audience: reporting
 content-type: reference
 topic-tags: troubleshooting
-feature: 報告功能
+feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
-source-git-commit: 81ffe6a7e59a745a6f61941dff69be85edf4fe45
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '703'
 ht-degree: 5%
 
 ---
@@ -21,7 +19,7 @@ ht-degree: 5%
 
 您可在本節中找到與動態報告相關的常見問題。
 
-## 對於「不重複」開啟和「不重複」點按，匯總列中的計數與個別列中的計數不符{#unique-open-clicks-no-match}
+## 對於「不重複」開啟和「不重複」點按，匯總列中的計數不會與個別列中的計數相符 {#unique-open-clicks-no-match}
 
 這是預期中的行為。
 我們可以舉下列範例來解釋此行為。
@@ -92,7 +90,7 @@ P1在第一天開啟電子郵件兩次，第二天開啟三次。
 >
 >唯一計數是以HLL型草圖為基礎，這可能在大計數時造成輕微的不準確。
 
-## 開啟計數與資料庫計數{#open-counts-no-match-database}不匹配
+## 開啟計數與資料庫計數不匹配 {#open-counts-no-match-database}
 
 這可能是因為，即使無法追蹤&#x200B;**[!UICONTROL Open]**&#x200B;動作，動態報告中仍會使用試探式來追蹤開啟次數。
 
@@ -106,7 +104,7 @@ P1在第一天開啟電子郵件兩次，第二天開啟三次。
 >
 >由於唯一計數是以HLL型草圖為基礎，因此可能會發生計數之間的微小不一致。
 
-## 如何計算循環/交易式傳送的計數？{#counts-recurring-deliveries}
+## 如何計算循環/交易式傳送的計數？ {#counts-recurring-deliveries}
 
 使用循環和交易式傳送時，計數會歸因於父傳送和子傳送。
 我們可以以名為**R1**的循環傳送為例，其設定為每天在第1天(RC1)、第2天(RC2)和第3天(RC3)執行。
@@ -157,7 +155,7 @@ P1在第一天開啟電子郵件兩次，第二天開啟三次。
  </tbody> 
 </table>
 
-## 這些顏色在我的報告表中有什麼意義？{#reports-color-signification}
+## 這些顏色在我的報告表中有什麼意義？ {#reports-color-signification}
 
 報表上顯示的顏色是隨機的，無法個人化。 它們代表進度列，可協助您更清楚標示報表中達到的最大值。
 

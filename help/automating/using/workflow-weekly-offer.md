@@ -1,8 +1,6 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: 建立每週傳送
-description: 此使用案例說明如何建立每週傳送。
+title: 建立每週傳遞
+description: 此使用案例顯示如何建立每週傳送。
 audience: automating
 content-type: reference
 topic-tags: execution-activities
@@ -10,14 +8,13 @@ context-tags: workflow,use-case,query,delivery,scheduler
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 32d9d174-8438-48d7-b876-33a0c35d9549
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 80%
+source-wordcount: '242'
+ht-degree: 81%
 
 ---
-
 
 # 每週二建立電子郵件傳送{#creating-email-every-tuesday}
 
@@ -29,7 +26,7 @@ ht-degree: 80%
 
 ## 建立排程器活動{#creating-a-scheduler-activity}
 
-1. 在&#x200B;**[!UICONTROL Activities]** > **[!UICONTROL Execution]**&#x200B;中，拖放[調度程式](../../automating/using/scheduler.md)活動。
+1. 在&#x200B;**[!UICONTROL Activities]** > **[!UICONTROL Execution]**&#x200B;中，拖放[排程器](../../automating/using/scheduler.md)活動。
 1. 連按兩下此活動。
 1. 設定傳送的執行。
 1. 在 **[!UICONTROL Execution frequency]** 中選取 **[!UICONTROL Weekly]**。
@@ -46,7 +43,7 @@ ht-degree: 80%
 
 ## 建立「查詢」活動{#creating-a-query-activity}
 
-1. 在&#x200B;**[!UICONTROL Activities]** > **[!UICONTROL Targeting]**&#x200B;中，要選擇收件者，請拖放[Query](../../automating/using/query.md)活動，然後按兩下它。
+1. 在&#x200B;**[!UICONTROL Activities]** > **[!UICONTROL Targeting]**&#x200B;中，若要選取收件者，請拖放[Query](../../automating/using/query.md)活動並連按兩下它。
 1. 在 **[!UICONTROL Shortcuts]** > **[!UICONTROL Profile]** 中拖放 **[!UICONTROL Email]**。
 1. 選取 **[!UICONTROL is not empty]** 作為運算子。
 1. 在 **[!UICONTROL Shortcuts]** > **[!UICONTROL General]** 中，新增設定檔並使用值　**[!UICONTROL No]**　選取　**[!UICONTROL no longer contact by email]**。

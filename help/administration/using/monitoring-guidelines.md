@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 監視指南
 description: 本節介紹監控Campaign Standard的一般准則。
 audience: production
 content-type: reference
 topic-tags: introduction
 index: y
-feature: 存取管理
+feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 5f25f2b2-ca41-4baf-ade2-42bbafb4790d
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '505'
 ht-degree: 20%
 
 ---
@@ -47,7 +45,7 @@ Campaign Standard介面提供通知窗格，可讓您隨時了解系統中發生
 
 >[!NOTE]
 >
->所有管理員使用者都可存取控制面板。 授予使用者管理員存取權限的步驟已詳載於[本頁](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel)中。
+>所有管理員使用者都可存取控制面板。 授予使用者管理員存取權限的步驟已詳載於[本頁](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hant#discover-control-panel)中。
 
 **技術物件**
 

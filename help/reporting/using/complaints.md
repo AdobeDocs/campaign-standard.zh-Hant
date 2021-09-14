@@ -1,8 +1,6 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 投訴
-description: 透過「投訴現成可用」報表，瞭解宣告為垃圾訊息的傳送時間。
+description: 透過現成可用的「投訴」報表，了解宣告為垃圾訊息的傳送時間。
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -10,21 +8,20 @@ context-tags: deliveryComplaintsReport,main;campaignComplaintsReport,main;progra
 feature: Reporting
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 8de120e9-014f-4faa-948b-843b2ec03f5e
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 3%
+source-wordcount: '86'
+ht-degree: 2%
 
 ---
 
-
 # 投訴{#complaints}
 
-**[!UICONTROL Complaints]**&#x200B;報告會將收到最多聲明的傳送識別為垃圾訊息。
+**[!UICONTROL Complaints]**&#x200B;報表可識別收到最多宣告為垃圾訊息的傳送。
 
 ![](assets/delivery_reports_complaints.png)
 
-**Flop**&#x200B;表格依收件者網域排序，顯示已宣告電子郵件或垃圾訊息的收件者數目。 圖表和摘要數字中也提供了表格的結果。
+**Flop**&#x200B;表按收件人域排序，顯示已聲明電子郵件或垃圾郵件的收件人數。 圖表和摘要數字中也提供了表格的結果。
 
-**傳送與登入清單比較**&#x200B;表格會列出已宣告電子郵件為垃圾郵件或垃圾郵件的收件者人數。 表按傳送排序。
+**已傳送與封鎖清單的比較**&#x200B;表格列出將電子郵件宣告為垃圾訊息或垃圾訊息的收件者人數。 表格會依傳送排序。

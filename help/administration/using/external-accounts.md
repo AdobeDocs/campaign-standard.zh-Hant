@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 外部帳戶
 description: 設定外部帳戶以設定與外部系統（例如 SFTP 伺服器）的連線。
 audience: administration
 content-type: reference
 topic-tags: application-settings
 context-tags: extAccount,main;extAccount,overview
-feature: 執行個體設定
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 747e82ff-d3e6-4945-8f29-80e4a190c96f
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1774'
+source-wordcount: '1772'
 ht-degree: 84%
 
 ---
@@ -90,7 +88,7 @@ SFTP 伺服器可從「控制面板」進行管理。如需詳細資訊，請參
 
 >[!NOTE]
 >
->所有管理員使用者都可存取控制面板。 授予使用者管理員存取權限的步驟已詳載於[本頁](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel)中。
+>所有管理員使用者都可存取控制面板。 授予使用者管理員存取權限的步驟已詳載於[本頁](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hant#discover-control-panel)中。
 
 ## OAuth 2.0帳戶 {#oauth-account}
 

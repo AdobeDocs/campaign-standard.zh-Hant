@@ -1,8 +1,6 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: 區段位置」
-description: 此使用案例說明如何對位置執行分段。
+title: 位置細分」
+description: 此使用案例會說明如何對位置執行分段。
 audience: automating
 content-type: reference
 topic-tags: execution-activities
@@ -10,16 +8,15 @@ context-tags: workflow,use-case,query,segmentation,delivery
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: feedc2f5-63da-44a5-b8f0-15afdfd47daa
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '268'
 ht-degree: 83%
 
 ---
 
-
-# 位置{#segmentation-on-location}的區段
+# 位置細分 {#segmentation-on-location}
 
 您可以傳送目標定位電子郵件給客戶，並在其當地商店提供優惠。
 
@@ -39,7 +36,7 @@ ht-degree: 83%
 
 ## 建立細分活動{#creating-a-segmentation-activity}
 
-1. 拖放[Segmentation](../../automating/using/segmentation.md)活動，然後按兩下。
+1. 拖放[Segmentation](../../automating/using/segmentation.md)活動並連按兩下。
 1. 按一下區段，然後開啟轉變，以定位第一個城市中的人。這裡是波士頓。
 1. 拖放 **[!UICONTROL Location]** 並選取包含運算子 **[!UICONTROL equals to]** 及值 **[!UICONTROL Boston]** 的 **[!UICONTROL City]**。
 注意：若要聯絡所有進入波士頓的人，請忽略大小寫選項中區分大小寫的選項。
@@ -49,9 +46,9 @@ ht-degree: 83%
 1. 若要聯絡所有進入芝加哥的人，請忽略大小寫選項中區分大小寫的選項。
 1. 按一下 **[!UICONTROL Confirm]**。
 
-## 建立電子郵件傳送{#creating-an-email-delivery}
+## 建立電子郵件傳遞{#creating-an-email-delivery}
 
-1. 在&#x200B;**[!UICONTROL Activities]** > **[!UICONTROL Channels]**&#x200B;中，將[電子郵件傳送](../../automating/using/email-delivery.md)活動拖放至每個區段之後。
+1. 在&#x200B;**[!UICONTROL Activities]** > **[!UICONTROL Channels]**&#x200B;中，在每個區段後拖放[電子郵件傳送](../../automating/using/email-delivery.md)活動。
 1. 按一下活動並選取 ![](assets/edit_darkgrey-24px.png) 以編輯。
 1. 選取 **[!UICONTROL Simple email]** 並按一下 **[!UICONTROL Next]**。
 1. 選取電子郵件範本，然後按一下 **[!UICONTROL Next]**。
@@ -66,4 +63,3 @@ ht-degree: 83%
 1. 按一下 **[!UICONTROL Save]**。
 
 ![](assets/wf-segmentation-location.png)
-

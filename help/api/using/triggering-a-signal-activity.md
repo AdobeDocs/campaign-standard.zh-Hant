@@ -1,42 +1,39 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 觸發訊號活動
-description: 瞭解如何使用API觸發訊號活動。
+description: 了解如何使用API觸發訊號活動。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 9f94e98f-fe04-4369-8946-1380e02cdece
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '322'
 ht-degree: 2%
 
 ---
 
-
 # 觸發訊號活動 {#triggering-a-signal-activity}
 
-在Adobe Campaign Standard工作流中，可以有一個或多個&#x200B;**外部信號**&#x200B;活動。 這些活動是等待觸發的&quot;聽眾&quot;。
+在Adobe Campaign Standard工作流程中，可能有一或多個&#x200B;**外部訊號**&#x200B;活動。 這些活動是等待觸發的「監聽器」。
 
-Campaign StandardAPI可讓您觸發&#x200B;**外部訊號**&#x200B;活動，以呼叫工作流程。 API呼叫可包含將納入工作流程事件變數的參數（要定位的對象名稱、要匯入的檔案名稱、訊息內容的一部分等）。 如此，您就可輕鬆將Campaign自動化與外部系統整合。
+Campaign StandardAPI可讓您觸發&#x200B;**外部訊號**&#x200B;活動，以呼叫工作流程。 API呼叫可包含要擷取至工作流程事件變數的參數（要定位的對象名稱、要匯入的檔案名稱、訊息內容的一部分等）。 這樣，您就可以輕鬆整合Campaign自動化與外部系統。
 
 >[!NOTE]
 >
->外部信號活動無法比每10分鐘更頻繁地觸發，而且目標工作流必須已運行。
+>外部訊號活動的觸發頻率不能超過每10分鐘，且目標工作流程必須已執行。
 
-要觸發工作流，請執行以下步驟：
+若要觸發工作流程，請遵循下列步驟：
 
-1. 在工作流程中執行&#x200B;**GET**&#x200B;請求，以擷取「外部訊號」活動觸發URL。
+1. 在工作流程上執行&#x200B;**GET**&#x200B;要求，以擷取外部訊號活動觸發器URL。
 
    `GET https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>`
 
-1. 對傳回的URL執行&#x200B;**POST**&#x200B;要求，以觸發信號活動，並在裝載中使用&#x200B;**&quot;source&quot;**&#x200B;參數。 此屬性為必填屬性，可讓您指出觸發請求來源。
+1. 對傳回的URL執行&#x200B;**POST**&#x200B;要求以觸發訊號活動，並在裝載中使用&#x200B;**&quot;source&quot;**&#x200B;參數。 此屬性為必要屬性，可讓您指出觸發請求來源。
 
-如果您想使用參數來呼叫工作流，請使用&#x200B;**&quot;parameters&quot;**&#x200B;屬性將其新增至裝載。 語法由參數的名稱及其值組成(支援下列類型：**字串**、**數字**、**布林**&#x200B;和&#x200B;**日期／時間**)。
+如果您想使用參數呼叫工作流程，請使用&#x200B;**&quot;parameters&quot;**&#x200B;屬性將它們新增至裝載中。 語法由參數的名稱及其值組成(支援下列類型：**string**、**number**、**boolean**&#x200B;和&#x200B;**date/time**)。
 
 ```
   -X POST <TRIGGER_URL>
@@ -59,13 +56,13 @@ Campaign StandardAPI可讓您觸發&#x200B;**外部訊號**&#x200B;活動，以�
 
 >[!NOTE]
 >
->將參數添加到負載時，請確保其&#x200B;**name**&#x200B;和&#x200B;**type**&#x200B;值與「外部信號」活動中聲明的資訊一致。 此外，有效載荷大小不應超過64Ko。
+>將參數新增至裝載時，請確定其&#x200B;**name**&#x200B;和&#x200B;**type**&#x200B;值與外部訊號活動中宣告的資訊一致。 此外，有效載荷大小不應超過64Ko。
 
 <br/>
 
-***請求範例***
+***範例要求***
 
-對工作流執行GET請求。
+在工作流程上執行GET請求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID> \
@@ -75,7 +72,7 @@ Campaign StandardAPI可讓您觸發&#x200B;**外部訊號**&#x200B;活動，以�
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它會傳回工作流程訊號活動和相關的觸發url。
+它會傳回工作流程訊號活動和相關聯的觸發器url。
 
 ```
 {
@@ -94,7 +91,7 @@ Campaign StandardAPI可讓您觸發&#x200B;**外部訊號**&#x200B;活動，以�
 }
 ```
 
-若要觸發信號活動，請在觸發URL上使用&quot;source&quot;執行POST要求。 如果您想使用參數呼叫工作流，請新增「參數」屬性。
+若要觸發訊號活動，請對具有「來源」的觸發url執行POST要求。 如果您要使用參數呼叫工作流程，請新增「參數」屬性。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<PKEY>/activities/activity/<PKEY>/trigger \
@@ -118,7 +115,7 @@ Campaign StandardAPI可讓您觸發&#x200B;**外部訊號**&#x200B;活動，以�
 
 <!-- + réponse -->
 
-如果其中一個參數未在「外部信號」活動中宣告，POST請求會傳回以下錯誤，指出缺少哪個參數。
+如果外部訊號活動中未宣告其中一個參數，POST要求會傳回下列錯誤，指出缺少哪個參數。
 
 ```
 RST-360011 An error has occurred - please contact your administrator.

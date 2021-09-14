@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 設定篩選定義
 description: 探索篩選功能以管理大型資料集。
 audience: developing
@@ -10,16 +8,15 @@ context-tags: cusResource,main
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 342911c5-0746-4205-b380-be195b9cb82a
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 94%
+source-wordcount: '541'
+ht-degree: 95%
 
 ---
 
-
-# 設定篩選定義{#configuring-filter-definition}
+# 設定篩選器定義{#configuring-filter-definition}
 
 在標籤 **[!UICONTROL Filter definition]** 中，您可以建立進階篩選器，讓使用者在建立複雜查詢時（例如定義對象時）直接存取這些篩選器。
 
@@ -84,8 +81,8 @@ ht-degree: 94%
 
 ![](assets/custom_resource_filter-definition_email-audience_filter.png)
 
-設定篩選器後，您就可以使用下列語法，從Campaign StandardAPI使用篩選器：
+設定篩選器後，您就可以透過Campaign StandardAPI使用此語法：
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/by<customFilterName>?<customFilterparam>=<customFilterValue>`
 
-有關詳細資訊，請參閱[Campaign StandardAPI文檔](../../api/using/filtering.md#custom-filters)。
+如需詳細資訊，請參閱[Campaign StandardAPI檔案](../../api/using/filtering.md#custom-filters)。

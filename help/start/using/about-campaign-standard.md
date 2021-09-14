@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 開始使用 Campaign Standard
 description: 探索重要功能、使用者介面和全域準則。
 audience: start
 content-type: reference
 topic-tags: about-adobe-campaign
-feature: 概覽
+feature: Overview
 role: User
 level: Beginner
 exl-id: b62c70fe-c838-4a0e-9b0a-2e916a06ff39
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '777'
 ht-degree: 100%
 
 ---

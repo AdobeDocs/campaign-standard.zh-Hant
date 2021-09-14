@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 增量查詢
 description: 「增量查詢」活動可讓您從 Adobe Campaign 資料庫中篩選及擷取一組元素。
 audience: automating
@@ -10,14 +8,13 @@ context-tags: incremental,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 18d6ffc0-cfc3-436e-8f0c-ea9c307541e4
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '614'
 ht-degree: 98%
 
 ---
-
 
 # 增量查詢{#incremental-query}
 
@@ -47,7 +44,7 @@ ht-degree: 98%
 
 **相關主題**
 
-* [使用案例：對服務訂戶的增量查詢](../../automating/using/incremental-query-on-subscribers.md)
+* [使用案例：對服務訂閱者的增量查詢](../../automating/using/incremental-query-on-subscribers.md)
 
 ## 設定 {#configuration}
 
@@ -73,6 +70,6 @@ ht-degree: 98%
 1. 您可以透過專用索引標籤來定義目標母體的　**[!UICONTROL Additional data]**。此資料會儲存在其他欄中，且僅能用於進行中的工作流程。尤其是，您可以從連結至查詢目標維度的 Adobe Campaign 資料庫表格新增資料。請參閱[擴充資料](../../automating/using/query.md#enriching-data)區段。
 1. 確認活動的設定並儲存工作流程。
 
-## 擴充資料 {#enriching-data}
+## 豐富資料 {#enriching-data}
 
 和查詢一樣，您也可以擴充來自 **[!UICONTROL Incremental query]** 的資料。請參閱[擴充資料](../../automating/using/query.md#enriching-data)區段。

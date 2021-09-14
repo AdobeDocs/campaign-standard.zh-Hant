@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 使用傳遞範本
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: 「傳遞範本可為最常見的活動類型提供現成的案例，借此提高效率。」
-feature: 達成能力
+feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ca134a7f-9035-4885-b4cb-1170b6ec10cc
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '815'
 ht-degree: 10%
 
 ---

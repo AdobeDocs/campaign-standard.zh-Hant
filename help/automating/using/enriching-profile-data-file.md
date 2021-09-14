@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 使用檔案包含的資料擴充設定檔資料
 description: 此範例顯示如何以檔案中包含的購買資料擴充設定檔資料。
 audience: automating
@@ -10,24 +8,23 @@ context-tags: enrichment,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: d5c19884-5a3e-4676-899c-53074a3b0efc
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '528'
 ht-degree: 78%
 
 ---
 
-
 # 使用檔案包含的資料擴充設定檔資料 {#enriching-profile-data-with-data-contained-in-a-file}
 
-此範例說明如何使用檔案中包含的購買資料來豐富描述檔資料。我們認為購買資料儲存在協力廠商系統中。 每個設定檔都可儲存數個購買項目。工作流程的最終目標是傳送電子郵件給已購買至少兩個項目的目標設定檔，以感謝他們的忠誠度。
+此示例說明如何使用檔案中包含的購買資料來豐富配置檔案資料。我們在此處認為購買資料儲存在第三方系統中。 每個設定檔都可儲存數個購買項目。工作流程的最終目標是傳送電子郵件給已購買至少兩個項目的目標設定檔，以感謝他們的忠誠度。
 
 工作流設定如下：
 
 ![](assets/enrichment_example_workflow.png)
 
-* [Query](../../automating/using/query.md)活動，其目標是將接收消息的配置檔案。
+* [查詢](../../automating/using/query.md)活動，目標為將接收訊息的設定檔。
 * 載入購買資料的[載入檔案](../../automating/using/load-file.md)活動。 例如：
 
    ```
@@ -42,7 +39,7 @@ ht-degree: 78%
 
    在此範例檔案中，我們將使用電子郵件地址來調解資料與資料庫設定檔。您也可以啟用唯一 ID，如[本文件](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)所述。
 
-* [Enrichment](../../automating/using/enrichment.md)活動，在從檔案載入的事務資料和在&#x200B;**[!UICONTROL Query]**&#x200B;中選擇的配置檔案之間建立連結。 該連結在活動的 **[!UICONTROL Advanced relations]** 索引標籤中定義。連結以來自 **[!UICONTROL Load file]** 活動的轉變為基礎。它使用設定檔資源的「電子郵件」欄位和匯入檔案的「客戶」列作為調解標準。
+* [擴充](../../automating/using/enrichment.md)活動，在從檔案載入的交易資料與在&#x200B;**[!UICONTROL Query]**&#x200B;中選取的設定檔之間建立連結。 該連結在活動的 **[!UICONTROL Advanced relations]** 索引標籤中定義。連結以來自 **[!UICONTROL Load file]** 活動的轉變為基礎。它使用設定檔資源的「電子郵件」欄位和匯入檔案的「客戶」列作為調解標準。
 
    ![](assets/enrichment_example_workflow2.png)
 
@@ -80,11 +77,11 @@ ht-degree: 78%
 
       ![](assets/enrichment_example_workflow9.png)
 
-* 只有一個區段的[分段](../../automating/using/segmentation.md)活動，可檢索至少記錄了兩個事務的初始目標的概要檔案。 將排除僅包含一個交易的設定檔。要執行此操作，區段的查詢會在先前定義的彙總上進行。
+* [區段](../../automating/using/segmentation.md)活動，只包含一個區段，可擷取至少已記錄兩個交易之初始目標的設定檔。 將排除僅包含一個交易的設定檔。要執行此操作，區段的查詢會在先前定義的彙總上進行。
 
    ![](assets/enrichment_example_workflow5.png)
 
-* [電子郵件傳送](../../automating/using/email-delivery.md)活動，使用&#x200B;**[!UICONTROL Enrichment]**&#x200B;中定義的其他資料動態擷取描述檔最後購買的兩項資料。 新增個人化欄位時，可在&#x200B;**其他資料　(TargetData)**　節點中找到其他資料。
+* [電子郵件傳送](../../automating/using/email-delivery.md)活動，使用&#x200B;**[!UICONTROL Enrichment]**&#x200B;中定義的其他資料，以動態擷取設定檔進行的最後兩次購買。 新增個人化欄位時，可在&#x200B;**其他資料　(TargetData)**　節點中找到其他資料。
 
    ![](assets/enrichment_example_workflow10.png)
 

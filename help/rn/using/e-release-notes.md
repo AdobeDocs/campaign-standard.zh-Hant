@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 早期發行說明
 description: 早期發行說明
 feature: Overview
@@ -9,7 +7,7 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: ac129fd21382d1d89263acae2fdbe280709f5946
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '1072'
 ht-degree: 42%
@@ -104,7 +102,7 @@ ht-degree: 42%
 
 **其他變更**
 
-* Adobe Experience Platform Data Connector和Audience Destinations服務現已透過Campaign Standard淘汰。 如果您使用這些功能，則需移至「Adobe來源」和「目的地」，並調整實作。 [深入瞭解](../../integrating/using/get-started-sources-destinations.md)
+* Adobe Experience Platform Data Connector和Audience Destinations服務現已透過Campaign Standard淘汰。 如果您使用這些功能，則需移至「Adobe來源」和「目的地」，並調整實作。 [瞭解更多](../../integrating/using/get-started-sources-destinations.md)
 * [此頁面](deprecated-features.md)中列出已棄用和已移除的功能。
 * 引入新的「StringAgg」匯總函式以串連字串類型欄的值。 (CAMP-47077)
 * 已改善&#x200B;**更新傳送指標**(updateDeliveryIndicators)技術工作流程，以提升效能。

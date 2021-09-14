@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 關於閱聽眾
 description: 瞭解如何從查詢、清單或檔案建立閱聽眾，以及如何從　Adobe Experience Cloud　匯入閱聽眾。
 audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: audience,wizard;audience,overview;delivery,audience,back
-feature: 對象
+feature: Audiences
 role: User
 level: Beginner
 exl-id: f99987d8-b1bf-4ec7-885c-fb511f4168ac
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '249'
 ht-degree: 91%
 
 ---

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 外部訊號
 description: 當某些條件在另一個工作流程中成功符合時，外部訊號活動會觸發工作流。
 audience: automating
@@ -10,14 +8,13 @@ context-tags: signal,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: a4fbd6b5-7cfb-44ad-bf3a-f3aabc122b77
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 95%
+source-wordcount: '600'
+ht-degree: 96%
 
 ---
-
 
 # 外部訊號{#external-signal}
 
@@ -43,8 +40,8 @@ ht-degree: 95%
 
 **相關主題**
 
-* [使用案例：外部信號活動和資料導入](../../automating/using/external-signal-data-import.md)。
-* [使用案例：呼叫工作流程，以使用外部參數從檔案建立觀眾](../../automating/using/use-case-calling-workflow.md)
+* [使用案例：外部訊號活動和資料匯入](../../automating/using/external-signal-data-import.md)。
+* [使用案例：呼叫工作流程，使用外部參數從檔案建立對象](../../automating/using/use-case-calling-workflow.md)
 
 ## 設定 {#configuration}
 
@@ -54,7 +51,7 @@ ht-degree: 95%
 1. 選取活動，然後使用所顯示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
 1. 編輯活動的標籤。設定觸發 **[!UICONTROL External signal]** 的來源工作流程時需要此標籤。
 
-   如果要使用參數呼叫工作流程，請使用 **[!UICONTROL Parameters]** 區域來進行宣告。有關詳細資訊，請參見[此頁面](../../automating/using/declaring-parameters-external-signal.md)。
+   如果要使用參數呼叫工作流程，請使用 **[!UICONTROL Parameters]** 區域來進行宣告。如需詳細資訊，請參閱[此頁面](../../automating/using/declaring-parameters-external-signal.md)。
 
    ![](assets/external_signal_configuration.png)
 
@@ -76,7 +73,7 @@ ht-degree: 95%
 
    當您設定 **[!UICONTROL End]** 活動以觸發另一個工作流程時，其圖示會以其他訊號符號更新。
 
-   如果要使用參數呼叫工作流程，請使用 **[!UICONTROL Parameters and values]** 區域。有關詳細資訊，請參見[此頁面](../../automating/using/defining-parameters-calling-workflow.md)。
+   如果要使用參數呼叫工作流程，請使用 **[!UICONTROL Parameters and values]** 區域。如需詳細資訊，請參閱[此頁面](../../automating/using/defining-parameters-calling-workflow.md)。
 
    ![](assets/external_signal_end.png)
 

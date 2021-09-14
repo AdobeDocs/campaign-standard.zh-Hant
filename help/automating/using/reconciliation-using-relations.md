@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 使用關係進行資料協調
 description: 下列範例會示範使用檔案中的購買資料更新資料庫的工作流程。
 audience: automating
@@ -10,14 +8,13 @@ context-tags: reconciliation,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 7d0e3f17-ef04-4890-b63b-6957fc6cd648
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 85%
+source-wordcount: '338'
+ht-degree: 86%
 
 ---
-
 
 # 使用關係進行資料協調 {#reconciliation-relations}
 
@@ -31,7 +28,7 @@ ht-degree: 85%
 
 ![](assets/reconciliation_example1.png)
 
-* [載入檔案](../../automating/using/load-file.md)活動，可載入並偵測要匯入的檔案資料。 匯入的檔案包含下列資料：
+* [載入檔案](../../automating/using/load-file.md)活動，可載入並檢測要匯入的檔案的資料。 匯入的檔案包含下列資料：
 
    * 交易日期
    * 客戶電子郵件地址
@@ -50,7 +47,7 @@ ht-degree: 85%
    2015-05-19 09:06:00;mail9@email.com;ZZ6
    ```
 
-* [協調](../../automating/using/reconciliation.md)活動，用於將購買資料綁定到資料庫配置檔案以及產品。 因此，必須定義檔案資料與設定檔表格及產品表格之間的關係。會在活動 **[!UICONTROL Relations]** 索引標籤中執行此設定：
+* [調解](../../automating/using/reconciliation.md)活動，將購買資料系結至資料庫設定檔及產品。 因此，必須定義檔案資料與設定檔表格及產品表格之間的關係。會在活動 **[!UICONTROL Relations]** 索引標籤中執行此設定：
 
    * 與&#x200B;**設定檔**&#x200B;的關係：檔案的&#x200B;**客戶**&#x200B;欄已連結至&#x200B;**設定檔**&#x200B;維度的&#x200B;**電子郵件**&#x200B;欄位。
    * 與&#x200B;**產品**&#x200B;的關係：檔案的&#x200B;**產品**&#x200B;欄已連結至&#x200B;**設定檔**&#x200B;維度的 **productCode** 欄位。
@@ -59,7 +56,7 @@ ht-degree: 85%
 
    ![](assets/reconciliation_example3.png)
 
-* [Update data](../../automating/using/update-data.md)活動允許您定義要使用導入資料進行更新的資料庫欄位。 由於已將資料識別為屬於前一個活動的&#x200B;**交易**&#x200B;維度，因此，您可以在此處使用 **[!UICONTROL Directly using the targeting dimension]** 識別選項。
+* [更新資料](../../automating/using/update-data.md)活動可讓您定義要使用匯入資料更新的資料庫欄位。 由於已將資料識別為屬於前一個活動的&#x200B;**交易**&#x200B;維度，因此，您可以在此處使用 **[!UICONTROL Directly using the targeting dimension]** 識別選項。
 
    使用會自動偵測要更新欄位的選項，會將前一個活動（至設定檔及產品）中設定的連結新增到 **[!UICONTROL Fields to update]** 清單。您也必須確定與交易日期相對應的欄位已正確新增至此清單。
 

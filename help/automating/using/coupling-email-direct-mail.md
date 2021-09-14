@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: 將電子郵件與直接郵件傳送連接
+title: 串聯電子郵件與直接郵件傳遞
 description: 此使用案例提供從工作流程傳送電子郵件和直接郵件的範例。
 audience: channels
 content-type: reference
@@ -10,16 +8,15 @@ context-tags: delivery,directMailContent,back
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 2783f282-681a-40c0-ae57-d25ad641b124
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 82%
+source-wordcount: '119'
+ht-degree: 84%
 
 ---
 
-
-# 將電子郵件與直接郵件傳送連接 {#coupling-email-direct-mail}
+# 串聯電子郵件與直接郵件傳遞 {#coupling-email-direct-mail}
 
 身為行銷人員，您可能想要透過直效郵件傳送型錄。在紙本型錄中，某些頁面會使用促銷代碼和連結，透過網站購買產品可享有 10% 的折扣。
 

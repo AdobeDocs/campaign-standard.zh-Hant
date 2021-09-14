@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 指標計算
 description: 透過每個量度公式的清單來了解報表的結果。
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-feature: 報告功能
+feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 47cc11d7-89e8-4d1c-9638-5f66a53cef7e
-source-git-commit: a9a91df349b107b06f229db33812a27addfb5c27
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '726'
 ht-degree: 2%
 
 ---
@@ -25,7 +23,7 @@ ht-degree: 2%
 
 下表提供不同報表中使用的指標清單及其計算公式，視傳送類型而定。
 
-## 電子郵件傳送 {#email-delivery}
+## 電子郵件傳遞 {#email-delivery}
 
 <table> 
  <thead> 
@@ -226,7 +224,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-## 推播通知傳送 {#push-notification-delivery}
+## 推播通知傳遞 {#push-notification-delivery}
 
 <table> 
  <thead> 
@@ -300,7 +298,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-## 應用程式內傳送 {#in-app-delivery}
+## 應用程式內傳遞 {#in-app-delivery}
 
 <table> 
  <thead> 
@@ -327,7 +325,7 @@ ht-degree: 2%
   <tr> 
    <td> 曝光數<br /> </td> 
    <td> @impressions<br /> </td> 
-   <td> @count(status=view)或@count(status=button 1 click + button 2 click + encristations)<br /> </td> 
+   <td> @count(status=view)或@count(status=button 1 click + button 2 click + encrisents)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 

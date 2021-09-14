@@ -1,21 +1,18 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: DataModel
-description: 瞭解資料模型
+description: 了解資料模型
 audience: developing
 content-type: reference
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 20dafd81-8546-450a-87a0-59a2509efb7a
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '144'
 ht-degree: 5%
 
 ---
-
 
 # 訪客(nms:visitor)
 
@@ -35,8 +32,8 @@ ht-degree: 5%
         <td> </td>
     </tr>
     <tr>
-        <td>評論</td>
-        <td>反向連結注釋</td>
+        <td>註解</td>
+        <td>反向連結註解</td>
         <td>字串(255)</td>
         <td> </td>
     </tr>
@@ -49,13 +46,13 @@ ht-degree: 5%
     <tr>
         <td>createdBy(userBase)</td>
         <td>建立者</td>
-        <td>link </td>
+        <td>連結 </td>
         <td> </td>
     </tr>
     <tr>
         <td>傳送（傳送）</td>
-        <td>傳送</td>
-        <td>link </td>
+        <td>傳遞</td>
+        <td>連結 </td>
         <td> </td>
     </tr>
     <tr>
@@ -90,19 +87,19 @@ ht-degree: 5%
     </tr>
     <tr>
         <td>forwardUrl</td>
-        <td>轉發URL</td>
+        <td>轉發url</td>
         <td>字串(255)</td>
         <td> </td>
     </tr>
     <tr>
         <td>geoUnit(geoUnitBase)</td>
         <td>地理單位</td>
-        <td>link </td>
+        <td>連結 </td>
         <td> </td>
     </tr>
     <tr>
         <td>lastModified</td>
-        <td>上次修改日期</td>
+        <td>上次修改時間</td>
         <td>日期 </td>
         <td> </td>
     </tr>
@@ -115,35 +112,35 @@ ht-degree: 5%
     <tr>
         <td>modifiedBy(userBase)</td>
         <td>修改者</td>
-        <td>link </td>
+        <td>連結 </td>
         <td> </td>
     </tr>
     <tr>
         <td>orgUnit(orgUnitBase)</td>
         <td>組織單位</td>
-        <td>link </td>
+        <td>連結 </td>
         <td> </td>
     </tr>
     <tr>
         <td>來源</td>
-        <td>原點</td>
+        <td>來源</td>
         <td>枚舉（位元組） </td>
         <td>
             <ul>
-            <li>未定義——未定義- 0</li>
-            <li>無效值- __Invalid_value__ - __Invalid_value__</li>
+            <li>未定義 — 未定義 — 0</li>
+            <li>無效值 — __Invalid_value__ - __Invalid_value__</li>
             </ul>
         </td>
     </tr>
     <tr>
         <td>收件者（收件者）</td>
-        <td>已識別的個人檔案</td>
-        <td>link </td>
+        <td>已識別的設定檔</td>
+        <td>連結 </td>
         <td> </td>
     </tr>
     <tr>
         <td>recipientId</td>
-        <td>描述檔ID</td>
+        <td>設定檔ID</td>
         <td>整數 </td>
         <td> </td>
     </tr>
@@ -155,7 +152,7 @@ ht-degree: 5%
     </tr>
     <tr>
         <td>referrerFirstName</td>
-        <td>反向連結名稱</td>
+        <td>反向連結名字</td>
         <td>字串(30)</td>
         <td> </td>
     </tr>
@@ -172,9 +169,9 @@ ht-degree: 5%
         <td> </td>
     </tr>
     <tr>
-        <td>referrerRcp（收件者）</td>
+        <td>referrerRcp(recipient)</td>
         <td>反向連結</td>
-        <td>link </td>
+        <td>連結 </td>
         <td> </td>
     </tr>
     <tr>
@@ -185,7 +182,7 @@ ht-degree: 5%
     </tr>
 </table>
 
-## 濾鏡
+## 篩選器
 
 依姓氏、名字或電子郵件（依文字）</p>
 

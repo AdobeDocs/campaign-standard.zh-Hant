@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 訂閱服務
 description: 「訂閱服務」活動可讓您大量擷取設定檔，並訂閱至服務或取消訂閱服務。
 audience: automating
@@ -10,14 +8,13 @@ context-tags: setOfService,workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 612b6203-1cc9-4015-a026-e5a249f3d03d
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1114'
-ht-degree: 97%
+source-wordcount: '1110'
+ht-degree: 98%
 
 ---
-
 
 # 訂閱服務 {#subscription-services}
 
@@ -42,7 +39,7 @@ ht-degree: 97%
 **相關主題：**
 
 * [使用案例：從檔案更新多個訂閱狀態](../../automating/using/updating-subscriptions-from-file.md)
-* [使用案例：將配置檔案從檔案預訂到特定服務](../../automating/using/subscribing-profiles-from-file.md)
+* [使用案例：從檔案訂閱設定檔至特定服務](../../automating/using/subscribing-profiles-from-file.md)
 
 ## 設定 {#configuration}
 
@@ -111,7 +108,7 @@ ht-degree: 97%
 
    ![](assets/subscription_activity_example4.png)
 
-## 範例：從檔案 {#example--updating-multiple-subscription-statuses-from-a-file} 更新多個訂閱狀態
+## 範例：從檔案  更新多個訂閱狀態 {#example--updating-multiple-subscription-statuses-from-a-file}
 
 此範例說明如何匯入包含設定檔的檔案，以及如何將其訂閱更新為檔案中指定的多個服務。匯入檔案後，必須進行調解，以便將匯入的資料識別為具有服務連結的描述檔。為確保檔案不包含任何重複項目，將對資料執行重複資料刪除活動。
 
@@ -161,4 +158,3 @@ ht-degree: 97%
    將 **[!UICONTROL Operation type]** 識別為來自檔案的 **operation** 欄位。此處只能選取 Boolean 或 Integer 欄位。如果檔案中包含要執行的操作欄未出現在清單中，請確保您已正確設定 **[!UICONTROL Load file]** 活動中的欄格式，如本範例前面所述 。
 
    ![](assets/subscription_activity_example_from_file.png)
-

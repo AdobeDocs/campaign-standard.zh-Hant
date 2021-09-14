@@ -1,29 +1,26 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: GET/POST/PATCH/DELETE動詞
-description: 進一步瞭解Campaign StandardAPI中使用的動詞。
+description: 進一步了解Campaign StandardAPI中使用的動詞。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: de97a194-d497-4665-906e-53178fd3b119
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '129'
 ht-degree: 0%
 
 ---
 
-
-# GET/POST/PATCH/DELETE動詞{#verbs}
+# GET/POST/PATCH/DELETE動詞 {#verbs}
 
 對資源執行操作的可用動詞包括：
 
-* `GET`:擷取一個元素或元素集合
-* `POST`:建立具有參數的資源。
+* `GET`:擷取一個元素或一組元素
+* `POST`:使用參數建立資源。
 * `PATCH`:使用參數更新資源。
 * `DELETE`:刪除資源。
 
@@ -31,9 +28,9 @@ ht-degree: 0%
 
 <br/>
 
-***請求範例***
+***範例要求***
 
-* 描述檔集合的GET請求範例。
+* 設定檔集合的GET要求範例。
 
 
    ```
@@ -45,7 +42,7 @@ ht-degree: 0%
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-   它會傳回一組描述檔。
+   它會傳回設定檔陣列。
 
 
    ```
@@ -69,7 +66,7 @@ ht-degree: 0%
    }
    ```
 
-* 特定描述檔的GET要求範例。
+* 特定設定檔的GET要求範例。
 
 
    ```
@@ -81,7 +78,7 @@ ht-degree: 0%
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-   它會傳回請求的描述檔。
+   它會傳回請求的設定檔。
 
 
    ```
@@ -95,7 +92,7 @@ ht-degree: 0%
    }
    ```
 
-* 建立描述檔的POST請求範例。
+* 建立設定檔的POST請求範例。
 
 
    ```
@@ -107,7 +104,7 @@ ht-degree: 0%
    -d '{"lastName":"Doe"}'
    ```
 
-   它會傳回具有預設欄位的描述檔。
+   它會傳回具有預設欄位的設定檔。
 
    ```
    {
@@ -119,7 +116,7 @@ ht-degree: 0%
    }
    ```
 
-* 更新描述檔的PATCH請求範例。
+* 更新設定檔的PATCH請求範例。
 
    ```
    -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -130,7 +127,7 @@ ht-degree: 0%
    -d '{"firstName":"Mark"',"lastName":"Smith"}'
    ```
 
-   它會傳回PKEY和URL以擷取更新的描述檔。
+   它會傳回PKEY和URL以擷取更新的設定檔。
 
    ```
    {
@@ -139,7 +136,7 @@ ht-degree: 0%
    }
    ```
 
-* 刪除描述檔的DELETE請求範例。
+* 刪除設定檔的DELETE請求範例。
 
    ```
    -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -149,4 +146,4 @@ ht-degree: 0%
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-   請求會傳回200個回應，確認描述檔已刪除。
+   請求會傳回200回應，確認設定檔已刪除。

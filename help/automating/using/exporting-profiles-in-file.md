@@ -1,8 +1,6 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 在外部檔案中匯出設定檔
-description: 此使用案例說明如何以外部檔案的形式匯出描述檔清單，以便在Adobe Campaign以外使用資料。
+description: 此使用案例顯示如何以外部檔案的形式匯出設定檔清單，以便在Adobe Campaign外部使用資料。
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
@@ -10,14 +8,13 @@ context-tags: fileExport,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 3fc286a9-bba4-4e3d-95cd-600eed4943e7
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 67%
+source-wordcount: '227'
+ht-degree: 68%
 
 ---
-
 
 # 在外部檔案中匯出設定檔 {#exporting-profiles-external-file}
 
@@ -25,7 +22,7 @@ ht-degree: 67%
 
 此工作流程的目的是以外部檔案格式匯出設定檔清單，以便在 Adobe Campaign 外部使用資料。
 
-1. 將[Extract file](../../automating/using/extract-file.md)活動拖放到工作流中，並將其放在[Query](../../automating/using/query.md)活動之後。
+1. 將[擷取檔案](../../automating/using/extract-file.md)活動拖放至工作流程中，並將其置於[Query](../../automating/using/query.md)活動之後。
 
    在此範例中，會對年齡介於 18 至 30 歲的所有設定檔執行查詢。
 
@@ -48,7 +45,7 @@ ht-degree: 67%
       ![](assets/wkf_data_export9.png)
 
 1. 確認您的活動。
-1. 在&#x200B;**[!UICONTROL Extract file]**&#x200B;活動之後拖放[傳輸檔案](../../automating/using/transfer-file.md)活動，以恢復外部帳戶上的提取檔案。
+1. 在&#x200B;**[!UICONTROL Extract file]**&#x200B;活動之後拖放[傳輸檔案](../../automating/using/transfer-file.md)活動，以復原外部帳戶上的擷取檔案。
 1. 開啟活動並選取 **[!UICONTROL File upload]** 動作。
 
    ![](assets/wkf_data_export11.png)

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 開始測試和傳送
 description: 準備、測試、排程、傳送及監控您的訊息。
 audience: sending
@@ -9,7 +7,7 @@ topic-tags: about-sending-messages-with-campaign
 role: User
 level: Intermediate
 exl-id: bcb28ef5-5cad-43c1-b11b-080abc791a72
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 15%

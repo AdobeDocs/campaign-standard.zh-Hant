@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 實施推送追蹤
 description: 本檔案可讓您確保推播通知追蹤已在iOS和Android上正確實作。
 audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
-feature: 執行個體設定
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b983d0a3-c345-44d4-bc82-202bf6ed26ab
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '577'
 ht-degree: 0%
 
 ---

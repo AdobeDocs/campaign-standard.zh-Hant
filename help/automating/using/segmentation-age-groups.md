@@ -1,8 +1,6 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 根據年齡群體細分
-description: 本頁根據資料庫設定檔的年齡群組，呈現資料庫設定檔的分段。 工作流程的目的是為每個年齡群組傳送特定電子郵件。
+description: 此頁面會根據年齡群組呈現資料庫設定檔的分段。 工作流程的目的是為每個年齡群組傳送特定電子郵件。
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -10,14 +8,13 @@ context-tags: segmentation,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: dab7ef86-4776-48f4-be9a-37de316e0dd9
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 65%
+source-wordcount: '198'
+ht-degree: 66%
 
 ---
-
 
 # 根據年齡群體細分 {#segmentation-age-groups}
 
@@ -29,9 +26,9 @@ ht-degree: 65%
 
 工作流程由下列元素組成：
 
-* [調度程式活動](../../automating/using/segmentation.md)以指定工作流的執行日期。
-* [Query](../../automating/using/query.md)活動，用於定位已輸入生日和電子郵件地址的人員的配置檔案。
-* [分段](../../automating/using/segmentation.md)活動，以建立3個分成不同對外轉場的區段：18-25歲，26-32歲，32歲以上。 區段會依據下列參數定義：
+* [排程器活動](../../automating/using/segmentation.md)以指定工作流的執行日期。
+* [Query](../../automating/using/query.md)活動，用於定位已輸入其生日和電子郵件地址的人員的設定檔。
+* [分段](../../automating/using/segmentation.md)活動，用於建立分為不同出站轉變的3個區段：18-25-year年、26-32-year年和超過32歲的設定檔。 區段會依據下列參數定義：
 
    ![](assets/wkf_segment_example_3.png)
 

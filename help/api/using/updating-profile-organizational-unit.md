@@ -1,31 +1,28 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 更新設定檔的組織單位
-description: 瞭解如何使用API更新個人檔案的組織單位。
+description: 了解如何使用API更新設定檔的組織單位。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6ce49aeb-a113-43ee-bfe3-f26a4a9e2a56
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 11%
+source-wordcount: '96'
+ht-degree: 10%
 
 ---
-
 
 # 更新設定檔的組織單位 {#managing-organizational-units}
 
 1. 在&#x200B;**orgUnitBase**&#x200B;資源上執行GET請求以檢索組織單位PKey
-1. 對配置檔案PKey執行PATCH請求，並在裝載中使用所需的組織單位PKey。
+1. 對配置檔案PKey執行PATCH請求，在有效負載中包含所需的組織單位PKey。
 
 <br/>
 
-***請求範例***
+***範例要求***
 
 檢索組織單位清單。
 
@@ -37,7 +34,7 @@ ht-degree: 11%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它返回所有組織單位。 檢索要向其分配配置檔案的設備的PKey。
+它會傳回所有組織單位。 檢索要為其分配配置檔案的單元的PKey。
 
 ```
 {
@@ -53,7 +50,7 @@ ht-degree: 11%
 },
 ```
 
-對配置檔案執行PATCH請求，並在裝載中使用所需組織單元的PKey。
+在設定檔上執行PATCH要求，並在裝載中使用所需組織單位的PKey。
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/<PKEY> \

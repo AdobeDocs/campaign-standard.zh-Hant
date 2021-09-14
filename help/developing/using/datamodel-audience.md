@@ -1,23 +1,20 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: DataModel
-description: 瞭解資料模型
+description: 了解資料模型
 audience: developing
 content-type: reference
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 53da6c4e-d4fb-4677-acff-744e3eb10960
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 5%
+source-wordcount: '207'
+ht-degree: 6%
 
 ---
 
-
-# 觀眾(nms:audience)
+# 對象(nms:audience)
 
 ## 物件說明
 
@@ -36,25 +33,25 @@ ht-degree: 5%
                </tr>
                <tr>
                   <td>aamMappingId</td>
-                  <td>Audience Manager映射ID</td>
+                  <td>Audience Manager對應ID</td>
                   <td>字串(100)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>amcDataSource(amcDataSourceBase)</td>
                   <td>AMC資料來源</td>
-                  <td>link </td>
+                  <td>連結 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>audienceData</td>
-                  <td>預覽選取的人口族群</td>
-                  <td>系列 </td>
+                  <td>預覽所選母體</td>
+                  <td>集合 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>audienceDataSchema</td>
-                  <td>資料架構</td>
+                  <td>資料結構</td>
                   <td>字串(255)</td>
                   <td> </td>
                </tr>
@@ -84,7 +81,7 @@ ht-degree: 5%
                </tr>
                <tr>
                   <td>countPreview</td>
-                  <td>計數預覽</td>
+                  <td>CountPreview</td>
                   <td>項目 </td>
                   <td> </td>
                </tr>
@@ -97,7 +94,7 @@ ht-degree: 5%
                <tr>
                   <td>createdBy(userBase)</td>
                   <td>建立者</td>
-                  <td>link </td>
+                  <td>連結 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -108,7 +105,7 @@ ht-degree: 5%
                </tr>
                <tr>
                   <td>doNotPersist</td>
-                  <td>不要將此作業歷史化</td>
+                  <td>不要將此作業過史化</td>
                   <td>布林值 </td>
                   <td> </td>
                </tr>
@@ -127,7 +124,7 @@ ht-degree: 5%
                <tr>
                   <td>geoUnit(geoUnitBase)</td>
                   <td>地理單位</td>
-                  <td>link </td>
+                  <td>連結 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -138,7 +135,7 @@ ht-degree: 5%
                </tr>
                <tr>
                   <td>isAMC</td>
-                  <td>Adobe Marketing Cloud觀眾</td>
+                  <td>Adobe Marketing Cloud對象</td>
                   <td>布林值 </td>
                   <td> </td>
                </tr>
@@ -151,25 +148,25 @@ ht-degree: 5%
                <tr>
                   <td>jobLogs</td>
                   <td>記錄檔</td>
-                  <td>系列 </td>
+                  <td>集合 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>標籤</td>
+                  <td>label</td>
                   <td>標籤</td>
                   <td>字串(128)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>lastModified</td>
-                  <td>上次修改日期</td>
+                  <td>上次修改時間</td>
                   <td>日期 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>modifiedBy(userBase)</td>
                   <td>修改者</td>
-                  <td>link </td>
+                  <td>連結 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -181,7 +178,7 @@ ht-degree: 5%
                <tr>
                   <td>orgUnit(orgUnitBase)</td>
                   <td>組織單位</td>
-                  <td>link </td>
+                  <td>連結 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -204,13 +201,13 @@ ht-degree: 5%
                </tr>
                <tr>
                   <td>sourceId</td>
-                  <td>來源ID</td>
+                  <td>來源Id</td>
                   <td>整數 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>title</td>
-                  <td>閱聽眾</td>
+                  <td>對象</td>
                   <td>字串(255)</td>
                   <td> </td>
                </tr>
@@ -220,10 +217,10 @@ ht-degree: 5%
                   <td>枚舉（字串）(100)</td>
                   <td>
                      <ul>
-                        <li>查詢——查詢——查詢</li>
-                        <li>清單——清單——清單</li>
-                        <li>檔案——檔案——檔案</li>
-                        <li>無效值- __Invalid_value__ - __Invalid_value__</li>
+                        <li>查詢 — 查詢 — 查詢</li>
+                        <li>清單 — 清單 — 清單</li>
+                        <li>檔案 — 檔案 — 檔案</li>
+                        <li>無效值 — __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
@@ -236,14 +233,14 @@ ht-degree: 5%
                <tr>
                   <td>工作流程（工作流程）</td>
                   <td>工作流程</td>
-                  <td>link </td>
+                  <td>連結 </td>
                   <td> </td>
                </tr>
             </table>
 
-## 濾鏡
+## 篩選器
 
-透過篩選維度(byFilteringResource)
+通過篩選維(byFilteringResource)
 
 <table>
     <tr>
@@ -256,7 +253,7 @@ ht-degree: 5%
     </tr>
 </table>
 
-依名稱或標籤（依Text）
+按名稱或標籤(byText)
 
 <table>
     <tr>
@@ -269,7 +266,7 @@ ht-degree: 5%
     </tr>
 </table>
 
-依類型（依類型）
+按類型(byType)
 
 <table>
     <tr>
@@ -278,7 +275,7 @@ ht-degree: 5%
     </tr>
     <tr>
     <td>type</td>
-    <td>枚舉</td>
+    <td>分項清單</td>
     </tr>
     <tr>
     <td>isAMC</td>

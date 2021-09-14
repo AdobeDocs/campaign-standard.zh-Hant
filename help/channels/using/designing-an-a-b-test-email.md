@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 設計 A/B 測試電子郵件
 description: 探索 A/B 測試功能，並依照以下步驟從 Adobe Campaign 的 A/B 測試範本建立電子郵件。
 audience: channels
 content-type: reference
 topic-tags: email-messages
 context-tags: delivery,abTesting,back;deliveryCreation,wizard;delivery,main
-feature: 電子郵件
+feature: Email
 role: User
 level: Beginner
 exl-id: 07cbf39c-4f53-49b1-8e85-c6df39f014b5
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '817'
 ht-degree: 100%
 
 ---

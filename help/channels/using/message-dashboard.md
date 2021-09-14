@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 訊息儀表板
 description: 探索訊息控制面板的組成，包括動作列和各種功能區塊。
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 context-tags: delivery,main
-feature: 概覽
+feature: Overview
 role: User
 level: Beginner
 exl-id: 886aae39-2029-471c-b4d1-c6ca57d0e568
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '587'
 ht-degree: 4%
 
 ---

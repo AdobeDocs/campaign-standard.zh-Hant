@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 合併連結
 description: 合併連結活動可讓您同步處理工作流的多個執行分支。
 audience: automating
@@ -10,14 +8,13 @@ context-tags: andjoin,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: b03c6df3-0104-4900-9468-46824d62e0a6
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 98%
+source-wordcount: '178'
+ht-degree: 100%
 
 ---
-
 
 # 合併連結{#and-join}
 
@@ -45,4 +42,3 @@ ht-degree: 98%
 下列範例顯示兩個工作流程分支在與 **[!UICONTROL AND-join]** 活動連結之前的情形。只有啟用 **[!UICONTROL AND-join]** 活動的三個入站轉變時，才能擷取檔案。
 
 ![](assets/wkf_and-join_example.png)
-

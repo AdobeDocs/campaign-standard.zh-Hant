@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 使用匯入範本匯入資料
 description: 瞭解如何收集資料以摘要您的 Campaign 資料庫。
 audience: automating
@@ -9,14 +7,13 @@ topic-tags: importing-and-exporting-data
 feature: Workflows
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 5e93b39e-cdd1-4632-8f65-dfa76a735626
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1094'
+source-wordcount: '1090'
 ht-degree: 99%
 
 ---
-
 
 # 使用匯入範本匯入資料{#importing-data-with-import-templates}
 
@@ -45,7 +42,7 @@ ht-degree: 99%
 
 現在可以取得匯入執行的詳細資訊。已匯入的檔案以及包含已拒絕資料（未匯入的資料）的檔案都可以下載至您的電腦。
 
-## 設定導入模板{#setting-up-import-templates}
+## 設定匯入範本 {#setting-up-import-templates}
 
 匯入範本可讓管理員預先定義特定數量的技術匯入設定。之後，這些範本就可以提供給標準使用者執行和上傳檔案。
 

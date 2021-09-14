@@ -1,8 +1,6 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: 使用與目標維度不同的資源
-description: 瞭解如何使用與定位維度不同的資源。
+title: 使用與目標定位維度不同的資源
+description: 了解如何使用與目標維度不同的資源。
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -10,20 +8,19 @@ context-tags: query,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 5805bdfa-fb33-4a46-ba1e-7a10b067349b
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '293'
 ht-degree: 81%
 
 ---
 
+# 使用與目標定位維度不同的資源 {#using-resources-different-from-targeting-dimensions}
 
-# 使用與目標維度　{#using-resources-different-from-targeting-dimensions}　不同的資源
+此使用案例說明如何使用與目標維度不同的資源，例如在遠距表格中尋找特定記錄。
 
-此使用案例說明如何使用與定位維度不同的資源，例如，在遠端表格中尋找特定記錄。
-
-有關定位維度和資源的更多資訊，請參閱[本節](../../automating/using/query.md#targeting-dimensions-and-resources)
+有關目標維度和資源的詳細資訊，請參閱[此區段](../../automating/using/query.md#targeting-dimensions-and-resources)
 
 **範例　1：使用標籤「歡迎回來！」識別傳送所定位的設定檔**。
 

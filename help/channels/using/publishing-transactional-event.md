@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 發佈異動事件
 description: 了解如何預覽、發佈、取消發佈和刪除交易式事件設定。
 audience: channels
@@ -11,7 +9,7 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 6bcd8dcd-d710-4ca3-937d-bf4339f36069
-source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 6%

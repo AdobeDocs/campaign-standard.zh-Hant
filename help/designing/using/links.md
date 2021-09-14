@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 新增連結
 description: 了解如何使用電子郵件設計工具管理連結。
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: 電子郵件設計
+feature: Email Design
 role: User
 level: Intermediate
 exl-id: d1714101-bad0-40c1-8d60-90469d033197
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '592'
 ht-degree: 2%
 
 ---

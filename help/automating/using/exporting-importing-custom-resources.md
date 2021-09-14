@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 匯出/匯入自訂資源
 description: 本教學課程說明如何匯出和匯入自訂資源的套件。
 audience: automating
@@ -9,14 +7,13 @@ topic-tags: data-management-activities
 feature: Workflows
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: f8e7eb96-9541-4d28-9d8d-f06af822debd
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 99%
+source-wordcount: '629'
+ht-degree: 100%
 
 ---
-
 
 # 匯出/匯入自訂資源 {#exporting-importing-custom-resources}
 

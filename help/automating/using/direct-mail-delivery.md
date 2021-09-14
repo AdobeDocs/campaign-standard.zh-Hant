@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 直接郵件傳送
 description: 「直接郵件傳送」活動允許您配置在工作流程中發送單個發送直接郵件或循環發送直接郵件。
 audience: automating
@@ -10,16 +8,15 @@ context-tags: directMail,workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: c7854b7b-f955-47ce-99d6-86b3186fd297
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '918'
-ht-degree: 98%
+source-wordcount: '914'
+ht-degree: 99%
 
 ---
 
-
-# 直接郵件傳送{#direct-mail-delivery}
+# 直接郵件傳遞{#direct-mail-delivery}
 
 ## 說明 {#description}
 
@@ -44,7 +41,7 @@ ht-degree: 98%
 
 **相關主題：**
 
-* [使用案例：將電子郵件與直效郵件傳送結合](../../automating/using/coupling-email-direct-mail.md)
+* [使用案例：將電子郵件與直接郵件傳送耦合](../../automating/using/coupling-email-direct-mail.md)
 * [關於直接郵件](../../channels/using/about-direct-mail.md)
 
 ## 設定 {#configuration}

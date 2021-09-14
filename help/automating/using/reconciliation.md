@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 調解
 description: 「調解」活動可讓您將未標識的資料連結到現有資源。
 audience: automating
@@ -10,14 +8,13 @@ context-tags: reconciliation,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ed2e3793-6164-48af-9043-42dc43fa8ed4
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '482'
 ht-degree: 95%
 
 ---
-
 
 # 調解{#reconciliation}
 
@@ -51,7 +48,7 @@ ht-degree: 95%
 
 * [使用案例：使用關係進行資料協調](../../automating/using/reconciliation-using-relations.md)
 * [使用案例：使用協調功能更新資料](../../automating/using/data-update-reconciliation.md)
-* [使用案例：協調檔案對象與資料庫](../../automating/using/reconcile-file-audience-with-database.md)
+* [使用案例：使用資料庫調解檔案對象](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## 設定 {#configuration}
 

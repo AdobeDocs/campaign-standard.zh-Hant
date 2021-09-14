@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: '建立和使用可重複使用的內容 '
 description: 開始使用電子郵件設計工具建立可重複使用的電子郵件內容。
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: 電子郵件設計
+feature: Email Design
 role: User
 level: Intermediate
 exl-id: 64c3d3dd-0c41-4dbc-abcd-9ddea23759f4
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1821'
+source-wordcount: '1819'
 ht-degree: 1%
 
 ---

@@ -1,40 +1,37 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: 映射啟動
-description: 瞭解如何啟動資料對應
+title: 對應啟動
+description: 了解如何啟動資料對應
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
 feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: d7ca0de6-7f7b-4e31-877c-909d962c5f53
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
 
-
-# 映射啟動 {#mapping-activation}
+# 對應啟動 {#mapping-activation}
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform資料連接器目前正在測試中，可能會在不另行通知的情況下頻繁更新。 客戶必須在Azure上代管（目前僅限北美地區測試版）才能存取這些功能。 如果您想要存取，請聯絡Adobe客戶服務。
+>Adobe Experience Platform Data Connector目前為測試版，可能會經常更新，恕不另行通知。 客戶必須在Azure上托管（目前測試版僅供北美使用），才能存取這些功能。 如果您想要存取權限，請聯絡Adobe客戶服務。
 
-當映射定義完成時，可以發佈映射。 在部署步驟後，將自動啟動Campaign Standard與Adobe Experience Platform之間的資料複製。 您可以隨時按一下&#x200B;**[!UICONTROL Stop]**&#x200B;按鈕來停止複製。
+完成對應定義後，可以發佈對應。 部署步驟後，Campaign Standard和Adobe Experience Platform之間的資料復寫會自動啟動。 您隨時可以按一下&#x200B;**[!UICONTROL Stop]**&#x200B;按鈕來停止復寫。
 
 視您的對應修改而定，您可以選擇將所有記錄重新傳送至Adobe Experience Platform。
 
 ![](assets/aep_publishmapping.png)
 
-從部署圖格中，您可以存取出版物記錄檔並匯出記錄檔。
+從部署表徵圖，您可以訪問發佈日誌和導出日誌。
 
 ![](assets/aep_publog.png)
 
-在&#x200B;**[!UICONTROL Export jobs]**&#x200B;標籤中，您可以監視已發佈映射的導出作業。
+在&#x200B;**[!UICONTROL Export jobs]**&#x200B;標籤中，可以監視已發佈映射的導出作業。
 
 ![](assets/aep_jobstatus.png)
 
@@ -44,27 +41,27 @@ ht-degree: 0%
 
 資料擷取工作狀態為：
 
-* **[!UICONTROL Created]**:建立資料提取作業並正在進行資料提取。
-* **[!UICONTROL Failed]**:資料擷取工作失敗。原因欄位說明失敗的原因。 故障可以是暫時的或永久的。 在發生瞬時故障時，在配置的間隔後建立新的提取作業。 作為疑難排解的第一步，使用者可以檢查失敗的原因欄位。 如果原因將使用者重新導向至Adobe Experience PlatformUI，使用者可登入Adobe Experience Platform，並可檢查資料集中的批次狀態，以判斷確切的失敗原因。
-* **[!UICONTROL Uploaded]**:首先在Adobe Experience Platform建立批，然後將資料吸收到該批。批次ID欄位顯示批次在Adobe Experience Platform的批次ID。 Adobe Experience Platform也會對批執行後置驗證。 批次會先標示為已上傳，直到Adobe Experience Platform完成貼文驗證步驟為止。 作業在上傳後持續輪詢Adobe Experience Platform批的狀態。 批可以在Adobe Experience Platform的「失敗」或「成功」狀態的貼文驗證中進行。
-* **[!UICONTROL Success]**:在將批上傳到Adobe Experience Platform後，作業的狀態（平台中的後驗證）在配置的時間間隔後被檢查。「成功」狀態在Adobe Experience Platform識別了成功的資料擷取。
+* **[!UICONTROL Created]**:已建立資料擷取工作，且資料擷取正在進行中。
+* **[!UICONTROL Failed]**:資料獲取作業失敗。原因欄位描述了失敗的原因。 故障可能是暫時的或永久的。 如果發生暫時性故障，則會在設定的間隔後建立新的擷取作業。 作為疑難排解的第一步，使用者可以檢查失敗的原因欄位。 如果原因將使用者重新導向至Adobe Experience Platform UI，則使用者可登入Adobe Experience Platform，並檢查資料集中的批次狀態，以判斷確切的失敗原因。
+* **[!UICONTROL Uploaded]**:系統會先在Adobe Experience Platform中建立批次資料，接著將資料內嵌至該批次。批次ID欄位會顯示Adobe Experience Platform中批次的批次ID。 Adobe Experience Platform也會對批次執行貼文驗證。 批次會先標示為已上傳，直到Adobe Experience Platform完成貼文驗證步驟為止。 工作會在上傳後持續輪詢Adobe Experience Platform的批次狀態。 批次可在Adobe Experience Platform中進入「失敗」或「成功」狀態，進行貼文驗證。
+* **[!UICONTROL Success]**:將批次上傳至Adobe Experience Platform後，系統會在設定的間隔後檢查作業狀態（平台中的驗證後）。狀態「成功」在Adobe Experience Platform中識別了成功擷取資料。
 
 在某些情況下，發佈對應時，您可能會收到以下驗證錯誤。
 
 ![](assets/aep_datamapping_ccpa.png)
 
-當您使用的XDM架構未更新為與隱私權管理相關的最新XDM欄位，且仍包含已過時的「ccpa」 XDM欄位時，就會發生此情況。
+使用的XDM架構未更新為與隱私權管理相關的最新XDM欄位，且仍包含已棄用的「ccpa」XDM欄位時，即會發生此情況。
 
-要更新XDM模式，請執行以下步驟：
+若要更新XDM結構，請執行下列步驟：
 
-1. 使用XDM對應頁面上的連結，前往Adobe Experience Platform的資料集。
+1. 使用XDM對應頁面上顯示的連結，前往Adobe Experience Platform上的資料集。
 
-1. 導覽至您的XDM架構。
+1. 導覽至您的XDM結構。
 
 1. 將&#x200B;**[!UICONTROL Profile Privacy]** mixin新增至架構。
 
    ![](assets/aep_datamapping_privacyfield.png)
 
-1. 儲存結構，然後重新嘗試發佈對應。 出版物現在應該通過。
+1. 儲存結構，然後重試發佈對應。 出版物現在應已通過。
 
    ![](assets/aep_save_mapping.png)

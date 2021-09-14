@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: 傳送包含擴充欄位的電子郵件
+title: 傳遞包含擴充欄位的電子郵件
 description: 以下範例說明如何透過載入檔案活動，使用從外部檔案擷取的其他資料來傳送電子郵件。
 audience: automating
 content-type: reference
@@ -10,16 +8,15 @@ context-tags: fileImport,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 5ca7571d-d4d2-4b59-86d4-4f1f3a620b54
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 74%
+source-wordcount: '351'
+ht-degree: 75%
 
 ---
 
-
-# 傳送包含擴充欄位的電子郵件 {#sending-email-enriched-fields}
+# 傳遞包含擴充欄位的電子郵件 {#sending-email-enriched-fields}
 
 <!--A new example showing how to send an email containing additional data retrieved from a load file activity has been added. [Read more](example-2-email-with-enriched-fields)-->
 
@@ -29,17 +26,17 @@ ht-degree: 74%
 
 ![](assets/load_file_workflow_ex2.png)
 
-若要建立工作流程，請依照下列步驟進行：
+若要建立工作流程，請遵循下列步驟：
 
-1. 將[Query](../../automating/using/query.md)活動拖放到工作流中，然後將其開啟以定義主目標。
+1. 將[Query](../../automating/using/query.md)活動拖放至工作流程中，並開啟它以定義主要目標。
 
    <!--The Query activity is presented in the [Query](../../automating/using/query.md) section.-->
 
-1. 拖放[載入檔案](../../automating/using/load-file.md)活動，以指派部分資料至描述檔。 在此範例中，載入包含與資料庫之一些設定檔相對應帳號的檔案。
+1. 拖放[載入檔案](../../automating/using/load-file.md)活動，以指派部分資料至設定檔。 在此範例中，載入包含與資料庫之一些設定檔相對應帳號的檔案。
 
    ![](assets/load_file_activity.png)
 
-1. 將[Enrichment](../../automating/using/enrichment.md)活動拖放至您的工作流程中，並將載入檔案和查詢活動連結至工作流程。
+1. 將[擴充](../../automating/using/enrichment.md)活動拖放至工作流程，並將載入檔案和查詢活動連結至工作流程。
 
 1. 在擴充活動的 **[!UICONTROL Advanced relations]** 索引標籤中，選取 **[!UICONTROL 0 or 1 cardinality simple link]** 並定義要用於調解的欄位。在此處，我們會使用姓氏來調整資料和資料庫設定檔。
 
@@ -59,7 +56,7 @@ ht-degree: 74%
 
    如需詳細資訊，請參閱[分段](../../automating/using/segmentation.md)區段。
 
-1. 將[電子郵件傳送](../../automating/using/email-delivery.md)活動拖放至您的工作流程並開啟。
+1. 將[電子郵件傳送](../../automating/using/email-delivery.md)活動拖放至工作流程並開啟。
 
    <!--The Email delivery activity is presented in the [Email delivery](../../automating/using/email-delivery.md) section.-->
 

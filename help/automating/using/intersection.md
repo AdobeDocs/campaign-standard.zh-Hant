@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 交集
 description: 「交集」活動可讓您僅保留活動中不同入站母體的共同元素。
 audience: automating
@@ -9,14 +7,13 @@ topic-tags: targeting-activities
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 2a6a851c-df91-472b-a8a4-0b3876d51c1d
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 98%
+source-wordcount: '285'
+ht-degree: 100%
 
 ---
-
 
 # 交集{#intersection}
 
@@ -50,4 +47,3 @@ ht-degree: 98%
 以下範例會顯示兩個查詢活動之間的交集。此處用於查看　Adobe Campaign　資料庫，以及擷取年齡介於　18　到　27　歲之間的設定檔，以及分別提供電子郵件地址的設定檔。
 
 ![](assets/wkf_intersection_example.png)
-

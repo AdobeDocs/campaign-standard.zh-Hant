@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 更新資料庫結構
 description: 瞭解如何更新 Adobe Campaign 資料庫。
 audience: developing
@@ -10,14 +8,13 @@ context-tags: deploy,main;eventCusResource,overview
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: fa39eb54-9ec0-4aff-94a8-5459f4c496d0
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '739'
-ht-degree: 98%
+source-wordcount: '735'
+ht-degree: 99%
 
 ---
-
 
 # 更新資料庫結構{#updating-the-database-structure}
 
@@ -33,7 +30,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->如果修改或刪除用於事件之自訂資源的欄位，則相對應的事件將會自動取消發佈。請參閱[取消發佈事務性事件](../../channels/using/publishing-transactional-event.md#unpublishing-an-event)。
+>如果修改或刪除用於事件之自訂資源的欄位，則相對應的事件將會自動取消發佈。請參閱[取消發佈交易式事件](../../channels/using/publishing-transactional-event.md#unpublishing-an-event)。
 
 1. 從進階功能表，透過 Adobe Campaign 標誌，依序選取 **[!UICONTROL Administration]** > **[!UICONTROL Development]** 及 **[!UICONTROL Publishing]**。
 1. 依預設，會核取 **[!UICONTROL Determine modifications since the last publication]** 選項，這代表僅會套用自上次更新後所進行的變更。

@@ -1,8 +1,6 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 追蹤指標
-description: 透過現成可用的追蹤指標報表，瞭解客戶在收到電子郵件訊息時的行為。
+description: 透過現成可用的追蹤指標報表，了解客戶收到電子郵件訊息時的行為。
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -10,31 +8,29 @@ context-tags: deliveryTrackingReports,main;campaignTrackingReport,main;programTr
 feature: Reporting
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 5071c124-07b7-49c3-8f36-5928ded3c544
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 3%
+source-wordcount: '149'
+ht-degree: 2%
 
 ---
 
-
 # 追蹤指標{#tracking-indicators}
 
-**[!UICONTROL Tracking indicators]**&#x200B;報表包含在收到電子郵件訊息後追蹤行為的關鍵指標。
+**[!UICONTROL Tracking indicators]**&#x200B;報表包含收到電子郵件訊息後追蹤行為的關鍵指標。
 
 >[!NOTE]
 >
->若要存取此資料，必須在準備傳送時啟用追蹤。
+>若要存取此資料，在準備傳送時必須啟用追蹤。
 
 ![](assets/delivery_reports_2.png)
 
-**[!UICONTROL Tracking indicators]**&#x200B;表格和&#x200B;**前5項傳送**&#x200B;圖表包含電子郵件追蹤的可用資料，例如：
+**[!UICONTROL Tracking indicators]**&#x200B;表格和&#x200B;**前5個傳送**&#x200B;圖表包含可用於電子郵件追蹤的資料，例如：
 
-* **[!UICONTROL Delivered]**:成功發送的消息數。已引發的錯誤（彈回數）會納入考量。 但是，投訴（垃圾郵件聲明）和離開郵件（如「不在辦公室」）並不考慮在內。
-* **開啟**:傳送中訊息開啟的次數。
-* **按一下**:內容在傳送中被點按的次數。
+* **[!UICONTROL Delivered]**:已成功發送的消息數。引發的錯誤（退信）會納入考量。 但是，投訴（垃圾郵件宣告）和離職訊息（例如「離職」）並未納入考量。
+* **開啟**:傳遞中開啟訊息的次數。
+* **按一下**:傳送中內容的點按次數。
 * **取消訂閱**:訂閱連結的點按次數。
-* **垃圾訊** 息：宣告電子郵件為垃圾訊息的收件者數。
-* **鏡像頁**:鏡像頁連結上的點擊次數。
-
+* **垃圾郵件：** 已宣告電子郵件為垃圾郵件的收件人數。
+* **鏡像頁**:鏡像頁面連結上的點按次數。

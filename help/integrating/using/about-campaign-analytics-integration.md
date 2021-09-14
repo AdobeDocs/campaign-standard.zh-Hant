@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 關於 Campaign-Analytics 整合
 description: 透過從Adobe Campaign Standard收集KPI資料，您現在可以與Adobe Analytics共用促銷活動資料，以測量來自Adobe Campaign的電子郵件行銷量度。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
-feature: 觸發因子
+feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: ada1a5d1-879b-49cd-b4ef-43d7a40bafdb
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 7%
+source-wordcount: '206'
+ht-degree: 6%
 
 ---
 
@@ -36,4 +34,4 @@ Adobe Campaign Standard與Adobe Analytics之間的這項整合可讓您：
 
 * [Campaign Standard到Analytics整合概述](https://experienceleague.adobe.com/docs/analytics/integration/adobe-campaign.html)
 * [設定Campaign Standard整合](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html)
-* [Analytics 中的 Campaign 維度和度量](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
+* [Analytics 中的 Campaign 維度和量度](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)

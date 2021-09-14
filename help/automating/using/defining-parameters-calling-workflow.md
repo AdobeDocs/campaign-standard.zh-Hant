@@ -1,45 +1,42 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 使用外部參數呼叫工作流程
-description: 本節詳細說明如何使用外部參數調用工作流。
+description: 本節詳細說明如何使用外部參數呼叫工作流程。
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: f7de0186-4136-4603-8f80-9f58c641cd9d
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '188'
 ht-degree: 13%
 
 ---
 
-
 # 在呼叫工作流程時定義參數 {#defining-the-parameters-when-calling-the-workflow}
 
-本節詳細說明如何在調用工作流時定義參數。 有關如何從API調用執行此操作的詳細資訊，請參閱[REST APIs文檔](../../api/using/triggering-a-signal-activity.md)。
+本節詳細說明在呼叫工作流程時如何定義參數。 如需如何從API呼叫執行此作業的詳細資訊，請參閱[REST API檔案](../../api/using/triggering-a-signal-activity.md)。
 
-在定義參數之前，請確定：
+定義參數之前，請確定：
 
-* 參數已在&#x200B;**[!UICONTROL External Signal]**&#x200B;活動中聲明。 請參閱[本頁](../../automating/using/declaring-parameters-external-signal.md)。
-* 包含信號活動的工作流正在運行。
+* 已在&#x200B;**[!UICONTROL External Signal]**&#x200B;活動中宣告參數。 請參閱[此頁面](../../automating/using/declaring-parameters-external-signal.md)。
+* 包含訊號活動的工作流程正在執行。
 
-要配置&#x200B;**[!UICONTROL End]**&#x200B;活動，請遵循以下步驟：
+若要設定&#x200B;**[!UICONTROL End]**&#x200B;活動，請遵循下列步驟：
 
 1. 開啟&#x200B;**[!UICONTROL End]**&#x200B;活動，然後選取&#x200B;**[!UICONTROL External signal]**&#x200B;標籤。
-1. 選擇要調用的工作流和外部信號活動。
+1. 選取您要呼叫的工作流程和外部訊號活動。
 1. 按一下&#x200B;**[!UICONTROL Create element]**&#x200B;按鈕以新增參數，然後填入其名稱和值。
 
-   * **[!UICONTROL Name]**:已在活動中宣告的名 **[!UICONTROL External signal]** 稱(請參 [閱本頁](../../automating/using/declaring-parameters-external-signal.md))。
+   * **[!UICONTROL Name]**:已在活動中宣告的名稱( **[!UICONTROL External signal]** 請參閱 [本頁面](../../automating/using/declaring-parameters-external-signal.md))。
    * **[!UICONTROL Value]**:要指派給參數的值。值應遵循&#x200B;**標準語法**，如[本節](../../automating/using/advanced-expression-editing.md#standard-syntax)所述。
 
    ![](assets/extsignal_definingparameters_2.png)
 
    >[!CAUTION]
    >
-   >請確定&#x200B;**[!UICONTROL External signal]**&#x200B;活動中已聲明所有參數。 否則，執行活動時將發生錯誤。
+   >請確定所有參數都已在&#x200B;**[!UICONTROL External signal]**&#x200B;活動中宣告。 否則，執行活動時將發生錯誤。
 
-1. 定義參數後，請確認活動，然後儲存您的工作流程。
+1. 定義參數後，確認活動，然後儲存您的工作流程。

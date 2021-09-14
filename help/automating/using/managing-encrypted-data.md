@@ -1,25 +1,23 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 管理已加密的資料
 description: 了解如何管理加密資料。
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
-feature: 工作流程
+feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: 1df1552a-6578-47eb-ba14-fb91cd2a3999
-source-git-commit: 05e7de6d59420f532e0095ddb1fd7f158519518b
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '924'
 ht-degree: 5%
 
 ---
 
 # 管理已加密的資料 {#managing-encrypted-data}
 
-## 關於預處理階段{#about-preprocessing-stages}
+## 關於預處理階段 {#about-preprocessing-stages}
 
 在某些情況下，您要匯入Campaign伺服器的資料可能需要加密，例如，若包含PII資料。
 
@@ -43,7 +41,7 @@ ht-degree: 5%
 * [載入檔案](../../automating/using/load-file.md)
 * [擷取檔案](../../automating/using/extract-file.md)
 
-## 使用案例：匯入使用「控制面板」 {#use-case-gpg-decrypt}產生的金鑰加密的資料
+## 使用案例：匯入使用「控制面板」產生的金鑰加密的資料 {#use-case-gpg-decrypt}
 
 在此使用案例中，我們將建立工作流程，以使用「控制面板」中產生的金鑰，匯入已在外部系統加密的資料。
 
@@ -87,7 +85,7 @@ ht-degree: 5%
 
 1. 您現在可以執行工作流程。
 
-## 使用案例：使用安裝在控制面板{#use-case-gpg-encrypt}上的密鑰加密和導出資料
+## 使用案例：使用安裝在控制面板上的金鑰加密和匯出資料 {#use-case-gpg-encrypt}
 
 在此使用案例中，我們將建置工作流程，使用「控制面板」上安裝的金鑰來加密和匯出資料。
 

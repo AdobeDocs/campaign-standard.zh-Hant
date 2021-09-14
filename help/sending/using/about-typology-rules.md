@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 關於類型與類型規則
 description: 探索 Adobe Campaign 中的類型與類型規則如何運作。
 audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
 context-tags: typology,overview;typologyRule,main;typologyRule,overview
-feature: 態樣規則
+feature: Typology Rules
 role: User
 level: Intermediate
 exl-id: dff72856-d28c-45c4-a073-12cc25f51f23
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '190'
 ht-degree: 100%
 
 ---

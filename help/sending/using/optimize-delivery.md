@@ -1,20 +1,18 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 最佳化訊息傳送
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: 了解如何保護並最佳化上游的傳送程式。
-feature: 達成能力
+feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 28b0cf6d-c1f1-4d55-b9bc-0d6bfb063471
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '747'
-ht-degree: 8%
+source-wordcount: '746'
+ht-degree: 7%
 
 ---
 
@@ -66,7 +64,7 @@ ht-degree: 8%
 
 **提示**
 
-* 在傳送分析期間，預設會排除被隔離的收件者：它們不是目標。 這會加快傳送速度，因為錯誤率對傳送速度有顯著影響。例如，收件匣已滿或地址不存在時，可以隔離電子郵件地址。 [深入瞭解](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses)
+* 在傳送分析期間，預設會排除被隔離的收件者：它們不是目標。 這會加快傳送速度，因為錯誤率對傳送速度有顯著影響。例如，收件匣已滿或地址不存在時，可以隔離電子郵件地址。 [瞭解更多](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses)
 
 * Adobe Campaign會根據傳回的錯誤類型來管理錯誤位址。 如需詳細資訊，請參閱[本章節](../../sending/using/understanding-quarantine-management.md)。
 

@@ -8,7 +8,7 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 7ef0712e-4e42-41c8-9382-fbbd06edfdd9
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '2696'
 ht-degree: 0%
@@ -159,7 +159,7 @@ Adobe Campaign支援在相同外部帳戶上處理多個短代碼。
 
 如果您已修復所有內容，但提供程式的緩衝區中仍有一些無效的SR，則可以使用&#x200B;**無效ID確認計數**&#x200B;選項跳過它們。 這應謹慎使用，並在緩衝區清除後盡快重設為0。
 
-## 處理MO時發生的問題（和黑名單/自動回覆）{#issue-process-MO}
+## 處理MO時發生的問題（和封鎖清單/自動回覆）{#issue-process-MO}
 
 * 在測試期間啟用SMPP跟蹤。 如果不啟用TLS，則在診斷MO時應執行網路捕獲，以檢查PDU是否包含正確的資訊且格式正確。
 

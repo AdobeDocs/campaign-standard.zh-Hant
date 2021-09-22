@@ -8,7 +8,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '4623'
 ht-degree: 5%
@@ -133,19 +133,19 @@ _自訂資源_
 
 _平台_
 
-* 有些客戶需要能善用來自Adobe Campaign Standard的ID，因為他們不需要管理唯一索引鍵來識別自己的記錄。 此ID(**ACS ID**)可匯出，也可在更新資料時作為調解金鑰使用。 如需詳細資訊，請參閱[詳細文件](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)，以瞭解詳情。
+* 有些客戶需要能善用來自Adobe Campaign Standard的ID，因為他們不需要管理唯一索引鍵來識別自己的記錄。 此ID(**ACS ID**)可匯出，也可在更新資料時作為調解金鑰使用。 如需詳細資訊，請參閱[詳細文件](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)。
 * FTP通訊協定即將淘汰。 您現在應改用SFTP。 為了不封鎖現有實作，FTP上的現有設定仍如以前般運作，但新活動不會顯示選項。
 
 _電子郵件、簡訊和直接郵件_
 
-* 現在可以建立新的警報標準，以便在傳送警報通知中使用這些標準。 如需詳細資訊，請參閱[詳細文件](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion)，以瞭解詳情。
+* 現在可以建立新的警報標準，以便在傳送警報通知中使用這些標準。 如需詳細資訊，請參閱[詳細文件](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion)。
 * 傳送警報通知有新的設計，傳送警報控制面板的使用者體驗已改善。
 * 現在，當傳送外部帳戶遭停用時，受影響的傳送（電子郵件、簡訊及推播）中會顯示警告，而且這些傳送中會隱藏&#x200B;**預覽**&#x200B;按鈕。
 * 修正在主旨行中啟用動態文字時，造成電子郵件內容的A/B測試預覽錯誤的問題。
 
 _異動訊息_
 
-* 現在可以定義您要在何時傳送後續訊息，例如在傳送交易式訊息後3天。 如需詳細資訊，請參閱[詳細文件](../../channels/using/follow-up-messages.md#sending-a-follow-up-message)，以瞭解詳情。
+* 現在可以定義您要在何時傳送後續訊息，例如在傳送交易式訊息後3天。 如需詳細資訊，請參閱[詳細文件](../../channels/using/follow-up-messages.md#sending-a-follow-up-message)。
 * 現在可以定義應傳送連結至事件的交易式訊息的開始日期。
 * 修正在刪除連結至已接收和已處理事件的設定檔後，執行包含後續訊息的工作流程時，造成SQL錯誤的問題。
 * 修正無法刪除連結至事件的設定檔的錯誤。
@@ -154,7 +154,7 @@ _異動訊息_
 
 _報告_
 
-* 改善「**熱點點按**」報表。 此外，現在可以根據傳送中定義的每個條件式內容顯示熱門點按，並針對每次執行循環傳送或交易式訊息顯示熱門點按。 如需詳細資訊，請參閱[詳細文件](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion)，以瞭解詳情。
+* 改善「**熱點點按**」報表。 此外，現在可以根據傳送中定義的每個條件式內容顯示熱門點按，並針對每次執行循環傳送或交易式訊息顯示熱門點按。 如需詳細資訊，請參閱[詳細文件](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion)。
 * 修正隔離量度無法擷取正確資料的問題。
 * 日曆介面工具集新增了新的預設時間範圍。
 * [動態報表量度](../../reporting/using/indicator-calculation.md)和[促銷活動的KPI](../../sending/using/confirming-the-send.md)（顯示在已傳送訊息的控制面板上）已對齊，以提高一致性。
@@ -171,7 +171,7 @@ _整合_
 
 _設定檔與對象_
 
-* Adobe Campaign現在提供顯示作用中設定檔數目的報表。 此報表僅提供資訊，對帳單沒有直接影響。 如需詳細資訊，請參閱[詳細文件](../../audiences/using/active-profiles.md)，以瞭解詳情。
+* Adobe Campaign現在提供顯示作用中設定檔數目的報表。 此報表僅提供資訊，對帳單沒有直接影響。 如需詳細資訊，請參閱[詳細文件](../../audiences/using/active-profiles.md)。
 * 修正使用「設定檔與服務API」時，設定檔無法訂閱服務的問題。
 
 ## 發行版本 17.7 – 2017 年 7 月 {#release-17-7---july-2017}
@@ -188,27 +188,27 @@ _設定檔與對象_
  <tbody> 
   <tr> 
    <td> 多語言電子郵件和簡訊傳送<br /> </td> 
-   <td> 根據您自動細分客戶偏好的語言，透過單一傳送定義並執行多語言電子郵件和簡訊傳送。 報告每次傳送的效能，包括語言和個別層級。<br /> 隨著內外內容的發展，越來越多的公司面臨著以多種語言提供內容的挑戰。因此，精簡本地化報文傳送是跨國公司有效客戶溝通戰略的關鍵部分；多語言國家/地區的公司；以及想要在語言層級進一步個人化其內容的公司，無論客戶位於何處。 如需詳細資訊，請參閱<a href="../../channels/using/creating-a-multilingual-email.md">詳細文件</a>，以瞭解詳情。<br /> </td> 
+   <td> 根據您自動細分客戶偏好的語言，透過單一傳送定義並執行多語言電子郵件和簡訊傳送。 報告每次傳送的效能，包括語言和個別層級。<br /> 隨著內外內容的發展，越來越多的公司面臨著以多種語言提供內容的挑戰。因此，精簡本地化報文傳送是跨國公司有效客戶溝通戰略的關鍵部分；多語言國家/地區的公司；以及想要在語言層級進一步個人化其內容的公司，無論客戶位於何處。 如需詳細資訊，請參閱<a href="../../channels/using/creating-a-multilingual-email.md">詳細文件</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> Adobe Campaign通知<br /> </td> 
-   <td> 直接在Adobe Campaign Standard內接收有關重要系統活動的通知。 例如，系統會通知您進行中傳送的進度，或工作流程發生錯誤時。<br /> 即時通知可隨時向相關利害關係人提供相關資訊，讓使用者能夠立即直接從應用程式內對活動通知採取行動。團隊的結果是進階的靈活性、效率，以及更順暢的行銷活動執行。 如需詳細資訊，請參閱<a href="../../administration/using/sending-internal-notifications.md">詳細文件</a>，以瞭解詳情。<br /> </td> 
+   <td> 直接在Adobe Campaign Standard內接收有關重要系統活動的通知。 例如，系統會通知您進行中傳送的進度，或工作流程發生錯誤時。<br /> 即時通知可隨時向相關利害關係人提供相關資訊，讓使用者能夠立即直接從應用程式內對活動通知採取行動。團隊的結果是進階的靈活性、效率，以及更順暢的行銷活動執行。 如需詳細資訊，請參閱<a href="../../administration/using/sending-internal-notifications.md">詳細文件</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 傳送警報<br /> </td> 
-   <td> 除了直接在Adobe Campaign Standard中檢視通知外，Adobe Campaign現在也提供電子郵件警報系統，以針對重要系統活動向使用者或外部利害關係人觸發電子郵件警報。 建立、管理和接收可自訂的警報和控制面板，以追蹤傳送的成功或失敗。<br /> Adobe Campaign傳送警報透過電子郵件和控制面板，讓公司中所有參與的Adobe Campaign使用者自動得知傳送執行狀態，進而提高效率。如需詳細資訊，請參閱<a href="../../sending/using/receiving-alerts-when-failures-happen.md">詳細文件</a>，以瞭解詳情。<br /> </td> 
+   <td> 除了直接在Adobe Campaign Standard中檢視通知外，Adobe Campaign現在也提供電子郵件警報系統，以針對重要系統活動向使用者或外部利害關係人觸發電子郵件警報。 建立、管理和接收可自訂的警報和控制面板，以追蹤傳送的成功或失敗。<br /> Adobe Campaign傳送警報透過電子郵件和控制面板，讓公司中所有參與的Adobe Campaign使用者自動得知傳送執行狀態，進而提高效率。如需詳細資訊，請參閱<a href="../../sending/using/receiving-alerts-when-failures-happen.md">詳細文件</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 資料源中的加密聲明ID<br /> </td> 
-   <td> 使用加密的連絡資訊（電子郵件地址或電話號碼）做為宣告ID，即可直接傳送電子郵件和簡訊觸發器，而不需要Campaign中的現有設定檔。 因為Adobe Campaign Standard可解碼加密宣告ID,Campaign現在可以在接收來自其他Experience Cloud解決方案（包含先前未知的連絡人）的閱聽眾時，建立新的可行銷設定檔。<br /> 透過電子郵件和簡訊即時鎖定客戶和未知潛在客戶，分別提升現有客戶群的忠誠度和贏取新客戶。潛在客戶一經驗證，並在Adobe Campaign中運用這些深入分析後，即可充分利用您的第一方Cookie資料(來自Adobe Audience Manager*)。 <br /> *需要Adobe Audience Manager。如需詳細資訊，請參閱<a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">詳細文件</a>，以瞭解詳情。<br /> </td> 
+   <td> 使用加密的連絡資訊（電子郵件地址或電話號碼）做為宣告ID，即可直接傳送電子郵件和簡訊觸發器，而不需要Campaign中的現有設定檔。 因為Adobe Campaign Standard可解碼加密宣告ID,Campaign現在可以在接收來自其他Experience Cloud解決方案（包含先前未知的連絡人）的閱聽眾時，建立新的可行銷設定檔。<br /> 透過電子郵件和簡訊即時鎖定客戶和未知潛在客戶，分別提升現有客戶群的忠誠度和贏取新客戶。潛在客戶一經驗證，並在Adobe Campaign中運用這些深入分析後，即可充分利用您的第一方Cookie資料(來自Adobe Audience Manager*)。 <br /> *需要Adobe Audience Manager。如需詳細資訊，請參閱<a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">詳細文件</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 從Campaign將KPI共用至Analytics<br /> </td> 
-   <td> 與Adobe Analytics共用行銷活動資料，以測量Campaign的電子郵件行銷量度，以及透過轉換的其他行銷和廣告工作，統一點按前和點按後行為。<br /> 直接追蹤整體效能，並發現與Analytics中外部程式的協同效應。將您從此整合檢視中學到的內容套用回行銷活動中；最終改善開放、點進和轉換率，提升收入和整體促銷活動績效。 <br /> Adobe Analytics為必要項目。如需詳細資訊，請參閱<a href="../../integrating/using/about-campaign-analytics-integration.md">詳細文件</a>，以瞭解詳情。<br /> </td> 
+   <td> 與Adobe Analytics共用行銷活動資料，以測量Campaign的電子郵件行銷量度，以及透過轉換的其他行銷和廣告工作，統一點按前和點按後行為。<br /> 直接追蹤整體效能，並發現與Analytics中外部程式的協同效應。將您從此整合檢視中學到的內容套用回行銷活動中；最終改善開放、點進和轉換率，提升收入和整體促銷活動績效。 <br /> Adobe Analytics為必要項目。如需詳細資訊，請參閱<a href="../../integrating/using/about-campaign-analytics-integration.md">詳細文件</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 直接郵件通道 — 返回給發件人<br /> </td> 
-   <td> 現在支援與包含「回傳至寄件者」資訊的直接郵件提供者進行一般檔案交換。 這項對「直接郵件」管道的增強功能可將對應的郵遞區號排除在未來通訊之外。<br /> 這可讓行銷人員收到不正確地址的通知，並透過其他管道與客戶互動，或鼓勵他更新其郵遞區號。這也可減少行銷人員避免將郵件傳送至錯誤地址時浪費的行銷資金數量。 <br /> 「直接郵件」可作為附加通道使用。如需詳細資訊，請參閱<a href="../../channels/using/return-to-sender.md">詳細文件</a>，以瞭解詳情。<br /> </td> 
+   <td> 現在支援與包含「回傳至寄件者」資訊的直接郵件提供者進行一般檔案交換。 這項對「直接郵件」管道的增強功能可將對應的郵遞區號排除在未來通訊之外。<br /> 這可讓行銷人員收到不正確地址的通知，並透過其他管道與客戶互動，或鼓勵他更新其郵遞區號。這也可減少行銷人員避免將郵件傳送至錯誤地址時浪費的行銷資金數量。 <br /> 「直接郵件」可作為附加通道使用。如需詳細資訊，請參閱<a href="../../channels/using/return-to-sender.md">詳細文件</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -408,7 +408,7 @@ _推播通知_
     <ul> 
      <li> 所有收件者都會收到訊息，其時區已納入考量。 </li> 
      <li> 每個收件者在公式定義的計算日期和時間接收訊息。 </li> 
-    </ul> 如需詳細資訊，請參閱<a href="../../sending/using/optimizing-the-sending-time.md">詳細文件</a>，以瞭解詳情。<br /> </td> 
+    </ul> 如需詳細資訊，請參閱<a href="../../sending/using/optimizing-the-sending-time.md">詳細文件</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 推播通知新功能<br /> </td> 
@@ -419,7 +419,7 @@ _推播通知_
      <li> 互動式推播 </li> 
      <li> 豐富內容支援 </li> 
      <li> 有效負載大小計算器 </li> 
-    </ul> 如需詳細資訊，請參閱<a href="../../channels/using/about-push-notifications.md">詳細文件</a>，以瞭解詳情。<br /> </td> 
+    </ul> 如需詳細資訊，請參閱<a href="../../channels/using/about-push-notifications.md">詳細文件</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 工作流程：新信號活動<br /> </td> 
@@ -427,7 +427,7 @@ _推播通知_
     <ul> 
      <li> <span class="uicontrol"></span> 結束活動：新索引標籤可讓您指定在此活動執行後觸發的工作流程。 </li> 
      <li> <span class="uicontrol">更新</span> 資料活動：使用新的空的匯出轉變來新增觸發另 <strong></strong> 一個工作流程的結束活動。空的出站轉變不會攜帶任何資料，也不會佔用系統上不必要的空間 </li> 
-    </ul> 如需詳細資訊，請參閱<a href="../../automating/using/external-signal.md">詳細文件</a>，以瞭解詳情。<br /> </td> 
+    </ul> 如需詳細資訊，請參閱<a href="../../automating/using/external-signal.md">詳細文件</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 工作流程：新讀取閱聽眾活動<br /> </td> 
@@ -493,7 +493,7 @@ _工作流程_
      <li> 在訊息中包含取消訂閱連結。 </li> 
      <li> 將交易式訊息新增至全域傳送報告。 </li> 
      <li> 在客戶歷程中善用交易式訊息。 </li> 
-    </ul> 如需詳細資訊，請參閱<a href="../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities">詳細文件</a>，以瞭解詳情。<br /> </td> 
+    </ul> 如需詳細資訊，請參閱<a href="../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities">詳細文件</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 交易式傳訊API<br /> </td> 

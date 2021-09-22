@@ -8,7 +8,7 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: ef045e5d-cd02-44a0-9a1e-d468483a38d9
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 3%
@@ -68,7 +68,7 @@ Adobe Campaign Standard提供API，可讓現有系統與Campaign平台整合，�
 
    ![替代文字](assets/postman_uc2.png)
 
-1. 建立對象後，主鍵(PKey)便與其關聯。 它會顯示在請求回應以及其他屬性中。
+1. 建立對象後，主鍵(PKey)便與其關聯。 它會顯示在請求回應中，以及其他屬性中。
 
    ![替代文字](assets/postman_uc3.png)
 

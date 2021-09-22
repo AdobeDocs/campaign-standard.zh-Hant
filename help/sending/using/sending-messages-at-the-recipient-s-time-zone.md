@@ -8,16 +8,16 @@ feature: Proofs
 role: User
 level: Intermediate
 exl-id: 48f222bd-9c2f-4eeb-a12b-bbfc62119024
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '375'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
 # 在收件者的時區傳送訊息{#sending-messages-at-the-recipient-s-time-zone}
 
-在管理日期與時間很重要的行銷活動時，您可以排程將每位收件者的當地時間納入考量之傳遞： 他們將在自己的時區內依照您所排程之時間，收到電子郵件、簡訊或推播通知。
+在管理日期和時間很重要的促銷活動時，您可以排程將每個收件者的當地時間納入考量的傳送：他們會在您排程的時區內收到電子郵件、簡訊或推播通知。
 
 >[!NOTE]
 >

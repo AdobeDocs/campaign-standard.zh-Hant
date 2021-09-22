@@ -8,9 +8,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 41366b6fa7647dbf0e4e5df71e2755189f4ffc42
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '1076'
 ht-degree: 100%
 
 ---
@@ -96,7 +96,7 @@ ht-degree: 100%
 
 * 在連結至 Adobe Experience Manager 內容的工作流程中建立循環傳送時，現在會在傳送前檢查內容核准狀態。
 * 資料庫連線限制現在已與 Campaign 套件對齊，以避免連線錯誤。
-* 自訂資源發佈中的新一致性檢查會防止使用者建立重複索引，進而導致發佈失敗。 改善錯誤訊息會視需求要求用戶重新命名索引。
+* 自訂資源發佈中的新一致性檢查會防止使用者建立重複索引，進而導致發佈失敗。 改善錯誤訊息會視需求要求用戶重新命名索引。[了解更多](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)
 
 **其他變更**
 

@@ -8,9 +8,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
-source-wordcount: '5400'
+source-wordcount: '5403'
 ht-degree: 4%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 4%
 
 * 定義促銷活動屬性時選取行動應用程式，以鎖定特定行動應用程式上的使用者。 此功能適用於推播和應用程式內傳訊通道。
 
-   如需詳細資訊，請參閱[詳細文件](../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification)，以瞭解詳情。
+   如需詳細資訊，請參閱[詳細文件](../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification)。
 
 * 使用Creative Designer介面選取內容區塊時，清單中的所有內容區塊現在都會載入並顯示。 (CAMP-27311)
 
@@ -215,7 +215,7 @@ ht-degree: 4%
     <ul> 
      <li> 使用「凍結」資料導出擴展廣播：身為行銷人員，我想匯出區段代碼等於「A」（來自工作流程引擎）的所有設定檔。 </li> 
      <li> 「凍結」資料的分段：身為行銷人員，我想<strong>重新定位</strong>自上次傳送以來已贏得1000個忠誠度點的所有設定檔，或其區段代碼等於「A」。 </li> 
-    </ul> 如需詳細資訊，請參閱<a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">詳細文件</a>，以瞭解詳情。<br /> </td> 
+    </ul> 如需詳細資訊，請參閱<a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">詳細文件</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 使用自訂設定檔資料進行動態報告<br /> </td> 
@@ -249,8 +249,8 @@ ht-degree: 4%
 * 修正某些原始報表事件因未正確填入eventDate欄位而沒有相關聯追蹤事件的問題。
 * 修正推播通知傳送的預覽視窗無法顯示個人化欄位的問題。
 * 修正文字無法在預覽視窗中文字包住推播通知的訊息內文的問題。
-* 修正主要目標為空時，從工作流程傳送重新固化傳送的問題。
-* 修正連結至未存在結構時無法存取目標對應的問題。
+* 修正當主要目標為空時，從工作流程傳送循環傳送的問題。
+* 修正當目標映射連結至不存在的架構時，無法存取該映射的問題。
 * 修正透過檔案載入活動匯入zip檔案時可能發生的問題。 (CAMP-24309)
 * 修正傳送循環傳送時導致PostgreSQL錯誤的問題。 (CAMP-23613)
 * 修正傳送REST API要求並填入空白JSON屬性時，顯示錯誤訊息的問題。 (CAMP-23506)
@@ -305,7 +305,7 @@ _自訂資源_
     <ul> 
      <li> 訪問權限：可讓資料主體接收資料控制者擷取的其個人資料副本，可能包括儲存在Adobe Campaign中的資料。 </li> 
      <li> 刪除權限：為資料主體賦予權利，讓資料控制者擷取的個人資料遭到清除，可能包括儲存在Adobe Campaign中的資料。 </li> 
-    </ul> 如需詳細資訊，請參閱<a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">詳細文件</a>，以瞭解詳情。<br /> </td> 
+    </ul> 如需詳細資訊，請參閱<a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">詳細文件</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 電子郵件創意設計工具（測試版）<br /> </td> 
@@ -327,7 +327,7 @@ _自訂資源_
     <ul> 
      <li> 運用自訂欄位作為調解標準，將交易式訊息與設定檔比對 </li> 
      <li> 運用完整的設定檔、服務和連結資料，進一步個人化交易式訊息 </li> 
-    </ul> 如需詳細資訊，請參閱<a href="../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content">詳細文件</a>，以瞭解詳情。<br /> </td> 
+    </ul> 如需詳細資訊，請參閱<a href="../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content">詳細文件</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -463,13 +463,13 @@ _已知問題_
   </tr> 
   <tr> 
    <td> 推送新功能<br /> </td> 
-   <td> 推播訊息預覽 — 從推播通知內容編輯器預覽在iOS和Android裝置上顯示的推播通知，在測試或執行傳送前可先檢視收件者所見到的內容。<br />如需詳細資訊，請參閱<a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">詳細文件</a>，以瞭解詳情。<br /> 可用內容 — 如果使用者在一段時間後都未開啟應用程式，系統便會將其資料視為過時。這會導致使用者在最終開啟應用程式時，必須更新或取代資料，而這可能導致使用應用程式的延遲。 透過新增的「可用內容」支援，Adobe Campaign使用者可在傳送推播通知時，喚醒應用程式以在背景重新整理資料，讓使用者的應用程式內體驗更具一致性和控制力。<br /> 可變動內容 — 透過新增的「可變動內容」支援，Adobe Campaign使用者現在可運用行動應用程式擴充功能，進一步修改來自Adobe Campaign之推播通知的內容或呈現方式。例如，使用者可以運用「可變內容」來：<br /> 
+   <td> 推播訊息預覽 — 從推播通知內容編輯器預覽在iOS和Android裝置上顯示的推播通知，在測試或執行傳送前可先檢視收件者所見到的內容。<br />如需詳細資訊，請參閱<a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">詳細文件</a>。<br /> 可用內容 — 如果使用者在一段時間後都未開啟應用程式，系統便會將其資料視為過時。這會導致使用者在最終開啟應用程式時，必須更新或取代資料，而這可能導致使用應用程式的延遲。 透過新增的「可用內容」支援，Adobe Campaign使用者可在傳送推播通知時，喚醒應用程式以在背景重新整理資料，讓使用者的應用程式內體驗更具一致性和控制力。<br /> 可變動內容 — 透過新增的「可變動內容」支援，Adobe Campaign使用者現在可運用行動應用程式擴充功能，進一步修改來自Adobe Campaign之推播通知的內容或呈現方式。例如，使用者可以運用「可變內容」來：<br /> 
     <ul> 
      <li> 解密以加密格式傳送的資料 </li> 
      <li> 下載影像或其他媒體檔案，並將其新增為通知的附件 </li> 
      <li> 變更通知的正文或標題文字 </li> 
      <li> 向通知添加線程標識符 </li> 
-    </ul> 如需「可用內容」和「可變動內容」的詳細資訊，請參閱<a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">詳細檔案</a>。<br /> <strong>警告：</strong> 推送通知的這些更新會要求客戶升級其行動應用程式。如需詳細資訊，請參閱<a href="https://helpx.adobe.com/tw/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html">此技術檔案</a>。<br /> </td> 
+    </ul> 如需「可用內容」和「可變動內容」的詳細資訊，請參閱<a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">詳細檔案</a>。<br /> <strong>警告：</strong> 推送通知的這些更新會要求客戶升級其行動應用程式。如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/push-payload.html">此技術檔案</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 時區最佳化傳遞<br /> </td> 

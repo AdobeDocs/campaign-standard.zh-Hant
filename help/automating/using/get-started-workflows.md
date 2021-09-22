@@ -8,7 +8,7 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 40%
@@ -46,7 +46,7 @@ Adobe Campaign 提供完整的圖形環境，讓您設計複雜程式，包括�
 
 最後， [資料管理活動](../../automating/using/about-data-management-activities.md)允許您操控資料庫中的資料。
 
-顯示全文:
+了解更多:
 
 * [建立工作流程](../../automating/using/building-a-workflow.md)
 * [執行工作流程](../../automating/using/about-workflow-execution.md)
@@ -60,7 +60,7 @@ Adobe Campaign 提供完整的圖形環境，讓您設計複雜程式，包括�
 
 查詢編輯器隨附&#x200B;**預先定義的篩選器和規則**，以便快速、輕鬆地篩選。 不過，您也可以使用&#x200B;**進階運算式編輯**&#x200B;功能。 這可讓您手動輸入條件和使用函式，以便形成您自己的規則。
 
-顯示全文:
+了解更多:
 
 * [編輯查詢](../../automating/using/editing-queries.md)
 * [進階運算式編輯](../../automating/using/advanced-expression-editing.md)
@@ -82,7 +82,7 @@ Campaign Standard提供數種&#x200B;**資料管理功能**&#x200B;以匯入和�
 
 最後， [匯出清單](../../automating/using/exporting-lists.md)可讓您從Campaign Standard匯出任何清單，例如測試設定檔清單、隔離電子郵件地址清單等。
 
-顯示全文:
+了解更多:
 
 * [匯入和匯出資料](../../automating/using/about-data-import-and-export.md)
 * [使用案例：匯出/匯入自訂資源](../../automating/using/exporting-importing-custom-resources.md)

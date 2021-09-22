@@ -4,7 +4,7 @@ description: 「了解如何自訂顯示以及在Adobe Campaign Standard中的�
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 6%
@@ -47,7 +47,7 @@ ht-degree: 6%
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit。 Vestibulum placerat mauris libero,non congue sapien rhoncus id. Integer luctus blandit ligula。 Nulla quis vehicula augue，乳酪。 Nunc pharetra frizilla enim eu suscipit. Mauris consectetur maximus euismod. Cras和Vehicula Nulla。 Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
-**顯示全文**
+**了解更多**
 
 * xx
 * xx
@@ -58,7 +58,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit。 Vestibulum placerat m
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit。 Vestibulum placerat mauris libero,non congue sapien rhoncus id. Integer luctus blandit ligula。 Nulla quis vehicula augue，乳酪。 Nunc pharetra frizilla enim eu suscipit. Mauris consectetur maximus euismod. Cras和Vehicula Nulla。 Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
-**顯示全文**
+**了解更多**
 
 * xx
 * xx
@@ -80,7 +80,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit。 Vestibulum placerat m
 
 ![](assets/delivery_content_43.png)
 
-**顯示全文**
+**了解更多**
 
 * 透過[端對端範例](../../designing/using/personalization.md#example-email-personalization)探索電子郵件個人化
 * [個人化URL](../../designing/using/personalization.md#personalizing-urls)
@@ -101,7 +101,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit。 Vestibulum placerat m
 透過Adobe Campaign，您可以個別監控及追蹤每個傳送。 訊息控制面板會顯示專用記錄檔，以追蹤程式、規則，並識別可能的錯誤和警告。
 
 
-**顯示全文**
+**了解更多**
 
 * [存取報表](../../reporting/using/about-dynamic-reports.md)
 * [監視傳遞](../../sending/using/monitoring-a-delivery.md)
@@ -113,7 +113,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit。 Vestibulum placerat m
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit。 Vestibulum placerat mauris libero,non congue sapien rhoncus id. Integer luctus blandit ligula。 Nulla quis vehicula augue，乳酪。 Nunc pharetra frizilla enim eu suscipit. Mauris consectetur maximus euismod. Cras和Vehicula Nulla。 Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
-**顯示全文**
+**了解更多**
 
 * xx
 * xx

@@ -8,9 +8,9 @@ hidefromtoc: true
 role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 87e91e169fedf962471f82754b1d40a14e5fc32a
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '585'
 ht-degree: 100%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 100%
         <li><a href="automating/using/monitoring-workflow-execution.md#error-management">工作流程中的錯誤管理</a></li>
         <li><a href="automating/using/best-practices-workflows.md">有關執行工作流程的疑難排解</a></li>
         <li><a href="api/using/troubleshooting.md">API 疑難排解</a></li>
-        <li><a href="sending/using/understanding-delivery-failures.md">瞭解傳遞失敗的原因</a></li>
+        <li><a href="sending/using/understanding-delivery-failures.md">瞭解傳遞失敗</a></li>
         </ul>
     </td>
    <td valign="top">
@@ -72,7 +72,7 @@ ht-degree: 100%
         <li><a href="start/using/privacy-management.md">隱私權與同意管理</a></li>
         <li><a href="automating/using/query.md">設計查詢</a></li>
         <li><a href="automating/using/query-samples.md">查詢範例</a></li>
-        <li><a href="https://helpx.adobe.com/campaiacs-mobile.html">設定行動頻道</a></li>
+        <li><a href="administration/using/push-tracking.md">設定行動頻道</a></li>
         </ul>
     </td>
     </tr>
@@ -119,7 +119,7 @@ ht-degree: 100%
 
 ### 詢問專家！
 
-加入 Campaign Classic 社群：在現有問題中搜尋答案，或向社群提出問題。 [加入對話](https://experienceleaguecommunities.adobe.cadobe-campaign-standard/ct-p/adobe-campaign-standard-community)
+加入 Campaign Classic 社群：在現有問題中搜尋答案，或向社群提出問題。 [加入對話](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### 建立票證或開始聊天
 
@@ -127,4 +127,4 @@ ht-degree: 100%
 
 如要在該新系統中記錄問題或啟動聊天工作階段，請連結到 [Adobe Admin Console](https://adminconsole.adobe.com/overview)。
 
-請依照[本頁](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)中介紹的詳細過程操作。
+請依照[本頁](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)中說明的詳細過程進行操作。

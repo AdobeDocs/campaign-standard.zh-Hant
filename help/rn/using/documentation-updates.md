@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
-source-wordcount: '6954'
-ht-degree: 100%
+source-wordcount: '6933'
+ht-degree: 99%
 
 ---
 
@@ -204,7 +204,7 @@ Campaign Standard 概觀頁面已擴充並重新組織為主題式主題。[瞭�
 
 「電子郵件通道參數」區段已清楚顯示授權遮色片欄位和傳送報告 ID 的詳細資訊。[瞭解詳情](../../administration/using/configuring-email-channel.md)
 
-核心檔案現在提供使用 Adobe Experience Platform SDK 來設定行動應用程式，其中包含 Launch 技術工作流程中 Sync Mobile 應用程式 AEPSDK 的詳細資訊。[瞭解詳情](../../administration/using/configuring-a-mobile-application.md)
+核心檔案現在提供使用Adobe Experience Platform SDK設定行動應用程式，其中包含Launch技術工作流程中Sync Mobile應用程式AEPSDK的詳細資訊。 [了解更多](../../administration/using/configuring-a-mobile-application.md)
 
 ## 發行版本 20.3 – 2020 年 5 月 {#release-20-3---may-2020}
 
@@ -572,9 +572,9 @@ Dreamweaver 整合區段已更新並改良。[瞭解詳情](../../designing/usin
 
 已新增有關如何連結自訂資源的資訊。[瞭解詳情](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources)
 
-已新增一項技術，說明如何從 Adobe Campaign Standard 推播通知顯示影像。[瞭解詳情](https://helpx.adobe.com/content/help/tw/campaign/kb/display-image-push.html)
+已新增一項技術，說明如何從 Adobe Campaign Standard 推播通知顯示影像。[瞭解詳情](../../administration/using/image-push-notification.md)
 
-已新增推播追蹤實作的新技術。[瞭解詳情](https://helpx.adobe.com/content/help/tw/campaign/kb/push-tracking.html)
+已新增推播追蹤實作的新技術。[瞭解詳情](../../administration/using/push-tracking.md)
 
 Campaign Standard 及 Campaign Classic 的錯誤訊息清單已更新。[瞭解詳情](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
@@ -862,7 +862,7 @@ API Signal 活動觸發 – [瞭解詳情](../../api/using/triggering-a-signal-a
 
 更新並釐清 [如何整合](https://helpx.adobe.com/tw/campaign/kb/integrate-mobile-sdk.html) Adobe Marketing Cloud Mobile SDK 與行動應用程式以接收 Adobe Campaign Standard 推播通知的技術。
 
-已新增技術，說明行動應用程式中接收的裝載結構。[瞭解詳情。](https://helpx.adobe.com/tw/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html)
+已新增技術，說明行動應用程式中接收的裝載結構。[瞭解詳情。](../../administration/using/push-payload.md)
 
 在 Adobe Mobile Services 介面中定義回傳時，「推播」通道設定[區段](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)已隨作業系統版本上的新裝載資料更新。
 

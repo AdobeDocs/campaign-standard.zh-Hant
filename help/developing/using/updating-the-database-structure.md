@@ -9,10 +9,10 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: fa39eb54-9ec0-4aff-94a8-5459f4c496d0
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 41366b6fa7647dbf0e4e5df71e2755189f4ffc42
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 99%
+source-wordcount: '779'
+ht-degree: 93%
 
 ---
 
@@ -46,6 +46,10 @@ ht-degree: 99%
    若要進一步瞭解在 Profiles &amp; Services API 上執行的動作，請參閱[使用 API 擴充功能發佈資源](#publishing-a-resource-with-api-extension)。
 
    ![](assets/schema_extension_13.png)
+
+   >[!NOTE]
+   >
+   >由於重複索引導致發佈失敗，準備步驟將檢查為資源定義的索引是否已存在，且其他資源的名稱相同。 如果發生此情況，將顯示一條錯誤消息，要求您更名索引。 請參閱[定義索引](configuring-the-resource-s-data-structure.md#defining-indexes)。
 
 1. 發佈完成後，按一下 **[!UICONTROL Publish]** 按鈕以套用新的設定。
 1. 發佈後，每個資源的 **[!UICONTROL Summary]** 窗格會指出狀態現在為 **[!UICONTROL Published]** 並指定上次發佈的日期。

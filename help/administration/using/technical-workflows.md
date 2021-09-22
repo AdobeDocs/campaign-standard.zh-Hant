@@ -1,6 +1,6 @@
 ---
 title: 技術工作流程
-description: 技術工作流程是現成的工作流程，旨在處理 Adobe Campaign 中的背景技術程式，以確保平台正常運作。
+description: 技術工作流程是現成可用的工作流程，專門處理Adobe Campaign中的背景技術程式，確保平台的正確行為。
 audience: administration
 content-type: reference
 topic-tags: application-settings
@@ -8,10 +8,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '717'
-ht-degree: 94%
+ht-degree: 91%
 
 ---
 

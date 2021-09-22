@@ -8,10 +8,10 @@ feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '1970'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
@@ -536,12 +536,12 @@ ht-degree: 96%
   </tr> 
   <tr> 
    <td> <strong>JuxtWords</strong><br /> </td> 
-   <td> 將傳遞的兩個字串當成參數進行截斷。在傳回值中的每個字串之間新增空格。<br /> </td> 
+   <td> 串連以參數形式傳遞的兩個字串。 在傳回值中的每個字串之間新增空格。<br /> </td> 
    <td> JuxtWords(&lt;string&gt;, &lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>JuxtWords3</strong><br /> </td> 
-   <td> 將傳遞的三個字串視為參數。在傳回值中的每個字串之間新增空格。<br /> </td> 
+   <td> 串連以參數形式傳遞的三個字串。 在傳回值中的每個字串之間新增空格。<br /> </td> 
    <td> JuxtWords3(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 

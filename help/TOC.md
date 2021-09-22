@@ -4,10 +4,10 @@ user-guide-title: Campaign Standard
 user-guide-description: '說明中心，以瞭解使用 Campaign Standard 所需的主要功能、工作、設定和其他資源。 '
 title: Campaign Standard 指南
 breadcrumb-title: Adobe Campaign Standard 文件
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 34270a2caff0932b56d00ccf721bdba87eb61f81
 workflow-type: tm+mt
-source-wordcount: '1792'
-ht-degree: 100%
+source-wordcount: '1797'
+ht-degree: 99%
 
 ---
 
@@ -77,6 +77,7 @@ ht-degree: 100%
       + [存取訊息](channels/using/accessing-messages.md)
       + [訊息儀表板](channels/using/message-dashboard.md)
       + [多語言訊息範本](channels/using/multilingual-messages-template.md)
+      + [開始使用行動裝置頻道](channels/using/mobile-guide.md)
    + 傳遞最佳實務 {#delivery-bestpractices}
       + [瞭解好的實務](sending/using/delivery-best-practices.md)
       + [最佳化傳遞](sending/using/optimize-delivery.md)

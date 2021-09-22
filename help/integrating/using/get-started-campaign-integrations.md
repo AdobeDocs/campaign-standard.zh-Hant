@@ -8,9 +8,9 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: ecf88c7d-6729-4b3a-85c4-60427bb57442
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '711'
 ht-degree: 77%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 77%
    <td> Adobe Experience Manager<br /> </td> 
    <td> 可讓您直接在 Adobe Experience Manager 中建立對應至 Adobe Campaign 資料庫的電子郵件內容或表單。<br /> </td> 
    <td> 
-     <a href="../../integrating/using/integrating-with-experience-manager.md">使用Campaign與Experience Manager</a>、整合 <a href="https://helpx.adobe.com/tw/experience-manager/6-4/sites/administering/using/campaignstandard.html">Experience Manager與Campaign Standard</a>、使用 <a href="https://gn.adobe.com/doc/standard/getting_started/en/ACS_AEM.html">Experience Manager與促銷活動建立電子郵件</a> 
+     <a href="../../integrating/using/integrating-with-experience-manager.md">使用Campaign與Experience Manager</a>、整合 <a href="https://helpx.adobe.com/tw/experience-manager/6-4/sites/administering/using/campaignstandard.html">Experience Manager與Campaign Standard</a>、使用 <a href="https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html">Experience Manager與促銷活動建立電子郵件</a> 
     </td> 
   </tr> 
   <tr> 

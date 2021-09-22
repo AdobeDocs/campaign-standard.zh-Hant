@@ -7,7 +7,7 @@ topic-tags: about-sending-messages-with-campaign
 role: User
 level: Intermediate
 exl-id: bcb28ef5-5cad-43c1-b11b-080abc791a72
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 15%
@@ -27,7 +27,7 @@ ht-degree: 15%
 
 一旦執行了行銷活動並傳送了不同的訊息，請使用記錄檔來監控行銷活動，以檢查行銷活動是否成功，並擷取收件者的追蹤資訊。
 
-最後，運用Campaign Standard中可用的傳遞准則和工具來改善傳送的訊息數量，並確保成功進行行銷活動。
+最後，運用Campaign Standard中可用的傳遞准則和工具來改善傳送的訊息數量，並確保成功的行銷活動。
 
 ![](assets/do-not-localize/how-to-video.png) [探索如何傳送測試電子郵件、準備並傳送影片中的電子郵件傳送](#video)
 
@@ -43,7 +43,7 @@ Campaign Standard **訊息準備**&#x200B;會分析訊息的目標、個人化�
 
 在準備期間，使用&#x200B;**類型**&#x200B;來檢查訊息是否有效，並透過疲勞、控制和鎖定規則符合您的品質標準。 例如，檢查您的電子郵件是否一律包含主旨行，或排除訊息收件者的取消訂閱者。
 
-顯示全文:
+了解更多:
 
 * [準備傳送](../../sending/using/preparing-the-send.md)
 * [預覽訊息](../../sending/using/previewing-messages.md)
@@ -62,7 +62,7 @@ Campaign Standard **訊息準備**&#x200B;會分析訊息的目標、個人化�
 
 最後，您可以將Adobe Campaign設定為&#x200B;**保留從您的平台透過電子郵件密件副本傳送的電子郵件副本**。 尤其是，如果貴組織需要歸檔所有出站電子郵件以符合法規要求，您可以啟用此功能。
 
-顯示全文:
+了解更多:
 
 * [確認傳送](../../sending/using/confirming-the-send.md)
 * [追蹤訊息](../../sending/using/tracking-messages.md)
@@ -77,9 +77,9 @@ Campaign Standard **訊息準備**&#x200B;會分析訊息的目標、個人化�
 
 傳遞能力可讓您測量到達收件者收件匣的促銷活動是否成功，而不會反彈或標示為垃圾訊息。
 
-Campaign Standard提供數種&#x200B;**傳遞工具**，以協助您改善成功傳送的訊息數量：傳送傳送過程放置報告、傳送時間最佳化、訊息預覽、電子郵件呈現、隔離管理等。
+Campaign Standard提供數種&#x200B;**傳遞工具**，以協助您改善成功傳送的訊息數量：傳遞吞吐量報告、傳送時間最佳化、訊息預覽、電子郵件呈現、隔離管理等。
 
-顯示全文:
+了解更多:
 
 * [關於傳遞能力](../../sending/using/about-deliverability.md)
 * [監視傳遞能力](../../sending/using/monitor-deliverability.md)

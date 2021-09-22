@@ -9,9 +9,9 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 41b83014-aea9-4ec2-b20e-c0a05bcad503
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '852'
 ht-degree: 4%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 4%
 
    ![](assets/push_notif_content.png)
 
-   此處設定的推播通知內容和選項會以裝載的形式傳遞至您的行動應用程式。 [了解Campaign Standard推播通知裝載結構](https://helpx.adobe.com/tw/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html)技術中會說明裝載的詳細結構。
+   此處設定的推播通知內容和選項會以裝載的形式傳遞至您的行動應用程式。 [了解Campaign Standard推播通知裝載結構](../../administration/using/push-payload.md)技術中會說明裝載的詳細結構。
 
 1. 按一下&#x200B;**[!UICONTROL Create]**。
 

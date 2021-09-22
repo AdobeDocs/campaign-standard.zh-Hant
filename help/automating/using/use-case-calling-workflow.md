@@ -8,7 +8,7 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 7a21f4f6-316f-4f3d-9d53-37d406a46aae
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '977'
 ht-degree: 1%
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 以下使用案例說明如何使用工作流程中的參數呼叫工作流程。
 
-目標是從含有外部參數的API呼叫觸發工作流程。 此工作流程會從檔案將資料載入至您的資料庫，並建立相關的對象。 建立對象後，將觸發第二個工作流程，以傳送以API呼叫中定義之外部參數個人化的訊息。
+目標是從含有外部參數的API呼叫觸發工作流程。 此工作流程會從檔案將資料載入至您的資料庫，並建立相關的對象。 建立對象後，將觸發第二個工作流程，以傳送與API呼叫中定義的外部參數個人化的訊息。
 
 若要執行此使用案例，您必須執行下列動作：
 

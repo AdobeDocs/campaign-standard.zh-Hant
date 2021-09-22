@@ -8,10 +8,10 @@ feature: Campaigns
 role: User
 level: Intermediate
 exl-id: 958f7beb-ab41-4492-bc0a-e9e342e3c12e
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 100%
+source-wordcount: '650'
+ht-degree: 88%
 
 ---
 
@@ -87,38 +87,38 @@ Adobe Campaign Standard 提供不同的語言版本：英文、法文和德文�
 
 ### 首頁 {#homepage-shortcuts}
 
-| 快速鍵 | 動作 |
-|:-:|:-:|
-| 標籤 | 導覽使用者介面的個別元素 |
-| 輸入或空格 | 啟用選取的項目 |
+| 動作 | 快速鍵 |
+| --- | --- |
+| 導覽使用者介面的個別元素 | 標籤 |
+| 啟用選取的項目 | 輸入或空格鍵 |
 
 ### 電子郵件設計工具 {#email-designer-shortcuts}
 
-| 快速鍵 | 動作 |
-|:-:|:-:|
-| CTRL + Z | 還原 |
-| CTRL + Y | 取消復原 |
+| 動作 | Windows快捷方式 | macOS捷徑 |
+| --- | --- | --- |
+| 還原 | Ctrl + Z | Command + Z |
+| 取消復原 | Ctrl + Y | Shift + Command + Z |
 
 ### 動態報告 {#report-shortcuts}
 
-| 快速鍵 | 動作 |
-|:-:|:-:|
-| CTRL + O | 開啟專案 |
-| CTRL + S | 儲存 |
-| Shift + CTRL + S | 儲存為 |
-| Alt + R | 重新整理專案 |
-| Shift + CTRL + V | 下載 CSV |
-| Alt + P | 列印 |
-| CTRL + Z | 還原 |
-| CTRL + Shift + Z | 取消復原 |
-| Alt + B | 新的空白面板 |
-| Alt + A | 新的自由格式 |
-| Alt + 1 | 新的自由格式表格 |
-| Alt + 2 | 新行 |
-| Alt + 3 | 新列 |
-| Alt + S | 立即傳送報告 |
-| Shift + Alt + S | 依排程傳送報告 |
-| Shift = Alt + L | 排程報告 |
+| 動作 | Windows快捷方式 | macOS捷徑 |
+| --- | --- | --- |
+| 開啟專案 | Ctrl + O | 命令+ O |
+| 儲存 | Ctrl + S | Command + S |
+| 儲存為 | Shift + Ctrl + S | Shift + Command + S |
+| 重新整理專案 | Alt + R | Command + R |
+| 下載CSV檔案 | Shift + Ctrl + V | Shift + Command + V |
+| 列印 | Alt + P | Command + P |
+| 還原 | Ctrl + Z | Command + Z |
+| 取消復原 | Ctrl + Y | Shift + Command + Z |
+| 新的空白面板 | Alt + B | 選項+ B |
+| 新的自由格式 | Alt + A | 選項+ A |
+| 新的自由格式表格 | Alt + 1 | 選項+ 1 |
+| 新行 | Alt + 2 | 選項+ 2 |
+| 新列 | Alt + 3 | 選項+ 3 |
+| 立即傳送報告 | Alt + S | 選項+ S |
+| 依排程傳送報告 | Shift + Alt + S | Shift + Option + S |
+| 排程報告 | Shift + Alt + L | <!-- Should be 'Shift + Option + L ' but does not work on Mac --> |
 
 ## 進一步閱讀 {#further-reading}
 

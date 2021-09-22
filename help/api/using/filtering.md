@@ -8,7 +8,7 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: cdb050b7-d327-42f7-b534-d32d988c8ffb
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 1%
@@ -134,7 +134,7 @@ ht-degree: 1%
    ```
 
 * 擷取包含「Doe」之「設定檔」資源的範例GET請求，於
-電子郵件或姓氏欄位（byText篩選器會搜尋電子郵件和姓氏欄位）。
+「電子郵件」或「姓氏」欄位（byText篩選器會同時搜尋「電子郵件」和「姓氏」欄位）。
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Doe \

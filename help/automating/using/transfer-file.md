@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '1115'
-ht-degree: 91%
+ht-degree: 88%
 
 ---
 
@@ -72,7 +72,9 @@ ht-degree: 91%
 
 HTTP　通訊協定可讓您從外部帳戶或　URL　開始下載檔案。
 
-使用此控制工具，您可以選取　**[!UICONTROL Use connection parameters defined in an external account]**　選項。在此情況下，請選取您需要的帳戶，並指定要下載的檔案路徑。
+使用此協定，可以選擇&#x200B;**[!UICONTROL Use connection parameters defined in an external account]**選項。 在此情況下，請選取您需要的帳戶，並指定要下載的檔案路徑。
+
+
 ![](assets/wkf_file_transfer_03.png)
 
 您也可以選取 **[!UICONTROL Quick configuration]** 選項。您只需在　URL　欄位中輸入URL。
@@ -82,7 +84,7 @@ HTTP　通訊協定可讓您從外部帳戶或　URL　開始下載檔案。
 
 SFTP　通訊協定可讓您開始從　URL　或外部帳戶下載檔案。
 
-使用此通訊協定，您可以選取 **[!UICONTROL Use connection parameters defined in an external account]** 選項，然後選取您要的帳戶並指定要下載的檔案路徑。
+使用此協定，您可以選擇&#x200B;**[!UICONTROL Use connection parameters defined in an external account]**選項，然後選擇要下載的帳戶並指定要下載的檔案路徑。
 ![](assets/wkf_file_transfer_07.png)
 
 >[!CAUTION]
@@ -177,5 +179,5 @@ Microsoft Azure Blob　通訊協定可讓您存取位於　Microsoft Azure Blob�
 
 可用的輸出變數包括：
 
-* **[!UICONTROL fileName]**:已傳送檔案的名稱。
-* **[!UICONTROL filesCount]**:已傳送的檔案數。
+* **[!UICONTROL fileName]**:已傳輸檔案的名稱。
+* **[!UICONTROL filesCount]**:已傳輸的檔案數。

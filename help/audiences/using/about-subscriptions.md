@@ -5,7 +5,7 @@ feature: Audiences
 role: User
 level: Intermediate
 exl-id: 177f0115-d269-44e8-94e0-123360ea6299
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 40%
@@ -30,7 +30,7 @@ ht-degree: 40%
 
 請依照下列步驟建立訂閱機制：
 
-1. **建立服務**  — 請依照本節 [所述步](../../audiences/using/creating-a-service.md) 驟建立訂閱服務
+1. **建立服務**  — 請依照本節所述 [步驟](../../audiences/using/creating-a-service.md) 建立訂閱服務
 1. **共用連結**  — 在本頁面中了解如何促銷和共 [用您的服務](../../audiences/using/promoting-a-service.md)
 1. **監視訂閱**  — 在本小節中探索數種監視服務訂閱 [的方式](../../audiences/using/monitoring-subscriptions.md)
 1. **確認訂閱**  — 請依照本 [教學](../../audiences/using/confirming-subscription-to-a-service.md) 課程傳送訂閱確認訊息

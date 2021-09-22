@@ -9,7 +9,7 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 28b0cf6d-c1f1-4d55-b9bc-0d6bfb063471
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '746'
 ht-degree: 7%
@@ -34,7 +34,7 @@ ht-degree: 7%
 
 * [工作流執行](../../automating/using/about-workflow-execution.md):監控工作流程是避免平台效能問題的關鍵。 請遵循本頁](../../automating/using/monitoring-workflow-execution.md)中所列的准則。 [了解更多[工作流程最佳實務](../../automating/using/best-practices-workflows.md)區段。
 
-* 您可以使用[促銷活動控制面板功能](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=zh-Hant)，使用[效能監控](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html)功能來監控您的平台。
+* 您可以利用[Campaign控制面板功能](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=zh-Hant)，使用[效能監控](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html)功能來監控您的平台。
 
 ## 檢查網路配置 {#network-config}
 
@@ -64,7 +64,7 @@ ht-degree: 7%
 
 **提示**
 
-* 在傳送分析期間，預設會排除被隔離的收件者：它們不是目標。 這會加快傳送速度，因為錯誤率對傳送速度有顯著影響。例如，收件匣已滿或地址不存在時，可以隔離電子郵件地址。 [瞭解更多](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses)
+* 在傳送分析期間，預設會排除被隔離的收件者：它們不是目標。 這會加快傳送速度，因為錯誤率對傳送速度有顯著影響。例如，收件匣已滿或地址不存在時，可以隔離電子郵件地址。 [了解更多](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses)
 
 * Adobe Campaign會根據傳回的錯誤類型來管理錯誤位址。 如需詳細資訊，請參閱[本章節](../../sending/using/understanding-quarantine-management.md)。
 

@@ -9,9 +9,9 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 3fe3495b-e360-4169-b295-86ad93753468
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
 workflow-type: tm+mt
-source-wordcount: '1510'
+source-wordcount: '1500'
 ht-degree: 97%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 97%
 
 為了微調您的推播通知，Adobe Campaign 可讓您在設計推播通知時存取一組進階選項。
 
-若要在 Adobe Campaign 中設定行動應用程式，請參閱下列技術[瞭解 Campaign 標準推播通知裝載結構](https://helpx.adobe.com/tw/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html)。
+若要在 Adobe Campaign 中設定行動應用程式，請參閱下列技術[瞭解 Campaign 標準推播通知裝載結構](../../administration/using/push-payload.md)。
 
 ![](assets/push_notif_advanced.png)
 
@@ -150,7 +150,7 @@ ht-degree: 97%
 1. 開啟推播通知並存取 **[!UICONTROL Advanced options]** 區段。
 1. 在 **[!UICONTROL Rich media content URL]** 欄位中輸入檔案的URL，以取得各種格式：iOS 和 Android。
 
-   若是 iOS 10 或更新版本，您可以插入影像、gif、音訊和視訊檔案。對於舊版 iOS，推播通知將會顯示而不含豐富內容。如需如何在 iOS 裝置上顯示 Adobe Campaign 推播通知影像的詳細步驟，請參閱本[頁面](https://helpx.adobe.com/tw/campaign/kb/display-image-push.html)。
+   若是 iOS 10 或更新版本，您可以插入影像、gif、音訊和視訊檔案。對於舊版 iOS，推播通知將會顯示而不含豐富內容。如需如何在 iOS 裝置上顯示 Adobe Campaign 推播通知影像的詳細步驟，請參閱本[頁面](../../administration/using/image-push-notification.md)。
 
    對於 Android，您只能包含影像。
 

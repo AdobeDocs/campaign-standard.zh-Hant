@@ -9,9 +9,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b983d0a3-c345-44d4-bc82-202bf6ed26ab
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 若要實作Adobe Campaign Standard的追蹤，行動應用程式必須將行動SDK納入應用程式中。 這些SDK可在[!DNL Adobe Mobile Services]中使用。
 
-若要傳送追蹤資訊，需傳送三個變數：兩者是從Adobe Campaign收到資料的一部分，另一個是動作變數，會指定其為曝光、點按或開啟。
+若要傳送追蹤資訊，必須傳送三個變數：兩者是從Adobe Campaign收到資料的一部分，另一個是動作變數，會指定其為曝光、點按或開啟。
 
 | 變數 | 值 |
 | :-: | :-: |
@@ -46,11 +46,11 @@ Adobe Experience Platform Mobile SDK會自動傳送Android和iOS的曝光事件�
 
 ## 實作點擊追蹤 {#implementing-click-tracking}
 
-若為點擊追蹤，呼叫`collectMessageInfo()`或`trackAction()`函式時，您需要傳送動作的值「2」。
+對於點擊追蹤，您必須在呼叫`collectMessageInfo()`或`trackAction()`函式時傳送動作值「2」。
 
 ### 適用於Android {#implement-click-tracking-android}
 
-若要追蹤點按，需處理兩種情況：
+若要追蹤點按，必須實作兩種情況：
 
 * 使用者會看見通知，但將其清除。
 
@@ -68,7 +68,7 @@ Adobe Experience Platform Mobile SDK會自動傳送Android和iOS的曝光事件�
 
 ### 適用於iOS {#implement-click-tracking-ios}
 
-若要傳送點擊追蹤資訊，您需要新增下列項目：
+若要傳送點擊追蹤資訊，您必須新增下列項目：
 
 ```
 class NotificationDelegate: NSObject, UNUserNotificationCenterDelegate {
@@ -105,9 +105,9 @@ class NotificationDelegate: NSObject, UNUserNotificationCenterDelegate {
 
 ### 適用於Android {#implement-open-tracking-android}
 
-若要追蹤開啟，我們需要建立意圖。 目的物件可讓Android作業系統在完成某些動作時呼叫您的方法，在此例中是按一下通知以開啟應用程式。
+若要追蹤開啟，我們必須建立意圖。 目的物件可讓Android作業系統在完成某些動作時呼叫您的方法，在此例中是按一下通知以開啟應用程式。
 
-此程式碼以點擊曝光追蹤的實作為基礎。 透過目的設定，您現在需要將追蹤資訊傳回Adobe Campaign。 在此情況下，會因使用者點按而開啟或帶入前景的觸發通知的Android檢視([!DNL Activity])。 [!DNL Activity]中的目的對象包含可用於追蹤開啟的通知資料。
+此程式碼以點擊曝光追蹤的實作為基礎。 透過目的設定，您現在必須將追蹤資訊傳回Adobe Campaign。 在此情況下，會因使用者點按而開啟或帶入前景的觸發通知的Android檢視([!DNL Activity])。 [!DNL Activity]中的目的對象包含可用於追蹤開啟的通知資料。
 
 MainActivity.java（延伸[!DNL Activity]）
 
@@ -128,7 +128,7 @@ private void handleTracking() {
  
     if (data != null) {
 
-        //Opened based on the notification, you need to get the tracking that was passed on.
+        //Opened based on the notification, you must get the tracking that was passed on.
 
         Map<String, String> notificationData = (Map<String, Object>)data.getSerializableExtra("NOTIFICATION_USER_INFO");
         String deliveryId = (String)notificationData.get("deliveryId");

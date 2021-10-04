@@ -8,7 +8,7 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 7dfbd89f-877e-4598-bfe3-d743bb31ae9e
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 4%
@@ -41,7 +41,7 @@ ht-degree: 4%
 1. 如果您在Adobe Target的設定中使用企業權限，請在此欄位中新增對應的屬性。 在[本頁面](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html)中深入了解Target企業權限。 如果您未在Target中使用企業權限，此欄位為選用欄位，非必要欄位。
 1. 在&#x200B;**[!UICONTROL Additional decision parameters]**&#x200B;中，指定Adobe Target區段中定義的欄位與Adobe Campaign欄位之間的對應。
 
-   使用的Adobe Campaign欄位必須已在rawbox中指定。 在此，我們將根據收件者的性別來定義不同的體驗。
+   使用的Adobe Campaign欄位必須已在rawbox中指定。 在此範例中，根據收件者的性別定義不同的體驗。
 
    ![](assets/tar_additional_decisionning_parameters.png)
 

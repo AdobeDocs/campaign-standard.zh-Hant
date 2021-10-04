@@ -9,10 +9,10 @@ feature: Direct Mail
 role: User
 level: Intermediate
 exl-id: 3e94c872-bf44-4d4c-b6eb-7731021c7931
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 96%
+source-wordcount: '593'
+ht-degree: 95%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 96%
 
 1. 如果您新增測試設定檔（請參閱[新增測試和補漏白設定檔](../../channels/using/defining-the-direct-mail-audience.md#adding-test-and-trap-profiles)），您可以在準備最終檔案之前先測試傳送。它可讓您建立僅包含所選測試設定檔的範例檔案。
 
-   按一下 **[!UICONTROL Test]** 以產生範例檔案。按一下左上方的 **[!UICONTROL Summary]**，然後選取 **[!UICONTROL Proofs]**。在畫面左側，選取校樣並按一下 **[!UICONTROL Download file]**。
+   按一下 **[!UICONTROL Test]** 以產生範例檔案。按一下左上角的&#x200B;**[!UICONTROL Summary]**，然後選擇&#x200B;**[!UICONTROL Proofs]**。 在畫面左側，選取校樣並按一下 **[!UICONTROL Download file]**。
 
    >[!NOTE]
    >

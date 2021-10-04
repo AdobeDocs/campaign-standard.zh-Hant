@@ -8,10 +8,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 88007e6f-2cdd-4fea-9739-525beaf7c658
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
 source-wordcount: '994'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
@@ -101,7 +101,7 @@ ht-degree: 96%
 
    ![](assets/trigger_uc_browse_10.png)
 
-1. 他按一下連結，系統就會將他導向到您的網站。在此範例中，橫幅會將收件者導向到旅行預訂網站的首頁。
+1. 收件者點按連結，將其導向至您的網站。 在此範例中，橫幅會將收件者導向到旅行預訂網站的首頁。
 
    ![](assets/trigger_uc_browse_11.png)
 

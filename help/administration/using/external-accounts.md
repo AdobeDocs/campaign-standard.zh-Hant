@@ -9,10 +9,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 747e82ff-d3e6-4945-8f29-80e4a190c96f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1772'
-ht-degree: 84%
+source-wordcount: '1763'
+ht-degree: 81%
 
 ---
 
@@ -141,7 +141,7 @@ Adobe Experience Manager 外部帳戶用於整合 Campaign 與 Experience Manage
 
 [本文件](../../integrating/using/get-started-campaign-integrations.md)提供與此整合相關的程序及需求。
 
-當您設定此新外部帳戶時，您必須提供下列詳細資訊：
+在設定此新外部帳戶時，您必須提供下列詳細資訊：
 
 * 伺服器： 輸入 Adobe Experience Manager 伺服器的 URL。例如：
 
@@ -157,9 +157,9 @@ Adobe Experience Manager 外部帳戶用於整合 Campaign 與 Experience Manage
 >
 >Google reCAPTCHA 設定需要 Google 帳戶。
 
-Google reCAPTCHA 機制可讓您保護著陸頁面，使其免受機器人程式造成的垃圾郵件和濫用。這對您的客戶來說不會造成干擾，因為它不需要客戶進行任何互動，而且是以與您網站的互動為基礎。若要註冊您的網站，請參閱本[頁面](https://www.google.com/recaptcha/admin/create)。您必須選取 V3 reCAPTCHA 類型。
+Google reCAPTCHA 機制可讓您保護著陸頁面，使其免受機器人程式造成的垃圾郵件和濫用。這對您的客戶來說不會造成干擾，因為它不需要客戶進行任何互動，而且是以與您網站的互動為基礎。若要註冊您的網站，請參閱本[頁面](https://www.google.com/recaptcha/admin/create)。您必須選擇V3 reCAPTCHA類型。
 
-若要將 Google reCAPTCHA V3 新增至您的登錄頁面，您必須先在外部帳戶中進行設定。如需如何將其新增至著陸頁面的詳細資訊，請參閱[本區段](../../channels/using/configuring-landing-page.md#setting-google-recaptcha)。
+若要將Google reCAPTCHA V3新增至您的登陸頁面，請在外部帳戶中進行設定。 如需如何將其新增至著陸頁面的詳細資訊，請參閱[本區段](../../channels/using/configuring-landing-page.md#setting-google-recaptcha)。
 
 若為 Google reCAPTCHA V3 外部帳戶，請提供下列詳細資訊：
 
@@ -186,7 +186,7 @@ Azure Blob 儲存連接器可用來匯入或匯出資料至 Adobe Campaign，使
 * **[!UICONTROL Type]**：Microsoft Azure Blob 儲存
 * 您的 **[!UICONTROL Account name]** 和 **[!UICONTROL Account key]**。若要瞭解在何處尋找您的帳戶名稱和金鑰，請參閱本[頁面](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage)。
 * 您的 **[!UICONTROL Endpoint suffix]**。您可在 Azure 入口網站 **[!UICONTROL Access keys]** 功能表內的 **[!UICONTROL Connection string]** 找到它。如需詳細資訊，請參閱此[頁面](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage)。
-* 您的 **[!UICONTROL Container]** 名稱。如果您打算使用多個容器，則需要建立與容器一樣多的外部帳戶。
+* 您的 **[!UICONTROL Container]** 名稱。如果您打算使用多個容器，請建立與容器一樣多的外部帳戶。
 * **[!UICONTROL Concurrency]** 選項可讓您微調檔案傳輸的速度。
 
 ![](assets/external_accounts_4.png)

@@ -9,9 +9,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '2597'
+source-wordcount: '2596'
 ht-degree: 76%
 
 ---
@@ -330,7 +330,7 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 
 ### 退回郵件資格 {#legacy-bounce-mail-qualification}
 
-若要列出各種退信及其相關的錯誤類型和原因，請按一下左上方的&#x200B;**Adobe**&#x200B;標誌，然後選取&#x200B;**[!UICONTROL Administration > Channels > Quarantines > Message qualification]**。
+若要列出各種退信及其相關的錯誤類型和原因，請按一下左上角的&#x200B;**Adobe**&#x200B;標誌，然後選取&#x200B;**[!UICONTROL Administration > Channels > Quarantines > Message qualification]**。
 
 退信可以有下列資格狀態：
 

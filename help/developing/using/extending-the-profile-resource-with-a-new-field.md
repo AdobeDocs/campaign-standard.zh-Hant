@@ -8,10 +8,10 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 625d5e10-3d68-440e-a60c-4fcdfca34b5f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
 source-wordcount: '1022'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 100%
 
 1. 按一下 **[!UICONTROL Add an element]**，然後視需要新增值，方法是新增 **[!UICONTROL Label]** 及 **[!UICONTROL ID]** 並按一下 **[!UICONTROL Add]**。
 
-   在此處，我們將建立 Books、Exhibitions、Movies 及 N/A 值，讓設定檔從這些選項進行選取。
+   在此範例中，建立Books、Exhibitions、Movies和N/A值，讓設定檔在這些選項之間進行選擇。
 
    ![](assets/schema_extension_uc11.png)
 

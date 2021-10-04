@@ -8,27 +8,25 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 00d39438-a232-49f1-ae5e-1e98c73397e3
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '672'
 ht-degree: 3%
 
 ---
 
 # 管理異動訊息 {#managing-transactional-messages}
 
-## 關於異動訊息傳送
-
 建立並發佈交易式事件後，您必須將此事件的觸發整合至您的網站。
 
 >[!NOTE]
 >
->在[此部分](../../channels/using/configuring-transactional-event.md)中顯示配置事件。
+>在[此部分](../../channels/using/configuring-transactional-event.md)中詳細描述了事件配置。
 
-例如，您希望當客戶在購物車中購買產品之前離開您的網站時，觸發「購物車放棄」事件。 若要這麼做，您的網頁開發人員必須使用REST交易式訊息API。
+例如，您希望當客戶在購物車中購買產品之前離開您的網站時，觸發「購物車放棄」事件。 若要這麼做，身為網頁開發人員，您必須使用REST交易式訊息API。
 
-1. 開發人員根據POST方法傳送請求，觸發交易事件](#sending-a-transactional-event)的[傳送。
-1. 對POST要求的回應包含主要金鑰，可讓開發人員透過GET要求傳送一或多個要求。 這樣他就能取得[事件狀態](#transactional-event-status)。
+1. 根據POST方法傳送要求，這會觸發交易事件](#sending-a-transactional-event)的[傳送。
+1. POST要求的回應包含主要金鑰，可讓您透過GET要求傳送一或多個要求。 然後，您就能取得[事件狀態](#transactional-event-status)。
 
 ## 傳送交易式事件 {#sending-a-transactional-event}
 
@@ -46,7 +44,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
    `POST https://mc.adobe.io/geometrixx/campaign/mcgeometrixx/<eventID>`
 
-   （請注意，交易式訊息API端點也會在API預覽期間顯示）
+   請注意，交易式訊息API端點也會在API預覽期間顯示。
 
 * **&lt;eventid>**:您要傳送的事件類型。此ID會在建立事件設定時產生（請參閱[此區段](../../channels/using/configuring-transactional-event.md#creating-an-event)）。
 

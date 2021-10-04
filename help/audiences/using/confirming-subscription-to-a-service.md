@@ -8,10 +8,10 @@ feature: Audiences
 role: User
 level: Intermediate
 exl-id: 9992a05b-9f3c-4e6c-82e5-151c679565a1
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1321'
-ht-degree: 96%
+source-wordcount: '1315'
+ht-degree: 90%
 
 ---
 
@@ -116,7 +116,7 @@ ht-degree: 96%
 
 1. 按一下 **[!UICONTROL Confirm]** 並儲存服務。
 
-現在，每次設定檔訂閱此服務時，他都會收到您所定義的交易式訊息，並有對應至所選服務的個人化欄位。
+現在，當設定檔訂閱此服務時，他們會收到您定義的交易式訊息，並有對應至所選服務的個人化欄位。
 
 >[!NOTE]
 >
@@ -190,8 +190,8 @@ ht-degree: 96%
 
 1. [測試和發佈](../../channels/using/testing-publishing-landing-page.md)登錄頁面
 
-現在，每次設定檔透過提交登錄頁面來訂閱此服務時，他都會收到您所定義的交易式訊息，並有對應至所選服務的個人化欄位。
+現在，當設定檔透過提交登錄頁面來訂閱您的電子報時，他們會收到您定義的確認訊息，並有對應至服務的個人化欄位。
 
 >[!NOTE]
 >
->每次提交登錄頁面時都會傳送訊息（即使已訂閱設定檔亦然）。
+>每次提交登錄頁面時都會傳送訊息，即使已訂閱設定檔亦然。

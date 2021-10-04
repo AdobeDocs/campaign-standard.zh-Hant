@@ -8,9 +8,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 6b3c189d-8ddd-4dc0-8831-65ae62e04c70
-source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '913'
 ht-degree: 4%
 
 ---
@@ -76,7 +76,7 @@ ht-degree: 4%
 
 ## 若要讓行動設定檔在行銷活動中變得更加豐富，我必須做什麼？ {#enrich-mobile-profile}
 
-您需要設定CollectPII回傳（請參閱此[page](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#PIIpostback)），並從SDK實作CollectPII API（請參閱此[page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii)）。
+您必須設定CollectPII回傳（請參閱此[page](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#PIIpostback)），並從SDK實作CollectPII API（請參閱此[page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii)）。
 
 ## CollectPII呼叫的觸發頻率為何？ {#collect-pii}
 

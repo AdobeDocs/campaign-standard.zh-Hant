@@ -8,7 +8,7 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: 6383ddbe-922a-4363-a1da-166cf717b0dd
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
 source-wordcount: '495'
 ht-degree: 0%
@@ -63,7 +63,7 @@ Campaign Standard中定義的擴充資源會對應至所有原生欄位。 這�
 
 如需XDM API的詳細資訊，請參閱[結構註冊表API教學課程](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html)。
 
-若要對應分項清單欄位，您需要使用運算式編輯器來定義與XDM值對應的每個分項清單值。 例如，postalAdressfield需要定義為：
+若要對應分項清單欄位，您需要使用運算式編輯器來定義與XDM值對應的每個分項清單值。 例如，後置定址欄位需定義為：
 
 ![](assets/aep_enummapping.png)
 

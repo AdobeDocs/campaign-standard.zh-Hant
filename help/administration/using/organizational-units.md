@@ -9,9 +9,9 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: fbab695a-2672-4183-8c3b-78af7aefd5b1
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '840'
 ht-degree: 4%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 4%
 >
 >依預設，將 **[!UICONTROL All (all)]** 組織單位指派給 **[!UICONTROL Administrators]** 安全性群組。其為唯讀狀態且無法修改。
 
-用戶對父單元中的所有對象具有只讀訪問權限。 他對其單位和兒童單位的所有對象都有讀寫權限。 用戶無權訪問並行分支中的對象。
+用戶對父單元中的所有對象具有只讀訪問權限。 此類用戶對其單位和子單位的所有對象具有讀寫訪問權限。 用戶無權訪問並行分支中的對象。
 
 預設情況下，僅&#x200B;**[!UICONTROL All]**&#x200B;單位可用。
 
@@ -79,7 +79,7 @@ ht-degree: 4%
 
 1. 請依照相同的程式，建立指派給先前建立之Geometrixx服裝組織單位的第二個範本。
 
-指派給「標準使用者」和「Geometrixx服裝」群組的使用者將能看到這兩個範本。 由於組織單位的分層結構，他將具有對連結到Geometrixx服裝單位的模板的讀寫訪問權，並且只對連結到Geometrixx單位的模板的只讀訪問權。
+指派給&#x200B;**標準使用者**&#x200B;和&#x200B;**Geometrixx服裝**&#x200B;群組的使用者將能看到這兩個範本。 由於組織單位的分層結構，它們將具有對連結到Geometrixx服裝單位的模板的讀寫訪問權，並且只對連結到Geometrixx單位的模板的只讀訪問權。
 
 ![](assets/manage_units_7.png)
 
@@ -87,9 +87,9 @@ ht-degree: 4%
 
 ![](assets/manage_units_8.png)
 
-組織單位可限制存取不同功能，例如設定檔。 例如，如果我們的Geometrixx服裝用戶訪問&#x200B;**[!UICONTROL Profiles]**&#x200B;頁簽，他將能夠完全訪問並修改Geometrixx服裝組織單位的配置檔案。
+組織單位可限制存取不同功能，例如設定檔。 例如，如果我們的Geometrixx服裝用戶訪問&#x200B;**[!UICONTROL Profiles]**&#x200B;頁簽，他們將能夠完全訪問並修改具有Geometrixx服裝組織單位的配置檔案。
 
-雖然具有Geometrixx組織單位的設定檔將只讀，但如果我們的使用者嘗試修改一個設定檔，則會出現下列錯誤：**[!UICONTROL You do not have the rights needed to modify the 'profile' resource of ID]**。
+雖然具有Geometrixx組織單位的設定檔將只讀，但如果使用者嘗試修改一個設定檔，則會出現下列錯誤：**[!UICONTROL You do not have the rights needed to modify the 'profile' resource of ID]**。
 
 ![](assets/manage_units_10.png)
 

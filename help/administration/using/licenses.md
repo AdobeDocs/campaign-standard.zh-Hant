@@ -8,9 +8,9 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 4a4c14da-d842-4f65-821a-ca9e73a94adc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '168'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 ![](assets/license_1.png)
 
-若使用新組建或新功能，授權條款可能會變更，且需由執行個體的功能管理員接受。
+若使用新組建或新功能，授權條款可能會變更，且必須由執行個體的功能管理員接受。
 
 標準使用者登入後，系統會顯示下列視窗，不需執行任何動作。 按一下&#x200B;**[!UICONTROL OK]**&#x200B;按鈕仍可在Adobe Campaign上運作。
 

@@ -4,10 +4,10 @@ description: 匯入範本可減少所需的設定，並更快速地匯入資料�
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 100%
+source-wordcount: '786'
+ht-degree: 96%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 100%
 
 1. 移至 **[!UICONTROL Workflow]** 索引標籤。您可以從此處，根據您的需求新增活動，讓預設提供的工作流程更佳豐富。
 
-   如需如何設定工作流程活動的詳細資訊，請參閱本區段說明的使用案例：[範例：匯入工作流程範本](../../automating/using/creating-import-workflow-templates.md)。此使用案例可協助您設定一個工作流程，此工作流程可重複用於匯入來自 Adobe Campaign 資料庫中 CRM 之設定檔的工作流程。
+   如需如何設定工作流程活動的詳細資訊，請參閱本區段說明的使用案例：[範例：匯入工作流程範本](../../automating/using/creating-import-workflow-templates.md)。此使用案例可協助您設定可重複用於匯入來自Adobe Campaign資料庫中CRM之設定檔的工作流程。
 
 1. 儲存您的範本，以便正確考慮工作流程的設定。
 1. 從 **[!UICONTROL Properties]** 索引標籤上傳範例檔案。上傳的檔案只能有未來匯入或範例資料所需的欄。範例檔案中的資料可讓您在定義工作流程後，測試簡化的匯入。

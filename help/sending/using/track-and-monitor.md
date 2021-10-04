@@ -9,16 +9,16 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: dd3bd672-fb9d-4e82-bdf3-d319f372baaa
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '431'
 ht-degree: 4%
 
 ---
 
 # 追蹤和監視 {#track-and-monitor}
 
-您按一下「傳送」按鈕？ 讓我們看看會發生什麼。 傳送後，Adobe Campaign可讓您追蹤已傳送的訊息，並探索收件者對您傳送的反應。 這可協助您改善未來的傳送，並最佳化您的下一個促銷活動。
+您按一下「傳送」按鈕？ 讓我們看看會發生什麼。 傳送後，Adobe Campaign可讓您追蹤已傳送的訊息，並探索收件者對您傳送的反應。 這可協助您改善未來的傳送，並最佳化您的下一個行銷活動。
 
 ## 監視傳遞 {#monitoring-deliveries}
 

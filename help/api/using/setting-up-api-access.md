@@ -8,7 +8,7 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: efbbd0cd-9c56-4ad0-8bcb-efba4b63c28b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 1%
@@ -21,7 +21,7 @@ Adobe Campaign Standard API存取權是透過下列步驟設定。 在[AdobeIO�
 
 >[!IMPORTANT]
 >
->若要在AdobeIO中管理憑證，請確定您在組織上擁有<b>系統管理員</b>權限，或在管理控制台中擁有[開發人員帳戶](https://helpx.adobe.com/enterprise/using/manage-developers.html)</a>權限。
+>要在AdobeIO中管理證書，請確保您在組織上具有<b>系統管理員</b>權限，或在Admin Console中具有[開發人員帳戶](https://helpx.adobe.com/enterprise/using/manage-developers.html)</a>權限。
 
 1. **檢查您是否擁有數位憑證**，或視需要建立憑證。下列步驟需要憑證隨附的公開金鑰和私密金鑰。
 1. **建立與Adobe Campaign Servicein** AdobeIO的新整合併加以設定。接著會產生您的認證（API金鑰、用戶端密碼……）。

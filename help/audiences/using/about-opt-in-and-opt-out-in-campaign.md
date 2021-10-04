@@ -8,10 +8,10 @@ feature: Audiences
 role: User
 level: Beginner
 exl-id: ccb35aeb-2b32-4444-969b-50021111a0d6
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 9%
+source-wordcount: '223'
+ht-degree: 8%
 
 ---
 
@@ -27,6 +27,6 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->選擇退出適用於&#x200B;**設定檔**，而非連結至&#x200B;**電子郵件地址**&#x200B;或&#x200B;**電話號碼**&#x200B;的隔離。 因此，選擇退出設定檔會排除所有連結至該設定檔的位址。 不過，如果使用者在資料庫中有兩個設定檔，則傳送仍會鎖定他，因為只有一個設定檔會選擇退出。 為確保將其所有地址都排除在外，請將其新增至隔離地址。 如需詳細資訊，請參閱[此頁面](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses-for-the-entire-platform)。
+>選擇退出適用於&#x200B;**設定檔**，而非連結至&#x200B;**電子郵件地址**&#x200B;或&#x200B;**電話號碼**&#x200B;的隔離。 因此，選擇退出設定檔會排除所有連結至該設定檔的位址。 不過，如果使用者在資料庫中有兩個設定檔，則傳送仍會鎖定此使用者，因為只有其中一個設定檔被選擇退出。 若要確認其所有位址皆已排除，請將其新增至隔離的位址。 如需詳細資訊，請參閱[此頁面](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses-for-the-entire-platform)。
 
 有關服務訂閱的詳細資訊，請參閱[本頁](../../audiences/using/about-subscriptions.md)。

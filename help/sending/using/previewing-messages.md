@@ -8,9 +8,9 @@ feature: Seed Address
 role: User
 level: Intermediate
 exl-id: ac8c1265-f530-4438-ab2d-3ca17615ca85
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '623'
 ht-degree: 15%
 
 ---
@@ -41,7 +41,7 @@ Campaign Standard可讓您在傳送訊息之前預覽訊息，以檢查其個人
 
    ![](assets/sending_test-profile.png)
 
-1. 要退出&#x200B;**[!UICONTROL Preview]**&#x200B;模式，請按一下螢幕左上方的&#x200B;**[!UICONTROL Edit]**&#x200B;按鈕。
+1. 要退出&#x200B;**[!UICONTROL Preview]**&#x200B;模式，請按一下螢幕左上角的&#x200B;**[!UICONTROL Edit]**&#x200B;按鈕。
 
    ![](assets/sending_preview_edit.png)
 

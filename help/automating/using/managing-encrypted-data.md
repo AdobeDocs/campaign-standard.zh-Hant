@@ -8,9 +8,9 @@ feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: 1df1552a-6578-47eb-ba14-fb91cd2a3999
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '916'
 ht-degree: 5%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 5%
 
 ## 使用案例：匯入使用「控制面板」產生的金鑰加密的資料 {#use-case-gpg-decrypt}
 
-在此使用案例中，我們將建立工作流程，以使用「控制面板」中產生的金鑰，匯入已在外部系統加密的資料。
+在此使用案例中，建立工作流程，以使用「控制面板」中產生的金鑰，匯入外部系統中已加密的資料。
 
 ![](assets/do-not-localize/how-to-video.png) [在影片中探索此功能](#video)
 
@@ -58,7 +58,7 @@ ht-degree: 5%
 
 1. 在外部系統中，使用從控制面板下載的公開金鑰來加密要匯入至Campaign Standard的資料。
 
-1. 在Campaign Standard中，建立工作流程以匯入加密資料，並使用透過「控制面板」安裝的私密金鑰解密。 為此，我們將建立以下工作流程：
+1. 在Campaign Standard中，建立工作流程以匯入加密資料，並使用透過「控制面板」安裝的私密金鑰解密。 要執行此操作，請建立工作流程，如下所示：
 
    ![](assets/gpg_workflow.png)
 
@@ -87,7 +87,7 @@ ht-degree: 5%
 
 ## 使用案例：使用安裝在控制面板上的金鑰加密和匯出資料 {#use-case-gpg-encrypt}
 
-在此使用案例中，我們將建置工作流程，使用「控制面板」上安裝的金鑰來加密和匯出資料。
+在此使用案例中，請建立工作流程，以使用「控制面板」上安裝的金鑰來加密和匯出資料。
 
 ![](assets/do-not-localize/how-to-video.png) [在影片中探索此功能](#video)
 
@@ -97,7 +97,7 @@ ht-degree: 5%
 
    ![](assets/gpg_install.png)
 
-1. 在Campaign Standard中，建立工作流程以匯出資料，並使用透過「控制面板」安裝的私密金鑰加密。 為此，我們將建立以下工作流程：
+1. 在Campaign Standard中，建立工作流程以匯出資料，並使用透過「控制面板」安裝的私密金鑰加密。 要執行此操作，請建立工作流程，如下所示：
 
    ![](assets/gpg-workflow-export.png)
 

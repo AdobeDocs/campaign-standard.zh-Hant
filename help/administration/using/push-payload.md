@@ -9,9 +9,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: a6515795-1006-4f27-bc44-5ae8b8edc018
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1147'
 ht-degree: 3%
 
 ---
@@ -220,7 +220,7 @@ Adobe Campaign可讓您在iOS和Android行動裝置上，將個人化和分段�
 
 ### 如何擷取行動應用程式程式碼中的裝載資訊 {#payload-information}
 
-應用程式伺服器所傳送的裝載資訊會由行動應用程式程式碼在事件處理常式中接收，指出已接收推播通知。 此事件會依正在運作的行動平台而異，也依應用程式在前景或背景執行而定。 下列檔案將協助您根據使用案例識別您要處理的事件處理常式。
+應用程式伺服器所傳送的裝載資訊會由行動應用程式程式碼在事件處理常式中接收，指出已接收推播通知。 此事件會依正在運作的行動平台而異，也依應用程式在前景或背景執行而定。 下列檔案可協助您根據使用案例，識別您要處理的事件處理常式。
 
 * iOS應用程式：**處理[遠程通知](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/HandlingRemoteNotifications.html)中的遠程通知**&#x200B;部分。
 * Android應用程式：[在Android用戶端應用程式上接收訊息](https://firebase.google.com/docs/cloud-messaging/android/receive)

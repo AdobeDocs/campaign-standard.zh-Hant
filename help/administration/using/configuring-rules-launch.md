@@ -9,16 +9,16 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b5f4f612-ea23-4007-b427-069777ecdd58
-source-git-commit: 8c4e38a3fc66e4d819575fcd64616a822e0e1f82
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '946'
 ht-degree: 1%
 
 ---
 
 # 設定啟動規則以支援 Adobe Campaign Standard 使用案例 {#configuring-rules-launch}
 
-在[!DNL Adobe Experience Platform Launch]中，您需要建立資料元素和規則，以將PII和其他資料從行動應用程式傳送至[!DNL Adobe Campaign Standard]。
+在[!DNL Adobe Experience Platform Launch]中，建立資料元素和規則，將PII和其他資料從行動應用程式傳送至[!DNL Adobe Campaign Standard]。
 
 為確保[!DNL Adobe Experience Platform Launch]中的所有配置更改都生效，您必須發佈這些更改。 如需詳細資訊，請參閱[Publishing](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-the-configuration)。
 
@@ -66,7 +66,7 @@ ht-degree: 1%
 
 ## 建立規則 {#creating-rules}
 
-您需要建立下列規則：
+您必須建立下列規則：
 
 * [PII回傳](../../administration/using/configuring-rules-launch.md#pii-postback)
 * [應用程式內追蹤回傳](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback)
@@ -77,7 +77,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->若要將PII資訊從行動應用程式傳送至Adobe Campaign，您需要實作SDK API。 如需詳細資訊，請前往[CollectPII](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii)。
+>若要將PII資訊從行動應用程式傳送至Adobe Campaign，您必須實作SDK API。 如需詳細資訊，請前往[CollectPII](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii)。
 
 若要將PII資料傳送至[!DNL Adobe Campaign Standard]，請在[!DNL Experience Platform Launch]中建立規則：
 
@@ -264,7 +264,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >在上例中，需要利用[建立資料元素](../../administration/using/configuring-rules-launch.md#create-data-elements)中的步驟，在[!DNL Experience Platform Launch]中配置右側的資料元素。 [!DNL Adobe Campaign Standard]支援左側的資料元素，不需要任何配置。 如果需要其他資料，您需要在[!DNL Adobe Campaign Standard]中執行自訂資源擴展。
+   >在上例中，必須利用[建立資料元素](../../administration/using/configuring-rules-launch.md#create-data-elements)中的步驟，在[!DNL Experience Platform Launch]中配置右側的資料元素。 [!DNL Adobe Campaign Standard]支援左側的資料元素，不需要任何配置。 如果需要其他資料，必須在[!DNL Adobe Campaign Standard]中執行自定義資源擴展。
 
 1. 在&#x200B;**[!UICONTROL Content Type]**&#x200B;中，鍵入&#x200B;**application/json**。
 

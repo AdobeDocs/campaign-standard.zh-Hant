@@ -8,9 +8,9 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: fa3796ee-a00c-4d70-bf3d-e8d2099f1116
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '94'
 ht-degree: 4%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 4%
 
 1. 第一步是&#x200B;**檢索配置檔案**。
 
-1. 在第二個請求中，我們將對設定檔執行&#x200B;**PATCH請求**，並在裝載中包含已完成的資訊。
+1. 在第二個請求中，對配置檔案執行&#x200B;**PATCH請求**，並在有效負載中執行完成的資訊。
 
 1. 若要檢查PATCH要求是否已更新設定檔，我們可以執行最終GET要求。
 

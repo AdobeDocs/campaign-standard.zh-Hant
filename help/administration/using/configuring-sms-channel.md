@@ -9,10 +9,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1565'
-ht-degree: 95%
+source-wordcount: '1563'
+ht-degree: 93%
 
 ---
 
@@ -56,9 +56,9 @@ ht-degree: 95%
 
    您可以指定出站訊息（&quot;MT&quot;，Mobile Terminated）的吞吐量上限，以每秒 MT 為單位。如果您在對應欄位中輸入　&quot;0&quot;，則吞吐量將無限制。
 
-   與持續時間對應的所有欄位的值需要以秒為單位完成。
+   與持續時間對應的所有欄位的值必須以秒為單位完成。
 
-1. 定義　SMS-C　特定參數，以備您需要定義特定編碼對應時使用。如需詳細資訊，請參閱[詳細文件](#smsc-specifics)。
+1. 定義SMS-C特定參數，以備您必須定義特定編碼對應時使用。 如需詳細資訊，請參閱[詳細文件](#smsc-specifics)。
 
    如果您不想遵守 SMPP 通訊協定，並將 **[!UICONTROL +]** 首碼傳輸到 SMS 提供者 (SMS-C) 的伺服器，請啟用 **[!UICONTROL Send full phone number (send characters other than digits)]** 選項。
 

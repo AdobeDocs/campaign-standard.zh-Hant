@@ -8,9 +8,9 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: '1302'
 ht-degree: 64%
 
 ---
@@ -116,7 +116,7 @@ The default configuration allows five retries at one-hour intervals, followed by
 >
 > Campaign **[!UICONTROL Message qualification]** 表格中的退信限定不再使用。
 
-inMail 程序仍會透過 **[!UICONTROL Inbound email]** 規則來限定非同步退信。若要存取這些規則，請按一下左上方的&#x200B;**Adobe**&#x200B;標誌，然後選取&#x200B;**[!UICONTROL Administration > Channels > Email > Email processing rules]**&#x200B;並選取&#x200B;**[!UICONTROL Bounce mails]**。 有關此規則的詳細資訊，請參閱[此部分](../../administration/using/configuring-email-channel.md#email-processing-rules)。
+inMail 程序仍會透過 **[!UICONTROL Inbound email]** 規則來限定非同步退信。若要存取這些規則，請按一下左上角的&#x200B;**Adobe**&#x200B;標誌，然後選取&#x200B;**[!UICONTROL Administration > Channels > Email > Email processing rules]**&#x200B;並選取&#x200B;**[!UICONTROL Bounce mails]**。 有關此規則的詳細資訊，請參閱[此部分](../../administration/using/configuring-email-channel.md#email-processing-rules)。
 
 有關跳出數和不同跳出數類型的詳細資訊，請參閱[此部分](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)。
 
@@ -128,7 +128,7 @@ Bounces can have the following qualification statuses:
 * **[!UICONTROL Keep]**: the bounce mail was qualified and will be used by the **Update for deliverability** workflow to be compared to existing email processing rules and enrich the list.
 * **[!UICONTROL Ignore]**: the bounce mail was qualified but will not be used by the **Update for deliverability** workflow. So it will not be sent to the client instances.
 
-To list the various bounces and their associated error types et reasons, click the **Adobe** logo, in the top left, then select **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
+To list the various bounces and their associated error types et reasons, click the **Adobe** logo, in the top-left, then select **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
 
 ![](assets/qualification.png)-->
 

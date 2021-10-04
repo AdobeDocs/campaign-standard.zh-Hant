@@ -9,9 +9,9 @@ feature: Control Groups
 role: User
 level: Intermediate
 exl-id: aa68914f-0497-40ba-98c8-4d4b2c6705fb
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1514'
+source-wordcount: '1512'
 ht-degree: 4%
 
 ---
@@ -190,14 +190,14 @@ Campaign Standard可讓您匯入可供測試的設定檔對象。 例如，這�
 1. 建立工作流程以從檔案建立對象。 若要這麼做，請新增並設定下列活動：
 
    * **[!UICONTROL Load file]** 活動：匯入CSV檔案(如需此活動的詳細資訊，請參 [閱本區段](../../automating/using/load-file.md))。
-   * **[!UICONTROL Reconciliation]** 活動：將檔案中的資訊連結到資料庫中的資訊。在此範例中，我們將使用設定檔的電子郵件地址作為調解欄位（如需此活動的詳細資訊，請參閱[此區段](../../automating/using/reconciliation.md)）。
+   * **[!UICONTROL Reconciliation]** 活動：將檔案中的資訊連結到資料庫中的資訊。在此範例中，使用設定檔的電子郵件地址作為調解欄位（如需此活動的詳細資訊，請參閱[此區段](../../automating/using/reconciliation.md)）。
    * **[!UICONTROL Save audience]** 活動：根據匯入的檔案建立對象(如需此活動的詳細資訊，請參 [閱本區段](../../automating/using/save-audience.md))。
 
    ![](assets/substitution_uc2.png)
 
 1. 執行工作流程，然後前往&#x200B;**[!UICONTROL Audiences]**&#x200B;標籤，檢查對象是否已使用所需資訊建立。
 
-   在此範例中，對象由三個設定檔組成。 每個校樣都會連結至將接收校樣的替代電子郵件地址，且校樣的主旨行中會加上前置詞。
+   在此範例中，對象由三個設定檔組成。 每個校樣都會連結至接收校樣的替代電子郵件地址，且校樣的主旨行中會加上前置詞。
 
    ![](assets/substitution_uc3.png)
 

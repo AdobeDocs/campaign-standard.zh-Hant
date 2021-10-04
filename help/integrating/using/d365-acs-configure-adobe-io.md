@@ -1,58 +1,57 @@
 ---
 title: 設定 Adobe IO for Microsoft Dynamics 365 整合
-description: 瞭解如何配置Microsoft Dynamics 365整合的AdobeIO。
+description: 了解如何配置AdobeIO for Microsoft Dynamics 365整合。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
 feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ab21b694-d05c-4ba4-b828-936803651b82
+source-git-commit: 7c34df594d4f649f259fb7edd946477f7b8d92d7
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '626'
 ht-degree: 2%
 
 ---
 
+# Adobe Campaign Standard和Adobe I/O設定，以進行Microsoft Dynamics 365整合
 
-# Adobe Campaign Standard與Adobe I/O配置，用於Microsoft Dynamics 365整合
+本文將說明如何設定Adobe Campaign Standard和Adobe I/O，讓整合應用程式能存取資料。
 
-本文將說明如何設定Adobe Campaign Standard和Adobe I/O，讓整合應用程式存取資料。
+## 設定Adobe Campaign Standard {#campaign-standard}
 
-## 配置Adobe Campaign Standard{#campaign-standard}
+### 設定檔擴充功能
 
-### 描述檔擴充功能
+請在Adobe Campaign Standard中啟用「設定檔擴充功能」。   這是從Microsoft Dynamics 365同步之設定檔資源中的自訂欄位所需的選項。   啟用這些功能的步驟如下：
 
-請在Adobe Campaign Standard啟用「個人檔案副檔名」。   這是必要的，以便從Microsoft Dynamics 365同步描述檔資源中的自訂欄位。   啟用這些功能的步驟包括：
-
-1. 前往「設定」->「管理」->「開發」->「發佈」。
+1. 前往「設定 — >管理 — >開發 — >發佈」。
 1. 按一下「準備出版物」以準備出版物。
-1. 準備完成後，請勾選「建立描述檔與服務Ext API」，然後按一下「發佈」。
+1. 準備完成後，請勾選「建立設定檔與服務Ext API」，然後按一下「發佈」。
 
 ## 設定 Adobe I/O {#adobe-io}
 
-Adobe I/O可讓您啟用Adobe Campaign Standard及其他Adobe產品的API存取權。   本文將詳細說明如何設定Adobe I/O，以便讓Adobe Campaign Standard與Microsoft Dynamics 365整合，以同步化資料。
+Adobe I/O可讓您啟用Adobe Campaign Standard及其他Adobe產品的API存取。   本文將詳細說明如何設定Adobe I/O，以便讓Adobe Campaign Standard與Microsoft Dynamics 365整合具有同步資料的存取權。
 
-### 概觀
+### 概覽
 
-在本文中執行預先整合設定之前，我們會假設您已布建，且擁有組織Campaign Standard例項的管理員存取權。  如果未發生此情況，則您需要聯絡Adobe客戶服務以完成促銷活動布建。
+在執行本文中的預先整合設定之前，我們假設您已布建，且擁有組織Campaign Standard例項的管理員存取權。  如果尚未發生此情況，則您需要與Adobe客戶服務聯絡，以完成Campaign布建。
 
 >[!CAUTION]
 >
->管理員需要執行下列步驟。
+>以下所述步驟需要由管理員執行。
 
-### 配置
+### 設定
 
-您需要建立新的AdobeIO項目並為整合配置它。
+您需要建立新的AdobeIO項目，並為整合進行配置。
 
 #### 建立新專案
 
-若要達成此目的，請依照下列程式：
+若要這麼做，請遵循下列程式：
 
-1. 導覽至[AdobeIO控制台](https://console.adobe.io/home#)，然後從畫面右上方的下拉式選單中選取您的AdobeIMS組織ID。
+1. 導覽至[AdobeIO主控台](https://console.adobe.io/home#)，然後從畫面右上方的下拉式選單中選取您的Adobe IMS組織ID。
 
-1. 然後按一下&#x200B;**[!UICONTROL Quick Start]**&#x200B;下方的&#x200B;**[!UICONTROL Create new project]**。
+1. 然後按一下&#x200B;**[!UICONTROL Quick Start]**&#x200B;下的&#x200B;**[!UICONTROL Create new project]**。
 
    ![](assets/adobeIO1.png)
 
@@ -60,52 +59,52 @@ Adobe I/O可讓您啟用Adobe Campaign Standard及其他Adobe產品的API存取�
 
    ![](assets/adobeIO2.png)
 
-1. 選取Adobe CampaignAPI（您可能需要向下捲動），然後按一下&#x200B;**[!UICONTROL Next]**。
+1. 選取Adobe Campaign API（您可能需要捲動至底部），然後按一下&#x200B;**[!UICONTROL Next]**。
 
    ![](assets/adobeIO3.png)
 
-1. 在下一個畫面中，您可以選擇上傳您自己的公開金鑰，或讓AdobeIO為您產生金鑰對。 這些指示將遵循後一個選項。 如果您決定讓AdobeIO生成密鑰對，請按一下選項1;然後按一下&#x200B;**[!UICONTROL Generate keypair]**&#x200B;按鈕。
+1. 在下一個螢幕上，您將可以選擇上載自己的公鑰，或者讓AdobeIO為您生成密鑰對。 這些指示將遵循後一選項。 如果您決定讓AdobeIO產生金鑰組，請按一下選項1;然後按一下&#x200B;**[!UICONTROL Generate keypair]**&#x200B;按鈕。
 
    ![](assets/adobeIO4.png)
 
-1. 在下一個畫面中，系統會提示您命名並選取金鑰對zip檔案的下載位置。
+1. 在下一個畫面中，系統會提示您命名，並選取金鑰組zip檔案的下載位置。
 
-下載後，您就可以解壓縮檔案，以顯示公開和私密金鑰。 AdobeIO已將公共密鑰應用於AdobeIO項目。 您以後需要保留您的私密金鑰；在整合工具的預先整合設定期間，將會使用私密金鑰。
+下載後，您可以將檔案解壓縮，以顯示公開和私密金鑰。 AdobeIO已將公鑰應用到AdobeIO項目。 您以後需要保留私密金鑰；在整合工具的預先整合設定期間，將使用私密金鑰。
 
-1. 按一下&#x200B;**[!UICONTROL Next]**&#x200B;繼續
+1. 按一下&#x200B;**[!UICONTROL Next]**&#x200B;以繼續
 
    ![](assets/adobeIO5.png)
 
-1. 在下一個畫面中，您將選取要與此專案關聯的產品設定檔。 選取標題中包含的產品設定檔：促銷活動例項的租用戶ID - [!UICONTROL Administrators]
+1. 在下一個畫面中，您將選取要與此專案關聯的產品設定檔。 選取標題中包含的產品設定檔：您的Campaign執行個體的租用戶ID - [!UICONTROL Administrators]
 
-   範例：Campaign Standard-您的促銷活動——租用戶ID —— 管理員
+   範例：Campaign Standard- your-campaign-tenantID — 管理員
 
-1. 按一下 **[!UICONTROL Save configured API]**。
+1. 按一下&#x200B;**[!UICONTROL Save configured API]**。
 
    ![](assets/adobeIO6.png)
 
-1. 在下一個螢幕中，您將看到新AdobeIO項目的詳細資訊。 按一下畫面左上角的&#x200B;**[!UICONTROL Add to Project]**，然後從下拉式清單中選取&#x200B;**API**。
+1. 在下一個螢幕上，您將看到新AdobeIO項目的詳細資訊。 按一下螢幕左上角的&#x200B;**[!UICONTROL Add to Project]** ，然後從下拉式清單中選取&#x200B;**API**。
 
    ![](assets/adobeIO7.png)
 
-1. 在下一個畫面中，您需要選擇I/O事件API，然後按一下&#x200B;**[!UICONTROL Next]**。
+1. 在下一個畫面中，您需要選取I/O Events API，然後按一下&#x200B;**[!UICONTROL Next]**。
 
-1. 在下一個畫面上按一下&#x200B;**[!UICONTROL Save the configured API]**。  您將會回到專案詳細資訊畫面。
+1. 在下一個螢幕上，按一下&#x200B;**[!UICONTROL Save the configured API]**。  系統會將您帶回專案詳細資訊畫面。
 
-1. 現在按一下畫面左上角的&#x200B;**[!UICONTROL Add to Project]**，然後從下拉式清單中選取&#x200B;**API**，就像您先前所做的一樣。
+1. 現在，按一下畫面左上角的&#x200B;**[!UICONTROL Add to Project]**，並像先前一樣，從下拉式清單中選取&#x200B;**API**。
 
-1. 在下一個螢幕上，您需要選擇I/O管理API並按一下&#x200B;**[!UICONTROL Next]**。
+1. 在下一個螢幕上，您需要選擇I/O管理API，然後按一下&#x200B;**[!UICONTROL Next]**。
 
-1. 在下一個畫面上按一下&#x200B;**[!UICONTROL Save the configured API]**。
+1. 在下一個螢幕上，按一下&#x200B;**[!UICONTROL Save the configured API]**。
 
-促銷活動中的預先整合設定現在已完成。
+Campaign中的預先整合設定現在已完成。
 
 **相關主題**
 
-* [設定Microsoft Dynamics 365整合的AdobeIO](../../integrating/using/d365-acs-configure-adobe-io.md) 是設定整合的下一步
-* [整合自助服務應用](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) 程式概觀包含完整的步驟清單，讓您啟動並執行整合。
+* [配置AdobeIO for Microsoft Dynamics 365整](../../integrating/using/d365-acs-configure-adobe-io.md) 合是設定整合的下一步
+* [整合自助服務應用](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) 程式概述包含啟動及執行整合的完整步驟清單。
 
 
-* [AdobeIO —— 服務帳戶整合](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
+* [AdobeIO — 服務帳戶整合](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
 * [Campaign Standard- API存取設定](../../api/using/setting-up-api-access.md)
 * [Campaign Standard- Dynamics 365整合](../../integrating/using/d365-acs-configure-d365.md)

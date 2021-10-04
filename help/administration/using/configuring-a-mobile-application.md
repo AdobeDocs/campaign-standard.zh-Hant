@@ -8,10 +8,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1279'
-ht-degree: 7%
+source-wordcount: '1273'
+ht-degree: 5%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 7%
 
 >[!IMPORTANT]
 >
->推播通知和應用程式內實作必須由專家使用者執行。 如果您需要協助，請聯絡您的 Adobe 客戶主管或專業服務合作夥伴。
+>推播通知和應用程式內實作必須由專家使用者執行。 如需協助，請聯絡您的Adobe客戶經理或專業服務合作夥伴。
 
 若要透過Experience PlatformSDK應用程式傳送推播通知和應用程式內訊息，行動應用程式必須在Adobe Experience PlatformExperience PlatformExperience Platform Launch中設定，並在Adobe Campaign中設定。
 
@@ -84,9 +84,9 @@ ht-degree: 7%
 
 ## 在Adobe Campaign中設定您的Adobe Experience Platform Launch應用程式 {#set-up-campaign}
 
-若要在Campaign中使用Experience Platform Launch行動屬性，您也需在Adobe Campaign中設定此屬性。 在Adobe Campaign中，確認IMS使用者屬於標準使用者和管理員產品設定檔的一部分。
+若要在Campaign中使用Experience Platform Launch行動屬性，您也必須在Adobe Campaign中設定此屬性。 在Adobe Campaign中，確認IMS使用者屬於標準使用者和管理員產品設定檔的一部分。
 
-您需要等待技術工作流程執行，並將Launch行動屬性同步至Adobe Campaign。 接著，您就可以在Adobe Campaign中進行設定。
+您必須等待技術工作流程執行，並將Launch行動屬性同步至Adobe Campaign。 接著，您就可以在Adobe Campaign中進行設定。
 
 如需從Launch技術工作流程同步行動應用程式AEPSDK的詳細資訊，請參閱此[區段](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow)。
 

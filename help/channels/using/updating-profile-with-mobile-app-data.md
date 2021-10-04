@@ -9,9 +9,9 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 1b48456e-9aae-485c-a7c4-7e3e2f53cbca
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1007'
 ht-degree: 4%
 
 ---
@@ -106,7 +106,7 @@ ht-degree: 4%
 
    ![](assets/update_profile_createelement.png)
 
-1. 在&#x200B;**[!UICONTROL Source]**&#x200B;欄位中，從appSubscriptionRcp表格選取欄位作為調解欄位。 可以是設定檔的電子郵件、crmId、marketingCloudId等。 在此範例中，我們將使用「電子郵件(cusEmail)」欄位。
+1. 在&#x200B;**[!UICONTROL Source]**&#x200B;欄位中，從appSubscriptionRcp表格選取欄位作為調解欄位。 可以是設定檔的電子郵件、crmId、marketingCloudId等。 在此範例中，使用「電子郵件(cusEmail)」欄位。
 
 1. 在&#x200B;**[!UICONTROL Destination]**&#x200B;欄位中，從設定檔表格選取欄位，以調解appSubscriptionRcp表格中的資料。 這可以是設定檔的電子郵件，或任何延伸欄位，例如crmId、marketingCloudId等。 在此範例中，我們需要選取「電子郵件（電子郵件）」欄位，以與appSubscriptionRcp表格中的「電子郵件(cusEmail)」欄位對應。
 

@@ -9,10 +9,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1280'
-ht-degree: 80%
+source-wordcount: '1279'
+ht-degree: 77%
 
 ---
 
@@ -87,7 +87,7 @@ ht-degree: 80%
 
 ## 建立新品牌 {#creating-a-brand}
 
-您可以在Campaign中新增組織的實體，或建立新類型的電子郵件，您需要將其傳送至不同的子網域下。 若要執行此作業，請遵循下列步驟：
+您可以在Campaign中新增組織的實體，或建立新類型的電子郵件，您必須在不同的子網域下傳送。 若要執行此作業，請遵循下列步驟：
 
 1. **設定新子網域**  — 針對Adobe要使用的任何新子網域，第一步是進行設定。您可以透過[促銷活動控制面板](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=zh-Hant)執行此作業，或聯絡您的Adobe技術連絡人。 了解更多子網域設定[，請參閱本文](https://helpx.adobe.com/tw/campaign/kb/domain-name-delegation.html)。
 
@@ -95,7 +95,7 @@ ht-degree: 80%
    >
    >所有管理員使用者都可存取控制面板。 授予使用者管理員存取權限的步驟已詳載於[本頁](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hant#discover-control-panel)中。
 
-1. **建立票證**  — 一旦設定子網域，Adobe就需要在您的生產環境中進行設定。若要要求此項，請[使用下列資訊建立票證給Client Care](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html):
+1. **建立票證**  — 一旦設定子網域，Adobe就會在您的生產環境中設定。若要要求此項，請[使用下列資訊建立票證給Client Care](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html):
 
    * 主題：ACS新品牌設定
 
@@ -145,13 +145,13 @@ ht-degree: 80%
 
 在此範例中，我們將建立新的旅遊相關品牌，並在電子郵件中使用它。
 
-#### 設定新品牌 {#configure-a-new-brand}
+#### 步驟1:設定新品牌 {#configure-a-new-brand}
 
 >[!IMPORTANT]
 >
 >品牌設定僅由 Adobe 管理，因為需要特定的權限與技術設定。
 
-1. Adobe Campaign 管理員會在 **[!UICONTROL Administration > Instance settings > Brand configuration]** 中建立品牌。他從進階功能表新增 **Vacations in the Tropics** 元素，並設定 **[!UICONTROL ID]** 與品牌的 **[!UICONTROL Header parameters of sent emails]**。
+1. Adobe Campaign管理員會先從&#x200B;**[!UICONTROL Administration > Instance settings > Brand configuration]**&#x200B;功能表建立品牌，並新增&#x200B;**Vacations in the Tropics**&#x200B;元素，並設定品牌的&#x200B;**[!UICONTROL ID]**&#x200B;和&#x200B;**[!UICONTROL Header parameters of sent emails]**。
 
    ![](assets/branding_07.png)
 
@@ -163,7 +163,7 @@ ht-degree: 80%
 
 已正確建立與設定該品牌。行銷團隊現在可以使用它了。
 
-#### 實施新品牌 {#implement-a-new-brand}
+#### 步驟2:實作新品牌 {#implement-a-new-brand}
 
 身為傳遞經理，您負責使用新品牌建立傳遞範本。請遵循以下步驟完成此項目：
 
@@ -182,7 +182,7 @@ ht-degree: 80%
 
    現在可以使用傳遞範本建立將傳送給對象的電子郵件。
 
-#### 在傳送中使用新品牌 {#use-the-new-brand-in-a-delivery}
+#### 步驟3:在傳遞中使用新品牌 {#use-the-new-brand-in-a-delivery}
 
 若要建立連結至品牌的電子郵件，請遵循以下步驟：
 

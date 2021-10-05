@@ -9,9 +9,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: a6515795-1006-4f27-bc44-5ae8b8edc018
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1141'
 ht-degree: 3%
 
 ---
@@ -216,7 +216,7 @@ Adobe Campaign可讓您在iOS和Android行動裝置上，將個人化和分段�
 | 可變內容<br>（僅適用於iOS 10或更新版本） | 可變內容 | 不適用 | 應用程式中的通知服務擴充功能將會使用可變內容金鑰「截取」所有遠端通知，並可讓您處理/操控要求裝載的內容，這些內容之後可用來自訂通知。 此功能的使用案例包括下載和顯示多個媒體、解密推送裝載中出現的任何加密資料。 如需詳細資訊，請參閱[修改遠程通知的有效負載](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html)。 <br>（僅適用於iOS 10或更新版本） |
 | 可用內容 | 內容可用 | 不適用 | 選取此選項，可讓iOS應用程式在背景/暫停狀態時喚醒。 喚醒表示應用程式會在背景執行，而負責接收推播通知資料裝載的適當事件處理常式會取得控制，並可使用資料執行任何計算，包括但不限於建立自訂推播通知和顯示相同內容。 如需詳細資訊，請參閱[使用通知傳送喚醒應用程式](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html)。 |
 | 多媒體內容URL（影像檔案）<br>（僅適用於Android） | 不適用 | media-attachment-url | 影像檔案的URL，以新增豐富內容至通知。 |
-| 不適用 | _mId<br>_dId | _mId <br>_dId | broadlogId和deliveryId的值。<br>如果您的應用程式想要呼叫追蹤回傳，以追蹤推播通知的點按/開啟時間，則需要這些屬性。此資訊由應用程式伺服器計算並由內部傳送，使用者不需干預。<br>有關回傳的資訊，請參閱本 [頁面](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#PIIpostback)。 |
+| 不適用 | _mId<br>_dId | _mId <br>_dId | broadlogId和deliveryId的值。<br>如果您的應用程式想要呼叫追蹤回傳，以追蹤推播通知的點按/開啟時間，則需要這些屬性。此資訊由應用程式伺服器計算並由內部傳送，使用者不需干預。<br>有關回傳的資訊，請參閱本 [頁面](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback)。 |
 
 ### 如何擷取行動應用程式程式碼中的裝載資訊 {#payload-information}
 

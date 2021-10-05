@@ -8,9 +8,9 @@ context-tags: delivery,triggers,back
 feature: In App
 role: User
 exl-id: 986646b1-42d5-4169-ac38-d8e612a9a6d3
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '443'
 ht-degree: 100%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 1. 在　Adobe Campaign　中，確定您可以存取 **[!UICONTROL In-App]** 通道。如果您無法存取這些通道，請聯絡您的帳戶團隊。
 
-1. 若要將　Adobe Campaign Standard　的行動使用案例與　Experience Cloud SDK　應用程式搭配運用，行動應用程式必須在　Adobe Experience Platform Launch　中建立並在　Adobe Campaign Standard　中設定。如需逐步指南，請參閱此[頁面](https://helpx.adobe.com/tw/campaign/kb/configuring-app-sdk.html)。
+1. 若要將　Adobe Campaign Standard　的行動使用案例與　Experience Cloud SDK　應用程式搭配運用，行動應用程式必須在　Adobe Experience Platform Launch　中建立並在　Adobe Campaign Standard　中設定。如需逐步指南，請參閱此[頁面](../../administration/using/configuring-a-mobile-application.md)。
 
 1. 設定之後，您現在就能準備應用程式內訊息。如需詳細資訊，請參閱此[頁面](../../channels/using/preparing-and-sending-an-in-app-message.md#preparing-your-in-app-message)。
 
@@ -38,8 +38,8 @@ ht-degree: 100%
 **相關內容：**
 
 * [應用程式內報告](../../reporting/using/in-app-report.md)
-* [Adobe Campaign Standard　支援的行動使用案例](https://helpx.adobe.com/tw/campaign/kb/configure-launch-rules-acs-use-cases.html)
-* [Campaign Standard　行動指南](https://helpx.adobe.com/tw/campaign/kb/acs-mobile.html)
+* [Adobe Campaign Standard 支援的行動使用案例](../../administration/using/configuring-rules-launch.md)
+* [Campaign Standard　行動指南](../../channels/using/get-started-communication-channels.md)
 
 ## 使用個人和敏感資料處理行動設定檔欄位 {#handling-mobile-profile-fields-with-personal-and-sensitive-data}
 

@@ -9,10 +9,10 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 1b48456e-9aae-485c-a7c4-7e3e2f53cbca
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '1007'
-ht-degree: 4%
+source-wordcount: '996'
+ht-degree: 3%
 
 ---
 
@@ -32,8 +32,8 @@ ht-degree: 4%
 若要在Campaign Standard中啟用推播通知，您必須先執行數個設定步驟，才能根據行動應用程式訂閱資料建立或更新設定檔：
 
 1. [建立行動應用程式](../../administration/using/configuring-a-mobile-application.md)
-1. [將Adobe行動SDK與您的行動應用程式整合](https://helpx.adobe.com/tw/campaign/kb/integrate-mobile-sdk.html)。
-1. [設定Adobe Campaign以傳送推播通知](https://helpx.adobe.com/tw/campaign/kb/configuring-app-sdkv4.html)。
+1. [將Adobe行動SDK與您的行動應用程式整合](../../administration/using/supported-mobile-use-cases.md)。
+1. [設定Adobe Campaign以傳送推播通知](../../administration/using/configuring-a-mobile-application.md)。
 
 ## 步驟1 — 擴充推播通知/訂閱的設定檔資源
 

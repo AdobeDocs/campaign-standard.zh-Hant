@@ -8,9 +8,9 @@ context-tags: delivery,triggers,back
 feature: In App
 role: User
 exl-id: 986646b1-42d5-4169-ac38-d8e612a9a6d3
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '668'
 ht-degree: 2%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 2%
 
 ## 如何在Campaign中啟用應用程式內報告？ {#enable-inapp-reporting}
 
-您必須設定應用程式內追蹤回傳。 您可以在[此處](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#InApptrackingpostback)找到說明。
+您必須設定應用程式內追蹤回傳。 您可以在[此處](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback)找到說明。
 
 若要實作本機通知追蹤，請參閱此[page](../../administration/using/local-tracking.md)。
 

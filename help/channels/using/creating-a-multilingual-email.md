@@ -8,10 +8,10 @@ feature: Email
 role: User
 level: Intermediate
 exl-id: fcf192cb-f2d5-4340-bc2f-add0c195ad4e
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 25%
+source-wordcount: '278'
+ht-degree: 24%
 
 ---
 
@@ -43,6 +43,3 @@ ht-degree: 25%
 1. 使用&#x200B;**[!UICONTROL Send after confirmation option]**&#x200B;排程傳送。
 1. 傳送電子郵件後，您就可以存取其記錄和報表，以評估促銷活動的成功。 如需報告的詳細資訊，請參閱[本區段](../../reporting/using/about-dynamic-reports.md)。
 
-**相關主題：**
-
-* [使用單一工作流程觸及多語言對象](https://helpx.adobe.com/tw/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)

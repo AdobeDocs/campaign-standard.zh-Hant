@@ -9,10 +9,10 @@ feature: SMS
 role: User
 level: Beginner
 exl-id: a7f22d92-dbf9-4c2b-8fc1-1e31d1e5e79c
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 23%
+source-wordcount: '264'
+ht-degree: 21%
 
 ---
 
@@ -40,7 +40,7 @@ SMS訊息的長度若為GSM編碼，則限制為160個字元，若為Unicode，�
 * [管理範本](../../start/using/marketing-activity-templates.md)
 * [SMS設定](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)
 * [簡訊報告](../../reporting/using/sms-report.md)
-* [Campaign Standard　行動指南](https://helpx.adobe.com/tw/campaign/kb/acs-mobile.html)
+* [Campaign Standard　行動指南](../../channels/using/get-started-communication-channels.md)
 
 ## 簡訊傳送範本 {#sms-delivery-template}
 

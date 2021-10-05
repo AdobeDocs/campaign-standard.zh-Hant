@@ -8,9 +8,9 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 2ad76d55785f123b590e00c8d33552f4617c32e2
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1157'
 ht-degree: 98%
 
 ---
@@ -58,7 +58,7 @@ Adobe Campaign 提供兩種類型的清單：
    * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**
    * **[!UICONTROL Target users based on their Mobile profile (inApp)]**
 
-1. 輸入應用程式內訊息屬性，並在 **[!UICONTROL Associate a Mobile App to a delivery]** 欄位中選取您的行動應用程式。請注意，如果您未使用 Adobe Campaign Standard 設定行動應用程式，該應用程式將不會出現在清單中。如需行動應用程式設定的詳細資訊，請參閱本[頁面](https://helpx.adobe.com/tw/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign)。
+1. 輸入應用程式內訊息屬性，並在 **[!UICONTROL Associate a Mobile App to a delivery]** 欄位中選取您的行動應用程式。請注意，如果您未使用 Adobe Campaign Standard 設定行動應用程式，該應用程式將不會出現在清單中。如需行動應用程式設定的詳細資訊，請參閱本[頁面](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)。
 
    ![](assets/inapp_creating_3.png)
 
@@ -74,7 +74,7 @@ Adobe Campaign 提供兩種類型的清單：
 
    * **[!UICONTROL Mobile Application events]**：在行動應用程式中實作的自訂事件。
 
-      有關詳細資訊，請參見本[頁面](https://helpx.adobe.com/tw/campaign/kb/configuring-app-sdk.html)。
+      有關詳細資訊，請參見本[頁面](../../administration/using/configuring-a-mobile-application.md)。
 
    * **[!UICONTROL Life Cycle events]**：Adobe Mobile SDK 支援的現成可用生命週期事件。
 
@@ -86,7 +86,7 @@ Adobe Campaign 提供兩種類型的清單：
 
    * **[!UICONTROL Places]**：以下三個類別運用即時位置資料來提供情境相關的行動體驗：放置內容資料、放置自訂中繼資料或放置事件類型。
 
-      如需 Adobe Places 的詳細資訊，請參閱 [Places 檔案](https://placesdocs.com/)。
+      如需 Adobe Places 的詳細資訊，請參閱 [Places 檔案](https://experienceleague.adobe.com/docs/places/using/home.html)。
    ![](assets/inapp_creating_4.png)
 
 1. 如果您使用 **[!UICONTROL Analytics Events]**，Adobe Analytics和檢視狀態事件將會根據 Adobe Experience Platform Launch 中 Analytics 擴充功能中設定的報表套裝自動填入，而內容資料事件則必須手動新增。
@@ -103,7 +103,7 @@ Adobe Campaign 提供兩種類型的清單：
 
    ![](assets/inapp_creating_5.png)
 
-1. 編輯訊息的內容並定義進階選項。請參閱[自訂應用程式內訊息](https://helpx.adobe.com/campaign/standard/channels/using/customizing-an-in-app-message.html)。
+1. 編輯訊息的內容並定義進階選項。請參閱[自訂應用程式內訊息](../../channels/using/customizing-an-in-app-message.md)。
 
    ![](assets/inapp_creating_6.png)
 

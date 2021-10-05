@@ -9,10 +9,10 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: e61daed6-a0ec-49d8-b1ad-77590fafb496
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '1278'
-ht-degree: 50%
+source-wordcount: '1237'
+ht-degree: 49%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 50%
 
 Adobe Campaign 可讓您將個人化和分段的推播通知傳送至 iOS 和 Android 行動裝置。
 
-這些訊息是您利用 Experience Platform SDK 在 Adobe Campaign 中設定之行動應用程式接收而來的。如需詳細資訊，請參閱[使用 Adobe Experience Platform SDK 設定行動應用程式](https://helpx.adobe.com/tw/campaign/kb/configuring-app-sdk.html)。
+這些訊息是您利用 Experience Platform SDK 在 Adobe Campaign 中設定之行動應用程式接收而來的。如需詳細資訊，請參閱[使用 Adobe Experience Platform SDK 設定行動應用程式](../../administration/using/configuring-a-mobile-application.md)。
 
 在 Adobe Campaign 中，由行動裝置傳送的行動設定檔屬性資料會儲存在 **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** 資源中，您可藉此定義要從應用程式訂閱者收集的資料。
 
@@ -40,8 +40,6 @@ Adobe Campaign 提供兩種類型的推播通知：
 
 可以進行一些特定設定來定義通知行為。如需詳細資訊，請參閱[本區段](../../channels/using/customizing-a-push-notification.md)。
 
-身為專家使用者，若要定義這些特定設定，請參閱行動應用程式[技術文件](https://helpx.adobe.com/tw/campaign/kb/acs-article-list.html)。
-
 >[!NOTE]
 >
 >關於隱私權的法律會依國家/地區而異。有些國家/地區會要求您通知使用者行動應用程式收集的資料類型。請檢查您所在國家/地區的行動應用程式相關法律。請確定傳送至行動應用程式的推播通知符合 Apple（Apple 推播通知服務）和 Google（Google 雲端訊息或 Firebase 雲端訊息）所指定的必要條件。
@@ -51,7 +49,7 @@ Adobe Campaign 提供兩種類型的推播通知：
 * [準備和傳送推送通知](../../channels/using/preparing-and-sending-a-push-notification.md)
 * [建立多語言推送通知](../../channels/using/creating-a-multilingual-push-notification.md)
 * [推播通知報告](../../reporting/using/push-notification-report.md)
-* [Campaign Standard　行動指南](https://helpx.adobe.com/tw/campaign/kb/acs-mobile.html)
+* [Campaign Standard　行動指南](../../channels/using/get-started-communication-channels.md)
 
 ## 先決條件 {#prerequisites}
 
@@ -71,11 +69,11 @@ Adobe Campaign 提供兩種類型的推播通知：
 
 1. 在　Experience Platform Launch　中，安裝　**[!UICONTROL Adobe Campaign Standard]** 擴充功能。
 
-1. 在　Adobe Campaign Standard　中，設定您在　Experience Platform Launch　中建立的行動裝置屬性。如需詳細資訊，請參閱[在　Adobe Campaign　中設定　Experience Platform Launch　應用程式](https://helpx.adobe.com/tw/campaign/kb/configuring-app-sdk.html#SettingupyourAdobeExperiencePlatformLaunchapplicationinAdobeCampaign)。
+1. 在　Adobe Campaign Standard　中，設定您在　Experience Platform Launch　中建立的行動裝置屬性。如需詳細資訊，請參閱[在　Adobe Campaign　中設定　Experience Platform Launch　應用程式](../../administration/using/configuring-a-mobile-application.md#set-up-campaign)。
 
 1. 將特定通道的設定新增至行動應用程式設定。如需詳細資訊，請參閱[ Adobe Campaign 中的通道特定應用程式設定](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)。
 
-1. 若要支援行動使用案例實作，請參閱有關使用 Adobe Experience Platform SDK 擴充功能、Experience Platform Launch 規則，以及 [Adobe Campaign Standard 支援之行動使用案例中 SDK 實作的詳細指示](https://helpx.adobe.com/tw/campaign/kb/configure-launch-rules-acs-use-cases.html)。
+1. 若要支援行動使用案例實作，請參閱有關使用 Adobe Experience Platform SDK 擴充功能、Experience Platform Launch 規則，以及 [Adobe Campaign Standard 支援之行動使用案例中 SDK 實作的詳細指示](../../administration/using/configuring-rules-launch.md)。
 
 ## 推播通知常見問題集 {#push-faq}
 

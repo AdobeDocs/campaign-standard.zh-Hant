@@ -8,9 +8,9 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 4483e469-0a2b-494d-b768-950168759727
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '551'
 ht-degree: 19%
 
 ---
@@ -90,7 +90,7 @@ ht-degree: 19%
 
 **相關主題**：
 
-* [建立個人化](https://helpx.adobe.com/tw/campaign/kb/acs-get-started-with-emails.html) 電子郵件逐步指南
+* [建立個人化](../../channels/using/key-steps-to-send-a-message.md) 電子郵件逐步指南
 * [Adobe Campaign和Dreamweaver整合](../../designing/using/using-integrations.md#editing-content-in-dreamweaver)
 * [與Adobe Experience Manager整合](../../integrating/using/integrating-with-experience-manager.md)
 

@@ -77,7 +77,7 @@ ht-degree: 99%
       + [存取訊息](channels/using/accessing-messages.md)
       + [訊息儀表板](channels/using/message-dashboard.md)
       + [多語言訊息範本](channels/using/multilingual-messages-template.md)
-      + [開始使用行動裝置頻道](channels/using/mobile-guide.md)
+      + [開始使用行動頻道](channels/using/mobile-guide.md)
    + 傳遞最佳實務 {#delivery-bestpractices}
       + [瞭解好的實務](sending/using/delivery-best-practices.md)
       + [最佳化傳遞](sending/using/optimize-delivery.md)

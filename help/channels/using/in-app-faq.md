@@ -7,8 +7,7 @@ topic-tags: in-app-messaging
 context-tags: delivery,triggers,back
 feature: In App
 role: User
-exl-id: 986646b1-42d5-4169-ac38-d8e612a9a6d3
-source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
+source-git-commit: df7fce6f2fd98688e5a1fb5bc84603e6b3df5cd4
 workflow-type: tm+mt
 source-wordcount: '668'
 ht-degree: 2%
@@ -65,7 +64,7 @@ Adobe Campaign提供應用程式內管道的現成報表。 請參閱此[檔案]
 
 對於警報訊息，至少需要一個關閉按鈕（主要或次要應具有關閉動作）。 否則，可以保存該消息，但不會收到該消息。
 
-## 如果本機通知iOS自訂音效未播放；預設音效會改為播放嗎？ {#local-notification-sound}
+## 如果本機通知iOS自訂音效不會播放；預設音效會改為播放嗎？ {#local-notification-sound}
 
 若是iOS上的自訂音效，建立本機通知時（例如sound.caf），您必須提供副檔名為的檔案名稱。 如果未提供此擴充功能，則使用預設音效。
 

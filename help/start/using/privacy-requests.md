@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1599'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -45,15 +45,15 @@ Adobe Campaign 提供資料控制方工具，可針對儲存在 Adobe Campaign �
 
 ### 命名空間 {#namesspaces}
 
-建立隱私權要求之前，請先定義您將使用的命名空間。 命名空間是將用於識別 Adobe Campaign 資料庫中資料主體的金鑰。現成可用的兩個命名空間：電子郵件和行動電話。如果您需要不同的命名空間（如設定檔自訂欄位），請依照下列步驟進行。
+在建立隱私權請求之前，您必須先定義要使用的命名空間。命名空間是將用於識別 Adobe Campaign 資料庫中資料主體的金鑰。現成可用的兩個命名空間：電子郵件和行動電話。如果您需要不同的命名空間（如設定檔自訂欄位），請依照下列步驟進行。
 
 也請參閱本[教學課程](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/namespaces-for-privacy-requests.html?lang=zh-Hant#privacy)，以瞭解如何建立命名空間。
 
 >[!NOTE]
 >
->如果您使用數個命名空間，請為每個命名空間建立一個隱私權要求。
+>若您使用數個命名空間，請為每個命名空間建立一個隱私權請求。
 
-1. 按一下左上角的Adobe Campaign標誌，然後選取&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Namespaces]**。
+1. 按一下左上方的 Adobe Campaign 標誌，然後選取&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Namespaces]**。
 
    ![](assets/privacy-namespaces.png)
 
@@ -75,9 +75,9 @@ Adobe Campaign 提供資料控制方工具，可針對儲存在 Adobe Campaign �
 
    若要深入瞭解身份識別命名空間，請參閱 [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=zh-Hant) 文件。
 
-1. 一個身份識別服務命名空間會對應至 Campaign 中的一個命名空間。您必須指定在Campaign中協調命名空間的方式。
+1. 一個身份識別服務命名空間會對應至 Campaign 中的一個命名空間。您需要指定在 Campaign 中協調命名空間的方式。
 
-   選擇目標對應（**[!UICONTROL Recipients]**、**[!UICONTROL Real-time event]** 或 **[!UICONTROL Subscriptions to an application]**）。如果您想使用數個目標對應，請為每個目標對應建立一個命名空間。
+   選擇目標對應 (**[!UICONTROL Recipients]**、**[!UICONTROL Real-time event]** 或 **[!UICONTROL Subscriptions to an application]**)。如果您想使用數個目標對應，則需為每個目標對應建立一個命名空間。
 
    ![](assets/privacy-namespace-target-mapping.png)
 
@@ -85,7 +85,7 @@ Adobe Campaign 提供資料控制方工具，可針對儲存在 Adobe Campaign �
 
    ![](assets/privacy-namespace-reconciliation-key.png)
 
-1. 按一下 **[!UICONTROL Create]**。您現在可以根據新的命名空間來建立隱私權要求。如果您使用數個命名空間，請為每個命名空間建立一個隱私權要求。
+1. 按一下 **[!UICONTROL Create]**。您現在可以根據新的命名空間來建立隱私權要求。若您使用數個命名空間，請為每個命名空間建立一個隱私權請求。
 
 ### 建立隱私權請求 {#create-privacy-request}
 
@@ -127,9 +127,9 @@ Adobe Campaign 提供資料控制方工具，可針對儲存在 Adobe Campaign �
 
 另請參閱[本教學課程](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/custom-resources-for-privacy-requests.html?lang=zh-Hant#privacy)，以瞭解如何修改自訂資源。
 
-若要讓此功能發揮作用，您必須在自訂資源中選取&#x200B;**[!UICONTROL Deleting the target record implies deleting records referenced by the link]**&#x200B;選項：
+為了讓此功能發揮作用，您需要在自訂資源中選取 **[!UICONTROL Deleting the target record implies deleting records referenced by the link]** 選項：
 
-1. 按一下左上角的Adobe Campaign標誌，然後選取「**[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]**」。
+1. 按一下左上方的 Adobe Campaign 標誌，然後選取 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]**。
 
 1. 選擇具有設定檔資源（自有類型）之連結的自訂資源。
 
@@ -177,7 +177,7 @@ GDPR 和 CCPA 都很常使用存取及刪除要求的設定與使用情況。本
 
 除了 Adobe Campaign 提供的[同意管理](../../start/using/privacy-management.md#consent-management)工具以外，您還可以追蹤消費者是否選擇退出個人資訊銷售。
 
-當使用者透過您的系統決定不允許將其個人資訊銷售給第三方時，您便能儲存及追蹤此資訊。
+當使用者透過您的系統決定不允許將其個人資訊銷售給協力廠商時，您便能儲存及追蹤此資訊。
 
 >[!NOTE]
 >
@@ -191,7 +191,7 @@ GDPR 和 CCPA 都很常使用存取及刪除要求的設定與使用情況。本
 
 從 19.4 版本以來，Campaign 介面及 API 中可立即使用 **[!UICONTROL CCPA Opt-Out]** 欄位。依預設，此欄位適用於標準 **[!UICONTROL Profile]** 資源。
 
-如果您使用自訂設定檔資源，則必須擴充資源並新增欄位。 我們建議您使用與現成可用欄位不同的名稱，例如：**[!UICONTROL Opt-Out for CCPA]** (optouccpa)。建立新欄位時，Campaign API 會自動支援該欄位。
+如果您使用自訂設定檔資源，則需要擴充資源並新增欄位。我們建議您使用與現成可用欄位不同的名稱，例如：**[!UICONTROL Opt-Out for CCPA]** (optouccpa)。建立新欄位時，Campaign API 會自動支援該欄位。
 
 如需如何擴充設定檔資源的詳細資訊，請參閱[本節](../../developing/using/extending-the-profile-resource-with-a-new-field.md)。
 

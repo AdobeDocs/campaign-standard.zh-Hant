@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
-source-wordcount: '425'
-ht-degree: 100%
+source-git-commit: ce3c7cf767a0b6f72f5ca35779b492271d025227
+workflow-type: tm+mt
+source-wordcount: '432'
+ht-degree: 94%
 
 ---
 
@@ -25,11 +25,11 @@ Adobe 透過新增功能、增強功能和修正不斷改進其解決方案。
 
 所有發行日期皆可能變更：我們建議您定期造訪本頁面，以檢查更新。
 
-## 版本 21.3 - 2021 年 9 月發行 {#release-21-3-release}
+## 版本22.1 - 2022年2月發行 {#release-22-1-release}
 
 環境更新會在以下指定時段內以波形進行。已透過電子郵件向每位客戶傳達確切日期。
 
-有關此版本的詳細資訊，請參閱[版本說明](../../rn/using/release-notes.md)。
+有關此版本的詳細資訊，請參閱 [發行說明](../../rn/using/release-notes.md) 升級日期。
 
 <table>
  <thead>
@@ -41,11 +41,11 @@ Adobe 透過新增功能、增強功能和修正不斷改進其解決方案。
  <tbody>
   <tr>
    <td>Stage<br /> </td>
-   <td>2021 年 9 月 7 日 – 8 日<br /> </td>
+   <td>2022年2月8-9日<br /> </td>
   </tr>
   <tr>
    <td>生產<br /> </td>
-   <td>2021 年 9 月 14 - 21 日<br /> </td>
+   <td>2021 年 2 月 15 日至 22 日<br /> </td>
   </tr>
  </tbody>
 </table>
@@ -60,7 +60,7 @@ Adobe 透過新增功能、增強功能和修正不斷改進其解決方案。
 
 **問：什麼是驗證程式？**
 
-答：當您的測試執行個體升級時，Adobe 建議驗證您的流程，且使用案例與此新版本搭配運作正常，並向 [Adobe Client Care](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html) 報告任何問題。
+答：當您的測試執行個體升級時，Adobe 建議驗證您的流程，且使用案例與此新版本搭配運作正常，並向 [Adobe Client Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) 報告任何問題。
 
 **問：在升級過程中是否可以存取執行個體？**
 
@@ -82,4 +82,4 @@ Adobe 透過新增功能、增強功能和修正不斷改進其解決方案。
 
 答：登入 Campaign 時，將會顯示版本通知快顯視窗及最新版本。
 
-如有任何其他問題，請聯絡 [Adobe Client Care](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)。
+如有任何其他問題，請聯絡 [Adobe Client Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)。

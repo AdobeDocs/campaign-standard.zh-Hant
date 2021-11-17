@@ -8,7 +8,7 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 19679804-f728-49fa-b26e-8f31b67c29bf
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 5%
@@ -17,9 +17,9 @@ ht-degree: 5%
 
 # 擷取設定檔 {#retrieving-profiles}
 
-擷取設定檔是使用&#x200B;**GET**&#x200B;請求執行。
+擷取設定檔時使用 **GET** 請求。
 
-然後，您可以使用篩選器、排序和分頁來縮小搜尋範圍。 有關詳細資訊，請參閱[其他操作](../../api/using/sorting.md)部分。
+然後，您可以使用篩選器、排序和分頁來縮小搜尋範圍。 有關詳細資訊，請參閱 [其他操作](../../api/using/sorting.md) 區段。
 
 此外，Campaign StandardAPI可讓您根據下列其中一個欄位來搜尋設定檔：電子郵件、名字、姓氏或任何自訂欄位。 如需詳細資訊，請參閱[本章節](#searching-field)。
 
@@ -88,7 +88,7 @@ ht-degree: 5%
 
 ## 根據欄位搜尋設定檔 {#searching-field}
 
-**[!UICONTROL filterType]**&#x200B;參數可讓您根據以下其中一個欄位擷取設定檔：擴充設定檔資源時，在「進階篩選」中新增的電子郵件、名字、姓氏或任何自訂欄位。
+此 **[!UICONTROL filterType]** 參數可讓您根據下列其中一個欄位擷取設定檔：擴充設定檔資源時，在「進階篩選」中新增的電子郵件、名字、姓氏或任何自訂欄位。
 
 >[!NOTE]
 >

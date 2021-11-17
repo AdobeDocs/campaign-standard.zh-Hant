@@ -9,10 +9,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 9dc75d6a-d79a-49aa-a0c0-b1dd6c144ce6
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '473'
-ht-degree: 98%
+ht-degree: 90%
 
 ---
 
@@ -22,7 +22,7 @@ Experience Cloud 啟動核心服務 **[!UICONTROL Triggers]** 與 Adobe Campaign
 
 在 Adobe Experience Cloud 中，您定義了不同的觸發因素，即您要監視的客戶行為，例如所有放棄在您網站上瀏覽的客戶、在您的網站上進行搜尋，但並未進行購買，或甚至是工作階段過期的客戶。建立觸發器時，您會定義觸發器的條件，以及在事件（上傳）中傳送至 Adobe Campaign 的資料。
 
-在 Adobe Campaign 中，您選取先前建立的觸發器，您會以資料圖資料豐富事件資料，並定義連結至該觸發器的異動訊息範本。例如，當用戶端放棄在您的網站上瀏覽時，會將事件傳送至 Adobe Campaign，然後 Adobe Campaign 會在 15 分鐘內傳送給用戶的再行銷電子郵件來運用此事件。
+在 Adobe Campaign 中，您選取先前建立的觸發器，您會以資料圖資料豐富事件資料，並定義連結至該觸發器的異動訊息範本。例如，當用戶端放棄在您網站上的造訪時，會將事件傳送至Adobe Campaign，然後會在15分鐘內傳送給用戶端的再行銷電子郵件來運用此事件。
 
 下圖詳細說明此整合的運作方式。
 

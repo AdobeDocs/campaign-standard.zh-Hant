@@ -8,7 +8,7 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: f4fcf256-e030-4d7b-b4b7-2448acc2ae1c
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '771'
 ht-degree: 4%
@@ -23,9 +23,9 @@ ht-degree: 4%
 
 Adobe Experience Platform Data Connector可將XTK資料（在Campaign中擷取的資料）對應至Adobe Experience Platform上的Experience Data Model(XDM)資料，以協助現有客戶將其資料在Adobe Experience Platform上可用。
 
-請注意，連接器為&#x200B;**單向**，並將資料從Adobe Campaign Standard傳送至Adobe Experience Platform。 資料從不會從Adobe Experience Platform傳送至Adobe Campaign Standard。
+請注意，連接器為 **單向** 並將資料從Adobe Campaign Standard傳送至Adobe Experience Platform。 資料從不會從Adobe Experience Platform傳送至Adobe Campaign Standard。
 
-Adobe Experience Platform Data Connector適用於了解Adobe Campaign Standard自訂資源且了解客戶整體資料結構應如何位於Adobe Experience Platform內的資料工程師&#x200B;**。**
+Adobe Experience Platform Data Connector的用途為 **資料工程師** 了解Adobe Campaign Standard自訂資源，並了解客戶的整體資料結構在Adobe Experience Platform中的運作方式。
 
 以下各節將說明在Campaign Standard與Adobe Experience Platform之間執行資料對應的關鍵步驟。 這會從建立XDM結構和資料集開始。
 
@@ -44,7 +44,7 @@ Adobe Experience Platform Data Connector適用於了解Adobe Campaign Standard�
 
 * 「現成可用對應」僅適用於預設以Campaign Standard提供的欄位。 若要擷取所有自訂欄位和資源，每個客戶都需要定義自己的對應。
 
-* Adobe Experience Platform Data Connector會定期在平台中推送設定檔資料&#x200B;。 時間間隔為15分鐘。 此值可使用[Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html)來修改。
+* Adobe Experience Platform Data Connector會定期在平台中推送設定檔資料&#x200B;。 時間間隔為15分鐘。 此值可使用 [Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html).
 
 * 資料工程師可以發佈、修改及暫停從Campaign到Adobe Experience Platform的對應。
 
@@ -58,7 +58,7 @@ Adobe Experience Platform Data Connector適用於了解Adobe Campaign Standard�
 
 * Experience CloudID服務(ECID)是裝置識別碼，預設會與體驗事件一併傳送。
 
-   這是指派給訪客的不重複且永續的ID，可由Platform Identity Service用來識別不同Experience Cloud解決方案中的相同訪客及其資料。 有關詳細資訊，請參閱[Experience Cloud身份服務幫助](https://experienceleague.adobe.com/docs/id-service/using/home.html)。
+   這是指派給訪客的不重複且永續的ID，可由Platform Identity Service用來識別不同Experience Cloud解決方案中的相同訪客及其資料。 有關詳細資訊，請參閱 [Experience CloudIdentity Service說明](https://experienceleague.adobe.com/docs/id-service/using/home.html).
 
    >[!NOTE]
    >
@@ -68,7 +68,7 @@ Adobe Experience Platform Data Connector適用於了解Adobe Campaign Standard�
 
 * 不支援立即可用的訂閱事件傳輸。 若要傳輸訂閱事件，您可以在Adobe Experience Platform上建立對應的XDM和資料集，然後為這些資料設定自訂資料對應。
 
-* 針對隱私權要求（存取和刪除動作），客戶需透過[隱私權核心服務](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html#how-to-use-privacy-service-to-manage-privacy-job-requests)提出個別要求：一個用於Campaign，一個用於Adobe Experience Platform。 如需詳細資訊，請參閱Campaign中的[關於隱私權要求](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=zh-Hant#getting-started)及[管理隱私權要求](https://helpx.adobe.com/tw/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)。
+* 針對隱私權要求（存取和刪除動作），客戶需透過 [隱私權核心服務](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html#how-to-use-privacy-service-to-manage-privacy-job-requests):一個用於Campaign，一個用於Adobe Experience Platform。 有關詳細資訊，請參閱 [關於隱私權要求](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=zh-Hant#getting-started) 和 [管理隱私權要求](https://helpx.adobe.com/tw/campaign/kb/acs-privacy.html#ManagingPrivacyRequests) 在Campaign中。
 
 * 對於每個XDM欄位，DULE標籤必須在Adobe Experience Platform中完成。 這是客戶套用DULE標籤的責任。
 
@@ -82,4 +82,4 @@ Adobe Experience Platform Data Connector適用於了解Adobe Campaign Standard�
 
 >[!VIDEO](https://video.tv.adobe.com/v/27304?quality=12&captions=eng)
 
-[此處](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html)提供與Adobe Experience Platform Data Connector相關的其他影片。
+提供Adobe Experience Platform Data Connector的其他相關影片 [此處](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html).

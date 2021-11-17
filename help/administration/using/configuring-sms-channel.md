@@ -9,10 +9,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
-source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '1566'
-ht-degree: 93%
+ht-degree: 91%
 
 ---
 
@@ -316,7 +316,7 @@ CR：歸位
 
 ### 自動回覆傳送至 MO {#automatic-reply-sent-to-the-mo}
 
-當描述檔回覆透過 Campaign 傳送的 SMS 訊息時，您可以設定自動傳回給他的訊息，以及要執行的動作。
+當設定檔回覆透過Campaign傳送的SMS訊息時，您可以設定自動傳回給他們的訊息，以及要執行的動作。
 
 如需詳細資訊，請參閱[本區段](../../channels/using/managing-incoming-sms.md)。
 
@@ -328,15 +328,15 @@ CR：歸位
 
 ![](assets/sms_options.png)
 
-從&#x200B;**[!UICONTROL Advanced parameters]**&#x200B;部分：
+從 **[!UICONTROL Advanced parameters]** 小節：
 
-* **[!UICONTROL Short code]**&#x200B;可讓您將特定的簡碼新增至您的傳送。 在郵件準備期間，會自動排除選擇退出此特定簡訊代碼的收件者。 有關如何配置短代碼的詳細資訊，請參閱[此部分](../../channels/using/managing-incoming-sms.md)。
+* 此 **[!UICONTROL Short code]** 可讓您新增特定的簡短代碼至您的傳送。 在郵件準備期間，會自動排除選擇退出此特定簡訊代碼的收件者。 有關如何配置短代碼的詳細資訊，請參閱 [本節](../../channels/using/managing-incoming-sms.md).
 
    >[!NOTE]
    >
-   >如果&#x200B;**[!UICONTROL Short code]**&#x200B;欄位留空，則使用外部帳戶中設定的&#x200B;**[!UICONTROL Short code]**&#x200B;欄位值。
+   >若 **[!UICONTROL Short code]** 欄位留空，值為 **[!UICONTROL Short code]** 將使用外部帳戶中設定的欄位。
 
-從SMS範本的&#x200B;**[!UICONTROL Send]**&#x200B;區段：
+從 **[!UICONTROL Send]** 簡訊範本的區段：
 
 * **[!UICONTROL Maximum number of SMS per message]** 選項可讓您定義用於傳送訊息的 SMS 訊息數目。如果超過此數目，則不會傳送訊息。
 

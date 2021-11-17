@@ -9,7 +9,7 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: cf3c6408-7fa0-423a-b34b-f4fee771fb47
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 48%
@@ -22,7 +22,7 @@ ht-degree: 48%
 
 若要存取整合式客戶設定檔，請執行以下步驟：
 
-1. 從Adobe Campaign首頁，按一下&#x200B;**[!UICONTROL Customer profiles]**&#x200B;卡片或&#x200B;**Profiles**&#x200B;標籤以顯示設定檔清單。
+1. 從Adobe Campaign首頁，按一下 **[!UICONTROL Customer profiles]** 卡片或 **設定檔** 頁簽以顯示配置檔案清單。
 
 1. 要根據特定欄位搜索配置檔案，請開啟搜索窗格，然後選擇要在其上執行搜索的欄位。
 

@@ -8,20 +8,20 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
-source-wordcount: '5403'
+source-wordcount: '5401'
 ht-degree: 4%
 
 ---
 
 # 發行說明 2018 年{#release-notes}
 
-正在尋找2018年的特定版本Adobe Campaign Standard?
+正在尋找2018年的特定Adobe Campaign Standard版本？
 
 每個版本都提供新功能和修補程式。 按一下某個版本以檢視其內容。
 
-檢視Adobe Campaign Standard的最新[檔案更新](../../rn/using/documentation-updates.md)。 如果您想尋找較新的版本，請參閱此[page](../../rn/using/release-notes.md)。
+檢視最新 [檔案更新](../../rn/using/documentation-updates.md) Adobe Campaign Standard。 如果您想要尋找較新的版本，請參閱以下資訊 [頁面](../../rn/using/release-notes.md).
 
 ## 發行版本 18.9 – 2018 年 9 月 {#release-18-9---september-2018}
 
@@ -37,11 +37,11 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td> 應用程式內傳訊（測試版）<br /> </td> 
-   <td> 應用程式內傳訊功能可讓您提供情境式互動，並觸及已選擇退出推播通知的使用者，更有效與行動應用程式使用者互動。 搭配推播通知使用應用程式內訊息，以建立高度個人化且相關的體驗。 這可提高應用程式使用者的轉換率和保留率。<br /> 如需詳細資訊，請參閱詳 <a href="../../channels/using/about-in-app-messaging.md">細檔案</a>。<br /> </td> 
+   <td> 應用程式內傳訊功能可讓您提供情境式互動，並觸及已選擇退出推播通知的使用者，更有效與行動應用程式使用者互動。 搭配推播通知使用應用程式內訊息，以建立高度個人化且相關的體驗。 這可提高應用程式使用者的轉換率和保留率。<br /> 如需詳細資訊，請參閱 <a href="../../channels/using/about-in-app-messaging.md">詳細檔案</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Adobe行動應用程式的Launch整合（測試版）<br /> </td> 
-   <td> Adobe與Adobe Campaign的整合現在使用行動SDK V5，簡化並自動化Campaign中的行動應用程式啟用程式。<br /> 如需詳細資訊，請參閱詳 <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">細檔案</a>。<br /> </td> 
+   <td> AdobeLaunch整合行動應用程式（測試版）<br /> </td> 
+   <td> Adobe與Adobe Campaign的整合現在使用行動SDK V5，簡化並自動化Campaign中的行動應用程式啟用程式。<br /> 如需詳細資訊，請參閱 <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">詳細檔案</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -55,15 +55,15 @@ ht-degree: 4%
 * 在broadlogs中，現在會區分每小時的連線數量上限和訊息數量上限。 當達到限制時，就可以知道吞吐量為何受到限制。 以前，這兩種情況都會套用相同的訊息（「符合配額」）。
 * 在Campaign中設定行動應用程式時，使用者現在可以知道iOS憑證和Android伺服器金鑰是否已成功上傳及其到期日。
 
-   如需詳細資訊，請參閱有關如何使用[ SDK V4](https://helpx.adobe.com/tw/campaign/kb/configuring-app-sdkv4.html)和[ SDK V5](https://helpx.adobe.com/tw/campaign/kb/configuring-app-sdk.html)來設定行動應用程式的詳細檔案。
+   如需詳細資訊，請參閱如何使用設定行動應用程式的詳細檔案 [SDK V4](https://helpx.adobe.com/tw/campaign/kb/configuring-app-sdkv4.html) 和 [SDK V5](https://helpx.adobe.com/tw/campaign/kb/configuring-app-sdk.html).
 
 * 定義促銷活動屬性時選取行動應用程式，以鎖定特定行動應用程式上的使用者。 此功能適用於推播和應用程式內傳訊通道。
 
-   如需詳細資訊，請參閱[詳細文件](../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification)。
+   如需詳細資訊，請參閱[詳細文件](../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification)以瞭解詳情。
 
 * 使用Creative Designer介面選取內容區塊時，清單中的所有內容區塊現在都會載入並顯示。 (CAMP-27311)
 
-   有關詳細資訊，請參閱[詳細檔案](../../designing/using/personalization.md#adding-a-content-block)。
+   有關詳細資訊，請參閱 [詳細檔案](../../designing/using/personalization.md#adding-a-content-block).
 
 **修補程式**
 
@@ -75,7 +75,7 @@ ht-degree: 4%
 * 修正使用擴充活動時，自訂欄位無法顯示正確日期的工作流程問題。 (CAMP-26242)
 * 修正透過檔案匯入匯入時，無法更新服務訂閱日期的問題。
 * 修正載入檔案活動造成工作流程無法匯入檔案的錯誤(CAMP-27068)。
-* 修正「服務」摘要報告中訂閱數量顯示錯誤的問題(CAMP-25587)。
+* 修正「服務」摘要報表中訂閱數量顯示錯誤的問題(CAMP-25587)。
 * 修正Adobe Analytics和Adobe Campaign報表之間資料不一致的問題。 (CAMP-25393)
 * 修正了限制存取使用者無法登入的問題。 (CAMP-27381)
 * 修正了使用Creative Designer編輯電子郵件時，無法顯示Adobe Experience Manager內容清單的問題。 (CAMP-27181)
@@ -85,7 +85,7 @@ ht-degree: 4%
 * 修正使用Creative Designer中的查詢編輯器介面時，選取資訊顯示不清楚的問題。
 * 修正使用Creative Designer中的查詢編輯器介面時，無法正確複製元素的問題。
 * 修正即使透過自動回覆取消訂閱收件者，仍持續將SMS訊息傳送至封鎖清單上的收件者的問題。 (CAMP-27128)
-* 修正無法顯示導致&#x200B;**資料庫清理**&#x200B;工作流程失敗的錯誤的問題。 (CAMP-26876)
+* 修正無法顯示導致 **資料庫清理** 工作流程失敗。 (CAMP-26876)
 * 修正無法刪除推播通知定義中自訂欄位的問題。 (CAMP-25588)
 
 ## 發行版本 18.7 – 2018 年 7 月 {#release-18-7---july-2018}
@@ -102,38 +102,38 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td> Android推播通知的高優先順序標幟<br /> </td> 
-   <td> Android的高優先順序標幟 — 為Android應用程式啟用具有高優先順序的推播通知傳送，這會導致休眠裝置喚醒並執行一些有限的處理。 請注意，預設優先順序為正常，這可能會延遲郵件傳送以節省電池。 <br /> 如需詳細資訊，請參閱詳 <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android">細檔案</a>。<br /> </td> 
+   <td> Android的高優先順序標幟 — 為Android應用程式啟用具有高優先順序的推播通知傳送，這會導致休眠裝置喚醒並執行一些有限的處理。 請注意，預設優先順序為正常，這可能會延遲郵件傳送以節省電池。 <br /> 如需詳細資訊，請參閱 <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android">詳細檔案</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 行動應用程式訂閱者的類型篩選器<br /> </td> 
-   <td> 支援類型篩選中的訂閱 — 當指定類型規則的篩選條件時，可選取應用程式訂閱作為篩選和定位維度，讓您能夠針對具有或沒有設定檔的使用者篩選屬性。 <br /> 如需詳細資訊，請參閱詳 <a href="../../sending/using/about-typology-rules.md">細檔案</a>。<br /> </td> 
+   <td> 行動應用程式訂閱者的類型篩選<br /> </td> 
+   <td> 支援類型篩選中的訂閱 — 當指定類型規則的篩選條件時，可選取應用程式訂閱作為篩選和定位維度，讓您能夠針對具有或沒有設定檔的使用者篩選屬性。 <br /> 如需詳細資訊，請參閱 <a href="../../sending/using/about-typology-rules.md">詳細檔案</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 訊息準備期間從URL自動匯入內容<br /> </td> 
-   <td> 現在，您可以在準備階段期間從URL匯入電子郵件內容。 對於循環電子郵件傳送，每次準備郵件時都會擷取最新的HTML內容，確保內容在傳送電子郵件時一律為最新。 此功能也可讓您建立排程傳送，內含來自URL的內容，即使內容尚未就緒亦然。<br /> 如需詳細資訊，請參閱詳 <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">細檔案</a>。<br /> </td> 
+   <td> 現在，您可以在準備階段期間從URL匯入電子郵件內容。 對於循環電子郵件傳送，每次準備郵件時都會擷取最新的HTML內容，確保在傳送電子郵件時內容一律為最新。 此功能也可讓您建立排程傳送，內含來自URL的內容，即使內容尚未就緒亦然。<br /> 如需詳細資訊，請參閱 <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">詳細檔案</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 促銷活動發行通知訊息<br /> </td> 
-   <td> 現在，當使用者在執行個體升級至新版本後登入時，會顯示快顯訊息。 訊息會指出版本號碼，並包含發行說明的連結。 您可以在下一個版本之前選擇隱藏訊息。<br /> </td> 
+   <td> 行銷活動發行通知訊息<br /> </td> 
+   <td> 現在，當使用者在執行個體升級至新版本後登入時，會顯示快顯訊息。 訊息會指出版本號碼，並包含發行說明的連結。 您可以在下一個版本之前選擇隱藏訊息。 <br /> </td> 
   </tr> 
   <tr> 
-   <td> 用戶管理<br /> </td> 
-   <td> 地理單位功能現在無法用於新的Campaign Standard例項，以及未建立地理單位的現有例項（從18.7版開始）。<br /> 如需詳細資訊，請參閱 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=zh-Hant#release-notes">本頁面</a>。<br /> </td> 
+   <td> 使用者管理<br /> </td> 
+   <td> 地理單位功能現在無法用於新的Campaign Standard例項，以及未建立地理單位的現有例項（從18.7版開始）。<br /> 如需詳細資訊，請參閱 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=zh-Hant#release-notes">頁面</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **功能改善**
 
-* Adobe Campaign和Adobe Target整合現在可讓您運用Target的[Permissions](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html)功能。 在電子郵件中加入來自Adobe Target的動態影像時，您現在可以指定Target屬性（at_property代碼）。
+* Adobe Campaign和Adobe Target整合現在可讓您運用Target的 [權限](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html) 功能。 在電子郵件中加入來自Adobe Target的動態影像時，您現在可以指定Target屬性（at_property代碼）。
 * 具有設定檔資源之下載連結的自訂資源，現在會由GDPR隱私權存取/刪除請求納入考量。 對於1個基數簡單連結和N個基數收集連結，您需要在自訂資源中選擇「刪除/複製目標籤錄意味著刪除/複製連結引用的記錄」。 對於0或1個基數簡單連結，選擇「刪除/複製記錄表示刪除/複製連結引用的目標籤錄」。
 
 **其他變更**
 
 * 報表共用逾時時間已從1分鐘增加為4分鐘，以避免發生任何逾時錯誤。
-* 編輯電子郵件內容時，新的創意設計工具會依預設開啟。 如果您願意，在儲存變更後，您仍可隨時返回預設內容編輯器。 有關詳細資訊，請參閱[詳細檔案](../../designing/using/designing-content-in-adobe-campaign.md)。
-* 在創意設計工具中，新的內容元件現在可以新增至電子郵件中：輪播。 有關詳細資訊，請參閱[詳細檔案](../../designing/using/designing-from-scratch.md#about-content-components)。
-* 在交易式訊息熱點點按報表中，當您按一下&#x200B;**變更設定檔**&#x200B;按鈕時，現在只會列出連結至您為交易式訊息定義之事件的測試設定檔。
+* 編輯電子郵件內容時，新的創意設計工具會依預設開啟。 如果您願意，在儲存變更後，您仍可隨時返回預設內容編輯器。 有關詳細資訊，請參閱 [詳細檔案](../../designing/using/designing-content-in-adobe-campaign.md).
+* 在創意設計工具中，新的內容元件現在可以新增至電子郵件中：輪播。 有關詳細資訊，請參閱 [詳細檔案](../../designing/using/designing-from-scratch.md#about-content-components).
+* 在交易式訊息熱點點按報表中，當您按一下 **變更設定檔** 按鈕，現在只會列出連結至您為交易式訊息定義之事件的測試設定檔。
 
 **修補程式**
 
@@ -155,36 +155,36 @@ ht-degree: 4%
 
 **功能改善**
 
-* **[!UICONTROL History]** API已新增至Adobe.IO。 它可讓您存取與設定檔行銷記錄相關的資訊：接觸點數、已傳送、鏡像頁面URL等。 如需詳細資訊，請參閱[專用使用案例](../../api/using/interacting-with-marketing-history.md) 。
-* **[!UICONTROL Database cleanup]**&#x200B;技術工作流已優化，以確保資料庫備份的效能更好。
+* 此 **[!UICONTROL History]** API已新增至Adobe.IO。 它可讓您存取與設定檔行銷記錄相關的資訊：接觸點數、已傳送、鏡像頁面URL等。 有關詳細資訊，請參閱 [專用使用案例](../../api/using/interacting-with-marketing-history.md) .
+* 此 **[!UICONTROL Database cleanup]** 已優化技術工作流，以確保資料庫備份的效能更佳。
 * Creative Designer for Email現在也提供法文版和德文版。
 
 **其他變更**
 
-* 已在已傳送傳送的&#x200B;**[!UICONTROL Deployment]**&#x200B;視窗中新增&#x200B;**[!UICONTROL Compute stats]**&#x200B;按鈕。 它可讓您擷取最新KPI，例如，傳送的結果需要太長時間才能更新或尚未納入考量。 如需詳細資訊，請參閱本[區段](../../sending/using/confirming-the-send.md)。
-* 在&#x200B;**更新傳遞能力**&#x200B;現成可用技術工作流程中，功能管理員現在可以定義要在&#x200B;**更新規則** Javascript活動中忽略的連續錯誤數。 依預設，欄位值會設為0，這表示將忽略所有錯誤。
+* A **[!UICONTROL Compute stats]** 按鈕已新增至 **[!UICONTROL Deployment]** 傳送的視窗。 它可讓您擷取最新KPI，例如，傳送的結果需要太長時間才能更新或尚未納入考量。 如需詳細資訊，請參閱本[區段](../../sending/using/confirming-the-send.md)。
+* 在 **傳遞能力更新** 現在，功能管理員可以定義要在 **更新規則** javascript活動。 依預設，欄位值會設為0，這表示將忽略所有錯誤。
 * 管理單元訪問限制條件時生成的SQL已優化。
-* **[!UICONTROL Update]**&#x200B;活動現在可讓您新增、更新或刪除與訂閱相關的資料（nms:appSubscriptionRcp表格）。
-* **[!UICONTROL Update delivery execution]**&#x200B;技術工作流程已分為兩個工作流程，以最佳化效能：- **[!UICONTROL Update delivery execution]**&#x200B;更新傳送的追蹤。 預設會每10分鐘啟動一次。 **[!UICONTROL Update delivery indicators]**:更新傳送的KPI，預設會每小時啟動一次。如需技術工作流程的詳細資訊，請參閱此[區段](../../administration/using/technical-workflows.md#list-of-technical-workflows)。
-* 傳送訊息時，**[!UICONTROL Deployment]**&#x200B;區段中的狀態現在可以有兩個值：**[!UICONTROL Sending]**:正在傳送訊息。 **[!UICONTROL Sending (retry)]**:正在重試傳遞。
-* 具有&#x200B;**[!UICONTROL Delivery preparation]**&#x200B;角色的使用者現在可以傳送校樣。 (CAMP-24313)
-* 已將&#x200B;**透過SMPP**&#x200B;啟用TLS選項新增至透過SMPP **外部帳戶的** SMS路由。 如需詳細資訊，請參閱此[區段](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)。
+* 此 **[!UICONTROL Update]** 活動現在可讓您新增、更新或刪除與訂閱相關的資料（nms:appSubscriptionRcp表格）。
+* 此 **[!UICONTROL Update delivery execution]** 技術工作流程分為兩個工作流程，以最佳化效能：- **[!UICONTROL Update delivery execution]**:更新傳送的追蹤。 預設會每10分鐘啟動一次。 **[!UICONTROL Update delivery indicators]**:更新傳送的KPI，預設會每小時啟動一次。 如需技術工作流程的詳細資訊，請參閱 [節](../../administration/using/technical-workflows.md#list-of-technical-workflows).
+* 當傳送訊息時， **[!UICONTROL Deployment]** 區段現在可以有兩個值： **[!UICONTROL Sending]**:正在傳送訊息。 **[!UICONTROL Sending (retry)]**:正在重試傳遞。
+* 具有 **[!UICONTROL Delivery preparation]** 角色現在可以傳送校樣。 (CAMP-24313)
+* 此 **透過SMPP啟用TLS** 選項已新增至 **通過SMPP的SMS路由** 外部帳戶。 如需詳細資訊，請參閱 [節](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing).
 
 **修補程式**
 
 * 修正納入Adobe Target動態影像時，無法傳送電子郵件的問題(CAMP-24848)。
-* 修正&#x200B;**[!UICONTROL Privacy Access/Delete Request]**&#x200B;技術工作流程的問題，若有任何請求失敗，則無法完成。
+* 修正 **[!UICONTROL Privacy Access/Delete Request]** 技術工作流程，若有任何要求失敗，則無法完成。
 * 修正隱私權核心服務無法從Campaign接收要求狀態更新的問題。
-* 修正了無法正常運作&#x200B;**[!UICONTROL Import shared audience]**&#x200B;技術工作流程的問題(CAMP-25465)。
+* 修正了 **[!UICONTROL Import shared audience]** 技術工作流程無法正常運作(CAMP-25465)。
 * 修正無法在核心Privacy Service中將促銷活動隱私權要求標示為已完成的問題。
 * 修正當Adobe ID過長時，某些使用者無法透過IMS驗證登入Campaign Standard的問題。 (CAMP-24095)
 * 修正Creative Designer中移除內容模組時可能發生的問題。 (CAMP-25242)
 * 修正針對資料庫中沒有設定檔的訂閱者使用推播通知疲勞規則的問題。 (CAMP-25344)
 * 修正了存取傳送排除記錄時，可能顯示錯誤訊息的問題。 (CAMP-24724)
 * 修正在具有延伸傳送記錄時，無法準備校樣的問題。
-* 修正了在啟動&#x200B;**[!UICONTROL Sending log]**&#x200B;擴充功能後發佈自訂資源時可能發生的兩個問題。
+* 修正使用發佈自訂資源時可能發生的兩個問題 **[!UICONTROL Sending log]** 擴充功能已啟用。
 * 修正了在循環傳送中可能未考慮傳送持續時間的問題。
-* 修正了針對超過10萬筆記錄的自訂資源，在&#x200B;**[!UICONTROL Client data]**&#x200B;功能表中排序資料時可能發生的問題。 (CAMP-24308)
+* 修正排序 **[!UICONTROL Client data]** 功能表，適用於具有超過10萬筆記錄的自訂資源。 (CAMP-24308)
 * 修正使用動態報表中的搜尋功能時，未考慮自訂設定檔維度的問題。
 * 修正動態報告中帳戶層級國際資料的顯示問題。
 * 現在可以建立不含訂閱或取消訂閱確認訊息的服務。
@@ -203,23 +203,23 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td> GDPR:核心服務整合<br /> </td> 
-   <td> 隱私權核心服務整合可讓您透過單一JSON API呼叫，在多解決方案內容中自動處理GDPR請求。 <br /> 從隱私權核心服務推送至所有Experience Cloud解決方案的GDPR請求，現在會由Campaign自動處理。<br /> 如需詳細資訊，請參閱詳 <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=zh-Hant">細檔案</a>。<br /> </td> 
+   <td> 隱私權核心服務整合可讓您透過單一JSON API呼叫，在多解決方案內容中自動處理GDPR請求。 <br /> 從隱私權核心服務推送至所有Experience Cloud解決方案的GDPR請求，現在會由Campaign自動處理。 <br /> 如需詳細資訊，請參閱 <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=zh-Hant">詳細檔案</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 推播改善 — 詳細的傳送意見<br /> </td> 
-   <td> Adobe Campaign現在提供透過MCPNS從提供者(APNS/GCM)接收推播訊息的詳細意見（傳送記錄和排除記錄）。<br /> 如需詳細資訊，請參閱詳 <a href="../../channels/using/preparing-and-sending-a-push-notification.md#sending-the-notification">細檔案</a>。<br /> </td> 
+   <td> 推播改良功能 — 詳細的傳送意見反應<br /> </td> 
+   <td> Adobe Campaign現在提供透過MCPNS從提供者(APNS/GCM)接收推播訊息的詳細意見（傳送記錄和排除記錄）。<br /> 如需詳細資訊，請參閱 <a href="../../channels/using/preparing-and-sending-a-push-notification.md#sending-the-notification">詳細檔案</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 傳送記錄擴充功能<br /> </td> 
    <td> 傳送記錄擴充功能可讓您使用來自工作流程的設定檔資料和區段代碼來擴充傳送記錄檔。 然後，此資訊便可用於動態報表，並可讓您在傳送時保留一些資訊的快照。<br /> 還有2個使用案例：<br /> 
     <ul> 
      <li> 使用「凍結」資料導出擴展廣播：身為行銷人員，我想匯出區段代碼等於「A」（來自工作流程引擎）的所有設定檔。 </li> 
-     <li> 「凍結」資料的分段：身為行銷人員，我想<strong>重新定位</strong>自上次傳送以來已贏得1000個忠誠度點的所有設定檔，或其區段代碼等於「A」。 </li> 
-    </ul> 如需詳細資訊，請參閱<a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">詳細文件</a>。<br /> </td> 
+     <li> 「凍結」資料的分段：身為行銷人員，我想 <strong>重新定位</strong> 自上次傳送以來已贏得1000個忠誠度點數的所有設定檔，或其區段代碼等於「A」的位置。 </li> 
+    </ul> 如需詳細資訊，請參閱<a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">詳細文件</a>以瞭解詳情。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 使用自訂設定檔資料進行動態報告<br /> </td> 
-   <td> 此功能可讓您根據在設定檔資源擴充期間建立的自訂設定檔資料來建立和管理報表。 您可以依設定檔屬性（例如忠誠度計畫、偏好管道等）劃分報表。<br /> 如需詳細資訊，請參閱詳 <a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">細檔案</a>。<br /> </td> 
+   <td> 使用自訂設定檔資料建立動態報告<br /> </td> 
+   <td> 此功能可讓您根據在設定檔資源擴充期間建立的自訂設定檔資料來建立和管理報表。 您可以依設定檔屬性（例如忠誠度計畫、偏好管道等）劃分報表。<br /> 如需詳細資訊，請參閱 <a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">詳細檔案</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -230,10 +230,10 @@ ht-degree: 4%
 
 **其他變更**
 
-* 「讀取對象」工作流程活動現在可以讀取Experience Cloud對象。 之前，此活動只能讀取「查詢」和「清單」對象。 請參閱[詳細檔案](../../automating/using/read-audience.md)。 (CAMP-23623)
+* 「讀取對象」工作流程活動現在可以讀取Experience Cloud對象。 之前，此活動只能讀取「查詢」和「清單」對象。 請參閱 [詳細檔案](../../automating/using/read-audience.md). (CAMP-23623)
 * 預設共用資料來源的識別碼現在為唯讀模式，無法再變更。 變更此識別碼可能會在與Experience Cloud共用對象時造成一些問題。
 * 從Audience Manager匯入對象現在可處理分割檔案。 以前，只有匯入SharedAudience技術工作流程匯入了區段的最後一個檔案。
-* AWS S3外部帳戶現在支援區域和第4版驗證機制。 請參閱[詳細檔案](../../administration/using/external-accounts.md)。
+* AWS S3外部帳戶現在支援地區和第4版驗證機制。 請參閱 [詳細檔案](../../administration/using/external-accounts.md).
 * 「資產選取」視窗現在載入速度應該會更快，而且可以選取資產，然後退出視窗而不會發生任何問題。
 * 具有管理權限且屬於「全部」組織和地理單位的使用者現在可以修改技術工作流程的屬性和結構。
 * 建立新區段時，區段活動介面已增強功能：現在新增限制後，「限制」標籤會直接顯示。 新區段的名稱現在會增加（「區段1」、「區段2」等）。
@@ -280,8 +280,8 @@ _工作流程_
 _報告_
 
 * KPI共用工作流程現在會擷取過去2個月的傳送值，而非過去6個月。 修正KPI共用外部帳戶顯示截斷日期的問題。
-* 修正了可能導致某些訊息未納入&#x200B;**Sent**、**Delivered**&#x200B;和&#x200B;**Bounce**&#x200B;量度的問題。
-* 修正&#x200B;**傳送摘要報表**&#x200B;中選取的時間範圍過長時發生的錯誤。
+* 修正了可能導致某些訊息未納入 **已傳送**, **傳遞** 和 **跳出**&#x200B;量度。
+* 修正 **傳送摘要報表** 太長了。
 
 _自訂資源_
 
@@ -303,31 +303,31 @@ _自訂資源_
    <td> 歐盟一般資料保護規範(GDPR)<br /> </td> 
    <td> GDPR是歐盟(EU)的新隱私權法，協調2018年5月25日生效的資料保護要求並以現代化方式規範這些要求。 GDPR 適用於所持有資料的主體居住於歐盟的 Adobe Campaign 客戶。<br /> 除了Adobe Campaign中已提供的隱私權功能（包括同意管理、資料保留設定和使用者角色）之外，我們也趁此次機會，以資料處理者的角色加入其他功能，以協助您做好準備，以便擔任資料控管單位，處理特定GDPR請求：<br /> 
     <ul> 
-     <li> 訪問權限：可讓資料主體接收資料控制者擷取的其個人資料副本，可能包括儲存在Adobe Campaign中的資料。 </li> 
-     <li> 刪除權限：為資料主體賦予權利，讓資料控制者擷取的個人資料遭到清除，可能包括儲存在Adobe Campaign中的資料。 </li> 
-    </ul> 如需詳細資訊，請參閱<a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">詳細文件</a>。<br /> </td> 
+     <li> 訪問權限：可讓資料主體接收資料控制者擷取的個人資料副本，可能包括儲存在Adobe Campaign中的資料。 </li> 
+     <li> 刪除權限：為資料主體賦予權利，讓資料控制者清除其個人資料，可能包括儲存在Adobe Campaign中的資料。 </li> 
+    </ul> 如需詳細資訊，請參閱<a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">詳細文件</a>以瞭解詳情。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 電子郵件創意設計工具（測試版）<br /> </td> 
+   <td> 適用於電子郵件的Creative Designer（測試版）<br /> </td> 
    <td> Adobe Campaign的全新Creative Designer在Campaign中提供完全整合的建立體驗，讓您無需編寫程式碼，即可快速輕鬆地以視覺化方式建立吸引人、個人化的電子郵件。 無論使用者是從空白顯示窗開始，還是運用現有的內容片段或範本，創意設計人員都能透過其強大的拖放介面，協助縮放電子郵件的建立。 <br /> 主要功能包括：<br /> 
     <ul> 
-     <li> 透過拖放介面以視覺化方式設計及建立完全個人化、回應式電子郵件，並輔以原生Creative Cloud整合 </li> 
+     <li> 透過拖放介面以視覺化方式設計和建立完全個人化、回應式電子郵件，並輔以原生Creative Cloud整合 </li> 
      <li> 建立和儲存電子郵件內容範本，並運用儲存的範本來協助縮放電子郵件建立 </li> 
      <li> 建立並儲存內容片段（例如頁首、頁尾、文章等） 簡化內容建立並確保品牌一致性 </li> 
      <li> 在拖放介面中建立，以及按一下按鈕即可直接編輯電子郵件的HTML之間順暢切換 </li> 
-    </ul> 適用於電子郵件的Creative Designer僅提供英文版。<br /> 如需詳細資訊，請參閱詳 <a href="../../designing/using/designing-content-in-adobe-campaign.md">細</a> 檔案並觀看此 <a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms">影片</a>。<br /> </td> 
+    </ul> 適用於電子郵件的Creative Designer僅提供英文版。<br /> 如需詳細資訊，請參閱 <a href="../../designing/using/designing-content-in-adobe-campaign.md">詳細檔案</a> 看這個 <a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms">影片</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 多語言推播傳送<br /> </td> 
-   <td> 推播通道中已新增電子郵件和簡訊通道上已存在的相同簡單多語言介面，無論客戶使用何種偏好語言，均可協助您與客戶互動。<br /> 若客戶管理跨多個地區的推播促銷活動，且想以偏好的語言鎖定使用者，此功能可提供可擴充的自動解決方案。它可讓您透過範本試算表，按一下即可上傳至單一推送傳送的所有語言變體。 Adobe Campaign接著會根據使用者的語言偏好執行自動分段，透過簡化工作流程和報告來協助減少重複。<br /> 如需詳細資訊，請參閱詳 <a href="../../channels/using/creating-a-multilingual-push-notification.md">細檔案</a>。<br /> </td> 
+   <td> 推播通道中已新增電子郵件和簡訊通道上已存在的相同簡單多語言介面，無論客戶使用何種偏好語言，均可協助您與客戶互動。<br /> 若客戶管理跨多個地區的推播促銷活動，且想以偏好的語言鎖定使用者，此功能可提供可擴充的自動解決方案。 它可讓您透過範本試算表，按一下即可上傳至單一推送傳送的所有語言變體。 Adobe Campaign接著會根據使用者的語言偏好執行自動分段，透過簡化工作流程和報告來協助減少重複。<br /> 如需詳細資訊，請參閱 <a href="../../channels/using/creating-a-multilingual-push-notification.md">詳細檔案</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 在交易式訊息傳送中使用自訂資源<br /> </td> 
+   <td> 自訂資源在交易式傳訊中的使用<br /> </td> 
    <td> 除了現成欄位外，交易式訊息現在可讓您使用自訂資源，讓訊息的內容更為豐富。<br /> 例如：<br /> 
     <ul> 
      <li> 運用自訂欄位作為調解標準，將交易式訊息與設定檔比對 </li> 
      <li> 運用完整的設定檔、服務和連結資料，進一步個人化交易式訊息 </li> 
-    </ul> 如需詳細資訊，請參閱<a href="../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content">詳細文件</a>。<br /> </td> 
+    </ul> 如需詳細資訊，請參閱<a href="../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content">詳細文件</a>以瞭解詳情。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -342,27 +342,27 @@ _平台_
 _電子郵件、簡訊和直接郵件_
 
 * 修正由於多部分SMS的大小是以字元（而非位元組）計算，因此遭到截斷的問題。
-* 新增選項，可讓您在傳送傳遞後即時更新&#x200B;**[!UICONTROL Delivered]**&#x200B;或&#x200B;**[!UICONTROL Bounces + Errors]** KPI。 從提供者接收的SR（狀態報表）直接重新計算。
+* 新增選項，允許 **[!UICONTROL Delivered]** 或 **[!UICONTROL Bounces + Errors]** 傳送您的內容後，即時更新KPI。 從提供者接收的SR（狀態報表）直接重新計算。
 * 修正傳送排程器中日曆介面工具集的問題。
 * 修正在已傳送傳送中第二次開啟目標時的顯示問題。
 * 修正建立傳送日期延遲的電子郵件範本時，導致要求開始日期的錯誤訊息的問題。
-* 修正在編輯傳遞內容時，可能造成影像轉譯問題的問題。
+* 修正在編輯傳送內容時，可能造成影像轉譯問題的問題。
 * 修正複製促銷活動時的校樣問題。
 * 修正透過導覽列存取行銷活動範本時，新增傳遞至工作流程後，導致錯誤訊息的問題。
-* 修正無法自動選取A/B測試電子郵件獲勝者，導致電子郵件未傳送的問題。 如果傳送處於&#x200B;**[!UICONTROL retryInProgress]**&#x200B;狀態，就可能發生此行為。
+* 修正無法自動選取A/B測試電子郵件獲勝者，導致電子郵件未傳送的問題。 如果傳送位於 **[!UICONTROL retryInProgress]** 狀態。
 * 修正了重新開啟A/B測試電子郵件的參數時，可能顯示錯誤訊息的問題。
 
 _對象與查詢_
 
 * 修正無法存取資料，以及無法設定從Adobe Campaign Classic復寫至Standard之收件者查詢的問題。
-* 修正使用&#x200B;**Count**&#x200B;或&#x200B;**Preview**&#x200B;按鈕後，在查詢編輯器中使用篩選類型欄位時發生的問題。
+* 修正在使用 **計數** 或 **預覽** 按鈕。
 
 _工作流程_
 
-* **帳單**&#x200B;工作流程已最佳化，以改善傳送準備延遲。
+* 此 **帳單** 工作流程已最佳化，以改善傳送準備延遲。
 * 修正使用循環傳送活動時，無法在出站轉變中顯示母體資料的問題。
-* 修正了在&#x200B;**更新資料**&#x200B;活動後的轉變中無法顯示拒絕記錄的問題。
-* 修正可能導致&#x200B;**deliverabilityUpdate**&#x200B;技術工作流程失敗的問題。
+* 修正在 **更新資料** 活動。
+* 修正可能導致 **deliverabilityUpdate** 技術工作流程失敗。
 
 _整合_
 
@@ -390,12 +390,12 @@ _異動訊息_
  </thead> 
  <tbody> 
   <tr> 
-   <td> 訂閱 — 訂閱或取消訂閱多項服務的配置檔案清單<br /> </td> 
-   <td> <strong>訂閱服務</strong>工作流程活動現在可讓您訂閱或取消訂閱多項服務的設定檔清單。 在工作流程中，匯入包含設定檔的檔案，以及每個設定檔的操作類型和服務。 <strong>訂閱服務</strong>活動將能使用此資訊並同時動態處理所有設定檔訂閱和取消訂閱。<br /> 如需詳細資訊，請參閱詳 <a href="../../automating/using/subscription-services.md">細檔案</a>。<br /> </td> 
+   <td> 訂閱 — 訂閱或取消訂閱多項服務的設定檔清單<br /> </td> 
+   <td> 此 <strong>訂閱服務</strong> 工作流程活動現在可讓您訂閱或取消訂閱多項服務的設定檔清單。 在工作流程中，匯入包含設定檔的檔案，以及每個設定檔的操作類型和服務。 此 <strong>訂閱服務</strong> 活動將能使用此資訊，並一次動態處理所有設定檔訂閱和取消訂閱。<br /> 如需詳細資訊，請參閱 <a href="../../automating/using/subscription-services.md">詳細檔案</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 擴充活動 — 根據先前的轉變來擴充資料<br /> </td> 
-   <td> 新的<span class="uicontrol">Excrent</span>工作流程活動可讓您運用入站轉變，並使用其他資料完成輸出轉變。 如果您定位設定檔，擴充活動可讓您使用未儲存在資料庫中的其他資料（例如來自匯入的檔案）擴充設定檔資訊。<br /> 如需詳細資訊，請參閱詳 <a href="../../automating/using/enrichment.md">細檔案</a>。<br /> </td> 
+   <td> 新 <span class="uicontrol">擴充</span> 工作流程活動可讓您運用入站轉變，並使用其他資料完成輸出轉變。 如果您定位設定檔，擴充活動可讓您使用未儲存在資料庫中的其他資料（例如來自匯入的檔案）擴充設定檔資訊。<br /> 如需詳細資訊，請參閱 <a href="../../automating/using/enrichment.md">詳細檔案</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -405,35 +405,35 @@ _異動訊息_
 _平台_
 
 * Adobe Campaign介面的頂端列已更新為新的Experience Cloud功能表。
-* 修正解決方案下拉式清單中無法顯示&#x200B;**[!UICONTROL Offers]**&#x200B;連結的問題。
+* 修正無法連結至 **[!UICONTROL Offers]** 中的任何值。
 
 _電子郵件、簡訊和直接郵件_
 
 * 已增強傳送準備階段，以改善效能。
 * 修正了數個問題，這些問題可能會在某些小眾情況下造成追蹤記錄損毀。
-* 修正了在傳送準備和確認之間變更聯絡日期時發生的聯絡日期更新問題。 現在，當您在準備後變更聯絡日期時，必須先重新準備傳送，才能確認傳送。 請參閱[詳細檔案](../../sending/using/preparing-the-send.md)。
+* 修正了在傳送準備和確認之間變更聯絡日期時發生的聯絡日期更新問題。 現在，當您在準備後變更聯絡日期時，必須先重新準備傳送，才能確認傳送。 請參閱 [詳細檔案](../../sending/using/preparing-the-send.md).
 
 _推播通知_
 
-* 修正部分個人化欄位無法在iOS推播通知中運作的錯誤。
+* 修正某些個人化欄位無法在iOS推播通知中運作的錯誤。
 * 修正在推播通知控制面板中，點按和開啟率顯示為0%的錯誤。
 
 _報告_
 
 * 修正在某些瀏覽器中將報表清單顯示為空白的錯誤。
-* 修正&#x200B;**[!UICONTROL Report sharing]**&#x200B;技術工作流程中，在達到到期日限制之前發生的錯誤。
+* 修正 **[!UICONTROL Report sharing]** 技術工作流程到期限之前完成。
 
 _工作流程_
 
 * 修正拖放活動後無法存取活動的問題。
-* 修正了某些情況下，**[!UICONTROL Segmentation]**&#x200B;活動的輸出轉變順序可能變更的問題。
+* 修正可能導致 **[!UICONTROL Segmentation]** 活動。
 * 修正讀取包含列舉類型欄位且先前已從工作流程儲存的對象時發生的錯誤
-* 修正在定義在工作流程中建立之傳送的排程屬性時，即使取消勾選&#x200B;**[!UICONTROL Request confirmation before sending messages]**&#x200B;選項，該選項仍維持勾選狀態的問題。
-* 現在，可以透過&#x200B;**[!UICONTROL Additional data]**&#x200B;索引標籤中的新選項，在&#x200B;**[!UICONTROL Query]**&#x200B;活動中停用重複列的自動移除（DISTINCT子句）。 基於效能原因，在定義許多（超過100個）其他元素時，建議禁用此選項。
+* 修正 **[!UICONTROL Request confirmation before sending messages]** 在定義在工作流程中建立之傳送的排程屬性時，即使取消核取傳送後，仍保留核取的選項。
+* 現在，可以在 **[!UICONTROL Query]** 活動，透過 **[!UICONTROL Additional data]** 標籤。 基於效能原因，在定義許多（超過100個）其他元素時，建議禁用此選項。
 
 _整合_
 
-* 已對&#x200B;**[!UICONTROL Data sources]**&#x200B;配置螢幕進行一些改進。
+* 已對 **[!UICONTROL Data sources]** 設定畫面。
 
 _已知問題_
 
@@ -455,29 +455,29 @@ _已知問題_
  <tbody> 
   <tr> 
    <td> 疲勞管理報告<br /> </td> 
-   <td> 疲勞管理報告是專用的可設定報表，顯示疲勞規則對指定日期範圍內，在傳送前，電子郵件、推送、簡訊和直接郵件通道之間傳送的影響。 透過在單一檢視中快速查看所有衝突促銷活動的深入分析，行銷人員能夠更有效地設定疲勞規則，並排定通訊的優先順序，以規劃行銷活動。<br /> 如需詳細資訊，請參閱詳 <a href="../../sending/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report">細檔案</a>。<br /> </td> 
+   <td> 疲勞管理報告是專用的可設定報表，顯示疲勞規則對指定日期範圍內，在傳送前，電子郵件、推送、簡訊和直接郵件通道之間傳送的影響。 透過在單一檢視中快速查看所有衝突促銷活動的深入分析，行銷人員能夠更有效地設定疲勞規則，並排定通訊的優先順序，以規劃行銷活動。<br /> 如需詳細資訊，請參閱 <a href="../../sending/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report">詳細檔案</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 報表共用<br /> </td> 
-   <td> 「報表共用」可讓您以電子郵件附件的形式與Adobe Campaign使用者共用報表，包括自動重複執行。 收到循環報表的使用者可以透過每個電子郵件中的專用連結，取消訂閱這些通訊。<br /> 如需詳細資訊，請參閱詳 <a href="../../reporting/using/reporting-interface.md#share-tab">細檔案</a>。<br /> </td> 
+   <td> 「報表共用」可讓您以電子郵件附件的形式與Adobe Campaign使用者共用報表，包括自動重複執行。 收到循環報表的使用者可以透過每個電子郵件中的專用連結，取消訂閱這些通訊。<br /> 如需詳細資訊，請參閱 <a href="../../reporting/using/reporting-interface.md#share-tab">詳細檔案</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 推送新功能<br /> </td> 
-   <td> 推播訊息預覽 — 從推播通知內容編輯器預覽在iOS和Android裝置上顯示的推播通知，在測試或執行傳送前可先檢視收件者所見到的內容。<br />如需詳細資訊，請參閱<a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">詳細文件</a>。<br /> 可用內容 — 如果使用者在一段時間後都未開啟應用程式，系統便會將其資料視為過時。這會導致使用者在最終開啟應用程式時，必須更新或取代資料，而這可能導致使用應用程式的延遲。 透過新增的「可用內容」支援，Adobe Campaign使用者可在傳送推播通知時，喚醒應用程式以在背景重新整理資料，讓使用者的應用程式內體驗更具一致性和控制力。<br /> 可變動內容 — 透過新增的「可變動內容」支援，Adobe Campaign使用者現在可運用行動應用程式擴充功能，進一步修改來自Adobe Campaign之推播通知的內容或呈現方式。例如，使用者可以運用「可變內容」來：<br /> 
+   <td> 推播訊息預覽 — 從推播通知內容編輯器預覽在iOS和Android裝置上顯示的推播通知，在測試或執行傳送前可先檢視收件者所見到的內容。<br />如需詳細資訊，請參閱<a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">詳細文件</a>以瞭解詳情。<br /> 可用內容 — 如果使用者在一段時間後都未開啟應用程式，系統便會將其資料視為過時。 這會導致使用者在最終開啟應用程式時，必須更新或取代資料，而這可能導致使用應用程式的延遲。 透過新增的「可用內容」支援，Adobe Campaign使用者可在傳送推播通知時，喚醒應用程式以在背景重新整理資料，讓使用者的應用程式內體驗更具一致性和控制力。<br /> 可變動內容 — 透過新增的「可變動內容」支援，Adobe Campaign使用者現在可運用行動應用程式擴充功能，進一步修改來自Adobe Campaign之推播通知的內容或呈現方式。 例如，使用者可以運用「可變內容」來： <br /> 
     <ul> 
      <li> 解密以加密格式傳送的資料 </li> 
      <li> 下載影像或其他媒體檔案，並將其新增為通知的附件 </li> 
      <li> 變更通知的正文或標題文字 </li> 
      <li> 向通知添加線程標識符 </li> 
-    </ul> 如需「可用內容」和「可變動內容」的詳細資訊，請參閱<a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">詳細檔案</a>。<br /> <strong>警告：</strong> 推送通知的這些更新會要求客戶升級其行動應用程式。如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/push-payload.html">此技術檔案</a>。<br /> </td> 
+    </ul> 如需「可用內容」和「可變動內容」的詳細資訊，請參閱 <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">詳細檔案</a>.<br /> <strong>警告：</strong> 推送通知的這些更新要求客戶升級其行動應用程式。 請參閱 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/push-payload.html">此技術檔案</a> 以取得更多資訊。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 時區最佳化傳遞<br /> </td> 
-   <td> 排程在每個收件者時區的特定日/時間傳送循環的電子郵件、簡訊和推播通知，確保訊息在正確的時間傳送，而不需設定多個傳送。 <br /> 如需詳細資訊，請參閱詳 <a href="../../automating/using/scheduler.md">細檔案</a>。<br /> </td> 
+   <td> 時區最佳化的傳遞<br /> </td> 
+   <td> 排程在每個收件者時區的特定日/時間傳送循環的電子郵件、簡訊和推播通知，確保訊息在正確的時間傳送，而不需設定多個傳送。 <br /> 如需詳細資訊，請參閱 <a href="../../automating/using/scheduler.md">詳細檔案</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> API訊號活動觸發<br /> </td> 
-   <td> 現在可以直接從Adobe Campaign Standard API觸發工作流程的訊號活動。<br /> 如需詳細資訊，請參閱詳 <a href="/help/api/using/triggering-a-signal-activity.md">細檔案</a> 。<br /> </td> 
+   <td> 現在可以直接從Adobe Campaign Standard API觸發工作流程的訊號活動。<br /> 如需詳細資訊，請參閱 <a href="/help/api/using/triggering-a-signal-activity.md">詳細檔案</a> .<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -493,8 +493,8 @@ _電子郵件、簡訊和直接郵件_
 
 * 修正在傳遞內容中插入表情符號時發生的顯示問題。
 * 修正當傳送仍在版本中時，允許使用者存取傳送記錄檔的問題。
-* **[!UICONTROL Scheduler]**&#x200B;活動現在可讓您根據收件者的時區來傳送傳遞。
-* 簡訊：資料庫中的選項&#x200B;**[!UICONTROL Store incoming MO]**&#x200B;已添加到外部帳戶。 勾選後，所有傳入的SMS都會儲存至&#x200B;**inSMS**&#x200B;表格。
+* 此 **[!UICONTROL Scheduler]** 活動現在可讓您根據收件者的時區來傳送傳遞。
+* 簡訊：選項 **[!UICONTROL Store incoming MO]** 已新增至外部帳戶。 勾選後，所有傳入的SMS都會儲存至 **inSMS** 表格。
 * 簡訊：服務現在會附加至事件，而非交易範本。
 * 簡訊：預設的SMTP連線逾時已縮短為30秒。
 
@@ -509,7 +509,7 @@ _報告_
 
 * 修正了顯示率超過100%的錯誤。
 * 修正使用者無法以CSV格式下載報表的問題。
-* 在首頁中新增了新的&#x200B;**[!UICONTROL Report]**&#x200B;項目。
+* 新增 **[!UICONTROL Report]** 項目。
 
 _工作流程_
 
@@ -522,4 +522,4 @@ _設定檔與對象_
 * 修正變更設定檔圖片時發生的顯示問題。
 * 新增工具提示，在計算查詢的母體數後顯示確切的結果編號。
 * 修正使用者無法選取對象或關閉對象選擇器視窗的問題。
-* 已更新運算式編輯器中可用函式的清單。 已移除&#x200B;**FormatCurrency**&#x200B;和&#x200B;**ConvertCurrency**&#x200B;函式。
+* 已更新運算式編輯器中可用函式的清單。 此 **FormatCurrency** 和 **ConvertCurrency** 函式已移除。

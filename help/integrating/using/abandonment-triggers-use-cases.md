@@ -8,10 +8,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 88007e6f-2cdd-4fea-9739-525beaf7c658
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '994'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 95%
 
 在　Adobe Campaign　中，您需要建立連結至您在　Experience Cloud　中建立的觸發程式。
 
-1. 若要在Adobe Campaign中建立「觸發器」，請按一下左上角的&#x200B;**Adobe**&#x200B;標誌，然後選取&#x200B;**[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud triggers]**。
+1. 若要在Adobe Campaign中建立觸發程式，請按一下 **Adobe** 徽標，在左上角，然後選擇 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud triggers]**.
 
    ![](assets/remarketing_1.png)
 
@@ -81,7 +81,7 @@ ht-degree: 95%
 
    ![](assets/trigger_uc_browse_6.png)
 
-1. 若要顯示訊息範本，請按一下右上方的&#x200B;**[!UICONTROL More]**&#x200B;按鈕，然後按一下&#x200B;**[!UICONTROL Trigger Transactional Template]**。
+1. 若要顯示訊息範本，請按一下 **[!UICONTROL More]** 按鈕，然後按一下右上角的 **[!UICONTROL Trigger Transactional Template]**.
 
 1. 個人化其內容和傳送者詳細資訊。
 
@@ -105,7 +105,7 @@ ht-degree: 95%
 
    ![](assets/trigger_uc_browse_11.png)
 
-1. 收件者前往「交易」頁面，但突然停止瀏覽內容。在　10　分鐘後，Adobe Campaign　會觸發交易式訊息的傳送。
+1. 收件者前往「交易」頁面，但突然停止瀏覽。 在　10　分鐘後，Adobe Campaign　會觸發交易式訊息的傳送。
 
    ![](assets/trigger_uc_browse_12.png)
 

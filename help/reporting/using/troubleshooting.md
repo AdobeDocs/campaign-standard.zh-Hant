@@ -8,7 +8,7 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 5%
@@ -53,9 +53,9 @@ P1在第一天開啟電子郵件兩次，第二天開啟三次。
  </tbody> 
 </table>
 
-若要了解不重複開啟的總數，我們需要加總&#x200B;**[!UICONTROL Unique Opens]**&#x200B;的列計數，這會給我們提供值3。 但由於電子郵件的目標僅為2個設定檔，因此開放率應會顯示150%。
+若要了解不重複開啟的總數，我們需要加總 **[!UICONTROL Unique Opens]** 這給了我們3的價值。 但由於電子郵件的目標僅為2個設定檔，因此開放率應會顯示150%。
 
-若要取得高於100的百分比，**[!UICONTROL Unique Opens]**&#x200B;的定義會維持為已開啟的唯一廣播數量。 在此情況下，即使P1在第1天和第2天開啟電子郵件，其唯一開啟次數仍會是1。
+若要取得高於100的百分比，請定義 **[!UICONTROL Unique Opens]** 維護為已開啟的不重複broadlog數。 在此情況下，即使P1在第1天和第2天開啟電子郵件，其唯一開啟次數仍會是1。
 
 這會產生下表：
 
@@ -70,7 +70,7 @@ P1在第一天開啟電子郵件兩次，第二天開啟三次。
  <tbody> 
   <tr> 
    <td align="center"> <strong> Day </strong><br /> </td> 
-   <td align="center"> <strong> 6  </strong><br /> </td> 
+   <td align="center"> <strong> 6 </strong><br /> </td> 
    <td align="center"> <strong> 2</strong><br /> </td>
   </tr> 
   <tr> 
@@ -92,24 +92,24 @@ P1在第一天開啟電子郵件兩次，第二天開啟三次。
 
 ## 開啟計數與資料庫計數不匹配 {#open-counts-no-match-database}
 
-這可能是因為，即使無法追蹤&#x200B;**[!UICONTROL Open]**&#x200B;動作，動態報告中仍會使用試探式來追蹤開啟次數。
+這可能是因為，即使無法追蹤 **[!UICONTROL Open]** 動作。
 
-例如，如果用戶在其客戶端上禁用了映像，並按一下電子郵件中的連結，則資料庫可能不會跟蹤&#x200B;**[!UICONTROL Open]**，但&#x200B;**[!UICONTROL Click]**&#x200B;將被跟蹤。
+例如，如果使用者在其用戶端上停用影像，然後按一下電子郵件中的連結，便會 **[!UICONTROL Open]** 可能不會由資料庫追蹤，但 **[!UICONTROL Click]** 。
 
-因此，**[!UICONTROL Open]**&#x200B;追蹤記錄計數在資料庫中可能沒有相同的計數。
+因此， **[!UICONTROL Open]** 追蹤記錄計數在資料庫中可能沒有相同的計數。
 
-這些發生次數會新增為&#x200B;**&quot;電子郵件點按表示電子郵件開啟&quot;**。
+這些發生次數會新增為 **「電子郵件點按表示電子郵件開啟」**.
 
 >[!NOTE]
 >
->由於唯一計數是以HLL型草圖為基礎，因此可能會發生計數之間的微小不一致。
+>由於唯一計數是以HLL型草圖為基礎，因此可能會發生計數之間的細微不一致。
 
 ## 如何計算循環/交易式傳送的計數？ {#counts-recurring-deliveries}
 
 使用循環和交易式傳送時，計數會歸因於父傳送和子傳送。
-我們可以以名為**R1**的循環傳送為例，其設定為每天在第1天(RC1)、第2天(RC2)和第3天(RC3)執行。
-假設只有一個人開啟了所有子傳遞多次。 在此情況下，個別循環子傳送會將每個的**[!UICONTROL Open]**計為1。
-不過，由於同一人已點按所有傳送，父循環傳送也會將**[!UICONTROL Unique open]**&#x200B;設為1。
+我們可以以循環傳送的範例，命名為 **R1** 設為在第1天(RC1)、第2天(RC2)和第3天(RC3)執行。
+假設只有一個人開啟了所有子傳遞多次。 在此情況下，個別循環的子傳送會顯示 **[!UICONTROL Open]** 每個計為1。
+不過，由於同一人已點按所有傳送，因此父重複傳送也會 **[!UICONTROL Unique open]** 作為1。
 
 報表應如下所示：
 
@@ -163,9 +163,9 @@ P1在第一天開啟電子郵件兩次，第二天開啟三次。
 
 ![](assets/troubleshooting_1.png)
 
-如果您將&#x200B;**[!UICONTROL Conditional formatting]**&#x200B;變更為自訂，當值達到上限時，儲存格就會更綠。 而如果達到下限，就會變紅。
+如果您變更 **[!UICONTROL Conditional formatting]** 若設為自訂，當值達到上限時，儲存格就會更綠。 而如果達到下限，就會變紅。
 
-例如，在此，我們將&#x200B;**[!UICONTROL Upper limit]**&#x200B;設為500，並將&#x200B;**[!UICONTROL Lower limit]**&#x200B;設為0。
+例如，在此，我們設定 **[!UICONTROL Upper limit]** 到500和 **[!UICONTROL Lower limit]** 0。
 
 ![](assets/troubleshooting_2.png)
 
@@ -173,11 +173,11 @@ P1在第一天開啟電子郵件兩次，第二天開啟三次。
 
 ![](assets/troubleshooting_3.png)
 
-值&#x200B;**N/A**&#x200B;有時可能出現在動態報表中。 顯示此畫面的原因有三：
+值 **不適用** 有時會顯示在動態報表中。 顯示此畫面的原因有三：
 
-* 傳送已刪除，並在此顯示為&#x200B;**N/A**，以避免結果不一致。
-* 將&#x200B;**[!UICONTROL Transactional Delivery]**&#x200B;維度拖放至報表時，可能會因此顯示值&#x200B;**N/A**。 這是因為動態報表會擷取每個傳送，即使它們不是交易式傳送亦然。 將&#x200B;**[!UICONTROL Delivery]**&#x200B;維度拖放至報表時，也可能發生此情況，但在此情況下，**N/A**&#x200B;值將代表交易式傳送。
-* 維度與與維度無關的量度搭配使用時。 在以下範例中，即使此傳送中的&#x200B;**[!UICONTROL Click]**&#x200B;計數設為0，仍會以&#x200B;**[!UICONTROL Tracking URL]**&#x200B;維度新增劃分。
+* 傳送已刪除，如下所示 **不適用** 不會造成結果不一致。
+* 拖放 **[!UICONTROL Transactional Delivery]** 維度，值 **不適用** 可能會隨之顯示。 這是因為動態報表會擷取每個傳送，即使它們不是交易式傳送亦然。 拖放 **[!UICONTROL Delivery]** 維度，但在此情況下， **不適用** 值代表交易式傳送。
+* 維度與與維度無關的量度搭配使用時。 在以下範例中，會新增劃分，並搭配 **[!UICONTROL Tracking URL]** 維度，即使 **[!UICONTROL Click]** 此傳送中的計數設為0。
 
    ![](assets/troubleshooting_4.png)
 

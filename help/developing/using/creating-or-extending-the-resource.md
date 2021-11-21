@@ -33,10 +33,10 @@ ht-degree: 11%
 
 要建立或擴展資源，請執行以下操作：
 
-1. 從&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom Resources]**，按一下&#x200B;**[!UICONTROL Create]**&#x200B;按鈕。
+1. 從 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom Resources]**，按一下 **[!UICONTROL Create]** 按鈕。
 1. 選擇要執行的動作：
 
-   * **[!UICONTROL Create a new resource]**:輸入 **[!UICONTROL Label]** 和欄 **[!UICONTROL ID]** 位。**[!UICONTROL ID]** 欄位為必填欄位。如果將「標籤」欄位保留為空白，則會自動從ID完成。
+   * **[!UICONTROL Create a new resource]**:輸入 **[!UICONTROL Label]** 和 **[!UICONTROL ID]** 欄位。 **[!UICONTROL ID]** 欄位為必填欄位。如果將「標籤」欄位保留為空白，則會自動從ID完成。
 
       ![](assets/schema_extension_2.png)
 
@@ -48,6 +48,6 @@ ht-degree: 11%
 
       ![](assets/schema_extension_10.png)
 
-1. 按一下&#x200B;**[!UICONTROL Create]**&#x200B;建立資源，若為新資源，則資源將處於&#x200B;**[!UICONTROL Draft]**&#x200B;狀態，若為擴充，則處於&#x200B;**[!UICONTROL Editing]**&#x200B;狀態。
+1. 按一下 **[!UICONTROL Create]** 來建立資源，然後資源會 **[!UICONTROL Draft]** 新資源或 **[!UICONTROL Editing]** 狀態（若有擴充功能）。
 
-新資源已建立，現在可以設定。 有關資源配置的詳細資訊，請參閱[配置資源的資料結構](../../developing/using/configuring-the-resource-s-data-structure.md)。
+新資源已建立，現在可以設定。 有關資源配置的詳細資訊，請參閱 [配置資源的資料結構](../../developing/using/configuring-the-resource-s-data-structure.md).

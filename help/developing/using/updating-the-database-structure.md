@@ -30,7 +30,7 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->如果修改或刪除用於事件之自訂資源的欄位，則相對應的事件將會自動取消發佈。請參閱[取消發佈交易式事件](../../channels/using/publishing-transactional-event.md#unpublishing-an-event)。
+>如果修改或刪除用於事件之自訂資源的欄位，則相對應的事件將會自動取消發佈。請參閱 [取消發佈交易式事件](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).
 
 1. 從進階功能表，透過 Adobe Campaign 標誌，依序選取 **[!UICONTROL Administration]** > **[!UICONTROL Development]** 及 **[!UICONTROL Publishing]**。
 1. 依預設，會核取 **[!UICONTROL Determine modifications since the last publication]** 選項，這代表僅會套用自上次更新後所進行的變更。
@@ -49,7 +49,7 @@ ht-degree: 93%
 
    >[!NOTE]
    >
-   >由於重複索引導致發佈失敗，準備步驟將檢查為資源定義的索引是否已存在，且其他資源的名稱相同。 如果發生此情況，將顯示一條錯誤消息，要求您更名索引。 請參閱[定義索引](configuring-the-resource-s-data-structure.md#defining-indexes)。
+   >由於重複索引導致發佈失敗，準備步驟將檢查為資源定義的索引是否已存在，且其他資源的名稱相同。 如果發生此情況，將顯示一條錯誤消息，要求您更名索引。 請參閱 [定義索引](configuring-the-resource-s-data-structure.md#defining-indexes).
 
 1. 發佈完成後，按一下 **[!UICONTROL Publish]** 按鈕以套用新的設定。
 1. 發佈後，每個資源的 **[!UICONTROL Summary]** 窗格會指出狀態現在為 **[!UICONTROL Published]** 並指定上次發佈的日期。

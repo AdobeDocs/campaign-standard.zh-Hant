@@ -22,7 +22,7 @@ ht-degree: 15%
 
 要執行此操作，這些欄位必須對應至資料庫欄位。
 
-您可以透過左側浮動視窗的&#x200B;**[!UICONTROL Form data]**&#x200B;區段來定義及管理其對應。
+您可以透過 **[!UICONTROL Form data]** 區段。
 
 ![](assets/lp_form-data.png)
 
@@ -38,29 +38,29 @@ ht-degree: 15%
    >
    >內建登錄頁面的預設欄位已預先設定。您可以視需要修改它們。
 
-1. 存取左側浮動視窗的&#x200B;**[!UICONTROL Form data]**&#x200B;區段。
+1. 存取 **[!UICONTROL Form data]** 區段。
 
-1. 若要變更欄位類型，請從&#x200B;**[!UICONTROL HTML type of the field]**&#x200B;下拉式清單中選取值。
+1. 若要變更欄位類型，請從 **[!UICONTROL HTML type of the field]** 下拉式清單。
 
    ![](assets/lp_html-field-type.png)
 
    >[!NOTE]
    >
-   >如需在登錄頁面中使用核取方塊類型的詳細資訊，請參閱[更新多個服務訂閱](#multiple-subscriptions)及[協定核取方塊](#agreement-checkbox)區段。
+   >如需在登錄頁面中使用核取方塊類型的詳細資訊，請參閱 [更新多個服務訂閱](#multiple-subscriptions) 和 [協定核取方塊](#agreement-checkbox) 區段。
 
-1. 如果選擇的欄位類型與&#x200B;**[!UICONTROL Field]**&#x200B;區域中當前選擇的資料庫欄位不相容，則將顯示警告消息。 為獲得最佳映射，請選擇適當的值。
+1. 如果選擇的欄位類型與 **[!UICONTROL Field]** 區域中，將顯示警告消息。 為獲得最佳映射，請選擇適當的值。
 
    ![](assets/lp_field-type-warning.png)
 
-1. 使用&#x200B;**[!UICONTROL Field]**&#x200B;區域選擇將連結到表單欄位的資料庫欄位。
+1. 使用 **[!UICONTROL Field]** 區域，選擇將連結到表單欄位的資料庫欄位。
 
    ![](assets/lp_select-database-field.png)
 
    >[!NOTE]
    >
-   >登錄頁面只能與&#x200B;**[!UICONTROL Profiles]**&#x200B;或&#x200B;**[!UICONTROL Service]**&#x200B;資源對應。
+   >登錄頁面只能與 **[!UICONTROL Profiles]** 或 **[!UICONTROL Service]** 資源。
 
-   在此範例中，將登錄頁面的&#x200B;**Name**&#x200B;欄位對應至&#x200B;**[!UICONTROL Profiles]**&#x200B;資源的&#x200B;**[!UICONTROL Last name]**&#x200B;欄位。
+   在此範例中，映射 **名稱** 登錄頁面的欄位 **[!UICONTROL Last name]** 欄位 **[!UICONTROL Profiles]** 資源。
 
    ![](assets/lp_database-field-example.png)
 
@@ -70,7 +70,7 @@ ht-degree: 15%
 
    如果未填入必填欄位，當使用者提交頁面時，將會顯示錯誤訊息。
 
-1. 按一下&#x200B;**[!UICONTROL Confirm]**&#x200B;以儲存變更。
+1. 按一下 **[!UICONTROL Confirm]** 來儲存變更。
 
 <!--If you choose a mandatory **[!UICONTROL Checkbox]**, make sure that it is of **[!UICONTROL Field]** type.-->
 
@@ -84,11 +84,11 @@ ht-degree: 15%
 
    ![](assets/lp_parameters_job.png)
 
-1. 選擇&#x200B;**[!UICONTROL Reconciliation key]**:此資料庫欄位可用來判斷訪客是否有已在Adobe Campaign資料庫中知道的設定檔。 例如，電子郵件、名字、姓氏。 調解金鑰可讓您根據下面定義的&#x200B;**[!UICONTROL Update strategy]**&#x200B;參數更新或建立設定檔。
+1. 選取 **[!UICONTROL Reconciliation key]**:此資料庫欄位可用來判斷訪客是否有已在Adobe Campaign資料庫中知道的設定檔。 例如，電子郵件、名字、姓氏。 調解金鑰可讓您根據 **[!UICONTROL Update strategy]** 參數。
 
 1. 定義 **[!UICONTROL Form parameter mapping]**：此部分允許您對應登錄頁面欄位參數以及調解金鑰中使用的參數。
 
-1. 選擇&#x200B;**[!UICONTROL Update strategy]**:如果調解金鑰恢復現有資料庫配置檔案，您可以選擇使用此配置檔案以表單中輸入的資料進行更新，或者改為阻止此更新。
+1. 選取 **[!UICONTROL Update strategy]**:如果調解金鑰恢復現有資料庫配置檔案，您可以選擇使用此配置檔案以表單中輸入的資料進行更新，或者改為阻止此更新。
 
    ![](assets/lp_parameters_update-strategy.png)
 
@@ -100,11 +100,11 @@ ht-degree: 15%
 
 1. 設計登錄頁面時：
 
-   * 選取區塊，然後從&#x200B;**[!UICONTROL Form data]**&#x200B;區段中，選擇&#x200B;**[!UICONTROL Checkbox]**&#x200B;作為欄位類型。
+   * 選取區塊，然後從 **[!UICONTROL Form data]** ，選擇 **[!UICONTROL Checkbox]** 作為欄位類型。
 
       ![](assets/lp_field-type-checkbox.png)
 
-   * 如果您熟悉HTML，也可以使用&#x200B;**[!UICONTROL Show source]**&#x200B;按鈕手動插入核取方塊。
+   * 如果您熟悉HTML，您也可以使用 **[!UICONTROL Show source]** 按鈕。
 
       ![](assets/lp_show_source.png)
 
@@ -112,19 +112,19 @@ ht-degree: 15%
 
       ![](assets/lp_manual-checkbox.png)
 
-1. 確認已在您的內容中選取核取方塊。 **[!UICONTROL Type]**&#x200B;下拉式清單會顯示在左側浮動視窗的&#x200B;**[!UICONTROL Form data]**&#x200B;區段中。 從清單中選擇&#x200B;**[!UICONTROL Service and subscription]**。
+1. 確認已在您的內容中選取核取方塊。 此 **[!UICONTROL Type]** 下拉式清單會顯示在 **[!UICONTROL Form data]** 區段。 選擇 **[!UICONTROL Service and subscription]** 從清單中。
 
    ![](assets/lp_service-and-subscription.png)
 
-1. 從&#x200B;**[!UICONTROL Behavior]**&#x200B;下拉式清單中選擇一個選項。
+1. 從 **[!UICONTROL Behavior]** 下拉式清單。
 
    ![](assets/lp_checkbox-behavior.png)
 
-1. 從相應清單中選擇[服務](../../audiences/using/creating-a-service.md)。
+1. 選取 [服務](../../audiences/using/creating-a-service.md) 從對應的清單。
 
    ![](assets/lp_checkbox-service.png)
 
-1. 確認未勾選&#x200B;**[!UICONTROL Mandatory]**&#x200B;選項。 否則，您的使用者將無法選擇。
+1. 請確定 **[!UICONTROL Mandatory]** 選項。 否則，您的使用者將無法選擇。
 
    ![](assets/lp_uncheck-mandatory.png)
 
@@ -148,11 +148,11 @@ ht-degree: 15%
 
 1. 設計登錄頁面時：
 
-   * 選取區塊，然後從&#x200B;**[!UICONTROL Form data]**&#x200B;區段中，選擇&#x200B;**[!UICONTROL Checkbox]**&#x200B;作為欄位類型。
+   * 選取區塊，然後從 **[!UICONTROL Form data]** ，選擇 **[!UICONTROL Checkbox]** 作為欄位類型。
 
       ![](assets/lp_field-type-checkbox.png)
 
-   * 如果您熟悉HTML，也可以使用&#x200B;**[!UICONTROL Show source]**&#x200B;按鈕手動插入核取方塊。
+   * 如果您熟悉HTML，您也可以使用 **[!UICONTROL Show source]** 按鈕。
 
       ![](assets/lp_show_source.png)
 
@@ -164,15 +164,15 @@ ht-degree: 15%
 
    ![](assets/lp_select_checkbox.png)
 
-1. **[!UICONTROL Type]**&#x200B;下拉式清單會顯示在左側浮動視窗的&#x200B;**[!UICONTROL Form data]**&#x200B;區段中。 從清單中選擇&#x200B;**[!UICONTROL Agreement]**。
+1. 此 **[!UICONTROL Type]** 下拉式清單會顯示在 **[!UICONTROL Form data]** 區段。 選擇 **[!UICONTROL Agreement]** 從清單中。
 
    ![](assets/lp_form_data_drop-down.png)
 
    >[!NOTE]
    >
-   >**[!UICONTROL Agreement]**&#x200B;元素未對應至Campaign資料庫的欄位。
+   >此 **[!UICONTROL Agreement]** 元素未對應至Campaign資料庫的欄位。
 
-1. 按一下&#x200B;**[!UICONTROL Form data]**&#x200B;旁的![](assets/lp-properties-icon.png)圖示以存取核取方塊進階屬性。
+1. 按一下 ![](assets/lp-properties-icon.png) 表徵圖 **[!UICONTROL Form data]** 要訪問複選框的高級屬性。
 
 1. 您可以視需要編輯訊息。
 

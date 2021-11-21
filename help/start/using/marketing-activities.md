@@ -81,14 +81,14 @@ ht-degree: 82%
 
 根據情境，您可以：
 
-* 建立電子郵件 — [了解更多](../../channels/using/creating-an-email.md)
-* 建立SMS - [深入了解](../../channels/using/creating-an-sms-message.md)
-* 建立推播通知 — [了解更多](../../channels/using/preparing-and-sending-a-push-notification.md)
-* 建立應用程式內訊息 — [深入了解](../../channels/using/about-in-app-messaging.md)
-* 建立工作流程 — [了解更多](../../automating/using/building-a-workflow.md#creating-a-workflow)
-* 建立登錄頁面 — [深入了解](../../channels/using/getting-started-with-landing-pages.md)
-* 建立促銷活動 — [了解更多](../../start/using/programs-and-campaigns.md#creating-a-campaign)
-* 建立程式 — [了解更多](../../start/using/programs-and-campaigns.md#creating-a-program)
+* 建立電子郵件 —  [深入了解](../../channels/using/creating-an-email.md)
+* 建立簡訊 —  [深入了解](../../channels/using/creating-an-sms-message.md)
+* 建立推播通知 —  [深入了解](../../channels/using/preparing-and-sending-a-push-notification.md)
+* 建立應用程式內訊息 —  [深入了解](../../channels/using/about-in-app-messaging.md)
+* 建立工作流程 —  [深入了解](../../automating/using/building-a-workflow.md#creating-a-workflow)
+* 建立登錄頁面 —  [深入了解](../../channels/using/getting-started-with-landing-pages.md)
+* 建立促銷活動 —  [深入了解](../../start/using/programs-and-campaigns.md#creating-a-campaign)
+* 建立方案 —  [深入了解](../../start/using/programs-and-campaigns.md#creating-a-program)
 
 >[!NOTE]
 >

@@ -17,13 +17,13 @@ ht-degree: 0%
 
 # 疑難排解 {#troubleshooting}
 
-* **前往Adobe.io主控台時，您會收到下列錯誤：「Adobe I/O控制台僅可用於選擇企業帳戶的成員。如果您認為您應該擁有訪問權限，請聯繫您的系統管理員。&quot;**
+* **前往Adobe.io主控台時，您會收到下列錯誤：「Adobe I/O控制台僅可用於選擇企業帳戶的成員。 如果您認為應該擁有訪問權限，請與您的系統管理員聯繫。」**
 
 您只能為您所管理的IMS組織建立API金鑰。 如果顯示此訊息，而您想建立API金鑰，且想要向IMS組織的管理員之一詢問。
 
 * **對Adobe.io執行請求時，您會收到{&quot;error_code&quot;:&quot;403023&quot;,&quot;message&quot;:&quot;配置檔案無效&quot;}**
 
-這表示您特定Campaign產品的IMS布建有問題：IMS團隊需要修正它。
+這表示您特定Campaign產品的IMS布建有問題：IMS團隊需要加以修正。
 
 若要取得更多詳細資料，您可以使用代號呼叫IMS API，查看您的IMS設定檔外觀：您必須有一個prodCtx，其中organization_id與您在Adobe.io的URL中放入的organization_id相同，才能路由您的請求。
 如果缺少IMS布建，則需要修正。
@@ -77,7 +77,7 @@ ht-degree: 0%
 }
 ```
 
-* **對Adobe.io執行請求時，您會收到{&quot;code&quot;:500, &quot;message&quot;:&quot;Aosh。出了點問題。 檢查您的URI並重試。&quot;}**
+* **對Adobe.io執行請求時，您會收到{&quot;code&quot;:500, &quot;message&quot;:&quot;Aosh。 出了點問題。 請檢查URI，然後重試。&quot;}**
 
 Adobe.io聲明您的無效URI:您請求的URI很可能無效。 在Adobe.io上，當您選取Campaign服務時，畫面會顯示可能的organization_id清單的選取器。 您需要檢查您選擇的是否是您放入URL的URL。
 
@@ -87,7 +87,7 @@ Adobe.io聲明您的無效URI:您請求的URI很可能無效。 在Adobe.io上�
 
 * **建立後我沒有看到我的個人資料**
 
-根據執行個體設定，建立的設定檔必須與&#x200B;**orgUnit**&#x200B;相關聯。 若要了解如何在建立時新增此欄位，請參閱[此區段](../../api/using/creating-profiles.md)。
+根據執行個體設定，建立的設定檔必須與 **orgUnit**. 若要了解如何在您的建立中新增此欄位，請參閱 [本節](../../api/using/creating-profiles.md).
 
 <!-- * (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu’un POST)
 

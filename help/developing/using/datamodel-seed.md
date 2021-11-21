@@ -28,19 +28,19 @@ ht-degree: 9%
                <tr>
                   <td>PKey</td>
                   <td>主要資源ID</td>
-                  <td>字串 </td>
+                  <td>string </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>國家（國家）</td>
-                  <td>國家/地區</td>
-                  <td>連結 </td>
+                  <td>country (countries)</td>
+                  <td>Country</td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>已建立</td>
-                  <td>已建立</td>
-                  <td>日期 </td>
+                  <td>Created</td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
@@ -82,7 +82,7 @@ ht-degree: 9%
                <tr>
                   <td>isExternal</td>
                   <td>是外部資源</td>
-                  <td>布林值 </td>
+                  <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
@@ -122,7 +122,7 @@ ht-degree: 9%
                   <td> </td>
                </tr>
                <tr>
-                  <td>名稱</td>
+                  <td>name</td>
                   <td>ID</td>
                   <td>字串(64)</td>
                   <td> </td>
@@ -130,7 +130,7 @@ ht-degree: 9%
                <tr>
                   <td>nms_recipient</td>
                   <td>設定檔</td>
-                  <td>項目 </td>
+                  <td>item </td>
                   <td> </td>
                </tr>
                <tr>
@@ -220,15 +220,15 @@ ht-degree: 9%
 <table>
         <tr>
         <th>名稱</th>
-        <th>類型</th>
+        <th>Type</th>
         </tr>
         <tr>
         <td>eventType</td>
-        <td>字串</td>
+        <td>string</td>
         </tr>
     </table>
 
-按名稱或標籤(byText)
+By name or label (byText)
 
 <table>
         <tr>
@@ -236,7 +236,7 @@ ht-degree: 9%
         <th>類型</th>
         </tr>
         <tr>
-        <td>文字</td>
+        <td>text</td>
         <td>字串</td>
         </tr>
     </table>
@@ -262,7 +262,7 @@ ht-degree: 9%
         </tr>
     </table>
 
-測試設定檔（設定檔）
+Test profile (profile)
 
 <table>
     <tr>

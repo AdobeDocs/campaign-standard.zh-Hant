@@ -19,11 +19,11 @@ ht-degree: 8%
 
 開始使用電子郵件設計工具，並從舊版編輯器中建立的電子郵件HTML中建立可重複使用的範本和片段。
 
-此使用案例可讓您使用HTML電子郵件，並在電子郵件設計工具中將其分割為HTML元件，以建立電子郵件設計工具範本。
+此使用案例可讓您使用HTML電子郵件，並將其分割為電子郵件設計工具中的HTML元件，以建立電子郵件設計工具範本。
 
 >[!NOTE]
 >
->與相容性模式一樣，HTML元件也是可編輯的，有限的選項有：您只能執行就地版本。
+>與相容性模式一樣，HTML元件也是可以編輯的，選項有限：您只能執行就地版本。
 
 >[!IMPORTANT]
 >
@@ -33,11 +33,11 @@ ht-degree: 8%
 
 1. 選取HTML電子郵件。
 1. 識別要分割HTML電子郵件的區段。
-1. 從HTML中切出不同的區塊。
+1. 從HTML切出不同的區塊。
 
 ## 建立電子郵件結構
 
-1. 開啟&#x200B;**[!UICONTROL Email Designer]**&#x200B;以建立空白的電子郵件內容。
+1. 開啟 **[!UICONTROL Email Designer]**  來建立空白的電子郵件內容。
 1. 設定內文層級屬性：背景顏色、寬度等。 如需詳細資訊，請參閱[編輯電子郵件樣式](../../designing/using/styles.md)。
 1. 添加任意數量的結構元件。 如需詳細資訊，請參閱「[編輯電子郵件結構](../../designing/using/designing-from-scratch.md#defining-the-email-structure)」。
 
@@ -48,7 +48,7 @@ ht-degree: 8%
 
 ## 管理電子郵件的樣式 {#manage-the-style-of-your-email}
 
-1. 切換到&#x200B;**[!UICONTROL Mobile view]**。 如需詳細資訊，請參閱[本節](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)。
+1. 切換至 **[!UICONTROL Mobile view]**. 如需詳細資訊，請參閱[本節](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)。
 
 1. 若要修正此問題，請切換至原始碼模式，並將樣式區段複製並貼到新樣式區段中。 例如：
 
@@ -78,7 +78,7 @@ ht-degree: 8%
 
 ## 使用案例
 
-讓我們嘗試將此在舊版編輯器中建立的電子郵件轉換為&#x200B;**[!UICONTROL Email Designer]**&#x200B;範本。
+讓我們嘗試將在舊版編輯器中建立的電子郵件轉換為 **[!UICONTROL Email Designer]** 範本。
 
 ### 識別電子郵件的區段
 
@@ -90,11 +90,11 @@ ht-degree: 8%
 
 ![](assets/breadcrumbs.png)
 
-若要查看電子郵件的HTML版本，請按一下&#x200B;**[!UICONTROL Show source]**。
+若要查看電子郵件的HTML版本，請按一下 **[!UICONTROL Show source]**.
 
 ### 建立電子郵件範本及其結構
 
-1. 拖放反映電子郵件版面的&#x200B;**[!UICONTROL Structure components]**。
+1. 拖放 **[!UICONTROL Structure components]**  反映我們電子郵件的版面。
 
 1. 視需要重複多次。 我們需要建立11個結構元件。
 
@@ -102,11 +102,11 @@ ht-degree: 8%
 
 ### 插入HTML內容元件
 
-1. 在每個&#x200B;**[!UICONTROL Structure component]**&#x200B;中插入&#x200B;**[!UICONTROL HTML component]** 。
+1. 插入 **[!UICONTROL HTML component]**  每個 **[!UICONTROL Structure component]** .
 
    ![](assets/html-components.png)
 
-1. 對於每個區段，按一下&#x200B;**[!UICONTROL Show source code]** 。
+1. 針對每個區段，按一下 **[!UICONTROL Show source code]** .
 
    ![](assets/show-source-code.png)
 
@@ -124,6 +124,6 @@ ht-degree: 8%
 
 1. 切換至原始碼，並將樣式區段複製並貼到新樣式區段中。
 
-有關詳細資訊，請參閱[管理電子郵件的樣式](#manage-the-style-of-your-email)。
+有關詳細資訊，請參閱 [管理電子郵件的樣式](#manage-the-style-of-your-email).
 
 您的舊版電子郵件現在可在電子郵件設計工具中使用。

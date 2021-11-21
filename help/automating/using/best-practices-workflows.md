@@ -52,7 +52,7 @@ ht-degree: 84%
 
 >[!NOTE]
 >
->在啟動工作流之前， [!DNL Campaign Standard]將檢查是否有足夠的系統物理記憶體來運行工作流。 如果可用記憶體不足，則會發出一條消息，通知您工作流執行將被延遲，直到伺服器上的負載下降，系統記憶體增加為止。
+>開始工作流程之前， [!DNL Campaign Standard] 將檢查是否有足夠的系統物理記憶體來運行工作流。 如果可用記憶體不足，則會發出一條消息，通知您工作流執行將被延遲，直到伺服器上的負載下降，系統記憶體增加為止。
 
 ### 頻率
 
@@ -81,7 +81,7 @@ ht-degree: 84%
 
 ### 工作流程設計
 
-為確保工作流程正常結束，請避免使用&#x200B;**[!UICONTROL End activity]**，讓工作流程的最後一個轉變單獨進行。
+為確保工作流程正常結束，請避免使用 **[!UICONTROL End activity]**.
 
 若要存取轉變的詳細檢視，請核取工作流程屬性的「執行」區段中的 **[!UICONTROL Keep interim results]** 選項。
 
@@ -114,7 +114,7 @@ ht-degree: 84%
 
 ## 使用參數呼叫工作流程{#workflow-with-parameters}
 
-請確定參數的名稱和數目與呼叫工作流程時所定義的相同（請參閱[此頁面](../../automating/using/defining-parameters-calling-workflow.md)）。 參數的類型也必須與預期值一致。
+請確定參數的名稱和數目與呼叫工作流程時所定義的相同(請參閱 [本頁](../../automating/using/defining-parameters-calling-workflow.md). 參數的類型也必須與預期值一致。
 
 請確定所有參數都已在　**[!UICONTROL External signal activity]**　中宣告。否則，執行活動時將發生錯誤。
 

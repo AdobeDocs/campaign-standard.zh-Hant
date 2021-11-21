@@ -21,7 +21,7 @@ ht-degree: 7%
 
 內容區塊和內容片段是可重複使用的內容片段，在多封電子郵件中是通用的。 這些功能可確保電子郵件的一致性，並最佳化/標準化電子郵件建立。 內容區塊和內容片段之間的差異是可能的自訂層級。
 
-* 內容區塊是純HTML，可手動插入HTML程式碼（不是好記的UI，而是直接原始碼）。 雖然它真的以具有HTML知識的人為導向，但可讓內容片段無法使用的個人化等級。
+* 內容區塊是手動插入HTML程式碼的純HTML（不是方便使用的UI，而是直接原始碼）。 雖然它真的以具有HTML知識的人為導向，但卻允許內容片段中無法使用的個人化等級。
 
 * 內容片段是透過電子郵件設計工具，使用其好記的UI所建立的視覺內容片段。 不過，無法個人化內容。 如果需要個人化，則只能透過內容區塊來完成。
 
@@ -39,28 +39,28 @@ ht-degree: 7%
 
 ## 我可以在電子郵件設計工具中匯入HTML內容嗎？
 
-您可以將自己的HTML內容上傳至電子郵件設計工具。 如果尚未透過電子郵件設計工具建立，則會以相容模式載入，設計用於保留原始HTML，但會限制UI中的特定版本功能。
+您可以將自己的HTML內容上傳至電子郵件設計工具。 如果尚未透過電子郵件設計工具建立，則會以相容模式載入，這種模式旨在保留原始HTML，但透過UI限制特定版本功能。
 
-有關詳細資訊，請參閱[相容模式](../../designing/using/using-existing-content.md#compatibility-mode)
+如需詳細資訊，請參閱 [相容性模式](../../designing/using/using-existing-content.md#compatibility-mode)
 
 ## 如何建立我的第一個電子郵件內容？
 
 首先，從首頁建立電子郵件。
 然後，若要將內容新增至電子郵件，您需要新增結構元件，並在其中插入內容元件。
 
-如需詳細資訊，請參閱[從草稿開始建立電子郵件](../../designing/using/quick-start.md#from-scratch-email)
+如需詳細資訊，請參閱 [從草稿建立電子郵件](../../designing/using/quick-start.md#from-scratch-email)
 
 ## 為什麼我需要更新片段？
 
 電子郵件設計工具正在不斷改進。如果您從草稿開始、從現成可用的範本建立電子郵件內容，或如果您建立片段，則可能需要將內容更新至最新版本，以避免發生CSS衝突問題等問題。
 
-如需詳細資訊，請參閱[更新片段](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-updates)
+如需詳細資訊，請參閱 [更新片段](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-updates)
 
 ## 可以在主題中儲存樣式嗎？
 
 樣式無法儲存為主題，以供日後重複使用。不過，CSS 樣式可以儲存在內容範本或電子郵件中。
 
-如需詳細資訊，請參閱[Styles](../../designing/using/styles.md)
+如需詳細資訊，請參閱 [樣式](../../designing/using/styles.md)
 
 ## 哪些字型可用？
 

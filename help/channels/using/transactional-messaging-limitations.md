@@ -26,13 +26,13 @@ ht-degree: 67%
 
 ## 權限 {#permissions}
 
-只有具有[Administration](../../administration/using/users-management.md#functional-administrators)角色的使用者才能設定交易事件並存取交易式訊息。
+僅使用 [管理](../../administration/using/users-management.md#functional-administrators) 角色可以設定交易式事件和存取交易式訊息。
 
 ## 事件設定和發佈 {#design-and-publication}
 
 在設定和發佈交易式事件時，您需要執行的某些步驟無法還原。 您必須注意下列限制：
 
-* 交易式訊息的可用通道包括：**[!UICONTROL Email]**、**[!UICONTROL Mobile (SMS)]**&#x200B;和&#x200B;**[!UICONTROL Push notification]**。
+* 交易式訊息的可用通道包括： **[!UICONTROL Email]**, **[!UICONTROL Mobile (SMS)]** 和 **[!UICONTROL Push notification]**.
 * 每個事件設定只能使用一個通道。請參閱[建立事件](../../channels/using/configuring-transactional-event.md#creating-an-event)。
 * 事件建立後，便無法變更通道。因此，如果訊息未成功傳送，您需要設計機制，允許使用工作流程從其他通道傳送訊息。請參閱[工作流程資料和程序](../../automating/using/get-started-workflows.md)。
 * 在事件建立後，您無法變更目標維度 **[!UICONTROL Real-time event]** 或 **[!UICONTROL Profile]** ）。請參閱[建立事件](../../channels/using/configuring-transactional-event.md#creating-an-event)。
@@ -41,9 +41,9 @@ ht-degree: 67%
 
 ## 交易式訊息數 {#transactional-message-number}
 
-已發佈的交易式訊息數量可能會對您的平台造成重大影響。 為獲得最佳效能，已發佈的交易式訊息數量應維持在100以下。 為確保此，請取消發佈或刪除任何未使用的交易式訊息。 請參閱[取消發佈交易式訊息](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message)和[刪除交易式訊息](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message)。
+已發佈的交易式訊息數量可能會對您的平台造成重大影響。 為獲得最佳效能，已發佈的交易式訊息數量應維持在100以下。 為確保此，請取消發佈或刪除任何未使用的交易式訊息。 請參閱 [取消發佈交易式訊息](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message) 和 [刪除交易式訊息](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message).
 
-為確保最佳效能，您也可以取消發佈或刪除未使用的事件。 事實上，取消發佈或刪除事件也會取消發佈或刪除對應的交易式訊息，及其傳送和追蹤記錄（如果有）。 請參閱[取消發佈事件](../../channels/using/publishing-transactional-event.md#unpublishing-an-event)和[刪除事件](../../channels/using/publishing-transactional-event.md#deleting-an-event)。
+為確保最佳效能，您也可以取消發佈或刪除未使用的事件。 事實上，取消發佈或刪除事件也會取消發佈或刪除對應的交易式訊息，及其傳送和追蹤記錄（如果有）。 請參閱 [取消發佈事件](../../channels/using/publishing-transactional-event.md#unpublishing-an-event) 和 [刪除事件](../../channels/using/publishing-transactional-event.md#deleting-an-event).
 
 ## 個人化 {#personalization}
 
@@ -51,20 +51,20 @@ ht-degree: 67%
 
 ### 事件型交易式訊息
 
-* 個人化資訊來自事件本身所包含的資料。請參閱[事件型交易式訊息設定](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages)。
-* 您&#x200B;**不能**&#x200B;在事件交易式訊息中使用&#x200B;**[!UICONTROL Unsubscription link]**&#x200B;內容區塊。
-* 事件型交易式訊息應僅使用傳送事件中的資料來定義收件者和訊息內容個人化。不過，您可以使用 Adobe Campaign 資料庫的資訊，豐富您交易式訊息的內容。請參閱[豐富事件](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)和[個人化交易式訊息](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message)。
+* 個人化資訊來自事件本身所包含的資料。請參閱 [事件交易式訊息設定](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages).
+* 您 **不能** use **[!UICONTROL Unsubscription link]** 事件交易式訊息中的內容區塊。
+* 事件型交易式訊息應僅使用傳送事件中的資料來定義收件者和訊息內容個人化。不過，您可以使用 Adobe Campaign 資料庫的資訊，豐富您交易式訊息的內容。請參閱 [豐富化活動](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) 和 [個人化交易式訊息](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
 * 由於事件交易式訊息不包含配置設定檔資訊，因此它們與疲勞規則不相容，即使在擴充設定檔案的情況下也是如此。
 
 ### 設定檔交易式訊息
 
-* 個人化資訊可來自事件中包含的資料，或來自已調解的設定檔記錄。請參閱[基於配置檔案的交易式消息配置](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages)和[基於配置檔案的交易式消息特異性](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities)。
-* 您&#x200B;**可以**&#x200B;在設定檔交易式訊息中使用&#x200B;**[!UICONTROL Unsubscription link]**&#x200B;內容區塊。 請參閱[新增內容區塊](../../designing/using/personalization.md#adding-a-content-block)。
+* 個人化資訊可來自事件中包含的資料，或來自已調解的設定檔記錄。請參閱 [設定檔交易式訊息設定](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages) 和 [設定檔交易式訊息特異性](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities).
+* 您 **can** use **[!UICONTROL Unsubscription link]** 設定檔交易式訊息中的內容區塊。 請參閱[新增內容區塊](../../designing/using/personalization.md#adding-a-content-block)。
 * 疲勞規則與設定檔交易式訊息相容。請參閱[疲勞規則](../../sending/using/fatigue-rules.md)。
 
 ### 產品清單
 
-請注意，產品清單僅適用於交易式&#x200B;**電子郵件訊息**。 請參閱[在交易式訊息中使用產品清單](../../designing/using/using-product-listings.md)。
+請注意，產品清單可用於交易式 **電子郵件訊息** 只有。 請參閱[在交易式訊息中使用產品清單](../../designing/using/using-product-listings.md)。
 
 ## 品牌 {#permissions-and-branding}
 

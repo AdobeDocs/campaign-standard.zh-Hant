@@ -24,7 +24,7 @@ ht-degree: 62%
 
 <img src="assets/do-not-localize/icon_concepts.svg" width="60px">
 
-**執行傳送**&#x200B;是每月為每個交易式訊息建立一次的不可操作且非功能的技術訊息，且每次編輯並發佈交易式訊息時都會建立一次。
+安 **執行傳送** 是每月為每個交易式訊息建立一次不可操作且無法運作的技術訊息，且每次編輯和發佈交易式訊息時都會建立一次。
 
 **相關主題**：
 * [發佈交易式訊息](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
@@ -55,7 +55,7 @@ ht-degree: 62%
 
 >[!NOTE]
 >
->將事件指派給執行傳送時，其會顯示在此執行傳遞的傳送日誌中，而且只有在這個時候才會顯示。失敗的傳送會顯示在交易式訊息傳送記錄檔的&#x200B;**[!UICONTROL Execution list]**&#x200B;標籤中。
+>將事件指派給執行傳送時，其會顯示在此執行傳遞的傳送日誌中，而且只有在這個時候才會顯示。失敗的傳送會顯示在 **[!UICONTROL Execution list]** 交易式訊息傳送記錄檔的索引標籤。
 
 ### 重試過程限制 {#limitations}
 
@@ -67,17 +67,17 @@ ht-degree: 62%
 
 您無法停止執行傳送。但是，如果目前的執行傳送失敗，只要在收到新事件時，就會建立新事件，而且所有新事件都會由這個新的執行傳遞進行處理。失敗的執行傳送不會處理任何新事件。
 
-如果已指派給執行傳送的某些事件已隨著重試過程而延遲，而且如果該執行傳送失敗，則重試系統不會將延遲的事件指派給新的執行傳送，這表示這些事件會遺失。 檢查[傳送記錄](#monitoring-transactional-message-delivery)，查看可能已受到影響的收件者。
+如果已指派給執行傳送的某些事件已隨著重試過程而延遲，而且如果該執行傳送失敗，則重試系統不會將延遲的事件指派給新的執行傳送，這表示這些事件會遺失。 檢查 [傳遞記錄](#monitoring-transactional-message-delivery) 以查看可能已受影響的收件者。
 
 ## 監控交易式訊息 {#monitoring-transactional-message-delivery}
 
-若要監控交易式訊息，您需要存取對應的[執行傳送](#transactional-message-execution-delivery)。
+若要監控交易式訊息，您必須存取對應的 [執行傳送](#transactional-message-execution-delivery).
 
 1. 若要檢視訊息傳送記錄檔，請按一下 **[!UICONTROL Deployment]** 區塊右下方的圖示。
 
    ![](assets/message-center_access_logs.png)
 
-1. 按一下&#x200B;**[!UICONTROL Execution list]**&#x200B;標籤。
+1. 按一下 **[!UICONTROL Execution list]** 標籤。
 
    ![](assets/message-center_execution_tab.png)
 
@@ -85,11 +85,11 @@ ht-degree: 62%
 
    ![](assets/message-center_execution_delivery.png)
 
-1. 再按一下&#x200B;**[!UICONTROL Deployment]**&#x200B;區塊右下方的圖示。
+1. 再次按一下 **[!UICONTROL Deployment]** 封鎖。
 
    ![](assets/message-center_execution_access_logs.png)
 
-   對於每個執行傳送，您可以像對標準傳送一樣查詢傳送記錄。 如需存取和使用記錄檔的詳細資訊，請參閱[監控傳送](../../sending/using/monitoring-a-delivery.md)。
+   對於每個執行傳送，您可以像對標準傳送一樣查詢傳送記錄。 如需存取和使用記錄檔的詳細資訊，請參閱 [監控傳送](../../sending/using/monitoring-a-delivery.md).
 
 ### 設定檔交易式訊息特異性 {#profile-transactional-message-monitoring}
 
@@ -99,7 +99,7 @@ ht-degree: 62%
 
 ![](assets/message-center_marketing_sending_logs.png)
 
-選擇&#x200B;**[!UICONTROL Exclusions logs]**&#x200B;頁簽可查看已從消息目標（如封鎖清單上的地址）中排除的收件人。
+選取 **[!UICONTROL Exclusions logs]** 頁簽，查看已從郵件目標（如封鎖清單上的地址）中排除的收件人。
 
 ![](assets/message-center_marketing_exclusion_logs.png)
 

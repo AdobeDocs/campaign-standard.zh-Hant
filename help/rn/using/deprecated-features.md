@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '871'
-ht-degree: 67%
+source-wordcount: '864'
+ht-degree: 65%
 
 ---
 
@@ -79,7 +79,7 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>自 Campaign 19.0 版本以來，已過時舊版電子郵件編輯器。使用<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">Campaign電子郵件設計工具</a>來建立並個人化您的電子郵件內容。 </p></br>
+   <td> <p>自 Campaign 19.0 版本以來，已過時舊版電子郵件編輯器。使用 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">Campaign電子郵件設計工具</a> 以建立並個人化您的電子郵件內容。 </p></br>
    <p>請參閱<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">本節</a>，瞭解如何針對新的編輯器調整您的電子郵件範本。</p></br>
   <p> 
   <em>目標移除日期：2022 年</em></p>
@@ -117,9 +117,9 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
  <tbody> 
   <tr> 
    <td> <p> 自Campaign第20.1發行版本開始，已棄用SDK v4。 <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">進一步瞭解</a>。</p><br/>
-   <p><a href="https://aep-sdks.gitbook.io/docs/">Adobe Experience Platform Mobile SDK</a>（先前稱為v5）現在獨家支援即將推出的Adobe Experience Cloud功能。</p>
+   <p>此 <a href="https://aep-sdks.gitbook.io/docs/">Adobe Experience Platform Mobile SDK</a> （先前稱為v5）現在獨家支援即將推出的Adobe Experience Cloud功能。</p>
    <p>2021年8月31日後，客戶可以繼續下載和使用第4版SDK，但是將不提供客戶服務支援或論壇存取權。</p>
-   <p>在本頁面</a>了解如何從SDK v4移轉至Adobe Experience Platform Mobile SDK <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">。</a></p></br>
+   <p>了解如何從SDK v4移轉至Adobe Experience Platform Mobile SDK <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">在本頁</a>.</p></br>
      </td> 
   </tr> 
  </tbody> 
@@ -149,7 +149,7 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
  <tbody> 
   <tr> 
    <td> <p> 從2021年4月起，預測性主旨行功能已停止支援。</p><br/>
-   <p>建議您運用AI支援的電子郵件功能，根據歷史參與量度來分析和預測開放率、最佳傳送時間和可能的流失率。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html">瞭解更多</a></p></br>
+   <p>建議您運用AI支援的電子郵件功能，根據歷史參與量度來分析和預測開放率、最佳傳送時間和可能的流失率。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html">了解更多</a></p></br>
      </td> 
   </tr> 
   </tbody> 
@@ -178,7 +178,7 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Creative SDK] 已終止服務。因此，自 Campaign 20.2 版本以來，即不再提供 Campaign Standard 電子郵件中 [!DNL Creative SDK] 提供技術的影像版本。</p></br>
+   <td> <p>[!DNL Adobe Creative SDK]  已終止服務。因此，映像版本由 [!DNL Creative SDK] 自Campaign 20.2版本起，不再提供Campaign Standard電子郵件。</p></br>
    </td> 
   </tr> 
  </tbody> 

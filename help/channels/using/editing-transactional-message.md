@@ -18,24 +18,24 @@ ht-degree: 30%
 
 # 編輯異動訊息 {#editing-transactional-message}
 
-在您建立並發佈事件<!--(the cart abandonment example as explained in [this section](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle))-->後，就會自動建立對應的交易式訊息。
+建立並發佈事件後<!--(the cart abandonment example as explained in [this section](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle))-->，則會自動建立對應的交易式訊息。
 
-設定和發佈事件的步驟顯示在[設定交易式事件](../../channels/using/configuring-transactional-event.md)和[發佈交易式事件](../../channels/using/publishing-transactional-event.md)區段中。
+設定和發佈事件的步驟顯示在 [設定交易式事件](../../channels/using/configuring-transactional-event.md) 和 [發佈交易式事件](../../channels/using/publishing-transactional-event.md) 區段。
 
 以下說明存取、編輯及個人化此訊息的步驟。
 
 >[!IMPORTANT]
 >
->只有具有[Administration](../../administration/using/users-management.md#functional-administrators)角色的使用者才能存取和編輯交易式訊息。
+>僅使用 [管理](../../administration/using/users-management.md#functional-administrators) 角色可以存取及編輯交易式訊息。
 
-訊息準備就緒後，即可測試並發佈。 請參閱[測試交易式訊息](../../channels/using/testing-transactional-message.md)和[交易式訊息生命週期](../../channels/using/publishing-transactional-message.md)。
+訊息準備就緒後，即可測試並發佈。 請參閱 [測試交易式訊息](../../channels/using/testing-transactional-message.md) 和 [交易式訊息生命週期](../../channels/using/publishing-transactional-message.md).
 
 ## 存取交易式訊息 {#accessing-transactional-messages}
 
 若要存取您建立的交易式訊息：
 
-1. 按一下左上角的&#x200B;**Adobe**&#x200B;標誌。
-1. 選擇&#x200B;**[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**。
+1. 按一下 **Adobe** 徽標，在左上角。
+1. 選擇 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
 
    ![](assets/message-center_4.png)
 
@@ -43,7 +43,7 @@ ht-degree: 30%
 
    ![](assets/message-center_message-board.png)
 
-您也可以透過位於對應事件設定畫面左側區域的連結，直接存取交易式訊息。 請參閱[預覽和發佈事件](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
+您也可以透過位於對應事件設定畫面左側區域的連結，直接存取交易式訊息。 請參閱 [預覽和發佈事件](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
 
 ## 個人化交易式訊息 {#personalizing-a-transactional-message}
 
@@ -51,13 +51,13 @@ ht-degree: 30%
 
 >[!NOTE]
 >
->本節說明如何編輯&#x200B;**event-based**&#x200B;交易式訊息。 **profile-based**&#x200B;交易式訊息特異性在](#profile-transactional-message-specificities)下方有詳細的[。
+>本節說明如何編輯 **事件型** 交易式訊息。 此 **設定檔** 交易式訊息特異性會詳細說明 [low](#profile-transactional-message-specificities).
 >
->建立基於事件的交易式訊息的設定步驟顯示在[此區段](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages)中。
+>建立以事件為基礎的交易式訊息的設定步驟顯示於 [本節](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages).
 
-例如，您想要傳送通知給已將產品新增至購物車且離開網站，而不需進行購買的網站使用者。 此範例顯示在[交易式訊息操作原則](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)區段中。
+例如，您想要傳送通知給已將產品新增至購物車且離開網站，而不需進行購買的網站使用者。 此範例顯示在 [交易式訊息傳送操作原則](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) 區段。
 
-1. 按一下 **[!UICONTROL Content]** 區塊以修改訊息的主旨與內容。在此範例中，選取包含影像與文字的任何範本。如需電子郵件內容範本的詳細資訊，請參閱[使用範本設計電子郵件](../../designing/using/using-reusable-content.md#designing-templates)。
+1. 按一下 **[!UICONTROL Content]** 區塊以修改訊息的主旨與內容。在此範例中，選取包含影像與文字的任何範本。如需電子郵件內容範本的詳細資訊，請參閱 [使用範本設計電子郵件](../../designing/using/using-reusable-content.md#designing-templates).
 
    ![](assets/message-center_6.png)
 
@@ -73,7 +73,7 @@ ht-degree: 30%
 
    ![](assets/message-center_7.png)
 
-1. 您也可以讓訊息的內容更豐富。 要執行此操作，請從連結到事件配置的表中添加欄位（請參閱[豐富事件](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)）。 在此示例中，從&#x200B;**[!UICONTROL Profile]**&#x200B;表中選擇&#x200B;**[!UICONTROL Title (salutation)]**&#x200B;欄位，通過&#x200B;**[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**。
+1. 您也可以讓訊息的內容更豐富。 若要這麼做，請新增您連結至事件設定的表格欄位(請參閱 [豐富化活動](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content))。 在此範例中，選取 **[!UICONTROL Title (salutation)]** 欄位 **[!UICONTROL Profile]** 表格 **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**.
 
    ![](assets/message-center_7-enrichment.png)
 
@@ -87,7 +87,7 @@ ht-degree: 30%
 
    ![](assets/message-center_9.png)
 
-   您可以檢查個人化欄位是否符合在測試設定檔中輸入的資訊。如需詳細資訊，請參閱[定義特定測試設定檔](../../channels/using/testing-transactional-message.md#defining-specific-test-profile)。
+   您可以檢查個人化欄位是否符合在測試設定檔中輸入的資訊。有關詳細資訊，請參閱 [定義特定測試設定檔](../../channels/using/testing-transactional-message.md#defining-specific-test-profile).
 
 <!--## Using product listings in a transactional message {#using-product-listings-in-a-transactional-message}
 
@@ -211,28 +211,28 @@ For more on creating a collection and related fields when configuring the event,
 
 ## 設定檔交易式訊息特異性 {#profile-transactional-message-specificities}
 
-您可以根據客戶行銷設定檔傳送交易式訊息，這可讓您運用所有設定檔資訊來個人化訊息內容、使用取消訂閱連結，以及套用行銷類型規則，例如[疲勞規則](../../sending/using/fatigue-rules.md)。
+您可以根據客戶行銷設定檔傳送交易式訊息，這可讓您運用所有設定檔資訊來個人化訊息內容、使用取消訂閱連結，以及套用行銷類型規則，例如 [疲勞規則](../../sending/using/fatigue-rules.md).
 
-* 如需事件型和設定檔交易式訊息之間差異的詳細資訊，請參閱[此區段](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types)。
+* 如需事件型和設定檔交易式訊息之間差異的詳細資訊，請參閱 [本節](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types).
 
-* 在[本節](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages)中詳細說明建立基於配置檔案的交易式消息的配置步驟。
+* 建立以設定檔為基礎的交易式訊息的設定步驟於 [本節](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages).
 
 建立、編輯和個人化設定檔交易式訊息的步驟，大多與事件交易式訊息的步驟相同。
 
 差異列示於下方。
 
 1. [移至建立的交易式訊息，以編輯其內容。](#accessing-transactional-messages)
-1. 在交易式訊息中，按一下 **[!UICONTROL Content]** 區段。除了交易式電子郵件範本，您也可以選擇任何以&#x200B;**[!UICONTROL Profile]**&#x200B;資源為目標的電子郵件範本。
+1. 在交易式訊息中，按一下 **[!UICONTROL Content]** 區段。除了交易式電子郵件範本，您也可以選擇任何以 **[!UICONTROL Profile]** 資源。
 
    ![](assets/message-center_marketing_templates.png)
 
-1. 選取預設的電子郵件範本。與所有行銷電子郵件類似，其中包含&#x200B;**取消訂閱連結**。
+1. 選取預設的電子郵件範本。與所有行銷電子郵件類似，其中包含 **取消訂閱連結**.
 
    ![](assets/message-center_marketing_perso_unsubscription.png)
 
-   有關模板的詳細資訊，請參閱[此部分](../../designing/using/using-reusable-content.md#content-templates)。
+   如需範本的詳細資訊，請參閱 [本節](../../designing/using/using-reusable-content.md#content-templates).
 
-1. 此外，與以即時事件為基礎的設定不同，您擁有&#x200B;**直接存取所有設定檔資訊**&#x200B;以個人化您的訊息。 您可以新增[個人化欄位](../../designing/using/personalization.md#inserting-a-personalization-field)，如同對任何其他標準行銷電子郵件所做的一樣。
+1. 此外，與以即時事件為基礎的設定不同，您有 **直接存取所有設定檔資訊** 個人化您的訊息。 您可以新增 [個人化欄位](../../designing/using/personalization.md#inserting-a-personalization-field) 如同您對任何其他標準行銷電子郵件所做的一樣。
 
 1. 先儲存您的變更再發佈訊息。 如需詳細資訊，請參閱「[發佈交易式訊息](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)」。
 

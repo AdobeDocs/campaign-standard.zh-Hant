@@ -23,11 +23,11 @@ Adobe Campaign 可讓您指派一組角色給使用者，以定義使用者可�
 
 以下各節將詳細介紹特定角色和相應的授權：[瞭解角色](../../administration/using/list-of-roles.md)和[授權](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)。
 
-管理員可從Admin Console管理使用者。 然後，使用者會自動與 Adobe Campaign 同步。如需詳細資訊，請參閱[Admin Console](https://helpx.adobe.com/tw/enterprise/using/users.html)檔案。
+管理員可從Admin Console管理使用者。 然後，使用者會自動與 Adobe Campaign 同步。有關詳細資訊，請參閱 [Admin Console](https://helpx.adobe.com/tw/enterprise/using/users.html) 檔案。
 
 ![](assets/do-not-localize/how-to-video.png) [在影片中探索此功能](#video)
 
-若要在Adobe Campaign中檢視使用者，請按一下左上角的&#x200B;**Adobe**&#x200B;標誌，然後選取&#x200B;**[!UICONTROL Administration > Users & Security > Users]**。
+若要在Adobe Campaign中檢視使用者，請按一下 **Adobe** 徽標，在左上角，然後選擇 **[!UICONTROL Administration > Users & Security > Users]**.
 
 若要從 Adobe Campaign 存取使用者管理介面，請按一下 **[!UICONTROL User administration]**。
 
@@ -43,7 +43,7 @@ Adobe Campaign 可讓您指派一組角色給使用者，以定義使用者可�
 
 此使用者區段並非強制性，而僅代表 Adobe Campaign 最常用的用法。
 
-本節可協助您了解Adobe Campaign使用者的主要類型。 有關用戶可以承擔的特定角色（開始傳送、導出、準備傳送等）的詳細資訊，請參閱[角色清單](../../administration/using/list-of-roles.md)和[管理組和用戶](../../administration/using/managing-groups-and-users.md)頁。
+本節可協助您了解Adobe Campaign使用者的主要類型。 有關使用者可以承擔的特定角色（開始傳送、匯出、準備傳送等）的詳細資訊，請參閱 [角色清單](../../administration/using/list-of-roles.md) 和 [管理群組和使用者](../../administration/using/managing-groups-and-users.md) 頁面。
 
 我們寧可專注於 Adobe Campaign 中不同工作的分割方式，分為三種主要使用者類型：
 
@@ -61,7 +61,7 @@ Adobe Campaign 可讓您指派一組角色給使用者，以定義使用者可�
 
 >[!IMPORTANT]
 >
->只有具有&#x200B;**[!UICONTROL Administration]**&#x200B;角色且可存取&#x200B;**所有**&#x200B;單位的功能管理員才能存取傳送記錄檔、訊息記錄檔、追蹤記錄檔、排除記錄檔、主張記錄檔和訂閱記錄檔。 非管理員使用者可以鎖定這些記錄，但從連結的表格（設定檔、傳送）開始。
+>僅功能管理員，具有 **[!UICONTROL Administration]** 角色和存取權 **全部** 單位可以存取傳送記錄檔、訊息記錄檔、追蹤記錄檔、排除記錄檔、主張記錄檔和訂閱記錄檔。 非管理員使用者可以鎖定這些記錄，但從連結的表格（設定檔、傳送）開始。
 
 功能管理員是唯一可存取 Adobe Campaign 介面之 **[!UICONTROL Administration]** 功能表的使用者。由於這些使用者需要存取技術資源，因此應指派更多進階角色給他們，例如 **[!UICONTROL Administration]** 及 **[!UICONTROL Datamodel]** 現成可用的角色。這些角色會在 **[!UICONTROL Administrators]** 現成可用的安全性群組中結合。如需詳細資訊，請參閱[本區段](../../administration/using/list-of-roles.md)。
 
@@ -120,7 +120,7 @@ Adobe Campaign 可讓您指派一組角色給使用者，以定義使用者可�
 
    ![](assets/create_user_3.png)
 
-1. 從&#x200B;**[!UICONTROL Assign products]**&#x200B;標籤中，為用戶分配一個或多個安全組。 如需安全性群組的詳細資訊，請參閱本[頁面](../../administration/using/managing-groups-and-users.md)。
+1. 從 **[!UICONTROL Assign products]** 標籤中，為用戶分配一個或多個安全組。 如需安全性群組的詳細資訊，請參閱本[頁面](../../administration/using/managing-groups-and-users.md)。
 
    完成設定時，按一下 **[!UICONTROL Save]**。
 
@@ -160,4 +160,4 @@ Adobe Campaign 可讓您指派一組角色給使用者，以定義使用者可�
 
 >[!VIDEO](https://video.tv.adobe.com/v/24671?quality=12)
 
-其他Campaign Standard操作說明影片可在[此處](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant)取得。
+提供其他Campaign Standard作法影片 [此處](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant).

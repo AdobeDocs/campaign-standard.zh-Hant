@@ -24,7 +24,7 @@ ht-degree: 58%
 
 ![](assets/readaudience_activity_example1.png)
 
-* 第一個[讀取對象](../../automating/using/read-audience.md)活動，只要選取介於18至30歲的設定檔，即可擷取和改良金級會員對象。
+* 第一個 [讀取閱聽眾](../../automating/using/read-audience.md) 僅選取介於18至30歲的設定檔，以擷取和改良金級會員對象的活動。
 * 第二個 **[!UICONTROL Read audience]** 活動，只要選取介於 18 至 30 歲的設定檔，即可擷取和改良銀級會員對象。
-* [聯合](../../automating/using/union.md)活動，將來自&#x200B;**[!UICONTROL Read audiences]**&#x200B;活動的母體聯合為一個最終母體。
-* [電子郵件傳送](../../automating/using/email-delivery.md)活動，會將電子郵件傳送至來自&#x200B;**[!UICONTROL Union]**&#x200B;活動的母體。
+* A [聯合](../../automating/using/union.md) 活動可聯合來自 **[!UICONTROL Read audiences]** 活動歸入最終人口。
+* 安 [電子郵件傳送](../../automating/using/email-delivery.md) 將電子郵件傳送至來自 **[!UICONTROL Union]** 活動。

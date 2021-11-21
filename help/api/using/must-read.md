@@ -31,13 +31,13 @@ ht-degree: 0%
 
 ## 資源表示
 
-所有API資源都可在&#x200B;**JSON**&#x200B;中，以URL副檔名或在HTTP Accept Header中使用：
+所有API資源皆可在 **JSON** 具有URL副檔名或位於HTTP Accept Header內：
 
 `GET /profileAndServices/<resourceName>.json`
 
 >[!NOTE]
 >
->若URL中沒有副檔名，**json格式是content-type的預設格式**。
+>若URL中沒有副檔名， **json格式為預設格式** （針對內容類型）。
 
 <br/>
 
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 如果鍵值與原始鍵不同，或者您使用自己的業務鍵作為URI，而不是PATCH提供的業務鍵，則無法使用Adobe操作修改自定義鍵。
 
-僅對&#x200B;**頂層配置檔案資源**&#x200B;使用自定義鍵。 URL由API傳回，且絕不應由您自己建立。
+使用自訂金鑰 **頂層設定檔資源** 只有。 URL由API傳回，且絕不應由您自己建立。
 
 <br/>
 

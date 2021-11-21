@@ -21,11 +21,11 @@ ht-degree: 43%
 
 ![](assets/wkf_in_app_1.png)
 
-**應用程式內傳送**&#x200B;活動可讓您設定在工作流程中傳送應用程式內訊息。 應用程式內傳訊功能可讓您在使用者於應用程式內處於作用中狀態時顯示訊息。 如需應用程式內傳送的詳細資訊，請參閱此[區段](../../channels/using/about-in-app-messaging.md)。
+此 **應用程式內傳送** 活動可讓您設定在工作流程中傳送應用程式內訊息。 應用程式內傳訊功能可讓您在使用者於應用程式內處於作用中狀態時顯示訊息。 如需應用程式內傳送的詳細資訊，請參閱 [節](../../channels/using/about-in-app-messaging.md).
 
 ## 使用內容 {#context-of-use}
 
-**[!UICONTROL In-App delivery]**&#x200B;活動通常用於自動傳送應用程式內訊息給在相同工作流程中計算的目標對象。
+此 **[!UICONTROL In-App delivery]** 活動通常用於自動傳送應用程式內訊息給在相同工作流程中計算的目標對象。
 
 收件者是透過查詢、交叉點等定位活動，在相同工作流程中定義活動上游的活動。
 
@@ -33,11 +33,11 @@ ht-degree: 43%
 
 ## 設定 {#configuration}
 
-1. 將&#x200B;**[!UICONTROL Query]**&#x200B;活動拖放至工作流程。 請注意，**[!UICONTROL Properties]**&#x200B;標籤中的&#x200B;**[!UICONTROL Query]**&#x200B;活動目標定位維度需要根據步驟4中選擇的範本更新：
+1. 拖放 **[!UICONTROL Query]** 活動。 請注意， **[!UICONTROL Query]** 活動鎖定目標維度，位於 **[!UICONTROL Properties]** 索引標籤需要根據步驟4中選擇的範本更新：
 
-   * 對於&#x200B;**[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**&#x200B;範本，目標維度應設為&#x200B;**[!UICONTROL mobileApp (mobileAppV5)]**。
-   * 對於&#x200B;**[!UICONTROL Target users based on their Campaign profile (inAppProfile)]**&#x200B;範本，目標維度應設為&#x200B;**[!UICONTROL profile (profile)]**。
-   * 對於&#x200B;**[!UICONTROL Target users based on their Mobile profile (inApp)]**&#x200B;範本，目標維度應設為&#x200B;**[!UICONTROL subscriptions to an application (nms:appSubscriptionRcp:appSubscriptionRcpDetail)]**。
+   * 目標維度應設為 **[!UICONTROL mobileApp (mobileAppV5)]** 針對 **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]** 範本。
+   * 目標維度應設為 **[!UICONTROL profile (profile)]** 針對 **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]** 範本。
+   * 目標維度應設為 **[!UICONTROL subscriptions to an application (nms:appSubscriptionRcp:appSubscriptionRcpDetail)]** 針對 **[!UICONTROL Target users based on their Mobile profile (inApp)]** 範本。
 
 1. 將 **[!UICONTROL In-App delivery]** 活動拖放至工作流程中。
 1. 選取活動，然後使用所顯示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
@@ -48,7 +48,7 @@ ht-degree: 43%
 
    ![](assets/wkf_in_app_3.png)
 
-1. 選取應用程式內訊息類型。 這取決於&#x200B;**[!UICONTROL Query]**&#x200B;活動中鎖定的資料。
+1. 選取應用程式內訊息類型。 這取決於 **[!UICONTROL Query]** 活動。
 
    * **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]**:此訊息類型可讓您定位已訂閱您行動應用程式的Adobe Campaign設定檔，並使用Campaign中可用的設定檔屬性來個人化應用程式內訊息。
    * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**:此訊息類型可讓您傳送訊息給行動應用程式的所有使用者，即使他們在Campaign中沒有現有的設定檔亦然。
@@ -56,13 +56,13 @@ ht-degree: 43%
 
    ![](assets/wkf_in_app_4.png)
 
-1. 輸入您的應用程式內訊息屬性，並在&#x200B;**[!UICONTROL Associate a Mobile App to a delivery]**&#x200B;欄位中選取您的行動應用程式。
+1. 輸入您的應用程式內訊息屬性，然後在 **[!UICONTROL Associate a Mobile App to a delivery]** 欄位。
 1. 在 **[!UICONTROL Triggers]** 索引標籤中，拖放將觸發訊息的事件。有三類事件可供使用：
-1. 定義您的應用程式內內容。 請參閱關於[應用程式內自訂](../../channels/using/customizing-an-in-app-message.md)的區段。
+1. 定義您的應用程式內內容。 請參閱 [應用程式內自訂](../../channels/using/customizing-an-in-app-message.md).
 1. 依預設，**[!UICONTROL In-App delivery]** 活動不包含任何外站轉變。如果要將出站轉變新增到 **[!UICONTROL In-App delivery]** 活動中，請轉至高階活動選項的　**[!UICONTROL General]**　索引標籤（活動快速操作中的　![](assets/dlv_activity_params-24px.png)　按鈕），然後核取以下選項之一：
 
    * **[!UICONTROL Add outbound transition without the population]**：這可讓您產生一個外站轉變，其中包含與入站轉變完全相同的母體。
-   * **[!UICONTROL Add outbound transition with the population]**:這可讓您產生一個外站轉變，其中包含傳送訊息的母體。傳遞準備期間排除的目標成員會從此轉變中排除。
+   * **[!UICONTROL Add outbound transition with the population]**:這可讓您產生一個外站轉變，其中包含傳送訊息的母體。 傳遞準備期間排除的目標成員會從此轉變中排除。
 
    ![](assets/wkf_in_app_5.png)
 
@@ -76,4 +76,4 @@ ht-degree: 43%
 
 您可以在應用程式的行銷活動清單中存取在工作流程中建立的傳送。您可以使用控制面板來檢視工作流程的執行狀態。推播通知摘要窗格中的連結可讓您直接存取連結的元素（工作流程、促銷活動等）。
 
-在可從行銷活動清單存取的父傳送中，您可以檢視已處理的傳送總數（根據&#x200B;**[!UICONTROL In-App delivery]**&#x200B;活動設定時指定的匯總期間）。 若要這麼做，請選取 ![](assets/wkf_dlv_detail_button.png)，以開啟上層傳送 **[!UICONTROL Deployment]** 區塊的詳細資訊檢視。
+在可從行銷活動清單存取的父傳送中，您可以檢視已處理的傳送總數(根據 **[!UICONTROL In-App delivery]** 活動已設定)。 若要這麼做，請選取 ![](assets/wkf_dlv_detail_button.png)，以開啟上層傳送 **[!UICONTROL Deployment]** 區塊的詳細資訊檢視。

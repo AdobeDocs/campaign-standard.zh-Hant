@@ -38,7 +38,7 @@ ht-degree: 93%
 
 ### 回溯相容性注意事項 {#from-beta-to-ga}
 
-在Campaign Standard20.4版本中，http回應資料大小限制和回應逾時護欄已降低，以符合最佳實務 — 請參閱[限制和護欄](#guardrails)。 這些護欄修改不會對現有的外部 API 活動產生影響；因此，建議您在所有工作流程中，以新版本取代現有的外部 API 活動。
+在Campaign Standard20.4版本中，http回應資料大小限制和回應逾時護欄已降低，以符合最佳實務 — 請參閱 [限制和護欄](#guardrails). 這些護欄修改不會對現有的外部 API 活動產生影響；因此，建議您在所有工作流程中，以新版本取代現有的外部 API 活動。
 
 取代外部 API 活動時，將新的外部 API 活動新增至工作流程、手動複製設定詳細資訊，然後刪除舊活動。
 
@@ -114,13 +114,13 @@ JSON 剖析器的設計可容納標準 JSON 結構模式類型，但有些例外
 
 ### 執行
 
-此索引標籤可讓您定義連接端點。**[!UICONTROL URL]**&#x200B;欄位可讓您定義Campaign Standard將與之通訊的&#x200B;**HTTPS端點**。
+此索引標籤可讓您定義連接端點。此 **[!UICONTROL URL]** 欄位可讓您定義 **HTTPS端點** 該Campaign Standard會與之溝通。
 
 如果端點需要，可使用兩種驗證方法：
 
-* 基本驗證：在&#x200B;**[!UICONTROL Request Header(s)]**&#x200B;部分輸入您的用戶名/密碼資訊。
+* 基本驗證：在 **[!UICONTROL Request Header(s)]** 區段。
 
-* OAuth驗證：按一下外部帳戶中的&#x200B;**[!UICONTROL Use connection parameters defined in an external account]**，您可以選取定義OAuth驗證的外部帳戶。 如需詳細資訊，請參閱[外部帳戶](../../administration/using/external-accounts.md)。
+* OAuth驗證：按一下 **[!UICONTROL Use connection parameters defined in an external account]** 在外部帳戶中，您可以選取定義OAuth驗證的外部帳戶。 如需詳細資訊，請參閱[外部帳戶](../../administration/using/external-accounts.md)。
 
 ![](assets/externalAPI-execution.png)
 

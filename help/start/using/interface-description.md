@@ -38,7 +38,7 @@ Adobe Campaign 可讓您導覽不同的功能表和畫面，以管理您的行�
 * **[!UICONTROL Create an SMS]** 卡片會帶您前往簡訊建立助理。此助理可以讓您選取簡訊類型、選取訊息收件者並定義內容。請參閱[建立簡訊](../../channels/using/creating-an-sms-message.md)區段。
 * 此 **[!UICONTROL Create a Direct mail]** 卡片會將您帶到直接郵件建立助理。請參閱[建立直接郵件](../../channels/using/creating-the-direct-mail.md)區段。
 * 此 **[!UICONTROL Create a push notification]** 卡片會帶您前往通知建立助理。此助理可以讓您選取推播通知類型、選取訊息收件者並定義您的內容。請參閱[建立推播通知](../../channels/using/preparing-and-sending-a-push-notification.md)區段。
-* **[!UICONTROL Create an In-App message]**&#x200B;卡片會帶您前往應用程式內建立助理。 此助理可讓您選取您要建立的應用程式內訊息類型、定義其屬性、對象和內容。 請參閱[建立應用程式內訊息](../../channels/using/about-in-app-messaging.md)區段。
+* 此 **[!UICONTROL Create an In-App message]** 卡片會帶您前往應用程式內建立助理。 此助理可讓您選取您要建立的應用程式內訊息類型、定義其屬性、對象和內容。 請參閱 [建立應用程式內訊息](../../channels/using/about-in-app-messaging.md) 區段。
 * 此 **[!UICONTROL Marketing activities]** 卡片會帶您進入所有活動、方案與行銷活動的完整清單，尤其是電子郵件、簡訊、工作流程和登錄頁面。然後，您可在此處依名稱、日期、狀態或活動類型進行搜尋並篩選元素。如需詳細資訊，請參閱[行銷活動清單](../../start/using/marketing-activities.md#about-marketing-activities)區段。
 * 此 **[!UICONTROL Programs & campaigns]** 卡片會帶您進入可以建立與管理行銷活動的方案清單。請參閱[方案清單](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns)。
 * 此 **[!UICONTROL Timeline]** 卡片會直接帶您進入行銷活動的互動式時間表，您可以在其中諮詢目前的方案及其內容。請參閱[時間表](../../start/using/timeline.md)。
@@ -51,38 +51,38 @@ Adobe Campaign 可讓您導覽不同的功能表和畫面，以管理您的行�
 
 導覽原則為：
 
-* 頁面左上角的&#x200B;**Adobe**&#x200B;標誌可讓您存取進階功能和設定。 功能表視您的設定檔與權限。
+* 此 **Adobe** 此頁面左上角的標誌可讓您存取進階功能和設定。 功能表視您的設定檔與權限。
 
    進階功能表會顯示在[進階功能表](#advanced-menu)區段中。
 
 * 此 **[!UICONTROL Home]** 連結允許您顯示 Adobe Campaign 首頁。
 * 這些 **[!UICONTROL Marketing activities]**、**[!UICONTROL Programs & Campaigns]**、**[!UICONTROL Profiles]**、**[!UICONTROL Audiences]** 和 **[!UICONTROL Reports]** 連結可以讓您存取與這些功能連結的檢視。
-* 此&#x200B;**解決方案切換器**&#x200B;圖示可讓您在組織之間切換，或切換至其他應用程式。
-* **[!UICONTROL Help]**&#x200B;圖示在](#help)下方描述。[
+* 此 **解決方案切換器** 圖示可讓您在組織之間或切換至不同的應用程式。
+* 此 **[!UICONTROL Help]** 表徵圖 [low](#help).
 * 此&#x200B;**通知**&#x200B;圖示會顯示最新警報或資訊。
-* 此&#x200B;**使用者**&#x200B;圖示可讓您顯示連結至設定檔的資訊。如果需要&#x200B;**[!UICONTROL Sign out]**，請使用此圖示。
+* 此&#x200B;**使用者**&#x200B;圖示可讓您顯示連結至設定檔的資訊。如果您需要，請使用此圖示 **[!UICONTROL Sign out]**.
 
 ### 說明 {#help}
 
-右上角的&#x200B;**Help**&#x200B;圖示會將Adobe Experience League帶入產品中。
+在右上角， **說明** 圖示將Adobe Experience League帶入產品中。
 
 ![](assets/ux_help.png)
 
-使用&#x200B;**[!UICONTROL Search]**&#x200B;欄位查找指南。 搜尋結果包括檔案和說明文章、社群論壇的結果和影片內容，讓您更輕鬆地存取更多內容，以協助您充份運用應用程式。
+使用 **[!UICONTROL Search]** 欄位以尋找指引。 搜尋結果包括檔案和說明文章、社群論壇的結果和影片內容，讓您更輕鬆地存取更多內容，以協助您充份運用應用程式。
 
 三個標籤可協助您尋找說明和協助：
 
-1. **[!UICONTROL Help]**&#x200B;標籤包含：
+1. 此 **[!UICONTROL Help]** 索引標籤包含：
    * 快速存取Adobe Campaign Standard檔案及內容連結。
-   * **[!UICONTROL Learning]**&#x200B;連結，可讓您存取Adobe Campaign課程庫。
-   * **[!UICONTROL Community]**&#x200B;連結，可存取Campaign上專屬的論壇。
-   * 直接存取：說明中心、客戶服務、Experience Cloud產品狀態、開發人員連線、發行說明、發行計畫和&#x200B;**[!UICONTROL About]**&#x200B;畫面。
-1. **[!UICONTROL Support]**&#x200B;標籤可讓您開啟支援案例，並透過電話或Twitter與我們連絡。
-1. **[!UICONTROL Feedback]**&#x200B;標籤可讓您更輕鬆地回報問題或分享您的想法。
+   * a **[!UICONTROL Learning]** 連結可讓您存取Adobe Campaign課程庫。
+   * a **[!UICONTROL Community]** 連結以存取Campaign專屬的論壇。
+   * 直接存取：說明中心、客戶服務、Experience Cloud產品狀態、開發人員連線、發行說明、發行計畫和 **[!UICONTROL About]** 螢幕。
+1. 此 **[!UICONTROL Support]** 標籤可讓您開啟支援案例，並透過電話或Twitter與我們連絡。
+1. 此 **[!UICONTROL Feedback]**  標籤可讓您更輕鬆地報告問題或分享您的想法。
 
 ## 進階功能表 {#advanced-menu}
 
-按一下每個畫面左上角的&#x200B;**Adobe Campaign**&#x200B;圖示，即可顯示進階功能表。 進階功能表可能會依您的合約與使用者權限而有所不同。
+按一下 **Adobe Campaign** 圖示，即可在每個畫面的左上角取得Advertising Cloud的說明。 進階功能表可能會依您的合約與使用者權限而有所不同。
 
 此功能表可讓您導覽至特定功能與設定。
 

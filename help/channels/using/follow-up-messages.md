@@ -19,7 +19,7 @@ ht-degree: 2%
 
 後續訊息是預先定義的行銷傳送範本，可用於工作流程，以傳送其他通訊給特定交易式訊息的收件者。
 
-讓我們重複使用[交易式訊息操作原則](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)區段中所述的範例：購物車放棄電子郵件會傳送給將產品新增至購物車，但未進行購買便離開網站的網站使用者。
+讓我們重複使用 [交易式訊息傳送操作原則](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) 小節：購物車放棄電子郵件會傳送給將產品新增至購物車，但未進行購買便離開網站的網站使用者。
 
 您想要傳送好記提醒給收到購物車放棄通知，但三天後未開啟通知的所有客戶。 他們將會收到後續訊息，其依據是第一封電子郵件中所使用的相同資料。
 
@@ -27,24 +27,24 @@ ht-degree: 2%
 
 若要傳送後續訊息，您必須先相應地設定與已接收的交易式訊息相對應的事件。
 
-1. 使用您建立的事件設定，以傳送事件交易式訊息。 請參閱[設定交易式事件](../../channels/using/configuring-transactional-event.md)。
-1. 設定事件時，請在發佈事件之前勾選&#x200B;**[!UICONTROL Create follow-up delivery template for this event]**&#x200B;方塊。
+1. 使用您建立的事件設定，以傳送事件交易式訊息。 請參閱 [設定交易式事件](../../channels/using/configuring-transactional-event.md).
+1. 設定事件時，請核取 **[!UICONTROL Create follow-up delivery template for this event]** 方塊，再發佈事件。
 
    ![](assets/message-center_follow-up-checkbox.png)
 
-1. [預覽和發佈事件](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)。
+1. [預覽和發佈事件](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
 
-發佈事件後，系統會自動建立連結至新事件的交易式訊息和後續傳送範本。 在[本節](#sending-a-follow-up-message)中詳細說明了發送後續消息的步驟。
+發佈事件後，系統會自動建立連結至新事件的交易式訊息和後續傳送範本。 如需後續訊息的傳送步驟，請參閱 [本節](#sending-a-follow-up-message).
 
 ## 存取後續訊息 {#accessing-the-follow-up-messages}
 
-若要處理工作流程中的事件，需要傳遞範本。 不過，發佈事件時，建立的[交易式訊息](../../channels/using/editing-transactional-message.md)無法作為範本使用。 因此，您需要建立特定的後續傳送範本，專門設計以支援此事件類型，並用作工作流程中的範本。
+若要處理工作流程中的事件，需要傳遞範本。 不過，發佈事件時， [異動訊息](../../channels/using/editing-transactional-message.md) 建立的無法作為範本使用。 因此，您需要建立特定的後續傳送範本，專門設計以支援此事件類型，並用作工作流程中的範本。
 
 若要存取此範本：
 
-1. 按一下左上角的&#x200B;**Adobe**&#x200B;標誌。
-1. 選擇&#x200B;**[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**。
-1. 勾選左窗格中的&#x200B;**[!UICONTROL Follow-up messages]**&#x200B;方塊。
+1. 按一下 **Adobe** 徽標，在左上角。
+1. 選擇 **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
+1. 檢查 **[!UICONTROL Follow-up messages]** 框。
 
    ![](assets/message-center_follow-up-search.png)
 
@@ -52,7 +52,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->只有具有[Administration](../../administration/using/users-management.md#functional-administrators)角色的使用者才能存取和編輯交易式訊息。
+>僅使用 [管理](../../administration/using/users-management.md#functional-administrators) 角色可以存取及編輯交易式訊息。
 
 ## 傳送後續訊息 {#sending-a-follow-up-message}
 
@@ -62,17 +62,17 @@ ht-degree: 2%
 
 1. 存取行銷活動清單並建立新的工作流程。
 
-   請參閱[建立工作流](../../automating/using/building-a-workflow.md#creating-a-workflow)。
+   請參閱 [建立工作流程](../../automating/using/building-a-workflow.md#creating-a-workflow).
 
-1. 將&#x200B;**[!UICONTROL Scheduler]**&#x200B;活動拖放至工作流程並開啟。 將執行頻率設為一天一次。
+1. 拖放 **[!UICONTROL Scheduler]** 活動並開啟至工作流程。 將執行頻率設為一天一次。
 
-   調度程式活動顯示在[調度程式](../../automating/using/scheduler.md)部分中。
+   排程器活動會顯示在 [排程器](../../automating/using/scheduler.md) 區段。
 
-1. 將&#x200B;**[!UICONTROL Query]**&#x200B;活動拖放至工作流程並開啟。
+1. 拖放 **[!UICONTROL Query]** 活動並開啟至工作流程。
 
-   「查詢」活動顯示在[Query](../../automating/using/query.md)區段中。
+   「查詢」活動會顯示在 [查詢](../../automating/using/query.md) 區段。
 
-1. 若要對設定檔資源以外的資源執行查詢，請前往活動的&#x200B;**[!UICONTROL Properties]**&#x200B;標籤，然後按一下&#x200B;**[!UICONTROL Resource]**&#x200B;下拉式清單。
+1. 若要對設定檔資源以外的資源執行查詢，請前往活動的 **[!UICONTROL Properties]** ，然後按一下 **[!UICONTROL Resource]** 下拉式清單。
 
    ![](assets/message-center_follow-up-query-properties.png)
 
@@ -84,35 +84,35 @@ ht-degree: 2%
 
    ![](assets/message-center_follow-up-query-resource.png)
 
-1. 前往活動的&#x200B;**[!UICONTROL Target]**&#x200B;標籤，並將&#x200B;**[!UICONTROL Delivery logs (logs)]**&#x200B;元素從浮動視窗拖放至工作區。
+1. 前往活動的 **[!UICONTROL Target]** 標籤，並拖放 **[!UICONTROL Delivery logs (logs)]** 元素（從浮動視窗移入工作區）。
 
    ![](assets/message-center_follow-up-delivery-logs.png)
 
-   選擇&#x200B;**[!UICONTROL Exists]**&#x200B;以定位所有收到電子郵件的客戶。
+   選擇 **[!UICONTROL Exists]** 定位收到電子郵件的所有客戶。
 
    ![](assets/message-center_follow-up-delivery-logs-exists.png)
 
-1. 將&#x200B;**[!UICONTROL Tracking logs (tracking)]**&#x200B;元素從浮動視窗移至工作區，並選取&#x200B;**[!UICONTROL Does not exist]**&#x200B;來鎖定所有未開啟電子郵件的客戶。
+1. 移動 **[!UICONTROL Tracking logs (tracking)]** 從浮動視窗到工作區的元素，並選取 **[!UICONTROL Does not exist]** 定位未開啟電子郵件的所有客戶。
 
    ![](assets/message-center_follow-up-delivery-and-tracking-logs.png)
 
-1. 從浮動視窗將您要定位的事件（此範例中為&#x200B;**購物車放棄**）拖放至工作區。 然後定義規則，以定位三天前傳送的所有訊息。
+1. 拖放您正在定位的事件(**放棄購買** 在此範例中)從浮動視窗移入工作區。 然後定義規則，以定位三天前傳送的所有訊息。
 
    ![](assets/message-center_follow-up-created.png)
 
    這表示所有在執行工作流程三天前收到交易式訊息但尚未開啟的收件者，都會設為目標。
 
-   按一下&#x200B;**[!UICONTROL Confirm]**&#x200B;以儲存查詢。
+   按一下 **[!UICONTROL Confirm]** ，保存查詢。
 
-1. 將&#x200B;**電子郵件傳送**&#x200B;活動拖放至工作流程中。
+1. 拖放 **電子郵件傳送** 活動移入工作流程。
 
-   電子郵件傳送活動顯示在[電子郵件傳送](../../automating/using/email-delivery.md)區段中。
+   電子郵件傳送活動會顯示在 [電子郵件傳送](../../automating/using/email-delivery.md) 區段。
 
    ![](assets/message-center_follow-up-workflow.png)
 
-   您也可以使用[SMS傳送](../../automating/using/sms-delivery.md)或[推播通知傳送](../../automating/using/push-notification-delivery.md)活動。 在此情況下，請務必在建立事件設定時選取&#x200B;**[!UICONTROL Mobile (SMS)]**&#x200B;或&#x200B;**[!UICONTROL Mobile application]**&#x200B;通道。 請參閱[建立事件](../../channels/using/configuring-transactional-event.md#creating-an-event)。
+   您也可以使用 [簡訊傳送](../../automating/using/sms-delivery.md) 或 [推播通知傳送](../../automating/using/push-notification-delivery.md) 活動。 在此情況下，請務必選取 **[!UICONTROL Mobile (SMS)]** 或 **[!UICONTROL Mobile application]** 建立事件設定時的通道。 請參閱[建立事件](../../channels/using/configuring-transactional-event.md#creating-an-event)。
 
-1. 開啟&#x200B;**電子郵件傳送**&#x200B;活動。 在建立精靈中，核取&#x200B;**[!UICONTROL Follow-up messages]**&#x200B;方塊，並選取發佈事件後建立的後續傳送範本。
+1. 開啟 **電子郵件傳送** 活動。 在建立精靈中，核取 **[!UICONTROL Follow-up messages]** 方塊，然後選取發佈事件後建立的後續傳送範本。
 
    ![](assets/message-center_follow-up-template.png)
 
@@ -120,7 +120,7 @@ ht-degree: 2%
 
    ![](assets/message-center_follow-up-content.png)
 
-1. 通過選擇&#x200B;**[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**，查找建立事件時定義的欄位。 請參閱[個人化交易式訊息](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message)。
+1. 透過選取 **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**. 請參閱 [個人化交易式訊息](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
 
    ![](assets/message-center_follow-up-personalization.png)
 
@@ -132,4 +132,4 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->如果您在建立事件設定時選取了&#x200B;**[!UICONTROL Profile]**&#x200B;目標維度，後續訊息也會運用Adobe Campaign行銷資料庫。 請參閱[設定檔交易式訊息](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities)。
+>如果您選取 **[!UICONTROL Profile]** 建立事件設定時的目標維度，後續訊息也會運用Adobe Campaign行銷資料庫。 請參閱[設定檔交易式訊息](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities)。

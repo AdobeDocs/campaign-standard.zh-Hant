@@ -17,7 +17,7 @@ ht-degree: 11%
 
 # 更新組織單位屬性 {#updating-organizational-unit-attributes}
 
-1. 在&#x200B;**orgUnitBase**&#x200B;資源上執行GET請求以檢索組織單位PKey。
+1. 在 **orgUnitBase** 用於檢索組織單位PKey的資源。
 1. 在組織單位上執行PATCH請求，並在裝載中更新屬性。
 
 <br/>

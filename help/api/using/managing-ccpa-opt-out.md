@@ -17,7 +17,7 @@ ht-degree: 4%
 
 # 管理 CCPA 選擇退出 {#managing-ccpa-optout}
 
-可使用&#x200B;**ccpaOptOut**&#x200B;設定檔屬性和「true」或「false」值來監控及管理設定檔的CCPA選擇退出狀態：
+可以使用監控和管理設定檔的CCPA選擇退出狀態 **ccpaOptOut** 設定檔屬性和「true」或「false」值：
 
 `"ccpaOptOut": <value>`
 
@@ -28,7 +28,7 @@ ht-degree: 4%
 >
 >「CCPA選擇退出」屬性僅從19.4版開始可用。對於19.3環境，您需要擴充設定檔資源並新增布林值欄位。 此欄位將會以所選標籤新增至API。 建議您使用「選擇退出CCPA」。
 >
->如需詳細資訊，請參閱[管理隱私權要求檔案](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa)。
+>有關詳細資訊，請參閱 [管理隱私權要求檔案](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa).
 
 <br/>
 

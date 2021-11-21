@@ -26,7 +26,7 @@ ht-degree: 83%
 
 ## 透過電子郵件選取可聯絡的收件者{#selecting-recipients-contactable-via-email}
 
-1. 在&#x200B;**[!UICONTROL Activities]** > **[!UICONTROL Targeting]**&#x200B;中，拖放[Query](../../automating/using/query.md)活動![](assets/query.png)。
+1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**，拖放 [查詢](../../automating/using/query.md) 活動 ![](assets/query.png).
 1. 連按兩下此活動。
 1. 在 **[!UICONTROL Shortcuts]**&#x200B;中，拖放 **[!UICONTROL Profiles]** 並選取包含運算子 **[!UICONTROL is not empty]** 的欄位 **[!UICONTROL email]**。
 1. 在 **[!UICONTROL Shortcuts]**&#x200B;中，拖放 **[!UICONTROL Profiles]** 並選取包含值 **[!UICONTROL no]** 的欄位 **[!UICONTROL no longer contact by email]**。
@@ -36,7 +36,7 @@ ht-degree: 83%
 
 ## 建立細分活動{#creating-a-segmentation-activity}
 
-1. 拖放[Segmentation](../../automating/using/segmentation.md)活動並連按兩下。
+1. 拖放 [區段](../../automating/using/segmentation.md) 活動並連按兩下。
 1. 按一下區段，然後開啟轉變，以定位第一個城市中的人。這裡是波士頓。
 1. 拖放 **[!UICONTROL Location]** 並選取包含運算子 **[!UICONTROL equals to]** 及值 **[!UICONTROL Boston]** 的 **[!UICONTROL City]**。
 注意：若要聯絡所有進入波士頓的人，請忽略大小寫選項中區分大小寫的選項。
@@ -48,7 +48,7 @@ ht-degree: 83%
 
 ## 建立電子郵件傳遞{#creating-an-email-delivery}
 
-1. 在&#x200B;**[!UICONTROL Activities]** > **[!UICONTROL Channels]**&#x200B;中，在每個區段後拖放[電子郵件傳送](../../automating/using/email-delivery.md)活動。
+1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Channels]**，拖放 [電子郵件傳送](../../automating/using/email-delivery.md) 活動。
 1. 按一下活動並選取 ![](assets/edit_darkgrey-24px.png) 以編輯。
 1. 選取 **[!UICONTROL Simple email]** 並按一下 **[!UICONTROL Next]**。
 1. 選取電子郵件範本，然後按一下 **[!UICONTROL Next]**。

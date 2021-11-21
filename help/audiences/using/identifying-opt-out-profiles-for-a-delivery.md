@@ -17,7 +17,7 @@ ht-degree: 41%
 
 # 識別傳遞的選擇退出設定檔{#identifying-opt-out-profiles-for-a-delivery}
 
-特定傳送的退出設定檔會在準備階段後列出，位於傳送控制面板的&#x200B;**[!UICONTROL Exclusion logs]**&#x200B;標籤中。
+特定傳送的退出設定檔會在準備階段之後列出，位於 **[!UICONTROL Exclusion logs]** 標籤。
 
 ![](assets/exclusion_blocklisting.png)
 

@@ -28,20 +28,20 @@ ht-degree: 41%
 
 1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Targeting]** 中，拖放[查詢](../../automating/using/query.md)活動。
 1. 連按兩下此活動。
-1. 在&#x200B;**[!UICONTROL Shortcuts]**&#x200B;中，拖放&#x200B;**[!UICONTROL Profiles]**&#x200B;並使用運算子&#x200B;**[!UICONTROL is not empty]**&#x200B;選取&#x200B;**[!UICONTROL email]**。
-1. 在&#x200B;**[!UICONTROL Shortcuts]**&#x200B;中，拖放&#x200B;**[!UICONTROL Profiles]**&#x200B;並選擇&#x200B;**[!UICONTROL no longer contact by email]**&#x200B;並選擇值&#x200B;**[!UICONTROL no]**。
+1. 在 **[!UICONTROL Shortcuts]**，拖放 **[!UICONTROL Profiles]** 選取 **[!UICONTROL email]** 與運算子 **[!UICONTROL is not empty]**.
+1. 在 **[!UICONTROL Shortcuts]**，拖放 **[!UICONTROL Profiles]** 選取 **[!UICONTROL no longer contact by email]** 值 **[!UICONTROL no]**.
 1. 按一下&#x200B;**[!UICONTROL Confirm]**。
 
 ![](assets/wf-complement-query.png)
 
 ## 建立細分活動 {#create-a-segmentation-activity}
 
-1. 在&#x200B;**[!UICONTROL Activities]** > **[!UICONTROL Targeting]**&#x200B;中，拖放[Segmentation](../../automating/using/segmentation.md)活動並連按兩下。
-1. 將游標暫留在區段上，然後按一下![](assets/edit_darkgrey-24px.png)以定位今年在資料庫中新增的客戶。
-1. 拖放&#x200B;**[!UICONTROL Profiles]**，並選取具有篩選器類型&#x200B;**[!UICONTROL Relative]**&#x200B;的&#x200B;**[!UICONTROL Created]**。
-1. 將&#x200B;**[!UICONTROL Level of precision]**&#x200B;變更為&#x200B;**[!UICONTROL Year]**&#x200B;並選取&#x200B;**[!UICONTROL This year]**。
+1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**，拖放 [區段](../../automating/using/segmentation.md) 活動並連按兩下。
+1. 將滑鼠指標暫留在區段上，然後按一下 ![](assets/edit_darkgrey-24px.png) 目標客戶今年在資料庫中新增。
+1. 拖放 **[!UICONTROL Profiles]** 選取 **[!UICONTROL Created]** 具有篩選類型 **[!UICONTROL Relative]**.
+1. 變更 **[!UICONTROL Level of precision]** to **[!UICONTROL Year]** 選取 **[!UICONTROL This year]**.
 1. 按兩下 **[!UICONTROL Confirm]**。
-1. 在&#x200B;**[!UICONTROL Advanced Options]**&#x200B;中，檢查&#x200B;**[!UICONTROL Generate complement]**&#x200B;以建立以剩餘收件者為目標的區段。
+1. 在 **[!UICONTROL Advanced Options]**，檢查 **[!UICONTROL Generate complement]** 以建立以剩餘收件者為目標的區段。
 1. 按一下&#x200B;**[!UICONTROL Confirm]**。
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 
@@ -49,11 +49,11 @@ ht-degree: 41%
 
 >[!NOTE]
 >
->若要觀察規則的結構，請按一下&#x200B;**[!UICONTROL Advanced Mode]**。
+>若要觀察規則的結構，請按一下 **[!UICONTROL Advanced Mode]**.
 
 ## 建立電子郵件傳送 {#create-an-email-delivery}
 
-1. 在&#x200B;**[!UICONTROL Activities]** > **[!UICONTROL Channels]**&#x200B;中，在每個區段後拖放[電子郵件傳送](../../automating/using/email-delivery.md)活動。
+1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Channels]**，拖放 [電子郵件傳送](../../automating/using/email-delivery.md) 活動。
 1. 按一下活動並選取 ![](assets/edit_darkgrey-24px.png) 以編輯。
 1. 選取 **[!UICONTROL Single send email]** 並按一下 **[!UICONTROL Next]**。
 1. 選取電子郵件範本，然後按一下 **[!UICONTROL Next]**。

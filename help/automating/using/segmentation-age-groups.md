@@ -26,9 +26,9 @@ ht-degree: 66%
 
 工作流程由下列元素組成：
 
-* [排程器活動](../../automating/using/segmentation.md)以指定工作流的執行日期。
-* [Query](../../automating/using/query.md)活動，用於定位已輸入其生日和電子郵件地址的人員的設定檔。
-* [分段](../../automating/using/segmentation.md)活動，用於建立分為不同出站轉變的3個區段：18-25-year年、26-32-year年和超過32歲的設定檔。 區段會依據下列參數定義：
+* A [排程器活動](../../automating/using/segmentation.md) 指定工作流的執行日期。
+* A [查詢](../../automating/using/query.md) 已輸入其生日及電子郵件地址之人員的定位設定檔的活動。
+* A [區段](../../automating/using/segmentation.md) 建立3個分為不同出站轉變的區段的活動：18-25-year年、26-32-year年和超過32歲的設定檔。 區段會依據下列參數定義：
 
    ![](assets/wkf_segment_example_3.png)
 
@@ -40,4 +40,4 @@ ht-degree: 66%
 
       ![](assets/wkf_segment_example_1.png)
 
-* 每個區段的[電子郵件傳送](../../automating/using/email-delivery.md)活動。
+* 安 [電子郵件傳送](../../automating/using/email-delivery.md) 每個區段的活動。

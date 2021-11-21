@@ -57,7 +57,7 @@ ht-degree: 76%
 
    >[!IMPORTANT]
    >
-   >要執行的最大重試次數和兩次重試之間的最小延遲現在取決於IP在歷史和目前指定網域的執行狀況。 將忽略Campaign中的&#x200B;**[!UICONTROL Retry period]**&#x200B;和&#x200B;**[!UICONTROL Number of retries]**&#x200B;設定。
+   >要執行的最大重試次數和兩次重試之間的最小延遲現在取決於IP在歷史和目前指定網域的執行狀況。 此 **[!UICONTROL Retry period]** 和 **[!UICONTROL Number of retries]** 將忽略Campaign中的設定。
 
    <!--This section indicates how many retries should be performed the day after the send is started (**Number of retries**) and the minimum delay between retries (**Retry period**). By default, five retries are scheduled for the first day with a minimum interval of one hour, spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Delivery parameters]** section.-->
 
@@ -88,9 +88,9 @@ ht-degree: 76%
 
 >[!IMPORTANT]
 >
->電子郵件網域和MX規則現在會自動管理<!--by the Adobe Campaign Enhanced MTA (Message Transfer Agent)-->，且無法變更。
+>現在會自動管理電子郵件網域和MX規則<!--by the Adobe Campaign Enhanced MTA (Message Transfer Agent)--> 和無法變更。
 
-* **DKIM(DomainKeys Indified Mail)** 電子郵件驗證簽署已針對所有網域的所有郵件完成。它不會以&#x200B;**寄件者ID**、**DomainKeys**&#x200B;或&#x200B;**S/MIME**&#x200B;簽署。
+* **DKIM（已識別的域密鑰郵件）** 所有網域的所有郵件都會完成電子郵件驗證簽署。 不會以簽署 **寄件者ID**, **DomainKeys**，或 **S/MIME**.
 * MX規則會根據您自己的歷史電子郵件信譽，以及您傳送電子郵件的網域所提供的即時意見，依網域自動自訂您的輸送量。
 
 <!--Note that the email domains and the MX rules are now managed by the Adobe Campaign Enhanced MTA:
@@ -161,7 +161,7 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 
 >[!IMPORTANT]
 >
->要執行的重試之間的最小延遲和最大重試次數現在取決於IP在歷史和目前指定網域的執行狀況。 將忽略Campaign中的&#x200B;**[!UICONTROL Retry period]**&#x200B;和&#x200B;**[!UICONTROL Max. number of retries]**&#x200B;設定。
+>要執行的重試之間的最小延遲和最大重試次數現在取決於IP在歷史和目前指定網域的執行狀況。 此 **[!UICONTROL Retry period]** 和 **[!UICONTROL Max. number of retries]** 將忽略Campaign中的設定。
 
 在 Campaign 中設定的&#x200B;**傳送持續期間設定**（在[有效期間參數](#validity-period-parameters)區段中定義）**仍將接受，但最多只能接受　3.5　天**。此時，重試佇列中的任何郵件都會從佇列中移除，並以退信的形式傳回。如需傳送失敗的詳細資訊，請參閱[本節](../../sending/using/understanding-delivery-failures.md#about-delivery-failures)。
 
@@ -308,35 +308,35 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 
 ## 舊版設定 {#legacy-settings}
 
-如果您&#x200B;**NOT**&#x200B;執行最新版的Campaign，則下列說明的參數和UI區段仍適用於您。
+如果您 **NOT** 執行最新版的Campaign時，下列說明的參數和UI區段仍適用您。
 
 ### 重試次數 {#legacy-retries}
 
-[配置菜單](#email-channel-parameters)和電子郵件屬性的[發送參數](#retries-parameters)中的&#x200B;**[!UICONTROL Retries]**&#x200B;設定指示在發送開始後應執行多少次重試(**[!UICONTROL Number of retries]** / **[!UICONTROL Max. number of retries]**)以及兩次重試之間的最小延遲(**[!UICONTROL Retry period]**)。
+此 **[!UICONTROL Retries]** 設定 [配置菜單](#email-channel-parameters) 和 [傳送參數](#retries-parameters) 電子郵件屬性的「 」表示在開始傳送後應執行多少次重試(**[!UICONTROL Number of retries]** / **[!UICONTROL Max. number of retries]**)和兩次重試之間的最小延遲(**[!UICONTROL Retry period]**)。
 
 可全域變更重試次數(請聯絡您的Adobe技術管理員)，或針對每個傳送或傳送範本。
 
-依預設，會為第一天排程五次重試，最小間隔為一小時，分散在一天的24小時內。 在此之後並直到傳送截止日期（在&#x200B;**[!UICONTROL Configuration]**&#x200B;菜單的&#x200B;**[!UICONTROL Delivery parameters]**&#x200B;部分中全局定義）或在傳送級別的&#x200B;**[!UICONTROL Validity period]**&#x200B;部分中（請參閱下面的[傳送持續時間](#legacy-delivery-duration)部分），每天一次重試。
+依預設，會為第一天排程五次重試，最小間隔為一小時，分散在一天的24小時內。 在此之後，每天會編寫一次重試程式，直到傳送截止日期為止，此截止日期在 **[!UICONTROL Delivery parameters]** 區段 **[!UICONTROL Configuration]** ，或 **[!UICONTROL Validity period]** 區段(請參閱 [傳送持續時間](#legacy-delivery-duration) 一節)。
 
 ### 傳送持續時間 {#legacy-delivery-duration}
 
-[設定功能表](#email-channel-parameters)中的&#x200B;**[!UICONTROL Message delivery duration]**&#x200B;參數可讓您指定傳送中遇到暫時錯誤或軟退信的任何郵件會重試的時間範圍。
+此 **[!UICONTROL Message delivery duration]** 參數 [配置菜單](#email-channel-parameters) 可讓您指定傳送中遇到暫時錯誤或軟退信之任何郵件會重試的時間範圍。
 
-[有效期間參數](#validity-period-parameters)區段中的&#x200B;**[!UICONTROL Delivery duration]**&#x200B;或&#x200B;**[!UICONTROL Validity limit for sending messages]**&#x200B;參數允許您指定可發送消息的持續時間。
+此 **[!UICONTROL Delivery duration]** 或 **[!UICONTROL Validity limit for sending messages]** 參數 [有效期間參數](#validity-period-parameters) 區段可讓您指定傳送訊息的期間。
 
 ### 電子郵件處理規則 {#legacy-email-processing-rules}
 
-管理員可透過&#x200B;**[!UICONTROL Administration > Channels > Email > Email processing rules]** [功能表](#email-processing-rules)存取及修改&#x200B;**[!UICONTROL MX management]**、**[!UICONTROL Bounce mails]**&#x200B;及&#x200B;**[!UICONTROL Domain management]**&#x200B;規則。
+此 **[!UICONTROL MX management]**, **[!UICONTROL Bounce mails]** 和 **[!UICONTROL Domain management]** 管理員可透過 **[!UICONTROL Administration > Channels > Email > Email processing rules]** [功能表](#email-processing-rules).
 
 ### 退回郵件資格 {#legacy-bounce-mail-qualification}
 
-若要列出各種退信及其相關的錯誤類型和原因，請按一下左上角的&#x200B;**Adobe**&#x200B;標誌，然後選取&#x200B;**[!UICONTROL Administration > Channels > Quarantines > Message qualification]**。
+若要列出各種退信及其相關的錯誤類型和原因，請按一下 **Adobe** 徽標，在左上角，然後選擇 **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
 
 退信可以有下列資格狀態：
 
-* **[!UICONTROL To qualify]**:退信需要限定。必須由傳遞團隊完成資格認證，以確保平台傳遞能力正常運作。 只要不符合條件，退信就不會用於擴充電子郵件處理規則的清單。
-* **[!UICONTROL Keep]**:退回郵件已合格，將用於更新以 **進行傳** 遞工作流程，以與現有電子郵件處理規則比較，並豐富清單。
-* **[!UICONTROL Ignore]**:退信郵件已限定，但將不用於更新以 **進行傳** 遞工作流。因此，它將不會傳送至用戶端執行個體。
+* **[!UICONTROL To qualify]**:退信需要限定。 必須由傳遞團隊完成資格認證，以確保平台傳遞能力正常運作。 只要不符合條件，退信就不會用於擴充電子郵件處理規則的清單。
+* **[!UICONTROL Keep]**:退信已限定，將用於 **傳遞能力更新** 要與現有電子郵件處理規則比較並擴充清單的工作流程。
+* **[!UICONTROL Ignore]**:退信已限定，但將不被 **傳遞能力更新** 工作流程。 因此，它將不會傳送至用戶端執行個體。
 
 >[!NOTE]
 >
@@ -346,6 +346,6 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 
 ### 傳遞的指標報告 {#legacy-delivered-status-report}
 
-在每則訊息的&#x200B;**[!UICONTROL Summary]**&#x200B;檢視中，當系統回報軟退信和硬退信時，在傳送的有效期間內，**[!UICONTROL Delivered]**&#x200B;百分比會逐漸上升。
+在 **[!UICONTROL Summary]** 每則訊息的檢視， **[!UICONTROL Delivered]** 隨著回報軟退信和硬退信，在傳送的有效期內百分比會逐漸增加。
 
-軟彈跳消息在傳送的第一天後將顯示為&#x200B;**[!UICONTROL Failed]**，並且將在傳送的有效期間的每一附加日重試。
+軟彈跳消息將顯示為 **[!UICONTROL Failed]** 在第一天之後，會在傳送的有效期間的每個額外一天重試。

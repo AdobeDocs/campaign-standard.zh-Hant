@@ -19,19 +19,19 @@ ht-degree: 5%
 
 Adobe Campaign隨附預先定義的資料模型，其中資料會透過不同資源加以定義。 您可以擴充資源，新增您自己的自訂欄位或自訂表格（例如購買或產品表格），以豐富資料模型。
 
-自訂資源可透過API使用&#x200B;**/profileAndServicesExt**&#x200B;端點和自訂資源名稱來存取。
+自訂資源可透過API存取，使用 **/profileAndServicesExt** 端點和自訂資源名稱。
 
 `https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/`
 
 >[!NOTE]
 >
->對於非現成的資源，請一律在資源名稱前使用<b>&quot;cus&quot;</b>前置詞。
+>若為非現成可用的資源，請一律使用 <b>&quot;cus&quot;</b> 前置詞在資源的名稱前。
 
 只要自訂資源連結至「設定檔」表格，您就可以使用自訂資源執行任何操作。 例如，讓我們考慮下清單格結構：
 
 ![替代文字](assets/cusresources.png)
 
-在這種情況下，來自&#x200B;**Transaction**、**TransactionDetails**&#x200B;和&#x200B;**Product**&#x200B;表的所有資源都可用，只要它們連結到&#x200B;**Profile**&#x200B;表。
+在此情況下， **交易**, **交易詳細資訊** 和 **產品** 表格只要連結至 **設定檔** 表格。
 
 <br/>
 

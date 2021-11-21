@@ -105,7 +105,7 @@ ht-degree: 93%
 
 1. 如果要從中載入資料的檔案壓縮到 GZIP 檔案 (.gz) 中，請在 **[!UICONTROL Add a pre-processing stage]** 欄位中選取 **[!UICONTROL Decompression]** 選項。這可讓您在載入資料之前先解壓縮檔案。只有當檔案來自活動的入站轉變時，才可使用此選項。
 
-   **[!UICONTROL Add a pre-processing stage]**&#x200B;欄位還允許您在將檔案導入資料庫之前解密該檔案。 有關如何處理加密檔案的詳細資訊，請參閱[此部分](../../automating/using/managing-encrypted-data.md)
+   此 **[!UICONTROL Add a pre-processing stage]** 欄位也可讓您在將檔案匯入資料庫之前解密檔案。 有關如何使用加密檔案的詳細資訊，請參閱 [本節](../../automating/using/managing-encrypted-data.md)
 
 1. **[!UICONTROL Keep the rejects in a file]** 選項可讓您下載包含匯入期間發生錯誤的檔案，並套用至後期處理階段。啟動此選項時，外站轉變會重新命名為「拒絕」。
 

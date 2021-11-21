@@ -18,14 +18,14 @@ ht-degree: 1%
 # 管理電子郵件樣式 {#managing-styles}
 
 
-在「電子郵件設計工具」中，選取元素時，**[!UICONTROL Settings]**&#x200B;窗格中會顯示與所選內容類型相關的數個選項。 您可以使用這些選項輕鬆變更電子郵件的樣式。
+在電子郵件設計工具中選取元素時，與所選內容類型相關的數個選項會顯示在 **[!UICONTROL Settings]** 框。 您可以使用這些選項輕鬆變更電子郵件的樣式。
 
 ## 選取元素 {#selecting-an-element}
 
 若要在「電子郵件設計工具」介面中選取元素，您可以：
 
 * 直接在電子郵件中按一下，
-* 或瀏覽位於左&#x200B;**調色板**&#x200B;中的選項中可用的結構樹。
+* 或瀏覽左側選項中可用的結構樹 **浮動視窗**.
 
 ![](assets/des_tree_structure.png)
 
@@ -39,19 +39,19 @@ ht-degree: 1%
 
 若要選取欄，您也可以執行下列操作：
 
-1. 選取結構元件（直接在電子郵件中，或使用左側&#x200B;**浮動視窗**&#x200B;中可用的結構樹）。
-1. 在&#x200B;**內容工具列**&#x200B;中，按一下&#x200B;**[!UICONTROL Select a column]**&#x200B;以選擇所需的欄。
+1. Select a structure component (directly in the email or using the structure tree available from the left **Palette**).
+1. 從 **內容工具列**，按一下 **[!UICONTROL Select a column]** 來選擇所需的欄。
 
-請參閱[此區段](#example--adjusting-vertical-alignment-and-padding)中的範例。
+請參閱 [本節](#example--adjusting-vertical-alignment-and-padding).
 
 ## 調整樣式設定 {#adjusting-style-settings}
 
-1. 在電子郵件中選取元素。 如需詳細資訊，請參閱[選取元素](#selecting-an-element)。
-1. 根據您的需求調整設定。 每個選取的元素都提供不同的設定集。
+1. Select an element in your email. 有關詳細資訊，請參閱 [選取元素](#selecting-an-element).
+1. Adjust the settings according to your needs. Each selected element offers a different set of settings.
 
-   您可以插入背景、更改大小、修改水準或垂直對齊、管理顏色、添加[邊框間距或邊距](#selecting-an-element)等。
+   您可以插入背景、更改大小、修改水準或垂直對齊、管理顏色、添加 [邊距](#selecting-an-element)等。
 
-   要執行此操作，請使用&#x200B;**[!UICONTROL Settings]**&#x200B;窗格或[添加內嵌樣式屬性](#adding-inline-styling-attributes)中顯示的選項。
+   若要這麼做，請使用 **[!UICONTROL Settings]** 窗格 [新增內嵌樣式屬性](#adding-inline-styling-attributes).
 
    ![](assets/des_settings_pane.png)
 
@@ -68,7 +68,7 @@ ht-degree: 1%
 例如：
 
 * 使用邊框間距設定影像的左側和右側邊距。
-* 使用上下邊框間距為&#x200B;**[!UICONTROL Text]**&#x200B;或&#x200B;**[!UICONTROL Divider]**&#x200B;元件添加更多間距。
+* 使用上下邊框間距為 **[!UICONTROL Text]** 或 **[!UICONTROL Divider]** 元件。
 * 若要設定結構元素內各欄之間的邊框，請定義每欄的邊框間距。
 
 **[!UICONTROL Margin]**:此設定可讓您管理元素邊框與下一個元素之間的空間。
@@ -77,9 +77,9 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->根據您的選取項目（結構元件、欄或內容元件），結果將不相同。 Adobe建議在列級別設定&#x200B;**[!UICONTROL Padding]**&#x200B;和&#x200B;**[!UICONTROL Margin]**&#x200B;參數。
+>根據您的選取項目（結構元件、欄或內容元件），結果將不相同。 Adobe recommends setting the **[!UICONTROL Padding]** and **[!UICONTROL Margin]** parameters at the column level.
 
-對於&#x200B;**[!UICONTROL Padding]**&#x200B;和&#x200B;**[!UICONTROL Margin]**，按一下鎖定表徵圖以中斷上下或左右參數之間的同步。 這可讓您分別調整每個參數。
+兩者皆適用 **[!UICONTROL Padding]** 和 **[!UICONTROL Margin]**，按一下鎖定圖示以中斷上下或左右參數之間的同步。 This enables you to adjust each parameter separately.
 
 ![](assets/des_padding_lock_icon.png)
 
@@ -89,19 +89,19 @@ ht-degree: 1%
 
    ![](assets/des_text_alignment.png)
 
-* **水準** 對齊功能可套用至文字、影像和按鈕，目前不適用於 **[!UICONTROL Divider]** 和 **[!UICONTROL Social]** 元件。
+* **Horizontal alignment** can be applied to text, images and buttons - currently not to the **[!UICONTROL Divider]** and **[!UICONTROL Social]** components.
 
    ![](assets/des_horizontal_alignment.png)
 
-* 要設定&#x200B;**垂直對齊**，請在結構元件內選擇一個列，然後從「設定」窗格中選擇一個選項。
+* 若要設定 **垂直對齊**，請選取結構元件內的欄，然後從「設定」窗格中選擇選項。
 
    ![](assets/des_set_vertical_alignment.png)
 
-## 設定背景 {#about-backgrounds}
+## Setting backgrounds {#about-backgrounds}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
->title="背景設定"
+>title="Background settings"
 >abstract="電子郵件設計工具可讓您個人化內容的背景顏色或背景影像。請注意，並非所有電子郵件用戶端都支援背景影像。"
 >additional-url="https://docs.google.com/spreadsheets/d/1TLo62YKm3tThUWDOIliCQFWs3dpNjpDfw6DdTr1oGOw/edit#gid=0" text="其他資訊"
 
@@ -113,11 +113,11 @@ ht-degree: 1%
 
 以下是您可使用的可用背景設定。
 
-* 為整個電子郵件設定&#x200B;**[!UICONTROL Background color]**。 請務必在導覽樹狀結構中選取可從左側浮動視窗存取的內文設定。
+* 設定 **[!UICONTROL Background color]** 整封電子郵件。 請務必在導覽樹狀結構中選取可從左側浮動視窗存取的內文設定。
 
    ![](assets/des_background_body.png)
 
-* 通過選擇&#x200B;**[!UICONTROL Viewport background color]**&#x200B;為所有結構元件設定相同的背景顏色。 此選項可讓您從背景顏色中選取不同的設定。
+* 通過選擇 **[!UICONTROL Viewport background color]**. 此選項可讓您從背景顏色中選取不同的設定。
 
    ![](assets/des_background_viewport.png)
 
@@ -127,13 +127,13 @@ ht-degree: 1%
 
    請確定您未設定檢視區背景顏色，因為它可能會隱藏結構背景顏色。
 
-* 為結構元件的內容設定&#x200B;**[!UICONTROL Background image]**。
+* 設定 **[!UICONTROL Background image]** （對於結構元件的內容）。
 
    ![](assets/des_background_image.png)
 
    >[!NOTE]
    >
-   >有些電子郵件程式不支援背景影像。 若不支援，則會改用列背景顏色。 請務必選取適當的後援背景顏色，以備影像無法顯示時使用。
+   >有些電子郵件程式不支援背景影像。 若不支援，則會改用列背景顏色。 Make sure you select an appropriate fallback background color in case the image cannot be displayed.
 
 * 在列級別設定背景顏色。
 
@@ -141,7 +141,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >這是最常見的使用案例。 Adobe建議在欄層級設定背景顏色，因為這樣在編輯整個電子郵件內容時可提供更大的彈性。
+   >這是最常見的使用案例。 Adobe recommends setting background colors at the column level as this allows for more flexibility when editing the whole email content.
 
    您也可以在欄層級設定背景影像，但此功能很少使用。
 
@@ -149,26 +149,26 @@ ht-degree: 1%
 
 要調整由三列組成的結構元件內的邊框間距和垂直對齊方式。 要執行此操作，請遵循下列步驟：
 
-1. 直接在電子郵件中選取結構元件，或使用左側&#x200B;**浮動視窗**&#x200B;中可用的結構樹狀結構。
-1. 從&#x200B;**上下文工具欄**&#x200B;中，按一下&#x200B;**[!UICONTROL Select a column]**&#x200B;並選擇要編輯的工具欄。 您也可以從結構樹中選取它。
+1. 直接在電子郵件中選取結構元件，或使用左側可用的結構樹 **浮動視窗**.
+1. 從 **內容工具列**，按一下 **[!UICONTROL Select a column]** 並選擇要編輯的。 您也可以從結構樹中選取它。
 
    ![](assets/des_selecting_column.png)
 
-   該列的可編輯參數顯示在右側的&#x200B;**[!UICONTROL Settings]**&#x200B;窗格中。
+   該列的可編輯參數顯示在 **[!UICONTROL Settings]** 窗格。
 
-1. 在&#x200B;**[!UICONTROL Vertical alignment]**&#x200B;下，選擇&#x200B;**[!UICONTROL Up]**。
+1. 在 **[!UICONTROL Vertical alignment]**，選取 **[!UICONTROL Up]**.
 
    ![](assets/des_vertical_alignment.png)
 
    內容元件會顯示在欄的頂端。
 
-1. 在&#x200B;**[!UICONTROL Padding]**&#x200B;下，定義列內的頂部邊框間距。 按一下鎖定圖示以中斷與底部邊框間距的同步。
+1. 在 **[!UICONTROL Padding]**，定義欄內的上邊框間距。 按一下鎖定圖示以中斷與底部邊框間距的同步。
 
-   定義該欄的左邊框和右邊框間距。
+   Define the left and right padding for that column.
 
    ![](assets/des_adjusting_padding.png)
 
-1. 以類似方式繼續調整其他列的對齊方式和邊框間距。
+1. Proceed similarly to adjust the other columns&#39; alignment and padding.
 
    ![](assets/des_adjusting_columns.png)
 
@@ -180,19 +180,19 @@ ht-degree: 1%
 
 1. 在插入連結的元件中，選取連結的標籤文字。
 
-1. 在元件設定中，核取&#x200B;**[!UICONTROL Underline link]**&#x200B;將連結的標籤文字加底線。
+1. 在元件設定中，勾選 **[!UICONTROL Underline link]** 將連結的標籤文字加上底線。
 
    ![](assets/stylelinks-selecttext.png)
 
-1. 若要選取要開啟連結的瀏覽內容，請選取&#x200B;**[!UICONTROL Target]**。
+1. 若要選取將開啟您連結的瀏覽內容，請選取 **[!UICONTROL Target]**.
 
    ![](assets/stylelinks-target.png)
 
-1. 若要變更連結的顏色，請按一下&#x200B;**[!UICONTROL Link color]**。
+1. 若要變更連結的顏色，請按一下 **[!UICONTROL Link color]**.
 
    ![](assets/stylelinks-colorpicker.png)
 
-1. 選擇所需的顏色。
+1. Pick the color you need.
 
    ![](assets/stylelinks-colorchanged.png)
 
@@ -203,10 +203,10 @@ ht-degree: 1%
 在「電子郵件設計工具」介面中，當您選取元素並在側面板顯示其設定時，可以自訂該特定元素的內嵌屬性及其值。
 
 1. 在內容中選取元素。
-1. 在側面板上，查找&#x200B;**[!UICONTROL Styles Inline]**&#x200B;設定。
+1. 在側面板上，查找 **[!UICONTROL Styles Inline]** 設定。
 
    ![](assets/email_designer_inlineattributes.png)
 
-1. 修改現有屬性的值，或使用&#x200B;**+**&#x200B;按鈕添加新屬性。 您可以新增任何與CSS相容的屬性和值。
+1. 修改現有屬性的值，或使用 **+** 按鈕。 您可以新增任何與CSS相容的屬性和值。
 
 樣式隨後會套用至選取的元素。 如果子元素未定義特定樣式屬性，則會繼承父元素的樣式。

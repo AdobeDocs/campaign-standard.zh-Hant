@@ -50,7 +50,7 @@ ht-degree: 6%
         <td>
             <ul>
             <li>文本 — 文本 — 1</li>
-            <li>HTML - html - 2</li>
+            <li>HTML- html - 2</li>
             <li>無效值 — __Invalid_value__ - __Invalid_value__</li>
             <li>未知 — 未知 — 0</li>
             </ul>

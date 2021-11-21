@@ -47,13 +47,13 @@ Adobe Campaign　可讓您在訊息的對象中設定數個設定檔類型。
 
    >[!NOTE]
    >
-   >鎖定目標對象時，請注意未參考對象的定義，而是將&#x200B;**複製**&#x200B;複製到查詢中。 如果您在對象已定位於查詢中後對對象進行任何變更，請務必再次設定查詢以將新定義納入考量。
+   >鎖定目標對象時，請注意未參考對象的定義，但 **複製** 填入查詢。 如果您在對象已定位於查詢中後對對象進行任何變更，請務必再次設定查詢以將新定義納入考量。
 
 1. 定義您要用於電子郵件的　**[!UICONTROL Test profiles]**。測試設定檔會收到您之前可以傳送的校樣，以便先測試電子郵件，然後再將之傳送給主要目標。
 
    如需設定測試設定檔的詳細資訊，請參閱[測試設定檔](../../audiences/using/managing-test-profiles.md)區段。
 
-1. 如有需要，您可以使用對應的索引標籤來定義控制組。 這可讓您從目標中撤回部分設定檔，以便他們不會收到訊息。 有關詳細資訊，請參閱[添加控制組](../../sending/using/control-group.md)。
+1. 如有需要，您可以使用對應的索引標籤來定義控制組。 This will enable you to withdraw some profiles from your target so that they will not receive the message. 有關詳細資訊，請參閱 [新增控制組](../../sending/using/control-group.md).
 
 1. 您也可以使用替代地址來取得設定檔將收到之訊息的精確表示。  如需詳細資訊，請參閱[使用目標設定檔測試電子郵件訊息](../../sending/using/testing-messages-using-target.md)。
 

@@ -155,7 +155,7 @@ context.profile.age > 21 && context.profile.firstName.length() > 0
   <tr> 
    <td> <span class="uicontrol">Less than</span> <br /> </td> 
    <td> &lt;<br /> </td> 
-   <td> &lt;&gt;<br /> </td> 
+   <td> &lt;<br /> </td> 
    <td> 第一個值必須斷斷續續小於第二個值。<br /> </td> 
    <td> <strong>@created &lt; DaysAgo(100)</strong>，搜尋在少於　100　天前的資料庫中建立的所有設定檔。<br /> </td> 
   </tr> 
@@ -169,7 +169,7 @@ context.profile.age > 21 && context.profile.firstName.length() > 0
   <tr> 
    <td> <span class="uicontrol">Less than or equal to</span> <br /> </td> 
    <td> &lt;=<br /> </td> 
-   <td> &lt;&gt;<br /> </td> 
+   <td> &lt;=<br /> </td> 
    <td> 第一值必須小於或等於第二值。<br /> </td> 
    <td> <strong>@age &lt;= 60</strong> 會接取年齡在　60　歲或以下的設定檔。<br /> </td> 
   </tr> 
@@ -190,21 +190,21 @@ context.profile.age > 21 && context.profile.firstName.length() > 0
   <tr> 
    <td> <span class="uicontrol">Like</span> <br /> </td> 
    <td> LIKE<br /> </td> 
-   <td> N/A<br /> </td> 
+   <td> 不適用<br /> </td> 
    <td> <span class="uicontrol">Like</span> 與　<span class="uicontrol">Contains</span>　運算子非常類似。它可讓您在所搜尋的值中插入　<span class="uicontrol">%</span>　萬用字元。<br /> </td> 
    <td> <strong>@lastName LIKE Mart%n</strong>。在此處，替代字元 <strong>%</strong> (%)　作為　"joker"，在拼字不正確的假設情況下尋找名稱　"Martin"。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Not like</span> <br /> </td> 
    <td> NOT<br /> </td> 
-   <td> N/A<br /> </td> 
+   <td> 不適用<br /> </td> 
    <td> 類似 <span class="uicontrol">Like</span>。它可讓您不復原輸入的值。在這裡，輸入的值也必須包含 <span class="uicontrol">%</span> 萬用字元。<br /> </td> 
    <td> <strong>@lastName NOT Smi%h</strong>。在這裡，與名稱　'Smi%h' （如　Smith　等）相對應的收件者不會被傳回為結果。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Is empty</span> <br /> </td> 
    <td> IS NULL<br /> </td> 
-   <td> N/A<br /> </td> 
+   <td> 不適用<br /> </td> 
    <td> 第一個值必須對應至空值。<br /> </td> 
    <td> <strong>@mobilePhone IS NULL</strong> 會擷取所有尚未提供行動電話號碼的設定檔。<br /> </td> 
   </tr> 

@@ -83,7 +83,7 @@ Adobe Campaign 提供兩種類型的推播通知：
 
 * [影片教學課程](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
 * [產品檔案](../../channels/using/about-push-notifications.md)
-* 使用AEP SDK [檔案](../../administration/using/configuring-a-mobile-application.md)進行配置
+* 使用AEP SDK進行配置 [檔案](../../administration/using/configuring-a-mobile-application.md)
 * [社群頁面](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### 要在Campaign中取得推播代號，我必須做什麼？ {#push-token-acquisition}
@@ -108,7 +108,7 @@ openssl pkcs12 -in pushcert.p12 -out pushcert.pem -nodes -clcerts
 
 ![](assets/faq_2.png)
 
-### 我可以同時上傳iOS應用程式的生產憑證和沙箱憑證（Android適用的為不適用）嗎？ {#prod-sandbox-certificate}
+### 我可以同時上傳iOS應用程式的生產和沙箱憑證嗎（Android適用的為不適用）? {#prod-sandbox-certificate}
 
 否，應用程式可在沙箱或生產模式中運作，且一旦設定後，就無法變更為其他應用程式（即沙箱至生產應用程式）。 建議您先以沙箱模式測試應用程式，然後轉變為生產模式。
 
@@ -120,11 +120,11 @@ openssl pkcs12 -in pushcert.p12 -out pushcert.pem -nodes -clcerts
 
 ### 我已成功上傳推送憑證，但未傳送推送訊息。 {#push-certificates-upload}
 
-請在[此處](https://pushtry.com/)測試您的推播憑證，以確定其有效。
+請測試您的推播憑證，以確定其有效 [此處](https://pushtry.com/).
 
 ### 我可以從pushtry.com成功傳送推播通知，但不能透過Campaign。 {#push-not-sending}
 
-請確定您遵循[here](../../administration/using/push-payload.md)提供的推送裝載指示。
+請確定您遵循提供的推送裝載指示 [此處](../../administration/using/push-payload.md).
 
 請注意，對於Android,Campaign僅支援資料裝載，不支援通知裝載
 
@@ -138,26 +138,26 @@ openssl pkcs12 -in pushcert.p12 -out pushcert.pem -nodes -clcerts
 
 ### 推播通知是從Campaign傳送，但媒體檔案未顯示。{#media-file-unavailable}
 
-行動應用程式開發人員需要處理應用程式中媒體檔案的支援。 有時，網路頻寬也可能會阻止媒體檔案的呈現。 有關其他指針，請參閱此[page](../../administration/using/image-push-notification.md)。
+行動應用程式開發人員需要處理應用程式中媒體檔案的支援。 有時，網路頻寬也可能會阻止媒體檔案的呈現。 請參閱 [頁面](../../administration/using/image-push-notification.md) 其他指針。
 
 ### 如何在Campaign中啟用推送報表？ {#push-reporting-enable}
 
 請遵循以下步驟：
 
-* 設定推播追蹤回傳。 您可以在[此處](../../administration/using/configuring-a-mobile-application.md)找到說明。
-* 從行動核心實作trackAction API。 如需詳細資訊，請參閱此[page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference)。
+* 設定推播追蹤回傳。 可找到指示 [此處](../../administration/using/configuring-a-mobile-application.md).
+* 從行動核心實作trackAction API。 請參閱 [頁面](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference) 以取得更多資訊。
 
-如需更多詳細指示，請參閱[page](../../administration/using/push-tracking.md)。
+如需更多詳細指示，請參閱 [頁面](../../administration/using/push-tracking.md).
 
 ### 哪些報表可用於推播管道？ {#push-report-available}
 
-Adobe Campaign for Push管道中提供現成報表。 請參閱此[檔案](../../reporting/using/push-notification-report.md)。
+Adobe Campaign for Push管道中提供現成報表。 請參閱 [檔案](../../reporting/using/push-notification-report.md).
 
-請參閱此[page](../../reporting/using/indicator-calculation.md#push-notification-delivery)以了解如何計算每個推送量度。
+看這個 [頁面](../../reporting/using/indicator-calculation.md#push-notification-delivery) 了解每個推送量度的計算方式。
 
 ### 推送訊息和應用程式內訊息是否支援深層連結？ {#deeplink-push}
 
 是，推送訊息支援深層連結。 深層連結應包括：
 
 * 說明傳送追蹤必須停用才能讓深層連結運作的語言。
-* 以Branch作為合作夥伴執行深層連結追蹤的Appsflyer。 如需Branch和Adobe Campaign Standard整合的詳細資訊，請參閱此[page](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1)。
+* 以Branch作為合作夥伴執行深層連結追蹤的Appsflyer。 如需分支和Adobe Campaign Standard整合的詳細資訊，請參閱 [頁面](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).

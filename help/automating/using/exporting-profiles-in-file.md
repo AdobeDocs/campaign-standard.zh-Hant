@@ -22,11 +22,11 @@ ht-degree: 68%
 
 此工作流程的目的是以外部檔案格式匯出設定檔清單，以便在 Adobe Campaign 外部使用資料。
 
-1. 將[擷取檔案](../../automating/using/extract-file.md)活動拖放至工作流程中，並將其置於[Query](../../automating/using/query.md)活動之後。
+1. 拖放 [擷取檔案](../../automating/using/extract-file.md) 活動放入工作流程中，並將其置於 [查詢](../../automating/using/query.md) 活動。
 
    在此範例中，會對年齡介於 18 至 30 歲的所有設定檔執行查詢。
 
-1. 開啟&#x200B;**[!UICONTROL Extract file]**&#x200B;活動以進行編輯。
+1. 開啟 **[!UICONTROL Extract file]** 活動來編輯。
 1. 為輸出檔案命名。
 1. 新增輸出欄。
 
@@ -45,7 +45,7 @@ ht-degree: 68%
       ![](assets/wkf_data_export9.png)
 
 1. 確認您的活動。
-1. 在&#x200B;**[!UICONTROL Extract file]**&#x200B;活動之後拖放[傳輸檔案](../../automating/using/transfer-file.md)活動，以復原外部帳戶上的擷取檔案。
+1. 拖放 [傳輸檔案](../../automating/using/transfer-file.md) 活動之後 **[!UICONTROL Extract file]** 恢復外部帳戶上擷取檔案的活動。
 1. 開啟活動並選取 **[!UICONTROL File upload]** 動作。
 
    ![](assets/wkf_data_export11.png)

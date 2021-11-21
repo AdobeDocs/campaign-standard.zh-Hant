@@ -18,11 +18,11 @@ ht-degree: 5%
 
 # 傳遞失敗和退回次數{#non-deliverables-and-bounces}
 
-**[!UICONTROL Non-deliverables and bounces]**&#x200B;報告提供傳送期間遇到的所有錯誤的詳細資訊。
+此 **[!UICONTROL Non-deliverables and bounces]** 報表提供傳送期間遇到的所有錯誤的詳細資訊。
 
 ![](assets/delivery_reports_7.png)
 
-**[!UICONTROL Overview]**&#x200B;表格包含可用資料，說明可能針對每個傳送而發生的錯誤，例如：
+此 **[!UICONTROL Overview]** 表格包含與每次傳送可能遇到的錯誤相關的可用資料，例如：
 
 * **已處理/已傳送**:已傳送的電子郵件數。
 * **傳遞**:已傳送的電子郵件數。
@@ -30,4 +30,4 @@ ht-degree: 5%
 * **硬跳出**:永久錯誤的總數，例如錯誤的電子郵件地址。
 * **跳出數+錯誤**:無法傳遞的郵件數。
 
-**依網域劃分**&#x200B;表格列出每個收件者網域的跳出數。
+此 **依網域劃分** 表格列出每個收件者網域的跳出數。

@@ -72,7 +72,7 @@ ht-degree: 88%
 
 HTTP　通訊協定可讓您從外部帳戶或　URL　開始下載檔案。
 
-使用此協定，可以選擇&#x200B;**[!UICONTROL Use connection parameters defined in an external account]**選項。 在此情況下，請選取您需要的帳戶，並指定要下載的檔案路徑。
+使用此協定，您可以選擇 **[!UICONTROL Use connection parameters defined in an external account]** 選項。 在此情況下，請選取您需要的帳戶，並指定要下載的檔案路徑。
 
 
 ![](assets/wkf_file_transfer_03.png)
@@ -84,7 +84,7 @@ HTTP　通訊協定可讓您從外部帳戶或　URL　開始下載檔案。
 
 SFTP　通訊協定可讓您開始從　URL　或外部帳戶下載檔案。
 
-使用此協定，您可以選擇&#x200B;**[!UICONTROL Use connection parameters defined in an external account]**選項，然後選擇要下載的帳戶並指定要下載的檔案路徑。
+使用此協定，您可以選擇 **[!UICONTROL Use connection parameters defined in an external account]** 選項，然後選取您想要的帳戶，並指定要下載的檔案路徑。
 ![](assets/wkf_file_transfer_07.png)
 
 >[!CAUTION]
@@ -109,7 +109,7 @@ Amazon S3　通訊協定可讓您透過　Amazon Simple Storage Service(S3)　�
    >
    > Amazon S3不支援萬用字元。
    >
-   > 若要定位多個檔案，例如`my_file_02`和`my _file_3433`，可使用下列語法：`acs-myawsbucket.s3.amazonaws.com/object-path/my_file_`。
+   > 要定位多個檔案，例如 `my_file_02` 和 `my _file_3433`，您可以使用下列語法： `acs-myawsbucket.s3.amazonaws.com/object-path/my_file_`.
 
 4. 如果要在傳輸完成時刪除源檔案，請核取 **[!UICONTROL Delete the source files after transfer]**。
 
@@ -173,9 +173,9 @@ Microsoft Azure Blob　通訊協定可讓您存取位於　Microsoft Azure Blob�
 
 ## 輸出變數 {#output-variables}
 
-**[!UICONTROL Transfer file]**&#x200B;活動會產生事件變數作為輸出，您可在其他活動中利用它，例如使用[Test](../../automating/using/test.md)活動來檢查下載的檔案數。
+此 **[!UICONTROL Transfer file]** 活動會產生事件變數作為輸出，您可在其他活動中運用，例如使用 [測試](../../automating/using/test.md) 活動。
 
-請注意，事件變數也可以使用外部訊號傳遞至另一個工作流程（請參閱[使用外部參數自訂工作流程](../../automating/using/customizing-workflow-external-parameters.md)）。
+請注意，事件變數也可以使用外部訊號傳遞至另一個工作流程(請參閱 [使用外部參數自訂工作流程](../../automating/using/customizing-workflow-external-parameters.md))。
 
 可用的輸出變數包括：
 

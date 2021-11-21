@@ -28,7 +28,7 @@ Adobe Campaign可讓您在iOS和Android行動裝置上，將個人化和分段�
 
 >[!NOTE]
 >
->裝載結構會依行動應用程式類型而異（例如iOS應用程式、啟用FCM的Android應用程式）。
+>裝載結構會依行動應用程式類型(例如iOS應用程式、啟用FCM的Android應用程式)而異。
 
 ## 推送裝載結構 {#push-payload-structure}
 
@@ -36,7 +36,7 @@ Adobe Campaign可讓您在iOS和Android行動裝置上，將個人化和分段�
 
 裝載屬性及其值會根據推播通知進階選項中提供的設定而有所不同。 本節也提供Campaign StandardUI中這些設定與裝載中屬性之間的對應，以釐清裝載在設定Campaign Standard中的選項時將如何變更。
 
-### 適用於iOS行動應用程式 {#payload-structure-ios}
+### 針對iOS行動應用程式 {#payload-structure-ios}
 
 **從Adobe Campaign傳送至iOS應用程式的裝載範例：**
 
@@ -78,7 +78,7 @@ Adobe Campaign可讓您在iOS和Android行動裝置上，將個人化和分段�
     "_mId":"h138a"} 
 ```
 
-**搭配iOS APNS測試器使用的JSON [裝載範例](https://pushtry.com/)**
+**要搭配使用的JSON裝載範例 [iOS APNS測試器](https://pushtry.com/)**
 
 ```
 {
@@ -106,9 +106,9 @@ Adobe Campaign可讓您在iOS和Android行動裝置上，將個人化和分段�
 }
 ```
 
-裝載最重要的區段是應用程式字典，該字典包含Apple定義的索引鍵，用於判斷接收通知的系統應如何（如果有的話）向使用者發出警報。 本節包含預先定義的索引鍵，行動應用程式會使用這些索引鍵來制定推播通知的行為。
+裝載最重要的區段是應用程式字典，其中包含Apple定義的索引鍵，可用來判斷接收通知的系統應如何（如果有的話）向使用者發出警告。 本節包含行動應用程式用來制定推播通知行為的預先定義索引鍵。
 
-您可以在Apple開發人員檔案中找到aps中屬性的深入詳細資訊：[建立遠程通知裝載](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html#//apple_ref/doc/uid/TP40008194-CH10-SW1)。
+您可在Apple開發人員檔案中，找到應用程式內屬性的深入詳細資訊： [建立遠端通知裝載](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html#//apple_ref/doc/uid/TP40008194-CH10-SW1).
 
 ### 適用於Android應用程式 {#payload-structure-android}
 
@@ -152,7 +152,7 @@ Adobe Campaign可讓您在iOS和Android行動裝置上，將個人化和分段�
 }
 ```
 
-**使用Google FCM測試器的 [JSON裝載範例](https://pushtry.com/)**
+**要使用的JSON裝載範例 [Google FCM測試器](https://pushtry.com/)**
 
 ```
 {
@@ -196,34 +196,34 @@ Adobe Campaign可讓您在iOS和Android行動裝置上，將個人化和分段�
 
 裝載包含資料訊息，包含所有推播通知傳送內容，包括自訂金鑰/值組，而用戶端應用程式必須處理訊息以建立和顯示推播通知（如有需要），否則必須處理以新增任何其他業務邏輯。
 
-若要了解android裝載的方面，請參閱[傳訊概念與選項(fcm)](https://firebase.google.com/docs/cloud-messaging/concept-options)。
+若要了解android裝載的各個方面，請參閱 [傳訊概念與選項(fcm)](https://firebase.google.com/docs/cloud-messaging/concept-options).
 
 >[!NOTE]
 >
->自2018年1月起，Android裝載中對通知訊息的支援已移除，以啟用喚醒應用程式並將控制項傳遞至行動應用程式，而不需要使用者與應用程式互動。
+>自2018年1月起，Android裝載中對通知訊息的支援已遭移除，以啟用喚醒應用程式並將控制項傳遞至行動應用程式，而不需要使用者與應用程式互動。
 
 ### Campaign Standard設定和裝載屬性之間的對應 {#mapping-payload}
 
 | 促銷活動設定 | iOS中的受影響屬性 | Android中的受影響屬性 | 說明 |
 |:-:|:-:|:-:|:-:|
-| 訊息標題<br>訊息內文 | 警報→標題<br>警報→主體 | 標題<br>正文 | 此資料包含警報訊息的細節。<br>標題和正文鍵提供警報的內容。 |
+| 訊息標題 <br>訊息內文 | 警報→標題 <br> 警報→主體 | 標題 <br>身體 | 此資料包含警報訊息的細節。<br>標題和正文鍵提供警報的內容。 |
 | 播放音效 | 聲音 | 聲音 | 與警報一起播放的自訂音效。 |
 | 徽章的值 | 徽章 | 徽章 | 要用來標示應用程式圖示的整數值。 |
 | 新增深層連結 | uri | 不適用 | 開發人員可讓您將使用者直接導向到應用程式內的內容（而非開啟網頁瀏覽器頁面）。 |
 | 類別 | 類別 | 類別 | 顯示具有遠端通知的自訂動作。 <br>類別鍵可協助系統將該類別的動作顯示為警報介面中的按鈕。 |
 | 自訂欄位 | custom_field1、custom_field2... | custom_field1、custom_field2... | 您要傳送至應用程式的任何自訂資料。 |
-| 多媒體內容URL（影像、gif、音訊和視訊檔案）<br>（僅適用於iOS 10或更新版本） | media-attachment-url | 不適用 | 媒體檔案的URL，以新增豐富內容至通知。 <br>為此URL提供值時，可變內容標幟會自動傳送至裝載中。<br> （僅適用於iOS 10或更新版本） |
-| 可變內容<br>（僅適用於iOS 10或更新版本） | 可變內容 | 不適用 | 應用程式中的通知服務擴充功能將會使用可變內容金鑰「截取」所有遠端通知，並可讓您處理/操控要求裝載的內容，這些內容之後可用來自訂通知。 此功能的使用案例包括下載和顯示多個媒體、解密推送裝載中出現的任何加密資料。 如需詳細資訊，請參閱[修改遠程通知的有效負載](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html)。 <br>（僅適用於iOS 10或更新版本） |
-| 可用內容 | 內容可用 | 不適用 | 選取此選項，可讓iOS應用程式在背景/暫停狀態時喚醒。 喚醒表示應用程式會在背景執行，而負責接收推播通知資料裝載的適當事件處理常式會取得控制，並可使用資料執行任何計算，包括但不限於建立自訂推播通知和顯示相同內容。 如需詳細資訊，請參閱[使用通知傳送喚醒應用程式](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html)。 |
+| 多媒體內容URL（影像、gif、音訊和視訊檔案）<br>(僅適用於iOS 10或更新版本) | media-attachment-url | 不適用 | 媒體檔案的URL，以新增豐富內容至通知。 <br>為此URL提供值時，可變內容標幟會自動傳送至裝載中。 <br> (僅適用於iOS 10或更新版本) |
+| 可變內容 <br> (僅適用於iOS 10或更新版本) | 可變內容 | 不適用 | 應用程式中的通知服務擴充功能將會使用可變內容金鑰「截取」所有遠端通知，並可讓您處理/操控要求裝載的內容，這些內容之後可用來自訂通知。 此功能的使用案例包括下載和顯示多個媒體、解密推送裝載中出現的任何加密資料。 如需詳細資訊，請參閱 [修改遠端通知的裝載](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html). <br>(僅適用於iOS 10或更新版本) |
+| 可用內容 | 內容可用 | 不適用 | 選取此選項，可讓iOS應用程式在背景/暫停狀態時喚醒。 喚醒表示應用程式會在背景執行，而負責接收推播通知資料裝載的適當事件處理常式會取得控制，並可使用資料執行任何計算，包括但不限於建立自訂推播通知和顯示相同內容。 如需詳細資訊，請參閱 [使用通知傳送喚醒應用程式](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html). |
 | 多媒體內容URL（影像檔案）<br>（僅適用於Android） | 不適用 | media-attachment-url | 影像檔案的URL，以新增豐富內容至通知。 |
-| 不適用 | _mId<br>_dId | _mId <br>_dId | broadlogId和deliveryId的值。<br>如果您的應用程式想要呼叫追蹤回傳，以追蹤推播通知的點按/開啟時間，則需要這些屬性。此資訊由應用程式伺服器計算並由內部傳送，使用者不需干預。<br>有關回傳的資訊，請參閱本 [頁面](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback)。 |
+| 不適用 | _mId<br>_dId | _mId <br>_dId | broadlogId和deliveryId的值。<br>如果您的應用程式想要呼叫追蹤回傳，以追蹤推播通知的點按/開啟時間，則需要這些屬性。 此資訊由應用程式伺服器計算並由內部傳送，使用者不需干預。<br>有關回傳的資訊，請參閱 [頁面](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback). |
 
 ### 如何擷取行動應用程式程式碼中的裝載資訊 {#payload-information}
 
 應用程式伺服器所傳送的裝載資訊會由行動應用程式程式碼在事件處理常式中接收，指出已接收推播通知。 此事件會依正在運作的行動平台而異，也依應用程式在前景或背景執行而定。 下列檔案可協助您根據使用案例，識別您要處理的事件處理常式。
 
-* iOS應用程式：**處理[遠程通知](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/HandlingRemoteNotifications.html)中的遠程通知**&#x200B;部分。
-* Android應用程式：[在Android用戶端應用程式上接收訊息](https://firebase.google.com/docs/cloud-messaging/android/receive)
+* iOS應用程式： **處理遠端通知** 區段 [遠端通知](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/HandlingRemoteNotifications.html).
+* Android應用程式： [在Android用戶端應用程式上接收訊息](https://firebase.google.com/docs/cloud-messaging/android/receive)
 
 **iOS行動應用程式範例**
 

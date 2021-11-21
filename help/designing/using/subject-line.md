@@ -26,26 +26,26 @@ ht-degree: 2%
 >如果主旨行空白，訊息控制面板和電子郵件設計工具中會顯示警告。
 
 1. 建立電子郵件.
-1. 前往電子郵件設計工具首頁的&#x200B;**[!UICONTROL Properties]**&#x200B;標籤（可透過首頁圖示存取）。
-1. 填寫&#x200B;**[!UICONTROL Subject]**&#x200B;區段。
+1. 前往 **[!UICONTROL Properties]** 電子郵件設計工具首頁的索引標籤（可透過首頁圖示存取）。
+1. 填入 **[!UICONTROL Subject]** 區段。
 
    ![](assets/email_designer_subject.png)
 
-1. 您也可以按一下對應的圖示，將個人化欄位、內容區塊和動態內容新增至主旨行。 如需詳細資訊，請參閱[個人化](../../designing/using/personalization.md)。
+1. 您也可以按一下對應的圖示，將個人化欄位、內容區塊和動態內容新增至主旨行。 有關詳細資訊，請參閱 [個人化](../../designing/using/personalization.md).
 
 ## 定義電子郵件的電子郵件寄件者 {#email-sender}
 
-要定義將顯示在已發送郵件標題中的發件人名稱，請轉到電子郵件設計器首頁的&#x200B;**[!UICONTROL Properties]**&#x200B;頁簽（可通過首頁表徵圖訪問）。
+要定義將顯示在發送郵件標題中的發件人名稱，請轉至 **[!UICONTROL Properties]** 電子郵件設計工具首頁的索引標籤（可透過首頁圖示存取）。
 
 ![](assets/delivery_content_edition16.png)
 
-* **[!UICONTROL From: name]**&#x200B;欄位允許您輸入發件人名稱。 預設情況下，預設的&#x200B;**發件人名稱**&#x200B;塊將自動輸入到欄位中。 預設的寄件者電子郵件地址和寄件者名稱定義在&#x200B;**[!UICONTROL Brands]**&#x200B;中，可透過進階功能表&#x200B;**[!UICONTROL Administration > Instance settings > Brand configuration]**&#x200B;下的Adobe Campaign標誌存取。
+* 此 **[!UICONTROL From: name]** 欄位可讓您輸入寄件者名稱。 預設為 **寄件者名稱** 塊會自動輸入欄位中。 預設寄件者電子郵件地址和寄件者名稱定義於 **[!UICONTROL Brands]** 可透過進階功能表下的Adobe Campaign標誌存取 **[!UICONTROL Administration > Instance settings > Brand configuration]** .
 
-   您可以按一下&#x200B;**寄件者名稱**&#x200B;區塊以變更寄件者名稱。 欄位隨後變成可編輯，您可以輸入要使用的名稱。
+   您可以按一下 **寄件者名稱** 封鎖。 欄位隨後變成可編輯，您可以輸入要使用的名稱。
 
-   此欄位可個人化。 若要這麼做，您可以按一下寄件者名稱下方的圖示，以新增個人化欄位、內容區塊和動態內容。 如需詳細資訊，請參閱[個人化](../../designing/using/personalization.md)。
+   此欄位可個人化。 若要這麼做，您可以按一下寄件者名稱下方的圖示，以新增個人化欄位、內容區塊和動態內容。 有關詳細資訊，請參閱 [個人化](../../designing/using/personalization.md).
 
-* 無法從此部分編輯&#x200B;**[!UICONTROL From: email address]**&#x200B;欄位。 您可以透過從其控制面板編輯電子郵件的屬性來變更它。 如需詳細資訊，請參閱[電子郵件進階參數清單](../../administration/using/configuring-email-channel.md#advanced-parameters)。
+* 此 **[!UICONTROL From: email address]** 欄位無法從此區段編輯。 您可以透過從其控制面板編輯電子郵件的屬性來變更它。 如需詳細資訊，請參閱 [電子郵件進階參數清單](../../administration/using/configuring-email-channel.md#advanced-parameters).
 
 >[!NOTE]
 >

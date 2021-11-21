@@ -24,7 +24,7 @@ ht-degree: 76%
 
 ![](assets/subscription_activity_example1.png)
 
-* [載入檔案](../../automating/using/load-file.md)活動載入設定檔檔案並定義匯入欄的結構。
+* A [載入檔案](../../automating/using/load-file.md) 活動載入設定檔檔案並定義匯入欄的結構。
 
    在此範例中，載入檔案為 .csv 格式，並包含以下資料：
 
@@ -49,7 +49,7 @@ ht-degree: 76%
 
    如果您的檔案已使用 &quot;0&quot; 及 &quot;1&quot; 來識別此操作，則不需要重新映射這些值。僅確定在 **[!UICONTROL Column definition]** 索引標籤中將此欄處理為 **Boolean** 或 **Integer**。
 
-* [調解](../../automating/using/reconciliation.md)活動會將檔案中的資料識別為屬於Adobe Campaign資料庫的設定檔維度。 透過 **[!UICONTROL Identification]** 索引標籤，檔案的 **email** 欄位與設定檔資源的 **email** 欄位相符。
+* A [調解](../../automating/using/reconciliation.md) 活動會將檔案中的資料識別為屬於Adobe Campaign資料庫的設定檔維度。 透過 **[!UICONTROL Identification]** 索引標籤，檔案的 **email** 欄位與設定檔資源的 **email** 欄位相符。
 
    ![](assets/subscription_activity_example3.png)
 
@@ -57,11 +57,11 @@ ht-degree: 76%
 
    ![](assets/subscription_example_service_relation.png)
 
-* 根據臨時資源的&#x200B;**email**&#x200B;欄位（調解後產生）的[重複資料刪除](../../automating/using/deduplication.md)識別重複項目。 消除重複項目非常重要，因為所有資料的服務訂閱將會在出現重複項目時失敗。
+* A [重複資料刪除](../../automating/using/deduplication.md) 根據 **電子郵件** 臨時資源的欄位（調解後產生的結果）識別重複項目。 消除重複項目非常重要，因為所有資料的服務訂閱將會在出現重複項目時失敗。
 
    ![](assets/subscription_activity_example5.png)
 
-* [訂閱服務](../../automating/using/subscription-services.md)活動識別要更新的服務是來自轉變，通過&#x200B;**[!UICONTROL Reconciliation]**&#x200B;活動中建立的連結。
+* A [訂閱服務](../../automating/using/subscription-services.md) 活動會透過在 **[!UICONTROL Reconciliation]** 活動。
 
    將 **[!UICONTROL Operation type]** 識別為來自檔案的 **operation** 欄位。此處只能選取 Boolean 或 Integer 欄位。如果檔案中包含要執行的操作欄未出現在清單中，請確保您已正確設定 **[!UICONTROL Load file]** 活動中的欄格式，如本範例前面所述 。
 

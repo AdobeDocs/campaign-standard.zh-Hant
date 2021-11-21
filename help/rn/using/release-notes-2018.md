@@ -19,7 +19,7 @@ ht-degree: 4%
 
 正在尋找2018年的特定Adobe Campaign Standard版本？
 
-每個版本都提供新功能和修補程式。 按一下某個版本以檢視其內容。
+每個版本都提供新功能和修補程式。 Click on a release to view its content.
 
 檢視最新 [檔案更新](../../rn/using/documentation-updates.md) Adobe Campaign Standard。 如果您想要尋找較新的版本，請參閱以下資訊 [頁面](../../rn/using/release-notes.md).
 
@@ -105,7 +105,7 @@ ht-degree: 4%
    <td> Android的高優先順序標幟 — 為Android應用程式啟用具有高優先順序的推播通知傳送，這會導致休眠裝置喚醒並執行一些有限的處理。 請注意，預設優先順序為正常，這可能會延遲郵件傳送以節省電池。 <br /> 如需詳細資訊，請參閱 <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android">詳細檔案</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 行動應用程式訂閱者的類型篩選<br /> </td> 
+   <td> Typology filter for mobile app subscribers<br /> </td> 
    <td> 支援類型篩選中的訂閱 — 當指定類型規則的篩選條件時，可選取應用程式訂閱作為篩選和定位維度，讓您能夠針對具有或沒有設定檔的使用者篩選屬性。 <br /> 如需詳細資訊，請參閱 <a href="../../sending/using/about-typology-rules.md">詳細檔案</a>.<br /> </td> 
   </tr> 
   <tr> 
@@ -139,9 +139,9 @@ ht-degree: 4%
 
 * 修正byEmail查詢篩選器無法傳回任何結果的問題。 (CAMP-23420)
 * 修正標準使用者可存取管理員限制的特定功能或畫面（/rest/head/*端點、交易式訊息畫面、設定檔和對象匯入畫面）的問題。
-* 修正GDPR隱私權刪除請求在名稱以數字開頭時無法處理自訂資源的問題。
-* 修正「儲存對象」活動無法在Adobe Experience Cloud中共用應用程式訂閱者的錯誤。
-* 修正檔案名稱包含空白字元時，「檔案傳輸」活動可能發生的問題。 (CAMP-25936)
+* Fixed an issue which prevented GDPR Privacy delete requests from processing custom resources if their name started by a number.
+* Fixed an error that prevented the Save Audience activity from sharing application subscribers in Adobe Experience Cloud.
+* Fixed an issue with the File Transfer activity that could occur when the file name contained blank spaces. (CAMP-25936)
 * 修正在工作階段過期後使用重新連線按鈕時可能發生的問題。 (CAMP-25560)
 * 修正傳送時，傳送與疲勞規則相關聯的時區最佳化時，可能導致排除的問題。 (CAMP-25425)
 * 修正使用API GDPR功能時，無法透過0-1類型連結刪除資料的問題。
@@ -168,11 +168,11 @@ ht-degree: 4%
 * 此 **[!UICONTROL Update delivery execution]** 技術工作流程分為兩個工作流程，以最佳化效能：- **[!UICONTROL Update delivery execution]**:更新傳送的追蹤。 預設會每10分鐘啟動一次。 **[!UICONTROL Update delivery indicators]**:更新傳送的KPI，預設會每小時啟動一次。 如需技術工作流程的詳細資訊，請參閱 [節](../../administration/using/technical-workflows.md#list-of-technical-workflows).
 * 當傳送訊息時， **[!UICONTROL Deployment]** 區段現在可以有兩個值： **[!UICONTROL Sending]**:正在傳送訊息。 **[!UICONTROL Sending (retry)]**:正在重試傳遞。
 * 具有 **[!UICONTROL Delivery preparation]** 角色現在可以傳送校樣。 (CAMP-24313)
-* 此 **透過SMPP啟用TLS** 選項已新增至 **通過SMPP的SMS路由** 外部帳戶。 如需詳細資訊，請參閱 [節](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing).
+* The **Enable TLS over SMPP** option has been added to the **SMS routing via SMPP** external account. 如需詳細資訊，請參閱 [節](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing).
 
 **修補程式**
 
-* 修正納入Adobe Target動態影像時，無法傳送電子郵件的問題(CAMP-24848)。
+* Fixed an issue which could prevent emails from being sent when including a dynamic image from Adobe Target (CAMP-24848).
 * 修正 **[!UICONTROL Privacy Access/Delete Request]** 技術工作流程，若有任何要求失敗，則無法完成。
 * 修正隱私權核心服務無法從Campaign接收要求狀態更新的問題。
 * 修正了 **[!UICONTROL Import shared audience]** 技術工作流程無法正常運作(CAMP-25465)。
@@ -241,8 +241,8 @@ ht-degree: 4%
 * 「sourceId」欄位現在會公開於追蹤記錄資源(nms:trackingLog)中。
 * 「開啟總次數」和「點按總次數」值現在可透過工作流程匯出為平面檔案。 (CAMP-24186)
 * 「英文 — Danmark」現在可在設定檔的「偏好語言」清單中取得。 (CAMP-23728)
-* 將分段活動與其他資料(targetData)連結搭配使用時，現在會出現訊息通知您，該資料無法在工作流程之外使用。 在「細分」活動中按一下「計數」或「預覽」按鈕時，會顯示此訊息。 (CAMP-23651)
-* 已增強功能，以最佳化工作流程使用的磁碟空間：(CAMP-21979):「載入檔案」活動處理的檔案現在預設會刪除。 選項可讓您根據特定需求保留這些值。 刪除工作流時，其專用資料夾將從伺服器目錄中自動隱藏。
+* 將分段活動與其他資料(targetData)連結搭配使用時，現在會出現訊息通知您，該資料無法在工作流程之外使用。 This message displays when clicking on the Count or Preview button from the Segmentation activity. (CAMP-23651)
+* 已增強功能，以最佳化工作流程使用的磁碟空間：(CAMP-21979):「載入檔案」活動處理的檔案現在預設會刪除。 選項可讓您根據特定需求保留這些值。 When a workflow is deleted, its dedicated folder is automatically suppressed from the server directory.
 
 **修補程式**
 
@@ -319,7 +319,7 @@ _自訂資源_
   </tr> 
   <tr> 
    <td> 多語言推播傳送<br /> </td> 
-   <td> 推播通道中已新增電子郵件和簡訊通道上已存在的相同簡單多語言介面，無論客戶使用何種偏好語言，均可協助您與客戶互動。<br /> 若客戶管理跨多個地區的推播促銷活動，且想以偏好的語言鎖定使用者，此功能可提供可擴充的自動解決方案。 它可讓您透過範本試算表，按一下即可上傳至單一推送傳送的所有語言變體。 Adobe Campaign接著會根據使用者的語言偏好執行自動分段，透過簡化工作流程和報告來協助減少重複。<br /> 如需詳細資訊，請參閱 <a href="../../channels/using/creating-a-multilingual-push-notification.md">詳細檔案</a>.<br /> </td> 
+   <td> 推播通道中已新增電子郵件和簡訊通道上已存在的相同簡單多語言介面，無論客戶使用何種偏好語言，均可協助您與客戶互動。<br /> 若客戶管理跨多個地區的推播促銷活動，且想以偏好的語言鎖定使用者，此功能可提供可擴充的自動解決方案。 它可讓您透過範本試算表，按一下即可上傳至單一推送傳送的所有語言變體。 Adobe Campaign then performs an automatic segmentation based on users' language preference, helping to reduce the redundancies by simplify workflows and reporting.<br /> For more information, refer to the <a href="../../channels/using/creating-a-multilingual-push-notification.md">detailed documentation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 自訂資源在交易式傳訊中的使用<br /> </td> 

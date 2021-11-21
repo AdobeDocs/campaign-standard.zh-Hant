@@ -25,8 +25,8 @@ Adobe Campaign Standard與Adobe Experience Manager的這項整合可讓您在Ado
 
 您應事先確定有下列元素：
 
-* Adobe Experience Manager **authoring**&#x200B;例項
-* Adobe Experience Manager **publishing**&#x200B;例項
+* 安Adobe Experience Manager **製作** 執行個體
+* 安Adobe Experience Manager **發佈** 執行個體
 * Adobe Campaign例項
 
 ## Adobe Campaign Standard中的設定 {#config-acs}
@@ -34,15 +34,15 @@ Adobe Campaign Standard與Adobe Experience Manager的這項整合可讓您在Ado
 若要同時使用這兩個解決方案，您必須將它們設定為彼此連線。
 若要設定Adobe Campaign:
 
-1. 您必須先在&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL External accounts menu]**&#x200B;下設定&#x200B;**[!UICONTROL Adobe Experience Manager instance]**&#x200B;外部帳戶。
+1. 您必須先設定 **[!UICONTROL Adobe Experience Manager instance]** 外部帳戶 **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL External accounts menu]**.
 
-1. 使用您的&#x200B;**[!UICONTROL Server]** URL、**[!UICONTROL Account]**&#x200B;和&#x200B;**[!UICONTROL Password]**&#x200B;設定Adobe Experience Manager類型外部帳戶。
+1. 使用設定Adobe Experience Manager類型外部帳戶 **[!UICONTROL Server]** URL, **[!UICONTROL Account]** 和 **[!UICONTROL Password]**.
 
    ![](assets/aem_1.png)
 
-1. 檢查&#x200B;**[!UICONTROL AEMResourceTypeFilter]**&#x200B;選項是否已正確配置。 訪問&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**&#x200B;菜單下的&#x200B;**[!UICONTROL Options]**&#x200B;菜單。
+1. 檢查 **[!UICONTROL AEMResourceTypeFilter]** 選項已正確設定。 存取 **[!UICONTROL Options]** 菜單 **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** 功能表。
 
-1. 在&#x200B;**[!UICONTROL Value (text)]**&#x200B;欄位中，檢查下列語法是否正確：
+1. 在 **[!UICONTROL Value (text)]** 欄位，檢查下列語法是否正確：
 
    ```
    mcm/campaign/components/newsletter,mcm/campaign/components/campaign_newsletterpage,mcm/neolane/components/newsletter
@@ -50,15 +50,15 @@ Adobe Campaign Standard與Adobe Experience Manager的這項整合可讓您在Ado
 
    ![](assets/aem_2.png)
 
-1. 然後，在「**[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**」下的進階功能表中，複製其中一個現有範本，以建立Adobe Experience Manager專用的電子郵件範本。
+1. 然後，在下方的進階功能表中 **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**，請複製其中一個現有範本，以建立Adobe Experience Manager專屬的電子郵件範本。
 
    ![](assets/aem_3.png)
 
-1. 按一下&#x200B;**[!UICONTROL Edit properties]**&#x200B;圖示。
+1. 按一下 **[!UICONTROL Edit properties]** 表徵圖。
 
    ![](assets/aem_4.png)
 
-1. 在&#x200B;**[!UICONTROL Content]**&#x200B;下拉式清單下，在&#x200B;**[!UICONTROL Content source]**&#x200B;欄位中選取&#x200B;**[!UICONTROL Adobe Experience Manager]**，然後在&#x200B;**[!UICONTROL Adobe Experience Manager account]**&#x200B;中選取您先前建立的外部帳戶。
+1. 在 **[!UICONTROL Content]** 下拉式清單，選取 **[!UICONTROL Adobe Experience Manager]** 在 **[!UICONTROL Content source]** 欄位，然後在 **[!UICONTROL Adobe Experience Manager account]**.
 
 您現在需要在Adobe Experience Manager中設定整合。
 
@@ -66,8 +66,8 @@ Adobe Campaign Standard與Adobe Experience Manager的這項整合可讓您在Ado
 
 若要使用Adobe Campaign Standard設定Adobe Experience Manager，您必須依照下列步驟操作：
 
-1. 您必須先在Adobe Experience Manager編寫和發佈執行個體之間設定復寫。 請參閱此[節](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html#configuring-adobe-experience-manager)。
+1. 您必須先在Adobe Experience Manager編寫和發佈執行個體之間設定復寫。 請參閱 [節](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html#configuring-adobe-experience-manager).
 
-1. 接著，設定專用的&#x200B;**[!UICONTROL Cloud Service]**，將Adobe Experience Manager連線至Adobe Campaign。 請參閱此[節](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html#connecting-aem-to-adobe-campaign)。
+1. 接著，設定專用的 **[!UICONTROL Cloud Service]**. 請參閱 [節](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html#connecting-aem-to-adobe-campaign).
 
-1. 您現在需要在Author例項上的Adobe Experience Manager中設定外部化程式。 請參閱此[節](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html#configuring-the-externalizer)。
+1. 您現在需要在Author例項上的Adobe Experience Manager中設定外部化程式。 請參閱 [節](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html#configuring-the-externalizer).

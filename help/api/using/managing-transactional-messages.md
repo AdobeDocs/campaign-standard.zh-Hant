@@ -21,12 +21,12 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->在[此部分](../../channels/using/configuring-transactional-event.md)中詳細描述了事件配置。
+>事件設定在 [本節](../../channels/using/configuring-transactional-event.md).
 
 例如，您希望當客戶在購物車中購買產品之前離開您的網站時，觸發「購物車放棄」事件。 若要這麼做，身為網頁開發人員，您必須使用REST交易式訊息API。
 
-1. 根據POST方法傳送要求，這會觸發交易事件](#sending-a-transactional-event)的[傳送。
-1. POST要求的回應包含主要金鑰，可讓您透過GET要求傳送一或多個要求。 然後，您就能取得[事件狀態](#transactional-event-status)。
+1. 根據POST方法傳送要求，這會觸發 [交易式事件的傳送](#sending-a-transactional-event).
+1. POST要求的回應包含主要金鑰，可讓您透過GET要求傳送一或多個要求。 然後，您就能取得 [事件狀態](#transactional-event-status).
 
 ## 傳送交易式事件 {#sending-a-transactional-event}
 
@@ -36,7 +36,7 @@ ht-degree: 3%
 POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 ```
 
-* **&lt;organization>**:您的個人組織ID。請參閱[本節](../../api/using/must-read.md)。
+* **&lt;organization>**:您的個人組織ID。 請參閱[本節](../../api/using/must-read.md)。
 
 * **&lt;transactionalapi>**:交易式訊息API endPoints。
 
@@ -46,13 +46,13 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
    請注意，交易式訊息API端點也會在API預覽期間顯示。
 
-* **&lt;eventid>**:您要傳送的事件類型。此ID會在建立事件設定時產生（請參閱[此區段](../../channels/using/configuring-transactional-event.md#creating-an-event)）。
+* **&lt;eventid>**:您要傳送的事件類型。 此ID會在建立事件設定時產生(請參閱 [本節](../../channels/using/configuring-transactional-event.md#creating-an-event))。
 
 ### POST請求標題
 
 請求必須包含「內容類型：application/json」標題。
 
-您必須新增字元集，例如&#x200B;**utf-8**。 請注意，此值取決於您使用的REST應用程式。
+例如，您必須新增字元集 **utf-8**. 請注意，此值取決於您使用的REST應用程式。
 
 ```
 -X POST \
@@ -69,8 +69,8 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
 可將下列選用參數新增至事件內容，以管理連結至事件的交易式訊息的傳送：
 
-* **過期** （選用）:在此日期之後，交易式事件的傳送將會取消。
-* **已排程** （選用）:從此日期起，將處理交易式事件，並傳送交易式訊息。
+* **過期** （可選）:在此日期之後，交易式事件的傳送將會取消。
+* **排程** （可選）:從此日期起，將處理交易式事件，並傳送交易式訊息。
 
 >[!NOTE]
 >
@@ -134,9 +134,9 @@ POST傳送事件的要求。
 
 在回應中，「狀態」欄位可讓您知道事件是否已處理：
 
-* **待定**:事件擱置中 — 事件剛觸發時就會進入此狀態。
+* **擱置**:事件擱置中 — 事件剛觸發時就會進入此狀態。
 * **處理**:事件處於待定傳送狀態 — 該事件正在轉換為訊息並傳送訊息。
-* **暫停**:事件進程正在暫停。不再處理，而是會保留在Adobe Campaign資料庫的佇列中。 如需詳細資訊，請參閱[本章節](../../channels/using/publishing-transactional-message.md#suspending-a-transactional-message-publication)。
+* **暫停**:事件進程正在暫停。 不再處理，而是會保留在Adobe Campaign資料庫的佇列中。 如需詳細資訊，請參閱[本章節](../../channels/using/publishing-transactional-message.md#suspending-a-transactional-message-publication)。
 * **已處理**:已處理事件且已成功傳送訊息。
 * **忽略**:傳送會忽略事件，通常是在地址處於隔離狀態時。
 * **deliveryFailed**:處理事件時發生傳送錯誤。

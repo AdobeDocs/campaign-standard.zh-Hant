@@ -32,29 +32,29 @@ ht-degree: 4%
 
 * 從訊息控制面板，您可以存取此特定訊息的數個報表。
 
-如需詳細資訊，請參閱[監控傳送](../../sending/using/monitoring-a-delivery.md)。
+如需詳細資訊，請參閱 [監控傳送](../../sending/using/monitoring-a-delivery.md).
 
 ## 追蹤 {#tracking-deliveries}
 
-為了更清楚了解目標設定檔的行為，您可以追蹤其對傳送的反應：接收、開啟、點按連結、取消訂閱等。 請參閱傳送的&#x200B;**追蹤記錄**&#x200B;標籤。
+為了更清楚了解目標設定檔的行為，您可以追蹤其對傳送的反應：接收、開啟、點按連結、取消訂閱等。 請參閱 **追蹤記錄** 標籤。
 
-**提示**:訊息追蹤預設為啟用。若要設定URL，請在傳送精靈的下半部選取「顯示URL」選項。 對於訊息的每個URL，您可以選擇是否啟用追蹤。
+**筆尖**:訊息追蹤預設為啟用。 若要設定URL，請在傳送精靈的下半部選取「顯示URL」選項。 對於訊息的每個URL，您可以選擇是否啟用追蹤。
 
-如需詳細資訊，請參閱[追蹤訊息](../../sending/using/tracking-messages.md)區段和[追蹤指標](../../reporting/using/tracking-indicators.md)說明。
+有關詳細資訊，請參閱 [追蹤訊息](../../sending/using/tracking-messages.md) 區段和 [追蹤指標](../../reporting/using/tracking-indicators.md) 說明。
 
 ## 動態報告 {#dyn-reports}
 
 動態報表可讓您建立完全可自訂的即時報表，以監控您的促銷活動。 Dimension、量度和視覺效果可讓您測量行銷活動對收件者的影響和成功。
 
-**提示**  — 內建報表可供您監控促銷活動，但您也可以拖放任何量度或維度至報表，以自訂這些報表。
+**筆尖**  — 內建報表可供您監控促銷活動，但您也可以拖放任何量度或維度至報表，以自訂這些報表。
 
-有關詳細資訊，請參閱[報告指南](../../reporting/using/about-dynamic-reports.md)。
+有關詳細資訊，請參閱 [報表指南](../../reporting/using/about-dynamic-reports.md).
 
 ## 熱點點擊
 
-「熱點點按」報表會以每個連結的點按百分比呈現訊息內容（HTML和/或文字）。 透過顯示每個動態內容的點按百分比，您可以測量哪些內容最能吸引收件者。
+「熱點點按」報表會以每個連結的點按百分比呈現訊息內容(HTML和/或文字)。 透過顯示每個動態內容的點按百分比，您可以測量哪些內容最能吸引收件者。
 
-有關詳細資訊，請參閱[熱點點按報表](../../reporting/using/hot-clicks.md)。
+有關詳細資訊，請參閱 [熱點按報表](../../reporting/using/hot-clicks.md).
 
 ## 傳遞效能提示 {#performance-tips}
 

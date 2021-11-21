@@ -22,7 +22,7 @@ ht-degree: 86%
 
 >[!IMPORTANT]
 >
->只有具有&#x200B;**[!UICONTROL Administration]**&#x200B;角色且可存取&#x200B;**所有**&#x200B;單位的功能[管理員](../../administration/using/users-management.md#functional-administrators)才能存取傳送記錄檔、訊息記錄檔、追蹤記錄檔、排除或訂閱記錄檔。 非管理員使用者可以鎖定這些記錄，但從連結的表格（設定檔、傳送）開始。
+>僅功能 [管理員](../../administration/using/users-management.md#functional-administrators)，使用 **[!UICONTROL Administration]** 角色和存取權 **全部** 裝置可存取傳送記錄檔、訊息記錄檔、追蹤記錄檔、排除或訂閱記錄檔。 非管理員使用者可以鎖定這些記錄，但從連結的表格（設定檔、傳送）開始。
 
 * **訊息記錄檔**：可直接從訊息控制面板存取這些記錄檔。其中會顯示傳送的詳細資料、已排除的目標、原因，以及開啟和點按數等追蹤資訊。
 

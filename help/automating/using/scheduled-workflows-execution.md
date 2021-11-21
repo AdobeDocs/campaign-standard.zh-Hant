@@ -22,7 +22,7 @@ ht-degree: 1%
 
 在Campaign Standard中，工作流引擎保證只有一個進程執行工作流實例。 封鎖活動（如匯入、長時間執行的查詢或寫入資料庫）會在執行時防止執行任何其他任務。
 
-另一方面，非封鎖活動不會封鎖其他工作的執行（通常是等候事件的活動，例如&#x200B;**[!UICONTROL Scheduler]**&#x200B;活動）。
+另一方面，非封鎖活動不會封鎖其他工作的執行(通常是等待事件的活動，例如 **[!UICONTROL Scheduler]** 活動)。
 
 這可能會導致一種情況，即使上次執行相同的工作流程尚未完成，基於排程的工作流程也可能開始執行，這可能導致非預期的資料問題。
 
@@ -30,11 +30,11 @@ ht-degree: 1%
 
 ## 設定工作流程
 
-若要檢查上一個工作流程執行中的一或多個任務是否仍待執行，您需要使用&#x200B;**[!UICONTROL Query]**&#x200B;和&#x200B;**[!UICONTROL Test]**&#x200B;活動。
+若要檢查上一個工作流程執行中的一或多個任務是否仍待執行，您需要使用 **[!UICONTROL Query]** 和 **[!UICONTROL Test]** 活動。
 
-1. 在&#x200B;**[!UICONTROL Scheduler]**&#x200B;活動後新增&#x200B;**[!UICONTROL Query]**&#x200B;活動，然後依照下列方式進行設定。
+1. 新增 **[!UICONTROL Query]** 活動之後 **[!UICONTROL Scheduler]** 活動，然後依下列方式進行設定。
 
-1. 將活動的資源變更為&#x200B;**[!UICONTROL WorkflowTaskDetail]**，這表示它將定位工作流程的目前任務。
+1. 將活動的資源變更為 **[!UICONTROL WorkflowTaskDetail]**，這表示它會以工作流程的目前任務為目標。
 
    ![](assets/scheduled-wkf-resource.png)
 
@@ -46,11 +46,11 @@ ht-degree: 1%
 
       >[!NOTE]
       >
-      >當&#x200B;**[!UICONTROL Scheduler]**&#x200B;活動啟動時，它會立即添加另一個計畫任務以在下一個計畫時間運行，並啟動工作流。 因此，從先前的執行中尋找待定任務時，請務必篩選查詢和排程任務。
+      >當 **[!UICONTROL Scheduler]** 活動啟動後，它會立即添加另一個計畫任務，以在下次計畫時間運行，並啟動工作流。 因此，從先前的執行中尋找待定任務時，請務必篩選查詢和排程任務。
 
    * 第二個規則確定來自工作流先前運行的任何任務是否仍處於活動狀態（掛起），該狀態對應於0執行狀態。
 
-1. 新增&#x200B;**[!UICONTROL Test]**&#x200B;活動，以檢查&#x200B;**[!UICONTROL Query]**&#x200B;活動傳回的待定任務數。 若要這麼做，請設定兩個出站轉變。
+1. 新增 **[!UICONTROL Test]** 活動，以檢查 **[!UICONTROL Query]** 活動。 若要這麼做，請設定兩個出站轉變。
 
    ![](assets/scheduled-wkf-test.png)
 

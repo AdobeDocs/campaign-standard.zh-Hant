@@ -17,7 +17,7 @@ ht-degree: 3%
 
 # 與自訂資源互動 {#interacting-with-custom-resources}
 
-**/customResources**&#x200B;端點可讓您在REST中公開Campaign自訂資源。 根據此API，可使用自訂實體與外部端點之間的整合。
+此 **/customResources** 端點可讓您在REST中公開Campaign自訂資源。 根據此API，可使用自訂實體與外部端點之間的整合。
 
 /customResources端點的行為與/profileAndServices端點完全相同。
 
@@ -28,7 +28,7 @@ ht-degree: 3%
 * 預設情況下，所有與任何事物無關的實體及其子女和孫輩。
 
 >[!NOTE]
->/profileAndServicesExt下可用的自訂資源不會公開於/customResources API中。
+>/profileAndServicesExt底下可用的自訂資源不會公開於/customResources API中。
 
 
 以下是從自訂資源擷取中繼資料的範例：
@@ -45,4 +45,4 @@ POST /customResources/<customResourceName>
 
 >[!NOTE]
 >隱私權API端點和工作流程(/privacy/privacyTool)無法管理未連結至設定檔實體的自訂資源。
->您有責任管理和清除這些自訂資源的任何PII。 有關隱私工具的詳細資訊，請[按一下這裡](../../api/using/creating-a-privacy-request.md)。
+>您有責任管理和清除這些自訂資源的任何PII。 如需隱私權工具的詳細資訊， [按一下這裡](../../api/using/creating-a-privacy-request.md).

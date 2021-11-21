@@ -21,7 +21,7 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->若要發佈API，請確定您擁有&#x200B;**[!UICONTROL Datamodel]**&#x200B;角色。
+>若要發佈API，請確定您有 **[!UICONTROL Datamodel]** 角色。
 
 公開公用API中延伸欄位的步驟如下：
 

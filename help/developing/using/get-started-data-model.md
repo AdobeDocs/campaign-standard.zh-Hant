@@ -29,11 +29,11 @@ ht-degree: 31%
 
 <img src="assets/do-not-localize/icon_datamodel.svg" width="60px">
 
-Campaign使用的資料是透過&#x200B;**預先定義的資料模型**&#x200B;中定義的不同資源來定義。 資料模型會針對一組行銷相關資源顯示現成可用的SQL結構：傳遞、對象、登錄頁面、設定檔等。 每個資源都會提供相關聯的篩選器，讓您導覽資源。
+Campaign使用的資料是透過 **預先定義的資料模型**. 資料模型會針對一組行銷相關資源顯示現成可用的SQL結構：傳遞、對象、登錄頁面、設定檔等。 每個資源都會提供相關聯的篩選器，讓您導覽資源。
 
-**診斷**&#x200B;菜單允許您列出由Campaign Standard生成的技術對象：資料結構、網頁、篩選器等，可讓您監控資料模型及其任何變更。
+此 **診斷** 功能表中，您可以列出由Campaign Standard產生的技術物件：資料結構、網頁、篩選器等，可讓您監控資料模型及其任何變更。
 
-顯示全文:
+閱讀全文:
 
 * [資料模型概念](../../developing/using/data-model-concepts.md)
 * [資料模型最佳實務](../../developing/using/data-model-best-practices.md)
@@ -44,11 +44,11 @@ Campaign使用的資料是透過&#x200B;**預先定義的資料模型**&#x200B;�
 
 <img src="assets/do-not-localize/icon_custom.svg" width="60px">
 
-Campaign Standard可讓您&#x200B;**擴充預先定義的資料模型**&#x200B;以建立您自己的資源（例如新增Purchase或Product表格），或使用新欄位擴充現有資源。 您也可以設定Campaign畫面，以最佳化導覽已建立的新資源和欄位。
+Campaign Standard可讓您 **豐富預先定義的資料模型** 建立您自己的資源（例如新增「購買」或「產品」表格），或使用新欄位擴充現有資源。 您也可以設定Campaign畫面，以最佳化導覽已建立的新資源和欄位。
 
-此外，您可以&#x200B;**擴充Campaign StandardREST API**，以在自訂資源設定檔的API擴充欄位中公開。 舉例來說，這可讓您使用從計費系統產生的促銷代碼來更新客戶的設定檔。
+此外，您也可以 **擴充Campaign StandardREST API** 以在自訂資源設定檔的API延伸欄位中公開。 舉例來說，這可讓您使用從計費系統產生的促銷代碼來更新客戶的設定檔。
 
-顯示全文:
+閱讀全文:
 
 * [新增或擴充資源](../../developing/using/key-steps-to-add-a-resource.md)
 * [擴充API](../../developing/using/about-extending-the-api.md)

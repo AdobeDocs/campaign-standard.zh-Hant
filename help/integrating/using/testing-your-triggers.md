@@ -19,17 +19,17 @@ ht-degree: 1%
 
 下列疑難排解提示可協助您解決搭配Adobe Campaign使用觸發器時最常遇到的問題：
 
-**是否激活了功能？**
+**功能是否已啟用？**
 
-若要檢查「觸發器 — 促銷活動」整合是否已啟用，請按一下左上角的Adobe Campaign標誌，然後選取&#x200B;**[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]**。 您應該會看到&#x200B;**[!UICONTROL Experience Cloud Triggers]**&#x200B;項目。
+若要檢查「觸發器 — 促銷活動」整合是否已啟用，請按一下左上角的Adobe Campaign標誌，然後選取 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]**. 您應會看到 **[!UICONTROL Experience Cloud Triggers]** 項目。
 
 如果您看到，請繼續下一步。
 
-如果沒有，請聯絡您的Adobe客戶經理或專業服務合作夥伴。 請參閱[啟用功能](../../integrating/using/configuring-triggers-in-experience-cloud.md#activating-the-functionality)。
+如果沒有，請聯絡您的Adobe客戶經理或專業服務合作夥伴。 請參閱 [啟用功能](../../integrating/using/configuring-triggers-in-experience-cloud.md#activating-the-functionality).
 
 **嘗試建立觸發器**
 
-請依照[在Campaign](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign)中建立對應觸發程式中所述的步驟，建立觸發程式。
+請依照 [在Campaign中建立對應的觸發程式](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) 來建立觸發器。
 
 如果已建立觸發程式，請前往下一個步驟。 否則，表示觸發端連接失敗。 檢查Triggers是否布建在Experience Cloud（啟動服務）中。 如果沒有，請聯絡您的Adobe客戶經理或專業服務合作夥伴。 需要下列資訊：
 
@@ -39,13 +39,13 @@ ht-degree: 1%
 
 **嘗試發佈觸發器**
 
-請依照[在Campaign](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign)中建立對應觸發程式中所述的步驟，發佈觸發程式。
+請依照 [在Campaign中建立對應的觸發程式](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) 來發佈觸發程式。
 
 如果發佈成功，請繼續執行下一個步驟。 否則，請聯繫Adobe以重新啟動您的執行個體，然後重試。
 
 **從網站產生觸發程式**
 
-請依照[編輯交易式訊息範本](../../integrating/using/using-triggers-in-campaign.md#editing-the-transactional-message-template)中所述步驟，編輯和發佈交易式範本。 接著，測試從網站產生觸發器的程式。
+請依照 [編輯交易式訊息範本](../../integrating/using/using-triggers-in-campaign.md#editing-the-transactional-message-template) 來編輯和發佈交易式範本。 接著，測試從網站產生觸發器的程式。
 
 如果Analytics收到觸發器，請繼續執行下一個步驟。 否則，請檢查下列項目：
 

@@ -82,7 +82,7 @@ ht-degree: 64%
 
 如果訊息因暫時錯誤而失敗，則在傳送期間將執行重試。 如需錯誤類型的詳細資訊，請參閱[傳送失敗類型和原因](#delivery-failure-types-and-reasons)。
 
-根據IP在歷史和目前指定網域的執行狀況，重試次數（在發送開始後應執行多少次重試）和兩次重試之間的最小延遲現在為<!--managed by the Adobe Campaign Enhanced MTA,-->。 會忽略 Campaign 中的&#x200B;**重試次數**&#x200B;設定。
+重試次數（在發送開始後應執行多少次重試）和兩次重試之間的最小延遲現在為<!--managed by the Adobe Campaign Enhanced MTA,--> 會根據IP在歷史和目前指定網域的執行狀況。 會忽略 Campaign 中的&#x200B;**重試次數**&#x200B;設定。
 
 <!--Please note that Adobe Campaign Enhanced MTA is not available for the Push channel.-->
 
@@ -92,11 +92,11 @@ ht-degree: 64%
 >
 >**您的 Campaign 傳送中的&#x200B;**[!UICONTROL Delivery duration]**參數現在僅在設為 3.5 天或更少時使用。** 如果您定義的值超過　3.5　天，則不會考慮該值。
 
-例如，如果您希望某個傳送的重試在一天後停止，您可以將傳送持續時間設為&#x200B;**1d**，而重試佇列中的訊息將在一天後移除。
+例如，如果您希望某個傳送的重試在一天後停止，您可以將傳送持續時間設為 **1d**，而重試佇列中的訊息將在一天後移除。
 
 >[!NOTE]
 >
->當訊息在重試佇列中停留最多3.5天且無法傳送時，訊息會逾時，其狀態會在[傳送記錄](../../sending/using/monitoring-a-delivery.md#delivery-logs)中更新為&#x200B;**[!UICONTROL Failed]**。<!--from **[!UICONTROL Sent]**-->
+>一旦訊息在重試佇列中停留最多3.5天且無法傳送，訊息就會逾時，且其狀態會更新<!--from **[!UICONTROL Sent]**--> to **[!UICONTROL Failed]** 在 [傳遞記錄](../../sending/using/monitoring-a-delivery.md#delivery-logs).
 
 <!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
@@ -116,9 +116,9 @@ The default configuration allows five retries at one-hour intervals, followed by
 >
 > Campaign **[!UICONTROL Message qualification]** 表格中的退信限定不再使用。
 
-inMail 程序仍會透過 **[!UICONTROL Inbound email]** 規則來限定非同步退信。若要存取這些規則，請按一下左上角的&#x200B;**Adobe**&#x200B;標誌，然後選取&#x200B;**[!UICONTROL Administration > Channels > Email > Email processing rules]**&#x200B;並選取&#x200B;**[!UICONTROL Bounce mails]**。 有關此規則的詳細資訊，請參閱[此部分](../../administration/using/configuring-email-channel.md#email-processing-rules)。
+inMail 程序仍會透過 **[!UICONTROL Inbound email]** 規則來限定非同步退信。若要存取這些規則，請按一下 **Adobe** 徽標，在左上角，然後選擇 **[!UICONTROL Administration > Channels > Email > Email processing rules]** 選取 **[!UICONTROL Bounce mails]**. 如需此規則的詳細資訊，請參閱 [本節](../../administration/using/configuring-email-channel.md#email-processing-rules).
 
-有關跳出數和不同跳出數類型的詳細資訊，請參閱[此部分](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)。
+如需退信和不同退信類型的詳細資訊，請參閱 [本節](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability).
 
 <!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 

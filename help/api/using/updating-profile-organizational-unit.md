@@ -17,7 +17,7 @@ ht-degree: 10%
 
 # 更新設定檔的組織單位 {#managing-organizational-units}
 
-1. 在&#x200B;**orgUnitBase**&#x200B;資源上執行GET請求以檢索組織單位PKey
+1. 在 **orgUnitBase** 檢索組織單位PKey的資源
 1. 對配置檔案PKey執行PATCH請求，在有效負載中包含所需的組織單位PKey。
 
 <br/>

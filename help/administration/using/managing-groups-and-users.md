@@ -24,7 +24,7 @@ ht-degree: 77%
 
 使用者必須始終連結到安全性群組。這可讓您指派他們特定的角色和組織單位。
 
-有關角色的詳細資訊，下頁的表根據用戶的角色顯示可能的操作：[Adobe Campaign Standard授權](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)。
+有關角色的詳細資訊，下頁的表根據用戶的角色顯示可能的操作： [Adobe Campaign Standard授權](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en).
 
 預設安全性群組為：
 
@@ -35,7 +35,7 @@ ht-degree: 77%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Access to the deliverability parameters (Deliverability)]**&#x200B;和&#x200B;**[!UICONTROL Message Center agents (mcExec)]**&#x200B;安全組僅Adobe內部，不應分配給任何用戶。
+>此 **[!UICONTROL Access to the deliverability parameters (Deliverability)]** 和 **[!UICONTROL Message Center agents (mcExec)]** 安全組僅Adobe內部，不應分配給任何用戶。
 
 若要存取Adobe Campaign，必須將每個使用者指派給安全性群組。
 
@@ -51,7 +51,7 @@ ht-degree: 77%
 >
 >請注意，在Admin Console中，安全性群組稱為設定檔。
 
-如果現成的群組不足以管理您的使用者，您可以建立自己的安全性群組。管理員可同時存取Adobe Campaign管理功能表和Admin Console來管理這些功能。 有關Admin Console的詳細資訊，請參閱此[文檔](https://helpx.adobe.com/tw/enterprise/managing/user-guide.html)。
+如果現成的群組不足以管理您的使用者，您可以建立自己的安全性群組。管理員可同時存取Adobe Campaign管理功能表和Admin Console來管理這些功能。 有關Admin Console的詳細資訊，請參閱 [檔案](https://helpx.adobe.com/tw/enterprise/managing/user-guide.html).
 
 首先，我們需要將兩個現成的群組（Standard User 和 Administrator）指派給使用者。這些安全性群組將限制 Adobe Campaign 的某些功能：舉例來說，Standard User 可以存取 Adobe Campaign 的基本存取權限，而 Administrator 可以存取管理功能表。
 
@@ -63,7 +63,7 @@ ht-degree: 77%
 
 首先，您需要將一個現成的安全性群組指派給使用者：
 
-1. 在Admin Console中，依序選取您的執行個體和&#x200B;**Users**&#x200B;標籤。
+1. 在Admin Console中，依序選取您的執行個體和 **使用者** 標籤。
 
    ![](assets/manage_security_group_2.png)
 
@@ -78,7 +78,7 @@ ht-degree: 77%
 
 將您的兩個使用者附加至 **[!UICONTROL Administrators]** 及 **[!UICONTROL Standard users]** 現成安全性群組（會將角色指派給我們的使用者）之後，Administrator 使用者現在可已建立兩個安全性群組（**Geometrixx** 及 **Geometrixx Clothes**），除了現成安全性群組之外，還會將組織單位指派給我們的使用者。
 
-1. 在Admin Console中，依序選取您的執行個體和&#x200B;**Products**&#x200B;標籤。
+1. 在Admin Console中，依序選取您的執行個體和 **產品** 標籤。
 1. 按一下 **New Profile** 按鈕以建立 **Geometrixx** 安全性群組。
 
    ![](assets/create_security_1.png)
@@ -124,7 +124,7 @@ ht-degree: 77%
 
 Administrator 使用者必須建立一組用於指派組織單位的安全性群組：Geometrixx 及 Geometrixx Chattes。若要瞭解如何建立組織單位，請參閱[建立和管理單位](../../administration/using/organizational-units.md#creating-and-managing-units)。
 
-1. 按一下左上角的&#x200B;**Adobe**&#x200B;標誌，然後選擇&#x200B;**[!UICONTROL Administration > Users & Security > Security groups]**。
+1. 按一下 **Adobe** 徽標，在左上角，然後選擇 **[!UICONTROL Administration > Users & Security > Security groups]**.
 1. 建立新的安全性群組並指定其 **[!UICONTROL Label]** 及 **[!UICONTROL ID]**。
 
    ID必須與Admin Console中選取的ID相同。

@@ -72,7 +72,7 @@ ht-degree: 96%
 
    例如，您可以定義特定時區，以便在工作流的所有活動中預設使用。依預設，工作流程的時區是為目前的促銷活動運算子定義的時區。
 
-   如需工作流程屬性的詳細資訊，請參閱[此頁面](../../automating/using/managing-execution-options.md)。
+   如需工作流程屬性的詳細資訊，請參閱 [本頁](../../automating/using/managing-execution-options.md).
 
    ![](assets/workflow_properties.png)
 
@@ -137,4 +137,4 @@ ht-degree: 96%
 
 >[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
 
-其他Campaign Standard操作說明影片可在[此處](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant)取得。
+提供其他Campaign Standard作法影片 [此處](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant).

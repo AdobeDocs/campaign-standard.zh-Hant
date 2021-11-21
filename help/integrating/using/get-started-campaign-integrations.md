@@ -49,14 +49,14 @@ ht-degree: 77%
    <td> Adobe Experience Manager<br /> </td> 
    <td> 可讓您直接在 Adobe Experience Manager 中建立對應至 Adobe Campaign 資料庫的電子郵件內容或表單。<br /> </td> 
    <td> 
-     <a href="../../integrating/using/integrating-with-experience-manager.md">使用Campaign與Experience Manager</a>、整合 <a href="https://helpx.adobe.com/tw/experience-manager/6-4/sites/administering/using/campaignstandard.html">Experience Manager與Campaign Standard</a>、使用 <a href="https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html">Experience Manager與促銷活動建立電子郵件</a> 
+     <a href="../../integrating/using/integrating-with-experience-manager.md">使用Campaign與Experience Manager</a>, <a href="https://helpx.adobe.com/tw/experience-manager/6-4/sites/administering/using/campaignstandard.html">整合Experience Manager和Campaign Standard</a>, <a href="https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html">使用Experience Manager和行銷活動建立電子郵件</a> 
     </td> 
   </tr> 
   <tr> 
    <td> Adobe Target<br /> </td> 
    <td> 可讓您在開啟由 Adobe Campaign 建立和發傳送的電子郵件活動時插入由 Adobe Target 動態運算的影像。<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-target-integration.md">使用Campaign和Target</a>、整合 <a href="https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html">Campaign和Target</a>、以即 <a href="https://helpx.adobe.com/tw/marketing-cloud/how-to/email-marketing.html">時影片個人化電子郵</a> 件影像（步驟3）
+    <a href="../../integrating/using/about-campaign-target-integration.md">使用Campaign與Target</a>, <a href="https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html">整合Campaign與Target</a>, <a href="https://helpx.adobe.com/tw/marketing-cloud/how-to/email-marketing.html">即時個人化電子郵件影像</a> 視訊（步驟3）
     </td> 
   </tr> 
   <tr> 
@@ -72,8 +72,8 @@ ht-degree: 77%
    <td> <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">People 服務核心（設定檔與觀眾）</a><br /> </td> 
   </tr> 
    <tr> 
-   <td> AdobeReal-time Customer Data Platform(RTCDP)<br /> </td> 
-   <td> Adobe Campaign與Adobe即時客戶資料平台(RTCDP)的整合可讓您共用區段資料，並將對象匯入Adobe Campaign。</td>
+   <td> Adobe Real-time Customer Data Platform(RTCDP)<br /> </td> 
+   <td> Adobe Campaign與Adobe Real-time Customer Data Platform(RTCDP)的整合可讓您共用區段資料，並將對象匯入Adobe Campaign。</td>
    <td><a href="../../integrating/using/get-started-sources-destinations.md">開始使用來源和目標</a></td>
   </tr> 
   <tr> 
@@ -95,14 +95,14 @@ ht-degree: 77%
   </tr> 
     <tr> 
    <td> AdobeJourney Orchestration<br /> </td> 
-   <td> 允許在AdobeJourney Orchestration的內容中使用Adobe Campaign Standard的交易式訊息功能，透過現成可用的動作來傳送電子郵件、推播通知和簡訊。<br /> </td> 
+   <td> 可透過現成可用的動作，在AdobeJourney Orchestration內容中使用Adobe Campaign Standard的交易式訊息功能來傳送電子郵件、推播通知和簡訊。<br /> </td> 
    <td> <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/working-with-adobe-campaign.html?lang=en">使用AdobeJourney Orchestration和Adobe Campaign Standard</a><br /> </td> 
   </tr> 
   <tr> 
    <td> Adobe Dreamweaver<br /> </td> 
    <td> 可讓您從 Dreamweaver 編輯電子郵件內容，並與 Adobe Campaign 同步化。<br /> </td> 
    <td> 
-    <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=zh-Hant">使用Dreamweavervideo建立個人化</a> 電子郵件，使 <a href="https://helpx.adobe.com/tw/dreamweaver/using/working-with-dreamweaver-and-campaign.html">用Dreamweaver的Campaign擴充功能</a> 
+    <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=zh-Hant">使用Dreamweaver建立個人化電子郵件</a> 視頻， <a href="https://helpx.adobe.com/tw/dreamweaver/using/working-with-dreamweaver-and-campaign.html">使用適用於Dreamweaver的Campaign擴充功能</a> 
   </td> 
   </tr> 
   <tr> 

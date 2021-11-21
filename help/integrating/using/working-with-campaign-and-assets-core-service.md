@@ -19,11 +19,11 @@ ht-degree: 9%
 
 將Assets核心服務或隨選資產(視您的Adobe Experience Cloud環境設定而定)與Adobe Campaign整合，可讓您在Adobe Campaign電子郵件和登錄頁面中，使用Adobe Experience Cloud內共用的任何資產。
 
-與Assets核心服務的整合僅限於[功能管理員](../../administration/using/users-management.md#functional-administrators)。
+與Assets核心服務的整合限制為 [功能管理員](../../administration/using/users-management.md#functional-administrators).
 
 從Adobe Experience Cloud共用的資源可用於電子郵件和登錄頁面，如下所示：
 
-1. 編輯電子郵件或登錄頁面的內容時，前往影像區塊，然後透過內容功能表選取&#x200B;**[!UICONTROL Image shared from Adobe Experience Cloud]**。
+1. 編輯電子郵件或登錄頁面的內容時，前往影像區塊，然後選取 **[!UICONTROL Image shared from Adobe Experience Cloud]** 透過內容功能表。
 
    ![](assets/dam_insert_image_dce.png)
 

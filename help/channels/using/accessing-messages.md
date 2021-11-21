@@ -30,17 +30,17 @@ ht-degree: 1%
 
 若要存取行銷活動的清單：
 
-1. 從頂端導覽列前往&#x200B;**[!UICONTROL Marketing activities]**。
+1. 前往 **[!UICONTROL Marketing activities]** 的上界。
 1. 選取 **[!UICONTROL Marketing activities > Marketing plans > Programs & Campaigns]**。
 
-   您也可以直接從首頁按一下&#x200B;**[!UICONTROL Programs & Campaigns]**&#x200B;卡片。 如需促銷活動的詳細資訊，請參閱[方案和促銷活動](../../start/using/programs-and-campaigns.md)區段。
+   您也可以直接按一下 **[!UICONTROL Programs & Campaigns]** 首頁的資訊卡。 如需促銷活動的詳細資訊，請參閱 [方案與行銷活動](../../start/using/programs-and-campaigns.md) 區段。
 
 1. 依序選擇方案和促銷活動。
 
    ![](assets/delivery_list_1.png)
 
-1. 按一下&#x200B;**[!UICONTROL Summary]**&#x200B;下拉式清單。
-1. 按一下&#x200B;**[!UICONTROL Search]**&#x200B;以篩選訊息的顯示方式（依名稱、日期或狀態）。
+1. 按一下 **[!UICONTROL Summary]** 下拉式清單。
+1. 按一下 **[!UICONTROL Search]** 以篩選訊息的顯示方式（依名稱、日期或狀態）。
 
    若要篩選循環訊息，您可以核取對應的方塊。
 
@@ -48,11 +48,11 @@ ht-degree: 1%
 
 若要從所有行銷活動合併中存取行銷活動的完整清單：
 
-1. 從上方導航欄中選擇&#x200B;**[!UICONTROL Marketing activities]**。
+1. 選擇 **[!UICONTROL Marketing activities]** 的上方。
 
-   您也可以從首頁的&#x200B;**[!UICONTROL Marketing activities]**&#x200B;卡片存取。 如需行銷活動清單的詳細資訊，請參閱[管理行銷活動](../../start/using/marketing-activities.md#creating-a-marketing-activity)區段。
+   您也可以從 **[!UICONTROL Marketing activities]** 首頁上的卡。 如需行銷活動清單的詳細資訊，請參閱 [管理行銷活動](../../start/using/marketing-activities.md#creating-a-marketing-activity) 區段。
 
-1. 若要篩選行銷活動（依名稱、日期、狀態或活動類型），請使用行銷活動清單左側的&#x200B;**[!UICONTROL Search]**&#x200B;欄位。
+1. 若要篩選行銷活動（依名稱、日期、狀態或活動類型），請使用 **[!UICONTROL Search]** 行銷活動清單左側的欄位。
 
 ![](assets/delivery_list_2.png)
 

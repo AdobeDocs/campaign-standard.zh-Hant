@@ -38,13 +38,13 @@ ht-degree: 79%
 
 * [調解](../../automating/using/reconciliation.md)活動會建立匯入資料和資料庫之間的連結，以便交易資料正確連接到設定檔和產品。
 * [更新資料](../../automating/using/update-data.md)活動將插入並更新帶有傳入資料的資料庫的「交易」資源。
-* [End](../../automating/using/start-and-end.md)活動會觸發目標工作流程，用於更新匯總。
+* 安 [結束](../../automating/using/start-and-end.md) 活動會觸發目標工作流程，用於更新匯總。
 
 ![](assets/signal_example_source1.png)
 
 目標工作流程如下：
 
-* [外部信號](../../automating/using/external-signal.md)活動等待源工作流成功完成。
+* 安 [外部信號](../../automating/using/external-signal.md) 活動會等待源工作流程成功完成。
 * [查詢](../../automating/using/query.md#enriching-data)活動會定位設定檔，並以收集來擴充設定檔，以擷取最後的購買日期。
 * [更新資料](../../automating/using/update-data.md)活動會將其他資料儲存在專用的自訂欄位中。請注意，設定檔資源已擴展到新增&#x200B;**上次購買日期**&#x200B;欄位。
 

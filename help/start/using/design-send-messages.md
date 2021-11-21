@@ -47,7 +47,7 @@ ht-degree: 6%
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit。 Vestibulum placerat mauris libero,non congue sapien rhoncus id. Integer luctus blandit ligula。 Nulla quis vehicula augue，乳酪。 Nunc pharetra frizilla enim eu suscipit. Mauris consectetur maximus euismod. Cras和Vehicula Nulla。 Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
-**了解更多**
+**閱讀全文**
 
 * xx
 * xx
@@ -58,7 +58,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit。 Vestibulum placerat m
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit。 Vestibulum placerat mauris libero,non congue sapien rhoncus id. Integer luctus blandit ligula。 Nulla quis vehicula augue，乳酪。 Nunc pharetra frizilla enim eu suscipit. Mauris consectetur maximus euismod. Cras和Vehicula Nulla。 Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
-**了解更多**
+**閱讀全文**
 
 * xx
 * xx
@@ -71,18 +71,18 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit。 Vestibulum placerat m
 
 個人化訊息是傳送相關內容、提供個人化體驗以及提高開啟和轉換率的關鍵。 Adobe Campaign傳送的跨通道訊息可透過數種不同方式個人化。 這些方式可根據設定檔與條件結合。 您可以：
 
-* 在訊息中插入[動態個人化欄位](../../designing/using/personalization.md#inserting-a-personalization-field)
-* 插入[預先定義的個人化區塊](../../designing/using/personalization.md#adding-a-content-block)
-* [個人](../../designing/using/subject-line.md) 化電子郵件或簡訊的傳送者。
-* [個人化電](../../designing/using/subject-line.md) 子郵件的主旨行
-* 在電子郵件](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)中建立[條件式內容，或在登錄頁面](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)中建立[
-* 在SMS訊息或推播通知中插入[動態文字](../../channels/using/defining-dynamic-text.md)
+* 插入 [動態個人化欄位](../../designing/using/personalization.md#inserting-a-personalization-field) 在您的訊息中
+* 插入 [預先定義的個人化區塊](../../designing/using/personalization.md#adding-a-content-block)
+* [個人化寄件者](../../designing/using/subject-line.md) 電子郵件或簡訊
+* [個人化主旨行](../../designing/using/subject-line.md) 電子郵件
+* 建立 [電子郵件中的條件式內容](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) 或 [登錄頁面中](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
+* 插入 [動態文字](../../channels/using/defining-dynamic-text.md) 在SMS訊息或推播通知中
 
 ![](assets/delivery_content_43.png)
 
-**了解更多**
+**閱讀全文**
 
-* 透過[端對端範例](../../designing/using/personalization.md#example-email-personalization)探索電子郵件個人化
+* 透過 [端對端範例](../../designing/using/personalization.md#example-email-personalization)
 * [個人化URL](../../designing/using/personalization.md#personalizing-urls)
 * [設定影像的個人化](../../designing/using/personalization.md#personalizing-an-image-source)
 
@@ -101,7 +101,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit。 Vestibulum placerat m
 透過Adobe Campaign，您可以個別監控及追蹤每個傳送。 訊息控制面板會顯示專用記錄檔，以追蹤程式、規則，並識別可能的錯誤和警告。
 
 
-**了解更多**
+**閱讀全文**
 
 * [存取報表](../../reporting/using/about-dynamic-reports.md)
 * [監視傳遞](../../sending/using/monitoring-a-delivery.md)
@@ -113,7 +113,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit。 Vestibulum placerat m
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit。 Vestibulum placerat mauris libero,non congue sapien rhoncus id. Integer luctus blandit ligula。 Nulla quis vehicula augue，乳酪。 Nunc pharetra frizilla enim eu suscipit. Mauris consectetur maximus euismod. Cras和Vehicula Nulla。 Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
-**了解更多**
+**閱讀全文**
 
 * xx
 * xx

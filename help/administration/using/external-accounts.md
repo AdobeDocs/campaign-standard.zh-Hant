@@ -30,7 +30,7 @@ ht-degree: 81%
 * Adobe Analytics。如需詳細資訊，請參閱[本區段](../../integrating/using/configure-campaign-analytics-integration.md)。
 * Google reCAPTCHA。如需詳細資訊，請參閱[本區段](#google-recaptcha-external-account)。
 * Microsoft Azure Blob 儲存。如需詳細資訊，請參閱[本區段](#microsoft-azure-external-account)。
-* OAuth 2.0。有關詳細資訊，請參閱[此部分](#oauth-account)。
+* OAuth 2.0。如需詳細資訊，請參閱 [本節](#oauth-account).
 
 >[!NOTE]
 >
@@ -82,7 +82,7 @@ Adobe Campaign 隨附一組預先定義的外部帳戶。若要設定與外部�
 * 時常登入 SFTP 以直接檢查其內容。
 * 請記住，SFTP 硬碟的管理主要是您的責任。
 
-另請注意，您嘗試起始SFTP連線的公用IP必須新增至Campaign執行個體的允許清單。 可通過[支援票證](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)請求將IP地址添加到允許清單，並提供用於驗證的公鑰。
+另請注意，您嘗試起始SFTP連線的公用IP必須新增至Campaign執行個體的允許清單。 可將IP位址新增至允許清單，可透過 [支援票證](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)，以及提供用於驗證的公開金鑰。
 
 SFTP 伺服器可從「控制面板」進行管理。如需詳細資訊，請參閱[控制面板文件](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html)。
 
@@ -94,12 +94,12 @@ SFTP 伺服器可從「控制面板」進行管理。如需詳細資訊，請參
 
 若為OAuth 2.0外部帳戶，請提供下列詳細資訊：
 
-* A **授予類型**:僅支援&#x200B;**用戶端憑證**。
+* A **授權類型**:僅限 **客戶端憑據** 支援。
 * A **安全API URL**:輸入授權端點。
-* **OAuth 2.0敏感憑證**:本節的用途為具有敏感性質的認證。新增憑證值後，會在畫面上遮罩這些值；此時，這些字元將無法閱讀或編輯。 如果授權端點要求將特定憑據插入HTTP授權標題(而非POST主體參數)中，則可以為該憑據選擇「在標題中包括」選項。
-* **OAuth 2.0非敏感憑證**:本節的用途為非敏感憑證。新增憑證值後，這些值會顯示在畫面上；也可以編輯。  如果授權端點要求將特定憑據插入HTTP授權標題(而非POST主體參數)中，則可以為該憑據選擇「在標題中包括」選項。
+* **OAuth 2.0敏感憑證**:本節的用途為具有敏感性質的認證。 新增憑證值後，會在畫面上遮罩這些值；此時，這些字元將無法閱讀或編輯。 如果授權端點要求將特定憑據插入HTTP授權標題(而非POST主體參數)中，則可以為該憑據選擇「在標題中包括」選項。
+* **OAuth 2.0非敏感憑證**:本節的用途為非敏感憑證。 新增憑證值後，這些值會顯示在畫面上；也可以編輯。  如果授權端點要求將特定憑據插入HTTP授權標題(而非POST主體參數)中，則可以為該憑據選擇「在標題中包括」選項。
 
-輸入帳戶資訊後，按一下&#x200B;**測試連線**&#x200B;以確認外部帳戶已正確設定。
+輸入帳戶資訊後，按一下 **測試連接** 確認外部帳戶已正確設定。
 
 ![](assets/external_accounts_OAuth.png)
 

@@ -22,7 +22,7 @@ ht-degree: 67%
 
 ![](assets/identification_example2.png)
 
-* [載入檔案](../../automating/using/load-file.md)活動，可載入並檢測要匯入的檔案的資料。 匯入的檔案包含下列資料：
+* A [載入檔案](../../automating/using/load-file.md) 活動，可載入並偵測要匯入之檔案的資料。 匯入的檔案包含下列資料：
 
    ```
    lastname;firstname;email;dateofbirth
@@ -37,10 +37,10 @@ ht-degree: 67%
    tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
    ```
 
-* [調解](../../automating/using/reconciliation.md)活動，將載入檔案的每一欄連結至設定檔維度欄。 無法識別的檔案記錄（遺失資料、不相容的資料類型等）會遭到忽略，以保留最終對象資料的完整性。
+* A [調解](../../automating/using/reconciliation.md) 活動，會將載入檔案的每欄連結至設定檔維度欄。 無法識別的檔案記錄（遺失資料、不相容的資料類型等）會遭到忽略，以保留最終對象資料的完整性。
 
    ![](assets/identification_example1.png)
 
-* [儲存對象](../../automating/using/save-audience.md)活動，可儲存設定檔的對象。
+* A [儲存對象](../../automating/using/save-audience.md) 活動，可儲存設定檔的對象。
 
    ![](assets/identification_example3.png)

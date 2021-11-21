@@ -47,9 +47,9 @@ ht-degree: 82%
 
    編輯 **[!UICONTROL Condition]** 欄位時，兩個按鈕可提供呼叫事件變數及編輯結合變數和函式的運算式的協助：
 
-   * ![](assets/extsignal_picker.png):在工作流程中可用的所有變數中選取事件變數(請參閱 [本頁面](../../automating/using/customizing-workflow-external-parameters.md))。
+   * ![](assets/extsignal_picker.png):在工作流程中可用的所有變數中選取事件變數(請參閱 [本頁](../../automating/using/customizing-workflow-external-parameters.md))。
 
-      例如，您可以使用&#x200B;**[!UICONTROL filesCount]**&#x200B;變數，在[檔案傳輸](../../automating/using/transfer-file.md)活動之後檢查下載的檔案數。
+      例如，您可以在 [檔案傳輸](../../automating/using/transfer-file.md) 使用的活動 **[!UICONTROL filesCount]** 變數。
 
       ![](assets/wkf_test_activity_variables.png)
 

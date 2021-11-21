@@ -19,7 +19,7 @@ ht-degree: 1%
 
 ## 擷取篩選器中繼資料
 
-篩選器適用於每個資源。 若要識別與資源相關聯的篩選器，您需要對資源中繼資料執行GET請求。 此請求會傳回URL，其中會為指定資源定義所有篩選器。 有關元資料的詳細資訊，請參閱[此部分](../../api/using/metadata-mechanism.md)。
+篩選器適用於每個資源。 若要識別與資源相關聯的篩選器，您需要對資源中繼資料執行GET請求。 此請求會傳回URL，其中會為指定資源定義所有篩選器。 如需中繼資料的詳細資訊，請參閱 [本節](../../api/using/metadata-mechanism.md).
 
 若要識別篩選器的中繼資料並判斷如何使用，您必須對先前傳回的URL執行GET要求。
 
@@ -66,10 +66,10 @@ ht-degree: 1%
 
 每個篩選器都有相同的中繼資料結構：
 
-* **@formType**&#x200B;和&#x200B;**@webPage**&#x200B;欄位是技術欄位。
-* **data**&#x200B;欄位提供如何使用篩選器的範例。
-* **metadata**&#x200B;節點描述篩選參數。
-* **condition**&#x200B;節點描述篩選器的用途。 中繼資料節點中所述的篩選參數可用來建立篩選條件。 對於每個篩選條件，如果&#x200B;**enabledIf**&#x200B;為true，則會套用&#x200B;**expr**。
+* 此 **@formType** 和 **@webPage** 欄位是技術欄位。
+* 此 **資料** 欄位提供如何使用篩選器的範例。
+* 此 **中繼資料** 節點描述篩選參數。
+* 此 **條件** 節點描述篩選器的用途。 中繼資料節點中所述的篩選參數可用來建立篩選條件。 對於每個篩選條件，如果 **enabledIf** 是真的， **expr** 中所有規則的URL區段。
 
 <br/>
 
@@ -133,8 +133,7 @@ ht-degree: 1%
    }
    ```
 
-* 擷取包含「Doe」之「設定檔」資源的範例GET請求，於
-「電子郵件」或「姓氏」欄位（byText篩選器會同時搜尋「電子郵件」和「姓氏」欄位）。
+* 擷取電子郵件或姓氏欄位中包含「Doe」之「設定檔」資源的範例GET請求（byText篩選器會同時搜尋電子郵件和姓氏欄位）。
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Doe \
@@ -203,7 +202,7 @@ ht-degree: 1%
 如需詳細資訊，請參閱Campaign Standard檔案：
 
 * [設定篩選定義](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html).
-* [使用案例：使用複合識別鍵呼叫資源](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html)。
+* [使用案例：使用複合識別鍵呼叫資源](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html).
 
 <br/>
 

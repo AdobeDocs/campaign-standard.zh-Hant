@@ -22,9 +22,9 @@ ht-degree: 3%
 
 * **編輯** （灰色）
 
-   這是工作流的初始設計階段（請參閱[建立工作流](../../automating/using/building-a-workflow.md#creating-a-workflow)）。 伺服器尚未處理工作流程，可以修改而無任何風險。
+   這是工作流程的初始設計階段(請參閱 [建立工作流程](../../automating/using/building-a-workflow.md#creating-a-workflow))。 伺服器尚未處理工作流程，可以修改而無任何風險。
 
-* **進行中** （藍色）
+* **正在進行中** （藍色）
 
    完成初始設計階段後，即可啟動工作流程並由伺服器處理。
 
@@ -36,12 +36,12 @@ ht-degree: 3%
 
 * **警告** （黃色）
 
-   無法使用![](assets/pause_darkgrey-24px.png)或![](assets/check_pause_darkgrey-24px.png)按鈕完成或暫停工作流。
+   無法完成或已使用 ![](assets/pause_darkgrey-24px.png) 或 ![](assets/check_pause_darkgrey-24px.png) 按鈕。
 
 * **錯誤** （紅色）
 
-   執行工作流時出錯。 工作流程已停止，使用者必須執行動作。 要了解有關此錯誤的詳細資訊，請使用![](assets/printpreview_darkgrey-24px.png)按鈕訪問工作流日誌（請參閱[監視](../../automating/using/monitoring-workflow-execution.md)）。
+   執行工作流時出錯。 工作流程已停止，使用者必須執行動作。 若要進一步了解此錯誤，請使用 ![](assets/printpreview_darkgrey-24px.png) 存取工作流程記錄檔的按鈕(請參閱 [監控](../../automating/using/monitoring-workflow-execution.md))。
 
-行銷活動清單可讓您顯示所有工作流程及其狀態。 如需詳細資訊，請參閱[管理行銷活動](../../start/using/marketing-activities.md#about-marketing-activities)。
+行銷活動清單可讓您顯示所有工作流程及其狀態。 有關詳細資訊，請參閱 [管理行銷活動](../../start/using/marketing-activities.md#about-marketing-activities).
 
 ![](assets/wkf_execution_3.png)

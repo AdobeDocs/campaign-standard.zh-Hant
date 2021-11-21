@@ -52,7 +52,7 @@ ht-degree: 89%
    * **[!UICONTROL Channels]** 類別包含電子郵件地址、行動電話號碼、選取退出資訊，讓您知道可透過哪個通道存取設定檔。
    * 設定檔取消訂閱通道之後，就會更新　**[!UICONTROL No longer contact]**　類別。
    * **[!UICONTROL Address]** 類別包含需要填寫的郵遞區號，以及需要將[直接郵件](../../channels/using/about-direct-mail.md)傳送給此設定檔的　**[!UICONTROL Address specified]**　選項。如果未核取 **[!UICONTROL Address specified]** 選項，則會將此設定檔從每個直接郵件發送中排除。
-   * **[!UICONTROL Access authorization]**&#x200B;類別會將設定檔的組織單位指示為[管理權限](../../administration/using/about-access-management.md)。 若要將組織欄位新增至您的設定檔，請參閱[分割設定檔](../../administration/using/organizational-units.md#partitioning-profiles)區段。
+   * 此 **[!UICONTROL Access authorization]** 類別會將設定檔的組織單位指向 [管理權限](../../administration/using/about-access-management.md). 若要將組織欄位新增至您的設定檔，請參閱[分割設定檔](../../administration/using/organizational-units.md#partitioning-profiles)區段。
    * **[!UICONTROL Traceability]** 類別會使用關於建立或修改設定檔的使用者來自動更新。
 
 1. 按一下 **[!UICONTROL Create]** 以儲存設定檔。
@@ -68,4 +68,4 @@ ht-degree: 89%
 
 >[!VIDEO](https://video.tv.adobe.com/v/24993?quality=12)
 
-其他Campaign Standard操作說明影片可在[此處](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant)取得。
+提供其他Campaign Standard作法影片 [此處](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant).

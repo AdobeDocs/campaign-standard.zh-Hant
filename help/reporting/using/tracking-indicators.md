@@ -18,7 +18,7 @@ ht-degree: 2%
 
 # 追蹤指標{#tracking-indicators}
 
-**[!UICONTROL Tracking indicators]**&#x200B;報表包含收到電子郵件訊息後追蹤行為的關鍵指標。
+此 **[!UICONTROL Tracking indicators]** 報表包含收到電子郵件訊息後追蹤行為的關鍵指標。
 
 >[!NOTE]
 >
@@ -26,11 +26,11 @@ ht-degree: 2%
 
 ![](assets/delivery_reports_2.png)
 
-**[!UICONTROL Tracking indicators]**&#x200B;表格和&#x200B;**前5個傳送**&#x200B;圖表包含可用於電子郵件追蹤的資料，例如：
+此 **[!UICONTROL Tracking indicators]** 表格和 **前5名傳遞** 圖表包含電子郵件追蹤的可用資料，例如：
 
-* **[!UICONTROL Delivered]**:已成功發送的消息數。引發的錯誤（退信）會納入考量。 但是，投訴（垃圾郵件宣告）和離職訊息（例如「離職」）並未納入考量。
+* **[!UICONTROL Delivered]**:已成功發送的消息數。 引發的錯誤（退信）會納入考量。 但是，投訴（垃圾郵件宣告）和離職訊息（例如「離職」）並未納入考量。
 * **開啟**:傳遞中開啟訊息的次數。
 * **按一下**:傳送中內容的點按次數。
-* **取消訂閱**:訂閱連結的點按次數。
+* **已取消訂閱**:訂閱連結的點按次數。
 * **垃圾郵件：** 已宣告電子郵件為垃圾郵件的收件人數。
 * **鏡像頁**:鏡像頁面連結上的點按次數。

@@ -17,13 +17,13 @@ ht-degree: 3%
 
 # 建立設定檔 {#creating-profiles}
 
-在設定檔資源上，使用&#x200B;**POST**&#x200B;請求來建立設定檔。
+建立設定檔時使用 **POST** 設定檔資源上的要求。
 
 >[!CAUTION]
 >
->如果要將<b>orgUnit</b>關聯到建立的配置檔案，則需要將配置檔案資源擴展到此欄位，並在發佈擴展後，在<b>ProfileAndServicesExt</b>端點上執行POST請求。
+>如果您想關聯 <b>orgUnit</b> 在建立的設定檔中，您需要使用此欄位擴充設定檔資源，並在擴充功能發佈後，對 <b>ProfileAndServicesExt</b> 端點。
 >
->如需設定檔資源擴充功能的詳細資訊，請參閱<a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">Campaign檔案</a>。
+>如需設定檔資源擴充功能的詳細資訊，請參閱 <a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">Campaign檔案</a>.
 
 <br/>
 

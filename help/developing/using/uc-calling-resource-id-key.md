@@ -16,7 +16,7 @@ ht-degree: 7%
 
 在某些情況下，您可能需要為資源定義由兩個欄位組成的識別索引鍵。 在設定識別金鑰後，您需要設定篩選定義，才能透過此識別金鑰(從Campaign Standard介面或API)呼叫資源。
 
-在此使用案例中，**Profile**&#x200B;資源已擴充為自訂&#x200B;**&quot;CRM ID&quot;**&#x200B;和&#x200B;**&quot;category&quot;**&#x200B;欄位。 我們將為設定檔資源建立識別索引鍵，由這兩個欄位組成。 之後，我們會設定篩選器定義，以便使用識別索引鍵存取設定檔資源。
+在此使用案例中， **設定檔** 已使用自訂擴充資源 **&quot;CRM ID&quot;** 和 **&quot;category&quot;** 欄位。 我們將為設定檔資源建立識別索引鍵，由這兩個欄位組成。 之後，我們會設定篩選器定義，以便使用識別索引鍵存取設定檔資源。
 
 此使用案例的主要步驟為：
 
@@ -33,33 +33,33 @@ ht-degree: 7%
 ## 步驟1:配置標識密鑰{#step-1-configure-the-identification-key}
 
 >[!NOTE]
-> 在[本節](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)中詳細說明配置標識鍵時的全局概念。
+> 配置標識鍵時的全局概念在 [本節](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys).
 
 1. 在設定識別金鑰之前，請確定資源已擴充至所需的欄位，且已發佈。 如需詳細資訊，請參閱[本章節](../../developing/using/creating-or-extending-the-resource.md)。
 
-1. 前往&#x200B;**[!UICONTROL Administration]** / **[!UICONTROL Development]** / **[!UICONTROL Custom resources]**&#x200B;功能表，然後開啟&#x200B;**[!UICONTROL Profile]**&#x200B;資源。
+1. 前往 **[!UICONTROL Administration]** / **[!UICONTROL Development]** / **[!UICONTROL Custom resources]** ，然後開啟 **[!UICONTROL Profile]** 資源。
 
    ![](assets/uc_idkey1.png)
 
-1. 在&#x200B;**[!UICONTROL Identification keys]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL Create element]**&#x200B;按鈕。
+1. 在 **[!UICONTROL Identification keys]** 區段，按一下 **[!UICONTROL Create element]** 按鈕。
 
    ![](assets/uc_idkey2.png)
 
-1. 新增兩個自訂「CRM ID」和「類別」欄位，然後按一下&#x200B;**[!UICONTROL Confirm]**。
+1. 新增兩個自訂「CRM ID」和「類別」欄位，然後按一下 **[!UICONTROL Confirm]**.
 
    ![](assets/uc_idkey3.png)
 
    >[!NOTE]
-   > 如果要在設定檔的介面中顯示兩個自訂欄位，請設定&#x200B;**[!UICONTROL Screen definition]**&#x200B;標籤。 如需詳細資訊，請參閱[本章節](../../developing/using/configuring-the-screen-definition.md)。
+   > 如果您想在設定檔的介面中顯示兩個自訂欄位，請設定 **[!UICONTROL Screen definition]** 標籤。 如需詳細資訊，請參閱[本章節](../../developing/using/configuring-the-screen-definition.md)。
 
 1. 您現在可以設定篩選定義，以使用其識別索引鍵呼叫資源。
 
 ## 步驟2:設定篩選定義{#step-2-configure-the-filter-definition}
 
 >[!NOTE]
-> 在[本小節](../../developing/using/configuring-filter-definition.md)中詳細說明配置篩選器定義時的全局概念。
+> 設定篩選器定義時的全域概念在 [本節](../../developing/using/configuring-filter-definition.md).
 
-1. 在&#x200B;**[!UICONTROL Filter definition]**&#x200B;標籤中，按一下&#x200B;**[!UICONTROL Add an element]**，然後輸入篩選定義的標籤和ID。
+1. 在 **[!UICONTROL Filter definition]** 按一下 **[!UICONTROL Add an element]**，然後輸入篩選定義的標籤和ID。
 
 1. 編輯篩選器定義的屬性以設定其規則。
 
@@ -69,16 +69,16 @@ ht-degree: 7%
 
    ![](assets/uc_idkey5.png)
 
-1. 選取識別索引鍵(&quot;CRM ID&quot;)中使用的第一個欄位，然後啟動&#x200B;**[!UICONTROL Switch to parameters]**&#x200B;選項。
+1. 選取識別金鑰(「CRM ID」)中使用的第一個欄位，然後啟用 **[!UICONTROL Switch to parameters]** 選項。
 
    ![](assets/uc_idkey6.png)
 
-1. 在&#x200B;**[!UICONTROL Filter conditions]**&#x200B;區段中，保留&#x200B;**[!UICONTROL Equal]**&#x200B;運算子，然後定義參數的名稱，然後按一下加號以建立它。
+1. 在 **[!UICONTROL Filter conditions]** 區段，保留 **[!UICONTROL Equal]** 運算子，然後定義參數的名稱，然後按一下加號以建立它。
 
    ![](assets/uc_idkey7.png)
 
    >[!NOTE]
-   > 在您按一下&#x200B;**+**&#x200B;按鈕後，會自動產生參數的名稱。 請注意，因為您需要此資訊才能使用API的篩選器。
+   > 按一下 **+** 按鈕，則會自動產生參數的名稱。 請注意，因為您需要此資訊才能使用API的篩選器。
 
 1. 對構成識別索引鍵(「category」)的所有欄位重複上述步驟，然後儲存您的變更。
 
@@ -90,7 +90,7 @@ ht-degree: 7%
 
 在設定識別金鑰及其篩選定義後，您就可以使用這些金鑰，從Campaign標準介面或REST API呼叫資源。
 
-若要從介面使用篩選定義，請在工作流程中使用&#x200B;**[!UICONTROL Query]**&#x200B;活動（請參閱[此區段](../../automating/using/query.md)）。 篩選器便可在左窗格中使用。
+若要從介面使用篩選定義，請使用 **[!UICONTROL Query]** 工作流程中的活動(請參閱 [本節](../../automating/using/query.md))。 篩選器便可在左窗格中使用。
 
 ![](assets/uc_idkey9.png)
 
@@ -101,7 +101,7 @@ GET /profileAndServicesExt/<resourceName>/by<filterName>?<param1_parameter>=<val
 ```
 
 >[!NOTE]
->若要呼叫自訂篩選，請在[step 2](../../developing/using/uc-calling-resource-id-key.md#step-2-configure-the-filter-definition)中設定篩選定義時，使用「by」前置詞及後面定義的篩選器名稱。
+>若要呼叫自訂篩選，請在設定篩選器定義時，使用「by」首碼，後接定義的篩選器名稱(在 [步驟2](../../developing/using/uc-calling-resource-id-key.md#step-2-configure-the-filter-definition).
 
 在本例中，使用「123456」CRM ID從「spring」類別擷取設定檔的語法為：
 
@@ -109,4 +109,4 @@ GET /profileAndServicesExt/<resourceName>/by<filterName>?<param1_parameter>=<val
 GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byidentification_key?category_parameter=spring&crm_id_parameter=123456
 ```
 
-如需詳細資訊，請參閱[Campaign StandardREST API檔案](../../api/using/filtering.md)。
+如需詳細資訊，請參閱 [Campaign StandardREST API檔案](../../api/using/filtering.md).

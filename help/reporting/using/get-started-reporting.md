@@ -32,11 +32,11 @@ ht-degree: 19%
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-使用動態報告&#x200B;**拖放介面**，您可以探索資料、判斷電子郵件促銷活動對最重要客戶區段的執行方式，並透過單一位置評估其對收件者的影響。
+使用動態報告 **拖放介面**，您可以探索資料、判斷電子郵件促銷活動對最重要客戶區段的執行方式，以及從單一位置評估其對收件者的影響。
 
-**運用各種功** 能管理您的動態報表：即時重新整理資料、列印報表，或匯出為CSV檔案。您也可以透過一次或循環寄送的電子郵件，與Campaign Standard使用者共用報表。
+**管理動態報表** 由於有各種功能，即時重新整理資料、列印報表，或匯出為CSV檔案。 您也可以透過一次或循環寄送的電子郵件，與Campaign Standard使用者共用報表。
 
-顯示全文:
+閱讀全文:
 
 * [關於動態報告](../../reporting/using/about-dynamic-reports.md)
 * [報告介面](../../reporting/using/reporting-interface.md)
@@ -45,11 +45,11 @@ ht-degree: 19%
 
 <img src="assets/do-not-localize/icon_build.svg" width="60px">
 
-Campaign Standard隨附一組&#x200B;**現成可用的動態報表**，可讓您測量行銷活動的多個方面：退信、已宣告為垃圾訊息或垃圾訊息最多的傳送、收件者檢視的傳送最多、與管道相關的報表、傳送總處理和追蹤報表。
+Campaign Standard隨附一組 **現成可用動態報告** 可讓您測量行銷活動的多個方面：退信、已宣告為垃圾訊息或垃圾訊息最多的傳送、收件者檢視的傳送最多、與管道相關的報表、傳送總處理和追蹤報表。
 
-**結合不同的元件** （維度、量度、區段、時段）以建立您自己的報表，或個人化現成可用的報表。
+**結合不同的元件** （維度、量度、區段、時段），以建立您自己的報表或個人化現成可用的報表。
 
-顯示全文:
+閱讀全文:
 
 * [元件清單](../../reporting/using/list-of-components-.md)
 * [指標計算](../../reporting/using/indicator-calculation.md)
@@ -59,13 +59,13 @@ Campaign Standard隨附一組&#x200B;**現成可用的動態報表**，可讓您
 
 <img src="assets/do-not-localize/icon_customize.svg" width="60px">
 
-**運用動態** 報表設計功能來自訂報表：新增您所需的元件（面板和自由表格），以使用可用的量度和維度分析資料。
+**自訂報表** 利用動態報告設計功能：新增您所需的元件（面板和自由表格），以使用可用的量度和維度分析資料。
 
-拖放&#x200B;**視覺效果項目**，將資料的圖形表示法新增至報表中，並根據您的需求進行設定。
+拖放 **視覺效果項目** 將資料的圖形表示法新增至報表，並視您的需求進行設定。
 
-根據在設定檔資源擴充期間建立的&#x200B;**自訂設定檔資料**&#x200B;建立報表，以及根據定位工作流程中定義的區段&#x200B;**建立報表。**
+根據 **自訂設定檔資料** 在設定檔資源擴充期間建立，以及 **區段型報表** 定義。
 
-顯示全文:
+閱讀全文:
 
 * [新增面板](../../reporting/using/adding-panels.md)
 * [新增視覺效果](../../reporting/using/adding-visualizations.md)
@@ -84,4 +84,4 @@ Campaign Standard隨附一組&#x200B;**現成可用的動態報表**，可讓您
 
 >[!VIDEO](https://video.tv.adobe.com/v/23021?quality=12&captions=eng)
 
-其他Campaign Standard操作說明影片可在[此處](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant)取得。
+提供其他Campaign Standard作法影片 [此處](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant).

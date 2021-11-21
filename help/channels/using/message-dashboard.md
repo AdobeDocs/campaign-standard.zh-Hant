@@ -27,7 +27,7 @@ ht-degree: 4%
 灰色列會重新分組連結至訊息的各種圖示。
 
 * **[!UICONTROL Summary]**:顯示/隱藏有關訊息的主要資訊。
-* **[!UICONTROL Edit properties]**:可讓您編輯訊息的進 [階參數](../../administration/using/configuring-email-channel.md#list-of-email-properties)。
+* **[!UICONTROL Edit properties]**:可讓您編輯訊息的 [進階參數](../../administration/using/configuring-email-channel.md#list-of-email-properties).
 * **[!UICONTROL Reports]**:可讓您存取與訊息相關的報表。
 
 **相關主題：**
@@ -43,15 +43,15 @@ ht-degree: 4%
 
 視已設定的參數和進行的進度而定，某些圖示可能無法使用。
 
-* **[!UICONTROL Show proofs]**:顯示/隱藏已傳送的校樣清單（如果存在）。只有在您傳送校樣後，才會啟用此按鈕。
+* **[!UICONTROL Show proofs]**:顯示/隱藏已傳送的校樣清單（如果存在）。 只有在您傳送校樣後，才會啟用此按鈕。
 
-   如需校樣的詳細資訊，請參閱[傳送校樣](../../sending/using/sending-proofs.md)。
+   如需校樣的詳細資訊，請參閱 [傳送校樣](../../sending/using/sending-proofs.md).
 
-* **[!UICONTROL Send a test]**:可讓您選取要使用的核准模式： **[!UICONTROL Email rendering]** （僅限電子郵件）或 **[!UICONTROL Proof]** 兩者皆有。如需測試設定檔的詳細資訊，請參閱[傳送校樣](../../sending/using/sending-proofs.md)。 只有在您建立測試設定檔後，才會啟用此按鈕。
+* **[!UICONTROL Send a test]**:可讓您選取要使用的核准模式： **[!UICONTROL Email rendering]** （僅限電子郵件）, **[!UICONTROL Proof]** 或兩者皆有。 如需測試設定檔的詳細資訊，請參閱 [傳送校樣](../../sending/using/sending-proofs.md). 只有在您建立測試設定檔後，才會啟用此按鈕。
 
-* **[!UICONTROL Prepare send]**:開始準備傳送。出現&#x200B;**[!UICONTROL Deployment]**&#x200B;區塊並顯示準備結果。 只有在輸入目標後，才會顯示此按鈕。 您可以隨時使用對應的按鈕停止準備。 如需訊息準備的詳細資訊，請參閱[準備傳送](../../sending/using/preparing-the-send.md)。
+* **[!UICONTROL Prepare send]**:開始準備傳送。 此 **[!UICONTROL Deployment]** 區塊隨即顯示，並顯示準備結果。 只有在輸入目標後，才會顯示此按鈕。 您可以隨時使用對應的按鈕停止準備。 如需訊息準備的詳細資訊，請參閱 [準備傳送](../../sending/using/preparing-the-send.md).
 
-* **[!UICONTROL Confirm send]**:確認傳送訊息。發送統計資訊將出現在&#x200B;**[!UICONTROL Deployment]**&#x200B;塊中。 此按鈕僅在準備好傳送後才會顯示。 您可以隨時使用&#x200B;**Stop send**&#x200B;和&#x200B;**[!UICONTROL Pause]**&#x200B;按鈕來停止或暫停傳送。 如需確認傳送的詳細資訊，請參閱[傳送訊息](../../sending/using/confirming-the-send.md)。
+* **[!UICONTROL Confirm send]**:確認傳送訊息。 傳送統計資料會顯示在 **[!UICONTROL Deployment]** 封鎖。 此按鈕僅在準備好傳送後才會顯示。 您可以隨時使用 **停止發送** 和 **[!UICONTROL Pause]** 按鈕。 如需確認傳送的詳細資訊，請參閱 [傳送訊息](../../sending/using/confirming-the-send.md).
 
 ## 區塊 {#blocks}
 
@@ -59,10 +59,10 @@ ht-degree: 4%
 
 ![](assets/delivery_dashboard_3.png)
 
-* **[!UICONTROL Deployment]**:可讓您追蹤訊息準備或傳送的進度。按一下此區塊右下角的按鈕，以存取傳送和分析記錄檔。 只有在準備好傳送後，才會顯示此區塊。 有關詳細資訊。 請參閱[確認傳送](../../sending/using/confirming-the-send.md)。
-* **[!UICONTROL Audience]**:可讓您建立訊息的主要目標以及測試設定檔。請參閱[建立對象](../../audiences/using/creating-audiences.md)。
-* **[!UICONTROL Schedule]**:可讓您指定傳送訊息的日期。請參閱[排程](../../sending/using/about-scheduling-messages.md)。
-* **[!UICONTROL Content]**:可讓您定義訊息的內容並加以預覽。請參閱[傳送訊息的關鍵步驟](../../channels/using/key-steps-to-send-a-message.md)。
+* **[!UICONTROL Deployment]**:可讓您追蹤訊息準備或傳送的進度。 按一下此區塊右下角的按鈕，以存取傳送和分析記錄檔。 只有在準備好傳送後，才會顯示此區塊。 有關詳細資訊。 請參閱 [確認傳送](../../sending/using/confirming-the-send.md).
+* **[!UICONTROL Audience]**:可讓您建立訊息的主要目標以及測試設定檔。 請參閱[建立對象](../../audiences/using/creating-audiences.md)。
+* **[!UICONTROL Schedule]**:可讓您指定傳送訊息的日期。 請參閱 [排程](../../sending/using/about-scheduling-messages.md).
+* **[!UICONTROL Content]**:可讓您定義訊息的內容並加以預覽。 請參閱 [傳送訊息的關鍵步驟](../../channels/using/key-steps-to-send-a-message.md).
 
 ## 警告 {#warnings}
 
@@ -78,16 +78,16 @@ ht-degree: 4%
 
 * *&quot;已禁用路由外部帳戶。&quot;*
 
-   有關詳細資訊，請參閱[外部帳戶](../../administration/using/external-accounts.md)。
+   有關詳細資訊，請參閱 [外部帳戶](../../administration/using/external-accounts.md).
 
 * *&quot;無法傳送訊息，因為目前的IP相關性未由任何傳送程式處理。&quot;*
 
    如果您看到此訊息，在IP相關性定義層級或傳送程式層級會發生問題。 請連絡您的Adobe管理員。
 
-* *「這是現成可用的交易式訊息範本。如果要修改它，必須複製它並處理副本。&quot;*
+* *「這是現成可用的交易式訊息範本。 如果要修改它，必須複製它並處理副本。」*
 
    其中有些現成可用的交易式訊息範本是內建的登錄頁面範本。 如需詳細資訊，請參閱[本節](../../channels/using/landing-page-templates.md)。
 
-* *「此訊息是技術交易式訊息範本。您無法修改或發佈它。&quot;*
+* *「此訊息是技術交易式訊息範本。 您無法修改或發佈它。」*
 
-   此警告會顯示在無法編輯的空白交易式訊息範本中。 如需交易式訊息的詳細資訊，請參閱[此區段](../../channels/using/getting-started-with-transactional-msg.md)。
+   此警告會顯示在無法編輯的空白交易式訊息範本中。 如需交易式訊息的詳細資訊，請參閱 [本節](../../channels/using/getting-started-with-transactional-msg.md).

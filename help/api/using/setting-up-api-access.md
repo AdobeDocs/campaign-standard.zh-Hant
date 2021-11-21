@@ -17,16 +17,16 @@ ht-degree: 1%
 
 # 設定 API 存取 {#setting-up-api-access}
 
-Adobe Campaign Standard API存取權是透過下列步驟設定。 在[AdobeIO文檔](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)中詳細說明了這些步驟。
+Adobe Campaign Standard API存取權是透過下列步驟設定。 以下各步驟在 [AdobeIO檔案](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
 
 >[!IMPORTANT]
 >
->要在AdobeIO中管理證書，請確保您在組織上具有<b>系統管理員</b>權限，或在Admin Console中具有[開發人員帳戶](https://helpx.adobe.com/enterprise/using/manage-developers.html)</a>權限。
+>要在AdobeIO中管理證書，請確保您 <b>系統管理員</b> 組織或 [開發人員帳戶](https://helpx.adobe.com/enterprise/using/manage-developers.html)</a> 在Admin Console中。
 
-1. **檢查您是否擁有數位憑證**，或視需要建立憑證。下列步驟需要憑證隨附的公開金鑰和私密金鑰。
-1. **建立與Adobe Campaign Servicein** AdobeIO的新整合併加以設定。接著會產生您的認證（API金鑰、用戶端密碼……）。
-1. **從先前產生的憑證建立JSON網頁代號(JWT)** ，並使用您的私密金鑰簽署。JWT會對Adobe驗證身分並授予您API存取權所需的所有身分和安全資訊進行編碼。
-1. **透過POST要求將JWT** 交換為存取代號。此存取權杖必須用於API請求的每個標題中。
+1. **確認您擁有數位憑證**，或視需要建立。 下列步驟需要憑證隨附的公開金鑰和私密金鑰。
+1. **建立與Adobe Campaign服務的新整合** 在AdobeIO中並進行配置。 接著會產生您的認證（API金鑰、用戶端密碼……）。
+1. **建立JSON網頁代號(JWT)** 從先前產生的憑證，並使用您的私密金鑰簽署。 JWT會對Adobe驗證身分並授予您API存取權所需的所有身分和安全資訊進行編碼。
+1. **將JWT交換為存取權杖** 透過POST要求。 此存取權杖必須用於API請求的每個標題中。
 
 若要建立安全的服務對服務Adobe I/OAPI工作階段，對Adobe服務的每個要求都必須在授權標題中包含下列資訊。
 
@@ -43,11 +43,11 @@ Adobe Campaign Standard API存取權是透過下列步驟設定。 在[AdobeIO�
    * &lt;organization> :您的生產執行個體，
    * &lt;organization-mkt-stage>:您的stage實例。
 
-   若要取得組織ID值，請洽詢您的管理員或Adobe技術聯絡人。 建立新整合時，您也可以在Adobe I/O清單中(請參閱<a href="https://www.adobe.io/authentication.html">AdobeIO檔案</a>)將其擷取到授權中。
+   若要取得組織ID值，請洽詢您的管理員或Adobe技術聯絡人。 建立新整合時，您也可以將其擷取至Adobe I/O中，位於授權清單中(請參閱 <a href="https://www.adobe.io/authentication.html">AdobeIO檔案</a>)。
 
 * **&lt;access_token>**:您的個人存取權杖，此權杖是透過POST要求交換JSON網頁權杖時擷取的。
 
-* **&lt;api_key>**:您的個人API金鑰。會在建立與Adobe Campaign服務的新整合後以Adobe I/O提供。
+* **&lt;api_key>**:您的個人API金鑰。 會在建立與Adobe Campaign服務的新整合後以Adobe I/O提供。
 
    ![替代文字](assets/tenant.png)
 

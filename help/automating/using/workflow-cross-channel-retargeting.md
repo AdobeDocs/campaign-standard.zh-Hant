@@ -28,15 +28,15 @@ ht-degree: 38%
 
 1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Targeting]** 中，拖放[查詢](../../automating/using/query.md)活動。
 1. 連按兩下此活動。
-1. 在&#x200B;**[!UICONTROL Shortcuts]**&#x200B;中，拖放&#x200B;**[!UICONTROL Profiles]**&#x200B;並使用運算子&#x200B;**[!UICONTROL is not empty]**&#x200B;選取&#x200B;**[!UICONTROL email]**。
-1. 在&#x200B;**[!UICONTROL Shortcuts]**&#x200B;中，拖放&#x200B;**[!UICONTROL Profiles]**&#x200B;並選擇&#x200B;**[!UICONTROL no longer contact by email]**&#x200B;並選擇值&#x200B;**[!UICONTROL no ]**。
+1. 在 **[!UICONTROL Shortcuts]**，拖放 **[!UICONTROL Profiles]** 選取 **[!UICONTROL email]** 與運算子 **[!UICONTROL is not empty]**.
+1. 在 **[!UICONTROL Shortcuts]**，拖放 **[!UICONTROL Profiles]** 選取 **[!UICONTROL no longer contact by email]** 值 **[!UICONTROL no ]**.
 1. 按一下&#x200B;**[!UICONTROL Confirm]**。
 
 ![](assets/wf-complement-query.png)
 
 ## 建立電子郵件傳遞{#creating-an-email-delivery}
 
-1. 在每個區段後，拖放[電子郵件傳送](../../automating/using/email-delivery.md)。
+1. 拖放 [電子郵件傳送](../../automating/using/email-delivery.md) 在每個區段之後。
 1. 按一下活動並選取 ![](assets/edit_darkgrey-24px.png) 以編輯。
 1. 選取 **[!UICONTROL Simple email]** 並按一下 **[!UICONTROL Next]**。
 1. 選取 **[!UICONTROL Add an outbound transition without the population]** 並按一下 **[!UICONTROL Next]**。
@@ -44,20 +44,20 @@ ht-degree: 38%
 1. 輸入電子郵件屬性，然後按一下 **[!UICONTROL Next]**。
 1. 若要建立電子郵件的版面，請按一下 **[!UICONTROL Using the Email Designer]**。
 1. 插入元素或選取現有範本。
-1. 使用每個位置的特定選件個人化您的電子郵件。如需詳細資訊，請參閱[設計電子郵件](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)。
+1. 使用每個位置的特定選件個人化您的電子郵件。如需詳細資訊，請參閱 [設計電子郵件](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 1. 按一下 **[!UICONTROL Preview]** 以檢查版面。
 1. 按一下 **[!UICONTROL Save]**。
 
 ## 定位查詢活動中的非開啟者{#targeting-non-openers-in-a-query-activity}
 
-1. 在&#x200B;**[!UICONTROL Activities]** > **[!UICONTROL Execution]**&#x200B;中，拖放[Wait](../../automating/using/wait.md)活動。
-1. 在&#x200B;**[!UICONTROL Duration]**&#x200B;中，按一下![](assets/duration-icon.png)並選擇一天。
+1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Execution]**，拖放 [等待](../../automating/using/wait.md) 活動。
+1. 在 **[!UICONTROL Duration]**，按一下 ![](assets/duration-icon.png) 選擇一天。
 1. 在&#x200B;**[!UICONTROL Activities]** > **[!UICONTROL Targeting]**&#x200B;中拖放 **[!UICONTROL Query activity]**。
 1. 連按兩下此活動。
-1. 在&#x200B;**[!UICONTROL Shortcuts]**&#x200B;中，拖放&#x200B;**[!UICONTROL Tracking Logs]**&#x200B;並使用運算子&#x200B;**[!UICONTROL exists]**。
-1. 在&#x200B;**[!UICONTROL Shortcuts]**> **[!UICONTROL Delivery]**&#x200B;中，使用運算子&#x200B;**[!UICONTROL is equal to]**&#x200B;拖放&#x200B;**[!UICONTROL delivery]**，並選取傳送作為值。
-1. 在&#x200B;**[!UICONTROL Shortcuts]**> **[!UICONTROL Delivery]**&#x200B;中，拖放&#x200B;**[!UICONTROL type]**&#x200B;並檢查&#x200B;**[!UICONTROL Open]**&#x200B;為值。
-1. 在規則之間選取運算子作為&#x200B;**[!UICONTROL except]**。
+1. 在 **[!UICONTROL Shortcuts]**，拖放 **[!UICONTROL Tracking Logs]** 和運算子 **[!UICONTROL exists]**.
+1. 在 **[!UICONTROL Shortcuts]**> **[!UICONTROL Delivery]**，拖放 **[!UICONTROL delivery]** 與運算子 **[!UICONTROL is equal to]** 並選取傳送作為值。
+1. 在 **[!UICONTROL Shortcuts]**> **[!UICONTROL Delivery]**，拖放 **[!UICONTROL type]** 檢查 **[!UICONTROL Open]** 作為值。
+1. 在規則之間選取運算子作為 **[!UICONTROL except]**.
 1. 按一下&#x200B;**[!UICONTROL Confirm]**。
 
 ## 建立簡訊傳送{#creating-a-sms-delivery}
@@ -65,12 +65,12 @@ ht-degree: 38%
 1. 在每個區段後拖放簡訊傳送。
 1. 按一下活動並選取 ![](assets/edit_darkgrey-24px.png) 以編輯。
 1. 選取 **[!UICONTROL Simple sms]** 並按一下 **[!UICONTROL Next]**。
-1. 選取簡訊範本，然後按一下&#x200B;**[!UICONTROL Next]**。
-1. 輸入sms屬性，然後按一下&#x200B;**[!UICONTROL Next]**。
-1. 若要建立簡訊的版面，請按一下&#x200B;**[!UICONTROL Email Designer]**。
+1. 選取簡訊範本，然後按一下 **[!UICONTROL Next]**.
+1. 輸入sms屬性，然後按一下 **[!UICONTROL Next]**.
+1. 若要建立簡訊的版面，請按一下 **[!UICONTROL Email Designer]**.
 1. 插入元素或選取現有範本。
 1. 使用每個位置專屬的優惠方案個人化您的簡訊。
-如需詳細資訊，請參閱[設計sms](../../channels/using/creating-an-sms-message.md)區段。
+如需詳細資訊，請參閱 [設計簡訊](../../channels/using/creating-an-sms-message.md) 區段。
 1. 按一下 **[!UICONTROL Preview]** 以檢查版面。
 1. 按一下 **[!UICONTROL Save]**。
 

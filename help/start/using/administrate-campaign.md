@@ -43,7 +43,7 @@ ht-degree: 8%
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit。 Vestibulum placerat mauris libero,non congue sapien rhoncus id. Integer luctus blandit ligula。 Nulla quis vehicula augue，乳酪。 Nunc pharetra frizilla enim eu suscipit. Mauris consectetur maximus euismod. Cras和Vehicula Nulla。 Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
-**顯示全文**
+**閱讀全文**
 
 * xx
 * xx
@@ -54,7 +54,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit。 Vestibulum placerat m
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit。 Vestibulum placerat mauris libero,non congue sapien rhoncus id. Integer luctus blandit ligula。 Nulla quis vehicula augue，乳酪。 Nunc pharetra frizilla enim eu suscipit. Mauris consectetur maximus euismod. Cras和Vehicula Nulla。 Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
-**顯示全文**
+**閱讀全文**
 
 * xx
 * xx
@@ -65,7 +65,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit。 Vestibulum placerat m
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit。 Vestibulum placerat mauris libero,non congue sapien rhoncus id. Integer luctus blandit ligula。 Nulla quis vehicula augue，乳酪。 Nunc pharetra frizilla enim eu suscipit. Mauris consectetur maximus euismod. Cras和Vehicula Nulla。 Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
-**顯示全文**
+**閱讀全文**
 
 * xx
 * xx
@@ -76,7 +76,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit。 Vestibulum placerat m
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit。 Vestibulum placerat mauris libero,non congue sapien rhoncus id. Integer luctus blandit ligula。 Nulla quis vehicula augue，乳酪。 Nunc pharetra frizilla enim eu suscipit. Mauris consectetur maximus euismod. Cras和Vehicula Nulla。 Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
-**顯示全文**
+**閱讀全文**
 
 * xx
 * xx

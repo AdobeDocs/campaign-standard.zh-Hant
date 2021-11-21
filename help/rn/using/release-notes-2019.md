@@ -17,7 +17,7 @@ ht-degree: 8%
 
 # 發行說明 2019 年{#release-notes-2019}
 
-[發行計畫](https://helpx.adobe.com/tw/campaign/kb/acs-release-planning.html) |  [控制面板發行](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=zh-Hant) |  [檔案更新](../../rn/using/documentation-updates.md)  |  [最新發行說明](../../rn/using/release-notes.md) |  [已棄用的功能](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=zh-Hant#release-notes)
+[發行計畫](https://helpx.adobe.com/tw/campaign/kb/acs-release-planning.html) | [「控制面板」發行版本](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=zh-Hant) | [檔案更新](../../rn/using/documentation-updates.md) | [最新發行說明](../../rn/using/release-notes.md) | [過時的功能](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=zh-Hant#release-notes)
 
 ## 發行版本19.4 - 2019年12月 {#release-19-4---october-2019}
 
@@ -34,9 +34,9 @@ ht-degree: 8%
    <td> <p>CCPA是加州新推出的隱私權法，調和了2020年1月1日起生效的資料保護要求，並將其現代化。 CCPA適用於為居住在加州的資料主體保管資料的Adobe Campaign客戶。</p>
    <p>除了Adobe Campaign中已提供的隱私權功能（包括同意管理、資料保留設定和使用者角色）之外，我們也趁此次機會加入其他功能，以協助您為CCPA做好準備：</p>
    <ul>
-    <li>存取權與刪除權：我們善用針對GDPR新增的功能。 <a href="https://helpx.adobe.com/content/help/tw/campaign/kb/acs-privacy.html#righttoaccess">瞭解更多</a> </li>
+    <li>存取權與刪除權：我們善用針對GDPR新增的功能。 <a href="https://helpx.adobe.com/content/help/tw/campaign/kb/acs-privacy.html#righttoaccess">了解更多</a> </li>
     <li><p>建立隱私權要求時，隱私權核心服務已新增規範類型（GDPR或CCPA）。 此方法是您應該用於所有存取和刪除請求的方法。不建議使用促銷活動 API 和介面來存取和刪除請求。請參閱「<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">已過時和已移除的功能</a>」文章。</p></li>
-    <li>「設定檔」資源已新增<strong>CCPA選擇退出</strong>欄位，讓Adobe Campaign使用者追蹤消費者是否選擇退出個人資訊銷售。 <a href="https://helpx.adobe.com/tw/campaign/kb/acs-privacy.html#ccpa">深入瞭解</a>。</li>
+    <li>A <strong>CCPA選擇退出</strong> 「設定檔」資源已新增欄位，讓Adobe Campaign使用者追蹤消費者是否選擇退出個人資訊銷售。 <a href="https://helpx.adobe.com/tw/campaign/kb/acs-privacy.html#ccpa">深入瞭解</a>。</li>
   </ul>
     <p>請參閱<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">作法影片</a>。</p>
 </td> 
@@ -53,8 +53,8 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td> 
-    <p>現已提供Adobe Campaign Standard與Microsoft Dynamics 365的整合。 您將能夠將聯絡人和自訂實體記錄從Dynamics 365傳輸至Campaign，並將電子郵件事件資料從Campaign傳回至Dynamics 365，以便更妥善地協調銷售/行銷工作。</p>
-    <p>請參閱<a href="../../integrating/using/d365-acs-get-started.md">詳細檔案</a>以設定此整合。</p>
+    <p>Adobe Campaign Standard與Microsoft Dynamics 365之間的整合現已推出。 You’ll be able to transfer your contact and custom entity records from Dynamics 365 to Campaign, and get email event data back from Campaign to Dynamics 365 for better sales/marketing alignment.</p>
+    <p>請參閱 <a href="../../integrating/using/d365-acs-get-started.md">詳細檔案</a> 來設定此整合。</p>
   </td>
   </tr> 
  </tbody> 
@@ -62,40 +62,40 @@ ht-degree: 8%
 
 **功能改善**
 
-* 已更新動態報告的同意快顯視窗，以包含Adobe Campaign Standard和Microsoft Dynamics 365整合。 若接受條款，則使用Adobe Campaign Standard/Microsoft Dynamics 365整合和動態報告時，將會包含設定檔資料。 [了解詳情](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) (CAMP-29766)
+* 已更新動態報告的同意快顯視窗，加入Adobe Campaign Standard和Microsoft Dynamics 365整合。 若接受條款，則使用Adobe Campaign Standard/Microsoft Dynamics 365整合和動態報告時，將會包含設定檔資料。 [了解詳情](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) (CAMP-29766)
 * 修正了在收到傳送警報時，顯示錯誤聯絡日期的問題。
 * 當使用未知的內容參數提交交易式訊息事件時，Campaign現在會傳回「400」錯誤訊息，而非「500」。 (CAMP-28632)
-* 在動態報告中新增了新的&#x200B;**排除校樣**&#x200B;區段。 現在預設會選取此區段來篩選您的報表。 [顯示全文](../../reporting/using/list-of-components-.md#segments)
-* 推播通知已新增&#x200B;**訊息過期**&#x200B;選項。 它可讓您指定訊息不再由Apple(APNS)或Android(FCM)傳送的到期日。 [顯示全文](../../channels/using/customizing-a-push-notification.md#add-expiration-date)
-* 已對&#x200B;**載入檔案**&#x200B;活動進行改善：工作流程記錄檔已更清楚且更詳細地說明檔案無法載入時發生的錯誤。 啟動&#x200B;**Keep the rejects in a file**&#x200B;選項時產生的出站轉變已更名為&#x200B;**Rejects**。 [顯示全文](../../automating/using/load-file.md)
-* 已將多語言相關記錄檔新增至傳送記錄檔，以更清楚了解因上傳之CSV檔案中缺少語言而導致的傳送失敗。
+* 新 **排除校樣** 區段已新增至動態報表中。 This segment is now selected by default to filter your reports. [閱讀全文](../../reporting/using/list-of-components-.md#segments)
+* The **Message expiration** option has been added to push notification. 它可讓您指定訊息不再由Apple(APNS)或Android(FCM)傳送的到期日。 [閱讀全文](../../channels/using/customizing-a-push-notification.md#add-expiration-date)
+* 已對 **載入檔案** 活動：工作流程記錄檔已更清楚且更詳細地說明檔案無法載入時發生的錯誤。 啟動 **將拒絕項保留在檔案中** 選項已重新命名 **拒絕**. [閱讀全文](../../automating/using/load-file.md)
+* Multilingual related logs have been added to the sending logs to better understand sending failures due to missing languages in the uploaded CSV files.
 
 **安全性改善功能**
 
 * 修正透過隱私權請求刪除量化設定檔資訊時，除隔離清單中的電子郵件地址外，會移除所有資料的問題。
 * 已增強安全性，以防止插入電子郵件標題。
-* 已增強安全性，以抵御可使用xtk運算式（電子郵件HTML、文字內容和主旨、SMS及推播通知內容）的SSRF攻擊。
+* 已增強安全性，以抵御可使用xtk運算式(電子郵件HTML、文字內容和主旨、SMS及推播通知內容)的SSRF攻擊。
 
 **電子郵件設計工具增強功能**
 
 * 修正無法在插入電子郵件時追蹤取消訂閱、訂閱和登錄頁面連結的問題。 (CAMP-37809)
 * 修正建立新電子郵件和選取範本時，可能導致錯誤的問題。 (CAMP-38000)
-* 使用電子郵件設計工具編輯連結時，您現在可以使用&#x200B;**底線連結**&#x200B;選項。 此外，新增了&#x200B;**Target**&#x200B;屬性，並將預設值設為&#x200B;**None**。 [顯示全文](../../designing/using/styles.md#about-styling-links)
+* 使用電子郵件設計工具編輯連結時，您現在可以使用 **底線連結** 選項。 此外， **目標** 屬性已新增，預設值設為 **無**. [閱讀全文](../../designing/using/styles.md#about-styling-links)
 * 修正電子郵件內文文字元件中連結的顏色問題。 (CAMP-37330)
 * 修正刪除影像時無法移除相關連結的問題。 (CAMP-37234)
-* 修正無法在條件中儲存動態內容&#x200B;**Order**&#x200B;設定修改的問題。 (CAMP-36883)
+* 修正無法在 **順序** 條件中動態內容的設定。 (CAMP-36883)
 * 修正搜尋登錄頁面時的問題。 搜索已從最初建立的50個擴展到所有資料庫。 (CAMP-36839)
-* 修正在&#x200B;**寄件者中儲存修改內容時的問題：名稱**&#x200B;欄位。 (CAMP-36606)
+* 修正將修改儲存在 **開始日期：名稱** 欄位。 (CAMP-36606)
 * 轉盤元件相容性警告已修改，以反映支援的電子郵件用戶端。
 * 修正行動裝置的顯示問題。 高度屬性現在一律設為「height:自動」。 (CAMP-35497)
 * 修正從結構元件刪除片段時，HTML中保留樣式和中繼標籤的問題。 (CAMP-35390)
 * 修正更新可重複使用內容時的片段問題。 (CAMP-35186)
 * 修正在電子郵件中僅顯示行動裝置條件式內容的問題。 (CAMP-35155)
 * 修正隨機顯示零寬度不斷空格的問題。 (CAMP-35116)
-* 修正&#x200B;**另存為片段**&#x200B;對話方塊中按鈕位置的問題。
+* 修正 **另存為片段** 對話框。
 * 修正在影像標題和替代文字中新增HTML標籤時的預覽問題。
 * 修正在電子郵件設計工具中，使用舊版編輯器編輯電子郵件中建立的連結時的問題。
-* 修正內容中保留重複樣式標籤的問題。
+* Fixed an issue which left duplicated style tags in the content.
 * 修正在電子郵件中插入個人化欄位時，日期格式的問題。
 * 修正從HTML模式切換為純文字時的儲存問題。
 * 修正按一下「鎖定和解除鎖定」選項時，在內嵌樣式屬性面板中新增邊界值的問題。
@@ -108,42 +108,42 @@ ht-degree: 8%
 * 已對齊資料在傳送KPI頁面和動態報告頁面上顯示的預設時間範圍，以防止報告結果不一致。 (CAMP-35148)
 * 應用程式憑證過期時，記錄檔中已新增錯誤訊息。
 * 裝載計算預覽現在包含自訂欄位大小，以防止推播通知失敗。 (CAMP-35303)
-* **載入檔案**&#x200B;活動中的&#x200B;**拒絕檔案**&#x200B;名稱現在可以個人化，與&#x200B;**檔案匯出**&#x200B;活動中的名稱相同。
+* The name of the **Rejects file** in the **Load file** activity can now be personalized in the same was as in the **File export** activity.
 * 所有未連結至任何現成可用實體的自訂實體，現在都可透過API存取。
 * 改善大型資源的資料庫效能。
-* 傳送SMS訊息時發生的一些錯誤說明已更清楚。 (CAMP-36558)
-* 現在，執行直接或通過多個活動連接到自身的工作流的&#x200B;**調度程式**&#x200B;活動時，會顯示錯誤消息，因為這可能導致實例的工作流伺服器卡住。
+* The descriptions of some errors occurring when sending SMS messages have been made clearer. (CAMP-36558)
+* An error message now displays when executing a workflow&#39;s **Scheduler** activity that is connected to itself, either directly or through several activities, as this could lead to the instance&#39;s workflow server being stuck.
 * 已改善以協助疑難排解交易式訊息：「資料」連結在事件設定畫面中已重新命名為「上次交易事件」，現在會以遞減順序列出接收的事件。 此外，已建立新的交易式事件狀態：&quot;targetingFailed&quot;。 當交易式傳訊模組無法擴充用於訊息定位的連結時，交易式事件現在會處於這個新狀態（而非「routingFailed」狀態）。
 * 已改善將登錄頁面存取限制在特定地理或組織單位時的介面。 其目的是警告登錄頁面可能受到可見性條件的影響：現在，建立登錄頁面時必須選取地理和組織單位。 現在當選取裝置後，會顯示包含相關資訊的橫幅。 測試登錄頁面時顯示的錯誤訊息已更清楚。
 * 在Campaign StandardAPI中，如果鍵值與來源鍵不同，或您使用自己的業務鍵值作為URI，而非Adobe提供的業務鍵，則無法使用PATCH操作來修改自訂鍵值。
-* &quot;阿爾巴尼亞語 — 馬其頓語&quot;已添加到首選語言下拉清單中。 (CAMP-35396)
+* The &quot;Albanian - Macedonia&quot; language has been added to the preferred language drop-down list. (CAMP-35396)
 
 **修補程式**
 
 * 修正排程報表無法排序或搜尋的問題。
 * 修正觸發器規則造成混合AND和OR規則的問題。
-* 修正Launch中Mobile屬性顯示為「已刪除」的問題。 (CAMP-35382)
+* Fixed an issue that displayed the Mobile property as Deleted in Launch. (CAMP-35382)
 * 修正Adobe Campaign中無法同步AdobeLaunch行動屬性的問題。 (CAMP-35411、CAMP-35089、CAMP-35014、CAMP-35487)
 * 修正當事件富含設定檔資料時，交易式推送訊息失敗的問題。 (CAMP-34385)
 * 修正行動屬性未在多個環境上同步的問題。 (CAMP-37060)
 * 修正在推播通知中使用聯絡人日期公式選取範本時的問題。 (CAMP-35300)
 * 修正可能導致訊息傳送服務當機的問題。 (CAMP-35287)
 * 修正循環直接郵件的問題，這些郵件全部以第一個事件日期定義。 (CAMP-35139)
-* 修正新擴充的&#x200B;**Profiles**&#x200B;自訂資源無法用於查詢的問題。 (CAMP-35119)
-* 修正了已啟用共用配置的實例的&#x200B;**修復資料庫結構**&#x200B;模式。 (CAMP-35118)
+* 修正新擴充的問題 **設定檔** 無法用於查詢的自訂資源。 (CAMP-35119)
+* 修正 **修復資料庫結構** 已啟用共用配置的實例的模式。 (CAMP-35118)
 * 修正在broadlogs上新增匯總資料時，導致SQL記錄錯誤的問題。 (CAMP-35034)
-* 修正建立&#x200B;**Segmentation**&#x200B;活動時的轉變問題。 (CAMP-35033)
-* 修正&#x200B;**Query**&#x200B;活動中導致&#x200B;**encryption_aescbcDecrypt**&#x200B;函式無法解密&#x200B;**encryption_aescbcEncrypt**&#x200B;函式的問題。 (CAMP-34952)
-* 修正了無法在傳送中顯示&#x200B;**追蹤記錄**&#x200B;的問題。 (CAMP-34855)
-* 修正使用&#x200B;**傳送時間最佳化**&#x200B;自訂日期公式時，由於工作流程其他資料發生錯誤，無法傳送推播通知的問題。 (CAMP-30336)
+* 修正建立 **區段** 活動。 (CAMP-35033)
+* 修正 **查詢** 阻止 **encryption_aescbcDecrypt** 函式 **encryption_aescbcEncrypt** 函式。 (CAMP-34952)
+* 修正了 **追蹤記錄** 顯示在傳送中。 (CAMP-34855)
+* 修正使用 **傳送時間最佳化** 自訂日期公式，可防止因工作流程其他資料發生錯誤而傳送推播通知。 (CAMP-30336)
 * 修正無法發佈自訂資源的問題。 (CAMP-37425)
 * 修正管理員使用者無法修改匯入套件的問題。  (CAMP-37176)
-* 修正了工作流程中，如果傳送活動已連線至空的&#x200B;**讀取對象**&#x200B;活動，則無法傳送校樣的問題。 (CAMP-37164)
+* 修正了工作流程中，如果傳送活動已連線至空白，則無法傳送校樣的問題 **讀取閱聽眾** 活動。 (CAMP-37164)
 * 修正無法將自訂資源匯入新環境的問題。 (CAMP-36506)
 * 修正點按報告中，造成影像隱藏百分比的問題(CAMP-36407)
 * 修正嘗試匯出傳送說明欄位時發生的問題。 (CAMP-35467)
 * 修正儘管傳送已完成，傳送狀態仍可能為「開始擱置中」的問題。 (CAMP-35355)
-* 修正了在啟用後，再停用SQL記錄檔時，無法顯示工作流程記錄檔的問題。
+* Fixed an issue that prevented workflow logs from being displayed after enabling, then disabling SQL logs.
 
 ## 發行版本 19.3 – 2019 年 7 月 {#release-19-3---july-2019}
 
@@ -162,7 +162,7 @@ ht-degree: 8%
    <td> <p>為了更深入個人化，外部API活動可讓您透過REST API呼叫，將外部系統的資料匯入工作流程。 REST端點可以是客戶管理系統、Adobe I/O Runtime或Adobe Experience Cloud REST端點（例如Data Platform、Target、Analytics、Campaign）。</p><p>此功能目前正在公開測試。</p><p>如需詳細資訊，請參閱<a href="../../automating/using/external-api.md">詳細文件</a>及<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">作法影片</a>。</p></td> 
   </tr> 
   <tr> 
-   <td> 工作流段報告<br /> </td> 
+   <td> 工作流程區段報告<br /> </td> 
    <td> <p>此功能可讓行銷人員依區段代碼來劃分其傳送效能。 當您建立工作流程並使用分段活動來指派區段至傳送母體時，這些區段現在可以進入相同的傳送。 這可讓您根據單一傳送內的多個區段來顯示開啟/點按統計資料。</p><p>如需詳細資訊，請參閱<a href="../../reporting/using/creating-a-report-workflow-segment.md">詳細文件</a>及<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html">作法影片</a>。</p></td>
   </tr> 
  </tbody> 
@@ -185,7 +185,7 @@ ht-degree: 8%
 * 修正「電子郵件設計工具設定」窗格無法顯示「連結」欄位的問題(CAMP-33749)。
 * 修正已傳送電子郵件中YouTube圖示過大的問題。 (CAMP-33726)
 * 修正了讓鏡像頁面內容可編輯的安全性問題。 (CAMP-33691)
-* 修正在動態內容中使用大於符號時，中斷HTML輸出的問題。 (CAMP-33688)
+* 修正在動態內容中使用大於符號時中斷HTML輸出的問題。 (CAMP-33688)
 * 修正在「電子郵件設計工具」中編輯文字時，使用「還原」選項時發生的問題。 (CAMP-32565)
 * 修正在還原樣式（而非移除樣式）時建立額外標籤的問題。 (CAMP-32359)
 * 您現在可以定義電子郵件中使用的每個元件是否只會顯示在桌上型裝置上，或是只會顯示在行動裝置上。
@@ -202,14 +202,14 @@ ht-degree: 8%
 **其他改善項目**
 
 * 透過與Adobe Experience Platform Location Services的整合，Adobe Campaign現在可相容，透過Experience PlatformSDK將位置型行銷訊息傳送給行動應用程式的訂閱者。 如需詳細資訊，請參閱[詳細文件](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md)以瞭解詳情。
-* 已改善報表功能，以獲得更佳體驗。 若要使用此功能，您必須接受動態報告使用協定。 有關詳細資訊，請參閱[詳細檔案](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)。
-* 在工作流程中，已新增新選項，以預覽工作流程接下來的十個執行。 有關詳細資訊，請參閱[詳細檔案](../../automating/using/scheduler.md)。
-* 在排程器活動中，新選項可讓您為每月傳送選取特定星期的特定一天。 有關詳細資訊，請參閱[詳細檔案](../../automating/using/scheduler.md)。
-* 建立沒有匯總期間的循環傳送時，傳送控制面板現在可讓您在傳送傳送前要求確認。 有關詳細資訊，請參閱[詳細檔案](../../sending/using/confirming-the-send.md)。
-* 您現在可以使用已在工作流程外部訊號活動中宣告的事件變數，個人化傳送的標籤。 有關詳細資訊，請參閱[詳細檔案](../../automating/using/calling-a-workflow-with-external-parameters.md)。
+* 已改善報表功能，以提供更佳體驗。 若要使用此功能，您必須接受動態報告使用協定。 有關詳細資訊，請參閱 [詳細檔案](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
+* 在工作流程中，已新增新選項，以預覽工作流程接下來的十個執行。 有關詳細資訊，請參閱 [詳細檔案](../../automating/using/scheduler.md).
+* 在排程器活動中，新選項可讓您為每月傳送選取特定星期的特定一天。 有關詳細資訊，請參閱 [詳細檔案](../../automating/using/scheduler.md).
+* 建立沒有匯總期間的循環傳送時，傳送控制面板現在可讓您在傳送傳送前要求確認。 有關詳細資訊，請參閱 [詳細檔案](../../sending/using/confirming-the-send.md).
+* 您現在可以使用已在工作流程外部訊號活動中宣告的事件變數，個人化傳送的標籤。 For more on this, refer to the [detailed documentation](../../automating/using/calling-a-workflow-with-external-parameters.md).
 * 已改善GDPR刪除查詢以提升效能。 (CAMP-33504)
 * 「ftp」選項已從外部帳戶設定介面中移除。 (CAMP-34472)
-* 您現在可以啟用和停用每個電子郵件的SMTP測試模式選項。 有關詳細資訊，請參閱[詳細檔案](../../administration/using/configuring-email-channel.md#smtp-test-mode)。 (CAMP-34602)
+* You can now enable and disable the SMTP test mode option for each email message. 有關詳細資訊，請參閱 [詳細檔案](../../administration/using/configuring-email-channel.md#smtp-test-mode). (CAMP-34602)
 
 **其他變更**
 
@@ -261,7 +261,7 @@ ht-degree: 8%
 **功能改善**
 
 * 已改善GDPR刪除查詢以提升效能。
-* 修正19.2升級後可能導致Web當機的問題。 (CAMP-34862)
+* Fixed an issue which could cause web crashes after the 19.2 upgrade. (CAMP-34862)
 * 修正非管理員使用者無法儲存或排程報表的問題。 (CAMP-31133)
 * 修正在「載入檔案」工作流程活動中使用「|」作為日期分隔符號的問題。 (CAMP-34706)
 
@@ -269,7 +269,7 @@ ht-degree: 8%
 
 **電子郵件設計工具**
 
-* 修正在HTML中使用空白樣式標籤時，使用者無法編輯片段的問題。 這是CAMP-33778 19.2.3的後續修正。
+* 修正當HTML中使用空白樣式標籤時，使用者無法編輯片段的問題。 這是CAMP-33778 19.2.3的後續修正。
 
 ## 發行版本 19.2.3 – 2019 年 6 月 {#release-19-2-3---june-2019}
 
@@ -312,7 +312,7 @@ ht-degree: 8%
   </tr> 
   <tr> 
    <td> 工作流程增強功能 — 將裝載新增至外部訊號活動<br /> </td> 
-   <td> <p>從其他工作流程或REST API呼叫成功符合已定義的條件時，即可啟動具有裝載的工作流程，以便與外部系統整合。 這也包含新的<strong>test</strong>活動，您可在此功能上執行測試。</p><p>如需詳細資訊，請參閱<a href="../../automating/using/calling-a-workflow-with-external-parameters.md">詳細文件</a>及<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/execution-activities/external-signal-activity.html">作法影片</a>。</p></td> 
+   <td> <p>從其他工作流程或REST API呼叫成功符合已定義的條件時，即可啟動具有裝載的工作流程，以便與外部系統整合。 這也包含新的 <strong>測試</strong> 活動，您可以對此功能執行測試。</p><p>如需詳細資訊，請參閱<a href="../../automating/using/calling-a-workflow-with-external-parameters.md">詳細文件</a>及<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/execution-activities/external-signal-activity.html">作法影片</a>。</p></td> 
   </tr> 
   <tr> 
    <td> 登錄頁面增強功能 — Google reCAPTCHA<br /> </td> 
@@ -329,11 +329,11 @@ ht-degree: 8%
 
 * 修正重複片段並嘗試在電子郵件設計工具中使用片段時發生的問題。 (CAMP-33193)
 * 修正在「電子郵件設計工具」介面中使用內嵌元素時，建立不想要空格的問題。 (CAMP-32163)
-* 修正在「電子郵件設計工具」中儲存電子郵件內容後，刪除了使用者新增的其他一些HTML標籤屬性的問題。 (CAMP-32162)
-* 修正即使移除Microsoft Office標籤後，仍會在「電子郵件設計工具」HTML模式中顯示Microsoft Office標籤的問題。 (CAMP-32141)
+* 修正在「電子郵件設計工具」中儲存電子郵件內容後，刪除了使用者新增的其他HTML標籤屬性的問題。 (CAMP-32162)
+* 修正即使移除Microsoft Office標籤後，仍會以「電子郵件設計工具」HTML模式顯示該標籤的問題。 (CAMP-32141)
 * 如果您使用舊版電子郵件設計工具建立電子郵件，開啟此電子郵件內容時，現在會出現快顯視窗提示使用者更新為最新版本。 (CAMP-31529)
 * 修正當傳送至某些傳訊用戶端時，使用電子郵件設計工具建立的電子郵件可能會扭曲影像的問題。 (CAMP-31407)
-* 修正在HTML模式中建立時，清單或按鈕等元素無法以純文字模式正確顯示的問題。 (CAMP-32582, CAMP-32542)
+* 修正在HTML模式中建立清單或按鈕等元素時，無法以純文字模式正確顯示的問題。 (CAMP-32582, CAMP-32542)
 * 修正無法在內容範本或片段屬性中顯示超過50個組織單位的問題。 (CAMP-32932)
 * 修正了在Outlook中收到使用「電子郵件設計工具」建立的電子郵件時，檢視區背景顏色的問題。 (CAMP-31402)
 * 修正在Outlook中開啟使用「電子郵件設計工具」建立的電子郵件內容時，無法回應的問題。 (CAMP-31400)
@@ -350,17 +350,17 @@ ht-degree: 8%
 交易式訊息通道已新增數項改善，以最佳化操作與效能。
 
 * 交易式訊息持續時間已延長，以確保所有訊息在過期前都傳送，尤其是在執行重試時。
-* 在不同的傳送執行緒上分配負載，可提高交易式訊息效能。
+* 在不同的傳送執行緒上分配負載，以提高交易式訊息效能。
 * 交易式訊息傳送程式已最佳化，以能夠同時啟動同一訊息的多重分析。
 * 修正交易推播通知的吞吐量和延遲可能不一致的問題。
 * 修正交易式訊息執行傳送顯示錯誤目標對象的問題。
-* 修正匯入包含事件設定和相關交易式訊息的套件時發生的問題。 有關詳細資訊，請參閱[詳細檔案](../../channels/using/getting-started-with-transactional-msg.md#exporting-and-importing-transactional-messages)。
+* 修正匯入包含事件設定和相關交易式訊息的套件時發生的問題。 有關詳細資訊，請參閱 [詳細檔案](../../channels/using/getting-started-with-transactional-msg.md#exporting-and-importing-transactional-messages).
 * 修正從針對包含產品清單的交易式訊息建立的測試設定檔中刪除收集資料的問題。
 
 **其他變更**
 
-* SMS外部帳戶已新增選項。 它可以限制傳送SMS的MTA程式數量上限，以便更妥善地控制平行連線的數量。 如需詳細資訊，請參閱[SMS連接器通訊協定及設定](https://helpx.adobe.com/tw/campaign/kb/sms-connector-protocol-and-settings.html)技術檔案。
-* 使用API擴充功能發佈資源時，如果API已發佈，現在每次重新發佈時都會自動更新。 此動作過去為手動操作，且無法更新API，可能會中斷此API的設定檔或服務資源。 有關詳細資訊，請參閱[詳細檔案](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension)。
+* SMS外部帳戶已新增選項。 它可以限制傳送SMS的MTA程式數量上限，以便更妥善地控制平行連線的數量。 如需詳細資訊，請參閱 [SMS連接器通訊協定與設定](https://helpx.adobe.com/tw/campaign/kb/sms-connector-protocol-and-settings.html) 技術檔案。
+* 使用API擴充功能發佈資源時，如果API已發佈，現在每次重新發佈時都會自動更新。 此動作過去為手動操作，且無法更新API，可能會中斷此API的設定檔或服務資源。 有關詳細資訊，請參閱 [詳細檔案](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension).
 * 郵遞區號維度已從動態報告中移除。 建議您改用「城市」、「國家/地區」、「州」維度。
 * 應用程式內訊息的「首次啟動」生命週期事件觸發器已移除。
 * 匯出包含安全組時，它現在包含指派給每個群組的角色。 (CAMP-32960)
@@ -380,8 +380,8 @@ ht-degree: 8%
 * 修正造成「Adobe Analytics報表」與「Adobe Campaign動態報表」之間不一致的問題。 (CAMP-25393)
 * 修正造成「報表」共用工作流程失敗的錯誤。
 * 修正使用者無法只使用媒體URL傳送應用程式內訊息的錯誤。
-* 修正即使行動應用程式的憑證未上傳至執行個體，仍顯示該應用程式的問題。
-* 修正使用&#x200B;**將目標鎖定於行動應用程式**&#x200B;範本的所有使用者時，個人化欄位無法運作的錯誤。
+* 修正即使未將行動應用程式的憑證上傳至執行個體，仍顯示該應用程式的問題。
+* 修正使用 **鎖定行動應用程式的所有使用者** 範本。
 * 已布建新的Campaign Standard執行個體。 (CAMP-32635和CAMP-32344)
 * 修正無法在工作流程中自訂日期公式的錯誤。 (CAMP-30336)
 * 修正定義自訂日期公式時，下拉式清單中無法提供「其他資料」和「區段代碼」欄位的問題。 (CAMP-32383)
@@ -430,15 +430,15 @@ ht-degree: 8%
   </tr> 
   <tr> 
    <td> 行動應用程式內傳訊<br /> </td> 
-   <td> <p>此版本包含Campaign中的GA版應用程式內管道。 從功能角度來看，Beta版中最值得注意的新增項目為應用程式內管道動態報表，以及Mobile SDK與MCIAS之間的安全交握(為SDK提供應用程式內規則的Marketing Cloud應用程式內傳訊服務)。 安全交握可確保使用者的PII資料不會落入惡意人手，並可讓您在使用者每次登出時清除訊息快取，以維護共用裝置上的使用者隱私。</p><p>如需詳細資訊，請參閱<a href="../../channels/using/about-in-app-messaging.md">詳細檔案</a>和專屬的<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/in-app/in-app-message-overview.html">應用程式內教學課程</a>。</p> </td> 
+   <td> <p>此版本包含Campaign中的GA版應用程式內管道。 從功能角度來看，Beta版中最值得注意的新增項目為應用程式內管道動態報表，以及Mobile SDK與MCIAS之間的安全交握(為SDK提供應用程式內規則的Marketing Cloud應用程式內傳訊服務)。 安全交握可確保使用者的PII資料不會落入惡意人手，並可讓您在使用者每次登出時清除訊息快取，以維護共用裝置上的使用者隱私。</p><p>如需詳細資訊，請參閱 <a href="../../channels/using/about-in-app-messaging.md">詳細檔案</a> 和 <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/in-app/in-app-message-overview.html">應用程式內教學課程</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> 工作流程增強功能<br /> </td> 
    <td> <p>已新增下列工作流程功能：</p> 
     <ul> 
      <li> 您現在可以從相同的Campaign例項複製貼上工作流程或其他工作流程中的活動。 這樣，您就可以輕鬆複製整個工作流程或特定活動，並保留最初定義的設定。 如需詳細資訊，請參閱<a href="../../automating/using/workflow-interface.md#duplicating-workflow-activities">詳細文件</a>以瞭解詳情。(CAMP-20014) </li> 
-     <li> 使用<strong>載入檔案</strong>活動時，您現在可以將時間戳記新增至包含已拒絕記錄的檔案名稱。 如需詳細資訊，請參閱<a href="../../automating/using/load-file.md#configuration">詳細文件</a>以瞭解詳情。 </li> 
-     <li> <strong></strong> 如果活 <strong></strong> 動未擷取任何資料，查詢和區段活動現在可讓您啟用出站轉變。 </li> 
+     <li> 使用 <strong>載入檔案</strong> 活動中，您現在可以將時間戳記新增至包含已拒絕記錄之檔案的名稱。 如需詳細資訊，請參閱<a href="../../automating/using/load-file.md#configuration">詳細文件</a>以瞭解詳情。 </li> 
+     <li> <strong>查詢</strong> 和 <strong>區段</strong> 活動現在可讓您在活動未擷取任何資料時啟用出站轉變。 </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -446,7 +446,7 @@ ht-degree: 8%
 
 **安全性改善功能**
 
-* 已更新產生的登錄頁面HTML程式碼，以防止搜尋引擎建立索引。
+* 已更新產生的登錄頁面HTML代碼，以防止搜尋引擎索引。
 
 **電子郵件設計工具增強功能**
 
@@ -469,11 +469,11 @@ ht-degree: 8%
 * 您現在可以在現有的社交管道之上，將自訂的社交管道新增至您的電子郵件範本。
 * 修正使用超過18個結構時，無法向下捲動結構功能表的問題。 (CAMP-31173)
 * 修正轉送包含隨Adobe Campaign傳送之預先標題的電子郵件時，內容頂端會顯示預先標題的問題。 (CAMP-30736)
-* 修正在Adobe Experience Manager中修改主旨後，按一下&#x200B;**重新整理AEM內容**&#x200B;選項時，無法更新主旨行的問題。 (CAMP-29984)
+* 修正在按一下 **重新整理AEM內容** 選項(在Adobe Experience Manager中修改主題後)。 (CAMP-29984)
 * 修正無法從Adobe Target使用動態影像的數個問題。
 * 修正了先前從URL匯入內容時，在準備時擷取內容時無法更新預覽的問題。
-* 已將YouTube圖示新增至&#x200B;**Social**&#x200B;內容元件。
-* 已針對「電子郵件設計工具」浮動視窗中顯示的內容元件和片段新增&#x200B;**清單**&#x200B;檢視。
+* YouTube圖示已新增至 **社交** 內容元件。
+* 此 **清單** 已針對「電子郵件設計工具」浮動視窗中顯示的內容元件和片段新增檢視。
 
 **其他改善項目**
 
@@ -488,8 +488,8 @@ ht-degree: 8%
 
 **其他變更**
 
-* Adobe Campaign和Adobe Experience Cloud將於2019年春季起停止支援Microsoft Internet Explorer 11和Campaign Standard19.2版本。 請切換至 Microsoft Edge 或其他支援的瀏覽器。請參閱「[已棄用和已移除的功能](../../rn/using/deprecated-features.md)」頁。
-* 「設定檔」資源的&#x200B;**國家/地區代碼**&#x200B;欄位已重新命名為&#x200B;**國家/地區代碼**。
+* Adobe Campaign和Adobe Experience Cloud將於2019年春季起停止支援Microsoft Internet Explorer 11和Campaign Standard19.2版本。 請切換至 Microsoft Edge 或其他支援的瀏覽器。請參閱 [過時和移除的功能](../../rn/using/deprecated-features.md) 頁面。
+* 此 **國家/地區代碼** 「設定檔」資源的欄位已重新命名為 **國家/地區代碼**.
 
 **修補程式**
 
@@ -531,14 +531,14 @@ ht-degree: 8%
    <td> 電子郵件設計工具一般可用性<br /> </td> 
    <td> <p>新的直覺式電子郵件設計工具（舊稱Creative Designer）已移至GA。 現在支援舊版內容編輯器的所有功能，包括：</p> 
     <ul> 
-     <li> 使用來自Adobe Target的<a href="../../integrating/using/adding-target-dynamic-content.md">動態影像</a> </li> 
-     <li> 能夠在準備時自動從URL中擷取內容</a><a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time"> </a></li> 
-     <li> 完全相容的<a href="../../designing/using/using-reusable-content.md#content-templates">現成內容範本</a>。 </li> 
+     <li> 使用 <a href="../../integrating/using/adding-target-dynamic-content.md">動態影像來自Adobe Target</a> </li> 
+     <li> 能夠 <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">在準備時自動從URL擷取內容</a> </li> 
+     <li> 完全相容 <a href="../../designing/using/using-reusable-content.md#content-templates">內容範本</a>. </li> 
     </ul> 
-    <p>如需詳細資訊，請參閱<a href="../../designing/using/designing-content-in-adobe-campaign.md">詳細文件</a>及<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">作法影片</a>。以下列出改善項目和修正項目。</p><p>因此，舊版電子郵件內容編輯器現已過時。 如需詳細資訊，請參閱此<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">page</a>。</p> </td> 
+    <p>如需詳細資訊，請參閱<a href="../../designing/using/designing-content-in-adobe-campaign.md">詳細文件</a>及<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">作法影片</a>。以下列出改善項目和修正項目。</p><p>因此，舊版電子郵件內容編輯器現已過時。 如需詳細資訊，請參閱 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">頁面</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td> 交易電子郵件中的產品清單<br /> </td> 
+   <td> 交易式電子郵件中的產品清單<br /> </td> 
    <td> <p>您現在可以在交易式電子郵件訊息中參考一或多個產品集合。 例如，您可以自動傳送放棄購物車電子郵件，列出使用者購物車中的所有產品，以及每個產品的影像、價格和連結。</p><p>如需詳細資訊，請參閱<a href="../../designing/using/using-product-listings.md">詳細文件</a>及<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html">作法影片</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -546,7 +546,7 @@ ht-degree: 8%
    <td> <p>您現在可以在編輯電子郵件內容時切換至專用的行動檢視。 這可讓您分別編輯行動顯示的所有樣式選項，例如調整邊界、縮小字型大小、改變背景顏色等，以微調電子郵件的回應式設計。</p><p> 如需詳細資訊，請參閱<a href="../../designing/using/plain-text-html-modes.md#switching-to-mobile-view">詳細文件</a>以瞭解詳情。</p> </td> 
   </tr> 
   <tr> 
-   <td> 應用程式內傳訊測試版改善<br /> </td> 
+   <td> 應用程式內訊息測試版改善<br /> </td> 
    <td> <p>應用程式內訊息測試版功能已經過增強，現提供下列功能：</p> 
     <ul> 
      <li> 應用程式內Beta版管道符合GDPR規範 </li> 
@@ -563,7 +563,7 @@ ht-degree: 8%
 * 「載入資料」活動中的新選項現在可讓您將後處理階段套用至包含已拒絕記錄的檔案(例如， 壓縮郵遞區號格式)。(CAMP-24521)
 * 「更新資料」活動中的新選項現在可讓您設定要上傳之資料的最大批次大小。 (CAMP-28400)
 * 改善設定檔的位址狀態選取。 選取國家時，「狀態」下拉式清單現在會自動更新為相關狀態值。 (CAMP-28874)
-* 如果入站轉變為空，擷取檔案活動中的新選項現在會防止產生檔案。 這可避免在SFTP伺服器上建立和上傳空白檔案。
+* A new option in the Extract file activity now prevents from generating a file if the inbound transition is empty. 這可避免在SFTP伺服器上建立和上傳空白檔案。
 * 改善「傳送摘要」報表。
 * 定義設定檔位址時可用的國家/地區清單已擴充。 (CAMP-26707)
 * 現在嘗試匯入內建工作流程時，會顯示錯誤訊息。
@@ -572,23 +572,23 @@ ht-degree: 8%
 
 * 修正即使在Adobe Campaign中停用了電子郵件範本或使用電子郵件設計工具建立的內容片段上啟用地理單位功能的問題，此問題導致在嘗試再次存取時無法使用範本或片段。 (CAMP-28174)
 * 修正使用電子郵件設計工具編輯內容時無法儲存動態內容條件的問題。 (CAMP-27905)
-* 修正在編輯訊息的純文字版本並中斷電子郵件設計工具中的HTML同步後，從電子郵件內容移除HTML版本的問題。 (CAMP-28507)
-* 修正使用Internet Explorer 11時無法開啟電子郵件設計工具介面的問題。 (CAMP-28273)
+* Fixed an issue that removed the HTML version from the email content after editing the plain text version of a message and breaking HTML synchronization in the Email Designer. (CAMP-28507)
+* Fixed an issue that prevented the Email Designer interface to open when using Internet Explorer 11. (CAMP-28273)
 * 修正了使用電子郵件設計工具將樣式設定套用至按鈕時，導致Microsoft Outlook轉譯失真的問題。
-* 修正「電子郵件設計工具」中，從電子郵件中使用的內容片段製作可編輯URL的問題，此問題預設為鎖定片段時，無法預期。
-* 修正Microsoft Office中無法顯示電子郵件設計工具分隔元件的問題。
+* Fixed an issue in the Email Designer that made editable a URL from a content fragment used in an email, which was not expected as the fragment is locked by default.
+* 修正無法在Microsoft Office中顯示電子郵件設計工具分隔元件的問題。
 * 修正使用舊版電子郵件內容編輯器檢視從AEM同步的內容時，造成某些網際網路瀏覽器頁面凍結的問題。 (CAMP-29068)
 * 修正使用舊版電子郵件內容編輯器時，按一下電子郵件中的任何影像時發生的錯誤。 (CAMP-30424)
 * 修正使用電子郵件設計工具編輯電子郵件時，無法顯示新建立片段的問題。 (CAMP-29928)
 * 修正在使用「電子郵件設計工具」建立並使用Outlook網頁郵件用戶端接收的電子郵件中，無法正確顯示按鈕文字的問題。
-* 現在可以使用電子郵件設計工具建立設定檔交易式訊息。 (CAMP-28900)
+* It is now possible to create profile transactional messages using the Email Designer. (CAMP-28900)
 * 修正「電子郵件設計工具」中，在準備時從URL自動擷取內容時，讓內容可編輯的錯誤，但此錯誤應已鎖定。
 
 **修補程式**
 
 * 修正動態報告中顯示錯誤傳送記錄的問題。 (CAMP-23446)
 * 修正可能影響「退回摘要」報表上數字的問題(CAMP-28703)
-* 修正了「促銷活動」與「資產核心服務」整合在電子郵件中選取&#x200B;**[!UICONTROL Image shared from Adobe Experience Cloud]**&#x200B;時，無法顯示資產的問題(CAMP-28732)。
+* 修正促銷活動與資產核心服務整合的問題，若選取 **[!UICONTROL Image shared from Adobe Experience Cloud]** (CAMP-28732)。
 * 修正即使音譯已在SMPP外部帳戶中授權，仍無法傳送包含&#39;oe&#39;字元的SMS訊息的問題。 (CAMP-29041)
 * 修正在工作流程中使用分段活動時，可能顯示重複記錄的問題。 (CAMP-28743)
 * 修正無法刪除工作流程活動中欄上其中一個值對應的問題。 (CAMP-28708)
@@ -604,7 +604,7 @@ ht-degree: 8%
 * 修正在工作流程中使用擴充活動時，無法從傳送記錄檔、追蹤記錄檔及排除記錄檔表格擷取其他資料的問題。
 * 修正了GDPR刪除請求的問題，此問題在使用「N基數收集連結」連結類型和「刪除目標籤錄即表示連結刪除記錄參考」選項時可能發生。
 * 修正報告共用的問題。
-* 修正了傳送推播通知時，可能導致輸送量問題的問題。
+* Fixed an issue which could lead to throughput issues when sending a push notification.
 * 修正直接郵件輸出檔案缺少欄位的問題。
 * 修正允許使用者修改內建工作流程的問題。
 * 修正根據促銷活動範本建立促銷活動時，包含已設定擷取活動之工作流程的問題。 (CAMP-29198)

@@ -37,17 +37,17 @@ ht-degree: 2%
 
 依預設，兩個預先定義的範本可讓您建立Adobe Campaign的電子郵件內容。
 
-* **[!UICONTROL Adobe Campaign Email]**:此範本包含可供個人化的標準內容。您可以在Adobe Campaign電子郵件(AC6.1)和Adobe Campaign電子郵件(ACS)之間做選擇。
+* **[!UICONTROL Adobe Campaign Email]**:此範本包含可供個人化的標準內容。 您可以在Adobe Campaign電子郵件(AC6.1)和Adobe Campaign電子郵件(ACS)之間做選擇。
 * **[!UICONTROL Importer Page]**:此範本可讓您匯入包含HTML檔案的ZIP檔案，其中包含您之後將能個人化的內容。
 
-1. 在Adobe Experience Manager中，建立新的&#x200B;**[!UICONTROL Page]**。
+1. 在Adobe Experience Manager中建立新 **[!UICONTROL Page]**.
 
-1. 選取&#x200B;**[!UICONTROL Adobe Campaign Email]**&#x200B;範本。 有關詳細步驟，請參閱以下視頻。
+1. 選取 **[!UICONTROL Adobe Campaign Email]** 範本。 有關詳細步驟，請參閱以下視頻。
    >[!VIDEO](https://video.tv.adobe.com/v/29997)
 
 1. 開啟您的新電子郵件內容。
 
-1. 在&#x200B;**[!UICONTROL Page properties]**&#x200B;中，將&#x200B;**[!UICONTROL Adobe Campaign]**&#x200B;設定為&#x200B;**[!UICONTROL Cloud Service Configuration]**。 這可讓您的內容與Adobe Campaign執行個體之間通訊。
+1. 在 **[!UICONTROL Page properties]**，設定 **[!UICONTROL Adobe Campaign]** 作為 **[!UICONTROL Cloud Service Configuration]**. 這可讓您的內容與Adobe Campaign執行個體之間通訊。
 
    如需詳細資訊，請觀看下列影片：
 
@@ -59,14 +59,14 @@ ht-degree: 2%
 
 若要在Adobe Experience Manager中建立電子郵件內容：
 
-1. 從sidekick存取&#x200B;**[!UICONTROL Page properties]** > **[!UICONTROL Email]**&#x200B;標籤，編輯主旨以及電子郵件的&#x200B;**[!UICONTROL Plain text]**&#x200B;版本。
+1. 編輯主題以及 **[!UICONTROL Plain text]** 存取 **[!UICONTROL Page properties]** > **[!UICONTROL Email]** 標籤。
 
-1. 透過&#x200B;**[!UICONTROL Text & Personalization]**&#x200B;元件新增&#x200B;**[!UICONTROL Personalization fields]**。 每個元件都對應至特定用途：插入影像、新增個人化等。
+1. 新增 **[!UICONTROL Personalization fields]** 通過 **[!UICONTROL Text & Personalization]** 元件。 每個元件都對應至特定用途：插入影像、新增個人化等。
 
    如需詳細資訊，請觀看下列影片：
    >[!VIDEO](https://video.tv.adobe.com/v/29998)
 
-1. 從&#x200B;**[!UICONTROL Workflow]**&#x200B;標籤中，選擇&#x200B;**[!UICONTROL Approve for Adobe Campaign]**&#x200B;驗證工作流。 如果Adobe Campaign使用的內容尚未核准，您將無法傳送電子郵件。
+1. 從 **[!UICONTROL Workflow]** 頁簽，選擇 **[!UICONTROL Approve for Adobe Campaign]** 驗證工作流程。 如果Adobe Campaign使用的內容尚未核准，您將無法傳送電子郵件。
 
 1. 定義內容和傳送參數後，您就可以繼續在Adobe Campaign Standard中核准、準備和傳送電子郵件。
 

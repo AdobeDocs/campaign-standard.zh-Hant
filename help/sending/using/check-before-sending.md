@@ -28,7 +28,7 @@ ht-degree: 15%
 
 此步驟可讓您在傳送至主要目標之前，偵測可能的錯誤並加以修正。
 
-在本小節](../../sending/using/get-started-sending-messages.md#prepare-test-send)中顯示了驗證傳送的步驟[。
+會顯示驗證傳送的步驟 [在本節](../../sending/using/get-started-sending-messages.md#prepare-test-send).
 
 ## 電子郵件轉譯 {#email-rendering}
 
@@ -42,13 +42,13 @@ ht-degree: 15%
 
 * 電子郵件呈現功能對於識別您的電子郵件促銷活動是否成功超過主要ISP（網際網路服務提供者）和網路郵件服務的篩選至關重要。 這類工具會將電子郵件的飛行前副本傳送至測試收件匣網路，讓您了解訊息在這些服務中的顯示或呈現方式。 它們也可能包含報表和程式碼修正選項，可協助您快速識別並進行修正，以改善傳遞能力。
 
-了解更多[，請參閱本節](../../sending/using/email-rendering.md)。
+深入了解 [在本節](../../sending/using/email-rendering.md).
 
 ## 校樣訊息 {#proof-messages}
 
 傳送校樣可讓您檢查選擇退出連結、鏡像頁面和任何其他連結、驗證訊息、確認影像已顯示、偵測可能的錯誤等。 您也可能想要檢查您的設計和在不同裝置上呈現。
 
-了解更多[，請參閱本節](../../sending/using/sending-proofs.md)。
+深入了解 [在本節](../../sending/using/sending-proofs.md).
 
 ## 設定A/B測試傳送 {#a-b-testing-deliveries}
 
@@ -60,4 +60,4 @@ ht-degree: 15%
 
 * 選取成功率最高的，並將其傳送至目標的其餘部分
 
-了解更多[，請參閱本節](../../channels/using/designing-an-a-b-test-email.md)。
+深入了解 [在本節](../../channels/using/designing-an-a-b-test-email.md).

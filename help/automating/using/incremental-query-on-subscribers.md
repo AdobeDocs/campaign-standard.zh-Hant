@@ -24,18 +24,18 @@ ht-degree: 67%
 
 ![](assets/incremental_query_example1.png)
 
-* [排程器](../../automating/using/scheduler.md)活動，每週一早上6:00執行工作流。
+* A [排程器](../../automating/using/scheduler.md) 活動，每週一早上6:00執行工作流程。
 
    ![](assets/incremental_query_example2.png)
 
-* [增量查詢](../../automating/using/incremental-query.md)活動，在第一次執行期間鎖定所有當前訂閱者，然後在以下執行期間只鎖定該周的新訂閱者。
+* 安 [增量查詢](../../automating/using/incremental-query.md) 活動，在第一次執行期間鎖定所有目前訂閱者，然後在下列執行期間只鎖定該周的新訂閱者。
 
    ![](assets/incremental_query_example3.png)
 
-* [電子郵件傳送](../../automating/using/email-delivery.md)活動。 工作流程每週執行一次，但您可以彙總所傳送的電子郵件和每月結果，例如產生整個月（而不只是一週）的報表。
+* 安 [電子郵件傳送](../../automating/using/email-delivery.md) 活動。 工作流程每週執行一次，但您可以彙總所傳送的電子郵件和每月結果，例如產生整個月（而不只是一週）的報表。
 
    要執行此操作，請選取在這裡建立 **[!UICONTROL Recurring email]** 重新分組電子郵件和結果 **[!UICONTROL By month]**。
 
-   定義電子郵件內容並插入歡迎促銷代碼。如需詳細資訊，請參閱[定義電子郵件內容](../../designing/using/personalization.md)區段。
+   定義電子郵件內容並插入歡迎促銷代碼。有關詳細資訊，請參閱 [定義電子郵件內容](../../designing/using/personalization.md) 區段。
 
 然後開始執行工作流程。每週新訂閱者都會收到包含促銷代碼的歡迎電子郵件。

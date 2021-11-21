@@ -31,12 +31,12 @@ ht-degree: 4%
 
 請查看下列資源，以取得有關Adobe Experience Platform SDK和Campaign Standard整合的詳細資訊：
 
-* Launch/Mobile [概述影片](https://www.adobe.com/experience-platform/launch.html#acpl-mobile-video)
-* Launch/Mobile [提示與秘訣指南](https://www.adobe.com/content/dam/dx/us/en/products/experience-platform/launch-tag-manager/pdfs/adobe-cloud-platform-launch-tips-and-tricks-sheet.pdf)
+* Launch/行動 [概述影片](https://www.adobe.com/experience-platform/launch.html#acpl-mobile-video)
+* Launch/行動 [提示與秘訣指南](https://www.adobe.com/content/dam/dx/us/en/products/experience-platform/launch-tag-manager/pdfs/adobe-cloud-platform-launch-tips-and-tricks-sheet.pdf)
 
 ## Adobe Experience Platform SDK整合是否可同時適用於Adobe Campaign Standard和Adobe Campaign Classic? {#aep-validity}
 
-是，[!DNL Adobe Experience Platform SDK]整合適用於Adobe Campaign Standard和Adobe Campaign Classic。 您必須透過[!DNL Adobe Launch]安裝對應的&#x200B;**[!UICONTROL Extension]**&#x200B;以啟用整合。
+是， [!DNL Adobe Experience Platform SDK] Adobe Campaign Standard和Adobe Campaign Classic皆可使用整合。 您必須安裝對應的 **[!UICONTROL Extension]** via [!DNL Adobe Launch] 啟用整合。
 
 如需關於此項目的詳細資訊，請參閱此[頁面](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard)。
 
@@ -48,14 +48,14 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->[!DNL Places] 整合包括將事件置於應用程式內訊息的觸發器（推播通知的不適用），透過資料和本機通知支援 [!DNL Places] 擴充設定檔。如需詳細資訊，請參閱此[page](../../channels/using/preparing-and-sending-an-in-app-message.md)。 <br>[!DNL Places] 有限的整合包括以資料擴充設 [!DNL Places] 定檔。
+>[!DNL Places] 整合包括將places事件設為應用程式內訊息的觸發器（推播通知為N/A），透過豐富設定檔 [!DNL Places] 資料和本機通知支援。 請參閱 [頁面](../../channels/using/preparing-and-sending-an-in-app-message.md) 以取得更多資訊。 <br>[!DNL Places] 有限的整合包括擴充設定檔 [!DNL Places] 資料。
 
 ## Adobe Experience Platform SDK整合可在Adobe Campaign Standard中促進哪些使用案例？ {#aep-use-cases}
 
 支援下列使用案例：
 
-* 在促銷活動中取得&#x200B;**[!UICONTROL Mobile Profile]**（由&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]** > **[!UICONTROL Mobile Application subscribers]**&#x200B;標籤中的ECID識別）
-* 擴充Adobe Campaign中的&#x200B;**[!UICONTROL Mobile Profile]**（需要appSubscriberRcp表格的&#x200B;**[!UICONTROL Custom resource Extension]**）
+* 取得 **[!UICONTROL Mobile Profile]** 在Campaign中(由 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]** > **[!UICONTROL Mobile Application subscribers]** 標籤)
+* 豐富 **[!UICONTROL Mobile Profile]** 在Adobe Campaign中(需要 **[!UICONTROL Custom resource Extension]** appSubscriberRcp表)
 * 取得用於傳送推送訊息的推送代號（需要使用者選擇加入以接收推送訊息）
 * 傳送推送訊息和應用程式內訊息
 * 追蹤使用者與推送訊息和應用程式內訊息的互動，並提供相關報表
@@ -64,19 +64,19 @@ ht-degree: 4%
 
 要執行此操作，請遵循下列步驟：
 
-1. 在[!DNL Launch]中配置&#x200B;**[!UICONTROL Mobile property]**。
-1. 安裝Adobe Campaign Standard擴充功能。 請注意，Adobe Campaign Standard擴充功能也需要&#x200B;**[!UICONTROL Mobile Core]**、**[!UICONTROL Profile]**&#x200B;和&#x200B;**[!UICONTROL Lifecycle]**&#x200B;擴充功能，預設會在[!DNL Launch]中安裝。
-   * 使用者應在&#x200B;**[!UICONTROL Mobile Core]**&#x200B;擴充功能中設定工作階段逾時，這會影響生命週期事件的頻率。
-   * 設定擴充功能後，使用者應使用適用於iOS的Cocoapods和適用於Android的Gradle，在行動應用程式中新增適當的相依性。 請遵循[此處](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard)指示。
+1. 設定 **[!UICONTROL Mobile property]** in [!DNL Launch].
+1. 安裝Adobe Campaign Standard擴充功能。 請注意，Adobe Campaign Standard擴充功能也需要 **[!UICONTROL Mobile Core]**, **[!UICONTROL Profile]** 和 **[!UICONTROL Lifecycle]** 預設安裝於 [!DNL Launch].
+   * 使用者應在 **[!UICONTROL Mobile Core]** 影響生命週期事件頻率的擴充功能。
+   * 設定擴充功能後，使用者應使用Cocoapods for iOS和Gradle for Android在行動應用程式中新增適當的相依性。 按照指示 [此處](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
    * 請一律使用最新版本的程式庫。
-   * 在行動應用程式中，註冊&#x200B;**[!UICONTROL Campaign]**、**[!UICONTROL UserProfile]**、**[!UICONTROL Identity]**、**[!UICONTROL Lifecycle]**&#x200B;和&#x200B;**[!UICONTROL Signal]**&#x200B;擴充功能。 請遵循[此處](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#register-the-campaign-standard-extension-with-mobile-core)指示。
+   * 在行動應用程式中註冊 **[!UICONTROL Campaign]**, **[!UICONTROL UserProfile]**, **[!UICONTROL Identity]**, **[!UICONTROL Lifecycle]** 和 **[!UICONTROL Signal]** 擴充功能。 按照指示 [此處](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#register-the-campaign-standard-extension-with-mobile-core).
    * 註冊擴充功能後，啟動ACPCore。 對於Android，請務必設定Application onCreate()。 請依照Launch中您行動屬性的行動安裝指示中提供的確切指示操作。
-   * 也需要下列SDK API。 如[此處](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/lifecycle/lifecycle-extension-in-android)針對Android和此處針對iOS所述，實作生命週期開始和暫停API。
-1. 在Adobe Campaign Standard中設定&#x200B;**[!UICONTROL Mobile Property]**。 請依照[此處](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)操作。
+   * 也需要下列SDK API。 實施生命週期開始和暫停API，如所述 [此處](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/lifecycle/lifecycle-extension-in-android) 適用於Android，適用於iOS。
+1. 設定 **[!UICONTROL Mobile Property]** 在Adobe Campaign Standard。 依照程式操作 [此處](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
 ## 若要讓行動設定檔在行銷活動中變得更加豐富，我必須做什麼？ {#enrich-mobile-profile}
 
-您必須設定CollectPII回傳（請參閱此[page](../../administration/using/configuring-rules-launch.md#pii-postback)），並從SDK實作CollectPII API（請參閱此[page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii)）。
+您必須設定CollectPII回傳(請參閱 [頁面](../../administration/using/configuring-rules-launch.md#pii-postback))並從SDK實作CollectPII API(請參閱 [頁面](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii))。
 
 ## CollectPII呼叫的觸發頻率為何？ {#collect-pii}
 
@@ -99,7 +99,7 @@ CollectPII呼叫的頻率和設計應由業務需求決定，不應因為在DB�
 查看下列資源：
 
 * Experience PlatformSDK [檔案](https://aep-sdks.gitbook.io/docs/)
-* Launch與Experience PlatformSDK快速入門[檔案](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)
+* Launch與Experience PlatformSDK快速入門 [檔案](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)
 * 升級至Experience PlatformSDK [檔案](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep)
 * GithubExperience PlatformSDK [檔案](https://github.com/Adobe-Marketing-Cloud/acp-sdks/)
 

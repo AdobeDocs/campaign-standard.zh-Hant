@@ -17,13 +17,13 @@ ht-degree: 2%
 
 # 計數
 
-Adobe Campaign REST API可計算請求中的記錄數。 要執行此操作，請使用&#x200B;**count**&#x200B;節點中傳回的URL。
+Adobe Campaign REST API可計算請求中的記錄數。 若要這麼做，請使用 **計數** 節點。
 
 <br/>
 
 ***範例要求***
 
-若要計算具有等於「sms」的&#x200B;**messageType**&#x200B;值的所有服務，請使用&#x200B;**byChannel**&#x200B;篩選器執行GET請求。
+若要計算所有具有 **messageType** 值等於「sms」，請使用執行GET要求 **byChannel** 篩選。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel?channel=sms \
@@ -54,7 +54,7 @@ Adobe Campaign REST API可計算請求中的記錄數。 要執行此操作，�
 }
 ```
 
-在&#x200B;**count**&#x200B;節點的URL上執行GET請求，以擷取結果數量。
+在 **計數** 節點的URL來擷取結果數。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/_count?channel=sms&_lineStart=@iKTZ2q3IiSEDqZ5Nw1vdoGnQCqF-8DAUJRaVwR9obqqTxhMy \

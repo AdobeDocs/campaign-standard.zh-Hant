@@ -35,15 +35,15 @@ ht-degree: 15%
 
 <img src="assets/do-not-localize/icon_prepare.svg" width="60px">
 
-Campaign Standard **訊息準備**&#x200B;會分析訊息的目標、個人化和有效性。 在此步驟期間偵測到的錯誤必須先修正，才能繼續。
+Campaign Standard **訊息準備** 分析訊息的目標、個人化和有效性。 在此步驟期間偵測到的錯誤必須先修正，才能繼續。
 
-**使用各種** 功能預覽和測試您的訊息：傳送校樣以測試設定檔或目標設定檔、測試您的電子郵件主旨行，以及檢查訊息的轉譯，以確保以最佳方式顯示在各種網頁用戶端、網頁郵件和裝置上。
+**預覽和測試** 您使用各種功能的訊息：傳送校樣以測試設定檔或目標設定檔、測試您的電子郵件主旨行，以及檢查訊息的轉譯，以確保以最佳方式顯示在各種網頁用戶端、網頁郵件和裝置上。
 
 運用Campaign排程功能來定義訊息的傳送時間。 例如，您可以調整在收件者時區的傳送、最佳化傳送時間或計算傳送日期。
 
-在準備期間，使用&#x200B;**類型**&#x200B;來檢查訊息是否有效，並透過疲勞、控制和鎖定規則符合您的品質標準。 例如，檢查您的電子郵件是否一律包含主旨行，或排除訊息收件者的取消訂閱者。
+使用 **類型** 以在準備期間檢查訊息是否有效，並透過疲勞、控制和鎖定規則符合您的品質標準。 例如，檢查您的電子郵件是否一律包含主旨行，或排除訊息收件者的取消訂閱者。
 
-了解更多:
+閱讀全文:
 
 * [準備傳送](../../sending/using/preparing-the-send.md)
 * [預覽訊息](../../sending/using/previewing-messages.md)
@@ -56,13 +56,13 @@ Campaign Standard **訊息準備**&#x200B;會分析訊息的目標、個人化�
 
 <img src="assets/do-not-localize/icon_send.svg"  width="60px">
 
-訊息準備就緒後，您可以確認傳送和存取記錄檔與報表至&#x200B;**監控傳送**，並測量促銷活動的成功。 Adobe Campaign也提供電子郵件警報系統，以追蹤傳送成功或失敗，以及隔離管理功能。
+訊息準備就緒後，您可以確認傳送和存取記錄檔及報表 **監控傳送** 並衡量行銷活動的成功。 Adobe Campaign也提供電子郵件警報系統，以追蹤傳送成功或失敗，以及隔離管理功能。
 
-**使用工** 作階段和永久Cookie來擷取追蹤資訊（已點按URL、鏡像頁面、已開啟的訊息……），以追蹤訊息收件者的行為。
+**追蹤行為** 會話和永久cookie來擷取追蹤資訊（已點按URL、鏡像頁面、已開啟的訊息……），以取得訊息收件者的資訊。
 
-最後，您可以將Adobe Campaign設定為&#x200B;**保留從您的平台透過電子郵件密件副本傳送的電子郵件副本**。 尤其是，如果貴組織需要歸檔所有出站電子郵件以符合法規要求，您可以啟用此功能。
+最後，您可以將Adobe Campaign設定為 **保留一份電子郵件** 透過電子郵件密件副本從您的平台傳送。 尤其是，如果貴組織需要歸檔所有出站電子郵件以符合法規要求，您可以啟用此功能。
 
-了解更多:
+閱讀全文:
 
 * [確認傳送](../../sending/using/confirming-the-send.md)
 * [追蹤訊息](../../sending/using/tracking-messages.md)
@@ -77,9 +77,9 @@ Campaign Standard **訊息準備**&#x200B;會分析訊息的目標、個人化�
 
 傳遞能力可讓您測量到達收件者收件匣的促銷活動是否成功，而不會反彈或標示為垃圾訊息。
 
-Campaign Standard提供數種&#x200B;**傳遞工具**，以協助您改善成功傳送的訊息數量：傳遞吞吐量報告、傳送時間最佳化、訊息預覽、電子郵件呈現、隔離管理等。
+Campaign Standard提供數個 **傳遞工具** 若要協助您改善已成功傳送之訊息的數量：傳遞吞吐量報告、傳送時間最佳化、訊息預覽、電子郵件呈現、隔離管理等。
 
-了解更多:
+閱讀全文:
 
 * [關於傳遞能力](../../sending/using/about-deliverability.md)
 * [監視傳遞能力](../../sending/using/monitor-deliverability.md)
@@ -99,4 +99,4 @@ Campaign Standard提供數種&#x200B;**傳遞工具**，以協助您改善成功
 
 >[!VIDEO](https://video.tv.adobe.com/v/24013/)
 
-其他Campaign Standard操作說明影片可在[此處](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant)取得。
+提供其他Campaign Standard作法影片 [此處](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant).

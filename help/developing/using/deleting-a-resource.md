@@ -17,7 +17,7 @@ ht-degree: 14%
 
 # 刪除資源{#deleting-a-resource}
 
-若要刪除資源，相關資源必須為&#x200B;**[!UICONTROL Draft]**。 如果：**[!UICONTROL Draft]**
+若要刪除資源，相關資源必須是 **[!UICONTROL Draft]**. 資源位於 **[!UICONTROL Draft]** 狀態（如果）:
 
 * 它剛剛建立，尚未發佈。
 * 如果已經發佈，則必須重新起草資源。
@@ -43,13 +43,13 @@ ht-degree: 14%
 
    >[!NOTE]
    >
-   >如果您重新草稿現成可用的&#x200B;**設定檔（設定檔）**&#x200B;資源的擴充功能，您也必須重新草稿您可能已定義的任何&#x200B;**測試設定檔(seedMember)**&#x200B;擴充功能。 有關擴展配置檔案資源的詳細資訊，請參閱[此部分](../../developing/using/extending-the-profile-resource-with-a-new-field.md)。
+   >如果重新繪製現成可用的擴展 **設定檔（設定檔）** 資源，您也必須重新草稿任何 **測試配置檔案(seedMember)** 您可能已定義的擴充功能。 如需擴充設定檔資源的詳細資訊，請參閱 [本節](../../developing/using/extending-the-profile-resource-with-a-new-field.md).
 
-1. 發佈資源。 如需更多詳細步驟，請參閱[發佈自訂資源](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)。
+1. 發佈資源。 如需更多詳細步驟，請參閱 [發佈自訂資源](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
 
-   然後，資源會進入&#x200B;**Draft**&#x200B;模式，其啟動狀態為&#x200B;**[!UICONTROL Inactive]**。
+   然後，資源會進入 **草稿** 模式及其激活狀態為 **[!UICONTROL Inactive]**.
 
-1. 在&#x200B;**[!UICONTROL List]**&#x200B;模式中，檢查要刪除的資源，然後按一下![](assets/delete_darkgrey-24px.png) **[!UICONTROL Delete element]**&#x200B;圖示。
+1. 在 **[!UICONTROL List]** 模式，檢查要刪除的資源，然後按一下 ![](assets/delete_darkgrey-24px.png) **[!UICONTROL Delete element]** 表徵圖。
 
    ![](assets/schema_extension_uc28.png)
 
@@ -57,4 +57,4 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->如果修改或刪除用於事件之自訂資源的欄位，則相對應的事件將會自動取消發佈。請參閱[取消發佈交易式事件](../../channels/using/publishing-transactional-event.md#unpublishing-an-event)。
+>如果修改或刪除用於事件之自訂資源的欄位，則相對應的事件將會自動取消發佈。請參閱 [取消發佈交易式事件](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).

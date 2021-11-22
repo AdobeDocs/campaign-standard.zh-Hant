@@ -19,13 +19,13 @@ ht-degree: 2%
 
 在Adobe Campaign Standard工作流程中，可以有一或多個 **外部信號** 活動。 這些活動是等待觸發的「監聽器」。
 
-Campaign StandardAPI可讓您觸發 **外部信號** 呼叫工作流程的活動。 API呼叫可包含要擷取至工作流程事件變數的參數（要定位的對象名稱、要匯入的檔案名稱、訊息內容的一部分等）。 This way, you can easily integrate your Campaign automations with your external system.
+Campaign StandardAPI可讓您觸發 **外部信號** 呼叫工作流程的活動。 API呼叫可包含要擷取至工作流程事件變數的參數（要定位的對象名稱、要匯入的檔案名稱、訊息內容的一部分等）。 這樣，您就可以輕鬆整合Campaign自動化與外部系統。
 
 >[!NOTE]
 >
 >外部訊號活動的觸發頻率不能超過每10分鐘，且目標工作流程必須已執行。
 
-To trigger a workflow, follow the steps below:
+若要觸發工作流程，請遵循下列步驟：
 
 1. 執行 **GET** 要求擷取外部訊號活動觸發器URL。
 
@@ -33,7 +33,7 @@ To trigger a workflow, follow the steps below:
 
 1. 執行 **POST** 傳回URL上的要求以觸發訊號活動，並搭配 **&quot;source&quot;** 參數。 此屬性為必要屬性，可讓您指出觸發請求來源。
 
-If you want to call the workflow with parameters, add them into the payload with the **&quot;parameters&quot;** attribute. 語法由參數的名稱及其值組成(支援下列類型： **字串**, **數字**, **布林值** 和 **日期/時間**)。
+如果您想要使用參數呼叫工作流程，請將它們新增至搭配 **&quot;parameters&quot;** 屬性。 語法由參數的名稱及其值組成(支援下列類型： **字串**, **數字**, **布林值** 和 **日期/時間**)。
 
 ```
   -X POST <TRIGGER_URL>
@@ -56,13 +56,13 @@ If you want to call the workflow with parameters, add them into the payload with
 
 >[!NOTE]
 >
->When adding a parameter to the payload, make sure that its **name** and **type** values are consistent with the information declared in the External signal activity. Moreover, the payload size should not exceed 64Ko.
+>將參數新增至裝載時，請確定其 **名稱** 和 **type** 值與外部訊號活動中宣告的資訊一致。 此外，有效載荷大小不應超過64Ko。
 
 <br/>
 
 ***範例要求***
 
-Perform a GET request on the workflow.
+在工作流程上執行GET請求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID> \
@@ -72,7 +72,7 @@ Perform a GET request on the workflow.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-It returns the workflow signal activity and the associated trigger url.
+它會傳回工作流程訊號活動和相關聯的觸發器url。
 
 ```
 {
@@ -91,7 +91,7 @@ It returns the workflow signal activity and the associated trigger url.
 }
 ```
 
-若要觸發訊號活動，請對具有「來源」的觸發url執行POST要求。 Add the &quot;parameters&quot; attributes if you want to call the workflow with parameters.
+若要觸發訊號活動，請對具有「來源」的觸發url執行POST要求。 如果您要使用參數呼叫工作流程，請新增「參數」屬性。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<PKEY>/activities/activity/<PKEY>/trigger \
@@ -115,7 +115,7 @@ It returns the workflow signal activity and the associated trigger url.
 
 <!-- + réponse -->
 
-If one of the parameters is not declared in the External signal activity, the POST request returns the error below, indicating which parameter is missing.
+如果外部訊號活動中未宣告其中一個參數，POST要求會傳回下列錯誤，指出缺少哪個參數。
 
 ```
 RST-360011 An error has occurred - please contact your administrator.

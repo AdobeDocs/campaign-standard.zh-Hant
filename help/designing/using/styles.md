@@ -39,15 +39,15 @@ ht-degree: 1%
 
 若要選取欄，您也可以執行下列操作：
 
-1. Select a structure component (directly in the email or using the structure tree available from the left **Palette**).
+1. 選取結構元件(直接在電子郵件中，或使用左側可用的結構樹 **浮動視窗**)。
 1. 從 **內容工具列**，按一下 **[!UICONTROL Select a column]** 來選擇所需的欄。
 
 請參閱 [本節](#example--adjusting-vertical-alignment-and-padding).
 
 ## 調整樣式設定 {#adjusting-style-settings}
 
-1. Select an element in your email. 有關詳細資訊，請參閱 [選取元素](#selecting-an-element).
-1. Adjust the settings according to your needs. Each selected element offers a different set of settings.
+1. 在電子郵件中選取元素。 有關詳細資訊，請參閱 [選取元素](#selecting-an-element).
+1. 根據您的需求調整設定。 每個選取的元素都提供不同的設定集。
 
    您可以插入背景、更改大小、修改水準或垂直對齊、管理顏色、添加 [邊距](#selecting-an-element)等。
 
@@ -77,9 +77,9 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->根據您的選取項目（結構元件、欄或內容元件），結果將不相同。 Adobe recommends setting the **[!UICONTROL Padding]** and **[!UICONTROL Margin]** parameters at the column level.
+>根據您的選取項目（結構元件、欄或內容元件），結果將不相同。 Adobe建議將 **[!UICONTROL Padding]** 和 **[!UICONTROL Margin]** 參數。
 
-兩者皆適用 **[!UICONTROL Padding]** 和 **[!UICONTROL Margin]**，按一下鎖定圖示以中斷上下或左右參數之間的同步。 This enables you to adjust each parameter separately.
+兩者皆適用 **[!UICONTROL Padding]** 和 **[!UICONTROL Margin]**，按一下鎖定圖示以中斷上下或左右參數之間的同步。 這可讓您分別調整每個參數。
 
 ![](assets/des_padding_lock_icon.png)
 
@@ -89,7 +89,7 @@ ht-degree: 1%
 
    ![](assets/des_text_alignment.png)
 
-* **Horizontal alignment** can be applied to text, images and buttons - currently not to the **[!UICONTROL Divider]** and **[!UICONTROL Social]** components.
+* **水準對齊** 可套用至文字、影像和按鈕 — 目前不適用於 **[!UICONTROL Divider]** 和 **[!UICONTROL Social]** 元件。
 
    ![](assets/des_horizontal_alignment.png)
 
@@ -97,11 +97,11 @@ ht-degree: 1%
 
    ![](assets/des_set_vertical_alignment.png)
 
-## Setting backgrounds {#about-backgrounds}
+## 設定背景 {#about-backgrounds}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
->title="Background settings"
+>title="背景設定"
 >abstract="電子郵件設計工具可讓您個人化內容的背景顏色或背景影像。請注意，並非所有電子郵件用戶端都支援背景影像。"
 >additional-url="https://docs.google.com/spreadsheets/d/1TLo62YKm3tThUWDOIliCQFWs3dpNjpDfw6DdTr1oGOw/edit#gid=0" text="其他資訊"
 
@@ -133,7 +133,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >有些電子郵件程式不支援背景影像。 若不支援，則會改用列背景顏色。 Make sure you select an appropriate fallback background color in case the image cannot be displayed.
+   >有些電子郵件程式不支援背景影像。 若不支援，則會改用列背景顏色。 請務必選取適當的後援背景顏色，以備影像無法顯示時使用。
 
 * 在列級別設定背景顏色。
 
@@ -141,7 +141,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >這是最常見的使用案例。 Adobe recommends setting background colors at the column level as this allows for more flexibility when editing the whole email content.
+   >這是最常見的使用案例。 Adobe建議在欄層級設定背景顏色，因為這樣在編輯整個電子郵件內容時可提供更大的彈性。
 
    您也可以在欄層級設定背景影像，但此功能很少使用。
 
@@ -164,11 +164,11 @@ ht-degree: 1%
 
 1. 在 **[!UICONTROL Padding]**，定義欄內的上邊框間距。 按一下鎖定圖示以中斷與底部邊框間距的同步。
 
-   Define the left and right padding for that column.
+   定義該欄的左邊框和右邊框間距。
 
    ![](assets/des_adjusting_padding.png)
 
-1. Proceed similarly to adjust the other columns&#39; alignment and padding.
+1. 以類似方式繼續調整其他列的對齊方式和邊框間距。
 
    ![](assets/des_adjusting_columns.png)
 
@@ -192,7 +192,7 @@ ht-degree: 1%
 
    ![](assets/stylelinks-colorpicker.png)
 
-1. Pick the color you need.
+1. 選擇所需的顏色。
 
    ![](assets/stylelinks-colorchanged.png)
 

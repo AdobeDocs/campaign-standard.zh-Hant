@@ -28,7 +28,7 @@ ht-degree: 1%
 
 ## 存取行銷活動中的訊息 {#accessing-messages-in-campaigns}
 
-若要存取行銷活動的清單：
+若要存取促銷活動的行銷活動清單：
 
 1. 前往 **[!UICONTROL Marketing activities]** 的上界。
 1. 選取 **[!UICONTROL Marketing activities > Marketing plans > Programs & Campaigns]**。

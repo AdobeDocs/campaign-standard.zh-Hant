@@ -244,9 +244,9 @@ Adobe Campaign Standard只會傳送 `DELIVER_SM_RESP` 一旦所有處理步驟�
 
 * **UDH**:傳送長訊息的預設和建議方式。 在此模式中，連接器會將訊息分割為多個 `SUBMIT_SM PDU`有UDH資訊。 這個協定是手機自己使用的。 這表示Adobe Campaign對訊息產生的控制力最強，因此可精確計算已傳送的部件數及分割方式。
 
-* **message_payload**: the way to send the whole long message in a single `SUBMIT_SM PDU`. The provider will have to split it, which means that it is impossible for Adobe Campaign to know exactly how many parts have been sent. Some providers require this mode, but we advise you to only use it if they do not support UDH.
+* **message_payload**:用一個 `SUBMIT_SM PDU`. 提供者必須將其分割，這表示Adobe Campaign無法確切知道已傳送多少部件。 有些提供者需要此模式，但我們建議您僅在不支援UDH時才使用此模式。
 
-See the description of the `esm_class`, `short_message` and `message_payload` fields of the [SUBMIT_SM PDU](../../administration/using/sms-protocol.md#information-pdu) for more details about the protocol and formats.
+請參閱 `esm_class`, `short_message` 和 `message_payload` 欄位 [SUBMIT_SM PDU](../../administration/using/sms-protocol.md#information-pdu) 以取得通訊協定和格式的詳細資訊。
 
 ### 吞吐量上限和窗口 {#throughput-capping}
 
@@ -345,9 +345,9 @@ SMS訊息使用特殊的7位元編碼，通常稱為GSM7編碼。
 
 * Adobe Campaign連接器不支援國家語言班次表。 您必須使用UCS-2或其他 `data_coding` 。
 
-* UCS-2 and UTF-16 are often mixed by phones. 這是使用UCS-2中不存在的表情符號和其他字元時的問題。
+* UCS-2和UTF-16通常由手機混合。 這是使用UCS-2中不存在的表情符號和其他字元時的問題。
 
-* Most phones don&#39;t have font glyphs for all UCS-2 characters. 智慧手機往往能夠顯示稀有字元，但功能手機通常對那些在他們購買的國家的母語中有用的功能的支援有限。 如果您想使用表情符號或ASCII-art，請先在各種手機上測試，再發送。 Adobe Campaign預覽不會模擬遺失的字元，且會顯示網頁瀏覽器上可用的符號。
+* 大多數手機沒有所有UCS-2字元的字型字型。 智慧手機往往能夠顯示稀有字元，但功能手機通常對那些在他們購買的國家的母語中有用的功能的支援有限。 如果您想使用表情符號或ASCII-art，請先在各種手機上測試，再發送。 Adobe Campaign預覽不會模擬遺失的字元，且會顯示網頁瀏覽器上可用的符號。
 
 此 `data_coding` 欄位會告訴您使用的編碼。 一個主要問題是，值0表示規範中的預設SMSC編碼，通常指GSM7。 請向與編碼相關聯的SMSC合作夥伴確認 `data_coding` = 0，而Adobe Campaign僅支援。 其他 `data_coding` 值通常遵循規範，但唯一可確定的方式是向SMSC提供者確認。
 
@@ -420,7 +420,7 @@ Adobe Campaign Standard的連線總數公式：
 
 #### 透過SMPP啟用TLS {#enable-TLS}
 
-Use TLS to connect to the provider. 連線會加密。 TLS連線由OpenSSL程式庫管理，任何適用於OpenSSL的項目，此連線都會成立。
+使用TLS連線至提供者。 連線會加密。 TLS連線由OpenSSL程式庫管理，任何適用於OpenSSL的項目，此連線都會成立。
 
 #### 在日誌檔案中啟用詳細SMPP跟蹤 {#enable-verbose-log-file}
 
@@ -515,13 +515,13 @@ TON（編號類型）和NPI（編號計畫指標）在 [SMPP 3.4規範](https://
 
 #### 最大MT吞吐量 {#max-mt-throughput}
 
-每秒和每個連接的最大MT數。 This setting is strictly enforced, the MTA will never push messages faster than this limit. 它對於需要精確調節的提供商非常有用。
+每秒和每個連接的最大MT數。 此設定會嚴格強制執行，MTA永遠不會以超過此限制的速度推送訊息。 它對於需要精確調節的提供商非常有用。
 
-To know the total throughput limit, multiply this number by the total number of connections as detailed in the formula above.
+要了解總吞吐量限制，請將此數乘以上述公式中詳述的連接總數。
 
-0 means no limit, the MTA will send MT as fast as possible.
+0表示沒有限制，MTA會盡快傳送MT。
 
-It is generally recommended to keep this setting under 1000, since it is impossible to guarantee precise throughput above this number unless properly benchmarked on the final architecture. 如果您需要的吞吐量超過1000，請與您的提供商聯繫。 It may be better to increase the number of connections to go above 1000 MT/s.
+一般建議將此設定保持在1000以下，因為除非在最終體系結構上進行適當基準，否則無法保證精確的吞吐量高於此數字。 如果您需要的吞吐量超過1000，請與您的提供商聯繫。 將連接數量增加到1000 MT/s以上可能更好。
 
 #### 重新連接前的時間 {#time-reconnection}
 
@@ -622,7 +622,7 @@ Fox範例，若設為2:
 
 * 連接器計為2 **ID無效** 該ID的錯誤，因此會傳送 `DELIVER_SM_RESP` 「OK」，即使未正確處理亦然。
 
-* This feature is meant to flush SR buffers on the provider side when invalid SR block legitimate that messages cannot be processed.
+* 當無效的SR塊合法且無法處理消息時，此功能的用意是刷新提供程式端的SR緩衝區。
 
 將此欄位設為0會停用 **消息ID無效** 一律會傳回，這是正常行為。
 

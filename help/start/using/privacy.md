@@ -16,7 +16,7 @@ exl-id: 0fc71c2f-f294-43f7-825c-73ab4d43fcf7
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '1476'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -126,11 +126,11 @@ Adobe Campaign 提供其他功能，協助您作為資料控制方，針對特�
 
 * **存取權限**&#x200B;是指資料主體有權從資料控制方取得關於其個人資料是否正在處理、處理地點及處理原因的確認。
 
-* 此 **被遺忘權** （刪除請求）為資料主體賦予權利，讓資料控制方得以清除其個人資料。
+* **被遺忘的權利** (刪除要求) 為資料主體賦予權利，讓資料控制人員得以清除其個人資料。
 
 >[!NOTE]
 >
->本套工具可協助您遵循 GDPR、CCPA 及 PDPA 的隱私權規範。如需這些不同法規的詳細資訊，請參閱[本頁面](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)。
+>本工具可協助您遵循 GDPR、CCPA 及 PDPA 的隱私權規範。如需這些不同法規的詳細資訊，請參閱[本頁面](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)。
 
 <!--* **GDPR** (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
 

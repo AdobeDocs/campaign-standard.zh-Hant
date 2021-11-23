@@ -16,7 +16,7 @@ exl-id: 8f8ce032-5cff-44d3-9d3b-52511dbcaaab
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '812'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -113,8 +113,8 @@ Adobe Campaign 中的報告是以根據來自傳送和追蹤記錄彙總資料�
 
 ## 再次選擇加入 {#opt-in-again}
 
-**資料主體（其資料已從 Adobe Campaign 中清除）可以稍後再次選擇加入嗎？**
+**資料已從 Adobe Campaign 中清除的資料主體可於稍後再次選擇加入嗎？**
 
-資料主體可能會再次選擇加入，或在其資料從Adobe Campaign中清除後以新收件者身分新增。
+資料主體可以選擇再次加入，或在 Adobe Campaign 將其資料清除後，以新收件者身分加入。
 
-您可以使用稽核軌跡，其詳細說明執行上次刪除的時間以及建立新收件者的時間。
+您可以使用稽核軌跡，其詳細說明上次執行刪除的時間以及建立新收件者的時間。

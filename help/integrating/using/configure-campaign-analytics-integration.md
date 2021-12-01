@@ -8,9 +8,9 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: a6748b4b-36c5-4961-a599-ace73a8504cc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 26260b9e633d8be1652eeb46c982864a7477da27
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '221'
 ht-degree: 9%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 9%
 
    ![](assets/analytics.png)
 
-此 **[!UICONTROL Share KPIs with Adobe Analytics]** 技術工作流程現在會自動啟動，並可透過選取 **[!UICONTROL Administration > Application settings > Workflow]**. 此技術工作流程將每15分鐘自動執行一次，並在Adobe Analytics中推送至最多6個月的舊資料。
+此 **[!UICONTROL Share KPIs with Adobe Analytics]** 技術工作流程現在會自動啟動，並可透過選取 **[!UICONTROL Administration > Application settings > Workflow]**. 此技術工作流程最多可保留6個月的舊broadlog。 請注意，此工作流程是增量式的，且會推送前一天的資料。
 
 ![](assets/analytics_3.png)
 

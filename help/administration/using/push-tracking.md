@@ -9,9 +9,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 950d24e2-358f-44f8-98ea-643be61d4573
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 95d4b9fbb41f5204f387971be3710817a281a8c4
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '954'
 ht-degree: 1%
 
 ---
@@ -232,13 +232,11 @@ private void handleTracking() {
 * **背景**:當is應用程式未在畫面上，但程式未關閉時。 當您按兩下「首頁」按鈕時，通常會顯示背景中的所有應用程式。
 * **關閉/關閉**:一個程式被殺的應用。
 
-如果應用程式關閉，在應用程式重新啟動前，Apple不會呼叫應用程式。 這表示您將無法知道iOS上何時收到通知。
-
 為了還有 **[!UICONTROL Impression]** 在應用程式於背景執行時進行追蹤，我們需要傳送 **[!UICONTROL Content-Available]** 讓應用程式知道必須執行追蹤。
 
 >[!CAUTION]
 >
->iOS曝光追蹤不準確，不應視為可靠。
+> 如果應用程式關閉，在應用程式重新啟動前，Apple不會呼叫應用程式。 這表示您將無法知道iOS上何時收到通知。 </br> 因此，iOS曝光追蹤可能不準確，也不應視為可靠。
 
 若為21.1版之前建立的傳送，或使用自訂範本的傳送，請參閱 [節](../../administration/using/push-tracking.md#about-push-tracking).
 

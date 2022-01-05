@@ -8,10 +8,10 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 40%
+source-wordcount: '553'
+ht-degree: 37%
 
 ---
 
@@ -33,6 +33,10 @@ Adobe Campaign 提供完整的圖形環境，讓您設計複雜程式，包括�
 * 資料管理 (ETL)，以操作資料。
 * 將資料匯入 Campaign 資料庫。
 * 技術流程，例如資料庫清理、復原追蹤資訊等。
+
+>[!IMPORTANT]
+>
+> Adobe建議客戶不要同時執行超過20個作用中的工作流程，並排定工作流程執行的優先順序，並將其分散到不同的時間。 如需詳細資訊，請參閱 [本頁](../../automating/using/best-practices-workflows.md).
 
 ## 工作流程活動 {#workflow-activities}
 
@@ -87,7 +91,7 @@ Campaign Standard隨附數個 **資料管理功能** 匯入和匯出資料。
 * [匯入和匯出資料](../../automating/using/about-data-import-and-export.md)
 * [使用案例：匯出/匯入自訂資源](../../automating/using/exporting-importing-custom-resources.md)
 
-## 其他資源
+## 額外資源
 
 * [程式與資料管理教學課程影片](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/managing-processes-and-data/creating-a-workflow.html?lang=zh-Hant)
 * [技術工作流程](../../administration/using/technical-workflows.md)

@@ -9,9 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 3b95fc66-d6f4-44b2-be33-925c1109a57f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '353'
 ht-degree: 8%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 8%
 
 工作流程一律手動啟動。 不過，一旦開始，就可能會維持非作用中狀態，具體取決於 [排程器](../../automating/using/scheduler.md) 活動。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
-> Adobe建議客戶排定工作流程執行的優先順序，並執行最多20個同時執行的工作流程，以持續在執行個體間達到最佳效能。 可能會計畫超過20個並行工作流執行，並預設會依序執行。 您可以將票證提交給客戶服務，以調整最大併發工作流執行數的預設設定。
+> Adobe建議客戶不要同時執行超過20個作用中的工作流程，並排定工作流程執行的優先順序，並將其分散到不同的時間。 如需詳細資訊，請參閱 [本頁](../../automating/using/best-practices-workflows.md).
 
 執行相關動作（開始、停止、暫停等） 為 **非同步** 流程：命令會儲存，並在伺服器可用來套用後生效。
 

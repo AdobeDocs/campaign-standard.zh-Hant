@@ -7,9 +7,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 8bc0b1186e177b6937c1ae72c1f8763c480b12a9
+source-git-commit: 5435e1dbfbe08399c488322320ac5bb8e681a79d
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '734'
 ht-degree: 10%
 
 ---
@@ -53,6 +53,9 @@ ht-degree: 10%
 * 在發送您的In-App消息後，您現在可以選擇停用您的傳遞。 這樣，您就可以刪除交付內容，而不會丟失任何報告資料。 (CAMP-48469)
 * 為防止出現任何問題，用戶不能再將自定義表列的名稱與資料庫中自動主鍵所用的名稱相同， `"<dataType><resourceName>Id"`。 (CAMP-49358)
 * 您現在可以監視您的交付情況，並使用新的 **作業歷史記錄** 下拉。 (CAMP-49840)
+* 通過減少死元組，在一段時間內跨所有通道發送大量消息時，提高了穩定性和資料庫健康性。 (CAMP-49755、CAMP-49792、CAMP-49849)
+* 為確保在資料庫崩潰或重新啟動時自動刷新資料庫連接，已在市場活動郵件傳輸代理(MTA)中實施了改進。 (CAMP-48063)
+
 
 **修補程式**
 

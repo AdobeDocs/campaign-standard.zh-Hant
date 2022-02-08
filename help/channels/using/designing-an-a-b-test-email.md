@@ -9,10 +9,10 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 07cbf39c-4f53-49b1-8e85-c6df39f014b5
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 2adead5903eb2710207d7aeaaa85418bd616ca5d
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 100%
+source-wordcount: '836'
+ht-degree: 95%
 
 ---
 
@@ -50,6 +50,11 @@ Adobe Campaign 中的 A/B 測試功能允許您定義兩至三種電子郵件變
    * **[!UICONTROL Number of variants]**：您可以選取使用兩種或三種變體。如果您選取三種變體，則在精靈中確認此步驟後，就無法修改此選項。
    * **[!UICONTROL Winning strategy]**：選取用於確定成功變體的標準。
    * **[!UICONTROL Target breakdown]**：選取目標中將接收每個變體的百分比。一旦確定成功變體後，剩餘百分比將接收它。目標設定檔是隨機選取的。
+
+      >[!NOTE]
+      >
+      >如果總人口少於50k，則每個變數至少必須佔總人口的10%。
+
    * **[!UICONTROL Winner sending method]**：選取您是否希望在確定成功變體後自動發送，或者是否要手動確認發送至剩餘母體。
    * **[!UICONTROL Test duration]**：指定測試的持續時間。在此期間後，會自動確定成功變體。您可以在測試結束前從電子郵件控制面板手動選取成功變體。
 
@@ -88,4 +93,4 @@ Adobe Campaign 中的 A/B 測試功能允許您定義兩至三種電子郵件變
 
 在電子郵件控制面板中，有數個指標可以協助您測量 A/B 測試： 點按次數、開啟次數、彈出次數等。
 
-請注意，**[!UICONTROL Estimated recipient reactivity]** 指標是將點按的收件者人數量與開啟電子郵件的收件者人數量相比之比率。例如，如果有 10 位收件者開啟電子郵件，而有 5 位收件者按了該電子郵件。反應率為 50%。
+請注意，**[!UICONTROL Estimated recipient reactivity]** 指標是將點按的收件者人數量與開啟電子郵件的收件者人數量相比之比率。例如，如果10個收件人開啟了電子郵件，並按一下了5個收件人，則反應率為50%。

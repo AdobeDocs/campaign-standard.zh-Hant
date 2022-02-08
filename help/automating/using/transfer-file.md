@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: 41be9f7c13a4b3e0a20e714cc42b9d054812ec07
 workflow-type: tm+mt
-source-wordcount: '1115'
-ht-degree: 88%
+source-wordcount: '1157'
+ht-degree: 84%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 88%
 
 **相關主題：**
 
-* [使用案例：根據自動檔案下載更新資料](../../automating/using/update-data-automatic-download.md)
+* [用例：基於自動檔案下載更新資料](../../automating/using/update-data-automatic-download.md)
 
 ## 設定 {#configuration}
 
@@ -54,11 +54,13 @@ ht-degree: 88%
    * [Microsoft Azure Blob　儲存](#azure-blob-configuration-wf)
    * [Adobe Campaign　伺服器上的檔案](#files-server-configuration-wf)
 
-1. **[!UICONTROL Additional options]** 區段根據所選協定而提供，可讓您向通訊協定新增參數。您可以：
+1. **[!UICONTROL Additional options]** 區段根據所選協定而提供，可讓您向通訊協定新增參數。
 
-   * **[!UICONTROL Delete the source files after transfer]**
-   * **[!UICONTROL Disable passive mode]**
-   * **[!UICONTROL List all files]**：在　**[!UICONTROL General]**　索引標籤中選取　**[!UICONTROL File listing]**　動作時，此選項可供使用。它可讓您為 **vars.filenames** event　變數中伺服器上所有檔案建立索引，其中檔案名稱以 **&#39;n&#39;** 字元分隔 。
+   您可以：
+
+   * **[!UICONTROL Delete the source files after transfer]**:擦除遠程伺服器上的檔案。 如果未選中此選項，請確保手動監視SFTP目錄中已存檔內容的大小。
+   * **[!UICONTROL Disable passive mode]**:允許您指定用於資料傳輸的連接埠。
+   * **[!UICONTROL List all files]**:當選擇 **[!UICONTROL File listing]** 操作 **[!UICONTROL General]** 頁籤。 它可讓您為 **vars.filenames** event　變數中伺服器上所有檔案建立索引，其中檔案名稱以 **&#39;n&#39;** 字元分隔 。
 
 1. **[!UICONTROL If no files are found]** 索引標籤的 **[!UICONTROL Advanced options]** 區段可讓您在活動啟動時偵測到任何錯誤或不存在的檔案時設定特定操作。
 
@@ -72,7 +74,7 @@ ht-degree: 88%
 
 HTTP　通訊協定可讓您從外部帳戶或　URL　開始下載檔案。
 
-使用此協定，您可以選擇 **[!UICONTROL Use connection parameters defined in an external account]** 選項。 在此情況下，請選取您需要的帳戶，並指定要下載的檔案路徑。
+使用此協定，您可以選擇 **[!UICONTROL Use connection parameters defined in an external account]** 的雙曲餘切值。 在此情況下，請選取您需要的帳戶，並指定要下載的檔案路徑。
 
 
 ![](assets/wkf_file_transfer_03.png)
@@ -84,7 +86,7 @@ HTTP　通訊協定可讓您從外部帳戶或　URL　開始下載檔案。
 
 SFTP　通訊協定可讓您開始從　URL　或外部帳戶下載檔案。
 
-使用此協定，您可以選擇 **[!UICONTROL Use connection parameters defined in an external account]** 選項，然後選取您想要的帳戶，並指定要下載的檔案路徑。
+使用此協定，您可以選擇 **[!UICONTROL Use connection parameters defined in an external account]** 選項，然後選擇想要的帳戶並指定要下載的檔案的路徑。
 ![](assets/wkf_file_transfer_07.png)
 
 >[!CAUTION]
@@ -107,9 +109,9 @@ Amazon S3　通訊協定可讓您透過　Amazon Simple Storage Service(S3)　�
 
    >[!CAUTION]
    >
-   > Amazon S3不支援萬用字元。
+   > AmazonS3不支援通配符。
    >
-   > 要定位多個檔案，例如 `my_file_02` 和 `my _file_3433`，您可以使用下列語法： `acs-myawsbucket.s3.amazonaws.com/object-path/my_file_`.
+   > 目標多個檔案，如 `my_file_02` 和 `my _file_3433`，可以使用以下語法： `acs-myawsbucket.s3.amazonaws.com/object-path/my_file_`。
 
 4. 如果要在傳輸完成時刪除源檔案，請核取 **[!UICONTROL Delete the source files after transfer]**。
 
@@ -173,11 +175,11 @@ Microsoft Azure Blob　通訊協定可讓您存取位於　Microsoft Azure Blob�
 
 ## 輸出變數 {#output-variables}
 
-此 **[!UICONTROL Transfer file]** 活動會產生事件變數作為輸出，您可在其他活動中運用，例如使用 [測試](../../automating/using/test.md) 活動。
+的 **[!UICONTROL Transfer file]** 活動將生成事件變數作為輸出，您可以在其他活動中利用這些變數，例如使用 [Test](../../automating/using/test.md) 的子菜單。
 
-請注意，事件變數也可以使用外部訊號傳遞至另一個工作流程(請參閱 [使用外部參數自訂工作流程](../../automating/using/customizing-workflow-external-parameters.md))。
+請注意，事件變數也可以使用外部信號傳遞到另一個工作流(請參見 [使用外部參數自定義工作流](../../automating/using/customizing-workflow-external-parameters.md))。
 
-可用的輸出變數包括：
+可用的輸出變數有：
 
 * **[!UICONTROL fileName]**:已傳輸檔案的名稱。
-* **[!UICONTROL filesCount]**:已傳輸的檔案數。
+* **[!UICONTROL filesCount]**:已傳輸檔案數。

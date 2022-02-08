@@ -8,10 +8,10 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-source-git-commit: 0523c7cc68661a5593ae2c58382f839c2379f2db
+source-git-commit: 99111a0d8d3bf46aae39b80851ebcabaf30be0a0
 workflow-type: tm+mt
-source-wordcount: '1170'
-ht-degree: 95%
+source-wordcount: '1245'
+ht-degree: 89%
 
 ---
 
@@ -60,7 +60,7 @@ Adobe Campaign 提供兩種類型的清單：
 
 1. 輸入應用程式內訊息屬性，並在 **[!UICONTROL Associate a Mobile App to a delivery]** 欄位中選取您的行動應用程式。
 
-   如果您在下拉式清單中沒有看到任何應用程式，請確定您的行動應用程式位於 **已配置** 狀態。 應用程式 **準備配置** 狀態不會顯示在清單中。 如需行動應用程式設定的詳細資訊，請參閱本[頁面](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)。
+   如果在下拉清單中未看到任何應用程式，請確保您的移動應用程式位於 **已配置** 狀態。 應用程式 **準備配置** 狀態不會出現在清單中。 如需行動應用程式設定的詳細資訊，請參閱本[頁面](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)。
 
    ![](assets/inapp_creating_3.png)
 
@@ -159,6 +159,18 @@ Adobe Campaign 提供兩種類型的清單：
    ![](assets/inapp_sending_7.png)
 
 1. 使用傳遞報告測量應用程式內訊息的影響。如需報告的詳細資訊，請參閱[本區段](../../reporting/using/in-app-report.md)。
+
+1. 在發送您的In-App消息後，您可以選擇停用您的傳遞。 例如，如果要停止特定交貨，或者要使用相同觸發器運行新交貨，則此選項非常有用。
+
+   按一下 **[!UICONTROL Deactivate]** 然後 **[!UICONTROL Ok]** 啟動停用請求。
+
+   ![](assets/inapp_sending_8.png)
+
+1. 一旦發送請求，您的傳遞將被停用，並且不會發送其他消息。
+
+   請注意，您的此交貨報告仍可訪問。
+
+   ![](assets/inapp_sending_9.png)
 
 **相關主題：**
 

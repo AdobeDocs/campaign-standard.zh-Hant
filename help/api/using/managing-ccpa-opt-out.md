@@ -1,6 +1,6 @@
 ---
 title: 管理 CCPA 選擇退出
-description: 了解如何使用API管理CCPA選擇退出
+description: 瞭解如何使用API管理CCPA選擇退出
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -8,33 +8,31 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: bfc52511-f66f-4948-a939-d0d77e8ef03c
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: e41667405b54a7ed0e02889e3002807e4bfd3a05
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 4%
+source-wordcount: '96'
+ht-degree: 6%
 
 ---
 
 # 管理 CCPA 選擇退出 {#managing-ccpa-optout}
 
-可以使用監控和管理設定檔的CCPA選擇退出狀態 **ccpaOptOut** 設定檔屬性和「true」或「false」值：
+可以使用 **ccpaOptOut** profile屬性和「true」或「false」值：
 
 `"ccpaOptOut": <value>`
 
-* **true**:禁止銷售個人資訊。
-* **false**:授權銷售個人資訊。
+* **真**:禁止出售個人資訊。
+* **假**:授權銷售個人資訊。
 
->[!CAUTION]
+<!--The “CCPA Opt-Out” attribute is only available starting 19.4. For 19.3 environments, you need to extend the Profiles resource and add a boolean field. This field will be added to the API with the chosen label. We suggest you use “Opt-Out for CCPA”.
 >
->「CCPA選擇退出」屬性僅從19.4版開始可用。對於19.3環境，您需要擴充設定檔資源並新增布林值欄位。 此欄位將會以所選標籤新增至API。 建議您使用「選擇退出CCPA」。
->
->有關詳細資訊，請參閱 [管理隱私權要求檔案](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa).
+>For more on this, refer to the [Managing Privacy requests documentation](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa).-->
 
 <br/>
 
-***範例要求***
+***示例請求***
 
-* 擷取設定檔CCPA選擇退出狀態的GET請求範例。
+* 檢索配置檔案的CCPA選擇退出狀態的示例GET請求。
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \
@@ -44,7 +42,7 @@ ht-degree: 4%
    -H 'Content-Type: application/json;charset=utf-8'
    ```
 
-   回應GET要求。
+   響應GET請求。
 
    ```
    {
@@ -56,7 +54,7 @@ ht-degree: 4%
    }
    ```
 
-* 標示CCPA選擇退出設定檔的POST請求範例。
+* 標籤CCPA選擇退出配置檔案的POST請求示例。
 
    ```
    -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/ \
@@ -73,7 +71,7 @@ ht-degree: 4%
    -d }'
    ```
 
-   回應GET要求。
+   響應GET請求。
 
    ```
    {
@@ -86,7 +84,7 @@ ht-degree: 4%
    }
    ```
 
-* 更新CCPA選擇退出設定檔的PATCH請求範例。
+* PATCH請求示例，以更新CCPA選擇退出的配置檔案。
 
    ```
    -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \
@@ -100,7 +98,7 @@ ht-degree: 4%
    -d }'
    ```
 
-   回應GET要求。
+   響應GET請求。
 
    ```
    {

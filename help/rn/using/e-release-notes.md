@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 5435e1dbfbe08399c488322320ac5bb8e681a79d
-workflow-type: ht
-source-wordcount: '734'
-ht-degree: 100%
+source-git-commit: fcc4dc0789a02f2a58abed858561f023a53a9d95
+workflow-type: tm+mt
+source-wordcount: '736'
+ht-degree: 99%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 100%
 * 修復推送通知報告錯誤，該報告將推送通知顯示為&#x200B;**開啟**&#x200B;而非&#x200B;**印象**。 (CAMP-45980)
 * 修復在開啟報告時可能導致錯誤的問題。 (CAMP-49222)
 * 修復在刪除指向 AEM 內容的連結後可能導致電子郵件準備失敗的問題。 (CAMP-49877)
-* 為了解決各種問題，針對包括從 URL 匯入的內容改進了遞送的重試機制。 (CAMP-48888)
+* 為了解決各種問題，針對包括從 URL 匯入的內容改進了遞送的重試機制。 [瞭解更多資訊](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time) (CAMP-48888)
 * 修復了在自訂資源中建立新篩選器後發生的問題，然後將其作為登陸頁面中的調解金鑰。 如再次發佈自訂資源，則會從登陸頁面的可用調解金鑰清單中刪除該篩選器。 (CAMP-49516)
 * 針對當登陸頁面使用帶有核取方塊的動態條件時，修復其中的問題。 (CAMP-48604)
 * 修復當&#x200B;**查詢**&#x200B;活動使用「十月或之前」篩選器條件時發生的問題。 當利用設定為歐洲時區的執行個體時，由於轉換時區出現問題，篩選器的選定月份顯示為 9 月而非 10 月。 (CAMP-48602)

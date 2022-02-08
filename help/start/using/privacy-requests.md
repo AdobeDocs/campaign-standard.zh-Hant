@@ -8,10 +8,10 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: e41667405b54a7ed0e02889e3002807e4bfd3a05
 workflow-type: tm+mt
-source-wordcount: '1599'
-ht-degree: 100%
+source-wordcount: '1591'
+ht-degree: 94%
 
 ---
 
@@ -23,9 +23,7 @@ ht-degree: 100%
 
 [本節](#sale-of-personal-information-ccpa)會詳細說明專屬於 CCPA 的選擇退出個人資訊銷售。
 
->[!IMPORTANT]
->
->自 19.4 版本以來，不建議使用 Campaign API 和介面來存取和刪除要求。對於任何 GDPR、CPA、PDPA 或 LGPD 存取和刪除要求，您都需要使用[隱私權核心服務](#create-privacy-request)整合方法。
+<!--Starting 19.4, the use of the Campaign API and interface for Access and Delete requests is deprecated. For any GDPR, CCPA, PDPA, or LGPD Access and Delete requests, you need to use the [Privacy Core Service](#create-privacy-request) integration method.-->
 
 ## 關於隱私權請求 {#about-privacy-requests}
 
@@ -89,15 +87,17 @@ Adobe Campaign 提供資料控制方工具，可針對儲存在 Adobe Campaign �
 
 ### 建立隱私權請求 {#create-privacy-request}
 
->[!IMPORTANT]
->
->**隱私權核心服務**&#x200B;整合是您應用於處理所有存取和刪除要求的方法。
->
->自 19.4 版本以來，不建議使用 Campaign API 和介面來存取和刪除要求。將核心隱私權服務用於任何 GDPR、CCPA、PDPA 或 LGPD 存取及刪除要求。
+<!--Starting 19.4, the use of the Campaign API and interface for Access and Delete requests is deprecated. Use the **Privacy Core Service** for any GDPR, CCPA, PDPA, or LGPD Access and Delete requests.-->
 
 「隱私權核心服務整合」可讓您透過單一 JSON API 呼叫，在多解決方案內容中自動處理您的隱私權要求。從「隱私權核心服務」推送至所有 Experience Cloud 解決方案的隱私權要求，會由 Campaign 透過專用的工作流程自動處理。
 
 請參閱 [Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hant) 文件，以瞭解如何從隱私權核心服務建立隱私權要求。
+
+>[!IMPORTANT]
+>
+>要使用自定義命名空間類型提交請求，請 [JSON方法](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=en#json){target=&quot;_blank&quot;}，並將namespaceId添加到請求，或使用 [API調用](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=en#access-delete){target=&quot;_blank&quot;}以發出請求。
+>
+>僅使用 [隱私用戶介面](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=en#request-builder){target=&quot;_blank&quot;}，使用標準命名空間類型提交請求。
 
 依據正在使用的命名空間數量，每個隱私權核心服務都會分割為 Campaign 中的多個隱私權要求，而一個要求都會與一個命名空間相對應。此外，一個作業可在多個執行個體上執行。因此，會針對一個作業建立多個檔案。例如，如果要求有兩個命名空間，且在三個執行個體上執行，則總共會傳送六個檔案。每個命名空間和執行個體會有一個檔案。
 
@@ -189,7 +189,7 @@ GDPR 和 CCPA 都很常使用存取及刪除要求的設定與使用情況。本
 
 ### 自訂表格的先決條件 {#ccpa-prerequisite}
 
-從 19.4 版本以來，Campaign 介面及 API 中可立即使用 **[!UICONTROL CCPA Opt-Out]** 欄位。依預設，此欄位適用於標準 **[!UICONTROL Profile]** 資源。
+的 **[!UICONTROL CCPA Opt-Out]** 欄位在「市場活動」介面和API中提供現成功能。 依預設，此欄位適用於標準 **[!UICONTROL Profile]** 資源。
 
 如果您使用自訂設定檔資源，則需要擴充資源並新增欄位。我們建議您使用與現成可用欄位不同的名稱，例如：**[!UICONTROL Opt-Out for CCPA]** (optouccpa)。建立新欄位時，Campaign API 會自動支援該欄位。
 

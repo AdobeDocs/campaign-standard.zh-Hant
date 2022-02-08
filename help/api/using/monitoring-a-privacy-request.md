@@ -1,6 +1,6 @@
 ---
 title: 監控隱私權請求
-description: 了解如何使用API監控隱私權要求
+description: 瞭解如何使用API監視隱私請求
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -8,10 +8,10 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 63864f0f-2c22-4a65-86ae-21897031f30a
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 013293fce8a923e771e10585c41e4ad482003080
 workflow-type: tm+mt
-source-wordcount: '54'
-ht-degree: 25%
+source-wordcount: '48'
+ht-degree: 16%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 25%
 
 您可以使用 **GET** 請求。
 
-狀態清單說明可在 [隱私權管理檔案](https://helpx.adobe.com/tw/campaign/kb/acs-privacy.html#ManagingPrivacyRequests).
+狀態清單說明可在 [隱私管理文檔](../../start/using/privacy-requests.md)。
 
 <br/>
 
-***範例要求***
+***示例請求***
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool \
@@ -33,7 +33,7 @@ ht-degree: 25%
 -H 'Content-Type: application/json;charset=utf-8'
 ```
 
-回應GET要求。
+響應GET請求。
 
 ```
 {

@@ -1,23 +1,34 @@
 ---
 title: 文件更新
-description: 瞭解 Adobe Campaign Standard 檔案的所有最新更新。
-audience: rn
-content-type: reference
-topic-tags: campaign-standard-releases
+description: 瞭解有關Adobe Campaign Standard文檔的所有最新更新
 feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: 85c32143f87b1c46dd9aa32e9aac17f5fa9b7c62
 workflow-type: tm+mt
-source-wordcount: '6933'
-ht-degree: 100%
+source-wordcount: '7089'
+ht-degree: 97%
 
 ---
 
 # 文件更新{#documentation-updates}
 
 除了 Adobe Campaign [發行版本](../../rn/using/release-notes.md)以外，本頁還列出 Adobe Campaign Standard 檔案中的所有全新更新。
+
+## 2022 年 2 月 {#doc-updates-feb-2022}
+
+改進的用於遞送的重試機制，包括從URL導入的內容。 [閱讀全文](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)
+
+添加了有關觸發自動SMS回復的關鍵字的警告說明：它們只能包含字母數字字元。 [閱讀全文](../../channels/using/managing-incoming-sms.md)
+
+已更新控制審核的選項的訪問級別：啟用/禁用早期選項 [審核跟蹤](../../administration/using/audit.md) 無法訪問 [功能管理員](../../administration/using/users-management.md#functional-administrators)。 通過此更改，審核的訪問級別被修改，以向職能管理員提供控制。 [閱讀全文](../../administration/using/audit.md#enable-disable-audit)
+
+已在A/Btest電子郵件部分添加註釋：如果總人口不到50k，則每個變數至少應佔總人口的10%。 否則，日誌將顯示警告。 [閱讀全文](../../channels/using/designing-an-a-b-test-email.md)
+
+已更新 **[!UICONTROL Delete the source files after transfer]** 的上界 **傳輸檔案** 活動，包括提醒，以在未選擇選項時手動監視SFTP目錄中已存檔內容的大小。 [閱讀全文](../../automating/using/transfer-file.md)
+
+已更新中的所有過時連結 **隱私** 的下界。 [閱讀全文](../../start/using/privacy.md)
 
 ## 發行版本 21.3 – 2021 年 9 月 {#release-21-3---september-2021}
 

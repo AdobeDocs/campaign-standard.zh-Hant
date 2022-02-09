@@ -2,13 +2,11 @@
 title: 使用者管理
 description: 'Adobe Campaign 使用者具有特定角色。探索主要使用者類型。 '
 audience: administration
-content-type: reference
-topic-tags: users-and-security
 feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 6605203e-78f8-4ebd-b256-a621a3a9d638
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
 source-wordcount: '1204'
 ht-degree: 82%
@@ -23,11 +21,11 @@ Adobe Campaign 可讓您指派一組角色給使用者，以定義使用者可�
 
 以下各節將詳細介紹特定角色和相應的授權：[瞭解角色](../../administration/using/list-of-roles.md)和[授權](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)。
 
-管理員可從Admin Console管理使用者。 然後，使用者會自動與 Adobe Campaign 同步。有關詳細資訊，請參閱 [Admin Console](https://helpx.adobe.com/tw/enterprise/using/users.html) 檔案。
+管理員可以從Admin Console管理用戶。 然後，使用者會自動與 Adobe Campaign 同步。有關詳細資訊，請參閱 [Admin Console](https://helpx.adobe.com/tw/enterprise/using/users.html) 文檔。
 
 ![](assets/do-not-localize/how-to-video.png) [在影片中探索此功能](#video)
 
-若要在Adobe Campaign中檢視使用者，請按一下 **Adobe** 徽標，在左上角，然後選擇 **[!UICONTROL Administration > Users & Security > Users]**.
+要查看Adobe Campaign的用戶，請按一下 **Adobe** 徽標，在左上角，然後選擇 **[!UICONTROL Administration > Users & Security > Users]**。
 
 若要從 Adobe Campaign 存取使用者管理介面，請按一下 **[!UICONTROL User administration]**。
 
@@ -43,12 +41,12 @@ Adobe Campaign 可讓您指派一組角色給使用者，以定義使用者可�
 
 此使用者區段並非強制性，而僅代表 Adobe Campaign 最常用的用法。
 
-本節可協助您了解Adobe Campaign使用者的主要類型。 有關使用者可以承擔的特定角色（開始傳送、匯出、準備傳送等）的詳細資訊，請參閱 [角色清單](../../administration/using/list-of-roles.md) 和 [管理群組和使用者](../../administration/using/managing-groups-and-users.md) 頁面。
+本節幫助您瞭解Adobe Campaign用戶的主要類型。 有關用戶可以承擔的特定角色（開始交貨、導出、準備交貨等）的詳細資訊，請參閱 [角色清單](../../administration/using/list-of-roles.md) 和 [管理組和用戶](../../administration/using/managing-groups-and-users.md) 頁。
 
 我們寧可專注於 Adobe Campaign 中不同工作的分割方式，分為三種主要使用者類型：
 
 * [功能管理員](#functional-administrators)：在您組織的所有使用者中，他們具有最佳技術技能。
-* [進階使用者](#advanced-users):他們會設定行銷人員傳送及監控其傳送所需的所有元素。
+* [高級用戶](#advanced-users):他們設定了營銷人員發送和監控送貨所需的所有要素。
 * [基本使用者](#basic-users)：他們是行銷人員，負責個人化、傳送和監控其宣傳活動。
 
 >[!NOTE]
@@ -61,7 +59,7 @@ Adobe Campaign 可讓您指派一組角色給使用者，以定義使用者可�
 
 >[!IMPORTANT]
 >
->僅功能管理員，具有 **[!UICONTROL Administration]** 角色和存取權 **全部** 單位可以存取傳送記錄檔、訊息記錄檔、追蹤記錄檔、排除記錄檔、主張記錄檔和訂閱記錄檔。 非管理員使用者可以鎖定這些記錄，但從連結的表格（設定檔、傳送）開始。
+>僅功能管理員， **[!UICONTROL Administration]** 角色和訪問權限 **全部** 設備可以訪問發送日誌、消息日誌、跟蹤日誌、排除日誌、命題日誌和訂閱日誌。 非管理員用戶可以針對這些日誌，但可以從連結的表（配置檔案、傳遞）開始。
 
 功能管理員是唯一可存取 Adobe Campaign 介面之 **[!UICONTROL Administration]** 功能表的使用者。由於這些使用者需要存取技術資源，因此應指派更多進階角色給他們，例如 **[!UICONTROL Administration]** 及 **[!UICONTROL Datamodel]** 現成可用的角色。這些角色會在 **[!UICONTROL Administrators]** 現成可用的安全性群組中結合。如需詳細資訊，請參閱[本區段](../../administration/using/list-of-roles.md)。
 
@@ -104,7 +102,7 @@ Adobe Campaign 可讓您指派一組角色給使用者，以定義使用者可�
 
 ## 建立使用者 {#creating-a-user}
 
-若要將使用者新增至您的執行個體，您必須先在Admin Console中建立該使用者，才能在Adobe Campaign Standard中管理。
+要將用戶添加到實例中，必須先在Admin Console中建立用戶，然後才能在Adobe Campaign Standard管理它。
 
 1. 從進階功能表中，選取 **[!UICONTROL Administration > Users & Security > Users]** 並按一下 **[!UICONTROL User administration]** 以存取 Admin Console。
 
@@ -120,7 +118,7 @@ Adobe Campaign 可讓您指派一組角色給使用者，以定義使用者可�
 
    ![](assets/create_user_3.png)
 
-1. 從 **[!UICONTROL Assign products]** 標籤中，為用戶分配一個或多個安全組。 如需安全性群組的詳細資訊，請參閱本[頁面](../../administration/using/managing-groups-and-users.md)。
+1. 從 **[!UICONTROL Assign products]** 頁籤，為用戶分配一個或多個安全組。 如需安全性群組的詳細資訊，請參閱本[頁面](../../administration/using/managing-groups-and-users.md)。
 
    完成設定時，按一下 **[!UICONTROL Save]**。
 
@@ -130,7 +128,7 @@ Adobe Campaign 可讓您指派一組角色給使用者，以定義使用者可�
 
 ![](assets/create_user_5.png)
 
-登入您的執行個體時，此使用者會同步至Adobe Campaign Standard。
+登錄到實例時，此用戶將同步到Adobe Campaign Standard。
 
 之後，您可以檢查您的使用者是否已正確同步至 Adobe Campaign：
 
@@ -154,10 +152,10 @@ Adobe Campaign 可讓您指派一組角色給使用者，以定義使用者可�
 
 您的使用者現在已準備好使用 Adobe Campaign Standard。
 
-## 教學課程影片 {#video}
+## 教程視頻 {#video}
 
-此影片說明如何管理使用者存取權限。
+此視頻顯示了如何管理用戶訪問權限。
 
 >[!VIDEO](https://video.tv.adobe.com/v/24671?quality=12)
 
-提供其他Campaign Standard作法影片 [此處](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant).
+可提供其他Campaign Standard操作視頻 [這裡](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant)。

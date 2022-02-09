@@ -1,18 +1,15 @@
 ---
 title: 角色清單
-description: 瞭解您可指派給使用者的角色清單。
+description: 查找可分配給用戶的角色清單
 audience: administration
-content-type: reference
-topic-tags: users-and-security
-context-tags: role,overview;role,main
 feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 00714c80-bdaf-4241-bf2f-51498ca1dbef
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
 source-wordcount: '231'
-ht-degree: 80%
+ht-degree: 75%
 
 ---
 
@@ -30,10 +27,10 @@ ht-degree: 80%
 
    >[!NOTE]
    >
-   >若您使用Experience Cloud觸發器，則需要 **[!UICONTROL Administration]** 才能存取「Experience Cloud觸發器」功能表。 如需Experience Cloud觸發器的詳細資訊，請參閱 [頁面](../../integrating/using/about-adobe-experience-cloud-triggers.md).
+   >如果您使用Experience Cloud觸發器，則需要 **[!UICONTROL Administration]** 權限以訪問「Experience Cloud觸發器」菜單。 有關Experience Cloud觸發器的詳細資訊，請參閱 [頁](../../integrating/using/about-adobe-experience-cloud-triggers.md)。
 
 * **[!UICONTROL Datamodel]**：直接執行出版品和建立自訂資源。
-* **[!UICONTROL Generic import]**：對資料執行一般匯入的權限。為了讓此功能發揮作用，您必須連結 **[!UICONTROL Generic import]** 角色 **[!UICONTROL Workflow]** 角色。
+* **[!UICONTROL Generic import]**：對資料執行一般匯入的權限。要使此項工作，必須連結 **[!UICONTROL Generic import]** 角色 **[!UICONTROL Workflow]** 角色。
 * **[!UICONTROL Prepare deliveries]**：建立、修改、準備和刪除傳送的權利。具有此角色的使用者可以準備傳送，但無法傳送。
 * **[!UICONTROL Start deliveries]**：建立、修改、準備、傳送和刪除傳送的權限。
 * **[!UICONTROL Workflow]**：管理工作流程的執行（開始、停止、暫停等）。具有此角色的使用者即使在工作流程中，也無法傳送傳送。

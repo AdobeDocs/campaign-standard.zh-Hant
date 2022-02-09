@@ -1,33 +1,31 @@
 ---
 title: 關於 Campaign Standard 設定
-description: 關於 Campaign Standard 設定
+description: 瞭解Campaign Standard基本設定
 audience: administration
-content-type: reference
-topic-tags: application-settings
 context-tags: extAccount,main;extAccount,overview
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 47ecacbf-2a6a-4f33-972a-b2e47dc0284e
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 9%
+source-wordcount: '134'
+ht-degree: 5%
 
 ---
 
 # 關於 Campaign Standard 設定{#about-campaign-standard-settings}
 
-[!DNL Campaign] Standard隨附不同的應用程式元素，可依您的需求進行設定。 例如：
+[!DNL Campaign] 標準附帶了可配置以滿足您需要的不同應用程式元素。 例如，您可以：
 
 * 設定外部帳戶，
-* 設定目標對應以管理傳送所需的技術設定，
+* 配置目標映射以管理發送交貨所需的技術設定，
 * 在應用程式內設定內部通知等。
 
-這些設定可從 **[!UICONTROL Administration]** / **[!UICONTROL Application settings]** 功能表。
+這些設定可從 **[!UICONTROL Administration]** / **[!UICONTROL Application settings]** 的子菜單。
 
-此外， **[!UICONTROL Options]** 功能表，讓您更具體地配置應用程式。 其中有些是安裝Campaign時內建的，有些則可視需要手動新增（可用選項會依執行個體所安裝的套件而有所不同）。
+此外， **[!UICONTROL Options]** 菜單中的命令。 其中一些在安裝市場活動時內置，其他一些在需要時可以手動添加（可用選項因隨實例安裝的軟體包而異）。
 
 >[!IMPORTANT]
 >
->安裝Campaign時已設定這些選項，且僅應由進階使用者修改。 如果您有任何疑問或要求，請洽詢您的Adobe連絡人。
+>安裝市場活動時已配置了這些選項，並且只應由高級用戶修改。 如果您有任何疑問或請求，請聯繫您的Adobe聯繫人。

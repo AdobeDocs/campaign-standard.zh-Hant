@@ -1,32 +1,30 @@
 ---
 title: 稽核匯出記錄
-description: 管理員可追蹤從Adobe Campaign進行的匯出。
+description: 瞭解管理員如何跟蹤從Adobe Campaign出口的產品
 audience: administration
-content-type: reference
-topic-tags: users-and-security
 feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 552fa4ac-77a2-4d99-b49a-5dc01acedeb2
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '115'
 ht-degree: 5%
 
 ---
 
 # 稽核匯出記錄{#auditing-export-logs}
 
-從 **[!UICONTROL Administration]** > **[!UICONTROL Users & Security]** > **[!UICONTROL Export audits]**，管理員可以檢視下列所有匯出的清單，包括其日期以及執行匯出的使用者：
+從 **[!UICONTROL Administration]** > **[!UICONTROL Users & Security]** > **[!UICONTROL Export audits]**，管理員可以查看以下所有導出的清單，包括其日期和執行導出的用戶：
 
-* 從 **[!UICONTROL Transfer file]** 活動。
-* 從清單或子清單導出清單。
-* 從直接郵件訊息的傳送控制面板下載的檔案。
+* 檔案從 **[!UICONTROL Transfer file]** 的子菜單。
+* 從清單或子清單中列出導出。
+* 從Direct Mail郵件的傳遞儀表板下載的檔案。
 
 >[!NOTE]
 >
->不會追蹤其他匯出。 預設會每6個月清除一次匯出清單。
+>不跟蹤其它導出。 預設情況下，每6個月清除一次導出清單。
 
-從左窗格，您可以根據需求篩選要顯示的匯出項目。
+從左窗格中，您可以根據需要篩選要顯示的導出。
 
-您可以將清單匯出為個別檔案，如 [匯出清單](../../automating/using/exporting-lists.md) 區段。
+可以將清單導出為單獨的檔案，如 [導出清單](../../automating/using/exporting-lists.md) 的子菜單。

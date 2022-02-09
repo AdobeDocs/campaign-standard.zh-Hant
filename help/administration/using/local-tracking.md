@@ -1,60 +1,57 @@
 ---
 title: 實施推送追蹤
-description: 本檔案可讓您確保推播通知追蹤已在iOS和Android上正確實作。
+description: 瞭解如何確保推送通知跟蹤已在iOS和Android上正確實施
 audience: channels
-content-type: reference
-topic-tags: push-notifications
-context-tags: mobileApp,overview
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b983d0a3-c345-44d4-bc82-202bf6ed26ab
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '568'
 ht-degree: 0%
 
 ---
 
-# 實作本機追蹤 {#local-tracking}
+# 實現本地跟蹤 {#local-tracking}
 
-## 關於本機追蹤 {#about-local-tracking}
+## 關於本地跟蹤 {#about-local-tracking}
 
-在本頁面中，了解如何確保已正確實作本機通知追蹤。 請注意，這表示本機通知已設定。
+在本頁中，瞭解如何確保正確實施本地通知跟蹤。 請注意，這意味著已配置了本地通知。
 
-本機通知追蹤可分割為三種類型：
+本地通知跟蹤可分為三種類型：
 
-* **本機曝光數**  — 本機通知已傳送至裝置，且位於通知中心，但完全未接觸。 在大多數情況下，曝光數數若與傳送的數字不同，則應類似。 它確保設備確實獲取消息並將該資訊轉發回伺服器。
+* **當地印象**  — 當本地通知已送達設備且位於通知中心，但完全未接觸時。 在大多數情況下，印數應與已交付的數字相同。 它確保設備確實收到消息並將該資訊轉發回伺服器。
 
-* **本機點按**  — 將本機通知傳送至裝置，且使用者已按一下通知時。 使用者要麼想要檢視通知（這進而會移至本機開啟追蹤），要麼要關閉通知。
+* **本地按一下**  — 當本地通知已傳送到設備且用戶已按一下該通知時。 用戶要麼想查看通知（通知將進而轉到本地開啟跟蹤），要麼想取消通知。
 
-* **本地開啟**  — 將本機通知傳送至裝置，且使用者按一下通知導致應用程式開啟時。 這類似於本機點按，除非通知關閉時不會觸發本機開啟。
+* **本地開啟**  — 當本地通知已傳送到設備，並且用戶已按一下導致應用程式開啟的通知時。 這與本地按一下類似，除非當通知被取消時不會觸發本地開啟。
 
-若要實作Adobe Campaign Standard的追蹤，行動應用程式必須將行動SDK納入應用程式中。 這些SDK可在 [!DNL Adobe Mobile Services].
+為了實現對Adobe Campaign Standard的跟蹤，移動應用需要將移動SDK包括在應用中。 這些SDK在 [!DNL Adobe Mobile Services]。
 
-若要傳送追蹤資訊，必須傳送三個變數：兩者是從Adobe Campaign收到資料的一部分，另一個是動作變數，會指定其為曝光、點按或開啟。
+要發送跟蹤資訊，必須發送三個變數：其中兩個是從Adobe Campaign接收的資料的一部分，另一個是一個操作變數，它指示是印象、點擊還是開啟。
 
 | 變數 | 值 |
 | :-: | :-: |
-| deliveryId | `deliveryId` 從傳入資料(類似於推播追蹤， `_dld` ) |
-| broadlogId | `broadlogId` 從傳入資料(類似於推播追蹤， `_mld` ) |
-| 動作 | 「1」代表開啟，「2」代表點按，「7」代表曝光 |
+| 交貨ID | `deliveryId` 從傳入資料(類似於推送跟蹤 `_dld` ) |
+| broadlogId | `broadlogId` 從傳入資料(類似於推送跟蹤 `_mld` ) |
+| 動作 | 「1」表示開啟，「2」表示按一下，「7」表示印象 |
 
-## 實作本機曝光追蹤 {#implement-local-impression-tracking}
+## 實施本地印象跟蹤 {#implement-local-impression-tracking}
 
-Adobe Experience Platform Mobile SDK會自動傳送Android和iOS的曝光事件，而不需進行任何額外設定。
+Adobe Experience Platform移動軟體開發工具包將自動發送Android和iOS的印象事件，而無需進行任何其他配置。
 
-## 實作點擊追蹤 {#implementing-click-tracking}
+## 實現點擊跟蹤 {#implementing-click-tracking}
 
-針對點擊追蹤，您必須傳送值「2」，才能在呼叫 `collectMessageInfo()` 或 `trackAction()` 函式。
+對於按一下跟蹤，在調用時必須發送值&quot;2&quot;以執行操作 `collectMessageInfo()` 或 `trackAction()` 的子菜單。
 
-### 適用於Android {#implement-click-tracking-android}
+### 對於Android {#implement-click-tracking-android}
 
-若要追蹤點按，必須實作兩種情況：
+要跟蹤點擊量，必須實施兩種方案：
 
-* 使用者會看見通知，但將其清除。
+* 用戶看到通知但將其清除。
 
-   若要在解除方案時追蹤點按，請新增廣播接收器 `NotificationDismissalHandler` 填入應用程式模組的AndroidManifest檔案。
+   若要在解除方案時跟蹤按一下，請添加廣播接收器 `NotificationDismissalHandler` 應用程式模組的AndroidManifest檔案。
 
    ```
    <receiver
@@ -62,13 +59,13 @@ Adobe Experience Platform Mobile SDK會自動傳送Android和iOS的曝光事件�
    </receiver>
    ```
 
-* 使用者看見通知並點按，這會轉為開啟追蹤。
+* 用戶看到通知並按一下它，這將轉為開啟的跟蹤。
 
-   此情境應會產生一次點按，並開啟。 追蹤此點按將是追蹤開啟所需實施的一部分。 請參閱 [實作開放追蹤](#implement-open-tracking).
+   此方案應產生按一下並開啟。 跟蹤此按一下將是跟蹤開啟時所需的實現的一部分。 請參閱 [實現開放跟蹤](#implement-open-tracking)。
 
-### 針對iOS {#implement-click-tracking-ios}
+### 為iOS {#implement-click-tracking-ios}
 
-若要傳送點擊追蹤資訊，您必須新增下列項目：
+要發送按一下跟蹤資訊，必須添加以下內容：
 
 ```
 class NotificationDelegate: NSObject, UNUserNotificationCenterDelegate {
@@ -99,17 +96,17 @@ class NotificationDelegate: NSObject, UNUserNotificationCenterDelegate {
 }
 ```
 
-## 實作開放追蹤 {#implement-open-tracking}
+## 實現開放跟蹤 {#implement-open-tracking}
 
-您必須傳送「1」和「2」，因為使用者必須按一下通知才能開啟應用程式。 如果應用程式未透過本機通知啟動/開啟，則不會發生追蹤事件。
+您必須發送「1」和「2」，因為用戶必須按一下通知才能開啟應用程式。 如果應用程式未通過本地通知啟動/開啟，則不會發生跟蹤事件。
 
-### 適用於Android {#implement-open-tracking-android}
+### 對於Android {#implement-open-tracking-android}
 
-若要追蹤開啟，我們必須建立意圖。 目的物件可讓Android作業系統在完成某些動作時呼叫您的方法，在此例中是按一下通知以開啟應用程式。
+要跟蹤開啟，我們必須建立意圖。 目的對象允許Android OS在完成某些操作時調用您的方法，在這種情況下，按一下通知以開啟應用。
 
-此程式碼以點擊曝光追蹤的實作為基礎。 透過目的設定，您現在必須將追蹤資訊傳回Adobe Campaign。 在此案例中，Android檢視([!DNL Activity])，而觸發此通知的事件將會因使用者點按而開啟或帶至前景。 中的目的物件 [!DNL Activity] 包含可用來追蹤開啟的通知資料。
+此代碼基於點擊印象跟蹤的實現。 如果設定了目的，您現在必須將跟蹤資訊發回Adobe Campaign。 在本例中，Android View([!DNL Activity])，觸發通知後，用戶將因按一下而開啟或置於前台。 中的目的對象 [!DNL Activity] 包含可用於跟蹤開啟的通知資料。
 
-MainActivity.java(延伸 [!DNL Activity])
+MainActivity.java（擴展） [!DNL Activity])
 
 ```
 @Override
@@ -167,7 +164,7 @@ private void handleTracking() {
 }
 ```
 
-### 針對iOS {#implement-open-tracking-ios}
+### 為iOS {#implement-open-tracking-ios}
 
 ```
 import os.log

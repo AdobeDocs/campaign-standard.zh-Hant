@@ -1,18 +1,15 @@
 ---
 title: 設定 SMS 通道
-description: 「瞭解 SMS 設定步驟：路由、編碼、格式和進階屬性。」
+description: 瞭解SMS配置步驟，包括路由、編碼、格式和高級屬性
 audience: administration
-content-type: reference
-topic-tags: configuring-channels
-context-tags: extAccountMobile,overview;extAccount,main;delivery,smsContent,back
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '1566'
-ht-degree: 91%
+source-wordcount: '1565'
+ht-degree: 90%
 
 ---
 
@@ -58,7 +55,7 @@ ht-degree: 91%
 
    與持續時間對應的所有欄位的值必須以秒為單位完成。
 
-1. 定義SMS-C特定參數，以備您必須定義特定編碼對應時使用。 如需詳細資訊，請參閱[詳細文件](#smsc-specifics)。
+1. 定義SMS-C特定參數，以防您必須定義特定編碼映射。 如需詳細資訊，請參閱[詳細文件](#smsc-specifics)。
 
    如果您不想遵守 SMPP 通訊協定，並將 **[!UICONTROL +]** 首碼傳輸到 SMS 提供者 (SMS-C) 的伺服器，請啟用 **[!UICONTROL Send full phone number (send characters other than digits)]** 選項。
 
@@ -316,7 +313,7 @@ CR：歸位
 
 ### 自動回覆傳送至 MO {#automatic-reply-sent-to-the-mo}
 
-當設定檔回覆透過Campaign傳送的SMS訊息時，您可以設定自動傳回給他們的訊息，以及要執行的動作。
+當配置檔案答復通過市場活動發送的SMS消息時，您可以配置自動發回給它們的消息以及要執行的操作。
 
 如需詳細資訊，請參閱[本區段](../../channels/using/managing-incoming-sms.md)。
 
@@ -328,15 +325,15 @@ CR：歸位
 
 ![](assets/sms_options.png)
 
-從 **[!UICONTROL Advanced parameters]** 小節：
+從 **[!UICONTROL Advanced parameters]** 部分：
 
-* 此 **[!UICONTROL Short code]** 可讓您新增特定的簡短代碼至您的傳送。 在郵件準備期間，會自動排除選擇退出此特定簡訊代碼的收件者。 有關如何配置短代碼的詳細資訊，請參閱 [本節](../../channels/using/managing-incoming-sms.md).
+* 的 **[!UICONTROL Short code]** 允許您在交貨中添加特定短代碼。 在郵件準備期間，選擇退出此特定短代碼的收件人將自動排除。 有關如何配置短代碼的詳細資訊，請參閱 [此部分](../../channels/using/managing-incoming-sms.md)。
 
    >[!NOTE]
    >
-   >若 **[!UICONTROL Short code]** 欄位留空，值為 **[!UICONTROL Short code]** 將使用外部帳戶中設定的欄位。
+   >如果 **[!UICONTROL Short code]** 欄位為空， **[!UICONTROL Short code]** 將使用外部帳戶中設定的欄位。
 
-從 **[!UICONTROL Send]** 簡訊範本的區段：
+從 **[!UICONTROL Send]** SMS模板的部分：
 
 * **[!UICONTROL Maximum number of SMS per message]** 選項可讓您定義用於傳送訊息的 SMS 訊息數目。如果超過此數目，則不會傳送訊息。
 

@@ -1,25 +1,23 @@
 ---
 title: 資料保留
-description: Campaign中的標準記錄表有預先設定的保留期，通常會將其資料儲存限制在6個月或更短時間。 了解標準表格的預設保留值。
+description: 瞭解標準表的預設保留值
 audience: administration
-content-type: reference
-topic-tags: application-settings
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 01cfa2a0-4ff5-4520-a515-11676de82528
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 38%
+source-wordcount: '137'
+ht-degree: 44%
 
 ---
 
 # 資料保留{#data-retention}
 
-Campaign中的標準記錄表有預先設定的保留期，通常會將其資料儲存限制在6個月或更短時間。
+市場活動中的標準日誌表具有預先設定的保留期，通常將其資料儲存限制在6個月或以下。
 
-標準表格的預設保留值如下。 請注意，保留設定是由 Adobe 技術管理員在實施期間所設定，每個實作的值可能會因客戶需求而有所不同。
+以下是標準表的預設保留值。 請注意，保留設定是由 Adobe 技術管理員在實施期間所設定，每個實作的值可能會因客戶需求而有所不同。
 
 * **整合追蹤**：6 個月
 * **傳送記錄**：6 個月
@@ -32,6 +30,6 @@ Campaign中的標準記錄表有預先設定的保留期，通常會將其資料
 * **傳送警報**：1 個月
 * **匯出稽核**：6 個月
 
-使用標準工作流程功能，便可為任何自訂表格設定保留期。
+使用標準工作流功能，可以為任何自定義表設定保留期。
 
-請洽詢Adobe顧問或技術管理員，以進一步了解保留或為自訂表格設定保留。
+聯繫Adobe顧問或技術管理員，以瞭解有關保留的詳細資訊或為自定義表設定保留。

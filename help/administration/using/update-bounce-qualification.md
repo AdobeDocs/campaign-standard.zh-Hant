@@ -1,12 +1,10 @@
 ---
 title: 在 ISP 中斷後更新跳出資格
-description: 了解如何在ISP中斷後更新退信資格。
+description: 瞭解如何在ISP停機後更新退貨資格。
 audience: delivery
-content-type: reference
-topic-tags: monitoring-deliveries
 hidefromtoc: true
 exl-id: b06e9009-70c7-459f-8a9f-d5b7020d662f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 4%
@@ -15,43 +13,43 @@ ht-degree: 4%
 
 # 在 ISP 中斷後更新跳出資格 {#update-bounce-qualification.md}
 
-如果您未執行最新版的Campaign，則此區段可能適用於您。 請洽詢您的Adobe Campaign代表。
+如果您未運行最新版本的市場活動，則此部分可能適用於您。 請咨詢你的Adobe Campaign代表。
 
 ## 內容
 
-如果ISP中斷，透過Campaign傳送的電子郵件無法成功傳送給其收件者：這些電子郵件會錯誤標示為退信。
+在ISP中斷時，無法將通過Campaign發送的電子郵件成功發送給其收件人：這些電子郵件會被錯誤地標籤為回報。
 
-2020年12月，Gmail的全球問題導致傳送至有效Gmail電子郵件地址的部分電子郵件訊息錯誤地硬退信，因為Gmail伺服器所提供的無效電子郵件地址，並回信如下： *&quot;550-5.1.1您嘗試訪問的電子郵件帳戶不存在。&quot;*
+2020年12月，Gmail出現全球性問題，導致一些發送到有效Gmail電子郵件地址的電子郵件被錯誤地硬彈回，因為Gmail伺服器的無效電子郵件地址出現以下反彈： *&quot;550-5.1.1您嘗試訪問的電子郵件帳戶不存在。&quot;*
 
-Google表示，造成此問題的Gmail中斷和中斷始於12月14日早上6:55，並於12月15日東部時間下午6:09結束。 我們的資料分析還顯示，美國東部標準時間12月16日凌晨2:06,Gmail彈回數出現非常短的尖峰，其中大部分發生在美國東部標準時間下午2:00至6:30之間的12月15日。
+Google表示，導致此問題的Gmail中斷和中斷始於12月14日早6:55，截止於12月15日東部時間下午6:09 我們的資料分析還顯示，Gmail在東部時間12月16日凌晨2點06分出現了短暫的激增，其中大部分發生在東部時間12月15日下午2點至6點30分之間。
 
 >[!NOTE]
 >
->您可以在「Google工作區狀態控制面板」上查看 [本頁](https://www.google.com/appsstatus#hl=en&amp;v=status).
+>可以在上檢查Google工作區狀態儀表板 [此頁](https://www.google.com/appsstatus#hl=en&amp;v=status)。
 
 
-根據標準退信處理邏輯，Adobe Campaign會使用 **[!UICONTROL Status]** 設定 **[!UICONTROL Quarantine]**. 若要修正此問題，您需要尋找和移除這些收件者，或變更其，以更新Campaign中的隔離表格 **[!UICONTROL Status]** to **[!UICONTROL Valid]** 以便夜間清理工作流程將其移除。
+根據標準彈出處理邏輯，Adobe Campaign自動將這些收件人添加到隔離清單中， **[!UICONTROL Status]** 設定 **[!UICONTROL Quarantine]**。 要更正此問題，您需要通過查找和刪除這些收件人或更改其來更新市場活動中的隔離表 **[!UICONTROL Status]** 至 **[!UICONTROL Valid]** 這樣夜間清理工作流就會刪除它們。
 
-若要尋找受此Gmail問題影響的收件者，或若此情況再次發生於其他ISP，請參閱下列指示。
+要查找受此Gmail問題影響的收件人，或在其他ISP再次出現此情況時，請參閱以下說明。
 
-## 更新流程
+## 要更新的進程
 
-您需要在隔離表格上執行查詢，以篩選掉所有可能受到中斷影響的Gmail（或其他ISP）收件者，以便從隔離清單中移除這些收件者，並納入未來的Campaign電子郵件傳送中。
+您需要在隔離表上運行查詢，以過濾掉所有可能受中斷影響的Gmail（或其他ISP）收件人，以便從隔離清單中刪除這些收件人，並將其包括在將來的市場活動電子郵件中。
 
 根據事件的時間範圍，以下是此查詢的建議准則。
 
 >[!IMPORTANT]
 >
->這些日期/時間以東部標準時區(EST)為基礎。 請根據您執行個體的時區進行調整。
+>這些日期/時間基於東部標準時區(EST)。 請根據實例的時區進行調整。
 
-若是具有SMTP退信回應資訊的促銷活動例項，請參閱 **[!UICONTROL Error text]** 隔離清單欄位：
+對於具有SMTP彈出響應資訊的市場活動實例 **[!UICONTROL Error text]** 隔離清單的欄位：
 
-* **錯誤文本（隔離文本）** 包含「550-5.1.1您嘗試觸及的電子郵件帳戶不存在」和 **錯誤文本（隔離文本）** 包含&quot;support.google.com&quot; **
-* **更新狀態(@lastModified)** 12/14/2020 6:55:00 AM
-* **更新狀態(@lastModified)** 12/16/2020 6:00:00 AM
+* **錯誤文本（隔離文本）** 包含「550-5.1.1您嘗試訪問的電子郵件帳戶不存在」AND **錯誤文本（隔離文本）** 包含&quot;support.google.com&quot;**
+* **更新狀態(@lastModified)** 12/14/2020 6後:55:上午00點
+* **更新狀態(@lastModified)** 在12/16/2020 6之前:00:上午00點
 
-取得受影響收件者的清單後，您就可以將其設為 **[!UICONTROL Valid]** 以便將其從隔離清單中由 **[!UICONTROL Database cleanup]** 工作流程，或只是從表格中刪除。
+一旦您擁有受影響的收件人清單，您就可以將其設定為 **[!UICONTROL Valid]** 這樣它們就會被 **[!UICONTROL Database cleanup]** 工作流，或者只是從表中刪除它們。
 
 **相關主題：**
-* [了解傳送失敗](../../sending/using/understanding-delivery-failures.md)
+* [瞭解交付失敗](../../sending/using/understanding-delivery-failures.md)
 * [退回郵件資格](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)

@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 85c32143f87b1c46dd9aa32e9aac17f5fa9b7c62
+source-git-commit: 1311b88313910acd9fa6585adecbd7c8315e2d77
 workflow-type: tm+mt
-source-wordcount: '7089'
+source-wordcount: '7128'
 ht-degree: 97%
 
 ---
@@ -18,17 +18,27 @@ ht-degree: 97%
 
 ## 2022 年 2 月 {#doc-updates-feb-2022}
 
+## 發行版本 22.1 – 2022 年 2 月 {#release-22-1}
+
+**版本中的改進**
+
 改進的用於遞送的重試機制，包括從URL導入的內容。 [閱讀全文](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)
 
-添加了有關觸發自動SMS回復的關鍵字的警告說明：它們只能包含字母數字字元。 [閱讀全文](../../channels/using/managing-incoming-sms.md)
-
 已更新控制審核的選項的訪問級別：啟用/禁用早期選項 [審核跟蹤](../../administration/using/audit.md) 無法訪問 [功能管理員](../../administration/using/users-management.md#functional-administrators)。 通過此更改，審核的訪問級別被修改，以向職能管理員提供控制。 [閱讀全文](../../administration/using/audit.md#enable-disable-audit)
+
+新 **作業歷史記錄** 已將下拉清單添加到消息儀表板。 [閱讀全文](../../sending/using/monitoring-a-delivery.md)
+
+**其他變更**
+
+添加了有關觸發自動SMS回復的關鍵字的警告說明：它們只能包含字母數字字元。 [閱讀全文](../../channels/using/managing-incoming-sms.md)
 
 已在A/Btest電子郵件部分添加註釋：如果總人口不到50k，則每個變數至少應佔總人口的10%。 否則，日誌將顯示警告。 [閱讀全文](../../channels/using/designing-an-a-b-test-email.md)
 
 已更新 **[!UICONTROL Delete the source files after transfer]** 的上界 **傳輸檔案** 活動，包括提醒，以在未選擇選項時手動監視SFTP目錄中已存檔內容的大小。 [閱讀全文](../../automating/using/transfer-file.md)
 
 已更新中的所有過時連結 **隱私** 的下界。 [閱讀全文](../../start/using/privacy.md)
+
+在Campaign Standard文檔目錄中添加了指向市場活動控制面板文檔的直接連結。
 
 ## 發行版本 21.3 – 2021 年 9 月 {#release-21-3---september-2021}
 

@@ -1,39 +1,36 @@
 ---
 title: 刪除訂閱
-description: 了解如何使用API刪除訂閱。
-audience: developing
-content-type: reference
-topic-tags: campaign-standard-apis
+description: 瞭解如何使用API刪除訂閱
 feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 76e2d102-c877-41a6-af87-2f407201a572
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 1%
+source-wordcount: '235'
+ht-degree: 0%
 
 ---
 
-# 刪除訂閱 {#mdeleting-subscriptions}
+# 使用API刪除訂閱 {#mdeleting-subscriptions-api}
 
 <!--NOTE TO WRITER: There are two duplicate headings that seem to have the same content. Delete one? Rename if different?-->
 
 ## 刪除特定配置檔案的服務訂閱 {#deleting-service-subscription}
 
-這是三步驟程式。
+這是三步法。
 
-1. 擷取所需設定檔的訂閱URL。
-1. 對訂閱URL執行GET要求。
-1. 對所需的服務URL執行DELETE請求。
+1. 檢索所需配置檔案的訂閱URL。
+1. 對訂閱URL執行GET請求。
+1. 對所需服務URL執行DELETE請求。
 
-如果刪除請求成功，回應狀態為204無內容。
+如果刪除請求成功，則響應狀態為「204無內容」。
 
 <br/>
 
-***範例要求***
+***示例請求***
 
-以下範例裝載說明如何從服務取消訂閱設定檔。 首先，執行GET請求以擷取設定檔。
+下面的示例負載說明如何從服務中取消訂閱配置檔案。 首先執行GET請求以檢索配置檔案。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -43,7 +40,7 @@ ht-degree: 1%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它會傳回設定檔的訂閱URL。
+它返回配置檔案的訂閱URL。
 
 ```
   {
@@ -56,7 +53,7 @@ ht-degree: 1%
   }
 ```
 
-對訂閱URL執行GET要求。
+對訂閱URL執行GET請求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
@@ -66,7 +63,7 @@ ht-degree: 1%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它會傳回所選設定檔的訂閱清單，以及每個訂閱服務的URL。
+它返回所選配置檔案的訂閱清單，並為每個訂閱服務返回URL。
 
 ```
 ...
@@ -80,7 +77,7 @@ ht-degree: 1%
 ...
 ```
 
-對所需的服務URL執行DELETE請求。
+對所需服務URL執行DELETE請求。
 
 ```
 -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
@@ -94,17 +91,17 @@ ht-degree: 1%
 
 ## 刪除特定配置檔案的服務訂閱
 
-這是三步驟程式。
+這是三步法。
 
-1. 擷取所需的服務及其訂閱URL。
-1. 對訂閱URL執行GET要求，以擷取所有設定檔訂閱。
-1. 對所需的設定檔訂閱URL執行DELETE要求。
+1. 檢索所需的服務及其訂閱URL。
+1. 對訂閱URL執行GET請求以檢索所有配置檔案訂閱。
+1. 對所需的配置檔案訂閱URL執行DELETE請求。
 
-如果刪除請求成功，回應狀態為204無內容。
+如果刪除請求成功，則響應狀態為「204無內容」。
 
 <br/>
 
-***範例要求***
+***示例請求***
 
 檢索服務記錄。
 
@@ -116,7 +113,7 @@ ht-degree: 1%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它會傳回服務的訂閱URL。
+它返回服務的訂閱URL。
 
 ```
 {
@@ -133,7 +130,7 @@ ht-degree: 1%
 },
 ```
 
-對訂閱URL執行GET要求。
+對訂閱URL執行GET請求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions \
@@ -143,7 +140,7 @@ ht-degree: 1%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它會傳回所選服務的訂閱清單，以及每個設定檔訂閱的URL(href)。
+它返回所選服務的訂閱清單，並為每個配置檔案訂閱返回URL(href)。
 
 ```
 {
@@ -160,7 +157,7 @@ ht-degree: 1%
 }
 ```
 
-對所需的設定檔訂閱URL執行DELETE要求。
+對所需的配置檔案訂閱URL執行DELETE請求。
 
 ```
 -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions/<PKEY> \

@@ -4,8 +4,8 @@ user-guide-title: Campaign Standard
 user-guide-description: '說明中心，以瞭解使用 Campaign Standard 所需的主要功能、工作、設定和其他資源。 '
 title: Campaign Standard 指南
 breadcrumb-title: Adobe Campaign Standard 文件
-source-git-commit: 4c316778c34c14b8d5e5aa1812999ee024a581a0
-workflow-type: ht
+source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
+workflow-type: tm+mt
 source-wordcount: '1807'
 ht-degree: 100%
 
@@ -490,7 +490,7 @@ ht-degree: 100%
    + 管理設定檔 {#managing-profiles}
       + [擷取設定檔](api/using/retrieving-profiles.md)
       + [更新設定檔](api/using/updating-profiles.md)
-      + [建立設定檔](api/using/creating-profiles.md)
+      + [建立設定檔](api/using/creating-profiles-api.md)
    + 管理服務與訂閱 {#managing-services-and-subscriptiopns}
       + [建立服務](api/using/creating-a-service.md)
       + [擷取訂閱](api/using/retrieving-subscriptions.md)

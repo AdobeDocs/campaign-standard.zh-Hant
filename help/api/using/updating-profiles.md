@@ -1,37 +1,34 @@
 ---
 title: 更新設定檔
-description: 進一步了解如何使用API更新設定檔。
-audience: developing
-content-type: reference
-topic-tags: campaign-standard-apis
+description: 瞭解如何使用API更新配置檔案的更多資訊
 feature: API
 role: Data Engineer
 level: Experienced
 exl-id: fa3796ee-a00c-4d70-bf3d-e8d2099f1116
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 4%
+source-wordcount: '96'
+ht-degree: 2%
 
 ---
 
-# 更新設定檔 {#updating-profiles}
+# 使用API更新配置檔案{#updating-profiles-api}
 
-更新設定檔是使用 **PATCH** 請求。
+使用 **PATCH** 請求。
 
 `https://mc.adobe.io/<ORGANIZATION>/campaign/<apiName>/<resourceName>/<PKEY>`
 
-1. 第一步是 **擷取設定檔**.
+1. 第一步是 **檢索配置檔案**。
 
-1. 在第二個請求中，執行 **PATCH請求** 填入填入中已完成的資訊。
+1. 在第二個請求中，執行 **PATCH請求** 在配置式上，並在負載中顯示完成的資訊。
 
-1. 若要檢查PATCH要求是否已更新設定檔，我們可以執行最終GET要求。
+1. 要檢查PATCH請求是否更新了配置檔案，我們可以執行最終GET請求。
 
 <br/>
 
-***範例要求***
+***示例請求***
 
-擷取設定檔的GET請求範例。
+檢索配置檔案的示例GET請求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>\
@@ -41,7 +38,7 @@ ht-degree: 4%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-要求的回應。
+響應請求。
 
 ```
 {
@@ -68,7 +65,7 @@ PATCH請求更新「phone」屬性。
 -d '{"phone":"3301020304"}'
 ```
 
-它會傳回PKEY和URL以擷取更新的設定檔。
+它返回PKEY和URL以檢索更新的配置檔案。
 
 ```
 {

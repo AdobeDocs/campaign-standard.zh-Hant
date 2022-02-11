@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
 source-git-commit: e41667405b54a7ed0e02889e3002807e4bfd3a05
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1591'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -95,9 +95,9 @@ Adobe Campaign 提供資料控制方工具，可針對儲存在 Adobe Campaign �
 
 >[!IMPORTANT]
 >
->要使用自定義命名空間類型提交請求，請 [JSON方法](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=en#json){target=&quot;_blank&quot;}，並將namespaceId添加到請求，或使用 [API調用](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=en#access-delete){target=&quot;_blank&quot;}以發出請求。
+>要使用自訂命名空間類型提交請求，請善用 [JSON 方法](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hant#json){target=&quot;_blank&quot;}，並將 namespaceId 加入請求，或使用 [API 呼叫](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=zh-Hant#access-delete){target=&quot;_blank&quot;}發出請求。
 >
->僅使用 [隱私用戶介面](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=en#request-builder){target=&quot;_blank&quot;}，使用標準命名空間類型提交請求。
+>僅使用[隱私權使用者介面](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hant#request-builder){target=&quot;_blank&quot;}，使用標準命名空間類型提交請求。
 
 依據正在使用的命名空間數量，每個隱私權核心服務都會分割為 Campaign 中的多個隱私權要求，而一個要求都會與一個命名空間相對應。此外，一個作業可在多個執行個體上執行。因此，會針對一個作業建立多個檔案。例如，如果要求有兩個命名空間，且在三個執行個體上執行，則總共會傳送六個檔案。每個命名空間和執行個體會有一個檔案。
 
@@ -189,7 +189,7 @@ GDPR 和 CCPA 都很常使用存取及刪除要求的設定與使用情況。本
 
 ### 自訂表格的先決條件 {#ccpa-prerequisite}
 
-的 **[!UICONTROL CCPA Opt-Out]** 欄位在「市場活動」介面和API中提供現成功能。 依預設，此欄位適用於標準 **[!UICONTROL Profile]** 資源。
+Campaign 介面及 API 中可立即使用 **[!UICONTROL CCPA Opt-Out]** 欄位。預設情況下，此欄位適用於標準 **[!UICONTROL Profile]** 資源。
 
 如果您使用自訂設定檔資源，則需要擴充資源並新增欄位。我們建議您使用與現成可用欄位不同的名稱，例如：**[!UICONTROL Opt-Out for CCPA]** (optouccpa)。建立新欄位時，Campaign API 會自動支援該欄位。
 

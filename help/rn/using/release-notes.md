@@ -8,7 +8,7 @@ exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: 13894dd2ce3922a54e8754dfcb164eb37b18c76c
 workflow-type: tm+mt
 source-wordcount: '724'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 97%
 * 改進了報告資料的處理，以避免系統過載。 (CAMP-47578)
 * 在傳送您的應用程式內訊息後，您現在可以選擇停用您的傳遞。 這樣，您便可刪除傳遞內容，而不會遺失任何報告資料。 (CAMP-48469)
 * 為防止出現任何問題，對於自訂表格欄名稱，使用者無法再使用跟資料庫自動化主要金鑰相同的名稱， `"<dataType><resourceName>Id"`。 (CAMP-49358)
-* 您現在可以監視您的傳遞，並在您的訊息控制面板使用新的&#x200B;**作業歷史記錄**&#x200B;下拉式清單。 [瞭解更多資訊](../../sending/using/monitoring-a-delivery.md) (CAMP-49840)
+* 您現在可以監視您的傳遞，並在您的訊息控制面板使用新的&#x200B;**作業歷史記錄**&#x200B;下拉式清單。 [了解更多資訊](../../sending/using/monitoring-a-delivery.md) (CAMP-49840)
 * 在一段時間內跨所有通道傳送大量訊息時，透過減少無作用的元組，提高了穩定性和資料庫健康情況。 (CAMP-49755、CAMP-49792、CAMP-49849)
 * 為確保在資料庫當機或重新啟動時自動重新整理資料庫連線，改進了 Campaign 郵件傳輸代理程式 (MTA)。 (CAMP-48063)
 
@@ -62,7 +62,7 @@ ht-degree: 97%
 * 修復推送通知報告錯誤，該報告將推送通知顯示為&#x200B;**開啟**&#x200B;而非&#x200B;**印象**。 (CAMP-45980)
 * 修復在開啟報告時可能導致錯誤的問題。 (CAMP-49222)
 * 修復在刪除指向 AEM 內容的連結後可能導致電子郵件準備失敗的問題。 (CAMP-49877)
-* 為了解決各種問題，針對包括從 URL 匯入的內容改進了遞送的重試機制。 [瞭解更多資訊](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time) (CAMP-48888)
+* 為了解決各種問題，針對包括從 URL 匯入的內容改進了遞送的重試機制。 [了解更多資訊](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time) (CAMP-48888)
 * 修復了在自訂資源中建立新篩選器後發生的問題，然後將其作為登陸頁面中的調解金鑰。 如再次發佈自訂資源，則會從登陸頁面的可用調解金鑰清單中刪除該篩選器。 (CAMP-49516)
 * 針對當登陸頁面使用帶有核取方塊的動態條件時，修復其中的問題。 (CAMP-48604)
 * 修復當&#x200B;**查詢**&#x200B;活動使用「十月或之前」篩選器條件時發生的問題。 當利用設定為歐洲時區的執行個體時，由於轉換時區出現問題，篩選器的選定月份顯示為 9 月而非 10 月。 (CAMP-48602)

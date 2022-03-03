@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 225c65cc-2964-4b71-84a9-30fcd22d75bf
-source-git-commit: 97d1de796397f4f801d97790cec39a94734d2af7
-workflow-type: ht
-source-wordcount: '4571'
-ht-degree: 100%
+source-git-commit: 8f04bb9fa8b47b990f0cd6359ce6569d836a9b64
+workflow-type: tm+mt
+source-wordcount: '4587'
+ht-degree: 99%
 
 ---
 
@@ -109,7 +109,8 @@ ht-degree: 100%
 * 透過減少傳遞分析期間對追蹤伺服器的呼叫次數，已針對異動訊息最佳化傳遞準備時間。
 * 新的警報訊息會通知用戶高跳出率。
 * 改善記錄錯誤訊息和警告，以便在無法正確擷取追蹤記錄時能更輕鬆地進行偵錯。 (CAMP-48939, CAMP-47360)
-* 您現在可以完全個人化 URL，包含網域名稱。 [進一步了解](../../designing/using/personalization.md#personalizing-urls)
+* 您現在可以完全個人化 URL，包含網域名稱。 [了解更多](../../designing/using/personalization.md#personalizing-urls)
+* 證明和陷印配置檔案現已排除在「動態報告」中的交付效能計算之外。 (CAMP-47338)
 
 **修補程式**
 

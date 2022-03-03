@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 13894dd2ce3922a54e8754dfcb164eb37b18c76c
-workflow-type: ht
-source-wordcount: '724'
-ht-degree: 100%
+source-git-commit: 0d473db5013ecc33b100aa884daac53f36fb2e93
+workflow-type: tm+mt
+source-wordcount: '762'
+ht-degree: 95%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 100%
 * 您現在可以監視您的傳遞，並在您的訊息控制面板使用新的&#x200B;**作業歷史記錄**&#x200B;下拉式清單。 [了解更多資訊](../../sending/using/monitoring-a-delivery.md) (CAMP-49840)
 * 在一段時間內跨所有通道傳送大量訊息時，透過減少無作用的元組，提高了穩定性和資料庫健康情況。 (CAMP-49755、CAMP-49792、CAMP-49849)
 * 為確保在資料庫當機或重新啟動時自動重新整理資料庫連線，改進了 Campaign 郵件傳輸代理程式 (MTA)。 (CAMP-48063)
-
+* 新跟蹤選項 **使用電子郵件頂部的「跟蹤」像素** 已添加到電子郵件屬性中，允許您移動電子郵件頂部而不是底部的跟蹤像素。 (CAMP-49672)
 
 **修補程式**
 

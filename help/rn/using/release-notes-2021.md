@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 225c65cc-2964-4b71-84a9-30fcd22d75bf
 source-git-commit: 8f04bb9fa8b47b990f0cd6359ce6569d836a9b64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4587'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -110,7 +110,7 @@ ht-degree: 99%
 * 新的警報訊息會通知用戶高跳出率。
 * 改善記錄錯誤訊息和警告，以便在無法正確擷取追蹤記錄時能更輕鬆地進行偵錯。 (CAMP-48939, CAMP-47360)
 * 您現在可以完全個人化 URL，包含網域名稱。 [了解更多](../../designing/using/personalization.md#personalizing-urls)
-* 證明和陷印配置檔案現已排除在「動態報告」中的交付效能計算之外。 (CAMP-47338)
+* 證明和補漏白設定檔現已排除在「動態報告」的傳遞效能計算之外。 (CAMP-47338)
 
 **修補程式**
 

@@ -6,10 +6,10 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 6aa53aa9-aa5c-4b29-ad84-d983da241ceb
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 98aa27e4fb5eab9abbce5a9a9ba2c17d04424d70
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 85%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,11 +28,11 @@ Adobe Campaign 可讓您定義並管理指派給不同使用者的權限。權�
 
 平台的功能管理員可在 **[!UICONTROL Administration > Users & Security]** 功能表下方管理角色、群組和組織單位。
 
-![](assets/user_management_1.png)
+![用戶管理菜單](assets/user_management_1.png)
 
-在Admin Console中管理用戶(請參閱 [管理組和用戶](../../administration/using/managing-groups-and-users.md) 的 [Admin Console文檔](https://helpx.adobe.com/tw/enterprise/managing/user-guide.html))。
+用戶在Admin Console中管理。 在 [管理組和用戶](../../administration/using/managing-groups-and-users.md) 的 [Admin Console文檔](https://helpx.adobe.com/tw/enterprise/managing/user-guide.html)。
 
-![](assets/user_management_6.png)
+![訪問產品配置檔案](assets/user_management_6.png)
 
 >[!IMPORTANT]
 >

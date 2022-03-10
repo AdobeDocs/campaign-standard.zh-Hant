@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: 0d473db5013ecc33b100aa884daac53f36fb2e93
+source-git-commit: 98aa27e4fb5eab9abbce5a9a9ba2c17d04424d70
 workflow-type: tm+mt
-source-wordcount: '2614'
-ht-degree: 75%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -234,7 +234,7 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 * **[!UICONTROL Activate tracking]**：可讓您啟用/停用郵件 URL 追蹤。若要管理每個郵件 URL 的追蹤，請使用「電子郵件設計工具」動作列中的 **[!UICONTROL Links]** 圖示。請參閱[關於追蹤的 URL](../../designing/using/links.md#about-tracked-urls)。
 * **[!UICONTROL Tracking validity limit]**：可讓您定義要對 URL 啟動追蹤的持續時間。
 * **[!UICONTROL Substitution URL for expired URLs]**：您可以對追蹤過期後將顯示的網頁輸入 URL。
-* **[!UICONTROL Use tracking pixel at the top of email]**:允許您移動電子郵件頂部而不是底部的跟蹤像素。
+* **[!UICONTROL Use tracking pixel at the top of email]**:允許您移動電子郵件頂部而不是底部的跟蹤像素。 預設情況下，此像素位於電子郵件的底部。 如果您發送大郵件，請考慮將此像素移到電子郵件頂部而不是底部以改進開啟的跟蹤 — 否則，某些電子郵件提供商可能會剪切跟蹤像素。
 
 ### 高級參數 {#advanced-parameters}
 

@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: 897ec46abace9debce45e7dc174e17074b29a0c2
+source-git-commit: a1b947acf70803a7350dd626e697318e0ed35f26
 workflow-type: tm+mt
-source-wordcount: '2655'
-ht-degree: 61%
+source-wordcount: '2681'
+ht-degree: 60%
 
 ---
 
@@ -177,9 +177,7 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 
 #### SMTP　測試模式 {#smtp-test-mode}
 
-使用 **[!UICONTROL Enable SMTP test mode]** test通過SMTP連接發送電子郵件而不實際發送郵件。
-
-將會處理這些郵件，直到與　SMTP　伺服器建立連線為止，但不會傳送這些郵件。
+使用 **[!UICONTROL Enable SMTP test mode]** test通過SMTP連接發送電子郵件而不實際發送郵件。 該傳遞被處理到連接到SMTP伺服器，但未發送：對於每個傳遞的收件人，Campign會連接到SMTP提供程式伺服器，執行SMTP RCPT TO命令，並在SMTP DATA命令之前關閉連接。
 
 ![](assets/smtp-test-mode.png)
 

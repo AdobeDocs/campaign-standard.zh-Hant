@@ -1,12 +1,12 @@
 ---
-title: 實施推送追蹤
+title: 實現本地跟蹤
 description: 瞭解如何確保推送通知跟蹤已在iOS和Android上正確實施
 audience: channels
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b983d0a3-c345-44d4-bc82-202bf6ed26ab
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 * **本地開啟**  — 當本地通知已傳送到設備，並且用戶已按一下導致應用程式開啟的通知時。 這與本地按一下類似，除非當通知被取消時不會觸發本地開啟。
 
-為了實現對Adobe Campaign Standard的跟蹤，移動應用需要將移動SDK包括在應用中。 這些SDK在 [!DNL Adobe Mobile Services]。
+為了實現對Adobe Campaign Standard的跟蹤，移動應用程式需要將MobileSDK包括在應用程式中。 這些SDK在 [!DNL Adobe Mobile Services]。
 
 要發送跟蹤資訊，必須發送三個變數：其中兩個是從Adobe Campaign接收的資料的一部分，另一個是一個操作變數，它指示是印象、點擊還是開啟。
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 ## 實施本地印象跟蹤 {#implement-local-impression-tracking}
 
-Adobe Experience Platform移動軟體開發工具包將自動發送Android和iOS的印象事件，而無需進行任何其他配置。
+Adobe Experience PlatformMobile軟體開發套件將自動發送Android和iOS的印象事件，而不需要任何額外配置。
 
 ## 實現點擊跟蹤 {#implementing-click-tracking}
 

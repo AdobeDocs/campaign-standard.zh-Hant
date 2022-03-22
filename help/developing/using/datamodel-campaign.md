@@ -1,22 +1,22 @@
 ---
-title: DataModel
-description: 了解資料模型
+title: 資料模型市場活動
+description: 瞭解資料模型
 audience: developing
 content-type: reference
 feature: Data Model
 role: Developer
 level: Experienced
 exl-id: a63fe730-a6b2-4ae0-93da-9f8ee7824c9f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 7%
+source-wordcount: '217'
+ht-degree: 21%
 
 ---
 
-# 促銷活動(nms:campaign)
+# 市場活動（nms：市場活動）
 
-## 物件說明
+## 對象描述
 
 <table>
                <tr>
@@ -27,7 +27,7 @@ ht-degree: 7%
                </tr>
                <tr>
                   <td>PKey</td>
-                  <td>主要資源ID</td>
+                  <td>主資源ID</td>
                   <td>字串 </td>
                   <td> </td>
                </tr>
@@ -38,13 +38,13 @@ ht-degree: 7%
                   <td> </td>
                </tr>
                <tr>
-                  <td>builtIn</td>
-                  <td>內建應用程式物件</td>
-                  <td>布林值 </td>
+                  <td>內置</td>
+                  <td>內置應用程式對象</td>
+                  <td>布爾 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>已建立</td>
+                  <td>建立</td>
                   <td>已建立</td>
                   <td>日期 </td>
                   <td> </td>
@@ -56,19 +56,19 @@ ht-degree: 7%
                   <td> </td>
                </tr>
                <tr>
-                  <td>desc</td>
+                  <td>des</td>
                   <td>說明</td>
                   <td>字串(512)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>持續時間</td>
-                  <td>促銷活動期間</td>
-                  <td>數字 </td>
+                  <td>市場活動持續時間</td>
+                  <td>數 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>結束</td>
+                  <td>端</td>
                   <td>結束日期</td>
                   <td>日期 </td>
                   <td> </td>
@@ -80,15 +80,15 @@ ht-degree: 7%
                   <td> </td>
                </tr>
                <tr>
-                  <td>isExternal</td>
+                  <td>為外部</td>
                   <td>是外部資源</td>
-                  <td>布林值 </td>
+                  <td>布爾 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>isTemplate</td>
+                  <td>是模板</td>
                   <td>範本</td>
-                  <td>布林值 </td>
+                  <td>布爾 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -98,23 +98,23 @@ ht-degree: 7%
                   <td> </td>
                </tr>
                <tr>
-                  <td>lastModified</td>
+                  <td>上次修改時間</td>
                   <td>上次修改時間</td>
                   <td>日期 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>logicalStatus</td>
+                  <td>邏輯狀態</td>
                   <td>執行狀態</td>
                   <td>枚舉（字串）(255)</td>
                   <td>
                      <ul>
-                        <li>進行中 — 已啟動 — 已啟動</li>
+                        <li>正在進行 — 已啟動 — 已啟動</li>
                         <li>編輯 — 版本 — 版本</li>
-                        <li>已完成 — 已完成 — 已完成</li>
+                        <li>完成 — 完成 — 完成</li>
                         <li>警告 — 警告 — 警告</li>
                         <li>錯誤 — 錯誤 — 錯誤</li>
-                        <li>無效值 — __Invalid_value__ - __Invalid_value__</li>
+                        <li>無效值 — __Invalid_value_ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
@@ -137,15 +137,15 @@ ht-degree: 7%
                   <td> </td>
                </tr>
                <tr>
-                  <td>程式(programBase)</td>
+                  <td>程式（程式庫）</td>
                   <td>方案</td>
                   <td>連結 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>realtimeReport</td>
-                  <td>即時報表</td>
-                  <td>項目 </td>
+                  <td>即時報告</td>
+                  <td>即時報告</td>
+                  <td>物料 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -160,21 +160,21 @@ ht-degree: 7%
                   <td>枚舉（位元組） </td>
                   <td>
                      <ul>
-                        <li>已開始 — 已開始 — 1</li>
+                        <li>已啟動 — 已啟動 — 1</li>
                         <li>編輯 — 版本 — 0</li>
-                        <li>已完成 — 已完成 — 2</li>
-                        <li>無效值 — __Invalid_value__ - __Invalid_value__</li>
+                        <li>完成 — 完成 — 2</li>
+                        <li>無效值 — __Invalid_value_ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
                <tr>
-                  <td>範本（行銷活動）</td>
-                  <td>行銷活動範本</td>
+                  <td>模板（市場活動）</td>
+                  <td>市場活動模板</td>
                   <td>連結 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>縮圖</td>
+                  <td>縮略圖</td>
                   <td>縮圖</td>
                   <td>字串(255)</td>
                   <td> </td>
@@ -189,7 +189,7 @@ ht-degree: 7%
 
 ## 篩選器
 
-按邏輯狀態（按邏輯狀態）
+按邏輯狀態（按LogicalStatus）
 
 <table>
     <tr>
@@ -197,12 +197,12 @@ ht-degree: 7%
     <th>類型</th>
     </tr>
     <tr>
-    <td>state</td>
-    <td>分項清單</td>
+    <td>狀態</td>
+    <td>枚舉</td>
     </tr>
 </table>
 
-按名稱或標籤(byText)
+按名稱或標籤（按文本）
 
 <table>
     <tr>
@@ -210,7 +210,7 @@ ht-degree: 7%
     <th>類型</th>
     </tr>
     <tr>
-    <td>文字</td>
+    <td>文本</td>
     <td>字串</td>
     </tr>
 </table>
@@ -223,11 +223,11 @@ ht-degree: 7%
     <th>類型</th>
     </tr>
     <tr>
-    <td>startDate</td>
+    <td>開始日期</td>
     <td>日期</td>
     </tr>
     <tr>
-    <td>timePeriod</td>
+    <td>時段</td>
     <td>字串</td>
     </tr>
 </table>
@@ -240,12 +240,12 @@ ht-degree: 7%
     <th>類型</th>
     </tr>
     <tr>
-    <td>state</td>
-    <td>分項清單</td>
+    <td>狀態</td>
+    <td>枚舉</td>
     </tr>
 </table>
 
-包括從異構清單（具有Continuous）進行連續傳遞
+包括來自異構清單(withContinuous)的連續交付
 
 <table>
     <tr>
@@ -253,12 +253,12 @@ ht-degree: 7%
     <th>類型</th>
     </tr>
     <tr>
-    <td>withContinuous</td>
-    <td>布林值</td>
+    <td>與連續</td>
+    <td>布爾</td>
     </tr>
 </table>
 
-指定期間的計畫（按計畫）
+為給定期間計畫（按Planning）
 
 <table>
     <tr>
@@ -266,16 +266,16 @@ ht-degree: 7%
     <th>類型</th>
     </tr>
     <tr>
-    <td>startDate</td>
+    <td>開始日期</td>
     <td>日期</td>
     </tr>
     <tr>
-    <td>endDate</td>
+    <td>結束日期</td>
     <td>日期</td>
     </tr>
 </table>
 
-在指定期間存在（按日曆）
+在指定期間（按日曆）存在
 
 <table>
     <tr>
@@ -283,11 +283,11 @@ ht-degree: 7%
     <th>類型</th>
     </tr>
     <tr>
-    <td>startDate</td>
+    <td>開始日期</td>
     <td>日期</td>
     </tr>
     <tr>
-    <td>endDate</td>
+    <td>結束日期</td>
     <td>日期</td>
     </tr>
 </table>

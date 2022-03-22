@@ -1,22 +1,22 @@
 ---
-title: DataModel
-description: 了解資料模型
+title: 資料模型服務
+description: 瞭解資料模型
 audience: developing
 content-type: reference
 feature: Data Model
 role: Developer
 level: Experienced
 exl-id: a326b38f-ca88-4a44-a7c2-b6e34497a364
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 7%
+source-wordcount: '214'
+ht-degree: 20%
 
 ---
 
 # 服務(nms:service)
 
-## 物件說明
+## 對象描述
 
 <table>
                <tr>
@@ -27,18 +27,18 @@ ht-degree: 7%
                </tr>
                <tr>
                   <td>PKey</td>
-                  <td>主要資源ID</td>
+                  <td>主資源ID</td>
                   <td>字串 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>builtIn</td>
-                  <td>內建應用程式物件</td>
-                  <td>布林值 </td>
+                  <td>內置</td>
+                  <td>內置應用程式對象</td>
+                  <td>布爾 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>已建立</td>
+                  <td>建立</td>
                   <td>已建立</td>
                   <td>日期 </td>
                   <td> </td>
@@ -50,19 +50,19 @@ ht-degree: 7%
                   <td> </td>
                </tr>
                <tr>
-                  <td>cusPrice</td>
+                  <td>固定價格</td>
                   <td>價格</td>
                   <td>整數 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>desc</td>
+                  <td>des</td>
                   <td>說明</td>
                   <td>字串(512)</td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>結束</td>
+                  <td>端</td>
                   <td>結束日期</td>
                   <td>日期 </td>
                   <td> </td>
@@ -80,15 +80,15 @@ ht-degree: 7%
                   <td> </td>
                </tr>
                <tr>
-                  <td>isExternal</td>
+                  <td>為外部</td>
                   <td>是外部資源</td>
-                  <td>布林值 </td>
+                  <td>布爾 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>isTemplate</td>
+                  <td>是模板</td>
                   <td>範本</td>
-                  <td>布林值 </td>
+                  <td>布爾 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -98,15 +98,15 @@ ht-degree: 7%
                   <td> </td>
                </tr>
                <tr>
-                  <td>lastModified</td>
+                  <td>上次修改時間</td>
                   <td>上次修改時間</td>
                   <td>日期 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>limitedDuration</td>
                   <td>有限持續時間</td>
-                  <td>布林值 </td>
+                  <td>有限的持續時間</td>
+                  <td>布爾 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -116,14 +116,14 @@ ht-degree: 7%
                   <td> </td>
                </tr>
                <tr>
-                  <td>messageType</td>
+                  <td>消息類型</td>
                   <td>通道</td>
                   <td>枚舉（位元組） </td>
                   <td>
                      <ul>
-                        <li>行動(SMS)- sms - 1</li>
+                        <li>Mobile社簡訊 — 1</li>
                         <li>電子郵件 — 電子郵件 — 0</li>
-                        <li>無效值 — __Invalid_value__ - __Invalid_value__</li>
+                        <li>無效值 — __Invalid_value_ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
@@ -134,8 +134,8 @@ ht-degree: 7%
                   <td>
                      <ul>
                         <li>病毒 — 病毒 — 1</li>
-                        <li>電子報 — 電子報 — 0</li>
-                        <li>無效值 — __Invalid_value__ - __Invalid_value__</li>
+                        <li>新聞稿 — 新聞稿 — 0</li>
+                        <li>無效值 — __Invalid_value_ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
@@ -158,7 +158,7 @@ ht-degree: 7%
                   <td> </td>
                </tr>
                <tr>
-                  <td>publicLabel</td>
+                  <td>公共標籤</td>
                   <td>服務標籤</td>
                   <td>字串(128)</td>
                   <td> </td>
@@ -171,7 +171,7 @@ ht-degree: 7%
                </tr>
                <tr>
                   <td>subLandingPage(landingPageSubscriptionBase)</td>
-                  <td>訂閱登錄頁面</td>
+                  <td>訂閱登錄頁</td>
                   <td>連結 </td>
                   <td> </td>
                </tr>
@@ -183,7 +183,7 @@ ht-degree: 7%
                </tr>
                <tr>
                   <td>subScenarioEventType</td>
-                  <td>SubScenarioEventType</td>
+                  <td>子方案事件類型</td>
                   <td>字串 </td>
                   <td> </td>
                </tr>
@@ -194,19 +194,19 @@ ht-degree: 7%
                   <td> </td>
                </tr>
                <tr>
-                  <td>targetResource</td>
+                  <td>目標資源</td>
                   <td>目標維度</td>
                   <td>字串(255)</td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>範本（服務）</td>
+                  <td>模板（服務）</td>
                   <td>服務模板</td>
                   <td>連結 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>縮圖</td>
+                  <td>縮略圖</td>
                   <td>縮圖</td>
                   <td>字串(255)</td>
                   <td> </td>
@@ -218,34 +218,34 @@ ht-degree: 7%
                   <td> </td>
                </tr>
                <tr>
-                  <td>unsubLandingPage(landingPageUnsubscriptionBase)</td>
-                  <td>取消訂閱登錄頁面</td>
+                  <td>不明嫌犯登錄頁（登錄頁取消訂閱基）</td>
+                  <td>取消訂閱登錄頁</td>
                   <td>連結 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>unsubScenario(deliveryMCTemplateBase)</td>
+                  <td>不明嫌犯場景(deliveryMCTemplateBase)</td>
                   <td>取消訂閱確認</td>
                   <td>連結 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>unsubScenarioEventType</td>
-                  <td>UnsubScenarioEventType</td>
+                  <td>不明嫌犯ScenarioEventType</td>
+                  <td>不明嫌犯場景事件類型</td>
                   <td>字串 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>validityDuration</td>
-                  <td>有效期間</td>
-                  <td>數字 </td>
+                  <td>有效性持續時間</td>
+                  <td>有效期</td>
+                  <td>數 </td>
                   <td> </td>
                </tr>
             </table>
 
 ## 篩選器
 
-在指定時段內可用（按Planning）
+在指定期間可用（按Planning）
 
 <table>
     <tr>
@@ -253,16 +253,16 @@ ht-degree: 7%
     <th>類型</th>
     </tr>
     <tr>
-    <td>startDate</td>
+    <td>開始日期</td>
     <td>日期</td>
     </tr>
     <tr>
-    <td>endDate</td>
+    <td>結束日期</td>
     <td>日期</td>
     </tr>
 </table>
 
-按通道類型(byChannel)
+按通道類型（按通道）
 
 <table>
 <tr>
@@ -270,12 +270,12 @@ ht-degree: 7%
 <th>類型</th>
 </tr>
 <tr>
-<td>頻道</td>
-<td>分項清單</td>
+<td>通道</td>
+<td>枚舉</td>
 </tr>
 </table>
 
-按名稱或標籤(byText)
+按名稱或標籤（按文本）
 
 <table>
 <tr>
@@ -283,12 +283,12 @@ ht-degree: 7%
 <th>類型</th>
 </tr>
 <tr>
-<td>文字</td>
+<td>文本</td>
 <td>字串</td>
 </tr>
 </table>
 
-依目標資源(byTargetResource)
+按目標資源（按TargetResource）
 
 <table>
 <tr>
@@ -296,7 +296,7 @@ ht-degree: 7%
 <th>類型</th>
 </tr>
 <tr>
-<td>targetResource</td>
+<td>目標資源</td>
 <td>字串</td>
 </tr>
 </table>

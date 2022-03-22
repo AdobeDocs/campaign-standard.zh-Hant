@@ -1,22 +1,22 @@
 ---
-title: DataModel
-description: 了解資料模型
+title: 資料模型種子成員
+description: 瞭解資料模型
 audience: developing
 content-type: reference
 feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 9b522c84-e296-47c7-9588-2e5ed08ab631
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 9%
+source-wordcount: '173'
+ht-degree: 24%
 
 ---
 
 # 種子成員(nms:seedMember)
 
-## 物件說明
+## 對象描述
 
 <table>
                <tr>
@@ -27,18 +27,18 @@ ht-degree: 9%
                </tr>
                <tr>
                   <td>PKey</td>
-                  <td>主要資源ID</td>
+                  <td>主資源ID</td>
                   <td>字串 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>國家（國家）</td>
+                  <td>國家/地區</td>
                   <td>國家/地區</td>
                   <td>連結 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>已建立</td>
+                  <td>建立</td>
                   <td>已建立</td>
                   <td>日期 </td>
                   <td> </td>
@@ -50,7 +50,7 @@ ht-degree: 9%
                   <td> </td>
                </tr>
                <tr>
-                  <td>desc</td>
+                  <td>des</td>
                   <td>說明</td>
                   <td>字串(512)</td>
                   <td> </td>
@@ -62,9 +62,9 @@ ht-degree: 9%
                   <td> </td>
                </tr>
                <tr>
-                  <td>emailRendering</td>
+                  <td>電子郵件呈現</td>
                   <td>電子郵件轉譯</td>
-                  <td>布林值 </td>
+                  <td>布爾 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -80,13 +80,13 @@ ht-degree: 9%
                   <td> </td>
                </tr>
                <tr>
-                  <td>isExternal</td>
+                  <td>為外部</td>
                   <td>是外部資源</td>
-                  <td>布林值 </td>
+                  <td>布爾 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>lastModified</td>
+                  <td>上次修改時間</td>
                   <td>上次修改時間</td>
                   <td>日期 </td>
                   <td> </td>
@@ -94,23 +94,23 @@ ht-degree: 9%
                <tr>
                   <td>位置</td>
                   <td>位置</td>
-                  <td>項目 </td>
+                  <td>物料 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>marketingCloudId</td>
+                  <td>營銷雲ID</td>
                   <td>Marketing CloudID</td>
                   <td>字串(256)</td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>mobileApp</td>
-                  <td>行動應用程式</td>
-                  <td>項目 </td>
+                  <td>移動應用</td>
+                  <td>Mobile應用</td>
+                  <td>物料 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>mobilePhone</td>
+                  <td>手機</td>
                   <td>行動裝置</td>
                   <td>字串(32)</td>
                   <td> </td>
@@ -130,13 +130,13 @@ ht-degree: 9%
                <tr>
                   <td>nms_recipient</td>
                   <td>設定檔</td>
-                  <td>項目 </td>
+                  <td>物料 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>nms_rtEvent</td>
-                  <td>事件</td>
-                  <td>項目 </td>
+                  <td>Event</td>
+                  <td>物料 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -146,55 +146,55 @@ ht-degree: 9%
                   <td> </td>
                </tr>
                <tr>
-                  <td>phone</td>
+                  <td>電話</td>
                   <td>電話</td>
                   <td>字串(32)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>證明</td>
-                  <td>校樣</td>
-                  <td>布林值 </td>
+                  <td>證明</td>
+                  <td>布爾 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>pushNotification</td>
-                  <td>推播通知</td>
+                  <td>推送通知</td>
                   <td>字串(255)</td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>registrationToken</td>
                   <td>註冊令牌</td>
+                  <td>註冊權杖</td>
                   <td>字串(256)</td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>sampleData</td>
-                  <td>範例資料</td>
-                  <td>布林值 </td>
+                  <td>示例資料</td>
+                  <td>示例資料</td>
+                  <td>布爾 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>sms</td>
+                  <td>簡訊</td>
                   <td>行動裝置</td>
                   <td>字串(255)</td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>stateLink(state)</td>
-                  <td>狀態</td>
+                  <td>stateLink（狀態）</td>
+                  <td>州</td>
                   <td>連結 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>targetData</td>
-                  <td>擴充功能</td>
+                  <td>目標資料</td>
+                  <td>擴展</td>
                   <td>字串 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>縮圖</td>
+                  <td>縮略圖</td>
                   <td>縮圖</td>
                   <td>字串(255)</td>
                   <td> </td>
@@ -208,14 +208,14 @@ ht-degree: 9%
                <tr>
                   <td>陷阱</td>
                   <td>補漏白</td>
-                  <td>布林值 </td>
+                  <td>布爾 </td>
                   <td> </td>
                </tr>
             </table>
 
 ## 篩選器
 
-依事件類型(byEventType)
+按事件類型（按EventType）
 
 <table>
         <tr>
@@ -223,12 +223,12 @@ ht-degree: 9%
         <th>類型</th>
         </tr>
         <tr>
-        <td>eventType</td>
+        <td>事件類型</td>
         <td>字串</td>
         </tr>
     </table>
 
-按名稱或標籤(byText)
+按名稱或標籤（按文本）
 
 <table>
         <tr>
@@ -236,12 +236,12 @@ ht-degree: 9%
         <th>類型</th>
         </tr>
         <tr>
-        <td>文字</td>
+        <td>文本</td>
         <td>字串</td>
         </tr>
     </table>
 
-依使用方式（依使用方式）
+按用法（按用法）
 
 <table>
         <tr>
@@ -250,19 +250,19 @@ ht-degree: 9%
         </tr>
         <tr>
         <td>陷阱</td>
-        <td>布林值</td>
+        <td>布爾</td>
         </tr>
         <tr>
-        <td>emailRendering</td>
-        <td>布林值</td>
+        <td>電子郵件呈現</td>
+        <td>布爾</td>
         </tr>
         <tr>
         <td>證明</td>
-        <td>布林值</td>
+        <td>布爾</td>
         </tr>
     </table>
 
-測試設定檔（設定檔）
+Test配置檔案（配置檔案）
 
 <table>
     <tr>
@@ -270,7 +270,7 @@ ht-degree: 9%
     <th>類型</th>
     </tr>
     <tr>
-    <td>seedMember</td>
+    <td>種子成員</td>
     <td>連結</td>
     </tr>
 </table>

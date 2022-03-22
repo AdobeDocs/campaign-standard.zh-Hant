@@ -1,71 +1,71 @@
 ---
-title: DataModel
-description: 了解資料模型
+title: DataModel取消訂閱事件
+description: 瞭解資料模型
 audience: developing
 content-type: reference
 feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 508361d1-6a0b-4476-a058-4162fb3e8d5e
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 5%
+source-wordcount: '55'
+ht-degree: 18%
 
 ---
 
 # 取消訂閱事件(nms:rtEvent)
 
-## 物件說明
+## 對象描述
 
 <table>
                <tr>
                   <th>名稱</th>
-                  <th>唯讀</th>
+                  <th>只讀</th>
                   <th>類型</th>
-                  <th>必填</th>
+                  <th>必需</th>
                </tr>
                <tr>
                   <td>PKey</td>
-                  <td>False</td>
+                  <td>假</td>
                   <td>字串</td>
-                  <td>False</td>
+                  <td>假</td>
                </tr>
                <tr>
                   <td>ctx</td>
-                  <td>False</td>
-                  <td>項目</td>
-                  <td>False</td>
+                  <td>假</td>
+                  <td>物料</td>
+                  <td>假</td>
                </tr>
                <tr>
                   <td>電子郵件</td>
-                  <td>False</td>
+                  <td>假</td>
                   <td>字串</td>
-                  <td>False</td>
+                  <td>假</td>
                </tr>
                <tr>
-                  <td>emailFormat</td>
-                  <td>False</td>
-                  <td>分項清單</td>
-                  <td>False</td>
+                  <td>電子郵件格式</td>
+                  <td>假</td>
+                  <td>枚舉</td>
+                  <td>假</td>
                </tr>
                <tr>
-                  <td>mobilePhone</td>
-                  <td>False</td>
+                  <td>手機</td>
+                  <td>假</td>
                   <td>字串</td>
-                  <td>False</td>
+                  <td>假</td>
                </tr>
                <tr>
-                  <td>serverUrl</td>
-                  <td>True</td>
+                  <td>伺服器URL</td>
+                  <td>真</td>
                   <td>字串</td>
-                  <td>False</td>
+                  <td>假</td>
                </tr>
             </table>
 
 ## 篩選器
 
-byEmail
+按電子郵件
 
 <table>
     <tr>
@@ -78,7 +78,7 @@ byEmail
     </tr>
 </table>
 
-byStatusOrType
+按狀態或類型
 
 <table>
         <tr>
@@ -87,10 +87,10 @@ byStatusOrType
         </tr>
         <tr>
         <td>狀態</td>
-        <td>分項清單</td>
+        <td>枚舉</td>
         </tr>
         <tr>
-        <td>type</td>
+        <td>類型</td>
         <td>字串</td>
         </tr>
     </table>

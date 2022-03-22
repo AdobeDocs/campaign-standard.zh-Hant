@@ -1,14 +1,14 @@
 ---
-title: 疑難排解
+title: API故障排除
 description: 瞭解與常見問題相關的Campaign StandardAPI的更多資訊
 feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 404356cd-021f-4739-a88f-b8b1b79e19bc
-source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 0%
+source-wordcount: '357'
+ht-degree: 1%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 0%
 }
 ```
 
-* **在請求Adobe.io時，您會得到{&quot;code&quot;:500, &quot;message&quot;:&quot;Aoh。 出了問題。 請檢查URI，然後重試。&quot;}**
+* **在請求Adobe.io時，您會得到{&quot;code&quot;:500, &quot;message&quot;:&quot;Aoh。 發生錯誤. 請檢查URI，然後重試。&quot;}**
 
 Adobe.io聲明無效的URI:您請求的URI很可能無效。 在Adobe.io上，選擇「市場活動」服務時，您將得到一個具有可能organization_id清單的選取器。 您需要檢查您選擇的是否是您在URL中輸入的。
 

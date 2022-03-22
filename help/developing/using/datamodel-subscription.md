@@ -1,22 +1,22 @@
 ---
-title: DataModel
-description: 了解資料模型
+title: DataModel訂閱事件
+description: 瞭解資料模型
 audience: developing
 content-type: reference
 feature: Data Model
 role: Developer
 level: Experienced
 exl-id: cf0fac4e-59fd-4d6e-a411-41361f45938d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 6%
+source-wordcount: '79'
+ht-degree: 13%
 
 ---
 
 # 訂閱事件(nms:rtEvent)
 
-## 物件說明
+## 對象描述
 
 <table>
     <tr>
@@ -27,14 +27,14 @@ ht-degree: 6%
     </tr>
     <tr>
         <td>PKey</td>
-        <td>主要資源ID</td>
+        <td>主資源ID</td>
         <td>字串 </td>
         <td> </td>
     </tr>
     <tr>
         <td>ctx</td>
-        <td>事件內容</td>
-        <td>項目 </td>
+        <td>事件上下文</td>
+        <td>物料 </td>
         <td> </td>
     </tr>
     <tr>
@@ -44,33 +44,33 @@ ht-degree: 6%
         <td> </td>
     </tr>
     <tr>
-        <td>emailFormat</td>
+        <td>電子郵件格式</td>
         <td>電子郵件格式</td>
         <td>枚舉（位元組） </td>
         <td>
             <ul>
             <li>文本 — 文本 — 1</li>
             <li>HTML- html - 2</li>
-            <li>無效值 — __Invalid_value__ - __Invalid_value__</li>
+            <li>無效值 — __Invalid_value_ - __Invalid_value__</li>
             <li>未知 — 未知 — 0</li>
             </ul>
         </td>
     </tr>
     <tr>
-        <td>eventHistoId</td>
-        <td>封存的事件ID</td>
+        <td>事件HistoId</td>
+        <td>存檔事件ID</td>
         <td>整數 </td>
         <td> </td>
     </tr>
     <tr>
-        <td>mobilePhone</td>
-        <td>行動號碼</td>
+        <td>手機</td>
+        <td>Mobile數</td>
         <td>字串(32)</td>
         <td> </td>
     </tr>
     <tr>
-        <td>serverUrl</td>
-        <td>ServerUrl</td>
+        <td>伺服器URL</td>
+        <td>伺服器URL</td>
         <td>字串 </td>
         <td> </td>
     </tr>
@@ -78,7 +78,7 @@ ht-degree: 6%
 
 ## 篩選器
 
-依電子郵件（依電子郵件）
+按電子郵件（按電子郵件）
 
 <table>
     <tr>
@@ -91,7 +91,7 @@ ht-degree: 6%
     </tr>
 </table>
 
-按狀態或類型（按狀態或類型）
+按狀態或類型（按StatusOrType）
 
 <table>
         <tr>
@@ -100,10 +100,10 @@ ht-degree: 6%
         </tr>
         <tr>
         <td>狀態</td>
-        <td>分項清單</td>
+        <td>枚舉</td>
         </tr>
         <tr>
-        <td>type</td>
+        <td>類型</td>
         <td>字串</td>
         </tr>
     </table>

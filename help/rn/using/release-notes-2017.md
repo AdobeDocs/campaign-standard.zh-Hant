@@ -318,15 +318,15 @@ _推播通知_
    <td> Mobile應用程式渠道已經添加到Adobe Campaign的事務性消息傳送功能中。 事務性消息現在支援三個通道：電子郵件、簡訊和推送通知。<br /> 有關詳細資訊，請參閱 <a href="../../channels/using/transactional-push-notifications.md">詳細文檔</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 定期推送通知<br /> </td> 
-   <td> 您現在可以在工作流中配置定期推送通知。 在客戶希望定期更新（如每週提醒）以簽出新內容或促銷時，您可以使用定期推送通知。<br /> 有關詳細資訊，請參閱 <a href="../../automating/using/push-notification-delivery.md">詳細文檔</a>。<br /> </td> 
+   <td> Recurring push notifications<br /> </td> 
+   <td> 您現在可以在工作流中配置定期推送通知。 You can use recurring push notifications in situations where your customers expect periodic updates like weekly reminders to check out new content or promotions.<br /> For more information, refer to the <a href="../../automating/using/push-notification-delivery.md">detailed documentation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Amazon簡單儲存服務(S3)連接器<br /> </td> 
-   <td> Amazon簡單儲存服務(S3)連接器現在可用於將資料導入或導出到Adobe Campaign。 可以在工作流活動中設定。 配置在外部帳戶中完成。<br /> 有關詳細資訊，請參閱 <a href="../../administration/using/external-accounts.md">詳細文檔</a>。<br /> </td> 
+   <td> Amazon簡單儲存服務(S3)連接器現在可用於將資料導入或導出到Adobe Campaign。 It can be set up in a workflow activity. The configuration is done in an external account.<br /> For more information, refer to the <a href="../../administration/using/external-accounts.md">detailed documentation</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Dreamweaver整合<br /> </td> 
+   <td> Dreamweaver integration live<br /> </td> 
    <td> Adobe Campaign和Dreamweaver的融合現在已經開始。 它現在與官方上一版Dreamweaver(17.0.2)合作。<br /> 這需要安裝Adobe Campaign整合擴展。 有關詳細資訊，請參閱 <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=zh-Hant">視頻</a>。<br /> </td> 
   </tr> 
  </tbody> 
@@ -418,7 +418,7 @@ _推播通知_
      <li> 無提示通知 </li> 
      <li> 互動式推送 </li> 
      <li> 豐富的內容支援 </li> 
-     <li> 負載大小計算器 </li> 
+     <li> Payload size calculator </li> 
     </ul> 如需詳細資訊，請參閱<a href="../../channels/using/about-push-notifications.md">詳細文件</a>以瞭解詳情。<br /> </td> 
   </tr> 
   <tr> 
@@ -435,7 +435,7 @@ _推播通知_
   </tr> 
   <tr> 
    <td> 興趣點資料<br /> </td> 
-   <td> 興趣點資料整合了Adobe Campaign和Adobe Analytics的Mobile。 品牌可以從用戶的移動位置收集資料 <strong>興趣點</strong>  — 用戶開啟品牌應用時。 這使品牌能夠利用Adobe Campaign的工作流，以便根據用戶的位置發送個性化的消息。 此渠道利用Mobile核心服務的SDK。<br /> 請注意，使用此功能需要Mobile分析，這是付費解決方案。<br /> 有關詳細資訊，請參閱 <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">詳細文檔</a>。<br /> </td> 
+   <td> 興趣點資料整合了Adobe Campaign和Adobe Analytics的移動業務。 品牌可以從用戶的移動位置收集資料 <strong>興趣點</strong>  — 用戶開啟品牌應用時。 這使品牌能夠利用Adobe Campaign的工作流，以便根據用戶的位置發送個性化的消息。 此通道利用移動核心服務的SDK。<br /> 請注意，使用此功能需要Analytics for Mobile，這是付費解決方案。<br /> 有關詳細資訊，請參閱 <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">詳細文檔</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> REST API<br /> </td> 
@@ -514,7 +514,7 @@ _常規_
 * 的 **[!UICONTROL Access authorization]** 選項已返回到登錄頁屬性。
 * 修復了可能導致舊影像被渲染而不是正確影像的問題。 如果源映像已在傳遞或登錄頁的內容定義中更新，則會發生此情況。
 * 修復了阻止用戶編輯現有SFTP外部帳戶中某些欄位的問題。
-* 已修復多個UI問題。 例如，用戶現在可以編輯配置檔案屬性並保存修改，而不會遇到UI問題。
+* Fixed several UI issues. 例如，用戶現在可以編輯配置檔案屬性並保存修改，而不會遇到UI問題。
 
 _電子郵件和簡訊_
 

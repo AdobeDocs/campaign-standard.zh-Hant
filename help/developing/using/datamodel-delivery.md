@@ -240,13 +240,13 @@ ht-degree: 13%
                      <ul>
                         <li>事務性電子郵件 — 電子郵件閃電 — 60</li>
                         <li>傳真 — 傳真 — 4</li>
-                        <li>Mobile社簡訊 — 1</li>
+                        <li>移動(SMS)- sms - 1</li>
                         <li>定期電子郵件 — 電子郵件刷新 — 30</li>
                         <li>直郵 — 紙 — 3</li>
                         <li>電話 — 電話 — 2</li>
                         <li>其他 — 其他 — 120</li>
                         <li>定期SMS - smsRefresh - 31</li>
-                        <li>Mobile應用程式 — pushNotification - 40</li>
+                        <li>移動應用程式 — pushNotification - 40</li>
                         <li>事務性SMS - smsLightning - 61</li>
                         <li>電子郵件 — 電子郵件 — 0</li>
                         <li>無效值 — __Invalid_value_ - __Invalid_value__</li>
@@ -359,11 +359,11 @@ ht-degree: 13%
                   <td>
                      <ul>
                         <li>傳真 — 傳真 — 4</li>
-                        <li>Mobile社簡訊 — 1</li>
+                        <li>移動(SMS)- sms - 1</li>
                         <li>電子郵件 — 電子郵件 — 0</li>
                         <li>電話 — 電話 — 2</li>
                         <li>直郵 — 紙 — 3</li>
-                        <li>Mobile應用程式 — pushNotification - 40</li>
+                        <li>移動應用程式 — pushNotification - 40</li>
                         <li>其他 — 其他 — 120</li>
                         <li>無效值 — __Invalid_value_ - __Invalid_value__</li>
                      </ul>
@@ -467,7 +467,7 @@ ht-degree: 13%
                </tr>
                <tr>
                   <td>sms參數</td>
-                  <td>SMS參數</td>
+                  <td>簡訊參數</td>
                   <td>物料 </td>
                   <td> </td>
                </tr>
@@ -490,7 +490,7 @@ ht-degree: 13%
                         <li>失敗 — 失敗 — 87</li>
                         <li>正在進行 — 已啟動 — 55</li>
                         <li>目標掛起 — targetPrepPending - 11</li>
-                        <li>Personalization待處理 — messagePrepPending - 21</li>
+                        <li>個性化掛起 — messagePrepPending - 21</li>
                         <li>暫停 — 暫停 — 75</li>
                         <li>編輯 — 版本 — 0</li>
                         <li>已完成 — 已完成 — 95</li>
@@ -498,7 +498,7 @@ ht-degree: 13%
                         <li>消息已定版 — 消息就緒 — 25</li>
                         <li>Personalization或計數失敗 — preparationError - 37</li>
                         <li>已停止 — 已取消 — 85</li>
-                        <li>Personalization正在進行 — 消息準備 — 22</li>
+                        <li>正在個性化 — 消息準備 — 22</li>
                         <li>目標就緒 — 目標就緒 — 15</li>
                         <li>無效值 — __Invalid_value_ - __Invalid_value__</li>
                         <li>正在進行的仲裁 — 目標</li>

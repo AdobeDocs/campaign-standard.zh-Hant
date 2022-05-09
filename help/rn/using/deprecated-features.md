@@ -119,7 +119,7 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
    <td> <p> 啟動Campaig 20.1版本時，不建議使用SDK v4。 <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">進一步瞭解</a>。</p><br/>
    <p>的 <a href="https://aep-sdks.gitbook.io/docs/">Adobe Experience Platform移動SDK</a> （以前稱為v5）現在專門支援即將推出的Adobe Experience Cloud特性和功能。</p>
    <p>2021年8月31日之後，客戶可以繼續下載和使用版本4的SDK，但是將不提供客戶服務支援或訪問論壇。</p>
-   <p>瞭解如何從SDK v4遷移到Adobe Experience PlatformMobileSDK <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">此頁</a>。</p></br>
+   <p>瞭解如何從SDK v4遷移到Adobe Experience Platform移動SDK <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">此頁</a>。</p></br>
      </td> 
   </tr> 
  </tbody> 

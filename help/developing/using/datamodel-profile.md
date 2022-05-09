@@ -556,7 +556,7 @@ ht-degree: 4%
 <th>類型</th>
 </tr>
 <tr>
-<td>交貨</td>
+<td>配送</td>
 <td>連結</td>
 </tr>
 </table>
@@ -569,7 +569,7 @@ ht-degree: 4%
 <th>類型</th>
 </tr>
 <tr>
-<td>交貨</td>
+<td>配送</td>
 <td>連結</td>
 </tr>
 </table>
@@ -595,7 +595,7 @@ ht-degree: 4%
 <th>類型</th>
 </tr>
 <tr>
-<td>交貨</td>
+<td>配送</td>
 <td>連結</td>
 </tr>
 </table>

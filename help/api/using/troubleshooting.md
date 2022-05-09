@@ -5,9 +5,9 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 404356cd-021f-4739-a88f-b8b1b79e19bc
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+source-git-commit: b65bf28565c25072c6a95cebdb999ce38a2e2e1a
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '355'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 * **轉到Adobe.io控制台時，將出現以下錯誤：&quot;Adobe I/O控制台僅可用於選擇企業帳戶的成員。 如果您認為您應該擁有訪問權限，請與系統管理員聯繫。」**
 
-您只能為您管理的IMS組織建立API密鑰。 如果顯示此消息，並且您想建立API密鑰，並且您想詢問IMS組織的管理員之一。
+您只能為您管理的組織建立API密鑰。 如果顯示此消息，並且您要建立API密鑰，並且要詢問組織的管理員之一。
 
 * **在請求Adobe.io時，您會得到{ &quot;error_code&quot;:&quot;403023&quot;,&quot;message&quot;:&quot;配置檔案無效&quot;}**
 

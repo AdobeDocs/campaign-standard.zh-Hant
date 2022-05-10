@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
+source-git-commit: 47d0f4c42d84e2107da65fae5528af0705f2165f
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 64%
+source-wordcount: '868'
+ht-degree: 63%
 
 ---
 
@@ -48,7 +48,7 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
   <tr> 
    <td> <p> 開始Campaign Standard21.3版本時，不建議與受眾目標服務整合。 </p>
    <p>對於新的實施，您無法再將受眾目標服務與Adobe Campaign Standard整合。 但是，您可以通過「來源」和「目的地」來整合「活動」和「Adobe Experience Platform」。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=en">了解更多資訊</a>。</p>
-     <em>目標移除日期：2022 年</em></p>
+     <em>目標刪除日期：2022年9月</em></p>
      </td> 
   </tr> 
  </tbody> 
@@ -64,7 +64,7 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
   <tr> 
    <td> <p> 開始Campaign Standard21.3版，不建議與Adobe Experience Platform資料連接器整合。 </p>
    <p>對於新的實施，您無法再將Adobe Experience Platform資料連接器與Adobe Campaign Standard整合。 但是，您可以通過「來源」和「目的地」來整合「活動」和「Adobe Experience Platform」。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=en">了解更多資訊</a>。</p>
-     <em>目標移除日期：2022 年</em></p>
+     <em>目標刪除日期：2022年9月</em></p>
      </td> 
   </tr> 
  </tbody> 
@@ -82,7 +82,7 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
    <td> <p>自 Campaign 19.0 版本以來，已過時舊版電子郵件編輯器。使用 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">市場活動電子郵件設計器</a> 建立和個性化您的電子郵件內容。 </p></br>
    <p>請參閱<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">本節</a>，瞭解如何針對新的編輯器調整您的電子郵件範本。</p></br>
   <p> 
-  <em>目標移除日期：2022 年</em></p>
+  <em>目標移除日期：2022 年底</em></p>
    </td> 
   </tr> 
  </tbody> 

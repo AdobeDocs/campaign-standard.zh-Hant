@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: bdcbde7fbc460eb3a52e43af5c2050ea69f8d115
+source-git-commit: e2de69844275a9a97f609c7c76cce290c68d09ac
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 31%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 31%
 
 ## 發行版本 22.2 – 2022 年 6 月 {#rn-2022}
 
-**功能改進**
+**改進**
 
 * **Adobe通知服務** -Adobe通知服務附帶活動，使Experience Cloud解決方案能夠向Experience Cloud中的用戶發出提醒，提醒他們瞭解哪些活動對他們很重要。 從22.2版開始，用戶體驗得到了改善：通知按優先順序排列，產品生成的通知與Adobe狀態公告分開。 此外，當通知指的是特定的工作流時，您現在可以直接從電子郵件或產品內通知訪問相應的工作流。  有關Adobe Campaign通知的詳細資訊，請參閱 [Adobe Campaign通知](../../administration/using/sending-internal-notifications.md)。
 

@@ -26,10 +26,10 @@ ht-degree: 0%
 
 **改進**
 
-* **Adobe通知服務** -Adobe通知服務附帶活動，使Experience Cloud解決方案能夠向Experience Cloud中的用戶發出提醒，提醒他們瞭解哪些活動對他們很重要。 從22.2版開始，用戶體驗得到了改善：通知按優先順序排列，產品生成的通知與Adobe狀態公告分開。 此外，當通知指的是特定的工作流時，您現在可以直接從電子郵件或產品內通知訪問相應的工作流。  有關Adobe Campaign通知的詳細資訊，請參閱 [Adobe Campaign通知](../../administration/using/sending-internal-notifications.md)。
+* **Adobe Notification Service** - Adobe Notification Service 促銷活動，允許 Experience Cloud 解決方案提醒 Experience Cloud 的使用者注意對他們來說很重要的活動。從 22.2 版開始，改善使用者體驗：依照優先順序通知，產品產生的通知與 Adobe 狀態公告分開。 此外，當特定的工作流程通知時，您可以直接從電子郵件或產品通知存取對應的工作流程。  如需 Adobe Campaign 通知的詳細資訊，請參閱 [Adobe Campaign 通知](../../administration/using/sending-internal-notifications.md)。
 
 
-**安全升級**
+**安全性升級**
 
-* 此版本附帶了安全升級活動，以緩解Apache漏洞並使實例環境更加安全。 [深入瞭解](https://experienceleague.adobe.com/docs/campaign-classic/using/technotes/technote-migration/acc-apache-upgrade.html){target=&quot;_blank&quot;}.
+* 此版本附帶了安全升級活動，降低 Apache 弱點使執行個體環境更加安全。 [深入瞭解](https://experienceleague.adobe.com/docs/campaign-classic/using/technotes/technote-migration/acc-apache-upgrade.html?lang=zh-Hant){target=&quot;_blank&quot;}.
 

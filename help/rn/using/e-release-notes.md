@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 75bc042701ac29d2e525884dc929063147c1cdce
+source-git-commit: b00a0b9e4536d388ccfef3cca0315cabd0d99670
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 37%
+source-wordcount: '468'
+ht-degree: 30%
 
 ---
 
@@ -24,11 +24,18 @@ ht-degree: 37%
 
 ## 發行版本 22.2 – 2022 年 6 月 {#rn-2022}
 
-**改進**
+**功能改進**
 
 * **Adobe Notification Service** - Adobe Notification Service 促銷活動，允許 Experience Cloud 解決方案提醒 Experience Cloud 的使用者注意對他們來說很重要的活動。從 22.2 版開始，改善使用者體驗：依照優先順序通知，產品產生的通知與 Adobe 狀態公告分開。 此外，當特定的工作流程通知時，您可以直接從電子郵件或產品通知存取對應的工作流程。  如需 Adobe Campaign 通知的詳細資訊，請參閱 [Adobe Campaign 通知](../../administration/using/sending-internal-notifications.md)。
 
 * **工作流啟動中的優化** -Adobe添加了一項新功能，可以調整同時啟動的工作流數。 這將有助於防止可能導致服務中斷或停機的CPU尖峰。 Adobe將在22.2版後啟用它。 客戶沒有關於此問題的其他措施項。
+
+* **輔助功能** -Adobe為提高應用程式的整體易用性做了許多輔助功能修復。 這些功能目前僅針對一組早期採用者啟用，並將在ACS 22.3版中向所有客戶推廣。 改進輔助功能的示例包括：
+
+   * 確保每個螢幕上有可聚焦元素的可見焦點指示器
+   * 建立頁面地標以便更輕鬆地導航
+   * 添加許多控制項的名稱、角色、值和狀態
+   * 更正主螢幕上動態焦點順序遇到的問題
 
 **安全性升級**
 

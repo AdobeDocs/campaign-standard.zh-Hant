@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '1245'
-ht-degree: 5%
+source-wordcount: '1286'
+ht-degree: 4%
 
 ---
 
@@ -19,9 +19,11 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
->推送通知和In-App實現必須由專家用戶執行。 要獲得幫助，請與您的Adobe客戶主管或專業服務合作夥伴聯繫。
+> Adobe Experience Platform Launch已被改名為Adobe Experience Platform的一套資料收集技術。 因此，在產品文檔中已進行了一些術語更改。 請參閱 [下文](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html) 的下一頁。
 
-要使用Experience PlatformSDK應用程式發送推送通知和In-App消息，必須在Adobe Experience PlatformExperience PlatformExperience Platform Launch中設定移動應用程式，並在Adobe Campaign配置。
+請注意，推送通知和In-App實現必須由專家用戶執行。 要獲得幫助，請與您的Adobe客戶主管或專業服務合作夥伴聯繫。
+
+要使用Experience PlatformSDK應用程式發送推送通知和In-App消息，必須在資料收集UI中設定移動應用程式並在Adobe Campaign中配置。
 
 設定移動應用程式後，您可以檢索它收集的PII資料，以從資料庫建立或更新配置檔案。 有關詳細資訊，請參閱本節： [基於移動應用資料建立和更新簡檔資訊](../../channels/using/updating-profile-with-mobile-app-data.md)。
 
@@ -36,32 +38,32 @@ ht-degree: 5%
 
    如果沒有，請與您的客戶團隊聯繫。
 
-1. 檢查您的用戶是否在Adobe Campaign Standard和Experience Platform Launch中擁有必要的權限。
-   * 在Adobe Campaign Standard，確保IMS用戶是標準用戶和管理員產品配置檔案的一部分。 此步驟允許用戶登錄到Adobe Campaign Standard，導航到Experience PlatformSDK移動應用頁面，並查看您在Experience Platform Launch中建立的移動應用屬性。
+1. 檢查您的用戶是否在Adobe Campaign Standard和Adobe Experience Platform擁有必要的權限。
+   * 在Adobe Campaign Standard，確保IMS用戶是標準用戶和管理員產品配置檔案的一部分。 此步驟允許用戶登錄到Adobe Campaign Standard，導航到Experience PlatformSDK移動應用頁面，並查看在資料收集UI中建立的移動應用屬性。
 
-   * 在Experience Platform Launch中，確保您的IMS用戶是Experience Platform Launch產品配置檔案的一部分。
-此步驟允許用戶登錄到Experience Platform Launch以建立和查看屬性。 有關Experience Platform Launch中產品配置檔案的詳細資訊，請參閱建立產品配置檔案。 在產品配置檔案中，不應對公司或屬性設定任何權限，但用戶仍應能夠登錄。
+   * 在「資料收集UI」中，確保您的IMS用戶是Experience Platform Launch產品配置檔案的一部分。
+此步驟允許用戶登錄到資料收集UI以建立和查看屬性。 有關資料收集UI中產品配置檔案的詳細資訊，請參閱 [建立您的產品配置檔案](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html?lang=en#gain-admin-rights-for-a-tags-product-profile)。 在產品配置檔案中，不應對公司或屬性設定任何權限，但用戶仍應能夠登錄。
 
    要完成其他任務，如安裝擴展、發佈應用、配置環境等，您需要在產品配置檔案中設定權限。
 
-1. 在Experience Platform Launch中，建立 **[!UICONTROL Mobile property]**。 如需詳細資訊，請參閱[設定行動裝置屬性](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)。
+1. 在資料收集UI中，建立 **[!UICONTROL Mobile property]**。 如需詳細資訊，請參閱[設定行動裝置屬性](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)。
 
-1. 在Experience Platform Launch中，按一下 **[!UICONTROL Extensions]** 頁籤，轉到 **[!UICONTROL Catalog]**，並搜索 **[!UICONTROL Adobe Campaign Standard]** 擴展。 有關詳細資訊，請參見 [Adobe Campaign Standard](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard)。
+1. 在資料收集UI中，按一下 **[!UICONTROL Extensions]** 頁籤，轉到 **[!UICONTROL Catalog]**，並搜索 **[!UICONTROL Adobe Campaign Standard]** 擴展。 有關詳細資訊，請參見 [Adobe Campaign Standard](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard)。
 
 1. 要支援Campaign Standard中的位置使用案例，請安裝 **[!UICONTROL Places]** 擴展和 **[!UICONTROL Places Monitor]** 擴展。
-   * 安裝 **[!UICONTROL Places]** Experience Platform Launch。 請參閱此 [頁](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html)。
-   * 安裝 **[!UICONTROL Places Monitor]** Experience Platform Launch。 請參閱此 [頁](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html)
+   * 安裝 **[!UICONTROL Places]** 資料收集UI中的擴展。 請參閱此 [頁](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html)。
+   * 安裝 **[!UICONTROL Places Monitor]** 資料收集UI中的擴展。 請參閱此 [頁](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html)
 
-1. 在　Adobe Campaign Standard　中，設定您在　Experience Platform Launch　中建立的行動裝置屬性。請參閱 [在Adobe Campaign設定您的Adobe Experience Platform Launch應用程式](../../administration/using/configuring-a-mobile-application.md#set-up-campaign)。
+1. 在Adobe Campaign Standard，配置在資料收集UI中建立的移動屬性。 請參閱 [在Adobe Campaign設定您的Adobe Experience Platform Launch應用程式](../../administration/using/configuring-a-mobile-application.md#set-up-campaign)。
 
 1. 將特定通道的設定新增至行動應用程式設定。如需詳細資訊，請參閱[ Adobe Campaign 中的通道特定應用程式設定](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)。
 
-1. 如果需要，可以刪除Experience Platform Launch屬性。
-有關詳細資訊，請參見 [刪除Experience Platform Launch應用程式](../../administration/using/configuring-a-mobile-application.md#delete-app)。
+1. 如果需要，可以刪除標籤屬性。
+有關詳細資訊，請參見 [刪除應用程式](../../administration/using/configuring-a-mobile-application.md#delete-app)。
 
 ## 從啟動技術工作流同步移動應用AEPSDK {#aepsdk-workflow}
 
-在Experience Platform Launch中建立和配置移動屬性後， **[!UICONTROL Sync Mobile app AEPSDK from Launch]** 技術工作流現在將同步在Adobe Campaign Standard導入的Adobe啟動移動屬性。
+在資料收集UI中建立和配置移動屬性後， **[!UICONTROL Sync Mobile app AEPSDK from Launch]** 技術工作流現在將同步在Adobe Campaign Standard導入的標籤移動屬性。
 
 預設情況下，技術工作流每15分鐘啟動一次。 如果需要，可以手動重新啟動它：
 
@@ -76,13 +78,13 @@ ht-degree: 5%
 
    ![](assets/launch_11.png)
 
-您的工作流現在將重新啟動並同步在Adobe Campaign Standard導入的Adobe啟動移動屬性。
+您的工作流現在將重新啟動並同步在Adobe Campaign Standard導入的標籤移動屬性。
 
-## 在Adobe Campaign設定您的Adobe Experience Platform Launch應用程式 {#set-up-campaign}
+## 在Adobe Campaign設定應用程式 {#set-up-campaign}
 
-要在市場活動中使用Experience Platform Launch移動屬性，您還必須在Adobe Campaign配置此屬性。 在Adobe Campaign，確保IMS用戶是標準用戶和管理員產品配置檔案的一部分。
+要在市場活動中使用標籤移動屬性，您還必須在Adobe Campaign配置此屬性。 在Adobe Campaign，確保IMS用戶是標準用戶和管理員產品配置檔案的一部分。
 
-您必須等待技術工作流運行並將「啟動」移動屬性同步到Adobe Campaign。 然後，您可以在Adobe Campaign配置它。
+您必須等待技術工作流運行並將標籤移動屬性同步到Adobe Campaign。 然後，您可以在Adobe Campaign配置它。
 
 有關從「啟動」技術工作流同步Mobile應用AEPSDK的詳細資訊，請參閱此 [節](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow)。
 
@@ -94,14 +96,14 @@ ht-degree: 5%
 
    ![](assets/launch.png)
 
-1. 選擇在Experience Platform Launch中建立的移動應用程式。
+1. 選擇在資料收集UI中建立的移動應用程式。
 其 **[!UICONTROL Property Status]** 應該 **[!UICONTROL Ready to configure]**。
 
    >[!NOTE]
    >
-   >預設情況下，要檢索在Adobe啟動中建立的移動應用程式清單，Campaign Standard使用NmsServer_URL選項中定義的值來查找匹配的屬性。
+   >預設情況下，要檢索在資料收集UI中建立的移動應用程式清單，Campaign Standard使用NmsServer_URL選項中定義的值來查找匹配的屬性。
    >
-   >在某些情況下，移動應用程式的市場活動終結點可能不同於NmsServer_URL中定義的終結點。 在這種情況下，在Launch_URL_Campign選項中定義終結點。 市場活動將使用此選項中的值在Adobe啟動中查找匹配屬性。
+   >在某些情況下，移動應用程式的市場活動終結點可能不同於NmsServer_URL中定義的終結點。 在這種情況下，在 `Launch_URL_Campaign` 的雙曲餘切值。 市場活動將使用此選項中的值在資料收集UI中查找匹配屬性。
 
    ![](assets/launch_4.png)
 
@@ -111,15 +113,15 @@ ht-degree: 5%
 
    ![](assets/launch_12.png)
 
-1. 要在市場活動和Experience Platform Launch之間建立連接，請按一下 **[!UICONTROL Save]**。
+1. 要在Adobe Experience Platform的「活動」和標籤之間建立連接，請按一下 **[!UICONTROL Save]**。
 
 1. 驗證移動應用的狀態是否已從 **[!UICONTROL Ready to Configure]** 至 **[!UICONTROL Configured]**。
 
-   當「Experience Platform Launch市場活動」擴展顯示已成功設定密鑰時，您還可以驗證是否已在市場活動中成功設定了屬性。
+   當「市場活動」擴展顯示已成功設定密鑰時，您還可以驗證是否在「市場活動」中成功設定了屬性。
 
    ![](assets/launch_5.png)
 
-1. 要使此配置生效，需要以Experience Platform Launch發佈更改。
+1. 要使此配置生效，需要在資料收集UI中發佈更改。
 
    有關詳細資訊，請參見 [發佈配置](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-configuration)。
 
@@ -129,7 +131,7 @@ ht-degree: 5%
 
 1. 從高級菜單中，選擇 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]**。
 
-1. 選擇在Experience Platform Launch中建立和配置的移動應用程式。
+1. 選擇在資料收集UI中建立和配置的移動應用程式。
 
 1. 在 **[!UICONTROL Mobile application properties]** 頁籤，您可以開始添加在移動應用程式中可用於In-App消息的事件。
 
@@ -157,15 +159,13 @@ ht-degree: 5%
 
 1. 按一下 **[!UICONTROL Mobile application subscribers]** 頁籤，查看訂閱伺服器清單以及有關這些訂閱伺服器的其他資訊，例如，他們是否選擇不使用您的通知。
 
-## 刪除您的Adobe Experience Platform Launch應用程式 {#delete-app}
-
-無法撤消刪除Experience Platform Launch應用程式。
+## 刪除應用程式 {#delete-app}
 
 >[!CAUTION]
 >
->無法撤消刪除Experience Platform Launch應用程式。
+>無法刪除應用程式。
 
-要刪除Experience Platform Launch應用程式，請完成中的步驟 [刪除移動屬性](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#deleting-mobile-properties-in-experience-platform-launch)。
+要刪除應用程式，請完成中的步驟 [刪除移動屬性](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#deleting-mobile-properties-in-experience-platform-launch)。
 
 刪除應用程式後，在Adobe Campaign，驗證應用程式的屬性狀態是否已正確更新為「在啟動時刪除」。
 

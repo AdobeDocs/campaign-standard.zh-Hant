@@ -8,10 +8,10 @@ context-tags: delivery,triggers,back
 feature: In App
 role: User
 exl-id: 986646b1-42d5-4169-ac38-d8e612a9a6d3
-source-git-commit: 462ebaf8e8f1f056aa92118226ef77aea37b972b
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
 source-wordcount: '443'
-ht-degree: 100%
+ht-degree: 87%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 應用程式內訊息傳送是傳訊通道，可讓您在使用者於行動應用程式內活動時顯示訊息。此訊息類型免費提供傳送至使用者電話通知中心的推播通知。如需推播通知頻道的詳細資訊，請參閱[本區段](../../channels/using/about-push-notifications.md)。
 
-此通道需要將行動應用程式與　Adobe Experience Platform SDK　整合。這些應用程式必須先在　Adobe Experience Platform Launch　中啟動，才能在　Adobe Campaign　中進行應用程式內訊息傳送。
+此通道需要將行動應用程式與　Adobe Experience Platform SDK　整合。這些應用必須先在資料收集UI中激活，然後才能在Adobe Campaign提供In-App交付。
 
 ![](assets/launch_campaign.png)
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 1. 在　Adobe Campaign　中，確定您可以存取 **[!UICONTROL In-App]** 通道。如果您無法存取這些通道，請聯絡您的帳戶團隊。
 
-1. 若要將　Adobe Campaign Standard　的行動使用案例與　Experience Cloud SDK　應用程式搭配運用，行動應用程式必須在　Adobe Experience Platform Launch　中建立並在　Adobe Campaign Standard　中設定。如需逐步指南，請參閱此[頁面](../../administration/using/configuring-a-mobile-application.md)。
+1. 要利用Adobe Campaign Standard的移動使用案例和Experience CloudSDK應用程式，必須在資料收集UI中建立移動應用並在Adobe Campaign Standard配置。 如需逐步指南，請參閱此[頁面](../../administration/using/configuring-a-mobile-application.md)。
 
 1. 設定之後，您現在就能準備應用程式內訊息。如需詳細資訊，請參閱此[頁面](../../channels/using/preparing-and-sending-an-in-app-message.md#preparing-your-in-app-message)。
 

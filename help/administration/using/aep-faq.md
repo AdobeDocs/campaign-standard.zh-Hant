@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 6b3c189d-8ddd-4dc0-8831-65ae62e04c70
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '909'
 ht-degree: 4%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 4%
 
 * [推送通知常見問題](../../channels/using/about-push-notifications.md#push-faq)
 * [應用程式內常見問題集](../../channels/using/in-app-faq.md)
-* [與啟動同步技術工作流常見問題](../../administration/using/syncwithlaunch-faq.md)
+* [Adobe Experience Platform同步中的標籤常見問題](../../administration/using/syncwithlaunch-faq.md)
 
 ## 啟動前的有用資源 {#resource-mobile-property}
 
@@ -34,7 +34,7 @@ ht-degree: 4%
 
 ## Adobe Experience PlatformSDK整合是否可用於Adobe Campaign Standard和Adobe Campaign Classic? {#aep-validity}
 
-是的， [!DNL Adobe Experience Platform SDK] Adobe Campaign Standard和Adobe Campaign Classic都可進行一體化。 必須安裝相應的 **[!UICONTROL Extension]** 通過 [!DNL Adobe Launch] 以啟用整合。
+是的， [!DNL Adobe Experience Platform SDK] Adobe Campaign Standard和Adobe Campaign Classic都可進行一體化。 必須安裝相應的 **[!UICONTROL Extension]** 通過 [!DNL Data Collection UI] 以啟用整合。
 
 如需關於此項目的詳細資訊，請參閱此[頁面](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard)。
 

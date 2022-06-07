@@ -6,20 +6,20 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: aaaceb3a-5e54-47da-9be4-b70747282830
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---
 
-# Adobe Launch Synchronization 常見問答集 {#syncwithlaunch-faq}
+# Adobe Experience Platform同步中的標籤常見問題 {#syncwithlaunch-faq}
 
-您可以將Adobe啟動移動屬性通過 **[!UICONTROL Sync with Launch]** 專用技術工作流。 有關詳細資訊，請參閱 [頁](../../administration/using/technical-workflows.md)
+您可以通過 **[!UICONTROL Sync with Launch]** 專用技術工作流。 有關詳細資訊，請參閱 [頁](../../administration/using/technical-workflows.md)
 
 下面一節列出了有關此同步的常見問題。
 
-## 我在 [!DNL Launch] （非管理組織單位ALL）。 我的應用程式在Adobe Campaign處於「準備配置」狀態，但無法開啟/配置它。 {#configuring-property}
+## 我建立了一個標籤屬性（非管理組織單元ALL）。 我的應用程式在Adobe Campaign處於「準備配置」狀態，但無法開啟/配置它。 {#configuring-property}
 
 只有組織單位ALL的管理員才能配置Adobe Campaign Standard的移動應用程式。 配置後，只有分配的組織單位的用戶才能編輯應用程式。 有關組織單位的詳細資訊，請參閱 [頁](../../administration/using/organizational-units.md)。
 
@@ -31,21 +31,21 @@ ht-degree: 0%
 
 ## 我是Adobe Campaign Standard組織單位ALL的管理員，但無法配置移動應用程式。 {#org-unit-mobile}
 
-將組織單位設定為ALL的管理員應有權訪問 [!DNL Launch] 來配置移動應用程式。
+將組織單位設定為ALL的管理員應擁有配置移動應用程式的所有標籤移動屬性的權限。
 
 有關組織單位的詳細資訊，請參閱 [頁](../../administration/using/organizational-units.md)。
 
-## 我在 [!DNL Launch] 但我的房產在Adobe Campaign Standard看不見。 {#visibility-mobile-property}
+## 我建立了一個標籤移動屬性，但我的屬性在Adobe Campaign Standard不可見。 {#visibility-mobile-property}
 
-1. 檢查Adobe Campaign Standard分機是否安裝在 [!DNL Launch]。
+1. 檢查Adobe Campaign Standard擴展是否安裝在資料收集UI的mobile屬性中。
 
 1. 驗證實例的端點是否在擴展中正確配置。
 
 1. 檢查「Launch_URL_Campaign」或「NmsServer_URL」是否正確。
 
-1. 然後，檢查 [!DNL Launch] Adobe Campaign完成了 **[!UICONTROL syncWithLaunch]** 技術工作流。
+1. 然後，檢查同步是否已完成 **[!UICONTROL syncWithLaunch]** 技術工作流。
 
-## 如何檢查Adobe Campaign和Launch之間的同步是否已完成？ {#sync-campaign-launch}
+## 如何檢查Adobe Campaign和Adobe Experience Platform中的標籤之間的同步是否已完成？ {#sync-campaign-launch}
 
 1. 在Adobe Campaign Standard，從高級菜單中，選擇 **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Workflows]**。
 
@@ -55,15 +55,15 @@ ht-degree: 0%
 
 1. 簽入已啟用並成功完成工作流同步的日誌。
 
-## 在啟動中重置已配置移動應用程式的密鑰。 如何在啟動中重新配置密鑰？ {#configuring-pkey}
+## 我為已配置的標籤移動應用程式重置密鑰。 如何在資料收集UI中重新配置密鑰？ {#configuring-pkey}
 
-1. 在「Adobe啟動」中開啟移動屬性。
+1. 在資料收集UI中開啟mobile屬性。
 
 1. 在重置PKey的Adobe Campaign Standard擴展中設定新URL。
 
-1. 保存它並使工作流在Adobe Campaign和 [!DNL Launch]。
+1. 保存並同步工作流。
 
-1. 同步完成後，在中開啟移動屬性 [!DNL Launch]。
+1. 同步完成後，在資料收集UI中開啟移動屬性。
 
 1. 在重置PKey的Adobe Campaign Standard擴展中設定正確的URL。
 
@@ -71,7 +71,7 @@ ht-degree: 0%
 
 1. 只有這樣，該屬性才會顯示在 **[!UICONTROL Ready to Configure]** 狀態，現在可以配置。
 
-## 我想在Adobe Campaign配置一個移動房產。 我是否必須等待技術工作流在Adobe啟動和Adobe Campaign之間同步？
+## 我想在Adobe Campaign配置一個移動房產。 我是否必須等待技術工作流在Adobe Experience Platform和Adobe Campaign的標籤之間同步？
 
 您可以立即執行工作流：
 

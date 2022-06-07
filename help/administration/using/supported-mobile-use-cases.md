@@ -6,7 +6,7 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 3cd8d756-a271-4e53-8ed0-984ce20298bc
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Adobe Campaign Standard 支援的行動使用案例 {#mobile-use-cases}
 
-在此頁中，您將找到支援的每個移動使用案例的清單 [!DNL Adobe Campaign Standard] 使用 [!DNL Adobe Experience Platform SDKs]。 請注意，支援這些使用案例涉及安裝和配置 [!DNL Adobe Experience Platform SDKs]。 [!DNL Adobe Experience Platform Launch], [!DNL Adobe Campaign Standard]。 有關此的詳細資訊，請參閱此 [頁](../../administration/using/configuring-a-mobile-application.md)。
+在此頁中，您將找到支援的每個移動使用案例的清單 [!DNL Adobe Campaign Standard] 使用 [!DNL Adobe Experience Platform SDKs]。 請注意，支援這些使用案例涉及安裝和配置 [!DNL Adobe Experience Platform SDKs]。 [!DNL tags in Adobe Experience Platform], [!DNL Adobe Campaign Standard]。 有關此的詳細資訊，請參閱此 [頁](../../administration/using/configuring-a-mobile-application.md)。
 
 Adobe Campaign Standard支援以下使用案例：
 
@@ -27,9 +27,9 @@ Adobe Campaign Standard支援以下使用案例：
 * [在移動應用中實施自定義事件以觸發In-App消息](../../administration/using/supported-mobile-use-cases.md#custom-event-inapp)
 * [為基於In-App消息的配置檔案模板設定其他身份驗證的連結欄位](../../administration/using/supported-mobile-use-cases.md#linkage-fields-inapp)
 
-要配置這些使用情形，您需要以下副檔名 [!DNL Experience Platform Launch]:
+要配置這些使用情形，您需要以下擴展：
 
-* **[!DNL Adobe Campaign Standard]** <br>要安裝和配置Campaign Standard擴展，請參見 [在Experience Platform Launch中配置Campaign Standard擴展](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#configure-the-campaign-standard-extension-in-experience-platform-launch)。
+* **[!DNL Adobe Campaign Standard]** <br>要安裝和配置Campaign Standard擴展，請參見 [在資料收集UI中配置Campaign Standard擴展](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#configure-the-campaign-standard-extension-in-experience-platform-launch)。
 * **[!DNL Mobile Core]**，將自動安裝。 <br>有關移動核心擴展的詳細資訊，請參見 [移動核心](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core)。
 * **[!DNL Profile]**，將自動安裝。 <br>有關「配置檔案」擴展的詳細資訊，請參見 [配置檔案](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/profile)。
 

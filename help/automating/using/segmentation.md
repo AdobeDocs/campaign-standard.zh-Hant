@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 3761ee4a-1ce5-4f9e-b2a5-84388b6b9db8
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 92%
+source-wordcount: '878'
+ht-degree: 82%
 
 ---
 
@@ -29,8 +29,8 @@ ht-degree: 92%
 >依預設，入站母體的成員只能屬於單一分段。篩選會根據活動中分段的順序套用。
 
 **相關主題：**
-* [使用案例：位置細分](../../automating/using/workflow-segmentation-location.md)
-* [使用案例：根據年齡組劃分](../../automating/using/segmentation-age-groups.md)
+* [用例：位置分割](../../automating/using/workflow-segmentation-location.md)
+* [用例：按年齡組分割](../../automating/using/segmentation-age-groups.md)
 
 ## 使用內容 {#context-of-use}
 
@@ -38,13 +38,13 @@ ht-degree: 92%
 
 **相關主題**
 
-* [使用案例：根據年齡群組劃分設定檔](../../automating/using/segmentation-age-groups.md).
+* [用例：根據年齡組分段個人資料](../../automating/using/segmentation-age-groups.md)。
 
 ## 設定 {#configuration}
 
 1. 將 **[!UICONTROL Segmentation]** 活動拖放至工作流程中。
 1. 選取活動，然後使用所顯示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
-1. 在 **[!UICONTROL General]** 頁簽，選擇 **[!UICONTROL Resource type]** 必須對其執行分段：
+1. 在 **[!UICONTROL General]** 頁籤 **[!UICONTROL Resource type]** 其中必須進行分割：
 
    * **[!UICONTROL Database resource]** 如果對資料庫中已存在的資料執行分段。根據您要分段的資料選取 **[!UICONTROL Filtering dimension]**。依預設，會對&#x200B;**設定檔**&#x200B;執行分段。
    * **[!UICONTROL Temporary resource]** 如果對工作流的臨時資料執行分段：選取包含要分段資料的 **[!UICONTROL Targeted set]**。在匯入檔案或資料庫中的資料已變得充實之後，可以使用此使用案例。
@@ -61,7 +61,7 @@ ht-degree: 92%
    * **[!UICONTROL Limit segment population]**：可讓您限制分段大小。
    * **[!UICONTROL Filter and limit segment population]**：可讓您篩選群體母體並限制其大小。
    * **[!UICONTROL Label]**：分段標籤。
-   * **[!UICONTROL Segment code]**:指派給區段母體的代碼。區段代碼可使用標準運算式和事件變數進行個人化(請參閱 [本頁](../../automating/using/customizing-workflow-external-parameters.md))。
+   * **[!UICONTROL Segment code]**:分配給段填充的代碼。可使用標準表達式和事件變數個性化段代碼(請參閱 [此頁](../../automating/using/customizing-workflow-external-parameters.md))。
    * **[!UICONTROL Exclude segment from population]**：可讓您從活動的對外母體中排除指定的分段。只有在選取選項時，才能使用　**[!UICONTROL Generate all segments in the same transition]**　選項。
 
    ![](assets/wkf_segment_new_segment.png)
@@ -94,8 +94,10 @@ ht-degree: 92%
 1. 重複此程序的步驟 6 到 10，視需要盡量新增區段。
 1. 如有需要，在 **[!UICONTROL Advanced options]** 索引標籤中編輯參數：
 
-   * 如果您希望入站母體同時屬於數個區段，請核取 **[!UICONTROL Enable overlapping of outbound populations]** 選項。活動的出站母體可能超過入站母體。
-   * 如果入站母體已指派您要保留的區段代碼，請核取 **[!UICONTROL Concatenate the code of each segment]** 選項。會將活動中指定的區段代碼新增至初始區段代碼。
-   * 如果要利用剩餘母體，請核取 **[!UICONTROL Generate complement]** 選項。請參閱 [使用案例：使用補充功能建立傳送](../../automating/using/workflow-created-query-with-complement.md).
+   * 的 **[!UICONTROL Enable overlapping of outbound populations]** 選項定義如何管理屬於多個段的配置檔案：
+      * 如果未啟用該選項， **[!UICONTROL Segmentation]** 活動檢查配置檔案在多個輸出轉換中不存在，即使此配置檔案滿足多個子集的條件。
+      * 啟用該選項後，如果配置檔案滿足其篩選條件，則可以在幾個子集中找到它們。
+   * 如果已為入站人口分配了要保留的段代碼，請檢查 **[!UICONTROL Concatenate the code of each segment]** 的雙曲餘切值。 會將活動中指定的區段代碼新增至初始區段代碼。
+   * 如果需要利用剩餘人口，請檢查 **[!UICONTROL Generate complement]** 的雙曲餘切值。 請參閱 [用例：使用補碼建立交貨](../../automating/using/workflow-created-query-with-complement.md)。
 
 1. 確認活動的設定並儲存工作流程。

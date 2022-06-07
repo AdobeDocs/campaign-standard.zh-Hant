@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 93%
+source-wordcount: '700'
+ht-degree: 89%
 
 ---
 
@@ -92,12 +92,12 @@ Adobe Campaign 可立即提供技術工作流程。技術工作流程是排程�
    <tr> 
    <td> <span class="uicontrol">與 Launch 同步</span> <br /> </td> 
    <td> <span class="uicontrol">SyncWithLaunch</span> <br /> </td> 
-   <td> 此工作流程會同步在 Adobe Campaign Standard 中匯入的 Adobe Launch 行動裝置屬性。每 15 分鐘開始一次。<br /> </td> 
+   <td> 此工作流將同步在Adobe Campaign Standard導入的標籤移動屬性。 每 15 分鐘開始一次。<br /> </td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">跟蹤日誌恢復</span> <br /> </td> 
    <td> <span class="uicontrol">同步與啟動</span> <br /> </td> 
-   <td> 此工作流程會同步在 Adobe Campaign Standard 中匯入的 Adobe Launch 行動裝置屬性。每 15 分鐘開始一次。<br /> </td> 
+   <td> 此工作流將同步在Adobe Campaign Standard導入的標籤移動屬性。 每 15 分鐘開始一次。<br /> </td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">恢復跟蹤日誌</span> <br /> </td> 

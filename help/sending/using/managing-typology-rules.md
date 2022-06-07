@@ -9,7 +9,7 @@ feature: Typology Rules
 role: User
 level: Intermediate
 exl-id: 5ef66b1b-1c81-42fb-a18c-fcf7f21e1ff7
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 96%
@@ -30,7 +30,7 @@ ht-degree: 96%
 
 可於「**[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** > **[!UICONTROL Typology rules]**」功能表取得類型規則。
 
-依預設，有數種現成的&#x200B;**篩選**&#x200B;和&#x200B;**控制**&#x200B;類型規則可供使用。在[篩選規則](../../sending/using/fatigue-rules.md)和[控制規則](../../sending/using/control-rules.md)各節中會詳細說明這些規則。
+依預設，有數種現成的&#x200B;**篩選**&#x200B;和&#x200B;**控制**&#x200B;類型規則可供使用。在[篩選規則](../../sending/using/filtering-rules.md)和[控制規則](../../sending/using/control-rules.md)各節中會詳細說明這些規則。
 
 您可以視需要修改現有的類型規則或建立新規則，但 **[!UICONTROL Control]** 規則除外，因為這類規則是唯讀狀態且無法修改。
 
@@ -67,7 +67,7 @@ ht-degree: 96%
 1. 控制規則（如果這些規則是在定位開始時套用）。
 1. 篩選規則：
 
-   * 地址限定的本機應用規則：封鎖清單/隔離位址/位址品質上已定義的位址/未驗證的位址/位址。
+   * 地址資格的本機應用規則：已定義地址/未驗證地址/地址(denylist)/隔離地址/地址質量。
    * 篩選由使用者定義的規則。
 
 1. 控制規則（如果這些規則是在定位結束時套用）。

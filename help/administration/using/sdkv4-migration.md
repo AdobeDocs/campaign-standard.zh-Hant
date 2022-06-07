@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: eb7a209e-069e-4068-966d-05344bd838c7
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '1200'
+source-wordcount: '1193'
 ht-degree: 1%
 
 ---
@@ -43,7 +43,7 @@ Adobe Campaign Standard使用SDK V4處理移動應用程式，與使用Adobe Exp
 |:-:|
 | 移動應用程式將在 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (Adobe Experience Platform SDK)]**。 遷移前，可在 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (SDK V4)]**。 |
 | 的 **[!UICONTROL Collect PII Endpoint]** 的下界。 年長者 **[!UICONTROL Collect PII Endpoint]** 將繼續工作，發送的資料不會丟失。 |
-| 申請將與Adobe Experience Platform Launch **[!UICONTROL Mobile Property]**。 它將作為新建立的移動應用程式處理。 |
+| 應用程式將綁定到標籤 **[!UICONTROL Mobile Property]**。 它將作為新建立的移動應用程式處理。 |
 | 遷移中使用的原始Adobe Experience PlatformSDK應用程式將不作為單獨的應用程式存在。 只有遷移的SDK v4應用程式才可用。 |
 
 ## 將移動應用程式從SDK v4遷移到Adobe Experience PlatformSDK {#how-to-migrate}
@@ -53,9 +53,9 @@ Adobe Campaign Standard使用SDK V4處理移動應用程式，與使用Adobe Exp
 * 遷移過程是不可逆的。
 * 您不應同時運行多個應用程式的遷移。 您還應確保同一應用程式的遷移不會同時被多個窗口觸發。
 * 在遷移之前，請確保已為您分配 **[!UICONTROL Organizational unit]** 要遷移的移動應用程式，以及要遷移的Adobe Experience Platform應用程式。
-* 遷移後，該應用程式將成為Adobe Experience PlatformSDK應用程式。 其更改將與相應的Launch連結 **[!UICONTROL Mobile Property]**。
+* 遷移後，該應用程式將成為Adobe Experience PlatformSDK應用程式。 其更改將連結到其相應標籤 **[!UICONTROL Mobile Property]**。
 
-1. 新建 **[!UICONTROL Mobile property]** 在Adobe Experience Platform Launch。 有關此項的詳細資訊，請參閱 [Adobe Experience Platform Launch文檔](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#create-a-mobile-property)。
+1. 新建 **[!UICONTROL Mobile property]** 的子菜單。 有關此項的詳細資訊，請參閱 [文檔](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#create-a-mobile-property)。
 
 1. 在Adobe Campaign Standard，從高級菜單中，選擇 **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Workflows]** 開啟 **[!UICONTROL syncWithLaunch]** 工作流。 檢查工作流是否已結束且無錯誤。
 
@@ -88,7 +88,7 @@ Adobe Campaign Standard使用SDK V4處理移動應用程式，與使用Adobe Exp
 在此遷移之後，由移動應用程式的V4版本收集的訂戶和由移動應用程式的AEP版本收集的新訂戶將在遷移的應用程式中可用。
 
 要區分兩種不同類型的訂閱伺服器，可以添加一個新的自定義欄位 **[!UICONTROL Text]** 擴展自定義資源時鍵入 **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** 如 `sdkversion` 或 `appVersion` 例如。 有關如何擴展自定義資源的詳細資訊，請參閱此 [頁](../../developing/using/creating-or-extending-the-resource.md)。
-然後，您需要配置關聯的啟動 **[!UICONTROL Mobile property]** 在「收集PII呼叫」中發送此自定義欄位值，並相應更改您的移動應用程式配置。
+然後，您需要配置關聯的標籤 **[!UICONTROL Mobile property]** 在「收集PII呼叫」中發送此自定義欄位值，並相應更改您的移動應用程式配置。
 
 ## 常見問答集 {#faq}
 
@@ -106,7 +106,7 @@ Adobe Campaign Standard使用SDK V4處理移動應用程式，與使用Adobe Exp
 
 ### 問：為什麼不能使用配置屬性狀態的Adobe Experience PlatformSDK應用程式進行遷移？ {#property-status}
 
-答：遷移過程將保留SDK v4訂閱者和屬性。 它只保留Adobe Experience PlatformSDK應用程式中的「啟動」相關資訊。 來自Adobe Experience PlatformSDK應用程式的訂閱者和其他資料將丟失。 為避免任何資料丟失，僅Adobe Experience PlatformSDK應用程式 **[!UICONTROL Ready to Configure]** **[!UICONTROL Property Status]** 符合遷移條件。
+答：遷移過程將保留SDK v4訂閱者和屬性。 它只保留Adobe Experience PlatformSDK應用中的標籤相關資訊。 來自Adobe Experience PlatformSDK應用程式的訂閱者和其他資料將丟失。 為避免任何資料丟失，僅Adobe Experience PlatformSDK應用程式 **[!UICONTROL Ready to Configure]** **[!UICONTROL Property Status]** 符合遷移條件。
 
 ### 問：遷移後，我在哪裡可以找到以前的SDK v4移動應用程式？ {#v4-app-not-visible}
 

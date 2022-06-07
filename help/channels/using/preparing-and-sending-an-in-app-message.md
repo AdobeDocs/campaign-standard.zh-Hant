@@ -8,10 +8,10 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-source-git-commit: 99111a0d8d3bf46aae39b80851ebcabaf30be0a0
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '1245'
-ht-degree: 89%
+source-wordcount: '1246'
+ht-degree: 84%
 
 ---
 
@@ -91,7 +91,7 @@ Adobe Campaign 提供兩種類型的清單：
       如需 Adobe Places 的詳細資訊，請參閱 [Places 檔案](https://experienceleague.adobe.com/docs/places/using/home.html)。
    ![](assets/inapp_creating_4.png)
 
-1. 如果您使用 **[!UICONTROL Analytics Events]**，Adobe Analytics和檢視狀態事件將會根據 Adobe Experience Platform Launch 中 Analytics 擴充功能中設定的報表套裝自動填入，而內容資料事件則必須手動新增。
+1. 如果您使用 **[!UICONTROL Analytics Events]**,Adobe Analytics和查看狀態事件將根據資料收集UI中分析擴展中配置的報告套件自動填充，而必須手動添加上下文資料事件。
 
    請注意，這些事件僅在您擁有Adobe Analytics授權時才可用。
 
@@ -99,7 +99,7 @@ Adobe Campaign 提供兩種類型的清單：
 
 1. 如果您使用 **[!UICONTROL Places]** 觸發器，Places 內容資料、Places 自訂中繼資料或 Places 事件類型將會根據所有在 Adobe Places 中建立的 Libraries 及其 Points of Interest 自動填入。
 
-   請注意，此觸發器僅會套用至 Experience Platform Launch 中 Places 擴充功能中選取之 Libraries 的 Points of Interest。有關 Places 擴充功能以及如何安裝的詳細資訊，請參閱本[文件](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html)。
+   請注意，此觸發器將僅應用於資料收集UI中「位置」擴展中選定的庫的興趣點。 有關 Places 擴充功能以及如何安裝的詳細資訊，請參閱本[文件](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html)。
 
 1. 在 **[!UICONTROL Frequency & duration]** 索引標籤中，選取觸發的頻率、開始和結束日期、一週中的某天，以及應用程式內訊息生效的當天時間。
 

@@ -5,17 +5,50 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 98aa27e4fb5eab9abbce5a9a9ba2c17d04424d70
-workflow-type: ht
-source-wordcount: '766'
-ht-degree: 100%
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+workflow-type: tm+mt
+source-wordcount: '1182'
+ht-degree: 72%
 
 ---
 
 
 # 最新版本{#latest-release}
 
-![控制面板](assets/do-not-localize/cp-icon.png) 含輸送量和延時監視及工作流程監視的&#x200B;**控制面板新發行版本** 。[深入瞭解](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=zh-Hant){target=&quot;_blank&quot;}.
+![控制面板](assets/do-not-localize/cp-icon.png) **新建控制面板版本**。 [深入瞭解](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=zh-Hant){target=&quot;_blank&quot;}.
+
+
+## 發行版本 22.2 – 2022 年 6 月 {#june-2022}
+
+**功能改進**
+
+* **Adobe Notification Service** - Adobe Notification Service 促銷活動，允許 Experience Cloud 解決方案提醒 Experience Cloud 的使用者注意對他們來說很重要的活動。從 22.2 版開始，改善使用者體驗：依照優先順序通知，產品產生的通知與 Adobe 狀態公告分開。 此外，當特定的工作流程通知時，您可以直接從電子郵件或產品通知存取對應的工作流程。  如需 Adobe Campaign 通知的詳細資訊，請參閱 [Adobe Campaign 通知](../../administration/using/sending-internal-notifications.md)。
+
+* **工作流啟動中的優化** -Adobe添加了一項新功能，可以調整同時啟動的工作流數。 這將有助於防止可能導致服務中斷或停機的CPU尖峰。 Adobe將在22.2版後啟用它。 客戶沒有關於此問題的其他措施項。
+
+* **輔助功能** -Adobe為提高應用程式的整體易用性做了許多輔助功能修復。 這些功能目前僅針對一組早期採用者啟用，並將在ACS 22.3版中向所有客戶推廣。 改進輔助功能的示例包括：
+
+   * 確保每個螢幕上有可聚焦元素的可見焦點指示器
+   * 建立頁面地標以便更輕鬆地導航
+   * 添加許多控制項的名稱、角色、值和狀態
+   * 更正主螢幕上動態焦點順序遇到的問題
+
+**安全性升級**
+
+* Apache Tomcat已從7版升級到8.5版。
+
+**修補程式**
+
+* 已修復由於重複密鑰錯誤而導致的開單技術工作流問題。 (CAMP-51029)
+* 已在跟蹤報告中添加缺少的Microsoft邊緣瀏覽器類別。 之前，他們被歸為MicrosoftChrome開張。 (CAMP-51165)
+* 修復了未從子表中刪除資料的GDPR請求的問題。 (CAMP-48276)
+* 已修復電子郵件設計器中導致事務性消息模板中不保存片段的可見性條件的問題。 (CAMP-50338)
+* 已修復「市場活動報表」中導致日期範圍未被考慮的問題。 (CAMP-50991)
+* 修復了導致計畫電子郵件失敗的錯誤：無法啟動傳遞分析，因為傳遞仍處於「重試掛起」狀態。 (CAMP-50302)
+* 在使用配置檔案替代預覽電子郵件時，已修復電子郵件設計器中的問題。 (CAMP-49312)
+* 已修復自定義枚舉中值為空的問題：當使用文本枚舉且只包含一個值的欄位建立自定義資源時，預設情況下現在會設定此值，以便您可以以簡單請求的形式在此欄位上建立查詢。 (CAMP-50606)
+
+
 
 ## 發行版本 22.1 – 2022 年 2 月 {#feb-2022}
 

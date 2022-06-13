@@ -5,9 +5,9 @@ user-guide-description: '說明中心，以瞭解使用 Campaign Standard 所需
 title: Campaign Standard 指南
 breadcrumb-title: Adobe Campaign Standard 文件
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1810'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -452,9 +452,9 @@ ht-degree: 99%
       + [新增影像和影片 iOS](administration/using/image-push-notification.md)
       + [瞭解推送通知裝載結構](administration/using/push-payload.md)
       + [實施本機通知追蹤](administration/using/local-tracking.md)
-      + [Adobe Experience Platform同步中的標籤常見問題](administration/using/syncwithlaunch-faq.md)
+      + [Adobe Experience Platform 同步常見問答集中的標籤](administration/using/syncwithlaunch-faq.md)
       + [Experience Platform SDK 整合常見問答集](administration/using/aep-faq.md)
-      + [配置標籤規則以支援Adobe Campaign Standard使用案例](administration/using/configuring-rules-launch.md)
+      + [設定標籤規則以支援 Adobe Campaign Standard 使用案例](administration/using/configuring-rules-launch.md)
       + [Adobe Campaign Standard 支援的行動使用案例](administration/using/supported-mobile-use-cases.md)
       + [如何將您的行動應用程式從 SDK v4 移轉至 Adobe Experience Platform SDK](administration/using/sdkv4-migration.md)
    + 設定簡訊頻道 {#configuring-sms}

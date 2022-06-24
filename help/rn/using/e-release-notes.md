@@ -7,9 +7,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 66aed3668dc0eb2041312dcbaebe7c36f54b13a5
 workflow-type: ht
-source-wordcount: '468'
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
@@ -36,10 +36,6 @@ ht-degree: 100%
    * 建立頁面地標讓導覽更輕鬆
    * 新增許多控制項名稱、角色、值和狀態
    * 修復主螢幕動態焦點順序所遇到的問題
-
-**安全性升級**
-
-* Apache Tomcat 已經從第 7 版升級為第 8.5 版.
 
 
 **修補程式**

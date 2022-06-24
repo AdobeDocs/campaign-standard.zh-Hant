@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 199a40da4ae168fced2bada7d0515839bfe38c15
 workflow-type: ht
-source-wordcount: '1182'
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 * **Adobe Notification Service** - Adobe Notification Service 促銷活動，允許 Experience Cloud 解決方案提醒 Experience Cloud 的使用者注意對他們來說很重要的活動。從 22.2 版開始，改善使用者體驗：依照優先順序通知，產品產生的通知與 Adobe 狀態公告分開。 此外，當特定的工作流程通知時，您可以直接從電子郵件或產品通知存取對應的工作流程。  如需 Adobe Campaign 通知的詳細資訊，請參閱 [Adobe Campaign 通知](../../administration/using/sending-internal-notifications.md)。
 
-* **啟動最佳化工作流程** - Adobe 新增一項新功能，可以調整同時啟動的工作流程數量。 這將有助於防止可能導致服務中斷或停止工作的 CPU 峰值。 Adobe 將在 22.2 之後的版本啟用。 沒有關於客戶對於相同問題的進一步動作項目。
+* **啟動最佳化工作流程** - Adobe 新增了一項新功能，可以調整同時啟動的工作流程數量。 這將有助於防止可能導致服務中斷或停止工作的 CPU 峰值。 Adobe 將在 22.2 之後的版本啟用。 沒有關於客戶對於相同問題的進一步動作項目。
 
 * **協助工具** - Adobe 為提高應用程式的整體易用性修復了許多協助工具。 這些功能目前僅對一部分早期採用者啟用，並將在 ACS 22.3 版本首次向所有客戶提供。 協助工具的功能改善範例包括：
 
@@ -33,9 +33,6 @@ ht-degree: 100%
    * 新增許多控制項名稱、角色、值和狀態
    * 修復主螢幕動態焦點順序所遇到的問題
 
-**安全性升級**
-
-* Apache Tomcat 已經從第 7 版升級為第 8.5 版.
 
 **修補程式**
 

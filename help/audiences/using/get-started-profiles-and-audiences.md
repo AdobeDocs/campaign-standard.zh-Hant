@@ -19,9 +19,9 @@ ht-degree: 22%
 
 <table>
 <tr>
-<td><img src="assets/do-not-localize/icon_segment.svg" width="60px"><p><a href="#segmenting-targeting">劃分和定位</a></p></td>
-<td><img src="assets/do-not-localize/icon_permission.svg" width="60px"><p><a href="#permission">權限與同意</a></p></td>
-<td><img src="assets/do-not-localize/icon_privacy.svg" width="60px"><p><a href="#privacy">隱私權法規遵循</a></p></td></tr>
+<td><img src="assets/do-not-localize/icon_segment.svg" width="60px"><p><a href="#segmenting-targeting">分段和定向</a></p></td>
+<td><img src="assets/do-not-localize/icon_permission.svg" width="60px"><p><a href="#permission">許可和同意</a></p></td>
+<td><img src="assets/do-not-localize/icon_privacy.svg" width="60px"><p><a href="#privacy">隱私合規性</a></p></td></tr>
 </table>
 
 Campaign Integrated Customer Profile 可讓您透過單一檢視追蹤所有通道上與客戶的每一次互動，讓您向客戶傳遞相關的個人化訊息。
@@ -30,19 +30,19 @@ Campaign Integrated Customer Profile 可讓您透過單一檢視追蹤所有通�
 
 使用服務和登陸頁面，管理客戶權限和同意，以便設定簡單的選擇加入和選擇退出機制。
 
-## 劃分和定位 {#segmenting-targeting}
+## 分段和定向 {#segmenting-targeting}
 
 <img src="assets/do-not-localize/icon_segment.svg" width="60px">
 
-當您建立促銷活動或訊息時，您可以從促銷活動資料庫的聯絡人選取，使用簡單或進階條件，或選取對象，以指定傳送的目標。
+在建立市場活動或消息時，您可以通過從市場活動資料庫中的聯繫人中選擇、使用簡單或高級標準或選擇受眾來指定交貨的目標。
 
-使用 **整合式客戶設定檔**, **自訂區段** 和 **控制組**. 如果您知道客戶、興趣、人口統計資料和管道偏好設定，就能更輕鬆建立受到注意的個人化體驗。
+使用 **整合客戶配置檔案**。 **自定義段** 和 **控制組**。 當您瞭解客戶、興趣、人口結構和渠道偏好時，建立個性化體驗就更容易被人注意。
 
-Adobe Campaign可即時建立豐富的客戶設定檔，讓您隨著客戶偏好的變更，提供更相關且個人化的優惠方案。 此外，Adobe Campaign整合了進階分析、資料管理和目標鎖定功能，以建立受眾。
+Adobe Campaign即時構建豐富的客戶配置檔案，使您能夠隨著客戶偏好的變化提供更相關和個性化的服務。 此外，Adobe Campaign整合了高級分析、資料管理和目標功能，以建立受眾。
 
-**設定檔** 是儲存在資料庫中的個別聯繫人。 每個設定檔都對應至資料庫中的一個項目，其中包含要定位、限定及個別追蹤該設定檔的必要資訊：Adobe Campaign可追蹤線上和離線頻道的每次互動，並合併為單一設定檔。
+**配置檔案** 是儲存在資料庫中的單個聯繫人。 每個配置檔案對應於資料庫中的一個條目，該條目包含要針對、限定和單獨跟蹤該配置檔案的必要資訊：Adobe Campaign可以跟蹤線上和線下渠道的每次交互，並將其合併到單個配置檔案中。
 
-**對象** 是以特定條件或條件集建置的設定檔清單。 您可以使用工作流程和查詢編輯器，根據您對行銷活動的資訊、其活動和行銷記錄，建構將被您的行銷活動鎖定的對象。 這可讓您根據不限數量的條件來篩選訂閱的設定檔、範例或建立目標對象。
+**觀眾** 是基於特定條件或一組條件構建的配置檔案清單。 使用工作流和查詢編輯器，您可以構建市場營銷活動將針對的受眾，具體取決於您對這些受眾的資訊、其活動以及其市場營銷歷史記錄。 這樣，您就可以按無限數量的標準篩選訂閱的配置檔案、示例或建立目標受眾。
 
 閱讀全文:
 
@@ -54,39 +54,39 @@ Adobe Campaign可即時建立豐富的客戶設定檔，讓您隨著客戶偏好
 * [在訊息中選取對象](../../audiences/using/selecting-an-audience-in-a-message.md)
 * [新增控制組](../../sending/using/control-group.md)
 
-## 權限與同意 {#permission}
+## 許可和同意 {#permission}
 
 <img src="assets/do-not-localize/icon_permission.svg"  width="60px">
 
-開始傳送訊息給聯絡人之前，您必須確定您取得其權限。 若非如此，您的電子郵件可能會標示為垃圾訊息，這將影響您的平台傳遞能力。 若要確保建立正常的設定檔資料庫，請先保護此權限。
+在開始向聯繫人發送消息之前，您需要確保您獲得他們的權限。 否則，您的電子郵件可能會被標籤為垃圾郵件，這將影響您的平台交付能力。 要確保構建健康的配置檔案資料庫，請首先保護此權限。
 
-若使用Campaign，建議您使用 **輕鬆加入和退出機制** through [服務](../../audiences/using/creating-a-service.md)，和 [登陸頁面](../../channels/using/getting-started-with-landing-pages.md) 更新您的聯繫資訊並擴展您的資料庫。
+對於活動，我們建議您使用 **易於選擇加入和選擇退出機制** 通 [服務](../../audiences/using/creating-a-service.md), [登錄頁](../../channels/using/getting-started-with-landing-pages.md) 更新您的聯繫資訊並增大資料庫。
 
-提供 **取消訂閱連結** 在您的訊息中，會視需要將設定檔新增至封鎖清單，因此可改善您的平台傳遞能力。 如需封鎖清單管理的詳細資訊，請參閱 [關於Campaign中的加入和退出](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+提供 **取消訂閱連結** 在您的郵件中，配置檔案將在需要時添加到denylist中，從而提高您的平台交付能力。 有關denylist管理的詳細資訊，請參閱 [關於選擇加入和選擇退出活動](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)。
 
 >[!IMPORTANT]
 >
->您必須尊重 [Adobe Campaign可接受使用政策](https://www.adobe.com/legal/terms/aup.html).
+>你必須尊重 [Adobe Campaign可接受使用政策](https://www.adobe.com/legal/terms/aup.html)。
 
 閱讀全文:
 
 * [關於訂閱](../../audiences/using/about-subscriptions.md)
 * [關於 Campaign 中的選擇加入和選擇退出](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
-## 隱私權法規遵循 {#privacy}
+## 隱私合規性 {#privacy}
 
 <img src="assets/do-not-localize/icon_privacy.svg" width="60px">
 
-Adobe Campaign提供一套工具，可協助您 **隱私權法規遵循** 針對GDPR、CCPA和其他隱私權法律。
+Adobe Campaign提供一套工具，幫助您 **隱私合規性** GDPR 、 CCPA和其他隱私法。
 
-了解更多資訊 [這篇文章](https://helpx.adobe.com/tw/campaign/kb/campaign-privacy.html) 關於隱私權管理，以及我們為管理存取權、被遺忘權、同意、資料保留和使用者角色所提供的功能。
+瞭解更多資訊 [這篇文章](https://helpx.adobe.com/tw/campaign/kb/campaign-privacy.html) 關於隱私管理以及我們為管理訪問權、忘記權、同意權、資料保留和用戶角色而提供的功能。
 
-Campaign中的隱私權和同意，以及如何管理這些項目，在 [本節](../../start/using/privacy.md). 您也會找到最佳實務，以協助您在使用我們的服務時符合隱私權規範。
+活動中的隱私和同意以及如何管理這些隱私和同意 [此部分](../../start/using/privacy.md)。 您還將找到最佳實踐，幫助您在使用我們的服務時遵守隱私保護法規。
 
-## 其他資源
+## 額外資源
 
 * [將 Adobe Experience Platform 對象內嵌至 Campaign](../../integrating/using/ingest-aep-data.md)
-* [使用Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md)
-* [Adobe共用對象](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
-* [使用工作流程匯入設定檔](../../automating/using/creating-import-workflow-templates.md)
-* [設定檔和對象影片](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)
+* [使用Microsoft動力365](../../integrating/using/d365-acs-get-started.md)
+* [Adobe共用受眾](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
+* [使用工作流導入配置檔案](../../automating/using/creating-import-workflow-templates.md)
+* [個人資料和觀眾視頻](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)

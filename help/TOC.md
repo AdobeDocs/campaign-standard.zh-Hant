@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: '說明中心，以瞭解使用 Campaign Standard 所需的主要功能、工作、設定和其他資源。 '
 title: Campaign Standard 指南
 breadcrumb-title: Adobe Campaign Standard 文件
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
-workflow-type: ht
-source-wordcount: '1810'
+source-git-commit: 1d1869a6c503773f4aaecb6a77f1b72585c88865
+workflow-type: tm+mt
+source-wordcount: '1812'
 ht-degree: 100%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 100%
    + [最新版本](rn/using/release-notes.md)
    + [早期發行說明](rn/using/e-release-notes.md)
    + 舊的發行版本 {#previous-releases}
+      + [發行說明 2022 年](rn/using/release-notes-2022.md)
       + [發行說明 2021 年](rn/using/release-notes-2021.md)
       + [發行說明 2020 年](rn/using/release-notes-2020.md)
       + [發行說明 2019 年](rn/using/release-notes-2019.md)

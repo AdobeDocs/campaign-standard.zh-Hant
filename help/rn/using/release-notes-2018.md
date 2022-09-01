@@ -1,14 +1,12 @@
 ---
 title: 發行說明 2018 年
 description: 本頁列出 2018 年的所有 Adobe Campaign Standard 版本。
-audience: rn
-content-type: reference
-topic-tags: campaign-standard-releases
 feature: Overview
 role: User
 level: Beginner
+hidefromtoc: true
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: 177d9e0f8d61c000f01ac5e148dbd98fef0538ff
 workflow-type: tm+mt
 source-wordcount: '5401'
 ht-degree: 4%
@@ -25,7 +23,7 @@ ht-degree: 4%
 
 ## 發行版本 18.9 – 2018 年 9 月 {#release-18-9---september-2018}
 
-**有哪些新增功能？**
+**有哪些新功能？**
 
 <table> 
  <thead> 
@@ -46,7 +44,7 @@ ht-degree: 4%
  </tbody> 
 </table>
 
-**功能改善**
+**功能改進**
 
 * Adobe Campaign Standard現在支援Amazon S3 API第4版。
 
@@ -90,7 +88,7 @@ ht-degree: 4%
 
 ## 發行版本 18.7 – 2018 年 7 月 {#release-18-7---july-2018}
 
-**有哪些新增功能？**
+**有哪些新功能？**
 
 <table> 
  <thead> 
@@ -123,7 +121,7 @@ ht-degree: 4%
  </tbody> 
 </table>
 
-**功能改善**
+**功能改進**
 
 * Adobe Campaign和Adobe Target整合現在可讓您運用Target的 [權限](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html) 功能。 在電子郵件中加入來自Adobe Target的動態影像時，您現在可以指定Target屬性（at_property代碼）。
 * 具有設定檔資源之下載連結的自訂資源，現在會由GDPR隱私權存取/刪除請求納入考量。 對於1個基數簡單連結和N個基數收集連結，您需要在自訂資源中選擇「刪除/複製目標籤錄意味著刪除/複製連結引用的記錄」。 對於0或1個基數簡單連結，選擇「刪除/複製記錄表示刪除/複製連結引用的目標籤錄」。
@@ -138,7 +136,7 @@ ht-degree: 4%
 **修補程式**
 
 * 修正byEmail查詢篩選器無法傳回任何結果的問題。 (CAMP-23420)
-* 修正標準使用者可存取管理員限制的特定功能或畫面（/rest/head/*端點、交易式訊息畫面、設定檔和對象匯入畫面）的問題。
+* 修正標準使用者可存取管理員限制的特定功能或畫面(/rest/head/&#42; 端點、交易式訊息畫面、設定檔和對象匯入畫面)。
 * 修正GDPR隱私權刪除請求在名稱以數字開頭時無法處理自訂資源的問題。
 * 修正「儲存對象」活動無法在Adobe Experience Cloud中共用應用程式訂閱者的錯誤。
 * 修正檔案名稱包含空白字元時，「檔案傳輸」活動可能發生的問題。 (CAMP-25936)
@@ -153,7 +151,7 @@ ht-degree: 4%
 
 ## 發行版本 18.6 – 2018 年 6 月 {#release-18-6---june-2018}
 
-**功能改善**
+**功能改進**
 
 * 此 **[!UICONTROL History]** API已新增至Adobe.IO。 它可讓您存取與設定檔行銷記錄相關的資訊：接觸點數、已傳送、鏡像頁面URL等。 有關詳細資訊，請參閱 [專用使用案例](../../api/using/interacting-with-marketing-history.md) .
 * 此 **[!UICONTROL Database cleanup]** 已優化技術工作流，以確保資料庫備份的效能更佳。
@@ -191,7 +189,7 @@ ht-degree: 4%
 
 ## 發行版本 18.5 – 2018 年 5 月 {#release-18-5---may-2018}
 
-**有哪些新增功能？**
+**有哪些新功能？**
 
 <table> 
  <thead> 
@@ -224,7 +222,7 @@ ht-degree: 4%
  </tbody> 
 </table>
 
-**功能改善**
+**功能改進**
 
 * 應用程式的整體記憶體和CPU使用已增強
 

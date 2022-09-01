@@ -1,14 +1,12 @@
 ---
 title: 發行說明 2019 年
 description: 本頁列出 2019 年的所有 Adobe Campaign Standard 版本。
-audience: rn
-content-type: reference
-topic-tags: campaign-standard-releases
 feature: Overview
 role: User
 level: Beginner
+hidefromtoc: true
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 177d9e0f8d61c000f01ac5e148dbd98fef0538ff
 workflow-type: tm+mt
 source-wordcount: '7588'
 ht-degree: 8%
@@ -21,7 +19,7 @@ ht-degree: 8%
 
 ## 發行版本19.4 - 2019年12月 {#release-19-4---october-2019}
 
-**有哪些新增功能？**
+**有哪些新功能？**
 
 <table> 
  <thead> 
@@ -36,7 +34,7 @@ ht-degree: 8%
    <ul>
     <li>存取權與刪除權：我們善用針對GDPR新增的功能。 <a href="https://helpx.adobe.com/content/help/tw/campaign/kb/acs-privacy.html#righttoaccess">了解更多</a> </li>
     <li><p>建立隱私權要求時，隱私權核心服務已新增規範類型（GDPR或CCPA）。 此方法是您應該用於所有存取和刪除請求的方法。不建議使用促銷活動 API 和介面來存取和刪除請求。請參閱「<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">已過時和已移除的功能</a>」文章。</p></li>
-    <li>A <strong>CCPA選擇退出</strong> 「設定檔」資源已新增欄位，讓Adobe Campaign使用者追蹤消費者是否選擇退出個人資訊銷售。 <a href="https://helpx.adobe.com/tw/campaign/kb/acs-privacy.html#ccpa">深入瞭解</a>。</li>
+    <li>A <strong>CCPA選擇退出</strong> 「設定檔」資源已新增欄位，讓Adobe Campaign使用者追蹤消費者是否選擇退出個人資訊銷售。 <a href="https://helpx.adobe.com/tw/campaign/kb/acs-privacy.html#ccpa">了解更多資訊</a>。</li>
   </ul>
     <p>請參閱<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">作法影片</a>。</p>
 </td> 
@@ -60,14 +58,14 @@ ht-degree: 8%
  </tbody> 
 </table>
 
-**功能改善**
+**功能改進**
 
 * 已更新動態報告的同意快顯視窗，加入Adobe Campaign Standard和Microsoft Dynamics 365整合。 若接受條款，則使用Adobe Campaign Standard/Microsoft Dynamics 365整合和動態報告時，將會包含設定檔資料。 [了解詳情](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) (CAMP-29766)
 * 修正了在收到傳送警報時，顯示錯誤聯絡日期的問題。
 * 當使用未知的內容參數提交交易式訊息事件時，Campaign現在會傳回「400」錯誤訊息，而非「500」。 (CAMP-28632)
-* 新 **排除校樣** 區段已新增至動態報表中。 現在預設會選取此區段來篩選您的報表。 [閱讀全文](../../reporting/using/list-of-components-.md#segments)
-* 此 **訊息過期** 「推播通知」已新增選項。 它可讓您指定訊息不再由Apple(APNS)或Android(FCM)傳送的到期日。 [閱讀全文](../../channels/using/customizing-a-push-notification.md#add-expiration-date)
-* 已對 **載入檔案** 活動：工作流程記錄檔已更清楚且更詳細地說明檔案無法載入時發生的錯誤。 啟動 **將拒絕項保留在檔案中** 選項已重新命名 **拒絕**. [閱讀全文](../../automating/using/load-file.md)
+* 新 **排除校樣** 區段已新增至動態報表中。 現在預設會選取此區段來篩選您的報表。 [深入了解](../../reporting/using/list-of-components-.md#segments)
+* 此 **訊息過期** 「推播通知」已新增選項。 它可讓您指定訊息不再由Apple(APNS)或Android(FCM)傳送的到期日。 [深入了解](../../channels/using/customizing-a-push-notification.md#add-expiration-date)
+* 已對 **載入檔案** 活動：工作流程記錄檔已更清楚且更詳細地說明檔案無法載入時發生的錯誤。 啟動 **將拒絕項保留在檔案中** 選項已重新命名 **拒絕**. [深入了解](../../automating/using/load-file.md)
 * 已將多語言相關記錄檔新增至傳送記錄檔，以更清楚了解因上傳之CSV檔案中缺少語言而導致的傳送失敗。
 
 **安全性改善功能**
@@ -80,7 +78,7 @@ ht-degree: 8%
 
 * 修正無法在插入電子郵件時追蹤取消訂閱、訂閱和登錄頁面連結的問題。 (CAMP-37809)
 * 修正建立新電子郵件和選取範本時，可能導致錯誤的問題。 (CAMP-38000)
-* 使用電子郵件設計工具編輯連結時，您現在可以使用 **底線連結** 選項。 此外， **目標** 屬性已新增，預設值設為 **無**. [閱讀全文](../../designing/using/styles.md#about-styling-links)
+* 使用電子郵件設計工具編輯連結時，您現在可以使用 **底線連結** 選項。 此外， **目標** 屬性已新增，預設值設為 **無**. [深入了解](../../designing/using/styles.md#about-styling-links)
 * 修正電子郵件內文文字元件中連結的顏色問題。 (CAMP-37330)
 * 修正刪除影像時無法移除相關連結的問題。 (CAMP-37234)
 * 修正無法在 **順序** 條件中動態內容的設定。 (CAMP-36883)
@@ -147,7 +145,7 @@ ht-degree: 8%
 
 ## 發行版本 19.3 – 2019 年 7 月 {#release-19-3---july-2019}
 
-**有哪些新增功能？**
+**有哪些新功能？**
 
 <table> 
  <thead> 
@@ -258,7 +256,7 @@ ht-degree: 8%
 
 ## 發行版本 19.2.7 – 2019 年 7 月 {#release-19-2-7---july-2019}
 
-**功能改善**
+**功能改進**
 
 * 已改善GDPR刪除查詢以提升效能。
 * 修正19.2升級後可能導致Web當機的問題。 (CAMP-34862)
@@ -292,7 +290,7 @@ ht-degree: 8%
 
 ## 發行版本 19.2 – 2019 年 5 月 {#release-19-2---may-2019}
 
-**有哪些新增功能？**
+**有哪些新功能？**
 
 <table> 
  <thead> 
@@ -410,7 +408,7 @@ ht-degree: 8%
 
 ## 發行版本 19.1 – 2019 年 2 月 {#release-19-1---february-2019}
 
-**有哪些新增功能？**
+**有哪些新功能？**
 
 <table> 
  <thead> 
@@ -516,7 +514,7 @@ ht-degree: 8%
 
 ## 發行版本 19.0 – 2019 年 1 月 {#release-19-0---january-2019}
 
-**有哪些新增功能？**
+**有哪些新功能？**
 
 <table> 
  <colgroup><col style="width: 30%"><col style="width: 70%"></colgroup>
@@ -558,7 +556,7 @@ ht-degree: 8%
  </tbody> 
 </table>
 
-**功能改善**
+**功能改進**
 
 * 「載入資料」活動中的新選項現在可讓您將後處理階段套用至包含已拒絕記錄的檔案(例如， 壓縮郵遞區號格式)。(CAMP-24521)
 * 「更新資料」活動中的新選項現在可讓您設定要上傳之資料的最大批次大小。 (CAMP-28400)

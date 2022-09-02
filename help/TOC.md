@@ -6,7 +6,7 @@ title: Campaign Standard 指南
 breadcrumb-title: Adobe Campaign Standard 文件
 source-git-commit: 1d1869a6c503773f4aaecb6a77f1b72585c88865
 workflow-type: ht
-source-wordcount: '0'
+source-wordcount: '1812'
 ht-degree: 100%
 
 ---

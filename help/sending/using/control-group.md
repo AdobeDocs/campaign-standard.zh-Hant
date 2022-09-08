@@ -9,10 +9,10 @@ feature: Control Groups
 role: User
 level: Intermediate
 exl-id: 553897d4-2652-453f-960e-bb2993889f37
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 9bfae9e956fa86254578eda821aedd240c81288c
 workflow-type: tm+mt
-source-wordcount: '1332'
-ht-degree: 100%
+source-wordcount: '1300'
+ht-degree: 98%
 
 ---
 
@@ -155,7 +155,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->您必須擁有[管理員角色](../../administration/using/users-management.md#functional-administrators) ，並成為 **[!UICONTROL All]** [組織單位](../../administration/using/organizational-units.md)的一 員 ，才能與 Adobe Campaign 連線。如果要限制特定使用者或使用者群組的存取權，請勿將其連結到能夠存取傳送記錄的 **[!UICONTROL All]** 單位。
+>若要存取傳送記錄，您必須具備 [管理員角色](../../administration/using/users-management.md#functional-administrators) 成為 **[!UICONTROL All]** [組織單位](../../administration/using/organizational-units.md). <!--If you would like to restrict access for a particular user or group of users, do not link it to **[!UICONTROL All]** units.-->
 
 ### 檢查傳送記錄 {#checking-logs}
 

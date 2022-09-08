@@ -8,9 +8,9 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: 84cf8f6e-9ba0-4cd5-80e2-a61cefa31e0a
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: ede4bd97ffddca4a5e24f1e4114d50ca5140a01d
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '827'
 ht-degree: 100%
 
 ---
@@ -68,7 +68,7 @@ Adobe Campaign 的功能可協助您遵循下列法規：
 
 * 「**被遺忘的權利**」(刪除要求) 也稱為「資料抹除」，其可賦予資料主體權利，讓資料庫控制人員得以清除其個人資料、停止進一步散發資料，並可能讓第三方停止處理資料。
 
-如要瞭解如何建立&#x200B;**存取**&#x200B;及&#x200B;**刪除**&#x200B;要求，以及 Adobe Campaign 如何處理這些要求，請參閱[實作步驟](../../start/using/privacy-requests.md#about-privacy-requests)。
+如要了解如何建立&#x200B;**存取**&#x200B;及&#x200B;**刪除**&#x200B;要求，以及 Adobe Campaign 如何處理這些要求，請參閱[實施步驟](../../start/using/privacy-requests.md#about-privacy-requests)。
 
 [此處](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=zh-Hant#privacy)也提供關於 Campaign Standard 隱私權管理的教學課程。
 
@@ -81,7 +81,7 @@ Adobe Campaign 的功能可協助您遵循下列法規：
 除了最新的&#x200B;**存取權限**&#x200B;及&#x200B;**被遺忘的權利**&#x200B;以外，Adobe Campaign 還提供其他對隱私權至關重要的功能：
 
 * [同意管理](#consent-management)：偏好設定管理的訂閱功能
-* [資料保留](#data-retention)：所有標準記錄表上的資料保留期間，可以使用工作流程設定其他保留期間
+* [資料保留](../../administration/using/data-retention.md)：所有標準記錄表上的資料保留期間，可以使用工作流程設定其他保留期間
 * [權限管理](#rights-management)：由具名權限管理的資料存取
 
 ### 同意管理 {#consent-management}
@@ -95,27 +95,6 @@ Adobe Campaign 自始至終都採用有助於管理同意部分的功能。透�
 如需「同意」管理的詳細資訊，請參閱[關於訂閱](../../audiences/using/about-subscriptions.md)及[開始使用登陸頁面](../../channels/using/getting-started-with-landing-pages.md)。
 
 除了 Adobe Campaign 提供的同意管理工具以外，您還可以追蹤消費者是否選擇退出個人資訊銷售。請參閱[本節](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa)。
-
-### 資料保留 {#data-retention}
-
-關於保留，Campaign 中的內建記錄表有預先設定的保留期間，通常將其資料儲存時間限制在六個月或更短時間。
-
-以下是內建表格的預設保留值。請注意，保留設定是由 Adobe 技術管理員在實施期間所設定，每個實作的值可能會因客戶需求而有所不同。
-
-* **整合追蹤**：6 個月
-* **傳送記錄**：6 個月
-* **追蹤記錄**：6 個月
-* **事件**：1 個月
-* **事件處理統計資料**：6 個月
-* **封存事件**：6 個月
-* **臨時實體**：7 天
-* **忽略的管線事件**：1 個月
-* **傳送警報**：1 個月
-* **匯出稽核**：6 個月
-
-與刪除類似，使用標準工作流程功能，即可設定任何自訂表格的保留期間。
-
-請洽詢 Adobe 顧問或技術管理員，以進一步瞭解保留，或是您是否需要為自訂表格設定保留。
 
 ### 權限管理 {#rights-management}
 

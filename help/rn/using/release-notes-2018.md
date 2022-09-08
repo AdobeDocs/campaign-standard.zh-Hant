@@ -6,20 +6,14 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
-source-git-commit: 177d9e0f8d61c000f01ac5e148dbd98fef0538ff
+source-git-commit: 1a2b2ab8b6d23ca021d196909dc3ebdc02fe4e9e
 workflow-type: tm+mt
-source-wordcount: '5401'
+source-wordcount: '5357'
 ht-degree: 4%
 
 ---
 
 # 發行說明 2018 年{#release-notes}
-
-正在尋找2018年的特定Adobe Campaign Standard版本？
-
-每個版本都提供新功能和修補程式。 按一下某個版本以檢視其內容。
-
-檢視最新 [檔案更新](../../rn/using/documentation-updates.md) Adobe Campaign Standard。 如果您想要尋找較新的版本，請參閱以下資訊 [頁面](../../rn/using/release-notes.md).
 
 ## 發行版本 18.9 – 2018 年 9 月 {#release-18-9---september-2018}
 

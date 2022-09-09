@@ -5,16 +5,23 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 9000b7737e8579aa2389d517d83fde958d8945fe
+source-git-commit: 5814bf107a252793911cd34c0dceed35ce58bf69
 workflow-type: tm+mt
-source-wordcount: '7221'
-ht-degree: 100%
+source-wordcount: '7251'
+ht-degree: 99%
 
 ---
 
 # 文件更新{#documentation-updates}
 
 除了 Adobe Campaign [發行版本](../../rn/using/release-notes.md)以外，本頁還列出 Adobe Campaign Standard 檔案中的所有全新更新。
+
+## 版本22.3 - 2022年秋冬 {#release-22-3}
+
+已發佈Campaign Standard22.3秋冬版的發行說明。 [深入了解](release-notes.md)
+
+資料保留期已更新，以反映22.3版本的變更。 [深入了解](../../administration/using/data-retention.md)
+
 
 ## 發行版本 22.2 – 2022 年 6 月 {#release-22-2}
 

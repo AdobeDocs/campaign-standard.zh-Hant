@@ -6,8 +6,8 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-source-git-commit: 686626b3f544358fcede7abb1806d66565c5abbb
-workflow-type: ht
+source-git-commit: bba1461acf0db47fd2eefca30f5e759c503a6dc7
+workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## 有哪些新功能？
 
-* **[Campaign 22.2 版本注意事項已上線](rn/using/release-notes.md)**<br/> 探索 Campaign Standard 22.2 版包含的新功能、改進及修復
+* **[Campaign 22.3 版本注意事項已上線](rn/using/release-notes.md)**<br/> 探索 Campaign Standard 22.2 版包含的新功能、改進及修復
 
 * **[Apple Mail 隱私保護常見問題集](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html?lang=zh-Hant)**<br/> 回應 Apple iOS 15 發佈的最初指南
 

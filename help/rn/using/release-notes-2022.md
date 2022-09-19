@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 source-git-commit: 20a59e064afeb93a2a6260439b09790692971071
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1098'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 97%
 * **Optimization in Workflow startup** - Adobe has added a new capability which can tune the number of workflows that start around the same time. This would help prevent CPU spikes that could have led to service interruptions or downtime. Adobe would enable it after 22.2 release. There is no further action item on customer regarding the same.
 -->
 
-* **協助工具** - Adobe 為提高應用程式的整體易用性修復了許多協助工具。 這些功能目前僅針對一組早期採用者啟用，並將在未來版本中推出給所有客戶使用。 協助工具的功能改善範例包括：
+* **協助工具** - Adobe 為提高應用程式的整體易用性修復了許多協助工具。 這些功能目前僅對部分早期採用者啟用，並將在未來版本向所有客戶提供。 協助工具的功能改善範例包括：
 
    * 確保每個螢幕上的聚焦元件都有可見的聚焦指示器
    * 建立頁面地標讓導覽更輕鬆

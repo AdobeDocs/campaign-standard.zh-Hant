@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
 source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '553'
+ht-degree: 37%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 0%
 
 <table>
 <tr>
-<td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#workflow-activities">工作流活動</a></p></td><td><img src="assets/do-not-localize/icon_activities.svg" width="60px"><p><a href="../../automating/using/workflow-created-query-with-complement.md">使用案例</a></p></td><td><img src="assets/do-not-localize/icon_filter.svg" width="60px"><p><a href="#filter-data">篩選資料</a></p></td>
-<td><img src="assets/do-not-localize/icon_manage.svg" width="60px"><p><a href="#import-export-data">導入/導出資料</a></p></td></tr>
+<td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#workflow-activities">工作流程活動</a></p></td><td><img src="assets/do-not-localize/icon_activities.svg" width="60px"><p><a href="../../automating/using/workflow-created-query-with-complement.md">使用案例</a></p></td><td><img src="assets/do-not-localize/icon_filter.svg" width="60px"><p><a href="#filter-data">篩選資料</a></p></td>
+<td><img src="assets/do-not-localize/icon_manage.svg" width="60px"><p><a href="#import-export-data">匯入/匯出資料</a></p></td></tr>
 </table>
 
 Adobe Campaign 提供完整的圖形環境，讓您設計複雜程式，包括細分、行銷活動執行、檔案處理等。 例如，您可以使用工作流程從伺服器下載檔案、解壓縮，然後將其中的記錄匯入 Adobe Campaign 資料庫。
@@ -36,19 +36,19 @@ Adobe Campaign 提供完整的圖形環境，讓您設計複雜程式，包括�
 
 >[!IMPORTANT]
 >
-> Adobe建議客戶不要同時運行20個以上的活動工作流執行，並建議客戶確定工作流執行的優先順序並將其分散。 有關詳細資訊，請參閱 [此頁](../../automating/using/best-practices-workflows.md)。
+> Adobe建議客戶不要同時執行超過20個作用中的工作流程，並排定工作流程執行的優先順序，並將其分散到不同的時間。 如需詳細資訊，請參閱 [本頁](../../automating/using/best-practices-workflows.md).
 
-## 工作流活動 {#workflow-activities}
+## 工作流程活動 {#workflow-activities}
 
 <img src="assets/do-not-localize/icon_workflows.svg" width="60px">
 
-各種活動可幫助您設計工作流。
+各種活動可協助您設計工作流程。
 
-[目標活動](../../automating/using/about-targeting-activities.md) 允許您通過定義集和拆分或使用交集、聯合或排除操作組合這些集來構建一個或多個目標。
+[目標定位活動](../../automating/using/about-targeting-activities.md) 允許您通過定義集和使用交集、聯合或排除操作拆分或組合這些集來構建一個或多個目標。
 
-與 [執行活動](../../automating/using/about-execution-activities.md)，協調您的工作流及其活動，同時 [渠道活動](../../automating/using/about-channel-activities.md) 允許您將Campaign Standard通信通道組合起來建立跨通道工作流。
+使用 [執行活動](../../automating/using/about-execution-activities.md)，協調您的工作流程及其活動，而 [通道活動](../../automating/using/about-channel-activities.md) 可讓您結合Campaign Standard通訊管道，以建立跨管道工作流程。
 
-終於， [資料管理活動](../../automating/using/about-data-management-activities.md) 允許您處理資料庫中的資料。
+最後， [資料管理活動](../../automating/using/about-data-management-activities.md) 允許您操控資料庫中的資料。
 
 閱讀全文:
 
@@ -60,9 +60,9 @@ Adobe Campaign 提供完整的圖形環境，讓您設計複雜程式，包括�
 
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 
-利用 **查詢編輯器** 從資料庫中篩選資料並構建填充，以更好地針對收件人。 查詢編輯器可用於在Campaign Standard中執行以下幾個操作：建立查詢類型訪問群體、定義傳遞目標或工作流活動中的總體。
+善用 **查詢編輯器** 從資料庫篩選資料並建置人口族群，以更佳地鎖定收件者。 查詢編輯器可用於執行Campaign Standard中的多個動作：在工作流程活動中建立查詢類型對象、定義傳遞目標或人口。
 
-查詢編輯器隨附 **預定義的篩選器和規則** 快速且方便的過濾。 但是，您也可以 **高級表達式編輯** 功能。 這允許您手動輸入條件和使用函式，以便形成您自己的規則。
+查詢編輯器隨附 **預先定義的篩選器和規則** 以快速輕鬆篩選。 不過，您也可以使用 **進階運算式編輯** 功能。 這可讓您手動輸入條件和使用函式，以便形成您自己的規則。
 
 閱讀全文:
 
@@ -70,21 +70,21 @@ Adobe Campaign 提供完整的圖形環境，讓您設計複雜程式，包括�
 * [進階運算式編輯](../../automating/using/advanced-expression-editing.md)
 * [函式清單](../../automating/using/list-of-functions.md)
 
-## 導入/導出資料 {#import-export-data}
+## 匯入/匯出資料 {#import-export-data}
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-Campaign Standard帶有 **資料管理功能** 導入和導出資料。
+Campaign Standard隨附數個 **資料管理功能** 匯入和匯出資料。
 
-[工作流資料管理活動](../../automating/using/about-data-management-activities.md) 允許您導入資料、對欄位執行成批更新、接收或發送檔案，或將未標識的資料連結到現有資源。
+[工作流程資料管理活動](../../automating/using/about-data-management-activities.md) 可讓您匯入資料、對欄位執行大量更新、接收或傳送檔案，或將未識別的資料連結至現有資源。
 
-與 [導入模板](../../automating/using/importing-data-with-import-templates.md)，通過簡化的導入功能管理管理員定義的某些類型的導入。
+使用 [匯入範本](../../automating/using/importing-data-with-import-templates.md)，可透過簡化的匯入功能，管理管理員定義的特定匯入類型。
 
-[導出日誌](../../automating/using/exporting-logs.md) 允許您通過簡單的工作流導出日誌資料，從而可以在您自己的報告或BI工具中分析營銷活動的結果。
+[匯出記錄檔](../../automating/using/exporting-logs.md) 可讓您透過簡單的工作流程匯出記錄檔資料，以便在您自己的報表或BI工具中分析行銷活動的結果。
 
-利用 [包](../../automating/using/managing-packages.md) 在不同市場活動實例之間交換資源，例如複製實例的配置，或將資料從伺服器傳輸到包括自定義資源在內的另一個市場活動實例。
+運用 [套件](../../automating/using/managing-packages.md) 在不同的促銷活動例項之間交換資源，例如複製例項的設定，或將資料從伺服器傳輸至其他伺服器，包括自訂資源。
 
-終於， [導出清單](../../automating/using/exporting-lists.md) 允許您從Campaign Standard中導出任何清單，例如，test配置檔案清單、隔離電子郵件地址清單等。
+最後， [匯出清單](../../automating/using/exporting-lists.md) 可讓您從Campaign Standard匯出任何清單，例如測試設定檔清單、隔離電子郵件地址清單等。
 
 閱讀全文:
 
@@ -93,6 +93,6 @@ Campaign Standard帶有 **資料管理功能** 導入和導出資料。
 
 ## 額外資源
 
-* [流程和資料管理教程視頻](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/managing-processes-and-data/creating-a-workflow.html?lang=zh-Hant)
+* [程式與資料管理教學課程影片](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/managing-processes-and-data/creating-a-workflow.html?lang=zh-Hant)
 * [技術工作流程](../../administration/using/technical-workflows.md)
 * [開始使用 Campaign Standard 資料模型](../../developing/using/get-started-data-model.md)

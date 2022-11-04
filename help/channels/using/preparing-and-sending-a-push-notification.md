@@ -9,7 +9,7 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 41b83014-aea9-4ec2-b20e-c0a05bcad503
-source-git-commit: add823f51b0907628ed52cb2f4453743bc939cbf
+source-git-commit: 708bdc1d5dc1c30d609ba0fa1c17debe403afd72
 workflow-type: tm+mt
 source-wordcount: '852'
 ht-degree: 4%
@@ -45,8 +45,6 @@ ht-degree: 4%
 1. 輸入推播通知屬性，並在 **[!UICONTROL Associate a Mobile App to a delivery]** 欄位。
 
    請注意，下拉式清單將同時顯示SDK V4和Experience PlatformSDK應用程式。
-
-   {{$include /help/_includes/channel-activities-name-id-fields.md}}
 
    ![](assets/push_notif_properties.png)
 

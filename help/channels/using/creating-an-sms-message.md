@@ -9,9 +9,9 @@ feature: SMS
 role: User
 level: Beginner
 exl-id: 36442480-c6b6-4b7d-b566-40169a7c8544
-source-git-commit: add823f51b0907628ed52cb2f4453743bc939cbf
+source-git-commit: 708bdc1d5dc1c30d609ba0fa1c17debe403afd72
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '538'
 ht-degree: 96%
 
 ---
@@ -43,9 +43,9 @@ ht-degree: 96%
 
 1. 輸入 SMS 的一般屬性。
 
-   {{$include /help/_includes/channel-activities-name-id-fields.md}}
-
    ![](assets/sms_creation_2.png)
+
+   活動標籤及其 ID 都會顯示在介面中，但訊息收件者看不到這些內容。
 
 1. 指定您要設定為目標的對象。您可以定義並結合規則，以選取現有對象或直接設定目標母體。
 

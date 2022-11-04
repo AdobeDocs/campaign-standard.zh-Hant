@@ -8,7 +8,7 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-source-git-commit: add823f51b0907628ed52cb2f4453743bc939cbf
+source-git-commit: 708bdc1d5dc1c30d609ba0fa1c17debe403afd72
 workflow-type: tm+mt
 source-wordcount: '1246'
 ht-degree: 84%
@@ -61,8 +61,6 @@ Adobe Campaign 提供兩種類型的清單：
 1. 輸入應用程式內訊息屬性，並在 **[!UICONTROL Associate a Mobile App to a delivery]** 欄位中選取您的行動應用程式。
 
    如果您在下拉式清單中沒有看到任何應用程式，請確定您的行動應用程式位於 **已配置** 狀態。 應用程式 **準備配置** 狀態不會顯示在清單中。 如需行動應用程式設定的詳細資訊，請參閱本[頁面](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)。
-
-   {{$include /help/_includes/channel-activities-name-id-fields.md}}
 
    ![](assets/inapp_creating_3.png)
 

@@ -8,9 +8,9 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 4483e469-0a2b-494d-b768-950168759727
-source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
+source-git-commit: add823f51b0907628ed52cb2f4453743bc939cbf
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '531'
 ht-degree: 19%
 
 ---
@@ -31,7 +31,9 @@ ht-degree: 19%
    >
    >預設會隱藏後續與 A/B 測試範本。勾選左側的方塊( **[!UICONTROL Filter]** 側面面板)。
 
-1. 輸入電子郵件的一般屬性。 您可以在 **標籤** 欄位和編輯ID。 活動名稱及其ID都會顯示在介面中，但訊息收件者看不到。
+1. 輸入電子郵件的一般屬性。 您可以在 **標籤** 欄位和編輯ID。
+
+   {{$include /help/_includes/channel-activities-name-id-fields.md}}
 
    您可以新增使用者可在行銷活動內容中看到的說明。
 

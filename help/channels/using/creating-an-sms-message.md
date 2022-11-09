@@ -9,10 +9,10 @@ feature: SMS
 role: User
 level: Beginner
 exl-id: 36442480-c6b6-4b7d-b566-40169a7c8544
-source-git-commit: 708bdc1d5dc1c30d609ba0fa1c17debe403afd72
+source-git-commit: d234d7fab039b602eff06c03ba0d8f7ce2a0cf3f
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 96%
+source-wordcount: '561'
+ht-degree: 88%
 
 ---
 
@@ -45,7 +45,11 @@ ht-degree: 96%
 
    ![](assets/sms_creation_2.png)
 
-   活動標籤及其 ID 都會顯示在介面中，但訊息收件者看不到這些內容。
+   >[!NOTE]
+   >
+   >活動名稱及其ID都會顯示在介面中，但訊息收件者看不到。
+   >
+   >請確定ID欄位不含任何空白字元，以避免任何差異，例如在與Adobe Analytics整合時。
 
 1. 指定您要設定為目標的對象。您可以定義並結合規則，以選取現有對象或直接設定目標母體。
 

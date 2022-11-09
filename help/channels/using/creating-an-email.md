@@ -8,10 +8,10 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 4483e469-0a2b-494d-b768-950168759727
-source-git-commit: 708bdc1d5dc1c30d609ba0fa1c17debe403afd72
+source-git-commit: d234d7fab039b602eff06c03ba0d8f7ce2a0cf3f
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 19%
+source-wordcount: '574'
+ht-degree: 18%
 
 ---
 
@@ -31,7 +31,13 @@ ht-degree: 19%
    >
    >預設會隱藏後續與 A/B 測試範本。勾選左側的方塊( **[!UICONTROL Filter]** 側面面板)。
 
-1. 輸入電子郵件的一般屬性。 您可以在 **標籤** 欄位和編輯ID。 活動名稱及其ID都會顯示在介面中，但訊息收件者看不到。
+1. 輸入電子郵件的一般屬性。 您可以在 **標籤** 欄位和編輯ID。
+
+   >[!NOTE]
+   >
+   >活動名稱及其ID都會顯示在介面中，但訊息收件者看不到。
+   >
+   >請確定ID欄位不含任何空白字元，以避免任何差異，例如在與Adobe Analytics整合時。
 
    您可以新增使用者可在行銷活動內容中看到的說明。
 

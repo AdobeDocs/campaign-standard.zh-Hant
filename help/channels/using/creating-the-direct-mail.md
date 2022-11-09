@@ -9,10 +9,10 @@ feature: Direct Mail
 role: User
 level: Intermediate
 exl-id: 3e94c872-bf44-4d4c-b6eb-7731021c7931
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: d234d7fab039b602eff06c03ba0d8f7ce2a0cf3f
 workflow-type: tm+mt
-source-wordcount: '593'
-ht-degree: 95%
+source-wordcount: '636'
+ht-degree: 88%
 
 ---
 
@@ -35,6 +35,12 @@ ht-degree: 95%
 1. 輸入傳送的一般屬性。
 
    ![](assets/direct_mail_3.png)
+
+   >[!NOTE]
+   >
+   >活動名稱及其ID都會顯示在介面中，但訊息收件者看不到。
+   >
+   >請確定ID欄位不含任何空白字元，以避免任何差異，例如在與Adobe Analytics整合時。
 
 1. 定義要包含在擷取檔案中的對象，以及測試和補漏白設定檔。[定義直接郵件對象](../../channels/using/defining-the-direct-mail-audience.md).
 

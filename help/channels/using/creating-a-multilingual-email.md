@@ -8,7 +8,7 @@ feature: Email
 role: User
 level: Intermediate
 exl-id: fcf192cb-f2d5-4340-bc2f-add0c195ad4e
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: d234d7fab039b602eff06c03ba0d8f7ce2a0cf3f
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 24%
@@ -28,6 +28,7 @@ ht-degree: 24%
    ![](assets/multi_create1.png)
 
 1. 定義電子郵件的一般屬性與目標對象，就像標準電子郵件一樣。請參閱[建立對象](../../audiences/using/creating-audiences.md)區段。
+
 1. 在建立精靈的第四個步驟中，定義變體選項。 若 [多語言範本](../../channels/using/multilingual-messages-template.md) 已包含所有正確的參數，您可以直接按一下 **[!UICONTROL Create]** 按鈕。
 
    ![](assets/multi_create4.png)

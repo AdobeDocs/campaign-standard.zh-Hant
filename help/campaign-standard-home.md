@@ -6,9 +6,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-source-git-commit: bba1461acf0db47fd2eefca30f5e759c503a6dc7
-workflow-type: ht
-source-wordcount: '254'
+source-git-commit: 7a5d317fb1ebef91a72da73aec387fa671ccf19a
+workflow-type: tm+mt
+source-wordcount: '232'
 ht-degree: 100%
 
 ---
@@ -19,9 +19,7 @@ ht-degree: 100%
 
 ## 有哪些新功能？
 
-* **[Campaign 22.3 版本注意事項已上線](rn/using/release-notes.md)**<br/> 探索 Campaign Standard 22.2 版包含的新功能、改進及修復
-
-* **[Apple Mail 隱私保護常見問題集](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html?lang=zh-Hant)**<br/> 回應 Apple iOS 15 發佈的最初指南
+* **[Campaign 22.3 版本注意事項已上線](rn/using/release-notes.md)**<br/> 探索 Campaign Standard 22.3 版包含的新功能、改進及修復
 
 * **[Campaign - RTCDP 整合](integrating/using/get-started-sources-destinations.md)**<br/>瞭解如何在 Campaign 和即時客戶資料平台 (RTCDP) 之間共用資料
 

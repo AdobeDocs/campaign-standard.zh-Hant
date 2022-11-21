@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: ccf73563-f0f8-4397-ba96-7c5727562acd
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 88035d0e4f77d66e8b2a74650857bf4ef45744c3
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 86%
+source-wordcount: '438'
+ht-degree: 79%
 
 ---
 
@@ -73,6 +73,12 @@ ht-degree: 86%
 1. 按一下 **[!UICONTROL File structure]** 索引標籤，為要匯出的檔案設定輸出、日期和編號格式。
 
    核取 **[!UICONTROL Export labels instead of internal values of enumerations]** 選項，以備您匯出分項清單時使用。此選項可讓您擷取較短的標籤，與 ID 不同，這些標籤很容易理解。
+
+   ![](assets/extract-file-file-structure.png)
+
+   >[!NOTE]
+   >
+   >如果您想要將資料擷取為具有特定編碼的CSV檔案，請先選取「文字」輸出格式。 從下拉式清單中選擇所需的編碼，然後將輸出格式變更為「CSV(Excel)」。
 
 1. 在 **[!UICONTROL Properties]** 索引標籤中，選取 **[!UICONTROL Do not generate a file if the inbound transition is empty]** 選項，以避免在入站轉變為空時，在 SFTP 伺服器上建立和上傳空白檔案。
 1. 確認活動的設定並儲存工作流程。

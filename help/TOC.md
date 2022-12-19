@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: 說明中心，以瞭解使用 Campaign Standard 所需的主要功能、工作、設定和其他資源。
 title: Campaign Standard 指南
 breadcrumb-title: Adobe Campaign Standard 文件
-source-git-commit: 1d1869a6c503773f4aaecb6a77f1b72585c88865
-workflow-type: ht
-source-wordcount: '1812'
+source-git-commit: e9d0add383410681dfee43c5a67d37455bc31373
+workflow-type: tm+mt
+source-wordcount: '1814'
 ht-degree: 100%
 
 ---
@@ -163,7 +163,7 @@ ht-degree: 100%
       + [預覽傳遞](sending/using/previewing-messages.md)
       + [傳送校樣](sending/using/sending-proofs.md)
       + [使用目標設定檔測試電子郵件訊息](sending/using/testing-messages-using-target.md)
-      + [由 AI 支援電子郵件](sending/using/predictive.md)
+      + [預測性使用者參與能力](sending/using/predictive.md)
       + [電子郵件轉譯](sending/using/email-rendering.md)
       + [新增控制組](sending/using/control-group.md)
       + [使用陷阱](sending/using/using-traps.md)

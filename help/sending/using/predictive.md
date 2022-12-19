@@ -8,7 +8,7 @@ feature: Send Time Optimization
 role: User
 level: Intermediate
 exl-id: e1cb04e6-eb38-4bcc-b071-321cc11ccc7e
-source-git-commit: e9d0add383410681dfee43c5a67d37455bc31373
+source-git-commit: 16801092547f41dd94f12e4dbe9c9afe0b550a36
 workflow-type: tm+mt
 source-wordcount: '1078'
 ht-degree: 56%
@@ -20,6 +20,7 @@ ht-degree: 56%
 使用 Campaign，您可以最佳化客戶歷程的設計和傳送，以預測每個人的參與偏好。Adobe Campaign的「傳送時間最佳化」和「預測性參與計分」採用AI和機器學習技術，可根據歷史參與量度，分析並預測開放率、最佳傳送時間和可能的流失率。
 
 >[!IMPORTANT]
+>
 >這項功能無法立即在產品中使用。此實作需要 Adobe Consulting 參與。請洽詢您的 Adobe 代表以瞭解更多資訊。
 
 Adobe Campaign提供兩種新的機器學習模型： **預測性傳送時間最佳化** 和 **預測性參與計分**. 這兩個模型都是機器學習模型，專用於設計和提供更好的客戶歷程。
@@ -35,6 +36,7 @@ Adobe Campaign提供兩種新的機器學習模型： **預測性傳送時間最
 在「預測性傳送時間最佳化」模型中，有兩個子模型：
 
 * **預測性的開啟傳送時間是將通訊傳送至客戶，以最大化開啟的最佳時機**
+
 * **點按的預測性傳送時間是必須傳送通訊給客戶的最佳時機，才能使點按次數達到最大**
 
 **模型輸入**：傳遞日誌、追蹤日誌和設定檔屬性（非 PII）
@@ -76,7 +78,9 @@ Adobe Campaign提供兩種新的機器學習模型： **預測性傳送時間最
 
 ### 在最佳時機傳送訊息{#use-predictive-send-time}
 
-為了讓電子郵件在每個設定檔的最佳時間點外傳，必須使用選項排程傳送 **[!UICONTROL Send at a custom date defined by a formula]**。在[本節中](../../sending/using/computing-the-sending-date.md)瞭解如何運算傳送日期。
+為了讓電子郵件在每個設定檔的最佳時間點外傳，必須使用選項排程傳送 **[!UICONTROL Send at a custom date defined by a formula]**。
+
+在[本節中](../../sending/using/computing-the-sending-date.md)瞭解如何運算傳送日期。
 
 該公式必須填入特定日期的最佳特定時間，才能完成傳送。
 
@@ -85,7 +89,7 @@ Adobe Campaign提供兩種新的機器學習模型： **預測性傳送時間最
 公式範例：
 
 ```
-AddHours([currentDelivery/scheduling/@contactDate], 
+AddHours([currentDelivery/scheduling/@contactDate],
 [cusSendTimeScoreByClickprofile_link/@EMAIL_BEST_TIME_TO_CLICK_WEDNESDAY])
 ```
 

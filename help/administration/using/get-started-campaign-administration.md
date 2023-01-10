@@ -53,7 +53,7 @@ Adobe Campaign是雲端型解決方案，為管理員提供設定應用程式的
 
 邀請使用者存取應用程式並管理 **安全組**，這些是一組使用者，在您的組織內共用相同的角色和權限。 依預設，Adobe Campaign提供 **角色** 這可讓您定義指派給使用者和使用者群組的統一授權。 結合 **組織單位**，角色可讓使用者檢視介面的篩選檢視，並定義其對不同功能的存取權。
 
-Campaign Standard也可讓您監控安全相關資訊。 您可以透過 **[!UICONTROL Export audits]** 畫面，並運用 **[!UICONTROL Licenses]** 螢幕監控組織內所有已安裝的Campaign授權，以及不同資訊，例如組建編號、發行版本和合約條款。
+Campaign Standard也可讓您監視與安全性相關的資訊。 您可以透過 **[!UICONTROL Export audits]** 畫面，並運用 **[!UICONTROL Licenses]** 螢幕監控組織內所有已安裝的Campaign授權，以及不同資訊，例如組建編號、發行版本和合約條款。
 
 閱讀全文:
 

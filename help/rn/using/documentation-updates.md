@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 88035d0e4f77d66e8b2a74650857bf4ef45744c3
+source-git-commit: bfa34136950218d2fd56870247d39be00c725427
 workflow-type: ht
-source-wordcount: '7293'
+source-wordcount: '7279'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 已發佈 Campaign Standard 22.3 秋冬版的版本注意事項。 [深入了解](release-notes.md)
 
-資料保留期已更新，以反映 22.3 版本的變更。 [深入了解](../../administration/using/data-retention.md)
+<!--Data retention periods have been updated to reflect changes coming with 22.3 release. [Read more](../../administration/using/data-retention.md)-->
 
 
 ## 發行版本 22.2 – 2022 年 6 月 {#release-22-2}

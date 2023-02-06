@@ -8,10 +8,10 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: 7243a97bdc8f0b6ecba42b606d048a3fbd322a63
 workflow-type: tm+mt
-source-wordcount: '1268'
-ht-degree: 30%
+source-wordcount: '1365'
+ht-degree: 25%
 
 ---
 
@@ -77,7 +77,7 @@ This menu lists quarantined elements for **Email**, **SMS** and **Push notificat
 
 >[!NOTE]
 >
->隔離區數量增加是正常的效果，與資料庫的「損耗」有關。 例如，如果電子郵件地址的存留期被視為三年，而收件者表格每年增加　50%，則隔離區數量的增加計算如下：年度結束 1：(1*0.33)/(1+0.5)=22%。年度結束 2：((1.22*0.33)+0.33)/(1.5+0.75)=32.5%。
+>隔離區數量增加是正常的效果，與資料庫的「損耗」有關。 例如，如果電子郵件地址的存留期被視為三年，而收件者表格每年增加50%，則隔離區數量的增加計算如下：年底1:(1)&#42;0.33)/(1+0.5)=22%。 2年末：(1.22&#42;0.33)+0.33)/(1.5+0.75)=32.5%。
 
 篩選器可協助您瀏覽清單。 您可以依地址、狀態及/或通道進行篩選。
 
@@ -97,24 +97,14 @@ This menu lists quarantined elements for **Email**, **SMS** and **Push notificat
 
 ![](assets/quarantines-create-last-delivery.png)
 
-### 移除隔離的地址 {#removing-a-quarantined-address}
+## 從隔離區中刪除地址 {#removing-a-quarantined-address}
 
-如有需要，您可以手動從隔離清單中移除地址。 此外，符合特定條件的位址會由 **[!UICONTROL Database cleanup]** 工作流程。 (如需技術工作流程的詳細資訊，請參閱 [本節](../../administration/using/technical-workflows.md#list-of-technical-workflows).)
 
-要從隔離清單中手動刪除地址，請執行以下操作之一。
 
->[!IMPORTANT]
-從隔離區手動刪除電子郵件地址意味著您將重新開始傳送至此地址。 因此，這可能會對您的傳遞能力和IP信譽造成嚴重影響，最終可能導致您的IP位址或傳送網域遭到封鎖。 考慮從隔離區中移除任何地址時，請格外小心。 如有疑問，請聯絡傳遞能力專家。
 
-* 從 **[!UICONTROL Administration > Channels > Quarantines > Addresses]** 清單和選取 **[!UICONTROL Delete element]**.
+### 自動更新 {#unquarantine-auto}
 
-   ![](assets/quarantine-delete-address.png)
-
-* 選擇地址並更改其 **[!UICONTROL Status]** to **[!UICONTROL Valid]**.
-
-   ![](assets/quarantine-valid-status.png)
-
-   您也可以將其狀態變更為 **[!UICONTROL On allowlist]**. 在此情況下，地址仍保留在隔離清單中，但將系統地定位該地址，即使遇到錯誤亦然。
+符合特定條件的地址會由資料庫清理工作流程自動從隔離清單中刪除。 深入了解技術工作流程，請參閱 [本節](../../administration/using/technical-workflows.md#list-of-technical-workflows).
 
 在下列情況下，地址會自動從隔離清單中刪除：
 
@@ -124,10 +114,43 @@ This menu lists quarantined elements for **Email**, **SMS** and **Push notificat
 
 其狀態接著會變更為 **[!UICONTROL Valid]**.
 
->[!IMPORTANT]
-地址位於 **[!UICONTROL Quarantine]** 或 **[!UICONTROL On denylist]** 即使收到電子郵件，狀態也不會自動移除。
-
 要執行的最大重試次數，如果 **[!UICONTROL Erroneous]** 現在，狀態和兩次重試之間的最小延遲會根據IP在歷史和目前指定網域的執行狀況而定。
+
+
+>[!IMPORTANT]
+>
+>地址位於 **[!UICONTROL Quarantine]** 或 **[!UICONTROL Denylisted]** 即使收到電子郵件，狀態也不會遭到移除。
+
+
+### 手動更新 {#unquarantine-manual}
+
+您也可以手動取消地址隔離。  要手動從隔離清單中刪除地址，可以從隔離清單中將其刪除，或將其狀態更改為 **[!UICONTROL Valid]**.
+
+* 從 **[!UICONTROL Administration > Channels > Quarantines > Addresses]** 清單和選取 **[!UICONTROL Delete element]**.
+
+   ![](assets/quarantine-delete-address.png)
+
+* 選擇地址並更改其 **[!UICONTROL Status]** to **[!UICONTROL Valid]**.
+
+   ![](assets/quarantine-valid-status.png)
+
+
+### 大量更新 {#unquarantine-bulk}
+
+您可能需要對隔離清單執行大量更新，例如在ISP中斷時。 在這種情況下，電子郵件會錯誤標示為退信，因為無法成功傳送給收件者。 必須從隔離清單中刪除這些地址。
+
+若要執行此動作，請建立工作流程並新增 **[!UICONTROL Query]** 活動，以篩選所有受影響的收件者。 識別後，即可從隔離清單中移除，並納入未來的Campaign電子郵件傳送。
+
+根據事件的時間範圍，以下是此查詢的建議准則。
+
+* **錯誤文本（隔離文本）** 包含「550-5.1.1」和 **錯誤文本（隔離文本）** 包含&quot;support.ISP.com&quot;
+
+   其中「support.ISP.com」可以是：&quot;support.apple.com&quot;或&quot;support.google.com&quot;，例如
+
+* **更新狀態(@lastModified)** MM/DD/YYYY HH時或之後:MM:SS AM
+* **更新狀態(@lastModified)** 在MM/DD/YYYY HH之前或之前:MM:SS PM
+
+取得受影響收件者的清單後，請新增 **[!UICONTROL Update data]** 活動將其電子郵件地址狀態設定為 **[!UICONTROL Valid]** 以便將其從隔離清單中由 **[!UICONTROL Database cleanup]** 工作流程。 您也可以從隔離表格中刪除它們。
 
 ## 將地址傳送到隔離區的條件 {#conditions-for-sending-an-address-to-quarantine}
 
@@ -145,7 +168,8 @@ Adobe Campaign 會根據傳送失敗類型和錯誤訊息限定期間指派的�
 如果使用者將電子郵件歸類為垃圾訊息([反饋迴路](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops))，則訊息會自動重新導向至由Adobe管理的技術信箱。 之後，系統會自動將使用者的電子郵件地址傳送到狀態為　**[!UICONTROL On denylist]**　的隔離區。此狀態僅指位址，而設定檔不在封鎖清單上，因此使用者會繼續收到SMS訊息和推播通知。
 
 >[!NOTE]
-Adobe Campaign　中的隔離區會區分大小寫。請務必以小寫匯入電子郵件地址，如此一來，稍後就不會將它們重新設為目標。
+>
+>Adobe Campaign　中的隔離區會區分大小寫。請務必以小寫匯入電子郵件地址，如此一來，稍後就不會將它們重新設為目標。
 
 在隔離地址清單中（請參閱[識別整個平台的隔離地址](#identifying-quarantined-addresses-for-the-entire-platform)），**[!UICONTROL Error reason]**　欄位會表示所選地址被置於隔離區的原因。
 

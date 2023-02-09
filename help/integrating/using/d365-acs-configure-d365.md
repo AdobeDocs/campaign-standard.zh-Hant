@@ -8,7 +8,7 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: 57e85f8e-65b4-44ea-98e6-0c555acf6dee
-source-git-commit: 8b450d6570ae26a32daab185621319dd1ac3e983
+source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
 source-wordcount: '913'
 ht-degree: 1%
@@ -136,5 +136,5 @@ OAuth存取權杖可讓整合工具透過Web API與您的Microsoft Dynamics 365�
 
 **相關主題**
 
-* [配置AdobeIO for Microsoft Dynamics 365整合](../../integrating/using/d365-acs-configure-adobe-io.md) 是設定整合的下一步
+* [設定Adobe Developer for Microsoft Dynamics 365整合](../../integrating/using/d365-acs-configure-adobe-io.md) 是設定整合的下一步
 * [開始使用自助服務整合應用程式](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) 包含啟動及執行整合的完整步驟清單。

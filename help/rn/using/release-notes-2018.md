@@ -6,10 +6,10 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
-source-git-commit: 1a2b2ab8b6d23ca021d196909dc3ebdc02fe4e9e
+source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '5357'
-ht-degree: 4%
+source-wordcount: '5355'
+ht-degree: 3%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td> AdobeLaunch整合行動應用程式（測試版）<br /> </td> 
-   <td> Adobe與Adobe Campaign的整合現在使用行動SDK V5，簡化並自動化Campaign中的行動應用程式啟用程式。<br /> 如需詳細資訊，請參閱 <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">詳細檔案</a>.<br /> </td> 
+   <td> Adobe與Adobe Campaign的整合現在使用行動SDK V5，簡化並自動化Campaign中的行動應用程式啟用程式。<br /> 如需詳細資訊，請參閱 <a href="https://helpx.adobe.com/tw/campaign/kb/configuring-app-sdk.html">詳細檔案</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -195,7 +195,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td> GDPR:核心服務整合<br /> </td> 
-   <td> 隱私權核心服務整合可讓您透過單一JSON API呼叫，在多解決方案內容中自動處理GDPR請求。 <br /> 從隱私權核心服務推送至所有Experience Cloud解決方案的GDPR請求，現在會由Campaign自動處理。 <br /> 如需詳細資訊，請參閱 <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=zh-Hant">詳細檔案</a>.<br /> </td> 
+   <td> 隱私權核心服務整合可讓您透過單一JSON API呼叫，在多解決方案內容中自動處理GDPR請求。 <br /> 從隱私權核心服務推送至所有Experience Cloud解決方案的GDPR請求，現在會由Campaign自動處理。 <br /> 如需詳細資訊，請參閱 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">詳細檔案</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 推播改良功能 — 詳細的傳送意見反應<br /> </td> 
@@ -297,7 +297,7 @@ _自訂資源_
     <ul> 
      <li> 訪問權限：可讓資料主體接收資料控制者擷取的個人資料副本，可能包括儲存在Adobe Campaign中的資料。 </li> 
      <li> 刪除權限：為資料主體賦予權利，讓資料控制者清除其個人資料，可能包括儲存在Adobe Campaign中的資料。 </li> 
-    </ul> 如需詳細資訊，請參閱<a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">詳細文件</a>以瞭解詳情。<br /> </td> 
+    </ul> 如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">詳細文件</a>以瞭解詳情。<br /> </td> 
   </tr> 
   <tr> 
    <td> 適用於電子郵件的Creative Designer（測試版）<br /> </td> 

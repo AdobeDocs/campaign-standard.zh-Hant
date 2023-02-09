@@ -6,10 +6,10 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
-source-git-commit: 1a2b2ab8b6d23ca021d196909dc3ebdc02fe4e9e
+source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '4569'
-ht-degree: 6%
+source-wordcount: '4562'
+ht-degree: 5%
 
 ---
 
@@ -392,7 +392,7 @@ _推播通知_
   </tr> 
   <tr> 
    <td> Dreamweaver整合(Labs)<br /> </td> 
-   <td> 透過Adobe Campaign和Dreamweaver整合，您現在擁有整合的程式，可透過Adobe解決方案建立電子郵件行銷活動。<br /> 您可以在Dreamweaver中編輯Adobe Campaign電子郵件，並讓內容在兩個解決方案之間順暢同步。<br /> 在初始版本中，整合是以「Labs」功能的形式提供，且僅適用於Dreamweaver搶鮮版測試版。 如果您想要啟用它，請聯繫AC-DW-integration@adobe.com。<br /> 如需詳細資訊，請參閱 <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">影片</a>.<br /> </td> 
+   <td> 透過Adobe Campaign和Dreamweaver整合，您現在擁有整合的程式，可透過Adobe解決方案建立電子郵件行銷活動。<br /> 您可以在Dreamweaver中編輯Adobe Campaign電子郵件，並讓內容在兩個解決方案之間順暢同步。<br /> 在初始版本中，整合是以「Labs」功能的形式提供，且僅適用於Dreamweaver搶鮮版測試版。 如果您想要啟用它，請聯繫AC-DW-integration@adobe.com。<br /> 如需詳細資訊，請參閱 <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=zh-Hant">影片</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 手動傳送時間最佳化<br /> </td> 
@@ -489,9 +489,9 @@ _工作流程_
   </tr> 
   <tr> 
    <td> 交易式訊息API<br /> </td> 
-   <td> 交易式訊息API現在可透過 <a href="https://docs.campaign.adobe.com/doc/standard/en/adobeio.html">adobe.io</a>，讓使用和監控更輕鬆：<br /> 
+   <td> 交易式訊息API現已可用，讓使用和監控變得更輕鬆：<br /> 
     <ul> 
-     <li> 您可以從adobe.io平台報告和監控功能中受益。 </li> 
+     <li> 您可以受益於Adobe Developer平台報告和監控功能。 </li> 
      <li> 驗證現在是使用adobe.io代號型驗證（而非IP允許清單）來執行，讓安全性程式更簡單。 </li> 
      <li> 所有API現在都整合在單一平台上，如果您已支援設定檔和服務API，可讓您將交易式訊息功能新增至整合比以往更簡單。 </li> 
     </ul> </td> 

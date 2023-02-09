@@ -8,10 +8,10 @@ feature: Email Design
 role: User
 level: Beginner
 exl-id: 85d6361b-6c27-42c0-bac4-774b71625bf8
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '1248'
-ht-degree: 86%
+source-wordcount: '1239'
+ht-degree: 85%
 
 ---
 
@@ -119,7 +119,7 @@ ht-degree: 86%
 
 * 電子郵件設計工具不支援反向連結中繼標籤。
 
-有關訊息的更多設計與一般最佳實務，請參閱下列 Adobe Campaign 逐步指南：[使用 Adobe Campaign 傳送最佳實務](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/delivery-best-practices.html?lang=zh-Hant)。
+有關訊息的更多設計與一般最佳實務，請參閱下列 Adobe Campaign 逐步指南：[使用 Adobe Campaign 傳送最佳實務](../../sending/using/delivery-best-practices.md)。
 
 ### 更新片段 {#email-designer-updates}
 

@@ -4,10 +4,10 @@ description: 「了解如何自訂顯示以及在Adobe Campaign Standard中的�
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '785'
-ht-degree: 11%
+source-wordcount: '776'
+ht-degree: 10%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 11%
 
 Adobe Campaign設定檔代表儲存在資料庫中的所有連絡人。 每個設定檔都對應至資料庫中的一個項目，該項目包含要定位、限定和個別追蹤該設定檔的必要資訊。 這表示設定檔可以是：客戶、潛在客戶、訂閱電子報的個人、收件者、使用者或任何其他面額（視組織而定）。
 
-**閱讀全文**
+**深入了解**
 
 * [關於設定檔](../../audiences/using/about-profiles.md)
 * [存取組織中的作用中設定檔數目](../../audiences/using/active-profiles.md)
@@ -74,7 +74,7 @@ Campaign Standard提供數種工具，可協助您擴充行銷資料庫。 本�
 
 如需登錄頁面的詳細資訊，請參閱 [專屬檔案](../../channels/using/getting-started-with-landing-pages.md).
 
-**閱讀全文**
+**深入了解**
 
 * xx
 * xx
@@ -88,7 +88,7 @@ Campaign Standard與Microsoft Dynamics 365的整合可讓您將聯絡資料從Mi
 >
 >請注意，Campaign Standard-Microsoft Dynamics 365連接器目前處於有限可用性，且受數個限制的限制，詳情請見本檔案。
 
-**閱讀全文**
+**深入了解**
 
 * xx
 * xx
@@ -101,7 +101,7 @@ Campaign StandardAPI可讓您執行更新資料庫的操作，例如設定檔或
 >
 >在透過API呼叫執行設定檔大量建立或更新之前，請檢查與您的授權合約相對應的比例限制。 如需詳細資訊，請參閱[此頁面](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers)。
 
-**閱讀全文**
+**深入了解**
 
 * xx
 * xx
@@ -114,7 +114,7 @@ Campaign StandardAPI可讓您執行更新資料庫的操作，例如設定檔或
 
 有了工作流程和查詢編輯器，您可以根據您對不同行銷活動的資訊、活動、語言、偏好設定或行銷記錄，建立將會被您不同行銷活動鎖定的對象。 例如，這可讓您篩選訂閱的設定檔，或根據不限數量的條件建立目標對象。
 
-**閱讀全文**
+**深入了解**
 
 * [關於對象](../../audiences/using/about-audiences.md)
 * [建立對象](../../audiences/using/creating-audiences.md)
@@ -125,9 +125,9 @@ Campaign StandardAPI可讓您執行更新資料庫的操作，例如設定檔或
 
 GDPR 是歐盟 (EU) 最新制定的一項隱私法規，用於協調和順應時代更新資料保護需求。GDPR 適用於所持有資料的主體居住於歐盟的 Adobe Campaign 客戶。除了Adobe Campaign中已提供的隱私權功能（包括同意管理、資料保留設定和使用者角色）之外，我們還以資料處理者的角色，利用此機會加入其他功能，以協助您做好準備，以便擔任資料控管者，處理特定GDPR請求。
 
-請參閱 [指南](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=zh-Hant) 深入了解Adobe Campaign為協助您符合GDPR所提供的工具和功能。
+請參閱 [本節](../../start/using/privacy.md) 深入了解Adobe Campaign為協助您符合GDPR所提供的工具和功能。
 
-**閱讀全文**
+**深入了解**
 
 * xx
 * xx

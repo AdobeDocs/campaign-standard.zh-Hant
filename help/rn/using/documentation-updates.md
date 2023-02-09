@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: bfa34136950218d2fd56870247d39be00c725427
+source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '7279'
+source-wordcount: '7229'
 ht-degree: 100%
 
 ---
@@ -422,7 +422,7 @@ Microsoft Dynamics 365 整合 (GA) – [瞭解詳情](../../integrating/using/d3
 
 **此版本隨附的其他文件更新**
 
-Adobe Campaign 的錯誤訊息清單已更新。[顯示全文](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+Adobe Campaign 的錯誤訊息清單已更新。[顯示全文](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=zh-Hant)
 
 改善並加強 GDPR 快速入門手冊。該手冊現在是包含 GDPR 及 CCPA 的隱私權管理文件。[瞭解詳情](https://helpx.adobe.com/tw/campaign/kb/campaign-privacy.html)
 
@@ -504,7 +504,7 @@ Campaign Standard 實作指南現已上線。[瞭解詳情](https://helpx.adobe.
 
 已新增有關工作流程最佳實務的新區段。[瞭解詳情](../../automating/using/best-practices-workflows.md)
 
-Campaign Standard 及 Campaign Classic 的錯誤訊息清單已更新。[瞭解詳情](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+Campaign Standard 及 Campaign Classic 的錯誤訊息清單已更新。[瞭解詳情](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=zh-Hant)
 
 在自訂資源文件中新增警告。我們建議對自訂資源 ID 使用最多 30 個字元。這也適用於自訂資源欄位、索引和連結。[瞭解詳情](../../developing/using/creating-or-extending-the-resource.md)
 
@@ -516,7 +516,7 @@ Campaign Standard 及 Campaign Classic 的錯誤訊息清單已更新。[瞭解�
 
 已新增建議，說明在呼叫包含參數的工作流程時，如何使用無彙總期間的循環傳送。[瞭解詳情](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
-Campaign Standard 及 Campaign Classic 的錯誤訊息清單已更新。[瞭解詳情](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+Campaign Standard 及 Campaign Classic 的錯誤訊息清單已更新。[瞭解詳情](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=zh-Hant)
 
 在自訂資源文件中新增警告。我們建議對自訂資源 ID 使用最多 30 個字元。這也適用於自訂資源欄位、索引和連結。[瞭解詳情](../../developing/using/creating-or-extending-the-resource.md)
 
@@ -624,7 +624,7 @@ Dreamweaver 整合區段已更新並改良。[瞭解詳情](../../designing/usin
 
 已新增推播追蹤實作的新技術。[瞭解詳情](../../administration/using/push-tracking.md)
 
-Campaign Standard 及 Campaign Classic 的錯誤訊息清單已更新。[瞭解詳情](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+Campaign Standard 及 Campaign Classic 的錯誤訊息清單已更新。[瞭解詳情](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=zh-Hant)
 
 已更新「觸發器 – Adobe Campaign Standard」整合文件。[瞭解詳情](../../integrating/using/about-adobe-experience-cloud-triggers.md)
 
@@ -748,7 +748,7 @@ API 檔案已更新，其中包含 **History** API 的資訊。已新增使用�
 
 **發行中包含的新功能**
 
-GDPR：核心服務整合 – [瞭解詳情](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=zh-Hant)
+GDPR：核心服務整合 – [瞭解詳情](../../start/using/privacy-management.md)
 
 推播改良功能 – 詳細的傳送回饋 – [瞭解詳情](../../channels/using/preparing-and-sending-a-push-notification.md#sending-the-notification)
 
@@ -782,7 +782,7 @@ GDPR：核心服務整合 – [瞭解詳情](https://experienceleague.adobe.com/
 
 **此版本包含的新功能**
 
-歐盟通用資料保護規則 (GDPR) – [瞭解詳情](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=zh-Hant)
+歐盟通用資料保護規則 (GDPR) – [瞭解詳情](../../start/using/privacy.md)
 
 適用於電子郵件的 Creative Designer – [瞭解詳情](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -822,7 +822,7 @@ GDPR API 會重新分組可自動處理 GDPR 要求的功能。[瞭解詳情](..
 
 Campaign 和 Adobe 解決方案整合的大多數 URL 已變更！檢查您的書籤！[瞭解詳情](../../integrating/using/get-started-campaign-integrations.md)
 
-datamodel v1 現在可用於內建資源的 SQL 結構 – [瞭解詳情](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/datamodel/datamodel-audience.html?lang=zh-Hant)
+datamodel v1 現在可用於內建資源的 SQL 結構 – [瞭解詳情](../../developing/using/datamodel-introduction.md)
 
 已新增有關如何在傳送中準備訊息的資訊[瞭解詳情](../../sending/using/preparing-the-send.md)
 
@@ -950,7 +950,7 @@ SMS 檔案已更新，[SMS 自動回覆](../../channels/using/managing-incoming-
 
 [傳送警報](../../sending/using/receiving-alerts-when-failures-happen.md#delivery-alerting-reasons)文件已更新，其中包含疑難排解區段，提供您在收到警報時可採取的一些動作提示。
 
-有新的快速入門手冊可供使用：它提供一些最佳實務，可用於透過 Adobe Campaign 傳遞，從建立和定位到傳送和監控。[瞭解詳情](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/delivery-best-practices.html?lang=zh-Hant)
+有新的快速入門手冊可供使用：它提供一些最佳實務，可用於透過 Adobe Campaign 傳遞，從建立和定位到傳送和監控。[瞭解詳情](../../sending/using/delivery-best-practices.md)
 
 後續訊息檔案已更新，並改良使用案例。[瞭解詳情](../../channels/using/follow-up-messages.md#sending-a-follow-up-message)
 

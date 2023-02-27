@@ -8,10 +8,10 @@ context-tags: delivery,triggers,back
 feature: In App
 role: User
 exl-id: 0101773d-b109-49a3-89d4-b4bb226d9ebd
-source-git-commit: 462ebaf8e8f1f056aa92118226ef77aea37b972b
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
 source-wordcount: '668'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 2%
 * 使用設定檔範本建立的訊息，只有在使用者已登入應用程式時，才能提供。
 * 為了便於進行此安全交握，行動應用程式開發人員應使用setLinkageField API傳遞其他驗證詳細資訊。 請注意，連結欄位是在擴充appSubscriberRcp表格時，識別為行動設定檔與CRM設定檔之間連結的欄位。
 * 當使用者使用resetLinkageField登出應用程式時，應排清儲存在裝置上的應用程式內訊息，並重設Linkagefields。 這可確保當其他使用者登入應用程式時，不會看見針對先前使用者的訊息。
-* 請參閱 [行動SDK API](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference) 以實作此安全機制用戶端。
+* 請參閱 [行動SDK API](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/) 以實作此安全機制用戶端。
 
 ## 如何在Campaign中啟用應用程式內報告？ {#enable-inapp-reporting}
 

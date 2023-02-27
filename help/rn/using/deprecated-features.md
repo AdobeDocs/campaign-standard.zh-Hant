@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-source-git-commit: 5b5b3fc968c43be734677f7184b9957a8eb3684f
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 64%
+source-wordcount: '863'
+ht-degree: 63%
 
 ---
 
@@ -111,8 +111,8 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> 自Campaign第20.1發行版本開始，已棄用SDK v4。 <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">進一步瞭解</a>。</p><br/>
-   <p>此 <a href="https://aep-sdks.gitbook.io/docs/">Adobe Experience Platform Mobile SDK</a> （先前稱為v5）現在獨家支援即將推出的Adobe Experience Cloud功能。</p>
+   <td> <p> 自Campaign第20.1發行版本開始，已棄用SDK v4。 <a href="https://developer.adobe.com/client-sdks/documentation/v4-end-of-life-faq/">了解更多資訊</a>。</p><br/>
+   <p>此 <a href="https://developer.adobe.com/client-sdks/documentation/">Adobe Experience Platform Mobile SDK</a> （先前稱為v5）現在獨家支援即將推出的Adobe Experience Cloud功能。</p>
    <p>2021年8月31日後，客戶可以繼續下載和使用第4版SDK，但是將不提供客戶服務支援或論壇存取權。</p>
    <p>了解如何從SDK v4移轉至Adobe Experience Platform Mobile SDK <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">在本頁</a>.</p></br>
      </td> 

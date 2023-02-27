@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 884cd5e9c09aa85e744ca06b202eb46f73a33a76
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 4%
+source-wordcount: '1262'
+ht-degree: 3%
 
 ---
 
@@ -46,9 +46,9 @@ ht-degree: 4%
 
    若要完成其他工作，例如安裝擴充功能、發佈應用程式、設定環境等，您必須在產品設定檔中設定權限。
 
-1. 在資料收集UI中，建立 **[!UICONTROL Mobile property]**. 如需詳細資訊，請參閱[設定行動裝置屬性](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)。
+1. 在資料收集UI中，建立 **[!UICONTROL Mobile property]**. 如需詳細資訊，請參閱[設定行動裝置屬性](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property)。
 
-1. 在資料收集UI中，按一下 **[!UICONTROL Extensions]** 頁簽， **[!UICONTROL Catalog]**，並搜尋 **[!UICONTROL Adobe Campaign Standard]** 擴充功能。 如需詳細資訊，請參閱 [Adobe Campaign Standard](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
+1. 在資料收集UI中，按一下 **[!UICONTROL Extensions]** 頁簽， **[!UICONTROL Catalog]**，並搜尋 **[!UICONTROL Adobe Campaign Standard]** 擴充功能。 如需詳細資訊，請參閱 [Adobe Campaign Standard](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard).
 
 1. 若要在Campaign Standard中支援位置使用案例，請安裝 **[!UICONTROL Places]** 擴充功能。 請參閱 [頁面](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
 
@@ -121,7 +121,7 @@ ht-degree: 4%
 
 1. 若要讓此設定生效，變更必須發佈在資料收集UI中。
 
-   如需詳細資訊，請參閱 [發佈配置](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-configuration).
+   如需詳細資訊，請參閱 [發佈配置](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/#publish-the-configuration)
 
 ## Adobe Campaign中的通道特定應用程式設定 {#channel-specific-config}
 
@@ -163,7 +163,7 @@ ht-degree: 4%
 >
 >刪除您的應用程式無法還原。
 
-若要刪除您的應用程式，請完成 [刪除行動屬性](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#deleting-mobile-properties-in-experience-platform-launch).
+若要刪除您的應用程式，請完成 [刪除行動屬性](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#deleting-mobile-properties-in-the-data-collection-ui).
 
 刪除應用程式後，請在Adobe Campaign中確認您應用程式的「屬性」狀態是否已正確更新為Launch中的「已刪除」。
 

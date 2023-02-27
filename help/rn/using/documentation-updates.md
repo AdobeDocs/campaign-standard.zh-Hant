@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
-workflow-type: ht
-source-wordcount: '7229'
-ht-degree: 100%
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
+workflow-type: tm+mt
+source-wordcount: '7230'
+ht-degree: 99%
 
 ---
 
@@ -330,7 +330,7 @@ MCPNS 在設定行動應用程式時增加了限制。[瞭解詳情](https://hel
 
 已移動並更新專用於使用電子郵件密件副本進行封存的區段。[瞭解詳情](../../sending/using/archiving.md)
 
-「設定行動應用程式」檔案和相關頁面已更新，以反映 SDK V4 折舊。[瞭解詳情](https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq)
+「設定行動應用程式」檔案和相關頁面已更新，以反映 SDK V4 折舊。[瞭解詳情](https://developer.adobe.com/client-sdks/documentation/v4-end-of-life-faq/)
 
 Adobe Campaign Standard / Adobe Experience Manager 整合檔案已更新和改進。[瞭解詳情](../../integrating/using/configure-experience-manager.md)
 

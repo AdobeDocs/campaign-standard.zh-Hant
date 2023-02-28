@@ -5,20 +5,20 @@ feature: Profiles
 role: User
 level: Intermediate
 exl-id: 22516348-7695-4579-99eb-480e5b723ccc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 0ae2501b5c3ecf6dc9562bb53b5354c52aff7323
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 7%
+source-wordcount: '266'
+ht-degree: 6%
 
 ---
 
 # 使用中的設定檔案{#active-profiles}
 
-Campaign功能管理員可以存取 **[!UICONTROL Customer metrics]** 報表 **[!UICONTROL Administration > Customer metrics]**.
+您可以從 **[!UICONTROL Customer metrics]** 報表。 此報告僅供Campaign功能管理員使用。 若要存取此報表，請按一下 [使用者介面](../../start/using/interface-description.md#advanced-menu)，並瀏覽 **[!UICONTROL Administration > Customer metrics]**.
 
 ![](assets/audience_customer_metrics.png)
 
-此報告由 **[!UICONTROL Billing]** 技術工作流程並顯示 **作用中設定檔**.
+此報告由 **[!UICONTROL Billing]** 技術工作流程並顯示 **作用中設定檔**. 進一步了解中的技術工作流程 [本頁](../../administration/using/technical-workflows.md).
 
 「設定檔」是代表最終客戶、潛在客戶或潛在客戶的資訊記錄。 會考量設定檔 **活動** 如果在過去12個月內透過任何管道被促銷活動傳送鎖定。
 

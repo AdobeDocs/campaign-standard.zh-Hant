@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: ed2e3793-6164-48af-9043-42dc43fa8ed4
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: c2c8d2d05bbc376e2153448ca0a9e6ba0f367420
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 95%
+source-wordcount: '558'
+ht-degree: 78%
 
 ---
 
@@ -42,13 +42,10 @@ ht-degree: 95%
 
    例如，您之後可以執行儲存對象、資料庫更新等。
 
-例如，**[!UICONTROL Reconciliation]** 活動可放置在載入資料活動之後，以便將非標準資料匯入資料庫。
+例如， **[!UICONTROL Reconciliation]** 活動可在載入資料活動之後放置，以將非標準資料匯入資料庫。
 
-**相關主題：**
+若 **擴充** 活動可讓您定義要在工作流程中處理的其他資料(使用 **擴充** 活動來結合來自多個集的資料，或建立臨時資源的連結), **調解** 活動可讓您將未識別的資料連結至現有資源。 調解操作表示連結維的資料已在資料庫中。 可在 [本節](#use-cases-reconciliation).
 
-* [使用案例：使用關係進行資料協調](../../automating/using/reconciliation-using-relations.md)
-* [使用案例：使用協調功能更新資料](../../automating/using/data-update-reconciliation.md)
-* [使用案例：使用資料庫調解檔案對象](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## 設定 {#configuration}
 
@@ -70,3 +67,12 @@ ht-degree: 95%
    * **[!UICONTROL Keep in the outbound population]**：入站轉變中的所有資料都會保留在活動的出站轉變中。
 
 1. 確認活動的設定並儲存工作流程。
+
+
+## 使用案例{#use-cases-reconciliation}
+
+了解如何在下列使用案例中使用此活動：
+
+* [使用案例：使用關係進行資料協調](../../automating/using/reconciliation-using-relations.md)
+* [使用案例：使用協調功能更新資料](../../automating/using/data-update-reconciliation.md)
+* [使用案例：使用資料庫調解檔案對象](../../automating/using/reconcile-file-audience-with-database.md)

@@ -11,7 +11,7 @@ exl-id: 3ea58bcf-234e-4dac-b296-da3f57e18a7d
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '2583'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -229,7 +229,7 @@ Adobe Campaign可讓您根據特定准則或使用追蹤來個人化訊息中的
 >[!CONTEXTUALHELP]
 >id="ac_dynamic_content"
 >title="定義動態內容"
->abstract="定義將僅根據您將定義的條件顯示給某些設定檔的不同內容。"
+>abstract="根據您要定義的條件，定義將僅顯示給部分設定檔的不同內容。"
 
 在電子郵件中，您可以定義不同的內容，這些內容將根據透過運算式編輯器定義的條件動態顯示給收件者。 例如，從相同的電子郵件，您可以確保每個設定檔都根據其年齡範圍收到不同的訊息。
 
@@ -336,7 +336,7 @@ Adobe Campaign可讓您根據特定准則或使用追蹤來個人化訊息中的
 >[!CONTEXTUALHELP]
 >id="ac_dynamic_image"
 >title="管理動態影像"
->abstract="根據您要定義的條件，使用動態影像個人化您的電子郵件。"
+>abstract="根據您要定義的條件，使用動態影像將您的電子郵件個人化。"
 
 在此範例中，套用至影像的動態內容會依下列方式設定：
 

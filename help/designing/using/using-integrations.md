@@ -1,5 +1,5 @@
 ---
-title: '透過Adobe Campaign整合設計電子郵件 '
+title: 透過Adobe Campaign整合設計電子郵件
 description: 了解如何透過電子郵件設計工具中的Adobe Campaign整合來設計電子郵件。
 audience: designing
 content-type: reference
@@ -11,7 +11,7 @@ exl-id: d5c72f69-68a2-4523-956f-f265ae79b470
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '721'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -48,7 +48,7 @@ Adobe Campaign Standard與Dreamweaver的整合可讓您在Dreamweaver介面中�
 >[!CONTEXTUALHELP]
 >id="ac_product_listing"
 >title="使用產品清單"
->abstract="產品清單可讓您參考資料收集，並在電子郵件內容中顯示。"
+>abstract="產品清單可讓您參照資料集合並將其顯示在電子郵件內容中。"
 
 產品清單可讓您參考電子郵件內容中的一或多個資料集合。 這些清單可用於交易式電子郵件。 此功能的專屬區段已推出 [此處](../../designing/using/using-product-listings.md).
 
@@ -148,7 +148,7 @@ Adobe Campaign提供數個電子郵件編寫選項。 下表顯示了每種方�
    <td> <strong>若要深入了解</strong><br /> </td> 
    <td> 請參閱 <a href="../../designing/using/designing-content-in-adobe-campaign.md">關於電子郵件設計工具</a>.<br /> </td> 
    <td> 請參閱 <a href="../../integrating/using/integrating-with-experience-manager.md">與Experience Manager整合</a>.<br /> </td> 
-   <td> 請參閱 <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver和Campaign</a> 看這個 <a href="#video">影片</a>.<br /> </td> 
+   <td> 請參閱 <a href="https://helpx.adobe.com/tw/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver和Campaign</a> 看這個 <a href="#video">影片</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

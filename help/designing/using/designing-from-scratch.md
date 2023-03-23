@@ -1,5 +1,5 @@
 ---
-title: '從頭開始設計電子郵件 '
+title: 從頭開始設計電子郵件
 description: 了解如何在電子郵件設計工具中從草稿開始設計電子郵件內容。
 audience: designing
 content-type: reference
@@ -11,7 +11,7 @@ exl-id: 052d24b7-d3e0-41d7-8b2c-92bd3addb3a2
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '1239'
-ht-degree: 2%
+ht-degree: 19%
 
 ---
 
@@ -41,12 +41,12 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ac_structure_components"
 >title="關於結構元件"
->abstract="結構元件可定義電子郵件的版面。"
+>abstract="結構元件會定義電子郵件的版面。"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns"
 >title="定義電子郵件欄"
->abstract="電子郵件設計工具可讓您透過定義欄結構來輕鬆定義電子郵件的版面。"
+>abstract="電子郵件設計工具可讓您透過定義欄結構輕鬆定義電子郵件的版面。"
 
 電子郵件設計工具可讓您輕鬆定義電子郵件的結構。 透過新增和移動結構元素並執行簡單的拖放動作，您可以在數秒內設計電子郵件的形狀。
 
@@ -65,7 +65,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >請注意，列堆疊與所有電子郵件程式不相容。 不支援時，不會堆疊欄。
+   >請注意，並非所有電子郵件程式都與欄堆疊相容。當不受支援時，將不會堆疊欄。
    >
    >放入電子郵件後，您必須先放入內容元件或片段，才能移動或移除元件。
 
@@ -81,12 +81,12 @@ ht-degree: 2%
 
 定義結構後，您就可以將內容片段和元件新增至電子郵件。
 
-## 使用前置詞 {#preheader}
+## 使用預覽文字 {#preheader}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
->title="使用前置詞"
->abstract="前置詞可讓您設定簡短的摘要文字，以提供較高的電子郵件開啟率。"
+>title="使用預覽文字"
+>abstract="預覽文字讓您設定簡短的摘要文字，這會為您的電子郵件實現更高的開啟率。"
 
 前置標題是從收件匣檢視電子郵件時，主旨行後面的簡短摘要文字。 預報頭提供較高的開放率。
 
@@ -98,14 +98,14 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->請注意，preheader與所有電子郵件程式不相容。 不支援時，將不會顯示preheader。
+>請注意，並非所有電子郵件程式都與預覽文字相容。當不受支援時，將不會顯示預覽文字。
 
 ## 使用內容元件 {#about-content-components}
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components"
 >title="關於內容元件"
->abstract="內容元件是空白的內容預留位置，您可以編輯這些預留位置以建立電子郵件。"
+>abstract="內容元件指可進行編輯以建立電子郵件的空白內容預留位置。"
 
 內容元件是原始的空白元件，放入電子郵件後，您就可以編輯這些元件。
 
@@ -151,19 +151,19 @@ ht-degree: 2%
 1. 儲存您要使用的所有影像和資產。
 1. 如果您熟悉HTML，請將原始HTML內容分割為不同的部分。
 
-### 影片 {#video-settings}
+### 視訊 {#video-settings}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_video"
->title="視訊設定"
->abstract="使用此元件在電子郵件中插入視訊。 請注意，視訊無法用於所有電子郵件用戶端。 建議設定後援影像。"
->additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="其他資訊"
+>title="影片設定"
+>abstract="使用此元件即可在您的電子郵件中插入影片。請注意，影片並非在所有電子郵件用戶端上都適用。我們建議設定備援影像。"
+>additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="額外資訊"
 
 將視訊元件插入電子郵件的結構元件中，然後在 **[!UICONTROL Component Settings]**.
 
 >[!NOTE]
 >
->請注意，視訊與所有電子郵件程式不相容。 若不支援，則會顯示後援。
+>請注意，並非所有電子郵件程式都與視訊相容。當不受支援時，將會顯示遞補內容。
 
 ### 影像
 
@@ -180,7 +180,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ac_edition_carousel"
 >title="輪播設定"
->abstract="了解如何將輪播插入並設定至您的內容。請注意，輪播不會在所有電子郵件用戶端上運作，而備援影像會顯示在不支援時。"
+>abstract="了解如何在您的內容中插入和設定輪播。請注意，輪播並非在所有電子郵件用戶端上都適用，如果不支援輪播，則會顯示備援影像。"
 
 1. 拖放 **[!UICONTROL Carousel]** 結構元件內的元件。
 1. 瀏覽以從您的電腦選擇影像。

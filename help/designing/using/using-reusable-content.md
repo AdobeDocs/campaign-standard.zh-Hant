@@ -1,5 +1,5 @@
 ---
-title: '建立和使用可重複使用的內容 '
+title: 建立和使用可重複使用的內容
 description: 開始使用電子郵件設計工具建立可重複使用的電子郵件內容。
 audience: designing
 content-type: reference
@@ -11,7 +11,7 @@ exl-id: 64c3d3dd-0c41-4dbc-abcd-9ddea23759f4
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '1819'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -154,7 +154,7 @@ HTML內容範本可從 **[!UICONTROL Resources]** > **[!UICONTROL Content templa
 >[!CONTEXTUALHELP]
 >id="ac_fragments"
 >title="關於片段"
->abstract="片段是可重複使用的內容區塊，可在一封或多封電子郵件中參考。"
+>abstract="片段指可重複使用的內容區塊，可在一封或多封電子郵件中參照。"
 
 片段是可重複使用的元件，可在一封或多封電子郵件中參考。
 您可以在下方的介面中找到 **資源** > **內容片段和範本**.
@@ -229,7 +229,7 @@ HTML內容範本可從 **[!UICONTROL Resources]** > **[!UICONTROL Content templa
 
    >[!CAUTION]
    >
-   >片段不能包含個人化欄位、動態內容或其他片段。
+   >片段不得包含個人化欄位、動態內容或其他片段.
    >
    >請避免以空白結構元件儲存為片段內容。 插入片段後，就無法編輯。
    >
@@ -249,7 +249,7 @@ HTML內容範本可從 **[!UICONTROL Resources]** > **[!UICONTROL Content templa
 
 * 您無法將包含個人化欄位、動態內容或其他片段的結構儲存為片段。
 * 只能選取彼此相鄰的結構。
-<!-- - You cannot select an empty structure.-->
+   <!-- - You cannot select an empty structure.-->
 
 1. 在電子郵件設計工具中編輯電子郵件時，請選取 **[!UICONTROL Save as fragment]** 中。
 

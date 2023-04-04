@@ -5,9 +5,9 @@ user-guide-description: 說明中心，以瞭解使用 Campaign Standard 所需�
 title: Campaign Standard 指南
 breadcrumb-title: Adobe Campaign Standard 文件
 source-git-commit: d7e0912dd7d19a1f5dd2172235f28a40e130cac1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1818'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -121,7 +121,7 @@ ht-degree: 99%
    + 傳送異動訊息 {#transactional-messaging}
       + [開始使用異動訊息](channels/using/getting-started-with-transactional-msg.md)
       + [最佳實務和限制](channels/using/transactional-messaging-limitations.md)
-      + [交易式訊息權限更新](channels/using/transactional-message-permission.md)
+      + [異動訊息權限更新](channels/using/transactional-message-permission.md)
       + 事件設定 {#event-configuration}
          + [設定異動事件](channels/using/configuring-transactional-event.md)
          + [發佈異動事件](channels/using/publishing-transactional-event.md)

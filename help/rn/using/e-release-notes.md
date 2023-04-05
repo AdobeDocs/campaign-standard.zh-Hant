@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 1a8e623c034a2fbacd9ddf37711488a8f6b99442
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 25e842d2b012a07b3f1ef1ff5490a6b4afa0e887
+workflow-type: tm+mt
+source-wordcount: '216'
+ht-degree: 27%
 
 ---
 
@@ -22,21 +22,19 @@ ht-degree: 100%
 >
 > 在預備環境升級日期前，此內容可能會有所變更，恕不另行通知。 請參閱[發行計劃頁面](../../rn/using/release-planning.md)以瞭解更多資訊。
 
-## 發行版本 22.3.2 {#dec-22}
+## 版本 23.1 - 2023 春/夏版 {#apr-23}
 
-### 安全性更新{#rn-security2}
+### 功能改進 {#e-rn-improvements}
 
-此發行版本隨附下列安全性升級：Debian 已升級至 v11.0。
+* 推播訊息服務已經過現代化，以最佳化維護。 (CAMP-47959)
+* SMS訊息服務已經過現代化，以提供改善的穩定性。 (CAMP-52217)
+* 現成可用 **報表擴充建立工作流程** 已新增。 從一個例項匯入目標對應至另一個例項後，只要執行工作流程以匯入對應的報表擴充項目。 (CAMP-52452)
 
-## 版本 22.3 - 2022 年秋冬 {#sept-22}
+### 修補程式{#e-rn-patches}
 
-### 安全性更新{#rn-security}
-
-此版本隨附下列安全性升級：Apache Tomcat 已從 v7.0 升級至 v8.0。
-
-### 修正{#e-rn-fixes}
-
-* 修正排程報告在排程計時前一小時觸發的問題。 (CAMP-51502)
-* 修正「傳送」控制面板中「傳送」指標與「傳送記錄檔」(nms:broadLogRcp) 不符的問題。 (CAMP-51127)
-* 修正無法透過 ACS Connector (Prime Offering) 擴充自訂資源的問題。 (CAMP-51033)
-* 改善隱私權請求回應的發佈程式，以避免延遲。 (CAMP-50613)
+* 修正顯示 **熱點按** 報表。 (CAMP-51582)
+* 修正了無法將整合用於 **位置** 服務。 (CAMP-51923)
+* 修正了工作流程排程器無法正常運作的問題。 (CAMP-52003)
+* 修正檢視含有大量資料之自訂動態報表的PDF版本時，無法顯示劃分詳細資料的問題。 (CAMP-52178)
+* 修正了存取報告時可能顯示錯誤的問題。 (CAMP-52500)
+* 修正套用錯誤 **限制此帳戶的MTA例項** SMS連接器參數至所有通道，而非僅套用至SMS。 (CAMP-52640)

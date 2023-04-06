@@ -8,8 +8,8 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: 87afaf6fed5bc3db134f10444cd7b6b5f35640f0
-workflow-type: ht
+source-git-commit: 36865b52044ffd4b4868250cada3ab585b9ef856
+workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 100%
 
@@ -29,23 +29,23 @@ Adobe 透過新增新功能、增強功能和修正不斷改進其解決方案�
 
 環境更新會在以下指定時段內以波形進行。已透過電子郵件向每位客戶傳達確切日期。
 
-有關發佈內容的詳細資訊，請參閱[版本注意事項](release-notes.md)。
+有關發佈內容的詳細資訊，請參閱[版本注意事項](e-release-notes.md)。
 
 <table>
  <thead>
   <tr>
-   <th> 環境<br /> </th>
-   <th> 日期<br /> </th>
+   <th> 環境 </th>
+   <th> 日期 </th>
   </tr>
  </thead>
  <tbody>
   <tr>
-   <td>Stage<br /> </td>
-   <td>2023 年 4 月 11 日至 2023 年 7 月<br /> </td>
+   <td>Stage </td>
+   <td>2023 年 4 月 11 日至 2023 年 7 月 </td>
   </tr>
   <tr>
-   <td>生產<br /> </td>
-   <td>2023 年 4 月 18 日至 2023 年 7 月<br /> </td>
+   <td>生產 </td>
+   <td>2023 年 4 月 18 日至 2023 年 7 月 </td>
   </tr>
  </tbody>
 </table>

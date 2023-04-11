@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 25e842d2b012a07b3f1ef1ff5490a6b4afa0e887
+source-git-commit: 485927b217fb68064897dd877c2f4a6dd208d443
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 27%
+source-wordcount: '275'
+ht-degree: 21%
 
 ---
 
@@ -26,11 +26,18 @@ ht-degree: 27%
 
 ### 功能改進 {#e-rn-improvements}
 
-* 推播訊息服務已經過現代化，以最佳化維護。 (CAMP-47959)
-* SMS訊息服務已經過現代化，以提供改善的穩定性。 (CAMP-52217)
+* 推播訊息服務已經過現代化，以改善支援。 (CAMP-47959)
+* 簡訊傳訊服務已經過改良，可提供更佳的穩定性。 (CAMP-52217)
+* Adobe已進行許多協助工具修正，以改善應用程式的整體易用性。 以下是協助工具改善的幾個範例：
+   * 在許多螢幕中，介面的鍵盤可訪問性已優化。
+   * 已為觸摸屏用戶增強了該應用。
+   * 已變更介面上數個項目的顏色，以改善可見性。
+
+### 其他變更 {#e-rn-changes}
+
 * 現成可用 **報表擴充建立工作流程** 已新增。 從一個例項匯入目標對應至另一個例項後，只要執行工作流程以匯入對應的報表擴充項目。 (CAMP-52452)
 
-### 修補程式{#e-rn-patches}
+### 已修正的問題{#e-rn-patches}
 
 * 修正顯示 **熱點按** 報表。 (CAMP-51582)
 * 修正了無法將整合用於 **位置** 服務。 (CAMP-51923)

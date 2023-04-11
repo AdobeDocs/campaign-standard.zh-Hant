@@ -5,14 +5,33 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 8c722084-988d-47bd-98ad-9f5a422980a0
-source-git-commit: 77c5baaf51b82ea001326f3f20c8ab183155f9e6
+source-git-commit: 362f1f6605bc9667a80cddf2bd1bef4338cda31a
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1201'
 ht-degree: 100%
 
 ---
 
 # 發行說明 2022 年{#release-notes-2022}
+
+## 發行版本 22.3.2 {#feb-23}
+
+### 安全性更新{#rn-security2}
+
+此發行版本隨附下列安全性升級：Debian 已升級至 v11.0。
+
+## 版本 22.3 - 2022 年秋冬 {#sept-22}
+
+### 安全性更新{#rn-security}
+
+此版本隨附下列安全性升級：Apache Tomcat 已從 v7.0 升級至 v8.0。
+
+### 修正{#rn-fixes}
+
+* 修正排程報告在排程計時前一小時觸發的問題。 (CAMP-51502)
+* 修正「傳送」控制面板中「傳送」指標與「傳送記錄檔」(nms:broadLogRcp) 不符的問題。 (CAMP-51127)
+* 修正無法透過 ACS Connector (Prime Offering) 擴充自訂資源的問題。 (CAMP-51033)
+* 改善隱私權請求回應的發佈程式，以避免延遲。 (CAMP-50613)
 
 ## 發行版本 22.2 – 2022 年 6 月 {#june-2022}
 

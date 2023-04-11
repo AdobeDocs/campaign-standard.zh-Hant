@@ -5,7 +5,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: f04fd1542dc3b8ccd5e9fe53edd206061edbc3c5
+source-git-commit: f9bd5901d68c09ba20d5d48d263f4818c2e1e86a
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -17,22 +17,26 @@ ht-degree: 0%
 
 ![控制面板](assets/do-not-localize/cp-icon.png) **新控制面板版本**。 [了解更多](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=zh-Hant){target="_blank"}.
 
-## 發行版本 22.3.2 {#feb-23}
+## 版本 23.1 - 2023 春/夏版 {#apr-23}
 
-### 安全性更新{#rn-security2}
+### 功能改進 {#e-rn-improvements}
 
-此發行版本隨附下列安全性升級：Debian 已升級至 v11.0。
+* 推播訊息服務已經過現代化，以改善支援。 (CAMP-47959)
+* 簡訊傳訊服務已經過改良，可提供更佳的穩定性。 (CAMP-52217)
+* Adobe已進行許多協助工具修正，以改善應用程式的整體易用性。 以下是協助工具改善的幾個範例：
+   * 在許多螢幕中，介面的鍵盤可訪問性已優化。
+   * 已增強觸摸屏用戶的應用程式。
+   * 已變更介面上數個項目的顏色，以改善可見性。
 
-## 版本 22.3 - 2022 年秋冬 {#sept-22}
+### 其他變更 {#e-rn-changes}
 
-### 安全性更新{#rn-security}
+* 現成可用 **報表擴充建立工作流程** 已新增。 從一個例項匯入目標對應至另一個例項後，只要執行工作流程以匯入對應的報表擴充項目。 (CAMP-52452)
 
-此版本隨附下列安全性升級：Apache Tomcat 已從 v7.0 升級至 v8.0。
+### 已修正的問題{#e-rn-patches}
 
-### 修正{#e-rn-fixes}
-
-* 修正排程報告在排程計時前一小時觸發的問題。 (CAMP-51502)
-* 修正「傳送」控制面板中「傳送」指標與「傳送記錄檔」(nms:broadLogRcp) 不符的問題。 (CAMP-51127)
-* 修正無法透過 ACS Connector (Prime Offering) 擴充自訂資源的問題。 (CAMP-51033)
-* 改善隱私權請求回應的發佈程式，以避免延遲。 (CAMP-50613)
-
+* 修正顯示 **熱點按** 報表。 (CAMP-51582)
+* 修正了無法將整合用於 **位置** 服務。 (CAMP-51923)
+* 修正了工作流程排程器無法正常運作的問題。 (CAMP-52003)
+* 修正檢視含有大量資料之自訂動態報表的PDF版本時，無法顯示劃分詳細資料的問題。 (CAMP-52178)
+* 修正了存取報告時可能顯示錯誤的問題。 (CAMP-52500)
+* 修正套用錯誤 **限制此帳戶的MTA例項** SMS連接器參數至所有通道，而非僅套用至SMS。 (CAMP-52640)

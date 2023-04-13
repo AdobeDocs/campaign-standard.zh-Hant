@@ -9,8 +9,8 @@ role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: 362f1f6605bc9667a80cddf2bd1bef4338cda31a
-workflow-type: tm+mt
-source-wordcount: '420'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
@@ -40,7 +40,7 @@ Adobe 透過新增新功能、增強功能和修正不斷改進其解決方案�
  </thead>
  <tbody>
   <tr>
-   <td>Stage </td>
+   <td>階段 </td>
    <td>2023 年 4 月 11 日至 2023 年 7 月 </td>
   </tr>
   <tr>

@@ -19,7 +19,7 @@ ht-degree: 98%
 
 ![](assets/do-not-localize/cp-icon.png) **新的控制面板 6 月版本**，包含作用中設定檔監控、子網域傳遞送能力稽核及 GPG 金鑰管理。[進一步瞭解](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=zh-Hant)。
 
-![](assets/do-not-localize/cp-icon.png) **新控制面板 10 月發行版本**，其中包含使用 CNAME 的網域設定及新的資料庫監控功能。[進一步瞭解](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html)。
+![](assets/do-not-localize/cp-icon.png) **新控制面板 10 月發行版本**，其中包含使用 CNAME 的網域設定及新的資料庫監控功能。[進一步瞭解](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=zh-Hant)。
 
 ## 發行版本 20.4 – 2020 年 10 月 {#release-20-4---october-2020}
 
@@ -289,7 +289,7 @@ ht-degree: 98%
 * 修正使用者無法變更報告的錯誤。(CAMP-42505)
 
 
-![](assets/do-not-localize/cp-icon.png) **新的控制面板可能會與 CNAME 子網域發行**&#x200B;憑證續約。[進一步瞭解](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html)。
+![](assets/do-not-localize/cp-icon.png) **新的控制面板可能會與 CNAME 子網域發行**&#x200B;憑證續約。[進一步瞭解](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=zh-Hant)。
 
 ## 發行版本 20.2 – 2020 年 4 月 {#release-20-2---april-2020}
 
@@ -327,7 +327,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->新功能將於 4 月在「Campaign 控制面板」中發佈，包括 Google TXT 記錄管理、資料庫空間監控和電子郵件警報。有關這些功能的詳細資訊，請參閱[控制面板發行說明](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html)。
+>新功能將於 4 月在「Campaign 控制面板」中發佈，包括 Google TXT 記錄管理、資料庫空間監控和電子郵件警報。有關這些功能的詳細資訊，請參閱[控制面板發行說明](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=zh-Hant)。
 
 **改進**
 

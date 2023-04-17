@@ -531,7 +531,7 @@ ht-degree: 8%
      <li> 能夠 <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">在準備時自動從URL擷取內容</a> </li> 
      <li> 完全相容 <a href="../../designing/using/using-reusable-content.md#content-templates">內容範本</a>. </li> 
     </ul> 
-    <p>如需詳細資訊，請參閱<a href="../../designing/using/designing-content-in-adobe-campaign.md">詳細文件</a>及<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">作法影片</a>。以下列出改善項目和修正項目。</p><p>因此，舊版電子郵件內容編輯器現已過時。 如需詳細資訊，請參閱 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">頁面</a>.</p> </td> 
+    <p>如需詳細資訊，請參閱<a href="../../designing/using/designing-content-in-adobe-campaign.md">詳細文件</a>及<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">作法影片</a>。以下列出改善項目和修正項目。</p><p>因此，舊版電子郵件內容編輯器現已過時。 如需詳細資訊，請參閱 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=zh-Hant#release-notes">頁面</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> 交易式電子郵件中的產品清單<br /> </td> 

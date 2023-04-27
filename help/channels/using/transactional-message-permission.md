@@ -10,26 +10,33 @@ hidefromtoc: true
 feature: Transactional Messaging
 role: User
 level: Intermediate
-source-git-commit: d7e0912dd7d19a1f5dd2172235f28a40e130cac1
+exl-id: 995da330-6c86-444b-86b2-61d887f37db4
+source-git-commit: 8e6465e8334ea621b353b0a908e231b9093c58ce
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '797'
 ht-degree: 0%
 
 ---
 
-# 交易式訊息權限 {#transactional-message-permission}
+# 異動事件改善 {#transactional-event-improvements}
 
-目前，在Adobe Campaign Standard中，沒有管理員安全性群組的使用者無法存取、建立或發佈事件，造成業務使用者需要設定和發佈事件但缺少管理員權限的問題。
+>[!AVAILABILITY]
+>
+>這些功能目前僅適用於一組組織（有限可用性）。 如需詳細資訊，請連絡您的Adobe代表。
+
+目前，在Adobe Campaign Standard中，沒有管理員安全性群組的使用者無法存取、建立或發佈交易事件，造成業務使用者需要設定和發佈事件但缺少管理員權限的問題。 此外，無法複製交易式事件。
 
 我們已對交易式訊息存取控制實作下列改善：
 
-* 新 **[!UICONTROL Role]**，呼叫 **MC用戶**，可讓非管理員使用者管理交易事件。 此 **MC用戶** 角色可授予這些使用者存取、建立、發佈和取消發佈交易式事件和訊息的能力。
+* 新 **[!UICONTROL Role]**，呼叫 **MC用戶**，可讓非管理員使用者管理交易式事件設定。 此 **MC用戶** 角色可授予這些使用者存取、建立、發佈和取消發佈交易式事件和訊息的能力。
 
-* 子傳遞現在設為 **[!UICONTROL Organizational unit]** 建立訊息範本的使用者所屬的安全性群組，而非限制為 **[!UICONTROL Organizational unit]** 的 **消息中心代理(mcExec)** 安全組。
+* 執行傳送（即每次編輯和重新發佈交易式訊息時所建立的技術訊息，或依預設每月一次）現在設為 **[!UICONTROL Organizational unit]** 建立事件的使用者所屬的安全性群組，而非限制為 **[!UICONTROL Organizational unit]** 的 **消息中心代理(mcExec)** 安全組。
 
-* 預設 **消息中心執行(mcExec)** campaign會收集交易式訊息子傳送，現在已設為組織單位 **全部** 允許所有使用者檢視子傳遞的報表。
+* **管理員** 現在可以複製已發佈的交易式事件，以及使用者 **MC用戶** 角色(條件是它們位於相同 **組織單位** 階層：建立事件的使用者。
 
-若要指派 **MC用戶** 角色：
+## 分配MC用戶角色 {#assign-role}
+
+若要指派 **MC用戶** 角色至您的安全組：
 
 1. 建立新 **[!UICONTROL Security group]** 或更新現有的。 [了解更多資訊](../../administration/using/managing-groups-and-users.md)。
 
@@ -49,12 +56,68 @@ ht-degree: 0%
 
 連結到此 **[!UICONTROL Security group]** 現在可以存取、建立和發佈交易式事件和訊息。
 
-下表概述此功能對訪問控制的影響：
+## 分配MC用戶安全組 {#assign-group}
+
+1. 在Admin Console中，選取 **產品** 標籤。
+
+1. 選擇 **Adobe Campaign Standard** 然後選擇您的執行個體。
+
+1. 從 **產品設定檔** 清單，選擇 **MC用戶** 群組。
+
+1. 按一下 **新增使用者** 並輸入您要新增至此產品設定檔之設定檔的名稱、使用者群組或電子郵件地址。
+
+1. 新增後，按一下 **儲存**.
+
+新增至此 **[!UICONTROL Security group]** 現在可以存取、建立和發佈交易式事件和訊息。
+
+## 重複交易事件 {#duplicate-transactional-events}
+
+使用 **管理員** 安全組<!--([Functional administrators](../../administration/using/users-management.md#functional-administrators)?)--> 現在可以複製事件設定(如果事件已 **已發佈**.
+
+此外，非管理員使用者 **MC用戶** 角色現在可以存取事件設定，但其複製權限由 **組織單位** 他們屬於。 如果目前使用者和建立事件的使用者屬於相同的組織單位階層，則允許複製。
+
+例如，如果屬於「法國銷售」組織單位的用戶建立了事件配置：
+
+* 組織單位為「巴黎銷售」的另一個用戶將能夠複製此事件，因為「巴黎銷售」是「法國銷售」組織單位的一部分。
+
+* 但是，組織單位為「舊金山銷售」的使用者將無法這麼做，因為「舊金山銷售」位於「美國銷售」組織單位下，與「法國銷售」組織單位分開。
+
+若要複製事件設定，請遵循下列步驟。
+
+1. 按一下 **Adobe** 徽標，在左上角，然後選擇 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
+
+1. 將滑鼠移至您所選取的已發佈事件設定上，然後選取 **[!UICONTROL Duplicate element]** 按鈕。
+
+   ![](assets/message-center_duplicate-button.png)
+
+   >[!CAUTION]
+   >
+   >無法複製未發佈的事件配置。 [了解更多](publishing-transactional-event.md)
+
+1. 會自動顯示重複的事件。 它包含您為原始事件定義的相同設定，但具有 **[!UICONTROL Draft]** 狀態。
+
+   ![](assets/message-center_duplicated-draft-event.png)
+
+1. 會自動建立對應的交易式訊息。 若要存取，請前往 **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
+
+   ![](assets/message-center_duplicated-message.png)
+
+1. 開啟新複製的訊息。 它包含您為原始訊息定義的相同設計，但具有 **[!UICONTROL Draft]** 狀態，即使原始交易式訊息已發佈亦然。
+
+   ![](assets/message-center_duplicated-draft-message.png)
+
+1. 您現在可以編輯並個人化此訊息。 請參閱 [編輯交易式訊息](../../channels/using/editing-transactional-message.md).
+
+## 影響 {#impacts}
+
+下表概述這些改進的影響：
 
 | 物件 | 此變更前 | 此變更後 |
 |:-: | :--: | :-:|
-| 訊息中心執行(mcExec)行銷活動 | **消息中心執行(mcExec)** 促銷活動已設為 **消息中心代理(mcExec)** 安全組。 | **消息中心執行(mcExec)** 促銷活動已設為「組織」單位 **全部** 允許所有子傳遞與此促銷活動相關聯。</br> 所有使用者都能檢視子傳送的報表，但只能以唯讀方式存取傳送內容。 |
-| 子傳遞 | 子傳遞設為 **組織單位** 的 **消息中心代理(mcExec)** 安全組。 | 子傳遞將設為 **組織單位** 建立訊息範本的使用者所屬的安全性群組。 |
-| 訊息範本 | 訊息範本設為 **組織單位** 的&#x200B;**消息中心代理(mcExec)** 安全組。 | 訊息範本將設為 **組織單位** 建立訊息範本的使用者所屬的安全性群組。 |
 | 交易事件 | 僅限 **管理員** 安全性群組可以建立和發佈事件。 | 此 **MC用戶** 角色可讓使用者建立和發佈事件。 |
-| 交易式訊息範本 | 交易式訊息範本會設為組織單位 **全部**. | 交易訊息範本將設為 **組織單位** 建立訊息範本的使用者所屬的安全性群組。 |
+| 交易式訊息 | 交易式訊息會設為 **組織單位** 的 **消息中心代理(mcExec)** 安全組。 | 交易式訊息會設為 **組織單位** 建立交易式事件/訊息所屬之安全性群組的。 |
+| 執行傳送 | 執行傳送會設為 **組織單位** 的 **消息中心代理(mcExec)** 安全組。 | 執行傳送會設為 **組織單位** 建立交易式事件/訊息所屬之安全性群組的。 |
+| 已發佈的交易式事件 | 任何用戶都無法複製。 | <ul><li>具有 **管理員** 安全性群組可以複製已發佈的事件。</li> <li>具有 **MC用戶** 角色可以複製已發佈事件(前提是它們位於相同的 **組織單位** 階層：建立事件的使用者。</li></ul> |
+
+
+<!--Transactional Message Templates| Transactional Message templates are set to the Organizational unit **All**. | Transaction Message Template will be set to the **Organizational unit** of the security group to which the user creating the message template belongs.-->

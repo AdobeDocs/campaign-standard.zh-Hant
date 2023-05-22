@@ -9,7 +9,7 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 7553588c-4679-4dfd-93cb-e705ad4dc0aa
-source-git-commit: 708bdc1d5dc1c30d609ba0fa1c17debe403afd72
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '983'
 ht-degree: 96%
@@ -40,7 +40,7 @@ ht-degree: 96%
 
 您可以從方案、行銷活動或行銷活動清單建立工作流程。
 
-![](assets/do-not-localize/how-to-video.png) [探索如何在影片中建立工作流程](#video)
+![](assets/do-not-localize/how-to-video.png) [瞭解如何在視頻中構建工作流](#video)
 
 建立行銷活動在[建立行銷活動](../../start/using/marketing-activities.md#creating-a-marketing-activity)區段中有詳細說明。
 
@@ -72,7 +72,7 @@ ht-degree: 96%
 
    例如，您可以定義特定時區，以便在工作流的所有活動中預設使用。依預設，工作流程的時區是為目前的促銷活動運算子定義的時區。
 
-   如需工作流程屬性的詳細資訊，請參閱 [本頁](../../automating/using/managing-execution-options.md).
+   有關工作流屬性的詳細資訊，請參閱 [此頁](../../automating/using/managing-execution-options.md)。
 
    ![](assets/workflow_properties.png)
 
@@ -131,10 +131,10 @@ ht-degree: 96%
 1. 保存活動，然後對工作流的每個活動重複這些操作。
 1. 儲存工作流程。
 
-## 教學課程影片 {#video}
+## 教程視頻 {#video}
 
-此影片說明如何建立工作流程。
+此視頻顯示如何建立工作流。
 
 >[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
 
-提供其他Campaign Standard作法影片 [此處](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant).
+可提供其他Campaign Standard操作視頻 [這裡](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant)。

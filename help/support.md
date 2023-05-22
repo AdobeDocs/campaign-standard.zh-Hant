@@ -1,5 +1,5 @@
 ---
-title: 'Campaign Standard 的說明與支援選項 '
+title: Campaign Standard 的說明與支援選項
 description: 需要 Campaign Standard 的支援嗎？ 您來對地方了！
 audience: rns
 content-type: reference
@@ -127,4 +127,4 @@ ht-degree: 100%
 
 如要在該新系統中記錄問題或啟動聊天工作階段，請連結到 [Adobe Admin Console](https://adminconsole.adobe.com/overview)。
 
-請依照[此頁面](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)中說明的詳細過程進行操作。
+請依照[此頁面](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)中說明的詳細過程進行操作。

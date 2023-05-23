@@ -1,6 +1,6 @@
 ---
 title: 在交易式訊息中使用產品清單
-description: 了解如何在交易式訊息內容中使用產品清單。
+description: 瞭解如何在事務性消息內容中使用產品清單。
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
@@ -9,9 +9,9 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3c8ddd46-05b4-4414-ab2e-052d60da09e5
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '847'
 ht-degree: 79%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 79%
 
 >[!IMPORTANT]
 >
->產品清單僅適用於 **異動電子郵件訊息** 通過 [電子郵件設計工具](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface) 介面。
+>產品清單僅可用於 **事務電子郵件消息** 通過 [電子郵件設計器](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface) 。
 
-編輯交易式電子郵件的內容時，您可以建立參考一或多個資料集合的產品清單。 例如，在購物車放棄率電子郵件中，您可以包含使用者離開網站時購物車中的所有產品清單，其中包含影像、價格及每項產品的連結。
+編輯事務性電子郵件的內容時，可以建立引用一個或多個資料集合的產品清單。 例如，在購物車放棄電子郵件中，您可以包括用戶購物車離開網站時在他們購物車中的所有產品的清單，其中包含影像、價格和指向每個產品的連結。
 
 若要在交易式訊息中新增放棄的產品清單，請遵循以下步驟。
 
-您也可以觀看 [這組影片](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html?lang=en#configure-product-listings-in-transactional-emails) 說明在交易式電子郵件中設定產品清單所需的步驟。
+您還可以 [這組視頻](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html#configure-product-listings-in-transactional-emails) 說明在事務性電子郵件中配置產品清單所需的步驟。
 
 >[!NOTE]
 >
@@ -37,9 +37,9 @@ ht-degree: 79%
 您必須先在事件層級中定義產品清單以及您想要顯示清單中各產品的欄位，才能在交易式訊息中使用產品清單。如需詳細資訊，請參閱「[定義資料集合](../../channels/using/configuring-transactional-event.md#defining-data-collections)」。
 
 1. 在交易式訊息中，按一下 **[!UICONTROL Content]** 區塊以修改電子郵件內容。
-1. 將結構元件拖放至工作區。有關詳細資訊，請參閱 [定義電子郵件結構](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+1. 將結構元件拖放至工作區。有關此的詳細資訊，請參閱 [定義電子郵件結構](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 
-   例如，選取單欄結構元件並新增文字元件、影像元件及按鈕元件。有關詳細資訊，請參閱 [使用內容元件](../../designing/using/designing-from-scratch.md#about-content-components).
+   例如，選取單欄結構元件並新增文字元件、影像元件及按鈕元件。有關此的詳細資訊，請參閱 [使用內容元件](../../designing/using/designing-from-scratch.md#about-content-components)。
 
 1. 選取您剛剛建立的結構元件，然後按一下內容工具列中的 **[!UICONTROL Enable product listing]** 圖示。
 
@@ -56,7 +56,7 @@ ht-degree: 79%
 
    >[!NOTE]
    >
-   >只有使用多欄結構元件時，才可使用　**[!UICONTROL Column]**　選項（**[!UICONTROL 2:2 column]**、**[!UICONTROL 3:3 column]** 及 **[!UICONTROL 4:4 column]**）。編輯產品清單時，僅填入第一欄：不會將其他欄納入考量。有關選擇結構元件的詳細資訊，請參閱 [定義電子郵件結構](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+   >只有使用多欄結構元件時，才可使用　**[!UICONTROL Column]**　選項（**[!UICONTROL 2:2 column]**、**[!UICONTROL 3:3 column]** 及 **[!UICONTROL 4:4 column]**）。編輯產品清單時，僅填入第一欄：不會將其他欄納入考量。有關選擇結構元件的詳細資訊，請參見 [定義電子郵件結構](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 
 1. 選取您在設定與交易式訊息相關之事件時建立的資料集合。您可以在 **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** 節點下方找到該集合。
 
@@ -127,9 +127,9 @@ ht-degree: 79%
 
    ![](assets/message-center_loop_fallback.png)
 
-   如果集合在觸發事件（例如客戶購物車中沒有任何項目）時為空，則會顯示後援內容。
+   如果觸發事件時集合為空，則將顯示回退內容，例如，如果客戶的購物車中沒有任何內容。
 
-1. 在「設定」窗格中，編輯產品清單的樣式。有關詳細資訊，請參閱 [管理電子郵件樣式](../../designing/using/styles.md).
+1. 在「設定」窗格中，編輯產品清單的樣式。有關此的詳細資訊，請參閱 [管理電子郵件樣式](../../designing/using/styles.md)。
 1. 使用連結至相關交易式事件且您為其定義集合資料的測試設定檔，以預覽電子郵件。例如，在您要使用之測試設定檔的 **[!UICONTROL Event data]** 區段中新增下列資訊：
 
    ![](assets/message-center_loop_test-profile_payload.png)

@@ -8,9 +8,9 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 feature: Landing Pages
 role: User
 exl-id: 8015c555-9521-478c-8669-66b9cc145887
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1025'
 ht-degree: 97%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 97%
 
 在本頁面中，您將會找到這些步驟的相關資訊及專用檔案的參考，以取得更多詳細資訊。
 
-![](assets/do-not-localize/how-to-video.png) [探索如何在影片中建立登錄頁面](#video)
+![](assets/do-not-localize/how-to-video.png) [瞭解如何在視頻中建立登錄頁](#video)
 
 **相關主題：**
 
@@ -132,10 +132,10 @@ ht-degree: 97%
 
 如需這些差異的詳細資訊，請參閱[本區段](../../channels/using/testing-publishing-landing-page.md#publishing-a-landing-page)。
 
-## 教學課程影片 {#video}
+## 教程視頻 {#video}
 
-此影片說明如何建立和編輯登錄頁面。
+此視頻顯示如何建立和編輯登錄頁。
 
 >[!VIDEO](https://video.tv.adobe.com/v/24093?quality=12)
 
-提供其他Campaign Standard作法影片 [此處](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant).
+可提供其他Campaign Standard操作視頻 [這裡](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant)。

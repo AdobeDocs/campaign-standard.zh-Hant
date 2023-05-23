@@ -9,9 +9,9 @@ feature: Profiles
 role: User
 level: Intermediate
 exl-id: 56ece9da-18ec-4d27-a637-c22709a5e6aa
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '447'
 ht-degree: 95%
 
 ---
@@ -78,10 +78,10 @@ ht-degree: 95%
 
 1. 如果您已輸入變更，請按一下 **[!UICONTROL Save]** ，或選取測試設定檔名稱，然後 **[!UICONTROL Test profiles]** 在螢幕頂端的部分，返回至測試設定檔的控制面板。
 
-## 教學課程影片 {#video}
+## 教程視頻 {#video}
 
-此影片說明如何建立測試設定檔。
+此視頻顯示如何建立test配置檔案。
 
 >[!VIDEO](https://video.tv.adobe.com/v/24094?quality=12)
 
-提供其他Campaign Standard作法影片 [此處](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant).
+可提供其他Campaign Standard操作視頻 [這裡](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant)。

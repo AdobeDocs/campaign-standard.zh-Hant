@@ -1,6 +1,6 @@
 ---
 title: 編輯異動訊息
-description: 了解如何存取、編輯及個人化交易式訊息。
+description: 瞭解如何訪問、編輯和個性化事務性消息。
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
@@ -9,7 +9,7 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: f5dcb715-7cbd-49f2-8713-7e16cfa04184
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
 source-wordcount: '653'
 ht-degree: 30%
@@ -18,46 +18,46 @@ ht-degree: 30%
 
 # 編輯異動訊息 {#editing-transactional-message}
 
-建立並發佈事件後<!--(the cart abandonment example as explained in [this section](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle))-->，則會自動建立對應的交易式訊息。
+建立並發佈事件後<!--(the cart abandonment example as explained in [this section](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle))-->，自動建立相應的事務消息。
 
-設定和發佈事件的步驟顯示在 [設定交易式事件](../../channels/using/configuring-transactional-event.md) 和 [發佈交易式事件](../../channels/using/publishing-transactional-event.md) 區段。
+配置和發佈事件的步驟在 [配置事務事件](../../channels/using/configuring-transactional-event.md) 和 [發佈事務性事件](../../channels/using/publishing-transactional-event.md) 的子菜單。
 
-以下說明存取、編輯及個人化此訊息的步驟。
+下面介紹了訪問、編輯和個性化此消息的步驟。
 
 >[!IMPORTANT]
 >
->僅使用 [管理](../../administration/using/users-management.md#functional-administrators) 角色可以存取及編輯交易式訊息。
+>僅具有 [管理](../../administration/using/users-management.md#functional-administrators) 角色可以訪問和編輯事務性消息。
 
-訊息準備就緒後，即可測試並發佈。 請參閱 [測試交易式訊息](../../channels/using/testing-transactional-message.md) 和 [交易式訊息生命週期](../../channels/using/publishing-transactional-message.md).
+一旦您的郵件準備就緒，便可對其進行測試並發佈。 請參閱 [測試事務性消息](../../channels/using/testing-transactional-message.md) 和 [事務性消息生命週期](../../channels/using/publishing-transactional-message.md)。
 
-## 存取交易式訊息 {#accessing-transactional-messages}
+## 訪問事務性消息 {#accessing-transactional-messages}
 
-若要存取您建立的交易式訊息：
+要訪問您建立的事務性消息，請執行以下操作：
 
-1. 按一下 **Adobe** 徽標，在左上角。
-1. 選擇 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
+1. 按一下 **Adobe** 徽標，位於左上角。
+1. 選擇 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**。
 
    ![](assets/message-center_4.png)
 
-1. 按一下您選擇的訊息加以編輯。
+1. 按一下您選擇的消息編輯它。
 
    ![](assets/message-center_message-board.png)
 
-您也可以透過位於對應事件設定畫面左側區域的連結，直接存取交易式訊息。 請參閱 [預覽和發佈事件](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
+您還可以通過位於相應事件配置螢幕左側區域的連結直接訪問事務性消息。 請參閱 [預覽和發佈事件](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
 
 ## 個人化交易式訊息 {#personalizing-a-transactional-message}
 
-若要編輯和個人化交易式訊息，請遵循下列步驟。
+要編輯並個性化事務性消息，請執行以下步驟。
 
 >[!NOTE]
 >
->本節說明如何編輯 **事件型** 交易式訊息。 此 **設定檔** 交易式訊息特異性會詳細說明 [low](#profile-transactional-message-specificities).
+>本節介紹如何編輯 **基於事件** 事務性消息。 的 **基於輪廓** 事務性消息特性是詳細的 [下](#profile-transactional-message-specificities)。
 >
->建立以事件為基礎的交易式訊息的設定步驟顯示於 [本節](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages).
+>中介紹了建立基於事件的事務性消息的配置步驟 [此部分](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages)。
 
-例如，您想要傳送通知給已將產品新增至購物車且離開網站，而不需進行購買的網站使用者。 此範例顯示在 [交易式訊息傳送操作原則](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) 區段。
+例如，您希望向已將產品添加到購物車的網站用戶發送通知，然後離開網站，而不需要進行購買。 此示例在 [事務性消息傳遞操作原則](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) 的子菜單。
 
-1. 按一下 **[!UICONTROL Content]** 區塊以修改訊息的主旨與內容。在此範例中，選取包含影像與文字的任何範本。如需電子郵件內容範本的詳細資訊，請參閱 [使用範本設計電子郵件](../../designing/using/using-reusable-content.md#designing-templates).
+1. 按一下 **[!UICONTROL Content]** 區塊以修改訊息的主旨與內容。在此範例中，選取包含影像與文字的任何範本。有關電子郵件內容模板的詳細資訊，請參見 [使用模板設計電子郵件](../../designing/using/using-reusable-content.md#designing-templates)。
 
    ![](assets/message-center_6.png)
 
@@ -73,7 +73,7 @@ ht-degree: 30%
 
    ![](assets/message-center_7.png)
 
-1. 您也可以讓訊息的內容更豐富。 若要這麼做，請新增您連結至事件設定的表格欄位(請參閱 [豐富化活動](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content))。 在此範例中，選取 **[!UICONTROL Title (salutation)]** 欄位 **[!UICONTROL Profile]** 表格 **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**.
+1. 您還可以豐富郵件的內容。 為此，請從連結到事件配置的表中添加欄位(請參閱 [豐富活動內容](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content))。 在此示例中，選擇 **[!UICONTROL Title (salutation)]** 的 **[!UICONTROL Profile]** 表 **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**。
 
    ![](assets/message-center_7-enrichment.png)
 
@@ -87,7 +87,7 @@ ht-degree: 30%
 
    ![](assets/message-center_9.png)
 
-   您可以檢查個人化欄位是否符合在測試設定檔中輸入的資訊。有關詳細資訊，請參閱 [定義特定測試設定檔](../../channels/using/testing-transactional-message.md#defining-specific-test-profile).
+   您可以檢查個人化欄位是否符合在測試設定檔中輸入的資訊。有關此的詳細資訊，請參閱 [定義特定test配置檔案](../../channels/using/testing-transactional-message.md#defining-specific-test-profile)。
 
 <!--## Using product listings in a transactional message {#using-product-listings-in-a-transactional-message}
 
@@ -99,7 +99,7 @@ When editing the content of a transactional email, you can create product listin
 
 To add a list of abandoned products in a transactional message, follow the steps below.
 
-You can also watch [this set of videos](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html?lang=en#configure-product-listings-in-transactional-emails) explaining the steps that are required to configure product listings in a transactional email.
+You can also watch [this set of videos](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html#configure-product-listings-in-transactional-emails) explaining the steps that are required to configure product listings in a transactional email.
 
 >[!NOTE]
 >
@@ -209,32 +209,32 @@ For more on creating a collection and related fields when configuring the event,
 
    For more on defining a test profile in a transactional message, see [this section](../../channels/using/testing-transactional-message.md#defining-specific-test-profile).-->
 
-## 設定檔交易式訊息特異性 {#profile-transactional-message-specificities}
+## 基於配置檔案的事務性消息特性 {#profile-transactional-message-specificities}
 
-您可以根據客戶行銷設定檔傳送交易式訊息，這可讓您運用所有設定檔資訊來個人化訊息內容、使用取消訂閱連結，以及套用行銷類型規則，例如 [疲勞規則](../../sending/using/fatigue-rules.md).
+您可以根據客戶市場營銷配置檔案發送事務性消息，這允許您利用所有配置檔案資訊來個性化消息內容、使用取消訂閱連結以及應用市場營銷類型規則，如 [疲勞規則](../../sending/using/fatigue-rules.md)。
 
-* 如需事件型和設定檔交易式訊息之間差異的詳細資訊，請參閱 [本節](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types).
+* 有關基於事件和基於配置檔案的事務性消息之間的差異的更多資訊，請參見 [此部分](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types)。
 
-* 建立以設定檔為基礎的交易式訊息的設定步驟於 [本節](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages).
+* 有關建立基於配置檔案的事務性消息的配置步驟的詳細說明，請參見 [此部分](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages)。
 
-建立、編輯和個人化設定檔交易式訊息的步驟，大多與事件交易式訊息的步驟相同。
+建立、編輯和個性化配置檔案事務性消息的步驟與事件事務性消息的步驟大相同。
 
 差異列示於下方。
 
 1. [移至建立的交易式訊息，以編輯其內容。](#accessing-transactional-messages)
-1. 在交易式訊息中，按一下 **[!UICONTROL Content]** 區段。除了交易式電子郵件範本，您也可以選擇任何以 **[!UICONTROL Profile]** 資源。
+1. 在交易式訊息中，按一下 **[!UICONTROL Content]** 區段。除事務性電子郵件模板外，您還可以選擇任何針對 **[!UICONTROL Profile]** 資源。
 
    ![](assets/message-center_marketing_templates.png)
 
-1. 選取預設的電子郵件範本。與所有行銷電子郵件類似，其中包含 **取消訂閱連結**.
+1. 選取預設的電子郵件範本。與所有營銷電子郵件類似，它包括 **取消訂閱連結**。
 
    ![](assets/message-center_marketing_perso_unsubscription.png)
 
-   如需範本的詳細資訊，請參閱 [本節](../../designing/using/using-reusable-content.md#content-templates).
+   有關模板的詳細資訊，請參見 [此部分](../../designing/using/using-reusable-content.md#content-templates)。
 
-1. 此外，與以即時事件為基礎的設定不同，您有 **直接存取所有設定檔資訊** 個人化您的訊息。 您可以新增 [個人化欄位](../../designing/using/personalization.md#inserting-a-personalization-field) 如同您對任何其他標準行銷電子郵件所做的一樣。
+1. 此外，與基於即時事件的配置相比，您 **直接訪問所有配置檔案資訊** 個性化您的郵件。 可以添加 [個性化欄位](../../designing/using/personalization.md#inserting-a-personalization-field) 正如您對任何其他標準營銷電子郵件所做的那樣。
 
-1. 先儲存您的變更再發佈訊息。 如需詳細資訊，請參閱「[發佈交易式訊息](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)」。
+1. 在發佈消息之前保存您所做的更改。 如需詳細資訊，請參閱「[發佈交易式訊息](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)」。
 
 <!--### Monitoring a profile transactional message delivery {#monitoring-a-profile-transactional-message-delivery}
 

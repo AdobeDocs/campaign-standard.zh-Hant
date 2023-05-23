@@ -1,15 +1,15 @@
 ---
 title: 使用者管理
-description: 'Adobe Campaign 使用者具有特定角色。探索主要使用者類型。 '
+description: Adobe Campaign 使用者具有特定角色。探索主要使用者類型。
 audience: administration
 feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 6605203e-78f8-4ebd-b256-a621a3a9d638
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1204'
-ht-degree: 82%
+source-wordcount: '1198'
+ht-degree: 81%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 82%
 
 Adobe Campaign 可讓您指派一組角色給使用者，以定義使用者可存取的介面部分。
 
-以下各節將詳細介紹特定角色和相應的授權：[瞭解角色](../../administration/using/list-of-roles.md)和[授權](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)。
+以下各節將詳細介紹特定角色和相應的授權：[瞭解角色](../../administration/using/list-of-roles.md)和[授權](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)。
 
 管理員可以從Admin Console管理用戶。 然後，使用者會自動與 Adobe Campaign 同步。有關詳細資訊，請參閱 [Admin Console](https://helpx.adobe.com/tw/enterprise/using/users.html) 文檔。
 
@@ -35,7 +35,7 @@ Adobe Campaign 可讓您指派一組角色給使用者，以定義使用者可�
 
 * [管理使用者權限](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html)影片
 * [角色清單](../../administration/using/list-of-roles.md)
-* [授權清單](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)
+* [授權清單](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 ## 使用者類型 {#type-of-users}
 

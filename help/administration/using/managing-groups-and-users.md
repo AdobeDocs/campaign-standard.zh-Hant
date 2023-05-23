@@ -6,10 +6,10 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 72%
+source-wordcount: '931'
+ht-degree: 71%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 72%
 
 使用者必須始終連結到安全性群組。這可讓您指派他們特定的角色和組織單位。要限制用戶的訪問權限，請勿將用戶添加到市場活動 **[!UICONTROL Standard Users]** 組，因為此連結 **[!UICONTROL All]** 組織單位。
 
-有關角色的詳細資訊，以下頁中的表顯示了根據用戶角色可用的可能操作： [Adobe Campaign Standard授權](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)。
+有關角色的詳細資訊，以下頁中的表顯示了根據用戶角色可用的可能操作： [Adobe Campaign Standard授權](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)。
 
 預設安全性群組為：
 

@@ -1,6 +1,6 @@
 ---
-title: 設定Campaign-Dynamics整合應用程式
-description: 了解如何設定Campaign-Dynamics整合應用程式
+title: 配置Campaign-Dynamics整合應用
+description: 瞭解如何配置Campaign-Dynamics整合應用
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
@@ -8,85 +8,85 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
 exl-id: 184bc656-2107-4380-9b35-148cb4380547
-source-git-commit: f75df49e7957437df72c814aa9055d34770f22d6
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '792'
-ht-degree: 4%
+source-wordcount: '778'
+ht-degree: 3%
 
 ---
 
 # 連結系統與整合應用程式
 
-## 將憑證新增至整合應用程式
+## 向整合應用添加憑據
 
-此 **[!UICONTROL Settings]** 螢幕可讓您指定Microsoft Dynamics 365和AdobeAPI憑證。 您也可以配置與Adobe Campaign SFTP例項相關的設定。
+的 **[!UICONTROL Settings]** 螢幕允許您指定MicrosoftDynamics 365和AdobeAPI憑據。 您還可以配置與Adobe CampaignSFTP實例相關的設定。
 
-### Microsoft Dynamics 365憑證
+### MicrosoftDynamics 365憑據
 
-Microsoft Dynamics 365憑證提供整合應用程式權限，可從Microsoft Dynamics 365中提取資料。  您必須先依照畫面上的步驟操作 [設定Microsoft Dynamics 365以進行Campaign整合](../../integrating/using/d365-acs-configure-d365.md) 來產生要貼上至此畫面的值。 下面描述的輸入將參考此螢幕。
+MicrosoftDynamics 365憑據授予整合應用程式從MicrosoftDynamics 365中提取資料的權限。  必須首先執行螢幕上的步驟 [配置MicrosoftDynamics 365以進行市場活動整合](../../integrating/using/d365-acs-configure-d365.md) 以生成將貼上到此螢幕中的值。 下面描述的輸入將引用此螢幕。
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-d365.png)
 
-* **[!UICONTROL Client ID]**:了解如何在 [本節](../../integrating/using/d365-acs-configure-d365.md#register-a-new-app)
+* **[!UICONTROL Client ID]**:瞭解如何在中引用您的客戶端ID [此部分](../../integrating/using/d365-acs-configure-d365.md#register-a-new-app)
 
-* **[!UICONTROL Client Secret]**:了解如何在 [本節](../../integrating/using/d365-acs-configure-d365.md#generate-a-client-secret)
+* **[!UICONTROL Client Secret]**:瞭解如何在中生成客戶端密鑰 [此部分](../../integrating/using/d365-acs-configure-d365.md#generate-a-client-secret)
 
-* **[!UICONTROL Tenant]**:了解如何在 [本節](../../integrating/using/d365-acs-configure-d365.md#get-the-tenant-id)
+* **[!UICONTROL Tenant]**:瞭解如何在中查找您的租戶ID [此部分](../../integrating/using/d365-acs-configure-d365.md#get-the-tenant-id)
 
-* **[!UICONTROL URL]**:URL會有格式 `https://&lt;servername&gt;.api.crm.dynamics.com/`
+* **[!UICONTROL URL]**:URL將具有格式 `https://&lt;servername&gt;.api.crm.dynamics.com/`
 
-### AdobeAPI憑證
+### AdobeAPI憑據
 
-Adobe Campaign憑證是使用 [Adobe I/O](https://www.adobe.io/). 您需要瀏覽畫面 [配置Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md) 並先依照這些指示操作，您才能填寫本節中的輸入內容。
+Adobe Campaign憑據使用 [Adobe I/O](https://www.adobe.io/)。 您需要訪問螢幕 [配置Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md) 並按照此處的說明進行操作，然後才能填寫本部分的輸入。
 
-下圖將詳細說明Adobe I/O與設定畫面輸入之間的對應。
+下圖將詳細說明Adobe I/O和設定螢幕輸入之間的映射。
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-adobeio.png)
 
-* *私密金鑰*:定義此項的程式會從按一下「產生公開/私用金鑰組」按鈕開始。 這會建立您必須下載的zip檔案。 下載後，將檔案解壓縮，這會產生兩個檔案，名為certificate_pub.crt和private.key。 請務必將private.key放在安全位置，但請勿共用。 在文字編輯器中開啟private.key檔案。 在文字編輯器中複製整個值(在PC上按住ctrl-A然後按住ctrl-C，在Mac上按住cmd-A然後按住cmd-C)。 這應包括整個包含「BEGIN PRIVATE KEY」和「END PRIVATE KEY」的行。 將此整份多行文字貼入「設定」畫面的「私密金鑰」輸入。
+* *私鑰*:要定義此項，請按一下「生成公共/專用密鑰對」按鈕。 這將建立必須下載的zip檔案。 下載後，將解壓檔案，這將導致兩個名為certificate_pub.crt和private.key的檔案。 確保將private.key放在安全位置，不要共用它。 在文本編輯器中開啟private.key檔案。 在文本編輯器中複製整個值(在PC上按ctrl-A然後按ctrl-C，或在Mac上按cmd-A再按cmd-C)。 這應包括整個「BEGIN PRIVATE KEY」和「END PRIVATE KEY」的行。 將此整行多行文本貼上到「設定」螢幕的「私鑰」輸入中。
 
-* *URL*:此值將符合以下模式： https\://mc.adobe.io/&lt;campaign-instance-name>. 整合應用程式的標題同時包含「組織」和「例項」。 url的「campaign-instance-name」部分將只是此執行個體值中找到的名稱。
+* *URL*:此值將適合模式https\://mc.adobe.io/&lt;campaign-instance-name>。 整合應用的標題包括「組織」和「實例」。 URL的「campaign-instance-name」部分將只是在此實例值中找到的名稱。
 
-## Adobe Campaign SFTP設定 {#ac-smtp-settings}
+## Adobe CampaignSFTP設定 {#ac-smtp-settings}
 
-這些設定為選用。 如果您打算使用Adobe Campaign SFTP例項從連接器輸出記錄檔，則需要定義這些記錄檔。 如果您在整合執行時遇到問題，且需要針對輸出不符合您期望的原因進行除錯，此功能將有所幫助。
+這些設定是可選的。 如果計畫使用Adobe CampaignSFTP實例從連接器輸出日誌，則需要定義它們。 如果您在整合運行時遇到問題，並且需要調試為什麼輸出不符合您的期望值，則此操作將非常有用。
 
-設定SFTP伺服器的另一個原因是，如果您打算執行選擇加入/退出工作流程，且有資料從Adobe Campaign流向Microsoft Dynamics 365，可能 **[!UICONTROL Unidirectional (Campaign to Microsoft Dynamics 365)]** 或 **[!UICONTROL Bidirectional]**.
+設定SFTP伺服器的另一個原因是，如果您計畫運行選擇加入/退出工作流，並且有從Adobe Campaign到MicrosoftDynamics 365的資料流 **[!UICONTROL Unidirectional (Campaign to Microsoft Dynamics 365)]** 或 **[!UICONTROL Bidirectional]**。
 
 >[!IMPORTANT]
 >
->您需負責從SFTP資料夾存取和下載的資訊。 如果資訊包含個人資料，您需負責遵守任何適用的隱私權法律和法規。 [深入瞭解](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-privacy)。
+>您負責從SFTP資料夾訪問和下載的資訊。 如果資訊包含個人資料，您應負責遵守任何適用的隱私法律和法規。 [了解更多](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-privacy)。
 
-若要定義Microsoft Dynamics 365整合的Campaign SFTP設定，請存取下列區段：
+要為MicrosoftDynamics 365整合定義市場活動SFTP設定，請訪問以下部分：
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-sftp.png)
 
 您需要指定：
 
-* **SFTP主機**:此欄位將包含 &lt;campaign-instance-name>.campaign.adobe.com。 整合應用程式的標題包含 **組織** 和 **例項**. url的「campaign-instance-name」部分將只是此執行個體值中找到的名稱。
+* **SFTP主機**:此欄位包含 &lt;campaign-instance-name>.campaigment.adobe.com。 整合應用的標題包括 **組織** 和 **實例**。 URL的「campaign-instance-name」部分將只是在此實例值中找到的名稱。
 
-* **SFTP使用者**:如果您有SFTP使用者，請在此處新增。 否則，請參閱 [本節](#ac-control-panel-settings). 在程式中，會顯示使用者名稱。
+* **SFTP用戶**:如果您有SFTP用戶，請將其添加到此處。 否則，請參閱 [此部分](#ac-control-panel-settings)。 在此過程中，將顯示用戶名。
 
-* **SFTP金鑰**:如果您有SSH金鑰，請在此處新增。 否則，請參閱 [本節](#ac-control-panel-settings).
+* **SFTP密鑰**:如果您有SSH密鑰，請在此處添加。 否則，請參閱 [此部分](#ac-control-panel-settings)。
 
-* 此 **IP範圍** 需要包含在您的Adobe Campaign SFTP設定中。 必須允許列出這些項目，整合才能使用SFTP端點。
+* 的 **IP範圍** 需要包含在您的Adobe CampaignSFTP配置中。 需要列出這些內容，以便整合能夠利用SFTP端點。
 
-* 此 **是否要將記錄檔匯出至您的Adobe Campaign SFTP?** 可讓您判斷整合是否會將記錄資訊輸出至SFTP端點。 如果Adobe Campaign或Microsoft Dynamics 365未顯示您預期的資訊，此功能可協助進行除錯。
+* 的 **是否要將日誌導出到您的Adobe CampaignSFTP?** 允許您確定整合是否將日誌資訊輸出到SFTP端點。 如果Adobe Campaign或MicrosoftDynamics 365未顯示您期望的資訊，則此選項可用於幫助調試。
 
-## Adobe Campaign中的SFTP設定 {#ac-control-panel-settings}
+## SFTP在Adobe Campaign的設定 {#ac-control-panel-settings}
 
-探索SFTP管理，使用 [Campaign控制面板](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hant) 在以下幾節中：
+使用 [市場活動控制面板](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hant) 在以下各節中：
 
-* [關於 SFTP 管理](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=zh-Hant#sftp-management)
+* [關於 SFTP 管理](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html#sftp-management)
 
-* [SFTP 儲存空間管理](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=en#installing-ssh-key)
+* [SFTP 儲存空間管理](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html#installing-ssh-key)
 
-* [新增IP範圍](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/ip-range-allow-listing.html?lang=en#sftp-management)
+* [添加IP範圍](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/ip-range-allow-listing.html#sftp-management)
 
-* [管理金鑰](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=en#sftp-management)
+* [管理密鑰](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html#sftp-management)
 
-* [登入您的SFTP伺服器](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/logging-into-sftp-server.html?lang=en#sftp-management)
+* [登錄到SFTP伺服器](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/logging-into-sftp-server.html#sftp-management)
 
-完成設定後，使用私密金鑰登入SFTP伺服器並建立「d365_loads/exports」目錄。
+完成配置後，使用私鑰登錄到SFTP伺服器並建立目錄「d365_loads/exports」。
 
-[請造訪此頁面](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=en#sftp-management) 以取得Adobe Campaign Standard SFTP伺服器的相關資訊。
+[訪問此頁](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=zh-Hant) 有關Adobe Campaign StandardSFTP伺服器的資訊。

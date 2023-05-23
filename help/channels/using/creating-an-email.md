@@ -1,6 +1,6 @@
 ---
 title: 建立電子郵件
-description: 請依照下列步驟，在Adobe Campaign中建立單一傳送的電子郵件。
+description: 按照以下步驟在Adobe Campaign建立單發電子郵件。
 audience: channels
 content-type: reference
 topic-tags: email-messages
@@ -8,36 +8,36 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 4483e469-0a2b-494d-b768-950168759727
-source-git-commit: d234d7fab039b602eff06c03ba0d8f7ce2a0cf3f
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '572'
 ht-degree: 18%
 
 ---
 
 # 建立電子郵件{#creating-an-email}
 
-您可以從 [行銷活動](../../start/using/marketing-activities.md#creating-a-marketing-activity)，來自Adobe Campaign [首頁](../../start/using/interface-description.md#home-page)，或 [行銷活動清單](../../start/using/marketing-activities.md#about-marketing-activities). 您也可以從工作流程建立單一傳送和循環寄送的電子郵件。
+您可以通過 [活動](../../start/using/marketing-activities.md#creating-a-marketing-activity)，來自Adobe Campaign [首頁](../../start/using/interface-description.md#home-page)，或 [市場營銷活動清單](../../start/using/marketing-activities.md#about-marketing-activities)。 您也可以從工作流程建立單一傳送和循環寄送的電子郵件。
 
 ![](assets/do-not-localize/how-to-video.png) [在影片中探索此功能](#video)
 
-1. 開始建立電子郵件行銷活動後，請選取您要使用的範本。
+1. 開始建立電子郵件市場營銷活動後，請選擇要使用的模板。
 
-   依預設，您可以從多個範本中選擇每個行銷活動。 這可讓您根據需求預先設定特定參數，並將品牌指派給您的傳送。 有關詳細資訊，請參閱 [管理範本](../../start/using/marketing-activity-templates.md).
+   預設情況下，您可以從多個模板中為每個市場營銷活動進行選擇。 這樣，您就可以根據您的需要預先配置某些參數，並為交付產品分配品牌。 有關此的詳細資訊，請參閱 [管理模板](../../start/using/marketing-activity-templates.md)。
 
    ![](assets/email_creation_1.png)
 
    >[!NOTE]
    >
-   >預設會隱藏後續與 A/B 測試範本。勾選左側的方塊( **[!UICONTROL Filter]** 側面面板)。
+   >預設會隱藏後續與 A/B 測試範本。選中左側的框( **[!UICONTROL Filter]** )。
 
-1. 輸入電子郵件的一般屬性。 您可以在 **標籤** 欄位和編輯ID。
+1. 輸入電子郵件的常規屬性。 可在 **標籤** 編輯ID。
 
    >[!NOTE]
    >
-   >活動名稱及其ID都會顯示在介面中，但訊息收件者看不到。
+   >活動名稱及其ID都顯示在介面中，但郵件收件人看不到它們。
    >
-   >請確定ID欄位不含任何空白字元，以避免任何差異，例如在與Adobe Analytics整合時。
+   >確保ID欄位不包含任何空格以避免任何差異，例如與Adobe Analytics整合時。
 
    您可以新增使用者可在行銷活動內容中看到的說明。
 
@@ -45,30 +45,30 @@ ht-degree: 18%
 
    >[!NOTE]
    >
-   >您可以從首頁或行銷活動清單，在父行銷活動內建立電子郵件。 從已建立的促銷活動中選取。
+   >您可以從首頁或市場營銷活動清單在父市場活動中建立電子郵件。 從已建立的市場活動中選擇它。
 
-1. 根據您的業務條件定義訊息的目標。 請參閱 [關於設定檔](../../audiences/using/about-profiles.md).
+1. 根據業務標準定義郵件的目標。 請參閱 [關於配置檔案](../../audiences/using/about-profiles.md)。
 
-   您也可以定義將驗證訊息的測試設定檔。 請參閱[管理測試設定檔](../../audiences/using/managing-test-profiles.md)。
+   您還可以定義將驗證消息的test配置檔案。 請參閱[管理測試設定檔](../../audiences/using/managing-test-profiles.md)。
 
    ![](assets/email_creation_3.png)
 
-1. 使用定義並個人化訊息內容、寄件者名稱和主旨 [電子郵件設計工具](../../designing/using/designing-content-in-adobe-campaign.md). 有關詳細資訊，請參閱 [關於電子郵件內容設計](../../designing/using/designing-content-in-adobe-campaign.md).
+1. 使用 [電子郵件設計器](../../designing/using/designing-content-in-adobe-campaign.md)。 有關此的詳細資訊，請參閱 [關於電子郵件內容設計](../../designing/using/designing-content-in-adobe-campaign.md)。
 
    ![](assets/email_creation_4.png)
 
-   您可以直接使用預先定義的內容範本，或使用Dreamweaver或Adobe Experience Manager來設計訊息。 如果您不像設計師，也可以上傳已為您準備的內容，或從URL匯入現有內容。 請參閱「[選擇現有內容](../../designing/using/using-existing-content.md)」。
+   您可以直接使用預定義的內容模板或使用Dreamweaver或Adobe Experience Manager設計您的郵件。 如果您不覺得自己是設計師，您還可以上載為您準備的內容，或從URL導入現有內容。 請參閱「[選擇現有內容](../../designing/using/using-existing-content.md)」。
 
-1. 預覽訊息。 請參閱「[預覽訊息](../../sending/using/previewing-messages.md)」。
+1. 預覽您的消息。 請參閱「[預覽訊息](../../sending/using/previewing-messages.md)」。
 1. 確認建立電子郵件。
 
    >[!NOTE]
    >
-   >若要儲存您的電子郵件，您必須先對內容進行一些編輯。 如果您按一下 **[!UICONTROL Cancel]** 此時，您將無法完成精靈，且將無法建立您的電子郵件。
+   >要保存電子郵件，您首先需要對內容進行一些編輯。 如果按一下 **[!UICONTROL Cancel]** 此時，您將無法完成嚮導，並且不會建立您的電子郵件。
 
-   接著會顯示電子郵件控制面板。 它可讓您檢查訊息，並 [準備傳送](../../sending/using/preparing-the-send.md).
+   然後顯示電子郵件儀表板。 它允許您檢查您的郵件 [準備發送](../../sending/using/preparing-the-send.md)。
 
-   此 **[!UICONTROL Edit properties]** 按鈕，即可編輯電子郵件的屬性。 例如，您可以設定電子郵件，以便在準備傳送時計算其標籤。  可用參數列於 [本節](../../administration/using/configuring-email-channel.md#list-of-email-properties).
+   的 **[!UICONTROL Edit properties]** 按鈕，可編輯電子郵件的屬性。 例如，您可以配置電子郵件，以便在交付準備時間計算其標籤。  可用參數列於 [此部分](../../administration/using/configuring-email-channel.md#list-of-email-properties)。
 
    ![](assets/delivery_dashboard_2.png)
 
@@ -76,34 +76,34 @@ ht-degree: 18%
 
    ![](assets/delivery_planning.png)
 
-1. 準備您的訊息以分析其目標。 請參閱 [準備傳送](../../sending/using/confirming-the-send.md).
+1. 準備郵件以分析其目標。 請參閱 [準備發送](../../sending/using/confirming-the-send.md)。
 
    ![](assets/preparing_delivery_2.png)
 
    >[!NOTE]
    >
-   >您可以設定全域跨通道疲勞規則，這會從促銷活動自動排除過度請求的設定檔。有關詳細資訊，請參閱 [疲勞規則](../../sending/using/fatigue-rules.md).
+   >您可以設定全域跨通道疲勞規則，這會從促銷活動自動排除過度請求的設定檔。有關此的詳細資訊，請參閱 [疲勞規則](../../sending/using/fatigue-rules.md)。
 
-1. 傳送校樣以檢查並驗證您的訊息，並監控其收件匣呈現。請參閱 [傳送校樣](../../sending/using/sending-proofs.md).
+1. 傳送校樣以檢查並驗證您的訊息，並監控其收件匣呈現。請參閱 [發送證明](../../sending/using/sending-proofs.md)。
 
    ![](assets/bat_select.png)
 
-1. 傳送訊息並透過訊息控制面板和記錄來檢查其傳送。 請參閱 [傳送訊息](../../sending/using/confirming-the-send.md).
+1. 通過消息儀表板和日誌發送並檢查其傳遞。 請參閱 [發送消息](../../sending/using/confirming-the-send.md)。
 
    ![](assets/confirm_delivery.png)
 
-1. 使用傳送報告測量訊息的影響。 如需報告的詳細資訊，請參閱 [本節](../../reporting/using/about-dynamic-reports.md).
+1. 使用傳遞報告衡量郵件的影響。 有關報告的詳細資訊，請參見 [此部分](../../reporting/using/about-dynamic-reports.md)。
 
 **相關主題**：
 
-* [建立個人化電子郵件](../../channels/using/key-steps-to-send-a-message.md) 逐步指南
-* [Adobe Campaign和Dreamweaver整合](../../designing/using/using-integrations.md#editing-content-in-dreamweaver)
+* [建立個性化電子郵件](../../channels/using/key-steps-to-send-a-message.md) 逐步引導
+* [Adobe Campaign和Dreamweaver一體化](../../designing/using/using-integrations.md#editing-content-in-dreamweaver)
 * [與Adobe Experience Manager整合](../../integrating/using/integrating-with-experience-manager.md)
 
-## 教學課程影片 {#video}
+## 教程視頻 {#video}
 
-此影片說明如何建立電子郵件。
+此視頻顯示如何建立電子郵件。
 
 >[!VIDEO](https://video.tv.adobe.com/v/23721?quality=12)
 
-提供其他Campaign Standard作法影片 [此處](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant).
+可提供其他Campaign Standard操作視頻 [這裡](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant)。

@@ -8,10 +8,10 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
-source-git-commit: e41667405b54a7ed0e02889e3002807e4bfd3a05
-workflow-type: ht
-source-wordcount: '1591'
-ht-degree: 100%
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+workflow-type: tm+mt
+source-wordcount: '1559'
+ht-degree: 95%
 
 ---
 
@@ -45,7 +45,7 @@ Adobe Campaign 提供資料控制方工具，可針對儲存在 Adobe Campaign �
 
 在建立隱私權請求之前，您必須先定義要使用的命名空間。命名空間是將用於識別 Adobe Campaign 資料庫中資料主體的金鑰。現成可用的兩個命名空間：電子郵件和行動電話。如果您需要不同的命名空間（如設定檔自訂欄位），請依照下列步驟進行。
 
-也請參閱本[教學課程](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/namespaces-for-privacy-requests.html?lang=zh-Hant#privacy)，以瞭解如何建立命名空間。
+也請參閱本[教學課程](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/namespaces-for-privacy-requests.html#privacy)，以瞭解如何建立命名空間。
 
 >[!NOTE]
 >
@@ -91,13 +91,13 @@ Adobe Campaign 提供資料控制方工具，可針對儲存在 Adobe Campaign �
 
 「隱私權核心服務整合」可讓您透過單一 JSON API 呼叫，在多解決方案內容中自動處理您的隱私權要求。從「隱私權核心服務」推送至所有 Experience Cloud 解決方案的隱私權要求，會由 Campaign 透過專用的工作流程自動處理。
 
-請參閱 [Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hant) 文件，以瞭解如何從隱私權核心服務建立隱私權要求。
+請參閱 [Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html) 文件，以瞭解如何從隱私權核心服務建立隱私權要求。
 
 >[!IMPORTANT]
 >
->要使用自訂命名空間類型提交請求，請善用 [JSON 方法](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hant#json){target=&quot;_blank&quot;}，並將 namespaceId 加入請求，或使用 [API 呼叫](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=zh-Hant#access-delete){target=&quot;_blank&quot;}發出請求。
+>要使用自定義命名空間類型提交請求，請 [JSON方法](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html#json){target="_blank"} and add the namespaceId to the request, or use the [API call](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html#access-delete){target="_blank"} 來提出請求。
 >
->僅使用[隱私權使用者介面](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hant#request-builder){target=&quot;_blank&quot;}，使用標準命名空間類型提交請求。
+>僅使用 [隱私用戶介面](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html#request-builder){target="_blank"} 使用標準命名空間類型提交請求。
 
 依據正在使用的命名空間數量，每個隱私權核心服務都會分割為 Campaign 中的多個隱私權要求，而一個要求都會與一個命名空間相對應。此外，一個作業可在多個執行個體上執行。因此，會針對一個作業建立多個檔案。例如，如果要求有兩個命名空間，且在三個執行個體上執行，則總共會傳送六個檔案。每個命名空間和執行個體會有一個檔案。
 
@@ -125,7 +125,7 @@ Adobe Campaign 提供資料控制方工具，可針對儲存在 Adobe Campaign �
 
 如果您建立的自訂資源具有設定檔資源（自有類型）的連結，也會將這些資源列入考量。例如，如果您有連結至設定檔資源的交易資源和連結至交易資源的交易詳細資料資源，則會同時將這些資源列入考量。
 
-另請參閱[本教學課程](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/custom-resources-for-privacy-requests.html?lang=zh-Hant#privacy)，以瞭解如何修改自訂資源。
+另請參閱[本教學課程](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/custom-resources-for-privacy-requests.html#privacy)，以瞭解如何修改自訂資源。
 
 為了讓此功能發揮作用，您需要在自訂資源中選取 **[!UICONTROL Deleting the target record implies deleting records referenced by the link]** 選項：
 

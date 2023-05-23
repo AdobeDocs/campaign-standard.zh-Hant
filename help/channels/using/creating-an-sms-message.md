@@ -9,9 +9,9 @@ feature: SMS
 role: User
 level: Beginner
 exl-id: 36442480-c6b6-4b7d-b566-40169a7c8544
-source-git-commit: d234d7fab039b602eff06c03ba0d8f7ce2a0cf3f
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '559'
 ht-degree: 88%
 
 ---
@@ -47,9 +47,9 @@ ht-degree: 88%
 
    >[!NOTE]
    >
-   >活動名稱及其ID都會顯示在介面中，但訊息收件者看不到。
+   >活動名稱及其ID都顯示在介面中，但郵件收件人看不到它們。
    >
-   >請確定ID欄位不含任何空白字元，以避免任何差異，例如在與Adobe Analytics整合時。
+   >確保ID欄位不包含任何空格以避免任何差異，例如與Adobe Analytics整合時。
 
 1. 指定您要設定為目標的對象。您可以定義並結合規則，以選取現有對象或直接設定目標母體。
 
@@ -85,10 +85,10 @@ ht-degree: 88%
 * [關於 SMS 和推播內容版本](../../channels/using/about-sms-and-push-content-design.md)
 * [管理範本](../../start/using/marketing-activity-templates.md)
 
-## 教學課程影片 {#video}
+## 教程視頻 {#video}
 
-此影片說明如何建立簡訊傳送。
+此視頻顯示如何建立SMS傳遞。
 
 >[!VIDEO](https://video.tv.adobe.com/v/25265/?quality=12)
 
-提供其他Campaign Standard作法影片 [此處](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant).
+可提供其他Campaign Standard操作視頻 [這裡](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant)。

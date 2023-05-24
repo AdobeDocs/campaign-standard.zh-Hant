@@ -1,6 +1,6 @@
 ---
-title: 在設定檔的建立日期中建立傳送
-description: 此使用案例顯示如何在設定檔的建立日期建立傳送。
+title: 在配置檔案的建立日期建立交貨
+description: 此用例說明如何在配置檔案的建立日期建立交貨。
 audience: automating
 content-type: reference
 topic-tags: execution-activities
@@ -18,7 +18,7 @@ ht-degree: 38%
 
 # 在設定檔建立日期中建立傳遞 {#creation-date-query}
 
-您可以在客戶設定檔建立週年時，透過電子郵件傳送優惠方案。
+您可以在客戶建立配置檔案的週年時通過電子郵件發送優惠。
 
 1. 在 **[!UICONTROL Marketing Activities]** 中，按一下 **[!UICONTROL Create]** 並選取 **[!UICONTROL Workflow]**。
 1. 選取 **[!UICONTROL New Workflow]** 作為工作流程類型，並按一下 **[!UICONTROL Next]**。
@@ -26,38 +26,38 @@ ht-degree: 38%
 
 ## 建立排程器活動 {#creating-a-scheduler-activity}
 
-1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Execution]**，拖放 [排程器](../../automating/using/scheduler.md) 活動。
+1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Execution]**，拖放 [調度程式](../../automating/using/scheduler.md) 的子菜單。
 1. 連按兩下此活動。
 1. 設定傳送的執行。
 1. 在 **[!UICONTROL Execution frequency]** 中選取 **[!UICONTROL Daily]**。
-1. 選取 **[!UICONTROL Time]** 和 **[!UICONTROL Repetition frequency]** 的URL。
-1. 選取 **[!UICONTROL Start]** 日期和 **[!UICONTROL Expiration]** 的URL區段。
+1. 選擇 **[!UICONTROL Time]** 和 **[!UICONTROL Repetition frequency]** 執行。
+1. 選擇 **[!UICONTROL Start]** 日期和 **[!UICONTROL Expiration]** 的子菜單。
 1. 確認您的活動並儲存您的工作流程。
 
 >[!NOTE]
 >
->若要在特定時區啟動工作流程，請在 **[!UICONTROL Execution options]** 頁簽，在 **[!UICONTROL Time zone]** 欄位。 依預設，選取的時區是工作流程屬性中定義的時區（請參閱[建立工作流程](../../automating/using/building-a-workflow.md)）。
+>要在特定時區啟動工作流，請在 **[!UICONTROL Execution options]** 頁籤，在 **[!UICONTROL Time zone]** 的子菜單。 依預設，選取的時區是工作流程屬性中定義的時區（請參閱[建立工作流程](../../automating/using/building-a-workflow.md)）。
 
 ![](assets/time_zone.png)
 
 ## 建立「查詢」活動 {#creating-a-query-activity}
 
-1. 若要選取收件者，請拖放 [查詢](../../automating/using/query.md) 活動並連按兩下。
-1. 新增 **[!UICONTROL Profiles]** 選取 **[!UICONTROL no longer contact by email]** 值 **[!UICONTROL no]**.
+1. 要選擇收件人，請拖放 [查詢](../../automating/using/query.md) 並按兩下它。
+1. 添加 **[!UICONTROL Profiles]** 選擇 **[!UICONTROL no longer contact by email]** 值 **[!UICONTROL no]**。
 
-### 擷取在執行當天建立的設定檔 {#retrieving-profiles-created-on-the-same-day}
+### 正在檢索在執行日期同一天建立的配置檔案 {#retrieving-profiles-created-on-the-same-day}
 
-1. 在 **[!UICONTROL Profile]**，拖放 **[!UICONTROL Created]** 欄位。 按一下 **[!UICONTROL Advanced Mode]**.
+1. 在 **[!UICONTROL Profile]**，拖放 **[!UICONTROL Created]** 的子菜單。 按一下 **[!UICONTROL Advanced Mode]**。
    ![](assets/advanced_mode.png)
-1. 在 **[!UICONTROL list of functions]**，按兩下 **[!UICONTROL Day]** 從 **[!UICONTROL Date]** 節點。
-1. 然後，插入欄位 **[!UICONTROL Created]** 作為引數。
+1. 在 **[!UICONTROL list of functions]**，按兩下 **[!UICONTROL Day]** 從 **[!UICONTROL Date]** 的下界。
+1. 然後，插入該欄位 **[!UICONTROL Created]** 作為論據。
 1. 選擇 **[!UICONTROL equals to (=)]** 作為運算子。
-1. 對於值，請選擇 **[!UICONTROL Day]** 從 **[!UICONTROL Date]** 節點 **[!UICONTROL List of functions]**.
-1. 插入 **[!UICONTROL GetDate()]** 函式做為引數。
+1. 對於值，選擇 **[!UICONTROL Day]** 從 **[!UICONTROL Date]** 中的 **[!UICONTROL List of functions]**。
+1. 插入 **[!UICONTROL GetDate()]** 函式作為參數。
 
-您擷取了建立日等於當天的設定檔。
+您檢索了建立日等於當前日的配置檔案。
 
-最後應該是：
+您最後應該有：
 
 ```Day(@created) = Day(GetDate())```
 
@@ -65,20 +65,20 @@ ht-degree: 38%
 
 按一下&#x200B;**[!UICONTROL Confirm]**。
 
-### 擷取與執行月份相同月份建立的設定檔{#retrieving-profiles-created-on-the-same-month}
+### 正在檢索在執行月份的同一月份建立的配置檔案{#retrieving-profiles-created-on-the-same-month}
 
-1. 在 **[!UICONTROL Query]** 編輯器，請選取第一個查詢並加以複製。
-1. 開啟復本。
-1. 取代 **[!UICONTROL Day]** by **[!UICONTROL Month]** 中。
+1. 在 **[!UICONTROL Query]** 編輯器，選擇第一個查詢並複製它。
+1. 開啟副本。
+1. 替換 **[!UICONTROL Day]** 按 **[!UICONTROL Month]** 的子菜單。
 1. 按一下&#x200B;**[!UICONTROL Confirm]**。
 
 ![](assets/month_rule.png)
 
-最後，您應該會得到以下結果：
+你最後應該這樣做：
 
 ``` Month(@created) = Month(GetDate()) ```
 
-最終查詢隨即顯示：
+最終查詢顯示：
 
 ```Day(@created) = Day(GetDate()) AND Month(@created) = Month(GetDate())```
 
@@ -86,7 +86,7 @@ ht-degree: 38%
 
 ## 建立電子郵件傳送{#creating-an-email-delivery}
 
-1. 拖放 [電子郵件傳送](../../automating/using/email-delivery.md) 活動。
+1. 拖放 [電子郵件傳遞](../../automating/using/email-delivery.md) 的子菜單。
 1. 按一下活動並選取 ![](assets/edit_darkgrey-24px.png) 以編輯。
 1. 選取 **[!UICONTROL Recurring email]** 並按一下 **[!UICONTROL Next]**。
 1. 選取電子郵件範本，然後按一下 **[!UICONTROL Next]**。

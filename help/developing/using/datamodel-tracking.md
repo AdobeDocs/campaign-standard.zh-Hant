@@ -10,7 +10,7 @@ exl-id: 0f5dd92c-2222-4456-86cd-3cc2e1c83fc1
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '36'
-ht-degree: 8%
+ht-degree: 33%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 8%
                   <th>名稱</th>
                   <th>標籤</th>
                   <th>類型（長度）</th>
-                  <th>枚舉值</th>
+                  <th>分項清單值</th>
                </tr>
                <tr>
                   <td>PKey</td>
@@ -38,8 +38,8 @@ ht-degree: 8%
                   <td> </td>
                </tr>
                <tr>
-                  <td>日誌</td>
-                  <td>日誌</td>
+                  <td>記錄</td>
+                  <td>記錄</td>
                   <td>字串 </td>
                   <td> </td>
                </tr>
@@ -52,7 +52,7 @@ ht-degree: 8%
                <tr>
                   <td>srvDate</td>
                   <td>SrvDate</td>
-                  <td>日期 </td>
+                  <td>date </td>
                   <td> </td>
                </tr>
             </table>

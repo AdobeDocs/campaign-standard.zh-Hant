@@ -22,16 +22,16 @@ ht-degree: 69%
 
 此範例是生日工作流程。每天都會傳送電子郵件給當天生日的設定檔。
 
-若要建立工作流程，請遵循下列步驟：
+要構建工作流，請執行以下步驟：
 
-* 此 [排程器](../../automating/using/scheduler.md) 可讓您每天上午8:00開始工作流程。
+* 的 [調度程式](../../automating/using/scheduler.md) 允許您每天上午8點啟動工作流。
 
    ![](assets/wkf_delivery_example_2.png)
 
-* 此 [查詢](../../automating/using/query.md) 活動可讓您計算每次執行工作流程時，提供電子郵件的設定檔及其生日。 生日計算是使用查詢編輯工具浮動視窗中可用的預先定義篩選器來執行。
+* 的 [查詢](../../automating/using/query.md) 活動允許您計算每次執行工作流時提供電子郵件且其生日為當前日期的配置檔案。 生日計算是使用查詢編輯工具浮動視窗中可用的預先定義篩選器來執行。
 
    ![](assets/wkf_delivery_example_3.png)
 
-* 此 [電子郵件傳送](../../automating/using/email-delivery.md) 重複出現。 傳送會依月份匯總。所以，在一個月內傳送的所有電子郵件都會彙總成單一檢視。因此，在一年內，會執行 365 個傳送，但會在 Adobe Campaign 介面中重新分組為 12 個檢視（也稱為 **recurring executions**)。歷史記錄和報表詳細資訊會每個月顯示一次，而非每次傳送。
+* 的 [電子郵件傳遞](../../automating/using/email-delivery.md) 為循環。 傳送會依月份匯總。所以，在一個月內傳送的所有電子郵件都會彙總成單一檢視。因此，在一年內，會執行 365 個傳送，但會在 Adobe Campaign 介面中重新分組為 12 個檢視（也稱為 **recurring executions**)。歷史記錄和報表詳細資訊會每個月顯示一次，而非每次傳送。
 
    ![](assets/wkf_delivery_example_4.png)

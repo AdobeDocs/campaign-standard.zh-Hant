@@ -12,7 +12,7 @@ exl-id: bd12a214-5998-4fb9-9f54-0c886067b58b
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '1728'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 3%
          <th>名稱</th>
          <th>標籤</th>
          <th>類型（長度）</th>
-         <th>枚舉值</th>
+         <th>分項清單值</th>
       </tr>
       <tr>
          <td>PKey</td>
@@ -42,13 +42,13 @@ ht-degree: 3%
       <tr>
          <td>其他語言</td>
          <td>其他語言</td>
-         <td>物料 </td>
+         <td>項目 </td>
          <td> </td>
       </tr>
       <tr>
          <td>allowNonIdentifiedTarget</td>
          <td>授權身份不明的訪客</td>
-         <td>布爾 </td>
+         <td>布林值 </td>
          <td> </td>
       </tr>
       <tr>
@@ -59,8 +59,8 @@ ht-degree: 3%
       </tr>
       <tr>
          <td>內置</td>
-         <td>內置應用程式對象</td>
-         <td>布爾 </td>
+         <td>內建應用程式內物件</td>
+         <td>布林值 </td>
          <td> </td>
       </tr>
       <tr>
@@ -89,8 +89,8 @@ ht-degree: 3%
       </tr>
       <tr>
          <td>建立</td>
-         <td>已建立</td>
-         <td>日期 </td>
+         <td>建立時間</td>
+         <td>date </td>
          <td> </td>
       </tr>
       <tr>
@@ -161,7 +161,7 @@ ht-degree: 3%
       </tr>
       <tr>
          <td>defaultOrigin（交貨）</td>
-         <td>通信源</td>
+         <td>流量來源</td>
          <td>連結 </td>
          <td> </td>
       </tr>
@@ -228,13 +228,13 @@ ht-degree: 3%
       <tr>
          <td>動態服務</td>
          <td>動態服務</td>
-         <td>布爾 </td>
+         <td>布林值 </td>
          <td> </td>
       </tr>
       <tr>
          <td>端</td>
-         <td>到期日期</td>
-         <td>日期 </td>
+         <td>到期日</td>
+         <td>date </td>
          <td> </td>
       </tr>
       <tr>
@@ -245,8 +245,8 @@ ht-degree: 3%
       </tr>
       <tr>
          <td>錯誤頁</td>
-         <td>錯誤頁</td>
-         <td>物料 </td>
+         <td>錯誤頁面</td>
+         <td>項目 </td>
          <td> </td>
       </tr>
       <tr>
@@ -264,7 +264,7 @@ ht-degree: 3%
       <tr>
          <td>標識ByUrlParam</td>
          <td>按URL參數標識</td>
-         <td>布爾 </td>
+         <td>布林值 </td>
          <td> </td>
       </tr>
       <tr>
@@ -276,24 +276,24 @@ ht-degree: 3%
       <tr>
          <td>為外部</td>
          <td>是外部資源</td>
-         <td>布爾 </td>
+         <td>布林值 </td>
          <td> </td>
       </tr>
       <tr>
          <td>是模板</td>
          <td>範本</td>
-         <td>布爾 </td>
+         <td>布林值 </td>
          <td> </td>
       </tr>
       <tr>
          <td>工作</td>
-         <td>作業</td>
+         <td>工作</td>
          <td>集合 </td>
          <td> </td>
       </tr>
       <tr>
          <td>作業日誌</td>
-         <td>日誌</td>
+         <td>記錄</td>
          <td>集合 </td>
          <td> </td>
       </tr>
@@ -306,7 +306,7 @@ ht-degree: 3%
       <tr>
          <td>上次修改時間</td>
          <td>上次修改時間</td>
-         <td>日期 </td>
+         <td>date </td>
          <td> </td>
       </tr>
       <tr>
@@ -339,7 +339,7 @@ ht-degree: 3%
       <tr>
          <td>messageAction</td>
          <td>開始發送消息</td>
-         <td>布爾 </td>
+         <td>布林值 </td>
          <td> </td>
       </tr>
       <tr>
@@ -369,7 +369,7 @@ ht-degree: 3%
       <tr>
          <td>預填充</td>
          <td>預載入訪問者資料</td>
-         <td>布爾 </td>
+         <td>布林值 </td>
          <td> </td>
       </tr>
       <tr>
@@ -387,12 +387,12 @@ ht-degree: 3%
       <tr>
          <td>publicationDate</td>
          <td>發佈日期</td>
-         <td>日期 </td>
+         <td>date </td>
          <td> </td>
       </tr>
       <tr>
          <td>協調篩選器(queryFilterBase)</td>
-         <td>協調密鑰</td>
+         <td>調解金鑰</td>
          <td>連結 </td>
          <td> </td>
       </tr>
@@ -437,7 +437,7 @@ ht-degree: 3%
       <tr>
          <td>開始</td>
          <td>部署日期</td>
-         <td>日期 </td>
+         <td>date </td>
          <td> </td>
       </tr>
       <tr>
@@ -456,7 +456,7 @@ ht-degree: 3%
       </tr>
       <tr>
          <td>目標資源</td>
-         <td>目標維度</td>
+         <td>定位維度</td>
          <td>字串(255)</td>
          <td> </td>
       </tr>
@@ -613,13 +613,13 @@ ht-degree: 3%
       </tr>
       <tr>
          <td>跟蹤已啟用</td>
-         <td>記錄響應</td>
-         <td>布爾 </td>
+         <td>記錄回應</td>
+         <td>布林值 </td>
          <td> </td>
       </tr>
       <tr>
          <td>跟蹤URL名稱</td>
-         <td>跟蹤URL名稱</td>
+         <td>追蹤 URL 名稱</td>
          <td>字串 </td>
          <td> </td>
       </tr>
@@ -640,19 +640,19 @@ ht-degree: 3%
       </tr>
       <tr>
          <td>uuid</td>
-         <td>安全ID</td>
+         <td>安全性 ID</td>
          <td>字串 </td>
          <td> </td>
       </tr>
       <tr>
          <td>WebTrackingEnabled</td>
-         <td>啟用Web跟蹤</td>
-         <td>布爾 </td>
+         <td>啟用網頁追蹤</td>
+         <td>布林值 </td>
          <td> </td>
       </tr>
    </table>
 
-## 篩選器
+## 篩選
 
 按邏輯狀態（按LogicalStatus）
 
@@ -715,7 +715,7 @@ ht-degree: 3%
     </tr>
     <tr>
     <td>先進</td>
-    <td>布爾</td>
+    <td>布林值</td>
     </tr>
 </table>
 
@@ -728,7 +728,7 @@ ht-degree: 3%
         </tr>
         <tr>
         <td>與連續</td>
-        <td>布爾</td>
+        <td>布林值</td>
         </tr>
     </table>
 
@@ -741,11 +741,11 @@ ht-degree: 3%
         </tr>
         <tr>
         <td>開始日期</td>
-        <td>日期</td>
+        <td>date</td>
         </tr>
         <tr>
         <td>結束日期</td>
-        <td>日期</td>
+        <td>date</td>
         </tr>
     </table>
 
@@ -758,10 +758,10 @@ ht-degree: 3%
     </tr>
     <tr>
     <td>開始日期</td>
-    <td>日期</td>
+    <td>date</td>
     </tr>
     <tr>
     <td>結束日期</td>
-    <td>日期</td>
+    <td>date</td>
     </tr>
 </table>

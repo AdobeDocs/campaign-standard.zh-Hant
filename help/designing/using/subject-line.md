@@ -1,6 +1,6 @@
 ---
-title: 定義電子郵件的主旨行和寄件者
-description: 了解如何在電子郵件設計工具中定義電子郵件的主旨行和寄件者。
+title: 定義電子郵件的主題行和發件人
+description: 瞭解如何在電子郵件設計器中定義電子郵件的主題行和發件人。
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
@@ -15,44 +15,44 @@ ht-degree: 2%
 
 ---
 
-# 定義電子郵件的主旨行和寄件者{#defining-the-subject-line-of-an-email}
+# 定義電子郵件的主題行和發件人{#defining-the-subject-line-of-an-email}
 
-## 定義電子郵件的主旨行 {#subject-line}
+## 定義電子郵件的主題行 {#subject-line}
 
-訊息主體是準備和傳送訊息的必要項目。
+消息主題是準備和發送消息的必需內容。
 
 >[!NOTE]
 >
->如果主旨行空白，訊息控制面板和電子郵件設計工具中會顯示警告。
+>如果主題行為空，則消息儀表板和電子郵件設計器中將顯示警告。
 
 1. 建立電子郵件.
-1. 前往 **[!UICONTROL Properties]** 電子郵件設計工具首頁的索引標籤（可透過首頁圖示存取）。
-1. 填入 **[!UICONTROL Subject]** 區段。
+1. 開始 **[!UICONTROL Properties]** 的子菜單。
+1. 填寫 **[!UICONTROL Subject]** 的子菜單。
 
    ![](assets/email_designer_subject.png)
 
-1. 您也可以按一下對應的圖示，將個人化欄位、內容區塊和動態內容新增至主旨行。 有關詳細資訊，請參閱 [個人化](../../designing/using/personalization.md).
+1. 您還可以通過按一下相應表徵圖將個性化欄位、內容塊和動態內容添加到主題行。 有關此的詳細資訊，請參閱 [個性化](../../designing/using/personalization.md)。
 
-## 定義電子郵件的電子郵件寄件者 {#email-sender}
+## 定義電子郵件的電子郵件發件人 {#email-sender}
 
-要定義將顯示在發送郵件標題中的發件人名稱，請轉至 **[!UICONTROL Properties]** 電子郵件設計工具首頁的索引標籤（可透過首頁圖示存取）。
+要定義將出現在已發送郵件標題中的發件人名稱，請轉到 **[!UICONTROL Properties]** 的子菜單。
 
 ![](assets/delivery_content_edition16.png)
 
-* 此 **[!UICONTROL From: name]** 欄位可讓您輸入寄件者名稱。 預設為 **寄件者名稱** 塊會自動輸入欄位中。 預設寄件者電子郵件地址和寄件者名稱定義於 **[!UICONTROL Brands]** 可透過進階功能表下的Adobe Campaign標誌存取 **[!UICONTROL Administration > Instance settings > Brand configuration]** .
+* 的 **[!UICONTROL From: name]** 欄位中輸入發件人名稱。 預設情況下， **發件人名稱** 塊自動輸入到欄位中。 預設發件人電子郵件地址和發件人名稱在中定義 **[!UICONTROL Brands]** 可通過高級菜單下的Adobe Campaign徽標訪問 **[!UICONTROL Administration > Instance settings > Brand configuration]** 。
 
-   您可以按一下 **寄件者名稱** 封鎖。 欄位隨後變成可編輯，您可以輸入要使用的名稱。
+   您可以通過按一下 **發件人名稱** 框。 然後，該欄位將變為可編輯欄位，您可以輸入要使用的名稱。
 
-   此欄位可個人化。 若要這麼做，您可以按一下寄件者名稱下方的圖示，以新增個人化欄位、內容區塊和動態內容。 有關詳細資訊，請參閱 [個人化](../../designing/using/personalization.md).
+   此欄位可以個性化。 為此，可以通過按一下發件人名稱下方的表徵圖來添加個性化欄位、內容塊和動態內容。 有關此的詳細資訊，請參閱 [個性化](../../designing/using/personalization.md)。
 
-* 此 **[!UICONTROL From: email address]** 欄位無法從此區段編輯。 您可以透過從其控制面板編輯電子郵件的屬性來變更它。 如需詳細資訊，請參閱 [電子郵件進階參數清單](../../administration/using/configuring-email-channel.md#advanced-parameters).
+* 的 **[!UICONTROL From: email address]** 無法從此部分編輯欄位。 您可以通過從其儀表板編輯電子郵件的屬性來更改它。 有關詳細資訊，請參見 [電子郵件高級參數清單](../../administration/using/configuring-email-channel.md#advanced-parameters)。
 
 >[!NOTE]
 >
->標題參數不得為空。 發送者的地址是強制性的，以允許發送電子郵件（RFC標準）。 Adobe Campaign會檢查輸入之電子郵件地址的語法。
+>標頭參數不能為空。 發送者地址是允許發送電子郵件（RFC標準）的必需地址。 Adobe Campaign檢查輸入的電子郵件地址的語法。
 
 **相關主題：**
 
 * [插入個人化欄位](../../designing/using/personalization.md#inserting-a-personalization-field)
-* [新增內容區塊](../../designing/using/personalization.md#adding-a-content-block)
-* [定義電子郵件中的動態內容](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
+* [添加內容塊](../../designing/using/personalization.md#adding-a-content-block)
+* [在電子郵件中定義動態內容](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)

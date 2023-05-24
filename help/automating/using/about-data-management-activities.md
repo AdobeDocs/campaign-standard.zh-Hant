@@ -1,6 +1,6 @@
 ---
 title: 關於資料管理活動
-description: 資料管理活動可從畫面左側使用。
+description: 資料管理活動可從螢幕的左側獲得。
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
@@ -19,7 +19,7 @@ ht-degree: 55%
 
 從浮動視窗的畫面左側展開 **[!UICONTROL Data management (ETL)]** 區段。
 
-這些活動可讓您操控資料。 例如，它們允許您導入資料、對資料庫欄位執行大量更新、接收或發送檔案，或將未識別的資料連結到現有資源。
+這些活動可讓您處理資料。 例如，它們允許您導入資料、對資料庫欄位執行成批更新、接收或發送檔案或將未標識的資料連結到現有資源。
 
 ![](assets/wkf_etl_activities.png)
 
@@ -32,4 +32,4 @@ ht-degree: 55%
 * [擷取檔案](../../automating/using/extract-file.md)
 * [訂閱服務](../../automating/using/subscription-services.md)
 
-**[!UICONTROL Data management (ETL)]** 活動可讓您定義 **區段代碼** 來進行傳出轉變。 然後，您可以根據這些區段代碼建立報表，以評估行銷行銷活動的效率。如需詳細資訊，請參閱[本區段](../../reporting/using/creating-a-report-workflow-segment.md)。
+**[!UICONTROL Data management (ETL)]** 活動允許您定義 **段代碼** 他們的出境過渡。 然後，您可以根據這些區段代碼建立報表，以評估行銷行銷活動的效率。如需詳細資訊，請參閱[本區段](../../reporting/using/creating-a-report-workflow-segment.md)。

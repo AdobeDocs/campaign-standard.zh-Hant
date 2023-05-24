@@ -1,6 +1,6 @@
 ---
 title: 概覽
-description: 本節詳細說明如何使用外部參數呼叫工作流程。
+description: 本節詳細說明如何使用外部參數調用工作流。
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
@@ -17,14 +17,14 @@ ht-degree: 2%
 
 # 概覽 {#calling-a-workflow-with-external-parameters}
 
-Campaign Standard可讓您使用參數（要鎖定的對象名稱、要匯入的檔案名稱、訊息內容的一部分等）呼叫工作流程。 這樣，您就可以輕鬆整合Campaign自動化與外部系統。
+Campaign Standard允許您使用參數（目標的訪問群體名稱、要導入的檔案名、部分消息內容等）調用工作流。 這樣，您就可以輕鬆將促銷活動自動化與外部系統整合。
 
-我們以下列範例為例，說明如何直接從CMS傳送電子郵件。 在此情況下，您可以設定您的系統以選取對象，並將內容透過電子郵件傳送至CMS。 按一下「傳送」之後，會使用這些參數呼叫行銷活動工作流程，以便您將這些參數用於工作流程，以定義要在傳送中使用的對象和URL內容。
+讓我們舉下例，我們希望直接從CMS發送電子郵件。 在這種情況下，您可以配置系統以選擇受眾和將電子郵件內容發送到CMS。 按一下「發送」後，將使用這些參數調用市場活動工作流，使您能夠將它們用到工作流中，以定義要在交付中使用的受眾和URL內容。
 
-使用參數呼叫工作流程的程式如下：
+使用參數調用工作流的過程如下：
 
-1. 在 **[!UICONTROL External signal]** 活動。 請參閱 [在外部信號活動中聲明參數](../../automating/using/declaring-parameters-external-signal.md).
-1. 設定 **[!UICONTROL End]** 活動或API呼叫，以定義參數並觸發工作流程 **[!UICONTROL External signal]** 活動。 請參閱 [本頁](../../automating/using/defining-parameters-calling-workflow.md)
-1. 觸發工作流程後，參數會擷取至工作流程的事件變數中，並可在工作流程中使用。 請參閱[此頁面](../../automating/using/customizing-workflow-external-parameters.md)。
+1. 在 **[!UICONTROL External signal]** 的子菜單。 請參閱 [在外部信號活動中聲明參數](../../automating/using/declaring-parameters-external-signal.md)。
+1. 配置 **[!UICONTROL End]** 活動或API調用，以定義參數並觸發工作流 **[!UICONTROL External signal]** 的子菜單。 請參閱 [此頁](../../automating/using/defining-parameters-calling-workflow.md)
+1. 一旦觸發了工作流，這些參數將被引入工作流的事件變數中，並可在工作流中使用。 請參閱[此頁面](../../automating/using/customizing-workflow-external-parameters.md)。
 
 ![](assets/extsignal_process.png)

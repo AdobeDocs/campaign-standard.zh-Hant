@@ -101,7 +101,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->您負責從SFTP資料夾訪問和下載的資訊。 如果資訊包含個人資料，您應負責遵守任何適用的隱私法律和法規。 [了解更多資訊](#acs-msdyn-manage-privacy)。
+>您負責從SFTP資料夾訪問和下載的資訊。 如果資訊包含個人資料，您應負責遵守任何適用的隱私法律和法規。 [了解更多](#acs-msdyn-manage-privacy)。
 
 ## 資料管理
 

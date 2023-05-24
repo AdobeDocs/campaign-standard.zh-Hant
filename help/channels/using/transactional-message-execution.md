@@ -1,6 +1,6 @@
 ---
-title: 交易式訊息執行與監控
-description: 了解交易式訊息執行，並探索如何監控交易式訊息。
+title: 事務性消息傳遞執行和監控
+description: 瞭解事務性消息執行並瞭解如何監視事務性消息。
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
@@ -16,21 +16,21 @@ ht-degree: 62%
 
 ---
 
-# 交易式訊息執行與監控 {#transactional-messaging-execution}
+# 事務性消息傳遞執行和監控 {#transactional-messaging-execution}
 
-## 交易式訊息執行傳送 {#transactional-message-execution-delivery}
+## 事務性消息執行傳遞 {#transactional-message-execution-delivery}
 
-發佈訊息並完成網站整合後，當事件觸發時，就會將其指派給執行傳送。
+一旦發佈消息並完成站點整合，則當觸發事件時，該消息將分配給執行傳遞。
 
 <img src="assets/do-not-localize/icon_concepts.svg" width="60px">
 
-安 **執行傳送** 是每月為每個交易式訊息建立一次不可操作且無法運作的技術訊息，且每次編輯和發佈交易式訊息時都會建立一次。
+安 **執行交付** 是每月為每個事務性消息建立一次的不可操作且功能不全的技術消息，並且每次編輯並再次發佈事務性消息時都會建立該消息。
 
 **相關主題**：
 * [發佈交易式訊息](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
 * [整合事件觸發](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
 
-## 交易式訊息重試過程 {#transactional-message-retry-process}
+## 事務性消息重試過程 {#transactional-message-retry-process}
 
 暫時未傳送的交易式訊息可能會執行自動重試，直到傳送到期為止。如需傳遞期間的詳細資訊，請參閱「[有效期間參數](../../administration/using/configuring-email-channel.md#validity-period-parameters)」。
 
@@ -41,7 +41,7 @@ ht-degree: 62%
 
 ### 事件處理重試過程 {#event-processing-retry-process}
 
-觸發事件時，會將其指派給執行傳送。 如果無法將事件指派給執行傳送，則會延遲事件處理。然後會執行重試，直到將其指派給新的執行傳送為止。
+觸發事件時，它被分配給執行傳遞。 如果無法將事件指派給執行傳送，則會延遲事件處理。然後會執行重試，直到將其指派給新的執行傳送為止。
 
 >[!NOTE]
 >
@@ -55,9 +55,9 @@ ht-degree: 62%
 
 >[!NOTE]
 >
->將事件指派給執行傳送時，其會顯示在此執行傳遞的傳送日誌中，而且只有在這個時候才會顯示。失敗的傳送會顯示在 **[!UICONTROL Execution list]** 交易式訊息傳送記錄檔的索引標籤。
+>將事件指派給執行傳送時，其會顯示在此執行傳遞的傳送日誌中，而且只有在這個時候才會顯示。失敗的交貨顯示在 **[!UICONTROL Execution list]** 事務性消息發送日誌的頁籤。
 
-### 重試過程限制 {#limitations}
+### 重試進程限制 {#limitations}
 
 **傳送日誌更新**
 
@@ -67,39 +67,39 @@ ht-degree: 62%
 
 您無法停止執行傳送。但是，如果目前的執行傳送失敗，只要在收到新事件時，就會建立新事件，而且所有新事件都會由這個新的執行傳遞進行處理。失敗的執行傳送不會處理任何新事件。
 
-如果已指派給執行傳送的某些事件已隨著重試過程而延遲，而且如果該執行傳送失敗，則重試系統不會將延遲的事件指派給新的執行傳送，這表示這些事件會遺失。 檢查 [傳遞記錄](#monitoring-transactional-message-delivery) 以查看可能已受影響的收件者。
+如果已經分配給執行傳遞的某些事件已經作為重試過程的一部分被推遲，並且如果該執行傳遞失敗，則重試系統不會將延遲的事件分配給新的執行傳遞，這意味著這些事件將丟失。 檢查 [交貨日誌](#monitoring-transactional-message-delivery) 查看可能已受影響的收件人。
 
-## 監控交易式訊息 {#monitoring-transactional-message-delivery}
+## 監視事務性消息 {#monitoring-transactional-message-delivery}
 
-若要監控交易式訊息，您必須存取對應的 [執行傳送](#transactional-message-execution-delivery).
+要監視事務性消息，您需要訪問相應的 [執行交付](#transactional-message-execution-delivery)。
 
 1. 若要檢視訊息傳送記錄檔，請按一下 **[!UICONTROL Deployment]** 區塊右下方的圖示。
 
    ![](assets/message-center_access_logs.png)
 
-1. 按一下 **[!UICONTROL Execution list]** 標籤。
+1. 按一下 **[!UICONTROL Execution list]** 頁籤。
 
    ![](assets/message-center_execution_tab.png)
 
-1. 選取您選擇的執行傳送。
+1. 選擇您選擇的執行交付。
 
    ![](assets/message-center_execution_delivery.png)
 
-1. 再次按一下 **[!UICONTROL Deployment]** 封鎖。
+1. 再次按一下右下角的表徵圖 **[!UICONTROL Deployment]** 框。
 
    ![](assets/message-center_execution_access_logs.png)
 
-   對於每個執行傳送，您可以像對標準傳送一樣查詢傳送記錄。 如需存取和使用記錄檔的詳細資訊，請參閱 [監控傳送](../../sending/using/monitoring-a-delivery.md).
+   對於每個執行交付，您都可以像查看標準交付時那樣查看交付日誌。 有關訪問和使用日誌的詳細資訊，請參見 [監控交付](../../sending/using/monitoring-a-delivery.md)。
 
-### 設定檔交易式訊息特異性 {#profile-transactional-message-monitoring}
+### 基於配置檔案的事務性消息特性 {#profile-transactional-message-monitoring}
 
-對於設定檔交易式訊息，您可以監控下列設定檔資訊。
+對於基於配置檔案的事務性消息，您可以監視以下配置檔案資訊。
 
 選取 **[!UICONTROL Sending logs]** 索引標籤。在 **[!UICONTROL Status]** 欄中，**[!UICONTROL Sent]** 表示設定檔已選取加入。
 
 ![](assets/message-center_marketing_sending_logs.png)
 
-選取 **[!UICONTROL Exclusions logs]** 頁簽，查看已從郵件目標（如封鎖清單上的地址）中排除的收件人。
+選擇 **[!UICONTROL Exclusions logs]** 頁籤，查看已從消息目標中排除的收件人，如denylist上的地址。
 
 ![](assets/message-center_marketing_exclusion_logs.png)
 

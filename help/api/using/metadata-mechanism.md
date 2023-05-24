@@ -1,6 +1,6 @@
 ---
 title: 中繼資料機制
-description: 進一步了解中繼資料機制。
+description: 瞭解有關元資料機制的詳細資訊。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -17,24 +17,24 @@ ht-degree: 1%
 
 # 中繼資料機制 {#metadata-mechanism}
 
-您可以使用 **resourceType** 在GET請求中：
+可以使用 **資源類型** 在GET請求中：
 
 `GET /profileAndServices/resourceType/<resourceName>`
 
-回應會從資源傳回主要中繼資料（所有其他欄位都是描述性或內部欄位）:
+響應從資源返回主元資料（所有其他欄位都是描述性或內部欄位）:
 
-* 此 **內容** 節點返回資源的欄位。 針對 **內容** 節點，我們可以找到下列欄位：
+* 的 **內容** node返回資源的欄位。 對於 **內容** 節點，我們可以找到以下欄位：
 
-   * &quot;apiName&quot;:API中使用的屬性名稱。
-   * &quot;type&quot;:這是高階類型定義（字串、數字、連結、集合、列舉……）。
-   * &quot;dataPolicy&quot;:欄位的值必須遵循指定的策略規則。 例如，如果dataPolicy規則設為「email」，則值必須是有效的電子郵件。 在PATCH或POST期間，dataPolicy可以檢查值或修改要轉換的值（例如，smartCase）。
-   * &quot;category&quot;:提供查詢編輯器中欄位的類別。
+   * &quot;apiName&quot;:API中使用的屬性的名稱。
+   * &quot;類型&quot;:這是高級類型定義（字串、數字、連結、集合、枚舉……）。
+   * &quot;dataPolicy&quot;:欄位的值必須遵循給定的策略規則。 例如，如果dataPolicy規則設定為「email」，則該值必須是有效的電子郵件。 在PATCH或POST期間，dataPolicy可以檢查值或修改要轉換的值（例如，smartCase）。
+   * &quot;類別&quot;:給出查詢編輯器中欄位的類別。
    * &quot;resType&quot;:這是技術類型。
 
-      如果以「link」或「collection」值完成「type」，resTarget值即為連結所定位之資源的名稱。
-如果以值「enumeration」完成「type」，則會新增「values」欄位，且每個分項清單在 **值** 節點。
+      如果「type」以值「link」或「collection」完成，則resTarget值是連結所針對的資源的名稱。
+如果「type」用值「enumeration」完成，則會添加「values」欄位，並在中詳細列出每個枚舉值 **值** 的下界。
 
-* 此 **篩選器** node會傳回URL以擷取相關聯的篩選器。 如需篩選器的詳細資訊，請參閱 [本節](../../api/using/filtering.md) 區段。
+* 的 **篩選器** 節點返回URL以檢索關聯的篩選器。 有關篩選器的詳細資訊，請參閱 [此部分](../../api/using/filtering.md) 的子菜單。
 
 <!-- créer une section au même niveau sur les liens -->
 <!-- dans l'exemple: birthdate, email +  mettre 2 liens : un de type 1-1 , 1-N
@@ -43,7 +43,7 @@ si on prend l'exemple de l'org unit, on aura un bon exemple lien -->
 
 <br/>
 
-***範例要求***
+***示例請求***
 
 對資源執行GET請求。
 
@@ -55,7 +55,7 @@ si on prend l'exemple de l'org unit, on aura un bon exemple lien -->
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它會傳回設定檔資源的完整說明。
+它返回配置檔案資源的完整說明。
 
 ```
 {

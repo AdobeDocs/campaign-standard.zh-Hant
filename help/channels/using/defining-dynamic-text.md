@@ -1,6 +1,6 @@
 ---
 title: 定義動態文字
-description: 了解如何根據Adobe Campaign中定義的條件，以動態方式向使用者顯示不同的文字。
+description: 瞭解如何根據Adobe Campaign定義的條件動態地向用戶顯示不同的文本。
 audience: designing
 content-type: reference
 topic-tags: defining-conditional-content
@@ -17,33 +17,33 @@ ht-degree: 3%
 
 # 定義動態文字{#defining-dynamic-text}
 
-動態文字的定義方式與動態內容相同。 請參閱 [定義動態內容](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) 區段。
+動態文本的定義方式與動態內容的定義方式相同。 請參閱 [定義動態內容](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) 的子菜單。
 
 >[!NOTE]
 >
->對於SMS和推播，您只能定義動態文字。 您可以在登錄頁面中定義動態內容和文字。 如果您想使用 [電子郵件設計工具](../../designing/using/designing-content-in-adobe-campaign.md)，請參閱 [定義電子郵件中的動態內容](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
+>對於SMS和推送，您只能定義動態文本。 您可以在登錄頁中定義動態內容和文本。 如果要使用 [電子郵件設計器](../../designing/using/designing-content-in-adobe-campaign.md)，請參閱 [在電子郵件中定義動態內容](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)。
 
-請注意，替代配對（Unicode字元集的基本多語言平面中未包含的字元）無法儲存為2個位元組（16位），且需要編碼為2個UTF-16字元。 這些字元包括一些中日韓表意字、大多數表情符號和一些語言。
-<br>這些字元可能會在動態文字中造成一些不相容的問題。 傳送訊息之前，您需要先執行強式測試。
+請注意，代理對（未包含在Unicode字元集的基本多語言平面中的字元）不能以2個位元組（16位）儲存，需要編碼為2個UTF-16字元。 這些字元包括一些中日韓表意文字、大多數表情符號和一些語言。
+<br>這些字元可能會在動態文本中引起一些不相容問題。 在發送消息之前，需要執行強test。
 
 
-以下範例說明如何在SMS訊息中定義動態文字。
+以下示例說明如何在SMS消息中定義動態文本。
 
-1. 在訊息內文或登錄頁面中選取文字。
+1. 在消息或登錄頁的正文中選擇文本。
 1. 按一下&#x200B;**[!UICONTROL Enable dynamic text]**。
 
    ![](assets/dynamic_text_sms_1.png)
 
-   此 **[!UICONTROL Dynamic text]** 選項。 其設定方式與動態內容相同。
+   的 **[!UICONTROL Dynamic text]** 選項。 它的配置方式與動態內容的配置方式相同。
 
-1. 選取變體。
+1. 選擇變型。
 
    ![](assets/dynamic_text_sms_2.png)
 
-1. 定義此變體的條件。
+1. 定義此變型的條件。
 
    ![](assets/dynamic_text_sms_4.png)
 
-為至少一個變體定義條件後，會在動態文字周圍顯示紫色框架。
+一旦為至少一個變型定義了條件，就會在動態文本週圍顯示紫色框架。
 
 ![](assets/dynamic_text_sms_3.png)

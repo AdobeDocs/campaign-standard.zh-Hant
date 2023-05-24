@@ -65,7 +65,7 @@ $(vars/@parameterName)
    | 檔案擴展 | 返回檔案路徑的副檔名。 | 檔案擴展(&lt;string>) |
    | 獲取選項 | 返回指定函式的值。 | GetOption(&lt;optionname>) |
    | IsNull | 指示字串或日期是否為空。 | IsNull(&lt;string date=&quot;&quot;>) |
-   | URLUTF8編碼 | 以UTF8編碼URL。 | URLUTF8Encode(&lt;string>) |
+   | UrlUtf8Encode | 以UTF8編碼URL。 | URLUTF8Encode(&lt;string>) |
 
 ## 使用事件變數自定義活動 {#customizing-activities-with-events-variables}
 

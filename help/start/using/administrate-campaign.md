@@ -1,18 +1,18 @@
 ---
 title: 自訂清單
-description: 「了解如何自訂顯示以及在Adobe Campaign Standard中的清單畫面上操作：排序、篩選、刪除或複製元素。 列出螢幕，顯示一或多個指定資源的元素。」
+description: 「瞭解如何自定義顯示和在Adobe Campaign Standard的清單螢幕上操作：排序、過濾、刪除或複製元素。 列出螢幕顯示一個或多個給定資源的元素。」
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '295'
-ht-degree: 8%
+ht-degree: 18%
 
 ---
 
 
-# 管理您的執行個體
+# 管理您的實例
 
 <table>
 <tr>
@@ -32,8 +32,8 @@ ht-degree: 8%
 <tr>
 <td>Campaign 資料模型</td>
 <td>使用REST API</td>
-<td>管理使用者</td>
-<td>設定並監視您的執行個體</td>
+<td>管理用戶</td>
+<td>配置和監視實例</td>
 </tr>
 </table>
 
@@ -41,42 +41,42 @@ ht-degree: 8%
 
 <img width="60px" alt="條件" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit。 Vestibulum placerat mauris libero,non congue sapien rhoncus id. Integer luctus blandit ligula。 Nulla quis vehicula augue，乳酪。 Nunc pharetra frizilla enim eu suscipit. Mauris consectetur maximus euismod. Cras和Vehicula Nulla。 Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 毛氏前庭野草，非賦形野草。 整型luctus blandit ligula。 車尾松，乳汁。 印度紅鰭鮭。 毛里斯圓體。 卡拉斯和車都是空的。 義大利人、義大利人、義大利人、普爾維納人對。
 
-**閱讀全文**
+**深入了解**
 
-* xx
-* xx
+* xxx
+* xxx
 
 ## 使用REST API
 
 <img width="60px" alt="條件" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit。 Vestibulum placerat mauris libero,non congue sapien rhoncus id. Integer luctus blandit ligula。 Nulla quis vehicula augue，乳酪。 Nunc pharetra frizilla enim eu suscipit. Mauris consectetur maximus euismod. Cras和Vehicula Nulla。 Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 毛氏前庭野草，非賦形野草。 整型luctus blandit ligula。 車尾松，乳汁。 印度紅鰭鮭。 毛里斯圓體。 卡拉斯和車都是空的。 義大利人、義大利人、義大利人、普爾維納人對。
 
-**閱讀全文**
+**深入了解**
 
-* xx
-* xx
+* xxx
+* xxx
 
-## 管理使用者
-
-<img width="60px" alt="條件" src="assets/icon_profile.svg"/>
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit。 Vestibulum placerat mauris libero,non congue sapien rhoncus id. Integer luctus blandit ligula。 Nulla quis vehicula augue，乳酪。 Nunc pharetra frizilla enim eu suscipit. Mauris consectetur maximus euismod. Cras和Vehicula Nulla。 Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
-
-**閱讀全文**
-
-* xx
-* xx
-
-## 設定並監視您的執行個體
+## 管理用戶
 
 <img width="60px" alt="條件" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit。 Vestibulum placerat mauris libero,non congue sapien rhoncus id. Integer luctus blandit ligula。 Nulla quis vehicula augue，乳酪。 Nunc pharetra frizilla enim eu suscipit. Mauris consectetur maximus euismod. Cras和Vehicula Nulla。 Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 毛氏前庭野草，非賦形野草。 整型luctus blandit ligula。 車尾松，乳汁。 印度紅鰭鮭。 毛里斯圓體。 卡拉斯和車都是空的。 義大利人、義大利人、義大利人、普爾維納人對。
 
-**閱讀全文**
+**深入了解**
 
-* xx
-* xx
+* xxx
+* xxx
+
+## 配置和監視實例
+
+<img width="60px" alt="條件" src="assets/icon_profile.svg"/>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 毛氏前庭野草，非賦形野草。 整型luctus blandit ligula。 車尾松，乳汁。 印度紅鰭鮭。 毛里斯圓體。 卡拉斯和車都是空的。 義大利人、義大利人、義大利人、普爾維納人對。
+
+**深入了解**
+
+* xxx
+* xxx

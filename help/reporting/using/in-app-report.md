@@ -1,6 +1,6 @@
 ---
 title: 應用程式內報告
-description: 透過應用程式內立即可用的報表，了解您的應用程式內訊息是否成功。
+description: 使用In-App的現成報告，瞭解您的In-App消息的成功。
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -19,28 +19,28 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->請注意，您必須拖放 **[!UICONTROL Message type]** 量度至表格，以根據您的傳送類型來分割資料，在此例中是應用程式內傳送。
+>請注意，您必須拖放 **[!UICONTROL Message type]** 度量到表，以根據您的傳遞類型來分割資料。
 
-此 **應用程式內** 報表提供與應用程式內傳送相關的詳細資料。
+的 **應用程式內** 報告提供了與In-App交付相關的詳細資訊。
 
-每個表由摘要數字和圖表表示。 您可以變更詳細資料在其個別視覺效果設定中的顯示方式。
+每個表都由摘要數字和圖表表示。 您可以更改詳細資訊在其各自的可視化設定中的顯示方式。
 
 ![](assets/inapp_report.png)
 
-第一個表 **應用程式內參與摘要** 分為三個類別：依日、行動應用程式和傳送。 它包含收件者重新活動至傳送的可用資料：
+第一張表 **應用內項目摘要** 分為三類：按天、按移動應用和按遞送。 它包含接收者對遞送反應的可用資料：
 
-* **[!UICONTROL Processed/sent]**:應用程式內傳送的傳送總數。
-* **[!UICONTROL Delivered]**:成功傳送的應用程式內訊息數目，與已傳送訊息總數相關。
-* **[!UICONTROL Impressions]**:收件者根據是否符合觸發條件所看到的應用程式內訊息總數。
-* **[!UICONTROL Unique impressions]**:收件者的曝光次數。
-* **[!UICONTROL In-App click through rate]**:按一下「按鈕1」或「按鈕2」的使用者比例，與看到訊息的使用者比例。
-* **[!UICONTROL In-App dismissal rate]**:收件者關閉的應用程式內訊息百分比。
+* **[!UICONTROL Processed/sent]**:應用內傳遞的發送總數。
+* **[!UICONTROL Delivered]**:與已發送郵件總數相比，成功發送的In-App郵件數。
+* **[!UICONTROL Impressions]**:收件人所看到的In-App消息總數，具體取決於是否滿足觸發條件。
+* **[!UICONTROL Unique impressions]**:接收人印象數。
+* **[!UICONTROL In-App click through rate]**:按一下按鈕1或按鈕2的用戶與看到消息的用戶的百分比。
+* **[!UICONTROL In-App dismissal rate]**:接收者拒絕的In-App郵件百分比。
 
 ![](assets/inapp_report_1.png)
 
-第二張表 **應用程式內點按次數與解雇** 分為三個類別：依日、行動應用程式和傳送。 它包含每個傳送的收件者行為可用資料：
+第二張表 **應用程式內點擊和解除** 分為三類：按天、按移動應用和按遞送。 它包含每個傳遞的收件人行為的可用資料：
 
-* **[!UICONTROL In-App clicks]**:按一下「按鈕1」或「按鈕2」的收件者總數。
-* **[!UICONTROL Unique In-App clicks]**:收件者點按按鈕1或按鈕2的次數。
-* **[!UICONTROL In-App dismissal]**:通過按一下關閉按鈕或自動關閉而關閉的郵件總數。
-* **[!UICONTROL Unique In-App dismissal]**:收件者解除應用程式內訊息的時間。
+* **[!UICONTROL In-App clicks]**:按一下按鈕1或按鈕2的收件人總數。
+* **[!UICONTROL Unique In-App clicks]**:在按鈕1或按鈕2上按一下收件人的次數。
+* **[!UICONTROL In-App dismissal]**:通過按一下「關閉」按鈕或「自動關閉」，收件人已撤消的郵件總數。
+* **[!UICONTROL Unique In-App dismissal]**:In-App消息的收件人被拒絕的時間數。

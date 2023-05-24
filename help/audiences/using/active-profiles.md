@@ -1,6 +1,6 @@
 ---
-title: 促銷活動作用中設定檔
-description: 了解如何存取客戶量度和作用中設定檔
+title: 市場活動活動配置檔案
+description: 瞭解如何訪問客戶指標和活動配置檔案
 feature: Profiles
 role: User
 level: Intermediate
@@ -14,30 +14,30 @@ ht-degree: 6%
 
 # 使用中的設定檔案{#active-profiles}
 
-您可以從 **[!UICONTROL Customer metrics]** 報表。 此報告僅供Campaign功能管理員使用。 若要存取此報表，請按一下 [使用者介面](../../start/using/interface-description.md#advanced-menu)，並瀏覽 **[!UICONTROL Administration > Customer metrics]**.
+您可以從 **[!UICONTROL Customer metrics]** 報告。 此報告僅供市場活動職能管理員使用。 要訪問此報告，請按一下左上角的Adobe Campaign表徵圖 [用戶介面](../../start/using/interface-description.md#advanced-menu)，並瀏覽 **[!UICONTROL Administration > Customer metrics]**。
 
 ![](assets/audience_customer_metrics.png)
 
-此報告由 **[!UICONTROL Billing]** 技術工作流程並顯示 **作用中設定檔**. 進一步了解中的技術工作流程 [本頁](../../administration/using/technical-workflows.md).
+此報告由 **[!UICONTROL Billing]** 顯示 **活動配置檔案**。 瞭解有關中的技術工作流的更多資訊 [此頁](../../administration/using/technical-workflows.md)。
 
-「設定檔」是代表最終客戶、潛在客戶或潛在客戶的資訊記錄。 會考量設定檔 **活動** 如果在過去12個月內透過任何管道被促銷活動傳送鎖定。
+「配置檔案」是表示最終客戶、潛在客戶或潛在客戶的資訊記錄。 考慮配置檔案 **活動** 在過去12個月內，通過任何渠道將他們作為活動交付的目標。
 
-根據您的合約，您的每個Campaign執行個體都布建了特定數量的作用中設定檔。 請參閱您的授權合約，以參考已購買作用中設定檔的數量。
+根據您的合同，您的每個市場活動實例都配置了特定數量的有效配置檔案。 請參閱您的許可協定，以參考購買的活動配置檔案數。
 
 ![](assets/audience_active_profiles_list.png)
 
 
 
-* 傳送準備期間排除的設定檔（例如，依類型規則或隔離機制）不會納入考量。
+* 在交付準備期間排除的配置檔案（例如，按類型規則或隔離機制排除）不被考慮。
 
-* 交易式訊息收件者會計入作用中設定檔。
+* 事務性消息接收者會計入活動配置檔案。
 
 * 被多個傳遞項目鎖定的用戶檔案將只計算一次。
 
-* 此報表僅提供資訊，對帳單沒有直接影響。
+* 此報告僅提供資訊，對計費沒有直接影響。
 
-在頁面底部，會列出目標維度及每個維度的設定檔數量。 交易式訊息的收件者會與 **匿名** 維度。
+在頁面底部，目標維將列出每個維的配置檔案數。 事務性消息的收件人與 **匿名** 維。
 
 >[!NOTE]
 >
->身為管理員使用者，您也可以直接從「控制面板」監控執行個體上使用的作用中設定檔數目。 有關詳細資訊，請參閱 [控制面板檔案](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
+>作為管理員用戶，您還可以直接從控制面板監視實例上使用的活動配置檔案的數量。 有關詳細資訊，請參閱 [控制面板文檔](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html)。

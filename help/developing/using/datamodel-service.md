@@ -10,7 +10,7 @@ exl-id: a326b38f-ca88-4a44-a7c2-b6e34497a364
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 20%
+ht-degree: 40%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 20%
                   <th>名稱</th>
                   <th>標籤</th>
                   <th>類型（長度）</th>
-                  <th>枚舉值</th>
+                  <th>分項清單值</th>
                </tr>
                <tr>
                   <td>PKey</td>
@@ -33,14 +33,14 @@ ht-degree: 20%
                </tr>
                <tr>
                   <td>內置</td>
-                  <td>內置應用程式對象</td>
-                  <td>布爾 </td>
+                  <td>內建應用程式內物件</td>
+                  <td>布林值 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>建立</td>
-                  <td>已建立</td>
-                  <td>日期 </td>
+                  <td>建立時間</td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
@@ -64,7 +64,7 @@ ht-degree: 20%
                <tr>
                   <td>端</td>
                   <td>結束日期</td>
-                  <td>日期 </td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
@@ -82,13 +82,13 @@ ht-degree: 20%
                <tr>
                   <td>為外部</td>
                   <td>是外部資源</td>
-                  <td>布爾 </td>
+                  <td>布林值 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>是模板</td>
                   <td>範本</td>
-                  <td>布爾 </td>
+                  <td>布林值 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -100,13 +100,13 @@ ht-degree: 20%
                <tr>
                   <td>上次修改時間</td>
                   <td>上次修改時間</td>
-                  <td>日期 </td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>有限持續時間</td>
-                  <td>有限的持續時間</td>
-                  <td>布爾 </td>
+                  <td>限定期間</td>
+                  <td>布林值 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -121,7 +121,7 @@ ht-degree: 20%
                   <td>枚舉（位元組） </td>
                   <td>
                      <ul>
-                        <li>Mobile社簡訊 — 1</li>
+                        <li>移動(SMS)- sms - 1</li>
                         <li>電子郵件 — 電子郵件 — 0</li>
                         <li>無效值 — __Invalid_value_ - __Invalid_value__</li>
                      </ul>
@@ -166,7 +166,7 @@ ht-degree: 20%
                <tr>
                   <td>開始</td>
                   <td>開始日期</td>
-                  <td>日期 </td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
@@ -195,13 +195,13 @@ ht-degree: 20%
                </tr>
                <tr>
                   <td>目標資源</td>
-                  <td>目標維度</td>
+                  <td>定位維度</td>
                   <td>字串(255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>模板（服務）</td>
-                  <td>服務模板</td>
+                  <td>服務範本</td>
                   <td>連結 </td>
                   <td> </td>
                </tr>
@@ -237,13 +237,13 @@ ht-degree: 20%
                </tr>
                <tr>
                   <td>有效性持續時間</td>
-                  <td>有效期</td>
-                  <td>數 </td>
+                  <td>有效期間</td>
+                  <td>數字 </td>
                   <td> </td>
                </tr>
             </table>
 
-## 篩選器
+## 篩選
 
 在指定期間可用（按Planning）
 
@@ -254,11 +254,11 @@ ht-degree: 20%
     </tr>
     <tr>
     <td>開始日期</td>
-    <td>日期</td>
+    <td>date</td>
     </tr>
     <tr>
     <td>結束日期</td>
-    <td>日期</td>
+    <td>date</td>
     </tr>
 </table>
 

@@ -10,7 +10,7 @@ exl-id: cf0fac4e-59fd-4d6e-a411-41361f45938d
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '79'
-ht-degree: 13%
+ht-degree: 31%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 13%
         <th>名稱</th>
         <th>標籤</th>
         <th>類型（長度）</th>
-        <th>枚舉值</th>
+        <th>分項清單值</th>
     </tr>
     <tr>
         <td>PKey</td>
@@ -34,7 +34,7 @@ ht-degree: 13%
     <tr>
         <td>ctx</td>
         <td>事件上下文</td>
-        <td>物料 </td>
+        <td>項目 </td>
         <td> </td>
     </tr>
     <tr>
@@ -64,7 +64,7 @@ ht-degree: 13%
     </tr>
     <tr>
         <td>手機</td>
-        <td>手機號碼</td>
+        <td>行動電話號碼</td>
         <td>字串(32)</td>
         <td> </td>
     </tr>
@@ -76,7 +76,7 @@ ht-degree: 13%
     </tr>
 </table>
 
-## 篩選器
+## 篩選
 
 按電子郵件（按電子郵件）
 

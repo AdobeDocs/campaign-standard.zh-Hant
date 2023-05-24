@@ -71,7 +71,7 @@ ht-degree: 98%
 
 1. 按一下 **[!UICONTROL Add an element]**，然後視需要新增值，方法是新增 **[!UICONTROL Label]** 及 **[!UICONTROL ID]** 並按一下 **[!UICONTROL Add]**。
 
-   在此範例中，建立Books、Exhibitions、Movies和N/A值，讓設定檔在這些選項之間進行選擇。
+   在此示例中，為配置檔案建立「書籍」、「展覽」、「電影」和「N/A」值，以便在這些選項中進行選擇。
 
    ![](assets/schema_extension_uc11.png)
 

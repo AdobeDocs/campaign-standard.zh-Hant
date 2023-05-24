@@ -9,7 +9,7 @@ exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
 source-git-commit: a1b947acf70803a7350dd626e697318e0ed35f26
 workflow-type: tm+mt
 source-wordcount: '2681'
-ht-degree: 60%
+ht-degree: 62%
 
 ---
 
@@ -177,7 +177,7 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 
 #### SMTP　測試模式 {#smtp-test-mode}
 
-使用 **[!UICONTROL Enable SMTP test mode]** test通過SMTP連接發送電子郵件而不實際發送郵件。 該傳遞被處理到連接到SMTP伺服器，但未發送：對於每個傳遞的收件人，Campign會連接到SMTP提供程式伺服器，執行SMTP RCPT TO命令，並在SMTP DATA命令之前關閉連接。
+使用 **[!UICONTROL Enable SMTP test mode]** test通過SMTP連接發送電子郵件而不實際發送郵件。 處理傳遞直到連線到 SMTP 伺服器，但不傳送：對於傳遞的每個收件者，Campaign 會連線到 SMTP 提供者伺服器，執行 SMTP RCPT TO 命令，並在 SMTP DATA 命令之前關閉連線。
 
 ![](assets/smtp-test-mode.png)
 
@@ -314,7 +314,7 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 
 預設情況下，為第一天安排五次重試，最小時間間隔為1小時，在一天的24小時內分佈。 每天一次重試的程式設定在此之後，直到交貨截止日期為止，該截止日期在 **[!UICONTROL Delivery parameters]** 的下界 **[!UICONTROL Configuration]** ，或 **[!UICONTROL Validity period]** 在交貨層(請參閱 [交貨期](#legacy-delivery-duration) )。
 
-### 交貨期 {#legacy-delivery-duration}
+### 傳遞期間 {#legacy-delivery-duration}
 
 使用 **[!UICONTROL Message delivery duration]** 參數 [配置菜單](#email-channel-parameters) 指定傳遞中遇到臨時錯誤或軟彈回的任何消息將重試的時間範圍。
 
@@ -322,7 +322,7 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 
 ### 電子郵件處理規則 {#legacy-email-processing-rules}
 
-的 **[!UICONTROL MX management]**。 **[!UICONTROL Bounce mails]** 和 **[!UICONTROL Domain management]** 管理員可通過 **[!UICONTROL Administration > Channels > Email > Email processing rules]** 的子菜單。 [了解更多資訊](#email-processing-rules)。
+的 **[!UICONTROL MX management]**。 **[!UICONTROL Bounce mails]** 和 **[!UICONTROL Domain management]** 管理員可通過 **[!UICONTROL Administration > Channels > Email > Email processing rules]** 的子菜單。 [了解更多](#email-processing-rules)。
 
 ### 退回郵件資格 {#legacy-bounce-mail-qualification}
 
@@ -336,7 +336,7 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 
 >[!NOTE]
 >
->在ISP停機時，通過Campaign發送的電子郵件將被錯誤地標籤為退貨。 要更正此問題，您需要更新退貨資格。 [了解更多資訊](../../administration/using/update-bounce-qualification.md)。
+>在ISP停機時，通過Campaign發送的電子郵件將被錯誤地標籤為退貨。 要更正此問題，您需要更新退貨資格。 [了解更多](../../administration/using/update-bounce-qualification.md)。
 
 <!--Bounces are qualified through the **[!UICONTROL Bounce mails]** processing rule. For more on accessing this rule, refer to this [section](#legacy-bounce-mail-qualification).-->
 

@@ -1,6 +1,6 @@
 ---
-title: 位置細分」
-description: 此使用案例會說明如何對位置執行分段。
+title: 位置分割"
+description: 此用例說明如何對位置執行分段。
 audience: automating
 content-type: reference
 topic-tags: execution-activities
@@ -16,7 +16,7 @@ ht-degree: 83%
 
 ---
 
-# 位置細分 {#segmentation-on-location}
+# 位置分割 {#segmentation-on-location}
 
 您可以傳送目標定位電子郵件給客戶，並在其當地商店提供優惠。
 
@@ -26,7 +26,7 @@ ht-degree: 83%
 
 ## 透過電子郵件選取可聯絡的收件者{#selecting-recipients-contactable-via-email}
 
-1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**，拖放 [查詢](../../automating/using/query.md) 活動 ![](assets/query.png).
+1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**，拖放 [查詢](../../automating/using/query.md) 活動 ![](assets/query.png)。
 1. 連按兩下此活動。
 1. 在 **[!UICONTROL Shortcuts]**&#x200B;中，拖放 **[!UICONTROL Profiles]** 並選取包含運算子 **[!UICONTROL is not empty]** 的欄位 **[!UICONTROL email]**。
 1. 在 **[!UICONTROL Shortcuts]**&#x200B;中，拖放 **[!UICONTROL Profiles]** 並選取包含值 **[!UICONTROL no]** 的欄位 **[!UICONTROL no longer contact by email]**。
@@ -36,7 +36,7 @@ ht-degree: 83%
 
 ## 建立細分活動{#creating-a-segmentation-activity}
 
-1. 拖放 [區段](../../automating/using/segmentation.md) 活動並連按兩下。
+1. 拖放 [分段](../../automating/using/segmentation.md) 並按兩下它。
 1. 按一下區段，然後開啟轉變，以定位第一個城市中的人。這裡是波士頓。
 1. 拖放 **[!UICONTROL Location]** 並選取包含運算子 **[!UICONTROL equals to]** 及值 **[!UICONTROL Boston]** 的 **[!UICONTROL City]**。
 注意：若要聯絡所有進入波士頓的人，請忽略大小寫選項中區分大小寫的選項。
@@ -48,7 +48,7 @@ ht-degree: 83%
 
 ## 建立電子郵件傳遞{#creating-an-email-delivery}
 
-1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Channels]**，拖放 [電子郵件傳送](../../automating/using/email-delivery.md) 活動。
+1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Channels]**，拖放 [電子郵件傳遞](../../automating/using/email-delivery.md) 活動。
 1. 按一下活動並選取 ![](assets/edit_darkgrey-24px.png) 以編輯。
 1. 選取 **[!UICONTROL Simple email]** 並按一下 **[!UICONTROL Next]**。
 1. 選取電子郵件範本，然後按一下 **[!UICONTROL Next]**。

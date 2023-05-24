@@ -11,7 +11,7 @@ exl-id: d4e1b935-b21f-4a24-99ba-f455db0f7cfc
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
 source-wordcount: '786'
-ht-degree: 24%
+ht-degree: 25%
 
 ---
 
@@ -96,7 +96,7 @@ Adobe Campaign允許您通過各種渠道建立和發送個性化消息，並通
 <tr>
   <td>
     <div>
-    <p><strong>配置標籤規則以支援Adobe Campaign Standard使用案例</strong></p>
+    <p><strong>設定標籤規則以支援 Adobe Campaign Standard 使用案例</strong></p>
     </div>
     <p><a href="../../administration/using/configuring-rules-launch.md"><strong>按一下這裡</strong></a> 開始在資料收集UI中建立資料元素和規則，以將PII和其他資料從移動應用程式發送到Adobe Campaign Standard。</p>
     <br>

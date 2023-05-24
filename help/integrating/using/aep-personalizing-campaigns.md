@@ -1,6 +1,6 @@
 ---
 title: 使用 Adobe Experience Platform 屬性個人化行銷活動
-description: 了解如何使用Adobe體驗平台屬性個人化您的行銷活動。
+description: 瞭解如何使用「Adobe體驗平台」屬性個性化您的活動。
 audience: automating
 content-type: reference
 topic-tags: channel-activities
@@ -19,41 +19,41 @@ ht-degree: 8%
 
 >[!IMPORTANT]
 >
->Audience Destinations服務目前為測試版，可能會經常更新，恕不另行通知。 客戶必須在Azure上托管（目前測試版僅供北美使用），才能存取這些功能。 如果您想要存取權限，請聯絡Adobe客戶服務。
+>受眾目標服務當前處於測試版，可能需要頻繁更新，恕不另行通知。 客戶需要在Azure上托管（目前僅在北美試用版）才能訪問這些功能。 如果您想訪問，請聯繫Adobe客戶服務。
 >
->**推播** 和 **應用程式內** 使用來自Adobe Experience Platform的內容資料進行個人化時尚無法使用管道。
+>**推** 和 **應用程式內** 尚無法使用來自Adobe Experience Platform的上下文資料進行個性化。
 
-使用 [Adobe Experience Platform對象](../../integrating/using/aep-about-audience-destinations-service.md)，您可以使用Experience Data Model(XDM)中專屬的設定檔屬性來個人化訊息。
+一旦您的工作流配置為 [Adobe Experience Platform觀眾](../../integrating/using/aep-about-audience-destinations-service.md)，您可以使用「體驗資料模型」(XDM)中僅存在的配置檔案屬性個性化消息。
 
-若要這麼做，您必須將這些屬性新增至 **[!UICONTROL Read audience]** 活動：
+為此，必須將這些屬性添加到 **[!UICONTROL Read audience]** 活動：
 
-1. 開啟 **[!UICONTROL Read audience]** 活動。 在 **[!UICONTROL Additional data]** ，按一下 **[!UICONTROL Create element]** 按鈕。
+1. 開啟 **[!UICONTROL Read audience]** 的子菜單。 在 **[!UICONTROL Additional data]** 頁籤 **[!UICONTROL Create element]** 按鈕
 
-   請注意， **[!UICONTROL Additional data]** 標籤僅在選取Adobe Experience Platform對象後才可用。
+   請注意 **[!UICONTROL Additional data]** 頁籤僅在選擇Adobe Experience Platform受眾後才可用。
 
    ![](assets/aep_wkf_readaudience_attributes.png)
 
    >[!NOTE]
    >
-   >此功能不支援陣列和地圖資料類型。 此外，選取器中只會顯示聯合架構的資料。
+   >此功能不支援陣列和映射資料類型。 此外，在選取器中將只顯示聯合架構中的資料。
 
-1. 從清單中選取所需的XDM欄位，然後按一下 **[!UICONTROL Confirm]**.
+1. 從清單中選擇所需的XDM欄位，然後按一下 **[!UICONTROL Confirm]**。
 
    ![](assets/aep_wkf_readaudience_perso1.png)
 
-1. 按一下 **[!UICONTROL Add]** 按鈕，將其添加到其他資料清單中。
+1. 按一下 **[!UICONTROL Add]** 按鈕將其添加到附加資料清單。
 
    ![](assets/aep_wkf_readaudience_perso3.png)
 
-1. 對您要新增至工作流程的每個XDM欄位重複這些步驟。
+1. 對要添加到工作流中的每個XDM欄位重複這些步驟。
 
    >[!NOTE]
    >
-   >您最多可以在 **[!UICONTROL Read audience]** 活動。
+   >您最多可以在 **[!UICONTROL Read audience]** 的子菜單。
 
-1. 新增所有欄位後，按一下 **[!UICONTROL Confirm]** 按鈕來保存更改。 您現在可以使用這些量度來個人化您的傳送。
+1. 添加所有欄位後，按一下 **[!UICONTROL Confirm]** 按鈕。 現在，它們將可用於個性化您的交貨。
 
-如需如何建立及個人化傳送的詳細資訊，請參閱Campaign Standard檔案：
+有關如何建立和個性化交貨的詳細資訊，請參閱Campaign Standard文檔：
 
 * [探索通訊通道](../../channels/using/get-started-communication-channels.md)
 * [關於頻道活動](../../automating/using/about-channel-activities.md)

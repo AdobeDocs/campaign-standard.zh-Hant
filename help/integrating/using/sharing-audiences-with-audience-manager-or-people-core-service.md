@@ -1,6 +1,6 @@
 ---
 title: 與 Audience Manager 或 People 核心服務共用對象
-description: 了解如何在不同的Adobe Experience Cloud解決方案中匯入或匯出您的對象。
+description: 瞭解如何在不同的Adobe Experience Cloud解決方案中導入或導出您的受眾。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
@@ -17,65 +17,65 @@ ht-degree: 2%
 
 # 與 Audience Manager 或 People 核心服務共用對象{#sharing-audiences-with-audience-manager-or-people-core-service}
 
-## 匯入對象 {#importing-an-audience}
+## 導入受眾 {#importing-an-audience}
 
-People核心服務整合可讓對象透過技術工作流程直接匯入Adobe Campaign，以豐富您的資料庫。 如需「人員」核心服務中受眾共用的詳細資訊，請參閱此 [檔案](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html).
+人員核心服務整合允許通過技術工作流將受眾直接導入Adobe Campaign，以豐富您的資料庫。 有關「人員」核心服務中的觀眾共用的詳細資訊，請參閱此 [文檔](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)。
 
-從Adobe Campaign中的People核心服務匯入對象/區段，可透過 **[!UICONTROL Audiences]** 功能表(僅由透過IMS連線的使用者(透過Adobe ID驗證)。
+從Adobe Campaign的人員核心服務中引進受眾/部分可從 **[!UICONTROL Audiences]** 菜單僅由通過IMS(通過Adobe ID進行身份驗證)連接的用戶進行。
 
-1. 前往 **[!UICONTROL Audiences]** 功能表。
-1. 在動作列中，選取 **[!UICONTROL Create]** 來建立受眾。
-1. 指定新對象的標籤。
-1. 設定對象 **[!UICONTROL Type]** to **[!UICONTROL Experience Cloud]** 以指出要建立的對象是從People核心服務匯入的對象。
-1. 從 **[!UICONTROL Name of the shared audience]** 欄位中，選取要匯入的對象。 只能匯入區段。 不支援包含機碼值組、特徵和規則的精細資料。
+1. 轉到 **[!UICONTROL Audiences]** 的子菜單。
+1. 在操作欄中，選擇 **[!UICONTROL Create]** 以建立觀眾。
+1. 指定新受眾的標籤。
+1. 設定受眾 **[!UICONTROL Type]** 至 **[!UICONTROL Experience Cloud]** 以指示所建立的受眾是從「人員」核心服務中導入的受眾。
+1. 從 **[!UICONTROL Name of the shared audience]** 的子菜單。 只能導入段。 不支援包含鍵值對、特徵和規則的粒度資料。
 
    ![](assets/aam_import_audience.png)
 
-1. 選取對應的 **[!UICONTROL Shared Data Source]**.
+1. 選擇相應 **[!UICONTROL Shared Data Source]**。
 
-   如果選定的資料源配置為使用加密算法，則附加選項可讓您 **[!UICONTROL Force reconciliation with a profile]**. 若 **[!UICONTROL Channel]** 資料來源的欄位會設為「電子郵件」或「行動」(SMS)，而且如果您想要運用設定檔資料。
+   如果將所選資料源配置為使用加密算法，則另外一個選項將提供 **[!UICONTROL Force reconciliation with a profile]**。 如果 **[!UICONTROL Channel]** 資料源的欄位設定為「電子郵件」或「移動」(SMS)，如果您想利用配置檔案資料。
 
-   如果您未選取 **[!UICONTROL Force reconciliation with a profile]** 若 **[!UICONTROL Channel]** 會在AMC資料來源中設為電子郵件或行動(SMS)，則所有加密的宣告ID都會解密。 類型的對象 **檔案** 會建立/更新所有電子郵件地址/行動電話號碼的清單。 如此一來，透過此整合匯入共用對象時，即使該設定檔不存在，也不會遺失電子郵件地址/行動電話號碼。 請注意，此類型的對象無法直接使用，因為需要使用工作流程手動協調。
+   如果未選擇 **[!UICONTROL Force reconciliation with a profile]** 如果 **[!UICONTROL Channel]** 在AMC資料源中將其設定為電子郵件或移動(SMS)，然後對所有加密的聲明ID進行解密。 類型的受眾 **檔案** 建立/更新所有電子郵件地址/行動電話號碼的清單。 這樣，通過此整合導入共用受眾時，即使市場活動中不存在該配置檔案，也不會丟失電子郵件地址/行動電話號碼。 請注意，此類受眾不能直接使用，因為需要使用工作流手動對帳。
 
-1. 確認建立對象。
+1. 確認建立受眾。
 
-   然後會透過技術工作流程匯入對象。 它由可與設定檔維度調解ID（「訪客ID」或「宣告ID」）的記錄組成。 來自People核心服務區段且Adobe Campaign未辨識的ID不會匯入。
+   然後通過技術工作流導入受眾。 它由ID（「訪問者ID」或「聲明的ID」）能夠與配置檔案維進行協調的記錄組成。 Adobe Campaign未識別的People核心服務段的ID不會導入。
 
-您的對象現在已匯入Adobe Campaign資料庫。 從People核心服務或Audience Manager直接匯入區段時，匯入程式需要24到36小時進行同步。 在此期間後，您將能在Adobe Campaign中尋找和使用您的新對象。
+您的受眾現在已導入到您的Adobe Campaign資料庫中。 當從人員核心服務或Audience Manager直接導入段時，導入過程需要24至36小時才能同步。 在這段時間之後，你將能夠在Adobe Campaign找到並使用你的新觀眾。
 
 >[!NOTE]
 >
->如果您要將對象從Adobe Analytics匯入Adobe Campaign，必須先在People核心服務或Audience Manager中共用這些對象。 此程式需要12到24小時，必須與Campaign同步，將其新增至24到36小時。 在該特定情況下，受眾共用時間範圍最多可為60小時。 如需People核心服務與Audience Manager中Adobe Analytics受眾共用的詳細資訊，請參閱此 [檔案](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html).
+>如果您要將觀眾從Adobe Analytics引入Adobe Campaign，這些觀眾首先需要在人員核心服務或Audience Manager中共用。 此過程需要12-24小時，必須添加到24-36小時與市場活動的同步中。 在這種特定情況下，觀眾共用時間最長可達60小時。 有關「人員核心服務」和「受眾經理」中Adobe Analytics受眾共用的詳細資訊，請參閱此 [文檔](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)。
 
-## 匯出對象 {#exporting-an-audience}
+## 導出受眾 {#exporting-an-audience}
 
-閱聽眾可使用工作流程和 **[!UICONTROL Save audience]** 活動。
+可以使用工作流將受眾從Adobe Campaign導出到Audience Manager或人員核心服務， **[!UICONTROL Save audience]** 的子菜單。
 
-這只能由透過IMS連線的使用者(透過Adobe ID驗證)執行。
+它只能由通過IMS(通過Adobe ID進行認證)連接的用戶在新的工作流中執行。
 
-1. 從方案、行銷活動或行銷活動清單建立新的工作流程。
-1. 使用可用的不同活動，鎖定一組設定檔。
-1. 定位後，拖放 **[!UICONTROL Save audience]** 活動並開啟至工作流程。
+1. 從方案、市場活動或市場營銷活動清單建立新工作流。
+1. 使用可用的不同活動，將一組配置檔案作為目標。
+1. 在目標後，拖放 **[!UICONTROL Save audience]** 活動，然後將其開啟。
 1. 選取 **[!UICONTROL Share in Adobe Experience Cloud]**。
 
    ![](assets/aam_save_audience_activity.png)
 
-1. 使用 **[!UICONTROL Shared audience]** 欄位。 在開啟的視窗中，您可以選擇選取現有對象或建立新對象：
+1. 使用 **[!UICONTROL Shared audience]** 的子菜單。 在開啟的窗口中，您可以選擇選擇現有受眾或建立新受眾：
 
-   * 如果您選取現有對象，則只會將新記錄新增至對象。
-   * 若要將您的設定檔清單匯出至新對象，請完成 **[!UICONTROL Segment name]** 欄位，然後按一下 **[!UICONTROL Create]** 之後，再選取新建立的對象。
+   * 如果選擇現有受眾，則只會將新記錄添加到受眾。
+   * 要將個人資料清單導出到新受眾，請完成 **[!UICONTROL Segment name]** 按一下 **[!UICONTROL Create]** 選擇新建立的受眾。
 
    ![](assets/aam_save_audience_segment_picker.png)
 
-   為了調解和交換，記錄必須有Adobe Experience Cloud ID（「Visitor ID」或「Delaced ID」）。 匯入和匯出對象時，會忽略未調解的記錄。
+   為了協調和交換，記錄必須具有Adobe Experience CloudID（「訪問者ID」或「聲明的ID」）。 在導入和導出訪問群體時忽略未協調的記錄。
 
-1. 要完成，請按一下螢幕右上方的複選標籤。
-1. 選取對應的 **[!UICONTROL Shared Data Source]**.
-1. 如果您喜歡，請檢查 **[!UICONTROL Generate an outbound transition]** 框，以使用導出的配置檔案。 只會匯出可調解的設定檔。
-1. 確認活動的設定並儲存工作流程。
-1. 啟動工作流程以匯出對象。 Adobe Campaign與People核心服務的同步可能需要數小時
+1. 要完成，請按一下螢幕右上角的複選標籤。
+1. 選擇相應 **[!UICONTROL Shared Data Source]**。
+1. 如果你願意，查查 **[!UICONTROL Generate an outbound transition]** 框，以使用導出的配置檔案。 只導出可對帳的配置檔案。
+1. 確認活動的配置並保存工作流。
+1. 啟動工作流以導出受眾。 Adobe Campaign與人員核心服務之間的同步可能需要數小時
 
-Adobe Campaign與People核心服務的同步需要24到36小時。 在此期間之後，您將能在People核心服務中尋找新的受眾，並在其他Adobe Experience Cloud解決方案中重複使用。 如需在「Adobe人員」核心服務中使用Adobe Campaign共用對象的詳細資訊，請參閱此 [檔案](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-audience-create.html).
+Adobe Campaign與人員核心服務之間的同步需要24-36小時。 在此期間後，您將能夠在人員核心服務中找到新的受眾，並將其重新用於其他Adobe Experience Cloud解決方案。 有關在Adobe人核心服務中使用Adobe Campaign共用受眾的詳細資訊，請參閱此 [文檔](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-audience-create.html)。
 
 **相關主題：**
 

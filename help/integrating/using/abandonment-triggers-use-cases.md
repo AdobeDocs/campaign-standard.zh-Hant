@@ -64,7 +64,7 @@ ht-degree: 94%
 
 在　Adobe Campaign　中，您需要建立連結至您在　Experience Cloud　中建立的觸發程式。
 
-1. 若要在Adobe Campaign中建立觸發程式，請按一下 **Adobe** 徽標，在左上角，然後選擇 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud triggers]**.
+1. 要在Adobe Campaign建立觸發器，請按一下 **Adobe** 徽標，在左上角，然後選擇 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud triggers]**。
 
    ![](assets/remarketing_1.png)
 
@@ -81,7 +81,7 @@ ht-degree: 94%
 
    ![](assets/trigger_uc_browse_6.png)
 
-1. 若要顯示訊息範本，請按一下 **[!UICONTROL More]** 按鈕，然後按一下右上角的 **[!UICONTROL Trigger Transactional Template]**.
+1. 要顯示消息模板，請按一下 **[!UICONTROL More]** 按鈕，然後按一下 **[!UICONTROL Trigger Transactional Template]**。
 
 1. 個人化其內容和傳送者詳細資訊。
 
@@ -101,11 +101,11 @@ ht-degree: 94%
 
    ![](assets/trigger_uc_browse_10.png)
 
-1. 收件者點按連結，將其導向至您的網站。 在此範例中，橫幅會將收件者導向到旅行預訂網站的首頁。
+1. 收件人點擊一個連結，將他們帶到您的網站。 在此範例中，橫幅會將收件者導向到旅行預訂網站的首頁。
 
    ![](assets/trigger_uc_browse_11.png)
 
-1. 收件者前往「交易」頁面，但突然停止瀏覽。 在　10　分鐘後，Adobe Campaign　會觸發交易式訊息的傳送。
+1. 接收者進入「交易」頁面，但突然停止訪問。 在　10　分鐘後，Adobe Campaign　會觸發交易式訊息的傳送。
 
    ![](assets/trigger_uc_browse_12.png)
 

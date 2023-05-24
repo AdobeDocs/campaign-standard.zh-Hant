@@ -24,7 +24,7 @@ ht-degree: 98%
 
 此模式可讓您使用進階功能。這些函式可讓您控制用於執行特定查詢的值，例如控制日期、字串、數值欄位、排序等。
 
-編輯運算式時，也可以使用工作流程的事件變數。 如需詳細資訊，請參閱[使用事件變數自訂活動](../../automating/using/customizing-workflow-external-parameters.md)區段。
+編輯表達式時也可以使用工作流的事件變數。 如需詳細資訊，請參閱[使用事件變數自訂活動](../../automating/using/customizing-workflow-external-parameters.md)區段。
 
 您可以編輯運算式，以：
 
@@ -190,21 +190,21 @@ context.profile.age > 21 && context.profile.firstName.length() > 0
   <tr> 
    <td> <span class="uicontrol">Like</span> <br /> </td> 
    <td> LIKE<br /> </td> 
-   <td> 不適用<br /> </td> 
+   <td> N/A<br /> </td> 
    <td> <span class="uicontrol">Like</span> 與　<span class="uicontrol">Contains</span>　運算子非常類似。它可讓您在所搜尋的值中插入　<span class="uicontrol">%</span>　萬用字元。<br /> </td> 
    <td> <strong>@lastName LIKE Mart%n</strong>。在此處，替代字元 <strong>%</strong> (%)　作為　"joker"，在拼字不正確的假設情況下尋找名稱　"Martin"。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Not like</span> <br /> </td> 
    <td> NOT<br /> </td> 
-   <td> 不適用<br /> </td> 
+   <td> N/A<br /> </td> 
    <td> 類似 <span class="uicontrol">Like</span>。它可讓您不復原輸入的值。在這裡，輸入的值也必須包含 <span class="uicontrol">%</span> 萬用字元。<br /> </td> 
    <td> <strong>@lastName NOT Smi%h</strong>。在這裡，與名稱　'Smi%h' （如　Smith　等）相對應的收件者不會被傳回為結果。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Is empty</span> <br /> </td> 
    <td> IS NULL<br /> </td> 
-   <td> 不適用<br /> </td> 
+   <td> N/A<br /> </td> 
    <td> 第一個值必須對應至空值。<br /> </td> 
    <td> <strong>@mobilePhone IS NULL</strong> 會擷取所有尚未提供行動電話號碼的設定檔。<br /> </td> 
   </tr> 

@@ -1,6 +1,6 @@
 ---
 title: 在 Experience Cloud 中設定觸發程式
-description: '瞭解如何配置Adobe Experience Cloud Triggers整合，以便根據客戶以前的行為開始向客戶發送個性化送貨。 '
+description: 瞭解如何配置Adobe Experience Cloud Triggers整合，以便根據客戶以前的行為開始向客戶發送個性化送貨。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
@@ -11,7 +11,7 @@ exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
 source-git-commit: 5a7e48da3d62b186f96cd7451fb5a7b2cf94e09c
 workflow-type: tm+mt
 source-wordcount: '853'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 6%
 Adobe團隊需要以下資訊才能激活觸發器：
 
 * Marketing Cloud公司名稱
-* 組織ID
+* 組織 ID
 * 分析登錄公司(可與Marketing Cloud公司名稱相同)
 
 ## 配置解決方案和服務 {#configuring-solutions-and-services}

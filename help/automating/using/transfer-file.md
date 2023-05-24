@@ -12,7 +12,7 @@ exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
 source-git-commit: 53852538ac1e092dc9376119f29d969ed4b02952
 workflow-type: tm+mt
 source-wordcount: '1168'
-ht-degree: 83%
+ht-degree: 82%
 
 ---
 
@@ -146,7 +146,7 @@ Microsoft Azure Blob　通訊協定可讓您存取位於　Microsoft Azure Blob�
 ### Adobe Campaign　伺服器上檔案的設定 {#files-server-configuration-wf}
 
 **[!UICONTROL File(s) present on the Adobe Campaign server]**　通訊協定對應於包含要復原的檔案的存放庫。
-超字元或萬用字元（例如　* 或 ?）可用於篩選檔案。
+元字元或通配符(例如 &#42; 或？) 可用於篩選檔案。
 
 選取是否 **[!UICONTROL Define a file path]** 或 **[!UICONTROL Use a dynamic file path]**
 **[!UICONTROL Use a dynamic file path]**　選項可讓您使用標準運算式和事件變數來個人化要傳輸的檔案名稱。如需詳細資訊，請參閱[此頁面](../../automating/using/customizing-workflow-external-parameters.md)。

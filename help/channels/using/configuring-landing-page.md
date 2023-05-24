@@ -69,7 +69,7 @@ ht-degree: 97%
 
    ![](assets/lp_parameters_3_temp.png)
 
-您也可以使用 **[!UICONTROL Authorize unidentified visitors]** 選項。
+您還可以授權任何訪問者訪問登錄頁， **[!UICONTROL Authorize unidentified visitors]** 的雙曲餘切值。
 
 <!--Use the URL parameters to identify the visitors, using the **[!UICONTROL Authorize visitor identification via URL parameters]** option: then you must choose the loading key and map the filter parameters with the parameters of the corresponding URL.-->
 

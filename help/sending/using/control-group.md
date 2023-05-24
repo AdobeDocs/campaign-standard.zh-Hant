@@ -28,7 +28,7 @@ ht-degree: 98%
 
 ## 概覽 {#overview}
 
-可以從主要目標隨機擷取控制組和/或從特定人口中選取。因此，定義控制組的主要方法有兩種：
+可以從主要目標隨機擷取控制組和/或從特定母體中選取。因此，定義控制組的主要方法有兩種：
 * 從主要目標&#x200B;**擷取**&#x200B;多個設定檔。
 * 根據查詢中定義的條件&#x200B;**排除**&#x200B;一些設定檔。
 
@@ -38,7 +38,7 @@ ht-degree: 98%
 
 ## 從目標人口中擷取 {#extraction-target-population}
 
-若要定義控制組，您可以選擇從目標人口中隨機或基於排序、百分比或固定數量的設定檔中擷取。
+若要定義控制組，您可以選擇從目標母體中隨機或基於排序、百分比或固定數量的設定檔中擷取。
 
 ### 目標擷取 {#target-extraction}
 
@@ -155,7 +155,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->若要存取傳送記錄，您必須具備 [管理員角色](../../administration/using/users-management.md#functional-administrators) 成為 **[!UICONTROL All]** [組織單位](../../administration/using/organizational-units.md). <!--If you would like to restrict access for a particular user or group of users, do not link it to **[!UICONTROL All]** units.-->
+>要訪問交貨日誌，您需要 [管理員角色](../../administration/using/users-management.md#functional-administrators) 成為 **[!UICONTROL All]** [組織單位](../../administration/using/organizational-units.md)。 <!--If you would like to restrict access for a particular user or group of users, do not link it to **[!UICONTROL All]** units.-->
 
 ### 檢查傳送記錄 {#checking-logs}
 

@@ -1,6 +1,6 @@
 ---
 title: 取消訂閱
-description: 透過「取消訂閱」現成可用的報表，了解客戶取消訂閱您傳送的次數。
+description: 通過「取消訂閱現成報告」，瞭解客戶取消訂閱您的交貨的次數。
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -18,8 +18,8 @@ ht-degree: 3%
 
 # 取消訂閱{#unsubscriptions}
 
-此 **[!UICONTROL Unsubscriptions]** 報表可識別取消訂閱次數最多的傳送。
+的 **[!UICONTROL Unsubscriptions]** 報告標識具有最多未預訂的交貨。
 
 ![](assets/delivery_reports_unsub.png)
 
-此 **[!UICONTROL TOP 5 deliveries]** 表格和圖表顯示已傳送訊息數量最多的前五個傳送，以及已取消訂閱的收件者數量。 此處列出的資料是根據訊息取消訂閱連結的點按次數而定。
+的 **[!UICONTROL TOP 5 deliveries]** 表和圖形顯示已傳遞郵件數最多的前五個傳遞以及未訂閱的收件人數。 此處列出的資料基於郵件未訂閱連結上的按一下次數。

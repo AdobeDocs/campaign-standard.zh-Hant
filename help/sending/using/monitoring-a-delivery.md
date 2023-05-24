@@ -53,7 +53,7 @@ ht-degree: 79%
 * [發生故障時接收警示](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [報告](../../reporting/using/about-dynamic-reports.md)
 
-## 傳送記錄檔 {#delivery-logs}
+## 傳遞記錄 {#delivery-logs}
 
 ### 傳送記錄檔 {#sending-logs}
 

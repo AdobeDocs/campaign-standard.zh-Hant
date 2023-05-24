@@ -1,6 +1,6 @@
 ---
 title: 更新設定檔的地理單位
-description: 了解如何使用API管理地理單位。
+description: 瞭解如何使用API管理地理單元。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -17,12 +17,12 @@ ht-degree: 10%
 
 # 更新設定檔的地理單位 {#updating-a-geographical-unit}
 
-1. 在 **geoUnitBase** 用於檢索地理單位PKey的資源。
-1. 對配置檔案PKey執行PATCH請求，在有效負載中使用所需的地理單位PKey。
+1. 對執行GET請求 **geoUnitBase** 資源以檢索地理單位PKey。
+1. 對配置檔案PKey執行PATCH請求，在負載中使用所需的地理單元PKey。
 
 <br/>
 
-***範例要求***
+***示例請求***
 
 檢索地理單位清單。
 
@@ -34,7 +34,7 @@ ht-degree: 10%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它會傳回所有地理單位。 檢索要為其分配配置檔案的單元的PKey。
+它返回所有地理單位。 檢索要為其分配配置檔案的設備的PKey。
 
 ```
 {
@@ -50,7 +50,7 @@ ht-degree: 10%
 },
 ```
 
-在配置檔案上執行PATCH請求，在有效負載中使用所需地理單位的PKey。
+對配置檔案執行PATCH請求，在負載中使用所需地理單元的PKey。
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/<PKEY> \

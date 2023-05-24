@@ -1,6 +1,6 @@
 ---
 title: 必讀
-description: 必須先閱讀，才能使用API。
+description: 使用API之前必須讀取。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -17,31 +17,31 @@ ht-degree: 0%
 
 # 必讀 {#must-read}
 
-## 技術需求
+## 技術要求
 
-* Adobe Campaign API只能使用伺服器對伺服器。
-* 如果您要實作的使用案例與Adobe Campaign API允許的比例相符，請務必洽詢您的Adobe技術聯絡人。
-* 設定AdobeIO存取需要特定權限，如有任何問題，請聯絡Adobe支援。
+* Adobe CampaignAPI必須僅使用伺服器到伺服器。
+* 如果要實施的用例與Adobe CampaignAPI允許的比例一致，請始終與Adobe技術聯繫人聯繫。
+* 設定AdobeIO訪問需要特定權限，請與Adobe支援聯繫以解決任何問題。
 
-## 權限與存取
+## 權限和訪問
 
-* 依預設，Adobe Campaign API會使用管理員內容，因此組織單位和角色不適用。
-* Adobe Campaign API會從角色內容中排除。
-* 如果您想要以組織單位或角色來設定API，請先洽詢您的Adobe技術聯絡人。
+* 預設情況下，Adobe CampaignAPI使用管理員上下文，因此組織單位和角色不適用。
+* Adobe CampaignAPI被排除在角色上下文之外。
+* 如果要使用組織單位或角色配置API，請首先與要Adobe的技術聯繫人聯繫。
 
 ## 資源表示
 
-所有API資源皆可在 **JSON** 具有URL副檔名或位於HTTP Accept Header內：
+所有API資源均可用於 **JSON** URL擴展或HTTP接受標頭內：
 
 `GET /profileAndServices/<resourceName>.json`
 
 >[!NOTE]
 >
->若URL中沒有副檔名， **json格式為預設格式** （針對內容類型）。
+>如果URL中沒有副檔名， **json格式是預設格式** 的子菜單。
 
 <br/>
 
-***請求範例***
+***請求示例***
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile.json \
@@ -51,29 +51,29 @@ ht-degree: 0%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-## 主要索引鍵和URL
+## 主鍵和URL
 
-* 請勿自行建立URL。 API會傳回所有URL。 不過，您可以根據頂層資源名稱來建立URL。
+* 不要嘗試自己生成URL。 所有URL都由API返回。 但是，可以基於頂級資源名稱生成URL。
 
-* 說明示例的自動主鍵(PKey)值不打算在其他特定部署中工作。 由Adobe Campaign API製作。
+* 說明這些示例的自動主鍵(PKey)值不適用於其他特定部署。 它們由Adobe CampaignAPI生產。
 
-* Adobe Campaign產生的自動主索引鍵值絕不得儲存至外部資料庫或網站。 您必須在資料庫定義中產生特定索引鍵欄位，並在開發期間使用它。
+* Adobe Campaign生成的自動主鍵值永遠不能儲存到外部資料庫或網站中。 必須在資料庫定義中生成特定的關鍵字欄位，並在開發過程中使用它。
 
-## 自訂金鑰 {#custom-keys}
+## 自定義鍵 {#custom-keys}
 
-如果設定檔資源已使用自訂金鑰欄位擴充，您可以將此欄位作為金鑰，而非Adobe Campaign產生的自動主金鑰：
+如果配置檔案資源已使用自定義鍵欄位進行擴展，則可以將此欄位用作鍵，而不是Adobe Campaign生成的自動主鍵：
 
 `GET /.../profileAndServicesExt/profile/<customKey>`
 
-如果鍵值與原始鍵不同，或者您使用自己的業務鍵作為URI，而不是PATCH提供的業務鍵，則無法使用Adobe操作修改自定義鍵。
+如果鍵值與源鍵不同，或者您使用自己的業務鍵作為URI而不是PATCH提供的業務鍵，則無法使用Adobe操作修改自定義鍵。
 
-使用自訂金鑰 **頂層設定檔資源** 只有。 URL由API傳回，且絕不應由您自己建立。
+使用自定義鍵 **頂級配置檔案資源** 只是。 URL由API返回，不應由自己生成。
 
 <br/>
 
-***範例要求***
+***示例請求***
 
-若要使用自訂金鑰擷取設定檔的訂閱，請對自訂金鑰執行GET作業。
+要使用自定義鍵檢索配置檔案的GET，請對自定義鍵執行訂閱操作。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/<customKey> \
@@ -83,7 +83,7 @@ ht-degree: 0%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-對傳回的訂閱URL執行GET要求。
+對返回的訂閱URL執行GET請求。
 
 ```
 -X GET <SUBSCRIPTION_URL> \
@@ -93,7 +93,7 @@ ht-degree: 0%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它會傳回設定檔的訂閱清單。
+它返回配置檔案的訂閱清單。
 
 ```
 "service": {

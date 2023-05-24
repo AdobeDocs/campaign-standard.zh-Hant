@@ -42,11 +42,11 @@ ht-degree: 96%
 
    ![](assets/push_notif_advanced_7.png)
 
-1. 如果已在行動應用程式的套件中定義檔案，則傳送通知時會播放音效檔案。您可以將其設為 **預設** 播放裝置的預設音效。
+1. 如果已在行動應用程式的套件中定義檔案，則傳送通知時會播放音效檔案。您可以將其設定為 **預設** 播放設備的預設聲音。
 
-   若 **[!UICONTROL Play a sound]** 欄位留空，將不會播放任何音效。
+   如果 **[!UICONTROL Play a sound]** 欄位為空，不會播放聲音。
 
-然後，只有在手機未靜音時，使用者才會收到推播通知和音效。
+然後，用戶將僅在手機未靜音時接收推送通知和聲音。
 
 ## 重新整理徽章值 {#refresh-the-badge-value}
 
@@ -113,7 +113,7 @@ ht-degree: 96%
 
 若要將到期日期新增至推播通知：
 
-1. 檢查 **[!UICONTROL Expire message]** 選項：選取 **[!UICONTROL Expire message]** 選項，持續時間會自動設為0。 如果您未變更值，APNS 和 FCM 都會嘗試立即傳送訊息。如果失敗，則不會重新發送消息。
+1. 檢查 **[!UICONTROL Expire message]** 選項：選擇 **[!UICONTROL Expire message]** 選項，持續時間將自動設定為0。 如果您未變更值，APNS 和 FCM 都會嘗試立即傳送訊息。如果失敗，則不會重新發送消息。
 
 1. 在 **[!UICONTROL Duration]** 欄位中，選取推播通知的有效性。
 

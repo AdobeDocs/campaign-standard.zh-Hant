@@ -1,6 +1,6 @@
 ---
-title: 外部訊號和資料匯入
-description: 下列範例說明與資料匯入搭配使用的外部訊號活動。
+title: 外部信號和資料導入
+description: 以下示例說明了與資料導入一起使用的外部信號活動。
 audience: automating
 content-type: reference
 topic-tags: execution-activities
@@ -16,7 +16,7 @@ ht-degree: 79%
 
 ---
 
-# 外部訊號和資料匯入 {#external-signal-data-import}
+# 外部信號和資料導入 {#external-signal-data-import}
 
 以下範例說明典型使用案例中的 **[!UICONTROL External signal]** 活動。在來源工作流程中執行資料匯入。完成匯入並更新資料庫後，就會觸發第二個工作流程。此第二個工作流程用於更新匯入資料的彙總。
 
@@ -38,13 +38,13 @@ ht-degree: 79%
 
 * [調解](../../automating/using/reconciliation.md)活動會建立匯入資料和資料庫之間的連結，以便交易資料正確連接到設定檔和產品。
 * [更新資料](../../automating/using/update-data.md)活動將插入並更新帶有傳入資料的資料庫的「交易」資源。
-* 安 [結束](../../automating/using/start-and-end.md) 活動會觸發目標工作流程，用於更新匯總。
+* 安 [結束](../../automating/using/start-and-end.md) 活動觸發目標工作流，該工作流用於更新聚合。
 
 ![](assets/signal_example_source1.png)
 
 目標工作流程如下：
 
-* 安 [外部信號](../../automating/using/external-signal.md) 活動會等待源工作流程成功完成。
+* 安 [外部信號](../../automating/using/external-signal.md) 活動等待源工作流成功完成。
 * [查詢](../../automating/using/query.md#enriching-data)活動會定位設定檔，並以收集來擴充設定檔，以擷取最後的購買日期。
 * [更新資料](../../automating/using/update-data.md)活動會將其他資料儲存在專用的自訂欄位中。請注意，設定檔資源已擴展到新增&#x200B;**上次購買日期**&#x200B;欄位。
 

@@ -9,7 +9,7 @@ exl-id: ea936128-1c51-483d-914c-6d06708456d6
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
 source-wordcount: '8664'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -353,7 +353,7 @@ SMS消息使用特殊的7位編碼，通常稱為GSM7編碼。
 
 | 編碼 | 常用資料編碼 | 消息大小（字元） | 多部件SMS的部件大小 | 可用字元 |
 |:-:|:-:|:-:|:-:|:-:|
-| GSM7 | 0 | 160 | 152 | GSM7基本字元集+擴展（擴展字元為2個字元） |
+| GSM 7 | 0 | 160 | 152 | GSM7基本字元集+擴展（擴展字元為2個字元） |
 | 拉丁語–1 | 3 | 140 | 134 | ISO-8859-1 |
 | UCS-2 <br>UTF-16 | 8 | 70 | 67 | Unicode（因電話而異） |
 
@@ -373,13 +373,13 @@ SMPP協定的每個實現都有許多不同。 為了提高相容性和適應性
 
 如果需要精確控制連接數，例如提供程式要求，建議始終設定此選項，即使當前部署運行的MTA數量正確。 如果以後添加了額外的MTA，則仍然會遵守連接限制。
 
-### 連接設定 {#connection-settings}
+### 連線設定 {#connection-settings}
 
 #### SMPP連接模式 {#smpp-connection-mode}
 
 在中設定連接 **收發器** 模式或分隔 **發射機+接收機** 的子菜單。 當您切換到分隔 **發射機+接收機** 模式，設定 **SMPP連接模式** 部分適用於 **接收器連接設定** 節應用於接收器連接，僅當您檢查了 **為接收器使用不同的參數** 複選框。
 
-#### SMSC實現名稱 {#smsc-implementation-name}
+#### SMSC 實作名稱 {#smsc-implementation-name}
 
 設定SMSC實現的名稱。 應將其設定為提供程式的名稱。 請與管理員或交付性團隊聯繫，以瞭解在此欄位中添加的內容。 此欄位的角色在 [SR錯誤管理](../../administration/using/sms-protocol.md#sr-error-management) 的子菜單。
 
@@ -387,7 +387,7 @@ SMPP協定的每個實現都有許多不同。 為了提高相容性和適應性
 
 要連接的伺服器的DNS名稱或IP地址。
 
-#### 埠 {#port}
+#### 連接埠 {#port}
 
 要連接的TCP埠。
 
@@ -416,11 +416,11 @@ Adobe Campaign Standard總連接公式：
 
 分隔 **發射/接收** 模式，上面的連接數表示 **發射/接收** 對表示連接總數將是總數的兩倍。
 
-#### 通過SMPP啟用TLS {#enable-TLS}
+#### 透過 SMPP 啟用 TLS {#enable-TLS}
 
 使用TLS連接到提供程式。 連接將被加密。 TLS連接由OpenSSL庫管理，任何適用於OpenSSL的連接都將為True。
 
-#### 在日誌檔案中啟用詳細SMPP跟蹤 {#enable-verbose-log-file}
+#### 在記錄檔中啟用詳細的 SMPP 追蹤 {#enable-verbose-log-file}
 
 此設定將轉儲日誌檔案中的所有SMPP通信。 在初始設定期間，通常需要調整參數。 在排除連接器故障時必須啟用此功能，並將其與提供程式看到的通信進行比較。
 
@@ -428,7 +428,7 @@ Adobe Campaign Standard總連接公式：
 
 此節僅在分隔的 **發射機+接收機** 的子菜單。
 
-#### 為接收器使用不同的參數 {#receiver-parameters}
+#### 為接收方使用不同的參數 {#receiver-parameters}
 
 如果未選中該框，則發送器和接收器的設定相同。
 
@@ -460,7 +460,7 @@ Adobe Campaign Standard總連接公式：
 
 缺點是效能低，因為它會生成資料庫爭用。 如果禁用，統計資訊將由 **同構** 工作流，每20分鐘運行一次。
 
-#### 源編號 {#source-number}
+#### 來源編號 {#source-number}
 
 定義消息的預設源地址。 僅當交貨中的源編號為空時，此設定才適用。
 
@@ -468,7 +468,7 @@ Adobe Campaign Standard總連接公式：
 
 這啟用發送器地址/oADC覆蓋功能。
 
-#### 短碼 {#short-code}
+#### 簡短代碼 {#short-code}
 
 指示帳戶的主短代碼。 如果此帳戶使用了多個短代碼，或者短代碼未知，請將此欄位留空。
 
@@ -492,7 +492,7 @@ TON（編號類型）和NPI（編號計畫指標）在第5.2.5節中介紹 [SMPP
 
 這些設定控制SMPP通道的所有計時方面。 某些提供程式要求對消息速率、窗口和重試計時進行非常精確的控制。 應將這些設定設定為與提供商的能力及其合同中指明的條件相匹配的值。
 
-#### 發送窗口 {#sending-window}
+#### 傳送窗口 {#sending-window}
 
 窗口是 `SUBMIT_SM PDU`可以在不等待匹配的情況下發送 `SUBMIT_SM_RESP`。
 
@@ -511,7 +511,7 @@ TON（編號類型）和NPI（編號計畫指標）在第5.2.5節中介紹 [SMPP
 
 示例：如果在最大MT吞吐量中設定了300條SMS/s，並且介於 `SUBMIT_SM` 和 `SUBMIT_SM_RESP` 平均而言，最優值 `300×0.1 = 30`。
 
-#### 最大MT吞吐量 {#max-mt-throughput}
+#### 最大 MT 輸送量 {#max-mt-throughput}
 
 每秒和每個連接的最大MT數。 此設定將得到嚴格執行，MTA將永遠不會以超出此限制的速度推送消息。 對於需要精確限制的提供商來說，它非常有用。
 
@@ -521,19 +521,19 @@ TON（編號類型）和NPI（編號計畫指標）在第5.2.5節中介紹 [SMPP
 
 通常建議將此設定保持在1000以下，因為除非對最終體系結構進行適當基準測試，否則無法保證超出此數字的準確吞吐量。 如果您需要超過1000的吞吐量，請與提供商聯繫。 將連接數增加到1000 MT/s以上可能更好。
 
-#### 重新連接前的時間 {#time-reconnection}
+#### 重新連線前的時間 {#time-reconnection}
 
 當TCP連接丟失時，連接器將等待此秒數，然後嘗試建立連接。
 
-#### MT的到期期 {#expiration-period}
+#### MT 的有效期 {#expiration-period}
 
 超時時間 `SUBMIT_SM` 與 `SUBMIT_SM_RESP`。 如果 `RESP` 未按時接收，消息將被視為失敗，並且將應用MTA的全局重試策略。
 
-#### 綁定超時 {#bind-timeout}
+#### 繫結逾時 {#bind-timeout}
 
 TCP連接嘗試和 `BIND_*_RESP` 回復。 超時後，連接將由Adobe Campaign連接器關閉，在重新連接之前，它將等待時間，然後再重試。
 
-#### inquire_link期間 {#enquire-link-period}
+#### enquire_link 時段 {#enquire-link-period}
 
 `enquire_link` 是一種特殊類型的PDU，用於保持連接正常。 此時段以秒為單位。 市場活動連接器僅發送 `enquire_link` 當連接空閒時，以節省頻寬。 如果在此時間段後兩次未收到RESP，則連接將被視為已死，並且將觸發重新連接進程。
 
@@ -557,9 +557,9 @@ MTA將嘗試使用清單中的第一個編碼進行編碼。 如果失敗，它�
 
 未選中複選框時使用的預設映射與下表相同：
 
-| 資料編碼 | 編碼 |
+| data_coding | 編碼 |
 |---|---|
-| 0 | 全球通 |
+| 0 | GSM |
 | 9 | UCS-2 |
 
 這意味著MTA將嘗試在GSM中對消息進行編碼。 如果成功，它將發送 `data_coding` 設定為0。
@@ -600,7 +600,7 @@ TON（編號類型）和NPI（編號計畫指標），詳情見5.2.5節 [SMPP 3.
 
 在BIND PDU的address_range欄位中按原樣發送。 此值應設定為提供程式需要的任何值。
 
-#### 無效的ID確認計數 {#invalid-id}
+#### 無效 ID 確認計數 {#invalid-id}
 
 限制 **消息ID無效** `DELIVER_SM_RESP` 可以發送給單個SR。
 
@@ -626,7 +626,7 @@ Fox示例，當設定為2時：
 
 將此欄位設定為1使連接器始終響應「OK」，即使ID無效。 這應設定為僅在監管下為1，以便進行故障排除，並且時間最短，例如從提供方問題中恢復。
 
-#### SR中ID的提取規則運算式 {#regex-extraction}
+#### SR 中 ID 的擷取規則運算式 {#regex-extraction}
 
 SR格式未受SMPP協定規範的嚴格強制。 它僅是中描述的建議 [附錄B](../../administration/using/sms-protocol.md#sr-error-management) （第167頁）。 一些SMPP實現程式以不同格式設定此欄位，因此Adobe Campaign需要一種方法來提取正確的欄位。
 
@@ -660,7 +660,7 @@ regex中未包含足夠的上下文可能會引入一個小安全漏洞：消息
 
 這表示由 `Extraction` SR中ID的regex。 值與上面MT中的格式具有相同的含義和相同的行為。
 
-**可選欄位中的SR ID或錯誤代碼**
+**選擇性欄位中的 SR ID 或錯誤代碼**
 
 如果選中，則可選欄位的內容將附加到上面由區域處理的文本中。 文本將具有格式 `0xTAG:VALUE`。 `0xTAG` 是標籤的4位十六進位值，例如 `0x002E`。
 
@@ -682,7 +682,7 @@ regex中未包含足夠的上下文可能會引入一個小安全漏洞：消息
 >
 >您只能捕獲具有文本(ASCII/UTF-8)值的可選欄位。 具體來說，二進位欄位不能用當前規則運算式系統可靠地捕獲。
 
-**文本欄位中的SR ID或錯誤代碼**
+**文字欄位中的 SR ID 或錯誤代碼**
 
 如果選中， **文本** 欄位將在處理SR的狀態文本時保留。
 
@@ -760,7 +760,7 @@ SMS協定將SMS限制在255個部分，但一些手機很難將長消息與10個
 
 * **在終端上保存** 將值設定為3。 它告訴手機把簡訊存在SIM卡里。
 
-#### 有效期 {#validity-period}
+#### 有效期限 {#validity-period}
 
 有效期在 `validity_period` 的 `SUBMIT_SM PDU`。 日期始終以絕對UTC時間格式設定格式（日期欄位將以&quot;00+&quot;結束）。
 

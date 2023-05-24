@@ -28,10 +28,10 @@ ht-degree: 3%
 | **[!UICONTROL Address not specified]** | 全部 | 排除沒有指定地址（電子郵件、郵政地址等）的目標人口。 根據所選頻道)。 |
 | **[!UICONTROL Address on denylist]** | 全部 | 排除denylist上的地址。 |
 | **[!UICONTROL Duplicate]** | 全部 | 根據目標人口排除重複項 **[!UICONTROL Address]** 的子菜單。 |
-| **[!UICONTROL Exclude mobile applications]** | 移動應用 | 排除與消息中定義的移動應用程式不匹配的應用程式訂閱。 |
+| **[!UICONTROL Exclude mobile applications]** | 行動應用程式 | 排除與消息中定義的移動應用程式不匹配的應用程式訂閱。 |
 | **[!UICONTROL Exclude mobile applications for In-App]** | 應用程式內 | 排除與消息（In-App模板）中定義的移動應用程式不匹配的應用程式訂閱。 |
 | **[!UICONTROL Exclude mobile applications for In-App broadcast]** | 應用程式內 | 排除與消息中定義的移動應用程式不匹配的應用程式訂閱（In-App廣播模板） |
-| **[!UICONTROL Exclude mobile applications for Push]** | 移動應用 | 排除與消息中定義的移動應用程式不匹配的應用程式訂閱（用於推送） |
+| **[!UICONTROL Exclude mobile applications for Push]** | 行動應用程式 | 排除與消息中定義的移動應用程式不匹配的應用程式訂閱（用於推送） |
 | **[!UICONTROL Quarantined address]** | 全部 | 排除隔離的地址。 |
 | **[!UICONTROL Target limited in size]** | 全部 | 檢查是否達到目標的最大傳遞大小。 應用於已激活「交貨限制」選項的直接郵件交付。 |
 

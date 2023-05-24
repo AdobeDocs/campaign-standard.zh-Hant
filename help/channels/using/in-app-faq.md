@@ -1,6 +1,6 @@
 ---
 title: 應用程式內常見問題集
-description: 應用程式內傳訊的常見問題
+description: 有關In-App消息傳遞的常見問題
 audience: channels
 content-type: reference
 topic-tags: in-app-messaging
@@ -17,74 +17,74 @@ ht-degree: 1%
 
 # 應用程式內常見問題集 {#in-app-faq}
 
-## 若要進一步了解Adobe Campaign Standard的應用程式內管道，有哪些實用資源建議？ {#resources-inapp}
+## 有哪些有用的資源建議可詳細瞭解Adobe Campaign Standard的In-App渠道？ {#resources-inapp}
 
-查看下列資源：
+簽出以下資源：
 
 * [影片教學課程](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/in-app/in-app-message-overview.html)
-* [部落格貼文](https://theblog.adobe.com/get-more-out-of-the-new-in-app-message-channel-from-adobe-campaign/)
-* [社群頁面](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
+* [部落格帖子](https://theblog.adobe.com/get-more-out-of-the-new-in-app-message-channel-from-adobe-campaign/)
+* [社區頁](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
-## 促銷活動擴充功能API setLinkageField和resetLinkageField有何用途？ {#extensions-apis}
+## 市場活動擴展APIs setLinkageField和resetLinkageField的目的是什麼？ {#extensions-apis}
 
-由於應用程式內訊息是由Campaign的SDK提取，因此我們想提供安全的機制，以確保包含PII資料的應用程式內訊息不會落入惡意人士之手。 因此，我們具備下列機制，可確保將訊息安全傳送至裝置：
+由於In-App消息是由SDK從市場活動中提取的，因此我們希望提供一種安全機制，以確保包含PII資料的In-App消息不會落入惡意的手中。 因此，我們具備以下機制來確保向設備安全傳遞消息：
 
-* 如果客戶希望確保安全地傳送此特定資訊，請將行動設定檔欄位（appSubscriberRcp表格）欄位標示為「個人與敏感」。
-* 標示為的欄位只能用於內建其他安全機制的「設定檔」範本（不能用於appSubscriber範本或廣播範本）。
-* 使用設定檔範本建立的訊息，只有在使用者已登入應用程式時，才能提供。
-* 為了便於進行此安全交握，行動應用程式開發人員應使用setLinkageField API傳遞其他驗證詳細資訊。 請注意，連結欄位是在擴充appSubscriberRcp表格時，識別為行動設定檔與CRM設定檔之間連結的欄位。
-* 當使用者使用resetLinkageField登出應用程式時，應排清儲存在裝置上的應用程式內訊息，並重設Linkagefields。 這可確保當其他使用者登入應用程式時，不會看見針對先前使用者的訊息。
-* 請參閱 [行動SDK API](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/) 以實作此安全機制用戶端。
+* 如果客戶希望確保安全傳送此特定資訊，則將移動配置檔案欄位（appSubscriberRcp表）標籤為「個人」和「敏感」。
+* 標籤為此類的欄位只能用於內置其他安全機制的配置檔案模板（不在appSubscriber模板或廣播模板中）。
+* 僅當用戶已登錄應用時，才能提供使用配置檔案模板生成的消息。
+* 為了便於進行此安全握手，移動應用程式開發人員應使用setLinkageField API傳遞其他身份驗證詳細資訊。 請注意，在擴展appSubscriberRcp表時，連結欄位被標識為移動配置檔案和CRM配置檔案之間的連結。
+* 當用戶使用resetLinkageField從應用註銷時，他們應刷新儲存在設備上的In-App消息並resetLinkagefield。 這可確保如果其他用戶登錄到應用程式，則他們不會看到針對前一個用戶的消息。
+* 請參閱 [移動SDK API](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/) 實現此安全機制客戶端。
 
-## 如何在Campaign中啟用應用程式內報告？ {#enable-inapp-reporting}
+## 我必須做什麼才能在活動中啟用應用內報告？ {#enable-inapp-reporting}
 
-您必須設定應用程式內追蹤回傳。 可找到指示 [此處](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback).
+您需要配置In-App跟蹤後退。 可以找到說明 [這裡](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback)。
 
-若要實作本機通知追蹤，請參閱 [頁面](../../administration/using/local-tracking.md).
+要實施本地通知跟蹤，請參閱 [頁](../../administration/using/local-tracking.md)。
 
-## 應用程式內管道可使用哪些報表？ {#report-inapp}
+## 哪些報告可用於In-App渠道？ {#report-inapp}
 
-Adobe Campaign提供應用程式內管道的現成報表。 請參閱 [檔案](../../reporting/using/in-app-report.md).
+在Adobe Campaign,In-App頻道提供現成報告。 請參閱此 [文檔](../../reporting/using/in-app-report.md)。
 
-看這個 [頁面](../../reporting/using/indicator-calculation.md#in-app-delivery) 了解每個應用程式內量度的計算方式。
+查看 [頁](../../reporting/using/indicator-calculation.md#in-app-delivery) 瞭解如何計算每個In-App度量。
 
-## 應用程式內支援類似「推送」的多語言內容變體嗎？ {#multilingual-inapp}
+## 是否支援與推送類似的In-App的多語言內容變體？ {#multilingual-inapp}
 
-現在，應用程式內傳訊功能沒有多語言範本可用。
+現在沒有可用於應用程式內消息傳遞的多語言模板。
 
-不過，如果目標是傳送英文以外的語言「應用程式內」訊息，內容可直接貼在可用的文字方塊中。
+但是，如果目標是以英語以外的語言發送In-App消息，則內容可以直接貼上到可用的文本框中。
 
 ![](assets/faq_inapp.png)
 
-## 可以將Campaign個人化欄位新增至自訂HTML嗎？ {#custom-html-inapp}
+## 是否可以將「市場活動個性化」欄位添加到「自定義HTML」？ {#custom-html-inapp}
 
-否，目前尚不支援此功能。
+不，尚不支援此操作。
 
-## 我已配置了警報消息，但該消息不會顯示在設備上。 {#alert-message}
+## 我已配置了警報消息，但該消息未顯示在設備上。 {#alert-message}
 
-對於警報訊息，至少需要一個關閉按鈕（主要或次要應具有關閉動作）。 否則，可以保存該消息，但不會收到該消息。
+對於警報消息，至少需要一個消除按鈕（主或次應具有消除操作）。 否則，可能會保存消息，但不會接收該消息。
 
-## 如果本機通知iOS自訂音效不會播放；預設音效會改為播放嗎？ {#local-notification-sound}
+## 如果本地通知不播放iOS自定義聲音；預設聲音會改為播放嗎？ {#local-notification-sound}
 
-若是iOS上的自訂音效，建立本機通知時（例如sound.caf），您必須提供副檔名為的檔案名稱。 如果未提供此擴充功能，則使用預設音效。
+對於iOS的自定義聲音，在建立本地通知（例如sound.caf）時，需要提供副檔名為的檔案名。 如果未提供此擴展，則使用預設聲音。
 
-## 應用程式內訊息是否支援深層連結？ {#inapp-deeplinks}
+## In-App消息中是否支援刪除？ {#inapp-deeplinks}
 
-是的，應用程式內訊息支援深層連結。 深層連結應包括：
+是，In-App消息中支援刪除。 相關連結應包括：
 
-* 說明必須停用傳送追蹤才能讓深層連結運作的語言。
-* 以Branch作為合作夥伴執行深層連結追蹤的Appsflyer。 如需分支和Adobe Campaign Standard整合的詳細資訊，請參閱 [頁面](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
+* 聲明需要禁用交付跟蹤以便讓開發人員工作的語言。
+* Appsflyer與Branch一起作為合作夥伴，可以執行部署跟蹤。 有關分支和Adobe Campaign Standard整合的詳細資訊，請參閱 [頁](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1)。
 
-## 使用者從推播通知啟動應用程式時，是否可觸發應用程式內訊息？ {#inapp-push-trigger}
+## 當用戶從推送通知啟動應用時，是否可以觸發In-App消息？ {#inapp-push-trigger}
 
-是的，這些消息也稱為菊花鏈消息。 請依照下列程式操作：
+是，這些消息也稱為菊花鏈消息。 按照以下過程操作：
 
-1. 建立應用程式內訊息。
+1. 建立應用內消息。
 
-1. 定義自定義事件，並將其選作此IAM的事件觸發器，例如「秋季預覽推播觸發」。
+1. 定義自定義事件並將其選作此IAM的事件觸發器，例如&quot;從秋季預覽推送觸發&quot;。
 
-1. 在編寫推送消息時，請定義一個自定義變數，其值可以設定為用於觸發IAM的事件，例如，鍵= &quot;inappkey&quot;，值= &quot;從秋季預覽推送觸發&quot;。
+1. 在創作Push消息時，定義一個自定義變數，其值可設定為用於觸發IAM的事件，例如Key = &quot;inappkey&quot;,value = &quot;Trigger from fall preview Push&quot;。
 
-1. 在行動應用程式程式碼中，實施事件觸發器，如下所示：
+1. 在移動應用代碼中，按如下方式實現事件觸發器：
 
    ![](assets/faq_inapp_2.png)

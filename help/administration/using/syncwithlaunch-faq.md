@@ -9,11 +9,11 @@ exl-id: aaaceb3a-5e54-47da-9be4-b70747282830
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
 source-wordcount: '497'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Adobe Experience Platform同步中的標籤常見問題 {#syncwithlaunch-faq}
+# Adobe Experience Platform 同步常見問答集中的標籤 {#syncwithlaunch-faq}
 
 您可以通過 **[!UICONTROL Sync with Launch]** 專用技術工作流。 有關詳細資訊，請參閱 [頁](../../administration/using/technical-workflows.md)
 

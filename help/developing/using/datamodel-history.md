@@ -10,7 +10,7 @@ exl-id: 7f2a3139-57eb-48ff-9b1a-ac2caad2f691
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '1206'
-ht-degree: 4%
+ht-degree: 11%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 4%
                   <th>名稱</th>
                   <th>標籤</th>
                   <th>類型（長度）</th>
-                  <th>枚舉值</th>
+                  <th>分項清單值</th>
                </tr>
                <tr>
                   <td>PKey</td>
@@ -40,49 +40,49 @@ ht-degree: 4%
                <tr>
                   <td>出生日期</td>
                   <td>出生日期</td>
-                  <td>日期 </td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>黑名單</td>
-                  <td>不再聯繫（通過任何渠道）</td>
-                  <td>布爾 </td>
+                  <td>不再聯繫 (透過任何管道)</td>
+                  <td>布林值 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>黑名單電子郵件</td>
-                  <td>不再通過電子郵件聯繫</td>
-                  <td>布爾 </td>
+                  <td>不再透過電子郵件聯絡</td>
+                  <td>布林值 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>黑名單傳真</td>
-                  <td>不再通過傳真聯繫</td>
-                  <td>布爾 </td>
+                  <td>不再透過傳真聯絡</td>
+                  <td>布林值 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>黑名單移動</td>
                   <td>不再通過SMS聯繫。</td>
-                  <td>布爾 </td>
+                  <td>布林值 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>黑名單電話</td>
-                  <td>不再通過電話聯繫</td>
-                  <td>布爾 </td>
+                  <td>不再透過電話聯絡</td>
+                  <td>布林值 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>黑名單郵件</td>
-                  <td>不再通過直郵聯繫</td>
-                  <td>布爾 </td>
+                  <td>不再透過直接郵件聯絡</td>
+                  <td>布林值 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>黑名單圖示通知</td>
                   <td>不再通過推送通知聯繫</td>
-                  <td>布爾 </td>
+                  <td>布林值 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -104,15 +104,15 @@ ht-degree: 4%
                   <td> </td>
                </tr>
                <tr>
-                  <td>國家ISOa2</td>
-                  <td>ISO A2代碼</td>
+                  <td>countryIsoA2</td>
+                  <td>ISO A2 代碼</td>
                   <td>字串(2)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>建立</td>
-                  <td>已建立</td>
-                  <td>日期 </td>
+                  <td>建立時間</td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
@@ -130,12 +130,12 @@ ht-degree: 4%
                <tr>
                   <td>cusLastTransactionDate</td>
                   <td>上次交易記錄日期</td>
-                  <td>日期 </td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>cusTransactions連結</td>
-                  <td>交易記錄</td>
+                  <td>交易數</td>
                   <td>集合 </td>
                   <td> </td>
                </tr>
@@ -179,19 +179,19 @@ ht-degree: 4%
                <tr>
                   <td>為外部</td>
                   <td>是外部資源</td>
-                  <td>布爾 </td>
+                  <td>布林值 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>kpis和圖表</td>
                   <td>金伯利圖</td>
-                  <td>物料 </td>
+                  <td>項目 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>上次修改時間</td>
                   <td>上次修改時間</td>
-                  <td>日期 </td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
@@ -203,7 +203,7 @@ ht-degree: 4%
                <tr>
                   <td>位置</td>
                   <td>位置</td>
-                  <td>物料 </td>
+                  <td>項目 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -215,13 +215,13 @@ ht-degree: 4%
                <tr>
                   <td>minBroadLogEvents</td>
                   <td>MinBroadLogEvents</td>
-                  <td>日期 </td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>minSubHisto事件</td>
                   <td>MinSubHisto事件</td>
-                  <td>日期 </td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
@@ -250,7 +250,7 @@ ht-degree: 4%
                </tr>
                <tr>
                   <td>stateLink（狀態）</td>
-                  <td>州</td>
+                  <td>狀態</td>
                   <td>連結 </td>
                   <td> </td>
                </tr>
@@ -392,7 +392,7 @@ ht-degree: 4%
                </tr>
             </table>
 
-## 篩選器
+## 篩選
 
 生日（生日）
 
@@ -403,7 +403,7 @@ ht-degree: 4%
 </tr>
 <tr>
 <td>包括開始</td>
-<td>布爾</td>
+<td>布林值</td>
 </tr>
 <tr>
 <td>previousUnitsValue</td>
@@ -415,7 +415,7 @@ ht-degree: 4%
 </tr>
 <tr>
 <td>結束日</td>
-<td>日期</td>
+<td>date</td>
 </tr>
 <tr>
 <td>精度</td>
@@ -427,7 +427,7 @@ ht-degree: 4%
 </tr>
 <tr>
 <td>月</td>
-<td>日期</td>
+<td>date</td>
 </tr>
 <tr>
 <td>算子</td>
@@ -435,11 +435,11 @@ ht-degree: 4%
 </tr>
 <tr>
 <td>包括結束</td>
-<td>布爾</td>
+<td>布林值</td>
 </tr>
 <tr>
 <td>月末</td>
-<td>日期</td>
+<td>date</td>
 </tr>
 <tr>
 <td>類型</td>
@@ -447,7 +447,7 @@ ht-degree: 4%
 </tr>
 <tr>
 <td>天</td>
-<td>日期</td>
+<td>date</td>
 </tr>
 </table>
 
@@ -511,7 +511,7 @@ ht-degree: 4%
 <th>類型</th>
 </tr>
 <tr>
-<td>配送</td>
+<td>傳遞</td>
 <td>連結</td>
 </tr>
 </table>
@@ -524,7 +524,7 @@ ht-degree: 4%
 <th>類型</th>
 </tr>
 <tr>
-<td>配送</td>
+<td>傳遞</td>
 <td>連結</td>
 </tr>
 </table>
@@ -550,7 +550,7 @@ ht-degree: 4%
 <th>類型</th>
 </tr>
 <tr>
-<td>配送</td>
+<td>傳遞</td>
 <td>連結</td>
 </tr>
 </table>

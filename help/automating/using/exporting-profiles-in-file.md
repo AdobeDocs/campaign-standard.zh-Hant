@@ -1,6 +1,6 @@
 ---
 title: 在外部檔案中匯出設定檔
-description: 此使用案例顯示如何以外部檔案的形式匯出設定檔清單，以便在Adobe Campaign外部使用資料。
+description: 此用例說明如何以外部檔案的形式導出配置檔案清單，以便在Adobe Campaign之外使用資料。
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
@@ -22,11 +22,11 @@ ht-degree: 68%
 
 此工作流程的目的是以外部檔案格式匯出設定檔清單，以便在 Adobe Campaign 外部使用資料。
 
-1. 拖放 [擷取檔案](../../automating/using/extract-file.md) 活動放入工作流程中，並將其置於 [查詢](../../automating/using/query.md) 活動。
+1. 拖放 [提取檔案](../../automating/using/extract-file.md) 將活動放入工作流中，並將其放在 [查詢](../../automating/using/query.md) 的子菜單。
 
    在此範例中，會對年齡介於 18 至 30 歲的所有設定檔執行查詢。
 
-1. 開啟 **[!UICONTROL Extract file]** 活動來編輯。
+1. 開啟 **[!UICONTROL Extract file]** 編輯。
 1. 為輸出檔案命名。
 1. 新增輸出欄。
 
@@ -45,7 +45,7 @@ ht-degree: 68%
       ![](assets/wkf_data_export9.png)
 
 1. 確認您的活動。
-1. 拖放 [傳輸檔案](../../automating/using/transfer-file.md) 活動之後 **[!UICONTROL Extract file]** 恢復外部帳戶上擷取檔案的活動。
+1. 拖放 [傳輸檔案](../../automating/using/transfer-file.md) 活動 **[!UICONTROL Extract file]** 活動，以恢復外部帳戶上的提取檔案。
 1. 開啟活動並選取 **[!UICONTROL File upload]** 動作。
 
    ![](assets/wkf_data_export11.png)

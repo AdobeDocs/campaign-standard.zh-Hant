@@ -1,6 +1,6 @@
 ---
 title: 投訴
-description: 透過現成可用的「投訴」報表，了解宣告為垃圾訊息的傳送時間。
+description: 通過「投訴」現成報告，瞭解將多少時間的傳遞聲明為垃圾郵件。
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -18,10 +18,10 @@ ht-degree: 2%
 
 # 投訴{#complaints}
 
-此 **[!UICONTROL Complaints]** 報表可識別收到最多宣告為垃圾訊息的傳送。
+的 **[!UICONTROL Complaints]** report將收到最多聲明的遞送標識為垃圾郵件。
 
 ![](assets/delivery_reports_complaints.png)
 
-此 **觸發器** 表格（依收件者網域排序）會顯示已宣告電子郵件或無用郵件的收件者人數。 圖表和摘要數字中也提供了表格的結果。
+的 **觸發** 按收件人域排序的表顯示已聲明電子郵件或垃圾郵件的收件人數。 該表的結果也以圖表和摘要數字顯示。
 
-此 **傳遞與拒絕清單** 表格列出已將電子郵件宣告為垃圾郵件或垃圾郵件的收件者人數。 表格會依傳送排序。
+的 **已交付與登錄** 表列出了已將電子郵件聲明為垃圾郵件或垃圾郵件的收件人數。 表按交貨排序。

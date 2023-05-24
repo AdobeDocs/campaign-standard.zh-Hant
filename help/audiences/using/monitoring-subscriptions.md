@@ -1,6 +1,6 @@
 ---
 title: 監控訂閱
-description: 了解如何使用控制面板和報表來追蹤訂閱者並評估服務的成功程度。
+description: 瞭解如何使用儀表板和報告跟蹤訂閱者並衡量服務的成功程度。
 audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
@@ -17,22 +17,22 @@ ht-degree: 1%
 
 # 監控訂閱{#monitoring-subscriptions}
 
-使用Adobe Campaign介面來追蹤您的訂閱者並測量服務的成功。
+使用Adobe Campaign介面跟蹤您的訂戶並衡量您服務的成功程度。
 
-您有數個選項可監控訂閱和取消訂閱：
+您有幾個用於監視訂閱和取消訂閱的選項：
 
-* 從服務控制面板檢視目前訂閱您服務的人員清單。 請參閱 [服務儀表板](#service-dashboard).
-* 請參閱以下的訂閱和取消訂閱的歷史記錄： **訂閱歷史記錄** 標籤。 請參閱 [訂閱歷史記錄](#subscription-history).
-* 顯示報告，詳細說明服務中訂閱和取消訂閱的演變 **報表**. 請參閱 [服務報表](#service-reports).
-* 查找用戶已從其訂閱的服務清單 **設定檔**. 請參閱 [連結至設定檔的事件記錄](#history-of-events-linked-to-a-profile).
+* 從服務儀表板查看當前訂閱服務的人員清單。 請參閱 [服務儀表板](#service-dashboard)。
+* 從中查閱訂閱和取消訂閱的歷史記錄 **訂閱歷史記錄** 頁籤。 請參閱 [訂閱歷史記錄](#subscription-history)。
+* 顯示詳細說明服務中訂閱和取消訂閱演變情況的報告 **報告**。 請參閱 [服務報告](#service-reports)。
+* 查找個人從其訂閱的服務清單 **配置檔案**。 請參閱 [連結到配置檔案的事件歷史記錄](#history-of-events-linked-to-a-profile)。
 
 ## 服務儀表板 {#service-dashboard}
 
-要查看訂閱服務的用戶清單，請執行以下操作：
+要查看訂閱服務的人員清單，請執行以下操作：
 
-1. 透過進階功能表前往服務清單 **設定檔與閱聽眾** > **服務**，可從Adobe Campaign標誌存取。
-1. 選取您選擇的服務，以顯示對應的控制面板。
-1. 訂閱服務的人員清單位於 **訂閱** 標籤。
+1. 通過高級菜單轉到服務清單 **簡介和觀眾** > **服務**&#x200B;可以從Adobe Campaign標識中訪問。
+1. 選擇所選服務以顯示相應的儀表板。
+1. 訂閱此服務的人員清單可在 **訂閱** 頁籤。
 
 ![](assets/lp_monitoring_subscriptions_1.png)
 
@@ -40,28 +40,28 @@ ht-degree: 1%
 
 要查閱訂閱和取消訂閱歷史記錄，請執行以下操作：
 
-1. 透過進階功能表前往服務清單 **設定檔與閱聽眾** > **服務**，可從Adobe Campaign標誌存取。
-1. 選取您選擇的服務，以顯示對應的控制面板。
-1. 選取 **訂閱歷史記錄** 標籤，以顯示每個人訂閱和取消訂閱的日期。
+1. 通過高級菜單轉到服務清單 **簡介和觀眾** > **服務**&#x200B;可以從Adobe Campaign標識中訪問。
+1. 選擇所選服務以顯示相應的儀表板。
+1. 選擇 **訂閱歷史記錄** 頁籤，顯示每個人訂閱和取消訂閱的日期。
 
 ![](assets/lp_monitoring_subscriptions_2.png)
 
-## 服務報表 {#service-reports}
+## 服務報告 {#service-reports}
 
-要顯示詳細說明訂閱和取消訂閱演化的報告：
+要顯示詳細說明訂閱和取消訂閱演變的報告，請執行以下操作：
 
-1. 透過進階功能表前往服務清單 **設定檔與閱聽眾** > **服務**，可從Adobe Campaign標誌存取。
-1. 選取您選擇的服務，以顯示對應的控制面板。
-1. 按一下 **報表** 按鈕，然後 **訂閱監控** 在選取畫面中。
+1. 通過高級菜單轉到服務清單 **簡介和觀眾** > **服務**&#x200B;可以從Adobe Campaign標識中訪問。
+1. 選擇所選服務以顯示相應的儀表板。
+1. 按一下 **報告** 按鈕 **訂閱監視** 的子菜單。
 
    ![](assets/lp_monitoring_subscriptions_3.png)
 
-1. 此 **服務摘要** 報表會顯示訂閱數量、訂閱的整體演變，以及顯示一段時間中進度的曲線。
+1. 的 **服務摘要** 報告顯示預訂數、預訂的總體演變以及顯示一段時間內的進度的曲線。
 
 ![](assets/lp_monitoring_subscriptions_4.png)
 
-## 連結至設定檔的事件記錄 {#history-of-events-linked-to-a-profile}
+## 連結到配置檔案的事件歷史記錄 {#history-of-events-linked-to-a-profile}
 
-若要查詢連絡人已訂閱的服務清單，您可以查閱其行銷記錄。 有關詳細資訊，請參閱 [整合式客戶設定檔](../../audiences/using/integrated-customer-profile.md) 區段。
+要查詢聯繫人已訂閱的服務清單，您可以查詢其市場營銷歷史記錄。 有關詳細資訊，請參閱 [整合的客戶配置檔案](../../audiences/using/integrated-customer-profile.md) 的子菜單。
 
 ![](assets/lp_monitoring_subscriptions_5.png)

@@ -11,7 +11,7 @@ exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
 source-wordcount: '790'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -36,7 +36,7 @@ P1在第一天開啟兩次電子郵件，然後在第二天開啟三次。
   <tr> 
    <th align="center"> <strong>Day</strong> <br /> </th> 
    <th align="center"> <strong>開啟的郵件</strong> <br /> </th> 
-   <th align="center"> <strong>唯一開啟</strong> <br /> </th> 
+   <th align="center"> <strong>不重複開啟次數</strong> <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -64,7 +64,7 @@ P1在第一天開啟兩次電子郵件，然後在第二天開啟三次。
   <tr> 
    <th align="center"> <strong></strong> <br /> </th> 
    <th align="center"> <strong>開啟的郵件</strong> <br /> </th> 
-   <th align="center"> <strong>唯一開啟</strong> <br /> </th> 
+   <th align="center"> <strong>不重複開啟次數</strong> <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -120,7 +120,7 @@ P1在第一天開啟兩次電子郵件，然後在第二天開啟三次。
    <th align="center"> <strong>已發送</strong> <br /> </th> 
    <th align="center"> <strong>已交付</strong> <br /> </th>
    <th align="center"> <strong>開啟的郵件</strong> <br /> </th> 
-   <th align="center"> <strong>唯一開啟</strong> <br /> </th>
+   <th align="center"> <strong>不重複開啟次數</strong> <br /> </th>
   </tr> 
  </thead> 
  <tbody> 

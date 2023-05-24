@@ -1,6 +1,6 @@
 ---
 title: 排序
-description: 進一步了解如何執行排序操作
+description: 瞭解如何執行排序操作
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -17,15 +17,15 @@ ht-degree: 11%
 
 # 排序
 
-排序可依遞增或遞減順序使用。 若要這麼做，請使用 **%20desc** 或 **%20asc** 參數。
+按升序或降序排序。 要執行此操作，請使用 **%20desc** 或 **%20asc** 參數。
 
-若要知道欄位是否可排序，請將「可排序」參數檢查至資源中繼資料。 如需詳細資訊，請參閱[本章節](../../api/using/metadata-mechanism.md)。
+要瞭解欄位是否可以排序，請將「可排序」參數檢查到資源元資料中。 如需詳細資訊，請參閱[本章節](../../api/using/metadata-mechanism.md)。
 
 <br/>
 
-***範例要求***
+***示例請求***
 
-* 以依字母順序擷取資料庫中電子郵件的範例GET請求。
+* 以按字母順序檢索資料庫中電子郵件的示例GET請求。
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email/email?_order=email \
@@ -35,7 +35,7 @@ ht-degree: 11%
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-   要求的回應。
+   響應請求。
 
    ```
    {
@@ -50,7 +50,7 @@ ht-degree: 11%
    }
    ```
 
-* 以英數字元遞減順序擷取資料庫中電子郵件的範例GET請求。
+* 以Alpha降序順序檢索資料庫中的電子郵件的示例GET請求。
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_order=email%20desc \
@@ -60,7 +60,7 @@ ht-degree: 11%
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-   要求的回應。
+   響應請求。
 
    ```
    {

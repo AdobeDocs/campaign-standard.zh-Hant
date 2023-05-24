@@ -96,7 +96,7 @@ Adobe Campaign 可立即提供技術工作流程。技術工作流程是排程�
   </tr>
   <tr> 
    <td> <span class="uicontrol">跟蹤日誌恢復</span> <br /> </td> 
-   <td> <span class="uicontrol">同步與啟動</span> <br /> </td> 
+   <td> <span class="uicontrol">SyncWithLaunch</span> <br /> </td> 
    <td> 此工作流將同步在Adobe Campaign Standard導入的標籤移動屬性。 每 15 分鐘開始一次。<br /> </td> 
   </tr>
   <tr> 

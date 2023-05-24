@@ -38,9 +38,9 @@ ht-degree: 88%
 
    >[!NOTE]
    >
-   >活動名稱及其ID都會顯示在介面中，但訊息收件者看不到。
+   >活動名稱及其ID都顯示在介面中，但郵件收件人看不到它們。
    >
-   >請確定ID欄位不含任何空白字元，以避免任何差異，例如在與Adobe Analytics整合時。
+   >確保ID欄位不包含任何空格以避免任何差異，例如與Adobe Analytics整合時。
 
 1. 定義要包含在擷取檔案中的對象，以及測試和補漏白設定檔。[定義直接郵件對象](../../channels/using/defining-the-direct-mail-audience.md).
 
@@ -60,7 +60,7 @@ ht-degree: 88%
 
 1. 如果您新增測試設定檔（請參閱[新增測試和補漏白設定檔](../../channels/using/defining-the-direct-mail-audience.md#adding-test-and-trap-profiles)），您可以在準備最終檔案之前先測試傳送。它可讓您建立僅包含所選測試設定檔的範例檔案。
 
-   按一下 **[!UICONTROL Test]** 以產生範例檔案。按一下 **[!UICONTROL Summary]**，在左上角，然後選取 **[!UICONTROL Proofs]**. 在畫面左側，選取校樣並按一下 **[!UICONTROL Download file]**。
+   按一下 **[!UICONTROL Test]** 以產生範例檔案。按一下 **[!UICONTROL Summary]**，然後選擇 **[!UICONTROL Proofs]**。 在畫面左側，選取校樣並按一下 **[!UICONTROL Download file]**。
 
    >[!NOTE]
    >
@@ -103,4 +103,4 @@ ht-degree: 88%
 * 透過一般電子郵件傳送，並附上檔案
 * 透過　Campaign　傳送：在促銷活動[工作流程](../../automating/using/direct-mail-delivery.md)中執行直接郵件，並新增　**[!UICONTROL Transfer file]**　以透過　FTP　傳送檔案。請參閱[傳輸檔案](../../automating/using/transfer-file.md)。
 
-提供者會擷取錯誤位址的清單，並將此資訊傳送至Adobe Campaign，以自動封鎖錯誤位址。 請參閱[返回至寄件者](../../channels/using/return-to-sender.md)。
+提供程式檢索錯誤地址清單，並將此資訊發送給Adobe Campaign，而後者會自動拒絕錯誤地址。 請參閱[返回至寄件者](../../channels/using/return-to-sender.md)。

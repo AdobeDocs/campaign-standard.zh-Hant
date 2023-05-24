@@ -1,6 +1,6 @@
 ---
 title: 關於 Campaign-Target 整合
-description: 透過Adobe Target整合，您可以將Adobe Target產生的動態影像插入您的Adobe Campaign訊息中。
+description: 通過Adobe Target整合，您可以將Adobe Target生成的動態影像插入到您的Adobe Campaign消息中。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
@@ -17,14 +17,14 @@ ht-degree: 3%
 
 # 關於 Campaign-Target 整合{#about-campaign-target-integration}
 
-Adobe Campaign與Adobe Target（Classic和Standard版）在Adobe Experience Cloud中的整合可讓您將來自Adobe Target的動態影像插入Adobe Campaign電子郵件傳遞中。
+Adobe Campaign與Adobe Target（經典和標準）在Adobe Experience Cloud的整合使您能夠將Adobe Target的動態映像插入Adobe Campaign電子郵件中。
 
-此整合可讓收件者接收透過Adobe Campaign傳送的電子郵件，包括Adobe Target所提供內容的動態版本。 此動態版本的計算方式取決於建立電子郵件時預先指定的規則。
+這種整合使收件人能夠接收通過Adobe Campaign發送的電子郵件，包括由Adobe Target提供的內容的動態版本。 根據建立電子郵件時預先指定的規則計算此動態版本。
 
-Adobe Target可使用數種資料：
+Adobe Target可以使用以下幾種類型的資料：
 
-* 來自Adobe Campaign資料庫的資料
-* 連結至Adobe Target中訪客ID的區段（如果使用的資料不受法律限制）
-* Adobe Target資料：使用者代理， IP位址，地理本地化資料
+* Adobe Campaign資料
+* 連結到Adobe Target訪問者ID的段（如果使用的資料不受法律限制）
+* Adobe Target資料：用戶代理、 IP地址、地理定位資料
 
-如需Adobe Campaign與Adobe Target整合的詳細資訊，您也可以參閱 [Adobe Target入口網站](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html).
+有關Adobe Campaign和Adobe Target之間整合的詳細資訊，您還可以參閱 [Adobe Target門戶](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html)。

@@ -1,6 +1,6 @@
 ---
 title: 新增元件
-description: 將元件拖放至自由表格，以開始篩選資料和建立報表。
+description: 將元件拖放到自由格式表中，以開始篩選資料並生成報表。
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
@@ -17,37 +17,37 @@ ht-degree: 4%
 
 # 新增元件{#adding-components}
 
-元件可協助您使用不同的維度、量度和時段來自訂報表。
+元件可幫助您使用不同的維度、度量和時段自定義報表。
 
-1. 按一下 **[!UICONTROL Components]** 標籤來存取元件清單。
+1. 按一下 **[!UICONTROL Components]** 頁籤。
 
    ![](assets/dynamic_report_components.png)
 
-1. 在 **[!UICONTROL Components]** 索引標籤會顯示五個最常使用的項目，按一下類別名稱以存取其完整元件清單。
+1. 在 **[!UICONTROL Components]** 頁籤顯示五個最常用的項，按一下類別名稱以訪問其元件的完整清單。
 
    元件表分為四類：
 
-   * **Dimension**:從傳送記錄（例如收件者的瀏覽器或網域）取得詳細資訊，或是傳送成功。
-   * **量度**:取得訊息狀態的詳細資訊。 例如，如果已傳送訊息，且使用者已開啟該訊息。
-   * **[!UICONTROL Segments]**:根據收件者的年齡範圍篩選資料。 **[!UICONTROL Segments]** 可直接拖放至自由表格或面板頂端列中。
+   * **Dimension**:從遞送日誌（如收件人的瀏覽器或域）獲取詳細資訊，或者遞送成功。
+   * **度量**:獲取有關消息狀態的詳細資訊。 例如，如果已傳遞消息，並且用戶已將其開啟。
+   * **[!UICONTROL Segments]**:根據收件人的年齡範圍篩選資料。 **[!UICONTROL Segments]** 可以直接在自由形式表中或面板的頂欄中拖放。
 
-      只有在管理員核准了將顯示在畫面上的動態報告使用協定的條款與條件後，才能使用此類別。 如果管理員拒絕合約，區段將不會顯示在 **[!UICONTROL Components]** 標籤和資料將不會收集。
+      只有在管理員批准了螢幕上顯示的動態報告使用協定的條款和條件後，此類別才可用。 如果管理員拒絕協定，則在中將不顯示這些段 **[!UICONTROL Components]** 頁籤和資料將不收集。
 
-   * **時間**:為表格設定時段。
+   * **時間**:為表設定時間段。
 
-1. 將元件拖放至面板中，以開始篩選資料。
+1. 拖放面板中的元件以開始篩選資料。
 
    ![](assets/dynamic_report_components_2.png)
 
-1. 拖放元件後，您可以使用 **[!UICONTROL Row settings]** 選項。
+1. 拖放元件後，可以使用 **[!UICONTROL Row settings]** 的雙曲餘切值。
 
    ![](assets/dynamic_report_components_3.png)
 
-1. 您也可以按一下 **搜尋** 表徵圖。 透過此搜尋，您可以尋找特定結果，例如特定傳送或瀏覽器。
+1. 還可以通過按一下 **搜索** 表徵圖 通過此搜索，您可以查找特定結果，例如特定的傳遞或瀏覽器。
 
    ![](assets/dynamic_report_components_4.png)
 
-您可以視需要拖放任意數量的元件，並相互比較。
+您可以根據需要拖放任意多個元件，並將它們相互比較。
 
 **相關主題：**
 

@@ -1,6 +1,6 @@
 ---
 title: 透過 API 觸發資料引入
-description: 了解如何透過API觸發資料擷取。
+description: 瞭解如何通過API觸發資料接收。
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
@@ -19,40 +19,40 @@ ht-degree: 6%
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform Data Connector目前為測試版，可能會經常更新，恕不另行通知。 客戶必須在Azure上托管（目前測試版僅供北美使用），才能存取這些功能。 如果您想要存取權限，請聯絡Adobe客戶服務。
+>Adobe Experience Platform資料連接器目前處於測試版，可能需要頻繁更新，恕不另行通知。 客戶需要在Azure上托管（目前僅在北美試用版）才能訪問這些功能。 如果您想訪問，請聯繫Adobe客戶服務。
 
-Adobe Campaign Standard可讓您透過API觸發立即擷取資料對應，並擷取擷取請求的狀態。
+Adobe Campaign Standard允許您通過API觸發資料映射的即時接收，並檢索接收請求的狀態。
 
-本頁面說明如何觸發和擷取資料對應的擷取狀態。 如需Campaign StandardAPI的全域資訊，請參閱 [本節](../../api/using/get-started-apis.md).
+此頁介紹如何觸發和檢索資料映射的接收狀態。 有關Campaign StandardAPI的全局資訊，請參閱 [此部分](../../api/using/get-started-apis.md)。
 
-## 先決條件 {#prerequisites}
+## 必要條件 {#prerequisites}
 
-使用API之前，必須先在Campaign Standard介面中設定並發佈資料對應。 如需詳細資訊，請參閱下列區段。
+在使用API之前，必須先在Campaign Standard介面中配置和發佈資料映射。 如需詳細資訊，請參閱下列區段。
 
 * [對應定義](../../integrating/using/aep-mapping-definition.md)
 * [對應啟動](../../integrating/using/aep-mapping-activation.md)
 
-建立資料對應後，您必須停止該資料對應的執行，以便隨時從API觸發。 要執行此操作，請依照下列步驟執行：
+建立資料映射後，必須停止其運行，以便您可以隨時從API觸發它。 要執行此操作，請依照下列步驟執行：
 
-1. 在Campaign Standard中，前往 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** 功能表。
+1. 在Campaign Standard中，轉到 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** 的子菜單。
 
-1. 連按兩下資料對應以開啟，然後按一下 **[!UICONTROL Stop]** 按鈕。
+1. 按兩下資料映射以將其開啟，然後按一下 **[!UICONTROL Stop]** 按鈕
 
    ![](assets/aep_datamapping_stop.png)
 
-1. 儲存您的變更
+1. 保存更改
 
-資料對應執行現已停止。 您可以使用Campaign StandardAPI來手動觸發。
+資料映射執行現在已停止。 可以使用Campaign StandardAPI手動觸發它。
 
-## 開始立即擷取資料對應 {#starting-immediate-ingestion}
+## 開始立即接收資料映射 {#starting-immediate-ingestion}
 
-系統會透過POST操作觸發立即擷取XDM對應至Adobe Experience Platform:
+立即接收映射到Adobe Experience Platform的XDM時，會觸發POST操作：
 
 `POST https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM Mapping ID>/ingest`
 
 >[!NOTE]
 >
->若要執行內嵌POSTAPI呼叫，使用者必須具備 **SQL函式執行** 角色，可由Campaign Standard管理員透過執行下列JS指令碼來提供：
+>要執行接收POSTAPI調用，用戶必須具有 **SQL函式執行** 角色，該角色可由Campaign Standard管理員通過執行以下JS指令碼提供：
 >
 >
 ```
@@ -62,7 +62,7 @@ Adobe Campaign Standard可讓您透過API觸發立即擷取資料對應，並擷
 
 POST操作返回有關已建立請求狀態的資訊：
 
-* 已成功提交XDM對應的請求：
+* 已成功提交XDM映射的請求：
 
 ```
 {
@@ -72,7 +72,7 @@ POST操作返回有關已建立請求狀態的資訊：
 }
 ```
 
-* XDM對應的請求已在進行中：
+* XDM映射的請求已在進行中：
 
 ```
 {
@@ -82,7 +82,7 @@ POST操作返回有關已建立請求狀態的資訊：
 }
 ```
 
-* 請求失敗，因為XDM對應未發佈或已停止：
+* 請求失敗，因為XDM映射未發佈或已停止：
 
 ```
 {
@@ -95,9 +95,9 @@ POST操作返回有關已建立請求狀態的資訊：
 }
 ```
 
-## 擷取擷取請求的狀態 {#retrieving-status}
+## 正在檢索攝取請求的狀態 {#retrieving-status}
 
-擷取請求的狀態可透過GET操作和參數中所需的請求ID來擷取：
+可以通過GET操作和參數中的所需請求ID來檢索接收請求的狀態：
 
 ```
 GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM Mapping ID>/ingest
@@ -106,18 +106,18 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 
 >[!NOTE]
 >
->有關XDM對應請求狀態及其相關作業的詳細資訊，請參閱Campaign Standard介面中的 **[!UICONTROL Status of data export to platform]** 功能表(請參閱 [映射激活](../../integrating/using/aep-mapping-activation.md))。
+>有關XDM映射請求狀態及其相關作業的詳細資訊，請參閱的Campaign Standard介面 **[!UICONTROL Status of data export to platform]** 菜單（請參見） [映射激活](../../integrating/using/aep-mapping-activation.md))。
 
 GET操作返回以下資訊：
 
-* **batchId**:只有在批次準備和上傳後發生失敗時，才會填入此欄位，
-* **資訊**:XDM對應ID,
-* **numRecords**:已擷取的記錄數（僅限成功狀態）,
-* **狀態**:擷取請求狀態（成功/失敗/進行中）
+* **批ID**:僅當批處理準備和上載後失敗時才填充此欄位，
+* **資訊**:XDM映射ID,
+* **數記錄**:已接收的記錄數（僅限於成功狀態）,
+* **狀態**:接收請求狀態（成功/失敗/正在進行）
 
-對GET操作的可能響應為：
+可能對GET操作的響應是：
 
-* 成功擷取請求：
+* 接收請求成功：
 
    ```
    {
@@ -129,7 +129,7 @@ GET操作返回以下資訊：
    }
    ```
 
-* 內嵌請求失敗，內嵌0個記錄：
+* 接收請求失敗，接收0個記錄：
 
    ```
    {
@@ -141,7 +141,7 @@ GET操作返回以下資訊：
    }
    ```
 
-* 內嵌請求失敗，部分記錄在批次下上載：
+* 接收請求失敗，某些記錄在批下上載：
 
    ```
    {
@@ -153,7 +153,7 @@ GET操作返回以下資訊：
    }
    ```
 
-* 擷取某些記錄後擷取請求已中止（可能會在當機情況下發生）:
+* 在接收某些記錄後，接收請求中止（在崩潰情形中可能會發生這種情況）:
 
    ```
    {
@@ -165,7 +165,7 @@ GET操作返回以下資訊：
    }
    ```
 
-* 正在內嵌請求（當請求以批次上傳資料，或正在為請求準備批次時）:
+* 正在接收請求（當請求在批中上載資料或正在為請求準備批時）:
 
    ```
    {

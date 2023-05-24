@@ -10,7 +10,7 @@ exl-id: aea3e72d-8e89-46c7-a796-bf856414c654
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '688'
-ht-degree: 13%
+ht-degree: 30%
 
 ---
 
@@ -23,12 +23,12 @@ ht-degree: 13%
                   <th>名稱</th>
                   <th>標籤</th>
                   <th>類型（長度）</th>
-                  <th>枚舉值</th>
+                  <th>分項清單值</th>
                </tr>
                <tr>
                   <td>FCP</td>
                   <td>證明</td>
-                  <td>布爾 </td>
+                  <td>布林值 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -40,19 +40,19 @@ ht-degree: 13%
                <tr>
                   <td>測試</td>
                   <td>A/B 測試</td>
-                  <td>物料 </td>
+                  <td>項目 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>先進</td>
                   <td>高級交付</td>
-                  <td>布爾 </td>
+                  <td>布林值 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>高級參數</td>
                   <td>高級參數</td>
-                  <td>物料 </td>
+                  <td>項目 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -75,7 +75,7 @@ ht-degree: 13%
                </tr>
                <tr>
                   <td>附件</td>
-                  <td>附加檔案</td>
+                  <td>附加的檔案</td>
                   <td>集合 </td>
                   <td> </td>
                </tr>
@@ -87,14 +87,14 @@ ht-degree: 13%
                </tr>
                <tr>
                   <td>broadLogs</td>
-                  <td>傳送記錄檔</td>
+                  <td>傳遞記錄</td>
                   <td>集合 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>內置</td>
-                  <td>內置應用程式對象</td>
-                  <td>布爾 </td>
+                  <td>內建應用程式內物件</td>
+                  <td>布林值 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -112,13 +112,13 @@ ht-degree: 13%
                <tr>
                   <td>命令</td>
                   <td>命令</td>
-                  <td>物料 </td>
+                  <td>項目 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>內容</td>
                   <td>內容</td>
-                  <td>物料 </td>
+                  <td>項目 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -141,8 +141,8 @@ ht-degree: 13%
                </tr>
                <tr>
                   <td>建立</td>
-                  <td>已建立</td>
-                  <td>日期 </td>
+                  <td>建立時間</td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
@@ -180,7 +180,7 @@ ht-degree: 13%
                <tr>
                   <td>電子郵件預覽</td>
                   <td>電子郵件預覽</td>
-                  <td>物料 </td>
+                  <td>項目 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -197,8 +197,8 @@ ht-degree: 13%
                </tr>
                <tr>
                   <td>執行</td>
-                  <td>交貨執行參數</td>
-                  <td>物料 </td>
+                  <td>傳遞執行參數</td>
+                  <td>項目 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -228,8 +228,8 @@ ht-degree: 13%
                </tr>
                <tr>
                   <td>有附件</td>
-                  <td>添加附加檔案</td>
-                  <td>布爾 </td>
+                  <td>新增附加的檔案</td>
+                  <td>布林值 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -256,19 +256,19 @@ ht-degree: 13%
                <tr>
                   <td>為外部</td>
                   <td>是外部資源</td>
-                  <td>布爾 </td>
+                  <td>布林值 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>為主</td>
                   <td>母版</td>
-                  <td>布爾 </td>
+                  <td>布林值 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>是模板</td>
                   <td>範本</td>
-                  <td>布爾 </td>
+                  <td>布林值 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -279,20 +279,20 @@ ht-degree: 13%
                </tr>
                <tr>
                   <td>工作</td>
-                  <td>作業</td>
+                  <td>工作</td>
                   <td>集合 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>作業日誌</td>
-                  <td>日誌</td>
+                  <td>記錄</td>
                   <td>集合 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>核</td>
                   <td>指標</td>
-                  <td>物料 </td>
+                  <td>項目 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -304,7 +304,7 @@ ht-degree: 13%
                <tr>
                   <td>上次修改時間</td>
                   <td>上次修改時間</td>
-                  <td>日期 </td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
@@ -324,14 +324,14 @@ ht-degree: 13%
                </tr>
                <tr>
                   <td>mailParameters</td>
-                  <td>電子郵件標題參數</td>
-                  <td>物料 </td>
+                  <td>電子郵件標頭參數</td>
+                  <td>項目 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>mainDate</td>
                   <td>日期</td>
-                  <td>日期 </td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
@@ -349,7 +349,7 @@ ht-degree: 13%
                <tr>
                   <td>主KPIS</td>
                   <td>主指標</td>
-                  <td>物料 </td>
+                  <td>項目 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -384,7 +384,7 @@ ht-degree: 13%
                <tr>
                   <td>優惠管理</td>
                   <td>服務管理</td>
-                  <td>物料 </td>
+                  <td>項目 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -395,13 +395,13 @@ ht-degree: 13%
                </tr>
                <tr>
                   <td>父級(deliveryBase)</td>
-                  <td>父交貨</td>
+                  <td>父系傳遞</td>
                   <td>連結 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>優先順序</td>
-                  <td>交付優先順序</td>
+                  <td>傳遞優先順序</td>
                   <td>枚舉（位元組） </td>
                   <td>
                      <ul>
@@ -419,26 +419,26 @@ ht-degree: 13%
                </tr>
                <tr>
                   <td>證明</td>
-                  <td>校樣</td>
+                  <td>證明</td>
                   <td>集合 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>pushNotification預覽</td>
                   <td>推送通知預覽</td>
-                  <td>物料 </td>
+                  <td>項目 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>pushnotification參數</td>
                   <td>PushNotification參數</td>
-                  <td>物料 </td>
+                  <td>項目 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>即時報告</td>
                   <td>即時報告</td>
-                  <td>物料 </td>
+                  <td>項目 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -455,26 +455,26 @@ ht-degree: 13%
                </tr>
                <tr>
                   <td>場景</td>
-                  <td>交貨模板參數</td>
-                  <td>物料 </td>
+                  <td>傳遞範本參數</td>
+                  <td>項目 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>調度</td>
-                  <td>交貨計畫</td>
-                  <td>物料 </td>
+                  <td>傳遞排程</td>
+                  <td>項目 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>sms參數</td>
                   <td>簡訊參數</td>
-                  <td>物料 </td>
+                  <td>項目 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>sms預覽</td>
                   <td>SMS預覽</td>
-                  <td>物料 </td>
+                  <td>項目 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -496,7 +496,7 @@ ht-degree: 13%
                         <li>已完成 — 已完成 — 95</li>
                         <li>正在盤點 — targetSelection - 12</li>
                         <li>消息已定版 — 消息就緒 — 25</li>
-                        <li>Personalization或計數失敗 — preparationError - 37</li>
+                        <li>個性化或計數失敗 — preparationError - 37</li>
                         <li>已停止 — 已取消 — 85</li>
                         <li>正在個性化 — 消息準備 — 22</li>
                         <li>目標就緒 — 目標就緒 — 15</li>
@@ -507,13 +507,13 @@ ht-degree: 13%
                </tr>
                <tr>
                   <td>目標</td>
-                  <td>交付目標人口</td>
-                  <td>物料 </td>
+                  <td>傳遞目標母體</td>
+                  <td>項目 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>模板(deliveryTemplateSummary)</td>
-                  <td>交貨模板</td>
+                  <td>傳遞範本</td>
                   <td>連結 </td>
                   <td> </td>
                </tr>
@@ -530,32 +530,32 @@ ht-degree: 13%
                   <td> </td>
                </tr>
                <tr>
-                  <td>跟蹤</td>
+                  <td>追蹤</td>
                   <td>追蹤參數</td>
-                  <td>物料 </td>
+                  <td>項目 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>跟蹤日誌</td>
-                  <td>跟蹤日誌</td>
+                  <td>追蹤記錄</td>
                   <td>集合 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>跟蹤URL</td>
-                  <td>跟蹤的URL</td>
+                  <td>被追蹤的 URL</td>
                   <td>集合 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>觸發器消息</td>
-                  <td>事務性消息的參數</td>
-                  <td>物料 </td>
+                  <td>異動訊息的參數</td>
+                  <td>項目 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>類型學（類型學基礎）</td>
-                  <td>類型學</td>
+                  <td>類型</td>
                   <td>連結 </td>
                   <td> </td>
                </tr>
@@ -582,7 +582,7 @@ ht-degree: 13%
                </tr>
             </table>
 
-## 篩選器
+## 篩選
 
 按通道類型（按通道）
 
@@ -662,7 +662,7 @@ ht-degree: 13%
     </tr>
     <tr>
     <td>開始日期</td>
-    <td>日期</td>
+    <td>date</td>
     </tr>
     <tr>
     <td>時段</td>
@@ -705,7 +705,7 @@ ht-degree: 13%
     </tr>
     <tr>
     <td>跟蹤</td>
-    <td>布爾</td>
+    <td>布林值</td>
     </tr>
 </table>
 
@@ -718,7 +718,7 @@ ht-degree: 13%
     </tr>
     <tr>
     <td>先進</td>
-    <td>布爾</td>
+    <td>布林值</td>
     </tr>
 </table>
 
@@ -731,7 +731,7 @@ ht-degree: 13%
     </tr>
     <tr>
     <td>與連續</td>
-    <td>布爾</td>
+    <td>布林值</td>
     </tr>
 </table>
 
@@ -744,7 +744,7 @@ ht-degree: 13%
     </tr>
     <tr>
     <td>使用FCP</td>
-    <td>布爾</td>
+    <td>布林值</td>
     </tr>
 </table>
 
@@ -757,11 +757,11 @@ ht-degree: 13%
     </tr>
     <tr>
     <td>開始日期</td>
-    <td>日期</td>
+    <td>date</td>
     </tr>
     <tr>
     <td>結束日期</td>
-    <td>日期</td>
+    <td>date</td>
     </tr>
 </table>
 
@@ -774,11 +774,11 @@ ht-degree: 13%
     </tr>
     <tr>
     <td>開始日期</td>
-    <td>日期</td>
+    <td>date</td>
     </tr>
     <tr>
     <td>結束日期</td>
-    <td>日期</td>
+    <td>date</td>
     </tr>
 </table>
 
@@ -791,6 +791,6 @@ ht-degree: 13%
     </tr>
     <tr>
     <td>肥</td>
-    <td>布爾</td>
+    <td>布林值</td>
     </tr>
 </table>

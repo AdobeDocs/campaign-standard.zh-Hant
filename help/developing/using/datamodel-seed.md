@@ -10,7 +10,7 @@ exl-id: 9b522c84-e296-47c7-9588-2e5ed08ab631
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '173'
-ht-degree: 26%
+ht-degree: 47%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 26%
                   <th>名稱</th>
                   <th>標籤</th>
                   <th>類型（長度）</th>
-                  <th>枚舉值</th>
+                  <th>分項清單值</th>
                </tr>
                <tr>
                   <td>PKey</td>
@@ -39,8 +39,8 @@ ht-degree: 26%
                </tr>
                <tr>
                   <td>建立</td>
-                  <td>已建立</td>
-                  <td>日期 </td>
+                  <td>建立時間</td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
@@ -64,7 +64,7 @@ ht-degree: 26%
                <tr>
                   <td>電子郵件呈現</td>
                   <td>電子郵件轉譯</td>
-                  <td>布爾 </td>
+                  <td>布林值 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -82,19 +82,19 @@ ht-degree: 26%
                <tr>
                   <td>為外部</td>
                   <td>是外部資源</td>
-                  <td>布爾 </td>
+                  <td>布林值 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>上次修改時間</td>
                   <td>上次修改時間</td>
-                  <td>日期 </td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>位置</td>
                   <td>位置</td>
-                  <td>物料 </td>
+                  <td>項目 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -105,8 +105,8 @@ ht-degree: 26%
                </tr>
                <tr>
                   <td>移動應用</td>
-                  <td>移動應用</td>
-                  <td>物料 </td>
+                  <td>行動應用程式</td>
+                  <td>項目 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -130,13 +130,13 @@ ht-degree: 26%
                <tr>
                   <td>nms_recipient</td>
                   <td>設定檔</td>
-                  <td>物料 </td>
+                  <td>項目 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>nms_rtEvent</td>
                   <td>Event</td>
-                  <td>物料 </td>
+                  <td>項目 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -154,7 +154,7 @@ ht-degree: 26%
                <tr>
                   <td>證明</td>
                   <td>證明</td>
-                  <td>布爾 </td>
+                  <td>布林值 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -171,8 +171,8 @@ ht-degree: 26%
                </tr>
                <tr>
                   <td>示例資料</td>
-                  <td>示例資料</td>
-                  <td>布爾 </td>
+                  <td>樣本資料</td>
+                  <td>布林值 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -183,13 +183,13 @@ ht-degree: 26%
                </tr>
                <tr>
                   <td>stateLink（狀態）</td>
-                  <td>州</td>
+                  <td>狀態</td>
                   <td>連結 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>目標資料</td>
-                  <td>擴展</td>
+                  <td>擴充功能</td>
                   <td>字串 </td>
                   <td> </td>
                </tr>
@@ -208,12 +208,12 @@ ht-degree: 26%
                <tr>
                   <td>陷阱</td>
                   <td>補漏白</td>
-                  <td>布爾 </td>
+                  <td>布林值 </td>
                   <td> </td>
                </tr>
             </table>
 
-## 篩選器
+## 篩選
 
 按事件類型（按EventType）
 
@@ -250,15 +250,15 @@ ht-degree: 26%
         </tr>
         <tr>
         <td>陷阱</td>
-        <td>布爾</td>
+        <td>布林值</td>
         </tr>
         <tr>
         <td>電子郵件呈現</td>
-        <td>布爾</td>
+        <td>布林值</td>
         </tr>
         <tr>
         <td>證明</td>
-        <td>布爾</td>
+        <td>布林值</td>
         </tr>
     </table>
 

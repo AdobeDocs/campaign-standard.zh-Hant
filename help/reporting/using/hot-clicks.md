@@ -1,6 +1,6 @@
 ---
 title: 熱點點擊
-description: 透過立即可用的熱門點按報表，了解客戶在何處點按您的傳遞內容。
+description: 通過「熱點按一下開箱即用」報告，瞭解客戶在交貨中的點擊位置。
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -18,61 +18,61 @@ ht-degree: 0%
 
 # 熱點點擊{#hot-clicks}
 
-此報告可從 **[!UICONTROL Reports]** 按鈕（在每個傳送或交易式訊息中）。
+可以從 **[!UICONTROL Reports]** 按鈕。
 
 ![](assets/delivery_reports_hot-clicks_4.png)
 
-它會以每個連結的點按百分比呈現訊息內容(HTML和/或文字)。
+它以每個連結上的點擊百分比顯示消息內容(HTML和/或文本)。
 
 ![](assets/delivery_reports_10.png)
 
-如果您為傳送建立了動態內容，則可檢視您定義之每個條件的百分比。 如需在傳送中插入條件式內容的詳細資訊，請參閱 [定義動態內容](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
+如果您為交付建立了動態內容，則可以查看您定義的每個條件的百分比。 有關在傳遞中插入條件內容的詳細資訊，請參見 [定義動態內容](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)。
 
-例如，假設您建立了具有下列條件的傳送：
+例如，假設您建立了具有以下條件的交貨：
 
-* 如果收件者是男性或女性，則主影像上的連結會不同。
-* 您也新增了特殊優惠方案的連結，該連結只會顯示給25歲以上的收件者。
+* 如果接受者是男性或女性，則主影像上的連結會有所不同。
+* 您還添加了一個特惠連結，該特惠僅對25歲以上的收件人可見。
 
-傳送訊息後，請選取 **[!UICONTROL Reports]** > **[!UICONTROL Hot clicks]** 從傳送控制面板。
+發送消息後，選擇 **[!UICONTROL Reports]** > **[!UICONTROL Hot clicks]** 從交貨儀表板。
 
-預設情況下，不選取任何設定檔。 只有性別未知的收件者，以及年齡未滿25歲或未知的收件者，才會顯示點按。
+預設情況下，未選擇任何配置檔案。 只顯示性別未知的接收者和年齡未知的25歲以下接收者的按一下。
 
 ![](assets/delivery_reports_hot-clicks_1.png)
 
-若要顯示女性的點按，請按一下 **[!UICONTROL Change profile]** 按鈕，然後選取女性測試設定檔。 若要顯示男性的點按次數，請以類似方式繼續，並選取男性測試設定檔。
+要顯示女性的點擊量，請按一下 **[!UICONTROL Change profile]** 按鈕，選擇母test配置檔案。 要顯示男性的點擊量，請按類似方式繼續並選擇男性test配置檔案。
 
 ![](assets/delivery_reports_hot-clicks_2.png)
 
-若要顯示25歲以上收件者的點按次數，請按一下 **[!UICONTROL Change profile]** 按鈕，並選擇其出生日期與此條件匹配的測試配置檔案。
+要顯示25歲以上的收件人的按一下，請按一下 **[!UICONTROL Change profile]** 按鈕，然後選擇出生日期與此條件匹配的test配置檔案。
 
-如需測試設定檔的詳細資訊，請參閱 [關於測試設定檔](../../audiences/using/managing-test-profiles.md).
-
->[!NOTE]
->
->特定連結的點按次數是傳遞中所有條件內容點按總次數的百分比。 因此，如果您定義動態內容，特定測試設定檔所顯示的百分比總數可能不等於100。
-
-同樣地，對於循環傳送和交易式訊息，您可以選取與您要顯示的動態內容相對應的測試設定檔，但您也可以根據選取的執行傳送檢視點按百分比。
-
-執行傳送是在下列情況下建立的不可操作且無法運作的技術訊息：
-
-* 每次執行或更新循環傳送時。
-
-   例如，如果管理此傳送的工作流程每月執行一次，則每月將執行一次傳送。 此外，每次更新傳送內容時，都會建立額外的執行傳送。
-
-   如需循環電子郵件傳送的詳細資訊，請參閱 [電子郵件傳送](../../automating/using/email-delivery.md).
-
-* 預設情況下，交易式訊息每月一次，且每次編輯和發佈交易式訊息時皆是如此。
-
-   如需交易式訊息的詳細資訊，請參閱 [異動訊息快速入門](../../channels/using/getting-started-with-transactional-msg.md).
+有關test配置檔案的詳細資訊，請參閱 [關於test配置檔案](../../audiences/using/managing-test-profiles.md)。
 
 >[!NOTE]
 >
->由於追蹤的URL ID對於每個執行都不同，因此無法針對指定訊息的所有執行傳送匯總熱門點按資料。 一次只能針對一個執行傳送顯示。
+>特定連結上的按一下次數是傳遞中所有條件內容的總按一下次數的百分比。 因此，如果定義了動態內容，則為特定test配置檔案顯示的百分比總數可能不等於100。
 
-傳送訊息後，請選取 **[!UICONTROL Reports]** > **[!UICONTROL Hot clicks]** 從傳送控制面板。
+同樣，對於循環交貨和事務性消息，您可以選擇與要顯示的動態內容對應的test配置檔案，但您也可以根據所選執行交貨查看按一下的百分比。
 
-依預設，會選取上次執行傳送。 按一下 **[!UICONTROL Change execution delivery]** 按鈕，以選擇其他選項。
+執行傳遞是在以下情況下建立的不可操作且無功能的技術消息：
+
+* 每次執行或更新循環交貨時。
+
+   例如，如果每月執行一次管理此交貨的工作流，則每月將執行一次交貨。 此外，每次更新遞送的內容時，都會建立附加的執行遞送。
+
+   有關定期電子郵件遞送的詳細資訊，請參閱 [電子郵件傳遞](../../automating/using/email-delivery.md)。
+
+* 預設情況下，事務性消息每月一次，每次編輯並再次發佈事務性消息時都是如此。
+
+   有關事務性消息的詳細資訊，請參見 [事務性消息服務入門](../../channels/using/getting-started-with-transactional-msg.md)。
+
+>[!NOTE]
+>
+>由於跟蹤的URL的ID對於每個執行都不同，因此不能針對給定消息的所有執行傳遞聚合熱點擊資料。 一次只能顯示一個執行傳遞。
+
+發送消息後，選擇 **[!UICONTROL Reports]** > **[!UICONTROL Hot clicks]** 從交貨儀表板。
+
+預設情況下，將選擇最後一個執行傳遞。 按一下 **[!UICONTROL Change execution delivery]** 按鈕。
 
 ![](assets/delivery_reports_hot-clicks_3.png)
 
-系統只會顯示所選傳送執行的點按百分比。
+只顯示所選交貨執行的按一下百分比。

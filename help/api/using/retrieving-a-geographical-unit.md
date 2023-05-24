@@ -1,6 +1,6 @@
 ---
 title: 擷取設定檔的地理單位
-description: 了解如何使用API擷取設定檔的地理單位。
+description: 瞭解如何使用API檢索配置檔案的地理單元。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -17,14 +17,14 @@ ht-degree: 12%
 
 # 擷取設定檔的地理單位 {#retrieving-geographical-unit}
 
-1. 對配置檔案PKey執行GET請求以檢索 **geoUnit** URL。
-1. 在URL上執行GET要求，以擷取地理單位的詳細資訊。
+1. 對配置檔案PKey執行GET請求以檢索 **地理單位** URL。
+1. 對URL執行GET請求以檢索有關地理單元的詳細資訊。
 
 <br/>
 
-***範例要求***
+***示例請求***
 
-擷取設定檔記錄。
+檢索配置檔案記錄。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/<PKEY> \
@@ -34,7 +34,7 @@ ht-degree: 12%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它會傳回設定檔的geoUnit URL。
+它返回配置檔案的geoUnit URL。
 
 ```
 {
@@ -48,7 +48,7 @@ ht-degree: 12%
 }
 ```
 
-在URL上執行GET要求以擷取詳細資訊。
+對URL執行GET請求以檢索詳細資訊。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/geoUnitBase/<PKEY> \
@@ -58,7 +58,7 @@ ht-degree: 12%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它會傳回地理單位的詳細資訊。
+它返回有關地理單位的詳細資訊。
 
 ```
 {

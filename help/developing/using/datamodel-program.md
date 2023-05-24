@@ -10,7 +10,7 @@ exl-id: b05dc67a-6447-4d22-99f2-8a14a0ee46d2
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '223'
-ht-degree: 21%
+ht-degree: 36%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 21%
                   <th>名稱</th>
                   <th>標籤</th>
                   <th>類型（長度）</th>
-                  <th>枚舉值</th>
+                  <th>分項清單值</th>
                </tr>
                <tr>
                   <td>PKey</td>
@@ -39,14 +39,14 @@ ht-degree: 21%
                </tr>
                <tr>
                   <td>內置</td>
-                  <td>內置應用程式對象</td>
-                  <td>布爾 </td>
+                  <td>內建應用程式內物件</td>
+                  <td>布林值 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>建立</td>
-                  <td>已建立</td>
-                  <td>日期 </td>
+                  <td>建立時間</td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
@@ -64,7 +64,7 @@ ht-degree: 21%
                <tr>
                   <td>端</td>
                   <td>結束日期</td>
-                  <td>日期 </td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
@@ -76,13 +76,13 @@ ht-degree: 21%
                <tr>
                   <td>為外部</td>
                   <td>是外部資源</td>
-                  <td>布爾 </td>
+                  <td>布林值 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>是模板</td>
                   <td>範本</td>
-                  <td>布爾 </td>
+                  <td>布林值 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -94,7 +94,7 @@ ht-degree: 21%
                <tr>
                   <td>上次修改時間</td>
                   <td>上次修改時間</td>
-                  <td>日期 </td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
@@ -139,13 +139,13 @@ ht-degree: 21%
                <tr>
                   <td>即時報告</td>
                   <td>即時報告</td>
-                  <td>物料 </td>
+                  <td>項目 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>開始</td>
                   <td>開始日期</td>
-                  <td>日期 </td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
@@ -181,7 +181,7 @@ ht-degree: 21%
                </tr>
             </table>
 
-## 篩選器
+## 篩選
 
 按邏輯狀態（按LogicalStatus）
 
@@ -218,7 +218,7 @@ ht-degree: 21%
     </tr>
     <tr>
     <td>開始日期</td>
-    <td>日期</td>
+    <td>date</td>
     </tr>
     <tr>
     <td>時段</td>
@@ -235,7 +235,7 @@ ht-degree: 21%
     </tr>
     <tr>
     <td>與連續</td>
-    <td>布爾</td>
+    <td>布林值</td>
     </tr>
 </table>
 
@@ -248,7 +248,7 @@ ht-degree: 21%
         </tr>
         <tr>
         <td>帶父項</td>
-        <td>布爾</td>
+        <td>布林值</td>
         </tr>
     </table>
 
@@ -274,11 +274,11 @@ ht-degree: 21%
     </tr>
     <tr>
     <td>開始日期</td>
-    <td>日期</td>
+    <td>date</td>
     </tr>
     <tr>
     <td>結束日期</td>
-    <td>日期</td>
+    <td>date</td>
     </tr>
 </table>
 
@@ -291,10 +291,10 @@ ht-degree: 21%
     </tr>
     <tr>
     <td>開始日期</td>
-    <td>日期</td>
+    <td>date</td>
     </tr>
     <tr>
     <td>結束日期</td>
-    <td>日期</td>
+    <td>date</td>
     </tr>
 </table>

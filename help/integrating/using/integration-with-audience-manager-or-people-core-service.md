@@ -1,6 +1,6 @@
 ---
 title: 佈建及設定與 Audience Manager 或 People 核心服務的整合
-description: '瞭解如何配置Audience Manager/人員核心服務整合，以開始使用不同的Adobe Experience Cloud解決方案共用受眾或網段。 '
+description: 瞭解如何配置Audience Manager/人員核心服務整合，以開始使用不同的Adobe Experience Cloud解決方案共用受眾或網段。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service

@@ -1,6 +1,6 @@
 ---
 title: 端點
-description: 深入了解API端點。
+description: 瞭解有關API端點的詳細資訊。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -17,20 +17,20 @@ ht-degree: 10%
 
 # 端點 {#endpoints}
 
-Adobe Campaign REST API的可用端點：
+Adobe CampaignREST API的可用端點：
 
-* **/profileAndServices**:與現成可用的欄位互動。 此端點無法存取延伸欄位。
-* **/profileAndServicesExt**:與設定檔或服務自訂資源擴充期間新增的自訂欄位互動。 如需自訂資源的詳細資訊，請參閱 [本節](../../api/using/custom-resources.md).
-* **/&lt;transactionalapi>**:與交易式訊息API互動（交易式訊息API端點的名稱取決於您的執行個體設定）。 如需詳細資訊，請參閱[本章節](../../api/using/managing-transactional-messages.md)。
-* **/workflow/execution**:與工作流程互動。 如需詳細資訊，請參閱[本章節](../../api/using/controlling-a-workflow.md)。
-* **/privacy/privacyTool**:與隱私權API互動，以允許自動處理隱私權要求。 如需詳細資訊，請參閱[本章節](../../api/using/creating-a-privacy-request.md)。
-* **/history**:擷取設定檔的行銷歷史記錄。 如需Campaign中整合式客戶設定檔的詳細資訊，請參閱 [Campaign檔案](https://helpx.adobe.com/campaign/standard/audiences/using/integrated-customer-profile.html).
+* **/profileAndServices**:與框外欄位交互。 此終結點無法訪問擴展欄位。
+* **/profileAndServicesExt**:與配置檔案或服務自定義資源擴展期間添加的自定義欄位交互。 有關自定義資源的詳細資訊，請參閱 [此部分](../../api/using/custom-resources.md)。
+* **/&lt;transactionalapi>**:與事務性消息API交互（事務性消息API終結點的名稱取決於實例配置）。 如需詳細資訊，請參閱[本章節](../../api/using/managing-transactional-messages.md)。
+* **/workflow/execution**:與工作流交互。 如需詳細資訊，請參閱[本章節](../../api/using/controlling-a-workflow.md)。
+* **/privacy/privacyTool**:與隱私API交互以允許隱私請求的自動處理。 如需詳細資訊，請參閱[本章節](../../api/using/creating-a-privacy-request.md)。
+* **/歷史記錄**:檢索配置檔案的市場營銷歷史記錄。 有關市場活動中整合客戶配置檔案的詳細資訊，請參閱 [市場活動文檔](https://helpx.adobe.com/campaign/standard/audiences/using/integrated-customer-profile.html)。
 
-依預設， **profileAndServices** 和 **profileAndServicesExt** API包括：
+預設情況下，可用於 **配置檔案和服務** 和 **配置檔案和服務擴展** API包括：
 
-* **/profile**:從Campaign資料庫與設定檔互動。 若要將設定檔新增至服務，請使用 **/service** 端點。 如需Campaign中設定檔的詳細資訊，請參閱 [Campaign檔案](https://helpx.adobe.com/campaign/standard/audiences/using/about-profiles.html).
-* **/service**:管理訂閱服務。 如需Campaign中服務的詳細資訊，請參閱 [Campaign檔案](https://helpx.adobe.com/campaign/standard/audiences/using/creating-a-service.html).
+* **/配置檔案**:與市場活動資料庫中的配置檔案交互。 要向服務添加配置檔案，請使用 **/服務** 端點。 有關「市場活動」中的配置檔案的詳細資訊，請參閱 [市場活動文檔](https://helpx.adobe.com/campaign/standard/audiences/using/about-profiles.html)。
+* **/服務**:管理訂閱服務。 有關「市場活動」中服務的詳細資訊，請參閱 [市場活動文檔](https://helpx.adobe.com/campaign/standard/audiences/using/creating-a-service.html)。
 
 >[!NOTE]
 >
->所有已擴充或建立的其他資源皆可透過 **ProfileAndServicesExt** 僅限API。 它們必須連結至 **設定檔** 資源以便存取。
+>所有已擴展或建立的其他資源都可通過 **配置檔案和服務擴展** 僅API。 它們必須與 **配置檔案** 資源，以便可訪問。

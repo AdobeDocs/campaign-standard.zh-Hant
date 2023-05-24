@@ -18,14 +18,14 @@ ht-degree: 75%
 
 # 使用檔案包含的資料擴充設定檔資料 {#enriching-profile-data-with-data-contained-in-a-file}
 
-此示例說明如何使用檔案中包含的購買資料來豐富配置檔案資料。我們在此處認為購買資料儲存在第三方系統中。 每個設定檔都可儲存數個購買項目。工作流程的最終目標是傳送電子郵件給已購買至少兩個項目的目標設定檔，以感謝他們的忠誠度。
+此示例說明如何使用檔案中包含的採購資料來豐富配置檔案資料。我們在此處認為採購資料儲存在第三方系統中。 每個設定檔都可儲存數個購買項目。工作流程的最終目標是傳送電子郵件給已購買至少兩個項目的目標設定檔，以感謝他們的忠誠度。
 
 工作流設定如下：
 
 ![](assets/enrichment_example_workflow.png)
 
-* A [查詢](../../automating/using/query.md) 定位將接收訊息之設定檔的活動。
-* A [載入檔案](../../automating/using/load-file.md) 載入購買資料的活動。 例如：
+* A [查詢](../../automating/using/query.md) 以接收消息的配置檔案為目標的活動。
+* A [載入檔案](../../automating/using/load-file.md) 載入採購資料的活動。 例如：
 
    ```
    tcode;tdate;customer;product;tamount
@@ -37,9 +37,9 @@ ht-degree: 75%
    aze128;04/03/2017;clara.smith@example.com;Phone;149
    ```
 
-   使用此範例檔案，使用電子郵件地址來調解資料與資料庫設定檔。 您也可以啟用唯一 ID，如[本文件](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)所述。
+   使用此示例檔案，使用電子郵件地址將資料與資料庫配置檔案進行協調。 您也可以啟用唯一 ID，如[本文件](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)所述。
 
-* 安 [擴充](../../automating/using/enrichment.md) 在從檔案載入的交易資料與在 **[!UICONTROL Query]**. 該連結在活動的 **[!UICONTROL Advanced relations]** 索引標籤中定義。連結以來自 **[!UICONTROL Load file]** 活動的轉變為基礎。它使用設定檔資源的「電子郵件」欄位和匯入檔案的「客戶」列作為調解標準。
+* 安 [濃縮](../../automating/using/enrichment.md) 建立從檔案載入的事務處理資料與在 **[!UICONTROL Query]**。 該連結在活動的 **[!UICONTROL Advanced relations]** 索引標籤中定義。連結以來自 **[!UICONTROL Load file]** 活動的轉變為基礎。它使用設定檔資源的「電子郵件」欄位和匯入檔案的「客戶」列作為調解標準。
 
    ![](assets/enrichment_example_workflow2.png)
 
@@ -77,11 +77,11 @@ ht-degree: 75%
 
       ![](assets/enrichment_example_workflow9.png)
 
-* A [區段](../../automating/using/segmentation.md) 活動，只會擷取至少已記錄兩個交易之初始目標的設定檔。 將排除僅包含一個交易的設定檔。要執行此操作，區段的查詢會在先前定義的彙總上進行。
+* A [分段](../../automating/using/segmentation.md) 活動，它檢索至少記錄了兩個事務的初始目標的配置檔案。 將排除僅包含一個交易的設定檔。要執行此操作，區段的查詢會在先前定義的彙總上進行。
 
    ![](assets/enrichment_example_workflow5.png)
 
-* 安 [電子郵件傳送](../../automating/using/email-delivery.md) 使用 **[!UICONTROL Enrichment]** 以動態擷取設定檔進行的最後兩次購買。 新增個人化欄位時，可在&#x200B;**其他資料　(TargetData)**　節點中找到其他資料。
+* 安 [電子郵件傳遞](../../automating/using/email-delivery.md) 使用在 **[!UICONTROL Enrichment]** 以動態檢索配置檔案最後兩次採購。 新增個人化欄位時，可在&#x200B;**其他資料　(TargetData)**　節點中找到其他資料。
 
    ![](assets/enrichment_example_workflow10.png)
 

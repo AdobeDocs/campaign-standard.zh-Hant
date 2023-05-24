@@ -1,6 +1,6 @@
 ---
 title: 從檔案訂閱設定檔至特定服務
-description: 此使用案例顯示如何匯入包含設定檔的檔案，並將其訂閱至現有服務。
+description: 此用例說明如何導入包含配置檔案的檔案並將其預訂到現有服務。
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
@@ -16,7 +16,7 @@ ht-degree: 53%
 
 ---
 
-# 匯入檔案後將設定檔訂閱至特定服務 {#subscribing-profiles-to-a-specific-service-after-importing-a-file}
+# 在導入檔案後將配置檔案訂閱到特定服務 {#subscribing-profiles-to-a-specific-service-after-importing-a-file}
 
 此範例說明如何匯入包含設定檔的檔案並將其訂閱至現有服務中。匯入檔案後，必須進行調解，以便將匯入的資料識別為設定檔。為確保檔案不包含任何重複項目，將對資料執行重複資料刪除活動。
 
@@ -24,7 +24,7 @@ ht-degree: 53%
 
 ![](assets/subscription_activity_example1.png)
 
-* A [載入檔案](../../automating/using/load-file.md) 活動載入設定檔檔案並定義匯入欄的結構。
+* A [載入檔案](../../automating/using/load-file.md) 活動載入配置檔案並定義導入列的結構。
 
    在此範例中，載入檔案為 .csv 格式，並包含以下資料：
 
@@ -43,14 +43,14 @@ ht-degree: 53%
 
    ![](assets/subscription_activity_example2.png)
 
-* A [調解](../../automating/using/reconciliation.md) 活動會將檔案中的資料識別為屬於Adobe Campaign資料庫的設定檔維度。 僅設定 **[!UICONTROL Identification]** 索引標籤。它會根據描述檔的電子郵件地址識別檔案資料。
+* A [協調](../../automating/using/reconciliation.md) activity將檔案中的資料標識為屬於Adobe Campaign資料庫的配置檔案維。 僅設定 **[!UICONTROL Identification]** 索引標籤。它會根據描述檔的電子郵件地址識別檔案資料。
 
    ![](assets/subscription_activity_example3.png)
 
-* A [重複資料刪除](../../automating/using/deduplication.md) 根據 **電子郵件** 臨時資源的欄位（調解後產生的結果）識別任何重複項目。 如果從檔案匯入的資料包含任何重複項目，所有資料服務的訂閱將會失敗。
+* A [重複資料消除](../../automating/using/deduplication.md) 基於 **電子郵件** 臨時資源的欄位（由對帳產生）標識任何重複項。 如果從檔案匯入的資料包含任何重複項目，所有資料服務的訂閱將會失敗。
 
    ![](assets/subscription_activity_example5.png)
 
-* A [訂閱服務](../../automating/using/subscription-services.md) 活動可讓您選取必須訂閱設定檔的服務、與訂閱日期對應的欄位，以及訂閱的來源。
+* A [訂閱服務](../../automating/using/subscription-services.md) 活動允許您選擇配置檔案必須訂閱到的服務、與訂閱日期對應的欄位以及訂閱的來源。
 
    ![](assets/subscription_activity_example4.png)

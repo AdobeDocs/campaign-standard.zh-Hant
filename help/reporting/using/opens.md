@@ -1,6 +1,6 @@
 ---
 title: 開啟次數
-description: 透過「開啟」報表，了解根據各種條件檢視最多的傳送。
+description: 通過「開啟」報告，瞭解根據各種標準查看最多的交付。
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -12,21 +12,21 @@ exl-id: 654957b0-98b5-43f2-8699-4531859ef76e
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '64'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
 # 開啟次數{#opens}
 
-此 **[!UICONTROL Opens]** 報表可識別收件者最常檢視的傳送。
+的 **[!UICONTROL Opens]** 「report」（報告）標識收件人查看次數最多的交貨。
 
 ![](assets/delivery_reports_opens.png)
 
-四個表格和圖表會依據下列項目劃分開啟電子郵件的收件者總數：
+四個表和圖表按以下方式細分了開啟電子郵件的收件人總數：
 
 * 瀏覽器
-* 裝置
+* 設備
 * 平台
 * 網域
 
-此 **[!UICONTROL TOP 5]** 表格和圖表顯示傳送訊息數量最多的傳送。
+的 **[!UICONTROL TOP 5]** 表和圖形顯示已傳遞消息數量最高的遞送。

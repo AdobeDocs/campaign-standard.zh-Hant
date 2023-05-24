@@ -38,7 +38,7 @@ Adobe Campaign 中的使用者程序如下：
 
 **相關主題：**
 
-* [使用案例：將電子郵件與直接郵件傳送耦合](../../automating/using/coupling-email-direct-mail.md)
+* [用例：將電子郵件和直郵遞送聯合起來](../../automating/using/coupling-email-direct-mail.md)
 
 ## 建議 {#recommendations}
 

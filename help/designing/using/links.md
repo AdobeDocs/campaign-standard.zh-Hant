@@ -11,7 +11,7 @@ exl-id: d1714101-bad0-40c1-8d60-90469d033197
 source-git-commit: 146dfea38bd456a5d9200b0632d4aa279b10a7b9
 workflow-type: tm+mt
 source-wordcount: '592'
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 2%
 
 ![](assets/des_link_edit.png)
 
-使用 [電子郵件設計器](../../designing/using/designing-content-in-adobe-campaign.md)，您可以輕鬆訪問和修改從表中建立的連結，該表中列出了電子郵件中包含的所有URL。 此清單使您能夠有一個集中的視圖並查找電子郵件內容中的每個URL。 要訪問它，請參閱 [關於跟蹤的URL](#about-tracked-urls)。
+使用 [電子郵件設計器](../../designing/using/designing-content-in-adobe-campaign.md)，您可以輕鬆訪問和修改從表中建立的連結，該表中列出了電子郵件中包含的所有URL。 此清單可讓您能夠集中檢視並找到電子郵件內容中的每個 URL。要訪問它，請參閱 [關於跟蹤的URL](#about-tracked-urls)。
 
 ![](assets/des_link_list.png)
 
@@ -85,7 +85,7 @@ Adobe Campaign允許您在收件人按一下電子郵件中包含的URL時跟蹤
 >
 >預設情況下，跟蹤被激活。 此功能僅在Adobe Campaign激活跟蹤後才可用於電子郵件。 有關跟蹤參數的詳細資訊，請參閱 [此部分](../../administration/using/configuring-email-channel.md#tracking-parameters)。
 
-每個連結的URL、類別、標籤和跟蹤類型都可以從此清單中修改。 要編輯連結，請按一下相應的鉛筆表徵圖。
+每個連結的URL、類別、標籤和跟蹤類型都可以從此清單中修改。 若要編輯連結，按一下對應的鉛筆圖示。
 
 ![](assets/des_links_tracking.png)
 

@@ -10,7 +10,7 @@ exl-id: 20dafd81-8546-450a-87a0-59a2509efb7a
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '145'
-ht-degree: 17%
+ht-degree: 42%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 17%
         <th>名稱</th>
         <th>標籤</th>
         <th>類型（長度）</th>
-        <th>枚舉值</th>
+        <th>分項清單值</th>
     </tr>
     <tr>
         <td>PKey</td>
@@ -33,14 +33,14 @@ ht-degree: 17%
     </tr>
     <tr>
         <td>注釋</td>
-        <td>引用者注釋</td>
+        <td>推薦者評論</td>
         <td>字串(255)</td>
         <td> </td>
     </tr>
     <tr>
         <td>建立</td>
-        <td>已建立</td>
-        <td>日期 </td>
+        <td>建立時間</td>
+        <td>date </td>
         <td> </td>
     </tr>
     <tr>
@@ -75,7 +75,7 @@ ht-degree: 17%
     </tr>
     <tr>
         <td>外部ID</td>
-        <td>外部ID</td>
+        <td>外部 ID</td>
         <td>字串(64)</td>
         <td> </td>
     </tr>
@@ -87,7 +87,7 @@ ht-degree: 17%
     </tr>
     <tr>
         <td>轉發URL</td>
-        <td>轉發URL</td>
+        <td>轉寄 URL</td>
         <td>字串(255)</td>
         <td> </td>
     </tr>
@@ -100,7 +100,7 @@ ht-degree: 17%
     <tr>
         <td>上次修改時間</td>
         <td>上次修改時間</td>
-        <td>日期 </td>
+        <td>date </td>
         <td> </td>
     </tr>
     <tr>
@@ -123,7 +123,7 @@ ht-degree: 17%
     </tr>
     <tr>
         <td>來源</td>
-        <td>原點</td>
+        <td>來源</td>
         <td>枚舉（位元組） </td>
         <td>
             <ul>
@@ -146,13 +146,13 @@ ht-degree: 17%
     </tr>
     <tr>
         <td>引用者電子郵件</td>
-        <td>引用電子郵件</td>
+        <td>推薦者電子郵件</td>
         <td>字串(128)</td>
         <td> </td>
     </tr>
     <tr>
         <td>引用者FirstName</td>
-        <td>引用者名</td>
+        <td>推薦者名字</td>
         <td>字串(30)</td>
         <td> </td>
     </tr>
@@ -164,13 +164,13 @@ ht-degree: 17%
     </tr>
     <tr>
         <td>引用者姓氏</td>
-        <td>引用者姓</td>
+        <td>推薦者姓氏</td>
         <td>字串(50)</td>
         <td> </td>
     </tr>
     <tr>
         <td>引用者Rcp（收件人）</td>
-        <td>引用者</td>
+        <td>推薦者</td>
         <td>連結 </td>
         <td> </td>
     </tr>
@@ -182,7 +182,7 @@ ht-degree: 17%
     </tr>
 </table>
 
-## 篩選器
+## 篩選
 
 按姓、名或電子郵件（按文本）</p>
 

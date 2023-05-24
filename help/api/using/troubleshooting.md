@@ -76,7 +76,7 @@ ht-degree: 1%
 
 * **在請求Adobe.io時，您會得到{&quot;code&quot;:500, &quot;message&quot;:&quot;Aoh。 發生錯誤. 請檢查URI，然後重試。&quot;}**
 
-Adobe.io聲明無效的URI:您請求的URI很可能無效。 在Adobe.io上，選擇「市場活動」服務時，您將得到一個具有可能organization_id清單的選取器。 您需要檢查您選擇的是否是您在URL中輸入的。
+Adobe.io聲明無效的URI:您請求的URI很可能無效。 在Adobe.io上，選擇「市場活動」服務時，您將獲得一個具有可能organization_id清單的選取器。 您需要檢查您選擇的是否是您在URL中輸入的。
 
 * **在請求Adobe.io時，您會得到{&quot;error_code&quot;:&quot;401013&quot;,&quot;message&quot;:&quot;Oauth令牌無效&quot;}**
 

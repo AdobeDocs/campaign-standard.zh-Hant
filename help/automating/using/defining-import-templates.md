@@ -48,7 +48,7 @@ ht-degree: 96%
 
 1. 移至 **[!UICONTROL Workflow]** 索引標籤。您可以從此處，根據您的需求新增活動，讓預設提供的工作流程更佳豐富。
 
-   如需如何設定工作流程活動的詳細資訊，請參閱本區段說明的使用案例：[範例：匯入工作流程範本](../../automating/using/creating-import-workflow-templates.md)。此使用案例可幫助您設定工作流，該工作流可重新用於導入來自Adobe Campaign資料庫中CRM的配置檔案。
+   如需如何設定工作流程活動的詳細資訊，請參閱本區段說明的使用案例：[範例：匯入工作流程範本](../../automating/using/creating-import-workflow-templates.md)。此使用案例可協助您設定工作流程，此工作流程可重複用於匯入來自Adobe Campaign資料庫中CRM的設定檔。
 
 1. 儲存您的範本，以便正確考慮工作流程的設定。
 1. 從 **[!UICONTROL Properties]** 索引標籤上傳範例檔案。上傳的檔案只能有未來匯入或範例資料所需的欄。範例檔案中的資料可讓您在定義工作流程後，測試簡化的匯入。

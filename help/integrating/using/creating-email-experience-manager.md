@@ -1,6 +1,6 @@
 ---
 title: 在 Adobe Experience Manager 中建立電子郵件內容.
-description: 通過Adobe Experience Manager整合，您可以直接在中創AEM建內容，稍後在Adobe Campaign使用。
+description: 透過Adobe Experience Manager整合，您可以直接在AEM中建立內容，並稍後在Adobe Campaign中使用。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
@@ -15,61 +15,61 @@ ht-degree: 2%
 
 ---
 
-# 將Adobe Experience Manager內容導入Adobe Campaign電子郵件 {#creating-email-aem}
+# 將Adobe Experience Manager內容匯入Adobe Campaign電子郵件 {#creating-email-aem}
 
-使用此文檔，您將學習如何在Adobe Experience Manager建立和管理電子郵件內容，然後將這些內容導入您的電子郵件到Adobe Campaign Standard，以用於您的市場營銷活動。
+透過此檔案，您將瞭解如何在Adobe Experience Manager中建立和管理電子郵件內容，然後將其匯入至Adobe Campaign Standard，用於行銷活動。
 
 先決條件為：
 
-* 對為集AEM成配置的實例的訪問。
-* 訪問為整合配置的Adobe Campaign實例。
-* 配置為接收內容的Adobe Campaign電AEM子郵件模板。
+* 存取針對整合設定的AEM執行個體。
+* 存取針對整合設定的Adobe Campaign執行個體。
+* 設定為接收AEM內容的Adobe Campaign電子郵件範本。
 
-## 訪問Adobe Experience Manager的電子郵件 {#email-content-aem}
+## 在Adobe Experience Manager中存取電子郵件 {#email-content-aem}
 
-登錄到您的Adobe Experience Manager創作實例並瀏覽您的站點以訪問包含電子郵件內容的資料夾。
+登入您的Adobe Experience Manager編寫執行個體並瀏覽您的網站，以存取包含您的電子郵件內容的資料夾。
 
 >[!VIDEO](https://video.tv.adobe.com/v/29996)
 
-## 在Adobe Experience Manager建立新電子郵件內容 {#creating-email-content-aem}
+## 在Adobe Experience Manager中建立新電子郵件內容 {#creating-email-content-aem}
 
-提供了幾個Adobe Campaign特有的模板。 您必須使用其中一個模板，因為它們包含Adobe Campaign支援的預定義元件。
+有數個Adobe Campaign專屬的範本可供使用。 您必須使用其中一個範本，因為它們包含Adobe Campaign支援的預先定義元件。
 
-預設情況下，兩個預定義模板允許您為Adobe Campaign建立電子郵件內容。
+依預設，有兩個預先定義的範本可讓您建立Adobe Campaign的電子郵件內容。
 
-* **[!UICONTROL Adobe Campaign Email]**:此模板包含可個性化的標準內容。 您可以選擇Adobe Campaign電子郵件(AC6.1)和Adobe Campaign電子郵件(ACS)。
-* **[!UICONTROL Importer Page]**:此模板允許您導入包含HTML檔案的ZIP檔案，該檔案包含內容，然後您就可以對其進行個性化設定。
+* **[!UICONTROL Adobe Campaign Email]**：此範本包含您可以個人化的標準內容。 您可以在Adobe Campaign電子郵件(AC6.1)和Adobe Campaign電子郵件(ACS)之間選擇。
+* **[!UICONTROL Importer Page]**：此範本可讓您匯入包含HTML檔案的ZIP檔案，其中包含您之後可個人化的內容。
 
-1. 在Adobe Experience Manager，建立 **[!UICONTROL Page]**。
+1. 在Adobe Experience Manager中，建立新的 **[!UICONTROL Page]**.
 
-1. 選擇 **[!UICONTROL Adobe Campaign Email]** 的下界。 有關詳細步驟，請參閱以下視頻。
+1. 選取 **[!UICONTROL Adobe Campaign Email]** 範本。 如需詳細步驟，請參閱以下影片。
    >[!VIDEO](https://video.tv.adobe.com/v/29997)
 
-1. 開啟新電子郵件內容。
+1. 開啟您的新電子郵件內容。
 
-1. 在 **[!UICONTROL Page properties]**。 **[!UICONTROL Adobe Campaign]** 的 **[!UICONTROL Cloud Service Configuration]**。 這樣，您的內容與您的Adobe Campaign實例之間便可進行通信。
+1. 在 **[!UICONTROL Page properties]**，設定 **[!UICONTROL Adobe Campaign]** 作為 **[!UICONTROL Cloud Service Configuration]**. 如此一來，您的內容就能與Adobe Campaign執行個體通訊。
 
-   有關詳細資訊，請觀看以下視頻：
+   如需詳細資訊，請觀看下列影片：
 
    >[!VIDEO](https://video.tv.adobe.com/v/29999)
 
-## 編輯和發送電子郵件 {#editing-email-aem}
+## 編輯和傳送電子郵件 {#editing-email-aem}
 
-您可以通過添加元件和資產來編輯電子郵件內容。 個性化欄位可用於根據Adobe Campaign的接收者資料傳遞更相關的消息。
+您可以新增元件和資產來編輯電子郵件內容。 個人化欄位可用於根據Adobe Campaign中的收件者資料，傳遞更具相關性的訊息。
 
-要在Adobe Experience Manager建立電子郵件內容：
+若要在Adobe Experience Manager中建立電子郵件內容：
 
-1. 編輯主題以及 **[!UICONTROL Plain text]** 通過訪問 **[!UICONTROL Page properties]** > **[!UICONTROL Email]** 從旁邊踢來。
+1. 編輯主旨以及 **[!UICONTROL Plain text]** 存取您的電子郵件版本 **[!UICONTROL Page properties]** > **[!UICONTROL Email]** tab鍵從sidekick移出。
 
-1. 添加 **[!UICONTROL Personalization fields]** 通過 **[!UICONTROL Text & Personalization]** 元件。 每個元件對應於特定用法：插入影像、添加個性化等。
+1. 新增 **[!UICONTROL Personalization fields]** 透過 **[!UICONTROL Text & Personalization]** 元件。 每個元件都與特定的使用方式相對應：插入影像、新增個人化等。
 
-   有關詳細資訊，請觀看以下視頻：
+   如需詳細資訊，請觀看下列影片：
    >[!VIDEO](https://video.tv.adobe.com/v/29998)
 
-1. 從 **[!UICONTROL Workflow]** 頁籤 **[!UICONTROL Approve for Adobe Campaign]** 驗證工作流。 如果Adobe Campaign使用的內容未經批准，您將無法在該地區發送電子郵件。
+1. 從 **[!UICONTROL Workflow]** 索引標籤中，選取 **[!UICONTROL Approve for Adobe Campaign]** 驗證工作流程。 如果您使用Adobe Campaign中尚未核准的內容，便無法傳送電子郵件。
 
-1. 定義內容和發送參數後，您可以在Adobe Campaign Standard繼續批准、準備和發送電子郵件。
+1. 定義內容和傳送引數後，您可以在Adobe Campaign Standard中繼續核准、準備和傳送電子郵件。
 
-   有關詳細資訊，請觀看以下視頻：
+   如需詳細資訊，請觀看下列影片：
 
    >[!VIDEO](https://video.tv.adobe.com/v/23721)

@@ -1,6 +1,6 @@
 ---
 title: 監控工作流程執行
-description: 瞭解如何監視工作流的執行。
+description: 瞭解如何監視工作流程的執行。
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
@@ -18,55 +18,55 @@ ht-degree: 6%
 
 # 監控工作流程執行 {#monitoring}
 
-## 工作流日誌和任務 {#workflow-log-and-tasks}
+## 工作流程記錄檔與任務 {#workflow-log-and-tasks}
 
-的 ![](assets/printpreview_darkgrey-24px.png) 表徵圖開啟工作流日誌和任務菜單。
+此 ![](assets/printpreview_darkgrey-24px.png) 圖示會開啟工作流程記錄與任務功能表。
 
-工作流歷史記錄將保存為在工作流執行選項中指定的持續時間(請參閱 [工作流屬性](../../automating/using/managing-execution-options.md))。 因此，即使在重新啟動後，也會保存所有消息。 如果不想保存上次執行中的消息，則必須按一下 ![](assets/delete_darkgrey-24px.png) 按鈕
+工作流程歷史記錄會針對工作流程執行選項中指定的持續時間進行儲存(請參閱 [工作流程屬性](../../automating/using/managing-execution-options.md))。 因此，在此期間會儲存所有訊息，即使在重新啟動後亦然。 如果您不想儲存先前執行的訊息，則必須按一下 ![](assets/delete_darkgrey-24px.png) 按鈕。
 
-的 **[!UICONTROL Log]** 頁籤包含所有活動或任何選定活動的執行歷史記錄。 其會按時間順序，對執行的操作和執行錯誤進行索引。
+此 **[!UICONTROL Log]** 索引標籤包含所有活動或任何選定活動的執行歷史記錄。 其會按時間順序，對執行的操作和執行錯誤進行索引。
 
 ![](assets/wkf_execution_4.png)
 
-的 **[!UICONTROL Tasks]** 頁籤詳細列出活動的執行順序。 按一下任務以獲取詳細資訊。
+此 **[!UICONTROL Tasks]** 標籤會詳細說明活動的執行順序。 按一下工作以取得更多資訊。
 
 ![](assets/wkf_execution_5.png)
 
 在以下兩個清單中：
 
-* 按一下計數器，根據應用的篩選器查看活動總數。 如果清單中的元素數小於30，則預設顯示計數器。
-* 的 **[!UICONTROL Configure list]** 按鈕，您可以選擇顯示的資訊、定義列順序和對清單進行排序。
-* 您可以使用篩選器更快地查找所需資訊。 使用搜索欄位可查找工作流活動名稱中的特定文本(例如：&quot;query&quot;)和日誌。
+* 按一下計數器，即可根據套用的篩選器檢視活動總數。 如果清單中的元素數量少於30，則預設會顯示計數器。
+* 此 **[!UICONTROL Configure list]** 按鈕可讓您選擇顯示的資訊、定義欄順序及排序清單。
+* 您可以使用篩選器來更快找到所需的資訊。 使用搜尋欄位在工作流程活動名稱（例如：「query」）和記錄中尋找特定文字。
 
 ## 錯誤管理 {#error-management}
 
-出現錯誤時，工作流暫停，遇到錯誤時正在執行的活動閃爍紅色。
+發生錯誤時，工作流程會暫停，而且發生錯誤時所執行的活動會以紅色閃爍。
 
-工作流狀態變為紅色，錯誤記錄在日誌中。
+工作流程狀態會變成紅色，而錯誤會記錄在紀錄中。
 
-您可以配置工作流，使其不會暫停並繼續執行而不會出現任何錯誤。 為此，請通過 ![](assets/edit_darkgrey-24px.png) 按鈕 **[!UICONTROL Execution]** 的 **忽略** 的上界 **出錯時** 的子菜單。
+您可以設定工作流程，使其不會暫停並繼續執行，而不會發生任何錯誤。 若要這麼做，請透過 ![](assets/edit_darkgrey-24px.png) 按鈕和， **[!UICONTROL Execution]** 區段，選取 **忽略** 中的選項 **發生錯誤時** 欄位。
 
-在這種情況下，錯誤任務被中止。 此模式特別適用於設計為稍後重新嘗試該操作（定期操作）的工作流。
+在這種情況下，錯誤的工作會中止。 此模式特別適合用於設計為在稍後重新嘗試操作（定期動作）的工作流程。
 
 >[!NOTE]
 >
->您可以針對每個活動單獨應用此配置。 要執行此操作，請選擇一個活動並使用快速操作將其開啟 ![](assets/edit_darkgrey-24px.png)。 然後，在 **執行選項** 頁籤。 請參閱 [活動執行選項](../../automating/using/activity-properties.md)。
+>您可以對每個活動個別套用此設定。 若要這麼做，請選取活動並使用快速動作將其開啟 ![](assets/edit_darkgrey-24px.png). 然後，在「 」中選擇錯誤管理模式 **執行選項** 標籤。 另請參閱 [活動執行選項](../../automating/using/activity-properties.md).
 
-在 [工作流的屬性](../../automating/using/managing-execution-options.md)中，提供了與錯誤管理相關的其他選項。
+在 [工作流程的屬性](../../automating/using/managing-execution-options.md)，提供與錯誤管理相關的其他選項。
 
 ![](assets/wkf_execution_error.png)
 
 可能的選項包括：
 
-* **[!UICONTROL Supervisors]**:允許您定義工作流遇到錯誤時要通知的人員組（電子郵件和應用內通知）。 如果未定義組，則不會通知任何人。 如需 Adobe Campaign 通知的詳細資訊，請參閱 [Adobe Campaign 通知](../../administration/using/sending-internal-notifications.md)。
+* **[!UICONTROL Supervisors]**：可讓您定義工作流程發生錯誤時要通知的人員群組（電子郵件和應用程式內通知）。 如果未定義群組，則不會通知任何人。 如需 Adobe Campaign 通知的詳細資訊，請參閱 [Adobe Campaign 通知](../../administration/using/sending-internal-notifications.md)。
 
-* **[!UICONTROL In case of error]**:允許您指定在活動遇到錯誤時要執行的操作。 有兩個選項可供選擇：
+* **[!UICONTROL In case of error]**：可讓您指定活動發生錯誤時應執行的動作。 有兩個選項可供使用：
 
-   * **暫停進程**:工作流自動掛起。 然後，工作流狀態為 **錯誤** 關聯的顏色變成紅色。 問題解決後，重新啟動工作流。
-   * **忽略**:未執行該活動，因此也不執行其後的任何活動（在同一分支中）。 這可能對循環任務有用。 如果分支有調度程式置於上游，則應在下一執行日期觸發該調度程式。
+   * **暫停處理序**：工作流程會自動暫停。 然後，工作流程狀態為 **錯誤** 而關聯的顏色會變成紅色。 問題解決後，請重新啟動工作流程。
+   * **忽略**：活動不會執行，因此後面沒有任何活動（在相同分支中）。 事實證明，這對於週期性任務可能很有用。 如果分支有放置在上游的排程器，這應在下一個執行日期觸發。
 
-* **[!UICONTROL Consecutive errors]** :允許您定義在工作流執行自動掛起之前已授權的連續錯誤。
+* **[!UICONTROL Consecutive errors]** ：可讓您定義在自動暫停工作流程執行之前已授權的連續錯誤數。
 
-   * 如果指定的編號為 **[!UICONTROL 0]**，或只要未達到指定的編號，則忽略遇到錯誤的活動。 其他工作流分支正常執行。
+   * 如果指定的數字為 **[!UICONTROL 0]**，或只要未達到指定的數字，則會忽略發生錯誤的活動。 其他工作流程分支會正常執行。
 
-   * 如果達到指定的編號，則整個工作流將掛起並變為 **[!UICONTROL Erroneous]**。 如果已定義了主管，則自動通過電子郵件通知他們。 請參閱 [Adobe Campaign 通知](../../administration/using/sending-internal-notifications.md)。
+   * 如果達到指定的數目，則會暫停整個工作流程，並變成 **[!UICONTROL Erroneous]**. 若已定義主管，系統會自動以電子郵件通知主管。 請參閱 [Adobe Campaign 通知](../../administration/using/sending-internal-notifications.md)。

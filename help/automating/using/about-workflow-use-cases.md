@@ -1,6 +1,6 @@
 ---
 title: 關於工作流程使用實例
-description: 瞭解有關可以使用Campaign Standard工作流執行的使用案例的詳細資訊。
+description: 進一步瞭解您可以使用Campaign Standard工作流程執行的使用案例。
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
@@ -16,9 +16,9 @@ ht-degree: 72%
 
 # 關於工作流程使用實例 {#about-workflow-use-cases}
 
-在本節中，您將發現利用市場活動工作流功能的各種使用案例。
+在本節中，您將找到運用Campaign工作流程功能的各種使用案例。
 
-它們可幫助您發現可以使用工作流的不同上下文並響應您的需求。
+它們可協助您探索可以使用工作流程的不同內容，並回應您的需求。
 
 ## 傳遞 {#deliveries}
 
@@ -62,5 +62,5 @@ ht-degree: 72%
 * [在外部檔案中匯出設定檔](../../automating/using/exporting-profiles-in-file.md)
 * [從檔案更新多個訂閱狀態](../../automating/using/updating-subscriptions-from-file.md)
 * [從檔案訂閱設定檔至特定服務](../../automating/using/subscribing-profiles-from-file.md)
-* [導入使用控制面板生成的密鑰加密的資料](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt)
-* [使用控制面板上安裝的密鑰加密和導出資料](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt)
+* [匯入使用控制面板產生的金鑰加密的資料](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt)
+* [使用安裝於控制面板的金鑰加密及匯出資料](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt)

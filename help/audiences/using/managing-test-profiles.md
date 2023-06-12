@@ -78,10 +78,10 @@ ht-degree: 95%
 
 1. 如果您已輸入變更，請按一下 **[!UICONTROL Save]** ，或選取測試設定檔名稱，然後 **[!UICONTROL Test profiles]** 在螢幕頂端的部分，返回至測試設定檔的控制面板。
 
-## 教程視頻 {#video}
+## 教學課程影片 {#video}
 
-此視頻顯示如何建立test配置檔案。
+本影片說明如何建立測試設定檔。
 
 >[!VIDEO](https://video.tv.adobe.com/v/24094?quality=12)
 
-可提供其他Campaign Standard操作視頻 [這裡](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant)。
+提供其他Campaign Standard操作影片 [此處](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant).

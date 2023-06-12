@@ -1,6 +1,6 @@
 ---
 title: 使用其他資料個人化電子郵件
-description: 此用例介紹如何將不同類型的附加資料添加到查詢中，並將其用作電子郵件中的個性化欄位。
+description: 此使用案例說明如何將不同型別的其他資料新增到查詢中，並作為電子郵件中的個人化欄位使用。
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -18,7 +18,7 @@ ht-degree: 86%
 
 # 使用其他資料個人化電子郵件 {#example--personalizing-an-email-with-additional-data}
 
-下列範例說明如何新增不同類型的其他資料至查詢，以及其作為電子郵件中個人化欄位的用途。有關如何豐富由 **[!UICONTROL Query]** 活動，請參閱 [此部分](../../automating/using/query.md#enriching-data)。
+下列範例說明如何新增不同類型的其他資料至查詢，以及其作為電子郵件中個人化欄位的用途。如需如何豐富鎖定目標的資料的詳細資訊， **[!UICONTROL Query]** 活動，請參閱 [本節](../../automating/using/query.md#enriching-data).
 
 在此範例中，會使用[自訂資源](../../developing/using/data-model-concepts.md)：
 
@@ -32,7 +32,7 @@ ht-degree: 86%
 
 ![](assets/enrichment_example1.png)
 
-1. 添加 [查詢](../../automating/using/query.md) 「活動」，它允許您針對已執行至少一個事務的配置檔案。
+1. 新增 [查詢](../../automating/using/query.md) 活動，可讓您定位已執行至少一個交易的設定檔。
 
    ![](assets/enrichment_example2.png)
 
@@ -53,7 +53,7 @@ ht-degree: 86%
 
    ![](assets/enrichment_example5.png)
 
-1. 添加 [電子郵件傳遞](../../automating/using/email-delivery.md) 的子菜單。 在電子郵件內容中，插入與查詢中計算的資料對應的個人化欄位。您可以透過個人化欄位瀏覽器的 **[!UICONTROL Additional data (targetData)]** 連結找到它。
+1. 新增 [電子郵件傳遞](../../automating/using/email-delivery.md) 活動。 在電子郵件內容中，插入與查詢中計算的資料對應的個人化欄位。您可以透過個人化欄位瀏覽器的 **[!UICONTROL Additional data (targetData)]** 連結找到它。
 
    ![](assets/enrichment_example3.png)
 

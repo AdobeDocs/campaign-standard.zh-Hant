@@ -38,7 +38,7 @@ ht-degree: 99%
 
 若要建立與設定 **[!UICONTROL Fatigue]** 類型規則，請套用下列步驟：
 
-1. 按一下介面左上角的Adobe Campaign徽標，然後選擇 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** > **[!UICONTROL Typology rules]**。
+1. 按一下介面左上角的Adobe Campaign標誌，然後選取 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** > **[!UICONTROL Typology rules]**.
 
    ![](assets/fatigue4.png)
 

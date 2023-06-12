@@ -1,6 +1,6 @@
 ---
 title: 串聯電子郵件與直接郵件傳遞
-description: 此用例提供了從工作流發送電子郵件和直接郵件的示例。
+description: 此使用案例提供從工作流程傳送電子郵件和直接郵件的範例。
 audience: channels
 content-type: reference
 topic-tags: direct-mail

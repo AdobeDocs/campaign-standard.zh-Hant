@@ -32,7 +32,7 @@ ht-degree: 82%
 
 **相關主題：**
 
-* [用例：基於自動檔案下載更新資料](../../automating/using/update-data-automatic-download.md)
+* [使用案例：根據自動檔案下載更新資料](../../automating/using/update-data-automatic-download.md)
 
 ## 設定 {#configuration}
 
@@ -58,13 +58,13 @@ ht-degree: 82%
 
    您可以：
 
-   * **[!UICONTROL Delete the source files after transfer]**:擦除遠程伺服器上的檔案。 如果未選中此選項，請確保手動監視SFTP目錄中已存檔內容的大小。
+   * **[!UICONTROL Delete the source files after transfer]**：清除遠端伺服器上的檔案。 如果未勾選此選項，請務必手動監視SFTP目錄中封存內容的大小。
 
-   * **[!UICONTROL Sorting files]**:允許您按字母數字對檔案進行排序。 預設情況下禁用此選項。
+   * **[!UICONTROL Sorting files]**：可讓您以英數字元排序檔案。 此選項預設為停用。
 
       <!--**[!UICONTROL Disable passive mode]**: allows you to specify the connection port to be used for data transfer.-->
 
-   * **[!UICONTROL List all files]**:當選擇 **[!UICONTROL File listing]** 操作 **[!UICONTROL General]** 頁籤。 它可讓您為 **vars.filenames** event　變數中伺服器上所有檔案建立索引，其中檔案名稱以 **&#39;n&#39;** 字元分隔 。
+   * **[!UICONTROL List all files]**：選取「 」時，此選項可供使用 **[!UICONTROL File listing]** 中的動作 **[!UICONTROL General]** 標籤。 它可讓您為 **vars.filenames** event　變數中伺服器上所有檔案建立索引，其中檔案名稱以 **&#39;n&#39;** 字元分隔 。
 
 1. **[!UICONTROL If no files are found]** 索引標籤的 **[!UICONTROL Advanced options]** 區段可讓您在活動啟動時偵測到任何錯誤或不存在的檔案時設定特定操作。
 
@@ -78,7 +78,7 @@ ht-degree: 82%
 
 HTTP　通訊協定可讓您從外部帳戶或　URL　開始下載檔案。
 
-使用此協定，您可以選擇 **[!UICONTROL Use connection parameters defined in an external account]** 的雙曲餘切值。 在此情況下，請選取您需要的帳戶，並指定要下載的檔案路徑。
+透過此通訊協定，您可以選擇 **[!UICONTROL Use connection parameters defined in an external account]** 選項。 在此情況下，請選取您需要的帳戶，並指定要下載的檔案路徑。
 
 
 ![](assets/wkf_file_transfer_03.png)
@@ -86,13 +86,13 @@ HTTP　通訊協定可讓您從外部帳戶或　URL　開始下載檔案。
 您也可以選取 **[!UICONTROL Quick configuration]** 選項。您只需在　URL　欄位中輸入URL。
 ![](assets/wkf_file_transfer_04.png)
 
-**[!UICONTROL Follow redirections]**。 **[!UICONTROL Ignore the HTTP return code]**, **[!UICONTROL Add received HTTP headers to the file]** 是選擇HTTP協定時可用的附加選項。
+**[!UICONTROL Follow redirections]**， **[!UICONTROL Ignore the HTTP return code]**、和 **[!UICONTROL Add received HTTP headers to the file]** 是選取HTTP通訊協定時可用的其他選項。
 
 ### 使用　SFTP　進行設定 {#SFTP-configuration-wf}
 
 SFTP　通訊協定可讓您開始從　URL　或外部帳戶下載檔案。
 
-使用此協定，您可以選擇 **[!UICONTROL Use connection parameters defined in an external account]** 選項，然後選擇想要的帳戶並指定要下載的檔案的路徑。
+透過此通訊協定，您可以選擇 **[!UICONTROL Use connection parameters defined in an external account]** 選項，然後選取您要的帳戶並指定要下載的檔案路徑。
 ![](assets/wkf_file_transfer_07.png)
 
 >[!CAUTION]
@@ -115,9 +115,9 @@ Amazon S3　通訊協定可讓您透過　Amazon Simple Storage Service(S3)　�
 
    >[!CAUTION]
    >
-   > AmazonS3不支援通配符。
+   > Amazon S3不支援萬用字元。
    >
-   > 目標多個檔案，如 `my_file_02` 和 `my _file_3433`，可以使用以下語法： `acs-myawsbucket.s3.amazonaws.com/object-path/my_file_`。
+   > 若要鎖定多個檔案，例如 `my_file_02` 和 `my _file_3433`，您可以使用下列語法： `acs-myawsbucket.s3.amazonaws.com/object-path/my_file_`.
 
 4. 如果要在傳輸完成時刪除源檔案，請核取 **[!UICONTROL Delete the source files after transfer]**。
 
@@ -146,7 +146,7 @@ Microsoft Azure Blob　通訊協定可讓您存取位於　Microsoft Azure Blob�
 ### Adobe Campaign　伺服器上檔案的設定 {#files-server-configuration-wf}
 
 **[!UICONTROL File(s) present on the Adobe Campaign server]**　通訊協定對應於包含要復原的檔案的存放庫。
-元字元或通配符(例如 &#42; 或？) 可用於篩選檔案。
+中繼字元或萬用字元(例如 &#42; 或？) 可用於篩選檔案。
 
 選取是否 **[!UICONTROL Define a file path]** 或 **[!UICONTROL Use a dynamic file path]**
 **[!UICONTROL Use a dynamic file path]**　選項可讓您使用標準運算式和事件變數來個人化要傳輸的檔案名稱。如需詳細資訊，請參閱[此頁面](../../automating/using/customizing-workflow-external-parameters.md)。
@@ -155,7 +155,7 @@ Microsoft Azure Blob　通訊協定可讓您存取位於　Microsoft Azure Blob�
 
 例如：
 
-`user&lt;yourinstancename>/my_recipients.csv` 正確。
+`user&lt;yourinstancename>/my_recipients.csv` 是正確的。
 
 `../hello/my_recipients.csv` 不正確。
 
@@ -181,11 +181,11 @@ Microsoft Azure Blob　通訊協定可讓您存取位於　Microsoft Azure Blob�
 
 ## 輸出變數 {#output-variables}
 
-的 **[!UICONTROL Transfer file]** 活動將生成事件變數作為輸出，您可以在其他活動中利用這些變數，例如使用 [Test](../../automating/using/test.md) 的子菜單。
+此 **[!UICONTROL Transfer file]** 活動會產生事件變數作為輸出，以便您在其他活動中運用，例如使用 [測試](../../automating/using/test.md) 活動。
 
-請注意，事件變數也可以使用外部信號傳遞到另一個工作流(請參見 [使用外部參數自定義工作流](../../automating/using/customizing-workflow-external-parameters.md))。
+請注意，事件變數也可以使用外部訊號傳遞至另一個工作流程(請參閱 [使用外部引數自訂工作流程](../../automating/using/customizing-workflow-external-parameters.md))。
 
-可用的輸出變數有：
+可用的輸出變數包括：
 
-* **[!UICONTROL fileName]**:已傳輸檔案的名稱。
-* **[!UICONTROL filesCount]**:已傳輸檔案數。
+* **[!UICONTROL fileName]**：已傳輸檔案的名稱。
+* **[!UICONTROL filesCount]**：已傳輸的檔案數。

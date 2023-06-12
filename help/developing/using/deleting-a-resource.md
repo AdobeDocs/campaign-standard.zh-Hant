@@ -17,18 +17,18 @@ ht-degree: 16%
 
 # 刪除資源{#deleting-a-resource}
 
-要刪除資源，所涉資源必須是 **[!UICONTROL Draft]**。 資源在 **[!UICONTROL Draft]** 狀態（如果）:
+若要刪除資源，相關資源必須是 **[!UICONTROL Draft]**. 資源位於 **[!UICONTROL Draft]** 狀態，如果：
 
-* 它剛剛建立，尚未發佈。
-* 如果已經發佈，則必須重新起草資源。
+* 它剛剛建立且尚未發佈。
+* 如果已發佈，則必須重新起草資源。
 
 >[!IMPORTANT]
 >
->重新起草和刪除自定義資源是會影響其他資源的敏感操作。 這些操作只能由專家用戶執行。
+>重新起草和刪除自訂資源是敏感性作業，可能會影響其他資源。 這些動作只能由專家使用者執行。
 
-要重新擬定和刪除已發佈的資源，請執行以下操作：
+若要重新草稿並刪除已發佈的資源：
 
-1. 選擇要重新繪製的資源。
+1. 選取您要重新草擬的資源。
 1. 按一下動作列中的 **[!UICONTROL Re-draft]** 按鈕。
 
    ![](assets/schema_extension_uc26.png)
@@ -37,24 +37,24 @@ ht-degree: 16%
 
    >[!IMPORTANT]
    >
-   >這一行動是明確的：在發佈修改時，資源的資料庫表或列及其資料將被永久刪除，這可能導致來自其他自定義資源的連結斷開。 只有資源定義仍可用。
+   >此動作是確定的：資源的資料庫表格或欄及其資料將在修改發佈時永久刪除，這可能會導致其他自訂資源的連結中斷。 只有資源定義仍可繼續使用。
 
    ![](assets/schema_extension_uc27.png)
 
    >[!NOTE]
    >
-   >如果重新繪製出現的 **配置檔案（配置檔案）** 資源，您還必須重新擬定任何 **Test配置檔案(seedMember)** 擴展。 有關擴展配置檔案資源的詳細資訊，請參閱 [此部分](../../developing/using/extending-the-profile-resource-with-a-new-field.md)。
+   >如果您重新草擬現成可用的擴充功能 **設定檔（設定檔）** 資源，您也必須重新草擬任何 **測試設定檔(seedMember)** 您可能已定義的擴充功能。 如需擴充設定檔資源的詳細資訊，請參閱 [本節](../../developing/using/extending-the-profile-resource-with-a-new-field.md).
 
-1. 發佈資源。有關更詳細的步驟，請參閱 [發佈自定義資源](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)。
+1. 發佈資源。如需詳細步驟，請參閱 [發佈自訂資源](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
 
-   然後資源將進入 **草稿** 模式及其激活狀態 **[!UICONTROL Inactive]**。
+   然後，資源進入 **草稿** 模式及其啟用狀態為 **[!UICONTROL Inactive]**.
 
-1. 在 **[!UICONTROL List]** 模式，檢查要刪除的資源，然後按一下 ![](assets/delete_darkgrey-24px.png) **[!UICONTROL Delete element]** 表徵圖
+1. 在 **[!UICONTROL List]** 模式，檢查要刪除的資源，然後按一下 ![](assets/delete_darkgrey-24px.png) **[!UICONTROL Delete element]** 圖示。
 
    ![](assets/schema_extension_uc28.png)
 
-您的資源將從資料模型中刪除。
+您的資源會從資料模型刪除。
 
 >[!NOTE]
 >
->如果修改或刪除用於事件之自訂資源的欄位，則相對應的事件將會自動取消發佈。請參閱 [取消發佈事務性事件](../../channels/using/publishing-transactional-event.md#unpublishing-an-event)。
+>如果修改或刪除用於事件之自訂資源的欄位，則相對應的事件將會自動取消發佈。另請參閱 [取消發佈交易式事件](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).

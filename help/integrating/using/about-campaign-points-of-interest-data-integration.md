@@ -1,6 +1,6 @@
 ---
 title: 關於 Campaign-Points of Interest 資料整合
-description: 通過從您的移動應用程式的訂戶收集興趣點資料，通過在Adobe Campaign的整合，向您的訂戶發送基於位置的營銷消息。
+description: 從行動應用程式的訂閱者收集興趣點資料，並透過Adobe Campaign中的整合傳送位置型行銷訊息給訂閱者。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
@@ -17,12 +17,12 @@ ht-degree: 6%
 
 # 關於 Campaign-Points of Interest 資料整合{#about-campaign-points-of-interest-data-integration}
 
-除了跟蹤客戶的線上狀態外，您還可以利用客戶的物理位置。 通過與Adobe Analytics的Mobile整合，您可以使用Adobe Campaign向移動應用程式的訂戶發送基於位置的營銷消息。
+除了追蹤客戶的線上狀態外，您還可以利用客戶的實體位置。 透過與適用於行動裝置的Adobe Analytics整合，您可以使用Adobe Campaign傳送位置型行銷訊息給行動應用程式的訂閱者。
 
-興趣點由緯度、經度和與標籤關聯的半徑組成。 它們在 [Adobe移動服務](https://experienceleague.adobe.com/docs/mobile-services/using/home.html) 。
+地標是由緯度、經度以及與標籤相關聯的半徑所組成。 這些規則會在以下位置定義： [Adobe行動服務](https://experienceleague.adobe.com/docs/mobile-services/using/home.html) 介面。
 
-當Experience Cloud開啟您的移動應用程式時，如果該位置與感興趣點匹配，Adobe Campaign會通過訂閱移動軟體開發工具包捕獲資料。 您可以使用此資訊根據用戶的位置（如電子郵件、推送通知、SMS消息）發送個性化消息。
+當訂閱者開啟您的行動應用程式時，如果位置符合Point of Interest，Adobe Campaign會透過Experience Cloud行動SDK擷取資料。 您可以使用此資訊根據使用者的位置傳送個人化訊息（例如電子郵件、推播通知、簡訊訊息）。
 
-例如，您可以向使用您的應用程式並在過去兩週內訪問您波士頓的一家商店的客戶發送10%的折扣優惠。
+例如，您可以傳送10%的折扣優惠給客戶，讓他們使用您的應用程式，並在過去兩週內造訪您位於波士頓的一家商店。
 
-在 [使用興趣點資料個性化市場活動消息](../../integrating/using/personalizing-campaign-messages-with-point-of-interest-data.md) 的子菜單。
+使用案例會顯示在中 [使用Point of Interest資料個人化Campaign訊息](../../integrating/using/personalizing-campaign-messages-with-point-of-interest-data.md) 區段。

@@ -1,6 +1,6 @@
 ---
 title: 關於存取管理
-description: 瞭解如何使用角色、組和組織單位管理Adobe Campaign操作員
+description: 瞭解如何使用角色、群組和組織單位來管理Adobe Campaign運運算元
 audience: administration
 feature: Access Management
 role: Admin
@@ -28,11 +28,11 @@ Adobe Campaign 可讓您定義並管理指派給不同使用者的權限。權�
 
 平台的功能管理員可在 **[!UICONTROL Administration > Users & Security]** 功能表下方管理角色、群組和組織單位。
 
-![用戶管理菜單](assets/user_management_1.png)
+![User Management功能表](assets/user_management_1.png)
 
-用戶在Admin Console中管理。 在 [管理組和用戶](../../administration/using/managing-groups-and-users.md) 的 [Admin Console文檔](https://helpx.adobe.com/tw/enterprise/managing/user-guide.html)。
+在Admin Console中管理使用者。 進一步瞭解 [管理群組和使用者](../../administration/using/managing-groups-and-users.md) 區段和 [Admin Console檔案](https://helpx.adobe.com/tw/enterprise/managing/user-guide.html).
 
-![訪問產品配置檔案](assets/user_management_6.png)
+![存取產品設定檔](assets/user_management_6.png)
 
 >[!IMPORTANT]
 >

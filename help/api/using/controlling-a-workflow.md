@@ -1,6 +1,6 @@
 ---
 title: 控管工作流程
-description: 瞭解如何使用API控制工作流。
+description: 瞭解如何使用API控制工作流程。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -17,26 +17,26 @@ ht-degree: 13%
 
 # 控管工作流程 {#controlling-a-workflow}
 
-您可以通過包含工作流ID和所需執行命令的POST請求直接從REST API控制工作流：
+您可以透過包含工作流程ID和所需執行命令的POST請求，直接從REST API控制工作流程：
 
 `POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>/commands`
 
 >[!CAUTION]
 >
->如果在Adobe Campaign更改了工作ID，則API請求將不再工作。
+>如果工作流程ID在Adobe Campaign中變更，API請求將無法再運作。
 
-有四個執行命令可用於控制工作流：
+有四個執行命令可用於控制工作流程：
 
 * 開始
 * 暫停
 * 繼續
 * 停止
 
-有關執行命令的詳細資訊，請參閱 [市場活動文檔](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/about-workflow-execution.html)。
+如需執行命令的詳細資訊，請參閱 [Campaign檔案](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/about-workflow-execution.html).
 
 <br/>
 
-***示例請求***
+***範例請求***
 
 * 開始工作流程.
 
@@ -52,7 +52,7 @@ ht-degree: 13%
 
    <!-- + réponse -->
 
-* 停止工作流。
+* 停止工作流程。
 
    ```
    -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>/commands \

@@ -14,26 +14,26 @@ ht-degree: 31%
 
 ---
 
-# 訂閱事件(nms:rtEvent)
+# 訂閱事件(nms：rtEvent)
 
-## 對象描述
+## 物件說明
 
 <table>
     <tr>
         <th>名稱</th>
         <th>標籤</th>
-        <th>類型（長度）</th>
+        <th>型別（長度）</th>
         <th>分項清單值</th>
     </tr>
     <tr>
         <td>PKey</td>
-        <td>主資源ID</td>
+        <td>主要資源ID</td>
         <td>字串 </td>
         <td> </td>
     </tr>
     <tr>
         <td>ctx</td>
-        <td>事件上下文</td>
+        <td>事件內容</td>
         <td>項目 </td>
         <td> </td>
     </tr>
@@ -46,31 +46,31 @@ ht-degree: 31%
     <tr>
         <td>電子郵件格式</td>
         <td>電子郵件格式</td>
-        <td>枚舉（位元組） </td>
+        <td>分項清單（位元） </td>
         <td>
             <ul>
-            <li>文本 — 文本 — 1</li>
+            <li>文字 — 文字 — 1</li>
             <li>HTML- html - 2</li>
-            <li>無效值 — __Invalid_value_ - __Invalid_value__</li>
+            <li>無效值 — __Invalid_value__ - __Invalid_value__</li>
             <li>未知 — 未知 — 0</li>
             </ul>
         </td>
     </tr>
     <tr>
-        <td>事件HistoId</td>
-        <td>存檔事件ID</td>
+        <td>eventHistoId</td>
+        <td>已封存的事件ID</td>
         <td>整數 </td>
         <td> </td>
     </tr>
     <tr>
-        <td>手機</td>
+        <td>行動電話</td>
         <td>行動電話號碼</td>
         <td>字串(32)</td>
         <td> </td>
     </tr>
     <tr>
-        <td>伺服器URL</td>
-        <td>伺服器URL</td>
+        <td>serverUrl</td>
+        <td>ServerUrl</td>
         <td>字串 </td>
         <td> </td>
     </tr>
@@ -78,7 +78,7 @@ ht-degree: 31%
 
 ## 篩選
 
-按電子郵件（按電子郵件）
+透過電子郵件（透過電子郵件）
 
 <table>
     <tr>
@@ -91,7 +91,7 @@ ht-degree: 31%
     </tr>
 </table>
 
-按狀態或類型（按StatusOrType）
+依狀態或型別(byStatusOrType)
 
 <table>
         <tr>
@@ -100,7 +100,7 @@ ht-degree: 31%
         </tr>
         <tr>
         <td>狀態</td>
-        <td>枚舉</td>
+        <td>分項清單</td>
         </tr>
         <tr>
         <td>類型</td>

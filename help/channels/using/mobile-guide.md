@@ -1,6 +1,6 @@
 ---
 title: Campaign Standard　行動指南
-description: 瞭解有關Adobe Campaign Standard移動交付的一般准則的更多資訊，例如如何配置移動應用程式或建立推送通知和應用內消息。
+description: 進一步瞭解Adobe Campaign Standard中行動傳送的一般准則，例如如何設定行動應用程式或建立推播通知和應用程式內訊息。
 audience: channels
 content-type: reference
 topic-tags: mobile-guide
@@ -19,40 +19,40 @@ ht-degree: 25%
 
 <table style="table-layout:fixed">
 <tr>
-<td><img src="assets/do-not-localize/config_push.png" width="60px"><p>瞭解如何配置移動應用程式以進行推送通知 </br><a href="#configuration-push">按一下這裡</a></p></td>
-<td><img src="assets/do-not-localize/config_inapp.png" width="60px"><p>瞭解如何為In-App消息配置移動應用程式 </br><a href="#configuring-mobile-app">按一下這裡</a></p></td>
+<td><img src="assets/do-not-localize/config_push.png" width="60px"><p>瞭解如何設定推播通知的行動應用程式 </br><a href="#configuration-push">按一下這裡</a></p></td>
+<td><img src="assets/do-not-localize/config_inapp.png" width="60px"><p>瞭解如何設定行動應用程式的應用程式內訊息 </br><a href="#configuring-mobile-app">按一下這裡</a></p></td>
 </tr>
 <tr>
-<td><img src="assets/do-not-localize/push2.png" width="60px"><p>瞭解有關如何建立推送通知的詳細資訊 </br><a href="#create-push">按一下這裡</a></p></td>
-<td><img src="assets/do-not-localize/inapp.png" width="60px"><p>瞭解如何建立In-App消息</br><a href="#create-inapp">按一下這裡</a></p></td></tr>
+<td><img src="assets/do-not-localize/push2.png" width="60px"><p>進一步瞭解如何建立推播通知 </br><a href="#create-push">按一下這裡</a></p></td>
+<td><img src="assets/do-not-localize/inapp.png" width="60px"><p>瞭解如何建立應用程式內訊息</br><a href="#create-inapp">按一下這裡</a></p></td></tr>
 </table>
 
-## 關於移動交付 {#about-mobile}
+## 關於行動傳送 {#about-mobile}
 
-Adobe Campaign允許您通過各種渠道建立和發送個性化消息，並通過專用報告衡量其有效性。
+Adobe Campaign可讓您在不同通道上建立和傳送個人化訊息，並透過專用報告衡量其成效。
 
-使用Adobe Campaign Standard，您可以通過三個不同渠道發送移動交付：
+透過Adobe Campaign Standard，您可以透過三個不同的管道傳送行動傳送：
 
-* SMS，在「關於SMS消息」部分中顯示。
-* 推送通知，顯示在「關於推送通知」部分。
-* In-App消息，顯示在About In-App消息部分。
+* SMS，顯示在關於SMS訊息區段。
+* 推播通知，顯示在關於推播通知區段。
+* 應用程式內訊息，顯示在關於應用程式內訊息區段。
 
-## 配置移動應用程式以進行推送通知 {#configuration-push}
+## 設定推播通知的行動應用程式 {#configuration-push}
 
 <table style="table-layout:fixed">
 <tr>
   <td>
     <div>
-    <p><strong>使用Adobe Experience PlatformSDK配置移動應用程式</strong></p>
+    <p><strong>使用Adobe Experience Platform SDK設定行動應用程式</strong></p>
     </div>
-    <p>要發送In-App消息和推送通知，您的移動應用程式需要利用Adobe Experience PlatformSDK在Adobe Campaign設定。</br><a href="../../administration/using/configuring-a-mobile-application.md"><strong>按一下這裡</strong></a>以獲得更多資訊。</p>
+    <p>若要傳送應用程式內訊息和推播通知，您必須運用Adobe Experience Platform SDK，在Adobe Campaign中設定您的行動應用程式。</br><a href="../../administration/using/configuring-a-mobile-application.md"><strong>按一下這裡</strong></a>以獲得更多資訊。</p>
     <br>
   </td>
   <td>
     <div>
-    <p><strong>瞭解Campaign Standard推送通知負載結構</strong></p>
+    <p><strong>瞭解Campaign Standard推播通知裝載結構</strong></p>
     </div>
-    <p>瞭解在成功將推送通知發送到來自Adobe Campaign Standard的應用程式時在移動應用程式中接收的負載結構的詳細資訊。</br><a href="../../administration/using/push-payload.md"><strong>按一下這裡</strong></a>以獲得更多資訊。</p>
+    <p>進一步瞭解當推送通知成功從Adobe Campaign Standard傳送至應用程式時，行動應用程式中收到之裝載的結構。</br><a href="../../administration/using/push-payload.md"><strong>按一下這裡</strong></a>以獲得更多資訊。</p>
     <br>
   </td>
 </tr>
@@ -61,35 +61,35 @@ Adobe Campaign允許您通過各種渠道建立和發送個性化消息，並通
     <div>
     <p><strong>實施本機通知追蹤</strong></p>
     </div>
-    <p>在此處瞭解如何確保正確實施本地通知跟蹤。 </br><a href="../../administration/using/local-tracking.md"><strong>按一下這裡</strong></a>以獲得更多資訊。</p>
+    <p>在此處瞭解如何確保本機通知追蹤已正確實作。 </br><a href="../../administration/using/local-tracking.md"><strong>按一下這裡</strong></a>以獲得更多資訊。</p>
     <br>
   </td>
   <td>
     <div>
-    <p><strong>實現推式跟蹤</strong></p>
+    <p><strong>實作推播追蹤</strong></p>
     </div>
-    <p>瞭解如何確保推送通知跟蹤已在iOS和Android上正確實施。</br><a href="../../administration/using/push-tracking.md"><strong>按一下這裡</strong></a>以獲得更多資訊。</p>
+    <p>瞭解如何確保在iOS和Android上正確實作推播通知追蹤。</br><a href="../../administration/using/push-tracking.md"><strong>按一下這裡</strong></a>以獲得更多資訊。</p>
     <br>
   </td>
 </tr>
 </table>
 
-## 為In-App消息配置移動應用程式 {#configuring-mobile-app}
+## 設定應用程式內訊息的行動應用程式 {#configuring-mobile-app}
 
 <table style="table-layout:fixed">
 <tr>
   <td>
     <div>
-    <p><strong>使用Adobe Experience PlatformSDK配置移動應用程式</strong></p>
+    <p><strong>使用Adobe Experience Platform SDK設定行動應用程式</strong></p>
     </div>
-    <p>要發送In-App消息和推送通知，您的移動應用程式需要利用Adobe Experience PlatformSDK在Adobe Campaign設定。</br><a href="../../administration/using/configuring-a-mobile-application.md"><strong>按一下這裡</strong></a>以獲得更多資訊。</p>
+    <p>若要傳送應用程式內訊息和推播通知，您必須運用Adobe Experience Platform SDK，在Adobe Campaign中設定您的行動應用程式。</br><a href="../../administration/using/configuring-a-mobile-application.md"><strong>按一下這裡</strong></a>以獲得更多資訊。</p>
     <br>
   </td>
   <td>
     <div>
-    <p><strong>使用Adobe Experience PlatformSDK支援的移動使用案例</strong></p>
+    <p><strong>使用Adobe Experience Platform SDK支援的行動使用案例</strong></p>
     </div>
-    <p>瞭解有關使用Adobe Experience PlatformSDK在Adobe Campaign Standard支援的移動使用案例的更多資訊。</br><a href="../../administration/using/supported-mobile-use-cases.md"><strong>按一下這裡</strong></a>以獲得更多資訊。</p>
+    <p>進一步瞭解Adobe Campaign Standard支援的行動使用案例，透過使用Adobe Experience Platform SDK來達成。</br><a href="../../administration/using/supported-mobile-use-cases.md"><strong>按一下這裡</strong></a>以獲得更多資訊。</p>
     <br>
   </td>
 </tr>
@@ -98,14 +98,14 @@ Adobe Campaign允許您通過各種渠道建立和發送個性化消息，並通
     <div>
     <p><strong>設定標籤規則以支援 Adobe Campaign Standard 使用案例</strong></p>
     </div>
-    <p><a href="../../administration/using/configuring-rules-launch.md"><strong>按一下這裡</strong></a> 開始在資料收集UI中建立資料元素和規則，以將PII和其他資料從移動應用程式發送到Adobe Campaign Standard。</p>
+    <p><a href="../../administration/using/configuring-rules-launch.md"><strong>按一下這裡</strong></a> 開始在Data Collection UI中建立資料元素和規則，以將PII和其他資料從行動應用程式傳送到Adobe Campaign Standard。</p>
     <br>
   </td>
   <td>
     <div>
     <p><strong>實施本機通知追蹤</strong></p>
     </div>
-    <p>在此處瞭解如何確保正確實施本地通知跟蹤。 </br><a href="../../administration/using/local-tracking.md"><strong>按一下這裡</strong></a>以獲得更多資訊。</p>
+    <p>在此處瞭解如何確保本機通知追蹤已正確實作。 </br><a href="../../administration/using/local-tracking.md"><strong>按一下這裡</strong></a>以獲得更多資訊。</p>
     <br>
   </td>
 </tr>
@@ -119,14 +119,14 @@ Adobe Campaign允許您通過各種渠道建立和發送個性化消息，並通
     <div>
     <p><strong>準備和傳送推送通知</strong></p>
     </div>
-    <p><a href="../../channels/using/preparing-and-sending-a-push-notification.md"><strong>在此處瞭解</strong></a> 如何準備推送通知，以及如何將其發送給目標受眾。</p>
+    <p><a href="../../channels/using/preparing-and-sending-a-push-notification.md"><strong>在此處瞭解</strong></a> 如何準備推播通知，以及如何將其傳送給目標對象。</p>
     <br>
   </td>
   <td>
     <div>
     <p><strong>自訂推送通知</strong></p>
     </div>
-    <p>為了優化您的交付，Adobe Campaign允許您在設計推送通知時訪問一組選項。</br><a href="../../channels/using/customizing-a-push-notification.md"><strong>按一下這裡</strong></a>以獲得更多資訊。</p>
+    <p>為了微調您的傳送，Adobe Campaign可讓您在設計推播通知時存取一組選項。</br><a href="../../channels/using/customizing-a-push-notification.md"><strong>按一下這裡</strong></a>以獲得更多資訊。</p>
     <br>
   </td>
 </tr>
@@ -135,20 +135,20 @@ Adobe Campaign允許您通過各種渠道建立和發送個性化消息，並通
     <div>
     <p><strong>建立多語言推送通知</strong></p>
     </div>
-    <p>通過根據用戶首選的語言和區域發送消息來個性化推送通知內容。</br><a href="../../channels/using/creating-a-multilingual-push-notification.md"><strong>按一下這裡</strong></a>以獲得更多資訊。</p>
+    <p>根據使用者偏好的語言和地區傳送訊息，個人化您的推播通知內容。</br><a href="../../channels/using/creating-a-multilingual-push-notification.md"><strong>按一下這裡</strong></a>以獲得更多資訊。</p>
     <br>
   </td>
   <td>
     <div>
     <p><strong>從 Adobe Campaign Standard 推播通知顯示影像</strong></p>
     </div>
-    <p><a href="../../administration/using/image-push-notification.md"><strong>在此處瞭解</strong></a> 如何在iOS設備上顯示來自Adobe Campaign推送通知的影像。</p>
+    <p><a href="../../administration/using/image-push-notification.md"><strong>在此處瞭解</strong></a> 如何在iOS裝置上顯示Adobe Campaign推播通知的影像。</p>
     <br>
   </td>
 </tr>
 </table>
 
-## 建立應用內消息 {#create-inapp}
+## 建立應用程式內訊息 {#create-inapp}
 
 <table style="table-layout:fixed">
 <tr>
@@ -156,14 +156,14 @@ Adobe Campaign允許您通過各種渠道建立和發送個性化消息，並通
     <div>
     <p><strong>準備和傳送應用程式內訊息</strong></p>
     </div>
-    <p><a href="../../channels/using/preparing-and-sending-an-in-app-message.md"><strong>在此處瞭解</strong></a> 如何準備In-App消息，以及如何將其發送給目標受眾。</p>
+    <p><a href="../../channels/using/preparing-and-sending-an-in-app-message.md"><strong>在此處瞭解</strong></a> 如何準備應用程式內訊息，然後如何將其傳送給您的目標對象。</p>
     <br>
   </td>
   <td>
     <div>
-    <p><strong>自定義應用內消息</strong></p>
+    <p><strong>自訂您的應用程式內訊息</strong></p>
     </div>
-    <p>為了優化您的交付，Adobe Campaign允許您在設計In-App時訪問一組高級選項。</br><a href="../../channels/using/customizing-an-in-app-message.md"><strong>按一下這裡</strong></a>以獲得更多資訊。</p>
+    <p>為了微調您的傳送，Adobe Campaign可讓您在設計應用程式內時存取一組進階選項。</br><a href="../../channels/using/customizing-an-in-app-message.md"><strong>按一下這裡</strong></a>以獲得更多資訊。</p>
     <br>
   </td>
 </tr>
@@ -179,13 +179,13 @@ Adobe Campaign允許您通過各種渠道建立和發送個性化消息，並通
     <div>
     <p><strong>應用程式內報告</strong></p>
     </div>
-    <p>In-App報告提供了與In-App交付相關的詳細資訊。</br><a href="../../reporting/using/in-app-report.md"><strong>按一下這裡</strong></a>以獲得更多資訊。</p>
+    <p>應用程式內報表提供與應用程式內傳遞相關的詳細資訊。</br><a href="../../reporting/using/in-app-report.md"><strong>按一下這裡</strong></a>以獲得更多資訊。</p>
     <br>
   </td>
 </tr>
 </table>
 
-## 建立SMS消息 {#create-sms}
+## 建立簡訊訊息 {#create-sms}
 
 <table style="table-layout:fixed">
 <tr>
@@ -193,15 +193,15 @@ Adobe Campaign允許您通過各種渠道建立和發送個性化消息，並通
     <div>
     <p><strong>建立簡訊訊息</strong></p>
     </div>
-    <p>建立簡訊傳送與建立一般電子郵件非常類似。</br>步驟 <a href="../../channels/using/creating-an-sms-message.md"><strong>詳細</strong></a> 描述特定於此通道的配置。</br></p>
+    <p>建立簡訊傳送與建立一般電子郵件非常類似。</br>步驟 <a href="../../channels/using/creating-an-sms-message.md"><strong>詳細資訊見此處</strong></a> 說明此通道的特定設定。</br></p>
     <br>
   </td>
   <td>
     <div>
-    <p><strong>自定義SMS消息
+    <p><strong>自訂簡訊
 </strong></p>
     </div>
-    <p>為了優化您的傳送，Adobe Campaign允許您在設計簡訊時訪問一組高級選項。</br><a href="../../channels/using/sms-and-push-content-editor-interface.md"><strong>按一下這裡以獲得更多資訊。</br><a href="../../channels/using/sms-and-push-content-editor-interface.md"><strong></p>
+    <p>為了微調您的傳送，Adobe Campaign可讓您在設計SMS訊息時存取一組進階選項。</br><a href="../../channels/using/sms-and-push-content-editor-interface.md"><strong>按一下這裡以獲得更多資訊。</br><a href="../../channels/using/sms-and-push-content-editor-interface.md"><strong></p>
     <br>
   </td>
 </tr>
@@ -210,28 +210,28 @@ Adobe Campaign允許您通過各種渠道建立和發送個性化消息，並通
     <div>
     <p><strong>管理傳入的簡訊</strong></p>
     </div>
-    <p>當配置檔案答復通過市場活動發送的SMS消息時，您可以配置自動發回給它們的消息以及要執行的操作。自定義本地通知消息類型</br><a href="../../channels/using/managing-incoming-sms.md"><strong>按一下這裡瞭解詳細資訊。</br><a href="../../channels/using/managing-incoming-sms.md"><strong></p>
+    <p>當設定檔回覆透過Campaign傳送的SMS訊息時，您可以設定自動傳回給他們的訊息以及要執行的動作。自訂本機通知訊息型別</br><a href="../../channels/using/managing-incoming-sms.md"><strong>按一下這裡以取得詳細資訊。</br><a href="../../channels/using/managing-incoming-sms.md"><strong></p>
     <br>
   </td>
   <td>
     <div>
     <p><strong>簡訊報告</strong></p>
     </div>
-    <p>SMS報告提供有關SMS交付的詳細資訊，如交付和彈跳率。</br><a href="../../reporting/using/sms-report.md"><strong>按一下這裡</strong></a>以獲得更多資訊。</p>
+    <p>SMS報表提供SMS傳送的詳細資訊，例如傳送率和跳出率。</br><a href="../../reporting/using/sms-report.md"><strong>按一下這裡</strong></a>以獲得更多資訊。</p>
     <br>
   </td>
 </tr>
 </table>
 
-## 移動故障排除 {#mobile-troubleshooting}
+## 行動裝置疑難排解 {#mobile-troubleshooting}
 
-以下頁面將幫助您解決在Adobe Campaign Classic使用移動交付時遇到的最常見問題。
+下列頁面將協助您解決在Adobe Campaign Classic中使用行動傳送時最常見的問題。
 
 <table style="table-layout:fixed">
 <tr>
   <td>
     <div>
-    <p><strong>推送通知常見問題</strong></p>
+    <p><strong>推播通知常見問題集</strong></p>
     </div>
     <p><a href="../../channels/using/about-push-notifications.md#push-faq"><strong>按一下這裡以獲得更多資訊。</p>
   </td>

@@ -24,19 +24,19 @@ ht-degree: 96%
 
 設計登錄頁面時，您需要定義頁面本身、確認頁面及錯誤頁面的內容。使用動作列下方的切換器，以顯示和設定其中的每個頁面。
 
-登錄頁的內容是通過市場活動內容編輯器設計的。
+登入頁面的內容是透過Campaign內容編輯器設計。
 
 >[!NOTE]
 >
->在電子郵件設計方面，如果您的實例是在Adobe Campaign Standard19.0版之前安裝的，您仍然可以訪問舊式電子郵件內容編輯器。 登錄頁面的介面、使用原則和設定大致與下述相同。但是，舊版電子郵件內容編輯器中可能無法使用或維護所有功能，因為此編輯器自 19.0 版起即已淘汰。若要透過具有擴充功能的拖放介面快速來編輯電子郵件內容，請使用[電子郵件設計工具](../../designing/using/designing-content-in-adobe-campaign.md)。
+>對於電子郵件設計，如果您的執行個體是在Adobe Campaign Standard 19.0版本之前安裝，則仍可存取舊版電子郵件內容編輯器。 登錄頁面的介面、使用原則和設定大致與下述相同。但是，舊版電子郵件內容編輯器中可能無法使用或維護所有功能，因為此編輯器自 19.0 版起即已淘汰。若要透過具有擴充功能的拖放介面快速來編輯電子郵件內容，請使用[電子郵件設計工具](../../designing/using/designing-content-in-adobe-campaign.md)。
 
 此頁面說明登錄頁面內容編輯器的特異性。如需一或多個行銷活動常見動作的詳細資訊，請參閱&#x200B;**設計電子郵件內容**&#x200B;指南中的下列區段：
 
 * [插入個人化欄位](../../designing/using/personalization.md#inserting-a-personalization-field)
-* [添加內容塊](../../designing/using/personalization.md#adding-a-content-block)
+* [新增內容區塊](../../designing/using/personalization.md#adding-a-content-block)
 * [插入連結](../../designing/using/links.md#inserting-a-link)
 * [插入影像](../../designing/using/images.md)
-* [內容設計的一般最佳做法](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices)
+* [內容設計的一般最佳實務](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices)
 
 >[!NOTE]
 >如果您有以 HTML 格式預先定義的登錄頁面，則可使用 **[!UICONTROL Change content]** 按鈕直接匯入頁面。

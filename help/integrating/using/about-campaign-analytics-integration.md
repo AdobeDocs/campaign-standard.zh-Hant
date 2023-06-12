@@ -1,6 +1,6 @@
 ---
 title: 關於 Campaign-Analytics 整合
-description: 通過從Adobe Campaign Standard收集KPI資料，您現在可以與Adobe Analytics共用市場活動資料，以衡量來自Adobe Campaign的電子郵件營銷指標。
+description: 透過從Adobe Campaign Standard收集KPI資料，您現在可以與Adobe Analytics共用行銷活動資料，以測量來自Adobe Campaign的電子郵件行銷量度。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
@@ -17,21 +17,21 @@ ht-degree: 6%
 
 # 關於 Campaign-Analytics 整合{#about-campaign-analytics-integration}
 
-多虧Adobe Analytics在Adobe Campaign的整合，您現在可以直接在Adobe Analytics跟蹤您電子郵件發送的成功。
+有了Adobe Campaign中的Adobe Analytics整合，您現在可以直接在Adobe Analytics中追蹤電子郵件傳送的成功情況。
 
-Adobe Campaign Standard和Adobe Analytics的整合將允許您：
+Adobe Campaign Standard與Adobe Analytics之間的這項整合可讓您：
 
-* 將KPI（主要績效指標）資料從Adobe Campaign Standard共用到Adobe Analytics。
-* 用Adobe Analytics參數豐富了跟蹤公式。
+* 將您的KPI （關鍵績效指標）資料從Adobe Campaign Standard分享到Adobe Analytics。
+* 使用Adobe Analytics引數豐富追蹤公式。
 
-這將首先建立一個與Adobe Analytics連結的外部帳戶。 然後，技術工作流將自動啟動，預設情況下每15分鐘自動執行一次。 然後，您的KPI資料將推送到分析。
+首先，建立連結至Adobe Analytics的外部帳戶即可解決問題。 然後，技術工作流程將自動啟動，並預設每15分鐘自動執行一次。 接著會將您的KPI資料推送至Analytics。
 
-此整合僅適用於電子郵件遞送。
+此整合僅適用於電子郵件傳遞。
 
-Adobe Analytics核心服務的整合 **觸發器** Adobe Campaign也有。 它允許您向客戶發送個性化電子郵件，作為對Adobe Analytics在您的網站上跟蹤的特定行為（15分鐘內）的反應。
+Adobe Analytics核心服務之間的整合 **觸發器** 和Adobe Campaign也可使用。 它可讓您傳送個人化電子郵件給客戶，以回應Adobe Analytics在您網站上追蹤的特定行為（在15分鐘內）。
 
 **相關主題：**
 
-* [Campaign Standard到分析整合概述](https://experienceleague.adobe.com/docs/analytics/integration/adobe-campaign.html)
-* [配置Campaign Standard整合](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html)
+* [Analytics整合Campaign Standard概觀](https://experienceleague.adobe.com/docs/analytics/integration/adobe-campaign.html)
+* [設定Campaign Standard整合](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html)
 * [Analytics 中的 Campaign 維度和量度](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)

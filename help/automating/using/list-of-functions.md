@@ -35,7 +35,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->在所有活動中都提供了附加函式，這些函式允許您在調用具有外部參數的工作流後使用事件變數。 詳細資訊 [此部分](../../automating/using/customizing-workflow-external-parameters.md)。
+>所有活動中都提供其他函式，可讓您在使用外部引數呼叫工作流程後使用事件變數。 如需詳細資訊，請參閱 [本節](../../automating/using/customizing-workflow-external-parameters.md).
 
 ## 日期 {#dates}
 
@@ -220,7 +220,7 @@ ht-degree: 95%
   </tr> 
   <tr> 
    <td> <strong>ToDateTimeWithTimezone</strong><br /> </td> 
-   <td> 將字串轉換為日期+時區。<br /> 示例：ToDateTimeWithTimezone(" 2019-02-19 08:09:00"、"亞洲/德黑蘭")<br /> </td> 
+   <td> 將字串轉換為日期+時區。<br /> 範例： ToDateTimeWithTimezone ("2019-02-19 08:09:00」，「亞洲/德黑蘭」)<br /> </td> 
    <td> ToDateTimeWithTimezone(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
@@ -386,7 +386,7 @@ ht-degree: 95%
 
 ## Others {#others}
 
-此表包含其餘可用函式。
+此表格包含剩餘的可用函式。
 
 <table> 
  <tbody> 
@@ -536,12 +536,12 @@ ht-degree: 95%
   </tr> 
   <tr> 
    <td> <strong>JuxtWords</strong><br /> </td> 
-   <td> 將作為參數傳遞的兩個字串連接起來。 在傳回值中的每個字串之間新增空格。<br /> </td> 
+   <td> 串連兩個傳遞為引數的字串。 在傳回值中的每個字串之間新增空格。<br /> </td> 
    <td> JuxtWords(&lt;string&gt;, &lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>JuxtWords3</strong><br /> </td> 
-   <td> 連接作為參數傳遞的三個字串。 在傳回值中的每個字串之間新增空格。<br /> </td> 
+   <td> 串連傳遞作為引數的三個字串。 在傳回值中的每個字串之間新增空格。<br /> </td> 
    <td> JuxtWords3(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
@@ -657,7 +657,7 @@ ht-degree: 95%
   <tr> 
    <td> <strong>encryption_aescbcEncrypt</strong><br /> </td> 
    <td> 使用　AES　演算法（CBC　區塊模式）加密字元字串（第　1　參數），其中包含鍵（第　2　參數）和初始化向量（第　3　參數）。密鑰和初始化向量必須以十六進位表示(以 <strong>\x</strong>　開始)。結果將以十六進位表示，而不是 <strong>\x</strong>。<br /> 請注意，密鑰大小可以是　128　位、192　位、256　位（16、24、32　個十六進位字元），但建議您使用　256　位和與密鑰長度相同的隨機　IV。<br /> </td> 
-   <td> encryption_aescbcEncrypt(&lt;string&gt;。 &lt;string&gt;。 &lt;string&gt;)<br /> 例如：encryption_aescbcEncrypt(johndoe@example.com, "<strong>\\x0123456789ABCDEF0123456789ABCDEF</strong>", "<strong>\\x0123456789ABCDEFEDCBA9876543210</strong>「)<br /> </td> 
+   <td> encryption_aescbcEncrypt(&lt;string&gt;， &lt;string&gt;， &lt;string&gt;)<br /> 例如：encryption_aescbcEncrypt(johndoe@example.com， "<strong>\\x0123456789ABCDEF0123456789ABCDEF</strong>「， 」<strong>\\x0123456789ABCDEFFEDCBA9876543210</strong>")<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -706,9 +706,9 @@ ht-degree: 95%
    <td> Min(&lt;value&gt;)<br /> </td> 
   </tr>
   <tr>
-   <td> <strong>字串Agg</strong>，字串聚合<br /> </td>
-   <td> 返回字串類型列的值的串聯，由第二個參數中的字元分隔（預設分隔符為逗號）。<br /> </td>
-   <td> StringAgg(&lt;string values=""&gt;。&lt;separator&gt;)
+   <td> <strong>StringAgg</strong>，字串彙總<br /> </td>
+   <td> 傳回字串型別欄值的串連，並以第二個引數中的字元分隔（預設分隔符號為逗號）。<br /> </td>
+   <td> StringAgg(&lt;string values=""&gt;，&lt;separator&gt;)
   </tr>
   <tr> 
    <td> <strong>Sum</strong>, Sum<br /> </td> 

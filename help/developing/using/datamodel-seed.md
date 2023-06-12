@@ -14,20 +14,20 @@ ht-degree: 47%
 
 ---
 
-# 種子成員(nms:seedMember)
+# 種子成員(nms：seedMember)
 
-## 對象描述
+## 物件說明
 
 <table>
                <tr>
                   <th>名稱</th>
                   <th>標籤</th>
-                  <th>類型（長度）</th>
+                  <th>型別（長度）</th>
                   <th>分項清單值</th>
                </tr>
                <tr>
                   <td>PKey</td>
-                  <td>主資源ID</td>
+                  <td>主要資源ID</td>
                   <td>字串 </td>
                   <td> </td>
                </tr>
@@ -38,19 +38,19 @@ ht-degree: 47%
                   <td> </td>
                </tr>
                <tr>
-                  <td>建立</td>
-                  <td>建立時間</td>
+                  <td>已建立</td>
+                  <td>已建立</td>
                   <td>date </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>createdBy(userBase)</td>
+                  <td>createdBy (userBase)</td>
                   <td>建立者</td>
                   <td>連結 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>des</td>
+                  <td>desc</td>
                   <td>說明</td>
                   <td>字串(512)</td>
                   <td> </td>
@@ -62,7 +62,7 @@ ht-degree: 47%
                   <td> </td>
                </tr>
                <tr>
-                  <td>電子郵件呈現</td>
+                  <td>emailRender</td>
                   <td>電子郵件轉譯</td>
                   <td>布林值 </td>
                   <td> </td>
@@ -74,19 +74,19 @@ ht-degree: 47%
                   <td> </td>
                </tr>
                <tr>
-                  <td>geoUnit(geoUnitBase)</td>
+                  <td>geoUnit (geoUnitBase)</td>
                   <td>地理單位</td>
                   <td>連結 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>為外部</td>
-                  <td>是外部資源</td>
+                  <td>isExternal</td>
+                  <td>為外部資源</td>
                   <td>布林值 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>上次修改時間</td>
+                  <td>lastModified</td>
                   <td>上次修改時間</td>
                   <td>date </td>
                   <td> </td>
@@ -98,25 +98,25 @@ ht-degree: 47%
                   <td> </td>
                </tr>
                <tr>
-                  <td>營銷雲ID</td>
-                  <td>Marketing CloudID</td>
+                  <td>marketingCloudId</td>
+                  <td>MARKETING CLOUDID</td>
                   <td>字串(256)</td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>移動應用</td>
+                  <td>mobileApp</td>
                   <td>行動應用程式</td>
                   <td>項目 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>手機</td>
+                  <td>行動電話</td>
                   <td>行動裝置</td>
                   <td>字串(32)</td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>modifiedBy(userBase)</td>
+                  <td>modifiedBy (userBase)</td>
                   <td>修改者</td>
                   <td>連結 </td>
                   <td> </td>
@@ -140,7 +140,7 @@ ht-degree: 47%
                   <td> </td>
                </tr>
                <tr>
-                  <td>orgUnit(orgUnitBase)</td>
+                  <td>orgUnit (orgUnitBase)</td>
                   <td>組織單位</td>
                   <td>連結 </td>
                   <td> </td>
@@ -164,13 +164,13 @@ ht-degree: 47%
                   <td> </td>
                </tr>
                <tr>
-                  <td>註冊令牌</td>
+                  <td>registrationToken</td>
                   <td>註冊權杖</td>
                   <td>字串(256)</td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>示例資料</td>
+                  <td>sampleData</td>
                   <td>樣本資料</td>
                   <td>布林值 </td>
                   <td> </td>
@@ -182,19 +182,19 @@ ht-degree: 47%
                   <td> </td>
                </tr>
                <tr>
-                  <td>stateLink（狀態）</td>
+                  <td>stateLink (state)</td>
                   <td>狀態</td>
                   <td>連結 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>目標資料</td>
+                  <td>targetdata</td>
                   <td>擴充功能</td>
                   <td>字串 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>縮略圖</td>
+                  <td>縮圖</td>
                   <td>縮圖</td>
                   <td>字串(255)</td>
                   <td> </td>
@@ -206,7 +206,7 @@ ht-degree: 47%
                   <td> </td>
                </tr>
                <tr>
-                  <td>陷阱</td>
+                  <td>補漏白</td>
                   <td>補漏白</td>
                   <td>布林值 </td>
                   <td> </td>
@@ -215,7 +215,7 @@ ht-degree: 47%
 
 ## 篩選
 
-按事件類型（按EventType）
+依事件型別(byEventType)
 
 <table>
         <tr>
@@ -223,12 +223,12 @@ ht-degree: 47%
         <th>類型</th>
         </tr>
         <tr>
-        <td>事件類型</td>
+        <td>事件型別</td>
         <td>字串</td>
         </tr>
     </table>
 
-按名稱或標籤（按文本）
+依名稱或標籤(byText)
 
 <table>
         <tr>
@@ -236,12 +236,12 @@ ht-degree: 47%
         <th>類型</th>
         </tr>
         <tr>
-        <td>文本</td>
+        <td>文字</td>
         <td>字串</td>
         </tr>
     </table>
 
-按用法（按用法）
+依使用狀況（依使用狀況）
 
 <table>
         <tr>
@@ -249,11 +249,11 @@ ht-degree: 47%
         <th>類型</th>
         </tr>
         <tr>
-        <td>陷阱</td>
+        <td>補漏白</td>
         <td>布林值</td>
         </tr>
         <tr>
-        <td>電子郵件呈現</td>
+        <td>emailRender</td>
         <td>布林值</td>
         </tr>
         <tr>
@@ -262,7 +262,7 @@ ht-degree: 47%
         </tr>
     </table>
 
-Test配置檔案（配置檔案）
+測試設定檔（設定檔）
 
 <table>
     <tr>
@@ -270,7 +270,7 @@ Test配置檔案（配置檔案）
     <th>類型</th>
     </tr>
     <tr>
-    <td>種子成員</td>
+    <td>seedMember</td>
     <td>連結</td>
     </tr>
 </table>

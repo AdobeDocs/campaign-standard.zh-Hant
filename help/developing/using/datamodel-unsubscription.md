@@ -14,14 +14,14 @@ ht-degree: 58%
 
 ---
 
-# 取消訂閱事件(nms:rtEvent)
+# 取消訂閱事件(nms：rtEvent)
 
-## 對象描述
+## 物件說明
 
 <table>
                <tr>
                   <th>名稱</th>
-                  <th>只讀</th>
+                  <th>唯讀</th>
                   <th>類型</th>
                   <th>必要</th>
                </tr>
@@ -46,17 +46,17 @@ ht-degree: 58%
                <tr>
                   <td>電子郵件格式</td>
                   <td>False</td>
-                  <td>枚舉</td>
+                  <td>分項清單</td>
                   <td>False</td>
                </tr>
                <tr>
-                  <td>手機</td>
+                  <td>行動電話</td>
                   <td>False</td>
                   <td>字串</td>
                   <td>False</td>
                </tr>
                <tr>
-                  <td>伺服器URL</td>
+                  <td>serverUrl</td>
                   <td>True</td>
                   <td>字串</td>
                   <td>False</td>
@@ -65,7 +65,7 @@ ht-degree: 58%
 
 ## 篩選
 
-按電子郵件
+byEmail
 
 <table>
     <tr>
@@ -78,7 +78,7 @@ ht-degree: 58%
     </tr>
 </table>
 
-按狀態或類型
+byStatusOrType
 
 <table>
         <tr>
@@ -87,7 +87,7 @@ ht-degree: 58%
         </tr>
         <tr>
         <td>狀態</td>
-        <td>枚舉</td>
+        <td>分項清單</td>
         </tr>
         <tr>
         <td>類型</td>

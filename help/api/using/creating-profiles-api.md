@@ -1,6 +1,6 @@
 ---
-title: 使用API建立配置檔案
-description: 瞭解如何使用API建立配置檔案。
+title: 使用API建立設定檔
+description: 進一步瞭解如何使用API建立設定檔。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -15,21 +15,21 @@ ht-degree: 0%
 
 ---
 
-# 使用API建立配置檔案 {#creating-profiles-api}
+# 使用API建立設定檔 {#creating-profiles-api}
 
-建立配置檔案時使用 **POST** 請求。
+建立設定檔是使用 **POST** 對設定檔資源的要求。
 
 >[!CAUTION]
 >
->如果要關聯 <b>組織單位</b> 在建立的配置檔案中，您需要使用此欄位擴展配置檔案資源，並在發佈擴展後對 <b>配置檔案和服務擴展</b> 端點。
+>如果您想要關聯 <b>orgUnit</b> POST對於已建立的設定檔，您需要使用此欄位擴充設定檔資源，並在擴充功能發佈後，對 <b>設定檔與服務分機</b> 端點。
 >
->有關配置檔案資源擴展的詳細資訊，請參閱 <a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">市場活動文檔</a>。
+>如需設定檔資源擴充功能的詳細資訊，請參閱 <a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">Campaign檔案</a>.
 
 <br/>
 
-***示例請求***
+***範例請求***
 
-POST請求示例，以使用電子郵件「john.doe@mail.com」建立配置檔案。
+使用電子郵件「john.doe@mail.com」建立設定檔的範例POST請求。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
@@ -41,7 +41,7 @@ POST請求示例，以使用電子郵件「john.doe@mail.com」建立配置檔�
 -d '{"email":"john.doe@mail.com"}'
 ```
 
-它返回新建立的配置檔案，並帶有「john.doe@mail.com」電子郵件地址。
+它會傳回新建立的設定檔，並包含「john.doe@mail.com」電子郵件地址。
 
 ```
 {

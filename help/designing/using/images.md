@@ -38,7 +38,7 @@ ht-degree: 3%
 
    ![](assets/des_insert_images_1.png)
 
-1. 按一下 **[!UICONTROL Browse]**。拖放影像或按一下以從電腦中選擇檔案。
+1. 按一下 **[!UICONTROL Browse]**。拖放影像或按一下以從電腦中選取檔案。
 
    ![](assets/des_insert_images_2.png)
 
@@ -51,13 +51,13 @@ ht-degree: 3%
 
 選擇包含影像的塊時，調色板中提供以下屬性：
 
-* ****&#x200B;請參閱[個性化影像源](../../designing/using/personalization.md#personalizing-an-image-source)。
+* **啟用個性化**&#x200B;允許您自定義映像源。請參閱[個性化影像源](../../designing/using/personalization.md#personalizing-an-image-source)。
 * **影像標題**&#x200B;允許您為影像定義標題。
 * **Alt文本**（電子郵件）或&#x200B;**標題**（登錄頁）允許您定義連結到影像的標題(與&#x200B;**alt** HTML屬性對應)。
 * 編輯電子郵件時，**樣式**&#x200B;允許您指定影像大小、背景和邊框。
 * 編輯登錄頁時，**Dimension**&#x200B;允許您以像素為單位指定影像大小。
 
-編輯器允許您使用格式與瀏覽器相容的&#x200B;**所有影像類型**。要與編輯器相容， **&quot;Flash&quot;類型動畫** 必須按如下方式插入HTML頁：
+編輯器允許您使用格式與瀏覽器相容的&#x200B;**所有影像類型**。要與編輯器相容，請 **「Flash」型別的動畫** 必須插入HTML頁面中，如下所示：
 
 ```
 <object type="application/x-shockwave-flash" data="http://www.mydomain.com/flash/your_animation.swf" width="200" height="400">

@@ -1,6 +1,6 @@
 ---
 title: 簡訊報告
-description: 通過SMS現成報告，瞭解您的SMS交付成功。
+description: 透過現成可用的SMS報告，瞭解SMS傳送是否成功。
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -17,12 +17,12 @@ ht-degree: 5%
 
 # 簡訊報告{#sms-report}
 
-的 **簡訊** 報告提供了有關SMS交付的詳細資訊，如交付和彈跳率。
+此 **簡訊** 報告提供SMS傳送的詳細資訊，例如傳送率和跳出率。
 
 ![](assets/dynamic_report_sms.png)
 
-的 **簡訊摘要** 表、圖形和摘要編號包含已發送的SMS遞送的可用資料。
+此 **簡訊摘要** 表格、圖表和摘要數字包含已傳送之SMS傳送的可用資料。
 
-* **已處理/已發送**:發送的SMS數。
-* **已交付**:發送的SMS數。
-* **邊界+錯誤**:無法傳遞的消息數。
+* **已處理/已傳送**：已傳送的簡訊數量。
+* **已傳遞**：傳送的簡訊數量。
+* **退回+錯誤**：無法傳遞的訊息數。

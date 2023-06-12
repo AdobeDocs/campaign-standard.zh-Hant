@@ -16,16 +16,16 @@ ht-degree: 5%
 
 # 關於 Campaign Standard 設定{#about-campaign-standard-settings}
 
-[!DNL Campaign] 標準附帶了可配置以滿足您需要的不同應用程式元素。 例如，您可以：
+[!DNL Campaign] Standard隨附不同的應用程式元素，可依您的需求加以設定。 例如，您可以：
 
 * 設定外部帳戶，
-* 配置目標映射以管理發送交貨所需的技術設定，
+* 設定目標對應以管理傳送傳遞所需的技術設定，
 * 在應用程式內設定內部通知等。
 
-這些設定可從 **[!UICONTROL Administration]** / **[!UICONTROL Application settings]** 的子菜單。
+這些設定可從以下網址取得： **[!UICONTROL Administration]** / **[!UICONTROL Application settings]** 功能表。
 
-此外， **[!UICONTROL Options]** 菜單中的命令。 其中一些在安裝市場活動時內置，其他一些在需要時可以手動添加（可用選項因隨實例安裝的軟體包而異）。
+此外，您也可以在以下連結中找到技術選項： **[!UICONTROL Options]** 功能表，讓您更明確地設定應用程式。 其中有些是內建在安裝Campaign時，有些則可視需要手動新增（可用選項會因您執行個體所安裝的套件而異）。
 
 >[!IMPORTANT]
 >
->安裝市場活動時已配置了這些選項，並且只應由高級用戶修改。 如果您有任何疑問或請求，請聯繫您的Adobe聯繫人。
+>安裝Campaign時已設定這些選項，且僅供進階使用者修改。 如果您有任何問題或請求，請聯絡您的Adobe連絡人。

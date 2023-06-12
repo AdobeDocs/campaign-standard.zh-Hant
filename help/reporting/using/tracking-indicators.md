@@ -1,6 +1,6 @@
 ---
 title: 追蹤指標
-description: 使用「Tracking indicators out-the-fox」報告，瞭解客戶在收到電子郵件時的行為。
+description: 使用追蹤指標現成可用的報告，瞭解客戶在收到電子郵件訊息時的行為。
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -18,19 +18,19 @@ ht-degree: 2%
 
 # 追蹤指標{#tracking-indicators}
 
-的 **[!UICONTROL Tracking indicators]** 報告包含接收電子郵件後跟蹤行為的關鍵指標。
+此 **[!UICONTROL Tracking indicators]** 報告包含接收電子郵件訊息後追蹤行為的關鍵指標。
 
 >[!NOTE]
 >
->要訪問此資料，在準備傳遞時必須啟用跟蹤。
+>若要存取此資料，準備傳送時必須啟用追蹤。
 
 ![](assets/delivery_reports_2.png)
 
-的 **[!UICONTROL Tracking indicators]** 表格和 **前5個交貨** 圖形包含用於電子郵件跟蹤的可用資料，例如：
+此 **[!UICONTROL Tracking indicators]** 表格和 **前5項傳遞** 圖表包含可用於電子郵件追蹤的資料，例如：
 
-* **[!UICONTROL Delivered]**:成功發送的消息數。 引發的錯誤（邊界）將被考慮在內。 但是，不考慮投訴（垃圾郵件聲明）和郵件，如&quot;外出&quot;。
-* **開啟**:在傳遞中開啟消息的次數。
-* **按一下**:在傳遞中按一下內容的次數。
-* **未訂閱**:訂閱連結上的按一下次數。
-* **垃圾郵件：** 已將電子郵件聲明為垃圾郵件的收件人數。
-* **鏡像頁**:鏡像頁面連結上的按一下次數。
+* **[!UICONTROL Delivered]**：成功傳送的訊息數。 產生的錯誤（跳出）會納入考量。 不過，系統不會考慮申訴（垃圾郵件宣告）和離開訊息，例如「不在辦公室」。
+* **開啟**：在傳遞中開啟訊息的次數。
+* **按一下**：內容在傳遞中的點按次數。
+* **已取消訂閱**：對訂閱連結的點按次數。
+* **垃圾訊息：** 已宣告電子郵件為垃圾訊息的收件者人數。
+* **映象頁面**：對映象頁面連結的點選次數。

@@ -1,6 +1,6 @@
 ---
 title: 根據年齡群體細分
-description: 此頁根據資料庫配置檔案的年齡組呈現分段。 工作流程的目的是為每個年齡群組傳送特定電子郵件。
+description: 此頁面會根據年齡群組區分資料庫設定檔。 工作流程的目的是為每個年齡群組傳送特定電子郵件。
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -26,9 +26,9 @@ ht-degree: 66%
 
 工作流程由下列元素組成：
 
-* A [計畫程式活動](../../automating/using/segmentation.md) 指定工作流的執行日期。
-* A [查詢](../../automating/using/query.md) 活動，以針對已輸入其生日和電子郵件地址的人員的配置檔案。
-* A [分段](../../automating/using/segmentation.md) 建立3個段的活動，這些段分為不同的出站過渡：18-25歲，26-32歲，32歲以上。 區段會依據下列參數定義：
+* A [排程器活動](../../automating/using/segmentation.md) 以指定工作流程的執行日期。
+* A [查詢](../../automating/using/query.md) 已輸入其生日及電子郵件地址之人們的目標設定檔的活動。
+* A [細分](../../automating/using/segmentation.md) 建立分為不同出站轉變的3個區段的活動：18-25歲、26-32歲及超過32歲的設定檔。 區段會依據下列參數定義：
 
    ![](assets/wkf_segment_example_3.png)
 
@@ -40,4 +40,4 @@ ht-degree: 66%
 
       ![](assets/wkf_segment_example_1.png)
 
-* 安 [電子郵件傳遞](../../automating/using/email-delivery.md) 每個段的活動。
+* 一個 [電子郵件傳遞](../../automating/using/email-delivery.md) 每個區段的活動。

@@ -1,6 +1,6 @@
 ---
 title: 關於 Campaign-Experience Manager 整合
-description: 通過Adobe Experience Manager整合，您可以直接在中創AEM建內容，稍後在Adobe Campaign使用。
+description: 透過Adobe Experience Manager整合，您可以直接在AEM中建立內容，並稍後在Adobe Campaign中使用。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
@@ -17,61 +17,61 @@ ht-degree: 1%
 
 # 關於 Campaign-Experience Manager 整合{#integrating-with-experience-manager}
 
-Adobe Campaign Standard和Adobe Experience Manager之間的這種整合允許您在您的Adobe Campaign電子郵件中使用在Adobe Experience Manager建立的內容。
+Adobe Campaign Standard與Adobe Experience Manager之間的這項整合可讓您在Adobe Campaign電子郵件中使用Adobe Experience Manager中建立的內容。
 
-因此，您可以充分利用Adobe Experience Manager內容編輯功能以及Adobe Campaign的交付和資料管理功能。 請注意，您無法對從Adobe Experience Manager導入的內容執行A/Btest。
+因此，您可以充分利用Adobe Experience Manager內容編輯功能，以及Adobe Campaign的交付和資料管理功能。 請注意，您無法對從Adobe Experience Manager匯入的內容執行A/B測試。
 
-Adobe Campaign Standard相容Adobe Experience Manager6.1、6.2、6.3、6.4和6.5。以下各節概述了可以執行的操作。 有關詳細資訊，請參閱專門用於 [配置](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html) 和 [使用](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/campaign.html) 融合。
+Adobe Campaign Standard與Adobe Experience Manager 6.1、6.2、6.3、6.4和6.5相容。以下小節提供您可以執行的動作概觀。 如需詳細資訊，請參閱 [設定](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html) 和 [use](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/campaign.html) 整合。
 
 >[!NOTE]
 >
-> Adobe Campaign Standard6.5不再提供Adobe Experience Manager模板。
+> Adobe Experience Manager 6.5不再提供Adobe Campaign Standard範本。
 
-## 有關如何使用市場活動 — Experience Manager整合的提示 {#tips-aem}
+## 有關如何使用Campaign-Experience Manager整合的提示 {#tips-aem}
 
-* **瞭解與整合一起使用的模板**
+* **瞭解要與整合搭配使用的範本**
 
-   由於電子郵件模板在Adobe Experience Manager內是可編輯的，因此在Adobe Experience Manager編輯任何模板看起來都會更容易。 但某些模板並不容易被接受。 不建議為此整合而專門針對一個客戶的個性化模板，應直接在Adobe Campaign Standard編輯。
+   由於電子郵件範本可在Adobe Experience Manager中編輯，因此在Adobe Experience Manager中編輯任何範本似乎會比較容易。 但某些範本並不容易調整。 不建議針對此整合使用專屬於單一客戶的個人化範本，且應直接在Adobe Campaign Standard中編輯。
 
-   有關模板的詳細資訊，請參閱 [頁](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/templates/templates.html)。
+   如需範本的詳細資訊，請參閱此 [頁面](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/templates/templates.html).
 
-* **確保在實施過程中配置了外部化程式**
+* **請確定已在實作期間設定外部化程式**
 
-   在為Adobe Campaign Standard實施Experience Manager時配置外部化程式，可以將資源路徑轉換為URL。 這允許您使影像在頁面上可見。 如果未正確配置外部化程式，則您的電子郵件將包含損壞的影像。
+   為Adobe Campaign Standard實作Experience Manager時設定Externalizer可將資源路徑轉換為URL。 這可讓您在頁面上顯示影像。 如果未正確設定Externalizer，您的電子郵件將會包含損毀的影像。
 
-   要瞭解如何配置外部化器，請參閱 [頁](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/externalizer.html)。
+   若要瞭解如何設定外部化程式，請參閱此 [頁面](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/externalizer.html).
 
-* **組織您的電子郵件模板以避免誤用。**
+* **組織您的電子郵件範本以避免誤用。**
 
-   保持模板的有序性可確保適當的模板位於適當的資料夾中，並且不會因錯誤而選擇錯誤的模板。 在實施過程中，應建立路徑以將模板保存在正確的位置。
+   讓範本保持井然有序，可確保適當的範本位於適當的資料夾中，且不會錯誤地選擇錯誤的範本。 實施期間應建立路徑，以將範本儲存在正確位置。
 
-   有關模板的詳細資訊，請參閱 [頁](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/templates/templates.html#template-availability)。
+   如需範本的詳細資訊，請參閱此 [頁面](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/templates/templates.html#template-availability).
 
-* **快速開始使用現成元件。**
+* **使用現成可用的元件快速上手。**
 
-   Adobe Experience ManagerAdobe Campaign Standard的現成元件可幫助您在模板不複雜時快速啟動。
-Experience Manager中有七個現成的元件，您可以開始使用：
+   如果範本不複雜，適用於Adobe Campaign Standard的Adobe Experience Manager中的現成元件可協助您快速入門。
+Experience Manager中有七個現成可用的元件，您可以開始使用：
 
    * 標題
    * 影像
    * 連結
-   * Scene7影像模板
+   * Scene7影像範本
    * 目標引用
-   * 文本和影像
-   * 文本和個性化
+   * 文字與影像
+   * 文字與個人化
 
-* **電子郵件的HTML與Web的HTML不同**
+* **電子郵件的HTML與網頁的HTML不同**
 
-   瞭解您不能將Web內容中使用的相同元件用於電子郵件模板這一點非常重要。 使用現成元件可確保您的元件與電子郵件相容。
+   請務必瞭解，您無法將網頁內容中使用的相同元件用於電子郵件範本。 使用現成可用的元件可確保您的元件與電子郵件相容。
 
-* **將內容與模板斷開連結，並反複使用它們。**
+* **從範本中取消內容連結，並一次又一次地重複使用。**
 
-   在Campaign Standard中設定電子郵件並選擇Experience Manager模板時，您只能選擇尚未連結到其他市場活動的電子郵件。 否則，如果您更改了Adobe Experience Manager某個市場活動的內容並進行更新，則可能會無意中影響其他市場活動的內容。
-為避免這種情況，一旦您使用完模板，您就可以取消連結以再次使用模板。 您只需選擇模板並按一下 **[!UICONTROL Delete the link with Adobe Experience Manager content]**。
+   在Campaign Standard中設定電子郵件並選取Experience Manager範本時，您只能選擇尚未連結至其他行銷活動的行銷活動。 否則，如果您在Adobe Experience Manager中變更一個促銷活動的內容並重新整理，可能會無意中影響另一個促銷活動的內容。
+為避免此問題，在您完成使用範本後，可以取消連結以再次使用。 您只需選取範本並按一下 **[!UICONTROL Delete the link with Adobe Experience Manager content]**.
 
-* **使用Adobe Experience Manager為Adobe Campaign Standard建立各種電子郵件。**
+* **使用Adobe Experience Manager為Adobe Campaign Standard建立各種電子郵件變體。**
 
-   通過此整合，您可以輕鬆地將一封電子郵件轉換為多個版本，並進行分段。
-要瞭解如何在Adobe Experience Manager設定分段以及如何建立具有目標內容的電子郵件，請參閱此 [頁](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/target-adobe-campaign.html#setting-up-segmentation-in-aem)。
+   此整合可讓您透過區段輕鬆地將一封電子郵件轉換為多個版本。
+若要瞭解如何在Adobe Experience Manager中設定分段，以及如何使用目標內容建立電子郵件，請參閱此 [頁面](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/target-adobe-campaign.html#setting-up-segmentation-in-aem).
 
-* **要成功同步，Experience Manager中的段名稱必須與市場活動中的段名稱完全匹配。**
+* **為了成功同步，Experience Manager中的區段名稱必須與Campaign中的區段名稱完全相符。**

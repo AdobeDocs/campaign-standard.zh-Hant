@@ -1,6 +1,6 @@
 ---
 title: "步驟 3：驗證擴充"
-description: 瞭解如何使用Rest API訪問擴展欄位。
+description: 瞭解如何使用Rest API存取擴充欄位。
 audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
@@ -17,14 +17,14 @@ ht-degree: 13%
 
 # 步驟 3：驗證擴充{#step-verify-the-extension}
 
-1. 對配置式和服務擴展API的元資料執行GET操作，以檢查在配置式自定義資源中添加的欄位現在是否可用。
+1. 對Profiles &amp; Services擴充功能API的中繼資料執行GET操作，檢查現在是否可以使用新增到Profiles自訂資源中的欄位。
 
    ```
    GET profileAndServicesExt/resourceType/profile
    ```
 
-1. 它返回：
+1. 它會傳回：
 
    ![](assets/extendpandsapiview.png)
 
-   該領域現在可供進一步開發和整合。
+   此欄位現在可用於進一步開發和整合。

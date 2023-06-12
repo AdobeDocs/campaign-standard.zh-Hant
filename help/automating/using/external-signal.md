@@ -40,8 +40,8 @@ ht-degree: 96%
 
 **相關主題**
 
-* [用例：外部信號活動和資料導入](../../automating/using/external-signal-data-import.md)。
-* [用例：調用工作流以使用外部參數從檔案建立訪問群體](../../automating/using/use-case-calling-workflow.md)
+* [使用案例：外部訊號活動和資料匯入](../../automating/using/external-signal-data-import.md).
+* [使用案例：呼叫工作流程以使用外部引數從檔案建立對象](../../automating/using/use-case-calling-workflow.md)
 
 ## 設定 {#configuration}
 

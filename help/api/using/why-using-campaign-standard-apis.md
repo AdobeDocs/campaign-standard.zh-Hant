@@ -1,6 +1,6 @@
 ---
 title: 為何選擇 Campaign Standard API?
-description: 瞭解有關Campaign StandardAPI及其使用原因的更多資訊。
+description: 進一步瞭解Campaign StandardAPI及為何使用它們。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -17,61 +17,61 @@ ht-degree: 3%
 
 # 為何使用 Campaign Standard API {#why-using-campaign-standard-apis}
 
-Adobe Campaign Standard公司提供的API使現有系統能夠與市場活動平台整合，以即時解決現實世界的問題。
+Adobe Campaign Standard提供的API可讓現有系統與Campaign平台整合，以即時解決實際問題。
 
-註冊或選擇退出頁面等公共網站需要連接到後端系統以儲存配置檔案資訊。 像Adobe Campaign這樣的後端系統具有將配置檔案資料導入並對其執行自定義操作的靈活性和能力。
+公開網站（例如註冊或選擇退出頁面）需要連線到後端系統以儲存設定檔資訊。 Adobe Campaign等後端系統具備彈性與功能，可將設定檔資料擷取至其中，並對其執行自訂作業。
 
-以下是一些示例：
+以下是一些範例：
 
 * 潛在客戶線上註冊。
-* 現有客戶概況和營銷溝通偏好管理。
-* 基於事件的事務性通信觸發 — 訂單確認、預訂行程、密碼重置等。
-* 甚至是購物車放棄的電子郵件通信。
+* 現有的客戶設定檔和行銷通訊偏好設定管理。
+* 事件型交易式通訊觸發 — 訂單確認、預訂行程、密碼重設等。
+* 甚至放棄購物車電子郵件通訊。
 
-註冊登錄頁為客戶或潛在客戶註冊其姓名和電子郵件地址提供了一種方法。 一旦Campaign Standard獲取了個人資料資訊和偏好，它就可以根據用戶的興趣發送個性化消息。
+註冊登入頁面可為客戶或潛在客戶註冊其名稱和電子郵件地址。 一旦Campaign Standard擷取設定檔資訊和偏好設定後，它就可以根據個人的興趣傳送個人化訊息。
 
-它們是使用以下元素構建的：
+這些範本使用下列元素建置：
 
-1. 具有市場活動API偵聽器的註冊表。
+1. 包含Campaign API接聽程式的登錄檔單。
 
    ![替代文字](assets/apis_uc1.png)
 
-1. 要基於複選框執行的自定義操作。 選擇「電子郵件特別優惠」的客戶將收到與正常註冊過程相比具有禮品券的其他自定義郵件。
+1. 要根據核取方塊採取的自訂動作。 與一般註冊程式相比，客戶若選擇「電子郵件特殊優惠」，將會收到一封包含贈品券的不同自訂郵件。
 
    ![替代文字](assets/apis_uc2.png)
 
-1. 配置檔案在按一下電子郵件中的「更新詳細資訊」連結後，可能會更改其詳細資訊。 這會將配置檔案帶到「更新您的配置檔案和首選項詳細資訊」頁。 要執行該操作，配置檔案詳細資訊(Pkey)將傳遞到市場活動伺服器，並檢索和顯示配置檔案。 配置檔案按一下「更新」按鈕後，資訊將更新到系統中(通過PATCH命令)。
+1. 設定檔在按一下電子郵件中的「更新詳細資訊」連結後，可能會變更其詳細資訊。 這會將設定檔帶至「更新您的設定檔和偏好設定詳細資料」頁面。 若要執行操作，會將設定檔詳細資料(Pkey)傳遞至Campaign伺服器，並擷取及表示設定檔。 一旦設定檔按一下「更新」按鈕，資訊就會更新到系統中(透過PATCH命令)。
 
    ![替代文字](assets/apis_uc3.png)
 
-您可以使用一組請求來幫助您熟悉Campaign StandardAPI請求。 此JSON格式的集合提供了表示常用案例的預設計API請求。
+請求集合可協助您熟悉Campaign Standard API請求。 此集合以JSON格式提供：代表常見使用案例的預先設計的API請求。
 
-以下步驟描述了用於導入和使用集合在Campaign Standard資料庫中建立配置檔案的逐步使用案例。
+以下步驟說明匯入並使用集合在Campaign Standard資料庫中建立設定檔的逐步使用案例。
 
 >[!NOTE]
 >
->我們的例子是Postman。 但是，您可以自由使用您最喜愛的REST客戶端。
+>我們的範例使用Postman。 不過，請隨時使用您最愛的REST使用者端。
 
-1. 通過按一下下載JSON集合 [這裡](https://helpx.adobe.com/content/dam/help/en/campaign/kb/working-with-acs-api/_jcr_content/main-pars/download_section/download-1/KB_postman_collection.json.zip)。
+1. 按一下「 」以下載JSON集合 [此處](https://helpx.adobe.com/content/dam/help/en/campaign/kb/working-with-acs-api/_jcr_content/main-pars/download_section/download-1/KB_postman_collection.json.zip).
 
-1. 開啟Postman，然後選擇 **檔案** / **導入** 的子菜單。
+1. 開啟Postman，然後選取 **檔案** / **匯入** 功能表。
 
-1. 將下載的檔案拖放到窗口中。 預設計的API請求顯示，可供使用。
+1. 將下載的檔案拖放至視窗中。 預先設計的API請求隨即顯示，可供使用。
 
    ![替代文字](assets/postman_collection.png)
 
-1. 選擇 **建立配置檔案** 請求，然後更新POST請求和 **標題** 頁籤，&lt;organization>。 &lt;api_key>。 &lt;access_token>)。 如需詳細資訊，請參閱[本章節](../../api/using/setting-up-api-access.md)。
+1. 選取 **建立設定檔** 請求，然後更新POST請求和 **標頭** 標籤中填入您的資訊(&lt;organization>， &lt;api_key>， &lt;access_token>)。 如需詳細資訊，請參閱[本章節](../../api/using/setting-up-api-access.md)。
 
    ![替代文字](assets/postman_uc1.png)
 
-1. 填寫 **身體** 的子菜單。 **發送** 按鈕
+1. 填入 **內文** 索引標籤內含您要新增至新設定檔的資訊，然後按一下 **傳送** 按鈕以執行要求。
 
    ![替代文字](assets/postman_uc2.png)
 
-1. 建立對象後，主鍵(PKey)與其關聯。 它在請求響應以及其他屬性中可見。
+1. 建立物件後，就會有一個主索引鍵(PKey)與其相關聯。 它會顯示於請求回應以及其他屬性中。
 
    ![替代文字](assets/postman_uc3.png)
 
-1. 開啟Campaign Standard實例，然後檢查是否建立了配置檔案以及負載中的所有資訊。
+1. 開啟您的Campaign Standard執行個體，然後檢查設定檔是否已建立，包含來自裝載的所有資訊。
 
    ![替代文字](assets/postman_uc4.png)

@@ -1,6 +1,6 @@
 ---
 title: 與自訂資源互動
-description: 瞭解有關使用API進行自定義資源管理的詳細資訊/
+description: 進一步瞭解使用API進行自訂資源管理/
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -17,32 +17,32 @@ ht-degree: 4%
 
 # 與自訂資源互動 {#interacting-with-custom-resources}
 
-的 **/customResources** 終結點允許您在REST中公開市場活動自定義資源。 基於此API，可在自定義實體和外部端點之間整合。
+此 **/customResources** 端點可讓您在REST中公開Campaign自訂資源。 根據此API，可使用自訂實體和外部端點之間的整合。
 
-/customResources終結點的行為與/profileAndServices終結點完全相同。
+/customResources端點的行為與/profileAndServices端點完全相同。
 
-此API中公開的自定義資源包括：
+此API中公開的自訂資源包括：
 
-* 未在/profileAndServicesExt下公開的所有實體
-* 所有與側寫無關的實體，以及這些實體的子女和孫輩。
-* 預設情況下，所有與任何事物沒有關聯的實體，以及它們的子孫。
+* 所有未在/profileAndServicesExt底下公開的實體
+* 所有未連結至設定檔的實體，以及這些實體的子系和孫系。
+* 依預設，所有未連結至任何專案的實體，及其子系和孫系。
 
 >[!NOTE]
->在/profileAndServicesExt下可用的自定義資源在/customResources API中不公開。
+>/profileAndServicesExt下可用的自訂資源不會在/customResources API中公開。
 
 
-以下是從自定義資源檢索元資料的示例：
+以下是從自訂資源擷取中繼資料的範例：
 
 ```
 GET /customResources/resourceType/<customResourceName>
 ```
 
-要執行建立、更新或刪除，將使用GET、POST、PATCH、DELETE。
+若要執行建立、更新或刪除，會使用GET、POST、PATCH、DELETE。
 
 ```
 POST /customResources/<customResourceName>
 ```
 
 >[!NOTE]
->隱私API終結點和工作流(/privacy/privacyTool)未管理未連結到配置檔案實體的自定義資源。
->您將負責管理和清理這些自定義資源的任何PII。 有關隱私工具的詳細資訊， [按一下這裡](../../api/using/creating-a-privacy-request.md)。
+>隱私API端點和工作流程(/privacy/privacyTool)未管理未連結至設定檔實體的自訂資源。
+>您有責任管理及清理這些自訂資源的任何PII。 如需隱私權工具的詳細資訊， [按一下這裡](../../api/using/creating-a-privacy-request.md).

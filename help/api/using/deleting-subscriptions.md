@@ -16,21 +16,21 @@ ht-degree: 0%
 
 <!--NOTE TO WRITER: There are two duplicate headings that seem to have the same content. Delete one? Rename if different?-->
 
-## 刪除特定配置檔案的服務訂閱 {#deleting-service-subscription}
+## 刪除特定設定檔的服務訂閱 {#deleting-service-subscription}
 
-這是三步法。
+此程式分為三個步驟。
 
-1. 檢索所需配置檔案的訂閱URL。
-1. 對訂閱URL執行GET請求。
-1. 對所需服務URL執行DELETE請求。
+1. 擷取所需設定檔的訂閱URL。
+1. 對訂閱URL執行GET要求。
+1. 對所需的服務URL執行DELETE要求。
 
-如果刪除請求成功，則響應狀態為「204無內容」。
+如果刪除請求成功，則回應狀態為「204無內容」。
 
 <br/>
 
-***示例請求***
+***範例請求***
 
-下面的示例負載說明如何從服務中取消訂閱配置檔案。 首先執行GET請求以檢索配置檔案。
+以下裝載範例說明如何從服務取消訂閱設定檔。 首先執行GET要求以擷取設定檔。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -40,7 +40,7 @@ ht-degree: 0%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它返回配置檔案的訂閱URL。
+它會傳回設定檔的訂閱URL。
 
 ```
   {
@@ -53,7 +53,7 @@ ht-degree: 0%
   }
 ```
 
-對訂閱URL執行GET請求。
+對訂閱URL執行GET要求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
@@ -63,7 +63,7 @@ ht-degree: 0%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它返回所選配置檔案的訂閱清單，並為每個訂閱服務返回URL。
+它會傳回所選設定檔的訂閱清單，以及每個訂閱服務的URL。
 
 ```
 ...
@@ -77,7 +77,7 @@ ht-degree: 0%
 ...
 ```
 
-對所需服務URL執行DELETE請求。
+對所需的服務URL執行DELETE要求。
 
 ```
 -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
@@ -89,21 +89,21 @@ ht-degree: 0%
 
 <!-- + réponse -->
 
-## 刪除特定配置檔案的服務訂閱
+## 刪除特定設定檔的服務訂閱
 
-這是三步法。
+此程式分為三個步驟。
 
-1. 檢索所需的服務及其訂閱URL。
-1. 對訂閱URL執行GET請求以檢索所有配置檔案訂閱。
-1. 對所需的配置檔案訂閱URL執行DELETE請求。
+1. 擷取所需的服務及其訂閱URL。
+1. 對訂閱URL執行GET請求以擷取所有設定檔訂閱。
+1. 對所需的設定檔訂閱URL執行DELETE請求。
 
-如果刪除請求成功，則響應狀態為「204無內容」。
+如果刪除請求成功，則回應狀態為「204無內容」。
 
 <br/>
 
-***示例請求***
+***範例請求***
 
-檢索服務記錄。
+擷取服務記錄。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
@@ -113,7 +113,7 @@ ht-degree: 0%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它返回服務的訂閱URL。
+它會傳回服務的訂閱URL。
 
 ```
 {
@@ -130,7 +130,7 @@ ht-degree: 0%
 },
 ```
 
-對訂閱URL執行GET請求。
+對訂閱URL執行GET要求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions \
@@ -140,7 +140,7 @@ ht-degree: 0%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它返回所選服務的訂閱清單，並為每個配置檔案訂閱返回URL(href)。
+它會傳回所選服務的訂閱清單，以及每個設定檔訂閱的URL (href)。
 
 ```
 {
@@ -157,7 +157,7 @@ ht-degree: 0%
 }
 ```
 
-對所需的配置檔案訂閱URL執行DELETE請求。
+對所需的設定檔訂閱URL執行DELETE請求。
 
 ```
 -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions/<PKEY> \

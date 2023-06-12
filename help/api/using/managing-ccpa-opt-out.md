@@ -17,12 +17,12 @@ ht-degree: 6%
 
 # 管理 CCPA 選擇退出 {#managing-ccpa-optout}
 
-可以使用 **ccpaOptOut** profile屬性和「true」或「false」值：
+設定檔的CCPA選擇退出狀態可透過以下方式監控及管理： **ccpapoptout** 設定檔屬性和「true」或「false」值：
 
 `"ccpaOptOut": <value>`
 
-* **真**:禁止出售個人資訊。
-* **假**:授權銷售個人資訊。
+* **true**：禁止銷售個人資訊。
+* **false**：授權個人資訊銷售。
 
 <!--The “CCPA Opt-Out” attribute is only available starting 19.4. For 19.3 environments, you need to extend the Profiles resource and add a boolean field. This field will be added to the API with the chosen label. We suggest you use “Opt-Out for CCPA”.
 >
@@ -30,9 +30,9 @@ ht-degree: 6%
 
 <br/>
 
-***示例請求***
+***範例請求***
 
-* 檢索配置檔案的CCPA選擇退出狀態的示例GET請求。
+* 擷取設定檔CCPA選擇退出狀態的範例GET要求。
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \
@@ -42,7 +42,7 @@ ht-degree: 6%
    -H 'Content-Type: application/json;charset=utf-8'
    ```
 
-   響應GET請求。
+   對GET要求的回應。
 
    ```
    {
@@ -54,7 +54,7 @@ ht-degree: 6%
    }
    ```
 
-* 標籤CCPA選擇退出配置檔案的POST請求示例。
+* 標示CCPA選擇退出之設定檔的範例POST要求。
 
    ```
    -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/ \
@@ -71,7 +71,7 @@ ht-degree: 6%
    -d }'
    ```
 
-   響應GET請求。
+   對GET要求的回應。
 
    ```
    {
@@ -84,7 +84,7 @@ ht-degree: 6%
    }
    ```
 
-* PATCH請求示例，以更新CCPA選擇退出的配置檔案。
+* 更新CCPA選擇退出之設定檔的範例PATCH請求。
 
    ```
    -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \
@@ -98,7 +98,7 @@ ht-degree: 6%
    -d }'
    ```
 
-   響應GET請求。
+   對GET要求的回應。
 
    ```
    {

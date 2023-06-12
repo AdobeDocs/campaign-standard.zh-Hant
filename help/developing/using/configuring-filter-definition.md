@@ -81,8 +81,8 @@ ht-degree: 95%
 
 ![](assets/custom_resource_filter-definition_email-audience_filter.png)
 
-配置篩選器後，您可以使用以下語法從Campaign StandardAPI中使用它：
+設定篩選器後，您就可以從此語法從Campaign Standard API使用它：
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/by<customFilterName>?<customFilterparam>=<customFilterValue>`
 
-有關詳細資訊，請參閱 [Campaign StandardAPI文檔](../../api/using/filtering.md#custom-filters)。
+如需詳細資訊，請參閱 [Campaign Standard API檔案](../../api/using/filtering.md#custom-filters).

@@ -1,6 +1,6 @@
 ---
 title: 使用陷阱
-description: 瞭解如何在消息中使用陷阱。
+description: 瞭解如何在訊息中使用陷阱。
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
@@ -18,48 +18,48 @@ ht-degree: 2%
 
 # 使用陷阱 {#using-traps}
 
-使用陷阱時，消息將發送到 [test配置檔案](../../audiences/using/managing-test-profiles.md) 就像它被發送到主目標一樣，作為確定客戶端檔案是否被欺騙性使用的一種方法。
+使用補漏白時，訊息會傳送至 [測試設定檔](../../audiences/using/managing-test-profiles.md) 就像傳送至主要目標一樣，用來識別使用者端檔案是否遭到詐騙使用。
 
-陷阱最初是為直接郵寄而設計的。 它們允許您：
+陷阱最初是為直接郵件傳遞而設計的。 它們允許您：
 
-* 驗證您的直郵提供商是否確實在發送通信。
-* 在與客戶相同的條件下同時接收郵件。
-* 保留已發送郵件的準確副本。
-* 檢查您的直接郵件提供商是否未濫用您的客戶端清單。 實際上，如果將任何其他通信發送到您的test配置檔案的地址，則您可能在您不知情的情況下使用了客戶檔案。 因此，test配置檔案的地址應僅用於此目的。
+* 確認您的直接郵件提供者確實在傳送通訊。
+* 以與您的客戶相同的條件和時間接收郵件。
+* 保留已傳送郵件的完整副本。
+* 檢查您的使用者端清單是否未被直接郵件提供者不當使用。 事實上，如果將任何其他通訊傳送至測試設定檔的位址，則您的使用者端檔案可能在您不知道的情況下被使用。 這就是為什麼測試設定檔的位址只能用於此目的。
 
-有關向直郵受眾添加陷阱的詳細資訊，請參見 [添加test和陷印配置檔案](../../channels/using/defining-the-direct-mail-audience.md#adding-test-and-trap-profiles)。
+如需將補漏白新增至直接郵件對象的詳細資訊，請參閱 [新增測試和補漏白設定檔](../../channels/using/defining-the-direct-mail-audience.md#adding-test-and-trap-profiles).
 
-對於其他通信通道，您可以將陷印test配置檔案添加到主目標中，以便：
+對於其他通訊通道，您可以將補漏白測試設定檔新增至主要目標，以便：
 
-* 檢查您的郵件是否已成功發送。
-* 獲取並保留您的郵件的準確副本。
-* 跟蹤發送和接收時間。
+* 檢查您的訊息是否已成功傳送。
+* 取得並保留訊息的精確副本。
+* 追蹤其傳送及接收時間。
 
-要將test配置檔案用作陷阱，必須將其包含在消息的受眾中。
+若要將測試設定檔用作補漏白，必須將其包含在訊息的對象中。
 
 >[!NOTE]
 >
->與用於的test配置檔案相反 [證明](../../sending/using/sending-proofs.md) 或 [電子郵件呈現](../../sending/using/email-rendering.md)，消息將同時發送到主目標和用作陷阱的test配置檔案。
+>與用來測試設定檔不同 [校樣](../../sending/using/sending-proofs.md) 或 [電子郵件呈現](../../sending/using/email-rendering.md)，訊息會同時傳送至主要目標及用作補漏白的測試設定檔。
 
-定義郵件受眾時：
+定義訊息的對象時：
 
-1. 從 **[!UICONTROL Test profiles]** 頁籤。 確保它 **[!UICONTROL Trap]** 作為預期用途。
+1. 從 **[!UICONTROL Test profiles]** 標籤中，選取測試設定檔。 確定它具有 **[!UICONTROL Trap]** 作為預期用途。
 
    ![](assets/trap_select.png)
 
-1. 消息內容準備好後，按一下 **[!UICONTROL Prepare]** 按鈕 請參閱 [準備發送](../../sending/using/preparing-the-send.md)。
+1. 訊息內容準備就緒後，請按一下 **[!UICONTROL Prepare]** 按鈕。 另請參閱 [準備傳送](../../sending/using/preparing-the-send.md).
    >[!NOTE]
    >
-   >確保選擇了主目標。 否則，無法發送您的消息。
+   >請確定您選取了主要目標。 否則，無法傳送您的訊息。
 
 1. 按一下 **[!UICONTROL Confirm]** 按鈕。請參閱[確認傳送](../../sending/using/confirming-the-send.md)。
 
    ![](assets/trap_confirm.png)
 
-消息將發送到主目標和test配置檔案。
+訊息會傳送至主要目標和測試設定檔。
 
-在發送事務性消息時可以使用陷阱。 在這種情況下，test配置檔案將接收每個事件配置的一條消息。 有關事務性消息傳遞的詳細資訊，請參閱 [節](../../channels/using/getting-started-with-transactional-msg.md)。
+傳送交易式訊息時，您可以使用陷阱。 在此情況下，測試設定檔會針對每個事件設定接收一則訊息。 如需異動訊息的詳細資訊，請參閱此 [區段](../../channels/using/getting-started-with-transactional-msg.md).
 
 >[!NOTE]
 >
->當將test簡檔用作陷印時，對於消息中的任何富集欄位，從實際目標簡檔中隨機選取相應的附加資料並分配給陷印test簡檔。 有關濃縮的詳細資訊，請參見 [此示例](../../automating/using/enriching-profile-data-file.md)。
+>使用測試設定檔作為補漏白時，對於訊息中任何擴充的欄位，會從真正的目標設定檔中隨機擷取對應的額外資料，並將其指派給補漏白測試設定檔。 如需擴充的詳細資訊，請參閱 [此範例](../../automating/using/enriching-profile-data-file.md).

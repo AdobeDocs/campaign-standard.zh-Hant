@@ -1,5 +1,5 @@
 ---
-title: 正在執行訂閱
+title: 執行訂閱
 description: 瞭解如何使用API執行訂閱
 feature: API
 role: Data Engineer
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # 使用API執行訂閱{#performing-subscriptions}
 
-## 方法1:為服務預訂配置檔案
+## 方法1：訂閱服務的設定檔
 
-執行GET請求以檢索配置檔案。
+執行GET要求以擷取設定檔。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -26,7 +26,7 @@ ht-degree: 0%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它返回配置檔案的訂閱URL。
+它會傳回設定檔的訂閱URL。
 
 ```
   {
@@ -40,7 +40,7 @@ ht-degree: 0%
   }
 ```
 
-在有效負載內使用所需服務主鍵對訂閱URL執行POST請求。
+在訂閱URL上執行POST請求，並在裝載內使用所需的服務主索引鍵。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
@@ -52,7 +52,7 @@ ht-degree: 0%
 -d '{"service":{"PKey":"<PKEY>"}}'
 ```
 
-它返回已完成服務節點的更新配置檔案。
+它會傳回更新後的設定檔，且服務節點已完成。
 
 ```
 {
@@ -67,9 +67,9 @@ ht-degree: 0%
 }
 ```
 
-## 方法2:將配置檔案添加到服務的訂戶
+## 方法2：將設定檔新增至服務的訂閱者
 
-執行GET請求以檢索服務。
+執行GET要求以擷取服務。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
@@ -79,7 +79,7 @@ ht-degree: 0%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它返回服務的訂閱URL。
+它會傳回服務的訂閱URL。
 
 ```
   {
@@ -93,7 +93,7 @@ ht-degree: 0%
   },
 ```
 
-在負載內具有所需配置檔案主鍵的訂閱URL上發出POST請求。
+在訂閱URL上提出POST請求，並在裝載內使用所需的設定檔主索引鍵。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign//profileAndServices/service/<PKEY>/subscriptions/ \
@@ -105,7 +105,7 @@ ht-degree: 0%
 -d '{"subscriber":{"PKey":"<PKEY>"}}'
 ```
 
-它返回已完成訂閱者節點的更新服務。
+它會傳回更新後的服務，且訂閱者節點已完成。
 
 ```
 {

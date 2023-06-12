@@ -1,6 +1,6 @@
 ---
 title: 擷取設定檔
-description: 瞭解如何使用API檢索配置檔案的更多資訊
+description: 深入瞭解如何使用API擷取設定檔
 feature: API
 role: Data Engineer
 level: Experienced
@@ -12,19 +12,19 @@ ht-degree: 4%
 
 ---
 
-# 使用API檢索配置檔案 {#retrieving-profiles}
+# 使用API擷取設定檔 {#retrieving-profiles}
 
-檢索配置檔案時使用 **GET** 請求。
+擷取設定檔是使用 **GET** 要求。
 
-然後，可以使用篩選器、排序和分頁來細化搜索。 有關詳細資訊，請參閱 [其他操作](../../api/using/sorting.md) 的子菜單。
+接著，您可以使用篩選器、排序和分頁來縮小搜尋範圍。 如需詳細資訊，請參閱 [其他作業](../../api/using/sorting.md) 區段。
 
-此外，Campaign StandardAPI允許您根據以下欄位之一搜索配置檔案：電子郵件、名字、姓氏或任何自定義欄位。 如需詳細資訊，請參閱[本章節](#searching-field)。
+此外，Campaign StandardAPI可讓您根據以下欄位之一搜尋設定檔：電子郵件、名字、姓氏或任何自訂欄位。 如需詳細資訊，請參閱[本章節](#searching-field)。
 
 <br/>
 
-***示例請求***
+***範例請求***
 
-* 檢索所有配置式的示例GET請求。
+* 擷取所有設定檔的範例GET請求。
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
@@ -34,7 +34,7 @@ ht-degree: 4%
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-   響應請求。
+   對請求的回應。
 
    ```
    {
@@ -50,7 +50,7 @@ ht-degree: 4%
    }
    ```
 
-* 檢索前10個電子郵件值的示例GET請求。
+* 擷取前10個電子郵件值的範例GET請求。
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_lineCount=10 \
@@ -60,7 +60,7 @@ ht-degree: 4%
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-   響應請求。 「下一個」節點返回URL，該URL允許您訪問下一個10個電子郵件值。
+   對請求的回應。 「下一個」節點會傳回URL，讓您存取10個下一個電子郵件值。
 
    ```
    {
@@ -83,17 +83,17 @@ ht-degree: 4%
    }
    ```
 
-## 基於欄位搜索配置檔案 {#searching-field}
+## 根據欄位搜尋設定檔 {#searching-field}
 
-的 **[!UICONTROL filterType]** 參數允許您基於以下欄位之一檢索配置檔案：擴展配置檔案資源時在「高級」篩選中添加的電子郵件、名字、姓氏或任何自定義欄位。
+此 **[!UICONTROL filterType]** 引數可讓您根據以下欄位之一擷取設定檔：電子郵件、名字、姓氏，或在擴充設定檔資源時已在進階篩選中新增的任何自訂欄位。
 
 >[!NOTE]
 >
->搜索區分大小寫，僅對前置詞執行。 例如，您將無法使用其姓氏的最後字母查找配置檔案。
+>搜尋會區分大小寫，且只會在首碼上執行。 例如，您將無法使用個人檔案的姓氏來查詢個人檔案。
 
-***示例請求***
+***範例請求***
 
-* 基於名字篩選配置檔案的示例請求。
+* 根據名字篩選設定檔的範例請求。
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=John&filterType=firstName \
@@ -103,7 +103,7 @@ ht-degree: 4%
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-* 根據姓氏篩選配置檔案的示例請求。
+* 根據姓氏篩選設定檔的範例請求。
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Miller&filterType=lastName \
@@ -113,7 +113,7 @@ ht-degree: 4%
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-* 根據電子郵件篩選配置檔案的請求示例。
+* 根據電子郵件篩選設定檔的範例請求。
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=John%40gmail.com&filterType=email \
@@ -123,7 +123,7 @@ ht-degree: 4%
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-* 基於「業餘」自定義欄位篩選配置檔案的示例請求。
+* 根據「愛好」自訂欄位篩選設定檔的範例請求。
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byText?cusHobby=Dancing&filterType=Hobby \

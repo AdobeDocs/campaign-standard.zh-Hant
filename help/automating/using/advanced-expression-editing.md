@@ -24,7 +24,7 @@ ht-degree: 98%
 
 此模式可讓您使用進階功能。這些函式可讓您控制用於執行特定查詢的值，例如控制日期、字串、數值欄位、排序等。
 
-編輯表達式時也可以使用工作流的事件變數。 如需詳細資訊，請參閱[使用事件變數自訂活動](../../automating/using/customizing-workflow-external-parameters.md)區段。
+編輯運算式時，也可以使用工作流程的事件變數。 如需詳細資訊，請參閱[使用事件變數自訂活動](../../automating/using/customizing-workflow-external-parameters.md)區段。
 
 您可以編輯運算式，以：
 

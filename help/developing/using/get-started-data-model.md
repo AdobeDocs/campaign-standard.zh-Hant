@@ -29,9 +29,9 @@ ht-degree: 31%
 
 <img src="assets/do-not-localize/icon_datamodel.svg" width="60px">
 
-市場活動使用的資料是通過在 **預定義資料模型**。 資料模型顯示一組與市場營銷相關的資源的現成SQL結構：交付、受眾、登錄頁、個人資料等。 每個資源都帶有關聯的篩選器，允許您瀏覽資源。
+Campaign使用的資料是透過 **預先定義的資料模型**. 資料模型會顯示一組行銷相關資源的現成SQL結構：傳送、對象、登陸頁面、設定檔等。 每個資源都附帶關聯的篩選器，可讓您導覽資源。
 
-的 **診斷** 菜單，您可以列出由Campaign Standard生成的技術對象：資料架構、網頁、篩選器等，允許您監視資料模型和對其所做的任何更改。
+此 **診斷** 功能表可讓您列出Campaign Standard產生的技術物件：資料結構描述、網頁、篩選器等，讓您監視資料模型及其所做的任何變更。
 
 閱讀全文:
 
@@ -44,22 +44,22 @@ ht-degree: 31%
 
 <img src="assets/do-not-localize/icon_custom.svg" width="60px">
 
-Campaign Standard允許您 **豐富了預定義的資料模型** 建立您自己的資源（例如添加「採購」或「產品」表），或使用新欄位擴展現有資源。 您還可以配置「市場活動」螢幕，以優化通過已建立的新資源和欄位的導航。
+Campaign Standard可讓您 **豐富預先定義的資料模型** 建立您自己的資源（例如，新增「購買」或「產品」表格），或使用新欄位擴充現有資源。 您也可以設定Campaign畫面，以最佳化瀏覽新資源和已建立的欄位。
 
-另外，您 **擴展Campaign StandardREST API** 以便在自定義資源配置檔案的API擴展欄位中公開。 例如，這允許您使用從計費系統生成的促銷代碼更新客戶的配置檔案。
+此外，您可以 **擴充Campaign StandardREST API** 以便在API中公開自訂資源設定檔的擴充欄位。 舉例來說，這可讓您使用計費系統產生的促銷代碼來更新客戶的設定檔。
 
 閱讀全文:
 
 * [新增或擴充資源](../../developing/using/key-steps-to-add-a-resource.md)
-* [擴展API](../../developing/using/about-extending-the-api.md)
-* [用例：使用新欄位擴展配置檔案資源](../../developing/using/extending-the-profile-resource-with-a-new-field.md)
-* [用例：將預訂擴展到應用程式資源](../../developing/using/extending-the-subscriptions-to-an-application-resource.md)
+* [擴充API](../../developing/using/about-extending-the-api.md)
+* [使用案例：使用新欄位擴充設定檔資源](../../developing/using/extending-the-profile-resource-with-a-new-field.md)
+* [使用案例：將訂閱擴充至應用程式資源](../../developing/using/extending-the-subscriptions-to-an-application-resource.md)
 
 ## 使用API {#apis}
 
 <img src="assets/do-not-localize/icon_api.svg" width="60px">
 
-利用Campaign StandardAPI，為Adobe Campaign Standard建立整合，並通過將「活動」與您使用的技術面板對接來構建自己的生態系統。 [開始使用 Campaign Standard REST API](../../api/using/get-started-apis.md)
+透過Campaign Standard API，建立Adobe Campaign Standard的整合，並將Campaign與您使用的技術面板結合，建置您自己的生態系統。 [開始使用 Campaign Standard REST API](../../api/using/get-started-apis.md)
 
 ## 額外資源
 

@@ -47,9 +47,9 @@ ht-degree: 88%
 
    >[!NOTE]
    >
-   >活動名稱及其ID都顯示在介面中，但郵件收件人看不到它們。
+   >活動名稱及其ID都會顯示在介面中，但訊息收件者看不到它們。
    >
-   >確保ID欄位不包含任何空格以避免任何差異，例如與Adobe Analytics整合時。
+   >確認ID欄位未包含任何空白以避免出現任何差異，例如與Adobe Analytics整合時。
 
 1. 指定您要設定為目標的對象。您可以定義並結合規則，以選取現有對象或直接設定目標母體。
 
@@ -85,10 +85,10 @@ ht-degree: 88%
 * [關於 SMS 和推播內容版本](../../channels/using/about-sms-and-push-content-design.md)
 * [管理範本](../../start/using/marketing-activity-templates.md)
 
-## 教程視頻 {#video}
+## 教學課程影片 {#video}
 
-此視頻顯示如何建立SMS傳遞。
+本影片說明如何建立SMS傳送。
 
 >[!VIDEO](https://video.tv.adobe.com/v/25265/?quality=12)
 
-可提供其他Campaign Standard操作視頻 [這裡](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant)。
+提供其他Campaign Standard操作影片 [此處](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant).

@@ -1,6 +1,6 @@
 ---
 title: 設定行動應用程式
-description: 瞭解如何配置Adobe Campaign以使用Experience PlatformSDK發送推送通知或應用內消息
+description: 瞭解如何使用Experience Platform SDK設定Adobe Campaign以傳送推播通知或應用程式內訊息
 audience: administration
 feature: Instance Settings
 role: Admin
@@ -15,158 +15,158 @@ ht-degree: 3%
 
 # 設定行動應用程式{#configuring-a-mobile-application}
 
-## 使用Adobe Experience PlatformSDK配置移動應用程式 {#using-adobe-experience-platform-sdk}
+## 使用Adobe Experience Platform SDK設定行動應用程式 {#using-adobe-experience-platform-sdk}
 
 >[!IMPORTANT]
 >
-> Adobe Experience Platform Launch已被改名為Adobe Experience Platform的一套資料收集技術。 因此，在產品文檔中已進行了一些術語更改。 請參閱 [下文](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html) 的下一頁。
+> Adobe Experience Platform Launch已經過品牌重塑，現在是Adobe Experience Platform中的一套資料收集技術。 因此，產品檔案中出現了幾項術語變更。 請參閱 [以下檔案](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html) 以取得術語變更的彙整參考資料。
 
-請注意，推送通知和In-App實現必須由專家用戶執行。 要獲得幫助，請與您的Adobe客戶主管或專業服務合作夥伴聯繫。
+請注意，推播通知和應用程式內實作必須由專家使用者執行。 如需協助，請聯絡您的Adobe客戶主管或專業服務合作夥伴。
 
-要使用Experience PlatformSDK應用程式發送推送通知和In-App消息，必須在資料收集UI中設定移動應用程式並在Adobe Campaign中配置。
+若要使用Experience Platform SDK應用程式傳送推播通知和應用程式內訊息，必須在資料收集UI中設定行動應用程式，並在Adobe Campaign中設定。
 
-設定移動應用程式後，您可以檢索它收集的PII資料，以從資料庫建立或更新配置檔案。 有關詳細資訊，請參閱本節： [基於移動應用資料建立和更新簡檔資訊](../../channels/using/updating-profile-with-mobile-app-data.md)。
+設定行動應用程式後，您可以擷取其收集的PII資料，以從資料庫建立或更新設定檔。 如需詳細資訊，請參閱本區段： [根據行動應用程式資料建立和更新設定檔資訊](../../channels/using/updating-profile-with-mobile-app-data.md).
 
-要瞭解有關使用Adobe Experience PlatformSDK在Adobe Campaign Standard支援的不同移動使用案例的更多資訊，請參閱此 [頁](../../administration/using/supported-mobile-use-cases.md)。
+若要進一步瞭解Adobe Campaign Standard透過使用Adobe Experience Platform SDK支援的不同行動使用案例，請參閱此 [頁面](../../administration/using/supported-mobile-use-cases.md).
 
-要完成配置，請完成以下步驟：
+若要完成設定，請完成下列步驟：
 
-1. 在Adobe Campaign，確保可以訪問以下內容：
+1. 在Adobe Campaign中，確定您可以存取下列專案：
    * **[!UICONTROL Push notification]**
    * **[!UICONTROL In-App message]**
    * **[!UICONTROL Adobe Places]**
 
-   如果沒有，請與您的客戶團隊聯繫。
+   如果沒有，請聯絡您的客戶團隊。
 
-1. 檢查您的用戶是否在Adobe Campaign Standard和Adobe Experience Platform擁有必要的權限。
-   * 在Adobe Campaign Standard，確保IMS用戶是標準用戶和管理員產品配置檔案的一部分。 此步驟允許用戶登錄到Adobe Campaign Standard，導航到Experience PlatformSDK移動應用頁面，並查看在資料收集UI中建立的移動應用屬性。
+1. 檢查您的使用者是否擁有Adobe Campaign Standard的必要許可權和Adobe Experience Platform中的標籤。
+   * 在Adobe Campaign Standard中，確保IMS使用者屬於標準使用者和管理員產品設定檔。 此步驟可讓使用者登入Adobe Campaign Standard、導覽至Experience Platform SDK行動應用程式頁面，並檢視您在資料收集UI中建立的行動應用程式屬性。
 
-   * 在「資料收集UI」中，確保您的IMS用戶是Experience Platform Launch產品配置檔案的一部分。
-此步驟允許用戶登錄到資料收集UI以建立和查看屬性。 有關資料收集UI中產品配置檔案的詳細資訊，請參閱 [建立您的產品配置檔案](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html#gain-admin-rights-for-a-tags-product-profile)。 在產品配置檔案中，不應對公司或屬性設定任何權限，但用戶仍應能夠登錄。
+   * 在資料收集UI中，確認您的IMS使用者屬於Experience Platform Launch產品設定檔。
+此步驟可讓使用者登入資料收集UI以建立和檢視屬性。 如需資料收集UI中產品設定檔的詳細資訊，請參閱 [建立您的產品設定檔](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html#gain-admin-rights-for-a-tags-product-profile). 在產品設定檔中，公司或屬性上應該沒有許可權設定，但使用者應該能夠仍然登入。
 
-   要完成其他任務，如安裝擴展、發佈應用、配置環境等，您需要在產品配置檔案中設定權限。
+   若要完成安裝擴充功能、發佈應用程式、設定環境等額外工作，您必須在產品設定檔中設定許可權。
 
-1. 在資料收集UI中，建立 **[!UICONTROL Mobile property]**。 如需詳細資訊，請參閱[設定行動裝置屬性](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property)。
+1. 在資料收集UI中，建立 **[!UICONTROL Mobile property]**. 如需詳細資訊，請參閱[設定行動裝置屬性](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property)。
 
-1. 在資料收集UI中，按一下 **[!UICONTROL Extensions]** 頁籤，轉到 **[!UICONTROL Catalog]**，並搜索 **[!UICONTROL Adobe Campaign Standard]** 擴展。 有關詳細資訊，請參見 [Adobe Campaign Standard](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard)。
+1. 在資料收集UI中，按一下 **[!UICONTROL Extensions]** 標籤，前往 **[!UICONTROL Catalog]**，並搜尋 **[!UICONTROL Adobe Campaign Standard]** 副檔名。 如需詳細資訊，請參閱 [Adobe Campaign Standard](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard).
 
-1. 要支援Campaign Standard中的位置使用案例，請安裝 **[!UICONTROL Places]** 資料收集UI中的擴展。 請參閱此 [頁](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html)。
+1. 若要在Campaign Standard中支援位置使用案例，請安裝 **[!UICONTROL Places]** 資料收集UI中的擴充功能。 請參閱此 [頁面](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
 
-1. 在Adobe Campaign Standard，配置在資料收集UI中建立的移動屬性。 請參閱 [在Adobe Campaign設定您的Adobe Experience Platform Launch應用程式](../../administration/using/configuring-a-mobile-application.md#set-up-campaign)。
+1. 在Adobe Campaign Standard中，設定您在資料收集UI中建立的行動屬性。 請參閱 [在Adobe Campaign中設定Adobe Experience Platform Launch應用程式](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
 
 1. 將特定通道的設定新增至行動應用程式設定。如需詳細資訊，請參閱[ Adobe Campaign 中的通道特定應用程式設定](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)。
 
-1. 如果需要，可以刪除標籤屬性。
-有關詳細資訊，請參見 [刪除應用程式](../../administration/using/configuring-a-mobile-application.md#delete-app)。
+1. 如有需要，您可以刪除標籤屬性。
+如需詳細資訊，請參閱 [正在刪除您的應用程式](../../administration/using/configuring-a-mobile-application.md#delete-app).
 
-## 從啟動技術工作流同步移動應用AEPSDK {#aepsdk-workflow}
+## 從Launch技術工作流程同步行動應用程式AEPSDK {#aepsdk-workflow}
 
-在資料收集UI中建立和配置移動屬性後， **[!UICONTROL Sync Mobile app AEPSDK from Launch]** 技術工作流現在將同步在Adobe Campaign Standard導入的標籤移動屬性。
+在資料收集UI中建立並設定您的行動屬性後， **[!UICONTROL Sync Mobile app AEPSDK from Launch]** 技術工作流程現在將同步在Adobe Campaign Standard中匯入的標籤行動屬性。
 
-預設情況下，技術工作流每15分鐘啟動一次。 如果需要，可以手動重新啟動它：
+根據預設，技術工作流程每15分鐘啟動一次。 如有需要，可以手動重新啟動：
 
-1. 在Adobe Campaign Standard，從高級菜單中，選擇 **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Workflows]**。
-1. 開啟 **[!UICONTROL Sync Mobile app AEPSDK from Launch (syncWithLaunch)]** 工作流。
+1. 在Adobe Campaign Standard中，從進階功能表選取 **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Workflows]**.
+1. 開啟 **[!UICONTROL Sync Mobile app AEPSDK from Launch (syncWithLaunch)]** 工作流程。
 
    ![](assets/launch_10.png)
 
-1. 按一下 **[!UICONTROL Scheduler]** 的子菜單。
+1. 按一下 **[!UICONTROL Scheduler]** 活動。
 
 1. 選取 **[!UICONTROL Immediate execution]**。
 
    ![](assets/launch_11.png)
 
-您的工作流現在將重新啟動並同步在Adobe Campaign Standard導入的標籤移動屬性。
+您的工作流程現在將重新啟動並同步在Adobe Campaign Standard中匯入的標籤行動屬性。
 
-## 在Adobe Campaign設定應用程式 {#set-up-campaign}
+## 在Adobe Campaign中設定您的應用程式 {#set-up-campaign}
 
-要在市場活動中使用標籤移動屬性，您還必須在Adobe Campaign配置此屬性。 在Adobe Campaign，確保IMS用戶是標準用戶和管理員產品配置檔案的一部分。
+若要在Campaign中使用標籤行動屬性，您也必須在Adobe Campaign中設定此屬性。 在Adobe Campaign中，確保IMS使用者屬於標準使用者和管理員產品設定檔。
 
-您必須等待技術工作流運行並將標籤移動屬性同步到Adobe Campaign。 然後，您可以在Adobe Campaign配置它。
+您必須等候技術工作流程執行，並將標籤行動屬性同步至Adobe Campaign。 然後，您可以在Adobe Campaign中加以設定。
 
-有關從「啟動」技術工作流同步Mobile應用AEPSDK的詳細資訊，請參閱此 [節](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow)。
+如需從Launch技術工作流程同步行動應用程式AEPSDK的詳細資訊，請參閱此 [區段](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow).
 
 >[!NOTE]
 >
->預設情況下，將組織單位設定為ALL的管理員可以編輯移動應用程式。
+>依預設，組織單位設定為「全部」的管理員可以編輯行動應用程式。
 
-1. 從高級菜單中，選擇 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]**。
+1. 從進階功能表中，選取 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]**.
 
    ![](assets/launch.png)
 
-1. 選擇在資料收集UI中建立的移動應用程式。
-其 **[!UICONTROL Property Status]** 應該 **[!UICONTROL Ready to configure]**。
+1. 選取您在資料收集UI中建立的行動應用程式。
+其 **[!UICONTROL Property Status]** 應為 **[!UICONTROL Ready to configure]**.
 
    >[!NOTE]
    >
-   >預設情況下，要檢索在資料收集UI中建立的移動應用程式清單，Campaign Standard使用NmsServer_URL選項中定義的值來查找匹配的屬性。
+   >根據預設，若要擷取在資料收集UI中建立的行動應用程式清單，Campaign Standard會使用NmsServer_URL選項中定義的值來尋找相符的屬性。
    >
-   >在某些情況下，移動應用程式的市場活動終結點可能不同於NmsServer_URL中定義的終結點。 在這種情況下，在 `Launch_URL_Campaign` 的雙曲餘切值。 市場活動將使用此選項中的值在資料收集UI中查找匹配屬性。
+   >在某些情況下，行動應用程式的Campaign端點可能與NmsServer_URL中定義的端點不同。 在此情況下，請在 `Launch_URL_Campaign` 選項。 Campaign將使用此選項的值在資料收集UI中尋找相符的屬性。
 
    ![](assets/launch_4.png)
 
-1. 您可以在 **[!UICONTROL Access Authorization]** 將此移動應用程式的訪問權限限制到特定組織單位。 如需詳細資訊，請參閱本頁面。
+1. 您可以在底下變更行動應用程式的組織單位 **[!UICONTROL Access Authorization]** 區段來限制特定組織單位對此行動應用程式的存取。 如需詳細資訊，請參閱本頁面。
 
-   在此，管理員可以通過從下拉清單中選擇子組織單位來分配這些單位。
+   在此，管理員可以從下拉式清單中選取子組織單位，以指派子組織單位。
 
    ![](assets/launch_12.png)
 
-1. 要在Adobe Experience Platform的「活動」和標籤之間建立連接，請按一下 **[!UICONTROL Save]**。
+1. 若要在Campaign與Adobe Experience Platform中的標籤之間建立連線，請按一下 **[!UICONTROL Save]**.
 
-1. 驗證移動應用的狀態是否已從 **[!UICONTROL Ready to Configure]** 至 **[!UICONTROL Configured]**。
+1. 確認行動應用程式的狀態已從變更 **[!UICONTROL Ready to Configure]** 至 **[!UICONTROL Configured]**.
 
-   當「市場活動」擴展顯示已成功設定密鑰時，您還可以驗證是否在「市場活動」中成功設定了屬性。
+   當Campaign擴充功能顯示金鑰已成功設定時，您也可以驗證屬性是否已在Campaign中成功設定。
 
    ![](assets/launch_5.png)
 
-1. 要使此配置生效，需要在資料收集UI中發佈更改。
+1. 為了讓此設定生效，變更需要在資料收集UI中發佈。
 
-   有關詳細資訊，請參見 [發佈配置](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/#publish-the-configuration)
+   如需詳細資訊，請參閱 [發佈設定](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/#publish-the-configuration)
 
-## 在Adobe Campaign的特定於渠道的應用程式配置 {#channel-specific-config}
+## Adobe Campaign中的通道特定應用程式設定 {#channel-specific-config}
 
-您的移動應用程式現在已準備好在市場活動中用於推送通知或應用內交付。 現在，如果需要，您可以進一步配置它，以建立將觸發In-App消息和/或上載推式證書的事件。
+您的行動應用程式現在已準備好在Campaign中用於推播通知或應用程式內傳送。 您現在可以根據需要進一步設定，以建立將觸發應用程式內訊息和/或上傳推送憑證的事件。
 
-1. 從高級菜單中，選擇 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]**。
+1. 從進階功能表中，選取 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]**.
 
-1. 選擇在資料收集UI中建立和配置的移動應用程式。
+1. 選取您在資料收集UI中建立和設定的行動應用程式。
 
-1. 在 **[!UICONTROL Mobile application properties]** 頁籤，您可以開始添加在移動應用程式中可用於In-App消息的事件。
+1. 於 **[!UICONTROL Mobile application properties]** 索引標籤上，您可以開始新增行動應用程式中可用於應用程式內訊息的事件。
 
-1. 要配置事件，請按一下 **[!UICONTROL Create Element]**。
+1. 若要設定事件，請按一下 **[!UICONTROL Create Element]**.
 
    ![](assets/launch_6.png)
 
-1. 鍵入名稱和說明。
+1. 輸入名稱和說明。
 
    ![](assets/launch_7.png)
 
 1. 按一下&#x200B;**[!UICONTROL Add]**。
 
-   建立In-App消息時，您的事件現在可在「觸發器」頁籤上使用。 有關詳細資訊，請參見 [準備和發送應用內消息](../../channels/using/preparing-and-sending-an-in-app-message.md)。
+   現在，當您建立應用程式內訊息時，事件會顯示在「觸發器」標籤上。 如需詳細資訊，請參閱 [準備和傳送應用程式內訊息](../../channels/using/preparing-and-sending-an-in-app-message.md).
 
-1. 在 **[!UICONTROL Device-specific settings]** 在移動應用程式儀表板的部分，為每個設備提供應用程式詳細資訊，包括iOS的證書和Android的伺服器密鑰。
+1. 在 **[!UICONTROL Device-specific settings]** 行動應用程式控制面板的區段，針對每個裝置提供應用程式詳細資料，包括iOS的憑證和Android的伺服器金鑰。
 
-   上載證書後，將顯示一條消息通知您上載成功並顯示證書的過期日期。
+   上傳憑證後，會出現一則訊息，通知您上傳成功，並顯示憑證的到期日。
 
    >[!NOTE]
    >
-   >在Adobe Campaign Standard成功添加證書後，您將無法再更改您的設定，因為只能將一個APNS平台（生產或沙盒）添加到MCPNS應用。
+   >在Adobe Campaign Standard中成功新增憑證後，您將無法再將設定變更回，因為只能將一個APNS平台（生產或沙箱）新增到MCPNS應用程式。
 
    ![](assets/launch_8.png)
 
-1. 按一下 **[!UICONTROL Mobile application subscribers]** 頁籤，查看訂閱伺服器清單以及有關這些訂閱伺服器的其他資訊，例如，他們是否選擇不使用您的通知。
+1. 按一下 **[!UICONTROL Mobile application subscribers]** 標籤來檢視訂閱者清單以及有關這些訂閱者的其他資訊，例如他們是否選擇退出您的通知。
 
-## 刪除應用程式 {#delete-app}
+## 正在刪除您的應用程式 {#delete-app}
 
 >[!CAUTION]
 >
->無法刪除應用程式。
+>刪除您的應用程式無法還原。
 
-要刪除應用程式，請完成中的步驟 [刪除移動屬性](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#deleting-mobile-properties-in-the-data-collection-ui)。
+若要刪除您的應用程式，請完成中的步驟 [刪除行動屬性](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#deleting-mobile-properties-in-the-data-collection-ui).
 
-刪除應用程式後，在Adobe Campaign，驗證應用程式的屬性狀態是否已正確更新為「在啟動時刪除」。
+刪除應用程式後，請在Adobe Campaign中確認應用程式的屬性狀態是否已正確更新為「Launch中的已刪除」。
 
-通過按一下您在Adobe Campaign的應用程式，您可以選擇通過按一下「從市場活動中刪除」從Adobe Campaign完全刪除此應用程式。
+按一下Adobe Campaign中的應用程式，您就可以按一下「從Campaign刪除」 ，選擇從Adobe Campaign中完全移除此應用程式。
 
 ![](assets/launch_9.png)

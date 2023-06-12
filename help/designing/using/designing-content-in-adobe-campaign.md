@@ -19,15 +19,15 @@ ht-degree: 85%
 
 在 Adobe Campaign 中建立電子郵件後，您必須定義其內容。
 
-電子郵件設計器使您能夠通過拖放介面建立迷人的個性化定製電子郵件。 不論您是從空白顯示窗開始，或是運用現有的內容片段或範本，針對每封電子郵件（不論是促銷或異動）設計和調整所有內容。
+電子郵件設計工具可讓您透過拖放介面建立吸引人、個人訂做的電子郵件。 不論您是從空白顯示窗開始，或是運用現有的內容片段或範本，針對每封電子郵件（不論是促銷或異動）設計和調整所有內容。
 
-電子郵件設計工具是專為提供最佳化的 HTML 以進行回應式式計而建置，可讓您透過使用者介面，輕鬆定義並套用可見性條件和動態內容至電子郵件、範本或片段。您可以在拖放介面和HTML代碼之間通過按一下按鈕進行無縫切換。
+電子郵件設計工具是專為提供最佳化的 HTML 以進行回應式式計而建置，可讓您透過使用者介面，輕鬆定義並套用可見性條件和動態內容至電子郵件、範本或片段。按一下按鈕時，您可在拖放介面與HTML程式碼之間無縫切換。
 
 電子郵件設計工具可以讓您建立電子郵件內容和電子郵件內容範本。它可與簡單電子郵件、異動電子郵件、A/B 測試電子郵件、多語言電子郵件和循環電子郵件相容。
 
 <!--The Email Designer has more features than the Legacy Editor and is backward compatible.-->
 
-![](assets/do-not-localize/how-to-video.png) [在視頻中發現電子郵件設計器](#video)
+![](assets/do-not-localize/how-to-video.png) [在影片中探索電子郵件設計工具](#video)
 
 * 若要瞭解如何建立電子郵件內容，請參 閱「[開始使用電子郵件設計工具](../../designing/using/quick-start.md)」。
 * 有關電子郵件設計工具的概觀，請參閱「[使用電子郵件設計工具](../../designing/using/designing-content-in-adobe-campaign.md)」。
@@ -117,7 +117,7 @@ ht-degree: 85%
 
    在傳送訊息之前先預覽訊息。Adobe Campaign 提供了使用 Litmus 測試電子郵件轉譯的方法。如需詳細資訊，請參閱「[電子郵件轉譯](../../sending/using/email-rendering.md)」。
 
-* 電子郵件設計器不支援引用元標籤。
+* 電子郵件設計工具不支援反向連結中繼標籤。
 
 有關訊息的更多設計與一般最佳實務，請參閱下列 Adobe Campaign 逐步指南：[使用 Adobe Campaign 傳送最佳實務](../../sending/using/delivery-best-practices.md)。
 
@@ -151,8 +151,8 @@ Adobe 建議將您的內容更新至最新版本，以避免發生 CSS 衝突等
 
 * 在編輯樣式時，僅大多數電子郵件用戶端正式支援的網頁字型才有提供。
 * 樣式無法儲存為主題，以供日後重複使用。不過，CSS 樣式可以儲存在內容範本或電子郵件中。如需樣式的詳細資訊，請參閱[本區段](../../designing/using/styles.md)。
-* 電子郵件設計器不支援引用元標籤。
-* 代理對（Unicode字元集的基本多語言平面中未包括的字元）不能以2個位元組（16位）儲存，需要編碼為2個UTF-16字元。 這些字元包括一些中日韓表意文字、大多數表情符號和一些語言。<br>這些字元可能會在動態文本中引起一些不相容問題。 在發送消息之前，需要執行強test。
+* 電子郵件設計工具不支援反向連結中繼標籤。
+* 替代字元組（未包含在Unicode字元集的基本多語言平面中的字元）無法以2位元組（16位元）儲存，且需要編碼成2個UTF-16字元。 這些字元包括一些CJK表意文字、大多數表情符號和一些語言。<br>這些字元可能會在動態文字中造成一些不相容問題。 傳送訊息前，您需要執行強大的測試。
 
 **相關主題**
 
@@ -161,10 +161,10 @@ Adobe 建議將您的內容更新至最新版本，以避免發生 CSS 衝突等
 * [建立簡訊訊息](../../channels/using/creating-an-sms-message.md)
 * [準備和傳送推播通知](../../channels/using/preparing-and-sending-a-push-notification.md)
 
-## 教程視頻 {#video}
+## 教學課程影片 {#video}
 
-此視頻提供電子郵件設計器的概述。
+這部影片會提供電子郵件設計工具的概觀。
 
 >[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
 
-要開始使用電子郵件設計器，請觀看此 [一組視頻](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) 說明電子郵件設計器的一般功能以及如何從頭開始設計電子郵件或使用模板
+若要開始使用電子郵件設計工具，請觀看此影片 [視訊集](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) 說明電子郵件設計工具的一般功能，以及如何從草稿開始或使用範本來設計電子郵件

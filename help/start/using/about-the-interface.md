@@ -1,6 +1,6 @@
 ---
 title: 關於介面
-description: 市場活動工作區基於所有Adobe Experience Cloud解決方案共同的概念。
+description: Campaign工作區是以所有Adobe Experience Cloud解決方案通用的概念為基礎。
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
@@ -17,23 +17,23 @@ ht-degree: 4%
 
 # 關於介面{#about-the-interface}
 
-Adobe Campaign的用戶介面基於所有Adobe Experience Cloud解決方案共同的概念。
+Adobe Campaign的使用者介面是根據所有Adobe Experience Cloud解決方案通用的概念。
 
-此介面適用於Web瀏覽器。 它完全可調整大小，因此可自動適應使用它的介質：台式機或平板電腦。 每個元件都與滑鼠或觸摸屏的使用相容。
+此介面適用於網頁瀏覽器。 它可完全調整大小，因此會自動適應使用它的媒體：桌上型電腦或平板電腦。 每個元素都與使用滑鼠或觸控熒幕相容。
 
-市場活動介面、您可以訪問的功能和選項可能因合同和用戶權限而異。 酒店提供英語、法語和德語。
+您可存取的Campaign介面、功能和選項可能會因您的合約和使用者許可權而異。 提供英文、法文和德文版。
 
 請注意，語言是在安裝時已設定好的，之後無法變更。
 
-為了適應所提供的不同用途和新功能，Adobe Campaign用戶介面及其所有要素定期更新。 您可能注意到您使用的版本與本文檔中顯示的螢幕之間存在一些差異。
+為了適應不同的使用方式和提供的新功能，Adobe Campaign使用者介面及其所有元素會定期更新。 您可能會注意到您使用的版本與本檔案中顯示的畫面之間有些差異。
 
-導航原理是所有這些解決方案的共同之處。
+導覽原則是所有這些解決方案通用的原則。
 
-建立和協調與Adobe Campaign的營銷活動的關鍵步驟是：
+使用Adobe Campaign建立及協調行銷活動的主要步驟如下：
 
-* **準備**  — 這一初始階段使用戶能夠正式確定活動的需要、意圖和目標：建立市場營銷計畫、確定目標、定義內容和建立模式、預期結果以及相關人員。
-* **目標**  — 目標階段允許用戶定義資料收集模式、其結構、分段、受眾、種子和test、要設計的過濾條件等。 在此階段，您還可以設定預訂/取消預訂方法。 請參閱 [簡介和受眾](../../audiences/using/about-profiles.md)。
-* **建立消息和內容**  — 此階段涉及選擇 [通信通道](../../channels/using/get-started-communication-channels.md)。 也可以設計 [登錄頁](../../channels/using/getting-started-with-landing-pages.md) 獲取或更新配置檔案，並增大資料庫。 請參閱 [建立電子郵件](../../channels/using/creating-an-email.md)。 [建立SMS消息](../../channels/using/creating-an-sms-message.md)。 [建立推送通知](../../channels/using/preparing-and-sending-a-push-notification.md)。 [建立應用內消息](../../channels/using/about-in-app-messaging.md)。 [建立直郵遞送](../../channels/using/creating-the-direct-mail.md)。
-* **測試和發送**  — 執行階段允許用戶執行各種驗證步驟（內容、目標），特別是通過預覽螢幕和在發送前向批准者發送證明來執行。 請參閱 [測試和發送](../../sending/using/get-started-sending-messages.md)。
-* **監測和報告**  — 一旦市場活動執行完畢，併發送了不同的消息，此階段允許用戶收集發送的不同狀態以及跟蹤和監視資訊。 生成市場活動和交付報告以跟蹤市場活動和接收者活動的影響。 請參閱 [報告工具](../../reporting/using/about-dynamic-reports.md)。
-* **自動化**  — 在本階段，其他因素，如導入/導出機制實施方法、資料管理和更新模式、個性化資料識別等。 。 請參閱 [工作流和資料管理](../../automating/using/get-started-workflows.md)。
+* **正在準備**  — 此初始階段可讓使用者正式確定行銷活動的需求、意圖和目標：建立行銷計畫、識別目標、定義內容和建立模式、預期結果和所涉人員。
+* **目標定位**  — 鎖定目標階段可讓使用者定義資料收集模式、其結構、其細分、對象、種子和測試、設計的篩選條件等。 在此階段中，您也可以設定訂閱/取消訂閱方法。 另請參閱 [設定檔與對象](../../audiences/using/about-profiles.md).
+* **建立訊息和內容**  — 此階段涉及選取 [通訊頻道](../../channels/using/get-started-communication-channels.md). 您也可以設計 [登陸頁面](../../channels/using/getting-started-with-landing-pages.md) 以取得或更新設定檔，並擴充資料庫。 另請參閱 [建立電子郵件](../../channels/using/creating-an-email.md)， [建立簡訊訊息](../../channels/using/creating-an-sms-message.md)， [建立推播通知](../../channels/using/preparing-and-sending-a-push-notification.md)， [建立應用程式內訊息](../../channels/using/about-in-app-messaging.md)， [建立直接郵件傳送](../../channels/using/creating-the-direct-mail.md).
+* **測試和傳送**  — 執行階段可讓使用者執行各種驗證步驟（內容、目標），尤其是透過預覽畫面以及在傳送之前先傳送證明給核准者。 另請參閱 [測試和傳送](../../sending/using/get-started-sending-messages.md).
+* **監控與報告**  — 執行行銷活動並傳送不同訊息後，此階段可讓使用者收集傳送的不同狀態，以及追蹤和監控資訊。 會產生行銷活動和傳遞報告，以追蹤行銷活動和收件者活動的影響。 另請參閱 [報告工具](../../reporting/using/about-dynamic-reports.md).
+* **自動化**  — 在此階段中，還有其他因素，例如匯入/匯出機制實作方法、資料管理和更新模式、個人化資料識別等。 已定義。 另請參閱 [工作流程和資料管理](../../automating/using/get-started-workflows.md).

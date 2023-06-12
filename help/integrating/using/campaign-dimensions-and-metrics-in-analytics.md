@@ -1,6 +1,6 @@
 ---
 title: Analytics 中的 Campaign 維度和量度
-description: 瞭解您在Adobe Analytics可以找到的不同維度，以開始跟蹤您從Adobe Campaign發送的電子郵件。
+description: 瞭解您可以在Adobe Analytics中找到的不同維度，以開始從Adobe Campaign追蹤您的電子郵件傳送。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
@@ -17,9 +17,9 @@ ht-degree: 8%
 
 # Analytics 中的 Campaign 維度和量度{#campaign-dimensions-and-metrics-in-analytics}
 
-Adobe Campaign和Adobe Analytics的整合使您能夠直接在Adobe Analytics跟蹤您電子郵件發送的成功。
+Adobe Campaign與Adobe Analytics整合可讓您直接在Adobe Analytics中追蹤電子郵件傳送的成功情況。
 
-活動 **[!UICONTROL dimensions]** 在分析中找到，如下所示：
+Campaign **[!UICONTROL dimensions]** 可在Analytics中找到以下專案：
 
 <table> 
  <thead> 
@@ -31,32 +31,32 @@ Adobe Campaign和Adobe Analytics的整合使您能夠直接在Adobe Analytics跟
  <tbody> 
   <tr> 
    <td> 行銷活動 ID<br /> </td> 
-   <td> 市場活動中看到的市場活動的內部名稱<br /> </td> 
+   <td> 在Campaign中看到的行銷活動的內部名稱<br /> </td> 
   </tr> 
   <tr> 
-   <td> 市場活動標籤<br /> </td> 
-   <td> 市場活動中看到的市場活動標籤<br /> </td> 
+   <td> 行銷活動標籤<br /> </td> 
+   <td> 在Campaign中看到的行銷活動標籤<br /> </td> 
   </tr> 
   <tr> 
    <td> 傳遞 ID<br /> </td> 
-   <td> 「活動」中顯示的交貨的內部名稱。<br /> 例如，DM1是計畫每週發送子交貨的定期交貨。 DM2 、 DM3和DM4在前三週發送。 然後，「交付ID」維將顯示每個交付的結果，即DM1到DM4。 <br /> </td> 
+   <td> 在Campaign中看到的傳遞內部名稱。<br /> 例如，DM1是排程每週傳送子傳送的循環傳送。 DM2、DM3和DM4會在最初三週傳送。 「傳遞ID」維度接著會顯示每個傳遞的結果，即DM1到DM4。 <br /> </td> 
   </tr> 
   <tr> 
    <td> 傳遞標籤<br /> </td> 
-   <td> 市場活動中顯示的交貨標籤<br /> </td> 
+   <td> 在Campaign中看到的傳遞標籤<br /> </td> 
   </tr> 
   <tr> 
    <td> 已執行的傳遞ID<br /> </td> 
-   <td> 「活動」中顯示的交貨的內部名稱。 這僅涉及在市場活動中執行時的交付。<br /> 例如，DM1是計畫每週發送子交貨的定期交貨。 DM2 、 DM3和DM4在前三週發送。 然後，「已執行交貨ID」維將顯示已執行交貨的結果，即子交貨DM2、DM3和DM4。 <br /> </td> 
+   <td> 在Campaign中看到的傳遞內部名稱。 這僅涉及Campaign中的傳送執行。<br /> 例如，DM1是排程每週傳送子傳送的循環傳送。 DM2、DM3和DM4會在最初三週傳送。 「已執行的傳送ID」維度接著會顯示已執行傳送的結果，即子傳送DM2、DM3和DM4。 <br /> </td> 
   </tr> 
   <tr> 
-   <td> 已執行的交貨標籤<br /> </td> 
-   <td> 「活動」中顯示的交貨標籤。 這僅涉及在市場活動中執行時的交付。<br /> </td> 
+   <td> 已執行的傳遞標籤<br /> </td> 
+   <td> 在Campaign中看到的傳遞標籤。 這僅涉及Campaign中的傳送執行。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-活動 **[!UICONTROL metrics]** 在分析中找到，如下所示：
+Campaign **[!UICONTROL metrics]** 可在Analytics中找到以下專案：
 
 <table> 
  <thead> 
@@ -68,35 +68,35 @@ Adobe Campaign和Adobe Analytics的整合使您能夠直接在Adobe Analytics跟
  <tbody> 
   <tr> 
    <td> 已點按<br /> </td> 
-   <td> 在傳遞中按一下內容的次數。<br /> </td> 
+   <td> 內容在傳遞中的點按次數。<br /> </td> 
   </tr> 
   <tr> 
    <td> 已傳遞<br /> </td> 
-   <td> 成功發送的消息數，與已發送的消息總數相關。<br /> </td> 
+   <td> 成功傳送的訊息數（相對於已傳送的訊息總數）。<br /> </td> 
   </tr> 
   <tr> 
    <td> 已開啟<br /> </td> 
-   <td> 在傳遞中開啟消息的次數。<br /> </td> 
+   <td> 訊息在傳遞中開啟的次數。<br /> </td> 
   </tr> 
   <tr> 
    <td> 已傳送<br /> </td> 
-   <td> 交貨的發送總數。<br /> </td> 
+   <td> 傳遞的傳送總數。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 總邊界<br /> </td> 
-   <td> 在傳遞和自動返回處理期間累積的與已發送消息總數有關的錯誤總數。<br /> </td> 
+   <td> 總跳出數<br /> </td> 
+   <td> 傳遞和自動傳回處理期間累計的錯誤總數（與已傳送訊息總數相關）。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 唯一開啟<br /> </td> 
-   <td> 開啟交貨的收件人數。<br /> </td> 
+   <td> 不重複開啟<br /> </td> 
+   <td> 開啟傳遞的收件者人數。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 唯一按一下<br /> </td> 
-   <td> 按一下傳遞中內容的收件人數。<br /> </td> 
+   <td> 不重複點按<br /> </td> 
+   <td> 點按傳遞中內容的收件者人數。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 未訂閱<br /> </td> 
-   <td> 取消訂閱連結上的按一下次數。<br /> </td> 
+   <td> 已取消訂閱<br /> </td> 
+   <td> 對取消訂閱連結的點按次數。<br /> </td> 
   </tr> 
  </tbody> 
 </table>

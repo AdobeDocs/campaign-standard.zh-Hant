@@ -1,6 +1,6 @@
 ---
 title: 技術工作流程
-description: 瞭解有關技術工作流的更多資訊
+description: 進一步瞭解技術工作流程
 audience: administration
 feature: Instance Settings
 role: Admin
@@ -92,22 +92,22 @@ Adobe Campaign 可立即提供技術工作流程。技術工作流程是排程�
    <tr> 
    <td> <span class="uicontrol">與 Launch 同步</span> <br /> </td> 
    <td> <span class="uicontrol">SyncWithLaunch</span> <br /> </td> 
-   <td> 此工作流將同步在Adobe Campaign Standard導入的標籤移動屬性。 每 15 分鐘開始一次。<br /> </td> 
+   <td> 此工作流程會同步在Adobe Campaign Standard中匯入的標籤行動裝置屬性。 每 15 分鐘開始一次。<br /> </td> 
   </tr>
   <tr> 
-   <td> <span class="uicontrol">跟蹤日誌恢復</span> <br /> </td> 
+   <td> <span class="uicontrol">追蹤記錄復原</span> <br /> </td> 
    <td> <span class="uicontrol">SyncWithLaunch</span> <br /> </td> 
-   <td> 此工作流將同步在Adobe Campaign Standard導入的標籤移動屬性。 每 15 分鐘開始一次。<br /> </td> 
+   <td> 此工作流程會同步在Adobe Campaign Standard中匯入的標籤行動裝置屬性。 每 15 分鐘開始一次。<br /> </td> 
   </tr>
   <tr> 
-   <td> <span class="uicontrol">恢復跟蹤日誌</span> <br /> </td> 
-   <td> <span class="uicontrol">跟蹤日誌恢復</span> <br /> </td> 
-   <td> 此工作流將恢復丟失的跟蹤日誌。 請注意，此技術工作流僅用於特定上下文，僅限於Adobe內部使用。 <br>預設會每 10 分鐘啟動一次。<br /> </td> 
+   <td> <span class="uicontrol">復原追蹤記錄</span> <br /> </td> 
+   <td> <span class="uicontrol">trackingLogRecovery</span> <br /> </td> 
+   <td> 此工作流程會還原遺失的追蹤記錄。 請注意，此技術工作流程用於特定內容，並僅限於Adobe內部使用。 <br>預設會每 10 分鐘啟動一次。<br /> </td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">更新傳送執行</span> <br/> </td> 
    <td> <span class="uicontrol">updateDeliveryExecInfo</span> <br/> </td> 
-   <td> 此工作流複製本地資料庫中的廣播和跟蹤日誌。 預設會每 10 分鐘啟動一次。<br/> </td> 
+   <td> 此工作流程會複製本機資料庫中的broadlog和追蹤記錄。 預設會每 10 分鐘啟動一次。<br/> </td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">更新傳送指標</span> <br /> </td> 

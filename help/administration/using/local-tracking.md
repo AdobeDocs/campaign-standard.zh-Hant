@@ -1,6 +1,6 @@
 ---
-title: 實現本地跟蹤
-description: 瞭解如何確保推送通知跟蹤已在iOS和Android上正確實施
+title: 實作本機追蹤
+description: 瞭解如何確保在iOS和Android上正確實作推播通知追蹤
 audience: channels
 feature: Instance Settings
 role: Admin
@@ -13,45 +13,45 @@ ht-degree: 0%
 
 ---
 
-# 實現本地跟蹤 {#local-tracking}
+# 實作本機追蹤 {#local-tracking}
 
-## 關於本地跟蹤 {#about-local-tracking}
+## 關於本機追蹤 {#about-local-tracking}
 
-在本頁中，瞭解如何確保正確實施本地通知跟蹤。 請注意，這意味著已配置了本地通知。
+在本頁面中，瞭解如何確保本機通知追蹤已正確實作。 請注意，這表示本機通知已設定。
 
-本地通知跟蹤可分為三種類型：
+本機通知追蹤可以分割成三種型別：
 
-* **當地印象**  — 當本地通知已送達設備且位於通知中心，但完全未接觸時。 在大多數情況下，印數應與已交付的數字相同。 它確保設備確實收到消息並將該資訊轉發回伺服器。
+* **本機曝光次數**  — 當本機通知已傳送至裝置，且位於通知中心，但完全未觸及時。 在大多數情況下，曝光次數與傳送次數若不相同，應相近。 這可確保裝置確實收到訊息，並將該資訊轉送回伺服器。
 
-* **本地按一下**  — 當本地通知已傳送到設備且用戶已按一下該通知時。 用戶要麼想查看通知（通知將進而轉到本地開啟跟蹤），要麼想取消通知。
+* **本機點按**  — 當本機通知已傳送至裝置，且使用者已按一下通知時。 使用者想要檢視通知（進而會移至本機開啟追蹤）或關閉通知。
 
-* **本地開啟**  — 當本地通知已傳送到設備，並且用戶已按一下導致應用程式開啟的通知時。 這與本地按一下類似，除非當通知被取消時不會觸發本地開啟。
+* **本機開啟**  — 當本機通知已傳送至裝置，且使用者已按一下通知，導致應用程式開啟時。 這類似於本機點按，但如果通知已解除，則不會觸發本機開啟。
 
-為了實現對Adobe Campaign Standard的跟蹤，移動應用需要將移動SDK包括在應用中。 這些SDK在 [!DNL Adobe Mobile Services]。
+若要實作Adobe Campaign Standard的追蹤，行動應用程式必須在應用程式中包含Mobile SDK。 這些SDK位於 [!DNL Adobe Mobile Services].
 
-要發送跟蹤資訊，必須發送三個變數：其中兩個是從Adobe Campaign接收的資料的一部分，另一個是一個操作變數，它指示是印象、點擊還是開啟。
+若要傳送追蹤資訊，有三個變數必須傳送：兩個是從Adobe Campaign接收的資料的一部分，另一個是動作變數，可指定該變數是曝光數、點按數還是開啟數。
 
 | 變數 | 值 |
 | :-: | :-: |
-| 交貨ID | `deliveryId` 從傳入資料(類似於推送跟蹤 `_dld` ) |
-| broadlogId | `broadlogId` 從傳入資料(類似於推送跟蹤 `_mld` ) |
-| 動作 | 「1」表示開啟，「2」表示按一下，「7」表示印象 |
+| deliveryId | `deliveryId` 來自傳入資料(類似於推送追蹤，其中 `_dld` 已使用) |
+| broadlogId | `broadlogId` 來自傳入資料(類似於推送追蹤，其中 `_mld` 已使用) |
+| 動作 | 「1」代表開啟，「2」代表點選，「7」代表印象 |
 
-## 實施本地印象跟蹤 {#implement-local-impression-tracking}
+## 實作本機曝光追蹤 {#implement-local-impression-tracking}
 
-Adobe Experience Platform移動軟體開發工具包將自動發送Android和iOS的印象事件，而無需進行任何其他配置。
+Adobe Experience Platform Mobile SDK會自動傳送Android和iOS的曝光事件，無需額外設定。
 
-## 實現點擊跟蹤 {#implementing-click-tracking}
+## 實作點選追蹤 {#implementing-click-tracking}
 
-對於按一下跟蹤，在調用時必須發送值&quot;2&quot;以執行操作 `collectMessageInfo()` 或 `trackAction()` 的子菜單。
+針對點選追蹤，您必須傳送值「2」才能在呼叫時執行動作 `collectMessageInfo()` 或 `trackAction()` 函式。
 
-### 對於Android {#implement-click-tracking-android}
+### 適用於Android {#implement-click-tracking-android}
 
-要跟蹤點擊量，必須實施兩種方案：
+若要追蹤點按，必須實作兩種情況：
 
-* 用戶看到通知但將其清除。
+* 使用者看到通知但將其清除。
 
-   若要在解除方案時跟蹤按一下，請添加廣播接收器 `NotificationDismissalHandler` 應用程式模組的AndroidManifest檔案。
+   若要在遭解僱的情況下追蹤點按，請新增廣播接收器 `NotificationDismissalHandler` 應用程式模組的AndroidManifest檔案中。
 
    ```
    <receiver
@@ -59,13 +59,13 @@ Adobe Experience Platform移動軟體開發工具包將自動發送Android和iOS
    </receiver>
    ```
 
-* 用戶看到通知並按一下它，這將轉為開啟的跟蹤。
+* 使用者看到通知並按一下後，就會轉向開啟的追蹤。
 
-   此方案應產生按一下並開啟。 跟蹤此按一下將是跟蹤開啟時所需的實現的一部分。 請參閱 [實現開放跟蹤](#implement-open-tracking)。
+   此情境應會產生點按和開啟。 追蹤此點按將是追蹤開啟所需實施的一部分。 另請參閱 [實作開啟追蹤](#implement-open-tracking).
 
-### 為iOS {#implement-click-tracking-ios}
+### 適用於iOS {#implement-click-tracking-ios}
 
-要發送按一下跟蹤資訊，必須添加以下內容：
+若要傳送點選追蹤資訊，您必須新增下列專案：
 
 ```
 class NotificationDelegate: NSObject, UNUserNotificationCenterDelegate {
@@ -96,17 +96,17 @@ class NotificationDelegate: NSObject, UNUserNotificationCenterDelegate {
 }
 ```
 
-## 實現開放跟蹤 {#implement-open-tracking}
+## 實作開啟追蹤 {#implement-open-tracking}
 
-您必須發送「1」和「2」，因為用戶必須按一下通知才能開啟應用程式。 如果應用程式未通過本地通知啟動/開啟，則不會發生跟蹤事件。
+您必須傳送「1」和「2」，因為使用者必須按一下通知才能開啟應用程式。 如果未透過本機通知啟動/開啟應用程式，則不會發生追蹤事件。
 
-### 對於Android {#implement-open-tracking-android}
+### 適用於Android {#implement-open-tracking-android}
 
-要跟蹤開啟，我們必須建立意圖。 目的對象允許Android OS在完成某些操作時調用您的方法，在這種情況下，按一下通知以開啟應用。
+若要追蹤開啟，我們必須建立目的。 意圖物件可讓Android作業系統在完成某些動作時呼叫方法，在此案例中按一下通知以開啟應用程式。
 
-此代碼基於點擊印象跟蹤的實現。 如果設定了目的，您現在必須將跟蹤資訊發回Adobe Campaign。 在本例中，Android View([!DNL Activity])，觸發通知後，用戶將因按一下而開啟或置於前台。 中的目的對象 [!DNL Activity] 包含可用於跟蹤開啟的通知資料。
+此程式碼以點選曝光追蹤的實施為基礎。 使用意圖集，您現在必須將追蹤資訊傳回Adobe Campaign。 在此案例中，Android View([!DNL Activity])，觸發通知的內容會在使用者點按後開啟或進入前景。 中的意圖物件 [!DNL Activity] 包含可用來追蹤開啟的通知資料。
 
-MainActivity.java（擴展） [!DNL Activity])
+MainActivity.java (延伸 [!DNL Activity])
 
 ```
 @Override
@@ -164,7 +164,7 @@ private void handleTracking() {
 }
 ```
 
-### 為iOS {#implement-open-tracking-ios}
+### 適用於iOS {#implement-open-tracking-ios}
 
 ```
 import os.log

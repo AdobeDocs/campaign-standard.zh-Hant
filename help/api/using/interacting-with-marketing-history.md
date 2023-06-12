@@ -1,6 +1,6 @@
 ---
 title: 與行銷歷史記錄互動
-description: 瞭解如何與配置檔案的市場營銷歷史記錄交互
+description: 瞭解如何與設定檔的行銷歷史記錄互動
 feature: API
 role: Data Engineer
 level: Experienced
@@ -14,18 +14,18 @@ ht-degree: 10%
 
 # 與行銷歷史記錄互動{#interacting-with-marketing-history}
 
-的 **歷史** endpoint允許您與配置檔案的市場營銷歷史記錄交互。
-這樣，您就可以輕鬆地檢索發送到配置檔案的傳遞的鏡像頁面。 要執行此操作，請遵循下列步驟：
+此 **history** 端點可讓您與設定檔的行銷歷史記錄互動。
+舉例來說，如此一來，您可以輕鬆擷取傳送至設定檔之傳送的映象頁面。 要執行此操作，請遵循下列步驟：
 
-1. 使用 **歷史** 端點和配置檔案的主鍵。
-1. 對執行GET請求 **事件** href返回。
-1. 它返回配置檔案的事件清單，其中包含指向 **鏡像頁** 的下界。
+1. 使用GET **history** 端點和設定檔的主索引鍵。
+1. 對執行GET要求 **事件** 已傳回href。
+1. 它會傳回設定檔的事件清單，其中包含映象頁面於 **mirrorPage** 節點。
 
 <br/>
 
-***示例請求***
+***範例請求***
 
-使用GET請求檢索配置檔案的市場營銷歷史記錄。
+使用GET請求擷取設定檔的行銷記錄。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/history/"<PKEY>" \
@@ -35,7 +35,7 @@ ht-degree: 10%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-「事件」節點返回URL，該URL允許您訪問配置檔案中的事件。
+「events」節點會傳回URL，讓您存取設定檔上的事件。
 
 ```
 {
@@ -50,7 +50,7 @@ ht-degree: 10%
 }
 ```
 
-對返回的事件href執行GET請求。
+對傳回的事件href執行GET要求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/history/<PKEY>/events \
@@ -60,7 +60,7 @@ ht-degree: 10%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-它返回配置檔案的事件清單，該配置檔案具有指向「mirrorPage」節點中鏡像頁的連結。
+它會傳回設定檔的事件清單，其中包含在「mirrorPage」節點中映象頁面的連結。
 
 ```
     {

@@ -1,6 +1,6 @@
 ---
 title: 關於 Adobe Experience Platform 資料連接器
-description: 管理XDM架構，使您的Campaign Standard資料在Adobe Experience Platform上可用。
+description: 管理XDM結構描述，讓您的Campaign Standard資料可在Adobe Experience Platform上使用。
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
@@ -21,67 +21,67 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform資料連接器目前處於測試版，可能需要頻繁更新，恕不另行通知。 客戶需要在Azure上托管（目前僅在北美試用版）才能訪問這些功能。 如果您想訪問，請聯繫Adobe客戶服務。
+>Adobe Experience Platform Data Connector目前為測試版，可能會經常更新，恕不另行通知。 客戶必須在Azure上託管（目前僅北美地區適用Beta版）才能存取這些功能。 如果您想要存取許可權，請聯絡Adobe客戶服務。
 
-Adobe Experience Platform資料連接器通過將XTK資料（在活動中攝取的資料）映射到Adobe Experience Platform的經驗資料模型(XDM)資料，幫助現有客戶提供其Adobe Experience Platform資料。
+Adobe Experience Platform Data Connector可協助現有客戶，將XTK資料（在Campaign中擷取的資料）對應至Adobe Experience Platform上的Experience Data Model (XDM)資料，以便在Adobe Experience Platform上提供其資料。
 
-注意，連接器 **單向** 把資料從Adobe Campaign Standard傳到Adobe Experience Platform。 資料從未從Adobe Experience Platform發送到Adobe Campaign Standard。
+請注意，聯結器是 **單向** 和會將資料從Adobe Campaign Standard傳送至Adobe Experience Platform。 資料絕不會從Adobe Experience Platform傳送至Adobe Campaign Standard。
 
-Adobe Experience Platform資料連接器 **資料工程師** 他們瞭解Adobe Campaign Standard定制資源，並瞭解客戶的總體資料架構應如何位於Adobe Experience Platform。
+Adobe Experience Platform Data Connector **資料工程師** 瞭解Adobe Campaign Standard自訂資源，以及客戶整體資料結構描述應如何存在於Adobe Experience Platform中的人員。
 
-以下各節介紹在Campaign Standard和Adobe Experience Platform之間執行資料映射的關鍵步驟。 這從建立XDM架構和資料集開始。
+以下小節說明在Campaign Standard和Adobe Experience Platform之間執行資料對應的關鍵步驟。 首先建立XDM結構描述和資料集。
 
 ![](assets/do-not-localize/how-to-video.png) [在影片中探索此功能](#video)
 
 >[!NOTE]
->一旦配置了Adobe Experience Platform資料連接器並將資料成功地接入Adobe Experience Platform，您需要啟用該資料集，以便資料包含在即時客戶配置檔案中。
+>設定Adobe Experience Platform Data Connector並將資料成功擷取到Adobe Experience Platform後，您需要啟用資料集，才能將資料包含在即時客戶設定檔中。
 >
->這可以通過API或Adobe Experience Platform介面執行。 有關詳細資訊，請參閱專用文檔：
+>您可以透過API或Adobe Experience Platform介面執行此動作。 如需詳細資訊，請參閱專屬檔案：
 >
->* [為即時客戶配置檔案啟用資料集](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/datasets/dataset.html)
->* [使用API為Real-time Customer Profile和Identity Service配置資料集](https://experienceleague.adobe.com/docs/experience-platform/catalog/api/getting-started.html)
+>* [啟用即時客戶個人檔案的資料集](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/datasets/dataset.html)
+>* [使用API設定即時客戶個人檔案和身分服務的資料集](https://experienceleague.adobe.com/docs/experience-platform/catalog/api/getting-started.html)
 
 
 ## 重要概念 {#key-concepts}
 
-* 「框外映射」僅適用於預設情況下在Campaign Standard中提供的欄位。 要接收所有自定義欄位和資源，每個客戶需要定義自己的映射。
+* 「現成對應」僅適用於預設以Campaign Standard提供的欄位。 若要擷取所有自訂欄位和資源，每個客戶都需要定義自己的對應。
 
-* Adobe Experience Platform資料連接器將定期在平台中推送配置檔案數&#x200B;據。 時間間隔為15分鐘。 可以使用 [Adobe Experience PlatformAPI](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html)。
+* Adobe Experience Platform Data Connector會定期將設定檔資料推送至平台&#x200B;。 間隔持續時間為15分鐘。 此值可使用以下方式修改： [ADOBE EXPERIENCE PLATFORM API](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html).
 
-* 資料工程師可以發佈、修改和暫停從市場活動到Adobe Experience Platform的映射。
+* 資料工程師可以發佈、修改和暫停從Campaign到Adobe Experience Platform的對應。
 
-* 可以映射任何目標維。 建議對單個目標維中的所有欄位進行一個單一映射。
+* 任何目標維度都可以對應。 建議為單一目標維度中的所有欄位建立一個單一對應。
 
-* 所有配置檔案更新（包括通道選擇加入/選擇退出）都是批更新的一部分。
+* 所有設定檔更新（包括頻道加入/退出）都是批次更新的一部分。
 
-* 任何Adobe Campaign Standard或XDM架構更改都需要手動重新映射&#x200B;。
+* 任何Adobe Campaign Standard或XDM結構描述變更都需要手動重新對應&#x200B;。
 
-* 跟蹤日誌和Broadlog資料作為體驗事件自動被接收到Adobe Experience Platform。 這個攝入問題被即時傳到Adobe Experience Platform。
+* 追蹤記錄檔和Broadlog資料會自動擷取至Adobe Experience Platform做為體驗事件。 此內嵌會即時串流至Adobe Experience Platform。
 
-* Experience CloudID服務(ECID)是預設使用體驗事件發送的設備標識符。
+* Experience CloudID服務(ECID)是裝置識別碼，預設會隨Experience Events傳送。
 
-   它是分配給訪問者的唯一且持久的ID，平台標識服務可以使用它來識別不同Experience Cloud解決方案中的同一訪問者及其資料。 有關詳細資訊，請參閱 [Experience CloudIdentity Service幫助](https://experienceleague.adobe.com/docs/id-service/using/home.html)。
+   這是指派給訪客的不重複永久性ID，可供Platform Identity服務用來識別不同Experience Cloud解決方案中的相同訪客及其資料。 如需詳細資訊，請參閱 [Experience Cloud身分識別服務說明](https://experienceleague.adobe.com/docs/id-service/using/home.html).
 
    >[!NOTE]
    >
-   >請注意，如果兩個或多個配置檔案共用同一設備，則統一身份服務中這兩個配置檔案的ECID將相同。
+   >請注意，如果兩個或多個設定檔共用同一部裝置，則Unified Identity服務中這兩個設定檔的ECID會相同。
 
 ## 限制 {#limitations}
 
-* 不支援訂閱事件的現成傳輸。 要傳輸訂閱事件，可以在Adobe Experience Platform建立相應的XDM和資料集，然後為這些資料配置自定義資料映射。
+* 不支援立即可用的訂閱事件傳輸。 若要轉移訂閱事件，您可以在Adobe Experience Platform上建立對應的XDM和資料集，然後為這些資料設定自訂資料對應。
 
-* 關於隱私請求（訪問和刪除操作），客戶需要通過 [隱私核心服務](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html#how-to-use-privacy-service-to-manage-privacy-job-requests):一個給競選，一個給Adobe Experience Platform。 有關此的詳細資訊，請參閱 [關於隱私請求](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=zh-Hant#getting-started) 和 [管理隱私請求](https://helpx.adobe.com/tw/campaign/kb/acs-privacy.html#ManagingPrivacyRequests) 在競選中。
+* 關於隱私權請求（存取和刪除動作），客戶需要透過 [隱私權核心服務](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html#how-to-use-privacy-service-to-manage-privacy-job-requests)：一個用於Campaign，一個用於Adobe Experience Platform。 如需詳細資訊，請參閱 [關於隱私權請求](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=zh-Hant#getting-started) 和 [管理隱私權請求](https://helpx.adobe.com/tw/campaign/kb/acs-privacy.html#ManagingPrivacyRequests) （在Campaign）。
 
-* 對於每個XDM欄位，DULE標籤需要在Adobe Experience Platform完成。 這是應用DULE標籤的客戶責任。
+* 對於每個XDM欄位，DULE標籤必須在Adobe Experience Platform中完成。 客戶有責任套用DULE標籤。
 
-* 只有在DULE標籤在Adobe Experience Platform應用後，才能適用對市場營銷操作的限制。 在此之前，所有資料都可用於所有類型的市場營銷操作。
+* 只有在Adobe Experience Platform中套用DULE標籤後，行銷動作的限制才會適用。 在此之前，所有資料都可用於所有型別的行銷動作。
 
-* 每15分鐘，批處理作業將運行一次，它標識自最新批處理以來已更改的記錄。 如果所有記錄在同一時間戳下發生更改，則可能會出現效能瓶頸以管理所有配置檔案的接收
+* 每隔15分鐘，批次工作就會執行，並識別自最新批次以來已變更的記錄。 如果所有記錄都在相同的時間戳記上變更，則管理所有設定檔的擷取可能會出現效能瓶頸
 
-## 教程視頻 {#video}
+## 教學課程影片 {#video}
 
-此視頻概述了Adobe Experience Platform資料連接器。
+這部影片會概略介紹Adobe Experience Platform Data Connector。
 
 >[!VIDEO](https://video.tv.adobe.com/v/27304?quality=12&captions=eng)
 
-提供了與Adobe Experience Platform資料連接器相關的其他視頻 [這裡](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html)。
+提供與Adobe Experience Platform Data Connector相關的其他影片 [此處](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html).

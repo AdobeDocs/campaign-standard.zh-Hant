@@ -1,6 +1,6 @@
 ---
 title: 自訂清單
-description: 「瞭解如何自定義顯示和在Adobe Campaign Standard的清單螢幕上操作：排序、過濾、刪除或複製元素。 列出螢幕顯示一個或多個給定資源的元素。」
+description: 「瞭解如何在Adobe Campaign Standard中自訂顯示並在清單熒幕上動作：排序、篩選、刪除或複製元素。 清單畫面會顯示一或多個指定資源的元素。」
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
@@ -33,87 +33,87 @@ ht-degree: 22%
     </td>
 </tr>
 <tr>
-<td>設計您的交貨</td>
+<td>設計您的傳遞</td>
 <td>建立傳遞</td>
-<td>個性化和動態地提供交貨</td>
-<td>跟蹤和監控交貨</td>
-<td>設定報告</td>
+<td>個人化並提供動態傳遞</td>
+<td>追蹤及監控您的傳遞</td>
+<td>設定報表</td>
 </tr>
 </table>
 
-## 設計您的交貨
+## 設計您的傳遞
 
 <img width="60px" alt="條件" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. 毛氏前庭野草，非賦形野草。 整型luctus blandit ligula。 車尾松，乳汁。 印度紅鰭鮭。 毛里斯圓體。 卡拉斯和車都是空的。 義大利人、義大利人、義大利人、普爾維納人對。
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭原位，毛利紫羅蘭，不配配牙紅葡萄酒id。 整數luctus blandit ligula。 烏龜車，麗紋蛇。 Nunc pharetra fringilla enim eu suscipit. 莫里斯連續最高可達euismod 無痕小車。 埃尼安·特利烏斯·誇姆、三合一·奎斯·里薩斯·consectetur、普維納爾·艾萊門圖姆·杜伊。
 
 **深入了解**
 
-* xxx
-* xxx
+* xxxx
+* xxxx
 
 ## 建立傳遞
 
 <img width="60px" alt="條件" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. 毛氏前庭野草，非賦形野草。 整型luctus blandit ligula。 車尾松，乳汁。 印度紅鰭鮭。 毛里斯圓體。 卡拉斯和車都是空的。 義大利人、義大利人、義大利人、普爾維納人對。
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭原位，毛利紫羅蘭，不配配牙紅葡萄酒id。 整數luctus blandit ligula。 烏龜車，麗紋蛇。 Nunc pharetra fringilla enim eu suscipit. 莫里斯連續最高可達euismod 無痕小車。 埃尼安·特利烏斯·誇姆、三合一·奎斯·里薩斯·consectetur、普維納爾·艾萊門圖姆·杜伊。
 
 **深入了解**
 
-* xxx
-* xxx
+* xxxx
+* xxxx
 
-## 個性化和動態地提供交貨
+## 個人化並提供動態傳遞
 
 <img width="60px" alt="條件" src="assets/icon_profile.svg"/>
 
-通過使用根據客戶的配置檔案、首選項和活動進行個性化的內容和標題，來吸引客戶的注意並提高您的響應率。 您的所有客戶資訊都集中在Adobe Campaign，您可以通過不同渠道提供包含已調整內容的消息。
+使用根據客戶的設定檔、偏好和活動進行個人化的內容和標頭，吸引客戶的注意並提高回應率。 您的所有使用者端資訊都集中在Adobe Campaign中，您可以透過不同管道提供包含已調整內容的訊息。
 
-個性化消息是發送相關內容、提供個性化體驗、提高開放和轉換率的關鍵。 Adobe Campaign傳送的跨渠道資訊可以通過多種不同的方式進行個性化。 這些方式可根據配置檔案與條件組合。 您可以：
+個人化訊息是傳送相關內容、提供個人化體驗並提高開放率和轉換率的關鍵。 Adobe Campaign提供的跨管道訊息可以透過數種不同的方式個人化。 這些方式可根據設定檔與條件結合。 您可以：
 
-* 插入 [動態個性化欄位](../../designing/using/personalization.md#inserting-a-personalization-field) 在您的留言中
-* 插入 [預定義個性化塊](../../designing/using/personalization.md#adding-a-content-block)
-* [個性化發件人](../../designing/using/subject-line.md) 電子郵件或簡訊。
-* [個性化主題行](../../designing/using/subject-line.md) 電子郵件
-* 建立 [電子郵件中的條件內容](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) 或 [登錄頁](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
-* 插入 [動態文本](../../channels/using/defining-dynamic-text.md) 在SMS消息或推送通知中
+* 插入 [動態個人化欄位](../../designing/using/personalization.md#inserting-a-personalization-field) 在您的訊息中
+* 插入 [預先定義的個人化區塊](../../designing/using/personalization.md#adding-a-content-block)
+* [個人化寄件者](../../designing/using/subject-line.md) 電子郵件或簡訊的
+* [個人化主旨列](../../designing/using/subject-line.md) 電子郵件的
+* 建立 [電子郵件中的條件式內容](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) 或 [在登入頁面中](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
+* 插入 [動態文字](../../channels/using/defining-dynamic-text.md) 在SMS訊息或推播通知中
 
 ![](assets/delivery_content_43.png)
 
 **深入了解**
 
-* 通過 [端到端示例](../../designing/using/personalization.md#example-email-personalization)
-* [個性化URL](../../designing/using/personalization.md#personalizing-urls)
-* [設定影像的個性化](../../designing/using/personalization.md#personalizing-an-image-source)
+* 透過探索電子郵件個人化 [端對端範例](../../designing/using/personalization.md#example-email-personalization)
+* [個人化URL](../../designing/using/personalization.md#personalizing-urls)
+* [設定影像的個人化](../../designing/using/personalization.md#personalizing-an-image-source)
 
-## 跟蹤和監控交貨
+## 追蹤及監控您的傳遞
 
 <img width="60px" alt="條件" src="assets/icon_profile.svg"/>
 
-除了功能強大的現成報告範本外，Adobe Campaign 還允許您在傳遞、行銷活動、使用者或區段層級建立自訂報告。 通過逐步豐富客戶的個人資料資料來跟蹤您的郵件並瞭解其行為。 報告和分析工具使您能夠利用每個新的市場活動，更好地針對您的營銷活動，並優化其影響和投資回報。
+除了功能強大的現成報告範本外，Adobe Campaign 還允許您在傳遞、行銷活動、使用者或區段層級建立自訂報告。 追蹤您的訊息，並透過逐步豐富客戶設定檔資料來瞭解其行為。 報告與分析工具可讓您充分利用每一次新的行銷活動、更有效地鎖定行銷行動，並最佳化行銷影響力及投資報酬率。
 
-該圖形介面提供了對主要指標和交貨統計資訊的快速、方便的訪問。
+圖形介面可讓您快速、輕鬆地存取主要指標和傳遞統計資料。
 
 ![](assets/dynamic_report_intro.png)
 
-市場活動報告用戶介面有助於建立動態報告。 您可以利用可拖放的變數來自訂報告並分析行銷活動的成功與否。 根據查詢和計算的複雜性，資料可以彙總到清單檢視或透過便於產生行銷分析報告的格式加以存取。
+行銷活動報告使用者介面有助於建立動態報告。 您可以利用可拖放的變數來自訂報告並分析行銷活動的成功與否。 根據查詢和計算的複雜性，資料可以彙總到清單檢視或透過便於產生行銷分析報告的格式加以存取。
 
-有了Adobe Campaign，您可以單獨監控和跟蹤每個交貨。 消息儀表板顯示專用日誌以跟蹤進程、規則並識別可能的錯誤和警告。
+透過Adobe Campaign，您可以個別監控及追蹤每個傳遞。 訊息儀表板會顯示專用日誌，用於跟進流程、規則並識別可能的錯誤和警告。
 
 
 **深入了解**
 
-* [訪問報告](../../reporting/using/about-dynamic-reports.md)
+* [存取報告](../../reporting/using/about-dynamic-reports.md)
 * [監視傳遞](../../sending/using/monitoring-a-delivery.md)
 * [追蹤訊息](../../sending/using/tracking-messages.md)
 
-## 設定報告
+## 設定報表
 
 <img width="60px" alt="條件" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. 毛氏前庭野草，非賦形野草。 整型luctus blandit ligula。 車尾松，乳汁。 印度紅鰭鮭。 毛里斯圓體。 卡拉斯和車都是空的。 義大利人、義大利人、義大利人、普爾維納人對。
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭原位，毛利紫羅蘭，不配配牙紅葡萄酒id。 整數luctus blandit ligula。 烏龜車，麗紋蛇。 Nunc pharetra fringilla enim eu suscipit. 莫里斯連續最高可達euismod 無痕小車。 埃尼安·特利烏斯·誇姆、三合一·奎斯·里薩斯·consectetur、普維納爾·艾萊門圖姆·杜伊。
 
 **深入了解**
 
-* xxx
-* xxx
+* xxxx
+* xxxx

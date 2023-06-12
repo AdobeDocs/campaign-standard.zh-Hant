@@ -1,6 +1,6 @@
 ---
 title: 查詢範例
-description: 此節在使用查詢活動時顯示用例。
+description: 本節介紹使用查詢活動時的使用案例。
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -18,7 +18,7 @@ ht-degree: 90%
 
 # 查詢範例 {#query-samples}
 
-本節在使用 **[!UICONTROL Query]** 的子菜單。 有關如何使用 **[!UICONTROL Query]** 活動，請參閱 [此部分](../../automating/using/query.md)。
+本節介紹使用時的使用案例 **[!UICONTROL Query]** 活動。 如需如何使用 **[!UICONTROL Query]** 活動，請參閱 [本節](../../automating/using/query.md).
 
 ## 對簡單設定檔屬性進行定位 {#targeting-on-simple-profile-attributes}
 

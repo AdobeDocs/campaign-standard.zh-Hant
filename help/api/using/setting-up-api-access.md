@@ -1,6 +1,6 @@
 ---
-title: 設定API訪問
-description: 瞭解如何設定對Campaign StandardAPI的訪問。
+title: 設定API存取
+description: 瞭解如何設定Campaign Standard API的存取權。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -17,18 +17,18 @@ ht-degree: 2%
 
 # 設定 API 存取 {#setting-up-api-access}
 
-Adobe Campaign StandardAPI訪問通過以下步驟設定。 以下每個步驟均在 [Adobe Developer文檔](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)。
+Adobe Campaign Standard API存取權是透過下列步驟設定。 這些步驟的詳細內容請參見 [Adobe Developer檔案](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
 
 >[!IMPORTANT]
 >
->在中管理證書 [Adobe Developer](https://developer.adobe.com/)，確保 **系統管理員** 組織或 [開發者帳戶](https://helpx.adobe.com/enterprise/using/manage-developers.html) Admin Console。
+>若要管理中的憑證 [Adobe Developer](https://developer.adobe.com/)，確定您擁有 **系統管理員** 對組織或的許可權 [開發人員帳戶](https://helpx.adobe.com/enterprise/using/manage-developers.html) 在Admin Console中。
 
-1. **檢查您有數字證書**，或根據需要建立。 在以下步驟中需要隨證書提供的公鑰和私鑰。
-1. **建立與Adobe Campaign服務的新整合** 在 [Adobe Developer](https://developer.adobe.com/) 並配置。 然後將生成您的憑據（API密鑰、客戶端密鑰……）。
-1. **建立JSON Web令牌(JWT)** 從先前生成的憑據中，使用您的私鑰進行簽名。 JWT對Adobe驗證身份和授予您訪問API的權限所需的所有身份和安全資訊進行編碼。
-1. **將JWT交換為訪問令牌** 通過POST。 此訪問令牌必須用於API請求的每個標頭。
+1. **檢查您是否擁有數位憑證**，或視需要建立一個。 以下步驟需要憑證隨附的公開和私密金鑰。
+1. **建立與Adobe Campaign服務的新整合** 在 [Adobe Developer](https://developer.adobe.com/) 並加以設定。 接著會產生您的認證（API金鑰、使用者端密碼……）。
+1. **建立JSON Web權杖(JWT)** 從先前產生的認證中，並使用您的私密金鑰加以簽署。 JWT會編碼Adobe驗證您的身分並授與您API存取權所需的所有身分和安全資訊。
+1. **交換您的JWT以取得存取權杖** 透過POST請求。 此Access Token必須用於API請求的每個標頭。
 
-要建立安全的服務到服務Adobe I/OAPI會話，對Adobe服務的每個請求都必須在「授權」標頭中包含以下資訊。
+若要建立安全的服務對服務Adobe I/OAPI工作階段，對Adobe服務的每個請求都必須在Authorization標頭中包含以下資訊。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
@@ -38,16 +38,16 @@ Adobe Campaign StandardAPI訪問通過以下步驟設定。 以下每個步驟�
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-* **&lt;organization>**:這是您的個人組織ID,Adobe為每個實例提供一個組織ID:
+* **&lt;organization>**：這是您的個人組織ID，Adobe會為每個執行個體提供一個組織ID：
 
-   * &lt;organization> :生產實例，
-   * &lt;organization-mkt-stage>:您的階段實例。
+   * &lt;organization> ：您的生產執行個體，
+   * &lt;organization-mkt-stage>：您的階段執行個體。
 
-   要獲取您的組織ID值，請咨詢您的管理員或Adobe技術聯繫人。 建立新整合時，您還可以在許可證清單中將其檢索到Adobe I/O(請參見 <a href="https://developer.adobe.com/developer-console/docs/guides/authentication/">Adobe Developer文檔</a>)。
+   若要取得組織ID值，請洽詢您的管理員或您的Adobe技術連絡人。 您也可以在建立新整合時，在授權清單中將其擷取到Adobe I/O中(請參閱 <a href="https://developer.adobe.com/developer-console/docs/guides/authentication/">Adobe Developer檔案</a>)。
 
-* **&lt;access_token>**:通過POST請求交換JSON Web令牌時檢索的個人訪問令牌。
+* **&lt;access_token>**：您的個人存取權杖，這是在透過POST要求交換您的JSON Web Token時擷取的。
 
-* **&lt;api_key>**:您的個人API密鑰。 在建立與Adobe Campaign服務的新整合後，它以Adobe I/O形式提供。
+* **&lt;api_key>**：您的個人API金鑰。 在建立與Adobe Campaign服務的新整合後，以Adobe I/O提供。
 
    ![替代文字](assets/tenant.png)
 
@@ -63,4 +63,4 @@ Adobe Campaign StandardAPI訪問通過以下步驟設定。 以下每個步驟�
 ```
 
 
-請咨詢您的管理員或Adobe技術聯繫人，以檢查CNAME參數是否建立正確。
+請洽詢您的管理員或您的Adobe技術連絡人，以檢查CNAME引數是否正確建立。

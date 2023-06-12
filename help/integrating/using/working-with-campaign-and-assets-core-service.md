@@ -1,6 +1,6 @@
 ---
 title: 使用 Campaign 與 Assets 核心服務
-description: 借助資產核心服務整合，在Adobe Campaign的消息和登錄頁中使用Adobe Experience Cloud內共用的任何資源。
+description: 由於Assets核心服務整合，請在Adobe Campaign訊息和登陸頁面中使用在Adobe Experience Cloud內共用的任何資源。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-assets-core-service
@@ -17,21 +17,21 @@ ht-degree: 9%
 
 # 使用 Campaign 與 Assets 核心服務{#working-with-campaign-and-assets-core-service}
 
-將資產核心服務或按需資產(具體取決於您的Adobe Experience Cloud環境的配置)與Adobe Campaign整合後，您就可以在您的Adobe Campaign電子郵件和登錄頁中使用在Adobe Experience Cloud內共用的任何資產。
+將Assets核心服務或Assets on Demand (取決於Adobe Experience Cloud環境的設定)與Adobe Campaign整合，可讓您在Adobe Campaign電子郵件和登陸頁面中使用Adobe Experience Cloud內共用的任何資產。
 
-與資產核心服務的整合僅限於 [功能管理員](../../administration/using/users-management.md#functional-administrators)。
+與Assets核心服務的整合僅限於 [功能管理員](../../administration/using/users-management.md#functional-administrators).
 
-從Adobe Experience Cloud共用的資源可用於您的電子郵件和登錄頁，如下所示：
+從Adobe Experience Cloud共用的資源可用於您的電子郵件和登入頁面，如下所示：
 
-1. 編輯電子郵件或登錄頁的內容時，轉到影像塊，然後選擇 **[!UICONTROL Image shared from Adobe Experience Cloud]** 按鈕。
+1. 編輯電子郵件或登入頁面的內容時，請前往影像區塊，然後選取「 」 **[!UICONTROL Image shared from Adobe Experience Cloud]** 透過內容功能表。
 
    ![](assets/dam_insert_image_dce.png)
 
-1. 在開啟的選擇窗口中，選擇影像，然後確認。
+1. 在開啟的選取範圍視窗中，選取影像，然後確認。
 
    ![](assets/dam_shared_image_selection.png)
 
-然後插入影像。 現在可以根據需要個性化併發送遞送。
+然後插入影像。 現在可以根據需要個人化傳送並傳送。
 
 **相關主題：**
 

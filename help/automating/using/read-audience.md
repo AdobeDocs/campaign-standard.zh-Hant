@@ -30,8 +30,8 @@ ht-degree: 87%
 
 **相關主題**
 
-* [用例：兩個精緻觀眾的聯合](../../automating/using/union-on-two-refined-audiences.md)
-* [用例：協調檔案訪問群體與資料庫](../../automating/using/reconcile-file-audience-with-database.md)
+* [使用案例：聯合兩個完善的對象](../../automating/using/union-on-two-refined-audiences.md)
+* [使用案例：使用資料庫調解檔案對象](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## 設定 {#configuration}
 
@@ -41,7 +41,7 @@ ht-degree: 87%
 
    您可以擷取下列類型的對象：**[!UICONTROL List]**、**[!UICONTROL Query]**、**[!UICONTROL File]** 及 **[!UICONTROL Experience Cloud]**。如需對象類型的詳細資訊，請參閱[對象](../../audiences/using/about-audiences.md)文件。
 
-   **[!UICONTROL Use a dynamic audience]** 選項可讓您根據工作流程的事件變數定義要定位的對象名稱。有關此內容的詳細資訊，請參閱 [此頁](../../automating/using/customizing-workflow-external-parameters.md) 的子菜單。
+   **[!UICONTROL Use a dynamic audience]** 選項可讓您根據工作流程的事件變數定義要定位的對象名稱。有關詳細資訊，請參閱 [此頁面](../../automating/using/customizing-workflow-external-parameters.md) 區段。
 
    ![](assets/readaudience_activity1.png)
 

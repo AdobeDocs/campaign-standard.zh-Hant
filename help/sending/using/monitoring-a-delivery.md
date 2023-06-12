@@ -18,11 +18,11 @@ ht-degree: 79%
 
 # 監視傳遞{#monitoring-a-delivery}
 
-有多種方法來監測交貨情況並衡量其影響。 作為職能管理員，您可以訪問消息日誌和傳遞日誌。
+監控傳送和衡量其影響的方法有幾種。 身為功能管理員，您可以存取訊息記錄檔和傳送記錄檔。
 
 >[!IMPORTANT]
 >
->僅功能 [管理員](../../administration/using/users-management.md#functional-administrators), **[!UICONTROL Administration]** 角色和訪問權限 **全部** 設備可以訪問發送日誌、消息日誌、跟蹤日誌、排除日誌或訂閱日誌。 非管理員用戶可以針對這些日誌，但可以從連結的表（配置檔案、傳遞）開始。
+>僅功能 [管理員](../../administration/using/users-management.md#functional-administrators)，搭配 **[!UICONTROL Administration]** 角色與存取權 **全部** 單位可以存取傳送記錄、訊息記錄、追蹤記錄、排除或訂閱記錄。 非管理員使用者可以鎖定這些記錄，但從連結的表格（設定檔、傳送）開始。
 
 * **訊息記錄檔**：可直接從訊息控制面板存取這些記錄檔。其中會顯示傳送的詳細資料、已排除的目標、原因，以及開啟和點按數等追蹤資訊。
 
@@ -38,9 +38,9 @@ ht-degree: 79%
 
    ![](assets/sending_delivery2.png)
 
-* **作業日誌**:可通過選擇消息面板來訪問由傳遞觸發的批處理作業清單 **[!UICONTROL Job history]** 從 **[!UICONTROL Summary]** 的子菜單。
+* **工作記錄檔**：您可以透過選取「 」，從訊息控制面板存取傳遞觸發的批次工作清單 **[!UICONTROL Job history]** 從 **[!UICONTROL Summary]** 下拉式清單。
 
-   從清單中選擇任何作業以查看所選作業的詳細資訊 **[!UICONTROL Batch job]**。
+   從清單中選取任何工作，以檢視所選專案的詳細資訊 **[!UICONTROL Batch job]**.
 
    ![](assets/sending_delivery8.png)
 

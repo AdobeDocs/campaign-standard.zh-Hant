@@ -1,6 +1,6 @@
 ---
 title: 管理 Campaign 中的選擇加入和選擇退出
-description: 瞭解如何在Adobe Campaign管理選擇加入和退出。
+description: 瞭解如何在Adobe Campaign中管理選擇加入和選擇退出。
 audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
@@ -17,42 +17,42 @@ ht-degree: 8%
 
 # 管理 Campaign 中的選擇加入和選擇退出{#managing-opt-in-and-opt-out-in-campaign}
 
-## 管理配置檔案中的選擇加入和選擇退出 {#managing-opt-in-and-opt-out-from-a-profile}
+## 管理設定檔的選擇加入和選擇退出 {#managing-opt-in-and-opt-out-from-a-profile}
 
-操作員可以直接從配置檔案選擇用戶進出 **[!UICONTROL General]** 頁籤。
+操作員可以直接從設定檔中選擇使用者加入或退出 **[!UICONTROL General]** 標籤。
 
-在 **[!UICONTROL No longer contact (on denylist)]** 部分，選中的複選框對應於用戶選擇退出的頻道。 根據用戶的需要選擇頻道。
+在 **[!UICONTROL No longer contact (on denylist)]** 區段，選取的核取方塊會與使用者選擇退出的管道相對應。 根據使用者的需求選取頻道。
 
 ![](assets/optin_landingpage_3.png)
 
-## 設定選擇加入和選擇退出登錄頁 {#setting-up-opt-in-and-opt-out-landing-pages}
+## 設定選擇加入和選擇退出登陸頁面 {#setting-up-opt-in-and-opt-out-landing-pages}
 
-要讓用戶能夠選擇加入或退出，您必須建立並發佈 **[!UICONTROL Profile acquisition]** 登錄頁。 然後他們就可以根據自己的需要來選擇頻道。 請依照下列步驟以執行此操作。
+若要讓使用者能夠選擇加入或選擇退出，您必須建立並發佈 **[!UICONTROL Profile acquisition]** 登陸頁面。 然後，他們便能依需求選取管道。 請依照下列步驟以執行此操作。
 
-也可以設定 **[!UICONTROL Denylist]** 登錄頁，使用戶能夠選擇退出所有交貨。 有關此內容的詳細資訊，請參閱 [設定登錄頁以選擇退出所有交貨](#setting-up-a-landing-page-to-opt-out-from-all-deliveries)。
+您也可以設定 **[!UICONTROL Denylist]** 可讓使用者選擇退出所有傳送的登陸頁面。 有關詳細資訊，請參閱 [設定登陸頁面以選擇退出所有傳遞](#setting-up-a-landing-page-to-opt-out-from-all-deliveries).
 
 >[!NOTE]
 >
->登錄頁也可用於啟用服務訂閱。 如需詳細資訊，請參閱[此頁面](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)。
+>登入頁面也可用來啟用服務訂閱。 如需詳細資訊，請參閱[此頁面](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)。
 
-1. 建立 **[!UICONTROL Profile acquisition]** 登錄頁（請參見） [此部分](../../channels/using/getting-started-with-landing-pages.md))。
-1. 在登錄頁內容中為每個所需渠道添加一個複選框，然後將其連結到市場活動資料庫中的相應欄位。
+1. 建立 **[!UICONTROL Profile acquisition]** 登陸頁面(請參閱 [本節](../../channels/using/getting-started-with-landing-pages.md))。
+1. 在登入頁面內容中為每個所需管道新增核取方塊，然後將其連結到Campaign資料庫中對應的欄位。
 
    ![](assets/optin_landingpage_1.png)
 
-1. 保存登錄頁並發佈。
-1. 在登錄頁中，已根據配置檔案選中複選框 **[!UICONTROL General]** 頁籤。 用戶可以根據需要選擇或取消選擇頻道並提交表格。
+1. 儲存登入頁面並發佈。
+1. 在登入頁面中，已根據設定檔選取核取方塊 **[!UICONTROL General]** 標籤。 使用者可以根據需要選擇或取消選擇管道並提交表單。
 
    ![](assets/optin_landingpage_2.png)
 
-1. 提交表單後，配置檔案 **[!UICONTROL General]** 頁籤
+1. 提交表單後，設定檔 **[!UICONTROL General]** 標籤會根據使用者的選擇更新。
 
    ![](assets/optin_landingpage_3.png)
 
-### 設定登錄頁以選擇退出所有交貨 {#setting-up-a-landing-page-to-opt-out-from-all-deliveries}
+### 設定登陸頁面以選擇退出所有傳遞 {#setting-up-a-landing-page-to-opt-out-from-all-deliveries}
 
-要讓用戶能夠選擇退出所有交貨，您必須建立並發佈 **[!UICONTROL Denylist]** 登錄頁。 有關登錄頁建立的詳細資訊，請參閱 [此頁](../../channels/using/getting-started-with-landing-pages.md)。
+若要讓使用者能夠選擇退出所有傳送，您必須建立並發佈 **[!UICONTROL Denylist]** 登陸頁面。 如需建立登入頁面的詳細資訊，請參閱 [此頁面](../../channels/using/getting-started-with-landing-pages.md).
 
-用戶按一下登錄頁連結後， **[!UICONTROL No longer contact (by any channel)]** 的子菜單。
+一旦使用者按一下登陸頁面連結， **[!UICONTROL No longer contact (by any channel)]** 設定檔中的選項會自動選取。
 
 ![](assets/blocklisting_allchannels.png)

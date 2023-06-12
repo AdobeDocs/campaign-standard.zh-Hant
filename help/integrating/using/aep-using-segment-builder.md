@@ -1,6 +1,6 @@
 ---
 title: 使用區段產生器
-description: 瞭解如何使用段生成器建立受眾。
+description: 瞭解如何使用區段產生器建立受眾。
 audience: audiences
 content-type: reference
 topic-tags: managing-audiences
@@ -20,124 +20,124 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->受眾目標服務當前處於測試版，可能需要頻繁更新，恕不另行通知。 客戶需要在Azure上托管（目前僅在北美試用版）才能訪問這些功能。 如果您想訪問，請聯繫Adobe客戶服務。
+>Audience Destinations服務目前為測試版，可能會經常更新，恕不另行通知。 客戶必須在Azure上託管（目前僅北美地區適用Beta版）才能存取這些功能。 如果您想要存取許可權，請聯絡Adobe客戶服務。
 
-段生成器允許您根據來自的資料定義規則來構建受眾 [即時客戶概要資訊](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)。
+區段產生器可讓您根據以下來源資料定義規則，以建立對象： [即時客戶個人檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
 
-本節介紹生成段時的全局概念。 有關段生成器本身的詳細資訊，請參閱 [段生成器使用手冊](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html)。
+本節介紹建立區段時的全域概念。 如需區段產生器本身的詳細資訊，請參閱 [區段產生器使用手冊](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
-段生成器介面由以下組成：
+「區段產生器」介面的組成如下：
 
-* 左窗格通過將所需欄位拖放到段生成器工作區中，提供所有可用於生成段的屬性、事件和受眾。
-* 中心區域通過定義和組合可用欄位中的規則來提供構建段的工作區。
-* 標題和右窗格顯示段的屬性（即段的名稱、說明和估計的限定配置檔案）。
+* 左窗格將所有屬性、事件和對象拖放至區段產生器工作區，以便建立區段。
+* 中心區域提供工作區，可藉由定義並結合可用欄位的規則來建立區段。
+* 標題和右側窗格會顯示區段的屬性（即名稱、說明，以及區段的預估合格設定檔）。
 
 ![](assets/aep_audiences_interface.png)
 
-## 構建段
+## 建立區段
 
-要構建段，請執行以下步驟：
+若要建立區段，請遵循下列步驟：
 
-現在，段生成器應顯示在工作區中。 它允許您使用來自Adobe Experience Platform的資料構建一個段，該段最終將用於建立您的受眾。
+區段產生器現在應該會顯示在您的工作區中。 它可讓您使用Adobe Experience Platform的資料來建立區段，這些資料最終將用來建立您的對象。
 
-1. 命名段，然後輸入說明（可選）。
+1. 為區段命名，然後輸入說明（選擇性）。
 
    ![](assets/aep_audiences_creation_edit_name.png)
 
-1. 確保在設定窗格中選擇了所需的合併策略。
+1. 確保在設定窗格中選取所需的合併原則。
 
-   有關合併策略的詳細資訊，請參閱 [段生成器使用手冊](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html)。
+   如需合併原則的詳細資訊，請參閱 [區段產生器使用手冊](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
    ![](assets/aep_audiences_mergepolicy.png)
 
-1. 在左窗格中查找所需欄位，並將其拖入中心工作區。
+1. 在左窗格中尋找所需欄位，並將其拖曳至中心工作區。
 
    ![](assets/aep_audiences_dragfield.png)
 
-1. 配置與拖動欄位對應的規則。
+1. 設定與拖曳欄位對應的規則。
 
    ![](assets/aep_audiences_configure_rules.png)
 
 1. 按一下 **[!UICONTROL Create segment]** 按鈕。
 
-## 查找段的正確欄位
+## 尋找區段的正確欄位
 
-左窗格列出可用於構建規則的所有屬性、事件和訪問群體。
+左側窗格會列出可用來建構規則的所有屬性、事件和對象。
 
-列出的欄位是您的公司捕獲的屬性，已通過 [體驗資料模型(XDM)系統](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)。
+列出的欄位是貴公司擷取的屬性，並可透過 [Experience Data Model (XDM)系統](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html).
 
-將欄位組織為頁籤：
+欄位會整理為標籤：
 
-* **[!UICONTROL Attributes]**:可以源自您的Adobe Campaign資料庫和/或Adobe Experience Platform的現有配置檔案屬性。 它們指附於配置檔案的靜態資訊（例如，電子郵件地址、居住國、忠誠計畫狀態等）。
+* **[!UICONTROL Attributes]**：可源自於Adobe Campaign資料庫和/或Adobe Experience Platform的現有設定檔屬性。 他們是指附加至設定檔的靜態資訊（例如電子郵件地址、居住國家/地區、忠誠度計畫狀態等）。
 
    ![](assets/aep_audiences_attributestab.png)
 
-* **[!UICONTROL Events]**:標識與貴公司客戶接觸點進行過某種互動的消費者的活動，例如「兩週內訂購兩次的任何人」。 這可以從Adobe Analytics流式傳輸，或使用第三方ETL工具直接接收到Adobe Experience Platform。
+* **[!UICONTROL Events]**：可識別曾與您公司的客戶接觸點互動的客戶的活動，例如「兩週內訂購兩次的任何人」。 這可以從Adobe Analytics串流，或使用協力廠商ETL工具直接擷取到Adobe Experience Platform。
 
    ![](assets/aep_audiences_eventstab.png)
 
 >[!NOTE]
 >
->**多實體分割** 允許您根據產品、儲存或其他非配置檔案類使用附加資料擴展配置檔案資料。 連接後，來自其他類的資料將變為可用，就好像它們是配置檔案架構的本機資料。
+>**多實體分段** 可讓您根據產品、商店或其他非設定檔類別，以其他資料擴充設定檔資料。 連線後，其他類別的資料將變得可用，就好像它們是設定檔結構描述的原生資料。
 >
 >如需詳細資訊，請參閱[專屬文件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/multi-entity-segmentation.html)。
 
-預設情況下，段生成器顯示資料已存在的欄位。 要顯示完整架構，包括沒有資料的欄位，請啟用 **[!UICONTROL Show full XDM schema]** 的子菜單。
+依預設，區段產生器會顯示資料已存在的欄位。 若要顯示完整結構描述（包括資料不存在的欄位），請啟用 **[!UICONTROL Show full XDM schema]** 選項。
 
 ![](assets/aep_audiences_populatedfields.png)
 
-每個欄位末尾的符號提供了有關屬性以及如何使用屬性的附加資訊。
+每個欄位末尾的符號提供有關屬性及其使用方式的其他資訊。
 
 ![](assets/aep_audiences_isymbol.png)
 
-## 定義段的規則
+## 定義區段的規則
 
 >[!NOTE]
 >
->以下部分提供了有關規則定義的全局資訊。 有關詳細資訊，請參閱 [段生成器使用手冊](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html)。
+>下節提供有關規則定義的全域資訊。 如需詳細資訊，請參閱 [區段產生器使用手冊](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
-要構建規則，請執行以下步驟：
+若要建立規則，請遵循下列步驟：
 
-1. 從左窗格中查找反映規則所基於的屬性或事件的欄位。
+1. 從左窗格中尋找欄位，以反映規則所依據的屬性或事件。
 
-1. 將欄位拖到中心工作區上，然後根據所需的段定義對其進行配置。 為此，提供了幾個字串和日期/時間函式。
+1. 將欄位拖曳至中央工作區，然後依據所需的區段定義進行設定。 為此，可使用多個字串和日期/時間函式。
 
-   在下面的示例中，該規則將針對所有性別等於「男性」的概況。
+   在以下範例中，規則將鎖定性別等於「男性」的所有設定檔。
 
    ![](assets/aep_audiences_malegender.png)
 
-   自動在 **[!UICONTROL Segment Properties]** 的子菜單。
+   與區段對應的預估母體會在中自動重新計算 **[!UICONTROL Segment Properties]** 區段。
 
-1. 的 **[!UICONTROL View Profiles]** 按鈕可以預覽與規則對應的前20條記錄，使您能夠快速驗證該段。
+1. 此 **[!UICONTROL View Profiles]** 按鈕會提供規則對應的前20筆記錄預覽，讓您快速驗證區段。
 
    ![](assets/aep_audiences_samplepreview.png)
 
-   您可以根據需要添加盡可能多的附加規則，以針對正確的配置檔案。
+   您可以視需要新增更多規則，以定位正確的設定檔。
 
-   將規則添加到容器時，將用AND邏輯運算子將其附加到任何現有規則。 如果需要，按一下邏輯運算子以修改它。
+   將規則新增至容器時，會將其附加至任何具有AND邏輯運運算元的現有規則。 如有需要，請按一下邏輯運運算元加以修改。
 
    ![](assets/aep_audiences_andoperator.png)
 
-一旦連結在一起，這兩條規則就形成一個容器。
+將兩個規則連結在一起後，會形成一個容器。
 
 ## 比較欄位
 
-段生成器允許您比較兩個欄位以定義規則。 例如，家庭地址與工作地址的郵遞區號不同的女性。
+區段產生器可讓您比較兩個欄位來定義規則。 例如，家庭地址與工作地址位於不同郵遞區號的女性。
 
 要執行此操作，請依照下列步驟執行：
 
-1. 將要比較的第一個欄位（例如，家庭地址郵遞區號）拖到中心工作區。
+1. 將您要比較的第一個欄位（例如住家地址郵遞區號）拖曳至中心工作區。
 
    ![](assets/aep_audiences_comparing_1.png)
 
-1. 選擇將與第一個欄位進行比較的第二個欄位（例如，工作地址郵遞區號）。
+1. 選取第二個欄位（例如工作地址郵遞區號），與第一個欄位進行比較。
 
-   將其拖動到中心工作區中，該工作區與第一個欄位位於 **[!UICONTROL Drop here to compare operands]** 框。
+   將其拖曳至中心工作區（與第一個欄位位於相同的容器中）。 **[!UICONTROL Drop here to compare operands]** 方塊。
 
    ![](assets/aep_audiences_comparing_2.png)
 
-1. 根據需要在兩個欄位之間配置運算子。 在本示例中，我們希望我們的網段以家庭地址不同於工作地址的配置檔案為目標。
+1. 視需要設定兩個欄位之間的運運算元。 在此範例中，我們想要區段將目標設定檔的家庭地址與工作地址不同。
 
    ![](assets/aep_audiences_comparing_3.png)
 
-現在已配置該規則，並準備作為受眾激活。
+規則現已設定完畢，可隨時作為受眾啟用。

@@ -42,9 +42,9 @@ ht-degree: 78%
 
    例如，您之後可以執行儲存對象、資料庫更新等。
 
-例如， **[!UICONTROL Reconciliation]** 可以在載入資料活動之後放置活動，以將非標準資料導入資料庫。
+例如， **[!UICONTROL Reconciliation]** 活動可放置在載入資料活動之後，以將非標準資料匯入資料庫。
 
-當 **濃縮** 活動允許您定義要在工作流中處理的附加資料(使用 **濃縮** 組合來自多個集的資料或建立指向臨時資源的連結的活動) **協調** 活動允許您將未標識的資料連結到現有資源。 協調操作意味著連結維的資料已在資料庫中。 使用案例在 [此部分](#use-cases-reconciliation)。
+而 **擴充** 活動可讓您定義要在工作流程中處理的其他資料(使用 **擴充** 活動以合併來自多組資料，或建立臨時資源的連結)， **調解** 活動可讓您將未識別的資料連結至現有資源。 調解作業表示連結維度的資料已在資料庫中。 使用案例位於 [本節](#use-cases-reconciliation).
 
 
 ## 設定 {#configuration}
@@ -71,8 +71,8 @@ ht-degree: 78%
 
 ## 使用案例{#use-cases-reconciliation}
 
-瞭解如何在以下使用案例中使用此活動：
+瞭解如何在下列使用案例中使用此活動：
 
-* [用例：使用關係進行資料協調](../../automating/using/reconciliation-using-relations.md)
-* [用例：使用協調進行資料更新](../../automating/using/data-update-reconciliation.md)
-* [用例：協調檔案訪問群體與資料庫](../../automating/using/reconcile-file-audience-with-database.md)
+* [使用案例：使用關係進行資料協調](../../automating/using/reconciliation-using-relations.md)
+* [使用案例：使用協調功能更新資料](../../automating/using/data-update-reconciliation.md)
+* [使用案例：使用資料庫調解檔案對象](../../automating/using/reconcile-file-audience-with-database.md)

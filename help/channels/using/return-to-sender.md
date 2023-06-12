@@ -1,6 +1,6 @@
 ---
 title: 退回至寄件者
-description: 瞭解如何收到錯誤地址的通知並將其排除在將來的通信之外。
+description: 瞭解如何收到錯誤地址的通知，並將其排除在未來的通訊之外。
 audience: channels
 content-type: reference
 topic-tags: direct-mail
@@ -17,20 +17,20 @@ ht-degree: 2%
 
 # 退回至寄件者{#return-to-sender}
 
-支援與包含「返回至發件人」資訊的Direct Mail提供商的平面檔案交換。 這允許將相應的郵政地址排除在未來通信之外。 這還允許您收到錯誤地址的通知，並通過其他渠道與客戶接洽，或鼓勵客戶更新其郵政地址。
+支援與「直接郵件」提供者交換一般檔案，其中包含「退回寄件者」資訊。 這允許將對應的郵寄地址排除在未來的通訊之外。 這也允許您收到地址錯誤的通知，並透過其他管道與客戶互動，或鼓勵他們更新郵寄地址。
 
-例如，聯繫人已移至新地點，但未向您提供新的郵政地址。 提供程式檢索錯誤地址清單，並將此資訊發送給Adobe Campaign，而後者會自動拒絕錯誤地址。
+例如，連絡人已移至新位置，但未提供您新的郵寄地址。 提供者會擷取錯誤位址清單，並將此資訊傳送至Adobe Campaign，由後者自動封鎖錯誤位址。
 
-為了使此功能正常工作，直郵預設遞送模板在內容中包括遞送日誌ID。 因此，Adobe Campaign將能夠將配置檔案和交付資料與提供商返回的資訊同步。
+為了讓此功能發揮作用，直接郵件預設傳遞範本在內容中包含傳遞記錄ID。 因此，Adobe Campaign將能夠將設定檔和傳送資料與提供者傳回的資訊同步。
 
 ![](assets/direct_mail_return_sender_1.png)
 
-導入模板可在 **[!UICONTROL Adobe Campaign > Resources > Templates > Import templates > Update Direct Mail quarantines and delivery logs]**。 複製此模板以建立您自己的模板。 有關使用導入模板的詳細資訊，請參閱 [使用導入模板](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates)。
+匯入範本位於 **[!UICONTROL Adobe Campaign > Resources > Templates > Import templates > Update Direct Mail quarantines and delivery logs]**. 複製此範本以建立您自己的範本。 有關使用匯入範本的詳細資訊，請參閱 [使用匯入範本](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates).
 
 ![](assets/direct_mail_return_sender_2.png)
 
-導入完成後，Adobe Campaign自動執行以下操作：
+匯入完成後，Adobe Campaign會自動執行下列動作：
 
-* 在配置檔案級別將不正確的地址添加到denylist
-* 已更新交貨主要指標(KPI)
-* 已更新交貨日誌
+* 在設定檔層級將錯誤地址新增至封鎖清單
+* 傳遞主要指標(KPI)已更新
+* 傳送記錄已更新

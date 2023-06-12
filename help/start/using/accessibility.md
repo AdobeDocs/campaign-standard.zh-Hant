@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 958f7beb-ab41-4492-bc0a-e9e342e3c12e
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '648'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -126,4 +126,4 @@ Adobe Campaign Standard 致力於提供日益提升功能的協助工具，讓�
 
 建議您使用 [Adobe 協助工具意見回饋格式](https://www.adobe.com/accessibility/feedback.html)來傳送您遇到的改善建議和協助工具的問題。
 
-您也可以參閱 [Adobe Campaign Standard 發行說明](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=zh-Hant#release-notes)，以遵循最新的改善與功能。
+您也可以參閱 [Adobe Campaign Standard 發行說明](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html#release-notes)，以遵循最新的改善與功能。

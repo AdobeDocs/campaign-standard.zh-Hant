@@ -1,6 +1,6 @@
 ---
 title: 識別傳遞的選擇退出設定檔
-description: 瞭解如何確定交貨的退出配置檔案。
+description: 瞭解如何識別傳送的選擇退出設定檔。
 audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
@@ -17,7 +17,7 @@ ht-degree: 41%
 
 # 識別傳遞的選擇退出設定檔{#identifying-opt-out-profiles-for-a-delivery}
 
-特定交付的選擇退出配置檔案在準備階段之後列出， **[!UICONTROL Exclusion logs]** 按鈕。
+針對特定傳送的選擇退出設定檔會在準備階段後列出，位於 **[!UICONTROL Exclusion logs]** 傳遞控制面板的索引標籤。
 
 ![](assets/exclusion_blocklisting.png)
 

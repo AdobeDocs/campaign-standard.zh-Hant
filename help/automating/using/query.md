@@ -53,7 +53,7 @@ ht-degree: 93%
 
    >[!NOTE]
    >
-   >當針對受眾時，請注意，未引用受眾的定義，但 **複製** 的雙曲餘切值。 如果在訪問群體成為查詢目標後對其進行了任何更改，請確保再次配置該查詢以將新定義考慮在內。
+   >目標定位對象時，請注意對象的定義未被引用，但 **已複製** 放入查詢中。 如果在查詢中鎖定對象後，您對對象進行了任何變更，請務必再次設定查詢，以將新定義納入考量。
 
 1. 您可以透過專用索引標籤來定義目標母體的　**[!UICONTROL Additional data]**。此資料會儲存在其他欄中，且僅能用於進行中的工作流程。尤其是，您可以從連結至查詢目標維度的 Adobe Campaign 資料庫表格新增資料。請參閱[擴充資料](#enriching-data)區段。
 
@@ -63,7 +63,7 @@ ht-degree: 93%
 
 1. 在 **[!UICONTROL Transition]** 索引標籤，**[!UICONTROL Enable an outbound transition]** 選項可讓您在查詢活動後新增出站轉變，即使它未擷取任何資料亦然。
 
-   可以使用標準表達式和事件變數個性化出站轉換的段代碼(請參閱 [此頁](../../automating/using/customizing-workflow-external-parameters.md))。
+   使用標準運算式和事件變數，可個人化出站轉變的區段代碼(請參閱 [此頁面](../../automating/using/customizing-workflow-external-parameters.md))。
 
 1. 確認活動的設定並儲存工作流程。
 
@@ -71,7 +71,7 @@ ht-degree: 93%
 
 目標維度和資源可讓您定義查詢要依據哪些元素來判斷傳送的目標。
 
-它們配置在 [目標映射](../../administration/using/target-mappings-in-campaign.md)，在建立工作流時在 **[!UICONTROL Properties]** 的子菜單。
+設定於 [目標對應](../../administration/using/target-mappings-in-campaign.md)，和在建立工作流程時定義 **[!UICONTROL Properties]** 「查詢」活動的索引標籤。
 
 >[!NOTE]
 >
@@ -101,7 +101,7 @@ ht-degree: 93%
 
 預設會設定目標維度和資源，以定位設定檔。不過，如果您想在遠端表格中尋找特定記錄，則使用與目標維度不同的資源可能會很實用。
 
-有關詳情，請參閱此使用案例： [使用與目標維不同的資源](../../automating/using/using-resources-different-from-targeting-dimensions.md)
+如需詳細資訊，請參閱此使用案例： [使用與目標維度不同的資源](../../automating/using/using-resources-different-from-targeting-dimensions.md)
 
 ## 豐富資料 {#enriching-data}
 
@@ -123,7 +123,7 @@ ht-degree: 93%
 >
 >依預設，會在查詢的 **[!UICONTROL Additional data]** 索引標籤的 **[!UICONTROL Advanced options]** 核取 **[!UICONTROL Remove duplicate rows (DISTINCT)]** 選項。如果 **[!UICONTROL Query]** 活動包含許多（來自 100個）已定義的其他資料，則建議基於效能原因取消選中此選項。請注意，取消核取此選項會導致重複，視查詢的資料而定。
 
-有關如何使用附加資料個性化電子郵件的使用案例，請參見 [此部分](../../automating/using/personalizing-email-with-additional-data.md)。
+有關如何使用其他資料個人化電子郵件的使用案例，請參見 [本節](../../automating/using/personalizing-email-with-additional-data.md).
 
 ### 新增簡單欄位 {#adding-a-simple-field}
 

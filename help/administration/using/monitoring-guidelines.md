@@ -1,6 +1,6 @@
 ---
 title: 監視指南
-description: 本頁提供監視Campaign Standard的一般准則
+description: 此頁面提供監督Campaign Standard的一般准則
 audience: production
 feature: Access Management
 role: Admin
@@ -21,7 +21,7 @@ ht-degree: 21%
 <td><img src="assets/do-not-localize/icon_send.svg" width="60px"><p><a href="#monitoring-deliveries">監視傳遞</a></p></td></tr>
 </table>
 
-Campaign Standard提供了多種監視實例的方法，以確保系統正常，並最終解決在設定工作流、發送遞送等時可能出現的問題。
+Campaign Standard提供數種監控執行個體的方式，以確保您的系統運作正常，並最終疑難排解設定工作流程、傳送傳遞等時可能發生的問題。
 
 ## 監視系統 {#monitoring-system}
 
@@ -29,16 +29,16 @@ Campaign Standard提供了多種監視實例的方法，以確保系統正常，
 
 **系統通知**
 
-Campaign Standard介面提供通知窗格，使您能夠隨時瞭解系統中發生的情況：事件狀態、系統更新、所需操作等。 [深入了解](../../start/using/interface-description.md#top-bar)
+Campaign Standard介面會提供通知窗格，讓您隨時瞭解系統中發生的情況：事件狀態、系統更新、所需的動作等。 [深入了解](../../start/using/interface-description.md#top-bar)
 
 
 **技術工作流程**
 
-技術工作流程是排程定期在伺服器上執行的操作或作業。要確保實例運行正常且正常，您需要確保它們始終處於啟動和運行狀態。 [深入了解](../../administration/using/technical-workflows.md)
+技術工作流程是排程定期在伺服器上執行的操作或作業。為確保您的執行個體正常運作，您需要確保執行個體隨時正常運作。 [深入了解](../../administration/using/technical-workflows.md)
 
 **控制面板**
 
-通過「控制面板」，您可以管理實例的幾個設定：URL權限、檢查您的實例詳細資訊，如伺服器的生成版本、監視活動配置檔案的使用情況等。 它還允許您監視連接到實例的SFTP伺服器上的可用空間。 [顯示全文](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hant)。
+「控制面板」可以讓您管理執行個體的多項設定：URL許可權、檢查執行個體詳細資訊（例如伺服器的組建版本）、監控作用中設定檔的使用情況等。 它也可讓您監視連線到執行個體的SFTP伺服器上的可用空間。 [顯示全文](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hant)。
 
 >[!NOTE]
 >
@@ -46,16 +46,16 @@ Campaign Standard介面提供通知窗格，使您能夠隨時瞭解系統中發
 
 **技術物件**
 
-的 **[!UICONTROL Diagnosis]** 菜單是監控和分析應用程式生成的不同技術對象的關鍵工具：資料架構、網頁、批處理作業等。 [深入了解](../../developing/using/monitoring-data-model-changes.md)
+此 **[!UICONTROL Diagnosis]** 功能表是用於監視和分析應用程式產生的不同技術物件的關鍵工具：資料結構描述、網頁、批次工作等。 [深入了解](../../developing/using/monitoring-data-model-changes.md)
 
-**導出審核**
+**匯出稽核**
 
-導出審核允許您監視對實例執行的導出：從工作流上載的檔案、清單導出以及從直接郵件下載的檔案。
+匯出稽核可讓您監視執行個體上執行的匯出：從工作流程上傳的檔案、清單匯出以及從直接郵件訊息下載的檔案。
 [深入了解](../../administration/using/auditing-export-logs.md)
 
 **授權**
 
-使用 **[!UICONTROL Licenses]** 菜單，監視有關實例的資訊：已安裝的許可證、生成版本和條款協定接受。
+使用 **[!UICONTROL Licenses]** 功能表、監控執行個體的相關資訊：已安裝的授權、組建版本和條款協定接受。
 [深入了解](../../administration/using/licenses.md)
 
 ## 監控工作流程 {#monitoring-workflows}
@@ -64,17 +64,17 @@ Campaign Standard介面提供通知窗格，使您能夠隨時瞭解系統中發
 
 **最佳實務及疑難排解**
 
-使用工作流時遵循最佳做法和故障排除指南有助於提高效能。
+使用工作流程時，遵循最佳實務和疑難排解指南有助於改善效能。
 [深入了解](../../automating/using/best-practices-workflows.md)
 
 **記錄和任務**
 
-工作流日誌監視是分析工作流並確保它們正常運行的關鍵步驟。
+工作流程記錄監控是分析工作流程並確保其正常執行的關鍵步驟。
 [深入了解](../../automating/using/monitoring-workflow-execution.md#workflow-log-and-tasks)
 
 **通知**
 
-Campaign Standard允許您向主管發送通知以監視工作流的執行，並查看是否存在需要您注意的錯誤。
+Campaign Standard可讓您傳送通知給主管，以監視工作流程的執行並檢視是否有任何需要您注意的錯誤。
 [深入了解](../../automating/using/monitoring-workflow-execution.md#error-management)
 
 ## 監視傳遞 {#monitoring-deliveries}
@@ -83,20 +83,20 @@ Campaign Standard允許您向主管發送通知以監視工作流的執行，並
 
 **傳遞度**
 
-Campaign Standard提供了幾種可傳送的工具，以幫助您提高成功傳送的郵件數：交付吞吐量報告、發送時間優化、消息預覽、電子郵件呈現、隔離管理等。
+Campaign Standard提供數種傳遞能力工具，協助您改善成功傳遞的訊息數量：傳遞輸送量報告、傳送時間最佳化、訊息預覽、電子郵件呈現、隔離管理等。
 [深入了解](../../sending/using/about-deliverability.md)
 
 **傳遞**
 
-發送郵件後，詳細日誌允許您監視交貨情況和衡量市場活動的成功程度，並跟蹤郵件收件人的行為。
+傳送訊息後，詳細的記錄檔可讓您監控傳送並測量行銷活動是否成功，以及追蹤訊息收件者的行為。
 [深入了解](../../sending/using/monitoring-a-delivery.md)
 
 **傳遞警報**
 
-使用「交付」警報功能，您可以設定將自動發送給一組用戶的有關交付執行的警報：發送或準備失敗、邊界率不佳、吞吐量低等。
+透過傳送警報功能，您可以設定自動傳送給一組使用者關於傳送執行的警報：傳送或準備失敗、不良跳出率、低輸送量等。
 [深入了解](../../sending/using/receiving-alerts-when-failures-happen.md)
 
 **動態報告**
 
-動態報告提供各種報告，幫助您隨時瞭解交貨的執行情況：收件、按收件人查看的多數交貨、交貨吞吐量等。
+動態報告提供各種報告，協助您隨時瞭解傳遞的執行方式：跳出數、收件者檢視次數最多的傳遞、傳遞的輸送量等。
 [深入了解](../../reporting/using/about-dynamic-reports.md)

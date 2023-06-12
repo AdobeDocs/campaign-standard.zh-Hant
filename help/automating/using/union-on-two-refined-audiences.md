@@ -1,6 +1,6 @@
 ---
 title: 聯合兩個完善的對象
-description: 此用例顯示兩個讀取訪問群體活動的聯合。
+description: 此使用案例顯示兩個讀取對象活動的聯合。
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -24,7 +24,7 @@ ht-degree: 58%
 
 ![](assets/readaudience_activity_example1.png)
 
-* 第一個 [閱讀受眾](../../automating/using/read-audience.md) 活動，該活動檢索黃金會員受眾，並通過僅選擇18到30年前的配置檔案對其進行改進。
+* 第一個 [讀取對象](../../automating/using/read-audience.md) 活動，只要選取介於18至30歲的設定檔，即可擷取和改良金級會員對象。
 * 第二個 **[!UICONTROL Read audience]** 活動，只要選取介於 18 至 30 歲的設定檔，即可擷取和改良銀級會員對象。
-* A [聯合](../../automating/using/union.md) 將兩者的人口相結合的活動 **[!UICONTROL Read audiences]** 活動變成最後一個人。
-* 安 [電子郵件傳遞](../../automating/using/email-delivery.md) 將電子郵件發送到來自 **[!UICONTROL Union]** 的子菜單。
+* A [聯集](../../automating/using/union.md) 活動可從兩者聯合母體 **[!UICONTROL Read audiences]** 活動會整合為單一最終母體。
+* 一個 [電子郵件傳遞](../../automating/using/email-delivery.md) 活動會將電子郵件傳送至來自的母體 **[!UICONTROL Union]** 活動。

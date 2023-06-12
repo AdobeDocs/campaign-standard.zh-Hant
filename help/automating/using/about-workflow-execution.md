@@ -1,6 +1,6 @@
 ---
 title: 關於工作流程執行
-description: 瞭解有關工作流執行的詳細資訊。
+description: 進一步瞭解工作流程執行。
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
@@ -18,36 +18,36 @@ ht-degree: 8%
 
 # 關於工作流程執行 {#about-workflow-execution}
 
-工作流始終手動啟動。 但是，一旦啟動，它可以保持非活動狀態，具體取決於 [調度程式](../../automating/using/scheduler.md) 的子菜單。
+工作流程一律以手動方式啟動。 不過，啟動後，視中指定的資訊而定，此功能可能會維持非使用中。 [排程器](../../automating/using/scheduler.md) 活動。
 
 >[!IMPORTANT]
 >
-> Adobe建議客戶不要同時運行20個以上的活動工作流執行，並建議客戶確定工作流執行的優先順序並將其分散。 有關詳細資訊，請參閱 [此頁](../../automating/using/best-practices-workflows.md)。
+> Adobe建議客戶不要同時執行超過20個作用中工作流程，並隨著時間安排工作流程執行的優先順序和分佈。 如需詳細資訊，請參閱中提供的最佳實務 [此頁面](../../automating/using/best-practices-workflows.md).
 
-執行相關操作（啟動、停止、暫停等） 是 **非同步** 進程：命令已保存，一旦伺服器可用於應用該命令，該命令將生效。
+執行相關動作（啟動、停止、暫停等） 是 **非同步** 處理序：命令已儲存，一旦伺服器可供套用，命令就會生效。
 
-在工作流中，每個活動的結果通常通過箭頭表示的轉換發送到以下活動。
+在工作流程中，每個活動的結果通常會透過轉變（以箭頭表示）傳送到以下活動。
 
-如果轉移未連結到目標活動，則它將不終止。
+如果轉變未連結至目的地活動，則轉變不會終止。
 
 ![](assets/wkf_execution_1.png)
 
 >[!NOTE]
 >
->仍然可以執行包含未終止的轉換的工作流：將生成警告消息，工作流到達轉換後將暫停，但不會生成錯誤。 您也可以在完成設計後啟動工作流，並在繼續時完成它。
+>仍可執行包含未終止轉變的工作流程：將會產生警告訊息，且工作流程在轉變時會暫停，但不會產生錯誤。 您也可以在未完全完成設計的情況下開始工作流程，並隨時完成設計。
 
-執行活動後，在轉移中發送的記錄數將顯示在其上。
+執行活動後，轉變中傳送的記錄數會顯示在活動上方。
 
 ![](assets/wkf_transition_count.png)
 
-您可以開啟轉變來檢查在執行工作流程期間或之後傳送的資料是否正確。您可以查看資料和資料結構。
+您可以開啟轉變來檢查在執行工作流程期間或之後傳送的資料是否正確。您可以檢視資料和資料結構。
 
-預設情況下，只能訪問工作流上次轉換的詳細資訊。 要能夠訪問上述活動的結果，您需要檢查 **[!UICONTROL Keep interim results]** 的上界 **[!UICONTROL Execution]** 的子菜單。
+依預設，只能存取工作流程的最後一個轉變的詳細資訊。 若要存取前述活動的結果，您必須檢查 **[!UICONTROL Keep interim results]** 中的選項 **[!UICONTROL Execution]** 區段（在啟動工作流程之前）。
 
 >[!NOTE]
 >
->此選項佔用大量記憶體，旨在幫助構建工作流並確保其正確配置和運行。 在生產執行個體中保留未核取的狀態。
+>此選項會耗用大量記憶體，且設計旨在協助建構工作流程，並確保工作流程已正確設定且運作正常。 在生產執行個體中保留未核取的狀態。
 
-開啟過渡時，可以編輯其 **[!UICONTROL Label]** 或連結 **[!UICONTROL Segment code]** 對它來說。 為此，請編輯相應欄位並確認修改。
+當轉變開啟時，您可以編輯其 **[!UICONTROL Label]** 或連結 **[!UICONTROL Segment code]** 至此。 要執行此操作，請編輯對應的欄位並確認您的修改。
 
-使用Campaign StandardREST API，您可以 **開始**。 **暫停**。 **恢復** 和 **停止** 工作流。 您可以在 [API文檔。](../../api/using/controlling-a-workflow.md)
+使用Campaign Standard REST API，您可以 **開始**， **pause**， **繼續** 和 **停止** 工作流程。 您可以在「 」中找到更多詳情和REST呼叫範例 [API檔案。](../../api/using/controlling-a-workflow.md)

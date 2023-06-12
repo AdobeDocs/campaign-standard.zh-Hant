@@ -1,6 +1,6 @@
 ---
 title: "步驟 2：發佈擴充"
-description: 瞭解如何在Campaign Standard中發佈擴展。 系列第2部分。
+description: 瞭解如何在Campaign Standard中發佈擴充功能。 系列的第2部分。
 audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
@@ -19,19 +19,19 @@ ht-degree: 23%
 
 1. 從進階功能表，透過 Adobe Campaign 標誌，依序選取 **[!UICONTROL Administration]** > **[!UICONTROL Development]** 及 **[!UICONTROL Publication]**。
 1. 按一下 **[!UICONTROL Prepare Publication]** 按鈕。
-1. 選擇 **[!UICONTROL Create the Profiles & Services Ext API]** 的雙曲餘切值。
+1. 選取 **[!UICONTROL Create the Profiles & Services Ext API]** 選項。
 
    ![](assets/create-profile-and-services-api.png)
 
    >[!NOTE]
    >
-   >如果API已發佈（即如果您已檢查過此選項一次，則針對此資源或其他資源），則強制API更新。
+   >如果已發佈API （亦即，您已針對此資源或其他資源勾選一次此選項），則會強制進行API更新。
 
-1. 按一下 **[!UICONTROL Profiles & Services API Preview]** 頁籤。
+1. 按一下 **[!UICONTROL Profiles & Services API Preview]** 標籤。
 
-   這將向您顯示API的發佈將應用於配置檔案AndServicesExt API的當前版本的更改。
+   這將會顯示API發佈將套用至profilesAndServicesExt API目前版本的變更。
 
-   此處為促銷代碼欄位(ID:cusBrand)將插入API。
+   在此，「促銷代碼」欄位(ID： cusBrand)將會插入API中。
 
    ![](assets/extendpandsapi_diff.png)
 

@@ -24,11 +24,11 @@ ht-degree: 79%
 
 ![](assets/load_file_workflow_ex1.png)
 
-要構建工作流，請執行以下步驟：
+若要建立工作流程，請遵循下列步驟：
 
 1. 將[傳輸檔案](../../automating/using/transfer-file.md)活動拖放至您的工作流程中。
 1. 選取活動，然後使用所顯示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
-1. 以某種方式配置活動，以恢復您想要的檔案。 在 **[!UICONTROL Protocol]** 索引標籤中，選取 **SFTP**。
+1. 以某種方式設定活動，以便它可以復原您想要的檔案。 在 **[!UICONTROL Protocol]** 索引標籤中，選取 **SFTP**。
 1. 選取 **Use connection parameters defined in an external account** 選項。
 1. 輸入外部帳戶的名稱。
 1. 輸入&#x200B;**遠端伺服器上的檔案路徑**。
@@ -36,13 +36,13 @@ ht-degree: 79%
    ![](assets/wkf_file_transfer_07.png)
 
 1. 確認您的活動。
-1. 拖放 [載入檔案](../../automating/using/load-file.md) 將活動放入工作流中，並將其放在 **[!UICONTROL Transfer file]** 的子菜單。
+1. 拖放 [載入檔案](../../automating/using/load-file.md) 活動放入您的工作流程中，並將其放在 **[!UICONTROL Transfer file]** 活動。
 1. 選取活動，然後使用所顯示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
 1. 在 **[!UICONTROL Execution]** 索引標籤的 **[!UICONTROL File to load]** 區段中，核取 **[!UICONTROL Use the file specified in the inbound transition]** 選項。
 
    ![](assets/wkf_file_loading8.png)
 
 1. 依照先前指定的內容來設定您的活動。
-1. 拖放 [更新資料](../../automating/using/update-data.md) 將活動放入工作流中，並將其放在 **[!UICONTROL Load file]** 活動，然後配置。
+1. 拖放 [更新資料](../../automating/using/update-data.md) 活動放入您的工作流程中，並將其放在 **[!UICONTROL Load file]** 活動，然後進行設定。
 
 工作流程開始之後，會擷取上傳檔案的資料，然後用於擴充 Adobe Campaign 資料庫。

@@ -1,6 +1,6 @@
 ---
 title: 推播通知報告
-description: 使用「推送通知開箱即用」報告，瞭解您的推送通知的成功。
+description: 使用推播通知現成可用的報告，瞭解推播通知是否成功。
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -19,32 +19,32 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->請注意，您必須拖放 **[!UICONTROL Message type]** 度量到表，以根據交貨類型來分割資料。
+>請注意，您必須拖放 **[!UICONTROL Message type]** 量度至您的表格，以根據您的傳送型別分割資料，在此例中是推播通知傳送。
 
-的 **推送通知** report提供了推式通知在Adobe Campaign的營銷表現的詳細資訊。 此現成報告可幫助您瞭解用戶如何與推送通知、移動應用程式和交付進行交互。
+此 **推播通知** 報告提供Adobe Campaign中推播通知之行銷績效的詳細資訊。 此現成的報告可協助您瞭解使用者如何與推播通知、行動應用程式和傳遞內容互動。
 
-移動應用程式中需要一些配置才能實現推送跟蹤，請參閱 [頁](../../administration/using/push-tracking.md) 的上界。
+行動應用程式中需要一些設定才能實作推送追蹤，請參閱以下內容 [頁面](../../administration/using/push-tracking.md) 以取得詳細步驟。
 
 ![](assets/dynamic_report_push.png)
 
-每個表都由摘要數字和圖表表示。 您可以更改詳細資訊在其各自的可視化設定中的顯示方式。
+每個表格都以摘要數字和圖表表示。 您可以變更詳細資訊在其各自視覺效果設定中的顯示方式。
 
-第一張表 **推送通知項目摘要** 分為三類：按天、按移動應用和按遞送。 它包含接收者對遞送反應的可用資料：
+第一個表格 **推播通知參與摘要** 分為三種類別：依日、依行動應用程式及依傳送。 它包含可用於收件者對傳遞的反應性的資料：
 
-* **[!UICONTROL Processed/sent]**:發送的推送通知總數。
-* **[!UICONTROL Delivered]**:成功發送的推送通知數，與已發送的推送通知總數相關。
-* **[!UICONTROL Impressions]**:推送通知已傳送到設備且未在通知中心中保留的次數。 在大多數情況下，印數應與交貨數相似。 這確保設備收到消息並將該資訊中繼回伺服器。
-* **[!UICONTROL Unique impressions]**:接收人印象數。
-* **[!UICONTROL Click through rate]**:與推送通知交互的用戶百分比。
-* **[!UICONTROL Open rate]**:開啟的推送通知百分比。
+* **[!UICONTROL Processed/sent]**：已傳送的推播通知總數。
+* **[!UICONTROL Delivered]**：成功傳送的推播通知數，與已傳送推播通知總數相關。
+* **[!UICONTROL Impressions]**：推播通知已傳送至裝置並在通知中心保持不動的次數。 在大多數情況下，曝光次數應該與傳送的次數類似。 這可確保裝置收到訊息，並將該資訊轉送回伺服器。
+* **[!UICONTROL Unique impressions]**：收件者的曝光次數。
+* **[!UICONTROL Click through rate]**：與推播通知互動的使用者百分比。
+* **[!UICONTROL Open rate]**：已開啟推播通知的百分比。
 
 ![](assets/dynamic_report_push_2.png)
 
-第二張表 **推送通知按一下並開啟** 分為三類：按天、按移動應用和按遞送。 它包含每個傳遞的收件人行為的可用資料：
+第二個表格 **推播通知點按與開啟** 分為三種類別：依日、依行動應用程式及依傳送。 其中包含可用於每次傳遞的收件者行為資料：
 
-* **[!UICONTROL Impressions]**:收件人看到的推送通知總數。
-* **[!UICONTROL Unique impressions]**:接收人印象數。
-* **[!UICONTROL Click]**:推送通知已傳送到設備並由用戶按一下的次數。 用戶要麼想查看通知，然後將通知移到「推開開啟」跟蹤，要麼將其關閉。
-* **[!UICONTROL Unique clicks]**:唯一用戶與推送通知交互的次數，例如按一下通知或按鈕。
-* **[!UICONTROL Open]**:用戶通過點擊將推送通知發送到設備並開啟應用的總數。 這與「推式按一下」類似，但「推式開啟」在通知被撤消時不會觸發。
-* **[!UICONTROL Unique Opens]**:開啟交貨的收件人數。
+* **[!UICONTROL Impressions]**：收件者看到的推播通知總數。
+* **[!UICONTROL Unique impressions]**：收件者的曝光次數。
+* **[!UICONTROL Click]**：推播通知已傳送至裝置並由使用者點按的次數。 使用者想要檢視通知（該通知隨後將移至推播開啟追蹤）或將其關閉。
+* **[!UICONTROL Unique clicks]**：不重複使用者與推播通知互動的次數，例如點選通知或按鈕。
+* **[!UICONTROL Open]**：傳送至裝置並由使用者點按以開啟應用程式的推播通知總數。 這類似於「推送點按」，但如果通知已關閉，則不會觸發「推送開啟」。
+* **[!UICONTROL Unique Opens]**：開啟傳遞的收件者人數。

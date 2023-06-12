@@ -1,6 +1,6 @@
 ---
 title: 外部 API
-description: 外部API活動通過HTTP API調用將資料從外部系統引入Campaign Standard工作流。
+description: 外部API活動會透過HTTP API呼叫，從外部系統將資料帶入Campaign Standard工作流程中。
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -38,7 +38,7 @@ ht-degree: 93%
 
 ### 回溯相容性注意事項 {#from-beta-to-ga}
 
-在Campaign Standard20.4版本中，已降低http響應資料大小限制和響應超時護欄，以符合最佳做法 — 請參見 [限制和護欄](#guardrails)。 這些護欄修改不會對現有的外部 API 活動產生影響；因此，建議您在所有工作流程中，以新版本取代現有的外部 API 活動。
+在Campaign Standard 20.4版本中，http回應資料大小限制和回應逾時護欄已降低，以符合最佳實務 — 請參閱 [限制和護欄](#guardrails). 這些護欄修改不會對現有的外部 API 活動產生影響；因此，建議您在所有工作流程中，以新版本取代現有的外部 API 活動。
 
 取代外部 API 活動時，將新的外部 API 活動新增至工作流程、手動複製設定詳細資訊，然後刪除舊活動。
 
@@ -114,13 +114,13 @@ JSON 剖析器的設計可容納標準 JSON 結構模式類型，但有些例外
 
 ### 執行
 
-此索引標籤可讓您定義連接端點。的 **[!UICONTROL URL]** 欄位中 **HTTPS終結點** Campaign Standard會與之溝通。
+此索引標籤可讓您定義連接端點。此 **[!UICONTROL URL]** 欄位可讓您定義 **HTTPS端點** 該Campaign Standard將與進行通訊。
 
-如果端點需要，可使用兩種類型的驗證方法：
+如果端點需要，可使用兩種型別的驗證方法：
 
-* 基本身份驗證：在中輸入您的用戶名/密碼資訊 **[!UICONTROL Request Header(s)]** 的子菜單。
+* 基本驗證：在「 」中輸入您的使用者名稱/密碼資訊 **[!UICONTROL Request Header(s)]** 區段。
 
-* OAuth身份驗證：按一下 **[!UICONTROL Use connection parameters defined in an external account]** 在外部帳戶中，您可以選擇定義OAuth身份驗證的外部帳戶。 如需詳細資訊，請參閱[外部帳戶](../../administration/using/external-accounts.md)。
+* OAuth驗證：按一下 **[!UICONTROL Use connection parameters defined in an external account]** 在外部帳戶中，您可以選取定義OAuth驗證的外部帳戶。 如需詳細資訊，請參閱[外部帳戶](../../administration/using/external-accounts.md)。
 
 ![](assets/externalAPI-execution.png)
 
@@ -158,7 +158,7 @@ JSON 剖析器的設計可容納標準 JSON 結構模式類型，但有些例外
 
 ## 測試
 
-要使用簡單的test端點test外部API功能，可以使用Postman回顯：https://docs.postman-echo.com。
+若要使用簡單的測試端點來測試外部API功能，您可以使用Postman Echo： https://docs.postman-echo.com。
 
 ## 疑難排解
 
@@ -260,7 +260,7 @@ JSON 剖析器的設計可容納標準 JSON 結構模式類型，但有些例外
    <td> <p>不允許 HTTP 標題鍵（標題鍵：'接受'）。</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560247 - Ann HTTP標頭值錯誤(標頭值：「%s」)。</td> 
+   <td> WKF-560247 - HTTP標頭值錯誤（標頭值：'%s'）。</td> 
    <td> <p>HTTP header value is bad (header value: '%s'). </p>
     <p>注意：當自訂標頭值根據 <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a> 驗證失敗時，將記錄此錯誤</p></td> 
   </tr> 

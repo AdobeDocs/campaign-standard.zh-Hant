@@ -4,7 +4,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
-description: 瞭解如何設計郵件內容並嘗試避免可能阻止您執行傳遞的常見問題。 
+description: 瞭解如何設計訊息內容，並嘗試避免可能會阻止您執行傳送的常見問題。 
 feature: Deliverability
 role: User
 level: Intermediate
@@ -18,31 +18,31 @@ ht-degree: 7%
 
 # 建置個人化內容 {#build-personalized-content}
 
-設計郵件內容時，請盡量避免可能阻止您執行傳遞的常見問題。 大多數時候，可能的錯誤都與 [個性化](../../designing/using/personalization.md)，在 [使用現有內容](../../designing/using/using-existing-content.md)  — 和 [轉換HTML內容](../../designing/using/using-existing-content.md#converting-an-html-content)  — 和 [影像](../../designing/using/images.md)。
+在設計訊息內容時，請儘量避免可能會妨礙您執行傳送的常見問題。 大多數情況下，可能的錯誤與 [個人化](../../designing/using/personalization.md)，格式設定時機 [使用現有內容](../../designing/using/using-existing-content.md)  — 和 [轉換HTML內容](../../designing/using/using-existing-content.md#converting-an-html-content)  — 和 [影像](../../designing/using/images.md).
 
-## 優化個性化 {#optimize-personalization}
+## 最佳化個人化 {#optimize-personalization}
 
-為避免可能阻止您執行傳遞並改善收件人體驗的常見問題，Adobe Campaign允許您個性化您的郵件。
+為避免阻止您執行傳送的常見問題並改善收件者體驗，Adobe Campaign可讓您個人化訊息。
 
-您可以使用儲存在Adobe Campaign資料庫中的收件人資料，或通過跟蹤、登錄頁、訂閱等方式收集。
-在中介紹個性化基礎 [此部分](../../designing/using/personalization.md)。
+您可以使用儲存在Adobe Campaign資料庫中的收件者資料，或是透過追蹤、登陸頁面、訂閱等收集的資料。
+個人化基本資訊顯示於 [本節](../../designing/using/personalization.md).
 
-確保您的郵件內容設計正確，以避免任何與個性化設定通常相關的錯誤。
+請確定您的訊息內容經過適當設計，以避免發生任何錯誤，這些錯誤通常與個人化有關。
 
-可以根據表達式編輯器中定義的條件手動添加動態內容以向收件人顯示不同的內容。 添加動態內容時，必須始終為不滿足選定條件的收件人保留預設變數。
-有關動態內容的詳細資訊，請參閱 [此部分](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)。
+您可以手動新增動態內容，以根據運算式編輯器中定義的條件向收件者顯示不同的內容。 新增動態內容時，您必須一律為不符合所選條件的收件者保留預設變體。
+如需動態內容的詳細資訊，請參閱 [本節](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 
-**提示**  — 使用不同的test配置檔案預覽電子郵件，以確保正確配置了動態內容。
+**提示**  — 使用不同的測試設定檔預覽您的電子郵件，以確保您的動態內容已正確設定。
 
-## 構建優化內容 {#optimize-content}
+## 建置最佳化內容 {#optimize-content}
 
-在生成電子郵件時，請牢記以下一般最佳做法。
+建立電子郵件時，請記住以下一般最佳實務。
 
-* 保持設計簡單
+* 讓設計保持簡單
 
-* 記住移動用戶
+* 將行動使用者放在心上
 
-* 避免完全基於影像的電子郵件
+* 避免完全以影像為基礎的電子郵件
 
 * 使用電子郵件安全字型
 
@@ -50,101 +50,101 @@ ht-degree: 7%
 
 ### 主旨列
 
-工作 [主題行](../../designing/using/subject-line.md) 要提高開放率：
+處理 [主旨列](../../designing/using/subject-line.md) 若要改善開啟率：
 
-* 避免過長的主題。 最多使用50個字元
+* 避免主題太長。 最多使用50個字元
 
-* 避免重複使用諸如「免費」或「優惠」等可視為垃圾郵件的詞
+* 避免使用可視為垃圾訊息的重複字詞，例如「free」或「offer」
 
-* 避免大寫字母和特殊字元，如&quot;!&quot;、&quot;£&quot;、&quot;€&quot;、&quot;$&quot;
+* 避免使用大寫字母和特殊字元，如「！」、「£」、「€」、「$」
 
 ### 鏡像頁面
 
-始終包括鏡像頁面連結。 首選位置是電子郵件的頂部。 [了解更多](../../designing/using/personalization.md#adding-a-content-block)
+一律包含映象頁面連結。 偏好位置是電子郵件的頂端。 [了解更多](../../designing/using/personalization.md#adding-a-content-block)
 
 ### 取消訂閱連結
 
-取消訂閱連結至關重要。 它必須可見且有效，並且表單必須有效。 瞭解取消訂閱連結准則 [此部分](../../designing/using/personalization.md#about-targeting-dimension)。
+取消訂閱連結是必要的。 它必須是可見且有效的，而且表單必須是功能性的。 瞭解取消訂閱連結准則 [在本節中](../../designing/using/personalization.md#about-targeting-dimension).
 
-預設情況下，分析消息時， [類型規則](../../sending/using/control-rules.md) 檢查是否包括了opt-out連結，如果缺少，則生成警告。
+依預設，分析訊息時，控制項 [型別規則](../../sending/using/control-rules.md) 檢查是否包含選擇退出連結，如果缺少則產生警告。
 
-**提示**:由於人為錯誤總是可能發生，因此在每次發送之前，請檢查「opt-out（選擇退出）」連結是否工作正常。 例如，在發送證明時，請確保連結有效，表單聯機，並且「不再聯繫此收件人」欄位更改為「是」。
+**秘訣**：由於人為錯誤永遠是可能的，在您每次傳送前，請先檢查選擇退出連結是否正確運作。 例如，傳送校樣時，請確認連結有效、表單線上上，且「不再連絡此收件者」欄位已變更為「是」。
 
-瞭解如何插入選擇退出連結 [此部分](../../designing/using/personalization.md#adding-a-content-block)。
+瞭解如何插入選擇退出連結 [在本節中](../../designing/using/personalization.md#adding-a-content-block).
 
 ### 電子郵件大小 {#email-size}
 
-為避免效能或可交付性問題，建議的電子郵件最大大小約為 **35KB**。
+為避免效能或傳遞能力問題，建議的最大電子郵件大小約為 **35KB**.
 
-要限制電子郵件，請考慮以下事項：
+若要將您的電子郵件保持在限制之下，請考慮下列事項：
 
-* 刪除冗餘或未使用的樣式
+* 移除多餘或未使用的樣式
 
-* 將一些電子郵件內容移動到 [登錄頁](../../channels/using/getting-started-with-landing-pages.md)
+* 將部分電子郵件內容移至 [登陸頁面](../../channels/using/getting-started-with-landing-pages.md)
 
-* 精簡代碼
+* 精簡您的程式碼
 
-確保在最終發送之前test任何更改。
+請務必在最終傳送前測試任何變更。
 
-在Adobe Campaign，電子郵件的預設最大大小設定為 **100MB**。 <!--This limit enables to prevent any error that could indefinitely increase the size of an email, which can lead to a system crash.-->
+在Adobe Campaign中，電子郵件的預設大小上限設為 **100MB**. <!--This limit enables to prevent any error that could indefinitely increase the size of an email, which can lead to a system crash.-->
 
-如果達到該限制，超過該限制的消息將失敗，並且在傳遞日誌中顯示錯誤消息。 相同傳遞的其他消息將不受影響。 在這種情況下，您必須調整電子郵件模板的動態部分或傳遞所使用的內容片段。 <!--If you need assistance, or if you have any question or request about the **[!UICONTROL Maximum message size]** option, reach out to your Adobe contact.-->
+如果達到限制，超過限制的訊息將會失敗，並在傳送記錄中顯示錯誤訊息。 相同傳遞的其他訊息將不會受到影響。 在這種情況下，您必須調整電子郵件範本的動態部分或傳遞使用的內容片段。 <!--If you need assistance, or if you have any question or request about the **[!UICONTROL Maximum message size]** option, reach out to your Adobe contact.-->
 
-Adobe建議保留最大消息大小預設值。 但是，可以在 **[!UICONTROL Maximum message size]** 選項，通過 **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** 菜單，按 [功能管理員](../../administration/using/users-management.md#functional-administrators) 只是。
+Adobe建議保留訊息大小上限預設值。 不過，此值可在 **[!UICONTROL Maximum message size]** 選項，透過 **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** 功能表，依據 [功能管理員](../../administration/using/users-management.md#functional-administrators) 僅限。
 
 >[!IMPORTANT]
 >
->如果將此值設定為零，則不應用任何限制。
+>如果您將此值設為零，則不會套用任何限制。
 
-### SMS長度
+### 簡訊長度
 
 根據預設，SMS 中的字元數量符合 GSM（行動通訊全球系統）標準。使用 GSM 編碼的 SMS 訊息最多只能有 160 個字元，若是以多個部分傳送的訊息，則每個 SMS 的 SMS 訊息最多只能有 153 個字元。
 
-音譯包括當 GSM 標準未考慮到 SMS 的一個字元時，用另一個字元取代該字元。請注意，將個性化欄位插入SMS消息的內容可能會引入GSM編碼未考慮的字元。 您可以通過選中相應的SMPP通道設定頁籤中的相應框來授權字元音譯 **[!UICONTROL External account]**。
-瞭解更多資訊 [此部分](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)。
+音譯包括當 GSM 標準未考慮到 SMS 的一個字元時，用另一個字元取代該字元。請注意，將個人化欄位插入您的SMS訊息內容，可能會引入GSM編碼未考慮的字元。 您可以核取對應方塊的SMPP管道設定索引標籤中的對應方塊，以授權字母音譯 **[!UICONTROL External account]**.
+瞭解更多 [在本節中](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration).
 
-**提示**:
+**提示**：
 
-* 要保留SMS消息中的所有字元，例如，要不更改正確的名稱，請不要啟用音譯。
+* 若要保留SMS訊息中的所有字元不變，例如不要變更正確名稱，請勿啟用音譯。
 
-* 但是，如果您的SMS消息包含許多GSM標準未考慮的字元，則啟用音譯功能可限制發送消息的成本。
+* 不過，如果您的SMS訊息包含許多GSM標準未考慮的字元，請啟用音譯以限制傳送訊息的成本。
 
-瞭解更多資訊 [此部分](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)。
+瞭解更多 [在本節中](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration).
 
-### 響應性電子郵件設計
+### 回應式電子郵件設計
 
-響應性設計確保電子郵件對開啟該電子郵件的設備進行最佳呈現。
+回應式設計可確保電子郵件以最佳方式呈現給開啟它的裝置。
 
-* 使用響應性電子郵件HTML，而不是WebHTML
+* 使用回應式電子郵件HTML而非網頁HTML
 
-* 使用預覽模式併發送校樣以在盡可能多的設備上test渲染。 瞭解如何 [預覽消息](../../sending/using/previewing-messages.md) 在發送之前。
+* 使用預覽模式並傳送校樣，以儘可能在多數裝置上測試轉譯。 瞭解如何 [預覽訊息](../../sending/using/previewing-messages.md) 傳送之前。
 
-* 市場活動電子郵件設計器為移動設備提供了響應性設計格式模板。 在[本頁](../../designing/using/using-reusable-content.md#content-templates)中深入瞭解。
+* Campaign電子郵件設計工具隨附行動裝置的回應式設計格式化範本。 在[本頁](../../designing/using/using-reusable-content.md#content-templates)中深入瞭解。
 
-## 管理映像 {#manage-images}
+## 管理影像 {#manage-images}
 
-使用影像時，請遵循以下指導原則。
+使用影像時，請遵循下列准則。
 
-### 防止影像阻塞
+### 避免影像封鎖
 
-預設情況下，某些電子郵件客戶端會阻止影像，而一些用戶會更改其設定以阻止影像以保存資料使用情況。 因此，如果不下載影像，則整個消息可能丟失。 為避免這種情況：
+有些電子郵件使用者端預設會封鎖影像，有些使用者則變更其設定以封鎖影像，以便在資料使用時進行儲存。 因此，如果未下載影像，可能會遺失整個訊息。 若要避免此情況：
 
-* 將內容與影像和文本平衡。 避免完全基於影像的電子郵件。
+* 平衡您的內容與影像和文字。 避免使用完全以影像為基礎的電子郵件。
 
-* 如果文本必須包含在影像中，請使用Alt和標題文本來確保您的消息傳遞。 設定替換/標題文本的樣式以改進其外觀。
+* 如果文字必須包含在影像中，請使用替代文字和標題文字來確認訊息是否傳達。 設定替代/標題文字的樣式，以改善其外觀。
 
-* 避免使用背景影像，因為某些電子郵件客戶端不支援這些影像。
+* 避免使用背景影像，因為某些電子郵件使用者端不支援這些影像。
 
-### 使影像響應
+### 讓影像回應
 
-嘗試使影像響應並可調整大小。 請注意，這可能會帶來成本影響，因為需要較長的構建時間。
+嘗試讓影像回應速度快且可調整大小。 請注意，這可能會對成本造成影響，因為建置時間較長。
 
 ### 使用絕對影像參照
 
-要從外部訪問，與市場活動連結的電子郵件和公共資源中使用的影像必須存在於外部可訪問的伺服器上。
+若要從外部存取，連結至行銷活動的電子郵件和公共資源中使用的影像，必須存在於外部可存取的伺服器上。
 
-## 預覽您的郵件 {#preview-msg}
+## 預覽您的訊息 {#preview-msg}
 
-Adobe建議預覽您的郵件以檢查其個性化以及您的收件人將如何查看您的遞送。
+Adobe建議預覽您的訊息，以檢查其個人化，以及收件者看到您傳遞內容的方式。
 
-在電子郵件設計器中， **[!UICONTROL Preview]** 按鈕，查看收件人的每個內容的呈現。 將個性化欄位和內容的條件元素替換為所選簡檔的相應資訊。 [了解更多](../../sending/using/previewing-messages.md)
+在電子郵件設計工具中， **[!UICONTROL Preview]** 按鈕可讓您檢視收件者的每個內容轉譯。 個人化欄位和內容的條件元素會取代為所選設定檔的對應資訊。 [了解更多](../../sending/using/previewing-messages.md)

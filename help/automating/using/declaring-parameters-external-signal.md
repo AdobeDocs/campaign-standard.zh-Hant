@@ -1,6 +1,6 @@
 ---
-title: 在外部信號活動中聲明參數
-description: 本節詳細說明如何使用外部參數調用工作流。
+title: 在外部訊號活動中宣告引數
+description: 本節詳細說明如何使用外部引數呼叫工作流程。
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
@@ -15,17 +15,17 @@ ht-degree: 0%
 
 ---
 
-# 在外部信號活動中聲明參數 {#declaring-the-parameters-in-the-external-signal-activity}
+# 在外部訊號活動中宣告引數 {#declaring-the-parameters-in-the-external-signal-activity}
 
-使用參數調用工作流的第一步是在 **[!UICONTROL External signal]** 的子菜單。
+使用引數呼叫工作流程的第一步，是在中宣告它們 **[!UICONTROL External signal]** 活動。
 
-1. 開啟 **[!UICONTROL External signal]** 活動，然後選擇 **[!UICONTROL Parameters]** 頁籤。
-1. 按一下 **[!UICONTROL Create element]** 按鈕，然後指定每個參數的名稱和類型。
+1. 開啟 **[!UICONTROL External signal]** 活動，然後選取 **[!UICONTROL Parameters]** 標籤。
+1. 按一下 **[!UICONTROL Create element]** 按鈕，然後指定每個引數的名稱和型別。
 
    >[!CAUTION]
    >
-   >確保參數的名稱和數量與調用工作流時定義的參數相同(請參見 [此頁](../../automating/using/defining-parameters-calling-workflow.md))。 此外，參數類型必須與預期值一致。
+   >請確定引數的名稱和數目與呼叫工作流程時所定義的相同(請參閱 [此頁面](../../automating/using/defining-parameters-calling-workflow.md))。 此外，引數的型別必須與預期值一致。
 
    ![](assets/extsignal_declaringparameters_1.png)
 
-1. 聲明參數後，完成工作流配置，然後運行它。
+1. 宣告引數後，請完成工作流程設定，然後執行。

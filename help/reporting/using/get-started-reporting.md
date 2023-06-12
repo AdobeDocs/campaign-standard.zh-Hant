@@ -20,34 +20,34 @@ ht-degree: 19%
 <table>
 <tr>
 <td><img src="assets/do-not-localize/icon_manage.svg" width="60px"><p><a href="#manage-share-reports">管理和共用動態報告</a></p></td>
-<td><img src="assets/do-not-localize/icon_build.svg" width="60px"><p><a href="#build-reports">生成報告</a></p></td>
-<td><img src="assets/do-not-localize/icon_customize.svg" width="60px"><p><a href="#customize-reports">自定義報告</a></p></td></tr>
+<td><img src="assets/do-not-localize/icon_build.svg" width="60px"><p><a href="#build-reports">建置報告</a></p></td>
+<td><img src="assets/do-not-localize/icon_customize.svg" width="60px"><p><a href="#customize-reports">自訂您的報表</a></p></td></tr>
 </table>
 
-動態報告提供完全可定製的即時報告，以衡量您的營銷活動的影響。 它增加了對個人資料資料的訪問，使用戶能夠按個人資料維度（如性別、城市和年齡）以及功能性電子郵件活動資料（如開啟和點擊）進行人口分析。
+動態報告提供完全可自訂的即時報告，以評估行銷活動的影響。 它新增對設定檔資料的存取權，除了功能性電子郵件促銷活動資料（如開啟和點按）外，還能夠依設定檔維度（如性別、城市和年齡）進行人口統計分析。
 
-![](assets/do-not-localize/how-to-video.png) [發現視頻中的動態報告](#video)
+![](assets/do-not-localize/how-to-video.png) [探索視訊中的動態報告](#video)
 
 ## 管理和共用報告 {#manage-share-reports}
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-使用動態報告 **拖放介面**，您可以瀏覽資料，確定您針對您最重要的客戶群執行電子郵件活動的方式，並從一個位置衡量它們對收件人的影響。
+使用動態報告 **拖放介面**，您可以探索資料、判斷電子郵件行銷活動針對最重要客戶區段的執行方式，以及透過單一位置衡量其對收件者的影響。
 
-**管理動態報告** 多虧了各種功能：即時刷新資料、打印報告或將其導出為CSV檔案。 您還可以通過一次性電子郵件或經常性電子郵件與Campaign Standard用戶共用報告。
+**管理您的動態報告** 多虧了多種功能：即時重新整理資料、列印報表，或將其匯出為CSV檔案。 您也可以透過單次或循環電子郵件將報告與Campaign Standard使用者分享。
 
 閱讀全文:
 
 * [關於動態報告](../../reporting/using/about-dynamic-reports.md)
 * [報告介面](../../reporting/using/reporting-interface.md)
 
-## 生成報告 {#build-reports}
+## 建置報告 {#build-reports}
 
 <img src="assets/do-not-localize/icon_build.svg" width="60px">
 
-Campaign Standard有一套 **隨時可用的動態報告** 允許您衡量營銷活動的多個方面：已聲明為垃圾郵件或垃圾郵件的郵件、收件人查看的郵件、與渠道相關的報告、郵件吞吐量和跟蹤報告……
+Campaign Standard隨附一組 **現成可用的動態報告** 可讓您測量行銷活動的多個方面：跳出數、被宣告為最多垃圾郵件或垃圾郵件的傳送、收件者檢視次數最多的傳送、管道相關報告、傳送量以及追蹤報告……
 
-**組合不同的元件** （維、度量和段、時段），以構建您自己的報告或個性化現成報告。
+**結合不同的元件** （維度、量度和區段、時段），以建立您自己的報表或個人化現成可用的報表。
 
 閱讀全文:
 
@@ -55,15 +55,15 @@ Campaign Standard有一套 **隨時可用的動態報告** 允許您衡量營銷
 * [指標計算](../../reporting/using/indicator-calculation.md)
 * [報告清單](../../reporting/using/defining-the-report-period.md)
 
-## 自定義報告 {#customize-reports}
+## 自訂您的報表 {#customize-reports}
 
 <img src="assets/do-not-localize/icon_customize.svg" width="60px">
 
-**自定義報告** 利用動態報告設計功能：根據需要添加任意多個元件（面板和自由形式表），以使用可用度量和維分析資料。
+**自訂您的報表** 善用動態報告設計功能：視需要新增更多元件（面板和自由表格），使用可用的量度和維度分析資料。
 
-拖放 **可視化項** 將資料的圖形表示形式添加到報告中，並根據您的需要配置它們。
+拖放 **視覺效果專案** 將資料的圖形化表示法新增至報表，並根據您的需求進行設定。
 
-基於 **自定義配置檔案資料** 在配置檔案資源擴展期間建立， **基於段的報告** 定義。
+建立報表依據 **自訂設定檔資料** 在「設定檔」資源擴充功能期間建立，以及 **以區段為基礎的報表** 在目標工作流程中定義。
 
 閱讀全文:
 
@@ -78,10 +78,10 @@ Campaign Standard有一套 **隨時可用的動態報告** 允許您衡量營銷
 * [匯出記錄](../../automating/using/exporting-logs.md)
 * [關於 Campaign-Analytics 整合](../../integrating/using/about-campaign-analytics-integration.md)
 
-## 教程視頻 {#video}
+## 教學課程影片 {#video}
 
-本視頻概述了Adobe Campaign Standard的報告功能。
+這部影片會概略介紹Adobe Campaign Standard的報告功能。
 
 >[!VIDEO](https://video.tv.adobe.com/v/23021?quality=12&captions=eng)
 
-可提供其他Campaign Standard操作視頻 [這裡](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant)。
+提供其他Campaign Standard操作影片 [此處](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant).

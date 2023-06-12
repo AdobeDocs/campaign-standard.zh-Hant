@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '569'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -85,7 +85,7 @@ ht-degree: 100%
 ### 什麼是「控制面板」？
 
 您可以透過「控制面板」，以 Campaign Standard 產品管理員的身分，管理每個執行個體的設定並追蹤每個執行個體的使用量，協助您提高工作效率。
-[按一下這裡](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=zh-Hant#discover-control-panel)以獲得更多資訊。
+[按一下這裡](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html#discover-control-panel)以獲得更多資訊。
 
 >[!NOTE]
 >
@@ -93,23 +93,23 @@ ht-degree: 100%
 
 ### 如何存取控制面板？
 
-控制面板可直接從 Adobe Experience Cloud 存取。 [按一下這裡](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=zh-Hant#discover-control-panel)以獲得更多資訊。
+控制面板可直接從 Adobe Experience Cloud 存取。 [按一下這裡](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html#discover-control-panel)以獲得更多資訊。
 
 ### 「控制面板」常見問答集
 
-[按一下這裡](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hant) 以存取 Campaign 控制面板常見問答集。
+[按一下這裡](https://experienceleague.adobe.com/docs/control-panel/using/faq.html) 以存取 Campaign 控制面板常見問答集。
 
 ### SFTP 管理
 
-在「控制面板」中，您可以與所有連線至您可存取之 Campaign 執行個體的 SFTP 伺服器互動。 您可以監視其儲存容量、管理允許清單上的 IP 地址和公共 SSH 金鑰。 [按一下這裡](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=zh-Hant#sftp-management)以獲得更多資訊。
+在「控制面板」中，您可以與所有連線至您可存取之 Campaign 執行個體的 SFTP 伺服器互動。 您可以監視其儲存容量、管理允許清單上的 IP 地址和公共 SSH 金鑰。 [按一下這裡](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html#sftp-management)以獲得更多資訊。
 
 ### 子網域和憑證
 
 您可以監視子網域及其憑證。 了解更多：
 
-* [子網域品牌](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=zh-Hant#subdomains-and-certificates)
-* [設定新子網域](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=zh-Hant#subdomains-and-certificates)
-* [監視 SSL 憑證](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renew-ssl/renewing-subdomain-certificate.html?lang=zh-Hant#subdomains-and-certificates)
+* [子網域品牌](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html#subdomains-and-certificates)
+* [設定新子網域](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html#subdomains-and-certificates)
+* [監視 SSL 憑證](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#subdomains-and-certificates)
 
 ## 請求協助
 

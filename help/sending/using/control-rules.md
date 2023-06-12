@@ -1,6 +1,6 @@
 ---
 title: 控制規則
-description: 瞭解如何使用控制規則加強郵件的質量檢查。
+description: 瞭解如何使用控制規則強化訊息的品質檢查。
 audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
@@ -17,41 +17,41 @@ ht-degree: 14%
 
 # 控制規則 {#control-rules}
 
-控制規則允許您在發送消息之前檢查消息的有效性和質量，如字元顯示、SMS消息大小、地址格式等。
+控制規則可讓您在傳送訊息之前檢查訊息的有效性和品質，例如字元顯示、SMS訊息大小、位址格式等。
 
 >[!NOTE]
 >
->出於安全原因，控制規則為只讀，無法修改。
+>基於安全理由，控制規則是唯讀的，無法修改。
 
 ## 預設控制規則 {#default-control-rules}
 
-一組預設規則可確保標準控制項。 下表提供了有關這些規則及其相關渠道和 [執行階段](#control-rules-execution-phases)。
+一組預設規則可確保標準控制項。 下表提供有關這些規則及其相關管道和規則的相關資訊。 [執行階段](#control-rules-execution-phases).
 
 | 標籤 | 通道 | 執行階段 | 說明 |
 |---------|----------|---------|---------|
-| **[!UICONTROL A/B Test]** | 電子郵件 | 在個人化開始時 | 提取test群體，以使用A/Btest進行遞送。 |
-| **[!UICONTROL Check delivery size]** | 全部 | 鎖定之後 | 檢查消息的大小。 |
-| **[!UICONTROL Check email content is not empty]** | 電子郵件 | 鎖定之後 | 如果消息的內容為空，則生成錯誤。 |
-| **[!UICONTROL Check In-App content for broadcast template]** | 應用程式內 | 開始個性化 | 檢查In-App內容/觸發器是否為廣播模板的空。 |
-| **[!UICONTROL Check In-App content for profile template]** | 應用程式內 | 在個人化開始時 | 檢查配置檔案模板的In-App內容/觸發器是否不為空。 |
-| **[!UICONTROL Check In-App content for subscriber template]** | 應用程式內 | 在個人化開始時 | 檢查訂閱者模板的In-App內容/觸發器是否不為空。 |
-| **[!UICONTROL Check proof size]** | 全部 | 鎖定之後 | 如果證明目標總數超過100個收件人，則生成錯誤消息。 |
-| **[!UICONTROL Check social network sharing link]** | 電子郵件 | 在個人化開始時 | 在內容中包括社交網路共用連結(ViralLinks)時，檢查指向鏡像頁面的連結是否存在。 |
-| **[!UICONTROL Check subject]** | 電子郵件 | 在個人化開始時 | 檢查主題和發件人地址是否不包含可能導致某些郵件轉移代理出現問題的特殊字元，並檢查郵件主題是否已完成。 |
-| **[!UICONTROL Check unsubscription link]** | 電子郵件 | 在個人化開始時 | 檢查每個內容(HTML和文本)中是否存在至少一個未訂閱（選擇退出）URL。 |
-| **[!UICONTROL Check URL labels]** | 電子郵件 | 在個人化開始時 | 檢查每個跟蹤URL是否都有標籤。 |
-| **[!UICONTROL Check URLs]** | 電子郵件 | 在個人化開始時 | 檢查跟蹤URL（「&amp;」字元的存在）。 |
+| **[!UICONTROL A/B Test]** | 電子郵件 | 在個人化開始時 | 使用A/B測試為傳遞擷取測試母體。 |
+| **[!UICONTROL Check delivery size]** | 全部 | 鎖定之後 | 檢查訊息的大小。 |
+| **[!UICONTROL Check email content is not empty]** | 電子郵件 | 鎖定之後 | 如果訊息的內容為空白，則產生錯誤。 |
+| **[!UICONTROL Check In-App content for broadcast template]** | 應用程式內 | 開始個人化 | 檢查廣播範本的應用程式內內容/觸發器是否非空白。 |
+| **[!UICONTROL Check In-App content for profile template]** | 應用程式內 | 在個人化開始時 | 檢查設定檔範本的應用程式內內容/觸發器是否非空白。 |
+| **[!UICONTROL Check In-App content for subscriber template]** | 應用程式內 | 在個人化開始時 | 檢查訂閱者範本的應用程式內內容/觸發器是否非空白。 |
+| **[!UICONTROL Check proof size]** | 全部 | 鎖定之後 | 如果校樣目標母體超過100個收件者，則產生錯誤訊息。 |
+| **[!UICONTROL Check social network sharing link]** | 電子郵件 | 在個人化開始時 | 在內容中加入社交網路分享連結（病毒連結）時，檢查映象頁面的連結是否存在。 |
+| **[!UICONTROL Check subject]** | 電子郵件 | 在個人化開始時 | 檢查主旨和寄件者地址是否不包含特殊字元，這可能造成某些郵件傳輸代理程式發生問題，並檢查郵件主旨是否已完成。 |
+| **[!UICONTROL Check unsubscription link]** | 電子郵件 | 在個人化開始時 | 檢查每個內容(HTML和文字)中是否存在至少一個取消訂閱（選擇退出） URL。 |
+| **[!UICONTROL Check URL labels]** | 電子郵件 | 在個人化開始時 | 檢查每個追蹤URL是否都有標籤。 |
+| **[!UICONTROL Check URLs]** | 電子郵件 | 在個人化開始時 | 檢查追蹤URL （存在「&amp;」字元）。 |
 
 ## 控制規則執行階段 {#control-rules-execution-phases}
 
-控制規則可在交貨生命週期的不同階段應用：
+控制規則可套用至傳遞生命週期的不同階段：
 
-* **在瞄準**:該控制規則可在該階段應用，使得在發生錯誤時不執行個性化步驟。
+* **在目標定位開始時**：控制規則可在此階段套用，以便在發生錯誤時不會執行個人化步驟。
 
-* **目標後**:目標後執行允許您瞭解目標的卷以應用控制規則。
+* **目標定位後**：在鎖定目標後執行可讓您知道目標的磁碟區以套用控制規則。
 
-   例如， **校驗尺寸** 控制規則在目標階段後應用：如果證明收件人過多，則此規則將阻止準備郵件個性化。
+   例如， **檢查校訂大小** 控制規則適用於目標定位階段之後：如果校樣收件者過多，此規則會防止訊息個人化的準備工作。
 
-* **個性化開始時**:當支票與郵件個性化審批相關時應用。 在分析階段執行消息個性化。
+* **在個人化開始時**：當檢查與訊息個人化核准相關時套用。 訊息個人化會在分析階段中執行。
 
-* **在分析結束時**:當檢查要求完成消息個性化時。
+* **分析結束時**：檢查需要完成訊息個人化時。

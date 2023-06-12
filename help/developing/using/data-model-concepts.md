@@ -34,7 +34,7 @@ Adobe Campaign 使用的資料是透過不同的資源來定義。您可以透�
 
 >[!NOTE]
 >
->您可以在中為內置資源查找資料模型表示 [此頁](../../developing/using/datamodel-introduction.md)。
+>您可以在中找到內建資源的資料模型表示 [此頁面](../../developing/using/datamodel-introduction.md).
 
 您也可以在與所建立資源對應的畫面中[設定導覽](configuring-the-screen-definition.md)。
 
@@ -42,4 +42,4 @@ Adobe Campaign 使用的資料是透過不同的資源來定義。您可以透�
 
 >[!CAUTION]
 >
->僅功能 [管理員](../../administration/using/users-management.md#functional-administrators), **[!UICONTROL Administration]** 角色和訪問權限 **全部** 設備可以訪問發送日誌、消息日誌、跟蹤日誌、排除日誌或訂閱日誌。 非管理員用戶可以針對這些日誌，但可以從連結的表（配置檔案、傳遞）開始。
+>僅功能 [管理員](../../administration/using/users-management.md#functional-administrators)，搭配 **[!UICONTROL Administration]** 角色與存取權 **全部** 單位可以存取傳送記錄、訊息記錄、追蹤記錄、排除或訂閱記錄。 非管理員使用者可以鎖定這些記錄，但從連結的表格（設定檔、傳送）開始。

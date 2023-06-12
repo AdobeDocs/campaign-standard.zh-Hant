@@ -1,6 +1,6 @@
 ---
 title: 關於執行活動
-description: 執行活動可從螢幕的左側獲得。
+description: 您可以從畫面左側使用執行活動。
 audience: automating
 content-type: reference
 topic-tags: execution-activities
@@ -19,7 +19,7 @@ ht-degree: 53%
 
 從浮動視窗的畫面左側展開 **[!UICONTROL Execution]** 區段。
 
-以下活動特定於組織和執行工作流。 他們的主要任務是協調其他活動。
+以下活動專用於組織和執行工作流程。 他們的主要工作是協調其他活動。
 
 ![](assets/wkf_execution_activities.png)
 

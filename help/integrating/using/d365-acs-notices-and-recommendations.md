@@ -8,9 +8,9 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
-source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
+source-git-commit: 17522f4df86c7fb46593472316d57b4ba4acee2b
 workflow-type: tm+mt
-source-wordcount: '2507'
+source-wordcount: '2471'
 ht-degree: 1%
 
 ---
@@ -43,11 +43,6 @@ ht-degree: 1%
 
 1. 確認記錄已從兩個系統中移除
 
-以下連結可協助您實作存取及/或刪除每個系統中與隱私權相關的請求：
-
-* [Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/get-started/gdpr/)
-
-* [Adobe Campaign Standard](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)
 
 >[!IMPORTANT]
 >
@@ -159,15 +154,15 @@ ht-degree: 1%
 
 * 您需要授權正確的Campaign套件，以支援整合產生的引擎呼叫量。 超過授權的引擎呼叫量可能會導致Campaign效能降低。
 
-   使用下列專案來協助評估整合的引擎呼叫量：
+  使用下列專案來協助評估整合的引擎呼叫量：
 
    * 記錄插入（即新記錄）：1個引擎呼叫
    * 記錄刪除： 1個引擎呼叫
    * 記錄更新： 2個引擎呼叫（如果目的地記錄與來源記錄相同，即如果促銷活動記錄沒有變更，則只有1個呼叫）
 
-   在估計整體Campaign引擎呼叫量時，務必要將引擎呼叫的其他來源（包括登陸頁面、WebApps、JSSP、API、行動應用程式註冊等）納入考量。
+  在估計整體Campaign引擎呼叫量時，務必要將引擎呼叫的其他來源（包括登陸頁面、WebApps、JSSP、API、行動應用程式註冊等）納入考量。
 
-   在這裡檢視Adobe Campaign Standard套件資訊： [https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html)
+  在這裡檢視Adobe Campaign Standard套件資訊： [https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html)
 
 * 整合最多可支援1500萬筆記錄，以便初次同步至Campaign中的資源。 增量同步受到Adobe Campaign Standard套件的限制。
 

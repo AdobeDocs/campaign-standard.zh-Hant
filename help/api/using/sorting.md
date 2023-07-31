@@ -8,7 +8,7 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 7db25b8d-a6f1-4151-bf37-c47e9991ae48
-source-git-commit: 0c8710b3e1cc679fa907758a4bf5542d892c737c
+source-git-commit: 13fc1b011f61d67dda128e77b854032801bda263
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 11%
@@ -17,25 +17,25 @@ ht-degree: 11%
 
 # 排序
 
-排序可依遞增或遞減順序進行。 若要這麼做，請使用 **%20desc** 或 **%20asc** 引數至您的請求。
+排序預設為依遞增順序提供。 若要以遞減順序排序，請附加 **%20desc** 至 **順序(_O)** 引數的值。
 
-若要知道欄位是否可以排序，請將「sortable」引數核取至資源中繼資料中。 如需詳細資訊，請參閱[本章節](../../api/using/metadata-mechanism.md)。
+若要知道欄位是否可以排序，請將「可排序」引數核取至資源中繼資料中。 如需詳細資訊，請參閱[本章節](../../api/using/metadata-mechanism.md)。
 
 <br/>
 
-***範例請求***
+***範例要求***
 
-* 擷取資料庫中電子郵件依字母順序排序的GET請求範例。
+* 擷取資料庫中電子郵件依字母順序排序的範例GET請求。
 
   ```
-  -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_order=email%20asc \
+  -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_order=email \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
   -H 'Cache-Control: no-cache' \
   -H 'X-Api-Key: <API_KEY>'
   ```
 
-  對請求的回應。
+  對要求的回應。
 
   ```
   {
@@ -60,7 +60,7 @@ ht-degree: 11%
   -H 'X-Api-Key: <API_KEY>'
   ```
 
-  對請求的回應。
+  對要求的回應。
 
   ```
   {

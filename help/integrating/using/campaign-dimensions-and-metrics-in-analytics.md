@@ -11,7 +11,7 @@ exl-id: 6516c71a-efa8-4778-82bb-10615378f985
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '320'
-ht-degree: 8%
+ht-degree: 14%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 8%
 
 Adobe Campaign與Adobe Analytics整合可讓您直接在Adobe Analytics中追蹤電子郵件傳送的成功情況。
 
-Campaign **[!UICONTROL dimensions]** 可在Analytics中找到以下專案：
+Campaign **[!UICONTROL dimensions]** 以下列出可在Analytics中找到的：
 
 <table> 
  <thead> 
@@ -51,12 +51,12 @@ Campaign **[!UICONTROL dimensions]** 可在Analytics中找到以下專案：
   </tr> 
   <tr> 
    <td> 已執行的傳遞標籤<br /> </td> 
-   <td> 在Campaign中看到的傳遞標籤。 這僅涉及Campaign中的傳送執行。<br /> </td> 
+   <td> 在Campaign中看到的傳送標籤。 這僅涉及Campaign中的傳送執行。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Campaign **[!UICONTROL metrics]** 可在Analytics中找到以下專案：
+Campaign **[!UICONTROL metrics]** 以下列出可在Analytics中找到的：
 
 <table> 
  <thead> 
@@ -68,11 +68,11 @@ Campaign **[!UICONTROL metrics]** 可在Analytics中找到以下專案：
  <tbody> 
   <tr> 
    <td> 已點按<br /> </td> 
-   <td> 內容在傳遞中的點按次數。<br /> </td> 
+   <td> 內容在傳遞中被點按的次數。<br /> </td> 
   </tr> 
   <tr> 
    <td> 已傳遞<br /> </td> 
-   <td> 成功傳送的訊息數（相對於已傳送的訊息總數）。<br /> </td> 
+   <td> 成功傳送的訊息數（與已傳送訊息總數相關）。<br /> </td> 
   </tr> 
   <tr> 
    <td> 已開啟<br /> </td> 
@@ -84,7 +84,7 @@ Campaign **[!UICONTROL metrics]** 可在Analytics中找到以下專案：
   </tr> 
   <tr> 
    <td> 總跳出數<br /> </td> 
-   <td> 傳遞和自動傳回處理期間累計的錯誤總數（與已傳送訊息總數相關）。<br /> </td> 
+   <td> 傳遞和自動傳回處理期間累積的錯誤總數與已傳送之訊息總數的關係。<br /> </td> 
   </tr> 
   <tr> 
    <td> 不重複開啟<br /> </td> 
@@ -92,7 +92,7 @@ Campaign **[!UICONTROL metrics]** 可在Analytics中找到以下專案：
   </tr> 
   <tr> 
    <td> 不重複點按<br /> </td> 
-   <td> 點按傳遞中內容的收件者人數。<br /> </td> 
+   <td> 在傳遞中點按內容的收件者人數。<br /> </td> 
   </tr> 
   <tr> 
    <td> 已取消訂閱<br /> </td> 

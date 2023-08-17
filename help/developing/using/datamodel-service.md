@@ -10,7 +10,7 @@ exl-id: a326b38f-ca88-4a44-a7c2-b6e34497a364
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 40%
+ht-degree: 41%
 
 ---
 
@@ -81,7 +81,7 @@ ht-degree: 40%
                </tr>
                <tr>
                   <td>isExternal</td>
-                  <td>為外部資源</td>
+                  <td>是外部資源</td>
                   <td>布林值 </td>
                   <td> </td>
                </tr>
@@ -118,7 +118,7 @@ ht-degree: 40%
                <tr>
                   <td>messageType</td>
                   <td>通道</td>
-                  <td>分項清單（位元） </td>
+                  <td>分項清單（位元組） </td>
                   <td>
                      <ul>
                         <li>行動裝置（簡訊） — 簡訊 — 1</li>
@@ -130,11 +130,11 @@ ht-degree: 40%
                <tr>
                   <td>模式</td>
                   <td>模式</td>
-                  <td>分項清單（位元） </td>
+                  <td>分項清單（位元組） </td>
                   <td>
                      <ul>
-                        <li>病毒性 — 病毒性 — 1</li>
-                        <li>Newsletter — 電子報 — 0</li>
+                        <li>病毒式 — 病毒式 — 1</li>
+                        <li>電子報 — 電子報 — 0</li>
                         <li>無效值 — __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
@@ -171,7 +171,7 @@ ht-degree: 40%
                </tr>
                <tr>
                   <td>subLandingPage (landingPageSubscriptionBase)</td>
-                  <td>訂閱登陸頁面</td>
+                  <td>訂閱專案登陸頁面</td>
                   <td>連結 </td>
                   <td> </td>
                </tr>
@@ -194,7 +194,7 @@ ht-degree: 40%
                   <td> </td>
                </tr>
                <tr>
-                  <td>目標資源</td>
+                  <td>targetresource</td>
                   <td>定位維度</td>
                   <td>字串(255)</td>
                   <td> </td>
@@ -262,7 +262,7 @@ ht-degree: 40%
     </tr>
 </table>
 
-依管道型別（依管道）
+依管道型別(byChannel)
 
 <table>
 <tr>
@@ -296,7 +296,7 @@ ht-degree: 40%
 <th>類型</th>
 </tr>
 <tr>
-<td>目標資源</td>
+<td>targetresource</td>
 <td>字串</td>
 </tr>
 </table>

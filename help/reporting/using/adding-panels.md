@@ -1,6 +1,6 @@
 ---
 title: 新增面板
-description: 動態報告可讓您新增面板，以根據所選時段更好地篩選資料。
+description: 動態報告可讓您新增面板，以根據所選的時段更好地篩選資料。
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
@@ -19,9 +19,9 @@ ht-degree: 1%
 
 ## 新增空白面板 {#adding-a-blank-panel}
 
-若要啟動報表，您可以將一組面板新增至立即可用或自訂的報表中。 每個面板都包含不同的資料集，由自由表格和視覺效果組成。
+若要啟動報表，您可以將一組面板新增至立即可用或自訂的報表中。 每個面板都包含不同的資料集，而且由自由表格和視覺效果組成。
 
-此面板可讓您視需要建置報表。 您可以在報表中新增任意數量的面板，以使用不同的時段篩選資料。
+此面板可讓您視需要建置報告。 您可以在報表中新增任意數量的面板，以篩選不同時段的資料。
 
 1. 按一下 **面板** 圖示。 您也可以按一下 **插入索引標籤** 並選取 **新增空白面板**.
 
@@ -31,13 +31,13 @@ ht-degree: 1%
 
    ![](assets/dynamic_report_panel.png)
 
-您現在可以將自由表格新增至面板，以開始鎖定目標資料。
+您現在可以將自由表格新增至面板，以開始鎖定資料目標。
 
 ## 新增自由表格 {#adding-a-freeform-table}
 
-自由表格可讓您建立表格，以使用中提供的不同量度和維度來分析您的資料。 **元件** 表格。
+自由表格可讓您建立表格，以使用中提供的不同量度和維度來分析資料。 **元件** 表格。
 
-每個表格和視覺效果皆可調整大小，並可移動以自訂報表。
+每個表格和視覺效果皆可調整大小，且可以移動以自訂報表。
 
 1. 按一下 **[!UICONTROL Panels]** 圖示。
 
@@ -67,9 +67,9 @@ ht-degree: 1%
    * **[!UICONTROL Percent]**：可讓您顯示或隱藏欄中的百分比。
    * **[!UICONTROL Interpret zero as no value]**：可讓您在值等於零時顯示或隱藏。
    * **[!UICONTROL Background]**：可讓您顯示或隱藏儲存格中的水準進度列。
-   * **[!UICONTROL Include retries]**：可讓您在結果中包含重試。 此專案僅適用於 **[!UICONTROL Sent]** 和 **[!UICONTROL Bounces + Errors]**.
+   * **[!UICONTROL Include retries]**：可讓您在結果中包含重試。 此項僅適用於 **[!UICONTROL Sent]** 和 **[!UICONTROL Bounces + Errors]**.
 
-1. 選取一或多個列，然後按一下 **[!UICONTROL Visualize]** 圖示。 新增視覺效果以反映您選取的列。
+1. 選取一或多個列，然後按一下 **[!UICONTROL Visualize]** 圖示。 視覺效果會新增，以反映您選取的列。
 
    ![](assets/dynamic_report_freeform_5.png)
 

@@ -49,7 +49,7 @@ ht-degree: 92%
 
    >[!NOTE]
    >
-   >由於重複的索引會導致發佈失敗，準備步驟會檢查為資源定義的索引是否已存在，且另一個資源的索引名稱相同。 如果發生此情況，則會顯示錯誤訊息，要求您重新命名索引。 另請參閱 [定義索引](configuring-the-resource-s-data-structure.md#defining-indexes).
+   >由於重複的索引會導致發佈失敗，準備步驟會檢查為資源定義的索引是否已經存在，且另一個資源的索引名稱相同。 如果發生這種情況，會顯示錯誤訊息，要求您重新命名索引。 另請參閱 [定義索引](configuring-the-resource-s-data-structure.md#defining-indexes).
 
 1. 發佈完成後，按一下 **[!UICONTROL Publish]** 按鈕以套用新的設定。
 1. 發佈後，每個資源的 **[!UICONTROL Summary]** 窗格會指出狀態現在為 **[!UICONTROL Published]** 並指定上次發佈的日期。
@@ -83,11 +83,11 @@ ht-degree: 92%
 
 * 如果尚未發佈 API（亦即，若您尚未擴充資源，或您尚未針對此資源或其他資源核取此選項），您可以選取是否要建立它。
 
-   ![](assets/create-profile-and-services-api.png)
+  ![](assets/create-profile-and-services-api.png)
 
 * 如果已發佈 API（亦即，您已擴充資源並核取此選項一次），則會強制進行 API 更新。
 
-   事實上，一旦建立 API 後，每當您再次發佈 API 時，API 就會自動更新。這是為了避免中斷此 API 的設定檔或服務資源，以及對您執行個體造成傷害。
+  事實上，一旦建立 API 後，每當您再次發佈 API 時，API 就會自動更新。這是為了避免中斷此 API 的設定檔或服務資源，以及對您執行個體造成傷害。
 
 請注意，自訂資源預設會進行整合，但針對此特定行為，若您不想發佈此資源，則可選取 **[!UICONTROL Resource Properties]** 中的可用 **[!UICONTROL Hide this resource from APIs]** 選項。
 

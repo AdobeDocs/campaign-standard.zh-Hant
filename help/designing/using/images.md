@@ -1,6 +1,6 @@
 ---
 title: 使用影像
-description: 瞭解如何使用電子郵件設計器管理電子郵件中的影像。
+description: 探索如何使用電子郵件設計工具管理電子郵件中的影像。
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
@@ -19,22 +19,22 @@ ht-degree: 3%
 
 ## 插入影像{#inserting-images}
 
-您可以在電子郵件和登錄頁中插入影像。
+您可以在電子郵件和登入頁面中插入影像。
 
-根據您的配置，可以使用以下類型的映像：
+視您的設定而定，可使用下列影像型別：
 
-* 本地影像
-* 從Adobe Experience Cloud共用的映像 — 請參閱[使用市場活動和資產核心服務](../../integrating/using/working-with-campaign-and-assets-core-service.md) /按需資產
-* 來自Adobe Target的動態映像 — 請參閱[使用市場活動和目標](../../integrating/using/about-campaign-target-integration.md)
+* 本機影像
+* 從Adobe Experience Cloud共用的影像 — 請參閱 [合作使用Campaign與Assets核心服務](../../integrating/using/working-with-campaign-and-assets-core-service.md) /隨選資產
+* 來自Adobe Target的動態影像 — 請參閱 [合作使用Campaign與Target](../../integrating/using/about-campaign-target-integration.md)
 
 >[!CAUTION]
 >
->如果您選擇通過編輯電子郵件的HTML版本直接添加影像，則不得在HTML頁的&lt;script>標籤&#x200B;**中調用**&#x200B;外部檔案。這些檔案不會導入到Adobe Campaign伺服器上。
+>如果您選擇透過編輯電子郵件的HTML版本來直接新增影像，則不得呼叫 **中的外部檔案 &lt;script> 標籤** HTML頁面的。 這些檔案將不會匯入至Adobe Campaign伺服器。
 
 ### 在電子郵件中插入影像 {#inserting-images-in-an-email}
 
-1. 添加結構元件。如需詳細資訊，請參閱「[編輯電子郵件結構](../../designing/using/designing-from-scratch.md#defining-the-email-structure)」。
-1. 在此結構元件內，添加&#x200B;**[!UICONTROL Image]**&#x200B;內容元件。
+1. 新增結構元件。 如需詳細資訊，請參閱「[編輯電子郵件結構](../../designing/using/designing-from-scratch.md#defining-the-email-structure)」。
+1. 在此結構元件內，新增 **[!UICONTROL Image]** 內容元件。
 
    ![](assets/des_insert_images_1.png)
 
@@ -42,22 +42,22 @@ ht-degree: 3%
 
    ![](assets/des_insert_images_2.png)
 
-1. 選擇剛添加的內容元件。
-1. 檢查影像屬性並根據需要調整它們。
+1. 選取您剛才新增的內容元件。
+1. 檢查影像屬性，並視需要加以調整。
 
    ![](assets/des_insert_images_3.png)
 
 ## 設定影像屬性{#setting-up-image-properties}
 
-選擇包含影像的塊時，調色板中提供以下屬性：
+當您選取包含影像的區塊時，浮動視窗中提供下列屬性：
 
-* **啟用個性化**&#x200B;允許您自定義映像源。請參閱[個性化影像源](../../designing/using/personalization.md#personalizing-an-image-source)。
-* **影像標題**&#x200B;允許您為影像定義標題。
-* **Alt文本**（電子郵件）或&#x200B;**標題**（登錄頁）允許您定義連結到影像的標題(與&#x200B;**alt** HTML屬性對應)。
-* 編輯電子郵件時，**樣式**&#x200B;允許您指定影像大小、背景和邊框。
-* 編輯登錄頁時，**Dimension**&#x200B;允許您以像素為單位指定影像大小。
+* **啟用個人化** 可讓您自訂影像來源。 另請參閱 [個人化影像來源](../../designing/using/personalization.md#personalizing-an-image-source).
+* **影像標題** 可讓您定義影像的標題。
+* **替代文字** （電子郵件）或 **註解** （登陸頁面）可讓您定義連結至影像的標題(對應至 **alt** HTML屬性)。
+* 編輯電子郵件時， **樣式** 可讓您指定影像大小、背景和邊框。
+* 編輯登入頁面時， **Dimension** 可讓您指定影像大小（畫素）。
 
-編輯器允許您使用格式與瀏覽器相容的&#x200B;**所有影像類型**。要與編輯器相容，請 **「Flash」型別的動畫** 必須插入HTML頁面中，如下所示：
+編輯器可讓您使用 **所有影像型別** 其格式與瀏覽器相容。 要與編輯器相容，請 **「Flash」型別動畫** 必須插入到HTML頁面中，如下所示：
 
 ```
 <object type="application/x-shockwave-flash" data="http://www.mydomain.com/flash/your_animation.swf" width="200" height="400">

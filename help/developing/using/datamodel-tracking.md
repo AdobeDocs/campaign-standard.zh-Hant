@@ -1,5 +1,5 @@
 ---
-title: DataModel追蹤記錄
+title: 資料模型追蹤記錄
 description: 瞭解資料模型
 audience: developing
 content-type: reference
@@ -33,7 +33,7 @@ ht-degree: 33%
                </tr>
                <tr>
                   <td>logCountRead</td>
-                  <td>LogCountRead</td>
+                  <td>logcountread</td>
                   <td>整數 </td>
                   <td> </td>
                </tr>
@@ -44,8 +44,8 @@ ht-degree: 33%
                   <td> </td>
                </tr>
                <tr>
-                  <td>指標到</td>
-                  <td>指標</td>
+                  <td>指標目標</td>
+                  <td>指標目標</td>
                   <td>字串 </td>
                   <td> </td>
                </tr>

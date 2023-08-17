@@ -1,6 +1,6 @@
 ---
 title: 使用外部資料更新資料庫
-description: 此使用案例說明如何使用從檔案復原的資料，將設定檔新增或更新至Adobe Campaign資料庫。
+description: 此使用案例顯示如何使用從檔案復原的資料，將設定檔新增或更新至Adobe Campaign資料庫。
 audience: automating
 content-type: reference
 topic-tags: data-management-activities

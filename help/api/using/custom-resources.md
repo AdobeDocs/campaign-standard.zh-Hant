@@ -17,9 +17,9 @@ ht-degree: 5%
 
 # 自訂資源 {#custom-resources}
 
-Adobe Campaign隨附預先定義的資料模型，其中資料會透過不同資源加以定義。 您可以擴充資源，以新增您自己的自訂欄位或自訂表格（例如購買或產品表格），藉此擴充資料模型。
+Adobe Campaign隨附預先定義的資料模型，其中資料會透過不同資源加以定義。 您可以擴充資源，以新增自訂欄位或自訂表格，例如購買或產品表格，藉此擴充資料模型。
 
-自訂資源可透過API使用 **/profileAndServicesExt** 端點和自訂資源名稱。
+自訂資源可透過API存取，使用 **/profileAndServicesExt** 端點和自訂資源名稱。
 
 `https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/`
 
@@ -27,15 +27,15 @@ Adobe Campaign隨附預先定義的資料模型，其中資料會透過不同資
 >
 >對於非現成可用的資源，請一律使用 <b>&quot;cus&quot;</b> 在資源名稱前加上前置詞。
 
-只要自訂資源連結至設定檔表格，您就可以使用自訂資源執行任何作業。 例如，我們來看看下方的表格結構：
+只要自訂資源連結至設定檔表格，您就可以使用自訂資源執行任何作業。 例如，讓我們考慮下方的表格結構：
 
 ![替代文字](assets/cusresources.png)
 
-在此情況下，來自 **交易**， **TransactionDetails** 和 **產品** 只要資料表連結至 **設定檔** 表格。
+在此情況下，所有來自 **交易**， **TransactionDetails** 和 **產品** 只要資料表連結至 **個人資料** 表格。
 
 <br/>
 
-***範例請求***
+***範例要求***
 
 存取延伸profileAndServicesExt資源的範例GET要求。
 
@@ -47,7 +47,7 @@ Adobe Campaign隨附預先定義的資料模型，其中資料會透過不同資
 -H 'X-Api-Key: <API_KEY>' \
 ```
 
-它會傳回所有連結的自訂資源清單。 然後，您可以使用資源URL來執行本檔案中描述的任何API任務。
+它會傳回所有連結的自訂資源清單。 然後，您可以使用資源URL來執行本檔案中描述的任何API工作。
 
 ```
 {

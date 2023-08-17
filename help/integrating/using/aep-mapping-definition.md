@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform Data Connector目前為測試版，可能會經常更新，恕不另行通知。 客戶必須在Azure上託管（目前僅北美地區適用Beta版）才能存取這些功能。 如果您想要存取許可權，請聯絡Adobe客戶服務。
+>Adobe Experience Platform Data Connector目前為測試版，可能會經常更新，恕不另行通知。 客戶需在Azure上代管（目前僅限北美地區使用Beta版）才能存取這些功能。 如果您想要存取許可權，請聯絡Adobe客戶服務。
 
 在本節中，您將瞭解如何使用Experience Data Model (XDM)欄位對應Campaign Standard欄位。
 
@@ -41,9 +41,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->若要將批次擷取至Real-time Customer Profile或Identity Service，資料集必須為 [啟用即時客戶個人檔案](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html).
+>若要將批次擷取至即時客戶設定檔或Identity Service，資料集必須是 [已啟用即時客戶個人檔案](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html).
 >
->如果您選取的資料集已用於現有資料對應，會出現警告以通知您可能會在Adobe Experience Platform上覆寫資料。 使用相同資料集的資料匹配中有一些常見收件者時，可能會發生這種情況。
+>如果您選取的資料集已用於現有資料對應，會出現警告以通知您資料可能會在Adobe Experience Platform上覆寫。 使用相同資料集的資料匹配中有一些常見的收件者時，可能會發生這種情況。
 
 下列畫面會顯示 **[!UICONTROL Field mappings]** 區段，您可在其中為Campaign Standard結構描述中的每個欄位建立新的對應。
 
@@ -55,23 +55,23 @@ ht-degree: 0%
 
 ![](assets/aep_mapfield.png)
 
-Campaign Standard中定義的擴充資源會對映所有原生欄位按讚。 它們被定義為XDM中的_customer/default擴充功能。
+Campaign Standard中定義的擴充資源會對映所有原生欄位按讚。 它們定義在XDM中的_customer/預設擴充功能中。
 
 ![](assets/aep_fieldscusmapping.png)
 
-您可以透過API自訂XDM擴充功能，並定義自己的擴充功能，讓您更能掌控對應。
+您可以透過API自訂XDM擴充功能，並定義您自己的擴充功能，讓您更能掌控對應。
 
-另請參閱 [結構描述登入API教學課程](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html) 以取得有關XDM API的詳細資訊。
+另請參閱 [結構描述登入API教學課程](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html) 以取得有關XDM API的更多詳細資料。
 
-若要對應分項清單欄位，您需要使用運算式編輯器來定義與XDM值對應的每個分項清單值。 例如，postaladdressfield需要定義為：
+若要對應分項清單欄位，必須使用運算式編輯器定義與XDM值對應的每個分項清單值。 例如，postaladdressfield需要定義為：
 
 ![](assets/aep_enummapping.png)
 
-如果XDM值定義為XDM結構描述中的分項清單，您可以使用會自動取代 **lif** 語法。
+如果XDM值定義為XDM結構描述中的分項清單，則您可以使用會自動取代的原生EXDM函式 **lif** 語法。
 
 ![](assets/aep_enummappingexdm.png)
 
-若要編輯XDM對應，請開啟該對應、修改所需的資訊，然後儲存它。
+若要編輯XDM對應，請開啟對應、修改所需資訊並儲存。
 
 ![](assets/aep_editmapping.png)
 

@@ -1,5 +1,5 @@
 ---
-title: 外部訊號與資料匯入
+title: 外部訊號和資料匯入
 description: 下列範例說明與資料匯入搭配使用的外部訊號活動。
 audience: automating
 content-type: reference
@@ -16,7 +16,7 @@ ht-degree: 79%
 
 ---
 
-# 外部訊號與資料匯入 {#external-signal-data-import}
+# 外部訊號和資料匯入 {#external-signal-data-import}
 
 以下範例說明典型使用案例中的 **[!UICONTROL External signal]** 活動。在來源工作流程中執行資料匯入。完成匯入並更新資料庫後，就會觸發第二個工作流程。此第二個工作流程用於更新匯入資料的彙總。
 
@@ -24,17 +24,17 @@ ht-degree: 79%
 
 * [載入檔案](../../automating/using/load-file.md)活動會上傳包含新購買資料的檔案。請注意，由於資料庫中預設沒有購買資料，因此[資料庫已相應擴展](../../developing/using/data-model-concepts.md)。
 
-   例如：
+  例如：
 
-   ```
-   tcode;tdate;customer;product;tamount
-   aze123;21/05/2015;dannymars@example.com;A2;799
-   aze124;28/05/2015;dannymars@example.com;A7;8
-   aze125;31/07/2015;john.smith@example.com;A7;8
-   aze126;14/12/2015;john.smith@example.com;A10;4
-   aze127;02/01/2016;dannymars@example.com;A3;79
-   aze128;04/03/2016;clara.smith@example.com;A8;149
-   ```
+  ```
+  tcode;tdate;customer;product;tamount
+  aze123;21/05/2015;dannymars@example.com;A2;799
+  aze124;28/05/2015;dannymars@example.com;A7;8
+  aze125;31/07/2015;john.smith@example.com;A7;8
+  aze126;14/12/2015;john.smith@example.com;A10;4
+  aze127;02/01/2016;dannymars@example.com;A3;79
+  aze128;04/03/2016;clara.smith@example.com;A8;149
+  ```
 
 * [調解](../../automating/using/reconciliation.md)活動會建立匯入資料和資料庫之間的連結，以便交易資料正確連接到設定檔和產品。
 * [更新資料](../../automating/using/update-data.md)活動將插入並更新帶有傳入資料的資料庫的「交易」資源。

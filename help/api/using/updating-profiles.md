@@ -14,19 +14,19 @@ ht-degree: 2%
 
 # 使用API更新設定檔{#updating-profiles-api}
 
-更新設定檔是透過執行的 **PATCH** 要求。
+更新設定檔是使用 **PATCH** 要求。
 
 `https://mc.adobe.io/<ORGANIZATION>/campaign/<apiName>/<resourceName>/<PKEY>`
 
 1. 第一步是 **擷取設定檔**.
 
-1. 在第二個要求中，執行 **PATCH請求** 在承載中具有已完成資訊的設定檔上。
+1. 在第二個要求中，執行 **PATCH要求** 在承載中具有已完成資訊的設定檔上。
 
 1. 若要檢查PATCH請求是否已更新設定檔，我們可以執行最終GET請求。
 
 <br/>
 
-***範例請求***
+***範例要求***
 
 擷取設定檔的範例GET請求。
 
@@ -38,7 +38,7 @@ ht-degree: 2%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-對請求的回應。
+對要求的回應。
 
 ```
 {

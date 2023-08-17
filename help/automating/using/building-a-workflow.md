@@ -40,7 +40,7 @@ ht-degree: 96%
 
 您可以從方案、行銷活動或行銷活動清單建立工作流程。
 
-![](assets/do-not-localize/how-to-video.png) [瞭解如何在影片中建立工作流程](#video)
+![](assets/do-not-localize/how-to-video.png) [探索如何在影片中建立工作流程](#video)
 
 建立行銷活動在[建立行銷活動](../../start/using/marketing-activities.md#creating-a-marketing-activity)區段中有詳細說明。
 

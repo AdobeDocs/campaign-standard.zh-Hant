@@ -62,7 +62,7 @@ ht-degree: 47%
                   <td> </td>
                </tr>
                <tr>
-                  <td>emailRender</td>
+                  <td>emailRendering</td>
                   <td>電子郵件轉譯</td>
                   <td>布林值 </td>
                   <td> </td>
@@ -81,7 +81,7 @@ ht-degree: 47%
                </tr>
                <tr>
                   <td>isExternal</td>
-                  <td>為外部資源</td>
+                  <td>是外部資源</td>
                   <td>布林值 </td>
                   <td> </td>
                </tr>
@@ -158,7 +158,7 @@ ht-degree: 47%
                   <td> </td>
                </tr>
                <tr>
-                  <td>pushNotification</td>
+                  <td>pushnotification</td>
                   <td>推播通知</td>
                   <td>字串(255)</td>
                   <td> </td>
@@ -223,7 +223,7 @@ ht-degree: 47%
         <th>類型</th>
         </tr>
         <tr>
-        <td>事件型別</td>
+        <td>eventtype</td>
         <td>字串</td>
         </tr>
     </table>
@@ -253,7 +253,7 @@ ht-degree: 47%
         <td>布林值</td>
         </tr>
         <tr>
-        <td>emailRender</td>
+        <td>emailRendering</td>
         <td>布林值</td>
         </tr>
         <tr>

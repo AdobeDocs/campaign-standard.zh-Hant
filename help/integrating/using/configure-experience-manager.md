@@ -19,14 +19,14 @@ ht-degree: 6%
 
 Adobe Campaign Standard與Adobe Experience Manager之間的這項整合可讓您在Adobe Campaign電子郵件中使用Adobe Experience Manager中建立的內容。
 
-透過此使用案例，您將瞭解如何在Adobe Experience Manager中建立和管理電子郵件內容，然後透過將電子郵件中的這些內容匯入Adobe Campaign Standard，將其用於行銷活動。
+透過此使用案例，您將瞭解如何在Adobe Experience Manager中建立和管理電子郵件內容，然後將其匯入Adobe Campaign Standard，用於行銷活動。
 
 ## 必要條件 {#prerequisites}
 
-您應確保預先具備下列元素：
+您應確定您預先擁有下列元素：
 
-* Adobe Experience Manager **製作** 例項
-* Adobe Experience Manager **發佈** 例項
+* 一個Adobe Experience Manager **製作** 例項
+* 一個Adobe Experience Manager **發佈** 例項
 * Adobe Campaign執行個體
 
 ## Adobe Campaign Standard中的設定 {#config-acs}
@@ -34,7 +34,7 @@ Adobe Campaign Standard與Adobe Experience Manager之間的這項整合可讓您
 若要同時使用這兩個解決方案，您必須將其設定為彼此連線。
 若要設定Adobe Campaign：
 
-1. 您首先需要設定 **[!UICONTROL Adobe Experience Manager instance]** 外部帳戶位於 **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL External accounts menu]**.
+1. 您首先需要設定 **[!UICONTROL Adobe Experience Manager instance]** 外部帳戶在 **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL External accounts menu]**.
 
 1. 使用設定Adobe Experience Manager型別外部帳戶 **[!UICONTROL Server]** URL， **[!UICONTROL Account]** 和 **[!UICONTROL Password]**.
 
@@ -42,7 +42,7 @@ Adobe Campaign Standard與Adobe Experience Manager之間的這項整合可讓您
 
 1. 檢查 **[!UICONTROL AEMResourceTypeFilter]** 選項已正確設定。 存取 **[!UICONTROL Options]** 下的選單 **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** 功能表。
 
-1. 在 **[!UICONTROL Value (text)]** 欄位中，檢查下列語法是否正確：
+1. 在 **[!UICONTROL Value (text)]** 欄位，檢查下列語法是否正確：
 
    ```
    mcm/campaign/components/newsletter,mcm/campaign/components/campaign_newsletterpage,mcm/neolane/components/newsletter
@@ -58,7 +58,7 @@ Adobe Campaign Standard與Adobe Experience Manager之間的這項整合可讓您
 
    ![](assets/aem_4.png)
 
-1. 在 **[!UICONTROL Content]** 下拉式清單，選取 **[!UICONTROL Adobe Experience Manager]** 在 **[!UICONTROL Content source]** 欄位中先前建立的外部帳戶 **[!UICONTROL Adobe Experience Manager account]**.
+1. 在 **[!UICONTROL Content]** 下拉式清單，選取 **[!UICONTROL Adobe Experience Manager]** 在 **[!UICONTROL Content source]** 欄位中輸入先前建立的外部帳戶 **[!UICONTROL Adobe Experience Manager account]**.
 
 您現在需要在Adobe Experience Manager中設定整合。
 

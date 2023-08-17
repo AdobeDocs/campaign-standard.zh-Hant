@@ -23,7 +23,7 @@ ht-degree: 97%
 
 在本頁面中，您將會找到這些步驟的相關資訊及專用檔案的參考，以取得更多詳細資訊。
 
-![](assets/do-not-localize/how-to-video.png) [在影片中探索如何建立登入頁面](#video)
+![](assets/do-not-localize/how-to-video.png) [在影片中探索如何建立登陸頁面](#video)
 
 **相關主題：**
 

@@ -1,6 +1,6 @@
 ---
 title: 匯出清單
-description: Adobe Campaign可讓您將總覽畫面中顯示為清單的資料直接匯出到檔案中，以供日後使用。
+description: Adobe Campaign可讓您直接從概述畫面將顯示為清單的資料匯出到檔案中，以供日後使用。
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
@@ -19,30 +19,30 @@ ht-degree: 6%
 
 Adobe Campaign可讓您直接將清單匯出至檔案中，以供日後使用。 匯出檔案中的清單會在以下位置產生記錄專案： **[!UICONTROL Export audits]** 功能表。 有關匯出稽核的詳細資訊，請參閱[稽核匯出](../../administration/using/auditing-export-logs.md)區段。
 
-![](assets/do-not-localize/how-to-video.png) [瞭解如何在視訊中設定清單](#video)
+![](assets/do-not-localize/how-to-video.png) [探索如何在視訊中設定清單](#video)
 
 匯出清單選項預設會匯出最多100,000行，並且由 **Nms_ExportListLimit** 選項。 此選項可由功能管理員管理，位於 **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** 功能表。
 
-匯出清單可在所有具有「 」的畫面中使用。 **清單** 模式檢視，適用於擁有下列專案的使用者： **[!UICONTROL EXPORT (export)]** 角色。
+匯出清單適用於所有具有 **清單** 模式檢視，適用於擁有下列專案的使用者： **[!UICONTROL EXPORT (export)]** 角色。
 
-1. 前往您選擇的 **清單** 畫面。 例如，測試設定檔概述畫面( **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]** )。
-1. 檢查熒幕是否在 **清單** 模式。
+1. 移至您選擇的 **清單** 畫面。 例如，測試設定檔概述畫面( **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]** )。
+1. 檢查熒幕是否在中 **清單** 模式。
 
    ![](assets/export_list_mode_switch.png)
 
-1. 使用以您要匯出的順序來組織清單中的欄 **[!UICONTROL Configure list]** 按鈕，位於右上角。 除了已設定的欄外，也會匯出資源的主索引鍵。
+1. 使用以您要匯出的順序來組織清單中的欄 **[!UICONTROL Configure list]** 按鈕，在右上角。 除了已設定的欄外，也會匯出資源的主索引鍵。
 1. 您也可以套用篩選器。 若要這麼做，請按一下左上角的按鈕以顯示搜尋窗格。
 
-   如果您從包含不同資源的清單執行匯出，則必須套用篩選器，以便在清單中僅顯示一種型別的資源。
+   如果您從包含不同資源的清單執行匯出，則必須套用篩選器，如此清單中只會顯示一種型別的資源。
 
 1. 您也可以將所選的欄排序。
 1. 選取匯出按鈕 ![](assets/exportlistbutton.png).
 
    將會出現快顯視窗以確認匯出。 在您確認匯出後，檔案會自動下載到您的電腦。
 
-檔案會以CSV格式產生，副檔名為.TXT。 會根據匯出的資源和匯出日期來命名。 例如：名稱profileBase_20150426_120253.txt將套用至2015年4月26日在12點執行的設定檔匯出:02:53. 會以UTF-8格式編碼。
+檔案會以CSV格式產生，副檔名為.TXT。 根據匯出的資源和匯出日期來命名。 例如：名稱profileBase_20150426_120253.txt將套用至2015年4月26日12點執行的設定檔匯出:02:53. 它以UTF-8格式編碼。
 
-數值和日期會考量執行匯出之使用者的當地時間（地區設定）。 例如：DD-MM-YYYY或MM-DD-YYYY。
+數值和日期會考量執行匯出之使用者的當地時間（地區設定）。 例如： DD-MM-YYYY或MM-DD-YYYY。
 
 若要執行大於此值的匯出，您必須建立專用工作流程。 請參閱 [擷取檔案](../../automating/using/extract-file.md) 區段。
 
@@ -50,7 +50,7 @@ Adobe Campaign可讓您直接將清單匯出至檔案中，以供日後使用。
 
 以下範例是從以下定義的設定檔清單執行的匯出：
 
-* 顯示的欄（依序）：姓氏、名字、出生日期、電子郵件地址。
+* 顯示的欄（依順序）：姓氏、名字、出生日期、電子郵件地址。
 * 名稱會依字母順序排序。
 
 ![](assets/export_list_example1.png)

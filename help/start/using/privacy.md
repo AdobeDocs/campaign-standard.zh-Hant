@@ -50,11 +50,11 @@ Adobe Campaign 是 Adobe Experience Cloud 解決方案的一部分。在 Campaig
 
 * **使用 Adobe Experience Cloud 時會收集哪些資訊**
 
-   身為使用 Adobe Experience Cloud 解決方案的公司，您可以選擇要收集哪些資訊並傳送至您的 Adobe Experience Cloud 帳戶。可收集的資訊類型範例包含網頁瀏覽活動、IP 位址、行動裝置的位置資訊、促銷活動成功率、購買或放入購物車的項目等。
+  身為使用 Adobe Experience Cloud 解決方案的公司，您可以選擇要收集哪些資訊並傳送至您的 Adobe Experience Cloud 帳戶。可收集的資訊類型範例包含網頁瀏覽活動、IP 位址、行動裝置的位置資訊、促銷活動成功率、購買或放入購物車的項目等。
 
-   >[!NOTE]
-   >
-   >而對於所有 Adobe 產品，Campaign 會收集應用程式和網站使用者的相關資訊。如需此項目的詳細資訊，請參閱 [Adobe 隱私權政策](https://www.adobe.com/tw/privacy/policy.html)。
+  >[!NOTE]
+  >
+  >而對於所有 Adobe 產品，Campaign 會收集應用程式和網站使用者的相關資訊。如需此項目的詳細資訊，請參閱 [Adobe 隱私權政策](https://www.adobe.com/tw/privacy/policy.html)。
 
 * **如何使用 Adobe Experience Cloud 收集資訊**
 
@@ -63,14 +63,14 @@ Adobe Campaign 是 Adobe Experience Cloud 解決方案的一部分。在 Campaig
 
 * **使用者對於您使用 Adobe Experience Cloud 的隱私權選擇**
 
-   Adobe 要求您提供客戶的隱私權政策，以說明：
+  Adobe 要求您提供客戶的隱私權政策，以說明：
 
    * 您與 Adobe Experience Cloud 相關聯的隱私權實務
    * 使用者如何針對 Adobe Experience Cloud 收集或使用其資訊進行偏好設定
 
-   >[!NOTE]
-   >
-   >而對於所有 Adobe 產品，Campaign 使用者可以透過應用程式和網站，選擇退出分享收集關於他們的資訊。如需此項目的詳細資訊，請參閱 [Adobe Experience Cloud 使用資訊常見問答](https://www.adobe.com/tw/privacy/experience-cloud-usage-info-faq.html)。
+  >[!NOTE]
+  >
+  >而對於所有 Adobe 產品，Campaign 使用者可以透過應用程式和網站，選擇退出分享收集關於他們的資訊。如需此項目的詳細資訊，請參閱 [Adobe Experience Cloud 使用資訊常見問答](https://www.adobe.com/tw/privacy/experience-cloud-usage-info-faq.html)。
 
 如需 Adobe Experience Cloud 隱私權的後續詳細資料，請參閱[本頁](https://www.adobe.com/tw/privacy/marketing-cloud.html)。
 

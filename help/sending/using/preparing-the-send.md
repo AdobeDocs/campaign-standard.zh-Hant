@@ -17,7 +17,7 @@ ht-degree: 12%
 
 # 準備傳送{#preparing-the-send}
 
-準備對應於計算目標人口並為目標中包含的每個設定檔產生訊息內容的步驟。 準備完成後，訊息即可立即或於傳送 [排程的日期和時間](../../sending/using/about-scheduling-messages.md).
+準備對應於計算目標人口並為目標中包含的每個設定檔產生訊息內容的步驟。 準備完成後，訊息即可立即或於傳送。 [排程的日期和時間](../../sending/using/about-scheduling-messages.md).
 
 1. 若要開始準備傳送，請按一下 **準備** 按鈕的位置。
 
@@ -29,13 +29,13 @@ ht-degree: 12%
 
    ![](assets/preparing_delivery.png)
 
-1. 使用「 」隨時停止準備 **停止** 按鈕，位於動作列。
+1. 隨時使用停止準備 **停止** 按鈕，位於動作列。
 
    在準備階段，不傳送任何訊息。因此，您可以開始或停止準備而不會影響任何東西。
 
    ![](assets/preparing_delivery_6.png)
 
-1. 您的訊息會在準備傳遞階段期間自動儲存。 如果您需要在準備步驟後對訊息排程進行任何變更，請務必按一下 **[!UICONTROL Prepare]** 按鈕來重新計算這些變更。 如需如何排程訊息的詳細資訊，請參閱此 [頁面](../../sending/using/about-scheduling-messages.md).
+1. 您的訊息會在準備傳送階段期間自動儲存。 如果您需要在準備步驟後對訊息排程進行任何變更，請務必按一下 **[!UICONTROL Prepare]** 按鈕來調整這些變更，以納入考量。 如需如何排程訊息的詳細資訊，請參閱本節 [頁面](../../sending/using/about-scheduling-messages.md).
 
    ![](assets/preparing_delivery_5.png)
 
@@ -49,16 +49,16 @@ ht-degree: 12%
 
    ![](assets/preparing_delivery_3.png)
 
-1. 在確認傳送訊息之前，請檢查準備統計資料。 如果要傳送的訊息數量不符合您的設定，請編輯目標母體(請參閱 [在訊息中選取對象](../../audiences/using/selecting-an-audience-in-a-message.md))並重新啟動準備作業。
+1. 在確認傳送訊息之前，請檢查準備統計資料。 如果要傳送的訊息數未與您的設定相對應，請編輯目標母體(請參閱 [在訊息中選取對象](../../audiences/using/selecting-an-audience-in-a-message.md))並重新啟動準備作業。
 
-完成準備工作後，您的訊息就可供傳送。 如需詳細資訊，請參閱 [確認傳送](../../sending/using/confirming-the-send.md).
+完成準備工作後，即可傳送您的訊息。 有關詳細資訊，請參閱 [確認傳送](../../sending/using/confirming-the-send.md).
 
 **類型規則**
 
-Adobe Campaign隨附一組內建型別規則，這些規則會在訊息準備期間套用。 它們用於檢查訊息是否有效並符合您的品質條件。 另請參閱 [型別](../../sending/using/about-typology-rules.md). 例如，您可以定義自己的型別規則，並設定全域跨管道疲勞規則，以自動從行銷活動中排除過度請求的設定檔。 請參閱[疲勞規則](../../sending/using/fatigue-rules.md)。
+Adobe Campaign隨附一組內建型別規則，這些規則會在訊息準備期間套用。 它們用於檢查訊息是否有效並符合您的品質條件。 另請參閱 [型別](../../sending/using/about-typology-rules.md). 例如，您可以定義自己的型別規則，並設定全域跨頻道疲勞規則，以便自動將過度請求的設定檔從行銷活動中排除。 請參閱[疲勞規則](../../sending/using/fatigue-rules.md)。
 
 **簡訊檢查**
 
 如果您已將個人化欄位或條件文字插入SMS訊息的內容，則這些因素可能會引進GSM編碼未考慮的字元。 執行準備作業時，會監控訊息長度，如果超過限制，則會顯示警告訊息。
 
-如需詳細資訊，請參閱 [SMS編碼、長度和音譯](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration) 和 [個人化簡訊訊息](../../channels/using/personalizing-sms-messages.md) 區段。
+有關詳細資訊，請參閱 [SMS編碼、長度和音譯](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration) 和 [個人化簡訊訊息](../../channels/using/personalizing-sms-messages.md) 區段。

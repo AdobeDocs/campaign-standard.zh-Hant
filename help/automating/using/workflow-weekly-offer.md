@@ -16,7 +16,7 @@ ht-degree: 81%
 
 ---
 
-# 建立每星期二傳送的電子郵件{#creating-email-every-tuesday}
+# 建立每個星期二的電子郵件傳送{#creating-email-every-tuesday}
 
 您可以每星期二寄電子郵件給所有客戶，以獲得特別優惠。
 
@@ -67,4 +67,4 @@ ht-degree: 81%
 
 **相關主題：**
 
-* [電子郵件通道](../../channels/using/creating-an-email.md)
+* [電子郵件管道](../../channels/using/creating-an-email.md)

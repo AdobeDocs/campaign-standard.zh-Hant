@@ -20,9 +20,9 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->Audience Destinations Service目前為測試版，可能會經常更新，恕不另行通知。 客戶必須在Azure上託管（目前僅北美地區適用Beta版）才能存取這些功能。 如果您想要存取許可權，請聯絡Adobe客戶服務。
+>Audience Destinations Service目前為測試版，可能會經常更新，恕不另行通知。 客戶需在Azure上代管（目前僅限北美地區使用Beta版）才能存取這些功能。 如果您想要存取許可權，請聯絡Adobe客戶服務。
 
-## 存取Adobe Experience Platform對象
+## 存取Adobe Experience Platform受眾
 
 若要存取Adobe Experience Platform區段產生器，請導覽至 **[!UICONTROL Audiences]** Campaign Standard首頁上的卡片(或 **[!UICONTROL Audiences]** 連結)，然後選取 **[!UICONTROL Adobe Experience Platform]** 環境。
 
@@ -38,7 +38,7 @@ ht-degree: 3%
 
 若要直接在Campaign Standard中建立Adobe Experience Platform對象，請遵循下列步驟：
 
-1. 從Adobe Experience Platform區段清單頁面，按一下 **[!UICONTROL New audience]** 按鈕。
+1. 從Adobe Experience Platform區段清單頁面，按一下 **[!UICONTROL New audience]** 按鈕位於右角。
 
    ![](assets/aep_audiences_creation_create.png)
 
@@ -54,18 +54,18 @@ ht-degree: 3%
 
    ![](assets/aep_audiences_mergepolicy.png)
 
-1. 定義可識別要在對象中擷取的設定檔的規則。
+1. 定義規則，用於識別將在對象中擷取的設定檔。
 
    若要這麼做，請從左側窗格將所需的屬性和/或事件拖曳至工作區，定義對應的規則，然後按一下 **[!UICONTROL Create segment]** 按鈕以儲存區段(請參閱 [使用區段產生器](../../integrating/using/aep-using-segment-builder.md))。
 
    ![](assets/aep_audiences_creation_query.png)
 
-對象現在已準備好啟動，您可以將其用作行銷活動的目標(請參閱 [鎖定目標Adobe Experience Platform對象](../../integrating/using/aep-targeting-audiences.md))。
+對象現在已準備好啟動，您可以將其用作行銷活動的目標(請參閱 [鎖定Adobe Experience Platform受眾](../../integrating/using/aep-targeting-audiences.md))。
 
 ## 編輯對象
 
-若要編輯對象，請開啟對象，並視需要在「區段產生器」介面中修改規則(請參閱 [使用區段產生器](../../integrating/using/aep-using-segment-builder.md))。
+若要編輯對象，請開啟該對象，並視需要在「區段產生器」介面中修改規則(請參閱 [使用區段產生器](../../integrating/using/aep-using-segment-builder.md))。
 
-完成變更後，按一下 **[!UICONTROL Save segment]** 按鈕來更新您的對象。
+完成變更後，按一下 **[!UICONTROL Save segment]** 按鈕以更新您的對象。
 
 ![](assets/aep_audiences_editing.png)

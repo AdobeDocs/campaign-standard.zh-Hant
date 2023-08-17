@@ -1,5 +1,5 @@
 ---
-title: 資料模型landingPage
+title: 資料模型登陸頁面
 description: 瞭解資料模型
 audience: designing
 content-type: reference
@@ -101,7 +101,7 @@ ht-degree: 8%
       </tr>
       <tr>
          <td>cryptKey</td>
-         <td>AES加密金鑰</td>
+         <td>aes加密金鑰</td>
          <td>字串(64)</td>
          <td> </td>
       </tr>
@@ -126,17 +126,17 @@ ht-degree: 8%
                <li>英文（美國） - en_US - en_US</li>
                <li>愛爾蘭文 — ga - ga</li>
                <li>捷克文 — cs - cs</li>
-               <li>愛沙尼亞文 — 東部時間 — 東部時間</li>
-               <li>印尼 — id - id</li>
+               <li>愛沙尼亞文 — et - et</li>
+               <li>印尼文 — id - id</li>
                <li>西班牙文 — es - es</li>
                <li>俄文 — ru - ru</li>
                <li>荷蘭文 — nl - nl</li>
-               <li>瓦隆文 — 瓦 — 瓦</li>
+               <li>瓦隆 — 瓦 — 瓦</li>
                <li>葡萄牙文 — pt - pt</li>
                <li>法文（比利時） - fr_BE - fr_BE</li>
                <li>拉脫維亞文 — lv - lv</li>
                <li>立陶宛文 — lt - lt</li>
-               <li>泰文 — th - th</li>
+               <li>泰文 — th -th</li>
                <li>英文（英國） - en_GB - en_GB</li>
                <li>法文 — fr - fr</li>
                <li>葡萄牙文（巴西） - pt_BR - pt_BR</li>
@@ -151,7 +151,7 @@ ht-degree: 8%
                <li>瑞典文 — sv - sv</li>
                <li>瑞典（瑞典文） - sv_SE - sv_SE</li>
                <li>斯洛伐克文 — sk - sk</li>
-               <li>馬爾他文 — 北美山區時間 — 北美山區時間</li>
+               <li>馬爾他文 — mt - mt</li>
                <li>義大利文（瑞士） - it_CH - it_CH</li>
                <li>波蘭文 — pl - pl</li>
                <li>斯洛維尼亞文 — sl - sl</li>
@@ -172,7 +172,7 @@ ht-degree: 8%
          <td> </td>
       </tr>
       <tr>
-         <td>設計語言</td>
+         <td>designlanguage</td>
          <td>設計語言</td>
          <td>分項清單（字串） (255)</td>
          <td>
@@ -192,17 +192,17 @@ ht-degree: 8%
                <li>英文（美國） - en_US - en_US</li>
                <li>愛爾蘭文 — ga - ga</li>
                <li>捷克文 — cs - cs</li>
-               <li>愛沙尼亞文 — 東部時間 — 東部時間</li>
-               <li>印尼 — id - id</li>
+               <li>愛沙尼亞文 — et - et</li>
+               <li>印尼文 — id - id</li>
                <li>西班牙文 — es - es</li>
                <li>俄文 — ru - ru</li>
                <li>荷蘭文 — nl - nl</li>
-               <li>瓦隆文 — 瓦 — 瓦</li>
+               <li>瓦隆 — 瓦 — 瓦</li>
                <li>葡萄牙文 — pt - pt</li>
                <li>法文（比利時） - fr_BE - fr_BE</li>
                <li>拉脫維亞文 — lv - lv</li>
                <li>立陶宛文 — lt - lt</li>
-               <li>泰文 — th - th</li>
+               <li>泰文 — th -th</li>
                <li>英文（英國） - en_GB - en_GB</li>
                <li>法文 — fr - fr</li>
                <li>葡萄牙文（巴西） - pt_BR - pt_BR</li>
@@ -217,7 +217,7 @@ ht-degree: 8%
                <li>瑞典文 — sv - sv</li>
                <li>瑞典（瑞典文） - sv_SE - sv_SE</li>
                <li>斯洛伐克文 — sk - sk</li>
-               <li>馬爾他文 — 北美山區時間 — 北美山區時間</li>
+               <li>馬爾他文 — mt - mt</li>
                <li>義大利文（瑞士） - it_CH - it_CH</li>
                <li>波蘭文 — pl - pl</li>
                <li>斯洛維尼亞文 — sl - sl</li>
@@ -275,7 +275,7 @@ ht-degree: 8%
       </tr>
       <tr>
          <td>isExternal</td>
-         <td>為外部資源</td>
+         <td>是外部資源</td>
          <td>布林值 </td>
          <td> </td>
       </tr>
@@ -373,7 +373,7 @@ ht-degree: 8%
          <td> </td>
       </tr>
       <tr>
-         <td>程式(programBase)</td>
+         <td>方案(programBase)</td>
          <td>方案</td>
          <td>連結 </td>
          <td> </td>
@@ -405,7 +405,7 @@ ht-degree: 8%
       <tr>
          <td>reconciliationUpdateStrategy</td>
          <td>更新策略</td>
-         <td>分項清單（位元） </td>
+         <td>分項清單（位元組） </td>
          <td>
             <ul>
                <li>更新 — updateTarget - 1</li>
@@ -423,7 +423,7 @@ ht-degree: 8%
       <tr>
          <td>specificAction</td>
          <td>特定動作</td>
-         <td>分項清單（位元） </td>
+         <td>分項清單（位元組） </td>
          <td>
             <ul>
                <li>黑名單 — 黑名單 — 3</li>
@@ -443,7 +443,7 @@ ht-degree: 8%
       <tr>
          <td>state</td>
          <td>狀態</td>
-         <td>分項清單（位元） </td>
+         <td>分項清單（位元組） </td>
          <td>
             <ul>
                <li>編輯 — 編輯 — 0</li>
@@ -455,7 +455,7 @@ ht-degree: 8%
          </td>
       </tr>
       <tr>
-         <td>目標資源</td>
+         <td>targetresource</td>
          <td>定位維度</td>
          <td>字串(255)</td>
          <td> </td>
@@ -504,19 +504,19 @@ ht-degree: 8%
                <li>(GMT+04:00)巴庫 — 亞洲_巴庫 — 亞洲/巴庫</li>
                <li>(GMT+10:00)海參威 — 亞洲_海參威 — 亞洲/海參威</li>
                <li>(GMT+09:00)首爾 — 亞洲_首爾 — 亞洲/首爾</li>
-               <li>(GMT+01:00)薩拉熱窩、斯科普列、索菲亞、華沙、薩格勒布 — 歐洲_薩拉熱窩 — 歐洲/薩拉熱窩</li>
+               <li>(GMT+01:00)塞拉耶佛、斯科普列、索菲亞、華沙、薩格勒布 — 歐洲_塞拉耶佛 — 歐洲/塞拉耶佛</li>
                <li>伺服器時區 — _server_ - _server_</li>
-               <li>(GMT+04:00)阿布扎比、馬斯喀特 — 亞洲_馬斯喀特 — 亞洲/馬斯喀特</li>
+               <li>(GMT+04:00)阿布達比、馬斯喀特 — 亞洲_馬斯喀特 — 亞洲/馬斯喀特</li>
                <li>(GMT+08:00)吉隆坡、新加坡 — 亞洲_吉隆坡 — 亞洲/吉隆坡</li>
                <li>(GMT+09:00)大阪、札幌、東京 — 亞洲_東京 — 亞洲/東京</li>
-               <li>(GMT+10:00)布里斯班 — 澳洲_布里斯班 — 澳洲/布里斯班</li>
+               <li>(GMT+10:00)布里斯本 — 澳洲_布里斯本 — 澳洲/布里斯本</li>
                <li>(GMT+05:30)斯里加亞華登尼普拉 — 亞洲_可倫坡 — 亞洲/可倫坡</li>
                <li>(GMT+02:00)哈拉雷、普利托里亞 — 非洲_哈拉雷 — 非洲/哈拉雷</li>
                <li>(GMT+08:00)烏蘭巴托 — 亞洲_烏蘭巴托 — 亞洲/烏蘭巴托</li>
                <li>(GMT-02:00)格林威治標準時間減2小時 — Gmt_m2 - Etc/GMT+2</li>
                <li>(GMT-03:00)格林威治標準時間減3小時 — Gmt_m3 - Etc/GMT+3</li>
-               <li>(GMT-01:00)格林威治標準時間 — 1小時 — Gmt_m1 - Etc/GMT+1</li>
-               <li>(GMT-06:00)格林威治標準時間 — 6小時 — Gmt_m6 - Etc/GMT+6</li>
+               <li>(GMT-01:00)格林威治標準時間減1小時 — Gmt_m1 - Etc/GMT+1</li>
+               <li>(GMT-06:00)格林威治標準時間減6小時 — Gmt_m6 - Etc/GMT+6</li>
                <li>(GMT-07:00)格林威治標準時間減7小時 — Gmt_m7 - Etc/GMT+7</li>
                <li>(GMT-04:00)格林威治標準時間減4小時 — Gmt_m4 - Etc/GMT+4</li>
                <li>(GMT)卡薩布蘭卡 — 非洲_卡薩布蘭卡 — 非洲/卡薩布蘭卡</li>
@@ -527,26 +527,26 @@ ht-degree: 8%
                <li>預設 — _inherit_ - _inherit_</li>
                <li>(GMT+03:00)格林威治標準時間加3小時 — Gmt_p3 - Etc/GMT-3</li>
                <li>(GMT-04:30)加拉加斯 — 美洲_加拉加斯 — 美洲/加拉加斯</li>
-               <li>(GMT+01:00)阿姆斯特丹、柏林、伯爾尼、羅馬、斯德哥爾摩、維也納 — 歐洲_柏林 — 歐洲/柏林</li>
-               <li>(GMT-07:00)奇瓦瓦、拉巴斯、馬薩特蘭 — 美洲_奇瓦瓦 — 美洲/奇瓦瓦</li>
+               <li>(GMT+01:00)阿姆斯特丹、柏林、伯恩、羅馬、斯德哥爾摩、維也納 — 歐洲_柏林 — 歐洲/柏林</li>
+               <li>(GMT-07:00)奇瓦瓦，拉巴斯，馬薩特蘭 — 美洲_奇瓦瓦 — 美洲/奇瓦瓦</li>
                <li>(GMT+03:00)奈洛比 — 非洲_奈洛比 — 非洲/奈洛比</li>
                <li>(GMT-04:00)亞松森 — 美洲_亞松森 — 美洲/亞松森</li>
                <li>(GMT+03:00)巴格達 — 亞洲_巴格達 — 亞洲/巴格達</li>
                <li>(GMT-10:00)格林威治標準時間減10小時 — Gmt_m10 - Etc/GMT+10</li>
                <li>(GMT-03:00)格陵蘭 — 美洲_哥特哈布 — 美洲/哥特哈布</li>
                <li>(GMT+02:00)達馬斯 — 亞洲_大馬士革 — 亞洲/大馬士革</li>
-               <li>(GMT-11:00)薩摩亞 — 太平洋_薩摩亞 — 太平洋/薩摩亞</li>
+               <li>(GMT-11:00)薩摩亞 — 太平洋薩摩亞 — 太平洋/薩摩亞</li>
                <li>(GMT-05:00)波哥大、利馬、基多 — 美洲_波哥大 — 美洲/波哥大</li>
                <li>(GMT+01:00)布魯塞爾、哥本哈根、馬德里、巴黎 — 歐洲_巴黎 — 歐洲/巴黎</li>
                <li>(GMT+08:00)北京、重慶、香港、烏魯木齊 — 亞洲_上海 — 亞洲/上海</li>
-               <li>(GMT+12:00)菲德吉 — 太平洋_斐濟 — 太平洋/斐濟</li>
-               <li>(GMT+02:00)雅典、伊斯坦布林、明斯克 — 歐洲_雅典 — 歐洲/雅典</li>
+               <li>(GMT+12:00)斐濟 — 太平洋_斐濟 — 太平洋/斐濟</li>
+               <li>(GMT+02:00)雅典、伊斯坦堡、明斯克 — 歐洲_雅典 — 歐洲/雅典</li>
                <li>(GMT+04:00)第比利斯 — 亞洲_第比利斯 — 亞洲/第比利斯</li>
                <li>無效值 — __Invalid_value__ - __Invalid_value__</li>
                <li>(GMT+05:45)加德滿都 — 亞洲_加德滿都 — 亞洲/加德滿都</li>
                <li>(GMT-05:00)印地安納州（東部） — 美洲_印地安納波利斯 — 美洲/印地安納波利斯</li>
                <li>(GMT-01:00)維德角群島 — 大西洋_維德角 — 大西洋/維德角</li>
-               <li>(GMT+04:00)路易港 — 印度洋_模里西斯 — 印度洋/模里西斯</li>
+               <li>(GMT+04:00)路易港 — 印度模里西斯 — 印度洋/模里西斯</li>
                <li>(GMT+08:00)台北 — 亞洲_台北 — 亞洲/台北</li>
                <li>資料庫的時區 — _wdbc_ - _wdbc_</li>
                <li>(GMT+06:30)仰光 — 亞洲_仰光 — 亞洲/仰光</li>
@@ -561,16 +561,16 @@ ht-degree: 8%
                <li>運運算元時區 — _login_ - _login_</li>
                <li>(GMT-06:00)瓜達拉哈拉，墨西哥，蒙特雷 — 美洲_墨西哥城 — 美洲/墨西哥城</li>
                <li>(GMT+09:30)達爾文 — 澳洲_達爾文 — 澳洲/達爾文</li>
-               <li>(GMT-05:00)東部標準時間（美國和加拿大） — 美洲_紐約 — 美洲/紐約</li>
+               <li>(GMT-05:00)東部時間（美國和加拿大） — 美洲/紐約 — 美洲/紐約</li>
                <li>(GMT-05:00)格林威治標準時間減5小時 — Gmt_m5 - Etc/GMT+5</li>
                <li>(GMT+05:00)伊斯蘭堡、喀拉蚩、塔肯特 — 亞洲_喀拉蚩 — 亞洲/喀拉蚩</li>
-               <li>(GMT+03:00)科威耶、利雅德 — 亞洲_利雅德 — 亞洲/利雅德</li>
+               <li>(GMT+03:00)科韋特、利雅德 — 亞洲_利雅德 — 亞洲/利雅德</li>
                <li>(GMT-08:00)格林威治標準時間減8小時 — Gmt_m8 - Etc/GMT+8</li>
                <li>(GMT-01:00)亞速爾群島 — 大西洋_亞速爾群島 — 大西洋/亞速爾群島</li>
                <li>(GMT+07:00)曼谷、河內、雅加達 — 亞洲_曼谷 — 亞洲/曼谷</li>
                <li>(GMT)蒙羅維亞 — 非洲_蒙羅維亞 — 非洲/蒙羅維亞</li>
-               <li>(GMT-09:00)阿拉斯加 — 美洲_安克雷奇 — 美洲/安克雷奇</li>
-               <li>(GMT+01:00)貝爾格萊德、布拉迪斯拉發、布達佩斯、盧布林雅那、布拉格 — 歐洲_貝爾格萊德 — 歐洲/貝爾格萊德</li>
+               <li>(GMT-09:00)阿拉斯加 — 美洲_安克拉治 — 美洲/安克拉治</li>
+               <li>(GMT+01:00)貝爾格萊德、布拉提斯拉瓦、布達佩斯、盧比安納、布拉格 — 歐洲_貝爾格萊德 — 歐洲/貝爾格萊德</li>
                <li>(GMT)雷克雅未克 — 大西洋_雷克雅未克 — 大西洋/雷克雅未克</li>
                <li>(GMT+02:00)布加勒斯特 — 歐洲_布加勒斯特 — 歐洲/布加勒斯特</li>
                <li>(GMT+05:00)格林威治標準時間加5小時 — Gmt_p5 - Etc/GMT-5</li>
@@ -626,7 +626,7 @@ ht-degree: 8%
       <tr>
          <td>類型</td>
          <td>類型</td>
-         <td>分項清單（位元） </td>
+         <td>分項清單（位元組） </td>
          <td>
             <ul>
                <li>一般 — 一般 — 0</li>
@@ -645,7 +645,7 @@ ht-degree: 8%
          <td> </td>
       </tr>
       <tr>
-         <td>webTrackingEnabled</td>
+         <td>Webtrackingenabled</td>
          <td>啟用網頁追蹤</td>
          <td>布林值 </td>
          <td> </td>
@@ -680,7 +680,7 @@ ht-degree: 8%
     </tr>
 </table>
 
-依狀態（依州）
+依狀態(byState)
 
 <table>
     <tr>
@@ -701,12 +701,12 @@ ht-degree: 8%
 <th>類型</th>
 </tr>
 <tr>
-<td>目標資源</td>
+<td>targetresource</td>
 <td>字串</td>
 </tr>
 </table>
 
-包含進階登陸頁面（含Advanced）
+包含進階登陸頁面（含進階）
 
 <table>
     <tr>
@@ -719,7 +719,7 @@ ht-degree: 8%
     </tr>
 </table>
 
-包含來自異質清單的連續傳遞（使用Continuous）
+包含來自異質性清單的持續傳遞（使用Continuous）
 
 <table>
         <tr>
@@ -732,7 +732,7 @@ ht-degree: 8%
         </tr>
     </table>
 
-在指定期間內存在（依行事曆）
+在指定期間顯示(byCalendar)
 
 <table>
         <tr>
@@ -749,7 +749,7 @@ ht-degree: 8%
         </tr>
     </table>
 
-在指定期間發佈(byPlanning)
+在指定期間發佈（由Planning）
 
 <table>
     <tr>

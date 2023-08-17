@@ -27,7 +27,7 @@ ht-degree: 24%
 
    ![](assets/in_app_personal_data_4.png)
 
-1. 在 **[!UICONTROL Fields]** 的類別 **[!UICONTROL Data structure]** 索引標籤中，按一下「 」以定義您要從行動應用程式中擷取的客戶資料 **[!UICONTROL Add field]** 按鈕。
+1. 在 **[!UICONTROL Fields]** 的類別 **[!UICONTROL Data structure]** 索引標籤上，按一下「 」以定義您要從行動應用程式中擷取的客戶資料 **[!UICONTROL Add field]** 按鈕。
 
    >[!NOTE]
    >
@@ -39,9 +39,9 @@ ht-degree: 24%
 
    ![](assets/schema_extension_uc9.png)
 
-1. 在 **[!UICONTROL Link to profiles]** 類別，設定用來從Adobe Campaign資料庫將設定檔連結至應用程式訂閱者的調解金鑰，例如電子郵件。
+1. 在 **[!UICONTROL Link to profiles]** 類別，設定用於從Adobe Campaign資料庫將設定檔連結至您應用程式訂閱者的調解金鑰，例如電子郵件。
 
-   請注意，對於應用程式內訊息，您只能為所有行動應用程式定義一個調解金鑰。
+   請注意，您只能針對應用程式內訊息為所有行動應用程式定義一個調解金鑰。
 
    ![](assets/in_app_personal_data_3.png)
 

@@ -1,6 +1,6 @@
 ---
 title: 關於資料管理活動
-description: 可從畫面左側使用資料管理活動。
+description: 可從熒幕左側使用資料管理活動。
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
@@ -19,7 +19,7 @@ ht-degree: 55%
 
 從浮動視窗的畫面左側展開 **[!UICONTROL Data management (ETL)]** 區段。
 
-這些活動可讓您操控資料。 例如，它們可讓您匯入資料、對資料庫欄位執行大量更新、接收或傳送檔案，或將未識別的資料連結至現有資源。
+這些活動可讓您操控資料。 例如，它們可讓您匯入資料、對資料庫欄位執行大量更新、接收或傳送檔案，或將未識別的資料連結到現有資源。
 
 ![](assets/wkf_etl_activities.png)
 

@@ -1,6 +1,6 @@
 ---
 title: 追蹤指標
-description: 使用追蹤指標現成可用的報告，瞭解客戶在收到電子郵件訊息時的行為。
+description: 使用追蹤指標現成可用的報表，瞭解客戶在收到電子郵件訊息時的行為。
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -26,9 +26,9 @@ ht-degree: 2%
 
 ![](assets/delivery_reports_2.png)
 
-此 **[!UICONTROL Tracking indicators]** 表格和 **前5項傳遞** 圖表包含可用於電子郵件追蹤的資料，例如：
+此 **[!UICONTROL Tracking indicators]** 表格和 **前5名傳遞** 圖表包含可用於電子郵件追蹤的資料，例如：
 
-* **[!UICONTROL Delivered]**：成功傳送的訊息數。 產生的錯誤（跳出）會納入考量。 不過，系統不會考慮申訴（垃圾郵件宣告）和離開訊息，例如「不在辦公室」。
+* **[!UICONTROL Delivered]**：成功傳送的訊息數。 產生的錯誤（退信）會納入考量。 但是，申訴（垃圾訊息宣告）和離開訊息（例如「不在辦公室」）不會考慮在內。
 * **開啟**：在傳遞中開啟訊息的次數。
 * **按一下**：內容在傳遞中的點按次數。
 * **已取消訂閱**：對訂閱連結的點按次數。

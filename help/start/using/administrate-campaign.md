@@ -1,13 +1,13 @@
 ---
 title: 自訂清單
-description: 「瞭解如何在Adobe Campaign Standard中自訂顯示並在清單熒幕上動作：排序、篩選、刪除或複製元素。 清單畫面會顯示一或多個指定資源的元素。」
+description: 「瞭解如何在Adobe Campaign Standard中自訂顯示並在清單熒幕上操作：排序、篩選、刪除或複製元素。 列出畫面會顯示一或多個指定資源的元素。」
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '295'
-ht-degree: 18%
+ht-degree: 21%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 18%
 
 <img width="60px" alt="條件" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭原位，毛利紫羅蘭，不配配牙紅葡萄酒id。 整數luctus blandit ligula。 烏龜車，麗紋蛇。 Nunc pharetra fringilla enim eu suscipit. 莫里斯連續最高可達euismod 無痕小車。 埃尼安·特利烏斯·誇姆、三合一·奎斯·里薩斯·consectetur、普維納爾·艾萊門圖姆·杜伊。
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭預留位置mauris libero，非牙形犀牛ID。 整數luctus blandit ligula。 烏龜車，乳齒蛇。 Nunc pharetra fringilla enim eu suscipit. 毛利群島最高峰。 無痕小車。 江南黃瓜、三叉鯛、紫荊花。
 
 **深入了解**
 
@@ -52,7 +52,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭原位，毛利�
 
 <img width="60px" alt="條件" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭原位，毛利紫羅蘭，不配配牙紅葡萄酒id。 整數luctus blandit ligula。 烏龜車，麗紋蛇。 Nunc pharetra fringilla enim eu suscipit. 莫里斯連續最高可達euismod 無痕小車。 埃尼安·特利烏斯·誇姆、三合一·奎斯·里薩斯·consectetur、普維納爾·艾萊門圖姆·杜伊。
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭預留位置mauris libero，非牙形犀牛ID。 整數luctus blandit ligula。 烏龜車，乳齒蛇。 Nunc pharetra fringilla enim eu suscipit. 毛利群島最高峰。 無痕小車。 江南黃瓜、三叉鯛、紫荊花。
 
 **深入了解**
 
@@ -63,7 +63,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭原位，毛利�
 
 <img width="60px" alt="條件" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭原位，毛利紫羅蘭，不配配牙紅葡萄酒id。 整數luctus blandit ligula。 烏龜車，麗紋蛇。 Nunc pharetra fringilla enim eu suscipit. 莫里斯連續最高可達euismod 無痕小車。 埃尼安·特利烏斯·誇姆、三合一·奎斯·里薩斯·consectetur、普維納爾·艾萊門圖姆·杜伊。
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭預留位置mauris libero，非牙形犀牛ID。 整數luctus blandit ligula。 烏龜車，乳齒蛇。 Nunc pharetra fringilla enim eu suscipit. 毛利群島最高峰。 無痕小車。 江南黃瓜、三叉鯛、紫荊花。
 
 **深入了解**
 
@@ -74,7 +74,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭原位，毛利�
 
 <img width="60px" alt="條件" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭原位，毛利紫羅蘭，不配配牙紅葡萄酒id。 整數luctus blandit ligula。 烏龜車，麗紋蛇。 Nunc pharetra fringilla enim eu suscipit. 莫里斯連續最高可達euismod 無痕小車。 埃尼安·特利烏斯·誇姆、三合一·奎斯·里薩斯·consectetur、普維納爾·艾萊門圖姆·杜伊。
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭預留位置mauris libero，非牙形犀牛ID。 整數luctus blandit ligula。 烏龜車，乳齒蛇。 Nunc pharetra fringilla enim eu suscipit. 毛利群島最高峰。 無痕小車。 江南黃瓜、三叉鯛、紫荊花。
 
 **深入了解**
 

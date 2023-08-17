@@ -19,6 +19,6 @@ ht-degree: 19%
 
 目標對應是Campaign用來傳遞訊息的技術物件。 它們包含傳送傳遞內容所需的所有技術設定（地址、電話號碼、選擇加入指標、其他識別碼……）。
 
-管理員可以存取以下位置中的目標對應： **[!UICONTROL Administration > Application settings > Target mappings]** 功能表。
+管理員可存取以下位置中的目標對應： **[!UICONTROL Administration > Application settings > Target mappings]** 功能表。
 
-目標對應建立或修改可涵蓋特定需求。 無論如何，其目標維度應一律對應至設定檔( **[!UICONTROL nms:recipient]** 表格)。 有關目標維度的詳細資訊，請參見[此頁面](../../automating/using/query.md#targeting-dimensions-and-resources)。
+您可以建立或修改目標對應，以滿足特定需求。 無論如何，其目標維度應一律對應至設定檔( **[!UICONTROL nms:recipient]** 表格)。 有關目標維度的詳細資訊，請參見[此頁面](../../automating/using/query.md#targeting-dimensions-and-resources)。

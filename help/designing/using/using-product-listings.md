@@ -22,7 +22,7 @@ ht-degree: 79%
 >
 >產品清單僅適用於 **異動電子郵件訊息** 透過 [電子郵件設計工具](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface) 介面。
 
-編輯交易式電子郵件的內容時，您可以建立參考一或多個資料集合的產品清單。 例如，在購物車放棄電子郵件中，您可以包含使用者離開網站時購物車中的所有產品清單，以及每個產品的影像、價格和連結。
+編輯交易式電子郵件的內容時，您可以建立參考一或多個資料集合的產品清單。 例如，在購物車放棄率電子郵件中，您可以加入使用者離開網站時購物車中的所有產品清單，其中會包含每個產品的影像、價格和連結。
 
 若要在交易式訊息中新增放棄的產品清單，請遵循以下步驟。
 
@@ -37,9 +37,9 @@ ht-degree: 79%
 您必須先在事件層級中定義產品清單以及您想要顯示清單中各產品的欄位，才能在交易式訊息中使用產品清單。如需詳細資訊，請參閱「[定義資料集合](../../channels/using/configuring-transactional-event.md#defining-data-collections)」。
 
 1. 在交易式訊息中，按一下 **[!UICONTROL Content]** 區塊以修改電子郵件內容。
-1. 將結構元件拖放至工作區。如需詳細資訊，請參閱 [定義電子郵件結構](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+1. 將結構元件拖放至工作區。有關詳細資訊，請參閱 [定義電子郵件結構](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
-   例如，選取單欄結構元件並新增文字元件、影像元件及按鈕元件。如需詳細資訊，請參閱 [使用內容元件](../../designing/using/designing-from-scratch.md#about-content-components).
+   例如，選取單欄結構元件並新增文字元件、影像元件及按鈕元件。有關詳細資訊，請參閱 [使用內容元件](../../designing/using/designing-from-scratch.md#about-content-components).
 
 1. 選取您剛剛建立的結構元件，然後按一下內容工具列中的 **[!UICONTROL Enable product listing]** 圖示。
 
@@ -56,7 +56,7 @@ ht-degree: 79%
 
    >[!NOTE]
    >
-   >只有使用多欄結構元件時，才可使用　**[!UICONTROL Column]**　選項（**[!UICONTROL 2:2 column]**、**[!UICONTROL 3:3 column]** 及 **[!UICONTROL 4:4 column]**）。編輯產品清單時，僅填入第一欄：不會將其他欄納入考量。如需選取結構元件的詳細資訊，請參閱 [定義電子郵件結構](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+   >只有使用多欄結構元件時，才可使用　**[!UICONTROL Column]**　選項（**[!UICONTROL 2:2 column]**、**[!UICONTROL 3:3 column]** 及 **[!UICONTROL 4:4 column]**）。編輯產品清單時，僅填入第一欄：不會將其他欄納入考量。有關選取結構元件的詳細資訊，請參閱 [定義電子郵件結構](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
 1. 選取您在設定與交易式訊息相關之事件時建立的資料集合。您可以在 **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** 節點下方找到該集合。
 
@@ -127,9 +127,9 @@ ht-degree: 79%
 
    ![](assets/message-center_loop_fallback.png)
 
-   如果集合在觸發事件時為空白（例如，如果客戶的購物車中沒有任何專案），則會顯示備援內容。
+   如果集合在觸發事件（例如客戶購物車中沒有任何專案）時為空白，則會顯示後援內容。
 
-1. 在「設定」窗格中，編輯產品清單的樣式。如需詳細資訊，請參閱 [管理電子郵件樣式](../../designing/using/styles.md).
+1. 在「設定」窗格中，編輯產品清單的樣式。有關詳細資訊，請參閱 [管理電子郵件樣式](../../designing/using/styles.md).
 1. 使用連結至相關交易式事件且您為其定義集合資料的測試設定檔，以預覽電子郵件。例如，在您要使用之測試設定檔的 **[!UICONTROL Event data]** 區段中新增下列資訊：
 
    ![](assets/message-center_loop_test-profile_payload.png)

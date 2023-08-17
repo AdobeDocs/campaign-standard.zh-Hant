@@ -25,11 +25,11 @@ ht-degree: 1%
 >
 >一律使用中傳回的URL值 **下一個** 節點，以執行分頁要求。
 >
->此 **_lineStart** 會計算請求，且必須一律用於 **下一個** 節點。
+>此 **_lineStart** 要求已計算且必須一律用於 **下一個** 節點。
 
 <br/>
 
-***範例請求***
+***範例要求***
 
 顯示設定檔資源1個記錄的範例GET要求。
 
@@ -41,7 +41,7 @@ ht-degree: 1%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-使用對請求的回應 **下一個** 節點以執行分頁。
+使用回應要求 **下一個** 節點以執行分頁。
 
 ```
 {
@@ -62,7 +62,7 @@ ht-degree: 1%
 }
 ```
 
-根據預設， **下一個** 節點在與具有大量資料的表格互動時無法使用。 若要執行分頁，您必須新增 **_forcePagination=true** 引數至呼叫URL。
+根據預設， **下一個** 與含有大量資料的表格互動時，節點不可用。 若要執行分頁，您必須新增 **_forcePagination=true** 引數至您的呼叫URL。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_forcePagination=true \
@@ -74,4 +74,4 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->表格被視為大型的記錄數會定義在Campaign Standard中 **XtkBigTableThreshold** 選項。 預設值為100,000筆記錄。
+>在Campaign Standard中會定義表格被視為大型的記錄數 **XtkBigTableThreshold** 選項。 預設值為100,000筆記錄。

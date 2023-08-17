@@ -29,39 +29,39 @@ ht-degree: 13%
 
 * 開始
 * 暫停
-* 繼續
+* 恢復
 * 停止
 
 如需執行命令的詳細資訊，請參閱 [Campaign檔案](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/about-workflow-execution.html).
 
 <br/>
 
-***範例請求***
+***範例要求***
 
 * 開始工作流程.
 
-   ```
-   -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>/commands \
-   -H 'Content-Type: application/json' \
-   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-   -H 'Cache-Control: no-cache' \
-   -H 'X-Api-Key: <API_KEY>' \
-   -i
-   -d '{"method":"start"}'
-   ```
+  ```
+  -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>/commands \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+  -H 'Cache-Control: no-cache' \
+  -H 'X-Api-Key: <API_KEY>' \
+  -i
+  -d '{"method":"start"}'
+  ```
 
-   <!-- + réponse -->
+  <!-- + réponse -->
 
 * 停止工作流程。
 
-   ```
-   -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>/commands \
-   -H 'Content-Type: application/json' \
-   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-   -H 'Cache-Control: no-cache' \
-   -H 'X-Api-Key: <API_KEY>' \
-   -i
-   -d '{"method":"stop"}'
-   ```
+  ```
+  -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>/commands \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+  -H 'Cache-Control: no-cache' \
+  -H 'X-Api-Key: <API_KEY>' \
+  -i
+  -d '{"method":"stop"}'
+  ```
 
-   <!-- + réponse -->
+  <!-- + réponse -->

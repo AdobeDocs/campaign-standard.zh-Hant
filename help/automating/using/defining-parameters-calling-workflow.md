@@ -21,7 +21,7 @@ ht-degree: 13%
 
 在定義引數之前，請確定：
 
-* 引數已在以下連結中宣告： **[!UICONTROL External Signal]** 活動。 請參閱[此頁面](../../automating/using/declaring-parameters-external-signal.md)。
+* 這些引數已在以下連結中宣告： **[!UICONTROL External Signal]** 活動。 請參閱[此頁面](../../automating/using/declaring-parameters-external-signal.md)。
 * 包含訊號活動的工作流程正在執行。
 
 若要設定 **[!UICONTROL End]** 活動，請遵循下列步驟：
@@ -30,8 +30,8 @@ ht-degree: 13%
 1. 選取您要呼叫的工作流程和外部訊號活動。
 1. 按一下 **[!UICONTROL Create element]** 按鈕以新增引數，然後填寫其名稱和值。
 
-   * **[!UICONTROL Name]**：在中宣告的名稱 **[!UICONTROL External signal]** 活動(請參閱 [此頁面](../../automating/using/declaring-parameters-external-signal.md))。
-   * **[!UICONTROL Value]**：您要指派給引數的值。 值應遵循 **標準語法**，詳見 [本節](../../automating/using/advanced-expression-editing.md#standard-syntax).
+   * **[!UICONTROL Name]**：已在中宣告的名稱 **[!UICONTROL External signal]** 活動(請參閱 [此頁面](../../automating/using/declaring-parameters-external-signal.md))。
+   * **[!UICONTROL Value]**：您要指派給引數的值。 值應遵循 **標準語法**，如所述 [本節](../../automating/using/advanced-expression-editing.md#standard-syntax).
 
    ![](assets/extsignal_definingparameters_2.png)
 

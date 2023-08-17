@@ -45,25 +45,27 @@ ht-degree: 100%
 
       * **[!UICONTROL Replace audience content with new data]**：會取代整個對象內容。遺失舊資料。僅保留儲存對象活動之入站轉變的資料。
       * **[!UICONTROL Complete audience with new data]**：保留舊的對象資料，並新增儲存對象活動入站轉變的資料。
+
    * **[!UICONTROL Create then update an audience]**：輸入對象名稱並選取更新類型。如果對象尚未存在，則會建立對象。若已存在，則會根據所選模式更新：
 
       * **[!UICONTROL Replace audience content with new data]**：會取代整個對象內容。遺失舊資料。僅保留儲存對象活動之入站轉變的資料。
 
-         警告：此選項會清除已更新對象的對象類型和目標定位維度。
+        警告：此選項會清除已更新對象的對象類型和目標定位維度。
 
       * **[!UICONTROL Complete audience with new data]**：保留舊的對象資料，並新增儲存對象活動入站轉變的資料。
 
-         警告：如果更新對象的對象類型或目標維度與工作流程的目前設定不相容，此選項會造成錯誤。例如，您無法使用來自查詢的設定檔以完成檔案類型對象。
+        警告：如果更新對象的對象類型或目標維度與工作流程的目前設定不相容，此選項會造成錯誤。例如，您無法使用來自查詢的設定檔以完成檔案類型對象。
+
    * **[!UICONTROL Create a new audience]**：輸入要建立的對象名稱。建立對象的時間和日期會自動新增至對象名稱。如此一來，每次執行工作流程時，對象都會是唯一的。
    * **[!UICONTROL Share in Adobe Experience Cloud]**：如果您有目標設定檔，而且您想要將對象匯出至 Adobe Experience Cloud，請選取此選項，然後選取現有的共用對象或建立新對象。
 
-      同時選取與對象中所含資料之資源相對應的 **[!UICONTROL Shared Data source]**，以便在 Adobe Experience Cloud 中正確調解資料。
+     同時選取與對象中所含資料之資源相對應的 **[!UICONTROL Shared Data source]**，以便在 Adobe Experience Cloud 中正確調解資料。
 
-      使用此選項，共用的對象不會新增至 **[!UICONTROL Audiences]** 功能表中可用的 Adobe Campaign 對象清單。
+     使用此選項，共用的對象不會新增至 **[!UICONTROL Audiences]** 功能表中可用的 Adobe Campaign 對象清單。
 
-      >[!NOTE]
-      >
-      >只有在管理員已設定 Adobe Experience Cloud 的共用對象功能時，才可使用此選項。如需詳細資訊，請參閱[使用 Campaign 及 People Core Service](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)。
+     >[!NOTE]
+     >
+     >只有在管理員已設定 Adobe Experience Cloud 的共用對象功能時，才可使用此選項。如需詳細資訊，請參閱[使用 Campaign 及 People Core Service](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)。
 
    更新期間儲存或可用的對象類型會視工作流程上游的活動而定。
 

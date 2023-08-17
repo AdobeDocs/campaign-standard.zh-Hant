@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 在外部訊號活動中宣告引數 {#declaring-the-parameters-in-the-external-signal-activity}
 
-使用引數呼叫工作流程的第一步，是在中宣告它們 **[!UICONTROL External signal]** 活動。
+使用引數呼叫工作流程的第一步是在 **[!UICONTROL External signal]** 活動。
 
 1. 開啟 **[!UICONTROL External signal]** 活動，然後選取 **[!UICONTROL Parameters]** 標籤。
 1. 按一下 **[!UICONTROL Create element]** 按鈕，然後指定每個引數的名稱和型別。

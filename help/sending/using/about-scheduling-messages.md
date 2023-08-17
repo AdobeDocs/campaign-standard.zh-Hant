@@ -29,17 +29,17 @@ ht-degree: 100%
 
 * **[!UICONTROL Messages to be sent once confirmed]**：訊息會在確認傳送後立即傳送。請參閱[確認傳送](../../sending/using/confirming-the-send.md)。
 
-   ![](assets/delivery_planning_1.png)
+  ![](assets/delivery_planning_1.png)
 
 * **[!UICONTROL Messages to be sent automatically on the date specified below]**：訊息將在稍後日期及時間傳送。在 **tart sending from** 欄位中指定&#x200B;**聯絡日期**。
 
-   您可以準備並確認傳送，但訊息只會從選取的日期和時間開始傳送。準備和確認傳送會顯示在[準備傳送](../../sending/using/preparing-the-send.md)及[確認傳送](../../sending/using/confirming-the-send.md)區段。
+  您可以準備並確認傳送，但訊息只會從選取的日期和時間開始傳送。準備和確認傳送會顯示在[準備傳送](../../sending/using/preparing-the-send.md)及[確認傳送](../../sending/using/confirming-the-send.md)區段。
 
-   **[!UICONTROL Time zone of the contact date]** 下拉式清單可讓您修改要考慮傳送時間的時區。例如，如果您在　**[!UICONTROL Start sending from]**　欄位中輸入9:00 Am，而您在　　下拉式清單中選取&#x200B;**[!UICONTROL Time zone of the contact date]**　下拉式清單中選取 Brussels, Copenhagen, Madrid, Paris (GMT+1)，則所有收件者都會在巴黎時間上午　9:00　收到訊息。因此，位於莫斯科的收件者　(GMT+3)　將於莫斯科時間上午　11:00　收到此訊息。
+  **[!UICONTROL Time zone of the contact date]** 下拉式清單可讓您修改要考慮傳送時間的時區。例如，如果您在　**[!UICONTROL Start sending from]**　欄位中輸入9:00 Am，而您在　　下拉式清單中選取&#x200B;**[!UICONTROL Time zone of the contact date]**　下拉式清單中選取 Brussels, Copenhagen, Madrid, Paris (GMT+1)，則所有收件者都會在巴黎時間上午　9:00　收到訊息。因此，位於莫斯科的收件者　(GMT+3)　將於莫斯科時間上午　11:00　收到此訊息。
 
-   如果您想要手動確認傳送，請核取 **[!UICONTROL Request confirmation before sending messages]** 選項。依預設，會啟用此選項。
+  如果您想要手動確認傳送，請核取 **[!UICONTROL Request confirmation before sending messages]** 選項。依預設，會啟用此選項。
 
-   ![](assets/delivery_planning.png)
+  ![](assets/delivery_planning.png)
 
 >[!IMPORTANT]
 >

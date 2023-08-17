@@ -37,38 +37,38 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->如果您編輯 **[!UICONTROL Plain text]** 版本進行更新，但下次您啟用 **[!UICONTROL Sync with HTML]** 選項，您在純文字版本中所做的所有變更都將以HTML版本取代。 在中進行的變更 **[!UICONTROL Plain text]** 檢視無法反映在 **[!UICONTROL HTML]** 檢視。
+>如果您編輯 **[!UICONTROL Plain text]** 版本，當您下次啟用 **[!UICONTROL Sync with HTML]** 選項，您以純文字版本進行的所有變更將會取代為HTML版本。 在中進行的變更 **[!UICONTROL Plain text]** 檢視無法反映在 **[!UICONTROL HTML]** 檢視。
 
 ## 編輯HTML中的電子郵件內容來源 {#editing-an-email-content-source-in-html}
 
 對於最進階的使用者和偵錯，您可以直接在HTML中檢視和編輯電子郵件內容。
 
-編輯電子郵件HTML版本的方法有兩種：
+編輯電子郵件HTML版本有兩個方法：
 
 * 選取 **[!UICONTROL Edit]** > **[!UICONTROL HTML]** 以開啟整封電子郵件的HTML版本。
 
-   ![](assets/email_designer_html1.png)
+  ![](assets/email_designer_html1.png)
 
 * 從WYSIWYG介面中，選取元素並按一下 **[!UICONTROL Source code]** 圖示。
 
-   只會顯示所選元素的來源。 如果選取的元素為，您可以編輯原始程式碼 **[!UICONTROL HTML]** 內容元件。 其他元件處於唯讀模式，但仍可在電子郵件的完整HTML版本中編輯。
+  只顯示所選元素的來源。 如果選取的元素為，您可以編輯原始程式碼 **[!UICONTROL HTML]** 內容元件。 其他元件處於唯讀模式，但仍可在電子郵件的完整HTML版本中編輯。
 
-   ![](assets/email_designer_html2.png)
+  ![](assets/email_designer_html2.png)
 
 如果您修改程式碼的HTML，電子郵件的回應速度可能會中斷。 請務必使用 **[!UICONTROL Preview]** 按鈕。 請參閱「[預覽訊息](../../sending/using/previewing-messages.md)」。
 
 ## 為行動呈現設計電子郵件 {#switching-to-mobile-view}
 
-您可以個別編輯行動顯示的所有樣式選項，微調電子郵件的回應式設計。 例如，您可以調整邊界與內距、使用較小或較大的字型大小、變更按鈕，或套用您的電子郵件行動版本特定的不同背景顏色。
+您可以個別編輯行動顯示的所有樣式選項，微調電子郵件的回應式設計。 例如，您可以調整邊界與邊框間距、使用較小或較大的字型大小、變更按鈕，或套用您的電子郵件行動版本所特有的不同背景顏色。
 
-行動檢視中提供所有樣式選項。 電子郵件設計工具樣式設定會先顯示在此頁面上。
+行動檢視中提供所有樣式選項。 電子郵件設計工具樣式設定先前會顯示在此頁面上。
 
-1. 建立電子郵件並開始編輯內容。 如需詳細資訊，請參閱 [從頭開始設計電子郵件內容](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
+1. 建立電子郵件並開始編輯內容。 有關詳細資訊，請參閱 [從草稿開始設計電子郵件內容](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 1. 若要存取專用的行動檢視，請選取 **[!UICONTROL Switch to mobile view]** 按鈕。
 
    ![](assets/email_designer_mobile_view_switch.png)
 
-   隨即顯示電子郵件的行動版本。 它包含案頭檢視中定義的所有元件和樣式。
+   此時會顯示電子郵件的行動版本。 它包含案頭檢視中定義的所有元件和樣式。
 
 1. 獨立編輯所有樣式設定，例如背景顏色、對齊、邊框間距、邊界、字型系列、文字顏色等。
 
@@ -84,9 +84,9 @@ ht-degree: 1%
 
    您也可以選擇在案頭裝置上隱藏此元件，這表示它只會顯示在行動裝置上。 要執行此操作，請選取 **[!UICONTROL Show only on mobile devices]**.
 
-   例如，此選項可讓您在行動裝置上顯示特定影像，而在桌上型裝置上顯示另一個影像。
+   例如，此選項可讓您在行動裝置上顯示特定影像，在案頭裝置上顯示另一個影像。
 
-   您可以從行動或案頭檢視設定此選項。
+   您可以在行動或案頭檢視中設定此選項。
 
    ![](assets/email_designer_mobile_hide.png)
 
@@ -108,13 +108,13 @@ ht-degree: 1%
 
    ![](assets/email_designer_mobile_view_desktop_content-change.png)
 
-1. 移除行動檢視中的樣式時，系統會帶您回到先前在案頭模式中套用的樣式。
+1. 移除行動檢視中的樣式會帶您回到先前在案頭模式中套用的樣式。
 
    例如，在行動檢視中，將綠色背景顏色套用至按鈕。
 
    ![](assets/email_designer_mobile_view_background_mobile.png)
 
-1. 切換至案頭檢視，並將灰色背景套用至相同的按鈕。
+1. 切換到案頭檢視，並將灰色背景套用至相同的按鈕。
 
    ![](assets/email_designer_mobile_view_background_desktop.png)
 
@@ -128,4 +128,4 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->行動檢視無法用於 [片段](../../designing/using/using-reusable-content.md#about-fragments).
+>行動檢視在中無法使用 [片段](../../designing/using/using-reusable-content.md#about-fragments).

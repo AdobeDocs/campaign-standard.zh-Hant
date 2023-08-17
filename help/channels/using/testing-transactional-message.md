@@ -22,7 +22,7 @@ ht-degree: 36%
 
 ## 定義特定測試設定檔 {#defining-specific-test-profile}
 
-定義將連結至您的事件的測試設定檔，可讓您預覽訊息並傳送相關校樣。
+定義將連結至您事件的測試設定檔，這可讓您預覽訊息並傳送相關校樣。
 
 1. 從 [異動訊息儀表板](../../channels/using/editing-transactional-message.md#accessing-transactional-messages)，按一下 **[!UICONTROL Create test profile]** 按鈕。
 
@@ -49,7 +49,7 @@ ht-degree: 36%
    ![](assets/message-center_3.png)
 
 1. 儲存您的變更。
-1. [存取訊息](../../channels/using/editing-transactional-message.md#accessing-transactional-messages) 建立並選取更新的測試設定檔。
+1. [存取訊息](../../channels/using/editing-transactional-message.md#accessing-transactional-messages) 建立並選取更新後的測試設定檔。
 
 **相關主題：**
 
@@ -58,7 +58,7 @@ ht-degree: 36%
 
 ## 傳送證明 {#sending-proof}
 
-建立一個或多個特定測試設定檔並儲存交易式訊息後，您可以傳送校樣以測試它。
+建立一或多個特定測試設定檔並儲存交易式訊息後，您就可以傳送校樣加以測試。
 
 ![](assets/message-center_10.png)
 

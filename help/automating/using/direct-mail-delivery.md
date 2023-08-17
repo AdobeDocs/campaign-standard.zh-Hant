@@ -41,7 +41,7 @@ ht-degree: 99%
 
 **相關主題：**
 
-* [使用案例：耦合電子郵件與直接郵件傳遞](../../automating/using/coupling-email-direct-mail.md)
+* [使用案例：將電子郵件與直接郵件傳送連線](../../automating/using/coupling-email-direct-mail.md)
 * [關於直接郵件](../../channels/using/about-direct-mail.md)
 
 ## 設定 {#configuration}
@@ -58,11 +58,11 @@ ht-degree: 99%
    * **[!UICONTROL Direct mail]**：直接郵件只發一次。您可以在此處指定是否要向活動新增出站轉變。在本過程的步驟 7 中詳細說明不同的轉變類型。
    * **[!UICONTROL Recurring direct mail]**：根據 **[!UICONTROL Scheduler]** 活動中定義的頻率，直接郵件會被發送多次。選取傳送的彙總期間。這可讓您將定義期間發生的所有傳送重新分組，並透過一封名為 **Recurring execution** 且可從應用程式的行銷活動清單存取的直接郵件。
 
-      例如，對於每日處理的循環生日郵件，您可以選取彙總每月的傳送。這可讓您每月收到傳送的報表，不過每天都會處理郵件。
+     例如，對於每日處理的循環生日郵件，您可以選取彙總每月的傳送。這可讓您每月收到傳送的報表，不過每天都會處理郵件。
 
-      >[!NOTE]
-      >
-      >對於循環的直接郵件，在工作流程的每次執行時都產生新檔案。選定的彙總期間對此行為沒有影響。
+     >[!NOTE]
+     >
+     >對於循環的直接郵件，在工作流程的每次執行時都產生新檔案。選定的彙總期間對此行為沒有影響。
 
 1. 選取直接郵件類型。直接郵件類型來自 **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** 功能表中定義的範本。
 1. 輸入直接郵件的常規屬性。您也可以將它附加至現有的行銷活動。工作流程的傳送活動的標籤會以直接郵件標籤更新。

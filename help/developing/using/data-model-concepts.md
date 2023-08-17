@@ -42,4 +42,4 @@ Adobe Campaign 使用的資料是透過不同的資源來定義。您可以透�
 
 >[!CAUTION]
 >
->僅功能 [管理員](../../administration/using/users-management.md#functional-administrators)，搭配 **[!UICONTROL Administration]** 角色與存取權 **全部** 單位可以存取傳送記錄、訊息記錄、追蹤記錄、排除或訂閱記錄。 非管理員使用者可以鎖定這些記錄，但從連結的表格（設定檔、傳送）開始。
+>僅功能 [管理員](../../administration/using/users-management.md#functional-administrators)，使用 **[!UICONTROL Administration]** 角色與存取權 **全部** 單位可以存取傳送記錄、訊息記錄、追蹤記錄、排除或訂閱記錄。 非管理員使用者可以鎖定這些記錄，但會從連結的表格（設定檔、傳送）開始。

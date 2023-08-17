@@ -17,12 +17,12 @@ ht-degree: 10%
 
 # 更新設定檔的地理單位 {#updating-a-geographical-unit}
 
-1. 對執行GET要求 **geoUnitBase** 用於擷取地理單位PKey的資源。
+1. 在上執行GET要求 **geoUnitBase** 用於擷取地理單位PKey的資源。
 1. 在設定檔PKey上執行PATCH請求，並在承載中使用所需的地理單位PKey。
 
 <br/>
 
-***範例請求***
+***範例要求***
 
 擷取地理單位清單。
 
@@ -50,7 +50,7 @@ ht-degree: 10%
 },
 ```
 
-在設定檔上執行PATCH請求，並在有效負載中使用所需地理單位的PKey。
+對設定檔執行PATCH請求，並在裝載中使用所需地理單位的PKey。
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/<PKEY> \

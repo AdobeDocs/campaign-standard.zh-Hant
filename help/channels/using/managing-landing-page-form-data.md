@@ -22,13 +22,13 @@ ht-degree: 15%
 
 要執行此操作，這些欄位必須對應到資料庫欄位。
 
-您可以透過以下方式定義和管理其對應： **[!UICONTROL Form data]** 區段。
+您可以透過以下方式定義及管理其對應： **[!UICONTROL Form data]** 區段。
 
 ![](assets/lp_form-data.png)
 
 ## 對應表單欄位 {#mapping-form-fields}
 
-若要視需要更新Campaign資料庫，請將相關資料庫欄位連結至登入頁面的輸入區域、選項按鈕或核取方塊型別區塊。
+若要根據您的需求更新Campaign資料庫，請將相關資料庫欄位連結至登入頁面的輸入區域、單選按鈕或核取方塊型別區塊。
 
 要執行此操作，請遵循下列步驟：
 
@@ -48,7 +48,7 @@ ht-degree: 15%
    >
    >如需在登入頁面中使用核取方塊型別的詳細資訊，請參閱 [更新多個服務訂閱](#multiple-subscriptions) 和 [合約核取方塊](#agreement-checkbox) 區段。
 
-1. 如果您選取的欄位型別與中目前選取的資料庫欄位不相容， **[!UICONTROL Field]** 區域，會顯示警告訊息。 若要取得最佳對應，請選取適當的值。
+1. 如果您選取的欄位型別與目前在中選取的資料庫欄位不相容， **[!UICONTROL Field]** 區域，會顯示警告訊息。 若要取得最佳對應，請選取適當的值。
 
    ![](assets/lp_field-type-warning.png)
 
@@ -60,15 +60,15 @@ ht-degree: 15%
    >
    >登入頁面只能對應至 **[!UICONTROL Profiles]** 或 **[!UICONTROL Service]** 資源。
 
-   在此範例中，對應 **名稱** 您的登入頁面欄位至 **[!UICONTROL Last name]** 的欄位 **[!UICONTROL Profiles]** 資源。
+   在此範例中，對應 **名稱** 您登陸頁面的「 」欄位 **[!UICONTROL Last name]** 欄位屬於 **[!UICONTROL Profiles]** 資源。
 
    ![](assets/lp_database-field-example.png)
 
-1. 視需要核取 **[!UICONTROL Mandatory]** 選項。在此情況下，僅當使用者已填入此欄位時，才能提交登入頁面。
+1. 視需要核取 **[!UICONTROL Mandatory]** 選項。在此情況下，只有在使用者已填入此欄位時，才能提交登入頁面。
 
    ![](assets/lp_mandatory-option.png)
 
-   如果未填寫必填欄位，則當使用者提交頁面時將顯示錯誤訊息。
+   如果未填入必填欄位，當使用者提交頁面時會顯示錯誤訊息。
 
 1. 按一下 **[!UICONTROL Confirm]** 以儲存變更。
 
@@ -88,7 +88,7 @@ ht-degree: 15%
 
 1. 定義 **[!UICONTROL Form parameter mapping]**：此部分允許您對應登錄頁面欄位參數以及調解金鑰中使用的參數。
 
-1. 選取 **[!UICONTROL Update strategy]**：如果調解金鑰復原了現有的資料庫設定檔，您可以選擇使用此設定檔以表單中輸入的資料進行更新，或者改為阻止此更新。
+1. 選取 **[!UICONTROL Update strategy]**：如果調解金鑰恢復現有資料庫設定檔，您可以選取使用此設定檔以表單中輸入的資料進行更新，或者改為阻止此更新。
 
    ![](assets/lp_parameters_update-strategy.png)
 
@@ -102,33 +102,33 @@ ht-degree: 15%
 
    * 選取區塊，並從 **[!UICONTROL Form data]** 區段，選擇 **[!UICONTROL Checkbox]** 作為欄位型別。
 
-      ![](assets/lp_field-type-checkbox.png)
+     ![](assets/lp_field-type-checkbox.png)
 
    * 如果您熟悉HTML，也可以使用 **[!UICONTROL Show source]** 按鈕。
 
-      ![](assets/lp_show_source.png)
+     ![](assets/lp_show_source.png)
 
-      這可讓您在頁面上方便的位置插入核取方塊。
+     這可讓您在頁面上方便的位置插入核取方塊。
 
-      ![](assets/lp_manual-checkbox.png)
+     ![](assets/lp_manual-checkbox.png)
 
-1. 請確定您的內容中已選取核取方塊。 此 **[!UICONTROL Type]** 下拉式清單會顯示在 **[!UICONTROL Form data]** 區段。 選取 **[!UICONTROL Service and subscription]** 從清單中。
+1. 確保在內容中選取核取方塊。 此 **[!UICONTROL Type]** 下拉式清單會顯示在 **[!UICONTROL Form data]** 區段。 選取 **[!UICONTROL Service and subscription]** 從清單中。
 
    ![](assets/lp_service-and-subscription.png)
 
-1. 從中選擇一個選項 **[!UICONTROL Behavior]** 下拉式清單。
+1. 從中選擇選項 **[!UICONTROL Behavior]** 下拉式清單。
 
    ![](assets/lp_checkbox-behavior.png)
 
-1. 選取 [服務](../../audiences/using/creating-a-service.md) 從對應的清單中選取。
+1. 選取 [服務](../../audiences/using/creating-a-service.md) 從對應的清單中。
 
    ![](assets/lp_checkbox-service.png)
 
-1. 確定 **[!UICONTROL Mandatory]** 選項未核取。 否則，您的使用者將沒有選擇。
+1. 確定 **[!UICONTROL Mandatory]** 選項未勾選。 否則，您的使用者將沒有選擇。
 
    ![](assets/lp_uncheck-mandatory.png)
 
-1. 若要新增更多核取方塊以訂閱其他服務，請視需要重複上述步驟。
+1. 若要新增更多核取方塊，讓使用者訂閱其他服務，請視需要重複上述步驟。
 
    ![](assets/lp_multiple-checkboxes.png)
 
@@ -136,13 +136,13 @@ ht-degree: 15%
 
 ## 合約核取方塊 {#agreement-checkbox}
 
-您可以新增核取方塊，要求設定檔在提交登入頁面前先進行檢查。
+您可以新增核取方塊，設定檔在提交登入頁面之前必須先進行檢查。
 
 例如，這可讓您在使用者提交表單前，要求使用者同意隱私權原則，或讓使用者接受您的條款與條件。
 
 >[!IMPORTANT]
 >
->您的使用者必須選取此核取方塊。 如果未選取，他們將無法提交登入頁面。
+>選取此核取方塊對您的使用者是強制性的。 如果未選取，他們將無法提交登入頁面。
 
 若要插入並設定此核取方塊，請執行下列動作：
 
@@ -150,13 +150,13 @@ ht-degree: 15%
 
    * 選取區塊，並從 **[!UICONTROL Form data]** 區段，選擇 **[!UICONTROL Checkbox]** 作為欄位型別。
 
-      ![](assets/lp_field-type-checkbox.png)
+     ![](assets/lp_field-type-checkbox.png)
 
    * 如果您熟悉HTML，也可以使用 **[!UICONTROL Show source]** 按鈕。
 
-      ![](assets/lp_show_source.png)
+     ![](assets/lp_show_source.png)
 
-      <!--Manually insert a checkbox, such as in the example below:
+     <!--Manually insert a checkbox, such as in the example below:
 
       <!--Click **[!UICONTROL Hide source]**.-->
 
@@ -186,4 +186,4 @@ ht-degree: 15%
 
 1. 按一下&#x200B;**[!UICONTROL Confirm]**。
 
-現在，每次顯示登入頁面時，使用者必須在提交表單前選取此核取方塊。 如果不包含，系統會顯示警告，使用者將無法提交表單，直到核取方塊啟動為止。
+現在，每次顯示登入頁面時，使用者必須先選取此核取方塊，才能提交表單。 否則，將顯示警告，在啟用核取方塊之前，使用者將無法提交表單。

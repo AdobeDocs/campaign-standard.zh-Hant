@@ -1,6 +1,6 @@
 ---
 title: 根據工作流程細分建立報告
-description: 瞭解如何根據報告中的工作流程區段，檢查傳送是否成功。
+description: 瞭解如何根據工作流程在報表中的區段，檢查傳送是否成功。
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
@@ -18,9 +18,9 @@ ht-degree: 2%
 # 根據工作流程細分建立報告{#creating-a-report-workflow-segment}
 
 >[!CAUTION]
-> **[!UICONTROL Segment code]**只能定位電子郵件和簡訊傳遞。
+> **[!UICONTROL Segment code]** 只能定位電子郵件和簡訊傳遞。
 
-建立工作流程並將母體篩選為不同目標對象後，您可以根據此目標工作流程中定義的區段來衡量行銷活動的效率。
+建立工作流程並將母體篩選成不同的目標對象後，您可以根據此目標工作流程中定義的區段，評估行銷活動的效率。
 若要在報表中鎖定這些區段：
 
 * [步驟1：使用區段更新設定檔自訂資源](#step-1--update-profiles-custom-resource-segments)
@@ -36,8 +36,8 @@ ht-degree: 2%
 
 報告區段代碼之前，您需要更新 **[!UICONTROL Profiles]** 要儲存之區段代碼的自訂資源。
 
-1. 從進階功能表中，透過Adobe Campaign標誌選取 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]**，然後選取 **[!UICONTROL Profile (profile)]** 資源。
-1. 在 **[!UICONTROL Sending logs extension]** 功能表中的 **[!UICONTROL Data structure]** 索引標籤，核取 **[!UICONTROL Add segment code]** 允許從目標工作流程儲存區段代碼，並將其傳送至動態報告。
+1. 從進階功能表，透過Adobe Campaign標誌選取 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]**，然後選取 **[!UICONTROL Profile (profile)]** 資源。
+1. 在 **[!UICONTROL Sending logs extension]** 功能表來自 **[!UICONTROL Data structure]** 索引標籤，核取 **[!UICONTROL Add segment code]** 可讓您從目標工作流程儲存區段程式碼，並將其傳送至動態報告。
 
    此 **[!UICONTROL Segment code]** 隨後將可在 **[!UICONTROL Profile]** 報表的維度區段。
 
@@ -52,26 +52,26 @@ ht-degree: 2%
 
 1. 按一下 **[!UICONTROL Prepare publication]** 準備完成後，按一下 **[!UICONTROL Publish]** 按鈕。 如需自訂資源的詳細資訊，請參閱此 [頁面](../../developing/using/updating-the-database-structure.md).
 
-您現在可以使用區段代碼開始建立工作流程。
+您現在可以開始使用區段代碼建立工作流程。
 
-請注意，一旦您在中啟用區段代碼，將會立即收集區段代碼 **[!UICONTROL Sending logs extension]**.
+請注意，當您在中啟用區段代碼後，將會立即收集區段代碼 **[!UICONTROL Sending logs extension]**.
 
 ## 步驟2：建立包含區段的工作流程 {#step-2--create-a-workflow-segments}
 
 >[!NOTE]
 >如果電子郵件傳送的輸入轉變空白，預設會新增上一個轉變的區段代碼。
 
-您首先需要建立具有不同目標母體的工作流程。 在此，我們希望傳送一封電子郵件，該電子郵件將根據對象的年齡進行個人化：一次適用於20至30歲的設定檔，另一次適用於30至40歲的設定檔。
+您首先需要建立具有不同目標母體的工作流程。 在此，我們想要傳送將根據對象年齡進行個人化的電子郵件：一個適用於20至30歲的設定檔，另一個適用於30至40歲的設定檔。
 
-1. 建立您的工作流程。 有關如何建立工作流程的更多詳細資訊，請參閱此 [頁面](../../automating/using/building-a-workflow.md).
+1. 建立您的工作流程。 如需如何建立工作流程的詳細資訊，請參閱本 [頁面](../../automating/using/building-a-workflow.md).
 
 1. 新增 **[!UICONTROL Query]** 活動，方法是將其從浮動視窗拖放至工作區中。
 
-1. 將20至40歲及以上的設定檔設為目標，以便將其區隔成更具針對性的母體。
+1. 鎖定20至40歲的設定檔，並於稍後將其細分為更具針對性的母體。
 
    ![](assets/report_segment_1.png)
 
-1. 新增 **[!UICONTROL Segmentation]** 活動，將您的查詢結果分割成兩個目標母體。 如需區段的詳細資訊，請參閱本節 [頁面](../../automating/using/segmentation.md).
+1. 新增 **[!UICONTROL Segmentation]** 活動將您的查詢結果分割成兩個目標母體。 如需區段的詳細資訊，請參閱本節 [頁面](../../automating/using/segmentation.md).
 
 1. 按兩下 **[!UICONTROL Segmentation]** 活動以進行設定。 按一下以編輯第一個區段 **[!UICONTROL Edit properties]**.
 
@@ -81,7 +81,7 @@ ht-degree: 2%
 
    ![](assets/report_segment_8.png)
 
-1. 按一下 **[!UICONTROL Add an element]** 建立第二個區段並依照上述步驟進行設定，以鎖定年齡介於30至40歲的設定檔。
+1. 按一下 **[!UICONTROL Add an element]** 建立您的第二個區段，並依照上述步驟所述將其設定為目標30至40歲的設定檔。
 
 1. 編輯 **[!UICONTROL Segment code]** 每個要透過動態報告傳遞的母體。
 
@@ -94,7 +94,7 @@ ht-degree: 2%
 
    ![](assets/report_segment_3.png)
 
-1. 根據不同的目標母體，個人化您的傳遞。 有關建立電子郵件的詳細資訊，請參閱此 [頁面](../../designing/using/designing-content-in-adobe-campaign.md).
+1. 根據不同的目標母體個人化您的傳遞。 有關電子郵件建立的詳細資訊，請參閱本 [頁面](../../designing/using/designing-content-in-adobe-campaign.md).
 
 1. 儲存工作流程。
 
@@ -106,7 +106,7 @@ ht-degree: 2%
 
 使用工作流程傳送傳遞後，您可以使用工作流程中的區段代碼來劃分報表。
 
-1. 從 **[!UICONTROL Reports]** 索引標籤中，選取現成可用的報表，或按一下 **[!UICONTROL Create new project]** 按鈕以從頭開始。
+1. 從 **[!UICONTROL Reports]** 索引標籤中，選取現成可用的報表或按一下 **[!UICONTROL Create new project]** 按鈕以從頭開始一個。
 
    ![](assets/custom_profile_18.png)
 1. 拖放 **[!UICONTROL Delivery]** 維度至您的自由表格。

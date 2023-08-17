@@ -358,9 +358,9 @@ ht-degree: 100%
 
 * 修正傳送異動推播訊息目標定位設定檔時，傳送分析失敗的問題，方法是引入新的[目標定位對應](../../administration/using/target-mappings-in-campaign.md): **設定檔 - 推播的即時事件** (*mapRtEventAppSubRcp*)。[設定檔異動推播通知](../../channels/using/transactional-push-notifications.md#transactional-push-notifications-targeting-a-profile)的傳遞、排除和追蹤記錄現在會儲存在 *broadLogAppSubRcp*、*excludeLogAppSubRcp* 和 *trackingLogAppSubRcp* 表格。
 
-   >[!IMPORTANT]
-   >
-   >由於此變更，如果您使用現有的設定檔推播異動通知 (在升級至 Adobe Campaign 21.1 之前建立)，建議您將目標對應更新至新版，然後再次發佈訊息。 請參閱[此處](../../channels/using/transactional-push-notifications.md#change-target-mapping)的詳細步驟。 使用先前的目標對應&#x200B;**設定檔 — 即時事件**(*mapRtEventRcp*) 可能導致傳遞準備時間較長且效能降低。
+  >[!IMPORTANT]
+  >
+  >由於此變更，如果您使用現有的設定檔推播異動通知 (在升級至 Adobe Campaign 21.1 之前建立)，建議您將目標對應更新至新版，然後再次發佈訊息。 請參閱[此處](../../channels/using/transactional-push-notifications.md#change-target-mapping)的詳細步驟。 使用先前的目標對應&#x200B;**設定檔 — 即時事件**(*mapRtEventRcp*) 可能導致傳遞準備時間較長且效能降低。
 
 * 修正顯示 5000 列時無法執行傳遞報告的問題。
 * 修正 A/B 測試的問題，此問題會導致變數 B 的內容在修改傳遞範本後無法更新。(CAMP-45235)

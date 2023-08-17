@@ -31,11 +31,11 @@ ht-degree: 100%
 
 * 在 SMS 控制面板中按一下 **[!UICONTROL Content]** 區塊。
 
-   ![](assets/des_sms_content.png)
+  ![](assets/des_sms_content.png)
 
 * 按一下推播通知控制面板中 **[!UICONTROL Message body]** 欄位旁邊的鉛筆。
 
-   ![](assets/des_push_body.png)
+  ![](assets/des_push_body.png)
 
 **相關主題：**
 

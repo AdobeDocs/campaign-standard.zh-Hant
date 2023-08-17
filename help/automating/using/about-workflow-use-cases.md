@@ -1,6 +1,6 @@
 ---
 title: 關於工作流程使用實例
-description: 進一步瞭解您可以使用Campaign Standard工作流程執行的使用案例。
+description: 瞭解更多您可以使用Campaign Standard工作流程執行的使用案例。
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
@@ -18,7 +18,7 @@ ht-degree: 72%
 
 在本節中，您將找到運用Campaign工作流程功能的各種使用案例。
 
-它們可協助您探索可以使用工作流程的不同內容，並回應您的需求。
+它們可協助您探索可在其中使用工作流程的不同內容，並回應您的需求。
 
 ## 傳遞 {#deliveries}
 

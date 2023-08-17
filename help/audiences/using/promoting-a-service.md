@@ -23,10 +23,10 @@ ht-degree: 3%
 
 * [在電子郵件中插入服務訂閱或取消訂閱連結](../../designing/using/links.md#inserting-a-link).
 
-* [在電子郵件中插入訂閱或取消訂閱登入頁面的連結](../../designing/using/links.md). 在此情況下，必須在相關登入頁面的屬性中直接參考服務(請參閱 [將登入頁面連結至服務](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service))。
+* [在電子郵件中插入訂閱或取消訂閱登入頁面的連結](../../designing/using/links.md). 在此情況下，服務必須在相關登入頁面的屬性中直接參照(請參閱 [將登入頁面連結至服務](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service))。
 
-   >[!NOTE]
-   >
-   >讓訂閱者有機會取消訂閱也很重要。 要執行此操作，請插入服務 <b>取消訂閱連結</b> （定義在服務屬性中）自動傳送給新訂閱者的確認電子郵件中，以及在日後的Newsletter電子郵件中。
+  >[!NOTE]
+  >
+  >讓訂閱者有機會取消訂閱也很重要。 要執行此操作，請插入服務 <b>取消訂閱連結</b> 在自動傳送給新訂閱者的確認電子郵件（在服務屬性中定義）中，以及在日後的Newsletter電子郵件中。
 
-* 讓訂閱或取消訂閱登入頁面可在網站上使用。 讓您存取登入頁面的URL必須指定引數（例如關聯的服務），以及存取該服務的設定檔ID。 此ID可在登入頁面引數中定義(請參閱 [設定登入頁面](../../channels/using/configuring-landing-page.md))。
+* 讓訂閱或取消訂閱登入頁面可在網站上使用。 授予您登陸頁面存取權的URL必須指定引數（例如關聯的服務），以及存取該服務的設定檔ID。 此ID可在登入頁面引數中定義(請參閱 [設定登入頁面](../../channels/using/configuring-landing-page.md))。

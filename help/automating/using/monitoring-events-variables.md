@@ -19,7 +19,7 @@ ht-degree: 17%
 
 您可以監視工作流程中可用的事件變數，包括宣告的外部引數。 要執行此操作，請遵循下列步驟：
 
-1. 選取遵循的活動 **[!UICONTROL External signal]** 活動，然後按一下 **[!UICONTROL Log and tasks]** 按鈕。
+1. 選取緊接在後面的活動 **[!UICONTROL External signal]** 活動，然後按一下 **[!UICONTROL Log and tasks]** 按鈕。
 1. 在 **[!UICONTROL Tasks]** 標籤，按一下 ![](assets/edit_darkgrey-24px.png) 按鈕。
 
    ![](assets/extsignal_monitoring_2.png)

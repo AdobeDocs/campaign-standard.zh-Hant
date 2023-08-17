@@ -22,7 +22,7 @@ ht-degree: 12%
 
 <br/>
 
-***範例請求***
+***範例要求***
 
 擷取設定檔記錄。
 
@@ -48,7 +48,7 @@ ht-degree: 12%
 }
 ```
 
-對URL執行GET要求以擷取更多資訊。
+在URL上執行GET要求以擷取更多資訊。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/geoUnitBase/<PKEY> \

@@ -1,6 +1,6 @@
 ---
 title: 簡訊報告
-description: 透過現成可用的SMS報告，瞭解SMS傳送是否成功。
+description: 透過現成可用的SMS報告，瞭解SMS傳送的成功情況。
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -23,6 +23,6 @@ ht-degree: 5%
 
 此 **簡訊摘要** 表格、圖表和摘要數字包含已傳送之SMS傳送的可用資料。
 
-* **已處理/已傳送**：已傳送的簡訊數量。
+* **已處理/傳送**：傳送的簡訊數量。
 * **已傳遞**：傳送的簡訊數量。
 * **退回+錯誤**：無法傳遞的訊息數。

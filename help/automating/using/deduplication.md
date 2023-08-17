@@ -67,15 +67,15 @@ ht-degree: 97%
    * **[!UICONTROL Choose for me]**：隨機選取要保留在重複項目外的記錄。
    * **[!UICONTROL Following a list of values]**：可讓您定義一或多個欄位的值優先順序。若要定義值，請選取欄位或建立運算式，然後將值新增至適當的資料表中。若要定義新欄位，請按一下值清單上方的 **[!UICONTROL Add]** 按鈕。
 
-      ![](assets/deduplication_2.png)
+     ![](assets/deduplication_2.png)
 
    * **[!UICONTROL Non-empty value]**：您可以保留所選運算式的值不為空白的記錄作為優先順序。
 
-      ![](assets/deduplication_3.png)
+     ![](assets/deduplication_3.png)
 
    * **[!UICONTROL Using an expression]**：這可讓您保留所入站運算式的值最小或最大的記錄。
 
-      ![](assets/deduplication_4.png)
+     ![](assets/deduplication_4.png)
 
 1. 如有需要，請管理活動的[轉變](../../automating/using/activity-properties.md)，以存取輸出母體的進階選項。
 1. 確認活動的設定並儲存工作流程。

@@ -43,7 +43,7 @@ ht-degree: 14%
 
 定義訊息的收件者。 若要這麼做，請使用 [查詢編輯器](../../automating/using/editing-queries.md) 從左窗格篩選資料庫中包含的資料，並建立規則以鎖定您的對象。
 
-有多種對象型別可供使用：
+有數種對象可供使用：
 
 * **[!UICONTROL Target]** 是您電子郵件的主要目標，
 * **[!UICONTROL Test profiles]** 是用於測試和驗證電子郵件的設定檔(請參閱 [管理測試設定檔](../../audiences/using/managing-test-profiles.md))。
@@ -52,7 +52,7 @@ ht-degree: 14%
 
 ## 設計並個人化內容
 
-在 **[!UICONTROL Content]** 使用資料庫中的欄位，封鎖、設計和個人化訊息內容。 如需如何為特定管道設計內容的詳細資訊，請參閱本頁最上方列出的區段。
+在 **[!UICONTROL Content]** 使用資料庫中的欄位，封鎖、設計和個人化訊息內容。 如需如何為特定頻道設計內容的詳細資訊，請參閱本頁頂端所列的區段。
 
 ![](assets/steps-content.png)
 
@@ -64,20 +64,20 @@ ht-degree: 14%
 
 **檢查並測試您的訊息** 使用Campaign Standard功能傳送之前：預覽、電子郵件呈現、校樣等。 如需詳細資訊，請參閱[本章節](../../sending/using/previewing-messages.md)。
 
-使用 **[!UICONTROL Schedule]** 封鎖以定義訊息的傳送時間(請參閱 [排程訊息](../../sending/using/about-scheduling-messages.md))。
+使用 **[!UICONTROL Schedule]** 區塊以定義訊息的傳送時間(請參閱 [排程訊息](../../sending/using/about-scheduling-messages.md))。
 
 ![](assets/steps-schedule.png)
 
-## 傳送和追蹤
+## 傳送及追蹤
 
-訊息準備就緒後，您可以確認傳送。 此 **[!UICONTROL Deployment]** 區塊顯示傳送進度和結果。
+訊息就緒後，即可確認傳送。 此 **[!UICONTROL Deployment]** 區塊會顯示傳送進度和結果。
 
 ![](assets/steps-send.png)
 
-有數個記錄檔可協助您監控訊息的傳送(請參閱 [監控傳遞](../../sending/using/monitoring-a-delivery.md))。 您還可以藉由Campaign Standard的，追蹤傳遞收件者的行為 [追蹤功能](../../sending/using/tracking-messages.md).
+有數個記錄檔可協助您監控訊息的傳送(請參閱 [監視傳遞](../../sending/using/monitoring-a-delivery.md))。 您還可以藉由Campaign Standard的，追蹤您的傳送收件者的行為 [追蹤功能](../../sending/using/tracking-messages.md).
 
 ![](../../sending/using/assets/tracking_logs.png)
 
-透過各種指標和圖表，衡量訊息的有效性以及傳送和行銷活動的演變(請參閱 [存取報告](../../reporting/using/about-dynamic-reports.md))。
+透過各種指標和圖表，衡量訊息的有效性以及傳送和行銷活動的演化(請參閱 [存取報告](../../reporting/using/about-dynamic-reports.md))。
 
 ![](assets/steps-reports.png)

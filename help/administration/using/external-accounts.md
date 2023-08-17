@@ -79,7 +79,7 @@ Adobe Campaign 隨附一組預先定義的外部帳戶。若要設定與外部�
 * 時常登入 SFTP 以直接檢查其內容。
 * 請記住，SFTP 硬碟的管理主要是您的責任。
 
-另請注意，您嘗試啟動SFTP連線的公用IP必須新增至Campaign執行個體上的允許清單。 您可透過「 」請求將IP位址新增至允許清單 [支援票證](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)，並提供用於驗證的公開金鑰。
+另請注意，您嘗試啟動SFTP連線的公用IP必須新增至Campaign執行個體上的允許清單。 可透過以下方式請求將IP位址新增到允許清單： [支援票證](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)，並提供用於驗證的公開金鑰。
 
 SFTP 伺服器可從「控制面板」進行管理。如需詳細資訊，請參閱[控制面板文件](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html)。
 
@@ -89,11 +89,11 @@ SFTP 伺服器可從「控制面板」進行管理。如需詳細資訊，請參
 
 ## OAuth 2.0帳戶 {#oauth-account}
 
-若為OAuth 2.0外部帳戶，請提供下列詳細資料：
+對於OAuth 2.0外部帳戶，請提供下列詳細資訊：
 
 * A **授權型別**：僅限 **使用者端認證** 支援。
 * A **安全API URL**：輸入授權端點。
-* **OAuth 2.0敏感認證**：本節適用於本質上敏感的認證。 新增認證值後，它們將會在畫面上被遮罩；此時，它們將無法讀取或編輯。 如果授權端點要求在HTTP授權標頭中插入特定認證，而不是POST主體引數，您可以為該認證選擇在標頭中納入選項。
+* **OAuth 2.0敏感認證**：本節適用於本質上敏感的認證。 新增認證值後，這些值會在畫面上遭到遮罩；屆時將無法讀取或編輯它們。 如果授權端點要求在HTTP授權標頭中插入特定認證，而不是POST主體引數，您可以為該認證選擇在標頭中納入選項。
 * **OAuth 2.0不敏感認證**：本節適用於本質上不敏感的認證。 新增認證值後，它們將顯示在熒幕上；也可以編輯。  如果授權端點要求在HTTP授權標頭中插入特定認證，而不是POST主體引數，您可以為該認證選擇在標頭中納入選項。
 
 輸入帳戶資訊後，按一下 **測試連線** 驗證外部帳戶是否已正確設定。
@@ -102,7 +102,7 @@ SFTP 伺服器可從「控制面板」進行管理。如需詳細資訊，請參
 
 >[!NOTE]
 >
->認證「Content-Type： application/x-www-form-urlencoded」和「grant_type=client_credentials」會自動新增至API呼叫；因此，您不需要在認證區段中新增它們。
+>認證「Content-Type： application/x-www-form-urlencoded」和「grant_type=client_credentials」會自動新增至API呼叫；因此，您不需要將其新增至認證區段。
 
 ## Amazon S3 外部帳戶 {#amazon-s3-external-account}
 
@@ -138,13 +138,13 @@ Adobe Experience Manager 外部帳戶用於整合 Campaign 與 Experience Manage
 
 [本文件](../../integrating/using/get-started-campaign-integrations.md)提供與此整合相關的程序及需求。
 
-當您設定此新外部帳戶時，必須提供下列詳細資料：
+當您設定此新外部帳戶時，您必須提供下列詳細資料：
 
 * 伺服器： 輸入 Adobe Experience Manager 伺服器的 URL。例如：
 
-   ```
-   http://aem.domain.com:4502
-   ```
+  ```
+  http://aem.domain.com:4502
+  ```
 
 * AEM 帳戶認證：使用可存取 Adobe Experience Manager 執行個體的帳戶。它應該是 Experience Manager 中行銷活動 - 遠端群組的帳戶部分。
 
@@ -156,7 +156,7 @@ Adobe Experience Manager 外部帳戶用於整合 Campaign 與 Experience Manage
 
 Google reCAPTCHA 機制可讓您保護著陸頁面，使其免受機器人程式造成的垃圾郵件和濫用。這對您的客戶來說不會造成干擾，因為它不需要客戶進行任何互動，而且是以與您網站的互動為基礎。若要註冊您的網站，請參閱本[頁面](https://www.google.com/recaptcha/admin/create)。您必須選擇V3 reCAPTCHA型別。
 
-若要將Google reCAPTCHA V3新增至您的登陸頁面，請在外部帳戶中設定。 如需如何將其新增至著陸頁面的詳細資訊，請參閱[本區段](../../channels/using/configuring-landing-page.md#setting-google-recaptcha)。
+若要將Google reCAPTCHA V3新增至您的登入頁面，請在外部帳戶中進行設定。 如需如何將其新增至著陸頁面的詳細資訊，請參閱[本區段](../../channels/using/configuring-landing-page.md#setting-google-recaptcha)。
 
 若為 Google reCAPTCHA V3 外部帳戶，請提供下列詳細資訊：
 
@@ -165,7 +165,7 @@ Google reCAPTCHA 機制可讓您保護著陸頁面，使其免受機器人程式
 * 您的 **[!UICONTROL Site key]** 和 **[!UICONTROL Site secret]**
 * **[!UICONTROL Threshold]** 介於 0 和 1 之間
 
-   0.0 **[!UICONTROL Threshold]** 值表示它可能是機器人，1.0 可能是良好的互動。預設情況下，可以使用閾值 0.5。
+  0.0 **[!UICONTROL Threshold]** 值表示它可能是機器人，1.0 可能是良好的互動。預設情況下，可以使用閾值 0.5。
 
 ![](assets/external_accounts_3.png)
 
@@ -183,7 +183,7 @@ Azure Blob 儲存連接器可用來匯入或匯出資料至 Adobe Campaign，使
 * **[!UICONTROL Type]**：Microsoft Azure Blob 儲存
 * 您的 **[!UICONTROL Account name]** 和 **[!UICONTROL Account key]**。若要瞭解在何處尋找您的帳戶名稱和金鑰，請參閱本[頁面](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage)。
 * 您的 **[!UICONTROL Endpoint suffix]**。您可在 Azure 入口網站 **[!UICONTROL Access keys]** 功能表內的 **[!UICONTROL Connection string]** 找到它。如需詳細資訊，請參閱此[頁面](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage)。
-* 您的 **[!UICONTROL Container]** 名稱。如果您計畫使用多個容器，請建立與容器一樣多的外部帳戶。
+* 您的 **[!UICONTROL Container]** 名稱。如果您打算使用多個容器，請建立與容器一樣多的外部帳戶。
 * **[!UICONTROL Concurrency]** 選項可讓您微調檔案傳輸的速度。
 
 ![](assets/external_accounts_4.png)

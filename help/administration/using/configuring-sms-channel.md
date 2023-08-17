@@ -280,7 +280,7 @@ CR：歸位
 
 **進階字元（計算兩次）**
 
-^ { } [ ~ ] | €
+^ { } [~] | €
 
 ### SMSC 細節 {#smsc-specifics}
 
@@ -305,15 +305,15 @@ CR：歸位
    * 它會嘗試使用 GSM 編碼，將 **data_coding = 0** 的值指派給它。
    * 如果 GSM 編碼失敗，則會使用 **UCS2** 編碼，並對其指派值 **data_coding = 8**。
 
-   ![](assets/sms_data_coding.png)
+  ![](assets/sms_data_coding.png)
 
 * 核取 **[!UICONTROL Define a specific mapping of encodings]** 功能後，您可以定義要使用的編碼以及連結的 **[!UICONTROL data_coding]** 欄位值。Adobe Campaign 會嘗試使用清單中的第一個編碼，如果第一個編碼不可能，則請執行下列操作。
 
-   宣告的順序非常重要：建議您以&#x200B;**成本**&#x200B;的遞增順序顯示清單，以利於編碼，讓您在每則 SMS 訊息中盡可能多地顯示字元。
+  宣告的順序非常重要：建議您以&#x200B;**成本**&#x200B;的遞增順序顯示清單，以利於編碼，讓您在每則 SMS 訊息中盡可能多地顯示字元。
 
-   僅宣告您要使用的編碼。如果 SMS-C 提供的某些編碼不符合您的使用目的，請勿在清單中宣告。
+  僅宣告您要使用的編碼。如果 SMS-C 提供的某些編碼不符合您的使用目的，請勿在清單中宣告。
 
-   ![](assets/sms_data_coding1.png)
+  ![](assets/sms_data_coding1.png)
 
 ### 自動回覆傳送至 MO {#automatic-reply-sent-to-the-mo}
 
@@ -331,21 +331,21 @@ CR：歸位
 
 從 **[!UICONTROL Advanced parameters]** 區段：
 
-* 此 **[!UICONTROL Short code]** 可讓您新增特定短程式碼至傳遞。 訊息準備期間會自動排除選擇退出此特定短程式碼的收件者。 如需如何設定短程式碼的詳細資訊，請參閱 [本節](../../channels/using/managing-incoming-sms.md).
+* 此 **[!UICONTROL Short code]** 可讓您將特定的短程式碼新增至傳遞。 選擇退出此特定短程式碼的收件者，將在郵件準備期間自動排除。 如需如何設定短程式碼的詳細資訊，請參閱 [本節](../../channels/using/managing-incoming-sms.md).
 
-   >[!NOTE]
-   >
-   >如果 **[!UICONTROL Short code]** 欄位留空，則欄位的 **[!UICONTROL Short code]** 將使用在外部帳戶中設定的欄位。
+  >[!NOTE]
+  >
+  >如果 **[!UICONTROL Short code]** 欄位留空，其值 **[!UICONTROL Short code]** 將使用在外部帳戶中設定的欄位。
 
 從 **[!UICONTROL Send]** SMS範本的區段：
 
 * **[!UICONTROL Maximum number of SMS per message]** 選項可讓您定義用於傳送訊息的 SMS 訊息數目。如果超過此數目，則不會傳送訊息。
 
-   >[!IMPORTANT]
-   >
-   >如果您已將個人化欄位或條件文字插入 SMS 訊息的內容，訊息的長度，以及因此要傳送的 SMS 訊息數目，可能會因收件者而異。如需詳細資訊，請參閱[個人化 SMS 訊息](../../channels/using/personalizing-sms-messages.md)區段。
+  >[!IMPORTANT]
+  >
+  >如果您已將個人化欄位或條件文字插入 SMS 訊息的內容，訊息的長度，以及因此要傳送的 SMS 訊息數目，可能會因收件者而異。如需詳細資訊，請參閱[個人化 SMS 訊息](../../channels/using/personalizing-sms-messages.md)區段。
 
-   ![](assets/sms_smpp_3.png)
+  ![](assets/sms_smpp_3.png)
 
 * **[!UICONTROL Transmission mode]** 欄位可讓您判斷 SMS 訊息的傳送方式：
 

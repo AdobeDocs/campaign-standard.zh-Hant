@@ -1,6 +1,6 @@
 ---
 title: 擷取設定檔
-description: 深入瞭解如何使用API擷取設定檔
+description: 進一步瞭解如何使用API擷取設定檔
 feature: API
 role: Data Engineer
 level: Experienced
@@ -16,72 +16,72 @@ ht-degree: 4%
 
 擷取設定檔是使用 **GET** 要求。
 
-接著，您可以使用篩選器、排序和分頁來縮小搜尋範圍。 如需詳細資訊，請參閱 [其他作業](../../api/using/sorting.md) 區段。
+接著，您就可以使用篩選器、排序和分頁來縮小搜尋範圍。 有關詳細資訊，請參閱 [其他操作](../../api/using/sorting.md) 區段。
 
 此外，Campaign StandardAPI可讓您根據以下欄位之一搜尋設定檔：電子郵件、名字、姓氏或任何自訂欄位。 如需詳細資訊，請參閱[本章節](#searching-field)。
 
 <br/>
 
-***範例請求***
+***範例要求***
 
 * 擷取所有設定檔的範例GET請求。
 
-   ```
-   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
-   -H 'Content-Type: application/json' \
-   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-   -H 'Cache-Control: no-cache' \
-   -H 'X-Api-Key: <API_KEY>'
-   ```
+  ```
+  -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+  -H 'Cache-Control: no-cache' \
+  -H 'X-Api-Key: <API_KEY>'
+  ```
 
-   對請求的回應。
+  對要求的回應。
 
-   ```
-   {
-       "content": [
-           {
-               "PKey": "<PKEY>",
-               "firstName": "John",
-               "lastName":"Doe",
-               "birthDate": "1980-10-24",
-               ...
-           },
-           ...
-   }
-   ```
+  ```
+  {
+      "content": [
+          {
+              "PKey": "<PKEY>",
+              "firstName": "John",
+              "lastName":"Doe",
+              "birthDate": "1980-10-24",
+              ...
+          },
+          ...
+  }
+  ```
 
 * 擷取前10個電子郵件值的範例GET請求。
 
-   ```
-   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_lineCount=10 \
-   -H 'Content-Type: application/json' \
-   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-   -H 'Cache-Control: no-cache' \
-   -H 'X-Api-Key: <API_KEY>'
-   ```
+  ```
+  -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_lineCount=10 \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+  -H 'Cache-Control: no-cache' \
+  -H 'X-Api-Key: <API_KEY>'
+  ```
 
-   對請求的回應。 「下一個」節點會傳回URL，讓您存取10個下一個電子郵件值。
+  對要求的回應。 「下一個」節點會傳回URL，讓您存取下一個10個電子郵件值。
 
-   ```
-   {
-   "content": [
-       "amy.dakota@mail.com",
-       "kristen.smith@mail.com",
-       "omalley@mail.com",
-       "xander.harrys@mail.com",
-       "jane.summer@mail.com",
-       "gloria.boston@mail.com",
-       "edward.snow@mail.com",
-       "dorian.simons@mail.com",
-       "peter.paolini@mail.com",
-       "mingam+test08@adobe.com"
-   ],
-   "next": {
-       "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_lineCount=10&_
-       lineStart=@Qy2MRJCS67PFf8soTf4BzF7BXsq1Gbkp_e5lLj1TbE7HJKqc"
-   }
-   }
-   ```
+  ```
+  {
+  "content": [
+      "amy.dakota@mail.com",
+      "kristen.smith@mail.com",
+      "omalley@mail.com",
+      "xander.harrys@mail.com",
+      "jane.summer@mail.com",
+      "gloria.boston@mail.com",
+      "edward.snow@mail.com",
+      "dorian.simons@mail.com",
+      "peter.paolini@mail.com",
+      "mingam+test08@adobe.com"
+  ],
+  "next": {
+      "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_lineCount=10&_
+      lineStart=@Qy2MRJCS67PFf8soTf4BzF7BXsq1Gbkp_e5lLj1TbE7HJKqc"
+  }
+  }
+  ```
 
 ## 根據欄位搜尋設定檔 {#searching-field}
 
@@ -89,46 +89,46 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->搜尋會區分大小寫，且只會在首碼上執行。 例如，您將無法使用個人檔案的姓氏來查詢個人檔案。
+>搜尋會區分大小寫，且僅會在首碼上執行。 例如，您將無法使用設定檔的姓氏來查詢設定檔。
 
-***範例請求***
+***範例要求***
 
 * 根據名字篩選設定檔的範例請求。
 
-   ```
-   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=John&filterType=firstName \
-   -H 'Content-Type: application/json' \
-   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-   -H 'Cache-Control: no-cache' \
-   -H 'X-Api-Key: <API_KEY>'
-   ```
+  ```
+  -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=John&filterType=firstName \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+  -H 'Cache-Control: no-cache' \
+  -H 'X-Api-Key: <API_KEY>'
+  ```
 
 * 根據姓氏篩選設定檔的範例請求。
 
-   ```
-   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Miller&filterType=lastName \
-   -H 'Content-Type: application/json' \
-   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-   -H 'Cache-Control: no-cache' \
-   -H 'X-Api-Key: <API_KEY>'
-   ```
+  ```
+  -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Miller&filterType=lastName \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+  -H 'Cache-Control: no-cache' \
+  -H 'X-Api-Key: <API_KEY>'
+  ```
 
 * 根據電子郵件篩選設定檔的範例請求。
 
-   ```
-   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=John%40gmail.com&filterType=email \
-   -H 'Content-Type: application/json' \
-   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-   -H 'Cache-Control: no-cache' \
-   -H 'X-Api-Key: <API_KEY>'
-   ```
+  ```
+  -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=John%40gmail.com&filterType=email \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+  -H 'Cache-Control: no-cache' \
+  -H 'X-Api-Key: <API_KEY>'
+  ```
 
 * 根據「愛好」自訂欄位篩選設定檔的範例請求。
 
-   ```
-   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byText?cusHobby=Dancing&filterType=Hobby \
-   -H 'Content-Type: application/json' \
-   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-   -H 'Cache-Control: no-cache' \
-   -H 'X-Api-Key: <API_KEY>'
-   ```
+  ```
+  -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byText?cusHobby=Dancing&filterType=Hobby \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+  -H 'Cache-Control: no-cache' \
+  -H 'X-Api-Key: <API_KEY>'
+  ```

@@ -17,24 +17,24 @@ ht-degree: 1%
 
 # 中繼資料機制 {#metadata-mechanism}
 
-您可以使用以下專案擷取資源中繼資料： **resourceType** 在GET要求中：
+您可以使用來擷取資源中繼資料 **resourceType** 在GET要求中：
 
 `GET /profileAndServices/resourceType/<resourceName>`
 
 回應會從資源傳回主要中繼資料（所有其他欄位均為描述性或內部）：
 
-* 此 **內容** 節點會傳回資源的欄位。 對於 **內容** 節點，我們可找到下列欄位：
+* 此 **內容** 節點會傳回資源的欄位。 針對 **內容** 節點，可以找到下列欄位：
 
    * &quot;apiName&quot;： API中使用的屬性名稱。
-   * &quot;type&quot;：這是高階型別定義（字串、數字、連結、集合、分項清單……）。
-   * &quot;dataPolicy&quot;：欄位的值必須符合指定的原則規則。 例如，如果dataPolicy規則設為「email」，該值必須是有效的電子郵件。 在PATCH或POST期間，dataPolicy可以檢查值或修改值以進行轉換（例如smartCase）。
-   * &quot;category&quot;：提供查詢編輯器中欄位的類別。
+   * &quot;type&quot;：這是高階型別定義（字串、數字、連結、集合、列舉……）。
+   * &quot;dataPolicy&quot;：欄位的值必須符合指定的原則規則。 例如，如果dataPolicy規則設為「電子郵件」，該值必須是有效的電子郵件。 在PATCH或POST期間，dataPolicy可檢查值或修改值以進行轉換（例如smartCase）。
+   * &quot;category&quot;：提供查詢編輯器中的欄位類別。
    * &quot;resType&quot;：這是技術型別。
 
-      如果「type」是以值「link」或「collection」完成，resTarget值就是連結所定位的資源名稱。
-如果「type」以「enumeration」值填滿，則會新增「values」欄位，而每個列舉值都會詳列於 **值** 節點。
+     如果「type」是以值「link」或「collection」完成，則resTarget值是連結所定位的資源名稱。
+如果「type」是以值「enumeration」填滿，則會新增「values」欄位，每個列舉值都會在 **值** 節點。
 
-* 此 **篩選器** node會傳回URL以擷取關聯的篩選器。 如需篩選器的詳細資訊，請參閱 [本節](../../api/using/filtering.md) 區段。
+* 此 **篩選器** 節點會傳回URL以擷取關聯的篩選器。 如需篩選器的詳細資訊，請參閱 [本節](../../api/using/filtering.md) 區段。
 
 <!-- créer une section au même niveau sur les liens -->
 <!-- dans l'exemple: birthdate, email +  mettre 2 liens : un de type 1-1 , 1-N
@@ -43,7 +43,7 @@ si on prend l'exemple de l'org unit, on aura un bon exemple lien -->
 
 <br/>
 
-***範例請求***
+***範例要求***
 
 對資源執行GET要求。
 

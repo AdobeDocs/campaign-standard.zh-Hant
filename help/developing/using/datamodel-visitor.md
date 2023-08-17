@@ -124,7 +124,7 @@ ht-degree: 42%
     <tr>
         <td>來源</td>
         <td>來源</td>
-        <td>分項清單（位元） </td>
+        <td>分項清單（位元組） </td>
         <td>
             <ul>
             <li>未定義 — 未定義 — 0</li>
@@ -133,7 +133,7 @@ ht-degree: 42%
         </td>
     </tr>
     <tr>
-        <td>收件者</td>
+        <td>收件者(recipient)</td>
         <td>已識別的設定檔</td>
         <td>連結 </td>
         <td> </td>

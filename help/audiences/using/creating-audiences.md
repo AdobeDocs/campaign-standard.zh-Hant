@@ -113,11 +113,11 @@ Adobe Campaign 可讓您與 Adobe Experience Cloud 共用和交換對象。**Exp
 
 * 若要編輯「**查詢**」對象，請透過 **[!UICONTROL Audiences]** 功能表或 Adobe Campaign 首頁的 **[!UICONTROL Audiences]** 資訊卡，移至對象清單。
 
-   開啟相關的對象。您可以編輯先前建立之對象的所有元素。
+  開啟相關的對象。您可以編輯先前建立之對象的所有元素。
 
-   >[!CAUTION]
-   >
-   >如果您變更查詢中的 **[!UICONTROL Filtering dimension]** 規則，先前已定義的規則將會遺失。
+  >[!CAUTION]
+  >
+  >如果您變更查詢中的 **[!UICONTROL Filtering dimension]** 規則，先前已定義的規則將會遺失。
 
 * 若要編輯「**清單**」或「**檔案**」對象，請編輯從中建立該對象的工作流程，並修改 **[!UICONTROL Save audience]** 活動。啟動工作流程，以便修改對象。
 * 若要編輯 **Experience Cloud** 觀眾，請參閱「[使用 人員核心服務匯入/匯出觀眾](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)」區段。

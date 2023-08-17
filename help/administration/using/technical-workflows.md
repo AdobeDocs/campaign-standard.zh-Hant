@@ -101,7 +101,7 @@ Adobe Campaign 可立即提供技術工作流程。技術工作流程是排程�
   </tr>
   <tr> 
    <td> <span class="uicontrol">復原追蹤記錄</span> <br /> </td> 
-   <td> <span class="uicontrol">trackingLogRecovery</span> <br /> </td> 
+   <td> <span class="uicontrol">Trackinglogrecovery</span> <br /> </td> 
    <td> 此工作流程會還原遺失的追蹤記錄。 請注意，此技術工作流程用於特定內容，並僅限於Adobe內部使用。 <br>預設會每 10 分鐘啟動一次。<br /> </td> 
   </tr>
   <tr> 

@@ -17,7 +17,7 @@ ht-degree: 46%
 
 # 新增資源的重要步驟{#key-steps-to-add-a-resource}
 
-若要建立新資源或使用新欄位擴充現有資源，需要執行幾個步驟：
+若要建立新資源或使用新欄位擴充現有資源，需要執行數個步驟：
 
 1. [建立或擴充資源](../../developing/using/creating-or-extending-the-resource.md)
 1. [設定資源的資料結構](../../developing/using/configuring-the-resource-s-data-structure.md)

@@ -44,7 +44,7 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
  <tbody> 
   <tr> 
    <td> <p> 自Campaign Standard第21.3發行版本開始，已棄用與Audience Destinations服務整合。 </p>
-   <p>若為新的實作，您無法再將Audience Destinations服務與Adobe Campaign Standard整合。 不過，您可以透過來源和目的地整合Campaign和Adobe Experience Platform。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html">了解更多</a>。</p>
+   <p>若為新的實作，您將無法再整合Audience Destinations服務與Adobe Campaign Standard。 不過，您可以透過來源和目的地整合Campaign和Adobe Experience Platform。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html">了解更多</a>。</p>
      <em>目標移除日期：2023 年</em></p>
      </td> 
   </tr> 
@@ -60,7 +60,7 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
  <tbody> 
   <tr> 
    <td> <p> 自Campaign Standard第21.3發行版本開始，已棄用與Adobe Experience Platform Data Connector整合。 </p>
-   <p>若為新的實作，您無法再將Adobe Experience Platform Data Connector與Adobe Campaign Standard整合。 不過，您可以透過來源和目的地整合Campaign和Adobe Experience Platform。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html">了解更多</a>。</p>
+   <p>若為新的實作，您無法再整合Adobe Experience Platform資料聯結器與Adobe Campaign Standard。 不過，您可以透過來源和目的地整合Campaign和Adobe Experience Platform。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html">了解更多</a>。</p>
      <em>目標移除日期：2023 年</em></p>
      </td> 
   </tr> 
@@ -112,8 +112,8 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
  <tbody> 
   <tr> 
    <td> <p> 自Campaign第20.1發行版本開始，已棄用SDK v4。 <a href="https://developer.adobe.com/client-sdks/documentation/v4-end-of-life-faq/">了解更多</a>。</p><br/>
-   <p>此 <a href="https://developer.adobe.com/client-sdks/documentation/">Adobe Experience Platform Mobile SDK</a> （先前稱為v5）現在獨家支援即將推出的Adobe Experience Cloud功能。</p>
-   <p>2021年8月31日後，客戶可以繼續下載及使用第4版SDK，但將無法獲得客戶服務支援或存取論壇。</p>
+   <p>此 <a href="https://developer.adobe.com/client-sdks/documentation/">Adobe Experience Platform Mobile SDK</a> （先前稱為v5）現在僅支援即將推出的Adobe Experience Cloud功能。</p>
+   <p>2021年8月31日後，客戶可以繼續下載及使用第4版SDK，但將無法取得客戶服務支援或存取論壇。</p>
    <p>瞭解如何從SDK v4移轉至Adobe Experience Platform Mobile SDK <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">在此頁面中</a>.</p></br>
      </td> 
   </tr> 
@@ -143,8 +143,8 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> 自2021年4月起，「預測性主旨行」功能將停止支援。</p><br/>
-   <p>我們建議您運用AI支援的電子郵件功能，根據歷史參與量度來分析和預測開放率、最佳傳送時間和可能的流失率。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html">了解更多</a></p></br>
+   <td> <p> 自2021年4月起，「預測性主旨列」功能將停止服務。</p><br/>
+   <p>我們建議您利用AI支援的電子郵件功能，根據歷史參與量度來分析和預測開放率、最佳傳送時間和可能的流失率。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html">了解更多</a></p></br>
      </td> 
   </tr> 
   </tbody> 
@@ -173,7 +173,7 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Creative SDK]  已終止服務。因此，影像版本由 [!DNL Creative SDK] 自Campaign 20.2發行版本開始，已無法再使用Campaign Standard中的電子郵件。</p></br>
+   <td> <p>[!DNL Adobe Creative SDK]  已終止服務。因此，影像版本採用 [!DNL Creative SDK] 自Campaign 20.2發行版本開始，不再提供Campaign Standard中的電子郵件。</p></br>
    </td> 
   </tr> 
  </tbody> 

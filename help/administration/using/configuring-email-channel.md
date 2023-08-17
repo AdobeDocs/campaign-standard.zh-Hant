@@ -1,6 +1,6 @@
 ---
 title: 在 Adobe Campaign Standard 中設定電子郵件通道
-description: 瞭解如何在Adobe Campaign Standard中設定電子郵件頻道
+description: 瞭解如何在Adobe Campaign Standard中設定電子郵件通道
 audience: administration
 feature: Instance Settings
 role: Admin
@@ -15,7 +15,7 @@ ht-degree: 62%
 
 # 設定電子郵件頻道{#configuring-email-channel}
 
-身為 Campaign [管理員](../../administration/using/users-management.md#functional-administrators)，您可以進行電子郵件通道設定。這些進階設定包含一般電子郵件通道參數、電子郵件路由帳戶、電子郵件處理規則和電子郵件屬性。在本頁中，瞭解如何編輯一般電子郵件和傳送引數的預設值。
+身為 Campaign [管理員](../../administration/using/users-management.md#functional-administrators)，您可以進行電子郵件通道設定。這些進階設定包含一般電子郵件通道參數、電子郵件路由帳戶、電子郵件處理規則和電子郵件屬性。在本頁瞭解如何編輯一般電子郵件和傳送引數的預設值。
 
 ## 電子郵件通道參數 {#email-channel-parameters}
 
@@ -25,7 +25,7 @@ ht-degree: 62%
 
 * **授權遮罩欄位**
 
-   **[!UICONTROL Header parameters of sent emails]** 小節列出您可用於傳送電子郵件給收件者（寄件者地址），並讓他們傳回自動回覆的電子郵件地址，例如非同步退件、休假回覆等。（錯誤地址）。Adobe Campaign 會檢查所輸入的地址在訊息準備階段期間是否有效。此操作模式可確保不使用任何可能觸發傳送能力問題的地址。
+  **[!UICONTROL Header parameters of sent emails]** 小節列出您可用於傳送電子郵件給收件者（寄件者地址），並讓他們傳回自動回覆的電子郵件地址，例如非同步退件、休假回覆等。（錯誤地址）。Adobe Campaign 會檢查所輸入的地址在訊息準備階段期間是否有效。此操作模式可確保不使用任何可能觸發傳送能力問題的地址。
    * 寄件者和錯誤位址皆由 Adobe 設定。那些欄位不可為空白。
    * 您無法編輯那些欄位。若要更新地址，請聯絡 Adobe 客戶服務團隊。
    * 若要新增其他地址，您可以使用 [Campaign控制面板](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=zh-Hant) 以設定新的子網域，或聯絡Adobe客戶服務團隊。 請注意，如果使用數個遮罩，則會以逗號分隔。
@@ -33,39 +33,39 @@ ht-degree: 62%
 
 * **傳送能力**
 
-   **[!UICONTROL Delivery reports ID]** 是由 Adobe 客戶服務團隊提供。其會使用技術傳送能力報告中使用的傳送能力 ID 來識別每個執行個體。
-   <!--The Technical Deliverability report is not accessible through the UI in ACS. It will be replaced with 250ok in the future (project starting).-->
+  **[!UICONTROL Delivery reports ID]** 是由 Adobe 客戶服務團隊提供。其會使用技術傳送能力報告中使用的傳送能力 ID 來識別每個執行個體。
+  <!--The Technical Deliverability report is not accessible through the UI in ACS. It will be replaced with 250ok in the future (project starting).-->
 
 * **傳送參數**
 
-   Adobe Campaign 會從開始日期開始傳送訊息。
+  Adobe Campaign 會從開始日期開始傳送訊息。
 
-   當傳送中的訊息因暫時錯誤或軟退信而遭到拒絕時，Campaign會每天重試傳送此訊息。 使用 **[!UICONTROL Message delivery duration]** 指定重試期間時間範圍的欄位。
+  當傳送中的訊息因暫時錯誤或軟退信而遭到拒絕時，Campaign會每天重試傳送此訊息。 使用 **[!UICONTROL Message delivery duration]** 指定重試期間時間範圍的欄位。
 
-   >[!IMPORTANT]
-   >
-   >**現在，只有當設定為 3.5 天或更短時間時，才會在 Campaign 中使用此參數。** 如果您定義的值超過　3.5　天，則不會考慮該值。
+  >[!IMPORTANT]
+  >
+  >**現在，只有當設定為 3.5 天或更短時間時，才會在 Campaign 中使用此參數。** 如果您定義的值超過　3.5　天，則不會考慮該值。
 
-   **[!UICONTROL Online resources validity duration]** 欄位是用於上傳的資源，主要用於鏡像頁面和影像。本頁上的資源在限定時間內有效（以節省磁碟空間）。
+  **[!UICONTROL Online resources validity duration]** 欄位是用於上傳的資源，主要用於鏡像頁面和影像。本頁上的資源在限定時間內有效（以節省磁碟空間）。
 
 * **重試次數**
 
-   暫時未傳送的郵件可能會自動重試。如需詳細資訊，請參閱[傳送暫時失敗後重試](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)。
+  暫時未傳送的郵件可能會自動重試。如需詳細資訊，請參閱[傳送暫時失敗後重試](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)。
 
-   >[!IMPORTANT]
-   >
-   >要執行的最大重試次數和重試之間的最小延遲現在取決於IP在給定網域名的歷史和目前執行狀況。 此 **[!UICONTROL Retry period]** 和 **[!UICONTROL Number of retries]** 將忽略Campaign中的設定。
+  >[!IMPORTANT]
+  >
+  >要執行的最大重試次數和重試之間的最小延遲現在取決於IP在歷史和目前指定網域的執行狀況。 此 **[!UICONTROL Retry period]** 和 **[!UICONTROL Number of retries]** 將忽略Campaign中的設定。
 
-   <!--This section indicates how many retries should be performed the day after the send is started (**Number of retries**) and the minimum delay between retries (**Retry period**). By default, five retries are scheduled for the first day with a minimum interval of one hour, spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Delivery parameters]** section.-->
+  <!--This section indicates how many retries should be performed the day after the send is started (**Number of retries**) and the minimum delay between retries (**Retry period**). By default, five retries are scheduled for the first day with a minimum interval of one hour, spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Delivery parameters]** section.-->
 
 * **電子郵件隔離參數**
 
-   在欄位 **[!UICONTROL Time between two significant errors]** 中輸入值，以定義應用程式在發生軟退信失敗時增加錯誤計數器之前等待的時間。1 天的預設值是 **&quot;1d&quot;**。
+  在欄位 **[!UICONTROL Time between two significant errors]** 中輸入值，以定義應用程式在發生軟退信失敗時增加錯誤計數器之前等待的時間。1 天的預設值是 **&quot;1d&quot;**。
 
-   達到值 **[!UICONTROL Maximum number of errors before quarantine]** 時，則會隔離電子郵件地址。預設值為 **「5」**：第5個錯誤導致該地址被隔離。 這表示該在後續傳送時將自動排除該聯絡人。
-   <!--Actually the way ACS works is that the address is already on the quarantine list on the first bounce, but with a different status meaning that the error count has started.-->
+  達到值 **[!UICONTROL Maximum number of errors before quarantine]** 時，則會隔離電子郵件地址。預設值為 **「5」**：發生第五個錯誤時，會隔離該地址。 這表示該在後續傳送時將自動排除該聯絡人。
+  <!--Actually the way ACS works is that the address is already on the quarantine list on the first bounce, but with a different status meaning that the error count has started.-->
 
-   如需隔離的詳細資訊，請參閱[瞭解隔離管理](../../sending/using/understanding-quarantine-management.md)。
+  如需隔離的詳細資訊，請參閱[瞭解隔離管理](../../sending/using/understanding-quarantine-management.md)。
 
 ## 電子郵件路由帳戶 {#email-routing-accounts}
 
@@ -85,9 +85,9 @@ ht-degree: 62%
 
 >[!IMPORTANT]
 >
->電子郵件網域和MX規則現在會自動管理<!--by the Adobe Campaign Enhanced MTA (Message Transfer Agent)--> 和無法變更。
+>電子郵件網域及MX規則現在會自動管理<!--by the Adobe Campaign Enhanced MTA (Message Transfer Agent)--> 且無法變更。
 
-* **DKIM （DomainKeys已識別的郵件）** 所有網域的所有郵件都會完成電子郵件驗證簽署。 它不會使用簽署 **寄件者ID**， **網域索引鍵**，或 **S/MIME**.
+* **DKIM （DomainKeys已識別的郵件）** 具有所有網域的所有郵件都會完成電子郵件驗證簽署。 它不會以簽署 **寄件者ID**， **網域索引鍵**，或 **S/MIME**.
 * MX規則會根據您過去的電子郵件信譽，以及您傳送電子郵件之網域所提供的即時回饋，自動依網域自訂您的輸送量。
 
 <!--Note that the email domains and the MX rules are now managed by the Adobe Campaign Enhanced MTA:
@@ -102,7 +102,7 @@ ht-degree: 62%
 
 >[!IMPORTANT]
 >
->Adobe Campaign Enhanced MTA現在會限定同步傳送失敗錯誤訊息，進而決定退信型別和限定，並將該資訊傳回至Campaign。
+>Adobe Campaign Enhanced MTA現在會限定同步傳送失敗錯誤訊息，以決定退信型別和限定，並將該資訊傳回至Campaign。
 
 有關退信限定的詳細資訊，請參閱[本節](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)。
 
@@ -142,9 +142,9 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 >
 >ID 必須是唯一的。
 
-使用 **[!UICONTROL Brand]** 欄位以選取連結至傳遞的品牌。 有關使用和設定品牌的詳細資訊，請參閱[「品牌](../../administration/using/branding.md)」一節。
+使用 **[!UICONTROL Brand]** 欄位以選取連結至傳送的品牌。 有關使用和設定品牌的詳細資訊，請參閱[「品牌](../../administration/using/branding.md)」一節。
 
-在 **[!UICONTROL Campaign]** 欄位中，輸入與電子郵件相關聯的行銷活動。
+在 **[!UICONTROL Campaign]** 欄位中，輸入與電子郵件關聯的促銷活動。
 
 您也可以在對應欄位中新增 **[!UICONTROL Description]**，並編輯清單中電子郵件縮圖上顯示的影像。
 
@@ -158,7 +158,7 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 
 >[!IMPORTANT]
 >
->重試之間的最小延遲和執行重試的最大次數，現在取決於IP在指定網域中過去和現在的執行狀況。 此 **[!UICONTROL Retry period]** 和 **[!UICONTROL Max. number of retries]** 將忽略Campaign中的設定。
+>重試之間的最小延遲和要執行的最大重試次數，現在取決於IP在歷史和目前指定網域的執行狀況。 此 **[!UICONTROL Retry period]** 和 **[!UICONTROL Max. number of retries]** 將忽略Campaign中的設定。
 
 在 Campaign 中設定的&#x200B;**傳送持續期間設定**（在[有效期間參數](#validity-period-parameters)區段中定義）**仍將接受，但最多只能接受　3.5　天**。此時，重試佇列中的任何郵件都會從佇列中移除，並以退信的形式傳回。如需傳送失敗的詳細資訊，請參閱[本節](../../sending/using/understanding-delivery-failures.md#about-delivery-failures)。
 
@@ -169,15 +169,15 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 * **使用收件者偏好設定**（預設模式）：郵件格式的定義是根據儲存在收件人設定檔中的資料定義，並預設會儲存在 **Email format** 欄位　(@emailFormat)　中。如果收件者希望以特定格式接收郵件，則此格式為傳送的格式。如果欄位尚未完成，則會傳送替代的多重部分郵件（請參閱下文）。
 * **讓收件者郵件用戶端選取最適合的格式（替代的多重部分）**：郵件包含兩種格式：文字和　HTML。接收時顯示的格式視收件人的郵件軟體（替代的多重部分）的設定而定。
 
-   >[!IMPORTANT]
-   >
-   >此選項包含兩個版本的郵件。因此，它會影響傳送輸送量，因為郵件大小較大。
+  >[!IMPORTANT]
+  >
+  >此選項包含兩個版本的郵件。因此，它會影響傳送輸送量，因為郵件大小較大。
 
 * **以文字格式傳送所有郵件**：郵件會以文字格式傳送。將不會傳送　HTML　格式，但只有當收件者按一下郵件中的連結時，才會用於鏡像頁面。
 
 #### SMTP　測試模式 {#smtp-test-mode}
 
-使用 **[!UICONTROL Enable SMTP test mode]** 用於測試透過SMTP連線傳送的電子郵件，而不實際傳送郵件的選項。 處理傳遞直到連線到 SMTP 伺服器，但不傳送：對於傳遞的每個收件者，Campaign 會連線到 SMTP 提供者伺服器，執行 SMTP RCPT TO 命令，並在 SMTP DATA 命令之前關閉連線。
+使用 **[!UICONTROL Enable SMTP test mode]** 用於測試透過SMTP連線傳送的電子郵件，而不會實際傳送郵件的選項。 處理傳遞直到連線到 SMTP 伺服器，但不傳送：對於傳遞的每個收件者，Campaign 會連線到 SMTP 提供者伺服器，執行 SMTP RCPT TO 命令，並在 SMTP DATA 命令之前關閉連線。
 
 ![](assets/smtp-test-mode.png)
 
@@ -200,17 +200,17 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 
 * **[!UICONTROL Explicitly set validity dates]**：取消核取此方塊時，您必須在 **[!UICONTROL Delivery duration]** 及 **[!UICONTROL Resource validity limit]** 欄位中輸入持續時間。
 
-   如果您想要定義特定的時間和日期，請核取此方塊。
+  如果您想要定義特定的時間和日期，請核取此方塊。
 
-   ![](assets/delivery-set-explicit-dates.png)
+  ![](assets/delivery-set-explicit-dates.png)
 
-* **[!UICONTROL Delivery duration]** / **[!UICONTROL Validity limit for sending messages]**：Adobe Campaign　會從開始日期開始傳送訊息。使用此欄位可指定可傳送訊息的期間。
+* **[!UICONTROL Delivery duration]** / **[!UICONTROL Validity limit for sending messages]**：Adobe Campaign　會從開始日期開始傳送訊息。使用此欄位來指定可傳送訊息的期間。
 
-   >[!IMPORTANT]
-   >
-   >**您必須定義最多　3.5　天的值。** 如果您設定的值超過3.5天，則不會考慮該值。
-   >
-   >**[!UICONTROL Delivery duration]** 參數不適用於異動訊息。如需異動訊息的詳細資訊，請參閱[本節](../../channels/using/getting-started-with-transactional-msg.md)。
+  >[!IMPORTANT]
+  >
+  >**您必須定義最多　3.5　天的值。** 如果您設定的值超過3.5天，則不會考慮該值。
+  >
+  >**[!UICONTROL Delivery duration]** 參數不適用於異動訊息。如需異動訊息的詳細資訊，請參閱[本節](../../channels/using/getting-started-with-transactional-msg.md)。
 
 * **[!UICONTROL Resource validity duration]** / **[!UICONTROL Validity limit date for resources]**：此欄位是用於上傳的資源，主要用於鏡像頁面和影像。本頁上的資源在限定時間內有效（以節省磁碟空間）。
 * **[!UICONTROL Mirror page management]**：鏡像頁面是可透過網頁瀏覽器線上存取的　HTML　頁面。其內容與電子郵件內容相同。依預設，如果將連結插入郵件內容中，則會產生鏡像頁面。使用此欄位來修改產生此頁面的方式：
@@ -220,19 +220,20 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
    * **不要產生鏡像頁面**：不會產生任何鏡像頁面，即使郵件中已經有連結亦然。
    * **產生僅可使用郵件　ID　存取的鏡像頁面**：此選項可讓您在傳送記錄視窗中存取包含個人化資訊的鏡像頁面內容。
 
-   >[!IMPORTANT]
-   >
-   >只有在已為電子郵件定義HTML內容時，才會產生映象頁面。
+  >[!IMPORTANT]
+  >
+  >只有在已為電子郵件定義HTML內容時，才會產生映象頁面。
+  >
 
 
 ### 追蹤參數 {#tracking-parameters}
 
 **[!UICONTROL Tracking]** 一節包含下列參數：
 
-* **[!UICONTROL Activate tracking]**：使用此選項來啟用/停用訊息URL追蹤。 若要管理每個郵件 URL 的追蹤，請使用「電子郵件設計工具」動作列中的 **[!UICONTROL Links]** 圖示。請參閱[關於追蹤的 URL](../../designing/using/links.md#about-tracked-urls)。
-* **[!UICONTROL Tracking validity limit]**：使用此選項可定義在URL上啟用追蹤的持續時間。
+* **[!UICONTROL Activate tracking]**：使用此選項來啟用/停用郵件URL追蹤。 若要管理每個郵件 URL 的追蹤，請使用「電子郵件設計工具」動作列中的 **[!UICONTROL Links]** 圖示。請參閱[關於追蹤的 URL](../../designing/using/links.md#about-tracked-urls)。
+* **[!UICONTROL Tracking validity limit]**：此選項可定義要對URL啟動追蹤的持續時間。
 * **[!UICONTROL Substitution URL for expired URLs]**：使用此選項可輸入後援網頁的URL：追蹤過期後就會顯示。
-* **[!UICONTROL Use tracking pixel at the top of email]**：使用此選項可將追蹤畫素移動至電子郵件頂端而非底部。 依預設，此畫素位於電子郵件底部。 如果您傳送大型訊息，請考慮將此畫素移動至電子郵件頂端而非底部，以改善開啟追蹤，否則有些電子郵件提供者可能會剪下追蹤畫素。
+* **[!UICONTROL Use tracking pixel at the top of email]**：使用此選項可將追蹤畫素移動至電子郵件頂端而非底部。 依預設，此畫素位於電子郵件底部。 如果您傳送大型訊息，請考慮將此畫素移動至電子郵件頂端而非底部，以改進開啟追蹤，否則有些電子郵件提供者可能會剪下追蹤畫素。
 
 ### 高級參數 {#advanced-parameters}
 
@@ -248,7 +249,7 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 
 #### 目標內容 {#target-context}
 
-使用目標定位內容來定義一組表格，這些表格將用於電子郵件目標定位（在對象定義畫面中）和個人化(在HTML內容編輯器中定義個人化欄位)。
+使用目標定位內容來定義一組表格，這些表格將用於進行電子郵件目標定位（在對象定義畫面中）和個人化(在HTML內容編輯器中定義個人化欄位)。
 
 #### 路由 {#routing}
 
@@ -264,13 +265,13 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 
 * **[!UICONTROL Typology]**：在任何傳送作業之前，必須準備郵件，才能驗證內容和設定。在&#x200B;**類型**&#x200B;中定義準備階段期間，會套用驗證規則。例如，對於電子郵件，準備涉及檢查主題、URL 和影像等。選取要在此欄位套用的類型。
 
-   >[!NOTE]
-   >
-   >可透過「**[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]**」功能表存取的類型，會顯示在[本節](../../sending/using/about-typology-rules.md)中。
+  >[!NOTE]
+  >
+  >可透過「**[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]**」功能表存取的類型，會顯示在[本節](../../sending/using/about-typology-rules.md)中。
 
-* **[!UICONTROL Compute the label during delivery preparation]**：此選項可在訊息準備階段期間，使用個人化欄位、內容區塊和動態文字來計算電子郵件的標籤值。
+* **[!UICONTROL Compute the label during delivery preparation]**：此選項可在郵件準備階段期間，使用個人化欄位、內容區塊和動態文字來計算電子郵件的標籤值。
 
-   也可以使用已宣告至工作流程外部訊號活動的事件變數，以個人化傳送標籤。如需詳細資訊，請參閱[本區段](../../automating/using/calling-a-workflow-with-external-parameters.md)。
+  也可以使用已宣告至工作流程外部訊號活動的事件變數，以個人化傳送標籤。如需詳細資訊，請參閱[本區段](../../automating/using/calling-a-workflow-with-external-parameters.md)。
 
 * **[!UICONTROL Save SQL queries in the log]**：使用此選項可在準備階段期間，將SQL查詢記錄檔新增至日誌。
 
@@ -286,19 +287,19 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 * **[!UICONTROL Bounce mails]**：依預設，會在平台的錯誤收件匣中接收退信郵件（在「**[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email]** > **[!UICONTROL Configuration]**」畫面中定義）。若要定義電子郵件的特定錯誤地址，請在　**[!UICONTROL Error address]**　欄位中輸入該地址。
 * **[!UICONTROL Additional SMTP headers]**：此選項可將其他　SMTP　標頭新增至您的郵件中。在　**[!UICONTROL Headers]**　欄位中輸入的指令碼必須參照每行一個標題，其形式為 **name:value**。如有必要，會自動對值編碼。
 
-   >[!IMPORTANT]
-   >
-   >會為進階使用者保留新增指令碼，以便插入其他 SMTP 標題。此指令碼的語法必須符合以下內容類型的要求：沒有未使用的空間，沒有空行等。
+  >[!IMPORTANT]
+  >
+  >會為進階使用者保留新增指令碼，以便插入其他 SMTP 標題。此指令碼的語法必須符合以下內容類型的要求：沒有未使用的空間，沒有空行等。
 
 ### 存取授權參數清單 {#list-of-access-authorization-parameters}
 
 **[!UICONTROL Access authorization]** 一節包含下列參數：
 
-* 此 **[!UICONTROL Organizational unit]** 欄位可用來限制特定使用者存取此電子郵件。 與指定單位或上層單位相關聯的使用者會擁有此電子郵件的讀寫存取權限。與下層單位相關聯的使用者將只具有對此電子郵件的讀取存取權限。
+* 此 **[!UICONTROL Organizational unit]** 欄位是用來限制特定使用者存取此電子郵件。 與指定單位或上層單位相關聯的使用者會擁有此電子郵件的讀寫存取權限。與下層單位相關聯的使用者將只具有對此電子郵件的讀取存取權限。
 
-   >[!NOTE]
-   >
-   >您可以透過「**管理** > **使用者與安全性**」功能表設定組織單位。
+  >[!NOTE]
+  >
+  >您可以透過「**管理** > **使用者與安全性**」功能表設定組織單位。
 
 * 會自動完成 **[!UICONTROL Created by]**、**[!UICONTROL Created]**、**[!UICONTROL Modified by]** 及 **[!UICONTROL Last modified]** 欄位。
 
@@ -308,40 +309,40 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 
 ### 重試次數 {#legacy-retries}
 
-此 **[!UICONTROL Retries]** 中的設定 [設定功能表](#email-channel-parameters) 和 [傳送引數](#retries-parameters) 電子郵件屬性的，指出在開始傳送後一天內應執行幾次重試(**[!UICONTROL Number of retries]** / **[!UICONTROL Max. number of retries]**)和兩次重試之間的最小延遲(**[!UICONTROL Retry period]**)。
+此 **[!UICONTROL Retries]** 中的設定 [設定功能表](#email-channel-parameters) 和 [傳送引數](#retries-parameters) 電子郵件屬性的數目，指出在開始傳送後一天內應執行幾次重試(**[!UICONTROL Number of retries]** / **[!UICONTROL Max. number of retries]**)和兩次重試之間的最小延遲(**[!UICONTROL Retry period]**)。
 
 重試次數可全域變更(請聯絡您的Adobe技術管理員)，或針對每個傳遞或傳遞範本進行變更。
 
-依預設，第一天排程五次重試，最小間隔為一小時，分佈在一天中的24小時。 每天一次重試的設定在此之後並一直到傳送期限（在中全域定義）。 **[!UICONTROL Delivery parameters]** 部分 **[!UICONTROL Configuration]** 功能表，或在 **[!UICONTROL Validity period]** 區段在傳遞層級(請參閱 [傳遞期間](#legacy-delivery-duration) 區段)。
+依照預設，第一天會排程五次重試，最小間隔為一小時，分佈在一天中的24小時。 之後及傳送期限之前，每天都會設定一次重試；傳送期限在中全域定義 **[!UICONTROL Delivery parameters]** 的區段 **[!UICONTROL Configuration]** 功能表，或 **[!UICONTROL Validity period]** 區段在傳送層級(請參閱 [傳遞期間](#legacy-delivery-duration) 區段)。
 
 ### 傳遞期間 {#legacy-delivery-duration}
 
-使用 **[!UICONTROL Message delivery duration]** 中的引數 [設定功能表](#email-channel-parameters) 指定傳送中遇到暫時性錯誤或軟退信之任何訊息的重試時間範圍。
+使用 **[!UICONTROL Message delivery duration]** 中的引數 [設定功能表](#email-channel-parameters) 指定傳送中遇到暫時錯誤或軟退信之任何郵件會重試的時間範圍。
 
-使用 **[!UICONTROL Delivery duration]** 或 **[!UICONTROL Validity limit for sending messages]** 中的引數 [有效期間引數](#validity-period-parameters) 區段來指定可以傳送訊息的持續時間。
+使用 **[!UICONTROL Delivery duration]** 或 **[!UICONTROL Validity limit for sending messages]** 中的引數 [有效期間引數](#validity-period-parameters) 區段來指定可以傳送訊息的期間。
 
 ### 電子郵件處理規則 {#legacy-email-processing-rules}
 
-此 **[!UICONTROL MX management]**， **[!UICONTROL Bounce mails]** 和 **[!UICONTROL Domain management]** 管理員可透過以下方式存取及修改規則： **[!UICONTROL Administration > Channels > Email > Email processing rules]** 功能表。 [了解更多](#email-processing-rules)。
+此 **[!UICONTROL MX management]**， **[!UICONTROL Bounce mails]** 和 **[!UICONTROL Domain management]** 管理員可以透過存取及修改規則 **[!UICONTROL Administration > Channels > Email > Email processing rules]** 功能表。 [了解更多](#email-processing-rules)。
 
 ### 退回郵件資格 {#legacy-bounce-mail-qualification}
 
-若要列出各種跳出及其關聯的錯誤型別和原因，請按一下 **Adobe** 標誌，在左上方，然後選取 **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
+若要列出各種退信及其相關的錯誤型別和原因，請按一下 **Adobe** 標誌，在左上方，然後選取 **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
 
-彈回可以有下列資格狀態：
+退信可以有下列資格狀態：
 
-* **[!UICONTROL To qualify]**：需要限定退信件。 驗證必須由傳遞能力團隊完成，以確保平台傳遞能力正常運作。 只要不符合，跳出郵件就不會用來擴充電子郵件處理規則的清單。
-* **[!UICONTROL Keep]**：退信已符合資格，且將由 **傳遞能力更新** 要與現有電子郵件處理規則進行比較並豐富清單的工作流程。
-* **[!UICONTROL Ignore]**：退信已符合資格，但將不會由使用 **傳遞能力更新** 工作流程。 因此不會傳送給使用者端執行個體。
+* **[!UICONTROL To qualify]**：需要限定退信件。 資格必須由傳遞能力團隊完成，以確保平台傳遞能力正常運作。 只要不符合，跳出郵件就不會用來擴充電子郵件處理規則的清單。
+* **[!UICONTROL Keep]**：退信已符合資格，且將由使用 **傳遞能力更新** 與現有的電子郵件處理規則進行比較並豐富清單的工作流程。
+* **[!UICONTROL Ignore]**：退信已合格，但將不會由 **傳遞能力更新** 工作流程。 所以不會傳送給使用者端執行個體。
 
 >[!NOTE]
 >
->如果ISP發生中斷，透過Campaign傳送的電子郵件將錯誤標示為跳出。 若要修正此問題，您必須更新退回資格。 [了解更多](../../administration/using/update-bounce-qualification.md)。
+>如果ISP發生中斷，透過Campaign傳送的電子郵件將會錯誤地標示為跳出。 若要修正此問題，您需要更新退回資格。 [了解更多](../../administration/using/update-bounce-qualification.md)。
 
 <!--Bounces are qualified through the **[!UICONTROL Bounce mails]** processing rule. For more on accessing this rule, refer to this [section](#legacy-bounce-mail-qualification).-->
 
 ### 傳遞的指標報告 {#legacy-delivered-status-report}
 
-在 **[!UICONTROL Summary]** 每則訊息的檢視， **[!UICONTROL Delivered]** 當軟跳出和硬跳出被回報時，百分比會在整個傳遞的有效期內逐步上升。
+在 **[!UICONTROL Summary]** 每則訊息的檢視， **[!UICONTROL Delivered]** 當軟退信和硬退信回報時，百分比會在整個傳遞的有效期內逐步上升。
 
-軟退信顯示為 **[!UICONTROL Failed]** 在傳遞後的第一天。 這些訊息每天都會重試，直到傳送的有效期間結束。
+軟退信顯示為 **[!UICONTROL Failed]** 在傳遞後第一天。 這些訊息每天都會重試，直到傳送的有效期間結束為止。

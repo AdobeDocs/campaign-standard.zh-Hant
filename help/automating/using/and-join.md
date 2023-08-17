@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ---
 
-# AND-join{#and-join}
+# 合併連結{#and-join}
 
 ## 說明 {#description}
 

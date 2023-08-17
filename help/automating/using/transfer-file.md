@@ -58,11 +58,11 @@ ht-degree: 82%
 
    您可以：
 
-   * **[!UICONTROL Delete the source files after transfer]**：清除遠端伺服器上的檔案。 如果未勾選此選項，請務必手動監視SFTP目錄中封存內容的大小。
+   * **[!UICONTROL Delete the source files after transfer]**：清除遠端伺服器上的檔案。 如果未核取此選項，請務必手動監視SFTP目錄中封存內容的大小。
 
-   * **[!UICONTROL Sorting files]**：可讓您以英數字元排序檔案。 此選項預設為停用。
+   * **[!UICONTROL Sorting files]**：可讓您依字母數字排序檔案。 此選項預設為停用。
 
-      <!--**[!UICONTROL Disable passive mode]**: allows you to specify the connection port to be used for data transfer.-->
+     <!--**[!UICONTROL Disable passive mode]**: allows you to specify the connection port to be used for data transfer.-->
 
    * **[!UICONTROL List all files]**：選取「 」時，此選項可供使用 **[!UICONTROL File listing]** 中的動作 **[!UICONTROL General]** 標籤。 它可讓您為 **vars.filenames** event　變數中伺服器上所有檔案建立索引，其中檔案名稱以 **&#39;n&#39;** 字元分隔 。
 
@@ -78,7 +78,7 @@ ht-degree: 82%
 
 HTTP　通訊協定可讓您從外部帳戶或　URL　開始下載檔案。
 
-透過此通訊協定，您可以選擇 **[!UICONTROL Use connection parameters defined in an external account]** 選項。 在此情況下，請選取您需要的帳戶，並指定要下載的檔案路徑。
+使用此通訊協定，您可以選擇 **[!UICONTROL Use connection parameters defined in an external account]** 選項。 在此情況下，請選取您需要的帳戶，並指定要下載的檔案路徑。
 
 
 ![](assets/wkf_file_transfer_03.png)
@@ -92,7 +92,7 @@ HTTP　通訊協定可讓您從外部帳戶或　URL　開始下載檔案。
 
 SFTP　通訊協定可讓您開始從　URL　或外部帳戶下載檔案。
 
-透過此通訊協定，您可以選擇 **[!UICONTROL Use connection parameters defined in an external account]** 選項，然後選取您要的帳戶並指定要下載的檔案路徑。
+使用此通訊協定，您可以選擇 **[!UICONTROL Use connection parameters defined in an external account]** 選項，然後選取您要的帳戶並指定要下載的檔案路徑。
 ![](assets/wkf_file_transfer_07.png)
 
 >[!CAUTION]
@@ -181,11 +181,11 @@ Microsoft Azure Blob　通訊協定可讓您存取位於　Microsoft Azure Blob�
 
 ## 輸出變數 {#output-variables}
 
-此 **[!UICONTROL Transfer file]** 活動會產生事件變數作為輸出，以便您在其他活動中運用，例如使用 [測試](../../automating/using/test.md) 活動。
+此 **[!UICONTROL Transfer file]** 活動會產生事件變數作為輸出，您可以將其用於其他活動，例如使用 [測試](../../automating/using/test.md) 活動。
 
 請注意，事件變數也可以使用外部訊號傳遞至另一個工作流程(請參閱 [使用外部引數自訂工作流程](../../automating/using/customizing-workflow-external-parameters.md))。
 
 可用的輸出變數包括：
 
 * **[!UICONTROL fileName]**：已傳輸檔案的名稱。
-* **[!UICONTROL filesCount]**：已傳輸的檔案數。
+* **[!UICONTROL filesCount]**：傳輸的檔案數。

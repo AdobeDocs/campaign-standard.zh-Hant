@@ -19,18 +19,18 @@ ht-degree: 29%
 
 ## 關於追蹤 {#about-tracking}
 
-藉由Adobe Campaign的追蹤功能，您可以追蹤傳送收件者的行為。 Adobe Campaign 透過工作階段 Cookie 和永久性 Cookie 實現上述功能。
+藉由Adobe Campaign的追蹤功能，您可以追蹤傳遞收件者的行為。 Adobe Campaign 透過工作階段 Cookie 和永久性 Cookie 實現上述功能。
 
-您可以透過授權請求（有時出現在網站頁面中）告知使用者，網站已配備網路追蹤工具並要求使用者選中核取方塊授權使用Cookie，或在使用者登陸的首頁頂端新增橫幅等。 快顯視窗通常會被瀏覽器封鎖，因此應避免使用。
+您可以透過授權請求（有時出現在網站頁面中）告知使用者，網站已配備網路追蹤工具並要求使用者點按核取方塊授權使用Cookie，或在使用者登陸的首頁頂端新增橫幅等。 快顯視窗通常會被瀏覽器封鎖，因此應避免使用。
 
-資料庫中每個連絡人的追蹤資訊都可供使用 **[!UICONTROL integrated customer profiles]**. 如需詳細資訊，請參閱[本章節](../../audiences/using/integrated-customer-profile.md)。
+資料庫中每個連絡人的追蹤資訊都提供給 **[!UICONTROL integrated customer profiles]**. 如需詳細資訊，請參閱[本章節](../../audiences/using/integrated-customer-profile.md)。
 
 Adobe Campaign 使用兩種類型的 Cookie：
 
-* 工作階段Cookie (nlid)。 這包含傳送給連絡人的電子郵件識別碼(broadlogId)和訊息範本識別碼(deliveryId)。 連絡人按一下由 Adobe Campaign 傳送的電子郵件中包含的 URL 後即可添加識別碼，並且允許您追蹤他們在網路上的行為。瀏覽器關閉時，將自動清除工作階段 Cookie。連絡人可以將其瀏覽器設定為拒絕 Cookie。
-* Adobe Experience Cloud解決方案之間共用的Cookie。 此 可讓您識別在 Experience Cloud 解決方案造訪網站時與之互動的使用者。 此Cookie的說明可供使用 [此處](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html).
+* 工作階段Cookie (nlid)。 這包含傳送到聯絡人之電子郵件的識別碼(broadlogId)，以及訊息範本的識別碼(deliveryId)。 連絡人按一下由 Adobe Campaign 傳送的電子郵件中包含的 URL 後即可添加識別碼，並且允許您追蹤他們在網路上的行為。瀏覽器關閉時，將自動清除工作階段 Cookie。連絡人可以將其瀏覽器設定為拒絕 Cookie。
+* 在Adobe Experience Cloud解決方案之間共用的Cookie。 此 可讓您識別在 Experience Cloud 解決方案造訪網站時與之互動的使用者。 此Cookie的說明可供使用 [此處](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html).
 
-透過Adobe Campaign Standard進行追蹤可讓您存取下列功能：
+使用Adobe Campaign Standard進行追蹤可讓您存取下列功能：
 
 <table>
 <tr>
@@ -61,7 +61,7 @@ Adobe Campaign 使用兩種類型的 Cookie：
 
 ## 追蹤記錄 {#tracking-logs}
 
-此 **[!UICONTROL Tracking logs]** 索引標籤會列出此傳送的追蹤記錄。 此標籤會顯示已傳送訊息的追蹤資訊，例如Adobe Campaign已追蹤的所有URL。 此標籤中的追蹤資訊每10分鐘更新一次。
+此 **[!UICONTROL Tracking logs]** 索引標籤會列出此傳送的追蹤記錄。 此索引標籤會顯示已傳送訊息的追蹤資訊，例如Adobe Campaign已追蹤的所有URL。 此標籤中的追蹤資訊每10分鐘更新一次。
 
 >[!NOTE]
 >
@@ -72,8 +72,8 @@ Adobe Campaign 使用兩種類型的 Cookie：
 在上述範例中，收件者：
 
 * 已開啟訊息。
-* 已按一下映象頁面連結。
-* 已按一下「瞭解更多」自訂連結。
+* 按一下映象頁面連結。
+* 按一下「瞭解更多」自訂連結。
 
 在 **[!UICONTROL Type]** 欄，可能的值包括：
 

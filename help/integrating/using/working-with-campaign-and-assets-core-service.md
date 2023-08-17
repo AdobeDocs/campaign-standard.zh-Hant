@@ -17,7 +17,7 @@ ht-degree: 9%
 
 # 使用 Campaign 與 Assets 核心服務{#working-with-campaign-and-assets-core-service}
 
-將Assets核心服務或Assets on Demand (取決於Adobe Experience Cloud環境的設定)與Adobe Campaign整合，可讓您在Adobe Campaign電子郵件和登陸頁面中使用Adobe Experience Cloud內共用的任何資產。
+將Assets核心服務或Assets on Demand (取決於Adobe Experience Cloud環境的設定)與Adobe Campaign整合，可讓您在Adobe Campaign電子郵件和登陸頁面中，使用Adobe Experience Cloud內共用的任何資產。
 
 與Assets核心服務的整合僅限於 [功能管理員](../../administration/using/users-management.md#functional-administrators).
 

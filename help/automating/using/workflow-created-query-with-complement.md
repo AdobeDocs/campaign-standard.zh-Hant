@@ -1,6 +1,6 @@
 ---
 title: 使用補數來建立傳遞
-description: 此使用案例顯示如何使用補充來建立傳送。
+description: 此使用案例顯示如何建立具備輔助功能的傳送。
 audience: automating
 content-type: reference
 topic-tags: execution-activities
@@ -18,13 +18,13 @@ ht-degree: 41%
 
 # 使用補數來建立傳遞 {#deliveries-with-complement}
 
-您可以傳送電子郵件給客戶：一個用於不到一年前建立的客戶，另一個用於超過一年前建立的客戶。
+您可以傳送電子郵件給客戶：一個適用於不到一年前建立的客戶，另一個適用於超過一年前建立的客戶。
 
 1. 在 **[!UICONTROL Marketing Activities]** 中，按一下 **[!UICONTROL Create]** 並選取 **[!UICONTROL Workflow]**。
 1. 選取 **[!UICONTROL New Workflow]** 作為工作流程類型，並按一下 **[!UICONTROL Next]**。
 1. 輸入工作流程的屬性並按一下 **[!UICONTROL Create]**。
 
-## 建立查詢活動 {#create-a-query-activity}
+## 建立「查詢」活動 {#create-a-query-activity}
 
 1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Targeting]** 中，拖放[查詢](../../automating/using/query.md)活動。
 1. 連按兩下此活動。
@@ -37,7 +37,7 @@ ht-degree: 41%
 ## 建立細分活動 {#create-a-segmentation-activity}
 
 1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**，拖放 [細分](../../automating/using/segmentation.md) 活動並連按兩下。
-1. 暫留在區段上，然後按一下 ![](assets/edit_darkgrey-24px.png) ，以定位今年新增到資料庫中的客戶。
+1. 將游標暫留在區段上，然後按一下 ![](assets/edit_darkgrey-24px.png) ，以定位今年在資料庫中新增的客戶。
 1. 拖放 **[!UICONTROL Profiles]** 並選取 **[!UICONTROL Created]** 使用篩選器型別 **[!UICONTROL Relative]**.
 1. 變更 **[!UICONTROL Level of precision]** 至 **[!UICONTROL Year]** 並選取 **[!UICONTROL This year]**.
 1. 按兩下 **[!UICONTROL Confirm]**。
@@ -60,7 +60,7 @@ ht-degree: 41%
 1. 輸入電子郵件屬性，然後按一下 **[!UICONTROL Next]**。
 1. 若要建立電子郵件的版面，請按一下 **[!UICONTROL Email Designer]**。
 1. 插入元素或選取現有範本。
-1. 使用每個傳遞的特定優惠方案個人化您的電子郵件。
+1. 使用每個傳遞專屬的優惠，個人化您的電子郵件。
 1. 按一下 **[!UICONTROL Preview]** 以檢查版面。
 1. 按一下 **[!UICONTROL Save]**。
 

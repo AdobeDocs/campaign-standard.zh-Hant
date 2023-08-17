@@ -1,6 +1,6 @@
 ---
 title: 推播通知傳遞
-description: 推播通知傳送活動可讓您在工作流程中設定傳送單一傳送推播通知或循環推播通知。
+description: 推播通知傳送活動可讓您設定在工作流程中傳送單一傳送推播通知或循環推播通知。
 audience: automating
 content-type: reference
 topic-tags: channel-activities
@@ -23,7 +23,7 @@ ht-degree: 47%
 
 ![](assets/recurrentpush.png)
 
-此 **[!UICONTROL Push notification]** 活動可讓您在工作流程中設定傳送推播通知。 這可以是單一傳送通知，只傳送一次，或是重複通知。
+此 **[!UICONTROL Push notification]** 活動可讓您設定在工作流程中傳送推播通知。 這可以是單一傳送通知，只傳送一次，或是重複通知。
 
 * **單一** 傳送通知是標準的行動應用程式推播通知傳送，只傳送一次。
 * **週期性** 通知可讓您在定義的時段內，多次傳送相同的行動應用程式推播通知傳送至不同的目標。 您可以彙總每個期間的傳送，以取得符合您需求的報表。
@@ -32,7 +32,7 @@ ht-degree: 47%
 
 此 **[!UICONTROL Push notification]** 活動通常用於自動傳送通知至在相同工作流程中計算的目標。
 
-連結至排程器時，您可以定義循環推播通知。
+當連結至排程器時，您可以定義循環推播通知。
 
 收件者是透過查詢、交叉點等定位活動，在相同工作流程中定義活動上游的活動。
 
@@ -54,17 +54,17 @@ ht-degree: 47%
 1. 選取推播通知傳送模式：
 
    * **[!UICONTROL Single notification]**：推播通知只會傳送一次。 您可以在此處指定是否要向活動新增出站轉變。在本過程的步驟 7 中詳細說明不同的轉變類型。
-   * **[!UICONTROL Recurring notification]**：根據()中定義的頻率，推播通知會傳送多次 **[!UICONTROL Scheduler]** 活動。 選取傳送的彙總期間。這可讓您將定義期間發生的所有傳送重新分組，並透過也稱為的單一推播通知進行 **循環執行** 並可從應用程式的行銷活動清單存取。
+   * **[!UICONTROL Recurring notification]**：根據 **[!UICONTROL Scheduler]** 活動。 選取傳送的彙總期間。這可讓您將定義期間發生的所有傳送重新分組，並透過也稱為的單一推播通知執行 **循環執行** 並可從應用程式的行銷活動清單存取和。
 
-      例如，對於每日傳送的循環生日通知，您可以選擇彙總每月的傳送。 這可讓您每月收到傳送的報告，不過通知會每天傳送。
+     例如，對於每日傳送的循環生日通知，您可以選取彙總每月傳送的傳送。 這可讓您每月收到傳送的報告，不過通知會每天傳送。
 
-1. 選取通知型別。 這些型別來自在中定義的推播通知範本 **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** 功能表。
+1. 選取通知型別。 這些型別來自中定義的推播通知範本 **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** 功能表。
 1. 輸入推播通知的一般屬性。 您也可以將它附加至現有的行銷活動。工作流程傳送活動的標籤會以推播通知標籤更新。
 1. 定義推播通知內容。 另請參閱 [建立推播通知](../../channels/using/preparing-and-sending-a-push-notification.md)
 1. 依預設，**[!UICONTROL Push notification]** 活動不包含任何外站轉變。如果要將出站轉變新增到 **[!UICONTROL Push Notification]** 活動中，請轉至高階活動選項的　**[!UICONTROL General]**　索引標籤（活動快速操作中的　![](assets/dlv_activity_params-24px.png)　按鈕），然後核取以下選項之一：
 
    * **[!UICONTROL Add outbound transition without the population]**：這可讓您產生一個外站轉變，其中包含與入站轉變完全相同的母體。
-   * **[!UICONTROL Add outbound transition with the population]**：這可讓您產生一個外站轉變，其中包含接收通知的母體。 傳遞準備期間排除的目標成員會從此轉變中排除。
+   * **[!UICONTROL Add outbound transition with the population]**：這可讓您產生出站轉變，其中包含接收通知的母體。 在傳遞準備期間排除的目標成員會從此轉變中排除。
 
 1. 確認活動的設定並儲存工作流程。
 
@@ -76,4 +76,4 @@ ht-degree: 47%
 
 您可以在應用程式的行銷活動清單中存取在工作流程中建立的傳送。您可以使用控制面板來檢視工作流程的執行狀態。推播通知摘要窗格中的連結可讓您直接存取連結的元素（工作流程、行銷活動等）。
 
-在可從行銷活動清單存取的父傳送中，您可以檢視已處理的傳送總數(根據 **[!UICONTROL Push notification]** 活動已設定)。 若要這麼做，請選取 ![](assets/wkf_dlv_detail_button.png)，以開啟上層傳送 **[!UICONTROL Deployment]** 區塊的詳細資訊檢視。
+在可從行銷活動清單存取的父傳送中，您可以檢視已處理的傳送總數(根據在 **[!UICONTROL Push notification]** 活動已設定)。 若要這麼做，請選取 ![](assets/wkf_dlv_detail_button.png)，以開啟上層傳送 **[!UICONTROL Deployment]** 區塊的詳細資訊檢視。

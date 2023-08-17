@@ -51,7 +51,7 @@ ht-degree: 79%
 
 1. 您也可以在 **[!UICONTROL Add a post-processing stage]** 欄位中選取 **[!UICONTROL Compression]** 以壓縮輸出檔案。輸出檔案將壓縮為 GZIP 檔案 (.gz)。
 
-   此 **[!UICONTROL Add a post-processing stage]** 欄位也可讓您在解壓縮檔案之前先對其進行加密。 有關如何使用加密檔案的詳細資訊，請參閱 [本節](../../automating/using/managing-encrypted-data.md)
+   此 **[!UICONTROL Add a post-processing stage]** 欄位也可讓您在解壓縮檔案之前先加密檔案。 有關如何使用加密檔案的詳細資訊，請參閱 [本節](../../automating/using/managing-encrypted-data.md)
 
 1. 按一下 **[!UICONTROL Create element]** 按鈕以新增輸出欄。
 
@@ -78,7 +78,7 @@ ht-degree: 79%
 
    >[!NOTE]
    >
-   >如果您要將資料擷取至具有特定編碼的CSV檔案，請先選取「文字」輸出格式。 從下拉式清單中選擇所需的編碼，然後將輸出格式變更為「CSV (Excel)」。
+   >如果您想要將資料擷取至具有特定編碼的CSV檔案，請先選取「文字」輸出格式。 從下拉式清單中選擇所需的編碼，然後將輸出格式變更為「CSV (Excel)」。
 
 1. 在 **[!UICONTROL Properties]** 索引標籤中，選取 **[!UICONTROL Do not generate a file if the inbound transition is empty]** 選項，以避免在入站轉變為空時，在 SFTP 伺服器上建立和上傳空白檔案。
 1. 確認活動的設定並儲存工作流程。

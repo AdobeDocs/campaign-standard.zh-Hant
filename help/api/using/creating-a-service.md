@@ -20,9 +20,9 @@ ht-degree: 0%
 
 <br/>
 
-***範例請求***
+***範例要求***
 
-使用特定屬性建立服務的範例POST請求。
+使用特定屬性建立服務的範例POST要求。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/ \

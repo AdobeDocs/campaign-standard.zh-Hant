@@ -1,6 +1,6 @@
 ---
 title: 佈建及設定與 Audience Manager 或 People 核心服務的整合
-description: 瞭解如何設定Audience Manager/People核心服務整合，以便開始與不同的Adobe Experience Cloud解決方案共用受眾或區段。
+description: 瞭解如何設定Audience Manager/人員核心服務整合，以便開始與不同的Adobe Experience Cloud解決方案共用受眾或區段。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
@@ -17,7 +17,7 @@ ht-degree: 10%
 
 # 佈建及設定與 Audience Manager 或 People 核心服務的整合{#integration-with-audience-manager-or-people-core-service}
 
-在Adobe Campaign中布建和設定Audience Manager與People核心需要兩個步驟： [向Adobe提交請求](#submitting-request-to-adobe) 則 [在Adobe Campaign中設定整合](#configuring-the-integration-in-adobe-campaign).
+在Adobe Campaign中布建及設定Audience Manager與People核心需兩個步驟： [正在提交要求給Adobe](#submitting-request-to-adobe) 則 [在Adobe Campaign中設定整合](#configuring-the-integration-in-adobe-campaign).
 
 ## 向 Adobe 提交請求 {#submitting-request-to-adobe}
 
@@ -28,7 +28,7 @@ Audience Manager (AAM)或People核心服務整合可讓您匯入和匯出Adobe C
 <table> 
  <tbody> 
   <tr> 
-   <td> <strong>請求型別：</strong><br /> </td> 
+   <td> <strong>要求型別：</strong><br /> </td> 
    <td> 設定AAM/People核心服務 — Campaign整合 </td> 
   </tr> 
   <tr> 
@@ -44,8 +44,8 @@ Audience Manager (AAM)或People核心服務整合可讓您匯入和匯出Adobe C
    <td> 範例：生產 </td> 
   </tr> 
   <tr> 
-   <td> <strong>AAM或People Service</strong><br /> </td> 
-   <td> 範例： Adobe Audience Manager。 請務必向布建團隊說明您是否擁有Audience Manager授權。</td> 
+   <td> <strong>AAM或People服務</strong><br /> </td> 
+   <td> 範例： Adobe Audience Manager。 無論您是否擁有Audience Manager授權，請務必向布建團隊說明。</td> 
   </tr> 
   <tr> 
    <td> <strong>宣告ID或訪客ID</strong><br /> </td> 
@@ -82,14 +82,14 @@ Audience Manager (AAM)或People核心服務整合可讓您匯入和匯出Adobe C
 1. 輸入 **[!UICONTROL Receiver server]** 以下列格式
 1. 輸入 **[!UICONTROL AWS Access Key ID]**， **[!UICONTROL Secret Access Key]** 和 **[!UICONTROL AWS Region]**.
 
-您的外部帳戶現在已針對此整合進行設定。
+您的外部帳戶現在已針對這項整合進行設定。
 
 ### 步驟2：設定資料來源 {#step-2--configure-the-data-sources}
 
 在Audience Manager中建立下列兩個資料來源： Adobe Campaign (MID)和Adobe Campaign (DeclaredId)。 同時，這兩個資料來源也可在Adobe Campaign中使用：
 
-* **[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]**：這是為訪客ID預設設定的現成資料來源。 從Campaign建立的區段將成為此資料來源的一部分。
-* **宣告ID** 資料來源：此資料來源需要以 **[!UICONTROL DeclaredId]** 來自Audience Manager的資料來源定義。
+* **[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]**：這是訪客ID預設設定的現成資料來源。 從Campaign建立的區段將成為此資料來源的一部分。
+* **宣告ID** 資料來源：此資料來源需要建立並對應至 **[!UICONTROL DeclaredId]** 來自Audience Manager的資料來源定義。
 
 請注意，如果有多個網站使用不同的網域，Adobe Campaign不支援根據ECID進行調解。
 
@@ -110,15 +110,15 @@ Audience Manager (AAM)或People核心服務整合可讓您匯入和匯出Adobe C
 若要建立 **[!UICONTROL Declared ID]** 資料來源：
 
 1. 在 **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Shared Data Sources]**，按一下 **[!UICONTROL Create]** 按鈕。
-1. 編輯 **[!UICONTROL Label]** 資料來源的ID。
-1. 在 **[!UICONTROL Data Source/ Alias]** 從下拉式選單中，選擇對應至 **[!UICONTROL DeclaredID]** 來自Audience Manager的資料來源。
+1. 編輯 **[!UICONTROL Label]** ，屬於您的資料來源。
+1. 在 **[!UICONTROL Data Source/ Alias]** 從下拉式清單中，選擇對應至 **[!UICONTROL DeclaredID]** 來自Audience Manager的資料來源。
 1. 輸入「 」以設定您的資料來源 **[!UICONTROL Data Source / Alias]** 和 **[!UICONTROL AAM Destination ID]** 由Adobe提供。
 1. 設定 **[!UICONTROL Reconciliation process]** 視需要。
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 
 >[!NOTE]
 >
->此 **[!UICONTROL AAM Destination ID]** 如果您要設定的共用資料來源為 [Campaign-Triggers整合](../../integrating/using/configuring-triggers-in-experience-cloud.md). **[!UICONTROL Priority]** 僅在設定Triggers - Campaign整合時需要。 優先順序會決定先設定哪個資料來源。 優先順序可以是任何數字，例如1或100。 優先順序越高，調解期間的偏好設定就越高。
+>此 **[!UICONTROL AAM Destination ID]** 如果您要設定的共用資料來源， [Campaign-Triggers整合](../../integrating/using/configuring-triggers-in-experience-cloud.md). **[!UICONTROL Priority]** 僅在設定觸發程式 — Campaign整合時需要。 優先順序會決定先設定哪個資料來源。 優先順序可以是任何數字，例如1或100。 優先順序越高，調解期間的偏好設定就越高。
 
 ### 步驟3：設定Campaign追蹤伺服器 {#step-3--configure-campaign-tracking-server}
 
@@ -128,6 +128,6 @@ Audience Manager (AAM)或People核心服務整合可讓您匯入和匯出Adobe C
 
 ### 步驟4：設定訪客ID服務 {#step-4--configure-the-visitor-id-service}
 
-如果您的訪客ID服務從未在您的Web屬性或網站上設定過，請參閱以下內容 [檔案](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html) 以瞭解如何設定您的服務或以下專案 [視訊](https://helpx.adobe.com/tw/marketing-cloud/how-to/email-marketing.html#step-two).
+如果您的訪客ID服務從未在您的Web屬性或網站上設定過，請參閱下列內容 [檔案](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html) 以瞭解如何設定您的服務或以下專案 [視訊](https://helpx.adobe.com/tw/marketing-cloud/how-to/email-marketing.html#step-two).
 
-您的設定和布建已完成，整合現在可用於匯入和匯出受眾或區段。
+您的設定和布建已完成，整合現在可用於匯入和匯出對象或區段。

@@ -66,34 +66,34 @@ ht-degree: 100%
 
    * 對於字串或數值&#x200B;**欄位**，請指定比較運算子和值。
 
-      ![](assets/query_editor_audience_definition2.png)
+     ![](assets/query_editor_audience_definition2.png)
 
    * 對於日期或日期和時間&#x200B;**欄位**，您可以選取定義特定日期、兩個日期之間的範圍或與查詢執行日期相關的期間。
 
-      ![](assets/query_editor_date_field.png)
+     ![](assets/query_editor_date_field.png)
 
    * 對於布林&#x200B;**欄位**，選中連結到該欄位可能值的框。
    * 對於&#x200B;**分組**，選取要在其上建立規則的分組欄位，然後以與其他欄位相同的方式定義條件。
 
-      ![](assets/query_editor_audience_definition4.png)
+     ![](assets/query_editor_audience_definition4.png)
 
    * 對於與其他資料庫資源的 **1-1** 連結，請直接從目標表中選取一個值。
 
-      ![](assets/query_editor_audience_definition5.png)
+     ![](assets/query_editor_audience_definition5.png)
 
    * 對於與另一資料庫資源的 **1-N** 連結，可以在此第二個資源的欄位上定義子查詢。
 
-      您不需要指定子條件。
+     您不需要指定子條件。
 
-      例如，您只能在設定檔追蹤記 錄中選取 **[!UICONTROL Exists]** 運算子並核准規則。規則會傳回所有存在追蹤記錄的設定檔。
+     例如，您只能在設定檔追蹤記 錄中選取 **[!UICONTROL Exists]** 運算子並核准規則。規則會傳回所有存在追蹤記錄的設定檔。
 
-      ![](assets/query_editor_audience_definition6.png)
+     ![](assets/query_editor_audience_definition6.png)
 
    * 對於&#x200B;**預先定義的篩選器**，請根據提供的標準輸入或選取所需的元素。
 
-      管理員可以建立篩選器，以方便進行複雜和重複的查詢。這些規則將以預先設定的規則形式出現在查詢編輯器中，並限制使用者需執行的步驟數。
+     管理員可以建立篩選器，以方便進行複雜和重複的查詢。這些規則將以預先設定的規則形式出現在查詢編輯器中，並限制使用者需執行的步驟數。
 
-      ![](assets/query-editor_filter_email-audience_filter.png)
+     ![](assets/query-editor_filter_email-audience_filter.png)
 
 1. 您可以指定規則的名稱。然後，這會顯示為工作區中的規則名稱。如果未指定規則名稱，則會顯示條件的自動說明。
 1. 要組合工作區元素，請將它們互相聯鎖以建立不同的群組和/或群組級別。然後，您可以選取邏輯運算子來組合同一層級的元素：

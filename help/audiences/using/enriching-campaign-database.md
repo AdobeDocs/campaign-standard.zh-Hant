@@ -17,48 +17,48 @@ ht-degree: 3%
 
 # 擴充資料庫{#enriching-the-database}
 
-Campaign Standard提供數種工具，可協助您擴充行銷資料庫。 本節詳細說明您可用來將資料插入Campaign的不同方法，以及專用檔案的參考。
+Campaign Standard提供數種工具，可協助您擴充行銷資料庫。 本節詳細說明可用來將資料插入Campaign的不同方法，以及專用檔案的參考資料。
 
 ## 透過工作流程匯入資料 {#importing-data-through-workflows}
 
-工作流程可讓您收集資料，並透過使用將其匯入Campaign資料庫 [[!UICONTROL Data management]](../../automating/using/about-data-management-activities.md) 活動。
+工作流程可讓您收集資料，並使用將其匯入Campaign資料庫。 [[!UICONTROL Data management]](../../automating/using/about-data-management-activities.md) 活動。
 
 透過工作流程匯入資料時的一般資訊和最佳實務會顯示在 [本節](../../automating/using/about-data-import-and-export.md).
 
-此外，您也可以設定範本以匯入資料。 如果您需要定期匯入具有相同結構的檔案，使用匯入範本是最佳實務。
+此外，您可以設定範本以匯入資料。 如果您需要定期匯入具有相同結構的檔案，使用匯入範本是最佳做法。
 
 您可以設定兩種範本：
 
-* **工作流程範本**：這些是預先設定的工作流程，您可以視需要設定一次，並在每次想要匯入資料和更新資料庫時重複使用。
+* **工作流程範本**：這些是預先設定的工作流程，您可以視需要設定一次，並在每次要匯入資料和更新資料庫時重複使用。
 
-   有關匯入資料的工作流程範本範例，請參閱 [本節](../../automating/using/creating-import-workflow-templates.md).
+  有關匯入資料的工作流程範本範例，請參閱 [本節](../../automating/using/creating-import-workflow-templates.md).
 
-* **匯入資料範本**：和工作流程範本一樣，這些範本也是以工作流程為基礎的範本，這些範本設定為上傳檔案以更新資料庫。 設定完成後，使用者可在下方透過簡化的檢視加以使用 **[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]** 功能表。
+* **匯入資料範本**：與工作流程範本類似，這些範本是以工作流程為基礎，設定為上傳檔案以更新資料庫。 在設定之後，使用者可在下方以簡化的檢視加以使用 **[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]** 功能表。
 
-   如需匯入資料範本的詳細資訊，請參閱 [專屬檔案](../../automating/using/importing-data-with-import-templates.md).
+  有關匯入資料範本的詳細資訊，請參閱 [專屬檔案](../../automating/using/importing-data-with-import-templates.md).
 
 ## 從登入頁面收集資料 {#collecting-data-from-landing-pages}
 
-登入頁面是網路表單，可用來收集資料，以及建立或更新資料庫中的現有資訊。
+登入頁面是網路表單，可用來收集資料，以及在資料庫中建立或更新現有資訊。
 
 原理如下：
 
-* 新增輸入欄位以收集資料（名字、姓氏、電子郵件等），藉此建立並設計您的登入頁面。
+* 新增輸入欄位以收集資料（名字、姓氏、電子郵件等），藉此建立及設計您的登入頁面。
 * 將每個輸入欄位與資料庫中的對應欄位對應。
-* 透過網站或直接連結至訊息，線上提供登入頁面。
+* 透過網站或直接連結至訊息，線上上提供登入頁面。
 
 如需登入頁面的詳細資訊，請參閱 [專屬檔案](../../channels/using/getting-started-with-landing-pages.md).
 
 ## 從Microsoft Dynamics 365同步設定檔
 
-與Microsoft Dynamics 365的Campaign Standard整合可讓您將聯絡資料從Microsoft Dynamics 365傳遞至Campaign資料庫。
+與Microsoft Dynamics 365整合的Campaign Standard可讓您將聯絡資料從Microsoft Dynamics 365傳遞至Campaign資料庫。
 然後，這些聯絡人會顯示在設定檔清單中，並可在行銷活動中定位。
 
 如需此整合的詳細資訊，請參閱 [專屬檔案](../../integrating/using/d365-acs-get-started.md).
 
 >[!NOTE]
 >
->請注意，Campaign Standard-Microsoft Dynamics 365聯結器目前處於「有限可用性」，並且受到數個限制的約束，詳情請參閱本檔案。
+>請注意，Campaign Standard-Microsoft Dynamics 365聯結器目前為「有限可用性」，且有幾項限制，詳情請參閱本檔案。
 
 ## 透過API呼叫匯入資料
 
@@ -68,4 +68,4 @@ Campaign StandardAPI可讓您執行更新資料庫的操作，例如建立、更
 
 >[!IMPORTANT]
 >
->在透過API呼叫執行設定檔大量建立或更新之前，請檢查與您的授權合約對應的比例限制。 如需詳細資訊，請參閱[此頁面](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers)。
+>在透過API呼叫執行設定檔大量建立或更新之前，請檢查與您的授權合約相對應的比例限制。 如需詳細資訊，請參閱[此頁面](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers)。

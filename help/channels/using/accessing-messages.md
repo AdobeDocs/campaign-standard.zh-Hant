@@ -24,16 +24,16 @@ ht-degree: 1%
 
 * 在行銷活動中
 * 從Adobe Campaign首頁
-* 從行銷活動清單
+* 從行銷活動清單中
 
 ## 存取行銷活動中的訊息 {#accessing-messages-in-campaigns}
 
 若要存取行銷活動的行銷活動清單：
 
-1. 前往 **[!UICONTROL Marketing activities]** 從頂端導覽列取得。
+1. 前往 **[!UICONTROL Marketing activities]** 從頂端導覽列。
 1. 選取 **[!UICONTROL Marketing activities > Marketing plans > Programs & Campaigns]**。
 
-   您也可以直接按一下 **[!UICONTROL Programs & Campaigns]** 首頁中的資訊卡。 如需行銷活動的詳細資訊，請參閱 [方案與行銷活動](../../start/using/programs-and-campaigns.md) 區段。
+   您也可以直接按一下 **[!UICONTROL Programs & Campaigns]** 卡片。 如需行銷活動的詳細資訊，請參閱 [方案與行銷活動](../../start/using/programs-and-campaigns.md) 區段。
 
 1. 選取方案，然後選取行銷活動。
 
@@ -42,13 +42,13 @@ ht-degree: 1%
 1. 按一下 **[!UICONTROL Summary]** 下拉式清單。
 1. 按一下 **[!UICONTROL Search]** 篩選訊息的顯示方式（依名稱、日期或狀態）。
 
-   若要篩選週期性訊息，您可以核取對應的方塊。
+   若要篩選週期性訊息，您可以核取相對應的方塊。
 
 ## 存取訊息清單 {#accessing-the-message-list}
 
-若要從所有行銷活動合併的專案中存取行銷活動的完整清單：
+若要存取所有促銷活動合併的行銷活動完整清單：
 
-1. 選取 **[!UICONTROL Marketing activities]** 從上方導覽列。
+1. 選取 **[!UICONTROL Marketing activities]** 上方導覽列中的。
 
    您也可以從存取 **[!UICONTROL Marketing activities]** 卡片。 如需行銷活動清單的詳細資訊，請參閱 [管理行銷活動](../../start/using/marketing-activities.md#creating-a-marketing-activity) 區段。
 
@@ -63,8 +63,8 @@ ht-degree: 1%
 * **[!UICONTROL Editing]** （灰色）：訊息正在編輯中。
 * **[!UICONTROL In progress]** （藍色）：訊息已傳送。
 * **[!UICONTROL Finished]** （綠色）：傳送已完成，未發生任何錯誤。
-* **[!UICONTROL Erroneous]** （紅色）：傳送已取消，或訊息準備或傳送時發生錯誤。
+* **[!UICONTROL Erroneous]** （紅色）：傳送已取消，或準備或傳送訊息時發生錯誤。
 
-   >[!NOTE]
-   >
-   >當需要動作時（例如您必須確認傳送訊息），卡片上方可能會出現黃色通知橫幅。
+  >[!NOTE]
+  >
+  >需要動作時（例如您必須確認傳送訊息時），卡片上方可能會出現黃色通知橫幅。

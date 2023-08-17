@@ -1,6 +1,6 @@
 ---
 title: 異動訊息執行與監控
-description: 瞭解異動訊息執行，並探索如何監控異動訊息。
+description: 瞭解異動訊息執行，並探索如何監視異動訊息。
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
@@ -20,11 +20,11 @@ ht-degree: 62%
 
 ## 異動訊息執行傳送 {#transactional-message-execution-delivery}
 
-訊息發佈並完成網站整合後，觸發事件時，即會指派給執行傳送。
+訊息發佈並完成網站整合後，觸發事件時，就會將其指派給執行傳送。
 
 <img src="assets/do-not-localize/icon_concepts.svg" width="60px">
 
-一個 **執行傳送** 是無法操作且無法使用的技術訊息，每個月會針對每個交易式訊息建立一次，且每次都會編輯並再次發佈交易式訊息。
+一個 **執行傳送** 是每月針對每個交易式訊息建立一次且無法操作、無法使用的技術訊息，且每次都編輯並再次發佈交易式訊息時。
 
 **相關主題**：
 * [發佈交易式訊息](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
@@ -67,11 +67,11 @@ ht-degree: 62%
 
 您無法停止執行傳送。但是，如果目前的執行傳送失敗，只要在收到新事件時，就會建立新事件，而且所有新事件都會由這個新的執行傳遞進行處理。失敗的執行傳送不會處理任何新事件。
 
-如果某些已指派給執行傳送的事件在重試過程中被延遲，並且該執行傳送失敗，重試系統不會將延遲的事件指派給新的執行傳送，這意味著這些事件會遺失。 檢查 [傳遞記錄](#monitoring-transactional-message-delivery) 檢視可能受影響的收件者。
+如果某些已指派給執行傳送的事件在重試流程中已延遲，並且該執行傳送失敗，則重試系統不會將延遲的事件指派給新的執行傳送，這意味著這些事件會遺失。 檢查 [傳遞記錄](#monitoring-transactional-message-delivery) 檢視可能受影響的收件者。
 
 ## 監控異動訊息 {#monitoring-transactional-message-delivery}
 
-若要監控異動訊息，您必須存取對應訊息的 [執行傳遞](#transactional-message-execution-delivery).
+若要監視異動訊息，您必須存取對應訊息 [執行傳遞](#transactional-message-execution-delivery).
 
 1. 若要檢視訊息傳送記錄檔，請按一下 **[!UICONTROL Deployment]** 區塊右下方的圖示。
 
@@ -81,7 +81,7 @@ ht-degree: 62%
 
    ![](assets/message-center_execution_tab.png)
 
-1. 選取您選擇的執行傳送。
+1. 選取您所選的執行傳送。
 
    ![](assets/message-center_execution_delivery.png)
 
@@ -89,7 +89,7 @@ ht-degree: 62%
 
    ![](assets/message-center_execution_access_logs.png)
 
-   對於每個執行傳送，您可以像檢視標準傳送一樣檢視傳送記錄。 如需存取和使用記錄檔的詳細資訊，請參閱 [監控傳遞](../../sending/using/monitoring-a-delivery.md).
+   對於每個執行傳送，您可以像檢視標準傳送一樣檢視傳送記錄。 如需存取及使用記錄檔的詳細資訊，請參閱 [監視傳遞](../../sending/using/monitoring-a-delivery.md).
 
 ### 設定檔交易式訊息特性 {#profile-transactional-message-monitoring}
 
@@ -99,7 +99,7 @@ ht-degree: 62%
 
 ![](assets/message-center_marketing_sending_logs.png)
 
-選取 **[!UICONTROL Exclusions logs]** 索引標籤來檢視已從訊息目標（例如封鎖清單上的地址）中排除的收件者。
+選取 **[!UICONTROL Exclusions logs]** 索引標籤以檢視已從訊息目標（例如封鎖清單上的地址）中排除的收件者。
 
 ![](assets/message-center_marketing_exclusion_logs.png)
 

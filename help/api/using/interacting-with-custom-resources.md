@@ -17,18 +17,18 @@ ht-degree: 4%
 
 # 與自訂資源互動 {#interacting-with-custom-resources}
 
-此 **/customResources** 端點可讓您在REST中公開Campaign自訂資源。 根據此API，可使用自訂實體和外部端點之間的整合。
+此 **/customResources** 端點可讓您在REST中公開Campaign自訂資源。 根據此API，可整合自訂實體和外部端點。
 
 /customResources端點的行為與/profileAndServices端點完全相同。
 
-此API中公開的自訂資源包括：
+此API中公開的自訂資源為：
 
 * 所有未在/profileAndServicesExt底下公開的實體
-* 所有未連結至設定檔的實體，以及這些實體的子系和孫系。
-* 依預設，所有未連結至任何專案的實體，及其子系和孫系。
+* 所有未連結至設定檔的實體，以及這些實體的子系與孫系。
+* 依預設，所有未連結至任何專案的實體，及其子系與孫系。
 
 >[!NOTE]
->/profileAndServicesExt下可用的自訂資源不會在/customResources API中公開。
+>/profileAndServicesExt底下可用的自訂資源不會在/customResources API中公開。
 
 
 以下是從自訂資源擷取中繼資料的範例：

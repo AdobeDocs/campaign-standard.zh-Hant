@@ -63,7 +63,7 @@ ht-degree: 40%
                </tr>
                <tr>
                   <td>collectLineNumber</td>
-                  <td>使用行號作為ID</td>
+                  <td>使用行號作為識別碼</td>
                   <td>布林值 </td>
                   <td> </td>
                </tr>
@@ -116,7 +116,7 @@ ht-degree: 40%
                   <td> </td>
                </tr>
                <tr>
-                  <td>expirationDate</td>
+                  <td>expirationdate</td>
                   <td>到期時間</td>
                   <td>date </td>
                   <td> </td>
@@ -128,7 +128,7 @@ ht-degree: 40%
                   <td> </td>
                </tr>
                <tr>
-                  <td>hasschema</td>
+                  <td>hasSchema</td>
                   <td>HasSchema</td>
                   <td>布林值 </td>
                   <td> </td>
@@ -141,7 +141,7 @@ ht-degree: 40%
                </tr>
                <tr>
                   <td>isExternal</td>
-                  <td>為外部資源</td>
+                  <td>是外部資源</td>
                   <td>布林值 </td>
                   <td> </td>
                </tr>

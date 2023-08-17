@@ -27,7 +27,7 @@ ht-degree: 0%
 
 * 依預設，Adobe Campaign API會使用管理員內容，因此組織單位和角色不適用。
 * Adobe Campaign API會從角色內容中排除。
-* 如果您想要使用一個或多個組織單位來設定API，請首先與確認以Adobe技術連絡人。
+* 如果您想要使用一個或多個組織單位來設定API，請洽詢您的以Adobe技術連絡人。
 
 ## 資源表示
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->若在URL中沒有副檔名， **json格式為預設格式** （內容型別）。
+>若在URL中沒有副檔名， **json格式為預設格式** （針對content-type）。
 
 <br/>
 
@@ -53,9 +53,9 @@ ht-degree: 0%
 
 ## 主索引鍵與URL
 
-* 請勿嘗試自行建立URL。 API會傳回所有URL。 不過，您可以根據最上層資源名稱來建置URL。
+* 請勿嘗試自行建立URL。 API會傳回所有URL。 不過，您也可以根據最上層資源名稱來建置URL。
 
-* 說明範例的自動主索引鍵(PKey)值並非打算用於其他特定部署。 它們是由Adobe Campaign API所產生。
+* 說明範例的自動主要金鑰(PKey)值不適合用於其他特定部署。 它們是由Adobe Campaign API所產生。
 
 * Adobe Campaign產生的自動主索引鍵值絕對不可儲存在外部資料庫或網站中。 您必須在資料庫定義中產生特定的關鍵欄位，並在開發期間加以使用。
 
@@ -65,15 +65,15 @@ ht-degree: 0%
 
 `GET /.../profileAndServicesExt/profile/<customKey>`
 
-如果金鑰值與原始金鑰不同，或您使用自己的商業金鑰作為URI而不是Adobe提供的商業金鑰，則無法使用PATCH操作修改自訂金鑰。
+如果金鑰值與原始金鑰不同，或您使用自己的商業金鑰作為URI，而不是Adobe提供的商業金鑰，則無法使用PATCH操作修改自訂金鑰。
 
-使用自訂金鑰用於 **頂層設定檔資源** 僅限。 URL由API傳回，不應由您自行建立。
+使用自訂金鑰 **頂層設定檔資源** 僅限。 API會傳回URL，且絕對不應由您自行建立。
 
 <br/>
 
-***範例請求***
+***範例要求***
 
-若要使用自訂金鑰擷取設定檔的訂閱，請對自訂金鑰執行GET操作。
+若要使用自訂金鑰擷取設定檔的訂閱，請在自訂金鑰上執行GET操作。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/<customKey> \

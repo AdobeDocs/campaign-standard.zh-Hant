@@ -216,7 +216,7 @@ ht-degree: 100%
       + [推播通知報告](reporting/using/push-notification-report.md)
       + [簡訊報告](reporting/using/sms-report.md)
       + [追蹤指標](reporting/using/tracking-indicators.md)
-      + [取消訂閱](reporting/using/unsubscriptions.md)
+      + [取消訂閱次數](reporting/using/unsubscriptions.md)
       + [URL 和點擊流量](reporting/using/urls-and-click-streams.md)
       + [熱點點擊](reporting/using/hot-clicks.md)
       + [服務摘要](reporting/using/service-summary.md)

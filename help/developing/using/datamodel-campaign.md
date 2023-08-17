@@ -1,5 +1,5 @@
 ---
-title: DataModel行銷活動
+title: DataModel促銷活動
 description: 瞭解資料模型
 audience: developing
 content-type: reference
@@ -62,7 +62,7 @@ ht-degree: 38%
                   <td> </td>
                </tr>
                <tr>
-                  <td>持續時間</td>
+                  <td>期間</td>
                   <td>行銷活動持續時間</td>
                   <td>數字 </td>
                   <td> </td>
@@ -81,7 +81,7 @@ ht-degree: 38%
                </tr>
                <tr>
                   <td>isExternal</td>
-                  <td>為外部資源</td>
+                  <td>是外部資源</td>
                   <td>布林值 </td>
                   <td> </td>
                </tr>
@@ -137,13 +137,13 @@ ht-degree: 38%
                   <td> </td>
                </tr>
                <tr>
-                  <td>程式(programBase)</td>
+                  <td>方案(programBase)</td>
                   <td>方案</td>
                   <td>連結 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>realtimeReport</td>
+                  <td>即時報告</td>
                   <td>即時報表</td>
                   <td>項目 </td>
                   <td> </td>
@@ -157,7 +157,7 @@ ht-degree: 38%
                <tr>
                   <td>狀態</td>
                   <td>狀態</td>
-                  <td>分項清單（位元） </td>
+                  <td>分項清單（位元組） </td>
                   <td>
                      <ul>
                         <li>開始 — 開始 — 1</li>
@@ -232,7 +232,7 @@ ht-degree: 38%
     </tr>
 </table>
 
-依狀態（依州）
+依狀態(byState)
 
 <table>
     <tr>
@@ -245,7 +245,7 @@ ht-degree: 38%
     </tr>
 </table>
 
-包含來自異質清單的連續傳遞（使用Continuous）
+包含來自異質性清單的持續傳遞（使用Continuous）
 
 <table>
     <tr>
@@ -275,7 +275,7 @@ ht-degree: 38%
     </tr>
 </table>
 
-在指定期間內存在（依行事曆）
+在指定期間顯示(byCalendar)
 
 <table>
     <tr>

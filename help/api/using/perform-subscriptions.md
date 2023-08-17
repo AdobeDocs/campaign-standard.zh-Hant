@@ -40,7 +40,7 @@ ht-degree: 0%
   }
 ```
 
-在訂閱URL上執行POST請求，並在裝載內使用所需的服務主索引鍵。
+在訂閱URL上執行POST請求，並在承載內使用所需的服務主索引鍵。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
@@ -52,7 +52,7 @@ ht-degree: 0%
 -d '{"service":{"PKey":"<PKEY>"}}'
 ```
 
-它會傳回更新後的設定檔，且服務節點已完成。
+它會傳回更新後的設定檔，並且服務節點已完成。
 
 ```
 {
@@ -105,7 +105,7 @@ ht-degree: 0%
 -d '{"subscriber":{"PKey":"<PKEY>"}}'
 ```
 
-它會傳回更新後的服務，且訂閱者節點已完成。
+它會傳回已完成訂閱者節點的更新服務。
 
 ```
 {

@@ -17,13 +17,13 @@ ht-degree: 9%
 
 # 設定 Campaign-Analytics 整合{#configure-campaign-analytics-integration}
 
-此整合可讓您直接從Adobe Campaign將關鍵績效指標資料分享到Adobe Analytics Standard或Premium。
+此整合可讓您直接從Adobe Campaign將關鍵績效指標資料分享至Adobe Analytics Standard或Premium。
 
 若要開始Adobe Campaign Standard與Adobe Analytics之間的整合，您首先需要設定連結至Adobe Analytics的外部帳戶。
 
 外部帳戶和技術工作流程只能由平台的功能管理員管理。
 
-1. 從進階功能表中，透過Adobe Campaign標誌選取 **[!UICONTROL Administration > Application settings > External accounts]**.
+1. 從進階功能表，透過Adobe Campaign標誌選取 **[!UICONTROL Administration > Application settings > External accounts]**.
 1. 選取 **[!UICONTROL Share KPIs with Adobe Analytics]** 外部帳戶。
 
    ![](assets/analytics_2.png)
@@ -35,13 +35,13 @@ ht-degree: 9%
    ![](assets/analytics_1.png)
 
 1. 按一下 **[!UICONTROL Refresh report suites]** 按鈕。
-1. 在 **[!UICONTROL Analytics default report suite]** 下拉式清單，呈現您要以Adobe Campaign資料擴充的Adobe Analytics報表套裝。
+1. 在 **[!UICONTROL Analytics default report suite]** 下拉式清單中您想要利用Adobe Campaign資料擴充的Adobe Analytics報表套裝。
 
-   您的外部帳戶現已準備就緒，並與Adobe Analytics連結。 您可以隨時將其停用，方法是檢查 **[!UICONTROL Enabled]** 方塊。
+   您的外部帳戶現已準備就緒，並與Adobe Analytics連結。 您可以隨時透過核取 **[!UICONTROL Enabled]** 方塊。
 
    ![](assets/analytics.png)
 
-此 **[!UICONTROL Share KPIs with Adobe Analytics]** 技術工作流程現在會自動啟動，並可透過選取「 」，從進階功能表進行檢視 **[!UICONTROL Administration > Application settings > Workflow]**. 此技術工作流程最多可保留6個月之前的broadlog。 請注意，此工作流程是漸進式的，將會推送前一天的資料。
+此 **[!UICONTROL Share KPIs with Adobe Analytics]** 技術工作流程現在將自動啟動，並可以從進階功能表選取 **[!UICONTROL Administration > Application settings > Workflow]**. 此技術工作流程最多可保留6個月之前的broadlog。 請注意，此工作流程是漸進式的，將會推送前一天的資料。
 
 ![](assets/analytics_3.png)
 

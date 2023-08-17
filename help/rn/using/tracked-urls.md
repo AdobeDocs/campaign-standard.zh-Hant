@@ -36,3 +36,4 @@ Adobe 將與您合作，盡快更新您的設定。 您將會收到電子郵件�
 >[!NOTE]
 >
 >如對這些變更有任何疑問，請聯絡 [Adobe 客戶服務](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)。
+>

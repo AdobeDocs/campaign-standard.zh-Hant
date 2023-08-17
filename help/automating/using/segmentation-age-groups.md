@@ -30,14 +30,14 @@ ht-degree: 66%
 * A [查詢](../../automating/using/query.md) 已輸入其生日及電子郵件地址之人們的目標設定檔的活動。
 * A [細分](../../automating/using/segmentation.md) 建立分為不同出站轉變的3個區段的活動：18-25歲、26-32歲及超過32歲的設定檔。 區段會依據下列參數定義：
 
-   ![](assets/wkf_segment_example_3.png)
+  ![](assets/wkf_segment_example_3.png)
 
    * 年齡篩選器以定義區段的年齡群組
 
-      ![](assets/wkf_segment_new_segment.png)
+     ![](assets/wkf_segment_new_segment.png)
 
    * 已連接至 100 的 **[!UICONTROL Maximum size]** 限制的 **[!UICONTROL Random sampling]** 類型限制
 
-      ![](assets/wkf_segment_example_1.png)
+     ![](assets/wkf_segment_example_1.png)
 
 * 一個 [電子郵件傳遞](../../automating/using/email-delivery.md) 每個區段的活動。

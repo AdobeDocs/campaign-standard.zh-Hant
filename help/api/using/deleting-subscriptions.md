@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# 使用API刪除訂閱 {#mdeleting-subscriptions-api}
+# 刪除具有API的訂閱 {#mdeleting-subscriptions-api}
 
 <!--NOTE TO WRITER: There are two duplicate headings that seem to have the same content. Delete one? Rename if different?-->
 
@@ -24,11 +24,11 @@ ht-degree: 0%
 1. 對訂閱URL執行GET要求。
 1. 對所需的服務URL執行DELETE要求。
 
-如果刪除請求成功，則回應狀態為「204無內容」。
+如果刪除請求成功，則回應狀態為204 「無內容」。
 
 <br/>
 
-***範例請求***
+***範例要求***
 
 以下裝載範例說明如何從服務取消訂閱設定檔。 首先執行GET要求以擷取設定檔。
 
@@ -95,13 +95,13 @@ ht-degree: 0%
 
 1. 擷取所需的服務及其訂閱URL。
 1. 對訂閱URL執行GET請求以擷取所有設定檔訂閱。
-1. 對所需的設定檔訂閱URL執行DELETE請求。
+1. 對所需的設定檔訂閱URL執行DELETE要求。
 
-如果刪除請求成功，則回應狀態為「204無內容」。
+如果刪除請求成功，則回應狀態為204 「無內容」。
 
 <br/>
 
-***範例請求***
+***範例要求***
 
 擷取服務記錄。
 
@@ -157,7 +157,7 @@ ht-degree: 0%
 }
 ```
 
-對所需的設定檔訂閱URL執行DELETE請求。
+對所需的設定檔訂閱URL執行DELETE要求。
 
 ```
 -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions/<PKEY> \

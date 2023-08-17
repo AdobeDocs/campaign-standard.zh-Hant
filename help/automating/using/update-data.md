@@ -42,7 +42,7 @@ ht-degree: 98%
    * **[!UICONTROL Insert or update]**：插入資料或更新資料（如果記錄已存在於資料庫中）。
    * **[!UICONTROL Insert only]**：僅插入資料。不更新已存在的記錄。如果已定義調解標準，則僅會新增未調解的記錄。
 
-      如果匯入的資料包含資料庫中已存在的特定記錄，請核取此 **[!UICONTROL Generate an outbound transition for rejects]** 方塊，以避免任何可能的錯誤。
+     如果匯入的資料包含資料庫中已存在的特定記錄，請核取此 **[!UICONTROL Generate an outbound transition for rejects]** 方塊，以避免任何可能的錯誤。
 
    * **[!UICONTROL Update]**：更新僅存在於資料庫中記錄的資料。
    * **[!UICONTROL Delete]**：刪除資料。

@@ -18,14 +18,14 @@ ht-degree: 76%
 
 # 使用與目標定位維度不同的資源 {#using-resources-different-from-targeting-dimensions}
 
-此使用案例顯示如何使用與目標維度不同的資源，例如在遠距表格中尋找特定記錄。
+此使用案例顯示如何使用與目標維度不同的資源，例如在遠端表格中尋找特定記錄。
 
 有關目標維度和資源的詳細資訊，請參閱 [本節](../../automating/using/query.md#targeting-dimensions-and-resources)
 
 **範例　1：使用標籤「歡迎回來！」識別傳送所定位的設定檔**。
 
 * 在此案例中，我們要定位設定檔。我們會將目標維度設為　**[!UICONTROL Profiles (profile)]**。
-* 我們想要根據傳送標籤來篩選所選取的設定檔。因此，我們將資源設定為　**[!UICONTROL Delivery logs]**。如此一來，我們會直接在傳送記錄表格中篩選，以提供更理想的效能。
+* 我們想要根據傳送標籤來篩選所選取的設定檔。因此，我們將資源設定為　**[!UICONTROL Delivery logs]**。如此一來，我們會直接在傳送記錄表中進行篩選，以提供更理想的效能。
 
 ![](assets/targeting_dimension6.png)
 

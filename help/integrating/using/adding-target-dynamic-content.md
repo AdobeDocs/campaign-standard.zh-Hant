@@ -1,6 +1,6 @@
 ---
 title: 新增 Target 動態內容
-description: 瞭解如何在其中一個Adobe Campaign傳遞中新增Adobe Target動態內容。
+description: 瞭解如何在其中一個Adobe Target傳遞中新增Adobe Campaign動態內容。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
@@ -17,15 +17,15 @@ ht-degree: 5%
 
 # 新增 Target 動態內容{#adding-target-dynamic-content}
 
-透過Adobe Target整合，動態影像可新增至傳遞，以根據體驗個人化您的內容。
+透過Adobe Target整合，可將動態影像新增到傳送中，以根據體驗個人化您的內容。
 
-編輯電子郵件時，您可以從Adobe Target插入動態影像，此影像會根據收件者而變更。
+編輯電子郵件時，您可以從Adobe Target插入動態影像，此影像會依收件者而變更。
 
-在Adobe Campaign中存取影像之前，必須先在Adobe Target中執行下列工作：
+在Adobe Campaign中存取影像之前，必須先在Adobe Target中執行以下工作：
 
 * 建立一或多個 [重新導向選件](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html)，您必須在該處指定將使用之影像的URL。
 * 建立一或多個 [對象](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html)，以定義活動的目標。
-* 建立 [表單式體驗撰寫器](https://experienceleague.adobe.com/docs/target/using/experiences/form-experience-composer.html) 活動，您必須在該活動中選取rawbox並指定數個體驗，端視建立的重新導向選件數量而定。 對於每個體驗，您必須選取其中一個已建立的重新導向選件。
+* 建立 [表單式體驗撰寫器](https://experienceleague.adobe.com/docs/target/using/experiences/form-experience-composer.html) 活動，您必須在其中選取rawbox並指定數個體驗，視建立的重新導向選件數量而定。 您必須針對每個體驗選取其中一個已建立的重新導向選件。
 * 使用Adobe Campaign中的資訊建立區段以指定體驗。 若要在選件的選取規則中使用來自Adobe Campaign的資料，您必須在Adobe Target的rawbox中指定資料。
 
 1. 建立電子郵件傳遞.
@@ -38,8 +38,8 @@ ht-degree: 5%
    整合僅支援靜態影像。 其餘內容無法自訂。
 
 1. 輸入Adobe Target中指定的rawbox名稱。
-1. 如果您在Adobe Target的設定中使用企業許可權，請在此欄位中新增對應的屬性。 若要深入瞭解Target企業許可權，請參閱 [此頁面](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html). 如果您未在Target中使用企業許可權，此欄位是選用欄位，且不是必要欄位。
-1. 在 **[!UICONTROL Additional decision parameters]**，指定Adobe Target區段及Adobe Campaign欄位中定義的欄位之間的對應。
+1. 如果您在Adobe Target的設定中使用企業許可權，請在此欄位中新增對應的屬性。 前往進一步瞭解Target企業許可權： [此頁面](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html). 如果您未在Target中使用企業許可權，此欄位是選用欄位，且不是必要欄位。
+1. 在 **[!UICONTROL Additional decision parameters]**，指定Adobe Target區段中所定義欄位與Adobe Campaign欄位之間的對應。
 
    使用的Adobe Campaign欄位必須在rawbox中指定。 在此範例中，會根據收件者的性別定義不同的體驗。
 
@@ -47,7 +47,7 @@ ht-degree: 5%
 
 1. 預覽您的電子郵件，檢視在選取不同設定檔時，插入的影像是否根據Adobe Target活動和Adobe Campaign中指定的引數而變更。
 
-現在可以傳送包含動態影像的傳遞。 其結果可在Adobe Target中找到。
+現在可以傳送包含動態影像的傳遞。 其結果可以在Adobe Target中找到。
 
 **相關主題：**
 

@@ -1,6 +1,6 @@
 ---
-title: 依位置細分」
-description: 此使用案例說明如何對位置執行細分。
+title: 細分位置」
+description: 此使用案例顯示如何在位置上執行細分。
 audience: automating
 content-type: reference
 topic-tags: execution-activities
@@ -16,7 +16,7 @@ ht-degree: 83%
 
 ---
 
-# 依位置細分 {#segmentation-on-location}
+# 細分位置 {#segmentation-on-location}
 
 您可以傳送目標定位電子郵件給客戶，並在其當地商店提供優惠。
 

@@ -1,6 +1,6 @@
 ---
 title: 控制規則
-description: 瞭解如何使用控制規則強化訊息的品質檢查。
+description: 瞭解如何使用控制規則加強訊息的品質檢查。
 audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
@@ -25,33 +25,33 @@ ht-degree: 14%
 
 ## 預設控制規則 {#default-control-rules}
 
-一組預設規則可確保標準控制項。 下表提供有關這些規則及其相關管道和規則的相關資訊。 [執行階段](#control-rules-execution-phases).
+一組預設規則可確保標準控制項。 下表提供這些規則的相關資訊，以及其相關的管道和 [執行階段](#control-rules-execution-phases).
 
 | 標籤 | 通道 | 執行階段 | 說明 |
 |---------|----------|---------|---------|
 | **[!UICONTROL A/B Test]** | 電子郵件 | 在個人化開始時 | 使用A/B測試為傳遞擷取測試母體。 |
 | **[!UICONTROL Check delivery size]** | 全部 | 鎖定之後 | 檢查訊息的大小。 |
 | **[!UICONTROL Check email content is not empty]** | 電子郵件 | 鎖定之後 | 如果訊息的內容為空白，則產生錯誤。 |
-| **[!UICONTROL Check In-App content for broadcast template]** | 應用程式內 | 開始個人化 | 檢查廣播範本的應用程式內內容/觸發器是否非空白。 |
+| **[!UICONTROL Check In-App content for broadcast template]** | 應用程式內 | 開始時，個人化 | 檢查廣播範本的應用程式內內容/觸發程式是否非空白。 |
 | **[!UICONTROL Check In-App content for profile template]** | 應用程式內 | 在個人化開始時 | 檢查設定檔範本的應用程式內內容/觸發器是否非空白。 |
 | **[!UICONTROL Check In-App content for subscriber template]** | 應用程式內 | 在個人化開始時 | 檢查訂閱者範本的應用程式內內容/觸發器是否非空白。 |
-| **[!UICONTROL Check proof size]** | 全部 | 鎖定之後 | 如果校樣目標母體超過100個收件者，則產生錯誤訊息。 |
-| **[!UICONTROL Check social network sharing link]** | 電子郵件 | 在個人化開始時 | 在內容中加入社交網路分享連結（病毒連結）時，檢查映象頁面的連結是否存在。 |
-| **[!UICONTROL Check subject]** | 電子郵件 | 在個人化開始時 | 檢查主旨和寄件者地址是否不包含特殊字元，這可能造成某些郵件傳輸代理程式發生問題，並檢查郵件主旨是否已完成。 |
+| **[!UICONTROL Check proof size]** | 全部 | 鎖定之後 | 如果校訂目標母體超過100個收件者，則產生錯誤訊息。 |
+| **[!UICONTROL Check social network sharing link]** | 電子郵件 | 在個人化開始時 | 在內容中包含社交網路共用連結（病毒連結）時，檢查是否存在映象頁面的連結。 |
+| **[!UICONTROL Check subject]** | 電子郵件 | 在個人化開始時 | 檢查主旨和寄件者地址是否不包含特殊字元，這些字元可能會對某些郵件傳輸代理程式造成問題，並檢查郵件主旨是否已完成。 |
 | **[!UICONTROL Check unsubscription link]** | 電子郵件 | 在個人化開始時 | 檢查每個內容(HTML和文字)中是否存在至少一個取消訂閱（選擇退出） URL。 |
 | **[!UICONTROL Check URL labels]** | 電子郵件 | 在個人化開始時 | 檢查每個追蹤URL是否都有標籤。 |
-| **[!UICONTROL Check URLs]** | 電子郵件 | 在個人化開始時 | 檢查追蹤URL （存在「&amp;」字元）。 |
+| **[!UICONTROL Check URLs]** | 電子郵件 | 在個人化開始時 | 檢查追蹤URL （「&amp;」字元是否存在）。 |
 
 ## 控制規則執行階段 {#control-rules-execution-phases}
 
-控制規則可套用至傳遞生命週期的不同階段：
+控制規則可在傳遞生命週期的不同階段套用：
 
-* **在目標定位開始時**：控制規則可在此階段套用，以便在發生錯誤時不會執行個人化步驟。
+* **在鎖定開始時**：控制規則可在此階段套用，以便在發生錯誤時不會執行個人化步驟。
 
-* **目標定位後**：在鎖定目標後執行可讓您知道目標的磁碟區以套用控制規則。
+* **目標定位後**：在鎖定目標後執行可讓您知道目標的磁碟區，以套用控制規則。
 
-   例如， **檢查校訂大小** 控制規則適用於目標定位階段之後：如果校樣收件者過多，此規則會防止訊息個人化的準備工作。
+  例如， **檢查校訂大小** 控制規則會在目標定位階段後套用：如果校樣收件者過多，此規則會防止準備訊息個人化。
 
 * **在個人化開始時**：當檢查與訊息個人化核准相關時套用。 訊息個人化會在分析階段中執行。
 
-* **分析結束時**：檢查需要完成訊息個人化時。
+* **在分析結束時**：檢查需要完成訊息個人化時。

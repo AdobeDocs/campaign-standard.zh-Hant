@@ -21,12 +21,12 @@ Adobe Campaign 提供兩種類型的清單：
 
 * **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]**：此訊息類型可讓您定位已訂閱您行動應用程式的 Adobe Campaign 設定檔（CRM 設定檔）。此訊息類型可與 Adobe Campaign 中所有可用的描述檔屬性個人化，但需要 Mobile SDK 與 Campaign 應用程式內訊息服務之間的安全握手，以確保只有授權使用者才會使用包含個人和敏感資訊的訊息。
 
-   若要在使用者的裝置上下載此訊息類型，Mobile SDK 必須傳送連結欄位，用以將行動設定檔連結至 Adobe Campaign 中的 CRM 設定檔。如需支援應用程式內部所需 SDK API 的詳細資訊，請參閱本 [頁面](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/)。
+  若要在使用者的裝置上下載此訊息類型，Mobile SDK 必須傳送連結欄位，用以將行動設定檔連結至 Adobe Campaign 中的 CRM 設定檔。如需支援應用程式內部所需 SDK API 的詳細資訊，請參閱本 [頁面](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/)。
 
 * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**：此訊息類型可讓您傳送訊息給行動應用程式的所有使用者（目前或未來），即使他們在 Adobe Campaign 中沒有現有的設定檔亦然。因此，當自訂訊息時，無法個人化，因為 Adobe Campaign 中可能甚至不存在使用者設定檔。
 * **[!UICONTROL Target users based on their Mobile profile (inApp)]**：此訊息類型可讓您鎖定在 Adobe Campaign 中具有行動設定檔的行動應用程式的所有已知或匿名使用者。此訊息類型僅能使用非個人和非敏感屬性進行個人化，而且不需要 Mobile SDK 與 Adobe Campaign 的應用程式內訊息服務之間的安全交握。
 
-   有關如何處理個人和敏感資料的詳細資訊，請參閱使用[個人和敏感資料處理行動設定檔欄位](../../channels/using/about-in-app-messaging.md#handling-mobile-profile-fields-with-personal-and-sensitive-data)。
+  有關如何處理個人和敏感資料的詳細資訊，請參閱使用[個人和敏感資料處理行動設定檔欄位](../../channels/using/about-in-app-messaging.md#handling-mobile-profile-fields-with-personal-and-sensitive-data)。
 
 ![](assets/diagram_inapp.png)
 
@@ -60,7 +60,7 @@ Adobe Campaign 提供兩種類型的清單：
 
 1. 輸入應用程式內訊息屬性，並在 **[!UICONTROL Associate a Mobile App to a delivery]** 欄位中選取您的行動應用程式。
 
-   如果您在下拉式清單中未看到任何應用程式，請確認您的行動應用程式位於 **已設定** 州別。 中的應用程式 **準備好進行設定** 狀態不會出現在清單中。 如需行動應用程式設定的詳細資訊，請參閱本[頁面](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)。
+   如果您在下拉式清單中未看到任何應用程式，請確定您的行動應用程式位於 **已設定** 州別。 中的應用程式 **準備好進行設定** 狀態不會出現在清單中。 如需行動應用程式設定的詳細資訊，請參閱本[頁面](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)。
 
    ![](assets/inapp_creating_3.png)
 
@@ -76,19 +76,20 @@ Adobe Campaign 提供兩種類型的清單：
 
    * **[!UICONTROL Mobile Application events]**：在行動應用程式中實作的自訂事件。
 
-      有關詳細資訊，請參見本[頁面](../../administration/using/configuring-a-mobile-application.md)。
+     有關詳細資訊，請參見本[頁面](../../administration/using/configuring-a-mobile-application.md)。
 
    * **[!UICONTROL Life Cycle events]**：Adobe Mobile SDK 支援的現成可用生命週期事件。
 
-      有關生命週期事件的詳細資訊，請參閱本[頁面](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html)。
+     有關生命週期事件的詳細資訊，請參閱本[頁面](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html)。
 
    * **[!UICONTROL Analytics Events]**：根據您的行動應用程式中所創作的內容，支援下列三個類別： Adobe Analytics、內容資料或檢視狀態。
 
-      請注意，這些事件僅在您擁有Adobe Analytics授權時才可用。
+     請注意，這些事件僅在您擁有Adobe Analytics授權時才可用。
 
    * **[!UICONTROL Places]**：以下三個類別運用即時位置資料來提供情境相關的行動體驗：放置內容資料、放置自訂中繼資料或放置事件類型。
 
-      如需 Adobe Places 的詳細資訊，請參閱 [Places 檔案](https://experienceleague.adobe.com/docs/places/using/home.html)。
+     如需 Adobe Places 的詳細資訊，請參閱 [Places 檔案](https://experienceleague.adobe.com/docs/places/using/home.html)。
+
    ![](assets/inapp_creating_4.png)
 
 1. 如果您使用 **[!UICONTROL Analytics Events]**，Adobe Analytics和檢視狀態事件將會根據在資料收集UI中的Analytics擴充功能中設定的報表套裝自動填入，而內容資料事件則必須手動新增。
@@ -99,7 +100,7 @@ Adobe Campaign 提供兩種類型的清單：
 
 1. 如果您使用 **[!UICONTROL Places]** 觸發器，Places 內容資料、Places 自訂中繼資料或 Places 事件類型將會根據所有在 Adobe Places 中建立的 Libraries 及其 Points of Interest 自動填入。
 
-   請注意，此觸發器僅會套用至資料收集UI中Places擴充功能中選取之資料庫的Points of Interest。 有關 Places 擴充功能以及如何安裝的詳細資訊，請參閱本[文件](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html)。
+   請注意，此觸發器僅會套用至資料收集UI中Places擴充功能中選取之Libraries的Points of Interest。 有關 Places 擴充功能以及如何安裝的詳細資訊，請參閱本[文件](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html)。
 
 1. 在 **[!UICONTROL Frequency & duration]** 索引標籤中，選取觸發的頻率、開始和結束日期、一週中的某天，以及應用程式內訊息生效的當天時間。
 
@@ -160,7 +161,7 @@ Adobe Campaign 提供兩種類型的清單：
 
 1. 使用傳遞報告測量應用程式內訊息的影響。如需報告的詳細資訊，請參閱[本區段](../../reporting/using/in-app-report.md)。
 
-1. 傳送應用程式內訊息後，您可以選擇停用傳送。 例如，如果您想要停止特定傳送，或想要使用相同的觸發程式執行新傳送，這個功能會很有用。
+1. 傳送應用程式內訊息後，您可以選擇停用您的傳遞。 例如，如果您想要停止特定傳送，或想要使用相同觸發程式執行新傳送，則此功能會很有用。
 
    按一下 **[!UICONTROL Deactivate]** 則 **[!UICONTROL Ok]** 以啟動停用請求。
 

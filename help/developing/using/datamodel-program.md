@@ -75,7 +75,7 @@ ht-degree: 36%
                </tr>
                <tr>
                   <td>isExternal</td>
-                  <td>為外部資源</td>
+                  <td>是外部資源</td>
                   <td>布林值 </td>
                   <td> </td>
                </tr>
@@ -132,12 +132,12 @@ ht-degree: 36%
                </tr>
                <tr>
                   <td>父級(programBase)</td>
-                  <td>父級計畫</td>
+                  <td>父級方案</td>
                   <td>連結 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>realtimeReport</td>
+                  <td>即時報告</td>
                   <td>即時報表</td>
                   <td>項目 </td>
                   <td> </td>
@@ -151,7 +151,7 @@ ht-degree: 36%
                <tr>
                   <td>狀態</td>
                   <td>狀態</td>
-                  <td>分項清單（位元） </td>
+                  <td>分項清單（位元組） </td>
                   <td>
                      <ul>
                         <li>開始 — 開始 — 1</li>
@@ -226,7 +226,7 @@ ht-degree: 36%
     </tr>
 </table>
 
-包含來自異質清單的連續傳遞（使用Continuous）
+包含來自異質性清單的持續傳遞（使用Continuous）
 
 <table>
     <tr>
@@ -282,7 +282,7 @@ ht-degree: 36%
     </tr>
 </table>
 
-在指定期間內存在（依行事曆）
+在指定期間顯示(byCalendar)
 
 <table>
     <tr>

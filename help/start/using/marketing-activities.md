@@ -86,10 +86,10 @@ ht-degree: 83%
 * 建立推播通知 —  [瞭解更多](../../channels/using/preparing-and-sending-a-push-notification.md)
 * 建立應用程式內訊息 —  [瞭解更多](../../channels/using/about-in-app-messaging.md)
 * 建立工作流程 —  [瞭解更多](../../automating/using/building-a-workflow.md#creating-a-workflow)
-* 建立登入頁面 —  [瞭解更多](../../channels/using/getting-started-with-landing-pages.md)
+* 建立登陸頁面 —  [瞭解更多](../../channels/using/getting-started-with-landing-pages.md)
 * 建立行銷活動 —  [瞭解更多](../../start/using/programs-and-campaigns.md#creating-a-campaign)
 * 建立方案 —  [瞭解更多](../../start/using/programs-and-campaigns.md#creating-a-program)
 
 >[!NOTE]
 >
->您也可以從行銷活動清單建立行銷活動。在此情況下，您可以建立任何型別的活動，並選擇透過活動的屬性，將行銷活動連結至上層促銷活動（若您建立方案，則連結至上層方案）。
+>您也可以從行銷活動清單建立行銷活動。在此情況下，您可以建立任何型別的活動，並選擇透過活動的屬性將行銷活動連結至上層促銷活動（或者，如果您建立方案，則連結至上層方案）。

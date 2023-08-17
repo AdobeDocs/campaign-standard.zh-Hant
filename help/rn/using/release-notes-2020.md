@@ -243,7 +243,7 @@ ht-degree: 98%
 * 可在執行個體上發佈的即時事件數上限，已經從 350 增加為 2000。(CAMP-41608)
 * 使用 syncWithLaunch 技術工作流程，已改善 Adobe Launch 和 Campaign Standard 之間的同步化。此工作流程可自動將所有 Adobe Launch 行動裝置屬性匯入 Adobe Campaign Standard。如需詳細資訊，請參閱[本頁面](../../administration/using/technical-workflows.md)。
 
-   您必須將票證提交至 Adobe 客戶服務（直接或透過您的 Adobe 聯絡人），才能在您的 Campaign 執行個體中啟用 syncWithLaunch 技術工作流程。(CAMP-40082)
+  您必須將票證提交至 Adobe 客戶服務（直接或透過您的 Adobe 聯絡人），才能在您的 Campaign 執行個體中啟用 syncWithLaunch 技術工作流程。(CAMP-40082)
 
 **電子郵件設計工具增強功能**
 

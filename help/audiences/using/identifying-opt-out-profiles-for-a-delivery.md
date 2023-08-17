@@ -1,6 +1,6 @@
 ---
 title: 識別傳遞的選擇退出設定檔
-description: 瞭解如何識別傳送的選擇退出設定檔。
+description: 瞭解如何識別傳遞的選擇退出設定檔。
 audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes

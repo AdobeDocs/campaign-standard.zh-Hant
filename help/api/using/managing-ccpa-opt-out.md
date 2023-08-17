@@ -17,7 +17,7 @@ ht-degree: 6%
 
 # 管理 CCPA 選擇退出 {#managing-ccpa-optout}
 
-設定檔的CCPA選擇退出狀態可透過以下方式監控及管理： **ccpapoptout** 設定檔屬性和「true」或「false」值：
+您可使用，監控和管理設定檔的CCPA選擇退出狀態。 **ccpapoptout** 設定檔屬性和「true」或「false」值：
 
 `"ccpaOptOut": <value>`
 
@@ -30,83 +30,83 @@ ht-degree: 6%
 
 <br/>
 
-***範例請求***
+***範例要求***
 
 * 擷取設定檔CCPA選擇退出狀態的範例GET要求。
 
-   ```
-   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \
-   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-   -H 'Cache-Control: no-cache' \
-   -H 'X-Api-Key: <API_KEY>' \
-   -H 'Content-Type: application/json;charset=utf-8'
-   ```
+  ```
+  -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+  -H 'Cache-Control: no-cache' \
+  -H 'X-Api-Key: <API_KEY>' \
+  -H 'Content-Type: application/json;charset=utf-8'
+  ```
 
-   對GET要求的回應。
+  對GET要求的回應。
 
-   ```
-   {
-   "PKey": "<PKEY>",
-     "ccpaOptOut": false,
-     "firstName": "John",
-     "lastName": "Doe",
-   ...
-   }
-   ```
+  ```
+  {
+  "PKey": "<PKEY>",
+    "ccpaOptOut": false,
+    "firstName": "John",
+    "lastName": "Doe",
+  ...
+  }
+  ```
 
 * 標示CCPA選擇退出之設定檔的範例POST要求。
 
-   ```
-   -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/ \
-   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-   -H 'Cache-Control: no-cache' \
-   -H 'X-Api-Key: <API_KEY>' \
-   -H 'Content-Type: application/json;charset=utf-8'
-   -i
-   -d {
-   -d  "firstName": "John",
-   -d  "lastName": "Doe",
-   -d  "email": "jdoe@mail.com",
-   -d  "ccpaOptOut": true
-   -d }'
-   ```
+  ```
+  -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/ \
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+  -H 'Cache-Control: no-cache' \
+  -H 'X-Api-Key: <API_KEY>' \
+  -H 'Content-Type: application/json;charset=utf-8'
+  -i
+  -d {
+  -d  "firstName": "John",
+  -d  "lastName": "Doe",
+  -d  "email": "jdoe@mail.com",
+  -d  "ccpaOptOut": true
+  -d }'
+  ```
 
-   對GET要求的回應。
+  對GET要求的回應。
 
-   ```
-   {
-       ...
-       "email": "john.doe@mail.com",
-       "firstName": "John",
-       "lastName": "Doe",
-       "ccpaOptOut": true,
-       ...
-   }
-   ```
+  ```
+  {
+      ...
+      "email": "john.doe@mail.com",
+      "firstName": "John",
+      "lastName": "Doe",
+      "ccpaOptOut": true,
+      ...
+  }
+  ```
 
-* 更新CCPA選擇退出之設定檔的範例PATCH請求。
+* 更新CCPA選擇退出之設定檔的範例PATCH要求。
 
-   ```
-   -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \
-   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-   -H 'Cache-Control: no-cache' \
-   -H 'X-Api-Key: <API_KEY>' \
-   -H 'Content-Type: application/json;charset=utf-8'
-   -i
-   -d {
-   -d  "ccpaOptOut": true
-   -d }'
-   ```
+  ```
+  -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+  -H 'Cache-Control: no-cache' \
+  -H 'X-Api-Key: <API_KEY>' \
+  -H 'Content-Type: application/json;charset=utf-8'
+  -i
+  -d {
+  -d  "ccpaOptOut": true
+  -d }'
+  ```
 
-   對GET要求的回應。
+  對GET要求的回應。
 
-   ```
-   {
-       ...
-       "email": "john.doe@mail.com",
-       "firstName": "John",
-       "lastName": "Doe",
-       "ccpaOptOut": true,
-       ...
-   }
-   ```
+  ```
+  {
+      ...
+      "email": "john.doe@mail.com",
+      "firstName": "John",
+      "lastName": "Doe",
+      "ccpaOptOut": true,
+      ...
+  }
+  ```

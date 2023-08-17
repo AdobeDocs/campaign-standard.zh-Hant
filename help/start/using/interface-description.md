@@ -47,24 +47,24 @@ Adobe Campaign 可讓您導覽不同的功能表和畫面，以管理您的行�
 
 ## 頂端列 {#top-bar}
 
-每個畫面上都會顯示頂端列，讓您透過Adobe Campaign瀏覽各項功能，並存取已連線的Adobe設定檔、通知、Adobe Experience Cloud解決方案和Campaign檔案。
+每個畫面都會顯示頂端列，讓您透過Adobe Campaign瀏覽其功能，並存取已連線的Adobe設定檔、通知、Adobe Experience Cloud解決方案和Campaign檔案。
 
 導覽原則為：
 
-* 此 **Adobe** 頁面左上角的標誌可讓您存取進階功能和設定。 功能表視您的設定檔與權限。
+* 此 **Adobe** 頁面左上角的標誌可讓您存取進階功能與設定。 功能表視您的設定檔與權限。
 
-   進階功能表會顯示在[進階功能表](#advanced-menu)區段中。
+  進階功能表會顯示在[進階功能表](#advanced-menu)區段中。
 
 * 此 **[!UICONTROL Home]** 連結允許您顯示 Adobe Campaign 首頁。
 * 這些 **[!UICONTROL Marketing activities]**、**[!UICONTROL Programs & Campaigns]**、**[!UICONTROL Profiles]**、**[!UICONTROL Audiences]** 和 **[!UICONTROL Reports]** 連結可以讓您存取與這些功能連結的檢視。
-* 此 **解決方案切換器** 圖示可讓您切換您的組織或切換至不同的應用程式。
-* 此 **[!UICONTROL Help]** 圖示說明 [以下](#help).
+* 此 **解決方案切換器** 圖示可讓您在組織之間切換，或切換至不同的應用程式。
+* 此 **[!UICONTROL Help]** 圖示已說明 [以下](#help).
 * 此&#x200B;**通知**&#x200B;圖示會顯示最新警報或資訊。
 * 此&#x200B;**使用者**&#x200B;圖示可讓您顯示連結至設定檔的資訊。如有需要，請使用此圖示 **[!UICONTROL Sign out]**.
 
 ### 說明 {#help}
 
-在右上角， **說明** 圖示將Adobe Experience League帶入產品中。
+在右上角， **說明** 圖示會將Adobe Experience League帶入產品中。
 
 ![](assets/ux_help.png)
 
@@ -74,7 +74,7 @@ Adobe Campaign 可讓您導覽不同的功能表和畫面，以管理您的行�
 
 1. 此 **[!UICONTROL Help]** 索引標籤包含：
    * 透過內容連結快速存取Adobe Campaign Standard檔案。
-   * a **[!UICONTROL Learning]** 可讓您存取Adobe Campaign課程庫的連結。
+   * a **[!UICONTROL Learning]** 連結可讓您存取Adobe Campaign課程庫。
    * a **[!UICONTROL Community]** 連結以存取專屬於您Campaign問題的論壇。
    * 直接存取：說明中心、客戶服務、Experience Cloud產品狀態、開發人員連線、發行說明、發行計畫及 **[!UICONTROL About]** 畫面。
 1. 此 **[!UICONTROL Support]** 索引標籤可讓您開啟支援案例，並透過電話或Twitter聯絡我們。
@@ -82,7 +82,7 @@ Adobe Campaign 可讓您導覽不同的功能表和畫面，以管理您的行�
 
 ## 進階功能表 {#advanced-menu}
 
-按一下「 」即可顯示進階功能表。 **Adobe Campaign** 圖示，在每個畫面的左上角。 進階功能表可能會依您的合約與使用者權限而有所不同。
+按一下 **Adobe Campaign** 圖示，位於每個畫面的左上角。 進階功能表可能會依您的合約與使用者權限而有所不同。
 
 此功能表可讓您導覽至特定功能與設定。
 
@@ -126,23 +126,23 @@ Adobe Campaign 可讓您導覽不同的功能表和畫面，以管理您的行�
 
 * **清單**&#x200B;會顯示各種元素，例如，方案、行銷活動、設定檔等。這些元素可以在 **[!UICONTROL Card]** 或 **[!UICONTROL List]** 模式中檢視。使用變更模式按鈕，可將一個模式切換到另一個模式。每個元素都會顯示指標。
 
-   ![](assets/ux_liste.png)
+  ![](assets/ux_liste.png)
 
-   計數器可讓您瞭解元素的數量。如果此數字超過 30，您必須按一下此計數器以取得總數。
+  計數器可讓您瞭解元素的數量。如果此數字超過 30，您必須按一下此計數器以取得總數。
 
 * **控制面板**&#x200B;顯示連結至活動之所有參數的概述。此畫面包含互動式區域，允許您獨立分隔與設定不同的概念。
 
-   ![](assets/ux_dashboard.png)
+  ![](assets/ux_dashboard.png)
 
 * 如果在建立元素時可能有數個活動內容，**選取畫面**&#x200B;可讓您選取要新增的元素類型（行銷活動、傳送）。此選取畫面也可供存取報告。
 
-   ![](assets/ux_activityselection.png)
+  ![](assets/ux_activityselection.png)
 
 * 對於工作流程與查詢編輯器，使用浮動視窗的&#x200B;**工作區**，可供您設計物件。
 
-   您可以從浮動視窗中拖放元素至工作區，以設定相關元素。
+  您可以從浮動視窗中拖放元素至工作區，以設定相關元素。
 
-   ![](assets/ux_workspace.png)
+  ![](assets/ux_workspace.png)
 
 ## 動作列 {#action-bar}
 

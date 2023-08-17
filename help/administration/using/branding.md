@@ -1,6 +1,6 @@
 ---
 title: 品牌
-description: 探索所有可用於管理品牌識別的工具
+description: 探索可用於管理品牌識別的所有工具
 audience: administration
 context-tags: branding,overview;branding,main
 feature: Instance Settings
@@ -44,7 +44,7 @@ ht-degree: 76%
 
 * **身分識別**&#x200B;可以定義並個人化您的品牌。本章節包含以下欄位：
 
-   ![](assets/branding_01.png)
+  ![](assets/branding_01.png)
 
    * **標籤** 在此介面中可見
    * **品牌名稱**
@@ -53,7 +53,7 @@ ht-degree: 76%
 
 * **[!UICONTROL Header parameters of sent emails]** 可以個人化行銷活動的收件者所看到之內容。本章節包含以下欄位：
 
-   ![](assets/branding_04_header.png)
+  ![](assets/branding_04_header.png)
 
    * 使用品牌電子郵件的&#x200B;**寄件者（電子郵件）**。
    * 使用品牌名稱的&#x200B;**寄件者（姓名）**。
@@ -61,39 +61,39 @@ ht-degree: 76%
    * 使用品牌名稱&#x200B;**回覆（姓名）**。
    * 使用的電子郵件有錯誤&#x200B;**的錯誤（電子郵件地址）**。
 
-   >[!IMPORTANT]
-   >
-   >更新電子郵件的標題參數後，如果在範本建立的電子郵件中寄件者的姓名與電子郵件地址未更改時，請檢查範本的進階設定。
+  >[!IMPORTANT]
+  >
+  >更新電子郵件的標題參數後，如果在範本建立的電子郵件中寄件者的姓名與電子郵件地址未更改時，請檢查範本的進階設定。
 
 * **網際網路上公開的伺服器** 定義用於追蹤及登錄頁面存取的伺服器。本章節包含以下欄位：
 
-   ![](assets/configure_branding_04.png)
+  ![](assets/configure_branding_04.png)
 
    * **應用程式伺服器的外部 URL** 用於託管及存取您建立的不同登錄頁面 ，
    * **追蹤伺服器的外部 URL** 在傳遞期間為追蹤的 URL。
    * **鏡像頁面伺服器的外部 URL** 在傳遞期間為預設鏡像頁面。
 
-   >[!NOTE]
-   >
-   >若要在 Campaign 使用者介面中顯示登入頁面預覽與鏡像頁面呈現，應用程式伺服器和鏡像頁面伺服器 URL 必須是安全的。在此情況下，在設定這些 URL 時，請使用 https://，而不是 http://。
+  >[!NOTE]
+  >
+  >若要在 Campaign 使用者介面中顯示登入頁面預覽與鏡像頁面呈現，應用程式伺服器和鏡像頁面伺服器 URL 必須是安全的。在此情況下，在設定這些 URL 時，請使用 https://，而不是 http://。
 
 * **[!UICONTROL Tracking URL configuration (Web Analytics)]**，定義您品牌的 URL 追蹤的設定。
 
-   此處定義了允許在外部系統（例如，Adobe Analytics 或 Google Analytics 等 Web Analytics 之工具）上追蹤連結的其他參數。
+  此處定義了允許在外部系統（例如，Adobe Analytics 或 Google Analytics 等 Web Analytics 之工具）上追蹤連結的其他參數。
 
-   ![](assets/branding_05.png)
+  ![](assets/branding_05.png)
 
 ## 建立新品牌 {#creating-a-brand}
 
-您可以在Campaign中新增組織的新實體，或建立必須在其他子網域下傳送的新電子郵件型別。 若要執行此動作，請遵循下列步驟：
+您可以在Campaign中新增組織的實體，或建立必須在其他子網域下傳送的新電子郵件型別。 請依照下列步驟以執行此操作：
 
-1. **設定新的子網域**  — 對於Adobe要使用的任何新子網域，第一步是進行設定。 您可以透過以下方式執行此操作： [Campaign控制面板](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=zh-Hant) 或聯絡您的Adobe技術連絡人。 進一步瞭解子網域設定 [本文章內容](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup.html).
+1. **設定新的子網域**  — 對於Adobe要使用的任何新子網域，第一步是進行設定。 您可以透過以下方式執行此操作： [Campaign控制面板](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=zh-Hant) 或聯絡您的Adobe技術連絡人。 進一步瞭解子網域設定 [本文章](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup.html).
 
    >[!NOTE]
    >
    >所有管理員使用者都可存取控制面板。 授予使用者管理員存取權限的步驟已詳載於[本頁](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hant#discover-control-panel)中。
 
-1. **建立票證**  — 設定子網域後，Adobe會在您的生產環境中進行設定。 若要請求此專案， [建立客戶服務票證](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html) ，並提供下列資訊：
+1. **建立票證**  — 設定子網域後，Adobe會在您的生產環境中進行設定。 若要請求此項， [建立前往客戶服務的票證](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html) ，並提供下列資訊：
 
    * 主旨： ACS新品牌設定
 
@@ -105,7 +105,7 @@ ht-degree: 76%
 
 1. **建立傳遞範本**  — 新品牌推出後，最佳實務是建立至少一個參考此新品牌的新空白傳遞範本。 [了解更多](#linking-a-brand-to-a-template)。
 
-1. **檢查傳遞能力准則**  — 在開始使用新網域之前，應與Adobe傳遞團隊討論策略。 例如，若應建立新的相似性來分割網域之間的IP，和/或若應定義提升計畫，則上述範本將有助於定義最佳實務。 進一步瞭解傳遞能力最佳實務 [在本節中](../../sending/using/about-deliverability.md).
+1. **檢查傳遞能力准則**  — 開始使用新網域之前，應與Adobe傳遞團隊討論策略。 例如，若應建立新的相似性來分割IP至不同網域，和/或若應定義提升計畫，這些規則將有助於定義最佳實務。 進一步瞭解傳遞能力最佳實務 [在本節中](../../sending/using/about-deliverability.md).
 
 ## 為電子郵件指派品牌 {#assigning-a-brand-to-an-email}
 
@@ -149,7 +149,7 @@ ht-degree: 76%
 >
 >品牌設定僅由 Adobe 管理，因為需要特定的權限與技術設定。
 
-1. Adobe Campaign管理員會先從以下專案建立品牌： **[!UICONTROL Administration > Instance settings > Brand configuration]** 功能表，並新增 **熱帶假期** 元素，並設定 **[!UICONTROL ID]** 和 **[!UICONTROL Header parameters of sent emails]** 品牌的。
+1. Adobe Campaign管理員會先從以下位置建立品牌： **[!UICONTROL Administration > Instance settings > Brand configuration]** 功能表，並新增 **熱帶假期** 元素，並設定 **[!UICONTROL ID]** 和 **[!UICONTROL Header parameters of sent emails]** 品牌的。
 
    ![](assets/branding_07.png)
 
@@ -180,7 +180,7 @@ ht-degree: 76%
 
    現在可以使用傳遞範本建立將傳送給對象的電子郵件。
 
-#### 步驟3：在傳遞中使用新品牌 {#use-the-new-brand-in-a-delivery}
+#### 步驟3：在傳送中使用新品牌 {#use-the-new-brand-in-a-delivery}
 
 若要建立連結至品牌的電子郵件，請遵循以下步驟：
 

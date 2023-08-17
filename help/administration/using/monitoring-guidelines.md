@@ -21,7 +21,7 @@ ht-degree: 21%
 <td><img src="assets/do-not-localize/icon_send.svg" width="60px"><p><a href="#monitoring-deliveries">監視傳遞</a></p></td></tr>
 </table>
 
-Campaign Standard提供數種監控執行個體的方式，以確保您的系統運作正常，並最終疑難排解設定工作流程、傳送傳遞等時可能發生的問題。
+Campaign Standard提供數種監視執行個體的方式，以確保您的系統健康且最終疑難排解設定工作流程、傳送傳遞等時可能發生的問題。
 
 ## 監視系統 {#monitoring-system}
 
@@ -34,11 +34,11 @@ Campaign Standard介面會提供通知窗格，讓您隨時瞭解系統中發生
 
 **技術工作流程**
 
-技術工作流程是排程定期在伺服器上執行的操作或作業。為確保您的執行個體正常運作，您需要確保執行個體隨時正常運作。 [深入了解](../../administration/using/technical-workflows.md)
+技術工作流程是排程定期在伺服器上執行的操作或作業。為確保您的執行個體正常運作，您需要確保執行個體隨時啟動並執行。 [深入了解](../../administration/using/technical-workflows.md)
 
 **控制面板**
 
-「控制面板」可以讓您管理執行個體的多項設定：URL許可權、檢查執行個體詳細資訊（例如伺服器的組建版本）、監控作用中設定檔的使用情況等。 它也可讓您監視連線到執行個體的SFTP伺服器上的可用空間。 [顯示全文](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hant)。
+「控制面板」可以讓您管理執行個體的多項設定：URL許可權、檢查執行個體詳細資訊（例如伺服器的組建版本）、監視作用中設定檔的使用情況等。 它也可讓您監視連線到執行個體的SFTP伺服器上的可用空間。 [顯示全文](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hant)。
 
 >[!NOTE]
 >
@@ -46,16 +46,16 @@ Campaign Standard介面會提供通知窗格，讓您隨時瞭解系統中發生
 
 **技術物件**
 
-此 **[!UICONTROL Diagnosis]** 功能表是用於監視和分析應用程式產生的不同技術物件的關鍵工具：資料結構描述、網頁、批次工作等。 [深入了解](../../developing/using/monitoring-data-model-changes.md)
+此 **[!UICONTROL Diagnosis]** 功能表是用於監視和分析應用程式產生的不同技術物件的關鍵工具：資料結構描述、網頁、批次作業等。 [深入了解](../../developing/using/monitoring-data-model-changes.md)
 
 **匯出稽核**
 
-匯出稽核可讓您監視執行個體上執行的匯出：從工作流程上傳的檔案、清單匯出以及從直接郵件訊息下載的檔案。
+匯出稽核可讓您監視在執行個體上執行的匯出：從工作流程上傳的檔案、清單匯出以及從直接郵件訊息下載的檔案。
 [深入了解](../../administration/using/auditing-export-logs.md)
 
 **授權**
 
-使用 **[!UICONTROL Licenses]** 功能表、監控執行個體的相關資訊：已安裝的授權、組建版本和條款協定接受。
+使用 **[!UICONTROL Licenses]** 功能表，監視執行個體的相關資訊：已安裝的授權、組建版本和條款協定接受。
 [深入了解](../../administration/using/licenses.md)
 
 ## 監控工作流程 {#monitoring-workflows}
@@ -64,12 +64,12 @@ Campaign Standard介面會提供通知窗格，讓您隨時瞭解系統中發生
 
 **最佳實務及疑難排解**
 
-使用工作流程時，遵循最佳實務和疑難排解指南有助於改善效能。
+使用工作流程時，遵循最佳實務和疑難排解准則有助於改善效能。
 [深入了解](../../automating/using/best-practices-workflows.md)
 
 **記錄和任務**
 
-工作流程記錄監控是分析工作流程並確保其正常執行的關鍵步驟。
+工作流程記錄監視是分析工作流程並確保其正常執行的關鍵步驟。
 [深入了解](../../automating/using/monitoring-workflow-execution.md#workflow-log-and-tasks)
 
 **通知**
@@ -88,15 +88,15 @@ Campaign Standard提供數種傳遞能力工具，協助您改善成功傳遞的
 
 **傳遞**
 
-傳送訊息後，詳細的記錄檔可讓您監控傳送並測量行銷活動是否成功，以及追蹤訊息收件者的行為。
+傳送訊息後，詳細的記錄檔可讓您監視傳遞並測量行銷活動是否成功，以及追蹤訊息收件者的行為。
 [深入了解](../../sending/using/monitoring-a-delivery.md)
 
 **傳遞警報**
 
-透過傳送警報功能，您可以設定自動傳送給一組使用者關於傳送執行的警報：傳送或準備失敗、不良跳出率、低輸送量等。
+透過傳送警報功能，您可以設定自動傳送給一組使用者有關傳送執行的警報：傳送或準備失敗、退回率不佳、輸送量低等。
 [深入了解](../../sending/using/receiving-alerts-when-failures-happen.md)
 
 **動態報告**
 
-動態報告提供各種報告，協助您隨時瞭解傳遞的執行方式：跳出數、收件者檢視次數最多的傳遞、傳遞的輸送量等。
+動態報告提供各種報告，協助您隨時瞭解傳遞的執行狀況：跳出數、收件者檢視次數最多的傳遞、傳遞的輸送量等。
 [深入了解](../../reporting/using/about-dynamic-reports.md)

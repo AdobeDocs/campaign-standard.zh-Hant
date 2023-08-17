@@ -1,6 +1,6 @@
 ---
 title: 工作流程介面
-description: 瞭解建立、編輯和執行工作流程的介面和選項。
+description: 瞭解建立、編輯及執行工作流程的介面和選項。
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
@@ -22,16 +22,16 @@ ht-degree: 4%
 
 工作流程編輯畫面由下列元素組成：
 
-* 此 [浮動面板](#palette)，會參照可用的活動。
-* 此 [Workspace](#workspace)，可設定和組織活動。
+* 此 [浮動視窗](#palette)，會參照可用的活動。
+* 此 [工作區](#workspace)，可設定和組織活動。
 * 此 [動作列](#action-bar)，由可讓您與工作流程及/或其元件互動的按鈕組成。
-* 此 [快速動作](#quick-actions)，會出現在所選活動週圍，可讓您與其互動。
+* 此 [快速動作](#quick-actions)，會出現在選取的活動週圍，讓您能夠與其互動。
 
 ![](assets/wkf_overview.png)
 
 ## 浮動視窗 {#palette}
 
-浮動視窗位於熒幕的左側。 所有可用的活動皆分為幾個類別：
+浮動視窗位於熒幕的左側。 所有可用的活動都會分類為數個類別：
 
 * [目標定位](../../automating/using/about-targeting-activities.md)：鎖定目標、操控人口資料和篩選活動的特定活動
 * [執行](../../automating/using/about-execution-activities.md)：組織和執行工作流程的特定活動
@@ -48,24 +48,24 @@ ht-degree: 4%
 
 工作區是工作流程編輯器中的中央區域。 您可以在此區域中拖放活動、使用轉變將它們連結在一起，以及進行設定。
 
-若要連結兩個活動，請將箭頭的結尾從第一個活動上移至下一個活動，直到它們連線為止。 您也可以將活動往後方的箭頭點移動，以便連結至前一個活動。 如果您移動任何活動，這些活動將會維持連結。
+若要連結兩個活動，請將箭頭的結尾從第一個活動上移至下一個活動，直到它們連線為止。 您也可以將活動往後箭頭的點移動，以便將其連結至前一個活動。 如果您移動任何活動，它們將會維持連結。
 
-處理資料的活動後的轉變包含中介母體。 如果您核取 **[!UICONTROL Keep interim results]** 中的選項 **[!UICONTROL Execution]** 工作流程屬性的區段。
+處理資料的活動之後的轉變包含中介母體。 如果您核取 **[!UICONTROL Keep interim results]** 中的選項 **[!UICONTROL Execution]** 區段建立屬性。
 
 >[!CAUTION]
 >
 >此選項佔用了大量磁碟空間，設計旨在幫助您建構工作流程並確保正確的設定和行為。在生產執行個體中保留未核取的狀態。
 
 
-選取活動時，會在活動週圍顯示快速動作，讓您與活動互動。 例如，若要設定活動，請選取該活動，然後使用 ![](assets/edit_darkgrey-24px_table.png) 按鈕。
+選取活動時，快速動作會出現在活動週圍，允許您與其互動。 例如，若要設定活動，請選取該活動，然後使用 ![](assets/edit_darkgrey-24px_table.png) 快速操作中的按鈕。
 
-某些功能僅在工作區中啟用：
+某些功能只能在工作區中啟用：
 
-* 透過在其周圍繪製區域來選取多個活動和轉接。
+* 透過在活動與轉接周圍繪製區域來選取它們。
 * 按下 **Ctrl** +按一下滑鼠左鍵以選取數個活動和/或轉變。
 * 按下 **輸入** 以檢視目前所選活動或轉變的詳細資訊。
 * 按下 **刪除** 以刪除目前選取的活動。
-* 按下 **Ctrl + C** 複製所選活動，以及 **Ctrl + V** 將它們貼到工作區中。
+* 按下 **Ctrl + C** 複製所選的活動，以及 **Ctrl + V** 以將其貼到工作區中。
 
 ![](assets/workflow_workspace.png)
 
@@ -91,7 +91,7 @@ ht-degree: 4%
 
 <img height="21px" src="assets/targeted.png" /> **[!UICONTROL Open transition]**<br/>開啟選取的轉變。<br />
 
-<img height="21px" src="assets/check_darkgrey-24px_table.png" />  **[!UICONTROL Normal execution]**<br/>重新啟用選取範圍（如果先前已停用或標籤為已暫停）。<br />
+<img height="21px" src="assets/check_darkgrey-24px_table.png" />  **[!UICONTROL Normal execution]**<br/>如果選取範圍先前已停用或標籤為已暫停，則重新啟用選取範圍。<br />
 
 <img height="21px" src="assets/check_pause_darkgrey-24px_table.png" /> **[!UICONTROL Execution suspended]**<br/>在選取的活動處暫停工作流程。<br />
 
@@ -113,7 +113,7 @@ ht-degree: 4%
 
 <img height="21px" src="assets/wkf_dlv_act_params_icon.png" /> **[!UICONTROL Open the activity's advanced options]**<br/>開啟所選電子郵件或簡訊傳送活動的進階選項。
 
-<img height="21px" src="assets/check_darkgrey-24px_table.png" /> **[!UICONTROL Normal execution]**<br/>重新啟用選取範圍（如果先前已停用或標籤為已暫停）。
+<img height="21px" src="assets/check_darkgrey-24px_table.png" /> **[!UICONTROL Normal execution]**<br/>如果選取範圍先前已停用或標籤為已暫停，則重新啟用選取範圍。
 
 <img height="21px" src="assets/check_pause_darkgrey-24px_table.png" /> **[!UICONTROL Execution suspended]**<br/>在選取的活動處暫停工作流程。
 
@@ -125,7 +125,7 @@ ht-degree: 4%
 
 ## 複製工作流程活動 {#duplicating-workflow-activities}
 
-工作區可讓您複製工作流程活動，並將其貼到相同的工作流程中，或貼到來自相同Campaign執行個體的另一個工作流程中，以複製工作流程活動。
+工作區可讓您複製工作流程活動，將其貼到相同的工作流程中，或貼到來自相同Campaign執行個體的另一個工作流程中。
 
 活動複製後，會保留其整個設定。 對於傳送活動（電子郵件、簡訊、推播通知……），附加至活動的傳送物件會重複。
 
@@ -135,7 +135,7 @@ ht-degree: 4%
 
 若要複製活動，請遵循下列步驟：
 
-1. 選取活動，然後按一下 **[!UICONTROL Copy selection]** 快速動作中的按鈕。
+1. 選取活動，然後按一下 **[!UICONTROL Copy selection]** 快速操作中的按鈕。
 
    您也可以使用 **Ctrl + C** 鍵盤快速鍵。
 

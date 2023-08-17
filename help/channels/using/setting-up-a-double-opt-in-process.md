@@ -27,7 +27,7 @@ ht-degree: 89%
 
 若要設定此設定，您必須：
 
-1. 建立並發佈登錄頁面，讓訪客可以註冊並訂閱。此登錄頁面可從網站取得。填寫並提交此登入頁面的訪客將儲存在資料庫中，但會新增至封鎖清單，以便在最終驗證之前不會收到任何通訊(請參閱 [Campaign中的封鎖清單管理](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md))。
+1. 建立並發佈登錄頁面，讓訪客可以註冊並訂閱。此登錄頁面可從網站取得。填寫並送出此登入頁面的訪客會儲存在資料庫中，但會新增至封鎖清單，以便在最終驗證之前不會收到任何通訊(請參閱 [Campaign中的封鎖清單管理](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md))。
 1. 使用確認連結自動建立及傳送選取加入的電子郵件。此電子郵件將定位提交登錄頁面的訪客。它將以電子郵件範本為基礎，可以定位「選取退出」設定檔。
 1. 重新導向至確認登錄頁面。此最終登錄頁面將建議一個確認按鈕：訪客必須按一下它。您可以設計歡迎電子郵件，在確認完成時傳送，例如在電子郵件中為新收件者新增特殊優惠。
 
@@ -96,7 +96,7 @@ ht-degree: 89%
 
 ### 建立類型 {#create-the-typology-rule}
 
-您需要建立特定[類型](../../sending/using/about-typology-rules.md)，方法是複製現成可用的類型。此型別將允許傳送訊息給尚未確認其協定且仍位於封鎖清單上的設定檔。 依預設，型別會排除選擇退出（即於封鎖清單上）的設定檔。 若要建立此類型，請依照下列步驟進行：
+您需要建立特定[類型](../../sending/using/about-typology-rules.md)，方法是複製現成可用的類型。此型別將允許傳送訊息給尚未確認同意且仍位於封鎖清單中的設定檔。 依預設，排除選擇退出（即封鎖清單上）設定檔的型別。 若要建立此類型，請依照下列步驟進行：
 
 1. 從 Adobe Campaign 標誌中，選取&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** 並按一下 **[!UICONTROL Typologies]**。
 1. 複製現成可用的類型 **[!UICONTROL Transactional message on profile (mcTypologyProfile)]**。
@@ -132,7 +132,7 @@ ht-degree: 89%
 
    並將值設為 **true**。
 
-   這是強制新增至封鎖清單的專案，並避免傳送訊息給未確認同意的訪客。 驗證 CONFIRMATION 登錄頁面後，會在確認後將此欄位設 為 **false**。如需詳細資訊，請參閱[步驟 1：建立確認登錄頁面](#step-1--create-the-confirmation-landing-page)。
+   這是強制新增到封鎖清單，並避免傳送訊息給未確認同意的訪客。 驗證 CONFIRMATION 登錄頁面後，會在確認後將此欄位設 為 **false**。如需詳細資訊，請參閱[步驟 1：建立確認登錄頁面](#step-1--create-the-confirmation-landing-page)。
 
 1. 在 **[!UICONTROL Job]** > **[!UICONTROL Specific actions]** 區段中，選取 **[!UICONTROL Start sending messages]** 選項。
 1. 在相關聯的下拉式清單中，選取您建立的 **CONFIRM** 交易式訊息範本。
@@ -143,7 +143,7 @@ ht-degree: 89%
 
    ![](assets/optin_acquisition_page1.png)
 
-1. 自訂確認頁面，通知新訂閱者他們需要驗證其訂閱。
+1. 自訂確認頁面，通知新訂閱者他們需要驗證訂閱。
 
    ![](assets/optin_acquisition_page2.png)
 

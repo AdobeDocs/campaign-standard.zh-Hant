@@ -1,6 +1,6 @@
 ---
 title: 開啟次數
-description: 透過開啟報告，瞭解根據各種條件檢視哪個傳送次數最多。
+description: 透過開啟報表，瞭解根據各種條件檢視的傳送次數最多。
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -18,11 +18,11 @@ ht-degree: 7%
 
 # 開啟次數{#opens}
 
-此 **[!UICONTROL Opens]** 報告可識別最多收件者檢視的交付專案。
+此 **[!UICONTROL Opens]** 報表可識別最多收件者檢視的交付專案。
 
 ![](assets/delivery_reports_opens.png)
 
-四個表格和圖表會根據以下專案劃分開啟電子郵件的收件者總數：
+根據以下四個表格和圖表，劃分開啟電子郵件的收件者總數：
 
 * 瀏覽器
 * 裝置

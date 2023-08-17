@@ -1,6 +1,6 @@
 ---
 title: 產生具有Campaign Standard之多語言推播通知的CSV檔案
-description: 上傳CSV檔案以產生傳送內容是一項用於支援多語言推播通知的功能。
+description: 上傳CSV檔案來產生傳送內容是一項用於支援多語言推播通知的功能。
 audience: channels
 content-type: reference
 topic-tags: email-messages
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 產生多語言推送通知的 CSV 檔案{#generating-csv-multilingual-push}
 
-上傳CSV檔案以產生傳送內容是一項功能，用於支援多語言推播通知。 CSV檔案的格式必須符合某些准則才能成功上傳檔案，進而建立傳送。 以下各節將說明檔案格式及其考量事項。
+上傳CSV檔案來產生傳送內容是一項用於支援多語言推播通知的功能。 CSV檔案的格式必須符合某些准則才能成功上傳檔案，進而建立傳送。 以下各節將說明檔案格式及其考量事項。
 
 ## 檔案格式 {#file-format}
 
@@ -40,31 +40,31 @@ ht-degree: 0%
 
 按一下「 」以檢查CSV範例 **[!UICONTROL Download a sample file]** 在 **[!UICONTROL Manage Content Variants]** 視窗。 如需詳細資訊，請參閱此 [區段](../../channels/using/creating-a-multilingual-push-notification.md).
 
-* **title， messageBody， sound，徽章， deeplinkURI，類別， iosMediaAttachmentURL， androidMediaAttachmentURL**：一般推送裝載內容。 您需要以建立推播傳遞時類似的方式提供此資訊。
-* **自訂欄位**：對自訂欄位使用JSON格式，例如 `{"key1":"value1","key2":"value2"}`. 如需自訂欄位的範例，請參閱上述範例檔案。
-* **isContentAvailable**：可用內容檢查的標幟，值1表示true，值0表示false。 預設值為0。 如果您將此欄留白，此值將被視為0。
-* **isMutableContent**：可變動內容的標幟，值1表示true，值0表示false。 預設值為0。 如果您將此欄留白，此值將被視為0。
+* **title， messageBody，聲音，徽章， deeplinkURI，類別， iosMediaAttachmentURL， androidMediaAttachmentURL**：一般推送裝載內容。 您需要以建立推播傳遞時類似的方式提供此資訊。
+* **自訂欄位**：自訂欄位使用JSON格式，例如 `{"key1":"value1","key2":"value2"}`. 如需自訂欄位的範例，請參閱上述範例檔案。
+* **isContentAvailable**：可用內容檢查的標幟，值1表示true，值0表示false。 預設值為0。 如果您將此欄保留為空白，則會將該值視為0。
+* **isMutableContent**：可變動內容的標幟，值1表示true，值0表示false。 預設值為0。 如果您將此欄保留為空白，則會將該值視為0。
 * **地區設定**：locale是語言變體的欄位，例如「en_us」代表美式英文，「fr_fr」代表法式法文。
-* **語言**：與地區設定相關聯的語言名稱。 例如，如果locale是&quot;en_us&quot;，則語言名稱應該是&quot;English-United States&quot;。
-* **silentPush**：推播通知型別的標幟。 如果是一般推播通知，值應該是0。 如果是無訊息推播，值應該是1。 預設值為0。 如果您將此欄留白，此值將被視為0。
+* **語言**：與地區設定相關聯的語言名稱。 例如，如果locale為&quot;en_us&quot;，則語言名稱應為&quot;English-United States&quot;。
+* **silentPush**：推播通知型別的標幟。 若為一般推播通知，則值應為0。 如果是無訊息推播，值應該為1。 預設值為0。 如果您將此欄保留為空白，則會將該值視為0。
 
 ## 建立csv檔案的限制和准則 {#constraints-guideline-csv}
 
-**每欄的名稱都是固定的**.
-您應在CSV檔案中包含每個欄的名稱，如果您未對內容使用任何欄，請將其留空。
+**每一欄的名稱是固定的**.
+您應該在CSV檔案中包含每個欄的名稱，如果您未對內容使用任何欄，請將其留空。
 
-**「locale」和「language」欄是必填欄位，每個列的值都是唯一的。**
+**「locale」和「language」欄是必填欄位，且每列的值都是唯一的。**
 此欄的空白值將導致檔案上傳失敗。
 
-**欄的順序很重要**. 上傳檔案中欄的順序需要遵循與範例檔案相同的格式。
+**欄的順序很重要**. 上傳檔案中的欄順序需要遵循與範例檔案相同的格式。
 
 **引號欄內容**. 由於這是CSV （代表逗號分隔值）檔案，因此必須引用包含逗號(，)的任何欄內容。 例如，「Hello， Tom！」
 
 **國際字元需要UTF-8編碼。**
 
-**如果您以純文字產生檔案，請以「，」分隔各欄。**
+**如果您以純文字產生檔案，請以「，」分隔每一欄。**
 
-**變體不相符。** 如果您使用具有特定語言的內容區塊和目標對象，則需要在CSV檔案中列出所有目標語言，否則您在傳送傳送內容時會收到錯誤。
+**變體不相符。** 如果您使用內容區塊並以特定語言鎖定對象，則需要在CSV檔案中列出所有目標語言，否則您在傳送傳遞時會收到錯誤。
 
 ## 在csv檔案中插入個人化欄位 {#personalization-field-csv}
 
@@ -76,21 +76,21 @@ ht-degree: 0%
  "Hello <span class="nl-dce-field nl-dce-done"  data-nl-expr="/context/profile/firstName">First name</span>, this is message".
 ```
 
-「名字」欄位由以下專案表示：
+「firstName」欄位由以下表示：
 
 ```
  <span class="nl-dce-field nl-dce-done" data-nl-expr="/context/profile/firstName">First name</span>
 ```
 
-在範圍中，有兩個必要屬性：
+在範圍中有兩個必要屬性：
 
-* 一個是靜態類別。 無論您計畫使用哪個個人化欄位，都一律為class=&quot;nl-dce-field nl-dce-done&quot;。
+* 一個是靜態類別。 無論您計畫使用哪個個人化欄位，該欄位一律為class=&quot;nl-dce-field nl-dce-done&quot;。
 
-* 另一個是data-nl-expr，這是個人化欄位的路徑。 例如，如果您從UI插入「firstName」個人化欄位，導覽路徑將為 **[!UICONTROL Context (context)]** > **[!UICONTROL Profile (profile)]** > **[!UICONTROL First name (firstName)]** （如下圖所示）。 在此情況下，路徑將為
+* 另一個是data-nl-expr，這是個人化欄位的路徑。 例如，如果您從UI插入「firstName」個人化欄位，導覽路徑將為 **[!UICONTROL Context (context)]** > **[!UICONTROL Profile (profile)]** > **[!UICONTROL First name (firstName)]** （如下圖所示）。 在此案例中，路徑將為
 
-   ```
-   /context/profile/firstName. data-nl-expr="/context/profile/firstName".
-   ```
+  ```
+  /context/profile/firstName. data-nl-expr="/context/profile/firstName".
+  ```
 
 ![](assets/multilingual_push_2.png)
 
@@ -122,10 +122,10 @@ ht-degree: 0%
 | be_by | 白俄羅斯文 — 白俄羅斯 |
 | bs_ba | 波斯尼亞文 — 波斯尼亞 |
 | bg_bg | 保加利亞文 — 保加利亞 |
-| ca_es | 加泰羅尼亞文 — 西班牙 |
+| ca_es | 加泰隆尼亞文 — 西班牙 |
 | zh_cn | 中文（簡體） — 中國 |
 | zh_sg | 中文（簡體） — 新加坡 |
-| zh_hk | 中文（繁體） — 中國香港特別行政區 |
+| zh_hk | 中文（繁體） — 中國香港特區 |
 | zh_tw | 中文（繁體） — 台灣地區 |
 | hr_hr | 克羅埃西亞文 — 克羅埃西亞 |
 | cs_cz | 捷克文 — 捷克文 |
@@ -186,7 +186,7 @@ ht-degree: 0%
 | ru_ru | 俄文 — 俄羅斯 |
 | ru_ua | 俄文 — 烏克蘭 |
 | a_in | 梵文 — 印度 |
-| sr_ba | 塞爾維亞文 — 波士尼亞 |
+| sr_ba | 塞爾維亞文 — 波斯尼亞 |
 | sr_rs | 塞爾維亞文 — 塞爾維亞 |
 | sk_sk | 斯洛伐克文 — 斯洛伐克 |
 | sl_si | 斯洛維尼亞文 — 斯洛維尼亞 |

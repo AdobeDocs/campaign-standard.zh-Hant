@@ -27,7 +27,7 @@ ht-degree: 87%
 
 1. 在　Adobe Campaign　中，確定您可以存取 **[!UICONTROL In-App]** 通道。如果您無法存取這些通道，請聯絡您的帳戶團隊。
 
-1. 若要搭配Experience Cloud SDK應用程式運用Adobe Campaign Standard的行動使用案例，必須在資料收集UI中建立行動應用程式，並在Adobe Campaign Standard中設定。 如需逐步指南，請參閱此[頁面](../../administration/using/configuring-a-mobile-application.md)。
+1. 若要將Adobe Campaign Standard的行動使用案例與Experience Cloud SDK應用程式搭配運用，行動應用程式必須在資料收集UI中建立並在Adobe Campaign Standard中設定。 如需逐步指南，請參閱此[頁面](../../administration/using/configuring-a-mobile-application.md)。
 
 1. 設定之後，您現在就能準備應用程式內訊息。如需詳細資訊，請參閱此[頁面](../../channels/using/preparing-and-sending-an-in-app-message.md#preparing-your-in-app-message)。
 

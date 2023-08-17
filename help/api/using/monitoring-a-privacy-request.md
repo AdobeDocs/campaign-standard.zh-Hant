@@ -17,13 +17,13 @@ ht-degree: 16%
 
 # 監控隱私權請求 {#monitoring-a-privacy-request}
 
-您可以使用監控已建立隱私權請求的相關資訊 **GET** 要求。
+您可以使用監控已建立隱私權請求的資訊 **GET** 要求。
 
 狀態清單說明可在 [隱私權管理檔案](../../start/using/privacy-requests.md).
 
 <br/>
 
-***範例請求***
+***範例要求***
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool \

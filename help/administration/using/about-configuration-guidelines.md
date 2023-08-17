@@ -17,7 +17,7 @@ ht-degree: 13%
 
 ## 相容瀏覽器{#compatible-browsers}
 
-Adobe Campaign Standard與大多數的電腦瀏覽器以及平板電腦的主要作業系統相容。
+Adobe Campaign Standard與大部分的電腦瀏覽器以及平板電腦的主要作業系統相容。
 
 Adobe Campaign Standard僅支援橫向作為平板電腦上的顯示模式。
 
@@ -32,8 +32,8 @@ Adobe Campaign Standard僅支援橫向作為平板電腦上的顯示模式。
 
 **平板電腦:**
 
-* iOS （第7版及更新版本）
-* Android （4.4版及更新版本）
+* iOS （第7版和更新版本）
+* Android （4.4版和更新版本）
 
 ## Campaign Standard 網路端點 {#campaign-standard-network-endpoints}
 

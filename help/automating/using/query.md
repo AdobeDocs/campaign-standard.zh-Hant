@@ -53,7 +53,7 @@ ht-degree: 93%
 
    >[!NOTE]
    >
-   >目標定位對象時，請注意對象的定義未被引用，但 **已複製** 放入查詢中。 如果在查詢中鎖定對象後，您對對象進行了任何變更，請務必再次設定查詢，以將新定義納入考量。
+   >鎖定目標對象時，請注意不會參考對象的定義，但 **已複製** 到查詢中。 如果在查詢中鎖定對象後，您對對象進行了任何變更，請確保再次設定查詢以考慮新定義。
 
 1. 您可以透過專用索引標籤來定義目標母體的　**[!UICONTROL Additional data]**。此資料會儲存在其他欄中，且僅能用於進行中的工作流程。尤其是，您可以從連結至查詢目標維度的 Adobe Campaign 資料庫表格新增資料。請參閱[擴充資料](#enriching-data)區段。
 
@@ -71,7 +71,7 @@ ht-degree: 93%
 
 目標維度和資源可讓您定義查詢要依據哪些元素來判斷傳送的目標。
 
-設定於 [目標對應](../../administration/using/target-mappings-in-campaign.md)，和在建立工作流程時定義 **[!UICONTROL Properties]** 「查詢」活動的索引標籤。
+已在中進行設定 [目標對應](../../administration/using/target-mappings-in-campaign.md)，和在建立工作流程時定義 **[!UICONTROL Properties]** 「查詢」活動的索引標籤。
 
 >[!NOTE]
 >

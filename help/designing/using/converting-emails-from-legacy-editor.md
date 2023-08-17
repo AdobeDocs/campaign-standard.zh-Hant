@@ -19,7 +19,7 @@ ht-degree: 8%
 
 開始使用電子郵件設計工具，並從在舊版編輯器中建立的電子郵件HTML中建立可重複使用的範本和片段。
 
-此使用案例可讓您使用HTML電子郵件，並將其分割成電子郵件設計工具中的HTML元件，以建立電子郵件設計工具範本。
+此使用案例可讓您使用HTML電子郵件，並將它分割成電子郵件設計工具中的HTML元件，來建立電子郵件設計工具範本。
 
 >[!NOTE]
 >
@@ -32,13 +32,13 @@ ht-degree: 8%
 ## 準備您的電子郵件內容
 
 1. 選取HTML電子郵件。
-1. 識別HTML電子郵件的區段。
-1. 從HTML中剪下不同區塊。
+1. 識別區段以劃分HTML電子郵件。
+1. 從HTML中剪下不同的區塊。
 
 ## 建立您的電子郵件結構
 
 1. 開啟 **[!UICONTROL Email Designer]**  以建立空白的電子郵件內容。
-1. 設定主體層級屬性：背景顏色、寬度等。 如需詳細資訊，請參閱[編輯電子郵件樣式](../../designing/using/styles.md)。
+1. 設定內文層級屬性：背景顏色、寬度等。 如需詳細資訊，請參閱[編輯電子郵件樣式](../../designing/using/styles.md)。
 1. 新增任意數量的結構元件。 如需詳細資訊，請參閱「[編輯電子郵件結構](../../designing/using/designing-from-scratch.md#defining-the-email-structure)」。
 
 ## 新增HTML內容
@@ -46,7 +46,7 @@ ht-degree: 8%
 1. 將HTML元件新增至每個結構元件。 如需詳細資訊，請參閱「[新增片段及元件](../../designing/using/designing-from-scratch.md#defining-the-email-structure)」。
 1. 將HTML複製並貼到每個元件中。
 
-## 管理電子郵件的樣式 {#manage-the-style-of-your-email}
+## 管理電子郵件的風格 {#manage-the-style-of-your-email}
 
 1. 切換至 **[!UICONTROL Mobile view]**. 如需詳細資訊，請參閱[本節](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)。
 
@@ -63,7 +63,7 @@ ht-degree: 8%
 
    >[!NOTE]
    >
-   >請務必將您的樣式新增至其他自訂樣式標籤中。
+   >請務必將您的樣式新增至另一個自訂樣式標籤中。
    >
    >請勿修改電子郵件設計工具產生的CSS：
    >
@@ -72,7 +72,6 @@ ht-degree: 8%
    >* `<style data-name="mediaIOS8" type="text/css">(##)</style>`
    >* `<style data-name="media-default-max-width-500px" type="text/css">(##)</style>`
    >* `<style data-name="media-default--webkit-min-device-pixel-ratio-0" type="text/css">(##)</style>`
-
 
 1. 返回行動檢視以檢查您的內容是否正確顯示並儲存變更。
 
@@ -120,10 +119,10 @@ ht-degree: 8%
 
 ### 管理樣式以符合行動檢視
 
-1. 插入CSS元素，以確保您的電子郵件適合行動檢視。
+1. 插入CSS元素，確保您的電子郵件適合行動裝置檢視。
 
 1. 切換至原始程式碼，並將您的樣式區段複製貼到新的樣式區段中。
 
-有關詳細資訊，請參閱 [管理電子郵件的樣式](#manage-the-style-of-your-email).
+有關詳細資訊，請參閱 [管理電子郵件的風格](#manage-the-style-of-your-email).
 
-您的舊版電子郵件現在可在電子郵件設計工具中使用。
+電子郵件設計工具現在會提供您的舊版電子郵件。

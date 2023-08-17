@@ -1,5 +1,5 @@
 ---
-title: 在設定檔建立日期建立傳送
+title: 在設定檔建立日期中建立傳送
 description: 此使用案例顯示如何在設定檔建立日期建立傳送。
 audience: automating
 content-type: reference
@@ -18,7 +18,7 @@ ht-degree: 38%
 
 # 在設定檔建立日期中建立傳遞 {#creation-date-query}
 
-您可以在客戶建立設定檔的週年紀念日透過電子郵件傳送優惠方案。
+您可以在客戶設定檔建立週年紀念日透過電子郵件傳送優惠方案。
 
 1. 在 **[!UICONTROL Marketing Activities]** 中，按一下 **[!UICONTROL Create]** 並選取 **[!UICONTROL Workflow]**。
 1. 選取 **[!UICONTROL New Workflow]** 作為工作流程類型，並按一下 **[!UICONTROL Next]**。
@@ -30,7 +30,7 @@ ht-degree: 38%
 1. 連按兩下此活動。
 1. 設定傳送的執行。
 1. 在 **[!UICONTROL Execution frequency]** 中選取 **[!UICONTROL Daily]**。
-1. 選取 **[!UICONTROL Time]** 和 **[!UICONTROL Repetition frequency]** 工作流程的執行階段。
+1. 選取 **[!UICONTROL Time]** 和 **[!UICONTROL Repetition frequency]** 工作流程的執行部分。
 1. 選取 **[!UICONTROL Start]** 日期和 **[!UICONTROL Expiration]** 用於工作流程。
 1. 確認您的活動並儲存您的工作流程。
 
@@ -52,7 +52,7 @@ ht-degree: 38%
 1. 在 **[!UICONTROL list of functions]**，按兩下 **[!UICONTROL Day]** 從 **[!UICONTROL Date]** 節點。
 1. 然後，插入欄位 **[!UICONTROL Created]** 作為引數。
 1. 選取 **[!UICONTROL equals to (=)]** 作為運運算元。
-1. 對於值，選取 **[!UICONTROL Day]** 從 **[!UICONTROL Date]** 中的節點 **[!UICONTROL List of functions]**.
+1. 對於值，選擇 **[!UICONTROL Day]** 從 **[!UICONTROL Date]** 中的節點 **[!UICONTROL List of functions]**.
 1. 插入 **[!UICONTROL GetDate()]** 函式為引數。
 
 您已擷取建立日期等於當天的設定檔。
@@ -67,18 +67,18 @@ ht-degree: 38%
 
 ### 擷取在執行月份的同一個月建立的設定檔{#retrieving-profiles-created-on-the-same-month}
 
-1. 於 **[!UICONTROL Query]** 編輯器中，選取第一個查詢並複製它。
+1. 在 **[!UICONTROL Query]** 編輯器中，選取第一個查詢並複製它。
 1. 開啟副本。
-1. Replace **[!UICONTROL Day]** 作者： **[!UICONTROL Month]** 在查詢中。
+1. 取代 **[!UICONTROL Day]** 作者： **[!UICONTROL Month]** 在查詢中。
 1. 按一下&#x200B;**[!UICONTROL Confirm]**。
 
 ![](assets/month_rule.png)
 
-您最後應該會遇到以下問題：
+最後應該會是這樣：
 
 ``` Month(@created) = Month(GetDate()) ```
 
-最終查詢隨即顯示：
+最後查詢顯示如下：
 
 ```Day(@created) = Day(GetDate()) AND Month(@created) = Month(GetDate())```
 
@@ -99,4 +99,4 @@ ht-degree: 38%
 
 **相關主題：**
 
-* [電子郵件通道](../../channels/using/creating-an-email.md)
+* [電子郵件管道](../../channels/using/creating-an-email.md)

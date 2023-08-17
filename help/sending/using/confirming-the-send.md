@@ -44,7 +44,7 @@ ht-degree: 18%
 >
 >如果已排程訊息，則會在達到傳送時間時傳送訊息。 如需排程訊息的詳細資訊，請參閱[本區段](../../sending/using/about-scheduling-messages.md)。
 
-如果您使用不含彙總期間的循環傳送，則可在傳送傳遞前要求確認。設定訊息時，請開啟 **[!UICONTROL Schedule]** 區塊的傳送控制面板並啟動專用選項。
+如果您使用不含彙總期間的循環傳送，則可在傳送傳遞前要求確認。設定訊息時，請開啟 **[!UICONTROL Schedule]** 傳遞控制面板區塊並啟用專用選項。
 
 ![](assets/confirmation_recurring_deliveries.png)
 
@@ -59,19 +59,19 @@ ht-degree: 18%
 * 已開啟訊息的百分比
 * 訊息中的點按百分比（電子郵件）
 
-   >[!NOTE]
-   >
-   >**[!UICONTROL Open rate]** 及 **[!UICONTROL Click-through rate]** 每小時會更新一次。
+  >[!NOTE]
+  >
+  >**[!UICONTROL Open rate]** 及 **[!UICONTROL Click-through rate]** 每小時會更新一次。
 
 ![](assets/sending_delivery.png)
 
-如果KPI更新時間過長或未反映傳送記錄檔的結果，請按一下 **[!UICONTROL Compute stats]** 中的按鈕 **[!UICONTROL Deployment]** 視窗。
+如果KPI更新時間太長或未反映傳送記錄檔的結果，請按一下 **[!UICONTROL Compute stats]** 中的按鈕 **[!UICONTROL Deployment]** 視窗。
 
 ![](assets/sending_delivery7.png)
 
 可以在其中一個目標設定檔的歷史記錄中檢視訊息。 請參閱[整合式客戶設定檔](../../audiences/using/integrated-customer-profile.md)。
 
-傳送訊息後，您可以追蹤其收件者的行為，並監控該訊息以評估其影響。 如需詳細資訊，請參閱下列區段。
+傳送訊息後，您可以追蹤其收件者的行為並監控該訊息，以評估其影響。 如需詳細資訊，請參閱下列區段。
 
 * [追蹤訊息](../../sending/using/tracking-messages.md)
 * [監視傳遞](../../sending/using/monitoring-a-delivery.md)
@@ -84,17 +84,17 @@ ht-degree: 18%
 
 在 **[!UICONTROL Summary]** 每封電子郵件的檢視， **[!UICONTROL Delivered]** 百分比從100%開始，然後在整個傳送過程中逐步下降 [有效期](../../administration/using/configuring-email-channel.md#validity-period-parameters)，因為系統回報軟跳出和硬跳出<!--from the Enhanced MTA to Campaign-->.
 
-事實上，所有訊息都會顯示為 **[!UICONTROL Sent]** 在 [傳送記錄檔](../../sending/using/monitoring-a-delivery.md#sending-logs) 只要成功從Campaign轉送至Enhanced MTA （訊息傳輸代理程式）。 除非或直至 [跳出](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) ，該訊息的訊息會從Enhanced MTA傳回Campaign。
+事實上，所有訊息都會顯示為 **[!UICONTROL Sent]** 在 [傳送記錄檔](../../sending/using/monitoring-a-delivery.md#sending-logs) 只要順利從Campaign轉送至Enhanced MTA （訊息傳輸代理程式）。 除非或直至 [跳出](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) 該訊息的訊息會從Enhanced MTA傳回Campaign。
 
-當硬跳出訊息從Enhanced MTA回傳時，其狀態會從 **[!UICONTROL Sent]** 至 **[!UICONTROL Failed]** 和 **[!UICONTROL Delivered]** 百分比會據此減少。
+當硬跳出訊息從Enhanced MTA回報時，其狀態會從 **[!UICONTROL Sent]** 至 **[!UICONTROL Failed]** 和 **[!UICONTROL Delivered]** 百分比會因此減少。
 
-當從Enhanced MTA回報軟退信時，仍會顯示為 **[!UICONTROL Sent]** 和 **[!UICONTROL Delivered]** 百分比尚未更新。 然後，軟跳出訊息會 [已重試](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure) 在整個傳遞有效期間：
+當軟退信從Enhanced MTA回傳時，仍會顯示為 **[!UICONTROL Sent]** 和 **[!UICONTROL Delivered]** 百分比尚未更新。 然後，軟退信則會 [已重試](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure) 整個傳遞有效期間：
 
 * 如果在有效期結束前重試成功，則訊息狀態將保持為 **[!UICONTROL Sent]** 和 **[!UICONTROL Delivered]** 百分比保持不變。
 
-* 否則，狀態會變更為 **[!UICONTROL Failed]** 和 **[!UICONTROL Delivered]** 百分比會據此減少。
+* 否則，狀態將變更為 **[!UICONTROL Failed]** 和 **[!UICONTROL Delivered]** 百分比會因此減少。
 
-因此，您必須等到有效期結束才能看到最終結果 **[!UICONTROL Delivered]** 百分比，以及最終數量 **[!UICONTROL Sent]** 和 **[!UICONTROL Failed]** 訊息。
+因此，您必須等到有效期結束才能看到最終結果 **[!UICONTROL Delivered]** 百分比，以及最終數目 **[!UICONTROL Sent]** 和 **[!UICONTROL Failed]** 訊息。
 
 ### 電子郵件回饋服務（測試版） {#email-feedback-service}
 
@@ -102,9 +102,9 @@ ht-degree: 18%
 
 >[!IMPORTANT]
 >
->電子郵件回饋服務目前提供測試版功能。
+>電子郵件回饋服務目前是以Beta版形式提供。
 
-開始傳送後，此專案沒有變更 **[!UICONTROL Delivered]** 訊息成功從Campaign轉送至Enhanced MTA時的百分比。
+開始傳送後， **[!UICONTROL Delivered]** 訊息成功從Campaign轉送至Enhanced MTA時的百分比。
 
 ![](assets/efs-sending.png)
 
@@ -112,15 +112,15 @@ ht-degree: 18%
 
 ![](assets/efs-pending.png)
 
-當從Enhanced MTA即時回報訊息傳送至目標設定檔時，傳送記錄會顯示 **[!UICONTROL Sent]** 成功收到訊息的每個位址的狀態。 此 **[!UICONTROL Delivered]** 百分比會隨著每次成功傳遞而相應增加。
+當從增強型MTA即時回報訊息傳送至目標設定檔時，傳送記錄會顯示 **[!UICONTROL Sent]** 成功接收訊息的每個位址的狀態。 此 **[!UICONTROL Delivered]** 百分比會隨著每次成功傳遞而增加。
 
-從Enhanced MTA回報硬跳出訊息時，其記錄狀態會從 **[!UICONTROL Pending]** 至 **[!UICONTROL Failed]** 和 **[!UICONTROL Bounces + errors]** 百分比會相應增加。
+當從Enhanced MTA回報硬退信時，其記錄狀態會從 **[!UICONTROL Pending]** 至 **[!UICONTROL Failed]** 和 **[!UICONTROL Bounces + errors]** 百分比會隨之增加。
 
-當從Enhanced MTA回報軟退信時，其記錄狀態也會從 **[!UICONTROL Pending]** 至 **[!UICONTROL Failed]** 和 **[!UICONTROL Bounces + errors]** 百分比會相應增加。 此 **[!UICONTROL Delivered]** 百分比保持不變。 然後，軟跳出訊息會在整個傳遞期間重試 [有效期](../../administration/using/configuring-email-channel.md#validity-period-parameters)：
+當從Enhanced MTA回報軟退信時，其記錄狀態也會從 **[!UICONTROL Pending]** 至 **[!UICONTROL Failed]** 和 **[!UICONTROL Bounces + errors]** 百分比會隨之增加。 此 **[!UICONTROL Delivered]** 百分比保持不變。 然後會在整個傳遞期間重試軟退信訊息 [有效期](../../administration/using/configuring-email-channel.md#validity-period-parameters)：
 
-* 如果在有效期結束前重試成功，則訊息狀態會變更為 **[!UICONTROL Sent]** 和 **[!UICONTROL Delivered]** 百分比會相應增加。
+* 如果在有效期結束前重試成功，則訊息狀態會變更為 **[!UICONTROL Sent]** 和 **[!UICONTROL Delivered]** 百分比會隨之增加。
 
-* 否則，狀態會維持為 **[!UICONTROL Failed]**. 此 **[!UICONTROL Delivered]** 和 **[!UICONTROL Bounces + errors]** 百分比保持不變。
+* 否則，狀態將保持為 **[!UICONTROL Failed]**. 此 **[!UICONTROL Delivered]** 和 **[!UICONTROL Bounces + errors]** 百分比保持不變。
 
 >[!NOTE]
 >
@@ -138,18 +138,18 @@ ht-degree: 18%
 
 | 傳送程式中的步驟 | KPI摘要 | 傳送記錄檔狀態 |
 |--- |--- |--- |
-| 訊息已成功從Campaign轉送至Enhanced MTA | <ul><li>**[!UICONTROL Delivered]** 百分比從0%開始</li><li>**[!UICONTROL Bounces + errors]** 百分比從0%開始</li></ul> | 待處理 |
-| 系統會從Enhanced MTA回報硬跳出的訊息 | <ul><li>無變更 **[!UICONTROL Delivered]** 百分比</li><li>**[!UICONTROL Bounces + errors]** 百分比會相應增加</li></ul> | 失敗 |
-| 系統會從Enhanced MTA回報軟退信訊息 | <ul><li>無變更 **[!UICONTROL Delivered]** 百分比</li><li>**[!UICONTROL Bounces + errors]** 百分比會相應增加</li></ul> | 失敗 |
-| 軟退信重試成功 | <ul><li>**[!UICONTROL Delivered]** 百分比會相應增加</li><li>**[!UICONTROL Bounces + errors]** 百分比會據此減少</li></ul> | 已傳送 |
+| 訊息已成功從Campaign轉送至增強型MTA | <ul><li>**[!UICONTROL Delivered]** 百分比從0%開始</li><li>**[!UICONTROL Bounces + errors]** 百分比從0%開始</li></ul> | 待處理 |
+| 系統會從Enhanced MTA回報硬跳出訊息 | <ul><li>無變更 **[!UICONTROL Delivered]** 百分比</li><li>**[!UICONTROL Bounces + errors]** 百分比會隨之增加</li></ul> | 失敗 |
+| 系統會從Enhanced MTA回報軟退信訊息 | <ul><li>無變更 **[!UICONTROL Delivered]** 百分比</li><li>**[!UICONTROL Bounces + errors]** 百分比會隨之增加</li></ul> | 失敗 |
+| 軟退信重試成功 | <ul><li>**[!UICONTROL Delivered]** 百分比會隨之增加</li><li>**[!UICONTROL Bounces + errors]** 百分比會據此減少</li></ul> | 已傳送 |
 | 軟退信重試失敗 | <ul><li> 無變更 **[!UICONTROL Delivered]** 百分比 </li><li> 無變更 **[!UICONTROL Bounces + errors]** 百分比 </li></ul> | 失敗 |
 
-**無電子郵件回饋服務**
+**沒有電子郵件回饋服務**
 
 | 傳送程式中的步驟 | KPI摘要 | 傳送記錄檔狀態 |
 |--- |--- |--- |
-| 訊息已成功從Campaign轉送至Enhanced MTA | <ul><li>**[!UICONTROL Delivered]** 百分比從100%開始</li><li>**[!UICONTROL Bounces + errors]** 百分比從0%開始</li></ul> | 已傳送 |
-| 系統會從Enhanced MTA回報硬跳出的訊息 | <ul><li>**[!UICONTROL Delivered]** 百分比會據此減少</li><li>**[!UICONTROL Bounces + errors]** 百分比會相應增加</li></ul> | 失敗 |
+| 訊息已成功從Campaign轉送至增強型MTA | <ul><li>**[!UICONTROL Delivered]** 百分比從100%開始</li><li>**[!UICONTROL Bounces + errors]** 百分比從0%開始</li></ul> | 已傳送 |
+| 系統會從Enhanced MTA回報硬跳出訊息 | <ul><li>**[!UICONTROL Delivered]** 百分比會據此減少</li><li>**[!UICONTROL Bounces + errors]** 百分比會隨之增加</li></ul> | 失敗 |
 | 系統會從Enhanced MTA回報軟退信訊息 | <ul><li>無變更 **[!UICONTROL Delivered]** 百分比</li><li>無變更 **[!UICONTROL Bounces + errors]** 百分比</li></ul> | 已傳送 |
 | 軟退信重試成功 | <ul><li>無變更 **[!UICONTROL Delivered]** 百分比</li><li>無變更 **[!UICONTROL Bounces + errors]** 百分比</li></ul> | 已傳送 |
-| 軟退信重試失敗 | <ul><li>**[!UICONTROL Delivered]** 百分比會據此減少</li><li>**[!UICONTROL Bounces + errors]** 百分比會相應增加</li></ul> | 失敗 |
+| 軟退信重試失敗 | <ul><li>**[!UICONTROL Delivered]** 百分比會據此減少</li><li>**[!UICONTROL Bounces + errors]** 百分比會隨之增加</li></ul> | 失敗 |

@@ -65,7 +65,7 @@ ht-degree: 86%
 
 由「查詢」活動識別目標後，您必須選取一個準則，將目標細分成兩個不同的母體：一個會收到電子郵件，另一個則會收到簡訊。
 
-您必須使用 [細分](../../automating/using/segmentation.md) 從查詢上游計算的母體建立一或多個區段的活動。
+您必須使用 [細分](../../automating/using/segmentation.md) 從查詢上游運算的母體中建立一或多個區段的活動。
 
 ![](assets/wkf_segment_activity.png)
 
@@ -137,7 +137,7 @@ Adobe Campaign 可讓您將傳送新增至工作流程。若要這麼做，請�
 
 若要建立簡訊傳送：
 
-1. 拖放 [簡訊傳送](../../automating/using/sms-delivery.md) 活動排在其他區段之後。
+1. 拖放 [簡訊傳送](../../automating/using/sms-delivery.md) 活動在另一個區段之後。
 1. 連按兩下活動以進行編輯。
 1. 選取 **[!UICONTROL SMS]** 並按一下 **[!UICONTROL Next]**。
 1. 選取簡訊範本，並按一下 **[!UICONTROL Next]**。
@@ -150,7 +150,7 @@ Adobe Campaign 可讓您將傳送新增至工作流程。若要這麼做，請�
 
 ## 執行工作流程 {#running-the-workflow}
 
-工作流程開始後，將目標人口設為 **[!UICONTROL Query]** 活動將會進行分段，以接收電子郵件或簡訊傳送。
+工作流程開始後，將目標人口設為 **[!UICONTROL Query]** 活動將會分段，以接收電子郵件或簡訊傳遞。
 
 若要執行工作流程，請按一下動作列中的 **[!UICONTROL Start]** 按鈕。
 

@@ -46,15 +46,15 @@ Experience Platform SDK支援推播通知。
 
 1. 預覽並儲存推播通知。
 
-## 步驟3：調整行動應用程式程式碼 {#mobile-app-code}
+## 步驟3：調整行動應用程式的程式碼 {#mobile-app-code}
 
 在Adobe Campaign中自訂推播通知後，您必須設定行動應用程式以在裝置上顯示影像。
 
 >[!NOTE]
 >
->如果您的應用程式位於Objective-C，請參閱以下內容 [檔案](https://experienceleague.adobe.com/docs/mobile-services/ios/messaging-ios/push-messaging/c-set-up-rich-push-notif-ios.html).
+>如果您的應用程式在Objective-C中，請參閱以下內容 [檔案](https://experienceleague.adobe.com/docs/mobile-services/ios/messaging-ios/push-messaging/c-set-up-rich-push-notif-ios.html).
 
-如果您的應用程式位於 [!DNL Swift]，請遵循下列步驟：
+如果您的應用程式在 [!DNL Swift]，請遵循下列步驟：
 
 1. 開啟您的 [!DNL Xcode] 專案。
 
@@ -66,8 +66,8 @@ Experience Platform SDK支援推播通知。
 
 1. 檢查 **NotificationService.swift** 檔案類別已建立。
 
-1. 編輯此類別並將預設內容取代為下列內容。
-這可讓應用程式使用影像URL處理傳入引數、解析該引數、將其複製到本機，然後從推播通知顯示該引數。
+1. 編輯此類別並使用以下內容取代預設內容。
+這可讓應用程式使用影像URL處理傳入引數、剖析、複製至本機，然後從推播通知顯示引數。
 
    ```
    import UserNotifications
@@ -127,9 +127,9 @@ Experience Platform SDK支援推播通知。
    }
    ```
 
-行動裝置應在傳送通知時接收下列裝載。
+行動裝置在傳送通知時應接收下列裝載。
 
-影像URL已對應到關鍵media-attachment-url。 這是您必須從應用程式程式碼角度處理的機碼/值組，才能下載和顯示影像。
+影像URL已對應到關鍵media-attachment-url。 這是您從應用程式程式碼的角度來看，必須處理的機碼/值組，才能下載和顯示影像。
 
 ```
 userInfo: [AnyHashable("media-attachment-url"): https://pbs.twimg.com/profile_images/876737835314950144/zPTs9b7o.jpg, AnyHashable("_dId"): 1de3ef93, AnyHashable("_mId"): h280a5, AnyHashable("aps"): {
@@ -151,6 +151,6 @@ userInfo: [AnyHashable("media-attachment-url"): https://pbs.twimg.com/profile_im
 
 ## 步驟4：測試傳送推播 {#test-send-push}
 
-您現在可以測試建置應用程式和您在上述步驟2中建立的傳送。 如需準備和傳送推播通知的詳細資訊，請參閱此 [頁面](../../channels/using/preparing-and-sending-a-push-notification.md).
+您現在可以測試建置應用程式，以及您在上面的步驟2中建立的傳送。 如需準備和傳送推播通知的詳細資訊，請參閱本 [頁面](../../channels/using/preparing-and-sending-a-push-notification.md).
 
 ![](assets/push_notif_advanced_34.png)

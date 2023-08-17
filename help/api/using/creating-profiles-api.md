@@ -17,17 +17,17 @@ ht-degree: 0%
 
 # 使用API建立設定檔 {#creating-profiles-api}
 
-建立設定檔是使用 **POST** 對設定檔資源的要求。
+建立設定檔是使用 **POST** 對設定檔資源的請求。
 
 >[!CAUTION]
 >
 >如果您想要關聯 <b>orgUnit</b> POST對於已建立的設定檔，您需要使用此欄位擴充設定檔資源，並在擴充功能發佈後，對 <b>設定檔與服務分機</b> 端點。
 >
->如需設定檔資源擴充功能的詳細資訊，請參閱 <a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">Campaign檔案</a>.
+>有關設定檔資源擴充功能的詳細資訊，請參閱 <a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">Campaign檔案</a>.
 
 <br/>
 
-***範例請求***
+***範例要求***
 
 使用電子郵件「john.doe@mail.com」建立設定檔的範例POST請求。
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 -d '{"email":"john.doe@mail.com"}'
 ```
 
-它會傳回新建立的設定檔，並包含「john.doe@mail.com」電子郵件地址。
+它會傳回新建立的設定檔，並帶有「john.doe@mail.com」電子郵件地址。
 
 ```
 {

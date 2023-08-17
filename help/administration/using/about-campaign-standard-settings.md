@@ -22,9 +22,9 @@ ht-degree: 5%
 * 設定目標對應以管理傳送傳遞所需的技術設定，
 * 在應用程式內設定內部通知等。
 
-這些設定可從以下網址取得： **[!UICONTROL Administration]** / **[!UICONTROL Application settings]** 功能表。
+這些設定可從 **[!UICONTROL Administration]** / **[!UICONTROL Application settings]** 功能表。
 
-此外，您也可以在以下連結中找到技術選項： **[!UICONTROL Options]** 功能表，讓您更明確地設定應用程式。 其中有些是內建在安裝Campaign時，有些則可視需要手動新增（可用選項會因您執行個體所安裝的套件而異）。
+此外，您也可以在以下位置找到技術選項： **[!UICONTROL Options]** 功能表，讓您更明確地設定應用程式。 其中有些是內建在安裝Campaign時，有些則可視需要手動新增（可用選項因隨執行個體安裝的套件而異）。
 
 >[!IMPORTANT]
 >

@@ -68,7 +68,7 @@ ht-degree: 30%
                   <td> </td>
                </tr>
                <tr>
-                  <td>警報模式</td>
+                  <td>警示模式</td>
                   <td>警告型別</td>
                   <td>字串 </td>
                   <td> </td>
@@ -124,7 +124,7 @@ ht-degree: 30%
                <tr>
                   <td>contentsource</td>
                   <td>內容來源</td>
-                  <td>分項清單（位元） </td>
+                  <td>分項清單（位元組） </td>
                   <td>
                      <ul>
                         <li>Adobe Experience Manager - aem - 1</li>
@@ -152,12 +152,12 @@ ht-degree: 30%
                   <td> </td>
                </tr>
                <tr>
-                  <td>deliverMode</td>
+                  <td>deliverymode</td>
                   <td>傳遞模式</td>
-                  <td>分項清單（位元） </td>
+                  <td>分項清單（位元組） </td>
                   <td>
                      <ul>
-                        <li>大量傳送 — 大量 — 1</li>
+                        <li>大量傳送 — 大量傳送 — 1</li>
                         <li>中間來源 — midSourcing - 4</li>
                         <li>說明 — 描述性 — 2</li>
                         <li>無效值 — __Invalid_value__ - __Invalid_value__</li>
@@ -204,7 +204,7 @@ ht-degree: 30%
                <tr>
                   <td>executionType</td>
                   <td>執行類型</td>
-                  <td>分項清單（位元） </td>
+                  <td>分項清單（位元組） </td>
                   <td>
                      <ul>
                         <li>唯一 — 一次 — 0</li>
@@ -235,7 +235,7 @@ ht-degree: 30%
                <tr>
                   <td>圖示</td>
                   <td>圖示</td>
-                  <td>分項清單（位元） </td>
+                  <td>分項清單（位元組） </td>
                   <td>
                      <ul>
                         <li>異動電子郵件 — emailLightning - 60</li>
@@ -247,7 +247,7 @@ ht-degree: 30%
                         <li>其他 — 其他 — 120</li>
                         <li>循環SMS - smsRefresh - 31</li>
                         <li>行動應用程式 — pushNotification - 40</li>
-                        <li>交易式SMS - smsLightning - 61</li>
+                        <li>異動SMS - smsLightning - 61</li>
                         <li>電子郵件 — 電子郵件 — 0</li>
                         <li>無效值 — __Invalid_value__ - __Invalid_value__</li>
                      </ul>
@@ -255,7 +255,7 @@ ht-degree: 30%
                </tr>
                <tr>
                   <td>isExternal</td>
-                  <td>為外部資源</td>
+                  <td>是外部資源</td>
                   <td>布林值 </td>
                   <td> </td>
                </tr>
@@ -355,7 +355,7 @@ ht-degree: 30%
                <tr>
                   <td>messageType</td>
                   <td>通道</td>
-                  <td>分項清單（位元） </td>
+                  <td>分項清單（位元組） </td>
                   <td>
                      <ul>
                         <li>傳真 — 傳真 — 4</li>
@@ -394,7 +394,7 @@ ht-degree: 30%
                   <td> </td>
                </tr>
                <tr>
-                  <td>父系(deliveryBase)</td>
+                  <td>上層(deliveryBase)</td>
                   <td>父系傳遞</td>
                   <td>連結 </td>
                   <td> </td>
@@ -402,7 +402,7 @@ ht-degree: 30%
                <tr>
                   <td>優先順序</td>
                   <td>傳遞優先順序</td>
-                  <td>分項清單（位元） </td>
+                  <td>分項清單（位元組） </td>
                   <td>
                      <ul>
                         <li>高 — 高 — 20</li>
@@ -412,7 +412,7 @@ ht-degree: 30%
                   </td>
                </tr>
                <tr>
-                  <td>程式(programBase)</td>
+                  <td>方案(programBase)</td>
                   <td>方案</td>
                   <td>連結 </td>
                   <td> </td>
@@ -436,7 +436,7 @@ ht-degree: 30%
                   <td> </td>
                </tr>
                <tr>
-                  <td>realtimeReport</td>
+                  <td>即時報告</td>
                   <td>即時報表</td>
                   <td>項目 </td>
                   <td> </td>
@@ -466,7 +466,7 @@ ht-degree: 30%
                   <td> </td>
                </tr>
                <tr>
-                  <td>smsParameters</td>
+                  <td>簡訊引數</td>
                   <td>簡訊參數</td>
                   <td>項目 </td>
                   <td> </td>
@@ -480,11 +480,11 @@ ht-degree: 30%
                <tr>
                   <td>state</td>
                   <td>狀態</td>
-                  <td>分項清單（位元） </td>
+                  <td>分項清單（位元組） </td>
                   <td>
                      <ul>
                         <li>開始擱置 — startPending - 51</li>
-                        <li>準備送貨 — 準備就緒 — 45</li>
+                        <li>準備送貨 — 準備 — 45</li>
                         <li>重試擱置 — 重試擱置 — 61</li>
                         <li>正在重試 — retryInProgress - 62</li>
                         <li>失敗 — 失敗 — 87</li>
@@ -494,8 +494,8 @@ ht-degree: 30%
                         <li>已暫停 — 已暫停 — 75</li>
                         <li>編輯 — 版本 — 0</li>
                         <li>已完成 — 已完成 — 95</li>
-                        <li>正在計算 — targetSelection - 12</li>
-                        <li>訊息已完成 — messageReady - 25</li>
+                        <li>計算中 — targetSelection - 12</li>
+                        <li>已完成訊息 — messageReady - 25</li>
                         <li>個人化或計數失敗 — preparationError - 37</li>
                         <li>已停止 — 已取消 — 85</li>
                         <li>正在進行個人化 — messagePreparation - 22</li>
@@ -507,7 +507,7 @@ ht-degree: 30%
                </tr>
                <tr>
                   <td>目標</td>
-                  <td>傳遞目標母體</td>
+                  <td>傳遞目標族群</td>
                   <td>項目 </td>
                   <td> </td>
                </tr>
@@ -542,19 +542,19 @@ ht-degree: 30%
                   <td> </td>
                </tr>
                <tr>
-                  <td>trackingUrl</td>
+                  <td>trackingUrls</td>
                   <td>被追蹤的 URL</td>
                   <td>集合 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>triggerMessage</td>
-                  <td>異動訊息的參數</td>
+                  <td>交易型訊息的參數</td>
                   <td>項目 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>型別（型別庫）</td>
+                  <td>型別(typologyBase)</td>
                   <td>類型</td>
                   <td>連結 </td>
                   <td> </td>
@@ -584,7 +584,7 @@ ht-degree: 30%
 
 ## 篩選
 
-依管道型別（依管道）
+依管道型別(byChannel)
 
 <table>
     <tr>
@@ -683,7 +683,7 @@ ht-degree: 30%
     </tr>
 </table>
 
-依狀態（依州）
+依狀態(byState)
 
 <table>
     <tr>
@@ -722,7 +722,7 @@ ht-degree: 30%
     </tr>
 </table>
 
-包含來自異質清單的連續傳遞（使用Continuous）
+包含來自異質性清單的持續傳遞（使用Continuous）
 
 <table>
     <tr>
@@ -765,7 +765,7 @@ ht-degree: 30%
     </tr>
 </table>
 
-在指定期間內存在（依行事曆）
+在指定期間顯示(byCalendar)
 
 <table>
     <tr>
@@ -782,7 +782,7 @@ ht-degree: 30%
     </tr>
 </table>
 
-顯示現成可用的(showOob)
+顯示立即可用(showOob)
 
 <table>
     <tr>

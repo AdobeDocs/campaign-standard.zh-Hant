@@ -11,7 +11,7 @@ exl-id: 958f7beb-ab41-4492-bc0a-e9e342e3c12e
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
 source-wordcount: '648'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -31,13 +31,13 @@ Adobe Campaign Standard 使用者介面致力於在應用程式中提供足夠�
 
 * 大型文字和標題已增強，以符合 3:1 的對比。
 
-   ![](assets/accessibility_2.png)
+  ![](assets/accessibility_2.png)
 
 * 應用程式中的說明內容和內文已更新，以符合 4.5:1 的對比。
 
 * 工作流程的暫停和取消圖示已更新為改善背景和前景顏色之間的對比。
 
-   ![](assets/accessibility_1.png)
+  ![](assets/accessibility_1.png)
 
 * 顏色、形狀和位置並非在應用程式中傳達資訊或階層的唯一方法。
 
@@ -47,11 +47,11 @@ Adobe Campaign Standard 使用者介面可讓所有使用者更輕鬆地與內�
 
 * 當使用者將必要的 ID 欄位留空時，圖形會以視覺化方式指出哪個欄位有錯誤訊息文字，並以程式設計方式將相同的資訊傳送給使用者，例如螢幕閱讀器等輔助技術。
 
-   ![](assets/accessibility_3.png)
+  ![](assets/accessibility_3.png)
 
 * 顯示在暫留或焦點上的內容可由使用者關閉，而不會遮蔽其他內容。
 
-   ![](assets/accessibility_4.png)
+  ![](assets/accessibility_4.png)
 
 * 已新增影像的替代文字和按鈕的可存取名稱，並可使用輔助技術朗讀，而非僅依賴視覺提示來識別元素。
 
@@ -126,4 +126,4 @@ Adobe Campaign Standard 致力於提供日益提升功能的協助工具，讓�
 
 建議您使用 [Adobe 協助工具意見回饋格式](https://www.adobe.com/accessibility/feedback.html)來傳送您遇到的改善建議和協助工具的問題。
 
-您也可以參閱 [Adobe Campaign Standard 發行說明](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html#release-notes)，以遵循最新的改善與功能。
+您也可以參閱 [Adobe Campaign Standard 發行說明](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=zh-Hant#release-notes)，以遵循最新的改善與功能。

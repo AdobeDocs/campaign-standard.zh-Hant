@@ -61,7 +61,7 @@ ht-degree: 82%
    * **[!UICONTROL Limit segment population]**：可讓您限制分段大小。
    * **[!UICONTROL Filter and limit segment population]**：可讓您篩選群體母體並限制其大小。
    * **[!UICONTROL Label]**：分段標籤。
-   * **[!UICONTROL Segment code]**：指派給區段母體的代碼。區段代碼可使用標準運算式和事件變數進行個人化(請參閱 [此頁面](../../automating/using/customizing-workflow-external-parameters.md))。
+   * **[!UICONTROL Segment code]**：指派給分段母體的代碼。分段代碼可使用標準運算式和事件變數進行個人化(請參閱 [此頁面](../../automating/using/customizing-workflow-external-parameters.md))。
    * **[!UICONTROL Exclude segment from population]**：可讓您從活動的對外母體中排除指定的分段。只有在選取選項時，才能使用　**[!UICONTROL Generate all segments in the same transition]**　選項。
 
    ![](assets/wkf_segment_new_segment.png)
@@ -85,9 +85,10 @@ ht-degree: 82%
    * **[!UICONTROL By data grouping]**：您可以根據入站母體的特定欄位值來限制區段母體。選取要分組的欄位，然後指定要使用的值。
    * **[!UICONTROL By data grouping (as a %)]**：您可以使用百分比，根據特定入站母體欄位的值來限制區段母體。選取要套用分組的欄位，然後指定要使用的值。
 
-      >[!NOTE]
-      >
-      >可為每個值使用不同限制。例如，您可以為 **[!UICONTROL Gender]** 欄位指定分組，而且將包含 **[!UICONTROL Male]** 成員的母體限制為 10 人，並將包含 **[!UICONTROL Female]** 成員的母體限制為 30 人。如果您使用數個資料分組欄位，所有分組都必須有相同的大小。
+     >[!NOTE]
+     >
+     >可為每個值使用不同限制。例如，您可以為 **[!UICONTROL Gender]** 欄位指定分組，而且將包含 **[!UICONTROL Male]** 成員的母體限制為 10 人，並將包含 **[!UICONTROL Female]** 成員的母體限制為 30 人。如果您使用數個資料分組欄位，所有分組都必須有相同的大小。
+
    ![](assets/wkf_segment_limit_by_grouping.png)
 
 1. 確認區段的設定。
@@ -95,8 +96,8 @@ ht-degree: 82%
 1. 如有需要，在 **[!UICONTROL Advanced options]** 索引標籤中編輯參數：
 
    * 此 **[!UICONTROL Enable overlapping of outbound populations]** 選項會定義如何管理屬於數個區段的設定檔：
-      * 未啟用選項時， **[!UICONTROL Segmentation]** 活動會檢查設定檔不存在於多個輸出轉變中，即使此設定檔符合多個子集的條件亦然。
-      * 啟用此選項後，如果設定檔符合篩選條件，則可在多個子集中找到設定檔。
+      * 未啟用選項時， **[!UICONTROL Segmentation]** 活動會檢查在多個輸出轉變中不存在設定檔，即使此設定檔符合多個子集的條件也是如此。
+      * 啟用此選項後，如果設定檔符合篩選准則，則可在多個子集中找到設定檔。
    * 如果入站母體已指派您要保留的區段代碼，請核取 **[!UICONTROL Concatenate the code of each segment]** 選項。 會將活動中指定的區段代碼新增至初始區段代碼。
    * 如果您需要利用剩餘母體，請檢查 **[!UICONTROL Generate complement]** 選項。 另請參閱 [使用案例：建立具備輔助功能的傳送](../../automating/using/workflow-created-query-with-complement.md).
 

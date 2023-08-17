@@ -22,7 +22,7 @@ ht-degree: 93%
 
 >[!CAUTION]
 >
->使用此功能時，請記住Adobe Campaign合約中的SFTP儲存、DB儲存和作用中設定檔限制。
+>使用此功能時，請根據您的Adobe Campaign合約，牢記SFTP儲存、DB儲存和作用中設定檔限制。
 
 ![](assets/data_loading.png)
 
@@ -71,19 +71,19 @@ ht-degree: 93%
    * 透過選取 **[!UICONTROL Detect structure from a new file]** 選項，可以選取使用另一個檔案的結構。
    * 您可以修改預設偵測參數，使其與檔案相適應。**[!UICONTROL File type]** 欄位可讓您指定您要匯入的檔案是否由長度固定的欄組成。在這種情況下，您還必須指定 **[!UICONTROL Column definition]** 索引標籤中各欄的字元數目上限。
 
-      正確從檔案中復原資料所需的所有偵測選項，都會在 **[!UICONTROL File format]** 中重新分組。您可以修改它們，然後考慮到這些新設定，重新偵測活動中載入的最後一個檔案的結構。要執行此操作，請使用 **[!UICONTROL Apply configuration]** 按鈕。例如，您可以指定不同的欄分隔符號。
+     正確從檔案中復原資料所需的所有偵測選項，都會在 **[!UICONTROL File format]** 中重新分組。您可以修改它們，然後考慮到這些新設定，重新偵測活動中載入的最後一個檔案的結構。要執行此操作，請使用 **[!UICONTROL Apply configuration]** 按鈕。例如，您可以指定不同的欄分隔符號。
 
-      >[!NOTE]
-      >
-      >此操作會考慮到活動中載入的最後一個檔案。如果偵測到的檔案很大，資料預覽只會顯示前 30 行。
+     >[!NOTE]
+     >
+     >此操作會考慮到活動中載入的最後一個檔案。如果偵測到的檔案很大，資料預覽只會顯示前 30 行。
 
-      ![](assets/wkf_file_loading3.png)
+     ![](assets/wkf_file_loading3.png)
 
-      在 **[!UICONTROL File format]** 區段中，**[!UICONTROL Check columns from file against column definitions]** 選項可讓您驗證要上傳的檔案的列是否與列定義對應。
+     在 **[!UICONTROL File format]** 區段中，**[!UICONTROL Check columns from file against column definitions]** 選項可讓您驗證要上傳的檔案的列是否與列定義對應。
 
-      如果欄數和/或名稱不符合欄定義，則執行工作流程時會顯示錯誤訊息。如果未啟動該選項，記錄檔案將顯示警告。
+     如果欄數和/或名稱不符合欄定義，則執行工作流程時會顯示錯誤訊息。如果未啟動該選項，記錄檔案將顯示警告。
 
-      ![](assets/wkf_file_loading_check.png)
+     ![](assets/wkf_file_loading_check.png)
 
 1. 移至 **[!UICONTROL Column definition]** 索引標籤，以檢查每欄的資料格式，並視需要調整參數。
 
@@ -101,11 +101,11 @@ ht-degree: 93%
    * 是您在上一步驟中上傳的項目。
    * 是要從本機機器上傳的新檔案。如果上傳工作流程中已定義第一個檔案，就會顯示 **[!UICONTROL Upload a new file from local machine]** 選項。這可讓您上傳其他檔案，以便在目前檔案不符合您的需求時加以處理。
 
-      ![](assets/wkf_file_loading1.png)
+     ![](assets/wkf_file_loading1.png)
 
 1. 如果要從中載入資料的檔案壓縮到 GZIP 檔案 (.gz) 中，請在 **[!UICONTROL Add a pre-processing stage]** 欄位中選取 **[!UICONTROL Decompression]** 選項。這可讓您在載入資料之前先解壓縮檔案。只有當檔案來自活動的入站轉變時，才可使用此選項。
 
-   此 **[!UICONTROL Add a pre-processing stage]** 欄位也可讓您在將檔案匯入資料庫之前先將檔案解密。 有關如何使用加密檔案的詳細資訊，請參閱 [本節](../../automating/using/managing-encrypted-data.md)
+   此 **[!UICONTROL Add a pre-processing stage]** 欄位也可讓您在將檔案匯入資料庫之前，先將檔案解密。 有關如何使用加密檔案的詳細資訊，請參閱 [本節](../../automating/using/managing-encrypted-data.md)
 
 1. **[!UICONTROL Keep the rejects in a file]** 選項可讓您下載包含匯入期間發生錯誤的檔案，並套用至後期處理階段。啟動此選項時，外站轉變會重新命名為「拒絕」。
 
@@ -137,7 +137,7 @@ ht-degree: 93%
 
    * **[!UICONTROL Maximum number of characters]**：指定字串類型列的字元數上限。
 
-      載入由長度固定的欄組成的檔案時，必須填入此欄位。
+     載入由長度固定的欄組成的檔案時，必須填入此欄位。
 
    * **[!UICONTROL Letter case management]**：定義是否需要對 **Text** 資料應用字元大寫。
    * **[!UICONTROL White space management]**：指定 **Text** 資料的字串中是否需要忽略某些空格。
@@ -154,9 +154,9 @@ ht-degree: 93%
    * **[!UICONTROL Use a default value in case the value is not remapped]**：以在　**[!UICONTROL Default value]**　欄位中定義的預設值取代導致錯誤的值，除非已針對錯誤值定義對應（請參閱上述　**[!UICONTROL Remapping of values]**　選項）。
    * **[!UICONTROL Reject the line when there is no remapping value]**：除非為錯誤值定義對應（請參閱上述 **[!UICONTROL Remapping of values]** 選項），否則不會處理整行。
 
-   >[!NOTE]
-   >
-   >**[!UICONTROL Error processing]** 與關於匯入檔案之值的錯誤有關。例如，發生錯誤資料類型（字母中的 &quot;four&quot; 適用於 &quot;Integer&quot; 欄）、包含超過授權上限之字元數的字串、包含錯誤分隔符號的日期等。但是，此選項與空值管理產生的錯誤無關。
+  >[!NOTE]
+  >
+  >**[!UICONTROL Error processing]** 與關於匯入檔案之值的錯誤有關。例如，發生錯誤資料類型（字母中的 &quot;four&quot; 適用於 &quot;Integer&quot; 欄）、包含超過授權上限之字元數的字串、包含錯誤分隔符號的日期等。但是，此選項與空值管理產生的錯誤無關。
 
 * **[!UICONTROL Default value]**：根據選取的錯誤處理指定預設值。
 * **[!UICONTROL Empty value management]**：指定在資料載入期間如何管理空值。

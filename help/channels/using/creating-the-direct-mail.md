@@ -40,7 +40,7 @@ ht-degree: 88%
    >
    >活動名稱及其ID都會顯示在介面中，但訊息收件者看不到它們。
    >
-   >確認ID欄位未包含任何空白以避免出現任何差異，例如與Adobe Analytics整合時。
+   >確認ID欄位未包含任何空白以避免出現任何差異，例如，在與Adobe Analytics整合時。
 
 1. 定義要包含在擷取檔案中的對象，以及測試和補漏白設定檔。[定義直接郵件對象](../../channels/using/defining-the-direct-mail-audience.md).
 

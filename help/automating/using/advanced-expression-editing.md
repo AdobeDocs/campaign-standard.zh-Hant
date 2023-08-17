@@ -30,7 +30,7 @@ ht-degree: 98%
 
 * 透過新增規則時可用的 **[!UICONTROL Advanced mode]** 選項定義查詢。
 
-   ![](assets/expression_editor_2.png)
+  ![](assets/expression_editor_2.png)
 
 * 編輯工作流程中的運算式。例如，若要新增其他資料至活動。
 * 編輯可見性條件，以定義 HTML 內容編輯器中區塊的顯示方式。在這種情況下，運算式會以 JavaScript 格式編輯，不提供使用進階函式做為標準的功能。
@@ -76,9 +76,9 @@ ht-degree: 98%
    * **&lt;comparison operator>** 是[「比較」運算子](../../automating/using/advanced-expression-editing.md#comparison-operators)區段中所列的運算子。此運算子定義 **&lt;value1>** 及 **&lt;value2>** 之間的比較方法。
    * **&lt;value2>** 是手動輸入的欄位、函式或值。
 
-   >[!NOTE]
-   >
-   >**&lt;value1>** 及 **&lt;value2>** 類型資料必須相同。例如，如果 **&lt;value1>** 是日期，則 **&lt;value2>** 也必須是日期。
+  >[!NOTE]
+  >
+  >**&lt;value1>** 及 **&lt;value2>** 類型資料必須相同。例如，如果 **&lt;value1>** 是日期，則 **&lt;value2>** 也必須是日期。
 
 * 如果要使用多個條件，可以使用邏輯運算子將它們組合起來。
 
@@ -105,8 +105,9 @@ JavaScript 運算式由一或多個條件組成，並使用下列語法元素：
    * **&lt;comparison operator>** 是[「比較」運算子](../../automating/using/advanced-expression-editing.md#comparison-operators)區段中所列的運算子。此運算子定義 **&lt;context>** 及 **&lt;value2>** 之間的比較方法。
    * **&lt;value2>** 是手動輸入的欄位、函式或值。
 
-   >[!NOTE]
-   **&lt;context>** 及 **&lt;value2>** 類型資料必須相同。例如，如果 **&lt;context>** 是日期，則 **&lt;value2>** 也必須是日期。
+  >[!NOTE]
+  >
+  **&lt;context>** 及 **&lt;value2>** 類型資料必須相同。例如，如果 **&lt;context>** 是日期，則 **&lt;value2>** 也必須是日期。
 
 * 如果要使用多個條件，可以使用邏輯運算子將它們組合起來。
 

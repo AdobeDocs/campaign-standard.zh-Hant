@@ -4,7 +4,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
-description: 「準備好內容後，請瞭解如何謹慎定義將收到您訊息的對象。」
+description: 「準備好內容後，請瞭解如何仔細定義哪些人將會收到您的訊息。」
 feature: Deliverability
 role: User
 level: Intermediate
@@ -24,32 +24,32 @@ ht-degree: 11%
 
 ## 鎖定正確的對象 {#target-the-right-audience}
 
-準備好內容後，您需要仔細定義將收到您訊息的人員。
+內容準備就緒後，您需要仔細定義將接收訊息的人員。
 
 若要成功傳遞，您想要將最相關的個人化內容傳送給正確的收件者。 Adobe Campaign可讓您建立最精確的目標：您可以根據收件者的年齡、本地化、購買內容、是否在上一次傳送中按一下連結等來選取收件者。 透過Adobe Campaign，您還可以定義測試設定檔、控制組和種子地址，以確保您的目標正確無誤。
 
 ## 目標對應 {#target-mappings}
 
-依預設，傳遞範本的目標為 **設定檔**. Adobe Campaign為您的傳送提供其他目標對應，您可依需求加以變更。
+依預設，傳遞範本會鎖定目標 **設定檔**. Adobe Campaign為您的傳送提供其他目標對應，您可以視需求加以變更。
 
-這些對應會出現 [在本節中](../../automating/using/query.md#targeting-dimensions-and-resources).
+下列對應會出現 [在本節中](../../automating/using/query.md#targeting-dimensions-and-resources).
 
-您也可以建立和使用自訂的目標對應。 如需詳細資訊，請參閱[本章節](../../administration/using/target-mappings-in-campaign.md)。
+您也可以建立並使用自訂的目標對應。 如需詳細資訊，請參閱[本章節](../../administration/using/target-mappings-in-campaign.md)。
 
 ## 外部資料 {#external-data}
 
-您可以傳送給儲存在外部檔案中而不是儲存在資料庫中的收件者。 為此，設計工作流程將從檔案將資料載入資料庫，並建立關聯的對象。  瞭解更多 [在此使用案例中](../../automating/using/use-case-calling-workflow.md). 另請參閱 [使用引數呼叫工作流程](../../automating/using/calling-a-workflow-with-external-parameters.md).
+您可以傳遞至儲存在外部檔案中而非儲存在資料庫中的收件者。 為此，設計工作流程將從檔案將資料載入您的資料庫，並建立關聯的對象。  瞭解更多 [在此使用案例中](../../automating/using/use-case-calling-workflow.md). 另請參閱 [使用引數呼叫工作流程](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
 ## 傳送給您的訂閱者 {#send-to-subscribers}
 
 若要傳送訊息給電子報的訂閱者，您可以直接將訂閱者定位到對應的資訊服務。 瞭解更多 [在本節中](../../audiences/using/about-subscriptions.md).
 
-**秘訣**  — 您可以建立清單對象，使用工作流程鎖定您電子報的訂閱者。 然後，您可以在傳送中選取此對象。 如需詳細資訊，請參閱 [建立清單對象](../../audiences/using/creating-audiences.md#creating-list-audiences).
+**秘訣**  — 您可以建立清單對象，使用工作流程鎖定您電子報的訂閱者。 然後，您便可以在傳送中選取此對象。 有關詳細資訊，請參閱 [建立清單對象](../../audiences/using/creating-audiences.md#creating-list-audiences).
 
 ## 校樣、測試設定檔和控制組 {#proofs-test-control-groups}
 
 若要測試您的傳遞，請在傳送至主要目標之前使用證明。
-請務必選取適當的校樣收件者，因為他們會驗證訊息的表單和內容。 提供傳送校樣的步驟 [在本節中](../../sending/using/sending-proofs.md).
+請務必選取適當的校樣收件者，因為他們會驗證訊息的表單和內容。 以下說明傳送校樣的步驟 [在本節中](../../sending/using/sending-proofs.md).
 
 進一步瞭解測試設定檔 [在本節中](../../audiences/using/managing-test-profiles.md).
 

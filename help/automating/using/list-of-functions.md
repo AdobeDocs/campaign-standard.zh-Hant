@@ -35,7 +35,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->所有活動中都提供其他函式，可讓您在使用外部引數呼叫工作流程後使用事件變數。 如需詳細資訊，請參閱 [本節](../../automating/using/customizing-workflow-external-parameters.md).
+>所有活動都提供其他函式，可讓您在使用外部引數呼叫工作流程後使用事件變數。 其詳細資訊請參閱 [本節](../../automating/using/customizing-workflow-external-parameters.md).
 
 ## 日期 {#dates}
 
@@ -536,12 +536,12 @@ ht-degree: 95%
   </tr> 
   <tr> 
    <td> <strong>JuxtWords</strong><br /> </td> 
-   <td> 串連兩個傳遞為引數的字串。 在傳回值中的每個字串之間新增空格。<br /> </td> 
+   <td> 串連兩個以引數形式傳遞的字串。 在傳回值中的每個字串之間新增空格。<br /> </td> 
    <td> JuxtWords(&lt;string&gt;, &lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>JuxtWords3</strong><br /> </td> 
-   <td> 串連傳遞作為引數的三個字串。 在傳回值中的每個字串之間新增空格。<br /> </td> 
+   <td> 串連傳遞的三個字串做為引數。 在傳回值中的每個字串之間新增空格。<br /> </td> 
    <td> JuxtWords3(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
@@ -707,7 +707,7 @@ ht-degree: 95%
   </tr>
   <tr>
    <td> <strong>StringAgg</strong>，字串彙總<br /> </td>
-   <td> 傳回字串型別欄值的串連，並以第二個引數中的字元分隔（預設分隔符號為逗號）。<br /> </td>
+   <td> 傳回字串型別欄值的串連，由第二個引數中的字元分隔（預設分隔符號為逗號）。<br /> </td>
    <td> StringAgg(&lt;string values=""&gt;，&lt;separator&gt;)
   </tr>
   <tr> 

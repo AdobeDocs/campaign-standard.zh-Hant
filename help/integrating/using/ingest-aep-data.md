@@ -15,15 +15,15 @@ ht-degree: 7%
 
 # 將 Adobe Experience Platform 對象內嵌至 Campaign {#destinations}
 
-若要將Adobe Experience Platform受眾擷取至Campaign並在您的工作流程中使用，您首先需要連線Adobe Campaign as a Adobe Experience Platform **目的地** 並設定為要匯出的區段。
+若要將Adobe Experience Platform受眾擷取至Campaign並用於您的工作流程，您首先需要連線Adobe Campaign as a Adobe Experience Platform **目的地** 並使用要匯出的區段加以設定。
 
-設定目的地後，會將資料匯出至您的儲存位置，而且您將需要以Campaign Standard建置專用的工作流程來擷取資料。
+設定目的地後，系統會將資料匯出至您的儲存位置，而且您將需要在Campaign Standard中建置專用的工作流程來擷取資料。
 
 ## 將Adobe Campaign連線為目的地
 
 在Adobe Experience Platform中，選取匯出區段的儲存位置，以設定與Adobe Campaign的連線。 此步驟也可讓您選取要匯出的區段，並指定要包含的其他XDM欄位。
 
-如需詳細資訊，請參閱 [目的地檔案](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html).
+有關詳細資訊，請參閱 [目的地檔案](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html).
 
 設定目的地後，Adobe Experience Platform會在您提供的儲存位置中建立以Tab分隔的.txt或.csv檔案。 此作業會排程並每24小時執行一次。
 
@@ -31,19 +31,19 @@ ht-degree: 7%
 
 ## 在Campaign Standard中建立匯入工作流程
 
-將Campaign Standard設定為目的地後，您需要建立專屬的工作流程，以匯入Adobe Experience Platform已匯出的檔案。
+將Campaign Standard設定為目的地後，您需要建立專用的工作流程，以匯入Adobe Experience Platform已匯出的檔案。
 
 為此，您需要新增並設定 **[!UICONTROL Transfer file]** 活動。 有關如何設定此活動的詳細資訊，請參閱 [本節](../../automating/using/transfer-file.md).
 
 ![](assets/rtcdp-transfer-file.png)
 
-接著，您就可以視需要建置工作流程（使用區段資料更新資料庫、傳送跨管道傳遞至區段等）
+接著，您就可以根據需求建立工作流程（使用區段資料更新資料庫、傳送跨管道傳遞至區段等）
 
 例如，以下工作流程會每天從您的儲存位置下載檔案，然後使用區段資料更新Campaign資料庫。
 
 ![](assets/rtcdp-workflow.png)
 
-資料管理工作流程的範例可參見： [工作流程使用案例](../../automating/using/about-workflow-use-cases.md#management) 區段。
+資料管理工作流程的範例可在 [工作流程使用案例](../../automating/using/about-workflow-use-cases.md#management) 區段。
 
 相關主題：
 

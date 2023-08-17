@@ -17,7 +17,7 @@ ht-degree: 13%
 
 # 步驟 3：驗證擴充{#step-verify-the-extension}
 
-1. 對Profiles &amp; Services擴充功能API的中繼資料執行GET操作，檢查現在是否可以使用新增到Profiles自訂資源中的欄位。
+1. 對Profiles &amp; Services擴充功能API的中繼資料進行GET操作，以檢查在Profiles自訂資源中新增的欄位現在是否可用。
 
    ```
    GET profileAndServicesExt/resourceType/profile

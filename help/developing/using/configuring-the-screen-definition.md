@@ -96,9 +96,9 @@ ht-degree: 100%
 
 * **[!UICONTROL Authorize creating]**：此選項可讓您啟動建立資源的元素。因此，使用者可以新增其他記錄。
 
-   >[!NOTE]
-   >
-   >您必須先啟動連結至資源的詳細資訊畫面，才能使此選項可用。
+  >[!NOTE]
+  >
+  >您必須先啟動連結至資源的詳細資訊畫面，才能使此選項可用。
 
 * **[!UICONTROL Authorize duplicating]**：此選項可讓您啟動連結到自定義資源的資料重複刪除記錄。
 * **[!UICONTROL Authorize deleting]**：此選項可讓您啟動連結到自訂資源的刪除記錄。

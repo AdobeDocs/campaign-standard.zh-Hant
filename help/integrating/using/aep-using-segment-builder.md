@@ -20,7 +20,7 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->Audience Destinations服務目前為測試版，可能會經常更新，恕不另行通知。 客戶必須在Azure上託管（目前僅北美地區適用Beta版）才能存取這些功能。 如果您想要存取許可權，請聯絡Adobe客戶服務。
+>Audience Destinations服務目前為測試版，可能會經常更新，恕不另行通知。 客戶需在Azure上代管（目前僅限北美地區使用Beta版）才能存取這些功能。 如果您想要存取許可權，請聯絡Adobe客戶服務。
 
 區段產生器可讓您根據以下來源資料定義規則，以建立對象： [即時客戶個人檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
 
@@ -29,14 +29,14 @@ ht-degree: 3%
 「區段產生器」介面的組成如下：
 
 * 左窗格將所有屬性、事件和對象拖放至區段產生器工作區，以便建立區段。
-* 中心區域提供工作區，可藉由定義並結合可用欄位的規則來建立區段。
+* 中央區域會提供一個工作區，讓您藉由定義並結合可用欄位中的規則來建立區段。
 * 標題和右側窗格會顯示區段的屬性（即名稱、說明，以及區段的預估合格設定檔）。
 
 ![](assets/aep_audiences_interface.png)
 
 ## 建立區段
 
-若要建立區段，請遵循下列步驟：
+若要建立區段，請依照下列步驟進行：
 
 區段產生器現在應該會顯示在您的工作區中。 它可讓您使用Adobe Experience Platform的資料來建立區段，這些資料最終將用來建立您的對象。
 
@@ -50,7 +50,7 @@ ht-degree: 3%
 
    ![](assets/aep_audiences_mergepolicy.png)
 
-1. 在左窗格中尋找所需欄位，並將其拖曳至中心工作區。
+1. 在左窗格中尋找所需的欄位，並將其拖曳至中央工作區。
 
    ![](assets/aep_audiences_dragfield.png)
 
@@ -62,19 +62,19 @@ ht-degree: 3%
 
 ## 尋找區段的正確欄位
 
-左側窗格會列出可用來建構規則的所有屬性、事件和對象。
+左窗格會列出可用來建構規則的所有屬性、事件和對象。
 
-列出的欄位是貴公司擷取的屬性，並可透過 [Experience Data Model (XDM)系統](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html).
+列出的欄位是貴公司擷取的屬性，並已透過 [Experience Data Model (XDM)系統](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html).
 
-欄位會整理為標籤：
+欄位會整理為索引標籤：
 
-* **[!UICONTROL Attributes]**：可源自於Adobe Campaign資料庫和/或Adobe Experience Platform的現有設定檔屬性。 他們是指附加至設定檔的靜態資訊（例如電子郵件地址、居住國家/地區、忠誠度計畫狀態等）。
+* **[!UICONTROL Attributes]**：可源自於Adobe Campaign資料庫和/或Adobe Experience Platform的現有設定檔屬性。 他們是指附加至設定檔的靜態資訊（例如電子郵件地址、居住國家/地區、忠誠計畫狀態等）。
 
-   ![](assets/aep_audiences_attributestab.png)
+  ![](assets/aep_audiences_attributestab.png)
 
-* **[!UICONTROL Events]**：可識別曾與您公司的客戶接觸點互動的客戶的活動，例如「兩週內訂購兩次的任何人」。 這可以從Adobe Analytics串流，或使用協力廠商ETL工具直接擷取到Adobe Experience Platform。
+* **[!UICONTROL Events]**：可識別曾與您公司的客戶接觸點互動的消費者的活動，例如「兩週內訂購兩次的任何人」。 您可以從Adobe Analytics串流處理或使用協力廠商ETL工具直接擷取至Adobe Experience Platform。
 
-   ![](assets/aep_audiences_eventstab.png)
+  ![](assets/aep_audiences_eventstab.png)
 
 >[!NOTE]
 >
@@ -82,11 +82,11 @@ ht-degree: 3%
 >
 >如需詳細資訊，請參閱[專屬文件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/multi-entity-segmentation.html)。
 
-依預設，區段產生器會顯示資料已存在的欄位。 若要顯示完整結構描述（包括資料不存在的欄位），請啟用 **[!UICONTROL Show full XDM schema]** 選項。
+依預設，區段產生器會顯示已有資料存在的欄位。 若要顯示完整結構描述，包括資料不存在的欄位，請啟用 **[!UICONTROL Show full XDM schema]** 選項。
 
 ![](assets/aep_audiences_populatedfields.png)
 
-每個欄位末尾的符號提供有關屬性及其使用方式的其他資訊。
+每個欄位結尾的符號提供有關屬性及其使用方式的其他資訊。
 
 ![](assets/aep_audiences_isymbol.png)
 
@@ -94,15 +94,15 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->下節提供有關規則定義的全域資訊。 如需詳細資訊，請參閱 [區段產生器使用手冊](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+>下節提供有關規則定義的全域資訊。 有關詳細資訊，請參閱 [區段產生器使用手冊](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
-若要建立規則，請遵循下列步驟：
+若要建立規則，請依照下列步驟進行：
 
 1. 從左窗格中尋找欄位，以反映規則所依據的屬性或事件。
 
-1. 將欄位拖曳至中央工作區，然後依據所需的區段定義進行設定。 為此，可使用多個字串和日期/時間函式。
+1. 將欄位拖曳至中央工作區，然後根據所需的區段定義進行設定。 為此，可使用多個字串和日期/時間函式。
 
-   在以下範例中，規則將鎖定性別等於「男性」的所有設定檔。
+   在以下範例中，規則將目標設定為性別等於「男性」的所有設定檔。
 
    ![](assets/aep_audiences_malegender.png)
 
@@ -112,9 +112,9 @@ ht-degree: 3%
 
    ![](assets/aep_audiences_samplepreview.png)
 
-   您可以視需要新增更多規則，以定位正確的設定檔。
+   您可以視需要新增許多其他規則，以定位正確的設定檔。
 
-   將規則新增至容器時，會將其附加至任何具有AND邏輯運運算元的現有規則。 如有需要，請按一下邏輯運運算元加以修改。
+   將規則新增至容器時，該規則會附加至任何具有AND邏輯運運算元的現有規則。 如有需要，請按一下邏輯運運算元加以修改。
 
    ![](assets/aep_audiences_andoperator.png)
 
@@ -122,7 +122,7 @@ ht-degree: 3%
 
 ## 比較欄位
 
-區段產生器可讓您比較兩個欄位來定義規則。 例如，家庭地址與工作地址位於不同郵遞區號的女性。
+區段產生器可讓您比較兩個欄位以定義規則。 例如，家庭地址與工作地址位於不同郵遞區號的女性。
 
 要執行此操作，請依照下列步驟執行：
 
@@ -132,12 +132,12 @@ ht-degree: 3%
 
 1. 選取第二個欄位（例如工作地址郵遞區號），與第一個欄位進行比較。
 
-   將其拖曳至中心工作區（與第一個欄位位於相同的容器中）。 **[!UICONTROL Drop here to compare operands]** 方塊。
+   將其拖曳至中心工作區，在第一個欄位所在的容器中，於 **[!UICONTROL Drop here to compare operands]** 方塊。
 
    ![](assets/aep_audiences_comparing_2.png)
 
-1. 視需要設定兩個欄位之間的運運算元。 在此範例中，我們想要區段將目標設定檔的家庭地址與工作地址不同。
+1. 視需要設定兩個欄位之間的運運算元。 在此範例中，我們希望區段能定位住家地址與工作地址不同的設定檔。
 
    ![](assets/aep_audiences_comparing_3.png)
 
-規則現已設定完畢，可隨時作為受眾啟用。
+規則現已設定完畢，可隨時作為對象啟用。

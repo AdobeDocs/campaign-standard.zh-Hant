@@ -38,7 +38,7 @@ ht-degree: 98%
 
 ## 從目標人口中擷取 {#extraction-target-population}
 
-若要定義控制組，您可以選擇從目標母體中隨機或基於排序、百分比或固定數量的設定檔中擷取。
+若要定義控制組，您可以選擇從目標族群中隨機或基於排序、百分比或固定數量的設定檔中擷取。
 
 ### 目標擷取 {#target-extraction}
 
@@ -48,23 +48,23 @@ ht-degree: 98%
 
 * **[!UICONTROL Random sampling]**：在準備傳送時，Adobe Campaign 將隨機擷取與百分比或您設定為[大小限制](#size-limit)的最大數量對應的多個設定檔。
 
-   例如，如果您接著在 **[!UICONTROL Limits]** 部分中將臨界值設為 10，則控制組將從目標人口隨機選取10%。<!--Change screenshot to match example)-->
+  例如，如果您接著在 **[!UICONTROL Limits]** 部分中將臨界值設為 10，則控制組將從目標人口隨機選取10%。<!--Change screenshot to match example)-->
 
-   ![](assets/control-group-random-sampling.png)
+  ![](assets/control-group-random-sampling.png)
 
 * **[!UICONTROL Keep only the first records after sorting]**：此選項可讓您根據一或多個排序順序定義限制。
 
-   例如：
+  例如：
 
    * 選取 **[!UICONTROL Age]** 欄位作為排序標準。
    * 在 **[!UICONTROL Limits]** 部分將 100 定義為臨界值（請參閱[大小限制](#size-limit)）。
    * 保留 **[!UICONTROL Descending sort]** 選項為已核取狀態。
 
-   因此，控制組將由 100 個最舊的收件者組成。<!--Change screenshot to match example)-->
+  因此，控制組將由 100 個最舊的收件者組成。<!--Change screenshot to match example)-->
 
-   ![](assets/control-group-keep-first-records.png)
+  ![](assets/control-group-keep-first-records.png)
 
-   定義包含很少或頻繁購買的設定檔的控制組，並將他們的行為與已聯絡的收件人行為進行比較，這可能很有趣。
+  定義包含很少或頻繁購買的設定檔的控制組，並將他們的行為與已聯絡的收件人行為進行比較，這可能很有趣。
 
 >[!NOTE]
 >
@@ -78,23 +78,23 @@ ht-degree: 98%
 
 * 選取 **[!UICONTROL Size (as a % of the initial population)]**，並填入對應的框架。
 
-   例如，如果您設定 10，則根據以上所選取的選項，Adobe Campaign 會：
+  例如，如果您設定 10，則根據以上所選取的選項，Adobe Campaign 會：
    * 隨機擷取目標人口的 10%。
    * 如果您選取 **[!UICONTROL Age]** 欄位作為排序標準，請從目標人口中擷取最舊 10% 的設定檔。
 
-   >[!NOTE]
-   >
-   >如果您取消核取 **[!UICONTROL Descending sort]** 選項，將會擷取 10% 最年輕的設定檔。
+  >[!NOTE]
+  >
+  >如果您取消核取 **[!UICONTROL Descending sort]** 選項，將會擷取 10% 最年輕的設定檔。
 
 * 選取 **[!UICONTROL Maximum size]**，並填入對應的框架。
 
-   例如，如果您設定 100，Adobe Campaign 將會：
+  例如，如果您設定 100，Adobe Campaign 將會：
    * 從目標人口中隨機擷取 100 個設定檔。
    * 如果您選取 **[!UICONTROL Age]** 欄位作為排序標準，則從目標人口中擷取 100 個最舊的設定檔。
 
-   >[!NOTE]
-   >
-   >如果您取消核取 **[!UICONTROL Descending sort]** 選項，將會擷取 100 個最年輕的設定檔。
+  >[!NOTE]
+  >
+  >如果您取消核取 **[!UICONTROL Descending sort]** 選項，將會擷取 100 個最年輕的設定檔。
 
 ## 排除特定人口 {#excluding-specific-population}
 
@@ -155,7 +155,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->若要存取傳遞記錄，您必須擁有 [管理員角色](../../administration/using/users-management.md#functional-administrators) 並成為 **[!UICONTROL All]** [組織單位](../../administration/using/organizational-units.md). <!--If you would like to restrict access for a particular user or group of users, do not link it to **[!UICONTROL All]** units.-->
+>若要存取傳送記錄檔，您必須擁有 [管理員角色](../../administration/using/users-management.md#functional-administrators) 並成為 **[!UICONTROL All]** [組織單位](../../administration/using/organizational-units.md). <!--If you would like to restrict access for a particular user or group of users, do not link it to **[!UICONTROL All]** units.-->
 
 ### 檢查傳送記錄 {#checking-logs}
 
@@ -163,11 +163,11 @@ ht-degree: 98%
 
 * 在 **[!UICONTROL Sending logs]** 索引標籤中，您可以查看已擷取和已排除的設定檔。他們擁有 **[!UICONTROL Ignored]** 狀態，並且 **[!UICONTROL Control group]** 為失敗的原因。
 
-   ![](assets/control-group-sending-logs.png)
+  ![](assets/control-group-sending-logs.png)
 
 * 您也可以檢查 **[!UICONTROL Exclusion causes]** 索引標籤，以查看傳送中未包含的設定檔數量。
 
-   ![](assets/control-group-exclusion-causes.png)
+  ![](assets/control-group-exclusion-causes.png)
 
 ### 使用控制組日誌 {#using-logs}
 

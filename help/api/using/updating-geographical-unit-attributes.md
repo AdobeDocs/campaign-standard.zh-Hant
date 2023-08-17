@@ -17,12 +17,12 @@ ht-degree: 11%
 
 # 更新地理單位屬性 {#managing-geographical-units}
 
-1. 對執行GET要求 **geoUnitBase** 用於擷取地理單位PKey的資源。
-1. 在地理單位上執行PATCH請求，並在裝載中更新屬性。
+1. 在上執行GET要求 **geoUnitBase** 用於擷取地理單位PKey的資源。
+1. 對地理單位執行PATCH要求，並在裝載中使用要更新的屬性。
 
 <br/>
 
-***範例請求***
+***範例要求***
 
 擷取地理單位清單。
 
@@ -50,7 +50,7 @@ ht-degree: 11%
 },
 ```
 
-在地理單位上執行PATCH請求，並在裝載中更新屬性。
+對地理單位執行PATCH要求，並在裝載中使用要更新的屬性。
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/<PKEY> \

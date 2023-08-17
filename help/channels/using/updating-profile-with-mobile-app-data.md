@@ -20,16 +20,16 @@ ht-degree: 3%
 
 ## 概覽
 
-本頁說明開發工作流程的步驟，該工作流程會在行動應用程式傳送收集PII資料後，依排程建立/更新設定檔資料。
+本頁說明開發工作流程的步驟，此工作流程會在行動應用程式傳送收集PII資料後，依排程建立/更新設定檔資料。
 
-* **PII** 代表「個人識別資訊」。 可以是任何資料，包括不會在Campaign資料庫的「設定檔」表格中顯示的資訊，例如Analytics for Mobile [地標](../../integrating/using/about-campaign-points-of-interest-data-integration.md). PII由行動應用程式開發人員定義，通常與行銷人員一起進行。
-* **收集PII** 是從行動應用程式對Adobe Campaign Standard中的Rest API執行HTTPPOST作業。
+* **PII** 代表「個人識別資訊」。 它可以是任何資料，包括不會在Campaign資料庫之設定檔表格中顯示的資訊，例如Analytics for Mobile [地標](../../integrating/using/about-campaign-points-of-interest-data-integration.md). PII由行動應用程式開發人員定義，通常與行銷人員合作。
+* **收集PII** 是從行動應用程式對Adobe Campaign Standard中的Rest API進行HTTPPOST作業。
 
-如果行動應用程式傳回的PII資料包含設定檔相關資料，此使用案例的目標是建立或更新Campaign Standard設定檔。
+如果行動應用程式傳回的PII資料包含設定檔相關資料，則此使用案例的目標是建立或更新Campaign Standard設定檔。
 
 ## 必要條件
 
-若要在Campaign Standard中啟用推播通知，必須先執行數個設定步驟，才能根據行動應用程式訂閱資料建立或更新設定檔：
+必須先完成數個設定步驟，才能在Campaign Standard中啟用推播通知，之後才能根據行動應用程式訂閱資料建立或更新設定檔：
 
 1. [建立行動應用程式](../../administration/using/configuring-a-mobile-application.md)
 1. [將Adobe Mobile SDK與您的行動應用程式整合](../../administration/using/supported-mobile-use-cases.md).
@@ -46,10 +46,10 @@ ht-degree: 3%
 
 在此範例中， **[!UICONTROL Fields]** 區段會反映行動應用程式傳送的PII資料。 此 **[!UICONTROL Link to profiles]** 區段會指示用於關聯PII與設定檔資料的欄位，其中 **cusEmail** 將對應至 **@email**.
 
-擴充時設定檔資料的對應 **[!UICONTROL Subscriptions to an Application]** 資源為唯讀。 它用於調解。 必須將設定檔與必要的資料輸入系統中，才能將設定檔與PII資料進行調解。 在我們的案例中，設定檔的電子郵件地址必須與收集PII的電子郵件相符，才能進行調解：
+擴充時設定檔資料的對應 **[!UICONTROL Subscriptions to an Application]** 資源是唯讀的。 它用於調解。 必須將設定檔輸入到系統中，並輸入必要資料，才能將設定檔與PII資料調解。 在我們的案例中，設定檔的電子郵件地址必須與收集PII的電子郵件相符，才能進行調解：
 
-* 系統會從行動應用程式接收使用者的集合PII，使用者的名字為「Jane，姓氏為「Doe」，電子郵件地址為janedoe@doe.com。
-* 另外，設定檔的電子郵件地址為janedoe@doe.com時，設定檔資料必須存在（例如，資料必須手動輸入或來自其他資源）。
+* 系統會從行動應用程式接收使用者的收集PII，使用者的名字為「Jane，姓氏為「Doe」，電子郵件地址為janedoe@doe.com。
+* 單獨的設定檔資料必須存在（例如，資料必須手動輸入或已來自其他資源），其中設定檔的電子郵件地址為janedoe@doe.com。
 
 **相關主題：**
 
@@ -58,23 +58,23 @@ ht-degree: 3%
 
 ## 步驟2 — 建立工作流程
 
-在Campaign Standard中使用工作流程可讓管理員唯一識別並同步AppSubscription （訂閱者）資料與設定檔或收件者資料之間的資料。 雖然工作流程式更新不會即時同步設定檔資料，但不應造成任何不必要的資料庫鎖定或額外負荷。
+在Campaign Standard中使用工作流程，可讓管理員唯一識別AppSubscription （訂閱者）資料與設定檔或收件者資料之間的資料並加以同步。 雖然工作流程式更新不會即時同步設定檔資料，但不應造成任何不必要的資料庫鎖定或額外負荷。
 
 建立工作流程的主要步驟如下：
 
-1. 使用 **[!UICONTROL Query]** 或 **[!UICONTROL Incremental query]** 活動，以取得最新訂閱的清單。
+1. 使用 **[!UICONTROL Query]** 或 **[!UICONTROL Incremental query]** 活動以取得最新訂閱清單。
 1. 使用 **[!UICONTROL Reconciliation]** 活動，將PII資料與設定檔對應。
 1. 新增一些驗證程式。
-1. 使用 **[!UICONTROL Update data]** 以使用PII資料更新或建立設定檔。
+1. 使用 **[!UICONTROL Update data]** 更新或建立具有PII資料的設定檔。
 
 此工作流程會假設下列需求：
 
-* 已擴展的任何/所有欄位應該可用於建立/更新設定檔表格。
-* 設定檔表格可延伸以支援原生不支援的欄位（例如T恤大小）。
-* AppSubscription表格中任何空白的欄位不應在設定檔表格中更新。
-* AppSubscription表格中更新的任何記錄都應包含在下一次執行的工作流程中。
+* 已擴充的任何/所有欄位應該可用於建立/更新設定檔表格。
+* 設定檔表格可延伸以支援原生不支援的欄位（例如T恤尺寸）。
+* AppSubscription表格中任何空白的欄位都不應在設定檔表格中更新。
+* 在AppSubscription表格中更新的任何記錄，都應包含在下一次執行的工作流程中。
 
-若要建立工作流程，請將下列活動拖放至工作區，並將其連結在一起： **[!UICONTROL Start]**， **[!UICONTROL Scheduler]**， **[!UICONTROL Incremental query]**， **[!UICONTROL Update data]**.
+若要建立工作流程，請將下列活動拖放至工作區中，並將它們連結在一起： **[!UICONTROL Start]**， **[!UICONTROL Scheduler]**， **[!UICONTROL Incremental query]**， **[!UICONTROL Update data]**.
 
 ![](assets/update_profile0.png)
 
@@ -82,7 +82,7 @@ ht-degree: 3%
 
 ### 設定 **[!UICONTROL Scheduler]** 活動
 
-在 **[!UICONTROL General]** 標籤，設定 **[!UICONTROL Execution frequency]** （例如「每日」）、 **[!UICONTROL Time]** (例如，「1」:00:00 AM」)，以及 **[!UICONTROL Start]** （例如，今天的日期）。
+在 **[!UICONTROL General]** 標籤，設定 **[!UICONTROL Execution frequency]** （例如「每日」）、 **[!UICONTROL Time]** (例如，「1」:00:上午00點」)，以及 **[!UICONTROL Start]** （例如，今天的日期）。
 
 ![](assets/update_profile2.png)
 
@@ -102,13 +102,13 @@ ht-degree: 3%
 
 ### 設定 **[!UICONTROL Update data]** 活動。
 
-1. 在 **[!UICONTROL Identification]** 索引標籤中，確認 **[!UICONTROL Dimension to update]** 欄位設為「設定檔（設定檔）」，然後按一下 **[!UICONTROL Create element]** 按鈕，將欄位新增為調解條件。
+1. 在 **[!UICONTROL Identification]** 標籤，確認 **[!UICONTROL Dimension to update]** 欄位設為「設定檔（設定檔）」，然後按一下 **[!UICONTROL Create element]** 按鈕，將欄位新增為調解條件。
 
    ![](assets/update_profile_createelement.png)
 
 1. 在 **[!UICONTROL Source]** 欄位，從appSubscriptionRcp表格中選取欄位作為調解欄位。 可以是設定檔的電子郵件、crmId、marketingCloudId等。 在此範例中，使用「電子郵件(cusEmail)」欄位。
 
-1. 在 **[!UICONTROL Destination]** 欄位，從設定檔表格中選取欄位，以調解appSubscriptionRcp表格中的資料。 可以是設定檔的電子郵件，或任何擴充欄位，例如crmId、marketingCloudId等。 在此範例中，我們需要選取「電子郵件（電子郵件）」欄位，以與appSubscriptionRcp表格中的「電子郵件(cusEmail)」欄位對應。
+1. 在 **[!UICONTROL Destination]** 欄位，從設定檔表格中選取欄位以調解appSubscriptionRcp表格中的資料。 它可以是設定檔的電子郵件，或任何擴充欄位，例如crmId、marketingCloudId等。 在此範例中，我們需要選取「電子郵件（電子郵件）」欄位，以與appSubscriptionRcp表格中的「電子郵件(cusEmail)」欄位對應。
 
    ![](assets/update_profile7.png)
 
@@ -120,9 +120,9 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->在此情況下，工作流程會執行UPSERT，但由於它是根據 **[!UICONTROL Incremental query]** 僅插入資料。 變更查詢會影響要插入或更新哪些資料。
->此外，要更新的欄位索引標籤中的設定會決定要在特定條件下插入或更新哪些欄位。 這些設定對於每個應用程式或客戶可能是唯一的。
->在設定這些設定時請務必小心，因為可能會產生非預期的後果，因為根據appSubscriptionRcp資料更新設定檔中的記錄可能會變更使用者的個人資訊，而不經過驗證。
+>在此情況下，工作流程會執行UPSERT，但因為它是根據 **[!UICONTROL Incremental query]** 只會插入資料。 變更查詢可能會影響要插入或更新哪些資料。
+>此外，要更新欄位索引標籤中的設定會決定在特定條件下插入或更新哪些欄位。 這些設定對每個應用程式或客戶可能都是唯一的。
+>在設定這些設定時請小心，可能會產生非預期的後果，因為根據appSubscriptionRcp資料更新設定檔中的記錄可能會變更使用者的個人資訊，而不需要驗證。
 
 在設定檔中新增要插入/更新的所有欄位後，按一下 **[!UICONTROL Confirm]**.
 

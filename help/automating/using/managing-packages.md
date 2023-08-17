@@ -49,7 +49,7 @@ ht-degree: 100%
 * **[!UICONTROL Platform]** 套件會對技術設定期間新增的所有資源進行重新分組：自訂資源、自訂資源集、觸發器，以及包含 **[!UICONTROL System]** 類型的應用程式選項。
 * **[!UICONTROL Administration]** 套件會對業務設定期間新增的所有對象進行重新分組，如：行銷活動範本、內容範本、傳遞範本、登錄頁面範本、方案範本和工作流程範本。
 
-   它也包含下列物件：內容區塊、目標對應、外部帳戶、組織單位、包含 **[!UICONTROL User]** 類型的應用程式選項、角色、類型、類型規則和使用者。
+  它也包含下列物件：內容區塊、目標對應、外部帳戶、組織單位、包含 **[!UICONTROL User]** 類型的應用程式選項、角色、類型、類型規則和使用者。
 
 >[!NOTE]
 >
@@ -112,11 +112,11 @@ ht-degree: 100%
 
 * **[!UICONTROL Export status]**：本區段顯示操作是否正確執行。
 
-   ![](assets/packages_6.png)
+  ![](assets/packages_6.png)
 
 * 您可以透過　**[!UICONTROL Log]**　索引標籤，查詢匯出的不同步驟。這包含所有前期匯出的狀態。
 
-   ![](assets/packages_7.png)
+  ![](assets/packages_7.png)
 
 >[!NOTE]
 >
@@ -168,7 +168,7 @@ ht-degree: 100%
 * **[!UICONTROL Import status]**：本區段顯示操作是否正確執行。
 * 您可以透過 **[!UICONTROL Execution logs]** 索引標籤來查詢匯入的不同步驟。這對於檢視錯誤特別重要。
 
-   ![](assets/packages_20.png)
+  ![](assets/packages_20.png)
 
 在匯入套件後，就無法從相同的元素重新匯入它。您只能修改其標籤和 ID。
 

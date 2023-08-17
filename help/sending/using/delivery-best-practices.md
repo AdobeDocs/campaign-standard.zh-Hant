@@ -26,7 +26,7 @@ ht-degree: 7%
 
 <img src="assets/do-not-localize/design.svg"  width="60px">
 
-**[使用範本](use-templates.md)**  — 促進並加速新交付專案
+**[使用範本](use-templates.md)**  — 加速交付新產品
 
 <img src="assets/do-not-localize/custom.svg"  width="60px">
 

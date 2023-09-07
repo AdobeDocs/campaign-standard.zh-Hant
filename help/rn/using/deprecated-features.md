@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: 99a2ae8b383d5a8437882be065781a2317b88bfe
 workflow-type: tm+mt
-source-wordcount: '857'
-ht-degree: 63%
+source-wordcount: '863'
+ht-degree: 61%
 
 ---
 
@@ -34,38 +34,6 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
 通常，未來新發行版本預計移除的功能，將先設為過時並提供替代方案。新的 Campaign Standard 客戶將無法使用這些功能，或者這些功能將不用於任何新實施。產品文件亦將移除這些功能。
 
 建議客戶檢視是否在目前部署運用了過時的功能，並規劃實施變更的計畫以使用所提供的替代方案。請參閱目標移除版本，據此規劃您的環境和專案更新。
-
-<table> 
- <thead> 
-  <tr> 
-   <th> <strong>與Audience Destinations服務整合</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p> 自Campaign Standard第21.3發行版本開始，已棄用與Audience Destinations服務整合。 </p>
-   <p>若為新的實作，您將無法再整合Audience Destinations服務與Adobe Campaign Standard。 不過，您可以透過來源和目的地整合Campaign和Adobe Experience Platform。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html">了解更多</a>。</p>
-     <em>目標移除日期：2023 年</em></p>
-     </td> 
-  </tr> 
- </tbody> 
-</table>
-
-<table> 
- <thead> 
-  <tr> 
-   <th> <strong>與Adobe Experience Platform Data Connector整合</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p> 自Campaign Standard第21.3發行版本開始，已棄用與Adobe Experience Platform Data Connector整合。 </p>
-   <p>若為新的實作，您無法再整合Adobe Experience Platform資料聯結器與Adobe Campaign Standard。 不過，您可以透過來源和目的地整合Campaign和Adobe Experience Platform。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html">了解更多</a>。</p>
-     <em>目標移除日期：2023 年</em></p>
-     </td> 
-  </tr> 
- </tbody> 
-</table>
 
 
 <table> 
@@ -101,7 +69,35 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
 
 本節列出已從 Campaign Standard 移除的功能。
 
+<table> 
+ <thead> 
+  <tr> 
+   <th> <strong>與Audience Destinations服務整合</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p> 自Campaign Standard第21.3發行版本開始，已棄用與Audience Destinations服務整合。  現已移除。</p>
+   <p>若為新的實作，您將無法再整合Audience Destinations服務與Adobe Campaign Standard。 不過，您可以透過來源和目的地整合Campaign和Adobe Experience Platform。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html">了解更多</a>。</p>
+     </td> 
+  </tr> 
+ </tbody> 
+</table>
 
+<table> 
+ <thead> 
+  <tr> 
+   <th> <strong>與Adobe Experience Platform Data Connector整合</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p> 自Campaign Standard第21.3發行版本開始，已棄用與Adobe Experience Platform Data Connector整合。  現已移除。</p>
+   <p>若為新的實作，您無法再整合Adobe Experience Platform資料聯結器與Adobe Campaign Standard。 不過，您可以透過來源和目的地整合Campaign和Adobe Experience Platform。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html">了解更多</a>。</p>
+     </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 <table> 
  <thead> 
@@ -111,7 +107,7 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> 自Campaign第20.1發行版本開始，已棄用SDK v4。 <a href="https://developer.adobe.com/client-sdks/documentation/v4-end-of-life-faq/">了解更多</a>。</p><br/>
+   <td> <p> 自Campaign第20.1發行版本開始，已棄用SDK v4。 現已移除。 <a href="https://developer.adobe.com/client-sdks/documentation/v4-end-of-life-faq/">了解更多</a>。</p><br/>
    <p>此 <a href="https://developer.adobe.com/client-sdks/documentation/">Adobe Experience Platform Mobile SDK</a> （先前稱為v5）現在僅支援即將推出的Adobe Experience Cloud功能。</p>
    <p>2021年8月31日後，客戶可以繼續下載及使用第4版SDK，但將無法取得客戶服務支援或存取論壇。</p>
    <p>瞭解如何從SDK v4移轉至Adobe Experience Platform Mobile SDK <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">在此頁面中</a>.</p></br>
@@ -128,7 +124,7 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>自 Campaign 21.2 版本以來，不建議使用促銷活動 API 和介面來存取和刪除請求。將無法使用兩步驟的設定檔刪除作業。使用 <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service">Adobe 隱私權核心服務</a>。</p></br>
+   <td> <p>自 Campaign 21.2 版本以來，不建議使用促銷活動 API 和介面來存取和刪除請求。兩步驟設定檔刪除已不再可用。 使用 <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service">Adobe 隱私權核心服務</a>。</p></br>
    <p>另請參閱<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html">管理隱私權要求</a>。</p>
   </td> 
   </tr> 

@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: 9533654ac4476b359da8cf00f9ef2015d9f8ccdf
 workflow-type: tm+mt
-source-wordcount: '7224'
+source-wordcount: '7214'
 ht-degree: 100%
 
 ---
@@ -120,7 +120,7 @@ ht-degree: 100%
 
 已新增資訊，以指定在查詢中選取 au 閱聽眾時，其定義會被複製而非參考。 [顯示全文](../../audiences/using/selecting-an-audience-in-a-message.md)
 
-與閱聽眾目標服務和 Adobe Experience Platform 資料連接器相關的資訊已重新分組為新部分。 [顯示全文](../../integrating/using/aep-about-audience-destinations-service.md)
+與閱聽眾目標服務和 Adobe Experience Platform 資料連接器相關的資訊已重新分組為新部分。 
 
 **已宣告的 ID** 資料來源現在也可搭配 People 核心服務整合使用。已在行銷活動 Audience Manager 或 People 核心服務整合文件中新增資訊。 [顯示全文](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
 
@@ -178,7 +178,7 @@ SMS 連接器通訊協定及設定頁面已移至[此處](../../administration/u
 
 **「異動訊息傳送」**&#x200B;部分已重新整理並收集到一個位置，以改善導覽。 [顯示全文](../../channels/using/getting-started-with-transactional-msg.md)
 
-「Adobe Experience Platform Data Connector」區段中已新增有關隱私權管理相關資料對應驗證錯誤以及如何疑難排解的資訊。[顯示全文](../../integrating/using/aep-mapping-activation.md)
+「Adobe Experience Platform Data Connector」區段中已新增有關隱私權管理相關資料對應驗證錯誤以及如何疑難排解的資訊。
 
 ## 發行版本 20.4 – 2020 年 10 月 {#release-20-4---october-2020}
 
@@ -280,7 +280,7 @@ External API 活動 (GA) – [瞭解詳情](../../automating/using/external-api.
 
 已將其他資源新增至文件首頁。[瞭解詳情](../../campaign-standard-home.md)
 
-Experience Cloud ID 服務 (ECID) 的相關資訊已新增至 Adobe Experience Platform 資料連接器檔案。[瞭解詳情](../../integrating/using/aep-about-data-connector.md#key-concepts)
+Experience Cloud ID 服務 (ECID) 的相關資訊已新增至 Adobe Experience Platform 資料連接器檔案。
 
 「異動訊息」區段已改良，提供如何存取最新異動事件和更新螢幕擷取畫面的資訊。[瞭解詳情](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
 
@@ -344,11 +344,11 @@ Campaign 電子郵件設計工具檔案和相關頁面已更新，以反映 [!DN
 
 ## 發行版本 20.1 – 2020 年 2 月 {#release-20-1---february-2020}
 
-**發行中包含的新功能**
+**發行版本中包含的新功能**
 
-Adobe Experience Platform Data Connector（測試版） – [瞭解詳情](../../integrating/using/aep-about-data-connector.md)
+Adobe Experience Platform 資料連接器 (Beta)
 
-對象目標（測試版） – [瞭解詳情](../../integrating/using/aep-about-audience-destinations-service.md)
+對象目標（測試版）
 
 **此版本隨附的其他文件更新**
 

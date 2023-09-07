@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: 說明中心，以瞭解使用 Campaign Standard 所需的主要功能、工作、設定和其他資源。
 title: Campaign Standard 指南
 breadcrumb-title: Adobe Campaign Standard 文件
-source-git-commit: d7e0912dd7d19a1f5dd2172235f28a40e130cac1
-workflow-type: tm+mt
-source-wordcount: '1818'
+source-git-commit: 957064f708390c33a3295ed7d107cc9c488be875
+workflow-type: ht
+source-wordcount: '1812'
 ht-degree: 100%
 
 ---
@@ -271,22 +271,21 @@ ht-degree: 100%
          + [在 Microsoft Dynamics 365 和 Campaign 之間對應資料](integrating/using/d365-acs-self-service-app-data-sync.md)
       + [使用 Microsoft Dynamics 365 整合](integrating/using/d365-acs-using-the-integration.md)
    + Campaign 與 Adobe Experience Platform {#adobe-experience-platform}
-      + Adobe Experience Platform 來源和目標 {#aep-sources-destinations}
-         + [開始使用來源和目標](integrating/using/get-started-sources-destinations.md)
-         + [將 Adobe Experience Platform 對象內嵌至 Campaign](integrating/using/ingest-aep-data.md)
-         + [將資料從 Campaign 匯出至 Adobe Experience Platform](integrating/using/export-campaign-data.md)
-      + Audience Destinations 服務 (Beta) {#audience-destinations}
-         + [關於 Audience Destinations 服務](integrating/using/aep-about-audience-destinations-service.md)
-         + [管理 Adobe Experience Platform 對象](integrating/using/aep-managing-audiences.md)
-         + [使用區段產生器](integrating/using/aep-using-segment-builder.md)
-         + [目標定位 Adobe Experience Platform 對象](integrating/using/aep-targeting-audiences.md)
-         + [使用 Adobe Experience Platform 屬性個人化行銷活動](integrating/using/aep-personalizing-campaigns.md)
-      + Adobe Experience Platform 資料連接器 (Beta) {#data-connector}
-         + [關於 Adobe Experience Platform 資料連接器](integrating/using/aep-about-data-connector.md)
-         + [Experience Platform 資料模型概覽](integrating/using/aep-data-model-overview.md)
-         + [對應定義](integrating/using/aep-mapping-definition.md)
-         + [對應啟動](integrating/using/aep-mapping-activation.md)
-         + [透過 API 觸發資料引入](integrating/using/aep-triggering-data-ingestion.md)
+      + [開始使用來源和目標](integrating/using/get-started-sources-destinations.md)
+      + [將 Adobe Experience Platform 對象內嵌至 Campaign](integrating/using/ingest-aep-data.md)
+      + [將資料從 Campaign 匯出至 Adobe Experience Platform](integrating/using/export-campaign-data.md)
+         + Audience Destinations 服務 (Beta) {#audience-destinations}
+            + [關於 Audience Destinations 服務](integrating/using/aep-about-audience-destinations-service.md)
+            + [管理 Adobe Experience Platform 對象](integrating/using/aep-managing-audiences.md)
+            + [使用區段產生器](integrating/using/aep-using-segment-builder.md)
+            + [目標定位 Adobe Experience Platform 對象](integrating/using/aep-targeting-audiences.md)
+            + [使用 Adobe Experience Platform 屬性個人化行銷活動](integrating/using/aep-personalizing-campaigns.md)
+         + Adobe Experience Platform 資料連接器 (Beta) {#data-connector}
+            + [關於 Adobe Experience Platform 資料連接器](integrating/using/aep-about-data-connector.md)
+            + [Experience Platform 資料模型概覽](integrating/using/aep-data-model-overview.md)
+            + [對應定義](integrating/using/aep-mapping-definition.md)
+            + [對應啟動](integrating/using/aep-mapping-activation.md)
+            + [透過 API 觸發資料引入](integrating/using/aep-triggering-data-ingestion.md)
 + 管理流程和資料 {#managing-processes-and-data}
    + [開始使用資料和流程管理](automating/using/get-started-workflows.md)
    + 工作流程一般作業 {#workflow-general-operation}

@@ -14,9 +14,9 @@ role: User
 level: Intermediate
 exl-id: 0fc71c2f-f294-43f7-825c-73ab4d43fcf7
 source-git-commit: 9533654ac4476b359da8cf00f9ef2015d9f8ccdf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1418'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -87,7 +87,7 @@ Adobe Campaign 是 Adobe Experience Cloud 解決方案的一部分。在 Campaig
 
 因此，身為收集和分享個人資料的公司，您是資料控制方、客戶是資料主體，而 Adobe Campaign 在依您的指示處理個人資料時，會作為資料處理方。請注意，身為資料控制方，您有責任處理與資料主體的關係，例如管理[隱私權要求](#privacy-requests)。
 
-將Campaign與其他Experience Cloud解決方案整合時，如果閱聽眾可以從一個系統傳輸到另一個系統， [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md)， [Audience Manager或人員核心服務](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)、或其他解決方案，例如 [Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md)，您需要支付額外的個人護理費用來保護資料。
+將 Campaign 與其他 Experience Cloud 解決方案整合時，如果對象可以從一個系統傳輸到另一個系統 (例如 [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md)、[Audience Manager 或 People 核心服務](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)，或是其他解決方案，如 [Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md))，您需要支付額外的個人護理費用來保護資料。
 
 ## 資料擷取 {#data-acquisition}
 

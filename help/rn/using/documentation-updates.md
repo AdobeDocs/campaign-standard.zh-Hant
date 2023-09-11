@@ -6,7 +6,7 @@ role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: 9533654ac4476b359da8cf00f9ef2015d9f8ccdf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7214'
 ht-degree: 100%
 
@@ -348,7 +348,7 @@ Campaign 電子郵件設計工具檔案和相關頁面已更新，以反映 [!DN
 
 Adobe Experience Platform 資料連接器 (Beta)
 
-對象目標（測試版）
+對象目標 (Beta)
 
 **此版本隨附的其他文件更新**
 

@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 485927b217fb68064897dd877c2f4a6dd208d443
+source-git-commit: a15959b34979678e6ed53758e0ba5a00401a765b
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 100%
+source-wordcount: '202'
+ht-degree: 24%
 
 ---
 
@@ -18,30 +18,26 @@ ht-degree: 100%
 # 早期發行說明 {#e-new-release}
 
 本頁介紹了下一個 Campaign Standard 版本中包含的改善及修正。
+
 >[!CAUTION]
 >
 > 在預備環境升級日期前，此內容可能會有所變更，恕不另行通知。 請參閱[發行計劃頁面](../../rn/using/release-planning.md)以瞭解更多資訊。
 
-## 版本 23.1 - 2023 春/夏版 {#apr-23}
+## 版本 23.2 - 2023 年秋冬發行 {#fall-23}
+
+>[!AVAILABILITY]
+>
+>此版本僅適用於一組組織（可用性限制）。 如需詳細資訊，請聯絡您的Adobe代表。
 
 ### 功能改進 {#e-rn-improvements}
 
-* 推播訊息服務已經過現代化改造，以改善支援。 (CAMP-47959)
-* 簡訊訊息傳送服務已經過改善，以提供更高的穩定性。(CAMP-52217)
-* Adobe 已修復許多協助工具，以便提高應用程式的整體易用性。 以下是協助工具改善的幾個範例：
-   * 許多畫面中的介面鍵盤協助工具已最佳化。
-   * 已增強觸控螢幕使用者專用的應用程式。
-   * 已變更介面數個項目的顏色，以便改善可見度。
+* **與Adobe Experience Manager整合**. 在Adobe Experience Manager中建立交易式訊息的傳遞範本時，您現在可以選取並使用Campaign Standard中定義的個人化欄位，來個人化訊息。 Adobe Experience Manager中有新的下拉式清單。
 
-### 其他變更 {#e-rn-changes}
+* **Cookie有效期**  — 預設Cookie有效期限現已設定為6個月，以符合法國法規。
 
-* 已新增現成可用的&#x200B;**報告擴充建立工作流程**。 將目標對應從一個執行個體匯入另一個執行個體後，只要執行工作流程即可匯入對應的報告擴充項目。(CAMP-52452)
+* **設定檔搜尋改善**  — 已最佳化設定檔搜尋，以便減少搜尋逾時情況
 
-### 已修復的問題{#e-rn-patches}
+* **與Adobe Experience Cloud Triggers整合**  — 全新的Experience Cloud觸發器使用者介面提供直覺式體驗，可管理消費者行為並個人化使用者體驗。 Adobe Experience Cloud Triggers的新使用者介面將逐步向所有客戶推出。
 
-* 修正在顯示&#x200B;**熱點點按**&#x200B;報告時可能導致超時錯誤的問題。(CAMP-51582)
-* 修正可能導致您無法使用與&#x200B;**位置**&#x200B;服務整合的問題。(CAMP-51923)
-* 修正可能導致工作流程排程器無法正常運作的問題。(CAMP-52003)
-* 修正檢視含有大量資料之自訂動態報告的 PDF 版本時，無法顯示劃分詳細資料的問題。(CAMP-52178)
-* 修正存取報告時可能顯示錯誤的問題。 (CAMP-52500)
-* 修正誤將此帳戶 SMS 連接器參數的&#x200B;**限制 MTA 執行個體**&#x200B;套用到所有通道而非僅套用至 SMS 的問題。(CAMP-52640)
+  進一步瞭解Adobe Campaign和Experience Cloud觸發程式： [此頁面](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html){target="_blank"}.
+

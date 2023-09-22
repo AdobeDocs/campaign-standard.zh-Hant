@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: a15959b34979678e6ed53758e0ba5a00401a765b
+source-git-commit: 1437559bc1310e8daadcdeeb1a3874e673bff75f
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 24%
+source-wordcount: '254'
+ht-degree: 19%
 
 ---
 
@@ -41,3 +41,10 @@ ht-degree: 24%
 
   進一步瞭解Adobe Campaign和Experience Cloud觸發程式： [此頁面](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html){target="_blank"}.
 
+* **本地化**  — 指稱一組設定檔以接收訊息時，「對象」一詞的翻譯在下列語言的所有數位體驗產品中得到協調：
+
+   * 德文：Zielgruppe
+   * 巴西葡萄牙文：público-alvo
+   * 西班牙文：público destinatario
+
+  這些變更將在下一個UI和檔案版本中逐步推出。

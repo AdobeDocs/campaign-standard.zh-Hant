@@ -8,10 +8,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 6b8d5118-89ed-49c2-b601-0aff472fcadd
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: cf2ded703e53d6db27e62712734f7ea846da9a21
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 79%
+source-wordcount: '740'
+ht-degree: 78%
 
 ---
 
@@ -23,11 +23,9 @@ ht-degree: 79%
 >
 >若要建立觸發程式，您需要 **[!UICONTROL Administration]** 角色或將位於 **[!UICONTROL Administrators]** 安全性群組。 如需詳細資訊，請參閱此 [頁面](../../administration/using/list-of-roles.md).
 
-您應確保在 Adobe Experience Cloud（**[!UICONTROL Triggers]** 核心服務）中預先定義要監控之行為。如需詳細資訊，請參閱 [Adobe Experience Cloud 文件](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html)。請注意，定義觸發程式時需要啟用別名。對於每個行為（瀏覽/放棄表單、新增/刪除產品、工作階段過期等），必須在 Adobe Experience Cloud 中新增一個新的觸發程式。
+您應確保在 Adobe Experience Cloud（**[!UICONTROL Triggers]** 核心服務）中預先定義要監控之行為。如需詳細資訊，請參閱 [Adobe Experience Cloud 文件](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html)。請注意，定義觸發程式時需要啟用別名。對於每個行為（瀏覽/放棄表單、新增/刪除產品、工作階段過期等），必須在 Adobe Experience Cloud 中新增一個新的觸發程式。
 
 您現在必須依據現有的 Adobe Experience Cloud 觸發程式，在 Adobe Campaign 中建立觸發程式事件。
-
-您可以觀看此[影片](https://helpx.adobe.com/tw/marketing-cloud/how-to/email-marketing.html#step-two)，有助於您瞭解如何在 Adobe Campaign 中設定觸發程式。
 
 設定步驟如下：
 

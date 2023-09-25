@@ -8,10 +8,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
-source-git-commit: 5a7e48da3d62b186f96cd7451fb5a7b2cf94e09c
+source-git-commit: cf2ded703e53d6db27e62712734f7ea846da9a21
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 7%
+source-wordcount: '842'
+ht-degree: 6%
 
 ---
 
@@ -95,7 +95,7 @@ Adobe團隊需要下列資訊才能啟用觸發程式：
 
 在Experience Cloud中建立新的觸發程式，並請務必選取您網站上使用的報表套裝。 請務必選擇正確的維度，以便觸發程式。
 
-請參閱 [Adobe Experience Cloud檔案](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html) 並觀看此影片 [視訊](https://helpx.adobe.com/tw/marketing-cloud/how-to/email-marketing.html#step-two).
+請參閱 [Adobe Experience Cloud檔案](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html).
 
 ## 觸發器最佳作法和限制 {#triggers-best-practices-and-limitations}
 

@@ -7,9 +7,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 1437559bc1310e8daadcdeeb1a3874e673bff75f
+source-git-commit: 637ec6d0f98be7b76ed3f26821a9f66541503ca6
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '250'
 ht-degree: 19%
 
 ---
@@ -31,9 +31,9 @@ ht-degree: 19%
 
 ### 功能改進 {#e-rn-improvements}
 
-* **與Adobe Experience Manager整合**. 在Adobe Experience Manager中建立交易式訊息的傳遞範本時，您現在可以選取並使用Campaign Standard中定義的個人化欄位，來個人化訊息。 Adobe Experience Manager中有新的下拉式清單。
+* **與Adobe Experience Manager整合**. 在Adobe Experience Manager中建立異動訊息的個人化傳送範本時，您現在可以選取並使用下拉式清單中Campaign Standard定義的個人化欄位。
 
-* **Cookie有效期**  — 預設Cookie有效期限現已設定為6個月，以符合法國法規。
+* **Cookie有效期**  — 預設Cookie有效期限現已設定為6個月，以符合法國資料保護局(CNIL)的建議。
 
 * **設定檔搜尋改善**  — 已最佳化設定檔搜尋，以便減少搜尋逾時情況
 

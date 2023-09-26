@@ -7,9 +7,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 637ec6d0f98be7b76ed3f26821a9f66541503ca6
+source-git-commit: 668412b6385aafcaf8bb55096758731b8076666a
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '256'
 ht-degree: 19%
 
 ---
@@ -37,10 +37,6 @@ ht-degree: 19%
 
 * **設定檔搜尋改善**  — 已最佳化設定檔搜尋，以便減少搜尋逾時情況
 
-* **與Adobe Experience Cloud Triggers整合**  — 全新的Experience Cloud觸發器使用者介面提供直覺式體驗，可管理消費者行為並個人化使用者體驗。 Adobe Experience Cloud Triggers的新使用者介面將逐步向所有客戶推出。
-
-  進一步瞭解Adobe Campaign和Experience Cloud觸發程式： [此頁面](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html){target="_blank"}.
-
 * **本地化**  — 指稱一組設定檔以接收訊息時，「對象」一詞的翻譯在下列語言的所有數位體驗產品中得到協調：
 
    * 德文：Zielgruppe
@@ -48,3 +44,7 @@ ht-degree: 19%
    * 西班牙文：público destinatario
 
   這些變更將在下一個UI和檔案版本中逐步推出。
+
+* **與Adobe Experience Cloud Triggers整合**  — 現已推出Experience Cloud觸發程式的新使用者介面。 它提供直覺式體驗，用於管理消費者行為並個人化使用者體驗。 Adobe Experience Cloud Triggers的新使用者介面將於2023年10月11至16日逐步向所有客戶推出。
+
+  進一步瞭解Adobe Campaign和Experience Cloud觸發程式： [此頁面](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html){target="_blank"}.

@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: a15959b34979678e6ed53758e0ba5a00401a765b
+source-git-commit: 668412b6385aafcaf8bb55096758731b8076666a
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 95%
+source-wordcount: '438'
+ht-degree: 92%
 
 ---
 
@@ -33,7 +33,7 @@ Adobe 透過新增新功能、增強功能和修正不斷改進其解決方案�
 >
 >此版本僅適用於一組組織（可用性限制）。 如需詳細資訊，請聯絡您的Adobe代表。
 
-<!--Detailed information about this release is available in the [Release Notes](release-notes.md).-->
+有關此版本的詳細資訊，請參閱 [早期發行說明](e-release-notes.md).
 
 <table>
  <thead>

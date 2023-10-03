@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: c1271bc0128c583e9b39ef98a422487e1df20fce
+source-git-commit: 4158a5aedf990651a0205f7eac4f4294e2538cba
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 59%
+source-wordcount: '454'
+ht-degree: 60%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 59%
 
 * **與Adobe Experience Manager整合**. 在Adobe Experience Manager中建立異動訊息的個人化傳送範本時，您現在可以選取並使用下拉式清單中Campaign Standard定義的個人化欄位。 [了解更多](../../integrating/using/creating-email-experience-manager.md)
 
-* **Cookie有效期**  — 預設Cookie有效期限現已設定為6個月，以符合法國資料保護局(CNIL)的建議。
+* **Cookie有效期**  — 預設Cookie過期時間已設定為6個月，以符合法國資料保護局(CNIL)的建議。
 
 * **設定檔搜尋改善**  — 已最佳化設定檔搜尋，以便減少搜尋逾時情況
 
@@ -44,12 +44,12 @@ ht-degree: 59%
 
 ### 其他變更 {#fall-23-rn-other-changes}
 
-* 異動訊息現在支援使用多個以逗號分隔的親和度。
+* 異動訊息現在支援使用多個以逗號分隔的親和度。 [了解更多](../../sending/using/managing-typologies.md)
 
 ### 修正 {#fall-23-rn-fixes}
 
 * 修正了在使用大型工作流程時，可能導致效能問題的回歸。 (CAMP-53369)
-* 修正工作流程警報或通知中的電子郵件連結無法運作的問題。 (CAMP-51874)
+* 修正工作流程電子郵件警報或通知中的連結無法運作的問題。 (CAMP-51874)
 
 ## 版本 23.1 - 2023 春/夏版 {#apr-23}
 

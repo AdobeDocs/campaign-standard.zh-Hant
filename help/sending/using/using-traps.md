@@ -9,9 +9,9 @@ feature: Seed Address
 role: User
 level: Intermediate
 exl-id: 0482a946-35b1-426f-8505-42adcd1c3bbb
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee3ab5304e80ea098f7e172f6b3f4af4324e8eb4
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '458'
 ht-degree: 2%
 
 ---
@@ -62,4 +62,6 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->使用測試設定檔作為補漏白時，對於訊息中任何擴充的欄位，會從真正的目標設定檔中隨機擷取對應的額外資料，並將其指派給補漏白測試設定檔。 如需擴充的詳細資訊，請參閱 [此範例](../../automating/using/enriching-profile-data-file.md).
+>將測試設定檔用作補漏白時，訊息中任何擴充的欄位將會從真正的目標設定檔中隨機選取其對應的額外資料，並將其指派給補漏白測試設定檔。 但是，請注意，如果由於在第一個訊息準備期間套用的型別規則而排除真正的目標設定檔，則傳送準備將會失敗。 發生此失敗是因為擴充欄位值無法取代補漏白設定檔。 因此，排除型別規則可能無法正確套用至真正的收件者。
+>
+>若要防止此情況，請避免在交易式型別中，將補漏白測試設定檔與篩選或疲勞規則同時使用。 進一步瞭解擴充。 如需擴充的詳細資訊，請參閱 [此範例](../../automating/using/enriching-profile-data-file.md).

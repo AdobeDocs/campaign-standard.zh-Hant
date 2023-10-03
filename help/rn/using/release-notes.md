@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: f9bd5901d68c09ba20d5d48d263f4818c2e1e86a
+source-git-commit: c1271bc0128c583e9b39ef98a422487e1df20fce
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 100%
+source-wordcount: '452'
+ht-degree: 59%
 
 ---
 
@@ -16,6 +16,40 @@ ht-degree: 100%
 # 最新版本{#latest-release}
 
 ![控制面板](assets/do-not-localize/cp-icon.png) **新控制面板版本**。 [了解更多](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=zh-Hant){target="_blank"}。
+
+
+
+## 版本 23.2 - 2023 年秋冬發行 {#fall-23}
+
+>[!AVAILABILITY]
+>
+>此版本僅適用於一組組織（可用性限制）。 如需詳細資訊，請聯絡您的Adobe代表。
+
+### 功能改進 {#fall-23-rn-improvements}
+
+* **與Adobe Experience Manager整合**. 在Adobe Experience Manager中建立異動訊息的個人化傳送範本時，您現在可以選取並使用下拉式清單中Campaign Standard定義的個人化欄位。 [了解更多](../../integrating/using/creating-email-experience-manager.md)
+
+* **Cookie有效期**  — 預設Cookie有效期限現已設定為6個月，以符合法國資料保護局(CNIL)的建議。
+
+* **設定檔搜尋改善**  — 已最佳化設定檔搜尋，以便減少搜尋逾時情況
+
+* **本地化**  — 指稱一組設定檔以接收訊息時，「對象」一詞的翻譯在下列語言的所有數位體驗產品中得到協調：
+
+   * 德文：Zielgruppe
+   * 巴西葡萄牙文：público-alvo
+   * 西班牙文：público destinatario
+
+  這些變更將在下一個UI和檔案版本中逐步推出。
+
+
+### 其他變更 {#fall-23-rn-other-changes}
+
+* 異動訊息現在支援使用多個以逗號分隔的親和度。
+
+### 修正 {#fall-23-rn-fixes}
+
+* 修正了在使用大型工作流程時，可能導致效能問題的回歸。 (CAMP-53369)
+* 修正工作流程警報或通知中的電子郵件連結無法運作的問題。 (CAMP-51874)
 
 ## 版本 23.1 - 2023 春/夏版 {#apr-23}
 

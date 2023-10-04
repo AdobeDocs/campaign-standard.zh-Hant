@@ -11,7 +11,7 @@ exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: e7c9c79a72b9f1ce36d0c60464b36be7d36a50a6
 workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -25,13 +25,13 @@ Adobe 透過新增新功能、增強功能和修正不斷改進其解決方案�
 
 所有發行日期皆可能變更：請定期造訪本頁面，以檢查更新。
 
-## 版本 23.2 - 2023 年秋冬發行 {#release-23-2-release}
+## 版本 23.2 - 2023 年秋冬發布內容 {#release-23-2-release}
 
 環境更新會在以下指定時段內以波形進行。已透過電子郵件向每位客戶傳達確切日期。
 
 >[!AVAILABILITY]
 >
->此版本僅適用於一組組織（可用性限制）。 如需詳細資訊，請聯絡您的Adobe代表。
+>此版本僅適用於一組組織 (可用性限制)。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
 有關發佈內容的詳細資訊，請參閱[版本注意事項](release-notes.md)。
 
@@ -45,11 +45,11 @@ Adobe 透過新增新功能、增強功能和修正不斷改進其解決方案�
  <tbody>
   <tr>
    <td>階段 </td>
-   <td>2023年10月3日至9日 </td>
+   <td>2023 年 10 月 3 日至 9 日 </td>
   </tr>
   <tr>
    <td>生產 </td>
-   <td>2023年10月12至18日 </td>
+   <td>2023 年 10 月 12 至 18 日 </td>
   </tr>
  </tbody>
 </table>

@@ -8,7 +8,7 @@ exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: 59404b16e145ded31bf3a374adf4087f6d1817c6
 workflow-type: tm+mt
 source-wordcount: '7299'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -18,17 +18,17 @@ ht-degree: 97%
 
 ## 版本 23.2 - 2023 年秋冬 {#release-23-2}
 
-Campaign Standard23.2 2023年秋冬版的發行說明已發佈。 [深入了解](release-notes.md)
+已發佈 Campaign Standard 23.2 2023 秋冬版的發行說明。 [深入了解](release-notes.md)
 
 ## 2023 年 10 月 {#doc-updates-oct-2023}
 
-* 現在提供Experience Cloud觸發器的新使用者介面。 它提供直覺式體驗，用於管理消費者行為並個人化使用者體驗。 [深入了解](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html){target="_blank"}.
+* 現已推出 Experience Cloud 觸發器的新使用者介面。 它為您提供直覺式體驗，用於管理消費者行為並個人化使用者體驗。[深入了解](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html?lang=zh-Hant){target="_blank"}.
 
 * 已新增註記，說明如何結合篩選或疲勞規則使用補漏白測試設定檔。 [深入了解](../../sending/using/using-traps.md)
 
-## 版本23.1 - 2023春夏 {#release-23-1}
+## 版本 23.1 - 2023 春夏 {#release-23-1}
 
-Campaign Standard 23.1 2023春夏版的發行說明已發佈。 [深入了解](release-notes.md)
+已發佈 Campaign Standard 23.1 2023 春夏版的發行說明。 [深入了解](release-notes.md)
 
 
 ## 2022 年 11 月 {#doc-updates-november-2022}
@@ -39,7 +39,7 @@ Campaign Standard 23.1 2023春夏版的發行說明已發佈。 [深入了解](r
 
 ## 版本 22.3 - 2022 年秋冬 {#release-22-3}
 
-Campaign Standard22.3 2022年秋冬版的發行說明已發佈。 [深入了解](release-notes.md)
+已發佈 Campaign Standard 22.3 2022 秋冬版的發行說明。 [深入了解](release-notes.md)
 
 <!--Data retention periods have been updated to reflect changes coming with 22.3 release. [Read more](../../administration/using/data-retention.md)-->
 
@@ -241,7 +241,7 @@ Journey AI 整合 - [瞭解詳情](../../sending/using/predictive.md)
 
 外部 API 護欄和限制區段已更新。[顯示全文](../../automating/using/external-api.md#guardrails)
 
-「隱私權管理概覽」頁面已更新，其中加入泰國個人資料保護法(PDPA)和巴西Lei Geral de Proteção de Dados (LGPD)的相關資訊。 [顯示全文](https://helpx.adobe.com/tw/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
+「隱私權管理概覽」頁面已更新，其中加入泰國個人資料保護法 (PDPA) 與巴西 Lei Geral de Proteção de Dados (LGPD) 的相關資訊。[顯示全文](https://helpx.adobe.com/tw/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
 行動裝置頻道指南已重新整組織並改善。新的設定行動裝置頻道指南已新增有關行動設定的技術文件。[顯示全文](../../administration/using/push-tracking.md)
 
@@ -411,7 +411,7 @@ API 檔案首頁已經過改良，並重新導向不同的主題。[瞭解詳情
 
 已新增一個新的使用案例，說明如何使用 Campaign Standard 中的工作流程來建立控制群組。
 
-與登入頁面屬性相關的資訊已移入專用區段。 [顯示全文](../../channels/using/configuring-landing-page.md)
+已將登陸頁面屬性相關資訊移入專用區段。[顯示全文](../../channels/using/configuring-landing-page.md)
 
 控制面板文件已整合至新的共同作業文件集。[瞭解詳情](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hant)
 
@@ -499,7 +499,7 @@ Campaign Standard 實作指南現已上線。[瞭解詳情](https://helpx.adobe.
 
 已在[使用參數呼叫工作流程](../../automating/using/calling-a-workflow-with-external-parameters.md)區段中新增一個附註，內容與傳送準備及其彙總期間有關。
 
-已新增有關如何使用已在工作流程外部訊號活動中宣告的事件變數個人化傳送標籤的資訊。 [瞭解詳情](../../automating/using/external-signal.md)
+已新增有關如何使用已在工作流程外部訊號活動中宣告之事件變數個人化傳送標籤的資訊。[瞭解詳情](../../automating/using/external-signal.md)
 
 已新增新區段，詳述如何在 Adobe Campaign Standard 中建立使用者。[瞭解詳情](../../administration/using/users-management.md)
 
@@ -785,7 +785,7 @@ GDPR：核心服務整合 – [瞭解詳情](../../start/using/privacy-managemen
 
 查詢活動節已用查詢示例更新。[瞭解詳情](../../automating/using/query.md#query-samples)
 
-封鎖清單專用的區段已更名為「瞭解加入和退出程式」。 它已更新，其中包含如何管理特定通道的選取加入，以及如何設定登錄頁面以管理選取加入和選取退出的資訊。[瞭解詳情](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+封鎖清單用的區段已更名為「瞭解加入和退出步驟」。它已更新，其中包含如何管理特定通道的選取加入，以及如何設定登錄頁面以管理選取加入和選取退出的資訊。[瞭解詳情](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 瞭解使用 Adobe 代管 SFTP 伺服器的最佳實務。[瞭解詳情](../../administration/using/external-accounts.md#sftp-external-account)
 
@@ -1027,7 +1027,7 @@ Adobe Campaign 通知 – [瞭解詳情](../../administration/using/sending-inte
 
 新增了設定 People 核心服務或 Audience Manager 與 Adobe Campaign 整合的說明。[顯示全文](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
 
-修改授權表格，讓某些角色的功能更加清晰。 [瞭解詳情](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
+修改授權表，使某些角色的功能更加清晰。[瞭解詳情](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 更新直接從 Adobe Campaign 取得的內容說明連結。
 

@@ -11,9 +11,9 @@ level: Experienced
 exl-id: 34235749-d056-4d4c-9939-7dc52f980a76
 hide: true
 hidefromtoc: true
-source-git-commit: 110f3ccb5865e70c78e18485b4ff4ba7a648af3f
+source-git-commit: 376f00576ca1d0dfb536b29dbf25d88f7c93b9a8
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '354'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->Audience Destinations服務目前為測試版，可能會經常更新，恕不另行通知。 客戶需在Azure上代管（目前僅限北美地區使用Beta版）才能存取這些功能。 如果您想要存取許可權，請聯絡Adobe客戶服務。
+>Audience Destinations服務現已棄用。 已棄用的功能仍可使用，但不會進一步增強或支援。 瞭解更多 [在此頁面中](../../rn/using/deprecated-features.md)
 
 充份運用您的消費者體驗 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html) 根據大型複雜資料集建立具有高度針對性的受眾。 Adobe Experience Platform整合線上和離線來源中的設定檔、行為和多實體資料，包括Adobe Analytics，協助您建立客戶的360度檢視，讓您能夠有效地管理客戶體驗。
 

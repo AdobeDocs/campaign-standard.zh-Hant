@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
 source-git-commit: 46c5454ad712910c88bfda7c067fda0337b043d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '235'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -47,9 +47,9 @@ ht-degree: 83%
 
 ### 其他變更 {#e-rn-other-changes}
 
-* 異動訊息現在支援使用多個以逗號分隔的親和度。
+* 交易型訊息現在支援使用多個以逗號分隔的相似性。
 
 ### 修正 {#e-rn-fixes}
 
-* 修正了在使用大型工作流程時，可能導致效能問題的回歸。 (CAMP-53369)
-* 修正工作流程警報或通知中的電子郵件連結無法運作的問題。 (CAMP-51874)
+* 已修正使用大型工作流程時，可能導致效能問題的迴歸。 (CAMP-53369)
+* 已修正導致工作流程警報或通知中的電子郵件連結無法運作的問題。(CAMP-51874)

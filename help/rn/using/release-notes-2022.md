@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 8c722084-988d-47bd-98ad-9f5a422980a0
 source-git-commit: e7c9c79a72b9f1ce36d0c60464b36be7d36a50a6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1201'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 96%
 * **Optimization in Workflow startup** - Adobe has added a new capability which can tune the number of workflows that start around the same time. This would help prevent CPU spikes that could have led to service interruptions or downtime. Adobe would enable it after 22.2 release. There is no further action item on customer regarding the same.
 -->
 
-* **協助工具** -Adobe為提高應用程式的整體易用性修復了許多協助工具。 這些功能目前僅對部分早期採用者啟用，並將在未來版本向所有客戶提供。 協助工具的功能改善範例包括：
+* **協助工具** - Adobe 為提高應用程式的整體易用性已修正許多協助工具。 這些功能目前僅對部分早期採用者啟用，並將在未來版本向所有客戶提供。 協助工具的功能改善範例包括：
 
    * 確保每個螢幕上的聚焦元件都有可見的聚焦指示器
    * 建立頁面地標讓導覽更輕鬆
@@ -111,7 +111,7 @@ ht-degree: 96%
 * 為了解決各種問題，針對包括從 URL 匯入的內容改進了遞送的重試機制。 [了解更多資訊](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time) (CAMP-48888)
 * 修復了在自訂資源中建立新篩選器後發生的問題，然後將其作為登陸頁面中的調解金鑰。 如再次發佈自訂資源，則會從登陸頁面的可用調解金鑰清單中刪除該篩選器。 (CAMP-49516)
 * 針對當登陸頁面使用帶有核取方塊的動態條件時，修復其中的問題。 (CAMP-48604)
-* 修正中發生的問題 **查詢** 活動使用「十月或之前」篩選條件時。 當利用設定為歐洲時區的執行個體時，由於轉換時區出現問題，篩選器的選定月份顯示為 9 月而非 10 月。 (CAMP-48602)
+* 已修正當&#x200B;**查詢**&#x200B;活動使用「十月或之前」篩選器條件時發生的問題。 當利用設定為歐洲時區的執行個體時，由於轉換時區出現問題，篩選器的選定月份顯示為 9 月而非 10 月。 (CAMP-48602)
 * 為了最佳化傳遞能力，在 Adobe Campaign 傳送電子郵件時現在使用 7 位元編碼而非 8 位元編碼。 此舉避免因中繼緣故使 DKIM 簽名失效，而可能影響訊息的真實性。 (CAMP-49016)
 * 為了避免當與大數量受眾合作時出現任何問題，加強了複製受眾時的效能。 (CAMP-49639)
 * 修復可能會阻止自訂篩選器在用於&#x200B;**查詢**&#x200B;活動時顯示正確結果的問題。 (CAMP-49417)

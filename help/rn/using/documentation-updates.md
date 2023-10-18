@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: 59404b16e145ded31bf3a374adf4087f6d1817c6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7299'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 99%
 
 ## 版本 23.2 - 2023 年秋冬 {#release-23-2}
 
-已發佈 Campaign Standard 23.2 2023 秋冬版的發行說明。 [深入了解](release-notes.md)
+已發佈 Campaign Standard 23.2 2023 秋冬版的發行說明。[深入了解](release-notes.md)
 
 ## 2023 年 10 月 {#doc-updates-oct-2023}
 
 * 現已推出 Experience Cloud 觸發器的新使用者介面。 它為您提供直覺式體驗，用於管理消費者行為並個人化使用者體驗。[深入了解](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html?lang=zh-Hant){target="_blank"}.
 
-* 已新增註記，說明如何結合篩選或疲勞規則使用補漏白測試設定檔。 [深入了解](../../sending/using/using-traps.md)
+* 已新增備註，說明結合篩選或疲勞規則使用補漏白測試設定檔的方式。[深入了解](../../sending/using/using-traps.md)
 
 ## 版本 23.1 - 2023 春夏 {#release-23-1}
 

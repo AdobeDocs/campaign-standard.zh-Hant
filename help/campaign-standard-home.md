@@ -6,18 +6,18 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-source-git-commit: f6e70bf8015b31ea98e8ecca1c8df61be5f7f212
-workflow-type: ht
-source-wordcount: '232'
+source-git-commit: 5577f764beb3c5c6635d14073edcd2387f47ce5c
+workflow-type: tm+mt
+source-wordcount: '229'
 ht-degree: 100%
 
 ---
 
 # Adobe Campaign Standard 文件 {#campaign-standard-documentation}
 
-![Adobe Campaign Standard](start/using/assets/do-not-localize/banner_acs_doc.jpg)
+<!--![Adobe Campaign Standard](start/using/assets/do-not-localize/banner_acs_doc.jpg) -->
 
-## 有哪些新功能？
+## 新增功能
 
 * **[Campaign 23.2 版本注意事項已上線](rn/using/release-notes.md)**<br/> 探索 Campaign Standard 23.2 版包含的新功能、改進及修復
 

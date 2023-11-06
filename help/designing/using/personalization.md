@@ -180,7 +180,7 @@ Adobe Campaign提供預先設定的內容區塊清單。 這些內容區塊為�
 
 * [插入個人化欄位](#inserting-a-personalization-field)
 * [新增內容區塊](#adding-a-content-block)
-* [定義電子郵件中的動態內容](#defining-dynamic-content-in-an-email)
+* [在電子郵件中定義動態內容](#defining-dynamic-content-in-an-email)
 
 ## 個人化影像來源{#personalizing-an-image-source}
 
@@ -224,7 +224,7 @@ Adobe Campaign可讓您根據特定條件或使用追蹤，將訊息中的一個
 >
 >無法為已包含具有動態內容的子元素或已構成動態內容的區塊定義條件。 無法編輯無法看到的動態區塊（例如下拉式清單）。
 
-### 定義電子郵件中的動態內容{#defining-dynamic-content-in-an-email}
+### 在電子郵件中定義動態內容{#defining-dynamic-content-in-an-email}
 
 >[!CONTEXTUALHELP]
 >id="ac_dynamic_content"

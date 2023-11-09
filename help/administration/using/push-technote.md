@@ -7,22 +7,22 @@ role: Admin
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 870b01f118974ed62755dd79143b990cfa2e4e85
+source-git-commit: 6d1a5cb1d467d7d74fe41e66125fe0fcbf2e3d9b
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
 
 # 推播通知頻道近期變更 {#push-upgrade}
 
-本頁說明Adobe Campaign Standard中Android和iOS推播通知頻道的近期變更。
-
 Android和iOS裝置上的推播通知頻道近期變更有重要的更新，這些變更可能會影響您的Adobe Campaign Standard實施。
 
 ## Android {#push-android}
 
-為了持續改善Google服務，Google已著手變更其Firebase雲端通訊HTTP通訊協定。 因此，2023年6月20日淘汰的Firebase雲端通訊「HTTP legacy API」將在2024年6月以「HTTP v1 API」取代。 (https://firebase.google.com/docs/cloud-messaging/http-server-ref)。 目前Adobe Campaign Standard正在使用HTTP舊版API來傳送Android推播通知訊息，並將在未來幾個月進行變更，以升級至HTTP v1 API。 當Adobe處理這些更新時，將會提供有關這些變更的詳細資訊。
+為Google持續改善其服務，Google現正對其網站進行變更。 [Firebase雲端通訊HTTP通訊協定](https://firebase.google.com/docs/cloud-messaging/http-server-ref). 因此，2023年6月20日淘汰的Firebase雲端通訊「HTTP legacy API」將在2024年6月以「HTTP v1 API」取代。
+
+目前Adobe Campaign Standard正在使用HTTP舊版API來傳送Android推播通知訊息，並將在未來幾個月進行變更，以升級至HTTP v1 API。 當Adobe處理這些更新時，將會提供有關這些變更的詳細資訊。
 
 ## iOS {#push-ios}
 

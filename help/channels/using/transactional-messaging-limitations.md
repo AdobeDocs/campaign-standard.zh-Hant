@@ -9,10 +9,10 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: d6aaec6e-c718-46a2-88e8-7402970def1a
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 2d3ef53d5ea5603d90da169366be6ea516d96823
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 67%
+source-wordcount: '755'
+ht-degree: 66%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 67%
 
 ## 異動訊息數 {#transactional-message-number}
 
-已發佈的交易式訊息數量可能會對您的平台造成重大影響。 為獲得最佳效能，已發佈的異動訊息數應維持在100以下。 為確保此，請取消發佈或刪除任何未使用的交易式訊息。 另請參閱 [取消發佈交易式訊息](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message) 和 [刪除交易式訊息](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message).
+已發佈的交易式訊息數量可能會對您的平台造成重大影響。 為獲得最佳效能，已發佈的異動訊息數量應維持在100以下，否則可能會發生效能降低情形。 為確保此，請取消發佈或刪除任何未使用的交易式訊息，以符合上述護欄。 另請參閱 [取消發佈交易式訊息](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message) 和 [刪除交易式訊息](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message).
 
 為確保最佳效能，您也可以取消發佈或刪除未使用的事件。 事實上，取消發佈或刪除事件也會取消發佈或刪除對應的交易式訊息，以及其傳送和追蹤記錄（如有）。 另請參閱 [取消發佈事件](../../channels/using/publishing-transactional-event.md#unpublishing-an-event) 和 [刪除事件](../../channels/using/publishing-transactional-event.md#deleting-an-event).
 

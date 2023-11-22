@@ -8,9 +8,9 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: efbbd0cd-9c56-4ad0-8bcb-efba4b63c28b
-source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
+source-git-commit: 7ca7e9bd9541a4db708565e65e2ff87e44393238
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '406'
 ht-degree: 2%
 
 ---
@@ -26,6 +26,11 @@ Adobe Campaign Standard API存取權是透過下列步驟設定。 這些步驟�
 1. **檢查您是否擁有數位憑證**，或視需要建立一個。 以下步驟需要憑證隨附的公開和私密金鑰。
 1. **建立與Adobe Campaign服務的新整合** 在 [Adobe Developer](https://developer.adobe.com/) 並加以設定。 接著會產生您的認證（API金鑰、使用者端密碼……）。
 1. **建立JSON Web權杖(JWT)** 從先前產生的認證中，並使用您的私密金鑰簽署。 JWT會編碼Adobe驗證您的身分並授予您API存取權所需的所有身分和安全資訊。
+
+   >[!AVAILABILITY]
+   >
+   >JWT （JSON Web權杖）目前正在折舊中，將由OAuth取代。 此轉換在Campaign即將發行的版本中逐步執行，檔案將會更新以反映這些更新。
+
 1. **交換您的JWT以取得存取權杖** 透過POST請求。 此存取Token必須用於API請求的每個標頭。
 
 若要建立安全的服務對服務Adobe I/OAPI工作階段，對Adobe服務的每個請求都必須在Authorization標頭中包含以下資訊。

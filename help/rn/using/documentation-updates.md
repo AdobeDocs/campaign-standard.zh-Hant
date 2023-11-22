@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 59404b16e145ded31bf3a374adf4087f6d1817c6
-workflow-type: ht
-source-wordcount: '7299'
-ht-degree: 100%
+source-git-commit: 7ca7e9bd9541a4db708565e65e2ff87e44393238
+workflow-type: tm+mt
+source-wordcount: '7336'
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,9 @@ ht-degree: 100%
 
 ## 版本 23.2 - 2023 年秋冬 {#release-23-2}
 
-已發佈 Campaign Standard 23.2 2023 秋冬版的發行說明。[深入了解](release-notes.md)
+* 已發佈 Campaign Standard 23.2 2023 秋冬版的發行說明。[深入了解](release-notes.md)
+
+* JWT （JSON Web權杖）目前正在折舊中，將由OAuth取代。 此轉換在Campaign即將發行的版本中逐步執行，檔案將會更新以反映這些更新。
 
 ## 2023 年 10 月 {#doc-updates-oct-2023}
 
@@ -29,7 +31,6 @@ ht-degree: 100%
 ## 版本 23.1 - 2023 春夏 {#release-23-1}
 
 已發佈 Campaign Standard 23.1 2023 春夏版的發行說明。 [深入了解](release-notes.md)
-
 
 ## 2022 年 11 月 {#doc-updates-november-2022}
 

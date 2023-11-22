@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: 說明中心，以瞭解使用 Campaign Standard 所需的主要功能、工作、設定和其他資源。
 title: Campaign Standard 指南
 breadcrumb-title: Adobe Campaign Standard 文件
-source-git-commit: 870b01f118974ed62755dd79143b990cfa2e4e85
+source-git-commit: 01ac9b91a5b4af445bdd6209a0b9494731a47362
 workflow-type: tm+mt
-source-wordcount: '1761'
+source-wordcount: '1768'
 ht-degree: 99%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 99%
    + [早期發行說明](rn/using/e-release-notes.md)
    + 舊的發行版本 {#previous-releases}
       + [發行說明 2022 年](rn/using/release-notes-2022.md)
-      + [發行說明 2021 年](rn/using/release-notes-2021.md)
+      + [2021 年發行說明](rn/using/release-notes-2021.md)
       + [發行說明 2020 年](rn/using/release-notes-2020.md)
       + [發行說明 2019 年](rn/using/release-notes-2019.md)
       + [發行說明 2018 年](rn/using/release-notes-2018.md)
@@ -269,6 +269,7 @@ ht-degree: 99%
          + [連結系統與整合應用程式](integrating/using/d365-acs-self-service-app-settings.md)
          + [管理同步工作流程](integrating/using/d365-acs-self-service-app-workflows.md)
          + [在 Microsoft Dynamics 365 和 Campaign 之間對應資料](integrating/using/d365-acs-self-service-app-data-sync.md)
+         + [將憑證從JWT移轉至OAuth伺服器對伺服器](integrating/using/d365-acs-self-service-app-migrate-credentials.md)
       + [使用 Microsoft Dynamics 365 整合](integrating/using/d365-acs-using-the-integration.md)
    + Campaign 與 Adobe Experience Platform {#adobe-experience-platform}
       + [開始使用來源和目標](integrating/using/get-started-sources-destinations.md)

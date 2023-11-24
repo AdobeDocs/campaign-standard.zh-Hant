@@ -8,10 +8,10 @@ feature: People Core Service Integration
 role: Data Architect
 level: Intermediate
 exl-id: 04d0fe26-a8cc-49ae-aaa9-b470169068ee
-source-git-commit: 5a7e48da3d62b186f96cd7451fb5a7b2cf94e09c
+source-git-commit: 26e37cea37b33924ac634c5e4ab7c60804a738f1
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 10%
+source-wordcount: '769'
+ht-degree: 9%
 
 ---
 
@@ -124,10 +124,16 @@ Audience Manager (AAM)或People核心服務整合可讓您匯入和匯出Adobe C
 
 若要設定與People核心服務或Audience Manager的整合，我們還需要設定Campaign追蹤伺服器。
 
-在此，您必須確定已在網域(CNAME)上註冊Campaign追蹤伺服器。 您可以在中找到網域名稱設定的詳細資訊 [本文](https://helpx.adobe.com/tw/campaign/kb/domain-name-delegation.html).
+若要讓共用對象能與訪客ID搭配運作，追蹤伺服器網域應該是已點按URL的子網域或主要網站。
+
+>[!IMPORTANT]
+>
+> 您必須確定已在網域(CNAME)上註冊Campaign追蹤伺服器。 您可以在中找到網域名稱設定的詳細資訊 [本文](https://helpx.adobe.com/tw/campaign/kb/domain-name-delegation.html).
 
 ### 步驟4：設定訪客ID服務 {#step-4--configure-the-visitor-id-service}
 
 如果您的訪客ID服務從未在您的Web屬性或網站上設定過，請參閱下列內容 [檔案](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html) 以瞭解如何設定您的服務或以下專案 [視訊](https://helpx.adobe.com/tw/marketing-cloud/how-to/email-marketing.html#step-two).
+
+使用將客戶識別碼與宣告ID同步 `setCustomerID` 含整合程式碼的Experience CloudID服務中的函式： `AdobeCampaignID`. 此 `AdobeCampaignID` 應該符合中設定的收件者資料來源中的調解金鑰值 [步驟2：設定資料來源](#step-2--configure-the-data-sources).
 
 您的設定和布建已完成，整合現在可用於匯入和匯出對象或區段。

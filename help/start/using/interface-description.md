@@ -8,9 +8,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: afdd981d-f6c7-4800-9e60-3018e0e41c74
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 9faf94d3f2643d1fdeeed9156355147bf3b6be58
 workflow-type: tm+mt
-source-wordcount: '1256'
+source-wordcount: '1260'
 ht-degree: 77%
 
 ---
@@ -77,7 +77,7 @@ Adobe Campaign 可讓您導覽不同的功能表和畫面，以管理您的行�
    * a **[!UICONTROL Learning]** 連結可讓您存取Adobe Campaign課程庫。
    * a **[!UICONTROL Community]** 連結以存取專屬於您Campaign問題的論壇。
    * 直接存取：說明中心、客戶服務、Experience Cloud產品狀態、開發人員連線、發行說明、發行計畫及 **[!UICONTROL About]** 畫面。
-1. 此 **[!UICONTROL Support]** 索引標籤可讓您開啟支援案例，並透過電話或Twitter聯絡我們。
+1. 此 **[!UICONTROL Support]** 索引標籤可讓您開啟支援案例，並透過電話或X (以前稱為Twitter)聯絡我們。
 1. 此 **[!UICONTROL Feedback]**  標籤可讓您更輕鬆地報告問題或分享您的想法。
 
 ## 進階功能表 {#advanced-menu}

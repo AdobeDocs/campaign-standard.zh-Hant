@@ -8,9 +8,9 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 72b99864-d9d9-4cf4-be06-dc5719a2e4f2
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 579404ddc128e25cc7f8f93dfec30663c7cf754e
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '511'
 ht-degree: 2%
 
 ---
@@ -43,6 +43,7 @@ ht-degree: 2%
 1. 在Adobe Experience Manager中，建立新的 **[!UICONTROL Page]**.
 
 1. 選取 **[!UICONTROL Adobe Campaign Email]** 範本。 如需詳細步驟，請參閱以下影片。
+
    >[!VIDEO](https://video.tv.adobe.com/v/29997)
 
 1. 開啟您的新電子郵件內容。
@@ -64,12 +65,42 @@ ht-degree: 2%
 1. 新增 **[!UICONTROL Personalization fields]** 透過 **[!UICONTROL Text & Personalization]** 元件。 每個元件都與特定的使用方式相對應：插入影像、新增個人化等。
 
    如需詳細資訊，請觀看下列影片：
+
    >[!VIDEO](https://video.tv.adobe.com/v/29998)
 
 1. 從 **[!UICONTROL Workflow]** 索引標籤中，選取 **[!UICONTROL Approve for Adobe Campaign]** 驗證工作流程。 如果您使用Adobe Campaign中尚未核准的內容，將無法傳送電子郵件。
 
-1. 定義內容和傳送引數後，您可以在Adobe Campaign Standard中繼續核准、準備和傳送電子郵件。
+若要在Adobe Campaign Standard中傳送電子郵件：
 
-   如需詳細資訊，請觀看下列影片：
+1. 定義內容和傳送引數後，請根據Adobe Campaign Standard中的AEM專屬電子郵件範本建立電子郵件。
 
-   >[!VIDEO](https://video.tv.adobe.com/v/23721)
++++ 深入瞭解AEM專屬範本。
+
+   1. 從進階功能表，存取 **[!UICONTROL Resources]** `>` **[!UICONTROL Templates]** `>` **[!UICONTROL Delivery templates]**.
+
+      ![](assets/aem_templates_1.png)
+
+   1. 複製或選取其中一個傳遞範本。
+
+   1. 從 **[!UICONTROL Properties]** 範本的，在 **[!UICONTROL Content]** 下拉式清單，選取 **[!UICONTROL Adobe Experience Manager as Content mode]** 然後是您的Adobe Experience Manager帳戶。
+
+      ![](assets/aem_templates_2.png)
+
++++
+
+   ![](assets/aem_send_1.png)
+
+1. 填寫電子郵件的屬性，然後按一下 **[!UICONTROL Create]** 才能選取您的AEM內容。
+
+1. 存取 **[!UICONTROL Content]** 區塊。
+
+   ![](assets/aem_send_2.png)
+
+1. 從 **[!UICONTROL Use Adobe Experience Manager content]** 功能表，按一下 **[!UICONTROL Link AEM content]**.
+
+   然後，選取您要在電子郵件中使用的內容。
+
+   ![](assets/aem_send_3.png)
+
+1. 透過控制面板指定其他引數（例如目標對象和執行排程），進一步自訂您的電子郵件。 設定之後，您現在可以傳送電子郵件傳遞。 [了解更多](../../sending/using/confirming-the-send.md)
+

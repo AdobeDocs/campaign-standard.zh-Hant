@@ -5,14 +5,14 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-source-git-commit: 99a2ae8b383d5a8437882be065781a2317b88bfe
+source-git-commit: 70a30f5df33af3faaaa564903de60ca45f96899c
 workflow-type: tm+mt
-source-wordcount: '863'
-ht-degree: 61%
+source-wordcount: '882'
+ht-degree: 58%
 
 ---
 
-# 被取代和已移除的功能 {#deprecated-and-removed-features}
+# 已過時和已移除的功能 {#deprecated-and-removed-features}
 
 Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代舊的功能，以提升整體客戶價值，並時時考慮回溯相容性。
 
@@ -34,6 +34,26 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
 通常，未來新發行版本預計移除的功能，將先設為過時並提供替代方案。新的 Campaign Standard 客戶將無法使用這些功能，或者這些功能將不用於任何新實施。產品文件亦將移除這些功能。
 
 建議客戶檢視是否在目前部署運用了過時的功能，並規劃實施變更的計畫以使用所提供的替代方案。請參閱目標移除版本，據此規劃您的環境和專案更新。
+
+
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> <strong>適用於行動應用程式的SDK V4</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p>自2021年8月31日起，Adobe Experience Platform Mobile第4版SDK已停止支援。 如果您仍在Adobe Campaign Standard中使用這個舊版SDK，您必須使用Adobe Experience Platform SDK更新實施 <strong>2024年6月底前</strong>. </p></br>
+   <p>讀出 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">本文</a> 瞭解如何調整實作並改用最新的Experience Platform SDK。</p></br>
+   <p><strong>注意</strong>：從2024年6月底開始，Campaign Standard將不再支援SDK V4。</p>
+  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
 
 
 <table> 
@@ -124,7 +144,7 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>自 Campaign 21.2 版本以來，不建議使用促銷活動 API 和介面來存取和刪除請求。兩步驟設定檔刪除已不再可用。 使用 <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service">Adobe 隱私權核心服務</a>。</p></br>
+   <td> <p>自 Campaign 21.2 版本以來，不建議使用促銷活動 API 和介面來存取和刪除請求。兩步驟設定檔刪除已不再可用。 使用 <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service">Adobe隱私權核心服務</a>.</p></br>
    <p>另請參閱<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html">管理隱私權要求</a>。</p>
   </td> 
   </tr> 
@@ -169,7 +189,7 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Creative SDK]  已終止服務。因此，影像版本採用 [!DNL Creative SDK] 自Campaign 20.2發行版本開始，不再提供Campaign Standard中的電子郵件。</p></br>
+   <td> <p>[!DNL Adobe Creative SDK] 已終止服務。 因此，影像版本採用 [!DNL Creative SDK] 自Campaign 20.2發行版本開始，不再提供Campaign Standard中的電子郵件。</p></br>
    </td> 
   </tr> 
  </tbody> 

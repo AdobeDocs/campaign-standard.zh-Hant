@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: eb7a209e-069e-4068-966d-05344bd838c7
-source-git-commit: 3b2f8d9b2b7a4ec9532917af3a0880400d98e636
+source-git-commit: 620ae1adc6f804e90c10daeb5fa4df42ce106885
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1237'
 ht-degree: 1%
 
 ---
@@ -16,17 +16,16 @@ ht-degree: 1%
 # 如何將您的行動應用程式從 SDK v4 移轉至 Adobe Experience Platform SDK {#sdkv4-migration}
 
 
-對第4版Adobe Experience Platform Mobile SDK的支援已於以下日期終止 **2021年8月31日**. 閱讀本文章以瞭解如何移轉至Adobe Experience Platform SDK。
+自2021年8月31日起，Adobe Experience Platform Mobile第4版SDK已停止支援。 如果您仍在使用此舊版SDK，您必須使用Adobe Experience Platform SDK更新實作 **2024年6月底前**. 閱讀本文章以瞭解如何移轉至Adobe Experience Platform SDK。
 
 >[!IMPORTANT]
->
-> 移轉程式無法復原。
 >
 > 開始將SDK V4行動應用程式移轉至Adobe Experience Platform SDK之前，請先仔細閱讀檔案。
 
 ## 關於SDK V4移轉
 
 Adobe Campaign Standard使用SDK V4來處理行動應用程式，作為與Adobe Experience Platform SDK分開的應用程式。
+
 將Adobe SDK版本從v4升級至Adobe Experience Platform後，行動應用程式需要繼續使用現有應用程式訂閱者資料和行銷活動：因此需要移轉。
 
 >[!NOTE]

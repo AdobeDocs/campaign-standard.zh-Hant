@@ -8,16 +8,16 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
+source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
 workflow-type: tm+mt
-source-wordcount: '1246'
-ht-degree: 83%
+source-wordcount: '1224'
+ht-degree: 80%
 
 ---
 
 # 準備和傳送應用程式內訊息{#preparing-and-sending-an-in-app-message}
 
-Adobe Campaign 提供兩種類型的清單：
+Adobe Campaign 中提供了三種類型的應用程式內訊息：
 
 * **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]**：此訊息類型可讓您定位已訂閱您行動應用程式的 Adobe Campaign 設定檔（CRM 設定檔）。此訊息類型可與 Adobe Campaign 中所有可用的描述檔屬性個人化，但需要 Mobile SDK 與 Campaign 應用程式內訊息服務之間的安全握手，以確保只有授權使用者才會使用包含個人和敏感資訊的訊息。
 
@@ -58,7 +58,7 @@ Adobe Campaign 提供兩種類型的清單：
    * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**
    * **[!UICONTROL Target users based on their Mobile profile (inApp)]**
 
-1. 輸入應用程式內訊息屬性，並在 **[!UICONTROL Associate a Mobile App to a delivery]** 欄位中選取您的行動應用程式。
+1. 輸入應用程式內訊息屬性，並在以下位置選取您的行動應用程式： **[!UICONTROL Associate a Mobile App to a delivery]** 欄位。
 
    如果您在下拉式清單中未看到任何應用程式，請確定您的行動應用程式位於 **已設定** 州別。 中的應用程式 **準備好進行設定** 狀態不會出現在清單中。 如需行動應用程式設定的詳細資訊，請參閱本[頁面](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)。
 
@@ -100,7 +100,7 @@ Adobe Campaign 提供兩種類型的清單：
 
 1. 如果您使用 **[!UICONTROL Places]** 觸發器，Places 內容資料、Places 自訂中繼資料或 Places 事件類型將會根據所有在 Adobe Places 中建立的 Libraries 及其 Points of Interest 自動填入。
 
-   請注意，此觸發器僅會套用至資料收集UI中Places擴充功能中選取之Libraries的Points of Interest。 有關 Places 擴充功能以及如何安裝的詳細資訊，請參閱本[文件](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html)。
+   請注意，此觸發器僅會套用至資料收集UI中Places擴充功能中選取之Libraries的Points of Interest。 有關 Places 擴充功能以及如何安裝的詳細資訊，請參閱本[文件](https://developer.adobe.com/client-sdks/solution/places)。
 
 1. 在 **[!UICONTROL Frequency & duration]** 索引標籤中，選取觸發的頻率、開始和結束日期、一週中的某天，以及應用程式內訊息生效的當天時間。
 
@@ -133,7 +133,7 @@ Adobe Campaign 提供兩種類型的清單：
 
    ![](assets/inapp_sending_3.png)
 
-1. 您現在可以傳送訊息，並透過傳送報告來評估其影響。
+1. 您現在可以傳送訊息，並透過傳送報告評估其影響。
 
 ## 傳送您的應用程式內訊息 {#sending-your-in-app-message}
 

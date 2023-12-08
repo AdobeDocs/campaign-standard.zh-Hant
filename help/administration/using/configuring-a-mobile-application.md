@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 3%
+source-wordcount: '1220'
+ht-degree: 2%
 
 ---
 
@@ -50,11 +50,12 @@ ht-degree: 3%
 
 1. 在資料收集UI中，按一下 **[!UICONTROL Extensions]** 標籤，前往 **[!UICONTROL Catalog]**，並搜尋 **[!UICONTROL Adobe Campaign Standard]** 副檔名。 如需詳細資訊，請參閱 [Adobe Campaign Standard](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard).
 
-1. 若要在Campaign Standard中支援位置使用案例，請安裝 **[!UICONTROL Places]** 資料收集UI中的擴充功能。 請參閱此 [頁面](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
+1. 若要在Campaign Standard中支援位置使用案例，請安裝 **[!UICONTROL Places]** 資料收集UI中的擴充功能。 請參閱此 [頁面](https://developer.adobe.com/client-sdks/solution/places).
 
 1. 在Adobe Campaign Standard中，設定您在資料收集UI中建立的行動裝置屬性。 請參閱 [在Adobe Campaign中設定Adobe Experience Platform Launch應用程式](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
 
-1. 將特定通道的設定新增至行動應用程式設定。如需詳細資訊，請參閱[ Adobe Campaign 中的通道特定應用程式設定](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)。
+1. 將通道專屬設定新增至您的行動應用程式設定。
+如需詳細資訊，請參閱[ Adobe Campaign 中的通道特定應用程式設定](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)。
 
 1. 如有需要，您可以刪除標籤屬性。
 如需詳細資訊，請參閱 [正在刪除您的應用程式](../../administration/using/configuring-a-mobile-application.md#delete-app).
@@ -105,7 +106,7 @@ ht-degree: 3%
 
    ![](assets/launch_4.png)
 
-1. 您可以在底下變更行動應用程式的組織單位 **[!UICONTROL Access Authorization]** 區段來限制特定組織單位對此行動應用程式的存取。 如需詳細資訊，請參閱本頁面。
+1. 您可以在底下變更行動應用程式的組織單位 **[!UICONTROL Access Authorization]** 區段來限制特定組織單位對此行動應用程式的存取。 如需詳細資訊，請參閱此頁面。
 
    在此，管理員可以從下拉式清單中選取子組織單位，以指派子組織單位。
 

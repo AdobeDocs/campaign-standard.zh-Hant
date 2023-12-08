@@ -6,14 +6,14 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 6b3c189d-8ddd-4dc0-8831-65ae62e04c70
-source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
+source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '856'
 ht-degree: 2%
 
 ---
 
-# Experience Platform SDK 整合常見問答集 {#aep-faq}
+# Experience Platform SDK整合常見問題集 {#aep-faq}
 
 若要使用Experience Platform SDK應用程式傳送推播通知和應用程式內訊息，必須在Adobe Experience Platform SDK中設定行動應用程式，並在Adobe Campaign中設定。
 
@@ -36,7 +36,7 @@ ht-degree: 2%
 
 是， [!DNL Adobe Experience Platform SDK] 整合適用於Adobe Campaign Standard和Adobe Campaign Classic。 您必須安裝對應的 **[!UICONTROL Extension]** 透過 [!DNL Data Collection UI] 以啟用整合。
 
-如需詳細資訊，請參閱此 [頁面]https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard)。
+如需關於此項目的詳細資訊，請參閱此[頁面](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard)。
 
 ## Adobe Experience Platform SDK整合有助於Adobe Campaign中的哪些功能？ {#aep-capabilities}
 
@@ -82,7 +82,7 @@ CollectPII呼叫的目標是擴充Campaign中的行動設定檔。 每當有客�
 
 ## CollectPII呼叫是否可因應多個觸發事件而引發？ {#collect-pii-calls}
 
-是. 根據您的業務需求，您可能會引發CollectPII呼叫以回應使用者登入應用程式、購買某物件或生命週期事件或使用者進入地理柵欄等。 總而言之，使用者與應用程式的互動，會產生您要用於設定檔擴充的資訊。
+是。 根據您的業務需求，您可能會引發CollectPII呼叫以回應使用者登入應用程式、購買某物件或生命週期事件或使用者進入地理柵欄等。 總而言之，使用者與應用程式的互動，會產生您要用於設定檔擴充的資訊。
 
 ## 我可以直接觸發CollectPII呼叫來回應所有行動事件嗎？ {#collect-pii-events}
 
@@ -98,7 +98,7 @@ CollectPII呼叫的頻率和設計應該由業務需求決定，並且不應該�
 
 * EXPERIENCE PLATFORMSDK [檔案](https://developer.adobe.com/client-sdks/documentation/)
 * Launch &amp; Experience Platform SDK快速入門 [檔案](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/)
-* 升級至Experience Platform SDK [檔案](https://developer.adobe.com/client-sdks/documentation/upgrade-platform-sdks)
+* 升級至Experience Platform SDK [檔案](https://developer.adobe.com/client-sdks/resources/upgrade-platform-sdks/)
 * GithubExperience PlatformSDK [檔案](https://github.com/Adobe-Marketing-Cloud/acp-sdks/)
 
 ## 建立推播通知傳送時，我收到「您沒有傳送的寫入許可權」錯誤。 {#write-access-error}

@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 7ca7e9bd9541a4db708565e65e2ff87e44393238
-workflow-type: ht
-source-wordcount: '7336'
-ht-degree: 100%
+source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
+workflow-type: tm+mt
+source-wordcount: '7211'
+ht-degree: 99%
 
 ---
 
@@ -73,7 +73,7 @@ ht-degree: 100%
 
 **其他變更**
 
-針對觸發自動 SMS 回覆的關鍵字新增警告說明：僅能包含字母數字字元。 [閱讀全文](../../channels/using/managing-incoming-sms.md)
+針對觸發自動簡訊回覆的關鍵字新增警告說明：僅能包含字母數字字元。 [閱讀全文](../../channels/using/managing-incoming-sms.md)
 
 已在 A/B 測試電子郵件部分加入備註：如果總人數不到 50k，則每個變數至少應佔總人數的 10%。 否則記錄將顯示警告。 [閱讀全文](../../channels/using/designing-an-a-b-test-email.md)
 
@@ -115,7 +115,7 @@ ht-degree: 100%
 
 **此版本隨附的其他文件更新**
 
-已新增有關如何在異動推播通知中變更目標對應的資訊。 [顯示全文](../../channels/using/transactional-push-notifications.md#change-target-mapping)
+已新增有關如何在異動推播通知中變更目標對應的資訊。 [深入了解](../../channels/using/transactional-push-notifications.md#change-target-mapping)
 
 ## 2021 年 5 月 {#doc-updates-may-2021}
 
@@ -180,7 +180,7 @@ Adobe Experience Manager 整合改進 - [瞭解詳情](../../integrating/using/c
 
 已新增警告提示，為獲得最佳效能，已發佈的異動訊息數目應維持在 100 以下。[顯示全文](../../channels/using/transactional-messaging-limitations.md#transactional-message-number)
 
-SMS 連接器通訊協定及設定頁面已移至[此處](../../administration/using/sms-protocol.md)。
+簡訊連接器通訊協定及設定頁面已移至[此處](../../administration/using/sms-protocol.md)。
 
 **在異動訊息中使用產品清單**&#x200B;區段已移至[此處](../../designing/using/using-product-listings.md)。
 
@@ -232,7 +232,7 @@ Journey AI 整合 - [瞭解詳情](../../sending/using/predictive.md)
 
 有關異動訊息快速入門的最新章節已供使用。[顯示全文](../../channels/using/getting-started-with-transactional-msg.md)
 
-**異動訊息限制**&#x200B;章節已移至[此](../../channels/using/transactional-messaging-limitations.md).
+此 **異動訊息限制** 區段已移動 [此處](../../channels/using/transactional-messaging-limitations.md).
 
 **「準備傳送」**&#x200B;部分已移至[此](../../sending/using/preparing-the-send.md)。
 
@@ -240,9 +240,9 @@ Journey AI 整合 - [瞭解詳情](../../sending/using/predictive.md)
 
 新增了與 Campaign Standard 監視相關的准則。[顯示全文](../../administration/using/monitoring-guidelines.md)
 
-外部 API 護欄和限制區段已更新。[顯示全文](../../automating/using/external-api.md#guardrails)
+外部 API 護欄和限制區段已更新。[深入了解](../../automating/using/external-api.md#guardrails)
 
-「隱私權管理概覽」頁面已更新，其中加入泰國個人資料保護法 (PDPA) 與巴西 Lei Geral de Proteção de Dados (LGPD) 的相關資訊。[顯示全文](https://helpx.adobe.com/tw/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
+「隱私權管理概覽」頁面已更新，其中加入泰國個人資料保護法 (PDPA) 與巴西 Lei Geral de Proteção de Dados (LGPD) 的相關資訊。[深入了解](https://helpx.adobe.com/tw/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
 行動裝置頻道指南已重新整組織並改善。新的設定行動裝置頻道指南已新增有關行動設定的技術文件。[顯示全文](../../administration/using/push-tracking.md)
 
@@ -346,7 +346,7 @@ MCPNS 在設定行動應用程式時增加了限制。[瞭解詳情](https://hel
 
 已移動並更新專用於使用電子郵件密件副本進行封存的區段。[瞭解詳情](../../sending/using/archiving.md)
 
-「設定行動應用程式」檔案和相關頁面已更新，以反映 SDK V4 折舊。[瞭解詳情](https://developer.adobe.com/client-sdks/documentation/v4-end-of-life-faq/)
+「設定行動應用程式」檔案和相關頁面已更新，以反映 SDK V4 折舊。[瞭解詳情](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html)
 
 Adobe Campaign Standard / Adobe Experience Manager 整合檔案已更新和改進。[瞭解詳情](../../integrating/using/configure-experience-manager.md)
 
@@ -726,7 +726,7 @@ Adobe Launch 整合行動應用程式（測試版）– [瞭解詳情](../../sen
 
 **此版本隨附的其他文件更新**
 
-已新增有關 SMS 連接器通訊協定和設定的新技術。[瞭解詳情](https://helpx.adobe.com/tw/campaign/kb/sms-connector-protocol-and-settings.html)
+已新增有關簡訊連接器通訊協定和設定的新技術。[瞭解詳情](https://helpx.adobe.com/tw/campaign/kb/sms-connector-protocol-and-settings.html)
 
 更新 Experience Manager 與 Adobe Campaign 檔案的整合。[瞭解詳情](../../reporting/using/creating-a-custom-profile-dimension.md)
 
@@ -858,7 +858,7 @@ datamodel v1 現在可用於內建資源的 SQL 結構 – [瞭解詳情](../../
 
 已刪除包含授權清單的區段。[瞭解詳情](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf) (PDF)。
 
-新增如何使用SMS自動回覆的逐步使用案例。[瞭解詳情](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
+新增如何使用簡訊自動回覆的逐步使用案例。[瞭解詳情](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
 已新增有關如何根據使用者在循環工作流程中的時區傳送傳送的資訊。[瞭解詳情](../../automating/using/recurring-push-notifications.md)
 
@@ -892,7 +892,7 @@ API Signal 活動觸發 – [瞭解詳情](../../api/using/triggering-a-signal-a
 
 改進動態報告中維度、度量和區段的定義和計算。[瞭解詳情](../../reporting/using/list-of-components-.md)
 
-已新增有關使用工作流程擷取入站 SMS 訊息的資訊。[瞭解詳情](../../administration/using/configuring-sms-channel.md)
+已新增有關使用工作流程擷取入站簡訊訊息的資訊。[瞭解詳情](../../administration/using/configuring-sms-channel.md)
 
 已新增有關「傳輸檔案」活動之「歷史化」設定的資訊。[瞭解詳情](../../automating/using/transfer-file.md)
 
@@ -930,7 +930,7 @@ API Signal 活動觸發 – [瞭解詳情](../../api/using/triggering-a-signal-a
 
 在 Adobe Mobile Services 介面中定義回傳時，「推播」通道設定[區段](https://helpx.adobe.com/tw/campaign/kb/configuring-app-sdkv4.html)已隨作業系統版本上的新裝載資料更新。
 
-SMS 檔案已更新，[SMS 自動回覆](../../channels/using/managing-incoming-sms.md#managing-stop-sms)區段已新增一些說明。
+簡訊檔案已更新，[簡訊自動回覆](../../channels/using/managing-incoming-sms.md#managing-stop-sms)區段已新增一些說明。
 
 透過 API 專用於工作流程管理的新區段。[瞭解詳情](../../api/using/controlling-a-workflow.md)
 

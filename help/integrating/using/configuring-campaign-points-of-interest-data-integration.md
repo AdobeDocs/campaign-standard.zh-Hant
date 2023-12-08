@@ -8,10 +8,10 @@ feature: Audiences
 role: Data Architect
 level: Intermediate
 exl-id: b097b3fa-f949-446e-ad44-cc6ca025ee55
-source-git-commit: 884cd5e9c09aa85e744ca06b202eb46f73a33a76
+source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
 workflow-type: tm+mt
-source-wordcount: '1311'
-ht-degree: 2%
+source-wordcount: '1252'
+ht-degree: 1%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 2%
 
 若要將Adobe Experience Platform Location Services與已設定Adobe Experience Platform SDK的行動應用程式搭配使用，您需要：
 
-1. 新增 **[!UICONTROL Places]** 資料收集UI中行動應用程式設定的擴充功能。 在Adobe Campaign中設定行動應用程式。 另請參閱 [安裝Places擴充功能](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html#install-the-places-extension-in-adobe-experience-platform-launch).
+1. 新增 **[!UICONTROL Places]** 資料收集UI中行動應用程式設定的擴充功能。 在Adobe Campaign中設定行動應用程式。 另請參閱 [安裝Places擴充功能](https://developer.adobe.com/client-sdks/solution/places).
 
 1. 擴充功能設定完成後，請在資料收集UI中建立資料元素，以從這些擴充功能擷取資料。 請參閱此 [頁面](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Step1Createdataelements) 以建立您的資料元素。
 

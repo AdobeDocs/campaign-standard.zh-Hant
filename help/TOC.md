@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: 說明中心，以瞭解使用 Campaign Standard 所需的主要功能、工作、設定和其他資源。
 title: Campaign Standard 指南
 breadcrumb-title: Adobe Campaign Standard 文件
-source-git-commit: 01ac9b91a5b4af445bdd6209a0b9494731a47362
-workflow-type: ht
-source-wordcount: '1768'
+source-git-commit: 1d8baca669235be10d373d985ea62f6f014c16f8
+workflow-type: tm+mt
+source-wordcount: '1772'
 ht-degree: 100%
 
 ---
@@ -329,7 +329,7 @@ ht-degree: 100%
       + [更新資料](automating/using/update-data.md)
       + [載入檔案](automating/using/load-file.md)
       + [傳輸檔案](automating/using/transfer-file.md)
-      + [調解](automating/using/reconciliation.md)
+      + [調和](automating/using/reconciliation.md)
       + [擷取檔案](automating/using/extract-file.md)
       + [訂閱服務](automating/using/subscription-services.md)
       + [外部 API](automating/using/external-api.md)
@@ -350,7 +350,7 @@ ht-degree: 100%
    + 使用實例 {#workflow-use-case}
       + [關於工作流程使用實例](automating/using/about-workflow-use-cases.md)
       + 傳遞 {#deliveries}
-         + [使用補數來建立傳遞](automating/using/workflow-created-query-with-complement.md)
+         + [使用補充集來建立傳送](automating/using/workflow-created-query-with-complement.md)
          + [在設定檔建立日期中建立傳遞](automating/using/workflow-creation-date-query.md)
          + [建立每週傳遞](automating/using/workflow-weekly-offer.md)
          + [建立跨頻道傳遞](automating/using/workflow-cross-channel-delivery.md)
@@ -369,7 +369,7 @@ ht-degree: 100%
          + [根據年齡群體細分](automating/using/segmentation-age-groups.md)
          + [使用與目標定位維度不同的資源](automating/using/using-resources-different-from-targeting-dimensions.md)
       + 資料管理 {#data-management}
-         + [使用資料庫調解檔案對象](automating/using/reconcile-file-audience-with-database.md)
+         + [使用資料庫調和檔案對象](automating/using/reconcile-file-audience-with-database.md)
          + [從匯入的檔案中刪除重複資料](automating/using/deduplicating-data-imported-file.md)
          + [使用檔案包含的資料擴充設定檔資料](automating/using/enriching-profile-data-file.md)
          + [外部訊號活動和資料匯入](automating/using/external-signal-data-import.md)
@@ -447,7 +447,6 @@ ht-degree: 100%
       + [設定標籤規則以支援 Adobe Campaign Standard 使用案例](administration/using/configuring-rules-launch.md)
       + [Adobe Campaign Standard 支援的行動使用案例](administration/using/supported-mobile-use-cases.md)
       + [如何將您的行動應用程式從 SDK v4 移轉至 Adobe Experience Platform SDK](administration/using/sdkv4-migration.md)
-      + [推播通知頻道近期變更](administration/using/push-technote.md)
    + 設定簡訊頻道 {#configuring-sms}
       + [實施簡訊頻道](administration/using/configuring-sms-channel.md)
       + [簡訊連接器通訊協定及設定](administration/using/sms-protocol.md)

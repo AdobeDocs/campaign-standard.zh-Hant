@@ -7,11 +7,12 @@ topic-tags: campaign-standard-releases
 feature: Overview
 role: User
 level: Beginner
+hidefromtoc: true
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
-source-git-commit: 9533654ac4476b359da8cf00f9ef2015d9f8ccdf
+source-git-commit: 1d8baca669235be10d373d985ea62f6f014c16f8
 workflow-type: tm+mt
-source-wordcount: '5211'
-ht-degree: 99%
+source-wordcount: '5267'
+ht-degree: 97%
 
 ---
 
@@ -68,7 +69,7 @@ ht-degree: 99%
 <tbody> 
 <tr> 
   <td> <p>我們很高興能向所有 Adobe Campaign Standard 客戶宣佈 Journey AI。</p>
-  <p>Journey AI 使用進階的機器學習 (ML)，讓公司透過預測每個人的參與偏好以最佳化客戶旅程的設計和傳遞。</p>
+  <p>Journey AI使用進階的機器學習(ML)，讓公司透過預測每個人的參與偏好以最佳化客戶歷程的設計和傳遞。</p>
   <P>Journey AI 包含兩種 ML 功能：</p>
 <ul> 
      <li> <strong>預測性參與計分</strong> - 智慧地識別客戶的首選參與層級，以便更佳地定位和個人化訊息，從而提高轉換率與保留率。觀看<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html">作法影片</a>。</li> 
@@ -86,7 +87,7 @@ ht-degree: 99%
 * **工作流程執行改善** （測試版）：在圍繞工作流程的全球計畫背景下，已經開發了一些主要的改善，以穩定記憶體管理、減少延遲並最佳化工作流程在執行過程中所消耗的記憶體。這些改善功能目前為測試版，僅適用於特定客戶。預計於 2021 年初全面上市。
 * 為了改善安全性，Campaign 現在使用&#x200B;**簽名機制**，來追蹤電子郵件中的連結。
 * 上傳 iOS 憑證或 Android 金鑰時，行動應用程式設定已改良為顯示&#x200B;**更清楚的錯誤訊息**。
-* **SMS 錯誤管理**&#x200B;已得到改善，以防止將過多的設定檔新增到隔離清單中。依預設，SMS 錯誤現在會設定為軟錯誤，而非硬錯誤。請參見[此頁面](https://helpx.adobe.com/tw/campaign/kb/sms-connector-protocol-and-settings.html)。
+* **簡訊錯誤管理**&#x200B;已得到改善，以防止將過多的設定檔新增到隔離清單中。依預設，簡訊錯誤現在會設定為軟錯誤，而非硬錯誤。請參見[此頁面](https://helpx.adobe.com/tw/campaign/kb/sms-connector-protocol-and-settings.html)。
 
 **電子郵件設計工具增強功能**
 
@@ -235,7 +236,7 @@ ht-degree: 99%
 **其他功能**（從 7 月 13 日起）
 
 * **由 AI 支援的傳送時間最佳化和設定檔計分** - 您現在可以最佳化客戶歷程的設計和傳遞，以預測每個人的參與偏好。Adobe Campaign 採用 Journey AI，可根據歷史參與量度來分析和預測開放率、最佳傳送時間和可能的流失率。[進一步瞭解](../../sending/using/predictive.md)
-* **巴西的新隱私權規範** - 除了 Campaign 中已提供的隱私權功能以外，Adobe 協助您做好準備，以迎接巴西的 Lei Geral de Proteçao de Datos (LGPD)。建立隱私權要求時，LGPD 規則類型已新增至 Adobe 隱私權核心服務。[進一步瞭解](https://helpx.adobe.com/tw/campaign/kb/campaign-privacy-overview.html)
+* **巴西新的隱私權法規**  — 除了Campaign所提供的隱私權功能以外，Adobe協助您做好準備，以迎接巴西的Lei Geral de Proteção de Datos (LGPD)。 建立隱私權要求時，LGPD 規則類型已新增至 Adobe 隱私權核心服務。[進一步瞭解](https://helpx.adobe.com/tw/campaign/kb/campaign-privacy-overview.html)
 
 **改進**
 
@@ -266,7 +267,7 @@ ht-degree: 99%
 
 **體驗平台整合**
 
-* 從&#x200B;**讀取閱聽眾**&#x200B;活動啟動 Adobe Experience Platform Audiences 已經有所改善，而可提供較出色的效能及穩定性。此外，工作流程記錄檔已經更清楚且更詳細地記錄啟動工作，讓您在讀取 Adobe Experience Platform 閱聽眾時，能夠更輕鬆地進行監控和疑難排解。
+* 從啟動Adobe Experience Platform對象 **讀取對象** 活動已改善，以提供更出色的效能和穩定性。 此外，工作流程記錄檔已經更清楚且更詳細地記錄啟動工作，讓您在讀取 Adobe Experience Platform 閱聽眾時，能夠更輕鬆地進行監控和疑難排解。
 
 **修補程式**
 
@@ -274,7 +275,7 @@ ht-degree: 99%
 * 修正當設定檔資源已擴充至自訂資源時，可能無法顯示設定檔行銷歷史記錄的問題。(CAMP-41009)
 * 已修正開啟編輯器時，以法文顯示其內容的現成可用登錄頁面範本問題。(CAMP-41639)
 * 修正動態內容的推播通知無法顯示表情符號的問題。(CAMP-40715)
-* 修正&#x200B;**重複資料刪除**&#x200B;活動，可能導致將錯誤的段代碼分配給其中一個出站補充轉變的問題。(CAMP-41400)
+* 修正&#x200B;**重複資料刪除**&#x200B;活動，可能導致將錯誤的段代碼分配給其中一個出站補充集轉變的問題。(CAMP-41400)
 * 修正無法刪除排程報告的錯誤。(CAMP-41302)
 * 修正傳送控制面板與&#x200B;**傳送摘要**&#x200B;報告之間不一致的問題。(CAMP-41145)
 * 修正導致下載報告中出現字元重疊顯示問題的問題。
@@ -352,14 +353,14 @@ ht-degree: 99%
 
 **其他變更**
 
-* **使用 Adobe Analytics 進行 KPI 調解**&#x200B;現在會執行至目前日期，而非在一天內執行。
+* **使用 Adobe Analytics 進行 KPI 調和**&#x200B;現在會執行至目前日期，而非在一天內執行。
 * MCPNS 不支援將 APNS 和 APNS-SANDBOX 新增為應用程式中的平台。在 Adobe Campaign Standard 中成功新增憑證後，您現在無法再將設定變更回原來，因為 MCPNS 應用程式只能新增一個 APNS 平台（生產或沙盒）。
 
 **體驗平台整合**
 
 >[!NOTE]
 >
->Campaign Standard 中的 Adobe Experience Platform 功能目前為測試版，可能會經常更新，恕不另行通知。請參閱詳細說明文件：體驗平台資料連接器，對象目的地
+>Campaign Standard 中的 Adobe Experience Platform 功能目前為測試版，可能會經常更新，恕不另行通知。請參閱詳細說明檔案：Experience Platform資料聯結器、對象目的地
 
 * 在工作流程記錄中，每隔 10 分鐘，Campaign 現在會顯示目前執行中的工作已處理的記錄數。
 * 修正匯入已從資料庫刪除的 Adobe Experience Platform 設定檔時可能發生的問題。
@@ -376,15 +377,15 @@ ht-degree: 99%
 * 修正執行具有數個入站轉變的活動時，工作流程中可能發生的問題。
 * 修正標準使用者無法在工作流程查詢或傳送中將「訂閱應用程式」作為目標維度的問題。(CAMP-37618)
 
-## 發行版本 20.1.4 – 2020 年 2 月 {#release-20-1-4---february-2020}
+## 發行版本20.1.4 - 2020年2月 {#release-20-1-4---february-2020}
 
 * 修正在現有工作流程中開啟&#x200B;**讀取對象**&#x200B;活動的問題。(CAMP-41002)
 
-## 發行版本 20.1.3 – 2020 年 2 月 {#release-20-1-3---february-2020}
+## 發行版本20.1.3 - 2020年2月 {#release-20-1-3---february-2020}
 
 * 修正 CAMP-39273 在 20.1 中針對使用漏洞之客戶所引進的回歸問題。已反轉 CAMP-39273。
 
-## 發行版本 20.1.2 – 2020 年 2 月 {#release-20-1-2---february-2020}
+## 發行版本20.1.2 - 2020年2月 {#release-20-1-2---february-2020}
 
 **電子郵件設計工具增強功能**
 
@@ -406,7 +407,7 @@ ht-degree: 99%
  <tbody> 
   <tr> 
    <td> <p>Adobe Experience Platform Data Connector 現在已與 Adobe Campaign Standard 整合。您可以將 XTK 資料（在 Campaign 中收錄的資料）對應至 Adobe Experience Platform 資料模型 (XDM)，讓您的 Campaign 資料可在 Adobe Experience Platform 上使用。 </p>
-    <p>請注意，此功能僅適用於 Azure 上代管的客戶。</p>
+    <p>請注意，此功能僅適用於Azure上代管的客戶。</p>
    </td> 
   </tr> 
  </tbody> 
@@ -421,7 +422,7 @@ ht-degree: 99%
  <tbody> 
   <tr> 
    <td> <p>對象目標可讓您將 Adobe Experience Platform 的分段共用給 Adobe Campaign。</p>
-    <p>請注意，此功能僅適用於 Azure 上代管的客戶。</p>
+    <p>請注意，此功能僅適用於Azure上代管的客戶。</p>
    </td> 
   </tr> 
  </tbody> 
@@ -473,7 +474,7 @@ ht-degree: 99%
 * 已修正以郵遞區號格式上傳內容時，HTML 中參照的 PNG 檔案副檔名為大寫字母的問題。(CAMP-37913)
 * 修正在傳送中新增測試設定檔時，無法傳送應用程式內訊息的問題。
 * 修正連結至擴充活動時，外部 API 工作流程活動失敗的錯誤。
-* 修正可能導致 SMS 訊息狀態顯示錯誤的問題。
+* 修正可能導致簡訊訊息狀態顯示錯誤的問題。
 * 修正自訂資源造成重複項目出現在不同 API 端點下的問題。
 * 修正發佈後無法使用登錄頁面的問題。(CAMP-38695)
 * 已修正顯示來自兩個不同資源之「交叉點」轉場的資料時發生的錯誤。(CAMP-38974)
@@ -482,5 +483,5 @@ ht-degree: 99%
 * 修正「動態」報表中錯誤顯示傳送者網域的錯誤。(CAMP-33123)
 * 修正動態報表中「取消訂閱」計數不一致的問題。(CAMP-39949)
 * 修正傳送應用程式內訊息時，「傳送記錄檔」畫面無法顯示位址的問題。
-* 修正 SMS 傳送記錄檔無法以正確退信更新的問題。(CAMP-38395)
+* 修正簡訊傳送記錄檔無法以正確退信更新的問題。(CAMP-38395)
 * 已修正允許應用程式訂閱貼文呼叫更新推播通知權杖的漏洞。(CAMP-39273)

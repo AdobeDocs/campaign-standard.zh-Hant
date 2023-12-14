@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 4158a5aedf990651a0205f7eac4f4294e2538cba
-workflow-type: ht
-source-wordcount: '454'
+source-git-commit: 1d8baca669235be10d373d985ea62f6f014c16f8
+workflow-type: tm+mt
+source-wordcount: '465'
 ht-degree: 100%
 
 ---
@@ -16,7 +16,6 @@ ht-degree: 100%
 # 最新版本{#latest-release}
 
 ![控制面板](assets/do-not-localize/cp-icon.png) **新控制面板版本**。 [了解更多](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=zh-Hant){target="_blank"}。
-
 
 
 ## 版本 23.2 - 2023 年秋冬發布內容 {#fall-23}
@@ -73,4 +72,4 @@ ht-degree: 100%
 * 修正可能導致工作流程排程器無法正常運作的問題。(CAMP-52003)
 * 修正檢視含有大量資料之自訂動態報告的 PDF 版本時，無法顯示劃分詳細資料的問題。(CAMP-52178)
 * 修正存取報告時可能顯示錯誤的問題。 (CAMP-52500)
-* 修正誤將此帳戶 SMS 連接器參數的&#x200B;**限制 MTA 執行個體**&#x200B;套用到所有通道而非僅套用至 SMS 的問題。(CAMP-52640)
+* 修正誤將此帳戶簡訊連接器參數的&#x200B;**限制 MTA 執行個體**&#x200B;套用到所有通道而非僅套用至簡訊的問題。(CAMP-52640)

@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 1d8baca669235be10d373d985ea62f6f014c16f8
+source-git-commit: cd1650801bf31edc99d93901da232ff618673eed
 workflow-type: tm+mt
-source-wordcount: '7241'
+source-wordcount: '7240'
 ht-degree: 99%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 99%
 
 Android Firebase Cloud Messaging (FCM)服務的一些重要變更將於2024年發行，並將影響您的Adobe Campaign實施。 進一步瞭解 [此技術檔案](../../administration/using/push-technote.md).
 
-## 版本 23.2 - 2023 年秋冬 {#release-23-2}
+## 版本23.2 - 2023年秋季 {#release-23-2}
 
 * 已發佈 Campaign Standard 23.2 2023 秋冬版的發行說明。[深入了解](release-notes.md)
 

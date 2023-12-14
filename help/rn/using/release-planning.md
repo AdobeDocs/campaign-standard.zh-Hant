@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: e7c9c79a72b9f1ce36d0c60464b36be7d36a50a6
-workflow-type: ht
-source-wordcount: '437'
-ht-degree: 100%
+source-git-commit: 311fdf000333c03cb3b21fc6fea786251ced045f
+workflow-type: tm+mt
+source-wordcount: '472'
+ht-degree: 88%
 
 ---
 
@@ -23,11 +23,34 @@ Adobe 透過新增新功能、增強功能和修正不斷改進其解決方案�
 
 升級分兩個階段部署。首先，Stage 執行個體已升級，可讓您測試新功能並視需要調整其設定。隨後將升級生產執行個體。
 
-所有發行日期皆可能變更：請定期造訪本頁面，以檢查更新。
+所有發行日期皆可能變更：請定期造訪本頁面，以檢查更新。 環境更新會在以下指定時段內以波形進行。已透過電子郵件向每位客戶傳達確切日期。
 
-## 版本 23.2 - 2023 年秋冬發布內容 {#release-23-2-release}
+## 版本24.1 - 2024年冬季版本 {#release-24-1-release}
 
-環境更新會在以下指定時段內以波形進行。已透過電子郵件向每位客戶傳達確切日期。
+有關此版本的詳細資訊，請參見 [發行說明](release-notes.md) 在預備環境升級開始的一週前。
+
+<table>
+ <thead>
+  <tr>
+   <th> 環境 </th>
+   <th> 日期 </th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td>階段 </td>
+   <td>2024年1月16日至2月13日 </td>
+  </tr>
+  <tr>
+   <td>生產 </td>
+   <td>2024年1月23日至2月20日 </td>
+  </tr>
+ </tbody>
+</table>
+
+
+## 版本23.2 - 2023年秋季限量版 {#release-23-2-release}
+
 
 >[!AVAILABILITY]
 >

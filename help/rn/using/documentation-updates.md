@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: cd1650801bf31edc99d93901da232ff618673eed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7240'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 99%
 
 ## 2023 年 12 月 {#doc-updates-dec-2023}
 
-Android Firebase Cloud Messaging (FCM)服務的一些重要變更將於2024年發行，並將影響您的Adobe Campaign實施。 進一步瞭解 [此技術檔案](../../administration/using/push-technote.md).
+Android Firebase Cloud Messaging (FCM) 服務的一些重要變更將於 2024 年發行，並影響 Adobe Campaign 實施。 若要了解詳細資訊，請參閱[此技術說明](../../administration/using/push-technote.md)。
 
-## 版本23.2 - 2023年秋季 {#release-23-2}
+## 版本 23.2 - 2023 年秋季 {#release-23-2}
 
 * 已發佈 Campaign Standard 23.2 2023 秋冬版的發行說明。[深入了解](release-notes.md)
 
@@ -236,7 +236,7 @@ Journey AI 整合 - [瞭解詳情](../../sending/using/predictive.md)
 
 有關異動訊息快速入門的最新章節已供使用。[顯示全文](../../channels/using/getting-started-with-transactional-msg.md)
 
-此 **異動訊息限制** 區段已移動 [此處](../../channels/using/transactional-messaging-limitations.md).
+**異動訊息限制**&#x200B;章節已移至[此](../../channels/using/transactional-messaging-limitations.md)。
 
 **「準備傳送」**&#x200B;部分已移至[此](../../sending/using/preparing-the-send.md)。
 
@@ -350,7 +350,7 @@ MCPNS 在設定行動應用程式時增加了限制。[瞭解詳情](https://hel
 
 已移動並更新專用於使用電子郵件密件副本進行封存的區段。[瞭解詳情](../../sending/using/archiving.md)
 
-「設定行動應用程式」檔案和相關頁面已更新，以反映 SDK V4 折舊。[瞭解詳情](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html)
+「設定行動應用程式」檔案和相關頁面已更新，以反映 SDK V4 折舊。[瞭解詳情](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html?lang=zh-Hant)
 
 Adobe Campaign Standard / Adobe Experience Manager 整合檔案已更新和改進。[瞭解詳情](../../integrating/using/configure-experience-manager.md)
 

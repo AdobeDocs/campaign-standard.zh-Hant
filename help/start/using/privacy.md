@@ -14,9 +14,9 @@ role: User
 level: Intermediate
 exl-id: 0fc71c2f-f294-43f7-825c-73ab4d43fcf7
 source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1377'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Adobe Campaign 是一款強大的工具，用於收集和處理包括個人資�
 
 為正確處理隱私權並管理個人資料，工作時請遵循您營運業務所在地區的適用法規。這些法規包含：
 * [GDPR](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en)（歐洲一般資料保護規範）
-* [DPA](https://www.gov.uk/data-protection) （英國實施GDPR）
+* [DPA](https://www.gov.uk/data-protection) (英國實施 GDPR 之規範)
 * [歐洲隱私權與電子通訊指令](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02002L0058-20091219)
 * [CAN-SPAM 法案](https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business)（美國法律規定商業電子郵件的規則與要求）
 * [CCPA](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&amp;division=3.&amp;title=1.81.5.&amp;part=4.&amp;chapter=&amp;article=)（加州消費者隱私權法案）
@@ -78,7 +78,7 @@ Adobe Campaign 是 Adobe Experience Cloud 解決方案的一部分。在 Campaig
 
 在管理隱私權時，請務必定義哪些資料應謹慎處理，以及由哪些人員處理。
 * **個人資料**&#x200B;是指可直接或間接識別在世個人的資訊。
-* **敏感個人資料** 是與個人的種族、政治觀點、宗教信仰、犯罪背景、遺傳資訊、健康資料、性傾向、生物識別資訊，以及工會會員會籍相關的資訊。
+* **敏感個人資料**&#x200B;是指與個人的種族、政治觀點、宗教信仰、犯罪背景、遺傳資訊、健康資料、性傾向、生物識別資訊，以及工會會員會籍相關的資訊。
 
 [主要法規](#privacy-regulations)是指管理資料的不同實體，如下所示：
 * **資料控制方**&#x200B;是決定收集、使用及分享個人資料之方式與目的的當局機關。

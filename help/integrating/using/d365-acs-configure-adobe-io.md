@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: ab21b694-d05c-4ba4-b828-936803651b82
 source-git-commit: c701043cbba22711de1ea7ddc5266e193d771e14
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 1%
+source-wordcount: '568'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 1%
 1. 按一下「準備出版物」以準備出版物。
 1. 準備完成後，請勾選「建立設定檔與服務擴充功能API」，然後按一下「發佈」。
 
-## 設定 Adobe I/O {#adobe-io}
+## 設定Adobe I/O {#adobe-io}
 
 Adobe I/O可讓您啟用Adobe Campaign Standard及其他Adobe產品的API存取權。   本文會詳細說明如何設定Adobe I/O，以授予Adobe Campaign Standard整合與Microsoft Dynamics 365的存取權，進而同步資料。
 

@@ -10,8 +10,8 @@ level: Experienced
 exl-id: 625d5e10-3d68-440e-a60c-4fcdfca34b5f
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 98%
+source-wordcount: '1032'
+ht-degree: 92%
 
 ---
 
@@ -25,10 +25,10 @@ ht-degree: 98%
 
 要執行此操作，請遵循下列步驟：
 
-* [步驟 1：擴充設定檔資源](#step-1--extend-the-profile-resource)
-* [步驟 2：擴充測試設定檔](#step-2--extend-the-test-profile)
-* [步驟 3：發佈自訂資源](#step-3--publish-your-custom-resource)
-* [步驟 4：使用工作流程更新和定位設定檔](#step-4--update-and-target-profiles-with-a-workflow)
+* [步驟1：擴充設定檔資源](#step-1--extend-the-profile-resource)
+* [步驟2：擴充測試設定檔](#step-2--extend-the-test-profile)
+* [步驟3：發佈自訂資源](#step-3--publish-your-custom-resource)
+* [步驟4：使用工作流程更新和定位設定檔](#step-4--update-and-target-profiles-with-a-workflow)
 
 之後會將下列欄位新增至我們的設定檔，並可在傳送中定位：
 
@@ -37,10 +37,10 @@ ht-degree: 98%
 相關主題：
 
 * [關於自訂資源](../../developing/using/data-model-concepts.md)
-* [管理設定檔](../../audiences/using/about-profiles.md)
+* [管理用戶檔案](../../audiences/using/about-profiles.md)
 * [管理測試設定檔](../../audiences/using/managing-test-profiles.md)
 
-## 步驟 1：擴充設定檔資源 {#step-1--extend-the-profile-resource}
+## 步驟1：擴充設定檔資源 {#step-1--extend-the-profile-resource}
 
 若要為設定檔建立新的&#x200B;**興趣**&#x200B;欄位，您必須先擴充現成的 **[!UICONTROL Profiles (profile)]** 資源。
 
@@ -94,7 +94,7 @@ ht-degree: 98%
 >
 >如果您不需要擴充測試設定檔資源，可跳至「發佈」步驟。
 
-## 步驟 2：擴充測試設定檔 {#step-2--extend-the-test-profile}
+## 步驟2：擴充測試設定檔 {#step-2--extend-the-test-profile}
 
 若要測試新建立的欄位是否已正確設定，您可以將傳遞傳送至測試設定檔，藉以測試欄位。首先，需要對測試設定檔執行新領域。
 
@@ -119,7 +119,7 @@ ht-degree: 98%
 
 現在，設定檔和測試設定檔都可使用您的新欄位。若要正確設定，您必須發佈自訂資源。
 
-## 步驟 3：發佈自訂資源 {#step-3--publish-your-custom-resource}
+## 步驟3：發佈自訂資源 {#step-3--publish-your-custom-resource}
 
 若要套用對資源執行的變更以及使用該變更，您必須執行資料庫更新。
 
@@ -143,7 +143,7 @@ ht-degree: 98%
 
 例如，您的新資源欄位現在已準備好在傳送中使用和定位。
 
-## 步驟 4：使用工作流程更新和定位設定檔 {#step-4--update-and-target-profiles-with-a-workflow}
+## 步驟4：使用工作流程更新和定位設定檔 {#step-4--update-and-target-profiles-with-a-workflow}
 
 若要使用新自訂欄位的資料更新設定檔，您可以使用 **[!UICONTROL Profile acquisition]** 範本建立登錄頁面。如需登錄頁面的詳細資訊，請參閱[本區段](../../channels/using/getting-started-with-landing-pages.md)。
 

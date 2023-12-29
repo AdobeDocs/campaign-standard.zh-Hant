@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 1b48456e-9aae-485c-a7c4-7e3e2f53cbca
 source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '996'
-ht-degree: 3%
+source-wordcount: '1000'
+ht-degree: 2%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 3%
 
 如果行動應用程式傳回的PII資料包含設定檔相關資料，則此使用案例的目標是建立或更新Campaign Standard設定檔。
 
-## 必要條件
+## 先決條件
 
 必須先完成數個設定步驟，才能在Campaign Standard中啟用推播通知，之後才能根據行動應用程式訂閱資料建立或更新設定檔：
 

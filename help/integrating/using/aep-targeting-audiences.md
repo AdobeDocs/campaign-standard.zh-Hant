@@ -13,7 +13,7 @@ hidefromtoc: true
 source-git-commit: 110f3ccb5865e70c78e18485b4ff4ba7a648af3f
 workflow-type: tm+mt
 source-wordcount: '404'
-ht-degree: 5%
+ht-degree: 3%
 
 ---
 
@@ -67,5 +67,5 @@ ht-degree: 5%
 
 * [探索工作流程](../../automating/using/get-started-workflows.md)
 * [建立工作流程](../../automating/using/building-a-workflow.md)
-* [探索通訊通道](../../channels/using/get-started-communication-channels.md)
+* [探索通訊頻道](../../channels/using/get-started-communication-channels.md)
 * [關於頻道活動](../../automating/using/about-channel-activities.md)

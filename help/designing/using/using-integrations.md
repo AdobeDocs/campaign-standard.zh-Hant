@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: d5c72f69-68a2-4523-956f-f265ae79b470
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 8%
+source-wordcount: '706'
+ht-degree: 5%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Campaign Standard與Dreamweaver的整合可讓您在Dreamweaver介面中�
 
   每當在某個產品中進行編輯時，就會即時更新另一個產品的編輯。 如果您想要在Dreamweaver中變更文字的顏色，只要您進行編輯，文字的顏色就會在Campaign中即時顯示。 此外，當您在Dreamweaver或Campaign中選取程式碼時，由於行號相同，因此選取範圍會保留在兩個產品之間，這在程式碼中尋找特定專案時非常有用。
 
-* **透過 Dreamweaver 將本機影像上傳至 Adobe Campaign**
+* **透過Dreamweaver將本機影像上傳至Adobe Campaign**
 
   在Dreamweaver中建立或編輯電子郵件時，您只需從桌上型電腦或本機電腦中選取影像即可。 雖然Dreamweaver一律可讓您這麼做，但當Dreamweaver與Campaign連線時，本機檔案會立即上傳至Adobe Campaign伺服器：當內容變更時，不需要手動上傳影像。 此外，這可確保在Campaign中一律即時顯示最新影像。
 
@@ -109,7 +109,7 @@ Adobe Campaign提供數種電子郵件製作選項。 下表顯示每種裝置�
    <td> 不支援<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>好處</strong><br /> </td> 
+   <td> <strong>優點</strong><br /> </td> 
    <td> 
      <p> — 透過拖放體驗輕鬆建立電子郵件</p>
      <p> — 與舊版內容編輯器類似的功能</p>

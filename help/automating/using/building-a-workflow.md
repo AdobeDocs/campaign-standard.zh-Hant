@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 7553588c-4679-4dfd-93cb-e705ad4dc0aa
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '981'
-ht-degree: 96%
+source-wordcount: '976'
+ht-degree: 90%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 96%
 
 1. 確認建立活動，然後會顯示該活動的控制面板。有關詳細資訊，請參閱[工作流程介面](../../automating/using/workflow-interface.md)區段。
 
-1. 一旦工作流準備好進行設定後，您可以按一下 **[!UICONTROL Edit properties]** 按鈕來存取其他選項。
+1. 準備好設定工作流程後，您可以按一下 **[!UICONTROL Edit properties]** 按鈕。
 
    例如，您可以定義特定時區，以便在工作流的所有活動中預設使用。依預設，工作流程的時區是為目前的促銷活動運算子定義的時區。
 

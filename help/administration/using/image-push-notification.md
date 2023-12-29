@@ -1,5 +1,5 @@
 ---
-title: 從 Adobe Campaign Standard 推播通知顯示影像
+title: 從Adobe Campaign Standard推播通知顯示影像
 description: 在此處瞭解如何在iOS裝置上顯示Adobe Campaign推播通知的影像
 audience: channels
 feature: Instance Settings
@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 474c8002-4263-4617-9480-6a9b603bde8e
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 18%
+source-wordcount: '414'
+ht-degree: 12%
 
 ---
 
@@ -35,12 +35,12 @@ Experience Platform SDK支援推播通知。
 
 為了微調您的推播通知，Adobe Campaign 可讓您在設計推播通知時存取一組進階選項。
 
-1. 自訂推播通知. 如需關於此項目的詳細資訊，請參閱此[頁面](../../channels/using/preparing-and-sending-a-push-notification.md)。
+1. 建立推播通知。 如需關於此項目的詳細資訊，請參閱此[頁面](../../channels/using/preparing-and-sending-a-push-notification.md)。
 
 1. 從推播通知內容頁面，存取 **[!UICONTROL Advanced options]** 區段。
 
 1. 在「 」中輸入檔案的URL **[!UICONTROL Rich media content URL]** 欄位。
-若是 iOS 10 或更新版本，您可以插入影像、gif、音訊和視訊檔案。
+若是iOS 10或更新版本，您可以插入影像、gif、音訊和視訊檔案。
 
    ![](assets/push_notif_advanced_6.png)
 

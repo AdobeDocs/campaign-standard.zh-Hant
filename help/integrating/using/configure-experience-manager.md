@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: f56f5a19-6283-4eef-8127-c69a16a42a37
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 6%
+source-wordcount: '314'
+ht-degree: 7%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Campaign Standard與Adobe Experience Manager之間的這項整合可讓您
 
 透過此使用案例，您將瞭解如何在Adobe Experience Manager中建立和管理電子郵件內容，然後將其匯入Adobe Campaign Standard，用於行銷活動。
 
-## 必要條件 {#prerequisites}
+## 先決條件 {#prerequisites}
 
 您應確定您預先擁有下列元素：
 

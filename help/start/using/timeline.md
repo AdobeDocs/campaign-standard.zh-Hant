@@ -12,7 +12,7 @@ exl-id: d012e2e7-8022-4bfe-8290-3c512b60d9cf
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '372'
-ht-degree: 91%
+ht-degree: 89%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 91%
 
 每個元素都有與其類型對應的圖示：
 
-* ![](assets/timeline_program_icon.png) 方案
+* ![](assets/timeline_program_icon.png) 計畫
 * ![](assets/timeline_campaign_icon.png) Campaign
 * ![](assets/timeline_lp_icon.png) 登陸頁面
 * ![](assets/timeline_email_icon.png) 電子郵件

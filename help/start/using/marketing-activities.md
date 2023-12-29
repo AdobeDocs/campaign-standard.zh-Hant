@@ -12,7 +12,7 @@ exl-id: c75471aa-b947-4488-a569-5412d3825c64
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '487'
-ht-degree: 83%
+ht-degree: 79%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 83%
 
 在主區域中，清單中的每種活動類型都有一個圖示：
 
-* ![](assets/marketing_program_icon.png) 方案
+* ![](assets/marketing_program_icon.png) 計畫
 * ![](assets/marketing_campaign_icon.png) Campaign
 * ![](assets/marketing_email_icon.png) 電子郵件
 * ![](assets/marketing_sms_icon.png) 簡訊

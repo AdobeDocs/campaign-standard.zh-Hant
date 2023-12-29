@@ -12,7 +12,7 @@ exl-id: 62a064f7-6d0b-49ca-9834-eccb5bf42496
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '190'
-ht-degree: 82%
+ht-degree: 77%
 
 ---
 
@@ -37,12 +37,12 @@ ht-degree: 82%
 **相關主題：**
 
 * [函式清單](../../automating/using/list-of-functions.md)
-* [使用外部參數呼叫工作流程](../../automating/using/calling-a-workflow-with-external-parameters.md)
+* [使用外部引數呼叫工作流程](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
 ## 設定 {#configuration}
 
 1. 將 **[!UICONTROL Test]** 活動拖放至工作流程中。
-1. 選取活動，然後使用所顯示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
+1. 選取活動，然後使用所顯示快速動作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
 1. 定義每個條件的屬性：
 
    編輯 **[!UICONTROL Condition]** 欄位時，兩個按鈕可提供呼叫事件變數及編輯結合變數和函式的運算式的協助：

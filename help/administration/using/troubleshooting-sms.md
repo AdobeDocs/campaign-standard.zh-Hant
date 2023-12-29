@@ -8,7 +8,7 @@ level: Experienced
 exl-id: 7ef0712e-4e42-41c8-9382-fbbd06edfdd9
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '2695'
+source-wordcount: '2710'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Adobe Campaign會將外部帳戶視為不相關的實體。
 您必須連絡提供者，才能診斷其身邊的潛在衝突。
 
    * 部分外部帳戶共用相同的登入/密碼組合。
-提供者無法判斷來自哪些外部帳戶 `BIND PDU` ，因此他們會將多個帳戶的所有連線視為一個。 他們可能在兩個帳戶上隨機傳送 MO 和 SR，造成問題。如果提供程式支援相同登入/密碼組合的多個簡短代碼，您必須詢問要將簡短程式碼 `BIND PDU` 放入的位置。 請注意，此資訊必須放入 `BIND PDU` （而不是）中 `SUBMIT_SM` ，因為 `BIND PDU` 是唯一允許路由 MOs 正確的位置。請參閱上述每種 PDU ](../../administration/using/sms-protocol.md#information-pdu) 區段中的 [ 資訊，以瞭解中可用 `BIND PDU` 的欄位，通常會在中 `address_range` 新增簡短程式碼，但需要提供者的特殊支援。請聯絡他們以瞭解他們預期如何獨立傳送多個短代碼。Adobe Campaign支援在相同的外部帳戶上處理多個短程式碼。
+供應商無法分辨外部帳戶 `BIND PDU` 來自哪個，因此他們將來自多個帳戶的所有連接視為單個連接。 他們可能通過這兩個帳戶隨機路由 MO 和 SR，從而導致問題。如果提供程式支援同一 登入/密碼 組合的多個短代碼，則必須詢問他們將該短代碼放在 . `BIND PDU`請注意，這條資訊必須放在 中 `BIND PDU` ，而不是 `SUBMIT_SM` 放在 中，因為 是唯一 `BIND PDU` 允許正確路由 MO 的地方。[請參閱上面的每種 PDU ](../../administration/using/sms-protocol.md#information-pdu) 中的資訊部分，瞭解 中 `BIND PDU` 可用的欄位，通常在 中添加 `address_range` 短代碼，但這需要供應商的特殊支援。與他們聯繫以瞭解他們希望如何獨立路由多個短代碼。Adobe Campaign支援在相同的外部帳戶上處理多個短程式碼。
 
 ## 一般外部帳戶問題 {#external-account-issues}
 
@@ -61,14 +61,14 @@ Adobe Campaign會將外部帳戶視為不相關的實體。
   from nmsextaccount N0 LEFT JOIN xtkoperator X0 ON (N0.icreatedbyid=X0.ioperatorid) order by 8 DESC LIMIT 50;
   ```
 
-* 調查（在/postupgrade 目錄中）是否升級系統以及何時
-* 調查是否可能最近已升級任何影響 SMS 的套裝軟體（/var/log/dpkg.log）。
+* 調查（在 /postupgrade 目錄中）系統是否已升級以及何時升級
+* 調查最近是否升級了影響 SMS 的套裝軟體 （/var/log/dpkg.log）。
 
-## 連線時的問題 {#issue-provider}
+## 連接到供應商時出現問題 {#issue-provider}
 
-* `BIND PDU`如果傳回非零 `command_status` 代碼，請詢問提供者以瞭解更多資訊。
+* 如果返回 `BIND PDU` 非零 `command_status` 代碼，請向提供程式詢問詳細資訊。
 
-* 請檢查網路是否正確設定，以便可以將 TCP 連線至供應商。
+* 檢查網路是否已正確配置，以便可以與供應商建立 TCP 連接。
 
 * 要求提供者確認其是否已正確將IP新增至Adobe Campaign執行個體的允許清單。
 
@@ -142,9 +142,9 @@ Adobe Campaign會將外部帳戶視為不相關的實體。
 
 * 檢查 `DELIVER_SM PDU` 來自提供者，而且格式正確。
 
-* 檢查 Adobe Campaign 及時成功 `DELIVER_SM_RESP PDU` 回復。 在 Adobe Campaign Standard 上，這可以保證已套用整個處理邏輯，如果不是，則保證記錄中有錯誤訊息會顯示處理失敗的原因。
+* 及時檢查Adobe Campaign回復成功 `DELIVER_SM_RESP PDU` 。 在 Adobe Campaign Standard 上，這保證已應用整個處理邏輯，如果不是這種情況，則保證日誌中會顯示一條錯誤訊息，說明處理失敗的原因。
 
-`DELIVER_SM PDU`如果未成功確認，則應檢查下列事項：
+`DELIVER_SM PDU`如果未成功確認，則應檢查以下內容：
 
 * 檢查與中的識別碼擷取和錯誤處理相關的規則運算式 **外部帳戶**. 您可能需要根據的內容 `DELIVER_SM PDU`.
 
@@ -152,13 +152,13 @@ Adobe Campaign會將外部帳戶視為不相關的實體。
 
 * 若為Adobe Campaign Standard，請檢查 `broadLog` 和 `broadLogExec` 表格已正確同步。
 
-如果您已修正所有專案，但部分無效 SR 仍在提供者的緩衝區中，您可以使用 **不正確 ID 確認計數** 選項來略過。 在緩衝區清理後，應謹慎使用，並儘快重設為0。
+如果修復了除某些 無效 SR 仍在提供程式緩衝區中的所有內容，則可以使用「無效 ID 確認計數 **」選項跳過** 它們。應謹慎使用，並在緩衝區清理後儘快重置為 0。
 
-## 處理 MO 時（以及 denylist/自動回復）的問題{#issue-process-MO}
+## 處理 MO（和拒絕清單/自動回復）時出現問題{#issue-process-MO}
 
-* 在測試期間啟用 SMPP 追蹤。 如果未啟用 TLS，則應在疑難排解 MO 時進行網路捕獲，以檢查 Pdu 是否包含正確資訊且格式正確。
+* 在測試期間啟用 SMPP 跟蹤。 如果未啟用 TLS，則應在對 MO 進行故障排除時執行網路捕獲，以檢查 PDU 是否包含正確的資訊以及格式是否正確。
 
-* 捕獲網路流量或分析 SMPP 追蹤時，請務必在已設定回復的情況下，透過 MO 及其回復 MT 捕獲整個會話。
+* 捕獲網路流量或分析 SMPP 跟蹤時，如果配置了回復，請確保捕獲與 MO 及其回復 MT 的整個對話。
 
 * 如果MO (`DELIVER_SM PDU`)未出現在追蹤中，問題出現在提供者端。 他們必須在平台上執行疑難排解。
 
@@ -234,11 +234,11 @@ Unicode允許許多類似字元的變體，而Adobe Campaign無法處理所有�
 
 * 連線有問題，但詳細訊息未顯示任何 `BIND_RESP PDU`.
 
-* 無錯誤訊息的未解釋斷開點按，它會在檢測到低級通訊協定錯誤時的常見行為。
+* 無法解釋的斷開連接，沒有錯誤訊息，連接器在檢測到低級協定錯誤時的通常行為。
 
-* 提供程式 complains 關於拆散/斷開程式的資訊。
+* 供應商抱怨取消綁定/斷開連接過程。
 
-* 在可選 TLV 欄位中編碼問題。
+* 可選 TLV 欄位中的編碼問題。
 
 * 在不同的連線之間懷疑是混合的流量。
 
@@ -246,7 +246,7 @@ Unicode允許許多類似字元的變體，而Adobe Campaign無法處理所有�
 
 在某些情況下，不需要擷取網路流量。 以下是最常見的情況：
 
-* 已啟用 TLS：根據定義，TLS 流量被加密，因此無法捕獲。
+* 啟用 TLS：根據定義，TLS 流量已加密，因此無法捕獲。
 
 * 效能問題：記錄檔包含追蹤效能問題所需的所有資訊。
 

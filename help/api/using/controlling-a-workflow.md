@@ -10,8 +10,8 @@ level: Experienced
 exl-id: 79eacc31-d5a2-4e13-aa0b-744d7ab7004f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 13%
+source-wordcount: '87'
+ht-degree: 11%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 13%
 
 * 開始
 * 暫停
-* 恢復
+* 繼續
 * 停止
 
 如需執行命令的詳細資訊，請參閱 [Campaign檔案](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/about-workflow-execution.html).
@@ -38,7 +38,7 @@ ht-degree: 13%
 
 ***範例要求***
 
-* 開始工作流程.
+* 啟動工作流程。
 
   ```
   -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>/commands \

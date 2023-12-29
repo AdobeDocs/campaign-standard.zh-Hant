@@ -11,7 +11,7 @@ exl-id: 22112517-40f7-4966-84bf-40794e5d0f79
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '338'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 2%
 >
 >如果主旨列為空，則會在訊息控制面板和「電子郵件設計工具」中顯示警告。
 
-1. 建立電子郵件.
+1. 建立電子郵件。
 1. 前往 **[!UICONTROL Properties]** 電子郵件設計工具首頁的頁簽（可透過首頁圖示存取）。
 1. 填入 **[!UICONTROL Subject]** 區段。
 

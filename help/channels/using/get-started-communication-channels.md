@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 4ea5b0eb-35da-4db6-a529-ba636be7825f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 23%
+source-wordcount: '516'
+ht-degree: 19%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 23%
 <table>
 <tr>
 <td><img src="assets/do-not-localize/icon_concepts.svg" width="60px"><p><a href="#global-concepts">全域概念</a></p></td>
-<td><img src="assets/do-not-localize/icon_channels.svg" width="60px"><p><a href="#available-communication-channels">通訊頻道</a></p></td>
+<td><img src="assets/do-not-localize/icon_channels.svg" width="60px"><p><a href="#available-communication-channels">通訊通道</a></p></td>
 <td><img src="assets/do-not-localize/icon_transactional.svg" width="60px"><p><a href="#transactional-messages">異動訊息</a></p></td>
 <td><img src="assets/do-not-localize/icon_landing.svg" width="60px"><p><a href="#landing-pages">登錄頁面</a></p></td></tr>
 </table>
@@ -36,7 +36,7 @@ Adobe Campaign可讓您跨每個頻道啟動、衡量和自動化行銷活動。
 
 **管理範本** 以設定訊息屬性，並讓您獲得時間及訊息策略的一致性。 例如，對於電子郵件，負責設定範本的功能管理員可以定義電子郵件的標準引數，例如對象、排程或內容，與傳送、有效性、追蹤等相關的進階引數，或與目標定位和個人化（目標定位內容）相關的預先設定引數。
 
-閱讀全文:
+詳細內容：
 
 * [傳送訊息的重要步驟](../../channels/using/key-steps-to-send-a-message.md)
 * [存取訊息](../../channels/using/accessing-messages.md)
@@ -44,7 +44,7 @@ Adobe Campaign可讓您跨每個頻道啟動、衡量和自動化行銷活動。
 * [多語言訊息範本](../../channels/using/multilingual-messages-template.md)
 * [行銷活動範本](../../start/using/marketing-activity-templates.md)
 
-## 通訊頻道 {#available-communication-channels}
+## 通訊通道 {#available-communication-channels}
 
 <img src="assets/do-not-localize/icon_channels.svg"  width="60px">
 
@@ -54,7 +54,7 @@ Adobe Campaign可讓您跨每個頻道啟動、衡量和自動化行銷活動。
 
 此外，請善用Campaign Standard **個人化和動態內容功能** 以擷取您對象的興趣。
 
-閱讀全文:
+詳細內容：
 
 * [建立電子郵件](../../channels/using/about-emails.md)
 * [建立簡訊訊息](../../channels/using/about-sms-messages.md)
@@ -70,7 +70,7 @@ Adobe Campaign可讓您跨每個頻道啟動、衡量和自動化行銷活動。
 
 交易式訊息可用於電子郵件、簡訊和推播通知通道，具體取決於您的選項。 有兩種型別的訊息： **事件交易式訊息** 沒有設定檔資訊的目標事件，以及 **設定檔交易式訊息** 從資料庫中鎖定設定檔。
 
-閱讀全文:
+詳細內容：
 
 * [開始使用異動訊息](../../channels/using/getting-started-with-transactional-msg.md)
 * [設定異動事件](../../channels/using/configuring-transactional-event.md)
@@ -88,7 +88,7 @@ Campaign隨附登入頁面，這些網頁是可用於以下用途的網路表單
 
 登入頁面也可用於 **取得或更新現有的設定檔**，並設定雙重選擇加入機制，可讓您保護平台，避免錯誤或無效的電子郵件地址或垃圾郵件機器人。
 
-閱讀全文:
+詳細內容：
 
 * [登陸頁面快速入門](../../channels/using/getting-started-with-landing-pages.md)
 * [登錄頁面範本](../../channels/using/landing-page-templates.md)

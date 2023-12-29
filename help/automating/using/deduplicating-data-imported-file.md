@@ -1,6 +1,6 @@
 ---
 title: 從匯入的檔案中刪除重複資料
-description: 此範例說明如何先從匯入的檔案重複刪除資料，然後再將資料載入資料庫中。
+description: 此範例說明如何在將資料載入資料庫之前，從匯入的檔案中刪除重複資料。
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 631eb661-a696-4352-aa58-9097b391723e
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 89%
+source-wordcount: '329'
+ht-degree: 83%
 
 ---
 

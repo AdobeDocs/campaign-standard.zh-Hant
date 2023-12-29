@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: debbc70d-4094-44c0-b7cb-c999effda1a6
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '790'
-ht-degree: 8%
+source-wordcount: '787'
+ht-degree: 6%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 8%
 
 為了改善收件者的體驗並讓他們開啟您的電子郵件，Adobe Campaign可讓您個人化您的訊息。 如需詳細資訊，請參閱[本節](../../designing/using/personalization.md)。
 
-若要提高訊息的開啟率，您也可以手動定義每個收件者的傳送時間。 每個設定檔都會在指定的日期和時間收到訊息。有關詳細資訊，請參閱 [最佳化傳送時間](../../sending/using/optimizing-the-sending-time.md).
+若要提高訊息的開啟率，您也可以手動定義每個收件者的傳送時間。 每個設定檔都會在指定的日期和時間收到訊息。 有關詳細資訊，請參閱 [最佳化傳送時間](../../sending/using/optimizing-the-sending-time.md).
 
 ## 選擇退出連結和表單 {#opt-out}
 

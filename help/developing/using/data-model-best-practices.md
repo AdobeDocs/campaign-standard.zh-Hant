@@ -11,7 +11,7 @@ level: Experienced
 exl-id: 58d4e02f-3c9a-4e5d-a6aa-fdbcec0d8dda
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1556'
+source-wordcount: '1557'
 ht-degree: 1%
 
 ---
@@ -97,10 +97,10 @@ Adobe Campaign資源有三個識別碼，您可以新增另一個識別碼。
 |--- |--- |--- |--- |
 |  | PKey | <ul><li>pkey是Adobe Campaign表格的實體主索引鍵。</li><li>此識別碼通常是特定Adobe Campaign執行個體的唯一識別碼。</li><li>一般使用者在Adobe Campaign Standard中看不到此值（URL除外）。</li></ul> | <ul><li>透過 [API系統](../../api/using/get-started-apis.md)，則可以擷取PKey值（這是產生/雜湊值，而非實體索引鍵）。</li><li>不建議將其用於透過API擷取、更新或刪除記錄以外的其他任何情況。</li></ul> |
 | ID | name或internalName | <ul><li>此資訊是表格中記錄的唯一識別碼。 此值可以手動更新。</li><li>部署在Adobe Campaign的其他執行個體時，此識別碼會保留其值。 其名稱必須與產生的值不同，才能透過套件匯出。</li><li>這不是表格的實際主索引鍵。</li></ul> | <ul><li>請勿使用空格「 」、分欄「： 」或連字型大小「 — 」等特殊字元。</li><li>所有這些字元都會取代為底線「_」（允許的字元）。 例如，「abc-def」和「abc：def」會儲存為「abc_def」並互相覆寫。</li></ul> |
-| 標籤 | label | <ul><li>標籤是Adobe Campaign中物件或記錄的商業識別碼。</li><li>此物件允許使用空格和特殊字元。</li><li>它無法保證記錄的唯一性。</li></ul> | <ul><li>建議您決定物件標籤的結構。</li><li>這是為Adobe Campaign使用者識別記錄或物件的最好用的解決方案。</li></ul> |
+| 標籤 | 標籤 | <ul><li>標籤是Adobe Campaign中物件或記錄的商業識別碼。</li><li>此物件允許使用空格和特殊字元。</li><li>它無法保證記錄的唯一性。</li></ul> | <ul><li>建議您決定物件標籤的結構。</li><li>這是為Adobe Campaign使用者識別記錄或物件的最好用的解決方案。</li></ul> |
 | ACS ID | acsId | <ul><li>可產生額外的識別碼： [ACS ID](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).</li><li>由於PKey無法在Adobe Campaign使用者介面中使用，此解決方案可取得插入設定檔記錄期間產生的唯一值。</li><li>只有在記錄插入Adobe Campaign之前已在資源中啟用選項，才能自動產生值。</li></ul> | <ul><li>此UUID可作為調解金鑰使用。</li><li>自動產生的ACS ID不能用作工作流程或封裝定義中的參考。</li><li>此值專屬於Adobe Campaign執行個體。</li></ul> |
 
-### 識別鍵 {#keys}
+### 識別索引鍵 {#keys}
 
 在Adobe Campaign中建立的每個資源必須至少有一個唯一 [識別鍵](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys).
 
@@ -142,7 +142,7 @@ When you are performing an initial import with very high volumes of data insert 
 
 <!--For more on defining links with other resources, see [this section](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources).-->
 
-## 效能 {#performance}
+## 績效 {#performance}
 
 為了確保隨時提供更優異的效能，請遵循下列最佳實務。
 

@@ -36,7 +36,7 @@ ht-degree: 79%
   aze128;04/03/2016;clara.smith@example.com;A8;149
   ```
 
-* [調解](../../automating/using/reconciliation.md)活動會建立匯入資料和資料庫之間的連結，以便交易資料正確連接到設定檔和產品。
+* [調和](../../automating/using/reconciliation.md)活動會建立匯入資料和資料庫之間的連結，以便交易資料正確連接到設定檔和產品。
 * [更新資料](../../automating/using/update-data.md)活動將插入並更新帶有傳入資料的資料庫的「交易」資源。
 * 一個 [結束](../../automating/using/start-and-end.md) 活動會觸發目標工作流程，用於更新彙總。
 

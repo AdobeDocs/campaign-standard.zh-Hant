@@ -12,7 +12,7 @@ exl-id: ea167fec-d4df-4147-9dcd-33001d8a1c9b
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '278'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 >
 >請確定您的設定檔包含郵寄地址，因為此資訊對於直接郵件提供者至關重要。另請確保您已核取設定檔資訊中的 **[!UICONTROL Address specified]**&#x200B;方塊。請參閱[建議](../../channels/using/about-direct-mail.md#recommendations)。
 
-## 新增測試與補漏白設定檔 {#adding-test-and-trap-profiles}
+## 新增測試和補漏白設定檔 {#adding-test-and-trap-profiles}
 
 新增測試設定檔，以便使用少量的設定檔來測試您的檔案。它可讓您在準備實際檔案之前，快速建立檔案範例以測試與驗證結構。請參閱[管理測試設定檔](../../audiences/using/managing-test-profiles.md)。
 

@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 7d06cf9c-06b6-4041-8360-4f6bdbd48dd3
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '975'
-ht-degree: 100%
+source-wordcount: '976'
+ht-degree: 97%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 
 ## 使用訊息範本自訂 {#customizing-with-a-message-template}
 
-### 版面 {#layout}
+### 版面配置 {#layout}
 
 根據您的訊息傳送需求，**[!UICONTROL Layout]** 下拉式清單提供四種不同的選項供您選取：
 
@@ -138,7 +138,7 @@ ht-degree: 100%
 
    ![](assets/inapp_customize_7.png)
 
-## 自訂本機通知訊息類型 {#customizing-a-local-notification-message-type}
+## 自訂本機通知訊息型別 {#customizing-a-local-notification-message-type}
 
 本機通知只能由應用程式在特定時間內觸發，且會視事件而定。即使未存取網際網路，通知仍會提醒使用者應用程式中發生某些事情。
 若要瞭解如何追蹤本機通知，請參閱本[頁面](../../administration/using/local-tracking.md)。
@@ -168,7 +168,7 @@ ht-degree: 100%
 
 1. 在 **[!UICONTROL Apple options]** 類別中，如果自訂動作可在　Apple　行動應用程式中使用，請填入 **[!UICONTROL Category]** 欄位，為自訂動作新增類別　ID。
 
-## 使用自訂 HTML 訊息自訂 {#customizing-with-a-custom-html-message}
+## 使用自訂HTML訊息自訂 {#customizing-with-a-custom-html-message}
 
 >[!NOTE]
 >

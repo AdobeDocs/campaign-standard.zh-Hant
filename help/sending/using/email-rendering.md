@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 31f4e557-55b3-4bf5-8d5d-9d412b7670a6
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 83%
+source-wordcount: '512'
+ht-degree: 79%
 
 ---
 
@@ -72,7 +72,7 @@ Litmus [網站](https://litmus.com/email-testing)列出可在 Adobe Campaign 中
 
 ### 電子郵件轉譯權杖
 
-您的授權協議中會列出可用的呈現數量。每次啟用「**電子郵件呈現**」傳送時，您的可用呈現（也稱為 Token）都會減少一次。
+您的授權協議中會列出可用的呈現數量。每次傳遞都與 **電子郵件呈現** 啟用可減少您的可用呈現（也稱為Token）一次。
 
 代號會說明每個個別轉譯，而非整個電子郵件轉譯報表，這表示：
 

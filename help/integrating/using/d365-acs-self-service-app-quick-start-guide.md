@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: e73e2069-e86d-4be2-bf73-22e6dc164340
 source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: tm+mt
-source-wordcount: '1071'
-ht-degree: 2%
+source-wordcount: '1079'
+ht-degree: 1%
 
 ---
 
@@ -26,19 +26,19 @@ Adobe Campaign Standard與Microsoft Dynamics 365自助服務整合應用程式�
 
 請在以下章節瞭解更多資訊：
 
-* [開始使用 Microsoft Dynamics 365 整合](../../integrating/using/d365-acs-get-started.md)
+* [開始使用Microsoft Dynamics 365整合](../../integrating/using/d365-acs-get-started.md)
 * [整合最佳實務和限制](../../integrating/using/d365-acs-notices-and-recommendations.md)
 * [瞭解實作此整合的關鍵步驟](../../integrating/using/d365-acs-get-started.md#request-and-implement-this-integration)
 * [使用 Microsoft Dynamics 365 整合](../../integrating/using/d365-acs-using-the-integration.md)
 
-## 必要條件 {#self-service-app-prerequisites}
+## 先決條件 {#self-service-app-prerequisites}
 
 您必須設定Microsoft Dynamics 365和Adobe Campaign Standard，整合應用程式才能存取您的資料。 這需要一些時間在Dynamics 365、Adobe Campaign Standard和Adobe I/O中進行設定；不過，一旦完成設定，您就能夠透過自助服務整合應用程式的使用者介面控制整合。
 
 請在以下章節瞭解更多資訊：
 
-* [設定 Microsoft Dynamics 365 以進行 Campaign 整合](../../integrating/using/d365-acs-configure-d365.md)
-* [設定 Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md)
+* [設定Microsoft Dynamics 365以進行Campaign整合](../../integrating/using/d365-acs-configure-d365.md)
+* [設定Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md)
 * [對應Campaign自訂資源和Microsoft Dynamics 365自訂實體](../../integrating/using/d365-acs-notices-and-recommendations.md)
 
 ## 設定自助服務整合應用程式的關鍵步驟 {#self-service-app-configuration-steps}
@@ -144,7 +144,7 @@ Adobe Campaign Standard與Microsoft Dynamics 365自助服務整合應用程式�
 
 當您導覽應用程式時，階層連結會出現在某些畫面的頂端。
 
-**範例:**
+**範例：**
 
 以下是來自 **[!UICONTROL Edit Table Mapping]** 顯示階層連結和頁面標題的畫面。 在此情況下，您可以按一下 **[!UICONTROL Workflows]** 或 **[!UICONTROL Microsoft Dynamics 365 to Campaign]** 文字移至上一個畫面。 **[!UICONTROL Edit Table Mapping]** 在此情況下，無法點按在階層連結中，因為這是目前的畫面。
 

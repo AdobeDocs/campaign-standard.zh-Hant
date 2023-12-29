@@ -12,8 +12,8 @@ hide: true
 hidefromtoc: true
 source-git-commit: 110f3ccb5865e70c78e18485b4ff4ba7a648af3f
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 8%
+source-wordcount: '272'
+ht-degree: 6%
 
 ---
 
@@ -57,6 +57,6 @@ ht-degree: 8%
 
 如需如何建立及個人化傳送的詳細資訊，請參閱Campaign Standard檔案：
 
-* [探索通訊通道](../../channels/using/get-started-communication-channels.md)
+* [探索通訊頻道](../../channels/using/get-started-communication-channels.md)
 * [關於頻道活動](../../automating/using/about-channel-activities.md)
 * [個人化傳遞](../../designing/using/personalization.md)

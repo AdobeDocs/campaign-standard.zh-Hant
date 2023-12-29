@@ -28,7 +28,7 @@ ht-degree: 55%
 * [更新資料](../../automating/using/update-data.md)
 * [載入檔案](../../automating/using/load-file.md)
 * [傳輸檔案](../../automating/using/transfer-file.md)
-* [調解](../../automating/using/reconciliation.md)
+* [調和](../../automating/using/reconciliation.md)
 * [擷取檔案](../../automating/using/extract-file.md)
 * [訂閱服務](../../automating/using/subscription-services.md)
 

@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 3fe3495b-e360-4169-b295-86ad93753468
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
-source-wordcount: '1500'
-ht-degree: 96%
+source-wordcount: '1439'
+ht-degree: 93%
 
 ---
 
@@ -139,7 +139,7 @@ ht-degree: 96%
 
    ![](assets/push_notif_actionable_buttons.png)
 
-## 新增豐富型媒體內容 {#add-rich-media-content}
+## 新增多媒體內容 {#add-rich-media-content}
 
 豐富式媒體內容可讓您提供更佳的使用者參與度，這表示您的使用者更傾向於開啟您的推播通知。
 
@@ -160,7 +160,7 @@ ht-degree: 96%
 
    ![](assets/push_notif_advanced_2.png)
 
-## 變更 iOS 的通知行為 {#change-the-notification-behavior-for-ios}
+## 變更iOS的通知行為 {#change-the-notification-behavior-for-ios}
 
 ![](assets/push_notif_advanced_5.png)
 

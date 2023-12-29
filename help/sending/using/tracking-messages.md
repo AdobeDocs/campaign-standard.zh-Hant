@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: fac29bc2-57fa-40f9-a160-cd75f695b91e
 source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 29%
+source-wordcount: '475'
+ht-degree: 23%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 29%
 Adobe Campaign 使用兩種類型的 Cookie：
 
 * 工作階段Cookie (nlid)。 這包含傳送到聯絡人之電子郵件的識別碼(broadlogId)，以及訊息範本的識別碼(deliveryId)。 連絡人按一下由 Adobe Campaign 傳送的電子郵件中包含的 URL 後即可添加識別碼，並且允許您追蹤他們在網路上的行為。瀏覽器關閉時，將自動清除工作階段 Cookie。連絡人可以將其瀏覽器設定為拒絕 Cookie。
-* 在Adobe Experience Cloud解決方案之間共用的Cookie。 此 可讓您識別在 Experience Cloud 解決方案造訪網站時與之互動的使用者。 此Cookie的說明可供使用 [此處](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html).
+* 在Adobe Experience Cloud解決方案之間共用的Cookie。 這可讓您識別在Experience Cloud解決方案造訪網站時與之互動的使用者。 此Cookie的說明可供使用 [此處](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html).
 
 使用Adobe Campaign Standard進行追蹤可讓您存取下列功能：
 
@@ -65,7 +65,7 @@ Adobe Campaign 使用兩種類型的 Cookie：
 
 >[!NOTE]
 >
->如果未啟用傳遞追蹤，則不會顯示此索引標籤。追蹤記錄可用於 **電子郵件** 和 **推播通知** 僅限管道。
+>如果沒有為傳送啟用追蹤，此索引標籤就不會顯示。 追蹤記錄可用於 **電子郵件** 和 **推播通知** 僅限管道。
 
 ![](assets/tracking_logs.png)
 

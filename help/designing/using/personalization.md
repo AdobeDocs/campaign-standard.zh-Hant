@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 3ea58bcf-234e-4dac-b296-da3f57e18a7d
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
-source-wordcount: '2583'
-ht-degree: 5%
+source-wordcount: '2611'
+ht-degree: 4%
 
 ---
 
@@ -20,8 +20,7 @@ ht-degree: 5%
 Adobe Campaign傳送的訊息內容和顯示方式可透過數種不同的方式實現個人化。 根據設定檔的條件，可以將這些方式結合使用。 一般而言，Adobe Campaign 允許您：
 
 * 插入動態的個人化欄位。請參閱[插入個人化欄位](#inserting-a-personalization-field)。
-* 插入預定義的個人化區塊。
-請參閱[新增內容區塊](#adding-a-content-block)。
+* 插入預先定義的個人化區塊。 請參閱[新增內容區塊](#adding-a-content-block)。
 * 個人化電子郵件的寄件者。 另請參閱 [個人化寄件者](#personalizing-the-sender).
 * 個人化電子郵件的主旨。 另請參閱 [個人化電子郵件的主旨列](../../designing/using/subject-line.md#subject-line).
 * 建立有條件的內容。另請參閱 [定義電子郵件中的動態內容](#defining-dynamic-content-in-an-email).
@@ -180,7 +179,7 @@ Adobe Campaign提供預先設定的內容區塊清單。 這些內容區塊為�
 
 * [插入個人化欄位](#inserting-a-personalization-field)
 * [新增內容區塊](#adding-a-content-block)
-* [在電子郵件中定義動態內容](#defining-dynamic-content-in-an-email)
+* [定義電子郵件中的動態內容](#defining-dynamic-content-in-an-email)
 
 ## 個人化影像來源{#personalizing-an-image-source}
 
@@ -224,7 +223,7 @@ Adobe Campaign可讓您根據特定條件或使用追蹤，將訊息中的一個
 >
 >無法為已包含具有動態內容的子元素或已構成動態內容的區塊定義條件。 無法編輯無法看到的動態區塊（例如下拉式清單）。
 
-### 在電子郵件中定義動態內容{#defining-dynamic-content-in-an-email}
+### 定義電子郵件中的動態內容{#defining-dynamic-content-in-an-email}
 
 >[!CONTEXTUALHELP]
 >id="ac_dynamic_content"

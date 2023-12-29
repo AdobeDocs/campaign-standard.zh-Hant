@@ -12,7 +12,7 @@ exl-id: 5ca7571d-d4d2-4b59-86d4-4f1f3a620b54
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '351'
-ht-degree: 75%
+ht-degree: 68%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 75%
 
 1. 拖放 [擴充](../../automating/using/enrichment.md) 活動至您的工作流程，並將載入檔案和查詢活動連結至工作流程。
 
-1. 在擴充活動的 **[!UICONTROL Advanced relations]** 索引標籤中，選取 **[!UICONTROL 0 or 1 cardinality simple link]** 並定義要用於調解的欄位。在此處，我們會使用姓氏來調整資料和資料庫設定檔。
+1. 在擴充活動的 **[!UICONTROL Advanced relations]** 索引標籤中，選取 **[!UICONTROL 0 or 1 cardinality simple link]** 並定義要用於調和的欄位。在此處，我們會使用姓氏來調整資料和資料庫設定檔。
 
    ![](assets/load_file_enrichment_relation.png)
 

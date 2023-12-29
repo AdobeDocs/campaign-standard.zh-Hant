@@ -12,7 +12,7 @@ exl-id: c3f029d7-779e-47e7-a925-1e8f672da4dd
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '803'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 
 1. 將活動 **[!UICONTROL Save audience]** 拖曳至工作流程中。
 1. 在其他目標定位活動（例如查詢、交叉點、聯合或排除）之後進行連接。
-1. 選取活動，然後使用所顯示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
+1. 選取活動，然後使用所顯示快速動作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
 1. 選取要執行的動作：
 
    * **[!UICONTROL Update an existing audience]**：選取現有對象，然後選取更新類型：
@@ -59,7 +59,7 @@ ht-degree: 100%
    * **[!UICONTROL Create a new audience]**：輸入要建立的對象名稱。建立對象的時間和日期會自動新增至對象名稱。如此一來，每次執行工作流程時，對象都會是唯一的。
    * **[!UICONTROL Share in Adobe Experience Cloud]**：如果您有目標設定檔，而且您想要將對象匯出至 Adobe Experience Cloud，請選取此選項，然後選取現有的共用對象或建立新對象。
 
-     同時選取與對象中所含資料之資源相對應的 **[!UICONTROL Shared Data source]**，以便在 Adobe Experience Cloud 中正確調解資料。
+     同時選取與對象中所含資料之資源相對應的 **[!UICONTROL Shared Data source]**，以便在 Adobe Experience Cloud 中正確調和資料。
 
      使用此選項，共用的對象不會新增至 **[!UICONTROL Audiences]** 功能表中可用的 Adobe Campaign 對象清單。
 

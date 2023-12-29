@@ -55,7 +55,7 @@ ht-degree: 79%
 
 ## 傳遞記錄 {#delivery-logs}
 
-### 傳送記錄檔 {#sending-logs}
+### 傳送記錄 {#sending-logs}
 
 **[!UICONTROL Sending logs]** 索引標籤提供此傳送每次發生的記錄。已傳送訊息的清單及其狀態會儲存在此處。它可讓您檢視每個收件者的傳送狀態。
 
@@ -75,7 +75,7 @@ ht-degree: 79%
 >
 >若要在 Campaign 使用者介面中顯示鏡像頁面呈現，鏡像頁面伺服器　URL　必須是安全的。在該情況下，在設定您的品牌時，請使用　https://（而非http://）[設定此 URL](../../administration/using/branding.md#configuring-and-using-brands)。
 
-### 排除記錄檔 {#exclusion-logs}
+### 排除記錄 {#exclusion-logs}
 
 **[!UICONTROL Exclusion logs]** 索引標籤會列出已從傳送目標排除的所有訊息，以及指定傳送失敗的原因。
 

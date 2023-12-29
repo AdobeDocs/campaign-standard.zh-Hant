@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 57c56e4a-892c-46d6-9bb4-6a345a8d9f5b
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 97%
+source-wordcount: '574'
+ht-degree: 96%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 97%
 設定重複資料刪除的活動，必須輸入標籤、方法與重複資料刪除的條件，以及與結果相關的選項。
 
 1. 將 **[!UICONTROL Deduplication]** 活動拖放至工作流程中。
-1. 選取活動，然後使用所顯示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
+1. 選取活動，然後使用所顯示快速動作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
 
    ![](assets/deduplication_1.png)
 

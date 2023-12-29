@@ -6,8 +6,8 @@ content-type: reference
 topic-tags: discovering-the-interface
 source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '776'
-ht-degree: 11%
+source-wordcount: '775'
+ht-degree: 6%
 
 ---
 
@@ -123,7 +123,7 @@ Campaign StandardAPI可讓您執行更新資料庫的操作，例如建立、更
 
 <img width="60px" alt="條件" src="assets/icon_privacy.svg"/>
 
-GDPR 是歐盟 (EU) 最新制定的一項隱私法規，用於協調和順應時代更新資料保護需求。GDPR 適用於所持有資料的主體居住於歐盟的 Adobe Campaign 客戶。除了Adobe Campaign所提供的隱私權功能（包括同意管理、資料保留設定和使用者角色）之外，我們還將以資料處理者的角色利用此機會，加入其他功能，以協助您做好準備，以利您作為資料控制者，處理特定GDPR請求。
+GDPR是歐盟(EU)的新隱私權法律，協調資料保護要求並以現代化方式規範資料保護要求。 GDPR適用於所持有資料的主體居住於歐盟的Adobe Campaign客戶。 除了Adobe Campaign所提供的隱私權功能（包括同意管理、資料保留設定和使用者角色）之外，我們還將以資料處理者的角色利用此機會，加入其他功能，以協助您做好準備，以利您作為資料控制者，處理特定GDPR請求。
 
 請參閱 [本節](../../start/using/privacy.md) 進一步瞭解Adobe Campaign所提供的工具和功能，協助您符合GDPR規定。
 

@@ -12,13 +12,13 @@ exl-id: 2df7fbed-b979-4706-bd56-83f712cc3070
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '106'
-ht-degree: 33%
+ht-degree: 11%
 
 ---
 
 # 使用外部資料更新資料庫 {#update-database-file}
 
-以下範例說明 **[!UICONTROL Update data]** 活動遵循 **[!UICONTROL Load file]** 活動。 此工作流程的目的在於，使用從檔案復原的資料，將設定檔新增或更新至 Adobe Campaign 資料庫。
+以下範例說明 **[!UICONTROL Update data]** 活動遵循 **[!UICONTROL Load file]** 活動。 此工作流程的目的在於，使用從檔案復原的資料，將設定檔新增或更新至Adobe Campaign資料庫。
 
 在此範例中，使用的調解金鑰是 **電子郵件地址**. 在中載入的檔案 [載入檔案](../../automating/using/load-file.md) 活動是 **.txt** 包含下列範例資料的格式檔案：
 

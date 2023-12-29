@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 0a71e3a7-60e6-49ec-af2e-099ad0d69a15
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 90%
+source-wordcount: '338'
+ht-degree: 76%
 
 ---
 
@@ -76,7 +76,7 @@ ht-degree: 90%
 
    ![](assets/query_sample_failure3.png)
 
-## 過去　7　天期間未聯絡目標定位設定檔 {#targeting-profiles-not-contacted-during-the-last-7-days}
+## 過去7天期間未聯絡目標定位設定檔 {#targeting-profiles-not-contacted-during-the-last-7-days}
 
 下列範例顯示一個查詢活動，其設定是用來篩選過去　7　天期間未聯絡的設定檔。
 

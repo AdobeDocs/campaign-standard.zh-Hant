@@ -11,7 +11,7 @@ exl-id: a903d7e2-7654-46b3-bc61-4653a065faad
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '368'
-ht-degree: 14%
+ht-degree: 11%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 14%
 
 * [建立電子郵件](../../channels/using/creating-an-email.md)
 * [建立簡訊](../../channels/using/creating-an-sms-message.md)
-* [建立直接郵件傳遞](../../channels/using/creating-the-direct-mail.md)
+* [建立直接郵件傳送](../../channels/using/creating-the-direct-mail.md)
 * [建立推播通知](../../channels/using/preparing-and-sending-a-push-notification.md).
 * [準備和傳送應用程式內訊息](../../channels/using/preparing-and-sending-an-in-app-message.md)
 

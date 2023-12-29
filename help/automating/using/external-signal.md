@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: a4fbd6b5-7cfb-44ad-bf3a-f3aabc122b77
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 96%
+source-wordcount: '601'
+ht-degree: 95%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 96%
 設定外部訊號時，首先必須在目標工作流程中設定 **[!UICONTROL External signal]** 活動。完成此設定後，此工作流程的 **[!UICONTROL External signal]** 活動將可用於設定來源工作流程的 **[!UICONTROL End]** 活動。
 
 1. 將　**[!UICONTROL External signal]**　活動拖放至您的目標工作流程。
-1. 選取活動，然後使用所顯示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
+1. 選取活動，然後使用所顯示快速動作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
 1. 編輯活動的標籤。設定觸發 **[!UICONTROL External signal]** 的來源工作流程時需要此標籤。
 
    如果要使用參數呼叫工作流程，請使用 **[!UICONTROL Parameters]** 區域來進行宣告。如需詳細資訊，請參閱[此頁面](../../automating/using/declaring-parameters-external-signal.md)。

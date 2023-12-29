@@ -1,5 +1,5 @@
 ---
-title: 在 Adobe Experience Manager 中建立電子郵件內容.
+title: 在Adobe Experience Manager中建立電子郵件內容。
 description: 透過Adobe Experience Manager整合，您可以直接在AEM中建立內容，並稍後在Adobe Campaign中使用。
 audience: integrating
 content-type: reference
@@ -11,7 +11,7 @@ exl-id: 72b99864-d9d9-4cf4-be06-dc5719a2e4f2
 source-git-commit: 579404ddc128e25cc7f8f93dfec30663c7cf754e
 workflow-type: tm+mt
 source-wordcount: '511'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 

@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 0a0fe969-cdfd-4b0c-a746-081038424d86
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 18%
+source-wordcount: '947'
+ht-degree: 16%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 18%
 
 ## 瞭解訊息指標 {#message-indicators}
 
-將消息傳送給聯絡人之後，**[!UICONTROL Deployment]** 區域會顯示您的 KPI（關鍵績效指標）資料，包含：
+將郵件傳送給連絡人之後， **[!UICONTROL Deployment]** 區域會顯示您的KPI （關鍵績效指標）資料，包括：
 
 * 要傳送的訊息數量
 * 已傳送的訊息數量

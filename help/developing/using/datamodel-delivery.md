@@ -9,8 +9,8 @@ level: Experienced
 exl-id: aea3e72d-8e89-46c7-a796-bf856414c654
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 30%
+source-wordcount: '725'
+ht-degree: 26%
 
 ---
 
@@ -141,8 +141,8 @@ ht-degree: 30%
                </tr>
                <tr>
                   <td>已建立</td>
-                  <td>已建立</td>
-                  <td>date </td>
+                  <td>建立時間</td>
+                  <td>日期 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -185,7 +185,7 @@ ht-degree: 30%
                </tr>
                <tr>
                   <td>excludeLogs</td>
-                  <td>排除記錄檔</td>
+                  <td>排除記錄</td>
                   <td>集合 </td>
                   <td> </td>
                </tr>
@@ -296,7 +296,7 @@ ht-degree: 30%
                   <td> </td>
                </tr>
                <tr>
-                  <td>label</td>
+                  <td>標籤</td>
                   <td>標籤</td>
                   <td>字串(128)</td>
                   <td> </td>
@@ -304,7 +304,7 @@ ht-degree: 30%
                <tr>
                   <td>lastModified</td>
                   <td>上次修改時間</td>
-                  <td>date </td>
+                  <td>日期 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -331,7 +331,7 @@ ht-degree: 30%
                <tr>
                   <td>mainDate</td>
                   <td>日期</td>
-                  <td>date </td>
+                  <td>日期 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -354,7 +354,7 @@ ht-degree: 30%
                </tr>
                <tr>
                   <td>messageType</td>
-                  <td>通道</td>
+                  <td>管道</td>
                   <td>分項清單（位元組） </td>
                   <td>
                      <ul>
@@ -524,7 +524,7 @@ ht-degree: 30%
                   <td> </td>
                </tr>
                <tr>
-                  <td>title</td>
+                  <td>標題</td>
                   <td>傳遞</td>
                   <td>字串(255)</td>
                   <td> </td>
@@ -662,7 +662,7 @@ ht-degree: 30%
     </tr>
     <tr>
     <td>startDate</td>
-    <td>date</td>
+    <td>日期</td>
     </tr>
     <tr>
     <td>時間週期</td>
@@ -757,11 +757,11 @@ ht-degree: 30%
     </tr>
     <tr>
     <td>startDate</td>
-    <td>date</td>
+    <td>日期</td>
     </tr>
     <tr>
     <td>endDate</td>
-    <td>date</td>
+    <td>日期</td>
     </tr>
 </table>
 
@@ -774,11 +774,11 @@ ht-degree: 30%
     </tr>
     <tr>
     <td>startDate</td>
-    <td>date</td>
+    <td>日期</td>
     </tr>
     <tr>
     <td>endDate</td>
-    <td>date</td>
+    <td>日期</td>
     </tr>
 </table>
 

@@ -11,14 +11,14 @@ level: Intermediate
 exl-id: 2e98561a-97fd-483a-a547-c4e6d33993dc
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 76%
+source-wordcount: '421'
+ht-degree: 77%
 
 ---
 
 # 從檔案更新多個訂閱狀態 {#updating-multiple-subscription-statuses-from-a-file}
 
-此範例說明如何匯入包含設定檔的檔案，以及如何將其訂閱更新為檔案中指定的多個服務。匯入檔案後，必須進行調解，以便將匯入的資料識別為具有服務連結的描述檔。為確保檔案不包含任何重複項目，將對資料執行重複資料刪除活動。
+此範例說明如何匯入包含設定檔的檔案，以及如何將其訂閱更新為檔案中指定的多個服務。匯入檔案後，必須進行調和，以便將匯入的資料識別為具有服務連結的描述檔。為確保檔案不包含任何重複項目，將對資料執行重複資料刪除活動。
 
 工作流程如下：
 

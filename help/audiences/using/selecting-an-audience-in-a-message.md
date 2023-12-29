@@ -12,7 +12,7 @@ exl-id: 239959ad-6386-42bf-a86a-5694cdaecd83
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '411'
-ht-degree: 74%
+ht-degree: 70%
 
 ---
 
@@ -39,7 +39,7 @@ Adobe Campaign　可讓您在訊息的對象中設定數個設定檔類型。
 
 1. 定義電子郵件的主要　**[!UICONTROL Target]**　功能。這是電子郵件的一般目標對象。
 
-   目標會在　**[!UICONTROL Target]**　標籤中定義，而且是由資料庫中識別的設定檔組成。您可以使用[查詢編輯器](../../automating/using/editing-queries.md#creating-queries)功能來建立主要目標。
+   目標定義於 **[!UICONTROL Target]** 索引標籤組成，由資料庫中識別的設定檔組成。 您可以使用[查詢編輯器](../../automating/using/editing-queries.md#creating-queries)功能來建立主要目標。
 
    在此標籤中，**[!UICONTROL Shortcuts]**　浮動視窗僅包含預先定義的篩選條件，以及在已識別設定檔中定義的對象。**[!UICONTROL Explorer]** 選項可讓您存取其他設定。
 

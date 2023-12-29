@@ -7,14 +7,15 @@ topic-tags: working-with-campaign-and-microsoft-dynamics-365
 feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
-source-git-commit: 736e8b7e863409779c153567f6e5fc577ac3c519
+exl-id: e0fb289a-6b6e-473d-80af-50f6d0d72af1
+source-git-commit: abdcd3f9f7f709818dee794b4c830e486fefa290
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 0%
+source-wordcount: '559'
+ht-degree: 1%
 
 ---
 
-# 將憑證從JWT移轉至OAuth伺服器對伺服器
+# 將憑證從 JWT 移轉至 OAuth 伺服器對伺服器
 
 服務帳戶(JWT)認證已遭取代，以支援新的OAuth伺服器對伺服器認證。 新的認證可讓您更輕鬆地維護Adobe應用程式。 它也能移除定期旋轉憑證的需求，並使用標準OAuth2程式庫立即運作。
 

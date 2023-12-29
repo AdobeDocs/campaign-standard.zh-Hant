@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 7f2a3139-57eb-48ff-9b1a-ac2caad2f691
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '1206'
-ht-degree: 11%
+source-wordcount: '1347'
+ht-degree: 9%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 11%
                <tr>
                   <td>birthDate</td>
                   <td>出生日期</td>
-                  <td>date </td>
+                  <td>日期 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -111,8 +111,8 @@ ht-degree: 11%
                </tr>
                <tr>
                   <td>已建立</td>
-                  <td>已建立</td>
-                  <td>date </td>
+                  <td>建立時間</td>
+                  <td>日期 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -130,7 +130,7 @@ ht-degree: 11%
                <tr>
                   <td>cusLastTransactionDate</td>
                   <td>上次交易日期</td>
-                  <td>date </td>
+                  <td>日期 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -191,7 +191,7 @@ ht-degree: 11%
                <tr>
                   <td>lastModified</td>
                   <td>上次修改時間</td>
-                  <td>date </td>
+                  <td>日期 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -215,18 +215,18 @@ ht-degree: 11%
                <tr>
                   <td>minBroadLogEvents</td>
                   <td>MinBroadLogEvents</td>
-                  <td>date </td>
+                  <td>日期 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>minSubHistoEvents</td>
                   <td>MinSubHistoEvents</td>
-                  <td>date </td>
+                  <td>日期 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>行動電話</td>
-                  <td>行動裝置</td>
+                  <td>行動</td>
                   <td>字串(32)</td>
                   <td> </td>
                </tr>
@@ -385,7 +385,7 @@ ht-degree: 11%
                   </td>
                </tr>
                <tr>
-                  <td>title</td>
+                  <td>標題</td>
                   <td>設定檔</td>
                   <td>字串(255)</td>
                   <td> </td>
@@ -415,7 +415,7 @@ ht-degree: 11%
 </tr>
 <tr>
 <td>endDay</td>
-<td>date</td>
+<td>日期</td>
 </tr>
 <tr>
 <td>精確度</td>
@@ -427,7 +427,7 @@ ht-degree: 11%
 </tr>
 <tr>
 <td>個月</td>
-<td>date</td>
+<td>日期</td>
 </tr>
 <tr>
 <td>運運算元</td>
@@ -439,7 +439,7 @@ ht-degree: 11%
 </tr>
 <tr>
 <td>endMonth</td>
-<td>date</td>
+<td>日期</td>
 </tr>
 <tr>
 <td>類型</td>
@@ -447,7 +447,7 @@ ht-degree: 11%
 </tr>
 <tr>
 <td>天</td>
-<td>date</td>
+<td>日期</td>
 </tr>
 </table>
 

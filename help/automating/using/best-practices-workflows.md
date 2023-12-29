@@ -11,8 +11,8 @@ level: Beginner
 exl-id: 9f5ec2dc-7881-4c68-a5bb-403b01b8b7f8
 source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
 workflow-type: tm+mt
-source-wordcount: '1200'
-ht-degree: 80%
+source-wordcount: '1212'
+ht-degree: 77%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 80%
 
 ### 工作流程數量
 
-根據預設，我們建議 **不要同時執行超過20個作用中的工作流程** （這不適用於等待排程執行的工作流程）。 達到此限制之後，會將工作流程排入佇列，以免影響效能。
+根據預設，我們建議 **不要同時執行超過20個作用中的工作流程** （這不適用於等待排程執行的工作流程）。 達到此限制後，工作流程會排入佇列，以免影響效能。
 
 在特定情況下，您可能需要執行超過 20 個工作流程。若是如此，您需要向 Campaign 專家檢查使用案例，並聯絡 Adobe 客戶服務以提高限制。
 
@@ -95,7 +95,7 @@ ht-degree: 80%
 ![](assets/keep_interim_best_practices.png)
 
 
-### 標籤活動 {#activity-labeling}
+### 標籤活動{#activity-labeling}
 
 在開發工作流程時，會針對每個活動產生名稱，例如所有 Adobe Campaign 物件。雖然工具會產生活動名稱且無法編輯，但建議在設定活動名稱時，以明確的名稱加上標籤。
 
@@ -115,7 +115,7 @@ ht-degree: 80%
 
 設計包含多個活動的已排程工作流程時，您必須確保工作流程在完成前不會重新排程。 若要這麼做，您需要設定工作流程，以防止其在先前執行的一或多個任務仍擱置時執行。 如需詳細資訊，請參閱[此頁面](../../automating/using/scheduled-workflows-execution.md)。
 
-## 使用參數呼叫工作流程{#workflow-with-parameters}
+## 使用引數呼叫工作流程{#workflow-with-parameters}
 
 請確定引數的名稱和數目與呼叫工作流程時所定義的相同(請參閱 [此頁面](../../automating/using/defining-parameters-calling-workflow.md). 參數的類型也必須與預期值一致。
 

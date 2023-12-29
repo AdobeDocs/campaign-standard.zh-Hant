@@ -9,8 +9,8 @@ level: Intermediate
 exl-id: bcb28ef5-5cad-43c1-b11b-080abc791a72
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 14%
+source-wordcount: '578'
+ht-degree: 11%
 
 ---
 
@@ -43,7 +43,7 @@ Campaign Standard **訊息準備** 分析訊息的目標、個人化及有效性
 
 使用 **型別** 在準備期間檢查您的訊息是否有效，並透過疲勞、控制和目標定位規則符合您的品質標準。 例如，檢查您的電子郵件是否一律包含主旨行，或從訊息收件者中排除取消訂閱者。
 
-閱讀全文:
+詳細內容：
 
 * [準備傳送](../../sending/using/preparing-the-send.md)
 * [預覽訊息](../../sending/using/previewing-messages.md)
@@ -62,7 +62,7 @@ Campaign Standard **訊息準備** 分析訊息的目標、個人化及有效性
 
 最後，您可以將Adobe Campaign設定為 **保留電子郵件副本** 透過電子郵件密件副本從您的平台傳送。 特別是，如果您的組織需要封存所有外寄電子郵件訊息以符合法規，您可以啟用此功能。
 
-閱讀全文:
+詳細內容：
 
 * [確認傳送](../../sending/using/confirming-the-send.md)
 * [追蹤訊息](../../sending/using/tracking-messages.md)
@@ -79,7 +79,7 @@ Campaign Standard **訊息準備** 分析訊息的目標、個人化及有效性
 
 Campaign Standard提供數種 **傳遞工具** 協助您改善成功傳送的訊息數量：傳送輸送量報告、傳送時間最佳化、訊息預覽、電子郵件呈現、隔離管理等。
 
-閱讀全文:
+詳細內容：
 
 * [關於傳遞能力](../../sending/using/about-deliverability.md)
 * [監視傳遞能力](../../sending/using/monitor-deliverability.md)

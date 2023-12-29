@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: c8af67b0-6789-4b4e-9d01-e2dfa14f1e8f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 96%
+source-wordcount: '546'
+ht-degree: 95%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 96%
 要設定 **[!UICONTROL Enrichment]** 活動：
 
 1. 將 **[!UICONTROL Enrichment]** 活動拖放至工作流程中。
-1. 選取活動，然後使用所顯示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
+1. 選取活動，然後使用所顯示快速動作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
 1. 如果活動有數個入站轉變，請選取 **[!UICONTROL Primary set]**。此活動中設定的其他資料將新增到出站轉換中的這個主要集。
 
    如果主要集已包含其他資料，您可以選取保留或刪除這些資料。如果取消核取 **[!UICONTROL Keep all additional data from the main set]** 選項，則只有在　**[!UICONTROL Enrichment]**　設定的其他資料才會保留在出站轉變中。
@@ -55,13 +55,13 @@ ht-degree: 96%
    * **[!UICONTROL N cardinality collection link]**：來自連結資料的 0、1 或更多 (N) 記錄可以與主要集的 1 個記錄相關聯。
    * **[!UICONTROL 0 or 1 cardinality simple link]**：來自主要集的記錄可以與來自連結資料的 0 或 1 個記錄相關聯，但不能與多個記錄相關聯。
 
-   定義 **[!UICONTROL Cardinality]** 後，定義 **[!UICONTROL Reconciliation criteria]**。調解標準的 **[!UICONTROL Source expression]** 可以是目標資源的欄位、[運算式](../../automating/using/advanced-expression-editing.md)或直接是引號之間指定的值。
+   定義 **[!UICONTROL Cardinality]** 後，定義 **[!UICONTROL Reconciliation criteria]**。調和標準的 **[!UICONTROL Source expression]** 可以是目標資源的欄位、[運算式](../../automating/using/advanced-expression-editing.md)或直接是引號之間指定的值。
 
    定義 **[!UICONTROL Label]** 及 **[!UICONTROL ID]**，以便在稍後工作流程中易於識別。
 
    >[!NOTE]
    >
-   >您只能定義主要集和連接到 **[!UICONTROL Enrichment]** 活動的其他入站轉變之間的關係。對於旨在定義與資料庫資源關係的簡單案例，請使用[調解](../../automating/using/reconciliation.md)活動。
+   >您只能定義主要集和連接到 **[!UICONTROL Enrichment]** 活動的其他入站轉變之間的關係。對於旨在定義與資料庫資源關係的簡單案例，請使用[調和](../../automating/using/reconciliation.md)活動。
 
 1. 從活動的 **[!UICONTROL Additional data]** 索引標籤中定義其他資料。您可以定義與主要集目標維度相關的其他資料（簡單欄位、彙總和系列），或是以 **[!UICONTROL Enrichment]** 活動的 **[!UICONTROL Advanced relations]** 索引標籤中建立的連結為基礎。
 
@@ -69,4 +69,4 @@ ht-degree: 96%
 
 1. 確認活動的設定並儲存工作流程。
 
-現在，資料可用於 **[!UICONTROL Enrichment]** 之後連接的活動。例如，您可以在電子郵件內容中個人化欄位檔案總管的 **[!UICONTROL Additional data (targetData)]** 連結下找到它。
+現在，資料可用於 **[!UICONTROL Enrichment]** 之後連接的活動。例如，您可以在電子郵件內容中個人化欄位探索工具的 **[!UICONTROL Additional data (targetData)]** 連結下找到它。

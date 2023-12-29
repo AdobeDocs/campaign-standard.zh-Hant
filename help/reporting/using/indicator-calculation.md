@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 47cc11d7-89e8-4d1c-9638-5f66a53cef7e
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 8%
+source-wordcount: '738'
+ht-degree: 1%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 8%
    <th> <strong>標籤</strong> <br /> </th> 
    <th> <strong>欄位名稱</strong> <br /> </th> 
    <th> <strong>指標計算公式</strong> <br /> </th> 
-   <th> <strong>評論</strong><br /> </th> 
+   <th> <strong>註解</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -90,7 +90,7 @@ ht-degree: 8%
    <td> 費率計算的分母是以「已傳送」計數（已傳遞+跳出數）為基礎。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 硬退回次數<br /> </td> 
+   <td> 硬跳出<br /> </td> 
    <td> @hardBounces<br /> </td> 
    <td> count(@failureType=2且@failureReason=8)<br /> </td> 
    <td> </td> 
@@ -114,7 +114,7 @@ ht-degree: 8%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 鏡像頁面<br /> </td> 
+   <td> 映象頁面<br /> </td> 
    <td> @mirrorPage<br /> </td> 
    <td> count(@trackingUrlType=6)<br /> </td> 
    <td> 費率計算的分母僅以「已傳遞」為基礎。<br /> </td> 
@@ -186,19 +186,19 @@ ht-degree: 8%
    <td> 費率計算的分母是以「已傳送」計數（已傳遞+跳出數）為基礎。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 不重複點按次數<br /> </td> 
+   <td> 不重複點按<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
    <td> 不重複點按次數是使用ThetaSketch概念計算的。 如需詳細資訊，請參閱此 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">範例</a>.<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 不重複開啟次數<br /> </td> 
+   <td> 不重複開啟<br /> </td> 
    <td> @uniqueopens<br /> </td> 
    <td> 唯一(@trackingUrlType=1,2，3,6，10,11)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 無法聯繫 <br /> </td> 
+   <td> 無法聯絡 <br /> </td> 
    <td> @unreachable<br /> </td> 
    <td> count(@failureReason=3)<br /> </td> 
    <td> </td> 
@@ -266,7 +266,7 @@ ht-degree: 8%
    <td> (@opens/@delivered)*100<br /> </td> 
   </tr> 
   <tr> 
-   <td> 不重複開啟次數<br /> </td> 
+   <td> 不重複開啟<br /> </td> 
    <td> @uniqueopens<br /> </td> 
    <td> 不重複開啟的計算方式是使用不重複RecipientId的ThetaSketch概念。 如需詳細資訊，請參閱此 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">範例</a>.<br /> </td> 
   </tr> 
@@ -286,7 +286,7 @@ ht-degree: 8%
    <td> @count(status=interact)<br /> </td> 
   </tr> 
   <tr> 
-   <td> 不重複點按次數<br /> </td> 
+   <td> 不重複點按<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
    <td> 不重複點按次數是使用ThetaSketch概念計算的。 如需詳細資訊，請參閱此 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">範例</a>.<br /> </td> 
   </tr> 
@@ -306,7 +306,7 @@ ht-degree: 8%
    <th> <strong>標籤</strong> <br /> </th> 
    <th> <strong>欄位名稱</strong> <br /> </th> 
    <th> <strong>指標計算公式</strong> <br /> </th> 
-   <th> <strong>評論</strong><br /> </th> 
+   <th> <strong>註解</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 

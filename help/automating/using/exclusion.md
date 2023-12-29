@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: dccb9545-0d7e-4d40-9a8f-2915b4da99a7
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 100%
+source-wordcount: '251'
+ht-degree: 98%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 ## 設定 {#configuration}
 
 1. 將 **[!UICONTROL Exclusion]** 活動拖放至工作流程中。
-1. 選取活動，然後使用所顯示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
+1. 選取活動，然後使用所顯示快速動作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
 1. 從入站轉變中選取 **[!UICONTROL Primary set]**。這是從中排除元素的集。其他集會先設定相符的元素，然後才會從主要集予以排除。
 
    >[!NOTE]

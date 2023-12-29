@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 2ddc1b2b-0df5-4c91-a381-451cc094f2eb
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 100%
+source-wordcount: '297'
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 ## 設定 {#configuration}
 
 1. 將 **[!UICONTROL Wait]** 活動拖放至工作流程中。
-1. 選取活動，然後使用所顯示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
+1. 選取活動，然後使用所顯示快速動作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
 1. 指定在啟動活動之入站及出站變動之間等候的 **[!UICONTROL Duration]**。
 
    您可以手動輸入持續時間或使用欄位中可用的選取器。

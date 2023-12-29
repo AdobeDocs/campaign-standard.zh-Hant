@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 04d0fe26-a8cc-49ae-aaa9-b470169068ee
 source-git-commit: 26e37cea37b33924ac634c5e4ab7c60804a738f1
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 9%
+source-wordcount: '759'
+ht-degree: 6%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 9%
 
 在Adobe Campaign中布建及設定Audience Manager與People核心需兩個步驟： [正在提交要求給Adobe](#submitting-request-to-adobe) 則 [在Adobe Campaign中設定整合](#configuring-the-integration-in-adobe-campaign).
 
-## 向 Adobe 提交請求 {#submitting-request-to-adobe}
+## 正在提交要求給Adobe {#submitting-request-to-adobe}
 
 Audience Manager (AAM)或People核心服務整合可讓您匯入和匯出Adobe Campaign中的對象或區段。
 
@@ -36,11 +36,11 @@ Audience Manager (AAM)或People核心服務整合可讓您匯入和匯出Adobe C
    <td> 您的組織名稱 </td> 
   </tr> 
   <tr> 
-   <td> <strong>IMS 組織 ID</strong><br /> </td> 
+   <td> <strong>IMS組織ID</strong><br /> </td> 
    <td> 您的組織ID。 <br> 若要尋找您的組織ID，請參閱 <a href="https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hant">此頁面</a></td> 
   </tr> 
   <tr> 
-   <td> <strong>環境:</strong><br /> </td> 
+   <td> <strong>環境：</strong><br /> </td> 
    <td> 範例：生產 </td> 
   </tr> 
   <tr> 

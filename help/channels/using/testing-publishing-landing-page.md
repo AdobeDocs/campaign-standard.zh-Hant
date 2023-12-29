@@ -11,17 +11,17 @@ exl-id: af849377-686f-45b3-bf6e-5069a8966987
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '383'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
 # 測試和發佈登陸頁面{#testing-publishing--landing-page}
 
-## 關於登錄頁面範本 {#about-landing-page-publication}
+## 關於登入頁面發佈 {#about-landing-page-publication}
 
 發佈登錄頁面之前，您必須執行測試：驗證執行、設定存取權限並設定登錄頁面生命週期結束。這些步驟是先決條件，必須小心執行。
 
-## 測試登錄頁面 {#testing-the-landing-page-}
+## 測試登入頁面 {#testing-the-landing-page-}
 
 由於登錄頁面會影響您的平台和資料，因此您需要小心地測試其執行。操作步驟：
 
@@ -45,7 +45,7 @@ ht-degree: 100%
 >
 >若要在促銷活動使用者介面中顯示登錄頁面預覽，應用程式伺服器　URL　必須是安全的。在該情況下，在設定您的品牌時，請使用　https://（而非http://）[設定此 URL](../../administration/using/branding.md#configuring-and-using-brands)。
 
-## 設定有效性參數 {#setting-up-validity-parameters}
+## 設定有效性引數 {#setting-up-validity-parameters}
 
 基於安全理由和平台效能，我們強烈建議您先在登錄頁面屬性中設定到期日，然後再發佈。在選取的日期時，登錄頁面會自動取消發佈。操作步驟：
 
@@ -65,7 +65,7 @@ ht-degree: 100%
 >
 >您也可以定義部署日期及時間：之後，登錄頁面就會在指定的日期自動發佈。
 
-## 設定登錄頁面 {#publishing-a-landing-page}
+## 發佈登入頁面 {#publishing-a-landing-page}
 
 當您發佈登錄頁面時，此頁面就會連線，而且可供您的訪客存取。
 

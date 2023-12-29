@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 0c26a0f9-9d71-4692-ae86-d47e2df53bb7
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1757'
-ht-degree: 93%
+source-wordcount: '1765'
+ht-degree: 90%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 93%
 ## 設定 {#configuration}
 
 1. 將 **[!UICONTROL Query]** 活動拖放至工作流程中。
-1. 選取活動，然後使用所顯示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。依預設，活動會預先設定為搜尋設定檔。
+1. 選取活動，然後使用所顯示快速動作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。依預設，活動會預先設定為搜尋設定檔。
 1. 如果要對設定檔案資源以外的資源運行查詢，請轉至活動的 **[!UICONTROL Properties]** 索引標籤，然後選取 **[!UICONTROL Resource]** 和　**[!UICONTROL Targeting dimension]**。
 
    **[!UICONTROL Resource]** 可讓您調整浮動視窗中顯示的篩選條件，而與所選資源相關的 **[!UICONTROL Targeting dimension]**，則與您要取得的母體類型（識別的設定檔、傳送、連結至所選資源的資料等）相對應。
@@ -99,7 +99,7 @@ ht-degree: 93%
 
 ![](assets/targeting_dimension5.png)
 
-預設會設定目標維度和資源，以定位設定檔。不過，如果您想在遠端表格中尋找特定記錄，則使用與目標維度不同的資源可能會很實用。
+預設會設定目標維度和資源，以定位設定檔。 不過，如果您想在遠端表格中尋找特定記錄，則使用與目標維度不同的資源可能會很實用。
 
 如需詳細資訊，請參閱此使用案例： [使用與目標維度不同的資源](../../automating/using/using-resources-different-from-targeting-dimensions.md)
 

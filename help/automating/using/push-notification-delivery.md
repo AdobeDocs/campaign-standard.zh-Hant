@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: b6a43d51-32d4-4806-b4e4-33236f1e27f5
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 47%
+source-wordcount: '773'
+ht-degree: 46%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 47%
 ## 設定 {#configuration}
 
 1. 將 **[!UICONTROL Push notification]** 活動拖放至工作流程中。
-1. 選取活動，然後使用所顯示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
+1. 選取活動，然後使用所顯示快速動作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
 
    >[!NOTE]
    >
@@ -61,7 +61,7 @@ ht-degree: 47%
 1. 選取通知型別。 這些型別來自中定義的推播通知範本 **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** 功能表。
 1. 輸入推播通知的一般屬性。 您也可以將它附加至現有的行銷活動。工作流程傳送活動的標籤會以推播通知標籤更新。
 1. 定義推播通知內容。 另請參閱 [建立推播通知](../../channels/using/preparing-and-sending-a-push-notification.md)
-1. 依預設，**[!UICONTROL Push notification]** 活動不包含任何外站轉變。如果要將出站轉變新增到 **[!UICONTROL Push Notification]** 活動中，請轉至高階活動選項的　**[!UICONTROL General]**　索引標籤（活動快速操作中的　![](assets/dlv_activity_params-24px.png)　按鈕），然後核取以下選項之一：
+1. 依預設，**[!UICONTROL Push notification]** 活動不包含任何外站轉變。如果要將出站轉變新增到 **[!UICONTROL Push Notification]** 活動中，請轉至高階活動選項的　**[!UICONTROL General]**　索引標籤（活動快速動作中的　![](assets/dlv_activity_params-24px.png)　按鈕），然後核取以下選項之一：
 
    * **[!UICONTROL Add outbound transition without the population]**：這可讓您產生一個外站轉變，其中包含與入站轉變完全相同的母體。
    * **[!UICONTROL Add outbound transition with the population]**：這可讓您產生出站轉變，其中包含接收通知的母體。 在傳遞準備期間排除的目標成員會從此轉變中排除。
@@ -72,7 +72,7 @@ ht-degree: 47%
 
 依預設，啟動傳送工作流程只會觸發訊息準備。在工作流程啟動後，仍需要確認從工作流程建立的訊息的傳送。但是，在訊息控制面板中，只有在訊息是從工作流程建立時，您才能停用 **[!UICONTROL Request confirmation before sending messages]** 選項。取消核取此選項後，訊息會在準備完成後不另行通知而傳送。
 
-## 註釋 {#remarks}
+## 備註 {#remarks}
 
 您可以在應用程式的行銷活動清單中存取在工作流程中建立的傳送。您可以使用控制面板來檢視工作流程的執行狀態。推播通知摘要窗格中的連結可讓您直接存取連結的元素（工作流程、行銷活動等）。
 

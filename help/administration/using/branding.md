@@ -9,8 +9,8 @@ level: Experienced
 exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1280'
-ht-degree: 76%
+source-wordcount: '1259'
+ht-degree: 73%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 76%
 
 設定與使用品牌的主要原則為：
 
-1. 建立與設定品牌操作需要特定權限，並由 Adobe Campaign 技術管理員執行。詳細說明在Campaign中取得新品牌的步驟 [在本節中](#creating-a-brand).
+1. 建立及設定品牌 — 此操作需要特定許可權，並由Adobe Campaign技術管理員執行。 詳細說明在Campaign中取得新品牌的步驟 [在本節中](#creating-a-brand).
 1. 為此品牌建立一或多個傳遞與登錄頁面範本。請參閱[建立範本](../../start/using/marketing-activity-templates.md)區段。
 1. 根據此範本建立訊息與登錄頁面。請參閱[建立電子郵件](../../channels/using/creating-an-email.md)及[建立登錄頁面](../../channels/using/designing-a-landing-page.md)區段。
 
@@ -85,7 +85,7 @@ ht-degree: 76%
 
 ## 建立新品牌 {#creating-a-brand}
 
-您可以在Campaign中新增組織的實體，或建立必須在其他子網域下傳送的新電子郵件型別。 請依照下列步驟以執行此操作：
+您可以在Campaign中新增組織的實體，或建立必須在其他子網域下傳送的新電子郵件型別。 若要執行此作業，請依照下列步驟操作：
 
 1. **設定新的子網域**  — 對於Adobe要使用的任何新子網域，第一步是進行設定。 您可以透過以下方式執行此操作： [Campaign控制面板](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=zh-Hant) 或聯絡您的Adobe技術連絡人。 進一步瞭解子網域設定 [本文章](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup.html).
 

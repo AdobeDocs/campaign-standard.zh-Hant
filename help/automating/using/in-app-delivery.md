@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 8d5a35c4-e22b-498e-b71c-c5922cf8c2fd
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 43%
+source-wordcount: '693'
+ht-degree: 39%
 
 ---
 
@@ -40,11 +40,11 @@ ht-degree: 43%
    * 目標維度應設為 **[!UICONTROL subscriptions to an application (nms:appSubscriptionRcp:appSubscriptionRcpDetail)]** 針對 **[!UICONTROL Target users based on their Mobile profile (inApp)]** 範本。
 
 1. 將 **[!UICONTROL In-App delivery]** 活動拖放至工作流程中。
-1. 選取活動，然後使用所顯示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
+1. 選取活動，然後使用所顯示快速動作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
 
    >[!NOTE]
    >
-   >您可以透過活動快速動作的 ![](assets/dlv_activity_params-24px.png) 按鈕，存取活動（而非傳送本身）的一般屬性和進階選項。
+   >您可以透過存取活動（而非傳送本身）的一般屬性和進階選項。 ![](assets/dlv_activity_params-24px.png) 活動快速操作中的按鈕。
 
    ![](assets/wkf_in_app_3.png)
 
@@ -59,7 +59,7 @@ ht-degree: 43%
 1. 輸入您的應用程式內訊息屬性，並在以下位置選取您的行動應用程式： **[!UICONTROL Associate a Mobile App to a delivery]** 欄位。
 1. 在 **[!UICONTROL Triggers]** 索引標籤中，拖放將觸發訊息的事件。提供三種事件類別：
 1. 定義您的應用程式內內容。 請參閱以下區段： [應用程式內自訂](../../channels/using/customizing-an-in-app-message.md).
-1. 依預設，**[!UICONTROL In-App delivery]** 活動不包含任何外站轉變。如果要將出站轉變新增到 **[!UICONTROL In-App delivery]** 活動中，請轉至高階活動選項的　**[!UICONTROL General]**　索引標籤（活動快速操作中的　![](assets/dlv_activity_params-24px.png)　按鈕），然後核取以下選項之一：
+1. 依預設，**[!UICONTROL In-App delivery]** 活動不包含任何外站轉變。如果要將出站轉變新增到 **[!UICONTROL In-App delivery]** 活動中，請轉至高階活動選項的　**[!UICONTROL General]**　索引標籤（活動快速動作中的　![](assets/dlv_activity_params-24px.png)　按鈕），然後核取以下選項之一：
 
    * **[!UICONTROL Add outbound transition without the population]**：這可讓您產生一個外站轉變，其中包含與入站轉變完全相同的母體。
    * **[!UICONTROL Add outbound transition with the population]**：這可讓您產生出站轉變，其中包含傳送訊息的母體。 在傳遞準備期間排除的目標成員會從此轉變中排除。
@@ -72,7 +72,7 @@ ht-degree: 43%
 
 依預設，啟動傳送工作流程只會觸發訊息準備。在工作流程啟動後，仍需要確認從工作流程建立的訊息的傳送。但是，在訊息控制面板中，只有在訊息是從工作流程建立時，您才能停用 **[!UICONTROL Request confirmation before sending messages]** 選項。取消核取此選項後，訊息會在準備完成後不另行通知而傳送。
 
-## 註釋 {#remarks}
+## 備註 {#remarks}
 
 您可以在應用程式的行銷活動清單中存取在工作流程中建立的傳送。您可以使用控制面板來檢視工作流程的執行狀態。推播通知摘要窗格中的連結可讓您直接存取連結的元素（工作流程、行銷活動等）。
 

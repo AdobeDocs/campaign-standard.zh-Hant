@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: ecf88c7d-6729-4b3a-85c4-60427bb57442
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '709'
-ht-degree: 77%
+source-wordcount: '657'
+ht-degree: 78%
 
 ---
 
@@ -87,7 +87,7 @@ ht-degree: 77%
    <td> <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">傳送含有 Campaign 和興趣點資料的位置型行銷訊息</a> （行動裝置分析）<br /> </td> 
   </tr> 
   <tr> 
-   <td> Adobe Experience Cloud 觸發因子<br /> </td> 
+   <td> Adobe Experience Cloud Triggers<br /> </td> 
    <td> 可讓您在 Adobe Campaign 中向您的客戶傳送個人化電子郵件，作為對 Adobe Analytics 在您的網站上追蹤的特定行為的反應。<br /> </td> 
    <td> 
     <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">在 Campaign Standard 中使用 Experience Cloud 觸發器</a>、<a href="../../integrating/using/abandonment-triggers-use-cases.md">放棄觸發器 Campaign 使用案例</a>，<a href="https://helpx.adobe.com/tw/marketing-cloud/how-to/email-marketing.html">根據網站活動影片觸發再行銷訊息</a>（步驟 2）

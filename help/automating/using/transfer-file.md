@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
 source-git-commit: 53852538ac1e092dc9376119f29d969ed4b02952
 workflow-type: tm+mt
-source-wordcount: '1168'
-ht-degree: 82%
+source-wordcount: '1170'
+ht-degree: 75%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 82%
 ## 設定 {#configuration}
 
 1. 將活動 **[!UICONTROL Transfer file]** 拖曳至工作流程中。
-1. 選取活動，然後使用所顯示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
+1. 選取活動，然後使用所顯示快速動作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
 1. 使用 **[!UICONTROL Action]** 欄位中的下拉式清單，選取下列活動動作之一：
 
    ![](assets/wkf_file_transfer_01.png)
@@ -51,10 +51,10 @@ ht-degree: 82%
    * [HTTP](#HTTP-configuration-wf)
    * [SFTP](#SFTP-configuration-wf)
    * [Amazon S3](#S3-configuration-wf)
-   * [Microsoft Azure Blob　儲存](#azure-blob-configuration-wf)
-   * [Adobe Campaign　伺服器上的檔案](#files-server-configuration-wf)
+   * [Microsoft Azure Blob儲存](#azure-blob-configuration-wf)
+   * [Adobe Campaign伺服器上的檔案](#files-server-configuration-wf)
 
-1. **[!UICONTROL Additional options]** 區段根據所選協定而提供，可讓您向通訊協定新增參數。
+1. 此 **[!UICONTROL Additional options]** 區段根據所選協定而提供，可讓您向通訊協定新增引數。
 
    您可以：
 
@@ -74,12 +74,11 @@ ht-degree: 82%
 
 1. 確認活動的設定並儲存工作流程。
 
-### 使用　HTTP　進行設定 {#HTTP-configuration-wf}
+### 使用HTTP進行設定 {#HTTP-configuration-wf}
 
 HTTP　通訊協定可讓您從外部帳戶或　URL　開始下載檔案。
 
 使用此通訊協定，您可以選擇 **[!UICONTROL Use connection parameters defined in an external account]** 選項。 在此情況下，請選取您需要的帳戶，並指定要下載的檔案路徑。
-
 
 ![](assets/wkf_file_transfer_03.png)
 
@@ -88,7 +87,7 @@ HTTP　通訊協定可讓您從外部帳戶或　URL　開始下載檔案。
 
 **[!UICONTROL Follow redirections]**， **[!UICONTROL Ignore the HTTP return code]**、和 **[!UICONTROL Add received HTTP headers to the file]** 是選取HTTP通訊協定時可用的其他選項。
 
-### 使用　SFTP　進行設定 {#SFTP-configuration-wf}
+### 使用SFTP進行設定 {#SFTP-configuration-wf}
 
 SFTP　通訊協定可讓您開始從　URL　或外部帳戶下載檔案。
 
@@ -101,7 +100,7 @@ SFTP　通訊協定可讓您開始從　URL　或外部帳戶下載檔案。
 
 您也可以選取 **[!UICONTROL Quick configuration]** 選項。您只需在 URL 欄位中輸入 URL。
 
-### 使用　Amazon S3　進行設定 {#S3-configuration-wf}
+### 使用Amazon S3進行設定 {#S3-configuration-wf}
 
 Amazon S3　通訊協定可讓您透過　Amazon Simple Storage Service(S3)　從　URL　或外部帳戶開始下載檔案。
 
@@ -121,7 +120,7 @@ Amazon S3　通訊協定可讓您透過　Amazon Simple Storage Service(S3)　�
 
 4. 如果要在傳輸完成時刪除源檔案，請核取 **[!UICONTROL Delete the source files after transfer]**。
 
-### 使用　Microsoft Azure Blob　儲存設定 {#azure-blob-configuration-wf}
+### 使用Microsoft Azure Blob儲存設定 {#azure-blob-configuration-wf}
 
 Microsoft Azure Blob　通訊協定可讓您存取位於　Microsoft Azure Blob　儲存帳戶上的　blob。
 
@@ -143,7 +142,7 @@ Microsoft Azure Blob　通訊協定可讓您存取位於　Microsoft Azure Blob�
    * **&quot;campaign/new-&quot;**：相符項目：所有檔案名稱以　&quot;new-&quot;　開頭且位於　Campaign　檔案夾下方的　blob。
    * **&quot;&quot;**：新增空白路徑可讓您比對容器中所有可用的　blob。
 
-### Adobe Campaign　伺服器上檔案的設定 {#files-server-configuration-wf}
+### Adobe Campaign伺服器上檔案的設定 {#files-server-configuration-wf}
 
 **[!UICONTROL File(s) present on the Adobe Campaign server]**　通訊協定對應於包含要復原的檔案的存放庫。
 中繼字元或萬用字元(例如 &#42; 或？) 可用於篩選檔案。

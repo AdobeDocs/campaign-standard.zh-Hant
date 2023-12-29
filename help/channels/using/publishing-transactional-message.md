@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 12fe13c2-899d-4c85-8381-ba812ff26f54
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 74%
+source-wordcount: '652'
+ht-degree: 70%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 74%
 >
 >僅限具有下列專案的使用者： [管理](../../administration/using/users-management.md#functional-administrators) 角色可以存取及發佈異動訊息。
 
-## 交易式訊息發佈程序 {#transactional-messaging-pub-process}
+## 異動訊息發佈程式 {#transactional-messaging-pub-process}
 
 下圖說明整體交易式訊息發佈程式。
 

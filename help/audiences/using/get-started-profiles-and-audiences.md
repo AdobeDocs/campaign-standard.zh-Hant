@@ -10,8 +10,8 @@ level: Beginner
 exl-id: b4de2f1a-09ec-486d-b1ef-66208cbe211f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 22%
+source-wordcount: '591'
+ht-degree: 10%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 22%
 <td><img src="assets/do-not-localize/icon_privacy.svg" width="60px"><p><a href="#privacy">隱私權法規遵循</a></p></td></tr>
 </table>
 
-Campaign Integrated Customer Profile 可讓您透過單一檢視追蹤所有通道上與客戶的每一次互動，讓您向客戶傳遞相關的個人化訊息。
+Campaign Integrated Customer Profile可讓您透過單一檢視追蹤所有通道上與客戶的每一次互動，讓您向客戶傳遞相關的個人化訊息。
 
 將您的資料庫細分為受眾，以最佳化行銷活動的目標。
 
-使用服務和登陸頁面，管理客戶權限和同意，以便設定簡單的選擇加入和選擇退出機制。
+使用服務和登陸頁面管理客戶許可權和同意，以設定簡單的選擇加入和選擇退出機制。
 
 ## 分段和鎖定 {#segmenting-targeting}
 
@@ -44,7 +44,7 @@ Adobe Campaign會即時建立豐富的客戶設定檔，讓您能夠根據客戶
 
 **受眾** 是根據特定條件或一組條件建立的設定檔清單。 您可以使用工作流程和查詢編輯器，根據行銷活動的資訊、活動及行銷記錄，建構行銷活動鎖定的對象。 這可讓您根據不限數量的條件篩選訂閱的設定檔、範例或建立目標對象。
 
-閱讀全文:
+詳細內容：
 
 * [關於設定檔](../../audiences/using/about-profiles.md)
 * [使用中的設定檔案](../../audiences/using/active-profiles.md)
@@ -68,7 +68,7 @@ Adobe Campaign會即時建立豐富的客戶設定檔，讓您能夠根據客戶
 >
 >您必須遵守 [Adobe Campaign可接受的使用原則](https://www.adobe.com/legal/terms/aup.html).
 
-閱讀全文:
+詳細內容：
 
 * [關於訂閱](../../audiences/using/about-subscriptions.md)
 * [關於 Campaign 中的選擇加入和選擇退出](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)

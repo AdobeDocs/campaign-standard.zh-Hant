@@ -12,13 +12,13 @@ exl-id: 10bd4e4f-78b4-4318-bded-4cf33b466f1d
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '308'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
 # 管理類型 {#managing-typologies}
 
-## 關於類型 {#about-typologies}
+## 關於型別 {#about-typologies}
 
 類型是一組規則，可讓您在傳送郵件之前檢查郵件是否有效。例如：訊息內容並非空白、發生取消訂閱、排除重複內容等。
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 >
 >若要取得其中一個類型規則的詳細資料，請連按兩下。規則將以唯讀模式顯示。
 
-## 建立類型 {#creating-a-typology}
+## 建立型別 {#creating-a-typology}
 
 若要建立新的類型，請依照下列步驟進行：
 
@@ -54,7 +54,7 @@ ht-degree: 100%
 
 1. 按一下 **[!UICONTROL Create]** 以確認您的選取。您的類型現已準備就緒，而可用於訊息。
 
-## 將類型套用到訊息 {#applying-typologies-to-messages}
+## 將型別套用至訊息 {#applying-typologies-to-messages}
 
 將分類與訊息或訊息範本產生關聯時，將執行包含在類型中的類型規則，以檢查消息是否有效。
 

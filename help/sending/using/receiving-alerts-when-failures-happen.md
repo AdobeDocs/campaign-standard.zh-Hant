@@ -10,8 +10,8 @@ level: Beginner
 exl-id: dc8bd1d3-e199-4901-9b1f-7b485879897d
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '2031'
-ht-degree: 2%
+source-wordcount: '2038'
+ht-degree: 1%
 
 ---
 
@@ -75,7 +75,7 @@ ht-degree: 2%
 
 如果您想要根據特定條件將通知傳送給不同的使用者群組，您需要使用數個控制面板。 若要建立新儀表板：
 
-1. 前往 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Delivery alerting]**。
+1. 前往 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Delivery alerting]**.
 1. 選取 **[!UICONTROL Delivery alerting dashboards]** 並按一下 **[!UICONTROL Create]**。
 1. 檢查 **[!UICONTROL Enabled]** 方塊以啟動目前的儀表板。
 
@@ -85,7 +85,7 @@ ht-degree: 2%
 
 1. 選擇您要通知的收件者群組 **[!UICONTROL Alert group]** 下拉式清單。 若要修改或建立群組，請參閱 [建立安全性群組並指派使用者](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users).
 1. 從 **[!UICONTROL Delivery alerting criteria]** 區段，按一下 **[!UICONTROL Create element]** 以新增條件。 另請參閱 [關於警示條件](#about-alerting-criteria).
-1. 選取 **[!UICONTROL Edit properties]** 按鈕。在 **[!UICONTROL Criteria parameters]** 索引標籤中，定義套用條件的方式。 另請參閱 [條件引數](#criteria-parameters).
+1. 選取 **[!UICONTROL Edit properties]** 按鈕。 在 **[!UICONTROL Criteria parameters]** 索引標籤中，定義套用條件的方式。 另請參閱 [條件引數](#criteria-parameters).
 1. 按一下 **[!UICONTROL Create]** 以儲存控制面板。
 
 現在，每當傳送符合您在此控制面板中定義的條件時，就會傳送警報通知給指定的使用者群組。
@@ -132,7 +132,7 @@ ht-degree: 2%
 
 **相關主題：**
 
-* [傳送記錄檔](../../sending/using/monitoring-a-delivery.md#sending-logs)
+* [傳送記錄](../../sending/using/monitoring-a-delivery.md#sending-logs)
 * [警報頻率](#alerting-frequency)
 * [行銷活動圖示和狀態](../../start/using/marketing-activities.md#marketing-activity-icons-and-statuses)
 

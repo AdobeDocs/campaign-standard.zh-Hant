@@ -27,39 +27,39 @@ ht-degree: 58%
                </tr>
                <tr>
                   <td>PKey</td>
-                  <td>False</td>
+                  <td>假</td>
                   <td>字串</td>
-                  <td>False</td>
+                  <td>假</td>
                </tr>
                <tr>
                   <td>ctx</td>
-                  <td>False</td>
+                  <td>假</td>
                   <td>項目</td>
-                  <td>False</td>
+                  <td>假</td>
                </tr>
                <tr>
                   <td>電子郵件</td>
-                  <td>False</td>
+                  <td>假</td>
                   <td>字串</td>
-                  <td>False</td>
+                  <td>假</td>
                </tr>
                <tr>
                   <td>電子郵件格式</td>
-                  <td>False</td>
+                  <td>假</td>
                   <td>分項清單</td>
-                  <td>False</td>
+                  <td>假</td>
                </tr>
                <tr>
                   <td>行動電話</td>
-                  <td>False</td>
+                  <td>假</td>
                   <td>字串</td>
-                  <td>False</td>
+                  <td>假</td>
                </tr>
                <tr>
                   <td>serverUrl</td>
-                  <td>True</td>
+                  <td>真</td>
                   <td>字串</td>
-                  <td>False</td>
+                  <td>假</td>
                </tr>
             </table>
 

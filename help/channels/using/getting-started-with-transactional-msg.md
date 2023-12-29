@@ -11,8 +11,8 @@ level: Beginner
 exl-id: 49fba1af-3c99-45b7-bcbb-b9b9678eedcd
 source-git-commit: 0e486e87c94e273442de23d6eb65c99f065e5a71
 workflow-type: tm+mt
-source-wordcount: '988'
-ht-degree: 9%
+source-wordcount: '992'
+ht-degree: 8%
 
 ---
 
@@ -38,7 +38,7 @@ Adobe Campaign可讓您將此功能與資訊系統整合，資訊系統會將要
 
 開始進行異動訊息傳送前，請務必閱讀與 [最佳作法和限制](../../channels/using/transactional-messaging-limitations.md).
 
-## 交易式訊息傳遞操作原則 {#transactional-messaging-operating-principle}
+## 異動訊息傳遞操作原則 {#transactional-messaging-operating-principle}
 
 交易式訊息傳遞整體程式的說明如下：
 

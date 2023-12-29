@@ -11,14 +11,14 @@ level: Intermediate
 exl-id: 28398843-a170-48cf-b9c0-dca7af56236d
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1666'
-ht-degree: 96%
+source-wordcount: '1672'
+ht-degree: 93%
 
 ---
 
 # 設計登陸頁面{#designing-a-landing-page}
 
-## 關於登錄頁面內容設計內容設計 {#about-content-design}
+## 關於登入頁面內容設計內容設計 {#about-content-design}
 
 會將登錄頁面建立為任何[行銷活動](../../start/using/marketing-activities.md#about-marketing-activities)的形式。
 
@@ -43,7 +43,7 @@ ht-degree: 96%
 >
 >在 Adobe Campaign 中匯入 HTML 頁面之前，請確定它會在各種瀏覽器中開啟並正確顯示。如果 HTML 頁面包含 JavaScript 指令碼，則必須在編輯器外部執行這些指令碼，而不會出現錯誤。一般而言，請避免在郵件內容中使用指令碼，以確保電子郵件用戶端可正確地處理郵件。
 
-## 登錄頁面內容編輯器介面{#landing-page-content-editor-interface}
+## 登入頁面內容編輯器介面{#landing-page-content-editor-interface}
 
 登錄頁面內容編輯器可讓您輕鬆定義、修改及個人化 Adobe Campaign 中的內容。若要存取，請按一下登錄頁面控制面板中的 **[!UICONTROL Content]** 區塊。
 
@@ -237,7 +237,7 @@ ht-degree: 96%
  </tbody> 
 </table>
 
-## 管理登錄頁面結構和樣式{#managing-landing-page-structure-and-style}
+## 管理登入頁面結構和樣式{#managing-landing-page-structure-and-style}
 
 ### 在內容編輯器中管理區塊 {#managing-blocks-in-the-content-editor}
 
@@ -285,7 +285,7 @@ ht-degree: 96%
 
 您也可以使用工具列來變更字型屬性：調整字型大小、使文字變為粗體或斜體、畫底線或變更文字的顏色。請參閱[本區段](../../channels/using/designing-a-landing-page.md#landing-page-content-editor-interface)。
 
-### 在登錄頁面中插入影像 {#inserting-images-in-a-landing-page}
+### 在登入頁面中插入影像 {#inserting-images-in-a-landing-page}
 
 1. 在登錄頁面內容中，選取包含影像的區塊。
 1. 選取 **[!UICONTROL Insert]** 按鈕。
@@ -304,7 +304,7 @@ ht-degree: 96%
 
    ![](assets/des_insert_images_lp_4.png)
 
-## 在登錄頁面中定義動態內容{#defining-dynamic-content-in-a-landing-page}
+## 在登入頁面中定義動態內容{#defining-dynamic-content-in-a-landing-page}
 
 若要定義登錄頁面中的動態內容，請使用階層連結或直接按一下元素來選取區塊。
 

@@ -11,8 +11,8 @@ level: Experienced
 exl-id: b00fdeb9-2431-4209-8a3f-59c7e6ce7c31
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1657'
-ht-degree: 100%
+source-wordcount: '1663'
+ht-degree: 98%
 
 ---
 
@@ -23,12 +23,12 @@ ht-degree: 100%
 在編輯資源時，可在 **[!UICONTROL Data structure]** 索引標籤中新增：
 
 * [欄位](#adding-fields-to-a-resource)
-* [識別鍵](#defining-identification-keys)
+* [識別索引鍵](#defining-identification-keys)
 * [索引](#defining-indexes)
 * [連結](#defining-links-with-other-resources)
-* [傳送記錄檔](#defining-sending-logs-extension)
+* [傳送記錄](#defining-sending-logs-extension)
 
-## 向資源新增欄位 {#adding-fields-to-a-resource}
+## 將欄位新增至資源 {#adding-fields-to-a-resource}
 
 您可以將新欄位新增至資源，以儲存非現成可用資料模型一部分的資料。
 
@@ -71,7 +71,7 @@ ht-degree: 100%
 
 現在已定義資源的欄位。
 
-## 定義標識鍵 {#defining-identification-keys}
+## 定義識別鍵 {#defining-identification-keys}
 
 每個資源至少必須有一個唯一密鑰。例如，您可以指定索引鍵，讓兩個產品在購買表格中不能有相同的 ID。
 
@@ -170,7 +170,7 @@ ht-degree: 100%
 
 1. 在 **[!UICONTROL Join definition]** 區段中，選取預設 **[!UICONTROL Use the primary keys to make the join]** 選項，但您可以選取兩個選項：
 
-   * **[!UICONTROL Use the primary key to make the join]**：此連接定義可讓您使用設定主鍵來調解購買的主鍵。
+   * **[!UICONTROL Use the primary key to make the join]**：此連接定義可讓您使用設定主鍵來調和購買的主鍵。
    * **[!UICONTROL Define specific join conditions]**：此連接定義可讓您手動選取將連接兩個資源的欄位。請注意，如果資料未正確設定，**Purchase** 記錄將不會顯示。
 
    ![](assets/schema_extension_17.png)
@@ -215,7 +215,7 @@ ht-degree: 100%
 
 ![](assets/custom_resource_link_to_profile.png)
 
-## 定義發送日誌擴展 {#defining-sending-logs-extension}
+## 定義傳送日誌擴展 {#defining-sending-logs-extension}
 
 發送日誌擴展可讓您：
 
@@ -277,12 +277,12 @@ ht-degree: 100%
 
 您的修改會儲存。您需要再次發佈資源以套用資源。
 
-## 為設定檔和自訂資源產生唯一 ID {#generating-a-unique-id-for-profiles-and-custom-resources}
+## 為設定檔和自訂資源產生唯一識別碼 {#generating-a-unique-id-for-profiles-and-custom-resources}
 
 依預設，設定檔和自訂資源在建立時沒有業務 ID。您可以啟用在建立元素時自動產生唯一ID的選項。此 ID 可用於：
 
 * 在外部工具中輕鬆識別匯出的記錄。
-* 匯入在其他應用程式中處理的更新資料時，調解記錄。
+* 匯入在其他應用程式中處理的更新資料時，調和記錄。
 
 僅可針對設定檔和自訂資源啟用。
 
@@ -303,7 +303,7 @@ ht-degree: 100%
 
 ![](assets/export_id_field.png)
 
-當重新匯入已在其他應用程式（例如 CRM）中處理/更新的資料時，您可以輕鬆將其與此唯一 ID 調解。
+當重新匯入已在其他應用程式（例如 CRM）中處理/更新的資料時，您可以輕鬆將其與此唯一 ID 調和。
 
 >[!NOTE]
 >

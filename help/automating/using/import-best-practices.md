@@ -10,7 +10,7 @@ exl-id: bb651b91-145f-4e87-92dd-a8b04662e380
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '568'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 2%
 **相關主題：**
 
 * [載入檔案活動](../../automating/using/load-file.md)
-* [調解活動](../../automating/using/reconciliation.md)
+* [調和活動](../../automating/using/reconciliation.md)
 * [細分活動](../../automating/using/segmentation.md)
 * [重複資料刪除活動](../../automating/using/deduplication.md)
 * [更新資料活動](../../automating/using/update-data.md)

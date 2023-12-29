@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 747e82ff-d3e6-4945-8f29-80e4a190c96f
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1764'
-ht-degree: 80%
+source-wordcount: '1720'
+ht-degree: 77%
 
 ---
 
@@ -52,7 +52,7 @@ Adobe Campaign 隨附一組預先定義的外部帳戶。若要設定與外部�
 
 外部帳戶會建立並新增至帳戶清單。它現在可用於工作流活動和傳送屬性中的資料/檔案傳輸或路由配置。
 
-## SFTP 外部帳戶 {#sftp-external-account}
+## SFTP外部帳戶 {#sftp-external-account}
 
 不同的外部帳戶類型需要指定不同的資訊。
 
@@ -62,7 +62,7 @@ Adobe Campaign 隨附一組預先定義的外部帳戶。若要設定與外部�
 * 埠號。例如，**22**。
 * SFTP伺服器憑證：用來連接至伺服器的帳戶名稱和密碼。
 
-### Adobe 代管 SFTP 伺服器建議 {#adobe-hosted-sftp-server-recommendations}
+### Adobe託管的SFTP伺服器建議 {#adobe-hosted-sftp-server-recommendations}
 
 管理用於 ETL 的檔案和資料時，這些檔案儲存在 Adobe 提供的代管 SFTP 伺服器上。此 SFTP 旨在作為臨時儲存空間，您可以在其上控製檔案的保留和刪除。
 
@@ -104,7 +104,7 @@ SFTP 伺服器可從「控制面板」進行管理。如需詳細資訊，請參
 >
 >認證「Content-Type： application/x-www-form-urlencoded」和「grant_type=client_credentials」會自動新增至API呼叫；因此，您不需要將其新增至認證區段。
 
-## Amazon S3 外部帳戶 {#amazon-s3-external-account}
+## Amazon S3外部帳戶 {#amazon-s3-external-account}
 
 Amazon S3 伺服器欄位應填寫如下：
 
@@ -124,7 +124,7 @@ Amazon S3 伺服器欄位應填寫如下：
 >
 >若找不到您的 AWS 地區，則應該輸入 **[!UICONTROL Receiver server]**，以後將自動將其新增到您的 URL 中。
 
-### Amazon S3 帳戶建議 {#amazon-s3-account-recommendations}
+### Amazon S3帳戶建議 {#amazon-s3-account-recommendations}
 
 為協助您設定 Amazon S3 帳戶，我們建議您遵循下列建議：
 
@@ -132,7 +132,7 @@ Amazon S3 伺服器欄位應填寫如下：
 * 建立外部帳戶時，請核取 **[!UICONTROL Keep files in S3 encrypted]** 方塊，啟用加密以將敏感資料儲存在 S3 儲存貯體。
 * 授予儲存貯體權限，以指定誰可以存取儲存貯體中的物件。有關貯體權限的詳細資訊，請參閱 [Amazon S3 文件](https://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html)。
 
-## Adobe Experience Manager 外部帳戶 {#adobe-experience-manager-external-account}
+## Adobe Experience Manager外部帳戶 {#adobe-experience-manager-external-account}
 
 Adobe Experience Manager 外部帳戶用於整合 Campaign 與 Experience Manager。
 
@@ -148,7 +148,7 @@ Adobe Experience Manager 外部帳戶用於整合 Campaign 與 Experience Manage
 
 * AEM 帳戶認證：使用可存取 Adobe Experience Manager 執行個體的帳戶。它應該是 Experience Manager 中行銷活動 - 遠端群組的帳戶部分。
 
-## Google reCAPTCHA 外部帳戶 {#google-recaptcha-external-account}
+## Google reCAPTCHA外部帳戶 {#google-recaptcha-external-account}
 
 >[!NOTE]
 >
@@ -169,7 +169,7 @@ Google reCAPTCHA 機制可讓您保護著陸頁面，使其免受機器人程式
 
 ![](assets/external_accounts_3.png)
 
-## Microsoft Azure Blob 儲存外部帳戶 {#microsoft-azure-external-account}
+## Microsoft Azure Blob儲存外部帳戶 {#microsoft-azure-external-account}
 
 >[!NOTE]
 >
@@ -190,7 +190,7 @@ Azure Blob 儲存連接器可用來匯入或匯出資料至 Adobe Campaign，使
 
 設定之後，按一下 **[!UICONTROL Test connection]**，將 Adobe Campaign 連結至 Microsoft Azure Blob 儲存空間。
 
-### Microsoft Azure Blob 儲存建議 {#azure-blob-recommendations}
+### Microsoft Azure Blob儲存建議 {#azure-blob-recommendations}
 
 **加密**
 

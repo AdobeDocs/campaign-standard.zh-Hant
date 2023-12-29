@@ -12,7 +12,7 @@ exl-id: 9cee2005-a99b-47cb-b573-a25812614409
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '856'
-ht-degree: 86%
+ht-degree: 84%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 86%
 如需 Adobe Campaign 工作流程與不同通道的詳細資訊，請查閱以下文件：
 
 * [探索工作流程](../../automating/using/get-started-workflows.md)
-* [探索通訊通道](../../channels/using/get-started-communication-channels.md)
+* [探索通訊頻道](../../channels/using/get-started-communication-channels.md)
 
 ## 建立工作流程 {#creating-workflow}
 
@@ -110,7 +110,7 @@ ht-degree: 86%
 
 ![](assets/wkf_segment_transitions.png)
 
-## 建立傳送 {#creating-deliveries}
+## 建立傳遞 {#creating-deliveries}
 
 由於已建立兩個轉變，您現在必須將兩種型別的傳送新增至「細分」活動的出站轉變中： [電子郵件傳遞](../../automating/using/email-delivery.md) 活動和 [簡訊傳送](../../automating/using/sms-delivery.md) 活動。
 

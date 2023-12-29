@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '931'
-ht-degree: 72%
+source-wordcount: '921'
+ht-degree: 70%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 72%
 
 安全性群組是一組使用者，在您的組織內共用相同的角色和權限。
 
-使用者必須始終連結到安全性群組。這可讓您指派他們特定的角色和組織單位。若要限制使用者的存取權，請勿將使用者新增至行銷活動 **[!UICONTROL Standard Users]** 連結至的群組 **[!UICONTROL All]** 組織單位。
+使用者必須始終連結到安全性群組。這可讓您指派他們特定的角色和組織單位。 若要限制使用者的存取權，請勿將使用者新增至行銷活動 **[!UICONTROL Standard Users]** 連結至的群組 **[!UICONTROL All]** 組織單位。
 
 如需角色的詳細資訊，下頁的表格會依據使用者角色而提供可能的作業： [Adobe Campaign Standard授權](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf).
 

@@ -11,7 +11,7 @@ exl-id: 1dfc547f-747d-403e-a5b7-a68f56191c71
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '274'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 1. 將 **[!UICONTROL Start]** 或 **[!UICONTROL End]** 活動拖放置您的工作流程中。
 1. 將 **[!UICONTROL Start]** 活動放在其他活動（例如查詢）前面，並在一系列活動後面放置 **[!UICONTROL End]** 活動。
-1. 選取活動，然後使用所顯示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
+1. 選取活動，然後使用所顯示快速動作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
 1. 您可以設定 **End** 物件，以中斷所有持續進行的工作流程任務，包括尚未完成的任務。若要這麼做，請選取相對應的選項。
 1. 確認活動的設定並儲存工作流程。
 

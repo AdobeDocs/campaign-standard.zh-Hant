@@ -11,7 +11,7 @@ exl-id: 986646b1-42d5-4169-ac38-d8e612a9a6d3
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
 source-wordcount: '443'
-ht-degree: 87%
+ht-degree: 84%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 87%
 
 * [應用程式內報告](../../reporting/using/in-app-report.md)
 * [Adobe Campaign Standard 支援的行動使用案例](../../administration/using/configuring-rules-launch.md)
-* [Campaign Standard　行動指南](../../channels/using/get-started-communication-channels.md)
+* [Campaign Standard Mobile指南](../../channels/using/get-started-communication-channels.md)
 
 ## 使用個人和敏感資料處理行動設定檔欄位 {#handling-mobile-profile-fields-with-personal-and-sensitive-data}
 

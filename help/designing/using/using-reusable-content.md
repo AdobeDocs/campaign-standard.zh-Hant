@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 64c3d3dd-0c41-4dbc-abcd-9ddea23759f4
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1817'
+source-wordcount: '1812'
 ht-degree: 2%
 
 ---
@@ -129,7 +129,7 @@ HTML內容範本可從 **[!UICONTROL Resources]** > **[!UICONTROL Content templa
 
    ![](assets/des_loading_compatible_fragment_10.png)
 
-1. 儲存範本。
+1. 儲存您的範本。
 
 您現在可以在電子郵件設計工具中完全管理此範本，以建立和更新您每月傳送給收件者的電子報。
 
@@ -229,7 +229,7 @@ HTML內容範本可從 **[!UICONTROL Resources]** > **[!UICONTROL Content templa
 
    >[!CAUTION]
    >
-   >片段不得包含個人化欄位、動態內容或其他片段.
+   >片段不得包含個人化欄位、動態內容或其他片段。
    >
    >避免儲存為具有空白結構元件的片段內容。 插入>片段後，就無法編輯。
    >

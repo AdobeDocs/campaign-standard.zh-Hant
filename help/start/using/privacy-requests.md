@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1559'
+source-wordcount: '1514'
 ht-degree: 100%
 
 ---
@@ -109,7 +109,7 @@ Adobe Campaign 提供資料控制方工具，可針對儲存在 Adobe Campaign �
 
 ### 資源清單 {#list-of-resources}
 
-執行刪除或存取隱私權要求時，Adobe Campaign 會根據所有包含設定檔資源連結（自有類型）之資源中的&#x200B;**調解**&#x200B;值，以搜尋所有資料主體的資料。
+執行刪除或存取隱私權要求時，Adobe Campaign 會根據所有包含設定檔資源連結（自有類型）之資源中的&#x200B;**調和**&#x200B;值，以搜尋所有資料主體的資料。
 
 執行隱私權要求時，以下是可列入考量的現成可用資源清單：
 

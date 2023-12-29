@@ -6,12 +6,12 @@ hidefromtoc: true
 exl-id: b06e9009-70c7-459f-8a9f-d5b7020d662f
 source-git-commit: f81b8a3b076a6e29b697f21ea4d99fa7d5b6788c
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 4%
+source-wordcount: '435'
+ht-degree: 2%
 
 ---
 
-# 在 ISP 中斷後更新跳出資格 {#update-bounce-qualification.md}
+# 在ISP中斷後更新跳出資格 {#update-bounce-qualification.md}
 
 ## 內容
 

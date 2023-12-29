@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 9dc75d6a-d79a-49aa-a0c0-b1dd6c144ce6
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 90%
+source-wordcount: '466'
+ht-degree: 91%
 
 ---
 
@@ -56,8 +56,8 @@ Experience Cloud 啟動核心服務 **[!UICONTROL Triggers]** 與 Adobe Campaign
 
 * 觸發器不支援推播通知。僅支援電子郵件和簡訊。
 * 您可以透過 Analytics 擷取的中繼資料（例如電子郵件 ID、頁面名稱等）豐富觸發器。
-* 您可以將觸發器調解至儲存在 Campaign Standard 中的設定檔，並使用設定檔的欄位來進行訊息個人化。
-* 一旦收到觸發器，就會處理並調解觸發器並送出。視收到的觸發器數量、範本中使用的個人化欄位數，大約需要 5 到 15 分鐘。
+* 您可以將觸發器調和至儲存在 Campaign Standard 中的設定檔，並使用設定檔的欄位來進行訊息個人化。
+* 一旦收到觸發器，就會處理並調和觸發器並送出。視收到的觸發器數量、範本中使用的個人化欄位數，大約需要 5 到 15 分鐘。
 
 >[!NOTE]
 >

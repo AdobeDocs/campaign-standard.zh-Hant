@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 3bda4227-2a6e-4813-a288-93a4388a9787
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1280'
-ht-degree: 5%
+source-wordcount: '1277'
+ht-degree: 4%
 
 ---
 
@@ -104,7 +104,7 @@ zip檔案結構沒有限制。 但是，參考HTML檔案必須是相對的，並
 1. 定義將從中擷取內容的URL。
 1. 按一下&#x200B;**[!UICONTROL Confirm]**。
 
-在影片中探索此功能.
+在影片中探索此功能。
 
 >[!VIDEO](https://video.tv.adobe.com/v/25926?quality=12)
 
@@ -223,7 +223,7 @@ zip檔案結構沒有限制。 但是，參考HTML檔案必須是相對的，並
 1. 新增結構元件。 如需詳細資訊，請參閱「[編輯電子郵件結構](../../designing/using/designing-from-scratch.md#defining-the-email-structure)」。
 1. 新增HTML元件。 如需詳細資訊，請參閱「[新增片段及元件](../../designing/using/designing-from-scratch.md#defining-the-email-structure)」。
 1. 將您的HTML複製並貼到該元件中。
-1. 切換到行動檢視. 如需詳細資訊，請參閱[本節](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)。
+1. 切換到行動檢視。 如需詳細資訊，請參閱[本節](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)。
 
    回應式檢視中斷，因為您的CSS遺失。
 

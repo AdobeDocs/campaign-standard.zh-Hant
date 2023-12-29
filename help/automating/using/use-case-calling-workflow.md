@@ -10,12 +10,12 @@ level: Intermediate
 exl-id: 7a21f4f6-316f-4f3d-9d53-37d406a46aae
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '1006'
 ht-degree: 1%
 
 ---
 
-# 使用案例 {#use-case}
+# 使用實例 {#use-case}
 
 以下使用案例顯示如何使用工作流程中的引數呼叫工作流程。
 
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 ![](assets/extsignal_uc_process.png)
 
-## 必要條件 {#prerequisites}
+## 先決條件 {#prerequisites}
 
 設定工作流程之前，您需要使用建立工作流程1和2 **[!UICONTROL External signal]** 活動。 如此一來，您就可以在呼叫工作流程時鎖定這些訊號活動。
 

@@ -12,7 +12,7 @@ exl-id: 5138826d-ae08-403b-91ef-91027ef6e78e
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
 source-wordcount: '278'
-ht-degree: 36%
+ht-degree: 30%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 36%
 
    ![](assets/message-center_5.png)
 
-您也可以建立新的測試設定檔，或是使用 **[!UICONTROL Test profiles]** 功能表中已存在的測試設定檔。操作步驟：
+您也可以建立新的測試設定檔，或使用中已存在的測試設定檔 **[!UICONTROL Test profiles]** 功能表。 操作步驟：
 
 1. 按一下 **Adobe** 標誌，在左上角，然後選取 **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
 1. 在 **[!UICONTROL Event]** 區段，選取您剛才建立的事件。 在此範例中，選取「購物車放棄率 (EVTcartAbandonment)」。

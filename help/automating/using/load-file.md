@@ -11,7 +11,7 @@ level: Intermediate
 exl-id: 373e4012-9daf-4da7-aad6-54726d991544
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1364'
+source-wordcount: '1366'
 ht-degree: 93%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 93%
 >範例檔案的資料用於設定活動，但不匯入。建議使用包含少量資料的範例檔案。
 
 1. 將 **[!UICONTROL Load file]** 活動拖放至工作流程中。
-1. 選取活動，然後使用所顯示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
+1. 選取活動，然後使用所顯示快速動作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
 1. 上傳範例檔案，讓您在匯入最終檔案時定義預期結構。
 
    ![](assets/wkf_file_loading.png)
@@ -123,7 +123,7 @@ ht-degree: 93%
 
 載入範例檔案時，會自動偵測欄格式，並使用每個資料類型的預設參數。您可以修改這些預設參數，以指定要套用至資料的特定程式，尤其是當有錯誤或空值時。
 
-要執行此操作，請從要定義其格式的列的快速操作中選取 **[!UICONTROL Edit properties]**。將會開啟欄格式詳細資訊視窗。
+要執行此操作，請從要定義其格式的列的快速動作中選取 **[!UICONTROL Edit properties]**。將會開啟欄格式詳細資訊視窗。
 
 ![](assets/wkf_file_loading4.png)
 

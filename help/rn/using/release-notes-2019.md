@@ -8,7 +8,7 @@ hidefromtoc: true
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '7556'
+source-wordcount: '7674'
 ht-degree: 8%
 
 ---
@@ -252,7 +252,7 @@ ht-degree: 8%
 * 修正當主旨包含多行時破壞電子郵件內容的安全性問題。
 
 
-## 發行版本 19.2.7 – 2019 年 7 月 {#release-19-2-7---july-2019}
+## 發行版本19.2.7 - 2019年7月 {#release-19-2-7---july-2019}
 
 **功能改進**
 
@@ -261,13 +261,13 @@ ht-degree: 8%
 * 修正非管理員使用者無法儲存或排程報表的問題。 (CAMP-31133)
 * 修正在「載入檔案」工作流程活動中使用「|」作為日期分隔符號的問題。 (CAMP-34706)
 
-## 發行版本 19.2.4 – 2019 年 6 月 {#release-19-2-4---june-2019}
+## 發行版本19.2.4 - 2019年6月 {#release-19-2-4---june-2019}
 
 **電子郵件設計工具**
 
 * 修正在HTML中使用空白樣式標籤時，使用者無法編輯片段的問題。 這是19.2.3中CAMP-33778的後續修正。
 
-## 發行版本 19.2.3 – 2019 年 6 月 {#release-19-2-3---june-2019}
+## 發行版本19.2.3 - 2019年6月 {#release-19-2-3---june-2019}
 
 **電子郵件設計工具**
 
@@ -360,14 +360,14 @@ ht-degree: 8%
 * 已從動態報告中移除郵遞區號維度。 我們建議改用城市、國家/地區、州別維度。
 * 應用程式內訊息的「首次啟動」生命週期事件觸發器已移除。
 * 匯出具有安全性群組的套件時，它現在會包含指派給每個群組的角色。 (CAMP-32960)
-* 在「載入檔案」活動中，新選項可讓您檢查要上傳的檔案的列是否與列定義相符。 如需詳細資訊，請參閱[詳細文件](../../automating/using/load-file.md)以瞭解詳情。(CAMP-32229)
-* 工作流程現在可以使用裝載啟動，讓您在工作流程內的活動之間使用和共用外部引數。 如需詳細資訊，請參閱[詳細文件](../../automating/using/calling-a-workflow-with-external-parameters.md)以瞭解詳情。(CAMP-29412和CAMP-29413)
+* 在「載入檔案」活動中，新選項可讓您檢查要上傳的檔案的列是否與列定義相符。 如需詳細資訊，請參閱 [詳細檔案](../../automating/using/load-file.md). (CAMP-32229)
+* 工作流程現在可以使用裝載啟動，讓您在工作流程內的活動之間使用和共用外部引數。 如需詳細資訊，請參閱 [詳細檔案](../../automating/using/calling-a-workflow-with-external-parameters.md). (CAMP-29412和CAMP-29413)
 * Campaign Standard API現在可讓您使用裝載更新設定檔的地理和組織單位。 如需詳細資訊，請參閱[詳細文件](../../api/using/get-started-apis.md)以瞭解詳情。
 * 無法存取資料庫中的物件時的錯誤訊息已更清楚瞭解。
 * 在擷取檔案活動中，定義要匯出的檔案名稱時，已更新Javascript功能。 現在只有formatDate函式可用於「輸出」欄位。 如需詳細資訊，請參閱[詳細文件](../../automating/using/extract-file.md)以瞭解詳情。
 * 自訂資源的自動序列ID產生功能已有所改善。 新自訂資源的主鍵現在預設為64位元。
 * 已改善自訂資源發佈測試模式。 如果上次自訂資源發佈失敗且未修正，現在會向使用者顯示警告訊息。 自訂資源發佈失敗後，您可以復原到上一個工作版本。 如需詳細資訊，請參閱[詳細文件](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)以瞭解詳情。
-* 已在傳輸檔案活動中新增選項。 它可讓您在使用SFTP模式的檔案下載動作時排序檔案。 如需詳細資訊，請參閱[詳細文件](../../automating/using/transfer-file.md)以瞭解詳情。(CAMP-33109)
+* 已在傳輸檔案活動中新增選項。 它可讓您在使用SFTP模式的檔案下載動作時排序檔案。 如需詳細資訊，請參閱 [詳細檔案](../../automating/using/transfer-file.md). (CAMP-33109)
 
 **修補程式**
 
@@ -390,7 +390,7 @@ ht-degree: 8%
 * 修正了傳送工作流程未成功完成時關閉工作流程的問題。
 * 修正使用者無法儲存或排程報表的問題。 (CAMP-31133)
 
-## 發行版本 19.1.3 – 2019 年 3 月 {#release-19-1-3---march-2019}
+## 發行版本19.1.3 - 2019年3月 {#release-19-1-3---march-2019}
 
 **電子郵件設計工具增強功能**
 
@@ -432,7 +432,7 @@ ht-degree: 8%
    <td> 工作流程增強功能<br /> </td> 
    <td> <p>已新增下列工作流程功能：</p> 
     <ul> 
-     <li> 您現在可以在工作流程或其他工作流程中，從相同的Campaign執行個體複製貼上活動。 如此一來，您便可輕鬆複製整個工作流程或特定活動，同時保留最初定義的設定。 如需詳細資訊，請參閱<a href="../../automating/using/workflow-interface.md#duplicating-workflow-activities">詳細文件</a>以瞭解詳情。(CAMP-20014) </li> 
+     <li> 您現在可以在工作流程或其他工作流程中，從相同的Campaign執行個體複製貼上活動。 如此一來，您便可輕鬆複製整個工作流程或特定活動，同時保留最初定義的設定。 如需詳細資訊，請參閱 <a href="../../automating/using/workflow-interface.md#duplicating-workflow-activities">詳細檔案</a>. (CAMP-20014) </li> 
      <li> 使用時 <strong>載入檔案</strong> 活動，您現在可以將時間戳記新增至包含拒絕記錄的檔案名稱。 如需詳細資訊，請參閱<a href="../../automating/using/load-file.md#configuration">詳細文件</a>以瞭解詳情。 </li> 
      <li> <strong>查詢</strong> 和 <strong>細分</strong> 活動現在可讓您在活動未擷取任何資料時啟用出站轉變。 </li> 
     </ul> </td> 
@@ -531,7 +531,7 @@ ht-degree: 8%
      <li> 能夠 <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">準備時從URL自動擷取內容</a> </li> 
      <li> 完全相容 <a href="../../designing/using/using-reusable-content.md#content-templates">現成可用的內容範本</a>. </li> 
     </ul> 
-    <p>如需詳細資訊，請參閱<a href="../../designing/using/designing-content-in-adobe-campaign.md">詳細文件</a>及<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">作法影片</a>。以下列出改善與修正。</p><p>因此，舊版的電子郵件內容編輯器現已棄用。 如需詳細資訊，請參閱此 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=zh-Hant#release-notes">頁面</a>.</p> </td> 
+    <p>如需詳細資訊，請參閱 <a href="../../designing/using/designing-content-in-adobe-campaign.md">詳細檔案</a> 和 <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">作法影片</a>. 以下列出改善與修正。</p><p>因此，舊版的電子郵件內容編輯器現已棄用。 如需詳細資訊，請參閱此 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=zh-Hant#release-notes">頁面</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> 異動電子郵件中的產品清單<br /> </td> 

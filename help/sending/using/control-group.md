@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 553897d4-2652-453f-960e-bb2993889f37
 source-git-commit: 9bfae9e956fa86254578eda821aedd240c81288c
 workflow-type: tm+mt
-source-wordcount: '1300'
-ht-degree: 98%
+source-wordcount: '1317'
+ht-degree: 95%
 
 ---
 
@@ -147,7 +147,7 @@ ht-degree: 98%
 
 擷取的設定檔（100 個最舊的設定檔）和根據査詢定義的設定檔（20 個以下的設定檔）將從主要目標中撤回。他們並不會收到訊息。
 
-## 比較此結果 {#delivery-logs}
+## 比較結果 {#delivery-logs}
 
 既然您已傳送訊息，您可以對控制組做什麼？
 

@@ -10,14 +10,14 @@ level: Intermediate
 exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1302'
-ht-degree: 64%
+source-wordcount: '1281'
+ht-degree: 63%
 
 ---
 
 # 瞭解傳遞故障{#understanding-delivery-failures}
 
-## 瞭解傳送故障 {#about-delivery-failures}
+## 關於傳送失敗 {#about-delivery-failures}
 
 當傳送無法傳送至設定檔時，遠端伺服器會自動傳送錯誤訊息，此錯誤訊息會由 Adobe Campaign 平台擷取，並限定為隔離電子郵件地址或電話號碼。請參閱[退信資格](#bounce-mail-qualification)。
 
@@ -25,7 +25,7 @@ ht-degree: 64%
 >
 >**電子郵件**&#x200B;錯誤訊息（或「退信」）由 Enhanced MTA（同步退信）或 inMail 程序（非同步退信）限定。
 >
->**SMS** 錯誤訊息（或 &quot;SR&quot; 作為 &quot;Status Report&quot;）會由 MTA 程序限定。
+>**簡訊錯誤訊息（或 &quot;SR&quot; 作為 &quot;Status Report&quot;）會由 MTA 程序限定。**
 
 如果地址被隔離或設定檔位於封鎖清單中，也可以在傳送準備期間排除訊息。 已排除的訊息會列在傳送控制面板的　**[!UICONTROL Exclusion logs]**　索引標籤中（請參閱[本區段](../../sending/using/monitoring-a-delivery.md#exclusion-logs)）。
 
@@ -35,9 +35,9 @@ ht-degree: 64%
 
 * [瞭解隔離管理](../../sending/using/understanding-quarantine-management.md)
 * [關於 Campaign 中的選擇加入和選擇退出](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
-* [退回次數](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)
+* [跳出數](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)
 
-## 識別訊息的傳送失敗 {#identifying-delivery-failures-for-a-message}
+## 識別訊息的傳遞失敗 {#identifying-delivery-failures-for-a-message}
 
 傳送傳送後，**[!UICONTROL Sending logs]**　索引標籤（請參閱[本區段](../../sending/using/monitoring-a-delivery.md#sending-logs)）可讓您檢視每個設定檔的傳送狀態，以及相關的失敗類型和原因（請參閱[傳送失敗類型和原因](#delivery-failure-types-and-reasons)）。
 
@@ -45,7 +45,7 @@ ht-degree: 64%
 
 此外，也提供專屬的現成可用報表。此報表詳細說明傳送期間遇到的整體硬式和軟式錯誤，以及自動處理退信。如需詳細資訊，請參閱[本區段](../../reporting/using/bounce-summary.md)。
 
-## 傳送失敗類型和原因 {#delivery-failure-types-and-reasons}
+## 傳遞失敗型別和原因 {#delivery-failure-types-and-reasons}
 
 傳送失敗時有三種錯誤類型：
 
@@ -61,7 +61,7 @@ ht-degree: 64%
 | **[!UICONTROL Quarantined address]** | 強烈 | 地址被放入隔離區。 |
 | **[!UICONTROL Unreachable]** | 軟/硬 | 訊息傳送鏈中發生錯誤（例如暫時無法存取網域）。 根據提供者傳回的錯誤，將直接傳送地址給隔離，或者重新嘗試傳送，直到 Campaign 收到證明隔離狀態正確的錯誤或錯誤數達到 5 為止。 |
 | **[!UICONTROL Address empty]** | 強烈 | 地址未定義。 |
-| **[!UICONTROL Mailbox full]** | 柔光 | 此使用者的信箱已滿，無法接受更多郵件。 可以從隔離清單中刪除此地址，以進行另一次嘗試。在 30 天後自動移除。為了從隔離位址清單自動移除位址，您必須啟動 **[!UICONTROL Database cleanup]** 技術工作流程。 |
+| **[!UICONTROL Mailbox full]** | 柔光 | 此使用者的信箱已滿，無法接受更多郵件。 可以從隔離清單中刪除此地址，以進行另一次嘗試。30天後自動移除。 為了從隔離位址清單自動移除位址，您必須啟動 **[!UICONTROL Database cleanup]** 技術工作流程。 |
 | **[!UICONTROL Refused]** | 軟/硬 | 由於安全反饋為垃圾郵件報告，該地址已被置於隔離狀態。 根據提供者傳回的錯誤，將直接傳送地址給隔離，或者重新嘗試傳送，直到 Campaign 收到證明隔離狀態正確的錯誤或錯誤數達到 5 為止。 |
 | **[!UICONTROL Duplicate]** | 已忽略 | 區段中已偵測到該位址。 |
 | **[!UICONTROL Not defined]** | 柔光 | 該位址正在限定中，因為錯誤並未增加。 | 尚。 當伺服器傳送新錯誤訊息時，會發生此類錯誤：它可能是孤立的錯誤，但如果再次發生，錯誤計數器會增加，這會提醒技術團隊。 |
@@ -70,13 +70,13 @@ ht-degree: 64%
 | **[!UICONTROL Account disabled]** | 軟/硬 | 當網際網路存取提供者(IAP)偵測到長時間的不活動時，它可以關閉使用者帳戶：傳送至使用者位址的作業將無法進行。 「軟式」或「硬式」類型取決於收到的錯誤類型：如果帳戶因為 6 個月的閒置而暫時停用，而且仍可啟動，則會指派狀態 **[!UICONTROL Erroneous]** 並再次嘗試傳送。如果收到錯誤訊號表明帳戶已永久停用，則會直接將其發送到隔離。 |
 | **[!UICONTROL Not connected]** | 已忽略 | 當傳送訊息時，設定檔的行動電話已關閉或未連線至網路。 |
 | **[!UICONTROL Invalid domain]** | 柔光 | 電子郵件地址的網域不正確或已不存在。 此設定檔將再次定位，直到錯誤計數達到5。之後，記錄將設定為「隔離」狀態，不會再重試。 |
-| **[!UICONTROL Text too long]** | 已忽略 | SMS訊息中的字元數量超過限制。 如需詳細資訊，請參閱 [SMS 編碼、長度和音譯](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)。 |
+| **[!UICONTROL Text too long]** | 已忽略 | SMS訊息中的字元數量超過限制。 如需詳細資訊，請參閱簡訊編碼、長度和音譯](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)。[ |
 | **[!UICONTROL Character not supported by encoding]** | 已忽略 | SMS訊息包含一或多個編碼不支援的字元。 有關詳細資訊，請參閱[字元表- GSM標準](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard)。 |
 
 
 **相關主題：**
-* [硬退回次數](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces)
-* [軟退回次數](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
+* [硬跳出](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces)
+* [軟退信](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
 
 ## 傳送暫時失敗後重試 {#retries-after-a-delivery-temporary-failure}
 

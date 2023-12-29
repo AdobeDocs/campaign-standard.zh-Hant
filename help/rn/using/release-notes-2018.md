@@ -8,7 +8,7 @@ hidefromtoc: true
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
 source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '5355'
+source-wordcount: '5386'
 ht-degree: 3%
 
 ---
@@ -207,7 +207,7 @@ ht-degree: 3%
     <ul> 
      <li> 匯出包含「凍結」資料的擴充broadlog：作為行銷人員，我想匯出區段代碼等於「A」（來自工作流程引擎）的所有設定檔。 </li> 
      <li> 「凍結」資料的分段：身為行銷人員，我希望 <strong>重新目標定位</strong> 自上次傳送以來或區段代碼等於「A」時，已獲得1000個忠誠點的所有設定檔。 </li> 
-    </ul> 如需詳細資訊，請參閱<a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">詳細文件</a>以瞭解詳情。<br /> </td> 
+    </ul> 如需詳細資訊，請參閱 <a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">詳細檔案</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 使用自訂設定檔資料建立動態報告<br /> </td> 
@@ -257,7 +257,7 @@ ht-degree: 3%
 
 **修補程式**
 
-_平台_
+_Platform_
 
 * 修正了無法正確處理GDPR存取或刪除請求的錯誤。 在某些極少數的情況下，當擷取的資料包含以下字元之一時，就會發現此行為： &amp; &lt; > &quot; &#39;。
 
@@ -297,7 +297,7 @@ _自訂資源_
     <ul> 
      <li> 存取許可權：允許資料主體接收資料控制者擷取的個人資料副本，其中可能包括儲存在Adobe Campaign中的資料。 </li> 
      <li> 刪除權：資料主體有權清除資料控制者擷取的個人資料，可能包括儲存在Adobe Campaign中的資料。 </li> 
-    </ul> 如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">詳細文件</a>以瞭解詳情。<br /> </td> 
+    </ul> 如需詳細資訊，請參閱 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">詳細檔案</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 適用於電子郵件的Creative Designer （測試版）<br /> </td> 
@@ -319,14 +319,14 @@ _自訂資源_
     <ul> 
      <li> 利用自訂欄位作為調解標準，將交易式訊息與設定檔進行比對 </li> 
      <li> 運用完整的設定檔、服務和連結資料，進一步個人化異動訊息 </li> 
-    </ul> 如需詳細資訊，請參閱<a href="../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content">詳細文件</a>以瞭解詳情。<br /> </td> 
+    </ul> 如需詳細資訊，請參閱 <a href="../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content">詳細檔案</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **修補程式**
 
-_平台_
+_Platform_
 
 * 修正無法從清單匯出超過5000筆記錄的問題。
 * 修正將資料匯出至名為且包含個人化欄位的檔案時的問題。
@@ -394,7 +394,7 @@ _異動訊息_
 
 **修補程式**
 
-_平台_
+_Platform_
 
 * Adobe Campaign介面的頂端列已更新為新的Experience Cloud功能表。
 * 修正連結至時發生的問題 **[!UICONTROL Offers]** ，以免在解決方案下拉式清單中顯示。
@@ -455,7 +455,7 @@ _已知問題_
   </tr> 
   <tr> 
    <td> 推播新功能<br /> </td> 
-   <td> 推送訊息預覽 — 從推送通知內容編輯器預覽在iOS和Android裝置上顯示的推送通知，在測試或執行傳送前可先檢視收件者所見到的內容。<br />如需詳細資訊，請參閱<a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">詳細文件</a>以瞭解詳情。<br /> 可用內容 — 如果使用者在一段時間後都未開啟應用程式，系統便會將其資料視為過時。 這會導致在使用者最終開啟應用程式時，必須更新或取代資料，這可能會造成使用應用程式發生延遲。 透過新增的「可用內容」支援，Adobe Campaign使用者在傳送推播通知時，可喚醒其應用程式以重新整理背景中的資料，進而增進一致性和對使用者應用程式內體驗的控制。<br /> 可變動內容 — 透過新增的「可變動內容」支援，Adobe Campaign使用者現在可運用行動應用程式延伸模組，進一步修改來自Adobe Campaign之推送通知的內容或呈現方式。 例如，使用者可利用可變內容來： <br /> 
+   <td> 推送訊息預覽 — 從推送通知內容編輯器預覽在iOS和Android裝置上顯示的推送通知，在測試或執行傳送前可先檢視收件者所見到的內容。<br /> 如需詳細資訊，請參閱 <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">詳細檔案</a>.<br /> 可用內容 — 如果使用者在一段時間後都未開啟應用程式，系統便會將其資料視為過時。 這會導致在使用者最終開啟應用程式時，必須更新或取代資料，這可能會造成使用應用程式發生延遲。 透過新增的「可用內容」支援，Adobe Campaign使用者在傳送推播通知時，可喚醒其應用程式以重新整理背景中的資料，進而增進一致性和對使用者應用程式內體驗的控制。<br /> 可變動內容 — 透過新增的「可變動內容」支援，Adobe Campaign使用者現在可運用行動應用程式延伸模組，進一步修改來自Adobe Campaign之推送通知的內容或呈現方式。 例如，使用者可利用可變內容來： <br /> 
     <ul> 
      <li> 解密以加密格式傳送的資料 </li> 
      <li> 下載影像或其他媒體檔案，並將它們新增為通知的附件 </li> 
@@ -476,7 +476,7 @@ _已知問題_
 
 **修補程式**
 
-_平台_
+_Platform_
 
 * 設定檔搜尋已最佳化，以提升效能。
 * 對於標準使用者，預設安全性群組的內部識別碼現在處於唯讀模式。

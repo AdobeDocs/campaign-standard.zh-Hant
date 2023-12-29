@@ -1,6 +1,6 @@
 ---
-title: 調解
-description: 「調解」活動可讓您將未標識的資料連結到現有資源。
+title: 調和
+description: 「調和」活動可讓您將未標識的資料連結到現有資源。
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
@@ -16,7 +16,7 @@ ht-degree: 78%
 
 ---
 
-# 調解{#reconciliation}
+# 調和{#reconciliation}
 
 ## 說明 {#description}
 
@@ -50,16 +50,16 @@ ht-degree: 78%
 ## 設定 {#configuration}
 
 1. 將 **[!UICONTROL Reconciliation]** 活動拖放到您的工作流程，亦即位在包含母體的轉變之後，而且其母體的目標維度不會直接來自於 Adobe Campaign。如需詳細資訊，請參閱[目標維度和資源](../../automating/using/query.md#targeting-dimensions-and-resources)。
-1. 選取活動，然後使用所顯示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
+1. 選取活動，然後使用所顯示快速動作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
 1. 如果要定義傳入資料與其他資料庫維度之間的連結，請移至 **[!UICONTROL Links]** 索引標籤。
 
    視需要盡量新增關係。對於每個關係，首先選取連結的維度，然後在連結詳細資訊中指定相對應的欄位。
 
 1. 如果您只想識別入站資料，請移至 **[!UICONTROL Identification]** 索引標籤並核取 **[!UICONTROL Identify the document from the working data]** 方塊。
 
-   選取您要調解入站資料的目標維度。
+   選取您要調和入站資料的目標維度。
 
-   新增調解條件，將入站轉變記錄連結至選取的目標維度記錄。如果指定了多個標準，則必須對這些標準進行驗證，以使其所有資料之間的連結能夠運作。
+   新增調和條件，將入站轉變記錄連結至選取的目標維度記錄。如果指定了多個標準，則必須對這些標準進行驗證，以使其所有資料之間的連結能夠運作。
 
    選取 **[!UICONTROL Processing unidentified source lines]** 模式：
 

@@ -11,8 +11,8 @@ level: Beginner
 exl-id: 07cbf39c-4f53-49b1-8e85-c6df39f014b5
 source-git-commit: 2adead5903eb2710207d7aeaaa85418bd616ca5d
 workflow-type: tm+mt
-source-wordcount: '836'
-ht-degree: 95%
+source-wordcount: '841'
+ht-degree: 94%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Campaign 中的 A/B 測試功能允許您定義兩至三種電子郵件變
 >
 >無法對在 Adobe Experience Manager 中建立的電子郵件進行 A/B 測試。
 
-## 建立 A/B 測試電子郵件 {#creating-an-a-b-test-email}
+## 建立A/B測試電子郵件 {#creating-an-a-b-test-email}
 
 您可使用標準電子郵件建立精靈來建立 A/B 測試，並新增 A/B 測試設定之步驟。如需建立標準電子郵件的詳細資訊，請參閱[建立電子郵件](../../channels/using/creating-an-email.md)區段。
 
@@ -90,7 +90,7 @@ Adobe Campaign 中的 A/B 測試功能允許您定義兩至三種電子郵件變
 
 您的電子郵件現在已定義並傳送。您可以存取其日誌與報告，以評估行銷活動的成功。
 
-## 關於 A/B 測試指標 {#about-a-b-test-indicators}
+## 關於A/B測試指標 {#about-a-b-test-indicators}
 
 在電子郵件控制面板中，有數個指標可以協助您測量 A/B 測試： 點按次數、開啟次數、彈出次數等。
 

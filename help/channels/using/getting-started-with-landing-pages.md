@@ -11,7 +11,7 @@ exl-id: 8015c555-9521-478c-8669-66b9cc145887
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
 source-wordcount: '1025'
-ht-degree: 97%
+ht-degree: 93%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 97%
 * [建立服務](../../audiences/using/creating-a-service.md)
 * [設定雙重選擇加入流程](setting-up-a-double-opt-in-process.md)
 
-## 登錄頁面限制{#landing-page-limitations}
+## 登入頁面限制{#landing-page-limitations}
 
 下節列出您在開始設定登錄頁面之前應注意的限制。
 
@@ -49,9 +49,9 @@ ht-degree: 97%
 
 * 具有預先填入表單的登錄頁面（已使用資料預先載入頁面）只能從 Adobe Campaign 電子郵件存取。無法從網站頁面存取此類表格。
 
-**調解**
+**調和**
 
-* 調解行為如下：找到相符項目之後，調解進度就會停止。這表示調解只能在一個設定檔記錄上進行，如果有重複項目，則無法在多個記錄上進行。
+* 調和行為如下：找到相符項目之後，調和進度就會停止。這表示調和只能在一個設定檔記錄上進行，如果有重複項目，則無法在多個記錄上進行。
 
 例如，您想要將下列贏取登錄頁面傳送至設定檔，以使用設定檔的行動號碼更新 Campaign 資料庫。
 
@@ -67,7 +67,7 @@ ht-degree: 97%
 
 * 登錄頁面僅適用於設定檔，而非測試設定檔，這表示登錄頁面無法作為電子郵件證明的一部分進行測試。
 
-## 步驟 1 –設定登錄頁面範本 {#configure-the-landing-page-template}
+## 步驟1 — 設定登入頁面範本 {#configure-the-landing-page-template}
 
 設定登錄頁面之前，第一步是設定符合您需求的登錄頁面範本。範本準備就緒後，會使用所需的參數來預先設定所有以該範本為基礎的登錄頁面。
 
@@ -79,7 +79,7 @@ ht-degree: 97%
 
 ![](assets/lp-steps1.png)
 
-## 步驟 2 –建立和設定登錄頁面 {#create-and-configure-the-landing-page}
+## 步驟2 — 建立和設定登入頁面 {#create-and-configure-the-landing-page}
 
 從上一步驟中定義的範本，在方案或行銷活動中建立新的登錄頁面。
 
@@ -94,7 +94,7 @@ ht-degree: 97%
 >
 >您的修改僅對正在編輯的登錄頁面有效。如果您想要將這些修改套用至其他登錄頁面，您可以在專用的範本中執行這些修改，然後從該範本建立其他登錄頁面。
 
-## 步驟　3 –設計登錄頁面 {#design-the-landing-page}
+## 步驟3 — 設計登入頁面 {#design-the-landing-page}
 
 您現在可以定義登錄頁面的內容。依預設，登錄頁面包含三個可透過捲動箭頭存取的頁面：主要內容頁面、確認頁面和錯誤頁面。
 
@@ -106,7 +106,7 @@ ht-degree: 97%
 
 如需登錄頁面設計的詳細資訊，請參閱[本區段](../../channels/using/designing-a-landing-page.md)。
 
-## 步驟　4 –測試登錄頁面 {#test-the-landing-page}
+## 步驟4 — 測試登入頁面 {#test-the-landing-page}
 
 一旦定義登錄頁面後，您就可以模擬其執行方式，並在登錄頁面可線上使用時採取動作。
 
@@ -120,7 +120,7 @@ ht-degree: 97%
 
 如需如何測試登錄頁面的詳細資訊，請參閱[本區段](../../channels/using/testing-publishing-landing-page.md#testing-the-landing-page-)。
 
-## 步驟　5 –發佈登錄頁面 {#publish-the-landing-page}
+## 步驟5 — 發佈登入頁面 {#publish-the-landing-page}
 
 測試成功後，您就可以使用控制面板中動作列的 **[!UICONTROL Publish]** 按鈕以發佈登錄頁面。監控區塊會顯示發佈的進展和狀態。
 

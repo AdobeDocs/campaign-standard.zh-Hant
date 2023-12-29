@@ -1,5 +1,5 @@
 ---
-title: 為何選擇 Campaign Standard API?
+title: 為何要使用Campaign Standard API？
 description: 進一步瞭解Campaign Standard API及為何使用。
 audience: developing
 content-type: reference
@@ -10,12 +10,12 @@ level: Experienced
 exl-id: ef045e5d-cd02-44a0-9a1e-d468483a38d9
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 3%
+source-wordcount: '472'
+ht-degree: 1%
 
 ---
 
-# 為何使用 Campaign Standard API {#why-using-campaign-standard-apis}
+# 為何使用Campaign Standard API {#why-using-campaign-standard-apis}
 
 Adobe Campaign Standard提供的API可讓現有系統與Campaign平台整合，以即時解決現實世界中的問題。
 

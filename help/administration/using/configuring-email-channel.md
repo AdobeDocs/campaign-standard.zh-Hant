@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
 source-git-commit: a1b947acf70803a7350dd626e697318e0ed35f26
 workflow-type: tm+mt
-source-wordcount: '2681'
-ht-degree: 62%
+source-wordcount: '2683'
+ht-degree: 59%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 62%
 
 身為 Campaign [管理員](../../administration/using/users-management.md#functional-administrators)，您可以進行電子郵件通道設定。這些進階設定包含一般電子郵件通道參數、電子郵件路由帳戶、電子郵件處理規則和電子郵件屬性。在本頁瞭解如何編輯一般電子郵件和傳送引數的預設值。
 
-## 電子郵件通道參數 {#email-channel-parameters}
+## 電子郵件通道引數 {#email-channel-parameters}
 
 電子郵件設定畫面可用於定義電子郵件通道的參數。管理員可以存取「**[!UICONTROL Administration]> [!UICONTROL Channels] > [!UICONTROL Email] >[!UICONTROL Configuration]**」功能表中的這些設定。
 
@@ -38,7 +38,7 @@ ht-degree: 62%
 
 * **傳送參數**
 
-  Adobe Campaign 會從開始日期開始傳送訊息。
+  Adobe Campaign會從開始日期開始傳送訊息。
 
   當傳送中的訊息因暫時錯誤或軟退信而遭到拒絕時，Campaign會每天重試傳送此訊息。 使用 **[!UICONTROL Message delivery duration]** 指定重試期間時間範圍的欄位。
 
@@ -132,7 +132,7 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 
 ![](assets/delivery_options_1.png)
 
-### 一般參數 {#general-parameters}
+### 一般引數 {#general-parameters}
 
 在電子郵件參數畫面頂端，使用 **[!UICONTROL Label]** 及 **[!UICONTROL ID]** 欄位來視別電子郵件。此資訊會顯示在介面中，但郵件收件者看不到。
 
@@ -148,11 +148,11 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 
 您也可以在對應欄位中新增 **[!UICONTROL Description]**，並編輯清單中電子郵件縮圖上顯示的影像。
 
-### 傳送參數 {#sending-parameters}
+### 傳送引數 {#sending-parameters}
 
 **[!UICONTROL Send]** 區段僅適用於電子郵件範本。其包含下列參數：
 
-#### 重試參數 {#retries-parameters}
+#### 重試引數 {#retries-parameters}
 
 暫時未傳送的郵件可能會自動重試。如需詳細資訊，請參閱[傳送暫時失敗後重試](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)。
 
@@ -162,7 +162,7 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 
 在 Campaign 中設定的&#x200B;**傳送持續期間設定**（在[有效期間參數](#validity-period-parameters)區段中定義）**仍將接受，但最多只能接受　3.5　天**。此時，重試佇列中的任何郵件都會從佇列中移除，並以退信的形式傳回。如需傳送失敗的詳細資訊，請參閱[本節](../../sending/using/understanding-delivery-failures.md#about-delivery-failures)。
 
-#### 電子郵件格式參數 {#email-format-parameters}
+#### 電子郵件格式引數 {#email-format-parameters}
 
 您可以設定要傳送的電子郵件格式。有三種可用選項：
 
@@ -175,7 +175,7 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 
 * **以文字格式傳送所有郵件**：郵件會以文字格式傳送。將不會傳送　HTML　格式，但只有當收件者按一下郵件中的連結時，才會用於鏡像頁面。
 
-#### SMTP　測試模式 {#smtp-test-mode}
+#### SMTP測試模式 {#smtp-test-mode}
 
 使用 **[!UICONTROL Enable SMTP test mode]** 用於測試透過SMTP連線傳送的電子郵件，而不會實際傳送郵件的選項。 處理傳遞直到連線到 SMTP 伺服器，但不傳送：對於傳遞的每個收件者，Campaign 會連線到 SMTP 提供者伺服器，執行 SMTP RCPT TO 命令，並在 SMTP DATA 命令之前關閉連線。
 
@@ -192,7 +192,7 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 
 有關設定　SMTP　的詳細資訊，請參閱[電子郵件　SMTP　參數清單](#list-of-email-smtp-parameters)小節。
 
-### 有效期間參數 {#validity-period-parameters}
+### 有效期間引數 {#validity-period-parameters}
 
 **[!UICONTROL Validity period]** 一節包含下列參數：
 
@@ -275,11 +275,11 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 
 * **[!UICONTROL Save SQL queries in the log]**：使用此選項可在準備階段期間，將SQL查詢記錄檔新增至日誌。
 
-#### 校樣設定 {#proof-settings}
+#### 證明設定 {#proof-settings}
 
 在此區段中，您可以設定要用於校樣訊息主旨行的預設首碼。 進一步瞭解中的校訂 [本節](../../sending/using/sending-proofs.md).
 
-### 電子郵件 SMTP 參數清單 {#list-of-email-smtp-parameters}
+### 電子郵件SMTP引數清單 {#list-of-email-smtp-parameters}
 
 **[!UICONTROL SMTP]** 一節包含下列參數：
 
@@ -291,7 +291,7 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
   >
   >會為進階使用者保留新增指令碼，以便插入其他 SMTP 標題。此指令碼的語法必須符合以下內容類型的要求：沒有未使用的空間，沒有空行等。
 
-### 存取授權參數清單 {#list-of-access-authorization-parameters}
+### 存取授權引數清單 {#list-of-access-authorization-parameters}
 
 **[!UICONTROL Access authorization]** 一節包含下列參數：
 

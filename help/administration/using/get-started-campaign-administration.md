@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 9676b5e8-4c34-4848-8616-235e0bac5d6b
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 15%
+source-wordcount: '631'
+ht-degree: 12%
 
 ---
 
@@ -55,7 +55,7 @@ Adobe Campaign做為雲端型解決方案，為管理員提供設定應用程式
 
 Campaign standard也可讓您監視安全性相關資訊。 您可以透過以下方式擷取使用者執行的資料匯出相關資訊： **[!UICONTROL Export audits]** 熒幕，並運用 **[!UICONTROL Licenses]** 熒幕可監視組織內所有已安裝的Campaign授權，以及組建編號、發行版本和合約條款等不同資訊。
 
-閱讀全文:
+詳細內容：
 
 * [使用者管理](../../administration/using/users-management.md)
 * [組織單位](../../administration/using/organizational-units.md)
@@ -74,11 +74,11 @@ Adobe Campaign中的所有通訊通道都必須正確設定，才能有效地傳
 
 設定 **行動應用計畫** 以便能夠使用Adobe Experience Platform SDK傳送應用程式內訊息和推播通知。
 
-閱讀全文:
+詳細內容：
 
 * [關於頻道設定](../../administration/using/about-channel-configuration.md)
 * [設定電子郵件頻道](../../administration/using/configuring-email-channel.md)
-* [設定 SMS 通道](../../administration/using/configuring-sms-channel.md)
+* [設定簡訊通道](../../administration/using/configuring-sms-channel.md)
 * [設定行動應用程式](../../administration/using/configuring-a-mobile-application.md)
 
 ## 應用程式設定 {#application-settings}
@@ -91,7 +91,7 @@ Campaign Standard隨附不同的應用程式元素，可加以設定以符合您
 
 定義一或多個 **品牌** 並為您的組織設定傳送 **即時通知** 若是重要的系統活動，則位於應用程式內。
 
-閱讀全文:
+詳細內容：
 
 * [關於 Campaign Standard 設定](../../administration/using/about-campaign-standard-settings.md)
 * [外部帳戶](../../administration/using/external-accounts.md)

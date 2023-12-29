@@ -1,6 +1,6 @@
 ---
 title: 使用協調功能更新資料
-description: 下列範例會示範一個工作流程，其會從包含新客戶之匯入檔案直接建立設定檔對象。
+description: 下列範例會示範一個工作流程，其會直接從包含新客戶之匯入檔案建立設定檔對象。
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
@@ -12,7 +12,7 @@ exl-id: cfca6202-791d-4baf-b5ed-677d2480cf06
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '128'
-ht-degree: 67%
+ht-degree: 52%
 
 ---
 

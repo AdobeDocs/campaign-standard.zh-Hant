@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 9992a05b-9f3c-4e6c-82e5-151c679565a1
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1315'
-ht-degree: 90%
+source-wordcount: '1320'
+ht-degree: 85%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 90%
 
 例如，您想要在網站的訪客訂閱您的品牌電子報時，自動傳送確認訊息給他們。
 
-您需要設定交易式電子郵件，並參考所需服務（在此情況下訂閱您的品牌電子報）中的訊息。為了使交易式訊息與服務資訊更加豐富，可以在建立事件時定義調解。
+您需要設定交易式電子郵件，並參考所需服務（在此情況下訂閱您的品牌電子報）中的訊息。為了使交易式訊息與服務資訊更加豐富，可以在建立事件時定義調和。
 
 從服務設定時，確認交易式訊息只會在每位訪客第一次訂閱該服務時傳送。如果已訂閱設定檔，則不會再傳送任何確認訊息給該設定檔。
 
@@ -54,13 +54,13 @@ ht-degree: 90%
 
    設定步驟請參見 [設定異動事件](../../channels/using/configuring-transactional-event.md) 區段。
 
-1. 在 **[!UICONTROL Fields]** 區段中，按一下 **[!UICONTROL Create element]** 並將 **[!UICONTROL publicLabel]** 新增至資料結構以啟用調解。
+1. 在 **[!UICONTROL Fields]** 區段中，按一下 **[!UICONTROL Create element]** 並將 **[!UICONTROL publicLabel]** 新增至資料結構以啟用調和。
 
    ![](assets/confirmation_publicLabel-field.png)
 
    >[!NOTE]
    >
-   >**[!UICONTROL publicLabel]** 欄位為必填欄位。如果您未將其新增至事件資料結構，Adobe Campaign 將無法與服務進行調解。訂閱服務時，此欄位將填入相對應服務的 **[!UICONTROL Service label]**。
+   >**[!UICONTROL publicLabel]** 欄位為必填欄位。如果您未將其新增至事件資料結構，Adobe Campaign 將無法與服務進行調和。訂閱服務時，此欄位將填入相對應服務的 **[!UICONTROL Service label]**。
 
 1. 在 **[!UICONTROL Enrichment]** 區段中，按一下 **[!UICONTROL Create element]** 並選取 **[!UICONTROL Service]** 目標資源。
 
@@ -97,7 +97,7 @@ ht-degree: 90%
 1. 按一下 **[!UICONTROL Save & close]** 以儲存您的內容。
 1. 發佈交易式訊息。請參閱[發佈交易式訊息](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)。
 
-### 步驟 2：建立和設定服務 {#step-2--create-and-configure-the-service-1}
+### 步驟2：建立和設定服務 {#step-2--create-and-configure-the-service-1}
 
 1. 從進階功能表 **Profiles &amp; audiences** > **Services**，透過 Adobe Campaign 標誌來建立服務。
 1. 移至 **[!UICONTROL Service properties]** 區段，可透過服務控制面板的 ![](assets/edit_darkgrey-24px.png) 按鈕進行存取。
@@ -107,7 +107,7 @@ ht-degree: 90%
 
    >[!NOTE]
    >
-   >您必須填寫此欄位，才能啟用交易式訊息的調解。
+   >您必須填寫此欄位，才能啟用交易式訊息的調和。
 
 1. 在 **[!UICONTROL Confirmation messages]** 區段中，選取 **[!UICONTROL Custom message]**：此模式可讓您為訂閱服務的設定式參考特定的確認訊息。
 1. 選取與您建立之交易式訊息相關聯的 **[!UICONTROL Custom subscription event configuration]**。
@@ -122,7 +122,7 @@ ht-degree: 90%
 >
 >訊息只會在使用者第一次訂閱時傳送。
 
-## 從登錄頁面設定確認訊息 {#configuring-confirmation-message-from-landing-page}
+## 從登入頁面設定確認訊息 {#configuring-confirmation-message-from-landing-page}
 
 您也可以使用登錄頁面 **[!UICONTROL Job]** 區段的 **[!UICONTROL Start sending messages]** 選項，從訂閱登錄頁面參考確認訊息。
 
@@ -143,13 +143,13 @@ ht-degree: 90%
 
    設定步驟請參見 [設定異動事件](../../channels/using/configuring-transactional-event.md) 區段。
 
-1. 在 **[!UICONTROL Fields]** 區段中，按一下 **[!UICONTROL Create element]** 並將 **[!UICONTROL serviceName]** 新增至資料結構以啟用調解。
+1. 在 **[!UICONTROL Fields]** 區段中，按一下 **[!UICONTROL Create element]** 並將 **[!UICONTROL serviceName]** 新增至資料結構以啟用調和。
 
    ![](assets/confirmation_serviceName-field.png)
 
    >[!NOTE]
    >
-   >**[!UICONTROL serviceName]** 欄位為必填欄位。如果您未將其新增至事件資料結構，Adobe Campaign 將無法與訂閱服務進行調解。
+   >**[!UICONTROL serviceName]** 欄位為必填欄位。如果您未將其新增至事件資料結構，Adobe Campaign 將無法與訂閱服務進行調和。
 
 1. 在 **[!UICONTROL Enrichment]** 區段中，按一下 **[!UICONTROL Create element]** 並選取 **[!UICONTROL Service]** 目標資源。
 1. 在 **[!UICONTROL Join definition]** 區段中，將 **[!UICONTROL Service]** 資源的 **[!UICONTROL serviceName]** 欄位與事件設定的 **[!UICONTROL name]** 欄位相對應。
@@ -164,14 +164,14 @@ ht-degree: 90%
 
 [本區段](#design-the-confirmation-message-1)將介紹設計交易式訊息的步驟。
 
-### 步驟 2：建立和設定服務 {#step-2--create-and-configure-the-service-2}
+### 步驟2：建立和設定服務 {#step-2--create-and-configure-the-service-2}
 
 1. 從進階功能表 **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Services]** 透過 Adobe Campaign 標誌建立服務。
 1. 移至 **[!UICONTROL Service properties]** 區段，可透過服務控制面板的 ![](assets/edit_darkgrey-24px.png) 按鈕進行存取。
 1. 填寫 **[!UICONTROL Service label]** 欄位。此標籤將顯示在確認訊息和訂閱登錄頁面中。
 1. 按一下 **[!UICONTROL Confirm]** 並儲存服務。
 
-### 步驟 3：建立並設定著陸頁面 {#step-3--create-and-configure-the-landing-page}
+### 步驟3：建立和設定登入頁面 {#step-3--create-and-configure-the-landing-page}
 
 建立將發佈在您網站上的訂閱登錄頁面。
 

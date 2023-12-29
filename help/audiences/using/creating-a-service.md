@@ -11,8 +11,8 @@ level: Beginner
 exl-id: 6f42251e-75da-4707-a855-6ba9a86256c9
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 94%
+source-wordcount: '433'
+ht-degree: 92%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 94%
 
 * [推廣服務](../../audiences/using/promoting-a-service.md)
 * [建立由訂閱者建立的對象](../../audiences/using/creating-audiences.md#creating-list-audiences)
-* [將登錄頁面連結至服務](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)
+* [將登入頁面連結至服務](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)
 
 ## 教學課程影片 {#video}
 

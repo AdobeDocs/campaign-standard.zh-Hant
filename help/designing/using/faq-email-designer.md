@@ -11,7 +11,7 @@ exl-id: f3208380-a4cf-4944-aa24-883995d1075d
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '440'
-ht-degree: 7%
+ht-degree: 3%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 7%
 
 ## 我可以在佈景主題中儲存樣式嗎？
 
-樣式無法儲存為主題，以供日後重複使用。不過，CSS 樣式可以儲存在內容範本或電子郵件中。
+樣式無法儲存為主題，以供日後重複使用。不過，CSS樣式可以儲存在內容範本或電子郵件中。
 
 如需詳細資訊，請參閱 [樣式](../../designing/using/styles.md)
 

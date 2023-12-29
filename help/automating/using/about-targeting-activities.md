@@ -11,7 +11,7 @@ exl-id: 1cd471e3-5332-4119-b342-2c3c8503fdd1
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '434'
-ht-degree: 54%
+ht-degree: 35%
 
 ---
 
@@ -48,12 +48,12 @@ ht-degree: 54%
 
 ## 將資料分段 {#segmenting-data}
 
-Adobe Campaign可讓您處理傳入資料的集合。 您因此可以組合好幾個母體、排除其中的一部分或僅保留幾個目標通用資料。
+Adobe Campaign可讓您處理傳入資料的集合。 因此，您可以合併多個母體、排除部分母體，或僅保留多個目標通用的資料。
 
-* **[!UICONTROL Union]** 活動可讓您將多個活動的結果重新群組至單一目標。請參閱[聯合](../../automating/using/union.md)一節。
-* **[!UICONTROL Intersection]**　活動可讓您僅保留活動中不同入站母體的共同元素。請參閱[交集](../../automating/using/intersection.md)一節。
-* **[!UICONTROL Exclusion]** 活動可讓您根據特定條件，從單一母體中排除元素。請參閱 [排除](../../automating/using/exclusion.md) 區段。
-* **[!UICONTROL Segmentation]** 活動可讓您從工作流程中先前放置之活動計算的母體中建立一或多個分段。在活動結束時，可以在單一轉變或不同轉變中處理這些轉變。請參閱 [細分](../../automating/using/segmentation.md) 區段。
+* 此 **[!UICONTROL Union]** 活動可讓您將多個活動的結果重新群組至單一目標。 請參閱[聯合](../../automating/using/union.md)一節。
+* 此 **[!UICONTROL Intersection]** 活動可讓您僅保留活動中不同入站母體的共同元素。 請參閱[交集](../../automating/using/intersection.md)一節。
+* 此 **[!UICONTROL Exclusion]** 活動可讓您根據特定條件，從單一母體中排除元素。 請參閱 [排除](../../automating/using/exclusion.md) 區段。
+* **[!UICONTROL Segmentation]** 活動可讓您從工作流程中先前放置之活動計算的母體中建立一或多個分段。在活動結束時，可以在單一轉變或不同轉變中處理這些轉變。 請參閱 [細分](../../automating/using/segmentation.md) 區段。
 
 ## 豐富資料 {#enriching-data}
 

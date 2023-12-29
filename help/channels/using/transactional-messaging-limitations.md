@@ -1,5 +1,5 @@
 ---
-title: 交易式訊息限制
+title: 異動訊息限制
 description: 瞭解關於Adobe Campaign Standard中交易式訊息的主要建議和限制。
 audience: channels
 content-type: reference
@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: d6aaec6e-c718-46a2-88e8-7402970def1a
 source-git-commit: 2d3ef53d5ea5603d90da169366be6ea516d96823
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 66%
+source-wordcount: '756'
+ht-degree: 61%
 
 ---
 
@@ -54,11 +54,11 @@ ht-degree: 66%
 * 個人化資訊來自事件本身所包含的資料。另請參閱 [事件交易式訊息設定](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages).
 * 您 **無法** 使用 **[!UICONTROL Unsubscription link]** 事件交易式訊息中的內容區塊。
 * 事件型交易式訊息應僅使用傳送事件中的資料來定義收件者和訊息內容個人化。不過，您可以使用 Adobe Campaign 資料庫的資訊，豐富您交易式訊息的內容。另請參閱 [豐富化事件](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) 和 [個人化交易式訊息](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
-* 由於事件交易式訊息不包含配置設定檔資訊，因此它們與疲勞規則不相容，即使在擴充設定檔案的情況下也是如此。
+* 由於事件交易式訊息不包含設定檔資訊，因此它們與疲勞規則不相容，即使在設定檔擴充的情況下也是如此。
 
 ### 設定檔交易式訊息
 
-* 個人化資訊可來自事件中包含的資料，或來自已調解的設定檔記錄。另請參閱 [設定檔交易式訊息設定](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages) 和 [設定檔交易式訊息特性](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities).
+* 個人化資訊可來自事件中包含的資料，或來自已調和的設定檔記錄。另請參閱 [設定檔交易式訊息設定](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages) 和 [設定檔交易式訊息特性](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities).
 * 您 **可以** 使用 **[!UICONTROL Unsubscription link]** 設定檔交易式訊息中的內容區塊。 請參閱[新增內容區塊](../../designing/using/personalization.md#adding-a-content-block)。
 * 疲勞規則與設定檔交易式訊息相容。請參閱[疲勞規則](../../sending/using/fatigue-rules.md)。
 

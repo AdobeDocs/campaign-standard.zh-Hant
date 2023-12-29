@@ -1,5 +1,5 @@
 ---
-title: 開始使用 Microsoft Dynamics 365 整合
+title: 開始使用Microsoft Dynamics 365整合
 description: 瞭解如何開始使用Microsoft Dynamics 365整合
 products: SG_CAMPAIGN/STANDARD
 audience: integrating
@@ -11,12 +11,12 @@ level: Intermediate
 exl-id: fa0f790d-6a4d-4b83-a51f-f565e9545a1a
 source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 5%
+source-wordcount: '874'
+ht-degree: 4%
 
 ---
 
-# 開始使用 Microsoft Dynamics 365 整合
+# 開始使用Microsoft Dynamics 365整合
 
 在跨管道通訊上啟用您的CRM資料：瞭解如何將聯絡人從Microsoft Dynamics 365傳遞到Adobe Campaign，並從Adobe Campaign將行銷活動效能資料（傳送、開啟、點按和退回）分享回Microsoft Dynamics 365。
 

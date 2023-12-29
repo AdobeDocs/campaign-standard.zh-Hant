@@ -11,7 +11,7 @@ exl-id: d1714101-bad0-40c1-8d60-90469d033197
 source-git-commit: 146dfea38bd456a5d9200b0632d4aa279b10a7b9
 workflow-type: tm+mt
 source-wordcount: '592'
-ht-degree: 7%
+ht-degree: 4%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 7%
 
 ![](assets/des_link_edit.png)
 
-使用編輯電子郵件時 [電子郵件設計工具](../../designing/using/designing-content-in-adobe-campaign.md)，您可輕鬆存取及修改您從列出電子郵件中所有URL的表格中建立的連結。 此清單可讓您能夠集中檢視並找到電子郵件內容中的每個 URL。若要存取，請參閱 [關於追蹤的URL](#about-tracked-urls).
+使用編輯電子郵件時 [電子郵件設計工具](../../designing/using/designing-content-in-adobe-campaign.md)，您可輕鬆存取及修改您從列出電子郵件中所有URL的表格中建立的連結。 此清單可讓您集中檢視並找出電子郵件內容中的每個URL。 若要存取，請參閱 [關於追蹤的URL](#about-tracked-urls).
 
 ![](assets/des_link_list.png)
 
@@ -71,7 +71,7 @@ ht-degree: 7%
 
 * [插入個人化欄位](../../designing/using/personalization.md#inserting-a-personalization-field)
 * [新增內容區塊](../../designing/using/personalization.md#adding-a-content-block)
-* [定義動態內容](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
+* [在電子郵件中](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
 
 ## 關於追蹤的URL {#about-tracked-urls}
 

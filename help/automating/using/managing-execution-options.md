@@ -11,8 +11,8 @@ level: Beginner
 exl-id: b0cc38fe-cf71-4350-8b4e-7daf0bf94066
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 12%
+source-wordcount: '525'
+ht-degree: 8%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 12%
 
 * **[!UICONTROL History in days]**：指定必須清除歷程記錄的天數。 歷史記錄包含與工作流程相關的元素：記錄、任務、事件（連結至工作流程操作的技術物件），以及下載的檔案。 **[!UICONTROL Transfer file]** 活動。 立即可用工作流程範本的預設值為 30 天。
 
-  歷史記錄的清除工作是由資料庫清除技術工作流程執行，預設每天執行 (請參閱 [技術工作流程清單](../../administration/using/technical-workflows.md).)
+  清除歷史記錄是由「資料庫清理」技術工作流程執行，預設每日執行(請參閱 [技術工作流程清單](../../administration/using/technical-workflows.md).)
 
   >[!IMPORTANT]
   >

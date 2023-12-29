@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 3189745c-dcc9-4719-b080-85ffa3bb66be
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 98%
+source-wordcount: '381'
+ht-degree: 97%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 98%
 
 1. 將 **[!UICONTROL Union]** 活動拖放至工作流程中。
 1. 將其連接到其前面的其他活動，例如查詢。
-1. 選取活動，然後使用所顯示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
+1. 選取活動，然後使用所顯示快速動作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
 1. 選取 **[!UICONTROL Reconciliation type]** 以定義如何處理來自入站母體之間對抗的重複項目：
 
    * **[!UICONTROL Keys only]**：這是預設模式。當來自不同入站轉變的元素具有相同索引鍵時，活動只會保留一個元素。如果入站母體是同質的，則只能使用此選項。

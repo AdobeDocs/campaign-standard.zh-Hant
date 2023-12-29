@@ -11,8 +11,8 @@ level: Experienced
 exl-id: a0adb913-2ee7-4cce-9b4f-74ebb7f1ce6a
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 100%
+source-wordcount: '788'
+ht-degree: 94%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 100%
 浮動視窗位於編輯器的左側，分為兩個標籤，其中包含分成主題區塊的元素。這些標籤包括：
 
 * **快速鍵**，預設可用，或由執行個體管理員建立。您可在這裡找到欄位、節點、群組、1-1 連結、1-N 連結和其他預先定義的篩選器。
-* 允許您存取目標資源中所有可用欄位的&#x200B;**瀏覽器**：節點、分組元素、連結（1-1 和 1-N）。
+* 允許您存取目標資源中所有可用欄位的&#x200B;**探索工具**：節點、分組元素、連結（1-1 和 1-N）。
 
 必須將標籤中包含的元素移入工作區，才能設定並代入查詢。視選取的目標維度而定（請參閱[目標維度和資源](../../automating/using/query.md#targeting-dimensions-and-resources)），您可以：
 

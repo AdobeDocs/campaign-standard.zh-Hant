@@ -12,7 +12,7 @@ exl-id: 2b21cf45-1c40-4e0e-ae2c-28c9f73e1964
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '279'
-ht-degree: 79%
+ht-degree: 70%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 79%
 若要建置工作流程，請遵循下列步驟：
 
 1. 將[傳輸檔案](../../automating/using/transfer-file.md)活動拖放至您的工作流程中。
-1. 選取活動，然後使用所顯示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
+1. 選取活動，然後使用所顯示快速動作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
 1. 以某種方式設定活動，以便它可以復原您想要的檔案。 在 **[!UICONTROL Protocol]** 索引標籤中，選取 **SFTP**。
 1. 選取 **Use connection parameters defined in an external account** 選項。
 1. 輸入外部帳戶的名稱。
@@ -37,7 +37,7 @@ ht-degree: 79%
 
 1. 確認您的活動。
 1. 拖放 [載入檔案](../../automating/using/load-file.md) 活動放入工作流程中，並將其放在 **[!UICONTROL Transfer file]** 活動。
-1. 選取活動，然後使用所顯示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
+1. 選取活動，然後使用所顯示快速動作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
 1. 在 **[!UICONTROL Execution]** 索引標籤的 **[!UICONTROL File to load]** 區段中，核取 **[!UICONTROL Use the file specified in the inbound transition]** 選項。
 
    ![](assets/wkf_file_loading8.png)

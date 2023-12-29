@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 8c1a47ed-3467-4fcd-8747-86f0e8f15cec
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 1%
+source-wordcount: '810'
+ht-degree: 0%
 
 ---
 
@@ -65,7 +65,7 @@ $(vars/@parameterName)
   | 檔案分機 | 傳回檔案路徑的副檔名。 | FileExt(&lt;string>) |
   | GetOption | 傳回指定函式的值。 | GetOption(&lt;optionname>) |
   | IsNull | 指示字串或日期是否為空。 | IsNull(&lt;string date=&quot;&quot;>) |
-  | UrlUtf8Encode | 以UTF8編碼URL。 | UrlUtf8Encode(&lt;string>) |
+  | UrlUtf8編碼 | 以UTF8編碼URL。 | UrlUtf8Encode(&lt;string>) |
 
 ## 使用事件變數自訂活動 {#customizing-activities-with-events-variables}
 

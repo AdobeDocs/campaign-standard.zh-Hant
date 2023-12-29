@@ -1,5 +1,5 @@
 ---
-title: 設定 Microsoft Dynamics 365 以進行 Campaign 整合
+title: 設定Microsoft Dynamics 365以進行Campaign整合
 description: 瞭解如何設定Microsoft Dynamics 365以進行Campaign整合。
 audience: integrating
 content-type: reference
@@ -10,8 +10,8 @@ level: Experienced
 exl-id: 57e85f8e-65b4-44ea-98e6-0c555acf6dee
 source-git-commit: 6947d163119dd6fc5966fdc723530b02bdd4a469
 workflow-type: tm+mt
-source-wordcount: '900'
-ht-degree: 1%
+source-wordcount: '879'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Campaign Standard與Microsoft Dynamics 365整合的一般說明請參閱 [
 
 您必須設定多個應用程式才能啟用整合，不過，本文章將著重介紹Dynamics 365中所需的步驟。
 
-## 必要條件
+## 先決條件
 
 在此檔案中執行預先整合設定前，假設您已布建並擁有貴組織的Microsoft Dynamics 365執行個體的管理員存取權。  如果尚未發生此情況，則您必須聯絡Microsoft客戶支援以完成Dynamics 365布建。
 

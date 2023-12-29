@@ -11,7 +11,7 @@ exl-id: 6516c71a-efa8-4778-82bb-10615378f985
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '320'
-ht-degree: 14%
+ht-degree: 3%
 
 ---
 
@@ -24,13 +24,13 @@ Campaign **[!UICONTROL dimensions]** 以下列出可在Analytics中找到的：
 <table> 
  <thead> 
   <tr> 
-   <th> 維度<br /> </th> 
+   <th> Dimension<br /> </th> 
    <th> 定義<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> 行銷活動 ID<br /> </td> 
+   <td> 行銷活動ID<br /> </td> 
    <td> 在Campaign中看到的行銷活動的內部名稱<br /> </td> 
   </tr> 
   <tr> 
@@ -38,7 +38,7 @@ Campaign **[!UICONTROL dimensions]** 以下列出可在Analytics中找到的：
    <td> 在Campaign中看到的行銷活動標籤<br /> </td> 
   </tr> 
   <tr> 
-   <td> 傳遞 ID<br /> </td> 
+   <td> 傳遞ID<br /> </td> 
    <td> 在Campaign中看到的傳遞內部名稱。<br /> 例如，DM1是排程每週傳送子傳送的循環傳送。 DM2、DM3和DM4會在最初三週傳送。 「傳遞ID」維度接著會顯示每個傳遞的結果，即DM1到DM4。 <br /> </td> 
   </tr> 
   <tr> 
@@ -84,7 +84,7 @@ Campaign **[!UICONTROL metrics]** 以下列出可在Analytics中找到的：
   </tr> 
   <tr> 
    <td> 總跳出數<br /> </td> 
-   <td> 傳遞和自動傳回處理期間累積的錯誤總數與已傳送之訊息總數的關係。<br /> </td> 
+   <td> 與已傳送訊息總數相關的傳遞和自動回訪處理期間累計的錯誤總數。<br /> </td> 
   </tr> 
   <tr> 
    <td> 不重複開啟<br /> </td> 

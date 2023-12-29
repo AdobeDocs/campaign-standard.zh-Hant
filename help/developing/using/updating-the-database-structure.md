@@ -12,7 +12,7 @@ exl-id: fa39eb54-9ec0-4aff-94a8-5459f4c496d0
 source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
 source-wordcount: '768'
-ht-degree: 92%
+ht-degree: 90%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 92%
 
    ![](assets/schema_extension_31.png)
 
-## 使用 API 擴充功能發佈資源 {#publishing-a-resource-with-api-extension}
+## 使用API擴充功能發佈資源 {#publishing-a-resource-with-api-extension}
 
 您可以在下列情況下建立「設定檔與服務 API」:
 

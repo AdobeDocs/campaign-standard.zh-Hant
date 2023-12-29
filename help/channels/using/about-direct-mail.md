@@ -12,7 +12,7 @@ exl-id: 815b4a0d-0486-4867-b751-b5ca8b643cb9
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '455'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -42,7 +42,7 @@ Adobe Campaign 中的使用者程序如下：
 
 ## 建議 {#recommendations}
 
-### 直接郵件傳送 {#direct-mail-providers}
+### 直接郵件提供者 {#direct-mail-providers}
 
 首先，您需要聯絡直接郵件供應商並收集其建議。識別需納入解壓縮檔案的設定檔資訊，以便個人化通訊並傳送給對象。例如，名字和姓氏、郵遞區號、促銷代碼等。這些欄位是您要在直接郵件內容之 [Defining the extraction](../../channels/using/defining-the-direct-mail-content.md#defining-the-extraction) 索引標籤中新增欄位。
 

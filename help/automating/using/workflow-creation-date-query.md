@@ -12,7 +12,7 @@ exl-id: f611e023-f74c-476e-83b9-aff451f68c81
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '354'
-ht-degree: 38%
+ht-degree: 33%
 
 ---
 
@@ -84,7 +84,7 @@ ht-degree: 38%
 
 ![](assets/expression_editor_1.png)
 
-## 建立電子郵件傳送{#creating-an-email-delivery}
+## 建立電子郵件傳遞{#creating-an-email-delivery}
 
 1. 拖放 [電子郵件傳遞](../../automating/using/email-delivery.md) 活動。
 1. 按一下活動並選取 ![](assets/edit_darkgrey-24px.png) 以編輯。
@@ -93,7 +93,8 @@ ht-degree: 38%
 1. 輸入電子郵件屬性，然後按一下 **[!UICONTROL Next]**。
 1. 若要建立電子郵件的版面，請按一下 **[!UICONTROL Email Designer]**。
 1. 插入元素或選取現有範本。
-1. 使用欄位和連結個人化您的電子郵件。如需詳細資訊，請參閱[設計電子郵件](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)。
+1. 使用欄位和連結個人化您的電子郵件。
+如需詳細資訊，請參閱[設計電子郵件](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)。
 1. 按一下 **[!UICONTROL Preview]** 以檢查版面。
 1. 按一下 **[!UICONTROL Save]**。
 

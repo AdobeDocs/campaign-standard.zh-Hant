@@ -12,7 +12,7 @@ exl-id: d362563f-5ab3-4f7f-ae9f-a42b6f0bb2b9
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '472'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -36,11 +36,11 @@ ht-degree: 98%
 ## 設定 {#configuration}
 
 1. 將 **[!UICONTROL Update data]** 活動拖放至工作流程中。
-1. 選取活動，然後使用所顯示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
+1. 選取活動，然後使用所顯示快速動作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
 1. 指定要執行的 **[!UICONTROL Operation type]**：
 
    * **[!UICONTROL Insert or update]**：插入資料或更新資料（如果記錄已存在於資料庫中）。
-   * **[!UICONTROL Insert only]**：僅插入資料。不更新已存在的記錄。如果已定義調解標準，則僅會新增未調解的記錄。
+   * **[!UICONTROL Insert only]**：僅插入資料。不更新已存在的記錄。如果已定義調和標準，則僅會新增未調和的記錄。
 
      如果匯入的資料包含資料庫中已存在的特定記錄，請核取此 **[!UICONTROL Generate an outbound transition for rejects]** 方塊，以避免任何可能的錯誤。
 

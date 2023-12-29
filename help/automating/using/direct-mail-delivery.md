@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: c7854b7b-f955-47ce-99d6-86b3186fd297
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 99%
+source-wordcount: '915'
+ht-degree: 93%
 
 ---
 
@@ -26,8 +26,8 @@ ht-degree: 99%
 
 **[!UICONTROL Direct mail delivery]** 活動可讓您設定並準備包含您要用於直接郵件促銷活動之設定檔資料的檔案。這可以是一次使用的直接郵件，也可以是循環性直接郵件。
 
-* **標準的直接郵件只傳送一次。**
-* **循環郵件可讓您在定義的時段內，多次傳送相同的直接郵件給不同的目標。**&#x200B;您可以彙總每個期間的傳送，以取得符合您需求的報表。
+* **標準** 直接郵件只傳送一次。
+* **週期性** 郵件可讓您在定義的時段內，多次傳送相同的直接郵件給不同的目標。 您可以彙總每個期間的傳送，以取得符合您需求的報表。
 
 ## 使用內容 {#context-of-use}
 
@@ -47,7 +47,7 @@ ht-degree: 99%
 ## 設定 {#configuration}
 
 1. 將 **[!UICONTROL Direct mail delivery]** 活動拖放至工作流程中。
-1. 選取活動，然後使用所顯示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
+1. 選取活動，然後使用所顯示快速動作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
 
    >[!NOTE]
    >
@@ -67,7 +67,7 @@ ht-degree: 99%
 1. 選取直接郵件類型。直接郵件類型來自 **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** 功能表中定義的範本。
 1. 輸入直接郵件的常規屬性。您也可以將它附加至現有的行銷活動。工作流程的傳送活動的標籤會以直接郵件標籤更新。
 1. 定義直接郵件內容。請參閱關於[內容編輯](../../designing/using/personalization.md)的區段。
-1. 依預設，**[!UICONTROL Direct mail delivery]** 活動不包含任何外站轉變。如果要將出站轉變新增到 **[!UICONTROL Direct mail delivery]** 活動中，請轉至高階活動選項的　**[!UICONTROL General]**　索引標籤（活動快速操作中的　![](assets/dlv_activity_params-24px.png)　按鈕），然後選中以下選項之一：
+1. 依預設，**[!UICONTROL Direct mail delivery]** 活動不包含任何外站轉變。如果要將出站轉變新增到 **[!UICONTROL Direct mail delivery]** 活動中，請轉至高階活動選項的　**[!UICONTROL General]**　索引標籤（活動快速動作中的　![](assets/dlv_activity_params-24px.png)　按鈕），然後選中以下選項之一：
 
    * **[!UICONTROL Add outbound transition without the population]**：這可讓您產生一個外站轉變，其中包含與入站轉變完全相同的母體。此轉換包含直接郵件活動產生的檔案以及直接郵件活動收到的原始母體。
    * **[!UICONTROL Add outbound transition with the population]**：這可讓您產生一個外站轉變，其中包含將要向其發送直接郵件的母體。在直接郵件準備過程中排除的目標成員（隔離、無效地址等）會從此轉換中排除。轉換也包含直接郵件產生的檔案。
@@ -78,7 +78,7 @@ ht-degree: 99%
 
 依預設，啟動傳送工作流程只會觸發訊息準備。在工作流程啟動後，仍需要確認從工作流程建立的訊息的傳送。但是，在訊息控制面板中，只有在訊息是從工作流程建立時，您才能停用 **[!UICONTROL Request confirmation before sending messages]** 選項。取消核取此選項後，訊息會在準備完成後不另行通知而傳送。
 
-## 註釋 {#remarks}
+## 備註 {#remarks}
 
 您可以在應用程式的行銷活動清單中存取在工作流程中建立的傳送。您可以使用控制面板來檢視工作流程的執行狀態。直接郵件摘要窗格中的連結可讓您直接存取連結的元素(工作流程、促銷活動、上層傳送若是重複寄送的直接郵件）。
 

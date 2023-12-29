@@ -10,7 +10,7 @@ exl-id: 210d1477-9536-4308-bdb7-b9ccfe4c85bc
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
 source-wordcount: '233'
-ht-degree: 72%
+ht-degree: 70%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 72%
 
 <img src="assets/do-not-localize/icon_workflows.svg" width="60px">
 
-* [使用補數來建立傳遞](../../automating/using/workflow-created-query-with-complement.md)
+* [使用補充集來建立傳送](../../automating/using/workflow-created-query-with-complement.md)
 * [在設定檔建立日期中建立傳遞](../../automating/using/workflow-creation-date-query.md)
 * [建立每週傳遞](../../automating/using/workflow-weekly-offer.md)
 * [建立跨頻道傳遞](../../automating/using/workflow-cross-channel-delivery.md)
@@ -51,7 +51,7 @@ ht-degree: 72%
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-* [使用資料庫調解檔案對象](../../automating/using/reconcile-file-audience-with-database.md)
+* [使用資料庫調和檔案對象](../../automating/using/reconcile-file-audience-with-database.md)
 * [從匯入的檔案中刪除重複資料](../../automating/using/deduplicating-data-imported-file.md)
 * [使用檔案包含的資料擴充設定檔資料](../../automating/using/enriching-profile-data-file.md)
 * [外部訊號活動和資料匯入](../../automating/using/external-signal-data-import.md)

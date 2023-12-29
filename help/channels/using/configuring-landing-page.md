@@ -12,13 +12,13 @@ exl-id: 0b9795e9-83e6-4399-a3b1-fc69081f6a82
 source-git-commit: 17522f4df86c7fb46593472316d57b4ba4acee2b
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 97%
+ht-degree: 93%
 
 ---
 
 # 設定登陸頁面 {#configuring-landing-page}
 
-## 確認登錄頁面提交 {#confirm-a-landing-page-submission}
+## 確認登入頁面提交 {#confirm-a-landing-page-submission}
 
 當訪客提交登錄頁面時，您可以設定觸發的動作。操作步驟：
 
@@ -34,7 +34,7 @@ ht-degree: 97%
 
    ![](assets/lp_parameters_6.png)
 
-## 將登錄頁面連結至服務 {#linking-a-landing-page-to-a-service}
+## 將登入頁面連結至服務 {#linking-a-landing-page-to-a-service}
 
 您可以將表單連結至服務，如此在驗證登錄頁面時，設定檔就可以訂閱特定服務。
 
@@ -54,7 +54,7 @@ ht-degree: 97%
 
    使用 **[!UICONTROL Specified service in the URL]** 選項可允許將登錄頁面用於數個服務。因此，在設定服務時，您必須參考登錄頁面。
 
-## 設定權限和預先載入資料 {#setting-permissions-and-pre-loading-data}
+## 設定許可權和預先載入資料 {#setting-permissions-and-pre-loading-data}
 
 登錄頁面的存取權可限制給已識別的訪客，這些訪客來自（舉例來說）Campaign 所傳送之訊息中的連結，或是特定組織單位。
 若是已識別的訪客，您可以在登錄頁面中預先載入其資料。操作步驟：
@@ -93,7 +93,7 @@ ht-degree: 97%
 
 ![](assets/lp_org_unit_3.png)
 
-## 設定 Google reCAPTCHA {#setting-google-recaptcha}
+## 設定Google reCAPTCHA {#setting-google-recaptcha}
 
 您可以使用登錄頁面設定 Google reCAPTCHA V3，以保護其免受機器人造成的垃圾訊息和濫用。您必須先建立外部帳戶，才能將之與登錄頁面搭配使用。有關如何設定的詳細資訊，請參閱本[區段](../../administration/using/external-accounts.md#google-recaptcha-external-account)。
 
@@ -115,4 +115,4 @@ ht-degree: 97%
 
 ![](assets/lp_parameters_google2.png)
 
-之後，Google reCAPTCHA 會根據使用者與您頁面的互動，傳回分數。若要檢查您的分數，請連線至您的 Google管理主控台。
+之後，Google reCAPTCHA 會根據使用者與您頁面的互動，傳回分數。若要檢查您的分數，請連線至您的Google Admin Console。

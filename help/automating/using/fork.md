@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 1a5e1ecd-b3f1-4dbe-a816-12d27a3bc0f7
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 100%
+source-wordcount: '213'
+ht-degree: 98%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 1. 將 **[!UICONTROL Fork]** 活動拖放至工作流程中。
 1. 將其連接到其前面的其他活動，例如查詢。
-1. 選取活動，然後使用所顯示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
+1. 選取活動，然後使用所顯示快速動作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
 1. 建立、刪除或複製出站轉變，以指定轉變次數。您也可以為其指定名稱和標籤。
 1. 確認活動的設定並儲存工作流程。
 

@@ -11,7 +11,7 @@ exl-id: 4ddfdbcc-a154-4c10-a97e-73ad888d1f1f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '242'
-ht-degree: 16%
+ht-degree: 14%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 16%
    >
    >如果您重新草擬現成可用的擴充功能 **設定檔（設定檔）** 資源，您也必須重新草擬任何 **測試設定檔(seedMember)** 您可能已定義的擴充功能。 如需擴充設定檔資源的詳細資訊，請參閱 [本節](../../developing/using/extending-the-profile-resource-with-a-new-field.md).
 
-1. 發佈資源。如需詳細步驟，請參閱 [發佈自訂資源](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
+1. 發佈資源。 如需詳細步驟，請參閱 [發佈自訂資源](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
 
    然後，資源進入 **草稿** 模式及其啟用狀態為 **[!UICONTROL Inactive]**.
 

@@ -11,8 +11,8 @@ level: Experienced
 exl-id: f11754fb-188e-4cae-bd5b-0dfbf74befb3
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1092'
-ht-degree: 98%
+source-wordcount: '1100'
+ht-degree: 97%
 
 ---
 
@@ -93,7 +93,7 @@ Year(@created) = Year(GetDate()) AND Month(@created) = Month(GetDate())
 
 在此範例中，會定位其建立日期為目前月份和年份的描述檔。
 
-### JavaScript 語法 {#javascript-syntax}
+### JavaScript語法 {#javascript-syntax}
 
 在定義 HTML 內容編輯器的文本類型區塊的可見性條件時，必須使用具有 JavaScript 類型語法的運算式。
 
@@ -122,7 +122,7 @@ context.profile.age > 21 && context.profile.firstName.length() > 0
 
 在此範例中，已提供 21 歲以上且其名字的描述檔（以 **firstName** 欄位至少包含一個字元為例）。
 
-## 比較運算子 {#comparison-operators}
+## 比較運運算元 {#comparison-operators}
 
 對於某些規則，查詢編輯器可讓您選取值來定義條件。
 

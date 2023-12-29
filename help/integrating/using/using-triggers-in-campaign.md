@@ -10,20 +10,20 @@ level: Intermediate
 exl-id: 6b8d5118-89ed-49c2-b601-0aff472fcadd
 source-git-commit: cf2ded703e53d6db27e62712734f7ea846da9a21
 workflow-type: tm+mt
-source-wordcount: '740'
-ht-degree: 78%
+source-wordcount: '736'
+ht-degree: 74%
 
 ---
 
 # 在 Campaign 中使用觸發程式{#using-triggers-in-campaign}
 
-## 在 Campaign 中建立對應的觸發程式 {#creating-a-mapped-trigger-in-campaign}
+## 在Campaign中建立對應的觸發程式 {#creating-a-mapped-trigger-in-campaign}
 
 >[!NOTE]
 >
 >若要建立觸發程式，您需要 **[!UICONTROL Administration]** 角色或將位於 **[!UICONTROL Administrators]** 安全性群組。 如需詳細資訊，請參閱此 [頁面](../../administration/using/list-of-roles.md).
 
-您應確保在 Adobe Experience Cloud（**[!UICONTROL Triggers]** 核心服務）中預先定義要監控之行為。如需詳細資訊，請參閱 [Adobe Experience Cloud 文件](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html)。請注意，定義觸發程式時需要啟用別名。對於每個行為（瀏覽/放棄表單、新增/刪除產品、工作階段過期等），必須在 Adobe Experience Cloud 中新增一個新的觸發程式。
+您應確保在Adobe Experience Cloud中預先定義要監控之行為(**[!UICONTROL Triggers]** 核心服務)。 如需詳細資訊，請參閱 [Adobe Experience Cloud 文件](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html)。請注意，定義觸發程式時需要啟用別名。對於每個行為（瀏覽/放棄表單、新增/刪除產品、工作階段過期等），必須在 Adobe Experience Cloud 中新增一個新的觸發程式。
 
 您現在必須依據現有的 Adobe Experience Cloud 觸發程式，在 Adobe Campaign 中建立觸發程式事件。
 
@@ -75,7 +75,7 @@ ht-degree: 78%
 
 發佈事件之後，就會自動建立連結至新事件的交易式範本。之後，您必須修改並發佈剛建立的範本。如需詳細資訊，請參閱[編輯範本](../../start/using/marketing-activity-templates.md)一節。
 
-## 編輯交易式訊息範本 {#editing-the-transactional-message-template}
+## 編輯異動訊息範本 {#editing-the-transactional-message-template}
 
 在您建立並發佈觸發程式事件後，即會自動建立相對應的交易式範本。如需詳細資訊，請參閱[在 Campaign 中建立對應觸發程式](#creating-a-mapped-trigger-in-campaign)一節。
 

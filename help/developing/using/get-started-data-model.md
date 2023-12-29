@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: a8d15053-c20f-4334-a732-3b36cb00794d
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 31%
+source-wordcount: '334'
+ht-degree: 21%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 31%
 <td><img src="assets/do-not-localize/icon_custom.svg" width="60px"><p><a href="#custom-resources">自訂資源</a></p></td><td><img src="assets/do-not-localize/icon_api.svg" width="60px"><p><a href="#custom-resources">使用API</a></p></td></tr>
 </table>
 
-使用您自己的欄位和資源擴充 Campaign Standard 資料模型，並將所有資料模型變更監視為單一檢視。
+使用您自己的欄位和資源擴充Campaign Standard資料模型，並將所有資料模型變更監視為單一檢視。
 
 ## 資料模型 {#data-model}
 
@@ -33,7 +33,7 @@ Campaign使用的資料是透過 **預先定義的資料模型**. 資料模型�
 
 此 **診斷** 功能表可讓您列出由Campaign Standard產生的技術物件：資料結構、網頁、篩選器等，讓您監視資料模型及其所做的任何變更。
 
-閱讀全文:
+詳細內容：
 
 * [資料模型概念](../../developing/using/data-model-concepts.md)
 * [資料模型最佳實務](../../developing/using/data-model-best-practices.md)
@@ -48,7 +48,7 @@ Campaign Standard可讓您 **豐富預先定義的資料模型** 建立自己的
 
 此外，您可以 **擴充Campaign StandardREST API** 以便在API中公開自訂資源設定檔的擴充欄位。 舉例來說，這可讓您使用計費系統產生的促銷代碼來更新客戶的設定檔。
 
-閱讀全文:
+詳細內容：
 
 * [新增或擴充資源](../../developing/using/key-steps-to-add-a-resource.md)
 * [擴充API](../../developing/using/about-extending-the-api.md)

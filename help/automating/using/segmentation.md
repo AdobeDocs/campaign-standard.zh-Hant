@@ -11,7 +11,7 @@ level: Intermediate
 exl-id: 3761ee4a-1ce5-4f9e-b2a5-84388b6b9db8
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '885'
 ht-degree: 82%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 82%
 ## 設定 {#configuration}
 
 1. 將 **[!UICONTROL Segmentation]** 活動拖放至工作流程中。
-1. 選取活動，然後使用所顯示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
+1. 選取活動，然後使用所顯示快速動作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
 1. 在 **[!UICONTROL General]** 索引標籤中，選取 **[!UICONTROL Resource type]** 必須對其執行分段：
 
    * **[!UICONTROL Database resource]** 如果對資料庫中已存在的資料執行分段。根據您要分段的資料選取 **[!UICONTROL Filtering dimension]**。依預設，會對&#x200B;**設定檔**&#x200B;執行分段。

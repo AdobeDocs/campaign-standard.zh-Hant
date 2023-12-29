@@ -7,8 +7,8 @@ level: Experienced
 exl-id: c7aca0c3-525d-4195-8c04-2fad32ca43b7
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 7%
+source-wordcount: '593'
+ht-degree: 6%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 7%
 相關主題：
 
 * [建立或擴充資源](../../developing/using/creating-or-extending-the-resource.md)
-* [定義標識鍵](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
+* [定義識別鍵](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
 * [CAMPAIGN STANDARDREST API](../../api/using/get-started-apis.md)
 
 ## 步驟1：設定識別鍵{#step-1-configure-the-identification-key}

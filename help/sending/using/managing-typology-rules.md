@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 5ef66b1b-1c81-42fb-a18c-fcf7f21e1ff7
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 96%
+source-wordcount: '554'
+ht-degree: 95%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 96%
 
 * **疲勞**&#x200B;規則：此類型的規則可讓您定義每個設定檔的訊息數目上限，以避免過度索取訊息。如需詳細資訊，請參閱[本區段](../../sending/using/fatigue-rules.md)。
 
-* **控制**&#x200B;規則：此類型的規則可讓使用者在傳送訊息之前檢查訊息的有效性和品質，例如字元顯示、SMS　訊息大小、位址格式等。如需詳細資訊，請參閱[本區段](../../sending/using/control-rules.md)。
+* **控制**&#x200B;規則：此類型的規則可讓使用者在傳送訊息之前檢查訊息的有效性和品質，例如字元顯示、簡訊　訊息大小、位址格式等。如需詳細資訊，請參閱[本區段](../../sending/using/control-rules.md)。
 
 可於「**[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** > **[!UICONTROL Typology rules]**」功能表取得類型規則。
 
@@ -34,7 +34,7 @@ ht-degree: 96%
 
 您可以視需要修改現有的類型規則或建立新規則，但 **[!UICONTROL Control]** 規則除外，因為這類規則是唯讀狀態且無法修改。
 
-## 建立類型規則 {#creating-a-typology-rule}
+## 建立型別規則 {#creating-a-typology-rule}
 
 建立類型規則的主要步驟如下：
 
@@ -58,7 +58,7 @@ ht-degree: 96%
 
 1. 在選取所有類型之後，按一下 **[!UICONTROL Create]** 以確認建立類型規則。
 
-## 類型規則執行順序 {#typology-rules-execution-order}
+## 型別規則執行順序 {#typology-rules-execution-order}
 
 類型規則會依定位、分析和訊息個人化階段期間指定的順序執行。
 

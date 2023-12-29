@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 28b0cf6d-c1f1-4d55-b9bc-0d6bfb063471
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
-source-wordcount: '746'
-ht-degree: 8%
+source-wordcount: '727'
+ht-degree: 4%
 
 ---
 
@@ -42,11 +42,11 @@ ht-degree: 8%
 
 **秘訣**：使用與您品牌網站對應的透明寄件者地址。 例如，TravelAgency公司管理Valentino連鎖酒店。 其擁有其網站的valentino.com網域。 為了推廣巴黎的Valentino飯店，它使用paris.valentino.com子網域。 因此，相關寄件者地址可以是hotel@paris.valentino.com。
 
-## 傳遞性管理 {#deliverability-management}
+## 傳遞能力管理 {#deliverability-management}
 
 若要在不退回或標示為垃圾訊息的情況下觸及收件者的收件匣，您需要改善訊息的可傳遞率。
 
-* 什麼是傳遞性?
+* 什麼是傳遞能力？
 
    * 它是指決定電子郵件為收件者伺服器接受之能力的電子郵件因素。 ISP （網際網路服務提供者）會篩選掉他們認為是垃圾郵件的電子郵件，或封鎖影像的下載。 如果他們判斷某個網域傳送的電子郵件數量過多，就會限制其將接受來自該寄件者的電子郵件數量。
 
@@ -64,7 +64,7 @@ ht-degree: 8%
 
 **提示**
 
-* 在傳遞分析期間，預設情況下會排除其地址被隔離的收件者：他們並非目標收件者。 這會加快傳送速度，因為錯誤率對傳送速度有顯著影響。舉例來說，當收件匣已滿或地址不存在時，可以隔離電子郵件地址。 [了解更多](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses)
+* 在傳遞分析期間，預設情況下會排除其地址被隔離的收件者：他們並非目標收件者。 這會加快傳送速度，因為錯誤率對傳送速度有顯著影響。 舉例來說，當收件匣已滿或地址不存在時，可以隔離電子郵件地址。 [了解更多](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses)
 
 * Adobe Campaign會根據傳回的錯誤型別管理錯誤地址。 如需詳細資訊，請參閱[本章節](../../sending/using/understanding-quarantine-management.md)。
 

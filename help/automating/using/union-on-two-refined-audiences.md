@@ -11,14 +11,14 @@ level: Intermediate
 exl-id: 6261f800-11bd-4b02-a587-49ddb0da240f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 58%
+source-wordcount: '156'
+ht-degree: 43%
 
 ---
 
 # 聯合兩個完善的對象 {#example--union-on-two-refined-audiences}
 
-此範例中定義的工作流程會顯示兩個 **[!UICONTROL Read audience]** 活動的聯合。此工作流程的目標是傳送電子郵件給年齡介於 18 至 30 歲之間的金級或銀級會員。系統中已建立特定對象，以追蹤金級和銀級會員。
+此範例中定義的工作流程會顯示兩個 **[!UICONTROL Read audience]** 活動的聯合。此工作流程的目標是傳送電子郵件給年齡介於18至30歲之間的金級或銀級會員。 系統中已建立特定對象，以追蹤金級和銀級會員。
 
 工作流設計如下：
 

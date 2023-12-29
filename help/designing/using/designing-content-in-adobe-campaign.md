@@ -11,7 +11,7 @@ exl-id: 85d6361b-6c27-42c0-bac4-774b71625bf8
 source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
 source-wordcount: '1239'
-ht-degree: 85%
+ht-degree: 84%
 
 ---
 
@@ -159,7 +159,7 @@ Adobe 建議將您的內容更新至最新版本，以避免發生 CSS 衝突等
 * [建立電子郵件](../../channels/using/creating-an-email.md)
 * [設計登陸頁面](../../channels/using/designing-a-landing-page.md)
 * [建立簡訊訊息](../../channels/using/creating-an-sms-message.md)
-* [準備和傳送推播通知](../../channels/using/preparing-and-sending-a-push-notification.md)
+* [建立和傳送推播通知](../../channels/using/preparing-and-sending-a-push-notification.md)
 
 ## 教學課程影片 {#video}
 

@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 21abf3c2-d319-40a8-9479-1fc02c82e5d2
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '2341'
-ht-degree: 99%
+source-wordcount: '2374'
+ht-degree: 98%
 
 ---
 
@@ -84,7 +84,7 @@ ht-degree: 99%
 >
 >為了讓疲勞規則生效，您需要為傳送定義聯繫日期。如果您選取立即傳送訊息，則不會套用疲勞規則。
 
-## 選取通道 {#choosing-the-channel}
+## 選擇通道 {#choosing-the-channel}
 
 疲勞規則適用於各種通道。通道是在類型規則設定 **[!UICONTROL Channel]** 欄位中定義。您可以選取單一通道或選取 **[!UICONTROL All channels]**。
 

@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 43e97f3c-ed82-4fcc-ac0d-fcee6a22da35
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '655'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 3%
 
 下表提供有關現成可用篩選規則及其相關管道的資訊。
 
-| 標籤 | 通道 | 說明 |
+| 標籤 | 管道 | 說明 |
 | ---------|----------|---------|
 | **[!UICONTROL Address not specified]** | 全部 | 排除未指定地址（電子郵件、郵寄地址等）的目標母體。 （根據選取的管道）。 |
 | **[!UICONTROL Address on denylist]** | 全部 | 排除封鎖清單上的地址。 |
@@ -38,7 +38,7 @@ ht-degree: 3%
 除了這些預設篩選規則外，還提供兩個排除規則：
 
 * **[!UICONTROL Exclusion of addresses]** ( **[!UICONTROL addressExclusions]** )
-* **[!UICONTROL Exclusion of domains]** ( **[!UICONTROL domainExclusions]** ).
+* **[!UICONTROL Exclusion of domains]** ( **[!UICONTROL domainExclusions]** )。
 
 在電子郵件分析期間，這些規則會將收件者電子郵件地址與包含在加密全域隱藏清單（在傳遞能力執行個體中管理）中的禁止地址或網域名稱進行比較。 如果有相符專案，則不會傳送訊息給該收件者。
 

@@ -11,8 +11,8 @@ level: Experienced
 exl-id: bd12a214-5998-4fb9-9f54-0c886067b58b
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '1728'
-ht-degree: 8%
+source-wordcount: '1817'
+ht-degree: 7%
 
 ---
 
@@ -89,8 +89,8 @@ ht-degree: 8%
       </tr>
       <tr>
          <td>已建立</td>
-         <td>已建立</td>
-         <td>date </td>
+         <td>建立時間</td>
+         <td>日期 </td>
          <td> </td>
       </tr>
       <tr>
@@ -234,7 +234,7 @@ ht-degree: 8%
       <tr>
          <td>結束</td>
          <td>到期日</td>
-         <td>date </td>
+         <td>日期 </td>
          <td> </td>
       </tr>
       <tr>
@@ -298,7 +298,7 @@ ht-degree: 8%
          <td> </td>
       </tr>
       <tr>
-         <td>label</td>
+         <td>標籤</td>
          <td>標籤</td>
          <td>字串(128)</td>
          <td> </td>
@@ -306,7 +306,7 @@ ht-degree: 8%
       <tr>
          <td>lastModified</td>
          <td>上次修改時間</td>
-         <td>date </td>
+         <td>日期 </td>
          <td> </td>
       </tr>
       <tr>
@@ -387,12 +387,12 @@ ht-degree: 8%
       <tr>
          <td>publicationDate</td>
          <td>發佈日期</td>
-         <td>date </td>
+         <td>日期 </td>
          <td> </td>
       </tr>
       <tr>
          <td>reconciliationFilter (queryFilterBase)</td>
-         <td>調解金鑰</td>
+         <td>調和索引鍵</td>
          <td>連結 </td>
          <td> </td>
       </tr>
@@ -437,7 +437,7 @@ ht-degree: 8%
       <tr>
          <td>開始</td>
          <td>部署日期</td>
-         <td>date </td>
+         <td>日期 </td>
          <td> </td>
       </tr>
       <tr>
@@ -456,7 +456,7 @@ ht-degree: 8%
       </tr>
       <tr>
          <td>targetresource</td>
-         <td>定位維度</td>
+         <td>目標定位維度</td>
          <td>字串(255)</td>
          <td> </td>
       </tr>
@@ -468,7 +468,7 @@ ht-degree: 8%
       </tr>
       <tr>
          <td>testUrl</td>
-         <td>測試URL</td>
+         <td>測試 URL</td>
          <td>字串 </td>
          <td> </td>
       </tr>
@@ -606,7 +606,7 @@ ht-degree: 8%
          </td>
       </tr>
       <tr>
-         <td>title</td>
+         <td>標題</td>
          <td>登陸頁面</td>
          <td>字串(255)</td>
          <td> </td>
@@ -741,11 +741,11 @@ ht-degree: 8%
         </tr>
         <tr>
         <td>startDate</td>
-        <td>date</td>
+        <td>日期</td>
         </tr>
         <tr>
         <td>endDate</td>
-        <td>date</td>
+        <td>日期</td>
         </tr>
     </table>
 
@@ -758,10 +758,10 @@ ht-degree: 8%
     </tr>
     <tr>
     <td>startDate</td>
-    <td>date</td>
+    <td>日期</td>
     </tr>
     <tr>
     <td>endDate</td>
-    <td>date</td>
+    <td>日期</td>
     </tr>
 </table>

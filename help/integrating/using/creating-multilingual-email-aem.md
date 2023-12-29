@@ -1,5 +1,5 @@
 ---
-title: 使用 Adobe Experience Manager 整合建立多語言電子郵件.
+title: 使用Adobe Experience Manager整合建立多語言電子郵件。
 description: 透過Adobe Experience Manager整合，您可以直接在AEM中建立內容，並稍後在Adobe Campaign中使用。
 audience: integrating
 content-type: reference
@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 0f66fe2b-22b1-49d7-a080-29b00941a2cc
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 5%
+source-wordcount: '616'
+ht-degree: 3%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 5%
 
 1. 按一下 **[!UICONTROL Complete]** 則 **[!UICONTROL Newsletter review]** 從 **[!UICONTROL Complete work item]** 視窗。
 
-1. 按一下 **[!UICONTROL Complete]**，之後 **[!UICONTROL Newsletter approval]**。定義內容和傳送引數後，您可以在Adobe Campaign Standard中繼續核准、準備和傳送電子郵件。
+1. 按一下 **[!UICONTROL Complete]** 則 **[!UICONTROL Newsletter approval]**. 定義內容和傳送引數後，您可以在Adobe Campaign Standard中繼續核准、準備和傳送電子郵件。
 
    ![](assets/aem_acs_8.png)
 

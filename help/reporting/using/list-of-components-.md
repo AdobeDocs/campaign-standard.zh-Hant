@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 8980bf05-60a8-4360-a354-445e1faeb5b2
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1269'
-ht-degree: 6%
+source-wordcount: '1308'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 6%
 <table> 
  <thead> 
   <tr> 
-   <th> 維度<br /> </th> 
+   <th> Dimension<br /> </th> 
    <th> 定義<br /> </th> 
   </tr> 
  </thead> 
@@ -70,7 +70,7 @@ ht-degree: 6%
    <td> 應用程式內訊息傳送的動作，例如按鈕1或2的動作或解除。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 訊息類型<br /> </td> 
+   <td> 訊息型別<br /> </td> 
    <td> 用於傳遞的頻道，例如電子郵件、簡訊、推播通知或應用程式內。<br /> </td> 
   </tr> 
   <tr> 
@@ -78,11 +78,11 @@ ht-degree: 6%
    <td> 行動應用程式的名稱<br /> </td> 
   </tr> 
   <tr> 
-   <td> 平台<br /> </td> 
+   <td> Platform<br /> </td> 
    <td> 開啟/檢視/點選訊息的來源裝置平台。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 設定檔<br /> </td> 
+   <td> 個人資料<br /> </td> 
    <td> 對設定檔資源擴充期間建立的現成可用和自訂設定檔欄位進行重新分組，如需詳細資訊，請參閱本節 <a href="../../developing/using/key-steps-to-add-a-resource.md">頁面</a> 或這個 <a href="../../reporting/using/creating-a-custom-profile-dimension.md">範例</a>.<br /> 請注意，當連結至設定檔欄位的自訂資源發佈時，就會擷取此維度的資料。<br /> </td> 
   </tr> 
   <tr> 
@@ -94,7 +94,7 @@ ht-degree: 6%
    <td> 用來開啟電子郵件的網域。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 重複傳送<br /> </td> 
+   <td> 循環傳遞<br /> </td> 
    <td> 重複傳送的標籤和ID。<br /> </td> 
   </tr> 
   <tr> 
@@ -156,7 +156,7 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td> 退回+錯誤<br /> </td> 
-   <td> 傳遞和自動傳回處理期間累積的錯誤總數與已傳送之訊息總數的關係。<br /> </td> 
+   <td> 與已傳送訊息總數相關的傳遞和自動回訪處理期間累計的錯誤總數。<br /> </td> 
   </tr> 
   <tr> 
    <td> 退回+錯誤率<br /> </td> 
@@ -187,7 +187,7 @@ ht-degree: 6%
    <td> 因永久錯誤而失敗的傳遞百分比。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 鏡像頁面<br /> </td> 
+   <td> 映象頁面<br /> </td> 
    <td> 點按映象頁面連結的收件者人數。<br /> </td> 
   </tr> 
   <tr> 
@@ -239,11 +239,11 @@ ht-degree: 6%
    <td> 因暫時原因而失敗的傳遞百分比。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 不重複點按次數<br /> </td> 
+   <td> 不重複點按<br /> </td> 
    <td> 在傳遞中點按內容的收件者人數。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 不重複開啟次數<br /> </td> 
+   <td> 不重複開啟<br /> </td> 
    <td> 開啟傳遞的收件者人數。<br /> </td> 
   </tr> 
   <tr> 
@@ -312,7 +312,7 @@ ht-degree: 6%
    <td> 已開啟推播通知的百分比。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 不重複點按次數<br /> </td> 
+   <td> 不重複點按<br /> </td> 
    <td> 不重複使用者與推播通知互動的次數，例如點選通知或按鈕。<br /> </td> 
   </tr> 
   <tr> 

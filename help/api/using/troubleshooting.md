@@ -7,12 +7,12 @@ level: Experienced
 exl-id: 404356cd-021f-4739-a88f-b8b1b79e19bc
 source-git-commit: b65bf28565c25072c6a95cebdb999ce38a2e2e1a
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 1%
+source-wordcount: '351'
+ht-degree: 0%
 
 ---
 
-# API 疑難排解 {#troubleshooting}
+# API疑難排解 {#troubleshooting}
 
 * **前往Adobe.io主控台時，您會收到下列錯誤：「Adobe I/O主控台僅適用於選取企業帳戶的成員。 如果您認為您應該擁有存取權，請聯絡您的系統管理員。」**
 
@@ -74,7 +74,7 @@ ht-degree: 1%
 }
 ```
 
-* **向Adobe.io發出請求時，您會收到{&quot;code&quot;：500， &quot;message&quot;：&quot;Oops. 發生錯誤. 請檢查您的URI，然後再試一次。&quot;}**
+* **向Adobe.io發出請求時，您會收到{&quot;code&quot;：500， &quot;message&quot;：&quot;Oops. 發生錯誤。 請檢查您的URI，然後再試一次。&quot;}**
 
 Adobe.io會宣告您無效的URI：很可能是您請求的URI無效。 在Adobe.io上，當您選取Campaign服務時，畫面會顯示一個選擇器，其中包含可能的organization_id清單。 您需要確認您選擇的檔案是否為放入URL中的檔案。
 

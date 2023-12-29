@@ -1,5 +1,5 @@
 ---
-title: Campaign Standard　行動指南
+title: Campaign Standard Mobile指南
 description: 進一步瞭解Adobe Campaign Standard中行動傳送的一般准則，例如如何設定行動應用程式或建立推播通知和應用程式內訊息。
 audience: channels
 content-type: reference
@@ -11,7 +11,7 @@ exl-id: d4e1b935-b21f-4a24-99ba-f455db0f7cfc
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
 source-wordcount: '786'
-ht-degree: 25%
+ht-degree: 22%
 
 ---
 
@@ -111,7 +111,7 @@ Adobe Campaign可讓您在不同通道上建立和傳送個人化訊息，並透
 </tr>
 </table>
 
-## 自訂推播通知 {#create-push}
+## 建立推播通知 {#create-push}
 
 <table style="table-layout:fixed">
 <tr>
@@ -140,7 +140,7 @@ Adobe Campaign可讓您在不同通道上建立和傳送個人化訊息，並透
   </td>
   <td>
     <div>
-    <p><strong>從 Adobe Campaign Standard 推播通知顯示影像</strong></p>
+    <p><strong>從Adobe Campaign Standard推播通知顯示影像</strong></p>
     </div>
     <p><a href="../../administration/using/image-push-notification.md"><strong>在此處瞭解</strong></a> 如何在iOS裝置上顯示Adobe Campaign推播通知的影像。</p>
     <br>
@@ -170,7 +170,7 @@ Adobe Campaign可讓您在不同通道上建立和傳送個人化訊息，並透
 <tr>
   <td>
     <div>
-    <p><strong>自訂本機通知訊息類型</strong></p>
+    <p><strong>自訂本機通知訊息型別</strong></p>
     </div>
     <p>本機通知只能由應用程式在特定時間內觸發，且會視事件而定。</br><a href="../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type"><strong>按一下這裡</strong></a>以獲得更多資訊。</p>
     <br>
@@ -185,7 +185,7 @@ Adobe Campaign可讓您在不同通道上建立和傳送個人化訊息，並透
 </tr>
 </table>
 
-## 建立簡訊 {#create-sms}
+## 建立簡訊訊息 {#create-sms}
 
 <table style="table-layout:fixed">
 <tr>
@@ -201,7 +201,7 @@ Adobe Campaign可讓您在不同通道上建立和傳送個人化訊息，並透
     <p><strong>自訂簡訊
 </strong></p>
     </div>
-    <p>為了微調您的傳送，Adobe Campaign可讓您在設計SMS訊息時存取一組進階選項。</br><a href="../../channels/using/sms-and-push-content-editor-interface.md"><strong>按一下這裡以獲得更多資訊。</p>
+    <p>為了微調您的傳送，Adobe Campaign可讓您在設計SMS訊息時存取一組進階選項。</br><a href="../../channels/using/sms-and-push-content-editor-interface.md"><strong>按一下這裡以取得詳細資訊。</p>
     <br>
   </td>
 </tr>
@@ -233,19 +233,19 @@ Adobe Campaign可讓您在不同通道上建立和傳送個人化訊息，並透
     <div>
     <p><strong>推播通知常見問題集</strong></p>
     </div>
-    <p><a href="../../channels/using/about-push-notifications.md#push-faq"><strong>按一下這裡以獲得更多資訊。</p>
+    <p><a href="../../channels/using/about-push-notifications.md#push-faq"><strong>如需詳細資訊，請按一下此處。</p>
   </td>
   <td>
     <div>
     <p><strong>Adobe Launch Synchronization 常見問答集</strong></p>
     </div>
-    <p><a href="../../channels/using/in-app-faq.md"><strong>按一下這裡以獲得更多資訊。</p>
+    <p><a href="../../channels/using/in-app-faq.md"><strong>如需詳細資訊，請按一下此處。</p>
   </td>
   <td>
     <div>
     <p><strong>應用程式內常見問題集</strong></p>
     </div>
-    <p><a href="../../administration/using/syncwithlaunch-faq.md"><strong>按一下這裡以獲得更多資訊。</p>
+    <p><a href="../../administration/using/syncwithlaunch-faq.md"><strong>如需詳細資訊，請按一下此處。</p>
   </td>
 </tr>
 </table>

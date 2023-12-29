@@ -10,7 +10,7 @@ level: Beginner
 exl-id: 225c65cc-2964-4b71-84a9-30fcd22d75bf
 source-git-commit: 1a2b2ab8b6d23ca021d196909dc3ebdc02fe4e9e
 workflow-type: tm+mt
-source-wordcount: '4569'
+source-wordcount: '4695'
 ht-degree: 100%
 
 ---
@@ -101,7 +101,7 @@ ht-degree: 100%
 * Adobe Experience Platform Data Connector 和 Audience Destinations 服務現已透過 Campaign Standard 被棄用。 如果您正在使用這些功能，則需移至 Adobe Sources 和 Destinations，並調整您的實作。 [了解更多](../../integrating/using/get-started-sources-destinations.md)
 * [此頁面](deprecated-features.md)中列出已棄用和已移除的功能。
 * 引入新的「StringAgg」匯總函式以串連字串類型欄的值。 (CAMP-47077)[ 進一步瞭解](../../automating/using/list-of-functions.md#aggregates)
-* 已改善&#x200B;**更新傳傳遞指標** (updateDeliveryIndicators) 技術工作流程，以提升效能。
+* 已改善&#x200B;**更新傳傳送指標** (updateDeliveryIndicators) 技術工作流程，以提升效能。
 * 應用程式內的傳送訊息範本現在可供 Campaign Standard 支援的所有語言使用。
 * 透過減少傳遞分析期間對追蹤伺服器的呼叫次數，已針對異動訊息最佳化傳遞準備時間。
 * 新的警報訊息會通知用戶高跳出率。
@@ -146,7 +146,7 @@ ht-degree: 100%
 
 * 您現在可以在設計登陸頁面時，新增必要核取方塊，要求設定檔在提交表單前先選取該核取方塊。 如需詳細資訊，請參閱[詳細文件](../../channels/using/managing-landing-page-form-data.md#agreement-checkbox)。
 
-* 針對觸發程式整合，已改善觸發程式裝載中沒有調解資料時顯示的錯誤訊息：「裝載中缺少別名資料」。
+* 針對觸發程式整合，已改善觸發程式裝載中沒有調和資料時顯示的錯誤訊息：「裝載中缺少別名資料」。
 
 * 已改善從佇列擷取推播通知的效能。
 
@@ -324,7 +324,7 @@ ht-degree: 100%
 
 * **傳輸檔案**&#x200B;活動現在會產生另一個變數 (filesCount)，其中包含已上傳或已下載的檔案數目。(CAMP-45842)[ 進一步瞭解](../../automating/using/transfer-file.md#output-variables)
 
-* SMS 連接器現在可以隨每則訊息傳送多個可選參數。[進一步瞭解](../../administration/using/sms-protocol.md)
+* 簡訊連接器現在可以隨每則訊息傳送多個可選參數。[進一步瞭解](../../administration/using/sms-protocol.md)
 
 * 具有 DATAMODEL 角色的使用者現在可以發佈傳遞記錄擴充功能。(CAMP-46604)
 
@@ -344,7 +344,7 @@ ht-degree: 100%
 
 * 您現在可以使用動態報告中的搜尋列，進一步篩選&#x200B;**傳遞**&#x200B;和&#x200B;**促銷活動**&#x200B;維度。
 
-* 異動的 SMS 訊息有效日期現在可由「異動訊息 API」中為有效期參數設定的值來定義。(CAMP-36600)
+* 異動的簡訊訊息有效日期現在可由「異動訊息 API」中為有效期參數設定的值來定義。(CAMP-36600)
 
 * 在動態報告中，**傳送摘要**&#x200B;內建報告顯示取消訂閱比率量度的不正確資料。已新增名為 **Unique unsubscription** 的新量度來修正此問題。(CAMP-46445)
 

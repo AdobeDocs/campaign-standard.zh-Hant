@@ -12,7 +12,7 @@ exl-id: 32d9d174-8438-48d7-b876-33a0c35d9549
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '242'
-ht-degree: 81%
+ht-degree: 76%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 81%
 
 ![](assets/wf-complement-query.png)
 
-## 建立電子郵件傳送{#creating-an-email-delivery}
+## 建立電子郵件傳遞{#creating-an-email-delivery}
 
 1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Channels]**，拖放 [電子郵件傳遞](../../automating/using/email-delivery.md) 活動。
 1. 按一下活動並選取 ![](assets/edit_darkgrey-24px.png) 以編輯。

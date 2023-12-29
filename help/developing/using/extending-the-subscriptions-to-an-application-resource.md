@@ -11,13 +11,13 @@ exl-id: ac9c556d-c0f6-4b33-8855-1f5f669c148f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '232'
-ht-degree: 24%
+ht-degree: 10%
 
 ---
 
 # 將訂閱擴充到應用程式資源{#extending-the-subscriptions-to-an-application-resource}
 
-在 Adobe Campaign 中，由行動裝置傳送的行動設定檔屬性資料會儲存在 **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** 資源中，您可藉此定義要從應用程式訂閱者收集的資料。如需自訂資源的詳細資訊，請參閱 [此頁面](../../developing/using/key-steps-to-add-a-resource.md).
+在Adobe Campaign中，由行動裝置傳送的行動設定檔屬性資料會儲存在 **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** 可讓您定義要從應用程式訂閱者收集之資料的資源。 如需自訂資源的詳細資訊，請參閱 [此頁面](../../developing/using/key-steps-to-add-a-resource.md).
 
 可擴充此資源，以收集您要從行動裝置傳送至Adobe Campaign的資料。
 

@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 5f25f2b2-ca41-4baf-ade2-42bbafb4790d
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 21%
+source-wordcount: '491'
+ht-degree: 12%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 21%
 
 <table>
 <tr><td><img src="assets/do-not-localize/icon_system.svg" width="60px"><p><a href="#monitoring-system">監視系統</a></p></td>
-<td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#moniroting-workflows">監控工作流程</a></p></td>
+<td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#moniroting-workflows">監視工作流程</a></p></td>
 <td><img src="assets/do-not-localize/icon_send.svg" width="60px"><p><a href="#monitoring-deliveries">監視傳遞</a></p></td></tr>
 </table>
 
@@ -34,7 +34,7 @@ Campaign Standard介面會提供通知窗格，讓您隨時瞭解系統中發生
 
 **技術工作流程**
 
-技術工作流程是排程定期在伺服器上執行的操作或作業。為確保您的執行個體正常運作，您需要確保執行個體隨時啟動並執行。 [深入了解](../../administration/using/technical-workflows.md)
+技術工作流程是排程定期在伺服器上執行的操作或工作。 為確保您的執行個體正常運作，您需要確保執行個體隨時啟動並執行。 [深入了解](../../administration/using/technical-workflows.md)
 
 **控制面板**
 
@@ -58,16 +58,16 @@ Campaign Standard介面會提供通知窗格，讓您隨時瞭解系統中發生
 使用 **[!UICONTROL Licenses]** 功能表，監視執行個體的相關資訊：已安裝的授權、組建版本和條款協定接受。
 [深入了解](../../administration/using/licenses.md)
 
-## 監控工作流程 {#monitoring-workflows}
+## 監視工作流程 {#monitoring-workflows}
 
 <img src="assets/do-not-localize/icon_workflows.svg" width="60px">
 
-**最佳實務及疑難排解**
+**最佳作法和疑難排解**
 
 使用工作流程時，遵循最佳實務和疑難排解准則有助於改善效能。
 [深入了解](../../automating/using/best-practices-workflows.md)
 
-**記錄和任務**
+**記錄檔與任務**
 
 工作流程記錄監視是分析工作流程並確保其正常執行的關鍵步驟。
 [深入了解](../../automating/using/monitoring-workflow-execution.md#workflow-log-and-tasks)

@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: c80ed1f6-ad8a-4448-a6df-b9881327228a
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 67%
+source-wordcount: '212'
+ht-degree: 61%
 
 ---
 
@@ -36,6 +36,6 @@ ht-degree: 67%
 
   要執行此操作，請選取在這裡建立 **[!UICONTROL Recurring email]** 重新分組電子郵件和結果 **[!UICONTROL By month]**。
 
-  定義電子郵件內容並插入歡迎促銷代碼。有關詳細資訊，請參閱 [定義電子郵件內容](../../designing/using/personalization.md) 區段。
+  定義電子郵件的內容並插入歡迎促銷代碼。 有關詳細資訊，請參閱 [定義電子郵件內容](../../designing/using/personalization.md) 區段。
 
 然後開始執行工作流程。每週新訂閱者都會收到包含促銷代碼的歡迎電子郵件。

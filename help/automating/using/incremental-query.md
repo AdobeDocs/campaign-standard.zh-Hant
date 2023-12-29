@@ -12,7 +12,7 @@ exl-id: 18d6ffc0-cfc3-436e-8f0c-ea9c307541e4
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 98%
+ht-degree: 94%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 98%
 
 * 匯出資料。
 
-  您可以使用 **[!UICONTROL Incremental query]** 活動定期匯出檔案中的新記錄檔。例如，如果您想在外部報表或 BI 工具中使用記錄檔資料，則此功能會很有用。[匯出記錄檔](../../automating/using/exporting-logs.md)區段提供完整的範例。
+  您可以使用 **[!UICONTROL Incremental query]** 活動定期匯出檔案中的新記錄檔。例如，如果您想在外部報告或BI工具中使用記錄檔資料，則此功能會很有用。 [匯出記錄檔](../../automating/using/exporting-logs.md)區段提供完整的範例。
 
 **相關主題**
 
@@ -49,7 +49,7 @@ ht-degree: 98%
 ## 設定 {#configuration}
 
 1. 將 **[!UICONTROL Incremental query]** 活動拖放至工作流程中。
-1. 選取活動，然後使用所顯示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
+1. 選取活動，然後使用所顯示快速動作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
 1. 如果要對設定檔案資源以外的資源運行查詢，請轉至活動的 **[!UICONTROL Properties]** 索引標籤，然後選取 **[!UICONTROL Resource]** 和　**[!UICONTROL Targeting dimension]**。
 
    **[!UICONTROL Resource]** 可讓您調整浮動視窗中顯示的篩選條件，而與所選資源相關的 **[!UICONTROL Targeting dimension]**，則與您要取得的母體類型（識別的設定檔、傳送、連結至所選資源的資料等）相對應。

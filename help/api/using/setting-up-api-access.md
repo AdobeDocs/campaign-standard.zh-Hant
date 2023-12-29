@@ -10,8 +10,8 @@ level: Experienced
 exl-id: efbbd0cd-9c56-4ad0-8bcb-efba4b63c28b
 source-git-commit: 7ca7e9bd9541a4db708565e65e2ff87e44393238
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 2%
+source-wordcount: '384'
+ht-degree: 10%
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Campaign Standard API存取權是透過下列步驟設定。 這些步驟�
 
    >[!AVAILABILITY]
    >
-   >JWT （JSON Web權杖）目前正在折舊中，將由OAuth取代。 此轉換在Campaign即將發行的版本中逐步執行，檔案將會更新以反映這些更新。
+   >JWT (JSON Web 權杖) 目前正在折舊中，並即將由 OAuth 取代。此轉變會在 Campaign 即將發行的版本中逐步執行，並更新文件以反映這些更新。
 
 1. **交換您的JWT以取得存取權杖** 透過POST請求。 此存取Token必須用於API請求的每個標頭。
 

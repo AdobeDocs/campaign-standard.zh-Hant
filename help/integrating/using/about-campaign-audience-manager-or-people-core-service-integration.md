@@ -11,7 +11,7 @@ exl-id: e8b96c66-82f7-4adb-88b2-b7e0f7c4a96f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '518'
-ht-degree: 22%
+ht-degree: 18%
 
 ---
 
@@ -35,7 +35,7 @@ Adobe Campaign可讓您與不同的Adobe Experience Cloud應用程式交換和�
 
   之後，具有相同CNAME的其他Adobe Marketing Cloud應用程式將會識別該ID。
 
-* **宣告ID**：此型別的ID可讓您調解任何型別的資料與Adobe Campaign資料庫中的元素。 在 Adobe Campaign 中以預先定義的調解金鑰呈現。交換資料時，會雜湊處理Adobe Campaign資料庫識別碼。 這些雜湊ID接著會與匯入或匯出所涉及的Adobe Marketing Cloud對象雜湊ID比較。
+* **宣告ID**：此型別的ID可讓您調解任何型別的資料與Adobe Campaign資料庫中的元素。 在Adobe Campaign中以預先定義的調解金鑰呈現。 交換資料時，會雜湊處理Adobe Campaign資料庫識別碼。 這些雜湊ID接著會與匯入或匯出所涉及的Adobe Marketing Cloud對象雜湊ID比較。
   <br>此整合支援一般宣告ID、雜湊宣告ID和加密宣告ID。
 
   >[!NOTE]
@@ -49,6 +49,6 @@ Adobe Campaign可讓您與不同的Adobe Experience Cloud應用程式交換和�
 
   例如，透過解密加密的電子郵件地址或簡訊號碼的功能，您也可以傳送觸發式訊息給使用者，即使其設定檔不存在於Adobe Campaign資料庫中亦然。
 
-下圖詳細說明此整合的運作方式。此處，AAM代表Adobe Audience Manager，ACS代表Adobe Campaign Standard。
+下圖詳細說明此整合的運作方式。 此處，AAM代表Adobe Audience Manager，ACS代表Adobe Campaign Standard。
 
 ![](assets/aam_diagram.png)

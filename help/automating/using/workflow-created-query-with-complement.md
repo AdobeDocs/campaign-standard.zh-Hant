@@ -1,5 +1,5 @@
 ---
-title: 使用補數來建立傳遞
+title: 使用補充集來建立傳送
 description: 此使用案例顯示如何建立具備輔助功能的傳送。
 audience: automating
 content-type: reference
@@ -12,11 +12,11 @@ exl-id: 5cd71e07-f955-4c15-bdfb-14b0daccec1a
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '239'
-ht-degree: 41%
+ht-degree: 39%
 
 ---
 
-# 使用補數來建立傳遞 {#deliveries-with-complement}
+# 使用補充集來建立傳送 {#deliveries-with-complement}
 
 您可以傳送電子郵件給客戶：一個適用於不到一年前建立的客戶，另一個適用於超過一年前建立的客戶。
 
@@ -51,7 +51,7 @@ ht-degree: 41%
 >
 >若要觀察規則的結構，請按一下 **[!UICONTROL Advanced Mode]**.
 
-## 建立電子郵件傳送 {#create-an-email-delivery}
+## 建立電子郵件傳遞 {#create-an-email-delivery}
 
 1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Channels]**，拖放 [電子郵件傳遞](../../automating/using/email-delivery.md) 活動於每個區段之後。
 1. 按一下活動並選取 ![](assets/edit_darkgrey-24px.png) 以編輯。

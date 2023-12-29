@@ -8,8 +8,8 @@ level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 89%
+source-wordcount: '704'
+ht-degree: 88%
 
 ---
 
@@ -71,7 +71,7 @@ Adobe Campaign 可立即提供技術工作流程。技術工作流程是排程�
   <tr> 
    <td> <span class="uicontrol">KPI 與 Adobe Analytics 之調解</span> <br /> </td> 
    <td> <span class="uicontrol">kpiReconciliation</span> <br /> </td> 
-   <td> 此工作流程每天從報告服務擷取 KPI 一次，並與 Adobe Analytics 中的資料進行調解。之後，會視需要推播差異。預設會每天凌晨 4:20 開始。<br /> </td> 
+   <td> 此工作流程每天從報告服務擷取 KPI 一次，並與 Adobe Analytics 中的資料進行調和。之後，會視需要推播差異。預設會每天凌晨 4:20 開始。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">訊息中心本機封存</span> <br /> </td> 
@@ -102,7 +102,7 @@ Adobe Campaign 可立即提供技術工作流程。技術工作流程是排程�
   <tr> 
    <td> <span class="uicontrol">復原追蹤記錄</span> <br /> </td> 
    <td> <span class="uicontrol">Trackinglogrecovery</span> <br /> </td> 
-   <td> 此工作流程會還原遺失的追蹤記錄。 請注意，此技術工作流程用於特定內容，並僅限於Adobe內部使用。 <br>預設會每 10 分鐘啟動一次。<br /> </td> 
+   <td> 此工作流程會還原遺失的追蹤記錄。 請注意，此技術工作流程用於特定內容，並僅限於Adobe內部使用。 <br> 預設會每10分鐘啟動一次。<br /> </td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">更新傳送執行</span> <br/> </td> 

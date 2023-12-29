@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: e61daed6-a0ec-49d8-b1ad-77590fafb496
 source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
-source-wordcount: '1239'
-ht-degree: 40%
+source-wordcount: '1206'
+ht-degree: 39%
 
 ---
 
@@ -49,13 +49,12 @@ Adobe Campaign 提供兩種類型的推播通知：
 * [準備和傳送推送通知](../../channels/using/preparing-and-sending-a-push-notification.md)
 * [建立多語言推送通知](../../channels/using/creating-a-multilingual-push-notification.md)
 * [推播通知報告](../../reporting/using/push-notification-report.md)
-* [Campaign Standard　行動指南](../../channels/using/get-started-communication-channels.md)
+* [Campaign Standard Mobile指南](../../channels/using/get-started-communication-channels.md)
 
-## 必要條件 {#prerequisites}
+## 先決條件 {#prerequisites}
 
 >[!NOTE]
->若要利用來自 Campaign 的推播通知功能，您需要以 .pem 格式提供有效的推播憑證，而且不含密碼。
-
+>若要利用來自Campaign的推播通知功能，您需要以.pem格式提供有效的推播憑證，而且不含密碼。
 >
 >如果您有有效的 p12 憑證，則可使用線上資源，輕鬆地將之轉換為 .pem 檔案。
 
@@ -81,7 +80,7 @@ Adobe Campaign 提供兩種類型的推播通知：
 
 檢視下列資源：
 
-* [影片教學課程](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
+* [視訊Tutorials](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
 * [產品檔案](../../channels/using/about-push-notifications.md)
 * 使用AEP SDK進行設定 [檔案](../../administration/using/configuring-a-mobile-application.md)
 * [社群頁面](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)

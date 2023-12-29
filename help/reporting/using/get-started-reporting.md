@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 9ecb4ba6-c7a3-4b1f-ab73-5eb512ebb016
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 19%
+source-wordcount: '365'
+ht-degree: 14%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 19%
 
 **管理您的動態報表** 提供多種功能：即時重新整理資料、列印報表，或匯出為CSV檔案。 您也可以透過單次或循環電子郵件將報告與Campaign Standard使用者分享。
 
-閱讀全文:
+詳細內容：
 
 * [關於動態報告](../../reporting/using/about-dynamic-reports.md)
 * [報告介面](../../reporting/using/reporting-interface.md)
@@ -49,7 +49,7 @@ Campaign Standard隨附一組 **現成可用的動態報表** 可讓您測量行
 
 **結合不同的元件** （維度、量度和區段、時段）來建立您自己的報表，或個人化現成可用的報表。
 
-閱讀全文:
+詳細內容：
 
 * [元件清單](../../reporting/using/list-of-components-.md)
 * [指標計算](../../reporting/using/indicator-calculation.md)
@@ -65,7 +65,7 @@ Campaign Standard隨附一組 **現成可用的動態報表** 可讓您測量行
 
 建立報表依據 **自訂設定檔資料** 在設定檔資源擴充期間建立，以及 **以區段為基礎的報表** 在目標工作流程中定義。
 
-閱讀全文:
+詳細內容：
 
 * [新增面板](../../reporting/using/adding-panels.md)
 * [新增視覺效果](../../reporting/using/adding-visualizations.md)

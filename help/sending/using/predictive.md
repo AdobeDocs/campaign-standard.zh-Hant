@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: e1cb04e6-eb38-4bcc-b071-321cc11ccc7e
 source-git-commit: 75628ed8a2f9b21def23e5b257a3592e1a721536
 workflow-type: tm+mt
-source-wordcount: '1078'
-ht-degree: 56%
+source-wordcount: '1103'
+ht-degree: 47%
 
 ---
 
@@ -35,9 +35,9 @@ Adobe Campaign提供兩種新的機器學習模型： **預測性傳送時間最
 
 在「預測性傳送時間最佳化」的模型中，有兩個子模型：
 
-* **預測性的開啟傳送時間是將通訊傳送至客戶，以最大化開啟的最佳時機**
+* **開啟的預測性傳送時間** 是必須傳送通訊給客戶的最佳時機，才能將開啟次數最大化
 
-* **點按的預測性傳送時間是必須傳送通訊給客戶的最佳時機，才能使點按次數達到最大**
+* **點按的預測性傳送時間** 是將通訊傳送給客戶的最佳時機，以最大化點按次數
 
 **模型輸入**：傳遞日誌、追蹤日誌和設定檔屬性（非 PII）
 
@@ -80,7 +80,7 @@ Adobe Campaign提供兩種新的機器學習模型： **預測性傳送時間最
 
 ### 在最佳時機傳送訊息{#use-predictive-send-time}
 
-為了讓電子郵件在每個設定檔的最佳時間點外傳，必須使用選項排程傳送 **[!UICONTROL Send at a custom date defined by a formula]**。
+為了讓電子郵件在每個設定檔的最佳時間點外傳，必須使用選項排程傳送 **[!UICONTROL Send at a custom date defined by a formula]**.
 
 在[本節中](../../sending/using/computing-the-sending-date.md)瞭解如何運算傳送日期。
 
@@ -117,7 +117,7 @@ AddHours([currentDelivery/scheduling/@contactDate],
 
 * **開啟參與分數/按一下參與分數**：此值與訂閱者與特定訊息（開啟或點按）互動的可能性相符。值範圍從 0.0 到 1.0。
 * **取消訂閱的可能性**：此值與開啟電子郵件時，收件者從電子郵件頻道取消訂閱的可能性相符。值範圍從 0.0 到 1.0。
-* **保留級別**：此值將使用者分為三個層級：低、中、高。高者最有可能與品牌保持一致，而低值者可能會取消訂閱。
+* **保留級別**：此值將使用者分為三個層級：低、中、高。 高者最有可能與品牌保持一致，而低值者可能會取消訂閱。
 * **保留的百分位數**：描述檔排名。值範圍從 0.0 到 1.0。例如，如果保留百分比排名為 0.953，則此收件者教友可能與品牌保持一致，而取消訂閱的可能性則低於所有收件者的 95.3%。
 
 >[!NOTE]
@@ -136,6 +136,6 @@ AddHours([currentDelivery/scheduling/@contactDate],
 
 1. 按一下 **Engagement Scores for Email Channel** 索引標籤。
 
-在工作流程中使用查詢活動，您可以使用分數來最佳化您的對象。例如，使用&#x200B;**保留級別**&#x200B;標準：
+在工作流程中使用查詢活動，您可以使用分數來最佳化您的對象。 例如，使用&#x200B;**保留級別**&#x200B;標準：
 
 ![](assets/do-not-localize/predictive_score_query.png)

@@ -12,7 +12,7 @@ hide: true
 hidefromtoc: true
 source-git-commit: 110f3ccb5865e70c78e18485b4ff4ba7a648af3f
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '465'
 ht-degree: 6%
 
 ---
@@ -27,7 +27,7 @@ Adobe Campaign Standard可讓您透過API觸發立即擷取資料對應，並擷
 
 此頁面說明如何觸發及擷取資料對應的擷取狀態。 如需Campaign Standard API的全球資訊，請參閱 [本節](../../api/using/get-started-apis.md).
 
-## 必要條件 {#prerequisites}
+## 先決條件 {#prerequisites}
 
 必須先在Campaign Standard介面中設定並發佈資料對應，才能使用API。 如需詳細資訊，請參閱下列區段。
 

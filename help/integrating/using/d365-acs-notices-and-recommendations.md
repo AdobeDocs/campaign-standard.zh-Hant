@@ -10,7 +10,7 @@ level: Experienced
 exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
 source-git-commit: 17522f4df86c7fb46593472316d57b4ba4acee2b
 workflow-type: tm+mt
-source-wordcount: '2471'
+source-wordcount: '2523'
 ht-degree: 1%
 
 ---
@@ -88,7 +88,7 @@ ht-degree: 1%
 
 在以下使用案例中，整合需要利用您的Campaign SFTP儲存空間。  您將需要確保您的SFTP帳戶有足夠的儲存容量來因應這些使用案例。 超過授權SFTP儲存容量可能會嚴重損害Campaign、整合和/或SFTP帳戶的功能使用。
 
-| 使用案例 | 說明 |
+| 使用實例 | 說明 |
 |---|---|
 | 雙向與單向(Campaign至Microsoft Dynamics 365) | 雙向和單向(Campaign至Microsoft Dynamics 365)選擇退出資料流程將利用Campaign SFTP儲存空間。 Campaign工作流程會將增量變更匯出至SFTP資料夾。 整合程式會從此擷取記錄並處理。 |
 | 選擇退出記錄 | 疑難排解整合時，聯結器的輸出記錄會很有幫助。 輸出記錄檔可以開啟/關閉。 |
@@ -162,7 +162,7 @@ ht-degree: 1%
 
   在估計整體Campaign引擎呼叫量時，務必要將其他引擎呼叫來源（包括登陸頁面、WebApps、JSSP、API、行動應用程式註冊等）納入考量。
 
-  請在這裡檢視Adobe Campaign Standard套件資訊： [https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html)
+  請在這裡檢視Adobe Campaign Standard套件資訊： [https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/tw/legal/product-descriptions/campaign-standard.html)
 
 * 此整合最多可支援1500萬筆記錄，以便初次同步至Campaign中的資源。 增量同步受到Adobe Campaign Standard套件的限制。
 

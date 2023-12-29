@@ -12,7 +12,7 @@ exl-id: 7083447c-4cac-41cb-8453-369819e0c7c1
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '835'
-ht-degree: 15%
+ht-degree: 14%
 
 ---
 
@@ -76,7 +76,7 @@ ht-degree: 15%
 
 ## 資料儲存與調解{#data-storage-and-reconciliation}
 
-資料調解參數可讓您定義在使用者提交登錄頁面中輸入的資料後，如何加以管理。
+資料調和參數可讓您定義在使用者提交登錄頁面中輸入的資料後，如何加以管理。
 
 操作步驟：
 

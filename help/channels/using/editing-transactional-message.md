@@ -12,7 +12,7 @@ exl-id: f5dcb715-7cbd-49f2-8713-7e16cfa04184
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 30%
+ht-degree: 27%
 
 ---
 
@@ -221,12 +221,12 @@ For more on creating a collection and related fields when configuring the event,
 
 差異列示於下方。
 
-1. [移至建立的交易式訊息，以編輯其內容。](#accessing-transactional-messages)
+1. [前往交易式訊息](#accessing-transactional-messages) 建立用來編輯它。
 1. 在交易式訊息中，按一下 **[!UICONTROL Content]** 區段。除了交易式電子郵件範本以外，您也可以選擇任何鎖定目標的電子郵件範本 **[!UICONTROL Profile]** 資源。
 
    ![](assets/message-center_marketing_templates.png)
 
-1. 選取預設的電子郵件範本。與所有行銷電子郵件類似，其中包含 **取消訂閱連結**.
+1. 選取預設的電子郵件範本。 與所有行銷電子郵件類似，其中包含 **取消訂閱連結**.
 
    ![](assets/message-center_marketing_perso_unsubscription.png)
 

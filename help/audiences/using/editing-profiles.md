@@ -11,7 +11,7 @@ exl-id: d0c7dc09-6f2b-4336-b545-7afe3a704164
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '314'
-ht-degree: 12%
+ht-degree: 7%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 12%
 
 若要編輯現有設定檔並查閱與其相關的資料，或修改該設定檔，步驟如下：
 
-1. 在 Adobe Campaign 首頁，按一下 **[!UICONTROL Customer profiles]** 資訊卡或 **[!UICONTROL Profiles]** 索引標籤。
+1. 從Adobe Campaign首頁，按一下 **[!UICONTROL Customer profiles]** 卡片或 **[!UICONTROL Profiles]** 標籤。
 1. 選取聯絡人。
 1. 按一下 **[!UICONTROL Edit profile properties]** 圖示來存取設定檔的詳細資訊。
 

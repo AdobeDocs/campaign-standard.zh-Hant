@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 1b91fb97-fe97-4564-936c-438be7ea7bc0
 source-git-commit: fc6788bf62fa66bd43b3e50fb9bc676ccb466078
 workflow-type: tm+mt
-source-wordcount: '1705'
-ht-degree: 5%
+source-wordcount: '1709'
+ht-degree: 3%
 
 ---
 
@@ -181,7 +181,7 @@ ht-degree: 5%
 
 1. 建立事件設定時，選取 **[!UICONTROL Real-time event]** 目標維度(請參閱 [建立事件](#creating-an-event))。
 1. 將欄位新增至事件，以便個人化交易式訊息(請參閱 [定義事件屬性](#defining-the-event-attributes))。
-1. 事件型交易式訊息應僅使用傳送事件中的資料來定義收件者和訊息內容個人化。
+1. 事件型交易式訊息應僅使用已傳送事件中的資料來定義收件者和訊息內容個人化。
 
    但是，如果您想使用來自Adobe Campaign資料庫的其他資訊，您可以擴充交易式訊息內容(請參閱 [豐富交易式訊息內容](#enriching-the-transactional-message-content))。
 

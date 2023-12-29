@@ -12,7 +12,7 @@ exl-id: 9a77a2c7-cc1c-416f-8103-bb7d5c84a373
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '206'
-ht-degree: 87%
+ht-degree: 86%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 87%
 ## 設定 {#configuration}
 
 1. 將活動 **[!UICONTROL Read audience]** 拖曳至工作流程中。
-1. 選取活動，然後使用所顯示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
+1. 選取活動，然後使用所顯示快速動作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
 1. 選取您要從 **[!UICONTROL Properties]** 索引標籤擷取的對象。
 
    您可以擷取下列類型的對象：**[!UICONTROL List]**、**[!UICONTROL Query]**、**[!UICONTROL File]** 及 **[!UICONTROL Experience Cloud]**。如需對象類型的詳細資訊，請參閱[對象](../../audiences/using/about-audiences.md)文件。

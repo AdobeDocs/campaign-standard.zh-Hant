@@ -10,14 +10,14 @@ level: Intermediate
 exl-id: 188b1750-e062-4328-9829-6f2848356b5c
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
-source-wordcount: '1149'
-ht-degree: 89%
+source-wordcount: '1152'
+ht-degree: 86%
 
 ---
 
 # 設定雙重選擇加入流程{#setting-up-a-double-opt-in-process}
 
-## 關於雙重選取加入 {#about-double-opt-in}
+## 關於雙重選擇加入 {#about-double-opt-in}
 
 傳送電子郵件時，最佳作法是雙重加入機制。它可保護平台免受錯誤或無效的電子郵件地址、垃圾郵件機器人，並防止可能的垃圾郵件投訴。
 
@@ -33,7 +33,7 @@ ht-degree: 89%
 
 這些步驟必須以特定順序在 Adobe Campaign 中設定，才能正確啟用所有參數。
 
-## 步驟　1：建立確認登錄頁面 {#step-1--create-the-confirmation-landing-page}
+## 步驟1：建立確認登入頁面 {#step-1--create-the-confirmation-landing-page}
 
 設定雙重選取加入機制的程式，從建立確認登錄頁面開始：當訪客點按確認電子郵件以進行註冊時，會顯示此頁面。
 
@@ -94,7 +94,7 @@ ht-degree: 89%
 
 活動已就緒。您現在可以設計電子郵件範本。此範本必須包含先前建立之 **CONFIRMATION** 登錄頁面的連結。有關詳細資訊，請參閱[設計確認訊息](#design-the-confirmation-message)。
 
-### 建立類型 {#create-the-typology-rule}
+### 建立型別 {#create-the-typology-rule}
 
 您需要建立特定[類型](../../sending/using/about-typology-rules.md)，方法是複製現成可用的類型。此型別將允許傳送訊息給尚未確認同意且仍位於封鎖清單中的設定檔。 依預設，排除選擇退出（即封鎖清單上）設定檔的型別。 若要建立此類型，請依照下列步驟進行：
 
@@ -119,7 +119,7 @@ ht-degree: 89%
 1. 編輯電子郵件範本屬性。在 **[!UICONTROL Advanced parameters]** > **[!UICONTROL Preparation]** 區段中，選取以前建立的 **TYPOLOGY_PROFILE** 類型。
 1. 儲存並發佈交易式訊息。
 
-## 步驟3：建立贏取登錄頁面 {#step-3--create-the-acquisition-landing-page}
+## 步驟3：建立贏取登入頁面 {#step-3--create-the-acquisition-landing-page}
 
 您必須建立初始贏取登錄頁面：此選取加入表格將會發佈在您的網站上。
 

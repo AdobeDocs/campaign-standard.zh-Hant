@@ -6,8 +6,8 @@ role: User
 level: Beginner
 exl-id: 8c722084-988d-47bd-98ad-9f5a422980a0
 source-git-commit: e7c9c79a72b9f1ce36d0c60464b36be7d36a50a6
-workflow-type: ht
-source-wordcount: '1201'
+workflow-type: tm+mt
+source-wordcount: '1248'
 ht-degree: 100%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 100%
 ### 修正{#rn-fixes}
 
 * 修正排程報告在排程計時前一小時觸發的問題。 (CAMP-51502)
-* 修正「傳送」控制面板中「傳送」指標與「傳送記錄檔」(nms:broadLogRcp) 不符的問題。 (CAMP-51127)
+* 修正「傳送」控制面板中傳送指標與「傳送記錄檔」(nms:broadLogRcp) 不符的問題。 (CAMP-51127)
 * 修正無法透過 ACS Connector (Prime Offering) 擴充自訂資源的問題。 (CAMP-51033)
 * 改善隱私權請求回應的發佈程式，以避免延遲。 (CAMP-50613)
 

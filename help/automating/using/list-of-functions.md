@@ -10,7 +10,7 @@ level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
-source-wordcount: '1970'
+source-wordcount: '2011'
 ht-degree: 95%
 
 ---
@@ -384,7 +384,7 @@ ht-degree: 95%
  </tbody> 
 </table>
 
-## Others {#others}
+## 其他 {#others}
 
 此表格包含剩餘的可用函式。
 
@@ -718,7 +718,7 @@ ht-degree: 95%
  </tbody> 
 </table>
 
-## Representation {#representation}
+## 表示 {#representation}
 
 表示函式用於對值進行排序。
 

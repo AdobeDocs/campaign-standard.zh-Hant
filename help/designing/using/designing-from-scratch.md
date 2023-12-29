@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 052d24b7-d3e0-41d7-8b2c-92bd3addb3a2
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1239'
-ht-degree: 23%
+source-wordcount: '1232'
+ht-degree: 22%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 23%
 1. 新增影像並編輯電子郵件的文字。 另請參閱 [插入影像](../../designing/using/images.md#inserting-images).
 1. 新增個人化欄位、連結等，以個人化您的電子郵件。 另請參閱 [插入個人化欄位](../../designing/using/personalization.md#inserting-a-personalization-field)， [插入連結](../../designing/using/links.md#inserting-a-link) 和 [定義電子郵件中的動態內容](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 1. 定義電子郵件的主旨列。 另請參閱 [個人化電子郵件的主旨列](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
-1. 預覽您的電子郵件.
+1. 預覽您的電子郵件。
 1. 儲存您的內容，並在確定您已定義對象並正確排程傳送後繼續傳送訊息。
 
 您也可以檢視此 [簡介影片](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true).
@@ -151,7 +151,7 @@ ht-degree: 23%
 1. 儲存您要使用的所有影像和資產。
 1. 如果您熟悉HTML，請將原始HTML內容分割成不同的部分。
 
-### 視訊 {#video-settings}
+### 影片 {#video-settings}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_video"
@@ -175,7 +175,7 @@ ht-degree: 23%
 
 使用此元件來插入電子郵件中的社群媒體頁面連結。 您可以選取要顯示哪些連結及其圖示的大小 **[!UICONTROL Component Settings]**.
 
-### 輪播 {#carousel-settings}
+### 傳送 {#carousel-settings}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_carousel"

@@ -12,7 +12,7 @@ exl-id: b40e4f6f-34bb-40f9-80e8-e9f1bce5548c
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '969'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -97,7 +97,7 @@ ht-degree: 100%
 
    ![](assets/audience_files_3.png)
 
-## 建立 Experience Cloud 觀眾 {#creating-experience-cloud-audiences}
+## 建立Experience Cloud對象 {#creating-experience-cloud-audiences}
 
 Adobe Campaign 可讓您與 Adobe Experience Cloud 共用和交換對象。**Experience Cloud** 類型的對象會透過 **[!UICONTROL Import shared audience]** 技術工作流程，直接從 People 核心服務匯入 Adobe Campaign。
 

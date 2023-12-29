@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 9b522c84-e296-47c7-9588-2e5ed08ab631
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 47%
+source-wordcount: '183'
+ht-degree: 40%
 
 ---
 
@@ -39,8 +39,8 @@ ht-degree: 47%
                </tr>
                <tr>
                   <td>已建立</td>
-                  <td>已建立</td>
-                  <td>date </td>
+                  <td>建立時間</td>
+                  <td>日期 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -88,7 +88,7 @@ ht-degree: 47%
                <tr>
                   <td>lastModified</td>
                   <td>上次修改時間</td>
-                  <td>date </td>
+                  <td>日期 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -111,7 +111,7 @@ ht-degree: 47%
                </tr>
                <tr>
                   <td>行動電話</td>
-                  <td>行動裝置</td>
+                  <td>行動</td>
                   <td>字串(32)</td>
                   <td> </td>
                </tr>
@@ -135,7 +135,7 @@ ht-degree: 47%
                </tr>
                <tr>
                   <td>nms_rtEvent</td>
-                  <td>Event</td>
+                  <td>事件</td>
                   <td>項目 </td>
                   <td> </td>
                </tr>
@@ -177,7 +177,7 @@ ht-degree: 47%
                </tr>
                <tr>
                   <td>簡訊</td>
-                  <td>行動裝置</td>
+                  <td>行動</td>
                   <td>字串(255)</td>
                   <td> </td>
                </tr>
@@ -189,7 +189,7 @@ ht-degree: 47%
                </tr>
                <tr>
                   <td>targetdata</td>
-                  <td>擴充功能</td>
+                  <td>延伸</td>
                   <td>字串 </td>
                   <td> </td>
                </tr>
@@ -200,7 +200,7 @@ ht-degree: 47%
                   <td> </td>
                </tr>
                <tr>
-                  <td>title</td>
+                  <td>標題</td>
                   <td>測試設定檔</td>
                   <td>字串(255)</td>
                   <td> </td>

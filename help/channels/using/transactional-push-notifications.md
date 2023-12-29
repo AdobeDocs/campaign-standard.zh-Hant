@@ -12,7 +12,7 @@ exl-id: 61988c1d-d538-47b1-94c1-f3fbdf314b65
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '1451'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -75,7 +75,7 @@ ht-degree: 4%
 
 公司將使用單一行動應用程式，透過單一裝置為每位使用者傳送一個交易式推播通知（以註冊權杖識別）。
 
-1. 移至建立的交易式訊息，以編輯其內容。另請參閱 [存取交易式訊息](../../channels/using/editing-transactional-message.md#accessing-transactional-messages).
+1. 移至建立的交易式訊息以對其進行編輯。 另請參閱 [存取交易式訊息](../../channels/using/editing-transactional-message.md#accessing-transactional-messages).
 
    ![](assets/message-center_push_message.png)
 
@@ -165,7 +165,7 @@ ht-degree: 4%
 
 例如，一家航空公司想要傳送最後一個入門呼叫給所有已訂閱其行動應用程式的Adobe Campaign使用者。
 
-1. 移至建立的交易式訊息，以編輯其內容。另請參閱 [存取交易式訊息](../../channels/using/editing-transactional-message.md#accessing-transactional-messages).
+1. 移至建立的交易式訊息以對其進行編輯。 另請參閱 [存取交易式訊息](../../channels/using/editing-transactional-message.md#accessing-transactional-messages).
 
 1. 按一下 **[!UICONTROL Content]** 區塊以修改訊息的標題和內文。
 

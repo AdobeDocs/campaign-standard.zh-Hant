@@ -12,7 +12,7 @@ exl-id: 0a4c45ea-acc2-424f-8596-73376e344172
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '337'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 ![](assets/direct_mail_11.png)
 
-## 定義解壓縮 {#defining-the-extraction}
+## 定義擷取 {#defining-the-extraction}
 
 1. 首先，定義解壓縮檔案的名稱。按一下 **[!UICONTROL Output file]** 欄位右側的按鈕，然後輸入需要的標籤。您可以使用個人化欄位、內容區塊和動態文字（請參閱[定義內容](../../designing/using/personalization.md#example-email-personalization)）。例如，您可以使用傳送識別碼或解壓縮日期來完成標籤。
 

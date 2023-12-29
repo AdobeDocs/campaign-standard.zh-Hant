@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 612b6203-1cc9-4015-a026-e5a249f3d03d
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1110'
-ht-degree: 98%
+source-wordcount: '1116'
+ht-degree: 96%
 
 ---
 
@@ -44,8 +44,8 @@ ht-degree: 98%
 ## 設定 {#configuration}
 
 1. 將 **[!UICONTROL Subscription Services]** 活動拖放至工作流程中。
-1. 在匯入其他目標定位活動（如查詢或調解）之後進行連接。
-1. 選取活動，然後使用所顯示快速操作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
+1. 在匯入其他目標定位活動（如查詢或調和）之後進行連接。
+1. 選取活動，然後使用所顯示快速動作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
 1. 使用以下其中一個選項，選取您要為其管理訂閱的 **[!UICONTROL Service]**：
 
    * **[!UICONTROL Select a specific service]**：手動選取服務。
@@ -69,9 +69,9 @@ ht-degree: 98%
 
    現已準備就緒而可執行。一旦執行後，您即可以在服務的詳細資訊中檢視已訂閱或取消訂閱服務的設定檔。
 
-## 範例：匯入檔案後將設定檔訂閱至特定的服務 {#example--subscribing-profiles-to-a-specific-service-after-importing-a-file}
+## 範例：匯入檔案後將設定檔訂閱至特定服務 {#example--subscribing-profiles-to-a-specific-service-after-importing-a-file}
 
-此範例說明如何匯入包含設定檔的檔案並將其訂閱至現有服務中。匯入檔案後，必須進行調解，以便將匯入的資料識別為設定檔。為確保檔案不包含任何重複項目，將對資料執行重複資料刪除活動。
+此範例說明如何匯入包含設定檔的檔案並將其訂閱至現有服務中。匯入檔案後，必須進行調和，以便將匯入的資料識別為設定檔。為確保檔案不包含任何重複項目，將對資料執行重複資料刪除活動。
 
 工作流程如下：
 
@@ -100,7 +100,7 @@ ht-degree: 98%
 
   ![](assets/subscription_activity_example3.png)
 
-* **[!UICONTROL Deduplication]** 是以臨時資源的 **email** 為基礎（調解後產生的結果）的電子郵件欄位識別任何重複項目。如果從檔案匯入的資料包含任何重複項目，所有資料服務的訂閱將會失敗。
+* **[!UICONTROL Deduplication]** 是以臨時資源的 **email** 為基礎（調和後產生的結果）的電子郵件欄位識別任何重複項目。如果從檔案匯入的資料包含任何重複項目，所有資料服務的訂閱將會失敗。
 
   ![](assets/subscription_activity_example5.png)
 
@@ -108,9 +108,9 @@ ht-degree: 98%
 
   ![](assets/subscription_activity_example4.png)
 
-## 範例：從檔案  更新多個訂閱狀態 {#example--updating-multiple-subscription-statuses-from-a-file}
+## 範例：從檔案更新多個訂閱狀態 {#example--updating-multiple-subscription-statuses-from-a-file}
 
-此範例說明如何匯入包含設定檔的檔案，以及如何將其訂閱更新為檔案中指定的多個服務。匯入檔案後，必須進行調解，以便將匯入的資料識別為具有服務連結的描述檔。為確保檔案不包含任何重複項目，將對資料執行重複資料刪除活動。
+此範例說明如何匯入包含設定檔的檔案，以及如何將其訂閱更新為檔案中指定的多個服務。匯入檔案後，必須進行調和，以便將匯入的資料識別為具有服務連結的描述檔。為確保檔案不包含任何重複項目，將對資料執行重複資料刪除活動。
 
 工作流程如下：
 
@@ -149,7 +149,7 @@ ht-degree: 98%
 
   ![](assets/subscription_example_service_relation.png)
 
-* **[!UICONTROL Deduplication]** 是以臨時資源的 **email** 為基礎（調解後產生的結果）的電子郵件欄位識別重複項目。消除重複項目非常重要，因為所有資料的服務訂閱將會在出現重複項目時失敗。
+* **[!UICONTROL Deduplication]** 是以臨時資源的 **email** 為基礎（調和後產生的結果）的電子郵件欄位識別重複項目。消除重複項目非常重要，因為所有資料的服務訂閱將會在出現重複項目時失敗。
 
   ![](assets/subscription_activity_example5.png)
 

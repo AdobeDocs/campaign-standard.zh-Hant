@@ -1,6 +1,6 @@
 ---
 title: 使用檔案包含的資料擴充設定檔資料
-description: 此範例顯示如何以檔案中包含的購買資料擴充設定檔資料。
+description: 此範例說明如何以檔案中包含的購買資料擴充設定檔資料。
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: d5c19884-5a3e-4676-899c-53074a3b0efc
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 75%
+source-wordcount: '521'
+ht-degree: 72%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 75%
 
   在此範例檔案中，使用電子郵件地址來調解資料與資料庫設定檔。 您也可以啟用唯一 ID，如[本文件](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)所述。
 
-* 一個 [擴充](../../automating/using/enrichment.md) 在從檔案載入的交易處理資料與在中選取的設定檔之間建立連結的活動 **[!UICONTROL Query]**. 該連結在活動的 **[!UICONTROL Advanced relations]** 索引標籤中定義。連結以來自 **[!UICONTROL Load file]** 活動的轉變為基礎。它使用設定檔資源的「電子郵件」欄位和匯入檔案的「客戶」列作為調解標準。
+* 一個 [擴充](../../automating/using/enrichment.md) 在從檔案載入的交易處理資料與在中選取的設定檔之間建立連結的活動 **[!UICONTROL Query]**. 該連結在活動的 **[!UICONTROL Advanced relations]** 索引標籤中定義。連結以來自 **[!UICONTROL Load file]** 活動的轉變為基礎。它使用設定檔資源的「電子郵件」欄位和匯入檔案的「客戶」列作為調和標準。
 
   ![](assets/enrichment_example_workflow2.png)
 

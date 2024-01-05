@@ -6,16 +6,16 @@ feature: Push
 role: Admin
 level: Experienced
 exl-id: e273b443-7c43-482b-8f86-60ada4b57cbf
-source-git-commit: 1d8baca669235be10d373d985ea62f6f014c16f8
+source-git-commit: ac4a52263482557a6d5c370af6df5d54a42671b4
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 12%
+source-wordcount: '338'
+ht-degree: 5%
 
 ---
 
 # 推播通知頻道近期變更 {#push-upgrade}
 
-您可以使用Campaign在Android和iOS裝置上傳送推播通知。 為此，Campaign需仰賴特定的訂閱服務。 Android Firebase Cloud Messaging (FCM) 服務的一些重要變更將於 2024 年發行，並影響 Adobe Campaign 實施。 此外，對於iOS應用程式，Adobe正在變更允許管理員設定憑證的方式。
+您可以使用Campaign在Android和iOS裝置上傳送推播通知。 為此，Campaign需仰賴特定的訂閱服務。 Android Firebase Cloud Messaging (FCM)服務的一些重要變更將於2024年冬季版本24.1中發行，將影響您的Adobe Campaign實施。 此外，對於iOS應用程式，Adobe正在變更允許管理員設定憑證的方式。
 
 ## 哪些部分有所變更？ {#push-changes}
 
@@ -27,7 +27,7 @@ ht-degree: 12%
 
 ### iOS {#push-ios}
 
-Adobe也將升級適用於iOS推播通知通道的Adobe Campaign Standard ，並變更允許管理員為其iOS應用程式設定憑證的方式。 管理員現在需要透過iOS的使用者介面上傳Adobe Campaign Standard憑證。
+Adobe也將升級適用於iOS推播通知通道的Adobe Campaign Standard ，並變更允許管理員為其iOS應用程式設定憑證的方式。 自2024年24月2日冬季發行版本開始，管理員需要透過Adobe Campaign Standard的使用者介面，在您的行動應用程式屬性中上傳iOS憑證。
 
 ## 您有受到影響嗎？ {#push-impact}
 
@@ -35,7 +35,7 @@ Adobe也將升級適用於iOS推播通知通道的Adobe Campaign Standard ，並
 
 ## 如何移轉？ {#push-migration}
 
-這些更新需要Campaign Standard組建升級，因為它們會影響行動裝置頻道設定和許可權管理。
+這些更新需要Campaign Standard組建升級至2024年冬季版24.1，因為它們會影響行動裝置頻道設定和許可權管理。
 
 我們很快就會提供詳細指示，以利順暢的轉換過程。
 

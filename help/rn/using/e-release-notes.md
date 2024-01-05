@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 602aca18af81625b9756a8f2020b5bc636199b96
+source-git-commit: ac4a52263482557a6d5c370af6df5d54a42671b4
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 68%
+source-wordcount: '159'
+ht-degree: 52%
 
 ---
 
@@ -33,7 +33,10 @@ ht-degree: 68%
 
 Adobe Campaign Standard 24.1使用HTTP v1 API傳送Android推播通知訊息，以確保與即將推出的FCM變更相容。 若要了解詳細資訊，請參閱[此技術說明](../../administration/using/push-technote.md)。
 
+Adobe Campaign Standard 24.1現在支援iOS推播通知的p8驗證憑證。 您的實作必須經過調整，才能啟用這些變更。 若要了解詳細資訊，請參閱[此技術說明](../../administration/using/push-technote.md)。
+
 
 ### 修正 {#e-rn-fixes}
 
+* 修正無法在30天後從隔離區移除已退回電子郵件地址的問題。 (CAMP-52977)
 * 修正傳送警報工作流程因下列錯誤而停止的問題： `division by zero`. (CAMP-49786)

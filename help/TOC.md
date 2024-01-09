@@ -1,18 +1,18 @@
 ---
 audience: end-user
 user-guide-title: Campaign Standard
-user-guide-description: 說明中心，以瞭解使用 Campaign Standard 所需的主要功能、工作、設定和其他資源。
+user-guide-description: Adobe Campaign Standard的產品檔案。
 title: Campaign Standard 指南
-breadcrumb-title: Adobe Campaign Standard 文件
-source-git-commit: 54910a648abfcf479562d7b66792976ae0aa37cc
+breadcrumb-title: Campaign Standard檔案
+source-git-commit: 604ca02130bdc92d26cebdff32617fa6b3495a1a
 workflow-type: tm+mt
-source-wordcount: '1777'
-ht-degree: 100%
+source-wordcount: '1766'
+ht-degree: 99%
 
 ---
 
 
-# Adobe Campaign Standard 說明 {#using}
+# Adobe Campaign Standard 文件 {#using}
 
 + [Campaign Standard 文件](campaign-standard-home.md)
 + [最新更新](rn/using/documentation-updates.md)

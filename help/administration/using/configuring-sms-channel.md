@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
-source-git-commit: 6c96a5d294c6e96d20571d176898290c9c026f0b
+source-git-commit: b023e07c337e3352b8d1e26254ce342e0d560a27
 workflow-type: tm+mt
-source-wordcount: '1596'
-ht-degree: 87%
+source-wordcount: '1595'
+ht-degree: 88%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 87%
 
 預設會提供外部帳戶 **[!UICONTROL SMS routing via SMPP]**，但可用於新增其他帳戶。
 
-如果您想使用 SMPP 通訊協定，也可以建立新的外部帳戶。有關簡訊通訊協定和設定的詳細資訊，請參閱此[技術說明](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html)。
+如果您想使用 SMPP 通訊協定，也可以建立新的外部帳戶。有關簡訊通訊協定和設定的詳細資訊，請參閱此[技術說明](../../administration/using/sms-protocol.md)。
 
 1. 從 **[!UICONTROL Administration > Application settings > External accounts]** 建立新的外部帳戶。
 1. 將帳戶類型定義為 **[!UICONTROL Routing]**，將通道定義為 **[!UICONTROL Mobile (SMS)]** 並將傳送模式定義為 **[!UICONTROL Bulk delivery]**。

@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 950d24e2-358f-44f8-98ea-643be61d4573
-source-git-commit: acbe5f1990738f586e4310d13f0e19baab11d771
+source-git-commit: 1346f7d833515fb2e6feabb39d199ffd5610c88e
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '932'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,11 @@ ht-degree: 0%
 
 推播追蹤分為三種型別：
 
-* **推播曝光次數**  — 當推播通知已傳送至裝置，且位於通知中心但完全未觸及時。  這被視為一次曝光。  在大多數情況下，如果不與遞送的數字相同，則印象數字應該類似。 這可確保裝置確實收到訊息，並將該資訊轉送回伺服器。
+* **推播曝光次數**  — 當推播通知成功傳送到裝置時，位於通知中心且沒有任何使用者互動。
 
 * **推送點按**  — 當推播通知已傳送至裝置，且使用者已按一下裝置時。  使用者想要檢視通知（進而將移至推播開啟追蹤）或關閉通知。
 
-* **推送開啟**  — 當推播通知已傳送至裝置，且使用者已按一下導致應用程式開啟的通知。  這類似於「推送點按」，但如果通知已關閉，則不會觸發「推送開啟」。
+* **推送開啟**  — 當推播通知已傳送至裝置，且使用者已按一下導致應用程式開啟的通知。 這類似於「推送點按」，但如果通知已關閉，則不會觸發「推送開啟」。
 
 若要實作Campaign Standard追蹤，行動應用程式必須包含Adobe Experience Platform SDK。 這些SDK可在 [Adobe Experience Platform SDK檔案](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
 

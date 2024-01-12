@@ -9,20 +9,24 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 5af37156-e93b-4ae9-9856-053364f211ef
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: d0ef11f26a52603107af28231d70821b44753abb
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
 
 # 熱點點擊{#hot-clicks}
 
+>[!IMPORTANT]
+>
+>「熱點點按」報表僅會顯示電子郵件的HTML版本，不支援「文字」版本。
+
 此報表可從以下位置存取： **[!UICONTROL Reports]** 每個傳遞或交易式訊息中的按鈕。
 
 ![](assets/delivery_reports_hot-clicks_4.png)
 
-它會顯示訊息內容(HTML和/或文字)以及每個連結的點按百分比。
+它會顯示訊息內容，以及每個連結的點按百分比。
 
 ![](assets/delivery_reports_10.png)
 

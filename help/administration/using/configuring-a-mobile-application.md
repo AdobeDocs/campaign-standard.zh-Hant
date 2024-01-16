@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 630a4d0d0ced73d469fe81431f8bcf954b74cb45
+source-git-commit: 1619e1f434742b89d0f0802c40e82d7b59773a59
 workflow-type: tm+mt
-source-wordcount: '1271'
+source-wordcount: '1307'
 ht-degree: 2%
 
 ---
@@ -153,7 +153,7 @@ ht-degree: 2%
      輸入下列應用程式明細：
 
       * **應用程式ID (iOS套件組合ID)**：請參閱 [Apple檔案](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) 以取得套件組合ID的詳細資訊。
-      * **iOS憑證(P8)檔案**：拖放您的.p8驗證金鑰。
+      * **iOS憑證(P8)檔案**：拖放您的.p8驗證金鑰。 有關如何產生.p8驗證檔案的說明，請參閱您的 [Apple開發人員帳戶](https://developer.apple.com/account/ios/authkey/create).
       * **金鑰ID**：請參閱 [Apple檔案](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/) 以取得金鑰ID的詳細資訊。
       * **iOS團隊ID**：請參閱 [Apple檔案](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id//) 以取得有關iOS團隊ID的詳細資訊。
 
@@ -165,7 +165,7 @@ ht-degree: 2%
      輸入下列應用程式明細：
 
       * **應用程式ID （Android套件名稱）**：請參閱 [Android檔案](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores) 以取得封裝名稱的詳細資訊。
-      * **Android金鑰(Json)檔案**：拖放您的.json私密金鑰檔案。
+      * **Android金鑰(Json)檔案**：拖放您的.json私密金鑰檔案。 如需有關如何產生.json私密金鑰檔案的指示，請參閱 [適用於Firebase的開發人員檔案](https://firebase.google.com/docs/admin/setup#initialize_the_sdk_in_non-google_environments).
 
         ![](assets/mobile_app_android_config.png)
 +++

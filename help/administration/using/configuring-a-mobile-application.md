@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
+source-git-commit: 630a4d0d0ced73d469fe81431f8bcf954b74cb45
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1271'
 ht-degree: 2%
 
 ---
@@ -146,15 +146,31 @@ ht-degree: 2%
 
    現在，當您建立應用程式內訊息時，事件會顯示在「觸發器」索引標籤上。 如需詳細資訊，請參閱 [準備和傳送應用程式內訊息](../../channels/using/preparing-and-sending-an-in-app-message.md).
 
-1. 在 **[!UICONTROL Device-specific settings]** 行動應用程式控制面板的區段，針對每個裝置提供應用程式詳細資訊，包括iOS的憑證和Android的伺服器金鑰。
+1. 在 **[!UICONTROL Device-specific settings]** 行動應用程式控制面板的區段，針對每個裝置提供應用程式詳細資訊。
 
-   上傳憑證後，系統會顯示一則訊息，通知您上傳成功並顯示憑證的到期日。
+   * +++ 適用於iOS
 
-   >[!NOTE]
-   >
-   >在Adobe Campaign Standard中成功新增憑證後，您將無法再將設定變更回，因為只能將一個APNS平台（生產或沙箱）新增到MCPNS應用程式。
+     輸入下列應用程式明細：
 
-   ![](assets/launch_8.png)
+      * **應用程式ID (iOS套件組合ID)**：請參閱 [Apple檔案](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) 以取得套件組合ID的詳細資訊。
+      * **iOS憑證(P8)檔案**：拖放您的.p8驗證金鑰。
+      * **金鑰ID**：請參閱 [Apple檔案](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/) 以取得金鑰ID的詳細資訊。
+      * **iOS團隊ID**：請參閱 [Apple檔案](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id//) 以取得有關iOS團隊ID的詳細資訊。
+
+        ![](assets/mobile_app_ios_config.png)
++++
+
+   * +++ 適用於Android
+
+     輸入下列應用程式明細：
+
+      * **應用程式ID （Android套件名稱）**：請參閱 [Android檔案](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores) 以取得封裝名稱的詳細資訊。
+      * **Android金鑰(Json)檔案**：拖放您的.json私密金鑰檔案。
+
+        ![](assets/mobile_app_android_config.png)
++++
+
+1. 上傳憑證後，系統會顯示一則訊息，通知您上傳成功並顯示憑證的到期日。
 
 1. 按一下 **[!UICONTROL Mobile application subscribers]** 標籤即可檢視訂閱者清單以及有關這些訂閱者的其他資訊，例如他們是否選擇退出您的通知。
 

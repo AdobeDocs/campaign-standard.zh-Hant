@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: 8702a07c50afa82a24b79cf768ab079f6384cf3f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7258'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 99%
 
 除了 Adobe Campaign [發行版本](../../rn/using/release-notes.md)以外，本頁還列出 Adobe Campaign Standard 檔案中的所有全新更新。
 
-## 版本24.1 - 2024年冬季 {#release-24-1}
+## 版本 24.1 - 2024 年冬季 {#release-24-1}
 
-Campaign Standard24.1 2024年冬季版本的發行說明已發佈。 [深入了解](release-notes.md)
+已發佈 Campaign Standard 24.1 2024 冬季版的發行說明。[深入了解](release-notes.md)
 
 ## 2023 年 12 月 {#doc-updates-dec-2023}
 

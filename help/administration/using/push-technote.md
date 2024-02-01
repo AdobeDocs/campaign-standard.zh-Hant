@@ -6,16 +6,18 @@ feature: Push
 role: Admin
 level: Experienced
 exl-id: e273b443-7c43-482b-8f86-60ada4b57cbf
-source-git-commit: ac4a52263482557a6d5c370af6df5d54a42671b4
+source-git-commit: f6190139e474800a88ece6fa7d4c6aa3e296e492
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 5%
+source-wordcount: '352'
+ht-degree: 4%
 
 ---
 
 # 推播通知頻道近期變更 {#push-upgrade}
 
 您可以使用Campaign在Android和iOS裝置上傳送推播通知。 為此，Campaign需仰賴特定的訂閱服務。 Android Firebase Cloud Messaging (FCM)服務的一些重要變更將於2024年冬季版本24.1中發行，將影響您的Adobe Campaign實施。 此外，對於iOS應用程式，Adobe正在變更允許管理員設定憑證的方式。
+
+[進一步瞭解如何在Adobe Campaign Standard中設定您的行動應用程式憑證。](configuring-a-mobile-application.md#channel-specific-config)
 
 ## 哪些部分有所變更？ {#push-changes}
 

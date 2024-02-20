@@ -9,7 +9,7 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: b00fdeb9-2431-4209-8a3f-59c7e6ce7c31
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
 workflow-type: tm+mt
 source-wordcount: '1663'
 ht-degree: 98%
@@ -250,7 +250,7 @@ ht-degree: 98%
 
 從動態報表，您可以將自訂欄位維度拖放至自由表格。
 
-有關動態報告的詳細資訊，請參閱[元件清單](../../reporting/using/list-of-components-.md)。
+有關動態報告的詳細資訊，請參閱[元件清單](../../reporting/using/list-of-components.md)。
 
 >[!IMPORTANT]
 >

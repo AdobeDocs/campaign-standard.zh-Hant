@@ -5,8 +5,8 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 8702a07c50afa82a24b79cf768ab079f6384cf3f
-workflow-type: ht
+source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
+workflow-type: tm+mt
 source-wordcount: '7258'
 ht-degree: 100%
 
@@ -898,7 +898,7 @@ API Signal 活動觸發 – [瞭解詳情](../../api/using/triggering-a-signal-a
 
 已新增使用案例，以便更妥善地瞭解安全群組和裝置。[瞭解詳情](../../administration/using/organizational-units.md)
 
-改進動態報告中維度、度量和區段的定義和計算。[瞭解詳情](../../reporting/using/list-of-components-.md)
+改進動態報告中維度、度量和區段的定義和計算。[瞭解詳情](../../reporting/using/list-of-components.md)
 
 已新增有關使用工作流程擷取入站簡訊訊息的資訊。[瞭解詳情](../../administration/using/configuring-sms-channel.md)
 
@@ -958,7 +958,7 @@ API Signal 活動觸發 – [瞭解詳情](../../api/using/triggering-a-signal-a
 
 **此版本隨附的其他文件更新**
 
-「動態報告」中每個可用元件的詳細清單，以及公式的某些變更。[瞭解詳情](../../reporting/using/list-of-components-.md)
+「動態報告」中每個可用元件的詳細清單，以及公式的某些變更。[瞭解詳情](../../reporting/using/list-of-components.md)
 
 與 Adobe Analytics 共用的 KPI 詳細清單。[瞭解詳情](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
 
@@ -1010,7 +1010,7 @@ Adobe Campaign 通知 – [瞭解詳情](../../administration/using/sending-inte
 
 已更新報告指標計算表。[瞭解詳情](../../reporting/using/indicator-calculation.md)
 
-報告檔案已更新為 4 個新度量。[瞭解詳情](../../reporting/using/list-of-components-.md)
+報告檔案已更新為 4 個新度量。[瞭解詳情](../../reporting/using/list-of-components.md)
 
 在設定檔的唯一 ID 產生中新增檔案。[瞭解詳情](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)
 

@@ -6,7 +6,7 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
 workflow-type: tm+mt
 source-wordcount: '7674'
 ht-degree: 8%
@@ -61,7 +61,7 @@ ht-degree: 8%
 * 動態報告的同意快顯視窗已更新，其中包含Adobe Campaign Standard和Microsoft Dynamics 365整合。 一旦接受條款，使用Adobe Campaign Standard / Microsoft Dynamics 365整合和動態報告時，便會計入設定檔資料。 [閱讀全文](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) (CAMP-29766)
 * 修正接收傳遞警報時顯示錯誤聯絡日期的問題。
 * 當使用未知的內容引數提交交易式訊息事件時，Campaign現在會傳回「400」錯誤訊息，而不是「500」。 (CAMP-28632)
-* 新 **排除證明** 區段已新增至動態報告中。 現在預設會選取此區段來篩選您的報表。 [深入了解](../../reporting/using/list-of-components-.md#segments)
+* 新 **排除證明** 區段已新增至動態報告中。 現在預設會選取此區段來篩選您的報表。 [深入了解](../../reporting/using/list-of-components.md#segments)
 * 此 **訊息過期** 選項已新增至推播通知。 它可讓您指定到期日，Apple (APNS)或Android (FCM)將不再傳送訊息。 [深入了解](../../channels/using/customizing-a-push-notification.md#add-expiration-date)
 * 已對「 」進行改善 **載入檔案** 活動：工作流程記錄檔已變得更清晰，且更詳細地說明檔案載入失敗時發生的錯誤。 啟用時產生的出站轉變 **將拒絕專案保留在檔案中** 選項已重新命名 **拒絕**. [深入了解](../../automating/using/load-file.md)
 * 已將多語言相關記錄檔新增至傳送記錄檔，以更能瞭解由於上傳CSV檔案中缺少語言而導致的傳送失敗。

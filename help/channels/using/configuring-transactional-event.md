@@ -9,7 +9,7 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 1b91fb97-fe97-4564-936c-438be7ea7bc0
-source-git-commit: fc6788bf62fa66bd43b3e50fb9bc676ccb466078
+source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
 workflow-type: tm+mt
 source-wordcount: '1709'
 ht-degree: 3%
@@ -103,7 +103,7 @@ ht-degree: 3%
 
 您可以使用Adobe Campaign資料庫中的資訊擴充交易式訊息內容，以便個人化您的訊息。 例如，您可以從每個收件者的姓氏或CRM ID復原資料，例如其地址或出生日期，或新增在設定檔表格中的任何其他自訂欄位，以便個人化傳送給他們的資訊。
 
-您可以使用擴充的資訊擴充異動訊息內容 **[!UICONTROL Profile and services Ext API]**. 如需詳細資訊，請參閱 [擴充API：發佈擴充功能](../../developing/using/step-2--publish-the-extension.md)
+您可以使用擴充的資訊擴充異動訊息內容 **[!UICONTROL Profile and services Ext API]**. 如需詳細資訊，請參閱 [擴充API：發佈擴充功能](../../developing/using/step-2-publish-the-extension.md)
 
 此資訊也可以儲存在新資源中。 在這種情況下，資源必須連結到 **[!UICONTROL Profile]** 或 **[!UICONTROL Service]** 資源（直接或透過其他表格）。 例如，在下方的設定中，可以使用來自的資訊擴充交易式訊息內容 **[!UICONTROL Product]** 產品類別或ID之類的資源，如果 **[!UICONTROL Product]** 資源已連結至 **[!UICONTROL Profile]** 資源。
 

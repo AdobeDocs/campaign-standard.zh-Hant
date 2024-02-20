@@ -8,7 +8,7 @@ feature: Reporting
 role: Leader
 level: Beginner
 exl-id: fc3b28f3-63f6-4edc-923d-c7eb7925d1b7
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 2%
@@ -62,8 +62,8 @@ ht-degree: 2%
 
 |  | 動態報告 | Microsoft Dynamics 365聯結器 |
 |---|---|---|
-| 美洲和APAC （亞太） | **可用功能**. <br>所有立即可用（亦即根據年齡劃分的城市、國家/地區、州、性別和區段）與自訂設定檔資訊推送至美國報表中心。 有關設定檔維度的詳細資訊，請參閱此 [頁面](../../reporting/using/list-of-components-.md) | **可用功能**. <br>所有現成可用的和自訂設定檔欄位和Adobe Campaign Standard事件欄位都會在美國資料中心處理。 |
-| EMEA （歐洲、中東及非洲） | **可用功能**. <br>所有現成可用的資訊（亦即根據年齡區分的城市、國家/地區、州、性別和區段），以及推送至EMEA報告中心的自訂設定檔資訊。 有關設定檔維度的詳細資訊，請參閱此 [頁面](../../reporting/using/list-of-components-.md) | **功能可用。** <br>所有現成可用的和自訂設定檔欄位，以及EMEA資料中心處理的Adobe Campaign Standard事件欄位。 <br>**[!UICONTROL Control data]**其中包含Adobe I/O註冊資料，以及傳送並儲存在美國資料中心的客戶一般使用者事件的ID。 |
+| 美洲和APAC （亞太） | **可用功能**. <br>所有立即可用（亦即根據年齡劃分的城市、國家/地區、州、性別和區段）與自訂設定檔資訊推送至美國報表中心。 有關設定檔維度的詳細資訊，請參閱此 [頁面](../../reporting/using/list-of-components.md) | **可用功能**. <br>所有現成可用的和自訂設定檔欄位和Adobe Campaign Standard事件欄位都會在美國資料中心處理。 |
+| EMEA （歐洲、中東及非洲） | **可用功能**. <br>所有現成可用的資訊（亦即根據年齡區分的城市、國家/地區、州、性別和區段），以及推送至EMEA報告中心的自訂設定檔資訊。 有關設定檔維度的詳細資訊，請參閱此 [頁面](../../reporting/using/list-of-components.md) | **功能可用。** <br>所有現成可用的和自訂設定檔欄位，以及EMEA資料中心處理的Adobe Campaign Standard事件欄位。 <br>**[!UICONTROL Control data]**其中包含Adobe I/O註冊資料，以及傳送並儲存在美國資料中心的客戶一般使用者事件的ID。 |
 
 下表顯示根據您所在的地區，拒絕此合約後會發生什麼事情。 請注意，即使您拒絕此合約，仍可提供有關傳遞與Microsoft Dynamics 365整合的報告。
 

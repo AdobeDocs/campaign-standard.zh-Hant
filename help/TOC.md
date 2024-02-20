@@ -4,8 +4,8 @@ user-guide-title: Campaign Standard
 user-guide-description: Adobe Campaign Standard 產品文件。
 title: Campaign Standard 指南
 breadcrumb-title: Campaign Standard 文件
-source-git-commit: 64e3bb463497548d6fbae80f00b8c963b65c4f40
-workflow-type: ht
+source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
+workflow-type: tm+mt
 source-wordcount: '1769'
 ht-degree: 100%
 
@@ -201,7 +201,7 @@ ht-degree: 100%
    + 關於報告 {#about-reporting}
       + [關於動態報告](reporting/using/about-dynamic-reports.md)
       + [報告介面](reporting/using/reporting-interface.md)
-      + [元件清單](reporting/using/list-of-components-.md)
+      + [元件清單](reporting/using/list-of-components.md)
       + [指標計算](reporting/using/indicator-calculation.md)
       + [疑難排解](reporting/using/troubleshooting.md)
    + 報告清單 {#list-of-reports}
@@ -233,7 +233,7 @@ ht-degree: 100%
       + [關於 Campaign-Experience Manager 整合](integrating/using/integrating-with-experience-manager.md)
       + [設定 Campaign-Experience Manager 整合](integrating/using/configure-experience-manager.md)
       + [在 Adobe Experience Manager 中建立電子郵件內容](integrating/using/creating-email-experience-manager.md)
-      + [在 Experience Manager 中建立 Campaign 表單](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
+      + [在 Experience Manager 中建立 Campaign 表單](integrating/using/creating-a-campaign-form-in-experience-manager.md)
       + [使用 Adobe Experience Manager 整合建立多語言電子郵件](integrating/using/creating-multilingual-email-aem.md)
    + Campaign 與 Target {#working-with-campaign-and-target}
       + [關於 Campaign-Target 整合](integrating/using/about-campaign-target-integration.md)
@@ -397,11 +397,11 @@ ht-degree: 100%
       + [更新資料庫結構](developing/using/updating-the-database-structure.md)
       + [刪除資源](developing/using/deleting-a-resource.md)
       + [使用複合識別鍵呼叫資源](developing/using/uc-calling-resource-id-key.md)
-   + 使用案例：擴充 API {#use-case--extending-the-api}
+   + 使用案例：擴充 API {#use-case-extending-the-api}
       + [關於擴充 API](developing/using/about-extending-the-api.md)
-      + [步驟 1：將擴充欄位新增至設定檔資源](developing/using/step-1--add-extension-fields-to-the-profile-resource.md)
-      + [步驟 2：發佈擴充](developing/using/step-2--publish-the-extension.md)
-      + [步驟 3：驗證擴充](developing/using/step-3--verify-the-extension.md)
+      + [步驟 1：將擴充欄位新增至設定檔資源](developing/using/step-1-add-extension-fields-to-the-profile-resource.md)
+      + [步驟 2：發佈擴充](developing/using/step-2-publish-the-extension.md)
+      + [步驟 3：驗證擴充](developing/using/step-3-verify-the-extension.md)
    + 使用案例：擴充資源 {#use-cases--extending-resources}
       + [使用新欄位擴充設定檔資源](developing/using/extending-the-profile-resource-with-a-new-field.md)
       + [將訂閱擴充到應用程式資源](developing/using/extending-the-subscriptions-to-an-application-resource.md)

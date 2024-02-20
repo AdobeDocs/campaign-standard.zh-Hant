@@ -3,12 +3,12 @@ title: 關於擴充 API
 description: 瞭解如何在公用設定檔API中公開自訂資源設定檔的擴充欄位。
 audience: developing
 content-type: reference
-topic-tags: use-case--extending-the-api
+topic-tags: use-case-extending-the-api
 feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 7dc64938-f28f-43eb-a6a3-870e5a41a431
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 8%
@@ -25,9 +25,9 @@ ht-degree: 8%
 
 在公用API中公開擴充欄位的步驟如下：
 
-1. [將擴充功能欄位新增至設定檔資源](../../developing/using/step-1--add-extension-fields-to-the-profile-resource.md)
-1. [發佈擴充功能](../../developing/using/step-2--publish-the-extension.md)
-1. [確認API中有新的擴充欄位可用](../../developing/using/step-3--verify-the-extension.md)
+1. [將擴充功能欄位新增至設定檔資源](../../developing/using/step-1-add-extension-fields-to-the-profile-resource.md)
+1. [發佈擴充功能](../../developing/using/step-2-publish-the-extension.md)
+1. [確認API中有新的擴充欄位可用](../../developing/using/step-3-verify-the-extension.md)
 
 **相關主題：**
 

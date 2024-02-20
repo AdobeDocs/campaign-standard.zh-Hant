@@ -8,7 +8,7 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 3db44dec-c48a-4903-a4c6-6bfea33fc38a
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 4%
@@ -51,5 +51,5 @@ ht-degree: 4%
 
 **相關主題：**
 
-* [元件清單](../../reporting/using/list-of-components-.md)
+* [元件清單](../../reporting/using/list-of-components.md)
 * [報告清單](../../reporting/using/defining-the-report-period.md)

@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: a1b947acf70803a7350dd626e697318e0ed35f26
+source-git-commit: 3acca24c9a5616ae993b7e734e2448c3520baf79
 workflow-type: tm+mt
-source-wordcount: '2683'
-ht-degree: 59%
+source-wordcount: '2714'
+ht-degree: 58%
 
 ---
 
@@ -25,11 +25,15 @@ ht-degree: 59%
 
 * **授權遮罩欄位**
 
-  **[!UICONTROL Header parameters of sent emails]** 小節列出您可用於傳送電子郵件給收件者（寄件者地址），並讓他們傳回自動回覆的電子郵件地址，例如非同步退件、休假回覆等。（錯誤地址）。Adobe Campaign 會檢查所輸入的地址在訊息準備階段期間是否有效。此操作模式可確保不使用任何可能觸發傳送能力問題的地址。
+  **[!UICONTROL Header parameters of sent emails]** 小節列出您可用於傳送電子郵件給收件者（寄件者地址），並讓他們傳回自動回覆的電子郵件地址，例如非同步退件、休假回覆等。（錯誤地址）。
+
+  Adobe Campaign 會檢查所輸入的地址在訊息準備階段期間是否有效。此操作模式可確保不使用任何可能觸發傳送能力問題的地址。
+
    * 寄件者和錯誤位址皆由 Adobe 設定。那些欄位不可為空白。
    * 您無法編輯那些欄位。若要更新地址，請聯絡 Adobe 客戶服務團隊。
    * 若要新增其他地址，您可以使用 [Campaign控制面板](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=zh-Hant) 以設定新的子網域，或聯絡Adobe客戶服務團隊。 請注意，如果使用數個遮罩，則會以逗號分隔。
-   * 使用星號（例如 *@yourdomain.com）來設定地址是很理想的作法：這可讓您使用以子網域名稱結尾的任何地址。
+   * 使用星號（例如）設定位址是建議的做法 **@yourdomain.com**：它可讓您使用任何以子網域名稱結尾的地址。
+   * Campaign支援、立即可用、Google和Yahoo **一鍵式清單 — 取消訂閱** 功能。 請注意，如果您修改自訂範本中的標題值，可能會破壞與Google/Yahoo的相容性 **一鍵式清單 — 取消訂閱**.
 
 * **傳送能力**
 
@@ -275,7 +279,7 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 
 * **[!UICONTROL Save SQL queries in the log]**：使用此選項可在準備階段期間，將SQL查詢記錄檔新增至日誌。
 
-#### 證明設定 {#proof-settings}
+#### 校樣設定 {#proof-settings}
 
 在此區段中，您可以設定要用於校樣訊息主旨行的預設首碼。 進一步瞭解中的校訂 [本節](../../sending/using/sending-proofs.md).
 

@@ -4,7 +4,7 @@ user-guide-title: Campaign Standard
 user-guide-description: Adobe Campaign Standard 產品文件。
 title: Campaign Standard 指南
 breadcrumb-title: Campaign Standard 文件
-source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
+source-git-commit: 1b218f7f19b0ebc4d77903688e1f2c502d8b5234
 workflow-type: ht
 source-wordcount: '1769'
 ht-degree: 100%
@@ -402,7 +402,7 @@ ht-degree: 100%
       + [步驟 1：將擴充欄位新增至設定檔資源](developing/using/step-1-add-extension-fields-to-the-profile-resource.md)
       + [步驟 2：發佈擴充](developing/using/step-2-publish-the-extension.md)
       + [步驟 3：驗證擴充](developing/using/step-3-verify-the-extension.md)
-   + 使用案例：擴充資源 {#use-cases--extending-resources}
+   + 使用案例：擴充資源 {#use-cases-extending-resources}
       + [使用新欄位擴充設定檔資源](developing/using/extending-the-profile-resource-with-a-new-field.md)
       + [將訂閱擴充到應用程式資源](developing/using/extending-the-subscriptions-to-an-application-resource.md)
    + 資料模型 {#datamodel}

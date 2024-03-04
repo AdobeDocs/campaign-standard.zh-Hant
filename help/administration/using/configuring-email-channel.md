@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: 3acca24c9a5616ae993b7e734e2448c3520baf79
+source-git-commit: 3baadaf774092bb48a029e098e8f56170660400b
 workflow-type: tm+mt
-source-wordcount: '2714'
-ht-degree: 58%
+source-wordcount: '2737'
+ht-degree: 57%
 
 ---
 
@@ -33,7 +33,6 @@ ht-degree: 58%
    * 您無法編輯那些欄位。若要更新地址，請聯絡 Adobe 客戶服務團隊。
    * 若要新增其他地址，您可以使用 [Campaign控制面板](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=zh-Hant) 以設定新的子網域，或聯絡Adobe客戶服務團隊。 請注意，如果使用數個遮罩，則會以逗號分隔。
    * 使用星號（例如）設定位址是建議的做法 **@yourdomain.com**：它可讓您使用任何以子網域名稱結尾的地址。
-   * Campaign支援、立即可用、Google和Yahoo **一鍵式清單 — 取消訂閱** 功能。 請注意，如果您修改自訂範本中的標題值，可能會破壞與Google/Yahoo的相容性 **一鍵式清單 — 取消訂閱**.
 
 * **傳送能力**
 
@@ -294,6 +293,14 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
   >[!IMPORTANT]
   >
   >會為進階使用者保留新增指令碼，以便插入其他 SMTP 標題。此指令碼的語法必須符合以下內容類型的要求：沒有未使用的空間，沒有空行等。
+
+  Google和Yahoo！將於2024年6月1日開始啟用。 要求寄件者遵守 **一鍵式清單 — 取消訂閱**. Campaign可立即支援此功能。 [進一步瞭解這項變更](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#1-click-(list)-unsubscribe%3A){target="_blank"}
+
+  >[!CAUTION]
+  >
+  >如果您修改中的標題值 **[!UICONTROL Additional SMTP headers]** 可能會破壞您電子郵件範本的 **一鍵式清單 — 取消訂閱** Google和Yahoo！的需求。
+
+  <!--Campaign supports, out-of-the-box, Google and Yahoo **One-Click List-Unsubscribe** capability. Be aware that if you modify the header value in custom templates, it could break the compliance with Google/Yahoo **One-Click List-Unsubscribe**.-->
 
 ### 存取授權引數清單 {#list-of-access-authorization-parameters}
 

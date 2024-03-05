@@ -5,7 +5,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 3baadaf774092bb48a029e098e8f56170660400b
+source-git-commit: 26a1c36003645446fb8b827d76afba749d64e9f2
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 84%
@@ -27,7 +27,6 @@ Adobe Campaign Standard 24.1 使用 HTTP v1 API 傳送 Android 推播通知訊�
 Adobe Campaign Standard 24.1 現在支援 iOS 推播通知的 p8 驗證憑證。您的實作必須經過調整，才能啟用這些變更。 若要了解詳細資訊，請參閱[此技術說明](../../administration/using/push-technote.md)。
 
 Google和Yahoo！將於2024年6月1日開始啟用。 要求寄件者遵守一鍵式清單取消訂閱規範。 Campaign現在可立即支援此功能。 若要了解詳細資訊，請參閱[本章節](../../administration/using/configuring-email-channel.md#email-channel-parameters)。
-
 
 ### 修正 {#e-rn-fixes}
 

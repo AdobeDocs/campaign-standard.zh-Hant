@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: 3baadaf774092bb48a029e098e8f56170660400b
+source-git-commit: 26a1c36003645446fb8b827d76afba749d64e9f2
 workflow-type: tm+mt
-source-wordcount: '2737'
+source-wordcount: '2729'
 ht-degree: 57%
 
 ---
@@ -294,13 +294,11 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
   >
   >會為進階使用者保留新增指令碼，以便插入其他 SMTP 標題。此指令碼的語法必須符合以下內容類型的要求：沒有未使用的空間，沒有空行等。
 
-  Google和Yahoo！將於2024年6月1日開始啟用。 要求寄件者遵守 **一鍵式清單 — 取消訂閱**. Campaign可立即支援此功能。 [進一步瞭解這項變更](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#1-click-(list)-unsubscribe%3A){target="_blank"}
+  Google和Yahoo！將於2024年6月1日開始啟用。 要求寄件者遵守 **一鍵式清單 — 取消訂閱**. Campaign可立即支援此功能。
 
   >[!CAUTION]
   >
   >如果您修改中的標題值 **[!UICONTROL Additional SMTP headers]** 可能會破壞您電子郵件範本的 **一鍵式清單 — 取消訂閱** Google和Yahoo！的需求。
-
-  <!--Campaign supports, out-of-the-box, Google and Yahoo **One-Click List-Unsubscribe** capability. Be aware that if you modify the header value in custom templates, it could break the compliance with Google/Yahoo **One-Click List-Unsubscribe**.-->
 
 ### 存取授權引數清單 {#list-of-access-authorization-parameters}
 

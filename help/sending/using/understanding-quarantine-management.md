@@ -8,9 +8,9 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
-source-git-commit: eec8c66d4947e04cd0eb3dcf0f09d395d9db68b9
+source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
 workflow-type: tm+mt
-source-wordcount: '1442'
+source-wordcount: '1430'
 ht-degree: 22%
 
 ---
@@ -116,7 +116,7 @@ This menu lists quarantined elements for **Email**, **SMS** and **Push notificat
 
 >[!IMPORTANT]
 >
->地址在中的收件者 **[!UICONTROL Quarantine]** 或 **[!UICONTROL Denylisted]** 即使他們收到電子郵件，狀態也不會移除。
+地址在中的收件者 **[!UICONTROL Quarantine]** 或 **[!UICONTROL Denylisted]** 即使他們收到電子郵件，狀態也不會移除。
 
 
 ### 手動更新 {#unquarantine-manual}
@@ -144,8 +144,8 @@ This menu lists quarantined elements for **Email**, **SMS** and **Push notificat
 
   其中「support.ISP.com」可以是：例如「support.apple.com」或「support.google.com」
 
-* **更新狀態(@lastModified)** YYYY/MM/DD HH當天或之後:MM:SS AM
-* **更新狀態(@lastModified)** 在MM/DD/YYYY HH或之前:MM:SS PM
+* **更新狀態(@lastModified)** 在或晚於 `MM/DD/YYYY HH:MM:SS AM`
+* **更新狀態(@lastModified)** 在或早於  `MM/DD/YYYY HH:MM:SS PM`
 
 取得受影響的收件者清單後，請新增 **[!UICONTROL Update data]** 活動以將其電子郵件地址狀態設為 **[!UICONTROL Valid]** 因此它們會由從隔離清單中移除 **[!UICONTROL Database cleanup]** 工作流程。 您也可以從隔離表中刪除它們。
 
@@ -166,7 +166,7 @@ Adobe Campaign 會根據傳送失敗類型和錯誤訊息限定期間指派的�
 
 >[!NOTE]
 >
->Adobe Campaign　中的隔離區會區分大小寫。請務必以小寫匯入電子郵件地址，如此一來，稍後就不會將它們重新設為目標。
+Adobe Campaign　中的隔離區會區分大小寫。請務必以小寫匯入電子郵件地址，如此一來，稍後就不會將它們重新設為目標。
 
 在隔離地址清單中（請參閱[識別整個平台的隔離地址](#identifying-quarantined-addresses-for-the-entire-platform)），**[!UICONTROL Error reason]**　欄位會表示所選地址被置於隔離區的原因。
 

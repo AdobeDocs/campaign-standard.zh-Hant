@@ -9,7 +9,7 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 1b48456e-9aae-485c-a7c4-7e3e2f53cbca
-source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
+source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
 workflow-type: tm+mt
 source-wordcount: '1000'
 ht-degree: 2%
@@ -88,7 +88,7 @@ ht-degree: 2%
 
 ### 設定 **[!UICONTROL Incremental query]** 活動。
 
-1. 在 **[!UICONTROL Properties]** 索引標籤，按一下 **[!UICONTROL Select an element]** 圖示 **[!UICONTROL Resource]** 欄位，然後選取 **[!UICONTROL Subscriptions to an application (nms:appSubscriptionRcp:appSubscriptionRcpDetail)]** 元素。
+1. 在 **[!UICONTROL Properties]** 索引標籤，按一下 **[!UICONTROL Select an element]** 圖示 **[!UICONTROL Resource]** 欄位，然後選取 **[!UICONTROL Subscriptions to an application (`nms:appSubscriptionRcp:appSubscriptionRcpDetail`)]** 元素。
 
    ![](assets/update_profile3.png)
 

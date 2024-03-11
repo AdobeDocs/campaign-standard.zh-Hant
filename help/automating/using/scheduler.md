@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 39f7b216-b3cd-4aa6-b5df-23e6805076df
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 7deb1147febfcc8956768715a65416806752c92f
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 88%
+source-wordcount: '877'
+ht-degree: 52%
 
 ---
 
@@ -48,17 +48,45 @@ ht-degree: 88%
 1. 指定 **[!UICONTROL Execution frequency]**：
 
    * **[!UICONTROL Once]**：工作流程只需執行一次。
-   * **[!UICONTROL Several times a day]**：工作流程會定期執行數次。您可以設定在特定時間或定期執行。
+   * **[!UICONTROL Several times a day]**：工作流程會定期執行數次。
    * **[!UICONTROL Daily]**：工作流程會在指定的時間執行，一天一次。
    * **[!UICONTROL Weekly]**：工作流程會在指定的時間執行，每週執行一或數次。
    * **[!UICONTROL Monthly]**：工作流程會在指定的時間執行，每月執行一或數次。當您需要執行工作流程時，可以選取月份。您也可以在月份的指定工作日（例如，當月的第二個星期二）設定執行。
    * **[!UICONTROL Yearly]**：工作流程會在指定的時間執行，每年執行一次或數次。
 
-1. 根據所選頻率定義執行詳細資訊。詳細欄位可能會依使用的頻率（時間、重複頻率、指定天數等）而有所不同。
+1. 根據您的需求配置執行設定。 可用選項可能會因選取的執行頻率（執行時間或天數、重複頻率等）而有所不同。
 
    >[!NOTE]
    >
-   >**[!UICONTROL Repetition frequency]** 欄位可讓您在觸發工作流程時省下時間。例如，如果您選取每日執行期間，而重複頻率設定為 **2**（天），則每兩天就會觸發工作流程一次。時間不能少於　10　分鐘。如果重複頻率設為 **0**（也是預設值），則不會考慮此選項，工作流程將根據指定的執行頻率運行。
+   >此 **[!UICONTROL Repetition frequency]** 可用於每日和每月執行頻率的欄位可讓您在觸發工作流程時省下時間。 例如，如果您選取每日執行期間，而重複頻率設定為 **2**（天），則每兩天就會觸發工作流程一次。時間不能少於　10　分鐘。如果重複頻率設為 **0** （也是預設值），不會考慮此選項，工作流程將根據指定的執行頻率執行。
+
+   將執行頻率設定為 **[!UICONTROL Several times a day]**，您可靈活地選擇在一天中的特定時間執行工作流程，或在一天中定期執行工作流程。
+
++++ 瞭解如何設定 **[!UICONTROL "Several times a day"]** 執行頻率
+
+   * 若要在一天中的特定時間多次執行工作流程，請開啟 **[!UICONTROL Specific times]** option ，然後按一下 **[!UICONTROL Add an element]** 以指定所需的執行時間。 視需要多次新增，以符合您的需求。
+
+   * 若要在一天中定期執行工作流程，請開啟 **[!UICONTROL Periodic]** 選項，然後設定執行週期：
+
+      1. 在 **[!UICONTROL Repeat processing according to the following frequency (e.g. 2h)]** 欄位中，指定工作流程應執行的間隔（例如每30分鐘、每2小時）。
+
+         >[!NOTE]
+         >
+         >此選項也允許每日、每月或每年重複頻率。 請注意，在此情況下，工作流程將不會一天執行數次，而是根據您在此欄位中指定的頻率來執行。
+         >
+         > 如果您的工作流程不需要在一天內執行多次，而是需要每日、每月或每年執行，建議您使用 **[!UICONTROL Daily]**， **[!UICONTROL Monthly]** 或 **[!UICONTROL Yearly]** 中可用的選項 **[!UICONTROL Execution frequency]** 下拉式清單。
+
+      1. 在 **[!UICONTROL Start]**/**[!UICONTROL End]** 時間欄位，定義工作流程執行的開始和結束時間。
+
+         如果未指定結束時間，執行會在午夜00結束:00:00小時，而下一個執行會在隔天的指定開始時間開始。
+
+      1. 在 **[!UICONTROL Start]** 日期欄位，選取第一次執行的開始日期。
+
+   在以下範例中，活動設定為從3月1日上午8點至下午5點，每兩小時執行工作流程一次。
+
+   ![](assets/wkf_scheduler_day.png)
+
++++
 
 1. 指定執行將於何時過期：
 

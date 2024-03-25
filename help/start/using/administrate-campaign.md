@@ -43,7 +43,7 @@ ht-degree: 8%
 
 Lorem ipsum dolor sit amet， consectetur adipiscing elit. 前庭預留位置mauris libero，非牙形犀牛ID。 整數luctus blandit ligula。 烏龜車，乳齒蛇。 Nunc pharetra fringilla enim eu suscipit. 毛利群島最高峰。 無痕小車。 江南黃瓜、三叉鯛、紫荊花。
 
-**深入了解**
+**閱讀更多**
 
 * xxxx
 * xxxx
@@ -54,7 +54,7 @@ Lorem ipsum dolor sit amet， consectetur adipiscing elit. 前庭預留位置mau
 
 Lorem ipsum dolor sit amet， consectetur adipiscing elit. 前庭預留位置mauris libero，非牙形犀牛ID。 整數luctus blandit ligula。 烏龜車，乳齒蛇。 Nunc pharetra fringilla enim eu suscipit. 毛利群島最高峰。 無痕小車。 江南黃瓜、三叉鯛、紫荊花。
 
-**深入了解**
+**閱讀更多**
 
 * xxxx
 * xxxx
@@ -65,7 +65,7 @@ Lorem ipsum dolor sit amet， consectetur adipiscing elit. 前庭預留位置mau
 
 Lorem ipsum dolor sit amet， consectetur adipiscing elit. 前庭預留位置mauris libero，非牙形犀牛ID。 整數luctus blandit ligula。 烏龜車，乳齒蛇。 Nunc pharetra fringilla enim eu suscipit. 毛利群島最高峰。 無痕小車。 江南黃瓜、三叉鯛、紫荊花。
 
-**深入了解**
+**閱讀更多**
 
 * xxxx
 * xxxx
@@ -76,7 +76,7 @@ Lorem ipsum dolor sit amet， consectetur adipiscing elit. 前庭預留位置mau
 
 Lorem ipsum dolor sit amet， consectetur adipiscing elit. 前庭預留位置mauris libero，非牙形犀牛ID。 整數luctus blandit ligula。 烏龜車，乳齒蛇。 Nunc pharetra fringilla enim eu suscipit. 毛利群島最高峰。 無痕小車。 江南黃瓜、三叉鯛、紫荊花。
 
-**深入了解**
+**閱讀更多**
 
 * xxxx
 * xxxx

@@ -43,7 +43,7 @@ ht-degree: 6%
 
 Adobe Campaign設定檔代表儲存在資料庫中的所有連絡人。 每個設定檔都對應資料庫中的一個專案，其中包含設定檔要定位、限定及個別追蹤的必要資訊。 這表示設定檔可以是：客戶、潛在客戶、訂閱電子報的個人、收件者、使用者或任何其他面額（視組織而定）。
 
-**深入了解**
+**閱讀更多**
 
 * [關於設定檔](../../audiences/using/about-profiles.md)
 * [存取組織中的作用中設定檔數目](../../audiences/using/active-profiles.md)
@@ -74,7 +74,7 @@ Campaign Standard提供數種工具，可協助您擴充行銷資料庫。 本�
 
 如需登入頁面的詳細資訊，請參閱 [專屬檔案](../../channels/using/getting-started-with-landing-pages.md).
 
-**深入了解**
+**閱讀更多**
 
 * xxxx
 * xxxx
@@ -88,7 +88,7 @@ Campaign Standard提供數種工具，可協助您擴充行銷資料庫。 本�
 >
 >請注意，Campaign Standard-Microsoft Dynamics 365聯結器目前為「有限可用性」，且有幾項限制，詳情請參閱本檔案。
 
-**深入了解**
+**閱讀更多**
 
 * xxxx
 * xxxx
@@ -101,7 +101,7 @@ Campaign StandardAPI可讓您執行更新資料庫的操作，例如建立、更
 >
 >在透過API呼叫執行設定檔大量建立或更新之前，請檢查與您的授權合約相對應的比例限制。 如需詳細資訊，請參閱[此頁面](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers)。
 
-**深入了解**
+**閱讀更多**
 
 * xxxx
 * xxxx
@@ -114,7 +114,7 @@ Campaign StandardAPI可讓您執行更新資料庫的操作，例如建立、更
 
 有了工作流程與查詢編輯器，您就可以根據您擁有的資訊、活動、語言、偏好設定或行銷記錄，建立不同行銷活動鎖定的對象。 舉例來說，這可讓您篩選已訂閱的設定檔，或根據不限數量的條件建立目標對象。
 
-**深入了解**
+**閱讀更多**
 
 * [關於對象](../../audiences/using/about-audiences.md)
 * [建立對象](../../audiences/using/creating-audiences.md)
@@ -127,7 +127,7 @@ GDPR是歐盟(EU)的新隱私權法律，協調資料保護要求並以現代化
 
 請參閱 [本節](../../start/using/privacy.md) 進一步瞭解Adobe Campaign所提供的工具和功能，協助您符合GDPR規定。
 
-**深入了解**
+**閱讀更多**
 
 * xxxx
 * xxxx

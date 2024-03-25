@@ -652,7 +652,7 @@ ht-degree: 7%
       </tr>
    </table>
 
-## 篩選
+## 篩選器
 
 依邏輯狀態(byLogicalStatus)
 

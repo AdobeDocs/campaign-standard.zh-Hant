@@ -427,7 +427,7 @@ ht-degree: 95%
   </tr>
   <tr> 
    <td> <strong>GetMirrorURL</strong><br /> </td> 
-   <td> 檢索鏡像頁伺服器的URL<br /> </td> 
+   <td> 檢索鏡像頁面伺服器的URL<br /> </td> 
    <td> GetMirrorURL(&lt;value&gt;)<br /> </td> 
   </tr> 
   <tr> 

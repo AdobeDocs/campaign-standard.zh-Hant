@@ -10,7 +10,7 @@ exl-id: a326b38f-ca88-4a44-a7c2-b6e34497a364
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '222'
-ht-degree: 35%
+ht-degree: 37%
 
 ---
 
@@ -171,7 +171,7 @@ ht-degree: 35%
                </tr>
                <tr>
                   <td>subLandingPage (landingPageSubscriptionBase)</td>
-                  <td>訂閱專案登陸頁面</td>
+                  <td>訂閱登陸頁面</td>
                   <td>連結 </td>
                   <td> </td>
                </tr>
@@ -243,7 +243,7 @@ ht-degree: 35%
                </tr>
             </table>
 
-## 篩選
+## 篩選器
 
 在指定期間內可用（由Planning）
 

@@ -27,7 +27,7 @@ ht-degree: 26%
                </tr>
                <tr>
                   <td>FCP</td>
-                  <td>證明</td>
+                  <td>校樣</td>
                   <td>布林值 </td>
                   <td> </td>
                </tr>
@@ -582,7 +582,7 @@ ht-degree: 26%
                </tr>
             </table>
 
-## 篩選
+## 篩選器
 
 依管道型別(byChannel)
 

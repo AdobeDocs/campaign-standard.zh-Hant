@@ -238,7 +238,7 @@ ht-degree: 35%
                </tr>
             </table>
 
-## 篩選
+## 篩選器
 
 依篩選維度(byFilteringResource)
 

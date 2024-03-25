@@ -9,7 +9,7 @@ exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
 source-git-commit: 26a1c36003645446fb8b827d76afba749d64e9f2
 workflow-type: tm+mt
 source-wordcount: '2729'
-ht-degree: 57%
+ht-degree: 58%
 
 ---
 
@@ -294,7 +294,7 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
   >
   >會為進階使用者保留新增指令碼，以便插入其他 SMTP 標題。此指令碼的語法必須符合以下內容類型的要求：沒有未使用的空間，沒有空行等。
 
-  Google和Yahoo！將於2024年6月1日開始啟用。 要求寄件者遵守 **一鍵式清單 — 取消訂閱**. Campaign可立即支援此功能。
+  Google 和 Yahoo! 將於 2024 年 6 月 1 日起要求寄件者遵守 **一鍵式清單 — 取消訂閱**. Campaign可立即支援此功能。
 
   >[!CAUTION]
   >

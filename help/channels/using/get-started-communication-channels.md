@@ -11,7 +11,7 @@ exl-id: 4ea5b0eb-35da-4db6-a529-ba636be7825f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '516'
-ht-degree: 19%
+ht-degree: 20%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 19%
 <td><img src="assets/do-not-localize/icon_concepts.svg" width="60px"><p><a href="#global-concepts">全域概念</a></p></td>
 <td><img src="assets/do-not-localize/icon_channels.svg" width="60px"><p><a href="#available-communication-channels">通訊通道</a></p></td>
 <td><img src="assets/do-not-localize/icon_transactional.svg" width="60px"><p><a href="#transactional-messages">異動訊息</a></p></td>
-<td><img src="assets/do-not-localize/icon_landing.svg" width="60px"><p><a href="#landing-pages">登錄頁面</a></p></td></tr>
+<td><img src="assets/do-not-localize/icon_landing.svg" width="60px"><p><a href="#landing-pages">登陸頁面</a></p></td></tr>
 </table>
 
 Adobe Campaign可讓您跨每個頻道啟動、衡量和自動化行銷活動。
@@ -80,7 +80,7 @@ Adobe Campaign可讓您跨每個頻道啟動、衡量和自動化行銷活動。
 * [異動推送通知](../../channels/using/transactional-push-notifications.md)
 * [後續追蹤訊息](../../channels/using/follow-up-messages.md)
 
-## 登錄頁面 {#landing-pages}
+## 登陸頁面 {#landing-pages}
 
 <img src="assets/do-not-localize/icon_landing.svg" width="60px">
 

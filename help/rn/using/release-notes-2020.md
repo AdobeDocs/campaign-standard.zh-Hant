@@ -34,7 +34,7 @@ ht-degree: 97%
 </thead> 
 <tbody> 
 <tr> 
-  <td> <p>您現在可以使用<strong>控制組組</strong>，透過排除其閱聽眾的一部分來評估行銷活動的影響。然後，您將能夠將接收到消息的目標人口的行為與未作為目標的聯絡人的行為進行比較。根據傳送日誌，您也可以在未來的行銷活動中定位控制群。
+  <td> <p>您現在可以使用<strong>控制組組</strong>，透過排除其閱聽眾的一部分來評估行銷活動的影響。然後，您將能夠將接收到消息的目標人口的行為與未作為目標的聯絡人的行為進行比較。根據傳送日誌，您也可以在未來的行銷活動中定位控制組。
 </p>
 <p>如需詳細資訊，請參閱<a href="../../sending/using/control-group.md">詳細文件</a>及<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html">作法影片</a>。
 </p>

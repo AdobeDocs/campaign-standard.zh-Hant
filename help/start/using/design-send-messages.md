@@ -47,7 +47,7 @@ ht-degree: 18%
 
 Lorem ipsum dolor sit amet， consectetur adipiscing elit. 前庭預留位置mauris libero，非牙形犀牛ID。 整數luctus blandit ligula。 烏龜車，乳齒蛇。 Nunc pharetra fringilla enim eu suscipit. 毛利群島最高峰。 無痕小車。 江南黃瓜、三叉鯛、紫荊花。
 
-**深入了解**
+**閱讀更多**
 
 * xxxx
 * xxxx
@@ -58,7 +58,7 @@ Lorem ipsum dolor sit amet， consectetur adipiscing elit. 前庭預留位置mau
 
 Lorem ipsum dolor sit amet， consectetur adipiscing elit. 前庭預留位置mauris libero，非牙形犀牛ID。 整數luctus blandit ligula。 烏龜車，乳齒蛇。 Nunc pharetra fringilla enim eu suscipit. 毛利群島最高峰。 無痕小車。 江南黃瓜、三叉鯛、紫荊花。
 
-**深入了解**
+**閱讀更多**
 
 * xxxx
 * xxxx
@@ -80,7 +80,7 @@ Lorem ipsum dolor sit amet， consectetur adipiscing elit. 前庭預留位置mau
 
 ![](assets/delivery_content_43.png)
 
-**深入了解**
+**閱讀更多**
 
 * 透過探索電子郵件個人化 [端對端範例](../../designing/using/personalization.md#example-email-personalization)
 * [個人化URL](../../designing/using/personalization.md#personalizing-urls)
@@ -101,7 +101,7 @@ Lorem ipsum dolor sit amet， consectetur adipiscing elit. 前庭預留位置mau
 透過Adobe Campaign，您可以個別監控及追蹤每個傳送。 訊息儀表板會顯示專用日誌，用於跟進流程、規則並識別可能的錯誤和警告。
 
 
-**深入了解**
+**閱讀更多**
 
 * [存取報告](../../reporting/using/about-dynamic-reports.md)
 * [監視傳遞](../../sending/using/monitoring-a-delivery.md)
@@ -113,7 +113,7 @@ Lorem ipsum dolor sit amet， consectetur adipiscing elit. 前庭預留位置mau
 
 Lorem ipsum dolor sit amet， consectetur adipiscing elit. 前庭預留位置mauris libero，非牙形犀牛ID。 整數luctus blandit ligula。 烏龜車，乳齒蛇。 Nunc pharetra fringilla enim eu suscipit. 毛利群島最高峰。 無痕小車。 江南黃瓜、三叉鯛、紫荊花。
 
-**深入了解**
+**閱讀更多**
 
 * xxxx
 * xxxx

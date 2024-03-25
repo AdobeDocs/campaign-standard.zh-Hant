@@ -160,7 +160,7 @@ Microsoft Dynamics 365主索引鍵是唯讀的，因為應用程式會偵測到�
 
 會提供選取清單、分項清單和布林值的下拉式清單。 文字方塊將用於其他字串和數值型別。
 
-### 篩選 {#filters}
+### 篩選器 {#filters}
 
 使用 **[!UICONTROL Add New Filter]** 按鈕以選取將傳播至Campaign的Microsoft Dynamics 365記錄。 您可以選擇與記錄關聯的任何欄位以新增到篩選器（欄位名稱不需要新增到欄位對應）。
 

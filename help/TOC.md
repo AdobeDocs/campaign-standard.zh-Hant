@@ -4,10 +4,10 @@ user-guide-title: Campaign Standard
 user-guide-description: Adobe Campaign Standard 產品文件。
 title: Campaign Standard 指南
 breadcrumb-title: Campaign Standard 文件
-source-git-commit: 1b218f7f19b0ebc4d77903688e1f2c502d8b5234
+source-git-commit: db035a41515e94836bdfbfc3d620586dc1f5ce31
 workflow-type: tm+mt
-source-wordcount: '1769'
-ht-degree: 100%
+source-wordcount: '1768'
+ht-degree: 99%
 
 ---
 
@@ -448,7 +448,7 @@ ht-degree: 100%
       + [設定標籤規則以支援 Adobe Campaign Standard 使用案例](administration/using/configuring-rules-launch.md)
       + [Adobe Campaign Standard 支援的行動使用案例](administration/using/supported-mobile-use-cases.md)
       + [如何將您的行動應用程式從 SDK v4 移轉至 Adobe Experience Platform SDK](administration/using/sdkv4-migration.md)
-      + [推播通知頻道近期變更](administration/using/push-technote.md)
+      + [推播通知頻道變更](administration/using/push-technote.md)
    + 設定簡訊頻道 {#configuring-sms}
       + [實施簡訊頻道](administration/using/configuring-sms-channel.md)
       + [簡訊連接器通訊協定及設定](administration/using/sms-protocol.md)

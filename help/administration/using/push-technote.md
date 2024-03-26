@@ -6,7 +6,7 @@ feature: Push
 role: Admin
 level: Experienced
 exl-id: e273b443-7c43-482b-8f86-60ada4b57cbf
-source-git-commit: 2d3210f681bef0f94b7f22f43906ac62b29541f2
+source-git-commit: db035a41515e94836bdfbfc3d620586dc1f5ce31
 workflow-type: tm+mt
 source-wordcount: '1134'
 ht-degree: 1%
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 為Google持續改善其服務，我們將於以下日期終止使用舊版FCM API： **2024年6月20日**. 在中進一步瞭解Firebase雲端通訊HTTP通訊協定 [Google Firebase檔案](https://firebase.google.com/docs/cloud-messaging/http-server-ref){target="_blank"}.
 
-自24.2發行版本開始，Adobe Campaign Standard支援HTTP v1 API來傳送Android推播通知訊息。
+正在啟動 [24.1版](../../rn/using/release-notes.md)，Adobe Campaign Standard支援HTTP v1 API來傳送Android推播通知訊息。
 
 ### 您有受到影響嗎？ {#fcm-impact}
 
@@ -49,7 +49,7 @@ ht-degree: 1%
 
 #### 先決條件 {#fcm-transition-prerequisites}
 
-* 支援 **HTTP v1 AP** 已在24.1版本中新增模式。 如果您的環境執行於舊版，此變更的先決條件是將環境升級至 [最新Campaign Standard版本](../../rn/using/release-notes.md).
+* 支援 **HTTP v1 API** 已在24.1版本中新增模式。 如果您的環境執行於舊版，此變更的先決條件是將環境升級至 [最新Campaign Standard版本](../../rn/using/release-notes.md).
 
 * 需要Android Firebase Admin SDK服務的帳戶JSON檔案，才能將行動應用程式移至HTTP v1。 瞭解如何取得此檔案於 [Google Firebase檔案](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
 
@@ -118,7 +118,7 @@ Adobe Campaign Standard同時支援權杖型和憑證型連線。 如果您的�
 
 #### 先決條件 {#ios-transition-prerequisites}
 
-* 支援 **權杖型驗證** 已在24.1版本中新增模式。 如果您的環境執行於舊版，此變更的先決條件是將環境升級至 [最新Campaign Standard版本](../../rn/using/release-notes.md).
+* 支援 **權杖型驗證** 模式已新增至 [24.1版](../../rn/using/release-notes.md). 如果您的環境執行於舊版，此變更的先決條件是將環境升級至 [最新Campaign Standard版本](../../rn/using/release-notes.md).
 
 * 您需要APNs驗證Token簽署金鑰才能產生您的伺服器所使用的Token。 如中所述，您需向Apple開發人員帳戶索取此金鑰 [Apple開發人員檔案](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}.
 

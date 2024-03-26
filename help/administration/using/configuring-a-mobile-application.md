@@ -6,7 +6,7 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 1619e1f434742b89d0f0802c40e82d7b59773a59
+source-git-commit: 58b07f023f52e2bf4972b4a86bf4412f613f38da
 workflow-type: tm+mt
 source-wordcount: '1307'
 ht-degree: 2%
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
-> Adobe Experience Platform Launch已經過品牌重塑，現在是Adobe Experience Platform中的一套資料收集技術。 因此，所有產品檔案中出現了幾項術語變更。 請參閱 [以下檔案](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html) 以取得術語變更的彙整參考資料。
+> Adobe Experience Platform Launch已經過品牌重塑，現在是Adobe Experience Platform中的一套資料收集技術。 因此，所有產品檔案中出現了幾項術語變更。 請參閱 [以下檔案](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html){target="_blank"} 以取得術語變更的彙整參考資料。
 
 請注意，推播通知和應用程式內實作必須由專家使用者執行。 如需協助，請聯絡您的Adobe客戶主管或專業服務合作夥伴。
 
@@ -39,6 +39,7 @@ ht-degree: 2%
    如果沒有，請聯絡您的客戶團隊。
 
 1. 檢查您的使用者是否擁有Adobe Campaign Standard的必要許可權和Adobe Experience Platform的標籤。
+
    * 在Adobe Campaign Standard中，確認IMS使用者屬於標準使用者和管理員產品設定檔。 此步驟可讓使用者登入Adobe Campaign Standard、導覽至Experience Platform SDK行動應用程式頁面，並檢視您在資料收集UI中建立的行動應用程式屬性。
 
    * 在資料收集UI中，確認您的IMS使用者屬於Experience Platform Launch產品設定檔。
@@ -152,10 +153,10 @@ ht-degree: 2%
 
      輸入下列應用程式明細：
 
-      * **應用程式ID (iOS套件組合ID)**：請參閱 [Apple檔案](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) 以取得套件組合ID的詳細資訊。
-      * **iOS憑證(P8)檔案**：拖放您的.p8驗證金鑰。 有關如何產生.p8驗證檔案的說明，請參閱您的 [Apple開發人員帳戶](https://developer.apple.com/account/ios/authkey/create).
-      * **金鑰ID**：請參閱 [Apple檔案](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/) 以取得金鑰ID的詳細資訊。
-      * **iOS團隊ID**：請參閱 [Apple檔案](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id//) 以取得有關iOS團隊ID的詳細資訊。
+      * **應用程式ID (iOS套件組合ID)**：請參閱 [Apple檔案](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids){target="_blank"} 以取得套件組合ID的詳細資訊。
+      * **iOS憑證(P8)檔案**：拖放您的.p8驗證金鑰。 有關如何產生.p8驗證檔案的說明，請參閱您的 [Apple開發人員帳戶](https://developer.apple.com/account/ios/authkey/create){target="_blank"}.
+      * **金鑰ID**：請參閱 [Apple檔案](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/){target="_blank"} 以取得金鑰ID的詳細資訊。
+      * **iOS團隊ID**：請參閱 [Apple檔案](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id/){target="_blank"} 以取得有關iOS團隊ID的詳細資訊。
 
         ![](assets/mobile_app_ios_config.png)
 +++
@@ -164,8 +165,8 @@ ht-degree: 2%
 
      輸入下列應用程式明細：
 
-      * **應用程式ID （Android套件名稱）**：請參閱 [Android檔案](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores) 以取得封裝名稱的詳細資訊。
-      * **Android金鑰(Json)檔案**：拖放您的.json私密金鑰檔案。 如需有關如何產生.json私密金鑰檔案的指示，請參閱 [適用於Firebase的開發人員檔案](https://firebase.google.com/docs/admin/setup#initialize_the_sdk_in_non-google_environments).
+      * **應用程式ID （Android套件名稱）**：請參閱 [Android檔案](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores){target="_blank"} 以取得封裝名稱的詳細資訊。
+      * **Android金鑰(Json)檔案**：拖放您的.json私密金鑰檔案。 如需有關如何產生.json私密金鑰檔案的指示，請參閱 [適用於Firebase的開發人員檔案](https://firebase.google.com/docs/admin/setup#initialize_the_sdk_in_non-google_environments){target="_blank"}.
 
         ![](assets/mobile_app_android_config.png)
 +++

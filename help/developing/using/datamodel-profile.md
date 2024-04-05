@@ -471,7 +471,7 @@ ht-degree: 10%
 <td>字串</td>
 </tr>
 <tr>
-<td>個月</td>
+<td>月</td>
 <td>日期</td>
 </tr>
 <tr>

@@ -10,7 +10,7 @@ exl-id: a63fe730-a6b2-4ae0-93da-9f8ee7824c9f
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '222'
-ht-degree: 33%
+ht-degree: 35%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 33%
                </tr>
                <tr>
                   <td>buildIn</td>
-                  <td>內建應用程式內物件</td>
+                  <td>內建應用程式物件</td>
                   <td>布林值 </td>
                   <td> </td>
                </tr>
@@ -197,7 +197,7 @@ ht-degree: 33%
     <th>類型</th>
     </tr>
     <tr>
-    <td>state</td>
+    <td>狀態</td>
     <td>分項清單</td>
     </tr>
 </table>
@@ -240,7 +240,7 @@ ht-degree: 33%
     <th>類型</th>
     </tr>
     <tr>
-    <td>state</td>
+    <td>狀態</td>
     <td>分項清單</td>
     </tr>
 </table>

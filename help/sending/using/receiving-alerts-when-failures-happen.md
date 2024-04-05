@@ -11,7 +11,7 @@ exl-id: dc8bd1d3-e199-4901-9b1f-7b485879897d
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '2038'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 1%
 
 ![](assets/delivery-alerting_notification.png)
 
-## 傳送警報儀表板 {#delivery-alerting-dashboards}
+## 傳遞警報儀表板 {#delivery-alerting-dashboards}
 
 ### 關於傳送警報儀表板 {#about-delivery-alerting-dashboards}
 

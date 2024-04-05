@@ -59,7 +59,7 @@ ht-degree: 7%
       </tr>
       <tr>
          <td>buildIn</td>
-         <td>內建應用程式內物件</td>
+         <td>內建應用程式物件</td>
          <td>布林值 </td>
          <td> </td>
       </tr>
@@ -441,7 +441,7 @@ ht-degree: 7%
          <td> </td>
       </tr>
       <tr>
-         <td>state</td>
+         <td>狀態</td>
          <td>狀態</td>
          <td>分項清單（位元組） </td>
          <td>
@@ -662,7 +662,7 @@ ht-degree: 7%
     <th>類型</th>
     </tr>
     <tr>
-    <td>state</td>
+    <td>狀態</td>
     <td>分項清單</td>
     </tr>
 </table>
@@ -688,7 +688,7 @@ ht-degree: 7%
     <th>類型</th>
     </tr>
     <tr>
-    <td>state</td>
+    <td>狀態</td>
     <td>分項清單</td>
     </tr>
 </table>

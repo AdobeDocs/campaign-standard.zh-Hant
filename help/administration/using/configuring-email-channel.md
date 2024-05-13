@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: 26a1c36003645446fb8b827d76afba749d64e9f2
+source-git-commit: 2e81a05b1b647991250d13d7d37f5da275a8db44
 workflow-type: tm+mt
-source-wordcount: '2729'
-ht-degree: 58%
+source-wordcount: '2749'
+ht-degree: 57%
 
 ---
 
@@ -294,7 +294,9 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
   >
   >會為進階使用者保留新增指令碼，以便插入其他 SMTP 標題。此指令碼的語法必須符合以下內容類型的要求：沒有未使用的空間，沒有空行等。
 
-  Google 和 Yahoo! 將於 2024 年 6 月 1 日起要求寄件者遵守 **一鍵式清單 — 取消訂閱**. Campaign可立即支援此功能。
+  Google 和 Yahoo! 將於 2024 年 6 月 1 日起要求寄件者遵守 **一鍵式清單 — 取消訂閱**. Campaign可針對傳遞範本支援此現成可用的功能。
+
+  要套用 **一鍵式清單 — 取消訂閱** 對於所有非範本電子郵件傳遞，您必須執行 **[!UICONTROL Copy headers from delivery templates]** 技術工作流程。 [了解更多](technical-workflows.md)
 
   >[!CAUTION]
   >
@@ -332,7 +334,7 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 
 ### 電子郵件處理規則 {#legacy-email-processing-rules}
 
-此 **[!UICONTROL MX management]**， **[!UICONTROL Bounce mails]** 和 **[!UICONTROL Domain management]** 管理員可以透過存取及修改規則 **[!UICONTROL Administration > Channels > Email > Email processing rules]** 功能表。 [了解更多](#email-processing-rules)。
+此 **[!UICONTROL MX management]**， **[!UICONTROL Bounce mails]** 和 **[!UICONTROL Domain management]** 管理員可以透過存取及修改規則 **[!UICONTROL Administration > Channels > Email > Email processing rules]** 功能表。 [了解更多](#email-processing-rules)
 
 ### 退回郵件資格 {#legacy-bounce-mail-qualification}
 

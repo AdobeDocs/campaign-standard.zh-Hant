@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 2e81a05b1b647991250d13d7d37f5da275a8db44
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 88%
+source-wordcount: '820'
+ht-degree: 75%
 
 ---
 
@@ -47,6 +47,12 @@ Adobe Campaign 可立即提供技術工作流程。技術工作流程是排程�
    <td> <span class="uicontrol">帳單</span> <br /> </td> 
    <td> <span class="uicontrol">帳單</span> <br /> </td> 
    <td> 此工作流程會透過電子郵件，將系統活動報告傳送給「帳單」使用者。預設會每天凌晨 1:00 自動啟動。<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <span class="uicontrol">從傳遞範本複製標題</span> <br /> </td> 
+   <td> <span class="uicontrol">smtpHeaderupdate</span> <br /> </td> 
+   <td> 此工作流程會將為電子郵件傳遞範本設定的SMTP標題複製到對應的子非範本傳遞。 此工作流程只會擷取電子郵件行銷傳遞。 SMTP標頭不會複製到交易式傳送和校樣傳送。 <br> 此工作流程不會定期執行。 必須由使用者根據每次使用而啟動。 <!--So it'not really a technical workflow like all workflows on this page, because it's not run automatically - TBC--> <br> 如果您的執行個體上有大量傳送，您可以更新 <strong>應用程式設定</strong>. 如果您變更任何範本的SMTP標頭，您就必須在變更後再次執行工作流程，以便將更正後的標頭複製到非範本的傳送。<a href="data-retention.md#deliveries">瞭解更多</a>
+   <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">資料庫清除</span> <br /> </td> 

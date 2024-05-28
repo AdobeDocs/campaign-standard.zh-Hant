@@ -7,11 +7,13 @@ topic-tags: campaign-standard-releases
 feature: Overview
 role: User
 level: Beginner
+hide: true
+hidefromtoc: true
 exl-id: 225c65cc-2964-4b71-84a9-30fcd22d75bf
-source-git-commit: afb988281f00dc17b484872259d44f51864d55f1
-workflow-type: tm+mt
+source-git-commit: 63cd437c5a19791ffb9d3c0b8690ee1532a4774d
+workflow-type: ht
 source-wordcount: '4695'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -336,7 +338,7 @@ ht-degree: 99%
 
 * SMPP 記錄檔格式已改善。
 
-* 已新增cryptString和decryptString JS函式的可選引數，以符合Adobe Campaign Standard API。
+* 已新增 cryptString 與 decryptString JS 函式的可選參數，以符合 Adobe Campaign Standard API。
 
 * 已改善傳遞準備記錄檔中的警告或錯誤訊息。
 

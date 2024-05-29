@@ -4,10 +4,10 @@ user-guide-title: Campaign Standard
 user-guide-description: Adobe Campaign Standard 產品文件。
 title: Campaign Standard 指南
 breadcrumb-title: Campaign Standard 文件
-source-git-commit: db035a41515e94836bdfbfc3d620586dc1f5ce31
+source-git-commit: 63cd437c5a19791ffb9d3c0b8690ee1532a4774d
 workflow-type: tm+mt
-source-wordcount: '1768'
-ht-degree: 99%
+source-wordcount: '1754'
+ht-degree: 100%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 99%
    + [最新版本](rn/using/release-notes.md)
    + [早期發行說明](rn/using/e-release-notes.md)
    + 舊的發行版本 {#previous-releases}
-      + [發行說明 2023 年](rn/using/release-notes-2023.md)
-      + [發行說明 2022 年](rn/using/release-notes-2022.md)
-      + [2021 年發行說明](rn/using/release-notes-2021.md)
-      + [發行說明 2020 年](rn/using/release-notes-2020.md)
-      + [發行說明 2019 年](rn/using/release-notes-2019.md)
-      + [發行說明 2018 年](rn/using/release-notes-2018.md)
-      + [發行說明 2017 年](rn/using/release-notes-2017.md)
+      + [2023 年](rn/using/release-notes-2023.md)
+      + [2022 年](rn/using/release-notes-2022.md)
+      + [2021 年](rn/using/release-notes-2021.md)
+      + [2020](rn/using/release-notes-2020.md)
+      + [2019](rn/using/release-notes-2019.md)
+      + [2018](rn/using/release-notes-2018.md)
+      + [2017](rn/using/release-notes-2017.md)
    + [發行規劃](rn/using/release-planning.md)
    + [已棄用功能](rn/using/deprecated-features.md)
    + [追蹤的 URL 簽名問題](rn/using/tracked-urls.md)

@@ -8,7 +8,7 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3ea58bcf-234e-4dac-b296-da3f57e18a7d
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: 9291eb06c35b1d06c0a992fa64a460215477f57e
 workflow-type: tm+mt
 source-wordcount: '2611'
 ht-degree: 4%
@@ -37,7 +37,7 @@ Adobe Campaign傳送的訊息內容和顯示方式可透過數種不同的方式
 >
 >標頭引數不得為空白。 必須提供寄件者的地址，才能傳送電子郵件（RFC標準）。 Adobe Campaign會檢查所輸入電子郵件地址的語法。
 
-## 個人化URL{#personalizing-urls}
+## 個人化URL {#personalizing-urls}
 
 Adobe Campaign可讓您新增個人化欄位、內容區塊或動態內容，以個人化訊息中的一或多個URL。 操作步驟：
 
@@ -85,7 +85,7 @@ Adobe Campaign可讓您將欄位從資料庫插入您的頁面，例如設定檔
 >
 >如果電子郵件是從工作流程建立，則工作流程中計算的其他資料也可在個人化欄位中使用。 如需有關從工作流程新增其他資料的詳細資訊，請參閱 [豐富資料](../../automating/using/about-targeting-activities.md#enriching-data) 區段。
 
-## 新增內容區塊{#adding-a-content-block}
+## 新增內容區塊 {#adding-a-content-block}
 
 Adobe Campaign提供預先設定的內容區塊清單。 這些內容區塊為動態、個人化的且具有特定轉譯。 例如，您可以新增問候語或映象頁面的連結。
 

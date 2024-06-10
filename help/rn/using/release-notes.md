@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: a8013bac719a45442e09d710db12df0abe721cc4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '244'
-ht-degree: 38%
+ht-degree: 100%
 
 ---
 
@@ -22,17 +22,17 @@ ht-degree: 38%
 
 ### 功能改進 {#e-rn-improvements}
 
-* **Android推播通知** - Adobe Campaign Standard 24.1使用HTTP v1 API傳送Android推播通知訊息，以確保與即將推出的FCM變更相容。 若要了解詳細資訊，請參閱[此技術說明](../../administration/using/push-technote.md)。
+* **Android 推播通知** - Adobe Campaign Standard 24.1 使用 HTTP v1 API 傳送 Android 推播通知訊息，以確保與即將推出的 FCM 變更相容。 若要了解詳細資訊，請參閱[此技術說明](../../administration/using/push-technote.md)。
 
-* **iOS推播通知** - Adobe Campaign Standard 24.1現在支援iOS推播通知的p8驗證憑證。 您的實作必須經過調整，才能啟用這些變更。 若要了解詳細資訊，請參閱[此技術說明](../../administration/using/push-technote.md)。
+* **iOS 推播通知** - Adobe Campaign Standard 24.1 現在支援 iOS 推播通知的 p8 驗證憑證。您的實作必須經過調整，才能啟用這些變更。 若要了解詳細資訊，請參閱[此技術說明](../../administration/using/push-technote.md)。
 
-* **一鍵式清單 — 取消訂閱**  — 自2024年6月1日起，Google和Yahoo！ 要求寄件者遵守一鍵式清單取消訂閱規範。Campaign 現在可立即支援此功能。若要了解詳細資訊，請參閱[本章節](../../administration/using/configuring-email-channel.md#list-of-email-smtp-parameters)。
+* **一鍵式清單取消訂閱** - Google 和 Yahoo! 於 2024 年 6 月 1 日起使用要求寄件者遵守一鍵式清單取消訂閱規範。Campaign 現在可立即支援此功能。若要了解詳細資訊，請參閱[本章節](../../administration/using/configuring-email-channel.md#list-of-email-smtp-parameters)。
 
-* **基礎架構** - Postgres資料庫已從11.22版升級至12.17版。
+* **基礎結構** - Postgres 資料庫已從 11.22 版升級至 12.17 版。
 
-* **CTA追蹤**  — 當使用者開啟並按一下個人化URL時，系統現在會追蹤已解析的個人化URL，而非編碼的個人化URL。 預設不會啟用此變更。 若要在您的Campaign執行個體上啟用此功能，請聯絡您的Adobe代表。
+* **CTA 追蹤** - 當使用者開啟並按一下個人化 URL 時，系統現在會追蹤已解析的個人化 URL，而非編碼的個人化 URL。 預設情況下，不會啟用此選項。 若要在您的 Campaign 執行個體啟用此功能，請聯絡您的 Adobe 代表。
 
-* **個人化欄位下拉式清單**  — 在Adobe Experience Manager中建立交易式電子郵件訊息範本時，您現在可以從下拉式清單中選取個人化欄位。 預設不會啟用此變更。 若要在您的Campaign執行個體上啟用此功能，請聯絡您的Adobe代表。
+* **個人化欄位下拉式清單** - 在 Adobe Experience Manager 建立交易式電子郵件訊息範本時，您現在可以從下拉式清單選取個人化欄位。 預設情況下，不會啟用此選項。 若要在您的 Campaign 執行個體啟用此功能，請聯絡您的 Adobe 代表。
 
 ### 修正 {#e-rn-fixes}
 

@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: ff6e926b66547632b74e58cc0e419c83a4ea556e
+source-git-commit: c35f8caeab9b6605b042618705eecc347d13fd18
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 100%
+source-wordcount: '419'
+ht-degree: 94%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe 透過新增新功能、增強功能和修正不斷改進其解決方案�
 
 所有發行日期皆可能變更：請定期造訪本頁面，以檢查更新。環境更新會在以下指定時段內以波形進行。已透過電子郵件向每位客戶傳達確切日期。
 
-## 版本 24.1 - 2024 年冬季發布內容 {#release-24-1-release}
+## 版本24.2 - 2024年夏季發行 {#release-24-2-release}
 
 當開始升級中繼環境時，[發行說明](release-notes.md)中提供了關於此版本的詳細資訊。
 
@@ -33,17 +33,20 @@ Adobe 透過新增新功能、增強功能和修正不斷改進其解決方案�
  <thead>
   <tr>
    <th> 環境 </th>
-   <th> 日期 </th>
+   <th> 限量版 </th>
+   <th> 一般可用性 </th>
   </tr>
  </thead>
  <tbody>
   <tr>
    <td>階段 </td>
-   <td>2024 年 1 月 16 日至 2 月 13 日 </td>
+   <td>2024年8月6日至13日 </td>
+   <td>2025年 — 待確認日期</td>
   </tr>
   <tr>
    <td>生產 </td>
-   <td>2024 年 1 月 23 日至 2 月 20 日 </td>
+   <td>2024年8月20日至27日 </td>
+   <td>2025年 — 待確認日期</td>
   </tr>
  </tbody>
 </table>

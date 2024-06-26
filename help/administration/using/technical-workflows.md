@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
-source-git-commit: 2e81a05b1b647991250d13d7d37f5da275a8db44
+source-git-commit: dba7ed7d68a33ddf1a1e62ea0f20e855c0b7eb20
 workflow-type: tm+mt
-source-wordcount: '820'
-ht-degree: 75%
+source-wordcount: '839'
+ht-degree: 72%
 
 ---
 
@@ -62,7 +62,8 @@ Adobe Campaign 可立即提供技術工作流程。技術工作流程是排程�
   <tr> 
    <td> <span class="uicontrol">預測</span> <br /> </td> 
    <td> <span class="uicontrol">預測</span> <br /> </td> 
-   <td> 此工作流程會執行臨時預測（建立臨時記錄）中儲存的傳送分析。預設會每天早上 1:00 點開始。<br /> </td> 
+   <td> 此工作流程會執行臨時預測（建立臨時記錄）中儲存的傳送分析。預設會每天凌晨1:00開始。 <br />
+   預測工作流程是舊版工作流程，現在已在Campaign Standard中停止且不再運作。</td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">匯入共用的對象</span> <br /> </td> 

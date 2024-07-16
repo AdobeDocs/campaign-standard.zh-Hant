@@ -8,10 +8,10 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 449187bba167f9ce00e644d44a124b36030ba001
 workflow-type: tm+mt
 source-wordcount: '1281'
-ht-degree: 63%
+ht-degree: 59%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 63%
 
 * [瞭解隔離管理](../../sending/using/understanding-quarantine-management.md)
 * [關於 Campaign 中的選擇加入和選擇退出](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
-* [跳出數](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)
+* [退回](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)
 
 ## 識別訊息的傳遞失敗 {#identifying-delivery-failures-for-a-message}
 
@@ -75,14 +75,14 @@ ht-degree: 63%
 
 
 **相關主題：**
-* [硬跳出](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces)
+* [硬退信](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces)
 * [軟退信](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
 
 ## 傳送暫時失敗後重試 {#retries-after-a-delivery-temporary-failure}
 
 如果訊息因暫時錯誤而失敗，則在傳送期間將執行重試。 如需錯誤類型的詳細資訊，請參閱[傳送失敗類型和原因](#delivery-failure-types-and-reasons)。
 
-重試次數（開始傳送後一天應該執行多少次重試）以及兩次重試之間的最小延遲現在為<!--managed by the Adobe Campaign Enhanced MTA,--> 根據IP在歷史和目前指定網域的執行狀況。 會忽略 Campaign 中的&#x200B;**重試次數**&#x200B;設定。
+重試次數（在傳送開始後應執行多少次重試）和重試之間的最小延遲現在是<!--managed by the Adobe Campaign Enhanced MTA,-->，這是根據IP在歷史和目前指定網域的執行狀況而定。 會忽略 Campaign 中的&#x200B;**重試次數**&#x200B;設定。
 
 <!--Please note that Adobe Campaign Enhanced MTA is not available for the Push channel.-->
 
@@ -92,11 +92,11 @@ ht-degree: 63%
 >
 >**您的 Campaign 傳送中的&#x200B;**[!UICONTROL Delivery duration]**參數現在僅在設為 3.5 天或更少時使用。** 如果您定義的值超過　3.5　天，則不會考慮該值。
 
-例如，如果您希望某個傳送的重試在一天後停止，您可以將傳送持續時間設為 **1d**，則重試佇列中的訊息將於一天後移除。
+例如，如果您希望某個傳遞的重試在一天後停止，您可以將傳遞持續時間設為&#x200B;**1d**，重試佇列中的訊息將在一天後移除。
 
 >[!NOTE]
 >
->一旦訊息在重試佇列中停留最多3.5天且無法傳送，訊息將逾時並且其狀態將會更新<!--from **[!UICONTROL Sent]**--> 至 **[!UICONTROL Failed]** 在 [傳遞記錄](../../sending/using/monitoring-a-delivery.md#delivery-logs).
+>一旦訊息在重試佇列中超過3.5天且無法傳送，訊息將逾時，其狀態將在[傳送記錄檔](../../sending/using/monitoring-a-delivery.md#delivery-logs)中更新<!--from **[!UICONTROL Sent]**-->至&#x200B;**[!UICONTROL Failed]**。
 
 <!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
@@ -116,9 +116,9 @@ The default configuration allows five retries at one-hour intervals, followed by
 >
 > Campaign **[!UICONTROL Message qualification]** 表格中的退信限定不再使用。
 
-inMail 程序仍會透過 **[!UICONTROL Inbound email]** 規則來限定非同步退信。若要存取這些規則，請按一下 **Adobe** 標誌，然後在左上方選取 **[!UICONTROL Administration > Channels > Email > Email processing rules]** 並選取 **[!UICONTROL Bounce mails]**. 如需此規則的詳細資訊，請參閱 [本節](../../administration/using/configuring-email-channel.md#email-processing-rules).
+inMail 程序仍會透過 **[!UICONTROL Inbound email]** 規則來限定非同步退信。若要存取這些規則，請按一下左上方的&#x200B;**Adobe**&#x200B;標誌，然後選取&#x200B;**[!UICONTROL Administration > Channels > Email > Email processing rules]**&#x200B;並選取&#x200B;**[!UICONTROL Bounce mails]**。 如需此規則的詳細資訊，請參閱[本節](../../administration/using/configuring-email-channel.md#email-processing-rules)。
 
-如需跳出和各種跳出的詳細資訊，請參閱 [本節](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability).
+如需有關退信和各種退信的詳細資訊，請參閱[本節](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)。
 
 <!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 
@@ -136,6 +136,6 @@ To list the various bounces and their associated error types et reasons, click t
 
 傳送電子郵件時，最佳作法是雙重加入機制。它可保護平台免受錯誤或無效的電子郵件地址、垃圾郵件機器人，並防止可能的垃圾郵件投訴。
 
-原則是先傳送電子郵件確認訪客的同意，再將其儲存為「設定檔」至您的促銷活動資料庫：訪客填寫線上登錄頁面，接著收到電子郵件，必須按一下確認連結才能完成訂閱。
+原則是先傳送電子郵件以確認訪客的同意，再將其儲存為「設定檔」至您的Campaign資料庫：訪客填寫線上登入頁面，然後會收到電子郵件，必須按一下確認連結才能完成訂閱。
 
 如需詳細資訊，請參閱[本節](../../channels/using/setting-up-a-double-opt-in-process.md)。

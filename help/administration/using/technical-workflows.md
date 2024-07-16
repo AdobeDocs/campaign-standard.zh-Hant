@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
-source-git-commit: dba7ed7d68a33ddf1a1e62ea0f20e855c0b7eb20
+source-git-commit: f87795ee2378a1e9e1b393c6cce002bcb70178b8
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 72%
+source-wordcount: '791'
+ht-degree: 74%
 
 ---
 
@@ -49,22 +49,16 @@ Adobe Campaign 可立即提供技術工作流程。技術工作流程是排程�
    <td> 此工作流程會透過電子郵件，將系統活動報告傳送給「帳單」使用者。預設會每天凌晨 1:00 自動啟動。<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">從傳遞範本複製標題</span> <br /> </td> 
+   <td> <span class="uicontrol">從傳遞範本複製標頭</span> <br /> </td> 
    <td> <span class="uicontrol">smtpHeaderupdate</span> <br /> </td> 
-   <td> 此工作流程會將為電子郵件傳遞範本設定的SMTP標題複製到對應的子非範本傳遞。 此工作流程只會擷取電子郵件行銷傳遞。 SMTP標頭不會複製到交易式傳送和校樣傳送。 <br> 此工作流程不會定期執行。 必須由使用者根據每次使用而啟動。 <!--So it'not really a technical workflow like all workflows on this page, because it's not run automatically - TBC--> <br> 如果您的執行個體上有大量傳送，您可以更新 <strong>應用程式設定</strong>. 如果您變更任何範本的SMTP標頭，您就必須在變更後再次執行工作流程，以便將更正後的標頭複製到非範本的傳送。<a href="data-retention.md#deliveries">瞭解更多</a>
+   <td> 此工作流程會將為電子郵件傳遞範本設定的SMTP標題複製到對應的子非範本傳遞。 此工作流程只會擷取電子郵件行銷傳遞。 SMTP標頭不會複製到交易式傳送和校樣傳送。 <br>此工作流程未定期執行。 必須由使用者根據每次使用而啟動。 <!--So it'not really a technical workflow like all workflows on this page, because it's not run automatically - TBC--> <br>如果您的執行個體上有大量傳遞，您可以在<strong>應用程式設定</strong>中更新NmsCleanup_DeliveryPurgeDelay選項。 如果您變更任何範本的SMTP標頭，您就必須在變更後再次執行工作流程，以便將更正後的標頭複製到非範本的傳送。<a href="data-retention.md#deliveries">進一步瞭解</a>
    <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">資料庫清除</span> <br /> </td> 
    <td> <span class="uicontrol">cleanup</span> <br /> </td> 
    <td> 此工作流程是資料庫維護工作流程：會執行不同的統計和進度，並根據已定義的設定，從資料庫中刪除過時資料。預設會每天凌晨 4:00 自動啟動。<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="uicontrol">預測</span> <br /> </td> 
-   <td> <span class="uicontrol">預測</span> <br /> </td> 
-   <td> 此工作流程會執行臨時預測（建立臨時記錄）中儲存的傳送分析。預設會每天凌晨1:00開始。 <br />
-   預測工作流程是舊版工作流程，現在已在Campaign Standard中停止且不再運作。</td> 
-  </tr> 
+  </tr>
   <tr> 
    <td> <span class="uicontrol">匯入共用的對象</span> <br /> </td> 
    <td> <span class="uicontrol">importSharedAudience</span> <br /> </td> 
@@ -108,8 +102,8 @@ Adobe Campaign 可立即提供技術工作流程。技術工作流程是排程�
   </tr>
   <tr> 
    <td> <span class="uicontrol">復原追蹤記錄</span> <br /> </td> 
-   <td> <span class="uicontrol">Trackinglogrecovery</span> <br /> </td> 
-   <td> 此工作流程會還原遺失的追蹤記錄。 請注意，此技術工作流程用於特定內容，並僅限於Adobe內部使用。 <br> 預設會每10分鐘啟動一次。<br /> </td> 
+   <td> <span class="uicontrol">trackingLogRecovery</span> <br /> </td> 
+   <td> 此工作流程會還原遺失的追蹤記錄。 請注意，此技術工作流程用於特定內容，並僅限於Adobe內部使用。 <br>預設會每10分鐘啟動一次。<br /> </td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">更新傳送執行</span> <br/> </td> 

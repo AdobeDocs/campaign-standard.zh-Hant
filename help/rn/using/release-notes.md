@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: 44c436a74a0a4aa688427bfb36d506566d57ac3a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '387'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -21,21 +21,21 @@ ht-degree: 79%
 
 ## 早期發行說明 {#e-new-release}
 
-本節列出下一個Campaign Standard版本中包含的改善和變更。
+本章節介紹了下一個 Campaign Standard 版本中包含的改善及變動。
 
 >[!CAUTION]
 >
->在預備環境升級日期前，此內容可能會有所變更，恕不另行通知。 在[發行計畫頁面](../../rn/using/release-planning.md)瞭解更多資訊。
+>在階段環境升級日期前，此內容可能會有所變更，恕不另行通知。 請參閱[發行計劃頁面](../../rn/using/release-planning.md)以瞭解更多資訊。
 
-**版本24.2 - 2024夏季版本**
+**版本 24.2 - 2024 夏季版**
 
-* **發行日期**： 2024年8月（限量發行） - [深入瞭解](../../rn/using/release-planning.md)。
+* **發行日期**：2024 年 8 月 (有限可用性) - [深入瞭解](../../rn/using/release-planning.md)。
 
-* **移轉至OAuth伺服器對伺服器認證**
+* **移轉至 OAuth 伺服器對伺服器認證**
 
   自此版本開始，Adobe 已棄用服務帳戶 (JWT) 認證，Campaign 與 Adobe 解決方案和應用程式的輸出整合現在需依賴 OAuth 伺服器對伺服器認證。 Adobe 會針對您的傳出整合執行 JWT 到 OAuth 的移轉，例如 Campaign-Analytics 整合或 Experience Cloud 觸發器整合。
 
-  如果您已實作與Campaign的傳入整合，而且正在使用[Campaign API](../../api/using/get-started-apis.md)，您必須移轉您的技術帳戶，如[本檔案](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}所詳述。 現有的服務帳戶(JWT)認證將於&#x200B;**2025年1月27日**&#x200B;停止運作。
+  如果您已傳入 Campaign 傳入整合，而且正在使用 [Campaign API](../../api/using/get-started-apis.md)，您必須移轉您的技術帳戶，如[本文件](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}所詳述。 現有的服務帳戶 (JWT) 認證將於 **2025 年 1 月 27 日**&#x200B;停止運作。
 
 
 ## 版本 24.1 - 2024 年冬季發布內容 {#winter-24}

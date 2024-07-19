@@ -23,16 +23,16 @@ ht-degree: 0%
 
 * **外部帳戶**
 
-  在 **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL External accounts]**，確定下列外部S3帳戶已正確設定。 布建期間應已設定上述S3伺服器。
+  在&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL External accounts]**&#x200B;中，確定下列外部S3帳戶已正確設定。 布建期間應已設定上述S3伺服器。
 
    * **[!UICONTROL importSharedAudience]**：專用於匯入對象的S3帳戶。
-   * **[!UICONTROL exportSharedAudience]**：專用於匯出受眾的S3帳戶。
+   * **[!UICONTROL exportSharedAudience]**：專用於匯出對象的S3帳戶。
 
 * **共用的資料來源**
 
-  在 **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Shared Data Sources]**，檢查共用資料來源是否已正確設定。
+  在&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Shared Data Sources]**&#x200B;中，檢查共用資料來源是否已正確設定。
 
-  **[!UICONTROL Priority]** 定義多個資料來源時使用。 優先順序會決定要使用哪個資料來源來比對以定義順序收到的別名。 **[!UICONTROL Priority]** 僅適用於Triggers實施。
+  當您定義了多個資料來源時使用&#x200B;**[!UICONTROL Priority]**。 優先順序會決定要使用哪個資料來源來比對以定義順序收到的別名。 **[!UICONTROL Priority]**&#x200B;只需要Triggers實作。
 
   檢查調解金鑰是否正確。 這是此欄位的雜湊/加密值，用於匯出和匯入對象。
 
@@ -42,10 +42,10 @@ ht-degree: 0%
 
   如果選取了AES加密演演算法，則必須正確設定下列其他欄位：
 
-   * **加密金鑰** 適用於AES
-   * **加密IV** AES的（初始化向量）
-   * **頻道** （電子郵件/簡訊/其他）：此欄位允許直接解密電子郵件地址和簡訊號碼。 請確定調解金鑰與 **頻道** 欄位。 如果您選取[其他]，將不會發生這個特定的解密，而且調解金鑰將會用來調解資料。
+   * AES的&#x200B;**加密金鑰**
+   * AES的&#x200B;**加密IV** （初始化向量）
+   * **頻道** （電子郵件/簡訊/其他）：此欄位允許直接解密電子郵件地址和簡訊號碼。 確定調解金鑰符合&#x200B;**管道**&#x200B;欄位的設定。 如果您選取[其他]，將不會發生這個特定的解密，而且調解金鑰將會用來調解資料。
 
-  Experience Cloud對象可能不會共用，因為技術工作流程已停止或暫停。 存取 **[!UICONTROL Import shared audience]** 直接按一下 **[!UICONTROL Show ImportShared Audience workflow]** 資料來源中的選項。
+  Experience Cloud對象可能不會共用，因為技術工作流程已停止或暫停。 直接按一下資料來源中的&#x200B;**[!UICONTROL Show ImportShared Audience workflow]**&#x200B;選項，存取&#x200B;**[!UICONTROL Import shared audience]**&#x200B;工作流程。
 
 透過People核心服務共用對象或匯入對象時，可能會遺失部分資料。 只有其ID （「訪客ID」或「宣告ID」）能夠與設定檔維度調解的記錄才會轉移。 Adobe Campaign無法辨識的People核心服務區段之ID不會匯入。

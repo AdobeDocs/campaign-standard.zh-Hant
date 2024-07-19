@@ -17,9 +17,9 @@ ht-degree: 0%
 
 # 使用Microsoft Dynamics 365整合
 
-Adobe Campaign Standard與Microsoft Dynamics 365整合可執行數個資料流程。 這些流程的詳情請參閱 [此頁面](../../integrating/using/d365-acs-self-service-app-workflows.md).
+Adobe Campaign Standard與Microsoft Dynamics 365整合可執行數個資料流程。 這些流程在[此頁面](../../integrating/using/d365-acs-self-service-app-workflows.md)中有詳細說明。
 
-有關資料流程的更多詳情，請參閱本檔案以下的 [資料流程](#data-flows)  區段。
+有關資料流程的更多詳細資訊，請參閱此檔案[資料流程](#data-flows)區段中的更下層。
 
 ## Adobe Campaign Standard使用者體驗
 
@@ -27,7 +27,7 @@ Adobe Campaign Standard與Microsoft Dynamics 365整合可執行數個資料流�
 
 ![](assets/MSdynamicsACS-usage1.png)
 
-在Campaign中修改選擇退出屬性時，如果您已選取 **單向(Campaign至Microsoft Dynamics 365)** 或 **雙向** 選擇退出設定，以及您是否已正確對應該特定屬性。
+在Campaign中修改選擇退出屬性時，如果您已選取&#x200B;**單向(Campaign至Microsoft Dynamics 365)**&#x200B;或&#x200B;**雙向**&#x200B;選擇退出設定，而且您已正確對應該特定屬性，則會反映在Dynamics 365中。
 
 ## Microsoft Dynamics 365使用者體驗
 
@@ -45,7 +45,7 @@ Adobe Campaign Standard與Microsoft Dynamics 365整合可執行數個資料流�
 
 >[!NOTE]
 >
->此 **適用於Microsoft Dynamics 365的Adobe Campaign** AppSource中的應用程式必須安裝在您的Microsoft Dynamics 365執行個體中，才能檢視這些事件。 [了解更多](../../integrating/using/d365-acs-configure-d365.md#install-appsource-app)。
+>AppSource中的&#x200B;**Adobe Campaign for Microsoft Dynamics 365**&#x200B;應用程式必須安裝在您的Microsoft Dynamics 365執行個體中，才能檢視這些事件。 [了解更多](../../integrating/using/d365-acs-configure-d365.md#install-appsource-app)。
 
 您可以在下方看到「Dynamics使用者」的「連絡人」畫面快照。 在「時間軸」檢視中，您會注意到Dynamics使用者已收到與行銷活動名稱「2019LoyaltyCamp」和傳送名稱「DM190」相關聯的電子郵件。 Dynamics使用者已開啟電子郵件並按一下電子郵件中的URL；這兩個動作都會建立事件，也會顯示如下。 如果往右邊看，就會看到關係小幫手(RA)卡；目前包含要追蹤已點按URL的工作。
 
@@ -69,25 +69,25 @@ Adobe Campaign Standard與Microsoft Dynamics 365整合可執行數個資料流�
 
 以下是屬性清單和說明：
 
-* **主旨**：事件的主旨；由電子郵件傳送的行銷活動ID和傳送ID組成
+* **主旨**：事件的主旨；由電子郵件傳遞的行銷活動ID和傳遞ID組成
 
 * **所有者**：在布建後步驟中建立的應用程式使用者
 
-* **相關**：連絡人的名稱
+* **關於**：連絡人的名稱
 
-* **行銷活動名稱**：Campaign Standard中的促銷活動ID
+* **促銷活動名稱**：Campaign Standard中的促銷活動識別碼
 
-* **傳遞名稱**：Campaign Standard中的傳送ID
+* **傳遞名稱**：Campaign Standard的傳遞識別碼
 
-* **傳送/開啟/點按/退信日期**：事件建立的日期/時間
+* **傳送/開啟/點按/退出的日期**：事件建立的日期/時間
 
 * **追蹤URL**：已點按的URL
 
-* **映象頁面URL**：已傳送/開啟/點按/退回之電子郵件的映象頁面的URL。 您可以在對應的Campaign電子郵件通道活動的設定畫面中修改電子郵件映象頁面的到期日。 [了解更多](../../administration/using/configuring-email-channel.md#validity-period-parameters)。
+* **映象頁面URL**：已傳送/開啟/按一下/退回之電子郵件的映象頁面URL。 您可以在對應的Campaign電子郵件通道活動的設定畫面中修改電子郵件映象頁面的到期日。 [了解更多](../../administration/using/configuring-email-channel.md#validity-period-parameters)。
 
 >[!NOTE]
 >
->針對選擇退出，當您在Microsoft Dynamics 365中修改選擇退出屬性時，如果您選取 **單向(Campaign至Microsoft Dynamics 365)** 或 **雙向** 選擇退出設定，以及您是否已正確對應該特定屬性。
+>針對選擇退出，當您在Microsoft Dynamics 365中修改選擇退出屬性時，如果您選取&#x200B;**單向(Campaign至Microsoft Dynamics 365)**&#x200B;或&#x200B;**雙向**&#x200B;選擇退出設定，而且您已正確對應該特定屬性，則會反映在Campaign中。
 
 ## 資料流程 {#data-flows}
 
@@ -111,7 +111,7 @@ Campaign設定檔表格屬性externalId必須填入Dynamics 365連絡人屬性co
 
 #### 自訂實體
 
-此 [Microsoft Dynamics 365-Adobe Campaign Standard整合](../../integrating/using/d365-acs-get-started.md) 支援自訂實體，可讓Dynamics 365中的自訂實體同步至Campaign中對應的自訂資源。
+[Microsoft Dynamics 365-Adobe Campaign Standard整合](../../integrating/using/d365-acs-get-started.md)支援自訂實體，可讓Dynamics 365中的自訂實體同步處理至Campaign中對應的自訂資源。
 
 自訂資源中的新資料可用於多種用途，包括細分和個人化。
 
@@ -119,7 +119,7 @@ Campaign設定檔表格屬性externalId必須填入Dynamics 365連絡人屬性co
 
 >[!IMPORTANT]
 >
->如果任何Campaign自訂資源記錄包含個人資訊，則套用特定建議。 瞭解更多 [在本節中](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-data).
+>如果任何Campaign自訂資源記錄包含個人資訊，則套用特定建議。 在本節](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-data)瞭解更多[。
 >
 
 設定自訂實體資料流程時，請務必注意下列事項：
@@ -128,13 +128,13 @@ Campaign設定檔表格屬性externalId必須填入Dynamics 365連絡人屬性co
 * 對於自訂實體資料流程，必須在Dynamics 365中為同步的自訂實體啟用變更追蹤。
 * 如果在Dynamics 365中幾乎同時建立父記錄和連結的子記錄，則由於平行處理整合，將新子記錄寫入其父記錄之前的可能性微乎其微。
 
-* 如果父項和子項在Campaign端使用連結， **1個基數簡易連結** 選項，在父記錄到達Campaign之前，子記錄將保持隱藏和無法存取（透過UI或API）。
+* 如果使用&#x200B;**1基數簡單連結**&#x200B;選項在Campaign端連結父項和子項，在父項記錄到達Campaign之前，子項記錄將保持隱藏狀態且無法存取（透過UI或API）。
 
-* (假設 **1個基數簡易連結** （在Campaign中）如果子記錄在Dynamics 365中更新或刪除，且該變更在父記錄出現在Campaign中之前寫入Campaign （不大可能，但可能有遠端可能），該更新或刪除將不會在Campaign中處理且將會擲回錯誤。 如果更新，需要在Dynamics 365中再次更新有問題的記錄，才能同步處理更新的記錄。 刪除時，由於在Dynamics 365中不再有要刪除或更新之記錄，因此需要在Campaign端個別處理有問題的記錄。
+* （假設Campaign中有&#x200B;**1個基數簡單連結**）若子記錄在Dynamics 365中更新或刪除，且該變更在父記錄出現在Campaign之前寫入Campaign （不大可能，但可能有遠端可能），則不會在Campaign中處理該更新或刪除，且將會擲回錯誤。 如果更新，需要在Dynamics 365中再次更新有問題的記錄，才能同步處理更新的記錄。 刪除時，由於在Dynamics 365中不再有要刪除或更新之記錄，因此需要在Campaign端個別處理有問題的記錄。
 
-* 如果您遇到您認為有隱藏的子記錄且無法存取這些記錄的情況，您可以暫時將基數連結型別變更為 **0或1個基數簡單連結** 以存取這些記錄。
+* 如果您認為您有隱藏的子記錄，且無法存取這些記錄，您可以暫時將基數連結型別變更為&#x200B;**0或1個基數簡單連結**，以存取這些記錄。
 
-如需更全面的Campaign自訂資源概觀，請參閱 [在本節中](../../developing/using/key-steps-to-add-a-resource.md).
+如需更全面的Campaign自訂資源概觀，請參閱本節[](../../developing/using/key-steps-to-add-a-resource.md)。
 
 ### 電子郵件行銷事件流程{#email-marketing-event-flow}
 
@@ -159,17 +159,17 @@ Campaign設定檔表格屬性externalId必須填入Dynamics 365連絡人屬性co
 
 選擇退出（例如denyList）值會在系統之間同步；上線時，您可以選擇下列選項：
 
-* **單向(Microsoft Dynamics 365至Campaign)**：Dynamics 365是選擇退出的真實來源。 選擇退出屬性會從Dynamics 365同步至Campaign Standard」
-* **單向(Campaign至Microsoft Dynamics 365)**：Campaign Standard是選擇退出的真實來源。 選擇退出屬性將會在從Campaign Standard到Dynamics 365的一個方向上同步
-* **雙向**：Dynamics 365和Campaign Standard都是信任來源。 選擇退出屬性將在Campaign Standard和Dynamics 365之間雙向同步
+* **單向(Microsoft Dynamics 365至Campaign)**： Dynamics 365是選擇退出的信任來源。 選擇退出屬性會從Dynamics 365同步至Campaign Standard」
+* **單向(從Campaign到Microsoft Dynamics 365)**：Campaign Standard是選擇退出的真實來源。 選擇退出屬性將會在從Campaign Standard到Dynamics 365的一個方向上同步
+* **雙向**： Dynamics 365和Campaign Standard都是真實來源。 選擇退出屬性將在Campaign Standard和Dynamics 365之間雙向同步
 
 或者，如果您有個別程式可管理系統之間的選擇退出同步，則可停用整合的選擇退出資料流程。
 
 >[!NOTE]
 >
->在整合應用程式UI中， **單向(Microsoft Dynamics 365至Campaign)** 和 **雙向** 選擇退出使用案例是在獨立的選擇退出工作流程中設定的。 [了解更多](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf)。
+>在整合應用程式UI中，**單向(Microsoft Dynamics 365至Campaign)**&#x200B;和&#x200B;**雙向**&#x200B;選擇退出使用案例是在單獨的選擇退出工作流程中設定的。 [了解更多](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf)。
 >
->此 **單向(Campaign至Microsoft Dynamics 365)** 選擇退出使用案例為例外情況；它是在入口（聯絡至設定檔）工作流程中設定。
+>**單向(Campaign to Microsoft Dynamics 365)**&#x200B;選擇退出使用案例是例外狀況；它是在入口（聯絡至設定檔）工作流程中設定。
 >
 
 選擇退出流程對應將由客戶指定，因為公司之間的業務需求可能不同。 在Campaign端，只有OOTB選擇退出屬性可用於選擇退出對應：

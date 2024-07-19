@@ -19,7 +19,7 @@ ht-degree: 3%
 
 Adobe Campaign與Adobe Analytics整合可讓您直接在Adobe Analytics中追蹤電子郵件傳送的成功情況。
 
-Campaign **[!UICONTROL dimensions]** 以下列出可在Analytics中找到的：
+在Analytics中找到的行銷活動&#x200B;**[!UICONTROL dimensions]**&#x200B;列示如下：
 
 <table> 
  <thead> 
@@ -31,32 +31,32 @@ Campaign **[!UICONTROL dimensions]** 以下列出可在Analytics中找到的：
  <tbody> 
   <tr> 
    <td> 行銷活動ID<br /> </td> 
-   <td> 在Campaign中看到的行銷活動的內部名稱<br /> </td> 
+   <td> 如行銷活動<br />中所見的行銷活動內部名稱 </td> 
   </tr> 
   <tr> 
    <td> 行銷活動標籤<br /> </td> 
-   <td> 在Campaign中看到的行銷活動標籤<br /> </td> 
+   <td> 行銷活動中的行銷活動標籤，如Campaign<br />中所示 </td> 
   </tr> 
   <tr> 
    <td> 傳遞ID<br /> </td> 
-   <td> 在Campaign中看到的傳遞內部名稱。<br /> 例如，DM1是排程每週傳送子傳送的循環傳送。 DM2、DM3和DM4會在最初三週傳送。 「傳遞ID」維度接著會顯示每個傳遞的結果，即DM1到DM4。 <br /> </td> 
+   <td> 在Campaign中看到的傳遞內部名稱。<br />例如，DM1是排程每週傳送子傳遞的循環傳遞。 DM2、DM3和DM4會在最初三週傳送。 然後，傳遞ID維度會顯示每個傳遞的結果，即DM1到DM4。<br /> </td> 
   </tr> 
   <tr> 
    <td> 傳遞標籤<br /> </td> 
-   <td> 在Campaign中看到的傳遞標籤<br /> </td> 
+   <td> 在Campaign<br />中看到的傳遞標籤 </td> 
   </tr> 
   <tr> 
    <td> 已執行的傳遞ID<br /> </td> 
-   <td> 在Campaign中看到的傳遞內部名稱。 這僅涉及Campaign中的傳送執行。<br /> 例如，DM1是排程每週傳送子傳送的循環傳送。 DM2、DM3和DM4會在最初三週傳送。 「已執行的傳送ID」維度接著會顯示已執行傳送的結果，即子傳送DM2、DM3和DM4。 <br /> </td> 
+   <td> 在Campaign中看到的傳遞內部名稱。 這僅涉及Campaign中的傳送執行。<br />例如，DM1是排程每週傳送子傳遞的循環傳遞。 DM2、DM3和DM4會在最初三週傳送。 然後，「已執行的傳送ID」維度會顯示已執行傳送的結果，即子傳送DM2、DM3和DM4。<br /> </td> 
   </tr> 
   <tr> 
    <td> 已執行的傳遞標籤<br /> </td> 
-   <td> 在Campaign中看到的傳送標籤。 這僅涉及Campaign中的傳送執行。<br /> </td> 
+   <td> 在Campaign中看到的傳送標籤。 這僅與行銷活動中執行的傳遞有關。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Campaign **[!UICONTROL metrics]** 以下列出可在Analytics中找到的：
+在Analytics中找到的行銷活動&#x200B;**[!UICONTROL metrics]**&#x200B;列示如下：
 
 <table> 
  <thead> 
@@ -72,7 +72,7 @@ Campaign **[!UICONTROL metrics]** 以下列出可在Analytics中找到的：
   </tr> 
   <tr> 
    <td> 已傳遞<br /> </td> 
-   <td> 成功傳送的訊息數（與已傳送訊息總數相關）。<br /> </td> 
+   <td> 成功傳送的訊息數，與已傳送的訊息總數相關。<br /> </td> 
   </tr> 
   <tr> 
    <td> 已開啟<br /> </td> 
@@ -84,7 +84,7 @@ Campaign **[!UICONTROL metrics]** 以下列出可在Analytics中找到的：
   </tr> 
   <tr> 
    <td> 總跳出數<br /> </td> 
-   <td> 與已傳送訊息總數相關的傳遞和自動回訪處理期間累計的錯誤總數。<br /> </td> 
+   <td> 傳遞期間累計的錯誤總數與自動傳回處理相對於已傳送訊息的總數。<br /> </td> 
   </tr> 
   <tr> 
    <td> 不重複開啟<br /> </td> 
@@ -92,7 +92,7 @@ Campaign **[!UICONTROL metrics]** 以下列出可在Analytics中找到的：
   </tr> 
   <tr> 
    <td> 不重複點按<br /> </td> 
-   <td> 在傳遞中點按內容的收件者人數。<br /> </td> 
+   <td> 點按傳遞中內容的收件者人數。<br /> </td> 
   </tr> 
   <tr> 
    <td> 已取消訂閱<br /> </td> 

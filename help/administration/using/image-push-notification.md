@@ -37,9 +37,9 @@ Experience Platform SDK支援推播通知。
 
 1. 建立推播通知。 如需關於此項目的詳細資訊，請參閱此[頁面](../../channels/using/preparing-and-sending-a-push-notification.md)。
 
-1. 從推播通知內容頁面，存取 **[!UICONTROL Advanced options]** 區段。
+1. 從推播通知內容頁面，存取&#x200B;**[!UICONTROL Advanced options]**&#x200B;區段。
 
-1. 在「 」中輸入檔案的URL **[!UICONTROL Rich media content URL]** 欄位。
+1. 在&#x200B;**[!UICONTROL Rich media content URL]**欄位中輸入檔案的URL。
 若是iOS 10或更新版本，您可以插入影像、gif、音訊和視訊檔案。
 
    ![](assets/push_notif_advanced_6.png)
@@ -52,19 +52,19 @@ Experience Platform SDK支援推播通知。
 
 >[!NOTE]
 >
->如果您的應用程式在Objective-C中，請參閱以下內容 [檔案](https://experienceleague.adobe.com/docs/mobile-services/ios/messaging-ios/push-messaging/c-set-up-rich-push-notif-ios.html).
+>如果您的應用程式位於Objective-C，請參閱下列[檔案](https://experienceleague.adobe.com/docs/mobile-services/ios/messaging-ios/push-messaging/c-set-up-rich-push-notif-ios.html)。
 
-如果您的應用程式在 [!DNL Swift]，請遵循下列步驟：
+如果您的應用程式在[!DNL Swift]中，請遵循下列步驟：
 
-1. 開啟您的 [!DNL Xcode] 專案。
+1. 開啟您的[!DNL Xcode]專案。
 
-1. 在您的 [!DNL Xcode] 專案，選取 **[!UICONTROL File]** > **[!UICONTROL New]** > **[!UICONTROL Target]**.
+1. 在您的[!DNL Xcode]專案中，選取&#x200B;**[!UICONTROL File]** > **[!UICONTROL New]** > **[!UICONTROL Target]**。
 
 1. 選取 **[!UICONTROL Notification Service Extension]**。
 
    ![](assets/push_notif_advanced_12.png)
 
-1. 檢查 **NotificationService.swift** 檔案類別已建立。
+1. 檢查是否已建立&#x200B;**NotificationService.swift**&#x200B;檔案類別。
 
 1. 編輯此類別並使用以下內容取代預設內容。
 這可讓應用程式使用影像URL處理傳入引數、剖析、複製至本機，然後從推播通知顯示引數。
@@ -151,6 +151,6 @@ userInfo: [AnyHashable("media-attachment-url"): https://pbs.twimg.com/profile_im
 
 ## 步驟4：測試傳送推播 {#test-send-push}
 
-您現在可以測試建置應用程式，以及您在上面的步驟2中建立的傳送。 如需準備和傳送推播通知的詳細資訊，請參閱本 [頁面](../../channels/using/preparing-and-sending-a-push-notification.md).
+您現在可以測試建置應用程式，以及您在上面的步驟2中建立的傳送。 如需準備和傳送推播通知的詳細資訊，請參閱此[頁面](../../channels/using/preparing-and-sending-a-push-notification.md)。
 
 ![](assets/push_notif_advanced_34.png)

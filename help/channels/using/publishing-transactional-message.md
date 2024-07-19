@@ -18,13 +18,13 @@ ht-degree: 70%
 
 # 異動訊息生命週期 {#publishing-transactional-message}
 
-當 [異動訊息](../../channels/using/editing-transactional-message.md) 已準備好傳送，可以發佈。
+當[交易式訊息](../../channels/using/editing-transactional-message.md)準備好要傳送時，即可發佈。
 
 發佈、暫停、取消發佈和刪除交易式訊息的步驟詳述如下。
 
 >[!IMPORTANT]
 >
->僅限具有下列專案的使用者： [管理](../../administration/using/users-management.md#functional-administrators) 角色可以存取及發佈異動訊息。
+>只有具有[管理](../../administration/using/users-management.md#functional-administrators)角色的使用者才能存取及發佈異動訊息。
 
 ## 異動訊息發佈程式 {#transactional-messaging-pub-process}
 
@@ -88,13 +88,13 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 ## 發佈交易式訊息 {#publishing-a-transactional-message}
 
-編輯並測試交易式訊息後，您就可以發佈它。 只需按一下 **[!UICONTROL Publish]** 按鈕。
+編輯並測試交易式訊息後，您就可以發佈它。 只要按一下&#x200B;**[!UICONTROL Publish]**&#x200B;按鈕即可。
 
 ![](assets/message-center_12.png)
 
 現在，觸發「購物車放棄率」事件之後，則會自動提示訊息，其中包含收件者的職務及姓氏、購物車 URL、上次諮詢的產品或產品清單（如果您已定義產品清單），以及要傳送的購物車總金額。
 
-若要存取關於交易式訊息的報告，請使用 **[!UICONTROL Reports]** 按鈕。另請參閱 [動態報告](../../reporting/using/about-dynamic-reports.md).
+若要存取關於交易式訊息的報告，請使用 **[!UICONTROL Reports]** 按鈕。請參閱[動態報告](../../reporting/using/about-dynamic-reports.md)。
 
 ![](assets/message-center_13.png)
 
@@ -107,7 +107,7 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 您可以使用　**[!UICONTROL Pause]**　按鈕以暫停發佈交易式訊息，例如，修改訊息中所包含的資料。因此，系統將不會再處理這些事件，而會將之保留在 Adobe Campaign 資料庫的佇列中。
 
-在REST API中定義的時段期間，會保留佇列的事件(請參閱 [REST API檔案](../../api/using/managing-transactional-messages.md))或在「觸發器」事件中（如果您使用「觸發器」核心服務） (請參閱 [關於Adobe Experience Cloud Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md))。
+在REST API中定義的時段期間，會保留佇列的事件（請參閱[REST API檔案](../../api/using/managing-transactional-messages.md)），或是保留在觸發事件中（如果您使用Triggers核心服務） (請參閱[關於Adobe Experience Cloud Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md))。
 
 ![](assets/message-center_pause.png)
 
@@ -123,7 +123,7 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 >[!NOTE]
 >
->若要再次發佈訊息，您必須返回相對應的事件設定， [發佈事件](../../channels/using/publishing-transactional-event.md)，然後 [發佈訊息](#publishing-a-transactional-message).
+>若要再次發佈訊息，您必須返回對應的事件設定，[發佈事件](../../channels/using/publishing-transactional-event.md)，然後[發佈訊息](#publishing-a-transactional-message)。
 
 如果您解除發佈已暫停的交易式訊息，則可能必須等候長達 24 小時，才能再次發佈。這是為了讓 **[!UICONTROL Database cleanup]** 工作流程清除已傳送至佇列的所有事件。
 
@@ -135,7 +135,7 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 在取消發佈交易式訊息之後，或尚未發佈交易式訊息時，您可以從交易式訊息清單中刪除該訊息。操作步驟：
 
-1. 按一下 **Adobe** 標誌，在左上角，然後選取 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
+1. 按一下左上角的&#x200B;**Adobe**&#x200B;標誌，然後選取&#x200B;**[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**。
 1. 將滑鼠游標移到您選取的訊息上。
 1. 按一下 **[!UICONTROL Delete element]** 按鈕。
 

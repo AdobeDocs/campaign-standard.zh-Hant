@@ -17,7 +17,7 @@ ht-degree: 12%
 
 # 擷取設定檔的地理單位 {#retrieving-geographical-unit}
 
-1. 對設定檔PKey執行GET要求以擷取 **geoUnit** URL。
+1. 對設定檔PKey執行GET要求，以擷取&#x200B;**geoUnit** URL。
 1. 在URL上執行GET要求，以擷取有關地理單位的更多詳細資料。
 
 <br/>

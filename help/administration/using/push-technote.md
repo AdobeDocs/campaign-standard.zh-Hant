@@ -9,7 +9,7 @@ exl-id: e273b443-7c43-482b-8f86-60ada4b57cbf
 source-git-commit: db035a41515e94836bdfbfc3d620586dc1f5ce31
 workflow-type: tm+mt
 source-wordcount: '1134'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -29,9 +29,9 @@ ht-degree: 1%
 
 ### 哪些部分有所變更？ {#fcm-changes}
 
-為Google持續改善其服務，我們將於以下日期終止使用舊版FCM API： **2024年6月20日**. 在中進一步瞭解Firebase雲端通訊HTTP通訊協定 [Google Firebase檔案](https://firebase.google.com/docs/cloud-messaging/http-server-ref){target="_blank"}.
+Google持續改善服務，其中舊版FCM API將於&#x200B;**2024年6月20日**&#x200B;終止服務。 在[Google Firebase檔案](https://firebase.google.com/docs/cloud-messaging/http-server-ref){target="_blank"}中進一步瞭解Firebase雲端通訊HTTP通訊協定。
 
-正在啟動 [24.1版](../../rn/using/release-notes.md)，Adobe Campaign Standard支援HTTP v1 API來傳送Android推播通知訊息。
+從[24.1版本](../../rn/using/release-notes.md)開始，Adobe Campaign Standard支援HTTP v1 API來傳送Android推播通知訊息。
 
 ### 您有受到影響嗎？ {#fcm-impact}
 
@@ -49,36 +49,36 @@ ht-degree: 1%
 
 #### 先決條件 {#fcm-transition-prerequisites}
 
-* 支援 **HTTP v1 API** 已在24.1版本中新增模式。 如果您的環境執行於舊版，此變更的先決條件是將環境升級至 [最新Campaign Standard版本](../../rn/using/release-notes.md).
+* 已在24.1版本中新增支援&#x200B;**HTTP v1 API**&#x200B;模式。 如果您的環境執行於較舊的版本，此變更的先決條件是將您的環境升級至[最新的Campaign Standard版本](../../rn/using/release-notes.md)。
 
-* 需要Android Firebase Admin SDK服務的帳戶JSON檔案，才能將行動應用程式移至HTTP v1。 瞭解如何取得此檔案於 [Google Firebase檔案](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
+* 需要Android Firebase Admin SDK服務的帳戶JSON檔案，才能將行動應用程式移至HTTP v1。 在[Google Firebase檔案](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}中瞭解如何取得此檔案。
 
-* 如果您仍在使用此舊版SDK，您必須使用Adobe Experience Platform SDK更新實作。 瞭解如何在中移轉至Adobe Experience Platform SDK [本文](sdkv4-migration.md).
+* 如果您仍在使用此舊版SDK，您必須使用Adobe Experience Platform SDK更新實作。 在[本文章](sdkv4-migration.md)中瞭解如何移轉至Adobe Experience Plaform SDK。
 
-* 確定您擁有 **行動應用程式設定** 許可權(在Adobe Experience Platform資料收集行動中)，然後再執行下列步驟。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/collection/permissions.html?lang=en#adobe-experience-platform-data-collection-permissions){target="_blank"}。
+* 執行以下步驟之前，請確定您在Adobe Experience Platform Data Collection Mobile中擁有&#x200B;**行動應用程式設定**&#x200B;許可權。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/collection/permissions.html?lang=en#adobe-experience-platform-data-collection-permissions){target="_blank"}。
 
 
 #### 轉換程式 {#fcm-transition-steps}
 
 若要將環境移至HTTP v1，請遵循下列步驟：
 
-1. 瀏覽至 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]**.
+1. 瀏覽至&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]**。
 
    ![](assets/push_technote_1.png)
 
 1. 選取需要更新憑證的特定行動應用程式。
 
-1. 檢查 **[!UICONTROL Update app credentials]** 核取方塊。
+1. 核取&#x200B;**[!UICONTROL Update app credentials]**&#x200B;核取方塊。
 
    ![](assets/push_technote_5.png)
 
-1. 從您的Android專案提供應用程式ID （Android套件名稱） `build.gradle` 檔案。 例如， `com.android.test.testApp`. 請務必針對中繼和生產環境使用不同的ID。
+1. 從您的Android專案的`build.gradle`檔案提供應用程式ID (Android套件名稱)。 例如，`com.android.test.testApp`。 請務必針對中繼和生產環境使用不同的ID。
 
 1. 上傳您的Android私密金鑰JSON金鑰檔案。
 
    ![](assets/push_technote_3.png)
 
-1. 按一下 **儲存** 按鈕。
+1. 按一下&#x200B;**儲存**&#x200B;按鈕。
 
 >[!NOTE]
 >
@@ -97,7 +97,7 @@ ht-degree: 1%
 
 * 您可以使用一個Token為貴公司的所有應用程式散發通知。
 
-瞭解更多有關與APN的權杖型連線，位於 [Apple開發人員檔案](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}.
+在[Apple開發人員檔案](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}中進一步瞭解與APN的權杖型連線。
 
 Adobe Campaign Standard同時支援權杖型和憑證型連線。 如果您的實施仰賴憑證式連線，Adobe強烈建議您將其更新為權杖式連線。
 
@@ -118,30 +118,30 @@ Adobe Campaign Standard同時支援權杖型和憑證型連線。 如果您的�
 
 #### 先決條件 {#ios-transition-prerequisites}
 
-* 支援 **權杖型驗證** 模式已新增至 [24.1版](../../rn/using/release-notes.md). 如果您的環境執行於舊版，此變更的先決條件是將環境升級至 [最新Campaign Standard版本](../../rn/using/release-notes.md).
+* 已在[24.1版本](../../rn/using/release-notes.md)中新增&#x200B;**權杖式驗證**&#x200B;模式的支援。 如果您的環境執行於較舊的版本，此變更的先決條件是將您的環境升級至[最新的Campaign Standard版本](../../rn/using/release-notes.md)。
 
-* 您需要APNs驗證Token簽署金鑰才能產生您的伺服器所使用的Token。 如中所述，您需向Apple開發人員帳戶索取此金鑰 [Apple開發人員檔案](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}.
+* 您需要APNs驗證Token簽署金鑰才能產生您的伺服器所使用的Token。 如[Apple開發人員檔案](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}所述，您向您的Apple開發人員帳戶要求此金鑰。
 
 
 #### 轉換程式 {#ios-transition-steps}
 
 若要將iOS行動應用程式移至權杖型驗證模式，請遵循下列步驟：
 
-1. 瀏覽至 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]**.
+1. 瀏覽至&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]**。
 
    ![](assets/push_technote_1.png)
 
 1. 選取需要更新憑證的特定行動應用程式。
 
-1. 檢查 **[!UICONTROL Update app credentials]** 核取方塊。
+1. 核取&#x200B;**[!UICONTROL Update app credentials]**&#x200B;核取方塊。
 
    ![](assets/push_technote_2.png)
 
-1. 提供 **應用程式ID** (iOS套件組合ID)。 您可以在Xcode中的應用程式主要目標中找到iOS套件組合ID （應用程式ID）。
+1. 提供&#x200B;**應用程式識別碼** (iOS套件組合識別碼)。 您可以在Xcode中的應用程式主要目標中找到iOS套件組合ID （應用程式ID）。
 
-1. 上傳您的 **iOS p8憑證檔案**.
+1. 上傳您的&#x200B;**iOS p8憑證檔案**。
 
-1. 填寫APNs連線設定 **[!UICONTROL Key Id]** 和 **[!UICONTROL iOS Team Id]**.
+1. 填入APNs連線設定&#x200B;**[!UICONTROL Key Id]**&#x200B;和&#x200B;**[!UICONTROL iOS Team Id]**。
 
    ![](assets/push_technote_4.png)
 
@@ -190,7 +190,7 @@ Adobe Campaign Standard同時支援權杖型和憑證型連線。 如果您的�
 
 +++若未完成此移轉會發生什麼事？
 
-根據Google的通知，Android推播訊息將在2024年6月20日之後開始失敗。 [深入了解](https://firebase.google.com/docs/cloud-messaging/migrate-v1){target="_blank"}.
+根據Google的通知，Android推送訊息將在2024年6月20日之後開始失敗。 [深入了解](https://firebase.google.com/docs/cloud-messaging/migrate-v1){target="_blank"}.
 
 +++
 

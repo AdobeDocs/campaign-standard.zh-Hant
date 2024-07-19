@@ -58,29 +58,29 @@ ht-degree: 52%
 
    >[!NOTE]
    >
-   >此 **[!UICONTROL Repetition frequency]** 可用於每日和每月執行頻率的欄位可讓您在觸發工作流程時省下時間。 例如，如果您選取每日執行期間，而重複頻率設定為 **2**（天），則每兩天就會觸發工作流程一次。時間不能少於　10　分鐘。如果重複頻率設為 **0** （也是預設值），不會考慮此選項，工作流程將根據指定的執行頻率執行。
+   >適用於每日和每月執行頻率的&#x200B;**[!UICONTROL Repetition frequency]**&#x200B;欄位可讓您在觸發工作流程時省下時間。 例如，如果您選取每日執行期間，而重複頻率設定為 **2**（天），則每兩天就會觸發工作流程一次。時間不能少於　10　分鐘。如果重複頻率設定為&#x200B;**0** （也是預設值），則不會考慮此選項，工作流程將根據指定的執行頻率執行。
 
-   將執行頻率設定為 **[!UICONTROL Several times a day]**，您可靈活地選擇在一天中的特定時間執行工作流程，或在一天中定期執行工作流程。
+   將執行頻率設定為&#x200B;**[!UICONTROL Several times a day]**&#x200B;時，您可以彈性選擇在一天中的特定時間執行工作流程，或是在一天中定期執行。
 
-+++ 瞭解如何設定 **[!UICONTROL "Several times a day"]** 執行頻率
++++ 瞭解如何設定&#x200B;**[!UICONTROL "Several times a day"]**&#x200B;執行頻率
 
-   * 若要在一天中的特定時間多次執行工作流程，請開啟 **[!UICONTROL Specific times]** option ，然後按一下 **[!UICONTROL Add an element]** 以指定所需的執行時間。 視需要多次新增，以符合您的需求。
+   * 若要在一天中的特定時間多次執行工作流程，請開啟&#x200B;**[!UICONTROL Specific times]**&#x200B;選項，然後按一下&#x200B;**[!UICONTROL Add an element]**&#x200B;以指定想要的執行時間。 視需要多次新增，以符合您的需求。
 
-   * 若要在一天中定期執行工作流程，請開啟 **[!UICONTROL Periodic]** 選項，然後設定執行週期：
+   * 若要在一天中定期執行工作流程，請開啟&#x200B;**[!UICONTROL Periodic]**&#x200B;選項，然後設定執行週期：
 
-      1. 在 **[!UICONTROL Repeat processing according to the following frequency (e.g. 2h)]** 欄位中，指定工作流程應執行的間隔（例如每30分鐘、每2小時）。
+      1. 在&#x200B;**[!UICONTROL Repeat processing according to the following frequency (e.g. 2h)]**&#x200B;欄位中，指定工作流程應執行的間隔（例如每30分鐘、每2小時）。
 
          >[!NOTE]
          >
          >此選項也允許每日、每月或每年重複頻率。 請注意，在此情況下，工作流程將不會一天執行數次，而是根據您在此欄位中指定的頻率來執行。
          >
-         > 如果您的工作流程不需要在一天內執行多次，而是需要每日、每月或每年執行，建議您使用 **[!UICONTROL Daily]**， **[!UICONTROL Monthly]** 或 **[!UICONTROL Yearly]** 中可用的選項 **[!UICONTROL Execution frequency]** 下拉式清單。
+         > 如果您的工作流程在一天內不需要多次執行，而是需要每日、每月或每年執行，建議您使用&#x200B;**[!UICONTROL Execution frequency]**&#x200B;下拉式清單中的&#x200B;**[!UICONTROL Daily]**、**[!UICONTROL Monthly]**&#x200B;或&#x200B;**[!UICONTROL Yearly]**&#x200B;選項。
 
-      1. 在 **[!UICONTROL Start]**/**[!UICONTROL End]** 時間欄位，定義工作流程執行的開始和結束時間。
+      1. 在&#x200B;**[!UICONTROL Start]**/**[!UICONTROL End]**&#x200B;時間欄位中，定義工作流程執行的開始和結束時間。
 
-         如果未指定結束時間，執行會在午夜00結束:00:00小時，而下一個執行會在隔天的指定開始時間開始。
+         如果未指定結束時間，執行會在午夜00:00:00時終止，而下一個執行會在指定的開始時間隔天開始。
 
-      1. 在 **[!UICONTROL Start]** 日期欄位，選取第一次執行的開始日期。
+      1. 在&#x200B;**[!UICONTROL Start]**&#x200B;日期欄位中，選取第一次執行的開始日期。
 
    在以下範例中，活動設定為從3月1日上午8點至下午5點，每兩小時執行工作流程一次。
 

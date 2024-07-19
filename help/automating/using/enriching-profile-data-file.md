@@ -24,8 +24,8 @@ ht-degree: 72%
 
 ![](assets/enrichment_example_workflow.png)
 
-* A [查詢](../../automating/using/query.md) 定位將接收訊息之設定檔的活動。
-* A [載入檔案](../../automating/using/load-file.md) 載入購買資料的活動。 例如：
+* [查詢](../../automating/using/query.md)活動，將目標設定為將接收訊息的設定檔。
+* 載入購買資料的[載入檔案](../../automating/using/load-file.md)活動。 例如：
 
   ```
   tcode;tdate;customer;product;tamount
@@ -39,7 +39,7 @@ ht-degree: 72%
 
   在此範例檔案中，使用電子郵件地址來調解資料與資料庫設定檔。 您也可以啟用唯一 ID，如[本文件](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)所述。
 
-* 一個 [擴充](../../automating/using/enrichment.md) 在從檔案載入的交易處理資料與在中選取的設定檔之間建立連結的活動 **[!UICONTROL Query]**. 該連結在活動的 **[!UICONTROL Advanced relations]** 索引標籤中定義。連結以來自 **[!UICONTROL Load file]** 活動的轉變為基礎。它使用設定檔資源的「電子郵件」欄位和匯入檔案的「客戶」列作為調和標準。
+* [擴充](../../automating/using/enrichment.md)活動，在從檔案載入的交易資料與&#x200B;**[!UICONTROL Query]**&#x200B;中選取的設定檔之間建立連結。 該連結在活動的 **[!UICONTROL Advanced relations]** 索引標籤中定義。連結以來自 **[!UICONTROL Load file]** 活動的轉變為基礎。它使用設定檔資源的「電子郵件」欄位和匯入檔案的「客戶」列作為調和標準。
 
   ![](assets/enrichment_example_workflow2.png)
 
@@ -77,11 +77,11 @@ ht-degree: 72%
 
      ![](assets/enrichment_example_workflow9.png)
 
-* A [細分](../../automating/using/segmentation.md) 活動只有一個區段，可擷取至少已記錄兩個交易之初始目標的設定檔。 將排除僅包含一個交易的設定檔。要執行此操作，區段的查詢會在先前定義的彙總上進行。
+* 只有一個區段的[分段](../../automating/using/segmentation.md)活動，可擷取至少已記錄兩個交易之初始目標的設定檔。 將排除僅包含一個交易的設定檔。要執行此操作，區段的查詢會在先前定義的彙總上進行。
 
   ![](assets/enrichment_example_workflow5.png)
 
-* 一個 [電子郵件傳遞](../../automating/using/email-delivery.md) 使用中定義之其他資料的活動 **[!UICONTROL Enrichment]** 以動態擷取設定檔進行的最後兩次購買。 新增個人化欄位時，可在&#x200B;**其他資料　(TargetData)**　節點中找到其他資料。
+* [電子郵件傳遞](../../automating/using/email-delivery.md)活動，使用&#x200B;**[!UICONTROL Enrichment]**&#x200B;中定義的其他資料來動態擷取設定檔進行的最後兩次購買。 新增個人化欄位時，可在&#x200B;**其他資料　(TargetData)**　節點中找到其他資料。
 
   ![](assets/enrichment_example_workflow10.png)
 

@@ -19,15 +19,15 @@ ht-degree: 4%
 
 >[!CAUTION]
 >
->此 [隱私權核心服務](https://developer.adobe.com/experience-platform-apis/references/privacy-service) 整合是您應用於處理所有存取和刪除要求的方法。 <!--Starting 19.4, the use of the Campaign API and interface for access and delete requests is deprecated. For more on Campaign Standard deprecated and removed features, refer to [this page](../../rn/using/deprecated-features.md).-->
+>[隱私權核心服務](https://developer.adobe.com/experience-platform-apis/references/privacy-service)整合是您應用於所有存取和刪除要求的方法。<!--Starting 19.4, the use of the Campaign API and interface for access and delete requests is deprecated. For more on Campaign Standard deprecated and removed features, refer to [this page](../../rn/using/deprecated-features.md).-->
 
 若要擷取包含與調解值相關之所有資訊的檔案，請遵循以下三個步驟程式：
 
-1. 執行 **POST** 使用屬性建立新請求的要求 **type=&quot;access&quot;**，請參閱 [建立新的隱私權請求](../../api/using/creating-a-privacy-request.md).
+1. 執行&#x200B;**POST**&#x200B;要求，以建立具有屬性&#x200B;**type=&quot;access&quot;**&#x200B;的新要求，請參閱[建立新的隱私權要求](../../api/using/creating-a-privacy-request.md)。
 
-1. 執行 **GET** 請求以擷取有關請求的資訊。
+1. 執行&#x200B;**GET**&#x200B;要求以擷取有關要求的資訊。
 
-1. 執行擷取資料檔案 **POST** 對所傳回的進行要求 **privacyRequestData** URL，承載內有隱私權請求內部名稱。 例如： {&quot;name&quot;：&quot;PT17&quot;}。
+1. 對傳回的&#x200B;**privacyRequestData** URL執行&#x200B;**POST**&#x200B;要求，並在承載內使用隱私權要求內部名稱，以擷取資料檔案。 例如： {&quot;name&quot;：&quot;PT17&quot;}。
 
 <br/>
 

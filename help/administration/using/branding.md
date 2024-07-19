@@ -26,7 +26,7 @@ ht-degree: 73%
 
 設定與使用品牌的主要原則為：
 
-1. 建立及設定品牌 — 此操作需要特定許可權，並由Adobe Campaign技術管理員執行。 詳細說明在Campaign中取得新品牌的步驟 [在本節中](#creating-a-brand).
+1. 建立及設定品牌 — 此操作需要特定許可權，並由Adobe Campaign技術管理員執行。 在Campaign中取得新品牌的步驟已在本節](#creating-a-brand)中詳細說明[。
 1. 為此品牌建立一或多個傳遞與登錄頁面範本。請參閱[建立範本](../../start/using/marketing-activity-templates.md)區段。
 1. 根據此範本建立訊息與登錄頁面。請參閱[建立電子郵件](../../channels/using/creating-an-email.md)及[建立登錄頁面](../../channels/using/designing-a-landing-page.md)區段。
 
@@ -87,13 +87,13 @@ ht-degree: 73%
 
 您可以在Campaign中新增組織的實體，或建立必須在其他子網域下傳送的新電子郵件型別。 若要執行此作業，請依照下列步驟操作：
 
-1. **設定新的子網域**  — 對於Adobe要使用的任何新子網域，第一步是進行設定。 您可以透過以下方式執行此操作： [Campaign控制面板](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=zh-Hant) 或聯絡您的Adobe技術連絡人。 進一步瞭解子網域設定 [本文章](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup.html).
+1. **設定新的子網域** — 對於Adobe要使用的任何新子網域，第一步是進行設定。 您可以透過[Campaign控制面板](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=zh-Hant)執行此動作，或連絡您的Adobe技術連絡人。 在本文](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup.html)中進一步瞭解子網域設定[。
 
    >[!NOTE]
    >
    >所有管理員使用者都可存取控制面板。 授予使用者管理員存取權限的步驟已詳載於[本頁](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hant#discover-control-panel)中。
 
-1. **建立票證**  — 設定子網域後，Adobe會在您的生產環境中進行設定。 若要請求此項， [建立前往客戶服務的票證](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html) ，並提供下列資訊：
+1. **建立票證** — 設定子網域後，Adobe會在您的生產環境中進行設定。 若要要求此要求，[使用下列資訊建立給Client Care](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)的票證：
 
    * 主旨： ACS新品牌設定
 
@@ -103,9 +103,9 @@ ht-degree: 73%
 
    * 生產URL： XXX.campaign.adobe.com
 
-1. **建立傳遞範本**  — 新品牌推出後，最佳實務是建立至少一個參考此新品牌的新空白傳遞範本。 [了解更多](#linking-a-brand-to-a-template)。
+1. **建立傳遞範本** — 新品牌可用後，最佳實務是建立至少一個參考此新品牌的新空白傳遞範本。 [了解更多](#linking-a-brand-to-a-template)。
 
-1. **檢查傳遞能力准則**  — 開始使用新網域之前，應與Adobe傳遞團隊討論策略。 例如，若應建立新的相似性來分割IP至不同網域，和/或若應定義提升計畫，這些規則將有助於定義最佳實務。 進一步瞭解傳遞能力最佳實務 [在本節中](../../sending/using/about-deliverability.md).
+1. **檢查傳遞能力准則** — 開始使用新網域之前，應與Adobe傳遞團隊討論策略。 例如，若應建立新的相似性來分割IP至不同網域，和/或若應定義提升計畫，這些規則將有助於定義最佳實務。 在本節](../../sending/using/about-deliverability.md)中進一步瞭解傳遞能力最佳實務[。
 
 ## 為電子郵件指派品牌 {#assigning-a-brand-to-an-email}
 
@@ -149,7 +149,7 @@ ht-degree: 73%
 >
 >品牌設定僅由 Adobe 管理，因為需要特定的權限與技術設定。
 
-1. Adobe Campaign管理員會先從以下位置建立品牌： **[!UICONTROL Administration > Instance settings > Brand configuration]** 功能表，並新增 **熱帶假期** 元素，並設定 **[!UICONTROL ID]** 和 **[!UICONTROL Header parameters of sent emails]** 品牌的。
+1. Adobe Campaign管理員先從&#x200B;**[!UICONTROL Administration > Instance settings > Brand configuration]**&#x200B;功能表建立品牌，並新增Tropics **專案中的** Vacations，以及設定品牌的&#x200B;**[!UICONTROL ID]**&#x200B;和&#x200B;**[!UICONTROL Header parameters of sent emails]**。
 
    ![](assets/branding_07.png)
 

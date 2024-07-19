@@ -42,14 +42,14 @@ ht-degree: 79%
 
 在主區域中，清單中的每種活動類型都有一個圖示：
 
-* ![](assets/marketing_program_icon.png) 計畫
-* ![](assets/marketing_campaign_icon.png) Campaign
-* ![](assets/marketing_email_icon.png) 電子郵件
-* ![](assets/marketing_sms_icon.png) 簡訊
-* ![](assets/marketing_push_icon.png) 推播通知
-* ![](assets/marketing_lp_icon.png) 應用程式內訊息
-* ![](assets/marketing_lp_icon.png) 登陸頁面
-* ![](assets/marketing_workflow_icon.png) 工作流程
+* ![](assets/marketing_program_icon.png)計畫
+* ![](assets/marketing_campaign_icon.png)行銷活動
+* ![](assets/marketing_email_icon.png)電子郵件
+* ![](assets/marketing_sms_icon.png)個簡訊
+* ![](assets/marketing_push_icon.png)個推播通知
+* ![](assets/marketing_lp_icon.png)應用程式內訊息
+* ![](assets/marketing_lp_icon.png)登陸頁面
+* ![](assets/marketing_workflow_icon.png)工作流程
 
 根據其有效期和狀態，與此圖示關聯的顏色指示相應活動的執行狀態。
 
@@ -81,14 +81,14 @@ ht-degree: 79%
 
 根據情境，您可以：
 
-* 建立電子郵件 —  [瞭解更多](../../channels/using/creating-an-email.md)
-* 建立簡訊 —  [瞭解更多](../../channels/using/creating-an-sms-message.md)
-* 建立推播通知 —  [瞭解更多](../../channels/using/preparing-and-sending-a-push-notification.md)
-* 建立應用程式內訊息 —  [瞭解更多](../../channels/using/about-in-app-messaging.md)
-* 建立工作流程 —  [瞭解更多](../../automating/using/building-a-workflow.md#creating-a-workflow)
-* 建立登陸頁面 —  [瞭解更多](../../channels/using/getting-started-with-landing-pages.md)
-* 建立行銷活動 —  [瞭解更多](../../start/using/programs-and-campaigns.md#creating-a-campaign)
-* 建立方案 —  [瞭解更多](../../start/using/programs-and-campaigns.md#creating-a-program)
+* 建立電子郵件 — [深入瞭解](../../channels/using/creating-an-email.md)
+* 建立簡訊 — [深入瞭解](../../channels/using/creating-an-sms-message.md)
+* 建立推播通知 — [深入瞭解](../../channels/using/preparing-and-sending-a-push-notification.md)
+* 建立應用程式內訊息 — [深入瞭解](../../channels/using/about-in-app-messaging.md)
+* 建立工作流程 — [深入瞭解](../../automating/using/building-a-workflow.md#creating-a-workflow)
+* 建立登入頁面 — [深入瞭解](../../channels/using/getting-started-with-landing-pages.md)
+* 建立行銷活動 — [深入瞭解](../../start/using/programs-and-campaigns.md#creating-a-campaign)
+* 建立程式 — [深入瞭解](../../start/using/programs-and-campaigns.md#creating-a-program)
 
 >[!NOTE]
 >

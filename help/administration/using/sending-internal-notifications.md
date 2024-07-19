@@ -20,10 +20,10 @@ Adobe Campaign可讓您直接在應用程式中接收有關重要系統活動的
 
 您可以為下列物件設定通知：
 
-* **[!UICONTROL A/B Test emails]**：電子郵件建立者和修改者會收到通知，告知已選擇變體（自動模式）或需要選擇變體（手動模式）。 按一下通知會顯示對應的電子郵件。 在現成可用的A/B測試範本中，預設會啟用通知。 如果您要停用它們，請編輯電子郵件或電子郵件範本的屬性，並取消勾選下的方塊 **一般>通知**. 如需A/B測試電子郵件的詳細資訊，請參閱 [建立AB測試](../../channels/using/designing-an-a-b-test-email.md). 有關電子郵件屬性的詳細資訊，請參閱 [電子郵件屬性清單](../../administration/using/configuring-email-channel.md#list-of-email-properties).
+* **[!UICONTROL A/B Test emails]**：通知電子郵件建立者和修改者，已選擇變體（自動模式）或需要選擇變體（手動模式）。 按一下通知會顯示對應的電子郵件。 在現成可用的A/B測試範本中，預設會啟用通知。 如果您想要停用它們，請編輯電子郵件或電子郵件範本的屬性，並取消勾選位於&#x200B;**一般>通知**&#x200B;下的方塊。 如需A/B測試電子郵件的詳細資訊，請參閱[建立AB測試](../../channels/using/designing-an-a-b-test-email.md)。 如需電子郵件屬性的詳細資訊，請參閱[電子郵件屬性清單](../../administration/using/configuring-email-channel.md#list-of-email-properties)。
 
   ![](assets/pulse_2.png)
 
-* **[!UICONTROL Workflows]**：工作流程發生錯誤時，所選安全性群組的每位成員都會收到通知（電子郵件和應用程式內通知）。 按一下通知或電子郵件連結會顯示對應的工作流程。 現成可用的工作流程範本中，預設會停用通知。 如果您要啟動它們，請編輯工作流程或工作流程範本的屬性，並在下新增安全性群組 **一般>執行>錯誤管理>主管**. 如需安全性群組的詳細資訊，請參閱 [管理群組和使用者](../../administration/using/managing-groups-and-users.md). 有關工作流程屬性的詳細資訊，請參閱 [工作流程屬性](../../automating/using/managing-execution-options.md).
+* **[!UICONTROL Workflows]**：每當工作流程發生錯誤時，就會通知所選安全性群組的每個成員（電子郵件和應用程式內通知）。 按一下通知或電子郵件連結會顯示對應的工作流程。 現成可用的工作流程範本中，預設會停用通知。 若要啟動它們，請編輯工作流程或工作流程範本的內容，並在&#x200B;**一般>執行>錯誤管理>主管**&#x200B;下新增安全性群組。 如需安全性群組的詳細資訊，請參閱[管理群組和使用者](../../administration/using/managing-groups-and-users.md)。 如需工作流程屬性的詳細資訊，請參閱[工作流程屬性](../../automating/using/managing-execution-options.md)。
 
   ![](assets/pulse_1.png)

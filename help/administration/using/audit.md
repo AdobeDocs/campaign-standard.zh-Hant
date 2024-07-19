@@ -15,22 +15,22 @@ ht-degree: 3%
 
 # 稽核軌跡 {#audit}
 
-此 **[!UICONTROL Audit trail]** 可讓您存取執行個體中所做變更的完整歷史記錄。
+**[!UICONTROL Audit trail]**&#x200B;可讓您存取執行個體中所做變更的完整歷史記錄。
 
-**[!UICONTROL Audit trail]** 即時擷取在Adobe Campaign Standard例項中發生之動作和事件的完整清單。 功能包括自助式存取歷史資料記錄，以協助回答下列問題：工作流程狀況、自訂資源與選項、上次更新者或使用者在執行個體中的行為。
+**[!UICONTROL Audit trail]**&#x200B;可以即時擷取Adobe Campaign Standard執行個體中發生之動作和事件的完整清單。 功能包括自助式存取歷史資料記錄，以協助回答下列問題：工作流程狀況、自訂資源與選項、上次更新者或使用者在執行個體中的行為。
 
 ![](assets/audit-trail.png)
 
-**[!UICONTROL Audit trail]** 包含三個元件：
+**[!UICONTROL Audit trail]**&#x200B;包含三個元件：
 
-* **自訂資源稽核軌跡**：檢查活動和上次對自訂資源進行的修改。
+* **自訂資源稽核軌跡**：檢查自訂資源的活動和上次修改。
 
-  如需詳細資訊，請參閱 **[!UICONTROL Custom resources]**，請參閱此 [頁面](../../developing/using/key-steps-to-add-a-resource.md).
+  如需&#x200B;**[!UICONTROL Custom resources]**&#x200B;的詳細資訊，請參閱此[頁面](../../developing/using/key-steps-to-add-a-resource.md)。
 
-* **工作流程稽核軌跡**：檢查活動和上次對工作流程進行的修改，以及工作流程的狀態，例如：
+* **工作流程稽核軌跡**：檢查活動和上次對工作流程完成的修改，以及工作流程的狀態，例如：
 
-   * 建立時間
-   * 已修改
+   * 已建立
+   * 修改時間
    * 已刪除
    * 工作流程開始
    * 工作流程暫停
@@ -43,11 +43,11 @@ ht-degree: 3%
    * 相同使用者重新啟動工作流程
    * 工作流程重新啟動不明的命令
 
-  如需詳細資訊，請參閱 **[!UICONTROL Workflows]**，請參閱此 [頁面](../../automating/using/get-started-workflows.md).
+  如需&#x200B;**[!UICONTROL Workflows]**&#x200B;的詳細資訊，請參閱此[頁面](../../automating/using/get-started-workflows.md)。
 
 * **選項稽核軌跡**：檢查活動和上次修改選項。
 
-  如需詳細資訊，請參閱 **[!UICONTROL Options]**，請參閱此 [頁面](../../administration/using/about-campaign-standard-settings.md).
+  如需&#x200B;**[!UICONTROL Options]**&#x200B;的詳細資訊，請參閱此[頁面](../../administration/using/about-campaign-standard-settings.md)。
 
 請注意，保留期間預設為30天。
 
@@ -55,17 +55,17 @@ ht-degree: 3%
 
 若要存取執行個體的稽核軌跡：
 
-1. 在Adobe Campaign Standard中，從進階功能表選取 **[!UICONTROL Administration]** > **[!UICONTROL Audit trail]**.
+1. 在Adobe Campaign Standard中，從進階功能表選取&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Audit trail]**。
 
    ![](assets/audit-trail.png)
 
-1. 此 **[!UICONTROL Audit trail]** 視窗會開啟，其中含有您的實體清單。 Adobe Campaign Standard將稽核工作流程、選項和自訂資源的建立、編輯和刪除動作。
+1. **[!UICONTROL Audit trail]**&#x200B;視窗會開啟，其中包含您的實體清單。 Adobe Campaign Standard將稽核工作流程、選項和自訂資源的建立、編輯和刪除動作。
 
-   從 **[!UICONTROL Search]** 選單中，您可以依據以下條件篩選實體：
+   從&#x200B;**[!UICONTROL Search]**&#x200B;功能表，您可在下列位置篩選實體：
 
    * **[!UICONTROL Start date]**
    * **[!UICONTROL End date]**
-   * **[!UICONTROL Type]**：介於全部、工作流程、自訂資源和選項之間的實體型別。
+   * **[!UICONTROL Type]**：實體型別介於全部、工作流程、自訂資源與選項之間。
    * **[!UICONTROL Entity name]**：工作流程、選項或自訂資源的ID
 
    ![](assets/audit-trail_2.png)
@@ -77,7 +77,7 @@ ht-degree: 3%
    * **[!UICONTROL Entity]**：工作流程、選項或自訂資源的ID。
    * **[!UICONTROL Action]**：此實體上執行的最後一個動作。
    * **[!UICONTROL Changed by]**：上次修改此實體之人員的使用者名稱。
-   * **[!UICONTROL Changed date]**：此實體上個動作執行的日期。
+   * **[!UICONTROL Changed date]**：在此實體上執行上一個動作的日期。
    * **[!UICONTROL Content]**：程式碼區塊，可提供實體中確切變更專案的詳細資訊。
 
    在此範例中，我們可以看到工作流程WKF110已由此執行個體的企業管理員於8月26日啟動。
@@ -94,24 +94,24 @@ ht-degree: 3%
 
 若要這麼做：
 
-1. 在Adobe Campaign Standard中，從進階功能表選取 **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**.
+1. 在Adobe Campaign Standard中，從進階功能表選取&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**。
 
    ![](assets/audit-trail_4.png)
 
 1. 根據要停用的實體，選取下列選項之一：
 
-   * **[!UICONTROL XtkAudit_Workflows]** 管理工作流程的稽核軌跡選項。
-   * **[!UICONTROL XtkAudit_Option]** 用於管理「選項」之「稽核軌跡」的選項。
-   * **[!UICONTROL XtkAudit_CusResource]** 用於管理自訂資源之稽核軌跡的選項。
-   * **[!UICONTROL XtkAudit_Enable_All]** 用於管理每個實體的稽核軌跡的選項。
+   * 用於管理工作流程稽核軌跡的&#x200B;**[!UICONTROL XtkAudit_Workflows]**&#x200B;選項。
+   * 用於管理選項稽核軌跡的&#x200B;**[!UICONTROL XtkAudit_Option]**&#x200B;選項。
+   * 用於管理自訂資源之稽核軌跡的&#x200B;**[!UICONTROL XtkAudit_CusResource]**&#x200B;選項。
+   * 用於管理每個實體的稽核軌跡的&#x200B;**[!UICONTROL XtkAudit_Enable_All]**&#x200B;選項。
 
      >[!NOTE]
      >
-     >如果 **[!UICONTROL XtkAudit_Enable_All]** 選項設為0，則 **[!UICONTROL Audit trail]** 功能將完全停用，無論其他個別選項值為何。
+     >如果&#x200B;**[!UICONTROL XtkAudit_Enable_All]**&#x200B;選項設為0，則不論其他個別選項值為何，**[!UICONTROL Audit trail]**&#x200B;功能都會完全停用。
 
    ![](assets/audit-trail_5.png)
 
-1. 從您的 **[!UICONTROL Options]** 頁面，設定 **[!UICONTROL Value (integer)]** 設為0 (如果您要停用 **[!UICONTROL Audit trail]** 或變成1以啟用它。
+1. 如果要停用&#x200B;**[!UICONTROL Audit trail]**，請從您的&#x200B;**[!UICONTROL Options]**&#x200B;頁面將&#x200B;**[!UICONTROL Value (integer)]**&#x200B;設為0，或設為1以啟用它。
 
    ![](assets/audit-trail_6.png)
 

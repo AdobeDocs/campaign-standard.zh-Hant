@@ -23,7 +23,7 @@ ht-degree: 93%
 
 在本頁面中，您將會找到這些步驟的相關資訊及專用檔案的參考，以取得更多詳細資訊。
 
-![](assets/do-not-localize/how-to-video.png) [在影片中探索如何建立登陸頁面](#video)
+![](assets/do-not-localize/how-to-video.png) [探索如何在影片中建立登陸頁面](#video)
 
 **相關主題：**
 
@@ -120,7 +120,7 @@ ht-degree: 93%
 
 如需如何測試登錄頁面的詳細資訊，請參閱[本區段](../../channels/using/testing-publishing-landing-page.md#testing-the-landing-page-)。
 
-## 步驟5 — 發佈登入頁面 {#publish-the-landing-page}
+## 步驟5 — 登入頁面Publish {#publish-the-landing-page}
 
 測試成功後，您就可以使用控制面板中動作列的 **[!UICONTROL Publish]** 按鈕以發佈登錄頁面。監控區塊會顯示發佈的進展和狀態。
 
@@ -138,4 +138,4 @@ ht-degree: 93%
 
 >[!VIDEO](https://video.tv.adobe.com/v/24093?quality=12)
 
-提供其他Campaign Standard操作影片 [此處](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant).
+[此處](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant)提供其他Campaign Standard操作說明影片。

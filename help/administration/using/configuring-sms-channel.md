@@ -23,7 +23,7 @@ ht-degree: 88%
 
 >[!IMPORTANT]
 >
->對多個外部SMS帳戶使用相同的帳戶和密碼可能會導致帳戶之間的衝突和重疊。 請參閱 [簡訊疑難排解頁面](troubleshooting-sms.md#external-account-conflict).
+>對多個外部SMS帳戶使用相同的帳戶和密碼可能會導致帳戶之間的衝突和重疊。 請參閱[簡訊疑難排解頁面](troubleshooting-sms.md#external-account-conflict)。
 
 預設會提供外部帳戶 **[!UICONTROL SMS routing via SMPP]**，但可用於新增其他帳戶。
 
@@ -329,15 +329,15 @@ CR：歸位
 
 ![](assets/sms_options.png)
 
-從 **[!UICONTROL Advanced parameters]** 區段：
+從&#x200B;**[!UICONTROL Advanced parameters]**&#x200B;區段：
 
-* 此 **[!UICONTROL Short code]** 可讓您將特定的短程式碼新增至傳遞。 選擇退出此特定短程式碼的收件者，將在郵件準備期間自動排除。 如需如何設定短程式碼的詳細資訊，請參閱 [本節](../../channels/using/managing-incoming-sms.md).
+* **[!UICONTROL Short code]**&#x200B;可讓您新增特定短程式碼至您的傳遞。 選擇退出此特定短程式碼的收件者，將在郵件準備期間自動排除。 如需如何設定短程式碼的詳細資訊，請參閱[本節](../../channels/using/managing-incoming-sms.md)。
 
   >[!NOTE]
   >
-  >如果 **[!UICONTROL Short code]** 欄位留空，其值 **[!UICONTROL Short code]** 將使用在外部帳戶中設定的欄位。
+  >如果&#x200B;**[!UICONTROL Short code]**&#x200B;欄位留空，將使用在外部帳戶中設定的&#x200B;**[!UICONTROL Short code]**&#x200B;欄位值。
 
-從 **[!UICONTROL Send]** SMS範本的區段：
+從SMS範本的&#x200B;**[!UICONTROL Send]**&#x200B;區段：
 
 * **[!UICONTROL Maximum number of SMS per message]** 選項可讓您定義用於傳送訊息的簡訊訊息數目。如果超過此數目，則不會傳送訊息。
 

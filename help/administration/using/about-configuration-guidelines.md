@@ -41,7 +41,7 @@ Adobe Campaign Standard僅支援橫向作為平板電腦上的顯示模式。
 
 | 內容 | URL |
 |--- |--- |
-| 行銷活動執行個體 | `https://*.experiencecloud.adobe.com` （租使用者ID * +使用者端網域）<br>`https://*.campaign.adobe.com` （Campaign執行個體租使用者） |
+| 行銷活動執行個體 | `https://*.experiencecloud.adobe.com` （租使用者識別碼* +使用者端網域）<br>`https://*.campaign.adobe.com` （Campaign執行個體租使用者） |
 | IMS | `https://adobeid-na1.services.adobe.com`<br>`https://*.adobelogin.com` |
 | Experience Cloud | `https://experiencecloud.adobe.com` |
 | 追蹤 | `https://*.adobedtm.com`<br>`https://*.demdex.net`<br>`https://*.omtrdc.net` |

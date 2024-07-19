@@ -155,7 +155,7 @@ ht-degree: 95%
 
 >[!IMPORTANT]
 >
->若要存取傳送記錄檔，您必須擁有 [管理員角色](../../administration/using/users-management.md#functional-administrators) 並成為 **[!UICONTROL All]** [組織單位](../../administration/using/organizational-units.md). <!--If you would like to restrict access for a particular user or group of users, do not link it to **[!UICONTROL All]** units.-->
+>若要存取傳遞記錄，您必須擁有[系統管理員角色](../../administration/using/users-management.md#functional-administrators)，並且是&#x200B;**[!UICONTROL All]** [組織單位](../../administration/using/organizational-units.md)的一部分。<!--If you would like to restrict access for a particular user or group of users, do not link it to **[!UICONTROL All]** units.-->
 
 ### 檢查傳送記錄 {#checking-logs}
 

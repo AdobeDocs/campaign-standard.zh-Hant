@@ -27,7 +27,7 @@ ht-degree: 77%
 * Adobe Analytics。如需詳細資訊，請參閱[本區段](../../integrating/using/configure-campaign-analytics-integration.md)。
 * Google reCAPTCHA。如需詳細資訊，請參閱[本區段](#google-recaptcha-external-account)。
 * Microsoft Azure Blob 儲存。如需詳細資訊，請參閱[本區段](#microsoft-azure-external-account)。
-* OAuth 2.0。有關詳細資訊，請參閱 [本節](#oauth-account).
+* OAuth 2.0。如需詳細資訊，請參閱[本節](#oauth-account)。
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ Adobe Campaign 隨附一組預先定義的外部帳戶。若要設定與外部�
 1. 按一下 **[!UICONTROL Create]** 按鈕。
 1. 輸入標籤。在工作流程中選取外部帳戶時，將會使用標籤和 ID。
 1. 選取要建立的帳戶類型。
-1. 在相關時指定憑證、伺服器位址、連接埠號碼或金鑰，以設定帳戶的存取權。
+1. 在相關時指定認證、伺服器位址、連接埠號碼或金鑰，以設定帳戶的存取權。
 
    所需資訊通常由您所連接的伺服器提供者提供。
 
@@ -60,7 +60,7 @@ Adobe Campaign 隨附一組預先定義的外部帳戶。若要設定與外部�
 
 * 伺服器位址。例如，**ftp.domain.com**。
 * 埠號。例如，**22**。
-* SFTP伺服器憑證：用來連接至伺服器的帳戶名稱和密碼。
+* SFTP伺服器認證：用來連接至伺服器的帳戶名稱和密碼。
 
 ### Adobe託管的SFTP伺服器建議 {#adobe-hosted-sftp-server-recommendations}
 
@@ -79,7 +79,7 @@ Adobe Campaign 隨附一組預先定義的外部帳戶。若要設定與外部�
 * 時常登入 SFTP 以直接檢查其內容。
 * 請記住，SFTP 硬碟的管理主要是您的責任。
 
-另請注意，您嘗試啟動SFTP連線的公用IP必須新增至Campaign執行個體上的允許清單。 可透過以下方式請求將IP位址新增到允許清單： [支援票證](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)，並提供用於驗證的公開金鑰。
+另請注意，您嘗試啟動SFTP連線的公用IP必須新增至Campaign執行個體上的允許清單。 可透過[支援票證](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)要求將IP位址新增至允許清單，並提供用於驗證的公開金鑰。
 
 SFTP 伺服器可從「控制面板」進行管理。如需詳細資訊，請參閱[控制面板文件](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html)。
 
@@ -91,12 +91,12 @@ SFTP 伺服器可從「控制面板」進行管理。如需詳細資訊，請參
 
 對於OAuth 2.0外部帳戶，請提供下列詳細資訊：
 
-* A **授權型別**：僅限 **使用者端認證** 支援。
-* A **安全API URL**：輸入授權端點。
+* **授權型別**：只支援&#x200B;**使用者端認證**。
+* **安全API URL**：輸入授權端點。
 * **OAuth 2.0敏感認證**：本節適用於本質上敏感的認證。 新增認證值後，這些值會在畫面上遭到遮罩；屆時將無法讀取或編輯它們。 如果授權端點要求在HTTP授權標頭中插入特定認證，而不是POST主體引數，您可以為該認證選擇在標頭中納入選項。
 * **OAuth 2.0不敏感認證**：本節適用於本質上不敏感的認證。 新增認證值後，它們將顯示在熒幕上；也可以編輯。  如果授權端點要求在HTTP授權標頭中插入特定認證，而不是POST主體引數，您可以為該認證選擇在標頭中納入選項。
 
-輸入帳戶資訊後，按一下 **測試連線** 驗證外部帳戶是否已正確設定。
+輸入帳戶資訊後，按一下&#x200B;**測試連線**&#x200B;以驗證外部帳戶是否已正確設定。
 
 ![](assets/external_accounts_OAuth.png)
 

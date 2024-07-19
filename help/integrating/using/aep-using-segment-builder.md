@@ -24,9 +24,9 @@ ht-degree: 3%
 >
 >Audience Destinations服務目前為測試版，可能會經常更新，恕不另行通知。 客戶需在Azure上代管（目前僅限北美地區使用Beta版）才能存取這些功能。 如果您想要存取許可權，請聯絡Adobe客戶服務。
 
-區段產生器可讓您根據以下來源資料定義規則，以建立對象： [即時客戶個人檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
+區段產生器可讓您根據來自[即時客戶個人檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)的資料定義規則，藉此建立對象。
 
-本節介紹建立區段時的全域概念。 如需區段產生器本身的詳細資訊，請參閱 [區段產生器使用手冊](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+本節介紹建立區段時的全域概念。 如需區段產生器本身的詳細資訊，請參閱[區段產生器使用手冊](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html)。
 
 「區段產生器」介面的組成如下：
 
@@ -48,7 +48,7 @@ ht-degree: 3%
 
 1. 確保在設定窗格中選取所需的合併原則。
 
-   如需合併原則的詳細資訊，請參閱 [區段產生器使用手冊](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+   如需合併原則的詳細資訊，請參閱[區段產生器使用手冊](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html)中的專屬章節。
 
    ![](assets/aep_audiences_mergepolicy.png)
 
@@ -66,25 +66,25 @@ ht-degree: 3%
 
 左窗格會列出可用來建構規則的所有屬性、事件和對象。
 
-列出的欄位是貴公司擷取的屬性，並已透過 [Experience Data Model (XDM)系統](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html).
+列出的欄位是貴公司擷取的屬性，並已透過[體驗資料模型(XDM)系統](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)提供。
 
 欄位會整理為索引標籤：
 
-* **[!UICONTROL Attributes]**：可源自於Adobe Campaign資料庫和/或Adobe Experience Platform的現有設定檔屬性。 他們是指附加至設定檔的靜態資訊（例如電子郵件地址、居住國家/地區、忠誠計畫狀態等）。
+* **[!UICONTROL Attributes]**：現有的設定檔屬性，可以源自您的Adobe Campaign資料庫和/或Adobe Experience Platform。 他們是指附加至設定檔的靜態資訊（例如電子郵件地址、居住國家/地區、忠誠計畫狀態等）。
 
   ![](assets/aep_audiences_attributestab.png)
 
-* **[!UICONTROL Events]**：可識別曾與您公司的客戶接觸點互動的消費者的活動，例如「兩週內訂購兩次的任何人」。 您可以從Adobe Analytics串流處理或使用協力廠商ETL工具直接擷取至Adobe Experience Platform。
+* **[!UICONTROL Events]**：識別與您公司的客戶接觸點有所互動的消費者的活動，例如「兩週內訂購兩次的任何人」。 您可以從Adobe Analytics串流處理或使用協力廠商ETL工具直接擷取至Adobe Experience Platform。
 
   ![](assets/aep_audiences_eventstab.png)
 
 >[!NOTE]
 >
->**多實體分段** 可讓您根據產品、商店或其他非設定檔類別，以其他資料擴充設定檔資料。 連線後，其他類別的資料將變得可用，就好像它們是設定檔結構描述的原生資料。
+>**多實體分段**&#x200B;可讓您根據產品、商店或其他非設定檔類別，以其他資料擴充設定檔資料。 連線後，其他類別的資料將變得可用，就好像它們是設定檔結構描述的原生資料。
 >
 >如需詳細資訊，請參閱[專屬文件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/multi-entity-segmentation.html)。
 
-依預設，區段產生器會顯示已有資料存在的欄位。 若要顯示完整結構描述，包括資料不存在的欄位，請啟用 **[!UICONTROL Show full XDM schema]** 選項。
+依預設，區段產生器會顯示已有資料存在的欄位。 若要顯示完整結構描述，包括資料不存在的欄位，請從設定中啟用&#x200B;**[!UICONTROL Show full XDM schema]**&#x200B;選項。
 
 ![](assets/aep_audiences_populatedfields.png)
 
@@ -96,7 +96,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->下節提供有關規則定義的全域資訊。 有關詳細資訊，請參閱 [區段產生器使用手冊](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+>下節提供有關規則定義的全域資訊。 如需詳細資訊，請參閱[區段產生器使用手冊](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html)。
 
 若要建立規則，請依照下列步驟進行：
 
@@ -108,9 +108,9 @@ ht-degree: 3%
 
    ![](assets/aep_audiences_malegender.png)
 
-   與區段對應的預估母體會在中自動重新計算 **[!UICONTROL Segment Properties]** 區段。
+   對應至區段的預估母體會在&#x200B;**[!UICONTROL Segment Properties]**&#x200B;區段中自動重新計算。
 
-1. 此 **[!UICONTROL View Profiles]** 按鈕會提供規則對應的前20筆記錄預覽，讓您快速驗證區段。
+1. **[!UICONTROL View Profiles]**&#x200B;按鈕會提供規則對應的前20筆記錄預覽，讓您快速驗證區段。
 
    ![](assets/aep_audiences_samplepreview.png)
 
@@ -134,7 +134,7 @@ ht-degree: 3%
 
 1. 選取第二個欄位（例如工作地址郵遞區號），與第一個欄位進行比較。
 
-   將其拖曳至中心工作區，在第一個欄位所在的容器中，於 **[!UICONTROL Drop here to compare operands]** 方塊。
+   將其拖曳至中心工作區，該工作區與&#x200B;**[!UICONTROL Drop here to compare operands]**&#x200B;方塊中的第一個欄位位於相同的容器中。
 
    ![](assets/aep_audiences_comparing_2.png)
 

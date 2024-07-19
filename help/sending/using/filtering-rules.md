@@ -27,7 +27,7 @@ ht-degree: 3%
 | ---------|----------|---------|
 | **[!UICONTROL Address not specified]** | 全部 | 排除未指定地址（電子郵件、郵寄地址等）的目標母體。 （根據選取的管道）。 |
 | **[!UICONTROL Address on denylist]** | 全部 | 排除封鎖清單上的地址。 |
-| **[!UICONTROL Duplicate]** | 全部 | 根據目標母體排除重複專案 **[!UICONTROL Address]** 欄位。 |
+| **[!UICONTROL Duplicate]** | 全部 | 根據目標母體&#x200B;**[!UICONTROL Address]**&#x200B;欄位排除重複專案。 |
 | **[!UICONTROL Exclude mobile applications]** | 行動應用程式 | 排除與訊息中定義的行動應用程式不符的應用程式訂閱。 |
 | **[!UICONTROL Exclude mobile applications for In-App]** | 應用程式內 | 排除與訊息（應用程式內範本）中定義的行動應用程式不符的應用程式訂閱。 |
 | **[!UICONTROL Exclude mobile applications for In-App broadcast]** | 應用程式內 | 排除與訊息中定義的行動應用程式不符的應用程式訂閱（應用程式內廣播範本） |
@@ -54,23 +54,23 @@ ht-degree: 3%
 
 若要建立篩選型別規則，請遵循下列步驟：
 
-1. 建立新的型別規則。 建立型別規則的主要步驟詳見 [本節](../../sending/using/managing-typology-rules.md).
+1. 建立新的型別規則。 建立型別規則的主要步驟在[本節](../../sending/using/managing-typology-rules.md)中有詳細說明。
 
-1. 選取 **[!UICONTROL Filtering]** 規則型別，然後指定所需的管道。
+1. 選取&#x200B;**[!UICONTROL Filtering]**&#x200B;規則型別，然後指定所要的管道。
 
-1. 在 **[!UICONTROL Filtering criteria]** 索引標籤中，選取 **[!UICONTROL Subscription]** 類別。
+1. 在&#x200B;**[!UICONTROL Filtering criteria]**&#x200B;索引標籤中，選取&#x200B;**[!UICONTROL Subscription]**&#x200B;類別中的訂閱。
 
    ![](assets/typology_create-rule-subscription.png)
 
-1. 在 **[!UICONTROL Explorer]** 索引標籤中，拖放 **[!UICONTROL Subscriber]** 節點進入畫面的主要部分。
+1. 在查詢編輯器的&#x200B;**[!UICONTROL Explorer]**&#x200B;索引標籤中，將&#x200B;**[!UICONTROL Subscriber]**&#x200B;節點拖放到畫面的主要部分。
 
    ![](assets/typology_create-rule-subscriber.png)
 
-1. 選取 **[!UICONTROL Age]** 欄位並定義篩選條件，讓訂閱者的年齡少於18歲。
+1. 選取&#x200B;**[!UICONTROL Age]**&#x200B;欄位並定義篩選條件，讓訂閱者的年齡少於18歲。
 
    ![](assets/typology_create-rule-age.png)
 
-1. 在 **[!UICONTROL Typologies]** 標籤，將此規則連結至型別。
+1. 在&#x200B;**[!UICONTROL Typologies]**&#x200B;標籤中，將此規則連結至型別。
 
    ![](assets/typology_create-rule-typology.png)
 
@@ -82,11 +82,11 @@ ht-degree: 3%
 
 ## 設定篩選規則的目標內容 {#configuring-filtering-rules-targeting-context}
 
-Campaign Standard可讓您設定  **目標定位** 和 **篩選** 根據您要鎖定的資料使用的維度。
+Campaign Standard可讓您設定&#x200B;**目標定位**&#x200B;和&#x200B;**篩選**&#x200B;維度，以根據您要鎖定的資料使用。
 
-若要這麼做，請開啟型別規則的屬性，然後存取 **[!UICONTROL Advanced information]** 區段。
+若要這麼做，請開啟型別規則的屬性，然後存取&#x200B;**[!UICONTROL Advanced information]**&#x200B;區段。
 
-依預設，會對 **[!UICONTROL Profiles]**. 例如，如果規則以行動應用程式為目標，則 **[!UICONTROL Filtering dimension]** 可變更為 **[!UICONTROL Subscriptions to an application]**.
+依預設，會對&#x200B;**[!UICONTROL Profiles]**&#x200B;執行篩選。 例如，如果規則是針對行動應用程式，則&#x200B;**[!UICONTROL Filtering dimension]**&#x200B;可以變更為&#x200B;**[!UICONTROL Subscriptions to an application]**。
 
 ![](assets/typology_rule-order_2.png)
 
@@ -94,7 +94,7 @@ Campaign Standard可讓您設定  **目標定位** 和 **篩選** 根據您要�
 
 您可以根據要傳送的消息限制篩選規則的適用性。
 
-1. 在型別規則的 **[!UICONTROL Application criteria]** 標籤，取消核取 **[!UICONTROL Apply the rule on all deliveries]** 選項，預設為啟用。
+1. 在型別規則的&#x200B;**[!UICONTROL Application criteria]**&#x200B;標籤中，取消勾選&#x200B;**[!UICONTROL Apply the rule on all deliveries]**&#x200B;選項，該選項預設為啟用。
 
    ![](assets/typology_limit.png)
 

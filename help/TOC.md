@@ -5,7 +5,7 @@ user-guide-description: Adobe Campaign Standard 產品文件。
 title: Campaign Standard 指南
 breadcrumb-title: Campaign Standard 文件
 source-git-commit: e8cf96da88f68680be1ff5f770036b012654b160
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1752'
 ht-degree: 100%
 
@@ -269,7 +269,7 @@ ht-degree: 100%
          + [連結系統與整合應用程式](integrating/using/d365-acs-self-service-app-settings.md)
          + [管理同步工作流程](integrating/using/d365-acs-self-service-app-workflows.md)
          + [在 Microsoft Dynamics 365 和 Campaign 之間對應資料](integrating/using/d365-acs-self-service-app-data-sync.md)
-         + [將憑證從 JWT 移轉至 OAuth 伺服器對伺服器](integrating/using/d365-acs-self-service-app-migrate-credentials.md)
+         + [將認證從 JWT 移轉至 OAuth 伺服器對伺服器](integrating/using/d365-acs-self-service-app-migrate-credentials.md)
       + [使用 Microsoft Dynamics 365 整合](integrating/using/d365-acs-using-the-integration.md)
    + Campaign 與 Adobe Experience Platform {#adobe-experience-platform}
       + [開始使用來源和目標](integrating/using/get-started-sources-destinations.md)

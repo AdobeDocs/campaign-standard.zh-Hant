@@ -45,13 +45,13 @@ ht-degree: 32%
                </tr>
                <tr>
                   <td>已建立</td>
-                  <td>建立時間</td>
+                  <td>已建立</td>
                   <td>日期 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>createdBy (userBase)</td>
-                  <td>建立者</td>
+                  <td>建立者：</td>
                   <td>連結 </td>
                   <td> </td>
                </tr>

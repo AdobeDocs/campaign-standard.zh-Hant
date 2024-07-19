@@ -14,13 +14,13 @@ ht-degree: 6%
 
 # 使用中的設定檔案{#active-profiles}
 
-您可以從以下位置存取作用中設定檔詳細資訊： **[!UICONTROL Customer metrics]** 報告。 此報表僅限Campaign功能管理員使用。 若要存取此報表，請按一下左側的Adobe Campaign圖示， [使用者介面](../../start/using/interface-description.md#advanced-menu)，並瀏覽至 **[!UICONTROL Administration > Customer metrics]**.
+您可以從&#x200B;**[!UICONTROL Customer metrics]**&#x200B;報告存取作用中設定檔詳細資料。 此報表僅限Campaign功能管理員使用。 若要存取此報告，請按一下[使用者介面](../../start/using/interface-description.md#advanced-menu)左上角的Adobe Campaign圖示，並瀏覽至&#x200B;**[!UICONTROL Administration > Customer metrics]**。
 
 ![](assets/audience_customer_metrics.png)
 
-此報告由每月產生 **[!UICONTROL Billing]** 技術工作流程，並顯示 **作用中設定檔**. 進一步瞭解中的技術工作流程 [此頁面](../../administration/using/technical-workflows.md).
+此報告每月由&#x200B;**[!UICONTROL Billing]**&#x200B;技術工作流程產生，並顯示&#x200B;**作用中設定檔**&#x200B;的數量。 在[此頁面](../../administration/using/technical-workflows.md)中進一步瞭解技術工作流程。
 
-「設定檔」是代表最終客戶、潛在客戶或潛在客戶的資訊記錄。 會考量設定檔 **主要** 如果他們在過去12個月內透過任何管道成為Campaign傳送的目標。
+「設定檔」是代表最終客戶、潛在客戶或潛在客戶的資訊記錄。 如果設定檔在過去12個月內透過任何通道被Campaign傳遞設為目標，則會視為&#x200B;**作用中**。
 
 根據您的合約，您的每個Campaign執行個體都已布建特定數量的作用中設定檔。 請參閱您的授權合約，以參考已購買作用中設定檔數目。
 
@@ -36,9 +36,9 @@ ht-degree: 6%
 
 * 此報告僅提供資訊，對帳單沒有直接影響。
 
-在頁面底部，目標維度會與每個維度的設定檔數量一起列出。 異動訊息的收件者會與 **匿名** 維度。
+在頁面底部，目標維度會與每個維度的設定檔數量一起列出。 交易式訊息的收件者與&#x200B;**匿名**&#x200B;維度相關聯。
 
 >[!NOTE]
 >
->身為管理員使用者，您也可以直接從「控制面板」監視執行個體上使用的作用中設定檔數目。 有關詳細資訊，請參閱 [控制面板檔案](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
+>身為管理員使用者，您也可以直接從「控制面板」監視執行個體上使用的作用中設定檔數目。 如需詳細資訊，請參閱[控制面板檔案](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html)。
 >

@@ -26,15 +26,15 @@ ht-degree: 14%
 
 動態報告提供完全可自訂的即時報告，以評估行銷活動的影響。 它新增對設定檔資料的存取權，除了功能性電子郵件促銷活動資料（如開啟和點按）外，還支援依設定檔維度（如性別、城市和年齡）進行人口統計分析。
 
-![](assets/do-not-localize/how-to-video.png) [在視訊中探索動態報告](#video)
+![](assets/do-not-localize/how-to-video.png) [探索視訊中的動態報告](#video)
 
 ## 管理和共用報表 {#manage-share-reports}
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-使用動態報告 **拖放介面**，您可以探索資料、判斷電子郵件行銷活動針對最重要客戶細分的執行方式，並從單一位置衡量其對收件者的影響。
+透過動態報告&#x200B;**拖放介面**，您可以探索資料、判斷電子郵件行銷活動針對最重要客戶細分的執行方式，並從單一位置評估其對收件者的影響。
 
-**管理您的動態報表** 提供多種功能：即時重新整理資料、列印報表，或匯出為CSV檔案。 您也可以透過單次或循環電子郵件將報告與Campaign Standard使用者分享。
+**藉由各種功能管理您的動態報告**：即時重新整理資料、列印報告，或將其匯出為CSV檔案。 您也可以透過單次或循環電子郵件將報告與Campaign Standard使用者分享。
 
 詳細內容：
 
@@ -45,9 +45,9 @@ ht-degree: 14%
 
 <img src="assets/do-not-localize/icon_build.svg" width="60px">
 
-Campaign Standard隨附一組 **現成可用的動態報表** 可讓您測量行銷活動的多個方面：退信、被宣告為最多垃圾郵件或垃圾郵件的傳送、收件者檢視次數最多的傳送、管道相關報表、傳送吞吐量和追蹤報表……
+Campaign Standard隨附一組&#x200B;**立即可用的動態報表**，可讓您測量行銷活動的多個層面：退信、被宣告為最多垃圾郵件或垃圾郵件的傳送、收件者檢視次數最多的傳送、管道相關報表、傳遞輸送量和追蹤報表……
 
-**結合不同的元件** （維度、量度和區段、時段）來建立您自己的報表，或個人化現成可用的報表。
+**結合不同的元件** （維度、量度和區段、時段）以建置您自己的報表或個人化現成可用的報表。
 
 詳細內容：
 
@@ -59,11 +59,11 @@ Campaign Standard隨附一組 **現成可用的動態報表** 可讓您測量行
 
 <img src="assets/do-not-localize/icon_customize.svg" width="60px">
 
-**自訂您的報表** 善用動態報告設計功能：視需要新增更多元件（面板和自由表格），使用可用的量度和維度分析資料。
+**運用動態報告設計功能來自訂報告**：新增您需要的元件（面板和自由表格），以使用可用的量度和維度分析資料。
 
-拖放 **視覺效果專案** 將資料的圖形化表示方式新增至報表，並根據您的需求進行設定。
+拖放&#x200B;**視覺化專案**&#x200B;以將資料的圖形化表示方式加入報表，並根據您的需求進行設定。
 
-建立報表依據 **自訂設定檔資料** 在設定檔資源擴充期間建立，以及 **以區段為基礎的報表** 在目標工作流程中定義。
+根據在設定檔資源擴充期間建立的&#x200B;**自訂設定檔資料**&#x200B;建立報告，以及根據定位工作流程中定義的區段&#x200B;**建立報告。**
 
 詳細內容：
 
@@ -84,4 +84,4 @@ Campaign Standard隨附一組 **現成可用的動態報表** 可讓您測量行
 
 >[!VIDEO](https://video.tv.adobe.com/v/23021?quality=12&captions=eng)
 
-提供其他Campaign Standard操作影片 [此處](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant).
+[此處](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant)提供其他Campaign Standard操作說明影片。

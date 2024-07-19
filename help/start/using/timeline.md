@@ -32,8 +32,8 @@ ht-degree: 89%
 
 使用這些圖示可進行；
 
-* ![](assets/timeline_zoom_in.png) 在顯示天數之前，請縮短周長，或在更有限的時段內增加詳細程度
-* ![](assets/timeline_zoom_out.png) 增加周長，或顯示較大的時間範圍
+* ![](assets/timeline_zoom_in.png)減少周長，或在更有限的時段內增加詳細程度，直到顯示天數為止
+* ![](assets/timeline_zoom_out.png)增加周長，或顯示較大的時間範圍
 
 按一下每個程式名稱右側的箭頭，以顯示對應的內容。方案可包含子方案、行銷活動和登錄頁面。行銷活動的部署方式與程式相同，可包含電子郵件、簡訊和登錄頁面。
 
@@ -47,12 +47,12 @@ ht-degree: 89%
 
 每個元素都有與其類型對應的圖示：
 
-* ![](assets/timeline_program_icon.png) 計畫
-* ![](assets/timeline_campaign_icon.png) Campaign
-* ![](assets/timeline_lp_icon.png) 登陸頁面
-* ![](assets/timeline_email_icon.png) 電子郵件
-* ![](assets/timeline_sms_icon.png) 簡訊
-* ![](assets/timeline_push_icon.png) 推播通知
+* ![](assets/timeline_program_icon.png)計畫
+* ![](assets/timeline_campaign_icon.png)行銷活動
+* ![](assets/timeline_lp_icon.png)登陸頁面
+* ![](assets/timeline_email_icon.png)電子郵件
+* ![](assets/timeline_sms_icon.png)個簡訊
+* ![](assets/timeline_push_icon.png)個推播通知
 
 每個方塊左邊方塊的彩色線會指出相關元素的狀態。
 

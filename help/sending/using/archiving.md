@@ -21,7 +21,7 @@ ht-degree: 5%
 
 特別是，如果您的組織需要封存所有外寄電子郵件訊息以符合法規，您可以啟用此功能。 這可讓您將對應傳送之訊息的完全隱藏復本傳送至您必須指定的密件副本電子郵件地址（傳送收件者不可見）。
 
-啟用後，您需要從以下位置啟用電子郵件密件副本： **[!UICONTROL Archive emails]** 電子郵件傳遞範本中的選項。
+啟用後，您必須從電子郵件傳遞範本中的&#x200B;**[!UICONTROL Archive emails]**&#x200B;選項啟用電子郵件密件副本。
 
 >[!NOTE]
 >
@@ -42,17 +42,17 @@ ht-degree: 5%
 
 ## 啟用電子郵件封存 {#activating-email-archiving}
 
-啟用後，電子郵件密件副本會在 [電子郵件范](../../start/using/marketing-activity-templates.md)，透過專用選項：
+啟用後，會透過專用選項在[電子郵件範本](../../start/using/marketing-activity-templates.md)中啟用電子郵件密件副本：
 
-1. 前往 **資源** > **範本** > **傳遞範本**.
-1. 複製現成可用的專案 **[!UICONTROL Send via email]** 範本。
+1. 移至&#x200B;**資源** > **範本** > **傳遞範本**。
+1. 複製現成的&#x200B;**[!UICONTROL Send via email]**&#x200B;範本。
 1. 選取複製的範本。
-1. 按一下 **[!UICONTROL Edit properties]** 按鈕以編輯範本的屬性。
-1. 展開 **[!UICONTROL Send]** 區段。
-1. 檢查 **[!UICONTROL Archive emails]** 方塊以根據此範本保留每次傳遞的所有已傳送訊息的副本。
+1. 按一下&#x200B;**[!UICONTROL Edit properties]**&#x200B;按鈕以編輯範本的屬性。
+1. 展開&#x200B;**[!UICONTROL Send]**&#x200B;區段。
+1. 核取&#x200B;**[!UICONTROL Archive emails]**&#x200B;方塊，以根據此範本保留每個傳遞的所有已傳送訊息的復本。
 
    ![](assets/email_archiving.png)
 
 >[!NOTE]
 >
->如果傳送至密件副本地址的電子郵件被開啟並按過，這將在中列入考慮 **[!UICONTROL Total opens]** 和 **[!UICONTROL Clicks]** 傳送分析，這可能會造成一些計算錯誤。
+>如果傳送至密件副本位址的電子郵件已開啟且被點進，則會在傳送分析的&#x200B;**[!UICONTROL Total opens]**&#x200B;和&#x200B;**[!UICONTROL Clicks]**&#x200B;中考慮這一點，這可能會造成一些計算錯誤。

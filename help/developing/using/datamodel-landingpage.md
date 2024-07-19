@@ -89,13 +89,13 @@ ht-degree: 7%
       </tr>
       <tr>
          <td>已建立</td>
-         <td>建立時間</td>
+         <td>已建立</td>
          <td>日期 </td>
          <td> </td>
       </tr>
       <tr>
          <td>createdBy (userBase)</td>
-         <td>建立者</td>
+         <td>建立者：</td>
          <td>連結 </td>
          <td> </td>
       </tr>
@@ -233,7 +233,7 @@ ht-degree: 7%
       </tr>
       <tr>
          <td>結束</td>
-         <td>到期日</td>
+         <td>逾期日期</td>
          <td>日期 </td>
          <td> </td>
       </tr>
@@ -344,7 +344,7 @@ ht-degree: 7%
       </tr>
       <tr>
          <td>messageActionDelivery (deliveryMCTemplateBase)</td>
-         <td>異動訊息</td>
+         <td>交易型訊息</td>
          <td>連結 </td>
          <td> </td>
       </tr>
@@ -456,7 +456,7 @@ ht-degree: 7%
       </tr>
       <tr>
          <td>targetresource</td>
-         <td>目標定位維度</td>
+         <td>目標市場選擇維度</td>
          <td>字串(255)</td>
          <td> </td>
       </tr>

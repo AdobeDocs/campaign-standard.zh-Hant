@@ -22,27 +22,27 @@ ht-degree: 7%
 
 <img src="assets/do-not-localize/optimize.svg"  width="60px">
 
-**[最佳化傳遞](optimize-delivery.md)**  — 確保傳送流程安全並最佳化
+**[最佳化傳遞](optimize-delivery.md)** — 安全並最佳化傳送程式
 
 <img src="assets/do-not-localize/design.svg"  width="60px">
 
-**[使用範本](use-templates.md)**  — 加速交付新產品
+**[使用範本](use-templates.md)** — 加速及加速新傳遞
 
 <img src="assets/do-not-localize/custom.svg"  width="60px">
 
-**[個人化內容](design-and-personalize.md)**  — 套用正確的設定
+**[個人化內容](design-and-personalize.md)** — 套用正確的設定
 
 <img src="assets/do-not-localize/profiles.svg"  width="60px">
 
-**[定義正確的對象](define-the-right-audience.md)**  — 套用正確的設定
+**[定義正確的對象](define-the-right-audience.md)** — 套用正確的設定
 
 <img src="assets/do-not-localize/start.svg"  width="60px">
 
-**[傳送前先檢查](check-before-sending.md)**  — 避免常見錯誤
+**[傳送前先檢查](check-before-sending.md)** — 避免常見錯誤
 
 <img src="assets/do-not-localize/troubleshoot.svg"  width="60px">
 
-**[追蹤和監視](track-and-monitor.md)**  — 控制傳送及疑難排解
+**[追蹤和監視](track-and-monitor.md)** — 控制傳送和疑難排解
 
 ## 相關內容
 

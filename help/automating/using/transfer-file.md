@@ -54,7 +54,7 @@ ht-degree: 75%
    * [Microsoft Azure Blob儲存](#azure-blob-configuration-wf)
    * [Adobe Campaign伺服器上的檔案](#files-server-configuration-wf)
 
-1. 此 **[!UICONTROL Additional options]** 區段根據所選協定而提供，可讓您向通訊協定新增引數。
+1. **[!UICONTROL Additional options]**&#x200B;區段（視選取的通訊協定而定）可讓您新增引數至通訊協定。
 
    您可以：
 
@@ -64,7 +64,7 @@ ht-degree: 75%
 
      <!--**[!UICONTROL Disable passive mode]**: allows you to specify the connection port to be used for data transfer.-->
 
-   * **[!UICONTROL List all files]**：選取「 」時，此選項可供使用 **[!UICONTROL File listing]** 中的動作 **[!UICONTROL General]** 標籤。 它可讓您為 **vars.filenames** event　變數中伺服器上所有檔案建立索引，其中檔案名稱以 **&#39;n&#39;** 字元分隔 。
+   * **[!UICONTROL List all files]**：在&#x200B;**[!UICONTROL General]**&#x200B;索引標籤中選取&#x200B;**[!UICONTROL File listing]**&#x200B;動作時，此選項可供使用。 它可讓您為 **vars.filenames** event　變數中伺服器上所有檔案建立索引，其中檔案名稱以 **&#39;n&#39;** 字元分隔 。
 
 1. **[!UICONTROL If no files are found]** 索引標籤的 **[!UICONTROL Advanced options]** 區段可讓您在活動啟動時偵測到任何錯誤或不存在的檔案時設定特定操作。
 
@@ -78,20 +78,20 @@ ht-degree: 75%
 
 HTTP　通訊協定可讓您從外部帳戶或　URL　開始下載檔案。
 
-使用此通訊協定，您可以選擇 **[!UICONTROL Use connection parameters defined in an external account]** 選項。 在此情況下，請選取您需要的帳戶，並指定要下載的檔案路徑。
+使用此通訊協定，您可以選擇&#x200B;**[!UICONTROL Use connection parameters defined in an external account]**&#x200B;選項。 在此情況下，請選取您需要的帳戶，並指定要下載的檔案路徑。
 
 ![](assets/wkf_file_transfer_03.png)
 
 您也可以選取 **[!UICONTROL Quick configuration]** 選項。您只需在　URL　欄位中輸入URL。
 ![](assets/wkf_file_transfer_04.png)
 
-**[!UICONTROL Follow redirections]**， **[!UICONTROL Ignore the HTTP return code]**、和 **[!UICONTROL Add received HTTP headers to the file]** 是選取HTTP通訊協定時可用的其他選項。
+當您選取HTTP通訊協定時，**[!UICONTROL Follow redirections]**、**[!UICONTROL Ignore the HTTP return code]**&#x200B;和&#x200B;**[!UICONTROL Add received HTTP headers to the file]**&#x200B;是其他可用的選項。
 
 ### 使用SFTP進行設定 {#SFTP-configuration-wf}
 
 SFTP　通訊協定可讓您開始從　URL　或外部帳戶下載檔案。
 
-使用此通訊協定，您可以選擇 **[!UICONTROL Use connection parameters defined in an external account]** 選項，然後選取您要的帳戶並指定要下載的檔案路徑。
+使用此通訊協定，您可以選擇&#x200B;**[!UICONTROL Use connection parameters defined in an external account]**選項，然後選取您要的帳戶並指定要下載的檔案路徑。
 ![](assets/wkf_file_transfer_07.png)
 
 >[!CAUTION]
@@ -116,7 +116,7 @@ Amazon S3　通訊協定可讓您透過　Amazon Simple Storage Service(S3)　�
    >
    > Amazon S3不支援萬用字元。
    >
-   > 若要鎖定多個檔案，例如 `my_file_02` 和 `my _file_3433`，您可以使用下列語法： `acs-myawsbucket.s3.amazonaws.com/object-path/my_file_`.
+   > 若要鎖定多個檔案（例如`my_file_02`和`my _file_3433`），您可以使用下列語法： `acs-myawsbucket.s3.amazonaws.com/object-path/my_file_`。
 
 4. 如果要在傳輸完成時刪除源檔案，請核取 **[!UICONTROL Delete the source files after transfer]**。
 
@@ -145,7 +145,7 @@ Microsoft Azure Blob　通訊協定可讓您存取位於　Microsoft Azure Blob�
 ### Adobe Campaign伺服器上檔案的設定 {#files-server-configuration-wf}
 
 **[!UICONTROL File(s) present on the Adobe Campaign server]**　通訊協定對應於包含要復原的檔案的存放庫。
-中繼字元或萬用字元(例如 &#42; 或？) 可用於篩選檔案。
+中繼字元或萬用字元（例如&#42;或？） 可用於篩選檔案。
 
 選取是否 **[!UICONTROL Define a file path]** 或 **[!UICONTROL Use a dynamic file path]**
 **[!UICONTROL Use a dynamic file path]**　選項可讓您使用標準運算式和事件變數來個人化要傳輸的檔案名稱。如需詳細資訊，請參閱[此頁面](../../automating/using/customizing-workflow-external-parameters.md)。
@@ -154,11 +154,11 @@ Microsoft Azure Blob　通訊協定可讓您存取位於　Microsoft Azure Blob�
 
 例如：
 
-`user&lt;yourinstancename>/my_recipients.csv` 是正確的。
+`user&lt;yourinstancename>/my_recipients.csv`正確。
 
-`../hello/my_recipients.csv` 不正確。
+`../hello/my_recipients.csv`不正確。
 
-`//myserver/hello/myrecipients.csv` 不正確。
+`//myserver/hello/myrecipients.csv`不正確。
 
 ## 歷史化設定 {#historization-settings}
 
@@ -180,11 +180,11 @@ Microsoft Azure Blob　通訊協定可讓您存取位於　Microsoft Azure Blob�
 
 ## 輸出變數 {#output-variables}
 
-此 **[!UICONTROL Transfer file]** 活動會產生事件變數作為輸出，您可以將其用於其他活動，例如使用 [測試](../../automating/using/test.md) 活動。
+**[!UICONTROL Transfer file]**&#x200B;活動會產生事件變數作為輸出，您可以在其他活動中運用這些變數，例如使用[測試](../../automating/using/test.md)活動來檢查已下載檔案的數量。
 
-請注意，事件變數也可以使用外部訊號傳遞至另一個工作流程(請參閱 [使用外部引數自訂工作流程](../../automating/using/customizing-workflow-external-parameters.md))。
+請注意，事件變數也可以使用外部訊號傳遞給另一個工作流程（請參閱[使用外部引數自訂工作流程](../../automating/using/customizing-workflow-external-parameters.md)）。
 
 可用的輸出變數包括：
 
 * **[!UICONTROL fileName]**：已傳輸檔案的名稱。
-* **[!UICONTROL filesCount]**：傳輸的檔案數。
+* **[!UICONTROL filesCount]**：已傳輸的檔案數目。

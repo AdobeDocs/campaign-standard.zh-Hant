@@ -22,7 +22,7 @@ ht-degree: 79%
 
 >[!IMPORTANT]
 >
->僅功能 [管理員](../../administration/using/users-management.md#functional-administrators)，使用 **[!UICONTROL Administration]** 角色與存取權 **全部** 單位可以存取傳送記錄、訊息記錄、追蹤記錄、排除或訂閱記錄。 非管理員使用者可以鎖定這些記錄，但會從連結的表格（設定檔、傳送）開始。
+>只有功能正常的[管理員](../../administration/using/users-management.md#functional-administrators)，具有&#x200B;**[!UICONTROL Administration]**&#x200B;角色並存取&#x200B;**所有**&#x200B;個單位，才能存取傳送記錄檔、訊息記錄檔、追蹤記錄檔、排除或訂閱記錄檔。 非管理員使用者可以鎖定這些記錄，但會從連結的表格（設定檔、傳送）開始。
 
 * **訊息記錄檔**：可直接從訊息控制面板存取這些記錄檔。其中會顯示傳送的詳細資料、已排除的目標、原因，以及開啟和點按數等追蹤資訊。
 
@@ -38,9 +38,9 @@ ht-degree: 79%
 
   ![](assets/sending_delivery2.png)
 
-* **工作記錄檔**：您可以透過選取「 」，從訊息控制面板存取傳遞觸發的批次作業清單 **[!UICONTROL Job history]** 從 **[!UICONTROL Summary]** 下拉式清單。
+* **工作記錄檔**：從&#x200B;**[!UICONTROL Summary]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL Job history]**，即可從訊息控制面板存取傳遞觸發的批次工作清單。
 
-  從清單中選取任何工作，以檢視所選專案的詳細資訊 **[!UICONTROL Batch job]**.
+  從清單中選取任何工作，以檢視所選&#x200B;**[!UICONTROL Batch job]**&#x200B;的詳細資料。
 
   ![](assets/sending_delivery8.png)
 

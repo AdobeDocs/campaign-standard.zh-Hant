@@ -19,11 +19,11 @@ ht-degree: 22%
 
 <table style="table-layout:fixed">
 <tr>
-<td><img src="assets/do-not-localize/config_push.png" width="60px"><p>瞭解如何設定推播通知的行動應用程式 </br><a href="#configuration-push">按一下這裡</a></p></td>
-<td><img src="assets/do-not-localize/config_inapp.png" width="60px"><p>瞭解如何設定行動應用程式的應用程式內訊息 </br><a href="#configuring-mobile-app">按一下這裡</a></p></td>
+<td><img src="assets/do-not-localize/config_push.png" width="60px"><p>瞭解如何設定推播通知的行動應用程式</br><a href="#configuration-push">按一下這裡</a></p></td>
+<td><img src="assets/do-not-localize/config_inapp.png" width="60px"><p>瞭解如何設定行動應用程式的應用程式內訊息</br><a href="#configuring-mobile-app">按一下這裡</a></p></td>
 </tr>
 <tr>
-<td><img src="assets/do-not-localize/push2.png" width="60px"><p>進一步瞭解如何建立推播通知 </br><a href="#create-push">按一下這裡</a></p></td>
+<td><img src="assets/do-not-localize/push2.png" width="60px"><p>進一步瞭解如何建立推播通知</br><a href="#create-push">按一下這裡</a></p></td>
 <td><img src="assets/do-not-localize/inapp.png" width="60px"><p>瞭解如何建立應用程式內訊息</br><a href="#create-inapp">按一下這裡</a></p></td></tr>
 </table>
 
@@ -98,7 +98,7 @@ Adobe Campaign可讓您在不同通道上建立和傳送個人化訊息，並透
     <div>
     <p><strong>設定標籤規則以支援 Adobe Campaign Standard 使用案例</strong></p>
     </div>
-    <p><a href="../../administration/using/configuring-rules-launch.md"><strong>按一下這裡</strong></a> 開始在「資料收集UI」中建立資料元素和規則，以便將PII和其他資料從行動應用程式傳送至Adobe Campaign Standard。</p>
+    <p><a href="../../administration/using/configuring-rules-launch.md"><strong>按一下這裡</strong></a>，開始在資料收集UI中建立資料元素和規則，以便將PII和其他資料從行動應用程式傳送至Adobe Campaign Standard。</p>
     <br>
   </td>
   <td>
@@ -119,7 +119,7 @@ Adobe Campaign可讓您在不同通道上建立和傳送個人化訊息，並透
     <div>
     <p><strong>準備和傳送推送通知</strong></p>
     </div>
-    <p><a href="../../channels/using/preparing-and-sending-a-push-notification.md"><strong>在此處瞭解</strong></a> 如何準備推播通知，以及如何將其傳送給您的目標對象。</p>
+    <p><a href="../../channels/using/preparing-and-sending-a-push-notification.md"><strong>在這裡瞭解</strong></a>如何準備推播通知，以及如何傳送給您的目標對象。</p>
     <br>
   </td>
   <td>
@@ -142,7 +142,7 @@ Adobe Campaign可讓您在不同通道上建立和傳送個人化訊息，並透
     <div>
     <p><strong>從Adobe Campaign Standard推播通知顯示影像</strong></p>
     </div>
-    <p><a href="../../administration/using/image-push-notification.md"><strong>在此處瞭解</strong></a> 如何在iOS裝置上顯示Adobe Campaign推播通知的影像。</p>
+    <p><a href="../../administration/using/image-push-notification.md"><strong>在這裡瞭解</strong></a>如何在iOS裝置上顯示Adobe Campaign推播通知的影像。</p>
     <br>
   </td>
 </tr>
@@ -156,7 +156,7 @@ Adobe Campaign可讓您在不同通道上建立和傳送個人化訊息，並透
     <div>
     <p><strong>準備和傳送應用程式內訊息</strong></p>
     </div>
-    <p><a href="../../channels/using/preparing-and-sending-an-in-app-message.md"><strong>在此處瞭解</strong></a> 如何準備應用程式內訊息，然後如何將其傳送給您的目標對象。</p>
+    <p><a href="../../channels/using/preparing-and-sending-an-in-app-message.md"><strong>在這裡瞭解</strong></a>如何準備您的應用程式內訊息，然後如何將其傳送給您的目標對象。</p>
     <br>
   </td>
   <td>
@@ -193,7 +193,7 @@ Adobe Campaign可讓您在不同通道上建立和傳送個人化訊息，並透
     <div>
     <p><strong>建立簡訊訊息</strong></p>
     </div>
-    <p>建立簡訊傳送與建立一般電子郵件非常類似。</br>步驟 <a href="../../channels/using/creating-an-sms-message.md"><strong>詳細資訊見此處</strong></a> 說明此通道的特定設定。</p>
+    <p>建立簡訊傳送與建立一般電子郵件非常類似。</br>步驟<a href="../../channels/using/creating-an-sms-message.md"><strong>在此詳細說明</strong></a>說明此管道的特定設定。</p>
     <br>
   </td>
   <td>

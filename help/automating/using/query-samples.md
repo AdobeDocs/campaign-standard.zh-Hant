@@ -18,7 +18,7 @@ ht-degree: 76%
 
 # 查詢範例 {#query-samples}
 
-本節介紹使用時的使用案例 **[!UICONTROL Query]** 活動。 如需如何使用 **[!UICONTROL Query]** 活動，請參閱 [本節](../../automating/using/query.md).
+本節介紹使用&#x200B;**[!UICONTROL Query]**&#x200B;活動時的使用案例。 如需如何使用&#x200B;**[!UICONTROL Query]**&#x200B;活動的詳細資訊，請參閱[本節](../../automating/using/query.md)。
 
 ## 對簡單設定檔屬性進行定位 {#targeting-on-simple-profile-attributes}
 

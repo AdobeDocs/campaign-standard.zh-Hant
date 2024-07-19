@@ -40,7 +40,7 @@ ht-degree: 90%
 
 您可以從方案、行銷活動或行銷活動清單建立工作流程。
 
-![](assets/do-not-localize/how-to-video.png) [探索如何在影片中建立工作流程](#video)
+![](assets/do-not-localize/how-to-video.png) [探索如何在視訊中建立工作流程](#video)
 
 建立行銷活動在[建立行銷活動](../../start/using/marketing-activities.md#creating-a-marketing-activity)區段中有詳細說明。
 
@@ -68,11 +68,11 @@ ht-degree: 90%
 
 1. 確認建立活動，然後會顯示該活動的控制面板。有關詳細資訊，請參閱[工作流程介面](../../automating/using/workflow-interface.md)區段。
 
-1. 準備好設定工作流程後，您可以按一下 **[!UICONTROL Edit properties]** 按鈕。
+1. 一旦工作流程準備好進行設定後，您可以按一下&#x200B;**[!UICONTROL Edit properties]**&#x200B;按鈕來存取其他選項。
 
    例如，您可以定義特定時區，以便在工作流的所有活動中預設使用。依預設，工作流程的時區是為目前的促銷活動運算子定義的時區。
 
-   有關工作流程屬性的詳細資訊，請參閱 [此頁面](../../automating/using/managing-execution-options.md).
+   如需工作流程屬性的詳細資訊，請參閱[此頁面](../../automating/using/managing-execution-options.md)。
 
    ![](assets/workflow_properties.png)
 
@@ -137,4 +137,4 @@ ht-degree: 90%
 
 >[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
 
-提供其他Campaign Standard操作影片 [此處](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant).
+[此處](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant)提供其他Campaign Standard操作說明影片。

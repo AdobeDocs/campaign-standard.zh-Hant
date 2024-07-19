@@ -1,6 +1,6 @@
 ---
 title: 新增連結
-description: 探索如何使用電子郵件設計工具管理連結。
+description: 探索如何使用電子郵件Designer管理連結。
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
@@ -25,9 +25,9 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->以下影像顯示如何使用 [電子郵件設計工具](../../designing/using/designing-content-in-adobe-campaign.md) 在電子郵件中。
+>下列影像顯示如何在電子郵件中使用[電子郵件Designer](../../designing/using/designing-content-in-adobe-campaign.md)插入連結。
 
-1. 選取元素並按一下 **[!UICONTROL Insert link]** 從內容工具列。
+1. 選取元素，然後從內容工具列按一下&#x200B;**[!UICONTROL Insert link]**。
 
    ![](assets/des_insert_link.png)
 
@@ -35,12 +35,12 @@ ht-degree: 4%
 
    * **外部連結**：插入外部URL的連結。
 
-     您可以定義URL的個人化。 另請參閱 [個人化URL](personalization.md#personalizing-urls).
+     您可以定義URL的個人化。 請參閱[個人化URL](personalization.md#personalizing-urls)。
 
    * **登陸頁面**：授予Adobe Campaign登陸頁面的存取權。
-   * **訂閱連結**：插入訂閱Adobe Campaign服務的連結。
+   * **訂閱連結**：插入連結以訂閱Adobe Campaign服務。
    * **取消訂閱連結**：插入取消訂閱Adobe Campaign服務的連結。
-   * **定義動作的連結**：定義當登入頁面中的元素受到點按時的動作。
+   * 定義動作的&#x200B;**連結**：當登陸頁面中的專案被點按時，定義動作。
 
      >[!NOTE]
      >
@@ -59,13 +59,13 @@ ht-degree: 4%
 
 ![](assets/des_link_edit.png)
 
-使用編輯電子郵件時 [電子郵件設計工具](../../designing/using/designing-content-in-adobe-campaign.md)，您可輕鬆存取及修改您從列出電子郵件中所有URL的表格中建立的連結。 此清單可讓您集中檢視並找出電子郵件內容中的每個URL。 若要存取，請參閱 [關於追蹤的URL](#about-tracked-urls).
+使用[電子郵件Designer](../../designing/using/designing-content-in-adobe-campaign.md)編輯電子郵件時，您可以從列出電子郵件中所有URL的表格輕鬆存取及修改您建立的連結。 此清單可讓您集中檢視並找出電子郵件內容中的每個URL。 若要存取它，請參閱[關於追蹤的URL](#about-tracked-urls)。
 
 ![](assets/des_link_list.png)
 
 >[!NOTE]
 >
->個人化URL，例如 **映象頁面URL** 或 **取消訂閱** 無法從此清單修改連結。 所有其他連結皆可編輯。
+>個人化URL （例如&#x200B;**映象頁面URL**&#x200B;或&#x200B;**取消訂閱**&#x200B;連結）無法從此清單修改。 所有其他連結皆可編輯。
 
 **相關主題**：
 
@@ -77,13 +77,13 @@ ht-degree: 4%
 
 Adobe Campaign可讓您在收件者按一下電子郵件中包含的URL時，追蹤收件者的行為。 如需追蹤的詳細資訊，請參閱[本節](../../sending/using/tracking-messages.md#about-tracking)。
 
-此 **[!UICONTROL Links]** 圖示會自動顯示要追蹤之內容的所有URL清單。
+動作列中的&#x200B;**[!UICONTROL Links]**&#x200B;圖示會自動顯示要追蹤之內容的所有URL清單。
 
 ![](assets/des_links.png)
 
 >[!NOTE]
 >
->預設會啟用追蹤。 只有在Adobe Campaign中啟用追蹤時，此功能才可用於電子郵件。 如需追蹤引數的詳細資訊，請參閱 [本節](../../administration/using/configuring-email-channel.md#tracking-parameters).
+>預設會啟用追蹤。 只有在Adobe Campaign中啟用追蹤時，此功能才可用於電子郵件。 如需追蹤引數的詳細資訊，請參閱[本節](../../administration/using/configuring-email-channel.md#tracking-parameters)。
 
 每個連結的URL、類別、標籤和追蹤型別都可在此清單中修改。 若要編輯連結，按一下對應的鉛筆圖示。
 
@@ -92,9 +92,9 @@ Adobe Campaign可讓您在收件者按一下電子郵件中包含的URL時，追
 對於每個追蹤的URL，您可將追蹤模式設定為下列其中一個值：
 
 * **已追蹤**：啟用此URL上的追蹤。
-* **映象頁面**：將此URL視為映象頁面URL。
-* **從不**：絕對不會啟用此URL的追蹤功能。 此資訊會儲存：如果URL再次出現在將來的訊息中，其追蹤會自動停用。
-* **選擇退出**：將此URL視為選擇退出或取消訂閱URL。
+* **映象頁面**：認為此URL是映象頁面URL。
+* **從不**：從不啟用此URL的追蹤。 此資訊會儲存：如果URL再次出現在將來的訊息中，其追蹤會自動停用。
+* **選擇退出**：將此網址視為選擇退出或取消訂閱URL。
 
 ![](assets/des_link_tracking_type.png)
 
@@ -102,14 +102,14 @@ Adobe Campaign可讓您在收件者按一下電子郵件中包含的URL時，追
 
 >[!NOTE]
 >
->根據預設，Adobe Campaign會追蹤所有內容URL，但以下情況除外 **映象頁面URL** 和 **取消訂閱** 連結。
+>在Adobe Campaign中，預設會追蹤所有內容URL，但&#x200B;**映象頁面URL**&#x200B;和&#x200B;**取消訂閱**&#x200B;連結除外。
 
-您可以透過編輯 **[!UICONTROL Category]** 欄位，視訊息中使用的URL而定。 這些類別可顯示報表，例如 [URL和點按流量](../../reporting/using/urls-and-click-streams.md).
+您可以根據郵件中使用的URL，編輯&#x200B;**[!UICONTROL Category]**&#x200B;欄位來重新分組您的URL。 這些類別可以顯示報表，例如在[URL和點選串流](../../reporting/using/urls-and-click-streams.md)中。
 
 ![](assets/des_link_tracking_category.png)
 
-建立報表時，從 **[!UICONTROL Components]** 索引標籤，選取 **[!UICONTROL Dimension]** 並向下捲動清單以存取追蹤元件。 例如，拖放 **[!UICONTROL Tracking URL Category]** 放入工作區中，以根據每個已點按URL的追蹤類別來顯示結果。
+建立報表時，從&#x200B;**[!UICONTROL Components]**&#x200B;索引標籤中選取&#x200B;**[!UICONTROL Dimension]**，然後向下捲動清單以存取追蹤元件。 例如，將&#x200B;**[!UICONTROL Tracking URL Category]**&#x200B;拖放到工作區中，以根據每個點按URL的追蹤類別來顯示結果。
 
 ![](assets/des_link_tracking_report.png)
 
-如需建立自訂報表的詳細資訊，請參閱 [本節](../../reporting/using/about-dynamic-reports.md).
+如需建立自訂報表的詳細資訊，請參閱[本節](../../reporting/using/about-dynamic-reports.md)。

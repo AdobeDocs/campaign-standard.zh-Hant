@@ -30,7 +30,7 @@ Adobe Campaign 可讓您定義並管理指派給不同使用者的權限。權�
 
 ![使用者管理功能表](assets/user_management_1.png)
 
-在Admin Console中管理使用者。 進一步瞭解 [管理群組和使用者](../../administration/using/managing-groups-and-users.md) 區段和 [Admin Console檔案](https://helpx.adobe.com/tw/enterprise/managing/user-guide.html).
+在Admin Console中管理使用者。 在[管理群組和使用者](../../administration/using/managing-groups-and-users.md)區段和[Admin Console檔案](https://helpx.adobe.com/tw/enterprise/managing/user-guide.html)中瞭解更多。
 
 ![存取產品設定檔](assets/user_management_6.png)
 

@@ -65,7 +65,7 @@ ht-degree: 84%
 
 由「查詢」活動識別目標後，您必須選取一個準則，將目標細分成兩個不同的母體：一個會收到電子郵件，另一個則會收到簡訊。
 
-您必須使用 [細分](../../automating/using/segmentation.md) 從查詢上游運算的母體中建立一或多個區段的活動。
+您必須使用[分段](../../automating/using/segmentation.md)活動，才能從查詢上游運算的母體中建立一或多個分段。
 
 ![](assets/wkf_segment_activity.png)
 
@@ -112,7 +112,7 @@ ht-degree: 84%
 
 ## 建立傳遞 {#creating-deliveries}
 
-由於已建立兩個轉變，您現在必須將兩種型別的傳送新增至「細分」活動的出站轉變中： [電子郵件傳遞](../../automating/using/email-delivery.md) 活動和 [簡訊傳送](../../automating/using/sms-delivery.md) 活動。
+由於已建立兩個轉變，您現在必須將兩種型別的傳送新增至「細分」活動的出站轉變中： [電子郵件傳送](../../automating/using/email-delivery.md)活動和[簡訊傳送](../../automating/using/sms-delivery.md)活動。
 
 Adobe Campaign 可讓您將傳送新增至工作流程。若要這麼做，請從工作流程的活動色盤 **[!UICONTROL Channels]** 類別中選取傳送。
 
@@ -120,7 +120,7 @@ Adobe Campaign 可讓您將傳送新增至工作流程。若要這麼做，請�
 
 若要建立電子郵件傳送：
 
-1. 拖放 [電子郵件傳遞](../../automating/using/email-delivery.md) 第一個區段後的活動。
+1. 將[電子郵件傳遞](../../automating/using/email-delivery.md)活動拖放到第一個區段之後。
 1. 連按兩下活動以進行編輯。
 1. 選取 **[!UICONTROL Simple email]**。
 1. 選取 **[!UICONTROL Add an outbound transition with the population]** 並按一下 **[!UICONTROL Next]**。
@@ -133,11 +133,11 @@ Adobe Campaign 可讓您將傳送新增至工作流程。若要這麼做，請�
 1. 輸入電子郵件屬性，然後按一下 **[!UICONTROL Next]**。
 1. 若要建立電子郵件的版面，請選取 **[!UICONTROL Use the Email Designer]**。
 1. 編輯並儲存您的內容。
-1. 在 **[!UICONTROL Schedule]** 區段，取消選取 **[!UICONTROL Request confirmation before sending messages]** 選項。
+1. 在訊息控制面板的&#x200B;**[!UICONTROL Schedule]**&#x200B;區段中，取消選取&#x200B;**[!UICONTROL Request confirmation before sending messages]**&#x200B;選項。
 
 若要建立簡訊傳送：
 
-1. 拖放 [簡訊傳送](../../automating/using/sms-delivery.md) 活動在另一個區段之後。
+1. 將[SMS傳遞](../../automating/using/sms-delivery.md)活動拖放到另一個區段之後。
 1. 連按兩下活動以進行編輯。
 1. 選取 **[!UICONTROL SMS]** 並按一下 **[!UICONTROL Next]**。
 1. 選取簡訊範本，並按一下 **[!UICONTROL Next]**。
@@ -150,7 +150,7 @@ Adobe Campaign 可讓您將傳送新增至工作流程。若要這麼做，請�
 
 ## 執行工作流程 {#running-the-workflow}
 
-工作流程開始後，將目標人口設為 **[!UICONTROL Query]** 活動將會分段，以接收電子郵件或簡訊傳遞。
+工作流程開始之後，將細分&#x200B;**[!UICONTROL Query]**&#x200B;活動定位的母體，以接收電子郵件或簡訊傳遞。
 
 若要執行工作流程，請按一下動作列中的 **[!UICONTROL Start]** 按鈕。
 

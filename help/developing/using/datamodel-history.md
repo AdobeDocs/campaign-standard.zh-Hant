@@ -111,13 +111,13 @@ ht-degree: 9%
                </tr>
                <tr>
                   <td>已建立</td>
-                  <td>建立時間</td>
+                  <td>已建立</td>
                   <td>日期 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>createdBy (userBase)</td>
-                  <td>建立者</td>
+                  <td>建立者：</td>
                   <td>連結 </td>
                   <td> </td>
                </tr>
@@ -498,7 +498,7 @@ ht-degree: 9%
 <th>類型</th>
 </tr>
 <tr>
-<td>對象</td>
+<td>客群</td>
 <td>連結</td>
 </tr>
 </table>

@@ -31,17 +31,17 @@ ht-degree: 0%
 
 ## 資源表示
 
-所有API資源都可在 **JSON** URL副檔名或HTTP Accept標頭內部：
+所有API資源都可在&#x200B;**JSON**&#x200B;中使用URL副檔名或HTTP Accept標頭：
 
 `GET /profileAndServices/<resourceName>.json`
 
 >[!NOTE]
 >
->若在URL中沒有副檔名， **json格式為預設格式** （針對content-type）。
+>在URL中沒有副檔名，**json格式是內容型別的預設格式**。
 
 <br/>
 
-***要求範例***
+***要求樣本***
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile.json \
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 如果金鑰值與原始金鑰不同，或您使用自己的商業金鑰作為URI，而不是Adobe提供的商業金鑰，則無法使用PATCH操作修改自訂金鑰。
 
-使用自訂金鑰 **頂層設定檔資源** 僅限。 API會傳回URL，且絕對不應由您自行建立。
+僅對&#x200B;**最上層設定檔資源**&#x200B;使用自訂金鑰。 API會傳回URL，且絕對不應由您自行建立。
 
 <br/>
 

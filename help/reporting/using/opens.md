@@ -18,7 +18,7 @@ ht-degree: 9%
 
 # 開啟次數{#opens}
 
-此 **[!UICONTROL Opens]** 報表可識別最多收件者檢視的交付專案。
+**[!UICONTROL Opens]**&#x200B;報告可識別最多收件者檢視的交付專案。
 
 ![](assets/delivery_reports_opens.png)
 
@@ -29,4 +29,4 @@ ht-degree: 9%
 * 平台
 * 網域
 
-此 **[!UICONTROL TOP 5]** 表格和圖表會顯示傳送訊息數量最多的交付專案。
+**[!UICONTROL TOP 5]**&#x200B;表格和圖表會顯示傳遞訊息數量最多的傳遞專案。

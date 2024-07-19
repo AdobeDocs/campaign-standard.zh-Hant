@@ -31,9 +31,9 @@ Adobe Campaign的使用者介面是根據所有Adobe Experience Cloud解決方�
 
 使用Adobe Campaign建立及協調行銷活動的主要步驟如下：
 
-* **正在準備**  — 此初始階段可讓使用者正式確定行銷活動的需求、意圖和目標：建立行銷計畫、識別目標、定義內容和建立模式、預期結果和參與的人員。
-* **目標定位**  — 目標階段可讓使用者定義資料收集模式、其結構、其細分、對象、種子和測試、設計的篩選條件等。 在此階段中，您也可以設定訂閱/取消訂閱方法。 另請參閱 [設定檔與對象](../../audiences/using/about-profiles.md).
-* **建立訊息和內容**  — 此階段涉及選取 [通訊頻道](../../channels/using/get-started-communication-channels.md). 您也可以設計 [登陸頁面](../../channels/using/getting-started-with-landing-pages.md) 以取得或更新設定檔，並擴充資料庫。 另請參閱 [建立電子郵件](../../channels/using/creating-an-email.md)， [建立簡訊訊息](../../channels/using/creating-an-sms-message.md)， [建立推播通知](../../channels/using/preparing-and-sending-a-push-notification.md)， [建立應用程式內訊息](../../channels/using/about-in-app-messaging.md)， [建立直接郵件傳送](../../channels/using/creating-the-direct-mail.md).
-* **測試和傳送**  — 執行階段可讓使用者執行各種驗證步驟（內容、目標），尤其是透過預覽畫面以及在傳送之前先傳送證明給核准者。 另請參閱 [測試和傳送](../../sending/using/get-started-sending-messages.md).
-* **監控與報告**  — 一旦執行行銷活動並傳送不同的訊息後，此階段可讓使用者收集傳送的不同狀態，以及追蹤和監控資訊。 行銷活動和傳遞報告會產生，以追蹤行銷活動和收件者活動的影響。 另請參閱 [報告工具](../../reporting/using/about-dynamic-reports.md).
-* **自動化**  — 在此階段中，還有其他因素，例如匯入/匯出機制實作方法、資料管理和更新模式、個人化資料識別等。 已定義。 另請參閱 [工作流程和資料管理](../../automating/using/get-started-workflows.md).
+* **準備** — 此初始階段可讓使用者正式確定行銷活動的需求、意圖和目標：建立行銷計畫、識別目標、定義內容和建立模式、預期結果和參與的人員。
+* **鎖定目標** — 鎖定目標階段可讓使用者定義資料收集模式、結構、細分、對象、種子和測試、設計的篩選條件等。 在此階段中，您也可以設定訂閱/取消訂閱方法。 檢視[設定檔與對象](../../audiences/using/about-profiles.md)。
+* **正在建立訊息與內容** — 此階段涉及選取[通訊通道](../../channels/using/get-started-communication-channels.md)。 您也可以設計[登入頁面](../../channels/using/getting-started-with-landing-pages.md)以取得或更新設定檔，並擴充資料庫。 請參閱[建立電子郵件](../../channels/using/creating-an-email.md)、[建立SMS訊息](../../channels/using/creating-an-sms-message.md)、[建立推播通知](../../channels/using/preparing-and-sending-a-push-notification.md)、[建立應用程式內訊息](../../channels/using/about-in-app-messaging.md)、[建立直接郵件傳遞](../../channels/using/creating-the-direct-mail.md)。
+* **測試和傳送** — 執行階段可讓使用者執行各種驗證步驟（內容、目標），尤其是透過預覽畫面以及在傳送之前先傳送證明給核准者。 請參閱[測試和傳送](../../sending/using/get-started-sending-messages.md)。
+* **監視與報告** — 一旦行銷活動執行並傳送了不同的訊息，此階段可讓使用者收集傳送的不同狀態，以及追蹤與監視資訊。 行銷活動和傳遞報告會產生，以追蹤行銷活動和收件者活動的影響。 請參閱[報告工具](../../reporting/using/about-dynamic-reports.md)。
+* **自動化** — 在此階段中，還有其他因素，例如匯入/匯出機制實作方法、資料管理和更新模式、個人化資料識別等。 已定義。 請參閱[工作流程和資料管理](../../automating/using/get-started-workflows.md)。

@@ -26,38 +26,38 @@ ht-degree: 6%
 
 * [寄件者名稱和地址](#sender-name)：地址必須明確識別寄件者。 網域必須由寄件者擁有並註冊給寄件者。 網域登入不可為私用。
   <!--**Subject**: Avoid excessive capitalization and punctuation, and words that are frequently used by spammers ("Win", "Free", etc.).-->
-* [個人化和傳送時間最佳化](#perso-send-time-optimization)：個人化內容並定義每位收件者的傳送時間，會增加您開啟訊息的機會。
+* [Personalization和傳送時間最佳化](#perso-send-time-optimization)：個人化內容並定義每位收件者的傳送時間會增加您開啟郵件的機會。
 * 影像和文字：遵循像面文字/影像比例（例如60%文字和40%影像）。
-* [取消訂閱連結](#opt-out) 和登陸頁面：取消訂閱連結至關重要。 它必須可見且有效，而且表單必須有效。
-* 預覽：使用Adobe Campaign提供的工具來檢查並最佳化您的電子郵件內容([反垃圾郵件分析](#anti-spam-analysis)， [電子郵件呈現](#message-responsiveness))。
+* [取消訂閱連結](#opt-out)和登陸頁面：取消訂閱連結是必要的。 它必須可見且有效，而且表單必須有效。
+* 預覽：使用Adobe Campaign提供的工具來檢查並最佳化您的電子郵件內容（[反垃圾郵件分析](#anti-spam-analysis)，[電子郵件呈現](#message-responsiveness)）。
 
-如需在設計內容時最佳化傳遞能力的其他秘訣，請參閱 [Adobe傳遞性最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html).
+如需在設計內容時最佳化傳遞能力的其他秘訣，請參閱[Adobe傳遞能力最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html)。
 
 >[!NOTE]
 >
->如需編輯電子郵件內容的詳細資訊，請參閱 [電子郵件設計工具總覽](../../designing/using/designing-content-in-adobe-campaign.md) 和 [訊息設計最佳實務](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices).
+>如需編輯電子郵件內容的詳細資訊，請參閱[電子郵件Designer概觀](../../designing/using/designing-content-in-adobe-campaign.md)和[訊息設計最佳實務](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices)。
 
 ## 寄件者名稱和地址 {#sender-name}
 
-某些ISP會檢查寄件者地址的有效性(**[!UICONTROL From]**)，然後才接受訊息。 格式錯誤的位址可能會導致接收伺服器拒絕該位址。
+某些ISP在接受訊息之前會檢查寄件者地址(**[!UICONTROL From]**)的有效性。 格式錯誤的位址可能會導致接收伺服器拒絕該位址。
 
 ![](assets/delivery_content_edition16.png)
 
 您必須確保在例項層級或最常使用的案例中提供正確的位址。 若要這麼做，請聯絡管理員。
 
-有關詳細資訊，請參閱 [定義電子郵件的電子郵件寄件者](../../designing/using/subject-line.md#email-sender).
+如需詳細資訊，請參閱[定義電子郵件的電子郵件寄件者](../../designing/using/subject-line.md#email-sender)。
 
-## 個人化和傳送時間最佳化 {#perso-send-time-optimization}
+## Personalization和傳送時間最佳化 {#perso-send-time-optimization}
 
 為了改善收件者的體驗並讓他們開啟您的電子郵件，Adobe Campaign可讓您個人化您的訊息。 如需詳細資訊，請參閱[本節](../../designing/using/personalization.md)。
 
-若要提高訊息的開啟率，您也可以手動定義每個收件者的傳送時間。 每個設定檔都會在指定的日期和時間收到訊息。 有關詳細資訊，請參閱 [最佳化傳送時間](../../sending/using/optimizing-the-sending-time.md).
+若要提高訊息的開啟率，您也可以手動定義每個收件者的傳送時間。 每個設定檔都會在指定的日期和時間收到訊息。 如需詳細資訊，請參閱[最佳化傳送時間](../../sending/using/optimizing-the-sending-time.md)。
 
 ## 選擇退出連結和表單 {#opt-out}
 
-依預設，分析訊息時，型別規則會檢查是否包含退出連結，如果缺少該連結，則會產生警告。 如需管理連結的詳細資訊，請參閱 [本節](../../designing/using/links.md).
+依預設，分析訊息時，型別規則會檢查是否包含退出連結，如果缺少該連結，則會產生警告。 如需管理連結的詳細資訊，請參閱[本節](../../designing/using/links.md)。
 
-每次傳送前，您必須先檢查選擇退出連結是否正常運作。 例如，當 [傳送證明](../../sending/using/sending-proofs.md)，確認連結有效、表單線上上，且驗證這會檢查 **[!UICONTROL No longer contact]** 方塊。 您應該系統地進行此檢查，因為輸入連結或變更表單時總是可能發生人為錯誤。 如需管理選擇加入和選擇退出的詳細資訊，請參閱 [本節](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md).
+每次傳送前，您必須先檢查選擇退出連結是否正常運作。 例如，當[傳送校樣](../../sending/using/sending-proofs.md)時，請確定連結有效、表單線上上，且驗證此功能時會檢查&#x200B;**[!UICONTROL No longer contact]**&#x200B;方塊。 您應該系統地進行此檢查，因為輸入連結或變更表單時總是可能發生人為錯誤。 如需管理加入和退出的詳細資訊，請參閱[本節](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)。
 
 ![](assets/optin_landingpage_3.png)
 
@@ -69,9 +69,9 @@ ht-degree: 6%
 
 ## 反垃圾郵件分析 {#anti-spam-analysis}
 
-Adobe Campaign的訊息編輯器整合了 **反垃圾郵件分析** 這可讓您對電子郵件評分，以判斷郵件是否在收到時遭到的反垃圾郵件工具視為垃圾郵件的風險。 有關詳細資訊，請參閱 [預覽訊息](../../sending/using/previewing-messages.md).
+Adobe Campaign的郵件編輯器整合了&#x200B;**反垃圾郵件分析**，可讓您對電子郵件評分，以判斷郵件是否會在收到郵件時被反垃圾郵件工具視為垃圾郵件。 如需詳細資訊，請參閱[預覽訊息](../../sending/using/previewing-messages.md)。
 
-在訊息內容編輯器中，按一下 **[!UICONTROL Preview]**. 如果反垃圾郵件檢查偵測到此郵件有高風險，郵件會警告您。 按一下 **[!UICONTROL Anti-spam analysis]** 以檢視詳細資訊。
+在訊息內容編輯器中，按一下&#x200B;**[!UICONTROL Preview]**。 如果反垃圾郵件檢查偵測到此郵件有高風險，郵件會警告您。 按一下&#x200B;**[!UICONTROL Anti-spam analysis]**&#x200B;以檢視詳細資料。
 
 ![](assets/sending_anti-spam_analysis.png)
 

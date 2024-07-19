@@ -39,13 +39,13 @@ ht-degree: 34%
     </tr>
     <tr>
         <td>已建立</td>
-        <td>建立時間</td>
+        <td>已建立</td>
         <td>日期 </td>
         <td> </td>
     </tr>
     <tr>
         <td>createdBy (userBase)</td>
-        <td>建立者</td>
+        <td>建立者：</td>
         <td>連結 </td>
         <td> </td>
     </tr>
@@ -140,7 +140,7 @@ ht-degree: 34%
     </tr>
     <tr>
         <td>recipientId</td>
-        <td>設定檔 ID</td>
+        <td>輪廓 ID</td>
         <td>整數 </td>
         <td> </td>
     </tr>

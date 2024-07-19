@@ -14,7 +14,7 @@ ht-degree: 40%
 
 # 關於訂閱{#about-subscriptions}
 
-使用Adobe Campaign透過一組工具建立和管理電子報和跨頻道通訊 **服務**：訊息只會傳送給訂閱服務（選擇加入）的設定檔。 建立訊息時，會使用專用篩選器來識別這些設定檔。
+使用Adobe Campaign透過一組&#x200B;**服務**&#x200B;建立和管理電子報和跨頻道通訊：訊息只會傳送給已訂閱服務（選擇加入）的設定檔。 建立訊息時，會使用專用篩選器來識別這些設定檔。
 
 您可以設定訂閱機制，讓客戶有機會訂閱這些服務，尤其是透過&#x200B;**電子郵件**&#x200B;及&#x200B;**登錄頁面**&#x200B;訂閱的客戶。
 
@@ -30,10 +30,10 @@ ht-degree: 40%
 
 請依照下列步驟建立訂閱機制：
 
-1. **建立服務**  — 遵循所述的步驟 [在本節中](../../audiences/using/creating-a-service.md) 建立訂閱服務
-1. **共用連結**  — 瞭解如何推廣和分享您的服務 [在此頁面中](../../audiences/using/promoting-a-service.md)
-1. **監視訂閱**  — 探索監視服務訂閱的多種方式 [在本節中](../../audiences/using/monitoring-subscriptions.md)
-1. **確認訂閱**  — 追隨 [本教學課程](../../audiences/using/confirming-subscription-to-a-service.md) 傳送訂閱確認訊息
+1. **建立服務** — 依照本節[所述的步驟](../../audiences/using/creating-a-service.md)建立訂閱服務
+1. **共用連結** — 在此頁面瞭解如何推廣及共用您的服務[](../../audiences/using/promoting-a-service.md)
+1. **監視訂閱** — 在此區段](../../audiences/using/monitoring-subscriptions.md)中探索幾種監視服務訂閱[的方法
+1. **確認訂閱** — 依照[此教學課程](../../audiences/using/confirming-subscription-to-a-service.md)傳送訂閱確認訊息
 
 ## 額外資源
 

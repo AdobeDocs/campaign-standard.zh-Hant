@@ -29,19 +29,19 @@ ht-degree: 11%
 
 最後，運用Campaign Standard提供的傳遞能力准則和工具，改善傳遞訊息的數量，並確保行銷活動取得成功。
 
-![](assets/do-not-localize/how-to-video.png) [瞭解如何透過影片傳送測試電子郵件、準備及傳送電子郵件傳遞](#video)
+![](assets/do-not-localize/how-to-video.png) [探索如何在影片中傳送測試電子郵件、準備及傳送電子郵件傳遞](#video)
 
 ## 準備和測試 {#prepare-test-send}
 
 <img src="assets/do-not-localize/icon_prepare.svg" width="60px">
 
-Campaign Standard **訊息準備** 分析訊息的目標、個人化及有效性。 在此步驟期間偵測到的錯誤必須先加以更正，然後才能繼續。
+Campaign Standard **訊息準備**&#x200B;會分析訊息的目標、個人化及有效性。 在此步驟期間偵測到的錯誤必須先加以更正，然後才能繼續。
 
-**預覽和測試** 使用各種功能傳送訊息：傳送校樣以測試設定檔或目標設定檔、測試電子郵件的主旨行，以及檢查訊息的轉譯，以確保其以最佳方式顯示在各種Web使用者端、網頁郵件與裝置上。
+**使用各種功能預覽和測試**&#x200B;您的訊息：傳送校樣以測試設定檔或目標設定檔、測試您的電子郵件主旨行，以及檢查訊息的轉譯，以確保訊息以最佳方式顯示在各種Web使用者端、網頁郵件和裝置上。
 
 運用Campaign排程功能以定義訊息的傳送時間。 例如，您可以調整在收件者的時區傳送、最佳化傳送時間或計算傳送日期。
 
-使用 **型別** 在準備期間檢查您的訊息是否有效，並透過疲勞、控制和目標定位規則符合您的品質標準。 例如，檢查您的電子郵件是否一律包含主旨行，或從訊息收件者中排除取消訂閱者。
+使用&#x200B;**型別**&#x200B;在準備期間檢查您的訊息是否有效，並透過疲勞、控制和目標定位規則符合您的品質准則。 例如，檢查您的電子郵件是否一律包含主旨行，或從訊息收件者中排除取消訂閱者。
 
 詳細內容：
 
@@ -56,11 +56,11 @@ Campaign Standard **訊息準備** 分析訊息的目標、個人化及有效性
 
 <img src="assets/do-not-localize/icon_send.svg"  width="60px">
 
-訊息準備就緒後，您可以確認傳送和存取記錄檔及報告至 **監視傳遞** 並評估行銷活動的成功。 Adobe Campaign也提供電子郵件警報系統，以追蹤傳送成功或失敗，以及隔離管理功能。
+訊息就緒後，您可以確認傳送並存取記錄檔與報告，以傳送給&#x200B;**監視傳遞**，並評估行銷活動的成功。 Adobe Campaign也提供電子郵件警報系統，以追蹤傳送成功或失敗，以及隔離管理功能。
 
-**追蹤行為** 使用工作階段和永久Cookie來擷取追蹤資訊（已點按的URL、映象頁面、開啟的訊息……）。
+**使用工作階段和永久Cookie來擷取追蹤資訊（已點按的URL、映象頁面、開啟的郵件……），以追蹤郵件收件者的行為**。
 
-最後，您可以將Adobe Campaign設定為 **保留電子郵件副本** 透過電子郵件密件副本從您的平台傳送。 特別是，如果您的組織需要封存所有外寄電子郵件訊息以符合法規，您可以啟用此功能。
+最後，您可以將Adobe Campaign設定為&#x200B;**保留透過電子郵件密件副本從您的平台傳送的電子郵件**&#x200B;復本。 特別是，如果您的組織需要封存所有外寄電子郵件訊息以符合法規，您可以啟用此功能。
 
 詳細內容：
 
@@ -77,13 +77,13 @@ Campaign Standard **訊息準備** 分析訊息的目標、個人化及有效性
 
 可遞送性可讓您測量行銷活動在到達收件者收件匣時不會退回或標示為垃圾訊息的成功。
 
-Campaign Standard提供數種 **傳遞工具** 協助您改善成功傳送的訊息數量：傳送輸送量報告、傳送時間最佳化、訊息預覽、電子郵件呈現、隔離管理等。
+Campaign Standard提供數種&#x200B;**傳遞工具**，可協助您改善成功傳遞的訊息數目：傳遞輸送量報告、傳送時間最佳化、訊息預覽、電子郵件轉譯、隔離管理等。
 
 詳細內容：
 
 * [關於傳遞能力](../../sending/using/about-deliverability.md)
 * [監視傳遞能力](../../sending/using/monitor-deliverability.md)
-* [Adobe傳遞性最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=zh-Hant)
+* [Adobe傳遞能力最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=zh-Hant)
 * [控制傳遞輸送量](../../reporting/using/delivery-throughput.md)
 
 ## 額外資源
@@ -99,4 +99,4 @@ Campaign Standard提供數種 **傳遞工具** 協助您改善成功傳送的訊
 
 >[!VIDEO](https://video.tv.adobe.com/v/24013/)
 
-提供其他Campaign Standard操作影片 [此處](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant).
+[此處](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant)提供其他Campaign Standard操作說明影片。

@@ -15,9 +15,9 @@ ht-degree: 5%
 
 # 稽核匯出記錄{#auditing-export-logs}
 
-從 **[!UICONTROL Administration]** > **[!UICONTROL Users & Security]** > **[!UICONTROL Export audits]**，管理員即可檢視下列所有匯出的清單，包括其日期和執行匯出的使用者：
+從&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Users & Security]** > **[!UICONTROL Export audits]**，管理員可以檢視下列所有匯出的清單，包括其日期和執行匯出的使用者：
 
-* 從上傳檔案 **[!UICONTROL Transfer file]** 活動的工作流程。
+* 從工作流程中的&#x200B;**[!UICONTROL Transfer file]**&#x200B;活動上傳檔案。
 * 從清單或子清單匯出清單。
 * 從直接郵件訊息的傳遞控制面板下載的檔案。
 
@@ -27,4 +27,4 @@ ht-degree: 5%
 
 從左窗格中，您可以根據需求篩選要顯示的匯出。
 
-您可以將清單匯出為單獨的檔案，如 [匯出清單](../../automating/using/exporting-lists.md) 區段。
+您可以將清單匯出為個別檔案，如[匯出清單](../../automating/using/exporting-lists.md)區段中所述。

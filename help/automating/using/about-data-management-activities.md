@@ -32,4 +32,4 @@ ht-degree: 55%
 * [擷取檔案](../../automating/using/extract-file.md)
 * [訂閱服務](../../automating/using/subscription-services.md)
 
-**[!UICONTROL Data management (ETL)]** 活動可讓您定義 **區段代碼** 適用於其對外轉變。 然後，您可以根據這些區段代碼建立報表，以評估行銷行銷活動的效率。如需詳細資訊，請參閱[本區段](../../reporting/using/creating-a-report-workflow-segment.md)。
+**[!UICONTROL Data management (ETL)]**&#x200B;活動可讓您為其對外轉變定義&#x200B;**區段代碼**。 然後，您可以根據這些區段代碼建立報表，以評估行銷行銷活動的效率。如需詳細資訊，請參閱[本區段](../../reporting/using/creating-a-report-workflow-segment.md)。

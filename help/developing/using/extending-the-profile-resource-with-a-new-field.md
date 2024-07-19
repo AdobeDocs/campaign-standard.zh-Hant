@@ -27,7 +27,7 @@ ht-degree: 92%
 
 * [步驟1：擴充設定檔資源](#step-1--extend-the-profile-resource)
 * [步驟2：擴充測試設定檔](#step-2--extend-the-test-profile)
-* [步驟3：發佈自訂資源](#step-3--publish-your-custom-resource)
+* [步驟3：Publish您的自訂資源](#step-3--publish-your-custom-resource)
 * [步驟4：使用工作流程更新和定位設定檔](#step-4--update-and-target-profiles-with-a-workflow)
 
 之後會將下列欄位新增至我們的設定檔，並可在傳送中定位：
@@ -119,7 +119,7 @@ ht-degree: 92%
 
 現在，設定檔和測試設定檔都可使用您的新欄位。若要正確設定，您必須發佈自訂資源。
 
-## 步驟3：發佈自訂資源 {#step-3--publish-your-custom-resource}
+## 步驟3：Publish您的自訂資源 {#step-3--publish-your-custom-resource}
 
 若要套用對資源執行的變更以及使用該變更，您必須執行資料庫更新。
 

@@ -23,8 +23,8 @@ Campaign Standard可讓您使用引數（要定位的對象名稱、要匯入的
 
 使用引數呼叫工作流程的流程如下：
 
-1. 在中宣告引數 **[!UICONTROL External signal]** 活動。 另請參閱 [在外部訊號活動中宣告引數](../../automating/using/declaring-parameters-external-signal.md).
-1. 設定 **[!UICONTROL End]** 活動或API呼叫，以定義引數並觸發工作流程 **[!UICONTROL External signal]** 活動。 另請參閱 [此頁面](../../automating/using/defining-parameters-calling-workflow.md)
+1. 在&#x200B;**[!UICONTROL External signal]**&#x200B;活動中宣告引數。 請參閱[在外部訊號活動](../../automating/using/declaring-parameters-external-signal.md)中宣告引數。
+1. 設定&#x200B;**[!UICONTROL End]**&#x200B;活動或API呼叫以定義引數並觸發工作流程&#x200B;**[!UICONTROL External signal]**&#x200B;活動。 檢視[此頁面](../../automating/using/defining-parameters-calling-workflow.md)
 1. 觸發工作流程後，引數會擷取至工作流程的事件變數中，並可用於工作流程中。 請參閱[此頁面](../../automating/using/customizing-workflow-external-parameters.md)。
 
 ![](assets/extsignal_process.png)

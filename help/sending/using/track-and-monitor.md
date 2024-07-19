@@ -32,29 +32,29 @@ ht-degree: 3%
 
 * 從訊息控制面板，您可以存取此特定訊息的數個報表。
 
-如需詳細資訊，請參閱 [監視傳遞](../../sending/using/monitoring-a-delivery.md).
+如需詳細資訊，請參閱[監視傳遞](../../sending/using/monitoring-a-delivery.md)。
 
 ## 追蹤 {#tracking-deliveries}
 
-若要更清楚瞭解目標設定檔的行為，您可以追蹤其對傳送的反應：接收、開啟、點選連結、取消訂閱等。 請參閱 **追蹤記錄** 傳遞的索引標籤。
+若要更清楚瞭解目標設定檔的行為，您可以追蹤其對傳送的反應：接收、開啟、點選連結、取消訂閱等。 請參閱傳遞的&#x200B;**追蹤記錄**&#x200B;標籤。
 
-**秘訣**：訊息追蹤預設為啟用。 若要設定URL，請選取傳送精靈下方的顯示URL選項。 對於訊息的每個URL，您可以選擇是否啟動追蹤。
+**提示**：訊息追蹤預設為啟用。 若要設定URL，請選取傳送精靈下方的顯示URL選項。 對於訊息的每個URL，您可以選擇是否啟動追蹤。
 
-有關詳細資訊，請參閱 [追蹤訊息](../../sending/using/tracking-messages.md) 區段和 [追蹤指標](../../reporting/using/tracking-indicators.md) 說明。
+如需詳細資訊，請參閱[追蹤訊息](../../sending/using/tracking-messages.md)區段及[追蹤指標](../../reporting/using/tracking-indicators.md)說明。
 
 ## 動態報告 {#dyn-reports}
 
 動態報告可讓您建立完全可自訂的即時報告，以監控您的行銷活動。 Dimension、量度和視覺效果可讓您評估行銷活動對收件者的影響和成功。
 
-**秘訣**  — 您可使用內建報表來監視行銷活動，但也可以將任何量度或維度拖放至報表中來自訂這些報表。
+**提示** — 您可使用內建報告來監視行銷活動，但也可以將任何量度或維度拖放至報告以進行自訂。
 
-有關詳細資訊，請參閱 [報告指南](../../reporting/using/about-dynamic-reports.md).
+如需詳細資訊，請參閱[報告指南](../../reporting/using/about-dynamic-reports.md)。
 
 ## 熱點點擊
 
 「熱點點按」報表會顯示訊息內容(HTML和/或文字)以及每個連結的點按百分比。 藉由顯示每個動態內容的點按百分比，您可以測量哪些內容最能吸引收件者。
 
-有關詳細資訊，請參閱 [熱門點選報告](../../reporting/using/hot-clicks.md).
+如需詳細資訊，請參閱[熱門點選報告](../../reporting/using/hot-clicks.md)。
 
 ## 傳遞效能提示 {#performance-tips}
 

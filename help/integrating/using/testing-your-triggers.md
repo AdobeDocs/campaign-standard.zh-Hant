@@ -19,17 +19,17 @@ ht-degree: 1%
 
 下列疑難排解提示可協助您解決搭配Adobe Campaign使用觸發器時可能遇到的最常見問題：
 
-**功能是否啟用？**
+**功能是否已啟動？**
 
-若要檢查是否已啟動Triggers - Campaign整合，請按一下左上方的Adobe Campaign標誌，然後選取 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]**. 您應該會看到 **[!UICONTROL Experience Cloud Triggers]** 個專案。
+若要檢查是否已啟動Triggers - Campaign整合，請按一下左上方的Adobe Campaign標誌，然後選取&#x200B;**[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]**。 您應該會看到&#x200B;**[!UICONTROL Experience Cloud Triggers]**&#x200B;專案。
 
 如果您看到這個訊息，請繼續進行下一個步驟。
 
-如果沒有，請連絡您的Adobe客戶主管或專業服務合作夥伴。 另請參閱 [啟動功能](../../integrating/using/configuring-triggers-in-experience-cloud.md#activating-the-functionality).
+如果沒有，請連絡您的Adobe客戶主管或專業服務合作夥伴。 請參閱[啟用功能](../../integrating/using/configuring-triggers-in-experience-cloud.md#activating-the-functionality)。
 
-**嘗試建立觸發器**
+**嘗試建立觸發程式**
 
-請依照中所述的步驟操作 [在Campaign中建立對應的觸發程式](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) 以建立觸發器。
+依照[在Campaign](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign)中建立對應觸發程式中所述的步驟建立觸發程式。
 
 如果觸發器已建立，請繼續進行下一個步驟。 如果沒有，則表示觸發端點連線失敗。 檢查是否在Experience Cloud （啟用服務）中布建觸發程式。 若非如此，請聯絡您的Adobe客戶主管或專業服務合作夥伴。 需要下列資訊：
 
@@ -39,13 +39,13 @@ ht-degree: 1%
 
 **嘗試發佈觸發程式**
 
-請依照中所述的步驟操作 [在Campaign中建立對應的觸發程式](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) 以發佈觸發器。
+依照[在Campaign](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign)中建立對應觸發程式中所述的步驟來發佈觸發程式。
 
 如果發佈成功，請繼續進行下一個步驟。 如果沒有，請聯絡Adobe以重新啟動您的執行個體，然後再試一次。
 
 **從網站產生觸發程式**
 
-請依照中所述的步驟操作 [編輯異動訊息範本](../../integrating/using/using-triggers-in-campaign.md#editing-the-transactional-message-template) 以編輯及發佈交易式範本。 接著，測試從網站產生觸發程式。
+請依照[編輯異動訊息範本](../../integrating/using/using-triggers-in-campaign.md#editing-the-transactional-message-template)中所述的步驟來編輯並發佈異動範本。 接著，測試從網站產生觸發程式。
 
 如果Analytics收到觸發程式，請繼續進行下一個步驟。 如果沒有，請核取下列專案：
 
@@ -53,7 +53,7 @@ ht-degree: 1%
 * DTM已啟用MCID和Analytics所使用的網站
 * 建立觸發程式時會使用正確的Analytics報表套裝
 
-**Campaign是否收到觸發程式？**
+**促銷活動是否收到觸發程式？**
 
 如果沒有，則檢查是否從管道收到觸發程式。
 

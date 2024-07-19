@@ -21,29 +21,29 @@ ht-degree: 0%
 
 本機通知追蹤可以分割成三種型別：
 
-* **本機曝光數**  — 當本機通知已傳送至裝置，且位於通知中心時，卻完全未觸及。 在大多數情況下，如果不與遞送的數字相同，則曝光數應該類似。 這可確保裝置確實收到訊息，並將該資訊轉送回伺服器。
+* **本機曝光次數** — 本機通知已傳送至裝置，且位於通知中心，但完全沒有接觸時。 在大多數情況下，如果不與遞送的數字相同，則曝光數應該類似。 這可確保裝置確實收到訊息，並將該資訊轉送回伺服器。
 
-* **本機點按**  — 當本機通知已傳送至裝置，且使用者已按一下通知時。 使用者想要檢視通知（接著會移至本機開啟追蹤）或關閉通知。
+* **本機點按** — 本機通知已傳送至裝置，且使用者已點按通知時。 使用者想要檢視通知（接著會移至本機開啟追蹤）或關閉通知。
 
-* **本機開啟**  — 當本機通知已傳送至裝置，且使用者已按一下導致應用程式開啟的通知時。 這類似於本機點按，但如果通知已關閉，則不會觸發本機開啟。
+* **本機開啟** — 本機通知已傳送至裝置，且使用者已按一下通知導致應用程式開啟時。 這類似於本機點按，但如果通知已關閉，則不會觸發本機開啟。
 
-若要實作Adobe Campaign Standard的追蹤，行動應用程式必須在應用程式中包含行動SDK。 這些SDK可在 [!DNL Adobe Mobile Services].
+若要實作Adobe Campaign Standard的追蹤，行動應用程式必須在應用程式中包含行動SDK。 這些SDK可在[!DNL Adobe Mobile Services]中使用。
 
 若要傳送追蹤資訊，有三個變數必須傳送：兩個是從Adobe Campaign接收的資料的一部分，另一個是動作變數，可指定是曝光、點選或開啟。
 
 | 變數 | 值 |
 | :-: | :-: |
-| deliveryId | `deliveryId` 來自傳入資料(類似於推送追蹤，其中 `_dld` 已使用) |
-| broadlogId | `broadlogId` 來自傳入資料(類似於推送追蹤，其中 `_mld` 已使用) |
+| deliveryId | 來自傳入資料的`deliveryId` （類似於使用`_dld`的推播追蹤） |
+| broadlogId | 來自傳入資料的`broadlogId` （類似於使用`_mld`的推播追蹤） |
 | 動作 | 「1」代表「開啟」，「2」代表「點選」，「7」代表「印象」 |
 
 ## 實作本機曝光追蹤 {#implement-local-impression-tracking}
 
-Adobe Experience Platform Mobile SDK將自動為Android和iOS傳送曝光事件，無需任何其他設定。
+Adobe Experience Platform Mobile SDK將自動傳送Android和iOS的曝光事件，無需任何其他設定。
 
 ## 實作點選追蹤 {#implementing-click-tracking}
 
-針對點選追蹤，您必須傳送值「2」以在呼叫時執行動作 `collectMessageInfo()` 或 `trackAction()` 函式。
+針對點選追蹤，呼叫`collectMessageInfo()`或`trackAction()`函式時，您必須傳送值「2」才能執行動作。
 
 ### 適用於Android {#implement-click-tracking-android}
 
@@ -51,7 +51,7 @@ Adobe Experience Platform Mobile SDK將自動為Android和iOS傳送曝光事件�
 
 * 使用者看到通知但將其清除。
 
-  若要在駁回的情況下追蹤點按，請新增廣播接收器 `NotificationDismissalHandler` 應用程式模組的AndroidManifest檔案中。
+  若要追蹤在解除情況下發生的點按，請在應用程式模組的AndroidManifest檔案中新增廣播接收器`NotificationDismissalHandler`。
 
   ```
   <receiver
@@ -61,7 +61,7 @@ Adobe Experience Platform Mobile SDK將自動為Android和iOS傳送曝光事件�
 
 * 使用者看到通知並按一下後，就會轉向開啟的追蹤。
 
-  此情境應該會產生點按並開啟。 追蹤此點按將是追蹤開啟所需實施作業的一部分。 另請參閱 [實施開啟追蹤](#implement-open-tracking).
+  此情境應該會產生點按並開啟。 追蹤此點按將是追蹤開啟所需實施作業的一部分。 請參閱[實作開啟追蹤](#implement-open-tracking)。
 
 ### 適用於iOS {#implement-click-tracking-ios}
 
@@ -104,9 +104,9 @@ class NotificationDelegate: NSObject, UNUserNotificationCenterDelegate {
 
 若要追蹤開啟，我們必須建立目的。 意圖物件可讓Android作業系統在完成某些動作時，呼叫您的方法，在此案例中是按一下通知以開啟應用程式。
 
-此程式碼以點按曝光追蹤的實施為基礎。 在設定意圖後，您現在必須將追蹤資訊傳送回Adobe Campaign。 在此案例中，Android View([!DNL Activity])觸發了通知，並會在使用者點按後開啟或推至前景。 中的意圖物件 [!DNL Activity] 包含可用來追蹤開啟的通知資料。
+此程式碼以點按曝光追蹤的實施為基礎。 在設定意圖後，您現在必須將追蹤資訊傳送回Adobe Campaign。 在此情況下，觸發通知的Android檢視([!DNL Activity])將會開啟或因使用者點按而進入前景。 [!DNL Activity]中的目的物件包含可用來追蹤開啟的通知資料。
 
-MainActivity.java (延伸 [!DNL Activity])
+MainActivity.java （延伸[!DNL Activity]）
 
 ```
 @Override

@@ -21,12 +21,12 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->為了發佈API，請確保您已 **[!UICONTROL Datamodel]** 角色。
+>若要發佈API，請確定您具有&#x200B;**[!UICONTROL Datamodel]**&#x200B;角色。
 
 在公用API中公開擴充欄位的步驟如下：
 
 1. [將擴充功能欄位新增至設定檔資源](../../developing/using/step-1-add-extension-fields-to-the-profile-resource.md)
-1. [發佈擴充功能](../../developing/using/step-2-publish-the-extension.md)
+1. [Publish擴充功能](../../developing/using/step-2-publish-the-extension.md)
 1. [確認API中有新的擴充欄位可用](../../developing/using/step-3-verify-the-extension.md)
 
 **相關主題：**

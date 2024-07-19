@@ -24,6 +24,6 @@ Adobe Campaign中的所有通訊通道都必須正確設定，才能有效傳送
 * 訊息屬性。 建立新訊息時，您可以視需要微調屬性。
 * 有些管道提供額外的選用設定，例如電子郵件密件副本。
 
-此 **[!UICONTROL Channel]** 功能表會重新分組連結至不同應用程式通道（電子郵件、簡訊）的技術引數，以及分類和隔離管理。
+**[!UICONTROL Channel]**&#x200B;功能表會重新分組連結至不同應用程式通道（電子郵件、簡訊）的技術引數，以及分類和隔離管理。
 
-管理員可以在以下位置存取這些設定： **[!UICONTROL Administration]** > **[!UICONTROL Channels]** 功能表。
+管理員可以在&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Channels]**&#x200B;功能表中存取這些設定。

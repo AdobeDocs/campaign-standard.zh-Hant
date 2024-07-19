@@ -58,9 +58,9 @@ Adobe Campaign 中提供了三種類型的應用程式內訊息：
    * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**
    * **[!UICONTROL Target users based on their Mobile profile (inApp)]**
 
-1. 輸入應用程式內訊息屬性，並在以下位置選取您的行動應用程式： **[!UICONTROL Associate a Mobile App to a delivery]** 欄位。
+1. 輸入應用程式內訊息屬性，並在&#x200B;**[!UICONTROL Associate a Mobile App to a delivery]**&#x200B;欄位中選取您的行動應用程式。
 
-   如果您在下拉式清單中未看到任何應用程式，請確定您的行動應用程式位於 **已設定** 州別。 中的應用程式 **準備好進行設定** 狀態不會出現在清單中。 如需行動應用程式設定的詳細資訊，請參閱本[頁面](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)。
+   如果您在下拉式清單中未看到任何應用程式，請確定您的行動應用程式處於&#x200B;**已設定**&#x200B;狀態。 處於&#x200B;**準備就緒**&#x200B;狀態的應用程式將不會出現在清單中。 如需行動應用程式設定的詳細資訊，請參閱本[頁面](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)。
 
    ![](assets/inapp_creating_3.png)
 
@@ -92,7 +92,7 @@ Adobe Campaign 中提供了三種類型的應用程式內訊息：
 
    ![](assets/inapp_creating_4.png)
 
-1. 如果您使用 **[!UICONTROL Analytics Events]**，Adobe Analytics和檢視狀態事件將會根據在資料收集UI中的Analytics擴充功能中設定的報表套裝自動填入，而內容資料事件則必須手動新增。
+1. 如果您使用&#x200B;**[!UICONTROL Analytics Events]**，Adobe Analytics和檢視狀態事件將會根據資料收集UI中Analytics擴充功能中設定的報表套裝自動填入，而內容資料事件則必須手動新增。
 
    請注意，這些事件僅在您擁有Adobe Analytics授權時才可用。
 
@@ -163,7 +163,7 @@ Adobe Campaign 中提供了三種類型的應用程式內訊息：
 
 1. 傳送應用程式內訊息後，您可以選擇停用您的傳遞。 例如，如果您想要停止特定傳送，或想要使用相同觸發程式執行新傳送，則此功能會很有用。
 
-   按一下 **[!UICONTROL Deactivate]** 則 **[!UICONTROL Ok]** 以啟動停用請求。
+   按一下&#x200B;**[!UICONTROL Deactivate]**，然後按&#x200B;**[!UICONTROL Ok]**，開始停用要求。
 
    ![](assets/inapp_sending_8.png)
 

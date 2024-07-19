@@ -1,6 +1,6 @@
 ---
 title: 使用 Campaign 與 Assets 核心服務
-description: 由於Assets核心服務整合，請在Adobe Campaign訊息和登陸頁面中使用在Adobe Experience Cloud內共用的任何資源。
+description: 由於Adobe Experience Cloud核心服務整合，請在Adobe Campaign訊息和登陸頁面中使用在Assets內共用的任何資源。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-assets-core-service
@@ -19,11 +19,11 @@ ht-degree: 9%
 
 將Assets核心服務或Assets on Demand (取決於Adobe Experience Cloud環境的設定)與Adobe Campaign整合，可讓您在Adobe Campaign電子郵件和登陸頁面中，使用Adobe Experience Cloud內共用的任何資產。
 
-與Assets核心服務的整合僅限於 [功能管理員](../../administration/using/users-management.md#functional-administrators).
+與Assets核心服務的整合限製為[功能管理員](../../administration/using/users-management.md#functional-administrators)。
 
 從Adobe Experience Cloud共用的資源可用於您的電子郵件和登入頁面，如下所示：
 
-1. 編輯電子郵件或登入頁面的內容時，請前往影像區塊，然後選取「 」 **[!UICONTROL Image shared from Adobe Experience Cloud]** 透過內容功能表。
+1. 編輯電子郵件或登入頁面的內容時，請移至影像區塊，然後透過內容功能表選取&#x200B;**[!UICONTROL Image shared from Adobe Experience Cloud]**。
 
    ![](assets/dam_insert_image_dce.png)
 
@@ -35,5 +35,5 @@ ht-degree: 9%
 
 **相關主題：**
 
-* [資產和共用](https://experienceleague.adobe.com/docs/core-services/interface/assets/experience-cloud-assets.html)
+* [Assets和共用](https://experienceleague.adobe.com/docs/core-services/interface/assets/experience-cloud-assets.html)
 * [內容編輯器](../../designing/using/personalization.md#example-email-personalization)

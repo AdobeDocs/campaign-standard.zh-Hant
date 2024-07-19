@@ -22,7 +22,7 @@ ht-degree: 48%
 
 若要存取整合式客戶設定檔，請執行以下步驟：
 
-1. 從Adobe Campaign首頁，按一下 **[!UICONTROL Customer profiles]** 卡片或 **設定檔** 標籤以顯示設定檔清單。
+1. 從Adobe Campaign首頁，按一下「**[!UICONTROL Customer profiles]**」卡片或「**設定檔**」標籤，以顯示設定檔清單。
 
 1. 若要根據特定欄位搜尋設定檔，請開啟搜尋窗格，然後選取您要執行搜尋的欄位。
 

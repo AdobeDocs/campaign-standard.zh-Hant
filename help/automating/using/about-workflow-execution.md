@@ -18,13 +18,13 @@ ht-degree: 8%
 
 # 關於工作流程執行 {#about-workflow-execution}
 
-工作流程一律以手動方式啟動。 不過，啟動後可能會維持非使用中，端視中指定的資訊而定 [排程器](../../automating/using/scheduler.md) 活動。
+工作流程一律以手動方式啟動。 不過，啟動後，它會根據[排程器](../../automating/using/scheduler.md)活動中指定的資訊，維持非使用中狀態。
 
 >[!IMPORTANT]
 >
-> Adobe建議客戶不要同時執行超過20個作用中工作流程，並隨著時間安排工作流程執行的優先順序和分佈。 如需詳細資訊，請參閱中提供的最佳實務 [此頁面](../../automating/using/best-practices-workflows.md).
+> Adobe建議客戶不要同時執行超過20個作用中工作流程，並隨著時間安排工作流程執行的優先順序和分佈。 如需詳細資訊，請參閱[此頁面](../../automating/using/best-practices-workflows.md)中提供的最佳實務。
 
-執行相關動作（啟動、停止、暫停等） 為 **非同步** 處理序：命令已儲存，一旦伺服器可供套用，命令就會生效。
+執行相關動作（啟動、停止、暫停等） 是&#x200B;**非同步**&#x200B;處理序：命令已儲存，一旦伺服器可供套用，命令就會生效。
 
 在工作流程中，每個活動的結果通常會透過轉變（以箭頭表示）傳送到以下活動。
 
@@ -42,12 +42,12 @@ ht-degree: 8%
 
 您可以開啟轉變來檢查在執行工作流程期間或之後傳送的資料是否正確。您可以檢視資料和資料結構。
 
-依預設，僅可存取工作流程的最後轉變的詳細資訊。 若要存取前述活動的結果，您必須檢查 **[!UICONTROL Keep interim results]** 中的選項 **[!UICONTROL Execution]** 區段來啟動工作流程。
+依預設，僅可存取工作流程的最後轉變的詳細資訊。 若要能夠存取先前活動的結果，您必須先核取工作流程屬性&#x200B;**[!UICONTROL Execution]**&#x200B;區段中的&#x200B;**[!UICONTROL Keep interim results]**&#x200B;選項，才能啟動工作流程。
 
 >[!NOTE]
 >
 >此選項會耗用大量記憶體，其設計旨在協助建構工作流程並確保其正確設定和行為。 在生產執行個體中保留未核取的狀態。
 
-當切換開啟時，您可以編輯其 **[!UICONTROL Label]** 或連結 **[!UICONTROL Segment code]** 轉換至此。 要執行此操作，請編輯對應的欄位並確認您的修改。
+當切換開啟時，您可以編輯其&#x200B;**[!UICONTROL Label]**&#x200B;或將&#x200B;**[!UICONTROL Segment code]**&#x200B;連結至其中。 要執行此操作，請編輯對應的欄位並確認您的修改。
 
-使用Campaign Standard REST API，您可以 **開始**， **pause**， **繼續** 和 **停止** 工作流程。 您可以在「 」中找到更多詳情和REST呼叫範例 [API檔案。](../../api/using/controlling-a-workflow.md)
+使用Campaign StandardREST API，您可以&#x200B;**開始**、**暫停**、**繼續**&#x200B;和&#x200B;**停止**&#x200B;工作流程。 您可以在[API檔案中找到更多詳細資訊和REST呼叫範例。](../../api/using/controlling-a-workflow.md)

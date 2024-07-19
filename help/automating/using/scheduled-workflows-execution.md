@@ -22,7 +22,7 @@ ht-degree: 1%
 
 在Campaign Standard中，工作流程引擎可確保工作流程例項僅由一個程式執行。 封鎖匯入、長時間執行查詢或寫入資料庫等活動會導致執行時無法執行任何其他工作。
 
-另一方面，非封鎖活動不會封鎖其他工作的執行(通常是等待事件的活動，例如 **[!UICONTROL Scheduler]** 活動)。
+另一方面，非封鎖活動不會封鎖其他工作的執行(通常是等待事件（例如&#x200B;**[!UICONTROL Scheduler]**&#x200B;活動）的活動)。
 
 這可能會導致這樣一種情況：即使相同工作流程的上次執行尚未完成，排程型工作流程仍可以開始執行，可能會導致未預期的資料問題。
 
@@ -30,11 +30,11 @@ ht-degree: 1%
 
 ## 設定工作流程
 
-若要檢查先前工作流程執行的一或多個任務是否仍在擱置中，您需要使用 **[!UICONTROL Query]** 和 **[!UICONTROL Test]** 活動。
+若要檢查先前工作流程執行的一或多個任務是否仍在擱置中，您需要使用&#x200B;**[!UICONTROL Query]**&#x200B;和&#x200B;**[!UICONTROL Test]**&#x200B;活動。
 
-1. 新增 **[!UICONTROL Query]** 活動之後 **[!UICONTROL Scheduler]** 活動，然後進行如下設定。
+1. 在&#x200B;**[!UICONTROL Scheduler]**&#x200B;活動之後新增&#x200B;**[!UICONTROL Query]**&#x200B;活動，然後如下所示設定。
 
-1. 將活動的資源變更為 **[!UICONTROL WorkflowTaskDetail]**，表示它會鎖定工作流程的目前任務。
+1. 將活動的資源變更為&#x200B;**[!UICONTROL WorkflowTaskDetail]**，這表示它將以工作流程的目前任務為目標。
 
    ![](assets/scheduled-wkf-resource.png)
 
@@ -46,11 +46,11 @@ ht-degree: 1%
 
      >[!NOTE]
      >
-     >當 **[!UICONTROL Scheduler]** 活動開始，會立即新增另一個排程工作，以便在下一個排程時間執行，並啟動工作流程。 因此，在尋找先前執行的擱置任務時，請務必篩選查詢以及排程任務。
+     >當&#x200B;**[!UICONTROL Scheduler]**&#x200B;活動啟動時，它會立即新增另一個排程工作，以便在下一個排程時間執行並啟動工作流程。 因此，在尋找先前執行的擱置任務時，請務必篩選查詢以及排程任務。
 
    * 第二個規則會判斷先前執行的工作流程是否有任何工作仍在進行中（擱置中），這與0執行狀態相對應。
 
-1. 新增 **[!UICONTROL Test]** 活動，以檢查傳回的擱置任務數目。 **[!UICONTROL Query]** 活動。 為此，請設定兩個出站轉變。
+1. 新增&#x200B;**[!UICONTROL Test]**&#x200B;活動，以檢查&#x200B;**[!UICONTROL Query]**&#x200B;活動傳回的擱置任務數目。 為此，請設定兩個出站轉變。
 
    ![](assets/scheduled-wkf-test.png)
 

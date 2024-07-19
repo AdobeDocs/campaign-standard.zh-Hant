@@ -23,7 +23,7 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->REST API傳回「href」屬性，其中包含要使用的URL。 <b>一律使用回應中包含的URL提出後續的API請求</b>.
+>REST API傳回「href」屬性，其中包含要使用的URL。 <b>一律使用回應中包含的URL進行後續的API要求</b>。
 
 <br/>
 

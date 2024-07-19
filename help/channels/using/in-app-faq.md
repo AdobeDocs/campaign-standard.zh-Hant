@@ -22,7 +22,7 @@ ht-degree: 0%
 檢視下列資源：
 
 * [視訊Tutorials](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/in-app/in-app-message-overview.html)
-* [部落格貼文](https://theblog.adobe.com/get-more-out-of-the-new-in-app-message-channel-from-adobe-campaign/)
+* [部落格](https://theblog.adobe.com/get-more-out-of-the-new-in-app-message-channel-from-adobe-campaign/)
 * [社群頁面](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ## Campaign擴充功能API setLinkageField和resetLinkageField的用途為何？ {#extensions-apis}
@@ -34,19 +34,19 @@ ht-degree: 0%
 * 只有當使用者已登入應用程式時，才能提供使用設定檔範本建立的訊息。
 * 為了促進此安全交握，行動應用程式開發人員應使用setLinkageField API傳遞其他驗證詳細資訊。 請注意，連結欄位是在擴充appSubscriberRcp表格時，識別為行動設定檔與CRM設定檔之間的連結欄位。
 * 使用者使用resetLinkageField登出應用程式時，他們應該清除儲存在裝置上的應用程式內訊息，並重設Linkagefields 。 這樣可確保當不同的使用者登入應用程式時，不會看到原本要傳送給前一位使用者的訊息。
-* 請參閱 [行動SDK API](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/) 在使用者端實作此安全性機制。
+* 請參考[Mobile SDK API](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/)以實作此安全性機制使用者端。
 
 ## 如何在Campaign啟用應用程式內報告？ {#enable-inapp-reporting}
 
-您需要設定應用程式內追蹤回傳。 可找到指示 [此處](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback).
+您需要設定應用程式內追蹤回傳。 您可以在[這裡](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback)找到指示。
 
-若要實作本機通知追蹤，請參閱此 [頁面](../../administration/using/local-tracking.md).
+若要實作本機通知追蹤，請參閱此[頁面](../../administration/using/local-tracking.md)。
 
 ## 哪些報表適用於應用程式內頻道？ {#report-inapp}
 
-Adobe Campaign為應用程式內頻道提供現成可用的報表。 請參閱此 [檔案](../../reporting/using/in-app-report.md).
+Adobe Campaign為應用程式內頻道提供現成可用的報表。 請參閱此[檔案](../../reporting/using/in-app-report.md)。
 
-檢視此 [頁面](../../reporting/using/indicator-calculation.md#in-app-delivery) 以瞭解每個應用程式內量度的計算方式。
+請參閱此[頁面](../../reporting/using/indicator-calculation.md#in-app-delivery)，瞭解每個應用程式內量度的計算方式。
 
 ## 是否針對類似推播的應用程式內支援多語言內容變體？ {#multilingual-inapp}
 
@@ -73,7 +73,7 @@ Adobe Campaign為應用程式內頻道提供現成可用的報表。 請參閱�
 是，應用程式內訊息支援深層連結。 深層連結應包括：
 
 * 表示必須停用傳遞追蹤才能使用深層連結的語言。
-* Appsflyer與Branch合作，作為可執行深層連結追蹤的合作夥伴。 如需分支和Adobe Campaign Standard整合的詳細資訊，請參閱本節 [頁面](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
+* Appsflyer與Branch合作，作為可執行深層連結追蹤的合作夥伴。 如需Branch與Adobe Campaign Standard整合的詳細資訊，請參閱此[頁面](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1)。
 
 ## 使用者從推播通知啟動應用程式時，是否會觸發應用程式內訊息？ {#inapp-push-trigger}
 

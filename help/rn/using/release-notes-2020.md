@@ -236,7 +236,7 @@ ht-degree: 97%
 **其他功能**（從 7 月 13 日起）
 
 * **由 AI 支援的傳送時間最佳化和設定檔計分** - 您現在可以最佳化客戶歷程的設計和傳遞，以預測每個人的參與偏好。Adobe Campaign 採用 Journey AI，可根據歷史參與量度來分析和預測開放率、最佳傳送時間和可能的流失率。[進一步瞭解](../../sending/using/predictive.md)
-* **巴西新的隱私權法規**  — 除了Campaign所提供的隱私權功能以外，Adobe協助您做好準備，以迎接巴西的Lei Geral de Proteção de Datos (LGPD)。 建立隱私權要求時，LGPD 規則類型已新增至 Adobe 隱私權核心服務。[進一步瞭解](https://helpx.adobe.com/tw/campaign/kb/campaign-privacy-overview.html)
+* **巴西的新隱私權規範** — 除了Campaign中已提供的隱私權功能以外，Adobe還可協助您做好準備，以迎接巴西的Lei Geral de Proteçao de Datos (LGPD)。 建立隱私權要求時，LGPD 規則類型已新增至 Adobe 隱私權核心服務。[進一步瞭解](https://helpx.adobe.com/tw/campaign/kb/campaign-privacy-overview.html)
 
 **改進**
 
@@ -267,7 +267,7 @@ ht-degree: 97%
 
 **體驗平台整合**
 
-* 從啟動Adobe Experience Platform對象 **讀取對象** 活動已改善，以提供更出色的效能和穩定性。 此外，工作流程記錄檔已經更清楚且更詳細地記錄啟動工作，讓您在讀取 Adobe Experience Platform 閱聽眾時，能夠更輕鬆地進行監控和疑難排解。
+* 從&#x200B;**讀取對象**&#x200B;活動啟動Adobe Experience Platform對象已經有所改善，而可提供較出色的效能及穩定性。 此外，工作流程記錄檔已經更清楚且更詳細地記錄啟動工作，讓您在讀取 Adobe Experience Platform 閱聽眾時，能夠更輕鬆地進行監控和疑難排解。
 
 **修補程式**
 

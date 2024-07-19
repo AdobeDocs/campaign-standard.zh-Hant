@@ -43,7 +43,7 @@ ht-degree: 78%
    ![](assets/wkf_data_export1.png)
 
 1. 選取活動，然後使用所顯示快速動作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
-1. 輸入&#x200B;**輸出檔案**&#x200B;的標籤。將自動在檔案的標籤內填入建立的日期與時間，所以該標籤會是唯一的。例如：recipients_20150815_081532.txt，此檔案是於2015年8月15日08時產生的:15:32.
+1. 輸入&#x200B;**輸出檔案**&#x200B;的標籤。將自動在檔案的標籤內填入建立的日期與時間，所以該標籤會是唯一的。例如：recipients_20150815_081532.txt，此檔案是於2015年8月15日08:15:32產生的。
 
    >[!NOTE]
    >
@@ -51,9 +51,9 @@ ht-degree: 78%
 
 1. 您也可以在 **[!UICONTROL Add a post-processing stage]** 欄位中選取 **[!UICONTROL Compression]** 以壓縮輸出檔案。輸出檔案將壓縮為 GZIP 檔案 (.gz)。
 
-   此 **[!UICONTROL Add a post-processing stage]** 欄位也可讓您在解壓縮檔案之前先加密檔案。 有關如何使用加密檔案的詳細資訊，請參閱 [本節](../../automating/using/managing-encrypted-data.md)
+   **[!UICONTROL Add a post-processing stage]**&#x200B;欄位也允許您在解壓縮檔案之前對其進行加密。 有關如何使用加密檔案的詳細資訊，請參閱[本節](../../automating/using/managing-encrypted-data.md)
 
-1. 按一下 **[!UICONTROL Create element]** 按鈕以新增輸出欄。
+1. 按一下&#x200B;**[!UICONTROL Create element]**&#x200B;按鈕以新增輸出資料行。
 
    ![](assets/wkf_data_export2.png)
 

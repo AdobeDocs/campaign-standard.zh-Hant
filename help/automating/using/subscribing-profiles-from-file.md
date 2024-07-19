@@ -24,7 +24,7 @@ ht-degree: 53%
 
 ![](assets/subscription_activity_example1.png)
 
-* A [載入檔案](../../automating/using/load-file.md) 活動載入設定檔檔案並定義匯入欄的結構。
+* [載入檔案](../../automating/using/load-file.md)活動載入設定檔檔案並定義匯入資料行的結構。
 
   在此範例中，載入檔案為 .csv 格式，並包含以下資料：
 
@@ -43,14 +43,14 @@ ht-degree: 53%
 
   ![](assets/subscription_activity_example2.png)
 
-* A [調解](../../automating/using/reconciliation.md) 活動會將檔案中的資料識別為屬於Adobe Campaign資料庫的設定檔維度。 僅設定 **[!UICONTROL Identification]** 索引標籤。它會根據描述檔的電子郵件地址識別檔案資料。
+* [調解](../../automating/using/reconciliation.md)活動會將檔案中的資料識別為屬於Adobe Campaign資料庫的設定檔維度。 僅設定 **[!UICONTROL Identification]** 索引標籤。它會根據描述檔的電子郵件地址識別檔案資料。
 
   ![](assets/subscription_activity_example3.png)
 
-* A [重複資料刪除](../../automating/using/deduplication.md) 根據 **電子郵件** 臨時資源的欄位（調解後產生的結果）會識別任何重複專案。 如果從檔案匯入的資料包含任何重複項目，所有資料服務的訂閱將會失敗。
+* 以臨時資源的&#x200B;**電子郵件**&#x200B;欄位為基礎的[重複資料刪除](../../automating/using/deduplication.md) （調解後產生的結果）可識別任何重複專案。 如果從檔案匯入的資料包含任何重複項目，所有資料服務的訂閱將會失敗。
 
   ![](assets/subscription_activity_example5.png)
 
-* A [訂閱服務](../../automating/using/subscription-services.md) 活動可讓您選取必須訂閱設定檔的服務、與訂閱日期對應之欄位，以及訂閱的來源。
+* [訂閱服務](../../automating/using/subscription-services.md)活動可讓您選取必須訂閱設定檔的服務、與訂閱日期對應的欄位，以及訂閱的來源。
 
   ![](assets/subscription_activity_example4.png)

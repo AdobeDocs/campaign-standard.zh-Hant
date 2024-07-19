@@ -19,10 +19,10 @@ ht-degree: 6%
 
 除了追蹤客戶的線上狀態外，您也可以利用客戶的實體位置。 透過與適用於行動裝置的Adobe Analytics整合，您可以使用Adobe Campaign傳送位置型行銷訊息給行動應用程式的訂閱者。
 
-地標是由緯度、經度以及與標籤相關聯的半徑所組成。 它們是在下列位置中定義： [Adobe行動服務](https://experienceleague.adobe.com/docs/mobile-services/using/home.html) 介面。
+地標是由緯度、經度以及與標籤相關聯的半徑所組成。 已在[AdobeMobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/home.html)介面中定義。
 
 當訂閱者開啟您的行動應用程式時，如果位置符合Point of Interest，Adobe Campaign會透過Experience Cloud行動SDK擷取資料。 您可以使用此資訊，根據使用者的位置傳送個人化訊息（例如電子郵件、推播通知、簡訊訊息）。
 
 例如，您可以傳送10%折扣優惠給使用您的應用程式，並在過去兩週內造訪您位於波士頓的店舖的客戶。
 
-使用案例會顯示在中 [使用Point of Interest資料個人化Campaign訊息](../../integrating/using/personalizing-campaign-messages-with-point-of-interest-data.md) 區段。
+在[個人化Campaign訊息與Point of Interest資料](../../integrating/using/personalizing-campaign-messages-with-point-of-interest-data.md)區段中呈現使用案例。

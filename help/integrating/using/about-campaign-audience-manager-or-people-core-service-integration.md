@@ -21,10 +21,10 @@ ht-degree: 18%
 >
 >根據交換的資料，在Adobe Campaign中匯入對象可能會受到法律限制。
 
-Adobe Campaign可讓您與不同的Adobe Experience Cloud應用程式交換和共用對象/區段。 整合 **Adobe Campaign** 替換為 **People核心服務** (也稱為 **設定檔與受眾核心服務**)或Adobe Audience Manager可讓您：
+Adobe Campaign可讓您與不同的Adobe Experience Cloud應用程式交換和共用對象/區段。 將&#x200B;**Adobe Campaign**&#x200B;與&#x200B;**People核心服務** （也稱為&#x200B;**設定檔與對象核心服務**）或Adobe Audience Manager整合可讓您：
 
-* 從不同的Adobe Experience Cloud解決方案匯入對象/區段至Adobe Campaign。 對象可從匯入 **[!UICONTROL Audiences]** Adobe Campaign中的功能表。
-* 將對象匯出為共用對象/區段。 這些對象可用於您所使用的不同 Adobe Experience Cloud 解決方案。 在工作流程中目標定位活動後，可使用匯出對象。 **[!UICONTROL Save audience]** 活動。
+* 從不同的Adobe Experience Cloud解決方案匯入對象/區段至Adobe Campaign。 您可以從Adobe Campaign的&#x200B;**[!UICONTROL Audiences]**&#x200B;功能表匯入對象。
+* 將對象匯出為共用對象/區段。 這些對象可用於您所使用的不同 Adobe Experience Cloud 解決方案。 在工作流程中目標定位活動後，可使用&#x200B;**[!UICONTROL Save audience]**&#x200B;活動匯出對象。
 
 整合支援兩種型別的Adobe Experience Cloud ID：
 
@@ -36,7 +36,7 @@ Adobe Campaign可讓您與不同的Adobe Experience Cloud應用程式交換和�
   之後，具有相同CNAME的其他Adobe Marketing Cloud應用程式將會識別該ID。
 
 * **宣告ID**：此型別的ID可讓您調解任何型別的資料與Adobe Campaign資料庫中的元素。 在Adobe Campaign中以預先定義的調解金鑰呈現。 交換資料時，會雜湊處理Adobe Campaign資料庫識別碼。 這些雜湊ID接著會與匯入或匯出所涉及的Adobe Marketing Cloud對象雜湊ID比較。
-  <br>此整合支援一般宣告ID、雜湊宣告ID和加密宣告ID。
+  <br>這項整合支援一般宣告ID、雜湊宣告ID和加密宣告ID。
 
   >[!NOTE]
   >

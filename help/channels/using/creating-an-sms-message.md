@@ -91,4 +91,4 @@ ht-degree: 87%
 
 >[!VIDEO](https://video.tv.adobe.com/v/25265/?quality=12)
 
-提供其他Campaign Standard操作影片 [此處](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant).
+[此處](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant)提供其他Campaign Standard操作說明影片。

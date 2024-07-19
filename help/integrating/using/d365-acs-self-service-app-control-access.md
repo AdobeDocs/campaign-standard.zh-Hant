@@ -30,15 +30,15 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> 這些步驟需要 **管理員** 在您組織的Experience Cloud中的角色。
+> 這些步驟需要您組織Experience Cloud中的&#x200B;**管理員**&#x200B;角色。
 >
 
 1. 瀏覽至https://experience.adobe.com/並登入Adobe Experience Cloud。
-1. 存取 **Admin Console**.
+1. 存取&#x200B;**Admin Console**。
 
    ![](assets/do-not-localize/d365-to-acs-access-3.png)
 
-1. 按一下 **[!UICONTROL Products]** 以存取您的Experience Cloud解決方案。
+1. 按一下&#x200B;**[!UICONTROL Products]**&#x200B;以存取您的Experience Cloud解決方案。
 
    ![](assets/do-not-localize/d365-to-acs-access-6.png)
 
@@ -56,15 +56,15 @@ ht-degree: 0%
 
    ![](assets/do-not-localize/d365-to-acs-access-8.png)
 
-1. 按一下 **[!UICONTROL New Profile]** 按鈕並新增以下名稱的專案： **Campaign Standard- your-prod-instance-name - D365/ACS整合**
+1. 按一下「**[!UICONTROL New Profile]**」按鈕，並新增名為&#x200B;**Campaign Standard- your-prod-instance-name - D365/ACS整合**&#x200B;的專案
 
-   * 如果您在清單中看到此專案，則不需要繼續。 按一下 **Adobe Campaign Standard** ，並檢查其他Campaign執行個體。
+   * 如果您在清單中看到此專案，則不需要繼續。 按一下左側功能表中的&#x200B;**Adobe Campaign Standard**，然後檢查其他Campaign執行個體。
 
    * 請務必將「your-prod-instance-name」取代為您的例項的實際名稱。
 
-1. 您可以離開 **[!UICONTROL Permission Group]** 具有預設值的下拉式清單。
+1. 您可以保留&#x200B;**[!UICONTROL Permission Group]**&#x200B;下拉式清單的預設值。
 
-1. 如果您的專案看起來類似下列，請按一下 **[!UICONTROL Done]** 按鈕。
+1. 如果您的專案看起來類似下列，請按一下&#x200B;**[!UICONTROL Done]**&#x200B;按鈕。
 
    ![](assets/do-not-localize/d365-to-acs-access-14.png)
 
@@ -74,17 +74,17 @@ ht-degree: 0%
 
 ## 授予使用者存取許可權 {#add-users-to-profile}
 
-從 **[!UICONTROL Products]**  請選取您的Campaign執行個體，然後遵循下列步驟：
+從&#x200B;**[!UICONTROL Products]**&#x200B;頁面，選取您的Campaign執行個體，並遵循下列步驟：
 
-1. 按一下您先前建立的新設定檔：  **Campaign Standard- your-prod-instance-name - D365/ACS整合**
+1. 按一下您先前建立的新設定檔： **Campaign Standard- your-prod-instance-name - D365/ACS整合**
 
    ![](assets/do-not-localize/d365-to-acs-access-15.png)
 
-1. 按一下 **[!UICONTROL Developers]** 標籤。
+1. 按一下「**[!UICONTROL Developers]**」標籤。
 
    ![](assets/do-not-localize/d365-to-acs-access-18.png)
 
-1. 按一下 **[!UICONTROL Add Developer]** 按鈕
+1. 按一下&#x200B;**[!UICONTROL Add Developer]**&#x200B;按鈕
 
 1. 輸入要新增的使用者名稱或電子郵件地址。  選取符合使用者的結果。
 

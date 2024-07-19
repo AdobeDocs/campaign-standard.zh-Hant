@@ -25,7 +25,7 @@ ht-degree: 6%
 
 Adobe Campaign Standard可讓您透過API觸發立即擷取資料對應，並擷取擷取要求的狀態。
 
-此頁面說明如何觸發及擷取資料對應的擷取狀態。 如需Campaign Standard API的全球資訊，請參閱 [本節](../../api/using/get-started-apis.md).
+此頁面說明如何觸發及擷取資料對應的擷取狀態。 如需Campaign StandardAPI的全球資訊，請參閱[本節](../../api/using/get-started-apis.md)。
 
 ## 先決條件 {#prerequisites}
 
@@ -36,9 +36,9 @@ Adobe Campaign Standard可讓您透過API觸發立即擷取資料對應，並擷
 
 建立資料對應後，您必須將其停止執行，以便您隨時可以從API觸發。 要執行此操作，請依照下列步驟執行：
 
-1. 在Campaign Standard中，前往 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** 功能表。
+1. 在Campaign Standard中，移至&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]**&#x200B;功能表。
 
-1. 連按兩下資料對應以開啟，然後按一下 **[!UICONTROL Stop]** 按鈕。
+1. 連按兩下資料對應以開啟它，然後按一下&#x200B;**[!UICONTROL Stop]**&#x200B;按鈕。
 
    ![](assets/aep_datamapping_stop.png)
 
@@ -54,7 +54,7 @@ Adobe Campaign Standard可讓您透過API觸發立即擷取資料對應，並擷
 
 >[!NOTE]
 >
->為了執行擷取POSTAPI呼叫，使用者必須擁有 **SQL函式執行** 角色，可由Campaign Standard管理員透過執行以下JS指令碼來提供：
+>為了執行內嵌POSTAPI呼叫，使用者必須具有&#x200B;**SQL函式執行**&#x200B;角色，該角色可由Campaign Standard管理員透過執行以下JS指令碼來提供：
 >
 >```
 >var sqlRoleObj = REST.head.roleBase.sql.get();
@@ -108,12 +108,12 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 
 >[!NOTE]
 >
->有關XDM對應請求狀態及其相關作業的詳細資訊，請參閱Campaign Standard介面中的 **[!UICONTROL Status of data export to platform]** 功能表(請參閱 [對應啟動](../../integrating/using/aep-mapping-activation.md))。
+>有關XDM對應要求狀態及其相關工作的詳細資訊，可在&#x200B;**[!UICONTROL Status of data export to platform]**&#x200B;功能表的Campaign Standard介面中取得（請參閱[對應啟動](../../integrating/using/aep-mapping-activation.md)）。
 
 GET作業會傳回下列資訊：
 
-* **batchId**：只有在批次準備和上傳後發生失敗時，才會填入此欄位，
-* **資訊**：XDM對應ID、
+* **batchId**：只有在批次準備和上傳後發生失敗時，才會填入此欄位。
+* **資訊**： XDM對應ID，
 * **numRecords**：已擷取的記錄數（僅限成功狀態），
 * **狀態**：擷取要求狀態（成功/失敗/進行中）
 

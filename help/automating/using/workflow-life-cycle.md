@@ -20,9 +20,9 @@ ht-degree: 3%
 
 工作流程的生命週期包括三個主要步驟，每個步驟都與狀態和顏色連結：
 
-* **編輯** （灰色）
+* **正在編輯** （灰色）
 
-  這是工作流程的初始設計階段(請參閱 [建立工作流程](../../automating/using/building-a-workflow.md#creating-a-workflow))。 伺服器尚未處理工作流程，且修改工作流程沒有任何風險。
+  這是工作流程的初始設計階段（請參閱[建立工作流程](../../automating/using/building-a-workflow.md#creating-a-workflow)）。 伺服器尚未處理工作流程，且修改工作流程沒有任何風險。
 
 * **進行中** （藍色）
 
@@ -36,12 +36,12 @@ ht-degree: 3%
 
 * **警告** （黃色）
 
-  工作流程無法完成或已暫停使用 ![](assets/pause_darkgrey-24px.png) 或 ![](assets/check_pause_darkgrey-24px.png) 按鈕。
+  工作流程無法完成，或已使用![](assets/pause_darkgrey-24px.png)或![](assets/check_pause_darkgrey-24px.png)按鈕暫停。
 
 * **錯誤** （紅色）
 
-  執行工作流程時發生錯誤。 工作流程已停止，使用者必須執行動作。 若要進一步瞭解此錯誤，請使用 ![](assets/printpreview_darkgrey-24px.png) 按鈕以存取工作流程記錄(請參閱 [監視](../../automating/using/monitoring-workflow-execution.md))。
+  執行工作流程時發生錯誤。 工作流程已停止，使用者必須執行動作。 若要進一步瞭解此錯誤，請使用![](assets/printpreview_darkgrey-24px.png)按鈕來存取工作流程記錄檔（請參閱[監視](../../automating/using/monitoring-workflow-execution.md)）。
 
-行銷活動清單可讓您顯示所有工作流程及其狀態。 有關詳細資訊，請參閱 [管理行銷活動](../../start/using/marketing-activities.md#about-marketing-activities).
+行銷活動清單可讓您顯示所有工作流程及其狀態。 如需詳細資訊，請參閱[管理行銷活動](../../start/using/marketing-activities.md#about-marketing-activities)。
 
 ![](assets/wkf_execution_3.png)

@@ -49,14 +49,14 @@ ht-degree: 78%
    <td> Adobe Experience Manager<br /> </td> 
    <td> 可讓您直接在 Adobe Experience Manager 中建立對應至 Adobe Campaign 資料庫的電子郵件內容或表單。<br /> </td> 
    <td> 
-     <a href="../../integrating/using/integrating-with-experience-manager.md">合作使用行銷活動與Experience Manager</a>， <a href="https://helpx.adobe.com/tw/experience-manager/6-4/sites/administering/using/campaignstandard.html">整合Experience Manager和Campaign Standard</a>， <a href="https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html">使用Experience Manager和行銷活動建立電子郵件</a> 
+     <a href="../../integrating/using/integrating-with-experience-manager.md">使用行銷活動和Experience Manager</a>，<a href="https://helpx.adobe.com/tw/experience-manager/6-4/sites/administering/using/campaignstandard.html">整合Experience Manager和Campaign Standard</a>，<a href="https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html">建立包含Experience Manager和行銷活動的電子郵件</a> 
     </td> 
   </tr> 
   <tr> 
    <td> Adobe Target<br /> </td> 
    <td> 可讓您在開啟由 Adobe Campaign 建立和發傳送的電子郵件活動時插入由 Adobe Target 動態運算的影像。<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-target-integration.md">合作使用Campaign與Target</a>， <a href="https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html">整合Campaign和Target</a>， <a href="https://helpx.adobe.com/tw/marketing-cloud/how-to/email-marketing.html">即時個人化電子郵件影像</a> 影片（步驟3）
+    <a href="../../integrating/using/about-campaign-target-integration.md">使用Campaign和Target</a>，<a href="https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html">整合Campaign和Target</a>，<a href="https://helpx.adobe.com/tw/marketing-cloud/how-to/email-marketing.html">在即時影片中個人化電子郵件影像</a> （步驟3）
     </td> 
   </tr> 
   <tr> 
@@ -77,7 +77,7 @@ ht-degree: 78%
    <td><a href="../../integrating/using/get-started-sources-destinations.md">開始使用來源和目標</a></td>
   </tr> 
   <tr> 
-   <td> Adobe資產核心服務與隨選資產<br /> </td> 
+   <td> Adobe資產核心服務與Assets On Demand <br /> </td> 
    <td> 可讓您將 Adobe Experience Cloud 資料庫中的資產插入到 Adobe Campaign 中建立的電子郵件和登錄頁中。<br /> </td> 
    <td> <a href="../../integrating/using/working-with-campaign-and-assets-core-service.md">資產核心服務</a> 或隨選資產<br /> </td> 
   </tr> 
@@ -95,18 +95,18 @@ ht-degree: 78%
   </tr> 
     <tr> 
    <td> AdobeJourney Orchestration<br /> </td> 
-   <td> 允許透過開箱即用的動作，在AdobeJourney Orchestration的內容中使用Adobe Campaign Standard的交易式訊息功能來傳送電子郵件、推播通知和簡訊。<br /> </td> 
-   <td> <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/working-with-adobe-campaign.html">合作使用AdobeJourney Orchestration與Adobe Campaign Standard</a><br /> </td> 
+   <td> 允許透過現成可用的動作，在AdobeJourney Orchestration的內容中使用Adobe Campaign Standard的交易式訊息功能來傳送電子郵件、推播通知和簡訊。<br /> </td> 
+   <td> <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/working-with-adobe-campaign.html">使用AdobeJourney Orchestration和Adobe Campaign Standard</a><br /> </td> 
   </tr> 
   <tr> 
    <td> Adobe Dreamweaver<br /> </td> 
    <td> 可讓您從 Dreamweaver 編輯電子郵件內容，並與 Adobe Campaign 同步化。<br /> </td> 
    <td> 
-    <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=zh-Hant">使用Dreamweaver建立個人化電子郵件</a> 視訊， <a href="https://helpx.adobe.com/tw/dreamweaver/using/working-with-dreamweaver-and-campaign.html">針對Dreamweaver使用Campaign擴充功能</a> 
+    <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=zh-Hant">使用Dreamweaver建立個人化電子郵件</a>影片，<a href="https://helpx.adobe.com/tw/dreamweaver/using/working-with-dreamweaver-and-campaign.html">使用Dreamweaver的Campaign擴充功能</a> 
   </td> 
   </tr> 
   <tr> 
-   <td> ADOBE EXPERIENCE PLATFORM SDK<br /> </td> 
+   <td> Adobe Experience Platform SDK<br /> </td> 
    <td> 允許使用 Experience Platform SDK 在 Adobe Campaign 中自動化行動應用程式屬性啟用程序。<br /> </td> 
    <td> <a href="https://helpx.adobe.com/tw/campaign/kb/configuring-app-sdk.html">使用 Experience Platform SDK 設定行動應用程式</a><br /> </td> 
   </tr> 

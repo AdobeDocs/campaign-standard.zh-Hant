@@ -56,13 +56,13 @@ Campaign Standard提供數種工具，可協助您擴充行銷資料庫。 本�
 
 ### 透過工作流程匯入資料 {#importing-data-through-workflows}
 
-工作流程可讓您收集資料，並使用將其匯入Campaign資料庫。 [**[!UICONTROL Data management]**](../../automating/using/about-data-management-activities.md) 活動。 透過工作流程匯入資料時的一般資訊和最佳實務會顯示在 [本節](../../automating/using/about-data-import-and-export.md).
+工作流程可讓您收集資料，並透過使用[**[!UICONTROL Data management]**](../../automating/using/about-data-management-activities.md)活動將其匯入Campaign資料庫。 透過工作流程匯入資料時，一般資訊和最佳實務會顯示在[本節](../../automating/using/about-data-import-and-export.md)中。
 
 此外，您可以設定範本以匯入資料。 使用匯入範本是定期匯入具有相同結構的檔案的最佳做法。 您可以設定兩種範本：
 
-* **工作流程範本**：這些是預先設定的工作流程，您可以視需要設定一次，並在每次想要匯入資料及更新資料庫時重複使用。 有關匯入資料的工作流程範本範例，請參閱 [本節](../../automating/using/creating-import-workflow-templates.md).
+* **工作流程範本**：這些是預先設定的工作流程，您可以根據自己的需求設定一次，並在每次要匯入資料並更新資料庫時重複使用。 [本節](../../automating/using/creating-import-workflow-templates.md)中詳細說明了匯入資料的工作流程範本範例。
 
-* **匯入資料範本**：與工作流程範本類似，這些範本是以工作流程為基礎，設定為上傳檔案以更新資料庫。 在設定之後，使用者可在下方以簡化的檢視加以使用 **[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]** 功能表。 有關匯入資料範本的詳細資訊，請參閱 [專屬檔案](../../automating/using/importing-data-with-import-templates.md).
+* **匯入資料範本**：如同工作流程範本，這些範本是以工作流程為基礎，設定為上傳檔案以更新資料庫。 設定之後，使用者就可以在&#x200B;**[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]**&#x200B;功能表下使用簡化的檢視。 如需匯入資料範本的詳細資訊，請參閱[專屬檔案](../../automating/using/importing-data-with-import-templates.md)。
 
 ### 從登入頁面收集資料 {#collecting-data-from-landing-pages}
 
@@ -72,7 +72,7 @@ Campaign Standard提供數種工具，可協助您擴充行銷資料庫。 本�
 * 將每個輸入欄位與資料庫中的對應欄位對應。
 * 透過網站或直接連結至訊息，線上上提供登入頁面。
 
-如需登入頁面的詳細資訊，請參閱 [專屬檔案](../../channels/using/getting-started-with-landing-pages.md).
+如需登入頁面的詳細資訊，請參閱[專屬檔案](../../channels/using/getting-started-with-landing-pages.md)。
 
 **閱讀更多**
 
@@ -82,7 +82,7 @@ Campaign Standard提供數種工具，可協助您擴充行銷資料庫。 本�
 ### 從Microsoft Dynamics 365同步設定檔
 
 與Microsoft Dynamics 365整合的Campaign Standard可讓您將聯絡資料從Microsoft Dynamics 365傳遞至Campaign資料庫。
-然後，這些聯絡人會顯示在設定檔清單中，並可在行銷活動中定位。 如需此整合的詳細資訊，請參閱 [專屬檔案](../../integrating/using/d365-acs-get-started.md).
+然後，這些聯絡人會顯示在設定檔清單中，並可在行銷活動中定位。 如需此整合的詳細資訊，請參閱[專屬檔案](../../integrating/using/d365-acs-get-started.md)。
 
 >[!NOTE]
 >
@@ -95,7 +95,7 @@ Campaign Standard提供數種工具，可協助您擴充行銷資料庫。 本�
 
 ### 透過API呼叫匯入資料
 
-Campaign StandardAPI可讓您執行更新資料庫的操作，例如建立、更新或刪除設定檔或服務。 如需如何使用API的詳細資訊，請參閱 [專屬檔案](../../api/using/get-started-apis.md).
+Campaign StandardAPI可讓您執行更新資料庫的操作，例如建立、更新或刪除設定檔或服務。 如需如何使用API的詳細資訊，請參閱[專屬檔案](../../api/using/get-started-apis.md)。
 
 >[!CAUTION]
 >
@@ -125,7 +125,7 @@ Campaign StandardAPI可讓您執行更新資料庫的操作，例如建立、更
 
 GDPR是歐盟(EU)的新隱私權法律，協調資料保護要求並以現代化方式規範資料保護要求。 GDPR適用於所持有資料的主體居住於歐盟的Adobe Campaign客戶。 除了Adobe Campaign所提供的隱私權功能（包括同意管理、資料保留設定和使用者角色）之外，我們還將以資料處理者的角色利用此機會，加入其他功能，以協助您做好準備，以利您作為資料控制者，處理特定GDPR請求。
 
-請參閱 [本節](../../start/using/privacy.md) 進一步瞭解Adobe Campaign所提供的工具和功能，協助您符合GDPR規定。
+請參閱[本節](../../start/using/privacy.md)以進一步瞭解Adobe Campaign所提供的工具和功能，協助您符合GDPR規定。
 
 **閱讀更多**
 

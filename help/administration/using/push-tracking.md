@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## 關於推播追蹤 {#about-push-tracking}
 
-若要確保推播通知已完全開發，您必須確保追蹤部分已正確實施，因為並非每個推播通知都啟用追蹤。 若要啟用此功能，開發人員需要識別哪些傳遞已啟用追蹤，Adobe Campaign Standard會傳送稱為的標幟 `_acsDeliveryTracking` 具有兩個值 **於** 或 **關閉**. 應用程式開發人員應僅針對將變數設為的傳遞傳送傳送追蹤請求 **於**.
+若要確保推播通知已完全開發，您必須確保追蹤部分已正確實施，因為並非每個推播通知都啟用追蹤。 若要啟用此功能，開發人員必須識別哪些傳遞已啟用追蹤，Adobe Campaign Standard將會傳送名稱為`_acsDeliveryTracking`的標幟，其值為&#x200B;**on**&#x200B;或&#x200B;**off**。 應用程式開發人員只應針對將變數設為&#x200B;**on**&#x200B;的傳遞傳送傳送追蹤請求。
 
 >[!IMPORTANT]
 >
@@ -25,15 +25,15 @@ ht-degree: 0%
 
 推播追蹤分為三種型別：
 
-* **推播曝光次數**  — 當推播通知成功傳送到裝置時，位於通知中心且沒有任何使用者互動。
+* **推播曝光次數** — 推播通知已成功傳送到裝置時，位於通知中心且沒有任何使用者互動。
 
-* **推送點按**  — 當推播通知已傳送至裝置，且使用者已按一下裝置時。  使用者想要檢視通知（進而將移至推播開啟追蹤）或關閉通知。
+* **推播點按** — 推播通知已傳送至裝置，且使用者已點按裝置。  使用者想要檢視通知（進而將移至推播開啟追蹤）或關閉通知。
 
-* **推送開啟**  — 當推播通知已傳送至裝置，且使用者已按一下導致應用程式開啟的通知。 這類似於「推送點按」，但如果通知已關閉，則不會觸發「推送開啟」。
+* **推播開啟** — 當推播通知已傳遞至裝置，且使用者已按一下導致應用程式開啟的通知。 這類似於「推送點按」，但如果通知已關閉，則不會觸發「推送開啟」。
 
-若要實作Campaign Standard追蹤，行動應用程式必須包含Adobe Experience Platform SDK。 這些SDK可在 [Adobe Experience Platform SDK檔案](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
+若要實作Campaign Standard追蹤，行動應用程式必須包含Adobe Experience Platform SDK。 這些SDK可在[Adobe Experience Platform SDK檔案](https://github.com/Adobe-Marketing-Cloud/acp-sdks)中取得。
 
-若要傳送追蹤資訊，有三個變數需要傳送。 其中兩個是從Campaign Standard收到的資料的一部分，另一個是指示其是否為的動作變數 **印象**， **按一下** 或 **開啟**.
+若要傳送追蹤資訊，有三個變數需要傳送。 兩個是從Campaign Standard收到的資料的一部分，另一個是動作變數，可指定它是&#x200B;**曝光數**、**點選次數**&#x200B;或&#x200B;**開啟次數**。
 
 | 變數 | 值 |
 |:-:|:-:|
@@ -45,9 +45,9 @@ ht-degree: 0%
 
 ### 如何實作推播曝光追蹤 {#push-impression-tracking-android}
 
-針對曝光追蹤，您必須傳送值「7」才能在呼叫時執行動作 `collectMessageInfo()` 或 `trackAction()` 函式。
+針對曝光追蹤，呼叫`collectMessageInfo()`或`trackAction()`函式時，您必須傳送值&quot;7&quot;才能執行動作。
 
-對於21.1版本之前建立的傳送或使用自訂範本的傳送，請參閱此 [區段](../../administration/using/push-tracking.md#about-push-tracking).
+對於21.1版本之前建立的傳遞或使用自訂範本的傳遞，請參閱此[區段](../../administration/using/push-tracking.md#about-push-tracking)。
 
 ```
 @Override
@@ -86,7 +86,7 @@ public void onMessageReceived(RemoteMessage remoteMessage) {
 
 ### 如何實作點選追蹤 {#push-click-tracking-android}
 
-針對點選追蹤，您必須傳送值「2」才能在呼叫時執行動作 `collectMessageInfo()` 或 `trackAction()` 函式。
+針對點選追蹤，呼叫`collectMessageInfo()`或`trackAction()`函式時，您必須傳送值「2」才能執行動作。
 若要追蹤點選，需要處理兩個案例：
 
 * 使用者看到通知但將其清除。
@@ -94,7 +94,7 @@ public void onMessageReceived(RemoteMessage remoteMessage) {
 
 若要處理此問題，您需要使用兩個意圖：一個用於按一下通知，另一個用於解除通知。
 
-對於21.1版本之前建立的傳送或使用自訂範本的傳送，請參閱此 [區段](../../administration/using/push-tracking.md#about-push-tracking).
+對於21.1版本之前建立的傳遞或使用自訂範本的傳遞，請參閱此[區段](../../administration/using/push-tracking.md#about-push-tracking)。
 
 **[!UICONTROL MyFirebaseMessagingService.java]**
 
@@ -125,7 +125,7 @@ private void sendNotification(Map<String, String> data) {
 }
 ```
 
-為了的 **[!UICONTROL BroadcastReceiver]** 若要使用，您需要將它註冊到 **[!UICONTROL AndroidManifest.xml]**
+為了讓&#x200B;**[!UICONTROL BroadcastReceiver]**&#x200B;運作，您需要將它註冊到&#x200B;**[!UICONTROL AndroidManifest.xml]**
 
 ```
 <manifest>
@@ -182,9 +182,9 @@ public class NotificationDismissedReceiver extends BroadcastReceiver {
 
 若要追蹤開啟，您需要建立目的。 意圖物件可讓Android作業系統在完成某些動作時呼叫方法。 在此情況下，請按一下通知以開啟應用程式。
 
-此程式碼以點按曝光追蹤的實施為基礎。 替換為 **[!UICONTROL Intent]** 已設定，您現在需要將追蹤資訊傳回Adobe Campaign Standard。 在此情況下，您需要將 **[!UICONTROL Open Intent]** 若要開啟應用程式中的特定檢視，這會呼叫onResume方法，並在其中加入通知資料 **[!UICONTROL Intent Object]**.
+此程式碼以點按曝光追蹤的實施為基礎。 設定&#x200B;**[!UICONTROL Intent]**&#x200B;後，您現在需要將追蹤資訊傳送回Adobe Campaign Standard。 在此情況下，您需要將&#x200B;**[!UICONTROL Open Intent]**&#x200B;設定為開啟應用程式中的特定檢視，這會呼叫onResume方法，並將通知資料放在&#x200B;**[!UICONTROL Intent Object]**&#x200B;中。
 
-對於21.1版本之前建立的傳送或使用自訂範本的傳送，請參閱此 [區段](../../administration/using/push-tracking.md#about-push-tracking).
+對於21.1版本之前建立的傳遞或使用自訂範本的傳遞，請參閱此[區段](../../administration/using/push-tracking.md#about-push-tracking)。
 
 ```
 @Override
@@ -248,21 +248,21 @@ private void handleTracking() {
 
 ### 如何實作推播曝光追蹤 {#push-impression-tracking-iOS}
 
-針對曝光追蹤，您必須傳送值「7」才能在呼叫時執行動作 `collectMessageInfo()` 或 `trackAction()` 函式。
+針對曝光追蹤，呼叫`collectMessageInfo()`或`trackAction()`函式時，您必須傳送值&quot;7&quot;才能執行動作。
 
 若要瞭解iOS通知的運作方式，應用程式的三種狀態需要詳細說明：
 
-* **前景**：當應用程式目前作用中並位於熒幕上（在前景中）時。
-* **背景**：當應用程式不在熒幕上，但程式未關閉時。 按兩下「首頁」按鈕時，通常會顯示背景中的所有應用程式。
-* **關閉/關閉**：其程式已終止的應用程式。
+* **前景**：當應用程式目前作用中且目前顯示在熒幕上（在前景）時。
+* **背景**：當is應用程式不在熒幕上，但程式未關閉時。 按兩下「首頁」按鈕時，通常會顯示背景中的所有應用程式。
+* **關閉/關閉**：已終止處理序的應用程式。
 
-為了仍然擁有 **[!UICONTROL Impression]** 應用程式於背景執行時，追蹤系統仍需運作，我們需傳送 **[!UICONTROL Content-Available]** 讓應用程式知道必須完成追蹤。
+為了在應用程式於背景時仍可進行&#x200B;**[!UICONTROL Impression]**&#x200B;追蹤，我們需要傳送&#x200B;**[!UICONTROL Content-Available]**&#x200B;讓應用程式知道必須完成追蹤。
 
 >[!CAUTION]
 >
-> 如果應用程式已關閉，Apple將不會呼叫應用程式，直到重新啟動應用程式為止。 這表示您將無法知道何時在iOS上收到通知。 </br> 基於此原因，iOS曝光追蹤可能不準確，且不應被視為可靠。
+> 如果應用程式已關閉，Apple將不會呼叫應用程式，直到重新啟動應用程式為止。 這表示您將無法知道何時在iOS上收到通知。 </br>基於此原因，iOS曝光追蹤可能不準確，且不應被視為可靠。
 
-對於21.1版本之前建立的傳送或使用自訂範本的傳送，請參閱此 [區段](../../administration/using/push-tracking.md#about-push-tracking).
+對於21.1版本之前建立的傳遞或使用自訂範本的傳遞，請參閱此[區段](../../administration/using/push-tracking.md#about-push-tracking)。
 
 下列程式碼會鎖定背景應用程式：
 
@@ -332,8 +332,8 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent noti
 
 ### 如何實作點選追蹤 {#push-click-tracking-iOS}
 
-針對點選追蹤，您必須傳送值「2」才能在呼叫時執行動作 `collectMessageInfo()` 或 `trackAction()` 函式。
-對於21.1版本之前建立的傳送或使用自訂範本的傳送，請參閱此 [區段](../../administration/using/push-tracking.md#about-push-tracking).
+針對點選追蹤，呼叫`collectMessageInfo()`或`trackAction()`函式時，您必須傳送值「2」才能執行動作。
+對於21.1版本之前建立的傳遞或使用自訂範本的傳遞，請參閱此[區段](../../administration/using/push-tracking.md#about-push-tracking)。
 
 ```
 // AppDelegate.swift
@@ -374,7 +374,7 @@ func registerForPushNotifications() {
 
 ![](assets/tracking_push.png)
 
-然後處理 **[!UICONTROL Dismiss]** 並傳送您需要新增下列專案的追蹤資訊：
+然後，若要處理&#x200B;**[!UICONTROL Dismiss]**&#x200B;並傳送追蹤資訊，您必須新增下列專案：
 
 ```
 func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
@@ -412,7 +412,7 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive respo
 
 您必須傳送「1」和「2」，因為使用者必須按一下「通知」才能開啟應用程式。 如果未透過推播通知啟動/開啟應用程式，則不會發生追蹤事件。
 
-對於21.1版本之前建立的傳送或使用自訂範本的傳送，請參閱此 [區段](../../administration/using/push-tracking.md#about-push-tracking).
+對於21.1版本之前建立的傳遞或使用自訂範本的傳遞，請參閱此[區段](../../administration/using/push-tracking.md#about-push-tracking)。
 
 ```
 import Foundation

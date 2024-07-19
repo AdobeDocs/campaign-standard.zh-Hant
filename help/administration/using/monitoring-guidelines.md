@@ -38,7 +38,7 @@ Campaign Standard介面會提供通知窗格，讓您隨時瞭解系統中發生
 
 **控制面板**
 
-「控制面板」可以讓您管理執行個體的多項設定：URL許可權、檢查執行個體詳細資訊（例如伺服器的組建版本）、監視作用中設定檔的使用情況等。 它也可讓您監視連線到執行個體的SFTP伺服器上的可用空間。 [顯示全文](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hant)。
+「控制面板」可以讓您管理執行個體的多項設定：URL許可權、檢查執行個體詳細資訊（例如伺服器的組建版本）、監視作用中設定檔的使用情況等。 它也可讓您監視連線到執行個體的SFTP伺服器上的可用空間。 [閱讀全文](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hant)。
 
 >[!NOTE]
 >
@@ -46,7 +46,7 @@ Campaign Standard介面會提供通知窗格，讓您隨時瞭解系統中發生
 
 **技術物件**
 
-此 **[!UICONTROL Diagnosis]** 功能表是用於監視和分析應用程式產生的不同技術物件的關鍵工具：資料結構描述、網頁、批次作業等。 [閱讀更多](../../developing/using/monitoring-data-model-changes.md)
+**[!UICONTROL Diagnosis]**&#x200B;功能表是用於監視和分析應用程式產生的不同技術物件的關鍵工具：資料結構描述、網頁、批次工作等。 [閱讀更多](../../developing/using/monitoring-data-model-changes.md)
 
 **匯出稽核**
 
@@ -55,7 +55,7 @@ Campaign Standard介面會提供通知窗格，讓您隨時瞭解系統中發生
 
 **授權**
 
-使用 **[!UICONTROL Licenses]** 功能表，監視執行個體的相關資訊：已安裝的授權、組建版本和條款協定接受。
+透過&#x200B;**[!UICONTROL Licenses]**功能表，監視執行個體的相關資訊：已安裝的授權、組建版本和條款合約接受。
 [閱讀更多](../../administration/using/licenses.md)
 
 ## 監視工作流程 {#monitoring-workflows}
@@ -67,7 +67,7 @@ Campaign Standard介面會提供通知窗格，讓您隨時瞭解系統中發生
 使用工作流程時，遵循最佳實務和疑難排解准則有助於改善效能。
 [閱讀更多](../../automating/using/best-practices-workflows.md)
 
-**記錄檔與任務**
+**記錄檔與工作**
 
 工作流程記錄監視是分析工作流程並確保其正常執行的關鍵步驟。
 [閱讀更多](../../automating/using/monitoring-workflow-execution.md#workflow-log-and-tasks)

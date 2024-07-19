@@ -19,20 +19,20 @@ ht-degree: 4%
 
 >[!CAUTION]
 >
->此 [隱私權核心服務](https://developer.adobe.com/experience-platform-apis/references/privacy-service) 整合是您應用於處理所有存取和刪除要求的方法。 <!--Starting 19.4, the use of the Campaign API and interface for access and delete requests is deprecated. For more on Campaign Standard deprecated and removed features, refer to [this page](../../rn/using/deprecated-features.md).-->
+>[隱私權核心服務](https://developer.adobe.com/experience-platform-apis/references/privacy-service)整合是您應用於所有存取和刪除要求的方法。<!--Starting 19.4, the use of the Campaign API and interface for access and delete requests is deprecated. For more on Campaign Standard deprecated and removed features, refer to [this page](../../rn/using/deprecated-features.md).-->
 
-隱私權請求是使用 **POST** 要求。
+隱私權要求是使用&#x200B;**POST**&#x200B;要求建立的。
 
-在建立請求之前，您需要定義要使用的名稱空間。 如需詳細資訊，請參閱 [隱私權管理檔案](../../start/using/privacy-requests.md).
+在建立請求之前，您需要定義要使用的名稱空間。 如需詳細資訊，請參閱[隱私權管理檔案](../../start/using/privacy-requests.md)。
 
 承載必須包含下列引數：
 
 * **名稱**：唯一的內部名稱
 * **名稱空間**：在Campaign Standard介面中設定的名稱空間名稱
-* **reconciliationvalue**：根據名稱空間中定義的調解金鑰的調解值
-* **標籤**：請求標籤
-* **type**：要求型別。 接受的值為「存取」或「刪除」。
-* **法規**：法規型別。 範例： 「GDPR」、「CCPA」。 此引數為必要項，自Campaign Standard19.4發行版本起即可使用。 如果您使用舊版組建，就不需要將它新增至您的裝載。
+* **reconciliationValue**：調解值是以名稱空間中定義的調解金鑰為基礎
+* **標籤**：要求標籤
+* **型別**：要求型別。 接受的值為「存取」或「刪除」。
+* **規則**：規則型別。 範例： 「GDPR」、「CCPA」。 此引數為必要項，自Campaign Standard19.4發行版本起即可使用。 如果您使用舊版組建，就不需要將它新增至您的裝載。
 
 <br/>
 

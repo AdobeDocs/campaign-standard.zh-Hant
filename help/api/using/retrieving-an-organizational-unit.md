@@ -17,7 +17,7 @@ ht-degree: 12%
 
 # 擷取設定檔的組織單位 {#retrieving-organizational-units}
 
-1. 對設定檔PKey執行GET要求以擷取 **orgUnit** URL。
+1. 對設定檔PKey執行GET要求，以擷取&#x200B;**orgUnit** URL。
 1. 在URL上執行GET要求，以擷取有關組織單位的更多詳細資料。
 
 <br/>

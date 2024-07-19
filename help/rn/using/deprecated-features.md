@@ -45,9 +45,9 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>自2021年8月31日起，Adobe Experience Platform Mobile第4版SDK已停止支援。 如果您仍在Adobe Campaign Standard中使用這個舊版SDK，您必須使用Adobe Experience Platform SDK更新實施 <strong>2024年6月底前</strong>. </p></br>
-   <p>讀出 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">本文</a> 瞭解如何調整實作並改用最新的Experience Platform SDK。</p></br>
-   <p><strong>注意</strong>：從2024年6月底開始，Campaign Standard將不再支援SDK V4。</p>
+   <td> <p>自2021年8月31日起，Adobe Experience Platform Mobile第4版SDK已停止支援。 如果您仍在Adobe Campaign Standard中使用這個舊版SDK，您必須在2024年6月底之前，使用Adobe Experience Platform SDK <strong>更新實施</strong>。 </p></br>
+   <p>閱讀<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">本文</a>以瞭解如何調整實作並移至最新的Experience PlatformSDK。</p></br>
+   <p><strong>警告</strong>：從2024年6月底開始，Campaign Standard將不再支援SDK V4。</p>
   </td> 
   </tr> 
  </tbody> 
@@ -64,7 +64,7 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>自 Campaign 19.0 版本以來，已過時舊版電子郵件編輯器。使用 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">Campaign電子郵件設計工具</a> 以建立並個人化您的電子郵件內容。 </p></br>
+   <td> <p>自 Campaign 19.0 版本以來，已過時舊版電子郵件編輯器。使用<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">Campaign電子郵件Designer</a>來建立並個人化您的電子郵件內容。 </p></br>
    <p>請參閱<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">本節</a>，瞭解如何針對新的編輯器調整您的電子郵件範本。</p></br>
   </td> 
   </tr> 
@@ -107,7 +107,7 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>與Adobe Experience Platform Data Connector整合</strong><br /> </th> 
+   <th> <strong>與Adobe Experience Platform Data Connector</strong><br />整合 </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -128,9 +128,9 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
  <tbody> 
   <tr> 
    <td> <p> 自Campaign第20.1發行版本開始，已棄用SDK v4。 現已移除。 <a href="https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html?lang=zh-Hant">了解更多</a>。</p><br/>
-   <p>此 <a href="https://developer.adobe.com/client-sdks/documentation/">Adobe Experience Platform Mobile SDK</a> （先前稱為v5）現在僅支援即將推出的Adobe Experience Cloud功能。</p>
+   <p><a href="https://developer.adobe.com/client-sdks/documentation/">Adobe Experience Platform Mobile SDK</a> （先前稱為v5）現在僅支援即將推出的Adobe Experience Cloud功能。</p>
    <p>2021年8月31日後，客戶可以繼續下載及使用第4版SDK，但將無法取得客戶服務支援或存取論壇。</p>
-   <p>瞭解如何從SDK v4移轉至Adobe Experience Platform Mobile SDK <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">在此頁面中</a>.</p></br>
+   <p>在本頁面</a>瞭解如何從SDK v4移轉至Adobe Experience Platform Mobile SDK <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">。</p></br>
      </td> 
   </tr> 
  </tbody> 
@@ -144,7 +144,7 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>自 Campaign 21.2 版本以來，不建議使用促銷活動 API 和介面來存取和刪除請求。兩步驟設定檔刪除已不再可用。 使用 <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service">Adobe隱私權核心服務</a>.</p></br>
+   <td> <p>自 Campaign 21.2 版本以來，不建議使用促銷活動 API 和介面來存取和刪除請求。兩步驟設定檔刪除已不再可用。 使用<a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service">Adobe隱私權核心服務</a>。</p></br>
    <p>另請參閱<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html">管理隱私權要求</a>。</p>
   </td> 
   </tr> 
@@ -189,7 +189,7 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Creative SDK] 已終止服務。 因此，影像版本採用 [!DNL Creative SDK] 自Campaign 20.2發行版本開始，不再提供Campaign Standard中的電子郵件。</p></br>
+   <td> <p>[!DNL Adobe Creative SDK] 已終止服務。 因此，自Campaign 20.2發行版本開始，不再提供Campaign Standard電子郵件中[!DNL Creative SDK]支援的影像版本。</p></br>
    </td> 
   </tr> 
  </tbody> 

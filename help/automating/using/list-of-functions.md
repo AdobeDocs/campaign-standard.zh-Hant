@@ -35,7 +35,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->所有活動都提供其他函式，可讓您在使用外部引數呼叫工作流程後使用事件變數。 其詳細資訊請參閱 [本節](../../automating/using/customizing-workflow-external-parameters.md).
+>所有活動都提供其他函式，可讓您在使用外部引數呼叫工作流程後使用事件變數。 在[此區段](../../automating/using/customizing-workflow-external-parameters.md)中有詳細的說明。
 
 ## 日期 {#dates}
 
@@ -220,7 +220,7 @@ ht-degree: 95%
   </tr> 
   <tr> 
    <td> <strong>ToDateTimeWithTimezone</strong><br /> </td> 
-   <td> 將字串轉換為日期+時區。<br /> 範例： ToDateTimeWithTimezone ("2019-02-19 08:09:00」，「亞洲/德黑蘭」)<br /> </td> 
+   <td> 將字串轉換為日期+時區。<br />範例： ToDateTimeWithTimezone ("2019-02-19 08:09:00"， "Asia/Tehran")<br /> </td> 
    <td> ToDateTimeWithTimezone(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
@@ -657,7 +657,7 @@ ht-degree: 95%
   <tr> 
    <td> <strong>encryption_aescbcEncrypt</strong><br /> </td> 
    <td> 使用　AES　演算法（CBC　區塊模式）加密字元字串（第　1　參數），其中包含鍵（第　2　參數）和初始化向量（第　3　參數）。密鑰和初始化向量必須以十六進位表示(以 <strong>\x</strong>　開始)。結果將以十六進位表示，而不是 <strong>\x</strong>。<br /> 請注意，密鑰大小可以是　128　位、192　位、256　位（16、24、32　個十六進位字元），但建議您使用　256　位和與密鑰長度相同的隨機　IV。<br /> </td> 
-   <td> encryption_aescbcEncrypt(&lt;string&gt;， &lt;string&gt;， &lt;string&gt;)<br /> 例如：encryption_aescbcEncrypt(johndoe@example.com， "<strong>\\x0123456789ABCDEF0123456789ABCDEF</strong>「， 」<strong>\\x0123456789ABCDEFFEDCBA9876543210</strong>")<br /> </td> 
+   <td> encryption_aescbcEncrypt(&lt;String&gt;， &lt;String&gt;， &lt;String&gt;)<br />例如： encryption_aescbcEncrypt(johndoe@example.com， "<strong>\\x0123456789ABCDEF0123456789ABCDEF</strong>"， "<strong>\\x0123456789ABCDEFFEDCBA9876543210</strong>")<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -707,8 +707,8 @@ ht-degree: 95%
   </tr>
   <tr>
    <td> <strong>StringAgg</strong>，字串彙總<br /> </td>
-   <td> 傳回字串型別欄值的串連，由第二個引數中的字元分隔（預設分隔符號為逗號）。<br /> </td>
-   <td> StringAgg(&lt;string values=""&gt;，&lt;separator&gt;)
+   <td> 傳回字串型別資料行值的串連，由第二個引數中的字元分隔（預設分隔符號為逗號）。<br /> </td>
+   <td> StringAgg(&lt;string values&gt;，&lt;separator&gt;)
   </tr>
   <tr> 
    <td> <strong>Sum</strong>, Sum<br /> </td> 

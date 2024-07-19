@@ -64,7 +64,7 @@ ht-degree: 90%
 
 在　Adobe Campaign　中，您需要建立連結至您在　Experience Cloud　中建立的觸發程式。
 
-1. 若要在Adobe Campaign中建立觸發程式，請按一下 **Adobe** 標誌，在左上角，然後選取 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud triggers]**.
+1. 若要在Adobe Campaign中建立觸發程式，請按一下左上方的&#x200B;**Adobe**&#x200B;標誌，然後選取&#x200B;**[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud triggers]**。
 
    ![](assets/remarketing_1.png)
 
@@ -81,7 +81,7 @@ ht-degree: 90%
 
    ![](assets/trigger_uc_browse_6.png)
 
-1. 若要顯示訊息範本，請按一下 **[!UICONTROL More]** 按鈕，然後按一下 **[!UICONTROL Trigger Transactional Template]**.
+1. 若要顯示訊息範本，請按一下右上方的&#x200B;**[!UICONTROL More]**&#x200B;按鈕，然後按一下&#x200B;**[!UICONTROL Trigger Transactional Template]**。
 
 1. 個人化其內容和傳送者詳細資訊。
 

@@ -53,7 +53,7 @@ Adobe團隊需要下列資訊才能啟用觸發程式：
 >
 >子網域設定是傳遞能力關鍵元素。 請確定Adobe Campaign電子郵件是從網站使用的相同網域傳送的。
 
-您需要設定 [Experience CloudDTM核心服務](#configuring-experience-cloud-dtm-core-service)， [Experience Cloud人員核心服務](#configuring-experience-cloud-people-core-service) 和 [Campaign](#configuring-triggers-and-aliases-in-campaign) 以執行這些使用案例。
+您必須設定[Experience CloudDTM核心服務](#configuring-experience-cloud-dtm-core-service)、[Experience Cloud人員核心服務](#configuring-experience-cloud-people-core-service)和[促銷活動](#configuring-triggers-and-aliases-in-campaign)，才能執行這些使用案例。
 
 ### 設定Experience Cloud DTM核心服務 {#configuring-experience-cloud-dtm-core-service}
 
@@ -77,17 +77,17 @@ Adobe團隊需要下列資訊才能啟用觸發程式：
 
 ### 在Campaign中設定觸發器和別名 {#configuring-triggers-and-aliases-in-campaign}
 
-1. 確定您擁有 **[!UICONTROL Experience Cloud triggers]** 在您的Adobe Campaign Standard執行個體上可見。 否則，請聯絡Adobe Campaign管理員。
+1. 確定您的Adobe Campaign Standard執行個體上有顯示&#x200B;**[!UICONTROL Experience Cloud triggers]**。 否則，請聯絡Adobe Campaign管理員。
 
    ![](assets/remarketing_1.png)
 
-1. 別名可讓Analytics中的聯絡人與Campaign中的設定檔進行調解。 您需要將Experience CloudID服務中定義的別名與Campaign中的共用資料來源比對。 Adobe Campaign您必須透過資料來源( **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Shared Data Sources]** )。 請務必在 **[!UICONTROL Data Source/Alias]** 下拉式功能表，與上個步驟中建立的相同客戶屬性資料來源相對應。
+1. 別名可讓Analytics中的聯絡人與Campaign中的設定檔進行調解。 您需要將Experience CloudID服務中定義的別名與Campaign中的共用資料Source比對。 您必須透過資料來源( **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Shared Data Sources]** )在Adobe Campaign中設定別名解析。 請務必在「**[!UICONTROL Data Source/Alias]**」下拉式選單中選擇正確的資料來源，此資料來源已對應至上一步驟中建立的相同客戶屬性資料來源。
 
    ![](assets/trigger_uc_conf_5.png)
 
    >[!NOTE]
    >
-   >您可以為匿名和登入使用者調解您的觸發程式。 對於匿名使用者，設定檔應存在於Adobe Campaign中，並且之前已傳送電子郵件給使用者。 對此，訪客ID設定就足夠了。 不過，如果您想要調解登入使用者的觸發程式，則需要設定宣告ID資料來源。 有關詳細資訊，請參閱 [資料來源組態](../../integrating/using/integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources).
+   >您可以為匿名和登入使用者調解您的觸發程式。 對於匿名使用者，設定檔應存在於Adobe Campaign中，並且之前已傳送電子郵件給使用者。 對此，訪客ID設定就足夠了。 不過，如果您想要調解登入使用者的觸發程式，則需要設定宣告ID資料Source。 如需詳細資訊，請參閱[資料Source設定](../../integrating/using/integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources)。
 
 ## 在Experience Cloud介面中建立觸發程式 {#creating-a-trigger-in-the-experience-cloud-interface}
 
@@ -95,7 +95,7 @@ Adobe團隊需要下列資訊才能啟用觸發程式：
 
 在Experience Cloud中建立新的觸發程式，並請務必選取您網站上使用的報表套裝。 請務必選擇正確的維度，以便觸發程式。
 
-請參閱 [Adobe Experience Cloud檔案](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html).
+請參閱[Adobe Experience Cloud檔案](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html)。
 
 ## 觸發器最佳作法和限制 {#triggers-best-practices-and-limitations}
 

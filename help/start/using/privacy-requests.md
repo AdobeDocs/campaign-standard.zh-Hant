@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1514'
-ht-degree: 100%
+source-wordcount: '1526'
+ht-degree: 98%
 
 ---
 
@@ -95,7 +95,7 @@ Adobe Campaign 提供資料控制方工具，可針對儲存在 Adobe Campaign �
 
 >[!IMPORTANT]
 >
->若要使用自訂名稱空間類型提交請求，請利用 [JSON 方法](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hant#json){target="_blank"} and add the namespaceId to the request, or use the [API call](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=zh-Hant#access-delete){target="_blank"}提出請求。
+>若要使用自訂名稱空間型別提交請求，請善用[JSON方法](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hant#json){target="_blank"}，並將namespaceId新增至請求，或使用[API呼叫](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=zh-Hant#access-delete){target="_blank"}發出請求。
 >
 >僅透過[隱私權使用者介面](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hant#request-builder){target="_blank"}，利用標準命名空間類型提交請求。
 

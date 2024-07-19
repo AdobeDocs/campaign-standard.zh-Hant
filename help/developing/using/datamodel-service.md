@@ -39,13 +39,13 @@ ht-degree: 38%
                </tr>
                <tr>
                   <td>已建立</td>
-                  <td>建立時間</td>
+                  <td>已建立</td>
                   <td>日期 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>createdBy (userBase)</td>
-                  <td>建立者</td>
+                  <td>建立者：</td>
                   <td>連結 </td>
                   <td> </td>
                </tr>
@@ -195,7 +195,7 @@ ht-degree: 38%
                </tr>
                <tr>
                   <td>targetresource</td>
-                  <td>目標定位維度</td>
+                  <td>目標市場選擇維度</td>
                   <td>字串(255)</td>
                   <td> </td>
                </tr>

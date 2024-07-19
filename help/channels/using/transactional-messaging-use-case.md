@@ -22,43 +22,43 @@ ht-degree: 4%
 
 先決條件如下：
 
-* 確定 **[!UICONTROL Profile]** 已使用與CRM ID對應的新欄位擴充資源。
+* 請確定&#x200B;**[!UICONTROL Profile]**&#x200B;資源已擴充為對應至CRM ID的新欄位。
 
-* 建立並發佈與購買對應的自訂資源，並將其連結至 **[!UICONTROL Profile]** 資源。 如此一來，您將能夠從此資源擷取資訊，以擴充訊息內容。
+* 建立並發佈與購買相對應的自訂資源，並將其連結至&#x200B;**[!UICONTROL Profile]**&#x200B;資源。 如此一來，您將能夠從此資源擷取資訊，以擴充訊息內容。
 
-如需擴充、建立和發佈資源的詳細資訊，請參閱 [本節](../../developing/using/key-steps-to-add-a-resource.md).
+如需擴充、建立和發佈資源的詳細資訊，請參閱[本節](../../developing/using/key-steps-to-add-a-resource.md)。
 
 實施此使用案例的主要步驟如下所示。
 
 >[!NOTE]
 >
->如需交易式訊息一般程式的圖形表示，請參閱 [此結構描述](../../channels/using/getting-started-with-transactional-msg.md#key-steps).
+>若要以圖形呈現交易式訊息一般程式，請參閱[此結構描述](../../channels/using/getting-started-with-transactional-msg.md#key-steps)。
 
 ## 步驟1 — 建立和發佈事件設定 {#create-event-configuration}
 
-1. 使用建立新事件 **[!UICONTROL Email]** 頻道。 請參閱[建立事件](../../channels/using/configuring-transactional-event.md#creating-an-event)。
+1. 使用&#x200B;**[!UICONTROL Email]**&#x200B;頻道建立新事件。 請參閱[建立事件](../../channels/using/configuring-transactional-event.md#creating-an-event)。
 
-1. 選取 **[!UICONTROL Profile]** 目標維度，以建立 [設定檔交易式訊息](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages).
+1. 選取&#x200B;**[!UICONTROL Profile]**&#x200B;目標維度，以建立[設定檔交易式訊息](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages)。
 
-1. 定義可用於個人化交易式訊息的屬性。 在此範例中，新增「CRM ID」和「產品識別碼」欄位。 另請參閱 [定義事件屬性](../../channels/using/configuring-transactional-event.md#defining-the-event-attributes).
+1. 定義可用於個人化交易式訊息的屬性。 在此範例中，新增「CRM ID」和「產品識別碼」欄位。 請參閱[定義事件屬性](../../channels/using/configuring-transactional-event.md#defining-the-event-attributes)。
 
    ![](assets/message-center_usecase1.png)
 
-1. 若要使用客戶購買的相關資訊來擴充訊息內容，請建立以目標定位的擴充 **[!UICONTROL Purchase]** 資源。 另請參閱 [豐富化事件](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content).
+1. 若要使用客戶購買的相關資訊來擴充訊息內容，請建立以&#x200B;**[!UICONTROL Purchase]**&#x200B;資源為目標的擴充。 請參閱[豐富事件](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)。
 
    ![](assets/message-center_usecase2.png)
 
-1. 在先前新增至事件的「產品識別碼」欄位與來自的對應欄位之間建立聯結條件 **[!UICONTROL Purchase]** 資源。
+1. 在先前新增至事件的「產品識別碼」欄位與來自&#x200B;**[!UICONTROL Purchase]**&#x200B;資源的對應欄位之間建立加入條件。
 
    ![](assets/message-center_usecase3.png)
 
-1. 由於此為設定檔型事件的強制專案，因此您也必須建立目標定位於 **[!UICONTROL Profile]** 資源。
+1. 因為設定檔型事件必須使用此擴充功能，您也必須建立以&#x200B;**[!UICONTROL Profile]**&#x200B;資源為目標的擴充功能。
 
-1. 在先前新增至訊息的「CRM ID」欄位與來自的對應欄位之間建立加入條件 **[!UICONTROL Profile]** 您已擴充的資源。 <!--What's the purpose to have created a CRM ID for this event and to have the CRM ID as a join condition? could it be any other field provided you created it in the event?-->
+1. 在先前新增至訊息的「CRM ID」欄位與您擴充之&#x200B;**[!UICONTROL Profile]**&#x200B;資源的對應欄位之間建立加入條件。<!--What's the purpose to have created a CRM ID for this event and to have the CRM ID as a join condition? could it be any other field provided you created it in the event?-->
 
    ![](assets/message-center_usecase4.png)
 
-1. 在 **[!UICONTROL Targeting enrichment]** 區段，選取擴充於 **[!UICONTROL Profile]** 資源，在傳遞執行期間用作訊息目標。
+1. 在&#x200B;**[!UICONTROL Targeting enrichment]**&#x200B;區段中，選取&#x200B;**[!UICONTROL Profile]**&#x200B;資源上的擴充，這將在傳遞執行期間用作訊息目標。
 
    ![](assets/message-center_usecase5.png)
 
@@ -66,27 +66,27 @@ ht-degree: 4%
 
 ## 步驟2 — 編輯並發佈交易式訊息 {#create-transactional-message}
 
-1. 前往發佈事件時自動建立的交易式訊息。 另請參閱 [存取交易式訊息](../../channels/using/editing-transactional-message.md#accessing-transactional-messages).
+1. 前往發佈事件時自動建立的交易式訊息。 請參閱[存取交易式訊息](../../channels/using/editing-transactional-message.md#accessing-transactional-messages)。
 
-1. 編輯和個人化訊息。 另請參閱 [編輯設定檔交易式訊息](../../channels/using/editing-transactional-message.md#editing-profile-transactional-message).
+1. 編輯和個人化訊息。 請參閱[編輯設定檔交易式訊息](../../channels/using/editing-transactional-message.md#editing-profile-transactional-message)。
 
-1. 透過與您新增至的「CRM ID」欄位進行調解 **[!UICONTROL Profile]** 資源，您可以直接存取所有設定檔資訊至 [個人化](../../designing/using/personalization.md#inserting-a-personalization-field) 您的訊息。
+1. 透過與您新增至&#x200B;**[!UICONTROL Profile]**&#x200B;資源的「CRM ID」欄位進行調解，您可以直接存取所有設定檔資訊，以[個人化](../../designing/using/personalization.md#inserting-a-personalization-field)您的訊息。
 
    ![](assets/message-center_usecase6.png)
 
-1. 透過與「產品識別碼」欄位進行調解，您可以從新增任何欄位，以包含有關客戶購買的資訊來豐富訊息內容。 **[!UICONTROL Purchase]** 資源。
+1. 透過「產品識別碼」欄位的調解，您可以從&#x200B;**[!UICONTROL Purchase]**&#x200B;資源新增任何欄位，以有關客戶購買的資訊擴充訊息內容。
 
    ![](assets/message-center_usecase7.png)
 
-   要執行此操作，請選取 **[!UICONTROL Insert personalization field]** 從內容工具列。 從 **[!UICONTROL Context]** > **[!UICONTROL Transactional event]** > **[!UICONTROL Event context]** 節點，開啟與 **[!UICONTROL Purchase]** 自訂資源並選取任何欄位。
+   若要這麼做，請從內容工具列選取&#x200B;**[!UICONTROL Insert personalization field]**。 從&#x200B;**[!UICONTROL Context]** > **[!UICONTROL Transactional event]** > **[!UICONTROL Event context]**&#x200B;節點中，開啟與&#x200B;**[!UICONTROL Purchase]**&#x200B;自訂資源對應的節點，然後選取任何欄位。
 
-1. 您可以使用特定的測試設定檔測試訊息。 另請參閱 [測試異動訊息](../../channels/using/testing-transactional-message.md#testing-a-transactional-message).
+1. 您可以使用特定的測試設定檔測試訊息。 請參閱[測試異動訊息](../../channels/using/testing-transactional-message.md#testing-a-transactional-message)。
 
 1. 內容準備就緒後，儲存變更並發佈訊息。 請參閱[發佈交易式訊息](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)。
 
 ## 步驟3 — 整合事件觸發 {#integrate-event-trigger}
 
-將事件整合至您的網站。 另請參閱 [整合事件觸發](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger).
+將事件整合至您的網站。 請參閱[整合觸發的事件](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)。
 
 ## 步驟4 — 訊息傳送 {#message-delivery}
 

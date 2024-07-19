@@ -17,7 +17,7 @@ ht-degree: 6%
 
 # 管理 CCPA 選擇退出 {#managing-ccpa-optout}
 
-您可使用，監控和管理設定檔的CCPA選擇退出狀態。 **ccpapoptout** 設定檔屬性和「true」或「false」值：
+可以使用&#x200B;**ccpaOptOut**&#x200B;設定檔屬性和&quot;true&quot;或&quot;false&quot;值來監視和管理設定檔的CCPA選擇退出狀態：
 
 `"ccpaOptOut": <value>`
 

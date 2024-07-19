@@ -19,7 +19,8 @@ ht-degree: 84%
 
 在 Adobe Campaign 中建立電子郵件後，您必須定義其內容。
 
-電子郵件設計工具可讓您透過拖放介面建立吸引人、個人訂做的電子郵件。 不論您是從空白顯示窗開始，或是運用現有的內容片段或範本，針對每封電子郵件（不論是促銷或異動）設計和調整所有內容。
+電子郵件Designer可讓您透過拖放方式來建立吸引人、個人訂做的電子郵件
+介面。 不論您是從空白顯示窗開始，或是運用現有的內容片段或範本，針對每封電子郵件（不論是促銷或異動）設計和調整所有內容。
 
 電子郵件設計工具是專為提供最佳化的 HTML 以進行回應式式計而建置，可讓您透過使用者介面，輕鬆定義並套用可見性條件和動態內容至電子郵件、範本或片段。只要按一下按鈕，您就可以在拖放介面與HTML程式碼之間無縫切換。
 
@@ -27,7 +28,7 @@ ht-degree: 84%
 
 <!--The Email Designer has more features than the Legacy Editor and is backward compatible.-->
 
-![](assets/do-not-localize/how-to-video.png) [在影片中探索電子郵件設計工具](#video)
+![](assets/do-not-localize/how-to-video.png) [在影片中探索電子郵件Designer](#video)
 
 * 若要瞭解如何建立電子郵件內容，請參 閱「[開始使用電子郵件設計工具](../../designing/using/quick-start.md)」。
 * 有關電子郵件設計工具的概觀，請參閱「[使用電子郵件設計工具](../../designing/using/designing-content-in-adobe-campaign.md)」。
@@ -45,7 +46,7 @@ ht-degree: 84%
 
 使用連結和影像增強您的訊息和登陸頁面。請參閱「[插入連結](../../designing/using/links.md#inserting-a-link)」和「[插入影像](../../designing/using/images.md#inserting-images)」。
 
-## 電子郵件設計工具介面 {#email-designer-interface}
+## 透過電子郵件傳送Designer介面 {#email-designer-interface}
 
 電子郵件設計工具提供許多選項，可讓您建立、編輯和自訂內容的每個方面。
 
@@ -65,7 +66,7 @@ ht-degree: 84%
 
 編輯器介面的&#x200B;**上下文工具列**&#x200B;根據所選區域提供各種功能。其包含可讓您變更文字樣式的動作按鈕和按鈕。所進行的修改始終適用於選取的區域。
 
-### 電子郵件設計工具首頁 {#email-designer-home-page}
+### 傳送電子郵件至Designer首頁 {#email-designer-home-page}
 
 [建立電子郵件](../../channels/using/creating-an-email.md)時，**[!UICONTROL Email Designer]** 首頁會在選取電子郵件內容時自動顯示。
 
@@ -143,7 +144,7 @@ Adobe 建議將您的內容更新至最新版本，以避免發生 CSS 衝突等
 
 * 更新已準備好的電子郵件中使用的片段，並不會對這些電子郵件造成影響。
 
-## 電子郵件設計工具限制 {#email-designer-limitations}
+## 電子郵件Designer限制 {#email-designer-limitations}
 
 * 您無法在片段中使用個人化欄位。如需片段的詳細資訊，請參閱[本區段](../../designing/using/using-reusable-content.md#about-fragments)。
 
@@ -163,8 +164,8 @@ Adobe 建議將您的內容更新至最新版本，以避免發生 CSS 衝突等
 
 ## 教學課程影片 {#video}
 
-這部影片會提供電子郵件設計工具的概觀。
+這部影片會提供電子郵件Designer的概觀。
 
 >[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
 
-若要開始使用電子郵件設計工具，請觀看此影片 [視訊集](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) 說明電子郵件設計工具的一般功能，以及如何從草稿開始或使用範本來設計電子郵件
+若要開始使用Email Designer，請觀看這組[影片](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted)，其中說明Email Designer的一般功能，以及如何從草稿開始或使用範本來設計電子郵件

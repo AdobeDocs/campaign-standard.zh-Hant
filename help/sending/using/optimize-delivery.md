@@ -26,21 +26,21 @@ ht-degree: 4%
 
 有幾個因素會直接影響伺服器效能並拖慢平台速度：
 
-* 個人化元素的數量和型別：電子郵件中的個人化會將每個收件者的資料從資料庫中提取。 如果有許多個人化元素，會增加準備傳送所需的資料量。  進一步瞭解中的電子郵件個人化 [本節](../../designing/using/personalization.md)
+* 個人化元素的數量和型別：電子郵件中的個人化會將每個收件者的資料從資料庫中提取。 如果有許多個人化元素，會增加準備傳送所需的資料量。  在[本節](../../designing/using/personalization.md)中進一步瞭解電子郵件個人化
 
 * 伺服器載入：當Campaign同時處理許多不同工作時，可能會降低效能。 伺服器需要協調所有傳遞的所有傳入和傳出資料，以確保資料正確且準時。
 
-  **秘訣**  — 為避免此問題，請與團隊的其他成員協調傳送排程，以確保最佳效能。
+  **秘訣** — 若要避免此問題，請與團隊的其他成員協調傳送排程，以確保最佳效能。
 
-* 此 [工作流程執行](../../automating/using/about-workflow-execution.md)：監控工作流程是避免平台效能問題的關鍵。 遵循列出的准則 [在此頁面中](../../automating/using/monitoring-workflow-execution.md). 進一步瞭解 [工作流程最佳實務](../../automating/using/best-practices-workflows.md) 區段。
+* [工作流程執行](../../automating/using/about-workflow-execution.md)：監視您的工作流程對於避免平台效能問題至關重要。 請遵循此頁面](../../automating/using/monitoring-workflow-execution.md)中列出的准則[。 在[工作流程最佳實務](../../automating/using/best-practices-workflows.md)區段中瞭解更多。
 
-* 您可以善用 [Campaign控制面板功能](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=zh-Hant) 若要監視您的平台，請使用 [效能監視](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=zh-Hant) 功能。
+* 您可以使用[效能監視](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=zh-Hant)功能，利用[Campaign控制面板功能](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=zh-Hant)來監視您的平台。
 
 ## 正在檢查網路設定 {#network-config}
 
 若要在處理大量電子郵件時最佳化傳遞，並避免誤認為垃圾郵件傳送者，請確定您有合法的網路設定，不會嘗試隱藏伺服器的身分。
 
-**秘訣**：使用與您品牌網站對應的透明寄件者地址。 例如，TravelAgency公司管理Valentino連鎖酒店。 其擁有其網站的valentino.com網域。 為了推廣巴黎的Valentino飯店，它使用paris.valentino.com子網域。 因此，相關寄件者地址可以是hotel@paris.valentino.com。
+**秘訣**：使用與品牌網站對應的透明寄件者地址。 例如，TravelAgency公司管理Valentino連鎖酒店。 其擁有其網站的valentino.com網域。 為了推廣巴黎的Valentino飯店，它使用paris.valentino.com子網域。 因此，相關寄件者地址可以是hotel@paris.valentino.com。
 
 ## 傳遞能力管理 {#deliverability-management}
 
@@ -50,9 +50,9 @@ ht-degree: 4%
 
    * 它是指決定電子郵件為收件者伺服器接受之能力的電子郵件因素。 ISP （網際網路服務提供者）會篩選掉他們認為是垃圾郵件的電子郵件，或封鎖影像的下載。 如果他們判斷某個網域傳送的電子郵件數量過多，就會限制其將接受來自該寄件者的電子郵件數量。
 
-   * 在檢查電子郵件是否可傳遞時，您想要將焦點放在四個主要類別上：資料品質、訊息和內容、傳送基礎結構和信譽。 如需有關本主題的更深入探討，請參閱 [本節](../../sending/using/about-deliverability.md).
+   * 在檢查電子郵件是否可傳遞時，您想要將焦點放在四個主要類別上：資料品質、訊息和內容、傳送基礎結構和信譽。 如需深入瞭解此主題，請參閱[本節](../../sending/using/about-deliverability.md)。
 
-* 啟動新平台時，套用詳細說明的建議 [此頁面](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html#transition-process).
+* 啟動新平台時，套用[此頁面](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html#transition-process)上詳述的建議。
 
 * 請聯絡您的Adobe代表以尋求協助。
 
@@ -76,6 +76,6 @@ ht-degree: 4%
 
 為避免傳送訊息至無效地址、限制不當通訊並改善寄件者信譽，Adobe建議對訂閱後確認實施雙重選擇加入機制。 這有助於確保收件者有意識地訂閱。
 
-有關實施此機制的詳細資訊，請參見 [本節](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+實作此機制的詳細資訊在[本節](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)中概述。
 
-進一步瞭解 [開始使用設定檔和對象](../../audiences/using/get-started-profiles-and-audiences.md).
+深入瞭解[開始使用設定檔與對象](../../audiences/using/get-started-profiles-and-audiences.md)。

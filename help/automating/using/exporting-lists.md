@@ -17,34 +17,34 @@ ht-degree: 5%
 
 # 匯出清單{#exporting-lists}
 
-Adobe Campaign可讓您直接將清單匯出至檔案中，以供日後使用。 匯出檔案中的清單會在以下位置產生記錄專案： **[!UICONTROL Export audits]** 功能表。 有關匯出稽核的詳細資訊，請參閱[稽核匯出](../../administration/using/auditing-export-logs.md)區段。
+Adobe Campaign可讓您直接將清單匯出至檔案中，以供日後使用。 匯出檔案中的清單會在&#x200B;**[!UICONTROL Export audits]**&#x200B;功能表中產生記錄專案。 有關匯出稽核的詳細資訊，請參閱[稽核匯出](../../administration/using/auditing-export-logs.md)區段。
 
 ![](assets/do-not-localize/how-to-video.png) [探索如何在視訊中設定清單](#video)
 
-匯出清單選項預設會匯出最多100,000行，並且由 **Nms_ExportListLimit** 選項。 此選項可由功能管理員管理，位於 **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** 功能表。
+匯出清單選項預設會匯出最多100,000行，並由&#x200B;**Nms_ExportListLimit**&#x200B;選項定義。 此選項可由功能管理員在&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**&#x200B;功能表下管理。
 
-匯出清單適用於所有具有 **清單** 模式檢視，適用於擁有下列專案的使用者： **[!UICONTROL EXPORT (export)]** 角色。
+擁有&#x200B;**[!UICONTROL EXPORT (export)]**&#x200B;角色的使用者，可在所有具有&#x200B;**清單**&#x200B;模式檢視的畫面中使用匯出清單。
 
-1. 移至您選擇的 **清單** 畫面。 例如，測試設定檔概述畫面( **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]** )。
-1. 檢查熒幕是否在中 **清單** 模式。
+1. 移至您選擇的&#x200B;**清單**&#x200B;畫面。 例如，測試設定檔總覽畫面( **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]** )。
+1. 檢查熒幕是否處於&#x200B;**清單**&#x200B;模式。
 
    ![](assets/export_list_mode_switch.png)
 
-1. 使用以您要匯出的順序來組織清單中的欄 **[!UICONTROL Configure list]** 按鈕，在右上角。 除了已設定的欄外，也會匯出資源的主索引鍵。
+1. 使用右上角的&#x200B;**[!UICONTROL Configure list]**&#x200B;按鈕，以您要匯出的順序來組織清單中的欄。 除了已設定的欄外，也會匯出資源的主索引鍵。
 1. 您也可以套用篩選器。 若要這麼做，請按一下左上角的按鈕以顯示搜尋窗格。
 
    如果您從包含不同資源的清單執行匯出，則必須套用篩選器，如此清單中只會顯示一種型別的資源。
 
 1. 您也可以將所選的欄排序。
-1. 選取匯出按鈕 ![](assets/exportlistbutton.png).
+1. 選取匯出按鈕![](assets/exportlistbutton.png)。
 
    將會出現快顯視窗以確認匯出。 在您確認匯出後，檔案會自動下載到您的電腦。
 
-檔案會以CSV格式產生，副檔名為.TXT。 根據匯出的資源和匯出日期來命名。 例如：名稱profileBase_20150426_120253.txt將套用至2015年4月26日12點執行的設定檔匯出:02:53. 它以UTF-8格式編碼。
+檔案會以CSV格式產生，副檔名為.TXT。 根據匯出的資源和匯出日期來命名。 例如：名稱profileBase_20150426_120253.txt將套用至2015年4月26日12:02:53執行的設定檔匯出。 它以UTF-8格式編碼。
 
 數值和日期會考量執行匯出之使用者的當地時間（地區設定）。 例如： DD-MM-YYYY或MM-DD-YYYY。
 
-若要執行大於此值的匯出，您必須建立專用工作流程。 請參閱 [擷取檔案](../../automating/using/extract-file.md) 區段。
+若要執行大於此值的匯出，您必須建立專用工作流程。 請參閱[擷取檔案](../../automating/using/extract-file.md)區段。
 
 **範例**
 
@@ -82,4 +82,4 @@ Adama;Henry;22/09/1992 02:00:00;henry.adama@mail.com;64120
 
 >[!VIDEO](https://video.tv.adobe.com/v/25288/?quality=12)
 
-提供其他Campaign Standard操作影片 [此處](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant).
+[此處](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant)提供其他Campaign Standard操作說明影片。

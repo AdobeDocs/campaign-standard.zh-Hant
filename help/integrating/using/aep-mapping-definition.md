@@ -30,28 +30,28 @@ ht-degree: 0%
 * 透過介面或使用與XDM相關聯的REST API來定義XDM結構描述
 * 根據XDM結構描述定義建立資料集
 
-1. 前往 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** 並選擇 **[!UICONTROL Data mappings]** 登入點。
+1. 前往「**[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]**」並選擇&#x200B;**[!UICONTROL Data mappings]**&#x200B;專案。
 
-1. 按一下 **[!UICONTROL Create]** 以開始新的XDM對應。
+1. 按一下&#x200B;**[!UICONTROL Create]**&#x200B;以開始新的XDM對應。
 
    ![](assets/aep_createmapping.png)
 
 1. 填寫必填欄位並選取：
 
-   * a **目標維度**：這是要對應的Campaign Standard結構描述
-   * a **資料集**：這是與Adobe Experience Platform中XDM結構描述相關聯的資料套件。
+   * **目標維度**：這是要對應的Campaign Standard結構描述
+   * **資料集**：這是與Adobe Experience Platform中的XDM結構描述相關聯的資料包。
 
 >[!NOTE]
 >
->若要將批次擷取至即時客戶設定檔或Identity Service，資料集必須是 [已啟用即時客戶個人檔案](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html).
+>若要將批次擷取至即時客戶設定檔或身分識別服務，資料集必須針對即時客戶設定檔](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html)啟用[。
 >
 >如果您選取的資料集已用於現有資料對應，會出現警告以通知您資料可能會在Adobe Experience Platform上覆寫。 使用相同資料集的資料匹配中有一些常見的收件者時，可能會發生這種情況。
 
-下列畫面會顯示 **[!UICONTROL Field mappings]** 區段，您可在其中為Campaign Standard結構描述中的每個欄位建立新的對應。
+下列畫面會顯示&#x200B;**[!UICONTROL Field mappings]**&#x200B;區段，您可在其中為Campaign Standard結構描述中的每個欄位建立新的對應。
 
 ![](assets/aep_fieldmappings.png)
 
-此 **[!UICONTROL Create new field mapping]** 按鈕可讓您選取XDM結構描述中的Campaign Standard欄位和對應的欄位路徑運算式。
+**[!UICONTROL Create new field mapping]**&#x200B;按鈕可讓您選取XDM結構描述中的Campaign Standard欄位和對應的欄位路徑運算式。
 
 如果您找不到Adobe Campaign Standard欄位，則可以使用搜尋欄位來搜尋該欄位。 目前，搜尋僅適用於階層中開啟的欄位。
 
@@ -63,13 +63,13 @@ Campaign Standard中定義的擴充資源會對映所有原生欄位按讚。 �
 
 您可以透過API自訂XDM擴充功能，並定義您自己的擴充功能，讓您更能掌控對應。
 
-另請參閱 [結構描述登入API教學課程](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html) 以取得有關XDM API的更多詳細資料。
+如需XDM API的詳細資訊，請參閱[結構描述登入API教學課程](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html)。
 
 若要對應分項清單欄位，必須使用運算式編輯器定義與XDM值對應的每個分項清單值。 例如，postaladdressfield需要定義為：
 
 ![](assets/aep_enummapping.png)
 
-如果XDM值定義為XDM結構描述中的分項清單，則您可以使用會自動取代的原生EXDM函式 **lif** 語法。
+如果XDM值定義為XDM結構描述中的分項清單，您可以使用會自動取代&#x200B;**lif**&#x200B;語法的原生EXDM函式。
 
 ![](assets/aep_enummappingexdm.png)
 
@@ -79,4 +79,4 @@ Campaign Standard中定義的擴充資源會對映所有原生欄位按讚。 �
 
 >[!IMPORTANT]
 >
->目前，如果您編輯 **[!UICONTROL Field mappings]** 區段，然後按一下欄位外部，則在您按一下 **[!UICONTROL Save]** 按鈕。 此行為只會發生一次，當編輯 **[!UICONTROL Field Mappings]** 是頁面上的第一次編輯。
+>目前，如果您在&#x200B;**[!UICONTROL Field mappings]**&#x200B;區段中編輯值，然後按一下欄位外部，則在您按一下&#x200B;**[!UICONTROL Save]**&#x200B;按鈕之前，您的變更不會顯示在介面中。 當&#x200B;**[!UICONTROL Field Mappings]**&#x200B;上的編輯是頁面上的第一次編輯時，此行為只會發生一次。

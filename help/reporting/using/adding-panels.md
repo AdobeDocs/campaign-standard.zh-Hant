@@ -23,11 +23,11 @@ ht-degree: 1%
 
 此面板可讓您視需要建置報告。 您可以在報表中新增任意數量的面板，以篩選不同時段的資料。
 
-1. 按一下 **面板** 圖示。 您也可以按一下 **插入索引標籤** 並選取 **新增空白面板**.
+1. 按一下&#x200B;**面板**&#x200B;圖示。 您也可以按一下&#x200B;**插入索引標籤**&#x200B;並選取&#x200B;**新增空白面板**，以新增面板。
 
    ![](assets/dynamic_report_panel_1.png)
 
-1. 拖放 **空白面板** 放入您的儀表板。
+1. 將&#x200B;**空白面板**&#x200B;拖放到您的儀表板中。
 
    ![](assets/dynamic_report_panel.png)
 
@@ -35,41 +35,41 @@ ht-degree: 1%
 
 ## 新增自由表格 {#adding-a-freeform-table}
 
-自由表格可讓您建立表格，以使用中提供的不同量度和維度來分析資料。 **元件** 表格。
+自由表格可讓您建立表格，以使用&#x200B;**元件**&#x200B;表格中可用的不同量度和維度來分析您的資料。
 
 每個表格和視覺效果皆可調整大小，且可以移動以自訂報表。
 
-1. 按一下 **[!UICONTROL Panels]** 圖示。
+1. 按一下&#x200B;**[!UICONTROL Panels]**&#x200B;圖示。
 
    ![](assets/dynamic_report_panel_1.png)
 
-1. 拖放 **[!UICONTROL Freeform]** 個專案放入您的儀表板。
+1. 將&#x200B;**[!UICONTROL Freeform]**&#x200B;專案拖放至您的儀表板。
 
-   您也可以按一下 **[!UICONTROL Insert]** 標籤並選取 **[!UICONTROL New Freeform]** 或按一下 **[!UICONTROL Add a freeform table]** 在空白面板中。
+   您也可以按一下「**[!UICONTROL Insert]**」索引標籤並選取「**[!UICONTROL New Freeform]**」，或在空白面板中按一下「**[!UICONTROL Add a freeform table]**」來新增表格。
 
    ![](assets/dynamic_report_panel_2.png)
 
-1. 在 **[!UICONTROL Drop a segment here]** 欄位，新增 **[!UICONTROL Segment]** 從 **[!UICONTROL Components]** 定位至頂端列。
+1. 在&#x200B;**[!UICONTROL Drop a segment here]**&#x200B;欄位中，從&#x200B;**[!UICONTROL Components]**&#x200B;索引標籤新增&#x200B;**[!UICONTROL Segment]**&#x200B;至頂端列。
 
    ![](assets/dynamic_report_panel_3.png)
 
-1. 從拖放專案 **[!UICONTROL Components]** 定位至欄和列，以建置您的表格。
+1. 從&#x200B;**[!UICONTROL Components]**&#x200B;索引標籤拖放專案至欄和列，以建置您的表格。
 
    ![](assets/dynamic_report_freeform_3.png)
 
-1. 按一下 **[!UICONTROL Settings]** 圖示來變更資料在欄中的顯示方式。
+1. 按一下&#x200B;**[!UICONTROL Settings]**&#x200B;圖示以變更資料在欄中的顯示方式。
 
    ![](assets/dynamic_report_freeform_4.png)
 
-   此 **[!UICONTROL Column settings]** 由下列專案組成：
+   **[!UICONTROL Column settings]**&#x200B;由下列專案組成：
 
    * **[!UICONTROL Number]**：可讓您顯示或隱藏欄中的摘要數字。
    * **[!UICONTROL Percent]**：可讓您顯示或隱藏欄中的百分比。
    * **[!UICONTROL Interpret zero as no value]**：可讓您在值等於零時顯示或隱藏。
    * **[!UICONTROL Background]**：可讓您顯示或隱藏儲存格中的水準進度列。
-   * **[!UICONTROL Include retries]**：可讓您在結果中包含重試。 此項僅適用於 **[!UICONTROL Sent]** 和 **[!UICONTROL Bounces + Errors]**.
+   * **[!UICONTROL Include retries]**：可讓您在結果中包含重試。 這僅適用於&#x200B;**[!UICONTROL Sent]**&#x200B;和&#x200B;**[!UICONTROL Bounces + Errors]**。
 
-1. 選取一或多個列，然後按一下 **[!UICONTROL Visualize]** 圖示。 視覺效果會新增，以反映您選取的列。
+1. 選取一或多個列，然後按一下&#x200B;**[!UICONTROL Visualize]**&#x200B;圖示。 視覺效果會新增，以反映您選取的列。
 
    ![](assets/dynamic_report_freeform_5.png)
 

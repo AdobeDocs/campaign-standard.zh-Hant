@@ -71,18 +71,18 @@ Lorem ipsum dolor sit amet， consectetur adipiscing elit. 前庭預留位置mau
 
 個人化訊息是傳送相關內容、提供個人化體驗並提高開放率和轉換率的關鍵。 Adobe Campaign傳送的跨頻道訊息可以透過數種不同的方式實現個人化。 根據設定檔，這些方式可以與條件組合。 您可以：
 
-* 插入 [動態個人化欄位](../../designing/using/personalization.md#inserting-a-personalization-field) 在您的訊息中
-* 插入 [預先定義的個人化區塊](../../designing/using/personalization.md#adding-a-content-block)
-* [個人化寄件者](../../designing/using/subject-line.md) 電子郵件或簡訊的
-* [個人化主旨列](../../designing/using/subject-line.md) 電子郵件的
-* 建立 [電子郵件中的條件式內容](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) 或 [在登入頁面中](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
-* 插入 [動態文字](../../channels/using/defining-dynamic-text.md) 在SMS訊息或推播通知中
+* 在您的訊息中插入[動態個人化欄位](../../designing/using/personalization.md#inserting-a-personalization-field)
+* 插入[預先定義的個人化區塊](../../designing/using/personalization.md#adding-a-content-block)
+* [個人化電子郵件或簡訊的寄件者](../../designing/using/subject-line.md)
+* [個人化電子郵件的主旨列](../../designing/using/subject-line.md)
+* 在電子郵件](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)中建立[條件式內容，或在登陸頁面](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)中建立[
+* 在SMS訊息或推播通知中插入[動態文字](../../channels/using/defining-dynamic-text.md)
 
 ![](assets/delivery_content_43.png)
 
 **閱讀更多**
 
-* 透過探索電子郵件個人化 [端對端範例](../../designing/using/personalization.md#example-email-personalization)
+* 透過[端對端範例](../../designing/using/personalization.md#example-email-personalization)探索電子郵件個人化
 * [個人化URL](../../designing/using/personalization.md#personalizing-urls)
 * [設定影像的個人化](../../designing/using/personalization.md#personalizing-an-image-source)
 

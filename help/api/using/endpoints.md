@@ -19,18 +19,18 @@ ht-degree: 11%
 
 Adobe Campaign REST API的可用端點：
 
-* **/profileAndServices**：與現成可用欄位互動。 無法透過此端點存取延伸欄位。
-* **/profileAndServicesExt**：與設定檔或服務自訂資源擴充期間新增的自訂欄位互動。 如需自訂資源的詳細資訊，請參閱 [本節](../../api/using/custom-resources.md).
-* **/&lt;transactionalapi>**：與交易式訊息API互動（交易式訊息API端點的名稱取決於您的執行個體設定）。 如需詳細資訊，請參閱[本章節](../../api/using/managing-transactional-messages.md)。
-* **/workflow/execution**：與工作流程互動。 如需詳細資訊，請參閱[本章節](../../api/using/controlling-a-workflow.md)。
+* **/profileAndServices**：與立即可用的欄位互動。 無法透過此端點存取延伸欄位。
+* **/profileAndServicesExt**：與設定檔或服務自訂資源擴充期間新增的自訂欄位互動。 如需自訂資源的詳細資訊，請參閱[本節](../../api/using/custom-resources.md)。
+* **/&lt;transactionalAPI>**：與交易式訊息API互動（交易式訊息API端點的名稱取決於您的執行個體設定）。 如需詳細資訊，請參閱[本章節](../../api/using/managing-transactional-messages.md)。
+* **/工作流程/執行**：與工作流程互動。 如需詳細資訊，請參閱[本章節](../../api/using/controlling-a-workflow.md)。
 * **/privacy/privacyTool**：與隱私權API互動，以允許自動處理隱私權請求。 如需詳細資訊，請參閱[本章節](../../api/using/creating-a-privacy-request.md)。
-* **/history**：擷取設定檔的行銷記錄。 如需Campaign中整合式客戶設定檔的詳細資訊，請參閱 [Campaign檔案](https://helpx.adobe.com/campaign/standard/audiences/using/integrated-customer-profile.html).
+* **/history**：擷取設定檔的行銷記錄。 如需Campaign中整合式客戶設定檔的詳細資訊，請參閱[Campaign檔案](https://helpx.adobe.com/campaign/standard/audiences/using/integrated-customer-profile.html)。
 
-依預設，可用於的主要資源 **profileAndServices** 和 **profileAndServicesExt** API包括：
+依預設，**profileAndServices**&#x200B;與&#x200B;**profileAndServicesExt** API可用的主要資源為：
 
-* **/profile**：與Campaign資料庫的設定檔互動。 若要將設定檔新增至服務，請使用 **/service** 端點。 如需Campaign中設定檔的詳細資訊，請參閱 [Campaign檔案](https://helpx.adobe.com/campaign/standard/audiences/using/about-profiles.html).
-* **/service**：管理訂閱服務。 如需Campaign中服務的詳細資訊，請參閱 [Campaign檔案](https://helpx.adobe.com/campaign/standard/audiences/using/creating-a-service.html).
+* **/設定檔**：與Campaign資料庫的設定檔互動。 若要將設定檔新增至服務，請使用&#x200B;**/服務**&#x200B;端點。 如需Campaign中設定檔的詳細資訊，請參閱[Campaign檔案](https://helpx.adobe.com/campaign/standard/audiences/using/about-profiles.html)。
+* **/服務**：管理訂閱服務。 如需Campaign中服務的詳細資訊，請參閱[Campaign檔案](https://helpx.adobe.com/campaign/standard/audiences/using/creating-a-service.html)。
 
 >[!NOTE]
 >
->所有其他已擴充或建立的資源可透過 **設定檔與服務分機** 僅限API。 它們必須連結至 **個人資料** 資源，以方便存取。
+>已擴充或建立的所有其他資源只能透過&#x200B;**ProfileAndServicesExt** API使用。 它們必須連結到&#x200B;**設定檔**&#x200B;資源才能存取。

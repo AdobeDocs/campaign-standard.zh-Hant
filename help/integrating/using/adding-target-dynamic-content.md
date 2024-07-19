@@ -23,23 +23,23 @@ ht-degree: 3%
 
 在Adobe Campaign中存取影像之前，必須先在Adobe Target中執行以下工作：
 
-* 建立一或多個 [重新導向選件](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html)，您必須在該處指定將使用之影像的URL。
-* 建立一或多個 [對象](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html)，以定義活動的目標。
-* 建立 [表單式體驗撰寫器](https://experienceleague.adobe.com/docs/target/using/experiences/form-experience-composer.html) 活動，您必須在其中選取rawbox並指定數個體驗，視建立的重新導向選件數量而定。 您必須針對每個體驗選取其中一個已建立的重新導向選件。
+* 建立一或多個[重新導向選件](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html)，您必須指定要在其中使用的影像URL。
+* 建立一或多個[對象](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html)，以定義活動的目標。
+* 建立[表單式體驗撰寫器](https://experienceleague.adobe.com/docs/target/using/experiences/form-experience-composer.html)活動，您必須在該活動中選取rawbox並指定數個體驗（視建立的重新導向選件數目而定）。 您必須針對每個體驗選取其中一個已建立的重新導向選件。
 * 使用Adobe Campaign中的資訊建立區段以指定體驗。 若要在選件的選取規則中使用來自Adobe Campaign的資料，您必須在Adobe Target的rawbox中指定資料。
 
 1. 建立電子郵件傳遞。
-1. 編輯電子郵件或登入頁面的內容時，請前往影像區塊，然後選取「 」 **[!UICONTROL Dynamic image from Adobe Target]** 透過內容功能表。
+1. 編輯電子郵件或登入頁面的內容時，請移至影像區塊，然後透過內容功能表選取&#x200B;**[!UICONTROL Dynamic image from Adobe Target]**。
 
    ![](assets/tar_insert_dynamic_image.png)
 
-1. 選取預設顯示在電子郵件中的影像。 您可以直接指定影像URL，或選取透過共用的影像 [資產](../../integrating/using/working-with-campaign-and-assets-core-service.md).
+1. 選取預設顯示在電子郵件中的影像。 您可以直接指定影像URL，或選取透過[Assets](../../integrating/using/working-with-campaign-and-assets-core-service.md)共用的影像。
 
    整合僅支援靜態影像。 其餘內容無法自訂。
 
 1. 輸入Adobe Target中指定的rawbox名稱。
-1. 如果您在Adobe Target的設定中使用企業許可權，請在此欄位中新增對應的屬性。 前往進一步瞭解Target企業許可權： [此頁面](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html). 如果您未在Target中使用企業許可權，此欄位是選用欄位，且不是必要欄位。
-1. 在 **[!UICONTROL Additional decision parameters]**，指定Adobe Target區段中所定義欄位與Adobe Campaign欄位之間的對應。
+1. 如果您在Adobe Target的設定中使用企業許可權，請在此欄位中新增對應的屬性。 在[此頁面](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html)中進一步瞭解Target Enterprise許可權。 如果您未在Target中使用企業許可權，此欄位是選用欄位，且不是必要欄位。
+1. 在&#x200B;**[!UICONTROL Additional decision parameters]**&#x200B;中，指定Adobe Target區段中所定義欄位與Adobe Campaign欄位之間的對應。
 
    使用的Adobe Campaign欄位必須在rawbox中指定。 在此範例中，會根據收件者的性別定義不同的體驗。
 
@@ -53,4 +53,4 @@ ht-degree: 3%
 
 * [Adobe Target入口網站](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html)
 * [關於電子郵件內容設計](../../designing/using/designing-content-in-adobe-campaign.md)
-* [即時個人化電子郵件影像](https://helpx.adobe.com/tw/marketing-cloud/how-to/email-marketing.html) 視訊
+* [即時個人化電子郵件影像](https://helpx.adobe.com/tw/marketing-cloud/how-to/email-marketing.html)影片

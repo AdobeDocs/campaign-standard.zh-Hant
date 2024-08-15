@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 44c436a74a0a4aa688427bfb36d506566d57ac3a
+source-git-commit: 625b2341b1f7da17d202ef1edcdf97f3cb46b801
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 100%
+source-wordcount: '489'
+ht-degree: 73%
 
 ---
 
@@ -18,25 +18,38 @@ ht-degree: 100%
 <!--
 ![Control Panel](assets/do-not-localize/cp-icon.png) **New Control Panel release**. [Learn more](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html){target="_blank"}.-->
 
+<!--
+## Early release notes {#e-new-release}
 
-## 早期發行說明 {#e-new-release}
-
-本章節介紹了下一個 Campaign Standard 版本中包含的改善及變動。
+This section lists improvements and changes included in the next Campaign Standard release.
 
 >[!CAUTION]
 >
->在階段環境升級日期前，此內容可能會有所變更，恕不另行通知。 請參閱[發行計劃頁面](../../rn/using/release-planning.md)以瞭解更多資訊。
+>This content is subject to changes without prior notice until the stage environments upgrade date. Learn more in the [Release planning page](../../rn/using/release-planning.md).
+-->
 
-**版本 24.2 - 2024 夏季版**
+## 版本 24.2 - 2024 夏季版 {#summer-24}
 
-* **發行日期**：2024 年 8 月 (有限可用性) - [深入瞭解](../../rn/using/release-planning.md)。
+<!--**Release date**: August 2024 (Limited Availability) - [Learn more](../../rn/using/release-planning.md).-->
 
-* **移轉至 OAuth 伺服器對伺服器認證**
+### 改進 {#summer-24-rn-improvements}
 
-  自此版本開始，Adobe 已棄用服務帳戶 (JWT) 認證，Campaign 與 Adobe 解決方案和應用程式的輸出整合現在需依賴 OAuth 伺服器對伺服器認證。 Adobe 會針對您的傳出整合執行 JWT 到 OAuth 的移轉，例如 Campaign-Analytics 整合或 Experience Cloud 觸發器整合。
+**移轉至 OAuth 伺服器對伺服器認證**
 
-  如果您已傳入 Campaign 傳入整合，而且正在使用 [Campaign API](../../api/using/get-started-apis.md)，您必須移轉您的技術帳戶，如[本文件](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}所詳述。 現有的服務帳戶 (JWT) 認證將於 **2025 年 1 月 27 日**&#x200B;停止運作。
+自此版本開始，Adobe 已棄用服務帳戶 (JWT) 認證，Campaign 與 Adobe 解決方案和應用程式的輸出整合現在需依賴 OAuth 伺服器對伺服器認證。 Adobe 會針對您的傳出整合執行 JWT 到 OAuth 的移轉，例如 Campaign-Analytics 整合或 Experience Cloud 觸發器整合。
 
+如果您已傳入 Campaign 傳入整合，而且正在使用 [Campaign API](../../api/using/get-started-apis.md)，您必須移轉您的技術帳戶，如[本文件](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}所詳述。 現有的服務帳戶 (JWT) 認證將於 **2025 年 1 月 27 日**&#x200B;停止運作。
+
+### 修正 {#summer-24-rn-fixes}
+
+* 修正造成工作流程排程器早於排程時間啟動的問題。 (CAMP-55412)
+* 修正複製異動推播通知中的自訂欄位時發生錯誤的問題。 (CAMP-54459)
+* 已修正影響應用程式內傳訊時間和日期排程器可用性的問題。 (CAMP-54495)
+* 修正使用自訂追蹤別名功能時，追蹤無法運作且整個連結為動態的問題。 (CAMP-56044)
+* 修正使用搜尋尋找特定範本時，導致顯示有限範本數的問題。 (CAMP-55273)
+* 首選語言下拉式清單新增了下列語言： en_kz （英文 — 哈薩克）和en_ua （英文 — 烏克蘭）。 (CAMP-55336)
+* 修正造成時間調整按鈕在排程器設定中無法運作的問題。 (CAMP-53602)
+* 修正排程器設定中時間調整列的幾個使用者介面問題。 (CAMP-55291)
 
 ## 版本 24.1 - 2024 年冬季發布內容 {#winter-24}
 

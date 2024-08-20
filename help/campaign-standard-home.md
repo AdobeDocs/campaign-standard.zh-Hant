@@ -3,7 +3,7 @@ keywords: Campaign Standard;home;popular topics
 title: Adobe Campaign Standard 產品文件
 description: 瀏覽　Adobe Campaign Standard 產品文件
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-source-git-commit: 8b94b632bbc4fc8e190cccb05018043cdeb00fdd
+source-git-commit: 0beb4934d1412c3f64d28106f9243673907629f3
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 100%
@@ -18,9 +18,9 @@ ht-degree: 100%
 
 >[!BEGINTABS]
 
->[!TAB Campaign 24.1 版本已上線！]
+>[!TAB Campaign 24.2 版本已上線！]
 
-探索 Campaign Standard 24.1 版本隨附的新功能、改進項目及修正。
+探索 Campaign Standard 24.2 版本隨附的新功能、改進項目及修正。
 
 [![影像](assets/do-not-localize/learn-more-button.svg)](rn/using/release-notes.md)
 

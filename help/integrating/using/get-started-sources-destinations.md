@@ -43,5 +43,5 @@ ht-degree: 13%
 
 如需如何設定這些匯入和匯出流程的詳細資訊，請參閱以下章節：
 
-* [將 Adobe Experience Platform 對象內嵌至 Campaign](../../integrating/using/ingest-aep-data.md)
+* [將 Adobe Experience Platform 客群內嵌至 Campaign](../../integrating/using/ingest-aep-data.md)
 * [將資料從 Campaign 匯出至 Adobe Experience Platform](../../integrating/using/export-campaign-data.md)

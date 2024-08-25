@@ -233,7 +233,7 @@ ht-degree: 7%
       </tr>
       <tr>
          <td>結束</td>
-         <td>逾期日期</td>
+         <td>到期日期</td>
          <td>日期 </td>
          <td> </td>
       </tr>

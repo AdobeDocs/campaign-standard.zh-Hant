@@ -27,13 +27,13 @@ Adobe Campaign Standard 是功能強大的跨頻道行銷活動管理工具，�
 
 **Campaign Integrated Customer Profile** 可讓您透過單一檢視追蹤所有通道上與客戶的每一次互動，讓您向客戶傳遞相關的個人化訊息。
 
-**將您的資料庫細分為受眾**，以最佳化行銷活動的目標。
+**將您的資料庫細分為客群**，以最佳化行銷活動的目標。
 
 使用服務和登陸頁面，**管理客戶權限和同意**，以便設定簡單的選擇加入和選擇退出機制。
 
 使用多項功能&#x200B;**豐富您的資料庫**：工作流程、登陸頁面或 API，或 Microsoft Dynamics 365。
 
-[開始使用設定檔和對象](../../audiences/using/get-started-profiles-and-audiences.md)
+[開始使用輪廓和客群](../../audiences/using/get-started-profiles-and-audiences.md)
 
 ## 協調跨頻道行銷活動 {#orchestrate-campaigns}
 
@@ -51,7 +51,7 @@ Adobe Campaign Standard 是功能強大的跨頻道行銷活動管理工具，�
 
 透過線上和離線通訊通道設計和傳送訊息，包括透過測試和回應式設計策略針對多種裝置最佳化電子郵件傳送。
 
-**運用 Campaign 通訊通道**，在適當的位置提供行銷活動：電子郵件、SMS、推播通知、應用程式內訊息、直接郵件、登陸頁面。透過為所有類型的訊息（交易性、循環性、多語言訊息）建立範本，以獲得訊息策略的時間和一致性。執行 A/B 測試，並運用個人化和動態內容功能擷取觀眾的興趣。[開始使用通訊管道](../../channels/using/get-started-communication-channels.md)
+**運用 Campaign 通訊通道**，在適當的位置提供行銷活動：電子郵件、SMS、推播通知、應用程式內訊息、直接郵件、登陸頁面。透過為所有類型的訊息（交易性、循環性、多語言訊息）建立範本，以獲得訊息策略的時間和一致性。執行 A/B 測試，並運用個人化和動態內容功能擷取客群的興趣。[開始使用通訊管道](../../channels/using/get-started-communication-channels.md)
 
 **使用 Campaign 電子郵件設計工具**，建立吸引人、個人訂做的電子郵件訊息。從草稿開始，或運用內建的內容片段或範本，使用針對回應式設計最佳化的 HTML 格式來設計您的電子郵件。[開始設計電子郵件內容](../../designing/using/designing-content-in-adobe-campaign.md)
 

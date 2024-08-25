@@ -18,7 +18,7 @@ ht-degree: 95%
 
 # 新增控制組 {#adding-control-group}
 
-您可以使用控制組來避免傳送訊息給部分觀眾，以評估行銷活動的影響。
+您可以使用控制組來避免傳送訊息給部分客群，以評估行銷活動的影響。
 
 若要在 Adobe Campaign 中執行此動作，請在定義傳送目標時，建立<b>控制組</b>。設定檔會隨機新增至控制組、篩選或不篩選，或根據標準。
 
@@ -106,7 +106,7 @@ ht-degree: 95%
 
    ![](assets/control-group-define-target-exclusion.png)
 
-1. 使用[查詢編輯器](../../automating/using/editing-queries.md)定義排除條件。您也可以選取之前已建立的[閱聽眾](../../audiences/using/about-audiences.md)。
+1. 使用[查詢編輯器](../../automating/using/editing-queries.md)定義排除條件。您也可以選取之前已建立的[客群](../../audiences/using/about-audiences.md)。
 
    ![](assets/control-group-target-exclusion.png)
 

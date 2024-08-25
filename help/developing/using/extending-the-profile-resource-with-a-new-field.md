@@ -169,7 +169,7 @@ ht-degree: 92%
 您的登錄頁面現已準備就緒。若要更新設定檔，您可以建立工作流程，然後根據所選的興趣傳送特殊優惠。
 
 1. 在 **[!UICONTROL Marketing activities]** 索引標籤中，按一下 **[!UICONTROL Create]**，然後選取 **[!UICONTROL Workflow]**。
-1. 拖放 **[!UICONTROL Query]** 活動，以定位您需要的設定檔或對象。
+1. 拖放 **[!UICONTROL Query]** 活動，以定位您需要的輪廓或客群。
 1. 拖放 **[!UICONTROL Email delivery]** 活動，以開始設定包含登錄頁面連結的電子郵件。選取 **[!UICONTROL Add an outbound transition with the population]**。
 
    ![](assets/schema_extension_uc3.png)

@@ -43,7 +43,7 @@ ht-degree: 97%
 
 根據您的訊息傳送需求，**[!UICONTROL Layout]** 下拉式清單提供四種不同的選項供您選取：
 
-* **[!UICONTROL Full page]**：此類型的版面包含對象裝置的整個螢幕。
+* **[!UICONTROL Full page]**：此類型的版面包含客群裝置的整個螢幕。
 
   其支援媒體（影像、影片）、文字及按鈕元件。
 
@@ -80,7 +80,7 @@ ht-degree: 97%
 
 1. 對於 **[!UICONTROL Video]** 媒體類型，請在　**[!UICONTROL Media URL]**　欄位中輸入您的 URL。
 
-   之後，輸入您要在對象裝置上下載影片時使用的　**[!UICONTROL Video poster]**，或是直到使用者輕觸播放按鈕為止。
+   之後，輸入您要在客群裝置上下載影片時使用的　**[!UICONTROL Video poster]**，或是直到使用者輕觸播放按鈕為止。
 
    ![](assets/inapp_customize_6.png)
 

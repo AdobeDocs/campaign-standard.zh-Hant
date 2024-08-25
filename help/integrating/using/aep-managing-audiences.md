@@ -1,5 +1,5 @@
 ---
-title: 管理 Adobe Experience Platform 對象
+title: 管理 Adobe Experience Platform 客群
 description: 瞭解如何在Campaign Standard中管理Adobe Experience Platform。
 audience: audiences
 content-type: reference
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 ---
 
-# 管理 Adobe Experience Platform 對象 {#about-audiences}
+# 管理 Adobe Experience Platform 客群 {#about-audiences}
 
 >[!IMPORTANT]
 >

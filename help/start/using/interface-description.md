@@ -43,7 +43,7 @@ Adobe Campaign 可讓您導覽不同的功能表和畫面，以管理您的行�
 * 此 **[!UICONTROL Programs & campaigns]** 卡片會帶您進入可以建立與管理行銷活動的方案清單。請參閱[方案清單](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns)。
 * 此 **[!UICONTROL Timeline]** 卡片會直接帶您進入行銷活動的互動式時間表，您可以在其中諮詢目前的方案及其內容。請參閱[時間表](../../start/using/timeline.md)。
 * 此 **[!UICONTROL Customer profiles]** 卡片會直接將您導向至設定檔清單。在此，您可以諮詢與清單中每個設定檔有關的事件。請參閱[管理設定檔](../../audiences/using/about-profiles.md)。
-* 此 **[!UICONTROL Audiences]** 卡片會直接將您帶至對象清單。從這裡，您可以存取現有的對象並建立新的對象。請參閱[管理對象](../../audiences/using/about-audiences.md)。
+* 此 **[!UICONTROL Audiences]** 卡片會直接將您帶至客群清單。從這裡，您可以存取現有的客群並建立新的客群。請參閱[管理客群](../../audiences/using/about-audiences.md)。
 
 ## 頂端列 {#top-bar}
 
@@ -101,7 +101,7 @@ Adobe Campaign 可讓您導覽不同的功能表和畫面，以管理您的行�
 
 * **[!UICONTROL Profiles]** - 如需此項目詳細資訊，請參閱[管理設定檔](../../audiences/using/about-profiles.md)區段。
 * **[!UICONTROL Test profiles]** - 如需詳細資訊，請參閱[管理測試設定檔](../../audiences/using/managing-test-profiles.md)區段。
-* **[!UICONTROL Audiences]** - 如需詳細資訊，請參閱[管理對象](../../audiences/using/about-audiences.md)區段。
+* **[!UICONTROL Audiences]** - 如需詳細資訊，請參閱[管理客群](../../audiences/using/about-audiences.md)區段。
 * **[!UICONTROL Services]** - 如需詳細資訊，請參閱[建立服務](../../audiences/using/creating-a-service.md)區段。
 
 ### 資源 {#resources}

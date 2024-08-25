@@ -201,7 +201,7 @@ ht-degree: 22%
 **相關主題**：
 
 - [建立電子郵件](../../channels/using/creating-an-email.md)
-- [在訊息中選取對象](../../audiences/using/selecting-an-audience-in-a-message.md)
+- [在訊息中選取客群](../../audiences/using/selecting-an-audience-in-a-message.md)
 - [排程訊息](../../sending/using/about-scheduling-messages.md)
 - [預覽訊息](../../sending/using/previewing-messages.md)
 - [電子郵件轉譯](../../sending/using/email-rendering.md)

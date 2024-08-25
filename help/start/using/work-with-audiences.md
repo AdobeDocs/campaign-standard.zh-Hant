@@ -116,8 +116,8 @@ Campaign StandardAPI可讓您執行更新資料庫的操作，例如建立、更
 
 **閱讀更多**
 
-* [關於對象](../../audiences/using/about-audiences.md)
-* [建立對象](../../audiences/using/creating-audiences.md)
+* [關於客群](../../audiences/using/about-audiences.md)
+* [建立客群](../../audiences/using/creating-audiences.md)
 
 ## 隱私權管理 {#privacy-management}
 

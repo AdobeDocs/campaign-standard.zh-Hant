@@ -60,9 +60,9 @@ Adobe Campaign 可立即提供技術工作流程。技術工作流程是排程�
    <td> 此工作流程是資料庫維護工作流程：會執行不同的統計和進度，並根據已定義的設定，從資料庫中刪除過時資料。預設會每天凌晨 4:00 自動啟動。<br /> </td> 
   </tr>
   <tr> 
-   <td> <span class="uicontrol">匯入共用的對象</span> <br /> </td> 
+   <td> <span class="uicontrol">匯入共用的客群</span> <br /> </td> 
    <td> <span class="uicontrol">importSharedAudience</span> <br /> </td> 
-   <td> 此工作流程會同步在 Adobe Campaign 中匯入的 Adobe Experience Cloud 對象資料。預設會每小時啟動一次。<br /> </td> 
+   <td> 此工作流程會同步在 Adobe Campaign 中匯入的 Adobe Experience Cloud 客群資料。預設會每小時啟動一次。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">即時報告共用</span> <br /> </td> 

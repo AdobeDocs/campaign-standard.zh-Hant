@@ -44,7 +44,7 @@ Adobe Campaign 中的 A/B 測試功能允許您定義兩至三種電子郵件變
    >
    >預設會隱藏後續與 A/B 測試範本。勾選左側的 A/B 測試方塊（**[!UICONTROL Filter]** 側面面板）以顯示。
 
-1. 定義電子郵件的一般屬性與目標對象，就像標準電子郵件一樣。請參閱[建立對象](../../audiences/using/creating-audiences.md)區段。
+1. 定義電子郵件的一般屬性與目標客群，就像標準電子郵件一樣。請參閱[建立客群](../../audiences/using/creating-audiences.md)區段。
 1. 在建立精靈的第四個步驟中，定義 A/B 測試參數：
 
    * **[!UICONTROL Number of variants]**：您可以選取使用兩種或三種變體。如果您選取三種變體，則在精靈中確認此步驟後，就無法修改此選項。

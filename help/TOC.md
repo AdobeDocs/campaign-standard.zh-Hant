@@ -47,8 +47,8 @@ ht-degree: 100%
       + [隱私權請求](start/using/privacy-requests.md)
       + [隱私權常見問答集](start/using/privacy-faq.md)
    + [說明與支援選項](support.md)
-+ 設定檔與對象 {#profiles-and-audiences}
-   + [開始使用設定檔和對象](audiences/using/get-started-profiles-and-audiences.md)
++ 輪廓與客群 {#profiles-and-audiences}
+   + [開始使用輪廓和客群](audiences/using/get-started-profiles-and-audiences.md)
    + 管理設定檔 {#managing-profiles}
       + [關於設定檔](audiences/using/about-profiles.md)
       + [建立設定檔](audiences/using/creating-profiles.md)
@@ -57,10 +57,10 @@ ht-degree: 100%
       + [使用中的設定檔案](audiences/using/active-profiles.md)
       + [管理測試設定檔](audiences/using/managing-test-profiles.md)
       + [充實 Campaign 資料庫](audiences/using/enriching-campaign-database.md)
-   + 管理對象 {#managing-audiences}
-      + [關於對象](audiences/using/about-audiences.md)
-      + [建立對象](audiences/using/creating-audiences.md)
-      + [在訊息中選取對象](audiences/using/selecting-an-audience-in-a-message.md)
+   + 管理客群 {#managing-audiences}
+      + [關於客群](audiences/using/about-audiences.md)
+      + [建立客群](audiences/using/creating-audiences.md)
+      + [在訊息中選取客群](audiences/using/selecting-an-audience-in-a-message.md)
    + 管理訂閱 {#managing-subscriptions}
       + [關於訂閱](audiences/using/about-subscriptions.md)
       + [建立服務](audiences/using/creating-a-service.md)
@@ -84,7 +84,7 @@ ht-degree: 100%
       + [最佳化傳遞](sending/using/optimize-delivery.md)
       + [使用範本](sending/using/use-templates.md)
       + [建置個人化內容](sending/using/design-and-personalize.md)
-      + [定義正確對象](sending/using/define-the-right-audience.md)
+      + [定義正確客群](sending/using/define-the-right-audience.md)
       + [傳送前先檢查](sending/using/check-before-sending.md)
       + [追蹤和監視](sending/using/track-and-monitor.md)
    + 電子郵件訊息 {#email-messages}
@@ -116,7 +116,7 @@ ht-degree: 100%
       + [關於直接郵件](channels/using/about-direct-mail.md)
       + [退回至寄件者](channels/using/return-to-sender.md)
       + [建立直接郵件](channels/using/creating-the-direct-mail.md)
-      + [定義直接郵件對象](channels/using/defining-the-direct-mail-audience.md)
+      + [定義直接郵件客群](channels/using/defining-the-direct-mail-audience.md)
       + [定義直接郵件內容](channels/using/defining-the-direct-mail-content.md)
    + 傳送異動訊息 {#transactional-messaging}
       + [開始使用異動訊息](channels/using/getting-started-with-transactional-msg.md)
@@ -273,7 +273,7 @@ ht-degree: 100%
       + [使用 Microsoft Dynamics 365 整合](integrating/using/d365-acs-using-the-integration.md)
    + Campaign 與 Adobe Experience Platform {#adobe-experience-platform}
       + [開始使用來源和目標](integrating/using/get-started-sources-destinations.md)
-      + [將 Adobe Experience Platform 對象內嵌至 Campaign](integrating/using/ingest-aep-data.md)
+      + [將 Adobe Experience Platform 客群內嵌至 Campaign](integrating/using/ingest-aep-data.md)
       + [將資料從 Campaign 匯出至 Adobe Experience Platform](integrating/using/export-campaign-data.md)
 + 管理流程和資料 {#managing-processes-and-data}
    + [開始使用資料和流程管理](automating/using/get-started-workflows.md)
@@ -304,8 +304,8 @@ ht-degree: 100%
       + [交集](automating/using/intersection.md)
       + [排除](automating/using/exclusion.md)
       + [細分](automating/using/segmentation.md)
-      + [讀取對象](automating/using/read-audience.md)
-      + [儲存對象](automating/using/save-audience.md)
+      + [讀取客群](automating/using/read-audience.md)
+      + [儲存客群](automating/using/save-audience.md)
       + [去重複化](automating/using/deduplication.md)
       + [擴充](automating/using/enrichment.md)
    + 執行活動 {#execution-activities}
@@ -362,14 +362,14 @@ ht-degree: 100%
          + [傳送循環推播通知](automating/using/recurring-push-notifications.md)
       + 細分與目標定位 {#segmentation-targeting}
          + [查詢範例](automating/using/query-samples.md)
-         + [聯合兩個完善的對象](automating/using/union-on-two-refined-audiences.md)
+         + [聯合兩個完善的客群](automating/using/union-on-two-refined-audiences.md)
          + [在位置上建立細分](automating/using/workflow-segmentation-location.md)
          + [重新目標定位非開啟者](automating/using/workflow-cross-channel-retargeting.md)
          + [對服務訂閱者的增量查詢](automating/using/incremental-query-on-subscribers.md)
          + [根據年齡群體細分](automating/using/segmentation-age-groups.md)
          + [使用與目標定位維度不同的資源](automating/using/using-resources-different-from-targeting-dimensions.md)
       + 資料管理 {#data-management}
-         + [使用資料庫調和檔案對象](automating/using/reconcile-file-audience-with-database.md)
+         + [使用資料庫調和檔案客群](automating/using/reconcile-file-audience-with-database.md)
          + [從匯入的檔案中刪除重複資料](automating/using/deduplicating-data-imported-file.md)
          + [使用檔案包含的資料擴充設定檔資料](automating/using/enriching-profile-data-file.md)
          + [外部訊號活動和資料匯入](automating/using/external-signal-data-import.md)
@@ -406,7 +406,7 @@ ht-degree: 100%
       + [將訂閱擴充到應用程式資源](developing/using/extending-the-subscriptions-to-an-application-resource.md)
    + 資料模型 {#datamodel}
       + [簡介](developing/using/datamodel-introduction.md)
-      + [對象](developing/using/datamodel-audience.md)
+      + [客群](developing/using/datamodel-audience.md)
       + [Campaign](developing/using/datamodel-campaign.md)
       + [傳遞](developing/using/datamodel-delivery.md)
       + [登陸頁面](developing/using/datamodel-landingpage.md)

@@ -91,7 +91,7 @@ ht-degree: 100%
     </td>
     <td>
       <img src="assets/do-not-localize/icon_profile-audience.svg" width="35px"><br/>
-      <strong>設定檔與對象</strong><br/><a href="audiences/using/about-audiences.md">對象</a> - <a href="audiences/using/about-profiles.md">設定檔</a> - <a href="audiences/using/about-subscriptions.md">訂閱</a> - <a href="audiences/using/about-opt-in-and-opt-out-in-campaign.md">選擇加入和選擇退出</a>
+      <strong>輪廓與客群</strong><br/><a href="audiences/using/about-audiences.md">客群</a> - <a href="audiences/using/about-profiles.md">輪廓</a> - <a href="audiences/using/about-subscriptions.md">訂閱</a> - <a href="audiences/using/about-opt-in-and-opt-out-in-campaign.md">選擇加入和選擇退出</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-data.svg" width="35px"><br/>

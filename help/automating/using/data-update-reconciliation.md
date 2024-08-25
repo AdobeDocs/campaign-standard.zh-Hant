@@ -18,7 +18,7 @@ ht-degree: 52%
 
 # 使用協調功能更新資料 {#data-update-reconciliation}
 
-下列範例會示範一個工作流程，其會從包含新客戶之匯入檔案直接建立設定檔對象。它由下列活動組成：
+下列範例會示範一個工作流程，其會從包含新客戶之匯入檔案直接建立輪廓客群。它由下列活動組成：
 
 ![](assets/identification_example2.png)
 
@@ -37,7 +37,7 @@ ht-degree: 52%
   tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
   ```
 
-* [調解](../../automating/using/reconciliation.md)活動，可將載入檔案的每個欄連結到設定檔維度欄。 無法識別的檔案記錄（遺失資料、不相容的資料類型等）會遭到忽略，以保留最終對象資料的完整性。
+* [調解](../../automating/using/reconciliation.md)活動，可將載入檔案的每個欄連結到設定檔維度欄。 無法識別的檔案記錄（遺失資料、不相容的資料類型等）會遭到忽略，以保留最終客群資料的完整性。
 
   ![](assets/identification_example1.png)
 

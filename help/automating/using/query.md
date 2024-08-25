@@ -35,7 +35,7 @@ ht-degree: 90%
 
 **[!UICONTROL Query]** 活動可用於各種類型的使用：
 
-* 將個人分段以定義訊息、對象等的目標。
+* 細分個體以定義訊息、客群等的目標。
 * 擴充整個 Adobe Campaign 資料庫表格的資料。
 * 匯出資料。
 
@@ -75,7 +75,7 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->建立對象時，也可定義目標維度（請參閱[本區段](../../audiences/using/creating-audiences.md)）。
+>建立客群時，也可定義目標維度 (請參閱[本區段](../../audiences/using/creating-audiences.md)）。
 
 ![](assets/targeting_dimension1.png)
 

@@ -24,14 +24,14 @@ ht-degree: 97%
 >
 >此功能是選取性的。請檢查您的授權合約。使用直接郵件時需要 **[!UICONTROL Export]** 角色。請聯絡您的管理員。
 
-線上通道可讓您建立訊息（電子郵件、簡訊、行動應用程式傳送等）並直接從 Adobe Campaign 傳送給您的對象。離線通道則不同。當您準備直接郵件傳送時，Adobe Campaign 會產生一個檔案，其中包含所有目標設定檔和選取的聯絡資訊（例如，郵遞區號）。然後，您就可以將此檔案傳送給直接郵件提供者，由他們負責實際傳送。
+線上通道可讓您建立訊息（電子郵件、簡訊、行動應用程式傳送等）並直接從 Adobe Campaign 傳送給您的客群。離線通道則不同。當您準備直接郵件傳送時，Adobe Campaign 會產生一個檔案，其中包含所有目標設定檔和選取的聯絡資訊（例如，郵遞區號）。然後，您就可以將此檔案傳送給直接郵件提供者，由他們負責實際傳送。
 
 下節將說明如何建立並產生單次直接郵件傳送。您也可以將直接郵件活動納入工作流程，以協調結合線上和離線通道的宣傳活動。如需詳細資訊，請參閱[工作流程](../../automating/using/get-started-workflows.md)指南。
 
 Adobe Campaign 中的使用者程序如下：
 
 1. 建立傳送
-1. 選取對象
+1. 選取客群
 1. 定義內容
 1. 設定聯絡日期
 1. 產生檔案
@@ -44,7 +44,7 @@ Adobe Campaign 中的使用者程序如下：
 
 ### 直接郵件提供者 {#direct-mail-providers}
 
-首先，您需要聯絡直接郵件供應商並收集其建議。識別需納入解壓縮檔案的設定檔資訊，以便個人化通訊並傳送給對象。例如，名字和姓氏、郵遞區號、促銷代碼等。這些欄位是您要在直接郵件內容之 [Defining the extraction](../../channels/using/defining-the-direct-mail-content.md#defining-the-extraction) 索引標籤中新增欄位。
+首先，您需要聯絡直接郵件供應商並收集其建議。識別需納入解壓縮檔案的輪廓資訊，以便個人化通訊並傳送給客群。例如，名字和姓氏、郵遞區號、促銷代碼等。這些欄位是您要在直接郵件內容之 [Defining the extraction](../../channels/using/defining-the-direct-mail-content.md#defining-the-extraction) 索引標籤中新增欄位。
 
 請確保您已核取設定檔資訊中的 **[!UICONTROL Address specified]**&#x200B;方塊。如果已啟動此選項，則會將設定檔新增至目標。若非如此，則會在準備階段期間被排除於類型規則（請參閱[建立直接郵件](../../channels/using/creating-the-direct-mail.md)）。在匯入設定檔時，請別忘記更新此欄位。
 

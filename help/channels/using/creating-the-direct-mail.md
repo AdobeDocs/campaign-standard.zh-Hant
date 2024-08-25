@@ -42,13 +42,13 @@ ht-degree: 88%
    >
    >確認ID欄位未包含任何空白以避免出現任何差異，例如，在與Adobe Analytics整合時。
 
-1. 定義要包含在擷取檔案中的對象，以及測試和補漏白設定檔。[定義直接郵件對象](../../channels/using/defining-the-direct-mail-audience.md).
+1. 定義要包含在擷取檔案中的客群，以及測試和捕捉器輪廓。[定義直接郵件客群](../../channels/using/defining-the-direct-mail-audience.md).
 
    ![](assets/direct_mail_4.png)
 
    >[!NOTE]
    >
-   >對象定義與定義一般電子郵件對象非常類似。請參閱[建立對象](../../audiences/using/creating-audiences.md)。
+   >客群定義與定義一般電子郵件客群非常類似。請參閱[建立客群](../../audiences/using/creating-audiences.md)。
 
 1. 編輯檔案的內容：欄以包含每個設定檔、檔案結構、頁首和頁尾。[定義直接郵件內容](../../channels/using/defining-the-direct-mail-content.md).
 
@@ -68,7 +68,7 @@ ht-degree: 88%
 
    ![](assets/direct_mail_19.png)
 
-1. 在您定義傳送內容、對象和聯絡人日期後，按一下傳送控制面板上的　**[!UICONTROL Prepare]**　按鈕。
+1. 在您定義傳送內容、客群和聯絡人日期後，按一下傳送控制面板上的　**[!UICONTROL Prepare]**　按鈕。
 
    ![](assets/direct_mail_16.png)
 

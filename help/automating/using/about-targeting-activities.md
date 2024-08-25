@@ -31,8 +31,8 @@ ht-degree: 35%
 * [交集](../../automating/using/intersection.md)
 * [排除](../../automating/using/exclusion.md)
 * [細分](../../automating/using/segmentation.md)
-* [讀取對象](../../automating/using/read-audience.md)
-* [儲存對象](../../automating/using/save-audience.md)
+* [讀取客群](../../automating/using/read-audience.md)
+* [儲存客群](../../automating/using/save-audience.md)
 * [去重複化](../../automating/using/deduplication.md)
 * [擴充](../../automating/using/enrichment.md)
 

@@ -47,7 +47,7 @@ ht-degree: 98%
 
    ![](assets/schema_extension_24.png)
 
-1. 在 **[!UICONTROL Field definition]** 畫面中，您可以定義將用於對象和定位的類別，或甚至新增說明。
+1. 在 **[!UICONTROL Field definition]** 畫面中，您可以定義將用於客群和定位的類別，或甚至新增說明。
 
    ![](assets/schema_extension_5.png)
 

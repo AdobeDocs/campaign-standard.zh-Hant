@@ -207,7 +207,7 @@ ht-degree: 36%
                </tr>
                <tr>
                   <td>標題</td>
-                  <td>對象</td>
+                  <td>客群</td>
                   <td>字串(255)</td>
                   <td> </td>
                </tr>

@@ -27,7 +27,7 @@ ht-degree: 24%
 
    ![](assets/multi_create1.png)
 
-1. 定義電子郵件的一般屬性與目標對象，就像標準電子郵件一樣。請參閱[建立對象](../../audiences/using/creating-audiences.md)區段。
+1. 定義電子郵件的一般屬性與目標客群，就像標準電子郵件一樣。請參閱[建立客群](../../audiences/using/creating-audiences.md)區段。
 
 1. 在建立精靈的第四步，定義變體選項。 如果[多語言範本](../../channels/using/multilingual-messages-template.md)已包含所有正確的引數，您可以直接按一下&#x200B;**[!UICONTROL Create]**&#x200B;按鈕。
 

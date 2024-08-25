@@ -20,7 +20,7 @@ ht-degree: 84%
 
 該文件允許您透過標準使用案例來探索以下 Adobe Campaign 功能：建立跨通道傳送工作流程。
 
-該目標是從資料庫的收件者中選取一位對象，並將其細分成兩個不同的群組，以便向第一群組發送電子郵件並向第二群組發送簡訊。
+該目標是從資料庫的收件者中選取一位客群，並將其細分成兩個不同的群組，以便向第一群組發送電子郵件並向第二群組發送簡訊。
 
 ![](assets/wkf_segment_overview.png)
 
@@ -51,7 +51,7 @@ ht-degree: 84%
 
 1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Targeting]** 中，拖放[查詢](../../automating/using/query.md)活動。
 1. 連按兩下此活動。
-1. 在 **[!UICONTROL Target]** 標籤中，瀏覽捷徑並選取其中一個 [對象](../../audiences/using/about-audiences.md)。
+1. 在 **[!UICONTROL Target]** 標籤中，瀏覽捷徑並選取其中一個 [客群](../../audiences/using/about-audiences.md)。
 1. 將捷徑拖放至編輯區域。根據所選的捷徑類型，將會出現一個視窗。
 1. 設定目標定位元素，然後確認查詢。
 

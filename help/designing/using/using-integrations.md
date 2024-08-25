@@ -139,7 +139,7 @@ Adobe Campaign提供數種電子郵件製作選項。 下表顯示每種裝置�
    <td> 不支援動態內容<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>閱聽眾</strong><br /> </td> 
+   <td> <strong>客群</strong><br /> </td> 
    <td> 想要保持彈性以搭配拖放功能使用HTML元件的行銷人員<br /> </td> 
    <td> 行銷人員已使用Experience Manager，而他們想要使用基本個人化的標準電子郵件範本<br /> </td> 
    <td> 想要編碼電子郵件內容並直接與Adobe Campaign<br />整合的開發人員 </td> 

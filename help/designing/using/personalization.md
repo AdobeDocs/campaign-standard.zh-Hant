@@ -427,5 +427,5 @@ Adobe Campaign可讓您根據特定條件或使用追蹤，將訊息中的一個
 
 **相關主題：**
 
-* [建立對象](../../audiences/using/creating-audiences.md)
+* [建立客群](../../audiences/using/creating-audiences.md)
 * [準備傳送](../../sending/using/preparing-the-send.md)

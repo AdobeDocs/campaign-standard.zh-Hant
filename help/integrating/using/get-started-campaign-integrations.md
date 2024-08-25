@@ -68,8 +68,8 @@ ht-degree: 78%
   </tr> 
   <tr> 
    <td> Adobe Audience Manager 與人員核心服務（設定檔與觀眾）<br /> </td> 
-   <td> 可讓您使用的不同 Adobe Experience Cloud 應用程式交換受眾。<br /> </td> 
-   <td> <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">People 服務核心（設定檔與觀眾）</a><br /> </td> 
+   <td> 可讓您使用的不同 Adobe Experience Cloud 應用程式交換客群。<br /> </td> 
+   <td> <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">People 服務核心 (輪廓與客群)</a><br /> </td> 
   </tr> 
    <tr> 
    <td> Adobe Real-time Customer Data Platform (RTCDP)<br /> </td> 

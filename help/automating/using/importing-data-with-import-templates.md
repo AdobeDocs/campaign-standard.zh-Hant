@@ -58,11 +58,11 @@ ht-degree: 99%
    * **[!UICONTROL Load file]**：此活動可讓您在 Adobe Campaign 伺服器上傳檔案。
    * **[!UICONTROL Update data]**：此活動可讓您從資料庫中插入檔案中的資料。
 
-* **[!UICONTROL Import list]**：此範本可做為新匯入的基礎，以便從檔案中的資料建立&#x200B;**清單**&#x200B;類型的對象。此範本的工作流程包含下列活動：
+* **[!UICONTROL Import list]**：此範本可做為新匯入的基礎，以便從檔案中的資料建立&#x200B;**清單**&#x200B;類型的客群。此範本的工作流程包含下列活動：
 
    * **[!UICONTROL Load file]**：此活動可讓您在 Adobe Campaign 伺服器上傳檔案。
-   * **[!UICONTROL Reconciliation]**：此活動可讓您將定位維度連結至匯入的資料。之後，您就可以建立&#x200B;**清單**&#x200B;類型對象。如果匯入資料的目標維度不是已知的，則對象為&#x200B;**檔案**&#x200B;類型。請參閱[定位維度和資源](../../automating/using/query.md#targeting-dimensions-and-resources)。
-   * **[!UICONTROL Save audience]**：此活動可讓您以&#x200B;**清單**&#x200B;類型對象的形式儲存匯入的資料。儲存的對象名稱與使用者匯入的檔案名稱相對應，並會新增一個字尾，指定匯入的日期和時間。例如：&#39;profiles_20150406_151448&#39;。
+   * **[!UICONTROL Reconciliation]**：此活動可讓您將定位維度連結至匯入的資料。之後，您就可以建立&#x200B;**清單**&#x200B;類型客群。如果匯入資料的目標維度不是已知的，則客群為&#x200B;**檔案**&#x200B;類型。請參閱[定位維度和資源](../../automating/using/query.md#targeting-dimensions-and-resources)。
+   * **[!UICONTROL Save audience]**：此活動可讓您以&#x200B;**清單**&#x200B;類型客群的形式儲存匯入的資料。儲存的客群名稱與使用者匯入的檔案名稱相對應，並會新增一個字尾，指定匯入的日期和時間。例如：&#39;profiles_20150406_151448&#39;。
 
 這些預設範本為唯讀範本，標準使用者無法看到內容。若要建立可供使用者使用的範本，請遵循下列步驟執行：
 

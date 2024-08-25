@@ -40,7 +40,7 @@ ht-degree: 70%
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 
 * [查詢範例](../../automating/using/query-samples.md)
-* [聯合兩個完善的對象](../../automating/using/union-on-two-refined-audiences.md)
+* [聯合兩個完善的客群](../../automating/using/union-on-two-refined-audiences.md)
 * [在位置上建立細分](../../automating/using/workflow-segmentation-location.md)
 * [重新目標定位非開啟者](../../automating/using/workflow-cross-channel-retargeting.md)
 * [對服務訂閱者的增量查詢](../../automating/using/incremental-query-on-subscribers.md)
@@ -51,7 +51,7 @@ ht-degree: 70%
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-* [使用資料庫調和檔案對象](../../automating/using/reconcile-file-audience-with-database.md)
+* [使用資料庫調和檔案客群](../../automating/using/reconcile-file-audience-with-database.md)
 * [從匯入的檔案中刪除重複資料](../../automating/using/deduplicating-data-imported-file.md)
 * [使用檔案包含的資料擴充設定檔資料](../../automating/using/enriching-profile-data-file.md)
 * [外部訊號活動和資料匯入](../../automating/using/external-signal-data-import.md)

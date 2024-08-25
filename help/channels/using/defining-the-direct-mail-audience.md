@@ -1,5 +1,5 @@
 ---
-title: 定義直接郵件對象
+title: 定義直接郵件客群
 description: 瞭解如何定義直接郵件傳遞的目標。
 audience: channels
 content-type: reference
@@ -16,9 +16,9 @@ ht-degree: 96%
 
 ---
 
-# 定義直接郵件對象{#defining-the-direct-mail-audience}
+# 定義直接郵件客群{#defining-the-direct-mail-audience}
 
-您可以在建立精靈中定義對象，或按一下傳遞控制面板的「**對象**」章節來定義對象。
+您可以在建立精靈中定義客群，或按一下傳遞控制面板的「**客群**」章節來定義客群。
 
 ![](assets/direct_mail_15.png)
 
@@ -38,6 +38,6 @@ ht-degree: 96%
 
 使用補漏白對於直接郵件至關重要。允許您驗證直接郵件提供者是否確實傳送通訊，並且未將您的客戶端清單傳送給其他提供者。請參閱「[使用補漏白](../../sending/using/using-traps.md)」。
 
-對於直接郵件傳遞，補漏白會在摘取期間新增，並在輸出文件中進行混合。依預設，它們會按輸出檔案的排序順序插入，但您可以選取在檔案的結尾或開頭插入它們。定義對象時，請從 **[!UICONTROL Trap insertion mode]** 標籤中選取所需的選項。
+對於直接郵件傳遞，補漏白會在摘取期間新增，並在輸出文件中進行混合。依預設，它們會按輸出檔案的排序順序插入，但您可以選取在檔案的結尾或開頭插入它們。定義客群時，請從 **[!UICONTROL Trap insertion mode]** 標籤中選取所需的選項。
 
 ![](assets/direct_mail_trap_insertion_mode.png)

@@ -54,7 +54,7 @@ ht-degree: 30%
 **相關主題：**
 
 * [管理測試設定檔](../../audiences/using/managing-test-profiles.md)
-* [建立對象](../../audiences/using/creating-audiences.md)
+* [建立客群](../../audiences/using/creating-audiences.md)
 
 ## 傳送證明 {#sending-proof}
 

@@ -24,7 +24,7 @@ ht-degree: 18%
 Adobe Campaign可讓您與不同的Adobe Experience Cloud應用程式交換和共用對象/區段。 將&#x200B;**Adobe Campaign**&#x200B;與&#x200B;**People核心服務** （也稱為&#x200B;**設定檔與對象核心服務**）或Adobe Audience Manager整合可讓您：
 
 * 從不同的Adobe Experience Cloud解決方案匯入對象/區段至Adobe Campaign。 您可以從Adobe Campaign的&#x200B;**[!UICONTROL Audiences]**&#x200B;功能表匯入對象。
-* 將對象匯出為共用對象/區段。 這些對象可用於您所使用的不同 Adobe Experience Cloud 解決方案。 在工作流程中目標定位活動後，可使用&#x200B;**[!UICONTROL Save audience]**&#x200B;活動匯出對象。
+* 將對象匯出為共用對象/區段。 這些客群可用於您所使用的不同 Adobe Experience Cloud 解決方案。 在工作流程中目標定位活動後，可使用&#x200B;**[!UICONTROL Save audience]**&#x200B;活動匯出對象。
 
 整合支援兩種型別的Adobe Experience Cloud ID：
 

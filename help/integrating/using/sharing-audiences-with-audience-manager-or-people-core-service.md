@@ -80,4 +80,4 @@ Adobe Campaign與People核心服務之間的同步作業需要24到36小時的�
 **相關主題：**
 
 * [工作流程](../../automating/using/get-started-workflows.md)
-* [對象](../../audiences/using/about-audiences.md)
+* [客群](../../audiences/using/about-audiences.md)

@@ -1,5 +1,5 @@
 ---
-title: 將 Adobe Experience Platform 對象內嵌至 Campaign
+title: 將 Adobe Experience Platform 客群內嵌至 Campaign
 description: 瞭解如何將Adobe Experience Platform受眾擷取至Campaign Standard。
 audience: integrating
 content-type: reference
@@ -13,7 +13,7 @@ ht-degree: 7%
 
 ---
 
-# 將 Adobe Experience Platform 對象內嵌至 Campaign {#destinations}
+# 將 Adobe Experience Platform 客群內嵌至 Campaign {#destinations}
 
 若要將Adobe Experience Platform對象擷取至Campaign並用於您的工作流程，您首先需要將Adobe Campaign as a Adobe Experience Platform **目的地**&#x200B;連線，並使用要匯出的區段進行設定。
 

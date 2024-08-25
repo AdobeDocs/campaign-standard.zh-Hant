@@ -18,9 +18,9 @@ ht-degree: 95%
 
 # 設定篩選器定義{#configuring-filter-definition}
 
-在標籤 **[!UICONTROL Filter definition]** 中，您可以建立進階篩選器，讓使用者在建立複雜查詢時（例如定義對象時）直接存取這些篩選器。
+在標籤 **[!UICONTROL Filter definition]** 中，您可以建立進階篩選，讓使用者在建立複雜查詢時 (例如定義客群時) 直接存取這些篩選。
 
-此步驟並非必要步驟，因為您仍可以填入資源，並透過工作流程、對象和 REST API 存取其資料。
+此步驟並非必要步驟，因為您仍可以填入資源，並透過工作流程、客群和 REST API 存取其資料。
 
 ![](assets/custom_resource_filter-definition.png)
 
@@ -73,7 +73,7 @@ ht-degree: 95%
 
 發佈 **[!UICONTROL Profiles]** 資源擴展後，使用者將在[查詢編輯器](../../automating/using/editing-queries.md)介面的捷徑標籤下看到此篩選器。
 
-這可讓使用者在建立電子郵件以傳送給所有客戶時，輕鬆定義其對象，這些客戶在過去三個月中花費了超過特定金額。
+這可讓使用者在建立電子郵件以傳送給所有客戶時，輕鬆定義其客群，這些客戶在過去三個月中花費了超過特定金額。
 
 ![](assets/custom_resource_filter-definition_email-audience.png)
 

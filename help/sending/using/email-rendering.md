@@ -27,7 +27,7 @@ Litmus [網站](https://litmus.com/email-testing)列出可在 Adobe Campaign 中
 
 在您建立電子郵件傳送並定義其內容以及目標定位人口族群後，請遵循下列步驟。
 
-1. 按一下「**對象**」以存取 **[!UICONTROL Test profiles]** 標籤。
+1. 按一下「**客群**」以存取 **[!UICONTROL Test profiles]** 標籤。
 
    ![](assets/email_rendering_05.png)
 

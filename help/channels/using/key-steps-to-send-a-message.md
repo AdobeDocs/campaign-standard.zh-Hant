@@ -39,7 +39,7 @@ ht-degree: 11%
 
 ![](assets/steps-channel.png)
 
-## 定義對象
+## 定義客群
 
 定義訊息的收件者。 若要這麼做，請使用左側窗格中的[查詢編輯器](../../automating/using/editing-queries.md)來篩選資料庫中包含的資料，並建立規則以鎖定您的對象。
 

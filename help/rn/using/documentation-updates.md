@@ -61,7 +61,7 @@ Android Firebase Cloud Messaging (FCM) 服務的一些重要變更將於 2024 �
 
 **其他變更**
 
-現在不建議使用 Adobe Experience Platform 資料連接器和對象目標服務的整合。 [閱讀全文](deprecated-features.md)
+現在不建議使用 Adobe Experience Platform 資料連接器和客群目標服務的整合。 [閱讀全文](deprecated-features.md)
 
 已詳細說明 SMTP 測試模式的使用情況。 [閱讀全文](../../administration/using/configuring-email-channel.md#smtp-test-mode)
 
@@ -142,9 +142,9 @@ Android Firebase Cloud Messaging (FCM) 服務的一些重要變更將於 2024 �
 
 列出傳送訊息關鍵步驟的章節已增強，並附上其他資訊和參考。[顯示全文](../../channels/using/key-steps-to-send-a-message.md)
 
-已新增資訊，以指定在查詢中選取 au 閱聽眾時，其定義會被複製而非參考。 [顯示全文](../../audiences/using/selecting-an-audience-in-a-message.md)
+已新增資訊，以指定在查詢中選取 au 客群時，其定義會被複製而非參考。 [顯示全文](../../audiences/using/selecting-an-audience-in-a-message.md)
 
-與閱聽眾目標服務和 Adobe Experience Platform 資料連接器相關的資訊已重新分組為新部分。 
+與客群目標服務和 Adobe Experience Platform 資料連接器相關的資訊已重新分組為新部分。 
 
 **已宣告的 ID** 資料來源現在也可搭配 People 核心服務整合使用。已在行銷活動 Audience Manager 或 People 核心服務整合文件中新增資訊。 [顯示全文](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
 
@@ -372,7 +372,7 @@ Campaign 電子郵件設計工具檔案和相關頁面已更新，以反映 [!DN
 
 Adobe Experience Platform 資料連接器 (Beta)
 
-對象目標 (Beta)
+客群目標 (Beta)
 
 **此版本隨附的其他文件更新**
 
@@ -686,7 +686,7 @@ Campaign Standard 及 Campaign Classic 的錯誤訊息清單已更新。[瞭解�
 
 更新[應用程式內](../../channels/using/about-in-app-messaging.md)及[推播通知](../../channels/using/about-push-notifications.md)文件。
 
-已新增有關 Adobe Campaign 中不同對象類型的詳細資訊。[瞭解詳情](../../audiences/using/about-audiences.md)
+已新增有關 Adobe Campaign 中不同客群類型的詳細資訊。[瞭解詳情](../../audiences/using/about-audiences.md)
 
 更新「使用者與安全性」一章，以反映地理單位的折舊。[瞭解詳情](../../administration/using/organizational-units.md)
 
@@ -720,7 +720,7 @@ Adobe Launch 整合行動應用程式（測試版）– [瞭解詳情](../../sen
 
 已更新推播通知指南，並變更介面。[瞭解詳情](../../channels/using/about-push-notifications.md)
 
-已新增如何刪除對象的資訊。[瞭解詳情](../../audiences/using/creating-audiences.md#deleting-audiences)
+已新增如何刪除客群的資訊。[瞭解詳情](../../audiences/using/creating-audiences.md#deleting-audiences)
 
 更新推播通知內建報告區段。[瞭解詳情](../../reporting/using/push-notification-report.md)
 
@@ -1084,7 +1084,7 @@ Dreamweaver 整合 (Labs)– [瞭解詳情](https://experienceleague.adobe.com/d
 
 工作流程：新訊號活動 – [瞭解詳情](../../automating/using/external-signal.md)
 
-工作流程：新的閱讀對象活動 – [瞭解詳情](../../automating/using/read-audience.md)
+工作流程：新的閱讀客群活動 – [瞭解詳情](../../automating/using/read-audience.md)
 
 興趣點資料 – [瞭解詳情](../../integrating/using/about-campaign-points-of-interest-data-integration.md)
 
@@ -1096,7 +1096,7 @@ REST API 中的連結資源 – [瞭解詳情](../../developing/using/updating-t
 
 我們重新設計了開發人員 API 文件，提供新資訊和程式碼片段，以改善使用體驗。[瞭解詳情](../../api/using/get-started-apis.md)
 
-探索新的[讀取對象](../../automating/using/read-audience.md)及[外部訊號](../../automating/using/external-signal.md)工作流程活動的範例。
+探索新的[讀取客群](../../automating/using/read-audience.md)及[外部訊號](../../automating/using/external-signal.md)工作流程活動的範例。
 
 ## 發行版本 17.1 – 2017 年 1 月 {#release-17-1---january-2017}
 
@@ -1118,4 +1118,4 @@ URL變更：資產核心服務 – [瞭解詳情](../../integrating/using/workin
 
 URL變更：人員核心服務 – [瞭解詳情](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
 
-設定檔和對象指南已重新整理。[瞭解詳情](../../audiences/using/get-started-profiles-and-audiences.md)
+輪廓和客群指南已重新整理。[瞭解詳情](../../audiences/using/get-started-profiles-and-audiences.md)

@@ -37,4 +37,4 @@ ht-degree: 79%
   ![](assets/deduplication_example_dedup.png)
 
 * 在重複資料刪除的主要出站轉變之後放置的[電子郵件傳遞](../../automating/using/email-delivery.md)。
-* 重複資料刪除的額外轉變之後所放置的[儲存對象](../../automating/using/save-audience.md)活動，可將重複資料儲存到&#x200B;**重複資料**&#x200B;對象中。 此對象可重複使用，以直接將其成員排除在每封電子郵件的傳送之外。
+* 重複資料刪除的額外轉變之後所放置的[儲存對象](../../automating/using/save-audience.md)活動，可將重複資料儲存到&#x200B;**重複資料**&#x200B;對象中。 此客群可重複使用，以直接將其成員排除在每封電子郵件的傳送之外。

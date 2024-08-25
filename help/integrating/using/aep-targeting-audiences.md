@@ -1,5 +1,5 @@
 ---
-title: 目標定位 Adobe Experience Platform 對象
+title: 目標定位 Adobe Experience Platform 客群
 description: 瞭解如何在工作流程中鎖定Adobe Experience Platform對象。
 audience: automating
 content-type: reference
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 ---
 
-# 目標定位 Adobe Experience Platform 對象 {#targeting-aep-audiences}
+# 目標定位 Adobe Experience Platform 客群 {#targeting-aep-audiences}
 
 >[!IMPORTANT]
 >

@@ -1,6 +1,6 @@
 ---
 title: 開始使用流程和資料管理
-description: 使用工作流程自動化程序、管理資料和對象、傳送訊息等。
+description: 使用工作流程自動化程序、管理資料和客群、傳送訊息等。
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
@@ -27,7 +27,7 @@ Adobe Campaign 提供完整的圖形環境，讓您設計複雜程式，包括�
 
 工作流程可用於不同的內容，例如：
 
-* 定位以管理對象或傳送訊息。
+* 定位以管理客群或傳送訊息。
 * 資料管理 (ETL)，以操作資料。
 * 將資料匯入 Campaign 資料庫。
 * 技術流程，例如資料庫清理、復原追蹤資訊等。

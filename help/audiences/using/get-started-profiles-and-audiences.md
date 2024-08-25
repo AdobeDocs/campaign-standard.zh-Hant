@@ -1,6 +1,6 @@
 ---
-title: 開始使用設定檔和對象
-description: 定義目標人口、選取對象、篩選收件者、收集資料及更新設定檔。
+title: 開始使用輪廓和客群
+description: 定義目標人口、選取客群、篩選收件者、收集資料及更新輪廓。
 audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
@@ -15,7 +15,7 @@ ht-degree: 10%
 
 ---
 
-# 開始使用設定檔和對象{#about-profiles-and-audiences}
+# 開始使用輪廓和客群{#about-profiles-and-audiences}
 
 <table>
 <tr>
@@ -50,8 +50,8 @@ Adobe Campaign會即時建立豐富的客戶設定檔，讓您能夠根據客戶
 * [使用中的設定檔案](../../audiences/using/active-profiles.md)
 * [管理測試設定檔](../../audiences/using/managing-test-profiles.md)
 * [充實 Campaign 資料庫](../../audiences/using/enriching-campaign-database.md)
-* [關於對象](../../audiences/using/about-audiences.md)
-* [在訊息中選取對象](../../audiences/using/selecting-an-audience-in-a-message.md)
+* [關於客群](../../audiences/using/about-audiences.md)
+* [在訊息中選取客群](../../audiences/using/selecting-an-audience-in-a-message.md)
 * [新增控制組](../../sending/using/control-group.md)
 
 ## 許可權與同意 {#permission}
@@ -85,7 +85,7 @@ Adobe Campaign提供一套工具，以協助您遵守GDPR、CCPA及其他隱私�
 
 ## 額外資源
 
-* [將 Adobe Experience Platform 對象內嵌至 Campaign](../../integrating/using/ingest-aep-data.md)
+* [將 Adobe Experience Platform 客群內嵌至 Campaign](../../integrating/using/ingest-aep-data.md)
 * [使用Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md)
 * [Adobe共用受眾](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
 * [使用工作流程匯入設定檔](../../automating/using/creating-import-workflow-templates.md)

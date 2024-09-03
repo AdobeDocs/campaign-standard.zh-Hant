@@ -6,14 +6,18 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 01cfa2a0-4ff5-4520-a515-11676de82528
-source-git-commit: 2e81a05b1b647991250d13d7d37f5da275a8db44
+source-git-commit: 99c092bc40c9176a25a6ec2a164ee1d3f85d5cbe
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 5%
+source-wordcount: '420'
+ht-degree: 4%
 
 ---
 
 # 資料保留{#data-retention}
+
+>[!NOTE]
+>
+>資料報表僅提供過去三年的資料。 如需資料保留期的詳細資訊，請聯絡Adobe顧問或您的技術管理員。
 
 Campaign中的標準記錄表具有預設的保留期間，可限制其資料儲存持續時間，以避免系統過載。
 

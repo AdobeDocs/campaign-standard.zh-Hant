@@ -8,7 +8,7 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
-source-git-commit: c7c4826f69ac988911b9d72a3e06240ed9582862
+source-git-commit: 69621657e1d367043200f741d93972664e6eb8fb
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 27%
@@ -38,8 +38,6 @@ Adobe Campaign 提供完整的圖形環境，讓您設計複雜程式，包括�
 
 ## 工作流程活動 {#workflow-activities}
 
-<img src="assets/do-not-localize/icon_workflows.svg" width="10px">
-
 提供各種活動來協助您設計工作流程。
 
 [目標定位活動](../../automating/using/about-targeting-activities.md)可讓您定義集合，並使用交集、等位或排除作業分割或組合這些集合，以建立一或多個目標。
@@ -56,8 +54,6 @@ Adobe Campaign 提供完整的圖形環境，讓您設計複雜程式，包括�
 
 ## 篩選資料 {#filter-data}
 
-<img src="assets/do-not-localize/icon_filter.svg" width="15px">
-
 運用&#x200B;**查詢編輯器**&#x200B;來篩選資料庫中的資料，並建置母體以更妥善地鎖定收件者。 查詢編輯器可用於在Campaign Standard中執行數個動作：建立查詢型別對象、定義傳遞目標或工作流程活動中的人口。
 
 查詢編輯器隨附&#x200B;**預先定義的篩選器和規則**，方便快速篩選。 不過，您也可以使用&#x200B;**進階運算式編輯**&#x200B;功能。 這可讓您手動輸入條件並使用函式，以形成自己的規則。
@@ -69,8 +65,6 @@ Adobe Campaign 提供完整的圖形環境，讓您設計複雜程式，包括�
 * [函式清單](../../automating/using/list-of-functions.md)
 
 ## 匯入/匯出資料 {#import-export-data}
-
-<img src="assets/do-not-localize/icon_manage.svg" width="20px">
 
 Campaign Standard提供數種&#x200B;**資料管理功能**&#x200B;以匯入及匯出資料。
 

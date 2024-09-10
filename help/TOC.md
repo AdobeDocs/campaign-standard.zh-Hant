@@ -306,7 +306,7 @@ ht-degree: 100%
       + [細分](automating/using/segmentation.md)
       + [讀取客群](automating/using/read-audience.md)
       + [儲存客群](automating/using/save-audience.md)
-      + [去重複化](automating/using/deduplication.md)
+      + [重複資料刪除](automating/using/deduplication.md)
       + [擴充](automating/using/enrichment.md)
    + 執行活動 {#execution-activities}
       + [關於執行活動](automating/using/about-execution-activities.md)

@@ -16,7 +16,7 @@ ht-degree: 96%
 
 ---
 
-# 去重複化{#deduplication}
+# 重複資料刪除{#deduplication}
 
 ## 說明 {#description}
 
@@ -77,5 +77,5 @@ ht-degree: 96%
 
      ![](assets/deduplication_4.png)
 
-1. 如有需要，請管理活動的[轉變](../../automating/using/activity-properties.md)，以存取輸出母體的進階選項。
+1. 如有需要，請管理活動的[轉變](../../automating/using/activity-properties.md)，以存取輸出群體的進階選項。
 1. 確認活動的設定並儲存工作流程。

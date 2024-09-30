@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 6b3c189d-8ddd-4dc0-8831-65ae62e04c70
-source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
+source-git-commit: 2f3a0f4233df2915c5b7d293452246c688d69228
 workflow-type: tm+mt
 source-wordcount: '856'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -29,14 +29,14 @@ ht-degree: 2%
 
 請參閱下列資源，以取得有關Adobe Experience Platform SDK和Campaign Standard整合的詳細資訊：
 
-* 啟動/行動[概觀影片](https://www.adobe.com/experience-platform/launch.html#acpl-mobile-video)
+* 啟動/行動[概觀影片](https://www.adobe.com/experience-platform/launch.html#acpl-mobile-video){target="_blank"}
 * 啟動/行動[提示與秘訣指南](https://www.adobe.com/content/dam/dx/us/en/products/experience-platform/launch-tag-manager/pdfs/adobe-cloud-platform-launch-tips-and-tricks-sheet.pdf)
 
 ## Adobe Experience Platform SDK整合是否同時適用於Adobe Campaign Standard和Adobe Campaign Classic？ {#aep-validity}
 
 是，[!DNL Adobe Experience Platform SDK]整合可用於Adobe Campaign Standard和Adobe Campaign Classic。 您必須透過[!DNL Data Collection UI]安裝對應的&#x200B;**[!UICONTROL Extension]**，才能啟用整合。
 
-如需關於此項目的詳細資訊，請參閱此[頁面](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard)。
+如需詳細資訊，請參閱此[頁面](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard){target="_blank"}。
 
 ## Adobe Experience Platform SDK整合有助於Adobe Campaign中的哪些功能？ {#aep-capabilities}
 

@@ -1,12 +1,12 @@
 ---
-keywords: Campaign Standard;home;popular topics
+keywords: Campaign Standard;首頁;熱門話題
 title: Adobe Campaign Standard 產品文件
 description: 瀏覽　Adobe Campaign Standard 產品文件
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-source-git-commit: 0beb4934d1412c3f64d28106f9243673907629f3
+source-git-commit: 2f3a0f4233df2915c5b7d293452246c688d69228
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 100%
+source-wordcount: '301'
+ht-degree: 91%
 
 ---
 
@@ -18,17 +18,17 @@ ht-degree: 100%
 
 >[!BEGINTABS]
 
+>[!TAB 轉換至Campaign v8]
+
+我們很高興宣佈Adobe Campaign Standard使用者現在有資格轉換到Adobe Campaign Managed Cloud Services v8。
+
+[![影像](assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign-web/acs-to-ac/home){target="_blank"}
+
 >[!TAB Campaign 24.2 版本已上線！]
 
 探索 Campaign Standard 24.2 版本隨附的新功能、改進項目及修正。
 
 [![影像](assets/do-not-localize/learn-more-button.svg)](rn/using/release-notes.md)
-
->[!TAB 由 AI 支援電子郵件]
-
-使用 AI 支援電子郵件最佳化設計與傳送
-
-[![影像](assets/do-not-localize/learn-more-button.svg)](sending/using/predictive.md)
 
 >[!TAB Campaign - RTCDP 整合]
 

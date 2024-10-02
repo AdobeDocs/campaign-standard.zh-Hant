@@ -9,9 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: a3f35bb9-e61e-4f3f-b855-1d677422f75a
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: ea524bdcef0324c7fc4b9da0bb443b6abc66a23a
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '829'
 ht-degree: 4%
 
 ---
@@ -28,6 +28,8 @@ ht-degree: 4%
 * 所選活動週圍出現的[快速動作](#quick-actions)可讓您與其互動。
 
 ![](assets/wkf_overview.png)
+
+![](assets/do-not-localize/how-to-video.png) [探索如何在視訊中建立工作流程](#video)
 
 ## 浮動視窗 {#palette}
 
@@ -154,3 +156,11 @@ ht-degree: 4%
 要執行此操作，請透過在活動週圍繪製區域來選取活動。 然後按一下動作列中的&#x200B;**[!UICONTROL Copy selection]**&#x200B;按鈕（或按&#x200B;**Ctrl + C**）。 然後，您就可以將它們貼到所需的位置。
 
 ![](assets/wkf_copypaste3.png)
+
+## 教學課程影片 {#video}
+
+本影片說明如何建立工作流程。
+
+>[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
+
+[此處](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant)提供其他Campaign Standard操作說明影片。

@@ -8,7 +8,7 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: c6968252-a012-4029-bbb8-66f4f693e99b
-source-git-commit: 1f4a3e06bc4882f16d87330d18f25f5ee351e11a
+source-git-commit: 3e6afc55581a24f1fc2b26ac35b801ce38cce905
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 100%
@@ -21,13 +21,13 @@ Campaign Standard API 的目的是讓您&#x200B;**建立 Adobe Campaign Standard
 
 透過 Adobe Campaign Standard API，您可以存取下列功能：
 
-<table><tr>
+<table style="table-layout:auto"><tr style="border: 0;">
  <td valign="top"><a href="../../api/using/retrieving-profiles.md"><img width="50px" alt="條件" src="assets/icon_profile.svg"/></a><p><a href="../../api/using/retrieving-profiles.md">輪廓</a></p></td>
 <td valign="top"><a href="../../api/using/creating-a-service.md"><img width="50px" alt="條件" src="assets/icon_services.svg"/></a><p><a href="../../api/using/creating-a-service.md">服務與訂閱</a></p></td>
 <td valign="top"><a href="../../api/using/interacting-with-custom-resources.md"><img width="50px" alt="條件" src="assets/icon_customresources.svg"/></a><p><a href="../../api/using/interacting-with-custom-resources.md">自訂資源</a></p></td>
 <td valign="top"><a href="../../api/using/interacting-with-marketing-history.md"><img width="50px" alt="條件" src="assets/icon_marketinghistory.svg"/></a><p><a href="../../api/using/interacting-with-marketing-history.md">行銷歷史記錄</a></p></td>
 </tr>
-<tr>
+<tr style="border: 0;">
 <td valign="top"><a href="../../api/using/creating-a-privacy-request.md"><img width="50px" alt="條件" src="assets/icon_privacy.svg"/></a><p><a href="../../api/using/creating-a-privacy-request.md">隱私權管理</a></p></td>
 <td valign="top"><a href="../../api/using/managing-transactional-messages.md"><img width="50px" alt="條件" src="assets/icon_transactionalmessage.svg"/></a><p><a href="../../api/using/managing-transactional-messages.md">交易式訊息</a></p></td>
 <td valign="top"><a href="../../api/using/controlling-a-workflow.md"><img width="50px" alt="條件" src="assets/icon_workflows.svg"/></a><p><a href="../../api/using/controlling-a-workflow.md">工作流程</a></p></td>

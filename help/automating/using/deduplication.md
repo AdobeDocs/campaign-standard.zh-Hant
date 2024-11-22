@@ -1,6 +1,6 @@
 ---
 title: 重複資料刪除
-description: 重複資料刪除活動可讓您刪除入站活動結果中的重複項目。
+description: 「重複資料刪除」活動可讓您刪除傳入活動結果中的重複資料。
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 57c56e4a-892c-46d6-9bb4-6a345a8d9f5b
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 96%
 
 **[!UICONTROL Deduplication]** 活動通常用於目標定位活動後或匯入檔案後，以及允許使用目標定位資料之活動前。
 
-在重複資料刪除期間，會單獨處理入站轉變。例如，如果設定檔 &#39;A&#39; 出現在查詢 1 的結果，也出現在查詢 2 的結果中，將不會進行重複資料刪除。
+在重複資料刪除期間，會單獨處理入站轉變。例如，如果輪廓 &#39;A&#39; 出現在查詢 1 的結果，也出現在查詢 2 的結果中，將不會進行重複資料刪除。
 
 因此，建議重複資料刪除僅具有一個入站轉變。要執行此操作，您可以透過使用與您目標定位需求（例如，聯合活動與交集活動等）相對應的活動以組合不同的查詢。例如：
 
@@ -50,7 +50,7 @@ ht-degree: 96%
 
 1. 選取必須對其執行重複資料刪除的 **[!UICONTROL Resource type]**：
 
-   * **[!UICONTROL Database resource]** 如果對資料庫中已存在的資料執行重複資料刪除。選取 **[!UICONTROL Filtering dimension]** 和 **[!UICONTROL Targeting dimension]**，根據您想執行重複資料刪除之資料。預設情況下，在&#x200B;**設定檔**&#x200B;執行重複資料刪除。
+   * **[!UICONTROL Database resource]** 如果對資料庫中已存在的資料執行重複資料刪除。選取 **[!UICONTROL Filtering dimension]** 和 **[!UICONTROL Targeting dimension]**，根據您想執行重複資料刪除之資料。預設情況下，在&#x200B;**輪廓**&#x200B;執行重複資料刪除。
    * **[!UICONTROL Temporary resource]** 如果對工作流程的臨時資料執行重複資料刪除：選取包含要重複資料刪除之資料的 **[!UICONTROL Targeted set]**。在匯入檔案或資料庫中的資料已擴充（例如使用區段代碼）後，就會遇到此使用案例。
 
 1. 選取 **[!UICONTROL Number of unique records to keep]**。此欄位的預設值為 1。如果值為 0 則可讓您保留所有重複項目。

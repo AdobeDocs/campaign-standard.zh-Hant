@@ -9,9 +9,9 @@ feature: Performance Monitoring
 role: User
 level: Intermediate
 exl-id: 0a0fe969-cdfd-4b0c-a746-081038424d86
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 058c59136c28e7fce2a79686919f900f410e324a
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '982'
 ht-degree: 16%
 
 ---
@@ -50,6 +50,10 @@ ht-degree: 16%
 
 ## 瞭解訊息指標 {#message-indicators}
 
+>[!NOTE]
+>
+> **部署儀表板**&#x200B;提供快速參考資料，這些資料可能與動態報告中的數字不符。 為獲得精確且可靠的資訊，建議您使用動態報告作為真相來源。 [了解更多](../../reporting/using/get-started-reporting.md)
+
 將訊息傳送給連絡人之後，**[!UICONTROL Deployment]**&#x200B;區域會顯示您的KPI （關鍵績效指標）資料，包括：
 
 * 要傳送的訊息數量
@@ -69,7 +73,7 @@ ht-degree: 16%
 
 ![](assets/sending_delivery7.png)
 
-可以在其中一個目標設定檔的歷史記錄中檢視訊息。 請參閱[整合式客戶設定檔](../../audiences/using/integrated-customer-profile.md)。
+可以在其中一個目標設定檔的歷史記錄中檢視訊息。 請參閱[整合式客戶輪廓](../../audiences/using/integrated-customer-profile.md)。
 
 傳送訊息後，您可以追蹤其收件者的行為並監控該訊息，以評估其影響。 如需詳細資訊，請參閱下列區段。
 

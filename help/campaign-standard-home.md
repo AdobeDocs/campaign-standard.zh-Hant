@@ -4,9 +4,9 @@ title: Adobe Campaign Standard 產品文件
 description: 瀏覽　Adobe Campaign Standard 產品文件
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
 source-git-commit: 2f3a0f4233df2915c5b7d293452246c688d69228
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '301'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 91%
 
 >[!BEGINTABS]
 
->[!TAB 轉換至Campaign v8]
+>[!TAB 轉換到 Campaign v8]
 
-我們很高興宣佈Adobe Campaign Standard使用者現在有資格轉換到Adobe Campaign Managed Cloud Services v8。
+我們很高興地宣布，Adobe Campaign Standard 使用者現在可以轉換到 Adobe Campaign Managed Cloud Services v8。
 
-[![影像](assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign-web/acs-to-ac/home){target="_blank"}
+[![影像](assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/acs-to-ac/home){target="_blank"}
 
 >[!TAB Campaign 24.2 版本已上線！]
 

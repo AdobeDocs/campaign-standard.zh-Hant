@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: Adobe Campaign Standard 產品文件。
 title: Campaign Standard 指南
 breadcrumb-title: Campaign Standard 文件
-source-git-commit: e8cf96da88f68680be1ff5f770036b012654b160
+source-git-commit: c70e3058f75ba2b11a8311628198e5c02d489964
 workflow-type: tm+mt
-source-wordcount: '1752'
+source-wordcount: '1753'
 ht-degree: 100%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 100%
 + 發行說明 {#release-notes}
    + [最新版本](rn/using/release-notes.md)
    + 舊的發行版本 {#previous-releases}
+      + [2024](rn/using/release-notes-2024.md)
       + [2023 年](rn/using/release-notes-2023.md)
       + [2022 年](rn/using/release-notes-2022.md)
       + [2021 年](rn/using/release-notes-2021.md)
@@ -49,13 +50,13 @@ ht-degree: 100%
    + [說明與支援選項](support.md)
 + 輪廓與客群 {#profiles-and-audiences}
    + [開始使用輪廓和客群](audiences/using/get-started-profiles-and-audiences.md)
-   + 管理設定檔 {#managing-profiles}
-      + [關於設定檔](audiences/using/about-profiles.md)
-      + [建立設定檔](audiences/using/creating-profiles.md)
-      + [編輯設定檔](audiences/using/editing-profiles.md)
-      + [整合式客戶設定檔](audiences/using/integrated-customer-profile.md)
-      + [使用中的設定檔案](audiences/using/active-profiles.md)
-      + [管理測試設定檔](audiences/using/managing-test-profiles.md)
+   + 管理輪廓 {#managing-profiles}
+      + [關於輪廓](audiences/using/about-profiles.md)
+      + [建立輪廓](audiences/using/creating-profiles.md)
+      + [編輯輪廓](audiences/using/editing-profiles.md)
+      + [整合式客戶輪廓](audiences/using/integrated-customer-profile.md)
+      + [活躍輪廓](audiences/using/active-profiles.md)
+      + [管理測試輪廓](audiences/using/managing-test-profiles.md)
       + [充實 Campaign 資料庫](audiences/using/enriching-campaign-database.md)
    + 管理客群 {#managing-audiences}
       + [關於客群](audiences/using/about-audiences.md)
@@ -70,7 +71,7 @@ ht-degree: 100%
    + 瞭解選擇加入和選擇退出流程 {#understanding-opt-in-and-opt-out-processes}
       + [關於 Campaign 中的選擇加入和選擇退出](audiences/using/about-opt-in-and-opt-out-in-campaign.md)
       + [管理 Campaign 中的選擇加入和選擇退出](audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
-      + [識別傳遞的選擇退出設定檔](audiences/using/identifying-opt-out-profiles-for-a-delivery.md)
+      + [識別傳遞的選擇退出輪廓](audiences/using/identifying-opt-out-profiles-for-a-delivery.md)
 + 通訊頻道 {#communication-channels}
    + [開始使用通訊頻道](channels/using/get-started-communication-channels.md)
    + 關於通訊頻道 {#about-communication-channels}
@@ -106,7 +107,7 @@ ht-degree: 100%
       + [自訂推送通知](channels/using/customizing-a-push-notification.md)
       + [建立多語言推送通知](channels/using/creating-a-multilingual-push-notification.md)
       + [產生多語言推送通知的 CSV 檔案](channels/using/generating-csv-multilingual-push.md)
-      + [以行動應用程式資料為基礎建立和更新設定檔資訊](channels/using/updating-profile-with-mobile-app-data.md)
+      + [以行動應用程式資料為基礎建立和更新輪廓資訊](channels/using/updating-profile-with-mobile-app-data.md)
    + 應用程式內訊息傳送 {#in-app-messaging}
       + [關於應用程式內訊息傳送](channels/using/about-in-app-messaging.md)
       + [準備和傳送應用程式內訊息](channels/using/preparing-and-sending-an-in-app-message.md)
@@ -163,7 +164,7 @@ ht-degree: 100%
    + 準備和測試訊息 {#preparing-and-testing-messages}
       + [預覽傳遞](sending/using/previewing-messages.md)
       + [傳送校樣](sending/using/sending-proofs.md)
-      + [使用目標設定檔測試電子郵件訊息](sending/using/testing-messages-using-target.md)
+      + [使用目標輪廓測試電子郵件訊息](sending/using/testing-messages-using-target.md)
       + [預測性使用者參與能力](sending/using/predictive.md)
       + [電子郵件轉譯](sending/using/email-rendering.md)
       + [新增控制組](sending/using/control-group.md)
@@ -224,7 +225,7 @@ ht-degree: 100%
       + [新增面板](reporting/using/adding-panels.md)
       + [新增視覺效果](reporting/using/adding-visualizations.md)
       + [新增元件](reporting/using/adding-components.md)
-      + [建立自訂設定檔維度](reporting/using/creating-a-custom-profile-dimension.md)
+      + [建立自訂輪廓維度](reporting/using/creating-a-custom-profile-dimension.md)
       + [根據工作流程細分建立報告](reporting/using/creating-a-report-workflow-segment.md)
 + 與其他解決方案整合 {#integrating-with-adobe-cloud}
    + [開始使用 Campaign 整合](integrating/using/get-started-campaign-integrations.md)
@@ -351,7 +352,7 @@ ht-degree: 100%
       + [關於工作流程使用實例](automating/using/about-workflow-use-cases.md)
       + 傳遞 {#deliveries}
          + [使用補充集來建立傳送](automating/using/workflow-created-query-with-complement.md)
-         + [在設定檔建立日期中建立傳遞](automating/using/workflow-creation-date-query.md)
+         + [在輪廓建立日期中建立傳遞](automating/using/workflow-creation-date-query.md)
          + [建立每週傳遞](automating/using/workflow-weekly-offer.md)
          + [建立跨頻道傳遞](automating/using/workflow-cross-channel-delivery.md)
          + [在傳遞之前識別重複項目](automating/using/identifying-duplicated-before-delivery.md)
@@ -371,15 +372,15 @@ ht-degree: 100%
       + 資料管理 {#data-management}
          + [使用資料庫調和檔案客群](automating/using/reconcile-file-audience-with-database.md)
          + [從匯入的檔案中刪除重複資料](automating/using/deduplicating-data-imported-file.md)
-         + [使用檔案包含的資料擴充設定檔資料](automating/using/enriching-profile-data-file.md)
+         + [使用檔案包含的資料擴充輪廓資料](automating/using/enriching-profile-data-file.md)
          + [外部訊號活動和資料匯入](automating/using/external-signal-data-import.md)
          + [使用外部資料更新資料庫](automating/using/update-database-file.md)
          + [根據自動檔案下載更新資料](automating/using/update-data-automatic-download.md)
          + [使用關係進行資料協調](automating/using/reconciliation-using-relations.md)
          + [使用協調功能更新資料](automating/using/data-update-reconciliation.md)
-         + [在外部檔案中匯出設定檔](automating/using/exporting-profiles-in-file.md)
+         + [在外部檔案中匯出輪廓](automating/using/exporting-profiles-in-file.md)
          + [從檔案更新多個訂閱狀態](automating/using/updating-subscriptions-from-file.md)
-         + [從檔案訂閱設定檔至特定服務](automating/using/subscribing-profiles-from-file.md)
+         + [從檔案訂閱輪廓至特定服務](automating/using/subscribing-profiles-from-file.md)
 + 開發 {#developing}
    + [開始使用 Campaign Standard 資料模型](developing/using/get-started-data-model.md)
    + 關於自訂資源 {#about-custom-resources}
@@ -398,11 +399,11 @@ ht-degree: 100%
       + [使用複合識別鍵呼叫資源](developing/using/uc-calling-resource-id-key.md)
    + 使用案例：擴充 API {#use-case-extending-the-api}
       + [關於擴充 API](developing/using/about-extending-the-api.md)
-      + [步驟 1：將擴充欄位新增至設定檔資源](developing/using/step-1-add-extension-fields-to-the-profile-resource.md)
+      + [步驟 1：將擴充欄位新增至輪廓資源](developing/using/step-1-add-extension-fields-to-the-profile-resource.md)
       + [步驟 2：發佈擴充](developing/using/step-2-publish-the-extension.md)
       + [步驟 3：驗證擴充](developing/using/step-3-verify-the-extension.md)
    + 使用案例：擴充資源 {#use-cases-extending-resources}
-      + [使用新欄位擴充設定檔資源](developing/using/extending-the-profile-resource-with-a-new-field.md)
+      + [使用新欄位擴充輪廓資源](developing/using/extending-the-profile-resource-with-a-new-field.md)
       + [將訂閱擴充到應用程式資源](developing/using/extending-the-subscriptions-to-an-application-resource.md)
    + 資料模型 {#datamodel}
       + [簡介](developing/using/datamodel-introduction.md)
@@ -411,7 +412,7 @@ ht-degree: 100%
       + [傳遞](developing/using/datamodel-delivery.md)
       + [登陸頁面](developing/using/datamodel-landingpage.md)
       + [行銷歷史記錄](developing/using/datamodel-history.md)
-      + [設定檔](developing/using/datamodel-profile.md)
+      + [輪廓](developing/using/datamodel-profile.md)
       + [方案](developing/using/datamodel-program.md)
       + [種子成員](developing/using/datamodel-seed.md)
       + [服務](developing/using/datamodel-service.md)
@@ -478,10 +479,10 @@ ht-degree: 100%
          + [分頁](api/using/pagination.md)
       + [自訂資源](api/using/custom-resources.md)
    + [與自訂資源互動](api/using/interacting-with-custom-resources.md)
-   + 管理設定檔 {#managing-profiles}
-      + [擷取設定檔](api/using/retrieving-profiles.md)
-      + [更新設定檔](api/using/updating-profiles.md)
-      + [建立設定檔](api/using/creating-profiles-api.md)
+   + 管理輪廓 {#managing-profiles}
+      + [擷取輪廓](api/using/retrieving-profiles.md)
+      + [更新輪廓](api/using/updating-profiles.md)
+      + [建立輪廓](api/using/creating-profiles-api.md)
    + 管理服務與訂閱 {#managing-services-and-subscriptiopns}
       + [建立服務](api/using/creating-a-service.md)
       + [擷取訂閱](api/using/retrieving-subscriptions.md)
@@ -498,12 +499,12 @@ ht-degree: 100%
       + [控管工作流程](api/using/controlling-a-workflow.md)
       + [觸發訊號活動](api/using/triggering-a-signal-activity.md)
    + 管理組織單位 {#managing-organizational-units}
-      + [擷取設定檔的組織單位](api/using/retrieving-an-organizational-unit.md)
-      + [更新設定檔的組織單位](api/using/updating-profile-organizational-unit.md)
+      + [擷取輪廓的組織單位](api/using/retrieving-an-organizational-unit.md)
+      + [更新輪廓的組織單位](api/using/updating-profile-organizational-unit.md)
       + [更新組織單位屬性](api/using/updating-organizational-unit-attributes.md)
    + 管理地理單位 {#managing-geographical-units}
-      + [擷取設定檔的地理單位](api/using/retrieving-a-geographical-unit.md)
-      + [更新設定檔的地理單位](api/using/updating-a-geographical-unit.md)
+      + [擷取輪廓的地理單位](api/using/retrieving-a-geographical-unit.md)
+      + [更新輪廓的地理單位](api/using/updating-a-geographical-unit.md)
       + [更新地理單位屬性](api/using/updating-geographical-unit-attributes.md)
    + [疑難排解](api/using/troubleshooting.md)
 + [Campaign 控制面板](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hant)

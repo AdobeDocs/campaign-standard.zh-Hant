@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: c2d2f3843801d108f007fea52a76e41abe16d76c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '390'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -32,18 +32,18 @@ ht-degree: 76%
 #### 安全性修正 {#winter-25-security}
 
 * 此版本提供安全性修正。
-* 此版本隨附下列安全性升級：Apache Tomcat已升級至v10.1.33。
+* 此版本隨附下列安全性升級：Apache Tomcat 已升級至 v10.1.33。
 
 #### 其他修正 {#winter-25-fixes}
 
-* 修正範本重複的問題(CAMP-56340)
-* 修正在Adobe Experience Manager範本中使用動態URL時的追蹤回歸(CAMP-51932)
-* 修正計費流程的效能問題(CAMP-56796)
-* 修正JSSP網頁上`>`字元的HTML編碼問題(CAMP-56497)
-* 修正動態報告中使用&#x200B;**在選取的列上顯示**&#x200B;選項的問題(CAMP-55895)
+* 修正範本重複的問題 (CAMP-56340)
+* 修正在 Adobe Experience Manager 範本中使用動態 URL 時的追蹤回歸 (CAMP-51932)
+* 修正計費流程的效能問題 (CAMP-56796)
+* 修正 JSSP 網頁上 `>` 字元的 HTML 編碼問題 (CAMP-56497)
+* 修正動態報告中使用 **在選取的列顯示** 選項的問題 (CAMP-55895)
 
 
-## 版本24.2 - 2024年夏季版本(LA) {#summer-24}
+## 版本 24.2 - 2024 夏季版 {#summer-24}
 
 ### 改進 {#summer-24-rn-improvements}
 

@@ -4,10 +4,12 @@ description: 瞭解 Adobe Campaign Standard 文件的所有最新更新
 feature: Overview
 role: User
 level: Beginner
+hide: true
+hidefromtoc: true
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
+source-git-commit: 9924d811359a6845ee6fd230eb6ffd73985404ba
 workflow-type: tm+mt
-source-wordcount: '7258'
+source-wordcount: '7276'
 ht-degree: 100%
 
 ---
@@ -15,6 +17,11 @@ ht-degree: 100%
 # 文件更新{#documentation-updates}
 
 除了 Adobe Campaign [發行版本](../../rn/using/release-notes.md)以外，本頁還列出 Adobe Campaign Standard 檔案中的所有全新更新。
+
+
+## 版本 25.1 - 2025 年冬季 {#release-24-1}
+
+已發佈 Campaign Standard 24.1 2024 冬季版的發行說明。[深入了解](release-notes.md)
 
 ## 版本 24.1 - 2024 年冬季 {#release-24-1}
 
@@ -34,7 +41,7 @@ Android Firebase Cloud Messaging (FCM) 服務的一些重要變更將於 2024 �
 
 * 現已推出 Experience Cloud 觸發器的新使用者介面。 它為您提供直覺式體驗，用於管理消費者行為並個人化使用者體驗。[深入了解](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html?lang=zh-Hant){target="_blank"}.
 
-* 已新增備註，說明結合篩選或疲勞規則使用補漏白測試設定檔的方式。[深入了解](../../sending/using/using-traps.md)
+* 已新增備註，說明結合篩選或疲勞規則使用捕捉器測試輪廓的方式。[深入了解](../../sending/using/using-traps.md)
 
 ## 版本 23.1 - 2023 春夏 {#release-23-1}
 
@@ -67,7 +74,7 @@ Android Firebase Cloud Messaging (FCM) 服務的一些重要變更將於 2024 �
 
 ## 2022 年 3 月 {#doc-updates-march-2022}
 
-有一條備註指定，使用設定檔案替代傳送校樣會將記錄新增到所選檔案中。[閱讀全文](../../sending/using/testing-messages-using-target.md)
+有一條備註指定，使用輪廓案替代傳送校樣會將記錄新增到所選輪廓中。[閱讀全文](../../sending/using/testing-messages-using-target.md)
 
 ## 發行版本 22.1 – 2022 年 2 月 {#release-22-1}
 
@@ -127,7 +134,7 @@ Android Firebase Cloud Messaging (FCM) 服務的一些重要變更將於 2024 �
 
 ## 2021 年 5 月 {#doc-updates-may-2021}
 
-已更新&#x200B;**主要設定檔**&#x200B;報告章節。 [顯示全文](../../audiences/using/active-profiles.md)
+已更新&#x200B;**活躍輪廓**&#x200B;報告章節。 [顯示全文](../../audiences/using/active-profiles.md)
 
 **發行計畫**&#x200B;頁面已更新為新日期。 [顯示全文](../../rn/using/release-planning.md)
 
@@ -164,7 +171,7 @@ Adobe Experience Manager 整合改進 - [瞭解詳情](../../integrating/using/c
 
 **此版本隨附的其他文件更新**
 
-已新增有關如何根據電子郵件、名字、姓氏或任何自訂欄位來搜尋設定檔的資訊。[顯示全文](../../audiences/using/integrated-customer-profile.md)
+已新增有關如何根據電子郵件、名字、姓氏或任何自訂欄位來搜尋輪廓的資訊。[顯示全文](../../audiences/using/integrated-customer-profile.md)
 
 新的 GetOption 函式已新增資訊，可讓您在使用外部參數呼叫工作流程時傳回指定函式的值。[顯示全文](../../automating/using/customizing-workflow-external-parameters.md#using-events-variables)
 
@@ -234,7 +241,7 @@ Journey AI 整合 - [瞭解詳情](../../sending/using/predictive.md)
 
 全新的 Campaign Standard - Microsoft Dynamics 365 整合現已推出。[顯示全文](../../integrating/using/d365-acs-get-started.md)
 
-已在「啟用」設定檔報告中新增匿名來源的資訊。[顯示全文](../../audiences/using/active-profiles.md)
+已在「啟用」輪廓報告中新增匿名來源的資訊。[顯示全文](../../audiences/using/active-profiles.md)
 
 ## 2020 年 8 月 {#doc-updates-august-2020}
 
@@ -256,7 +263,7 @@ Journey AI 整合 - [瞭解詳情](../../sending/using/predictive.md)
 
 Campaign Standard 頁面中的「隱私權管理」已更新，其中包括如何透過隱私權核心服務整合管理隱私權請求的說明。[顯示全文](https://helpx.adobe.com/tw/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)
 
-新 AI 支援電子郵件的功能：傳送時間最佳化和設定檔計分。[顯示全文](../../sending/using/predictive.md)
+新 AI 支援電子郵件的功能：傳送時間最佳化和輪廓計分。[顯示全文](../../sending/using/predictive.md)
 
 ## 2020 年 6 月 {#doc-updates-june-2020}
 
@@ -290,7 +297,7 @@ External API 活動 (GA) – [瞭解詳情](../../automating/using/external-api.
 
 已在工作流程屬性的　**[!UICONTROL History in days]** 欄位中新增資訊，現在包含　**[!UICONTROL Transfer file]** 活動下載的檔案。[瞭解詳情](../../automating/using/managing-execution-options.md)
 
-在設定檔替代區段中已新增有關主旨行首碼 500 個字元限制的資訊。[瞭解詳情](../../sending/using/testing-messages-using-target.md)
+在輪廓替代區段中已新增有關主旨行首碼 500 個字元限制的資訊。[瞭解詳情](../../sending/using/testing-messages-using-target.md)
 
 核心文件中已新增「隱私權與同意」專欄。[瞭解詳情](../../start/using/privacy.md)
 
@@ -330,7 +337,7 @@ Experience Cloud ID 服務 (ECID) 的相關資訊已新增至 Adobe Experience P
 
 Azure Blob 整合 – [瞭解詳情](../../administration/using/external-accounts.md#microsoft-azure-external-account)
 
-使用目標設定檔進行電子郵件測試 – [瞭解詳情](../../sending/using/testing-messages-using-target.md)
+使用目標輪廓進行電子郵件測試 – [瞭解詳情](../../sending/using/testing-messages-using-target.md)
 
 **此版本隨附的其他文件更新**
 
@@ -376,7 +383,7 @@ Adobe Experience Platform 資料連接器 (Beta)
 
 **此版本隨附的其他文件更新**
 
-隱私權管理檔案已更新，其中包含如何為自訂設定檔資源建立 CCPA 選取退出欄位的資訊。[瞭解詳情](https://helpx.adobe.com/tw/campaign/kb/acs-privacy.html)
+隱私權管理檔案已更新，其中包含如何為自訂輪廓資源建立 CCPA 選取退出欄位的資訊。[瞭解詳情](https://helpx.adobe.com/tw/campaign/kb/acs-privacy.html)
 
 「發行版本」已重新整理和改良。[瞭解詳情](../../rn/using/release-notes.md)
 
@@ -464,13 +471,13 @@ Adobe Campaign 的錯誤訊息清單已更新。[顯示全文](https://experienc
 
 已新增與 Campaign Standard 設定相關的新區段。[瞭解詳情](../../administration/using/about-campaign-standard-settings.md)
 
-新增一節，說明如何傳送自動自訂確認電子郵件給已訂閱特定服務的設定檔。[瞭解詳情](../../audiences/using/confirming-subscription-to-a-service.md)
+新增一節，說明如何傳送自動自訂確認電子郵件給已訂閱特定服務的輪廓。[瞭解詳情](../../audiences/using/confirming-subscription-to-a-service.md)
 
 「異動訊息傳送」區段已使用最新的 UI 更新加以修改，包括使用電子郵件設計工具編輯內容。[瞭解詳情](../../channels/using/editing-transactional-message.md)
 
 登陸頁面區段已重新組織。此外，還已新增一個區段，詳細說明設定登陸頁面的步驟。[瞭解詳情](../../channels/using/getting-started-with-landing-pages.md)
 
-推播通知區段中已新增一個區段，說明如何根據行動應用程式訂閱資料建立和更新設定檔資訊。[瞭解詳情](../../channels/using/updating-profile-with-mobile-app-data.md)
+推播通知區段中已新增一個區段，說明如何根據行動應用程式訂閱資料建立和更新輪廓資訊。[瞭解詳情](../../channels/using/updating-profile-with-mobile-app-data.md)
 
 已新增新範例，說明如何傳送包含從載入檔案活動擷取之其他資料的電子郵件。[瞭解詳情](../../automating/using/sending-email-enriched-fields.md)
 
@@ -536,7 +543,7 @@ Campaign Standard 及 Campaign Classic 的錯誤訊息清單已更新。[瞭解�
 
 新增「登錄頁面」限制的頁面。[瞭解詳情](../../channels/using/getting-started-with-landing-pages.md#landing-page-limitations)
 
-已新增使用案例，說明如何使用複合識別金鑰呼叫設定檔。[瞭解詳情](../../developing/using/uc-calling-resource-id-key.md)
+已新增使用案例，說明如何使用複合識別金鑰呼叫輪廓。[瞭解詳情](../../developing/using/uc-calling-resource-id-key.md)
 
 已新增建議，說明在呼叫包含參數的工作流程時，如何使用無彙總期間的循環傳送。[瞭解詳情](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
@@ -640,7 +647,7 @@ Dreamweaver 整合區段已更新並改良。[瞭解詳情](../../designing/usin
 
 有關如何新增或擴展資源的區段已經更新。[瞭解詳情](../../developing/using/creating-or-extending-the-resource.md)
 
-已新增如何擴充設定檔自訂資源的使用案例。[瞭解詳情](../../developing/using/extending-the-profile-resource-with-a-new-field.md)
+已新增如何擴充輪廓自訂資源的使用案例。[瞭解詳情](../../developing/using/extending-the-profile-resource-with-a-new-field.md)
 
 已新增有關如何連結自訂資源的資訊。[瞭解詳情](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources)
 
@@ -752,19 +759,19 @@ Adobe Launch 整合行動應用程式（測試版）– [瞭解詳情](../../sen
 
 **發行中包含的新功能**
 
-API 檔案已更新，其中包含 **History** API 的資訊。已新增使用案例，說明如何擷取傳送至設定檔的傳送鏡像頁面。[瞭解詳情](../../api/using/interacting-with-marketing-history.md)
+API 檔案已更新，其中包含 **History** API 的資訊。已新增使用案例，說明如何擷取傳送至輪廓的傳送鏡像頁面。[瞭解詳情](../../api/using/interacting-with-marketing-history.md)
 
 **此版本隨附的其他文件更新**
 
 已更新並重新整理「觸發器 – Campaign」整合文件。[瞭解詳情](../../integrating/using/about-adobe-experience-cloud-triggers.md)
 
-新增如何建立自訂設定檔維度的逐步使用案例。[瞭解詳情](../../reporting/using/creating-a-custom-profile-dimension.md)
+新增如何建立自訂輪廓維度的逐步使用案例。[瞭解詳情](../../reporting/using/creating-a-custom-profile-dimension.md)
 
 協作使用 Campaign 與 Audience Manager 或 People 核心服務。[瞭解詳情](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
 
 已更新「準備傳送」角色定義。[瞭解詳情](../../administration/using/list-of-roles.md)
 
-在查詢活動區段中新增範例，說明如何定位在傳送中點按特定連結的設定檔。[瞭解詳情](../../automating/using/query-samples.md#targeting-profiles-who-clicked-a-specific-link-)
+在查詢活動區段中新增範例，說明如何鎖定在傳送中點按特定連結的輪廓。[瞭解詳情](../../automating/using/query-samples.md#targeting-profiles-who-clicked-a-specific-link-)
 
 在 API 檔案中新增與&#x200B;**自訂篩選器**&#x200B;相關的區段。[瞭解詳情](../../api/using/filtering.md)
 
@@ -778,7 +785,7 @@ GDPR：核心服務整合 – [瞭解詳情](../../start/using/privacy-managemen
 
 傳送記錄擴充功能 – [瞭解詳情](../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension)
 
-使用自訂設定檔資料建立動態報告 – [瞭解詳情](../../channels/using/creating-a-multilingual-push-notification.md)
+使用自訂輪廓資料建立動態報告 – [瞭解詳情](../../channels/using/creating-a-multilingual-push-notification.md)
 
 **此版本隨附的其他文件更新**
 
@@ -838,7 +845,7 @@ GDPR API 會重新分組可自動處理 GDPR 要求的功能。[瞭解詳情](..
 
 **發行中包含的新功能**
 
-訂閱 – 訂閱或取消訂閱多項服務的設定檔清單 – [瞭解詳情](../../automating/using/subscription-services.md)
+訂閱 – 訂閱或取消訂閱多項服務的輪廓清單 – [瞭解詳情](../../automating/using/subscription-services.md)
 
 擴充活動 – 根據先前的轉變來擴充資料 – [瞭解詳情](../../automating/using/enrichment.md)
 
@@ -856,7 +863,7 @@ datamodel v1 現在可用於內建資源的 SQL 結構 – [瞭解詳情](../../
 
 可在 **[!UICONTROL Query]** 中定義許多其他資料時取得效能的新選項，現在已可供使用。[瞭解詳情](../../automating/using/query-samples.md)
 
-設定檔匯入範例已更新，提供一些提示，讓您的設定檔準備好接收直接電子郵件。[瞭解詳情](../../automating/using/about-data-import-and-export.md)
+輪廓匯入範例已更新，提供一些提示，讓您的輪廓準備好接收直接電子郵件。[瞭解詳情](../../automating/using/about-data-import-and-export.md)
 
 工作流程中提供新活動：**[!UICONTROL Enrichment]** 活動。[瞭解詳情](../../automating/using/enrichment.md)
 
@@ -918,7 +925,7 @@ API Signal 活動觸發 – [瞭解詳情](../../api/using/triggering-a-signal-a
 
 更新 A/B 測試範例。[瞭解詳情](../../channels/using/designing-an-a-b-test-email.md)
 
-有關如何在行動應用程式傳送「收集 PII」資料時建立或更新設定檔資料的新技術。[瞭解詳情](https://helpx.adobe.com/tw/campaign/kb/acs-updating-profile-based-on-subscription.html)
+有關如何在行動應用程式傳送「收集 PII」資料時建立或更新輪廓資料的新技術。[瞭解詳情](https://helpx.adobe.com/tw/campaign/kb/acs-updating-profile-based-on-subscription.html)
 
 已新增有關新匯出追蹤功能的區段。[瞭解詳情](../../administration/using/auditing-export-logs.md)
 
@@ -952,7 +959,7 @@ API Signal 活動觸發 – [瞭解詳情](../../api/using/triggering-a-signal-a
 
 電子郵件範本庫 – [瞭解詳情](../../designing/using/using-reusable-content.md#content-templates)
 
-使用設定檔資料建立動態報告 – [瞭解詳情](../../reporting/using/about-dynamic-reports.md)
+使用輪廓資料建立動態報告 – [瞭解詳情](../../reporting/using/about-dynamic-reports.md)
 
 大量訂閱的增強功能 – [瞭解詳情](../../automating/using/subscription-services.md)
 
@@ -970,7 +977,7 @@ API Signal 活動觸發 – [瞭解詳情](../../api/using/triggering-a-signal-a
 
 更新影像來源個人化的相關區段。[瞭解詳情](../../designing/using/personalization.md#personalizing-an-image-source)
 
-在作用中設定檔報告上新增的文件。[瞭解詳情](../../audiences/using/active-profiles.md)
+在活躍輪廓報告上新增的文件。[瞭解詳情](../../audiences/using/active-profiles.md)
 
 [傳送警報](../../sending/using/receiving-alerts-when-failures-happen.md#delivery-alerting-reasons)文件已更新，其中包含疑難排解區段，提供您在收到警報時可採取的一些動作提示。
 
@@ -1012,7 +1019,7 @@ Adobe Campaign 通知 – [瞭解詳情](../../administration/using/sending-inte
 
 報告檔案已更新為 4 個新度量。[瞭解詳情](../../reporting/using/list-of-components.md)
 
-在設定檔的唯一 ID 產生中新增檔案。[瞭解詳情](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)
+在輪廓的唯一 ID 產生中新增檔案。[瞭解詳情](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)
 
 現在，透過逐步程式記錄雙重加入機制。[瞭解詳情](../../channels/using/setting-up-a-double-opt-in-process.md)
 

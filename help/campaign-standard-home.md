@@ -3,10 +3,10 @@ keywords: Campaign Standard;首頁;熱門話題
 title: Adobe Campaign Standard 產品文件
 description: 瀏覽　Adobe Campaign Standard 產品文件
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-source-git-commit: 2f3a0f4233df2915c5b7d293452246c688d69228
-workflow-type: ht
-source-wordcount: '301'
-ht-degree: 100%
+source-git-commit: 9924d811359a6845ee6fd230eb6ffd73985404ba
+workflow-type: tm+mt
+source-wordcount: '284'
+ht-degree: 91%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ## 新增功能
 
-快速一覽 Adobe Campaign Standard 產品和文件的最新增強功能！如需功能、改進項目與修正的完整清單，請參閱詳細的[發行說明](rn/using/release-notes.md)。請造訪[文件更新頁面](rn/using/documentation-updates.md)，隨時掌握文件中的最新變更。
+快速一覽 Adobe Campaign Standard 產品和文件的最新增強功能！如需功能、改良與修正的完整清單，請參閱詳細的[發行說明](rn/using/release-notes.md)。
 
 >[!BEGINTABS]
 
@@ -24,9 +24,9 @@ ht-degree: 100%
 
 [![影像](assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/acs-to-ac/home){target="_blank"}
 
->[!TAB Campaign 24.2 版本已上線！]
+>[!TAB Campaign 25.1 版本已上線！]
 
-探索 Campaign Standard 24.2 版本隨附的新功能、改進項目及修正。
+探索Campaign Standard25.1版本隨附的改善和修正。
 
 [![影像](assets/do-not-localize/learn-more-button.svg)](rn/using/release-notes.md)
 

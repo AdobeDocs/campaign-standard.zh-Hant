@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: ec96a9c3320a570f80863b1189f350c5f62f8466
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '143'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -37,8 +37,8 @@ This section lists improvements and changes included in the next Campaign Standa
 ### 其他修正 {#winter-25-fixes}
 
 
-* 修正訂閱摘要畫面中的「資料結構」URL (CAMP-56168、CAMP-56296)
-* 修正使用&#x200B;**要立即傳送的訊息**&#x200B;選項時，略過疲勞規則的問題(CAMP-56866、CAMP-57033)
+* 修正訂閱摘要畫面中的「資料結構描述」URL (CAMP-56168、CAMP-56296)
+* 當使用&#x200B;**要立即傳送的訊息**&#x200B;選項時，修正略過疲勞規則的問題 (CAMP-56866、CAMP-57033)
 * 修正範本重複的問題 (CAMP-56340)
 * 修正在 Adobe Experience Manager 範本中使用動態 URL 時的追蹤回歸 (CAMP-51932)
 * 修正計費流程的效能問題 (CAMP-56796)

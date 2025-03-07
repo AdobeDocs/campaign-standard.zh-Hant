@@ -1,6 +1,6 @@
 ---
 title: 開始使用輪廓和客群
-description: 定義目標人口、選取客群、篩選收件者、收集資料及更新輪廓。
+description: 定義目標人口、選取客群、篩選收件者、收集資料及更新設定檔。
 audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
@@ -46,9 +46,9 @@ Adobe Campaign會即時建立豐富的客戶設定檔，讓您能夠根據客戶
 
 詳細內容：
 
-* [關於設定檔](../../audiences/using/about-profiles.md)
-* [使用中的設定檔案](../../audiences/using/active-profiles.md)
-* [管理測試設定檔](../../audiences/using/managing-test-profiles.md)
+* [關於輪廓](../../audiences/using/about-profiles.md)
+* [活躍輪廓](../../audiences/using/active-profiles.md)
+* [管理測試輪廓](../../audiences/using/managing-test-profiles.md)
 * [充實 Campaign 資料庫](../../audiences/using/enriching-campaign-database.md)
 * [關於客群](../../audiences/using/about-audiences.md)
 * [在訊息中選取客群](../../audiences/using/selecting-an-audience-in-a-message.md)

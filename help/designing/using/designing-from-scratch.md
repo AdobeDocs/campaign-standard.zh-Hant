@@ -8,9 +8,9 @@ feature: Email Design
 role: User
 level: Beginner
 exl-id: 052d24b7-d3e0-41d7-8b2c-92bd3addb3a2
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 0079a924db522de8afc628ef50aa2c861e5a12ee
 workflow-type: tm+mt
-source-wordcount: '1232'
+source-wordcount: '1229'
 ht-degree: 22%
 
 ---
@@ -135,11 +135,11 @@ ht-degree: 22%
 
 >[!NOTE]
 >
->可用有限的選項編輯自由HTML元件。 如果所有樣式並非內嵌，請確定在HTML程式碼的&#x200B;**head**&#x200B;區段中新增正確的CSS，否則電子郵件將不會回應。 使用&#x200B;**[!UICONTROL Preview]**&#x200B;按鈕測試內容的回應能力（請參閱[預覽訊息](../../sending/using/previewing-messages.md)）。
+>可用有限選項編輯免費的HTML元件。 如果所有樣式並非內嵌，請務必在HTML程式碼的&#x200B;**head**&#x200B;區段中新增正確的CSS，否則電子郵件將不會回應。 使用&#x200B;**[!UICONTROL Preview]**&#x200B;按鈕測試內容的回應能力（請參閱[預覽訊息](../../sending/using/previewing-messages.md)）。
 
-若只要讓外部內容符合電子郵件Designer，Adobe建議從草稿建立訊息，並將現有電子郵件的內容複製到片段和元件中。
+若要讓外部內容符合電子郵件Designer的規範，Adobe建議從草稿開始建立訊息，並將現有電子郵件的內容複製到片段和元件中。
 
-當您有無法重新建立的內容時，可以使用&#x200B;**[!UICONTROL Html]**&#x200B;內容元件從原始電子郵件複製貼上HTML代碼。 在繼續之前，請務必先熟悉HTML。
+當您有無法重新建立的內容時，可以使用&#x200B;**[!UICONTROL Html]**&#x200B;內容元件從原始電子郵件中複製貼上HTML程式碼。 在繼續之前，請務必先熟悉HTML。
 
 >[!NOTE]
 >
@@ -149,7 +149,7 @@ ht-degree: 22%
 
 1. 在原始電子郵件中，識別區段中可重複使用的區段，這些區段對於您將傳送的每封電子郵件都是唯一的。
 1. 儲存您要使用的所有影像和資產。
-1. 如果您熟悉HTML，請將原始HTML內容分割成不同的部分。
+1. 如果您熟悉HTML，請將原始的HTML內容分割成不同的部分。
 
 ### 影片 {#video-settings}
 
@@ -157,7 +157,6 @@ ht-degree: 22%
 >id="ac_edition_video"
 >title="影片設定"
 >abstract="使用此元件即可在您的電子郵件中插入影片。請注意，影片並非在所有電子郵件用戶端上都適用。我們建議設定備援影像。"
->additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="額外資訊"
 
 將視訊元件插入電子郵件的結構元件中，並在&#x200B;**[!UICONTROL Component Settings]**&#x200B;中輸入視訊連結。
 

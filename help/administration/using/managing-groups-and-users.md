@@ -6,10 +6,10 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: 52217326ec7f17ab7ce4d058d185b2680681a9c0
 workflow-type: tm+mt
-source-wordcount: '921'
-ht-degree: 70%
+source-wordcount: '947'
+ht-degree: 65%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 70%
 >
 >請注意，在Admin Console中，會將安全性群組稱為設定檔。
 
-如果現成的群組不足以管理您的使用者，您可以建立自己的安全性群組。這些功能表可由可同時存取Adobe Campaign管理功能表和Admin Console的管理員加以管理。 如需Admin Console的詳細資訊，請參閱此[檔案](https://helpx.adobe.com/tw/enterprise/managing/user-guide.html)。
+如果現成的群組不足以管理您的使用者，您可以建立自己的安全性群組。同時擁有Adobe Campaign管理功能表和Admin Console存取權的管理員可管理這些功能。 如需Admin Console的詳細資訊，請參閱此[檔案](https://helpx.adobe.com/tw/enterprise/managing/user-guide.html)。
 
 首先，我們需要將兩個現成的群組（Standard User 和 Administrator）指派給使用者。這些安全性群組將限制 Adobe Campaign 的某些功能：舉例來說，Standard User 可以存取 Adobe Campaign 的基本存取權限，而 Administrator 可以存取管理功能表。
 
@@ -69,7 +69,7 @@ ht-degree: 70%
 
 將您的兩個使用者附加至 **[!UICONTROL Administrators]** 及 **[!UICONTROL Standard users]** 現成安全性群組（會將角色指派給我們的使用者）之後，Administrator 使用者現在可已建立兩個安全性群組（**Geometrixx** 及 **Geometrixx Clothes**），除了現成安全性群組之外，還會將組織單位指派給我們的使用者。
 
-1. 在Admin Console中，依序選取您的執行個體及&#x200B;**Products**&#x200B;標籤。
+1. 在Admin Console中，依序選取您的執行個體及&#x200B;**Products**&#x200B;索引標籤。
 1. 按一下 **New Profile** 按鈕以建立 **Geometrixx** 安全性群組。
 
    ![](assets/create_security_1.png)
@@ -105,7 +105,7 @@ ht-degree: 70%
 
    * 會累積不同群組中的角色。此處的使用者會分為兩個不同的群組：一個群組會擔任角色，另一個群組則會擔任單位。
    * 這是將會使用的最高階層單位（請參閱[組織單位](../../administration/using/organizational-units.md)區段中的範例）。
-   * 如果單位具有相同的對等層級，而且位於階層中的平行分支，則無法再連接該使用者。
+   * 如果指派給使用者的組織單位位於階層中的平行分支（亦即，它們沒有共同指派的父單位），則系統會為使用者選取組織單位，且使用者將擁有系統所選組織單位及其子項的存取權。
 
 1. 請依照相同的程序，將 Geometrixx Chates 安全性群組指派給您的 Standard 使用者。
 

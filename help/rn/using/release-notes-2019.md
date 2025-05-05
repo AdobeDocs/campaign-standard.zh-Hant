@@ -34,7 +34,7 @@ ht-degree: 8%
     <li><p>建立隱私權要求時，隱私權核心服務已新增規則型別（GDPR或CCPA）。 此方法是您應該用於所有存取和刪除請求的方法。不建議使用促銷活動 API 和介面來存取和刪除請求。請參閱「<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=zh-Hant#release-notes">已過時和已移除的功能</a>」文章。</p></li>
     <li>設定檔資源已新增<strong>CCPA選擇退出</strong>欄位，以允許Adobe Campaign使用者追蹤消費者是否已選擇退出個人資訊銷售。 <a href="https://helpx.adobe.com/tw/campaign/kb/acs-privacy.html#ccpa">了解更多</a>。</li>
   </ul>
-    <p>請參閱<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">作法影片</a>。</p>
+    <p>請參閱<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html?lang=zh-Hant">作法影片</a>。</p>
 </td> 
   </tr> 
  </tbody> 
@@ -155,11 +155,11 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td> 外部API活動(公用Beta)<br /> </td> 
-   <td> <p>為更深度個人化，外部API活動可讓您透過REST API呼叫，將資料從外部系統帶入工作流程。 REST端點可以是客戶管理系統、Adobe I/O Runtime或Adobe Experience Cloud REST端點（例如資料平台、Target、Analytics、Campaign）。</p><p>此功能目前仍在公開測試中。</p><p>如需詳細資訊，請參閱<a href="../../automating/using/external-api.md">詳細文件</a>及<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">作法影片</a>。</p></td> 
+   <td> <p>為更深度個人化，外部API活動可讓您透過REST API呼叫，將資料從外部系統帶入工作流程。 REST端點可以是客戶管理系統、Adobe I/O Runtime或Adobe Experience Cloud REST端點（例如資料平台、Target、Analytics、Campaign）。</p><p>此功能目前仍在公開測試中。</p><p>如需詳細資訊，請參閱<a href="../../automating/using/external-api.md">詳細文件</a>及<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html?lang=zh-Hant">作法影片</a>。</p></td> 
   </tr> 
   <tr> 
    <td> 工作流程區段<br />的報告 </td> 
-   <td> <p>此功能可讓行銷人員依區段代碼來劃分其傳遞效能。 當您建立工作流程，並使用分段活動將區段指派給傳遞人口時，這些區段現在可以進入相同的傳遞。 這可讓您根據單一傳送內的多個區段，顯示開啟數/點按數統計資料。</p><p>如需詳細資訊，請參閱<a href="../../reporting/using/creating-a-report-workflow-segment.md">詳細文件</a>及<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html">作法影片</a>。</p></td>
+   <td> <p>此功能可讓行銷人員依區段代碼來劃分其傳遞效能。 當您建立工作流程，並使用分段活動將區段指派給傳遞人口時，這些區段現在可以進入相同的傳遞。 這可讓您根據單一傳送內的多個區段，顯示開啟數/點按數統計資料。</p><p>如需詳細資訊，請參閱<a href="../../reporting/using/creating-a-report-workflow-segment.md">詳細文件</a>及<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html?lang=zh-Hant">作法影片</a>。</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -308,7 +308,7 @@ ht-degree: 8%
   </tr> 
   <tr> 
    <td> 工作流程增強功能 — 新增裝載至外部訊號活動<br /> </td> 
-   <td> <p>其他工作流程或REST API呼叫符合定義的條件時，即啟動具備裝載的工作流程，以便與外部系統整合。 這也包括新的<strong>測試</strong>活動，您可以在此功能上執行測試。</p><p>如需詳細資訊，請參閱<a href="../../automating/using/calling-a-workflow-with-external-parameters.md">詳細文件</a>及<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/execution-activities/external-signal-activity.html">作法影片</a>。</p></td> 
+   <td> <p>其他工作流程或REST API呼叫符合定義的條件時，即啟動具備裝載的工作流程，以便與外部系統整合。 這也包括新的<strong>測試</strong>活動，您可以在此功能上執行測試。</p><p>如需詳細資訊，請參閱<a href="../../automating/using/calling-a-workflow-with-external-parameters.md">詳細文件</a>及<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/execution-activities/external-signal-activity.html?lang=zh-Hant">作法影片</a>。</p></td> 
   </tr> 
   <tr> 
    <td> 登入頁面增強功能 — Google reCAPTCHA<br /> </td> 
@@ -426,7 +426,7 @@ ht-degree: 8%
   </tr> 
   <tr> 
    <td> 行動應用程式內傳訊<br /> </td> 
-   <td> <p>此發行版本包含Campaign應用程式內頻道的GA版本。 從功能的角度來看，Beta發行中新增的最重要內容是應用程式內管道的動態報表，以及Mobile SDK與MCIAS之間的安全交握(提供應用程式內規則至SDK的Marketing Cloud應用程式內傳訊服務)。 安全交握可確保使用者的PII資料不會落入惡意之手，並可讓您在每次使用者登出時清除訊息快取，進而維護使用者在共用裝置上的隱私權。</p><p>如需詳細資訊，請參閱<a href="../../channels/using/about-in-app-messaging.md">詳細檔案</a>和專屬的<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/in-app/in-app-message-overview.html">應用程式內教學課程</a>。</p> </td> 
+   <td> <p>此發行版本包含Campaign應用程式內頻道的GA版本。 從功能的角度來看，Beta發行中新增的最重要內容是應用程式內管道的動態報表，以及Mobile SDK與MCIAS之間的安全交握(提供應用程式內規則至SDK的Marketing Cloud應用程式內傳訊服務)。 安全交握可確保使用者的PII資料不會落入惡意之手，並可讓您在每次使用者登出時清除訊息快取，進而維護使用者在共用裝置上的隱私權。</p><p>如需詳細資訊，請參閱<a href="../../channels/using/about-in-app-messaging.md">詳細檔案</a>和專屬的<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/in-app/in-app-message-overview.html?lang=zh-Hant">應用程式內教學課程</a>。</p> </td> 
   </tr> 
   <tr> 
    <td> 工作流程增強功能<br /> </td> 
@@ -531,11 +531,11 @@ ht-degree: 8%
      <li> 可在準備時自動<a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">從URL擷取內容</a> </li> 
      <li> 完全相容的<a href="../../designing/using/using-reusable-content.md#content-templates">現成可用的內容範本</a>。 </li> 
     </ul> 
-    <p>如需詳細資訊，請參閱<a href="../../designing/using/designing-content-in-adobe-campaign.md">詳細檔案</a>和<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">操作影片</a>。 以下列出改善與修正。</p><p>因此，舊版的電子郵件內容編輯器現已棄用。 如需詳細資訊，請參閱此<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=zh-Hant#release-notes">頁面</a>。</p> </td> 
+    <p>如需詳細資訊，請參閱<a href="../../designing/using/designing-content-in-adobe-campaign.md">詳細檔案</a>和<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html?lang=zh-Hant">操作影片</a>。 以下列出改善與修正。</p><p>因此，舊版的電子郵件內容編輯器現已棄用。 如需詳細資訊，請參閱此<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=zh-Hant#release-notes">頁面</a>。</p> </td> 
   </tr> 
   <tr> 
    <td> 異動電子郵件中的產品清單<br /> </td> 
-   <td> <p>您現在可以在交易式電子郵件訊息中參考一或多個產品集合。 例如，您可以自動傳送放棄購物車電子郵件，列出使用者購物車中的所有產品，並附帶每個產品的影像、價格及連結。</p><p>如需詳細資訊，請參閱<a href="../../designing/using/using-product-listings.md">詳細文件</a>及<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html">作法影片</a>。</p> </td> 
+   <td> <p>您現在可以在交易式電子郵件訊息中參考一或多個產品集合。 例如，您可以自動傳送放棄購物車電子郵件，列出使用者購物車中的所有產品，並附帶每個產品的影像、價格及連結。</p><p>如需詳細資訊，請參閱<a href="../../designing/using/using-product-listings.md">詳細文件</a>及<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html?lang=zh-Hant">作法影片</a>。</p> </td> 
   </tr> 
   <tr> 
    <td> 電子郵件Designer<br />中的行動裝置檢視 </td> 

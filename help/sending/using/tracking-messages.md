@@ -28,7 +28,7 @@ ht-degree: 23%
 Adobe Campaign 使用兩種類型的 Cookie：
 
 * 工作階段Cookie (nlid)。 這包含傳送到聯絡人之電子郵件的識別碼(broadlogId)，以及訊息範本的識別碼(deliveryId)。 連絡人按一下由 Adobe Campaign 傳送的電子郵件中包含的 URL 後即可添加識別碼，並且允許您追蹤他們在網路上的行為。瀏覽器關閉時，將自動清除工作階段 Cookie。連絡人可以將其瀏覽器設定為拒絕 Cookie。
-* 在Adobe Experience Cloud解決方案之間共用的Cookie。 這可讓您識別在Experience Cloud解決方案造訪網站時與之互動的使用者。 此Cookie的說明可在[這裡](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html)取得。
+* 在Adobe Experience Cloud解決方案之間共用的Cookie。 這可讓您識別在Experience Cloud解決方案造訪網站時與之互動的使用者。 此Cookie的說明可在[這裡](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html?lang=zh-Hant)取得。
 
 使用Adobe Campaign Standard進行追蹤可讓您存取下列功能：
 

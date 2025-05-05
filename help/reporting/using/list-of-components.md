@@ -19,7 +19,7 @@ ht-degree: 0%
 
 若要進一步瞭解維度與量度之間的相容性，請參閱此[表格](/help/reporting/using/assets/dynamic_report_compatibility.pdf)。 如果兩個元件不相容，儲存格會顯示值&#x200B;**無**。
 
-[![影像](assets/dynamic_report_compatibility.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf)
+[![影像](assets/dynamic_report_compatibility.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=zh-Hant)
 
 ## 維度 {#dimensions}
 

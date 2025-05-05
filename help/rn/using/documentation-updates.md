@@ -589,7 +589,7 @@ Campaign Standard 及 Campaign Classic 的錯誤訊息清單已更新。[瞭解�
 
 「動態」報告的「指標」計算區段已更新。[瞭解詳情](../../reporting/using/indicator-calculation.md)
 
-已新增動態報告相容性表格，以更妥善地瞭解維度與度量之間的相容性。[瞭解詳情](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf)
+已新增動態報告相容性表格，以更妥善地瞭解維度與度量之間的相容性。[瞭解詳情](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=zh-Hant)
 
 工作流程的函式清單已更新。[瞭解詳情](../../automating/using/list-of-functions.md)
 
@@ -867,7 +867,7 @@ datamodel v1 現在可用於內建資源的 SQL 結構 – [瞭解詳情](../../
 
 新增如何準備傳送的逐步使用案例。[瞭解詳情](../../sending/using/preparing-the-send.md)
 
-已刪除包含授權清單的區段。[瞭解詳情](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf) (PDF)。
+已刪除包含授權清單的區段。[瞭解詳情](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=zh-Hant) (PDF)。
 
 新增如何使用簡訊自動回覆的逐步使用案例。[瞭解詳情](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
@@ -1039,7 +1039,7 @@ Adobe Campaign 通知 – [瞭解詳情](../../administration/using/sending-inte
 
 新增了設定 People 核心服務或 Audience Manager 與 Adobe Campaign 整合的說明。[顯示全文](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
 
-修改授權表，使某些角色的功能更加清晰。[瞭解詳情](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
+修改授權表，使某些角色的功能更加清晰。[瞭解詳情](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=zh-Hant)
 
 更新直接從 Adobe Campaign 取得的內容說明連結。
 

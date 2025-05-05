@@ -117,7 +117,7 @@ ht-degree: 3%
 
 **功能改進**
 
-* Adobe Campaign和Adobe Target整合現在可讓您運用Target的[許可權](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html)功能。 在電子郵件中加入Adobe Target的動態影像時，您現在可以指定Target屬性（at_property程式碼）。
+* Adobe Campaign和Adobe Target整合現在可讓您運用Target的[許可權](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html?lang=zh-Hant)功能。 在電子郵件中加入Adobe Target的動態影像時，您現在可以指定Target屬性（at_property程式碼）。
 * GDPR隱私權存取/刪除請求現在會考量具有設定檔資源擁有複製連結的自訂資源。 針對1個基數簡易連結和N個基數集合連結，您必須在自訂資源中選取「刪除/複製目標籤錄表示刪除/複製連結參考的記錄」。 對於0或1個基數簡單連結，選取「刪除/複製記錄表示刪除/複製連結參照的目標籤錄」。
 
 **其他變更**
@@ -195,7 +195,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td> GDPR：核心服務整合<br /> </td> 
-   <td> 隱私權核心服務整合可讓您透過單一JSON API呼叫，在多解決方案內容中自動化GDPR請求。 從「隱私權核心服務」推送至所有Experience Cloud解決方案的<br />個GDPR要求，現在由Campaign自動處理。 <br />如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">詳細檔案</a>。<br /> </td> 
+   <td> 隱私權核心服務整合可讓您透過單一JSON API呼叫，在多解決方案內容中自動化GDPR請求。 從「隱私權核心服務」推送至所有Experience Cloud解決方案的<br />個GDPR要求，現在由Campaign自動處理。 <br />如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html?lang=zh-Hant">詳細檔案</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 推播改良功能 — 詳細的傳遞回饋<br /> </td> 
@@ -297,7 +297,7 @@ _自訂資源_
     <ul> 
      <li> 存取許可權：允許資料主體接收資料控制者擷取的個人資料副本，其中可能包括儲存在Adobe Campaign中的資料。 </li> 
      <li> 刪除權：資料主體有權清除資料控制者擷取的個人資料，可能包括儲存在Adobe Campaign中的資料。 </li> 
-    </ul> 如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">詳細檔案</a>.<br /> </td> 
+    </ul> 如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html?lang=zh-Hant">詳細檔案</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 適用於電子郵件的Creative Designer (Beta)<br /> </td> 
@@ -461,7 +461,7 @@ _已知問題_
      <li> 下載影像或其他媒體檔案，並將它們新增為通知的附件 </li> 
      <li> 變更通知的正文或標題文字 </li> 
      <li> 將執行緒識別碼新增至通知 </li> 
-    </ul> 如需有關可用內容和可變內容的詳細資訊，請參閱<a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">詳細檔案</a>。<br /> <strong>警告：</strong>這些推播通知的更新要求客戶升級其行動應用程式。 如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/push-payload.html">此技術檔案</a>。<br /> </td> 
+    </ul> 如需有關可用內容和可變內容的詳細資訊，請參閱<a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">詳細檔案</a>。<br /> <strong>警告：</strong>這些推播通知的更新要求客戶升級其行動應用程式。 如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/push-payload.html?lang=zh-Hant">此技術檔案</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 時區最佳化傳遞<br /> </td> 

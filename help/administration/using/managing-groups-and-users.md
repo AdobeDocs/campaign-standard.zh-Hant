@@ -25,7 +25,7 @@ ht-degree: 65%
 
 使用者必須始終連結到安全性群組。這可讓您指派他們特定的角色和組織單位。 若要限制使用者的存取權，請勿將使用者新增至Campaign **[!UICONTROL Standard Users]**&#x200B;群組，因為此群組已連結至&#x200B;**[!UICONTROL All]**&#x200B;組織單位。
 
-如需角色的詳細資訊，下頁的表格會根據使用者的角色顯示可能的作業： [Adobe Campaign Standard授權](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)。
+如需角色的詳細資訊，下頁的表格會根據使用者的角色顯示可能的作業： [Adobe Campaign Standard授權](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=zh-Hant)。
 
 預設安全性群組為：
 

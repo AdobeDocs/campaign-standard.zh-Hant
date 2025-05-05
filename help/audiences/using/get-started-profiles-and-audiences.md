@@ -89,4 +89,4 @@ Adobe Campaign提供一套工具，以協助您遵守GDPR、CCPA及其他隱私�
 * [使用Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md)
 * [Adobe共用受眾](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
 * [使用工作流程匯入設定檔](../../automating/using/creating-import-workflow-templates.md)
-* [設定檔與對象影片](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)
+* [設定檔與對象影片](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html?lang=zh-Hant)

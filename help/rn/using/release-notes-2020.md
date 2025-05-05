@@ -36,7 +36,7 @@ ht-degree: 97%
 <tr> 
   <td> <p>您現在可以使用<strong>控制組組</strong>，透過排除其客群的一部分來評估行銷活動的影響。然後，您將能夠將接收到消息的目標人口的行為與未作為目標的聯絡人的行為進行比較。根據傳送日誌，您也可以在未來的行銷活動中定位控制組。
 </p>
-<p>如需詳細資訊，請參閱<a href="../../sending/using/control-group.md">詳細文件</a>及<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html">作法影片</a>。
+<p>如需詳細資訊，請參閱<a href="../../sending/using/control-group.md">詳細文件</a>及<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html?lang=zh-Hant">作法影片</a>。
 </p>
 </td> 
 </tr> 
@@ -72,8 +72,8 @@ ht-degree: 97%
   <p>Journey AI使用進階的機器學習(ML)，讓公司透過預測每個人的參與偏好以最佳化客戶歷程的設計和傳遞。</p>
   <P>Journey AI 包含兩種 ML 功能：</p>
 <ul> 
-     <li> <strong>預測性參與計分</strong> - 智慧地識別客戶的首選參與層級，以便更佳地定位和個人化訊息，從而提高轉換率與保留率。觀看<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html">作法影片</a>。</li> 
-     <li> <strong>預測性傳送時間最佳化</strong> - 預測向行銷活動中的每個人傳送電子郵件的最佳時機，以最大化參與率並改善電子郵件行銷活動的 ROI。觀看<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html">作法影片</a>。</li>
+     <li> <strong>預測性參與計分</strong> - 智慧地識別客戶的首選參與層級，以便更佳地定位和個人化訊息，從而提高轉換率與保留率。觀看<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html?lang=zh-Hant">作法影片</a>。</li> 
+     <li> <strong>預測性傳送時間最佳化</strong> - 預測向行銷活動中的每個人傳送電子郵件的最佳時機，以最大化參與率並改善電子郵件行銷活動的 ROI。觀看<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html?lang=zh-Hant">作法影片</a>。</li>
     </ul>
   <p>如果您想要瞭解如何開始使用 Journey AI，請查閱此<a href="../../sending/using/predictive.md">詳細文件</a>，並聯繫您的帳戶高階主管。請注意，雖然 Journey AI 可供現有的 Campaign 客戶免費使用，但實作成本約為 50 小時。</p>
     </td> 
@@ -206,7 +206,7 @@ ht-degree: 97%
 <li>存取權限與刪除權限：我們已運用 GDPR 和 CCPA 新增的功能。<a href="https://helpx.adobe.com/content/help/tw/campaign/kb/acs-privacy.html#righttoaccess">進一步瞭解</a> </li>
 <li><p>建立隱私權要求時，PDPA 規則類型已新增至隱私權核心服務。此方法是您應該用於所有存取和刪除請求的方法。不建議使用促銷活動 API 和介面來存取和刪除請求。請參閱「<a href="../../rn/using/deprecated-features.md">已過時和已移除的功能</a>」文章。</p></li>
 </ul>
-<p>請參閱<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">作法影片</a>。</p>
+<p>請參閱<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html?lang=zh-Hant">作法影片</a>。</p>
 </td> 
 </tr> 
 </tbody> 
@@ -227,7 +227,7 @@ ht-degree: 97%
 <li>從 JSON 選取並使用陣列物件，而不需將物件命名為 "data"，或讓它位於頂層。</li>
 </ul>
 <p><strong>注意：</strong>客戶在其工作流程中，需要使用 GA External API 活動來<strong>取代所有測試版 External API 活動</strong>。使用 External API 測試版的工作流程將在 20.3 中停止運作。</p>
-<p>如需詳細資訊，請參閱<a href="../../automating/using/external-api.md">詳細文件</a>及<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">作法影片</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../../automating/using/external-api.md">詳細文件</a>及<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html?lang=zh-Hant">作法影片</a>。</p>
 </td> 
 </tr> 
 </tbody> 
@@ -320,7 +320,7 @@ ht-degree: 97%
  <tbody> 
   <tr> 
    <td> <p>除了測試設定檔以外，您現在還可以在真正的目標設定檔上測試電子郵件。這可讓您獲得設定檔將會收到的訊息的精確表示：自訂欄位、動態和個人化資訊，包括工作流程的其他資料等。 </p>
-    <p>如需詳細資訊，請參閱<a href="../../sending/using/testing-messages-using-target.md">詳細文件</a>及<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html">教學影片</a>。 </p>
+    <p>如需詳細資訊，請參閱<a href="../../sending/using/testing-messages-using-target.md">詳細文件</a>及<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html?lang=zh-Hant">教學影片</a>。 </p>
    </td> 
   </tr> 
  </tbody> 

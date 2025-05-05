@@ -40,5 +40,5 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->身為管理員使用者，您也可以直接從「控制面板」監視執行個體上使用的作用中設定檔數目。 如需詳細資訊，請參閱[控制面板檔案](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html)。
+>身為管理員使用者，您也可以直接從「控制面板」監視執行個體上使用的作用中設定檔數目。 如需詳細資訊，請參閱[控制面板檔案](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=zh-Hant)。
 >

@@ -34,7 +34,7 @@ ht-degree: 1%
 1. 然後，在資料收集UI中，您需要建立規則以支援Point of Interest和Adobe Campaign之間的行動使用案例。\
    當使用者進入地理圍欄式&#x200B;**[!UICONTROL Point of Interest]**&#x200B;時，將觸發此規則。 請參閱此[頁面](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Locationpostback)以建立您的規則。
 
-1. 在地標中定義您的&#x200B;**[!UICONTROL Points of Interest]**。 請參閱[建立地標](https://experienceleague.adobe.com/docs/places/using/poi-mgmt-ui/create-a-poi-ui.html)。
+1. 在地標中定義您的&#x200B;**[!UICONTROL Points of Interest]**。 請參閱[建立地標](https://experienceleague.adobe.com/docs/places/using/poi-mgmt-ui/create-a-poi-ui.html?lang=zh-Hant)。
 
 1. 請務必存取行動應用程式和在Adobe Campaign中收集的位置資料。 請參閱[存取用來收集位置資料的行動應用程式](#accessing-mobile-apps-used-to-collect-location-data)和[存取收集的位置資料](#accessing-collected-location-data)。
 
@@ -162,7 +162,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->如需設定回傳的詳細資訊，請參閱[AdobeMobile Services檔案](https://experienceleague.adobe.com/docs/mobile-services/using/manage-app-settings-ug/configuring-app/signals.html)。
+>如需設定回傳的詳細資訊，請參閱[AdobeMobile Services檔案](https://experienceleague.adobe.com/docs/mobile-services/using/manage-app-settings-ug/configuring-app/signals.html?lang=zh-Hant)。
 
 ### 將SDK整合至行動應用程式 {#integrating-the-sdk-into-a-mobile-application}
 
@@ -177,11 +177,11 @@ ht-degree: 1%
 1. 前往AdobeMobile Services介面。
 1. 新增您的應用程式。
 
-   如需在Mobile Services中管理應用程式的詳細資訊，請參閱[AdobeMobile Services檔案](https://experienceleague.adobe.com/docs/mobile-services/using/manage-apps-ug/t-new-app.html)。
+   如需在Mobile Services中管理應用程式的詳細資訊，請參閱[AdobeMobile Services檔案](https://experienceleague.adobe.com/docs/mobile-services/using/manage-apps-ug/t-new-app.html?lang=zh-Hant)。
 
 1. 定義地標。
 
-   如需管理地標的詳細資訊，請參閱[Adobe行動服務檔案](https://experienceleague.adobe.com/docs/mobile-services/using/location-ug/t-manage-points.html)。
+   如需管理地標的詳細資訊，請參閱[Adobe行動服務檔案](https://experienceleague.adobe.com/docs/mobile-services/using/location-ug/t-manage-points.html?lang=zh-Hant)。
 
 ### 收集訂閱者的興趣點資料 {#collecting-subscribers--points-of-interest-data}
 

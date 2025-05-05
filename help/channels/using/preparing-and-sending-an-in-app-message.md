@@ -80,7 +80,7 @@ Adobe Campaign 中提供了三種類型的應用程式內訊息：
 
    * **[!UICONTROL Life Cycle events]**：Adobe Mobile SDK 支援的現成可用生命週期事件。
 
-     有關生命週期事件的詳細資訊，請參閱本[頁面](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html)。
+     有關生命週期事件的詳細資訊，請參閱本[頁面](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html?lang=zh-Hant)。
 
    * **[!UICONTROL Analytics Events]**：根據您的行動應用程式中所創作的內容，支援下列三個類別： Adobe Analytics、內容資料或檢視狀態。
 
@@ -88,7 +88,7 @@ Adobe Campaign 中提供了三種類型的應用程式內訊息：
 
    * **[!UICONTROL Places]**：以下三個類別運用即時位置資料來提供情境相關的行動體驗：放置內容資料、放置自訂中繼資料或放置事件類型。
 
-     如需 Adobe Places 的詳細資訊，請參閱 [Places 檔案](https://experienceleague.adobe.com/docs/places/using/home.html)。
+     如需 Adobe Places 的詳細資訊，請參閱 [Places 檔案](https://experienceleague.adobe.com/docs/places/using/home.html?lang=zh-Hant)。
 
    ![](assets/inapp_creating_4.png)
 

@@ -19,7 +19,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
-> Adobe Experience Platform Launch已經過品牌重塑，現在是Adobe Experience Platform中的一套資料收集技術。 因此，所有產品檔案中出現了幾項術語變更。 如需術語變更的彙整參考資料，請參閱[下列檔案](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html){target="_blank"}。
+> Adobe Experience Platform Launch已經過品牌重塑，現在是Adobe Experience Platform中的一套資料收集技術。 因此，所有產品檔案中出現了幾項術語變更。 如需術語變更的彙整參考資料，請參閱[下列檔案](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=zh-Hant){target="_blank"}。
 
 請注意，推播通知和應用程式內實作必須由專家使用者執行。 如需協助，請聯絡您的Adobe客戶主管或專業服務合作夥伴。
 
@@ -43,7 +43,7 @@ ht-degree: 2%
    * 在Adobe Campaign Standard中，確認IMS使用者屬於標準使用者和管理員產品設定檔。 此步驟可讓使用者登入Adobe Campaign Standard、導覽至Experience Platform SDK行動應用程式頁面，並檢視您在資料收集UI中建立的行動應用程式屬性。
 
    * 在資料收集UI中，確認您的IMS使用者屬於Experience Platform Launch產品設定檔。
-此步驟可讓使用者登入資料收集UI，以建立和檢視屬性。 如需資料收集UI中產品設定檔的詳細資訊，請參閱[建立您的產品設定檔](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html#gain-admin-rights-for-a-tags-product-profile)。 在產品設定檔中，公司或屬性上應該沒有許可權設定，但使用者應該能夠仍然登入。
+此步驟可讓使用者登入資料收集UI，以建立和檢視屬性。 如需資料收集UI中產品設定檔的詳細資訊，請參閱[建立您的產品設定檔](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html?lang=zh-Hant#gain-admin-rights-for-a-tags-product-profile)。 在產品設定檔中，公司或屬性上應該沒有許可權設定，但使用者應該能夠仍然登入。
 
    若要完成安裝擴充功能、發佈應用程式、設定環境等額外工作，您必須在產品設定檔中設定許可權。
 

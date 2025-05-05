@@ -37,7 +37,7 @@ ht-degree: 73%
 
 有關詳細資訊，請參閱[角色和權限表格](/help/administration/using/assets/acs_rights.pdf)，該表根據所選授權詳細說明了介面中可用的功能。
 
-[![影像](assets/user_management_3.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
+[![影像](assets/user_management_3.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=zh-Hant)
 
 **相關主題：**
 

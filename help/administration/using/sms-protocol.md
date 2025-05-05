@@ -17,7 +17,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->您可以在此[頁面](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html)找到Adobe Campaign Classic的&#x200B;**SMS聯結器通訊協定和設定**。
+>您可以在此[頁面](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html?lang=zh-Hant)找到Adobe Campaign Classic的&#x200B;**SMS聯結器通訊協定和設定**。
 >
 >透過此檔案，所有參考通訊協定、欄位名稱和值詳細資訊的參考均參考[SMPP 3.4規格](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)。
 

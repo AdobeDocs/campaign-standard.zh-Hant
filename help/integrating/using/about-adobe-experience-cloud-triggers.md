@@ -30,7 +30,7 @@ Experience Cloud 啟動核心服務 **[!UICONTROL Triggers]** 與 Adobe Campaign
 
 **相關主題：**
 
-* 瞭解不同類型的觸發器：[Adobe Experience Cloud 文件](https://experienceleague.adobe.com/docs/core-services/interface/triggers.html)。
+* 瞭解不同類型的觸發器：[Adobe Experience Cloud 文件](https://experienceleague.adobe.com/docs/core-services/interface/triggers.html?lang=zh-Hant)。
 * 觀看「[根據網站活動觸發再行銷訊息](https://helpx.adobe.com/tw/marketing-cloud/how-to/email-marketing.html#step-two)」影片。
 * 瞭解我們的兩個[放棄觸發器使用案例](../../integrating/using/abandonment-triggers-use-cases.md)。
 

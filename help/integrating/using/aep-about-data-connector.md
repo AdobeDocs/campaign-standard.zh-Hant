@@ -38,14 +38,14 @@ Adobe Experience Platform Data Connector是專為&#x200B;**資料工程師**&#x2
 >
 >這可透過API或Adobe Experience Platform介面執行。 如需詳細資訊，請參閱專屬檔案：
 >
->* [啟用即時客戶個人檔案的資料集](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/datasets/dataset.html)
->* [使用API設定Real-time Customer Profile和Identity Service的資料集](https://experienceleague.adobe.com/docs/experience-platform/catalog/api/getting-started.html)
+>* [啟用即時客戶個人檔案的資料集](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/datasets/dataset.html?lang=zh-Hant)
+>* [使用API設定Real-time Customer Profile和Identity Service的資料集](https://experienceleague.adobe.com/docs/experience-platform/catalog/api/getting-started.html?lang=zh-Hant)
 
 ## 重要概念 {#key-concepts}
 
 * 「現成對應」僅適用於預設以Campaign Standard提供的欄位。 為了擷取所有自訂欄位和資源，每個客戶需要定義自己的對應。
 
-* Adobe Experience Platform Data Connector將定期透過平台推送設定檔資料&#x200B;。 間隔持續時間為15分鐘。 此值可以使用[Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html)修改。
+* Adobe Experience Platform Data Connector將定期透過平台推送設定檔資料&#x200B;。 間隔持續時間為15分鐘。 此值可以使用[Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hant)修改。
 
 * 資料工程師可以發佈、修改及暫停從Campaign到Adobe Experience Platform的對應。
 
@@ -59,7 +59,7 @@ Adobe Experience Platform Data Connector是專為&#x200B;**資料工程師**&#x2
 
 * Experience CloudID服務(ECID)是裝置識別碼，預設會與Experience Events一併傳送。
 
-  這是指派給訪客的不重複永久性ID，可供Platform Identity Service用於識別不同Experience Cloud解決方案中的相同訪客及其資料。 如需詳細資訊，請參閱[Experience Cloud識別服務說明](https://experienceleague.adobe.com/docs/id-service/using/home.html)。
+  這是指派給訪客的不重複永久性ID，可供Platform Identity Service用於識別不同Experience Cloud解決方案中的相同訪客及其資料。 如需詳細資訊，請參閱[Experience Cloud識別服務說明](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)。
 
   >[!NOTE]
   >
@@ -69,7 +69,7 @@ Adobe Experience Platform Data Connector是專為&#x200B;**資料工程師**&#x2
 
 * 不支援現成可用的訂閱事件傳輸。 若要傳輸訂閱事件，您可以在Adobe Experience Platform上建立對應的XDM和資料集，然後為這些資料設定自訂資料對應。
 
-* 關於隱私權請求（存取和刪除動作），客戶需要透過[隱私權核心服務](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html#how-to-use-privacy-service-to-manage-privacy-job-requests)提出個別請求：一個適用於Campaign，一個適用於Adobe Experience Platform。 如需詳細資訊，請參閱[關於隱私權要求](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=zh-Hant#getting-started)和[在Campaign中管理隱私權要求](https://helpx.adobe.com/tw/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)。
+* 關於隱私權請求（存取和刪除動作），客戶需要透過[隱私權核心服務](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hant#how-to-use-privacy-service-to-manage-privacy-job-requests)提出個別請求：一個適用於Campaign，一個適用於Adobe Experience Platform。 如需詳細資訊，請參閱[關於隱私權要求](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=zh-Hant#getting-started)和[在Campaign中管理隱私權要求](https://helpx.adobe.com/tw/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)。
 
 * 對於每個XDM欄位，DULE標籤需要在Adobe Experience Platform中完成。 客戶有責任套用DULE標籤。
 
@@ -83,4 +83,4 @@ Adobe Experience Platform Data Connector是專為&#x200B;**資料工程師**&#x2
 
 >[!VIDEO](https://video.tv.adobe.com/v/27304?quality=12&captions=eng)
 
-您可在[這裡](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html)找到與Adobe Experience Platform Data Connector相關的其他影片。
+您可在[這裡](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html?lang=zh-Hant)找到與Adobe Experience Platform Data Connector相關的其他影片。

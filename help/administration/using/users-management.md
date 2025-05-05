@@ -19,7 +19,7 @@ ht-degree: 81%
 
 Adobe Campaign 可讓您指派一組角色給使用者，以定義使用者可存取的介面部分。
 
-以下各節將詳細介紹特定角色和相應的授權：[瞭解角色](../../administration/using/list-of-roles.md)和[授權](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)。
+以下各節將詳細介紹特定角色和相應的授權：[瞭解角色](../../administration/using/list-of-roles.md)和[授權](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=zh-Hant)。
 
 管理員可以從Admin Console管理使用者。 然後，使用者會自動與 Adobe Campaign 同步。如需詳細資訊，請參閱[Admin Console](https://helpx.adobe.com/tw/enterprise/using/users.html)檔案。
 
@@ -33,9 +33,9 @@ Adobe Campaign 可讓您指派一組角色給使用者，以定義使用者可�
 
 **相關主題：**
 
-* [管理使用者權限](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html)影片
+* [管理使用者權限](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html?lang=zh-Hant)影片
 * [角色清單](../../administration/using/list-of-roles.md)
-* [授權清單](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
+* [授權清單](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=zh-Hant)
 
 ## 使用者型別 {#type-of-users}
 

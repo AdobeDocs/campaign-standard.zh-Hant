@@ -36,7 +36,7 @@ ht-degree: 1%
 
 * **封鎖清單上的電子郵件地址與隔離的電子郵件地址有何不同？**
 
-   * 狀態&#x200B;**[!UICONTROL On denylist]**&#x200B;是[回饋迴路](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops) （當某人回報訊息為垃圾訊息時）的結果。
+   * 狀態&#x200B;**[!UICONTROL On denylist]**&#x200B;是[回饋迴路](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=zh-Hant#feedback-loops) （當某人回報訊息為垃圾訊息時）的結果。
 
    * 狀態&#x200B;**[!UICONTROL Quarantined]**&#x200B;是軟退信或硬退信的結果。
 

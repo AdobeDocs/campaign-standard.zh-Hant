@@ -52,7 +52,7 @@ Experience Platform SDK支援推播通知。
 
 >[!NOTE]
 >
->如果您的應用程式位於Objective-C，請參閱下列[檔案](https://experienceleague.adobe.com/docs/mobile-services/ios/messaging-ios/push-messaging/c-set-up-rich-push-notif-ios.html)。
+>如果您的應用程式位於Objective-C，請參閱下列[檔案](https://experienceleague.adobe.com/docs/mobile-services/ios/messaging-ios/push-messaging/c-set-up-rich-push-notif-ios.html?lang=zh-Hant)。
 
 如果您的應用程式在[!DNL Swift]中，請遵循下列步驟：
 

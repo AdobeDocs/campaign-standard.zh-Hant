@@ -188,7 +188,7 @@ ht-degree: 1%
   <tr> 
    <td> 不重複點按<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> 不重複點按次數是使用ThetaSketch概念計算的。 如需詳細資訊，請參閱此<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">範例</a>.<br /> </td> 
+   <td> 不重複點按次數是使用ThetaSketch概念計算的。 如需詳細資訊，請參閱此<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html?lang=zh-Hant#unique-open-clicks-no-match">範例</a>.<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -268,7 +268,7 @@ ht-degree: 1%
   <tr> 
    <td> 不重複開啟<br /> </td> 
    <td> @uniqueopens<br /> </td> 
-   <td> 不重複開啟的計算方式是使用不重複RecipientId的ThetaSketch概念。 如需詳細資訊，請參閱此<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">範例</a>.<br /> </td> 
+   <td> 不重複開啟的計算方式是使用不重複RecipientId的ThetaSketch概念。 如需詳細資訊，請參閱此<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html?lang=zh-Hant#unique-open-clicks-no-match">範例</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 曝光次數<br /> </td> 
@@ -288,7 +288,7 @@ ht-degree: 1%
   <tr> 
    <td> 不重複點按<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> 不重複點按次數是使用ThetaSketch概念計算的。 如需詳細資訊，請參閱此<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">範例</a>.<br /> </td> 
+   <td> 不重複點按次數是使用ThetaSketch概念計算的。 如需詳細資訊，請參閱此<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html?lang=zh-Hant#unique-open-clicks-no-match">範例</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 點進率<br /> </td> 

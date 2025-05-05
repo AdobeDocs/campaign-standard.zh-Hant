@@ -168,4 +168,4 @@ Adobe 建議將您的內容更新至最新版本，以避免發生 CSS 衝突等
 
 >[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
 
-若要開始使用Email Designer，請觀看這組[影片](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted)，其中說明Email Designer的一般功能，以及如何從草稿開始或使用範本來設計電子郵件
+若要開始使用Email Designer，請觀看這組[影片](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html?lang=zh-Hant#GettingStarted)，其中說明Email Designer的一般功能，以及如何從草稿開始或使用範本來設計電子郵件

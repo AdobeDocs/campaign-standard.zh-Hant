@@ -26,7 +26,7 @@ ht-degree: 77%
 
 若要在交易式訊息中新增放棄的產品清單，請遵循以下步驟。
 
-您也可以觀看[這組影片](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html#configure-product-listings-in-transactional-emails)，說明在交易式電子郵件中設定產品清單所需的步驟。
+您也可以觀看[這組影片](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html?lang=zh-Hant#configure-product-listings-in-transactional-emails)，說明在交易式電子郵件中設定產品清單所需的步驟。
 
 >[!NOTE]
 >

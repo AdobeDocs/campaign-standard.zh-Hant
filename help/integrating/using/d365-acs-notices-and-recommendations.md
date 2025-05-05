@@ -162,7 +162,7 @@ ht-degree: 1%
 
   在估計整體Campaign引擎呼叫量時，務必要將其他引擎呼叫來源（包括登陸頁面、WebApps、JSSP、API、行動應用程式註冊等）納入考量。
 
-  在這裡檢視Adobe Campaign Standard封裝資訊： [https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/tw/legal/product-descriptions/campaign-standard.html)
+  在這裡檢視Adobe Campaign Standard封裝資訊： [https://helpx.adobe.com/tw/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/tw/legal/product-descriptions/campaign-standard.html)
 
 * 此整合最多可支援1500萬筆記錄，以便初次同步至Campaign中的資源。 增量同步受到Adobe Campaign Standard套件的限制。
 

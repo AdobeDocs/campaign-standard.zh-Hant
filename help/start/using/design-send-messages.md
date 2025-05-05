@@ -75,7 +75,7 @@ Lorem ipsum dolor sit amet， consectetur adipiscing elit. 前庭預留位置mau
 * 插入[預先定義的個人化區塊](../../designing/using/personalization.md#adding-a-content-block)
 * [個人化電子郵件或簡訊的寄件者](../../designing/using/subject-line.md)
 * [個人化電子郵件的主旨列](../../designing/using/subject-line.md)
-* 在電子郵件](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)中建立[條件式內容，或在登陸頁面](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)中建立[
+* 在電子郵件[&#128279;](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)中建立[條件式內容，或在登陸頁面](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)中建立
 * 在SMS訊息或推播通知中插入[動態文字](../../channels/using/defining-dynamic-text.md)
 
 ![](assets/delivery_content_43.png)

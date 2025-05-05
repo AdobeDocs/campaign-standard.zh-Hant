@@ -11,7 +11,7 @@ ht-degree: 2%
 
 ---
 
-# 在ISP中斷{#update-bounce-qualification.md}後更新跳出資格
+# 在ISP中斷後更新跳出資格{#update-bounce-qualification.md}
 
 ## 內容
 

@@ -30,11 +30,12 @@ ht-degree: 1%
 
    ![](assets/JwtToOAuthMigration1.png)
 
-3. 從左側導覽開啟「服務帳戶(JWT)」認證標籤，並檢視移轉卡。 在移轉卡上，按一下按鈕&#x200B;**新增認證**以新增同等的OAuth伺服器對伺服器認證。 將OAuth伺服器對伺服器認證新增至您的專案將會開始移轉。
+3. 從左側導覽開啟「服務帳戶(JWT)」認證標籤，並檢視移轉卡。 在移轉卡上，按一下按鈕&#x200B;**新增認證**&#x200B;以新增同等的OAuth伺服器對伺服器認證。 將OAuth伺服器對伺服器認證新增至您的專案將會開始移轉。
    ![](assets/JwtToOAuthMigration2.png)
 4. 新的認證&#x200B;**OAuth伺服器對伺服器**&#x200B;將新增至左側導覽。
    * 如果您要取消移轉，請按一下取消移轉。
    * 在驗證新認證OAuth伺服器對伺服器是否正常運作之前，請勿按一下「檢閱並刪除」按鈕。
+
      ![](assets/JwtToOAuthMigration3.png)
 
 5. 將Microsoft Dynamics 365中的認證更新至Adobe Campaign Standard應用程式
@@ -43,6 +44,7 @@ ht-degree: 1%
    * 由於新的OAuth伺服器對伺服器認證使用與舊服務帳戶(JWT)認證相同的認證，因此大部分欄位都將已填入。
    * 輸入使用者端ID和使用者端密碼。 您可以在Adobe Developer Console的專案中找到這些專案。
    * 按一下「儲存」以儲存設定。
+
      ![](assets/JwtToOAuthMigration4.png)
 
 6. 驗證新認證是否有效
@@ -56,8 +58,11 @@ ht-degree: 1%
    * 按一下專案，然後選取您移轉的專案。
    * 從左側導覽按一下「服務帳戶(JWT)」認證標籤。
    * 按一下檢閱和刪除按鈕。
+
      ![](assets/JwtToOAuthMigration5.png)
    * 檢閱上次存取或上次使用功能表的時間戳記，以確認整合應用程式是使用新的OAuth認證產生存取權杖，還是仍使用舊的JWT認證。
+
      ![](assets/JwtToOAuthMigration6.png)
-   * 一旦確認整合應用程式正在使用新的OAuth認證，並且不再使用JWT認證，請按一下&#x200B;**確認並繼續**按鈕繼續刪除舊認證，完成移轉。
+   * 一旦確認整合應用程式正在使用新的OAuth認證，並且不再使用JWT認證，請按一下&#x200B;**確認並繼續**&#x200B;按鈕繼續刪除舊認證，完成移轉。
+
      ![](assets/JwtToOAuthMigration7.png)

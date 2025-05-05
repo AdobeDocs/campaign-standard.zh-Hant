@@ -18,8 +18,8 @@ ht-degree: 14%
 
 # 服務摘要{#service-summary}
 
-**[!UICONTROL Service summary]**詳細說明您服務的訂閱和取消訂閱的演化。
-此報表只能透過進階功能表**[!UICONTROL Profiles & Audiences]** > **[!UICONTROL Services]**&#x200B;從您的服務頁面存取。 如需關於此項目的詳細資訊，請參閱此[頁面](../../audiences/using/monitoring-subscriptions.md#service-reports)。
+**[!UICONTROL Service summary]**&#x200B;詳細說明您服務的訂閱和取消訂閱的演化。
+此報表只能透過進階功能表&#x200B;**[!UICONTROL Profiles & Audiences]** > **[!UICONTROL Services]**&#x200B;從您的服務頁面存取。 如需關於此項目的詳細資訊，請參閱此[頁面](../../audiences/using/monitoring-subscriptions.md#service-reports)。
 
 ![](assets/service-summary.png)
 

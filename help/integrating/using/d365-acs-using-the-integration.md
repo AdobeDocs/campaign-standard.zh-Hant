@@ -119,7 +119,7 @@ Campaign設定檔表格屬性externalId必須填入Dynamics 365連絡人屬性co
 
 >[!IMPORTANT]
 >
->如果任何Campaign自訂資源記錄包含個人資訊，則套用特定建議。 在本節](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-data)瞭解更多[。
+>如果任何Campaign自訂資源記錄包含個人資訊，則套用特定建議。 在本節[&#128279;](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-data)瞭解更多。
 >
 
 設定自訂實體資料流程時，請務必注意下列事項：
@@ -134,7 +134,7 @@ Campaign設定檔表格屬性externalId必須填入Dynamics 365連絡人屬性co
 
 * 如果您認為您有隱藏的子記錄，且無法存取這些記錄，您可以暫時將基數連結型別變更為&#x200B;**0或1個基數簡單連結**，以存取這些記錄。
 
-如需更全面的Campaign自訂資源概觀，請參閱本節[](../../developing/using/key-steps-to-add-a-resource.md)。
+如需更全面的Campaign自訂資源概觀，請參閱本節[&#128279;](../../developing/using/key-steps-to-add-a-resource.md)。
 
 ### 電子郵件行銷事件流程{#email-marketing-event-flow}
 

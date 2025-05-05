@@ -113,7 +113,7 @@ OAuth存取權杖可讓整合工具透過網頁API向您的Microsoft Dynamics 36
 
 ### 取得租使用者ID {#get-the-tenant-id}
 
-依照此頁面](https://docs.microsoft.com/en-us/onedrive/find-your-office-365-tenant-id)中的指示[尋找您的租使用者ID。  在整合工具的預先整合設定期間，您會需要此ID。
+依照此頁面[&#128279;](https://docs.microsoft.com/en-us/onedrive/find-your-office-365-tenant-id)中的指示尋找您的租使用者ID。  在整合工具的預先整合設定期間，您會需要此ID。
 
 ## 安裝Microsoft Dynamics 365Campaign Standard {#install-appsource-app}
 

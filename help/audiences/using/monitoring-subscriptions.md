@@ -24,7 +24,7 @@ ht-degree: 1%
 * 從服務儀表板檢視目前訂閱您服務的人員清單。 請參閱[服務儀表板](#service-dashboard)。
 * 請參閱服務儀表板中&#x200B;**訂閱歷程記錄**&#x200B;索引標籤的訂閱和取消訂閱歷程記錄。 請參閱[訂閱歷程記錄](#subscription-history)。
 * 顯示詳細說明服務&#x200B;**Reports**&#x200B;中訂閱和取消訂閱演變的報告。 請參閱[服務報告](#service-reports)。
-* 尋找使用者已從其&#x200B;**設定檔**&#x200B;訂閱的服務清單。 檢視連結至設定檔](#history-of-events-linked-to-a-profile)的[事件歷程記錄。
+* 尋找使用者已從其&#x200B;**設定檔**&#x200B;訂閱的服務清單。 檢視連結至設定檔[&#128279;](#history-of-events-linked-to-a-profile)的事件歷程記錄。
 
 ## 服務儀表板 {#service-dashboard}
 

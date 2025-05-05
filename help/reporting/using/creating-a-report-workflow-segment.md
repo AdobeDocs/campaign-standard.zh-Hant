@@ -46,7 +46,7 @@ ht-degree: 2%
 1. 儲存您的自訂資源。
 
 1. 您現在需要發佈自訂資源。
-從進階功能表，選取**[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Publishing]**。
+從進階功能表，選取&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Publishing]**。
 
    ![](assets/custom_profile_7.png)
 

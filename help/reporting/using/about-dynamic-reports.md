@@ -63,14 +63,14 @@ ht-degree: 6%
 |  | 動態報告 | Microsoft Dynamics 365聯結器 |
 |---|---|---|
 | 美洲和APAC （亞太） | **功能可用**。 <br>所有立即可用（亦即城市、國家/地區、州、性別和年齡區段）與推播至美國報告中心的自訂設定檔資訊。 如需設定檔維度的詳細資訊，請參閱此[頁面](../../reporting/using/list-of-components.md) | **功能可用**。 <br>所有現成可用的和自訂設定檔欄位和Adobe Campaign Standard事件欄位都在美國資料中心處理。 |
-| EMEA （歐洲、中東及非洲） | **功能可用**。 <br>所有現成可用的資訊（亦即根據年齡區分的城市、國家/地區、州、性別和區段），以及推播至EMEA報告中心的自訂設定檔資訊。 如需設定檔維度的詳細資訊，請參閱此[頁面](../../reporting/using/list-of-components.md) | **功能可用。** <br>所有現成可用的與自訂設定檔欄位，以及EMEA資料中心處理的Adobe Campaign Standard事件欄位。 <br>**[!UICONTROL Control data]**包含已傳送並儲存在美國資料中心之客戶使用者事件的Adobe I/O註冊資料與ID。 |
+| EMEA （歐洲、中東及非洲） | **功能可用**。 <br>所有現成可用的資訊（亦即根據年齡區分的城市、國家/地區、州、性別和區段），以及推播至EMEA報告中心的自訂設定檔資訊。 如需設定檔維度的詳細資訊，請參閱此[頁面](../../reporting/using/list-of-components.md) | **功能可用。** <br>所有現成可用的與自訂設定檔欄位，以及EMEA資料中心處理的Adobe Campaign Standard事件欄位。 <br>**[!UICONTROL Control data]**&#x200B;包含已傳送並儲存在美國資料中心之客戶使用者事件的Adobe I/O註冊資料與ID。 |
 
 下表顯示根據您所在的地區，拒絕此合約後會發生什麼事情。 請注意，即使您拒絕此合約，仍可提供有關傳遞與Microsoft Dynamics 365整合的報告。
 
 | 區域 | 動態報告 | Microsoft Dynamics 365聯結器 |
 |---|---|---|
 | 美洲和APAC （亞太） | **功能可用**。 <br>除了ExternalID之外，沒有現成可用的和自訂設定檔資訊推送至美國報表中心。 | **功能可用**。 <br>除了外部ID和收件者ID之外，沒有現成可用的或自訂的設定檔欄位傳送至美國資料中心。 <br>所有Adobe Campaign Standard事件欄位都在美國資料中心處理，但映象頁面ID除外。 <br>如需Microsoft Dynamics 365整合的詳細資訊，請參閱此[頁面](../../integrating/using/d365-acs-get-started.md)。 |
-| EMEA （歐洲、中東及非洲） | **功能可用**。 <br>除了ExternalID之外，沒有現成可用的和自訂設定檔資訊推送至EMEA報告中心。 | **功能可用。** <br>除了外部ID和收件者ID之外，沒有現成可用的或自訂的設定檔欄位傳送至EMEA資料中心。 <br>所有Adobe Campaign Standard事件欄位都在EMEA資料中心處理，但映象頁面ID除外。  <br>**[!UICONTROL Control data]**包含已傳送並儲存在美國資料中心之客戶使用者事件的Adobe I/O註冊資料與ID。<br>如需Microsoft Dynamics 365整合的詳細資訊，請參閱此[頁面](../../integrating/using/d365-acs-get-started.md)。 |
+| EMEA （歐洲、中東及非洲） | **功能可用**。 <br>除了ExternalID之外，沒有現成可用的和自訂設定檔資訊推送至EMEA報告中心。 | **功能可用。** <br>除了外部ID和收件者ID之外，沒有現成可用的或自訂的設定檔欄位傳送至EMEA資料中心。 <br>所有Adobe Campaign Standard事件欄位都在EMEA資料中心處理，但映象頁面ID除外。  <br>**[!UICONTROL Control data]**&#x200B;包含已傳送並儲存在美國資料中心之客戶使用者事件的Adobe I/O註冊資料與ID。<br>如需Microsoft Dynamics 365整合的詳細資訊，請參閱此[頁面](../../integrating/using/d365-acs-get-started.md)。 |
 
 此選擇不是最終選擇，您隨時可以在&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Options]**&#x200B;中選取&#x200B;**[!UICONTROL Enable PII data to be transferred to US region to use reporting on Profile data]**&#x200B;來變更它。
 

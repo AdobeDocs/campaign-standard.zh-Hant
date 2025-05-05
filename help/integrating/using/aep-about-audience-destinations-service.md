@@ -22,7 +22,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->Audience Destinations服務現已棄用。 已棄用的功能仍可使用，但不會進一步增強或支援。 在此頁面](../../rn/using/deprecated-features.md)瞭解更多[
+>Audience Destinations服務現已棄用。 已棄用的功能仍可使用，但不會進一步增強或支援。 在此頁面[&#128279;](../../rn/using/deprecated-features.md)瞭解更多
 
 運用[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html)，根據大型複雜資料集建立具有高度針對性的受眾，強化您的消費者體驗。 Adobe Experience Platform整合線上和離線來源中的設定檔、行為和多實體資料，包括Adobe Analytics，協助您建立客戶的360度檢視，讓您能夠有效地管理客戶體驗。
 

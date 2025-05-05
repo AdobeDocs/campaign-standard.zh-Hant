@@ -31,8 +31,8 @@ ht-degree: 40%
 請依照下列步驟建立訂閱機制：
 
 1. **建立服務** — 依照本節[所述的步驟](../../audiences/using/creating-a-service.md)建立訂閱服務
-1. **共用連結** — 在此頁面瞭解如何推廣及共用您的服務[](../../audiences/using/promoting-a-service.md)
-1. **監視訂閱** — 在此區段](../../audiences/using/monitoring-subscriptions.md)中探索幾種監視服務訂閱[的方法
+1. **共用連結** — 在此頁面瞭解如何推廣及共用您的服務[&#128279;](../../audiences/using/promoting-a-service.md)
+1. **監視訂閱** — 在此區段[&#128279;](../../audiences/using/monitoring-subscriptions.md)中探索幾種監視服務訂閱的方法
 1. **確認訂閱** — 依照[此教學課程](../../audiences/using/confirming-subscription-to-a-service.md)傳送訂閱確認訊息
 
 ## 額外資源

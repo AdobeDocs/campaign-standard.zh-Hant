@@ -20,11 +20,11 @@ ht-degree: 96%
 
 使用內容編輯器，在 Adobe Campaign 中定義、修改及個人化您的簡訊訊息和推播通知內容。
 
-本節說明簡訊和推播內容編輯器的特異性，包含簡訊和推播內容編輯器介面](../../channels/using/sms-and-push-content-editor-interface.md)。[
+本節說明簡訊和推播內容編輯器的特異性，包含簡訊和推播內容編輯器介面[&#128279;](../../channels/using/sms-and-push-content-editor-interface.md)。
 
 一或多個行銷活動的共同動作會顯示在下列章節中：
 
-* 如需個人化簡訊或推播通知內容的詳細資訊，請參閱[插入個人化欄位](../../designing/using/personalization.md#inserting-a-personalization-field)[和新增內容區塊](../../designing/using/personalization.md#adding-a-content-block)。
+* 如需個人化簡訊或推播通知內容的詳細資訊，請參閱[插入個人化欄位](../../designing/using/personalization.md#inserting-a-personalization-field) [和新增內容區塊](../../designing/using/personalization.md#adding-a-content-block)。
 * 如需在簡訊訊息或推播通知中定義條件文字的詳細資訊，請參閱[定義動態文字](../../channels/using/defining-dynamic-text.md)。
 
 若要存取簡訊和推播內容編輯器：

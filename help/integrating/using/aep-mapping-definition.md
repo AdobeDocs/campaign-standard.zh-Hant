@@ -43,7 +43,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->若要將批次擷取至即時客戶設定檔或身分識別服務，資料集必須針對即時客戶設定檔](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html)啟用[。
+>若要將批次擷取至即時客戶設定檔或身分識別服務，資料集必須針對即時客戶設定檔[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html)啟用。
 >
 >如果您選取的資料集已用於現有資料對應，會出現警告以通知您資料可能會在Adobe Experience Platform上覆寫。 使用相同資料集的資料匹配中有一些常見的收件者時，可能會發生這種情況。
 

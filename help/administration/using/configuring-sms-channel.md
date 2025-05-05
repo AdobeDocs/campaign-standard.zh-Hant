@@ -45,7 +45,7 @@ ht-degree: 88%
    **[!UICONTROL Enable verbose SMPP traces in the log file]** 可讓您將所有 SMPP 通訊傾印到記錄檔案中。必須啟用此選項，才能疑難排解連接器，並與提供者所看到的流量進行比較。
 
 1. 請聯絡 Adobe，他們會根據您選取的提供者，為您提供進入 **[!UICONTROL SMS-C implementation name]** 欄位的值。
-1. 定義 SMPP 通道設定。您可以從簡訊編碼和格式](#sms-encoding-and-formats)區段瞭解詳情。[
+1. 定義 SMPP 通道設定。您可以從簡訊編碼和格式[&#128279;](#sms-encoding-and-formats)區段瞭解詳情。
 
    如果您希望將所有傳入的簡訊儲存到 in簡訊表格中，請啟用 **[!UICONTROL Store incoming MO in the database]**。有關如何檢索傳入簡訊的詳細資訊，請參閱[本區段](../../channels/using/managing-incoming-sms.md#storing-incoming-sms)。
 
@@ -101,7 +101,7 @@ ht-degree: 88%
 
 ### 字元表 — GSM Standard {#table-of-characters---gsm-standard}
 
-本節介紹 GSM 標準所考慮的字元。除下面提及的字元外，所有插入訊息內文的字元都會將整個訊息轉換為二進位格式 (Unicode)，因此限制為 70 個字元。如需詳細資訊，請參閱簡訊編碼、長度和音譯](#sms-encoding--length-and-transliteration)。[
+本節介紹 GSM 標準所考慮的字元。除下面提及的字元外，所有插入訊息內文的字元都會將整個訊息轉換為二進位格式 (Unicode)，因此限制為 70 個字元。如需詳細資訊，請參閱簡訊編碼、長度和音譯[&#128279;](#sms-encoding--length-and-transliteration)。
 
 **基本字元**
 

@@ -25,7 +25,7 @@ ht-degree: 5%
 
 1. 您可以&#x200B;**從現成可用的範本**&#x200B;建立電子郵件，方法是選取範本並從此處建立新的電子郵件內容。 [了解更多](#building-content-from-an-out-of-the-box-template)
 
-您也可以建立包含現有內容的電子郵件[](#with-existing-content)：
+您也可以建立包含現有內容的電子郵件[&#128279;](#with-existing-content)：
 
 1. 您可以&#x200B;**轉換現有的HTML內容** （在外部或在舊版編輯器中建立）。 [了解更多](#converting-an-html-content)
 1. 您可以在相容模式中立即&#x200B;**匯入現有的HTML內容**。 [了解更多](#compatibility-mode)

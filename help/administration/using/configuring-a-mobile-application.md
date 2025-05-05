@@ -97,7 +97,7 @@ ht-degree: 2%
    ![](assets/launch.png)
 
 1. 選取您在資料收集UI中建立的行動應用程式。
-其**[!UICONTROL Property Status]**&#x200B;應為&#x200B;**[!UICONTROL Ready to configure]**。
+其&#x200B;**[!UICONTROL Property Status]**&#x200B;應為&#x200B;**[!UICONTROL Ready to configure]**。
 
    >[!NOTE]
    >
@@ -149,7 +149,7 @@ ht-degree: 2%
 
 1. 在行動應用程式儀表板的&#x200B;**[!UICONTROL Device-specific settings]**&#x200B;區段中，針對每個裝置提供應用程式詳細資料。
 
-   * +++ 適用於iOS
+   +++*  適用於iOS
 
      輸入下列應用程式明細：
 
@@ -159,9 +159,9 @@ ht-degree: 2%
       * **iOS團隊ID**：如需iOS團隊ID的詳細資訊，請參閱[Apple檔案](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id/){target="_blank"}。
 
         ![](assets/mobile_app_ios_config.png)
-+++
+   +++
 
-   * +++ 適用於Android
+   +++*  適用於Android
 
      輸入下列應用程式明細：
 
@@ -169,7 +169,7 @@ ht-degree: 2%
       * **Android金鑰(Json)檔案**：拖放您的.json私密金鑰檔案。 如需有關如何產生.json私密金鑰檔案的指示，請參閱[Firebase開發人員檔案](https://firebase.google.com/docs/admin/setup#initialize_the_sdk_in_non-google_environments){target="_blank"}。
 
         ![](assets/mobile_app_android_config.png)
-+++
+   +++
 
 1. 上傳憑證後，系統會顯示一則訊息，通知您上傳成功並顯示憑證的到期日。
 

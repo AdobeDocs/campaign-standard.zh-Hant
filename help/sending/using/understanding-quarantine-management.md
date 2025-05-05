@@ -116,7 +116,7 @@ This menu lists quarantined elements for **Email**, **SMS** and **Push notificat
 
 >[!IMPORTANT]
 >
-位址處於&#x200B;**[!UICONTROL Quarantine]**&#x200B;或&#x200B;**[!UICONTROL Denylisted]**&#x200B;狀態的收件者即使收到電子郵件，也不會被移除。
+>位址處於&#x200B;**[!UICONTROL Quarantine]**&#x200B;或&#x200B;**[!UICONTROL Denylisted]**&#x200B;狀態的收件者即使收到電子郵件，也不會被移除。
 
 
 ### 手動更新 {#unquarantine-manual}
@@ -166,7 +166,7 @@ Adobe Campaign 會根據傳送失敗類型和錯誤訊息限定期間指派的�
 
 >[!NOTE]
 >
-Adobe Campaign　中的隔離區會區分大小寫。請務必以小寫匯入電子郵件地址，如此一來，稍後就不會將它們重新設為目標。
+>Adobe Campaign　中的隔離區會區分大小寫。請務必以小寫匯入電子郵件地址，如此一來，稍後就不會將它們重新設為目標。
 
 在隔離地址清單中（請參閱[識別整個平台的隔離地址](#identifying-quarantined-addresses-for-the-entire-platform)），**[!UICONTROL Error reason]**　欄位會表示所選地址被置於隔離區的原因。
 

@@ -58,7 +58,7 @@ Adobe Campaign 可讓您導覽不同的功能表和畫面，以管理您的行�
 * 此 **[!UICONTROL Home]** 連結允許您顯示 Adobe Campaign 首頁。
 * 這些 **[!UICONTROL Marketing activities]**、**[!UICONTROL Programs & Campaigns]**、**[!UICONTROL Profiles]**、**[!UICONTROL Audiences]** 和 **[!UICONTROL Reports]** 連結可以讓您存取與這些功能連結的檢視。
 * **解決方案切換器**&#x200B;圖示可讓您在組織之間切換，或切換至不同的應用程式。
-* **[!UICONTROL Help]**&#x200B;圖示的說明如下[](#help)。
+* **[!UICONTROL Help]**&#x200B;圖示的說明如下[&#128279;](#help)。
 * 此&#x200B;**通知**&#x200B;圖示會顯示最新警報或資訊。
 * 此&#x200B;**使用者**&#x200B;圖示可讓您顯示連結至設定檔的資訊。如果您需要&#x200B;**[!UICONTROL Sign out]**，請使用此圖示。
 

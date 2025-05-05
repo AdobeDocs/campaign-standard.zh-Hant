@@ -146,7 +146,7 @@ ht-degree: 1%
 
 * 如果您認為您有隱藏的子記錄，且無法存取這些記錄，您可以暫時將基數連結型別變更為&#x200B;**0或1個基數簡單連結**，以存取這些記錄。
 
-如需更全面的Campaign自訂資源概觀，請參閱本節[](../../developing/using/key-steps-to-add-a-resource.md)。
+如需更全面的Campaign自訂資源概觀，請參閱本節[&#128279;](../../developing/using/key-steps-to-add-a-resource.md)。
 
 ### 整合護欄
 
@@ -180,7 +180,7 @@ ht-degree: 1%
 
 * 請注意，整合使用量大幅增加或「激增」（例如，新記錄或更新記錄大幅增加）可能會造成資料同步速度變慢。
 
-* 在整合過程中，您需要完成Microsoft Azure和Dynamics 365中的整合前設定步驟。 檢視此頁面](../../integrating/using/d365-acs-configure-d365.md)上的設定步驟[
+* 在整合過程中，您需要完成Microsoft Azure和Dynamics 365中的整合前設定步驟。 檢視此頁面[&#128279;](../../integrating/using/d365-acs-configure-d365.md)上的設定步驟
 
 * 您應將Dynamics 365和Campaign資料模型匯入整合，並進行維護。
 

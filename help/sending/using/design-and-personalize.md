@@ -64,13 +64,13 @@ ht-degree: 4%
 
 ### 取消訂閱連結
 
-取消訂閱連結至關重要。 它必須可見且有效，而且表單必須有效。 在本節](../../designing/using/personalization.md#about-targeting-dimension)中瞭解取消訂閱連結准則[。
+取消訂閱連結至關重要。 它必須可見且有效，而且表單必須有效。 在本節[&#128279;](../../designing/using/personalization.md#about-targeting-dimension)中瞭解取消訂閱連結准則。
 
 依預設，分析訊息時，控制項[型別規則](../../sending/using/control-rules.md)會檢查是否包含選擇退出連結，如果缺少該連結，則會產生警告。
 
 **秘訣**：因為人因錯誤永遠可能發生，在您每次傳送前，請先檢查選擇退出連結是否正常運作。 例如，傳送校樣時，請確定連結有效、表單線上上，且「不再聯絡此收件者」欄位已變更為「是」。
 
-瞭解如何在本節](../../designing/using/personalization.md#adding-a-content-block)中插入選擇退出連結[。
+瞭解如何在本節[&#128279;](../../designing/using/personalization.md#adding-a-content-block)中插入選擇退出連結。
 
 ### 電子郵件大小 {#email-size}
 
@@ -100,8 +100,8 @@ Adobe建議保留郵件大小上限預設值。 但是，只有[功能管理員]
 
 根據預設，SMS中的字元數量符合GSM（行動通訊全球系統）標準。 使用 GSM 編碼的簡訊訊息最多只能有 160 個字元，若是以多個部分傳送的訊息，則每個簡訊的簡訊訊息最多只能有 153 個字元。
 
-音譯包括當GSM標準未考慮到SMS的一個字元時，用另一個字元取代該字元。 請注意，將個人化欄位插入您的SMS訊息內容，可能會引入GSM編碼未考慮的字元。 您可以核取對應&#x200B;**[!UICONTROL External account]**的SMPP通道設定索引標籤中對應的方塊，以授權字母音譯。
-在本節](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)瞭解更多[。
+音譯包括當GSM標準未考慮到SMS的一個字元時，用另一個字元取代該字元。 請注意，將個人化欄位插入您的SMS訊息內容，可能會引入GSM編碼未考慮的字元。 您可以核取對應&#x200B;**[!UICONTROL External account]**&#x200B;的SMPP通道設定索引標籤中對應的方塊，以授權字母音譯。
+在本節[&#128279;](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)瞭解更多。
 
 **提示**：
 
@@ -109,7 +109,7 @@ Adobe建議保留郵件大小上限預設值。 但是，只有[功能管理員]
 
 * 不過，如果您的SMS訊息包含許多GSM標準未考慮的字元，請啟用音譯以限制傳送訊息的成本。
 
-在本節](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)瞭解更多[。
+在本節[&#128279;](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)瞭解更多。
 
 ### 回應式電子郵件設計
 

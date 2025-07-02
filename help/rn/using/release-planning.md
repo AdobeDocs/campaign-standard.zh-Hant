@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: c2c732bc3dff7ee1a140af5a102e388f394ade52
+source-git-commit: d69dfd5cb214f1655563fc4a255b1f8aba834848
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 97%
+source-wordcount: '400'
+ht-degree: 100%
 
 ---
 
@@ -40,12 +40,12 @@ Adobe 透過新增新功能、增強功能和修正不斷改進其解決方案�
  <tbody>
   <tr>
    <td>階段 </td>
-   <td>2025年7月8日至8月19日 </td>
+   <td>8 月 </td>
    <!--td>2025 - Dates to be confirmed</td-->
   </tr>
   <tr>
    <td>生產 </td>
-   <td>2025年7月15日至8月27日 </td>
+   <td>9 月 </td>
    <!--td>2025 - Dates to be confirmed</td-->
   </tr>
  </tbody>

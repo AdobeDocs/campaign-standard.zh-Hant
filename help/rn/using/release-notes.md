@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: 48cb3341c9f987bd275414c91dc8141f4fae719d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '201'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -27,17 +27,17 @@ This section lists improvements and changes included in the next Campaign Standa
 
 -->
 
-## 發行版本 25.1.2 {#25.1.2}
+## 版本 25.1.2 {#25.1.2}
 
 ### 安全性修正 {#25.1.2-security}
 
 * 此版本提供安全性修正。
-* 此版本隨附下列安全性升級：Apache Tomcat已升級至v10.1.36。
+* 此版本隨附下列安全性升級：Apache Tomcat 已升級至 v10.1.36。
 
 ### 其他修正 {#25.1.2-fixes}
 
-* 修正可能阻止使用者透過IMS登入的權杖剖析問題。 (CAMP-57337)
-* 改善自動序列ID產生機制，以提升系統可靠性。 (CAMP-57281)
+* 修正權杖剖析問題，此問題可能阻止使用者透過 IMS 登入。(CAMP-57337)
+* 改善自動序列 ID 產生機制，以提升系統可靠性。(CAMP-57281)
 
 ## 版本 25.1 - 2025 年冬季發布內容 {#winter-25}
 

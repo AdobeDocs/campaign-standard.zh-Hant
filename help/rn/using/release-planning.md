@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: d69dfd5cb214f1655563fc4a255b1f8aba834848
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '400'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Adobe 透過新增新功能、增強功能和修正不斷改進其解決方案�
 
 所有發行日期皆可能變更：請定期造訪本頁面，以檢查更新。環境更新會在以下指定時段內以波形進行。已透過電子郵件向每位客戶傳達確切日期。
 
-## 版本 25.2 - 2025 夏季版 {#release-25-2-release}
+## 版本 25.2 - 2025 夏季版本 {#release-25-2-release}
 
 當開始升級中繼環境時，[發行說明](release-notes.md)中提供了關於此版本的詳細資訊。
 

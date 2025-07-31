@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: c1f64589578c144a9b8eb879684f27834efaf8d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '290'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -32,15 +32,15 @@ This section lists improvements and changes included in the next Campaign Standa
 ### 安全性修正 {#summer-25-security}
 
 * 此版本提供安全性修正。
-* 此版本隨附下列安全性升級：PostgreSQL 14.18、從CentOS移轉至Azure執行個體適用的Rocky。
+* 此版本附帶以下安全性升級：PostgreSQL 14.18，從 CentOS 移轉到 Rocky 用於 Azure 執行個體。
 
 ### 其他修正 {#summer-25-fixes}
 
-* 改善處理順序耗竭的程式，以提升系統可靠性。 (CAMP-57281)
+* 改善處理序列耗竭的程式，以提升系統可靠性。 (CAMP-57281)
 * 一般產品穩定更新。 (CAMP-57339)
-* 改善動態報告，以提升穩健性，並減少資料不符專案。 (CAMP-58157)
+* 改進的動態報告具有更好的穩健性並減少了資料不符項目。(CAMP-58157)
 * 修正下拉式功能表未正確繞排文字的問題。 (CAMP-57360)
-* 更新報告功能，防止使用者查詢2年以上的資料。 (CAMP-59262)
+* 更新了報告功能以防止使用者查詢超過 2 年的資料。(CAMP-59262)
 
 ## 版本 25.1.2 {#25.1.2}
 

@@ -135,5 +135,5 @@ OAuth存取權杖可讓整合工具透過網頁API向您的Microsoft Dynamics 36
 
 **相關主題**
 
-* [設定Microsoft Dynamics 365整合的Adobe Developer ](../../integrating/using/d365-acs-configure-adobe-io.md)是設定整合的下一個步驟
+* [設定Microsoft Dynamics 365整合的Adobe Developer &#x200B;](../../integrating/using/d365-acs-configure-adobe-io.md)是設定整合的下一個步驟
 * [開始使用自助服務整合應用程式](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md)包含啟動並執行整合的完整步驟清單。

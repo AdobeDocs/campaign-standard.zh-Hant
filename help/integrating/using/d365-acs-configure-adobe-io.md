@@ -93,7 +93,7 @@ Campaign中的預先整合設定現已完成。
 
 **相關主題**
 
-* [設定Microsoft Dynamics 365整合的Adobe Developer ](../../integrating/using/d365-acs-configure-adobe-io.md)是設定整合的下一個步驟
+* [設定Microsoft Dynamics 365整合的Adobe Developer &#x200B;](../../integrating/using/d365-acs-configure-adobe-io.md)是設定整合的下一個步驟
 * [整合自助應用程式概述](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md)包含啟動並執行整合的完整步驟清單。
 * [Adobe Developer — 服務帳戶整合](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
 * [Campaign Standard- API存取設定](../../api/using/setting-up-api-access.md)

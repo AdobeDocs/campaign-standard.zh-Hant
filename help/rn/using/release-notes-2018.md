@@ -307,7 +307,7 @@ _自訂資源_
      <li> 建立和儲存電子郵件內容範本，並利用儲存的範本來協助縮放電子郵件的建立 </li> 
      <li> 建立並儲存內容片段（例如頁首、頁尾、文章等） 簡化內容建立並確保品牌一致性 </li> 
      <li> 順暢地在拖放介面中建立與按一下按鈕直接編輯電子郵件HTML之間切換 </li> 
-    </ul> 適用於電子郵件的Creative Designer只有英文版。<br />如需詳細資訊，請參閱<a href="../../designing/using/designing-content-in-adobe-campaign.md">詳細檔案</a>並觀看此<a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms">影片</a>。<br /> </td> 
+    </ul> 適用於電子郵件的Creative Designer只有英文版。<br />如需詳細資訊，請參閱<a href="../../designing/using/designing-content-in-adobe-campaign.md">詳細檔案</a>並觀看此<a href="https://www.youtube.com/watch?time_continue=1&v=5S_6A4fsfms">影片</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 多語言推播傳遞<br /> </td> 

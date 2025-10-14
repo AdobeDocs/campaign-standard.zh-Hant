@@ -86,7 +86,7 @@ ht-degree: 59%
 
 <!--Please note that Adobe Campaign Enhanced MTA is not available for the Push channel.-->
 
-要修改傳送的持續時間，請轉至傳送或傳遞範本的進階參數，並編輯&#x200B;**[!UICONTROL Delivery duration]**&#x200B;有效期間[區段的 ](../../administration/using/configuring-email-channel.md#validity-period-parameters) 欄位。
+要修改傳送的持續時間，請轉至傳送或傳遞範本的進階參數，並編輯&#x200B;**[!UICONTROL Delivery duration]**&#x200B;有效期間[區段的 &#x200B;](../../administration/using/configuring-email-channel.md#validity-period-parameters) 欄位。
 
 >[!IMPORTANT]
 >

@@ -56,7 +56,7 @@ ht-degree: 2%
 1. 在Adobe Campaign Standard中，設定您在資料收集UI中建立的行動裝置屬性。 請參閱[在Adobe Campaign中設定Adobe Experience Platform Launch應用程式](../../administration/using/configuring-a-mobile-application.md#set-up-campaign)。
 
 1. 將通道專屬設定新增至您的行動應用程式設定。
-如需詳細資訊，請參閱[ Adobe Campaign 中的通道特定應用程式設定](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)。
+如需詳細資訊，請參閱[&#x200B; Adobe Campaign 中的通道特定應用程式設定](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)。
 
 1. 如有需要，您可以刪除標籤屬性。
 如需詳細資訊，請參閱[刪除您的應用程式](../../administration/using/configuring-a-mobile-application.md#delete-app)。

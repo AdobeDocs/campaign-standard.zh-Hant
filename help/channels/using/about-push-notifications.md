@@ -70,7 +70,7 @@ Adobe Campaign 提供兩種類型的推播通知：
 
 1. 在Adobe Campaign Standard中，設定您在資料收集UI中建立的行動裝置屬性。 如需詳細資訊，請參閱[在Adobe Campaign中設定標籤應用程式](../../administration/using/configuring-a-mobile-application.md#set-up-campaign)。
 
-1. 將特定通道的設定新增至行動應用程式設定。如需詳細資訊，請參閱[ Adobe Campaign 中的通道特定應用程式設定](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)。
+1. 將特定通道的設定新增至行動應用程式設定。如需詳細資訊，請參閱[&#x200B; Adobe Campaign 中的通道特定應用程式設定](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)。
 
 1. 若要支援行動使用案例實作，請參閱有關使用Adobe Experience Platform SDK在Adobe Campaign Standard支援的[行動使用案例中擴充功能、標籤規則和SDK實作的詳細指示](../../administration/using/configuring-rules-launch.md)。
 

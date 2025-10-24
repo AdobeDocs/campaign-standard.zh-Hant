@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: a2a524eb3d90bbe41064bdcb078f69d483f90dac
-workflow-type: ht
-source-wordcount: '7258'
-ht-degree: 100%
+source-git-commit: c14a52f5425972899f51af7ee6ea2d5796c46765
+workflow-type: tm+mt
+source-wordcount: '7259'
+ht-degree: 99%
 
 ---
 
@@ -35,7 +35,7 @@ Android Firebase Cloud Messaging (FCM) 服務的一些重要變更將於 2024 �
 
 ## 2023 年 10 月 {#doc-updates-oct-2023}
 
-* 現已推出 Experience Cloud 觸發器的新使用者介面。 它為您提供直覺式體驗，用於管理消費者行為並個人化使用者體驗。[深入了解](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html?lang=zh-Hant){target="_blank"}.
+* 現已推出 Experience Cloud 觸發器的新使用者介面。 它為您提供直覺式體驗，用於管理消費者行為並個人化使用者體驗。[閱讀更多](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html?lang=zh-Hant){target="_blank"}。
 
 * 已新增備註，說明結合篩選或疲勞規則使用捕捉器測試輪廓的方式。[深入了解](../../sending/using/using-traps.md)
 
@@ -70,7 +70,7 @@ Android Firebase Cloud Messaging (FCM) 服務的一些重要變更將於 2024 �
 
 ## 2022 年 3 月 {#doc-updates-march-2022}
 
-有一條備註指定，使用輪廓案替代傳送校樣會將記錄新增到所選輪廓中。[閱讀全文](../../sending/using/testing-messages-using-target.md)
+已新增附註，以指定使用設定檔替代傳送校樣會將記錄新增至所選設定檔的記錄中。 [閱讀全文](../../sending/using/testing-messages-using-target.md)
 
 ## 發行版本 22.1 – 2022 年 2 月 {#release-22-1}
 
@@ -181,7 +181,7 @@ Adobe Experience Manager 整合改進 - [瞭解詳情](../../integrating/using/c
 
 **預測性主旨行**&#x200B;功能現已過時。[顯示全文](../../rn/using/deprecated-features.md)
 
-**「異動訊息傳送快速入門」**&#x200B;部分現在包含[增強的架構](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)，以便更佳瞭解該過程。
+**「異動訊息傳送快速入門」**&#x200B;部分現在包含[增強的結構描述](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)，以便更佳瞭解該過程。
 
 將以一個端到端的使用案例，來說明異動訊息傳送的實施過程。 [顯示全文](../../channels/using/transactional-messaging-use-case.md)
 
@@ -253,7 +253,7 @@ Journey AI 整合 - [瞭解詳情](../../sending/using/predictive.md)
 
 外部 API 護欄和限制區段已更新。[深入了解](../../automating/using/external-api.md#guardrails)
 
-「隱私權管理概覽」頁面已更新，其中加入泰國個人資料保護法 (PDPA) 與巴西 Lei Geral de Proteção de Dados (LGPD) 的相關資訊。[深入了解](https://helpx.adobe.com/tw/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
+「隱私權管理概觀」頁面已更新，其中加入泰國個人資料保護法 (PDPA) 與巴西 Lei Geral de Proteção de Dados (LGPD) 的相關資訊。[深入了解](https://helpx.adobe.com/tw/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
 行動裝置頻道指南已重新整組織並改善。新的設定行動裝置頻道指南已新增有關行動設定的技術文件。[顯示全文](../../administration/using/push-tracking.md)
 
@@ -353,7 +353,7 @@ MCPNS 在設定行動應用程式時增加了限制。[瞭解詳情](https://hel
 
 ## 2020 年 3 月 {#doc-updates-march-2020}
 
-核心文件已新增有關增強型 MTA 的詳細資訊，尤其是有關電子郵件處理規則和退回郵件資格的資訊。[瞭解詳情](../../administration/using/configuring-email-channel.md#email-processing-rules)
+核心文件已新增有關增強型 MTA 的詳細資訊，尤其是有關電子郵件處理規則和退回郵件鑑定的資訊。[瞭解詳情](../../administration/using/configuring-email-channel.md#email-processing-rules)
 
 已移動並更新專用於使用電子郵件密件副本進行封存的區段。[瞭解詳情](../../sending/using/archiving.md)
 
@@ -589,7 +589,7 @@ Campaign Standard 及 Campaign Classic 的錯誤訊息清單已更新。[瞭解�
 
 「動態」報告的「指標」計算區段已更新。[瞭解詳情](../../reporting/using/indicator-calculation.md)
 
-已新增動態報告相容性表格，以更妥善地瞭解維度與度量之間的相容性。[瞭解詳情](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=zh-Hant)
+已新增動態報告相容性表格，以更妥善地瞭解維度與度量之間的相容性。[瞭解詳情](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf)
 
 工作流程的函式清單已更新。[瞭解詳情](../../automating/using/list-of-functions.md)
 
@@ -867,7 +867,7 @@ datamodel v1 現在可用於內建資源的 SQL 結構 – [瞭解詳情](../../
 
 新增如何準備傳送的逐步使用案例。[瞭解詳情](../../sending/using/preparing-the-send.md)
 
-已刪除包含授權清單的區段。[瞭解詳情](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=zh-Hant) (PDF)。
+已刪除包含授權清單的區段。[瞭解詳情](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf) (PDF)。
 
 新增如何使用簡訊自動回覆的逐步使用案例。[瞭解詳情](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
@@ -1039,7 +1039,7 @@ Adobe Campaign 通知 – [瞭解詳情](../../administration/using/sending-inte
 
 新增了設定 People 核心服務或 Audience Manager 與 Adobe Campaign 整合的說明。[顯示全文](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
 
-修改授權表，使某些角色的功能更加清晰。[瞭解詳情](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=zh-Hant)
+修改授權表，使某些角色的功能更加清晰。[瞭解詳情](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 更新直接從 Adobe Campaign 取得的內容說明連結。
 

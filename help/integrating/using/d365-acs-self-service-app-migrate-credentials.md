@@ -31,7 +31,7 @@ ht-degree: 1%
 
    ![](assets/JwtToOAuthMigration1.png)
 
-3. 從左側導覽開啟「服務帳戶(JWT)」認證標籤，並檢視移轉卡。 在移轉卡上，按一下按鈕&#x200B;**新增認證**以新增同等的OAuth伺服器對伺服器認證。 將OAuth伺服器對伺服器認證新增至您的專案將會開始移轉。
+3. 從左側導覽開啟「服務帳戶(JWT)」認證標籤，並檢視移轉卡。 在移轉卡上，按一下按鈕&#x200B;**新增認證**&#x200B;以新增同等的OAuth伺服器對伺服器認證。 將OAuth伺服器對伺服器認證新增至您的專案將會開始移轉。
    ![](assets/JwtToOAuthMigration2.png)
 4. 新的認證&#x200B;**OAuth伺服器對伺服器**&#x200B;將新增至左側導覽。
    * 如果您要取消移轉，請按一下取消移轉。
@@ -60,5 +60,5 @@ ht-degree: 1%
      ![](assets/JwtToOAuthMigration5.png)
    * 檢閱上次存取或上次使用功能表的時間戳記，以確認整合應用程式是使用新的OAuth認證產生存取權杖，還是仍使用舊的JWT認證。
      ![](assets/JwtToOAuthMigration6.png)
-   * 一旦確認整合應用程式正在使用新的OAuth認證，並且不再使用JWT認證，請按一下&#x200B;**確認並繼續**按鈕繼續刪除舊認證，完成移轉。
+   * 一旦確認整合應用程式正在使用新的OAuth認證，並且不再使用JWT認證，請按一下&#x200B;**確認並繼續**&#x200B;按鈕繼續刪除舊認證，完成移轉。
      ![](assets/JwtToOAuthMigration7.png)

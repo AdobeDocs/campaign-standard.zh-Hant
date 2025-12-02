@@ -68,7 +68,7 @@ Experience Manager中有7個現成可用的元件，您可以開始使用：
 * **取消內容與範本的連結，並一再重複使用。**
 
   在Campaign Standard中設定電子郵件並選取Experience Manager範本時，您只能選擇尚未連結至其他行銷活動的範本。 否則，如果您在Adobe Experience Manager中變更某個促銷活動的內容並重新整理，可能會無意中影響另一個促銷活動的內容。
-為避免此問題，當您完成使用範本後，可以取消連結以再次使用。 您只需要選取範本並按一下**[!UICONTROL Delete the link with Adobe Experience Manager content]**。
+為避免此問題，當您完成使用範本後，可以取消連結以再次使用。 您只需要選取範本並按一下&#x200B;**[!UICONTROL Delete the link with Adobe Experience Manager content]**。
 
 * **使用Adobe Experience Manager為Adobe Campaign Standard建立各種不同的電子郵件。**
 

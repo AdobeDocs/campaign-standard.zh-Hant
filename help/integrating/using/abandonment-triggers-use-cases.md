@@ -132,7 +132,7 @@ ht-degree: 90%
 
 ### 在Adobe Campaign中使用觸發器 {#using-the-trigger-in-adobe-campaign-1}
 
-1. 請依照先前使用案例中所述的步驟，在 Adobe Campaign 中建立觸發程式。請參閱在[ Adobe Campaign 中使用觸發程式](#using-the-trigger-in-adobe-campaign)。主要差異在於我們在 Adobe Campaign 中存取和使用觸發程式裝載中推播之中繼資料的方式。
+1. 請依照先前使用案例中所述的步驟，在 Adobe Campaign 中建立觸發程式。請參閱在[&#x200B; Adobe Campaign 中使用觸發程式](#using-the-trigger-in-adobe-campaign)。主要差異在於我們在 Adobe Campaign 中存取和使用觸發程式裝載中推播之中繼資料的方式。
 1. 在您於 Adobe Campaign 中建立的「搜尋放棄」觸發程式中，按一下 **[!UICONTROL Event content and enrichment]** 圖示以檢視推播至 Adobe Campaign 的裝載。
 
    ![](assets/trigger_uc_search_2.png)

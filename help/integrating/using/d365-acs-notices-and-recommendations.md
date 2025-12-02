@@ -147,7 +147,7 @@ ht-degree: 1%
 
 * 如果您認為您有隱藏的子記錄，且無法存取這些記錄，您可以暫時將基數連結型別變更為&#x200B;**0或1個基數簡單連結**，以存取這些記錄。
 
-如需更全面的Campaign自訂資源概觀，請參閱本節[](../../developing/using/key-steps-to-add-a-resource.md)。
+如需更全面的Campaign自訂資源概觀，請參閱本節[&#128279;](../../developing/using/key-steps-to-add-a-resource.md)。
 
 ### 整合護欄
 

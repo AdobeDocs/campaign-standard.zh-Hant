@@ -20,7 +20,7 @@ ht-degree: 3%
 
 ## 匯入客群 {#importing-an-audience}
 
-People核心服務整合可讓您透過技術工作流程，直接將受眾匯入Adobe Campaign，讓您的資料庫更為豐富。 如需People核心服務中對象共用的詳細資訊，請參閱此[檔案](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)。
+People核心服務整合可讓您透過技術工作流程，直接將受眾匯入Adobe Campaign，讓您的資料庫更為豐富。 如需People核心服務中對象共用的詳細資訊，請參閱此[檔案](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=zh-Hant)。
 
 只有透過IMS (透過Adobe ID驗證)連線的使用者，才能從&#x200B;**[!UICONTROL Audiences]**&#x200B;功能表從Adobe Campaign的「人員」核心服務匯入對象/區段。
 
@@ -46,7 +46,7 @@ People核心服務整合可讓您透過技術工作流程，直接將受眾匯�
 
 >[!NOTE]
 >
->如果您要將對象從Adobe Analytics匯入至Adobe Campaign，首先需要在People核心服務或Audience Manager中共用這些對象。 此程式需要12到24小時，必須將其新增到與Campaign的24到36小時同步中。 在該特定情況下，對象共用時間範圍最長可達60小時。 如需在People核心服務和Audience Manager中分享Adobe Analytics受眾的詳細資訊，請參閱此[檔案](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)。
+>如果您要將對象從Adobe Analytics匯入至Adobe Campaign，首先需要在People核心服務或Audience Manager中共用這些對象。 此程式需要12到24小時，必須將其新增到與Campaign的24到36小時同步中。 在該特定情況下，對象共用時間範圍最長可達60小時。 如需在People核心服務和Audience Manager中分享Adobe Analytics受眾的詳細資訊，請參閱此[檔案](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=zh-Hant)。
 
 ## 匯出對象 {#exporting-an-audience}
 
@@ -76,7 +76,7 @@ People核心服務整合可讓您透過技術工作流程，直接將受眾匯�
 1. 確認活動的設定並儲存工作流程。
 1. 開始工作流程以匯出您的對象。 Adobe Campaign與People核心服務之間的同步處理可能需要數小時的時間
 
-Adobe Campaign與People核心服務之間的同步作業需要24到36小時的時間。 在此期間後，您就能在People核心服務中尋找新的受眾，並在其他Adobe Experience Cloud解決方案中重複使用。 如需在Adobe People核心服務中使用Adobe Campaign共用對象的詳細資訊，請參閱此[檔案](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-audience-create.html)。
+Adobe Campaign與People核心服務之間的同步作業需要24到36小時的時間。 在此期間後，您就能在People核心服務中尋找新的受眾，並在其他Adobe Experience Cloud解決方案中重複使用。 如需在Adobe People核心服務中使用Adobe Campaign共用對象的詳細資訊，請參閱此[檔案](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-audience-create.html?lang=zh-Hant)。
 
 **相關主題：**
 

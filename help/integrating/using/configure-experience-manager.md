@@ -67,8 +67,8 @@ Adobe Campaign Standard與Adobe Experience Manager之間的這項整合可讓您
 
 若要使用Adobe Campaign Standard設定Adobe Experience Manager，您必須遵循下列步驟：
 
-1. 您首先需要設定Adobe Experience Manager編寫和發佈執行個體之間的復寫。 請參閱本[章節](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html#configuring-adobe-experience-manager)。
+1. 您首先需要設定Adobe Experience Manager編寫和發佈執行個體之間的復寫。 請參閱本[章節](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html?lang=zh-Hant#configuring-adobe-experience-manager)。
 
-1. 接著，設定專用的&#x200B;**[!UICONTROL Cloud Service]**，以將Adobe Experience Manager連線至Adobe Campaign。 請參閱本[章節](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html#connecting-aem-to-adobe-campaign)。
+1. 接著，設定專用的&#x200B;**[!UICONTROL Cloud Service]**，以將Adobe Experience Manager連線至Adobe Campaign。 請參閱本[章節](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html?lang=zh-Hant#connecting-aem-to-adobe-campaign)。
 
-1. 您現在需要在編寫執行個體上設定Adobe Experience Manager中的外部化程式。 請參閱本[章節](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html#configuring-the-externalizer)。
+1. 您現在需要在編寫執行個體上設定Adobe Experience Manager中的外部化程式。 請參閱本[章節](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html?lang=zh-Hant#configuring-the-externalizer)。

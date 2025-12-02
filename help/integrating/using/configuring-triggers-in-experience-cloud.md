@@ -96,7 +96,7 @@ Adobe團隊需要下列資訊才能啟用觸發程式：
 
 在Experience Cloud中建立新的觸發程式，並請務必選取您網站上使用的報表套裝。 請務必選擇正確的維度，以便觸發程式。
 
-請參閱[Adobe Experience Cloud檔案](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html)。
+請參閱[Adobe Experience Cloud檔案](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=zh-Hant)。
 
 ## 觸發器最佳作法和限制 {#triggers-best-practices-and-limitations}
 

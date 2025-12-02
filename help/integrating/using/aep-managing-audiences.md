@@ -53,7 +53,7 @@ ht-degree: 2%
 
 1. 為了成功建立區段，您必須選取符合您針對此區段行銷目的的&#x200B;**合併原則**。
 
-   在設定窗格中，選取Platform預設合併原則。 如需合併原則的詳細資訊，請參閱[區段產生器使用手冊](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html)中的專屬章節。
+   在設定窗格中，選取Platform預設合併原則。 如需合併原則的詳細資訊，請參閱[區段產生器使用手冊](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hant)中的專屬章節。
 
    ![](assets/aep_audiences_mergepolicy.png)
 

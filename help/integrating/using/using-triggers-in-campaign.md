@@ -24,7 +24,7 @@ ht-degree: 74%
 >
 >若要建立觸發程式，您需要&#x200B;**[!UICONTROL Administration]**&#x200B;角色或位於&#x200B;**[!UICONTROL Administrators]**&#x200B;安全性群組中。 如需詳細資訊，請參閱此[頁面](../../administration/using/list-of-roles.md)。
 
-您應確保在Adobe Experience Cloud （**[!UICONTROL Triggers]**&#x200B;核心服務）中預先定義要監視的行為。 如需詳細資訊，請參閱 [Adobe Experience Cloud 文件](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html)。請注意，定義觸發程式時需要啟用別名。對於每個行為（瀏覽/放棄表單、新增/刪除產品、工作階段過期等），必須在 Adobe Experience Cloud 中新增一個新的觸發程式。
+您應確保在Adobe Experience Cloud （**[!UICONTROL Triggers]**&#x200B;核心服務）中預先定義要監視的行為。 如需詳細資訊，請參閱 [Adobe Experience Cloud 文件](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=zh-Hant)。請注意，定義觸發程式時需要啟用別名。對於每個行為（瀏覽/放棄表單、新增/刪除產品、工作階段過期等），必須在 Adobe Experience Cloud 中新增一個新的觸發程式。
 
 您現在必須依據現有的 Adobe Experience Cloud 觸發程式，在 Adobe Campaign 中建立觸發程式事件。
 

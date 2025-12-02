@@ -39,4 +39,4 @@ ht-degree: 12%
 1. 新增可對應至Adobe Campaign資料庫欄位的不同欄位和元件，以編輯表單內容。
 1. 測試並發佈表單，使其可在您的AEM網站上存取。
 
-如需詳細資訊，請參閱[詳細說明文件](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/adobe-campaign-forms.html)。
+如需詳細資訊，請參閱[詳細說明文件](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/adobe-campaign-forms.html?lang=zh-Hant)。

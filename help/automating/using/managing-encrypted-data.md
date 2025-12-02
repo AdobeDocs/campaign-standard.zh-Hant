@@ -50,7 +50,7 @@ ht-degree: 3%
 
 執行此使用案例的步驟如下：
 
-1. 使用「控制面板」產生金鑰組（公用/私用）。 詳細步驟可在[控制面板檔案](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data)中取得。
+1. 使用「控制面板」產生金鑰組（公用/私用）。 詳細步驟可在[控制面板檔案](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=zh-Hant#decrypting-data)中取得。
 
    * 公開金鑰將與外部系統共用，外部系統將使用公開金鑰來加密要傳送至Campaign的資料。
    * Campaign將使用私密金鑰來解密傳入的加密資料。
@@ -94,7 +94,7 @@ ht-degree: 3%
 
 執行此使用案例的步驟如下：
 
-1. 使用GPG公用程式產生GPG金鑰組（公用/私用），然後將公用金鑰安裝至「控制面板」。 詳細步驟可在[控制面板檔案](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data)中取得。
+1. 使用GPG公用程式產生GPG金鑰組（公用/私用），然後將公用金鑰安裝至「控制面板」。 詳細步驟可在[控制面板檔案](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=zh-Hant#encrypting-data)中取得。
 
    ![](assets/gpg_install.png)
 

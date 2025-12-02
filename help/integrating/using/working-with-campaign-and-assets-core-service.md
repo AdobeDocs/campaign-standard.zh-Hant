@@ -36,5 +36,5 @@ ht-degree: 9%
 
 **相關主題：**
 
-* [Assets和共用](https://experienceleague.adobe.com/docs/core-services/interface/assets/experience-cloud-assets.html)
+* [Assets和共用](https://experienceleague.adobe.com/docs/core-services/interface/assets/experience-cloud-assets.html?lang=zh-Hant)
 * [內容編輯器](../../designing/using/personalization.md#example-email-personalization)

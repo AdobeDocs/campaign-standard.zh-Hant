@@ -77,4 +77,4 @@ Adobe Campaign隨附預先定義的資料模型，其中資料會透過不同資
 
 * [資料模型概念](../../developing/using/data-model-concepts.md)
 * [擴充API](../../developing/using/about-extending-the-api.md)
-* [定義與其他資源的連結](https://helpx.adobe.com/campaign/standard/developing/using/configuring-the-resource-s-data-structure.html#defining-links-with-other-resources)
+* [定義與其他資源的連結](https://helpx.adobe.com/tw/campaign/standard/developing/using/configuring-the-resource-s-data-structure.html#defining-links-with-other-resources)

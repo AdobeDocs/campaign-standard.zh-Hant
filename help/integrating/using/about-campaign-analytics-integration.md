@@ -33,6 +33,6 @@ Adobe Campaign Standard與Adobe Analytics之間的這項整合可讓您：
 
 **相關主題：**
 
-* [Campaign Standard與Analytics整合概述](https://experienceleague.adobe.com/docs/analytics/integration/adobe-campaign.html)
-* [設定Campaign Standard整合](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html)
+* [Campaign Standard與Analytics整合概述](https://experienceleague.adobe.com/docs/analytics/integration/adobe-campaign.html?lang=zh-Hant)
+* [設定Campaign Standard整合](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html?lang=zh-Hant)
 * [Analytics 中的 Campaign 維度和量度](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)

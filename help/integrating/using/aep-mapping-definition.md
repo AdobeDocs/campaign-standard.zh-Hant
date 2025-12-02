@@ -44,7 +44,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->若要將批次擷取至即時客戶設定檔或身分識別服務，資料集必須針對即時客戶設定檔[啟用](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html)。
+>若要將批次擷取至即時客戶設定檔或身分識別服務，資料集必須針對即時客戶設定檔[啟用](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html?lang=zh-Hant)。
 >
 >如果您選取的資料集已用於現有資料對應，會出現警告以通知您資料可能會在Adobe Experience Platform上覆寫。 使用相同資料集的資料匹配中有一些常見的收件者時，可能會發生這種情況。
 
@@ -64,7 +64,7 @@ Campaign Standard中定義的擴充資源會對映所有原生欄位按讚。 �
 
 您可以透過API自訂XDM擴充功能，並定義您自己的擴充功能，讓您更能掌控對應。
 
-如需XDM API的詳細資訊，請參閱[結構描述登入API教學課程](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html)。
+如需XDM API的詳細資訊，請參閱[結構描述登入API教學課程](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=zh-Hant)。
 
 若要對應分項清單欄位，必須使用運算式編輯器定義與XDM值對應的每個分項清單值。 例如，postaladdressfield需要定義為：
 

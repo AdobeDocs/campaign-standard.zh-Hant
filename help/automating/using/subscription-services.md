@@ -1,15 +1,16 @@
 ---
 title: 訂閱服務
-description: 「訂閱服務」活動可讓您大量擷取設定檔，並訂閱至服務或取消訂閱服務。
+description: 「訂閱服務」活動可讓您大量擷取輪廓，並訂閱至服務或取消訂閱服務。
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
 context-tags: setOfService,workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 612b6203-1cc9-4015-a026-e5a249f3d03d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1116'
 ht-degree: 96%
@@ -22,15 +23,15 @@ ht-degree: 96%
 
 ![](assets/wf_subscription.png)
 
-**[!UICONTROL Subscription Services]** 活動可讓您大量擷取設定檔，並將其訂閱至服務或取消訂閱服務。
+**[!UICONTROL Subscription Services]** 活動可讓您大量擷取輪廓，並將其訂閱至服務或取消訂閱服務。
 
 >[!CAUTION]
 >
->當在工作流程內容中管理訂閱時，訂閱或取消訂閱的設定檔不會接收服務屬性中定義的不同確認電子郵件。
+>當在工作流程內容中管理訂閱時，訂閱或取消訂閱的輪廓不會接收服務屬性中定義的不同確認電子郵件。
 
 ## 使用內容 {#context-of-use}
 
-**[!UICONTROL Subscription Services]** 活動是唯一允許多個設定檔在單一動作中訂閱或取消訂閱服務的 Adobe Campaign 功能。
+**[!UICONTROL Subscription Services]** 活動是唯一允許多個輪廓在單一動作中訂閱或取消訂閱服務的 Adobe Campaign 功能。
 
 在執行目標定位或匯入含有已識別資料的檔案後，您可以使用此活動。
 
@@ -55,29 +56,29 @@ ht-degree: 96%
 
 1. 使用下列選項之一，選取 **[!UICONTROL Operation type]** 所要執行的：
 
-   * **[!UICONTROL Select a specific operation type]**：手動選取是否要選取 **[!UICONTROL Subscribe]** 或 **[!UICONTROL Unsubscribe]** 設定檔。
+   * **[!UICONTROL Select a specific operation type]**：手動選取是否要選取 **[!UICONTROL Subscribe]** 或 **[!UICONTROL Unsubscribe]** 輪廓。
    * **[!UICONTROL Select an operation type from a path of inbound transition]**：選取輸入資料之欄，並指定為每個記錄執行的操作。
 
      在此欄中，必須將操作指定為布林值或整數。使用 **0** 以取消訂閱記錄，並使用 **1** 開始訂閱。
 
      如果導入檔案中包含的值不符合上述要求，您仍然可以使用活動中可用的 [Remapping of values](../../automating/using/load-file.md#column-format) **[!UICONTROL Load file]** 選項。
 
-1. 如果輸入資料包含與服務設定檔訂閱之日期對應的欄，請選取此欄。您可以將其保留為空白，但在執行工作流程時未設定訂閱日期。
+1. 如果輸入資料包含與服務輪廓訂閱之日期對應的欄，請選取此欄。您可以將其保留為空白，但在執行工作流程時未設定訂閱日期。
 1. 定義訂閱的來源。您可以核取 **[!UICONTROL Set a constant as origin]** 選項，將其設為輸入資料的其中一個欄位，或設為您選取的常數值。您可以將其保留為空白，但在執行工作流程時未設定來源。
 1. 如有需要，您可以產生輸出轉變。此轉變包含與輸入活動中完全相同的資料。
 1. 確認活動的設定並儲存工作流程。
 
-   現已準備就緒而可執行。一旦執行後，您即可以在服務的詳細資訊中檢視已訂閱或取消訂閱服務的設定檔。
+   現已準備就緒而可執行。一旦執行後，您即可以在服務的詳細資訊中檢視已訂閱或取消訂閱服務的輪廓。
 
 ## 範例：匯入檔案後將設定檔訂閱至特定服務 {#example--subscribing-profiles-to-a-specific-service-after-importing-a-file}
 
-此範例說明如何匯入包含設定檔的檔案並將其訂閱至現有服務中。匯入檔案後，必須進行調和，以便將匯入的資料識別為設定檔。為確保檔案不包含任何重複項目，將對資料執行重複資料刪除活動。
+此範例說明如何匯入包含輪廓的檔案並將其訂閱至現有服務中。匯入檔案後，必須進行調和，以便將匯入的資料識別為輪廓。為確保檔案不包含任何重複項目，將對資料執行重複資料刪除活動。
 
 工作流程如下：
 
 ![](assets/subscription_activity_example1.png)
 
-* **[!UICONTROL Load file]** 活動載入設定檔檔案並定義匯入欄之結構。
+* **[!UICONTROL Load file]** 活動載入輪廓檔案並定義匯入欄之結構。
 
   在此範例中，載入檔案為 .csv 格式，並包含以下資料：
 
@@ -96,7 +97,7 @@ ht-degree: 96%
 
   ![](assets/subscription_activity_example2.png)
 
-* **[!UICONTROL Reconciliation]** 活動會將檔案中的資料識別為屬於 Adobe Campaign 資料庫的設定檔維度。僅設定 **[!UICONTROL Identification]** 索引標籤。它會根據描述檔的電子郵件地址識別檔案資料。
+* **[!UICONTROL Reconciliation]** 活動會將檔案中的資料識別為屬於 Adobe Campaign 資料庫的輪廓維度。僅設定 **[!UICONTROL Identification]** 索引標籤。它會根據輪廓的電子郵件地址識別檔案資料。
 
   ![](assets/subscription_activity_example3.png)
 
@@ -104,19 +105,19 @@ ht-degree: 96%
 
   ![](assets/subscription_activity_example5.png)
 
-* **[!UICONTROL Subscription Services]** 活動可讓您選取必須訂閱設定檔的服務、與訂閱日期對應之欄位，以及訂閱的來源。
+* **[!UICONTROL Subscription Services]** 活動可讓您選取必須訂閱輪廓的服務、與訂閱日期對應之欄位，以及訂閱的來源。
 
   ![](assets/subscription_activity_example4.png)
 
 ## 範例：從檔案更新多個訂閱狀態 {#example--updating-multiple-subscription-statuses-from-a-file}
 
-此範例說明如何匯入包含設定檔的檔案，以及如何將其訂閱更新為檔案中指定的多個服務。匯入檔案後，必須進行調和，以便將匯入的資料識別為具有服務連結的描述檔。為確保檔案不包含任何重複項目，將對資料執行重複資料刪除活動。
+此範例說明如何匯入包含輪廓的檔案，以及如何將其訂閱更新為檔案中指定的多個服務。匯入檔案後，必須進行調和，以便將匯入的資料識別為具有服務連結的輪廓。為確保檔案不包含任何重複項目，將對資料執行重複資料刪除活動。
 
 工作流程如下：
 
 ![](assets/subscription_activity_example1.png)
 
-* **[!UICONTROL Load file]** 活動載入設定檔檔案並定義匯入欄之結構。
+* **[!UICONTROL Load file]** 活動載入輪廓檔案並定義匯入欄之結構。
 
   在此範例中，載入檔案為 .csv 格式，並包含以下資料：
 
@@ -141,7 +142,7 @@ ht-degree: 96%
 
   如果您的檔案已使用 &quot;0&quot; 及 &quot;1&quot; 來識別此操作，則不需要重新映射這些值。僅確定在 **[!UICONTROL Column definition]** 索引標籤中將此欄處理為 **Boolean** 或 **Integer**。
 
-* **[!UICONTROL Reconciliation]** 活動會將檔案中的資料識別為屬於 Adobe Campaign 資料庫的設定檔維度。透過 **[!UICONTROL Identification]** 索引標籤，檔案的 **email** 欄位與設定檔資源的 **email** 欄位相符。
+* **[!UICONTROL Reconciliation]** 活動會將檔案中的資料識別為屬於 Adobe Campaign 資料庫的輪廓維度。透過 **[!UICONTROL Identification]** 索引標籤，檔案的 **email** 欄位與輪廓資源的 **email** 欄位相符。
 
   ![](assets/subscription_activity_example3.png)
 

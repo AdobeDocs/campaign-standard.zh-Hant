@@ -1,23 +1,24 @@
 ---
-title: 更新設定檔的組織單位
+title: 更新輪廓的組織單位
 description: 瞭解如何使用API更新設定檔的組織單位。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 6ce49aeb-a113-43ee-bfe3-f26a4a9e2a56
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 10%
 
 ---
 
-# 更新設定檔的組織單位 {#managing-organizational-units}
+# 更新輪廓的組織單位 {#managing-organizational-units}
 
-1. 對&#x200B;**orgUnitBase**&#x200B;資源執行GET要求，以擷取組織單位PKey
+1. 對&#x200B;**orgUnitBase**&#x200B;資源執行GET要求以擷取組織單位PKey
 1. 在設定檔PKey上執行PATCH請求，並在承載中使用所需的組織單位PKey。
 
 <br/>
@@ -50,7 +51,7 @@ ht-degree: 10%
 },
 ```
 
-對設定檔執行PATCH請求，並在承載中包含所需組織單位的PKey。
+對設定檔執行PATCH要求，並在裝載中使用所需組織單位的PKey。
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/<PKEY> \

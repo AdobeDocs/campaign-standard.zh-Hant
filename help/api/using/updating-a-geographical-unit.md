@@ -1,24 +1,25 @@
 ---
-title: 更新設定檔的地理單位
+title: 更新輪廓的地理單位
 description: 瞭解如何使用API管理地理單位。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 9dc07d86-00b2-4885-b6ac-0a6f9bc45236
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 10%
 
 ---
 
-# 更新設定檔的地理單位 {#updating-a-geographical-unit}
+# 更新輪廓的地理單位 {#updating-a-geographical-unit}
 
 1. 對&#x200B;**geoUnitBase**&#x200B;資源執行GET要求，以擷取地理單位PKey。
-1. 在設定檔PKey上執行PATCH請求，並在承載中使用所需的地理單位PKey。
+1. 在設定檔PKey上執行PATCH要求，並在裝載中使用所需的地理單位PKey。
 
 <br/>
 
@@ -50,7 +51,7 @@ ht-degree: 10%
 },
 ```
 
-對設定檔執行PATCH請求，並在裝載中使用所需地理單位的PKey。
+對設定檔執行PATCH要求，並在裝載中使用所需地理單位的PKey。
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/<PKEY> \

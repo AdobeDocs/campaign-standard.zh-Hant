@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,query,wait,delivery
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: cba4e5c6-8acd-47a1-824e-14415e90d451
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 37%
@@ -28,9 +29,9 @@ ht-degree: 37%
 
 1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Targeting]** 中，拖放[查詢](../../automating/using/query.md)活動。
 1. 連按兩下此活動。
-1. 在&#x200B;**[!UICONTROL Shortcuts]**&#x200B;中，拖放&#x200B;**[!UICONTROL Profiles]**&#x200B;並使用運運算元&#x200B;**[!UICONTROL is not empty]**&#x200B;選取&#x200B;**[!UICONTROL email]**。
-1. 在&#x200B;**[!UICONTROL Shortcuts]**&#x200B;中，拖放&#x200B;**[!UICONTROL Profiles]**&#x200B;並選取值為&#x200B;**[!UICONTROL no]**&#x200B;的&#x200B;**[!UICONTROL no longer contact by email]**。
-1. 按一下&#x200B;**[!UICONTROL Confirm]**。
+1. 在&#x200B;**[!UICONTROL Shortcuts]**&#x200B;中，拖放&#x200B;**[!UICONTROL Profiles]**&#x200B;並使用運運算元&#x200B;**[!UICONTROL email]**&#x200B;選取&#x200B;**[!UICONTROL is not empty]**。
+1. 在&#x200B;**[!UICONTROL Shortcuts]**&#x200B;中，拖放&#x200B;**[!UICONTROL Profiles]**&#x200B;並選取值為&#x200B;**[!UICONTROL no longer contact by email]**&#x200B;的&#x200B;**[!UICONTROL no]**。
+1. 按一下 **[!UICONTROL Confirm]**。
 
 ![](assets/wf-complement-query.png)
 
@@ -55,10 +56,10 @@ ht-degree: 37%
 1. 在&#x200B;**[!UICONTROL Activities]** > **[!UICONTROL Targeting]**&#x200B;中拖放 **[!UICONTROL Query activity]**。
 1. 連按兩下此活動。
 1. 在&#x200B;**[!UICONTROL Shortcuts]**&#x200B;中，拖放&#x200B;**[!UICONTROL Tracking Logs]**&#x200B;和運運算元&#x200B;**[!UICONTROL exists]**。
-1. 在&#x200B;**[!UICONTROL Shortcuts]**> **[!UICONTROL Delivery]**&#x200B;中，使用運運算元&#x200B;**[!UICONTROL is equal to]**&#x200B;拖放&#x200B;**[!UICONTROL delivery]**&#x200B;並選取傳遞作為值。
+1. 在&#x200B;**[!UICONTROL Shortcuts]**> **[!UICONTROL Delivery]**&#x200B;中，使用運運算元&#x200B;**[!UICONTROL delivery]**&#x200B;拖放&#x200B;**[!UICONTROL is equal to]**&#x200B;並選取傳遞作為值。
 1. 在&#x200B;**[!UICONTROL Shortcuts]**> **[!UICONTROL Delivery]**&#x200B;中，拖放&#x200B;**[!UICONTROL type]**&#x200B;並將&#x200B;**[!UICONTROL Open]**&#x200B;核取為值。
 1. 選取規則之間的運運算元做為&#x200B;**[!UICONTROL except]**。
-1. 按一下&#x200B;**[!UICONTROL Confirm]**。
+1. 按一下 **[!UICONTROL Confirm]**。
 
 ## 建立簡訊傳送{#creating-a-sms-delivery}
 

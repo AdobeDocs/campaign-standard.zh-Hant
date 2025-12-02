@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: about-workflows-and-data-management
 context-tags: workflow,main;workflow,overview
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Beginner
 exl-id: a3f35bb9-e61e-4f3f-b855-1d677422f75a
-source-git-commit: ea524bdcef0324c7fc4b9da0bb443b6abc66a23a
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 4%
@@ -31,7 +32,7 @@ ht-degree: 4%
 
 ![](assets/do-not-localize/how-to-video.png) [探索如何在視訊中建立工作流程](#video)
 
-## 浮動視窗 {#palette}
+## 調色盤 {#palette}
 
 浮動視窗位於熒幕的左側。 所有可用的活動都會分類為數個類別：
 
@@ -52,7 +53,7 @@ ht-degree: 4%
 
 若要連結兩個活動，請將箭頭的結尾從第一個活動上移至下一個活動，直到它們連線為止。 您也可以將活動往後箭頭的點移動，以便將其連結至前一個活動。 如果您移動任何活動，它們將會維持連結。
 
-處理資料的活動之後的轉變包含中介母體。 如果您核取工作流程屬性的&#x200B;**[!UICONTROL Execution]**&#x200B;區段中的&#x200B;**[!UICONTROL Keep interim results]**&#x200B;選項，便可存取它們。
+處理資料的活動之後的轉變包含中介母體。 如果您核取工作流程屬性的&#x200B;**[!UICONTROL Keep interim results]**&#x200B;區段中的&#x200B;**[!UICONTROL Execution]**&#x200B;選項，便可存取它們。
 
 >[!CAUTION]
 >

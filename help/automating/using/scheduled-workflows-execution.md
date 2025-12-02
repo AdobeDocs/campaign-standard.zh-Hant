@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 8d9820a4-3c44-45f5-815e-4ed48a96276d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 1%
@@ -32,7 +33,7 @@ ht-degree: 1%
 
 若要檢查先前工作流程執行的一或多個任務是否仍在擱置中，您需要使用&#x200B;**[!UICONTROL Query]**&#x200B;和&#x200B;**[!UICONTROL Test]**&#x200B;活動。
 
-1. 在&#x200B;**[!UICONTROL Scheduler]**&#x200B;活動之後新增&#x200B;**[!UICONTROL Query]**&#x200B;活動，然後如下所示設定。
+1. 在&#x200B;**[!UICONTROL Query]**&#x200B;活動之後新增&#x200B;**[!UICONTROL Scheduler]**&#x200B;活動，然後如下所示設定。
 
 1. 將活動的資源變更為&#x200B;**[!UICONTROL WorkflowTaskDetail]**，這表示它將以工作流程的目前任務為目標。
 

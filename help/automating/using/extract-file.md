@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: fileExport,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: ccf73563-f0f8-4397-ba96-7c5727562acd
-source-git-commit: 88035d0e4f77d66e8b2a74650857bf4ef45744c3
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 78%
@@ -68,7 +69,7 @@ ht-degree: 78%
 
 1. 建立您所需的欄數。您可以按一下欄的運算式及標籤來進行編輯。
 
-   如果要匯出設定檔並希望在外部工具中使用它們，請確定您匯出唯一識別碼。依預設，並非所有設定檔都有唯一識別碼，這會視其新增至資料庫的方式而定。如需詳細資訊，請參閱[產生設定檔的唯一 ID](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)區段。
+   如果要匯出輪廓並希望在外部工具中使用它們，請確定您匯出唯一識別碼。依預設，並非所有輪廓都有唯一識別碼，這會視其新增至資料庫的方式而定。如需詳細資訊，請參閱[產生輪廓的唯一 ID](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)區段。
 
 1. 按一下 **[!UICONTROL File structure]** 索引標籤，為要匯出的檔案設定輸出、日期和編號格式。
 

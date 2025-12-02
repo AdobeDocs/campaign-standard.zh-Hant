@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: query,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 0a71e3a7-60e6-49ec-af2e-099ad0d69a15
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 76%
@@ -28,17 +29,17 @@ ht-degree: 76%
 
 ## 對電子郵件屬性進行定位 {#targeting-on-email-attributes}
 
-下列範例顯示一個查詢活動，其設定是以電子郵件地址網域 &quot;orange.co.uk&quot; 來定位設定檔。
+下列範例顯示一個查詢活動，其設定是以電子郵件地址網域 &quot;orange.co.uk&quot; 來選擇目標輪廓。
 
 ![](assets/query_sample_emaildomain.png)
 
-下列範例顯示一個查詢活動，其設定是以所提供的電子郵件地址來定位設定檔。
+下列範例顯示一個查詢活動，其設定是以所提供的電子郵件地址來選擇目標輪廓。
 
 ![](assets/query_sample_emailnotempty.png)
 
 ## 定位生日為今天的設定檔 {#targeting-profiles-whose-birthday-is-today}
 
-下列範例顯示一個查詢活動，其設定是以生日為今天來定位設定檔。
+下列範例顯示一個查詢活動，其設定是以生日為今天來選擇目標輪廓。
 
 1. 拖曳查詢中的 **[!UICONTROL Birthday]** 篩選器。
 
@@ -50,7 +51,7 @@ ht-degree: 76%
 
 ## 定位已開啟特定傳送的設定檔 {#targeting-profiles-who-opened-a-specific-delivery}
 
-下列範例顯示一個查詢活動，其設定為篩選開啟傳送且標籤為 &quot;Summer Time&quot; 的設定檔。
+下列範例顯示一個查詢活動，其設定為篩選開啟傳送且標籤為 &quot;Summer Time&quot; 的輪廓。
 
 1. 拖曳查詢中的 **[!UICONTROL Opened]** 篩選器。
 
@@ -62,7 +63,7 @@ ht-degree: 76%
 
 ## 針對傳送因為特定原因而失敗的設定檔進行定位 {#targeting-profiles-for-whom-deliveries-failed-for-a-specific-reason}
 
-下列範例顯示一個查詢活動，其設定是篩選因其信箱已滿而傳送失敗的設定檔。此查詢僅適用於具有管理權限且屬於 **[!UICONTROL All (all)]** 組織單位（請參閱[本區段](../../administration/using/organizational-units.md)）的使用者。
+下列範例顯示一個查詢活動，其設定是篩選因其信箱已滿而傳送失敗的輪廓。此查詢僅適用於具有管理權限且屬於 **[!UICONTROL All (all)]** 組織單位（請參閱[本區段](../../administration/using/organizational-units.md)）的使用者。
 
 1. 選取 **[!UICONTROL Delivery logs]** 資源，以便直接在傳送記錄表中進行篩選（請參閱[使用與目標維度不同的資源](../../automating/using/using-resources-different-from-targeting-dimensions.md)）。
 
@@ -72,13 +73,13 @@ ht-degree: 76%
 
    ![](assets/query_sample_failure2.png)
 
-1. 選取要定位的失敗類型。在我們的案例 **[!UICONTROL Mailbox full]** 中。
+1. 選取要鎖定的失敗類型。在我們的案例 **[!UICONTROL Mailbox full]** 中。
 
    ![](assets/query_sample_failure3.png)
 
 ## 過去7天期間未聯絡目標定位設定檔 {#targeting-profiles-not-contacted-during-the-last-7-days}
 
-下列範例顯示一個查詢活動，其設定是用來篩選過去　7　天期間未聯絡的設定檔。
+下列範例顯示一個查詢活動，其設定是用來篩選過去　7　天期間未聯絡的輪廓。
 
 1. 拖曳查詢中的 **[!UICONTROL Delivery logs (logs)]** 篩選器。
 

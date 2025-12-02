@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 00d39438-a232-49f1-ae5e-1e98c73397e3
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '675'
 ht-degree: 3%
@@ -40,7 +41,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
 * **&lt;transactionalAPI>**： Transactional Messages API端點。
 
-  異動訊息API端點的名稱取決於您的執行個體設定。 它與值「mc」相對應，後接您的個人組織ID。 讓我們以「geometrixx」作為其組織ID的Geometrixx公司為例。 在此情況下，POST要求會如下所示：
+  異動訊息API端點的名稱取決於您的執行個體設定。 它與值「mc」相對應，後接您的個人組織ID。 讓我們以Geometrixx公司為例，將「geometrixx」作為其組織ID。 在此情況下，POST要求會如下所示：
 
   `POST https://mc.adobe.io/geometrixx/campaign/mcgeometrixx/<eventID>`
 
@@ -48,7 +49,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
 * **&lt;eventID>**：您要傳送的事件型別。 建立事件設定時會產生此ID （請參閱[本區段](../../channels/using/configuring-transactional-event.md#creating-an-event)）。
 
-### POST請求標頭
+### POST要求標頭
 
 請求必須包含「Content-Type： application/json」標頭。
 
@@ -65,7 +66,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
 ### POST要求內文
 
-事件資料包含在JSONPOST內文中。 事件結構取決於其定義。 資源定義畫面中的API預覽按鈕提供請求範例。 請參閱[本節](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)。
+事件資料包含在JSON POST內文中。 事件結構取決於其定義。 資源定義畫面中的API預覽按鈕提供請求範例。 請參閱[本節](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)。
 
 您可以將下列選用引數新增至事件內容，以管理連結至事件的異動訊息的傳送：
 
@@ -109,7 +110,7 @@ POST回應會傳回建立交易式事件時的狀態。 若要擷取其目前狀
 }
 ```
 
-對POST要求的回應。
+回應POST要求。
 
 ```
 {
@@ -142,4 +143,4 @@ POST回應會傳回建立交易式事件時的狀態。 若要擷取其目前狀
 * **deliveryFailed**：處理事件時發生傳遞錯誤。
 * **routingFailed**：路由階段失敗 — 例如，當找不到指定的事件型別時，可能會發生這種情況。
 * **tooOld**：事件在可以處理之前就過期了 — 這可能是由多種原因造成的，例如，傳送多次失敗（這會導致事件不再最新），或是伺服器在超載後無法再處理事件。
-* **targetingFailed**：Campaign Standard無法擴充用於訊息目標定位的連結。
+* **targetingFailed**： Campaign Standard無法擴充用於訊息目標定位的連結。

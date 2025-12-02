@@ -1,15 +1,16 @@
 ---
 title: 編輯查詢
-description: 運用預先定義的篩選器和規則來建立人口族群。
+description: 運用預先定義的篩選器和規則來建立群體。
 audience: automating
 content-type: reference
 topic-tags: filtering-data
 context-tags: queryFilter,overview;audience,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: a0adb913-2ee7-4cce-9b4f-74ebb7f1ce6a
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '788'
 ht-degree: 94%
@@ -22,13 +23,13 @@ ht-degree: 94%
 
 查詢編輯器是精靈，可讓您篩選 Adobe Campaign 資料庫中包含的資料。
 
-這項功能可讓您建立人口族群，運用預先定義的篩選器和規則，以更佳的方式鎖定收件者。
+這項功能可讓您建立群體，運用預先定義的篩選器和規則，以更佳的方式鎖定收件者。
 
 若干應用功能使用它以：
 
 * 建立&#x200B;**查詢**&#x200B;類型&#x200B;**客群**
 * 定義&#x200B;**電子郵件**&#x200B;目標
-* 在&#x200B;**工作流程**&#x200B;活動中定義人口
+* 在&#x200B;**工作流程**&#x200B;活動中定義群體
 
 ## 查詢編輯器介面 {#query-editor-interface}
 
@@ -36,7 +37,7 @@ ht-degree: 94%
 
 ![](assets/query_editor_overview.png)
 
-### 浮動視窗 {#palette}
+### 調色盤 {#palette}
 
 浮動視窗位於編輯器的左側，分為兩個標籤，其中包含分成主題區塊的元素。這些標籤包括：
 
@@ -58,7 +59,7 @@ ht-degree: 94%
 
 ## 建立查詢 {#creating-queries}
 
-查詢編輯器可用於定義訊息中的客群或測試輪廓、工作流程中的人口以及建立查詢類型的客群。
+查詢編輯器可用於定義訊息中的客群或測試輪廓、工作流程中的群體以及建立查詢類型的客群。
 
 查詢可在建立傳送時在 **[!UICONTROL Audience]** 視窗中定義，或在建立工作流程時在「**查詢**」活動中定義。
 
@@ -85,7 +86,7 @@ ht-degree: 94%
 
      您不需要指定子條件。
 
-     例如，您只能在設定檔追蹤記 錄中選取 **[!UICONTROL Exists]** 運算子並核准規則。規則會傳回所有存在追蹤記錄的設定檔。
+     例如，您只能在輪廓追蹤記 錄中選取 **[!UICONTROL Exists]** 運算子並核准規則。規則會傳回所有存在追蹤記錄的輪廓。
 
      ![](assets/query_editor_audience_definition6.png)
 
@@ -108,11 +109,11 @@ ht-degree: 94%
 
 如果要修改查詢的元素，請按一下編輯圖示。規則會依先前設定的方式開啟，然後您就可以進行任何必要的調整。
 
-您的查詢現在已建立並定義，這可讓您建置人口族群，以更個人化您的傳遞。
+您的查詢現在已建立並定義，這可讓您建置群體，以更個人化您的傳遞。
 
 **相關主題：**
 
-* [進階函式](../../automating/using/advanced-expression-editing.md)
+* [進階功能](../../automating/using/advanced-expression-editing.md)
 * [定義篩選器](../../developing/using/configuring-filter-definition.md)
 * [使用案例：建立每週一次的電子郵件傳送](../../automating/using/workflow-weekly-offer.md)
 * [使用案例：建立依位置分段的傳送](../../automating/using/workflow-segmentation-location.md)

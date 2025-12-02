@@ -5,10 +5,11 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: f7de0186-4136-4603-8f80-9f58c641cd9d
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 13%
@@ -31,7 +32,7 @@ ht-degree: 13%
 1. 按一下&#x200B;**[!UICONTROL Create element]**&#x200B;按鈕以新增引數，然後填寫其名稱和值。
 
    * **[!UICONTROL Name]**： **[!UICONTROL External signal]**&#x200B;活動中已宣告的名稱（請參閱[此頁面](../../automating/using/declaring-parameters-external-signal.md)）。
-   * **[!UICONTROL Value]**：您要指派給引數的值。 值應遵循[本節](../../automating/using/advanced-expression-editing.md#standard-syntax)中說明的&#x200B;**標準語法**。
+   * **[!UICONTROL Value]**：您要指派給引數的值。 值應遵循&#x200B;**本節**&#x200B;中說明的[標準語法](../../automating/using/advanced-expression-editing.md#standard-syntax)。
 
    ![](assets/extsignal_definingparameters_2.png)
 

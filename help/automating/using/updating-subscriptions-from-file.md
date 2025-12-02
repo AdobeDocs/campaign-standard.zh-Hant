@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: setOfService,workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 2e98561a-97fd-483a-a547-c4e6d33993dc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 77%
@@ -18,7 +19,7 @@ ht-degree: 77%
 
 # 從檔案更新多個訂閱狀態 {#updating-multiple-subscription-statuses-from-a-file}
 
-此範例說明如何匯入包含設定檔的檔案，以及如何將其訂閱更新為檔案中指定的多個服務。匯入檔案後，必須進行調和，以便將匯入的資料識別為具有服務連結的描述檔。為確保檔案不包含任何重複項目，將對資料執行重複資料刪除活動。
+此範例說明如何匯入包含輪廓的檔案，以及如何將其訂閱更新為檔案中指定的多個服務。匯入檔案後，必須進行調和，以便將匯入的資料識別為具有服務連結的輪廓。為確保檔案不包含任何重複項目，將對資料執行重複資料刪除活動。
 
 工作流程如下：
 
@@ -49,7 +50,7 @@ ht-degree: 77%
 
   如果您的檔案已使用 &quot;0&quot; 及 &quot;1&quot; 來識別此操作，則不需要重新映射這些值。僅確定在 **[!UICONTROL Column definition]** 索引標籤中將此欄處理為 **Boolean** 或 **Integer**。
 
-* [調解](../../automating/using/reconciliation.md)活動會將檔案中的資料識別為屬於Adobe Campaign資料庫的設定檔維度。 透過 **[!UICONTROL Identification]** 索引標籤，檔案的 **email** 欄位與設定檔資源的 **email** 欄位相符。
+* [調解](../../automating/using/reconciliation.md)活動會將檔案中的資料識別為屬於Adobe Campaign資料庫的設定檔維度。 透過 **[!UICONTROL Identification]** 索引標籤，檔案的 **email** 欄位與輪廓資源的 **email** 欄位相符。
 
   ![](assets/subscription_activity_example3.png)
 
@@ -57,7 +58,7 @@ ht-degree: 77%
 
   ![](assets/subscription_example_service_relation.png)
 
-* 以臨時資源的&#x200B;**電子郵件**&#x200B;欄位為基礎的[重複資料刪除](../../automating/using/deduplication.md) （調解後產生的結果）可識別重複專案。 消除重複項目非常重要，因為所有資料的服務訂閱將會在出現重複項目時失敗。
+* 以臨時資源的[電子郵件](../../automating/using/deduplication.md)欄位為基礎的&#x200B;**重複資料刪除** （調解後產生的結果）可識別重複專案。 消除重複項目非常重要，因為所有資料的服務訂閱將會在出現重複項目時失敗。
 
   ![](assets/subscription_activity_example5.png)
 

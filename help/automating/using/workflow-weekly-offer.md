@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,query,delivery,scheduler
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 32d9d174-8438-48d7-b876-33a0c35d9549
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 76%
@@ -46,7 +47,7 @@ ht-degree: 76%
 1. 在&#x200B;**[!UICONTROL Activities]** > **[!UICONTROL Targeting]**&#x200B;中，若要選取收件者，請拖放[查詢](../../automating/using/query.md)活動並連按兩下。
 1. 在 **[!UICONTROL Shortcuts]** > **[!UICONTROL Profile]** 中拖放 **[!UICONTROL Email]**。
 1. 選取 **[!UICONTROL is not empty]** 作為運算子。
-1. 在 **[!UICONTROL Shortcuts]** > **[!UICONTROL General]** 中，新增設定檔並使用值　**[!UICONTROL No]**　選取　**[!UICONTROL no longer contact by email]**。
+1. 在 **[!UICONTROL Shortcuts]** > **[!UICONTROL General]** 中，新增輪廓並使用值　**[!UICONTROL No]**　選取　**[!UICONTROL no longer contact by email]**。
 1. 按一下 **[!UICONTROL Confirm]**。
 
 ![](assets/wf-complement-query.png)

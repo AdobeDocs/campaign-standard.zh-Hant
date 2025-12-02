@@ -1,14 +1,15 @@
 ---
 title: 關於 Campaign-Audience Manager 或 People 核心服務整合
-description: 透過Audience Manager/人員核心服務整合，您可以在不同的Adobe Experience Cloud解決方案中共用對象或區段。
+description: 透過Audience Manager/People核心服務整合，您可以在不同的Adobe Experience Cloud解決方案中共用受眾或區段。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: e8b96c66-82f7-4adb-88b2-b7e0f7c4a96f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 18%
@@ -49,6 +50,6 @@ Adobe Campaign可讓您與不同的Adobe Experience Cloud應用程式交換和�
 
   例如，透過解密加密的電子郵件地址或簡訊號碼的功能，您也可以傳送觸發式訊息給使用者，即使其設定檔不存在於Adobe Campaign資料庫中亦然。
 
-下圖詳細說明此整合的運作方式。 此處，AAM代表Adobe Audience Manager，ACS代表Adobe Campaign Standard。
+下圖詳細說明此整合的運作方式。 在此，AAM代表Adobe Audience Manager，ACS代表Adobe Campaign Standard。
 
 ![](assets/aam_diagram.png)

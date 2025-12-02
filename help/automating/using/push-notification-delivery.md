@@ -5,10 +5,11 @@ audience: automating
 content-type: reference
 topic-tags: channel-activities
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: b6a43d51-32d4-4806-b4e4-33236f1e27f5
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '773'
 ht-degree: 46%
@@ -63,7 +64,7 @@ ht-degree: 46%
 1. 定義推播通知內容。 請參閱[建立推播通知](../../channels/using/preparing-and-sending-a-push-notification.md)
 1. 依預設，**[!UICONTROL Push notification]** 活動不包含任何外站轉變。如果要將出站轉變新增到 **[!UICONTROL Push Notification]** 活動中，請轉至高階活動選項的　**[!UICONTROL General]**　索引標籤（活動快速動作中的　![](assets/dlv_activity_params-24px.png)　按鈕），然後核取以下選項之一：
 
-   * **[!UICONTROL Add outbound transition without the population]**：這可讓您產生一個外站轉變，其中包含與入站轉變完全相同的母體。
+   * **[!UICONTROL Add outbound transition without the population]**：這可讓您產生一個外站轉變，其中包含與入站轉變完全相同的群體。
    * **[!UICONTROL Add outbound transition with the population]**：這可讓您產生出站轉變，其中包含接收通知的母體。 在傳遞準備期間排除的目標成員會從此轉變中排除。
 
 1. 確認活動的設定並儲存工作流程。

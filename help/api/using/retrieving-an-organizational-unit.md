@@ -1,23 +1,24 @@
 ---
-title: 擷取設定檔的組織單位
+title: 擷取輪廓的組織單位
 description: 瞭解如何使用API來設定檔的組織單位。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 37048884-bd03-46ea-8e2e-a73ad568153b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 12%
 
 ---
 
-# 擷取設定檔的組織單位 {#retrieving-organizational-units}
+# 擷取輪廓的組織單位 {#retrieving-organizational-units}
 
-1. 對設定檔PKey執行GET要求，以擷取&#x200B;**orgUnit** URL。
+1. 對設定檔PKey執行GET要求以擷取&#x200B;**orgUnit** URL。
 1. 在URL上執行GET要求，以擷取有關組織單位的更多詳細資料。
 
 <br/>
@@ -48,7 +49,7 @@ ht-degree: 12%
 }
 ```
 
-在URL上執行GET要求以擷取更多資訊。
+在URL上執行GET要求以擷取詳細資訊。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/<PKEY> \

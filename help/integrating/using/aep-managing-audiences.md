@@ -6,12 +6,13 @@ content-type: reference
 topic-tags: managing-audiences
 context-tags: audience,wizard;audience,overview;delivery,audience,back
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 2f6c5cc6-0634-4418-a2ee-e1c133d9cbd2
 hide: true
 hidefromtoc: true
-source-git-commit: 110f3ccb5865e70c78e18485b4ff4ba7a648af3f
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 2%
@@ -22,7 +23,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->Audience Destinations Service目前為測試版，可能會經常更新，恕不另行通知。 客戶需在Azure上代管（目前僅限北美地區使用Beta版）才能存取這些功能。 如果您想要存取許可權，請聯絡Adobe客戶服務。
+>Audience Destinations Service目前為測試版，可能會經常更新，恕不另行通知。 客戶需在Azure上代管（目前僅限北美地區使用Beta版）才能存取這些功能。 如果您想要存取，請聯絡Adobe客戶服務。
 
 ## 存取Adobe Experience Platform受眾
 
@@ -38,7 +39,7 @@ ht-degree: 2%
 
 ## 建立Adobe Experience Platform對象
 
-若要直接在Campaign Standard中建立Adobe Experience Platform對象，請遵循下列步驟：
+若要直接在Campaign Standard中建立Adobe Experience Platform對象，請依照下列步驟進行：
 
 1. 從Adobe Experience Platform區段清單頁面，按一下位於右角的&#x200B;**[!UICONTROL New audience]**&#x200B;按鈕。
 
@@ -52,7 +53,7 @@ ht-degree: 2%
 
 1. 為了成功建立區段，您必須選取符合您針對此區段行銷目的的&#x200B;**合併原則**。
 
-   在設定窗格中，選取Platform預設合併原則。 如需合併原則的詳細資訊，請參閱[區段產生器使用手冊](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hant)中的專屬章節。
+   在設定窗格中，選取Platform預設合併原則。 如需合併原則的詳細資訊，請參閱[區段產生器使用手冊](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html)中的專屬章節。
 
    ![](assets/aep_audiences_mergepolicy.png)
 

@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 0f66fe2b-22b1-49d7-a080-29b00941a2cc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 3%
@@ -49,7 +50,7 @@ ht-degree: 3%
 
    ![](assets/aem_acs_7.png)
 
-1. 從&#x200B;**[!UICONTROL Complete work item]**&#x200B;視窗按一下&#x200B;**[!UICONTROL Complete]**，然後按一下&#x200B;**[!UICONTROL Newsletter review]**。
+1. 從&#x200B;**[!UICONTROL Complete]**&#x200B;視窗按一下&#x200B;**[!UICONTROL Newsletter review]**，然後按一下&#x200B;**[!UICONTROL Complete work item]**。
 
 1. 按一下&#x200B;**[!UICONTROL Complete]**，然後再按&#x200B;**[!UICONTROL Newsletter approval]**。 定義內容和傳送引數後，您可以在Adobe Campaign Standard中繼續核准、準備和傳送電子郵件。
 
@@ -71,7 +72,7 @@ ht-degree: 3%
 
    ![](assets/aem_acs_9.png)
 
-1. 按一下&#x200B;**[!UICONTROL Create]**。
+1. 按一下 **[!UICONTROL Create]**。
 
 您的語言副本現已建立，您現在可以根據所選的語言編輯內容。
 
@@ -101,7 +102,7 @@ ht-degree: 3%
 
    ![](assets/aem_acs_20.png)
 
-1. 按一下&#x200B;**[!UICONTROL Language copy creation]**。
+1. 按一下 **[!UICONTROL Language copy creation]**。
 
    ![](assets/aem_acs_16.png)
 
@@ -127,6 +128,6 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >如果電子郵件使用Adobe Campaign中尚未核准的AEM內容，您將無法在AEM中傳送電子郵件。
+   >如果電子郵件使用Adobe Campaign中尚未核准的內容，您將無法在AEM中傳送電子郵件。
 
-您的對象將依據其&#x200B;**[!UICONTROL Profiles]**&#x200B;中設定的&#x200B;**[!UICONTROL Preferred languages]**&#x200B;收到您的電子郵件。 若要進一步瞭解如何編輯設定檔和慣用語言，請參閱此[頁面](../../audiences/using/editing-profiles.md)。
+您的對象將依據其&#x200B;**[!UICONTROL Preferred languages]**&#x200B;中設定的&#x200B;**[!UICONTROL Profiles]**&#x200B;收到您的電子郵件。 若要進一步瞭解如何編輯設定檔和慣用語言，請參閱此[頁面](../../audiences/using/editing-profiles.md)。

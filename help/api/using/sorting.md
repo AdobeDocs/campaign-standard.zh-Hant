@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 7db25b8d-a6f1-4151-bf37-c47e9991ae48
-source-git-commit: 13fc1b011f61d67dda128e77b854032801bda263
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 11%
@@ -25,7 +26,7 @@ ht-degree: 11%
 
 ***範例要求***
 
-* 擷取資料庫中電子郵件依字母順序排序的範例GET請求。
+* 擷取資料庫中電子郵件依字母順序排序的GET要求範例。
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_order=email \
@@ -50,7 +51,7 @@ ht-degree: 11%
   }
   ```
 
-* 以遞減Alpha順序擷取資料庫中電子郵件的範例GET請求。
+* 範例GET請求以遞減Alpha順序擷取資料庫中的電子郵件。
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_order=email%20desc \

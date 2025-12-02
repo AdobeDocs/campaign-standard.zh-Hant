@@ -6,13 +6,14 @@ content-type: reference
 topic-tags: channel-activities
 context-tags: directMail,workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: c7854b7b-f955-47ce-99d6-86b3186fd297
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '915'
-ht-degree: 93%
+ht-degree: 91%
 
 ---
 
@@ -24,18 +25,18 @@ ht-degree: 93%
 
 ![](assets/recurrentpaper.png)
 
-**[!UICONTROL Direct mail delivery]** 活動可讓您設定並準備包含您要用於直接郵件促銷活動之設定檔資料的檔案。這可以是一次使用的直接郵件，也可以是循環性直接郵件。
+**[!UICONTROL Direct mail delivery]** 活動可讓您設定並準備包含您要用於直接郵件促銷活動之輪廓資料的檔案。這可以是一次使用的直接郵件，也可以是循環性直接郵件。
 
 * **標準**&#x200B;直接郵件只傳送一次。
 * **循環**&#x200B;郵件可讓您在定義的時段內，多次傳送相同的直接郵件給不同的目標。 您可以彙總每個期間的傳送，以取得符合您需求的報表。
 
 ## 使用內容 {#context-of-use}
 
-**[!UICONTROL Direct mail delivery]** 活動通常用於自動準備包含設定檔資料的檔案。然後，可將此檔案傳送給負責郵寄的合作夥伴/供應商。
+**[!UICONTROL Direct mail delivery]** 活動通常用於自動準備包含輪廓資料的檔案。然後，可將此檔案傳送給負責郵寄的合作夥伴/供應商。
 
 當連結至排程器時，您可以定義循環的直接電子郵件。
 
-直接郵件收件者是透過查詢、交叉點等定位活動，在相同工作流程中定義活動上游的活動。在準備直接郵件時，不會自動排除未指定郵寄地址的個人檔案。
+直接郵件收件者是透過查詢、交叉點等定位活動，在相同工作流程中定義活動上游的活動。在準備直接郵件時，不會自動排除未指定郵寄地址的輪廓。
 
 根據工作流程執行參數觸發訊息準備。在訊息控制面板中，您可以選取是否要求傳送訊息的手動確認（預設為必要）。您可以手動啟動工作流程，或將排程器活動置於工作流程中以自動執行。
 
@@ -69,8 +70,8 @@ ht-degree: 93%
 1. 定義直接郵件內容。請參閱關於[內容編輯](../../designing/using/personalization.md)的區段。
 1. 依預設，**[!UICONTROL Direct mail delivery]** 活動不包含任何外站轉變。如果要將出站轉變新增到 **[!UICONTROL Direct mail delivery]** 活動中，請轉至高階活動選項的　**[!UICONTROL General]**　索引標籤（活動快速動作中的　![](assets/dlv_activity_params-24px.png)　按鈕），然後選中以下選項之一：
 
-   * **[!UICONTROL Add outbound transition without the population]**：這可讓您產生一個外站轉變，其中包含與入站轉變完全相同的母體。此轉換包含直接郵件活動產生的檔案以及直接郵件活動收到的原始母體。
-   * **[!UICONTROL Add outbound transition with the population]**：這可讓您產生一個外站轉變，其中包含將要向其發送直接郵件的母體。在直接郵件準備過程中排除的目標成員（隔離、無效地址等）會從此轉換中排除。轉換也包含直接郵件產生的檔案。
+   * **[!UICONTROL Add outbound transition without the population]**：這可讓您產生一個外站轉變，其中包含與入站轉變完全相同的群體。此轉換包含直接郵件活動產生的檔案以及直接郵件活動收到的原始群體。
+   * **[!UICONTROL Add outbound transition with the population]**：這可讓您產生一個外站轉變，其中包含將要向其發送直接郵件的群體。在直接郵件準備期間被排除的目標成員（隔離、無效地址等）將排除在此轉換之外。 轉換也包含直接郵件產生的檔案。
 
 1. 確認活動的設定並儲存工作流程。
 

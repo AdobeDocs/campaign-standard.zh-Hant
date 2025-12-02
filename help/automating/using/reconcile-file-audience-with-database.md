@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: readAudience,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 6a59907d-850e-4d61-b1f7-8fc8b915580e
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 87%
@@ -26,7 +27,7 @@ ht-degree: 87%
 
 ![](assets/readaudience_activity_example3.png)
 
-* [載入檔案](../../automating/using/load-file.md)活動會上傳包含從外部工具擷取之設定檔資料的檔案。
+* [載入檔案](../../automating/using/load-file.md)活動會上傳包含從外部工具擷取之輪廓資料的檔案。
 
   例如：
 
@@ -51,5 +52,5 @@ ht-degree: 87%
 ![](assets/readaudience_activity_example2.png)
 
 * [讀取對象](../../automating/using/read-audience.md)活動會上傳在匯入工作流程中建立的檔案對象。 尚未與 Adobe Campaign 資料庫調和客群資料。
-* [調和](../../automating/using/reconciliation.md)活動會透過 **[!UICONTROL Identification]** 索引標籤，將傳入資料識別為設定檔。例如，使用&#x200B;**電子郵件**&#x200B;欄位作為調和標準。
-* [更新資料](../../automating/using/update-data.md)活動將插入和更新包含傳入資料之資料庫的設定檔資源。由於已將資料識別為設定檔，您可以選取 **[!UICONTROL Directly using the targeting dimension]** 選項，然後再選取活動之 **[!UICONTROL Identification]** 索引標籤中的 **[!UICONTROL Profiles]**。之後，您只需要在隨後出現的索引標籤中新增需要更新的欄位清單即可。
+* [調和](../../automating/using/reconciliation.md)活動會透過 **[!UICONTROL Identification]** 索引標籤，將傳入資料識別為輪廓。例如，使用&#x200B;**電子郵件**&#x200B;欄位作為調和標準。
+* [更新資料](../../automating/using/update-data.md)活動將插入和更新包含傳入資料之資料庫的輪廓資源。由於已將資料識別為輪廓，您可以選取 **[!UICONTROL Directly using the targeting dimension]** 選項，然後再選取活動之 **[!UICONTROL Identification]** 索引標籤中的 **[!UICONTROL Profiles]**。之後，您只需要在隨後出現的索引標籤中新增需要更新的欄位清單即可。

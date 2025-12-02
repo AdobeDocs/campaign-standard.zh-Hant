@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 5882ada6-dff4-4fd1-a433-0eb31570f73c
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 0%
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # 疑難排解{#troubleshooting}
 
-使用與Audience Manager或People核心服務整合時可能會發生錯誤。
+與Audience Manager或People核心服務整合使用時，可能會發生錯誤。
 
 在此情況下，請確定下列元素已正確設定：
 
@@ -46,6 +47,6 @@ ht-degree: 0%
    * AES的&#x200B;**加密IV** （初始化向量）
    * **頻道** （電子郵件/簡訊/其他）：此欄位允許直接解密電子郵件地址和簡訊號碼。 確定調解金鑰符合&#x200B;**管道**&#x200B;欄位的設定。 如果您選取[其他]，將不會發生這個特定的解密，而且調解金鑰將會用來調解資料。
 
-  Experience Cloud對象可能不會共用，因為技術工作流程已停止或暫停。 直接按一下資料來源中的&#x200B;**[!UICONTROL Show ImportShared Audience workflow]**&#x200B;選項，存取&#x200B;**[!UICONTROL Import shared audience]**&#x200B;工作流程。
+  Experience Cloud對象可能不會共用，因為技術工作流程已停止或暫停。 直接按一下資料來源中的&#x200B;**[!UICONTROL Import shared audience]**&#x200B;選項，存取&#x200B;**[!UICONTROL Show ImportShared Audience workflow]**&#x200B;工作流程。
 
 透過People核心服務共用對象或匯入對象時，可能會遺失部分資料。 只有其ID （「訪客ID」或「宣告ID」）能夠與設定檔維度調解的記錄才會轉移。 Adobe Campaign無法辨識的People核心服務區段之ID不會匯入。

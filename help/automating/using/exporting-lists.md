@@ -5,10 +5,11 @@ audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: b39ce1f6-0c5b-4270-86a1-b79c49cd199c
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 5%
@@ -23,7 +24,7 @@ Adobe Campaign可讓您直接將清單匯出至檔案中，以供日後使用。
 
 匯出清單選項預設會匯出最多100,000行，並由&#x200B;**Nms_ExportListLimit**&#x200B;選項定義。 此選項可由功能管理員在&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**&#x200B;功能表下管理。
 
-擁有&#x200B;**[!UICONTROL EXPORT (export)]**&#x200B;角色的使用者，可在所有具有&#x200B;**清單**&#x200B;模式檢視的畫面中使用匯出清單。
+擁有&#x200B;**角色的使用者，可在所有具有**&#x200B;清單&#x200B;**[!UICONTROL EXPORT (export)]**&#x200B;模式檢視的畫面中使用匯出清單。
 
 1. 移至您選擇的&#x200B;**清單**&#x200B;畫面。 例如，測試設定檔總覽畫面( **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]** )。
 1. 檢查熒幕是否處於&#x200B;**清單**&#x200B;模式。

@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: schedule,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 39f7b216-b3cd-4aa6-b5df-23e6805076df
-source-git-commit: 6107f5e43b25037f7f5a7f130922a3a22d0047af
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '877'
 ht-degree: 52%
@@ -62,7 +63,7 @@ ht-degree: 52%
 
    將執行頻率設定為&#x200B;**[!UICONTROL Several times a day]**&#x200B;時，您可以彈性選擇在一天中的特定時間執行工作流程，或是在一天中定期執行。
 
-+++ 瞭解如何設定&#x200B;**[!UICONTROL "Several times a day"]**&#x200B;執行頻率
+   +++ 瞭解如何設定&#x200B;**[!UICONTROL "Several times a day"]**&#x200B;執行頻率
 
    * 若要在一天中的特定時間多次執行工作流程，請開啟&#x200B;**[!UICONTROL Specific times]**&#x200B;選項，然後按一下&#x200B;**[!UICONTROL Add an element]**&#x200B;以指定想要的執行時間。 視需要多次新增，以符合您的需求。
 
@@ -74,7 +75,7 @@ ht-degree: 52%
          >
          >此選項也允許每日、每月或每年重複頻率。 請注意，在此情況下，工作流程將不會一天執行數次，而是根據您在此欄位中指定的頻率來執行。
          >
-         > 如果您的工作流程在一天內不需要多次執行，而是需要每日、每月或每年執行，建議您使用&#x200B;**[!UICONTROL Execution frequency]**&#x200B;下拉式清單中的&#x200B;**[!UICONTROL Daily]**、**[!UICONTROL Monthly]**&#x200B;或&#x200B;**[!UICONTROL Yearly]**&#x200B;選項。
+         > 如果您的工作流程在一天內不需要多次執行，而是需要每日、每月或每年執行，建議您使用&#x200B;**[!UICONTROL Daily]**&#x200B;下拉式清單中的&#x200B;**[!UICONTROL Monthly]**、**[!UICONTROL Yearly]**&#x200B;或&#x200B;**[!UICONTROL Execution frequency]**&#x200B;選項。
 
       1. 在&#x200B;**[!UICONTROL Start]**/**[!UICONTROL End]**&#x200B;時間欄位中，定義工作流程執行的開始和結束時間。
 
@@ -86,7 +87,7 @@ ht-degree: 52%
 
    ![](assets/wkf_scheduler_day.png)
 
-+++
+   +++
 
 1. 指定執行將於何時過期：
 

@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: dedup,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 631eb661-a696-4352-aa58-9097b391723e
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 83%
@@ -24,7 +25,7 @@ ht-degree: 83%
 
 ![](assets/deduplication_example2_workflow.png)
 
-* 已使用[載入檔案](../../automating/using/load-file.md)活動匯入包含設定檔清單的檔案。 在此範例中，匯入的檔案使用 .csv 格式並包含 10 個設定檔：
+* 已使用[載入檔案](../../automating/using/load-file.md)活動匯入包含設定檔清單的檔案。 在此範例中，匯入的檔案使用 .csv 格式並包含 10 個輪廓：
 
   ```
   lastname;firstname;dateofbirth;email
@@ -44,15 +45,15 @@ ht-degree: 83%
 
   ![](assets/deduplication_example2_fileloading.png)
 
-* [重複資料刪除](../../automating/using/deduplication.md)活動。 會在匯入檔案之後以及將資料插入資料庫之前直接執行重複刪除資料。因此，應以來自 **[!UICONTROL Load file]** 活動的 **[!UICONTROL Temporary resource]** 為基礎。
+* [重複資料刪除](../../automating/using/deduplication.md)活動。 會在匯入檔案之後以及將資料插入資料庫之前直接執行重複資料刪除。因此，應以來自 **[!UICONTROL Load file]** 活動的 **[!UICONTROL Temporary resource]** 為基礎。
 
   在此範例中，我們希望為檔案包含的每個獨特電子郵件保留單一項目。因此，會在暫時資源的&#x200B;**電子郵件**&#x200B;列上執行重複身份識別。但是有兩個電子郵件地址在檔案中出現兩次。因此，會將這兩行視為重複項目。
 
   ![](assets/deduplication_example2_dedup.png)
 
-* [更新資料](../../automating/using/update-data.md)活動可讓您將重複資料刪除程式期間保留的資料插入資料庫。 只有當更新資料時，才會將匯入的資料識別為屬於該設定檔維度。
+* [更新資料](../../automating/using/update-data.md)活動可讓您將重複資料刪除程式期間保留的資料插入資料庫。 只有當更新資料時，才會將匯入的資料識別為屬於該輪廓維度。
 
-  我們在此希望 **[!UICONTROL Insert only]** 資料庫尚未存在的設定檔。我們希望使用來自&#x200B;**Profile**&#x200B;維度（與調解金鑰相同）之檔案的電子郵件欄及電子郵件欄位，來執行這項作業。
+  我們在此希望 **[!UICONTROL Insert only]** 資料庫尚未存在的輪廓。我們希望使用來自&#x200B;**Profile**&#x200B;維度（與調解金鑰相同）之檔案的電子郵件欄及電子郵件欄位，來執行這項作業。
 
   ![](assets/deduplication_example2_writer1.png)
 
@@ -60,4 +61,4 @@ ht-degree: 83%
 
   ![](assets/deduplication_example2_writer2.png)
 
-然後開始進行工作流程。之後，會將從重複資料刪除程序期間儲存的記錄新增到資料庫中的設定檔。
+然後開始進行工作流程。之後，會將從重複資料刪除程序期間儲存的記錄新增到資料庫中的輪廓。

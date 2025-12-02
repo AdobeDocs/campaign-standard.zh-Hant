@@ -5,12 +5,13 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: d67a796a-0730-4502-802c-d0b3583dd1dc
 hide: true
 hidefromtoc: true
-source-git-commit: 110f3ccb5865e70c78e18485b4ff4ba7a648af3f
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 6%
@@ -21,11 +22,11 @@ ht-degree: 6%
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform Data Connector目前為測試版，可能會經常更新，恕不另行通知。 客戶需在Azure上代管（目前僅限北美地區使用Beta版）才能存取這些功能。 如果您想要存取許可權，請聯絡Adobe客戶服務。
+>Adobe Experience Platform Data Connector目前為測試版，可能會經常更新，恕不另行通知。 客戶需在Azure上代管（目前僅限北美地區使用Beta版）才能存取這些功能。 如果您想要存取，請聯絡Adobe客戶服務。
 
 Adobe Campaign Standard可讓您透過API觸發立即擷取資料對應，並擷取擷取要求的狀態。
 
-此頁面說明如何觸發及擷取資料對應的擷取狀態。 如需Campaign StandardAPI的全球資訊，請參閱[本節](../../api/using/get-started-apis.md)。
+此頁面說明如何觸發及擷取資料對應的擷取狀態。 如需Campaign Standard API的全球資訊，請參閱[本節](../../api/using/get-started-apis.md)。
 
 ## 先決條件 {#prerequisites}
 
@@ -36,7 +37,7 @@ Adobe Campaign Standard可讓您透過API觸發立即擷取資料對應，並擷
 
 建立資料對應後，您必須將其停止執行，以便您隨時可以從API觸發。 要執行此操作，請依照下列步驟執行：
 
-1. 在Campaign Standard中，移至&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]**&#x200B;功能表。
+1. 在Campaign Standard中，前往&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]**&#x200B;功能表。
 
 1. 連按兩下資料對應以開啟它，然後按一下&#x200B;**[!UICONTROL Stop]**&#x200B;按鈕。
 
@@ -44,7 +45,7 @@ Adobe Campaign Standard可讓您透過API觸發立即擷取資料對應，並擷
 
 1. 儲存您的變更
 
-資料對應執行現已停止。 您可以使用Campaign Standard API來手動觸發。
+資料對應執行現已停止。 您可以使用Campaign Standard API手動觸發。
 
 ## 開始立即擷取資料對應 {#starting-immediate-ingestion}
 
@@ -54,7 +55,7 @@ Adobe Campaign Standard可讓您透過API觸發立即擷取資料對應，並擷
 
 >[!NOTE]
 >
->為了執行內嵌POSTAPI呼叫，使用者必須具有&#x200B;**SQL函式執行**&#x200B;角色，該角色可由Campaign Standard管理員透過執行以下JS指令碼來提供：
+>為了執行內嵌POST API呼叫，使用者必須擁有&#x200B;**SQL函式執行**&#x200B;角色，此角色可由Campaign Standard管理員透過執行以下JS指令碼來提供：
 >
 >```
 >var sqlRoleObj = REST.head.roleBase.sql.get();
@@ -62,7 +63,7 @@ Adobe Campaign Standard可讓您透過API觸發立即擷取資料對應，並擷
 >```
 >
 
-POST作業會傳回關於已建立請求狀態的資訊：
+POST作業會傳回有關已建立請求狀態的資訊：
 
 * 已成功提交XDM對應的請求：
 
@@ -108,16 +109,16 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 
 >[!NOTE]
 >
->有關XDM對應要求狀態及其相關工作的詳細資訊，可在&#x200B;**[!UICONTROL Status of data export to platform]**&#x200B;功能表的Campaign Standard介面中取得（請參閱[對應啟動](../../integrating/using/aep-mapping-activation.md)）。
+>有關XDM對應要求狀態及其相關工作的詳細資訊，可在Campaign Standard介面的&#x200B;**[!UICONTROL Status of data export to platform]**&#x200B;功能表中取得（請參閱[對應啟動](../../integrating/using/aep-mapping-activation.md)）。
 
-GET作業會傳回下列資訊：
+GET作業會傳回以下資訊：
 
 * **batchId**：只有在批次準備和上傳後發生失敗時，才會填入此欄位。
 * **資訊**： XDM對應ID，
 * **numRecords**：已擷取的記錄數（僅限成功狀態），
 * **狀態**：擷取要求狀態（成功/失敗/進行中）
 
-對GET作業的可能回應為：
+GET作業的可能回應包括：
 
 * 擷取請求成功：
 

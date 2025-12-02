@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: incremental,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 18d6ffc0-cfc3-436e-8f0c-ea9c307541e4
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 94%
@@ -24,7 +25,7 @@ ht-degree: 94%
 
 **[!UICONTROL Incremental query]** 活動可讓您從 Adobe Campaign 資料庫中篩選及擷取元素總量。每次執行此活動時，都會排除先前執行的結果。這可讓您只鎖定新元素。
 
-您可以透過專用索引標籤來定義目標母體的　**[!UICONTROL Additional data]**。此資料會儲存在其他欄中，且僅能用於進行中的工作流程。
+您可以透過專用索引標籤來定義目標群體的　**[!UICONTROL Additional data]**。此資料會儲存在其他欄中，且僅能用於進行中的工作流程。
 
 活動使用查詢編輯器工具。[專屬區段](../../automating/using/editing-queries.md#about-query-editor)中會詳細說明此工具。
 
@@ -50,9 +51,9 @@ ht-degree: 94%
 
 1. 將 **[!UICONTROL Incremental query]** 活動拖放至工作流程中。
 1. 選取活動，然後使用所顯示快速動作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
-1. 如果要對設定檔案資源以外的資源運行查詢，請轉至活動的 **[!UICONTROL Properties]** 索引標籤，然後選取 **[!UICONTROL Resource]** 和　**[!UICONTROL Targeting dimension]**。
+1. 如果要對輪廓案資源以外的資源運行查詢，請轉至活動的 **[!UICONTROL Properties]** 索引標籤，然後選取 **[!UICONTROL Resource]** 和　**[!UICONTROL Targeting dimension]**。
 
-   **[!UICONTROL Resource]** 可讓您調整浮動視窗中顯示的篩選條件，而與所選資源相關的 **[!UICONTROL Targeting dimension]**，則與您要取得的母體類型（識別的設定檔、傳送、連結至所選資源的資料等）相對應。
+   **[!UICONTROL Resource]** 可讓您調整浮動視窗中顯示的篩選條件，而與所選資源相關的 **[!UICONTROL Targeting dimension]**，則與您要取得的群體類型（識別的輪廓、傳送、連結至所選資源的資料等）相對應。
 
 1. 在 **[!UICONTROL Target]** 索引標籤，定義並結合規則以執行查詢。
 1. 在 **[!UICONTROL Processed data]** 索引標籤中，選取要用於工作流下一個執行的增量模式：
@@ -68,7 +69,7 @@ ht-degree: 94%
 
    ![](assets/incremental_query_usedatefield.png)
 
-1. 您可以透過專用索引標籤來定義目標母體的　**[!UICONTROL Additional data]**。此資料會儲存在其他欄中，且僅能用於進行中的工作流程。尤其是，您可以從連結至查詢目標維度的 Adobe Campaign 資料庫表格新增資料。請參閱[擴充資料](../../automating/using/query.md#enriching-data)區段。
+1. 您可以透過專用索引標籤來定義目標群體的　**[!UICONTROL Additional data]**。此資料會儲存在其他欄中，且僅能用於進行中的工作流程。尤其是，您可以從連結至查詢目標維度的 Adobe Campaign 資料庫表格新增資料。請參閱[擴充資料](../../automating/using/query.md#enriching-data)區段。
 1. 確認活動的設定並儲存工作流程。
 
 ## 豐富資料 {#enriching-data}

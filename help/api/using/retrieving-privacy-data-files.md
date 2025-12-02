@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: df06cb86-dba2-41e4-81d0-66f3a86e47bd
-source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 4%
@@ -23,7 +24,7 @@ ht-degree: 4%
 
 若要擷取包含與調解值相關之所有資訊的檔案，請遵循以下三個步驟程式：
 
-1. 執行&#x200B;**POST**&#x200B;要求，以建立具有屬性&#x200B;**type=&quot;access&quot;**&#x200B;的新要求，請參閱[建立新的隱私權要求](../../api/using/creating-a-privacy-request.md)。
+1. 執行&#x200B;**POST**&#x200B;要求，以使用屬性&#x200B;**type=&quot;access&quot;**&#x200B;建立新要求，請參閱[建立新的隱私權要求](../../api/using/creating-a-privacy-request.md)。
 
 1. 執行&#x200B;**GET**&#x200B;要求以擷取有關要求的資訊。
 

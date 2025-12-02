@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: andjoin,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: b03c6df3-0104-4900-9468-46824d62e0a6
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 98%
@@ -34,7 +35,7 @@ ht-degree: 98%
 1. 將 **[!UICONTROL AND-join]** 活動拖放至工作流程中。
 1. 在您要同步的兩個不同分支之後，再連接它。
 1. 選取活動，然後使用所顯示快速動作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
-1. 選取要保留在出站轉變中的主集。如果您未選取任何集合，則會從活動傳送隨機母體。
+1. 選取要保留在出站轉變中的主集。如果您未選取任何集合，則會從活動傳送隨機群體。
 1. 確認活動的設定並儲存工作流程。
 
 ## 範例 {#example}

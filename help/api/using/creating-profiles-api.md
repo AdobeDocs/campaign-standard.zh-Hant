@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 69e8d034-6bdd-4b82-bcd7-1ef4be0a59b3
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 0%
@@ -17,13 +18,13 @@ ht-degree: 0%
 
 # 使用API建立設定檔 {#creating-profiles-api}
 
-建立設定檔是透過設定檔資源上的&#x200B;**POST**&#x200B;要求執行的。
+在設定檔資源上使用&#x200B;**POST**&#x200B;要求執行建立設定檔。
 
 >[!CAUTION]
 >
 >如果您想要將<b>orgUnit</b>與建立的設定檔建立關聯，您必須使用這個欄位擴充設定檔資源，並在擴充功能發佈之後，在<b>ProfileAndServicesExt</b>端點上執行POST要求。
 >
->如需設定檔資源擴充功能的詳細資訊，請參閱<a href="https://helpx.adobe.com/tw/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">Campaign檔案</a>。
+>如需設定檔資源擴充功能的詳細資訊，請參閱<a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">Campaign檔案</a>。
 
 <br/>
 

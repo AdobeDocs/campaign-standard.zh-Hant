@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 61683639-3f71-4652-a138-acfc0e91e868
-source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 12%
@@ -17,7 +18,7 @@ ht-degree: 12%
 
 # 在 Experience Manager 中建立 Campaign 表單 {#creating-a-campaign-form-in-experience-manager}
 
-您可以在AEM網站上建立「表單」，並將表單中的欄位對應至Adobe Campaign資料庫中的欄位。 這可讓您建立和更新設定檔，或管理服務的訂閱。
+您可以在您的AEM網站上建立「表單」，並將表單中的欄位對應至Adobe Campaign資料庫中的欄位。 這可讓您建立和更新設定檔，或管理服務的訂閱。
 
 若要在您的AEM網站上建立Adobe Campaign表單：
 
@@ -38,4 +39,4 @@ ht-degree: 12%
 1. 新增可對應至Adobe Campaign資料庫欄位的不同欄位和元件，以編輯表單內容。
 1. 測試並發佈表單，使其可在您的AEM網站上存取。
 
-如需詳細資訊，請參閱[詳細文件](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/adobe-campaign-forms.html?lang=zh-Hant)以瞭解詳情。
+如需詳細資訊，請參閱[詳細說明文件](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/adobe-campaign-forms.html)。

@@ -1,14 +1,15 @@
 ---
 title: 佈建及設定與 Audience Manager 或 People 核心服務的整合
-description: 瞭解如何設定Audience Manager/人員核心服務整合，以便開始與不同的Adobe Experience Cloud解決方案共用受眾或區段。
+description: 瞭解如何設定Audience Manager / People核心服務整合，以便開始與不同的Adobe Experience Cloud解決方案共用受眾或區段。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 feature: People Core Service Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 04d0fe26-a8cc-49ae-aaa9-b470169068ee
-source-git-commit: 60386a9e6e424d76b1de0f2ecbeab48dd06fb354
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 4%
@@ -17,13 +18,13 @@ ht-degree: 4%
 
 # 佈建及設定與 Audience Manager 或 People 核心服務的整合{#integration-with-audience-manager-or-people-core-service}
 
-在Adobe Campaign中布建及設定Audience Manager與People核心有兩個步驟：[提交要求給Adobe](#submitting-request-to-adobe) [在Adobe Campaign中設定整合](#configuring-the-integration-in-adobe-campaign)。
+在Adobe Campaign中布建及設定Audience Manager與People核心有兩個步驟：[將請求提交至Adobe](#submitting-request-to-adobe) [在Adobe Campaign中設定整合](#configuring-the-integration-in-adobe-campaign)。
 
-## 正在提交要求給Adobe {#submitting-request-to-adobe}
+## 向Adobe提交請求 {#submitting-request-to-adobe}
 
 Audience Manager (AAM)或People核心服務整合可讓您匯入和匯出Adobe Campaign中的對象或區段。
 
-必須先設定此整合。若要請求布建此整合，請聯絡Adobe支援並提供下列資訊：
+必須先設定此整合。若要請求布建此整合，請聯絡Adobe支援，並提供下列資訊：
 
 <table> 
  <tbody> 
@@ -99,13 +100,13 @@ Audience Manager (AAM)或People核心服務整合可讓您匯入和匯出Adobe C
 
    ![](assets/integration_aam_2.png)
 
-1. 在&#x200B;**[!UICONTROL Data Source/ Alias]**&#x200B;下拉式清單中選擇&#x200B;**[!UICONTROL Adobe Campaign]**。
+1. 在&#x200B;**[!UICONTROL Adobe Campaign]**&#x200B;下拉式清單中選擇&#x200B;**[!UICONTROL Data Source/ Alias]**。
 1. 輸入Adobe提供的&#x200B;**[!UICONTROL AAM Destination ID]**。
 
    ![](assets/integration_aam_3.png)
 
 1. 在&#x200B;**[!UICONTROL Reconciliation process]**&#x200B;類別中，我們建議您不要變更調解條件，並一律使用&#x200B;**[!UICONTROL Visitor ID]**。
-1. 按一下&#x200B;**[!UICONTROL Save]**。
+1. 按一下 **[!UICONTROL Save]**。
 
 若要建立&#x200B;**[!UICONTROL Declared ID]**&#x200B;資料來源：
 
@@ -114,11 +115,11 @@ Audience Manager (AAM)或People核心服務整合可讓您匯入和匯出Adobe C
 1. 在&#x200B;**[!UICONTROL Data Source/ Alias]**&#x200B;下拉式清單中，選擇與Audience Manager中&#x200B;**[!UICONTROL DeclaredID]**&#x200B;資料來源對應的資料Source。
 1. 輸入Adobe提供的&#x200B;**[!UICONTROL Data Source / Alias]**&#x200B;和&#x200B;**[!UICONTROL AAM Destination ID]**&#x200B;來設定您的資料來源。
 1. 視需要設定&#x200B;**[!UICONTROL Reconciliation process]**。
-1. 按一下&#x200B;**[!UICONTROL Save]**。
+1. 按一下 **[!UICONTROL Save]**。
 
 >[!NOTE]
 >
->如果您正在設定[Campaign-Triggers整合](../../integrating/using/configuring-triggers-in-experience-cloud.md)的共用資料來源，則不需要&#x200B;**[!UICONTROL AAM Destination ID]**&#x200B;欄位。 只有在設定Triggers - Campaign整合時才需要&#x200B;**[!UICONTROL Priority]**。 優先順序會決定先設定哪個Data Source。 優先順序可以是任何數字，例如1或100。 優先順序越高，調解期間的偏好設定就越高。
+>如果您正在設定&#x200B;**[!UICONTROL AAM Destination ID]** Campaign-Triggers整合[的共用資料來源，則不需要](../../integrating/using/configuring-triggers-in-experience-cloud.md)欄位。 只有在設定Triggers - Campaign整合時才需要&#x200B;**[!UICONTROL Priority]**。 優先順序會決定先設定哪個Data Source。 優先順序可以是任何數字，例如1或100。 優先順序越高，調解期間的偏好設定就越高。
 
 ### 步驟3：設定Campaign追蹤伺服器 {#step-3--configure-campaign-tracking-server}
 
@@ -132,8 +133,8 @@ Audience Manager (AAM)或People核心服務整合可讓您匯入和匯出Adobe C
 
 ### 步驟4：設定訪客ID服務 {#step-4--configure-the-visitor-id-service}
 
-如果您的訪客ID服務從未在您的Web屬性或網站上設定過，請參閱下列[檔案](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html?lang=zh-Hant)以瞭解如何設定您的服務或下列[影片](https://helpx.adobe.com/tw/marketing-cloud/how-to/email-marketing.html#step-two)。
+如果您的訪客ID服務從未在您的Web屬性或網站上設定過，請參閱下列[檔案](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html)以瞭解如何設定您的服務或下列[影片](https://helpx.adobe.com/tw/marketing-cloud/how-to/email-marketing.html#step-two)。
 
-使用Experience Cloud識別碼服務中的`setCustomerID`函式將客戶識別碼與宣告的識別碼同步，整合代碼： `AdobeCampaignID`。 `AdobeCampaignID`應該符合[步驟2：設定資料來源](#step-2--configure-the-data-sources)中設定的收件者資料Source中設定的調解金鑰值。
+使用Experience Cloud ID服務中的`setCustomerID`函式與整合代碼`AdobeCampaignID`將客戶識別碼與宣告ID同步。 `AdobeCampaignID`應該符合[步驟2：設定資料來源](#step-2--configure-the-data-sources)中設定的收件者資料Source中設定的調解金鑰值。
 
 您的設定和布建已完成，整合現在可用於匯入和匯出對象或區段。

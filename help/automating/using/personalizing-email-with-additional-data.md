@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: query,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: b207dc73-03dc-4f25-95e5-573e4b4bce54
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 81%
@@ -22,11 +23,11 @@ ht-degree: 81%
 
 在此範例中，會使用[自訂資源](../../developing/using/data-model-concepts.md)：
 
-* 擴充&#x200B;**設定檔**&#x200B;資源，以便新增欄位，以儲存每個設定檔的忠誠度點數。
-* 已建立&#x200B;**交易**&#x200B;資源，並識別資料庫中設定檔案執行的所有採購。系統會針對每筆交易儲存購買的日期、價格和產品。
+* 擴充&#x200B;**輪廓**&#x200B;資源，以便新增欄位，以儲存每個輪廓的忠誠度點數。
+* 已建立&#x200B;**交易**&#x200B;資源，並識別資料庫中輪廓案執行的所有採購。系統會針對每筆交易儲存購買的日期、價格和產品。
 * 已建立&#x200B;**產品**&#x200B;資源，並參考可供購買的產品。
 
-目標是將電子郵件傳送到至少已儲存一個交易的設定檔。透過這封電子郵件，客戶將會收到上次交易的提醒，以及其所有交易的概述：購買的產品數、總花費、提醒已累計的忠誠度點數總數。
+目標是將電子郵件傳送到至少已儲存一個交易的輪廓。透過這封電子郵件，客戶將會收到上次交易的提醒，以及其所有交易的概觀：購買的產品數、總花費、提醒已累計的忠誠度點數總數。
 
 工作流程如下：
 
@@ -38,7 +39,7 @@ ht-degree: 81%
 
 1. 從查詢的 **[!UICONTROL Additional data]** 索引標籤中，定義要顯示在最終電子郵件中的不同資料：
 
-   * 對應於忠誠點的&#x200B;**設定檔**&#x200B;維度的簡單欄位。請參閱[新增簡單欄位](../../automating/using/query.md#adding-a-simple-field)區段。
+   * 對應於忠誠點的&#x200B;**輪廓**&#x200B;維度的簡單欄位。請參閱[新增簡單欄位](../../automating/using/query.md#adding-a-simple-field)區段。
    * 根據交易收集進行兩個彙總：購買的產品數量和花費的總金額。您可以使用 **Count** 及 **Sum** 彙總，從彙總設定視窗的 **[!UICONTROL Data]** 索引標籤新增他們。請參閱[新增彙總](../../automating/using/query.md#adding-an-aggregate)區段。
    * 傳回已生效之上次交易之花費金額、日期和產品的集合。
 
@@ -58,4 +59,4 @@ ht-degree: 81%
 
    ![](assets/enrichment_example3.png)
 
-您的工作流程現在已可以執行。查詢中定位的設定檔將會收到包含其交易所計算資料的個人化電子郵件。
+您的工作流程現在已可以執行。查詢中定位的輪廓將會收到包含其交易所計算資料的個人化電子郵件。

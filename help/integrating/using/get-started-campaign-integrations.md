@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: get-started-campaign-integrations
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: ecf88c7d-6729-4b3a-85c4-60427bb57442
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 78%
@@ -27,7 +28,7 @@ ht-degree: 78%
 
 根據您的環境而定，其他解決方案也可以連結至 Adobe Experience Cloud。它們作為「組織」（又稱為「租戶」）連結。
 
-組織是可以讓管理員設定群組和使用者，以及控制 Experience Cloud 中單一登入的實體。組織的運作方式類似登入公司，其涵蓋所有 Experience Cloud 產品和解決方案。通常，組織就是您的公司名稱。但是，一個公司可以有許多組織。使用者和組織管理在 [Adobe Experience Cloud 說明入口網站](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=zh-Hant)中有詳細解說。
+組織是可以讓管理員設定群組和使用者，以及控制 Experience Cloud 中單一登入的實體。組織的運作方式類似登入公司，其涵蓋所有 Experience Cloud 產品和解決方案。通常，組織就是您的公司名稱。但是，一個公司可以有許多組織。使用者和組織管理在 [Adobe Experience Cloud 說明入口網站](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html)中有詳細解說。
 
 如果您想要將其他系統的資料流程與 Adobe Campaign 整合，請參閱我們的 [API 文件](../../api/using/get-started-apis.md)。
 
@@ -49,14 +50,14 @@ ht-degree: 78%
    <td> Adobe Experience Manager<br /> </td> 
    <td> 可讓您直接在 Adobe Experience Manager 中建立對應至 Adobe Campaign 資料庫的電子郵件內容或表單。<br /> </td> 
    <td> 
-     <a href="../../integrating/using/integrating-with-experience-manager.md">使用行銷活動和Experience Manager</a>，<a href="https://helpx.adobe.com/tw/experience-manager/6-4/sites/administering/using/campaignstandard.html">整合Experience Manager和Campaign Standard</a>，<a href="https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html?lang=zh-Hant">建立包含Experience Manager和行銷活動的電子郵件</a> 
+     <a href="../../integrating/using/integrating-with-experience-manager.md">使用Campaign和Experience Manager</a>，<a href="https://helpx.adobe.com/tw/experience-manager/6-4/sites/administering/using/campaignstandard.html">整合Experience Manager和Campaign Standard</a>，<a href="https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html">使用Experience Manager和Campaign建立電子郵件</a> 
     </td> 
   </tr> 
   <tr> 
    <td> Adobe Target<br /> </td> 
    <td> 可讓您在開啟由 Adobe Campaign 建立和發傳送的電子郵件活動時插入由 Adobe Target 動態運算的影像。<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-target-integration.md">使用Campaign和Target</a>，<a href="https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=zh-Hant">整合Campaign和Target</a>，<a href="https://helpx.adobe.com/tw/marketing-cloud/how-to/email-marketing.html">在即時影片中個人化電子郵件影像</a> （步驟3）
+    <a href="../../integrating/using/about-campaign-target-integration.md">使用Campaign和Target</a>，<a href="https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html">整合Campaign和Target</a>，<a href="https://helpx.adobe.com/tw/marketing-cloud/how-to/email-marketing.html">在即時影片中個人化電子郵件影像</a> （步驟3）
     </td> 
   </tr> 
   <tr> 
@@ -67,17 +68,17 @@ ht-degree: 78%
     </td> 
   </tr> 
   <tr> 
-   <td> Adobe Audience Manager 與人員核心服務（設定檔與觀眾）<br /> </td> 
+   <td> Adobe Audience Manager 與人員核心服務 (輪廓與客群)<br /> </td> 
    <td> 可讓您使用的不同 Adobe Experience Cloud 應用程式交換客群。<br /> </td> 
    <td> <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">People 服務核心 (輪廓與客群)</a><br /> </td> 
   </tr> 
    <tr> 
    <td> Adobe Real-time Customer Data Platform (RTCDP)<br /> </td> 
-   <td> Adobe Campaign與Adobe Real-time Customer Data Platform (RTCDP)的整合可讓您共用區段資料，並將受眾匯入至Adobe Campaign。</td>
+   <td> Adobe Campaign與Adobe Real-time Customer Data Platform (RTCDP)之間的整合可讓您共用區段資料，並將受眾匯入至Adobe Campaign。</td>
    <td><a href="../../integrating/using/get-started-sources-destinations.md">開始使用來源和目標</a></td>
   </tr> 
   <tr> 
-   <td> Adobe資產核心服務與Assets On Demand <br /> </td> 
+   <td> Adobe資產核心服務與Assets On Demand<br /> </td> 
    <td> 可讓您將 Adobe Experience Cloud 資料庫中的資產插入到 Adobe Campaign 中建立的電子郵件和登錄頁中。<br /> </td> 
    <td> <a href="../../integrating/using/working-with-campaign-and-assets-core-service.md">資產核心服務</a> 或隨選資產<br /> </td> 
   </tr> 
@@ -94,9 +95,9 @@ ht-degree: 78%
     </td> 
   </tr> 
     <tr> 
-   <td> AdobeJourney Orchestration<br /> </td> 
-   <td> 允許透過現成可用的動作，在AdobeJourney Orchestration的內容中使用Adobe Campaign Standard的交易式訊息功能來傳送電子郵件、推播通知和簡訊。<br /> </td> 
-   <td> <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/working-with-adobe-campaign.html?lang=zh-Hant">使用AdobeJourney Orchestration和Adobe Campaign Standard</a><br /> </td> 
+   <td> Adobe Journey Orchestration<br /> </td> 
+   <td> 允許透過開箱即用的動作，在Adobe Journey Orchestration的內容中使用Adobe Campaign Standard的異動訊息功能來傳送電子郵件、推播通知和簡訊。<br /> </td> 
+   <td> <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/working-with-adobe-campaign.html">使用Adobe Journey Orchestration和Adobe Campaign Standard</a><br /> </td> 
   </tr> 
   <tr> 
    <td> Adobe Dreamweaver<br /> </td> 

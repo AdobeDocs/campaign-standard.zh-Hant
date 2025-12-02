@@ -5,10 +5,11 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 5974a52c-8721-4575-b452-2982d6497235
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1176'
 ht-degree: 1%
@@ -79,7 +80,7 @@ ht-degree: 1%
 
    * 在前兩個子集中未選取的所有記錄都會在&#x200B;**[!UICONTROL Complement]**&#x200B;中選取。
 
-1. 設定位於先前設定之&#x200B;**[!UICONTROL Segmentation]**&#x200B;活動的第一個出站轉變之後的&#x200B;**[!UICONTROL Update data]**&#x200B;活動。
+1. 設定位於先前設定之&#x200B;**[!UICONTROL Update data]**&#x200B;活動的第一個出站轉變之後的&#x200B;**[!UICONTROL Segmentation]**&#x200B;活動。
 
    * 選取&#x200B;**[!UICONTROL Update]**&#x200B;作為&#x200B;**[!UICONTROL Operation type]**，因為入站轉變僅包含資料庫中已存在的收件者。
    * 在&#x200B;**[!UICONTROL Identification]**&#x200B;索引標籤中，選取&#x200B;**[!UICONTROL Using reconciliation criteria]**&#x200B;並定義&#x200B;**[!UICONTROL Dimension to update]** — 此案例中的設定檔 — 與&#x200B;**[!UICONTROL Reconciliation]**&#x200B;活動中建立的連結之間的索引鍵。 在此範例中，使用&#x200B;**CRM ID**&#x200B;自訂欄位。
@@ -105,7 +106,7 @@ ht-degree: 1%
 
    ![](assets/import_template_example7.png)
 
-1. 設定位於先前設定的&#x200B;**[!UICONTROL Deduplication]**&#x200B;活動之後的&#x200B;**[!UICONTROL Update data]**&#x200B;活動。
+1. 設定位於先前設定的&#x200B;**[!UICONTROL Update data]**&#x200B;活動之後的&#x200B;**[!UICONTROL Deduplication]**&#x200B;活動。
 
    * 選取&#x200B;**[!UICONTROL Insert only]**&#x200B;作為&#x200B;**[!UICONTROL Operation type]**，因為入站轉變只包含資料庫中不存在的設定檔。
    * 在&#x200B;**[!UICONTROL Identification]**&#x200B;索引標籤中，選取&#x200B;**[!UICONTROL Using reconciliation criteria]**&#x200B;並定義&#x200B;**[!UICONTROL Dimension to update]** — 此案例中的設定檔 — 與&#x200B;**[!UICONTROL Reconciliation]**&#x200B;活動中建立的連結之間的索引鍵。 在此範例中，使用&#x200B;**CRM ID**&#x200B;自訂欄位。

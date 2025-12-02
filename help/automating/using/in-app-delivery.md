@@ -5,10 +5,11 @@ audience: automating
 content-type: reference
 topic-tags: channel-activities
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 8d5a35c4-e22b-498e-b71c-c5922cf8c2fd
-source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '693'
 ht-degree: 39%
@@ -33,11 +34,11 @@ ht-degree: 39%
 
 ## 設定 {#configuration}
 
-1. 將&#x200B;**[!UICONTROL Query]**&#x200B;活動拖放至您的工作流程。 請注意，**[!UICONTROL Properties]**&#x200B;索引標籤中的&#x200B;**[!UICONTROL Query]**&#x200B;活動目標維度需要根據步驟4中選擇的範本進行更新：
+1. 將&#x200B;**[!UICONTROL Query]**&#x200B;活動拖放至您的工作流程。 請注意，**[!UICONTROL Query]**&#x200B;索引標籤中的&#x200B;**[!UICONTROL Properties]**&#x200B;活動目標維度需要根據步驟4中選擇的範本進行更新：
 
-   * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**&#x200B;範本的目標維度應設為&#x200B;**[!UICONTROL mobileApp (mobileAppV5)]**。
-   * **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]**&#x200B;範本的目標維度應設為&#x200B;**[!UICONTROL profile (profile)]**。
-   * **[!UICONTROL Target users based on their Mobile profile (inApp)]**&#x200B;範本的目標維度應設為&#x200B;**[!UICONTROL subscriptions to an application (`nms:appSubscriptionRcp:appSubscriptionRcpDetail`)]**。
+   * **[!UICONTROL mobileApp (mobileAppV5)]**&#x200B;範本的目標維度應設為&#x200B;**[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**。
+   * **[!UICONTROL profile (profile)]**&#x200B;範本的目標維度應設為&#x200B;**[!UICONTROL Target users based on their Campaign profile (inAppProfile)]**。
+   * **[!UICONTROL subscriptions to an application (`nms:appSubscriptionRcp:appSubscriptionRcpDetail`範本的目標維度應設為]**)**[!UICONTROL Target users based on their Mobile profile (inApp)]**。
 
 1. 將 **[!UICONTROL In-App delivery]** 活動拖放至工作流程中。
 1. 選取活動，然後使用所顯示快速動作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
@@ -61,7 +62,7 @@ ht-degree: 39%
 1. 定義您的應用程式內內容。 請參閱關於[應用程式內自訂](../../channels/using/customizing-an-in-app-message.md)的區段。
 1. 依預設，**[!UICONTROL In-App delivery]** 活動不包含任何外站轉變。如果要將出站轉變新增到 **[!UICONTROL In-App delivery]** 活動中，請轉至高階活動選項的　**[!UICONTROL General]**　索引標籤（活動快速動作中的　![](assets/dlv_activity_params-24px.png)　按鈕），然後核取以下選項之一：
 
-   * **[!UICONTROL Add outbound transition without the population]**：這可讓您產生一個外站轉變，其中包含與入站轉變完全相同的母體。
+   * **[!UICONTROL Add outbound transition without the population]**：這可讓您產生一個外站轉變，其中包含與入站轉變完全相同的群體。
    * **[!UICONTROL Add outbound transition with the population]**：這可讓您產生出站轉變，其中包含傳送訊息的母體。 在傳遞準備期間排除的目標成員會從此轉變中排除。
 
    ![](assets/wkf_in_app_5.png)

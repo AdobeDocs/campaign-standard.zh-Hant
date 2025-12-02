@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: query,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 0c26a0f9-9d71-4692-ae86-d47e2df53bb7
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1765'
 ht-degree: 90%
@@ -22,7 +23,7 @@ ht-degree: 90%
 
 ![](assets/query.png)
 
-**[!UICONTROL Query]** 活動可讓您從 Adobe Campaign 資料庫中篩選及擷取元素總量。您可以透過專用索引標籤來定義目標母體的　**[!UICONTROL Additional data]**。此資料會儲存在其他欄中，且僅能用於進行中的工作流程。
+**[!UICONTROL Query]** 活動可讓您從 Adobe Campaign 資料庫中篩選及擷取元素總量。您可以透過專用索引標籤來定義目標群體的　**[!UICONTROL Additional data]**。此資料會儲存在其他欄中，且僅能用於進行中的工作流程。
 
 活動使用查詢編輯器工具。[專屬區段](../../automating/using/editing-queries.md#about-query-editor)中會詳細說明此工具。
 
@@ -42,10 +43,10 @@ ht-degree: 90%
 ## 設定 {#configuration}
 
 1. 將 **[!UICONTROL Query]** 活動拖放至工作流程中。
-1. 選取活動，然後使用所顯示快速動作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。依預設，活動會預先設定為搜尋設定檔。
-1. 如果要對設定檔案資源以外的資源運行查詢，請轉至活動的 **[!UICONTROL Properties]** 索引標籤，然後選取 **[!UICONTROL Resource]** 和　**[!UICONTROL Targeting dimension]**。
+1. 選取活動，然後使用所顯示快速動作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。依預設，活動會預先設定為搜尋輪廓。
+1. 如果要對輪廓案資源以外的資源運行查詢，請轉至活動的 **[!UICONTROL Properties]** 索引標籤，然後選取 **[!UICONTROL Resource]** 和　**[!UICONTROL Targeting dimension]**。
 
-   **[!UICONTROL Resource]** 可讓您調整浮動視窗中顯示的篩選條件，而與所選資源相關的 **[!UICONTROL Targeting dimension]**，則與您要取得的母體類型（識別的設定檔、傳送、連結至所選資源的資料等）相對應。
+   **[!UICONTROL Resource]** 可讓您調整浮動視窗中顯示的篩選條件，而與所選資源相關的 **[!UICONTROL Targeting dimension]**，則與您要取得的群體類型（識別的輪廓、傳送、連結至所選資源的資料等）相對應。
 
    如需詳細資訊，請參閱[目標維度和資源](#targeting-dimensions-and-resources)。
 
@@ -55,7 +56,7 @@ ht-degree: 90%
    >
    >鎖定目標對象時，請注意，系統並未參考該對象的定義，但&#x200B;**已將**&#x200B;複製到查詢中。 如果在查詢中鎖定對象後，您對對象進行了任何變更，請確保再次設定查詢以考慮新定義。
 
-1. 您可以透過專用索引標籤來定義目標母體的　**[!UICONTROL Additional data]**。此資料會儲存在其他欄中，且僅能用於進行中的工作流程。尤其是，您可以從連結至查詢目標維度的 Adobe Campaign 資料庫表格新增資料。請參閱[擴充資料](#enriching-data)區段。
+1. 您可以透過專用索引標籤來定義目標群體的　**[!UICONTROL Additional data]**。此資料會儲存在其他欄中，且僅能用於進行中的工作流程。尤其是，您可以從連結至查詢目標維度的 Adobe Campaign 資料庫表格新增資料。請參閱[擴充資料](#enriching-data)區段。
 
    >[!NOTE]
    >
@@ -140,7 +141,7 @@ ht-degree: 90%
 
 ### 新增彙總 {#adding-an-aggregate}
 
-彙總可讓您從目標維度的欄位或連結至目標維度的維度欄位計算值。例如：設定檔購買的平均金額。
+彙總可讓您從目標維度的欄位或連結至目標維度的維度欄位計算值。例如：輪廓購買的平均金額。
 使用包含查詢的彙總時，其函式可傳回零，然後視為 NULL。使用查詢 **[!UICONTROL Output filtering]** 的索引標籤來篩選彙總值：
 
 * 如果您想要零值，則應對 **[!UICONTROL is null]** 進行篩選。
@@ -180,7 +181,7 @@ ht-degree: 90%
 1. 從 **[!UICONTROL Additional data]** 索引標籤新增元素。
 1. 在開啟的視窗中，選取您要新增至　**[!UICONTROL Expression]**　欄位中的集合。會自動建立　**[!UICONTROL Alias]**。您也可以返回查詢的 **[!UICONTROL Additional data]** 索引標籤，以修改該項目。
 1. 選取 **[!UICONTROL Add]**。隨即開啟新視窗，讓您調整想要顯示的收集資料。
-1. 在 **[!UICONTROL Parameters]** 索引標籤中，選取 **[!UICONTROL Collection]** 並定義要新增的集合行數。例如，如果您想要取得每個設定檔執行的三個最近購買，請在　**[!UICONTROL Number of lines to return]**　欄位中輸入　&quot;3&quot;。
+1. 在 **[!UICONTROL Parameters]** 索引標籤中，選取 **[!UICONTROL Collection]** 並定義要新增的集合行數。例如，如果您想要取得每個輪廓執行的三個最近購買，請在　**[!UICONTROL Number of lines to return]**　欄位中輸入　&quot;3&quot;。
 
    >[!NOTE]
    >
@@ -213,7 +214,7 @@ ht-degree: 90%
 
 在向查詢的資料中新增彙總或集合時，可以根據欄位的值或定義的運算式指定是否要應用排序（無論排序是升序還是降序）。
 
-例如，如果只想保存設定檔案最近執行的交易，請在　**[!UICONTROL Parameters]**　索引標籤的　**[!UICONTROL Number of lines to return]**　欄位中輸入　&quot;1&quot;，然後透過　**[!UICONTROL Sort]**　索引標籤對與交易日期相對應的欄位套用降序排序。
+例如，如果只想保存輪廓案最近執行的交易，請在　**[!UICONTROL Parameters]**　索引標籤的　**[!UICONTROL Number of lines to return]**　欄位中輸入　&quot;1&quot;，然後透過　**[!UICONTROL Sort]**　索引標籤對與交易日期相對應的欄位套用降序排序。
 
 ![](assets/enrichment_sort_data.png)
 
@@ -221,7 +222,7 @@ ht-degree: 90%
 
 新增其他資料後，新 **[!UICONTROL Output filtering]** 索引標籤會出現在　**[!UICONTROL Query]**。此標籤可讓您針對標籤中最初定位的資料套用額外的篩選，**[!UICONTROL Target]** 方法是考量新增的資料。
 
-例如，如果您已將執行至少一個交易的所有設定檔案定位，並且每個設定檔案的平均交易金額的彙總計算都新增到　**[!UICONTROL Additional data]**　中，則可以改善最初使用此平均值計算的母體。
+例如，如果您已將執行至少一個交易的所有輪廓案定位，並且每個輪廓案的平均交易金額的彙總計算都新增到　**[!UICONTROL Additional data]**　中，則可以改善最初使用此平均值計算的群體。
 
 要執行此操作，在 **[!UICONTROL Output filtering]** 索引標籤中，對此額外資料新增條件。
 

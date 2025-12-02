@@ -6,13 +6,14 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: fileImport,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 373e4012-9daf-4da7-aad6-54726d991544
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1366'
-ht-degree: 93%
+ht-degree: 91%
 
 ---
 
@@ -89,7 +90,7 @@ ht-degree: 93%
 
    **[!UICONTROL Column definition]** 索引標籤可讓您精確指定每欄的資料結構，以匯入不含任何錯誤的資料（例如，使用 null 管理），並讓它符合 Adobe Campaign 資料庫中已存在的類型，以供日後作業使用。
 
-   例如，您可以變更欄的標籤，並選取其類型（字串、整數、日期等）或甚至指定錯誤處理。
+   例如，您可以變更欄的標籤，選取其型別（字串、整數、日期等），或甚至指定錯誤處理。
 
    如需詳細資訊，請參閱[欄格式](#column-format)區段。
 

@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 63864f0f-2c22-4a65-86ae-21897031f30a
-source-git-commit: 013293fce8a923e771e10585c41e4ad482003080
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '48'
 ht-degree: 16%
@@ -17,7 +18,7 @@ ht-degree: 16%
 
 # 監控隱私權請求 {#monitoring-a-privacy-request}
 
-您可以使用&#x200B;**GET**&#x200B;要求來監視已建立之隱私權要求的相關資訊。
+您可以使用&#x200B;**GET**&#x200B;請求來監視有關已建立隱私權請求的資訊。
 
 [隱私權管理檔案](../../start/using/privacy-requests.md)中有狀態清單說明。
 
@@ -33,7 +34,7 @@ ht-degree: 16%
 -H 'Content-Type: application/json;charset=utf-8'
 ```
 
-對GET要求的回應。
+回應GET要求。
 
 ```
 {

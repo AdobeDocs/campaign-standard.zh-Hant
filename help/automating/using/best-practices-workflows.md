@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Beginner
 exl-id: 9f5ec2dc-7881-4c68-a5bb-403b01b8b7f8
-source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 77%
@@ -159,7 +160,7 @@ Tasks 索引標籤會詳細說明活動的執行順序。若要取得活動的�
 
 ### 使用傳送記錄檔{#using-delivery-logs}
 
-傳送記錄檔可監控傳送是否成功。排除記錄在準備傳送期間傳回已排除的訊息。傳送記錄檔會提供每個描述檔的傳送狀態。
+傳送記錄檔可監控傳送是否成功。排除記錄在準備傳送期間傳回已排除的訊息。傳送記錄檔會提供每個輪廓的傳送狀態。
 如需詳細資訊，請參閱[瞭解傳送失敗](../../sending/using/understanding-delivery-failures.md)。
 
 ### 使用傳送警報{#delivery-alerting}

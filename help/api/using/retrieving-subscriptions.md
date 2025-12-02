@@ -2,10 +2,11 @@
 title: 擷取訂閱
 description: 瞭解如何使用API擷取訂閱
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 6d935074-3196-45c5-97cd-ccb7c80bbba8
-source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 1%
@@ -19,7 +20,7 @@ ht-degree: 1%
 此程式分為兩個步驟。
 
 1. 擷取所需服務的訂閱URL。
-1. 對訂閱URL執行GET要求。 它會傳回服務的訂閱清單，以及每個相關的設定檔。
+1. 對訂閱URL執行GET請求。 它會傳回服務的訂閱清單，以及每個相關的設定檔。
 
 >[!CAUTION]
 >
@@ -53,7 +54,7 @@ ht-degree: 1%
   },
 ```
 
-對訂閱URL執行GET要求。
+對訂閱URL執行GET請求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions \
@@ -115,7 +116,7 @@ ht-degree: 1%
   }
 ```
 
-對訂閱URL執行GET要求。
+對訂閱URL執行GET請求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \

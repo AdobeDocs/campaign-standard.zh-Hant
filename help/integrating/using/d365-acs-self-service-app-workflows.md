@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 51f07f08-5d57-4c4c-aff2-d03e5956ec6f
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 0%
@@ -23,9 +24,9 @@ ht-degree: 0%
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows.png)
 
-**Microsoft Dynamics 365至Campaign**
-* 從Microsoft Dynamics 365傳送&#x200B;*個連絡人*&#x200B;至Adobe Campaign
-* *自訂實體*：從Microsoft Dynamics 365將自訂表格匯入Adobe Campaign。 [了解更多](../../integrating/using/d365-acs-using-the-integration.md#data-flows)
+將&#x200B;**Microsoft Dynamics 365傳送至Campaign**
+* 從Microsoft Dynamics 365傳送&#x200B;*連絡人*&#x200B;至Adobe Campaign
+* *自訂實體*：將自訂表格從Microsoft Dynamics 365帶入Adobe Campaign。 [了解更多](../../integrating/using/d365-acs-using-the-integration.md#data-flows)
 * 這也稱為&#x200B;**輸入** (指從Microsoft Dynamics 365到Adobe Campaign的資料輸入)
 
 **促銷活動至Microsoft Dynamics 365**
@@ -34,7 +35,7 @@ ht-degree: 0%
 
 **選擇加入/退出**
 
-選擇退出狀態（例如，denyList）可以從Microsoft Dynamics 365同步至Adobe Campaign，或從Adobe Campaign同步至Microsoft Dynamics 365。 資料也可以雙向同步（即資料雙向流動）。 [了解更多](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf)。
+選擇退出狀態（例如denyList）可以從Microsoft Dynamics 365同步至Adobe Campaign，或從Adobe Campaign同步至Microsoft Dynamics 365。 資料也可以雙向同步（即資料雙向流動）。 [了解更多](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf)。
 
 >[!IMPORTANT]
 >

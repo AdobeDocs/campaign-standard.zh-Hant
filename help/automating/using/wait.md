@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: wait,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 2ddc1b2b-0df5-4c91-a381-451cc094f2eb
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 98%
@@ -48,8 +49,8 @@ ht-degree: 98%
 
 ![](assets/wait_example_workflow.png)
 
-* 第一個 **[!UICONTROL Query]** 目標是將會傳送電子郵件邀請的設定檔。
-* **[!UICONTROL Email delivery]** 會第一次將邀請傳送給所選取的設定檔。
+* 第一個 **[!UICONTROL Query]** 目標是將會傳送電子郵件邀請的輪廓。
+* **[!UICONTROL Email delivery]** 會第一次將邀請傳送給所選取的輪廓。
 * 24 小時的 **[!UICONTROL Wait]** 活動會在傳送邀請與工作流程的其餘時間之間暫停。
-* 第二個 **[!UICONTROL Query]** 目標是收到第一封電子郵件但未點按內部訂閱連結的設定檔。
+* 第二個 **[!UICONTROL Query]** 目標是收到第一封電子郵件但未點按內部訂閱連結的輪廓。
 * 第二個 **[!UICONTROL Email delivery]** 會將邀請的提醒傳送給選取的人員。

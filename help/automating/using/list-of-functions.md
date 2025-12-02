@@ -5,10 +5,11 @@ audience: automating
 content-type: reference
 topic-tags: filtering-data
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '2011'
 ht-degree: 95%
@@ -432,7 +433,7 @@ ht-degree: 95%
   </tr> 
   <tr> 
    <td> <strong>Iif</strong><br /> </td> 
-   <td> 如果運算式為　true，則傳回值　1，否則傳回值　2<br /> </td> 
+   <td> 如果運算式為真，則傳回值 1，否則傳回值 2<br /> </td> 
    <td> Iif(&lt;condition&gt;, &lt;value 1&gt;, &lt;value 2&gt;)<br /> </td> 
   </tr> 
   <tr> 
@@ -718,7 +719,7 @@ ht-degree: 95%
  </tbody> 
 </table>
 
-## 表示 {#representation}
+## 表示法 {#representation}
 
 表示函式用於對值進行排序。
 

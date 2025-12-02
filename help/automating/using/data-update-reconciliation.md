@@ -6,13 +6,14 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: reconciliation,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: cfca6202-791d-4baf-b5ed-677d2480cf06
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '128'
-ht-degree: 52%
+ht-degree: 33%
 
 ---
 
@@ -37,7 +38,7 @@ ht-degree: 52%
   tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
   ```
 
-* [調解](../../automating/using/reconciliation.md)活動，可將載入檔案的每個欄連結到設定檔維度欄。 無法識別的檔案記錄（遺失資料、不相容的資料類型等）會遭到忽略，以保留最終客群資料的完整性。
+* [調解](../../automating/using/reconciliation.md)活動，可將載入檔案的每個欄連結到設定檔維度欄。 無法識別的檔案記錄（遺失資料、不相容的資料型別等）會被忽略，以保留最終對象資料的完整性。
 
   ![](assets/identification_example1.png)
 

@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 44ad654e-bde9-4189-8765-0479d81dc0f7
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '2208'
 ht-degree: 93%
@@ -64,7 +65,7 @@ ht-degree: 93%
 
 >[!CAUTION]
 >
->外部 API 活動的用途是擷取促銷活動範圍的資料（最新的選件集、最新的分數等），而非擷取每個設定檔的特定資訊，因為這會導致大量資料傳輸。如果使用案例需要此項目，建議使用[傳輸檔案](../../automating/using/transfer-file.md)活動。
+>外部 API 活動的用途是擷取促銷活動範圍的資料 (最新的產品建議集、最新的分數等)，而非擷取每個輪廓的特定資訊，因為這會導致大量資料傳輸。如果使用案例需要此項目，建議使用[傳輸檔案](../../automating/using/transfer-file.md)活動。
 
 ## 設定 {#configuration}
 
@@ -95,8 +96,8 @@ JSON 剖析器的設計可容納標準 JSON 結構模式類型，但有些例外
 
 範例 JSON 定義必須具有&#x200B;**下列特性**：
 
-* **陣列元素**&#x200B;必須包含第一級屬性（不支援較深的層級）。
-  **屬性名稱**，最終將成為輸出臨時表格之輸出架構的欄名稱。
+* **陣列元素**必須包含第一級屬性（不支援較深的層級）。
+  **屬性名稱**，最終將成為輸出臨時表格之輸出結構描述的欄名稱。
 * 要擷取的 **JSON 元素**&#x200B;必須在 JSON 回應內的 10 級或更低巢狀層級。
 * **欄名稱**，定義是以 &quot;data&quot; 陣列的第一個元素為基礎。
 列定義（新增/刪除）和屬性的類型值可以在 **Column definition** 索引標籤中編輯。
@@ -114,7 +115,7 @@ JSON 剖析器的設計可容納標準 JSON 結構模式類型，但有些例外
 
 ### 執行
 
-此索引標籤可讓您定義連接端點。**[!UICONTROL URL]**&#x200B;欄位可讓您定義將與Campaign Standard通訊的&#x200B;**HTTPS端點**。
+此索引標籤可讓您定義連接端點。**[!UICONTROL URL]**&#x200B;欄位可讓您定義Campaign Standard將通訊的&#x200B;**HTTPS端點**。
 
 如果端點需要，則可以使用兩種型別的驗證方法：
 

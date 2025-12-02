@@ -5,12 +5,13 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 6383ddbe-922a-4363-a1da-166cf717b0dd
 hide: true
 hidefromtoc: true
-source-git-commit: 110f3ccb5865e70c78e18485b4ff4ba7a648af3f
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 0%
@@ -21,7 +22,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform Data Connector目前為測試版，可能會經常更新，恕不另行通知。 客戶需在Azure上代管（目前僅限北美地區使用Beta版）才能存取這些功能。 如果您想要存取許可權，請聯絡Adobe客戶服務。
+>Adobe Experience Platform Data Connector目前為測試版，可能會經常更新，恕不另行通知。 客戶需在Azure上代管（目前僅限北美地區使用Beta版）才能存取這些功能。 如果您想要存取，請聯絡Adobe客戶服務。
 
 在本節中，您將瞭解如何使用Experience Data Model (XDM)欄位對應Campaign Standard欄位。
 
@@ -43,7 +44,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->若要將批次擷取至即時客戶設定檔或身分識別服務，資料集必須針對即時客戶設定檔[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html?lang=zh-Hant)啟用。
+>若要將批次擷取至即時客戶設定檔或身分識別服務，資料集必須針對即時客戶設定檔[啟用](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html)。
 >
 >如果您選取的資料集已用於現有資料對應，會出現警告以通知您資料可能會在Adobe Experience Platform上覆寫。 使用相同資料集的資料匹配中有一些常見的收件者時，可能會發生這種情況。
 
@@ -63,7 +64,7 @@ Campaign Standard中定義的擴充資源會對映所有原生欄位按讚。 �
 
 您可以透過API自訂XDM擴充功能，並定義您自己的擴充功能，讓您更能掌控對應。
 
-如需XDM API的詳細資訊，請參閱[結構描述登入API教學課程](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=zh-Hant)。
+如需XDM API的詳細資訊，請參閱[結構描述登入API教學課程](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html)。
 
 若要對應分項清單欄位，必須使用運算式編輯器定義與XDM值對應的每個分項清單值。 例如，postaladdressfield需要定義為：
 

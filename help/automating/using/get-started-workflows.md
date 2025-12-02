@@ -5,13 +5,14 @@ audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
-source-git-commit: 69621657e1d367043200f741d93972664e6eb8fb
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '506'
-ht-degree: 27%
+ht-degree: 28%
 
 ---
 
@@ -34,7 +35,7 @@ Adobe Campaign 提供完整的圖形環境，讓您設計複雜程式，包括�
 
 >[!IMPORTANT]
 >
-> Adobe建議客戶不要同時執行超過20個作用中工作流程，並隨著時間安排工作流程執行的優先順序和分佈。 如需詳細資訊，請參閱[此頁面](../../automating/using/best-practices-workflows.md)中提供的最佳實務。
+> Adobe建議客戶不要同時執行超過20個作用中工作流程，並隨著時間安排您工作流程執行的優先順序和分佈。 如需詳細資訊，請參閱[此頁面](../../automating/using/best-practices-workflows.md)中提供的最佳實務。
 
 ## 工作流程活動 {#workflow-activities}
 
@@ -54,7 +55,7 @@ Adobe Campaign 提供完整的圖形環境，讓您設計複雜程式，包括�
 
 ## 篩選資料 {#filter-data}
 
-運用&#x200B;**查詢編輯器**&#x200B;來篩選資料庫中的資料，並建置母體以更妥善地鎖定收件者。 查詢編輯器可用於在Campaign Standard中執行數個動作：建立查詢型別對象、定義傳遞目標或工作流程活動中的人口。
+運用&#x200B;**查詢編輯器**&#x200B;來篩選資料庫中的資料，並建置母體以更妥善地鎖定收件者。 查詢編輯器可在Campaign Standard中執行數個動作：建立查詢型別對象、定義傳遞目標或工作流程活動中的人口。
 
 查詢編輯器隨附&#x200B;**預先定義的篩選器和規則**，方便快速篩選。 不過，您也可以使用&#x200B;**進階運算式編輯**&#x200B;功能。 這可讓您手動輸入條件並使用函式，以形成自己的規則。
 

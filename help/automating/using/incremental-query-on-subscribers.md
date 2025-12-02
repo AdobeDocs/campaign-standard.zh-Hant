@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: incremental,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: c80ed1f6-ad8a-4448-a6df-b9881327228a
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 61%
@@ -18,7 +19,7 @@ ht-degree: 61%
 
 # 對服務訂閱者的增量查詢 {#example--incremental-query-on-subscribers-to-a-service}
 
-下列範例顯示 **[!UICONTROL Incremental query]** 活動的設定，該活動會篩選訂閱 **Running Newsletter** 服務之 Adobe Campaign 資料庫中的設定檔，以傳送包含促銷代碼的歡迎電子郵件給他們。
+下列範例顯示 **[!UICONTROL Incremental query]** 活動的設定，該活動會篩選訂閱 **Running Newsletter** 服務之 Adobe Campaign 資料庫中的輪廓，以傳送包含促銷代碼的歡迎電子郵件給他們。
 
 工作流程由下列元素組成：
 

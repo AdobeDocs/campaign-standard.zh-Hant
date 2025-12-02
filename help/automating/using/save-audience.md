@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: saveAudience,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: c3f029d7-779e-47e7-a925-1e8f672da4dd
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 99%
@@ -22,17 +23,17 @@ ht-degree: 99%
 
 ![](assets/save_audience.png)
 
-**[!UICONTROL Save audience]** 活動可讓您更新現有的客群，或是從工作流程中的母體運算上游建立新的客群。從此活動建立或更新的客群是&#x200B;**清單**&#x200B;或&#x200B;**檔案**&#x200B;客群。它們會新增至應用程式客群清單，並可透過 **[!UICONTROL Audiences]** 功能表使用。
+**[!UICONTROL Save audience]** 活動可讓您更新現有的客群，或是從工作流程中的群體運算上游建立新的客群。從此活動建立或更新的客群是&#x200B;**清單**&#x200B;或&#x200B;**檔案**&#x200B;客群。它們會新增至應用程式客群清單，並可透過 **[!UICONTROL Audiences]** 功能表使用。
 
 >[!NOTE]
 >
 >如果客群是透過 **[!UICONTROL Save audience]** 活動建立並且富含其他資料，您將無法使用這些資料來個人化獨立傳送。它們只能從在工作流程中執行的傳送中使用。
 
-此活動也可讓您將設定檔匯出為 Adobe Experience Cloud 客群/區段。如此一來，您便可在其他 Adobe Experience Cloud 解決方案中利用這些客群。如需共用客群的詳細資訊，請參閱[使用 Campaign 及 People Core Service](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)。
+此活動也可讓您將輪廓匯出為 Adobe Experience Cloud 客群/區段。如此一來，您便可在其他 Adobe Experience Cloud 解決方案中利用這些客群。如需共用客群的詳細資訊，請參閱[使用 Campaign 及 People Core Service](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)。
 
 ## 使用內容 {#context-of-use}
 
-**[!UICONTROL Save audience]** 活動主要用於將母體族群轉換為可重複使用的客群，讓母體族群可繼續在相同工作流程中運算。
+**[!UICONTROL Save audience]** 活動主要用於將群體轉換為可重複使用的客群，讓群體可繼續在相同工作流程中運算。
 
 ## 設定 {#configuration}
 
@@ -54,7 +55,7 @@ ht-degree: 99%
 
       * **[!UICONTROL Complete audience with new data]**：保留舊的客群資料，並新增儲存客群活動入站轉變的資料。
 
-        警告：如果更新客群的客群類型或目標維度與工作流程的目前設定不相容，此選項會造成錯誤。例如，您無法使用來自查詢的設定檔以完成檔案類型客群。
+        警告：如果更新客群的客群類型或目標維度與工作流程的目前設定不相容，此選項會造成錯誤。例如，您無法使用來自查詢的輪廓以完成檔案類型客群。
 
    * **[!UICONTROL Create a new audience]**：輸入要建立的客群名稱。建立客群的時間和日期會自動新增至客群名稱。如此一來，每次執行工作流程時，客群都會是唯一的。
    * **[!UICONTROL Share in Adobe Experience Cloud]**：如果您有目標輪廓，而且您想要將客群匯出至 Adobe Experience Cloud，請選取此選項，然後選取現有的共用客群或建立新客群。
@@ -82,7 +83,7 @@ ht-degree: 99%
 此範例中定義的工作流程會顯示定期的客群更新，以利目標定位：
 
 * 會使用 **[!UICONTROL Scheduler]** 每月自動執行一次。
-* 您可以使用 **[!UICONTROL Query]**，將所有訂閱的設定檔復原到可用的不同應用程式服務。
+* 您可以使用 **[!UICONTROL Query]**，將所有訂閱的輪廓復原到可用的不同應用程式服務。
 * **[!UICONTROL Save audience]** 活動會刪除自上次工作流程執行以來從服務取消訂閱的輪廓，並新增新訂閱的設定檔，以更新客群。
 
 ![](assets/save_audience_example_1.png)

@@ -6,10 +6,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: e73e2069-e86d-4be2-bf73-22e6dc164340
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1079'
 ht-degree: 1%
@@ -18,7 +19,7 @@ ht-degree: 1%
 
 # 開始使用自助服務整合應用程式 {#gs-self-service-app}
 
-Adobe Campaign Standard與Microsoft Dynamics 365自助服務整合應用程式的整合，可讓您設定資料流程、控制資料流程是否正在執行，以及在哪個環境中執行。 不過，您必須先完成一些必要條件，才能開始使用自助服務整合應用程式。
+Adobe Campaign Standard與Microsoft Dynamics 365自助式整合應用程式的整合，可讓您設定資料流程、控制資料流程是否正在執行，以及在哪個環境中執行。 不過，您必須先完成一些必要條件，才能開始使用自助服務整合應用程式。
 
 ## 概念和限制 {#concepts-and-restrictions}
 
@@ -33,7 +34,7 @@ Adobe Campaign Standard與Microsoft Dynamics 365自助服務整合應用程式�
 
 ## 先決條件 {#self-service-app-prerequisites}
 
-您必須設定Microsoft Dynamics 365和Adobe Campaign Standard，整合應用程式才能存取您的資料。 這需要一些時間在Dynamics 365、Adobe Campaign Standard和Adobe I/O中進行設定；不過，一旦完成設定，您就能夠透過自助服務整合應用程式的使用者介面控制整合。
+您需要設定Microsoft Dynamics 365和Adobe Campaign Standard，讓整合應用程式能夠存取您的資料。 這需要一些時間在Dynamics 365、Adobe Campaign Standard和Adobe I/O中進行設定；不過，一旦完成設定，您就能夠透過自助服務整合應用程式的使用者介面控制整合。
 
 請在以下章節瞭解更多資訊：
 
@@ -60,7 +61,7 @@ Adobe Campaign Standard與Microsoft Dynamics 365自助服務整合應用程式�
 
 ## 隱私權請求確認 {#self-service-app-acknowledgement}
 
-第一次瀏覽至自助服務UI時，您將會收到隱私權確認。 您必須確認自己瞭解在Campaign和Microsoft Dynamics 365中分別執行隱私權要求時的角色，才能繼續。
+第一次瀏覽至自助服務UI時，您將會收到隱私權確認。 您必須確認自己瞭解在Campaign和Microsoft Dynamics 365中分別執行隱私權要求時所扮演的角色，才能繼續。
 在[本節](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-privacy)中進一步瞭解您的隱私權責任以及如何管理隱私權要求。
 
 ## 設定您的認證 {#self-service-app-credentials}
@@ -71,7 +72,7 @@ Adobe Campaign Standard與Microsoft Dynamics 365自助服務整合應用程式�
 
 >[!NOTE]
 >
-> 如果尚未設定應用程式設定，通常會收到指出其「無法連線」至Adobe Campaign Standard或Microsoft Dynamics 365的警報。
+> 如果應用程式設定尚未設定，通常情況下會收到警報，指出其「無法連線」至Adobe Campaign Standard或Microsoft Dynamics 365。
 
 請確認「ORG」和「INSTANCE」選項為您計畫設定的專案。  如果沒有，則按一下下拉式清單，然後選取正確的組織和執行個體。
 
@@ -79,7 +80,7 @@ Adobe Campaign Standard與Microsoft Dynamics 365自助服務整合應用程式�
 >
 > 如果您是第一次設定聯結器及/或您是此程式的新手，我們&#x200B;**強烈**&#x200B;建議您選取「階段」或「開發」執行個體。 在生產環境中嘗試安裝之前，請務必確認您的設定運作正常。
 
-如果您有正確的組織和例項，則按一下「漢堡」功能表以公開下拉式功能表。 然後在下拉式功能表中按一下&#x200B;**[!UICONTROL Settings...]**，以瀏覽您輸入Microsoft Dynamics 365和Campaign認證的頁面（請參閱下文）。
+如果您有正確的組織和例項，則按一下「漢堡」功能表以公開下拉式功能表。 然後在下拉式選單中按一下「**[!UICONTROL Settings...]**」，以瀏覽您輸入Microsoft Dynamics 365和Campaign認證的頁面（請參閱下文）。
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-menu-pointers.png)
 
@@ -102,11 +103,11 @@ Adobe Campaign Standard與Microsoft Dynamics 365自助服務整合應用程式�
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-ingress-top-pointers.png)
 
-在&#x200B;**[!UICONTROL Edit Table Mapping]**&#x200B;頁面中，檢查&#x200B;**[!UICONTROL Mappings]**&#x200B;區段，確定來自Microsoft Dynamics 365的欄位已對應到Campaign中的正確欄位。 如果您需要新增任何其他對應，請立即新增，以及任何取代或篩選器。 [了解更多](../../integrating/using/d365-acs-self-service-app-data-sync.md)。
+在&#x200B;**[!UICONTROL Edit Table Mapping]**&#x200B;頁面中，檢查&#x200B;**[!UICONTROL Mappings]**&#x200B;區段，確認來自Microsoft Dynamics 365的欄位已對應至Campaign中的正確欄位。 如果您需要新增任何其他對應，請立即新增，以及任何取代或篩選器。 [了解更多](../../integrating/using/d365-acs-self-service-app-data-sync.md)。
 
 如果您想要新增對應，請參閱[本節](../../integrating/using/d365-acs-self-service-app-data-sync.md#add-a-new-mapping)以取得詳細資訊。
 
-設定正確後，請按一下&#x200B;**[!UICONTROL Microsoft Dynamics 365 to Campaign]**&#x200B;工作流程旁的&#x200B;**[!UICONTROL Play]**&#x200B;按鈕，以開始整合與資料流程。
+設定正確後，請按一下&#x200B;**[!UICONTROL Play]**&#x200B;工作流程旁的&#x200B;**[!UICONTROL Microsoft Dynamics 365 to Campaign]**&#x200B;按鈕，以開始整合與資料流程。
 
 >[!IMPORTANT]
 >
@@ -115,7 +116,7 @@ Adobe Campaign Standard與Microsoft Dynamics 365自助服務整合應用程式�
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-ingress-play-pointer.png)
 
-執行後，您應該能夠在Microsoft Dynamics 365中新增或修改專案，並在幾分鐘內在Adobe Campaign中觀察這些變更，以進行測試。 如果您在任何時候需要停止此程式，則只需按一下相同的按鈕即可停止。 [了解更多](../../integrating/using/d365-acs-self-service-app-workflows.md#workflow-status)
+執行後，您應該能夠在Microsoft Dynamics 365中新增或修改專案進行測試，並在幾分鐘內在Adobe Campaign中觀察這些變更。 如果您在任何時候需要停止此程式，則只需按一下相同的按鈕即可停止。 [了解更多](../../integrating/using/d365-acs-self-service-app-workflows.md#workflow-status)
 
 
 ## 整合應用程式工作區 {#self-service-app-workspace}
@@ -134,7 +135,7 @@ Adobe Campaign Standard與Microsoft Dynamics 365自助服務整合應用程式�
 
 * **檔案**：此選項是此整合專用Adobe Campaign檔案的連結
 
-* **客戶服務**：此為開啟客戶服務票證相關Experience Cloud檔案的連結
+* **客戶服務**：此連結會連結到與開啟客戶服務票證相關的Experience Cloud檔案
 
 * **登出**：這會將您登出應用程式，並允許您以其他使用者的身分重新登入。
 

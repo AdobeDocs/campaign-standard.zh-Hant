@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: writer,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 2df7fbed-b979-4706-bd56-83f712cc3070
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 11%
@@ -18,7 +19,7 @@ ht-degree: 11%
 
 # 使用外部資料更新資料庫 {#update-database-file}
 
-下列範例顯示&#x200B;**[!UICONTROL Load file]**&#x200B;活動之後&#x200B;**[!UICONTROL Update data]**&#x200B;活動的設定。 此工作流程的目的在於，使用從檔案復原的資料，將設定檔新增或更新至Adobe Campaign資料庫。
+下列範例顯示&#x200B;**[!UICONTROL Update data]**&#x200B;活動之後&#x200B;**[!UICONTROL Load file]**&#x200B;活動的設定。 此工作流程的目的在於，使用從檔案復原的資料，將設定檔新增或更新至Adobe Campaign資料庫。
 
 在此範例中，使用的調解金鑰是&#x200B;**電子郵件地址**。 載入到[載入檔案](../../automating/using/load-file.md)活動的檔案是包含下列範例資料的&#x200B;**.txt**&#x200B;格式檔案：
 

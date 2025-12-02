@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: fileImport,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 2b21cf45-1c40-4e0e-ae2c-28c9f73e1964
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 70%
@@ -20,7 +21,7 @@ ht-degree: 70%
 
 載入檔案活動主要從傳輸檔案活動中建構資料，以便將其整合到現有資料中。
 
-以下範例顯示透過傳輸檔案活動自動下載的載入檔案活動的結果，之後會進行更新資料活動。此工作流程旨在以新的設定檔擴充 Adobe Campaign 資料庫，或使用從匯入檔案中復原的資料更新現有的設定檔。
+以下範例顯示透過傳輸檔案活動自動下載的載入檔案活動的結果，之後會進行更新資料活動。此工作流程旨在以新的輪廓擴充 Adobe Campaign 資料庫，或使用從匯入檔案中復原的資料更新現有的輪廓。
 
 ![](assets/load_file_workflow_ex1.png)
 

@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: reconciliation,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: ed2e3793-6164-48af-9043-42dc43fa8ed4
-source-git-commit: c2c8d2d05bbc376e2153448ca0a9e6ba0f367420
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 78%
@@ -30,7 +31,7 @@ ht-degree: 78%
 
 * 新增關係：**[!UICONTROL Links]** 索引標籤可讓您在傳入資料和數個其他 Adobe Campaign 資料庫維度之間新增連結。
 
-  例如，包含購買資料的檔案也可能包含識別購買產品及購買者的資訊。因此，檔案資料會關注另外兩個維度（**購買**&#x200B;除外）：**產品**&#x200B;及&#x200B;**設定檔**&#x200B;維度。然後，需要在這些&#x200B;**購買**&#x200B;維度之間建立關係（請參閱以下範例）。
+  例如，包含購買資料的檔案也可能包含識別購買產品及購買者的資訊。因此，檔案資料會關注另外兩個維度 (**購買**&#x200B;除外)：**產品**&#x200B;及&#x200B;**輪廓**&#x200B;維度。然後，需要在這些&#x200B;**購買**&#x200B;維度之間建立關係（請參閱以下範例）。
 
   定義關係時，將向入站資料新增欄，以參考連結維度的外部索引鍵。
 
@@ -49,7 +50,7 @@ ht-degree: 78%
 
 ## 設定 {#configuration}
 
-1. 將 **[!UICONTROL Reconciliation]** 活動拖放到您的工作流程，亦即位在包含母體的轉變之後，而且其母體的目標維度不會直接來自於 Adobe Campaign。如需詳細資訊，請參閱[目標維度和資源](../../automating/using/query.md#targeting-dimensions-and-resources)。
+1. 將 **[!UICONTROL Reconciliation]** 活動拖放到您的工作流程，亦即位在包含群體的轉變之後，而且其群體的目標維度不會直接來自於 Adobe Campaign。如需詳細資訊，請參閱[目標維度和資源](../../automating/using/query.md#targeting-dimensions-and-resources)。
 1. 選取活動，然後使用所顯示快速動作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
 1. 如果要定義傳入資料與其他資料庫維度之間的連結，請移至 **[!UICONTROL Links]** 索引標籤。
 

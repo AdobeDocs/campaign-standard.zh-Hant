@@ -2,10 +2,11 @@
 title: 與行銷歷史記錄互動
 description: 瞭解如何與設定檔的行銷歷史記錄互動
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 67282d21-b4ed-4af5-b751-848a6d705118
-source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 4%
@@ -14,10 +15,10 @@ ht-degree: 4%
 
 # 與行銷歷史記錄互動{#interacting-with-marketing-history}
 
-**history**&#x200B;端點可讓您與設定檔的行銷歷史記錄互動。
+**history**端點可讓您與設定檔的行銷歷史記錄互動。
 舉例來說，如此一來，您便可輕鬆擷取傳送至設定檔之傳送的映象頁面。 要執行此操作，請遵循下列步驟：
 
-1. 使用&#x200B;**history**&#x200B;端點及設定檔的主索引鍵執行GET。
+1. 使用&#x200B;**history**&#x200B;端點及設定檔的主要金鑰執行GET。
 1. 對傳回的&#x200B;**事件** href執行GET要求。
 1. 它會傳回設定檔的事件清單，其中包含在&#x200B;**mirrorPage**&#x200B;節點中映象頁面的連結。
 

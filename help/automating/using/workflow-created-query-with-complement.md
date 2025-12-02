@@ -1,22 +1,23 @@
 ---
-title: 使用補充集來建立傳送
+title: 使用補集來建立傳送
 description: 此使用案例顯示如何建立具備輔助功能的傳送。
 audience: automating
 content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,segmentation
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 5cd71e07-f955-4c15-bdfb-14b0daccec1a
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 39%
 
 ---
 
-# 使用補充集來建立傳送 {#deliveries-with-complement}
+# 使用補集來建立傳送 {#deliveries-with-complement}
 
 您可以傳送電子郵件給客戶：一個適用於不到一年前建立的客戶，另一個適用於超過一年前建立的客戶。
 
@@ -28,9 +29,9 @@ ht-degree: 39%
 
 1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Targeting]** 中，拖放[查詢](../../automating/using/query.md)活動。
 1. 連按兩下此活動。
-1. 在&#x200B;**[!UICONTROL Shortcuts]**&#x200B;中，拖放&#x200B;**[!UICONTROL Profiles]**&#x200B;並使用運運算元&#x200B;**[!UICONTROL is not empty]**&#x200B;選取&#x200B;**[!UICONTROL email]**。
-1. 在&#x200B;**[!UICONTROL Shortcuts]**&#x200B;中，拖放&#x200B;**[!UICONTROL Profiles]**&#x200B;並選取值為&#x200B;**[!UICONTROL no]**&#x200B;的&#x200B;**[!UICONTROL no longer contact by email]**。
-1. 按一下&#x200B;**[!UICONTROL Confirm]**。
+1. 在&#x200B;**[!UICONTROL Shortcuts]**&#x200B;中，拖放&#x200B;**[!UICONTROL Profiles]**&#x200B;並使用運運算元&#x200B;**[!UICONTROL email]**&#x200B;選取&#x200B;**[!UICONTROL is not empty]**。
+1. 在&#x200B;**[!UICONTROL Shortcuts]**&#x200B;中，拖放&#x200B;**[!UICONTROL Profiles]**&#x200B;並選取值為&#x200B;**[!UICONTROL no longer contact by email]**&#x200B;的&#x200B;**[!UICONTROL no]**。
+1. 按一下 **[!UICONTROL Confirm]**。
 
 ![](assets/wf-complement-query.png)
 
@@ -38,12 +39,12 @@ ht-degree: 39%
 
 1. 在&#x200B;**[!UICONTROL Activities]** > **[!UICONTROL Targeting]**&#x200B;中，拖放[Segmentation](../../automating/using/segmentation.md)活動並連按兩下。
 1. 將游標暫留在區段上，然後按一下「![](assets/edit_darkgrey-24px.png)」以定位今年新增到資料庫中的客戶。
-1. 拖放&#x200B;**[!UICONTROL Profiles]**&#x200B;並選取篩選器型別為&#x200B;**[!UICONTROL Relative]**&#x200B;的&#x200B;**[!UICONTROL Created]**。
+1. 拖放&#x200B;**[!UICONTROL Profiles]**&#x200B;並選取篩選器型別為&#x200B;**[!UICONTROL Created]**&#x200B;的&#x200B;**[!UICONTROL Relative]**。
 1. 將&#x200B;**[!UICONTROL Level of precision]**&#x200B;變更為&#x200B;**[!UICONTROL Year]**&#x200B;並選取&#x200B;**[!UICONTROL This year]**。
 1. 按兩下 **[!UICONTROL Confirm]**。
 1. 在&#x200B;**[!UICONTROL Advanced Options]**&#x200B;中，核取&#x200B;**[!UICONTROL Generate complement]**&#x200B;以建立以其他收件者為目標的區段。
-1. 按一下&#x200B;**[!UICONTROL Confirm]**。
-1. 按一下&#x200B;**[!UICONTROL Save]**。
+1. 按一下 **[!UICONTROL Confirm]**。
+1. 按一下 **[!UICONTROL Save]**。
 
 ![](assets/wf-complement-segmentation.png)
 

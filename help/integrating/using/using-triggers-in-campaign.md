@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 6b8d5118-89ed-49c2-b601-0aff472fcadd
-source-git-commit: cf2ded703e53d6db27e62712734f7ea846da9a21
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '736'
 ht-degree: 74%
@@ -23,7 +24,7 @@ ht-degree: 74%
 >
 >若要建立觸發程式，您需要&#x200B;**[!UICONTROL Administration]**&#x200B;角色或位於&#x200B;**[!UICONTROL Administrators]**&#x200B;安全性群組中。 如需詳細資訊，請參閱此[頁面](../../administration/using/list-of-roles.md)。
 
-您應確保在Adobe Experience Cloud （**[!UICONTROL Triggers]**&#x200B;核心服務）中預先定義要監視的行為。 如需詳細資訊，請參閱 [Adobe Experience Cloud 文件](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=zh-Hant)。請注意，定義觸發程式時需要啟用別名。對於每個行為（瀏覽/放棄表單、新增/刪除產品、工作階段過期等），必須在 Adobe Experience Cloud 中新增一個新的觸發程式。
+您應確保在Adobe Experience Cloud （**[!UICONTROL Triggers]**&#x200B;核心服務）中預先定義要監視的行為。 如需詳細資訊，請參閱 [Adobe Experience Cloud 文件](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html)。請注意，定義觸發程式時需要啟用別名。對於每個行為（瀏覽/放棄表單、新增/刪除產品、工作階段過期等），必須在 Adobe Experience Cloud 中新增一個新的觸發程式。
 
 您現在必須依據現有的 Adobe Experience Cloud 觸發程式，在 Adobe Campaign 中建立觸發程式事件。
 
@@ -39,7 +40,7 @@ ht-degree: 74%
 
 1. 選取您要使用的 Adobe Experience Cloud 觸發程式，然後按一下 **[!UICONTROL Next]**。
 1. 設定觸發程式的一般屬性。在精靈的這個步驟中，也請指定要用於觸發程式的頻道和目標維度（請參閱[目標維度及資源](../../automating/using/query.md#targeting-dimensions-and-resources)）。然後確認已建立觸發程式。
-1. 按一下 **[!UICONTROL Event content and enrichment]** 欄位右側的按鈕，以檢視裝載的內容。此畫面也可讓您使用儲存在 Adobe Campaign 資料庫中的設定檔資料，以擴充事件資料的內容。此項擴充是以與標準交易式訊息相同的方式執行。
+1. 按一下 **[!UICONTROL Event content and enrichment]** 欄位右側的按鈕，以檢視裝載的內容。此畫面也可讓您使用儲存在 Adobe Campaign 資料庫中的輪廓資料，以擴充事件資料的內容。此項擴充是以與標準交易式訊息相同的方式執行。
 
    ![](assets/remarketing_3.png)
 
@@ -65,7 +66,7 @@ ht-degree: 74%
 
    ![](assets/trigger_publish_3.png)
 
-1. 如果您在發佈觸發程式事件後，仍需在觸發程式綱要中進行變更，請按一下 **[!UICONTROL Update schema]** 按鈕以擷取最新變更。
+1. 如果您在發佈觸發程式事件後，仍需在觸發程式結構描述中進行變更，請按一下 **[!UICONTROL Update schema]** 按鈕以擷取最新變更。
 
    請注意，此動作會取消發佈您的觸發程式與交易式訊息，之後您將需要重新發佈。
 
@@ -85,7 +86,7 @@ ht-degree: 74%
 >
 >如果您取消發佈範本，則會自動取消發佈觸發程式事件。
 
-編輯內容時，您可以依據 Analytics 觸發程式傳送的資訊，新增個人化欄位。如果您使用 Adobe Campaign 設定檔資料擴充事件資料，則可依據此資訊來個人化該訊息。若要個人化您的訊息，請選取「 **[!UICONTROL Transactional event]** > **[!UICONTROL Event context]** 」並選取欄位。
+編輯內容時，您可以依據 Analytics 觸發程式傳送的資訊，新增個人化欄位。如果您使用 Adobe Campaign 輪廓資料擴充事件資料，則可依據此資訊來個人化該訊息。若要個人化您的訊息，請選取「 **[!UICONTROL Transactional event]** > **[!UICONTROL Event context]** 」並選取欄位。
 
 ![](assets/remarketing_8.png)
 

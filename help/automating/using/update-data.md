@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: writer,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: d362563f-5ab3-4f7f-ae9f-a42b6f0bb2b9
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 97%
@@ -68,7 +69,7 @@ ht-degree: 97%
    >
    >**管理更新**：在執行更新資料活動時，除非在欄位更新表格上明確執行其設定，否則會自動更新 **[!UICONTROL lastModified]**、**[!UICONTROL modifiedBy]**、**[!UICONTROL created]**、**[!UICONTROL createdBy]**。只會對至少偵測到一個差異的記錄執行更新。如果值相同，則不會執行更新。
 
-1. 如有需要，請管理活動的[轉變](../../automating/using/activity-properties.md)，以存取輸出母體的進階選項。
+1. 如有需要，請管理活動的[轉變](../../automating/using/activity-properties.md)，以存取輸出群體的進階選項。
 
    如果您已選取 **[!UICONTROL Insert only]**，而且匯入的資料可能包含資料庫中已存在的記錄，請核取 **[!UICONTROL Generate an outbound transition for the rejects]** 方塊，以避免出現任何可能的錯誤。
 

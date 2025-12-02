@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 90841afd-ebc2-4b6a-895e-a96ef65740d7
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '84'
 ht-degree: 0%
@@ -18,7 +19,7 @@ ht-degree: 0%
 # 更新組織單位屬性 {#updating-organizational-unit-attributes}
 
 1. 對&#x200B;**orgUnitBase**&#x200B;資源執行GET要求，以擷取組織單位PKey。
-1. 對組織單位執行PATCH請求，並在裝載中使用要更新的屬性。
+1. 對組織單位執行PATCH要求，並在裝載中使用要更新的屬性。
 
 <br/>
 
@@ -50,7 +51,7 @@ ht-degree: 0%
 },
 ```
 
-對組織單位執行PATCH請求，並在裝載中使用要更新的屬性。
+對組織單位執行PATCH要求，並在裝載中使用要更新的屬性。
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/<PKEY> \

@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: bfc52511-f66f-4948-a939-d0d77e8ef03c
-source-git-commit: e41667405b54a7ed0e02889e3002807e4bfd3a05
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 6%
@@ -42,7 +43,7 @@ ht-degree: 6%
   -H 'Content-Type: application/json;charset=utf-8'
   ```
 
-  對GET要求的回應。
+  回應GET要求。
 
   ```
   {
@@ -54,7 +55,7 @@ ht-degree: 6%
   }
   ```
 
-* 標示CCPA選擇退出之設定檔的範例POST要求。
+* 標示CCPA選擇退出之設定檔的POST要求範例。
 
   ```
   -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/ \
@@ -71,7 +72,7 @@ ht-degree: 6%
   -d }'
   ```
 
-  對GET要求的回應。
+  回應GET要求。
 
   ```
   {
@@ -84,7 +85,7 @@ ht-degree: 6%
   }
   ```
 
-* 更新CCPA選擇退出之設定檔的範例PATCH要求。
+* 更新CCPA選擇退出之設定檔的PATCH要求範例。
 
   ```
   -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \
@@ -98,7 +99,7 @@ ht-degree: 6%
   -d }'
   ```
 
-  對GET要求的回應。
+  回應GET要求。
 
   ```
   {

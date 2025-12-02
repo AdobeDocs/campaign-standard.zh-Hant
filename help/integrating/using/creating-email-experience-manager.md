@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 72b99864-d9d9-4cf4-be06-dc5719a2e4f2
-source-git-commit: 579404ddc128e25cc7f8f93dfec30663c7cf754e
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 0%
@@ -60,9 +61,9 @@ ht-degree: 0%
 
 若要在Adobe Experience Manager中建立電子郵件內容：
 
-1. 從Sidekick存取&#x200B;**[!UICONTROL Page properties]** > **[!UICONTROL Email]**&#x200B;索引標籤，以編輯您的電子郵件主旨及&#x200B;**[!UICONTROL Plain text]**&#x200B;版本。
+1. 從Sidekick存取&#x200B;**[!UICONTROL Plain text]** > **[!UICONTROL Page properties]**&#x200B;索引標籤，以編輯您的電子郵件主旨及&#x200B;**[!UICONTROL Email]**&#x200B;版本。
 
-1. 透過&#x200B;**[!UICONTROL Text & Personalization]**&#x200B;元件新增&#x200B;**[!UICONTROL Personalization fields]**。 每個元件都與特定的使用方式相對應：插入影像、新增個人化等。
+1. 透過&#x200B;**[!UICONTROL Personalization fields]**&#x200B;元件新增&#x200B;**[!UICONTROL Text & Personalization]**。 每個元件都與特定的使用方式相對應：插入影像、新增個人化等。
 
    如需詳細資訊，請觀看下列影片：
 
@@ -72,9 +73,9 @@ ht-degree: 0%
 
 若要在Adobe Campaign Standard中傳送電子郵件：
 
-1. 定義內容和傳送引數後，請根據Adobe Campaign Standard中的AEM專屬電子郵件範本建立電子郵件。
+1. 定義內容和傳送引數後，請根據Adobe Campaign Standard中AEM專屬的電子郵件範本建立電子郵件。
 
-+++ 深入瞭解AEM專屬範本。
+   +++ 深入瞭解AEM專屬範本。
 
    1. 從進階功能表，存取&#x200B;**[!UICONTROL Resources]** `>` **[!UICONTROL Templates]** `>` **[!UICONTROL Delivery templates]**。
 
@@ -86,11 +87,11 @@ ht-degree: 0%
 
       ![](assets/aem_templates_2.png)
 
-+++
+   +++
 
    ![](assets/aem_send_1.png)
 
-1. 填寫電子郵件的內容，然後按一下&#x200B;**[!UICONTROL Create]**&#x200B;以選取您的AEM內容。
+1. 填寫電子郵件的屬性，然後按一下&#x200B;**[!UICONTROL Create]**&#x200B;以選取您的AEM內容。
 
 1. 存取&#x200B;**[!UICONTROL Content]**&#x200B;區塊。
 

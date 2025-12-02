@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: enrichment,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: d5c19884-5a3e-4676-899c-53074a3b0efc
-source-git-commit: 7bc90f353a804680eb58514737d65cdd0d873fc5
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 77%
@@ -18,7 +19,7 @@ ht-degree: 77%
 
 # 使用檔案包含的資料擴充輪廓資料 {#enriching-profile-data-with-data-contained-in-a-file}
 
-此範例顯示如何以檔案中包含的購買資料擴充輪廓資料。我們認為購買資料儲存在協力廠商系統中。每個輪廓都可儲存數個購買項目。工作流程的最終目標是傳送電子郵件給已購買至少兩個項目的目標輪廓，以感謝他們的忠誠度。
+此範例顯示如何以檔案中包含的購買資料擴充輪廓資料。我們認為購買資料儲存在第三方系統中。每個輪廓都可儲存數個購買項目。工作流程的最終目標是傳送電子郵件給已購買至少兩個項目的目標輪廓，以感謝他們的忠誠度。
 
 工作流設定如下：
 

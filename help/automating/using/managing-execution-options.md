@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Beginner
 exl-id: b0cc38fe-cf71-4350-8b4e-7daf0bf94066
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 8%
@@ -48,7 +49,7 @@ ht-degree: 8%
 
 * **[!UICONTROL Execute in the engine (do not use in production)]**：可讓您在本機執行工作流程，以進行開發環境測試。
 
-* **[!UICONTROL Severity]**：可讓您指定在Adobe Campaign執行個體中執行工作流程的優先順序等級。 此欄位僅供Adobe團隊用於監視目的。
+* **[!UICONTROL Severity]**：可讓您指定在Adobe Campaign執行個體中執行工作流程的優先順序等級。 此欄位僅供Adobe團隊用於監控目的。
 
 **[!UICONTROL Error management]**&#x200B;區段提供其他選項，可讓您管理工作流程在發生錯誤時的行為方式。 這些選項在[錯誤管理](../../automating/using/monitoring-workflow-execution.md#error-management)區段中詳細說明。
 
@@ -58,7 +59,7 @@ ht-degree: 8%
 >
 >此選項可能會大幅影響您的工作流程效能，應謹慎使用。
 
-啟用時，如果查詢超過一分鐘，工作流程屬性&#x200B;**[!UICONTROL Execution]**&#x200B;區段中的&#x200B;**[!UICONTROL Diagnostic mode (Log execution plan of long running queries and give recommendations)]**&#x200B;選項會記錄整個執行計畫。
+啟用時，如果查詢超過一分鐘，工作流程屬性&#x200B;**[!UICONTROL Diagnostic mode (Log execution plan of long running queries and give recommendations)]**&#x200B;區段中的&#x200B;**[!UICONTROL Execution]**&#x200B;選項會記錄整個執行計畫。
 
 ![](assets/wkf_diagnostic.png)
 

@@ -2,10 +2,11 @@
 title: 刪除訂閱
 description: 瞭解如何使用API刪除訂閱
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 76e2d102-c877-41a6-af87-2f407201a572
-source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 0%
@@ -21,8 +22,8 @@ ht-degree: 0%
 此程式分為三個步驟。
 
 1. 擷取所需設定檔的訂閱URL。
-1. 對訂閱URL執行GET要求。
-1. 對所需的服務URL執行DELETE要求。
+1. 對訂閱URL執行GET請求。
+1. 在所需的服務URL上執行DELETE要求。
 
 如果刪除請求成功，則回應狀態為204 「無內容」。
 
@@ -53,7 +54,7 @@ ht-degree: 0%
   }
 ```
 
-對訂閱URL執行GET要求。
+對訂閱URL執行GET請求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
@@ -77,7 +78,7 @@ ht-degree: 0%
 ...
 ```
 
-對所需的服務URL執行DELETE要求。
+在所需的服務URL上執行DELETE要求。
 
 ```
 -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
@@ -94,8 +95,8 @@ ht-degree: 0%
 此程式分為三個步驟。
 
 1. 擷取所需的服務及其訂閱URL。
-1. 對訂閱URL執行GET請求以擷取所有設定檔訂閱。
-1. 對所需的設定檔訂閱URL執行DELETE要求。
+1. 在訂閱URL上執行GET要求，以擷取所有設定檔訂閱。
+1. 在所需的設定檔訂閱URL上執行DELETE要求。
 
 如果刪除請求成功，則回應狀態為204 「無內容」。
 
@@ -130,7 +131,7 @@ ht-degree: 0%
 },
 ```
 
-對訂閱URL執行GET要求。
+對訂閱URL執行GET請求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions \
@@ -157,7 +158,7 @@ ht-degree: 0%
 }
 ```
 
-對所需的設定檔訂閱URL執行DELETE要求。
+在所需的設定檔訂閱URL上執行DELETE要求。
 
 ```
 -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions/<PKEY> \

@@ -5,12 +5,13 @@ audience: automating
 content-type: reference
 topic-tags: channel-activities
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 11e2cd7e-99b7-45cc-a0c2-41049128fe49
 hide: true
 hidefromtoc: true
-source-git-commit: 110f3ccb5865e70c78e18485b4ff4ba7a648af3f
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 3%
@@ -21,7 +22,7 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->Audience Destinations服務目前為測試版，可能會經常更新，恕不另行通知。 客戶需在Azure上代管（目前僅限北美地區使用Beta版）才能存取這些功能。 如果您想要存取許可權，請聯絡Adobe客戶服務。
+>Audience Destinations服務目前為測試版，可能會經常更新，恕不另行通知。 客戶需在Azure上代管（目前僅限北美地區使用Beta版）才能存取這些功能。 如果您想要存取，請聯絡Adobe客戶服務。
 
 使用區段產生器建立[Adobe Experience Platform對象](../../integrating/using/aep-about-audience-destinations-service.md)後，您可以使用相同的方式在工作流程中的行銷活動對象使用它，以個人化和傳送訊息。
 
@@ -29,7 +30,7 @@ ht-degree: 3%
 
 1. 將&#x200B;**[!UICONTROL Read audience]**&#x200B;活動新增至工作流程，然後開啟它。
 
-1. 選取「**[!UICONTROL Type of audience]**」下的「**[!UICONTROL Adobe Experience Platform]**」選項，然後新增所需的對象。
+1. 選取「**[!UICONTROL Adobe Experience Platform]**」下的「**[!UICONTROL Type of audience]**」選項，然後新增所需的對象。
 
    ![](assets/aep_wkf_readaudience.png)
 

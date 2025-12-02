@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
 feature: Audiences
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: b097b3fa-f949-446e-ad44-cc6ca025ee55
-source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1252'
 ht-degree: 1%
@@ -25,7 +26,7 @@ ht-degree: 1%
 
 用來收集位置資料的行動應用程式必須由&#x200B;**管理員**&#x200B;在Adobe Campaign介面中設定。
 
-若要將Adobe Experience Platform Location Services與已設定Adobe Experience Platform SDK的行動應用程式搭配使用，您需要：
+若要將Adobe Experience Platform定位服務與以Adobe Experience Platform SDK設定的行動應用程式搭配使用，您需要：
 
 1. 在資料收集UI中，將&#x200B;**[!UICONTROL Places]**&#x200B;擴充功能新增至您的行動應用程式設定。 在Adobe Campaign中設定行動應用程式。 請參閱[安裝Places擴充功能](https://developer.adobe.com/client-sdks/solution/places)。
 
@@ -34,7 +35,7 @@ ht-degree: 1%
 1. 然後，在資料收集UI中，您需要建立規則以支援Point of Interest和Adobe Campaign之間的行動使用案例。\
    當使用者進入地理圍欄式&#x200B;**[!UICONTROL Point of Interest]**&#x200B;時，將觸發此規則。 請參閱此[頁面](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Locationpostback)以建立您的規則。
 
-1. 在地標中定義您的&#x200B;**[!UICONTROL Points of Interest]**。 請參閱[建立地標](https://experienceleague.adobe.com/docs/places/using/poi-mgmt-ui/create-a-poi-ui.html?lang=zh-Hant)。
+1. 在地標中定義您的&#x200B;**[!UICONTROL Points of Interest]**。 請參閱[建立地標](https://experienceleague.adobe.com/docs/places/using/poi-mgmt-ui/create-a-poi-ui.html)。
 
 1. 請務必存取行動應用程式和在Adobe Campaign中收集的位置資料。 請參閱[存取用來收集位置資料的行動應用程式](#accessing-mobile-apps-used-to-collect-location-data)和[存取收集的位置資料](#accessing-collected-location-data)。
 
@@ -42,17 +43,17 @@ ht-degree: 1%
 
 用來收集位置資料的行動應用程式必須由&#x200B;**管理員**&#x200B;在Adobe Campaign介面中設定。
 
-若要將Point of Interest資料功能用於以SDK V4設定的行動應用程式，您需要：
+若要將Point of Interest資料功能用於已設定SDK V4的行動應用程式，您需要：
 
-1. 存取適用於行動裝置的Adobe Analytics。 請檢視授權合約，或聯絡Adobe客戶經理以取得詳細資訊。
+1. 存取適用於行動裝置的Adobe Analytics。 如需詳細資訊，請檢視授權合約或聯絡Adobe客戶經理。
 1. 在Adobe Campaign中設定行動應用程式。 請參閱[在Campaign](#setting-up-a-mobile-app-in-campaign)中設定行動應用程式。
 1. 在Adobe Mobile Services介面中設定您的行動應用程式。 這可讓您確保Adobe Mobile Services收集的資料傳送至Adobe Campaign。 請參閱[在Adobe Mobile Services中設定行動應用程式](#configuring-a-mobile-app-in-adobe-mobile-services)。
 1. 執行行動應用程式的特定設定：
 
-   * 將從AdobeMobile Services介面下載的設定檔案與行動應用程式封裝。
+   * 使用行動應用程式封裝從Adobe Mobile Services介面下載的設定檔案。
    * 將Experience Cloud Mobile SDK整合至您的行動應用程式。 請參閱[將SDK整合至行動應用程式](#integrating-the-sdk-into-a-mobile-application)。
 
-1. 在Adobe行動服務介面中定義地標。 請參閱[在Adobe行動服務中定義地標](#defining-points-of-interest-in-adobe-mobile-services)。
+1. 在Adobe Mobile Services介面中定義地標。 請參閱[在Adobe Mobile Services中定義地標](#defining-points-of-interest-in-adobe-mobile-services)。
 1. 定義您要從行動應用程式訂閱者收集的資料。 請參閱[收集訂閱者的興趣點資料](#collecting-subscribers--points-of-interest-data)。
 1. 請務必存取行動應用程式和在Adobe Campaign中收集的位置資料。 請參閱[存取用來收集位置資料的行動應用程式](#accessing-mobile-apps-used-to-collect-location-data)和[存取收集的位置資料](#accessing-collected-location-data)。
 
@@ -66,9 +67,9 @@ ht-degree: 1%
 
    請勿填寫&#x200B;**[!UICONTROL Device-specific settings]**&#x200B;區段。 這僅適用於設定接收推播通知的應用程式。
 
-在&#x200B;**[!UICONTROL Mobile application properties]**&#x200B;區段中列出兩個URL： **[!UICONTROL Collect PII endpoint]**&#x200B;和&#x200B;**[!UICONTROL Location Services endpoint]**。 這些設定檔將用於Adobe Mobile Services介面。 請參閱[在Adobe Mobile Services中設定行動應用程式](#configuring-a-mobile-app-in-adobe-mobile-services)。
+在&#x200B;**[!UICONTROL Mobile application properties]**&#x200B;區段中列出兩個URL： **[!UICONTROL Collect PII endpoint]**&#x200B;和&#x200B;**[!UICONTROL Location Services endpoint]**。 這些設定用於Adobe Mobile Services介面。 請參閱[在Adobe Mobile Services中設定行動應用程式](#configuring-a-mobile-app-in-adobe-mobile-services)。
 
-* **[!UICONTROL Collect PII endpoint]** URL是用來在啟動時從行動應用程式收集使用者的Experience CloudID和註冊權杖。 當使用者使用憑證（例如電子郵件、名字、姓氏等）登入應用程式時，也會收集此資料並用於協調使用者的註冊權杖與Adobe Campaign設定檔。
+* **[!UICONTROL Collect PII endpoint]** URL是用來在啟動時從行動應用程式收集使用者的Experience Cloud ID和註冊權杖。 當使用者使用憑證（例如電子郵件、名字、姓氏等）登入應用程式時，也會收集此資料並用於協調使用者的註冊權杖與Adobe Campaign設定檔。
 * **[!UICONTROL Location Services endpoint]** URL是用來從地標收集位置資料，例如使用者的經緯度和半徑。
 
 您現在可以在Adobe Mobile Services中使用這些值來完成設定，如[在Adobe Mobile Services中設定行動應用程式](#configuring-a-mobile-app-in-adobe-mobile-services)區段中所述。
@@ -96,7 +97,7 @@ ht-degree: 1%
    >
    >此組織必須與您在Adobe Campaign執行個體上使用的組織相同。
 
-1. 按一下&#x200B;**[!UICONTROL Manage Postbacks]**。
+1. 按一下 **[!UICONTROL Manage Postbacks]**。
 1. 建立回傳。
 
    * 選取&#x200B;**[!UICONTROL PII]**&#x200B;做為&#x200B;**[!UICONTROL Postback Type]**。
@@ -131,7 +132,7 @@ ht-degree: 1%
 
    * 將&#x200B;**內容型別**&#x200B;設定為&#x200B;**[!UICONTROL application/json]**。
    * 在&#x200B;**中，哪些資料標籤會觸發回傳？**，選取任何事件，通常是&#x200B;**[!UICONTROL Launched]**&#x200B;和&#x200B;**[!UICONTROL exists]**。
-   * 按一下&#x200B;**[!UICONTROL Save & Activate]**。
+   * 按一下 **[!UICONTROL Save & Activate]**。
 
 1. 建立第二個回傳。
 
@@ -158,11 +159,11 @@ ht-degree: 1%
 
    * 將&#x200B;**內容型別**&#x200B;設定為&#x200B;**[!UICONTROL application/json]**。
    * 在&#x200B;**中，哪些資料標籤會觸發回傳？**，選取&#x200B;**[!UICONTROL campaign.test]**&#x200B;和&#x200B;**[!UICONTROL exists]**。
-   * 按一下&#x200B;**[!UICONTROL Save & Activate]**。
+   * 按一下 **[!UICONTROL Save & Activate]**。
 
 >[!NOTE]
 >
->如需設定回傳的詳細資訊，請參閱[AdobeMobile Services檔案](https://experienceleague.adobe.com/docs/mobile-services/using/manage-app-settings-ug/configuring-app/signals.html?lang=zh-Hant)。
+>如需設定回傳的詳細資訊，請參閱[Adobe Mobile Services檔案](https://experienceleague.adobe.com/docs/mobile-services/using/manage-app-settings-ug/configuring-app/signals.html)。
 
 ### 將SDK整合至行動應用程式 {#integrating-the-sdk-into-a-mobile-application}
 
@@ -170,24 +171,24 @@ ht-degree: 1%
 
 此[頁面](https://helpx.adobe.com/tw/campaign/kb/configuring-app-sdkv4.html)中說明此步驟。
 
-### 在Adobe Mobile Services中定義地標 {#defining-points-of-interest-in-adobe-mobile-services}
+### 在Adobe行動服務中定義地標 {#defining-points-of-interest-in-adobe-mobile-services}
 
 若要定義用來收集位置資料的地標，請執行下列動作：
 
-1. 前往AdobeMobile Services介面。
+1. 前往Adobe行動服務介面。
 1. 新增您的應用程式。
 
-   如需在Mobile Services中管理應用程式的詳細資訊，請參閱[AdobeMobile Services檔案](https://experienceleague.adobe.com/docs/mobile-services/using/manage-apps-ug/t-new-app.html?lang=zh-Hant)。
+   如需在Mobile Services中管理應用程式的詳細資訊，請參閱[Adobe Mobile Services檔案](https://experienceleague.adobe.com/docs/mobile-services/using/manage-apps-ug/t-new-app.html)。
 
 1. 定義地標。
 
-   如需管理地標的詳細資訊，請參閱[Adobe行動服務檔案](https://experienceleague.adobe.com/docs/mobile-services/using/location-ug/t-manage-points.html?lang=zh-Hant)。
+   如需管理地標的詳細資訊，請參閱[Adobe Mobile Services檔案](https://experienceleague.adobe.com/docs/mobile-services/using/location-ug/t-manage-points.html)。
 
 ### 收集訂閱者的興趣點資料 {#collecting-subscribers--points-of-interest-data}
 
 特定自訂資源可讓您定義要從應用程式訂閱者收集的資料。
 
-此步驟在[使用SDK V4](https://helpx.adobe.com/tw/campaign/kb/configuring-app-sdkv4.html)設定行動應用程式頁面中說明。
+此步驟的說明請參閱[使用SDK V4](https://helpx.adobe.com/tw/campaign/kb/configuring-app-sdkv4.html)設定行動應用程式。
 
 ## 存取用來收集位置資料的行動應用程式 {#accessing-mobile-apps-used-to-collect-location-data}
 

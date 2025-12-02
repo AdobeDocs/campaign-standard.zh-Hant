@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: ada1a5d1-879b-49cd-b4ef-43d7a40bafdb
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 7%
@@ -32,6 +33,6 @@ Adobe Campaign Standard與Adobe Analytics之間的這項整合可讓您：
 
 **相關主題：**
 
-* [Analytics整合Campaign Standard概觀](https://experienceleague.adobe.com/docs/analytics/integration/adobe-campaign.html?lang=zh-Hant)
-* [設定Campaign Standard整合](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html?lang=zh-Hant)
+* [Campaign Standard與Analytics整合概述](https://experienceleague.adobe.com/docs/analytics/integration/adobe-campaign.html)
+* [設定Campaign Standard整合](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html)
 * [Analytics 中的 Campaign 維度和量度](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)

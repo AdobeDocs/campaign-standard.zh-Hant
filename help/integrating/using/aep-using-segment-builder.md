@@ -6,12 +6,13 @@ content-type: reference
 topic-tags: managing-audiences
 context-tags: audience,wizard;audience,overview;delivery,audience,back
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 9a6c542e-10ed-4e77-abb3-36324e1cb38f
 hide: true
 hidefromtoc: true
-source-git-commit: 110f3ccb5865e70c78e18485b4ff4ba7a648af3f
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '834'
 ht-degree: 3%
@@ -22,11 +23,11 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->Audience Destinations服務目前為測試版，可能會經常更新，恕不另行通知。 客戶需在Azure上代管（目前僅限北美地區使用Beta版）才能存取這些功能。 如果您想要存取許可權，請聯絡Adobe客戶服務。
+>Audience Destinations服務目前為測試版，可能會經常更新，恕不另行通知。 客戶需在Azure上代管（目前僅限北美地區使用Beta版）才能存取這些功能。 如果您想要存取，請聯絡Adobe客戶服務。
 
-區段產生器可讓您根據來自[即時客戶個人檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant)的資料定義規則，藉此建立對象。
+區段產生器可讓您根據來自[即時客戶個人檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)的資料定義規則，藉此建立對象。
 
-本節介紹建立區段時的全域概念。 如需區段產生器本身的詳細資訊，請參閱[區段產生器使用手冊](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hant)。
+本節介紹建立區段時的全域概念。 如需區段產生器本身的詳細資訊，請參閱[區段產生器使用手冊](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html)。
 
 「區段產生器」介面的組成如下：
 
@@ -48,7 +49,7 @@ ht-degree: 3%
 
 1. 確保在設定窗格中選取所需的合併原則。
 
-   如需合併原則的詳細資訊，請參閱[區段產生器使用手冊](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hant)中的專屬章節。
+   如需合併原則的詳細資訊，請參閱[區段產生器使用手冊](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html)中的專屬章節。
 
    ![](assets/aep_audiences_mergepolicy.png)
 
@@ -66,7 +67,7 @@ ht-degree: 3%
 
 左窗格會列出可用來建構規則的所有屬性、事件和對象。
 
-列出的欄位是貴公司擷取的屬性，並已透過[體驗資料模型(XDM)系統](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant)提供。
+列出的欄位是貴公司擷取的屬性，並已透過[體驗資料模型(XDM)系統](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)提供。
 
 欄位會整理為索引標籤：
 
@@ -82,7 +83,7 @@ ht-degree: 3%
 >
 >**多實體分段**&#x200B;可讓您根據產品、商店或其他非設定檔類別，以其他資料擴充設定檔資料。 連線後，其他類別的資料將變得可用，就好像它們是設定檔結構描述的原生資料。
 >
->如需詳細資訊，請參閱[專屬文件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/multi-entity-segmentation.html?lang=zh-Hant)。
+>如需詳細資訊，請參閱[專屬文件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/multi-entity-segmentation.html)。
 
 依預設，區段產生器會顯示已有資料存在的欄位。 若要顯示完整結構描述，包括資料不存在的欄位，請從設定中啟用&#x200B;**[!UICONTROL Show full XDM schema]**&#x200B;選項。
 
@@ -96,7 +97,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->下節提供有關規則定義的全域資訊。 如需詳細資訊，請參閱[區段產生器使用手冊](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hant)。
+>下節提供有關規則定義的全域資訊。 如需詳細資訊，請參閱[區段產生器使用手冊](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html)。
 
 若要建立規則，請依照下列步驟進行：
 

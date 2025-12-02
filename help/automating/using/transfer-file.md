@@ -6,13 +6,14 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: fileTransfer,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
-source-git-commit: 53852538ac1e092dc9376119f29d969ed4b02952
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1170'
-ht-degree: 75%
+ht-degree: 76%
 
 ---
 
@@ -64,7 +65,7 @@ ht-degree: 75%
 
      <!--**[!UICONTROL Disable passive mode]**: allows you to specify the connection port to be used for data transfer.-->
 
-   * **[!UICONTROL List all files]**：在&#x200B;**[!UICONTROL General]**&#x200B;索引標籤中選取&#x200B;**[!UICONTROL File listing]**&#x200B;動作時，此選項可供使用。 它可讓您為 **vars.filenames** event　變數中伺服器上所有檔案建立索引，其中檔案名稱以 **&#39;n&#39;** 字元分隔 。
+   * **[!UICONTROL List all files]**：在&#x200B;**[!UICONTROL File listing]**&#x200B;索引標籤中選取&#x200B;**[!UICONTROL General]**&#x200B;動作時，此選項可供使用。 它可讓您為 **vars.filenames** event　變數中伺服器上所有檔案建立索引，其中檔案名稱以 **&#39;n&#39;** 字元分隔 。
 
 1. **[!UICONTROL If no files are found]** 索引標籤的 **[!UICONTROL Advanced options]** 區段可讓您在活動啟動時偵測到任何錯誤或不存在的檔案時設定特定操作。
 
@@ -91,7 +92,7 @@ HTTP　通訊協定可讓您從外部帳戶或　URL　開始下載檔案。
 
 SFTP　通訊協定可讓您開始從　URL　或外部帳戶下載檔案。
 
-使用此通訊協定，您可以選擇&#x200B;**[!UICONTROL Use connection parameters defined in an external account]**&#x200B;選項，然後選取您要的帳戶並指定要下載的檔案路徑。
+使用此通訊協定，您可以選擇&#x200B;**[!UICONTROL Use connection parameters defined in an external account]**選項，然後選取您要的帳戶並指定要下載的檔案路徑。
 ![](assets/wkf_file_transfer_07.png)
 
 >[!CAUTION]

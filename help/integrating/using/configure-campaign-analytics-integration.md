@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: a6748b4b-36c5-4961-a599-ace73a8504cc
-source-git-commit: 26260b9e633d8be1652eeb46c982864a7477da27
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 7%
@@ -28,7 +29,7 @@ ht-degree: 7%
 
    ![](assets/analytics_2.png)
 
-1. 在&#x200B;**[!UICONTROL Connection]**&#x200B;欄位中指定您的&#x200B;**[!UICONTROL Web services user name]**&#x200B;和&#x200B;**[!UICONTROL Web services share secret]**。
+1. 在&#x200B;**[!UICONTROL Web services user name]**&#x200B;欄位中指定您的&#x200B;**[!UICONTROL Web services share secret]**&#x200B;和&#x200B;**[!UICONTROL Connection]**。
 
    選取&#x200B;**[!UICONTROL Admin > Company settings > Web services]**，即可在Analytics中找到這些引數。
 

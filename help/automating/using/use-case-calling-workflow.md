@@ -5,17 +5,18 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 7a21f4f6-316f-4f3d-9d53-37d406a46aae
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1006'
 ht-degree: 1%
 
 ---
 
-# 使用實例 {#use-case}
+# 使用案例 {#use-case}
 
 以下使用案例顯示如何使用工作流程中的引數呼叫工作流程。
 
@@ -35,7 +36,7 @@ ht-degree: 1%
 
 ## 步驟1：設定API呼叫 {#step-1--configuring-the-api-call}
 
-進行API呼叫以使用引數觸發工作流程1。 如需API呼叫語法的詳細資訊，請參閱[Campaign StandardREST API檔案](../../api/using/triggering-a-signal-activity.md)。
+進行API呼叫以使用引數觸發工作流程1。 如需API呼叫語法的詳細資訊，請參閱[Campaign Standard REST API檔案](../../api/using/triggering-a-signal-activity.md)。
 
 在本例中，我們想使用下列引數呼叫工作流程：
 

@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: readAudience,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 9a77a2c7-cc1c-416f-8103-bb7d5c84a373
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 86%
@@ -41,7 +42,7 @@ ht-degree: 86%
 
    您可以擷取下列類型的客群：**[!UICONTROL List]**、**[!UICONTROL Query]**、**[!UICONTROL File]** 及 **[!UICONTROL Experience Cloud]**。如需客群類型的詳細資訊，請參閱[客群](../../audiences/using/about-audiences.md)文件。
 
-   **[!UICONTROL Use a dynamic audience]** 選項可讓您根據工作流程的事件變數定義要定位的客群名稱。如需詳細資訊，請參閱[此頁面](../../automating/using/customizing-workflow-external-parameters.md)區段。
+   **[!UICONTROL Use a dynamic audience]** 選項可讓您根據工作流程的事件變數定義要鎖定的客群名稱。如需詳細資訊，請參閱[此頁面](../../automating/using/customizing-workflow-external-parameters.md)區段。
 
    ![](assets/readaudience_activity1.png)
 

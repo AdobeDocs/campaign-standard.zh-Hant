@@ -5,10 +5,11 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 1cd471e3-5332-4119-b342-2c3c8503fdd1
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 35%
@@ -33,7 +34,7 @@ ht-degree: 35%
 * [細分](../../automating/using/segmentation.md)
 * [讀取客群](../../automating/using/read-audience.md)
 * [儲存客群](../../automating/using/save-audience.md)
-* [去重複化](../../automating/using/deduplication.md)
+* [重複資料刪除](../../automating/using/deduplication.md)
 * [擴充](../../automating/using/enrichment.md)
 
 **[!UICONTROL Targeting]**&#x200B;活動可讓您為其對外轉變定義&#x200B;**區段代碼**。 然後，您可以根據這些區段代碼建立報表，以評估行銷行銷活動的效率。如需詳細資訊，請參閱[本區段](../../reporting/using/creating-a-report-workflow-segment.md)。
@@ -53,13 +54,13 @@ Adobe Campaign可讓您處理傳入資料的集合。 因此，您可以合併�
 * **[!UICONTROL Union]**&#x200B;活動可讓您將多個活動的結果重新群組至單一目標。 請參閱[聯合](../../automating/using/union.md)一節。
 * **[!UICONTROL Intersection]**&#x200B;活動可讓您僅保留活動中不同入站母體的共同元素。 請參閱[交集](../../automating/using/intersection.md)一節。
 * **[!UICONTROL Exclusion]**&#x200B;活動可讓您根據特定條件從一個母體中排除元素。 請參閱[排除](../../automating/using/exclusion.md)區段。
-* **[!UICONTROL Segmentation]** 活動可讓您從工作流程中先前放置之活動計算的母體中建立一或多個分段。在活動結束時，可以在單一轉變或不同轉變中處理這些轉變。 請參閱[分段](../../automating/using/segmentation.md)區段。
+* **[!UICONTROL Segmentation]** 活動可讓您從工作流程中先前放置之活動計算的群體中建立一或多個分段。在活動結束時，可以在單一轉變或不同轉變中處理這些轉變。 請參閱[分段](../../automating/using/segmentation.md)區段。
 
 ## 豐富資料 {#enriching-data}
 
 已識別和收集的資料可以擴充、彙總和操作，以最佳化目標建構。 您可以透過包含未在資料超市中模型化的資料，來簡化及最佳化鎖定過程。
 
-**[!UICONTROL Query]**&#x200B;和&#x200B;**[!UICONTROL Incremental query]**&#x200B;活動的&#x200B;**[!UICONTROL Additional data]**&#x200B;索引標籤可讓您擴充查詢所定位的資料，並將此資料傳輸至下列工作流程活動，以便在其中使用。 您尤其可以新增：
+**[!UICONTROL Additional data]**&#x200B;和&#x200B;**[!UICONTROL Query]**&#x200B;活動的&#x200B;**[!UICONTROL Incremental query]**&#x200B;索引標籤可讓您擴充查詢所定位的資料，並將此資料傳輸至下列工作流程活動，以便在其中使用。 您尤其可以新增：
 
 * 簡單資料
 * 彙總

@@ -2,13 +2,14 @@
 title: 使用工作流程傳送循環推播通知
 description: 在此範例中，個人化推播通知會根據訂閱者的時區，在每月的第一天晚上8點傳送給行動應用程式
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: d5e6034c-3673-4069-ac0b-49c7ad07259d
-source-git-commit: 0ab950d4124bf459ba889e2f1c2954210dd350e0
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '484'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -34,9 +35,9 @@ ht-degree: 4%
 
    ![](assets/wkf_push_example_5.png)
 
-1. [查詢](../../automating/using/query.md)活動可讓您鎖定年齡介於20到30歲之間、已訂閱您的行動應用程式且未開啟您傳送之電子郵件的VIP客戶：
+1. [查詢](../../automating/using/query.md)活動可讓您鎖定年齡介於20到30歲、已訂閱您的行動應用程式且未開啟您傳送之電子郵件的VIP客戶：
 
-   * 選取對象(您的VIP客戶)並根據其年齡進行篩選。
+   * 選取對象(您的VIP客戶)，並根據其年齡篩選。
    * 將&#x200B;**Subscriptions to an application**&#x200B;元素拖放至工作區。 選取&#x200B;**存在**，然後選取您要使用的行動應用程式。
    * 選取您傳送給客戶的電子郵件。
    * 將&#x200B;**傳遞記錄（記錄）**&#x200B;元素拖放到工作區中，並選取&#x200B;**存在**&#x200B;以鎖定所有收到電子郵件的客戶。
@@ -46,9 +47,9 @@ ht-degree: 4%
 
 1. [推播通知傳遞](../../automating/using/push-notification-delivery.md)活動可讓您輸入訊息的內容，並選取您要使用的個人化欄位：
 
-   * 選取&#x200B;**[!UICONTROL Recurring notification]**&#x200B;選項。
+   * 選取 **[!UICONTROL Recurring notification]** 選項。
    * 定義推播通知內容。 如需推播通知內容的詳細資訊，請參閱此[區段](../../channels/using/preparing-and-sending-a-push-notification.md)。
-   * 在&#x200B;**[!UICONTROL Schedule]**&#x200B;區塊中，選取&#x200B;**[!UICONTROL Messages to be sent automatically on the time zone specified below]**。 在此處，我們在工作流程&#x200B;**[!UICONTROL Scheduler]**&#x200B;中選擇了&#x200B;**[!UICONTROL Time zone of the contact date]** Pacific。
+   * 在&#x200B;**[!UICONTROL Schedule]**&#x200B;區塊中，選取&#x200B;**[!UICONTROL Messages to be sent automatically on the time zone specified below]**。 在此處，我們在工作流程&#x200B;**[!UICONTROL Time zone of the contact date]**&#x200B;中選擇了&#x200B;**[!UICONTROL Scheduler]** Pacific。
    * 在 **[!UICONTROL Optimize the sending time per recipient]** 欄位中，選取 **[!UICONTROL Send at the recipient's time zone]**。
 
      ![](assets/wkf_push_example_4.png)

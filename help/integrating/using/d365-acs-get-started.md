@@ -6,10 +6,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: fa0f790d-6a4d-4b83-a51f-f565e9545a1a
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '874'
 ht-degree: 4%
@@ -18,11 +19,11 @@ ht-degree: 4%
 
 # 開始使用Microsoft Dynamics 365整合
 
-在跨管道通訊上啟用您的CRM資料：瞭解如何將聯絡人從Microsoft Dynamics 365傳遞到Adobe Campaign，並從Adobe Campaign將行銷活動效能資料（傳送、開啟、點按和退回）分享回Microsoft Dynamics 365。
+在跨管道通訊上啟用您的CRM資料：瞭解如何將聯絡人從Microsoft Dynamics 365傳遞到Adobe Campaign，並從Adobe Campaign將行銷活動績效資料（傳送、開啟、點按和退回）分享回Microsoft Dynamics 365。
 
 此整合需要下列軟體版本：
 
-* Microsoft Dynamics 365 for Sales Online，最新版本
+* Microsoft Dynamics 365 （僅限線上銷售），最新版本
 
 * Adobe Campaign Standard，最新版本
 
@@ -35,7 +36,7 @@ ht-degree: 4%
 
 Adobe Campaign Standard與Microsoft Dynamics 365的整合可同步CRM系統中所有可用的聯絡資料，讓所有相關的聯絡資料都可用於行銷活動。
 
-相反地，當Adobe Campaign Standard中的設定檔與訊息互動時，這些資料（例如：傳送、開啟、點按和跳出）會自動流入Microsoft Dynamics 365，以一併保持聯絡記錄與行銷活動完整。
+相反地，當Adobe Campaign Standard中的設定檔與訊息互動時，這些資料（例如：傳送、開啟、點按和跳出）會自動流入Microsoft Dynamics 365，以一併保持聯絡記錄與行銷活動的完整狀態。
 
 整合也支援啟用Dynamics 365中的[自訂實體](../../integrating/using/d365-acs-self-service-app-settings.md)，以同步處理至Campaign中對應的&#x200B;**自訂資源**。
 
@@ -48,7 +49,7 @@ Adobe Campaign Standard與Microsoft Dynamics 365的整合可同步CRM系統中�
 
 主要優點包括：
 
-* 銷售與行銷之間有一致的訊息：Adobe Campaign Standard與Dynamics 365整合可讓兩個系統存取客戶分析以及電子郵件行銷記錄，讓所有傳送給客戶的訊息能夠共用相同的一致訊息。
+* 銷售與行銷之間有一致的訊息：Adobe Campaign Standard與Dynamics 365整合可讓兩個系統存取客戶insight和電子郵件行銷記錄，讓所有傳送給客戶的訊息都可共用相同的一致訊息。
 
 * 所有潛在客戶和客戶資料的整體檢視：透過將Adobe Campaign Standard與Dynamics 365整合，可以從CRM系統內共用和存取每個連絡人的電子郵件行銷記錄。
 
@@ -69,10 +70,10 @@ Adobe Campaign Standard與Microsoft Dynamics 365的整合可同步CRM系統中�
 
 流程圖詳細資料（對應至上述步驟）：
 
-* **步驟1** — 假設您已擁有或正在取得Microsoft Dynamics 365 for Sales和Adobe Campaign Standard的授權。
+* **步驟1** — 假設您已擁有或正在採購Microsoft Dynamics 365銷售和Adobe Campaign Standard的授權。
 * **步驟2** — 標準整合服務可供所有客戶免費使用；不過，可能會根據您的需求支付額外費用。 深入瞭解[最佳實務和限制](../../integrating/using/d365-acs-notices-and-recommendations.md)。 如果原始銷售訂單(SO)中未包含新銷售訂單(SO)，則必須簽署新銷售訂單，才能利用整合。
 * **步驟3** — 完成Dynamics 365和Campaign的預先整合步驟。 請參閱[設定此整合](#configure-this-integration)。
-* **步驟4** -Adobe入門團隊將讓您存取整合應用程式使用者介面(UI)。
+* **步驟4** - Adobe上線團隊將為您提供整合應用程式使用者介面(UI)的存取權。
 * **步驟5** — 您將能夠設定資料對應、取代、篩選器等。 並從整合應用程式UI內測試您的整合。
 
   >[!IMPORTANT]
@@ -85,7 +86,7 @@ Adobe Campaign Standard與Microsoft Dynamics 365的整合可同步CRM系統中�
 
 * **Adobe Campaign Standard**：您必須設定API存取許可權，並為整合工具設定新的整合。 若要完成此專案，請參閱[本文章](../../integrating/using/d365-acs-configure-adobe-io.md)。
 * **Microsoft Dynamics 365**：您必須建立新的應用程式註冊，並讓應用程式使用者能夠使用整合。  若要針對這項整合設定Microsoft Dynamics 365，請參閱[本文章](../../integrating/using/d365-acs-configure-d365.md)。
-* **Adobe Campaign Standard與Microsoft Dynamics 365自助式應用程式整合**：您需要依照[本文章](../../integrating/using/d365-acs-self-service-app-control-access.md)中的步驟操作。
+* **Adobe Campaign Standard與Microsoft Dynamics 365自助式應用程式的整合**：您需要依照[本文章](../../integrating/using/d365-acs-self-service-app-control-access.md)中的步驟操作。
 
 >[!IMPORTANT]
 >
@@ -105,4 +106,4 @@ Adobe Campaign Standard與Microsoft Dynamics 365的整合可同步CRM系統中�
 * **處理程式標題**： Microsoft Dynamics 365 / Adobe Campaign Standard整合
 * **問題說明**：問題說明
 
-整合支援涵蓋範圍目前是24x5 (週一至週五提供，不包括Adobe假日和休息期間)。
+整合支援涵蓋範圍目前是24x5 (週一至週五提供，不包括Adobe假日和休假期間)。

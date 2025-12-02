@@ -1,21 +1,22 @@
 ---
-title: 概覽
+title: 概觀
 description: 本節詳細說明如何使用外部引數呼叫工作流程。
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 538056e6-b5c0-4258-a34b-524fe6e3cbbe
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 2%
 
 ---
 
-# 概覽 {#calling-a-workflow-with-external-parameters}
+# 概觀 {#calling-a-workflow-with-external-parameters}
 
 Campaign Standard可讓您使用引數（要定位的對象名稱、要匯入的檔案名稱、部分訊息內容等）呼叫工作流程。 如此一來，您便可輕鬆將Campaign自動化與外部系統整合。
 

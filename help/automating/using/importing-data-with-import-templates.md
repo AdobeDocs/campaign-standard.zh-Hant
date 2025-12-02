@@ -5,10 +5,11 @@ audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 5e93b39e-cdd1-4632-8f65-dfa76a735626
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1091'
 ht-degree: 99%
@@ -31,7 +32,7 @@ ht-degree: 99%
 
 可以根據匯入的執行範本、其執行日期與執行狀態來篩選匯入。
 
-1. 在匯入概述中，按一下 **[!UICONTROL Create]** 按鈕。精靈開啟。
+1. 在匯入概觀中，按一下 **[!UICONTROL Create]** 按鈕。精靈開啟。
 1. 選取要執行的匯入類型。匯入類型與可用的匯入範本對應。
 1. 如有必要，請將連結至範本的範例檔案下載至您的電腦，以檢視要匯入的檔案中預期的資料類型。
 1. 下載包含要在精靈中匯入之資料的檔案。
@@ -78,7 +79,7 @@ ht-degree: 99%
 
 1. 移至 **[!UICONTROL Workflow]** 索引標籤。您可以從此處，根據您的需求新增活動，讓預設提供的工作流程更佳豐富。
 
-   如需如何設定工作流程活動的詳細資訊，請參閱本區段說明的使用案例：[範例：匯入工作流程範本](../../automating/using/creating-import-workflow-templates.md)。此使用案例可協助您設定一個工作流程，此工作流程可重複用於匯入來自 Adobe Campaign 資料庫中 CRM 之設定檔的工作流程。
+   如需如何設定工作流程活動的詳細資訊，請參閱本區段說明的使用案例：[範例：匯入工作流程範本](../../automating/using/creating-import-workflow-templates.md)。此使用案例可協助您設定一個工作流程，此工作流程可重複用於匯入來自 Adobe Campaign 資料庫中 CRM 之輪廓的工作流程。
 
 1. 儲存您的範本，以便正確考慮工作流程的設定。
 1. 從 **[!UICONTROL Properties]** 索引標籤上傳範例檔案。上傳的檔案只能有未來匯入或範例資料所需的欄。範例檔案中的資料可讓您在定義工作流程後，測試簡化的匯入。

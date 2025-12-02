@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,wizard;workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 7553588c-4679-4dfd-93cb-e705ad4dc0aa
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '976'
 ht-degree: 90%
@@ -24,7 +25,7 @@ ht-degree: 90%
 
 工作流是&#x200B;**可設定活動的序列**。每個活動在進程中都具有特定角色。每個活動的結果透過&#x200B;**轉變**（用箭頭表示）轉發到以下活動。
 
-在一個活動和另一個活動之間交換的資料類型可能會影響以下活動的設定方式。例如，如果在電子郵件傳送活動之前建立了人口族群，則可當成相關電子郵件的目標。
+在一個活動和另一個活動之間交換的資料類型可能會影響以下活動的設定方式。例如，如果在電子郵件傳送活動之前建立了群體，則可當成相關電子郵件的目標。
 
 您可以在執行工作流之前或之後開啟活動以檢查或編輯參數。
 

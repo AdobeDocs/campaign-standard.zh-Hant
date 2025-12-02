@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: working-with-campaign-and-triggers
 context-tags: trigger,overview;trigger,main
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 9dc75d6a-d79a-49aa-a0c0-b1dd6c144ce6
-source-git-commit: ea69225fdf8b69025ff93b87b5b47ac9095b0eea
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 91%
@@ -30,7 +31,7 @@ Experience Cloud 啟動核心服務 **[!UICONTROL Triggers]** 與 Adobe Campaign
 
 **相關主題：**
 
-* 瞭解不同類型的觸發器：[Adobe Experience Cloud 文件](https://experienceleague.adobe.com/docs/core-services/interface/triggers.html?lang=zh-Hant)。
+* 瞭解不同類型的觸發器：[Adobe Experience Cloud 文件](https://experienceleague.adobe.com/docs/core-services/interface/triggers.html)。
 * 觀看「[根據網站活動觸發再行銷訊息](https://helpx.adobe.com/tw/marketing-cloud/how-to/email-marketing.html#step-two)」影片。
 * 瞭解我們的兩個[放棄觸發器使用案例](../../integrating/using/abandonment-triggers-use-cases.md)。
 
@@ -45,7 +46,7 @@ Experience Cloud 啟動核心服務 **[!UICONTROL Triggers]** 與 Adobe Campaign
 1. 建立連結至現有 Adobe Experience Cloud 觸發器的觸發器事件。
 1. 發佈觸發器事件。
 1. 定義異動訊息範本的內容。
-1. 測試範本（建立測試設定檔並傳送證明）。
+1. 測試範本（建立測試輪廓並傳送校樣）。
 1. 發佈異動訊息範本。
 
 [本節](../../integrating/using/abandonment-triggers-use-cases.md)將說明完整的使用案例。
@@ -56,7 +57,7 @@ Experience Cloud 啟動核心服務 **[!UICONTROL Triggers]** 與 Adobe Campaign
 
 * 觸發器不支援推播通知。僅支援電子郵件和簡訊。
 * 您可以透過 Analytics 擷取的中繼資料（例如電子郵件 ID、頁面名稱等）豐富觸發器。
-* 您可以將觸發器調和至儲存在 Campaign Standard 中的設定檔，並使用設定檔的欄位來進行訊息個人化。
+* 您可以將觸發器調和至儲存在 Campaign Standard 中的輪廓，並使用輪廓的欄位來進行訊息個人化。
 * 一旦收到觸發器，就會處理並調和觸發器並送出。視收到的觸發器數量、範本中使用的個人化欄位數，大約需要 5 到 15 分鐘。
 
 >[!NOTE]

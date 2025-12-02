@@ -6,13 +6,14 @@ content-type: reference
 topic-tags: filtering-data
 context-tags: queryFilter,overview;audience,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: f11754fb-188e-4cae-bd5b-0dfbf74befb3
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1100'
-ht-degree: 97%
+ht-degree: 95%
 
 ---
 
@@ -72,7 +73,7 @@ ht-degree: 97%
 
 * 每個條件都採用 **&lt;value1> &lt;comparison operator> &lt;value2>** 行式，其中：
 
-   * **&lt;value1>** 是一個欄位或函式。例如，**@created** 適用於建立設定檔的日期，或是 **Year(@created)** 適用於建立設定檔的年份。
+   * **&lt;value1>** 是一個欄位或函式。例如，**@created** 適用於建立輪廓的日期，或是 **Year(@created)** 適用於建立輪廓的年份。
    * **&lt;comparison operator>** 是[「比較」運算子](../../automating/using/advanced-expression-editing.md#comparison-operators)區段中所列的運算子。此運算子定義 **&lt;value1>** 及 **&lt;value2>** 之間的比較方法。
    * **&lt;value2>** 是手動輸入的欄位、函式或值。
 
@@ -91,7 +92,7 @@ ht-degree: 97%
 Year(@created) = Year(GetDate()) AND Month(@created) = Month(GetDate())
 ```
 
-在此範例中，會定位其建立日期為目前月份和年份的描述檔。
+在此範例中，會定位其建立日期為目前月份和年份的輪廓。
 
 ### JavaScript語法 {#javascript-syntax}
 
@@ -120,7 +121,7 @@ JavaScript 運算式由一或多個條件組成，並使用下列語法元素：
 context.profile.age > 21 && context.profile.firstName.length() > 0
 ```
 
-在此範例中，已提供 21 歲以上且其名字的描述檔（以 **firstName** 欄位至少包含一個字元為例）。
+在此範例中，已提供 21 歲以上且其名字的輪廓 (以 **firstName** 欄位至少包含一個字元為例)。
 
 ## 比較運運算元 {#comparison-operators}
 
@@ -144,42 +145,42 @@ context.profile.age > 21 && context.profile.firstName.length() > 0
    <td> =<br /> </td> 
    <td> ==<br /> </td> 
    <td> 第一個值必須與第二個值完全相同。<br /> </td> 
-   <td> <strong>@lastName = Martin</strong> 會擷取其姓氏為　'Martin'　的描述檔，只會擷取這些相同字元。<br /> </td> 
+   <td> <strong>@lastName = Martin</strong> 會擷取其姓氏為　'Martin'　的輪廓，只會擷取這些相同字元。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Greater than</span> <br /> </td> 
    <td> &gt;<br /> </td> 
    <td> &gt;<br /> </td> 
    <td> 第一個值必須斷斷續續大於第二個值。<br /> </td> 
-   <td> <strong>@age &gt; 50</strong> 會擷取早於　'50'、'51'、'52'　等描述檔。<br /> </td> 
+   <td> <strong>@age &gt; 50</strong> 會擷取年齡大於「50」、「51」、「52」等輪廓。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Less than</span> <br /> </td> 
    <td> &lt;<br /> </td> 
    <td> &lt;<br /> </td> 
    <td> 第一個值必須斷斷續續小於第二個值。<br /> </td> 
-   <td> <strong>@created &lt; DaysAgo(100)</strong>，搜尋在少於　100　天前的資料庫中建立的所有設定檔。<br /> </td> 
+   <td> <strong>@created &lt; DaysAgo(100)</strong>，搜尋在少於　100　天前的資料庫中建立的所有輪廓。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Greater than or equal to</span> <br /> </td> 
    <td> &gt;=<br /> </td> 
    <td> &gt;=<br /> </td> 
    <td> 第一個值必須大於或等於第二個值。<br /> </td> 
-   <td> <strong>@age &gt;= 30</strong> 會擷取年齡在　30　歲以上的描述檔。<br /> </td> 
+   <td> <strong>@age &gt;= 30</strong> 會擷取年齡在　30　歲以上的輪廓。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Less than or equal to</span> <br /> </td> 
    <td> &lt;=<br /> </td> 
    <td> &lt;=<br /> </td> 
    <td> 第一值必須小於或等於第二值。<br /> </td> 
-   <td> <strong>@age &lt;= 60</strong> 會接取年齡在　60　歲或以下的設定檔。<br /> </td> 
+   <td> <strong>@age &lt;= 60</strong> 會接取年齡在　60　歲或以下的輪廓。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Different </span> <br /> </td> 
    <td> !=<br /> </td> 
    <td> !=<br /> </td> 
    <td> 第一個值必須與第二個值不同。<br /> </td> 
-   <td> <strong>@language ! = English</strong> 會擷取尚未設定為說英語的設定檔。<br /> </td> 
+   <td> <strong>@language ! = English</strong> 會擷取尚未設定為說英語的輪廓。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Contains</span> <br /> </td> 
@@ -200,14 +201,14 @@ context.profile.age > 21 && context.profile.firstName.length() > 0
    <td> NOT<br /> </td> 
    <td> N/A<br /> </td> 
    <td> 類似 <span class="uicontrol">Like</span>。它可讓您不復原輸入的值。在這裡，輸入的值也必須包含 <span class="uicontrol">%</span> 萬用字元。<br /> </td> 
-   <td> <strong>@lastName NOT Smi%h</strong>。在這裡，與名稱　'Smi%h' （如　Smith　等）相對應的收件者不會被傳回為結果。<br /> </td> 
+   <td> <strong>@lastName NOT Smi%h</strong>。此處，與名稱'Smi%h' （如Smith等）相對應的收件者不會作為結果傳回。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Is empty</span> <br /> </td> 
    <td> IS NULL<br /> </td> 
    <td> N/A<br /> </td> 
    <td> 第一個值必須對應至空值。<br /> </td> 
-   <td> <strong>@mobilePhone IS NULL</strong> 會擷取所有尚未提供行動電話號碼的設定檔。<br /> </td> 
+   <td> <strong>@mobilePhone IS NULL</strong> 會擷取所有尚未提供行動電話號碼的輪廓。<br /> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -2,10 +2,11 @@
 title: 執行訂閱
 description: 瞭解如何使用API執行訂閱
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 64f321a3-436a-4b7c-99d8-0c006203012e
-source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 0%
@@ -40,7 +41,7 @@ ht-degree: 0%
   }
 ```
 
-在訂閱URL上執行POST請求，並在承載內使用所需的服務主索引鍵。
+在訂閱URL上執行POST要求，並在裝載內使用所需的服務主索引鍵。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
@@ -93,7 +94,7 @@ ht-degree: 0%
   },
 ```
 
-在訂閱URL上提出POST請求，並在裝載內使用所需的設定檔主索引鍵。
+在訂閱URL上發出POST請求，並在裝載內使用所需的設定檔主索引鍵。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign//profileAndServices/service/<PKEY>/subscriptions/ \

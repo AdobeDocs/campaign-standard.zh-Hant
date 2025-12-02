@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 66628f2a-6ed3-4b12-b2ed-9b9eec440dc3
-source-git-commit: 602878233e919d01f3972167cb6d3a1acc4cfc02
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 1%
@@ -25,17 +26,17 @@ ht-degree: 1%
 
 如果您看到這個訊息，請繼續進行下一個步驟。
 
-如果沒有，請連絡您的Adobe客戶主管或專業服務合作夥伴。 請參閱[啟用功能](../../integrating/using/configuring-triggers-in-experience-cloud.md#activating-the-functionality)。
+如果沒有，請聯絡您的Adobe客戶主管或專業服務合作夥伴。 請參閱[啟用功能](../../integrating/using/configuring-triggers-in-experience-cloud.md#activating-the-functionality)。
 
 **嘗試建立觸發程式**
 
 依照[在Campaign](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign)中建立對應觸發程式中所述的步驟建立觸發程式。
 
-如果觸發器已建立，請繼續進行下一個步驟。 如果沒有，則表示觸發端點連線失敗。 檢查是否在Experience Cloud （啟用服務）中布建觸發程式。 若非如此，請聯絡您的Adobe客戶主管或專業服務合作夥伴。 需要下列資訊：
+如果觸發器已建立，請繼續進行下一個步驟。 如果沒有，則表示觸發端點連線失敗。 檢查是否已在Experience Cloud （啟動服務）中布建觸發器。 若非如此，請聯絡您的Adobe客戶主管或專業服務合作夥伴。 需要下列資訊：
 
 * Marketing Cloud公司名稱
 * 組織 ID
-* Analytics登入公司(可以與Marketing Cloud公司名稱相同)
+* Analytics登入公司(可與Marketing Cloud公司名稱相同)
 
 **嘗試發佈觸發程式**
 
@@ -57,14 +58,14 @@ ht-degree: 1%
 
 如果沒有，則檢查是否從管道收到觸發程式。
 
-如果沒有，請聯絡Adobe以檢查配管端點的配置。
+如果沒有，請聯絡Adobe以檢查管道端點的設定。
 
 如果是，請遵循下列准則：
 
 * 檢查Campaign資料來源中的調解ID型別。
 * CustomerId資料來源是透過客戶屬性所建立。
 * 檢查資料來源識別碼。
-* 請求Adobe在資料來源設定後重新啟動Campaign執行個體。
+* 在資料來源設定後，要求Adobe重新啟動Campaign執行個體。
 * 檢查觸發程式報告中的觸發程式剖析問題。
 
 **觸發程式是否處於擱置狀態？**

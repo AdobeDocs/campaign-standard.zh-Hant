@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 184bc656-2107-4380-9b35-148cb4380547
-source-git-commit: c701043cbba22711de1ea7ddc5266e193d771e14
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '629'
 ht-degree: 2%
@@ -19,7 +20,7 @@ ht-degree: 2%
 
 ## 將認證新增至整合應用程式
 
-**[!UICONTROL Settings]**&#x200B;畫面可讓您指定Microsoft Dynamics 365和AdobeAPI認證。 您也可以設定與Adobe Campaign SFTP執行個體相關的設定。
+**[!UICONTROL Settings]**&#x200B;畫面可讓您指定Microsoft Dynamics 365和Adobe API認證。 您也可以設定與Adobe Campaign SFTP執行個體相關的設定。
 
 ### Microsoft Dynamics 365認證
 
@@ -35,9 +36,9 @@ Microsoft Dynamics 365憑證會授予整合應用程式許可權，讓您從Micr
 
 * **[!UICONTROL URL]**： URL的格式將為`https://&lt;servername&gt;.api.crm.dynamics.com/`
 
-### AdobeAPI認證
+### Adobe API認證
 
-使用[Adobe I/O](https://www.adobe.io/)產生Adobe Campaign認證。 您必須造訪畫面[設定Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md)，並依照指示操作，才能填寫本節中的輸入內容。
+Adobe Campaign認證是使用[Adobe I/O](https://www.adobe.io/)產生。 您必須造訪畫面[設定Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md)，並依照這裡的指示操作，才能填寫本節中的輸入內容。
 
 * 選取「驗證型別」作為Oauth，因為不建議使用JWT型驗證。
 * 下圖將詳細說明Adobe I/O與設定畫面輸入之間的對應。
@@ -50,7 +51,7 @@ Microsoft Dynamics 365憑證會授予整合應用程式許可權，讓您從Micr
 
 這些設定是選用的。 如果您打算使用Adobe Campaign SFTP執行個體從聯結器輸出記錄檔，則需要定義記錄檔。 如果您在整合執行時遇到問題，而您需要針對輸出不符合您期望的原因進行偵錯，這會很有幫助。
 
-設定SFTP伺服器的另一個原因是您打算執行選擇加入/退出工作流程，且有資料從Adobe Campaign流入Microsoft Dynamics 365 **[!UICONTROL Unidirectional (Campaign to Microsoft Dynamics 365)]**&#x200B;或&#x200B;**[!UICONTROL Bidirectional]**。
+設定SFTP伺服器的另一個原因是如果您打算執行選擇加入/退出工作流程，而且有資料從Adobe Campaign流入Microsoft Dynamics 365 **[!UICONTROL Unidirectional (Campaign to Microsoft Dynamics 365)]**&#x200B;或&#x200B;**[!UICONTROL Bidirectional]**。
 
 >[!IMPORTANT]
 >
@@ -79,13 +80,13 @@ Microsoft Dynamics 365憑證會授予整合應用程式許可權，讓您從Micr
 
 * [關於 SFTP 管理](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=zh-Hant#sftp-management)
 
-* [SFTP 儲存空間管理](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=zh-Hant#installing-ssh-key)
+* [SFTP 儲存空間管理](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html#installing-ssh-key)
 
-* [新增IP範圍](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/ip-range-allow-listing.html?lang=zh-Hant#sftp-management)
+* [新增IP範圍](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/ip-range-allow-listing.html#sftp-management)
 
-* [管理金鑰](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=zh-Hant#sftp-management)
+* [管理金鑰](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html#sftp-management)
 
-* [登入您的SFTP伺服器](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/logging-into-sftp-server.html?lang=zh-Hant#sftp-management)
+* [登入您的SFTP伺服器](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/logging-into-sftp-server.html#sftp-management)
 
 完成設定後，請使用私密金鑰登入SFTP伺服器並建立「d365_loads/exports」目錄。
 

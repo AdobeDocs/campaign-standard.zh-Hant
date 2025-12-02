@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 88007e6f-2cdd-4fea-9739-525beaf7c658
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '996'
 ht-degree: 90%
@@ -24,7 +25,7 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->本節所述的使用案例取決於 Experience Cloud 訪客 ID。您也可以使用 Experience Cloud Delaced ID 來實作。也支援雜湊和加密的宣告 ID。您可以直接解密加密的電子郵件地址/行動電話號碼，將電子郵件/簡訊傳送至不存在 Campaign 的設定檔。但在此情況下，無法使用運用設定檔資料的個人化。
+>本節所述的使用案例取決於 Experience Cloud 訪客 ID。您也可以使用 Experience Cloud Delaced ID 來實作。也支援雜湊和加密的宣告 ID。您可以直接解密加密的電子郵件地址/行動電話號碼，將電子郵件/簡訊傳送至不存在 Campaign 的輪廓。但在此情況下，無法使用運用輪廓資料的個人化。
 
 ## 先決條件 {#pre-requisites}
 
@@ -44,7 +45,7 @@ ht-degree: 90%
 
 在此使用案例中，我們將建立簡單觸發程式，每次客戶放棄瀏覽網站時都會觸發。此範例假設您已擁有 DTM 收集資料並推播至 Adobe Analytics，且已建立您的所有事件。
 
-### 建立Experience Cloud觸發程式 {#creating-an-experience-cloud-trigger}
+### 建立Experience Cloud觸發器 {#creating-an-experience-cloud-trigger}
 
 1. 從 Experience Cloud Activation Core Service 功能表選取 **[!UICONTROL Manage Triggers]**。
 
@@ -121,7 +122,7 @@ ht-degree: 90%
 
 在此使用案例中，我們將建立觸發程式，以與造訪旅行預訂網站、搜尋目的地、找不到成功結果且之後未預訂任何內容的訪客重新互動。一般程式與上一個使用案例相同（請參閱[瀏覽放棄觸發器](#browse-abandonment-trigger)）。我們此處著重於討論如何個人化再行銷電子郵件訊息。
 
-### 建立Experience Cloud觸發程式 {#creating-an-experience-cloud-trigger-1}
+### 建立Experience Cloud觸發器 {#creating-an-experience-cloud-trigger-1}
 
 請依照上述使用案例中所述的步驟，建立 Experience Cloud 觸發程式。請參閱[建立 Experience Cloud 觸發程式](#creating-an-experience-cloud-trigger)。主要差異在於觸發程式定義。
 
@@ -131,7 +132,7 @@ ht-degree: 90%
 
 ### 在Adobe Campaign中使用觸發器 {#using-the-trigger-in-adobe-campaign-1}
 
-1. 請依照先前使用案例中所述的步驟，在 Adobe Campaign 中建立觸發程式。請參閱在[&#x200B; Adobe Campaign 中使用觸發程式](#using-the-trigger-in-adobe-campaign)。主要差異在於我們在 Adobe Campaign 中存取和使用觸發程式裝載中推播之中繼資料的方式。
+1. 請依照先前使用案例中所述的步驟，在 Adobe Campaign 中建立觸發程式。請參閱在[ Adobe Campaign 中使用觸發程式](#using-the-trigger-in-adobe-campaign)。主要差異在於我們在 Adobe Campaign 中存取和使用觸發程式裝載中推播之中繼資料的方式。
 1. 在您於 Adobe Campaign 中建立的「搜尋放棄」觸發程式中，按一下 **[!UICONTROL Event content and enrichment]** 圖示以檢視推播至 Adobe Campaign 的裝載。
 
    ![](assets/trigger_uc_search_2.png)

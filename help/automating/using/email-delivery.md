@@ -6,13 +6,14 @@ content-type: reference
 topic-tags: channel-activities
 context-tags: delivery,workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: e38ff3dd-8fb0-419b-9090-a3165852bf83
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '858'
-ht-degree: 90%
+ht-degree: 88%
 
 ---
 
@@ -73,8 +74,8 @@ ht-degree: 90%
 1. 定義電子郵件內容。請參閱關於[內容編輯](../../designing/using/designing-content-in-adobe-campaign.md)的區段。
 1. 依預設，**[!UICONTROL Email delivery]** 活動不包含任何外站轉變。如果要將出站轉變新增到 **[!UICONTROL Email delivery]** 活動中，請轉至高階活動選項的　**[!UICONTROL General]**　索引標籤（活動快速動作中的　![](assets/dlv_activity_params-24px.png)　按鈕），然後核取以下選項之一：
 
-   * **[!UICONTROL Add outbound transition without the population]**：這可讓您產生一個外站轉變，其中包含與入站轉變完全相同的母體。
-   * **[!UICONTROL Add outbound transition with the population]**：這可讓您產生出站轉變，其中包含傳送電子郵件的母體。在傳送準備期間排除的目標成員（隔離、無效電子郵件等）會從此轉換中排除。
+   * **[!UICONTROL Add outbound transition without the population]**：這可讓您產生一個外站轉變，其中包含與入站轉變完全相同的群體。
+   * **[!UICONTROL Add outbound transition with the population]**：這可讓您產生出站轉變，其中包含傳送電子郵件的群體。在傳送準備期間被排除的目標成員（隔離、無效電子郵件等）會從此轉變中排除。
 
 1. 確認活動的設定並儲存工作流程。
 

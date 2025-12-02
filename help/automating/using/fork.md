@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: fork,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 1a5e1ecd-b3f1-4dbe-a816-12d27a3bc0f7
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 98%
@@ -38,6 +39,6 @@ ht-degree: 98%
 
 ## 範例 {#example}
 
-下列範例顯示兩個查詢活動的交集，這些活動是以 Adobe Campaign 資料庫中的設定檔為目標，在此情況下，是指居住在巴黎的女性。因此，「分支」活動可讓您同時使用多個活動：一個可讓客群記住計算的群體數量，另一個可區隔群體，以傳送兩封不同的電子郵件，並針對每個細分群體設定目標內容。第一封電子郵件是傳送給年齡介於 18 至 40 歲的巴黎女性，另一封則傳送給 40 歲以上的巴黎女性。
+下列範例顯示兩個查詢活動的交集，這些活動是以 Adobe Campaign 資料庫中的輪廓為目標，在此情況下，是指居住在巴黎的女性。因此，「分支」活動可讓您同時使用多個活動：一個可讓客群記住計算的群體數量，另一個可區隔群體，以傳送兩封不同的電子郵件，並針對每個細分群體設定目標內容。第一封電子郵件是傳送給年齡介於 18 至 40 歲的巴黎女性，另一封則傳送給 40 歲以上的巴黎女性。
 
 ![](assets/wkf_fork_example.png)

@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 9f94e98f-fe04-4369-8946-1380e02cdece
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 2%
@@ -19,7 +20,7 @@ ht-degree: 2%
 
 在Adobe Campaign Standard工作流程中，可以有一或多個&#x200B;**外部訊號**&#x200B;活動。 這些活動是等待觸發的「監聽器」。
 
-Campaign StandardAPI可讓您觸發&#x200B;**外部訊號**&#x200B;活動以呼叫工作流程。 API呼叫可包含將擷取至工作流程事件變數的引數（要定位的對象名稱、要匯入的檔案名稱、部分訊息內容等）。 如此一來，您便可輕鬆將Campaign自動化與外部系統整合。
+Campaign Standard API可讓您觸發&#x200B;**外部訊號**&#x200B;活動以呼叫工作流程。 API呼叫可包含將擷取至工作流程事件變數的引數（要定位的對象名稱、要匯入的檔案名稱、部分訊息內容等）。 如此一來，您便可輕鬆將Campaign自動化與外部系統整合。
 
 >[!NOTE]
 >
@@ -91,7 +92,7 @@ Campaign StandardAPI可讓您觸發&#x200B;**外部訊號**&#x200B;活動以呼�
 }
 ```
 
-若要觸發訊號活動，請使用「source」在觸發程式url上執行POST要求。 如果要使用引數呼叫工作流程，請新增「引數」屬性。
+若要觸發訊號活動，請使用「source」在觸發程式URL上執行POST要求。 如果要使用引數呼叫工作流程，請新增「引數」屬性。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<PKEY>/activities/activity/<PKEY>/trigger \

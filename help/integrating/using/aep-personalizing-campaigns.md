@@ -1,16 +1,17 @@
 ---
 title: 使用 Adobe Experience Platform 屬性個人化行銷活動
-description: 瞭解如何使用Adobe Experience Platform屬性個人化您的行銷活動。
+description: 瞭解如何使用Adobe Experience Platform屬性個人化您的促銷活動。
 audience: automating
 content-type: reference
 topic-tags: channel-activities
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 4d4e7e58-e161-4e5a-898a-b5c29ffb20e0
 hide: true
 hidefromtoc: true
-source-git-commit: 110f3ccb5865e70c78e18485b4ff4ba7a648af3f
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 6%
@@ -21,7 +22,7 @@ ht-degree: 6%
 
 >[!IMPORTANT]
 >
->Audience Destinations服務目前為測試版，可能會經常更新，恕不另行通知。 客戶需在Azure上代管（目前僅限北美地區使用Beta版）才能存取這些功能。 如果您想要存取許可權，請聯絡Adobe客戶服務。
+>Audience Destinations服務目前為測試版，可能會經常更新，恕不另行通知。 客戶需在Azure上代管（目前僅限北美地區使用Beta版）才能存取這些功能。 如果您想要存取，請聯絡Adobe客戶服務。
 >
 >使用Adobe Experience Platform中的內容資料的&#x200B;**推播**&#x200B;和&#x200B;**應用程式內**&#x200B;管道還不可用於個人化。
 

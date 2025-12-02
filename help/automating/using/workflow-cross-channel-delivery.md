@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,query,wait,delivery
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 9cee2005-a99b-47cb-b573-a25812614409
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 84%
@@ -47,7 +48,7 @@ ht-degree: 84%
 
 建立工作流程後，您就可以存取其介面。
 
-將「查詢」活動插入您的工作流程，以目標定位將接收您傳送的設定檔。
+將「查詢」活動插入您的工作流程，以目標定位將接收您傳送的輪廓。
 
 1. 在 **[!UICONTROL Activities]** > **[!UICONTROL Targeting]** 中，拖放[查詢](../../automating/using/query.md)活動。
 1. 連按兩下此活動。
@@ -59,17 +60,17 @@ ht-degree: 84%
 
 您可以對一或多個元素建立查詢。
 
-使用 **[!UICONTROL Count]** 按鈕可查看查詢所目標定位的設定檔估算數量。
+使用 **[!UICONTROL Count]** 按鈕可查看查詢所目標定位的輪廓估算數量。
 
 ## 建立細分活動 {#creating-segmentation-activity}
 
-由「查詢」活動識別目標後，您必須選取一個準則，將目標細分成兩個不同的母體：一個會收到電子郵件，另一個則會收到簡訊。
+由「查詢」活動識別目標後，您必須選取一個準則，將目標細分成兩個不同的群體：一個會收到電子郵件，另一個則會收到簡訊。
 
 您必須使用[分段](../../automating/using/segmentation.md)活動，才能從查詢上游運算的母體中建立一或多個分段。
 
 ![](assets/wkf_segment_activity.png)
 
-**電子郵件** 群組將目標設定為已定義電子郵件地址但沒有行動電話號碼的收件者。**簡訊**&#x200B;群組將包含其行動電話號碼已儲存在設定檔中的收件者。
+**電子郵件** 群組將目標設定為已定義電子郵件地址但沒有行動電話號碼的收件者。**簡訊**&#x200B;群組將包含其行動電話號碼已儲存在輪廓中的收件者。
 
 若要設定第一個轉變（電子郵件）:
 
@@ -77,7 +78,7 @@ ht-degree: 84%
 
    ![](assets/wkf_segment_properties.png)
 
-1. 選取設定檔 **[!UICONTROL Email]** 作為篩選準則。
+1. 選取輪廓 **[!UICONTROL Email]** 作為篩選準則。
 
    ![](assets/wkf_segment_email.png)
 
@@ -89,7 +90,7 @@ ht-degree: 84%
 
    ![](assets/wkf_segment_mobile_empty.png)
 
-   來自査詢的所有設定檔都會有一個電子郵件，但未定義行動電話號碼，都將處於此轉變中。
+   來自査詢的所有輪廓都會有一個電子郵件，但未定義行動電話號碼，都將處於此轉變中。
 
 1. 若要讓工作流程更加清楚，您可以編輯轉變標籤。確認您的變更。
 
@@ -98,11 +99,11 @@ ht-degree: 84%
 已設定您的第一個轉變。若要設定第二個轉變（簡訊）：
 
 1. 按一下 **[!UICONTROL Add an element]** 按鈕以新增轉變。
-1. 定義條件，可讓您擷取已提供行動電話號碼的所有設定檔。若要這麼做，請使用 **[!UICONTROL Mobile]** 邏輯運算子，在欄位上 **[!UICONTROL Is not empty]** 建立規則。
+1. 定義條件，可讓您擷取已提供行動電話號碼的所有輪廓。若要這麼做，請使用 **[!UICONTROL Mobile]** 邏輯運算子，在欄位上 **[!UICONTROL Is not empty]** 建立規則。
 
    ![](assets/wkf_segment_mobile_not_empty.png)
 
-   來自定義行動電話號碼之查詢的所有設定檔都將在此轉變中。
+   來自定義行動電話號碼之查詢的所有輪廓都將在此轉變中。
 
 1. 您可以編輯轉變的標籤。確認您的變更。
 
@@ -127,7 +128,7 @@ Adobe Campaign 可讓您將傳送新增至工作流程。若要這麼做，請�
 
    ![](assets/wkf_segment_deliveries2.png)
 
-   出站轉變可讓您復原母體及追蹤記錄。例如，您可以使用此功能，傳送第二封郵件給未點按第一封郵件的使用者。
+   出站轉變可讓您復原群體及追蹤記錄。例如，您可以使用此功能，傳送第二封郵件給未點按第一封郵件的使用者。
 
 1. 選取電子郵件範本，然後按一下 **[!UICONTROL Next]**。
 1. 輸入電子郵件屬性，然後按一下 **[!UICONTROL Next]**。

@@ -1,20 +1,21 @@
 ---
-title: 關於工作流程使用實例
-description: 瞭解更多您可以使用Campaign Standard工作流程執行的使用案例。
+title: 關於工作流程使用案例
+description: 進一步瞭解您可以使用Campaign Standard工作流程執行的使用案例。
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 exl-id: 210d1477-9536-4308-bdb7-b9ccfe4c85bc
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 70%
 
 ---
 
-# 關於工作流程使用實例 {#about-workflow-use-cases}
+# 關於工作流程使用案例 {#about-workflow-use-cases}
 
 在本節中，您將找到運用Campaign工作流程功能的各種使用案例。
 
@@ -24,8 +25,8 @@ ht-degree: 70%
 
 <img src="assets/do-not-localize/icon_workflows.svg" width="60px">
 
-* [使用補充集來建立傳送](../../automating/using/workflow-created-query-with-complement.md)
-* [在設定檔建立日期中建立傳遞](../../automating/using/workflow-creation-date-query.md)
+* [使用補集來建立傳送](../../automating/using/workflow-created-query-with-complement.md)
+* [在輪廓建立日期中建立傳遞](../../automating/using/workflow-creation-date-query.md)
 * [建立每週傳遞](../../automating/using/workflow-weekly-offer.md)
 * [建立跨頻道傳遞](../../automating/using/workflow-cross-channel-delivery.md)
 * [在傳遞之前識別重複項目](../../automating/using/identifying-duplicated-before-delivery.md)
@@ -53,14 +54,14 @@ ht-degree: 70%
 
 * [使用資料庫調和檔案客群](../../automating/using/reconcile-file-audience-with-database.md)
 * [從匯入的檔案中刪除重複資料](../../automating/using/deduplicating-data-imported-file.md)
-* [使用檔案包含的資料擴充設定檔資料](../../automating/using/enriching-profile-data-file.md)
+* [使用檔案包含的資料擴充輪廓資料](../../automating/using/enriching-profile-data-file.md)
 * [外部訊號活動和資料匯入](../../automating/using/external-signal-data-import.md)
 * [使用外部資料更新資料庫](../../automating/using/update-database-file.md)
 * [根據自動檔案下載更新資料](../../automating/using/update-data-automatic-download.md)
 * [使用關係進行資料協調](../../automating/using/reconciliation-using-relations.md)
 * [使用協調功能更新資料](../../automating/using/data-update-reconciliation.md)
-* [在外部檔案中匯出設定檔](../../automating/using/exporting-profiles-in-file.md)
+* [在外部檔案中匯出輪廓](../../automating/using/exporting-profiles-in-file.md)
 * [從檔案更新多個訂閱狀態](../../automating/using/updating-subscriptions-from-file.md)
-* [從檔案訂閱設定檔至特定服務](../../automating/using/subscribing-profiles-from-file.md)
+* [從檔案訂閱輪廓至特定服務](../../automating/using/subscribing-profiles-from-file.md)
 * [匯入使用控制面板產生的金鑰加密的資料](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt)
 * [使用安裝於控制面板的金鑰加密及匯出資料](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt)

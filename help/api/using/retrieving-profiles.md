@@ -1,11 +1,12 @@
 ---
-title: 擷取設定檔
+title: 擷取輪廓
 description: 進一步瞭解如何使用API擷取設定檔
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 19679804-f728-49fa-b26e-8f31b67c29bf
-source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 4%
@@ -14,11 +15,11 @@ ht-degree: 4%
 
 # 使用API擷取設定檔 {#retrieving-profiles}
 
-擷取設定檔是透過&#x200B;**GET**&#x200B;要求執行的。
+擷取設定檔是透過&#x200B;**GET**&#x200B;要求執行。
 
 接著，您就可以使用篩選器、排序和分頁來縮小搜尋範圍。 如需詳細資訊，請參閱[其他作業](../../api/using/sorting.md)區段。
 
-此外，Campaign StandardAPI可讓您根據以下欄位之一搜尋設定檔：電子郵件、名字、姓氏或任何自訂欄位。 如需詳細資訊，請參閱[本章節](#searching-field)。
+此外，Campaign Standard API允許您根據以下欄位之一搜尋設定檔：電子郵件、名字、姓氏或任何自訂欄位。 如需詳細資訊，請參閱[本章節](#searching-field)。
 
 <br/>
 

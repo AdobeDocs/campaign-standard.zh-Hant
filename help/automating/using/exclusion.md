@@ -1,15 +1,16 @@
 ---
 title: 排除
-description: 「排除」活動可讓您根據特定條件從一個母體中排除元素。
+description: 「排除」活動可讓您根據特定條件從一個群體中排除元素。
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: exclusion,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: dccb9545-0d7e-4d40-9a8f-2915b4da99a7
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 98%
@@ -22,11 +23,11 @@ ht-degree: 98%
 
 ![](assets/exclusion.png)
 
-**[!UICONTROL Exclusion]** 活動可讓您根據特定條件，從單一母體中排除元素。
+**[!UICONTROL Exclusion]** 活動可讓您根據特定條件，從單一群體中排除元素。
 
 ## 使用內容 {#context-of-use}
 
-**[!UICONTROL Exclusion]** 活動主要用於對入站轉變母體進行額外篩選。
+**[!UICONTROL Exclusion]** 活動主要用於對入站轉變群體進行額外篩選。
 
 主要集會在入站轉變中定義。將從主要集中排除其他入站轉變的成員。排除活動的出站轉變只包含其他入站轉變中未遇到的主要集程元。
 
@@ -38,13 +39,13 @@ ht-degree: 98%
 
    >[!NOTE]
    >
-   >入站轉變必須包含相同類型的母體。例如，如果主要集包含測試設定檔，其他轉變也必須包含測試設定檔。
+   >入站轉變必須包含相同類型的群體。例如，如果主要集包含測試輪廓，其他轉變也必須包含測試輪廓。
 
-1. 如有需要，請管理活動的[轉變](../../automating/using/activity-properties.md)，以存取輸出母體的進階選項。
+1. 如有需要，請管理活動的[轉變](../../automating/using/activity-properties.md)，以存取輸出群體的進階選項。
 1. 確認活動的設定並儲存工作流程。
 
 ## 範例 {#example}
 
-下列範例顯示兩個查詢活動，其設定是從 Adobe Campaign 資料庫篩選年齡介於 18 到 27 歲之間且電子郵件地址無效的設定檔。之後，會從第一組中排除包含無效電子郵件地址的設定檔。舉例來說，這可讓您傳送電子郵件。
+下列範例顯示兩個查詢活動，其設定是從 Adobe Campaign 資料庫篩選年齡介於 18 到 27 歲之間且電子郵件地址無效的輪廓。之後，會從第一組中排除包含無效電子郵件地址的輪廓。舉例來說，這可讓您傳送電子郵件。
 
 ![](assets/wkf_exclusion_example.png)

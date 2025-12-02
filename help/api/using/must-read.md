@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 9e2d1b59-55a5-4715-adfb-35191a9df536
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 0%
@@ -20,14 +21,14 @@ ht-degree: 0%
 ## 技術需求
 
 * Adobe Campaign API必須僅用於伺服器對伺服器。
-* 如果您要實作的使用案例與Adobe Campaign API允許的規模一致，請一律與您的Adobe技術聯絡人確認。
+* 如果您想要實作的使用案例與Adobe API允許的規模一致，請一律與您的Adobe Campaign技術聯絡人確認。
 * 設定AdobeIO存取權需要特定許可權，如有任何問題，請聯絡Adobe支援。
 
 ## 許可權與存取權
 
 * 依預設，Adobe Campaign API會使用管理員內容，因此組織單位和角色不適用。
 * Adobe Campaign API會從角色內容中排除。
-* 如果您想要使用一個或多個組織單位來設定API，請洽詢您的以Adobe技術連絡人。
+* 如果您想要使用一個或多個組織單位來設定API，請先洽詢您的Adobe技術連絡人。
 
 ## 資源表示
 
@@ -83,7 +84,7 @@ ht-degree: 0%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-對傳回的訂閱URL執行GET要求。
+對傳回的訂閱URL執行GET請求。
 
 ```
 -X GET <SUBSCRIPTION_URL> \

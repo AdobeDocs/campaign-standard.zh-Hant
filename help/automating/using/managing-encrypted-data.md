@@ -5,10 +5,11 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 feature: Workflows, Encryption
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 1df1552a-6578-47eb-ba14-fb91cd2a3999
-source-git-commit: 69c47c8f3cbb405acbef634aa1ebaef8e767f159
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '889'
 ht-degree: 3%
@@ -32,7 +33,7 @@ ht-degree: 3%
 * 將在Campaign介面中顯示的&#x200B;**標籤**，以使用命令。 例如&quot;Encrypt file&quot;。
 * 要在您的執行個體上安裝的&#x200B;**命令**。
 
-處理要求後，**[!UICONTROL Load file]**&#x200B;和&#x200B;**[!UICONTROL Extract file]**&#x200B;活動的&#x200B;**[!UICONTROL Pre-processing stage]**&#x200B;欄位中即會提供加密/解密命令。 您可以使用它們來解密或加密您要匯入或匯出的檔案。
+處理要求後，**[!UICONTROL Pre-processing stage]**&#x200B;和&#x200B;**[!UICONTROL Load file]**&#x200B;活動的&#x200B;**[!UICONTROL Extract file]**&#x200B;欄位中即會提供加密/解密命令。 您可以使用它們來解密或加密您要匯入或匯出的檔案。
 
 ![](assets/preprocessing-encryption.png)
 
@@ -49,7 +50,7 @@ ht-degree: 3%
 
 執行此使用案例的步驟如下：
 
-1. 使用「控制面板」產生金鑰組（公用/私用）。 詳細步驟可在[控制面板檔案](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=zh-Hant#decrypting-data)中取得。
+1. 使用「控制面板」產生金鑰組（公用/私用）。 詳細步驟可在[控制面板檔案](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data)中取得。
 
    * 公開金鑰將與外部系統共用，外部系統將使用公開金鑰來加密要傳送至Campaign的資料。
    * Campaign將使用私密金鑰來解密傳入的加密資料。
@@ -93,11 +94,11 @@ ht-degree: 3%
 
 執行此使用案例的步驟如下：
 
-1. 使用GPG公用程式產生GPG金鑰組（公用/私用），然後將公用金鑰安裝至「控制面板」。 詳細步驟可在[控制面板檔案](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=zh-Hant#encrypting-data)中取得。
+1. 使用GPG公用程式產生GPG金鑰組（公用/私用），然後將公用金鑰安裝至「控制面板」。 詳細步驟可在[控制面板檔案](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data)中取得。
 
    ![](assets/gpg_install.png)
 
-1. 在Campaign Standard中，建立工作流程以匯出資料，並使用已透過「控制面板」安裝的私密金鑰進行加密。 若要這麼做，請建置工作流程，如下所示：
+1. 在Campaign Standard中，建立工作流程以匯出資料，並使用已透過「控制面板」安裝的私密金鑰加以加密。 若要這麼做，請建置工作流程，如下所示：
 
    ![](assets/gpg-workflow-export.png)
 

@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: c14a52f5425972899f51af7ee6ea2d5796c46765
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7259'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -70,7 +70,7 @@ Android Firebase Cloud Messaging (FCM) 服務的一些重要變更將於 2024 �
 
 ## 2022 年 3 月 {#doc-updates-march-2022}
 
-已新增附註，以指定使用設定檔替代傳送校樣會將記錄新增至所選設定檔的記錄中。 [閱讀全文](../../sending/using/testing-messages-using-target.md)
+有一條備註指定，使用輪廓替代傳送校樣會將記錄新增到所選輪廓中。[閱讀全文](../../sending/using/testing-messages-using-target.md)
 
 ## 發行版本 22.1 – 2022 年 2 月 {#release-22-1}
 
@@ -589,7 +589,7 @@ Campaign Standard 及 Campaign Classic 的錯誤訊息清單已更新。[瞭解�
 
 「動態」報告的「指標」計算區段已更新。[瞭解詳情](../../reporting/using/indicator-calculation.md)
 
-已新增動態報告相容性表格，以更妥善地瞭解維度與度量之間的相容性。[瞭解詳情](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=zh-Hant)
+已新增動態報告相容性表格，以更妥善地瞭解維度與度量之間的相容性。[瞭解詳情](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf)
 
 工作流程的函式清單已更新。[瞭解詳情](../../automating/using/list-of-functions.md)
 
@@ -867,7 +867,7 @@ datamodel v1 現在可用於內建資源的 SQL 結構 – [瞭解詳情](../../
 
 新增如何準備傳送的逐步使用案例。[瞭解詳情](../../sending/using/preparing-the-send.md)
 
-已刪除包含授權清單的區段。[瞭解詳情](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=zh-Hant) (PDF)。
+已刪除包含授權清單的區段。[瞭解詳情](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf) (PDF)。
 
 新增如何使用簡訊自動回覆的逐步使用案例。[瞭解詳情](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
@@ -1039,7 +1039,7 @@ Adobe Campaign 通知 – [瞭解詳情](../../administration/using/sending-inte
 
 新增了設定 People 核心服務或 Audience Manager 與 Adobe Campaign 整合的說明。[顯示全文](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
 
-修改授權表，使某些角色的功能更加清晰。[瞭解詳情](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=zh-Hant)
+修改授權表，使某些角色的功能更加清晰。[瞭解詳情](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 更新直接從 Adobe Campaign 取得的內容說明連結。
 

@@ -50,4 +50,4 @@ Campaign Standard API 的目的是讓您&#x200B;**建立 Adobe Campaign Standard
 
 本文件中詳細說明了所有端點，其中包括您應瞭解的控制 API 的一般概念、完整的 API 參考、代碼範例和快速入門手冊。
 
-如果有任何遺漏或看起來不正確，請詢問[社群](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)。
+如果有任何遺漏或看起來不正確，請詢問[社群](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=zh-Hant)。

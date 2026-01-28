@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # Adobe Campaign Standard 文件 {#campaign-standard-documentation}
 
-## 新增功能
+## 有哪些新功能
 
 快速一覽 Adobe Campaign Standard 產品和文件的最新增強功能！如需功能、改進項目與修正的完整清單，請參閱詳細的[發行說明](rn/using/release-notes.md)。
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 
 >[!ENDTABS]
 
-## 從基本概念開始
+## 從基礎知識開始
 
 <table style="table-layout:fixed">
   <tr style="border: 0;">
@@ -77,7 +77,7 @@ ht-degree: 100%
     </td>
     <td>
       <img src="assets/do-not-localize/icon-configure.svg" width="35px"><br/>
-      <strong>設定<br/>管理</strong><br/><a href="administration/using/about-channel-configuration.md">設定頻道</a> - <a href="administration/using/about-campaign-standard-settings.md">Campaign Standard 設定</a>  - <a href="administration/using/about-access-management.md">存取管理</a> - <a href="administration/using/monitoring-guidelines.md">監視方針</a> - <a href="integrating/using/get-started-campaign-integrations.md">將 Campaign 與其他解決方案整合</a>
+      <strong>設定<br/>管理</strong><br/><a href="administration/using/about-channel-configuration.md">設定頻道</a> - <a href="administration/using/about-campaign-standard-settings.md">Campaign Standard 設定</a>  - <a href="administration/using/about-access-management.md">存取權管理</a> - <a href="administration/using/monitoring-guidelines.md">監視方針</a> - <a href="integrating/using/get-started-campaign-integrations.md">將 Campaign 與其他解決方案整合</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-campaign.svg" width="35px"><br/>

@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
 source-git-commit: afb988281f00dc17b484872259d44f51864d55f1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '492'
 ht-degree: 100%
 
@@ -119,7 +119,7 @@ ht-degree: 100%
 
 ### 詢問專家！
 
-加入 Campaign 社群：在現有問題中搜尋答案，或向社群提出問題。 [加入對話](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=zh-Hant)
+加入 Campaign 社群：在現有問題中搜尋答案，或向社群提出問題。 [加入對話](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### 建立票證或開始聊天
 

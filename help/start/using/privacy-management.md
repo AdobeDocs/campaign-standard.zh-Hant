@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 84cf8f6e-9ba0-4cd5-80e2-a61cefa31e0a
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '788'
 ht-degree: 100%
 
@@ -50,7 +50,7 @@ Adobe Campaign 的功能可協助您遵循下列法規：
    * https://www.adobe.com/tw/privacy/general-data-protection-regulation.html
    * https://www.adobe.com/marketing-cloud/campaign/general-data-protection-regulation.html
 
-* **CCPA**（[加州消費者隱私保護法](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&amp;division=3.&amp;title=1.81.5.&amp;part=4.&amp;chapter=&amp;article=)）為加州居民提供新的個資權利，並對在加州經營業務的特定實體賦予資料保護責任。
+* **CCPA**（[加州消費者隱私保護法](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=1.81.5.&part=4.&chapter=&article=)）為加州居民提供新的個資權利，並對在加州經營業務的特定實體賦予資料保護責任。
 * **PDPA**（[個人資料保護法案](https://secureprivacy.ai/thailand-pdpa-summary-what-businesses-need-to-know/)）是新的隱私權法令，該法協調泰國的資料保護要求並以現代化方式加以規範。
 * **LGPD** ([Lei Geral de Proteção de Dados](https://iapp.org/media/pdf/resource_center/Brazilian_General_Data_Protection_Law.pdf)) 將於 2021 年初生效，所有於巴西收集或處理個人資料的公司皆適用。
 
@@ -106,4 +106,4 @@ Adobe Campaign 可讓您透過不同的預先建立或自訂角色，管理指�
 
 ![](assets/privacy-user-management.png)
 
-如需存取管理、的詳細資訊，請參閱[本節](../../administration/using/about-access-management.md)。
+如需存取權管理、的詳細資訊，請參閱[本節](../../administration/using/about-access-management.md)。

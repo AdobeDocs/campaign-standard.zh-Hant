@@ -6,7 +6,7 @@ role: User
 level: Beginner
 exl-id: 5817c4d2-4788-4695-bf9a-ec04cc042190
 source-git-commit: 30e96494dd7fa3313601e48deeec8ef98dcdce85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '458'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 * **Cookie 有效期** – 預設 Cookie 有效期限現已設定為 6 個月，以符合法國資料保護局 (CNIL) 的建議。
 
-* **設定檔搜尋改進** — 已最佳化設定檔搜尋，以便減少搜尋逾時情況
+* **輪廓搜尋改進** — 已最佳化輪廓搜尋，以便減少搜尋逾時情況
 
 * **在地化** — 對於以下語言，統一了所有數位體驗產品中「客群」 (指一組接收訊息的目標輪廓) 一詞的翻譯：
 

@@ -1,6 +1,6 @@
 ---
 title: Adobe Campaign Standard 的隱私權與同意
-description: 本節概述 Adobe Campaign Standard 的隱私權、個人資料和同意管理，以及可處理這些項目的工具。
+description: 本節概觀 Adobe Campaign Standard 的隱私權、個人資料和同意管理，以及可處理這些項目的工具。
 page-status-flag: never-activated
 uuid: ed9e631c-5ad1-49f1-be1e-b710bc64dc91
 contentOwner: sauviat
@@ -14,7 +14,7 @@ role: User
 level: Intermediate
 exl-id: 0fc71c2f-f294-43f7-825c-73ab4d43fcf7
 source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1377'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ Adobe Campaign 是一款強大的工具，用於收集和處理包括個人資�
 * [DPA](https://www.gov.uk/data-protection) (英國實施 GDPR 之規範)
 * [歐洲隱私權與電子通訊指令](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02002L0058-20091219)
 * [CAN-SPAM 法案](https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business)（美國法律規定商業電子郵件的規則與要求）
-* [CCPA](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&amp;division=3.&amp;title=1.81.5.&amp;part=4.&amp;chapter=&amp;article=)（加州消費者隱私權法案）
+* [CCPA](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=1.81.5.&part=4.&chapter=&article=)（加州消費者隱私權法案）
 * [PDPA](https://secureprivacy.ai/thailand-pdpa-summary-what-businesses-need-to-know/)（泰國個人資料保護法案）
 
 >[!NOTE]
@@ -107,7 +107,7 @@ Adobe Campaign 提供專屬於隱私權管理的各種功能：
 * 隱私權要求（存取權限與被遺忘的權利）。請參閱[本節](#privacy-requests)。
 * 選擇退出個人資訊銷售（專屬於 CCPA）。請參閱[本節](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa)。
 
-[本節](#personal-data)將提供 Campaign 中主要隱私權功能及相關角色的範例。
+[本節](#personal-data)將提供 Campaign 中主要隱私權功能及相關人物誌的範例。
 
 
 ### 同意、保留和角色 {#consent}
@@ -116,7 +116,7 @@ Adobe Campaign 提供專屬於隱私權管理的各種功能：
 
 * **同意管理**：透過訂閱管理程序，您可以管理收件者的偏好設定，並追蹤哪些收件者已選擇加入何種訂閱類型。如需此項目的詳細資訊，請參閱[訂閱](../../audiences/using/about-subscriptions.md)及[登陸頁面](../../channels/using/getting-started-with-landing-pages.md)。
 * **資料保留**：所有內建標準記錄表都具有預設的保留期間，通常會將其資料儲存限制在 6 個月或更短時間。您可以使用工作流程設定其他的保留期間。如需此項目的詳細資訊，請洽詢 Adobe 顧問或技術管理員。
-* **權限管理**：Adobe Campaign 可讓您透過不同的預先建立或自訂角色，管理指派給各種 Campaign 運算子的權限。這可讓您管理公司內可存取、修改或匯出不同類型資料的人員。有關此項目的詳細資訊，請參閱[關於存取管理](../../administration/using/about-access-management.md)。
+* **權限管理**：Adobe Campaign 可讓您透過不同的預先建立或自訂角色，管理指派給各種 Campaign 運算子的權限。這可讓您管理公司內可存取、修改或匯出不同類型資料的人員。有關此項目的詳細資訊，請參閱[關於存取權管理](../../administration/using/about-access-management.md)。
 
 如需這些功能及如何在 Adobe Campaign 中管理這些功能的詳細資訊，請參閱[本頁面](../../start/using/privacy-management.md#consent-retention-roles)。
 

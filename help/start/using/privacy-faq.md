@@ -14,7 +14,7 @@ role: User
 level: Intermediate
 exl-id: 8f8ce032-5cff-44d3-9d3b-52511dbcaaab
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '812'
 ht-degree: 100%
 
@@ -99,7 +99,7 @@ Adobe 不提供法律建議。您應該與自己的法律顧問合作，確保�
 
 技術上，所有連結至資料主體相關`integrity="own"`的資料都將被刪除。
 
-作為資料控制方，您可以選擇透過更改資料架構中定義的連結的完整性來自訂此內容（例如，若您有商業理由不刪除某些資料）。
+作為資料控制方，您可以選擇透過更改資料結構描述中定義的連結的完整性來自訂此內容（例如，若您有商業理由不刪除某些資料）。
 
 **刪除傳送和追蹤記錄時，報告會受到哪些影響？**
 

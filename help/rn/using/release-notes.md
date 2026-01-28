@@ -6,7 +6,7 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: c1f64589578c144a9b8eb879684f27834efaf8d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '290'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ This section lists improvements and changes included in the next Campaign Standa
 * 修正下拉式功能表未正確繞排文字的問題。 (CAMP-57360)
 * 更新了報告功能以防止使用者查詢超過 2 年的資料。(CAMP-59262)
 
-## 版本 25.1.2 {#25.1.2}
+## 發行版本 25.1.2 {#25.1.2}
 
 ### 安全性修正 {#25.1.2-security}
 

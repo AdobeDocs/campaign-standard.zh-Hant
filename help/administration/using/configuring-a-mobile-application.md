@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 58b07f023f52e2bf4972b4a86bf4412f613f38da
+source-git-commit: c1914c855011868c76debebbea87d7416faaf0dc
 workflow-type: tm+mt
-source-wordcount: '1307'
+source-wordcount: '1309'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
-> Adobe Experience Platform Launch已經過品牌重塑，現在是Adobe Experience Platform中的一套資料收集技術。 因此，所有產品檔案中出現了幾項術語變更。 如需術語變更的彙整參考資料，請參閱[下列檔案](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=zh-Hant){target="_blank"}。
+> Adobe Experience Platform Launch已經過品牌重塑，現在是Adobe Experience Platform中的一套資料收集技術。 因此，所有產品檔案中出現了幾項術語變更。 如需術語變更的彙整參考資料，請參閱[下列檔案](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html){target="_blank"}。
 
 請注意，推播通知和應用程式內實作必須由專家使用者執行。 如需協助，請聯絡您的Adobe客戶主管或專業服務合作夥伴。
 
@@ -42,8 +42,8 @@ ht-degree: 2%
 
    * 在Adobe Campaign Standard中，確認IMS使用者屬於標準使用者和管理員產品設定檔。 此步驟可讓使用者登入Adobe Campaign Standard、導覽至Experience Platform SDK行動應用程式頁面，並檢視您在資料收集UI中建立的行動應用程式屬性。
 
-   * 在資料收集UI中，確認您的IMS使用者屬於Experience Platform Launch產品設定檔。
-此步驟可讓使用者登入資料收集UI，以建立和檢視屬性。 如需資料收集UI中產品設定檔的詳細資訊，請參閱[建立您的產品設定檔](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html?lang=zh-Hant#gain-admin-rights-for-a-tags-product-profile)。 在產品設定檔中，公司或屬性上應該沒有許可權設定，但使用者應該能夠仍然登入。
+   * 在資料收集UI中，確定您的IMS使用者屬於Experience Platform Launch產品設定檔的一部分。
+此步驟可讓使用者登入資料收集UI，以建立和檢視屬性。 如需資料收集UI中產品設定檔的詳細資訊，請參閱[建立您的產品設定檔](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html#gain-admin-rights-for-a-tags-product-profile)。 在產品設定檔中，公司或屬性上應該沒有許可權設定，但使用者應該能夠仍然登入。
 
    若要完成安裝擴充功能、發佈應用程式、設定環境等額外工作，您必須在產品設定檔中設定許可權。
 
@@ -51,12 +51,12 @@ ht-degree: 2%
 
 1. 在資料收集UI中，按一下&#x200B;**[!UICONTROL Extensions]**&#x200B;標籤，前往&#x200B;**[!UICONTROL Catalog]**&#x200B;並搜尋&#x200B;**[!UICONTROL Adobe Campaign Standard]**&#x200B;擴充功能。 如需詳細資訊，請參閱[Adobe Campaign Standard](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard)。
 
-1. 若要支援Campaign Standard中的位置使用案例，請在資料收集UI中安裝&#x200B;**[!UICONTROL Places]**&#x200B;擴充功能。 請參閱此[頁面](https://developer.adobe.com/client-sdks/solution/places)。
+1. 若要在Campaign Standard中支援位置使用案例，請在資料收集UI中安裝&#x200B;**[!UICONTROL Places]**&#x200B;擴充功能。 請參見此[頁面](https://developer.adobe.com/client-sdks/solution/places)。
 
 1. 在Adobe Campaign Standard中，設定您在資料收集UI中建立的行動裝置屬性。 請參閱[在Adobe Campaign中設定Adobe Experience Platform Launch應用程式](../../administration/using/configuring-a-mobile-application.md#set-up-campaign)。
 
 1. 將通道專屬設定新增至您的行動應用程式設定。
-如需詳細資訊，請參閱[&#x200B; Adobe Campaign 中的通道特定應用程式設定](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)。
+如需詳細資訊，請參閱[ Adobe Campaign 中的通道特定應用程式設定](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)。
 
 1. 如有需要，您可以刪除標籤屬性。
 如需詳細資訊，請參閱[刪除您的應用程式](../../administration/using/configuring-a-mobile-application.md#delete-app)。
@@ -97,7 +97,7 @@ ht-degree: 2%
    ![](assets/launch.png)
 
 1. 選取您在資料收集UI中建立的行動應用程式。
-其&#x200B;**[!UICONTROL Property Status]**&#x200B;應為&#x200B;**[!UICONTROL Ready to configure]**。
+其**[!UICONTROL Property Status]**&#x200B;應為&#x200B;**[!UICONTROL Ready to configure]**。
 
    >[!NOTE]
    >
@@ -123,7 +123,7 @@ ht-degree: 2%
 
 1. 為了讓此設定生效，變更需要在資料收集UI中發佈。
 
-   如需詳細資訊，請參閱[Publish設定](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/#publish-the-configuration)
+   如需詳細資訊，請參閱[發佈組態](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/#publish-the-configuration)
 
 ## Adobe Campaign中的通道特定應用程式設定 {#channel-specific-config}
 
@@ -143,32 +143,32 @@ ht-degree: 2%
 
    ![](assets/launch_7.png)
 
-1. 按一下&#x200B;**[!UICONTROL Add]**。
+1. 按一下 **[!UICONTROL Add]**。
 
    現在，當您建立應用程式內訊息時，事件會顯示在「觸發器」索引標籤上。 如需詳細資訊，請參閱[準備和傳送應用程式內訊息](../../channels/using/preparing-and-sending-an-in-app-message.md)。
 
 1. 在行動應用程式儀表板的&#x200B;**[!UICONTROL Device-specific settings]**&#x200B;區段中，針對每個裝置提供應用程式詳細資料。
 
-   +++*  適用於iOS
+   +++ 適用於iOS
 
-     輸入下列應用程式明細：
+   輸入下列應用程式明細：
 
-      * **應用程式識別碼(iOS套件識別碼)**：如需套件識別碼的詳細資訊，請參閱[Apple檔案](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids){target="_blank"}。
-      * **iOS憑證(P8)檔案**：拖放您的.p8驗證金鑰。 如需有關如何產生.p8驗證檔案的指示，請參閱您的[Apple開發人員帳戶](https://developer.apple.com/account/ios/authkey/create){target="_blank"}。
-      * **金鑰識別碼**：如需金鑰識別碼的詳細資訊，請參閱[Apple檔案](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/){target="_blank"}。
-      * **iOS團隊ID**：如需iOS團隊ID的詳細資訊，請參閱[Apple檔案](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id/){target="_blank"}。
+   * **應用程式識別碼(iOS套件識別碼)**：如需套件識別碼的詳細資訊，請參閱[Apple檔案](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids){target="_blank"}。
+   * **iOS憑證(P8)檔案**：拖放您的.p8驗證金鑰。 如需有關如何產生.p8驗證檔案的指示，請參閱您的[Apple開發人員帳戶](https://developer.apple.com/account/ios/authkey/create){target="_blank"}。
+   * **金鑰ID**：如需金鑰ID的詳細資訊，請參閱[Apple檔案](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/){target="_blank"}。
+   * **iOS團隊ID**：如需有關Apple團隊ID的詳細資訊，請參閱[iOS檔案](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id/){target="_blank"}。
 
-        ![](assets/mobile_app_ios_config.png)
-   +++
+         ！[](assets/mobile_app_ios_config.png)
+     +++
 
-   +++*  適用於Android
+   +++ 適用於Android
 
-     輸入下列應用程式明細：
+   輸入下列應用程式明細：
 
-      * **應用程式ID (Android封裝名稱)**：如需封裝名稱的詳細資訊，請參閱[Android檔案](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores){target="_blank"}。
-      * **Android金鑰(Json)檔案**：拖放您的.json私密金鑰檔案。 如需有關如何產生.json私密金鑰檔案的指示，請參閱[Firebase開發人員檔案](https://firebase.google.com/docs/admin/setup#initialize_the_sdk_in_non-google_environments){target="_blank"}。
+   * **應用程式ID (Android封裝名稱)**：如需封裝名稱的詳細資訊，請參閱[Android檔案](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores){target="_blank"}。
+   * **Android金鑰(Json)檔案**：拖放您的.json私密金鑰檔案。 如需有關如何產生.json私密金鑰檔案的指示，請參閱[Firebase開發人員檔案](https://firebase.google.com/docs/admin/setup#initialize_the_sdk_in_non-google_environments){target="_blank"}。
 
-        ![](assets/mobile_app_android_config.png)
+     ![](assets/mobile_app_android_config.png)
    +++
 
 1. 上傳憑證後，系統會顯示一則訊息，通知您上傳成功並顯示憑證的到期日。

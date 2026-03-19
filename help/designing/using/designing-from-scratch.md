@@ -10,7 +10,7 @@ level: Beginner
 exl-id: 052d24b7-d3e0-41d7-8b2c-92bd3addb3a2
 source-git-commit: 0079a924db522de8afc628ef50aa2c861e5a12ee
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1230'
 ht-degree: 22%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 22%
 若要編輯電子郵件的結構：
 
 1. 開啟現有內容或建立新的電子郵件內容。
-1. 選取左邊的&#x200B;**+**&#x200B;圖示以存取&#x200B;**[!UICONTROL Structure components]**。
+1. 選取左邊的&#x200B;**[!UICONTROL Structure components]**+**圖示以存取**。
 
    ![](assets/email_designer_structure.png)
 
@@ -71,7 +71,7 @@ ht-degree: 22%
 
 1. 可以使用由一或多欄組成的多個結構元件。
 
-   選取&#x200B;**[!UICONTROL n:n column]**&#x200B;元件以定義您選擇的欄數（介於3到10之間）。 您也可以移動每個欄底部的箭頭來定義其寬度。
+   選取&#x200B;**[!UICONTROL n:n資料行]**&#x200B;元件以定義您所選擇的資料行數目（介於3到10之間）。 您也可以移動每個欄底部的箭頭來定義其寬度。
 
    ![](assets/email_designer_n-n-column.png)
 
@@ -174,7 +174,7 @@ ht-degree: 22%
 
 使用此元件來插入電子郵件中的社群媒體頁面連結。 您可以選取要顯示哪些連結及其圖示在&#x200B;**[!UICONTROL Component Settings]**&#x200B;中的大小。
 
-### 傳送 {#carousel-settings}
+### 輪播 {#carousel-settings}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_carousel"
@@ -195,7 +195,7 @@ ht-degree: 22%
 
 >[!NOTE]
 >
->轉盤元件與下列電子郵件平台相容：Apple Mail 7、Apple Mail 8、Outlook 2011 for Mac、Outlook 2016 for Mac、Mozilla Thunderbird、iPad和iPad mini iOS、iPhone iOS、Android、AOL (Chrome、Firefox和Safari)。
+>轉盤元件與下列電子郵件平台相容：Apple Mail 7、Apple Mail 8、Outlook 2011 for Mac、Outlook 2016 for Mac、Mozilla Thunderbird、iPad和iPad mini iOS、iPhone iOS、Android、AOL （Chrome、Firefox和Safari）。
 
 **相關主題**：
 

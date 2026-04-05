@@ -3,13 +3,13 @@ title: 最佳化訊息傳送
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-index: y
+index: true
 description: 瞭解如何確保上游傳送流程的安全並加以最佳化。
 feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 28b0cf6d-c1f1-4d55-b9bc-0d6bfb063471
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '727'
 ht-degree: 4%
@@ -32,9 +32,9 @@ ht-degree: 4%
 
   **秘訣** — 若要避免此問題，請與團隊的其他成員協調傳送排程，以確保最佳效能。
 
-* [工作流程執行](../../automating/using/about-workflow-execution.md)：監視您的工作流程對於避免平台效能問題至關重要。 請遵循此頁面[&#128279;](../../automating/using/monitoring-workflow-execution.md)中列出的准則。 在[工作流程最佳實務](../../automating/using/best-practices-workflows.md)區段中瞭解更多。
+* [工作流程執行](../../automating/using/about-workflow-execution.md)：監視您的工作流程對於避免平台效能問題至關重要。 請遵循此頁面[中列出的准則](../../automating/using/monitoring-workflow-execution.md)。 在[工作流程最佳實務](../../automating/using/best-practices-workflows.md)區段中瞭解更多。
 
-* 您可以使用[效能監視](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=zh-Hant)功能，利用[Campaign控制面板功能](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=zh-Hant)來監視您的平台。
+* 您可以使用[效能監視](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=zh-Hant)功能，利用[Campaign控制面板功能](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=zh-Hant)來監視您的平台。
 
 ## 正在檢查網路設定 {#network-config}
 
@@ -42,7 +42,7 @@ ht-degree: 4%
 
 **秘訣**：使用與品牌網站對應的透明寄件者地址。 例如，TravelAgency公司管理Valentino連鎖酒店。 其擁有其網站的valentino.com網域。 為了推廣巴黎的Valentino飯店，它使用paris.valentino.com子網域。 因此，相關寄件者地址可以是hotel@paris.valentino.com。
 
-## 傳遞能力管理 {#deliverability-management}
+## 傳遞性管理 {#deliverability-management}
 
 若要在不退回或標示為垃圾訊息的情況下觸及收件者的收件匣，您需要改善訊息的可傳遞率。
 
@@ -52,7 +52,7 @@ ht-degree: 4%
 
    * 在檢查電子郵件是否可傳遞時，您想要將焦點放在四個主要類別上：資料品質、訊息和內容、傳送基礎結構和信譽。 如需深入瞭解此主題，請參閱[本節](../../sending/using/about-deliverability.md)。
 
-* 啟動新平台時，套用[此頁面](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html?lang=zh-Hant#transition-process)上詳述的建議。
+* 啟動新平台時，套用[此頁面](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html#transition-process)上詳述的建議。
 
 * 請聯絡您的Adobe代表以尋求協助。
 

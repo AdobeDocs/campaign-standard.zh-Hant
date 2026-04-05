@@ -9,7 +9,7 @@ feature: Performance Monitoring
 role: User
 level: Intermediate
 exl-id: 0a0fe969-cdfd-4b0c-a746-081038424d86
-source-git-commit: 058c59136c28e7fce2a79686919f900f410e324a
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '982'
 ht-degree: 16%
@@ -22,9 +22,11 @@ ht-degree: 16%
 
 只有具有&#x200B;**[!UICONTROL Start deliveries]**&#x200B;角色的使用者才能確認傳送。 如需詳細資訊，請參閱[角色清單](../../administration/using/list-of-roles.md)區段。
 
-<!--Users without this role will see the following message: 
+<!--
+Users without this role will see the following message:
 
-![](assets/confirm_delivery_2.png)-->
+![](assets/confirm_delivery_2.png)
+-->
 
 ## 傳送訊息 {#sending-message}
 
@@ -69,7 +71,7 @@ ht-degree: 16%
 
 ![](assets/sending_delivery.png)
 
-如果KPI更新時間太長或未反映傳送記錄檔的結果，請按一下&#x200B;**[!UICONTROL Deployment]**&#x200B;視窗中的&#x200B;**[!UICONTROL Compute stats]**&#x200B;按鈕。
+如果KPI更新時間太長或未反映傳送記錄檔的結果，請按一下&#x200B;**[!UICONTROL Compute stats]**&#x200B;視窗中的&#x200B;**[!UICONTROL Deployment]**&#x200B;按鈕。
 
 ![](assets/sending_delivery7.png)
 
@@ -88,11 +90,11 @@ ht-degree: 16%
 
 在每封電子郵件的&#x200B;**[!UICONTROL Summary]**&#x200B;檢視中，**[!UICONTROL Delivered]**&#x200B;百分比從100%開始，然後在整個傳遞[有效期間](../../administration/using/configuring-email-channel.md#validity-period-parameters)逐步下降，因為軟跳出和硬跳出會被回報回<!--from the Enhanced MTA to Campaign-->。
 
-事實上，一旦訊息從Campaign成功轉送至增強型MTA （訊息傳輸代理程式），所有訊息在[傳送記錄檔](../../sending/using/monitoring-a-delivery.md#sending-logs)中都會顯示為&#x200B;**[!UICONTROL Sent]**。 除非或直到該訊息的[跳出](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)從Enhanced MTA傳回Campaign，否則它們會維持該狀態。
+事實上，一旦訊息從Campaign成功轉送至增強型MTA （訊息傳輸代理程式），所有訊息在&#x200B;**[!UICONTROL Sent]**&#x200B;傳送記錄檔[中都會顯示為](../../sending/using/monitoring-a-delivery.md#sending-logs)。 除非或直到該訊息的[跳出](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)從Enhanced MTA傳回Campaign，否則它們會維持該狀態。
 
 當硬退信從Enhanced MTA回傳時，其狀態會從&#x200B;**[!UICONTROL Sent]**&#x200B;變更為&#x200B;**[!UICONTROL Failed]**，而&#x200B;**[!UICONTROL Delivered]**&#x200B;百分比會因此減少。
 
-當從Enhanced MTA回報軟退信時，訊息仍顯示為&#x200B;**[!UICONTROL Sent]**，且&#x200B;**[!UICONTROL Delivered]**&#x200B;百分比尚未更新。 然後，軟退信會在整個傳遞有效期內重試[&#128279;](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)：
+當從Enhanced MTA回報軟退信時，訊息仍顯示為&#x200B;**[!UICONTROL Sent]**，且&#x200B;**[!UICONTROL Delivered]**&#x200B;百分比尚未更新。 然後，軟退信會在整個傳遞有效期內重試[](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)：
 
 * 如果在有效期間結束前重試成功，則訊息狀態會維持為&#x200B;**[!UICONTROL Sent]**，**[!UICONTROL Delivered]**&#x200B;百分比會維持不變。
 

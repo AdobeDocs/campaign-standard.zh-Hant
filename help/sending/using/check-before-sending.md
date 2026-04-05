@@ -3,16 +3,16 @@ title: 傳送前先檢查
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-index: y
-description: 「訊息準備就緒後，請瞭解如何在傳送前執行所有檢查」
+index: true
+description: 訊息準備就緒後，瞭解如何在傳送前執行所有檢查
 feature: Deliverability
 role: User
 level: Intermediate
 exl-id: dfc5fc00-87aa-4d22-ad7c-cc0ba1ee21be
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '410'
-ht-degree: 15%
+ht-degree: 25%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 15%
 
 此步驟可讓您在傳送到主要目標之前，偵測並修正可能的錯誤。
 
-本節[&#128279;](../../sending/using/get-started-sending-messages.md#prepare-test-send)中顯示了驗證傳遞的步驟。
+本節[中顯示了驗證傳遞的步驟](../../sending/using/get-started-sending-messages.md#prepare-test-send)。
 
 ## 電子郵件轉譯 {#email-rendering}
 
@@ -42,13 +42,13 @@ ht-degree: 15%
 
 * 電子郵件呈現功能對於識別您的電子郵件行銷活動是否成功通過主要ISP （網際網路服務提供者）的篩選器和網頁郵件服務至關重要。 這類工具會將電子郵件的預檢復本傳送至測試收件匣的網路，以便您檢視這些服務中訊息的顯示或呈現方式。 它們也可能包括報表和程式碼更正選項，協助您快速識別並進行修正，以改善傳遞能力。
 
-在本節[&#128279;](../../sending/using/email-rendering.md)瞭解更多。
+在本節[瞭解更多](../../sending/using/email-rendering.md)。
 
 ## 校樣訊息 {#proof-messages}
 
-傳送校樣可讓您檢查選擇退出連結、映象頁面和任何其他連結、驗證訊息、驗證影像是否已顯示、偵測可能的錯誤等。 您可能也會想要檢查您在不同裝置上的設計和演算。
+傳送校樣可讓您檢查選擇退出連結、鏡像頁面和任何其他連結、驗證訊息、驗證影像是否顯示、偵測可能的錯誤等。 您可能也會想要在不同裝置檢查您的設計和轉譯。
 
-在本節[&#128279;](../../sending/using/sending-proofs.md)瞭解更多。
+在本節[瞭解更多](../../sending/using/sending-proofs.md)。
 
 ## 設定A/B測試傳送 {#a-b-testing-deliveries}
 
@@ -60,4 +60,4 @@ ht-degree: 15%
 
 * 選取成功率最高的專案，並將其傳送至目標的其餘部分
 
-在本節[&#128279;](../../channels/using/designing-an-a-b-test-email.md)瞭解更多。
+在本節[瞭解更多](../../channels/using/designing-an-a-b-test-email.md)。

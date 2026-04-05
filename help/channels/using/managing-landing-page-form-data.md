@@ -9,7 +9,7 @@ feature: Landing Pages
 role: User
 level: Intermediate
 exl-id: 7083447c-4cac-41cb-8453-369819e0c7c1
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '835'
 ht-degree: 14%
@@ -60,7 +60,7 @@ ht-degree: 14%
    >
    >登入頁面只能對應至&#x200B;**[!UICONTROL Profiles]**&#x200B;或&#x200B;**[!UICONTROL Service]**&#x200B;資源。
 
-   在此範例中，將登入頁面的&#x200B;**Name**&#x200B;欄位對應至&#x200B;**[!UICONTROL Profiles]**&#x200B;資源的&#x200B;**[!UICONTROL Last name]**&#x200B;欄位。
+   在此範例中，將登入頁面的&#x200B;**Name**&#x200B;欄位對應至&#x200B;**[!UICONTROL Last name]**&#x200B;資源的&#x200B;**[!UICONTROL Profiles]**&#x200B;欄位。
 
    ![](assets/lp_database-field-example.png)
 
@@ -156,9 +156,11 @@ ht-degree: 14%
 
      ![](assets/lp_show_source.png)
 
-     <!--Manually insert a checkbox, such as in the example below:
+     <!--
+      Manually insert a checkbox, such as in the example below:
 
-      <!--Click **[!UICONTROL Hide source]**.-->
+      Click **[!UICONTROL Hide source]**.
+      -->
 
 1. 確定已選取核取方塊。
 
@@ -172,7 +174,7 @@ ht-degree: 14%
    >
    >**[!UICONTROL Agreement]**&#x200B;專案未對應至Campaign資料庫的欄位。
 
-1. 按一下&#x200B;**[!UICONTROL Form data]**&#x200B;旁的![](assets/lp-properties-icon.png)圖示以存取核取方塊進階屬性。
+1. 按一下![](assets/lp-properties-icon.png)旁的&#x200B;**[!UICONTROL Form data]**&#x200B;圖示以存取核取方塊進階屬性。
 
 1. 您可以視需要編輯訊息。
 
@@ -184,6 +186,6 @@ ht-degree: 14%
    >
    >依預設，此動作是強制性的，無法變更。
 
-1. 按一下&#x200B;**[!UICONTROL Confirm]**。
+1. 按一下 **[!UICONTROL Confirm]**。
 
 現在，每次顯示登入頁面時，使用者必須先選取此核取方塊，才能提交表單。 否則，將顯示警告，在啟用核取方塊之前，使用者將無法提交表單。

@@ -8,7 +8,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: 035fa1ab4703d5511bdd1bbdbf2585f893b9d787
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 99%
@@ -34,19 +34,25 @@ Adobe 透過新增新功能、增強功能和修正不斷改進其解決方案�
   <tr>
    <th> 環境 </th>
    <th> 日期</th>
-   <!--th> General Availability </th-->
+   <!--
+   <th> General Availability </th>
+   -->
   </tr>
  </thead>
  <tbody>
   <tr>
    <td>階段 </td>
    <td>8 月 </td>
-   <!--td>2025 - Dates to be confirmed</td-->
+   <!--
+   <td>2025 - Dates to be confirmed</td>
+   -->
   </tr>
   <tr>
    <td>生產 </td>
    <td>9 月 </td>
-   <!--td>2025 - Dates to be confirmed</td-->
+   <!--
+   <td>2025 - Dates to be confirmed</td>
+   -->
   </tr>
  </tbody>
 </table>

@@ -8,7 +8,7 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 64c3d3dd-0c41-4dbc-abcd-9ddea23759f4
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '1812'
 ht-degree: 2%
@@ -29,13 +29,13 @@ ht-degree: 2%
 
 ### 關於內容範本 {#content-templates}
 
-您可以管理[電子郵件Designer](../../designing/using/designing-content-in-adobe-campaign.md)首頁的&#x200B;**[!UICONTROL Templates]**&#x200B;索引標籤中提供的HTML內容。
+您可以管理&#x200B;**[!UICONTROL Templates]**&#x200B;電子郵件Designer[首頁的](../../designing/using/designing-content-in-adobe-campaign.md)索引標籤中提供的HTML內容。
 
 現成的電子郵件內容範本包含18個行動裝置最佳化的版面，以及Behance藝人設計的四個同級最佳回應範本。 它們對應於最新使用情況，例如客戶歡迎訊息、電子報和重新參與電子郵件等。 您可以輕鬆根據品牌內容進行自訂，以簡化從草稿開始設計電子郵件的程式。
 
 ![](assets/template_content.png)
 
-可從[進階功能表](../../start/using/interface-description.md#advanced-menu)的&#x200B;**[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]**&#x200B;畫面存取HTML內容範本。 從那裡，您可以管理登入頁面內容範本、電子郵件內容範本以及片段。
+可從&#x200B;**[!UICONTROL Resources]**&#x200B;進階功能表&#x200B;**[!UICONTROL Content templates & fragments]**&#x200B;的[ > ](../../start/using/interface-description.md#advanced-menu)畫面存取HTML內容範本。 從那裡，您可以管理登入頁面內容範本、電子郵件內容範本以及片段。
 
 ![](assets/content_templates_list.png)
 
@@ -59,8 +59,8 @@ ht-degree: 2%
 1. 按一下電子郵件標籤以存取電子郵件Designer的&#x200B;**[!UICONTROL Properties]**&#x200B;標籤。
 1. 指定可識別的標籤並選取下列引數，以便在電子郵件中使用此範本：
 
-   * 從&#x200B;**[!UICONTROL Content type]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL Shared]**&#x200B;或&#x200B;**[!UICONTROL Delivery]**。
-   * 從&#x200B;**[!UICONTROL HTML type]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL Template]**。
+   * 從&#x200B;**[!UICONTROL Shared]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL Delivery]**&#x200B;或&#x200B;**[!UICONTROL Content type]**。
+   * 從&#x200B;**[!UICONTROL Template]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL HTML type]**。
 
    ![](assets/email_designer_create-template.png)
 
@@ -68,7 +68,7 @@ ht-degree: 2%
 
    ![](assets/email_designer_create-template_thumbnail.png)
 
-   此縮圖會顯示在[電子郵件Designer](../../designing/using/designing-content-in-adobe-campaign.md)首頁的&#x200B;**[!UICONTROL Templates]**&#x200B;標籤中。
+   此縮圖會顯示在&#x200B;**[!UICONTROL Templates]**&#x200B;電子郵件Designer[首頁的](../../designing/using/designing-content-in-adobe-campaign.md)標籤中。
 
 1. 關閉&#x200B;**[!UICONTROL Properties]**&#x200B;標籤以返回主工作區。
 1. 新增您可視需求自訂的結構元件和內容元件。
@@ -77,7 +77,7 @@ ht-degree: 2%
    > 您無法在內容範本中插入個人化欄位或條件式內容。
 1. 編輯後，儲存您的範本。
 
-此範本現在可用於透過電子郵件Designer建置的任何電子郵件。 從[電子郵件Designer](../../designing/using/designing-content-in-adobe-campaign.md)首頁的&#x200B;**[!UICONTROL Templates]**&#x200B;索引標籤中選取它。
+此範本現在可用於透過電子郵件Designer建置的任何電子郵件。 從&#x200B;**[!UICONTROL Templates]**&#x200B;電子郵件Designer[首頁的](../../designing/using/designing-content-in-adobe-campaign.md)索引標籤中選取它。
 
 ![](assets/content_template_new.png)
 
@@ -85,9 +85,11 @@ ht-degree: 2%
 
 使用電子郵件Designer編輯電子郵件時，您可以直接將該電子郵件的內容另存為範本。
 
-<!--[!CAUTION]
+<!--
+[!CAUTION]
 >
->You cannot save as template a structure containing personalization fields or dynamic content.-->
+>You cannot save as template a structure containing personalization fields or dynamic content.
+-->
 
 1. 從電子郵件Designer主工具列選取&#x200B;**[!UICONTROL Save as template]**。
 
@@ -99,7 +101,7 @@ ht-degree: 2%
 
 1. 若要尋找您剛建立的範本，請移至&#x200B;**[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]**。
 
-1. 若要使用您的新範本，請從[電子郵件Designer](../../designing/using/designing-content-in-adobe-campaign.md)首頁的&#x200B;**[!UICONTROL Templates]**&#x200B;索引標籤中選取它。
+1. 若要使用您的新範本，請從&#x200B;**[!UICONTROL Templates]**&#x200B;電子郵件Designer[首頁的](../../designing/using/designing-content-in-adobe-campaign.md)索引標籤中選取它。
 
    ![](assets/content_template_new.png)
 
@@ -113,7 +115,7 @@ ht-degree: 2%
 
    ![](assets/des_loading_compatible_fragment_5.png)
 
-   如果您熟悉HTML程式碼，Adobe建議您運用&#x200B;**[!UICONTROL Html]**&#x200B;元件，以便複製並貼上原始電子郵件中較複雜的元素。 其餘內容使用其他元件，例如&#x200B;**[!UICONTROL Button]**、**[!UICONTROL Image]**&#x200B;或&#x200B;**[!UICONTROL Text]**。 如需詳細資訊，請參閱[關於內容元件](../../designing/using/designing-from-scratch.md#about-content-components)。
+   如果您熟悉HTML程式碼，Adobe建議您運用&#x200B;**[!UICONTROL Html]**&#x200B;元件，以便在其中複製並貼上原始電子郵件中較複雜的元素。 其餘內容使用其他元件，例如&#x200B;**[!UICONTROL Button]**、**[!UICONTROL Image]**&#x200B;或&#x200B;**[!UICONTROL Text]**。 如需詳細資訊，請參閱[關於內容元件](../../designing/using/designing-from-scratch.md#about-content-components)。
 
    >[!NOTE]
    >
@@ -157,7 +159,7 @@ ht-degree: 2%
 >abstract="片段指可重複使用的內容區塊，可在一封或多封電子郵件中參照。"
 
 片段是可重複使用的元件，可在一封或多封電子郵件中參考。
-它們可以在&#x200B;**資源** > **內容片段和範本**&#x200B;下的介面中找到。
+它們可以在**資源** > **內容片段和範本**&#x200B;下的介面中找到。
 
 若要在電子郵件Designer中善用片段：
 
@@ -213,8 +215,8 @@ ht-degree: 2%
 1. 按一下電子郵件標籤以存取電子郵件Designer的&#x200B;**[!UICONTROL Properties]**&#x200B;標籤。
 1. 指定可識別的標籤，並選取下列引數，以在編輯電子郵件內容時尋找片段：
 
-   * 因為片段只與電子郵件相容，請從&#x200B;**[!UICONTROL Content type]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL Delivery]**。
-   * 從&#x200B;**[!UICONTROL HTML type]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL Fragment]**，以便將此內容當做片段使用。
+   * 因為片段只與電子郵件相容，請從&#x200B;**[!UICONTROL Delivery]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL Content type]**。
+   * 從&#x200B;**[!UICONTROL Fragment]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL HTML type]**，以便將此內容當做片段使用。
 
    ![](assets/email_designer_createfragment.png)
 
@@ -264,7 +266,7 @@ ht-degree: 2%
    >請務必選取彼此相鄰且不包含個人化欄位、動態內容或其他片段的結構。
    <!--You cannot select an empty structure.-->
 
-1. 按一下&#x200B;**[!UICONTROL Create]**。
+1. 按一下 **[!UICONTROL Create]**。
 
 1. 視需要新增標籤和說明，然後按一下&#x200B;**[!UICONTROL Save]**。
 
@@ -281,7 +283,8 @@ ht-degree: 2%
 >[!NOTE]
 >[行動檢視](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)在片段中無法使用。 如果您想要編輯電子郵件行動檢視，請在將內容儲存為片段之前進行編輯。
 
-<!--You need to copy-paste the HTML corresponding to the section that you want to save into a new fragment.
+<!--
+You need to copy-paste the HTML corresponding to the section that you want to save into a new fragment.
 
 >[!NOTE]
 >
@@ -295,7 +298,8 @@ To save as a fragment some email content that you created, follow the steps belo
 1. Click the email label to access the **[!UICONTROL Properties]** tab of the Email Designer and select **[!UICONTROL Fragment]** from the **[!UICONTROL HTML type]** drop-down list.
 1. Select **[!UICONTROL Edit]** > **[!UICONTROL HTML]** to open the HTML version of the fragment.
 1. Paste the HTML that you copied where appropriate.
-1. Switch back to the **[!UICONTROL Edit]** view to check the result and save the new fragment.-->
+1. Switch back to the **[!UICONTROL Edit]** view to check the result and save the new fragment.
+-->
 
 ## 使用片段建立可重複使用的頁首和頁尾 {#header-footer-fragments}
 

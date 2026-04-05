@@ -3,13 +3,13 @@ title: 追蹤和監視訊息
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-index: y
+index: true
 description: 瞭解Adobe Campaign如何讓您追蹤已傳送的訊息，並探索收件者對您的傳送有何反應
 feature: Deliverability
 role: User
 level: Intermediate
 exl-id: dd3bd672-fb9d-4e82-bdf3-d319f372baaa
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 3%
@@ -44,7 +44,7 @@ ht-degree: 3%
 
 ## 動態報告 {#dyn-reports}
 
-動態報告可讓您建立完全可自訂的即時報告，以監控您的行銷活動。 Dimension、量度和視覺效果可讓您評估行銷活動對收件者的影響和成功。
+動態報告可讓您建立完全可自訂的即時報告，以監控您的行銷活動。 維度、量度和視覺效果可讓您評估行銷活動對收件者的影響和成功。
 
 **提示** — 您可使用內建報告來監視行銷活動，但也可以將任何量度或維度拖放至報告以進行自訂。
 
@@ -52,7 +52,7 @@ ht-degree: 3%
 
 ## 熱點點擊
 
-「熱點點按」報表會顯示訊息內容(HTML和/或文字)以及每個連結的點按百分比。 藉由顯示每個動態內容的點按百分比，您可以測量哪些內容最能吸引收件者。
+「熱點點按」報表會顯示訊息內容（HTML和/或文字）以及每個連結的點按百分比。 藉由顯示每個動態內容的點按百分比，您可以測量哪些內容最能吸引收件者。
 
 如需詳細資訊，請參閱[熱門點選報告](../../reporting/using/hot-clicks.md)。
 

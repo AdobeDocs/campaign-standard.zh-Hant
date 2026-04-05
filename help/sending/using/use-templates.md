@@ -3,13 +3,13 @@ title: 使用傳遞範本
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-index: y
-description: 「傳遞範本提供最常見活動型別的現成案例，有助於提升效率。」
+index: true
+description: 傳遞範本提供最常見活動型別的現成案例，有助於提高效率。
 feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ca134a7f-9035-4885-b4cb-1170b6ec10cc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '815'
 ht-degree: 10%
@@ -40,7 +40,7 @@ ht-degree: 10%
 
 * 地址必須明確識別寄件者。 網域必須屬於寄件者且已註冊給寄件者。
 
-* Adobe建議建立對應至傳送和回覆所指定地址的電子郵件帳戶。 請洽詢您的傳訊系統管理員。
+* Adobe建議建立與為傳送和回覆指定的地址對應的電子郵件帳戶。 請洽詢您的傳訊系統管理員。
 
 在電子郵件範本屬性的&#x200B;**[!UICONTROL Advanced parameters]**&#x200B;區段中，**[!UICONTROL From (email address)]**&#x200B;欄位對應到寄件者的地址。
 
@@ -50,7 +50,7 @@ ht-degree: 10%
 
 **[!UICONTROL Reply to]**&#x200B;欄位對應到用於回覆的電子郵件地址和名稱。
 
-**秘訣** -Adobe建議使用現有的實際地址，例如您品牌的客戶服務。 在此情況下，如果收件者傳送回覆，客戶服務將能夠處理。
+**秘訣** - Adobe建議使用現有的實際地址，例如您品牌的客戶服務。 在此情況下，如果收件者傳送回覆，客戶服務將能夠處理。
 
 若要變更將顯示在已傳送訊息標題中的寄件者名稱，請移至[電子郵件Designer]首頁的&#x200B;**[!UICONTROL Properties]**&#x200B;標籤（可透過首頁圖示存取），然後按一下&#x200B;**[!UICONTROL Default sender name]**&#x200B;區塊。
 
@@ -96,4 +96,4 @@ ht-degree: 10%
 
 如需將品牌連結至範本的詳細資訊，請參閱[將品牌指派至電子郵件](../../administration/using/branding.md#assigning-a-brand-to-an-email)。
 
-在本節[&#128279;](../../administration/using/branding.md#creating-a-brand)中瞭解如何建立設定品牌。
+在本節[中瞭解如何建立設定品牌](../../administration/using/branding.md#creating-a-brand)。

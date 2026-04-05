@@ -9,9 +9,9 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 58d4e02f-3c9a-4e5d-a6aa-fdbcec0d8dda
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
-source-wordcount: '1557'
+source-wordcount: '1556'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 1%
 >
 >您可以在[此頁面](../../developing/using/datamodel-introduction.md)中找到內建資源的資料模型表示法。
 
-## 概覽 {#overview}
+## 概觀 {#overview}
 
 Adobe Campaign系統極為靈活，可延伸至初始實施以外的範圍。 不過，雖然可能性是無限的，但做出明智的決策並奠定堅實的基礎以開始設計您的資料模型是至關重要的。
 
@@ -49,13 +49,15 @@ Adobe Campaign Standard是功能強大的跨頻道行銷活動管理系統，可
 
 <!--You can find a datamodel representation for the out-of-the-box resources [here](../../developing/using/datamodel-introduction.md).-->
 
-<!--### What is a customer? {#customer-definition}
+<!--
+### What is a customer? {#customer-definition}
 
 If you have customer data in more than one system, you need to determine which solution will allow you to identify records as one person. This work might require rules, eventually a match and merge processes to determine the primary record. This primary record should be the one sent to Adobe Campaign.
 
 While some of this data cleansing might be performed in Adobe Campaign, the recommendation is to run these processes outside and only import clean data in Adobe Campaign. You should keep Campaign as a marketing solution more than a data cleansing tool.
 
-Be able to provide a primary customer record which will be sent to Adobe Campaign.-->
+Be able to provide a primary customer record which will be sent to Adobe Campaign.
+-->
 
 ### 適用於Adobe Campaign的資料 {#data-for-campaign}
 
@@ -96,7 +98,7 @@ Adobe Campaign資源有三個識別碼，您可以新增另一個識別碼。
 | 顯示名稱 | 技術名稱 | 說明 | 最佳實務 |
 |--- |--- |--- |--- |
 |  | PKey | <ul><li>pkey是Adobe Campaign表格的實體主索引鍵。</li><li>此識別碼通常是特定Adobe Campaign執行個體的唯一識別碼。</li><li>一般使用者在Adobe Campaign Standard中看不到此值（URL除外）。</li></ul> | <ul><li>透過[API系統](../../api/using/get-started-apis.md)，可以擷取PKey值（這是產生/雜湊值，而非實體金鑰）。</li><li>不建議將其用於透過API擷取、更新或刪除記錄以外的其他任何情況。</li></ul> |
-| ID | name或internalName | <ul><li>此資訊是表格中記錄的唯一識別碼。 此值可以手動更新。</li><li>部署在Adobe Campaign的其他執行個體時，此識別碼會保留其值。 其名稱必須與產生的值不同，才能透過套件匯出。</li><li>這不是表格的實際主索引鍵。</li></ul> | <ul><li>請勿使用空格「 」、分欄「： 」或連字型大小「 — 」等特殊字元。</li><li>所有這些字元都會取代為底線「_」（允許的字元）。 例如，「abc-def」和「abc：def」會儲存為「abc_def」並互相覆寫。</li></ul> |
+| ID | name或internalName | <ul><li>此資訊是表格中記錄的唯一識別碼。 此值可以手動更新。</li><li>部署在Adobe Campaign的其他執行個體時，此識別碼會保留其值。 其名稱必須與產生的值不同，才能透過套件匯出。</li><li>這不是表格的實際主索引鍵。</li></ul> | <ul><li>請勿使用空格「 」、分欄「： 」或連字型大小「 — 」等特殊字元。</li><li>所有這些字元都會取代為底線「_」（允許的字元）。 例如，「abc-def」和「abc:def」會儲存為「abc_def」並互相覆寫。</li></ul> |
 | 標籤 | 標籤 | <ul><li>標籤是Adobe Campaign中物件或記錄的商業識別碼。</li><li>此物件允許使用空格和特殊字元。</li><li>它無法保證記錄的唯一性。</li></ul> | <ul><li>建議您決定物件標籤的結構。</li><li>這是為Adobe Campaign使用者識別記錄或物件的最好用的解決方案。</li></ul> |
 | ACS ID | acsId | <ul><li>可產生額外的識別碼： [ACS ID](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)。</li><li>由於PKey無法在Adobe Campaign使用者介面中使用，此解決方案可取得插入設定檔記錄期間產生的唯一值。</li><li>只有在記錄插入Adobe Campaign之前已在資源中啟用選項，才能自動產生值。</li></ul> | <ul><li>此UUID可作為調解金鑰使用。</li><li>自動產生的ACS ID不能用作工作流程或封裝定義中的參考。</li><li>此值專屬於Adobe Campaign執行個體。</li></ul> |
 
@@ -104,11 +106,13 @@ Adobe Campaign資源有三個識別碼，您可以新增另一個識別碼。
 
 在Adobe Campaign中建立的每個資源都必須至少有一個唯一的[識別碼](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)。
 
-<!--Most organizations are importing records from external systems. While the physical key of a resource lies behind the PKey attribute, it is possible to determine a custom key in addition.
+<!--
+Most organizations are importing records from external systems. While the physical key of a resource lies behind the PKey attribute, it is possible to determine a custom key in addition.
 
 This custom key is the actual record primary key in the external system feeding Adobe Campaign.
 
-When an out-of-the-box resource has both an internal auto-generated and an internal custom key, the internal key will be set as a unique index in the physical database table.-->
+When an out-of-the-box resource has both an internal auto-generated and an internal custom key, the internal key will be set as a unique index in the physical database table.
+-->
 
 建立自訂資源時，您有兩個選項：
 
@@ -127,9 +131,11 @@ Adobe Campaign會自動將[索引](../../developing/using/configuring-the-resour
 * 不過，請勿加入太多索引，因為它們會使用資料庫上的空間。 許多索引也可能對效能造成負面影響。
 * 請仔細選取需要定義的索引。
 
-<!--For more on defining indexes, see [this section](../../developing/using/configuring-the-resource-s-data-structure.md#defining-indexes).
+<!--
+For more on defining indexes, see [this section](../../developing/using/configuring-the-resource-s-data-structure.md#defining-indexes).
 
-When you are performing an initial import with very high volumes of data insert in Adobe Campaign database, it is recommended to run that import without custom indexes at first. It will allow to accelerate the insertion process. Once you’ve completed this important import, it is possible to enable the index(es).-->
+When you are performing an initial import with very high volumes of data insert in Adobe Campaign database, it is recommended to run that import without custom indexes at first. It will allow to accelerate the insertion process. Once you’ve completed this important import, it is possible to enable the index(es).
+-->
 
 ### 連結 {#links}
 

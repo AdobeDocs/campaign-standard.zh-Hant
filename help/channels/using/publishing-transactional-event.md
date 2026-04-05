@@ -9,7 +9,7 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 6bcd8dcd-d710-4ca3-937d-bf4339f36069
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 6%
@@ -68,7 +68,7 @@ ht-degree: 6%
    >
    >為了讓事件觸發傳送交易式訊息，您必須修改並發佈剛建立的訊息。 請參閱[編輯](../../channels/using/editing-transactional-message.md)和[發佈交易式訊息](../../channels/using/publishing-transactional-message.md)區段。 您也必須[將此觸發程式事件](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)整合至您的網站。
 
-1. 一旦Adobe Campaign開始接收與此事件設定相關的事件，您可以按一下「**[!UICONTROL History]**」區段下的「**[!UICONTROL Latest transactional events]**」連結，以存取您的協力廠商服務所傳送並由Adobe Campaign處理的最新事件。
+1. 一旦Adobe Campaign開始接收與此事件設定相關的事件，您可以按一下「**[!UICONTROL Latest transactional events]**」區段下的「**[!UICONTROL History]**」連結，以存取您的協力廠商服務所傳送並由Adobe Campaign處理的最新事件。
 
 ![](assets/message-center_latest-events.png)
 
@@ -88,13 +88,15 @@ ht-degree: 6%
 
 按一下&#x200B;**[!UICONTROL Publish]**&#x200B;按鈕以產生新的REST API。
 
-<!--## Transactional messaging publication process {#transactional-messaging-pub-process}
+<!--
+## Transactional messaging publication process {#transactional-messaging-pub-process}
 
 The chart below illustrates the transactional messaging publication process.
 
 ![](assets/message-center_pub-process.png)
 
-For more on publishing, pausing and unpublishing a transactional message, see [this section](../../channels/using/publishing-transactional-message.md).-->
+For more on publishing, pausing and unpublishing a transactional message, see [this section](../../channels/using/publishing-transactional-message.md).
+-->
 
 ## 刪除事件 {#deleting-an-event}
 

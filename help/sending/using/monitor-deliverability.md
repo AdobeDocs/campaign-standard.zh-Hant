@@ -9,7 +9,7 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 683341fb-fef5-4aa1-8606-9526d9ae6290
-source-git-commit: 449187bba167f9ce00e644d44a124b36030ba001
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 9%
@@ -53,7 +53,8 @@ ht-degree: 9%
 
 如需詳細資訊，請參閱[發生失敗時接收警示](../../sending/using/receiving-alerts-when-failures-happen.md)。
 
-<!--## External tools (#external-tools)
+<!--
+## External tools (#external-tools)
 
 ### Signal Spam {#signal-spam}
 
@@ -67,4 +68,5 @@ Signal Spam also provides direct complaints that end users log through a dedicat
 
 250ok is a monitoring solution which provides IP and domain denylists, as well as reputation indicators.
 
-The information provided is real-time, which allows for a pro-active assistance. 250ok a complementary solution to the Adobe deliverability internal tools.-->
+The information provided is real-time, which allows for a pro-active assistance. 250ok a complementary solution to the Adobe deliverability internal tools.
+-->

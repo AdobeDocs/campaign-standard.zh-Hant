@@ -3,13 +3,13 @@ title: 建置個人化內容
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-index: y
+index: true
 description: 瞭解如何設計訊息內容，並嘗試避免可能會阻止您執行傳送的常見問題。 
 feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 938989c9-ef19-4297-9b8b-c38eb1cec1f0
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 4%
@@ -18,7 +18,7 @@ ht-degree: 4%
 
 # 建置個人化內容 {#build-personalized-content}
 
-在設計訊息內容時，請儘量避免可能會使您無法執行傳送的常見問題。 大多數時候，可能的錯誤與[個人化](../../designing/using/personalization.md)有關，當[使用現有內容](../../designing/using/using-existing-content.md)時格式化，以及[轉換HTML內容](../../designing/using/using-existing-content.md#converting-an-html-content)和[影像](../../designing/using/images.md)。
+在設計訊息內容時，請儘量避免可能會使您無法執行傳送的常見問題。 大多數時候，可能的錯誤與[個人化](../../designing/using/personalization.md)、使用現有內容[時的格式設定](../../designing/using/using-existing-content.md)以及[轉換HTML內容](../../designing/using/using-existing-content.md#converting-an-html-content)和[影像](../../designing/using/images.md)有關。
 
 ## 最佳化個人化 {#optimize-personalization}
 
@@ -64,13 +64,13 @@ ht-degree: 4%
 
 ### 取消訂閱連結
 
-取消訂閱連結至關重要。 它必須可見且有效，而且表單必須有效。 在本節[&#128279;](../../designing/using/personalization.md#about-targeting-dimension)中瞭解取消訂閱連結准則。
+取消訂閱連結至關重要。 它必須可見且有效，而且表單必須有效。 在本節[中瞭解取消訂閱連結准則](../../designing/using/personalization.md#about-targeting-dimension)。
 
 依預設，分析訊息時，控制項[型別規則](../../sending/using/control-rules.md)會檢查是否包含選擇退出連結，如果缺少該連結，則會產生警告。
 
 **秘訣**：因為人因錯誤永遠可能發生，在您每次傳送前，請先檢查選擇退出連結是否正常運作。 例如，傳送校樣時，請確定連結有效、表單線上上，且「不再聯絡此收件者」欄位已變更為「是」。
 
-瞭解如何在本節[&#128279;](../../designing/using/personalization.md#adding-a-content-block)中插入選擇退出連結。
+瞭解如何在本節[中插入選擇退出連結](../../designing/using/personalization.md#adding-a-content-block)。
 
 ### 電子郵件大小 {#email-size}
 
@@ -90,7 +90,7 @@ ht-degree: 4%
 
 如果達到限制，超過限制的訊息將會失敗，並在傳送記錄檔中顯示錯誤訊息。 相同傳遞的其他訊息將不會受到影響。 在這種情況下，您必須調整電子郵件範本的動態部分或傳遞使用的內容片段。<!--If you need assistance, or if you have any question or request about the **[!UICONTROL Maximum message size]** option, reach out to your Adobe contact.-->
 
-Adobe建議保留郵件大小上限預設值。 但是，只有[功能管理員](../../administration/using/users-management.md#functional-administrators)可以在&#x200B;**[!UICONTROL Maximum message size]**&#x200B;選項中透過&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**&#x200B;功能表變更此值。
+Adobe建議保留訊息大小上限預設值。 但是，只有&#x200B;**[!UICONTROL Maximum message size]**&#x200B;功能管理員&#x200B;**[!UICONTROL Administration]**&#x200B;可以在&#x200B;**[!UICONTROL Application settings]**&#x200B;選項中透過&#x200B;**[!UICONTROL Options]** > [ > ](../../administration/using/users-management.md#functional-administrators)功能表變更此值。
 
 >[!IMPORTANT]
 >
@@ -100,8 +100,8 @@ Adobe建議保留郵件大小上限預設值。 但是，只有[功能管理員]
 
 根據預設，SMS中的字元數量符合GSM（行動通訊全球系統）標準。 使用 GSM 編碼的簡訊訊息最多只能有 160 個字元，若是以多個部分傳送的訊息，則每個簡訊的簡訊訊息最多只能有 153 個字元。
 
-音譯包括當GSM標準未考慮到SMS的一個字元時，用另一個字元取代該字元。 請注意，將個人化欄位插入您的SMS訊息內容，可能會引入GSM編碼未考慮的字元。 您可以核取對應&#x200B;**[!UICONTROL External account]**&#x200B;的SMPP通道設定索引標籤中對應的方塊，以授權字母音譯。
-在本節[&#128279;](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)瞭解更多。
+音譯包括當GSM標準未考慮到SMS的一個字元時，用另一個字元取代該字元。 請注意，將個人化欄位插入您的SMS訊息內容，可能會引入GSM編碼未考慮的字元。 您可以核取對應&#x200B;**[!UICONTROL External account]**的SMPP通道設定索引標籤中對應的方塊，以授權字母音譯。
+在本節[瞭解更多](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)。
 
 **提示**：
 
@@ -109,13 +109,13 @@ Adobe建議保留郵件大小上限預設值。 但是，只有[功能管理員]
 
 * 不過，如果您的SMS訊息包含許多GSM標準未考慮的字元，請啟用音譯以限制傳送訊息的成本。
 
-在本節[&#128279;](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)瞭解更多。
+在本節[瞭解更多](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)。
 
 ### 回應式電子郵件設計
 
 回應式設計可確保電子郵件以最佳方式呈現開啟所在裝置的內容。
 
-* 使用回應式電子郵件HTML，而不是網頁HTML
+* 使用回應式電子郵件HTML，而非網頁HTML
 
 * 使用預覽模式和傳送校樣，以測試儘可能多裝置上的轉譯。 瞭解如何在傳送前[預覽訊息](../../sending/using/previewing-messages.md)。
 
@@ -145,6 +145,6 @@ Adobe建議保留郵件大小上限預設值。 但是，只有[功能管理員]
 
 ## 預覽您的訊息 {#preview-msg}
 
-Adobe建議預覽您的訊息，以檢查其個人化傾向以及收件者看到您傳遞內容的方式。
+Adobe建議預覽您的訊息，以檢查其個人化情況，以及收件者看到您傳遞內容的方式。
 
 在電子郵件設計工具中，**[!UICONTROL Preview]**&#x200B;按鈕可讓您檢視收件者的每個內容轉譯。 個人化欄位和內容的條件元素會取代為所選設定檔的對應資訊。 [了解更多](../../sending/using/previewing-messages.md)

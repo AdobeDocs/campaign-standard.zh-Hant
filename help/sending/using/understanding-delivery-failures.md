@@ -70,7 +70,7 @@ ht-degree: 59%
 | **[!UICONTROL Account disabled]** | 軟/硬 | 當網際網路存取提供者(IAP)偵測到長時間的不活動時，它可以關閉使用者帳戶：傳送至使用者位址的作業將無法進行。 「軟式」或「硬式」類型取決於收到的錯誤類型：如果帳戶因為 6 個月的閒置而暫時停用，而且仍可啟動，則會指派狀態 **[!UICONTROL Erroneous]** 並再次嘗試傳送。如果收到錯誤訊號表明帳戶已永久停用，則會直接將其發送到隔離。 |
 | **[!UICONTROL Not connected]** | 已忽略 | 當傳送訊息時，設定檔的行動電話已關閉或未連線至網路。 |
 | **[!UICONTROL Invalid domain]** | 柔光 | 電子郵件地址的網域不正確或已不存在。 此輪廓將再次定位，直到錯誤計數達到5。之後，記錄將設定為「隔離」狀態，不會再重試。 |
-| **[!UICONTROL Text too long]** | 已忽略 | SMS訊息中的字元數量超過限制。 如需詳細資訊，請參閱簡訊編碼、長度和音譯](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)。[ |
+| **[!UICONTROL Text too long]** | 已忽略 | SMS訊息中的字元數量超過限制。 如需詳細資訊，請參閱簡訊編碼、長度和音譯[&#128279;](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)。 |
 | **[!UICONTROL Character not supported by encoding]** | 已忽略 | SMS訊息包含一或多個編碼不支援的字元。 有關詳細資訊，請參閱[字元表- GSM標準](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard)。 |
 
 
@@ -86,11 +86,11 @@ ht-degree: 59%
 
 <!--Please note that Adobe Campaign Enhanced MTA is not available for the Push channel.-->
 
-要修改傳送的持續時間，請轉至傳送或傳遞範本的進階參數，並編輯&#x200B;**[!UICONTROL Delivery duration]**&#x200B;有效期間[區段的 ](../../administration/using/configuring-email-channel.md#validity-period-parameters) 欄位。
+要修改傳送的持續時間，請轉至傳送或傳遞範本的進階參數，並編輯&#x200B;**[!UICONTROL Delivery duration]**&#x200B;有效期間[區段的 &#x200B;](../../administration/using/configuring-email-channel.md#validity-period-parameters) 欄位。
 
 >[!IMPORTANT]
 >
->**您的 Campaign 傳送中的&#x200B;**[!UICONTROL Delivery duration]**參數現在僅在設為 3.5 天或更少時使用。** 如果您定義的值超過　3.5　天，則不會考慮該值。
+>**您的 Campaign 傳送中的&#x200B;**&#x200B;[!UICONTROL Delivery duration]&#x200B;**參數現在僅在設為 3.5 天或更少時使用。** 如果您定義的值超過　3.5　天，則不會考慮該值。
 
 例如，如果您希望某個傳遞的重試在一天後停止，您可以將傳遞持續時間設為&#x200B;**1d**，重試佇列中的訊息將在一天後移除。
 

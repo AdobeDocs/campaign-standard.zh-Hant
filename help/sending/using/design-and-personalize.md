@@ -90,7 +90,7 @@ ht-degree: 4%
 
 如果達到限制，超過限制的訊息將會失敗，並在傳送記錄檔中顯示錯誤訊息。 相同傳遞的其他訊息將不會受到影響。 在這種情況下，您必須調整電子郵件範本的動態部分或傳遞使用的內容片段。<!--If you need assistance, or if you have any question or request about the **[!UICONTROL Maximum message size]** option, reach out to your Adobe contact.-->
 
-Adobe建議保留訊息大小上限預設值。 但是，只有&#x200B;**[!UICONTROL Maximum message size]**&#x200B;功能管理員&#x200B;**[!UICONTROL Administration]**&#x200B;可以在&#x200B;**[!UICONTROL Application settings]**&#x200B;選項中透過&#x200B;**[!UICONTROL Options]** > [ > ](../../administration/using/users-management.md#functional-administrators)功能表變更此值。
+Adobe建議保留訊息大小上限預設值。 但是，只有&#x200B;**[!UICONTROL Maximum message size]**&#x200B;功能管理員&#x200B;**[!UICONTROL Administration]**&#x200B;可以在&#x200B;**[!UICONTROL Application settings]**&#x200B;選項中透過&#x200B;**[!UICONTROL Options]** > [&#x200B; > &#x200B;](../../administration/using/users-management.md#functional-administrators)功能表變更此值。
 
 >[!IMPORTANT]
 >
@@ -100,7 +100,7 @@ Adobe建議保留訊息大小上限預設值。 但是，只有&#x200B;**[!UICON
 
 根據預設，SMS中的字元數量符合GSM（行動通訊全球系統）標準。 使用 GSM 編碼的簡訊訊息最多只能有 160 個字元，若是以多個部分傳送的訊息，則每個簡訊的簡訊訊息最多只能有 153 個字元。
 
-音譯包括當GSM標準未考慮到SMS的一個字元時，用另一個字元取代該字元。 請注意，將個人化欄位插入您的SMS訊息內容，可能會引入GSM編碼未考慮的字元。 您可以核取對應&#x200B;**[!UICONTROL External account]**的SMPP通道設定索引標籤中對應的方塊，以授權字母音譯。
+音譯包括當GSM標準未考慮到SMS的一個字元時，用另一個字元取代該字元。 請注意，將個人化欄位插入您的SMS訊息內容，可能會引入GSM編碼未考慮的字元。 您可以核取對應&#x200B;**[!UICONTROL External account]**&#x200B;的SMPP通道設定索引標籤中對應的方塊，以授權字母音譯。
 在本節[瞭解更多](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)。
 
 **提示**：

@@ -35,7 +35,7 @@ ht-degree: 2%
 
 ![](assets/template_content.png)
 
-可從&#x200B;**[!UICONTROL Resources]**&#x200B;進階功能表&#x200B;**[!UICONTROL Content templates & fragments]**&#x200B;的[ > ](../../start/using/interface-description.md#advanced-menu)畫面存取HTML內容範本。 從那裡，您可以管理登入頁面內容範本、電子郵件內容範本以及片段。
+可從&#x200B;**[!UICONTROL Resources]**&#x200B;進階功能表&#x200B;**[!UICONTROL Content templates & fragments]**&#x200B;的[&#x200B; > &#x200B;](../../start/using/interface-description.md#advanced-menu)畫面存取HTML內容範本。 從那裡，您可以管理登入頁面內容範本、電子郵件內容範本以及片段。
 
 ![](assets/content_templates_list.png)
 
@@ -159,7 +159,7 @@ ht-degree: 2%
 >abstract="片段指可重複使用的內容區塊，可在一封或多封電子郵件中參照。"
 
 片段是可重複使用的元件，可在一封或多封電子郵件中參考。
-它們可以在**資源** > **內容片段和範本**&#x200B;下的介面中找到。
+它們可以在&#x200B;**資源** > **內容片段和範本**&#x200B;下的介面中找到。
 
 若要在電子郵件Designer中善用片段：
 

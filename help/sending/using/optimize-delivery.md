@@ -52,7 +52,7 @@ ht-degree: 4%
 
    * 在檢查電子郵件是否可傳遞時，您想要將焦點放在四個主要類別上：資料品質、訊息和內容、傳送基礎結構和信譽。 如需深入瞭解此主題，請參閱[本節](../../sending/using/about-deliverability.md)。
 
-* 啟動新平台時，套用[此頁面](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html#transition-process)上詳述的建議。
+* 啟動新平台時，套用[此頁面](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html?lang=zh-Hant#transition-process)上詳述的建議。
 
 * 請聯絡您的Adobe代表以尋求協助。
 

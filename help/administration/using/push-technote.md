@@ -57,7 +57,7 @@ To check if you are impacted, you can filter your **Services and Subscriptions**
 
 * 如果您仍在使用此舊版SDK，您必須使用Adobe Experience Platform SDK更新實施。 在[本文章](sdkv4-migration.md)中瞭解如何移轉至Adobe Experience Platform SDK。
 
-* 執行以下步驟之前，請確定您在Adobe Experience Platform Data Collection Mobile中擁有&#x200B;**行動應用程式設定**&#x200B;許可權。 [了解更多資訊](https://experienceleague.adobe.com/docs/experience-platform/collection/permissions.html?lang=en#adobe-experience-platform-data-collection-permissions){target="_blank"}。
+* 執行以下步驟之前，請確定您在Adobe Experience Platform Data Collection Mobile中擁有&#x200B;**行動應用程式設定**&#x200B;許可權。 [了解更多資訊](https://experienceleague.adobe.com/docs/experience-platform/collection/permissions.html?lang=zh-Hant#adobe-experience-platform-data-collection-permissions){target="_blank"}。
 
 
 #### 轉換程式 {#fcm-transition-steps}

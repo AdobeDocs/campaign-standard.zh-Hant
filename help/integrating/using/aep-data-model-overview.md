@@ -33,7 +33,7 @@ XDM Workspace可讓您檢視、建立和擴充資料結構。
 
 若要存取XDM使用者介面，請開啟Adobe Experience Platform。 導覽至「資料模型」視窗，以建立或擴充XDM架構。
 
-請參閱完整的[XDM Workspace檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html)。
+請參閱完整的[XDM Workspace檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=zh-Hant)。
 
 ![](assets/aep_xdmworkspace.png)
 
@@ -48,4 +48,4 @@ XDM Workspace可讓您檢視、建立和擴充資料結構。
 * 檢視結構描述元
 * 建立、更新和刪除結構描述元
 
-在[開發人員指南](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html)中提供了控制API呼叫的所有詳細資訊。
+在[開發人員指南](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=zh-Hant)中提供了控制API呼叫的所有詳細資訊。

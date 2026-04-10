@@ -10,8 +10,7 @@ role: Developer
 level: Experienced
 exl-id: 11e2cd7e-99b7-45cc-a0c2-41049128fe49
 hide: true
-hidefromtoc: true
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 3%
@@ -22,7 +21,7 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->Audience Destinations服務目前為測試版，可能會經常更新，恕不另行通知。 客戶需在Azure上代管（目前僅限北美地區使用Beta版）才能存取這些功能。 如果您想要存取，請聯絡Adobe客戶服務。
+>Audience Destinations服務目前為測試版，可能會經常更新，恕不另行通知。 客戶必須在Azure上託管（目前僅限北美地區使用Beta版）才能存取這些功能。 如果您想要存取，請聯絡Adobe客戶服務。
 
 使用區段產生器建立[Adobe Experience Platform對象](../../integrating/using/aep-about-audience-destinations-service.md)後，您可以使用相同的方式在工作流程中的行銷活動對象使用它，以個人化和傳送訊息。
 

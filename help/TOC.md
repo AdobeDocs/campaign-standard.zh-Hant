@@ -4,10 +4,10 @@ user-guide-title: Campaign Standard
 user-guide-description: Adobe Campaign Standard 產品文件。
 title: Campaign Standard 指南
 breadcrumb-title: Campaign Standard 文件
-source-git-commit: 4df02bb5bbac105057a33d61a7158482bbc48a53
+source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
 workflow-type: tm+mt
 source-wordcount: '1754'
-ht-degree: 90%
+ht-degree: 89%
 
 ---
 
@@ -22,15 +22,15 @@ ht-degree: 90%
       + [2024](rn/using/release-notes-2024.md)
       + [2023 年](rn/using/release-notes-2023.md)
       + [2022](rn/using/release-notes-2022.md)
-      + [2021 年](rn/using/release-notes-2021.md)
-      + [2020](rn/using/release-notes-2020.md)
-      + [2019](rn/using/release-notes-2019.md)
-      + [2018](rn/using/release-notes-2018.md)
-      + [2017](rn/using/release-notes-2017.md)
+      + {hide-from-toc}[2021](rn/using/release-notes-2021.md)
+      + {hide-from-toc}[2020](rn/using/release-notes-2020.md)
+      + {hide-from-toc}[2019](rn/using/release-notes-2019.md)
+      + {hide-from-toc}[2018](rn/using/release-notes-2018.md)
+      + {hide-from-toc}[2017](rn/using/release-notes-2017.md)
    + [發行規劃](rn/using/release-planning.md)
    + [已棄用功能](rn/using/deprecated-features.md)
-   + [追蹤的 URL 簽名問題](rn/using/tracked-urls.md)
-   + [最新文件更新](rn/using/documentation-updates.md)
+   + {hide-from-toc}[追蹤的URL簽名問題](rn/using/tracked-urls.md)
+   + {hide-from-toc}[最新檔案更新](rn/using/documentation-updates.md)
 + 快速入門 {#getting-started}
    + [關於 Adobe Campaign Standard](start/using/about-campaign-standard.md)
    + 探索介面 {#discovering-the-interface}
@@ -48,7 +48,7 @@ ht-degree: 90%
       + [隱私權管理](start/using/privacy-management.md)
       + [隱私權請求](start/using/privacy-requests.md)
       + [隱私權常見問答集](start/using/privacy-faq.md)
-   + [說明與支援選項](support.md)
+   + {hide-from-toc}[說明與支援選項](support.md)
 + 輪廓與客群 {#profiles-and-audiences}
    + [開始使用輪廓和客群](audiences/using/get-started-profiles-and-audiences.md)
    + 管理用戶檔案 {#managing-profiles}
@@ -437,7 +437,7 @@ ht-degree: 90%
    + 設定頻道 {#configuring-channels}
       + [關於頻道設定](administration/using/about-channel-configuration.md)
       + [設定電子郵件頻道](administration/using/configuring-email-channel.md)
-      + [在 ISP 中斷後更新跳出鑑定](administration/using/update-bounce-qualification.md)
+      + {hide-from-toc}[在ISP中斷後更新跳出資格](administration/using/update-bounce-qualification.md)
       + [設定行動應用程式](administration/using/configuring-a-mobile-application.md)
    + 設定行動裝置頻道 {#configuring-mobile}
       + [實施推送追蹤](administration/using/push-tracking.md)

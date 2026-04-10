@@ -4,9 +4,8 @@ description: 本頁列出 2017 年的所有 Adobe Campaign Standard 版本。
 feature: Overview
 role: User
 level: Beginner
-hidefromtoc: true
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
-source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
+source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
 workflow-type: tm+mt
 source-wordcount: '4572'
 ht-degree: 3%
@@ -43,10 +42,10 @@ ht-degree: 3%
 _平台_
 
 * 修正了無法正確解壓縮大型壓縮檔案的問題。
-* 已改善品牌管理中的安全性。 現在會為Adobe技術管理員保留修改品牌名稱和寄件者地址的許可權。
-* 為了改善安全性，使用者產生的內容（影像、映象頁面、登入頁面等） 無法再由adobe.com網域提供服務。 現在，您必須使用自己的網域，透過使用品牌來處理這些資源。
+* 已改善品牌管理中的安全性。 修改品牌名稱和寄件者地址現在已保留給Adobe技術管理員。
+* 為了改善安全性，adobe.com網域不再提供使用者產生的內容（影像、映象頁面、登陸頁面等）。 現在，您必須使用自己的網域，透過使用品牌來處理這些資源。
 * 修正顯示和篩選行銷活動時的介面問題。
-* 修正無法使用POSTRest API呼叫更新訂閱日期欄位的問題。
+* 修正無法使用POST Rest API呼叫更新訂閱日期欄位的問題。
 
 _電子郵件、簡訊和直接郵件_
 
@@ -125,19 +124,19 @@ _自訂資源_
 
 _平台_
 
-* 有些客戶必須能夠運用來自Adobe Campaign Standard的ID，因為他們不會管理唯一索引鍵來識別自己的記錄。 此ID (**ACS ID**)可以匯出，並在更新資料時作為調解金鑰。 如需詳細資訊，請參閱[詳細文件](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)以瞭解詳情。
+* 有些客戶必須能夠運用來自Adobe Campaign Standard的ID，因為他們不會管理唯一索引鍵來識別自己的記錄。 此ID (**ACS ID**)可以匯出，並在更新資料時作為調解金鑰。 如需詳細資訊，請參閱[詳細說明文件](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)。
 * FTP通訊協定已淘汰。 您現在應該改用SFTP。 為了不封鎖現有的實作，FTP上的現有設定仍會像之前一樣運作，但不會為新活動顯示選項。
 
 _電子郵件、簡訊和直接郵件_
 
-* 您現在可以建立新的警報條件，以便用於傳送警報通知。 如需詳細資訊，請參閱[詳細文件](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion)以瞭解詳情。
+* 您現在可以建立新的警報條件，以便用於傳送警報通知。 如需詳細資訊，請參閱[詳細說明文件](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion)。
 * 傳送警報通知具有新設計，而且傳送警報控制面板使用者體驗已改善。
 * 現在，當路由外部帳戶停用時，受影響的傳送（電子郵件、簡訊和推播）中會顯示警告，並且&#x200B;**預覽**&#x200B;按鈕會隱藏在這些傳送中。
 * 修正在主旨行中啟用動態文字時，造成電子郵件內容A/B測試預覽發生錯誤的問題。
 
 _異動訊息_
 
-* 現在可以定義您何時要傳送後續訊息，例如在傳送交易式訊息後3天。 如需詳細資訊，請參閱[詳細文件](../../channels/using/follow-up-messages.md#sending-a-follow-up-message)以瞭解詳情。
+* 現在可以定義您何時要傳送後續訊息，例如在傳送交易式訊息後3天。 如需詳細資訊，請參閱[詳細說明文件](../../channels/using/follow-up-messages.md#sending-a-follow-up-message)。
 * 現在可以定義連結至事件的交易式訊息的開始傳送日期。
 * 修正在刪除連結至已接收和已處理事件的設定檔後，執行包含後續訊息的工作流程時導致SQL錯誤的問題。
 * 修正無法刪除連結至事件之設定檔的錯誤。
@@ -146,7 +145,7 @@ _異動訊息_
 
 _報告_
 
-* 已改善&#x200B;**熱點點按**&#x200B;報告。 此外，現在可以根據傳送中定義的每個條件式內容顯示熱點點按，並顯示定期傳送或異動訊息每個執行的熱點點按。 如需詳細資訊，請參閱[詳細文件](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion)以瞭解詳情。
+* 已改善&#x200B;**熱點點按**&#x200B;報告。 此外，現在可以根據傳送中定義的每個條件式內容顯示熱點點按，並顯示定期傳送或異動訊息每個執行的熱點點按。 如需詳細資訊，請參閱[詳細說明文件](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion)。
 * 修正隔離量度無法擷取正確資料的問題。
 * 行事曆Widget已新增預設時間範圍。
 * 已調整[動態報告量度](../../reporting/using/indicator-calculation.md)與[行銷活動KPI](../../sending/using/confirming-the-send.md) （顯示在已傳送訊息的控制面板上），以更協調一致。
@@ -163,7 +162,7 @@ _整合_
 
 _設定檔與對象_
 
-* Adobe Campaign現在會提供一份報表，顯示作用中設定檔的數量。 此報告僅提供資訊，對帳單沒有直接影響。 如需詳細資訊，請參閱[詳細文件](../../audiences/using/active-profiles.md)以瞭解詳情。
+* Adobe Campaign現在會提供一份報表，顯示作用中設定檔的數量。 此報告僅提供資訊，對帳單沒有直接影響。 如需詳細資訊，請參閱[詳細說明文件](../../audiences/using/active-profiles.md)。
 * 修正使用Profiles and Services API時，設定檔無法訂閱服務的問題。
 
 ## 發行版本 17.7 – 2017 年 7 月 {#release-17-7---july-2017}
@@ -192,7 +191,7 @@ _設定檔與對象_
   </tr> 
   <tr> 
    <td> 資料來源<br />中的加密宣告ID </td> 
-   <td> 使用加密的聯絡資訊（電子郵件地址或電話號碼）作為宣告ID，傳送電子郵件和簡訊觸發器，而無需Campaign中的現有設定檔。 由於加密的宣告ID可由Adobe Campaign Standard解碼，因此Campaign現在可在接收來自其他Experience Cloud解決方案（包含先前未知的聯絡人）的對象時，建立新的可銷售的設定檔。<br />透過電子郵件和簡訊即時鎖定客戶和未知的潛在客戶，以提高現有客戶群的忠誠度，並取得新客戶。 一旦潛在客戶在Adobe Campaign中驗證並運用這些深入分析，就能充分利用您的第一方Cookie資料(來自Adobe Audience Manager*)。 <br /> *需要Adobe Audience Manager。 如需詳細資訊，請參閱<a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">詳細檔案</a>.<br /> </td> 
+   <td> 使用加密的聯絡資訊（電子郵件地址或電話號碼）作為宣告ID，傳送電子郵件和簡訊觸發器，而無需Campaign中的現有設定檔。 由於加密的宣告ID可由Adobe Campaign Standard解碼，Campaign現在可以在接收來自其他Experience Cloud解決方案（包含先前未知的聯絡人）的對象時，建立新的可行銷設定檔。<br />透過電子郵件和簡訊即時鎖定客戶和未知的潛在客戶，以提高現有客戶群的忠誠度，並取得新客戶。 一旦潛在客戶在Adobe Campaign中驗證並運用這些深入分析，就能充分利用您的第一方Cookie資料（來自Adobe Audience Manager*）。 <br /> *需要Adobe Audience Manager。 如需詳細資訊，請參閱<a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">詳細檔案</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 從Campaign到Analytics的KPI共用<br /> </td> 
@@ -302,7 +301,7 @@ _推播通知_
  </thead> 
  <tbody> 
   <tr> 
-   <td> Creative SDK<br />的增強影像版本功能 </td> 
+   <td> Creative SDK的增強影像版本功能<br /> </td> 
    <td> 您現在可以存取由Creative SDK支援的完整功能集，以便在編輯電子郵件或登入頁面時直接在內容編輯器中增強影像。<br />此功能不需要取得其他Creative Cloud解決方案。<br />如需詳細資訊，請參閱<a href="../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk">詳細檔案</a>。<br /> </td> 
   </tr> 
   <tr> 
@@ -427,7 +426,7 @@ _推播通知_
   </tr> 
   <tr> 
    <td> 興趣點資料<br /> </td> 
-   <td> 興趣點資料已整合Adobe Campaign與適用於行動裝置的Adobe Analytics。 當使用者開啟品牌的應用程式時，品牌可以從使用者的行動裝置位置（稱為<strong>地標</strong>）收集資料。 這可讓品牌運用Adobe Campaign工作流程，根據使用者的位置傳送個人化訊息。 此管道採用行動核心服務的SDK。<br />請注意，使用此功能需要Analytics for Mobile，此為付費解決方案。<br />如需詳細資訊，請參閱<a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">詳細檔案</a>。<br /> </td> 
+   <td> 興趣點資料已整合Adobe Campaign與適用於行動裝置的Adobe Analytics。 當使用者開啟品牌的應用程式時，品牌可以從使用者的行動裝置位置（稱為<strong>地標</strong>）收集資料。 這可讓品牌運用Adobe Campaign工作流程，根據使用者的位置傳送個人化訊息。 此管道採用Mobile核心服務的SDK。<br />請注意，使用此功能需要Analytics for Mobile，此為付費解決方案。<br />如需詳細資訊，請參閱<a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">詳細檔案</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> REST API<br /> </td> 
@@ -510,7 +509,7 @@ _一般_
 
 _電子郵件和簡訊訊息_
 
-* 修正了傳送範本的問題，其HTML內容包含
+* 修正傳送範本的問題，其中包含HTML內容，
 
 _推播通知_
 
@@ -523,12 +522,12 @@ _工作流程_
 
 * 修正無法預覽事件資源（例如rtEvent）查詢的問題。
 * **[!UICONTROL Load file]**&#x200B;活動產生的拒絕檔案現在可以在其出站轉變中擷取，並在下一個活動中處理。 例如，使用&#x200B;**[!UICONTROL Transfer file]**&#x200B;透過SFTP伺服器上傳拒絕檔案。
-* 修正在&#x200B;**[!UICONTROL Segmentation]**&#x200B;的&#x200B;**[!UICONTROL General]**&#x200B;索引標籤中選取&#x200B;**[!UICONTROL Temporary resource]**&#x200B;時，使用者無法限制區段母體的問題。
+* 修正在&#x200B;**[!UICONTROL Temporary resource]**&#x200B;的&#x200B;**[!UICONTROL General]**&#x200B;索引標籤中選取&#x200B;**[!UICONTROL Segmentation]**&#x200B;時，使用者無法限制區段母體的問題。
 * **[!UICONTROL Scheduler]**&#x200B;個活動不能再設定為每10分鐘觸發一次以上的工作流程。
 * 修正了可能導致&#x200B;**[!UICONTROL Use common columns]**&#x200B;無法在&#x200B;**[!UICONTROL Union]**&#x200B;活動中正常運作的問題。
 
 _整合_
 
 * 修正在Adobe Campaign中部署事件觸發程式時，可能導致錯誤的問題。 將「30天內回訪的可能性」中繼資料新增至Adobe Marketing Cloud中的放棄觸發程式時，就會發生此錯誤。
-* 修正從People核心服務匯入受眾時，技術工作流程可能清除TargetDimension欄位的問題。 後續查詢無法擷取匯入的對象。
-* 修正核取選項&#x200B;**[!UICONTROL Share in Adobe Marketing Cloud]**&#x200B;時，工作流程的&#x200B;**[!UICONTROL Save audience]**&#x200B;活動可能失敗的問題。
+* 修正從People核心服務匯入受眾時，技術工作流程可能清除Target Dimension欄位的問題。 後續查詢無法擷取匯入的對象。
+* 修正核取選項&#x200B;**[!UICONTROL Save audience]**&#x200B;時，工作流程的&#x200B;**[!UICONTROL Share in Adobe Marketing Cloud]**&#x200B;活動可能失敗的問題。

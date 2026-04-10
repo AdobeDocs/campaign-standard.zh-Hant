@@ -11,8 +11,7 @@ role: Developer
 level: Experienced
 exl-id: 2f6c5cc6-0634-4418-a2ee-e1c133d9cbd2
 hide: true
-hidefromtoc: true
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 2%
@@ -23,7 +22,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->Audience Destinations Service目前為測試版，可能會經常更新，恕不另行通知。 客戶需在Azure上代管（目前僅限北美地區使用Beta版）才能存取這些功能。 如果您想要存取，請聯絡Adobe客戶服務。
+>Audience Destinations Service目前為測試版，可能會經常更新，恕不另行通知。 客戶必須在Azure上託管（目前僅限北美地區使用Beta版）才能存取這些功能。 如果您想要存取，請聯絡Adobe客戶服務。
 
 ## 存取Adobe Experience Platform受眾
 
@@ -63,7 +62,7 @@ ht-degree: 2%
 
    ![](assets/aep_audiences_creation_query.png)
 
-對象現在已準備好啟動，您可以將其用作行銷活動的目標(請參閱[鎖定Adobe Experience Platform對象](../../integrating/using/aep-targeting-audiences.md))。
+對象現在已準備好啟動，您可以將其用作行銷活動的目標（請參閱[鎖定Adobe Experience Platform對象](../../integrating/using/aep-targeting-audiences.md)）。
 
 ## 編輯對象
 

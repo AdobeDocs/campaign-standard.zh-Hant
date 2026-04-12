@@ -77,7 +77,7 @@ ht-degree: 26%
 
 >[!NOTE]
 >
->根據您的選取（結構元件、欄或內容元件），結果將不同。 Adobe建議在資料行層級設定&#x200B;**[!UICONTROL Padding]**&#x200B;和&#x200B;**[!UICONTROL Margin]**&#x200B;引數。
+>根據您的選取（結構元件、欄或內容元件），結果將不同。 Adobe建議在欄層級設定&#x200B;**[!UICONTROL Padding]**&#x200B;和&#x200B;**[!UICONTROL Margin]**&#x200B;引數。
 
 針對&#x200B;**[!UICONTROL Padding]**&#x200B;和&#x200B;**[!UICONTROL Margin]**，按一下鎖定圖示以中斷上下或左右引數之間的同步化。 這可讓您分別調整每個引數。
 

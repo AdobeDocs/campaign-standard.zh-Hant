@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 8daeb12d-4170-464f-ba33-afb681f72a91
 source-git-commit: 5435e1dbfbe08399c488322320ac5bb8e681a79d
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: '1040'
 ht-degree: 26%
 
 ---
@@ -102,7 +102,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
 >title="背景設定"
->abstract="電子郵件設計工具讓您將內容的背景顏色或背景影像個人化。請注意，並非所有電子郵件用戶端都支援背景影像。"
+>abstract="您可以使用電子郵件設計工具為您的內容設定個人化的背景顏色或背景影像。請注意，並非所有的電子郵件用戶端都支援背景影像。"
 
 在使用電子郵件設計工具設定背景時，Adobe 建議以下做法：
 
@@ -120,7 +120,7 @@ ht-degree: 26%
 
   ![](assets/des_background_viewport.png)
 
-* 為每個結構元件設定不同的背景顏色。在導覽樹狀結構中選取可從左側浮動視窗存取的結構，以僅將特定背景顏色套用至該結構。
+* 為每個結構元件設定不同的背景顏色。 在導覽樹狀結構中選取可從左側浮動視窗存取的結構，以僅將特定背景顏色套用至該結構。
 
   ![](assets/des_background_structure.png)
 
@@ -132,7 +132,7 @@ ht-degree: 26%
 
   >[!NOTE]
   >
-  >某些電子郵件程式不支援背景影像。當不支援時，將改用列背景顏色。 確保選取合適的後備背景顏色，以防影像無法顯示。
+  >某些電子郵件程式不支援背景影像。 當不支援時，將改用列背景顏色。 確保選取合適的後備背景顏色，以防影像無法顯示。
 
 * 在欄層級設定背景顏色。
 
@@ -140,7 +140,7 @@ ht-degree: 26%
 
   >[!NOTE]
   >
-  >這是最常見的使用案例。Adobe 建議在欄層級設定背景顏色，因為這樣可以在編輯整個電子郵件內容時具有更大的彈性。
+  >這是最常見的使用案例。 Adobe 建議在欄層級設定背景顏色，因為這樣可以在編輯整個電子郵件內容時具有更大的彈性。
 
   您也可以在欄層級設定背景影像，但這很少使用。
 
@@ -149,21 +149,21 @@ ht-degree: 26%
 您想要調整由三欄組成的結構元件內的邊框間距和垂直對齊方式。 要執行此操作，請遵循下列步驟：
 
 1. 直接在電子郵件中選取結構元件，或使用左側&#x200B;**浮動視窗**&#x200B;提供的結構樹狀結構。
-1. 從&#x200B;**內容工具列**，按一下&#x200B;**[!UICONTROL Select a column]**&#x200B;並選擇您要編輯的內容。 您也可以從結構樹中選取它。
+1. 從&#x200B;**內容工具列**，按一下&#x200B;**[!UICONTROL Select a column]**&#x200B;並選擇您要編輯的內容。 You can also select it from the structure tree.
 
    ![](assets/des_selecting_column.png)
 
-   該欄的可編輯引數會顯示在右側的&#x200B;**[!UICONTROL Settings]**&#x200B;窗格中。
+   The editable parameters for that column are displayed in the **[!UICONTROL Settings]** pane on the right.
 
 1. 在&#x200B;**[!UICONTROL Vertical alignment]**&#x200B;下，選取&#x200B;**[!UICONTROL Up]**。
 
    ![](assets/des_vertical_alignment.png)
 
-   內容元件會顯示在欄頂端。
+   The content component displays on top of the column.
 
-1. 在&#x200B;**[!UICONTROL Padding]**&#x200B;底下，定義欄內的頂端內距。 按一下鎖定圖示以中斷與底部邊框間距的同步。
+1. Under **[!UICONTROL Padding]**, define the top padding inside the column. Click the lock icon to break synchronization with the bottom padding.
 
-   定義該欄的左右內距。
+   Define the left and right padding for that column.
 
    ![](assets/des_adjusting_padding.png)
 
@@ -173,39 +173,39 @@ ht-degree: 26%
 
 1. 儲存您的變更。
 
-## 樣式連結 {#about-styling-links}
+## Styling links {#about-styling-links}
 
 您可以為連結加底線，然後在電子郵件設計工具中選取其顏色和目標。
 
-1. 在插入連結的元件中，選取連結的標籤文字。
+1. In a component where a link is inserted, select the label text of your link.
 
-1. 在元件設定中，核取&#x200B;**[!UICONTROL Underline link]**&#x200B;以加底線標示連結的標籤文字。
+1. In the component settings, check **[!UICONTROL Underline link]** to underline the label text of your link.
 
    ![](assets/stylelinks-selecttext.png)
 
-1. 若要選取將在哪個瀏覽內容中開啟您的連結，請選取&#x200B;**[!UICONTROL Target]**。
+1. To select in which browsing context your link will be opened select a **[!UICONTROL Target]**.
 
    ![](assets/stylelinks-target.png)
 
-1. 若要變更連結的顏色，請按一下&#x200B;**[!UICONTROL Link color]**。
+1. To change the color of your link, click on **[!UICONTROL Link color]**.
 
    ![](assets/stylelinks-colorpicker.png)
 
-1. 挑選您需要的色彩。
+1. Pick the color you need.
 
    ![](assets/stylelinks-colorchanged.png)
 
 1. 儲存您的變更。
 
-## 新增內嵌樣式屬性 {#adding-inline-styling-attributes}
+## Adding inline styling attributes {#adding-inline-styling-attributes}
 
-在電子郵件Designer介面中，當您選取元素並在側面板上顯示其設定時，可以自訂該特定元素的內嵌屬性及其值。
+In the Email Designer interface, when you select an element and display its settings on the side panel, you can customize the inline attributes and their value for that specific element.
 
-1. 選取內容中的元素。
-1. 在側面板上尋找&#x200B;**[!UICONTROL Styles Inline]**&#x200B;設定。
+1. Select an element in your content.
+1. On the side panel, look for the **[!UICONTROL Styles Inline]** settings.
 
    ![](assets/email_designer_inlineattributes.png)
 
-1. 修改現有屬性的值，或使用&#x200B;**+**&#x200B;按鈕新增屬性。 您可以新增任何符合 CSS 的屬性和值。
+1. Modify the values of the existing attributes, or add new ones using the **+** button. 您可以新增任何符合 CSS 的屬性和值。
 
-然後，樣式會套用至選取的元素。 如果子元素沒有定義特定的樣式屬性，則繼承父元素的樣式。
+The styling is then applied to the selected element. 如果子元素沒有定義特定的樣式屬性，則繼承父元素的樣式。

@@ -9,8 +9,8 @@ role: User
 level: Intermediate
 exl-id: 84cf8f6e-9ba0-4cd5-80e2-a61cefa31e0a
 source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
-workflow-type: tm+mt
-source-wordcount: '788'
+workflow-type: ht
+source-wordcount: '851'
 ht-degree: 100%
 
 ---
@@ -47,7 +47,7 @@ It also contains information on important features to manage Privacy ([consent, 
 
 Adobe Campaign 的功能可協助您遵循下列法規：
 
-* **GDPR**（[一般資料保護規範](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en)）是歐盟 (EU) 的隱私權法律，其可為歐盟國家協調資料保護要求並以現代化方式規範資料保護要求。請遵循下列連結，以尋找有關 GDPR 的一般資訊：
+* **GDPR**（[一般資料保護規範](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en)）是歐盟 (EU) 的隱私權法律，其可為歐盟國家協調資料保護要求並以現代化方式規範資料保護要求。 請遵循下列連結，以尋找有關 GDPR 的一般資訊：
 
    * https://www.adobe.com/tw/privacy/general-data-protection-regulation.html
    * https://www.adobe.com/marketing-cloud/campaign/general-data-protection-regulation.html
@@ -66,7 +66,7 @@ Adobe Campaign 的功能可協助您遵循下列法規：
 
 為協助您加速隱私權準備，Adobe Campaign 可讓您處理&#x200B;**存取**&#x200B;和&#x200B;**刪除**&#x200B;要求。
 
-* **存取權限**&#x200B;是指資料主體有權從資料控制方取得關於其個人資料是否正在處理、處理地點及基於何種目的的確認。資料控制方應免費提供電子格式的個人資料副本。
+* **存取權限**&#x200B;是指資料主體有權從資料控制方取得關於其個人資料是否正在處理、處理地點及基於何種目的的確認。 資料控制方應免費提供電子格式的個人資料副本。
 
 * 「**被遺忘的權利**」(刪除要求) 也稱為「資料抹除」，其可賦予資料主體權利，讓資料庫控制人員得以清除其個人資料、停止進一步散發資料，並可能讓第三方停止處理資料。
 
@@ -88,21 +88,21 @@ Adobe Campaign 的功能可協助您遵循下列法規：
 
 ### 同意管理 {#consent-management}
 
-同意表示資料主體同意處理與資料主體相關的個人資料。資料控制方應負責取得該項處理的任何必要同意。雖然 Adobe Campaign 可能會提供一些功能，以協助與服務相關的客戶管理同意，但 Adobe 不負責同意。客戶應與自己的法律部門合作，以決定自己的流程和實務，以取得任何必要的同意。
+同意表示資料主體同意處理與資料主體相關的個人資料。 資料控制方應負責取得該項處理的任何必要同意。 雖然 Adobe Campaign 可能會提供一些功能，以協助與服務相關的客戶管理同意，但 Adobe 不負責同意。 客戶應與自己的法律部門合作，以決定自己的流程和實務，以取得任何必要的同意。
 
-Adobe Campaign 自始至終都採用有助於管理同意部分的功能。透過訂閱管理程式，客戶可以追蹤哪些收件者已選擇訂閱類型，無論是電子報、每日或每週促銷或任何其他類型的行銷方案。
+Adobe Campaign 自始至終都採用有助於管理同意部分的功能。 透過訂閱管理程式，客戶可以追蹤哪些收件者已選擇訂閱類型，無論是電子報、每日或每週促銷或任何其他類型的行銷方案。
 
 ![](assets/privacy-consent-management.png)
 
 如需「同意」管理的詳細資訊，請參閱[關於訂閱](../../audiences/using/about-subscriptions.md)及[開始使用登陸頁面](../../channels/using/getting-started-with-landing-pages.md)。
 
-除了 Adobe Campaign 提供的同意管理工具以外，您還可以追蹤消費者是否選擇退出個人資訊銷售。請參閱[本節](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa)。
+除了 Adobe Campaign 提供的同意管理工具以外，您還可以追蹤消費者是否選擇退出個人資訊銷售。 請參閱[本節](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa)。
 
 ### 權限管理 {#rights-management}
 
 Adobe Campaign 可讓您透過不同的預先建立或自訂角色，管理指派給各種 Campaign 運算子的權限。
 
-其中一項好處是，這可讓您管理公司內可存取不同類型資料的人員。例如，您可能有不同的行銷人員涵蓋不同的地域，而每個行銷人員只能存取其地域的資料。
+其中一項好處是，這可讓您管理公司內可存取不同類型資料的人員。 例如，您可能有不同的行銷人員涵蓋不同的地域，而每個行銷人員只能存取其地域的資料。
 
 同樣地，此功能也可讓您為每個使用者設定不同的功能，例如限制哪些人可以傳送傳遞，或是在與隱私權管理更相關的領域，限制哪些人員可以修改或匯出資料。
 

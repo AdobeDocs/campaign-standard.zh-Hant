@@ -6,8 +6,8 @@ role: User
 level: Beginner
 exl-id: 8c722084-988d-47bd-98ad-9f5a422980a0
 source-git-commit: e7c9c79a72b9f1ce36d0c60464b36be7d36a50a6
-workflow-type: tm+mt
-source-wordcount: '1248'
+workflow-type: ht
+source-wordcount: '1254'
 ht-degree: 100%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 100%
 ### 修正{#rn-fixes}
 
 * 修正排程報告在排程計時前一小時觸發的問題。 (CAMP-51502)
-* 修正「傳送」控制面板中傳送指標與「傳送記錄檔」(nms:broadLogRcp) 不符的問題。 (CAMP-51127)
+* 修復了「傳遞」控制面板中「傳遞」指標與「傳送記錄檔」(nms:broadLogRcp) 不符的問題。 (CAMP-51127)
 * 修正無法透過 ACS Connector (Prime Offering) 擴充自訂資源的問題。 (CAMP-51033)
 * 改善隱私權請求回應的發佈程式，以避免延遲。 (CAMP-50613)
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 
 **功能改進**
 
-* **Adobe Notification Service** - Adobe Notification Service 促銷活動，允許 Experience Cloud 解決方案提醒 Experience Cloud 的使用者注意對他們來說很重要的活動。從 22.2 版開始，改善使用者體驗：依照優先順序通知，產品產生的通知與 Adobe 狀態公告分開。 此外，當特定的工作流程通知時，您可以直接從電子郵件或產品通知存取對應的工作流程。  如需 Adobe Campaign 通知的詳細資訊，請參閱 [Adobe Campaign 通知](../../administration/using/sending-internal-notifications.md)。
+* **Adobe Notification Service** - Adobe Notification Service 促銷活動，允許 Experience Cloud 解決方案提醒 Experience Cloud 的使用者注意對他們來說很重要的活動。 從 22.2 版開始，改善使用者體驗：依照優先順序通知，產品產生的通知與 Adobe 狀態公告分開。 此外，當特定的工作流程通知時，您可以直接從電子郵件或產品通知存取對應的工作流程。  如需 Adobe Campaign 通知的詳細資訊，請參閱 [Adobe Campaign 通知](../../administration/using/sending-internal-notifications.md)。
 
 <!--
 * **Optimization in Workflow startup** - Adobe has added a new capability which can tune the number of workflows that start around the same time. This would help prevent CPU spikes that could have led to service interruptions or downtime. Adobe would enable it after 22.2 release. There is no further action item on customer regarding the same.
@@ -54,12 +54,12 @@ ht-degree: 100%
 **修補程式**
 
 * 已修復由於重複金鑰錯誤而造成的帳單技術工作流程問題。 (CAMP-51029)
-* 已在追蹤報告中新增缺少的 Microsoft Edge 瀏覽器類別。 之前是透過 Microsoft Chrome opens 進行分類的。(CAMP-51165)
+* 已在追蹤報告中新增缺少的 Microsoft Edge 瀏覽器類別。 之前是透過 Microsoft Chrome opens 進行分類的。 (CAMP-51165)
 * 針對 GDPR 的要求，修復未從子表格中刪除資料的問題。 (CAMP-48276)
 * 修復電子郵件設計工具的問題，其中會使異動訊息範本無法儲存片段的可見度狀況。 (CAMP-50338)
 * 已修復 Campaign 報告未考慮日期範圍的問題。 (CAMP-50991)
 * 已修復造成排程電子郵件失敗的錯誤：因傳遞仍處於「重試擱置」狀態而無法開始傳遞分析。 (CAMP-50302)
-* 針對當預覽包含設定檔替代的電子郵件時，修復電子郵件設計工具所發生的問題。(CAMP-49312)
+* 針對當預覽包含輪廓替代的電子郵件時，修復電子郵件設計工具所發生的問題。 (CAMP-49312)
 * 修復自訂分項清單的空值問題：當使用文字分項清單且只包含一個值的欄位建立自訂資源時，在預設情況下會設定此值，以便您可以在此欄位上簡單請求建立查詢。 (CAMP-50606)
 
 
@@ -84,7 +84,7 @@ ht-degree: 100%
 
 **安全性修正**
 
-* 此發行版本中包含用於追蹤的新 URL 簽章機制。 已停用先前的追蹤連結機制，以防止在第三方安全工具修改後，造成某些有效且已簽署的追蹤連結遭到錯誤封鎖的問題。(CAMP-48983)
+* 此發行版本中包含用於追蹤的新 URL 簽章機制。 已停用先前的追蹤連結機制，以防止在第三方安全工具修改後，造成某些有效且已簽署的追蹤連結遭到錯誤封鎖的問題。 (CAMP-48983)
 
 **功能改進**
 
@@ -99,7 +99,7 @@ ht-degree: 100%
 **修補程式**
 
 * 已修復動態報告中的&#x200B;**立即傳送報告**&#x200B;選項的問題：產生 PDF 作業失敗，因傳遞包括多個變體。 (CAMP-49120)
-* 已修復問題，該問題在 AEM 的重複內容共用相同金鑰時，阻止使用者重新整理 Adobe Campaign Standard 傳遞或取消連結 Adobe Experience Manager (AEM) 內容。 (CAMP-49161)
+* 修復了當 Adobe Experience Manager (AEM) 中的重複內容共用同一金鑰 (cq:uuid) 時，使用者無法從其 Adobe Campaign Standard 傳遞中重新整理或取消連結該 AEM 內容問題。(CAMP-49161)
 * 修復了存取頁面無法載入、無法開啟傳遞或無法儲存任何待修改內容的執行個體時出現問題。 (CAMP-50195)
 * 針對在未填入由標準套用的&#x200B;**傳遞篩選器**&#x200B;欄位時，修復阻止開啟傳遞提醒條件的問題。 (CAMP-49093)
 * 針對在編輯應用程式內傳遞的&#x200B;**次要**&#x200B;按鈕時，修復無法納入變更的問題。 (CAMP-50250)
@@ -115,4 +115,4 @@ ht-degree: 100%
 * 為了最佳化傳遞能力，在 Adobe Campaign 傳送電子郵件時現在使用 7 位元編碼而非 8 位元編碼。 此舉避免因中繼緣故使 DKIM 簽名失效，而可能影響訊息的真實性。 (CAMP-49016)
 * 為了避免當與大數量客群合作時出現任何問題，加強了複製客群時的效能。 (CAMP-49639)
 * 修復可能會阻止自訂篩選器在用於&#x200B;**查詢**&#x200B;活動時顯示正確結果的問題。 (CAMP-49417)
-* 針對在名稱中帶有逗號的情況下嘗試在傳遞中使用該片段時顯示錯誤訊息，修復了錯誤。問題已解決，現在可以在片段名稱中使用逗號。 (CAMP-49216)
+* 針對在名稱中帶有逗號的情況下嘗試在傳遞中使用該片段時顯示錯誤訊息，修復了錯誤。 問題已解決，現在可以在片段名稱中使用逗號。 (CAMP-49216)

@@ -9,11 +9,16 @@ role: User
 level: Intermediate
 exl-id: 64c3d3dd-0c41-4dbc-abcd-9ddea23759f4
 TQID: https://experienceleague.adobe.com/OyHSlh5OPs1dt0kA67RYrb4beKDelLNfWGK4iB0GP54
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: d5ef99fa-df0c-4153-bf94-105ad0724167
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 1835
@@ -165,7 +170,7 @@ ht-degree: 2%
 >abstract="片段指可重複使用的內容區塊，可在一封或多封電子郵件中參照。"
 
 片段是可重複使用的元件，可在一封或多封電子郵件中參考。
-它們可以在**資源** > **內容片段和範本**&#x200B;下的介面中找到。
+它們可以在&#x200B;**資源** > **內容片段和範本**&#x200B;下的介面中找到。
 
 若要在電子郵件Designer中善用片段：
 

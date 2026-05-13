@@ -9,11 +9,17 @@ role: Leader
 level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
 TQID: https://experienceleague.adobe.com/IZdWRhWkAwgvpZnanpAu6-taR723XFwOxvq3UTcyc-o
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 1208
@@ -113,9 +119,9 @@ P1會在第一天開啟電子郵件兩次，然後在第二天開啟樹狀結構
 ## 如何計算週期性/交易式傳送的計數？ {#counts-recurring-deliveries}
 
 處理循環和交易式傳送時，這些計數將同時歸因於父傳送和子傳送。
-我們以名為**R1**的週期性傳遞為例，設定為每天在第1天(RC1)、第2天(RC2)和第3天(RC3)執行。
-假設只有一個人員會多次開啟所有子傳送。 在此情況下，個別循環子傳遞會分別將**[!UICONTROL Open]**個計數顯示為1。
-但是，由於同一人按一下所有傳遞，因此父級循環傳遞也會將**[!UICONTROL Unique open]**&#x200B;設為1。
+我們以名為&#x200B;**R1**&#x200B;的週期性傳遞為例，設定為每天在第1天(RC1)、第2天(RC2)和第3天(RC3)執行。
+假設只有一個人員會多次開啟所有子傳送。 在此情況下，個別循環子傳遞會分別將&#x200B;**[!UICONTROL Open]**&#x200B;個計數顯示為1。
+但是，由於同一人按一下所有傳遞，因此父級循環傳遞也會將&#x200B;**[!UICONTROL Unique open]**&#x200B;設為1。
 
 報表應如下所示：
 

@@ -10,10 +10,15 @@ role: User
 level: Intermediate
 exl-id: 28b0cf6d-c1f1-4d55-b9bc-0d6bfb063471
 TQID: https://experienceleague.adobe.com/w2qeBwrGka2XfN76lvkL7fjdAErUcHdxNvF7Jb6KYIk
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 767
@@ -37,7 +42,7 @@ ht-degree: 9%
 
   **秘訣** — 若要避免此問題，請與團隊的其他成員協調傳送排程，以確保最佳效能。
 
-* [工作流程執行](../../automating/using/about-workflow-execution.md)：監視您的工作流程對於避免平台效能問題至關重要。 請遵循此頁面](../../automating/using/monitoring-workflow-execution.md)中列出的准則[。 在[工作流程最佳實務](../../automating/using/best-practices-workflows.md)區段中瞭解更多。
+* [工作流程執行](../../automating/using/about-workflow-execution.md)：監視您的工作流程對於避免平台效能問題至關重要。 請遵循此頁面[&#128279;](../../automating/using/monitoring-workflow-execution.md)中列出的准則。 在[工作流程最佳實務](../../automating/using/best-practices-workflows.md)區段中瞭解更多。
 
 * 您可以使用[效能監視](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=zh-Hant)功能，利用[Campaign控制面板功能](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=zh-Hant)來監視您的平台。
 

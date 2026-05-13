@@ -10,10 +10,14 @@ role: User
 level: Intermediate
 exl-id: ca134a7f-9035-4885-b4cb-1170b6ec10cc
 TQID: https://experienceleague.adobe.com/XHdVIRoy03LIXLHPLXexhNG2hg2JJYnwglQLUc6i2WU
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 824
@@ -101,4 +105,4 @@ ht-degree: 10%
 
 如需將品牌連結至範本的詳細資訊，請參閱[將品牌指派至電子郵件](../../administration/using/branding.md#assigning-a-brand-to-an-email)。
 
-在本節](../../administration/using/branding.md#creating-a-brand)中瞭解如何建立設定品牌[。
+在本節[&#128279;](../../administration/using/branding.md#creating-a-brand)中瞭解如何建立設定品牌。

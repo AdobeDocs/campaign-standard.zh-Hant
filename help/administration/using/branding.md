@@ -1,5 +1,5 @@
 ---
-title: 品牌
+title: 品牌化
 description: 探索可用於管理品牌識別的所有工具
 audience: administration
 context-tags: branding,overview;branding,main
@@ -7,34 +7,47 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+TQID: https://experienceleague.adobe.com/we4WG7qol0-EXX1i1YkwYTPdOeTUD7wZftO02X-B2ek
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2:
+  - id: b5852c32-876b-41ae-92a7-9f588865ae52
+  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1259'
+source-wordcount: 1310
 ht-degree: 73%
 
 ---
 
-# 品牌{#branding}
+# 品牌化{#branding}
 
 ## 關於品牌識別 {#about-brand-identity}
 
-每家公司都有品牌視覺化與技術準則。有了 Adobe Campaign，您可以定義一組規格，為客戶從標誌到技術層面呈現一致的品牌，例如電子郵件寄件者、URL 或網域。
+每家公司都有品牌視覺化與技術準則。 有了 Adobe Campaign，您可以定義一組規格，為客戶從標誌到技術層面呈現一致的品牌，例如電子郵件寄件者、URL 或網域。
 
-技術管理員可定義一或多個品牌，以集中輸入影響品牌識別的參數。這包括品牌標誌、登錄頁面存取 URL 之網域或訊息追蹤設定。有了 Adobe Campaign，您可以建立這些品牌，並將其連結至訊息或登錄頁面。此設定在範本中管理。
+技術管理員可定義一或多個品牌，以集中輸入影響品牌識別的參數。 這包括品牌標誌、登錄頁面存取 URL 之網域或訊息追蹤設定。 有了 Adobe Campaign，您可以建立這些品牌，並將其連結至訊息或登錄頁面。 此設定在範本中管理。
 
 ## 設定與使用品牌 {#configuring-and-using-brands}
 
 設定與使用品牌的主要原則為：
 
 1. 建立及設定品牌 — 此操作需要特定許可權，並由Adobe Campaign技術管理員執行。 在Campaign中取得新品牌的步驟已在本節[&#128279;](#creating-a-brand)中詳細說明。
-1. 為此品牌建立一或多個傳遞與登錄頁面範本。請參閱[建立範本](../../start/using/marketing-activity-templates.md)區段。
-1. 根據此範本建立訊息與登錄頁面。請參閱[建立電子郵件](../../channels/using/creating-an-email.md)及[建立登錄頁面](../../channels/using/designing-a-landing-page.md)區段。
+1. 為此品牌建立一或多個傳遞與登錄頁面範本。 請參閱[建立範本](../../start/using/marketing-activity-templates.md)區段。
+1. 根據此範本建立訊息與登錄頁面。 請參閱[建立電子郵件](../../channels/using/creating-an-email.md)及[建立登錄頁面](../../channels/using/designing-a-landing-page.md)區段。
 
 >[!IMPORTANT]
 >
->一般使用者不能建立或修改品牌：這些操作必須由 Adobe Campaign 技術管理員執行。如需任何請求，請與 Adobe 客戶服務聯繫。
+>一般使用者不能建立或修改品牌：這些操作必須由 Adobe Campaign 技術管理員執行。 如需任何請求，請與 Adobe 客戶服務聯繫。
 >
->無法在交易式訊息的內容中使用多品牌推廣。如需詳細資訊，請參閱[交易式訊息與品牌推廣](../../channels/using/transactional-messaging-limitations.md#permissions-and-branding)。
+>無法在交易式訊息的內容中使用多品牌推廣。 如需詳細資訊，請參閱[交易式訊息與品牌推廣](../../channels/using/transactional-messaging-limitations.md#permissions-and-branding)。
 
 可以在 **[!UICONTROL Administration > Instance settings > Brand configuration]** 功能表中找到品牌。
 
@@ -42,7 +55,7 @@ ht-degree: 73%
 
 **品牌**&#x200B;由以下特性所定義：
 
-* **身分識別**&#x200B;可以定義並個人化您的品牌。本章節包含以下欄位：
+* **身分識別**&#x200B;可以定義並個人化您的品牌。 本章節包含以下欄位：
 
   ![](assets/branding_01.png)
 
@@ -51,7 +64,7 @@ ht-degree: 73%
    * 品牌的&#x200B;**網站 URL** 與&#x200B;**網站標籤**
    * **品牌標誌**
 
-* **[!UICONTROL Header parameters of sent emails]** 可以個人化行銷活動的收件者所看到之內容。本章節包含以下欄位：
+* **[!UICONTROL Header parameters of sent emails]** 可以個人化行銷活動的收件者所看到之內容。 本章節包含以下欄位：
 
   ![](assets/branding_04_header.png)
 
@@ -65,7 +78,7 @@ ht-degree: 73%
   >
   >更新電子郵件的標題參數後，如果在範本建立的電子郵件中寄件者的姓名與電子郵件地址未更改時，請檢查範本的進階設定。
 
-* **網際網路上公開的伺服器** 定義用於追蹤及登錄頁面存取的伺服器。本章節包含以下欄位：
+* **網際網路上公開的伺服器** 定義用於追蹤及登錄頁面存取的伺服器。 本章節包含以下欄位：
 
   ![](assets/configure_branding_04.png)
 
@@ -75,7 +88,7 @@ ht-degree: 73%
 
   >[!NOTE]
   >
-  >若要在 Campaign 使用者介面中顯示登入頁面預覽與鏡像頁面呈現，應用程式伺服器和鏡像頁面伺服器 URL 必須是安全的。在此情況下，在設定這些 URL 時，請使用 https://，而不是 http://。
+  >若要在 Campaign 使用者介面中顯示登入頁面預覽與鏡像頁面呈現，應用程式伺服器和鏡像頁面伺服器 URL 必須是安全的。 在此情況下，在設定這些 URL 時，請使用 https://，而不是 http://。
 
 * **[!UICONTROL Tracking URL configuration (Web Analytics)]**，定義您品牌的 URL 追蹤的設定。
 
@@ -87,7 +100,7 @@ ht-degree: 73%
 
 您可以在Campaign中新增組織的實體，或建立必須在其他子網域下傳送的新電子郵件型別。 若要執行此作業，請依照下列步驟操作：
 
-1. **設定新的子網域** — 對於Adobe要使用的任何新子網域，第一步是進行設定。 您可以透過[Campaign控制面板](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=zh-Hant)執行此動作，或連絡您的Adobe技術連絡人。 在本文[&#128279;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup.html?lang=zh-Hant)中進一步瞭解子網域設定。
+1. **設定新的子網域** — 對於Adobe要使用的任何新子網域，第一步是進行設定。 您可以透過[Campaign控制面板](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=zh-Hant)執行此工作，或連絡您的Adobe技術連絡人。 在本文[&#128279;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup.html?lang=zh-Hant)中進一步瞭解子網域設定。
 
    >[!NOTE]
    >
@@ -103,21 +116,21 @@ ht-degree: 73%
 
    * 生產URL： XXX.campaign.adobe.com
 
-1. **建立傳遞範本** — 新品牌可用後，最佳實務是建立至少一個參考此新品牌的新空白傳遞範本。 [了解更多](#linking-a-brand-to-a-template)。
+1. **建立傳遞範本** — 新品牌可用後，最佳實務是建立至少一個參考此新品牌的新空白傳遞範本。 [了解更多資訊](#linking-a-brand-to-a-template)。
 
-1. **檢查傳遞能力准則** — 開始使用新網域之前，應與Adobe傳遞團隊討論策略。 例如，若應建立新的相似性來分割IP至不同網域，和/或若應定義提升計畫，這些規則將有助於定義最佳實務。 在本節[&#128279;](../../sending/using/about-deliverability.md)中進一步瞭解傳遞能力最佳實務。
+1. **檢查傳遞能力准則** — 在開始使用新網域之前，應與Adobe傳遞團隊討論該策略。 例如，若應建立新的相似性來分割IP至不同網域，和/或若應定義提升計畫，這些規則將有助於定義最佳實務。 在本節[&#128279;](../../sending/using/about-deliverability.md)中進一步瞭解傳遞能力最佳實務。
 
 ## 為電子郵件指派品牌 {#assigning-a-brand-to-an-email}
 
 ### 將品牌連結至範本 {#linking-a-brand-to-a-template}
 
-必須將其連結至傳遞範本或登錄頁面範本，才能使用為品牌定義的參數。您必須建立或編輯範本，才能執行此操作。
+必須將其連結至傳遞範本或登錄頁面範本，才能使用為品牌定義的參數。 您必須建立或編輯範本，才能執行此操作。
 
 >[!NOTE]
 >
 >如需建立範本的詳細資訊，請參閱「[建立範本](../../start/using/marketing-activity-templates.md)」一節。
 
-建立範本後，您就可以將其連結至品牌。操作步驟：
+建立範本後，您就可以將其連結至品牌。 操作步驟：
 
 1. 按一下 **[!UICONTROL Edit properties]** 按鈕以存取範本屬性。
 
@@ -137,7 +150,7 @@ ht-degree: 73%
 
 1. 確認您所選的項目並儲存範本。
 
-您的範本已連結至品牌。在電子郵件編輯工具中，「 **預設寄件者的電子郵件地址**」、「 **預設寄件者名稱**」或「 **Logo** 」等元素將使用已設定的品牌資料。
+您的範本已連結至品牌。 在電子郵件編輯工具中，「 **預設寄件者的電子郵件地址**」、「 **預設寄件者名稱**」或「 **Logo** 」等元素將使用已設定的品牌資料。
 
 ### 品牌推廣使用案例 {#branding-use-case}
 
@@ -155,15 +168,15 @@ ht-degree: 73%
 
 1. 然後，管理員會設定&#x200B;**在網際網路上公開之伺服器的 URL**，以便使用登錄頁面，並接著使用追蹤 URL。
 
-   在此範例中，使用的 **Web Analytics** 工具是 **Google Analytics**。管理員會依以下方式設定追蹤 URL：
+   在此範例中，使用的 **Web Analytics** 工具是 **Google Analytics**。 管理員會依以下方式設定追蹤 URL：
 
    ![](assets/branding_12.png)
 
-已正確建立與設定該品牌。行銷團隊現在可以使用它了。
+已正確建立與設定該品牌。 行銷團隊現在可以使用它了。
 
 #### 步驟2：實作新品牌 {#implement-a-new-brand}
 
-身為傳遞經理，您負責使用新品牌建立傳遞範本。請遵循以下步驟完成此項目：
+身為傳遞經理，您負責使用新品牌建立傳遞範本。 請遵循以下步驟完成此項目：
 
 1. 在進階功能表 **[!UICONTROL Resources > Templates > Delivery templates]** 中，複製內建範本以設定新的傳遞範本。
 
@@ -192,6 +205,6 @@ ht-degree: 73%
 
    ![](assets/branding_15.png)
 
-1. 您的電子郵件已設定好。您可以先檢查資訊，再使用測試輪廓進行測試，然後將其傳送給您的客群。
+1. 您的電子郵件已設定好。 您可以先檢查資訊，再使用測試輪廓進行測試，然後將其傳送給您的客群。
 
    ![](assets/branding_16.png)

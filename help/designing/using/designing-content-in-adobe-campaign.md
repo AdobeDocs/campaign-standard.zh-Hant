@@ -8,10 +8,23 @@ feature: Email Design
 role: User
 level: Beginner
 exl-id: 85d6361b-6c27-42c0-bac4-774b71625bf8
-source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
+TQID: https://experienceleague.adobe.com/vMtypGa523dBe7gAb-czQgSM9SEyMyd-ayg0SYjKj2E
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: b631758a-142d-425f-b9aa-f756d85cb979
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1239'
-ht-degree: 84%
+source-wordcount: 1263
+ht-degree: 83%
 
 ---
 
@@ -22,9 +35,9 @@ ht-degree: 84%
 電子郵件Designer可讓您透過拖放方式來建立吸引人、個人訂做的電子郵件
 介面。 不論您是從空白顯示窗開始，或是運用現有的內容片段或範本，針對每封電子郵件（不論是促銷或異動）設計和調整所有內容。
 
-電子郵件設計工具是專為提供最佳化的 HTML 以進行回應式式計而建置，可讓您透過使用者介面，輕鬆定義並套用可見性條件和動態內容至電子郵件、範本或片段。只要按一下按鈕，您就可以在拖放介面與HTML程式碼之間無縫切換。
+電子郵件設計工具是專為提供最佳化的 HTML 以進行回應式式計而建置，可讓您透過使用者介面，輕鬆定義並套用可見性條件和動態內容至電子郵件、範本或片段。 只要按一下按鈕，您就能順暢地在拖放介面和HTML程式碼之間切換。
 
-電子郵件設計工具可以讓您建立電子郵件內容和電子郵件內容範本。它可與簡單電子郵件、異動電子郵件、A/B 測試電子郵件、多語言電子郵件和循環電子郵件相容。
+電子郵件設計工具可以讓您建立電子郵件內容和電子郵件內容範本。 它可與簡單電子郵件、異動電子郵件、A/B 測試電子郵件、多語言電子郵件和循環電子郵件相容。
 
 <!--The Email Designer has more features than the Legacy Editor and is backward compatible.-->
 
@@ -38,13 +51,13 @@ ht-degree: 84%
    * 使用 Creative Cloud 整合，請參閱「[多解決方案電子郵件設計](../../designing/using/using-integrations.md)」。
 * 如需個人化的詳細資訊，請參閱「[個人化](../../designing/using/personalization.md)」。
 
-建立電子郵件時，您可以選擇使用預先定義的範本，或從其他來源載入現有內容。請參閱「[選擇現有內容](../../designing/using/using-existing-content.md#selecting-an-existing-content)」。
+建立電子郵件時，您可以選擇使用預先定義的範本，或從其他來源載入現有內容。 請參閱「[選擇現有內容](../../designing/using/using-existing-content.md#selecting-an-existing-content)」。
 
-若要提高行銷活動的效率，請個人化您的內容。請參閱「[插入個人化欄位](../../designing/using/personalization.md#inserting-a-personalization-field)」和「[新增內容區塊](../../designing/using/personalization.md#adding-a-content-block)」。
+若要提高行銷活動的效率，請個人化您的內容。 請參閱「[插入個人化欄位](../../designing/using/personalization.md#inserting-a-personalization-field)」和「[新增內容區塊](../../designing/using/personalization.md#adding-a-content-block)」。
 
-您也可以定義根據每個設定檔而異的動態內容。請參閱「[定義電子郵件中的動態內容](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)」，和「[定義登陸頁面中的動態內容](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)」。
+您也可以定義根據每個輪廓而異的動態內容。 請參閱「[定義電子郵件中的動態內容](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)」，和「[定義登陸頁面中的動態內容](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)」。
 
-使用連結和影像增強您的訊息和登陸頁面。請參閱「[插入連結](../../designing/using/links.md#inserting-a-link)」和「[插入影像](../../designing/using/images.md#inserting-images)」。
+使用連結和影像增強您的訊息和登陸頁面。 請參閱「[插入連結](../../designing/using/links.md#inserting-a-link)」和「[插入影像](../../designing/using/images.md#inserting-images)」。
 
 ## 透過電子郵件傳送Designer介面 {#email-designer-interface}
 
@@ -54,7 +67,7 @@ ht-degree: 84%
 
 ![](assets/email_designer_overview.png)
 
-從&#x200B;**浮動視窗** (1) 中可用的元素，將結構元件和內容片段拖放至主&#x200B;**工作區** (2)。在&#x200B;**工作區** (2) 中選取元件或元素，並從&#x200B;**設定**&#x200B;窗格 (3) 自訂其主樣式和顯示特性。
+從&#x200B;**浮動視窗** (1) 中可用的元素，將結構元件和內容片段拖放至主&#x200B;**工作區** (2)。 在&#x200B;**工作區** (2) 中選取元件或元素，並從&#x200B;**設定**&#x200B;窗格 (3) 自訂其主樣式和顯示特性。
 
 從主&#x200B;**工具列** (4) 存取較一般的選項和設定。
 
@@ -64,7 +77,7 @@ ht-degree: 84%
 
 ![](assets/email_designer_toolbar.png)
 
-編輯器介面的&#x200B;**上下文工具列**&#x200B;根據所選區域提供各種功能。其包含可讓您變更文字樣式的動作按鈕和按鈕。所進行的修改始終適用於選取的區域。
+編輯器介面的&#x200B;**上下文工具列**&#x200B;根據所選區域提供各種功能。 其包含可讓您變更文字樣式的動作按鈕和按鈕。 所進行的修改始終適用於選取的區域。
 
 ### 傳送電子郵件至Designer首頁 {#email-designer-home-page}
 
@@ -72,11 +85,11 @@ ht-degree: 84%
 
 ![](assets/email_designer_home_page.png)
 
-此 **[!UICONTROL Properties]** 索引標籤可讓您編輯電子郵件的詳細資訊，例如，標籤、寄件者的地址和名稱，或電子郵件主旨。您也可以按一下螢幕上方的電子郵件標籤，以存取此索引標籤。
+此 **[!UICONTROL Properties]** 索引標籤可讓您編輯電子郵件的詳細資訊，例如，標籤、寄件者的地址和名稱，或電子郵件主旨。 您也可以按一下螢幕上方的電子郵件標籤，以存取此索引標籤。
 
 ![](assets/email_designer_home_properties.png)
 
-此 **[!UICONTROL Templates]** 索引標籤可讓您從現成可用的 HTML 內容或您已建立的範本中選擇，以快速開始設計電子郵件。請參閱「[內容範本](../../designing/using/using-reusable-content.md#content-templates)」。
+此 **[!UICONTROL Templates]** 索引標籤可讓您從現成可用的 HTML 內容或您已建立的範本中選擇，以快速開始設計電子郵件。 請參閱「[內容範本](../../designing/using/using-reusable-content.md#content-templates)」。
 
 ![](assets/email_designer_home_templates.png)
 
@@ -86,9 +99,9 @@ ht-degree: 84%
 
 如果您未選擇範本，電子郵件設計工具首頁還可以讓您選擇開始設計內容的方式：
 
-* 按一下 **[!UICONTROL Create]** 按鈕，從草稿開始新內容。請參閱「[從草稿設計電子郵件內容](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)」。
-* 按一下此 **[!UICONTROL Upload]** 按鈕，從您的電腦上傳檔案。請參閱「[從檔案匯入內容](../../designing/using/using-existing-content.md#importing-content-from-a-file)」。
-* 按一下此 **[!UICONTROL Import from URL]** 按 鈕，從 URL 擷取現有內容。請參閱「[從 URL 匯入內容](../../designing/using/using-existing-content.md#importing-content-from-a-url)」。
+* 按一下 **[!UICONTROL Create]** 按鈕，從草稿開始新內容。 請參閱「[從草稿設計電子郵件內容](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)」。
+* 按一下此 **[!UICONTROL Upload]** 按鈕，從您的電腦上傳檔案。 請參閱「[從檔案匯入內容](../../designing/using/using-existing-content.md#importing-content-from-a-file)」。
+* 按一下此 **[!UICONTROL Import from URL]** 按 鈕，從 URL 擷取現有內容。 請參閱「[從 URL 匯入內容](../../designing/using/using-existing-content.md#importing-content-from-a-url)」。
 
 ## 術語 {#terminology}
 
@@ -104,11 +117,11 @@ ht-degree: 84%
 
 若要正確使用電子郵件設計工具並盡可能輕鬆地建立最佳電子郵件，建議您套用下列原則：
 
-* 在 HTML 的 &lt;head> 區段中使用內嵌樣式，而不是個別的 CSS 和 CSS。透過使用內嵌樣式，您就可以最佳化內容片段的儲存和重複使用。
+* 在 HTML 的 &lt;head> 區段中使用內嵌樣式，而不是個別的 CSS 和 CSS。 透過使用內嵌樣式，您就可以最佳化內容片段的儲存和重複使用。
 
   請參閱「[新增內嵌樣式屬性](../../designing/using/styles.md#adding-inline-styling-attributes)」。
 
-* 如果您匯入包含 HTML 內容的 ZIP 檔案，請使用一般的 CSS。不支援 SCSS 樣式表。
+* 如果您匯入包含 HTML 內容的 ZIP 檔案，請使用一般的 CSS。 不支援 SCSS 樣式表。
 
 * 透過建立和重複使用內容片段，讓行銷活動保持一致性，輕鬆解決您的品牌化。
 
@@ -116,7 +129,7 @@ ht-degree: 84%
 
 * 編輯&#x200B;**電子郵件內容**&#x200B;時：
 
-  在傳送訊息之前先預覽訊息。Adobe Campaign 提供了使用 Litmus 測試電子郵件轉譯的方法。如需詳細資訊，請參閱「[電子郵件轉譯](../../sending/using/email-rendering.md)」。
+  在傳送訊息之前先預覽訊息。 Adobe Campaign 提供了使用 Litmus 測試電子郵件轉譯的方法。 如需詳細資訊，請參閱「[電子郵件轉譯](../../sending/using/email-rendering.md)」。
 
 * 電子郵件設計工具不支援反向連結中繼標籤。
 
@@ -124,11 +137,11 @@ ht-degree: 84%
 
 ### 更新片段 {#email-designer-updates}
 
-電子郵件設計工具正在不斷改進。如果您從草稿開始、從現成可用的範本建立電子郵件內容，或者如果您建立了片段，在您下次開啟內容時可能會收到下列更新訊息：
+電子郵件設計工具正在不斷改進。 如果您從草稿開始、從現成可用的範本建立電子郵件內容，或者如果您建立了片段，在您下次開啟內容時可能會收到下列更新訊息：
 
 ![](assets/email_designer_fragment_patch_message.png)
 
-Adobe 建議將您的內容更新至最新版本，以避免發生 CSS 衝突等問題。按一下 **[!UICONTROL Update now]**。
+Adobe 建議將您的內容更新至最新版本，以避免發生 CSS 衝突等問題。 按一下 **[!UICONTROL Update now]**。
 
 如果內容更新期間發生錯誤，請檢查 HTML 並修正它，然後再次執行此更新。
 
@@ -146,12 +159,12 @@ Adobe 建議將您的內容更新至最新版本，以避免發生 CSS 衝突等
 
 ## 電子郵件Designer限制 {#email-designer-limitations}
 
-* 您無法在片段中使用個人化欄位。如需片段的詳細資訊，請參閱[本區段](../../designing/using/using-reusable-content.md#about-fragments)。
+* 您無法在片段中使用個人化欄位。 如需片段的詳細資訊，請參閱[本區段](../../designing/using/using-reusable-content.md#about-fragments)。
 
 <!--* You cannot save directly as a fragment some content of an email that you are editing within the Email Designer. You need to copy-paste the HTML corresponding to that content into a new fragment. For more on this, see [Saving content as a fragment](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).-->
 
 * 在編輯樣式時，僅大多數電子郵件用戶端正式支援的網頁字型才有提供。
-* 樣式無法儲存為主題，以供日後重複使用。不過，CSS 樣式可以儲存在內容範本或電子郵件中。如需樣式的詳細資訊，請參閱[本區段](../../designing/using/styles.md)。
+* 樣式無法儲存為主題，以供日後重複使用。 不過，CSS 樣式可以儲存在內容範本或電子郵件中。 如需樣式的詳細資訊，請參閱[本區段](../../designing/using/styles.md)。
 * 電子郵件設計工具不支援反向連結中繼標籤。
 * 替代字元組（未包含在Unicode字元集的基本多語言平面中的字元）無法以2位元組（16位元）儲存，且需要編碼成2個UTF-16字元。 這些字元包括一些CJK表意文字、大多數表情符號和一些語言。<br>這些字元可能會在動態文字中造成某些不相容問題。 傳送訊息前，您必須執行強大的測試。
 

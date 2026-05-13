@@ -8,9 +8,18 @@ feature: Email
 role: User
 level: Intermediate
 exl-id: fcf192cb-f2d5-4340-bc2f-add0c195ad4e
-source-git-commit: d234d7fab039b602eff06c03ba0d8f7ce2a0cf3f
+TQID: https://experienceleague.adobe.com/dz14KptzZtyP8Oo-RaYvZKP5D3L4akcJJmY2f-p1nuE
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: 279
 ht-degree: 24%
 
 ---
@@ -27,7 +36,7 @@ ht-degree: 24%
 
    ![](assets/multi_create1.png)
 
-1. 定義電子郵件的一般屬性與目標客群，就像標準電子郵件一樣。請參閱[建立客群](../../audiences/using/creating-audiences.md)區段。
+1. 定義電子郵件的一般屬性與目標客群，就像標準電子郵件一樣。 請參閱[建立客群](../../audiences/using/creating-audiences.md)區段。
 
 1. 在建立精靈的第四步，定義變體選項。 如果[多語言範本](../../channels/using/multilingual-messages-template.md)已包含所有正確的引數，您可以直接按一下&#x200B;**[!UICONTROL Create]**&#x200B;按鈕。
 
@@ -36,7 +45,7 @@ ht-degree: 24%
    如有需要，請使用&#x200B;**[!UICONTROL Add an element]**&#x200B;按鈕新增變體。 不得刪除&#x200B;**[!UICONTROL Default]**&#x200B;變體。 設定為&#x200B;**[!UICONTROL default]**&#x200B;時，會使用[設定檔的慣用語言](../../audiences/using/creating-profiles.md)來選擇變體。 您也可以將&#x200B;**[!UICONTROL Default]**&#x200B;變體設定為任何其他語言。
 
 1. 確認電子郵件建立：接著會顯示電子郵件控制面板。
-1. 定義每個變體的電子郵件內容。 根據您所選取的範本，您可以定義多個主旨、數個寄件者名稱或數個不同內容。使用下拉式功能表，在元素的不同變體之間導覽。 如需詳細資訊，請參閱[內容編輯器](../../designing/using/designing-content-in-adobe-campaign.md)區段。
+1. 定義每個變體的電子郵件內容。 根據您所選取的範本，您可以定義多個主旨、數個寄件者名稱或數個不同內容。 使用下拉式功能表，在元素的不同變體之間導覽。 如需詳細資訊，請參閱[內容編輯器](../../designing/using/designing-content-in-adobe-campaign.md)區段。
 
    ![](assets/multi_selectcontent.png)
 

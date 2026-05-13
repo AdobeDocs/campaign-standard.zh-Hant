@@ -10,9 +10,20 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: d362563f-5ab3-4f7f-ae9f-a42b6f0bb2b9
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/ad9kmTbPPHVESELYoejgAaUcSy-JgBL00xW7OMW2NUo
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: 473
 ht-degree: 97%
 
 ---
@@ -27,7 +38,7 @@ ht-degree: 97%
 
 ## 使用內容 {#context-of-use}
 
-匯入檔案之後，可使用&#x200B;**更新資料**&#x200B;活動，以便將已復原的資料插入 Adobe Campaign 資料庫。數個選項可讓您個人化更新資料。
+匯入檔案之後，可使用&#x200B;**更新資料**&#x200B;活動，以便將已復原的資料插入 Adobe Campaign 資料庫。 數個選項可讓您個人化更新資料。
 
 **相關主題：**
 
@@ -41,7 +52,7 @@ ht-degree: 97%
 1. 指定要執行的 **[!UICONTROL Operation type]**：
 
    * **[!UICONTROL Insert or update]**：插入資料或更新資料（如果記錄已存在於資料庫中）。
-   * **[!UICONTROL Insert only]**：僅插入資料。不更新已存在的記錄。如果已定義調和標準，則僅會新增未調和的記錄。
+   * **[!UICONTROL Insert only]**：僅插入資料。 不更新已存在的記錄。 如果已定義調和標準，則僅會新增未調和的記錄。
 
      如果匯入的資料包含資料庫中已存在的特定記錄，請核取此 **[!UICONTROL Generate an outbound transition for rejects]** 方塊，以避免任何可能的錯誤。
 
@@ -54,20 +65,20 @@ ht-degree: 97%
 
 1. 在 **[!UICONTROL Identification]** 索引標籤中，指定如何識別資料庫中的記錄：
 
-   * **[!UICONTROL Using the targeting dimension]**：選取 **[!UICONTROL Dimension to update]**，然後指定 **[!UICONTROL Keys for finding records]**。如需詳細資訊，請參閱[定位維度和資源](../../automating/using/query.md#targeting-dimensions-and-resources)。
-   * 如果輸入的資料符合現有的定位維度，請選取 **[!UICONTROL Using one or more links]** 選項。然後選取 **[!UICONTROL Dimension to update]**。
+   * **[!UICONTROL Using the targeting dimension]**：選取 **[!UICONTROL Dimension to update]**，然後指定 **[!UICONTROL Keys for finding records]**。 如需詳細資訊，請參閱[定位維度和資源](../../automating/using/query.md#targeting-dimensions-and-resources)。
+   * 如果輸入的資料符合現有的定位維度，請選取 **[!UICONTROL Using one or more links]** 選項。 然後選取 **[!UICONTROL Dimension to update]**。
 
    如果所選取的作業類型需要更新，則必須使用調解金鑰。
 
-1. 在&#x200B;**[!UICONTROL Fields to update]** 索引標籤中，指定要套用更新的欄位，並視需要新增條件，以執行此更新。要執行此操作，請使用 **[!UICONTROL Taken into account if]** 欄。條件會依清單順序逐一套用。使用右邊的箭頭以變更更新順序。您可以多次使用相同的目的地欄位。
+1. 在&#x200B;**[!UICONTROL Fields to update]** 索引標籤中，指定要套用更新的欄位，並視需要新增條件，以執行此更新。 要執行此操作，請使用 **[!UICONTROL Taken into account if]** 欄。 條件會依清單順序逐一套用。 使用右邊的箭頭以變更更新順序。 您可以多次使用相同的目的地欄位。
 
-   您可以使用 ![](assets/wkf_magic_wand-24px.png) 按鈕自動連結欄位。自動連結會偵測具有相同名稱的欄位。
+   您可以使用 ![](assets/wkf_magic_wand-24px.png) 按鈕自動連結欄位。 自動連結會偵測具有相同名稱的欄位。
 
-   在 **[!UICONTROL Insert or update]** 類型作業期間，您可以個別選取要對每個欄位套用的作業。要執行此操作，請在 **[!UICONTROL Operation]** 欄中選取您需要的值。
+   在 **[!UICONTROL Insert or update]** 類型作業期間，您可以個別選取要對每個欄位套用的作業。 要執行此操作，請在 **[!UICONTROL Operation]** 欄中選取您需要的值。
 
    >[!NOTE]
    >
-   >**管理更新**：在執行更新資料活動時，除非在欄位更新表格上明確執行其設定，否則會自動更新 **[!UICONTROL lastModified]**、**[!UICONTROL modifiedBy]**、**[!UICONTROL created]**、**[!UICONTROL createdBy]**。只會對至少偵測到一個差異的記錄執行更新。如果值相同，則不會執行更新。
+   >**管理更新**：在執行更新資料活動時，除非在欄位更新表格上明確執行其設定，否則會自動更新 **[!UICONTROL lastModified]**、**[!UICONTROL modifiedBy]**、**[!UICONTROL created]**、**[!UICONTROL createdBy]**。 只會對至少偵測到一個差異的記錄執行更新。 如果值相同，則不會執行更新。
 
 1. 如有需要，請管理活動的[轉變](../../automating/using/activity-properties.md)，以存取輸出群體的進階選項。
 

@@ -1,6 +1,6 @@
 ---
 title: 多語言訊息範本
-description: 瞭解如何根據自動細分客戶偏好的語言，透過單一傳送來定義並執行多語言電子郵件/簡訊傳送。報告每次傳送的效能，包括語言和個別層級。
+description: 瞭解如何根據自動細分客戶偏好的語言，透過單一傳送來定義並執行多語言電子郵件/簡訊傳送。 報告每次傳送的效能，包括語言和個別層級。
 audience: start
 content-type: reference
 topic-tags: managing-templates
@@ -8,20 +8,27 @@ feature: Multilingual Messages
 role: User
 level: Intermediate
 exl-id: 3d869f31-7dfb-4546-aba5-80a2787e00be
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/TsDW-1w3j0-CvsR0R0V-KnUOc4VahG7iCg46bgCyBJ0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: 295
 ht-degree: 100%
 
 ---
 
 # 多語言訊息範本 {#multilingual-messages-template}
 
-多語言範本是管理多語言訊息的特定範本。此類範本適用於&#x200B;**電子郵件**&#x200B;及&#x200B;**簡訊**，並可在獨立模式、工作流程或循環傳送中使用。
+多語言範本是管理多語言訊息的特定範本。 此類範本適用於&#x200B;**電子郵件**&#x200B;及&#x200B;**簡訊**，並可在獨立模式、工作流程或循環傳送中使用。
 
-在多語言功能範本中，語言管理是以變體為基礎。**每個變體代表一種語言**。Adobe Campaign Standard 最多可設定 40 種變體。
+在多語言功能範本中，語言管理是以變體為基礎。 **每個變體代表一種語言**。 Adobe Campaign Standard 最多可設定 40 種變體。
 
-Adobe Campaign 隨附設為 **EN** 的預設語言。預設語言可變更為其他變體，但絕對不應將之刪除。
+Adobe Campaign 隨附設為 **EN** 的預設語言。 預設語言可變更為其他變體，但絕對不應將之刪除。
 
 在建立範本期間，您可以在訊息中新增與所需語言數目相對應的變體數目。
 
@@ -37,17 +44,17 @@ Adobe Campaign 隨附設為 **EN** 的預設語言。預設語言可變更為其
 
 1. 修改屬性以自訂標籤、追蹤等。
 
-1. 按一下變體動態磚，以修改所需變體的數目。變體視窗隨即顯示將
+1. 按一下變體動態磚，以修改所需變體的數目。 變體視窗隨即顯示將
 
    ![](assets/multi_template_variants.png)
 
-   您可以新增或移除變體。若要新增變體，請完成 **[!UICONTROL New content variant]** 視窗。
+   您可以新增或移除變體。 若要新增變體，請完成 **[!UICONTROL New content variant]** 視窗。
 
    ![](assets/multi_template_newvariant.png)
 
    >[!NOTE]
    >
-   >請勿刪除「預設」變體，因為它是傳送至設定檔的變體，而且沒有完整的偏好語言參數。
+   >請勿刪除「預設」變體，因為它是傳送至輪廓的變體，而且沒有完整的偏好語言參數。
 
 1. 視需要自訂標籤變體，然後按一下 **[!UICONTROL Confirm]**。
 
@@ -58,4 +65,4 @@ Adobe Campaign 隨附設為 **EN** 的預設語言。預設語言可變更為其
 **相關主題：**
 
 * [建立多語言電子郵件](../../channels/using/creating-a-multilingual-email.md)
-* [建立設定檔](../../audiences/using/creating-profiles.md)
+* [建立輪廓](../../audiences/using/creating-profiles.md)

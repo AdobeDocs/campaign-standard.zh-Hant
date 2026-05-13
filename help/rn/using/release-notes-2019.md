@@ -5,10 +5,30 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
-source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
+TQID: https://experienceleague.adobe.com/Os1EM221DXk1yVqd-md5iTlvK623LzFiqg5Ag7N2tTw
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+subfeature_v2:
+  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '7673'
-ht-degree: 8%
+source-wordcount: 7892
+ht-degree: 10%
 
 ---
 
@@ -30,7 +50,7 @@ ht-degree: 8%
    <p>除了Adobe Campaign中已提供的隱私權功能（包括同意管理、資料保留設定和使用者角色）之外，我們還將利用此機會加入其他功能，以協助您為CCPA做好準備：</p>
    <ul>
     <li>存取權與刪除權：我們妥善運用針對GDPR新增的功能。 <a href="https://helpx.adobe.com/content/help/tw/campaign/kb/acs-privacy.html#righttoaccess">了解更多</a> </li>
-    <li><p>建立隱私權要求時，隱私權核心服務已新增規則型別（GDPR或CCPA）。 此方法是您應該用於所有存取和刪除請求的方法。不建議使用促銷活動 API 和介面來存取和刪除請求。請參閱「<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=zh-Hant#release-notes">已過時和已移除的功能</a>」文章。</p></li>
+    <li><p>建立隱私權要求時，隱私權核心服務已新增規則型別（GDPR或CCPA）。 此方法是您應該用於所有存取和刪除請求的方法。 不建議使用促銷活動 API 和介面來存取和刪除請求。  請參閱「<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=zh-Hant#release-notes">已過時和已移除的功能</a>」文章。</p></li>
     <li>設定檔資源已新增<strong>CCPA選擇退出</strong>欄位，以允許Adobe Campaign使用者追蹤消費者是否已選擇退出個人資訊銷售。 <a href="https://helpx.adobe.com/tw/campaign/kb/acs-privacy.html#ccpa">了解更多資訊</a>。</li>
   </ul>
     <p>請參閱<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html?lang=zh-Hant">作法影片</a>。</p>
@@ -209,7 +229,7 @@ ht-degree: 8%
 **其他變更**
 
 * 在傳遞屬性介面中新增警告。 它會指定傳遞根據其彙總期間進行準備，並解凍以每天多次呼叫工作流程，您應確保他們沒有任何期間。 (CAMP-34393)
-* 已在自訂資源設定畫面中新增警告。 我們建議對自訂資源 ID 使用最多 30 個字元。這也適用於自訂資源欄位、索引和連結。
+* 已在自訂資源設定畫面中新增警告。 我們建議對自訂資源 ID 使用最多 30 個字元。 這也適用於自訂資源欄位、索引和連結。
 * 嘗試刪除登入頁面用作確認訊息的交易式訊息時，現在會顯示訊息。
 * 當活動執行超過6小時時，工作流程記錄中現在會出現警告。 這不適用於推播通知、傳送、訊號、開始、結束、分支、 AND-joint、排程和等待活動。
 * 當您達到同時執行的工作流程數量上限時，工作流程記錄中現在會出現警告。
@@ -359,14 +379,14 @@ ht-degree: 8%
 * 已從動態報告中移除郵遞區號維度。 我們建議改用城市、國家/地區、州別維度。
 * 應用程式內訊息的「首次啟動」生命週期事件觸發器已移除。
 * 匯出具有安全性群組的套件時，它現在會包含指派給每個群組的角色。 (CAMP-32960)
-* 在「載入檔案」活動中，新選項可讓您檢查要上傳的檔案的列是否與列定義相符。 如需詳細資訊，請參閱[詳細檔案](../../automating/using/load-file.md)。 (CAMP-32229)
-* 工作流程現在可以使用裝載啟動，讓您在工作流程內的活動之間使用和共用外部引數。 如需詳細資訊，請參閱[詳細檔案](../../automating/using/calling-a-workflow-with-external-parameters.md)。 （CAMP-29412和CAMP-29413）
+* 在「載入檔案」活動中，新選項可讓您檢查要上傳的檔案的列是否與列定義相符。 如需詳細資訊，請參閱[詳細文件](../../automating/using/load-file.md)。 (CAMP-32229)
+* 工作流程現在可以使用裝載啟動，讓您在工作流程內的活動之間使用和共用外部引數。 如需詳細資訊，請參閱[詳細文件](../../automating/using/calling-a-workflow-with-external-parameters.md)。 （CAMP-29412和CAMP-29413）
 * Campaign Standard API現在可讓您使用裝載更新設定檔的地理和組織單位。 如需詳細資訊，請參閱[詳細說明文件](../../api/using/get-started-apis.md)。
 * 無法存取資料庫中的物件時的錯誤訊息已更清楚瞭解。
 * 在擷取檔案活動中，定義要匯出的檔案名稱時，已更新Javascript功能。 現在只有formatDate函式可用於「輸出」欄位。 如需詳細資訊，請參閱[詳細說明文件](../../automating/using/extract-file.md)。
 * 自訂資源的自動序列ID產生功能已有所改善。 新自訂資源的主鍵現在預設為64位元。
 * 已改善自訂資源發佈測試模式。 如果上次自訂資源發佈失敗且未修正，現在會向使用者顯示警告訊息。 自訂資源發佈失敗後，您可以復原到上一個工作版本。 如需詳細資訊，請參閱[詳細說明文件](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)。
-* 已在傳輸檔案活動中新增選項。 它可讓您在使用SFTP模式的檔案下載動作時排序檔案。 如需詳細資訊，請參閱[詳細檔案](../../automating/using/transfer-file.md)。 (CAMP-33109)
+* 已在傳輸檔案活動中新增選項。 它可讓您在使用SFTP模式的檔案下載動作時排序檔案。 如需詳細資訊，請參閱[詳細文件](../../automating/using/transfer-file.md)。 (CAMP-33109)
 
 **修補程式**
 
@@ -431,8 +451,8 @@ ht-degree: 8%
    <td> 工作流程增強功能<br /> </td> 
    <td> <p>已新增下列工作流程功能：</p> 
     <ul> 
-     <li> 您現在可以在工作流程或其他工作流程中，從相同的Campaign執行個體複製貼上活動。 如此一來，您便可輕鬆複製整個工作流程或特定活動，同時保留最初定義的設定。 如需詳細資訊，請參閱<a href="../../automating/using/workflow-interface.md#duplicating-workflow-activities">詳細檔案</a>。 (CAMP-20014) </li> 
-     <li> 使用<strong>載入檔案</strong>活動時，您現在可以將時間戳記新增至包含拒絕記錄的檔案名稱。 如需詳細資訊，請參閱<a href="../../automating/using/load-file.md#configuration">詳細說明文件</a>。 </li> 
+     <li> 您現在可以在工作流程或其他工作流程中，從相同的Campaign執行個體複製貼上活動。 如此一來，您便可輕鬆複製整個工作流程或特定活動，同時保留最初定義的設定。 如需詳細資訊，請參閱<a href="../../automating/using/workflow-interface.md#duplicating-workflow-activities">詳細文件</a>。 (CAMP-20014) </li> 
+     <li> 使用<strong>載入檔案</strong>活動時，您現在可以將時間戳記新增至包含拒絕記錄的檔案名稱。 如需詳細資訊，請參閱<a href="../../automating/using/load-file.md#configuration">詳細文件</a>。 </li> 
      <li> <strong>查詢</strong>和<strong>分段</strong>活動現在可讓您在活動未擷取任何資料時啟用出站轉變。 </li> 
     </ul> </td> 
   </tr> 
@@ -483,7 +503,7 @@ ht-degree: 8%
 
 **其他變更**
 
-* Adobe Campaign和Adobe Experience Cloud自2019年春季起，將停止支援Microsoft Internet Explorer 11和Campaign Standard 19.2版。 請切換至 Microsoft Edge 或其他支援的瀏覽器。請參閱[已過時和已移除的功能](../../rn/using/deprecated-features.md)頁面。
+* Adobe Campaign和Adobe Experience Cloud自2019年春季起，將停止支援Microsoft Internet Explorer 11和Campaign Standard 19.2版。 請切換至 Microsoft Edge 或其他支援的瀏覽器。 請參閱[已過時和已移除的功能](../../rn/using/deprecated-features.md)頁面。
 * 設定檔資源中的&#x200B;**國家/地區代碼**&#x200B;欄位已重新命名為&#x200B;**國家/地區代碼**。
 
 **修補程式**
@@ -526,11 +546,11 @@ ht-degree: 8%
    <td> 電子郵件Designer一般可用性<br /> </td> 
    <td> <p>全新的直覺式電子郵件Designer （先前稱為Creative Designer）已移至GA。 它現在支援舊版內容編輯器的所有功能，包括：</p> 
     <ul> 
-     <li> 使用來自Adobe Target<a href="../../integrating/using/adding-target-dynamic-content.md">的</a>動態影像 </li> 
+     <li> 使用來自Adobe Target</a>的<a href="../../integrating/using/adding-target-dynamic-content.md">動態影像 </li> 
      <li> 可在準備時自動<a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">從URL擷取內容</a> </li> 
      <li> 完全相容的<a href="../../designing/using/using-reusable-content.md#content-templates">現成可用的內容範本</a>。 </li> 
     </ul> 
-    <p>如需詳細資訊，請參閱<a href="../../designing/using/designing-content-in-adobe-campaign.md">詳細檔案</a>和<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html?lang=zh-Hant">操作影片</a>。 以下列出改善與修正。</p><p>因此，舊版的電子郵件內容編輯器現已棄用。 如需詳細資訊，請參閱此<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=zh-Hant#release-notes">頁面</a>。</p> </td> 
+    <p>如需詳細資訊，請參閱<a href="../../designing/using/designing-content-in-adobe-campaign.md">詳細文件</a>及<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html?lang=zh-Hant">作法影片</a>。 以下列出改善與修正。</p><p>因此，舊版的電子郵件內容編輯器現已棄用。 如需詳細資訊，請參閱此<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=zh-Hant#release-notes">頁面</a>。</p> </td> 
   </tr> 
   <tr> 
    <td> 異動電子郵件中的產品清單<br /> </td> 
@@ -555,7 +575,7 @@ ht-degree: 8%
 
 **功能改進**
 
-* 「載入資料」活動中的新選項現在可讓您將後處理階段套用至包含已拒絕記錄的檔案(例如： 壓縮郵遞區號格式)。(CAMP-24521)
+* 「載入資料」活動中的新選項現在可讓您將後處理階段套用至包含已拒絕記錄的檔案(例如： 壓縮郵遞區號格式)。 (CAMP-24521)
 * 更新資料活動中的新選項現在可讓您設定要上傳之資料的最大批次大小。 (CAMP-28400)
 * 改善設定檔的位址狀態選擇。 選取國家/地區時，「州」下拉式清單現在會自動更新相關的州值。 (CAMP-28874)
 * 現在，如果入站轉變為空，「擷取檔案」活動中的新選項將防止產生檔案。 如此可避免在SFTP伺服器上建立和上傳空白檔案。

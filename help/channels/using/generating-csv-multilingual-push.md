@@ -1,5 +1,5 @@
 ---
-title: 產生具有Campaign Standard之多語言推播通知的CSV檔案
+title: 使用Campaign Standard產生多語言推播通知的CSV檔案
 description: 上傳CSV檔案來產生傳送內容是一項用於支援多語言推播通知的功能。
 audience: channels
 content-type: reference
@@ -8,9 +8,18 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: bd9ec3f9-e047-42dc-ab64-9fb274cb4656
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/sSLZ7Yi5SZTrFKNknQcrCKr49aeNUL4y249CleELWWo
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: 1026
 ht-degree: 1%
 
 ---
@@ -64,7 +73,7 @@ ht-degree: 1%
 
 **如果您以純文字產生檔案，請以「，」分隔每一欄。**
 
-**變體不相符。**&#x200B;如果您使用內容區塊並以特定語言鎖定對象，則需要在CSV檔案中列出所有目標語言，否則您在傳送傳遞時會收到錯誤。
+**變體不相符。** 如果您使用內容區塊並以特定語言鎖定對象，則需要在CSV檔案中列出所有目標語言，否則您在傳送傳遞時會收到錯誤。
 
 ## 在csv檔案中插入個人化欄位 {#personalization-field-csv}
 

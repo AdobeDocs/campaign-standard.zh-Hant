@@ -10,16 +10,23 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 2df7fbed-b979-4706-bd56-83f712cc3070
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/XLH6Hrqg2q-ZNlT-ZcNNlLlvP9xBSchfZs-mgWscROs
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: 106
 ht-degree: 11%
 
 ---
 
 # 使用外部資料更新資料庫 {#update-database-file}
 
-下列範例顯示&#x200B;**[!UICONTROL Update data]**&#x200B;活動之後&#x200B;**[!UICONTROL Load file]**&#x200B;活動的設定。 此工作流程的目的在於，使用從檔案復原的資料，將設定檔新增或更新至Adobe Campaign資料庫。
+下列範例顯示&#x200B;**[!UICONTROL Load file]**&#x200B;活動之後&#x200B;**[!UICONTROL Update data]**&#x200B;活動的設定。 此工作流程的目的在於，使用從檔案復原的資料，將設定檔新增或更新至Adobe Campaign資料庫。
 
 在此範例中，使用的調解金鑰是&#x200B;**電子郵件地址**。 載入到[載入檔案](../../automating/using/load-file.md)活動的檔案是包含下列範例資料的&#x200B;**.txt**&#x200B;格式檔案：
 

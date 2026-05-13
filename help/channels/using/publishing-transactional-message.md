@@ -9,9 +9,24 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 12fe13c2-899d-4c85-8381-ba812ff26f54
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+TQID: https://experienceleague.adobe.com/RMGPVUR4mXc9ZU38JCpsVT-ytEwrYRfhTB-eaVsAt-Q
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+subfeature_v2:
+  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: 656
 ht-degree: 70%
 
 ---
@@ -96,7 +111,7 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 現在，觸發「購物車放棄率」事件之後，則會自動提示訊息，其中包含收件者的職務及姓氏、購物車 URL、上次諮詢的產品或產品清單（如果您已定義產品清單），以及要傳送的購物車總金額。
 
-若要存取關於交易式訊息的報告，請使用 **[!UICONTROL Reports]** 按鈕。請參閱[動態報告](../../reporting/using/about-dynamic-reports.md)。
+若要存取關於交易式訊息的報告，請使用 **[!UICONTROL Reports]** 按鈕。 請參閱[動態報告](../../reporting/using/about-dynamic-reports.md)。
 
 ![](assets/message-center_13.png)
 
@@ -107,13 +122,13 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 ## 暫停交易式訊息發佈 {#suspending-a-transactional-message-publication}
 
-您可以使用　**[!UICONTROL Pause]**　按鈕以暫停發佈交易式訊息，例如，修改訊息中所包含的資料。因此，系統將不會再處理這些事件，而會將之保留在 Adobe Campaign 資料庫的佇列中。
+您可以使用　**[!UICONTROL Pause]**　按鈕以暫停發佈交易式訊息，例如，修改訊息中所包含的資料。 因此，系統將不會再處理這些事件，而會將之保留在 Adobe Campaign 資料庫的佇列中。
 
 在REST API中定義的時段期間，會保留佇列的事件（請參閱[REST API檔案](../../api/using/managing-transactional-messages.md)），或是保留在觸發事件中（如果您使用Triggers核心服務） （請參閱[關於Adobe Experience Cloud觸發程式](../../integrating/using/about-adobe-experience-cloud-triggers.md)）。
 
 ![](assets/message-center_pause.png)
 
-按一下　**[!UICONTROL Resume]**　時，則會處理所有佇列的事件（前提是這些事件並未過期）。它們現在會包含暫停範本發佈時進行的所有修改。
+按一下　**[!UICONTROL Resume]**　時，則會處理所有佇列的事件（前提是這些事件並未過期）。 它們現在會包含暫停範本發佈時進行的所有修改。
 
 ## 取消發佈交易式訊息 {#unpublishing-a-transactional-message}
 
@@ -127,7 +142,7 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 >
 >若要再次發佈訊息，您必須返回對應的事件設定，[發佈事件](../../channels/using/publishing-transactional-event.md)，然後[發佈訊息](#publishing-a-transactional-message)。
 
-如果您解除發佈已暫停的交易式訊息，則可能必須等候長達 24 小時，才能再次發佈。這是為了讓 **[!UICONTROL Database cleanup]** 工作流程清除已傳送至佇列的所有事件。
+如果您解除發佈已暫停的交易式訊息，則可能必須等候長達 24 小時，才能再次發佈。 這是為了讓 **[!UICONTROL Database cleanup]** 工作流程清除已傳送至佇列的所有事件。
 
 在「[暫停交易式訊息發佈](#suspending-a-transactional-message-publication)」一節中會詳細說明暫停訊息的步驟。
 
@@ -135,7 +150,7 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 ## 刪除交易式訊息 {#deleting-a-transactional-message}
 
-在取消發佈交易式訊息之後，或尚未發佈交易式訊息時，您可以從交易式訊息清單中刪除該訊息。操作步驟：
+在取消發佈交易式訊息之後，或尚未發佈交易式訊息時，您可以從交易式訊息清單中刪除該訊息。 操作步驟：
 
 1. 按一下左上角的&#x200B;**Adobe**&#x200B;標誌，然後選取&#x200B;**[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**。
 1. 將滑鼠游標移到您選取的訊息上。
@@ -145,15 +160,15 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 但是，只能在特定條件下刪除交易式訊息：
 
-* 請確定交易式訊息的狀態為 **[!UICONTROL Draft]** 狀態，否則您無法將之刪除。**[!UICONTROL Draft]** 狀態適用於尚未發佈或已[取消發佈](#unpublishing-a-transactional-message)（而且並未[暫停](#suspending-a-transactional-message-publication)）的訊息。
+* 請確定交易式訊息的狀態為 **[!UICONTROL Draft]** 狀態，否則您無法將之刪除。 **[!UICONTROL Draft]** 狀態適用於尚未發佈或已[取消發佈](#unpublishing-a-transactional-message)（而且並未[暫停](#suspending-a-transactional-message-publication)）的訊息。
 
-* **交易式訊息**：除非將另一個交易式訊息連結到相對應的事件，否則如果已取消發佈交易式訊息，也需要取消發佈事件設定，才能成功刪除交易式訊息。如需詳細資訊，請參閱「[取消發佈事件](../../channels/using/publishing-transactional-event.md#unpublishing-an-event)」。
+* **交易式訊息**：除非將另一個交易式訊息連結到相對應的事件，否則如果已取消發佈交易式訊息，也需要取消發佈事件設定，才能成功刪除交易式訊息。 如需詳細資訊，請參閱「[取消發佈事件](../../channels/using/publishing-transactional-event.md#unpublishing-an-event)」。
 
   >[!IMPORTANT]
   >
   >刪除已傳送通知的交易式訊息也會刪除其發送與追蹤日誌。
 
-* **來自現成事件範本的交易式訊息（內部交易式訊息）**：如果內部交易式訊息是唯一與相對應內部事件關聯的訊息，則無法刪除該訊息。您必須先建立另一個交易式訊息，方法是複製該訊息或透過 **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Transactional message templates]** 功能表進行。
+* **來自現成事件範本的交易式訊息（內部交易式訊息）**：如果內部交易式訊息是唯一與相對應內部事件關聯的訊息，則無法刪除該訊息。 您必須先建立另一個交易式訊息，方法是複製該訊息或透過 **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Transactional message templates]** 功能表進行。
 
 <!--
 ## Monitoring transactional message delivery {#monitoring-transactional-message-delivery}

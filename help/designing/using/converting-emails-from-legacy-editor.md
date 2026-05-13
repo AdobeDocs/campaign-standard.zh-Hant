@@ -8,22 +8,31 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 2b024052-ed42-44f3-9990-be7425cc79d7
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/cfyUEkc2uP7VKNu2Kzd-9EERkuzfwiFFbJ9-QHgWWX4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 8%
+source-wordcount: 444
+ht-degree: 6%
 
 ---
 
 # 轉換舊版編輯器電子郵件內容 {#converting-an-html-content}
 
-開始使用電子郵件Designer，並從在舊版編輯器中建立的電子郵件HTML中建立可重複使用的範本和片段。
+開始使用電子郵件Designer ，並從在舊版編輯器中建立的電子郵件HTML中建立可重複使用的範本和片段。
 
-此使用案例可讓您使用HTML電子郵件，並將其分割為電子郵件Designer中的HTML元件，以建立電子郵件Designer範本。
+此使用案例可讓您使用Designer電子郵件，並在電子郵件Designer中將其分割為HTML元件，以建立電子郵件HTML範本。
 
 >[!NOTE]
 >
->如同相容性模式，HTML元件可使用有限的選項進行編輯：您只能執行就地編輯。
+>和相容性模式一樣，HTML元件也可以使用有限的選項進行編輯：您只能執行就地版本。
 
 >[!IMPORTANT]
 >
@@ -38,7 +47,7 @@ ht-degree: 8%
 ## 建立您的電子郵件結構
 
 1. 開啟&#x200B;**[!UICONTROL Email Designer]**&#x200B;以建立空的電子郵件內容。
-1. 設定內文層級屬性：背景顏色、寬度等。 如需詳細資訊，請參閱[編輯電子郵件樣式](../../designing/using/styles.md)。
+1. 設定內文層級屬性：背景顏色、寬度等。如需詳細資訊，請參閱[編輯電子郵件樣式](../../designing/using/styles.md)。
 1. 新增任意數量的結構元件。 如需詳細資訊，請參閱「[編輯電子郵件結構](../../designing/using/designing-from-scratch.md#defining-the-email-structure)」。
 
 ## 新增HTML內容
@@ -111,7 +120,7 @@ ht-degree: 8%
 
 1. 插入HTML區段。
 
-1. 按一下&#x200B;**[!UICONTROL Save]**。
+1. 按一下 **[!UICONTROL Save]**。
 
 您現在可以檢查電子郵件的呈現。
 

@@ -1,5 +1,5 @@
 ---
-title: 聯集
+title: 聯合
 description: 「聯集」活動可讓您將多個活動的結果重新分組到單一目標中。
 audience: automating
 content-type: reference
@@ -10,9 +10,16 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 3189745c-dcc9-4719-b080-85ffa3bb66be
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/tZmyjYoYBX7mzN7CSuLXgLIiH-QldGCXmr-F62ruPDU
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: 381
 ht-degree: 97%
 
 ---
@@ -44,17 +51,17 @@ ht-degree: 97%
 1. 選取活動，然後使用所顯示快速動作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
 1. 選取 **[!UICONTROL Reconciliation type]** 以定義如何處理來自入站群體之間對抗的重複項目：
 
-   * **[!UICONTROL Keys only]**：這是預設模式。當來自不同入站轉變的元素具有相同索引鍵時，活動只會保留一個元素。如果入站群體是同質的，則只能使用此選項。
-   * **[!UICONTROL All shared columns]**：資料會根據與入站轉變共用的所有欄進行調節。因此，您必須選取在出現重複項目時要保留的主要集。如果入站群體目標定位維度不同，則可使用此選項。
-   * **[!UICONTROL A selection of columns]**：選取此選項可定義將套用資料協調的欄清單。首先，必須選取主集（其中包含來源資料），然後指定用於加入的欄。
+   * **[!UICONTROL Keys only]**：這是預設模式。 當來自不同入站轉變的元素具有相同索引鍵時，活動只會保留一個元素。 如果入站群體是同質的，則只能使用此選項。
+   * **[!UICONTROL All shared columns]**：資料會根據與入站轉變共用的所有欄進行調節。 因此，您必須選取在出現重複項目時要保留的主要集。 如果入站群體目標定位維度不同，則可使用此選項。
+   * **[!UICONTROL A selection of columns]**：選取此選項可定義將套用資料協調的欄清單。 首先，必須選取主集（其中包含來源資料），然後指定用於加入的欄。
 
 1. 如果您只想保留所有入站轉變中的其他資料，請核取　**[!UICONTROL Use common additional data only]**　方塊。
-1. 如果您要限制最終群體的大小，請合取 **[!UICONTROL Limit size of generated population]** 方塊。可在　**[!UICONTROL Maximum number of records]**　欄位中指定大小。
+1. 如果您要限制最終群體的大小，請合取 **[!UICONTROL Limit size of generated population]** 方塊。 可在　**[!UICONTROL Maximum number of records]**　欄位中指定大小。
 1. 如有需要，請管理活動的[轉變](../../automating/using/activity-properties.md)，以存取計算人數的進階選項。
 1. 確認活動的設定並儲存工作流程。
 
 ## 範例 {#example}
 
-下列範例顯示兩個查詢活動的結果，其目的在於從 Adobe Campaign 資料庫重新分組輪廓 (適用對象是　18 至 27 歲，以及 34 至 40 歲的人)。結果包含在設定期間指定的兩個查詢的所有輪廓，或是記錄數量上限 (如果適用)。
+下列範例顯示兩個查詢活動的結果，其目的在於從 Adobe Campaign 資料庫重新分組輪廓 (適用對象是　18 至 27 歲，以及 34 至 40 歲的人)。 結果包含在設定期間指定的兩個查詢的所有輪廓，或是記錄數量上限 (如果適用)。
 
 ![](assets/wkf_union_example.png)

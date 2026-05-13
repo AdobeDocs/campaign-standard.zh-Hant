@@ -10,16 +10,23 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 2e98561a-97fd-483a-a547-c4e6d33993dc
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/gXDQV8YTYmi5-UD-2GGy-JlxkzfaHcWgKvVLt2ihqNs
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: 421
 ht-degree: 77%
 
 ---
 
 # 從檔案更新多個訂閱狀態 {#updating-multiple-subscription-statuses-from-a-file}
 
-此範例說明如何匯入包含輪廓的檔案，以及如何將其訂閱更新為檔案中指定的多個服務。匯入檔案後，必須進行調和，以便將匯入的資料識別為具有服務連結的輪廓。為確保檔案不包含任何重複項目，將對資料執行重複資料刪除活動。
+此範例說明如何匯入包含輪廓的檔案，以及如何將其訂閱更新為檔案中指定的多個服務。 匯入檔案後，必須進行調和，以便將匯入的資料識別為具有服務連結的輪廓。 為確保檔案不包含任何重複項目，將對資料執行重複資料刪除活動。
 
 工作流程如下：
 
@@ -44,26 +51,26 @@ ht-degree: 77%
 
   ![](assets/subscription_example_load_file.png)
 
-  如您所注意的，此操作在檔案中指定為 &quot;sub&quot; 或 &quot;unsub&quot;。此系統需要一個 **Boolean** 或 **Integer** 整數值來識別要執行的操作：&quot;0&quot; 為取消訂閱與 &quot;1&quot; 為訂閱。為符合此要求，在 &quot;operation&quot; 欄的詳細資訊中執行值的重新映射。
+  如您所注意的，此操作在檔案中指定為 &quot;sub&quot; 或 &quot;unsub&quot;。 此系統需要一個 **Boolean** 或 **Integer** 整數值來識別要執行的操作：&quot;0&quot; 為取消訂閱與 &quot;1&quot; 為訂閱。 為符合此要求，在 &quot;operation&quot; 欄的詳細資訊中執行值的重新映射。
 
   ![](assets/subscription_example_remapping.png)
 
-  如果您的檔案已使用 &quot;0&quot; 及 &quot;1&quot; 來識別此操作，則不需要重新映射這些值。僅確定在 **[!UICONTROL Column definition]** 索引標籤中將此欄處理為 **Boolean** 或 **Integer**。
+  如果您的檔案已使用 &quot;0&quot; 及 &quot;1&quot; 來識別此操作，則不需要重新映射這些值。 僅確定在 **[!UICONTROL Column definition]** 索引標籤中將此欄處理為 **Boolean** 或 **Integer**。
 
 * [調解](../../automating/using/reconciliation.md)活動會將檔案中的資料識別為屬於Adobe Campaign資料庫的設定檔維度。 透過 **[!UICONTROL Identification]** 索引標籤，檔案的 **email** 欄位與輪廓資源的 **email** 欄位相符。
 
   ![](assets/subscription_activity_example3.png)
 
-  在 **[!UICONTROL Relations]** 索引標籤中，使用服務資源所建立之連結，以便識別檔案的 **service** 欄位。在此範例中，值與服務資源的 **name** 欄位相符。
+  在 **[!UICONTROL Relations]** 索引標籤中，使用服務資源所建立之連結，以便識別檔案的 **service** 欄位。 在此範例中，值與服務資源的 **name** 欄位相符。
 
   ![](assets/subscription_example_service_relation.png)
 
-* 以臨時資源的[電子郵件](../../automating/using/deduplication.md)欄位為基礎的&#x200B;**重複資料刪除** （調解後產生的結果）可識別重複專案。 消除重複項目非常重要，因為所有資料的服務訂閱將會在出現重複項目時失敗。
+* 以臨時資源的&#x200B;**電子郵件**&#x200B;欄位為基礎的[重複資料刪除](../../automating/using/deduplication.md) （調解後產生的結果）可識別重複專案。 消除重複項目非常重要，因為所有資料的服務訂閱將會在出現重複項目時失敗。
 
   ![](assets/subscription_activity_example5.png)
 
 * [訂閱服務](../../automating/using/subscription-services.md)活動識別要更新的服務是來自轉換，透過&#x200B;**[!UICONTROL Reconciliation]**&#x200B;活動中建立的連結進行。
 
-  將 **[!UICONTROL Operation type]** 識別為來自檔案的 **operation** 欄位。此處只能選取 Boolean 或 Integer 欄位。如果檔案中包含要執行的操作欄未出現在清單中，請確保您已正確設定 **[!UICONTROL Load file]** 活動中的欄格式，如本範例前面所述 。
+  將 **[!UICONTROL Operation type]** 識別為來自檔案的 **operation** 欄位。 此處只能選取 Boolean 或 Integer 欄位。 如果檔案中包含要執行的操作欄未出現在清單中，請確保您已正確設定 **[!UICONTROL Load file]** 活動中的欄格式，如本範例前面所述 。
 
   ![](assets/subscription_activity_example_from_file.png)

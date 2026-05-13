@@ -1,6 +1,6 @@
 ---
 title: 行銷活動
-description: 「瞭解如何建立和管理您的行銷活動：促銷活動、電子郵件、簡訊和推播通知傳送、登錄頁面、工作流程。您可以輕鬆設計新活動、編輯現有活動，並查詢其狀態和有效性。」
+description: 瞭解如何建立和管理您的行銷活動：行銷活動、電子郵件、簡訊和推播通知傳送、登入頁面、工作流程。 您可以輕鬆設計新活動、編輯現有活動，並查詢其狀態和有效性。
 audience: start
 content-type: reference
 topic-tags: marketing-plans
@@ -9,10 +9,19 @@ feature: Campaigns
 role: User
 level: Beginner
 exl-id: c75471aa-b947-4488-a569-5412d3825c64
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/qtUofiuJOT-dL9VwrRGjx7-y7-JD4y-TJ7PDt-qfVNo
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 79%
+source-wordcount: 489
+ht-degree: 71%
 
 ---
 
@@ -22,7 +31,7 @@ ht-degree: 79%
 
 您可以從方案和促銷活動所屬的清單或行銷活動清單，以建立和管理行銷活動。
 
-行銷活動清單會集中所有活動，無論其建立的方案或促銷活動為何。因此，方案、促銷活動、傳送（電子郵件、簡訊和推播通知）、登錄頁面和工作流程都會依不同階層順序逐項列出。
+行銷活動清單會集中所有活動，無論其建立的方案或促銷活動為何。 因此，方案、促銷活動、傳送（電子郵件、簡訊和推播通知）、登錄頁面和工作流程都會依不同階層順序逐項列出。
 
 若要存取行銷活動清單，請從上方列選取 **[!UICONTROL Marketing activities]** 連結。
 
@@ -32,11 +41,11 @@ ht-degree: 79%
 
 ![](assets/marketing_activities.png)
 
-**[!UICONTROL Search]** 窗格可讓您根據不同的準則來篩選元素：名稱（標籤和 ID）、日期、狀態或活動類型。依預設，會選取所有活動類型，但方案除外。
+**[!UICONTROL Search]** 窗格可讓您根據不同的準則來篩選元素：名稱（標籤和 ID）、日期、狀態或活動類型。 依預設，會選取所有活動類型，但方案除外。
 
 若要直接存取每個活動的內容，請從清單中選取其中一個元素。
 
-**[!UICONTROL Create]** 按鈕可用於建立新活動。如需詳細資訊，請參閱[建立行銷活動](#creating-a-marketing-activity)區段。
+**[!UICONTROL Create]** 按鈕可用於建立新活動。 如需詳細資訊，請參閱[建立行銷活動](#creating-a-marketing-activity)區段。
 
 ## 行銷活動圖示和狀態 {#marketing-activity-icons-and-statuses}
 
@@ -67,7 +76,7 @@ ht-degree: 79%
 
 >[!NOTE]
 >
->考慮直接在促銷活動中建立工作流程。如果您在方案中建立工作流程，則無法在之後將其移至促銷活動。
+>考慮直接在促銷活動中建立工作流程。 如果您在方案中建立工作流程，則無法在之後將其移至促銷活動。
 
 方案和促銷活動會顯示在[方案和促銷活動](../../start/using/programs-and-campaigns.md)區段。
 
@@ -92,4 +101,4 @@ ht-degree: 79%
 
 >[!NOTE]
 >
->您也可以從行銷活動清單建立行銷活動。在此情況下，您可以建立任何型別的活動，並選擇透過活動的屬性將行銷活動連結至上層促銷活動（或者，如果您建立方案，則連結至上層方案）。
+>您也可以從行銷活動清單建立行銷活動。 在此情況下，您可以建立任何型別的活動，並選擇透過活動的屬性將行銷活動連結至上層促銷活動（或者，如果您建立方案，則連結至上層方案）。

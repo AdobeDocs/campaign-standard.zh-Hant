@@ -9,10 +9,21 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: f5dcb715-7cbd-49f2-8713-7e16cfa04184
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+TQID: https://experienceleague.adobe.com/jad-jiasYpiF89F-rL0d0v30ZpdE4uiPJYICbtkBDWY
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 27%
+source-wordcount: 663
+ht-degree: 26%
 
 ---
 
@@ -57,7 +68,7 @@ ht-degree: 27%
 
 例如，您想要傳送通知給已將產品新增至購物車並離開網站的網站使用者，以免他們完成購買。 此範例在[異動訊息傳送操作原則](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)區段中顯示。
 
-1. 按一下 **[!UICONTROL Content]** 區塊以修改訊息的主旨與內容。在此範例中，選取包含影像與文字的任何範本。如需電子郵件內容範本的詳細資訊，請參閱[使用範本設計電子郵件](../../designing/using/using-reusable-content.md#designing-templates)。
+1. 按一下 **[!UICONTROL Content]** 區塊以修改訊息的主旨與內容。 在此範例中，選取包含影像與文字的任何範本。 如需電子郵件內容範本的詳細資訊，請參閱[使用範本設計電子郵件](../../designing/using/using-reusable-content.md#designing-templates)。
 
    ![](assets/message-center_6.png)
 
@@ -65,15 +76,15 @@ ht-degree: 27%
 
    >[!NOTE]
    >
-   >連至「放棄的購物車」連結是外部 URL 的連結，這會將使用者重新導向至其購物車。Adobe Campaign 並未管理此參數。
+   >連至「放棄的購物車」連結是外部 URL 的連結，這會將使用者重新導向至其購物車。 Adobe Campaign 並未管理此參數。
 
-1. 在此範例中，您希望在新增[建立事件](../../channels/using/configuring-transactional-event.md)時定義三個欄位：名字、最後諮詢的產品、購物車數量總計。要執行此操作，請在訊息內容中[插入個人化欄位](../../designing/using/personalization.md#inserting-a-personalization-field)。
+1. 在此範例中，您希望在新增[建立事件](../../channels/using/configuring-transactional-event.md)時定義三個欄位：名字、最後諮詢的產品、購物車數量總計。 要執行此操作，請在訊息內容中[插入個人化欄位](../../designing/using/personalization.md#inserting-a-personalization-field)。
 
 1. 透過 **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** 瀏覽至那些欄位。
 
    ![](assets/message-center_7.png)
 
-1. 您也可以擴充訊息的內容。 若要這麼做，請從連結至事件設定的表格新增欄位（請參閱[豐富事件](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)）。 在此範例中，透過&#x200B;**[!UICONTROL Title (salutation)]** > **[!UICONTROL Profile]** > **[!UICONTROL Context]**&#x200B;從&#x200B;**[!UICONTROL Real-time event]**&#x200B;表格中選取&#x200B;**[!UICONTROL Event context]**&#x200B;欄位。
+1. 您也可以擴充訊息的內容。 若要這麼做，請從連結至事件設定的表格新增欄位（請參閱[豐富事件](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)）。 在此範例中，透過&#x200B;**[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**&#x200B;從&#x200B;**[!UICONTROL Profile]**&#x200B;表格中選取&#x200B;**[!UICONTROL Title (salutation)]**&#x200B;欄位。
 
    ![](assets/message-center_7-enrichment.png)
 
@@ -87,7 +98,7 @@ ht-degree: 27%
 
    ![](assets/message-center_9.png)
 
-   您可以檢查個人化欄位是否符合在測試輪廓中輸入的資訊。如需詳細資訊，請參閱[定義特定測試設定檔](../../channels/using/testing-transactional-message.md#defining-specific-test-profile)。
+   您可以檢查個人化欄位是否符合在測試輪廓中輸入的資訊。 如需詳細資訊，請參閱[定義特定測試設定檔](../../channels/using/testing-transactional-message.md#defining-specific-test-profile)。
 
 <!--
 ## Using product listings in a transactional message {#using-product-listings-in-a-transactional-message}
@@ -224,7 +235,7 @@ For more on creating a collection and related fields when configuring the event,
 差異列示於下方。
 
 1. [移至建立的交易式訊息](#accessing-transactional-messages)以編輯它。
-1. 在交易式訊息中，按一下 **[!UICONTROL Content]** 區段。除了異動電子郵件範本之外，您也可以選擇任何針對&#x200B;**[!UICONTROL Profile]**&#x200B;資源的電子郵件範本。
+1. 在交易式訊息中，按一下 **[!UICONTROL Content]** 區段。 除了異動電子郵件範本之外，您也可以選擇任何針對&#x200B;**[!UICONTROL Profile]**&#x200B;資源的電子郵件範本。
 
    ![](assets/message-center_marketing_templates.png)
 

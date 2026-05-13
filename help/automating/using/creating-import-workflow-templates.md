@@ -9,9 +9,14 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: 5974a52c-8721-4575-b452-2982d6497235
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/u3VuLGtTmsM-4wztLfsNhGIX2F-aVI1HTtaCqXinBPw
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: 1177
 ht-degree: 1%
 
 ---
@@ -40,7 +45,7 @@ ht-degree: 1%
 
 1. 設定&#x200B;**[!UICONTROL Load file]**&#x200B;活動：
 
-   * 透過上傳範例檔案來定義預期的結構。 範例檔案應該只包含幾行，但應包含匯入所需的所有欄。 檢查並編輯檔案格式，確定每欄的型別已正確設定：文字、日期、整數等。 例如：
+   * 透過上傳範例檔案來定義預期的結構。 範例檔案應該只包含幾行，但應包含匯入所需的所有欄。 檢查並編輯檔案格式，確定每欄的型別已正確設定：文字、日期、整數等。例如：
 
      ```
      lastname;firstname;birthdate;email;crmID
@@ -80,7 +85,7 @@ ht-degree: 1%
 
    * 在前兩個子集中未選取的所有記錄都會在&#x200B;**[!UICONTROL Complement]**&#x200B;中選取。
 
-1. 設定位於先前設定之&#x200B;**[!UICONTROL Update data]**&#x200B;活動的第一個出站轉變之後的&#x200B;**[!UICONTROL Segmentation]**&#x200B;活動。
+1. 設定位於先前設定之&#x200B;**[!UICONTROL Segmentation]**&#x200B;活動的第一個出站轉變之後的&#x200B;**[!UICONTROL Update data]**&#x200B;活動。
 
    * 選取&#x200B;**[!UICONTROL Update]**&#x200B;作為&#x200B;**[!UICONTROL Operation type]**，因為入站轉變僅包含資料庫中已存在的收件者。
    * 在&#x200B;**[!UICONTROL Identification]**&#x200B;索引標籤中，選取&#x200B;**[!UICONTROL Using reconciliation criteria]**&#x200B;並定義&#x200B;**[!UICONTROL Dimension to update]** — 此案例中的設定檔 — 與&#x200B;**[!UICONTROL Reconciliation]**&#x200B;活動中建立的連結之間的索引鍵。 在此範例中，使用&#x200B;**CRM ID**&#x200B;自訂欄位。
@@ -106,7 +111,7 @@ ht-degree: 1%
 
    ![](assets/import_template_example7.png)
 
-1. 設定位於先前設定的&#x200B;**[!UICONTROL Update data]**&#x200B;活動之後的&#x200B;**[!UICONTROL Deduplication]**&#x200B;活動。
+1. 設定位於先前設定的&#x200B;**[!UICONTROL Deduplication]**&#x200B;活動之後的&#x200B;**[!UICONTROL Update data]**&#x200B;活動。
 
    * 選取&#x200B;**[!UICONTROL Insert only]**&#x200B;作為&#x200B;**[!UICONTROL Operation type]**，因為入站轉變只包含資料庫中不存在的設定檔。
    * 在&#x200B;**[!UICONTROL Identification]**&#x200B;索引標籤中，選取&#x200B;**[!UICONTROL Using reconciliation criteria]**&#x200B;並定義&#x200B;**[!UICONTROL Dimension to update]** — 此案例中的設定檔 — 與&#x200B;**[!UICONTROL Reconciliation]**&#x200B;活動中建立的連結之間的索引鍵。 在此範例中，使用&#x200B;**CRM ID**&#x200B;自訂欄位。

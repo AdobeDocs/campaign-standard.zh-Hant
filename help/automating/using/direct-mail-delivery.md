@@ -10,10 +10,19 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: c7854b7b-f955-47ce-99d6-86b3186fd297
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/Ukag-6PvyojhuKCNHM3QjpZW9hYE2n9OjslWUx-Kkvc
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '915'
-ht-degree: 91%
+source-wordcount: 915
+ht-degree: 87%
 
 ---
 
@@ -25,20 +34,20 @@ ht-degree: 91%
 
 ![](assets/recurrentpaper.png)
 
-**[!UICONTROL Direct mail delivery]** 活動可讓您設定並準備包含您要用於直接郵件促銷活動之輪廓資料的檔案。這可以是一次使用的直接郵件，也可以是循環性直接郵件。
+**[!UICONTROL Direct mail delivery]** 活動可讓您設定並準備包含您要用於直接郵件促銷活動之輪廓資料的檔案。 這可以是一次使用的直接郵件，也可以是循環性直接郵件。
 
 * **標準**&#x200B;直接郵件只傳送一次。
 * **循環**&#x200B;郵件可讓您在定義的時段內，多次傳送相同的直接郵件給不同的目標。 您可以彙總每個期間的傳送，以取得符合您需求的報表。
 
 ## 使用內容 {#context-of-use}
 
-**[!UICONTROL Direct mail delivery]** 活動通常用於自動準備包含輪廓資料的檔案。然後，可將此檔案傳送給負責郵寄的合作夥伴/供應商。
+**[!UICONTROL Direct mail delivery]** 活動通常用於自動準備包含輪廓資料的檔案。 然後，可將此檔案傳送給負責郵寄的合作夥伴/供應商。
 
 當連結至排程器時，您可以定義循環的直接電子郵件。
 
-直接郵件收件者是透過查詢、交叉點等定位活動，在相同工作流程中定義活動上游的活動。在準備直接郵件時，不會自動排除未指定郵寄地址的輪廓。
+直接郵件收件者是透過查詢、交叉點等定位活動，在相同工作流程中定義活動上游的活動。在準備直接郵件時，不會自動排除未指定郵寄地址的設定檔。
 
-根據工作流程執行參數觸發訊息準備。在訊息控制面板中，您可以選取是否要求傳送訊息的手動確認（預設為必要）。您可以手動啟動工作流程，或將排程器活動置於工作流程中以自動執行。
+根據工作流程執行參數觸發訊息準備。 在訊息控制面板中，您可以選取是否要求傳送訊息的手動確認（預設為必要）。 您可以手動啟動工作流程，或將排程器活動置於工作流程中以自動執行。
 
 **相關主題：**
 
@@ -52,43 +61,43 @@ ht-degree: 91%
 
    >[!NOTE]
    >
-   >您可以透過活動快速動作的 ![](assets/dlv_activity_params-24px.png) 按鈕，存取活動（而非傳送本身）的一般屬性和進階選項。此按鈕是通道活動專屬的按鈕。您可以透過直接郵件控制面板中的動作列來存取直接郵件的屬性。
+   >您可以透過活動快速動作的 ![](assets/dlv_activity_params-24px.png) 按鈕，存取活動（而非傳送本身）的一般屬性和進階選項。 此按鈕是通道活動專屬的按鈕。 您可以透過直接郵件控制面板中的動作列來存取直接郵件的屬性。
 
 1. 選取直接郵件發送模式：
 
-   * **[!UICONTROL Direct mail]**：直接郵件只發一次。您可以在此處指定是否要向活動新增出站轉變。在本過程的步驟 7 中詳細說明不同的轉變類型。
-   * **[!UICONTROL Recurring direct mail]**：根據 **[!UICONTROL Scheduler]** 活動中定義的頻率，直接郵件會被發送多次。選取傳送的彙總期間。這可讓您將定義期間發生的所有傳送重新分組，並透過一封名為 **Recurring execution** 且可從應用程式的行銷活動清單存取的直接郵件。
+   * **[!UICONTROL Direct mail]**：直接郵件只發一次。 您可以在此處指定是否要向活動新增出站轉變。 在本過程的步驟 7 中詳細說明不同的轉變類型。
+   * **[!UICONTROL Recurring direct mail]**：根據 **[!UICONTROL Scheduler]** 活動中定義的頻率，直接郵件會被發送多次。 選取傳送的彙總期間。 這可讓您將定義期間發生的所有傳送重新分組，並透過一封名為 **Recurring execution** 且可從應用程式的行銷活動清單存取的直接郵件。
 
-     例如，對於每日處理的循環生日郵件，您可以選取彙總每月的傳送。這可讓您每月收到傳送的報表，不過每天都會處理郵件。
+     例如，對於每日處理的循環生日郵件，您可以選取彙總每月的傳送。 這可讓您每月收到傳送的報表，不過每天都會處理郵件。
 
      >[!NOTE]
      >
-     >對於循環的直接郵件，在工作流程的每次執行時都產生新檔案。選定的彙總期間對此行為沒有影響。
+     >對於循環的直接郵件，在工作流程的每次執行時都產生新檔案。 選定的彙總期間對此行為沒有影響。
 
-1. 選取直接郵件類型。直接郵件類型來自 **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** 功能表中定義的範本。
-1. 輸入直接郵件的常規屬性。您也可以將它附加至現有的行銷活動。工作流程的傳送活動的標籤會以直接郵件標籤更新。
-1. 定義直接郵件內容。請參閱關於[內容編輯](../../designing/using/personalization.md)的區段。
-1. 依預設，**[!UICONTROL Direct mail delivery]** 活動不包含任何外站轉變。如果要將出站轉變新增到 **[!UICONTROL Direct mail delivery]** 活動中，請轉至高階活動選項的　**[!UICONTROL General]**　索引標籤（活動快速動作中的　![](assets/dlv_activity_params-24px.png)　按鈕），然後選中以下選項之一：
+1. 選取直接郵件類型。 直接郵件類型來自 **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** 功能表中定義的範本。
+1. 輸入直接郵件的常規屬性。 您也可以將它附加至現有的行銷活動。 工作流程的傳送活動的標籤會以直接郵件標籤更新。
+1. 定義直接郵件內容。 請參閱關於[內容編輯](../../designing/using/personalization.md)的區段。
+1. 依預設，**[!UICONTROL Direct mail delivery]** 活動不包含任何外站轉變。 如果要將出站轉變新增到 **[!UICONTROL Direct mail delivery]** 活動中，請轉至高階活動選項的　**[!UICONTROL General]**　索引標籤（活動快速動作中的　![](assets/dlv_activity_params-24px.png)　按鈕），然後核取以下選項之一：
 
-   * **[!UICONTROL Add outbound transition without the population]**：這可讓您產生一個外站轉變，其中包含與入站轉變完全相同的群體。此轉換包含直接郵件活動產生的檔案以及直接郵件活動收到的原始群體。
-   * **[!UICONTROL Add outbound transition with the population]**：這可讓您產生一個外站轉變，其中包含將要向其發送直接郵件的群體。在直接郵件準備期間被排除的目標成員（隔離、無效地址等）將排除在此轉換之外。 轉換也包含直接郵件產生的檔案。
+   * **[!UICONTROL Add outbound transition without the population]**：這可讓您產生一個外站轉變，其中包含與入站轉變完全相同的群體。 此轉換包含直接郵件活動產生的檔案以及直接郵件活動收到的原始群體。
+   * **[!UICONTROL Add outbound transition with the population]**：這可讓您產生一個外站轉變，其中包含將要向其發送直接郵件的群體。 在直接郵件準備期間排除的目標成員（隔離、無效地址等） 會從此轉變中排除。 轉換也包含直接郵件產生的檔案。
 
 1. 確認活動的設定並儲存工作流程。
 
-當您重新開啟活動時，會將您直接帶至直接郵件控制面板。只能編輯其內容。
+當您重新開啟活動時，會將您直接帶至直接郵件控制面板。 只能編輯其內容。
 
-依預設，啟動傳送工作流程只會觸發訊息準備。在工作流程啟動後，仍需要確認從工作流程建立的訊息的傳送。但是，在訊息控制面板中，只有在訊息是從工作流程建立時，您才能停用 **[!UICONTROL Request confirmation before sending messages]** 選項。取消核取此選項後，訊息會在準備完成後不另行通知而傳送。
+依預設，啟動傳送工作流程只會觸發訊息準備。 在工作流程啟動後，仍需要確認從工作流程建立的訊息的傳送。 但是，在訊息控制面板中，只有在訊息是從工作流程建立時，您才能停用 **[!UICONTROL Request confirmation before sending messages]** 選項。 取消核取此選項後，訊息會在準備完成後不另行通知而傳送。
 
 ## 備註 {#remarks}
 
-您可以在應用程式的行銷活動清單中存取在工作流程中建立的傳送。您可以使用控制面板來檢視工作流程的執行狀態。直接郵件摘要窗格中的連結可讓您直接存取連結的元素(工作流程、促銷活動、上層傳送若是重複寄送的直接郵件）。
+您可以在應用程式的行銷活動清單中存取在工作流程中建立的傳送。 您可以使用控制面板來檢視工作流程的執行狀態。 直接郵件摘要窗格中的連結可讓您直接存取連結的元素(工作流程、促銷活動、上層傳送若是重複寄送的直接郵件）。
 
 ![](assets/wkf_display_parent_elements_direct_mail.png)
 
-循環傳送的執行預設為遮罩。若要檢視，請核取行銷活動搜尋面板中的 **[!UICONTROL Show recurring executions]** 選項。
+循環傳送的執行預設為遮罩。 若要檢視，請核取行銷活動搜尋面板中的 **[!UICONTROL Show recurring executions]** 選項。
 
 ![](assets/wkf_display_recurrent_executions_direct_mail.png)
 
-在可從行銷活動清單存取或直接透過相關循環執行存取的父傳送中，您可以檢視已處理的郵件總數（根據設定 **[!UICONTROL Direct mail delivery]** 活動時指定的彙總期間）。若要這麼做，請選取 ![](assets/wkf_dlv_detail_button.png) 按鈕，以開啟上層傳送 **[!UICONTROL Deployment]** 區塊的詳細資訊檢視。
+在可從行銷活動清單存取或直接透過相關循環執行存取的父傳送中，您可以檢視已處理的郵件總數（根據設定 **[!UICONTROL Direct mail delivery]** 活動時指定的彙總期間）。 若要這麼做，請選取 ![](assets/wkf_dlv_detail_button.png) 按鈕，以開啟上層傳送 **[!UICONTROL Deployment]** 區塊的詳細資訊檢視。
 
 ![](assets/wkf_display_recurrent_executions_3_direct_mail.png)

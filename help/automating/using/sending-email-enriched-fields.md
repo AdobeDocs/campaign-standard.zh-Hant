@@ -10,10 +10,19 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 5ca7571d-d4d2-4b59-86d4-4f1f3a620b54
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/5psJbqwsciRlctfnGyptzlEMWppn1-ueo57L8NUEgpE
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 68%
+source-wordcount: 351
+ht-degree: 75%
 
 ---
 
@@ -23,7 +32,7 @@ ht-degree: 68%
 
 此外，載入檔案活動也可讓您在相同的工作流程中，從外部檔案傳送內含其他資料的電子郵件。
 
-以下範例說明如何透過載入檔案活動，使用從外部檔案擷取的其他資料來傳送電子郵件。在此範例中，外部檔案包含輪廓清單及其關聯的帳號。您想要匯入此資料，以傳送電子郵件給每個輪廓及其帳號。
+以下範例說明如何透過載入檔案活動，使用從外部檔案擷取的其他資料來傳送電子郵件。 在此範例中，外部檔案包含輪廓清單及其關聯的帳號。 您想要匯入此資料，以傳送電子郵件給每個輪廓及其帳號。
 
 ![](assets/load_file_workflow_ex2.png)
 
@@ -39,11 +48,11 @@ ht-degree: 68%
 
 1. 將[擴充](../../automating/using/enrichment.md)活動拖放到工作流程中，並將載入檔案和查詢活動連結至工作流程。
 
-1. 在擴充活動的 **[!UICONTROL Advanced relations]** 索引標籤中，選取 **[!UICONTROL 0 or 1 cardinality simple link]** 並定義要用於調和的欄位。在此處，我們會使用姓氏來調整資料和資料庫輪廓。
+1. 在擴充活動的 **[!UICONTROL Advanced relations]** 索引標籤中，選取 **[!UICONTROL 0 or 1 cardinality simple link]** 並定義要用於調和的欄位。 在此處，我們會使用姓氏來調整資料和資料庫輪廓。
 
    ![](assets/load_file_enrichment_relation.png)
 
-1. 在 **[!UICONTROL Additional data]** 索引標籤中，選取您要在電子郵件中使用的元素。在此處選取帳號（從透過載入檔案活動擷取之檔案的欄）。
+1. 在 **[!UICONTROL Additional data]** 索引標籤中，選取您要在電子郵件中使用的元素。 在此處選取帳號（從透過載入檔案活動擷取之檔案的欄）。
 
    ![](assets/load_file_enrichment_select_element.png)
 
@@ -61,12 +70,12 @@ ht-degree: 68%
 
    <!--The Email delivery activity is presented in the [Email delivery](../../automating/using/email-delivery.md) section.-->
 
-1. 新增個人化欄位，並從 **[!UICONTROL Additional data (targetData)]** 節點選取擴充活動（此處為帳號）中定義的其他資料。如此可動態擷取電子郵件內容中每個輪廓的帳號。
+1. 新增個人化欄位，並從 **[!UICONTROL Additional data (targetData)]** 節點選取擴充活動（此處為帳號）中定義的其他資料。 如此可動態擷取電子郵件內容中每個輪廓的帳號。
 
    ![](assets/load_file_perso_field.png)
 
 1. 儲存電子郵件並啟動工作流程。
 
-會將電子郵件傳送至目標。每個輪廓都會收到含有其對應帳號的電子郵件。
+會將電子郵件傳送至目標。 每個輪廓都會收到含有其對應帳號的電子郵件。
 
 ![](assets/load_file_email.png)

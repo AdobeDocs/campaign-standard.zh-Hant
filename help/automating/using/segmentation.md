@@ -10,9 +10,16 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 3761ee4a-1ce5-4f9e-b2a5-84388b6b9db8
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/0JaRwv07dtCgzlGeRxr-AnLlPzvWUpH2zxS-Nzk1hVw
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: 886
 ht-degree: 79%
 
 ---
@@ -23,11 +30,11 @@ ht-degree: 79%
 
 ![](assets/segmentation.png)
 
-**[!UICONTROL Segmentation]** 活動可讓您從工作流程中先前放置之活動計算的群體中建立一或多個分段。在活動結束時，可以在單一轉變或不同轉變中處理這些轉變。
+**[!UICONTROL Segmentation]** 活動可讓您從工作流程中先前放置之活動計算的群體中建立一或多個分段。 在活動結束時，可以在單一轉變或不同轉變中處理這些轉變。
 
 >[!NOTE]
 >
->依預設，入站群體的成員只能屬於單一分段。篩選會根據活動中分段的順序套用。
+>依預設，入站群體的成員只能屬於單一分段。 篩選會根據活動中分段的順序套用。
 
 **相關主題：**
 * [使用案例：細分位置](../../automating/using/workflow-segmentation-location.md)
@@ -35,7 +42,7 @@ ht-degree: 79%
 
 ## 使用內容 {#context-of-use}
 
-一般而言，**[!UICONTROL Segmentation]**&#x200B;活動會放置在目標定位活動（查詢、交叉點、聯合、排除等）之後，以便根據要形成的區段來定義標準母體。
+**[!UICONTROL Segmentation]**&#x200B;活動通常位於目標定位活動（查詢、交集、聯合、排除等）之後， 以便根據要形成的區段來定義標準母體。
 
 **相關主題**
 
@@ -47,13 +54,13 @@ ht-degree: 79%
 1. 選取活動，然後使用所顯示快速動作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
 1. 在&#x200B;**[!UICONTROL General]**&#x200B;索引標籤中，選取必須對其執行分段的&#x200B;**[!UICONTROL Resource type]**：
 
-   * **[!UICONTROL Database resource]** 如果對資料庫中已存在的資料執行分段。根據您要分段的資料選取 **[!UICONTROL Filtering dimension]**。依預設，會對&#x200B;**輪廓**&#x200B;執行分段。
-   * **[!UICONTROL Temporary resource]** 如果對工作流的臨時資料執行分段：選取包含要分段資料的 **[!UICONTROL Targeted set]**。在匯入檔案或資料庫中的資料已變得充實之後，可以使用此使用案例。
+   * **[!UICONTROL Database resource]** 如果對資料庫中已存在的資料執行分段。 根據您要分段的資料選取 **[!UICONTROL Filtering dimension]**。 依預設，會對&#x200B;**輪廓**&#x200B;執行分段。
+   * **[!UICONTROL Temporary resource]** 如果對工作流的臨時資料執行分段：選取包含要分段資料的 **[!UICONTROL Targeted set]**。 在匯入檔案或資料庫中的資料已變得充實之後，可以使用此使用案例。
 
 1. 選取要使用的出站轉變類型：
 
    * **[!UICONTROL Generate one transition per segment]**：在活動結束時，會為每個已設定的分段新增一個出站轉變。
-   * **[!UICONTROL Generate all segments in one transition]**：所有已設定的分段都會重新分組為單一入站轉變。指定轉變標籤。每個分段的成員會保留已指派給它們的分段代碼。
+   * **[!UICONTROL Generate all segments in one transition]**：所有已設定的分段都會重新分組為單一入站轉變。 指定轉變標籤。 每個分段的成員會保留已指派給它們的分段代碼。
 
 1. 使用 ![](assets/add_darkgrey-24px.png) 或 **[!UICONTROL Add an element]** 按鈕新增區段並指定標準屬性：
 
@@ -62,13 +69,13 @@ ht-degree: 79%
    * **[!UICONTROL Limit segment population]**：可讓您限制分段大小。
    * **[!UICONTROL Filter and limit segment population]**：可讓您篩選區段群體並限制其大小。
    * **[!UICONTROL Label]**：分段標籤。
-   * **[!UICONTROL Segment code]**：指派給分段母體的代碼。分段代碼可以使用標準運算式和事件變數進行個人化（請參閱[此頁面](../../automating/using/customizing-workflow-external-parameters.md)）。
-   * **[!UICONTROL Exclude segment from population]**：可讓您從活動的對外群體中排除指定的區段。只有在選取選項時，才能使用　**[!UICONTROL Generate all segments in the same transition]**　選項。
+   * **[!UICONTROL Segment code]**：指派給區段母體的代碼。區段代碼可使用標準運算式和事件變數進行個人化（請參閱[此頁面](../../automating/using/customizing-workflow-external-parameters.md)）。
+   * **[!UICONTROL Exclude segment from population]**：可讓您從活動的對外群體中排除指定的區段。 只有在選取選項時，才能使用　**[!UICONTROL Generate all segments in the same transition]**　選項。
 
    ![](assets/wkf_segment_new_segment.png)
 
-1. 開啟分段的詳細資料檢視，以存取後者的設定選項。要執行此操作，請核取活動分段清單中的相關方塊，然後選取 ![](assets/wkf_segment_parameters_24px.png)。
-1. 如果已核取篩選初始群體的選項，請開啟 **[!UICONTROL Filter]** 索引標籤並指定分段的群體。這些篩選條件是以步驟　4　中選取的篩選維度為基礎。如需群體篩選的進一步資訊，請諮詢[查詢編輯](../../automating/using/editing-queries.md)區段。
+1. 開啟分段的詳細資料檢視，以存取後者的設定選項。 要執行此操作，請核取活動分段清單中的相關方塊，然後選取 ![](assets/wkf_segment_parameters_24px.png)。
+1. 如果已核取篩選初始群體的選項，請開啟 **[!UICONTROL Filter]** 索引標籤並指定分段的群體。 這些篩選條件是以步驟　4　中選取的篩選維度為基礎。 如需群體篩選的進一步資訊，請諮詢[查詢編輯](../../automating/using/editing-queries.md)區段。
 
    如果對暫時資源執行分段，此索引標籤無法使用群體的計數及預覽。
 
@@ -77,18 +84,18 @@ ht-degree: 79%
    首先，選取您要使用 **[!UICONTROL Type of limit]**：
 
    * **[!UICONTROL Random sampling]**：如有需要，考量　**[!UICONTROL Filter]**　索引標籤的設定時，會隨機選取區段群體。
-   * **[!UICONTROL Ordered sampling]**：分段群體是依順序選取。因此，必須指定要考慮的欄以及要套用的排序類型。例如，如果您在套用　**[!UICONTROL Descending sort]**　並將限制設定為　100 時，選取&#x200B;**年齡**&#x200B;欄位作為排序欄時，則只會保留 100 個最年長人員的輪廓。
+   * **[!UICONTROL Ordered sampling]**：分段群體是依順序選取。 因此，必須指定要考慮的欄以及要套用的排序類型。 例如，如果您在套用　**[!UICONTROL Descending sort]**　並將限制設定為　100 時，選取&#x200B;**年齡**&#x200B;欄位作為排序欄時，則只會保留 100 個最年長人員的輪廓。
 
    現在指定區段的大小 **[!UICONTROL Limit]**：
 
    * **[!UICONTROL Size (as a % of the initial population)]**：使用活動初始群體百分比來指定區段大小。
    * **[!UICONTROL Maximum size]**：指定區段群體的成員數上限。
-   * **[!UICONTROL By data grouping]**：您可以根據入站群體的特定欄位值來限制區段群體。選取要分組的欄位，然後指定要使用的值。
-   * **[!UICONTROL By data grouping (as a %)]**：您可以使用百分比，根據特定入站群體欄位的值來限制區段群體。選取要套用分組的欄位，然後指定要使用的值。
+   * **[!UICONTROL By data grouping]**：您可以根據入站群體的特定欄位值來限制區段群體。 選取要分組的欄位，然後指定要使用的值。
+   * **[!UICONTROL By data grouping (as a %)]**：您可以使用百分比，根據特定入站群體欄位的值來限制區段群體。 選取要套用分組的欄位，然後指定要使用的值。
 
      >[!NOTE]
      >
-     >可為每個值使用不同限制。例如，您可以為 **[!UICONTROL Gender]** 欄位指定分組，而且將包含 **[!UICONTROL Male]** 成員的群體限制為 10 人，並將包含 **[!UICONTROL Female]** 成員的群體限制為 30 人。如果您使用數個資料分組欄位，所有分組都必須有相同的大小。
+     >可為每個值使用不同限制。 例如，您可以為 **[!UICONTROL Gender]** 欄位指定分組，而且將包含 **[!UICONTROL Male]** 成員的群體限制為 10 人，並將包含 **[!UICONTROL Female]** 成員的群體限制為 30 人。 如果您使用數個資料分組欄位，所有分組都必須有相同的大小。
 
    ![](assets/wkf_segment_limit_by_grouping.png)
 

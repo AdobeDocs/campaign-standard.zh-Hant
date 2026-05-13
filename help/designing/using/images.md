@@ -8,9 +8,18 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: b58a378d-18da-4c0f-b4e7-5d0a02aab4c2
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/XYTeliw80GkBHk3-1DFWD-CE-85irbDAAjcuOSbQvLI
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: 303
 ht-degree: 3%
 
 ---
@@ -38,7 +47,7 @@ ht-degree: 3%
 
    ![](assets/des_insert_images_1.png)
 
-1. 按一下 **[!UICONTROL Browse]**。拖放影像或按一下以從電腦中選取檔案。
+1. 按一下 **[!UICONTROL Browse]**。 拖放影像或按一下以從電腦中選取檔案。
 
    ![](assets/des_insert_images_2.png)
 
@@ -53,11 +62,11 @@ ht-degree: 3%
 
 * **啟用個人化**&#x200B;可讓您自訂影像來源。 請參閱[個人化影像來源](../../designing/using/personalization.md#personalizing-an-image-source)。
 * **影像標題**&#x200B;可讓您定義影像的標題。
-* **替代文字** （電子郵件）或&#x200B;**註解** （登陸頁面）可讓您定義連結至影像的註解(與&#x200B;**alt** HTML屬性相對應)。
+* **替代文字** （電子郵件）或&#x200B;**註解** （登陸頁面）可讓您定義連結至影像的註解（對應至&#x200B;**alt** HTML屬性）。
 * 編輯電子郵件時，**樣式**&#x200B;可讓您指定影像大小、背景和邊框。
-* 編輯登入頁面時，**Dimension**&#x200B;可讓您指定影像大小（畫素）。
+* 編輯登入頁面時，**維度**&#x200B;可讓您指定影像大小（畫素）。
 
-編輯器可讓您使用格式與瀏覽器相容的&#x200B;**所有影像型別**。 若要與編輯器相容，必須將&#x200B;**「Flash」型別動畫**&#x200B;插入HTML頁面，如下所示：
+編輯器可讓您使用格式與瀏覽器相容的&#x200B;**所有影像型別**。 若要與編輯器相容，必須將&#x200B;**&quot;Flash&quot;型別動畫**&#x200B;插入HTML頁面，如下所示：
 
 ```
 <object type="application/x-shockwave-flash" data="http://www.mydomain.com/flash/your_animation.swf" width="200" height="400">

@@ -9,9 +9,18 @@ feature: Typology Rules
 role: User
 level: Intermediate
 exl-id: 10bd4e4f-78b4-4318-bded-4cf33b466f1d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/1uLedUXL9KXfGfdTv05T6PVQGGcgy3orf2l6TgIi4Gw
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: 310
 ht-degree: 97%
 
 ---
@@ -20,9 +29,9 @@ ht-degree: 97%
 
 ## 關於型別 {#about-typologies}
 
-類型是一組規則，可讓您在傳送郵件之前檢查郵件是否有效。例如：訊息內容並非空白、發生取消訂閱、排除重複內容等。
+類型是一組規則，可讓您在傳送郵件之前檢查郵件是否有效。 例如：訊息內容並非空白、發生取消訂閱、排除重複內容等。
 
-您可以透過 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** 功能表選單存取類型。依預設，應用程式中會提供預設的類型。您可以依據自己的需求，建立自己的類型或修改現有的類型。
+您可以透過 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** 功能表選單存取類型。 依預設，應用程式中會提供預設的類型。 您可以依據自己的需求，建立自己的類型或修改現有的類型。
 
 ![](assets/typologies-list.png)
 
@@ -32,7 +41,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->若要取得其中一個類型規則的詳細資料，請連按兩下。規則將以唯讀模式顯示。
+>若要取得其中一個類型規則的詳細資料，請連按兩下。 規則將以唯讀模式顯示。
 
 ## 建立型別 {#creating-a-typology}
 
@@ -40,19 +49,19 @@ ht-degree: 97%
 
 1. 存取 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** 功能表。
 
-1. 類型清單隨即顯示。按一下 **[!UICONTROL Create]** 按鈕。
+1. 類型清單隨即顯示。 按一下 **[!UICONTROL Create]** 按鈕。
 
    ![](assets/typologies-create.png)
 
-1. 定義類型 **[!UICONTROL Label]**，然後按一下 **[!UICONTROL Add an element]** 按鈕，以選取您要加入的類型規則。有關類型規則的詳細資訊，請參閱[本區段](../../sending/using/managing-typology-rules.md)。
+1. 定義類型 **[!UICONTROL Label]**，然後按一下 **[!UICONTROL Add an element]** 按鈕，以選取您要加入的類型規則。 有關類型規則的詳細資訊，請參閱[本區段](../../sending/using/managing-typology-rules.md)。
 
    ![](assets/typology_addrules.png)
 
    >[!NOTE]
    >
-   >欄位 **[!UICONTROL IP affinity]** 可讓您依據自己的設定來管理相關性。會在執行個體的設定檔案中定義。如果您要使用相關性，請聯絡您的管理員。
+   >欄位 **[!UICONTROL IP affinity]** 可讓您依據自己的設定來管理相關性。 會在執行個體的設定檔案中定義。 如果您要使用相關性，請聯絡您的管理員。
 
-1. 按一下 **[!UICONTROL Create]** 以確認您的選取。您的類型現已準備就緒，而可用於訊息。
+1. 按一下 **[!UICONTROL Create]** 以確認您的選取。 您的類型現已準備就緒，而可用於訊息。
 
 ## 將型別套用至訊息 {#applying-typologies-to-messages}
 
@@ -64,7 +73,7 @@ ht-degree: 97%
 
 若要將類型連結至訊息，請遵循下列步驟：
 
-1. 存取訊息屬性。請注意，可從 **[!UICONTROL Resources]** > **[!UICONTROL Templates]** 導覽功能表存取訊息範本。
+1. 存取訊息屬性。 請注意，可從 **[!UICONTROL Resources]** > **[!UICONTROL Templates]** 導覽功能表存取訊息範本。
 
 1. 在 **[!UICONTROL Advanced parameters]** > **[!UICONTROL Preparation]** 區段中，選取要連結至訊息的類型。
 
@@ -72,4 +81,4 @@ ht-degree: 97%
 
 1. 按一下 **[!UICONTROL Confirm]**。
 
-   選取的類型現在會連結至訊息。系統將執行其所有相關的類型規則，以檢查訊息是否有效。
+   選取的類型現在會連結至訊息。 系統將執行其所有相關的類型規則，以檢查訊息是否有效。

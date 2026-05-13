@@ -9,10 +9,20 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: debbc70d-4094-44c0-b7cb-c999effda1a6
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/Uqi4pPlzFEn-MLvjRPOU5Tu3tC1BDvOM49U1LKbA2lE
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 6%
+source-wordcount: 819
+ht-degree: 8%
 
 ---
 
@@ -51,7 +61,7 @@ ht-degree: 6%
 
 為了改善收件者的體驗並讓他們開啟您的電子郵件，Adobe Campaign可讓您個人化您的訊息。 如需詳細資訊，請參閱[本節](../../designing/using/personalization.md)。
 
-若要提高訊息的開啟率，您也可以手動定義每個收件者的傳送時間。 每個設定檔都會在指定的日期和時間收到訊息。 如需詳細資訊，請參閱[最佳化傳送時間](../../sending/using/optimizing-the-sending-time.md)。
+若要提高訊息的開啟率，您也可以手動定義每個收件者的傳送時間。 每個輪廓都會在指定的日期和時間收到訊息。 如需詳細資訊，請參閱[最佳化傳送時間](../../sending/using/optimizing-the-sending-time.md)。
 
 ## 選擇退出連結和表單 {#opt-out}
 
@@ -65,7 +75,7 @@ ht-degree: 6%
 
 一般而言，您不應透過要求收件者填寫電子郵件地址或名稱等欄位，來妨礙想要選擇退出的收件者。 取消訂閱登入頁面應只有一個驗證按鈕。
 
-要求額外確認並不可靠：使用者可能有兩個電子郵件地址會重新導向至同一個方塊(例如：firstname.lastname@club.com和firstname.lastname@internet-club.com)。 如果設定檔只能記住第一個地址，並希望透過傳送給另一個的訊息取消訂閱，則表單將拒絕此操作，因為加密的識別碼和輸入的電子郵件地址不匹配。
+要求額外確認並不可靠：使用者可能有兩個電子郵件地址會重新導向至同一個方塊（例如：firstname.lastname@club.com和firstname.lastname@internet-club.com）。 如果設定檔只能記住第一個地址，並希望透過傳送給另一個的訊息取消訂閱，則表單將拒絕此操作，因為加密的識別碼和輸入的電子郵件地址不匹配。
 
 ## 反垃圾郵件分析 {#anti-spam-analysis}
 
@@ -81,6 +91,6 @@ Adobe Campaign的郵件編輯器整合了&#x200B;**反垃圾郵件分析**，可
 
 ![](assets/inbox_rendering_report_3.png)
 
-為了執行此操作，Adobe Campaign 會擷取呈現，並將之用於專用報告中。這可讓您在可接收訊息的不同內容中預覽所傳送的訊息。
+為了執行此操作，Adobe Campaign 會擷取呈現，並將之用於專用報告中。 這可讓您在可接收訊息的不同內容中預覽所傳送的訊息。
 
 如需詳細資訊，請參閱「[電子郵件轉譯](../../sending/using/email-rendering.md)」。

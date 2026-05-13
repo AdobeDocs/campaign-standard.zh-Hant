@@ -9,10 +9,27 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: ecf88c7d-6729-4b3a-85c4-60427bb57442
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/ertIWjv9n88c9As-BDvGXtzsod8Bce4yTYEVpmeZeEo
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2:
+  - id: bb6c4d97-79f4-412c-a764-b541e9f9facd
+  - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
+  - id: df0d6518-6f49-46e2-b46e-3bcc513f553f
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 78%
+source-wordcount: 760
+ht-degree: 75%
 
 ---
 
@@ -26,15 +43,15 @@ ht-degree: 78%
 >
 > 依預設，Adobe Campaign 已經連結至 Adobe Experience Cloud 帳戶。
 
-根據您的環境而定，其他解決方案也可以連結至 Adobe Experience Cloud。它們作為「組織」（又稱為「租戶」）連結。
+根據您的環境而定，其他解決方案也可以連結至 Adobe Experience Cloud。 它們作為「組織」（又稱為「租戶」）連結。
 
-組織是可以讓管理員設定群組和使用者，以及控制 Experience Cloud 中單一登入的實體。組織的運作方式類似登入公司，其涵蓋所有 Experience Cloud 產品和解決方案。通常，組織就是您的公司名稱。但是，一個公司可以有許多組織。使用者和組織管理在 [Adobe Experience Cloud 說明入口網站](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=zh-Hant)中有詳細解說。
+組織是可以讓管理員設定群組和使用者，以及控制 Experience Cloud 中單一登入的實體。 組織的運作方式類似登入公司，其涵蓋所有 Experience Cloud 產品和解決方案。 通常，組織就是您的公司名稱。 但是，一個公司可以有許多組織。 使用者和組織管理在 [Adobe Experience Cloud 說明入口網站](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=zh-Hant)中有詳細解說。
 
 如果您想要將其他系統的資料流程與 Adobe Campaign 整合，請參閱我們的 [API 文件](../../api/using/get-started-apis.md)。
 
 >[!NOTE]
 >
->Adobe Campaign Standard 也可以連線至 Microsoft Dynamics 365：此整合可以同步 CRM 系統中所有可用的連絡資料，讓所有相關的連絡資料都可在行銷活動中使用。如需此整合的詳細資訊，請參閱[使用行銷活動和 Dynamics 365](../../integrating/using/d365-acs-get-started.md)。
+>Adobe Campaign Standard 也可以連線至 Microsoft Dynamics 365：此整合可以同步 CRM 系統中所有可用的連絡資料，讓所有相關的連絡資料都可在行銷活動中使用。 如需此整合的詳細資訊，請參閱[使用行銷活動和 Dynamics 365](../../integrating/using/d365-acs-get-started.md)。
 
 
 <table> 

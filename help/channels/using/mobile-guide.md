@@ -8,10 +8,21 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d4e1b935-b21f-4a24-99ba-f455db0f7cfc
-source-git-commit: afb988281f00dc17b484872259d44f51864d55f1
+TQID: https://experienceleague.adobe.com/sBjTFd0Su7In8xai4J8cp5QAsAh6pOVOf4OVAijQmXo
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '786'
-ht-degree: 22%
+source-wordcount: 799
+ht-degree: 18%
 
 ---
 
@@ -45,14 +56,14 @@ Adobe Campaign可讓您在不同通道上建立和傳送個人化訊息，並透
     <div>
     <p><strong>使用Adobe Experience Platform SDK設定行動應用程式</strong></p>
     </div>
-    <p>若要傳送應用程式內訊息和推播通知，您必須運用Adobe Experience Platform SDK，在Adobe Campaign中設定您的行動應用程式。</br><a href="../../administration/using/configuring-a-mobile-application.md"><strong>按一下這裡</strong></a>以獲得更多資訊。</p>
+    <p>若要傳送應用程式內訊息和推播通知，您必須運用Adobe Experience Platform SDK，在Adobe Campaign中設定您的行動應用程式。</br><a href="../../administration/using/configuring-a-mobile-application.md"><strong>按一下這裡</strong></a>以取得詳細資訊。</p>
     <br>
   </td>
   <td>
     <div>
     <p><strong>瞭解Campaign Standard推播通知裝載結構</strong></p>
     </div>
-    <p>進一步瞭解當推播通知成功從Adobe Campaign Standard傳送至應用程式時，行動應用程式中接收的裝載結構。</br><a href="../../administration/using/push-payload.md"><strong>按一下這裡</strong></a>以獲得更多資訊。</p>
+    <p>深入瞭解當推播通知成功從Adobe Campaign Standard傳送至應用程式時，行動應用程式中收到的裝載結構。</br><a href="../../administration/using/push-payload.md"><strong>按一下這裡</strong></a>以取得詳細資訊。</p>
     <br>
   </td>
 </tr>
@@ -68,7 +79,7 @@ Adobe Campaign可讓您在不同通道上建立和傳送個人化訊息，並透
     <div>
     <p><strong>實施推播追蹤</strong></p>
     </div>
-    <p>瞭解如何確保在iOS和Android上正確實作推播通知追蹤。</br><a href="../../administration/using/push-tracking.md"><strong>按一下這裡</strong></a>以獲得更多資訊。</p>
+    <p>瞭解如何確保在iOS和Android上正確實作推播通知追蹤。</br><a href="../../administration/using/push-tracking.md"><strong>按一下這裡</strong></a>以取得詳細資訊。</p>
     <br>
   </td>
 </tr>
@@ -82,14 +93,14 @@ Adobe Campaign可讓您在不同通道上建立和傳送個人化訊息，並透
     <div>
     <p><strong>使用Adobe Experience Platform SDK設定行動應用程式</strong></p>
     </div>
-    <p>若要傳送應用程式內訊息和推播通知，您必須運用Adobe Experience Platform SDK，在Adobe Campaign中設定您的行動應用程式。</br><a href="../../administration/using/configuring-a-mobile-application.md"><strong>按一下這裡</strong></a>以獲得更多資訊。</p>
+    <p>若要傳送應用程式內訊息和推播通知，您必須運用Adobe Experience Platform SDK，在Adobe Campaign中設定您的行動應用程式。</br><a href="../../administration/using/configuring-a-mobile-application.md"><strong>按一下這裡</strong></a>以取得詳細資訊。</p>
     <br>
   </td>
   <td>
     <div>
     <p><strong>使用Adobe Experience Platform SDK支援的行動使用案例</strong></p>
     </div>
-    <p>深入瞭解Adobe Campaign Standard支援的行動使用案例，透過使用Adobe Experience Platform SDK。</br><a href="../../administration/using/supported-mobile-use-cases.md"><strong>按一下這裡</strong></a>以獲得更多資訊。</p>
+    <p>深入瞭解Adobe Campaign Standard支援的行動使用案例，透過使用Adobe Experience Platform SDK。</br><a href="../../administration/using/supported-mobile-use-cases.md"><strong>按一下這裡</strong></a>以取得詳細資訊。</p>
     <br>
   </td>
 </tr>
@@ -163,7 +174,7 @@ Adobe Campaign可讓您在不同通道上建立和傳送個人化訊息，並透
     <div>
     <p><strong>自訂您的應用程式內訊息</strong></p>
     </div>
-    <p>為了微調您的傳送，Adobe Campaign可讓您在設計應用程式內時，存取一組進階選項。</br><a href="../../channels/using/customizing-an-in-app-message.md"><strong>按一下這裡</strong></a>以獲得更多資訊。</p>
+    <p>若要微調您的傳遞，Adobe Campaign可讓您在設計應用程式內時存取一組進階選項。</br><a href="../../channels/using/customizing-an-in-app-message.md"><strong>按一下這裡</strong></a>以取得詳細資訊。</p>
     <br>
   </td>
 </tr>
@@ -172,7 +183,7 @@ Adobe Campaign可讓您在不同通道上建立和傳送個人化訊息，並透
     <div>
     <p><strong>自訂本機通知訊息型別</strong></p>
     </div>
-    <p>本機通知只能由應用程式在特定時間內觸發，且會視事件而定。</br><a href="../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type"><strong>按一下這裡</strong></a>以獲得更多資訊。</p>
+    <p>本機通知只能由應用程式在特定時間內觸發，且會視事件而定。 </br><a href="../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type"><strong>按一下這裡</strong></a>以獲得更多資訊。</p>
     <br>
   </td>
   <td>
@@ -193,7 +204,7 @@ Adobe Campaign可讓您在不同通道上建立和傳送個人化訊息，並透
     <div>
     <p><strong>建立簡訊訊息</strong></p>
     </div>
-    <p>建立簡訊傳送與建立一般電子郵件非常類似。</br>步驟<a href="../../channels/using/creating-an-sms-message.md"><strong>在此詳細說明</strong></a>說明此管道的特定設定。</p>
+    <p>建立簡訊傳送與建立一般電子郵件非常類似。 </br>步驟<a href="../../channels/using/creating-an-sms-message.md"><strong>在此詳細說明</strong></a>說明此管道的特定設定。</p>
     <br>
   </td>
   <td>

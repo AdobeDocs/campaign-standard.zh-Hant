@@ -10,9 +10,16 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 6a59907d-850e-4d61-b1f7-8fc8b915580e
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/z40XwpSoXzB0KpOs44BVIkxbUWAZShPIyb9l0QHUXZs
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: 254
 ht-degree: 87%
 
 ---
@@ -21,7 +28,7 @@ ht-degree: 87%
 
 此範例說明如何使用 **[!UICONTROL Read audience]** 活動調和直接從檔案匯入建立的客群。
 
-執行檔案匯入時，您可以直接將其內容儲存在客群中。此客群是檔案客群，其資料未連結至任何資料庫資源。
+執行檔案匯入時，您可以直接將其內容儲存在客群中。 此客群是檔案客群，其資料未連結至任何資料庫資源。
 
 匯入工作流程的設計如下：
 
@@ -45,12 +52,12 @@ ht-degree: 87%
   Ross;Timothy;04/07/1986;timross@example.com;157643
   ```
 
-* 「儲 [存客群](../../automating/using/save-audience.md) 」活動會將傳入的資料儲存為客群。由於資料尚未調和，因此客群是檔案客群，其資料尚未被識別為輪廓資料。
+* 「儲 [存客群](../../automating/using/save-audience.md) 」活動會將傳入的資料儲存為客群。 由於資料尚未調和，因此客群是檔案客群，其資料尚未被識別為輪廓資料。
 
 調和工作流程的設計如下：
 
 ![](assets/readaudience_activity_example2.png)
 
 * [讀取對象](../../automating/using/read-audience.md)活動會上傳在匯入工作流程中建立的檔案對象。 尚未與 Adobe Campaign 資料庫調和客群資料。
-* [調和](../../automating/using/reconciliation.md)活動會透過 **[!UICONTROL Identification]** 索引標籤，將傳入資料識別為輪廓。例如，使用&#x200B;**電子郵件**&#x200B;欄位作為調和標準。
-* [更新資料](../../automating/using/update-data.md)活動將插入和更新包含傳入資料之資料庫的輪廓資源。由於已將資料識別為輪廓，您可以選取 **[!UICONTROL Directly using the targeting dimension]** 選項，然後再選取活動之 **[!UICONTROL Identification]** 索引標籤中的 **[!UICONTROL Profiles]**。之後，您只需要在隨後出現的索引標籤中新增需要更新的欄位清單即可。
+* [調和](../../automating/using/reconciliation.md)活動會透過 **[!UICONTROL Identification]** 索引標籤，將傳入資料識別為輪廓。 例如，使用&#x200B;**電子郵件**&#x200B;欄位作為調和標準。
+* [更新資料](../../automating/using/update-data.md)活動將插入和更新包含傳入資料之資料庫的輪廓資源。 由於已將資料識別為輪廓，您可以選取 **[!UICONTROL Directly using the targeting dimension]** 選項，然後再選取活動之 **[!UICONTROL Identification]** 索引標籤中的 **[!UICONTROL Profiles]**。 之後，您只需要在隨後出現的索引標籤中新增需要更新的欄位清單即可。

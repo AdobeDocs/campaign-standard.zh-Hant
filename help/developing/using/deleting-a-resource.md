@@ -8,10 +8,15 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 4ddfdbcc-a154-4c10-a97e-73ad888d1f1f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/cDShxyrLISaGidkLNnhtMwZHbo8SlRie6DTV0yVR6IY
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 14%
+source-wordcount: 251
+ht-degree: 15%
 
 ---
 
@@ -33,7 +38,7 @@ ht-degree: 14%
 
    ![](assets/schema_extension_uc26.png)
 
-1. 按一下&#x200B;**[!UICONTROL Ok]**。
+1. 按一下 **[!UICONTROL Ok]**。
 
    >[!IMPORTANT]
    >
@@ -45,7 +50,7 @@ ht-degree: 14%
    >
    >如果您重新草擬現成可用的&#x200B;**設定檔(profile)**&#x200B;資源的擴充功能，也必須重新草擬您可能已定義的任何&#x200B;**測試設定檔(seedMember)**&#x200B;擴充功能。 如需擴充設定檔資源的詳細資訊，請參閱[本節](../../developing/using/extending-the-profile-resource-with-a-new-field.md)。
 
-1. Publish資源。 如需詳細步驟，請參閱[發佈自訂資源](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)。
+1. 發佈資源。 如需詳細步驟，請參閱[發佈自訂資源](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)。
 
    資源接著會進入&#x200B;**草稿**&#x200B;模式，其啟用狀態為&#x200B;**[!UICONTROL Inactive]**。
 
@@ -57,4 +62,4 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->如果修改或刪除用於事件之自訂資源的欄位，則相對應的事件將會自動取消發佈。請參閱[取消發佈交易式事件](../../channels/using/publishing-transactional-event.md#unpublishing-an-event)。
+>如果修改或刪除用於事件之自訂資源的欄位，則相對應的事件將會自動取消發佈。 請參閱[取消發佈交易式事件](../../channels/using/publishing-transactional-event.md#unpublishing-an-event)。

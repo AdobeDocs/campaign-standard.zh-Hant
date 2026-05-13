@@ -9,9 +9,21 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: ab21b694-d05c-4ba4-b828-936803651b82
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/F-zxGFIsIDW-Xc5hMICIAwHOVDpChxl-AjyCJLjR-v4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: 601
 ht-degree: 0%
 
 ---
@@ -52,7 +64,7 @@ Adobe I/O可讓您啟用Adobe Campaign Standard及其他Adobe產品的API存取�
 
 1. 導覽至[Adobe Developer Console](https://console.adobe.io/home#)，並從畫面右上方的下拉式選單中選取您的Adobe組織ID。
 
-1. 然後按一下&#x200B;**[!UICONTROL Create new project]**&#x200B;下的&#x200B;**[!UICONTROL Quick Start]**。
+1. 然後按一下&#x200B;**[!UICONTROL Quick Start]**&#x200B;下的&#x200B;**[!UICONTROL Create new project]**。
 
    ![](assets/adobeIO1.png)
 

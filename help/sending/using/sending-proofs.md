@@ -9,9 +9,16 @@ feature: Proofs
 role: User
 level: Intermediate
 exl-id: 75b64c43-f066-45e7-8d61-95eba8f52b05
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/L2Rj-JoGUPKPQnEUZY-l-fh4FMI-vMm7D4OX8S2Vnd0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: 585
 ht-degree: 98%
 
 ---
@@ -20,19 +27,19 @@ ht-degree: 98%
 
 ## 關於校樣 {#about-proofs}
 
-校樣是一種特定訊息，可讓您在將訊息傳送至主要目標之前先測試訊息。校樣的收件者負責核准訊息（其內容和表格）。
+校樣是一種特定訊息，可讓您在將訊息傳送至主要目標之前先測試訊息。 校樣的收件者負責核准訊息（其內容和表格）。
 
 校樣收件者有兩種類型：
 
-* **測試設定檔**&#x200B;可讓您鎖定不符合已定義定位準則的其他收件者。
+* **測試輪廓**&#x200B;可讓您鎖定不符合已定義定位準則的其他收件者。
 
-  您可以將這些資料新增至訊息的客群，以偵測任何詐用收件者資料庫的行為，或確保電子郵件送達收件匣。如需詳細資訊，請參閱[管理測試設定檔](../../audiences/using/managing-test-profiles.md)。
+  您可以將這些資料新增至訊息的客群，以偵測任何詐用收件者資料庫的行為，或確保電子郵件送達收件匣。 如需詳細資訊，請參閱[管理測試輪廓](../../audiences/using/managing-test-profiles.md)。
 
   >[!NOTE]
   >
   >為了傳送校樣，必須將測試輪廓包含在訊息的客群中。
 
-* **替代設定檔**&#x200B;可讓您將自己置於其中一個目標設定檔的位置，並取得設定檔將接收到之訊息的精確表示。如需詳細資訊，請參閱[使用目標設定檔測試電子郵件訊息](../../sending/using/testing-messages-using-target.md)。
+* **替代輪廓**&#x200B;可讓您將自己置於其中一個目標輪廓的位置，並取得輪廓將接收到之訊息的精確表示。 如需詳細資訊，請參閱[使用目標輪廓測試電子郵件訊息](../../sending/using/testing-messages-using-target.md)。
 
   >[!NOTE]
   >
@@ -44,7 +51,7 @@ ht-degree: 98%
 
 1. 請確定校樣收件者已設定：
    * **測試輪廓**&#x200B;必須包含在訊息的客群中。
-   * 訊息準備成功之後，必須新增&#x200B;**替代設定檔**（請參閱[本區段](../../sending/using/testing-messages-using-target.md)）。
+   * 訊息準備成功之後，必須新增&#x200B;**替代輪廓**（請參閱[本區段](../../sending/using/testing-messages-using-target.md)）。
 
 1. 按一下 **[!UICONTROL Send a test]** 按鈕。
 
@@ -52,15 +59,15 @@ ht-degree: 98%
 
 1. 選取要使用的校樣類型：
 
-   * **[!UICONTROL Email rendering]**：選取此選項，依據設定為目標的收件匣，以測試接收訊息的方式。如需詳細資訊，請參閱[電子郵件呈現](../../sending/using/email-rendering.md)。
-   * **[!UICONTROL Proof]**：選取此選項，在將訊息發送到主要目標之前測試該訊息。校樣收件者會負責藉由檢查傳送的內容及格式來核准傳送。
+   * **[!UICONTROL Email rendering]**：選取此選項，依據設定為目標的收件匣，以測試接收訊息的方式。 如需詳細資訊，請參閱[電子郵件呈現](../../sending/using/email-rendering.md)。
+   * **[!UICONTROL Proof]**：選取此選項，在將訊息發送到主要目標之前測試該訊息。 校樣收件者會負責藉由檢查傳送的內容及格式來核准傳送。
    * **[!UICONTROL Proof + Email rendering]**：此選項會結合前兩個選項。
 
    ![](assets/bat_select1.png)
 
    >[!NOTE]
    >
-   >只有測試設定檔才提能供電子郵件呈現。如果未將測試設定檔新增至訊息，則只有　**[!UICONTROL Proof]**　選項可供選取。
+   >只有測試輪廓才提能供電子郵件呈現。 如果未將測試輪廓新增至訊息，則只有　**[!UICONTROL Proof]**　選項可供選取。
 
 1. 確認您的選取。
 
@@ -72,13 +79,13 @@ ht-degree: 98%
 
    ![](assets/bat_view.png)
 
-1. 選取校樣以存取其摘要。對於電子郵件，如果您已選取&#x200B;**電子郵件呈現**&#x200B;作為校樣類型，**[!UICONTROL Access email rendering]** 圖示就會顯示在校樣標籤的右側。請參閱[電子郵件呈現](../../sending/using/email-rendering.md)。
+1. 選取校樣以存取其摘要。 對於電子郵件，如果您已選取&#x200B;**電子郵件呈現**&#x200B;作為校樣類型，**[!UICONTROL Access email rendering]** 圖示就會顯示在校樣標籤的右側。 請參閱[電子郵件呈現](../../sending/using/email-rendering.md)。
 
    ![](assets/bat_view2.png)
 
-依據收到校樣之人員的意見，可能會要求您修改傳送的內容。執行修改之後，您必須重新開始電子郵件準備作業，然後重新傳送校樣。每個新校樣都可使用 **[!UICONTROL Show proofs]** 按鈕進行存取。
+依據收到校樣之人員的意見，可能會要求您修改傳送的內容。 執行修改之後，您必須重新開始電子郵件準備作業，然後重新傳送校樣。 每個新校樣都可使用 **[!UICONTROL Show proofs]** 按鈕進行存取。
 
-您必須視需要傳送多份校樣，直到完成傳送內容為止。完成此操作後，您可以將傳送內容傳送至主要目標並關閉核准週期。
+您必須視需要傳送多份校樣，直到完成傳送內容為止。 完成此操作後，您可以將傳送內容傳送至主要目標並關閉核准週期。
 
 ## 設定校樣的主旨行 {#configuring-proofs-subject-line}
 
@@ -99,12 +106,12 @@ ht-degree: 98%
 
 ![](assets/proof-prefix-configuration.png)
 
-1. 按一下 **[!UICONTROL Confirm]**。預設會將設定套用至針對所選訊息傳送的所有校樣。
+1. 按一下 **[!UICONTROL Confirm]**。 預設會將設定套用至針對所選訊息傳送的所有校樣。
 
 **相關主題：**
 
 * [傳送測試、準備和傳送電子郵件](../../sending/using/get-started-sending-messages.md#video)視訊
-* [使用目標設定檔測試電子郵件訊息](../../sending/using/testing-messages-using-target.md)
-* [管理測試設定檔](../../audiences/using/managing-test-profiles.md)
+* [使用目標輪廓測試電子郵件訊息](../../sending/using/testing-messages-using-target.md)
+* [管理測試輪廓](../../audiences/using/managing-test-profiles.md)
 * [預覽訊息](../../sending/using/previewing-messages.md)
 * [設定電子郵件頻道](../../administration/using/configuring-email-channel.md)

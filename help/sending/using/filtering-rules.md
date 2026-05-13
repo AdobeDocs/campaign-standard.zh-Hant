@@ -8,10 +8,19 @@ feature: Typology Rules
 role: User
 level: Intermediate
 exl-id: 43e97f3c-ed82-4fcc-ac0d-fcee6a22da35
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+TQID: https://experienceleague.adobe.com/ThX9BHPlbOlav6-5z8P1ruwSc2-phnvnkqjLaSZO3Fs
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 3%
+source-wordcount: 662
+ht-degree: 4%
 
 ---
 
@@ -25,7 +34,7 @@ ht-degree: 3%
 
 | 標籤 | 管道 | 說明 |
 | ---------|----------|---------|
-| **[!UICONTROL Address not specified]** | 全部 | 排除未指定地址（電子郵件、郵寄地址等）的目標母體。 （根據選取的管道）。 |
+| **[!UICONTROL Address not specified]** | 全部 | 排除未指定地址（電子郵件、郵寄地址等）的目標母體（根據所選頻道）。 |
 | **[!UICONTROL Address on denylist]** | 全部 | 排除封鎖清單上的地址。 |
 | **[!UICONTROL Duplicate]** | 全部 | 根據目標母體&#x200B;**[!UICONTROL Address]**&#x200B;欄位排除重複專案。 |
 | **[!UICONTROL Exclude mobile applications]** | 行動應用程式 | 排除與訊息中定義的行動應用程式不符的應用程式訂閱。 |
@@ -38,7 +47,7 @@ ht-degree: 3%
 除了這些預設篩選規則外，還提供兩個排除規則：
 
 * **[!UICONTROL Exclusion of addresses]** ( **[!UICONTROL addressExclusions]** )
-* **[!UICONTROL Exclusion of domains]** ( **[!UICONTROL domainExclusions]** )。
+* **[!UICONTROL Exclusion of domains]** ( **[!UICONTROL domainExclusions]** ).
 
 在電子郵件分析期間，這些規則會將收件者電子郵件地址與包含在加密全域隱藏清單（在傳遞能力執行個體中管理）中的禁止地址或網域名稱進行比較。 如果有相符專案，則不會傳送訊息給該收件者。
 

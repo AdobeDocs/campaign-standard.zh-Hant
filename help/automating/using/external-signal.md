@@ -10,9 +10,22 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: a4fbd6b5-7cfb-44ad-bf3a-f3aabc122b77
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/-Bmy97uF0S3O3EHS8Dsx9yQt7wKNvqijOVxhtpVL1dc
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+subfeature_v2:
+  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: 601
 ht-degree: 95%
 
 ---
@@ -27,17 +40,17 @@ ht-degree: 95%
 
 ## 使用內容 {#context-of-use}
 
-**[!UICONTROL External signal]** 活動可用來組織和協調不同的流程，這些流程是同一客戶歷程中不同工作流程的一部分。它允許從另一個工作流程開始，以支援更複雜的客戶歷程，同時更能監控和回應問題。
+**[!UICONTROL External signal]** 活動可用來組織和協調不同的流程，這些流程是同一客戶歷程中不同工作流程的一部分。 它允許從另一個工作流程開始，以支援更複雜的客戶歷程，同時更能監控和回應問題。
 
-**[!UICONTROL External signal]** 活動設計作為工作流程的第一個活動。可從其他工作流程 **[!UICONTROL End]** 的活動或REST API呼叫（如需詳細資訊，請參閱 [API檔案](../../api/using/triggering-a-signal-activity.md)）觸發。
+**[!UICONTROL External signal]** 活動設計作為工作流程的第一個活動。 可從其他工作流程 **[!UICONTROL End]** 的活動或REST API呼叫（如需詳細資訊，請參閱 [API檔案](../../api/using/triggering-a-signal-activity.md)）觸發。
 
-觸發時，可定義外部參數，並可在工作流程事件變數中使用。使用外部參數呼叫工作流程的過程在[本區段](../../automating/using/calling-a-workflow-with-external-parameters.md)進行詳細說明。
+觸發時，可定義外部參數，並可在工作流程事件變數中使用。 使用外部參數呼叫工作流程的過程在[本區段](../../automating/using/calling-a-workflow-with-external-parameters.md)進行詳細說明。
 
 >[!NOTE]
 >
 >活動觸發頻率不得超過每　10 分鐘一次。
 
-請注意，活動 **[!UICONTROL External signal]** 可從數個不同的事件觸發。在這種情況下，當 **[!UICONTROL External signal]** 執行其中一個來源工作流程或 API 呼叫時，就會立即觸發。它不需要完成所有來源工作流程。
+請注意，活動 **[!UICONTROL External signal]** 可從數個不同的事件觸發。 在這種情況下，當 **[!UICONTROL External signal]** 執行其中一個來源工作流程或 API 呼叫時，就會立即觸發。 它不需要完成所有來源工作流程。
 
 **相關主題**
 
@@ -46,13 +59,13 @@ ht-degree: 95%
 
 ## 設定 {#configuration}
 
-設定外部訊號時，首先必須在目標工作流程中設定 **[!UICONTROL External signal]** 活動。完成此設定後，此工作流程的 **[!UICONTROL External signal]** 活動將可用於設定來源工作流程的 **[!UICONTROL End]** 活動。
+設定外部訊號時，首先必須在目標工作流程中設定 **[!UICONTROL External signal]** 活動。 完成此設定後，此工作流程的 **[!UICONTROL External signal]** 活動將可用於設定來源工作流程的 **[!UICONTROL End]** 活動。
 
 1. 將　**[!UICONTROL External signal]**　活動拖放至您的目標工作流程。
 1. 選取活動，然後使用所顯示快速動作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
-1. 編輯活動的標籤。設定觸發 **[!UICONTROL External signal]** 的來源工作流程時需要此標籤。
+1. 編輯活動的標籤。 設定觸發 **[!UICONTROL External signal]** 的來源工作流程時需要此標籤。
 
-   如果要使用參數呼叫工作流程，請使用 **[!UICONTROL Parameters]** 區域來進行宣告。如需詳細資訊，請參閱[此頁面](../../automating/using/declaring-parameters-external-signal.md)。
+   如果要使用參數呼叫工作流程，請使用 **[!UICONTROL Parameters]** 區域來進行宣告。 如需詳細資訊，請參閱[此頁面](../../automating/using/declaring-parameters-external-signal.md)。
 
    ![](assets/external_signal_configuration.png)
 
@@ -60,13 +73,13 @@ ht-degree: 95%
 
    >[!NOTE]
    >
-   >如果要從另一個工作流程觸發目標工作流程，請繼續下列步驟。如果您想要從 REST API 呼叫觸發目標工作流程，請參閱 [API 文件](../../api/using/triggering-a-signal-activity.md)，以取得詳細資訊。
+   >如果要從另一個工作流程觸發目標工作流程，請繼續下列步驟。 如果您想要從 REST API 呼叫觸發目標工作流程，請參閱 [API 文件](../../api/using/triggering-a-signal-activity.md)，以取得詳細資訊。
 
-1. 開啟來源工作流程並選取 **[!UICONTROL End]** 活動。如果沒有可用 **[!UICONTROL End]** 活動，請在工作流程分支的最後一個活動後新增一個活動。
+1. 開啟來源工作流程並選取 **[!UICONTROL End]** 活動。 如果沒有可用 **[!UICONTROL End]** 活動，請在工作流程分支的最後一個活動後新增一個活動。
 
-   有些活動預設沒有任何出站轉變。從這些 **[!UICONTROL Properties]** 活動的索引標籤中，可以新增出站轉變。
+   有些活動預設沒有任何出站轉變。 從這些 **[!UICONTROL Properties]** 活動的索引標籤中，可以新增出站轉變。
 
-   例如，在 **[!UICONTROL Update data]** 活動中，移至 **[!UICONTROL Transitions]** 索引標籤並核取選項 **[!UICONTROL Add an outbound transition without the population]**。此選項可新增不含任何資料且不佔用系統中任何不必要的空間的轉變。它只是用來連接觸發目標工作流程的額外 **[!UICONTROL End]** 活動。
+   例如，在 **[!UICONTROL Update data]** 活動中，移至 **[!UICONTROL Transitions]** 索引標籤並核取選項 **[!UICONTROL Add an outbound transition without the population]**。 此選項可新增不含任何資料且不佔用系統中任何不必要的空間的轉變。 它只是用來連接觸發目標工作流程的額外 **[!UICONTROL End]** 活動。
 
    ![](assets/external_signal_empty_transition.png)
 
@@ -74,7 +87,7 @@ ht-degree: 95%
 
    當您設定 **[!UICONTROL End]** 活動以觸發另一個工作流程時，其圖示會以其他訊號符號更新。
 
-   如果要使用參數呼叫工作流程，請使用 **[!UICONTROL Parameters and values]** 區域。如需詳細資訊，請參閱[此頁面](../../automating/using/defining-parameters-calling-workflow.md)。
+   如果要使用參數呼叫工作流程，請使用 **[!UICONTROL Parameters and values]** 區域。 如需詳細資訊，請參閱[此頁面](../../automating/using/defining-parameters-calling-workflow.md)。
 
    ![](assets/external_signal_end.png)
 
@@ -84,4 +97,4 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->目標工作流程必須先手動啟動，才能觸發。啟動後，將啟動 **[!UICONTROL External activity]** 並等待來源工作流程中的訊號。
+>目標工作流程必須先手動啟動，才能觸發。 啟動後，將啟動 **[!UICONTROL External activity]** 並等待來源工作流程中的訊號。

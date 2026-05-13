@@ -8,9 +8,18 @@ feature: Performance Monitoring
 role: User
 level: Intermediate
 exl-id: 7bf380d7-195e-413d-b14e-85e78b07ba8b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/azrQgfcyinGmbmazAdX8-9zBVYqew1j3DS4sb2FaU-4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: 365
 ht-degree: 5%
 
 ---
@@ -27,9 +36,9 @@ ht-degree: 5%
 >
 >Adobe Campaign本身不會管理封存的檔案。 它可讓您選擇的訊息傳送至專用地址，您可在其中使用外部系統處理和封存訊息。
 
-## Recommendations和限制 {#recommendations-and-limitations}
+## 建議和限制 {#recommendations-and-limitations}
 
-* 此功能是選取性的。請檢查您的授權合約，並聯絡您的帳戶管理員以啟用它。
+* 此功能是選取性的。 請檢查您的授權合約，並聯絡您的帳戶管理員以啟用它。
 * 您必須將您選擇的密件副本位址提供給會為您設定該位址的Adobe團隊。
 * 您只能使用一個密件副本電子郵件地址。
 * 只考慮已成功傳送的電子郵件。 跳出則否。

@@ -5,16 +5,27 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: c7aca0c3-525d-4195-8c04-2fad32ca43b7
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/sOXv3QMAjOt2gadC9uDyaZA8SVVfoXspzpJ8NOZQkzQ
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+subfeature_v2:
+  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: 593
 ht-degree: 6%
 
 ---
 
 # 使用複合識別鍵呼叫資源{#calling-a-resource-using-a-composite-identification-key}
 
-在某些情況下，您可能需要為資源定義由兩個欄位組成的識別索引鍵。 在設定識別金鑰後，您需要設定篩選器定義，以便能夠從Campaign Standard介面或API使用此識別金鑰呼叫資源。
+在某些情況下，您可能需要為資源定義由兩個欄位組成的識別索引鍵。 設定識別金鑰後，您需要設定篩選器定義，以便能夠從Campaign Standard介面或API使用此識別金鑰呼叫資源。
 
 在此使用案例中，**設定檔**&#x200B;資源已使用自訂&#x200B;**&quot;CRM ID&quot;**&#x200B;和&#x200B;**&quot;category&quot;**&#x200B;欄位擴充。 我們將為設定檔資源建立識別金鑰，該金鑰將由這兩個欄位組成。 然後，我們將設定篩選定義，以便可以使用識別鍵存取設定檔資源。
 
@@ -28,7 +39,7 @@ ht-degree: 6%
 
 * [建立或擴充資源](../../developing/using/creating-or-extending-the-resource.md)
 * [定義識別鍵](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
-* [CAMPAIGN STANDARDREST API](../../api/using/get-started-apis.md)
+* [CAMPAIGN STANDARD REST API](../../api/using/get-started-apis.md)
 
 ## 步驟1：設定識別鍵{#step-1-configure-the-identification-key}
 
@@ -94,7 +105,7 @@ ht-degree: 6%
 
 ![](assets/uc_idkey9.png)
 
-若要使用Campaign StandardREST API的篩選定義，請使用下列語法：
+若要使用Campaign Standard REST API的篩選器定義，請使用下列語法：
 
 ```
 GET /profileAndServicesExt/<resourceName>/by<filterName>?<param1_parameter>=<value>&<param2_parameter>=<value>
@@ -109,4 +120,4 @@ GET /profileAndServicesExt/<resourceName>/by<filterName>?<param1_parameter>=<val
 GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byidentification_key?category_parameter=spring&crm_id_parameter=123456
 ```
 
-如需詳細資訊，請參閱[Campaign StandardREST API檔案](../../api/using/filtering.md)。
+如需詳細資訊，請參閱[Campaign Standard REST API檔案](../../api/using/filtering.md)。

@@ -10,20 +10,27 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 7d0e3f17-ef04-4890-b63b-6957fc6cd648
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/0-hk7-ypJoU-1Sw4HYmYoYnv9z9iwFrsSQoPWNyhmik
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 81%
+source-wordcount: 338
+ht-degree: 86%
 
 ---
 
 # 使用關係進行資料協調 {#reconciliation-relations}
 
-下列範例會示範使用檔案中的購買資料更新資料庫的工作流程。採購資料包含參考其他維度的資料元素，例如客戶電子郵件和產品代碼。
+下列範例會示範使用檔案中的購買資料更新資料庫的工作流程。 採購資料包含參考其他維度的資料元素，例如客戶電子郵件和產品代碼。
 
 >[!NOTE]
 >
->依預設，Adobe Campaign 資料庫中沒有此範例使用的&#x200B;**交易**&#x200B;及&#x200B;**產品**&#x200B;資源。因此，會預先使用[自訂資源](../../developing/using/data-model-concepts.md)函式建立這些資源。與已匯入檔案的電子郵件地址以及產品相對應的輪廓，會預先載入資料庫。
+>依預設，Adobe Campaign 資料庫中沒有此範例使用的&#x200B;**交易**&#x200B;及&#x200B;**產品**&#x200B;資源。 因此，會預先使用[自訂資源](../../developing/using/data-model-concepts.md)函式建立這些資源。 與已匯入檔案的電子郵件地址以及產品相對應的輪廓，會預先載入資料庫。
 
 工作流程由下列活動組成：
 
@@ -48,7 +55,7 @@ ht-degree: 81%
   2015-05-19 09:06:00;mail9@email.com;ZZ6
   ```
 
-* [調解](../../automating/using/reconciliation.md)活動，將購買資料繫結至資料庫設定檔及產品。 因此，必須定義檔案資料與輪廓表格及產品表格之間的關係。會在活動 **[!UICONTROL Relations]** 索引標籤中執行此設定：
+* [調解](../../automating/using/reconciliation.md)活動，將購買資料繫結至資料庫設定檔及產品。 因此，必須定義檔案資料與輪廓表格及產品表格之間的關係。 會在活動 **[!UICONTROL Relations]** 索引標籤中執行此設定：
 
    * 與&#x200B;**輪廓**&#x200B;的關係：檔案的&#x200B;**客戶**&#x200B;欄已連結至&#x200B;**輪廓**&#x200B;維度的&#x200B;**電子郵件**&#x200B;欄位。
    * 與&#x200B;**產品**&#x200B;的關係：檔案的&#x200B;**產品**&#x200B;欄已連結至&#x200B;**輪廓**&#x200B;維度的 **productCode** 欄位。
@@ -59,7 +66,7 @@ ht-degree: 81%
 
 * [更新資料](../../automating/using/update-data.md)活動可讓您定義資料庫欄位，以使用匯入的資料進行更新。 由於已將資料識別為屬於前一個活動的&#x200B;**交易**&#x200B;維度，因此，您可以在此處使用 **[!UICONTROL Directly using the targeting dimension]** 識別選項。
 
-  使用會自動偵測要更新欄位的選項，會將前一個活動 (至輪廓及產品) 中設定的連結新增到 **[!UICONTROL Fields to update]** 清單。您也必須確定與交易日期相對應的欄位已正確新增至此清單。
+  使用會自動偵測要更新欄位的選項，會將前一個活動 (至輪廓及產品) 中設定的連結新增到 **[!UICONTROL Fields to update]** 清單。 您也必須確定與交易日期相對應的欄位已正確新增至此清單。
 
   ![](assets/reconciliation_example5.png)
 

@@ -9,9 +9,14 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: dc45f487-7502-478d-a2b3-51669cc6b225
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/oqbuWT87B-EkgJVioe5VMlsuqfOoI3tZA9RKM0LG4RI
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: 616
 ht-degree: 96%
 
 ---
@@ -45,7 +50,7 @@ ht-degree: 96%
 
 1. 核取&#x200B;**[!UICONTROL Customize the list configuration]** 該方塊以定義資源欄的顯示方式。
 1. 使用 **[!UICONTROL Create element]** 按鈕從已建立的欄位中選取欄位。
-1. 建立的欄位將顯示在清單中。您可以編輯其標籤和寬度。
+1. 建立的欄位將顯示在清單中。 您可以編輯其標籤和寬度。
 
    ![](assets/schema_extension_20.png)
 
@@ -55,9 +60,9 @@ ht-degree: 96%
    >
    >此設定將替換預設搜尋中使用的欄位。
 
-1. 在 **[!UICONTROL Advanced filtering]** 區段中，核取 **[!UICONTROL Add search fields]** 方塊以新增簡單搜尋欄位以外的其他欄位。例如，如果您從已建立的欄位中選取 &quot;date&quot; 欄位，使用者將可執行僅參考日期的搜尋。
+1. 在 **[!UICONTROL Advanced filtering]** 區段中，核取 **[!UICONTROL Add search fields]** 方塊以新增簡單搜尋欄位以外的其他欄位。 例如，如果您從已建立的欄位中選取 &quot;date&quot; 欄位，使用者將可執行僅參考日期的搜尋。
 1. 您可以修改這兩種搜尋類型的欄位順序。
-1. 對於進階搜尋，您可以新增連結到連結資源的欄位。這些篩選器會出現在產生畫面的 **[!UICONTROL Search]** 功能表中。
+1. 對於進階搜尋，您可以新增連結到連結資源的欄位。 這些篩選器會出現在產生畫面的 **[!UICONTROL Search]** 功能表中。
 
 現在已定義資源的概觀畫面。
 
@@ -65,8 +70,8 @@ ht-degree: 96%
 
 畫面定義的 **[!UICONTROL Detail screen configuration]** 區段可讓您定義將顯示在資源每個元素的詳細資訊畫面中的欄和資訊。
 
-1. 展開該 **[!UICONTROL Detail screen configuration]** 區段並核取 **[!UICONTROL Define a detail screen]** 以設定與資源的每個元素對應的畫面。如果不核取此方塊，則無法存取此資源元素的詳細檢視。
-1. 只要按一下，您就可從自訂資源新增所有欄位。若要這麼做，請按一下 ![](assets/addallfieldsicon.png) 圖示或使用 **[!UICONTROL Add an element]** 按鈕。
+1. 展開該 **[!UICONTROL Detail screen configuration]** 區段並核取 **[!UICONTROL Define a detail screen]** 以設定與資源的每個元素對應的畫面。 如果不核取此方塊，則無法存取此資源元素的詳細檢視。
+1. 只要按一下，您就可從自訂資源新增所有欄位。 若要這麼做，請按一下 ![](assets/addallfieldsicon.png) 圖示或使用 **[!UICONTROL Add an element]** 按鈕。
 1. 從為此資源建立的元素中選取一個元素並指定欄位類型：
 
    * **[!UICONTROL Input field]**：是可編輯的欄位。
@@ -76,7 +81,7 @@ ht-degree: 96%
 
    ![](assets/schema_extension_23.png)
 
-1. 新增的元素會顯示在清單中。您可以編輯其標籤。
+1. 新增的元素會顯示在清單中。 您可以編輯其標籤。
 
    ![](assets/schema_extension_22.png)
 
@@ -90,11 +95,11 @@ ht-degree: 96%
 
 ## 資料區段的動作 {#actions-on-data-section}
 
-這些設定可讓您在自訂資源畫面中顯示控制欄。有三種可用選項：
+這些設定可讓您在自訂資源畫面中顯示控制欄。 有三種可用選項：
 
 ![](assets/schema_extension_actions.png)
 
-* **[!UICONTROL Authorize creating]**：此選項可讓您啟動建立資源的元素。因此，使用者可以新增其他記錄。
+* **[!UICONTROL Authorize creating]**：此選項可讓您啟動建立資源的元素。 因此，使用者可以新增其他記錄。
 
   >[!NOTE]
   >

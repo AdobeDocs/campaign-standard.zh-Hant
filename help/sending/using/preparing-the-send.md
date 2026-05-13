@@ -8,9 +8,21 @@ feature: Send Time Optimization
 role: User
 level: Intermediate
 exl-id: 0140c41a-7255-4b77-a1b7-c6f7b1135e51
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/ARRxgarwKQmsl21vcz-rJ6MzcLP6RDmMnsBJDVsH25c
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: 462
 ht-degree: 12%
 
 ---
@@ -25,13 +37,13 @@ ht-degree: 12%
 
 1. **[!UICONTROL Deployment]**&#x200B;區塊顯示準備進度，然後顯示準備統計資料：目標訊息數、要傳送的訊息數等。
 
-   根據目標母體的大小，此操作可能需要一些時間。
+   根據目標群體的大小，此操作可能需要一些時間。
 
    ![](assets/preparing_delivery.png)
 
 1. 使用動作列中的&#x200B;**停止**&#x200B;按鈕隨時停止準備。
 
-   在準備階段，不傳送任何訊息。因此，您可以開始或停止準備而不會影響任何東西。
+   在準備階段，不傳送任何訊息。 因此，您可以開始或停止準備而不會影響任何東西。
 
    ![](assets/preparing_delivery_6.png)
 
@@ -45,7 +57,7 @@ ht-degree: 12%
 
 1. **[!UICONTROL Deployment]**&#x200B;視窗隨即開啟，請更正所有錯誤，然後重新啟動準備作業。
 
-   最後的記錄訊息顯示所有錯誤訊息和錯誤數量。特定圖示會顯示遇到的錯誤型別：黃色圖示表示非嚴重處理錯誤，紅色圖示表示嚴重錯誤，導致傳送無法啟動。
+   最後的記錄訊息顯示所有錯誤訊息和錯誤數量。 特定圖示會顯示遇到的錯誤型別：黃色圖示表示非嚴重處理錯誤，紅色圖示表示嚴重錯誤，導致傳送無法啟動。
 
    ![](assets/preparing_delivery_3.png)
 

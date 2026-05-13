@@ -9,9 +9,19 @@ feature: Landing Pages
 role: User
 level: Intermediate
 exl-id: 0b9795e9-83e6-4399-a3b1-fc69081f6a82
-source-git-commit: 17522f4df86c7fb46593472316d57b4ba4acee2b
+TQID: https://experienceleague.adobe.com/WGJMzhZXIgXMEioDtea5foDs7hRh70WOLG3XV41irvw
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: 656
 ht-degree: 93%
 
 ---
@@ -20,23 +30,23 @@ ht-degree: 93%
 
 ## 確認登入頁面提交 {#confirm-a-landing-page-submission}
 
-當訪客提交登錄頁面時，您可以設定觸發的動作。操作步驟：
+當訪客提交登錄頁面時，您可以設定觸發的動作。 操作步驟：
 
 1. 編輯透過登錄頁面控制面板中 ![](assets/edit_darkgrey-24px.png) 圖示存取的登錄頁面屬性，並顯示 **[!UICONTROL Job]** 參數。
 
    ![](assets/lp_edit_properties_button.png)
 
-1. 在 **[!UICONTROL Specific actions]** 區段下方，選取 **[!UICONTROL Start sending message]** 以判定自動訊息的傳送，例如確認服務的訂閱。之後，您需要選取電子郵件傳遞範本。
+1. 在 **[!UICONTROL Specific actions]** 區段下方，選取 **[!UICONTROL Start sending message]** 以判定自動訊息的傳送，例如確認服務的訂閱。 之後，您需要選取電子郵件傳遞範本。
 
-   請注意，如果服務層級已設定確認訊息，則不應在此畫面中選取一個訊息，以避免傳送多個確認訊息。請參閱[設定服務](../../audiences/using/creating-a-service.md)。
+   請注意，如果服務層級已設定確認訊息，則不應在此畫面中選取一個訊息，以避免傳送多個確認訊息。 請參閱[設定服務](../../audiences/using/creating-a-service.md)。
 
-1. 建立 **[!UICONTROL Additional data]** 以便在提交登錄頁面時儲存其他資料。造訪頁面的使用者不會看見此資料。只會考慮常數值。
+1. 建立 **[!UICONTROL Additional data]** 以便在提交登錄頁面時儲存其他資料。 造訪頁面的使用者不會看見此資料。 只會考慮常數值。
 
    ![](assets/lp_parameters_6.png)
 
 ## 將登入頁面連結至服務 {#linking-a-landing-page-to-a-service}
 
-您可以將表單連結至服務，如此在驗證登錄頁面時，設定檔就可以訂閱特定服務。
+您可以將表單連結至服務，如此在驗證登錄頁面時，輪廓就可以訂閱特定服務。
 
 連結登錄頁面的參數可讓您指定執行的動作類型，以及登錄頁面是否特別連結至單一服務或是否為一般服務。
 
@@ -50,14 +60,14 @@ ht-degree: 93%
 
    ![](assets/lp_parameters_5.png)
 
-1. 選取 **[!UICONTROL Specific service]** 將登錄頁面連結至單一服務。如果您想要在登錄頁面上使用數個服務，請勿選取此選項。
+1. 選取 **[!UICONTROL Specific service]** 將登錄頁面連結至單一服務。 如果您想要在登錄頁面上使用數個服務，請勿選取此選項。
 
-   使用 **[!UICONTROL Specified service in the URL]** 選項可允許將登錄頁面用於數個服務。因此，在設定服務時，您必須參考登錄頁面。
+   使用 **[!UICONTROL Specified service in the URL]** 選項可允許將登錄頁面用於數個服務。 因此，在設定服務時，您必須參考登錄頁面。
 
 ## 設定許可權和預先載入資料 {#setting-permissions-and-pre-loading-data}
 
 登錄頁面的存取權可限制給已識別的訪客，這些訪客來自（舉例來說）Campaign 所傳送之訊息中的連結，或是特定組織單位。
-若是已識別的訪客，您可以在登錄頁面中預先載入其資料。操作步驟：
+若是已識別的訪客，您可以在登錄頁面中預先載入其資料。 操作步驟：
 
 1. 編輯透過登錄頁面控制面板中 ![](assets/edit_darkgrey-24px.png) 圖示存取的登錄頁面屬性，並顯示 **[!UICONTROL Access & loading]** 參數。
 
@@ -65,7 +75,7 @@ ht-degree: 93%
 
 1. 選取 **[!UICONTROL Preload visitor data]**。
 
-   如果頁面的訪客與資料庫中的設定檔相對應，則其資料會顯示在與資料庫資料對應的表單欄位中，而登錄頁面的個人化元素也會納入考量。
+   如果頁面的訪客與資料庫中的輪廓相對應，則其資料會顯示在與資料庫資料對應的表單欄位中，而登錄頁面的個人化元素也會納入考量。
 
    ![](assets/lp_parameters_3_temp.png)
 
@@ -73,7 +83,7 @@ ht-degree: 93%
 
 <!--Use the URL parameters to identify the visitors, using the **[!UICONTROL Authorize visitor identification via URL parameters]** option: then you must choose the loading key and map the filter parameters with the parameters of the corresponding URL.-->
 
-也可以將登錄頁面連結至組織單位。這將定義使用者對於不同登錄頁面的存取權限。若要分配組織單位：
+也可以將登錄頁面連結至組織單位。 這將定義使用者對於不同登錄頁面的存取權限。 若要分配組織單位：
 
 1. 透過 **[!UICONTROL Edit properties]** 圖示存取您的登錄頁面屬性。
 
@@ -81,7 +91,7 @@ ht-degree: 93%
 
 1. 展開 **[!UICONTROL Access authorization]**。
 
-1. 按一下下拉式功能表，然後選取您的組織單位。有關如何建立組織單位的詳細資訊，請參閱本[頁面](../../administration/using/organizational-units.md)。
+1. 按一下下拉式功能表，然後選取您的組織單位。 有關如何建立組織單位的詳細資訊，請參閱本[頁面](../../administration/using/organizational-units.md)。
 
    ![](assets/lp_org_unit_2.png)
 
@@ -95,7 +105,7 @@ ht-degree: 93%
 
 ## 設定Google reCAPTCHA {#setting-google-recaptcha}
 
-您可以使用登錄頁面設定 Google reCAPTCHA V3，以保護其免受機器人造成的垃圾訊息和濫用。您必須先建立外部帳戶，才能將之與登錄頁面搭配使用。有關如何設定的詳細資訊，請參閱本[區段](../../administration/using/external-accounts.md#google-recaptcha-external-account)。
+您可以使用登錄頁面設定 Google reCAPTCHA V3，以保護其免受機器人造成的垃圾訊息和濫用。 您必須先建立外部帳戶，才能將之與登錄頁面搭配使用。 有關如何設定的詳細資訊，請參閱本[區段](../../administration/using/external-accounts.md#google-recaptcha-external-account)。
 
 一旦 Google reCAPTCHA V3 外部帳戶設定完成後，您就可以將它新增至您的登錄頁面：
 
@@ -115,4 +125,4 @@ ht-degree: 93%
 
 ![](assets/lp_parameters_google2.png)
 
-之後，Google reCAPTCHA 會根據使用者與您頁面的互動，傳回分數。若要檢查您的分數，請連線至您的Google Admin Console。
+之後，Google reCAPTCHA 會根據使用者與您頁面的互動，傳回分數。 若要檢查您的分數，請連線至您的Google Admin Console。

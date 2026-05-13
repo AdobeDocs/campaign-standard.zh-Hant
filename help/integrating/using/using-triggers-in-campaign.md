@@ -9,10 +9,21 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 6b8d5118-89ed-49c2-b601-0aff472fcadd
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/JS2nl6HlwWPj9JFhWgNPeWV2cNNiAjvCdczoYH5AhtE
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 74%
+source-wordcount: 743
+ht-degree: 73%
 
 ---
 
@@ -24,7 +35,7 @@ ht-degree: 74%
 >
 >若要建立觸發程式，您需要&#x200B;**[!UICONTROL Administration]**&#x200B;角色或位於&#x200B;**[!UICONTROL Administrators]**&#x200B;安全性群組中。 如需詳細資訊，請參閱此[頁面](../../administration/using/list-of-roles.md)。
 
-您應確保在Adobe Experience Cloud （**[!UICONTROL Triggers]**&#x200B;核心服務）中預先定義要監視的行為。 如需詳細資訊，請參閱 [Adobe Experience Cloud 文件](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=zh-Hant)。請注意，定義觸發程式時需要啟用別名。對於每個行為（瀏覽/放棄表單、新增/刪除產品、工作階段過期等），必須在 Adobe Experience Cloud 中新增一個新的觸發程式。
+您應確保在Adobe Experience Cloud （**[!UICONTROL Triggers]**&#x200B;核心服務）中預先定義要監視的行為。 如需詳細資訊，請參閱 [Adobe Experience Cloud 文件](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=zh-Hant)。 請注意，定義觸發程式時需要啟用別名。 對於每個行為（瀏覽/放棄表單、新增/刪除產品、工作階段過期等），必須在 Adobe Experience Cloud 中新增一個新的觸發程式。
 
 您現在必須依據現有的 Adobe Experience Cloud 觸發程式，在 Adobe Campaign 中建立觸發程式事件。
 
@@ -34,17 +45,17 @@ ht-degree: 74%
 
    ![](assets/remarketing_1.png)
 
-1. 按一下 **[!UICONTROL Create]** 按鈕。開啟的建立精靈會顯示 Adobe Experience Cloud 中定義的所有觸發程式清單。**[!UICONTROL Fired by Analytics]** 欄會顯示 Adobe Experience Cloud 觸發程式傳送至 Campaign 的事件數量。這是在 Experience Cloud 介面中建立的觸發程式對應。
+1. 按一下 **[!UICONTROL Create]** 按鈕。 開啟的建立精靈會顯示 Adobe Experience Cloud 中定義的所有觸發程式清單。 **[!UICONTROL Fired by Analytics]** 欄會顯示 Adobe Experience Cloud 觸發程式傳送至 Campaign 的事件數量。 這是在 Experience Cloud 介面中建立的觸發程式對應。
 
    ![](assets/remarketing_2.png)
 
 1. 選取您要使用的 Adobe Experience Cloud 觸發程式，然後按一下 **[!UICONTROL Next]**。
-1. 設定觸發程式的一般屬性。在精靈的這個步驟中，也請指定要用於觸發程式的頻道和目標維度（請參閱[目標維度及資源](../../automating/using/query.md#targeting-dimensions-and-resources)）。然後確認已建立觸發程式。
-1. 按一下 **[!UICONTROL Event content and enrichment]** 欄位右側的按鈕，以檢視裝載的內容。此畫面也可讓您使用儲存在 Adobe Campaign 資料庫中的輪廓資料，以擴充事件資料的內容。此項擴充是以與標準交易式訊息相同的方式執行。
+1. 設定觸發程式的一般屬性。 在精靈的這個步驟中，也請指定要用於觸發程式的頻道和目標維度（請參閱[目標維度及資源](../../automating/using/query.md#targeting-dimensions-and-resources)）。 然後確認已建立觸發程式。
+1. 按一下 **[!UICONTROL Event content and enrichment]** 欄位右側的按鈕，以檢視裝載的內容。 此畫面也可讓您使用儲存在 Adobe Campaign 資料庫中的輪廓資料，以擴充事件資料的內容。 此項擴充是以與標準交易式訊息相同的方式執行。
 
    ![](assets/remarketing_3.png)
 
-1. 在 **[!UICONTROL Transactional message validity duration]** 欄位中，定義由 Analytics 傳送的事件後，訊息將維持有效的持續時間。如果定義的持續時間為 2 天，則在該持續時間過後，將不再傳送訊息。如果讓多則訊息處於保留狀態，這將確保在一段時間後恢復這些訊息時，系統將不會將之傳送出去。
+1. 在 **[!UICONTROL Transactional message validity duration]** 欄位中，定義由 Analytics 傳送的事件後，訊息將維持有效的持續時間。 如果定義的持續時間為 2 天，則在該持續時間過後，將不再傳送訊息。 如果讓多則訊息處於保留狀態，這將確保在一段時間後恢復這些訊息時，系統將不會將之傳送出去。
 
    ![](assets/remarketing_4.png)
 
@@ -74,19 +85,19 @@ ht-degree: 74%
 
 1. 按一下&#x200B;**[!UICONTROL Show Trigger in Experience Cloud]**&#x200B;按鈕可讓您在Adobe Experience Cloud中檢視觸發程式定義。
 
-發佈事件之後，就會自動建立連結至新事件的交易式範本。之後，您必須修改並發佈剛建立的範本。如需詳細資訊，請參閱[編輯範本](../../start/using/marketing-activity-templates.md)一節。
+發佈事件之後，就會自動建立連結至新事件的交易式範本。 之後，您必須修改並發佈剛建立的範本。 如需詳細資訊，請參閱[編輯範本](../../start/using/marketing-activity-templates.md)一節。
 
 ## 編輯異動訊息範本 {#editing-the-transactional-message-template}
 
-在您建立並發佈觸發程式事件後，即會自動建立相對應的交易式範本。如需詳細資訊，請參閱[在 Campaign 中建立對應觸發程式](#creating-a-mapped-trigger-in-campaign)一節。
+在您建立並發佈觸發程式事件後，即會自動建立相對應的交易式範本。 如需詳細資訊，請參閱[在 Campaign 中建立對應觸發程式](#creating-a-mapped-trigger-in-campaign)一節。
 
-為了讓事件觸發傳送交易式訊息，您必須個人化訊息，然後測試之後再發佈訊息。這些步驟與標準交易式訊息的步驟相同。如需詳細資訊，請參閱[編輯交易式訊息](../../channels/using/editing-transactional-message.md)區段。
+為了讓事件觸發傳送交易式訊息，您必須個人化訊息，然後測試之後再發佈訊息。 這些步驟與標準交易式訊息的步驟相同。 如需詳細資訊，請參閱[編輯交易式訊息](../../channels/using/editing-transactional-message.md)區段。
 
 >[!NOTE]
 >
 >如果您取消發佈範本，則會自動取消發佈觸發程式事件。
 
-編輯內容時，您可以依據 Analytics 觸發程式傳送的資訊，新增個人化欄位。如果您使用 Adobe Campaign 輪廓資料擴充事件資料，則可依據此資訊來個人化該訊息。若要個人化您的訊息，請選取「 **[!UICONTROL Transactional event]** > **[!UICONTROL Event context]** 」並選取欄位。
+編輯內容時，您可以依據 Analytics 觸發程式傳送的資訊，新增個人化欄位。 如果您使用 Adobe Campaign 輪廓資料擴充事件資料，則可依據此資訊來個人化該訊息。 若要個人化您的訊息，請選取「 **[!UICONTROL Transactional event]** > **[!UICONTROL Event context]** 」並選取欄位。
 
 ![](assets/remarketing_8.png)
 
@@ -96,6 +107,6 @@ ht-degree: 74%
 
 ![](assets/remarketing_9.png)
 
-該報告會顯示與 Analytics 所傳送事件數量相較的已處理事件數量。它也會顯示所有最近觸發程式的清單。
+該報告會顯示與 Analytics 所傳送事件數量相較的已處理事件數量。 它也會顯示所有最近觸發程式的清單。
 
 ![](assets/trigger_uc_browse_14.png)

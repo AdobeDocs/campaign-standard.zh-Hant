@@ -7,14 +7,19 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 652c22a5-7fff-4d08-9396-f0b292aaca76
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+TQID: https://experienceleague.adobe.com/dL7h-vkDr1444C4tdAf6-EeZHUy6HJy5Cd3YMbCi3EE
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1392'
-ht-degree: 10%
+source-wordcount: 1393
+ht-degree: 11%
 
 ---
 
-# 設定檔(nms：recipient)
+# 設定檔(nms:recipient)
 
 ## 物件說明
 
@@ -51,7 +56,7 @@ ht-degree: 10%
                </tr>
                <tr>
                   <td>黑名單</td>
-                  <td>不再連絡 (透過任何管道)</td>
+                  <td>不再聯絡 (透過任何管道)</td>
                   <td>布林值 </td>
                   <td> </td>
                </tr>
@@ -99,13 +104,13 @@ ht-degree: 10%
                </tr>
                <tr>
                   <td>已建立</td>
-                  <td>已建立</td>
+                  <td>建立時間</td>
                   <td>日期 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>createdBy (userBase)</td>
-                  <td>建立者：</td>
+                  <td>建立者</td>
                   <td>連結 </td>
                   <td> </td>
                </tr>
@@ -152,7 +157,7 @@ ht-degree: 10%
                   <td>
                      <ul>
                         <li>文字 — 文字 — 1</li>
-                        <li>HTML- html - 2</li>
+                        <li>HTML - html - 2</li>
                         <li>無效值 — __Invalid_value__ - __Invalid_value__</li>
                         <li>未知 — 未知 — 0</li>
                      </ul>
@@ -423,7 +428,7 @@ ht-degree: 10%
                </tr>
                <tr>
                   <td>標題</td>
-                  <td>設定檔</td>
+                  <td>輪廓</td>
                   <td>字串(255)</td>
                   <td> </td>
                </tr>

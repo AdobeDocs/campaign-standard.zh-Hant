@@ -7,14 +7,19 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: cf0fac4e-59fd-4d6e-a411-41361f45938d
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+TQID: https://experienceleague.adobe.com/XssYu0sntbeCRq1uNe6MhztLtISXoJiOefIOnjqIaoQ
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 32%
+source-wordcount: 81
+ht-degree: 33%
 
 ---
 
-# 訂閱事件(nms：rtEvent)
+# 訂閱事件(nms:rtEvent)
 
 ## 物件說明
 
@@ -50,7 +55,7 @@ ht-degree: 32%
         <td>
             <ul>
             <li>文字 — 文字 — 1</li>
-            <li>HTML- html - 2</li>
+            <li>HTML - html - 2</li>
             <li>無效值 — __Invalid_value__ - __Invalid_value__</li>
             <li>未知 — 未知 — 0</li>
             </ul>

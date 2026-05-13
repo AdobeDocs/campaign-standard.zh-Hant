@@ -9,10 +9,25 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 04d0fe26-a8cc-49ae-aaa9-b470169068ee
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/EIgHueEXE0D-R3WjbgMK9SJ5Hpjmt3dwPTiTDVJoQxg
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2:
+  - id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '757'
-ht-degree: 4%
+source-wordcount: 796
+ht-degree: 7%
 
 ---
 
@@ -24,7 +39,7 @@ ht-degree: 4%
 
 Audience Manager (AAM)或People核心服務整合可讓您匯入和匯出Adobe Campaign中的對象或區段。
 
-必須先設定此整合。若要請求布建此整合，請聯絡Adobe支援，並提供下列資訊：
+必須先設定此整合。 若要請求布建此整合，請聯絡Adobe支援，並提供下列資訊：
 
 <table> 
  <tbody> 
@@ -38,7 +53,7 @@ Audience Manager (AAM)或People核心服務整合可讓您匯入和匯出Adobe C
   </tr> 
   <tr> 
    <td> <strong>IMS組織ID</strong><br /> </td> 
-   <td> 您的組織ID。 <br>若要尋找您的組織識別碼，請參閱<a href="https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-hant">此頁面</a></td> 
+   <td> 您的組織ID。<br> 若要尋找您的組織ID，請參閱<a href="https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hant">此頁面</a></td> 
   </tr> 
   <tr> 
    <td> <strong>環境：</strong><br /> </td> 
@@ -100,7 +115,7 @@ Audience Manager (AAM)或People核心服務整合可讓您匯入和匯出Adobe C
 
    ![](assets/integration_aam_2.png)
 
-1. 在&#x200B;**[!UICONTROL Adobe Campaign]**&#x200B;下拉式清單中選擇&#x200B;**[!UICONTROL Data Source/ Alias]**。
+1. 在&#x200B;**[!UICONTROL Data Source/ Alias]**&#x200B;下拉式清單中選擇&#x200B;**[!UICONTROL Adobe Campaign]**。
 1. 輸入Adobe提供的&#x200B;**[!UICONTROL AAM Destination ID]**。
 
    ![](assets/integration_aam_3.png)
@@ -119,7 +134,7 @@ Audience Manager (AAM)或People核心服務整合可讓您匯入和匯出Adobe C
 
 >[!NOTE]
 >
->如果您正在設定&#x200B;**[!UICONTROL AAM Destination ID]** Campaign-Triggers整合[的共用資料來源，則不需要](../../integrating/using/configuring-triggers-in-experience-cloud.md)欄位。 只有在設定Triggers - Campaign整合時才需要&#x200B;**[!UICONTROL Priority]**。 優先順序會決定先設定哪個Data Source。 優先順序可以是任何數字，例如1或100。 優先順序越高，調解期間的偏好設定就越高。
+>如果您正在設定[Campaign-Triggers整合](../../integrating/using/configuring-triggers-in-experience-cloud.md)的共用資料來源，則不需要&#x200B;**[!UICONTROL AAM Destination ID]**&#x200B;欄位。 只有在設定Triggers - Campaign整合時才需要&#x200B;**[!UICONTROL Priority]**。 優先順序會決定先設定哪個Data Source。 優先順序可以是任何數字，例如1或100。 優先順序越高，調解期間的偏好設定就越高。
 
 ### 步驟3：設定Campaign追蹤伺服器 {#step-3--configure-campaign-tracking-server}
 

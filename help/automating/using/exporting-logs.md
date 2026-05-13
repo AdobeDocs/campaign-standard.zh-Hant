@@ -9,9 +9,20 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: d74e2a2c-3ce1-44d6-a058-67b0600360ca
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/Xu174CF9RsD4nhFs6KBm0TzsHFnuiBJgnHgK6-r5cI0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: 599
 ht-degree: 14%
 
 ---
@@ -47,7 +58,7 @@ ht-degree: 14%
 
      ![](assets/export_logs_query_processeddata.png)
 
-     在第一次執行工作流程後，您可以在此索引標籤中看到下次執行時使用的最後一個執行日期。每次執行工作流程時，都會自動更新它。您仍然可以手動輸入新值來覆寫此值，以符合您的需求。
+     在第一次執行工作流程後，您可以在此索引標籤中看到下次執行時使用的最後一個執行日期。 每次執行工作流程時，都會自動更新它。 您仍然可以手動輸入新值來覆寫此值，以符合您的需求。
 
 1. 新增將匯出檔案中查詢資料的&#x200B;**[!UICONTROL Extract file]**&#x200B;活動：
 
@@ -65,7 +76,7 @@ ht-degree: 14%
 
    * 在&#x200B;**[!UICONTROL File structure]**&#x200B;索引標籤中，定義輸出檔案的格式以符合您的需求。
 
-     核取 **[!UICONTROL Export labels instead of internal values of enumerations]** 選項，以備您匯出分項清單時使用。此選項可讓您擷取較短的標籤，與 ID 不同，這些標籤很容易理解。
+     核取 **[!UICONTROL Export labels instead of internal values of enumerations]** 選項，以備您匯出分項清單時使用。 此選項可讓您擷取較短的標籤，與 ID 不同，這些標籤很容易理解。
 
 1. 新增&#x200B;**[!UICONTROL Transfer file]**&#x200B;活動，並將其設定為從Adobe Campaign伺服器將新建立的檔案傳輸至另一個您可存取該活動的位置，例如SFTP伺服器。
 

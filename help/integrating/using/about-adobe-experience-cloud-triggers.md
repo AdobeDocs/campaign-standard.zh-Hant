@@ -10,10 +10,19 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 9dc75d6a-d79a-49aa-a0c0-b1dd6c144ce6
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/NfIVRjLZxnXW8fCz7PWplxkn6AUyfb1llEIncmIchSM
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 91%
+source-wordcount: 481
+ht-degree: 90%
 
 ---
 
@@ -21,9 +30,9 @@ ht-degree: 91%
 
 Experience Cloud 啟動核心服務 **[!UICONTROL Triggers]** 與 Adobe Campaign 的整合可讓您傳送個人化電子郵件給客戶，以回應 Adobe Analytics 在您網站上追蹤的特定行為（15 分鐘內）。
 
-在 Adobe Experience Cloud 中，您定義了不同的觸發因素，即您要監視的客戶行為，例如所有放棄在您網站上瀏覽的客戶、在您的網站上進行搜尋，但並未進行購買，或甚至是工作階段過期的客戶。建立觸發器時，您會定義觸發器的條件，以及在事件（上傳）中傳送至 Adobe Campaign 的資料。
+在 Adobe Experience Cloud 中，您定義了不同的觸發因素，即您要監視的客戶行為，例如所有放棄在您網站上瀏覽的客戶、在您的網站上進行搜尋，但並未進行購買，或甚至是工作階段過期的客戶。 建立觸發器時，您會定義觸發器的條件，以及在事件（上傳）中傳送至 Adobe Campaign 的資料。
 
-在 Adobe Campaign 中，您選取先前建立的觸發器，您會以資料圖資料豐富事件資料，並定義連結至該觸發器的異動訊息範本。例如，當使用者端放棄造訪您的網站時，就會傳送事件至Adobe Campaign，然後透過在15分鐘內傳送給使用者端的再行銷電子郵件利用此事件。
+在 Adobe Campaign 中，您選取先前建立的觸發器，您會以資料圖資料豐富事件資料，並定義連結至該觸發器的異動訊息範本。 例如，當使用者端放棄造訪您的網站時，就會傳送事件至Adobe Campaign，然後透過在15分鐘內傳送給使用者端的再行銷電子郵件利用此事件。
 
 下圖詳細說明此整合的運作方式。
 
@@ -39,7 +48,7 @@ Experience Cloud 啟動核心服務 **[!UICONTROL Triggers]** 與 Adobe Campaign
 
 >[!CAUTION]
 >
->在執行主使用者步驟之前，需要配置功能。如需詳細資訊，請參閱「[啟用功能](../../integrating/using/configuring-triggers-in-experience-cloud.md#activating-the-functionality)」、「[設定解決方案與服務](../../integrating/using/configuring-triggers-in-experience-cloud.md#configuring-solutions-and-services)」以及「[在 Campaign 中建立對應觸發器](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign)」。
+>在執行主使用者步驟之前，需要配置功能。 如需詳細資訊，請參閱「[啟用功能](../../integrating/using/configuring-triggers-in-experience-cloud.md#activating-the-functionality)」、「[設定解決方案與服務](../../integrating/using/configuring-triggers-in-experience-cloud.md#configuring-solutions-and-services)」以及「[在 Campaign 中建立對應觸發器](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign)」。
 
 在 Adobe Campaign 中，使用者流程的主要步驟為：
 
@@ -55,10 +64,10 @@ Experience Cloud 啟動核心服務 **[!UICONTROL Triggers]** 與 Adobe Campaign
 
 以下是使用「觸發程式 – 促銷活動」整合之前要考慮的一些重要附註：
 
-* 觸發器不支援推播通知。僅支援電子郵件和簡訊。
+* 觸發器不支援推播通知。 僅支援電子郵件和簡訊。
 * 您可以透過 Analytics 擷取的中繼資料（例如電子郵件 ID、頁面名稱等）豐富觸發器。
 * 您可以將觸發器調和至儲存在 Campaign Standard 中的輪廓，並使用輪廓的欄位來進行訊息個人化。
-* 一旦收到觸發器，就會處理並調和觸發器並送出。視收到的觸發器數量、範本中使用的個人化欄位數，大約需要 5 到 15 分鐘。
+* 一旦收到觸發器，就會處理並調和觸發器並送出。 視收到的觸發器數量、範本中使用的個人化欄位數，大約需要 5 到 15 分鐘。
 
 >[!NOTE]
 >

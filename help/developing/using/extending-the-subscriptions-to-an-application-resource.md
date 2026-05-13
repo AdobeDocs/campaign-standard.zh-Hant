@@ -8,16 +8,23 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: ac9c556d-c0f6-4b33-8855-1f5f669c148f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/LtTykn3J6LjivrUr-xkhsZMgaVg-uQ2PHqA6wcJipo8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 10%
+source-wordcount: 233
+ht-degree: 24%
 
 ---
 
 # 將訂閱擴充到應用程式資源{#extending-the-subscriptions-to-an-application-resource}
 
-在Adobe Campaign中，由行動裝置傳送的行動設定檔屬性資料會儲存在&#x200B;**[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]**&#x200B;資源中，您可藉此定義要從應用程式訂閱者收集的資料。 如需自訂資源的詳細資訊，請參閱[此頁面](../../developing/using/key-steps-to-add-a-resource.md)。
+在 Adobe Campaign 中，由行動裝置傳送的行動輪廓屬性資料會儲存在 **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** 資源中，您可藉此定義要從應用程式訂閱者收集的資料。 如需自訂資源的詳細資訊，請參閱[此頁面](../../developing/using/key-steps-to-add-a-resource.md)。
 
 可擴充此資源，以收集您要從行動裝置傳送至Adobe Campaign的資料。
 

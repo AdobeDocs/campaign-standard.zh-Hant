@@ -9,9 +9,18 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 51f07f08-5d57-4c4c-aff2-d03e5956ec6f
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/YTcYEg46GzZ83wU8cfw8UgRbcUNzTVSwhjILIq1n6Ss
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: 660
 ht-degree: 0%
 
 ---
@@ -27,15 +36,15 @@ ht-degree: 0%
 將&#x200B;**Microsoft Dynamics 365傳送至Campaign**
 * 從Microsoft Dynamics 365傳送&#x200B;*連絡人*&#x200B;至Adobe Campaign
 * *自訂實體*：將自訂表格從Microsoft Dynamics 365帶入Adobe Campaign。 [了解更多](../../integrating/using/d365-acs-using-the-integration.md#data-flows)
-* 這也稱為&#x200B;**輸入** (指從Microsoft Dynamics 365到Adobe Campaign的資料輸入)
+* 這也稱為&#x200B;**輸入** （指從Microsoft Dynamics 365到Adobe Campaign的資料輸入）
 
 **促銷活動至Microsoft Dynamics 365**
 * Adobe Campaign Standard的電子郵件行銷事件會傳送至Dynamics 365 （電子郵件傳送、開啟、按一下、退回）。 [了解更多](../../integrating/using/d365-acs-using-the-integration.md#email-marketing-event-flow)
-* 這也稱為&#x200B;**輸出** (指資料從Adobe Campaign輸出至Microsoft Dynamics 365)
+* 這也稱為&#x200B;**輸出** （指資料從Adobe Campaign輸出至Microsoft Dynamics 365）
 
 **選擇加入/退出**
 
-選擇退出狀態（例如denyList）可以從Microsoft Dynamics 365同步至Adobe Campaign，或從Adobe Campaign同步至Microsoft Dynamics 365。 資料也可以雙向同步（即資料雙向流動）。 [了解更多](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf)。
+選擇退出狀態（例如denyList）可以從Microsoft Dynamics 365同步至Adobe Campaign，或從Adobe Campaign同步至Microsoft Dynamics 365。 資料也可以雙向同步（即資料雙向流動）。 [了解更多資訊](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf)。
 
 >[!IMPORTANT]
 >

@@ -8,10 +8,21 @@ feature: Performance Monitoring
 role: User
 level: Intermediate
 exl-id: 7a0cd10a-24e6-44d1-842c-2067bfbac838
-source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
+TQID: https://experienceleague.adobe.com/p90XYfq1xHy3wLT6XX8itIHZer0Ix3FS6aq2r2u2HhI
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 1%
+source-wordcount: 1051
+ht-degree: 2%
 
 ---
 
@@ -117,10 +128,10 @@ ht-degree: 1%
 
    * 依下列方式定義區段代碼：
 
-      * 上午8:00 - 10:00： **0**。 此訊息將於上午8:00 （聯絡日期）傳送給目標母體的第一季。
-      * 上午10:00 — 下午12:00： **2**。 此訊息將於上午10:00 （聯絡日期+ 2小時）傳送給目標人口的第二季。
-      * 下午2:00 — 下午4:00： **6**。 呼叫中心在下午12:00到下午2:00之間關閉，訊息將在下午2:00 （聯絡日期+ 6小時）傳送給目標人口的第三季。
-      * 下午4:00 — 下午6:00： **8**。 訊息將於下午4:00 （聯絡日期+ 8小時）傳送至目標人口的最後一季。
+      * 上午8:00 — 上午10:00： **0**。 訊息將於上午8:00 （聯絡日期）傳送到目標母體的第一季。
+      * 上午10:00 — 下午12:00： **2**。 訊息將於上午10:00 （聯絡日期+ 2小時）傳送到目標母體的第二季。
+      * 下午2:00 — 下午4:00： **6**。 呼叫中心在下午12:00點至下午2:00點之間關閉，訊息將會在下午2:00點傳送給第三季的目標母體（聯絡日期+ 6小時）。
+      * 下午4:00 - 6:00下午： **8**。 訊息將於下午4:00 （聯絡日期+ 8小時）傳送到目標人口的最後一個季度。
 
      >[!NOTE]
      >

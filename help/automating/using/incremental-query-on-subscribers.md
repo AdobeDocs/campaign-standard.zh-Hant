@@ -10,9 +10,18 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: c80ed1f6-ad8a-4448-a6df-b9881327228a
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/MHB1ETCecN9gQq51bSii-keTyFaYof0JtAyckFSCKQE
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: 212
 ht-degree: 61%
 
 ---
@@ -39,4 +48,4 @@ ht-degree: 61%
 
   定義電子郵件的內容並插入歡迎促銷代碼。 如需詳細資訊，請參閱[定義電子郵件內容](../../designing/using/personalization.md)區段。
 
-然後開始執行工作流程。每週新訂閱者都會收到包含促銷代碼的歡迎電子郵件。
+然後開始執行工作流程。 每週新訂閱者都會收到包含促銷代碼的歡迎電子郵件。

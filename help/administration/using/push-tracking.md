@@ -6,9 +6,17 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 950d24e2-358f-44f8-98ea-643be61d4573
-source-git-commit: 1346f7d833515fb2e6feabb39d199ffd5610c88e
+TQID: https://experienceleague.adobe.com/tSPkfU35NbnvlF8s39rDKPbyrLFm8uKx7jvU4ZyB1hw
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: 939
 ht-degree: 0%
 
 ---
@@ -31,7 +39,7 @@ ht-degree: 0%
 
 * **推播開啟** — 當推播通知已傳遞至裝置，且使用者已按一下導致應用程式開啟的通知。 這類似於「推送點按」，但如果通知已關閉，則不會觸發「推送開啟」。
 
-若要實作Campaign Standard追蹤，行動應用程式必須包含Adobe Experience Platform SDK。 這些SDK可在[Adobe Experience Platform SDK檔案](https://github.com/Adobe-Marketing-Cloud/acp-sdks)中取得。
+若要實作Campaign Standard的追蹤，行動應用程式必須包含Adobe Experience Platform SDK。 這些SDK可在[Adobe Experience Platform SDK檔案](https://github.com/Adobe-Marketing-Cloud/acp-sdks)中取得。
 
 若要傳送追蹤資訊，有三個變數需要傳送。 兩個是從Campaign Standard收到的資料的一部分，另一個是動作變數，可指定它是&#x200B;**曝光數**、**點選次數**&#x200B;或&#x200B;**開啟次數**。
 
@@ -260,7 +268,7 @@ private void handleTracking() {
 
 >[!CAUTION]
 >
-> 如果應用程式已關閉，Apple將不會呼叫應用程式，直到重新啟動應用程式為止。 這表示您將無法知道何時在iOS上收到通知。 </br>基於此原因，iOS曝光追蹤可能不準確，且不應被視為可靠。
+> 如果應用程式已關閉，Apple將不會呼叫應用程式，直到重新啟動應用程式為止。 這表示您將無法知道何時已在iOS上收到通知。</br> 基於此原因，iOS曝光追蹤可能不準確，且不應被視為可靠。
 
 對於21.1版本之前建立的傳遞或使用自訂範本的傳遞，請參閱此[區段](../../administration/using/push-tracking.md#about-push-tracking)。
 

@@ -1,5 +1,5 @@
 ---
-title: 建立自訂設定檔維度
+title: 建立自訂輪廓維度
 description: 瞭解如何根據自訂設定檔資料建立自訂設定檔維度。
 audience: reporting
 content-type: reference
@@ -8,14 +8,27 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 98516af1-d4dd-4c1f-b360-f19208c22f82
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/hlBJ-vJIu4LU3OlZN06Gni-zvwCLFRKiIWx3fStufpc
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: 829
 ht-degree: 5%
 
 ---
 
-# 建立自訂設定檔維度{#creating-a-custom-profile-dimension}
+# 建立自訂輪廓維度{#creating-a-custom-profile-dimension}
 
 您也可以根據在設定檔自訂資源擴充期間建立的自訂設定檔資料，來建立和管理報表。
 
@@ -60,7 +73,7 @@ ht-degree: 5%
 
    ![](assets/custom_profile_14.png)
 
-1. 選取 **[!UICONTROL Screen definition]** 索引標籤。在&#x200B;**[!UICONTROL Detail screen configuration]**&#x200B;下拉式清單中，核取&#x200B;**[!UICONTROL Add personalized fields]**&#x200B;區段以在我們的設定檔中建立新區段。
+1. 選取 **[!UICONTROL Screen definition]** 索引標籤。 在&#x200B;**[!UICONTROL Detail screen configuration]**&#x200B;下拉式清單中，核取&#x200B;**[!UICONTROL Add personalized fields]**&#x200B;區段以在我們的設定檔中建立新區段。
 
    ![](assets/custom_profile_4.png)
 

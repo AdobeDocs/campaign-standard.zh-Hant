@@ -8,10 +8,22 @@ feature: Typology Rules
 role: User
 level: Intermediate
 exl-id: 6461c128-1e42-4685-88f8-507244147e6f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/lpPFofV3IPl7zmbaR4TOuyCcVqgjwI3maxr-jKzkd0Q
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 14%
+source-wordcount: 449
+ht-degree: 15%
 
 ---
 
@@ -38,7 +50,7 @@ ht-degree: 14%
 | **[!UICONTROL Check proof size]** | 全部 | 鎖定之後 | 如果校訂目標母體超過100個收件者，則產生錯誤訊息。 |
 | **[!UICONTROL Check social network sharing link]** | 電子郵件 | 在個人化開始時 | 在內容中包含社交網路共用連結（病毒連結）時，檢查是否存在映象頁面的連結。 |
 | **[!UICONTROL Check subject]** | 電子郵件 | 在個人化開始時 | 檢查主旨和寄件者地址是否不包含特殊字元，這些字元可能會對某些郵件傳輸代理程式造成問題，並檢查郵件主旨是否已完成。 |
-| **[!UICONTROL Check unsubscription link]** | 電子郵件 | 在個人化開始時 | 檢查每個內容(HTML和文字)中是否存在至少一個取消訂閱（選擇退出） URL。 |
+| **[!UICONTROL Check unsubscription link]** | 電子郵件 | 在個人化開始時 | 檢查每個內容（HTML和文字）中是否至少存在一個取消訂閱（選擇退出） URL。 |
 | **[!UICONTROL Check URL labels]** | 電子郵件 | 在個人化開始時 | 檢查每個追蹤URL是否都有標籤。 |
 | **[!UICONTROL Check URLs]** | 電子郵件 | 在個人化開始時 | 檢查追蹤URL （「&amp;」字元是否存在）。 |
 

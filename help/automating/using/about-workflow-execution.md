@@ -10,9 +10,20 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 3b95fc66-d6f4-44b2-be33-925c1109a57f
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/Fgr5Fy5R3xAe5QUwkNFA3k1y-nHDC5uqeCIJeEx7axI
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+subfeature_v2:
+  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: 354
 ht-degree: 8%
 
 ---
@@ -25,7 +36,7 @@ ht-degree: 8%
 >
 > Adobe建議客戶不要同時執行超過20個作用中工作流程，並隨著時間安排您工作流程執行的優先順序和分佈。 如需詳細資訊，請參閱[此頁面](../../automating/using/best-practices-workflows.md)中提供的最佳實務。
 
-與執行相關的動作（啟動、停止、暫停等）為&#x200B;**非同步**&#x200B;處理序：命令已儲存，一旦伺服器可供套用，命令就會生效。
+執行相關動作（啟動、停止、暫停等） 是&#x200B;**非同步**&#x200B;處理序：命令已儲存，一旦伺服器可供套用，命令就會生效。
 
 在工作流程中，每個活動的結果通常會透過轉變（以箭頭表示）傳送到以下活動。
 
@@ -41,9 +52,9 @@ ht-degree: 8%
 
 ![](assets/wkf_transition_count.png)
 
-您可以開啟轉變來檢查在執行工作流程期間或之後傳送的資料是否正確。您可以檢視資料和資料結構。
+您可以開啟轉變來檢查在執行工作流程期間或之後傳送的資料是否正確。 您可以檢視資料和資料結構。
 
-依預設，僅可存取工作流程的最後轉變的詳細資訊。 若要能夠存取先前活動的結果，您必須先核取工作流程屬性&#x200B;**[!UICONTROL Keep interim results]**&#x200B;區段中的&#x200B;**[!UICONTROL Execution]**&#x200B;選項，才能啟動工作流程。
+依預設，僅可存取工作流程的最後轉變的詳細資訊。 若要能夠存取先前活動的結果，您必須先核取工作流程屬性&#x200B;**[!UICONTROL Execution]**&#x200B;區段中的&#x200B;**[!UICONTROL Keep interim results]**&#x200B;選項，才能啟動工作流程。
 
 >[!NOTE]
 >

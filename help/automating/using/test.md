@@ -10,10 +10,17 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 62a064f7-6d0b-49ca-9834-eccb5bf42496
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/oyXhQ4Fgx2-cooFelMxsoFiP1qx48-ZQ1eoAudNivF8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 77%
+source-wordcount: 190
+ht-degree: 80%
 
 ---
 
@@ -38,7 +45,7 @@ ht-degree: 77%
 **相關主題：**
 
 * [函式清單](../../automating/using/list-of-functions.md)
-* [使用外部引數呼叫工作流程](../../automating/using/calling-a-workflow-with-external-parameters.md)
+* [使用外部參數呼叫工作流程](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
 ## 設定 {#configuration}
 
@@ -50,10 +57,10 @@ ht-degree: 77%
 
    * ![](assets/extsignal_picker.png)：在工作流程中可用的所有變數中選取事件變數（請參閱[此頁面](../../automating/using/customizing-workflow-external-parameters.md)）。
 
-     例如，您可以使用[變數檢查](../../automating/using/transfer-file.md)檔案傳輸&#x200B;**[!UICONTROL filesCount]**&#x200B;活動後的已下載檔案數。
+     例如，您可以使用&#x200B;**[!UICONTROL filesCount]**&#x200B;變數檢查[檔案傳輸](../../automating/using/transfer-file.md)活動後的已下載檔案數。
 
      ![](assets/wkf_test_activity_variables.png)
 
-   * ![](assets/extsignal_expression_editor.png)：編輯結合變數和函式的運算式。如需運算式編輯器的詳細資訊，請參考[本區段](../../automating/using/advanced-expression-editing.md)。
+   * ![](assets/extsignal_expression_editor.png)：編輯結合變數和函式的運算式。 如需運算式編輯器的詳細資訊，請參考[本區段](../../automating/using/advanced-expression-editing.md)。
 
      ![](assets/wkf_test_activity_variables_expression.png)

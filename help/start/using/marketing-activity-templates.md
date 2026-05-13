@@ -1,6 +1,6 @@
 ---
 title: 關於範本
-description: 「Adobe Campaign　範本可讓您視需要預先設定參數：範本可能包含行銷活動的完整或部分設定，以簡化非技術使用者使用　Adobe Campaign　的作業。」
+description: Adobe Campaign範本可讓您視需要預先設定引數：範本可能包含行銷活動的完整或部分設定，以簡化非技術使用者使用Adobe Campaign的作業。
 audience: start
 content-type: reference
 topic-tags: managing-templates
@@ -8,10 +8,19 @@ feature: Campaigns
 role: User
 level: Beginner
 exl-id: a0f02f69-d72d-48ca-8b38-aaab8d1acfad
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/kZTyOD8tL-C3HzPpUhVohvr7dM0WZ-EdNNQA1S1iB6k
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 98%
+source-wordcount: 417
+ht-degree: 78%
 
 ---
 
@@ -19,15 +28,15 @@ ht-degree: 98%
 
 ## 關於範本 {#about-templates}
 
-當您建立新的行銷活動時，精靈中的第一個畫面會要求您選取類型或範本。範本可讓您根據自己的需求，預先設定某些參數。範本可能包含行銷活動的完整或部分設定。範本管理是由功能管理員執行。
+當您建立新的行銷活動時，精靈中的第一個畫面會要求您選取類型或範本。 範本可讓您根據自己的需求，預先設定某些參數。 範本可能包含行銷活動的完整或部分設定。 範本管理是由功能管理員執行。
 
-使用者擁有簡化的介面。建立新的行銷活動時，您只需要選取要使用的範本。無需擔心任何技術設定。範本中的功能管理員已經預先設定此項目。
+使用者擁有簡化的介面。 建立新的行銷活動時，您只需要選取要使用的範本。 無需擔心任何技術設定。 範本中的功能管理員已經預先設定此項目。
 
-例如，若是電子郵件範本，您可以預先填寫　HTML　內容、客群，以及傳送的任何其他參數：排程、測試輪廓、您傳送的一般屬性、進階參數等。這可讓您在建立新活動時節省時間。
+例如，若是電子郵件範本，您可以預先填入HTML內容、對象，以及傳送的任何其他引數：排程、測試設定檔、您的傳送一般屬性、進階引數等。這可讓您在建立新活動時節省時間。
 
 ![](assets/template_1.png)
 
-對於每個行銷活動類型，只需要最少的設定，就可使用一或多個現成的範本。無法修改或刪除這些現成的範本。
+對於每個行銷活動類型，只需要最少的設定，就可使用一或多個現成的範本。 無法修改或刪除這些現成的範本。
 
 範本適用於下列行銷活動：
 
@@ -44,9 +53,9 @@ ht-degree: 98%
 
 ## 建立新範本 {#creating-a-new-template}
 
-平台的功能管理員可在 **[!UICONTROL Resources > Templates]** 功能表下方管理訊息範本。無法修改或刪除現成的範本。若要建立新範本，您必須複製現有範本。
+平台的功能管理員可在 **[!UICONTROL Resources > Templates]** 功能表下方管理訊息範本。 無法修改或刪除現成的範本。 若要建立新範本，您必須複製現有範本。
 
-1. 選取現有範本。在我們的範例中，我們已選取 **[!UICONTROL Delivery template]**。
+1. 選取現有範本。 在我們的範例中，我們已選取 **[!UICONTROL Delivery template]**。
 
    ![](assets/template_2.png)
 
@@ -66,7 +75,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->一般而言，依據範本建立行銷活動燈是由標準使用者類型設定檔執行。
+>一般而言，依據範本建立行銷活動燈是由標準使用者類型輪廓執行。
 
 1. 建立新的行銷活動。
 

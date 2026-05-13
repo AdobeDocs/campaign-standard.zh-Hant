@@ -9,16 +9,27 @@ feature: SMS
 role: User
 level: Beginner
 exl-id: 36442480-c6b6-4b7d-b566-40169a7c8544
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+TQID: https://experienceleague.adobe.com/Y9oiKbi65Zl6pRoi10SHvEecQ5zeWbpK0rBLAhsPliE
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: 568
 ht-degree: 87%
 
 ---
 
 # 建立簡訊訊息{#creating-an-sms-message}
 
-建立簡訊傳送與建立一般電子郵件非常類似。下列步驟將說明此通道的特定設定。如需其他選項的詳細資訊，請參閱[建立電子郵件](../../channels/using/creating-an-email.md)。
+建立簡訊傳送與建立一般電子郵件非常類似。 下列步驟將說明此通道的特定設定。 如需其他選項的詳細資訊，請參閱[建立電子郵件](../../channels/using/creating-an-email.md)。
 
 在[簡訊設定](../../administration/using/configuring-sms-channel.md)區段中會詳細說明進階簡訊參數。
 
@@ -26,16 +37,16 @@ ht-degree: 87%
 
 若要建立簡訊訊息並傳送至行動電話，您需要：
 
-* 在 **[!UICONTROL Mobile (SMS)]** 通道上使用 **[!UICONTROL Bulk delivery]** 模式設定的 **[!UICONTROL Routing]** 外部帳戶。如需詳細資訊，請參閱[區段](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)區段。
+* 在 **[!UICONTROL Mobile (SMS)]** 通道上使用 **[!UICONTROL Bulk delivery]** 模式設定的 **[!UICONTROL Routing]** 外部帳戶。 如需詳細資訊，請參閱[區段](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)區段。
 * 正確連結至此外部帳戶的傳遞範本。
 
-1. 建立簡訊傳送。您可從 Adobe Campaign [首頁](../../start/using/interface-description.md#home-page)、[促銷活動](../../start/using/marketing-activities.md#creating-a-marketing-activity)或[行銷活動清單](../../start/using/programs-and-campaigns.md#creating-a-campaign)中執行此作業。
+1. 建立簡訊傳送。 您可從 Adobe Campaign [首頁](../../start/using/interface-description.md#home-page)、[促銷活動](../../start/using/marketing-activities.md#creating-a-marketing-activity)或[行銷活動清單](../../start/using/programs-and-campaigns.md#creating-a-campaign)中執行此作業。
 
-   您也可以在工作流程中新增簡訊活動。如需詳細資訊，請參閱[工作流程](../../automating/using/sms-delivery.md)指南。
+   您也可以在工作流程中新增簡訊活動。 如需詳細資訊，請參閱[工作流程](../../automating/using/sms-delivery.md)指南。
 
-   建立訊息時，將顯示精靈，引導您完成最重要的步驟。透過精靈定義的內容，仍然可以從訊息控制面板進行編輯。
+   建立訊息時，將顯示精靈，引導您完成最重要的步驟。 透過精靈定義的內容，仍然可以從訊息控制面板進行編輯。
 
-1. 選取您要使用的範本。您可以選取現成的簡訊範本或您自己的範本。
+1. 選取您要使用的範本。 您可以選取現成的簡訊範本或您自己的範本。
 
    ![](assets/sms_creation_1.png)
 
@@ -51,32 +62,32 @@ ht-degree: 87%
    >
    >確認ID欄位未包含任何空白以避免出現任何差異，例如，在與Adobe Analytics整合時。
 
-1. 指定您要設定為目標的客群。您可以定義並結合規則，以選取現有客群或直接設定目標群體。
+1. 指定您要設定為目標的客群。 您可以定義並結合規則，以選取現有客群或直接設定目標群體。
 
    ![](assets/sms_creation_3.png)
 
-1. 將內容新增至簡訊。您也可以在簡訊建立完成後，按一下傳送控制面板的 **[!UICONTROL Content]** 區段來定義內容。請參閱[關於簡訊內容設計](../../channels/using/about-sms-and-push-content-design.md)。
+1. 將內容新增至簡訊。 您也可以在簡訊建立完成後，按一下傳送控制面板的 **[!UICONTROL Content]** 區段來定義內容。 請參閱[關於簡訊內容設計](../../channels/using/about-sms-and-push-content-design.md)。
 
-   如果您已將個人化欄位或條件文字插入簡訊訊息的內容，則訊息的長度可能會因收件者而異。事實上，這些因素可能會引進 GSM 編碼未考慮的字元。這就是為什麼在實施個人化後，必須評估訊息長度的原因。請參閱[個人化簡訊訊息](../../channels/using/personalizing-sms-messages.md)。
+   如果您已將個人化欄位或條件文字插入簡訊訊息的內容，則訊息的長度可能會因收件者而異。 事實上，這些因素可能會引進 GSM 編碼未考慮的字元。 這就是為什麼在實施個人化後，必須評估訊息長度的原因。 請參閱[個人化簡訊訊息](../../channels/using/personalizing-sms-messages.md)。
 
    ![](assets/sms_creation_4.png)
 
-1. 確認建立訊息。之後會顯示其控制面板。
-1. 排程傳送。簡訊可在訊息準備後手動傳送，或是在排程日期自動傳送。請參閱[排程訊息](../../sending/using/about-scheduling-messages.md)。
+1. 確認建立訊息。 之後會顯示其控制面板。
+1. 排程傳送。 簡訊可在訊息準備後手動傳送，或是在排程日期自動傳送。 請參閱[排程訊息](../../sending/using/about-scheduling-messages.md)。
 1. 準備訊息以分析其有效性、個人化和目標。
 
    ![](assets/sms_creation_6.png)
 
    >[!NOTE]
    >
-   >您可以設定全域跨通道疲勞規則，這會從促銷活動自動排除過度請求的設定檔。請參閱[疲勞規則](../../sending/using/fatigue-rules.md)。
+   >您可以設定全域跨通道疲勞規則，這會從促銷活動自動排除過度請求的輪廓。 請參閱[疲勞規則](../../sending/using/fatigue-rules.md)。
 
-1. 傳送校樣以檢查並驗證您的訊息，並監控其收件匣呈現。請參閱[傳送校樣](../../sending/using/sending-proofs.md)區段。
-1. 確認訊息的傳送。傳送將依據您定義的排程開始進行。
+1. 傳送校樣以檢查並驗證您的訊息，並監控其收件匣呈現。 請參閱[傳送校樣](../../sending/using/sending-proofs.md)區段。
+1. 確認訊息的傳送。 傳送將依據您定義的排程開始進行。
 
    ![](assets/sms_creation_7.png)
 
-已傳送訊息。您可以透過訊息控制面板和記錄來檢查傳送。
+已傳送訊息。 您可以透過訊息控制面板和記錄來檢查傳送。
 
 傳送完成後，您就可以開始使用內建或自訂傳遞報告來衡量訊息的影響。
 

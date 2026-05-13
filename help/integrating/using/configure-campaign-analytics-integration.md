@@ -9,10 +9,24 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: a6748b4b-36c5-4961-a599-ace73a8504cc
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/bt1FQbafwhEuRao-YFhynO-ecg5EaiUDskSFvxuFv-k
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2:
+  - id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 7%
+source-wordcount: 228
+ht-degree: 10%
 
 ---
 
@@ -29,7 +43,7 @@ ht-degree: 7%
 
    ![](assets/analytics_2.png)
 
-1. 在&#x200B;**[!UICONTROL Web services user name]**&#x200B;欄位中指定您的&#x200B;**[!UICONTROL Web services share secret]**&#x200B;和&#x200B;**[!UICONTROL Connection]**。
+1. 在&#x200B;**[!UICONTROL Connection]**&#x200B;欄位中指定您的&#x200B;**[!UICONTROL Web services user name]**&#x200B;和&#x200B;**[!UICONTROL Web services share secret]**。
 
    選取&#x200B;**[!UICONTROL Admin > Company settings > Web services]**，即可在Analytics中找到這些引數。
 

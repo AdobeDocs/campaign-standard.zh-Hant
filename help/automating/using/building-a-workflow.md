@@ -10,9 +10,24 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 7553588c-4679-4dfd-93cb-e705ad4dc0aa
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/8i3WYf4v5Xh6Ih7YWT71OxHJfAd-6aUqUDcP2RjY1NI
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: a658c786-869b-4194-a780-2594d663adda
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: 990
 ht-degree: 90%
 
 ---
@@ -23,17 +38,17 @@ ht-degree: 90%
 
 ## 工作流程作業原則{#workflow-operating-principles}
 
-工作流是&#x200B;**可設定活動的序列**。每個活動在進程中都具有特定角色。每個活動的結果透過&#x200B;**轉變**（用箭頭表示）轉發到以下活動。
+工作流是&#x200B;**可設定活動的序列**。 每個活動在進程中都具有特定角色。 每個活動的結果透過&#x200B;**轉變**（用箭頭表示）轉發到以下活動。
 
-在一個活動和另一個活動之間交換的資料類型可能會影響以下活動的設定方式。例如，如果在電子郵件傳送活動之前建立了群體，則可當成相關電子郵件的目標。
+在一個活動和另一個活動之間交換的資料類型可能會影響以下活動的設定方式。 例如，如果在電子郵件傳送活動之前建立了群體，則可當成相關電子郵件的目標。
 
 您可以在執行工作流之前或之後開啟活動以檢查或編輯參數。
 
-您可以開啟轉變來檢查在執行工作流程期間或之後傳送的資料是否正確。若要存取轉變的詳細檢視，您必須核取工作流程屬性 **[!UICONTROL Execution]** 區段中的 **[!UICONTROL Keep interim results]** 選項。
+您可以開啟轉變來檢查在執行工作流程期間或之後傳送的資料是否正確。 若要存取轉變的詳細檢視，您必須核取工作流程屬性 **[!UICONTROL Execution]** 區段中的 **[!UICONTROL Keep interim results]** 選項。
 
 >[!CAUTION]
 >
->此選項佔用了大量磁碟空間，設計旨在幫助您建構工作流程並確保正確的設定和行為。在生產執行個體中保留未核取的狀態。
+>此選項佔用了大量磁碟空間，設計旨在幫助您建構工作流程並確保正確的設定和行為。 在生產執行個體中保留未核取的狀態。
 
 ![](assets/workflow_overview.png)
 
@@ -51,27 +66,27 @@ ht-degree: 90%
 
    >[!NOTE]
    >
-   >每個行銷活動預設提供數種類型。這些功能可讓您根據需求預先設定特定參數。如需詳細資訊，請參閱[詳細文件](../../start/using/marketing-activity-templates.md)。
+   >每個行銷活動預設提供數種類型。 這些功能可讓您根據需求預先設定特定參數。 如需詳細資訊，請參閱[詳細文件](../../start/using/marketing-activity-templates.md)。
 
 1. 輸入工作流的一般屬性。
 
    ![](assets/workflow_creation_2.png)
 
-   您可以在 **Label** 欄位中輸入名稱，並修改 ID。活動名稱及其ID會顯示在介面中，但訊息收件者無法看到這些名稱。
+   您可以在 **Label** 欄位中輸入名稱，並修改 ID。 活動名稱及其ID會顯示在介面中，但訊息收件者無法看到這些名稱。
 
    >[!NOTE]
    >
-   >您可以從行銷活動清單中建立父行銷活動的工作流程。您可以選取已建立的行銷活動，將此工作流程連結至行銷活動。
+   >您可以從行銷活動清單中建立父行銷活動的工作流程。 您可以選取已建立的行銷活動，將此工作流程連結至行銷活動。
 
    您可以新增使用者可在行銷活動內容中看到的說明。
 
    由於若未以預期方式執行，可讓工作流程更容易找到並疑難排解，Adobe建議您為工作流程指定適當的名稱和標籤：填寫工作流程的說明欄位，彙總要執行的程式，讓運算子輕鬆瞭解。
 
-1. 確認建立活動，然後會顯示該活動的控制面板。有關詳細資訊，請參閱[工作流程介面](../../automating/using/workflow-interface.md)區段。
+1. 確認建立活動，然後會顯示該活動的控制面板。 有關詳細資訊，請參閱[工作流程介面](../../automating/using/workflow-interface.md)區段。
 
 1. 一旦工作流程準備好進行設定後，您可以按一下&#x200B;**[!UICONTROL Edit properties]**&#x200B;按鈕來存取其他選項。
 
-   例如，您可以定義特定時區，以便在工作流的所有活動中預設使用。依預設，工作流程的時區是為目前的促銷活動運算子定義的時區。
+   例如，您可以定義特定時區，以便在工作流的所有活動中預設使用。 依預設，工作流程的時區是為目前的促銷活動運算子定義的時區。
 
    如需工作流程屬性的詳細資訊，請參閱[此頁面](../../automating/using/managing-execution-options.md)。
 
@@ -89,7 +104,7 @@ ht-degree: 90%
 
 * 第一節包含定位[活動](../../automating/using/about-targeting-activities.md)
 * 第二節包括執行[活動](../../automating/using/about-execution-activities.md)，主要用於協調其他活動。
-* 第三個區段包含可用於在不同[通道](../../automating/using/about-channel-activities.md)傳送訊息的活動。本區段的活動可能會因您實例上啟用的通道而異。
+* 第三個區段包含可用於在不同[通道](../../automating/using/about-channel-activities.md)傳送訊息的活動。 本區段的活動可能會因您實例上啟用的通道而異。
 * 第四個區段包含[檔案操縱和資料管理活動](../../automating/using/about-data-management-activities.md)。
 
 要建立圖表：
@@ -108,11 +123,11 @@ ht-degree: 90%
 
    >[!NOTE]
    >
-   >您也可以複製並貼上現有活動，以複製現有活動。如此，您就可保留原本定義的設定。有關詳細資訊，請參閱[重複工作流程活動](../../automating/using/workflow-interface.md#duplicating-workflow-activities)。
+   >您也可以複製並貼上現有活動，以複製現有活動。 如此，您就可保留原本定義的設定。 有關詳細資訊，請參閱[重複工作流程活動](../../automating/using/workflow-interface.md#duplicating-workflow-activities)。
 
-將工作流程活動連結在一起後，您就可以使用所選取的&#x200B;**標籤**，個人化它們之間的轉變。若要這麼做，請連按兩下轉變以存取其屬性。
+將工作流程活動連結在一起後，您就可以使用所選取的&#x200B;**標籤**，個人化它們之間的轉變。 若要這麼做，請連按兩下轉變以存取其屬性。
 
-此外， **[!UICONTROL Targeting]** 活動 **[!UICONTROL Data management (ETL)]** 可讓您定義其 **對外轉變的區** 段代碼。然後，您可以根據這些區段代碼建立報表，以評估行銷行銷活動的效率。如需詳細資訊，請參閱[本區段](../../reporting/using/creating-a-report-workflow-segment.md)。
+此外， **[!UICONTROL Targeting]** 活動 **[!UICONTROL Data management (ETL)]** 可讓您定義其 **對外轉變的區** 段代碼。 然後，您可以根據這些區段代碼建立報表，以評估行銷行銷活動的效率。 如需詳細資訊，請參閱[本章節](../../reporting/using/creating-a-report-workflow-segment.md)。
 
 **工作流程使用案例：**
 
@@ -123,12 +138,12 @@ ht-degree: 90%
 
 ## 設定活動 {#configuring-activities}
 
-預設不會設定活動，如果未設定，則無法正確處理資料。每個活動包含幾個頁籤，用於管理特定設定和活動通用選項，如出站轉變、標籤等。
+預設不會設定活動，如果未設定，則無法正確處理資料。 每個活動包含幾個頁籤，用於管理特定設定和活動通用選項，如出站轉變、標籤等。
 
-1. 請確定所有活動皆已正確連線。某些活動需要檢測傳入資料的結構或性質，以提供正確的設定選項。
+1. 請確定所有活動皆已正確連線。 某些活動需要檢測傳入資料的結構或性質，以提供正確的設定選項。
 1. 連按兩下某個活動或選取該活動，然後按一下 **[!UICONTROL Edit]** 內容相關動作以開啟其設定視窗。
 1. 編輯活動的標籤。
-1. 定義處理資料所需的所有不同選項。請參閱本檔案中活動的特定區段，瞭解每個活動的可能選項。
+1. 定義處理資料所需的所有不同選項。 請參閱本檔案中活動的特定區段，瞭解每個活動的可能選項。
 1. 保存活動，然後對工作流的每個活動重複這些操作。
 1. 儲存工作流程。
 

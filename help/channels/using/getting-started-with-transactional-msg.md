@@ -9,9 +9,28 @@ feature: Transactional Messaging
 role: User
 level: Beginner
 exl-id: 49fba1af-3c99-45b7-bcbb-b9b9678eedcd
-source-git-commit: 0e486e87c94e273442de23d6eb65c99f065e5a71
+TQID: https://experienceleague.adobe.com/vveKWyxi6u44BmNqzEVeMwPvtvP8uWhAI-4UMD2CnVU
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2:
+  - id: b5852c32-876b-41ae-92a7-9f588865ae52
+  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+  - id: d3b34fea-a110-482f-adb2-aae8d686bac8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: 996
 ht-degree: 8%
 
 ---
@@ -20,11 +39,11 @@ ht-degree: 8%
 
 交易式訊息是個別且唯一的通訊，由提供者（例如網站）即時傳送。 此為特別預期行為，因為它包含收件者要檢查或確認的重要資訊。
 
-* **何時到期？**&#x200B;因為此訊息包含重要資訊，所以使用者預期訊息會即時傳送。 因此，觸發的事件與到達的訊息之間的延遲必須非常短。
+* **何時到期？** 由於此訊息包含重要資訊，使用者預期會即時傳送。 因此，觸發的事件與到達的訊息之間的延遲必須非常短。
 
-* **為什麼這很重要？**&#x200B;一般而言，交易式訊息的開啟率很高。 因此，應謹慎設計，因為它在定義使用者端關係時可能對客戶行為產生強烈影響。
+* **為什麼這很重要？** 一般而言，交易式訊息具有高開啟率。 因此，應謹慎設計，因為它在定義使用者端關係時可能對客戶行為產生強烈影響。
 
-* **例如？**&#x200B;可能是建立帳戶後的歡迎訊息、確認訂單已出貨、發票、確認密碼變更的訊息，或客戶瀏覽您的網站後的通知等。
+* **例如？** 可能是建立帳戶後的歡迎訊息、確認訂單已出貨、發票、確認密碼變更的訊息，或客戶瀏覽您的網站後的通知等。
 
 Adobe Campaign可讓您將此功能與資訊系統整合，資訊系統會將要轉換為自訂交易式訊息的事件傳送出去。
 
@@ -71,7 +90,7 @@ Adobe Campaign提供兩種型別的交易式訊息。
 
 例如，當客戶在您的網站上放棄購物車後，您可在聯絡客戶時使用此型別的訊息，以鼓勵他們繼續購買。 這樣一來，您就可以更輕鬆地個人化訊息，直接存取設定檔資料庫中的所有資訊、套用行銷規則，並將此訊息納入全球客戶歷程及報告，以便更妥善地檢視客戶行為。
 
-在配置將轉換為交易式訊息的事件時定義訊息類型。請參閱[事件型交易式訊息](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages)與[設定檔型交易式訊息](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages)組態區段。
+在配置將轉換為交易式訊息的事件時定義訊息類型。 請參閱[事件型交易式訊息](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages)與[設定檔型交易式訊息](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages)組態區段。
 
 ## 主要步驟 {#key-steps}
 
@@ -109,7 +128,7 @@ Adobe Campaign提供兩種型別的交易式訊息。
 
 <!--<img src="assets/do-not-localize/icon_api.svg" width="55px">-->
 
-建立事件後，您需要將此事件的觸發專案整合至您的網站。<!--In this example, you want a "Cart abandonment" event to be triggered whenever one of your clients leaves your website before purchasing the products in their cart.-->若要這麼做，您的網站網站開發人員必須使用&#x200B;**Adobe Campaign Standard REST API**。
+建立事件後，您必須將此事件的觸發整合至您的網站。<!--In this example, you want a "Cart abandonment" event to be triggered whenever one of your clients leaves your website before purchasing the products in their cart.--> 若要這麼做，您的網站網站開發人員必須使用&#x200B;**Adobe Campaign Standard REST API**。
 
 | 實作觸發器 | 使用者 | 動作 | 結果 |
 | --- |--- |--- |--- |

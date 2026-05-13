@@ -9,9 +9,21 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 41b83014-aea9-4ec2-b20e-c0a05bcad503
-source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
+TQID: https://experienceleague.adobe.com/gTGkg0NPjtcDsY5RcaVwHklBVZ-dpLAe5qM9fcS9Bj4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: 858
 ht-degree: 3%
 
 ---
@@ -64,7 +76,7 @@ ht-degree: 3%
 
    在此設定的推播通知內容和選項會以裝載的形式傳遞至您的行動應用程式。 在[瞭解Campaign Standard推播通知裝載結構](../../administration/using/push-payload.md)技術檔案中描述了裝載的詳細結構。
 
-1. 按一下&#x200B;**[!UICONTROL Create]**。
+1. 按一下 **[!UICONTROL Create]**。
 
    ![](assets/push_notif_content_2.png)
 
@@ -108,7 +120,7 @@ ht-degree: 3%
    ![](assets/push_send_7.png)
 
 1. 您現在可以按一下&#x200B;**[!UICONTROL Confirm]**&#x200B;開始傳送推播通知。
-1. 透過訊息儀表板和記錄檔檢查您的傳送狀態。如需詳細資訊，請參閱[傳送訊息](../../sending/using/confirming-the-send.md)及[傳遞記錄](../../sending/using/monitoring-a-delivery.md#delivery-logs)。
+1. 透過訊息儀表板和記錄檔檢查您的傳送狀態。 如需詳細資訊，請參閱[傳送訊息](../../sending/using/confirming-the-send.md)及[傳遞記錄](../../sending/using/monitoring-a-delivery.md#delivery-logs)。
 
    在此範例中，訊息控制面板顯示Adobe Campaign嘗試傳送兩個推播通知：一個已成功傳遞至裝置，另一個失敗。 若要瞭解傳遞發生錯誤的原因，請按一下&#x200B;**[!UICONTROL Deployment]**&#x200B;視窗底部的![](assets/lp_link_properties.png)按鈕。
 

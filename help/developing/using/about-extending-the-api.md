@@ -8,10 +8,17 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 7dc64938-f28f-43eb-a6a3-870e5a41a431
-source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
+TQID: https://experienceleague.adobe.com/mXN6T29WmeKkVYY-oBnulLtr9umMGfflrzwCSCzgVfo
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 8%
+source-wordcount: 114
+ht-degree: 11%
 
 ---
 
@@ -26,7 +33,7 @@ ht-degree: 8%
 在公用API中公開擴充欄位的步驟如下：
 
 1. [將擴充功能欄位新增至設定檔資源](../../developing/using/step-1-add-extension-fields-to-the-profile-resource.md)
-1. [Publish擴充功能](../../developing/using/step-2-publish-the-extension.md)
+1. [發佈擴充功能](../../developing/using/step-2-publish-the-extension.md)
 1. [確認API中有新的擴充欄位可用](../../developing/using/step-3-verify-the-extension.md)
 
 **相關主題：**

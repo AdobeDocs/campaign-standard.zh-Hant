@@ -9,10 +9,21 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 8d5a35c4-e22b-498e-b71c-c5922cf8c2fd
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/fk0D9lHTMGS6deq5PqwzmrZeLexPDqSiVcaeJ4YJrq8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 39%
+source-wordcount: 709
+ht-degree: 42%
 
 ---
 
@@ -30,22 +41,22 @@ ht-degree: 39%
 
 收件者是透過查詢、交叉點等定位活動，在相同工作流程中定義活動上游的活動。
 
-根據工作流程執行參數觸發訊息準備。在訊息控制面板中，您可以選取是否要求傳送訊息的手動確認（預設為必要）。您可以手動啟動工作流程，或將排程器活動置於工作流程中以自動執行。
+根據工作流程執行參數觸發訊息準備。 在訊息控制面板中，您可以選取是否要求傳送訊息的手動確認（預設為必要）。 您可以手動啟動工作流程，或將排程器活動置於工作流程中以自動執行。
 
 ## 設定 {#configuration}
 
-1. 將&#x200B;**[!UICONTROL Query]**&#x200B;活動拖放至您的工作流程。 請注意，**[!UICONTROL Query]**&#x200B;索引標籤中的&#x200B;**[!UICONTROL Properties]**&#x200B;活動目標維度需要根據步驟4中選擇的範本進行更新：
+1. 將&#x200B;**[!UICONTROL Query]**&#x200B;活動拖放至您的工作流程。 請注意，**[!UICONTROL Properties]**&#x200B;索引標籤中的&#x200B;**[!UICONTROL Query]**&#x200B;活動目標維度需要根據步驟4中選擇的範本進行更新：
 
-   * **[!UICONTROL mobileApp (mobileAppV5)]**&#x200B;範本的目標維度應設為&#x200B;**[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**。
-   * **[!UICONTROL profile (profile)]**&#x200B;範本的目標維度應設為&#x200B;**[!UICONTROL Target users based on their Campaign profile (inAppProfile)]**。
-   * **[!UICONTROL subscriptions to an application (`nms:appSubscriptionRcp:appSubscriptionRcpDetail`範本的目標維度應設為]**)**[!UICONTROL Target users based on their Mobile profile (inApp)]**。
+   * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**&#x200B;範本的目標維度應設為&#x200B;**[!UICONTROL mobileApp (mobileAppV5)]**。
+   * **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]**&#x200B;範本的目標維度應設為&#x200B;**[!UICONTROL profile (profile)]**。
+   * **[!UICONTROL Target users based on their Mobile profile (inApp)]**&#x200B;範本的目標維度應設為&#x200B;**[!UICONTROL subscriptions to an application (`nms:appSubscriptionRcp:appSubscriptionRcpDetail`)]**。
 
 1. 將 **[!UICONTROL In-App delivery]** 活動拖放至工作流程中。
 1. 選取活動，然後使用所顯示快速動作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
 
    >[!NOTE]
    >
-   >您可以透過活動快速動作的![](assets/dlv_activity_params-24px.png)按鈕，存取活動（而非傳送本身）的一般屬性和進階選項。
+   >您可以透過活動快速動作的 ![](assets/dlv_activity_params-24px.png) 按鈕，存取活動（而非傳送本身）的一般屬性和進階選項。
 
    ![](assets/wkf_in_app_3.png)
 
@@ -58,9 +69,9 @@ ht-degree: 39%
    ![](assets/wkf_in_app_4.png)
 
 1. 輸入您的應用程式內訊息屬性，並在&#x200B;**[!UICONTROL Associate a Mobile App to a delivery]**&#x200B;欄位中選取您的行動應用程式。
-1. 在 **[!UICONTROL Triggers]** 索引標籤中，拖放將觸發訊息的事件。提供三種事件類別：
+1. 在 **[!UICONTROL Triggers]** 索引標籤中，拖放將觸發訊息的事件。 提供三種事件類別：
 1. 定義您的應用程式內內容。 請參閱關於[應用程式內自訂](../../channels/using/customizing-an-in-app-message.md)的區段。
-1. 依預設，**[!UICONTROL In-App delivery]** 活動不包含任何外站轉變。如果要將出站轉變新增到 **[!UICONTROL In-App delivery]** 活動中，請轉至高階活動選項的　**[!UICONTROL General]**　索引標籤（活動快速動作中的　![](assets/dlv_activity_params-24px.png)　按鈕），然後核取以下選項之一：
+1. 依預設，**[!UICONTROL In-App delivery]** 活動不包含任何外站轉變。 如果要將出站轉變新增到 **[!UICONTROL In-App delivery]** 活動中，請轉至高階活動選項的　**[!UICONTROL General]**　索引標籤（活動快速動作中的　![](assets/dlv_activity_params-24px.png)　按鈕），然後核取以下選項之一：
 
    * **[!UICONTROL Add outbound transition without the population]**：這可讓您產生一個外站轉變，其中包含與入站轉變完全相同的群體。
    * **[!UICONTROL Add outbound transition with the population]**：這可讓您產生出站轉變，其中包含傳送訊息的母體。 在傳遞準備期間排除的目標成員會從此轉變中排除。
@@ -71,10 +82,10 @@ ht-degree: 39%
 
 當您重新開啟活動時，會直接帶您至應用程式內控制面板。 只能編輯其內容。
 
-依預設，啟動傳送工作流程只會觸發訊息準備。在工作流程啟動後，仍需要確認從工作流程建立的訊息的傳送。但是，在訊息控制面板中，只有在訊息是從工作流程建立時，您才能停用 **[!UICONTROL Request confirmation before sending messages]** 選項。取消核取此選項後，訊息會在準備完成後不另行通知而傳送。
+依預設，啟動傳送工作流程只會觸發訊息準備。 在工作流程啟動後，仍需要確認從工作流程建立的訊息的傳送。 但是，在訊息控制面板中，只有在訊息是從工作流程建立時，您才能停用 **[!UICONTROL Request confirmation before sending messages]** 選項。 取消核取此選項後，訊息會在準備完成後不另行通知而傳送。
 
 ## 備註 {#remarks}
 
-您可以在應用程式的行銷活動清單中存取在工作流程中建立的傳送。您可以使用控制面板來檢視工作流程的執行狀態。推播通知摘要窗格中的連結可讓您直接存取連結的元素（工作流程、行銷活動等）。
+您可以在應用程式的行銷活動清單中存取在工作流程中建立的傳送。 您可以使用控制面板來檢視工作流程的執行狀態。 推播通知摘要窗格中的連結可讓您直接存取連結的元素（工作流程、行銷活動等）。
 
 在可從行銷活動清單存取的父傳送中，您可以檢視已處理的傳送總數（根據設定&#x200B;**[!UICONTROL In-App delivery]**&#x200B;活動時指定的彙總期間）。 若要這麼做，請選取 ![](assets/wkf_dlv_detail_button.png)，以開啟上層傳送 **[!UICONTROL Deployment]** 區塊的詳細資訊檢視。

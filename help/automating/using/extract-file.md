@@ -10,9 +10,16 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: ccf73563-f0f8-4397-ba96-7c5727562acd
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/NHN4AQinVIJsssfzhHhC6uKbcRBRPXq1h-ZZg8UIWkQ
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: 441
 ht-degree: 78%
 
 ---
@@ -44,13 +51,13 @@ ht-degree: 78%
    ![](assets/wkf_data_export1.png)
 
 1. 選取活動，然後使用所顯示快速動作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
-1. 輸入&#x200B;**輸出檔案**&#x200B;的標籤。將自動在檔案的標籤內填入建立的日期與時間，所以該標籤會是唯一的。例如：recipients_20150815_081532.txt，此檔案是於2015年8月15日08:15:32產生的。
+1. 輸入&#x200B;**輸出檔案**&#x200B;的標籤。 將自動在檔案的標籤內填入建立的日期與時間，所以該標籤會是唯一的。 例如：recipients_20150815_081532.txt，此檔案是於2015年8月15日08:15:32產生的。
 
    >[!NOTE]
    >
    >可以使用此欄位的 **[!UICONTROL formatDate]** 函式指定檔案名稱。
 
-1. 您也可以在 **[!UICONTROL Add a post-processing stage]** 欄位中選取 **[!UICONTROL Compression]** 以壓縮輸出檔案。輸出檔案將壓縮為 GZIP 檔案 (.gz)。
+1. 您也可以在 **[!UICONTROL Add a post-processing stage]** 欄位中選取 **[!UICONTROL Compression]** 以壓縮輸出檔案。 輸出檔案將壓縮為 GZIP 檔案 (.gz)。
 
    **[!UICONTROL Add a post-processing stage]**&#x200B;欄位也允許您在解壓縮檔案之前對其進行加密。 有關如何使用加密檔案的詳細資訊，請參閱[本節](../../automating/using/managing-encrypted-data.md)
 
@@ -62,18 +69,18 @@ ht-degree: 78%
 
    ![](assets/wkf_data_export3.png)
 
-1. 輸入運算式。要執行此操作，可以選取現有運算式，或使用&#x200B;**運算式編輯器**&#x200B;建立新的運算式。
+1. 輸入運算式。 要執行此操作，可以選取現有運算式，或使用&#x200B;**運算式編輯器**&#x200B;建立新的運算式。
 1. 確認您的運算式。
 
    已將運算式新增至到輸出欄。
 
-1. 建立您所需的欄數。您可以按一下欄的運算式及標籤來進行編輯。
+1. 建立您所需的欄數。 您可以按一下欄的運算式及標籤來進行編輯。
 
-   如果要匯出輪廓並希望在外部工具中使用它們，請確定您匯出唯一識別碼。依預設，並非所有輪廓都有唯一識別碼，這會視其新增至資料庫的方式而定。如需詳細資訊，請參閱[產生輪廓的唯一 ID](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)區段。
+   如果要匯出輪廓並希望在外部工具中使用它們，請確定您匯出唯一識別碼。 依預設，並非所有輪廓都有唯一識別碼，這會視其新增至資料庫的方式而定。 如需詳細資訊，請參閱[產生輪廓的唯一 ID](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)區段。
 
 1. 按一下 **[!UICONTROL File structure]** 索引標籤，為要匯出的檔案設定輸出、日期和編號格式。
 
-   核取 **[!UICONTROL Export labels instead of internal values of enumerations]** 選項，以備您匯出分項清單時使用。此選項可讓您擷取較短的標籤，與 ID 不同，這些標籤很容易理解。
+   核取 **[!UICONTROL Export labels instead of internal values of enumerations]** 選項，以備您匯出分項清單時使用。 此選項可讓您擷取較短的標籤，與 ID 不同，這些標籤很容易理解。
 
    ![](assets/extract-file-file-structure.png)
 

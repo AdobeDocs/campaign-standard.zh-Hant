@@ -1,12 +1,29 @@
 ---
-keywords: Campaign Standard;首頁;熱門話題
+keywords: Campaign Standard;home;popular topics
 title: Adobe Campaign Standard 產品文件
 description: 瀏覽　Adobe Campaign Standard 產品文件
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-source-git-commit: 9924d811359a6845ee6fd230eb6ffd73985404ba
-workflow-type: ht
-source-wordcount: '284'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/uNWyk8itcInOZ2iLyLAOYdGVKzr4ExnBuRRqNe24U-Y
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2:
+  - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
+  - id: d3b34fea-a110-482f-adb2-aae8d686bac8
+  - id: ede6e1ec-9279-415e-b828-a09735018d48
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 318
+ht-degree: 91%
 
 ---
 
@@ -14,7 +31,7 @@ ht-degree: 100%
 
 ## 有哪些新功能
 
-快速一覽 Adobe Campaign Standard 產品和文件的最新增強功能！如需功能、改進項目與修正的完整清單，請參閱詳細的[發行說明](rn/using/release-notes.md)。
+快速一覽 Adobe Campaign Standard 產品和文件的最新增強功能！ 如需功能、改進項目與修正的完整清單，請參閱詳細的[發行說明](rn/using/release-notes.md)。
 
 >[!BEGINTABS]
 
@@ -103,10 +120,10 @@ ht-degree: 100%
 ## 額外資源
 
 <table style="table-layout:fixed"><tr style="border: 0;">
-<td><strong>實用頁面</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant" target="_blank">教學課程</a> - <a href="https://helpx.adobe.com/tw/legal/product-descriptions/campaign-standard.html" target="_blank">產品說明</a> - <a href="rn/using/deprecated-features.md">已棄用和移除的功能</a> - <a href="rn/using/release-planning.md">發行規劃</a>
+<td><strong>有用的頁面</strong><br/>
+<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant" target="_blank">教學課程</a> - <a href="https://helpx.adobe.com/tw/legal/product-descriptions/campaign-standard.html" target="_blank">產品說明</a> - <a href="rn/using/deprecated-features.md">已過時和移除的功能</a> - <a href="rn/using/release-planning.md">發行計畫</a>
 </td>
 <td><strong>技術資源</strong><br/>
-<a href="integrating/using/about-adobe-experience-cloud-triggers.md">Experience Cloud 觸發器</a> - <a href="api/using/get-started-apis.md">Campaign API</a> - <a href="https://helpx.adobe.com/tw/campaign/kb/acs-article-list.html" target="blank">技術說明</a> - <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hant" target="_blank">控制面板文件</a> - <a href="https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=zh-Hant">錯誤訊息清單</a>
+<a href="integrating/using/about-adobe-experience-cloud-triggers.md">Experience Cloud觸發器</a> - <a href="api/using/get-started-apis.md">Campaign API</a> - <a href="https://helpx.adobe.com/tw/campaign/kb/acs-article-list.html" target="blank">技術說明</a> - <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hant" target="_blank">控制面板檔案</a> - <a href="https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=zh-Hant">錯誤訊息清單</a>
 </td>
 </tr></table>

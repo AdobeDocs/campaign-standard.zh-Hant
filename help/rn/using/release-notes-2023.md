@@ -5,9 +5,20 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 5817c4d2-4788-4695-bf9a-ec04cc042190
-source-git-commit: 30e96494dd7fa3313601e48deeec8ef98dcdce85
-workflow-type: ht
-source-wordcount: '458'
+TQID: https://experienceleague.adobe.com/YpZ3cQVh6CeVyCkOChGYLBUo1dMueoWh1AkFj3ycRwk
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 463
 ht-degree: 100%
 
 ---
@@ -22,7 +33,7 @@ ht-degree: 100%
 
 ### 功能改進 {#fall-23-rn-improvements}
 
-* **集成 Adobe Experience Manager**。在 Adobe Experience Manager 中建立交易型訊息的個人化傳遞範本時，您現在可以選取並使用下拉式清單中 Campaign Standard 定義的個人化欄位。[了解更多](../../integrating/using/creating-email-experience-manager.md)
+* **集成 Adobe Experience Manager**。 在 Adobe Experience Manager 中建立交易型訊息的個人化傳遞範本時，您現在可以選取並使用下拉式清單中 Campaign Standard 定義的個人化欄位。 [了解更多](../../integrating/using/creating-email-experience-manager.md)
 
 * **Cookie 有效期** – 預設 Cookie 有效期限現已設定為 6 個月，以符合法國資料保護局 (CNIL) 的建議。
 
@@ -39,7 +50,7 @@ ht-degree: 100%
 
 ### 其他變更 {#fall-23-rn-other-changes}
 
-* 交易型訊息現在支援使用多個以逗號分隔的相似性。[了解更多](../../sending/using/managing-typologies.md)
+* 交易型訊息現在支援使用多個以逗號分隔的相似性。 [了解更多](../../sending/using/managing-typologies.md)
 
 ### 修正 {#fall-23-rn-fixes}
 
@@ -51,7 +62,7 @@ ht-degree: 100%
 ### 功能改進 {#e-rn-improvements}
 
 * 推播訊息服務已經過現代化改造，以改善支援。 (CAMP-47959)
-* 簡訊訊息傳送服務已經過改善，以提供更高的穩定性。(CAMP-52217)
+* 簡訊訊息傳送服務已經過改善，以提供更高的穩定性。 (CAMP-52217)
 * Adobe 已修復許多協助工具，以便提高應用程式的整體易用性。 以下是協助工具改善的幾個範例：
    * 許多畫面中的介面鍵盤協助工具已最佳化。
    * 已增強觸控螢幕使用者專用的應用程式。
@@ -59,13 +70,13 @@ ht-degree: 100%
 
 ### 其他變更 {#e-rn-changes}
 
-* 已新增現成可用的&#x200B;**報告擴充建立工作流程**。 將目標對應從一個執行個體匯入另一個執行個體後，只要執行工作流程即可匯入對應的報告擴充項目。(CAMP-52452)
+* 已新增現成可用的&#x200B;**報告擴充建立工作流程**。 將目標對應從一個執行個體匯入另一個執行個體後，只要執行工作流程即可匯入對應的報告擴充項目。 (CAMP-52452)
 
 ### 已修復的問題{#e-rn-patches}
 
-* 修正在顯示&#x200B;**熱點點按**&#x200B;報告時可能導致超時錯誤的問題。(CAMP-51582)
-* 修正可能導致您無法使用與&#x200B;**位置**&#x200B;服務整合的問題。(CAMP-51923)
-* 修正可能導致工作流程排程器無法正常運作的問題。(CAMP-52003)
-* 修正檢視含有大量資料之自訂動態報告的 PDF 版本時，無法顯示劃分詳細資料的問題。(CAMP-52178)
+* 修正在顯示&#x200B;**熱點點按**&#x200B;報告時可能導致超時錯誤的問題。 (CAMP-51582)
+* 修正可能導致您無法使用與&#x200B;**位置**&#x200B;服務整合的問題。 (CAMP-51923)
+* 修正可能導致工作流程排程器無法正常運作的問題。 (CAMP-52003)
+* 修正檢視含有大量資料之自訂動態報告的 PDF 版本時，無法顯示劃分詳細資料的問題。 (CAMP-52178)
 * 修正存取報告時可能顯示錯誤的問題。 (CAMP-52500)
-* 修正誤將此帳戶簡訊連接器參數的&#x200B;**限制 MTA 執行個體**&#x200B;套用到所有通道而非僅套用至簡訊的問題。(CAMP-52640)
+* 修正誤將此帳戶簡訊連接器參數的&#x200B;**限制 MTA 執行個體**&#x200B;套用到所有通道而非僅套用至簡訊的問題。 (CAMP-52640)

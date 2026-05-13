@@ -9,9 +9,20 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 72b99864-d9d9-4cf4-be06-dc5719a2e4f2
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/EP76tPp3-TEsjgg91-p7dFhtHScLS0O2YOqUb2kun3E
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: 515
 ht-degree: 0%
 
 ---
@@ -61,9 +72,9 @@ ht-degree: 0%
 
 若要在Adobe Experience Manager中建立電子郵件內容：
 
-1. 從Sidekick存取&#x200B;**[!UICONTROL Plain text]** > **[!UICONTROL Page properties]**&#x200B;索引標籤，以編輯您的電子郵件主旨及&#x200B;**[!UICONTROL Email]**&#x200B;版本。
+1. 從Sidekick存取&#x200B;**[!UICONTROL Page properties]** > **[!UICONTROL Email]**&#x200B;索引標籤，以編輯您的電子郵件主旨及&#x200B;**[!UICONTROL Plain text]**&#x200B;版本。
 
-1. 透過&#x200B;**[!UICONTROL Personalization fields]**&#x200B;元件新增&#x200B;**[!UICONTROL Text & Personalization]**。 每個元件都與特定的使用方式相對應：插入影像、新增個人化等。
+1. 透過&#x200B;**[!UICONTROL Text & Personalization]**&#x200B;元件新增&#x200B;**[!UICONTROL Personalization fields]**。 每個元件都與特定的使用方式相對應：插入影像、新增個人化等。
 
    如需詳細資訊，請觀看下列影片：
 

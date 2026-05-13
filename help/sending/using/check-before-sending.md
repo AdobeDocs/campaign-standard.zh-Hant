@@ -9,10 +9,21 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: dfc5fc00-87aa-4d22-ad7c-cc0ba1ee21be
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+TQID: https://experienceleague.adobe.com/3qM5opRzD4u8HV5PALkfERzsLnWx1AsLuaDs8frG-Ic
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 25%
+source-wordcount: 412
+ht-degree: 15%
 
 ---
 
@@ -28,13 +39,13 @@ ht-degree: 25%
 
 此步驟可讓您在傳送到主要目標之前，偵測並修正可能的錯誤。
 
-本節[中顯示了驗證傳遞的步驟](../../sending/using/get-started-sending-messages.md#prepare-test-send)。
+本節[&#128279;](../../sending/using/get-started-sending-messages.md#prepare-test-send)中顯示了驗證傳遞的步驟。
 
 ## 電子郵件轉譯 {#email-rendering}
 
 在按下 **[!UICONTROL Send]** 按鈕之前，請確定您的郵件會以最佳方式顯示在各種 Web 用戶端、網頁郵件與裝置上。
 
-為了執行此操作，Adobe Campaign 會擷取呈現，並將之用於專用報告中。這可讓您在可接收訊息的不同內容中預覽所傳送的訊息。
+為了執行此操作，Adobe Campaign 會擷取呈現，並將之用於專用報告中。 這可讓您在可接收訊息的不同內容中預覽所傳送的訊息。
 
 **提示**：
 
@@ -42,13 +53,13 @@ ht-degree: 25%
 
 * 電子郵件呈現功能對於識別您的電子郵件行銷活動是否成功通過主要ISP （網際網路服務提供者）的篩選器和網頁郵件服務至關重要。 這類工具會將電子郵件的預檢復本傳送至測試收件匣的網路，以便您檢視這些服務中訊息的顯示或呈現方式。 它們也可能包括報表和程式碼更正選項，協助您快速識別並進行修正，以改善傳遞能力。
 
-在本節[瞭解更多](../../sending/using/email-rendering.md)。
+在本節[&#128279;](../../sending/using/email-rendering.md)瞭解更多。
 
 ## 校樣訊息 {#proof-messages}
 
-傳送校樣可讓您檢查選擇退出連結、鏡像頁面和任何其他連結、驗證訊息、驗證影像是否顯示、偵測可能的錯誤等。 您可能也會想要在不同裝置檢查您的設計和轉譯。
+傳送校樣可讓您檢查選擇退出連結、映象頁面和任何其他連結、驗證訊息、驗證影像是否已顯示、偵測可能的錯誤等。您可能也會想要檢查您在不同裝置上的設計和演算。
 
-在本節[瞭解更多](../../sending/using/sending-proofs.md)。
+在本節[&#128279;](../../sending/using/sending-proofs.md)瞭解更多。
 
 ## 設定A/B測試傳送 {#a-b-testing-deliveries}
 
@@ -60,4 +71,4 @@ ht-degree: 25%
 
 * 選取成功率最高的專案，並將其傳送至目標的其餘部分
 
-在本節[瞭解更多](../../channels/using/designing-an-a-b-test-email.md)。
+在本節[&#128279;](../../channels/using/designing-an-a-b-test-email.md)瞭解更多。

@@ -6,10 +6,20 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 474c8002-4263-4617-9480-6a9b603bde8e
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+TQID: https://experienceleague.adobe.com/dQyZVT7Q5Fdh4IdjkSGn0yEd8JmIUCPAN6qDjgYbdjo
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 12%
+source-wordcount: 434
+ht-degree: 15%
 
 ---
 
@@ -27,7 +37,7 @@ Experience Platform SDK支援推播通知。
 
 接收推播通知的行動應用程式必須由管理員在Adobe Campaign介面中設定。
 
-透過設定Adobe Campaign和Adobe Mobile Services，您將能夠將行動應用程式的資料用於行銷活動。 如需關於此項目的詳細資訊，請參閱此[頁面](../../administration/using/configuring-a-mobile-application.md)。
+設定Adobe Campaign和Adobe Mobile Services後，您就能夠將行動應用程式的資料用於行銷活動。 如需關於此項目的詳細資訊，請參閱此[頁面](../../administration/using/configuring-a-mobile-application.md)。
 
 若要使用Experience Cloud SDK應用程式傳送推播通知，必須在資料收集UI中設定行動應用程式，並在Adobe Campaign中設定。 如需關於此項目的詳細資訊，請參閱此[頁面](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)。
 
@@ -40,7 +50,7 @@ Experience Platform SDK支援推播通知。
 1. 從推播通知內容頁面，存取&#x200B;**[!UICONTROL Advanced options]**&#x200B;區段。
 
 1. 在&#x200B;**[!UICONTROL Rich media content URL]**&#x200B;欄位中輸入檔案的URL。
-若是iOS 10或更新版本，您可以插入影像、gif、音訊和視訊檔案。
+若是 iOS 10 或更新版本，您可以插入影像、gif、音訊和視訊檔案。
 
    ![](assets/push_notif_advanced_6.png)
 

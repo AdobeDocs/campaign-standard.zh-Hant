@@ -9,16 +9,28 @@ feature: Performance Monitoring
 role: User
 level: Intermediate
 exl-id: 0a0fe969-cdfd-4b0c-a746-081038424d86
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+TQID: https://experienceleague.adobe.com/F0EDpvoHNd-fQYxgk5CD-3dlStrW1OhOdlQ6k4tH-c8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '982'
+source-wordcount: 996
 ht-degree: 16%
 
 ---
 
 # 確認傳送{#confirming-the-send}
 
-在您j完成訊息準備並執行核准步驟後，即可傳送訊息。如需訊息準備的詳細資訊，請參閱[準備傳送](../../sending/using/preparing-the-send.md)。
+在您j完成訊息準備並執行核准步驟後，即可傳送訊息。 如需訊息準備的詳細資訊，請參閱[準備傳送](../../sending/using/preparing-the-send.md)。
 
 只有具有&#x200B;**[!UICONTROL Start deliveries]**&#x200B;角色的使用者才能確認傳送。 如需詳細資訊，請參閱[角色清單](../../administration/using/list-of-roles.md)區段。
 
@@ -46,7 +58,7 @@ Users without this role will see the following message:
 >
 >如果已排程訊息，則會在達到傳送時間時傳送訊息。 如需排程訊息的詳細資訊，請參閱[本區段](../../sending/using/about-scheduling-messages.md)。
 
-如果您使用不含彙總期間的循環傳送，則可在傳送傳遞前要求確認。設定訊息時，請開啟傳遞控制面板的&#x200B;**[!UICONTROL Schedule]**&#x200B;區塊，並啟用專用選項。
+如果您使用不含彙總期間的循環傳送，則可在傳送傳遞前要求確認。 設定訊息時，請開啟傳遞控制面板的&#x200B;**[!UICONTROL Schedule]**&#x200B;區塊，並啟用專用選項。
 
 ![](assets/confirmation_recurring_deliveries.png)
 
@@ -71,7 +83,7 @@ Users without this role will see the following message:
 
 ![](assets/sending_delivery.png)
 
-如果KPI更新時間太長或未反映傳送記錄檔的結果，請按一下&#x200B;**[!UICONTROL Compute stats]**&#x200B;視窗中的&#x200B;**[!UICONTROL Deployment]**&#x200B;按鈕。
+如果KPI更新時間太長或未反映傳送記錄檔的結果，請按一下&#x200B;**[!UICONTROL Deployment]**&#x200B;視窗中的&#x200B;**[!UICONTROL Compute stats]**&#x200B;按鈕。
 
 ![](assets/sending_delivery7.png)
 
@@ -90,7 +102,7 @@ Users without this role will see the following message:
 
 在每封電子郵件的&#x200B;**[!UICONTROL Summary]**&#x200B;檢視中，**[!UICONTROL Delivered]**&#x200B;百分比從100%開始，然後在整個傳遞[有效期間](../../administration/using/configuring-email-channel.md#validity-period-parameters)逐步下降，因為軟跳出和硬跳出會被回報回<!--from the Enhanced MTA to Campaign-->。
 
-事實上，一旦訊息從Campaign成功轉送至增強型MTA （訊息傳輸代理程式），所有訊息在&#x200B;**[!UICONTROL Sent]**&#x200B;傳送記錄檔[中都會顯示為](../../sending/using/monitoring-a-delivery.md#sending-logs)。 除非或直到該訊息的[跳出](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)從Enhanced MTA傳回Campaign，否則它們會維持該狀態。
+事實上，一旦訊息從Campaign成功轉送至增強型MTA （訊息傳輸代理程式），所有訊息在[傳送記錄檔](../../sending/using/monitoring-a-delivery.md#sending-logs)中都會顯示為&#x200B;**[!UICONTROL Sent]**。 除非或直到該訊息的[跳出](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)從Enhanced MTA傳回Campaign，否則它們會維持該狀態。
 
 當硬退信從Enhanced MTA回傳時，其狀態會從&#x200B;**[!UICONTROL Sent]**&#x200B;變更為&#x200B;**[!UICONTROL Failed]**，而&#x200B;**[!UICONTROL Delivered]**&#x200B;百分比會因此減少。
 

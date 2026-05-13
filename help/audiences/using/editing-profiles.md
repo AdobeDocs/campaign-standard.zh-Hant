@@ -1,5 +1,5 @@
 ---
-title: 編輯設定檔
+title: 編輯輪廓
 description: 瞭解如何編輯現有的設定檔及存取聯絡資訊、偏好的管道、追蹤記錄、訂閱等。
 audience: audiences
 content-type: reference
@@ -8,14 +8,26 @@ feature: Profiles
 role: User
 level: Intermediate
 exl-id: d0c7dc09-6f2b-4336-b545-7afe3a704164
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+TQID: https://experienceleague.adobe.com/hTCybEq1Hfh1fxXd5JGjRWmGZXzXNebtf42NZnEMZ5c
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: 315
 ht-degree: 7%
 
 ---
 
-# 編輯設定檔{#editing-profiles}
+# 編輯輪廓{#editing-profiles}
 
 ## 存取設定檔屬性 {#accessing-profile-properties}
 
@@ -39,7 +51,7 @@ ht-degree: 7%
 
 相關主題：
 
-* [整合式客戶設定檔](../../audiences/using/integrated-customer-profile.md)
+* [整合式客戶輪廓](../../audiences/using/integrated-customer-profile.md)
 * [在收件者的時區傳送](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)
 
 ## 一般設定檔資料 {#general-profile-data}
@@ -49,7 +61,7 @@ ht-degree: 7%
 * 連絡資訊，包含收件者的名字、姓氏、出生日期、像片、慣用語言（[多語言電子郵件](../../channels/using/creating-a-multilingual-email.md)）等。
 * 可連絡設定檔的頻道，包含收件者的電子郵件地址、行動電話號碼、選擇退出資訊。
 * 郵寄地址（適用於[直接郵件](../../channels/using/about-direct-mail.md)）和連絡人的時區（以[排程郵件時區](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)）。
-* 存取授權，表示收件者的組織單位（至[管理許可權](../../administration/using/about-access-management.md)）。 也請參閱[分割設定檔](../../administration/using/organizational-units.md#partitioning-profiles)。
+* 存取授權，表示收件者的組織單位（至[管理許可權](../../administration/using/about-access-management.md)）。 也請參閱[分割輪廓](../../administration/using/organizational-units.md#partitioning-profiles)。
 
 ![](assets/profile_creation4.png)
 

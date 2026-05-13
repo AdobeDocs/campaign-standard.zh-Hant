@@ -99,10 +99,10 @@ Adobe Campaign 提供兩種類型的推播通知：
 
 檢視下列資源：
 
-* [影片教學課程](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
+* [影片教學課程](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html?lang=zh-Hant)
 * [產品檔案](../../channels/using/about-push-notifications.md)
 * 使用AEP SDK [檔案設定](../../administration/using/configuring-a-mobile-application.md)
-* [社群頁面](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
+* [社群頁面](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=zh-Hant)
 
 ### 在Campaign中取得推播權杖必須做什麼？ {#push-token-acquisition}
 

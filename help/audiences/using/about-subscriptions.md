@@ -6,14 +6,10 @@ role: User
 level: Intermediate
 exl-id: 177f0115-d269-44e8-94e0-123360ea6299
 TQID: https://experienceleague.adobe.com/gsEh-PHBSQbDKZGZKklKBQv-rn78MOzciNC9aHuC-6I
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 226
@@ -40,8 +36,8 @@ ht-degree: 39%
 請依照下列步驟建立訂閱機制：
 
 1. **建立服務** — 依照本節[所述的步驟](../../audiences/using/creating-a-service.md)建立訂閱服務
-1. **共用連結** — 在此頁面瞭解如何推廣及共用您的服務[&#128279;](../../audiences/using/promoting-a-service.md)
-1. **監視訂閱** — 在此區段[&#128279;](../../audiences/using/monitoring-subscriptions.md)中探索幾種監視服務訂閱的方法
+1. **共用連結** — 在此頁面瞭解如何推廣及共用您的服務[](../../audiences/using/promoting-a-service.md)
+1. **監視訂閱** — 在此區段](../../audiences/using/monitoring-subscriptions.md)中探索幾種監視服務訂閱[的方法
 1. **確認訂閱** — 依照[此教學課程](../../audiences/using/confirming-subscription-to-a-service.md)傳送訂閱確認訊息
 
 ## 額外資源

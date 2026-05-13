@@ -10,18 +10,10 @@ role: Developer
 level: Experienced
 exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
 TQID: https://experienceleague.adobe.com/nb1iMYLX1mkPlTN0vodjRWHh4QhHKUU091nEvq-rGDg
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 2582
@@ -160,7 +152,7 @@ ht-degree: 1%
 
 * 如果您認為您有隱藏的子記錄，且無法存取這些記錄，您可以暫時將基數連結型別變更為&#x200B;**0或1個基數簡單連結**，以存取這些記錄。
 
-如需更全面的Campaign自訂資源概觀，請參閱本節[&#128279;](../../developing/using/key-steps-to-add-a-resource.md)。
+如需更全面的Campaign自訂資源概觀，請參閱本節[](../../developing/using/key-steps-to-add-a-resource.md)。
 
 ### 整合護欄
 
@@ -176,7 +168,7 @@ ht-degree: 1%
 
   在估計整體Campaign引擎呼叫量時，務必要將其他引擎呼叫來源（包括登陸頁面、WebApps、JSSP、API、行動應用程式註冊等）納入考量。
 
-  在這裡檢視Adobe Campaign Standard封裝資訊： [https://helpx.adobe.com/tw/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/tw/legal/product-descriptions/campaign-standard.html)
+  在這裡檢視Adobe Campaign Standard封裝資訊： [https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/tw/legal/product-descriptions/campaign-standard.html)
 
 * 此整合最多可支援1500萬筆記錄，以便初次同步至Campaign中的資源。 增量同步受到Adobe Campaign Standard套件的限制。
 
@@ -194,7 +186,7 @@ ht-degree: 1%
 
 * 請注意，整合使用量大幅增加或「激增」（例如，新記錄或更新記錄大幅增加）可能會造成資料同步速度變慢。
 
-* 在整合過程中，您需要完成Microsoft Azure和Dynamics 365中的整合前設定步驟。 檢視此頁面[&#128279;](../../integrating/using/d365-acs-configure-d365.md)上的設定步驟
+* 在整合過程中，您需要完成Microsoft Azure和Dynamics 365中的整合前設定步驟。 檢視此頁面](../../integrating/using/d365-acs-configure-d365.md)上的設定步驟[
 
 * 您應將Dynamics 365和Campaign資料模型匯入整合，並進行維護。
 

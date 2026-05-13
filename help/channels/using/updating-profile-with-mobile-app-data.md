@@ -10,12 +10,9 @@ role: User
 level: Intermediate
 exl-id: 1b48456e-9aae-485c-a7c4-7e3e2f53cbca
 TQID: https://experienceleague.adobe.com/bvy-7wuqsSH-ZYxQrx2Nlbjp-HXHvzAK-CwdkSlb1FM
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 1006
@@ -127,7 +124,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->在此情況下，工作流程會執行UPSERT，但因為它是以&#x200B;**[!UICONTROL Incremental query]**&#x200B;資料為基礎，所以只會插入。 變更查詢可能會影響要插入或更新哪些資料。
+>在此情況下，工作流程會執行UPSERT，但因為它是以&#x200B;**[!UICONTROL Incremental query]**資料為基礎，所以只會插入。 變更查詢可能會影響要插入或更新哪些資料。
 >此外，要更新欄位索引標籤中的設定會決定在特定條件下插入或更新哪些欄位。 這些設定對每個應用程式或客戶可能都是唯一的。
 >在設定這些設定時請小心，可能會產生非預期的後果，因為根據appSubscriptionRcp資料更新設定檔中的記錄可能會變更使用者的個人資訊，而不需要驗證。
 

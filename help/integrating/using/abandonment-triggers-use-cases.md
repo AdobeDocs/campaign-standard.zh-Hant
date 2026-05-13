@@ -10,14 +10,10 @@ role: Developer
 level: Intermediate
 exl-id: 88007e6f-2cdd-4fea-9739-525beaf7c658
 TQID: https://experienceleague.adobe.com/p8VXPIBMiH5wLdLlD0aIoOmZPzKtxq0oT-tb8BG8kAk
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 999
@@ -141,7 +137,7 @@ ht-degree: 90%
 
 ### 在Adobe Campaign中使用觸發器 {#using-the-trigger-in-adobe-campaign-1}
 
-1. 請依照先前使用案例中所述的步驟，在 Adobe Campaign 中建立觸發程式。 請參閱在[&#x200B; Adobe Campaign 中使用觸發程式](#using-the-trigger-in-adobe-campaign)。 主要差異在於我們在 Adobe Campaign 中存取和使用觸發程式裝載中推播之中繼資料的方式。
+1. 請依照先前使用案例中所述的步驟，在 Adobe Campaign 中建立觸發程式。 請參閱在[ Adobe Campaign 中使用觸發程式](#using-the-trigger-in-adobe-campaign)。 主要差異在於我們在 Adobe Campaign 中存取和使用觸發程式裝載中推播之中繼資料的方式。
 1. 在您於 Adobe Campaign 中建立的「搜尋放棄」觸發程式中，按一下 **[!UICONTROL Event content and enrichment]** 圖示以檢視推播至 Adobe Campaign 的裝載。
 
    ![](assets/trigger_uc_search_2.png)

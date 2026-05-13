@@ -10,15 +10,10 @@ role: Developer
 level: Experienced
 exl-id: 57e85f8e-65b4-44ea-98e6-0c555acf6dee
 TQID: https://experienceleague.adobe.com/WpIRNQtob-mtXSfXYBklwkcObjScygqUrHWRnJOscrM
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 961
@@ -124,7 +119,7 @@ OAuth存取權杖可讓整合工具透過網頁API向您的Microsoft Dynamics 36
 
 ### 取得租使用者ID {#get-the-tenant-id}
 
-依照此頁面[&#128279;](https://docs.microsoft.com/en-us/onedrive/find-your-office-365-tenant-id)中的指示尋找您的租使用者ID。  在整合工具的預先整合設定期間，您會需要此ID。
+依照此頁面](https://docs.microsoft.com/en-us/onedrive/find-your-office-365-tenant-id)中的指示[尋找您的租使用者ID。  在整合工具的預先整合設定期間，您會需要此ID。
 
 ## 安裝適用於Microsoft Dynamics 365的Campaign Standard {#install-appsource-app}
 

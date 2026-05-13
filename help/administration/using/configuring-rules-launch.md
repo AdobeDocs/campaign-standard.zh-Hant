@@ -9,9 +9,13 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b5f4f612-ea23-4007-b427-069777ecdd58
-source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
+TQID: https://experienceleague.adobe.com/WNces333l4PxdT4I8xKFrKi-wpWJlUDVFQOftlIq4U8
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: 1054
 ht-degree: 2%
 
 ---
@@ -89,7 +93,7 @@ ht-degree: 2%
 
 1. 從&#x200B;**[!UICONTROL Extension]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL Mobile Core]**。 然後，**[!UICONTROL Event type]**&#x200B;下拉式清單中的&#x200B;**[!UICONTROL Collect PII]**。
 
-1. 按一下&#x200B;**[!UICONTROL Keep changes]**。
+1. 按一下 **[!UICONTROL Keep changes]**。
 
 1. 在&#x200B;**[!UICONTROL Actions]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL Add]**。
 
@@ -161,7 +165,7 @@ ht-degree: 2%
 
 1. 從&#x200B;**[!UICONTROL Extension]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL Adobe Campaign Standard]**。 然後，**[!UICONTROL Event type]**&#x200B;下拉式清單中的&#x200B;**[!UICONTROL In-App click tracking]**。
 
-1. 按一下&#x200B;**[!UICONTROL Keep changes]**。
+1. 按一下 **[!UICONTROL Keep changes]**。
 
 1. 在&#x200B;**[!UICONTROL Actions]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL Add]**。
 
@@ -205,7 +209,7 @@ ht-degree: 2%
 
 1. 從&#x200B;**[!UICONTROL Action]**&#x200B;下拉式清單中，選取&#x200B;**[!UICONTROL Action]**，選取&#x200B;**[!UICONTROL equals]**，然後輸入&#x200B;**追蹤**。
 
-1. 按一下 **[!UICONTROL Keep changes]**。然後，在&#x200B;**[!UICONTROL Actions]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL Add]**。
+1. 按一下 **[!UICONTROL Keep changes]**。 然後，在&#x200B;**[!UICONTROL Actions]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL Add]**。
 
 1. 從&#x200B;**[!UICONTROL Extension]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL Mobile Core]**。 然後，**[!UICONTROL Action type]**&#x200B;下拉式清單中的&#x200B;**[!UICONTROL Send postback]**。
 

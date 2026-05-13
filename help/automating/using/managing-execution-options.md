@@ -10,10 +10,15 @@ old-role: Data Architect
 role: Developer
 level: Beginner
 exl-id: b0cc38fe-cf71-4350-8b4e-7daf0bf94066
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/oVIZ7m9J6e8ThKMpO6deSsyKoaNntndP20PVUOhyjxo
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 8%
+source-wordcount: 533
+ht-degree: 9%
 
 ---
 
@@ -45,7 +50,7 @@ ht-degree: 8%
 
   >[!CAUTION]
   >
-  >此選項佔用了大量磁碟空間，設計旨在幫助您建構工作流程並確保正確的設定和行為。在生產執行個體中保留未核取的狀態。
+  >此選項佔用了大量磁碟空間，設計旨在幫助您建構工作流程並確保正確的設定和行為。 在生產執行個體中保留未核取的狀態。
 
 * **[!UICONTROL Execute in the engine (do not use in production)]**：可讓您在本機執行工作流程，以進行開發環境測試。
 
@@ -59,7 +64,7 @@ ht-degree: 8%
 >
 >此選項可能會大幅影響您的工作流程效能，應謹慎使用。
 
-啟用時，如果查詢超過一分鐘，工作流程屬性&#x200B;**[!UICONTROL Diagnostic mode (Log execution plan of long running queries and give recommendations)]**&#x200B;區段中的&#x200B;**[!UICONTROL Execution]**&#x200B;選項會記錄整個執行計畫。
+啟用時，如果查詢超過一分鐘，工作流程屬性&#x200B;**[!UICONTROL Execution]**&#x200B;區段中的&#x200B;**[!UICONTROL Diagnostic mode (Log execution plan of long running queries and give recommendations)]**&#x200B;選項會記錄整個執行計畫。
 
 ![](assets/wkf_diagnostic.png)
 

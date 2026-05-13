@@ -9,9 +9,14 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/nb1iMYLX1mkPlTN0vodjRWHh4QhHKUU091nEvq-rGDg
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '2523'
+source-wordcount: 2582
 ht-degree: 1%
 
 ---
@@ -20,7 +25,7 @@ ht-degree: 1%
 
 ## 管理資料 {#acs-msdyn-manage-data}
 
-對於連絡人和自訂實體同步處理，此整合會將&#x200B;**Microsoft Dynamics 365視為真值的來源**。  同步屬性的任何變更應在Dynamics 365中完成，而非在Adobe Campaign Standard中完成)。  如果在Campaign中進行變更，則同步期間最終可能會在Campaign中覆寫這些變更，因為同步是單向的。
+對於連絡人和自訂實體同步處理，此整合會將&#x200B;**Microsoft Dynamics 365視為真相的來源**。對已同步化屬性的任何變更應在Dynamics 365中完成，而不是在Adobe Campaign Standard中完成)。如果在Campaign中進行變更，則最終可能會在同步處理期間在Campaign中覆寫這些變更，因為同步處理是在一個方向進行的。
 
 您可以選擇將整合設定為在Dynamics 365中刪除聯絡人時，向Campaign發出設定檔刪除呼叫，以協助維護資料完整性。 不過，設定檔刪除與隱私權刪除不同。 Campaign中的隱私權刪除將移除Campaign設定檔記錄和相關聯的記錄專案；而一般設定檔刪除將只會刪除Campaign設定檔記錄，留下留在Campaign記錄中的剩餘專案。 如果整合中啟用了設定檔刪除功能，則需要執行其他步驟才能正確處理資料主體隱私權請求。 請參閱以下[隱私權一節中的步驟](#manage-privacy-requests)。
 
@@ -30,7 +35,7 @@ ht-degree: 1%
 
 此整合旨在於Microsoft Dynamics 365和Adobe Campaign Standard之間傳輸一般使用者資料（包括但不限於個人資訊，若是包含在一般使用者資料中）。 身為資料控管單位，貴公司有責任遵守適用於您收集和使用個人資料的任何隱私權法規。
 
-整合不會發行任何資料主體隱私權（例如GDPR），但會刪除或處理任何其他隱私權請求（選擇退出除外）。 處理隱私權要求時，您應在Microsoft Dynamics 365和Campaign (透過Adobe Experience Platform Privacy Service)中個別執行。
+整合不會發行任何資料主體隱私權（例如GDPR），但會刪除或處理任何其他隱私權請求（選擇退出除外）。 處理隱私權要求時，您應在Microsoft Dynamics 365和Campaign （透過Adobe Experience Platform Privacy Service）中個別執行。
 
 如果您已設定整合，在Dynamics 365中刪除連絡人時，傳送定期設定檔刪除呼叫給Campaign，則應該遵循下列步驟。 確保在此過程中沒有對相關記錄進行更新。
 
@@ -51,7 +56,7 @@ ht-degree: 1%
 
 ## 選擇退出 {#opt-out}
 
-由於Microsoft Dynamics 365和Campaign之間在選擇退出屬性上的差異，以及每個客戶在業務需求上的差異，選擇退出對應已成為客戶完成的練習。  請務必確保系統之間正確對應選擇退出，以維護一般使用者選擇退出的偏好設定，並且他們不會透過選擇退出的頻道收到通訊。
+由於Microsoft Dynamics 365和Campaign之間的選擇退出屬性差異，以及每個客戶的業務需求差異，選擇退出對應留待客戶完成。請務必確保在系統之間正確對應選擇退出，以維護一般使用者選擇退出偏好設定，並且他們不會透過選擇退出的管道收到通訊。
 
 請注意，選擇退出對應中只能使用下列專案：
 
@@ -65,7 +70,7 @@ ht-degree: 1%
 
 布建整合時，您將有機會指定業務所需的選擇退出設定：
 
-* **單向(Microsoft Dynamics 365至Campaign)**： Dynamics 365是選擇退出的信任來源。 選擇退出屬性會以單一方向從Dynamics 365同步至Campaign Standard
+* **單向（Microsoft Dynamics 365至Campaign）**： Dynamics 365是選擇退出的信任來源。 選擇退出屬性會以單一方向從Dynamics 365同步至Campaign Standard
 * **單向(Campaign to Microsoft Dynamics 365)**： Campaign Standard是選擇退出的真實來源。 選擇退出屬性會以一個方向從Campaign Standard同步至Dynamics 365
 * **雙向**： Dynamics 365和Campaign Standard都是真實來源。 選擇退出屬性將在Campaign Standard和Dynamics 365之間雙向同步
 
@@ -91,13 +96,13 @@ ht-degree: 1%
 
 | 使用案例 | 說明 |
 |---|---|
-| 雙向與單向(Campaign至Microsoft Dynamics 365) | 雙向和單向(Campaign至Microsoft Dynamics 365)選擇退出資料流程將利用Campaign SFTP儲存空間。 Campaign工作流程會將增量變更匯出至SFTP資料夾。 整合程式會從此擷取記錄並處理。 |
+| 雙向與單向（Campaign至Microsoft Dynamics 365） | 雙向和單向（Campaign至Microsoft Dynamics 365）選擇退出資料流程將利用Campaign SFTP儲存空間。 Campaign工作流程會將增量變更匯出至SFTP資料夾。 整合程式會從此擷取記錄並處理。 |
 | 選擇退出記錄 | 疑難排解整合時，聯結器的輸出記錄會很有幫助。 輸出記錄檔可以開啟/關閉。 |
 
 
 >[!IMPORTANT]
 >
->您需負責存取和下載SFTP資料夾中的資訊。 如果資訊包含個人資料，您有責任遵守任何適用的隱私權法規。 [了解更多](#acs-msdyn-manage-privacy)。
+>您需負責存取和下載SFTP資料夾中的資訊。 如果資訊包含個人資料，您有責任遵守任何適用的隱私權法規。 [了解更多資訊](#acs-msdyn-manage-privacy)。
 
 ## 資料管理
 
@@ -127,7 +132,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->您本身的特定動作（例如，記錄的初始擷取、記錄資料的重播等）可能會導致大量記錄從Microsoft Dynamics 365擷取至您的Adobe Campaign執行個體。 為了降低效能問題的風險，建議您在將大量記錄擷取到Campaign之後停止所有Campaign程式（例如，沒有行銷活動、沒有執行工作流程等）。
+>您的某些動作（例如，記錄的初始擷取、記錄資料的重播等） 可能會導致大量記錄從Microsoft Dynamics 365擷取至您的Adobe Campaign執行個體。 為了降低效能問題的風險，建議您停止所有行銷活動程式（例如，沒有行銷活動、沒有執行工作流程等） 直到將大量記錄擷取到Campaign中為止。
 
 ### 自訂實體
 
@@ -147,7 +152,7 @@ ht-degree: 1%
 
 * 如果您認為您有隱藏的子記錄，且無法存取這些記錄，您可以暫時將基數連結型別變更為&#x200B;**0或1個基數簡單連結**，以存取這些記錄。
 
-如需更全面的Campaign自訂資源概觀，請參閱本節[&#128279;](../../developing/using/key-steps-to-add-a-resource.md)。
+如需更全面的Campaign自訂資源概觀，請參閱本節[](../../developing/using/key-steps-to-add-a-resource.md)。
 
 ### 整合護欄
 
@@ -163,7 +168,7 @@ ht-degree: 1%
 
   在估計整體Campaign引擎呼叫量時，務必要將其他引擎呼叫來源（包括登陸頁面、WebApps、JSSP、API、行動應用程式註冊等）納入考量。
 
-  在這裡檢視Adobe Campaign Standard封裝資訊： [https://helpx.adobe.com/tw/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/tw/legal/product-descriptions/campaign-standard.html)
+  在這裡檢視Adobe Campaign Standard封裝資訊： [https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/tw/legal/product-descriptions/campaign-standard.html)
 
 * 此整合最多可支援1500萬筆記錄，以便初次同步至Campaign中的資源。 增量同步受到Adobe Campaign Standard套件的限制。
 
@@ -181,7 +186,7 @@ ht-degree: 1%
 
 * 請注意，整合使用量大幅增加或「激增」（例如，新記錄或更新記錄大幅增加）可能會造成資料同步速度變慢。
 
-* 在整合過程中，您需要完成Microsoft Azure和Dynamics 365中的整合前設定步驟。 檢視此頁面[上的設定步驟](../../integrating/using/d365-acs-configure-d365.md)
+* 在整合過程中，您需要完成Microsoft Azure和Dynamics 365中的整合前設定步驟。 檢視此頁面](../../integrating/using/d365-acs-configure-d365.md)上的設定步驟[
 
 * 您應將Dynamics 365和Campaign資料模型匯入整合，並進行維護。
 
@@ -189,7 +194,7 @@ ht-degree: 1%
 
 此整合旨在解決Microsoft Dynamics 365與Campaign之間常見資料移動的一般使用案例，但並非旨在處理每個客戶特定的每個使用案例：
 
-* 整合不會發佈任何隱私權刪除通知（例如GDPR）。 客戶有責任履行使用者的隱私權要求；這類要求應在Campaign (透過Adobe Experience Platform Privacy Service)和Dynamics 365中獨立提出。 整合可視需要發佈定期刪除，以協助進行資料同步。   如需詳細資訊，請參閱[隱私權區段](#manage-privacy-requests)。
+* 整合不會發佈任何隱私權刪除通知（例如GDPR）。 客戶有責任履行使用者的隱私權要求；這類要求應在Campaign （透過Adobe Experience Platform Privacy Service）和Dynamics 365中獨立提出。 整合可視需要發佈定期刪除，以協助進行資料同步。   如需詳細資訊，請參閱[隱私權區段](#manage-privacy-requests)。
 
 * 除了選擇退出資訊（若由客戶設定）之外，沒有任何設定檔或自訂實體資料會從Campaign同步至Dynamics 365。
 

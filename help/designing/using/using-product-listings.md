@@ -9,10 +9,15 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3c8ddd46-05b4-4414-ab2e-052d60da09e5
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+TQID: https://experienceleague.adobe.com/dkHLMJ1OU3-chsOAaZbooc0tbLI8dmNENuUnEApEVS8
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 77%
+source-wordcount: 868
+ht-degree: 74%
 
 ---
 
@@ -26,7 +31,7 @@ ht-degree: 77%
 
 若要在交易式訊息中新增放棄的產品清單，請遵循以下步驟。
 
-您也可以觀看[這組影片](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html?lang=zh-Hant#configure-product-listings-in-transactional-emails)，說明在交易式電子郵件中設定產品清單所需的步驟。
+您也可以觀看[這組影片](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html#configure-product-listings-in-transactional-emails)，說明在交易式電子郵件中設定產品清單所需的步驟。
 
 >[!NOTE]
 >
@@ -34,12 +39,12 @@ ht-degree: 77%
 
 ## 定義產品清單 {#defining-a-product-listing}
 
-您必須先在事件層級中定義產品清單以及您想要顯示清單中各產品的欄位，才能在交易式訊息中使用產品清單。如需詳細資訊，請參閱「[定義資料集合](../../channels/using/configuring-transactional-event.md#defining-data-collections)」。
+您必須先在事件層級中定義產品清單以及您想要顯示清單中各產品的欄位，才能在交易式訊息中使用產品清單。 如需詳細資訊，請參閱「[定義資料集合](../../channels/using/configuring-transactional-event.md#defining-data-collections)」。
 
 1. 在交易式訊息中，按一下 **[!UICONTROL Content]** 區塊以修改電子郵件內容。
-1. 將結構元件拖放至工作區。如需詳細資訊，請參閱[定義電子郵件結構](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
+1. 將結構元件拖放至工作區。 如需詳細資訊，請參閱[定義電子郵件結構](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 
-   例如，選取單欄結構元件並新增文字元件、影像元件及按鈕元件。如需詳細資訊，請參閱[使用內容元件](../../designing/using/designing-from-scratch.md#about-content-components)。
+   例如，選取單欄結構元件並新增文字元件、影像元件及按鈕元件。 如需詳細資訊，請參閱[使用內容元件](../../designing/using/designing-from-scratch.md#about-content-components)。
 
 1. 選取您剛剛建立的結構元件，然後按一下內容工具列中的 **[!UICONTROL Enable product listing]** 圖示。
 
@@ -56,9 +61,9 @@ ht-degree: 77%
 
    >[!NOTE]
    >
-   >只有使用多欄結構元件時，才可使用　**[!UICONTROL Column]**　選項（**[!UICONTROL 2:2 column]**、**[!UICONTROL 3:3 column]** 及 **[!UICONTROL 4:4 column]**）。編輯產品清單時，僅填入第一欄：不會將其他欄納入考量。如需選取結構元件的詳細資訊，請參閱[定義電子郵件結構](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
+   >**[!UICONTROL Column]**&#x200B;選項僅適用於使用多欄結構元件（ **[!UICONTROL 2:2欄]**、**[!UICONTROL 3:3欄]**&#x200B;和&#x200B;**[!UICONTROL 4:4欄]** ）時。 編輯產品清單時，僅填入第一欄：不會將其他欄納入考量。 如需選取結構元件的詳細資訊，請參閱[定義電子郵件結構](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 
-1. 選取您在設定與交易式訊息相關之事件時建立的資料集合。您可以在 **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** 節點下方找到該集合。
+1. 選取您在設定與交易式訊息相關之事件時建立的資料集合。 您可以在 **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** 節點下方找到該集合。
 
    ![](assets/message-center_loop_selection.png)
 
@@ -66,13 +71,13 @@ ht-degree: 77%
 
 1. 使用 **[!UICONTROL First item]** 下拉式清單，以選取會啟動電子郵件中所顯示清單的元素。
 
-   例如，如果您選取 2，集合的第一個項目將不會顯示在電子郵件中。產品清單將從第二個項目開始。
+   例如，如果您選取 2，集合的第一個項目將不會顯示在電子郵件中。 產品清單將從第二個項目開始。
 
 1. 選取清單中要顯示的項目數量上限。
 
    >[!NOTE]
    >
-   >如果您希望清單的元素垂直顯示　(**[!UICONTROL Column]**)，則會根據已選取的結構元件（2、3 或 4 欄）來限制項目數目上限。如需選取結構元件的詳細資訊，請參閱「[編輯電子郵件結構](../../designing/using/designing-from-scratch.md#defining-the-email-structure)」。
+   >如果您希望清單的元素垂直顯示　(**[!UICONTROL Column]**)，則會根據已選取的結構元件（2、3 或 4 欄）來限制項目數目上限。 如需選取結構元件的詳細資訊，請參閱「[編輯電子郵件結構](../../designing/using/designing-from-scratch.md#defining-the-email-structure)」。
 
 ## 填入產品清單 {#populating-the-product-listing}
 
@@ -86,7 +91,7 @@ ht-degree: 77%
 
 1. 在開啟的 **[!UICONTROL Image source URL]** 視窗中選取　**[!UICONTROL Add personalization field]**。
 
-   從　**[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**　節點中，開啟與您建立之集合（此處 **[!UICONTROL Product list]**）相對應的節點，然後選取您定義的影像欄位（此處 **[!UICONTROL Product image]**）。按一下 **[!UICONTROL Save]**。
+   從　**[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**　節點中，開啟與您建立之集合（此處 **[!UICONTROL Product list]**）相對應的節點，然後選取您定義的影像欄位（此處 **[!UICONTROL Product image]**）。 按一下 **[!UICONTROL Save]**。
 
    ![](assets/message-center_loop_product-image.png)
 
@@ -96,7 +101,7 @@ ht-degree: 77%
 
    ![](assets/message-center_loop_product.png)
 
-1. 從　**[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**　節點中，開啟與您建立之集合（此處 **[!UICONTROL Product list]**）相對應的節點，然後選取您建立的欄位（此處 **[!UICONTROL Product name]**）。按一下 **[!UICONTROL Confirm]**。
+1. 從　**[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**　節點中，開啟與您建立之集合（此處 **[!UICONTROL Product list]**）相對應的節點，然後選取您建立的欄位（此處 **[!UICONTROL Product name]**）。 按一下 **[!UICONTROL Confirm]**。
 
    ![](assets/message-center_loop_product_node.png)
 
@@ -109,7 +114,7 @@ ht-degree: 77%
 
 1. 在開啟的 **[!UICONTROL Insert link]** 視窗中選取　**[!UICONTROL Add personalization field]**。
 
-   從　**[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**　節點中，開啟與您建立之集合（此處 **[!UICONTROL Product list]**）相對應的節點，然後選取您建立的　URL　欄位（此處 **[!UICONTROL Product URL]**）。按一下 **[!UICONTROL Save]**。
+   從　**[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**　節點中，開啟與您建立之集合（此處 **[!UICONTROL Product list]**）相對應的節點，然後選取您建立的　URL　欄位（此處 **[!UICONTROL Product URL]**）。 按一下 **[!UICONTROL Save]**。
 
    >[!IMPORTANT]
    >
@@ -129,9 +134,9 @@ ht-degree: 77%
 
    如果集合在觸發事件（例如客戶購物車中沒有任何專案）時為空白，則會顯示後援內容。
 
-1. 在「設定」窗格中，編輯產品清單的樣式。如需詳細資訊，請參閱[管理電子郵件樣式](../../designing/using/styles.md)。
-1. 使用連結至相關交易式事件且您為其定義集合資料的測試設定檔，以預覽電子郵件。例如，在您要使用之測試設定檔的 **[!UICONTROL Event data]** 區段中新增下列資訊：
+1. 在「設定」窗格中，編輯產品清單的樣式。 如需詳細資訊，請參閱[管理電子郵件樣式](../../designing/using/styles.md)。
+1. 使用連結至相關交易式事件且您為其定義集合資料的測試輪廓，以預覽電子郵件。 例如，在您要使用之測試輪廓的 **[!UICONTROL Event data]** 區段中新增下列資訊：
 
    ![](assets/message-center_loop_test-profile_payload.png)
 
-   如需在交易式訊息中定義測試設定檔的詳細資訊，請參閱[本區段](../../channels/using/testing-transactional-message.md#defining-specific-test-profile)。
+   如需在交易式訊息中定義測試輪廓的詳細資訊，請參閱[本區段](../../channels/using/testing-transactional-message.md#defining-specific-test-profile)。

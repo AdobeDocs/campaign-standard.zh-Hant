@@ -9,9 +9,16 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 0470b986-c00a-4441-8621-82c7112a9953
-source-git-commit: 449187bba167f9ce00e644d44a124b36030ba001
+TQID: https://experienceleague.adobe.com/UyKD0H4ffjVDfJRubitjN0pJs2DQbswTlOPNzvU6zLo
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: a39dbcf0-89cb-4765-9bcb-cf9dfbe2875f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: 475
 ht-degree: 1%
 
 ---
@@ -27,7 +34,7 @@ ht-degree: 1%
 如果您一律收到ISP的相同錯誤訊息，則ISP可能會偵測到您的電子郵件或IP有錯誤。 請遵循下列建議：
 
 * 檢查您是否收到大量連結到不存在電子郵件地址的失敗百分比（**使用者未知**&#x200B;個失敗）。
-* 更新您的訂閱表單，以偵測所輸入網域名稱中的任何錯誤(例如：gmaul.com或yaho.com)。
+* 更新您的訂閱表單，以偵測所輸入網域名稱中的任何錯誤（例如：gmaul.com或yaho.com）。
 * 如果您發現錯誤，指出您的訊息被宣告為垃圾訊息，或您的訊息被持續封鎖，請嘗試排除過去12個月內未開啟或點按您訊息之一的收件者，使其離開目標。
 
 如果問題仍然存在，請聯絡商業或傳遞服務或Adobe Campaign支援。
@@ -36,7 +43,7 @@ ht-degree: 1%
 
 * **封鎖清單上的電子郵件地址與隔離的電子郵件地址有何不同？**
 
-   * 狀態&#x200B;**[!UICONTROL On denylist]**&#x200B;是[回饋迴路](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=zh-Hant#feedback-loops) （當某人回報訊息為垃圾訊息時）的結果。
+   * 狀態&#x200B;**[!UICONTROL On denylist]**&#x200B;是[回饋迴路](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops) （當某人回報訊息為垃圾訊息時）的結果。
 
    * 狀態&#x200B;**[!UICONTROL Quarantined]**&#x200B;是軟退信或硬退信的結果。
 
@@ -59,7 +66,7 @@ ht-degree: 1%
 * **如何找出我的IP是否位於封鎖清單中？ 如何從封鎖清單移除我的IP？**
 
   若要檢查您的IP位址是否在封鎖清單中，您可以使用各種網站來驗證它，例如：
-   * [MX工具箱](https://mxtoolbox.com/)
+   * [MX Toolbox](https://mxtoolbox.com/)
    * [我的IP位址是什麼](https://whatismyipaddress.com)
 
   一般而言，IP位址檢查的結果會傳回包含封鎖清單詳細資訊以及封鎖IP位址之網站名稱的清單。

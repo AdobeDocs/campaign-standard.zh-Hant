@@ -9,9 +9,14 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 61988c1d-d538-47b1-94c1-f3fbdf314b65
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/iL7T6x6t2hi3QAw5osARvnBAqTPTXsFnLBCAq4H1B0k
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1451'
+source-wordcount: 1459
 ht-degree: 3%
 
 ---
@@ -22,7 +27,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->推播通道為選用。 請檢查您的授權合約。如需有關標準推播通知的詳細資訊，請參閱[關於推播通知](../../channels/using/about-push-notifications.md)。
+>推播通道為選用。 請檢查您的授權合約。 如需有關標準推播通知的詳細資訊，請參閱[關於推播通知](../../channels/using/about-push-notifications.md)。
 
 為了能夠傳送異動推播通知，您需要據此設定Adobe Campaign。 請參閱[設定行動應用程式](../../administration/using/configuring-a-mobile-application.md)。
 
@@ -48,8 +53,8 @@ ht-degree: 3%
 事件必須包含下列三個元素：
 
 * **註冊權杖**，此為單一行動應用程式與單一裝置的使用者識別碼。 它可能不會對應至Adobe Campaign資料庫中的任何設定檔。
-* **行動應用程式名稱** (適用於所有裝置 — Android和iOS)。 這是在Adobe Campaign中設定的行動應用程式ID，用來接收使用者裝置上的推播通知。 如需詳細資訊，請參閱[設定行動應用程式](../../administration/using/configuring-a-mobile-application.md)。
-* **推播平台** (Android為&quot;gcm&quot;或iOS為&quot;apns&quot;)。
+* **行動應用程式名稱** （適用於所有裝置 — Android和iOS）。 這是在Adobe Campaign中設定的行動應用程式ID，用來接收使用者裝置上的推播通知。 如需詳細資訊，請參閱[設定行動應用程式](../../administration/using/configuring-a-mobile-application.md)。
+* **推播平台** （Android為&quot;gcm&quot;或iOS為&quot;apns&quot;）。
 
 若要設定事件，請遵循下列步驟：
 
@@ -93,7 +98,7 @@ ht-degree: 3%
 
 1. 如果您想要使用Adobe Campaign資料庫的其他資訊，也可以擴充交易式訊息內容（請參閱[擴充事件](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)）。
 
-1. 儲存您的變更並發佈訊息。請參閱[發佈交易式訊息](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)。
+1. 儲存您的變更並發佈訊息。 請參閱[發佈交易式訊息](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)。
 
 1. 使用Adobe Campaign Standard REST API，使用一個行動應用程式(WeFlight)，在Android (gcm)上將事件傳送到註冊權杖(ABCDEF123456789)，並包含登機資料：
 
@@ -173,7 +178,7 @@ ht-degree: 3%
 
    如需編輯推播通知內容的詳細資訊，請參閱[準備和傳送推播通知](../../channels/using/preparing-and-sending-a-push-notification.md)。
 
-1. 儲存您的變更並發佈訊息。請參閱[發佈交易式訊息](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)。
+1. 儲存您的變更並發佈訊息。 請參閱[發佈交易式訊息](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)。
 1. 使用Adobe Campaign Standard REST API，傳送事件至設定檔：
 
    ```
@@ -208,7 +213,7 @@ ht-degree: 3%
 
 1. 展開&#x200B;**[!UICONTROL Advanced parameters]**&#x200B;區段。
 
-1. 按一下&#x200B;**[!UICONTROL Select a 'Target mapping' element]**。
+1. 按一下 **[!UICONTROL Select a 'Target mapping' element]**。
 
    ![](assets/message-center_push_target-mapping.png)
 

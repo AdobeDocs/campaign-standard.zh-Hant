@@ -8,10 +8,15 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 0a05cf20-7c8f-406b-acfd-7aece2c5dd26
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+TQID: https://experienceleague.adobe.com/TE3qON93QPjpzT15J3ind7T1nlyAvhkzlGV1tGVRPlU
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 2%
+source-wordcount: 795
+ht-degree: 3%
 
 ---
 
@@ -78,7 +83,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >依預設，活動會預先設定為搜尋設定檔。
+   >依預設，活動會預先設定為搜尋輪廓。
 
 1. 選取您要鎖定的事件，以便僅存取此事件的資料。
 
@@ -132,4 +137,4 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->如果您在建立事件設定時選取&#x200B;**[!UICONTROL Profile]**&#x200B;目標維度，後續訊息也會運用Adobe Campaign行銷資料庫。 請參閱[設定檔交易式訊息](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities)。
+>如果您在建立事件設定時選取&#x200B;**[!UICONTROL Profile]**&#x200B;目標維度，後續訊息也會運用Adobe Campaign行銷資料庫。 請參閱[輪廓交易式訊息](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities)。

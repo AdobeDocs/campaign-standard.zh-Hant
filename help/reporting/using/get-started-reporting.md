@@ -8,10 +8,16 @@ feature: Reporting
 role: Leader
 level: Beginner
 exl-id: 9ecb4ba6-c7a3-4b1f-ab73-5eb512ebb016
-source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
+TQID: https://experienceleague.adobe.com/4rmq12hEkuVgomFFRr9u1qZhr3AlTmPvFXnAFMbZBos
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: c309ee4e-82e4-4f7e-b608-ef345678c34e
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 14%
+source-wordcount: 386
+ht-degree: 23%
 
 ---
 
@@ -24,7 +30,7 @@ ht-degree: 14%
 <td><img src="assets/do-not-localize/icon_customize.svg" width="60px"><p><a href="#customize-reports">自訂您的報表</a></p></td></tr>
 </table>
 
-動態報告提供完全可自訂的即時報告，以評估行銷活動的影響。 它新增對設定檔資料的存取權，除了功能性電子郵件促銷活動資料（如開啟和點按）外，還支援依設定檔維度（如性別、城市和年齡）進行人口統計分析。
+動態報告提供完全可自訂的即時報告，以評估行銷活動的影響。 其可新增對輪廓資料的存取權，除了功能性電子郵件行銷活動資料 (如開啟和點按) 外，還可依輪廓維度 (例如，性別、城市和年齡) 進行人口統計分析。
 
 ![](assets/do-not-localize/how-to-video.png) [探索視訊中的動態報告](#video)
 
@@ -34,7 +40,7 @@ ht-degree: 14%
 
 透過動態報告&#x200B;**拖放介面**，您可以探索資料、判斷電子郵件行銷活動針對最重要客戶細分的執行方式，並從單一位置評估其對收件者的影響。
 
-**藉由各種功能管理您的動態報告**：即時重新整理資料、列印報告，或將其匯出為CSV檔案。 您也可以透過單次或循環電子郵件將報告與Campaign Standard使用者分享。
+**藉由各種功能管理您的動態報告**：即時重新整理資料、列印報告，或將其匯出為CSV檔案。 您也可以透過單次或循環電子郵件與Campaign Standard使用者共用報告。
 
 詳細內容：
 
@@ -70,7 +76,7 @@ Campaign Standard隨附一組&#x200B;**立即可用的動態報表**，可讓您
 * [新增面板](../../reporting/using/adding-panels.md)
 * [新增視覺效果](../../reporting/using/adding-visualizations.md)
 * [新增元件](../../reporting/using/adding-components.md)
-* [建立自訂設定檔維度](../../reporting/using/creating-a-custom-profile-dimension.md)
+* [建立自訂輪廓維度](../../reporting/using/creating-a-custom-profile-dimension.md)
 * [根據工作流程細分建立報告](../../reporting/using/creating-a-report-workflow-segment.md)
 
 ## 額外資源

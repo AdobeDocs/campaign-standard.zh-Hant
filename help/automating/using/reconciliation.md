@@ -10,10 +10,16 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: ed2e3793-6164-48af-9043-42dc43fa8ed4
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/glqcq7zaJ3-cRhOyU8whLUMKBGL-6TVkuGs53Lpce9o
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a658c786-869b-4194-a780-2594d663adda
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 78%
+source-wordcount: 559
+ht-degree: 77%
 
 ---
 
@@ -31,15 +37,15 @@ ht-degree: 78%
 
 * 新增關係：**[!UICONTROL Links]** 索引標籤可讓您在傳入資料和數個其他 Adobe Campaign 資料庫維度之間新增連結。
 
-  例如，包含購買資料的檔案也可能包含識別購買產品及購買者的資訊。因此，檔案資料會關注另外兩個維度 (**購買**&#x200B;除外)：**產品**&#x200B;及&#x200B;**輪廓**&#x200B;維度。然後，需要在這些&#x200B;**購買**&#x200B;維度之間建立關係（請參閱以下範例）。
+  例如，包含購買資料的檔案也可能包含識別購買產品及購買者的資訊。 因此，檔案資料會關注另外兩個維度 (**購買**&#x200B;除外)：**產品**&#x200B;及&#x200B;**輪廓**&#x200B;維度。 然後，需要在這些&#x200B;**購買**&#x200B;維度之間建立關係（請參閱以下範例）。
 
   定義關係時，將向入站資料新增欄，以參考連結維度的外部索引鍵。
 
   >[!NOTE]
   >
-  >此操作表示連結維度的資料已在資料庫中。例如，如果您匯入購買檔案，顯示何時購買了哪些產品、哪個客戶等，則產品和客戶必須已存在於資料庫中。
+  >此操作表示連結維度的資料已在資料庫中。 例如，如果您匯入購買檔案，顯示何時購買了哪些產品、哪個客戶等，則產品和客戶必須已存在於資料庫中。
 
-* 資料識別：**[!UICONTROL Identification]** 索引標籤可讓您將入站資料連結至 Adobe Campaign 資料庫中現有維度的欄。在活動後，會將資料識別為屬於定義的維度。
+* 資料識別：**[!UICONTROL Identification]** 索引標籤可讓您將入站資料連結至 Adobe Campaign 資料庫中現有維度的欄。 在活動後，會將資料識別為屬於定義的維度。
 
   例如，您之後可以執行儲存客群、資料庫更新等。
 
@@ -50,17 +56,17 @@ ht-degree: 78%
 
 ## 設定 {#configuration}
 
-1. 將 **[!UICONTROL Reconciliation]** 活動拖放到您的工作流程，亦即位在包含群體的轉變之後，而且其群體的目標維度不會直接來自於 Adobe Campaign。如需詳細資訊，請參閱[目標維度和資源](../../automating/using/query.md#targeting-dimensions-and-resources)。
+1. 將 **[!UICONTROL Reconciliation]** 活動拖放到您的工作流程，亦即位在包含群體的轉變之後，而且其群體的目標維度不會直接來自於 Adobe Campaign。 如需詳細資訊，請參閱[目標維度和資源](../../automating/using/query.md#targeting-dimensions-and-resources)。
 1. 選取活動，然後使用所顯示快速動作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
 1. 如果要定義傳入資料與其他資料庫維度之間的連結，請移至 **[!UICONTROL Links]** 索引標籤。
 
-   視需要盡量新增關係。對於每個關係，首先選取連結的維度，然後在連結詳細資訊中指定相對應的欄位。
+   視需要盡量新增關係。 對於每個關係，首先選取連結的維度，然後在連結詳細資訊中指定相對應的欄位。
 
 1. 如果您只想識別入站資料，請移至 **[!UICONTROL Identification]** 索引標籤並核取 **[!UICONTROL Identify the document from the working data]** 方塊。
 
    選取您要調和入站資料的目標維度。
 
-   新增調和條件，將入站轉變記錄連結至選取的目標維度記錄。如果指定了多個標準，則必須對這些標準進行驗證，以使其所有資料之間的連結能夠運作。
+   新增調和條件，將入站轉變記錄連結至選取的目標維度記錄。 如果指定了多個標準，則必須對這些標準進行驗證，以使其所有資料之間的連結能夠運作。
 
    選取 **[!UICONTROL Processing unidentified source lines]** 模式：
 

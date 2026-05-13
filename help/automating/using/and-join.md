@@ -10,9 +10,13 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: b03c6df3-0104-4900-9468-46824d62e0a6
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/ydaYzPE9SwLuC-d4nVSaFgLLp-R0Kuceq7hUI89aN1Y
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: 181
 ht-degree: 98%
 
 ---
@@ -35,11 +39,11 @@ ht-degree: 98%
 1. 將 **[!UICONTROL AND-join]** 活動拖放至工作流程中。
 1. 在您要同步的兩個不同分支之後，再連接它。
 1. 選取活動，然後使用所顯示快速動作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
-1. 選取要保留在出站轉變中的主集。如果您未選取任何集合，則會從活動傳送隨機群體。
+1. 選取要保留在出站轉變中的主集。 如果您未選取任何集合，則會從活動傳送隨機群體。
 1. 確認活動的設定並儲存工作流程。
 
 ## 範例 {#example}
 
-下列範例顯示兩個工作流程分支在與 **[!UICONTROL AND-join]** 活動連結之前的情形。只有啟用 **[!UICONTROL AND-join]** 活動的三個入站轉變時，才能擷取檔案。
+下列範例顯示兩個工作流程分支在與 **[!UICONTROL AND-join]** 活動連結之前的情形。 只有啟用 **[!UICONTROL AND-join]** 活動的三個入站轉變時，才能擷取檔案。
 
 ![](assets/wkf_and-join_example.png)

@@ -9,10 +9,13 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: 208e8629-c3e2-4f36-bae7-46ffc3f56a1b
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/WP1mlY9lQQu5qWqIx5L89VE6MxnOhxoYewTWAYwfFTI
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 12%
+source-wordcount: 324
+ht-degree: 24%
 
 ---
 
@@ -24,8 +27,8 @@ ht-degree: 12%
 * **清單**：可以設定所有清單畫面，並將顯示的資料匯出到個別檔案中。
 * **工作流程**：從檔案匯入資料，並使用它來更新資料庫或傳送電子郵件。 您也可以選取要匯出到檔案中的資料。 工作流程是自動進行定期更新的最佳方式，例如設定檔匯入。
 
-   * **[!UICONTROL Load file]** 活動可讓您匯入單一結構化格式的資料，以便在 Adobe Campaign 中使用此資料。資料會暫時匯入，而另一個活動必須將它完全整合在Adobe Campaign資料庫中。 有關如何使用此活動的詳細資訊，請參閱[本節](../../automating/using/load-file.md)。
-   * **[!UICONTROL Transfer file]**&#x200B;活動可讓您接收或傳送檔案、測試是否有檔案存在，或列出Adobe Campaign中的檔案。 如果您需要從外部來源擷取檔案，可在&#x200B;**[!UICONTROL Load file]**&#x200B;之前使用此活動。 有關如何使用此活動的詳細資訊，請參閱[本節](../../automating/using/transfer-file.md)。
+   * **[!UICONTROL Load file]** 活動可讓您匯入單一結構化格式的資料，以便在 Adobe Campaign 中使用此資料。 會暫時匯入資料，而另一個活動必須將它完全整合在 Adobe Campaign 資料庫中。 有關如何使用此活動的詳細資訊，請參閱[本節](../../automating/using/load-file.md)。
+   * **[!UICONTROL Transfer file]** 活動可讓您接收或傳送檔案、測試 Adobe Campaign 中是否有檔案或列出檔案。 如果您需要從外部來源擷取檔案，可在&#x200B;**[!UICONTROL Load file]**&#x200B;之前使用此活動。 有關如何使用此活動的詳細資訊，請參閱[本節](../../automating/using/transfer-file.md)。
 
 在設計匯入流程時，最佳實務是使用您可以根據需求調整的工作流程範本。 有關如何設定工作流程範本以匯入資料的詳細資訊，請參閱[此使用案例](../../automating/using/creating-import-workflow-templates.md)。
 

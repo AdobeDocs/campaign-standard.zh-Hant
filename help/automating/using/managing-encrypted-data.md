@@ -9,10 +9,13 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: 1df1552a-6578-47eb-ba14-fb91cd2a3999
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/YcGzLBwTG-SMU3-NlrchozuqRtQ2EoNHKUaMDsVPf4I
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 3%
+source-wordcount: 934
+ht-degree: 5%
 
 ---
 
@@ -33,7 +36,7 @@ ht-degree: 3%
 * 將在Campaign介面中顯示的&#x200B;**標籤**，以使用命令。 例如&quot;Encrypt file&quot;。
 * 要在您的執行個體上安裝的&#x200B;**命令**。
 
-處理要求後，**[!UICONTROL Pre-processing stage]**&#x200B;和&#x200B;**[!UICONTROL Load file]**&#x200B;活動的&#x200B;**[!UICONTROL Extract file]**&#x200B;欄位中即會提供加密/解密命令。 您可以使用它們來解密或加密您要匯入或匯出的檔案。
+處理要求後，**[!UICONTROL Load file]**&#x200B;和&#x200B;**[!UICONTROL Extract file]**&#x200B;活動的&#x200B;**[!UICONTROL Pre-processing stage]**&#x200B;欄位中即會提供加密/解密命令。 您可以使用它們來解密或加密您要匯入或匯出的檔案。
 
 ![](assets/preprocessing-encryption.png)
 
@@ -50,7 +53,7 @@ ht-degree: 3%
 
 執行此使用案例的步驟如下：
 
-1. 使用「控制面板」產生金鑰組（公用/私用）。 詳細步驟可在[控制面板檔案](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=zh-Hant#decrypting-data)中取得。
+1. 使用「控制面板」產生金鑰組（公用/私用）。 詳細步驟可在[控制面板檔案](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data)中取得。
 
    * 公開金鑰將與外部系統共用，外部系統將使用公開金鑰來加密要傳送至Campaign的資料。
    * Campaign將使用私密金鑰來解密傳入的加密資料。
@@ -94,7 +97,7 @@ ht-degree: 3%
 
 執行此使用案例的步驟如下：
 
-1. 使用GPG公用程式產生GPG金鑰組（公用/私用），然後將公用金鑰安裝至「控制面板」。 詳細步驟可在[控制面板檔案](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=zh-Hant#encrypting-data)中取得。
+1. 使用GPG公用程式產生GPG金鑰組（公用/私用），然後將公用金鑰安裝至「控制面板」。 詳細步驟可在[控制面板檔案](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data)中取得。
 
    ![](assets/gpg_install.png)
 

@@ -1,5 +1,5 @@
 ---
-title: 「步驟1：將擴充欄位新增至設定檔資源」
+title: 步驟 1：將擴充欄位新增至輪廓資源
 description: 探索如何擴充設定檔資源。
 audience: developing
 content-type: reference
@@ -8,14 +8,18 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: fdd4d68b-e083-41c9-809d-3a6dc6b71180
-source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
+TQID: https://experienceleague.adobe.com/sPeKLihXJwEB6OSmSqKM9Q-GqAcbVxKaTHAJEVs3x8Y
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 42%
+source-wordcount: 63
+ht-degree: 57%
 
 ---
 
-# 步驟 1：將擴充欄位新增至設定檔資源{#step-add-extension-fields-to-the-profile-resource}
+# 步驟 1：將擴充欄位新增至輪廓資源{#step-add-extension-fields-to-the-profile-resource}
 
 1. 從進階功能表，透過 Adobe Campaign 標誌，依序選取 **[!UICONTROL Administration]** > **[!UICONTROL Development]** 及 **[!UICONTROL Custom resources]**。
 1. 按一下&#x200B;**[!UICONTROL Create]**&#x200B;圖示以建立新的自訂資源。

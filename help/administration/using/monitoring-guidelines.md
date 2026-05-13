@@ -1,15 +1,20 @@
 ---
 title: 監視指南
-description: 此頁面提供監督Campaign Standard的一般准則
+description: 本頁面提供監督Campaign Standard的一般准則
 audience: production
 feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 5f25f2b2-ca41-4baf-ade2-42bbafb4790d
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+TQID: https://experienceleague.adobe.com/4hy5-pubF9F2FDQGaC7GF-BfMHqMDykC4mtypRc-zsk
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 12%
+source-wordcount: 512
+ht-degree: 18%
 
 ---
 
@@ -29,16 +34,16 @@ Campaign Standard提供數種監視執行個體的方式，以確保您的系統
 
 **系統通知**
 
-Campaign Standard介面會提供通知窗格，讓您隨時瞭解系統中發生的情況：事件狀態、系統更新、所需的動作等。 [閱讀更多](../../start/using/interface-description.md#top-bar)
+Campaign Standard介面提供通知窗格，讓您隨時瞭解系統中發生的情況：事件狀態、系統更新、需要的動作等。[瞭解詳情](../../start/using/interface-description.md#top-bar)
 
 
 **技術工作流程**
 
-技術工作流程是排程定期在伺服器上執行的操作或工作。 為確保您的執行個體正常運作，您需要確保執行個體隨時啟動並執行。 [閱讀更多](../../administration/using/technical-workflows.md)
+技術工作流程是排程定期在伺服器上執行的操作或作業。 為確保您的執行個體正常運作，您需要確保執行個體隨時啟動並執行。 [閱讀更多](../../administration/using/technical-workflows.md)
 
 **控制面板**
 
-「控制面板」可以讓您管理執行個體的多項設定：URL許可權、檢查執行個體詳細資訊（例如伺服器的組建版本）、監視作用中設定檔的使用情況等。 它也可讓您監視連線到執行個體的SFTP伺服器上的可用空間。 [閱讀全文](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hant)。
+「控制面板」可以讓您管理執行個體的多項設定：URL許可權、檢查執行個體詳細資訊（例如伺服器的組建版本）、監視作用中設定檔的使用情況等。它也可讓您監視連線到執行個體的SFTP伺服器上的可用空間。 [閱讀更多](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hant)。
 
 >[!NOTE]
 >
@@ -46,7 +51,7 @@ Campaign Standard介面會提供通知窗格，讓您隨時瞭解系統中發生
 
 **技術物件**
 
-**[!UICONTROL Diagnosis]**&#x200B;功能表是用於監視和分析應用程式產生的不同技術物件的關鍵工具：資料結構描述、網頁、批次工作等。 [閱讀更多](../../developing/using/monitoring-data-model-changes.md)
+**[!UICONTROL Diagnosis]**&#x200B;功能表是用於監視和分析應用程式產生的不同技術物件的關鍵工具：資料結構描述、網頁、批次工作等。[瞭解詳情](../../developing/using/monitoring-data-model-changes.md)
 
 **匯出稽核**
 
@@ -55,7 +60,7 @@ Campaign Standard介面會提供通知窗格，讓您隨時瞭解系統中發生
 
 **授權**
 
-透過&#x200B;**[!UICONTROL Licenses]**&#x200B;功能表，監視執行個體的相關資訊：已安裝的授權、組建版本和條款合約接受。
+透過&#x200B;**[!UICONTROL Licenses]**功能表，監視執行個體的相關資訊：已安裝的授權、組建版本和條款合約接受。
 [閱讀更多](../../administration/using/licenses.md)
 
 ## 監視工作流程 {#monitoring-workflows}
@@ -74,7 +79,7 @@ Campaign Standard介面會提供通知窗格，讓您隨時瞭解系統中發生
 
 **通知**
 
-Campaign Standard可讓您傳送通知給主管，以監視工作流程的執行並檢視是否有任何需要您注意的錯誤。
+Campaign Standard可讓您傳送通知給主管，以監視工作流程的執行狀況，並檢視是否有任何需要您注意的錯誤。
 [閱讀更多](../../automating/using/monitoring-workflow-execution.md#error-management)
 
 ## 監視傳遞 {#monitoring-deliveries}
@@ -91,7 +96,7 @@ Campaign Standard提供數種傳遞能力工具，協助您改善成功傳遞的
 傳送訊息後，詳細的記錄檔可讓您監視傳遞並測量行銷活動是否成功，以及追蹤訊息收件者的行為。
 [閱讀更多](../../sending/using/monitoring-a-delivery.md)
 
-**傳遞警報**
+**傳遞提醒**
 
 透過傳送警報功能，您可以設定自動傳送給一組使用者有關傳送執行的警報：傳送或準備失敗、退回率不佳、輸送量低等。
 [閱讀更多](../../sending/using/receiving-alerts-when-failures-happen.md)

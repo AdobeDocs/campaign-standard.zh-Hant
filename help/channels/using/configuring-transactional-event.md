@@ -9,10 +9,15 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 1b91fb97-fe97-4564-936c-438be7ea7bc0
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+TQID: https://experienceleague.adobe.com/gPeRyclF6wtJj0D3iN19ZwaxTGu-BoznkpccCQgO6XE
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1709'
-ht-degree: 3%
+source-wordcount: 1726
+ht-degree: 4%
 
 ---
 
@@ -68,7 +73,7 @@ ht-degree: 3%
 
 您可以將元素集合新增至事件內容，每個元素本身包含數個屬性。
 
-此集合可用於交易式電子郵件中，以將[產品清單](../../designing/using/using-product-listings.md)新增至訊息的內容，例如產品清單 — 具有價格、參考編號、數量等。 清單的每個產品。
+此集合可用於交易式電子郵件中，以將[產品清單](../../designing/using/using-product-listings.md)新增至訊息的內容，例如產品清單 — 包含清單中每個產品的價格、參考編號、數量等。
 
 1. 在&#x200B;**[!UICONTROL Collections]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL Create element]**&#x200B;按鈕。
 
@@ -105,7 +110,7 @@ ht-degree: 3%
 
 可以使用延伸&#x200B;**[!UICONTROL Profile and services Ext API]**&#x200B;的資訊擴充異動訊息內容。 如需詳細資訊，請參閱[擴充API：發佈擴充功能](../../developing/using/step-2-publish-the-extension.md)
 
-此資訊也可以儲存在新資源中。 在這種情況下，資源必須直接或透過其他資料表連結至&#x200B;**[!UICONTROL Profile]**&#x200B;或&#x200B;**[!UICONTROL Service]**&#x200B;資源。 例如，在下列設定中，如果&#x200B;**[!UICONTROL Product]**&#x200B;資源連結至&#x200B;**[!UICONTROL Product]**&#x200B;資源，則可以使用&#x200B;**[!UICONTROL Profile]**&#x200B;資源（例如產品類別或ID）的資訊擴充交易式訊息內容。
+此資訊也可以儲存在新資源中。 在這種情況下，資源必須直接或透過其他資料表連結至&#x200B;**[!UICONTROL Profile]**&#x200B;或&#x200B;**[!UICONTROL Service]**&#x200B;資源。 例如，在下列設定中，如果&#x200B;**[!UICONTROL Product]**&#x200B;資源連結至&#x200B;**[!UICONTROL Profile]**&#x200B;資源，則可以使用&#x200B;**[!UICONTROL Product]**&#x200B;資源（例如產品類別或ID）的資訊擴充交易式訊息內容。
 
 ![](assets/message-center_usecaseschema.png)
 
@@ -175,13 +180,13 @@ ht-degree: 3%
 
 ### 事件交易式訊息 {#event-based-transactional-messages}
 
-您可以傳送目標定位事件的事件交易式訊息。此類交易式訊息不包含輪廓資訊：傳遞目標是由事件本身包含的資料所定義。
+您可以傳送目標定位事件的事件交易式訊息。 此類交易式訊息不包含輪廓資訊：傳遞目標是由事件本身包含的資料所定義。
 
 若要傳送事件型交易式訊息，您必須先建立並設定事件，將目標定位為事件本身所包含的&#x200B;**資料**。
 
 1. 建立事件設定時，請選取&#x200B;**[!UICONTROL Real-time event]**&#x200B;目標維度（請參閱[建立事件](#creating-an-event)）。
 1. 新增欄位至事件，以便個人化交易式訊息（請參閱[定義事件屬性](#defining-the-event-attributes)）。
-1. 事件型交易式訊息應僅使用已傳送事件中的資料來定義收件者和訊息內容個人化。
+1. 事件型交易式訊息應僅使用傳送事件中的資料來定義收件者和訊息內容個人化。
 
    不過，如果您想要使用Adobe Campaign資料庫中的其他資訊，可以擴充交易式訊息內容（請參閱[擴充交易式訊息內容](#enriching-the-transactional-message-content)）。
 

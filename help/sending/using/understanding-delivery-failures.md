@@ -8,10 +8,16 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+TQID: https://experienceleague.adobe.com/6ZIy8zcUJpMGPTBoq3y3in1EOjJko8btTdmUX-nh1WM
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1281'
-ht-degree: 59%
+source-wordcount: 1347
+ht-degree: 55%
 
 ---
 
@@ -19,7 +25,7 @@ ht-degree: 59%
 
 ## 關於傳送失敗 {#about-delivery-failures}
 
-當傳送無法傳送至輪廓時，遠端伺服器會自動傳送錯誤訊息，此錯誤訊息會由 Adobe Campaign 平台擷取，並限定為隔離電子郵件地址或電話號碼。請參閱[退回電子郵件鑑定](#bounce-mail-qualification)。
+當傳送無法傳送至輪廓時，遠端伺服器會自動傳送錯誤訊息，此錯誤訊息會由 Adobe Campaign 平台擷取，並限定為隔離電子郵件地址或電話號碼。 請參閱[退回電子郵件鑑定](#bounce-mail-qualification)。
 
 >[!NOTE]
 >
@@ -35,7 +41,7 @@ ht-degree: 59%
 
 * [瞭解隔離管理](../../sending/using/understanding-quarantine-management.md)
 * [關於 Campaign 中的選擇加入和選擇退出](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
-* [退回](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=zh-Hant#metrics-for-deliverability)
+* [退回次數](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)
 
 ## 識別訊息的傳遞失敗 {#identifying-delivery-failures-for-a-message}
 
@@ -43,13 +49,13 @@ ht-degree: 59%
 
 ![](assets/sending_logs.png)
 
-此外，也提供專屬的現成可用報表。此報表詳細說明傳送期間遇到的整體硬式和軟式錯誤，以及自動處理退信。如需詳細資訊，請參閱[本章節](../../reporting/using/bounce-summary.md)。
+此外，也提供專屬的現成可用報表。 此報表詳細說明傳送期間遇到的整體硬式和軟式錯誤，以及自動處理退信。 如需詳細資訊，請參閱[本章節](../../reporting/using/bounce-summary.md)。
 
 ## 傳遞失敗型別和原因 {#delivery-failure-types-and-reasons}
 
 傳送失敗時有三種錯誤類型：
 
-* **硬式**：「硬式」錯誤表示地址無效。這包含明確指出地址無效的錯誤訊息，例如：&quot;未知使用者&quot;。
+* **硬式**：「硬式」錯誤表示地址無效。 這包含明確指出地址無效的錯誤訊息，例如：&quot;未知使用者&quot;。
 * **軟式**：這可能是暫時錯誤，或無法分類的錯誤，例如：「無效域」或「信箱已滿」。
 * **已忽略**：這是已知為暫時的錯誤，例如「不在辦公室」，或是技術錯誤，例如，如果傳送者類型是 &quot;postmaster&quot;。
 
@@ -57,26 +63,26 @@ ht-degree: 59%
 
 | 錯誤標籤 | 錯誤型別 | 說明 |
 | ---------|----------|---------|
-| **[!UICONTROL User unknown]** | 強烈 | 地址不存在。 此輪廓不會再嘗試傳送。 |
-| **[!UICONTROL Quarantined address]** | 強烈 | 地址被放入隔離區。 |
+| **[!UICONTROL User unknown]** | 硬退回 | 地址不存在。 此輪廓不會再嘗試傳送。 |
+| **[!UICONTROL Quarantined address]** | 硬退回 | 地址被放入隔離區。 |
 | **[!UICONTROL Unreachable]** | 軟/硬 | 訊息傳送鏈中發生錯誤（例如暫時無法存取網域）。 根據提供者傳回的錯誤，將直接傳送地址給隔離，或者重新嘗試傳送，直到 Campaign 收到證明隔離狀態正確的錯誤或錯誤數達到 5 為止。 |
-| **[!UICONTROL Address empty]** | 強烈 | 地址未定義。 |
-| **[!UICONTROL Mailbox full]** | 柔光 | 此使用者的信箱已滿，無法接受更多郵件。 可以從隔離清單中刪除此地址，以進行另一次嘗試。30天後自動移除。 為了從隔離位址清單自動移除位址，您必須啟動 **[!UICONTROL Database cleanup]** 技術工作流程。 |
+| **[!UICONTROL Address empty]** | 硬退回 | 地址未定義。 |
+| **[!UICONTROL Mailbox full]** | 軟退回 | 此使用者的信箱已滿，無法接受更多郵件。 可以從隔離清單中刪除此地址，以進行另一次嘗試。 30天後自動移除。 為了從隔離位址清單自動移除位址，您必須啟動 **[!UICONTROL Database cleanup]** 技術工作流程。 |
 | **[!UICONTROL Refused]** | 軟/硬 | 由於安全反饋為垃圾郵件報告，該地址已被置於隔離狀態。 根據提供者傳回的錯誤，將直接傳送地址給隔離，或者重新嘗試傳送，直到 Campaign 收到證明隔離狀態正確的錯誤或錯誤數達到 5 為止。 |
 | **[!UICONTROL Duplicate]** | 已忽略 | 區段中已偵測到該位址。 |
-| **[!UICONTROL Not defined]** | 柔光 | 該位址正在限定中，因為錯誤尚未增加。 當伺服器傳送新錯誤訊息時，會發生此類錯誤：它可能是孤立的錯誤，但如果再次發生，錯誤計數器會增加，這會提醒技術團隊。 |
+| **[!UICONTROL Not defined]** | 軟退回 | 該位址正在限定中，因為錯誤尚未增加。 當伺服器傳送新錯誤訊息時，會發生此類錯誤：它可能是孤立的錯誤，但如果再次發生，錯誤計數器會增加，這會提醒技術團隊。 |
 | **[!UICONTROL Error ignored]** | 已忽略 | 此地址在允許清單上，無論如何，都會寄送電子郵件給它。 |
-| **[!UICONTROL Address on denylist]** | 強烈 | 地址已在傳送時新增到封鎖清單中。 |
-| **[!UICONTROL Account disabled]** | 軟/硬 | 當網際網路存取提供者(IAP)偵測到長時間的不活動時，它可以關閉使用者帳戶：傳送至使用者位址的作業將無法進行。 「軟式」或「硬式」類型取決於收到的錯誤類型：如果帳戶因為 6 個月的閒置而暫時停用，而且仍可啟動，則會指派狀態 **[!UICONTROL Erroneous]** 並再次嘗試傳送。如果收到錯誤訊號表明帳戶已永久停用，則會直接將其發送到隔離。 |
+| **[!UICONTROL Address on denylist]** | 硬退回 | 地址已在傳送時新增到封鎖清單中。 |
+| **[!UICONTROL Account disabled]** | 軟/硬 | 當網際網路存取提供者(IAP)偵測到長時間的不活動時，它可以關閉使用者帳戶：傳送至使用者位址的作業將無法進行。 「軟式」或「硬式」類型取決於收到的錯誤類型：如果帳戶因為 6 個月的閒置而暫時停用，而且仍可啟動，則會指派狀態 **[!UICONTROL Erroneous]** 並再次嘗試傳送。 如果收到錯誤訊號表明帳戶已永久停用，則會直接將其發送到隔離。 |
 | **[!UICONTROL Not connected]** | 已忽略 | 當傳送訊息時，設定檔的行動電話已關閉或未連線至網路。 |
-| **[!UICONTROL Invalid domain]** | 柔光 | 電子郵件地址的網域不正確或已不存在。 此輪廓將再次定位，直到錯誤計數達到5。之後，記錄將設定為「隔離」狀態，不會再重試。 |
-| **[!UICONTROL Text too long]** | 已忽略 | SMS訊息中的字元數量超過限制。 如需詳細資訊，請參閱簡訊編碼、長度和音譯[&#128279;](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)。 |
+| **[!UICONTROL Invalid domain]** | 軟退回 | 電子郵件地址的網域不正確或已不存在。 此輪廓將再次定位，直到錯誤計數達到5。 之後，記錄將設定為「隔離」狀態，不會再重試。 |
+| **[!UICONTROL Text too long]** | 已忽略 | SMS訊息中的字元數量超過限制。 如需詳細資訊，請參閱簡訊編碼、長度和音譯](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)。[ |
 | **[!UICONTROL Character not supported by encoding]** | 已忽略 | SMS訊息包含一或多個編碼不支援的字元。 有關詳細資訊，請參閱[字元表- GSM標準](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard)。 |
 
 
 **相關主題：**
-* [硬退信](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=zh-Hant#hard-bounces)
-* [軟退信](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=zh-Hant#soft-bounces)
+* [硬退回次數](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces)
+* [軟退回次數](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
 
 ## 傳送暫時失敗後重試 {#retries-after-a-delivery-temporary-failure}
 
@@ -86,17 +92,17 @@ ht-degree: 59%
 
 <!--Please note that Adobe Campaign Enhanced MTA is not available for the Push channel.-->
 
-要修改傳送的持續時間，請轉至傳送或傳遞範本的進階參數，並編輯&#x200B;**[!UICONTROL Delivery duration]**&#x200B;有效期間[區段的 &#x200B;](../../administration/using/configuring-email-channel.md#validity-period-parameters) 欄位。
+要修改傳送的持續時間，請轉至傳送或傳遞範本的進階參數，並編輯&#x200B;**[!UICONTROL Delivery duration]**&#x200B;有效期間[區段的 ](../../administration/using/configuring-email-channel.md#validity-period-parameters) 欄位。
 
 >[!IMPORTANT]
 >
->**您的 Campaign 傳送中的&#x200B;**&#x200B;[!UICONTROL Delivery duration]&#x200B;**參數現在僅在設為 3.5 天或更少時使用。** 如果您定義的值超過　3.5　天，則不會考慮該值。
+>**您的Campaign傳送中的&#x200B;**[!UICONTROL Delivery duration]**引數現在僅在設為3.5天或更少時使用。** 如果您定義的值超過3.5天，則不會考慮該值。
 
 例如，如果您希望某個傳遞的重試在一天後停止，您可以將傳遞持續時間設為&#x200B;**1d**，重試佇列中的訊息將在一天後移除。
 
 >[!NOTE]
 >
->一旦訊息在重試佇列中超過3.5天且無法傳送，訊息將逾時，其狀態將在<!--from **[!UICONTROL Sent]**-->傳送記錄檔&#x200B;**[!UICONTROL Failed]**&#x200B;中更新[至](../../sending/using/monitoring-a-delivery.md#delivery-logs)。
+>一旦訊息在重試佇列中超過3.5天且無法傳送，訊息將逾時，其狀態將在[傳送記錄檔](../../sending/using/monitoring-a-delivery.md#delivery-logs)中更新<!--from **[!UICONTROL Sent]**-->至&#x200B;**[!UICONTROL Failed]**。
 
 <!--
 MOVED TO configuring-email-channel.md > LEGACY SETTINGS
@@ -108,7 +114,7 @@ The default configuration allows five retries at one-hour intervals, followed by
 傳送可能會立即失敗（同步錯誤），或稍後傳送失敗（非同步錯誤）。
 
 * **同步錯誤**：由 Adobe Campaign 傳送伺服器連絡的遠端伺服器會立即傳回錯誤訊息，不可傳送至輪廓的伺服器。
-* **非同步錯誤**：接收伺服器稍後會重新發送退回郵件或 SR。傳送後一週內，可能會發生非同步錯誤。
+* **非同步錯誤**：接收伺服器稍後會重新發送退回郵件或 SR。 傳送後一週內，可能會發生非同步錯誤。
 
 ## 退回郵件資格 {#bounce-mail-qualification}
 
@@ -116,11 +122,11 @@ The default configuration allows five retries at one-hour intervals, followed by
 
 >[!NOTE]
 >
-> Campaign **[!UICONTROL Message qualification]** 表格中的退信鑑定不再使用。
+>Campaign **[!UICONTROL Message qualification]** 表格中的退信鑑定不再使用。
 
-inMail 程序仍會透過 **[!UICONTROL Inbound email]** 規則來限定非同步退信。若要存取這些規則，請按一下左上方的&#x200B;**Adobe**&#x200B;標誌，然後選取&#x200B;**[!UICONTROL Administration > Channels > Email > Email processing rules]**&#x200B;並選取&#x200B;**[!UICONTROL Bounce mails]**。 如需此規則的詳細資訊，請參閱[本節](../../administration/using/configuring-email-channel.md#email-processing-rules)。
+inMail 程序仍會透過 **[!UICONTROL Inbound email]** 規則來限定非同步退信。 若要存取這些規則，請按一下左上方的&#x200B;**Adobe**&#x200B;標誌，然後選取&#x200B;**[!UICONTROL Administration > Channels > Email > Email processing rules]**&#x200B;並選取&#x200B;**[!UICONTROL Bounce mails]**。 如需此規則的詳細資訊，請參閱[本節](../../administration/using/configuring-email-channel.md#email-processing-rules)。
 
-如需有關退信和各種退信的詳細資訊，請參閱[本節](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=zh-Hant#metrics-for-deliverability)。
+如需有關退信和各種退信的詳細資訊，請參閱[本節](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)。
 
 <!--
 MOVED TO configuring-email-channel.md > LEGACY SETTINGS
@@ -138,7 +144,7 @@ To list the various bounces and their associated error types et reasons, click t
 
 ## 使用雙重加入機制最佳化電子郵件傳遞能力 {#optimizing-mail-deliverability-with-double-opt-in-mechanism}
 
-傳送電子郵件時，最佳作法是雙重加入機制。它可保護平台免受錯誤或無效的電子郵件地址、垃圾郵件機器人，並防止可能的垃圾郵件投訴。
+傳送電子郵件時，最佳作法是雙重加入機制。 它可保護平台免受錯誤或無效的電子郵件地址、垃圾郵件機器人，並防止可能的垃圾郵件投訴。
 
 原則是先傳送電子郵件以確認訪客的同意，再將其儲存為「設定檔」至您的Campaign資料庫：訪客填寫線上登入頁面，然後會收到電子郵件，必須按一下確認連結才能完成訂閱。
 

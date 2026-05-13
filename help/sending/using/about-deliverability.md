@@ -9,16 +9,22 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 5e523519-7192-4031-9d96-559af23074d9
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+TQID: https://experienceleague.adobe.com/UpAgRgq2WebJpzRW43aWhDYPb-r9nP24OYfcD78Ktds
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: beb7a3c1-66ab-4786-b879-7621375b3c40
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 6%
+source-wordcount: 849
+ht-degree: 7%
 
 ---
 
 # 什麼是傳遞性{#about-deliverability}
 
-可遞送性可讓您測量行銷活動在到達收件者收件匣時不會退回或標示為垃圾訊息的成功。 [瞭解傳遞能力重要的原因](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html?lang=zh-Hant#why-deliverability-matters)。
+可遞送性可讓您測量行銷活動在到達收件者收件匣時不會退回或標示為垃圾訊息的成功。 [瞭解傳遞能力重要的原因](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html#why-deliverability-matters)。
 
 更準確地說，電子郵件傳遞能力指一組特性，這些特性決定訊息在短時間內透過個人電子郵件地址到達其目的地的能力，以及內容和格式的預期品質。<!--These characteristics fall into four main categories: data quality, message and content, sending infrastructure, and reputation. Together, they form the foundation of a successful email deliverability program.-->
 
@@ -32,7 +38,7 @@ ht-degree: 6%
 
 傳遞能力問題通常與網際網路服務提供者和郵件伺服器管理員所實施的防止垃圾郵件的措施有關。
 
-* 如需如何設計成功電子郵件行銷活動的一般建議，請參閱[傳遞能力策略和定義](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html?lang=zh-Hant)。
+* 如需如何設計成功電子郵件行銷活動的一般建議，請參閱[傳遞能力策略和定義](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html)。
 
 * 如需如何最佳化Adobe Campaign電子郵件傳遞能力的更具體建議，建議您使用本節所列的最佳實務。
 
@@ -47,13 +53,13 @@ ht-degree: 6%
 使用Adobe Campaign時，傳遞率取決於許多因素，特別是：
 
 * 正確設定您的執行個體：請聯絡您的Adobe代表以尋求協助。
-* 合法的網路組態：請參閱[此章節](../../sending/using/optimize-delivery.md#network-config)和[網域設定和策略](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=zh-Hant#domain-setup-and-strategy)。
-* 您的IP位址信譽：請參閱[IP策略](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=zh-Hant#ip-strategy)。
+* 合法的網路組態：請參閱[此章節](../../sending/using/optimize-delivery.md#network-config)和[網域設定和策略](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#domain-setup-and-strategy)。
+* 您的IP位址信譽：請參閱[IP策略](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#ip-strategy)。
 * 目標地址的品質：請參閱[隔離管理](../../sending/using/optimize-delivery.md#quarantine-management)。
-* 低[投訴](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html?lang=zh-Hant)和[硬退信](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=zh-Hant#hard-bounces)率。
+* 低[投訴](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html)和[硬退信](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces)率。
 * 您的訊息內容：請參閱[控制電子郵件內容](../../sending/using/control-email-content.md)。
-* 訊息驗證(SPF、DKIM、DMARC)：請參閱[本節](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=zh-Hant#authentication)。
-* 寄件者信譽：若要瞭解主要ISP如何評估寄件者信譽，請參閱[本節](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/internet-service-provider-specifics/overview.html?lang=zh-Hant)。
+* 訊息驗證(SPF、DKIM、DMARC)：請參閱[本節](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication)。
+* 寄件者信譽：若要瞭解主要ISP如何評估寄件者信譽，請參閱[本節](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/internet-service-provider-specifics/overview.html)。
 
 ## Campaign傳遞工具 {#deliverability-tools}
 
@@ -74,7 +80,7 @@ Adobe Campaign提供許多工具，用於追蹤和改善平台的可遞送性效
 
 如需此專案的詳細資訊，請參閱[關於Campaign中的加入和退出](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)。
 
-如需從客戶收集資料的最佳實務的詳細資訊，請參閱[Adobe傳遞能力最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/address-collection-and-list-growth.html?lang=zh-Hant#data-quality-and-hygiene)。
+如需從客戶收集資料的最佳實務的詳細資訊，請參閱[Adobe傳遞能力最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/address-collection-and-list-growth.html#data-quality-and-hygiene)。
 
 ### 利用隔離管理
 
@@ -82,7 +88,7 @@ Adobe Campaign管理的清單會收集持續發生的垃圾郵件投訴、硬跳
 
 為了保護您的傳送能力，該清單中地址在清單中的收件者預設會從所有未來的傳送中排除，因為傳送給這些聯絡人可能會損害您的傳送信譽。
 
-如果無效地址的比率過高，某些網際網路存取提供者會自動將電子郵件視為垃圾郵件。因此，隔離可讓您避免被這些提供者新增到封鎖清單中。
+如果無效地址的比率過高，某些網際網路存取提供者會自動將電子郵件視為垃圾郵件。 因此，隔離可讓您避免被這些提供者新增到封鎖清單中。
 
 如需詳細資訊，請參閱下列章節：
 

@@ -8,10 +8,17 @@ feature: Proofs
 role: User
 level: Beginner
 exl-id: dc8bd1d3-e199-4901-9b1f-7b485879897d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/P2rZ9NJ2p1UsYgUHtLDpqTc3wiqc3Ac1Cyi1WvymVqc
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: b5852c32-876b-41ae-92a7-9f588865ae52id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '2038'
-ht-degree: 2%
+source-wordcount: 2045
+ht-degree: 3%
 
 ---
 
@@ -29,7 +36,7 @@ ht-degree: 2%
 * 硬跳出錯誤率不佳的傳遞
 * 具有待定狀態的傳遞比平常更長
 * 低輸送量的傳遞
-* 傳遞進行中
+* 進行中的傳遞
 
 警報的收件者可監控Adobe Campaign正在處理的傳送，並在執行中發生問題時採取適當的動作。
 
@@ -46,7 +53,7 @@ ht-degree: 2%
 
 ![](assets/delivery-alerting_notification.png)
 
-## 傳遞警報儀表板 {#delivery-alerting-dashboards}
+## 傳遞提醒儀表板 {#delivery-alerting-dashboards}
 
 ### 關於傳送警報儀表板 {#about-delivery-alerting-dashboards}
 
@@ -75,7 +82,7 @@ ht-degree: 2%
 
 如果您想要根據特定條件將通知傳送給不同的使用者群組，您需要使用數個控制面板。 若要建立新儀表板：
 
-1. 前往&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Delivery alerting]**。
+1. 前往 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Delivery alerting]**。
 1. 選取 **[!UICONTROL Delivery alerting dashboards]** 並按一下 **[!UICONTROL Create]**。
 1. 核取&#x200B;**[!UICONTROL Enabled]**&#x200B;方塊以啟動目前的儀表板。
 
@@ -85,12 +92,12 @@ ht-degree: 2%
 
 1. 從&#x200B;**[!UICONTROL Alert group]**&#x200B;下拉式清單中選取您要通知的收件者群組。 若要修改或建立群組，請參閱[建立安全性群組並指派使用者](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users)。
 1. 從&#x200B;**[!UICONTROL Delivery alerting criteria]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL Create element]**&#x200B;以新增條件。 請參閱[關於警示條件](#about-alerting-criteria)。
-1. 選取&#x200B;**[!UICONTROL Edit properties]**&#x200B;按鈕。 在&#x200B;**[!UICONTROL Criteria parameters]**&#x200B;索引標籤中，定義如何套用條件。 請參閱[條件引數](#criteria-parameters)。
+1. 選取 **[!UICONTROL Edit properties]** 按鈕。 在&#x200B;**[!UICONTROL Criteria parameters]**&#x200B;索引標籤中，定義如何套用條件。 請參閱[條件引數](#criteria-parameters)。
 1. 按一下&#x200B;**[!UICONTROL Create]**&#x200B;以儲存儀表板。
 
 現在，每當傳送符合您在此控制面板中定義的條件時，就會傳送警報通知給指定的使用者群組。
 
-## 傳遞警報條件 {#delivery-alerting-criteria}
+## 傳遞提醒條件 {#delivery-alerting-criteria}
 
 ### 關於警示條件 {#about-alerting-criteria}
 

@@ -9,9 +9,13 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 6516c71a-efa8-4778-82bb-10615378f985
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/PSAzSStMFWofMteBu3jMSizD2kj1M9F7-0iO3dcugjY
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: 320
 ht-degree: 3%
 
 ---
@@ -40,7 +44,7 @@ Adobe Campaign與Adobe Analytics整合可讓您直接在Adobe Analytics中追蹤
   </tr> 
   <tr> 
    <td> 傳遞ID<br /> </td> 
-   <td> 在Campaign中看到的傳遞內部名稱。<br />例如，DM1是排程每週傳送子傳遞的循環傳遞。 DM2、DM3和DM4會在最初三週傳送。 然後，傳遞ID維度會顯示每個傳遞的結果，即DM1到DM4。<br /> </td> 
+   <td> 在Campaign中看到的傳遞的內部名稱。<br /> 例如，DM1是排程每週傳送子傳送的循環傳送。 DM2、DM3和DM4會在最初三週傳送。 然後，傳遞ID維度會顯示每個傳遞的結果，即DM1到DM4。<br /> </td> 
   </tr> 
   <tr> 
    <td> 傳遞標籤<br /> </td> 
@@ -48,7 +52,7 @@ Adobe Campaign與Adobe Analytics整合可讓您直接在Adobe Analytics中追蹤
   </tr> 
   <tr> 
    <td> 已執行的傳遞ID<br /> </td> 
-   <td> 在Campaign中看到的傳遞內部名稱。 這僅涉及Campaign中的傳送執行。<br />例如，DM1是排程每週傳送子傳遞的循環傳遞。 DM2、DM3和DM4會在最初三週傳送。 然後，「已執行的傳送ID」維度會顯示已執行傳送的結果，即子傳送DM2、DM3和DM4。<br /> </td> 
+   <td> 在Campaign中看到的傳遞內部名稱。 這僅與行銷活動中執行的傳遞有關。<br /> 例如，DM1是排程每週傳送子傳送的循環傳送。 DM2、DM3和DM4會在最初三週傳送。 然後，「已執行的傳送ID」維度會顯示已執行傳送的結果，即子傳送DM2、DM3和DM4。<br /> </td> 
   </tr> 
   <tr> 
    <td> 已執行的傳遞標籤<br /> </td> 

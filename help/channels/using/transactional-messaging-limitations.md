@@ -9,9 +9,14 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: d6aaec6e-c718-46a2-88e8-7402970def1a
-source-git-commit: 2d3ef53d5ea5603d90da169366be6ea516d96823
+TQID: https://experienceleague.adobe.com/rFFpX6Up3eir0KrwY0lsfhAHlfennHiJkq2BsHuiAps
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: 763
 ht-degree: 61%
 
 ---
@@ -33,11 +38,11 @@ ht-degree: 61%
 在設定和發佈交易式事件時，您需要執行的某些步驟無法還原。 您必須注意下列限制：
 
 * 異動訊息的可用通道為： **[!UICONTROL Email]**、**[!UICONTROL Mobile (SMS)]**&#x200B;和&#x200B;**[!UICONTROL Push notification]**。
-* 每個事件設定只能使用一個通道。請參閱[建立事件](../../channels/using/configuring-transactional-event.md#creating-an-event)。
-* 事件建立後，便無法變更通道。因此，如果訊息未成功傳送，您需要設計機制，允許使用工作流程從其他通道傳送訊息。請參閱[工作流程資料和程序](../../automating/using/get-started-workflows.md)。
-* 在事件建立後，您無法變更目標維度 **[!UICONTROL Real-time event]** 或 **[!UICONTROL Profile]** ）。請參閱[建立事件](../../channels/using/configuring-transactional-event.md#creating-an-event)。
-* 無法回滾發佈，但可以取消發佈事件：此操作使事件和關聯的交易式訊息無法存取。請參閱[取消發佈事件](../../channels/using/publishing-transactional-event.md#unpublishing-an-event)。
-* 唯一可與事件關聯的交易式訊息是發佈該事件時自動建立的訊息。請參閱[預覽和發佈事件](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)。
+* 每個事件設定只能使用一個通道。 請參閱[建立事件](../../channels/using/configuring-transactional-event.md#creating-an-event)。
+* 事件建立後，便無法變更通道。 因此，如果訊息未成功傳送，您需要設計機制，允許使用工作流程從其他通道傳送訊息。 請參閱[工作流程資料和程序](../../automating/using/get-started-workflows.md)。
+* 在事件建立後，您無法變更目標維度 **[!UICONTROL Real-time event]** 或 **[!UICONTROL Profile]** ）。 請參閱[建立事件](../../channels/using/configuring-transactional-event.md#creating-an-event)。
+* 無法回滾發佈，但可以取消發佈事件：此操作使事件和關聯的交易式訊息無法存取。 請參閱[取消發佈事件](../../channels/using/publishing-transactional-event.md#unpublishing-an-event)。
+* 唯一可與事件關聯的交易式訊息是發佈該事件時自動建立的訊息。 請參閱[預覽和發佈事件](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)。
 
 ## 異動訊息數 {#transactional-message-number}
 
@@ -47,30 +52,30 @@ ht-degree: 61%
 
 ## 個人化 {#personalization}
 
-您個人化訊息內容的方式取決於交易式訊息的類型。具體情況列於下方。
+您個人化訊息內容的方式取決於交易式訊息的類型。 具體情況列於下方。
 
 ### 事件交易式訊息
 
-* 個人化資訊來自事件本身所包含的資料。請參閱[事件型交易式訊息組態](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages)。
+* 個人化資訊來自事件本身所包含的資料。 請參閱[事件型交易式訊息組態](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages)。
 * 您&#x200B;**無法**&#x200B;在事件交易式訊息中使用&#x200B;**[!UICONTROL Unsubscription link]**&#x200B;個內容區塊。
-* 事件型交易式訊息應僅使用傳送事件中的資料來定義收件者和訊息內容個人化。不過，您可以使用 Adobe Campaign 資料庫的資訊，豐富您交易式訊息的內容。請參閱[豐富事件](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)和[個人化交易式訊息](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message)。
+* 事件型交易式訊息應僅使用傳送事件中的資料來定義收件者和訊息內容個人化。 不過，您可以使用 Adobe Campaign 資料庫的資訊，豐富您交易式訊息的內容。 請參閱[豐富事件](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)和[個人化交易式訊息](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message)。
 * 由於事件交易式訊息不包含設定檔資訊，因此它們與疲勞規則不相容，即使在設定檔擴充的情況下也是如此。
 
 ### 設定檔交易式訊息
 
-* 個人化資訊可來自事件中包含的資料，或來自已調和的設定檔記錄。請參閱[設定檔交易式訊息組態](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages)和[設定檔交易式訊息特性](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities)。
+* 個人化資訊可來自事件中包含的資料，或來自已調和的輪廓記錄。 請參閱[設定檔交易式訊息組態](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages)和[設定檔交易式訊息特性](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities)。
 * 您&#x200B;**可以在設定檔交易式訊息中**&#x200B;使用&#x200B;**[!UICONTROL Unsubscription link]**&#x200B;個內容區塊。 請參閱[新增內容區塊](../../designing/using/personalization.md#adding-a-content-block)。
-* 疲勞規則與設定檔交易式訊息相容。請參閱[疲勞規則](../../sending/using/fatigue-rules.md)。
+* 疲勞規則與輪廓交易式訊息相容。 請參閱[疲勞規則](../../sending/using/fatigue-rules.md)。
 
 ### 產品清單
 
 請注意，產品清單僅可在交易式&#x200B;**電子郵件訊息**&#x200B;中使用。 請參閱[在交易式訊息中使用產品清單](../../designing/using/using-product-listings.md)。
 
-## 品牌 {#permissions-and-branding}
+## 品牌化 {#permissions-and-branding}
 
-在 [品牌](../../administration/using/branding.md) 管理方面，交易式訊息提供的彈性比標準訊息要小。Adobe 建議將交易式訊息中使用的所有品牌連結至 **[!UICONTROL All]** [組織單位](../../administration/using/organizational-units.md)。如需詳細資訊，請閱讀以下詳細說明。
+在 [品牌](../../administration/using/branding.md) 管理方面，交易式訊息提供的彈性比標準訊息要小。 Adobe 建議將交易式訊息中使用的所有品牌連結至 **[!UICONTROL All]** [組織單位](../../administration/using/organizational-units.md)。 如需詳細資訊，請閱讀以下詳細說明。
 
-編輯交易式訊息時，您可以將訊息連結至品牌，以自動套用一些參數，例如品牌名稱或品牌標誌。預設情況下，在交易式訊息屬性中將選中 **[!UICONTROL Default brand]**。
+編輯交易式訊息時，您可以將訊息連結至品牌，以自動套用一些參數，例如品牌名稱或品牌標誌。 預設情況下，在交易式訊息屬性中將選中 **[!UICONTROL Default brand]**。
 
 ![](assets/message-center_branding.png)
 
@@ -83,4 +88,4 @@ ht-degree: 61%
 ## 匯出和匯入交易式訊息 {#exporting-and-importing-transactional-messages}
 
 * 要匯出交易式訊息，在[建立封包匯出](../../automating/using/managing-packages.md#creating-a-package)時需要包含相應的事件配置。
-* 透過封包[匯入交易式訊息後](../../automating/using/managing-packages.md#importing-a-package)，交易式訊息清單中不會顯示該訊息。您需要[發佈事件設定](../../channels/using/publishing-transactional-event.md)，才能使關聯的交易式訊息可用。
+* 透過封包[匯入交易式訊息後](../../automating/using/managing-packages.md#importing-a-package)，交易式訊息清單中不會顯示該訊息。 您需要[發佈事件設定](../../channels/using/publishing-transactional-event.md)，才能使關聯的交易式訊息可用。

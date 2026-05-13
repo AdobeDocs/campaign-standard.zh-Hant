@@ -9,9 +9,16 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 7a21f4f6-316f-4f3d-9d53-37d406a46aae
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/81rpJ43nwvHaIrtfxSz0I8g6SUuCVRD7O-gWhGHvCQQ
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: 1007
 ht-degree: 1%
 
 ---
@@ -79,7 +86,7 @@ ht-degree: 1%
 
    ![](assets/extsignal_uc1.png)
 
-1. 新增&#x200B;**[!UICONTROL Transfer file]**&#x200B;活動以將資料匯入資料庫。若要這麼做，請拖放活動、開啟活動，然後選取&#x200B;**[!UICONTROL Protocol]**&#x200B;索引標籤。
+1. 新增&#x200B;**[!UICONTROL Transfer file]**&#x200B;活動以將資料匯入資料庫。若要這麼做，請拖放活動、開啟活動，然後選取「**[!UICONTROL Protocol]**」標籤。
 1. 選取&#x200B;**[!UICONTROL Use a dynamic file path]**&#x200B;選項，然後使用&#x200B;**fileToTarget**&#x200B;引數作為要傳輸的檔案：
 
    ```

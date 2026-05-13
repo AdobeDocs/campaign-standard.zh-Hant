@@ -8,9 +8,13 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 8daeb12d-4170-464f-ba33-afb681f72a91
-source-git-commit: 5435e1dbfbe08399c488322320ac5bb8e681a79d
+TQID: https://experienceleague.adobe.com/L-X9Edd4xtAsuGslGuiCDQg5Ih06Cm83FNQIh4PeUak
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1040'
+source-wordcount: 1040
 ht-degree: 26%
 
 ---
@@ -149,21 +153,21 @@ ht-degree: 26%
 您想要調整由三欄組成的結構元件內的邊框間距和垂直對齊方式。 要執行此操作，請遵循下列步驟：
 
 1. 直接在電子郵件中選取結構元件，或使用左側&#x200B;**浮動視窗**&#x200B;提供的結構樹狀結構。
-1. 從&#x200B;**內容工具列**，按一下&#x200B;**[!UICONTROL Select a column]**&#x200B;並選擇您要編輯的內容。 You can also select it from the structure tree.
+1. 從&#x200B;**內容工具列**，按一下&#x200B;**[!UICONTROL Select a column]**&#x200B;並選擇您要編輯的內容。 您也可以從結構樹中選取它。
 
    ![](assets/des_selecting_column.png)
 
-   The editable parameters for that column are displayed in the **[!UICONTROL Settings]** pane on the right.
+   該欄的可編輯引數會顯示在右側的&#x200B;**[!UICONTROL Settings]**&#x200B;窗格中。
 
 1. 在&#x200B;**[!UICONTROL Vertical alignment]**&#x200B;下，選取&#x200B;**[!UICONTROL Up]**。
 
    ![](assets/des_vertical_alignment.png)
 
-   The content component displays on top of the column.
+   內容元件會顯示在欄頂端。
 
-1. Under **[!UICONTROL Padding]**, define the top padding inside the column. Click the lock icon to break synchronization with the bottom padding.
+1. 在&#x200B;**[!UICONTROL Padding]**&#x200B;底下，定義欄內的頂端內距。 按一下鎖定圖示以中斷與底部邊框間距的同步。
 
-   Define the left and right padding for that column.
+   定義該欄的左右內距。
 
    ![](assets/des_adjusting_padding.png)
 
@@ -173,39 +177,39 @@ ht-degree: 26%
 
 1. 儲存您的變更。
 
-## Styling links {#about-styling-links}
+## 樣式連結 {#about-styling-links}
 
 您可以為連結加底線，然後在電子郵件設計工具中選取其顏色和目標。
 
-1. In a component where a link is inserted, select the label text of your link.
+1. 在插入連結的元件中，選取連結的標籤文字。
 
-1. In the component settings, check **[!UICONTROL Underline link]** to underline the label text of your link.
+1. 在元件設定中，核取&#x200B;**[!UICONTROL Underline link]**&#x200B;以加底線標示連結的標籤文字。
 
    ![](assets/stylelinks-selecttext.png)
 
-1. To select in which browsing context your link will be opened select a **[!UICONTROL Target]**.
+1. 若要選取將在哪個瀏覽內容中開啟您的連結，請選取&#x200B;**[!UICONTROL Target]**。
 
    ![](assets/stylelinks-target.png)
 
-1. To change the color of your link, click on **[!UICONTROL Link color]**.
+1. 若要變更連結的顏色，請按一下&#x200B;**[!UICONTROL Link color]**。
 
    ![](assets/stylelinks-colorpicker.png)
 
-1. Pick the color you need.
+1. 挑選您需要的色彩。
 
    ![](assets/stylelinks-colorchanged.png)
 
 1. 儲存您的變更。
 
-## Adding inline styling attributes {#adding-inline-styling-attributes}
+## 新增內嵌樣式屬性 {#adding-inline-styling-attributes}
 
-In the Email Designer interface, when you select an element and display its settings on the side panel, you can customize the inline attributes and their value for that specific element.
+在電子郵件Designer介面中，當您選取元素並在側面板上顯示其設定時，可以自訂該特定元素的內嵌屬性及其值。
 
-1. Select an element in your content.
-1. On the side panel, look for the **[!UICONTROL Styles Inline]** settings.
+1. 選取內容中的元素。
+1. 在側面板上尋找&#x200B;**[!UICONTROL Styles Inline]**&#x200B;設定。
 
    ![](assets/email_designer_inlineattributes.png)
 
-1. Modify the values of the existing attributes, or add new ones using the **+** button. 您可以新增任何符合 CSS 的屬性和值。
+1. 修改現有屬性的值，或使用&#x200B;**+**&#x200B;按鈕新增屬性。 您可以新增任何符合 CSS 的屬性和值。
 
-The styling is then applied to the selected element. 如果子元素沒有定義特定的樣式屬性，則繼承父元素的樣式。
+然後，樣式會套用至選取的元素。 如果子元素沒有定義特定的樣式屬性，則繼承父元素的樣式。

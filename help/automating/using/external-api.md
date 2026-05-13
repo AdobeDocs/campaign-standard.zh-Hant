@@ -10,10 +10,16 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: 44ad654e-bde9-4189-8765-0479d81dc0f7
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/9f2fthO3uwDSjhIhVMzOZgqdimJcJOxlodEP1cJZicA
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '2208'
-ht-degree: 93%
+source-wordcount: 2262
+ht-degree: 92%
 
 ---
 
@@ -29,7 +35,7 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->基於安全性原因，Campaign Standard 不支援使用 JSSP。如果您需要執行程式碼，可以透過外部 API 活動呼叫 Adobe I/O Runtime 執行個體。
+>基於安全性原因，Campaign Standard 不支援使用 JSSP。 如果您需要執行程式碼，可以透過外部 API 活動呼叫 Adobe I/O Runtime 執行個體。
 
 本活動的主要特點是：
 
@@ -60,12 +66,12 @@ ht-degree: 93%
 具體的護欄已經到位：
 
 * **JSON 深度上限**：將可處理的自訂巢狀 JSON 的深度上限限制為 10 個層級。
-* **JSON 金鑰長度上限**：將內部密鑰的最大長度限制為 255。此鍵與欄 ID 相關聯。
+* **JSON 金鑰長度上限**：將內部密鑰的最大長度限制為 255。 此鍵與欄 ID 相關聯。
 * **允許的 JSON 重複金鑰上限**：將作為欄 ID 的重複 JSON 屬性名稱的總數上限為 150。
 
 >[!CAUTION]
 >
->外部 API 活動的用途是擷取促銷活動範圍的資料 (最新的產品建議集、最新的分數等)，而非擷取每個輪廓的特定資訊，因為這會導致大量資料傳輸。如果使用案例需要此項目，建議使用[傳輸檔案](../../automating/using/transfer-file.md)活動。
+>外部 API 活動的用途是擷取促銷活動範圍的資料 (最新的產品建議集、最新的分數等)，而非擷取每個輪廓的特定資訊，因為這會導致大量資料傳輸。 如果使用案例需要此項目，建議使用[傳輸檔案](../../automating/using/transfer-file.md)活動。
 
 ## 設定 {#configuration}
 
@@ -80,11 +86,11 @@ ht-degree: 93%
 
 **入站資源**&#x200B;下拉式功能表可讓您選取將建立臨時表格的查詢活動。
 
-**新增計數參數**&#x200B;核取方塊將為來自臨時表格的每行新增計數值。請注意，此核取方塊僅在入站活動產生臨時表格時才可用。
+**新增計數參數**&#x200B;核取方塊將為來自臨時表格的每行新增計數值。 請注意，此核取方塊僅在入站活動產生臨時表格時才可用。
 
-**入站欄**&#x200B;區段可讓使用者從入站轉變表格中新增任何欄位。選取的欄將是資料物件中的金鑰。JSON 中的資料物件將是陣列清單，包含入站轉變表格各列所選欄的資料。
+**入站欄**&#x200B;區段可讓使用者從入站轉變表格中新增任何欄位。 選取的欄將是資料物件中的金鑰。 JSON 中的資料物件將是陣列清單，包含入站轉變表格各列所選欄的資料。
 
-**自訂參數**&#x200B;文字方塊可讓您新增有效的 JSON 及外部 API 所需的其他資料。此額外資料將新增至產生的 JSON 中的 params 物件。
+**自訂參數**&#x200B;文字方塊可讓您新增有效的 JSON 及外部 API 所需的其他資料。 此額外資料將新增至產生的 JSON 中的 params 物件。
 
 ### 出站對應
 
@@ -92,11 +98,11 @@ ht-degree: 93%
 
 ![](assets/externalAPI-outbound.png)
 
-JSON 剖析器的設計可容納標準 JSON 結構模式類型，但有些例外。標準模式的範例是：`{“data”:[{“key”:“value”}, {“key”:“value”},...]}`
+JSON 剖析器的設計可容納標準 JSON 結構模式類型，但有些例外。 標準模式的範例是：`{“data”:[{“key”:“value”}, {“key”:“value”},...]}`
 
 範例 JSON 定義必須具有&#x200B;**下列特性**：
 
-* **陣列元素**&#x200B;必須包含第一級屬性（不支援較深的層級）。
+* **陣列元素**必須包含第一級屬性（不支援較深的層級）。
   **屬性名稱**，最終將成為輸出臨時表格之輸出結構描述的欄名稱。
 * 要擷取的 **JSON 元素**&#x200B;必須在 JSON 回應內的 10 級或更低巢狀層級。
 * **欄名稱**，定義是以 &quot;data&quot; 陣列的第一個元素為基礎。
@@ -106,16 +112,16 @@ JSON 剖析器的設計可容納標準 JSON 結構模式類型，但有些例外
 
 平面化核取方塊（預設值：未勾選），以指出是否將 JSON 平面化為索引鍵/值對應。
 
-* **停用核取方塊**（未勾選）時，會剖析範例 JSON 以尋找陣列物件。使用者將需要提供 API 回應範例 JSON 格式的裁剪版本，如此 Adobe Campaign 就能確切判斷使用者想要使用哪個陣列。在工作流程製作時，將會判斷並記錄巢狀陣列物件的路徑，以便在執行時使用它來存取從 API 呼叫接收的 JSON 回應內文中存取該陣列物件。
+* **停用核取方塊**（未勾選）時，會剖析範例 JSON 以尋找陣列物件。 使用者將需要提供 API 回應範例 JSON 格式的裁剪版本，如此 Adobe Campaign 就能確切判斷使用者想要使用哪個陣列。 在工作流程製作時，將會判斷並記錄巢狀陣列物件的路徑，以便在執行時使用它來存取從 API 呼叫接收的 JSON 回應內文中存取該陣列物件。
 
-* **啟用核取方塊**（已核取）後，範例 JSON 將會平面化，而提供之範例 JSON 中指定的所有屬性將用於建立輸出臨時表格的欄，並顯示在 Column Definitions 索引標籤上。請注意，如果範例 JSON 中有任何陣列物件，則這些陣列物件的所有元素也會平面化。
+* **啟用核取方塊**（已核取）後，範例 JSON 將會平面化，而提供之範例 JSON 中指定的所有屬性將用於建立輸出臨時表格的欄，並顯示在 Column Definitions 索引標籤上。 請注意，如果範例 JSON 中有任何陣列物件，則這些陣列物件的所有元素也會平面化。
 
 
-如果已&#x200B;**驗證解析**，則會出現一條訊息，邀請您在「列定義」索引標籤中自訂資料對應。在其他情況下，會顯示錯誤訊息。
+如果已&#x200B;**驗證解析**，則會出現一條訊息，邀請您在「列定義」索引標籤中自訂資料對應。 在其他情況下，會顯示錯誤訊息。
 
 ### 執行
 
-此索引標籤可讓您定義連接端點。**[!UICONTROL URL]**&#x200B;欄位可讓您定義Campaign Standard將通訊的&#x200B;**HTTPS端點**。
+此索引標籤可讓您定義連接端點。 **[!UICONTROL URL]**&#x200B;欄位可讓您定義Campaign Standard將通訊的&#x200B;**HTTPS端點**。
 
 如果端點需要，則可以使用兩種型別的驗證方法：
 
@@ -127,7 +133,7 @@ JSON 剖析器的設計可容納標準 JSON 結構模式類型，但有些例外
 
 ### 屬性
 
-此索引標籤可讓您控制外部 API 活動的&#x200B;**一般屬性**，例如， UI 中顯示的標籤。無法自訂內部 ID。
+此索引標籤可讓您控制外部 API 活動的&#x200B;**一般屬性**，例如， UI 中顯示的標籤。 無法自訂內部 ID。
 
 ![](assets/externalAPI-properties.png)
 
@@ -141,19 +147,19 @@ JSON 剖析器的設計可容納標準 JSON 結構模式類型，但有些例外
 
 ![](assets/externalAPI-column.png)
 
-例如，您可以變更欄的標籤，並選取其類型（字串、整數、日期等）或甚至指定錯誤處理。
+例如，您可以變更欄的標籤，選取其型別（字串、整數、日期等），或甚至指定錯誤處理。
 
 如需詳細資訊，請參閱[載入檔案](../../automating/using/load-file.md)區段。
 
 ### 轉變
 
-此索引標籤可讓您啟用&#x200B;**出站轉變**&#x200B;及其標籤。在&#x200B;**逾時**&#x200B;或負載超過&#x200B;**資料大小限制**&#x200B;時，此特定轉變很實用。
+此索引標籤可讓您啟用&#x200B;**出站轉變**&#x200B;及其標籤。 在&#x200B;**逾時**&#x200B;或負載超過&#x200B;**資料大小限制**&#x200B;時，此特定轉變很實用。
 
 ![](assets/externalAPI-transition.png)
 
 ### 執行選項
 
-此索引標籤可用於大部分的工作流程活動。如需詳細資訊，請參閱[活動屬性](../../automating/using/activity-properties.md)區段。
+此索引標籤可用於大部分的工作流程活動。 如需詳細資訊，請參閱[活動屬性](../../automating/using/activity-properties.md)區段。
 
 ![](assets/externalAPI-options.png)
 
@@ -163,7 +169,7 @@ JSON 剖析器的設計可容納標準 JSON 結構模式類型，但有些例外
 
 ## 疑難排解
 
-此新工作流程活動中新增了兩種類型的日誌訊息：資訊與錯誤。它們可協助您疑難排解潛在問題。
+此新工作流程活動中新增了兩種類型的日誌訊息：資訊與錯誤。 它們可協助您疑難排解潛在問題。
 
 ### 資訊
 
@@ -190,11 +196,11 @@ JSON 剖析器的設計可容納標準 JSON 結構模式類型，但有些例外
   </tr>
   <tr> 
    <td> Using cached access token for provider ID '%s'.</td> 
-   <td> <p>使用提供者 ID 'EXT25' 的快取存取權杖。注意： EXT25 是外部帳戶的 ID（或名稱）。 </p></td> 
+   <td> <p>使用提供者 ID 'EXT25' 的快取存取權杖。 注意： EXT25 是外部帳戶的 ID（或名稱）。 </p></td> 
   </tr>
   <tr> 
    <td> Fetched access token from server for provider ID '%s'.</td> 
-   <td> <p>已從伺服器為提供者 ID 'EXT25' 擷取存取權杖。注意：EXT25 是外部帳戶的 ID（或名稱）。</p></td> 
+   <td> <p>已從伺服器為提供者 ID 'EXT25' 擷取存取權杖。 注意：EXT25 是外部帳戶的 ID（或名稱）。</p></td> 
   </tr>
   <tr> 
    <td> Refreshing OAuth access token due to error (HTTP: '%d').</td> 
@@ -247,9 +253,9 @@ JSON 剖析器的設計可容納標準 JSON 結構模式類型，但有些例外
    <td> <p>API URL 必須是安全 URL(https)（請求的 URL：'https://example.com/api/v1/web-coupon?count=2'）。</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560249 – 無法建立請求內文 JSON。Error when adding '%s'.</td> 
-   <td> <p>無法建立請求正文 JSON。新增 'params' 時出錯。</p>
-    <p>無法建立請求正文 JSON。新增 'data' 時發生錯誤。</p></td>
+   <td> WKF-560249 – 無法建立請求內文 JSON。 Error when adding '%s'.</td> 
+   <td> <p>無法建立請求正文 JSON。 新增 'params' 時出錯。</p>
+    <p>無法建立請求正文 JSON。 新增 'data' 時發生錯誤。</p></td>
   </tr> 
   <tr> 
    <td> WKF-560246 - HTTP header key is bad (header key: '%s').</td> 
@@ -278,7 +284,7 @@ JSON 剖析器的設計可容納標準 JSON 結構模式類型，但有些例外
    <td> WKF-560246 - Activity failed (reason: '%s').</td> 
    <td> <p>當活動因 HTTP 401 錯誤回應而失敗時 – 活動失敗（原因：'HTTP - 401'）</p>
         <p>當活動因內部呼叫失敗而失敗時 – 活動失敗（原因：'iRc - -Nn'）。</p>
-        <p>當活動因無效的內容類型標題而失敗時。- 活動失敗（原因：'Content-Type - application/html'）。</p></td> 
+        <p>當活動因無效的內容類型標題而失敗時。 - 活動失敗（原因：'Content-Type - application/html'）。</p></td> 
   </tr>
   <tr> 
    <td> WKF-560278 - "Error initializing OAuth helper (error: '%d')" .</td> 
@@ -290,27 +296,27 @@ JSON 剖析器的設計可容納標準 JSON 結構模式類型，但有些例外
   </tr>
   <tr> 
    <td> WKF-560280 - External account of '%s' ID cannot be found.</td> 
-   <td> <p>找不到 'EXT25' ID 的外部帳戶。注意：此錯誤指出活動已設定為使用無法再找到的外部帳戶。當帳戶已從 DB 刪除時最有可能發生此情況，因此在正常作業環境中不可能發生。</p></td>
+   <td> <p>找不到 'EXT25' ID 的外部帳戶。  注意：此錯誤指出活動已設定為使用無法再找到的外部帳戶。 當帳戶已從 DB 刪除時最有可能發生此情況，因此在正常作業環境中不可能發生。</p></td>
   </tr>
   <tr> 
    <td> WKF-560281 - External account of '%s' ID is disabled.</td> 
-   <td> <p>'EXT25' ID 的外部帳戶已停用。注意：此錯誤指出活動已設定為使用外部帳戶，但該帳戶已停用（或標示為非使用中）。</p></td>
+   <td> <p>'EXT25' ID 的外部帳戶已停用。 注意：此錯誤指出活動已設定為使用外部帳戶，但該帳戶已停用（或標示為非使用中）。</p></td>
   </tr>
   <tr> 
    <td> WKF-560282 - Protocol not supported.</td> 
-   <td> <p>此錯誤指出與活動相關聯的外部帳戶不是 OAuth2.0 外部帳戶。因此，除非活動設定發生某些損壞或手動更改，否則不太可能發生此錯誤。</p></td>
+   <td> <p>此錯誤指出與活動相關聯的外部帳戶不是 OAuth2.0 外部帳戶。 因此，除非活動設定發生某些損壞或手動更改，否則不太可能發生此錯誤。</p></td>
   </tr>
   <tr> 
    <td> WKF-560283 - Failed to fetch the OAuth access token.</td> 
-   <td> <p>此錯誤的最常見原因是外部帳戶的設定錯誤（例如，在使用外部帳戶時，未先測試連線是否成功）。外部帳戶上的 URL/認證可能已變更。</p></td>
+   <td> <p>此錯誤的最常見原因是外部帳戶的設定錯誤（例如， 在使用外部帳戶時，未先測試連線是否成功）。 外部帳戶上的 URL/認證可能已變更。</p></td>
   </tr>
   <tr> 
    <td> CRL-290199 - Cannot reach page at: %s.</td> 
-   <td> <p>為 OAuth 設定外部帳戶 UI 螢幕畫面時，會顯示此錯誤訊息。這表示外部授權伺服器的 URL 不正確/已變更/來自伺服器的回應為「找不到頁面」。</p></td>
+   <td> <p>為 OAuth 設定外部帳戶 UI 螢幕畫面時，會顯示此錯誤訊息。 這表示外部授權伺服器的 URL 不正確/已變更/來自伺服器的回應為「找不到頁面」。</p></td>
   </tr>
   <tr> 
    <td> CRL-290200 - Incomplete/Incorrect credentials.</td> 
-   <td> <p>為 OAuth 設定外部帳戶 UI 螢幕畫面時，會顯示此錯誤訊息。這表示認證不正確或遺失連接至驗證伺服器的其他必要認證。
+   <td> <p>為 OAuth 設定外部帳戶 UI 螢幕畫面時，會顯示此錯誤訊息。 這表示認證不正確或遺失連接至驗證伺服器的其他必要認證。
 </p></td>
   </tr>
  </tbody> 

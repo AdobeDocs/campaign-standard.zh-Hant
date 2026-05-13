@@ -1,6 +1,6 @@
 ---
 title: 元件清單
-description: 您可以在這裡找到每個可用元件的清單，     動態報告及其定義。
+description: 請在此處尋找動態報告中每個可用元件的清單及其定義。
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
@@ -8,10 +8,15 @@ feature: Reporting
 role: Leader
 level: Beginner
 exl-id: 8980bf05-60a8-4360-a354-445e1faeb5b2
-source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
+TQID: https://experienceleague.adobe.com/NWtd6wo3BgCFapPO6lVQAcVk8KUud-ioDf1-6MzXfw0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1308'
-ht-degree: 0%
+source-wordcount: 1333
+ht-degree: 1%
 
 ---
 
@@ -19,7 +24,7 @@ ht-degree: 0%
 
 若要進一步瞭解維度與量度之間的相容性，請參閱此[表格](/help/reporting/using/assets/dynamic_report_compatibility.pdf)。 如果兩個元件不相容，儲存格會顯示值&#x200B;**無**。
 
-[![影像](assets/dynamic_report_compatibility.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=zh-Hant)
+[![影像](assets/dynamic_report_compatibility.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf)
 
 ## 維度 {#dimensions}
 
@@ -83,7 +88,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> 設定檔<br /> </td> 
-   <td> 重新分組在設定檔資源擴充期間建立的現成和自訂設定檔欄位，如需詳細資訊，請參閱此<a href="../../developing/using/key-steps-to-add-a-resource.md">頁面</a>或此<a href="../../reporting/using/creating-a-custom-profile-dimension.md">範例</a>。<br />請注意，當連結至設定檔欄位的自訂資源發佈後，就會擷取此維度的資料。<br /> </td> 
+   <td> 重新分組在設定檔資源擴充期間建立的現成和自訂設定檔欄位，如需詳細資訊，請參閱此<a href="../../developing/using/key-steps-to-add-a-resource.md">頁面</a>或此<a href="../../reporting/using/creating-a-custom-profile-dimension.md">範例</a>。<br /> 請注意，當連結至設定檔欄位的自訂資源發佈後，就會擷取此維度的資料。<br /> </td> 
   </tr> 
   <tr> 
    <td> 推播平台<br /> </td> 

@@ -8,10 +8,14 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 feature: Landing Pages
 role: User
 exl-id: 8015c555-9521-478c-8669-66b9cc145887
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+TQID: https://experienceleague.adobe.com/r55Y65MfV0YNU5XLTeD3e--ZlHlcqUxH88HV2o3qec0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 93%
+source-wordcount: 1037
+ht-degree: 89%
 
 ---
 
@@ -36,7 +40,7 @@ ht-degree: 93%
 
 **寫入和更新資料**
 
-* 登錄頁面僅限於 **[!UICONTROL Profile]** 和 **[!UICONTROL Subscription]** 資源。可從 **[!UICONTROL Profile]** 儲存及更新記錄，以及訂閱/取消訂閱 **[!UICONTROL Service]**。
+* 登錄頁面僅限於 **[!UICONTROL Profile]** 和 **[!UICONTROL Subscription]** 資源。 可從 **[!UICONTROL Profile]** 儲存及更新記錄，以及訂閱/取消訂閱 **[!UICONTROL Service]**。
 有關資源設定的詳細資訊，請參閱[設定資源的資料結構](../../developing/using/configuring-the-resource-s-data-structure.md)。
 
 >[!IMPORTANT]
@@ -45,34 +49,34 @@ ht-degree: 93%
 
 **預先載入**
 
-* 登錄頁面無法自動顯示記錄清單，也無法列出已訂閱設定檔的服務。如需服務的詳細資訊，請參閱本[頁面](../../audiences/using/creating-a-service.md)。
+* 登錄頁面無法自動顯示記錄清單，也無法列出已訂閱輪廓的服務。 如需服務的詳細資訊，請參閱本[頁面](../../audiences/using/creating-a-service.md)。
 
-* 具有預先填入表單的登錄頁面（已使用資料預先載入頁面）只能從 Adobe Campaign 電子郵件存取。無法從網站頁面存取此類表格。
+* 具有預先填入表單的登錄頁面（已使用資料預先載入頁面）只能從 Adobe Campaign 電子郵件存取。 無法從網站頁面存取此類表格。
 
 **調和**
 
-* 調和行為如下：找到相符項目之後，調和進度就會停止。這表示調和只能在一個設定檔記錄上進行，如果有重複項目，則無法在多個記錄上進行。
+* 調和行為如下：找到相符項目之後，調和進度就會停止。 這表示調和只能在一個輪廓記錄上進行，如果有重複項目，則無法在多個記錄上進行。
 
-例如，您想要將下列贏取登錄頁面傳送至設定檔，以使用設定檔的行動號碼更新 Campaign 資料庫。
+例如，您想要將下列贏取登錄頁面傳送至輪廓，以使用輪廓的行動號碼更新 Campaign 資料庫。
 
 ![](assets/landing_page_limitation_1.png)
 
-如果您的其中一個設定檔填入登錄頁面，但已有重複的設定檔，則會更新具有最早建立日期的相符設定檔，因為設定檔會根據其建立日期來排定優先順序。
+如果您的其中一個輪廓填入登錄頁面，但已有重複的輪廓，則會更新具有最早建立日期的相符輪廓，因為輪廓會根據其建立日期來排定優先順序。
 
-此處僅更新第一個設定檔，因為它是最舊的項目。
+此處僅更新第一個輪廓，因為它是最舊的項目。
 
 ![](assets/landing_page_limitation_2.png)
 
 **測試登錄頁面**
 
-* 登錄頁面僅適用於設定檔，而非測試設定檔，這表示登錄頁面無法作為電子郵件證明的一部分進行測試。
+* 登錄頁面僅適用於輪廓，而非測試輪廓，這表示登錄頁面無法作為電子郵件校樣的一部分進行測試。
 
 ## 步驟1 — 設定登入頁面範本 {#configure-the-landing-page-template}
 
-設定登錄頁面之前，第一步是設定符合您需求的登錄頁面範本。範本準備就緒後，會使用所需的參數來預先設定所有以該範本為基礎的登錄頁面。
+設定登錄頁面之前，第一步是設定符合您需求的登錄頁面範本。 範本準備就緒後，會使用所需的參數來預先設定所有以該範本為基礎的登錄頁面。
 
 1. 從進階功能表，透過 Adobe Campaign 標誌，選取 **[!UICONTROL Resources]** / **[!UICONTROL Templates]** / **[!UICONTROL Landing page templates]**，然後複製您要使用的範本。
-1. 在範本屬性中，指定登錄頁面必須具有的所有共同參數。例如：目標維度、已識別或未識別訪客的頁面存取參數、訪客進行表單驗證的特定動作、內容中使用的品牌/標誌等。如需登錄頁面屬性的詳細資訊，請參閱[本區段](../../channels/using/configuring-landing-page.md)。
+1. 在範本屬性中，指定登錄頁面必須具有的所有共同參數。 例如：目標維度、已識別或未識別訪客的頁面存取引數、訪客進行表單驗證的特定動作、內容中使用的品牌/標誌等。如需登入頁面屬性的詳細資訊，請參閱[本區段](../../channels/using/configuring-landing-page.md)
 1. 儲存您的修改。
 
 如需登錄頁面範本，請參閱[本區段](../../channels/using/getting-started-with-landing-pages.md)。
@@ -85,24 +89,24 @@ ht-degree: 93%
 
 1. 依據需要的範本建立登錄頁面。
 1. 輸入登錄頁面的一般參數（標籤、說明等）。
-1. 之後，您將會存取登錄頁面控制面板。如有需要，可以編輯登錄頁面屬性（請參閱[設定登錄頁面](../../channels/using/configuring-landing-page.md)）。依預設，屬性是在登錄頁面範本中設定的屬性。
-基於安全性原因和平台效能，強烈建議您在登錄頁面屬性中設定到期日。完成後，登錄頁面將在選取的日期自動取消發佈。如需有效性參數的詳細資訊，請參閱[本區段](../../channels/using/testing-publishing-landing-page.md#setting-up-validity-parameters)。
+1. 之後，您將會存取登錄頁面控制面板。 如有需要，可以編輯登錄頁面屬性（請參閱[設定登錄頁面](../../channels/using/configuring-landing-page.md)）。 依預設，屬性是在登錄頁面範本中設定的屬性。
+基於安全性原因和平台效能，強烈建議您在登錄頁面屬性中設定過期日。 完成後，登錄頁面將在選取的日期自動取消發佈。 如需有效性參數的詳細資訊，請參閱[本區段](../../channels/using/testing-publishing-landing-page.md#setting-up-validity-parameters)。
 
    ![](assets/lp-steps3.png)
 
 >[!NOTE]
 >
->您的修改僅對正在編輯的登錄頁面有效。如果您想要將這些修改套用至其他登錄頁面，您可以在專用的範本中執行這些修改，然後從該範本建立其他登錄頁面。
+>您的修改僅對正在編輯的登錄頁面有效。 如果您想要將這些修改套用至其他登錄頁面，您可以在專用的範本中執行這些修改，然後從該範本建立其他登錄頁面。
 
 ## 步驟3 — 設計登入頁面 {#design-the-landing-page}
 
-您現在可以定義登錄頁面的內容。依預設，登錄頁面包含三個可透過捲動箭頭存取的頁面：主要內容頁面、確認頁面和錯誤頁面。
+您現在可以定義登錄頁面的內容。 依預設，登錄頁面包含三個可透過捲動箭頭存取的頁面：主要內容頁面、確認頁面和錯誤頁面。
 
 ![](assets/lp-steps4.png)
 
-每個頁面預設會設定數個欄位。如有必要，您可以編輯其屬性和對應。
+每個頁面預設會設定數個欄位。 如有必要，您可以編輯其屬性和對應。
 
-您也可以設定在設定檔按一下確認按鈕後，其行為方式，並根據您的需求（影像、個人化欄位等）個人化內容。例如，您可以在登錄頁面的確認頁面上插入設定檔的名字，以感謝他們註冊。
+您也可以設定在輪廓按一下確認按鈕後，其行為方式，並根據您的需求（影像、個人化欄位等）個人化內容。 例如，您可以在登錄頁面的確認頁面上插入輪廓的名字，以感謝他們註冊。
 
 如需登錄頁面設計的詳細資訊，請參閱[本區段](../../channels/using/designing-a-landing-page.md)。
 
@@ -114,21 +118,21 @@ ht-degree: 93%
 
 >[!IMPORTANT]
 >
->登錄頁面測試只能使用設定檔進行，而不能使用測試設定檔。提交表單時，選取的設定檔資料將會實際更新。若要避免修改真正的設定檔，請使用假造的客戶設定檔。
+>登錄頁面測試只能使用輪廓進行，而不能使用測試輪廓。 提交表單時，選取的輪廓資料將會實際更新。 若要避免修改真正的輪廓，請使用假造的客戶輪廓。
 
 如果您對登錄頁面的運作方式感到滿意，則可以發佈它，以供線上使用。
 
 如需如何測試登錄頁面的詳細資訊，請參閱[本區段](../../channels/using/testing-publishing-landing-page.md#testing-the-landing-page-)。
 
-## 步驟5 — 登入頁面Publish {#publish-the-landing-page}
+## 步驟5 — 發佈登入頁面 {#publish-the-landing-page}
 
-測試成功後，您就可以使用控制面板中動作列的 **[!UICONTROL Publish]** 按鈕以發佈登錄頁面。監控區塊會顯示發佈的進展和狀態。
+測試成功後，您就可以使用控制面板中動作列的 **[!UICONTROL Publish]** 按鈕以發佈登錄頁面。 監控區塊會顯示發佈的進展和狀態。
 
-發佈登錄頁面可讓其透過線上存取。發佈後，您隨時都可以更新：若要執行此操作，您必須在每次修改後重新發佈。您也可以隨時解除發佈登錄頁面，使其不再可用。
+發佈登錄頁面可讓其透過線上存取。 發佈後，您隨時都可以更新：若要執行此操作，您必須在每次修改後重新發佈。 您也可以隨時解除發佈登錄頁面，使其不再可用。
 
 ![](assets/lp-steps6.png)
 
-發佈後，您的登錄頁面就可供使用。然後，您可以設定不同的機制來存取該機制，以便在資料庫中獲取新設定檔案或獲取有關現有設定檔案的其他資訊。
+發佈後，您的登錄頁面就可供使用。 然後，您可以設定不同的機制來存取該機制，以便在資料庫中獲取新輪廓案或獲取有關現有輪廓案的其他資訊。
 
 如需這些差異的詳細資訊，請參閱[本區段](../../channels/using/testing-publishing-landing-page.md#publishing-a-landing-page)。
 

@@ -10,10 +10,14 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 57c56e4a-892c-46d6-9bb4-6a345a8d9f5b
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/dkAPwzqgld7-LbCyzuz24CnRMjmepFIxG6F0HRBuh8c
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 96%
+source-wordcount: 575
+ht-degree: 85%
 
 ---
 
@@ -29,9 +33,9 @@ ht-degree: 96%
 
 **[!UICONTROL Deduplication]** 活動通常用於目標定位活動後或匯入檔案後，以及允許使用目標定位資料之活動前。
 
-在重複資料刪除期間，會單獨處理入站轉變。例如，如果輪廓 &#39;A&#39; 出現在查詢 1 的結果，也出現在查詢 2 的結果中，將不會進行重複資料刪除。
+在重複資料刪除期間，會單獨處理入站轉變。 例如，如果輪廓 &#39;A&#39; 出現在查詢 1 的結果，也出現在查詢 2 的結果中，將不會進行重複資料刪除。
 
-因此，建議重複資料刪除僅具有一個入站轉變。要執行此操作，您可以透過使用與您目標定位需求（例如，聯合活動與交集活動等）相對應的活動以組合不同的查詢。例如：
+因此，建議重複資料刪除僅具有一個入站轉變。 要執行此操作，您可以透過使用與您目標定位需求（例如聯合活動、交集活動等）相對應的活動來組合不同的查詢。例如：
 
 ![](assets/dedup_bonnepratique.png)
 
@@ -51,10 +55,10 @@ ht-degree: 96%
 
 1. 選取必須對其執行重複資料刪除的 **[!UICONTROL Resource type]**：
 
-   * **[!UICONTROL Database resource]** 如果對資料庫中已存在的資料執行重複資料刪除。選取 **[!UICONTROL Filtering dimension]** 和 **[!UICONTROL Targeting dimension]**，根據您想執行重複資料刪除之資料。預設情況下，在&#x200B;**輪廓**&#x200B;執行重複資料刪除。
-   * **[!UICONTROL Temporary resource]** 如果對工作流程的臨時資料執行重複資料刪除：選取包含要重複資料刪除之資料的 **[!UICONTROL Targeted set]**。在匯入檔案或資料庫中的資料已擴充（例如使用區段代碼）後，就會遇到此使用案例。
+   * **[!UICONTROL Database resource]** 如果對資料庫中已存在的資料執行重複資料刪除。 選取 **[!UICONTROL Filtering dimension]** 和 **[!UICONTROL Targeting dimension]**，根據您想執行重複資料刪除之資料。 預設情況下，在&#x200B;**輪廓**&#x200B;執行重複資料刪除。
+   * **[!UICONTROL Temporary resource]** 如果對工作流程的臨時資料執行重複資料刪除：選取包含要重複資料刪除之資料的 **[!UICONTROL Targeted set]**。 在匯入檔案或資料庫中的資料已擴充（例如使用區段代碼）後，就會遇到此使用案例。
 
-1. 選取 **[!UICONTROL Number of unique records to keep]**。此欄位的預設值為 1。如果值為 0 則可讓您保留所有重複項目。
+1. 選取 **[!UICONTROL Number of unique records to keep]**。 此欄位的預設值為 1。 如果值為 0 則可讓您保留所有重複項目。
 
    例如，如果記錄 A 和 B 被視為記錄 Y 的重複項目，而記錄 C 被視為記錄 Z 的重複項目：
 
@@ -62,11 +66,11 @@ ht-degree: 96%
    * 如果該欄位的值為 0：會保留所有記錄。
    * 如果該欄位的值為 2：會保留記錄 C 和 Z，並且將保留 A、B 和 Y 中的兩條記錄，這是偶然的或取決於之後所選取的重複資料刪除方法。
 
-1. 在提供的清單中新增條件，以定義 **[!UICONTROL Duplicate identification]** 條件。指定具有完全相同值的欄位和/或運算式，以便識別重複資料刪除：電子郵件地址、名字、姓氏等。條件的順序可讓您指定首要處理的條件。
+1. 在提供的清單中新增條件，以定義 **[!UICONTROL Duplicate identification]** 條件。 指定具有完全相同值的欄位和/或運算式，以便識別重複專案：電子郵件地址、名字、姓氏等。條件的順序可讓您指定要先處理的條件。
 1. 在下拉式清單中，選取要使用的 **[!UICONTROL Deduplication method]**：
 
    * **[!UICONTROL Choose for me]**：隨機選取要保留在重複項目外的記錄。
-   * **[!UICONTROL Following a list of values]**：可讓您定義一或多個欄位的值優先順序。若要定義值，請選取欄位或建立運算式，然後將值新增至適當的資料表中。若要定義新欄位，請按一下值清單上方的 **[!UICONTROL Add]** 按鈕。
+   * **[!UICONTROL Following a list of values]**：可讓您定義一或多個欄位的值優先順序。 若要定義值，請選取欄位或建立運算式，然後將值新增至適當的資料表中。 若要定義新欄位，請按一下值清單上方的 **[!UICONTROL Add]** 按鈕。
 
      ![](assets/deduplication_2.png)
 

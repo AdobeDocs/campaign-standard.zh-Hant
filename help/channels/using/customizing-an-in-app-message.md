@@ -9,9 +9,14 @@ feature: In App
 role: User
 level: Intermediate
 exl-id: 7d06cf9c-06b6-4041-8360-4f6bdbd48dd3
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/QhRAK2kBrSzvgyXK84KTPHS3wPJF7X17e5foclRPXIc
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: 1004
 ht-degree: 97%
 
 ---
@@ -61,7 +66,7 @@ ht-degree: 97%
 
 * **[!UICONTROL Local notification]**：此類型的版面會以橫幅訊息的形式顯示。
 
-  其只能支援音效、文字和目的地。如需本機通知的詳細資訊，請參閱[自訂本機通知訊息類型](#customizing-a-local-notification-message-type)。
+  其只能支援音效、文字和目的地。 如需本機通知的詳細資訊，請參閱[自訂本機通知訊息類型](#customizing-a-local-notification-message-type)。
 
 每種類型的版面都可以在不同裝置（例如，手機、平板電腦、平台（如　Android 或 iOS）和方向（例如，內容編輯器右視窗的橫向或縱向））上進行預覽。
 
@@ -86,7 +91,7 @@ ht-degree: 97%
 
 ### 文字 {#text}
 
-如有需要，您也可以將訊息標題及內容新增至應用程式內訊息。為了更妥善地個人化您的應用程式內訊息，您可以將不同的個人化欄位、內容區塊及動態文字新增至內容。
+如有需要，您也可以將訊息標題及內容新增至應用程式內訊息。 為了更妥善地個人化您的應用程式內訊息，您可以將不同的個人化欄位、內容區塊及動態文字新增至內容。
 
 1. 在 **[!UICONTROL Text]** 下拉式清單中的 **[!UICONTROL Message title]** 欄位中新增標題。
 
@@ -140,7 +145,7 @@ ht-degree: 97%
 
 ## 自訂本機通知訊息型別 {#customizing-a-local-notification-message-type}
 
-本機通知只能由應用程式在特定時間內觸發，且會視事件而定。即使未存取網際網路，通知仍會提醒使用者應用程式中發生某些事情。
+本機通知只能由應用程式在特定時間內觸發，且會視事件而定。 即使未存取網際網路，通知仍會提醒使用者應用程式中發生某些事情。
 若要瞭解如何追蹤本機通知，請參閱本[頁面](../../administration/using/local-tracking.md)。
 
 若要自訂本機通知：
@@ -156,12 +161,12 @@ ht-degree: 97%
 1. 在類別 **[!UICONTROL Advanced option]** 的　**[!UICONTROL Wait to display]**　欄位中，選取觸發事件後，本機通知在螢幕上顯示的時間長短（以秒數表示）。
 1. 在 **[!UICONTROL Sound]** 欄位中，輸入在接收本機通知時，行動裝置會播放之音效檔案的檔名（連同副檔名）。
 
-   如果已在行動應用程式的套件中定義檔案，則傳送通知時會播放音效檔案。否則，會播放裝置的預設音效。
+   如果已在行動應用程式的套件中定義檔案，則傳送通知時會播放音效檔案。 否則，會播放裝置的預設音效。
 
    ![](assets/inapp_customize_19.png)
 
 1. 當使用者在 **[!UICONTROL Deeplink URL]** 欄位中與本機通知互動時，請指定要將使用者重新導向的目的地。
-1. 若要以鍵值對的形式，在裝載中傳遞自訂資料，您可以將自訂欄位新增至本機通知。在 **[!UICONTROL Custom fields]** 類別中，按一下 **[!UICONTROL Create an element]** 按鈕。
+1. 若要以鍵值對的形式，在裝載中傳遞自訂資料，您可以將自訂欄位新增至本機通知。 在 **[!UICONTROL Custom fields]** 類別中，按一下 **[!UICONTROL Create an element]** 按鈕。
 1. 輸入 **[!UICONTROL Keys]**，然後再輸入與每個鍵相關聯的　**[!UICONTROL Values]**。
 
    請注意，自訂欄位的處理與用途完全視行動應用程式而定。

@@ -8,9 +8,15 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 760c3c30-c899-4cf4-ba59-fb2fade9fc5e
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/H-WFy-faNPufQFw5A-zN8c-G7rqwUuXTQ8iGN1CDk00
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: d5ef99fa-df0c-4153-bf94-105ad0724167
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: 778
 ht-degree: 1%
 
 ---
@@ -27,9 +33,9 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->若要以純文字版本使用內容區塊，請確定它們不包含HTML程式碼。
+>若要以純文字版本使用內容區塊，請確定這些區塊未包含HTML程式碼。
 
-若要使用與HTML版本不同的純文字版本，您可以從電子郵件的&#x200B;**[!UICONTROL Plain text]**&#x200B;檢視中按一下&#x200B;**[!UICONTROL Sync with HTML]**&#x200B;引數，以停用此同步處理。
+若要使用與HTML版本不同的純文字版本，您可以從電子郵件的「**[!UICONTROL Plain text]**」檢視中按一下「**[!UICONTROL Sync with HTML]**」引數，以停用此同步處理。
 
 ![](assets/email_designer_textversion.png)
 
@@ -39,13 +45,13 @@ ht-degree: 1%
 >
 >如果您在停用同步時編輯&#x200B;**[!UICONTROL Plain text]**&#x200B;版本，下次啟用&#x200B;**[!UICONTROL Sync with HTML]**&#x200B;選項時，您在純文字版本中所做的所有變更將會取代為HTML版本。 在&#x200B;**[!UICONTROL Plain text]**&#x200B;檢視中所做的變更無法反映在&#x200B;**[!UICONTROL HTML]**&#x200B;檢視中。
 
-## 編輯HTML中的電子郵件內容來源 {#editing-an-email-content-source-in-html}
+## 在HTML中編輯電子郵件內容來源 {#editing-an-email-content-source-in-html}
 
-對於最進階的使用者和偵錯，您可以直接在HTML中檢視和編輯電子郵件內容。
+對於最進階的使用者和除錯，您可以直接在HTML中檢視和編輯電子郵件內容。
 
-編輯電子郵件HTML版本有兩個方法：
+編輯電子郵件的HTML版本有兩個方法：
 
-* 選取&#x200B;**[!UICONTROL Edit]** > **[!UICONTROL HTML]**&#x200B;以開啟整個電子郵件的HTML版本。
+* 選取「**[!UICONTROL Edit]** > **[!UICONTROL HTML]**」以開啟整封電子郵件的HTML版本。
 
   ![](assets/email_designer_html1.png)
 
@@ -98,7 +104,7 @@ ht-degree: 1%
    >
    >唯一的例外是&#x200B;**[!UICONTROL Style inline]**&#x200B;設定。 任何樣式內嵌設定變更也會套用至標準案頭檢視。
 
-1. 對電子郵件結構或內容的任何其他變更，例如文字編輯、上傳新影像、新增元件等。 也會套用至標準檢視。
+1. 對電子郵件結構或內容的任何其他變更（如編輯文字、上傳新影像、新增元件等）也會套用至標準檢視。
 
    例如，切換回行動檢視、編輯部分文字並取代影像。
 

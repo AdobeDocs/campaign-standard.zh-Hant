@@ -10,9 +10,13 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 2ddc1b2b-0df5-4c91-a381-451cc094f2eb
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/PnbExucfP9-JLJA-0krFYAkYXJYExhHxEl7TRu5efec
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: 298
 ht-degree: 98%
 
 ---
@@ -23,11 +27,11 @@ ht-degree: 98%
 
 ![](assets/wait.png)
 
-**[!UICONTROL Wait]** 活動會暫時暫停執行工作流程的一部分。它會在延遲後啟動其出站轉變，延遲範圍可能在幾秒到幾個月之間，然後執行之後放置的活動。
+**[!UICONTROL Wait]** 活動會暫時暫停執行工作流程的一部分。 它會在延遲後啟動其出站轉變，延遲範圍可能在幾秒到幾個月之間，然後執行之後放置的活動。
 
 ## 使用內容 {#context-of-use}
 
-**[!UICONTROL Wait]** 活動可用於在兩個執行之活動之間傳遞的特定時間。例如，若要在電子郵件傳送活動後等候數天，請先分析此期間產生的開啟次數和點按次數，再執行任何後續操作 (提醒電子郵件、建立客群等)。
+**[!UICONTROL Wait]** 活動可用於在兩個執行之活動之間傳遞的特定時間。 例如，若要在電子郵件傳送活動後等候數天，請先分析此期間產生的開啟次數和點按次數，再執行任何後續操作 (提醒電子郵件、建立客群等)。
 
 ## 設定 {#configuration}
 
@@ -43,7 +47,7 @@ ht-degree: 98%
 
 ## 範例 {#example}
 
-以下範例說明典型使用案例中的 **[!UICONTROL Wait]** 活動。已傳送活動的電子郵件邀請。在傳送電子郵件後 24 小時，會分析電子郵件傳送記錄，並傳送提醒電子郵件給收到第一封電子郵件但未註冊的人。
+以下範例說明典型使用案例中的 **[!UICONTROL Wait]** 活動。 已傳送活動的電子郵件邀請。 在傳送電子郵件後 24 小時，會分析電子郵件傳送記錄，並傳送提醒電子郵件給收到第一封電子郵件但未註冊的人。
 
 工作流程如下：
 

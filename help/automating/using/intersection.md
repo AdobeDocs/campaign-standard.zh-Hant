@@ -9,9 +9,13 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 2a6a851c-df91-472b-a8a4-0b3876d51c1d
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/G9ptSqWfh2BTA76Ul-j2th1W2aHI-eiPvJBpcasLJXs
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: 287
 ht-degree: 98%
 
 ---
@@ -35,9 +39,9 @@ ht-degree: 98%
 1. 選取活動，然後使用所顯示快速動作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
 1. 選取 **[!UICONTROL Reconciliation type]**：
 
-   * **[!UICONTROL Keys only]**：預設模式。當來自不同入站轉變的元素具有相同索引鍵時，活動只會保留一個元素。
-   * **[!UICONTROL All shared columns]**：資料會根據與入站轉變共用的欄進行調節。因此，您必須選取作為比較基礎的主集。如果入站群體目標定位維度不同，則可使用此選項。
-   * **[!UICONTROL A selection of columns]**：選取此選項可定義將套用資料協調的欄清單。首先，必須選取主集（包含來源資料的主集），然後指定用於加入的欄位。
+   * **[!UICONTROL Keys only]**：預設模式。 當來自不同入站轉變的元素具有相同索引鍵時，活動只會保留一個元素。
+   * **[!UICONTROL All shared columns]**：資料會根據與入站轉變共用的欄進行調節。 因此，您必須選取作為比較基礎的主集。 如果入站群體目標定位維度不同，則可使用此選項。
+   * **[!UICONTROL A selection of columns]**：選取此選項可定義將套用資料協調的欄清單。 首先，必須選取主集（包含來源資料的主集），然後指定用於加入的欄位。
 
 1. 如果您只想保留所有入站轉變中的其他資料，請核取　**[!UICONTROL Use common additional data only]**　方塊。
 1. 如有需要，請管理活動的[轉變](../../automating/using/activity-properties.md)，以存取輸出群體的進階選項。
@@ -45,6 +49,6 @@ ht-degree: 98%
 
 ## 範例 {#example}
 
-以下範例會顯示兩個查詢活動之間的交集。此處用於查看　Adobe Campaign　資料庫，以及擷取年齡介於　18　到　27　歲之間的輪廓，以及分別提供電子郵件地址的輪廓。
+以下範例會顯示兩個查詢活動之間的交集。 此處用於查看　Adobe Campaign　資料庫，以及擷取年齡介於　18　到　27　歲之間的輪廓，以及分別提供電子郵件地址的輪廓。
 
 ![](assets/wkf_intersection_example.png)

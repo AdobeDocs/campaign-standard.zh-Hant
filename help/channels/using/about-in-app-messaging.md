@@ -8,32 +8,36 @@ context-tags: delivery,triggers,back
 feature: In App
 role: User
 exl-id: 986646b1-42d5-4169-ac38-d8e612a9a6d3
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+TQID: https://experienceleague.adobe.com/olwPmGMR2gMySu7Nx65g2bPvaxN6kjiRD94FyHxhg3A
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 84%
+source-wordcount: 460
+ht-degree: 85%
 
 ---
 
 # 關於應用程式內訊息傳送{#about-in-app-messaging}
 
-應用程式內訊息傳送是傳訊通道，可讓您在使用者於行動應用程式內活動時顯示訊息。此訊息類型免費提供傳送至使用者電話通知中心的推播通知。如需推播通知頻道的詳細資訊，請參閱[本區段](../../channels/using/about-push-notifications.md)。
+應用程式內訊息傳送是傳訊通道，可讓您在使用者於行動應用程式內活動時顯示訊息。 此訊息類型免費提供傳送至使用者電話通知中心的推播通知。 如需推播通知頻道的詳細資訊，請參閱[本區段](../../channels/using/about-push-notifications.md)。
 
-此通道需要將行動應用程式與　Adobe Experience Platform SDK　整合。這些應用程式必須先在資料收集UI中啟動，才能在Adobe Campaign中用於應用程式內傳送。
+此通道需要將行動應用程式與　Adobe Experience Platform SDK　整合。 這些應用程式必須先在資料收集UI中啟動，才能在Adobe Campaign中用於應用程式內傳送。
 
 ![](assets/launch_campaign.png)
 
 若要利用 Experience Platform SDK，開始在行動應用程式上傳送應用程式內訊息，您需要遵循下列先決條件：
 
-1. 在　Adobe Campaign　中，確定您可以存取 **[!UICONTROL In-App]** 通道。如果您無法存取這些通道，請聯絡您的帳戶團隊。
+1. 在　Adobe Campaign　中，確定您可以存取 **[!UICONTROL In-App]** 通道。 如果您無法存取這些通道，請聯絡您的帳戶團隊。
 
 1. 若要將Adobe Campaign Standard的行動使用案例與Experience Cloud SDK應用程式搭配運用，行動應用程式必須在資料收集UI中建立並在Adobe Campaign Standard中設定。 如需逐步指南，請參閱此[頁面](../../administration/using/configuring-a-mobile-application.md)。
 
-1. 設定之後，您現在就能準備應用程式內訊息。如需詳細資訊，請參閱此[頁面](../../channels/using/preparing-and-sending-an-in-app-message.md#preparing-your-in-app-message)。
+1. 設定之後，您現在就能準備應用程式內訊息。 如需詳細資訊，請參閱此[頁面](../../channels/using/preparing-and-sending-an-in-app-message.md#preparing-your-in-app-message)。
 
 1. 之後，您可以決定傳送[應用程式內訊息](../../channels/using/customizing-an-in-app-message.md)，或[自訂本機通知訊息類型](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)。
 
-1. 您的傳送現已準備就緒而可傳送。若要進一步瞭解，請參閱此[頁面](../../channels/using/preparing-and-sending-an-in-app-message.md#sending-your-in-app-message)。
+1. 您的傳送現已準備就緒而可傳送。 若要進一步瞭解，請參閱此[頁面](../../channels/using/preparing-and-sending-an-in-app-message.md#sending-your-in-app-message)。
 
 **相關內容：**
 
@@ -43,11 +47,11 @@ ht-degree: 84%
 
 ## 使用個人和敏感資料處理行動設定檔欄位 {#handling-mobile-profile-fields-with-personal-and-sensitive-data}
 
-在 Adobe Campaign 中，由行動裝置傳送的行動設定檔屬性資料會儲存在 **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** 資源中，您可藉此定義要從應用程式訂閱者收集的資料。
+在 Adobe Campaign 中，由行動裝置傳送的行動輪廓屬性資料會儲存在 **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** 資源中，您可藉此定義要從應用程式訂閱者收集的資料。
 
-需要擴充此資源，才能收集您要從行動裝置傳送至 Adobe Campaign 的資料。要執行此操作，請參閱本[頁面](../../developing/using/extending-the-subscriptions-to-an-application-resource.md)以取得詳細步驟。
+需要擴充此資源，才能收集您要從行動裝置傳送至 Adobe Campaign 的資料。 要執行此操作，請參閱本[頁面](../../developing/using/extending-the-subscriptions-to-an-application-resource.md)以取得詳細步驟。
 
-為了提供更安全的應用程式內訊息個人化功能，您需要據此設定這項資源的行動設定檔欄位。在您的 **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** 中，建立新行動設定檔欄位時，請和取 **[!UICONTROL Personal and Sensitive]** 在應用程式內訊息個人化期間使用這些設定檔。
+為了提供更安全的應用程式內訊息個人化功能，您需要據此設定這項資源的行動輪廓欄位。 在您的 **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** 中，建立新行動輪廓欄位時，請和取 **[!UICONTROL Personal and Sensitive]** 在應用程式內訊息個人化期間使用這些輪廓。
 
 >[!NOTE]
 >
@@ -55,6 +59,6 @@ ht-degree: 84%
 
 ![](assets/in_app_personal_data_2.png)
 
-在設定並發佈 **[!UICONTROL Subscriptions to an application]** 自訂資源後，您就可以開始使用 **[!UICONTROL Target users based on their Mobile profile (inApp)]** 範本準備應用程式內傳送內容。個人化 **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** 資源將僅提供非個人和非敏感欄位。
+在設定並發佈 **[!UICONTROL Subscriptions to an application]** 自訂資源後，您就可以開始使用 **[!UICONTROL Target users based on their Mobile profile (inApp)]** 範本準備應用程式內傳送內容。 個人化 **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** 資源將僅提供非個人和非敏感欄位。
 
 若需使用 **Personal and Sensitive** 欄位來達到個人化目的，建議您使用 **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]** 範本，此範本提供額外的安全機制，能確保使用者的 PII 資料安全無虞。

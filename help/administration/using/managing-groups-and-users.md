@@ -6,10 +6,15 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
-source-git-commit: 52217326ec7f17ab7ce4d058d185b2680681a9c0
+TQID: https://experienceleague.adobe.com/f9WHgzRKHNEXrZESUsupb1Jk-ydnAsD47R1205A6CKE
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '947'
-ht-degree: 65%
+source-wordcount: 990
+ht-degree: 66%
 
 ---
 
@@ -23,9 +28,9 @@ ht-degree: 65%
 
 安全性群組是一組使用者，在您的組織內共用相同的角色和權限。
 
-使用者必須始終連結到安全性群組。這可讓您指派他們特定的角色和組織單位。 若要限制使用者的存取權，請勿將使用者新增至Campaign **[!UICONTROL Standard Users]**&#x200B;群組，因為此群組已連結至&#x200B;**[!UICONTROL All]**&#x200B;組織單位。
+使用者必須始終連結到安全性群組。 這可讓您指派他們特定的角色和組織單位。 若要限制使用者的存取權，請勿將使用者新增至Campaign **[!UICONTROL Standard Users]**&#x200B;群組，因為此群組已連結至&#x200B;**[!UICONTROL All]**&#x200B;組織單位。
 
-如需角色的詳細資訊，下頁的表格會根據使用者的角色顯示可能的作業： [Adobe Campaign Standard授權](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=zh-Hant)。
+如需角色的詳細資訊，下頁的表格會根據使用者的角色顯示可能的作業： [Adobe Campaign Standard授權](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)。
 
 預設安全性群組為：
 
@@ -42,9 +47,9 @@ ht-degree: 65%
 >
 >請注意，在Admin Console中，會將安全性群組稱為設定檔。
 
-如果現成的群組不足以管理您的使用者，您可以建立自己的安全性群組。同時擁有Adobe Campaign管理功能表和Admin Console存取權的管理員可管理這些功能。 如需Admin Console的詳細資訊，請參閱此[檔案](https://helpx.adobe.com/tw/enterprise/managing/user-guide.html)。
+如果現成的群組不足以管理您的使用者，您可以建立自己的安全性群組。 同時擁有Adobe Campaign管理功能表和Admin Console存取權的管理員可管理這些功能。 如需Admin Console的詳細資訊，請參閱此[檔案](https://helpx.adobe.com/tw/enterprise/managing/user-guide.html)。
 
-首先，我們需要將兩個現成的群組（Standard User 和 Administrator）指派給使用者。這些安全性群組將限制 Adobe Campaign 的某些功能：舉例來說，Standard User 可以存取 Adobe Campaign 的基本存取權限，而 Administrator 可以存取管理功能表。
+首先，我們需要將兩個現成的群組（Standard User 和 Administrator）指派給使用者。 這些安全性群組將限制 Adobe Campaign 的某些功能：舉例來說，Standard User 可以存取 Adobe Campaign 的基本存取權限，而 Administrator 可以存取管理功能表。
 
 請注意，使用者登入 Adobe Campaign 時，Admin Console 對安全性群組所進行的任何變更都會同步化。
 
@@ -59,7 +64,7 @@ ht-degree: 65%
    ![](assets/manage_security_group_2.png)
 
 1. 按一下 **[!UICONTROL Add user]** 按鈕，然後輸入使用者的電子郵件地址。
-1. 在 **[!UICONTROL Assign Products]** 索引標籤中，從下拉式清單依序選取您的執行個體以及　**[!UICONTROL Administrators]**　現成安全性群組。這可讓使用者存取管理功能表，並建立下一個安全性群組。
+1. 在 **[!UICONTROL Assign Products]** 索引標籤中，從下拉式清單依序選取您的執行個體以及　**[!UICONTROL Administrators]**　現成安全性群組。 這可讓使用者存取管理功能表，並建立下一個安全性群組。
 
    ![](assets/ootb_security_group_2.png)
 
@@ -103,7 +108,7 @@ ht-degree: 65%
 
    如果使用者位於數個群組中：
 
-   * 會累積不同群組中的角色。此處的使用者會分為兩個不同的群組：一個群組會擔任角色，另一個群組則會擔任單位。
+   * 會累積不同群組中的角色。 此處的使用者會分為兩個不同的群組：一個群組會擔任角色，另一個群組則會擔任單位。
    * 這是將會使用的最高階層單位（請參閱[組織單位](../../administration/using/organizational-units.md)區段中的範例）。
    * 如果指派給使用者的組織單位位於階層中的平行分支（亦即，它們沒有共同指派的父單位），則系統會為使用者選取組織單位，且使用者將擁有系統所選組織單位及其子項的存取權。
 
@@ -113,14 +118,14 @@ ht-degree: 65%
 
 新建立的安全性群組現在會在Admin Console中建立。 您也需要在 Adobe Campaign 中建立這些檔案，才能完全同步化。
 
-Administrator 使用者必須建立一組用於指派組織單位的安全性群組：Geometrixx 及 Geometrixx Chattes。若要瞭解如何建立組織單位，請參閱[建立和管理單位](../../administration/using/organizational-units.md#creating-and-managing-units)。
+Administrator 使用者必須建立一組用於指派組織單位的安全性群組：Geometrixx 及 Geometrixx Chattes。 若要瞭解如何建立組織單位，請參閱[建立和管理單位](../../administration/using/organizational-units.md#creating-and-managing-units)。
 
 1. 按一下左上角的&#x200B;**Adobe**&#x200B;標誌，然後選取&#x200B;**[!UICONTROL Administration > Users & Security > Security groups]**。
 1. 建立新的安全性群組並指定其 **[!UICONTROL Label]** 及 **[!UICONTROL ID]**。
 
    ID必須與Admin Console中選取的ID相同。
 
-1. 在 **[!UICONTROL User access]** 欄位中，指派組織單位。在此處，會為 Geometrixx 安全性群組指派 **[!UICONTROL All]** 組織單位。
+1. 在 **[!UICONTROL User access]** 欄位中，指派組織單位。 在此處，會為 Geometrixx 安全性群組指派 **[!UICONTROL All]** 組織單位。
 
    >[!NOTE]
    >
@@ -128,7 +133,7 @@ Administrator 使用者必須建立一組用於指派組織單位的安全性群
 
    ![](assets/manage_security_group_6.png)
 
-1. 您也可以將角色指派給安全性群組。在此情況下，不需要執行此步驟，因為會使用現成的安全性群組 **[!UICONTROL Administrators]** 及 **[!UICONTROL Standard users]** 來指派角色。
+1. 您也可以將角色指派給安全性群組。 在此情況下，不需要執行此步驟，因為會使用現成的安全性群組 **[!UICONTROL Administrators]** 及 **[!UICONTROL Standard users]** 來指派角色。
 1. 請依照相同的程序建立最後一個安全性 Geometrixxx Chates，並指派 Geometrixx Chates 組織單位。
 
    ![](assets/manage_security_group_7.png)

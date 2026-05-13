@@ -9,9 +9,13 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 1dfc547f-747d-403e-a5b7-a68f56191c71
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/JbfMoJzvulqLurUn904RKXvg2aqb74BTTwFpSNkL9MU
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: 274
 ht-degree: 97%
 
 ---
@@ -28,7 +32,7 @@ ht-degree: 97%
 
 ## 使用內容 {#context-of-use}
 
-執行工作流程會從沒有入站轉變的活動開始進行，而且會在不再進行任何任務時停止。不過，您可以新增 **[!UICONTROL Start]** 及 **[!UICONTROL End]** 活動，以清楚標示工作流程的起點和終點。這對相對複雜的工作流程特別實用。
+執行工作流程會從沒有入站轉變的活動開始進行，而且會在不再進行任何任務時停止。 不過，您可以新增 **[!UICONTROL Start]** 及 **[!UICONTROL End]** 活動，以清楚標示工作流程的起點和終點。 這對相對複雜的工作流程特別實用。
 
 最佳實務是使用　**[!UICONTROL End]**　活動，而不是自行保留工作流程的最後轉變，以確保工作流程正常結束。
 
@@ -37,15 +41,15 @@ ht-degree: 97%
 1. 將 **[!UICONTROL Start]** 或 **[!UICONTROL End]** 活動拖放置您的工作流程中。
 1. 將 **[!UICONTROL Start]** 活動放在其他活動（例如查詢）前面，並在一系列活動後面放置 **[!UICONTROL End]** 活動。
 1. 選取活動，然後使用所顯示快速動作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。
-1. 您可以設定 **End** 物件，以中斷所有持續進行的工作流程任務，包括尚未完成的任務。若要這麼做，請選取相對應的選項。
+1. 您可以設定 **End** 物件，以中斷所有持續進行的工作流程任務，包括尚未完成的任務。 若要這麼做，請選取相對應的選項。
 1. 確認活動的設定並儲存工作流程。
 
 ## 觸發另一個工作流程 {#triggering-another-workflow}
 
-使用 **[!UICONTROL External signal]** 活動的　**[!UICONTROL End]**　標籤，您可以觸發另一個工作流程。請參閱[外部訊號](../../automating/using/external-signal.md)區段。
+使用 **[!UICONTROL External signal]** 活動的　**[!UICONTROL End]**　標籤，您可以觸發另一個工作流程。 請參閱[外部訊號](../../automating/using/external-signal.md)區段。
 
 ## 範例 {#example}
 
-以下範例說明如何使用　**[!UICONTROL Start]**　活動和數個　**[!UICONTROL End]**　活動執行複雜的工作流程。已針對第一個 **[!UICONTROL End]** 活動核取　**[!UICONTROL Stop all tasks in progress]**　方塊。完成相對應的任務之後，將會停止整個工作流程：其效果與已選取 ![](assets/stop_darkgrey-24px.png) 按鈕相同（請參閱[動作列](../../automating/using/workflow-interface.md#action-bar)區段）。
+以下範例說明如何使用　**[!UICONTROL Start]**　活動和數個　**[!UICONTROL End]**　活動執行複雜的工作流程。 已針對第一個 **[!UICONTROL End]** 活動核取　**[!UICONTROL Stop all tasks in progress]**　方塊。 完成相對應的任務之後，將會停止整個工作流程：其效果與已選取 ![](assets/stop_darkgrey-24px.png) 按鈕相同（請參閱[動作列](../../automating/using/workflow-interface.md#action-bar)區段）。
 
 ![](assets/wkf_start_end_example.png)

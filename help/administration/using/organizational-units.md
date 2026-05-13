@@ -6,9 +6,14 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: fbab695a-2672-4183-8c3b-78af7aefd5b1
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+TQID: https://experienceleague.adobe.com/OjO9gSlb5OKrPgK2vNQsmEjJ3ykPPULZR5KOb5BenlU
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: 844
 ht-degree: 4%
 
 ---
@@ -23,7 +28,7 @@ ht-degree: 4%
 >
 >如果使用者未連結至任何單位，該使用者將無法連線至Adobe Campaign。 如果您想要限制特定使用者或使用者群組的存取權，請勿將其連結至&#x200B;**[!UICONTROL All]**&#x200B;單位。 建議在匯入任何設定檔之前，先新增選項&#x200B;**存取授權管理欄位**。 如需詳細資訊，請參閱本[區段](../../administration/using/organizational-units.md#partitioning-profiles)。
 >
->依預設，將 **[!UICONTROL All (all)]** 組織單位指派給 **[!UICONTROL Administrators]** 安全性群組。其為唯讀狀態且無法修改。
+>依預設，將 **[!UICONTROL All (all)]** 組織單位指派給 **[!UICONTROL Administrators]** 安全性群組。 其為唯讀狀態且無法修改。
 
 使用者對父單位中的所有物件具有唯讀存取權。 這類使用者對其單位和子單位的所有物件具有讀寫存取權。 使用者無權存取平行分支中的物件。
 
@@ -41,11 +46,11 @@ ht-degree: 4%
 
 組織單位可讓您根據使用者連結到的組織來篩選例項。 此單位可代表您執行個體中的地區、國家/地區或甚至品牌。
 
-在此處，我們先前已建立安全性群組，其中兩個使用者擁有不同的角色：一個使用者被指派給安全性群組管理員和Geometrixx，另一個使用者屬於安全性群組標準使用者和Geometrixx服裝請參閱[建立安全性群組並指派使用者](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users)以取得完整範例。
+在此處，我們先前已建立安全性群組，其角色為兩個使用者：一個使用者被指派給安全性群組Administrators和Geometrixx，另一個使用者屬於安全性群組Standard user和Geometrixx Clothes如需完整範例，請參閱[建立安全性群組並指派使用者](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users)。
 
-我們現在需要為Geometrixx服裝和Geometrixx安全性群組建立組織單位：
+我們現在需要為Geometrixx Clothes和Geometrixx安全性群組建立組織單位：
 
-1. 在Adobe促銷活動進階功能表中，選取&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Users & security]** > **[!UICONTROL Organizational units]**。
+1. 從Adobe促銷活動進階功能表中，選取「**[!UICONTROL Administration]** > **[!UICONTROL Users & security]** > **[!UICONTROL Organizational units]**」。
 1. 按一下&#x200B;**[!UICONTROL Create]**&#x200B;開始設定您的組織單位。
 
    ![](assets/manage_units_1.png)
@@ -56,11 +61,11 @@ ht-degree: 4%
    ![](assets/manage_units_2.png)
 
 1. 最後，按一下&#x200B;**[!UICONTROL Create]**&#x200B;開始將新的組織單位指派給安全性群組。
-1. 對「Geometrixx服裝」單位遵循相同的程式，但它的父單位必須是先前建立的單位Geometrixx。
+1. 對Geometrixx Clothes單位遵循相同的程式，但其上層單位必須是先前建立的單位Geometrixx。
 
    ![](assets/manage_units_3.png)
 
-若要檢視將不同單位指派給不同安全性群組的影響，指派給「管理員」和「Geometrixx」群組的使用者將建立兩個電子郵件範本，以檢視其他指派給「標準使用者」和「Geometrixx服飾」的使用者可以存取或無法存取哪些內容。
+若要檢視將不同單位指派給不同安全性群組的影響，指派給「管理員」和Geometrixx群組的使用者將建立兩個電子郵件範本，以檢視其他指派給「標準使用者」和「Geometrixx服飾」的使用者可以存取或無法存取的內容。
 
 1. 從進階功能表，選取&#x200B;**[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery Templates]**。
 1. 複製現有範本，並視需要加以個人化。 如需詳細資訊，請參閱[關於範本](../../start/using/marketing-activity-templates.md)區段。
@@ -70,21 +75,21 @@ ht-degree: 4%
 
 1. 在&#x200B;**[!UICONTROL Access authorization]**&#x200B;下拉式功能表中，選取組織單位。
 
-   在此，我們將以先前建立的組織單位Geometrixx建立一個範本。
+   在此，我們將使用先前建立的組織單位Geometrixx建立一個範本。
 
    ![](assets/manage_units_5.png)
 
-1. 依照相同的程式，建立指派給先前建立之Geometrixx服裝組織單位的第二個範本。
+1. 依照相同的程式，建立第二個範本，並指派給先前建立的Geometrixx Clothes組織單位。
 
-指派給&#x200B;**標準使用者**&#x200B;和&#x200B;**Geometrixx服飾**&#x200B;群組的使用者將能夠看到這兩個範本。 由於組織單位的階層結構，他們將擁有連結至Geometrixx服裝單位的範本讀寫存取權，以及連結至Geometrixx單位的範本唯讀存取權。
+指派給&#x200B;**標準使用者**&#x200B;和&#x200B;**Geometrixx Clothes**&#x200B;群組的使用者將能夠看到這兩個範本。 由於組織單位的階層架構，他們將會擁有連結至Geometrixx Clothes單位的範本讀寫存取權，以及連結至Geometrixx單位的範本唯讀存取權。
 
 ![](assets/manage_units_7.png)
 
-由於「Geometrixx服飾」單位是Geometrixx的子單位，當使用者嘗試修改Geometrixx範本時，會出現下列訊息：
+由於Geometrixx Clothes單位是Geometrixx的子單位，當使用者嘗試修改Geometrixx範本時，會顯示下列訊息：
 
 ![](assets/manage_units_8.png)
 
-組織單位可以限制不同功能（例如設定檔）的存取權。 例如，如果我們的GeometrixxClothes使用者存取&#x200B;**[!UICONTROL Profiles]**&#x200B;標籤，將能夠以GeometrixxClothes組織單位完整存取及修改設定檔。
+組織單位可以限制不同功能（例如設定檔）的存取權。 例如，如果我們的Geometrixx Clothes使用者存取&#x200B;**[!UICONTROL Profiles]**&#x200B;標籤，將能透過Geometrixx Clothes組織單位完整存取及修改設定檔。
 
 雖然具有Geometrixx組織單位的設定檔將是唯讀的，但如果使用者嘗試修改一個設定檔，則會出現以下錯誤： **[!UICONTROL You do not have the rights needed to modify the 'profile' resource of ID]**。
 
@@ -108,7 +113,7 @@ ht-degree: 4%
 
    ![](assets/user_management_9.png)
 
-1. 按一下&#x200B;**[!UICONTROL Save]**。
+1. 按一下 **[!UICONTROL Save]**。
 1. 重新發佈自訂資源以更新結構。 如需有關發佈程式的詳細資訊，請參閱[更新結構](../../developing/using/updating-the-database-structure.md)區段。
 
 已將組織單位欄位新增到您在&#x200B;**[!UICONTROL Access authorization]**&#x200B;區段中的設定檔。
@@ -118,4 +123,4 @@ ht-degree: 4%
 **相關主題**：
 
 * [關於單位](../../administration/using/organizational-units.md#about-units)
-* [關於存取管理](../../administration/using/about-access-management.md)
+* [關於存取權管理](../../administration/using/about-access-management.md)

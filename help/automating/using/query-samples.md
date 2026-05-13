@@ -10,9 +10,15 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 0a71e3a7-60e6-49ec-af2e-099ad0d69a15
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/65HKTwwETEWkW1P6c1pfYBIJQDYwqC-DPmq7JQiye7s
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: 339
 ht-degree: 76%
 
 ---
@@ -63,7 +69,7 @@ ht-degree: 76%
 
 ## 針對傳送因為特定原因而失敗的設定檔進行定位 {#targeting-profiles-for-whom-deliveries-failed-for-a-specific-reason}
 
-下列範例顯示一個查詢活動，其設定是篩選因其信箱已滿而傳送失敗的輪廓。此查詢僅適用於具有管理權限且屬於 **[!UICONTROL All (all)]** 組織單位（請參閱[本區段](../../administration/using/organizational-units.md)）的使用者。
+下列範例顯示一個查詢活動，其設定是篩選因其信箱已滿而傳送失敗的輪廓。 此查詢僅適用於具有管理權限且屬於 **[!UICONTROL All (all)]** 組織單位（請參閱[本區段](../../administration/using/organizational-units.md)）的使用者。
 
 1. 選取 **[!UICONTROL Delivery logs]** 資源，以便直接在傳送記錄表中進行篩選（請參閱[使用與目標維度不同的資源](../../automating/using/using-resources-different-from-targeting-dimensions.md)）。
 
@@ -73,7 +79,7 @@ ht-degree: 76%
 
    ![](assets/query_sample_failure2.png)
 
-1. 選取要鎖定的失敗類型。在我們的案例 **[!UICONTROL Mailbox full]** 中。
+1. 選取要鎖定的失敗類型。 在我們的案例 **[!UICONTROL Mailbox full]** 中。
 
    ![](assets/query_sample_failure3.png)
 

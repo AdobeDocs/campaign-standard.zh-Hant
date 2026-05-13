@@ -9,9 +9,14 @@ feature: Landing Pages
 role: User
 level: Intermediate
 exl-id: 7083447c-4cac-41cb-8453-369819e0c7c1
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+TQID: https://experienceleague.adobe.com/RWC1QVnb36uYdmvYN4N4yUeaVATJ2RdI7G8vXkJqR0o
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: 840
 ht-degree: 14%
 
 ---
@@ -36,7 +41,7 @@ ht-degree: 14%
 
    >[!NOTE]
    >
-   >內建登錄頁面的預設欄位已預先設定。您可以視需要修改它們。
+   >內建登錄頁面的預設欄位已預先設定。 您可以視需要修改它們。
 
 1. 存取左側浮動視窗上的&#x200B;**[!UICONTROL Form data]**&#x200B;區段。
 
@@ -60,11 +65,11 @@ ht-degree: 14%
    >
    >登入頁面只能對應至&#x200B;**[!UICONTROL Profiles]**&#x200B;或&#x200B;**[!UICONTROL Service]**&#x200B;資源。
 
-   在此範例中，將登入頁面的&#x200B;**Name**&#x200B;欄位對應至&#x200B;**[!UICONTROL Last name]**&#x200B;資源的&#x200B;**[!UICONTROL Profiles]**&#x200B;欄位。
+   在此範例中，將登入頁面的&#x200B;**Name**&#x200B;欄位對應至&#x200B;**[!UICONTROL Profiles]**&#x200B;資源的&#x200B;**[!UICONTROL Last name]**&#x200B;欄位。
 
    ![](assets/lp_database-field-example.png)
 
-1. 視需要核取 **[!UICONTROL Mandatory]** 選項。在此情況下，只有在使用者已填入此欄位時，才能提交登入頁面。
+1. 視需要核取 **[!UICONTROL Mandatory]** 選項。 在此情況下，只有在使用者已填入此欄位時，才能提交登入頁面。
 
    ![](assets/lp_mandatory-option.png)
 
@@ -174,7 +179,7 @@ ht-degree: 14%
    >
    >**[!UICONTROL Agreement]**&#x200B;專案未對應至Campaign資料庫的欄位。
 
-1. 按一下![](assets/lp-properties-icon.png)旁的&#x200B;**[!UICONTROL Form data]**&#x200B;圖示以存取核取方塊進階屬性。
+1. 按一下&#x200B;**[!UICONTROL Form data]**&#x200B;旁的![](assets/lp-properties-icon.png)圖示以存取核取方塊進階屬性。
 
 1. 您可以視需要編輯訊息。
 

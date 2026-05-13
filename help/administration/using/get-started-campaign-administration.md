@@ -6,10 +6,16 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 9676b5e8-4c34-4848-8616-235e0bac5d6b
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+TQID: https://experienceleague.adobe.com/FKO2q2Cn5rO8aKh0d88eaFi7p1Xa608fOmEZiCRazBc
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a4671286-a59f-47e3-b97b-90627a1977d5id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: b4ecd69f-2adf-4219-bc47-c9cd9a53c118id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 12%
+source-wordcount: 647
+ht-degree: 15%
 
 ---
 
@@ -85,9 +91,9 @@ Campaign standard也可讓您監視安全性相關資訊。 您可以透過&#x20
 
 <img src="assets/do-not-localize/icon_settings.svg" width="60px">
 
-Campaign Standard隨附不同的應用程式元素，可加以設定以符合您的需求。
+Campaign Standard隨附不同的應用程式元素，可依您的需求加以設定。
 
-設定&#x200B;**外部帳戶**，這些帳戶用於將Adobe Campaign連線至外部伺服器。 存取Campaign Standard目標對應，並使用&#x200B;**技術工作流程**&#x200B;監視您的平台。
+設定&#x200B;**外部帳戶**，這些帳戶用於將Adobe Campaign連線至外部伺服器。 存取Campaign Standard目標對應，並使用&#x200B;**技術工作流程**&#x200B;監控您的平台。
 
 為您的組織定義一或多個&#x200B;**品牌**，並設定在應用程式中傳送&#x200B;**即時通知**，以備發生重要的系統活動時使用。
 

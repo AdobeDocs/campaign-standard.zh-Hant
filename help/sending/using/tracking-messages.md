@@ -8,9 +8,14 @@ feature: Performance Monitoring
 role: User
 level: Intermediate
 exl-id: fac29bc2-57fa-40f9-a160-cd75f695b91e
-source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
+TQID: https://experienceleague.adobe.com/0kuFE3F4zrJzydRFdByb6Jz1lNUA1wrpL70bXWwxYIA
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: 485
 ht-degree: 23%
 
 ---
@@ -21,14 +26,14 @@ ht-degree: 23%
 
 藉由Adobe Campaign的追蹤功能，您可以追蹤傳遞收件者的行為。 Adobe Campaign 透過工作階段 Cookie 和永久性 Cookie 實現上述功能。
 
-您可以透過授權請求（有時出現在網站頁面中）告知使用者，網站已配備網路追蹤工具並要求使用者點按核取方塊授權使用Cookie，或在使用者登陸的首頁頂端新增橫幅等。 快顯視窗通常會被瀏覽器封鎖，因此應避免使用。
+您可以透過授權請求（有時出現在網站頁面中）告知使用者，網站已配備網路追蹤工具並要求使用者點按核取方塊授權使用Cookie，或在使用者登陸的首頁頂端新增橫幅等。快顯視窗通常會被瀏覽器封鎖，因此應避免使用。
 
 **[!UICONTROL integrated customer profiles]**&#x200B;中每個資料庫連絡人都有追蹤資訊。 如需詳細資訊，請參閱[本章節](../../audiences/using/integrated-customer-profile.md)。
 
 Adobe Campaign 使用兩種類型的 Cookie：
 
-* 工作階段Cookie (nlid)。 這包含傳送到聯絡人之電子郵件的識別碼(broadlogId)，以及訊息範本的識別碼(deliveryId)。 連絡人按一下由 Adobe Campaign 傳送的電子郵件中包含的 URL 後即可添加識別碼，並且允許您追蹤他們在網路上的行為。瀏覽器關閉時，將自動清除工作階段 Cookie。連絡人可以將其瀏覽器設定為拒絕 Cookie。
-* 在Adobe Experience Cloud解決方案之間共用的Cookie。 這可讓您識別在Experience Cloud解決方案造訪網站時與之互動的使用者。 此Cookie的說明可在[這裡](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html?lang=zh-Hant)取得。
+* 工作階段Cookie (nlid)。 這包含傳送到聯絡人之電子郵件的識別碼(broadlogId)，以及訊息範本的識別碼(deliveryId)。 連絡人按一下由 Adobe Campaign 傳送的電子郵件中包含的 URL 後即可添加識別碼，並且允許您追蹤他們在網路上的行為。 瀏覽器關閉時，將自動清除工作階段 Cookie。 連絡人可以將其瀏覽器設定為拒絕 Cookie。
+* 在Adobe Experience Cloud解決方案之間共用的Cookie。 這可讓您識別在Experience Cloud解決方案造訪網站時與之互動的使用者。 此Cookie的說明可在[這裡](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html)取得。
 
 使用Adobe Campaign Standard進行追蹤可讓您存取下列功能：
 
@@ -65,7 +70,7 @@ Adobe Campaign 使用兩種類型的 Cookie：
 
 >[!NOTE]
 >
->如果沒有為傳送啟用追蹤，此索引標籤就不會顯示。 追蹤記錄僅適用於&#x200B;**電子郵件**&#x200B;及&#x200B;**推播通知**&#x200B;頻道。
+>如果未啟用傳遞追蹤，則不會顯示此索引標籤。 追蹤記錄僅適用於&#x200B;**電子郵件**&#x200B;及&#x200B;**推播通知**&#x200B;頻道。
 
 ![](assets/tracking_logs.png)
 

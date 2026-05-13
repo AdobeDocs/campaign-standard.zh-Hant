@@ -8,9 +8,15 @@ feature: Email Design
 role: User
 level: Beginner
 exl-id: 47f53290-2190-4181-bcd5-e60287189c41
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/0eUMMX7vLCR8uHV45WX3u-XfExReU0HLhunWZ1ho-X0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b631758a-142d-425f-b9aa-f756d85cb979
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: 942
 ht-degree: 5%
 
 ---
@@ -25,15 +31,15 @@ ht-degree: 5%
 
 1. 您可以&#x200B;**從現成可用的範本**&#x200B;建立電子郵件，方法是選取範本並從此處建立新的電子郵件內容。 [了解更多](#building-content-from-an-out-of-the-box-template)
 
-您也可以建立包含現有內容的電子郵件[&#128279;](#with-existing-content)：
+您也可以建立包含現有內容的電子郵件[](#with-existing-content)：
 
 1. 您可以&#x200B;**轉換現有的HTML內容** （在外部或在舊版編輯器中建立）。 [了解更多](#converting-an-html-content)
 1. 您可以在相容模式中立即&#x200B;**匯入現有的HTML內容**。 [了解更多](#compatibility-mode)
 
 | 沒有內容 | 包含內容 |
 |---|---|
-| [從草稿開始建立電子郵件](#from-scratch-email) | [正在轉換現有的HTML內容](#converting-an-html-content) |
-| [從現成可用的範本建立內容](#building-content-from-an-out-of-the-box-template) | [正在匯入現有的HTML](#compatibility-mode) |
+| [從草稿開始建立電子郵件](#from-scratch-email) | [轉換現有的HTML內容](#converting-an-html-content) |
+| [從現成可用的範本建立內容](#building-content-from-an-out-of-the-box-template) | [匯入現有的HTML](#compatibility-mode) |
 
 ## 使用編輯器設計電子郵件 {#without-existing-content}
 
@@ -142,15 +148,15 @@ ht-degree: 5%
 
 >[!CAUTION]
 >
->本節適用於熟悉HTML程式碼的使用者。
+>本節內容適用於熟悉HTML程式碼的使用者。
 
 >[!NOTE]
 >
->如同相容性模式，HTML元件可使用有限的選項進行編輯：您只能執行就地編輯。
+>和相容性模式一樣，HTML元件也可以使用有限的選項進行編輯：您只能執行就地版本。
 
 
 ### 匯入和編輯HTML電子郵件 {#compatibility-mode}
 
-上傳內容時，內容必須包含特定標籤，才能與電子郵件Designer的WYSIWYG編輯器完全相容且可編輯。
+上傳內容時，內容必須包含特定標籤，才能與電子郵件Designer的WYSIWYG編輯器完全相容及可編輯。
 
 如需將現有電子郵件轉換為與Designer相容之電子郵件的詳細資訊，請參閱[本節](../../designing/using/using-existing-content.md#compatibility-mode)。

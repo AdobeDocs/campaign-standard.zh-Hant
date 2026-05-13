@@ -6,9 +6,14 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 3cd8d756-a271-4e53-8ed0-984ce20298bc
-source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
+TQID: https://experienceleague.adobe.com/sIwJVutJ9iO9GIKSPquL5LOKVqkj34x3LTaI072C8V4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: 1006
 ht-degree: 0%
 
 ---
@@ -20,7 +25,7 @@ ht-degree: 0%
 Adobe Campaign Standard支援下列使用案例：
 
 * [在Campaign Standard中註冊行動設定檔](../../administration/using/supported-mobile-use-cases.md#register-mobile-profile)
-* [傳送推播權杖給Campaign Standard](../../administration/using/supported-mobile-use-cases.md#send-push-token)
+* [傳送推播權杖至Campaign Standard](../../administration/using/supported-mobile-use-cases.md#send-push-token)
 * [使用您應用程式的自訂資料擴充行動設定檔](../../administration/using/supported-mobile-use-cases.md#enrich-mobile-profile-custom)
 * [使用您應用程式的生命週期資料豐富行動設定檔](../../administration/using/supported-mobile-use-cases.md#enrich-mobile-profile-lifecycle)
 * [追蹤使用者與推播通知的互動](../../administration/using/supported-mobile-use-cases.md#track-user-push)
@@ -259,7 +264,7 @@ public void onResume() {
 
 在iOS中，需要下列[!DNL Experience Platform SDK]：
 
-* **[!UICONTROL trackAction]**。 如需詳細資訊，請參閱[追蹤應用程式動作](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction)。
+* **[!UICONTROL trackAction]**. 如需詳細資訊，請參閱[追蹤應用程式動作](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction)。
 
 以下是此使用案例與iOS搭配實施的範例：
 
@@ -293,7 +298,7 @@ MobileCore.trackAction("tracking", contextData);
 
 在iOS中，需要下列[!DNL Experience Platform SDK]：
 
-* **[!UICONTROL trackAction]**。 如需詳細資訊，請參閱[追蹤應用程式動作](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction)。
+* **[!UICONTROL trackAction]**. 如需詳細資訊，請參閱[追蹤應用程式動作](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction)。
 
 以下是此使用案例與iOS搭配實施的範例：
 
@@ -341,7 +346,7 @@ ACPCampaign.resetLinkageFields(linkageFields)
 
 ### 使用Android {#linkage-fields-inapp-android}
 
-若要針對以Android應用程式內訊息為基礎之設定檔範本設定連結欄位以進行其他驗證，則需要下列Experience PlatformSDK：
+若要針對以Android中的應用程式內訊息為基礎的設定檔範本，設定連結欄位以進行其他驗證，則需要下列Experience Platform SDK：
 
 * 設定連結欄位<br>如需詳細資訊，請參閱[設定連結欄位](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/#setlinkagefields)。
 * 重設連結欄位<br>如需詳細資訊，請參閱[重設連結欄位](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/#resetlinkagefields)。

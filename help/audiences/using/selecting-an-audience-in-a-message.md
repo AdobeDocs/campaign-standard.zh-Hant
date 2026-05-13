@@ -1,6 +1,6 @@
 ---
 title: 在訊息中選取客群
-description: "選取電子郵件客群的逐步程序：主要目標群體及測試輪廓。"
+description: 選擇電子郵件對象的逐步程式：主要目標母體及測試設定檔。
 audience: audiences
 content-type: reference
 topic-tags: managing-audiences
@@ -9,10 +9,14 @@ feature: Audiences
 role: User
 level: Intermediate
 exl-id: 239959ad-6386-42bf-a86a-5694cdaecd83
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/Ev0HCh32pGzPlVPe8SrCwBOFdEh-iXSGI6XYt9WMmLc
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 70%
+source-wordcount: 414
+ht-degree: 66%
 
 ---
 
@@ -24,24 +28,24 @@ Adobe Campaign　可讓您在訊息的客群中設定數個輪廓類型。
 
 >[!NOTE]
 >
->如果客群是在工作流程中建立並且富含其他資料，您將無法使用這些資料來個人化獨立傳送。它們只能從在工作流程中執行的傳送中使用。
+>如果客群是在工作流程中建立並且富含其他資料，您將無法使用這些資料來個人化獨立傳送。 它們只能從在工作流程中執行的傳送中使用。
 
 1. 從控制面板，移至客群區塊以開始。
 
    ![](assets/delivery_audience_definition_1.png)
 
-   定義客群的畫面隨即開啟。它有兩個標籤，可讓您分別定義將收到訊息的每個客群類型：
+   定義客群的畫面隨即開啟。 它有兩個標籤，可讓您分別定義將收到訊息的每個客群類型：
 
    * 目標
-   * 測試設定檔
+   * 測試輪廓
 
    ![](assets/delivery_audience_definition_2.png)
 
-1. 定義電子郵件的主要　**[!UICONTROL Target]**　功能。這是電子郵件的一般目標客群。
+1. 定義電子郵件的主要　**[!UICONTROL Target]**　功能。 這是電子郵件的一般目標客群。
 
    目標已在&#x200B;**[!UICONTROL Target]**&#x200B;索引標籤中定義，且由資料庫中識別的設定檔組成。 您可以使用[查詢編輯器](../../automating/using/editing-queries.md#creating-queries)功能來建立主要目標。
 
-   在此標籤中，**[!UICONTROL Shortcuts]**　浮動視窗僅包含預先定義的篩選條件，以及在已識別輪廓中定義的客群。**[!UICONTROL Explorer]** 選項可讓您存取其他設定。
+   在此標籤中，**[!UICONTROL Shortcuts]**　浮動視窗僅包含預先定義的篩選條件，以及在已識別輪廓中定義的客群。 **[!UICONTROL Explorer]** 選項可讓您存取其他設定。
 
    因此，您可以重複使用和結合現有的客群，對其套用其他篩選等。
 
@@ -49,13 +53,13 @@ Adobe Campaign　可讓您在訊息的客群中設定數個輪廓類型。
    >
    >鎖定目標對象時，請注意，系統並未參考該對象的定義，但&#x200B;**已將**&#x200B;複製到查詢中。 如果在查詢中鎖定對象後，您對對象進行了任何變更，請確保再次設定查詢以考慮新定義。
 
-1. 定義您要用於電子郵件的　**[!UICONTROL Test profiles]**。測試設定檔會收到您之前可以傳送的校樣，以便先測試電子郵件，然後再將之傳送給主要目標。
+1. 定義您要用於電子郵件的　**[!UICONTROL Test profiles]**。 測試輪廓會收到您之前可以傳送的校樣，以便先測試電子郵件，然後再將之傳送給主要目標。
 
-   如需設定測試設定檔的詳細資訊，請參閱[測試設定檔](../../audiences/using/managing-test-profiles.md)區段。
+   如需設定測試輪廓的詳細資訊，請參閱[測試輪廓](../../audiences/using/managing-test-profiles.md)區段。
 
 1. 如有需要，您可以使用對應的標籤來定義控制組。 這可讓您從目標中撤銷一些設定檔，以便這些設定檔不會收到訊息。 如需詳細資訊，請參閱[新增控制組](../../sending/using/control-group.md)。
 
-1. 您也可以使用替代地址來取得設定檔將收到的訊息的精確表示。  如需詳細資訊，請參閱[使用目標設定檔測試電子郵件訊息](../../sending/using/testing-messages-using-target.md)。
+1. 您也可以使用替代地址來取得設定檔將收到的訊息的精確表示。  如需詳細資訊，請參閱[使用目標輪廓測試電子郵件訊息](../../sending/using/testing-messages-using-target.md)。
 
 接著會更新客群區塊，並顯示已針對有問題的電子郵件選取目標和測試輪廓。
 

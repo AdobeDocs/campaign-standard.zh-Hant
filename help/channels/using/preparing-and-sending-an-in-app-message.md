@@ -8,10 +8,15 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
+TQID: https://experienceleague.adobe.com/608lVGbr-umlPJM4t-eV2qhW6Vpypx3deu9oKf-b0iU
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c18d9e03-ac7d-4811-9c92-3e92ddc70adeid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1224'
-ht-degree: 80%
+source-wordcount: 1289
+ht-degree: 79%
 
 ---
 
@@ -19,14 +24,14 @@ ht-degree: 80%
 
 Adobe Campaign 中提供了三種類型的應用程式內訊息：
 
-* **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]**：此訊息類型可讓您定位已訂閱您行動應用程式的 Adobe Campaign 設定檔（CRM 設定檔）。此訊息類型可與 Adobe Campaign 中所有可用的描述檔屬性個人化，但需要 Mobile SDK 與 Campaign 應用程式內訊息服務之間的安全握手，以確保只有授權使用者才會使用包含個人和敏感資訊的訊息。
+* **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]**：此訊息類型可讓您鎖定已訂閱您行動應用程式的 Adobe Campaign 輪廓 (CRM 輪廓)。 此訊息類型可與 Adobe Campaign 中所有可用的輪廓屬性個人化，但需要 Mobile SDK 與 Campaign 應用程式內訊息服務之間的安全握手，以確保只有授權使用者才會使用包含個人和敏感資訊的訊息。
 
-  若要在使用者的裝置上下載此訊息類型，Mobile SDK 必須傳送連結欄位，用以將行動設定檔連結至 Adobe Campaign 中的 CRM 設定檔。如需支援應用程式內部所需 SDK API 的詳細資訊，請參閱本 [頁面](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/)。
+  若要在使用者的裝置上下載此訊息類型，Mobile SDK 必須傳送連結欄位，用以將行動輪廓連結至 Adobe Campaign 中的 CRM 輪廓。 如需支援應用程式內部所需 SDK API 的詳細資訊，請參閱本 [頁面](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/)。
 
-* **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**：此訊息類型可讓您傳送訊息給行動應用程式的所有使用者（目前或未來），即使他們在 Adobe Campaign 中沒有現有的設定檔亦然。因此，當自訂訊息時，無法個人化，因為 Adobe Campaign 中可能甚至不存在使用者設定檔。
-* **[!UICONTROL Target users based on their Mobile profile (inApp)]**：此訊息類型可讓您鎖定在 Adobe Campaign 中具有行動設定檔的行動應用程式的所有已知或匿名使用者。此訊息類型僅能使用非個人和非敏感屬性進行個人化，而且不需要 Mobile SDK 與 Adobe Campaign 的應用程式內訊息服務之間的安全交握。
+* **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**：此訊息類型可讓您傳送訊息給行動應用程式的所有使用者（目前或未來），即使他們在 Adobe Campaign 中沒有現有的輪廓亦然。 因此，當自訂訊息時，無法個人化，因為 Adobe Campaign 中可能甚至不存在使用者輪廓。
+* **[!UICONTROL Target users based on their Mobile profile (inApp)]**：此訊息類型可讓您鎖定在 Adobe Campaign 中具有行動輪廓的行動應用程式的所有已知或匿名使用者。 此訊息類型僅能使用非個人和非敏感屬性進行個人化，而且不需要 Mobile SDK 與 Adobe Campaign 的應用程式內訊息服務之間的安全交握。
 
-  有關如何處理個人和敏感資料的詳細資訊，請參閱使用[個人和敏感資料處理行動設定檔欄位](../../channels/using/about-in-app-messaging.md#handling-mobile-profile-fields-with-personal-and-sensitive-data)。
+  有關如何處理個人和敏感資料的詳細資訊，請參閱使用[個人和敏感資料處理行動輪廓欄位](../../channels/using/about-in-app-messaging.md#handling-mobile-profile-fields-with-personal-and-sensitive-data)。
 
 ![](assets/diagram_inapp.png)
 
@@ -34,7 +39,7 @@ Adobe Campaign 中提供了三種類型的應用程式內訊息：
 
 >[!CAUTION]
 >
->應用程式內個人化需仰賴連結欄位，連結欄位通常是 CRM ID 和/或行動應用程式登入 ID。當您與 Adobe Campaign 搭配使用時，應自行負責保護此連結欄位。如果您無法確保連結欄位的安全，您的個人化訊息可能會很脆弱。如果您未遵守安全的連結欄位構成、管理和保護實務，Adobe 將不負責因未經授權存取或使用任何描述檔資料而造成的損害。
+>應用程式內個人化需仰賴連結欄位，連結欄位通常是 CRM ID 和/或行動應用程式登入 ID。 當您與 Adobe Campaign 搭配使用時，應自行負責保護此連結欄位。 如果您無法確保連結欄位的安全，您的個人化訊息可能會很脆弱。 如果您未遵守安全的連結欄位構成、管理和保護實務，Adobe 將不負責因未經授權存取或使用任何輪廓資料而造成的損害。
 
 使用 Adobe Campaign 建立獨立應用程式內訊息的步驟如下：
 
@@ -64,13 +69,13 @@ Adobe Campaign 中提供了三種類型的應用程式內訊息：
 
    ![](assets/inapp_creating_3.png)
 
-1. 選取您要針對應用程式內訊息鎖定的客群。您的客群會根據與此傳送相關聯的行動應用程式預先篩選。
+1. 選取您要針對應用程式內訊息鎖定的客群。 您的客群會根據與此傳送相關聯的行動應用程式預先篩選。
 
    請注意，此步驟不是行動應用程 **[!UICONTROL Broadcast an In-App message (inAppBroadcast)]** 式的必要步驟，因為其目標是行動應用程式的所有使用者。
 
    ![](assets/inapp_creating_8.png)
 
-1. 在 **[!UICONTROL Triggers]** 索引標籤中，拖放將觸發訊息的事件。選取觸發器後，您就會選取使用者執行的動作，以顯示應用程式內訊息。
+1. 在 **[!UICONTROL Triggers]** 索引標籤中，拖放將觸發訊息的事件。 選取觸發器後，您就會選取使用者執行的動作，以顯示應用程式內訊息。
 
    有四類事件可供使用：
 
@@ -80,7 +85,7 @@ Adobe Campaign 中提供了三種類型的應用程式內訊息：
 
    * **[!UICONTROL Life Cycle events]**：Adobe Mobile SDK 支援的現成可用生命週期事件。
 
-     有關生命週期事件的詳細資訊，請參閱本[頁面](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html?lang=zh-Hant)。
+     有關生命週期事件的詳細資訊，請參閱本[頁面](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html)。
 
    * **[!UICONTROL Analytics Events]**：根據您的行動應用程式中所創作的內容，支援下列三個類別： Adobe Analytics、內容資料或檢視狀態。
 
@@ -88,7 +93,7 @@ Adobe Campaign 中提供了三種類型的應用程式內訊息：
 
    * **[!UICONTROL Places]**：以下三個類別運用即時位置資料來提供情境相關的行動體驗：放置內容資料、放置自訂中繼資料或放置事件類型。
 
-     如需 Adobe Places 的詳細資訊，請參閱 [Places 檔案](https://experienceleague.adobe.com/docs/places/using/home.html?lang=zh-Hant)。
+     如需 Adobe Places 的詳細資訊，請參閱 [Places 檔案](https://experienceleague.adobe.com/docs/places/using/home.html)。
 
    ![](assets/inapp_creating_4.png)
 
@@ -106,7 +111,7 @@ Adobe Campaign 中提供了三種類型的應用程式內訊息：
 
    ![](assets/inapp_creating_5.png)
 
-1. 編輯訊息的內容並定義進階選項。請參閱[自訂應用程式內訊息](../../channels/using/customizing-an-in-app-message.md)。
+1. 編輯訊息的內容並定義進階選項。 請參閱[自訂應用程式內訊息](../../channels/using/customizing-an-in-app-message.md)。
 
    ![](assets/inapp_creating_6.png)
 
@@ -128,8 +133,8 @@ Adobe Campaign 中提供了三種類型的應用程式內訊息：
 
    ![](assets/inapp_sending_2.png)
 
-1. 按一下 **[!UICONTROL Select a test profile]** 按鈕並選取其中一個測試設定檔，以開始預覽您的傳送。如需測試設定檔的詳細資訊，請參閱[本區段](../../audiences/using/managing-test-profiles.md)。
-1. 在不同的裝置（例如，Android、iPhone 手機或平板電腦）上檢查您的訊息。您也可以檢查個人化欄位是否會擷取正確的資料。
+1. 按一下 **[!UICONTROL Select a test profile]** 按鈕並選取其中一個測試輪廓，以開始預覽您的傳送。 如需測試輪廓的詳細資訊，請參閱[本區段](../../audiences/using/managing-test-profiles.md)。
+1. 在不同的裝置（例如，Android、iPhone 手機或平板電腦）上檢查您的訊息。 您也可以檢查個人化欄位是否會擷取正確的資料。
 
    ![](assets/inapp_sending_3.png)
 
@@ -153,13 +158,13 @@ Adobe Campaign 中提供了三種類型的應用程式內訊息：
 
    ![](assets/inapp_sending_6.png)
 
-1. 透過訊息儀表板和記錄檔檢查您的傳送狀態。如需詳細資訊，請參閱本[區段](../../sending/using/monitoring-a-delivery.md)。
+1. 透過訊息儀表板和記錄檔檢查您的傳送狀態。 如需詳細資訊，請參閱本[區段](../../sending/using/monitoring-a-delivery.md)。
 
-   **[!UICONTROL Delivered]** 及 **[!UICONTROL Sent]** KPI 計數則以成功從行銷活動傳送至訊息傳送服務的項目為基礎。請注意，這些 KPI 並不表示從訊息傳送服務成功接收或下載訊息的行動裝置計數。
+   **[!UICONTROL Delivered]** 及 **[!UICONTROL Sent]** KPI 計數則以成功從行銷活動傳送至訊息傳送服務的項目為基礎。 請注意，這些 KPI 並不表示從訊息傳送服務成功接收或下載訊息的行動裝置計數。
 
    ![](assets/inapp_sending_7.png)
 
-1. 使用傳遞報告測量應用程式內訊息的影響。如需報告的詳細資訊，請參閱[本區段](../../reporting/using/in-app-report.md)。
+1. 使用傳遞報告測量應用程式內訊息的影響。 如需報告的詳細資訊，請參閱[本區段](../../reporting/using/in-app-report.md)。
 
 1. 傳送應用程式內訊息後，您可以選擇停用您的傳遞。 例如，如果您想要停止特定傳送，或想要使用相同觸發程式執行新傳送，則此功能會很有用。
 

@@ -10,16 +10,20 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 06ae4a5c-f112-4aac-b776-437ac35a8f02
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/5W-TDffLY-3PfPrNq6AsoiCripfouAusuV8-sO9EYcM
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: 238
 ht-degree: 53%
 
 ---
 
 # 匯入檔案後將設定檔訂閱至特定服務 {#subscribing-profiles-to-a-specific-service-after-importing-a-file}
 
-此範例說明如何匯入包含輪廓的檔案並將其訂閱至現有服務中。匯入檔案後，必須進行調和，以便將匯入的資料識別為輪廓。為確保檔案不包含任何重複項目，將對資料執行重複資料刪除活動。
+此範例說明如何匯入包含輪廓的檔案並將其訂閱至現有服務中。 匯入檔案後，必須進行調和，以便將匯入的資料識別為輪廓。 為確保檔案不包含任何重複項目，將對資料執行重複資料刪除活動。
 
 工作流程如下：
 
@@ -44,11 +48,11 @@ ht-degree: 53%
 
   ![](assets/subscription_activity_example2.png)
 
-* [調解](../../automating/using/reconciliation.md)活動會將檔案中的資料識別為屬於Adobe Campaign資料庫的設定檔維度。 僅設定 **[!UICONTROL Identification]** 索引標籤。它會根據輪廓的電子郵件地址識別檔案資料。
+* [調解](../../automating/using/reconciliation.md)活動會將檔案中的資料識別為屬於Adobe Campaign資料庫的設定檔維度。 僅設定 **[!UICONTROL Identification]** 索引標籤。 它會根據輪廓的電子郵件地址識別檔案資料。
 
   ![](assets/subscription_activity_example3.png)
 
-* 以臨時資源的[電子郵件](../../automating/using/deduplication.md)欄位為基礎的&#x200B;**重複資料刪除** （調解後產生的結果）可識別任何重複專案。 如果從檔案匯入的資料包含任何重複項目，所有資料服務的訂閱將會失敗。
+* 以臨時資源的&#x200B;**電子郵件**&#x200B;欄位為基礎的[重複資料刪除](../../automating/using/deduplication.md) （調解後產生的結果）可識別任何重複專案。 如果從檔案匯入的資料包含任何重複項目，所有資料服務的訂閱將會失敗。
 
   ![](assets/subscription_activity_example5.png)
 

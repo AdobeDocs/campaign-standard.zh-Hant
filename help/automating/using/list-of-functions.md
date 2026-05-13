@@ -9,10 +9,13 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/lpfCIMUH03d9zMB-R1Uq9ZwxnD1G-LG8b-iN3TQc7o8
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '2011'
-ht-degree: 95%
+source-wordcount: 2020
+ht-degree: 92%
 
 ---
 
@@ -20,9 +23,9 @@ ht-degree: 95%
 
 ## 關於函式 {#about-functions}
 
-查詢編輯工具可讓您使用進階功能執行複雜的過濾。為此，工具浮動視窗包含您可在工作區中使用的　**[!UICONTROL Expression]**　元素。有關此要素的詳細資訊，請參閱[特定區段](../../automating/using/advanced-expression-editing.md)。
+查詢編輯工具可讓您使用進階功能執行複雜的過濾。 為此，工具浮動視窗包含您可在工作區中使用的　**[!UICONTROL Expression]**　元素。 有關此要素的詳細資訊，請參閱[特定區段](../../automating/using/advanced-expression-editing.md)。
 
-此元素可讓您手動輸入條件。在這裡，您可以使用以下幾節中定義的函式。
+此元素可讓您手動輸入條件。 在這裡，您可以使用以下幾節中定義的函式。
 
 根據所需結果和操作資料的類型，可使用幾種功能類型：
 
@@ -221,7 +224,7 @@ ht-degree: 95%
   </tr> 
   <tr> 
    <td> <strong>ToDateTimeWithTimezone</strong><br /> </td> 
-   <td> 將字串轉換為日期+時區。<br />範例： ToDateTimeWithTimezone ("2019-02-19 08:09:00"， "Asia/Tehran")<br /> </td> 
+   <td> 將字串轉換為日期+時區。<br /> 範例： ToDateTimeWithTimezone ("2019-02-19 08:09:00"， "Asia/Tehran")<br /> </td> 
    <td> ToDateTimeWithTimezone(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
@@ -398,7 +401,7 @@ ht-degree: 95%
   </tr> 
   <tr> 
    <td> <strong>案例</strong><br /> </td> 
-   <td> 如果條件已驗證，則傳回值　1。否則，傳回值　2<br /> </td> 
+   <td> 如果條件已驗證，則傳回值　1。 否則，傳回值　2<br /> </td> 
    <td> Case(When(&lt;condition&gt;, &lt;value 1&gt;), Else(&lt;value 2&gt;))<br /> </td> 
   </tr> 
   <tr> 
@@ -468,7 +471,7 @@ ht-degree: 95%
   </tr> 
   <tr> 
    <td> <strong>When</strong><br /> </td> 
-   <td> 如果運算式已驗證，則傳回值　1。否則，傳回值　2（只能用作　case　函式的參數）<br /> </td> 
+   <td> 如果運算式已驗證，則傳回值　1。 否則，傳回值　2（只能用作　case　函式的參數）<br /> </td> 
    <td> When(&lt;condition&gt;, &lt;value 1&gt;)<br /> </td> 
   </tr> 
   <tr> 
@@ -657,7 +660,7 @@ ht-degree: 95%
   </tr> 
   <tr> 
    <td> <strong>encryption_aescbcEncrypt</strong><br /> </td> 
-   <td> 使用　AES　演算法（CBC　區塊模式）加密字元字串（第　1　參數），其中包含鍵（第　2　參數）和初始化向量（第　3　參數）。密鑰和初始化向量必須以十六進位表示(以 <strong>\x</strong>　開始)。結果將以十六進位表示，而不是 <strong>\x</strong>。<br /> 請注意，密鑰大小可以是　128　位、192　位、256　位（16、24、32　個十六進位字元），但建議您使用　256　位和與密鑰長度相同的隨機　IV。<br /> </td> 
+   <td> 使用　AES　演算法（CBC　區塊模式）加密字元字串（第　1　參數），其中包含鍵（第　2　參數）和初始化向量（第　3　參數）。 密鑰和初始化向量必須以十六進位表示(以 <strong>\x</strong>　開始)。 結果將以十六進位表示，但不含<strong>\x</strong>.<br /> 請注意，金鑰大小可以是128位、192位、256位（16、24、32個十六進位字元），但建議您使用256位和與金鑰長度相同的隨機IV。<br /> </td> 
    <td> encryption_aescbcEncrypt(&lt;String&gt;， &lt;String&gt;， &lt;String&gt;)<br />例如： encryption_aescbcEncrypt(johndoe@example.com， "<strong>\\x0123456789ABCDEF0123456789ABCDEF</strong>"， "<strong>\\x0123456789ABCDEFFEDCBA9876543210</strong>")<br /> </td> 
   </tr> 
  </tbody> 
@@ -747,7 +750,7 @@ ht-degree: 95%
   </tr> 
   <tr> 
    <td> <strong>RowNum</strong><br /> </td> 
-   <td> 根據表格分區和排序順序產生行號。MySQL 不支援此函式<br /> </td> 
+   <td> 根據表格分區和排序順序產生行號。 MySQL 不支援此函式<br /> </td> 
    <td> RowNum(PartitionBy(&lt;value 1&gt;), OrderBy(&lt;value 1&gt;))<br /> </td> 
   </tr> 
  </tbody> 

@@ -1,6 +1,6 @@
 ---
-title: 整合式客戶設定檔
-description: "透過單一檢視追蹤每個客戶互動：Adobe Campaign 整合式客戶設定檔會在整個客戶生命週期中更新。"
+title: 整合式客戶輪廓
+description: 透過單一檢視追蹤每個客戶互動：Adobe Campaign整合式客戶設定檔會在整個客戶生命週期中更新。
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
@@ -9,18 +9,24 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: cf3c6408-7fa0-423a-b34b-f4fee771fb47
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+TQID: https://experienceleague.adobe.com/a-v47cX0DxN6dzLQs-r4e2yMajLD6GHIVXXEX9Ol-lY
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 48%
+source-wordcount: 282
+ht-degree: 41%
 
 ---
 
-# 整合式客戶設定檔{#integrated-customer-profile}
+# 整合式客戶輪廓{#integrated-customer-profile}
 
-資料庫的每個聯絡人都可以使用整合式客戶設定檔。此行銷記錄將所有與客戶聯絡相關的行銷資訊結合為單一檢視。之後，您可以在一個集中位置存取所有數位行為、線上和離線交易：聯絡資訊、收到的電子郵件、追蹤記錄、訂閱和取消訂閱等。
+資料庫的每個聯絡人都可以使用整合式客戶輪廓。 此行銷記錄將所有與客戶聯絡相關的行銷資訊結合為單一檢視。 之後，您可以在一個集中位置存取所有數位行為、線上和離線交易：聯絡資訊、收到的電子郵件、追蹤記錄、訂閱和取消訂閱等。
 
-若要存取整合式客戶設定檔，請執行以下步驟：
+若要存取整合式客戶輪廓，請執行以下步驟：
 
 1. 從Adobe Campaign首頁，按一下「**[!UICONTROL Customer profiles]**」卡片或「**設定檔**」標籤，以顯示設定檔清單。
 
@@ -43,7 +49,7 @@ ht-degree: 48%
 
 之後，您可以存取此連絡人的&#x200B;**行銷記錄**。
 
-此頁面會收集關於設定檔的重要資訊及事件清單。
+此頁面會收集關於輪廓的重要資訊及事件清單。
 
 按一下清單中的事件以開啟它：您可以存取已傳送的訊息或設定檔已訂閱的服務。
 
@@ -51,4 +57,4 @@ ht-degree: 48%
 
 >[!NOTE]
 >
->您也可以使用 Adobe Campaign Standard API 存取行銷記錄。如需詳細資訊，請參閱[專屬文件](../../api/using/interacting-with-marketing-history.md)。
+>您也可以使用 Adobe Campaign Standard API 存取行銷記錄。 如需詳細資訊，請參閱[專屬文件](../../api/using/interacting-with-marketing-history.md)。

@@ -10,9 +10,14 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 18d6ffc0-cfc3-436e-8f0c-ea9c307541e4
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/pU8TR9TKVwM7-YcCHkxrSZ07UkBxE652McpBXxIp-Ik
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: 614
 ht-degree: 94%
 
 ---
@@ -23,11 +28,11 @@ ht-degree: 94%
 
 ![](assets/incremental.png)
 
-**[!UICONTROL Incremental query]** 活動可讓您從 Adobe Campaign 資料庫中篩選及擷取元素總量。每次執行此活動時，都會排除先前執行的結果。這可讓您只鎖定新元素。
+**[!UICONTROL Incremental query]** 活動可讓您從 Adobe Campaign 資料庫中篩選及擷取元素總量。 每次執行此活動時，都會排除先前執行的結果。 這可讓您只鎖定新元素。
 
-您可以透過專用索引標籤來定義目標群體的　**[!UICONTROL Additional data]**。此資料會儲存在其他欄中，且僅能用於進行中的工作流程。
+您可以透過專用索引標籤來定義目標群體的　**[!UICONTROL Additional data]**。 此資料會儲存在其他欄中，且僅能用於進行中的工作流程。
 
-活動使用查詢編輯器工具。[專屬區段](../../automating/using/editing-queries.md#about-query-editor)中會詳細說明此工具。
+活動使用查詢編輯器工具。 [專屬區段](../../automating/using/editing-queries.md#about-query-editor)中會詳細說明此工具。
 
 ## 使用內容 {#context-of-use}
 
@@ -41,7 +46,7 @@ ht-degree: 94%
 
 * 匯出資料。
 
-  您可以使用 **[!UICONTROL Incremental query]** 活動定期匯出檔案中的新記錄檔。例如，如果您想在外部報告或BI工具中使用記錄檔資料，則此功能會很有用。 [匯出記錄檔](../../automating/using/exporting-logs.md)區段提供完整的範例。
+  您可以使用 **[!UICONTROL Incremental query]** 活動定期匯出檔案中的新記錄檔。 例如，如果您想在外部報告或BI工具中使用記錄檔資料，則此功能會很有用。 [匯出記錄檔](../../automating/using/exporting-logs.md)區段提供完整的範例。
 
 **相關主題**
 
@@ -59,19 +64,19 @@ ht-degree: 94%
 1. 在 **[!UICONTROL Processed data]** 索引標籤中，選取要用於工作流下一個執行的增量模式：
 
    * **[!UICONTROL Use the exclusion of the results of previous executions]**：會排除每個新執行的先前執行結果。
-   * **[!UICONTROL Use a date field]**：下次執行只考慮所選日期欄位大於或等於 **[!UICONTROL Incremental query]** 活動最後執行日期的結果。您可以選取與在 **[!UICONTROL Properties]** 索引標籤中選取的資源相關的任何日期欄位。此模式在查詢大型資源（如記錄檔資料）時具有更理想的效能。
+   * **[!UICONTROL Use a date field]**：下次執行只考慮所選日期欄位大於或等於 **[!UICONTROL Incremental query]** 活動最後執行日期的結果。 您可以選取與在 **[!UICONTROL Properties]** 索引標籤中選取的資源相關的任何日期欄位。 此模式在查詢大型資源（如記錄檔資料）時具有更理想的效能。
 
-     在第一次執行工作流程後，您可以在此索引標籤中看到下次執行時使用的最後一個執行日期。每次執行工作流程時，都會自動更新它。您仍然可以手動輸入新值來覆寫此值，以符合您的需求。
+     在第一次執行工作流程後，您可以在此索引標籤中看到下次執行時使用的最後一個執行日期。 每次執行工作流程時，都會自動更新它。 您仍然可以手動輸入新值來覆寫此值，以符合您的需求。
 
    >[!NOTE]
    >
-   >**[!UICONTROL Use a date field]** 模式會根據選取的日期欄位，提供更大的彈性。例如，如果選定欄位與修改日期相對應，則日期欄位模式將可讓您檢索最近更新的資料，而另一個模式將僅排除在先前執行中已定位的記錄，即使這些記錄自上次執行工作流後已被修改。
+   >**[!UICONTROL Use a date field]** 模式會根據選取的日期欄位，提供更大的彈性。 例如，如果選定欄位與修改日期相對應，則日期欄位模式將可讓您檢索最近更新的資料，而另一個模式將僅排除在先前執行中已定位的記錄，即使這些記錄自上次執行工作流後已被修改。
 
    ![](assets/incremental_query_usedatefield.png)
 
-1. 您可以透過專用索引標籤來定義目標群體的　**[!UICONTROL Additional data]**。此資料會儲存在其他欄中，且僅能用於進行中的工作流程。尤其是，您可以從連結至查詢目標維度的 Adobe Campaign 資料庫表格新增資料。請參閱[擴充資料](../../automating/using/query.md#enriching-data)區段。
+1. 您可以透過專用索引標籤來定義目標群體的　**[!UICONTROL Additional data]**。 此資料會儲存在其他欄中，且僅能用於進行中的工作流程。 尤其是，您可以從連結至查詢目標維度的 Adobe Campaign 資料庫表格新增資料。 請參閱[擴充資料](../../automating/using/query.md#enriching-data)區段。
 1. 確認活動的設定並儲存工作流程。
 
 ## 豐富資料 {#enriching-data}
 
-和查詢一樣，您也可以擴充來自 **[!UICONTROL Incremental query]** 的資料。請參閱[擴充資料](../../automating/using/query.md#enriching-data)區段。
+和查詢一樣，您也可以擴充來自 **[!UICONTROL Incremental query]** 的資料。 請參閱[擴充資料](../../automating/using/query.md#enriching-data)區段。

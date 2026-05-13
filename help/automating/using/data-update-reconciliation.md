@@ -1,6 +1,6 @@
 ---
 title: 使用協調功能更新資料
-description: 下列範例會示範一個工作流程，其會直接從包含新客戶之匯入檔案建立設定檔對象。
+description: 下列範例會示範一個工作流程，其會從包含新客戶之匯入檔案直接建立輪廓客群。
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
@@ -10,16 +10,20 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: cfca6202-791d-4baf-b5ed-677d2480cf06
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/cEXfESw1LZcrQVlLsgrlDB8J2aGz4zCoSUrIAshECo0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 33%
+source-wordcount: 128
+ht-degree: 49%
 
 ---
 
 # 使用協調功能更新資料 {#data-update-reconciliation}
 
-下列範例會示範一個工作流程，其會從包含新客戶之匯入檔案直接建立輪廓客群。它由下列活動組成：
+下列範例會示範一個工作流程，其會從包含新客戶之匯入檔案直接建立輪廓客群。 它由下列活動組成：
 
 ![](assets/identification_example2.png)
 
@@ -38,7 +42,7 @@ ht-degree: 33%
   tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
   ```
 
-* [調解](../../automating/using/reconciliation.md)活動，可將載入檔案的每個欄連結到設定檔維度欄。 無法識別的檔案記錄（遺失資料、不相容的資料型別等）會被忽略，以保留最終對象資料的完整性。
+* [調解](../../automating/using/reconciliation.md)活動，可將載入檔案的每個欄連結到設定檔維度欄。 無法識別的檔案記錄（遺失資料、不相容的資料型別等） 會遭到忽略，以保留最終對象資料的完整性。
 
   ![](assets/identification_example1.png)
 

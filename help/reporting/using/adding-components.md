@@ -8,9 +8,15 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 3db44dec-c48a-4903-a4c6-6bfea33fc38a
-source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
+TQID: https://experienceleague.adobe.com/OqhCjOt2SS-vKiuXSCmjgzJ1TNoFu1FHqL4cER0-o0g
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: 279
 ht-degree: 4%
 
 ---
@@ -27,7 +33,7 @@ ht-degree: 4%
 
    元件表格分為四個類別：
 
-   * **Dimension**：從傳遞記錄檔取得詳細資料，例如收件者的瀏覽器或網域，或傳遞成功。
+   * **維度**：從傳遞記錄檔取得詳細資料，例如收件者的瀏覽器或網域，或傳遞成功。
    * **量度**：取得訊息狀態的詳細資料。 例如，是否已傳送訊息且使用者是否已將其開啟。
    * **[!UICONTROL Segments]**：根據收件者的年齡範圍篩選資料。 **[!UICONTROL Segments]**&#x200B;可以直接拖放到自由表格或面板的頂端列中。
 

@@ -9,10 +9,14 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: e0d281f7-d522-425c-9854-894e84a0a422
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/LRP8F4F5-hqLvJ8VxiVbXBOHWP3uuF62baE20Fpo7bA
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 3%
+source-wordcount: 168
+ht-degree: 4%
 
 ---
 
@@ -28,4 +32,4 @@ Adobe Target可使用數種型別的資料：
 * 若所使用的資料不受法律限制，則連結至Adobe Target中的訪客ID的區段
 * Adobe Target資料：使用者代理、IP位址、地理本地化資料
 
-如需Adobe Campaign與Adobe Target整合的詳細資訊，您也可以參閱[Adobe Target入口網站](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=zh-Hant)。
+如需Adobe Campaign與Adobe Target整合的詳細資訊，您也可以參閱[Adobe Target入口網站](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html)。

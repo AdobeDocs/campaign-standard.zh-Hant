@@ -9,9 +9,14 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ca134a7f-9035-4885-b4cb-1170b6ec10cc
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+TQID: https://experienceleague.adobe.com/XHdVIRoy03LIXLHPLXexhNG2hg2JJYnwglQLUc6i2WU
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: 824
 ht-degree: 10%
 
 ---
@@ -26,7 +31,7 @@ ht-degree: 10%
 
 [傳遞範本](../../start/using/marketing-activity-templates.md#creating-a-new-template)可讓您定義一次符合您需求且可重複用於未來傳遞的一組技術和功能屬性。 然後您可以節省時間，並在需要時標準化傳遞。
 
-當您在Adobe Campaign中管理多個品牌時，Adobe建議每個品牌使用一個子網域。 例如，銀行可以有數個子網域對應至其各個地區機構。 如果銀行擁有bluebank.com網域，其子網域可以是@ny.bluebank.com、@ma.bluebank.com、@ca.bluebank.com等。 每個子網域擁有一個傳遞範本，可讓您針對每個品牌一律使用正確的預先設定引數，以避免錯誤並節省您的時間。
+當您在Adobe Campaign中管理多個品牌時，Adobe建議每個品牌使用一個子網域。 例如，銀行可以有數個子網域對應至其各個地區機構。 如果銀行擁有bluebank.com網域，其子網域可以是@ny.bluebank.com、@ma.bluebank.com、@ca.bluebank.com等。每個子網域擁有一個傳遞範本，可讓您針對每個品牌一律使用正確的預先設定引數，以避免錯誤並節省您的時間。
 
 **提示**：若要避免Campaign發生設定錯誤，建議您複製原生範本並變更其屬性，而非建立新的範本。
 
@@ -66,7 +71,7 @@ ht-degree: 10%
 
 在SMS範本屬性的&#x200B;**進階引數**&#x200B;區段中，**從**&#x200B;選項可讓您使用字串個人化SMS訊息寄件者的名稱。 此名稱將顯示為收件者行動電話上簡訊訊息的傳送者姓名。
 
-如果此欄位為空，則會是使用的外部帳戶中提供的來源號碼。如果未提供來源號碼，則將使用簡短代碼。有關此項目的詳細資訊，請參閱[簡訊設定](../../administration/using/configuring-sms-channel.md)。
+如果此欄位為空，則會是使用的外部帳戶中提供的來源號碼。 如果未提供來源號碼，則將使用簡短代碼。 有關此項目的詳細資訊，請參閱[簡訊設定](../../administration/using/configuring-sms-channel.md)。
 
 **提示** — 檢查您所在國家/地區有關修改寄件者地址的法規。 您也應洽詢您的簡訊服務提供者，以瞭解他們是否提供此功能。
 
@@ -96,4 +101,4 @@ ht-degree: 10%
 
 如需將品牌連結至範本的詳細資訊，請參閱[將品牌指派至電子郵件](../../administration/using/branding.md#assigning-a-brand-to-an-email)。
 
-在本節[中瞭解如何建立設定品牌](../../administration/using/branding.md#creating-a-brand)。
+在本節](../../administration/using/branding.md#creating-a-brand)中瞭解如何建立設定品牌[。

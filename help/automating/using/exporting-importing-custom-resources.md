@@ -9,10 +9,14 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: f8e7eb96-9541-4d28-9d8d-f06af822debd
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/3WJ46WcDxxGM-6Cx6Owk-p0z6J4k6KVRx8TqdbKFz9c
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 95%
+source-wordcount: 629
+ht-degree: 96%
 
 ---
 
@@ -26,7 +30,7 @@ ht-degree: 95%
 
 * **一或多個的自訂資源**&#x200B;可供使用且已發佈。
 
-  此外，您必須為這些資源定義一個唯一索引鍵，因為自動主要密鑰未在套件中匯出。因此，資源可以具有主要密鑰與附加唯一索引鍵，以保證此記錄的唯一性。
+  此外，您必須為這些資源定義一個唯一索引鍵，因為自動主要密鑰未在套件中匯出。 因此，資源可以具有主要密鑰與附加唯一索引鍵，以保證此記錄的唯一性。
 * 建立與匯出套件的&#x200B;**必要權利** 。
 
 其他資源：
@@ -56,7 +60,7 @@ ht-degree: 95%
 
 1. 在篩選條件中 **[!UICONTROL Custom resource]** 選取　**Products** 及 **Orders**　這兩個資源，以設定詳細資訊。
 
-   請別忘記要變更邏輯運算子。該該值必須設定為　**OR**，以便產品資源與訂購資源的結構整合到此套件中。
+   請別忘記要變更邏輯運算子。 該該值必須設定為　**OR**，以便產品資源與訂購資源的結構整合到此套件中。
 
    ![](assets/cusresources_export3.png)
 
@@ -66,7 +70,7 @@ ht-degree: 95%
 
 ![](assets/cusresources_export4.png)
 
-產生的套件可在「下載」資料夾中使用。壓縮檔案的名稱是隨機產生的。您可以重新命名。
+產生的套件可在「下載」資料夾中使用。 壓縮檔案的名稱是隨機產生的。 您可以重新命名。
 
 ## 匯出資料 {#exporting-the-data}
 
@@ -98,7 +102,7 @@ ht-degree: 95%
 
 ![](assets/cusresources_exportdata5.png)
 
-產生的套件可在「下載」資料夾中使用。壓縮檔案的名稱是隨機產生的。您可以重新命名。
+產生的套件可在「下載」資料夾中使用。 壓縮檔案的名稱是隨機產生的。 您可以重新命名。
 
 ## 匯入結構 {#importing-the-structure}
 
@@ -106,7 +110,7 @@ ht-degree: 95%
 
 1. 連線至您要匯入新建立之套件的&#x200B;**目標執行個體** 。
 1. 前往 **[!UICONTROL Administration]** / **[!UICONTROL Deployment]** / **[!UICONTROL Package imports]** 功能表，並從第一次匯出之匯入檔案中建立新的套件。
-1. 將&#x200B;**結構檔案**&#x200B;拖放至為此目的提供的區域。接受的格式為 ZIP 或 XML。
+1. 將&#x200B;**結構檔案**&#x200B;拖放至為此目的提供的區域。 接受的格式為 ZIP 或 XML。
 
    ![](assets/cusresources_import2.png)
 
@@ -132,7 +136,7 @@ ht-degree: 95%
 ### 匯入套件 {#importing-the-data-package}
 
 1. 前往/ **[!UICONTROL Administration]** **[!UICONTROL Deployment]** / **[!UICONTROL Package imports]** 功能表，建立新的套件以匯入包含資料的檔案。
-1. 將資料檔案拖放至為此目的提供的區域。接受的格式為 ZIP 或 XML。
+1. 將資料檔案拖放至為此目的提供的區域。 接受的格式為 ZIP 或 XML。
 1. 修改標籤，例如　&quot;Import data&quot;，然後按一下 **[!UICONTROL Save]**。
 1. 按一下 **[!UICONTROL Start import]**。
 

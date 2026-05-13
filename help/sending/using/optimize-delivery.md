@@ -9,10 +9,15 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 28b0cf6d-c1f1-4d55-b9bc-0d6bfb063471
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+TQID: https://experienceleague.adobe.com/w2qeBwrGka2XfN76lvkL7fjdAErUcHdxNvF7Jb6KYIk
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 4%
+source-wordcount: 767
+ht-degree: 9%
 
 ---
 
@@ -32,9 +37,9 @@ ht-degree: 4%
 
   **秘訣** — 若要避免此問題，請與團隊的其他成員協調傳送排程，以確保最佳效能。
 
-* [工作流程執行](../../automating/using/about-workflow-execution.md)：監視您的工作流程對於避免平台效能問題至關重要。 請遵循此頁面[中列出的准則](../../automating/using/monitoring-workflow-execution.md)。 在[工作流程最佳實務](../../automating/using/best-practices-workflows.md)區段中瞭解更多。
+* [工作流程執行](../../automating/using/about-workflow-execution.md)：監視您的工作流程對於避免平台效能問題至關重要。 請遵循此頁面](../../automating/using/monitoring-workflow-execution.md)中列出的准則[。 在[工作流程最佳實務](../../automating/using/best-practices-workflows.md)區段中瞭解更多。
 
-* 您可以使用[效能監視](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=zh-Hant)功能，利用[Campaign控制面板功能](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=zh-Hant)來監視您的平台。
+* 您可以使用[效能監視](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=zh-Hant)功能，利用[Campaign控制面板功能](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=zh-Hant)來監視您的平台。
 
 ## 正在檢查網路設定 {#network-config}
 
@@ -52,7 +57,7 @@ ht-degree: 4%
 
    * 在檢查電子郵件是否可傳遞時，您想要將焦點放在四個主要類別上：資料品質、訊息和內容、傳送基礎結構和信譽。 如需深入瞭解此主題，請參閱[本節](../../sending/using/about-deliverability.md)。
 
-* 啟動新平台時，套用[此頁面](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html?lang=zh-Hant#transition-process)上詳述的建議。
+* 啟動新平台時，套用[此頁面](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html#transition-process)上詳述的建議。
 
 * 請聯絡您的Adobe代表以尋求協助。
 
@@ -68,7 +73,7 @@ ht-degree: 4%
 
 * Adobe Campaign會根據傳回的錯誤型別管理錯誤地址。 如需詳細資訊，請參閱[本章節](../../sending/using/understanding-quarantine-management.md)。
 
-* 如果無效地址的比率過高，某些網際網路存取提供者會自動將電子郵件視為垃圾郵件。因此，隔離可讓您避免被這些提供者新增到封鎖清單中。
+* 如果無效地址的比率過高，某些網際網路存取提供者會自動將電子郵件視為垃圾郵件。 因此，隔離可讓您避免被這些提供者新增到封鎖清單中。
 
 * 隔離管理還能將錯誤的電話號碼排除在遞送服務之外，有助於降低簡訊傳送成本。
 

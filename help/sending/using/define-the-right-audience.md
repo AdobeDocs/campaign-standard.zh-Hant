@@ -9,9 +9,14 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 1e06fd9d-e850-4856-8f7b-b581dbe157df
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+TQID: https://experienceleague.adobe.com/keRwWGnvoXbhg4XhReRZzSF1L9x93BbNu8YhBWtUoNM
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: 518
 ht-degree: 11%
 
 ---
@@ -20,40 +25,40 @@ ht-degree: 11%
 
 目標人口是關鍵：仔細建立您的清單，在熱門電子郵件使用者端和行動裝置上測試您的電子郵件，並確保您的電子郵件清單是最新的（沒有未知或過時的地址）。 您也可以傳送校樣來幫助設定完整的驗證週期。
 
-在本節[中進一步瞭解目標母體](../../audiences/using/selecting-an-audience-in-a-message.md)
+在本節](../../audiences/using/selecting-an-audience-in-a-message.md)中進一步瞭解目標母體[
 
 ## 鎖定正確的對象 {#target-the-right-audience}
 
 內容準備就緒後，您需要仔細定義將接收訊息的人員。
 
-若要成功傳遞，您想要將最相關的個人化內容傳送給正確的收件者。 Adobe Campaign可讓您建立最精確的目標：您可以根據收件者的年齡、本地化、購買內容、是否在上一次傳送中按一下連結等來選取收件者。 透過Adobe Campaign，您還可以定義測試設定檔、控制組和種子地址，以確保您的目標正確無誤。
+若要成功傳遞，您想要將最相關的個人化內容傳送給正確的收件者。 Adobe Campaign可讓您建立最精確的目標：您可以根據收件者的年齡、本地化、購買內容、是否在上一次傳送中按一下連結等來選取收件者。透過Adobe Campaign，您還可以定義測試設定檔、控制組和種子地址，以確保您的目標正確無誤。
 
 ## 目標對應 {#target-mappings}
 
 依預設，傳遞範本會以&#x200B;**設定檔**&#x200B;為目標。 Adobe Campaign為您的傳送提供其他目標對應，您可以視需求加以變更。
 
-這些對應會顯示在此區段[中的](../../automating/using/query.md#targeting-dimensions-and-resources)。
+這些對應會顯示在此區段](../../automating/using/query.md#targeting-dimensions-and-resources)中的[。
 
 您也可以建立並使用自訂的目標對應。 如需詳細資訊，請參閱[本章節](../../administration/using/target-mappings-in-campaign.md)。
 
 ## 外部資料 {#external-data}
 
-您可以傳遞至儲存在外部檔案中而非儲存在資料庫中的收件者。 為此，設計工作流程將從檔案將資料載入您的資料庫，並建立關聯的對象。  在此使用案例[中瞭解更多](../../automating/using/use-case-calling-workflow.md)。 另請參閱[使用引數](../../automating/using/calling-a-workflow-with-external-parameters.md)呼叫工作流程。
+您可以傳遞至儲存在外部檔案中而非儲存在資料庫中的收件者。 為此，設計工作流程將從檔案將資料載入您的資料庫，並建立關聯的對象。  在此使用案例](../../automating/using/use-case-calling-workflow.md)中瞭解更多[。 另請參閱[使用引數](../../automating/using/calling-a-workflow-with-external-parameters.md)呼叫工作流程。
 
 ## 傳送給您的訂閱者 {#send-to-subscribers}
 
-若要傳送訊息給電子報的訂閱者，您可以直接將訂閱者定位到對應的資訊服務。 在本節[瞭解更多](../../audiences/using/about-subscriptions.md)。
+若要傳送訊息給電子報的訂閱者，您可以直接將訂閱者定位到對應的資訊服務。 在本節](../../audiences/using/about-subscriptions.md)瞭解更多[。
 
 **秘訣** — 您可以使用工作流程建立清單對象，以您電子報的訂閱者為目標。 然後，您便可以在傳送中選取此對象。 如需詳細資訊，請參閱[建立清單對象](../../audiences/using/creating-audiences.md#creating-list-audiences)。
 
 ## 校樣、測試設定檔和控制組 {#proofs-test-control-groups}
 
 若要測試您的傳遞，請在傳送至主要目標之前使用證明。
-請務必選取適當的校樣收件者，因為他們會驗證訊息的表單和內容。 傳送校樣的步驟顯示於本節[中](../../sending/using/sending-proofs.md)。
+請務必選取適當的校樣收件者，因為他們會驗證訊息的表單和內容。 傳送校樣的步驟顯示於本節](../../sending/using/sending-proofs.md)中[。
 
-在本節[中進一步瞭解測試設定檔](../../audiences/using/managing-test-profiles.md)。
+在本節](../../audiences/using/managing-test-profiles.md)中進一步瞭解測試設定檔[。
 
-您可以使用[控制群組](../../sending/using/control-group.md)，透過排除其閱聽眾的一部分來評估行銷活動的影響。 然後，您將能夠將接收到消息的目標群體的行為與未作為目標的聯絡人的行為進行比較。根據傳送日誌，您也可以在未來的行銷活動中鎖定控制組。
+您可以使用[控制群組](../../sending/using/control-group.md)，透過排除其閱聽眾的一部分來評估行銷活動的影響。 然後，您將能夠將接收到消息的目標群體的行為與未作為目標的聯絡人的行為進行比較。 根據傳送日誌，您也可以在未來的行銷活動中鎖定控制組。
 
 ## 重複位址 {#deduplicate-addresses}
 
@@ -65,4 +70,4 @@ ht-degree: 11%
 
 對地址進行重複資料刪除可保護您的傳送信譽，並確保良好的隔離管理。
 
-在此使用案例[中瞭解更多](../../automating/using/deduplicating-data-imported-file.md)。
+在此使用案例](../../automating/using/deduplicating-data-imported-file.md)中瞭解更多[。

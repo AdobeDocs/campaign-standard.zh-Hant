@@ -10,10 +10,17 @@ old-role: Data Architect
 role: Developer
 level: Beginner
 exl-id: a3f35bb9-e61e-4f3f-b855-1d677422f75a
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/yE5oFC7pHpJPh1NC0jMvVu-VfY-sFhgbSB4tqw55R-M
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: a4671286-a59f-47e3-b97b-90627a1977d5id: a658c786-869b-4194-a780-2594d663adda
+subfeature_v2: id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 4%
+source-wordcount: 845
+ht-degree: 5%
 
 ---
 
@@ -53,11 +60,11 @@ ht-degree: 4%
 
 若要連結兩個活動，請將箭頭的結尾從第一個活動上移至下一個活動，直到它們連線為止。 您也可以將活動往後箭頭的點移動，以便將其連結至前一個活動。 如果您移動任何活動，它們將會維持連結。
 
-處理資料的活動之後的轉變包含中介母體。 如果您核取工作流程屬性的&#x200B;**[!UICONTROL Keep interim results]**&#x200B;區段中的&#x200B;**[!UICONTROL Execution]**&#x200B;選項，便可存取它們。
+處理資料的活動之後的轉變包含中介母體。 如果您核取工作流程屬性的&#x200B;**[!UICONTROL Execution]**&#x200B;區段中的&#x200B;**[!UICONTROL Keep interim results]**&#x200B;選項，便可存取它們。
 
 >[!CAUTION]
 >
->此選項佔用了大量磁碟空間，設計旨在幫助您建構工作流程並確保正確的設定和行為。在生產執行個體中保留未核取的狀態。
+>此選項佔用了大量磁碟空間，設計旨在幫助您建構工作流程並確保正確的設定和行為。 在生產執行個體中保留未核取的狀態。
 
 
 選取活動時，快速動作會出現在活動週圍，允許您與其互動。 例如，若要設定活動，請選取該活動，然後使用快速動作中的![](assets/edit_darkgrey-24px_table.png)按鈕將其開啟。

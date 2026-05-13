@@ -6,9 +6,14 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: d5e6034c-3673-4069-ac0b-49c7ad07259d
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/aoMhXQxtQb9tDFW4eon-N7tw6ViTSMmwhpDl17zVwMQ
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: 484
 ht-degree: 5%
 
 ---
@@ -37,7 +42,7 @@ ht-degree: 5%
 
 1. [查詢](../../automating/using/query.md)活動可讓您鎖定年齡介於20到30歲、已訂閱您的行動應用程式且未開啟您傳送之電子郵件的VIP客戶：
 
-   * 選取對象(您的VIP客戶)，並根據其年齡篩選。
+   * 選取對象（您的VIP客戶），並根據其年齡篩選。
    * 將&#x200B;**Subscriptions to an application**&#x200B;元素拖放至工作區。 選取&#x200B;**存在**，然後選取您要使用的行動應用程式。
    * 選取您傳送給客戶的電子郵件。
    * 將&#x200B;**傳遞記錄（記錄）**&#x200B;元素拖放到工作區中，並選取&#x200B;**存在**&#x200B;以鎖定所有收到電子郵件的客戶。
@@ -49,7 +54,7 @@ ht-degree: 5%
 
    * 選取 **[!UICONTROL Recurring notification]** 選項。
    * 定義推播通知內容。 如需推播通知內容的詳細資訊，請參閱此[區段](../../channels/using/preparing-and-sending-a-push-notification.md)。
-   * 在&#x200B;**[!UICONTROL Schedule]**&#x200B;區塊中，選取&#x200B;**[!UICONTROL Messages to be sent automatically on the time zone specified below]**。 在此處，我們在工作流程&#x200B;**[!UICONTROL Time zone of the contact date]**&#x200B;中選擇了&#x200B;**[!UICONTROL Scheduler]** Pacific。
+   * 在&#x200B;**[!UICONTROL Schedule]**&#x200B;區塊中，選取&#x200B;**[!UICONTROL Messages to be sent automatically on the time zone specified below]**。 在此處，我們在工作流程&#x200B;**[!UICONTROL Scheduler]**&#x200B;中選擇了&#x200B;**[!UICONTROL Time zone of the contact date]** Pacific。
    * 在 **[!UICONTROL Optimize the sending time per recipient]** 欄位中，選取 **[!UICONTROL Send at the recipient's time zone]**。
 
      ![](assets/wkf_push_example_4.png)

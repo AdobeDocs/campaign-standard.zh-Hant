@@ -9,9 +9,14 @@ feature: SMS
 role: User
 level: Intermediate
 exl-id: d430d0e7-1201-49c6-aad3-a2c03d02290c
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/LQ6lGxtncdD2LoXmURVBcv0DZasNI2iMrntOSaWHv-k
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: 330
 ht-degree: 96%
 
 ---
@@ -20,8 +25,8 @@ ht-degree: 96%
 
 會將簡訊和推播內容編輯器組織為兩個不同的區段，讓您檢視和編輯訊息。
 
-1. **動作列**&#x200B;包含頁面的一般選項。您可以從此處插入個人化欄位或內容區塊、新增條件文字並預覽簡訊內容。請參閱簡訊及推播內容編輯器動作列[&#128279;](#sms-and-push-content-editor-action-bar)。
-1. 螢幕的&#x200B;**編輯區域**&#x200B;可讓您直接輸入文字訊息，並選取要插入個人化的位置。請參閱簡訊及推播內容版本模式[&#128279;](#sms-and-push-content-edition-modes)。
+1. **動作列**&#x200B;包含頁面的一般選項。 您可以從此處插入個人化欄位或內容區塊、新增條件文字並預覽簡訊內容。 請參閱簡訊及推播內容編輯器動作列](#sms-and-push-content-editor-action-bar)。[
+1. 螢幕的&#x200B;**編輯區域**&#x200B;可讓您直接輸入文字訊息，並選取要插入個人化的位置。 請參閱簡訊及推播內容版本模式](#sms-and-push-content-edition-modes)。[
 
 ## SMS及推播內容編輯器動作列 {#sms-and-push-content-editor-action-bar}
 
@@ -41,7 +46,7 @@ ht-degree: 96%
    <td> <img height="21px" src="assets/viewon_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">預覽</span> <br /> </td> 
    <td> 僅簡訊<br /> </td> 
-   <td> 可讓您檢視如何為收件者呈現電子郵件。請參閱<a href="../../sending/using/previewing-messages.md">預覽訊息</a>。<br /> </td> 
+   <td> 可讓您檢視如何為收件者呈現電子郵件。 請參閱<a href="../../sending/using/previewing-messages.md">預覽訊息</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/undo_darkgrey-24px.png" /> <br /> </td> 
@@ -59,19 +64,19 @@ ht-degree: 96%
    <td> <img height="21px" src="assets/personalization_field_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">插入個人化欄位</span> <br /> </td> 
    <td> 簡訊及推播<br /> </td> 
-   <td> 可讓您將欄位從資料庫新增至內容。請參閱<a href="../../designing/using/personalization.md#inserting-a-personalization-field" target="_blank">插入個人化欄位</a>。<br /> </td> 
+   <td> 可讓您將欄位從資料庫新增至內容。 請參閱<a href="../../designing/using/personalization.md#inserting-a-personalization-field" target="_blank">插入個人化欄位</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/personalization_block_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">插入內容區塊</span> <br /> </td> 
    <td> 簡訊及推播<br /> </td> 
-   <td> 可讓您新增個人化區塊至內容。請參閱<a href="../../designing/using/personalization.md#adding-a-content-block" target="_blank">新增內容區塊</a>。<br /> </td> 
+   <td> 可讓您新增個人化區塊至內容。 請參閱<a href="../../designing/using/personalization.md#adding-a-content-block" target="_blank">新增內容區塊</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/dynamiccontent_24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">啟用動態文字</span> <br /> </td> 
    <td> 簡訊及推播<br /> </td> 
-   <td> 可讓您在內容中插入動態文字。請參閱<a href="../../channels/using/defining-dynamic-text.md" target="_blank">定義動態文字</a>。<br /> </td> 
+   <td> 可讓您在內容中插入動態文字。 請參閱<a href="../../channels/using/defining-dynamic-text.md" target="_blank">定義動態文字</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/dynamiccontentdisable_24px.png" /> <br /> </td> 
@@ -87,7 +92,7 @@ ht-degree: 96%
 簡訊及推播內容編輯器提供下列功能：
 
 * 輸入文字。
-* 新增個人化欄位。如需詳細資訊，請參閱[插入個人化欄位](../../designing/using/personalization.md#inserting-a-personalization-field)。
-* 新增內容區塊。如需詳細資訊，請參閱[新增內容區塊](../../designing/using/personalization.md#adding-a-content-block)。
-* 新增動態文字。如需詳細資訊，請參閱[定義動態文字](../../channels/using/defining-dynamic-text.md)。
-* 個人化簡訊傳送者的名稱（僅限簡訊）。有關此項目的詳細資訊，請參閱[簡訊設定](../../administration/using/configuring-sms-channel.md#configuring-sms-properties)。
+* 新增個人化欄位。 如需詳細資訊，請參閱[插入個人化欄位](../../designing/using/personalization.md#inserting-a-personalization-field)。
+* 新增內容區塊。 如需詳細資訊，請參閱[新增內容區塊](../../designing/using/personalization.md#adding-a-content-block)。
+* 新增動態文字。 如需詳細資訊，請參閱[定義動態文字](../../channels/using/defining-dynamic-text.md)。
+* 個人化簡訊傳送者的名稱（僅限簡訊）。 有關此項目的詳細資訊，請參閱[簡訊設定](../../administration/using/configuring-sms-channel.md#configuring-sms-properties)。

@@ -5,9 +5,16 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
-source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
+TQID: https://experienceleague.adobe.com/o3S2hQizbgi5V-8uEzd4UsVZslopMk6BlpCy-DXESUQ
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2id: c309ee4e-82e4-4f7e-b608-ef345678c34eid: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: bb6c4d97-79f4-412c-a764-b541e9f9facdid: bf97c196-a4d1-4fa3-a151-e68a114c8ac0id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0id: d8d962e2-fcf3-4f64-82dc-4b50292e7f75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: beb7a3c1-66ab-4786-b879-7621375b3c40id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '4572'
+source-wordcount: 4623
 ht-degree: 3%
 
 ---
@@ -28,11 +35,11 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td> 疲勞管理<br /> </td> 
-   <td> 疲勞管理可讓您建立疲勞規則，以管理與設定檔的過度通訊。 疲勞規則可輕鬆建置，但其功能極為靈活，例如跨多個管道計算訊息（包括交易式訊息）、僅計算特定傳送或將規則套用至特定設定檔。<br />如需詳細資訊，請參閱<a href="../../sending/using/fatigue-rules.md">詳細檔案</a>。<br /> </td> 
+   <td> 疲勞管理可讓您建立疲勞規則，以管理與設定檔的過度通訊。 疲勞規則可輕鬆建置，但功能極為靈活，例如跨多個管道計算訊息（包括異動訊息）、僅計算特定傳送或將規則套用至特定設定檔。<br /> 如需詳細資訊，請參閱<a href="../../sending/using/fatigue-rules.md">詳細檔案</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 內容建立：從URL<br />匯入 </td> 
-   <td> 從URL匯入可讓您快速從網站擷取創意內容，以建立任何傳遞的電子郵件。 此外，您可以讓第三方直接透過URL分享內容，藉此簡化您的創意程式。 匯入的內容可以靈活地用於單一傳遞或範本層級，確保所有相關行銷活動的品牌一致性（不論是工作流程型或異動訊息），並包含A/B或多變數測試。 從URL匯入會自動轉換並追蹤所有連結，以透過動態報告監控電子郵件效能。<br />如需詳細資訊，請參閱<a href="../../designing/using/using-existing-content.md">詳細檔案</a>。<br /> </td> 
+   <td> 從URL匯入可讓您快速從網站擷取創意內容，以建立任何傳遞的電子郵件。 此外，您可以讓第三方直接透過URL分享內容，藉此簡化您的創意程式。 匯入的內容可以靈活地用於單一傳遞或範本層級，確保所有相關行銷活動的品牌一致性（不論是工作流程型或異動訊息），並包含A/B或多變數測試。 從URL匯入會自動轉換並追蹤所有連結，以透過動態報告監視電子郵件效能。<br /> 如需詳細資訊，請參閱<a href="../../designing/using/using-existing-content.md">詳細檔案</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -43,7 +50,7 @@ _平台_
 
 * 修正了無法正確解壓縮大型壓縮檔案的問題。
 * 已改善品牌管理中的安全性。 修改品牌名稱和寄件者地址現在已保留給Adobe技術管理員。
-* 為了改善安全性，adobe.com網域不再提供使用者產生的內容（影像、映象頁面、登陸頁面等）。 現在，您必須使用自己的網域，透過使用品牌來處理這些資源。
+* 為了改善安全性，使用者產生的內容（影像、映象頁面、登入頁面等） 無法再由adobe.com網域提供服務。 現在，您必須使用自己的網域，透過使用品牌來處理這些資源。
 * 修正顯示和篩選行銷活動時的介面問題。
 * 修正無法使用POST Rest API呼叫更新訂閱日期欄位的問題。
 
@@ -107,15 +114,15 @@ _自訂資源_
  <tbody> 
   <tr> 
    <td> 電子郵件範本庫<br /> </td> 
-   <td> 向您介紹18種全新的回應式範本，採用兩種精美的主題設計 — Astro和Feather。 這些可自訂範本不受業界限制，可立即使用。 範本包含各種使用案例的內容，讓您的電子郵件行銷活動的設計及傳送比以往更快、更有效率且更精美。<br />如需詳細資訊，請參閱<a href="../../designing/using/using-reusable-content.md#content-templates">詳細檔案</a>。<br /> </td> 
+   <td> 向您介紹18種全新的回應式範本，採用兩種精美的主題設計 — Astro和Feather。 這些可自訂範本不受業界限制，可立即使用。 範本包含各種使用案例的內容，讓您的電子郵件行銷活動的設計及傳遞比以往更快速、更有效率、更精美。<br /> 如需詳細資訊，請參閱<a href="../../designing/using/using-reusable-content.md#content-templates">詳細檔案</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 使用設定檔資料建立動態報告<br /> </td> 
-   <td> 動態報告提供完全可自訂的即時業務報告。 在此版本中，動態報告的強大增強功能新增了設定檔資料的存取權，除了功能性電子郵件促銷活動資料（如開啟和點按）外，還支援依設定檔維度（例如，性別、城市、郵遞區號和年齡）進行人口統計分析。 透過相同的輕鬆拖放介面，比以往更容易判斷電子郵件促銷活動對最重要客戶細分的執行方式。<br />如需詳細資訊，請參閱<a href="../../reporting/using/about-dynamic-reports.md">詳細檔案</a>。<br /> </td> 
+   <td> 動態報告提供完全可自訂的即時業務報告。 在此版本中，動態報告的強大增強功能新增了設定檔資料的存取權，除了功能性電子郵件促銷活動資料（如開啟和點按）外，還支援依設定檔維度（例如，性別、城市、郵遞區號和年齡）進行人口統計分析。 透過相同的輕鬆拖放介面，決定電子郵件行銷活動對最重要客戶區段的執行方式比以往更輕鬆。<br /> 如需詳細資訊，請參閱<a href="../../reporting/using/about-dynamic-reports.md">詳細檔案</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 具有來源與日期<br />的大量訂閱 </td> 
-   <td> 透過此「大量訂閱」增強功能，您現在可以透過工作流程中的「訂閱服務」活動，將訂閱資訊（來源和日期）直接儲存在Adobe Campaign Standard資料庫中。<br />如需詳細資訊，請參閱<a href="../../automating/using/subscription-services.md">詳細檔案</a>。<br /> </td> 
+   <td> 透過這個大量訂閱增強功能，您現在可以透過工作流程中的訂閱服務活動，將訂閱資訊（來源和日期）直接儲存在Adobe Campaign Standard資料庫中。<br /> 如需詳細資訊，請參閱<a href="../../automating/using/subscription-services.md">詳細檔案</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -179,27 +186,27 @@ _設定檔與對象_
  <tbody> 
   <tr> 
    <td> 多語言電子郵件和簡訊傳遞<br /> </td> 
-   <td> 根據自動細分客戶偏好的語言，透過單一傳送來定義並執行多語言電子郵件和簡訊傳送。 報告每次傳送的效能，包括語言和個別層級。<br />越來越多的公司面臨著在國內外成長過程中提供多國語言內容的挑戰。 因此，簡化本地化訊息的傳遞，是跨國公司、擁有多種語言的國家/地區公司，以及無論客戶身在何處，都想進一步個人化語言層級內容的公司，有效客戶溝通策略的重要一環。 如需詳細資訊，請參閱<a href="../../channels/using/creating-a-multilingual-email.md">詳細檔案</a>.<br /> </td> 
+   <td> 根據自動細分客戶偏好的語言，透過單一傳送來定義並執行多語言電子郵件和簡訊傳送。 報告每個傳遞的效能，包括語言和個別層級。<br /> 隨著國內外企業的成長，越來越多的公司面臨著提供多國語言內容的挑戰。 因此，簡化本地化訊息的傳遞，是跨國公司、擁有多種語言的國家/地區公司，以及無論客戶身在何處，都想進一步個人化語言層級內容的公司，有效客戶溝通策略的重要一環。 如需詳細資訊，請參閱<a href="../../channels/using/creating-a-multilingual-email.md">詳細檔案</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Adobe Campaign通知<br /> </td> 
-   <td> 直接在Adobe Campaign Standard中接收有關重要系統活動的通知。 例如，您將會收到進行中傳遞的進度或工作流程發生錯誤時的通知。<br />即時通知可隨時通知相關利害關係人，並讓使用者能夠立即直接從應用程式內對活動通知採取行動。 對團隊來說，結果就是進階的靈活性、效率以及行銷活動的更順暢執行。 如需詳細資訊，請參閱<a href="../../administration/using/sending-internal-notifications.md">詳細檔案</a>.<br /> </td> 
+   <td> 直接在Adobe Campaign Standard中接收有關重要系統活動的通知。 例如，您將會收到進行中傳遞的進度或工作流程發生錯誤時的通知。<br /> 即時通知可隨時通知相關利害關係人，並讓使用者能夠立即直接從應用程式內對活動通知採取行動。 對團隊來說，結果就是進階的靈活性、效率以及行銷活動的更順暢執行。 如需詳細資訊，請參閱<a href="../../administration/using/sending-internal-notifications.md">詳細檔案</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 傳遞警報<br /> </td> 
-   <td> 除了直接在Adobe Campaign Standard中檢視通知外，Adobe Campaign現在還提供電子郵件警報系統，以觸發向使用者或重要系統活動的外部利益關係人傳送電子郵件警報。 建立、管理和接收可自訂的警示和儀表板，以追蹤傳送成功或失敗。<br /> Adobe Campaign傳遞警示可透過電子郵件和儀表板，讓公司中所有涉及的Adobe Campaign使用者自動得知傳遞執行狀態，以提高效率。 如需詳細資訊，請參閱<a href="../../sending/using/receiving-alerts-when-failures-happen.md">詳細檔案</a>.<br /> </td> 
+   <td> 除了直接在Adobe Campaign Standard中檢視通知外，Adobe Campaign現在還提供電子郵件警報系統，以觸發向使用者或重要系統活動的外部利益關係人傳送電子郵件警報。 建立、管理和接收可自訂的警示和儀表板，以追蹤傳送成功或失敗。<br /> Adobe Campaign傳送警示可透過電子郵件和控制面板，讓公司中所有參與的Adobe Campaign使用者自動得知傳送執行狀態，藉以提高效率。 如需詳細資訊，請參閱<a href="../../sending/using/receiving-alerts-when-failures-happen.md">詳細檔案</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 資料來源<br />中的加密宣告ID </td> 
-   <td> 使用加密的聯絡資訊（電子郵件地址或電話號碼）作為宣告ID，傳送電子郵件和簡訊觸發器，而無需Campaign中的現有設定檔。 由於加密的宣告ID可由Adobe Campaign Standard解碼，Campaign現在可以在接收來自其他Experience Cloud解決方案（包含先前未知的聯絡人）的對象時，建立新的可行銷設定檔。<br />透過電子郵件和簡訊即時鎖定客戶和未知的潛在客戶，以提高現有客戶群的忠誠度，並取得新客戶。 一旦潛在客戶在Adobe Campaign中驗證並運用這些深入分析，就能充分利用您的第一方Cookie資料（來自Adobe Audience Manager*）。 <br /> *需要Adobe Audience Manager。 如需詳細資訊，請參閱<a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">詳細檔案</a>.<br /> </td> 
+   <td> 使用加密的聯絡資訊（電子郵件地址或電話號碼）作為宣告ID，傳送電子郵件和簡訊觸發器，而無需Campaign中的現有設定檔。 由於加密的宣告ID可由Adobe Campaign Standard解碼，Campaign現在可在從包含先前未知聯絡人的其他Experience Cloud解決方案接收受眾時，建立新的可行銷設定檔。<br /> 透過電子郵件和簡訊即時鎖定客戶和未知的潛在客戶，以提高現有客戶群的忠誠度，並分別贏取新客戶。 一旦潛在客戶在Adobe Campaign中驗證並運用這些深入分析，就能充分利用您的第一方Cookie資料（來自Adobe Audience Manager*）。<br /> *需要Adobe Audience Manager。 如需詳細資訊，請參閱<a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">詳細檔案</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 從Campaign到Analytics的KPI共用<br /> </td> 
-   <td> 與Adobe Analytics共用行銷活動資料，以透過轉換、統一點按前後的行為，測量行銷活動的電子郵件行銷量度以及其他行銷和廣告工作。<br />直接追蹤整體效能，並在Analytics中發掘與外部程式的協同效益。 將來自此整合檢視的學習套用回您的行銷活動；最終改善開放、點進和轉換率，以提高收入和整體行銷活動績效。 需要<br /> Adobe Analytics。 如需詳細資訊，請參閱<a href="../../integrating/using/about-campaign-analytics-integration.md">詳細檔案</a>.<br /> </td> 
+   <td> 與Adobe Analytics共用行銷活動資料，以透過轉換、統一點按前後的行為，測量行銷活動的電子郵件行銷量度以及其他行銷和廣告工作。<br /> 直接追蹤整體效能，並在Analytics中發掘與外部方案的協同效益。 將來自此整合檢視的學習套用回您的行銷活動；最終改善開放、點進和轉換率，以提高收入和整體行銷活動績效。<br /> 需要Adobe Analytics。 如需詳細資訊，請參閱<a href="../../integrating/using/about-campaign-analytics-integration.md">詳細檔案</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 直接郵件通道 — 傳回給寄件者<br /> </td> 
-   <td> 現在支援與直接郵件提供者交換包含退回寄件者資訊的平面檔案。 此直接郵件通道的增強功能可將對應的郵寄地址排除在未來的通訊之外。<br />這可讓行銷人員收到地址錯誤的通知，並透過其他管道與客戶互動，或鼓勵他們更新郵寄地址。 這也減少了行銷人員避免傳送郵件至錯誤地址所浪費的行銷金額。 <br />直接郵件可作為附加元件通道使用。 如需詳細資訊，請參閱<a href="../../channels/using/return-to-sender.md">詳細檔案</a>.<br /> </td> 
+   <td> 現在支援與直接郵件提供者交換包含退回寄件者資訊的平面檔案。 直接郵件通道的這項增強功能允許將對應的郵寄地址排除在未來的通訊之外。<br /> 這可讓行銷人員收到地址錯誤的通知，並透過其他管道與客戶互動，或鼓勵他們更新郵寄地址。 這也減少了行銷人員避免傳送郵件至錯誤地址所浪費的行銷金額。<br /> 直接郵件是以附加管道的形式提供。 如需詳細資訊，請參閱<a href="../../channels/using/return-to-sender.md">詳細檔案</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -255,11 +262,11 @@ _工作流程_
  <tbody> 
   <tr> 
    <td> 直接郵件<br /> </td> 
-   <td> 透過Adobe Campaign Standard的第一個離線頻道Direct Mail，突破數位障礙，連線到實體世界。 此功能可讓您個人化並產生直接郵件供應商所需的檔案，作為跨頻道行銷活動的一部分。 利用Direct Mail，以吸引人的觸覺式接觸點將客戶引導至您的應用程式、網站或商店，重新與客戶互動或提升客戶體驗。<br />如需詳細資訊，請參閱<a href="../../channels/using/about-direct-mail.md">詳細檔案</a>。<br /> </td> 
+   <td> 透過Adobe Campaign Standard的第一個離線頻道Direct Mail，突破數位障礙，連線到實體世界。 此功能可讓您個人化並產生直接郵件供應商所需的檔案，作為跨頻道行銷活動的一部分。 利用Direct Mail重新與客戶互動，或透過吸引人的觸覺接觸點將客戶引導至您的應用程式、網站或商店，提升客戶體驗。<br /> 如需詳細資訊，請參閱<a href="../../channels/using/about-direct-mail.md">詳細檔案</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 電子郵件密件副本<br /> </td> 
-   <td> 電子郵件密件副本可儲存傳送給個別收件者的不重複電子郵件訊息，因此允許品牌封存這些訊息。 透過將「密件副本」電子郵件地址新增至所有電子郵件，Adobe Campaign Standard客戶可以使用此功能保留每封電子郵件的精確副本。 這是金融服務業的常見法律要求，有助於協助客戶服務中心即時解決衝突。<br />如需詳細資訊，請參閱<a href="../../sending/using/archiving.md">詳細檔案</a>。<br /> </td> 
+   <td> 電子郵件密件副本可儲存傳送給個別收件者的不重複電子郵件訊息，因此允許品牌封存這些訊息。 透過將「密件副本」電子郵件地址新增至所有電子郵件，Adobe Campaign Standard客戶可以使用此功能保留每封電子郵件的精確副本。 這是金融服務業的常見法律要求，有助於協助客戶服務中心即時解決衝突。<br /> 如需詳細資訊，請參閱<a href="../../sending/using/archiving.md">詳細檔案</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -302,23 +309,23 @@ _推播通知_
  <tbody> 
   <tr> 
    <td> Creative SDK的增強影像版本功能<br /> </td> 
-   <td> 您現在可以存取由Creative SDK支援的完整功能集，以便在編輯電子郵件或登入頁面時直接在內容編輯器中增強影像。<br />此功能不需要取得其他Creative Cloud解決方案。<br />如需詳細資訊，請參閱<a href="../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk">詳細檔案</a>。<br /> </td> 
+   <td> 您現在可以存取由Creative SDK支援的完整功能集，以便在編輯電子郵件或登入頁面時直接在內容編輯器中增強影像。<br /> 此功能不需要取得其他Creative Cloud解決方案。<br /> 如需詳細資訊，請參閱<a href="../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk">詳細檔案</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 異動推播通知<br /> </td> 
-   <td> 行動應用程式頻道已新增至Adobe Campaign的交易式傳訊功能。 異動訊息現在支援三個通道：電子郵件、簡訊和推播通知。<br />如需詳細資訊，請參閱<a href="../../channels/using/transactional-push-notifications.md">詳細檔案</a>。<br /> </td> 
+   <td> 行動應用程式頻道已新增至Adobe Campaign的交易式傳訊功能。 異動訊息現在支援三個通道：電子郵件、簡訊和推播通知。<br /> 如需詳細資訊，請參閱<a href="../../channels/using/transactional-push-notifications.md">詳細檔案</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 循環推播通知<br /> </td> 
-   <td> 您現在可以在工作流程中設定循環推播通知。 如果您的客戶預期會定期更新（如每週提醒），以簽出新內容或促銷活動，則您可以使用循環推播通知。<br />如需詳細資訊，請參閱<a href="../../automating/using/push-notification-delivery.md">詳細檔案</a>。<br /> </td> 
+   <td> 您現在可以在工作流程中設定循環推播通知。 如果您的客戶希望定期更新（如每週提醒），以便籤出新內容或促銷活動，則可以使用循環推播通知。<br /> 如需詳細資訊，請參閱<a href="../../automating/using/push-notification-delivery.md">詳細檔案</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Amazon Simple Storage Service (S3)聯結器<br /> </td> 
-   <td> Amazon Simple Storage Service (S3)聯結器現在可用來匯入或匯出資料至Adobe Campaign。 您可以在工作流程活動中設定它。 設定是在外部帳戶中完成。<br />如需詳細資訊，請參閱<a href="../../administration/using/external-accounts.md">詳細檔案</a>。<br /> </td> 
+   <td> Amazon Simple Storage Service (S3)聯結器現在可用來匯入或匯出資料至Adobe Campaign。 您可以在工作流程活動中設定它。 設定是在外部帳戶中完成。<br /> 如需詳細資訊，請參閱<a href="../../administration/using/external-accounts.md">詳細檔案</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Dreamweaver整合即時<br /> </td> 
-   <td> Adobe Campaign與Dreamweaver之間的整合現已上線。 現在可與官方最後發行版本的Dreamweaver (17.0.2)搭配使用。<br />您必須安裝Adobe Campaign Integration延伸模組。 如需詳細資訊，請參閱此<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=zh-Hant">影片</a>.<br /> </td> 
+   <td> Adobe Campaign與Dreamweaver之間的整合現已上線。 現在可與官方上次發行版本的Dreamweaver (17.0.2)搭配使用。<br /> 您必須安裝Adobe Campaign整合擴充功能，才能進行此專案。 如需詳細資訊，請參閱此<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=zh-Hant">影片</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -387,15 +394,15 @@ _推播通知_
  <tbody> 
   <tr> 
    <td> 動態報告<br /> </td> 
-   <td> Dynamic Reporting提供新一代可完全自訂的即時業務報表。 此功能以視覺化動態樞紐表格和圖形為基礎，可讓您拖放變數和維度，以分析行銷活動的效率和成效。 動態報告也可讓您從頭開始建立自己的業務報告，並儲存以供日後使用。<br />如需詳細資訊，請參閱<a href="../../reporting/using/about-dynamic-reports.md">詳細檔案</a>。<br /> </td> 
+   <td> Dynamic Reporting提供新一代可完全自訂的即時業務報表。 此功能以視覺化動態樞紐表格和圖形為基礎，可讓您拖放變數和維度，以分析行銷活動的效率和成效。 動態報告也可讓您從頭開始建立自己的業務報告，並儲存以供日後使用。<br /> 如需詳細資訊，請參閱<a href="../../reporting/using/about-dynamic-reports.md">詳細檔案</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Dreamweaver整合(Labs)<br /> </td> 
-   <td> 透過Adobe Campaign和Dreamweaver整合，您現在已擁有使用Adobe解決方案建立電子郵件行銷活動的整合程式。<br />您可以在Dreamweaver中編輯Adobe Campaign電子郵件，並讓內容在兩個解決方案之間無縫同步。<br />在初始發行中，整合是以「Labs」功能提供，僅適用於Dreamweaver發行前Beta。 如果您想要啟用該功能，請連絡AC-DW-integration@adobe.com。<br />如需詳細資訊，請參閱此<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=zh-Hant">影片</a>。<br /> </td> 
+   <td> 透過Adobe Campaign和Dreamweaver整合，您現在已擁有使用Adobe解決方案建立電子郵件行銷活動的整合程式。<br /> 您可以在Dreamweaver中編輯Adobe Campaign電子郵件，並讓內容在兩個解決方案之間無縫同步。<br /> 初次發行時，整合功能會以「Labs」的形式提供，僅適用於Dreamweaver發行前Beta。 如果您要啟用它，請連絡AC-DW-integration@adobe.com。<br /> 如需詳細資訊，請參閱此<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=zh-Hant">影片</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 手動傳送時間最佳化<br /> </td> 
-   <td> 您現在可以在傳送層級或使用工作流程，手動定義每個收件者的自訂傳送時間。 <br />兩個新選項可供使用： <br /> 
+   <td> 您現在可以在傳送層級或使用工作流程，手動定義每個收件者的自訂傳送時間。<br /> 有兩個新選項可供使用： <br /> 
     <ul> 
      <li> 所有收件者都會收到訊息，其時區已納入考量。 </li> 
      <li> 每個收件者都會在公式所定義的計算日期和時間收到訊息。 </li> 
@@ -414,7 +421,7 @@ _推播通知_
   </tr> 
   <tr> 
    <td> 工作流程：新訊號活動<br /> </td> 
-   <td> 使用新的<span class="uicontrol">訊號</span>活動，從其他工作流程觸發工作流程。<br />由於您能夠從另一個工作流程開始，您現在可以支援更複雜的客戶歷程。 您可以更好地監視客戶歷程，並在發生問題時做出反應。<br />已更新數個工作流程活動：<br /> 
+   <td> 使用新的<span class="uicontrol">訊號</span>活動，從其他工作流程觸發工作流程。<br /> 有了從另一個工作流程啟動工作流程的功能，您現在可以支援更複雜的客戶歷程。 您可以更好地監視客戶歷程，並在發生問題時做出反應。<br /> 已更新數個工作流程活動： <br /> 
     <ul> 
      <li> <span class="uicontrol">結束</span>活動：新的索引標籤可讓您指定此活動執行後要觸發的工作流程。 </li> 
      <li> <span class="uicontrol">更新資料</span>活動：使用新的空的匯出轉變來新增觸發另一個工作流程的<strong>End</strong>活動。 空的匯出轉變不攜帶任何資料，也不會消耗系統上不必要的空間 </li> 
@@ -422,15 +429,15 @@ _推播通知_
   </tr> 
   <tr> 
    <td> 工作流程：新的讀取對象活動<br /> </td> 
-   <td> 以現有對象開始您的目標定位程式，您可以輕鬆選取這些對象，並在一個活動中加以調整。<br />如需詳細資訊，請參閱<a href="../../automating/using/read-audience.md">詳細檔案</a>。<br /> </td> 
+   <td> 以現有對象開始您的目標定位程式，您可以在一個活動中輕鬆選取和調整這些對象。<br /> 如需詳細資訊，請參閱<a href="../../automating/using/read-audience.md">詳細檔案</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 興趣點資料<br /> </td> 
-   <td> 興趣點資料已整合Adobe Campaign與適用於行動裝置的Adobe Analytics。 當使用者開啟品牌的應用程式時，品牌可以從使用者的行動裝置位置（稱為<strong>地標</strong>）收集資料。 這可讓品牌運用Adobe Campaign工作流程，根據使用者的位置傳送個人化訊息。 此管道採用Mobile核心服務的SDK。<br />請注意，使用此功能需要Analytics for Mobile，此為付費解決方案。<br />如需詳細資訊，請參閱<a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">詳細檔案</a>。<br /> </td> 
+   <td> 興趣點資料已整合Adobe Campaign與適用於行動裝置的Adobe Analytics。 當使用者開啟品牌的應用程式時，品牌可以從使用者的行動裝置位置（稱為<strong>地標</strong>）收集資料。 這可讓品牌運用Adobe Campaign工作流程，根據使用者的位置傳送個人化訊息。 此頻道利用行動核心服務的SDK。<br /> 請注意，使用此功能需要Analytics for Mobile，這是付費解決方案。<br /> 如需詳細資訊，請參閱<a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">詳細檔案</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> REST API<br /> </td> 
-   <td> 現在，任何層級連結到設定檔或服務資源的資源可在API中使用。<br />如需詳細資訊，請參閱<a href="../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension">詳細檔案</a>。<br /> </td> 
+   <td> 現在可在API中使用連結到設定檔或服務資源之任何層級的資源。<br /> 如需詳細資訊，請參閱<a href="../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension">詳細檔案</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -470,11 +477,11 @@ _工作流程_
  <tbody> 
   <tr> 
    <td> 外部報告的記錄檔匯出<br /> </td> 
-   <td> 匯出傳送和追蹤記錄等記錄檔，以便在您偏好的報告或BI工具中處理。 您可以使用簡單工作流程搭配增量查詢，以自動定期匯出新記錄。<br />除了資源選擇器的記錄資源可用性之外，還增強了<a href="../../automating/using/incremental-query.md">增量查詢</a>和<a href="../../automating/using/extract-file.md">擷取檔案</a>活動：<br /> 
+   <td> 匯出傳送和追蹤記錄等記錄檔，以便在您偏好的報告或BI工具中處理。 您可以使用簡單的工作流程搭配增量查詢，以自動定期匯出新記錄。<br /> 除了資源選擇器的記錄資源可用性之外，還增強了<a href="../../automating/using/incremental-query.md">增量查詢</a>和<a href="../../automating/using/extract-file.md">擷取檔案</a>活動： <br /> 
     <ul> 
      <li> <span class="uicontrol">增量查詢</span>現在可讓您使用日期欄位來擷取新的或更新後的資料。 以前，即使先前執行的所有結果在上次執行後已更新，也會自動排除。 </li> 
      <li> <span class="uicontrol">擷取檔案</span>現在可以匯出列舉值的標籤，而不是ID。 </li> 
-    </ul> 管理員可使用這些活動來存取所有地理和組織單位。<br />如需匯出記錄檔的詳細資訊，請參閱<a href="../../automating/using/exporting-logs.md">詳細檔案</a>。<br /> </td> 
+    </ul> 這些活動可供擁有所有地理和組織單位存取權的管理員使用。<br /> 如需匯出記錄檔的詳細資訊，請參閱<a href="../../automating/using/exporting-logs.md">詳細檔案</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 異動訊息的行銷功能<br /> </td> 
@@ -522,7 +529,7 @@ _工作流程_
 
 * 修正無法預覽事件資源（例如rtEvent）查詢的問題。
 * **[!UICONTROL Load file]**&#x200B;活動產生的拒絕檔案現在可以在其出站轉變中擷取，並在下一個活動中處理。 例如，使用&#x200B;**[!UICONTROL Transfer file]**&#x200B;透過SFTP伺服器上傳拒絕檔案。
-* 修正在&#x200B;**[!UICONTROL Temporary resource]**&#x200B;的&#x200B;**[!UICONTROL General]**&#x200B;索引標籤中選取&#x200B;**[!UICONTROL Segmentation]**&#x200B;時，使用者無法限制區段母體的問題。
+* 修正在&#x200B;**[!UICONTROL Segmentation]**&#x200B;的&#x200B;**[!UICONTROL General]**&#x200B;索引標籤中選取&#x200B;**[!UICONTROL Temporary resource]**&#x200B;時，使用者無法限制區段母體的問題。
 * **[!UICONTROL Scheduler]**&#x200B;個活動不能再設定為每10分鐘觸發一次以上的工作流程。
 * 修正了可能導致&#x200B;**[!UICONTROL Use common columns]**&#x200B;無法在&#x200B;**[!UICONTROL Union]**&#x200B;活動中正常運作的問題。
 
@@ -530,4 +537,4 @@ _整合_
 
 * 修正在Adobe Campaign中部署事件觸發程式時，可能導致錯誤的問題。 將「30天內回訪的可能性」中繼資料新增至Adobe Marketing Cloud中的放棄觸發程式時，就會發生此錯誤。
 * 修正從People核心服務匯入受眾時，技術工作流程可能清除Target Dimension欄位的問題。 後續查詢無法擷取匯入的對象。
-* 修正核取選項&#x200B;**[!UICONTROL Save audience]**&#x200B;時，工作流程的&#x200B;**[!UICONTROL Share in Adobe Marketing Cloud]**&#x200B;活動可能失敗的問題。
+* 修正核取選項&#x200B;**[!UICONTROL Share in Adobe Marketing Cloud]**&#x200B;時，工作流程的&#x200B;**[!UICONTROL Save audience]**&#x200B;活動可能失敗的問題。

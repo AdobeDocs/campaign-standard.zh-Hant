@@ -8,9 +8,13 @@ feature: Audiences
 role: User
 level: Intermediate
 exl-id: ad380122-6791-4580-b0eb-fce75b1ec863
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/jHYwTvEq0C1VKagn885L8zk5RFXJFO-ySYqMjN31nyo
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: 357
 ht-degree: 1%
 
 ---
@@ -24,7 +28,7 @@ ht-degree: 1%
 * 從服務儀表板檢視目前訂閱您服務的人員清單。 請參閱[服務儀表板](#service-dashboard)。
 * 請參閱服務儀表板中&#x200B;**訂閱歷程記錄**&#x200B;索引標籤的訂閱和取消訂閱歷程記錄。 請參閱[訂閱歷程記錄](#subscription-history)。
 * 顯示詳細說明服務&#x200B;**Reports**&#x200B;中訂閱和取消訂閱演變的報告。 請參閱[服務報告](#service-reports)。
-* 尋找使用者已從其&#x200B;**設定檔**&#x200B;訂閱的服務清單。 檢視連結至設定檔[&#128279;](#history-of-events-linked-to-a-profile)的事件歷程記錄。
+* 尋找使用者已從其&#x200B;**設定檔**&#x200B;訂閱的服務清單。 檢視連結至設定檔](#history-of-events-linked-to-a-profile)的[事件歷程記錄。
 
 ## 服務儀表板 {#service-dashboard}
 

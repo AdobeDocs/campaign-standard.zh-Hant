@@ -7,14 +7,17 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 9b522c84-e296-47c7-9588-2e5ed08ab631
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+TQID: https://experienceleague.adobe.com/lfD2ncth570TSScQZE3UiO3ikqqxpjf4CVd7PvuAFXs
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 40%
+source-wordcount: 182
+ht-degree: 46%
 
 ---
 
-# 種子成員(nms：seedMember)
+# 種子成員(nms:seedMember)
 
 ## 物件說明
 
@@ -39,13 +42,13 @@ ht-degree: 40%
                </tr>
                <tr>
                   <td>已建立</td>
-                  <td>已建立</td>
+                  <td>建立時間</td>
                   <td>日期 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>createdBy (userBase)</td>
-                  <td>建立者：</td>
+                  <td>建立者</td>
                   <td>連結 </td>
                   <td> </td>
                </tr>
@@ -99,7 +102,7 @@ ht-degree: 40%
                </tr>
                <tr>
                   <td>marketingCloudId</td>
-                  <td>MARKETING CLOUDID</td>
+                  <td>MARKETING CLOUD ID</td>
                   <td>字串(256)</td>
                   <td> </td>
                </tr>
@@ -129,7 +132,7 @@ ht-degree: 40%
                </tr>
                <tr>
                   <td>nms_recipient</td>
-                  <td>設定檔</td>
+                  <td>輪廓</td>
                   <td>項目 </td>
                   <td> </td>
                </tr>
@@ -207,7 +210,7 @@ ht-degree: 40%
                </tr>
                <tr>
                   <td>補漏白</td>
-                  <td>補漏白</td>
+                  <td>陷阱</td>
                   <td>布林值 </td>
                   <td> </td>
                </tr>

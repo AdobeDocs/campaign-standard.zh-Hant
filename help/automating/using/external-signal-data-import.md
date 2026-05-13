@@ -10,20 +10,24 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: e2997cf5-861b-4202-aeb7-3a47c4d55bef
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/fQTQgLluJa5WPu4ju1gGs84gWfqQ-sWIWuJSTXgQYHA
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: 229
 ht-degree: 79%
 
 ---
 
 # 外部訊號和資料匯入 {#external-signal-data-import}
 
-以下範例說明典型使用案例中的 **[!UICONTROL External signal]** 活動。在來源工作流程中執行資料匯入。完成匯入並更新資料庫後，就會觸發第二個工作流程。此第二個工作流程用於更新匯入資料的彙總。
+以下範例說明典型使用案例中的 **[!UICONTROL External signal]** 活動。 在來源工作流程中執行資料匯入。 完成匯入並更新資料庫後，就會觸發第二個工作流程。 此第二個工作流程用於更新匯入資料的彙總。
 
 來源工作流程如下所示：
 
-* [載入檔案](../../automating/using/load-file.md)活動會上傳包含新購買資料的檔案。請注意，由於資料庫中預設沒有購買資料，因此[資料庫已相應擴展](../../developing/using/data-model-concepts.md)。
+* [載入檔案](../../automating/using/load-file.md)活動會上傳包含新購買資料的檔案。 請注意，由於資料庫中預設沒有購買資料，因此[資料庫已相應擴展](../../developing/using/data-model-concepts.md)。
 
   例如：
 
@@ -47,6 +51,6 @@ ht-degree: 79%
 
 * [外部訊號](../../automating/using/external-signal.md)活動會等待來源工作流程順利完成。
 * [查詢](../../automating/using/query.md#enriching-data)活動會選擇目標輪廓，並以收集來擴充輪廓，以擷取最後的購買日期。
-* [更新資料](../../automating/using/update-data.md)活動會將其他資料儲存在專用的自訂欄位中。請注意，輪廓資源已擴展到新增&#x200B;**上次購買日期**&#x200B;欄位。
+* [更新資料](../../automating/using/update-data.md)活動會將其他資料儲存在專用的自訂欄位中。 請注意，輪廓資源已擴展到新增&#x200B;**上次購買日期**&#x200B;欄位。
 
 ![](assets/signal_example_source2.png)

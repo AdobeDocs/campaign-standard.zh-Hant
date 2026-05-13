@@ -10,9 +10,13 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 0c26a0f9-9d71-4692-ae86-d47e2df53bb7
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/rja9hRgWDhDnLMNIYwt28rtxJrPyYnuwOa2XKR23uKA
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1765'
+source-wordcount: 1768
 ht-degree: 90%
 
 ---
@@ -23,9 +27,9 @@ ht-degree: 90%
 
 ![](assets/query.png)
 
-**[!UICONTROL Query]** 活動可讓您從 Adobe Campaign 資料庫中篩選及擷取元素總量。您可以透過專用索引標籤來定義目標群體的　**[!UICONTROL Additional data]**。此資料會儲存在其他欄中，且僅能用於進行中的工作流程。
+**[!UICONTROL Query]** 活動可讓您從 Adobe Campaign 資料庫中篩選及擷取元素總量。 您可以透過專用索引標籤來定義目標群體的　**[!UICONTROL Additional data]**。 此資料會儲存在其他欄中，且僅能用於進行中的工作流程。
 
-活動使用查詢編輯器工具。[專屬區段](../../automating/using/editing-queries.md#about-query-editor)中會詳細說明此工具。
+活動使用查詢編輯器工具。 [專屬區段](../../automating/using/editing-queries.md#about-query-editor)中會詳細說明此工具。
 
 **相關主題：**
 
@@ -43,7 +47,7 @@ ht-degree: 90%
 ## 設定 {#configuration}
 
 1. 將 **[!UICONTROL Query]** 活動拖放至工作流程中。
-1. 選取活動，然後使用所顯示快速動作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。依預設，活動會預先設定為搜尋輪廓。
+1. 選取活動，然後使用所顯示快速動作中的 ![](assets/edit_darkgrey-24px.png) 按鈕將其開啟。 依預設，活動會預先設定為搜尋輪廓。
 1. 如果要對輪廓案資源以外的資源運行查詢，請轉至活動的 **[!UICONTROL Properties]** 索引標籤，然後選取 **[!UICONTROL Resource]** 和　**[!UICONTROL Targeting dimension]**。
 
    **[!UICONTROL Resource]** 可讓您調整浮動視窗中顯示的篩選條件，而與所選資源相關的 **[!UICONTROL Targeting dimension]**，則與您要取得的群體類型（識別的輪廓、傳送、連結至所選資源的資料等）相對應。
@@ -56,11 +60,11 @@ ht-degree: 90%
    >
    >鎖定目標對象時，請注意，系統並未參考該對象的定義，但&#x200B;**已將**&#x200B;複製到查詢中。 如果在查詢中鎖定對象後，您對對象進行了任何變更，請確保再次設定查詢以考慮新定義。
 
-1. 您可以透過專用索引標籤來定義目標群體的　**[!UICONTROL Additional data]**。此資料會儲存在其他欄中，且僅能用於進行中的工作流程。尤其是，您可以從連結至查詢目標維度的 Adobe Campaign 資料庫表格新增資料。請參閱[擴充資料](#enriching-data)區段。
+1. 您可以透過專用索引標籤來定義目標群體的　**[!UICONTROL Additional data]**。 此資料會儲存在其他欄中，且僅能用於進行中的工作流程。 尤其是，您可以從連結至查詢目標維度的 Adobe Campaign 資料庫表格新增資料。 請參閱[擴充資料](#enriching-data)區段。
 
    >[!NOTE]
    >
-   >依預設，會在查詢的 **[!UICONTROL Additional data]** 索引標籤的 **[!UICONTROL Advanced options]** 核取 **[!UICONTROL Remove duplicate rows (DISTINCT)]** 選項。如果 **[!UICONTROL Query]** 活動包含許多（來自 100個）已定義的其他資料，則建議基於效能原因取消選中此選項。請注意，取消核取此選項會導致重複，視查詢的資料而定。
+   >依預設，會在查詢的 **[!UICONTROL Additional data]** 索引標籤的 **[!UICONTROL Advanced options]** 核取 **[!UICONTROL Remove duplicate rows (DISTINCT)]** 選項。 如果 **[!UICONTROL Query]** 活動包含許多（來自 100個）已定義的其他資料，則建議基於效能原因取消選中此選項。 請注意，取消核取此選項會導致重複，視查詢的資料而定。
 
 1. 在 **[!UICONTROL Transition]** 索引標籤，**[!UICONTROL Enable an outbound transition]** 選項可讓您在查詢活動後新增出站轉變，即使它未擷取任何資料亦然。
 
@@ -80,7 +84,7 @@ ht-degree: 90%
 
 ![](assets/targeting_dimension1.png)
 
-目標維度和資源會連結。因此，可用的目標維度視選取的資源而定。
+目標維度和資源會連結。 因此，可用的目標維度視選取的資源而定。
 
 例如，對於資源　**[!UICONTROL Profiles (profile)]**，將可使用下列目標維度：
 
@@ -106,43 +110,43 @@ ht-degree: 90%
 
 ## 豐富資料 {#enriching-data}
 
-**[!UICONTROL Query]**、**[!UICONTROL Incremental query]** 及 **[!UICONTROL Enrichment]**　的　**[!UICONTROL Additional data]**　索引標籤可讓您擴充目標資料，並將此資料傳輸至下列工作流程活動，以便在其中使用。您尤其可以新增：
+**[!UICONTROL Query]**、**[!UICONTROL Incremental query]** 及 **[!UICONTROL Enrichment]**　的　**[!UICONTROL Additional data]**　索引標籤可讓您擴充目標資料，並將此資料傳輸至下列工作流程活動，以便在其中使用。 您尤其可以新增：
 
 * 簡單資料
 * 彙總
 * 集合
 
-對於彙總及集合，會自動定義　**[!UICONTROL Alias]**，為複雜運算式提供技術 ID。此別名必須是唯一的，可讓您在之後輕鬆地找到彙總及集合。您可以修改它，使其具有易於識別的名稱。
+對於彙總及集合，會自動定義　**[!UICONTROL Alias]**，為複雜運算式提供技術 ID。 此別名必須是唯一的，可讓您在之後輕鬆地找到彙總及集合。 您可以修改它，使其具有易於識別的名稱。
 
 >[!NOTE]
 >
->別名必須遵守下列語法規則：僅允許使用英數字元和 &quot;_&quot; 字元。別名區分大小寫。別名必須以　&quot;@&quot;　字元開頭。緊接在　&quot;@&quot;　後面的字元不得為數值。例如： @myAlias_1　和　@_1Alias　是正確的；而　@myAlias#1　和　@1Alias　則不正確。
+>別名必須遵守下列語法規則：僅允許使用英數字元和 &quot;_&quot; 字元。 別名區分大小寫。 別名必須以　&quot;@&quot;　字元開頭。 緊接在　&quot;@&quot;　後面的字元不得為數值。 例如： @myAlias_1　和　@_1Alias　是正確的；而　@myAlias#1　和　@1Alias　則不正確。
 
 新增任何其他資料後，您可以根據所定義的其他資料建立條件，將額外的篩選層級套用至最初定位的資料。
 
 >[!NOTE]
 >
->依預設，會在查詢的 **[!UICONTROL Additional data]** 索引標籤的 **[!UICONTROL Advanced options]** 核取 **[!UICONTROL Remove duplicate rows (DISTINCT)]** 選項。如果 **[!UICONTROL Query]** 活動包含許多（來自 100個）已定義的其他資料，則建議基於效能原因取消選中此選項。請注意，取消核取此選項會導致重複，視查詢的資料而定。
+>依預設，會在查詢的 **[!UICONTROL Additional data]** 索引標籤的 **[!UICONTROL Advanced options]** 核取 **[!UICONTROL Remove duplicate rows (DISTINCT)]** 選項。 如果 **[!UICONTROL Query]** 活動包含許多（來自 100個）已定義的其他資料，則建議基於效能原因取消選中此選項。 請注意，取消核取此選項會導致重複，視查詢的資料而定。
 
 [本節](../../automating/using/personalizing-email-with-additional-data.md)中提供了使用案例，說明如何個人化含額外資料的電子郵件。
 
 ### 新增簡單欄位 {#adding-a-simple-field}
 
-將簡單欄位新增為其他資料後，該欄位就會直接顯示在活動的對外轉變中。這可讓使用者檢查，例如，查詢中的資料是否為所需資料。
+將簡單欄位新增為其他資料後，該欄位就會直接顯示在活動的對外轉變中。 這可讓使用者檢查，例如，查詢中的資料是否為所需資料。
 
 1. 從 **[!UICONTROL Additional data]** 索引標籤新增元素。
-1. 在開啟的視窗中，在 **[!UICONTROL Expression]** 欄位選取目標維度中直接可用的其中一個欄位或其中一個連結的維度。您可以編輯運算式，並使用維度欄位中的函式或簡單計算（集合除外）。
+1. 在開啟的視窗中，在 **[!UICONTROL Expression]** 欄位選取目標維度中直接可用的其中一個欄位或其中一個連結的維度。 您可以編輯運算式，並使用維度欄位中的函式或簡單計算（集合除外）。
 
-   如果您編輯的運算式不是簡單的 XPATH 路徑，則會自動建立 **[!UICONTROL Alias]**（例如：&quot;Year(&lt;@birthDate>)&quot;）。您也可以修改其內容。如果您只選取一個欄位（例如：&quot;@age&quot;），您不需要定義　**[!UICONTROL Alias]**。
+   如果您編輯的運算式不是簡單的 XPATH 路徑，則會自動建立 **[!UICONTROL Alias]**（例如：&quot;Year(&lt;@birthDate>)&quot;）。 您也可以修改其內容。 如果您只選取一個欄位（例如：&quot;@age&quot;），您不需要定義　**[!UICONTROL Alias]**。
 
-1. 選取 **[!UICONTROL Add]** 以確認將欄位新增到其他資料。執行查詢時，與新增的欄位對應的附加列將出現在活動的出站轉換中。
+1. 選取 **[!UICONTROL Add]** 以確認將欄位新增到其他資料。 執行查詢時，與新增的欄位對應的附加列將出現在活動的出站轉換中。
 
 ![](assets/enrichment_add_simple_field.png)
 
 ### 新增彙總 {#adding-an-aggregate}
 
-彙總可讓您從目標維度的欄位或連結至目標維度的維度欄位計算值。例如：輪廓購買的平均金額。
-使用包含查詢的彙總時，其函式可傳回零，然後視為 NULL。使用查詢 **[!UICONTROL Output filtering]** 的索引標籤來篩選彙總值：
+彙總可讓您從目標維度的欄位或連結至目標維度的維度欄位計算值。 例如：輪廓購買的平均金額。
+使用包含查詢的彙總時，其函式可傳回零，然後視為 NULL。 使用查詢 **[!UICONTROL Output filtering]** 的索引標籤來篩選彙總值：
 
 * 如果您想要零值，則應對 **[!UICONTROL is null]** 進行篩選。
 * 如果您不想要零值，請對 **[!UICONTROL is not null]** 進行開選。
@@ -152,15 +156,15 @@ ht-degree: 90%
 1. 從 **[!UICONTROL Additional data]** 索引標籤新增元素。
 1. 在開啟的視窗中，選取您要用來在 **[!UICONTROL Expression]** 欄位中建立彙總的集合。
 
-   會自動建立　**[!UICONTROL Alias]**。您也可以返回查詢的 **[!UICONTROL Additional data]** 索引標籤，以修改該項目。
+   會自動建立　**[!UICONTROL Alias]**。 您也可以返回查詢的 **[!UICONTROL Additional data]** 索引標籤，以修改該項目。
 
    將開啟彙總定義視窗。
 
-1. 從　**[!UICONTROL Data]**　索引標籤定義彙總總。根據所選彙總的類型，**[!UICONTROL Expression]**　欄位中只有與其資料相容的元素。例如，總和只能用數值資料計算。
+1. 從　**[!UICONTROL Data]**　索引標籤定義彙總總。 根據所選彙總的類型，**[!UICONTROL Expression]**　欄位中只有與其資料相容的元素。 例如，總和只能用數值資料計算。
 
    ![](assets/enrichment_add_aggregate.png)
 
-   您可以為選取之集合的欄位新增數個彙總。請務必定義明確標籤，以區分活動出站資料詳細資訊中的不同列。
+   您可以為選取之集合的欄位新增數個彙總。 請務必定義明確標籤，以區分活動出站資料詳細資訊中的不同列。
 
    您也可以更改為每個彙總自動定義的別名。
 
@@ -179,9 +183,9 @@ ht-degree: 90%
 ### 新增集合 {#adding-a-collection}
 
 1. 從 **[!UICONTROL Additional data]** 索引標籤新增元素。
-1. 在開啟的視窗中，選取您要新增至　**[!UICONTROL Expression]**　欄位中的集合。會自動建立　**[!UICONTROL Alias]**。您也可以返回查詢的 **[!UICONTROL Additional data]** 索引標籤，以修改該項目。
-1. 選取 **[!UICONTROL Add]**。隨即開啟新視窗，讓您調整想要顯示的收集資料。
-1. 在 **[!UICONTROL Parameters]** 索引標籤中，選取 **[!UICONTROL Collection]** 並定義要新增的集合行數。例如，如果您想要取得每個輪廓執行的三個最近購買，請在　**[!UICONTROL Number of lines to return]**　欄位中輸入　&quot;3&quot;。
+1. 在開啟的視窗中，選取您要新增至　**[!UICONTROL Expression]**　欄位中的集合。 會自動建立　**[!UICONTROL Alias]**。 您也可以返回查詢的 **[!UICONTROL Additional data]** 索引標籤，以修改該項目。
+1. 選取 **[!UICONTROL Add]**。 隨即開啟新視窗，讓您調整想要顯示的收集資料。
+1. 在 **[!UICONTROL Parameters]** 索引標籤中，選取 **[!UICONTROL Collection]** 並定義要新增的集合行數。 例如，如果您想要取得每個輪廓執行的三個最近購買，請在　**[!UICONTROL Number of lines to return]**　欄位中輸入　&quot;3&quot;。
 
    >[!NOTE]
    >
@@ -220,7 +224,7 @@ ht-degree: 90%
 
 ### 根據其他資料篩選目標資料 {#filtering-the-targeted-data-according-to-additional-data}
 
-新增其他資料後，新 **[!UICONTROL Output filtering]** 索引標籤會出現在　**[!UICONTROL Query]**。此標籤可讓您針對標籤中最初定位的資料套用額外的篩選，**[!UICONTROL Target]** 方法是考量新增的資料。
+新增其他資料後，新 **[!UICONTROL Output filtering]** 索引標籤會出現在　**[!UICONTROL Query]**。 此標籤可讓您針對標籤中最初定位的資料套用額外的篩選，**[!UICONTROL Target]** 方法是考量新增的資料。
 
 例如，如果您已將執行至少一個交易的所有輪廓案定位，並且每個輪廓案的平均交易金額的彙總計算都新增到　**[!UICONTROL Additional data]**　中，則可以改善最初使用此平均值計算的群體。
 

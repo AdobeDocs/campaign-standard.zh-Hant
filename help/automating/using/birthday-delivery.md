@@ -1,6 +1,6 @@
 ---
 title: 生日傳遞
-description: 此範例是生日工作流程。每天都會傳送電子郵件給當天生日的設定檔。
+description: 此範例是生日工作流程。 每天都會傳送電子郵件給當天生日的設定檔。
 audience: automating
 content-type: reference
 topic-tags: channel-activities
@@ -10,9 +10,13 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 535ddbce-d8ba-4578-9e37-10604291c95d
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/LXiYfz5VXaY7j0pOHWUCGJzp5F4bCsSCmFzEqsQG18E
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: 174
 ht-degree: 52%
 
 ---
@@ -21,7 +25,7 @@ ht-degree: 52%
 
 ![](assets/wkf_delivery_example_1.png)
 
-此範例是生日工作流程。每天都會傳送電子郵件給當天生日的設定檔。
+此範例是生日工作流程。 每天都會傳送電子郵件給當天生日的設定檔。
 
 若要建置工作流程，請遵循下列步驟：
 
@@ -33,6 +37,6 @@ ht-degree: 52%
 
   ![](assets/wkf_delivery_example_3.png)
 
-* [電子郵件傳遞](../../automating/using/email-delivery.md)是週期性的。 傳送會依月份匯總。所以，在一個月內傳送的所有電子郵件都會彙總成單一檢視。因此，在一年內，會執行 365 個傳送，但會在 Adobe Campaign 介面中重新分組為 12 個檢視（也稱為 **recurring executions**)。歷史記錄和報表詳細資訊會每個月顯示一次，而非每次傳送。
+* [電子郵件傳遞](../../automating/using/email-delivery.md)是週期性的。 傳送會依月份匯總。 所以，在一個月內傳送的所有電子郵件都會彙總成單一檢視。 因此，在一年內，會執行 365 個傳送，但會在 Adobe Campaign 介面中重新分組為 12 個檢視（也稱為 **recurring executions**)。 歷史記錄和報表詳細資訊會每個月顯示一次，而非每次傳送。
 
   ![](assets/wkf_delivery_example_4.png)

@@ -9,9 +9,14 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 5882ada6-dff4-4fd1-a433-0eb31570f73c
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/Im9-z6yuesgiE6sMO-dM9WgPbty2C9d-PWCv5AE-kNY
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: 350
 ht-degree: 0%
 
 ---
@@ -47,6 +52,6 @@ ht-degree: 0%
    * AES的&#x200B;**加密IV** （初始化向量）
    * **頻道** （電子郵件/簡訊/其他）：此欄位允許直接解密電子郵件地址和簡訊號碼。 確定調解金鑰符合&#x200B;**管道**&#x200B;欄位的設定。 如果您選取[其他]，將不會發生這個特定的解密，而且調解金鑰將會用來調解資料。
 
-  Experience Cloud對象可能不會共用，因為技術工作流程已停止或暫停。 直接按一下資料來源中的&#x200B;**[!UICONTROL Import shared audience]**&#x200B;選項，存取&#x200B;**[!UICONTROL Show ImportShared Audience workflow]**&#x200B;工作流程。
+  Experience Cloud對象可能不會共用，因為技術工作流程已停止或暫停。 直接按一下資料來源中的&#x200B;**[!UICONTROL Show ImportShared Audience workflow]**&#x200B;選項，存取&#x200B;**[!UICONTROL Import shared audience]**&#x200B;工作流程。
 
 透過People核心服務共用對象或匯入對象時，可能會遺失部分資料。 只有其ID （「訪客ID」或「宣告ID」）能夠與設定檔維度調解的記錄才會轉移。 Adobe Campaign無法辨識的People核心服務區段之ID不會匯入。

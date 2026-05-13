@@ -9,10 +9,14 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: b39ce1f6-0c5b-4270-86a1-b79c49cd199c
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/a-H7FC1xbixlkhdkCM4cxk7S9Hd3r3e2nD9pMOCHKuk
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 5%
+source-wordcount: 452
+ht-degree: 7%
 
 ---
 
@@ -24,7 +28,7 @@ Adobe Campaign可讓您直接將清單匯出至檔案中，以供日後使用。
 
 匯出清單選項預設會匯出最多100,000行，並由&#x200B;**Nms_ExportListLimit**&#x200B;選項定義。 此選項可由功能管理員在&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**&#x200B;功能表下管理。
 
-擁有&#x200B;**角色的使用者，可在所有具有**&#x200B;清單&#x200B;**[!UICONTROL EXPORT (export)]**&#x200B;模式檢視的畫面中使用匯出清單。
+擁有&#x200B;**[!UICONTROL EXPORT (export)]**&#x200B;角色的使用者，可在所有具有&#x200B;**清單**&#x200B;模式檢視的畫面中使用匯出清單。
 
 1. 移至您選擇的&#x200B;**清單**&#x200B;畫面。 例如，測試設定檔總覽畫面( **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]** )。
 1. 檢查熒幕是否處於&#x200B;**清單**&#x200B;模式。

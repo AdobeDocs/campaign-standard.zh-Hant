@@ -6,16 +6,21 @@ feature: Push
 role: Admin
 level: Experienced
 exl-id: e273b443-7c43-482b-8f86-60ada4b57cbf
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+TQID: https://experienceleague.adobe.com/yBsPSuZxxsrM6Q2wzM7ctsrtUi2txyV8Nx4naMPfuMo
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1134'
-ht-degree: 2%
+source-wordcount: 1210
+ht-degree: 4%
 
 ---
 
 # 推播通知頻道變更 {#push-upgrade}
 
-您可以使用Campaign在Android和iOS裝置上傳送推播通知。 為此，Campaign需仰賴特定的訂閱服務。 Android Firebase Cloud Messaging (FCM)服務的一些重要變更將於2024年發行，可能會影響您的Adobe Campaign實施。 您可能需要更新Android推送訊息的訂閱服務設定，才能支援此變更。
+您可以使用Campaign在Android和iOS裝置上傳送推播通知。 為此，Campaign需仰賴特定的訂閱服務。 Android Firebase Cloud Messaging (FCM)服務的一些重要變更將於2024年發行，可能會影響您的Adobe Campaign實施。 Android 推播訊息訂閱服務設定可能需要更新，才能支援此變更。
 
 此外，Adobe強烈建議改用權杖式連線至APN，而非憑證式連線，因為後者更安全、更可擴充。
 
@@ -57,7 +62,7 @@ To check if you are impacted, you can filter your **Services and Subscriptions**
 
 * 如果您仍在使用此舊版SDK，您必須使用Adobe Experience Platform SDK更新實施。 在[本文章](sdkv4-migration.md)中瞭解如何移轉至Adobe Experience Platform SDK。
 
-* 執行以下步驟之前，請確定您在Adobe Experience Platform Data Collection Mobile中擁有&#x200B;**行動應用程式設定**&#x200B;許可權。 [了解更多資訊](https://experienceleague.adobe.com/docs/experience-platform/collection/permissions.html?lang=zh-Hant#adobe-experience-platform-data-collection-permissions){target="_blank"}。
+* 執行以下步驟之前，請確定您在Adobe Experience Platform Data Collection Mobile中擁有&#x200B;**行動應用程式設定**&#x200B;許可權。 [了解更多資訊](https://experienceleague.adobe.com/docs/experience-platform/collection/permissions.html?lang=en#adobe-experience-platform-data-collection-permissions){target="_blank"}。
 
 
 #### 轉換程式 {#fcm-transition-steps}
@@ -122,7 +127,7 @@ To check if you are impacted, you can filter your **Services and Subscriptions**
 
 #### 先決條件 {#ios-transition-prerequisites}
 
-* 已在&#x200B;**24.1版本**&#x200B;中新增[權杖式驗證](../../rn/using/release-notes.md)模式的支援。 如果您的環境執行於舊版，此變更的先決條件是將您的環境升級至[最新的Campaign Standard版本](../../rn/using/release-notes.md)。
+* 已在[24.1版本](../../rn/using/release-notes.md)中新增&#x200B;**權杖式驗證**&#x200B;模式的支援。 如果您的環境執行於舊版，此變更的先決條件是將您的環境升級至[最新的Campaign Standard版本](../../rn/using/release-notes.md)。
 
 * 您需要APNs驗證Token簽署金鑰才能產生您的伺服器所使用的Token。 如[Apple開發人員檔案](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}所述，您需向Apple開發人員帳戶索取此金鑰。
 

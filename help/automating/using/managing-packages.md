@@ -10,40 +10,46 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: f9b36b4d-0e9d-4dcf-9079-91dc83764102
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/38gc6pZv3d9g2c9X1F3Xhx97xt-mwj-Ey03ZdAwWvgo
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: e656c701-3899-4db3-989c-de0980ddfffa
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: 1063
 ht-degree: 98%
 
 ---
 
 # 管理套件{#managing-packages}
 
-管理員可以定義套件，以透過結構化　XML　檔案在不同　Adobe Campaign　執行個體之間交換資源。這些項目可能是設定參數或資料。
+管理員可以定義套件，以透過結構化　XML　檔案在不同　Adobe Campaign　執行個體之間交換資源。 這些項目可能是設定參數或資料。
 
 這對於在伺服器之間傳輸資料，或是複製執行個體的設定而言，可能非常實用。
 
-套件位於　**[!UICONTROL Administration]** > **[!UICONTROL Deployment]** > **[!UICONTROL Package exports]** 或 **[!UICONTROL Package imports]**　功能表下方。這兩個功能表的運作類似。
+套件位於　**[!UICONTROL Administration]** > **[!UICONTROL Deployment]** > **[!UICONTROL Package exports]** 或 **[!UICONTROL Package imports]**　功能表下方。 這兩個功能表的運作類似。
 
 依預設，每個清單的元素會根據其修改或安裝日期（從最近到最近）顯示。
 
 ![](assets/packages_1.png)
 
-若要顯示和修改元素的內容，請按一下其標籤。請參閱[匯出套件](#exporting-a-package)和[匯入套件](#importing-a-package)區段。
+若要顯示和修改元素的內容，請按一下其標籤。 請參閱[匯出套件](#exporting-a-package)和[匯入套件](#importing-a-package)區段。
 
 ## 套件匯出 {#package-exports}
 
 ### 標準套件 {#standard-packages}
 
-**[!UICONTROL Platform]** 和 **[!UICONTROL Administration]** 是兩個內建套件，每個軟體套件都包含要匯出的預定義資源清單。它們能以唯讀模式開啟，並且僅適於匯出。
+**[!UICONTROL Platform]** 和 **[!UICONTROL Administration]** 是兩個內建套件，每個軟體套件都包含要匯出的預定義資源清單。 它們能以唯讀模式開啟，並且僅適於匯出。
 
 ![](assets/packages_14.png)
 
 >[!IMPORTANT]
 >
->如果匯出的資源具有預設　ID，則不授權匯出套件。因此，必須使用與　Adobe Campaign Standard　標準範本不同的名稱，以變更可匯出資源的　ID。例如，要匯出測試輪廓，不能使用包含值 &quot;SDM&quot; 或 &quot;sdm&quot; 的 ID。
+>如果匯出的資源具有預設　ID，則不授權匯出套件。 因此，必須使用與　Adobe Campaign Standard　標準範本不同的名稱，以變更可匯出資源的　ID。 例如，要匯出測試輪廓，不能使用包含值 &quot;SDM&quot; 或 &quot;sdm&quot; 的 ID。
 >
->嘗試匯出包含預設 ID 的套件時，您會看到錯誤，例如：「&#39;Brands (branding)&#39; 實體類型使用預設 ID (&#39;BRD1&#39;)，在匯入套件時可能會造成衝突。變更此名稱並重複執行作業。」
+>嘗試匯出包含預設 ID 的套件時，您會看到錯誤，例如：「&#39;Brands (branding)&#39; 實體類型使用預設 ID (&#39;BRD1&#39;)，在匯入套件時可能會造成衝突。 變更此名稱並重複執行作業。」
 
 [匯出套件](#exporting-a-package)區段會說明套件會出步驟。
 
@@ -54,7 +60,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->這兩個套件的內容無法修改。相反地，這些套件一律會包含最新的可用資料。您可以[建立自己的套件](#creating-a-package)，以匯出特定元素。
+>這兩個套件的內容無法修改。 相反地，這些套件一律會包含最新的可用資料。 您可以[建立自己的套件](#creating-a-package)，以匯出特定元素。
 
 ### 建立套件 {#creating-a-package}
 
@@ -64,7 +70,7 @@ ht-degree: 98%
 
 1. 從 > **[!UICONTROL Administration]** > **[!UICONTROL Deployment]**　> **[!UICONTROL Package exports]**，按一下套件內容清單中的 **[!UICONTROL Create]** 按鈕。
 
-   元素會立即建立。若要取消建立，請返回清單並核取相對應的方塊以刪除它。
+   元素會立即建立。 若要取消建立，請返回清單並核取相對應的方塊以刪除它。
 
 1. 在套件內容畫面中，指定名稱和　ID。
 1. 如果您想要新增說明並限制特定使用者的存取權限，請按一下　**[!UICONTROL Edit properties]**　按鈕。
@@ -75,15 +81,15 @@ ht-degree: 98%
 
    ![](assets/packages_2.png)
 
-1. 資源按字母順序顯示，並可按名稱篩選。其技術名稱會以方括弧顯示。從清單中選取元素並進行確認。
+1. 資源按字母順序顯示，並可按名稱篩選。 其技術名稱會以方括弧顯示。 從清單中選取元素並進行確認。
 
    ![](assets/packages_3.png)
 
-1. 資源名稱顯示在 **[!UICONTROL Export content]** 索引標籤中。若要修改資源，請核取選相對應的方塊並使用 **[!UICONTROL Show detail of the element selected]** 按鈕。
+1. 資源名稱顯示在 **[!UICONTROL Export content]** 索引標籤中。 若要修改資源，請核取選相對應的方塊並使用 **[!UICONTROL Show detail of the element selected]** 按鈕。
 
    ![](assets/packages_4.png)
 
-1. 使用查詢編輯器可以篩選要匯出的元素。有關詳細資訊，請參閱[編輯查詢](../../automating/using/editing-queries.md#creating-queries)區段。
+1. 使用查詢編輯器可以篩選要匯出的元素。 有關詳細資訊，請參閱[編輯查詢](../../automating/using/editing-queries.md#creating-queries)區段。
 
    ![](assets/packages_5.png)
 
@@ -101,13 +107,13 @@ ht-degree: 98%
 
 >[!CAUTION]
 >
->如果匯出的資源具有現成可用的　ID，則不授權匯出套件。因此，必須使用與　Adobe Campaign Standard　標準範本不同的名稱，以變更可匯出資源的　ID。例如，要匯出測試輪廓，不能使用包含值 &quot;SDM&quot; 或 &quot;sdm&quot; 的 ID。
+>如果匯出的資源具有現成可用的　ID，則不授權匯出套件。 因此，必須使用與　Adobe Campaign Standard　標準範本不同的名稱，以變更可匯出資源的　ID。 例如，要匯出測試輪廓，不能使用包含值 &quot;SDM&quot; 或 &quot;sdm&quot; 的 ID。
 
 1. 從 **[!UICONTROL Administration]** > **[!UICONTROL Deployment]** > **[!UICONTROL Package exports]**&#x200B;中，選取要存取其詳細資訊的套件。
 1. 檢查套件是否包含您所需的資料。
 1. 按一下 **[!UICONTROL Start export]** 按鈕。
 
-匯出的檔案會儲存在使用中瀏覽器的下載資料夾中。它會自動命名為　&quot;package_xxx.xml&quot;，其中　&quot;xxx&quot;　會與套件　ID　相對應。
+匯出的檔案會儲存在使用中瀏覽器的下載資料夾中。 它會自動命名為　&quot;package_xxx.xml&quot;，其中　&quot;xxx&quot;　會與套件　ID　相對應。
 
 操作完成後，會出現幾個區段：
 
@@ -115,7 +121,7 @@ ht-degree: 98%
 
   ![](assets/packages_6.png)
 
-* 您可以透過　**[!UICONTROL Log]**　索引標籤，查詢匯出的不同步驟。這包含所有前期匯出的狀態。
+* 您可以透過　**[!UICONTROL Log]**　索引標籤，查詢匯出的不同步驟。 這包含所有前期匯出的狀態。
 
   ![](assets/packages_7.png)
 
@@ -131,7 +137,7 @@ ht-degree: 98%
 
 ![](assets/packages_15.png)
 
-**[!UICONTROL Execution logs]** 索引標籤會儲存所有匯入步驟。側面板顯示一般資訊。
+**[!UICONTROL Execution logs]** 索引標籤會儲存所有匯入步驟。 側面板顯示一般資訊。
 
 ![](assets/packages_11.png)
 
@@ -141,13 +147,13 @@ ht-degree: 98%
 
 ### 匯入套件 {#importing-a-package}
 
-管理員可以手動匯入源自先前從　Adobe Campaign　執行個體執行的匯出套件。如需詳細資訊，請參閱[套件匯出](#package-exports)區段。
+管理員可以手動匯入源自先前從　Adobe Campaign　執行個體執行的匯出套件。 如需詳細資訊，請參閱[套件匯出](#package-exports)區段。
 
 手動軟體套件匯入由兩個步驟組成：首先，您必須上傳檔案，然後您就可以匯入其內容。
 
 1. 從 **[!UICONTROL Administration]** > **[!UICONTROL Deployment]** > **[!UICONTROL Package imports]**，按一下套件匯入清單中的 **[!UICONTROL Create]** 按鈕。
 
-   元素會立即建立。若要取消建立，請返回清單並核取相對應的方塊以刪除它。
+   元素會立即建立。 若要取消建立，請返回清單並核取相對應的方塊以刪除它。
 
 1. 指定新匯入的名稱和 ID。
 1. 拖放或按一下 **[!UICONTROL Select from folder]** 連結，以選取您要上傳的檔案。
@@ -167,10 +173,10 @@ ht-degree: 98%
 操作完成後，會出現幾個區段：
 
 * **[!UICONTROL Import status]**：本區段顯示操作是否正確執行。
-* 您可以透過 **[!UICONTROL Execution logs]** 索引標籤來查詢匯入的不同步驟。這對於檢視錯誤特別重要。
+* 您可以透過 **[!UICONTROL Execution logs]** 索引標籤來查詢匯入的不同步驟。 這對於檢視錯誤特別重要。
 
   ![](assets/packages_20.png)
 
-在匯入套件後，就無法從相同的元素重新匯入它。您只能修改其標籤和 ID。
+在匯入套件後，就無法從相同的元素重新匯入它。 您只能修改其標籤和 ID。
 
 若要重新匯入相同的套件，您必須返回套件匯入清單、建立元素，然後再次上傳選取的檔案。

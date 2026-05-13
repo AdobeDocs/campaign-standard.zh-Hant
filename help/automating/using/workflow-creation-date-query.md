@@ -10,10 +10,14 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: f611e023-f74c-476e-83b9-aff451f68c81
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/qkMV-OW4cYN-u6R3PYn9kdMt7DgIgxA8WTsDhvLIzJw
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 33%
+source-wordcount: 357
+ht-degree: 35%
 
 ---
 
@@ -44,16 +48,16 @@ ht-degree: 33%
 ## 建立「查詢」活動 {#creating-a-query-activity}
 
 1. 若要選取收件者，請拖放[查詢](../../automating/using/query.md)活動並連按兩下。
-1. 新增&#x200B;**[!UICONTROL Profiles]**&#x200B;並選取值為&#x200B;**[!UICONTROL no longer contact by email]**&#x200B;的&#x200B;**[!UICONTROL no]**。
+1. 新增&#x200B;**[!UICONTROL Profiles]**&#x200B;並選取值為&#x200B;**[!UICONTROL no]**&#x200B;的&#x200B;**[!UICONTROL no longer contact by email]**。
 
 ### 擷取在執行當天的同一天建立的設定檔 {#retrieving-profiles-created-on-the-same-day}
 
 1. 在&#x200B;**[!UICONTROL Profile]**&#x200B;中，拖放&#x200B;**[!UICONTROL Created]**&#x200B;欄位。 並按一下&#x200B;**[!UICONTROL Advanced Mode]**。
    ![](assets/advanced_mode.png)
-1. 在&#x200B;**[!UICONTROL list of functions]**&#x200B;中，連按兩下&#x200B;**[!UICONTROL Day]**&#x200B;節點中的&#x200B;**[!UICONTROL Date]**。
+1. 在&#x200B;**[!UICONTROL list of functions]**&#x200B;中，連按兩下&#x200B;**[!UICONTROL Date]**&#x200B;節點中的&#x200B;**[!UICONTROL Day]**。
 1. 然後，將欄位&#x200B;**[!UICONTROL Created]**&#x200B;插入為引數。
 1. 選取&#x200B;**[!UICONTROL equals to (=)]**&#x200B;作為運運算元。
-1. 對於值，從&#x200B;**[!UICONTROL Day]**&#x200B;中的&#x200B;**[!UICONTROL Date]**&#x200B;節點選取&#x200B;**[!UICONTROL List of functions]**。
+1. 對於值，從&#x200B;**[!UICONTROL List of functions]**&#x200B;中的&#x200B;**[!UICONTROL Date]**&#x200B;節點選取&#x200B;**[!UICONTROL Day]**。
 1. 將&#x200B;**[!UICONTROL GetDate()]**&#x200B;函式插入為引數。
 
 您已擷取建立日期等於當天的設定檔。
@@ -70,7 +74,7 @@ ht-degree: 33%
 
 1. 在&#x200B;**[!UICONTROL Query]**&#x200B;編輯器上，選取第一個查詢並複製它。
 1. 開啟副本。
-1. 在查詢中以&#x200B;**[!UICONTROL Day]**&#x200B;取代&#x200B;**[!UICONTROL Month]**。
+1. 在查詢中以&#x200B;**[!UICONTROL Month]**&#x200B;取代&#x200B;**[!UICONTROL Day]**。
 1. 按一下 **[!UICONTROL Confirm]**。
 
 ![](assets/month_rule.png)

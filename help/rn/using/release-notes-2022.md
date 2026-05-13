@@ -5,9 +5,14 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 8c722084-988d-47bd-98ad-9f5a422980a0
-source-git-commit: e7c9c79a72b9f1ce36d0c60464b36be7d36a50a6
-workflow-type: ht
-source-wordcount: '1254'
+TQID: https://experienceleague.adobe.com/XeyIUqddLskoYUTD8zF1emb99O6HoL0gJrJlbX4V438
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 1254
 ht-degree: 100%
 
 ---
@@ -99,7 +104,7 @@ ht-degree: 100%
 **修補程式**
 
 * 已修復動態報告中的&#x200B;**立即傳送報告**&#x200B;選項的問題：產生 PDF 作業失敗，因傳遞包括多個變體。 (CAMP-49120)
-* 修復了當 Adobe Experience Manager (AEM) 中的重複內容共用同一金鑰 (cq:uuid) 時，使用者無法從其 Adobe Campaign Standard 傳遞中重新整理或取消連結該 AEM 內容問題。(CAMP-49161)
+* 修復了當 Adobe Experience Manager (AEM) 中的重複內容共用同一金鑰 (cq:uuid) 時，使用者無法從其 Adobe Campaign Standard 傳遞中重新整理或取消連結該 AEM 內容問題。 (CAMP-49161)
 * 修復了存取頁面無法載入、無法開啟傳遞或無法儲存任何待修改內容的執行個體時出現問題。 (CAMP-50195)
 * 針對在未填入由標準套用的&#x200B;**傳遞篩選器**&#x200B;欄位時，修復阻止開啟傳遞提醒條件的問題。 (CAMP-49093)
 * 針對在編輯應用程式內傳遞的&#x200B;**次要**&#x200B;按鈕時，修復無法納入變更的問題。 (CAMP-50250)

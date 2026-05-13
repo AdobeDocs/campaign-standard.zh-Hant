@@ -9,9 +9,14 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: b00fdeb9-2431-4209-8a3f-59c7e6ce7c31
-source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
+TQID: https://experienceleague.adobe.com/Ol-6IkRGAr7OGkXQgHhMSYhPfjmg-DY7s2dr6wxFenU
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1663'
+source-wordcount: 1666
 ht-degree: 98%
 
 ---
@@ -53,15 +58,15 @@ ht-degree: 98%
 
 1. 如果您需要定義將提供給使用者的值（分項清單），請核取 **[!UICONTROL Specify a list of authorized values]** 選項。
 
-   然後，按一下 **[!UICONTROL Create element]** 並指定 **[!UICONTROL Label]** 和 **[!UICONTROL Value]**。視需要新增多個值。
+   然後，按一下 **[!UICONTROL Create element]** 並指定 **[!UICONTROL Label]** 和 **[!UICONTROL Value]**。 視需要新增多個值。
 
 1. 在新增欄位後，核取 **[!UICONTROL Add audit fields]** 方塊以包含詳細說明建立日期、建立資源的用戶、日期和上次修改的作者的欄位。
 1. 核取 **[!UICONTROL Add access authorization management fields]** 方塊以包含欄位，指出誰擁有該特定資源的存取權。
 
-   這些欄位會顯示在資料和中繼資料中，當進行資料庫更新後，這些欄位就會顯示出來。有關詳細資訊，請參閱[更新資料庫結構](../../developing/using/updating-the-database-structure.md)區段。
+   這些欄位會顯示在資料和中繼資料中，當進行資料庫更新後，這些欄位就會顯示出來。 有關詳細資訊，請參閱[更新資料庫結構](../../developing/using/updating-the-database-structure.md)區段。
 
-1. 核取 **[!UICONTROL Add automatic ID]** 欄位以自動產生 ID。請注意，現有實體將維持空白。如需詳細資訊，請參閱[產生設定檔和自訂資源的唯一 ID](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)。
-1. 要修改資源元素名稱在清單和建立步驟中的顯示方式，請核取 **[!UICONTROL Customize the title of the resource elements]** 方塊。從為此資源建立的欄位中選取一個欄位。
+1. 核取 **[!UICONTROL Add automatic ID]** 欄位以自動產生 ID。 請注意，現有實體將維持空白。 如需詳細資訊，請參閱[產生輪廓和自訂資源的唯一 ID](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)。
+1. 要修改資源元素名稱在清單和建立步驟中的顯示方式，請核取 **[!UICONTROL Customize the title of the resource elements]** 方塊。 從為此資源建立的欄位中選取一個欄位。
 
    ![](assets/schema_extension_18.png)
 
@@ -73,7 +78,7 @@ ht-degree: 98%
 
 ## 定義識別鍵 {#defining-identification-keys}
 
-每個資源至少必須有一個唯一密鑰。例如，您可以指定索引鍵，讓兩個產品在購買表格中不能有相同的 ID。
+每個資源至少必須有一個唯一密鑰。 例如，您可以指定索引鍵，讓兩個產品在購買表格中不能有相同的 ID。
 
 1. 如果要自動逐步產生技術密鑰，請在 **[!UICONTROL Automatic primary key]** 區段中指定儲存的大小。
 
@@ -101,7 +106,7 @@ ht-degree: 98%
 
 ## 定義索引 {#defining-indexes}
 
-索引可以參考一個或多個資源欄位。索引允許資料庫對記錄進行排序，以便更輕鬆地復原記錄。它們最佳化 SQL 查詢的效能。
+索引可以參考一個或多個資源欄位。 索引允許資料庫對記錄進行排序，以便更輕鬆地復原記錄。 它們最佳化 SQL 查詢的效能。
 
 建議定義索引，但不是強制性的。
 
@@ -136,19 +141,19 @@ ht-degree: 98%
 
    ![](assets/schema_extension_28.png)
 
-1. 資源按字母順序顯示，並可按名稱篩選。其技術名稱會以方括弧顯示。
+1. 資源按字母順序顯示，並可按名稱篩選。 其技術名稱會以方括弧顯示。
 
    從清單中選取元素並按一下 **[!UICONTROL Confirm]**。
 
    ![](assets/schema_extension_9.png)
 
-1. 根據基數選取 **[!UICONTROL Link type]**。根據所選的基數類型，刪除或複製記錄時的行為可能會有所不同。
+1. 根據基數選取 **[!UICONTROL Link type]**。 根據所選的基數類型，刪除或複製記錄時的行為可能會有所不同。
 
    各種連結類型如下：
 
    * **[!UICONTROL 1 cardinality simple link]**：來源表格的一個執行個體最多可以具有目標表格的相對應執行個體。
    * **[!UICONTROL N cardinality collection link]**：來源表格的一個出現次數可以具有多個目標表的相應出現次數，但目標表的一個出現次數最多可以具有來源表格的一個對應出現次數。
-   * **[!UICONTROL 0 or 1 cardinality simple link]**：來源表格的一個執行個體最多可以具有目標表的一個相應執行個體或無。請注意，這類 **[!UICONTROL Link type]** 可能會導致效能問題。
+   * **[!UICONTROL 0 or 1 cardinality simple link]**：來源表格的一個執行個體最多可以具有目標表的一個相應執行個體或無。 請注意，這類 **[!UICONTROL Link type]** 可能會導致效能問題。
 
    ![](assets/schema_extension_29.png)
 
@@ -158,7 +163,7 @@ ht-degree: 98%
    >
    >最多使用 30 個字元。
    >
-   >建立後無法重新命名連結。若要重新命名連結，您必須刪除連結並重新建立連結。
+   >建立後無法重新命名連結。 若要重新命名連結，您必須刪除連結並重新建立連結。
 
 1. **[!UICONTROL Category for the audience and targeting]** 清單可讓您將此連結指派給類別，使其在查詢編輯器工具中更加可見。
 1. 如果需要，**[!UICONTROL Reverse link definition]** 區段可讓您在目標資源中顯示資源的標籤和 ID。
@@ -171,7 +176,7 @@ ht-degree: 98%
 1. 在 **[!UICONTROL Join definition]** 區段中，選取預設 **[!UICONTROL Use the primary keys to make the join]** 選項，但您可以選取兩個選項：
 
    * **[!UICONTROL Use the primary key to make the join]**：此連接定義可讓您使用設定主鍵來調和購買的主鍵。
-   * **[!UICONTROL Define specific join conditions]**：此連接定義可讓您手動選取將連接兩個資源的欄位。請注意，如果資料未正確設定，**Purchase** 記錄將不會顯示。
+   * **[!UICONTROL Define specific join conditions]**：此連接定義可讓您手動選取將連接兩個資源的欄位。 請注意，如果資料未正確設定，**Purchase** 記錄將不會顯示。
 
    ![](assets/schema_extension_17.png)
 
@@ -196,9 +201,9 @@ ht-degree: 98%
 
    ![](assets/custom_resource_link_to_profile_3.png)
 
-1. 如有需要，您可以定義詳細資訊畫面，以便編輯 **Purchase**，並將它連結至設定檔。
+1. 如有需要，您可以定義詳細資訊畫面，以便編輯 **Purchase**，並將它連結至輪廓。
 
-   展開該 **[!UICONTROL Detail screen configuration]** 區段並核取 **[!UICONTROL Define a detail screen]** 以設定與資源的每個元素對應的畫面。如果不核取此方塊，則無法存取此資源元素的詳細檢視。
+   展開該 **[!UICONTROL Detail screen configuration]** 區段並核取 **[!UICONTROL Define a detail screen]** 以設定與資源的每個元素對應的畫面。 如果不核取此方塊，則無法存取此資源元素的詳細檢視。
 
 1. 按一下 **[!UICONTROL Create element]**。
 1. 選取連結的資源，然後按一下 **[!UICONTROL Add]**。
@@ -211,7 +216,7 @@ ht-degree: 98%
 
    您現在可以發佈新資源。
 
-透過新增此連結，**Purchase** 索引標籤標籤會從 **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Profiles]** 功能表新增至設定檔詳細資訊畫面。請注意，這會特定於 **[!UICONTROL Profile]** 資源。
+透過新增此連結，**Purchase** 索引標籤標籤會從 **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Profiles]** 功能表新增至輪廓詳細資訊畫面。 請注意，這會特定於 **[!UICONTROL Profile]** 資源。
 
 ![](assets/custom_resource_link_to_profile.png)
 
@@ -219,8 +224,8 @@ ht-degree: 98%
 
 發送日誌擴展可讓您：
 
-* 若要透過新增設定檔自訂欄位來擴充 **動態報表功能**
-* 使用區段代碼和設定檔資料來擴充 **傳送記錄檔資料**
+* 若要透過新增輪廓自訂欄位來擴充 **動態報表功能**
+* 使用區段代碼和輪廓資料來擴充 **傳送記錄檔資料**
 
 **使用區段代碼擴充**
 
@@ -234,21 +239,21 @@ ht-degree: 98%
 
 如需區段代碼的詳細資訊，請參閱[分段](../../automating/using/segmentation.md)區段。
 
-**使用設定檔欄位擴充**
+**使用輪廓欄位擴充**
 
 >[!NOTE]
 >
->管理員應該已使用自訂欄位擴展設定檔資源。
+>管理員應該已使用自訂欄位擴展輪廓資源。
 
 ![](assets/sendinglogsextension_2.png)
 
-按一下 **[!UICONTROL Add field]** 並從設定檔資源中選取任何自訂欄位。
+按一下 **[!UICONTROL Add field]** 並從輪廓資源中選取任何自訂欄位。
 
-要產生連結到「設定檔」維的新子維，請核取該 **[!UICONTROL Add this field in Dynamic reporting as a new dimension]** 選項。
+要產生連結到「輪廓」維的新子維，請核取該 **[!UICONTROL Add this field in Dynamic reporting as a new dimension]** 選項。
 
 ![](assets/sendinglogsextension_3.png)
 
-從動態報表，您可以將自訂欄位維度拖放至自由表格。
+從動態報表，您可以將自訂欄位維度拖放至自由格式表格。
 
 有關動態報告的詳細資訊，請參閱[元件清單](../../reporting/using/list-of-components.md)。
 
@@ -258,7 +263,7 @@ ht-degree: 98%
 
 ## 編輯資源屬性 {#editing-resource-properties}
 
-在自訂資源螢幕中，**[!UICONTROL Summary]** 窗格指示新建立的資源的狀態。您可以管理其存取權及其一般屬性。
+在自訂資源螢幕中，**[!UICONTROL Summary]** 窗格指示新建立的資源的狀態。 您可以管理其存取權及其一般屬性。
 
 ![](assets/schema_extension_3.png)
 
@@ -272,34 +277,34 @@ ht-degree: 98%
    >
    >最多使用 30 個字元。
 
-1. 如果您需要限制特定組織單位對此資源的存取權限，請在此處指定這些單位。只有授權單位的使用者才能在應用程式中使用此資源。
+1. 如果您需要限制特定組織單位對此資源的存取權限，請在此處指定這些單位。 只有授權單位的使用者才能在應用程式中使用此資源。
 1. 儲存修改。
 
-您的修改會儲存。您需要再次發佈資源以套用資源。
+您的修改會儲存。 您需要再次發佈資源以套用資源。
 
 ## 為設定檔和自訂資源產生唯一識別碼 {#generating-a-unique-id-for-profiles-and-custom-resources}
 
-依預設，設定檔和自訂資源在建立時沒有業務 ID。您可以啟用在建立元素時自動產生唯一ID的選項。此 ID 可用於：
+依預設，輪廓和自訂資源在建立時沒有業務 ID。 您可以啟用在建立元素時自動產生唯一ID的選項。 此 ID 可用於：
 
 * 在外部工具中輕鬆識別匯出的記錄。
 * 匯入在其他應用程式中處理的更新資料時，調和記錄。
 
-僅可針對設定檔和自訂資源啟用。
+僅可針對輪廓和自訂資源啟用。
 
-1. 為設定檔資源建立擴展或建立新資源。
+1. 為輪廓資源建立擴展或建立新資源。
 1. 在資料結構定義中，核取 **[!UICONTROL Add automatic ID field]** 區段下的 **[!UICONTROL Fields]** 選項。
 
    ![](assets/option_id_field.png)
 
    >[!NOTE]
    >
-   >只有新記錄有ACS ID。在啟用此選項之前，對於已建立的設定檔或元素，**[!UICONTROL ACS ID]** 欄位將保持空白。
+   >只有新記錄有ACS ID。 在啟用此選項之前，對於已建立的輪廓或元素，**[!UICONTROL ACS ID]** 欄位將保持空白。
 
-1. 儲存並發佈對資源所進行的修改。如果您想要此機制套用至透過 API 建立的元素，請核取擴充 API 的選項。
+1. 儲存並發佈對資源所進行的修改。 如果您想要此機制套用至透過 API 建立的元素，請核取擴充 API 的選項。
 
-現在 **[!UICONTROL ACS ID]** 欄位可供使用，並在手動、從 API 或從匯入工作流程插入新元素時自動填入。ACS ID 欄位是 UUID 欄位，並且已編製索引。
+現在 **[!UICONTROL ACS ID]** 欄位可供使用，並在手動、從 API 或從匯入工作流程插入新元素時自動填入。 ACS ID 欄位是 UUID 欄位，並且已編製索引。
 
-現在，在匯出設定檔或自訂資源時，如果 **[!UICONTROL ACS ID]** 欄已為該資源啟用，則可以新增該列。您可以在外部工具中重複使用此 ID 來識別記錄。
+現在，在匯出輪廓或自訂資源時，如果 **[!UICONTROL ACS ID]** 欄已為該資源啟用，則可以新增該列。 您可以在外部工具中重複使用此 ID 來識別記錄。
 
 ![](assets/export_id_field.png)
 
@@ -307,6 +312,6 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->在啟用選項之前，不會針對已建立的設定檔或元素更新 **[!UICONTROL ACS ID]** 欄位。只有新記錄有ACS ID。
+>在啟用選項之前，不會針對已建立的輪廓或元素更新 **[!UICONTROL ACS ID]** 欄位。 只有新記錄有ACS ID。
 >
->此欄位處於唯讀模式。您無法修改它。
+>此欄位處於唯讀模式。 您無法修改它。

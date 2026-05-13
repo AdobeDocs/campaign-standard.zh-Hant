@@ -9,23 +9,28 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 88007e6f-2cdd-4fea-9739-525beaf7c658
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/p8VXPIBMiH5wLdLlD0aIoOmZPzKtxq0oT-tb8BG8kAk
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: 999
 ht-degree: 90%
 
 ---
 
 # 棄用觸發程式使用案例{#abandonment-triggers-use-cases}
 
-本節介紹可使用 Adobe Campaign 與 Experience Cloud 觸發程式之間的整合，以實施的不同使用案例。您會找到兩個使用案例的範例：
+本節介紹可使用 Adobe Campaign 與 Experience Cloud 觸發程式之間的整合，以實施的不同使用案例。 您會找到兩個使用案例的範例：
 
 * [瀏覽放棄觸發程式](#browse-abandonment-trigger)：傳送通訊給放棄造訪您網站的客戶。
 * [搜尋放棄觸發程式](#search-abandonment-trigger)：與在您網站上搜尋但未購買的訪客重新互動。
 
 >[!NOTE]
 >
->本節所述的使用案例取決於 Experience Cloud 訪客 ID。您也可以使用 Experience Cloud Delaced ID 來實作。也支援雜湊和加密的宣告 ID。您可以直接解密加密的電子郵件地址/行動電話號碼，將電子郵件/簡訊傳送至不存在 Campaign 的輪廓。但在此情況下，無法使用運用輪廓資料的個人化。
+>本節所述的使用案例取決於 Experience Cloud 訪客 ID。 您也可以使用 Experience Cloud Delaced ID 來實作。 也支援雜湊和加密的宣告 ID。 您可以直接解密加密的電子郵件地址/行動電話號碼，將電子郵件/簡訊傳送至不存在 Campaign 的輪廓。 但在此情況下，無法使用運用輪廓資料的個人化。
 
 ## 先決條件 {#pre-requisites}
 
@@ -43,7 +48,7 @@ ht-degree: 90%
 
 ## 瀏覽放棄觸發器 {#browse-abandonment-trigger}
 
-在此使用案例中，我們將建立簡單觸發程式，每次客戶放棄瀏覽網站時都會觸發。此範例假設您已擁有 DTM 收集資料並推播至 Adobe Analytics，且已建立您的所有事件。
+在此使用案例中，我們將建立簡單觸發程式，每次客戶放棄瀏覽網站時都會觸發。 此範例假設您已擁有 DTM 收集資料並推播至 Adobe Analytics，且已建立您的所有事件。
 
 ### 建立Experience Cloud觸發器 {#creating-an-experience-cloud-trigger}
 
@@ -55,7 +60,7 @@ ht-degree: 90%
 
    ![](assets/trigger_uc_browse_2.png)
 
-1. 對於此使用案例，我們需要簡單的放棄觸發程式。其商業目的是識別瀏覽旅行預訂網站、瀏覽「交易」頁面但不預訂任何旅行的訪客。我們識別此客群之後，我們就會在短時間內與他們聯絡。在此範例中，我們選取在　10　分鐘後傳送觸發程式。
+1. 對於此使用案例，我們需要簡單的放棄觸發程式。 其商業目的是識別瀏覽旅行預訂網站、瀏覽「交易」頁面但不預訂任何旅行的訪客。 我們識別此客群之後，我們就會在短時間內與他們聯絡。 在此範例中，我們選取在　10　分鐘後傳送觸發程式。
 
    ![](assets/trigger_uc_browse_3.png)
 
@@ -78,7 +83,7 @@ ht-degree: 90%
 
    ![](assets/trigger_uc_browse_6bis.png)
 
-1. 在　Adobe Campaign　中發佈觸發程式。此過程將自動建立交易式訊息範本。
+1. 在　Adobe Campaign　中發佈觸發程式。 此過程將自動建立交易式訊息範本。
 
    ![](assets/trigger_uc_browse_6.png)
 
@@ -88,7 +93,7 @@ ht-degree: 90%
 
    ![](assets/trigger_uc_browse_8.png)
 
-1. 發佈訊息範本。觸發程式現在已可正常運作。
+1. 發佈訊息範本。 觸發程式現在已可正常運作。
 
    ![](assets/trigger_uc_browse_0.png)
 
@@ -120,24 +125,24 @@ ht-degree: 90%
 
 ## 搜尋放棄觸發程式 {#search-abandonment-trigger}
 
-在此使用案例中，我們將建立觸發程式，以與造訪旅行預訂網站、搜尋目的地、找不到成功結果且之後未預訂任何內容的訪客重新互動。一般程式與上一個使用案例相同（請參閱[瀏覽放棄觸發器](#browse-abandonment-trigger)）。我們此處著重於討論如何個人化再行銷電子郵件訊息。
+在此使用案例中，我們將建立觸發程式，以與造訪旅行預訂網站、搜尋目的地、找不到成功結果且之後未預訂任何內容的訪客重新互動。 一般程式與上一個使用案例相同（請參閱[瀏覽放棄觸發器](#browse-abandonment-trigger)）。 我們此處著重於討論如何個人化再行銷電子郵件訊息。
 
 ### 建立Experience Cloud觸發器 {#creating-an-experience-cloud-trigger-1}
 
-請依照上述使用案例中所述的步驟，建立 Experience Cloud 觸發程式。請參閱[建立 Experience Cloud 觸發程式](#creating-an-experience-cloud-trigger)。主要差異在於觸發程式定義。
+請依照上述使用案例中所述的步驟，建立 Experience Cloud 觸發程式。 請參閱[建立 Experience Cloud 觸發程式](#creating-an-experience-cloud-trigger)。 主要差異在於觸發程式定義。
 
 ![](assets/trigger_uc_search_1.png)
 
-**[!UICONTROL Include Meta Data]** 區段可讓您將從 Analytics 收集到的任何資料傳遞至觸發裝載。在此範例中，我們會建立自訂 eVar（例如 eVar 3）以收集訪客輸入的搜尋詞。然後，此詞彙將用於傳送給相同訪客的交易式電子郵件訊息中。
+**[!UICONTROL Include Meta Data]** 區段可讓您將從 Analytics 收集到的任何資料傳遞至觸發裝載。 在此範例中，我們會建立自訂 eVar（例如 eVar 3）以收集訪客輸入的搜尋詞。 然後，此詞彙將用於傳送給相同訪客的交易式電子郵件訊息中。
 
 ### 在Adobe Campaign中使用觸發器 {#using-the-trigger-in-adobe-campaign-1}
 
-1. 請依照先前使用案例中所述的步驟，在 Adobe Campaign 中建立觸發程式。請參閱在[&#x200B; Adobe Campaign 中使用觸發程式](#using-the-trigger-in-adobe-campaign)。主要差異在於我們在 Adobe Campaign 中存取和使用觸發程式裝載中推播之中繼資料的方式。
+1. 請依照先前使用案例中所述的步驟，在 Adobe Campaign 中建立觸發程式。 請參閱在[ Adobe Campaign 中使用觸發程式](#using-the-trigger-in-adobe-campaign)。 主要差異在於我們在 Adobe Campaign 中存取和使用觸發程式裝載中推播之中繼資料的方式。
 1. 在您於 Adobe Campaign 中建立的「搜尋放棄」觸發程式中，按一下 **[!UICONTROL Event content and enrichment]** 圖示以檢視推播至 Adobe Campaign 的裝載。
 
    ![](assets/trigger_uc_search_2.png)
 
-1. 如您所見，自訂 eVar 會傳遞至觸發裝載，並對應至&#x200B;**事件內容**&#x200B;表格 (ctx)。我們現在可以存取它，以個人化交易式訊息。
+1. 如您所見，自訂 eVar 會傳遞至觸發裝載，並對應至&#x200B;**事件內容**&#x200B;表格 (ctx)。 我們現在可以存取它，以個人化交易式訊息。
 
    ![](assets/trigger_uc_search_3.png)
 
@@ -151,14 +156,14 @@ ht-degree: 90%
 
 ### 執行情境 {#running-the-scenario-1}
 
-1. 訪客前往旅行預訂網站並搜尋目的地。在此範例中，訪客正在尋找日本之旅，但找不到任何結果。這是我們回覆此訪客並建議其他旅行計畫的機會。
+1. 訪客前往旅行預訂網站並搜尋目的地。 在此範例中，訪客正在尋找日本之旅，但找不到任何結果。 這是我們回覆此訪客並建議其他旅行計畫的機會。
 
    ![](assets/trigger_uc_search_6.png)
 
    >[!NOTE]
    >
-   >在此使用案例中，我們假設訪客/收件者已開啟並按一下來自相同網站的電子郵件。這可讓我們使用和收集 VisitorID，並將它對應至收件者。我們只需執行這個作業一次。
+   >在此使用案例中，我們假設訪客/收件者已開啟並按一下來自相同網站的電子郵件。 這可讓我們使用和收集 VisitorID，並將它對應至收件者。 我們只需執行這個作業一次。
 
-1. 稍後，相同的訪客/收件者會收到再行銷訊息。訊息包含最近搜尋的目的地。
+1. 稍後，相同的訪客/收件者會收到再行銷訊息。 訊息包含最近搜尋的目的地。
 
    ![](assets/trigger_uc_search_7.png)

@@ -9,9 +9,14 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: 57e85f8e-65b4-44ea-98e6-0c555acf6dee
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/WpIRNQtob-mtXSfXYBklwkcObjScygqUrHWRnJOscrM
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: 961
 ht-degree: 0%
 
 ---
@@ -96,7 +101,7 @@ OAuth存取權杖可讓整合工具透過網頁API向您的Microsoft Dynamics 36
 
    填寫新使用者的畫面。  引數建議：
 
-   * **[!UICONTROL User Name]** （電子郵件）： adobe_api_`<stage-or-prod>`@`<your-d365-hostname>`&quot; (例如adobe_api_stage@some-company.crm.dynamics.com)
+   * **[!UICONTROL User Name]** （電子郵件）： adobe_api_`<stage-or-prod>`@`<your-d365-hostname>`&quot; （例如adobe_api_stage@some-company.crm.dynamics.com）
    * **[!UICONTROL Application ID]**：您在Azure AD中註冊的應用程式識別碼（此為必要專案）
    * 您可以留空&#x200B;**[!UICONTROL Application ID URI]**&#x200B;和&#x200B;**[!UICONTROL Azure AD Object ID]**
    * **[!UICONTROL Full Name]**： Adobe API `<stage or prod>`
@@ -114,7 +119,7 @@ OAuth存取權杖可讓整合工具透過網頁API向您的Microsoft Dynamics 36
 
 ### 取得租使用者ID {#get-the-tenant-id}
 
-依照此頁面[中的指示](https://docs.microsoft.com/en-us/onedrive/find-your-office-365-tenant-id)尋找您的租使用者ID。  在整合工具的預先整合設定期間，您會需要此ID。
+依照此頁面](https://docs.microsoft.com/en-us/onedrive/find-your-office-365-tenant-id)中的指示[尋找您的租使用者ID。  在整合工具的預先整合設定期間，您會需要此ID。
 
 ## 安裝適用於Microsoft Dynamics 365的Campaign Standard {#install-appsource-app}
 
@@ -124,7 +129,7 @@ OAuth存取權杖可讓整合工具透過網頁API向您的Microsoft Dynamics 36
 或者，您也可以瀏覽至此[連結](https://appsource.microsoft.com/en-us/product/dynamics-365/adobe.adobe_campaign_d365?tab=Overview){target="_blank"}。
 1. 依照指示為您的Dynamics 365執行個體安裝應用程式。
 1. 安裝後，請導覽至您的Dynamics 365執行個體並以管理員身分登入。
-1. 按一下右上角的齒輪圖示，然後按一下&#x200B;**[!UICONTROL Advanced Settings]**。 在頂端橫幅中，按一下&#x200B;**[!UICONTROL Settings]**&#x200B;旁的下拉式清單，再按一下&#x200B;**[!UICONTROL Processes]**&#x200B;下方的&#x200B;**[!UICONTROL Process Center]**。
+1. 按一下右上角的齒輪圖示，然後按一下&#x200B;**[!UICONTROL Advanced Settings]**。 在頂端橫幅中，按一下&#x200B;**[!UICONTROL Settings]**&#x200B;旁的下拉式清單，再按一下&#x200B;**[!UICONTROL Process Center]**&#x200B;下方的&#x200B;**[!UICONTROL Processes]**。
 1. 搜尋&#x200B;**[!UICONTROL Adobe Campaign Email Bounce]**&#x200B;工作並按一下它。
 1. 在「**[!UICONTROL Administration]**」標籤上，按一下頂端功能區的「**[!UICONTROL Actions]**」，將擁有者變更為先前建立的Adobe API應用程式使用者，然後選取「**[!UICONTROL Assign to another User]**」選項，再從下拉式清單中選取「**[!UICONTROL Adobe API application user]**」進行指派。
 1. 重新啟用程式。

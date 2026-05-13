@@ -9,9 +9,14 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: fa39eb54-9ec0-4aff-94a8-5459f4c496d0
-source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
+TQID: https://experienceleague.adobe.com/yMObKVSUHuRFlzf7DgbbH3iwsNXTknAasYIfF37fy4E
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: 773
 ht-degree: 90%
 
 ---
@@ -30,18 +35,18 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->如果修改或刪除用於事件之自訂資源的欄位，則相對應的事件將會自動取消發佈。請參閱[取消發佈交易式事件](../../channels/using/publishing-transactional-event.md#unpublishing-an-event)。
+>如果修改或刪除用於事件之自訂資源的欄位，則相對應的事件將會自動取消發佈。 請參閱[取消發佈交易式事件](../../channels/using/publishing-transactional-event.md#unpublishing-an-event)。
 
 1. 從進階功能表，透過 Adobe Campaign 標誌，依序選取 **[!UICONTROL Administration]** > **[!UICONTROL Development]** 及 **[!UICONTROL Publishing]**。
 1. 依預設，會核取 **[!UICONTROL Determine modifications since the last publication]** 選項，這代表僅會套用自上次更新後所進行的變更。
 
    >[!NOTE]
    >
-   >如果 **[!UICONTROL Repair database structure]** 在發佈完成之前失敗，則應重新建立正確的設定。將刪除直接在資料庫中執行且未使用自訂資源的任何修改。
+   >如果 **[!UICONTROL Repair database structure]** 在發佈完成之前失敗，則應重新建立正確的設定。 將刪除直接在資料庫中執行且未使用自訂資源的任何修改。
 
    ![](assets/schema_extension_12.png)
 
-1. 按一下 **[!UICONTROL Prepare publication]** 按鈕以開始分析。請注意，當執行個體未因工作流程而忙碌時，應進行大型資料表更新。
+1. 按一下 **[!UICONTROL Prepare publication]** 按鈕以開始分析。 請注意，當執行個體未因工作流程而忙碌時，應進行大型資料表更新。
 
    若要進一步瞭解在 Profiles &amp; Services API 上執行的動作，請參閱[使用 API 擴充功能發佈資源](#publishing-a-resource-with-api-extension)。
 
@@ -58,25 +63,25 @@ ht-degree: 90%
    >
    >如果您對資源進行新的變更，則必須對要套用的變更重複執行此作業。
 
-   如果資源在發佈前具有 **[!UICONTROL Pending re-draft]** 狀態，則會出現其他訊息並邀請您檢查動作，因為發佈會導致最終的變更（刪除欄、資料表…）。為協助您執行上次的變更，可使用 **[!UICONTROL SQL Script]** 標籤。它提供將在發佈期間執行的 SQL 命令。
+   如果資源在發佈前具有 **[!UICONTROL Pending re-draft]** 狀態，則會出現其他訊息並邀請您檢查動作，因為發佈會導致最終的變更（刪除欄、資料表…）。 為協助您執行上次的變更，可使用 **[!UICONTROL SQL Script]** 標籤。 它提供將在發佈期間執行的 SQL 命令。
 
    ![](assets/schema_extension_scriptsql.png)
 
    >[!NOTE]
    >
-   >按一下 **[!UICONTROL Cancel re-draft]** 按鈕可停止「重新繪製」過程。此動作會將資源的狀態恢復到其原始狀態。
+   >按一下 **[!UICONTROL Cancel re-draft]** 按鈕可停止「重新繪製」過程。 此動作會將資源的狀態恢復到其原始狀態。
 
 1. 如果您的出版物失敗，您隨時都可以按一下 **[!UICONTROL Back to latest successful publication]**，以返回上一個出版物。
 
-   請注意，如果您的出版物處於失敗狀態，當您登入執行個體時，系統會立即開啟一個快顯視窗，提醒您修正此出版物。除非您的出版物已經修正，否則執行個體將不會升級為新產品版本。
+   請注意，如果您的出版物處於失敗狀態，當您登入執行個體時，系統會立即開啟一個快顯視窗，提醒您修正此出版物。 除非您的出版物已經修正，否則執行個體將不會升級為新產品版本。
 
    ![](assets/schema_extension_31.png)
 
 ## 使用API擴充功能發佈資源 {#publishing-a-resource-with-api-extension}
 
-您可以在下列情況下建立「設定檔與服務 API」:
+您可以在下列情況下建立「輪廓與服務 API」:
 
-* 當您擴充自訂資源 **[!UICONTROL Profiles]** 或 **[!UICONTROL Services]**&#x200B;時，可執行「設定檔與服務 API」的更新，以整合自訂資源擴充功能中宣告的欄位。
+* 當您擴充自訂資源 **[!UICONTROL Profiles]** 或 **[!UICONTROL Services]**&#x200B;時，可執行「輪廓與服務 API」的更新，以整合自訂資源擴充功能中宣告的欄位。
 * 當您定義自訂資源並建立自訂資源之間的連結 **[!UICONTROL Profiles]** 或 **[!UICONTROL Services]** 時，您可以執行更新並將新資源包含在 API 中。
 
 您可以在出版物畫面中選取此選項。
@@ -87,13 +92,13 @@ ht-degree: 90%
 
 * 如果已發佈 API（亦即，您已擴充資源並核取此選項一次），則會強制進行 API 更新。
 
-  事實上，一旦建立 API 後，每當您再次發佈 API 時，API 就會自動更新。這是為了避免中斷此 API 的設定檔或服務資源，以及對您執行個體造成傷害。
+  事實上，一旦建立 API 後，每當您再次發佈 API 時，API 就會自動更新。 這是為了避免中斷此 API 的輪廓或服務資源，以及對您執行個體造成傷害。
 
 請注意，自訂資源預設會進行整合，但針對此特定行為，若您不想發佈此資源，則可選取 **[!UICONTROL Resource Properties]** 中的可用 **[!UICONTROL Hide this resource from APIs]** 選項。
 
 ![](assets/removefromextoption.png)
 
-在 **[!UICONTROL Prepare Publication]** 步驟後，Adobe Campaign 會在標籤 **[!UICONTROL Profiles & Services API Preview]** 中的出版物之後顯示 API 目前版本與未來版本之間的差值。如果您是第一次擴充 API，差值會將現成的自訂資源定義和您的擴充功能進行比較。
+在 **[!UICONTROL Prepare Publication]** 步驟後，Adobe Campaign 會在標籤 **[!UICONTROL Profiles & Services API Preview]** 中的出版物之後顯示 API 目前版本與未來版本之間的差值。 如果您是第一次擴充 API，差值會將現成的自訂資源定義和您的擴充功能進行比較。
 
 此標籤中顯示的資訊分為三個部分：新增、刪除和修改的元素。
 
@@ -103,6 +108,6 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->此出版物會更新 **[!UICONTROL profilesAndServicesExt]** API。未更新 **[!UICONTROL profilesAndServices]** API。
+>此出版物會更新 **[!UICONTROL profilesAndServicesExt]** API。 未更新 **[!UICONTROL profilesAndServices]** API。
 
 如需Adobe Campaign Standard API的詳細資訊，請參閱[本節](../../api/using/get-started-apis.md)。

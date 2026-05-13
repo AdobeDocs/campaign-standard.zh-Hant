@@ -9,10 +9,14 @@ feature: Landing Pages
 role: User
 level: Intermediate
 exl-id: 29d1badf-9ce3-470c-9bdc-169586d2e943
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/vJyIRO33IjK6o3--ekx-Iw9K-GcIZMViLz9wEr-kxY0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 94%
+source-wordcount: 230
+ht-degree: 93%
 
 ---
 
@@ -23,7 +27,7 @@ Campaign 隨附一組內建的登錄頁面範本：
 * **[!UICONTROL Acquisition]**：這是登錄頁面的預設範本，可讓您擷取和更新 Campaign 資料庫中的資料。
 * **[!UICONTROL Subscription]**：此範本應用於提供服務的訂閱。
 * **[!UICONTROL Unsubscription]**：此範本可從寄送給訂閱者的電子郵件連結至服務，讓他們得以取消訂閱此服務。
-* **[!UICONTROL Denylist]**：此範本應在設定檔不想再由 Campaign 聯絡時使用。如需封鎖清單管理的詳細資訊，請參閱[關於Campaign中的加入和退出](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)。
+* **[!UICONTROL Denylist]**：此範本應在輪廓不想再由 Campaign 聯絡時使用。 如需封鎖清單管理的詳細資訊，請參閱[關於Campaign中的加入和退出](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)。
 
 這些範本在建立新登錄頁面時，預設會建議使用。
 
@@ -33,9 +37,9 @@ Campaign 隨附一組內建的登錄頁面範本：
 
 >[!NOTE]
 >
->Adobe 建議複製內建範本，以建立您自己的範本。有些參數只能在登錄頁面範本中設定，而無法直接在登錄頁面中修改。
+>Adobe 建議複製內建範本，以建立您自己的範本。 有些參數只能在登錄頁面範本中設定，而無法直接在登錄頁面中修改。
 
-建立範本時，建議將 **&#39;type&#39;** 屬性新增至標籤。編輯器將處理此資訊，並幫助使用者在設定 Web 應用程式時將資料庫欄位連結到表單欄位。
+建立範本時，建議將 **&#39;type&#39;** 屬性新增至標籤。 編輯器將處理此資訊，並幫助使用者在設定 Web 應用程式時將資料庫欄位連結到表單欄位。
 
 範本中的 HTML 程式碼範例：
 

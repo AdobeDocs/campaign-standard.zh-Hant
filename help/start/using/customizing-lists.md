@@ -1,6 +1,6 @@
 ---
 title: 自訂清單
-description: 「瞭解如何在Adobe Campaign Standard中自訂顯示並在清單熒幕上操作：排序、篩選、刪除或複製元素。 列出畫面會顯示一或多個指定資源的元素。」
+description: 瞭解如何在Adobe Campaign Standard中自訂顯示並在清單熒幕上操作：排序、篩選、刪除或複製元素。 列出畫面會顯示一或多個指定資源的元素。
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
@@ -8,9 +8,15 @@ feature: Campaigns
 role: User
 level: Intermediate
 exl-id: 651a53b4-e02f-4963-99e6-2e2c324b1c8c
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/xqpv4a057Nz49lOh2ZrTZuPcZBe-z45nt2UfDtCgrRQ
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: 393
 ht-degree: 2%
 
 ---
@@ -24,7 +30,7 @@ Adobe Campaign有兩種清單：
 * **同質的**&#x200B;清單，當它包含單一型別的資源時。 例如，設定檔清單僅包含設定檔。
 * **異質性**&#x200B;清單，當它包含數種資源型別時。 例如，行銷活動清單包含登入頁面、工作流程、電子郵件、簡訊等。
 
-清單顯示在欄中。每個欄可以一次一個地以升序或降序排序。
+清單顯示在欄中。 每個欄可以一次一個地以升序或降序排序。
 
 清單中的元素具有允許您選取它們的核取方塊。 選取一或多個元素後，您可以執行數個動作，例如編輯、複製和刪除這些元素。
 

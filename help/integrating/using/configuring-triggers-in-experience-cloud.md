@@ -9,9 +9,14 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/PQ8Xf9wScBLj1ooFZW5fe-LOzhZy3jeq8pajISxQcK8
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: 845
 ht-degree: 6%
 
 ---
@@ -26,7 +31,7 @@ Adobe團隊需要下列資訊才能啟用觸發程式：
 
 * Marketing Cloud公司名稱
 * 組織 ID
-* Analytics登入公司(可與Marketing Cloud公司名稱相同)
+* Analytics登入公司（可與Marketing Cloud公司名稱相同）
 
 ## 設定解決方案和服務 {#configuring-solutions-and-services}
 
@@ -58,7 +63,7 @@ Adobe團隊需要下列資訊才能啟用觸發程式：
 
 ### 設定Experience Cloud DTM核心服務 {#configuring-experience-cloud-dtm-core-service}
 
-1. 在Experience Cloud DTM核心服務(動態Tag Management)中，針對您的網站頁面啟動Experience Cloud ID和Adobe Analytics。
+1. 在Experience Cloud DTM核心服務（動態Tag Management）中，針對您的網站頁面啟動Experience Cloud ID和Adobe Analytics。
 
    ![](assets/trigger_uc_conf_1.png)
 
@@ -96,7 +101,7 @@ Adobe團隊需要下列資訊才能啟用觸發程式：
 
 在Experience Cloud中建立新的觸發程式，並請務必選取您網站上使用的報表套裝。 請務必選擇正確的維度，以便觸發程式。
 
-請參閱[Adobe Experience Cloud檔案](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=zh-Hant)。
+請參閱[Adobe Experience Cloud檔案](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html)。
 
 ## 觸發器最佳作法和限制 {#triggers-best-practices-and-limitations}
 

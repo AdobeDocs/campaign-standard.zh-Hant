@@ -11,16 +11,13 @@ role: Developer
 level: Intermediate
 exl-id: f611e023-f74c-476e-83b9-aff451f68c81
 TQID: https://experienceleague.adobe.com/qkMV-OW4cYN-u6R3PYn9kdMt7DgIgxA8WTsDhvLIzJw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 2fe8bfb2bc8d0266bea52504feffb7b11f481b91
 workflow-type: tm+mt
-source-wordcount: 357
-ht-degree: 35%
+source-wordcount: 346
+ht-degree: 32%
 
 ---
 
@@ -55,7 +52,7 @@ ht-degree: 35%
 
 ### 擷取在執行當天的同一天建立的設定檔 {#retrieving-profiles-created-on-the-same-day}
 
-1. 在&#x200B;**[!UICONTROL Profile]**&#x200B;中，拖放&#x200B;**[!UICONTROL Created]**&#x200B;欄位。 並按一下&#x200B;**[!UICONTROL Advanced Mode]**。
+1. 在&#x200B;**[!UICONTROL Profile]**&#x200B;中，拖放&#x200B;**[!UICONTROL Created]**&#x200B;欄位。然後按一下&#x200B;**[!UICONTROL Advanced Mode]**。
    ![](assets/advanced_mode.png)
 1. 在&#x200B;**[!UICONTROL list of functions]**&#x200B;中，連按兩下&#x200B;**[!UICONTROL Date]**&#x200B;節點中的&#x200B;**[!UICONTROL Day]**。
 1. 然後，將欄位&#x200B;**[!UICONTROL Created]**&#x200B;插入為引數。
@@ -67,7 +64,7 @@ ht-degree: 35%
 
 您最後應該會得到：
 
-```Day(@created) = Day(GetDate())```
+`Day(@created) = Day(GetDate())`
 
 ![](assets/day_creation_query.png)
 
@@ -84,11 +81,11 @@ ht-degree: 35%
 
 最後應該會是這樣：
 
-``` Month(@created) = Month(GetDate()) ```
+`Month(@created) = Month(GetDate())`
 
 最後查詢顯示如下：
 
-```Day(@created) = Day(GetDate()) AND Month(@created) = Month(GetDate())```
+`Day(@created) = Day(GetDate()) AND Month(@created) = Month(GetDate())`
 
 ![](assets/expression_editor_1.png)
 

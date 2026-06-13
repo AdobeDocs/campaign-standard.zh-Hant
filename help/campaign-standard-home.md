@@ -121,7 +121,7 @@ ht-degree: 94%
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>有用的頁面</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant" target="_blank">教學課程</a> - <a href="https://helpx.adobe.com/tw/legal/product-descriptions/campaign-standard.html" target="_blank">產品說明</a> - <a href="rn/using/deprecated-features.md">已過時和移除的功能</a> - <a href="rn/using/release-planning.md">發行計畫</a> - <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/cnil-pixel-tracking" target="_blank">電子郵件追蹤畫素和CNIL指南</a>
+<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant" target="_blank">教學課程</a> - <a href="https://helpx.adobe.com/tw/legal/product-descriptions/campaign-standard.html" target="_blank">產品說明</a> - <a href="rn/using/deprecated-features.md">已過時和移除的功能</a> - <a href="rn/using/release-planning.md">發行計畫</a> - <a href="https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/new/cnil-pixel-tracking" target="_blank">電子郵件追蹤畫素和CNIL指南</a>
 </td>
 <td><strong>技術資源</strong><br/>
 <a href="integrating/using/about-adobe-experience-cloud-triggers.md">Experience Cloud 觸發器</a> - <a href="api/using/get-started-apis.md">Campaign API</a> - <a href="https://helpx.adobe.com/tw/campaign/kb/acs-article-list.html" target="blank">技術說明</a> - <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hant" target="_blank">控制面板文件</a> - <a href="https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=zh-Hant">錯誤訊息清單</a>

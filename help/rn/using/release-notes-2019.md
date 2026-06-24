@@ -25,7 +25,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
 workflow-type: tm+mt
 source-wordcount: 7892
 ht-degree: 10%
@@ -503,7 +503,7 @@ ht-degree: 10%
 
 **其他變更**
 
-* Adobe Campaign和Adobe Experience Cloud自2019年春季起，將停止支援Microsoft Internet Explorer 11和Campaign Standard 19.2版。 請切換至 Microsoft Edge 或其他支援的瀏覽器。 請參閱[已過時和已移除的功能](../../rn/using/deprecated-features.md)頁面。
+* Adobe Campaign和Adobe Experience Cloud將從2019年春季起，停止支援Microsoft Internet Explorer 11和Campaign Standard 19.2版。 請切換至 Microsoft Edge 或其他支援的瀏覽器。 請參閱[已過時和已移除的功能](../../rn/using/deprecated-features.md)頁面。
 * 設定檔資源中的&#x200B;**國家/地區代碼**&#x200B;欄位已重新命名為&#x200B;**國家/地區代碼**。
 
 **修補程式**
@@ -633,3 +633,4 @@ ht-degree: 10%
 * SMS訊息的傳送輸送量已改善並穩定。
 * 修正的問題：無法在SMS訊息中使用「~」字元。 (CAMP-29172)
 * 修正傳送時間最佳化選項的問題。 (CAMP-29231)
+

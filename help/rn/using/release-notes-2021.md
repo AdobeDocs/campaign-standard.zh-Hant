@@ -28,7 +28,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
 workflow-type: tm+mt
 source-wordcount: 4728
 ht-degree: 100%
@@ -457,3 +457,4 @@ ht-degree: 100%
 * 修正在&#x200B;**電子郵件設計工具**&#x200B;預覽中搜尋輪廓時，測試輪廓清單無法重新整理的問題。 (CAMP-45265)
 * 修正在&#x200B;**電子郵件設計工具**&#x200B;預覽中搜尋輪廓時，自訂測試輪廓無法顯示在清單中的問題。 (CAMP-45589)
 * 修正從&#x200B;**傳送摘要報告**&#x200B;產生趨勢圖形時，顯示不符合日期的問題。 (CAMP-45521)
+

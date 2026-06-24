@@ -19,10 +19,10 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
 workflow-type: tm+mt
-source-wordcount: 629
-ht-degree: 100%
+source-wordcount: 624
+ht-degree: 95%
 
 ---
 
@@ -95,8 +95,8 @@ ht-degree: 100%
 
 ### 什麼是「控制面板」？
 
-您可以透過「控制面板」，以 Campaign Standard 產品管理員的身分，管理每個執行個體的設定並追蹤每個執行個體的使用量，協助您提高工作效率。
-[按一下這裡](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=zh-Hant#discover-control-panel)以獲得更多資訊。
+您可以透過「控制面板」，以Campaign Standard產品管理員的身分，管理每個執行個體的設定並追蹤每個執行個體的使用量，協助您提高工作效率。
+[按一下這裡](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=zh-Hant#discover-control-panel)以取得詳細資訊。
 
 >[!NOTE]
 >
@@ -139,3 +139,4 @@ ht-degree: 100%
 如要在該新系統中記錄問題或啟動聊天工作階段，請連結到 [Adobe Admin Console](https://adminconsole.adobe.com/overview)。
 
 請依照[此頁面](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)中說明的詳細過程進行操作。
+

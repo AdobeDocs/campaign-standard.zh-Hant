@@ -6,8 +6,8 @@ role: User
 level: Beginner
 hide: true
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 7ad12890a24b2c0b8730d09b7d161bff511f4c69
-workflow-type: ht
+source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
+workflow-type: tm+mt
 source-wordcount: '7629'
 ht-degree: 100%
 
@@ -1121,3 +1121,4 @@ URL變更：資產核心服務 – [瞭解詳情](../../integrating/using/workin
 URL變更：人員核心服務 – [瞭解詳情](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
 
 輪廓和客群指南已重新整理。 [閱讀更多](../../audiences/using/get-started-profiles-and-audiences.md)
+

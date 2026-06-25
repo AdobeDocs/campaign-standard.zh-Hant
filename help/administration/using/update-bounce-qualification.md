@@ -4,11 +4,9 @@ description: 瞭解如何在ISP中斷後更新跳出資格。
 audience: delivery
 exl-id: b06e9009-70c7-459f-8a9f-d5b7020d662f
 TQID: https://experienceleague.adobe.com/PcNbVFzTVJhadANGQ5uogj16VHiaNIf7HVn-7X-EbJA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
 workflow-type: tm+mt
 source-wordcount: 441
 ht-degree: 3%
@@ -53,6 +51,7 @@ Google表示Gmail中斷和作業中斷導致了此問題從12月14日的6:55AM�
 一旦您擁有受影響的收件者清單，您就可以將他們的狀態設定為&#x200B;**[!UICONTROL Valid]**，以便透過&#x200B;**[!UICONTROL Database cleanup]**&#x200B;工作流程將其從隔離清單中移除，或者只是從表格中刪除他們。
 
 **相關主題：**
+
 * [瞭解傳遞失敗](../../sending/using/understanding-delivery-failures.md)
 * [退回郵件資格](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)
 

@@ -6,26 +6,13 @@ role: User
 level: Beginner
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
 TQID: https://experienceleague.adobe.com/Os1EM221DXk1yVqd-md5iTlvK623LzFiqg5Ag7N2tTw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-subfeature_v2:
-  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
 workflow-type: tm+mt
 source-wordcount: 7892
 ht-degree: 10%
@@ -34,7 +21,7 @@ ht-degree: 10%
 
 # 發行說明 2019 年{#release-notes-2019}
 
-## 發行版本19.4 - 2019年12月 {#release-19-4---october-2019}
+## 發行版本19.4 - 2019年12月 {#release-19-4-october-2019}
 
 **有哪些新功能？**
 
@@ -53,7 +40,7 @@ ht-degree: 10%
     <li><p>建立隱私權要求時，隱私權核心服務已新增規則型別（GDPR或CCPA）。 此方法是您應該用於所有存取和刪除請求的方法。 不建議使用促銷活動 API 和介面來存取和刪除請求。  請參閱「<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=zh-Hant#release-notes">已過時和已移除的功能</a>」文章。</p></li>
     <li>設定檔資源已新增<strong>CCPA選擇退出</strong>欄位，以允許Adobe Campaign使用者追蹤消費者是否已選擇退出個人資訊銷售。 <a href="https://helpx.adobe.com/tw/campaign/kb/acs-privacy.html#ccpa">了解更多資訊</a>。</li>
   </ul>
-    <p>請參閱<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html?lang=zh-Hant">作法影片</a>。</p>
+    <p>請參閱<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">作法影片</a>。</p>
 </td> 
   </tr> 
  </tbody> 
@@ -160,7 +147,7 @@ ht-degree: 10%
 * 修正了傳送完成時，傳送狀態仍可能為「開始擱置」的問題。 (CAMP-35355)
 * 修正啟用，然後停用SQL記錄後無法顯示工作流程記錄的問題。
 
-## 發行版本 19.3 – 2019 年 7 月 {#release-19-3---july-2019}
+## 發行版本 19.3 – 2019 年 7 月 {#release-19-3-july-2019}
 
 **有哪些新功能？**
 
@@ -174,11 +161,11 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td> 外部API活動（公用Beta）<br /> </td> 
-   <td> <p>為更深度個人化，外部API活動可讓您透過REST API呼叫，將資料從外部系統帶入工作流程。 REST端點可以是客戶管理系統、Adobe I/O Runtime或Adobe Experience Cloud REST端點（例如資料平台、Target、Analytics、Campaign）。</p><p>此功能目前仍在公開測試中。</p><p>如需詳細資訊，請參閱<a href="../../automating/using/external-api.md">詳細文件</a>及<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html?lang=zh-Hant">作法影片</a>。</p></td> 
+   <td> <p>為更深度個人化，外部API活動可讓您透過REST API呼叫，將資料從外部系統帶入工作流程。 REST端點可以是客戶管理系統、Adobe I/O Runtime或Adobe Experience Cloud REST端點（例如資料平台、Target、Analytics、Campaign）。</p><p>此功能目前仍在公開測試中。</p><p>如需詳細資訊，請參閱<a href="../../automating/using/external-api.md">詳細文件</a>及<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">作法影片</a>。</p></td> 
   </tr> 
   <tr> 
    <td> 工作流程區段<br />的報告 </td> 
-   <td> <p>此功能可讓行銷人員依區段代碼來劃分其傳遞效能。 當您建立工作流程，並使用分段活動將區段指派給傳遞人口時，這些區段現在可以進入相同的傳遞。 這可讓您根據單一傳送內的多個區段，顯示開啟數/點按數統計資料。</p><p>如需詳細資訊，請參閱<a href="../../reporting/using/creating-a-report-workflow-segment.md">詳細文件</a>及<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html?lang=zh-Hant">作法影片</a>。</p></td>
+   <td> <p>此功能可讓行銷人員依區段代碼來劃分其傳遞效能。 當您建立工作流程，並使用分段活動將區段指派給傳遞人口時，這些區段現在可以進入相同的傳遞。 這可讓您根據單一傳送內的多個區段，顯示開啟數/點按數統計資料。</p><p>如需詳細資訊，請參閱<a href="../../reporting/using/creating-a-report-workflow-segment.md">詳細文件</a>及<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html">作法影片</a>。</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -271,7 +258,7 @@ ht-degree: 10%
 * 修正當主旨包含多行時破壞電子郵件內容的安全性問題。
 
 
-## 發行版本19.2.7 - 2019年7月 {#release-19-2-7---july-2019}
+## 發行版本19.2.7 - 2019年7月 {#release-19-2-7-july-2019}
 
 **功能改進**
 
@@ -280,13 +267,13 @@ ht-degree: 10%
 * 修正非管理員使用者無法儲存或排程報表的問題。 (CAMP-31133)
 * 修正在「載入檔案」工作流程活動中使用「|」作為日期分隔符號的問題。 (CAMP-34706)
 
-## 發行版本19.2.4 - 2019年6月 {#release-19-2-4---june-2019}
+## 發行版本19.2.4 - 2019年6月 {#release-19-2-4-june-2019}
 
 **電子郵件設計工具**
 
 * 修正在HTML中使用空白樣式標籤時，使用者無法編輯片段的問題。 這是19.2.3中CAMP-33778的後續修正。
 
-## 發行版本19.2.3 - 2019年6月 {#release-19-2-3---june-2019}
+## 發行版本19.2.3 - 2019年6月 {#release-19-2-3-june-2019}
 
 **電子郵件設計工具**
 
@@ -305,7 +292,7 @@ ht-degree: 10%
 * 修正無法使用服務資源的資訊擴充交易式訊息內容的問題。 (CAMP-33707)
 * 修正嘗試從服務取消訂閱設定檔時，封鎖清單登陸頁面發生的問題。
 
-## 發行版本 19.2 – 2019 年 5 月 {#release-19-2---may-2019}
+## 發行版本 19.2 – 2019 年 5 月 {#release-19-2-may-2019}
 
 **有哪些新功能？**
 
@@ -327,7 +314,7 @@ ht-degree: 10%
   </tr> 
   <tr> 
    <td> 工作流程增強功能 — 新增裝載至外部訊號活動<br /> </td> 
-   <td> <p>其他工作流程或REST API呼叫符合定義的條件時，即啟動具備裝載的工作流程，以便與外部系統整合。 這也包括新的<strong>測試</strong>活動，您可以在此功能上執行測試。</p><p>如需詳細資訊，請參閱<a href="../../automating/using/calling-a-workflow-with-external-parameters.md">詳細文件</a>及<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/execution-activities/external-signal-activity.html?lang=zh-Hant">作法影片</a>。</p></td> 
+   <td> <p>其他工作流程或REST API呼叫符合定義的條件時，即啟動具備裝載的工作流程，以便與外部系統整合。 這也包括新的<strong>測試</strong>活動，您可以在此功能上執行測試。</p><p>如需詳細資訊，請參閱<a href="../../automating/using/calling-a-workflow-with-external-parameters.md">詳細文件</a>及<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/execution-activities/external-signal-activity.html">作法影片</a>。</p></td> 
   </tr> 
   <tr> 
    <td> 登入頁面增強功能 — Google reCAPTCHA<br /> </td> 
@@ -409,7 +396,7 @@ ht-degree: 10%
 * 修正了傳送工作流程未成功完成時關閉工作流程的問題。
 * 修正使用者無法儲存或排程報表的問題。 (CAMP-31133)
 
-## 發行版本19.1.3 - 2019年3月 {#release-19-1-3---march-2019}
+## 發行版本19.1.3 - 2019年3月 {#release-19-1-3-march-2019}
 
 **電子郵件設計工具增強功能**
 
@@ -423,7 +410,7 @@ ht-degree: 10%
 * 修正無法編輯型別規則的問題。 (CAMP-31750)
 * 修正inMail處理序可能意外停止的問題。 (CAMP-31238)
 
-## 發行版本 19.1 – 2019 年 2 月 {#release-19-1---february-2019}
+## 發行版本 19.1 – 2019 年 2 月 {#release-19-1-february-2019}
 
 **有哪些新功能？**
 
@@ -445,7 +432,7 @@ ht-degree: 10%
   </tr> 
   <tr> 
    <td> 行動應用程式內傳訊<br /> </td> 
-   <td> <p>此發行版本包含Campaign應用程式內頻道的GA版本。 從功能的角度來看，Beta發行中新增的最重要內容是應用程式內管道的動態報表，以及Mobile SDK與MCIAS （為SDK提供應用程式內規則的Marketing Cloud應用程式內傳訊服務）之間的安全交握。 安全交握可確保使用者的PII資料不會落入惡意之手，並可讓您在每次使用者登出時清除訊息快取，進而維護使用者在共用裝置上的隱私權。</p><p>如需詳細資訊，請參閱<a href="../../channels/using/about-in-app-messaging.md">詳細檔案</a>和專屬的<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/in-app/in-app-message-overview.html?lang=zh-Hant">應用程式內教學課程</a>。</p> </td> 
+   <td> <p>此發行版本包含Campaign應用程式內頻道的GA版本。 從功能的角度來看，Beta發行中新增的最重要內容是應用程式內管道的動態報表，以及Mobile SDK與MCIAS （為SDK提供應用程式內規則的Marketing Cloud應用程式內傳訊服務）之間的安全交握。 安全交握可確保使用者的PII資料不會落入惡意之手，並可讓您在每次使用者登出時清除訊息快取，進而維護使用者在共用裝置上的隱私權。</p><p>如需詳細資訊，請參閱<a href="../../channels/using/about-in-app-messaging.md">詳細檔案</a>和專屬的<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/in-app/in-app-message-overview.html">應用程式內教學課程</a>。</p> </td> 
   </tr> 
   <tr> 
    <td> 工作流程增強功能<br /> </td> 
@@ -529,7 +516,7 @@ ht-degree: 10%
 * 修正建立應用程式內傳送時，目標設定檔與傳送控制面板中顯示的設定檔不一致的問題。 (CAMP-28722)
 * 修正Campaign與Assets核心服務整合的問題，此問題可能會阻止您選取電子郵件中的共用資產。
 
-## 發行版本 19.0 – 2019 年 1 月 {#release-19-0---january-2019}
+## 發行版本 19.0 – 2019 年 1 月 {#release-19-0-january-2019}
 
 **有哪些新功能？**
 
@@ -550,11 +537,11 @@ ht-degree: 10%
      <li> 可在準備時自動<a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">從URL擷取內容</a> </li> 
      <li> 完全相容的<a href="../../designing/using/using-reusable-content.md#content-templates">現成可用的內容範本</a>。 </li> 
     </ul> 
-    <p>如需詳細資訊，請參閱<a href="../../designing/using/designing-content-in-adobe-campaign.md">詳細文件</a>及<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html?lang=zh-Hant">作法影片</a>。 以下列出改善與修正。</p><p>因此，舊版的電子郵件內容編輯器現已棄用。 如需詳細資訊，請參閱此<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=zh-Hant#release-notes">頁面</a>。</p> </td> 
+    <p>如需詳細資訊，請參閱<a href="../../designing/using/designing-content-in-adobe-campaign.md">詳細文件</a>及<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">作法影片</a>。 以下列出改善與修正。</p><p>因此，舊版的電子郵件內容編輯器現已棄用。 如需詳細資訊，請參閱此<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=zh-Hant#release-notes">頁面</a>。</p> </td> 
   </tr> 
   <tr> 
    <td> 異動電子郵件中的產品清單<br /> </td> 
-   <td> <p>您現在可以在交易式電子郵件訊息中參考一或多個產品集合。 例如，您可以自動傳送放棄購物車電子郵件，列出使用者購物車中的所有產品，並附帶每個產品的影像、價格及連結。</p><p>如需詳細資訊，請參閱<a href="../../designing/using/using-product-listings.md">詳細文件</a>及<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html?lang=zh-Hant">作法影片</a>。</p> </td> 
+   <td> <p>您現在可以在交易式電子郵件訊息中參考一或多個產品集合。 例如，您可以自動傳送放棄購物車電子郵件，列出使用者購物車中的所有產品，並附帶每個產品的影像、價格及連結。</p><p>如需詳細資訊，請參閱<a href="../../designing/using/using-product-listings.md">詳細文件</a>及<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html">作法影片</a>。</p> </td> 
   </tr> 
   <tr> 
    <td> 電子郵件Designer<br />中的行動裝置檢視 </td> 

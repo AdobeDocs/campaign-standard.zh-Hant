@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
-source-git-commit: b023e07c337e3352b8d1e26254ce342e0d560a27
+source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
 workflow-type: tm+mt
-source-wordcount: '1595'
-ht-degree: 88%
+source-wordcount: '1596'
+ht-degree: 87%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 88%
 
 若要傳送簡訊訊息，管理員必須在 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL SMS]** > **[!UICONTROL SMS accounts]** 功能表下設定一或多個外部帳戶。
 
-建立和修改外部帳戶的步驟在[外部帳戶](../../administration/using/external-accounts.md)區段中詳細說 明。您會在下方找到傳送簡訊訊息之外部帳戶的特定參數。
+建立和修改外部帳戶的步驟在[外部帳戶](../../administration/using/external-accounts.md)區段中詳細說 明。 您會在下方找到傳送簡訊訊息之外部帳戶的特定參數。
 
 ## 定義SMS路由 {#defining-an-sms-routing}
 
@@ -27,7 +27,7 @@ ht-degree: 88%
 
 預設會提供外部帳戶 **[!UICONTROL SMS routing via SMPP]**，但可用於新增其他帳戶。
 
-如果您想使用 SMPP 通訊協定，也可以建立新的外部帳戶。有關簡訊通訊協定和設定的詳細資訊，請參閱此[技術說明](../../administration/using/sms-protocol.md)。
+如果您想使用 SMPP 通訊協定，也可以建立新的外部帳戶。 有關簡訊通訊協定和設定的詳細資訊，請參閱此[技術說明](../../administration/using/sms-protocol.md)。
 
 1. 從 **[!UICONTROL Administration > Application settings > External accounts]** 建立新的外部帳戶。
 1. 將帳戶類型定義為 **[!UICONTROL Routing]**，將通道定義為 **[!UICONTROL Mobile (SMS)]** 並將傳送模式定義為 **[!UICONTROL Bulk delivery]**。
@@ -42,20 +42,20 @@ ht-degree: 88%
 
    **[!UICONTROL Enable TLS over SMPP]** 選項可讓您加密 SMPP 通訊。
 
-   **[!UICONTROL Enable verbose SMPP traces in the log file]** 可讓您將所有 SMPP 通訊傾印到記錄檔案中。必須啟用此選項，才能疑難排解連接器，並與提供者所看到的流量進行比較。
+   **[!UICONTROL Enable verbose SMPP traces in the log file]** 可讓您將所有 SMPP 通訊傾印到記錄檔案中。 必須啟用此選項，才能疑難排解連接器，並與提供者所看到的流量進行比較。
 
 1. 請聯絡 Adobe，他們會根據您選取的提供者，為您提供進入 **[!UICONTROL SMS-C implementation name]** 欄位的值。
-1. 定義 SMPP 通道設定。您可以從簡訊編碼和格式[&#128279;](#sms-encoding-and-formats)區段瞭解詳情。
+1. 定義 SMPP 通道設定。 您可以從簡訊編碼和格式](#sms-encoding-and-formats)區段瞭解詳情。[
 
-   如果您希望將所有傳入的簡訊儲存到 in簡訊表格中，請啟用 **[!UICONTROL Store incoming MO in the database]**。有關如何檢索傳入簡訊的詳細資訊，請參閱[本區段](../../channels/using/managing-incoming-sms.md#storing-incoming-sms)。
+   如果您希望將所有傳入的簡訊儲存到 in簡訊表格中，請啟用 **[!UICONTROL Store incoming MO in the database]**。 有關如何檢索傳入簡訊的詳細資訊，請參閱[本區段](../../channels/using/managing-incoming-sms.md#storing-incoming-sms)。
 
-   **[!UICONTROL Enable Real-time KPI updates during SR processing]** 選項可讓您在進行傳送之後，即時更新 **[!UICONTROL Delivered]** 或 **[!UICONTROL Bounces + Errors]** KPI。這些 KPI 可在 **[!UICONTROL Deployment]** 視窗中找到，並直接從提供者接收的 SR（狀態報告）重新計算。
+   **[!UICONTROL Enable Real-time KPI updates during SR processing]** 選項可讓您在進行傳送之後，即時更新 **[!UICONTROL Delivered]** 或 **[!UICONTROL Bounces + Errors]** KPI。 這些 KPI 可在 **[!UICONTROL Deployment]** 視窗中找到，並直接從提供者接收的 SR（狀態報告）重新計算。
 
    ![](assets/sms_connection_1.png)
 
 1. 定義 **[!UICONTROL Throughput and timeouts]** 參數。
 
-   您可以指定出站訊息（&quot;MT&quot;，Mobile Terminated）的吞吐量上限，以每秒 MT 為單位。如果您在對應欄位中輸入　&quot;0&quot;，則吞吐量將無限制。
+   您可以指定出站訊息（&quot;MT&quot;，Mobile Terminated）的吞吐量上限，以每秒 MT 為單位。 如果您在對應欄位中輸入　&quot;0&quot;，則吞吐量將無限制。
 
    與持續時間對應的所有欄位的值必須以秒為單位完成。
 
@@ -65,7 +65,7 @@ ht-degree: 88%
 
    但是，由於某些提供者需要使用 **[!UICONTROL +]** 首碼，因此建議您向您的提供者查詢，並建議您視需要啟用此選項。
 
-1. 如有需要，請根據回覆的內容定義自動回覆以觸發動作。如需詳細資訊，請參閱[本區段](../../channels/using/managing-incoming-sms.md#managing-stop-sms)。
+1. 如有需要，請根據回覆的內容定義自動回覆以觸發動作。 如需詳細資訊，請參閱[本章節](../../channels/using/managing-incoming-sms.md#managing-stop-sms)。
 1. 儲存簡訊路由外部帳戶的設定。
 
 您現在可以使用新的路由，透過 Adobe Campaign 傳送簡訊訊息。
@@ -80,7 +80,7 @@ ht-degree: 88%
 
 >[!NOTE]
 >
->某些字元會計為兩個字元（括弧、方括弧、歐元符號等）。可用 GSM 字元的清單顯示在[字元表 – GSM 標準](#table-of-characters---gsm-standard)區段。
+>某些字元會計為兩個字元（括弧、方括弧、歐元符號等）。 可用 GSM 字元的清單顯示在[字元表 – GSM 標準](#table-of-characters-gsm-standard)區段。
 
 您也可以核取相對應的方塊，以授權字元音譯。
 
@@ -88,20 +88,20 @@ ht-degree: 88%
 
 音譯包括當 GSM 標準未考慮到簡訊的一個字元時，用另一個字元取代該字元。
 
-* 如果音譯已獲得&#x200B;**授權**，則在傳送訊息時，未考慮的每個字元會由 GSM 字元取代。例如，字元 &quot;ë&quot; 會由 &quot;e&quot; 取代。因此，訊息會稍微變更，但字元限制將維持不變。
-* 如果音譯未獲&#x200B;**授權**，每個包含未納入考量之字元的訊息都會以二進位格式 (Unicode) 傳送：因此，所有字元都將按原樣發送。不過，使用 Unicode 的簡訊訊息最多只能有 70 個字元（若是以多個部分傳送的訊息，則每個簡訊有 67 個字元）。如果超出字元數上限，則會傳送數則訊息，這可能會造成額外成本。
+* 如果音譯已獲得&#x200B;**授權**，則在傳送訊息時，未考慮的每個字元會由 GSM 字元取代。 例如，字元 &quot;ë&quot; 會由 &quot;e&quot; 取代。 因此，訊息會稍微變更，但字元限制將維持不變。
+* 如果音譯未獲&#x200B;**授權**，每個包含未納入考量之字元的訊息都會以二進位格式 (Unicode) 傳送：因此，所有字元都將按原樣發送。 不過，使用 Unicode 的簡訊訊息最多只能有 70 個字元（若是以多個部分傳送的訊息，則每個簡訊有 67 個字元）。 如果超出字元數上限，則會傳送數則訊息，這可能會造成額外成本。
 
 >[!IMPORTANT]
 >
->將個人化欄位插入您的簡訊訊息內容，可能會引入 GSM 編碼未考慮的字元。[個人化簡訊訊息](../../channels/using/personalizing-sms-messages.md)區段提供內容範例。
+>將個人化欄位插入您的簡訊訊息內容，可能會引入 GSM 編碼未考慮的字元。 [個人化簡訊訊息](../../channels/using/personalizing-sms-messages.md)區段提供內容範例。
 
-依預設，會停用字元音譯。如果您希望簡訊訊息中的所有字元都保持原樣，不要變更正確名稱（例如），建議您不要啟用此選項。
+依預設，會停用字元音譯。 如果您希望簡訊訊息中的所有字元都保持原樣，不要變更正確名稱（例如），建議您不要啟用此選項。
 
 不過，如果您的簡訊訊息包含許多產生 Unicode 訊息的字元，您可以選取啟用此選項，以限制傳送訊息的成本。
 
-### 字元表 — GSM Standard {#table-of-characters---gsm-standard}
+### 字元表 — GSM Standard {#table-of-characters-gsm-standard}
 
-本節介紹 GSM 標準所考慮的字元。除下面提及的字元外，所有插入訊息內文的字元都會將整個訊息轉換為二進位格式 (Unicode)，因此限制為 70 個字元。如需詳細資訊，請參閱簡訊編碼、長度和音譯[&#128279;](#sms-encoding--length-and-transliteration)。
+本節介紹 GSM 標準所考慮的字元。 除下面提及的字元外，所有插入訊息內文的字元都會將整個訊息轉換為二進位格式 (Unicode)，因此限制為 70 個字元。 如需詳細資訊，請參閱簡訊編碼、長度和音譯](#sms-encoding--length-and-transliteration)。[
 
 **基本字元**
 
@@ -288,13 +288,13 @@ CR：歸位
 >
 >這些選項可讓您調整連接器以使用非標準 SMSC（即不完全遵循 SMPP 3.4 規範）或特定編碼要求，並且僅應由進階使用者設定。
 
-傳送簡訊訊息時，Adobe Campaign 可以使用一或多種文字編碼。每個編碼都有其專屬的字元集，並決定符合簡訊訊息的字元數。
+傳送簡訊訊息時，Adobe Campaign 可以使用一或多種文字編碼。 每個編碼都有其專屬的字元集，並決定符合簡訊訊息的字元數。
 
 **[!UICONTROL DATA_CODING]** 欄位可讓 Adobe Campaign 與使用編碼的 SMS-C 通訊。
 
 >[!NOTE]
 >
->**data_coding** 值及實際使用編碼之間的對應是標準化的。然而，特定 SMS-C 有其獨特的對應：在這種情況下，您的 **Adobe Campaign** 管理員需要宣告此對應。請洽詢您的提供者以瞭解更多資訊。
+>**data_coding** 值及實際使用編碼之間的對應是標準化的。 然而，特定 SMS-C 有其獨特的對應：在這種情況下，您的 **Adobe Campaign** 管理員需要宣告此對應。 請洽詢您的提供者以瞭解更多資訊。
 
 **[!UICONTROL Define a specific mapping of encodings]** 功能可讓您宣告 **data_codings**，並視需要強制進行編碼：若要這麼做，請在表格中指定單一編碼。
 
@@ -307,11 +307,11 @@ CR：歸位
 
   ![](assets/sms_data_coding.png)
 
-* 核取 **[!UICONTROL Define a specific mapping of encodings]** 功能後，您可以定義要使用的編碼以及連結的 **[!UICONTROL data_coding]** 欄位值。Adobe Campaign 會嘗試使用清單中的第一個編碼，如果第一個編碼不可能，則請執行下列操作。
+* 核取 **[!UICONTROL Define a specific mapping of encodings]** 功能後，您可以定義要使用的編碼以及連結的 **[!UICONTROL data_coding]** 欄位值。 Adobe Campaign 會嘗試使用清單中的第一個編碼，如果第一個編碼不可能，則請執行下列操作。
 
   宣告的順序非常重要：建議您以&#x200B;**成本**&#x200B;的遞增順序顯示清單，以利於編碼，讓您在每則簡訊訊息中盡可能多地顯示字元。
 
-  僅宣告您要使用的編碼。如果 SMS-C 提供的某些編碼不符合您的使用目的，請勿在清單中宣告。
+  僅宣告您要使用的編碼。 如果 SMS-C 提供的某些編碼不符合您的使用目的，請勿在清單中宣告。
 
   ![](assets/sms_data_coding1.png)
 
@@ -339,11 +339,11 @@ CR：歸位
 
 從SMS範本的&#x200B;**[!UICONTROL Send]**&#x200B;區段：
 
-* **[!UICONTROL Maximum number of SMS per message]** 選項可讓您定義用於傳送訊息的簡訊訊息數目。如果超過此數目，則不會傳送訊息。
+* **[!UICONTROL Maximum number of SMS per message]** 選項可讓您定義用於傳送訊息的簡訊訊息數目。 如果超過此數目，則不會傳送訊息。
 
   >[!IMPORTANT]
   >
-  >如果您已將個人化欄位或條件文字插入簡訊訊息的內容，訊息的長度，以及因此要傳送的簡訊訊息數目，可能會因收件者而異。如需詳細資訊，請參閱[個人化簡訊訊息](../../channels/using/personalizing-sms-messages.md)區段。
+  >如果您已將個人化欄位或條件文字插入簡訊訊息的內容，訊息的長度，以及因此要傳送的簡訊訊息數目，可能會因收件者而異。 如需詳細資訊，請參閱[個人化簡訊訊息](../../channels/using/personalizing-sms-messages.md)區段。
 
   ![](assets/sms_smpp_3.png)
 

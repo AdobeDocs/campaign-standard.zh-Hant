@@ -4,11 +4,9 @@ description: 追蹤的 URL 簽名問題
 hide: true
 exl-id: 8c2725a8-2c3a-448a-8c04-c0c2a5950574
 TQID: https://experienceleague.adobe.com/6R8s1OkdU0TWD2Qo1DnI33T-FsiV4kVNkn942k0o5-Q
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
 workflow-type: tm+mt
 source-wordcount: 207
 ht-degree: 100%
@@ -25,7 +23,7 @@ ht-degree: 100%
 
 **您有受到影響嗎？**
 
-有些 Campaign Standard 使用者會受到影響，因為 [Campaign Standard 20.4](release-notes-2020.md#release-20-4---october-2020) - 2020 年 10 月中已引進追蹤電子郵件連結的簽名機制，並依預設為所有客戶啟用。
+有些 Campaign Standard 使用者會受到影響，因為 [Campaign Standard 20.4](release-notes-2020.md#release-20-4-october-2020) - 2020 年 10 月中已引進追蹤電子郵件連結的簽名機制，並依預設為所有客戶啟用。
 
 **如何更新？**
 

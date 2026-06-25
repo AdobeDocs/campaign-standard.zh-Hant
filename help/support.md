@@ -19,10 +19,10 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
+source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
 workflow-type: tm+mt
-source-wordcount: 624
-ht-degree: 95%
+source-wordcount: 636
+ht-degree: 98%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 95%
 
 ## 常見問題與最佳實務
 
-<img src="start/using/assets/do-not-localize/icon-faq.svg" width="60px">
+![常見問題集圖示](start/using/assets/do-not-localize/icon-faq.svg){width="60px"}
 
 <table>
     <tr><td><strong>主題常見問答</strong></td><td><strong>常見問題</strong></td><td><strong>最佳實務</strong></td><td><strong>操作說明</strong></td></tr>
@@ -91,12 +91,13 @@ ht-degree: 95%
 
 ## Campaign 控制面板
 
-<img src="start/using/assets/do-not-localize/icon-control-panel.svg" width="60px">
+![控制面板圖示](start/using/assets/do-not-localize/icon-control-panel.svg){width="60px"}
 
 ### 什麼是「控制面板」？
 
-您可以透過「控制面板」，以Campaign Standard產品管理員的身分，管理每個執行個體的設定並追蹤每個執行個體的使用量，協助您提高工作效率。
-[按一下這裡](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=zh-Hant#discover-control-panel)以取得詳細資訊。
+您可以透過「控制面板」，以 Campaign Standard 產品管理員的身分，管理每個執行個體的設定並追蹤每個執行個體的使用量，協助您提高工作效率。
+
+[按一下這裡](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=zh-Hant#discover-control-panel)以獲得更多資訊。
 
 >[!NOTE]
 >
@@ -124,7 +125,7 @@ ht-degree: 95%
 
 ## 請求協助
 
-<img src="start/using/assets/do-not-localize/icon-support.svg" width="60px">
+![支援圖示](start/using/assets/do-not-localize/icon-support.svg){width="60px"}
 
 新票證系統已透過 [Adobe Admin Console](https://adminconsole.adobe.com/overview) 提供。 新系統要求每個使用者都需要有新的個別帳戶，並擁有正確的權限。 如果您發現無法使用 Adobe ID 登入，請透過 Experience League 請求存取權限，客戶服務團隊會盡快為您設定。 [了解更多](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
 
@@ -139,4 +140,3 @@ ht-degree: 95%
 如要在該新系統中記錄問題或啟動聊天工作階段，請連結到 [Adobe Admin Console](https://adminconsole.adobe.com/overview)。
 
 請依照[此頁面](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)中說明的詳細過程進行操作。
-

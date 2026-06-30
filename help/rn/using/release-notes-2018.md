@@ -6,37 +6,16 @@ role: User
 level: Beginner
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
 TQID: https://experienceleague.adobe.com/BtRFMP6fh8X5Z6R1wGzc0Q07HCQlx-2-3evgAOnU3eA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2:
-  - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
-  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
-  - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
-  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
-  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
-  - id: e739ee2b-6228-412e-878f-45de0791417d
-  - id: eff19c99-440a-4318-b319-444edc4d8d8f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2id: c309ee4e-82e4-4f7e-b608-ef345678c34eid: c5474392-5419-4296-9e41-f6f4ce4f6e9bid: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: b1fd1501-3105-4d6b-b4d4-9af53126df75id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0id: e3988c18-3cfa-4f16-b812-ac2d2b1056faid: e5e477db-ebc7-4368-ab0f-4d8fc2aed405id: e739ee2b-6228-412e-878f-45de0791417did: eff19c99-440a-4318-b319-444edc4d8d8f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 77a1b72042c178fd56fefb639aba2674d85c9caa
 workflow-type: tm+mt
-source-wordcount: 5217
-ht-degree: 4%
+source-wordcount: 5477
+ht-degree: 3%
 
 ---
 
@@ -144,7 +123,7 @@ ht-degree: 4%
 
 **功能改進**
 
-* Adobe Campaign和Adobe Target整合現在可讓您運用Target的[許可權](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html?lang=zh-Hant)功能。 在電子郵件中加入Adobe Target的動態影像時，您現在可以指定Target屬性（at_property程式碼）。
+* Adobe Campaign和Adobe Target整合現在可讓您運用Target的[許可權](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html)功能。 在電子郵件中加入Adobe Target的動態影像時，您現在可以指定Target屬性（at_property程式碼）。
 * GDPR隱私權存取/刪除請求現在會考量具有設定檔資源擁有複製連結的自訂資源。 針對1個基數簡易連結和N個基數集合連結，您必須在自訂資源中選取「刪除/複製目標籤錄表示刪除/複製連結參考的記錄」。 對於0或1個基數簡單連結，選取「刪除/複製記錄表示刪除/複製連結參照的目標籤錄」。
 
 **其他變更**
@@ -222,7 +201,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td> GDPR：核心服務整合<br /> </td> 
-   <td> 隱私權核心服務整合可讓您透過單一JSON API呼叫，在多解決方案內容中自動化GDPR請求。<br /> 從「隱私權核心服務」推送至所有Experience Cloud解決方案的GDPR請求，現在會由Campaign自動處理。<br /> 如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html?lang=zh-Hant">詳細檔案</a>.<br /> </td> 
+   <td> 隱私權核心服務整合可讓您透過單一JSON API呼叫，在多解決方案內容中自動化GDPR請求。<br /> 從「隱私權核心服務」推送至所有Experience Cloud解決方案的GDPR請求，現在會由Campaign自動處理。<br /> 如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">詳細檔案</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 推播改良功能 — 詳細的傳遞回饋<br /> </td> 
@@ -230,8 +209,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td> 傳遞記錄延伸<br /> </td> 
-   <td> 傳送記錄擴充功能可讓您使用來自工作流程的設定檔資料和區段程式碼來擴充傳送記錄檔。然後，此資訊便可用於動態報告中，並可讓您在傳送資料時保留某些資訊的快照。<br />還有2個使用案例：<br /> 
-    <ul> 
+   <td> 傳送記錄擴充功能可讓您使用來自工作流程的設定檔資料和區段程式碼來擴充傳送記錄檔。 然後，此資訊便可用於動態報告中，並可讓您在傳送時保留某些資訊的快照。<br /> 還有2個使用案例：<br /> <ul> 
      <li> 匯出包含「凍結」資料的擴充broadlog：作為行銷人員，我想匯出區段代碼等於「A」（來自工作流程引擎）的所有設定檔。 </li> 
      <li> 針對「凍結」資料細分：身為行銷人員，我希望<strong>重新鎖定自上次傳送以來已獲得1000點忠誠度或區段代碼等於「A」的所有設定檔</strong>。 </li> 
     </ul> 如需詳細資訊，請參閱<a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">詳細檔案</a>.<br /> </td> 
@@ -320,21 +298,19 @@ _自訂資源_
  <tbody> 
   <tr> 
    <td> 歐盟一般資料保護規範(GDPR)<br /> </td> 
-   <td> GDPR是歐盟(EU)的新隱私權法律，協調資料保護要求並以現代化方式規範這些要求，於2018年5月25日生效。GDPR適用於所持有資料的主體居住於歐盟的Adobe Campaign客戶。<br />除了Adobe Campaign中已提供的隱私權功能（包括同意管理、資料保留設定和使用者角色）之外，我們還將以資料處理者的角色利用此機會加入其他功能，以協助您做好準備，以利您擔任資料控制者，處理特定GDPR請求：<br /> 
-    <ul> 
+   <td> GDPR是歐盟(EU)的新隱私權法律，協調資料保護要求並以現代化方式規範這些要求，於2018年5月25日生效。 GDPR適用於所持有資料的主體居住於歐盟的Adobe Campaign客戶。<br /> 除了Adobe Campaign中已提供的隱私權功能（包括同意管理、資料保留設定和使用者角色）之外，我們還將以資料處理者的角色利用此機會加入其他功能，以協助您做好準備，以利您作為資料控制者，處理特定GDPR請求：<br /> <ul> 
      <li> 存取許可權：允許資料主體接收資料控制者擷取的個人資料副本，其中可能包括儲存在Adobe Campaign中的資料。 </li> 
      <li> 刪除權：資料主體有權清除資料控制者擷取的個人資料，可能包括儲存在Adobe Campaign中的資料。 </li> 
-    </ul> 如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html?lang=zh-Hant">詳細檔案</a>.<br /> </td> 
+    </ul> 如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">詳細檔案</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 適用於電子郵件的Creative Designer (Beta)<br /> </td> 
-   <td> Adobe Campaign的全新Creative Designer在Campaign中提供完全整合的建立體驗，讓您輕鬆快速地建立吸引人、個人化的電子郵件，而不需要編寫程式碼的一行。透過其強大的拖放介面，不論使用者是從空白顯示板開始，還是運用現有的內容片段或範本，Creative Designer都能協助縮放電子郵件建立作業。<br />主要功能包括：<br /> 
-    <ul> 
+   <td> Adobe Campaign的全新Creative Designer在Campaign中提供完全整合的建立體驗，讓您輕鬆快速地建立吸引人、個人化的電子郵件，而不需要編寫程式碼的一行。 透過其強大的拖放介面，不論使用者是從空白顯示板開始，還是運用現有的內容片段或範本，Creative Designer都能協助縮放電子郵件建立作業。<br /> 主要功能包括：<br /> <ul> 
      <li> 透過拖放介面，利用原生Creative Cloud整合強化，以視覺化方式設計和建立完全個人化、回應式電子郵件 </li> 
      <li> 建立和儲存電子郵件內容範本，並利用儲存的範本來協助縮放電子郵件的建立 </li> 
      <li> 建立並儲存內容片段（例如頁首、頁尾、文章等） 簡化內容建立並確保品牌一致性 </li> 
      <li> 透過拖放介面進行建立，以及按一下按鈕直接編輯電子郵件的HTML之間，均可順暢切換 </li> 
-    </ul> 適用於電子郵件的Creative Designer只有英文版。<br /> 如需詳細資訊，請參閱<a href="../../designing/using/designing-content-in-adobe-campaign.md">詳細檔案</a>並觀看此<a href="https://www.youtube.com/watch?time_continue=1&v=5S_6A4fsfms">影片</a>。<br /> </td> 
+    </ul> 適用於電子郵件的Creative Designer只有英文版。<br /> 如需詳細資訊，請參閱<a href="../../designing/using/designing-content-in-adobe-campaign.md">詳細檔案</a>並觀看此<a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms">影片</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 多語言推播傳遞<br /> </td> 
@@ -342,8 +318,7 @@ _自訂資源_
   </tr> 
   <tr> 
    <td> 在異動訊息傳遞中使用自訂資源<br /> </td> 
-   <td> 除了現成可用的欄位之外，異動訊息現在可讓您使用自訂資源來擴充訊息的內容。<br />例如：<br /> 
-    <ul> 
+   <td> 除了現成可用的欄位之外，異動訊息現在可讓您使用自訂資源來擴充訊息的內容。<br /> 例如：<br /> <ul> 
      <li> 利用自訂欄位作為調解標準，將交易式訊息與設定檔進行比對 </li> 
      <li> 運用完整的設定檔、服務和連結資料，進一步個人化異動訊息 </li> 
     </ul> 如需詳細資訊，請參閱<a href="../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content">詳細檔案</a>.<br /> </td> 
@@ -482,13 +457,12 @@ _已知問題_
   </tr> 
   <tr> 
    <td> 推播新功能<br /> </td> 
-   <td> 推送訊息預覽 — 從推送通知內容編輯器預覽在iOS和Android裝置上顯示的推送通知，在測試或執行傳遞前可先檢視收件者所見到的內容。<br />如需詳細資訊，請參閱<a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">詳細檔案</a>。<br />可用的內容 — 如果使用者在一段時間後都未開啟應用程式，其資料可能會過期。這會導致在使用者最終開啟應用程式時，必須更新或取代資料，這可能會造成使用應用程式發生延遲。透過新增的「可用內容」支援，Adobe Campaign使用者在傳送推播通知時，可以喚醒其應用程式以在背景重新整理其資料，以提升一致性和控制使用者的應用程式內體驗。<br />可變內容 — 透過新增的「可變內容」支援，Adobe Campaign使用者現在可以運用其行動應用程式延伸模組，進一步修改來自Adobe Campaign之推播通知的內容或呈現方式。例如，使用者可利用可變內容來： <br /> 
-    <ul> 
+   <td> 推送訊息預覽 — 從推送通知內容編輯器預覽在iOS和Android裝置上顯示的推送通知，在測試或執行傳遞前可先檢視收件者所見到的內容。<br /> 如需詳細資訊，請參閱<a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">詳細檔案</a>.<br /> 可用內容 — 如果使用者在一段時間後都未開啟應用程式，系統便會將其資料視為過時。 這會導致在使用者最終開啟應用程式時，必須更新或取代資料，這可能會造成使用應用程式發生延遲。 透過新增的「可用內容」支援，Adobe Campaign使用者可以在傳送推播通知時，喚醒其應用程式以在背景重新整理其資料，以提升一致性和控制使用者的應用程式內體驗。<br /> 可變動內容 — 透過新增的「可變動內容」支援，Adobe Campaign使用者現在可運用行動應用程式延伸模組，進一步修改來自Adobe Campaign之推送通知的內容或呈現方式。 例如，使用者可善用可變內容至： <br /> <ul> 
      <li> 解密以加密格式傳送的資料 </li> 
      <li> 下載影像或其他媒體檔案，並將它們新增為通知的附件 </li> 
      <li> 變更通知的正文或標題文字 </li> 
      <li> 將執行緒識別碼新增至通知 </li> 
-    </ul> 如需有關可用內容和可變內容的詳細資訊，請參閱<a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">詳細檔案</a>.<br /> <strong>警告：</strong>這些推播通知更新要求客戶升級其行動應用程式。 如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/push-payload.html?lang=zh-Hant">此技術檔案</a>。<br /> </td> 
+    </ul> 如需有關可用內容和可變內容的詳細資訊，請參閱<a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">詳細檔案</a>.<br /> <strong>警告：</strong>這些推播通知更新要求客戶升級其行動應用程式。 如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/push-payload.html">此技術檔案</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 時區最佳化傳遞<br /> </td> 
@@ -542,4 +516,5 @@ _設定檔與對象_
 * 新增工具提示，在計數查詢母體後顯示準確的結果編號。
 * 修正可能導致使用者無法選取對象或關閉對象選擇器視窗的問題。
 * 已更新運算式編輯器中可用函式的清單。 已移除&#x200B;**FormatCurrency**&#x200B;和&#x200B;**ConvertCurrency**&#x200B;函式。
+
 

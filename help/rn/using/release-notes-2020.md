@@ -39,10 +39,10 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
+source-git-commit: 77a1b72042c178fd56fefb639aba2674d85c9caa
 workflow-type: tm+mt
-source-wordcount: 5380
-ht-degree: 94%
+source-wordcount: 5439
+ht-degree: 95%
 
 ---
 
@@ -64,8 +64,7 @@ ht-degree: 94%
 </thead> 
 <tbody> 
 <tr> 
-  <td> <p>您現在可以使用<strong>控制群組</strong>，透過排除其閱聽眾的一部分來評估行銷活動的影響。然後，您將能夠將接收到消息的目標人口的行為與未作為目標的聯絡人的行為進行比較。根據傳送記錄，您也可以在未來的行銷活動中定位控制組。
-</p>
+  <td> <p>您現在可以使用<strong>控制組組</strong>，透過排除其客群的一部分來評估行銷活動的影響。 然後，您將能夠將接收到消息的目標群體的行為與未作為目標的聯絡人的行為進行比較。 根據傳送日誌，您也可以在未來的行銷活動中鎖定控制組。</p>
 <p>如需詳細資訊，請參閱<a href="../../sending/using/control-group.md">詳細文件</a>及<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html?lang=zh-Hant">作法影片</a>。
 </p>
 </td> 
@@ -81,8 +80,7 @@ ht-degree: 94%
 </thead> 
 <tbody> 
 <tr> 
-  <td> <p>Adobe Campaign現在支援OAuth，以便在<strong>外部API</strong>工作流程活動中進行驗證。這項新功能使此活動能夠與需要OAuth支援的系統通訊。
-</p>
+  <td> <p>Adobe Campaign 現在支援 OAuth，以便在<strong>外部 API</strong> 工作流程活動中進行驗證。 這項新功能使此活動能夠與需要 OAuth 支援的系統進行通訊。</p>
 <p>如需詳細資訊，請參閱<a href="../../automating/using/external-api.md">詳細文件</a>。
 </p>
 </td> 
@@ -515,4 +513,5 @@ ht-degree: 94%
 * 修正傳送應用程式內訊息時，「傳送記錄檔」畫面無法顯示位址的問題。
 * 修正簡訊傳送記錄檔無法以正確退信更新的問題。 (CAMP-38395)
 * 已修正允許應用程式訂閱貼文呼叫更新推播通知權杖的漏洞。 (CAMP-39273)
+
 

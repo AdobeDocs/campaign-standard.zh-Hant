@@ -33,9 +33,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
+source-git-commit: 77a1b72042c178fd56fefb639aba2674d85c9caa
 workflow-type: tm+mt
-source-wordcount: 4540
+source-wordcount: 4623
 ht-degree: 3%
 
 ---
@@ -423,8 +423,7 @@ _推播通知_
   </tr> 
   <tr> 
    <td> 手動傳送時間最佳化<br /> </td> 
-   <td> 您現在可以在傳送層級或使用工作流程，手動定義每個收件者的自訂傳送時間。<br />兩個新選項可供使用： <br /> 
-    <ul> 
+   <td> 您現在可以在傳送層級或使用工作流程，手動定義每個收件者的自訂傳送時間。<br /> 有兩個新選項可供使用： <br /> <ul> 
      <li> 所有收件者都會收到訊息，其時區已納入考量。 </li> 
      <li> 每個收件者都會在公式所定義的計算日期和時間收到訊息。 </li> 
     </ul> 如需詳細資訊，請參閱<a href="../../sending/using/optimizing-the-sending-time.md">詳細檔案</a>.<br /> </td> 
@@ -442,8 +441,7 @@ _推播通知_
   </tr> 
   <tr> 
    <td> 工作流程：新訊號活動<br /> </td> 
-   <td> 使用新的<span class="uicontrol">Signal</span>活動，從另一個工作流程觸發工作流程。<br />由於能夠從另一個工作流程啟動工作流程，您現在可以支援更複雜的客戶歷程。您可以更好地監視客戶歷程，並在發生問題時做出反應。<br />已更新數個工作流程活動：<br /> 
-    <ul> 
+   <td> 使用新的<span class="uicontrol">訊號</span>活動，從其他工作流程觸發工作流程。<br /> 有了從另一個工作流程啟動工作流程的功能，您現在可以支援更複雜的客戶歷程。 您可以更好地監視客戶歷程，並在發生問題時做出反應。<br /> 已更新數個工作流程活動： <br /> <ul> 
      <li> <span class="uicontrol">結束</span>活動：新的索引標籤可讓您指定此活動執行後要觸發的工作流程。 </li> 
      <li> <span class="uicontrol">更新資料</span>活動：使用新的空的匯出轉變來新增觸發另一個工作流程的<strong>End</strong>活動。 空的匯出轉變不攜帶任何資料，也不會消耗系統上不必要的空間 </li> 
     </ul> 如需詳細資訊，請參閱<a href="../../automating/using/external-signal.md">詳細檔案</a>.<br /> </td> 
@@ -498,16 +496,14 @@ _工作流程_
  <tbody> 
   <tr> 
    <td> 外部報告的記錄檔匯出<br /> </td> 
-   <td> 匯出傳送和追蹤記錄等記錄檔，以便在您偏好的報告或BI工具中處理。您可以使用包含增量查詢的簡單工作流程，自動定期匯出新記錄。<br />除了資源選擇器的記錄資源可用性之外，還對<a href="../../automating/using/incremental-query.md">增量查詢</a>和<a href="../../automating/using/extract-file.md">擷取檔案</a>活動進行了增強：<br /> 
-    <ul> 
+   <td> 匯出傳送和追蹤記錄等記錄檔，以便在您偏好的報告或BI工具中處理。 您可以使用簡單的工作流程搭配增量查詢，以自動定期匯出新記錄。<br /> 除了資源選擇器的記錄資源可用性之外，還增強了<a href="../../automating/using/incremental-query.md">增量查詢</a>和<a href="../../automating/using/extract-file.md">擷取檔案</a>活動： <br /> <ul> 
      <li> <span class="uicontrol">增量查詢</span>現在可讓您使用日期欄位來擷取新的或更新後的資料。 以前，即使先前執行的所有結果在上次執行後已更新，也會自動排除。 </li> 
      <li> <span class="uicontrol">擷取檔案</span>現在可以匯出列舉值的標籤，而不是ID。 </li> 
     </ul> 這些活動可供擁有所有地理和組織單位存取權的管理員使用。<br /> 如需匯出記錄檔的詳細資訊，請參閱<a href="../../automating/using/exporting-logs.md">詳細檔案</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 異動訊息的行銷功能<br /> </td> 
-   <td> 行銷人員現在可以根據客戶行銷設定檔傳送交易式訊息。這允許他們：<br /> 
-    <ul> 
+   <td> 行銷人員現在可以根據客戶行銷設定檔傳送交易式訊息。 這允許他們：<br /> <ul> 
      <li> 套用行銷型別規則，例如<span class="uicontrol">封鎖清單</span>上的地址。 </li> 
      <li> 在訊息中包含取消訂閱連結。 </li> 
      <li> 將交易式訊息新增至全域傳送報告。 </li> 
@@ -559,4 +555,5 @@ _整合_
 * 修正在Adobe Campaign中部署事件觸發程式時，可能導致錯誤的問題。 將「30天內回訪的可能性」中繼資料新增至Adobe Marketing Cloud中的放棄觸發程式時，就會發生此錯誤。
 * 修正從People核心服務匯入受眾時，技術工作流程可能清除Target Dimension欄位的問題。 後續查詢無法擷取匯入的對象。
 * 修正核取選項&#x200B;**[!UICONTROL Share in Adobe Marketing Cloud]**&#x200B;時，工作流程的&#x200B;**[!UICONTROL Save audience]**&#x200B;活動可能失敗的問題。
+
 

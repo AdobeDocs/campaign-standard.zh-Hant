@@ -33,7 +33,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 77a1b72042c178fd56fefb639aba2674d85c9caa
+source-git-commit: 1e34b244937569402d8fe873f6dd67f20b9a9a29
 workflow-type: tm+mt
 source-wordcount: 5477
 ht-degree: 3%
@@ -285,7 +285,7 @@ ht-degree: 3%
 
 _平台_
 
-* 修正了無法正確處理GDPR存取或刪除請求的錯誤。 在某些極少數的情況下，當擷取的資料包含以下字元之一時，就會發現此行為： &amp; &lt; > &quot; &#39;。
+* 修正了無法正確處理GDPR存取或刪除請求的錯誤。 在某些極少數的情況下，當擷取的資料包含下列字元之一時，就會發現此行為： `& < > " '`。
 
 _電子郵件、簡訊和直接郵件_
 
@@ -537,5 +537,3 @@ _設定檔與對象_
 * 新增工具提示，在計數查詢母體後顯示準確的結果編號。
 * 修正可能導致使用者無法選取對象或關閉對象選擇器視窗的問題。
 * 已更新運算式編輯器中可用函式的清單。 已移除&#x200B;**FormatCurrency**&#x200B;和&#x200B;**ConvertCurrency**&#x200B;函式。
-
-

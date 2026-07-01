@@ -39,7 +39,7 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 77a1b72042c178fd56fefb639aba2674d85c9caa
+source-git-commit: e267777274122de6dc8badc2d6b8dfdaa20c5fb2
 workflow-type: tm+mt
 source-wordcount: 5439
 ht-degree: 95%
@@ -513,5 +513,3 @@ ht-degree: 95%
 * 修正傳送應用程式內訊息時，「傳送記錄檔」畫面無法顯示位址的問題。
 * 修正簡訊傳送記錄檔無法以正確退信更新的問題。 (CAMP-38395)
 * 已修正允許應用程式訂閱貼文呼叫更新推播通知權杖的漏洞。 (CAMP-39273)
-
-

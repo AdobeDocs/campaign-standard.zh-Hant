@@ -16,10 +16,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+source-git-commit: 1e34b244937569402d8fe873f6dd67f20b9a9a29
 workflow-type: tm+mt
 source-wordcount: 249
-ht-degree: 91%
+ht-degree: 85%
 
 ---
 
@@ -34,7 +34,7 @@ Adobe Campaign　可讓您使用查詢手動建立客群，或自動使用專用
 您可以在　Adobe Campaign　中控制不同的客群類型。 客群類型與建立客群的方式相對應：
 
 * **[!UICONTROL Query]**：表示對象是透過對象清單從Adobe Campaign資料庫使用[query](../../automating/using/editing-queries.md#about-query-editor)資料建立的。 在每次進一步使用時重新計算由查詢定義的客群。
-* **[!UICONTROL List]**：指出客群是固定的輪廓清單。 這些清單會在[工作流程](../../automating/using/get-started-workflows.md)中建立，而且在儲存客群時會知道資料維度。 例如，在目標定位活動（尤其是 **[!UICONTROL Query]**）之後，或是協調從檔案匯入的資料之後。
+* **[!UICONTROL List]**：指出客群是固定的輪廓清單。 這些清單會在[工作流程](../../automating/using/get-started-workflows.md)中建立，而且在儲存客群時會知道資料維度。 例如，在目標定位活動（尤其是&#x200B;**[!UICONTROL Query]**）之後，或是協調從檔案匯入的資料之後。
 * **[!UICONTROL File]**：指出客群是從[檔案匯入](../../automating/using/load-file.md)工作流程直接建立，而且在儲存客群時不會知道資料維度。
 * **[!UICONTROL Experience Cloud]**：指出客群是從　Adobe Experience Cloud　匯入。 只有已設定客群共用功能時，才可使用此選項。 如需詳細資訊，請參閱[從　Adobe Experience Cloud　匯入客群](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md#importing-an-audience)。
 

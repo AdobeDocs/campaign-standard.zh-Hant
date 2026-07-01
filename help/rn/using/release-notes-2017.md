@@ -6,34 +6,13 @@ role: User
 level: Beginner
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
 TQID: https://experienceleague.adobe.com/o3S2hQizbgi5V-8uEzd4UsVZslopMk6BlpCy-DXESUQ
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2:
-  - id: bb6c4d97-79f4-412c-a764-b541e9f9facd
-  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
-  - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
-  - id: d8d962e2-fcf3-4f64-82dc-4b50292e7f75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 77a1b72042c178fd56fefb639aba2674d85c9caa
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2id: c309ee4e-82e4-4f7e-b608-ef345678c34eid: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: bb6c4d97-79f4-412c-a764-b541e9f9facdid: bf97c196-a4d1-4fa3-a151-e68a114c8ac0id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0id: d8d962e2-fcf3-4f64-82dc-4b50292e7f75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: beb7a3c1-66ab-4786-b879-7621375b3c40id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: e267777274122de6dc8badc2d6b8dfdaa20c5fb2
 workflow-type: tm+mt
 source-wordcount: 4623
 ht-degree: 3%
@@ -555,5 +534,3 @@ _整合_
 * 修正在Adobe Campaign中部署事件觸發程式時，可能導致錯誤的問題。 將「30天內回訪的可能性」中繼資料新增至Adobe Marketing Cloud中的放棄觸發程式時，就會發生此錯誤。
 * 修正從People核心服務匯入受眾時，技術工作流程可能清除Target Dimension欄位的問題。 後續查詢無法擷取匯入的對象。
 * 修正核取選項&#x200B;**[!UICONTROL Share in Adobe Marketing Cloud]**&#x200B;時，工作流程的&#x200B;**[!UICONTROL Save audience]**&#x200B;活動可能失敗的問題。
-
-

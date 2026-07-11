@@ -6,10 +6,10 @@ role: User
 level: Beginner
 hide: true
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: e267777274122de6dc8badc2d6b8dfdaa20c5fb2
+source-git-commit: a86fd995b57d9c0e672611d99a3063a2baab15db
 workflow-type: tm+mt
-source-wordcount: '7629'
-ht-degree: 100%
+source-wordcount: '7650'
+ht-degree: 99%
 
 ---
 
@@ -17,6 +17,10 @@ ht-degree: 100%
 
 除了 Adobe Campaign [發行版本](../../rn/using/release-notes.md)以外，本頁還列出 Adobe Campaign Standard 檔案中的所有全新更新。
 
+
+## 2026年6月 {#doc-updates-june-2026}
+
+在CNIL指南中新增一個頁面，說明電子郵件追蹤畫素和相關的Adobe Campaign Standard功能。 [閱讀更多](../../administration/using/cnil-pixel-tracking.md)
 
 ## 版本 24.1 - 2024 年冬季 {#release-24-1}
 

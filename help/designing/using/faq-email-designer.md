@@ -8,7 +8,7 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: f3208380-a4cf-4944-aa24-883995d1075d
-TQID: https://experienceleague.adobe.com/E-pr-K2MhoGRnz46df3Dz---s3NRdSbweBFhTAMgSw4
+TQID: https://experienceleague.adobe.com/E-pr-K2MhoGRnz46df3Dz%2D%2D%2Ds3NRdSbweBFhTAMgSw4
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 role_v2:
@@ -17,7 +17,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+source-git-commit: 116306c9479f7094cb2cb78b7fe2df31a508c9cd
 workflow-type: tm+mt
 source-wordcount: 445
 ht-degree: 7%
@@ -43,8 +43,7 @@ ht-degree: 7%
    ![](assets/do-not-localize/breadcrumb.png)
 
 1. 按一下您要新增邊框間距的元素。
-1. 按一下HTML階層連結中的父標籤。
-您現在可以新增邊框間距至此元素。
+1. 按一下HTML階層連結中的父標籤。您現在可以新增邊框間距至此元素。
 
 ## 我可以在電子郵件Designer中匯入HTML內容嗎？
 
@@ -54,8 +53,7 @@ ht-degree: 7%
 
 ## 如何建立我的第一封電子郵件內容？
 
-首先，從首頁建立電子郵件。
-然後，若要將內容新增至電子郵件，您需要新增結構元件，並在其中插入內容元件。
+首先，從首頁建立電子郵件。然後，若要將內容新增至電子郵件，您需要新增結構元件，並在其中插入內容元件。
 
 如需詳細資訊，請參閱[從頭開始建立電子郵件](../../designing/using/quick-start.md#from-scratch-email)
 

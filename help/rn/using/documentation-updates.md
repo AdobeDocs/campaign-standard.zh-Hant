@@ -6,9 +6,9 @@ role: User
 level: Beginner
 hide: true
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: a86fd995b57d9c0e672611d99a3063a2baab15db
-workflow-type: ht
-source-wordcount: '7650'
+source-git-commit: 437c3f380f03b901309160572c0ee1dda0369225
+workflow-type: tm+mt
+source-wordcount: '7568'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 ## 2026 年 6 月 {#doc-updates-june-2026}
 
-新增了一個頁面，說明關於電子郵件追蹤像素的 CNIL 指引，以及相關的 Adobe Campaign Standard 功能。[閱讀更多](../../administration/using/cnil-pixel-tracking.md)
+新增了一個頁面，說明關於電子郵件追蹤像素的 CNIL 指引，以及相關的 Adobe Campaign Standard 功能。 [閱讀更多](../../administration/using/cnil-pixel-tracking.md)
 
 ## 版本 24.1 - 2024 年冬季 {#release-24-1}
 
@@ -452,8 +452,6 @@ Microsoft Dynamics 365 整合 (GA) – [瞭解詳情](../../integrating/using/d3
 
 **此版本隨附的其他文件更新**
 
-Adobe Campaign 的錯誤訊息清單已更新。 [閱讀更多](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=zh-Hant)
-
 改善並加強 GDPR 快速入門手冊。 該手冊現在是包含 GDPR 及 CCPA 的隱私權管理文件。 [閱讀更多](https://helpx.adobe.com/tw/campaign/kb/campaign-privacy.html)
 
 已新增一個圖表，其中顯示異動訊息發佈程式。 [閱讀更多](../../channels/using/publishing-transactional-message.md#transactional-messaging-pub-process)
@@ -534,8 +532,6 @@ Campaign Standard 實作指南現已上線。[閱讀更多](https://helpx.adobe.
 
 已新增有關工作流程最佳實務的新區段。 [閱讀更多](../../automating/using/best-practices-workflows.md)
 
-Campaign Standard 及 Campaign Classic 的錯誤訊息清單已更新。 [閱讀更多](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=zh-Hant)
-
 在自訂資源文件中新增警告。 我們建議對自訂資源 ID 使用最多 30 個字元。 這也適用於自訂資源欄位、索引和連結。 [閱讀更多](../../developing/using/creating-or-extending-the-resource.md)
 
 ## 2019 年 6 月至 7 月 {#doc-updates-2019}
@@ -545,8 +541,6 @@ Campaign Standard 及 Campaign Classic 的錯誤訊息清單已更新。 [閱讀
 已新增使用案例，說明如何使用複合識別金鑰呼叫輪廓。 [閱讀更多](../../developing/using/uc-calling-resource-id-key.md)
 
 已新增建議，說明在呼叫包含參數的工作流程時，如何使用無彙總期間的循環傳送。 [閱讀更多](../../automating/using/calling-a-workflow-with-external-parameters.md)
-
-Campaign Standard 及 Campaign Classic 的錯誤訊息清單已更新。 [閱讀更多](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=zh-Hant)
 
 在自訂資源文件中新增警告。 我們建議對自訂資源 ID 使用最多 30 個字元。 這也適用於自訂資源欄位、索引和連結。 [閱讀更多](../../developing/using/creating-or-extending-the-resource.md)
 
@@ -592,7 +586,7 @@ Campaign Standard 及 Campaign Classic 的錯誤訊息清單已更新。 [閱讀
 
 「動態」報告的「指標」計算區段已更新。 [閱讀更多](../../reporting/using/indicator-calculation.md)
 
-已新增動態報告相容性表格，以更妥善地瞭解維度與度量之間的相容性。 [閱讀更多](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=zh-Hant)
+已新增動態報告相容性表格，以更妥善地瞭解維度與度量之間的相容性。 [閱讀更多](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf)
 
 工作流程的函式清單已更新。 [閱讀更多](../../automating/using/list-of-functions.md)
 
@@ -653,8 +647,6 @@ Dreamweaver 整合區段已更新並改良。 [閱讀更多](../../designing/usi
 已新增一項技術，說明如何從 Adobe Campaign Standard 推播通知顯示影像。 [閱讀更多](../../administration/using/image-push-notification.md)
 
 已新增推播追蹤實作的新技術。 [閱讀更多](../../administration/using/push-tracking.md)
-
-Campaign Standard 及 Campaign Classic 的錯誤訊息清單已更新。 [閱讀更多](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=zh-Hant)
 
 已更新「觸發器 – Adobe Campaign Standard」整合文件。 [閱讀更多](../../integrating/using/about-adobe-experience-cloud-triggers.md)
 
@@ -870,7 +862,7 @@ datamodel v1 現在可用於內建資源的 SQL 結構 – [瞭解詳情](../../
 
 新增如何準備傳送的逐步使用案例。 [閱讀更多](../../sending/using/preparing-the-send.md)
 
-已刪除包含授權清單的區段。 [瞭解詳情](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=zh-Hant) (PDF)。
+已刪除包含授權清單的區段。 [瞭解詳情](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf) (PDF)。
 
 新增如何使用簡訊自動回覆的逐步使用案例。 [閱讀更多](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
@@ -1042,7 +1034,7 @@ Adobe Campaign 通知 – [瞭解詳情](../../administration/using/sending-inte
 
 新增了設定 People 核心服務或 Audience Manager 與 Adobe Campaign 整合的說明。 [閱讀更多](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
 
-修改授權表，使某些角色的功能更加清晰。 [閱讀更多](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=zh-Hant)
+修改授權表，使某些角色的功能更加清晰。 [閱讀更多](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 更新直接從 Adobe Campaign 取得的內容說明連結。
 

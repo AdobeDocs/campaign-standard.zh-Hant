@@ -1,18 +1,16 @@
 ---
-title: 發行說明 2025 年
-description: 本頁列出 2025 年的所有 Adobe Campaign Standard 版本。
+title: 發行說明2025年
+description: 本頁列出2025年的所有Adobe Campaign Standard版本
 feature: Overview
 role: User
 level: Beginner
-exl-id: e1f55a9b-be51-4f57-8719-fed7efc89114
-source-git-commit: 4df02bb5bbac105057a33d61a7158482bbc48a53
+exl-id: 9046db34-f610-4721-b6eb-92334149366d
+source-git-commit: 4e39100c19fa7bd943b16e3ed87b8c2d82bdf814
 workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 100%
-
+ht-degree: 94%
 ---
-
-# 發行說明 2025 年 {#release-notes-2025}
+# 發行說明2025年 {#release-notes-2025}
 
 ## 版本 25.2 - 2025 夏季版本 {#summer-25}
 
@@ -25,9 +23,9 @@ ht-degree: 100%
 
 * 改善處理序列耗竭的程式，以提升系統可靠性。 (CAMP-57281)
 * 一般產品穩定更新。 (CAMP-57339)
-* 改進的動態報告具有更好的穩健性並減少了資料不符項目。(CAMP-58157)
+* 改進的動態報告具有更好的穩健性並減少了資料不符項目。 (CAMP-58157)
 * 修正下拉式功能表未正確繞排文字的問題。 (CAMP-57360)
-* 更新了報告功能以防止使用者查詢超過 2 年的資料。(CAMP-59262)
+* 更新了報告功能以防止使用者查詢超過 2 年的資料。 (CAMP-59262)
 
 ## 發行版本 25.1.2 {#25.1.2}
 
@@ -38,8 +36,8 @@ ht-degree: 100%
 
 ### 其他修正 {#25.1.2-fixes}
 
-* 修正權杖剖析問題，此問題可能阻止使用者透過 IMS 登入。(CAMP-57337)
-* 改善自動序列 ID 產生機制，以提升系統可靠性。(CAMP-57281)
+* 修正權杖剖析問題，此問題可能阻止使用者透過 IMS 登入。 (CAMP-57337)
+* 改善自動序列 ID 產生機制，以提升系統可靠性。 (CAMP-57281)
 
 ## 版本 25.1 - 2025 年冬季發布內容 {#winter-25}
 
@@ -58,4 +56,3 @@ ht-degree: 100%
 * 修正計費流程的效能問題 (CAMP-56796)
 * 修正 JSSP 網頁上 `>` 字元的 HTML 編碼問題 (CAMP-56497)
 * 修正動態報告中使用 **在選取的列顯示** 選項的問題 (CAMP-55895)
-

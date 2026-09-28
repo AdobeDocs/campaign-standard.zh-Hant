@@ -6,15 +6,14 @@ content-type: reference
 topic-tags: campaign-standard-apis
 source-git-commit: 210289d44f0ad0ebf0b2654f6e9795adad7dd458
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---
 
-
 # 關於隱私權管理 {#about-privacy-management}
 
-Campaign Standard API提供的功能可讓您自動處理與GDPR和CCPA等隱私權法規相關的請求。
+Campaign Standard API提供的功能可讓您自動處理與隱私權法規（例如GDPR和CCPA）相關的請求。
 
 您可以執行的動作如下：
 

@@ -1,16 +1,15 @@
 ---
 title: 自訂清單
-description: 「瞭解如何在Adobe Campaign Standard中自訂顯示並在清單熒幕上操作：排序、篩選、刪除或複製元素。 列出畫面會顯示一或多個指定資源的元素。」
+description: 瞭解如何在Adobe Campaign Standard中自訂顯示並在清單熒幕上操作：排序、篩選、刪除或複製元素。 列出畫面會顯示一或多個指定資源的元素。
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 18%
+source-wordcount: '584'
+ht-degree: 23%
 
 ---
-
 
 # 設計和傳送訊息
 
@@ -45,7 +44,7 @@ ht-degree: 18%
 
 <img width="60px" alt="條件" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet， consectetur adipiscing elit. 前庭預留位置mauris libero，非牙形犀牛ID。 整數luctus blandit ligula。 烏龜車，乳齒蛇。 Nunc pharetra fringilla enim eu suscipit. 毛利群島最高峰。 無痕小車。 江南黃瓜、三叉鯛、紫荊花。
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭預留位置mauris libero，非牙形犀牛ID。 整數luctus blandit ligula。 烏龜車，乳齒蛇。 Nunc pharetra fringilla enim eu suscipit. 毛利群島最高峰。 無痕小車。 江南黃瓜、三叉鯛、紫荊花。
 
 **閱讀更多**
 
@@ -56,7 +55,7 @@ Lorem ipsum dolor sit amet， consectetur adipiscing elit. 前庭預留位置mau
 
 <img width="60px" alt="條件" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet， consectetur adipiscing elit. 前庭預留位置mauris libero，非牙形犀牛ID。 整數luctus blandit ligula。 烏龜車，乳齒蛇。 Nunc pharetra fringilla enim eu suscipit. 毛利群島最高峰。 無痕小車。 江南黃瓜、三叉鯛、紫荊花。
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭預留位置mauris libero，非牙形犀牛ID。 整數luctus blandit ligula。 烏龜車，乳齒蛇。 Nunc pharetra fringilla enim eu suscipit. 毛利群島最高峰。 無痕小車。 江南黃瓜、三叉鯛、紫荊花。
 
 **閱讀更多**
 
@@ -111,7 +110,7 @@ Lorem ipsum dolor sit amet， consectetur adipiscing elit. 前庭預留位置mau
 
 <img width="60px" alt="條件" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet， consectetur adipiscing elit. 前庭預留位置mauris libero，非牙形犀牛ID。 整數luctus blandit ligula。 烏龜車，乳齒蛇。 Nunc pharetra fringilla enim eu suscipit. 毛利群島最高峰。 無痕小車。 江南黃瓜、三叉鯛、紫荊花。
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭預留位置mauris libero，非牙形犀牛ID。 整數luctus blandit ligula。 烏龜車，乳齒蛇。 Nunc pharetra fringilla enim eu suscipit. 毛利群島最高峰。 無痕小車。 江南黃瓜、三叉鯛、紫荊花。
 
 **閱讀更多**
 

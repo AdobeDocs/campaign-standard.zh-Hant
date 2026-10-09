@@ -11,17 +11,18 @@ exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 TQID: https://experienceleague.adobe.com/J9pNnea7LEzzIOs3B8lLWG7DhVI-iytVfpArC3Xdy94
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Beginner
+source-git-commit: 85ffa7d709dc970ab5315fb76577c457380b40f8
 workflow-type: tm+mt
-source-wordcount: 411
-ht-degree: 100%
-
+source-wordcount: '417'
+ht-degree: 94%
 ---
-
 # 發行規劃 {#release-planning}
 
 Adobe 透過新增新功能、增強功能和修正不斷改進其解決方案。
@@ -30,39 +31,13 @@ Adobe 透過新增新功能、增強功能和修正不斷改進其解決方案�
 
 升級分兩個階段部署。 首先，Stage 執行個體已升級，可讓您測試新功能並視需要調整其設定。 隨後將升級生產執行個體。
 
-所有發行日期皆可能變更：請定期造訪本頁面，以檢查更新。 環境更新會在以下指定時段內以波形進行。 已透過電子郵件向每位客戶傳達確切日期。
+所有發行日期皆可能變更：請定期造訪本頁面，以檢查更新。 環境更新會分批次進行。 已透過電子郵件向每位客戶傳達確切日期。
 
 ## 版本 26.3 {#release-26-3-release}
 
 當開始升級中繼環境時，[發行說明](release-notes.md)中提供了關於此版本的詳細資訊。
 
-<table>
- <thead>
-  <tr>
-   <th> 環境 </th>
-   <th> 日期</th>
-   <!--
-   <th> General Availability </th>
-   -->
-  </tr>
- </thead>
- <tbody>
-  <tr>
-   <td>階段 </td>
-   <td>8 月 </td>
-   <!--
-   <td>2025 - Dates to be confirmed</td>
-   -->
-  </tr>
-  <tr>
-   <td>生產 </td>
-   <td>9 月 </td>
-   <!--
-   <td>2025 - Dates to be confirmed</td>
-   -->
-  </tr>
- </tbody>
-</table>
+26.3版的升級日期尚未公佈。 請定期造訪此頁面，以檢查更新。
 
 ## 問答集 {#questions-and-answers}
 

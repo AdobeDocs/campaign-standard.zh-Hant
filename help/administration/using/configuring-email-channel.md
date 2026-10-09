@@ -9,25 +9,32 @@ exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
 TQID: https://experienceleague.adobe.com/veKfBzSOBLDuuVmwQjSQoa3cb-fY4jUigBdGTCUL8pM
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63
+    internal-label: Application settings
   - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+    internal-label: Permissions
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: 690eddf477a139564babaa4e39cc66d095371480
 workflow-type: tm+mt
-source-wordcount: 2782
+source-wordcount: '2782'
 ht-degree: 53%
-
 ---
-
 # 設定電子郵件頻道{#configuring-email-channel}
 
 身為 Campaign [管理員](../../administration/using/users-management.md#functional-administrators)，您可以進行電子郵件通道設定。 這些進階設定包含一般電子郵件通道參數、電子郵件路由帳戶、電子郵件處理規則和電子郵件屬性。 在本頁瞭解如何編輯一般電子郵件和傳送引數的預設值。
@@ -44,10 +51,10 @@ ht-degree: 53%
 
   Adobe Campaign 會檢查所輸入的地址在訊息準備階段期間是否有效。 此操作模式可確保不使用任何可能觸發傳送能力問題的地址。
 
-   * 寄件者和錯誤位址皆由 Adobe 設定。 那些欄位不可為空白。
-   * 您無法編輯那些欄位。 若要更新地址，請聯絡 Adobe 客戶服務團隊。
-   * 若要新增其他地址，您可以使用[Campaign控制面板](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=zh-Hant)來設定新的子網域，或聯絡Adobe客戶服務團隊。 請注意，如果使用數個遮罩，則會以逗號分隔。
-   * 使用星號（例如&#x200B;**@yourdomain.com**）來設定位址是建議的做法：它可讓您使用任何以子網域名稱結尾的位址。
+  * 寄件者和錯誤位址皆由 Adobe 設定。 那些欄位不可為空白。
+  * 您無法編輯那些欄位。 若要更新地址，請聯絡 Adobe 客戶服務團隊。
+  * 若要新增其他地址，您可以使用[Campaign控制面板](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=zh-Hant)來設定新的子網域，或聯絡Adobe客戶服務團隊。 請注意，如果使用數個遮罩，則會以逗號分隔。
+  * 使用星號（例如&#x200B;**@yourdomain.com**）來設定位址是建議的做法：它可讓您使用任何以子網域名稱結尾的位址。
 
 * **傳送能力**
 
@@ -237,10 +244,10 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 * **[!UICONTROL Resource validity duration]** / **[!UICONTROL Validity limit date for resources]**：此欄位是用於上傳的資源，主要用於鏡像頁面和影像。 本頁上的資源在限定時間內有效（以節省磁碟空間）。
 * **[!UICONTROL Mirror page management]**：鏡像頁面是可透過網頁瀏覽器線上存取的　HTML　頁面。 其內容與電子郵件內容相同。 依預設，如果將連結插入郵件內容中，則會產生鏡像頁面。 使用此欄位來修改產生此頁面的方式：
 
-   * **[!UICONTROL Generate the mirror page if a mirror link appears in the email content]**（預設模式）：如果將連結插入郵件內容中，則會產生鏡像頁面。
-   * **強制產生鏡像頁面**：即使未將任何鏡像頁面的連結插入郵件中，也會建立鏡像頁面。
-   * **不要產生鏡像頁面**：不會產生任何鏡像頁面，即使郵件中已經有連結亦然。
-   * **產生僅可使用郵件　ID　存取的鏡像頁面**：此選項可讓您在傳送記錄視窗中存取包含個人化資訊的鏡像頁面內容。
+  * **[!UICONTROL Generate the mirror page if a mirror link appears in the email content]**（預設模式）：如果將連結插入郵件內容中，則會產生鏡像頁面。
+  * **強制產生鏡像頁面**：即使未將任何鏡像頁面的連結插入郵件中，也會建立鏡像頁面。
+  * **不要產生鏡像頁面**：不會產生任何鏡像頁面，即使郵件中已經有連結亦然。
+  * **產生僅可使用郵件　ID　存取的鏡像頁面**：此選項可讓您在傳送記錄視窗中存取包含個人化資訊的鏡像頁面內容。
 
   >[!IMPORTANT]
   >

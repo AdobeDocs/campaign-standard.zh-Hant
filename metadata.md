@@ -1,4 +1,5 @@
 ---
+force-publish-loc: '2026-10-15T13:40:44.358512+00:00'
 cloud: Experience Cloud
 product: campaign
 solution: Campaign, Campaign Standard

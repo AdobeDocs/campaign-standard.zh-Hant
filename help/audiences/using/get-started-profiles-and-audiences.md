@@ -87,7 +87,7 @@ Adobe Campaign會即時建立豐富的客戶設定檔，讓您能夠根據客戶
 
 >[!IMPORTANT]
 >
->您必須遵守[Adobe Campaign可接受的使用原則](https://www.adobe.com/legal/terms/aup.html)。
+>您必須遵守[Adobe Campaign可接受的使用原則](https://www.adobe.com/tw/legal/terms/aup.html)。
 
 詳細內容：
 

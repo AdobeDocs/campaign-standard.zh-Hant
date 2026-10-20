@@ -39,7 +39,7 @@ ht-degree: 2%
 
 請參閱下列資源，以取得有關Adobe Experience Platform SDK與Campaign Standard整合的詳細資訊：
 
-* 啟動/行動[概觀影片](https://www.adobe.com/experience-platform/launch.html#acpl-mobile-video){target="_blank"}
+* 啟動/行動[概觀影片](https://www.adobe.com/tw/experience-platform/launch.html#acpl-mobile-video){target="_blank"}
 * 啟動/行動[提示與秘訣指南](https://www.adobe.com/content/dam/dx/us/en/products/experience-platform/launch-tag-manager/pdfs/adobe-cloud-platform-launch-tips-and-tricks-sheet.pdf)
 
 ## Adobe Experience Platform SDK整合是否同時適用於Adobe Campaign Standard和Adobe Campaign Classic？ {#aep-validity}

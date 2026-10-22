@@ -8,24 +8,32 @@ feature: Email Design
 role: User
 level: Beginner
 exl-id: 47f53290-2190-4181-bcd5-e60287189c41
-TQID: https://experienceleague.adobe.com/0eUMMX7vLCR8uHV45WX3u-XfExReU0HLhunWZ1ho-X0
+TQID: 'https://experienceleague.adobe.com/0eUMMX7vLCR8uHV45WX3u-XfExReU0HLhunWZ1ho-X0'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
+subfeature_v2:
+  - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Personalization
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 942
+source-wordcount: '946'
 ht-degree: 5%
-
 ---
-
 # 開始使用電子郵件設計工具 {#quick-start}
 
 電子郵件Designer提供四種建立電子郵件的方式。
@@ -36,7 +44,7 @@ ht-degree: 5%
 
 1. 您可以&#x200B;**從現成可用的範本**&#x200B;建立電子郵件，方法是選取範本並從此處建立新的電子郵件內容。 [了解更多](#building-content-from-an-out-of-the-box-template)
 
-您也可以建立包含現有內容的電子郵件[&#128279;](#with-existing-content)：
+您也可以建立包含現有內容的電子郵件[](#with-existing-content)：
 
 1. 您可以&#x200B;**轉換現有的HTML內容** （在外部或在舊版編輯器中建立）。 [了解更多](#converting-an-html-content)
 1. 您可以在相容模式中立即&#x200B;**匯入現有的HTML內容**。 [了解更多](#compatibility-mode)
@@ -85,27 +93,27 @@ ht-degree: 5%
 
 * **影像**
 
-   1. 在&#x200B;**內容元件**&#x200B;中，將影像拖放至您的其中一個結構元件中。
-   1. 按一下&#x200B;**瀏覽**。
-   1. 從電腦中選取您的影像檔。
+  1. 在&#x200B;**內容元件**&#x200B;中，將影像拖放至您的其中一個結構元件中。
+  1. 按一下&#x200B;**瀏覽**。
+  1. 從電腦中選取您的影像檔。
 
   ![](assets/browse-image-quick-start.png)
 
 * **個人化文字**
 
-   1. 在&#x200B;**內容元件**&#x200B;中，將文字拖放至其中一個結構元件中。
-   1. 按一下元件並輸入文字。
-   1. 若要新增個人化欄位，請按一下工具列中的[插入]個人化欄位&#x200B;**。**
-   1. 選取您需要的欄位，例如「名字」。
+  1. 在&#x200B;**內容元件**&#x200B;中，將文字拖放至其中一個結構元件中。
+  1. 按一下元件並輸入文字。
+  1. 若要新增個人化欄位，請按一下工具列中的[插入]個人化欄位&#x200B;**。**
+  1. 選取您需要的欄位，例如「名字」。
 
   ![](assets/edit-text-quick-start.png)
 
 * **HTML**
 
-   1. 在&#x200B;**內容元件**&#x200B;中，將HTML拖放至您的其中一個結構元件中。
-   1. 按一下&#x200B;**顯示原始程式碼**。
-   1. 輸入您的HTML內容。
-   1. 按一下「**儲存**」。
+  1. 在&#x200B;**內容元件**&#x200B;中，將HTML拖放至您的其中一個結構元件中。
+  1. 按一下&#x200B;**顯示原始程式碼**。
+  1. 輸入您的HTML內容。
+  1. 按一下「**儲存**」。
 
   ![](assets/html-component-source-code.png)
 

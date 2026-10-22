@@ -8,28 +8,38 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 4483e469-0a2b-494d-b768-950168759727
-TQID: https://experienceleague.adobe.com/iqQ7Cbo3tVTu348U1mHHoi7skHMjZF3D4Qw3zvHbLVk
+TQID: 'https://experienceleague.adobe.com/iqQ7Cbo3tVTu348U1mHHoi7skHMjZF3D4Qw3zvHbLVk'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+  - id: 50d1fd2e-0fc9-5627-bbc9-02dbc9d15e08
+    internal-label: Email
 subfeature_v2:
   - id: d8d962e2-fcf3-4f64-82dc-4b50292e7f75
+    internal-label: Dreamweaver integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Email marketing
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 584
+source-wordcount: '584'
 ht-degree: 16%
-
 ---
-
 # 建立電子郵件{#creating-an-email}
 
 您可以從[行銷活動](../../start/using/marketing-activities.md#creating-a-marketing-activity)、Adobe Campaign [首頁](../../start/using/interface-description.md#home-page)或[行銷活動清單](../../start/using/marketing-activities.md#about-marketing-activities)中建立電子郵件。 您也可以從工作流程建立單一傳送和循環寄送的電子郵件。

@@ -5,32 +5,48 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-TQID: https://experienceleague.adobe.com/S430SyqHAam2JE4LQppJUy3xuEdS6lw1qGQE9viVCS8
+TQID: 'https://experienceleague.adobe.com/S430SyqHAam2JE4LQppJUy3xuEdS6lw1qGQE9viVCS8'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
+  - id: e8d937ec-9046-41b5-834b-d22a624e0d37
+    internal-label: Campaign overview
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Privacy
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1045
+source-wordcount: '1045'
 ht-degree: 50%
-
 ---
-
 # 已過時和已移除的功能 {#deprecated-and-removed-features}
 
 Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代舊的功能，以提升整體客戶價值，並時時考慮回溯相容性。
@@ -65,7 +81,7 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
  <tbody> 
   <tr> 
    <td> <p>自2021年8月31日起，Adobe Experience Platform Mobile第4版SDK已停止支援。 如果您仍在Adobe Campaign Standard中使用這個舊版SDK，您必須在2024年6月底之前，使用Adobe Experience Platform SDK <strong>更新您的實作</strong>。 </p></br>
-   <p>閱讀<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html?lang=zh-Hant">本文章</a>以瞭解如何調整實作方式並改用最新的Experience Platform SDK。</p></br>
+   <p>閱讀<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">本文章</a>以瞭解如何調整實作方式並改用最新的Experience Platform SDK。</p></br>
    <p><strong>警告</strong>：自2024年6月底起，Campaign Standard將不再支援SDK V4。</p>
   </td> 
   </tr> 
@@ -83,8 +99,8 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>自 Campaign 19.0 版本以來，已過時舊版電子郵件編輯器。 使用<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html?lang=zh-Hant">Campaign電子郵件Designer</a>來建立並個人化您的電子郵件內容。 </p></br>
-   <p>請參閱<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/building-email-content/using-existing-content.html?lang=zh-Hant">本節</a>，瞭解如何針對新的編輯器調整您的電子郵件範本。</p></br>
+   <td> <p>自 Campaign 19.0 版本以來，已過時舊版電子郵件編輯器。 使用<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">Campaign電子郵件Designer</a>來建立並個人化您的電子郵件內容。 </p></br>
+   <p>請參閱<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">本節</a>，瞭解如何針對新的編輯器調整您的電子郵件範本。</p></br>
   </td> 
   </tr> 
  </tbody> 
@@ -117,7 +133,7 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
  <tbody> 
   <tr> 
    <td> <p> 自Campaign Standard第21.3發行版本開始，已棄用與Audience Destinations服務整合。  現已移除。</p>
-   <p>若為新的實作，您將無法再整合Audience Destinations服務與Adobe Campaign Standard。 不過，您可以透過來源和目的地整合Campaign和Adobe Experience Platform。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=zh-Hant">了解更多資訊</a>。</p>
+   <p>若為新的實作，您將無法再整合Audience Destinations服務與Adobe Campaign Standard。 不過，您可以透過來源和目的地整合Campaign和Adobe Experience Platform。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html">了解更多資訊</a>。</p>
      </td> 
   </tr> 
  </tbody> 
@@ -132,7 +148,7 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
  <tbody> 
   <tr> 
    <td> <p> 自Campaign Standard第21.3發行版本開始，已棄用與Adobe Experience Platform Data Connector整合。  現已移除。</p>
-   <p>若為新的實作，您無法再整合Adobe Experience Platform資料聯結器與Adobe Campaign Standard。 不過，您可以透過來源和目的地整合Campaign和Adobe Experience Platform。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=zh-Hant">了解更多資訊</a>。</p>
+   <p>若為新的實作，您無法再整合Adobe Experience Platform資料聯結器與Adobe Campaign Standard。 不過，您可以透過來源和目的地整合Campaign和Adobe Experience Platform。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html">了解更多資訊</a>。</p>
      </td> 
   </tr> 
  </tbody> 
@@ -149,7 +165,7 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
    <td> <p> 自Campaign第20.1發行版本開始，已棄用SDK v4。 現已移除。 <a href="https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html?lang=zh-Hant">了解更多資訊</a>。</p><br/>
    <p><a href="https://developer.adobe.com/client-sdks/documentation/">Adobe Experience Platform Mobile SDK</a> （先前稱為v5）現在僅支援即將推出的Adobe Experience Cloud功能。</p>
    <p>2021年8月31日後，客戶可以繼續下載及使用第4版SDK，但將無法取得客戶服務支援或存取論壇。</p>
-   <p>在本頁面</a>瞭解如何從SDK v4移轉至Adobe Experience Platform Mobile SDK <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html?lang=zh-Hant">。</p></br>
+   <p>在本頁面</a>瞭解如何從SDK v4移轉至Adobe Experience Platform Mobile SDK <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">。</p></br>
      </td> 
   </tr> 
  </tbody> 
@@ -164,7 +180,7 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
  <tbody> 
   <tr> 
    <td> <p>自 Campaign 21.2 版本以來，不建議使用促銷活動 API 和介面來存取和刪除請求。 兩步驟設定檔刪除已不再可用。 使用<a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service">Adobe隱私權核心服務</a>。</p></br>
-   <p>另請參閱<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=zh-Hant">管理隱私權要求</a>。</p>
+   <p>另請參閱<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html">管理隱私權要求</a>。</p>
   </td> 
   </tr> 
  </tbody> 
@@ -179,7 +195,7 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
  <tbody> 
   <tr> 
    <td> <p> 自2021年4月起，「預測性主旨列」功能將停止服務。</p><br/>
-   <p>我們建議您利用AI支援的電子郵件功能，根據歷史參與量度來分析和預測開放率、最佳傳送時間和可能的流失率。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html?lang=zh-Hant">了解更多</a></p></br>
+   <p>我們建議您利用AI支援的電子郵件功能，根據歷史參與量度來分析和預測開放率、最佳傳送時間和可能的流失率。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html">了解更多</a></p></br>
      </td> 
   </tr> 
   </tbody> 
@@ -193,7 +209,7 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>已經從 Adobe Experience Cloud 觸發器終止「<b>傾向分數</b>」的服務。 因此，已從 Adobe Campaign Standard 移除此選項。 為避免「擴充」結構描述中「傾向」分數的任何過期值，我們建議您更新結構描述以擷取最新變更並重新發佈現有的觸發器。 如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=zh-Hant">在 Campaign 中發佈觸發器</a>。
+   <td> <p>已經從 Adobe Experience Cloud 觸發器終止「<b>傾向分數</b>」的服務。 因此，已從 Adobe Campaign Standard 移除此選項。 為避免「擴充」結構描述中「傾向」分數的任何過期值，我們建議您更新結構描述以擷取最新變更並重新發佈現有的觸發器。 如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html">在 Campaign 中發佈觸發器</a>。
 </p></br>
    </td> 
   </tr> 
@@ -224,7 +240,7 @@ Adobe 持續評估產品功能，尋找應以更現代的替代方式來取代�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Campaign 和 Adobe Experience Cloud 已自 2019 年春季以來，中斷對於 Microsoft Internet Explorer 11 及 Campaign 19.2 版本的支援。 請切換至 Microsoft Edge 或其他支援的瀏覽器。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/about-configuration-guidelines.html?lang=zh-Hant">了解更多資訊</a>。</p>
+   <td> <p>Adobe Campaign 和 Adobe Experience Cloud 已自 2019 年春季以來，中斷對於 Microsoft Internet Explorer 11 及 Campaign 19.2 版本的支援。 請切換至 Microsoft Edge 或其他支援的瀏覽器。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/about-configuration-guidelines.html">了解更多資訊</a>。</p>
    </td> 
   </tr> 
  </tbody> 

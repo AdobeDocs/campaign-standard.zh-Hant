@@ -8,25 +8,34 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
-TQID: https://experienceleague.adobe.com/IZdWRhWkAwgvpZnanpAu6-taR723XFwOxvq3UTcyc-o
+TQID: 'https://experienceleague.adobe.com/IZdWRhWkAwgvpZnanpAu6-taR723XFwOxvq3UTcyc-o'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic reporting
+subfeature_v2:
+  - id: b3a4149f-2b3a-44d1-894e-e3ac4c77fb47
+    internal-label: Reporting interface
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Troubleshooting
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1208
+source-wordcount: '1218'
 ht-degree: 3%
-
 ---
-
 # 疑難排解{#troubleshooting}
 
 您可以在本小節中找到與動態報告相關的常見問題。
@@ -119,9 +128,9 @@ P1會在第一天開啟電子郵件兩次，然後在第二天開啟樹狀結構
 ## 如何計算週期性/交易式傳送的計數？ {#counts-recurring-deliveries}
 
 處理循環和交易式傳送時，這些計數將同時歸因於父傳送和子傳送。
-我們以名為&#x200B;**R1**&#x200B;的週期性傳遞為例，設定為每天在第1天(RC1)、第2天(RC2)和第3天(RC3)執行。
-假設只有一個人員會多次開啟所有子傳送。 在此情況下，個別循環子傳遞會分別將&#x200B;**[!UICONTROL Open]**&#x200B;個計數顯示為1。
-但是，由於同一人按一下所有傳遞，因此父級循環傳遞也會將&#x200B;**[!UICONTROL Unique open]**&#x200B;設為1。
+我們以名為**R1**的週期性傳遞為例，設定為每天在第1天(RC1)、第2天(RC2)和第3天(RC3)執行。
+假設只有一個人員會多次開啟所有子傳送。 在此情況下，個別循環子傳遞會分別將**[!UICONTROL Open]**個計數顯示為1。
+但是，由於同一人按一下所有傳遞，因此父級循環傳遞也會將**[!UICONTROL Unique open]**&#x200B;設為1。
 
 報表應如下所示：
 
@@ -211,16 +220,16 @@ P1會在第一天開啟電子郵件兩次，然後在第二天開啟樹狀結構
 
   例如：
 
-   * 如果設定檔A在三天開啟電子郵件，依日劃分的會在三列中顯示A，但在標題中，A會計為1。
+  * 如果設定檔A在三天開啟電子郵件，依日劃分的會在三列中顯示A，但在標題中，A會計為1。
 
-   * 如果設定檔A在同日點選電子郵件中的三個不同連結，依追蹤URL的劃分會在三列中顯示A，但在標題中，A會計為1。 同樣的套用也適用於依裝置和瀏覽器進行的劃分。
+  * 如果設定檔A在同日點選電子郵件中的三個不同連結，依追蹤URL的劃分會在三列中顯示A，但在標題中，A會計為1。 同樣的套用也適用於依裝置和瀏覽器進行的劃分。
 
 * **開啟量度**：開啟的計數是透過彙總實際開啟事件和不重複點按事件（每個收件者ID）的總和來決定，不包括因為沒有開啟事件無法點按電子郵件連結而未發生開啟事件的情況。
 
   例如：
 
-   * 當設定檔A開啟追蹤的電子郵件（包含URL U1）時，它會註冊為開啟事件，且URL標示為null。 稍後按一下U1會產生點選事件。 雖然U1上的A點選也會計為開啟事件，但U1沒有特定的開啟事件。 因此，A在不重複開啟計數中只會計算一次。
+  * 當設定檔A開啟追蹤的電子郵件（包含URL U1）時，它會註冊為開啟事件，且URL標示為null。 稍後按一下U1會產生點選事件。 雖然U1上的A點選也會計為開啟事件，但U1沒有特定的開啟事件。 因此，A在不重複開啟計數中只會計算一次。
 
-   * 設定檔R會在第1天開啟電子郵件、註冊開啟事件，然後按一下連結。 在接下來的兩天內， R會重新開啟電子郵件，然後再次點按連結，每天都會產生點按事件。 雖然R的參與在每日開啟數中進行追蹤，但R在欄標題中只會計算一次，並專注於不重複參與。
+  * 設定檔R會在第1天開啟電子郵件、註冊開啟事件，然後按一下連結。 在接下來的兩天內， R會重新開啟電子郵件，然後再次點按連結，每天都會產生點按事件。 雖然R的參與在每日開啟數中進行追蹤，但R在欄標題中只會計算一次，並專注於不重複參與。
 
 * **無效事件**：在報表中，無效事件表示最初標示為成功的傳送嘗試，但在重試後最終失敗。 這些會以計數–1表示。 為避免混淆，這些負數會從顯示的傳遞量度數字中排除。 因此，傳遞量度的所有列總數可能與欄標題數字不符。

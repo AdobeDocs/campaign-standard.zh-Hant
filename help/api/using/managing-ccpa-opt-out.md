@@ -9,22 +9,29 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: bfc52511-f66f-4948-a939-d0d77e8ef03c
-TQID: https://experienceleague.adobe.com/XcgCy73XQYn-JyB0N41X3n30nGGo1tHVzmn-UQ1TOJQ
+TQID: 'https://experienceleague.adobe.com/XcgCy73XQYn-JyB0N41X3n30nGGo1tHVzmn-UQ1TOJQ'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Privacy
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 103
+source-wordcount: '103'
 ht-degree: 7%
-
 ---
-
 # 管理 CCPA 選擇退出 {#managing-ccpa-optout}
 
 可以使用&#x200B;**ccpaOptOut**&#x200B;設定檔屬性和&quot;true&quot;或&quot;false&quot;值來監視和管理設定檔的CCPA選擇退出狀態：

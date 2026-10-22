@@ -9,24 +9,36 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: b097b3fa-f949-446e-ad44-cc6ca025ee55
-TQID: https://experienceleague.adobe.com/IWKDZDotgF6Kj0jtroM2BhEiaJAND3TyfwEhfFCtVBU
+TQID: 'https://experienceleague.adobe.com/IWKDZDotgF6Kj0jtroM2BhEiaJAND3TyfwEhfFCtVBU'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
+subfeature_v2:
+  - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
+    internal-label: Audiences
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+    internal-label: Data integration
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1346
+source-wordcount: '1346'
 ht-degree: 3%
-
 ---
-
 # 設定 Campaign-Points of Interest 資料整合{#configuring-campaign-points-of-interest-data-integration}
 
 ## 使用Adobe Experience Platform SDK設定Campaign-Points of Interest資料整合 {#configuring-campaign-poi-aep-sdk}
@@ -46,7 +58,7 @@ ht-degree: 3%
 1. 然後，在資料收集UI中，您需要建立規則以支援Point of Interest和Adobe Campaign之間的行動使用案例。\
    當使用者進入地理圍欄式&#x200B;**[!UICONTROL Point of Interest]**&#x200B;時，將觸發此規則。 請參閱此[頁面](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Locationpostback)以建立您的規則。
 
-1. 在地標中定義您的&#x200B;**[!UICONTROL Points of Interest]**。 請參閱[建立地標](https://experienceleague.adobe.com/docs/places/using/poi-mgmt-ui/create-a-poi-ui.html?lang=zh-Hant)。
+1. 在地標中定義您的&#x200B;**[!UICONTROL Points of Interest]**。 請參閱[建立地標](https://experienceleague.adobe.com/docs/places/using/poi-mgmt-ui/create-a-poi-ui.html)。
 
 1. 請務必存取行動應用程式和在Adobe Campaign中收集的位置資料。 請參閱[存取用來收集位置資料的行動應用程式](#accessing-mobile-apps-used-to-collect-location-data)和[存取收集的位置資料](#accessing-collected-location-data)。
 
@@ -174,7 +186,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->如需設定回傳的詳細資訊，請參閱[Adobe Mobile Services檔案](https://experienceleague.adobe.com/docs/mobile-services/using/manage-app-settings-ug/configuring-app/signals.html?lang=zh-Hant)。
+>如需設定回傳的詳細資訊，請參閱[Adobe Mobile Services檔案](https://experienceleague.adobe.com/docs/mobile-services/using/manage-app-settings-ug/configuring-app/signals.html)。
 
 ### 將SDK整合至行動應用程式 {#integrating-the-sdk-into-a-mobile-application}
 
@@ -189,11 +201,11 @@ ht-degree: 3%
 1. 前往Adobe行動服務介面。
 1. 新增您的應用程式。
 
-   如需在Mobile Services中管理應用程式的詳細資訊，請參閱[Adobe Mobile Services檔案](https://experienceleague.adobe.com/docs/mobile-services/using/manage-apps-ug/t-new-app.html?lang=zh-Hant)。
+   如需在Mobile Services中管理應用程式的詳細資訊，請參閱[Adobe Mobile Services檔案](https://experienceleague.adobe.com/docs/mobile-services/using/manage-apps-ug/t-new-app.html)。
 
 1. 定義地標。
 
-   如需管理地標的詳細資訊，請參閱[Adobe Mobile Services檔案](https://experienceleague.adobe.com/docs/mobile-services/using/location-ug/t-manage-points.html?lang=zh-Hant)。
+   如需管理地標的詳細資訊，請參閱[Adobe Mobile Services檔案](https://experienceleague.adobe.com/docs/mobile-services/using/location-ug/t-manage-points.html)。
 
 ### 收集訂閱者的興趣點資料 {#collecting-subscribers--points-of-interest-data}
 

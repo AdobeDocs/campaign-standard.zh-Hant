@@ -9,28 +9,38 @@ feature: SMS
 role: User
 level: Intermediate
 exl-id: d430d0e7-1201-49c6-aad3-a2c03d02290c
-TQID: https://experienceleague.adobe.com/LQ6lGxtncdD2LoXmURVBcv0DZasNI2iMrntOSaWHv-k
+TQID: 'https://experienceleague.adobe.com/LQ6lGxtncdD2LoXmURVBcv0DZasNI2iMrntOSaWHv-k'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: b1bd1421-1927-4c59-9bc6-ce292360e43b
+    internal-label: SMS Messaging
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Personalization
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 330
+source-wordcount: '330'
 ht-degree: 96%
-
 ---
-
 # 簡訊和推送內容編輯器介面{#sms-and-push-content-editor-interface}
 
 會將簡訊和推播內容編輯器組織為兩個不同的區段，讓您檢視和編輯訊息。
 
-1. **動作列**&#x200B;包含頁面的一般選項。 您可以從此處插入個人化欄位或內容區塊、新增條件文字並預覽簡訊內容。 請參閱簡訊及推播內容編輯器動作列[&#128279;](#sms-and-push-content-editor-action-bar)。
-1. 螢幕的&#x200B;**編輯區域**&#x200B;可讓您直接輸入文字訊息，並選取要插入個人化的位置。 請參閱簡訊及推播內容版本模式[&#128279;](#sms-and-push-content-edition-modes)。
+1. **動作列**&#x200B;包含頁面的一般選項。 您可以從此處插入個人化欄位或內容區塊、新增條件文字並預覽簡訊內容。 請參閱簡訊及推播內容編輯器動作列](#sms-and-push-content-editor-action-bar)。[
+1. 螢幕的&#x200B;**編輯區域**&#x200B;可讓您直接輸入文字訊息，並選取要插入個人化的位置。 請參閱簡訊及推播內容版本模式](#sms-and-push-content-edition-modes)。[
 
 ## SMS及推播內容編輯器動作列 {#sms-and-push-content-editor-action-bar}
 

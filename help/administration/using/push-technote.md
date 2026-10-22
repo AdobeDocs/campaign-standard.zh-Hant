@@ -6,24 +6,38 @@ feature: Push
 role: Admin
 level: Experienced
 exl-id: e273b443-7c43-482b-8f86-60ada4b57cbf
-TQID: https://experienceleague.adobe.com/yBsPSuZxxsrM6Q2wzM7ctsrtUi2txyV8Nx4naMPfuMo
+TQID: 'https://experienceleague.adobe.com/yBsPSuZxxsrM6Q2wzM7ctsrtUi2txyV8Nx4naMPfuMo'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: a4657621-810c-498b-8a27-7ced9c176dda
+    internal-label: Push notifications
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1210
+source-wordcount: '1210'
 ht-degree: 4%
-
 ---
-
 # 推播通知頻道變更 {#push-upgrade}
 
 您可以使用Campaign在Android和iOS裝置上傳送推播通知。 為此，Campaign需仰賴特定的訂閱服務。 Android Firebase Cloud Messaging (FCM)服務的一些重要變更將於2024年發行，可能會影響您的Adobe Campaign實施。 Android 推播訊息訂閱服務設定可能需要更新，才能支援此變更。
@@ -68,7 +82,7 @@ To check if you are impacted, you can filter your **Services and Subscriptions**
 
 * 如果您仍在使用此舊版SDK，您必須使用Adobe Experience Platform SDK更新實施。 在[本文章](sdkv4-migration.md)中瞭解如何移轉至Adobe Experience Platform SDK。
 
-* 執行以下步驟之前，請確定您在Adobe Experience Platform Data Collection Mobile中擁有&#x200B;**行動應用程式設定**&#x200B;許可權。 [了解更多資訊](https://experienceleague.adobe.com/docs/experience-platform/collection/permissions.html?lang=zh-Hant#adobe-experience-platform-data-collection-permissions){target="_blank"}。
+* 執行以下步驟之前，請確定您在Adobe Experience Platform Data Collection Mobile中擁有&#x200B;**行動應用程式設定**&#x200B;許可權。 [了解更多資訊](https://experienceleague.adobe.com/docs/experience-platform/collection/permissions.html?lang=en#adobe-experience-platform-data-collection-permissions){target="_blank"}。
 
 
 #### 轉換程式 {#fcm-transition-steps}

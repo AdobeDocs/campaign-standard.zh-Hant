@@ -8,33 +8,44 @@ context-tags: delivery,triggers,back
 feature: In App
 role: User
 exl-id: 0101773d-b109-49a3-89d4-b4bb226d9ebd
-TQID: https://experienceleague.adobe.com/eR4kpesC5-G0rsM3FecB4uqiPFNE4Q3K-iJJoZ09iuM
+TQID: 'https://experienceleague.adobe.com/eR4kpesC5-G0rsM3FecB4uqiPFNE4Q3K-iJJoZ09iuM'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: f0a90a14-8ca9-484f-994e-d7ff1bead452
+    internal-label: In app messaging
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Personalization
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 725
+source-wordcount: '725'
 ht-degree: 2%
-
 ---
-
 # 應用程式內常見問題集 {#in-app-faq}
 
 ## 在Adobe Campaign Standard中深入瞭解應用程式內頻道時，有哪些實用的資源建議？ {#resources-inapp}
 
 檢視下列資源：
 
-* [影片教學課程](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/in-app/in-app-message-overview.html?lang=zh-Hant)
+* [影片教學課程](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/in-app/in-app-message-overview.html)
 * [部落格貼文](https://theblog.adobe.com/get-more-out-of-the-new-in-app-message-channel-from-adobe-campaign/)
-* [社群頁面](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=zh-Hant)
+* [社群頁面](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ## Campaign擴充功能API setLinkageField和resetLinkageField的用途為何？ {#extensions-apis}
 

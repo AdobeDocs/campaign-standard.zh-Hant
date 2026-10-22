@@ -8,44 +8,72 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
-TQID: https://experienceleague.adobe.com/qG7ToJy0sHbYmOX6kOYcRXzxyvCJER3G3TODUx1b3Ag
+TQID: 'https://experienceleague.adobe.com/qG7ToJy0sHbYmOX6kOYcRXzxyvCJER3G3TODUx1b3Ag'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: a2002dba-5e37-4dff-8e04-1cc3ec73558c
+    internal-label: Custom resources
   - id: af6750fd-3c1b-4ad2-9fe3-99e81510998d
+    internal-label: Data retention
   - id: d1110311-2ca4-442b-be37-088a6db845ee
+    internal-label: Data Management activities
   - id: eb007b6d-6e57-46ab-9485-3f24d6102304
+    internal-label: Experience Platform integration
   - id: f5293531-9312-4099-bfa3-9e67df6a8750
+    internal-label: Query Editor
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
+  - id: e8d937ec-9046-41b5-834b-d22a624e0d37
+    internal-label: Campaign overview
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: e267777274122de6dc8badc2d6b8dfdaa20c5fb2
+    internal-label: Privacy
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 5439
+source-wordcount: '5439'
 ht-degree: 95%
-
 ---
-
 # 發行說明 2020 年{#release-notes-2020}
 
 ![](assets/do-not-localize/cp-icon.png) **新的控制面板 6 月版本**，包含活躍輪廓監控、子網域傳遞送能力稽核及 GPG 金鑰管理。 [了解更多資訊](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=zh-Hant)。
@@ -64,8 +92,9 @@ ht-degree: 95%
 </thead> 
 <tbody> 
 <tr> 
-  <td> <p>您現在可以使用<strong>控制組組</strong>，透過排除其客群的一部分來評估行銷活動的影響。 然後，您將能夠將接收到消息的目標群體的行為與未作為目標的聯絡人的行為進行比較。 根據傳送日誌，您也可以在未來的行銷活動中鎖定控制組。</p>
-<p>如需詳細資訊，請參閱<a href="../../sending/using/control-group.md">詳細文件</a>及<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html?lang=zh-Hant">作法影片</a>。
+  <td> <p>您現在可以使用<strong>控制組組</strong>，透過排除其客群的一部分來評估行銷活動的影響。 然後，您將能夠將接收到消息的目標群體的行為與未作為目標的聯絡人的行為進行比較。 根據傳送日誌，您也可以在未來的行銷活動中鎖定控制組。
+</p>
+<p>如需詳細資訊，請參閱<a href="../../sending/using/control-group.md">詳細文件</a>及<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html">作法影片</a>。
 </p>
 </td> 
 </tr> 
@@ -80,7 +109,8 @@ ht-degree: 95%
 </thead> 
 <tbody> 
 <tr> 
-  <td> <p>Adobe Campaign 現在支援 OAuth，以便在<strong>外部 API</strong> 工作流程活動中進行驗證。 這項新功能使此活動能夠與需要 OAuth 支援的系統進行通訊。</p>
+  <td> <p>Adobe Campaign 現在支援 OAuth，以便在<strong>外部 API</strong> 工作流程活動中進行驗證。 這項新功能使此活動能夠與需要 OAuth 支援的系統進行通訊。
+</p>
 <p>如需詳細資訊，請參閱<a href="../../automating/using/external-api.md">詳細文件</a>。
 </p>
 </td> 
@@ -100,8 +130,8 @@ ht-degree: 95%
   <p>Journey AI使用進階的機器學習(ML)，讓公司透過預測每個人的參與偏好以最佳化客戶歷程的設計和傳遞。</p>
   <P>Journey AI 包含兩種 ML 功能：</p>
 <ul> 
-     <li> <strong>預測性參與計分</strong> - 智慧地識別客戶的首選參與層級，以便更佳地鎖定和個人化訊息，從而提高轉換率與保留率。 觀看<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html?lang=zh-Hant">作法影片</a>。</li> 
-     <li> <strong>預測性傳送時間最佳化</strong> - 預測向行銷活動中的每個人傳送電子郵件的最佳時機，以最大化參與率並改善電子郵件行銷活動的 ROI。 觀看<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html?lang=zh-Hant">作法影片</a>。</li>
+     <li> <strong>預測性參與計分</strong> - 智慧地識別客戶的首選參與層級，以便更佳地鎖定和個人化訊息，從而提高轉換率與保留率。 觀看<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html">作法影片</a>。</li> 
+     <li> <strong>預測性傳送時間最佳化</strong> - 預測向行銷活動中的每個人傳送電子郵件的最佳時機，以最大化參與率並改善電子郵件行銷活動的 ROI。 觀看<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html">作法影片</a>。</li>
     </ul>
   <p>如果您想要瞭解如何開始使用 Journey AI，請查閱此<a href="../../sending/using/predictive.md">詳細文件</a>，並聯繫您的帳戶高階主管。 請注意，雖然 Journey AI 可供現有的 Campaign 客戶免費使用，但實作成本約為 50 小時。</p>
     </td> 
@@ -234,7 +264,7 @@ ht-degree: 95%
 <li>存取權限與刪除權限：我們已運用 GDPR 和 CCPA 新增的功能。 <a href="https://helpx.adobe.com/content/help/tw/campaign/kb/acs-privacy.html#righttoaccess">了解更多</a> </li>
 <li><p>建立隱私權要求時，PDPA 規則類型已新增至隱私權核心服務。 此方法是您應該用於所有存取和刪除請求的方法。 不建議使用促銷活動 API 和介面來存取和刪除請求。  請參閱「<a href="../../rn/using/deprecated-features.md">已過時和已移除的功能</a>」文章。</p></li>
 </ul>
-<p>請參閱<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html?lang=zh-Hant">作法影片</a>。</p>
+<p>請參閱<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">作法影片</a>。</p>
 </td> 
 </tr> 
 </tbody> 
@@ -255,7 +285,7 @@ ht-degree: 95%
 <li>從 JSON 選取並使用陣列物件，而不需將物件命名為 "data"，或讓它位於頂層。</li>
 </ul>
 <p><strong>注意：</strong>客戶在其工作流程中，需要使用 GA External API 活動來<strong>取代所有測試版 External API 活動</strong>。  使用 External API 測試版的工作流程將在 20.3 中停止運作。</p>
-<p>如需詳細資訊，請參閱<a href="../../automating/using/external-api.md">詳細文件</a>及<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html?lang=zh-Hant">作法影片</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../../automating/using/external-api.md">詳細文件</a>及<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">作法影片</a>。</p>
 </td> 
 </tr> 
 </tbody> 
@@ -348,7 +378,7 @@ ht-degree: 95%
  <tbody> 
   <tr> 
    <td> <p>除了測試輪廓以外，您現在還可以在真正的目標輪廓上測試電子郵件。 這可讓您獲得輪廓將會收到的訊息的精確表示：自訂欄位、動態和個人化資訊，包括工作流程的其他資料等。 </p>
-    <p>如需詳細資訊，請參閱<a href="../../sending/using/testing-messages-using-target.md">詳細文件</a>及<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html?lang=zh-Hant">教學影片</a>。 </p>
+    <p>如需詳細資訊，請參閱<a href="../../sending/using/testing-messages-using-target.md">詳細文件</a>及<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html">教學影片</a>。 </p>
    </td> 
   </tr> 
  </tbody> 

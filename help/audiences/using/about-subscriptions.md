@@ -5,22 +5,31 @@ feature: Audiences
 role: User
 level: Intermediate
 exl-id: 177f0115-d269-44e8-94e0-123360ea6299
-TQID: https://experienceleague.adobe.com/gsEh-PHBSQbDKZGZKklKBQv-rn78MOzciNC9aHuC-6I
+TQID: 'https://experienceleague.adobe.com/gsEh-PHBSQbDKZGZKklKBQv-rn78MOzciNC9aHuC-6I'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+  - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
+subfeature_v2:
+  - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Intermediate
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 226
+source-wordcount: '226'
 ht-degree: 39%
-
 ---
-
 # 關於訂閱{#about-subscriptions}
 
 使用Adobe Campaign透過一組&#x200B;**服務**&#x200B;建立和管理電子報和跨頻道通訊：訊息只會傳送給已訂閱服務（選擇加入）的設定檔。 建立訊息時，會使用專用篩選器來識別這些輪廓。
@@ -40,8 +49,8 @@ ht-degree: 39%
 請依照下列步驟建立訂閱機制：
 
 1. **建立服務** — 依照本節[所述的步驟](../../audiences/using/creating-a-service.md)建立訂閱服務
-1. **共用連結** — 在此頁面瞭解如何推廣及共用您的服務[&#128279;](../../audiences/using/promoting-a-service.md)
-1. **監視訂閱** — 在此區段[&#128279;](../../audiences/using/monitoring-subscriptions.md)中探索幾種監視服務訂閱的方法
+1. **共用連結** — 在此頁面瞭解如何推廣及共用您的服務[](../../audiences/using/promoting-a-service.md)
+1. **監視訂閱** — 在此區段](../../audiences/using/monitoring-subscriptions.md)中探索幾種監視服務訂閱[的方法
 1. **確認訂閱** — 依照[此教學課程](../../audiences/using/confirming-subscription-to-a-service.md)傳送訂閱確認訊息
 
 ## 額外資源

@@ -8,22 +8,32 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: bd9ec3f9-e047-42dc-ab64-9fb274cb4656
-TQID: https://experienceleague.adobe.com/sSLZ7Yi5SZTrFKNknQcrCKr49aeNUL4y249CleELWWo
+TQID: 'https://experienceleague.adobe.com/sSLZ7Yi5SZTrFKNknQcrCKr49aeNUL4y249CleELWWo'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: a4657621-810c-498b-8a27-7ced9c176dda
+    internal-label: Push notifications
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Personalization
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1026
+source-wordcount: '1026'
 ht-degree: 1%
-
 ---
-
 # 產生多語言推送通知的 CSV 檔案{#generating-csv-multilingual-push}
 
 上傳CSV檔案來產生傳送內容是一項用於支援多語言推播通知的功能。 CSV檔案的格式必須符合某些准則才能成功上傳檔案，進而建立傳送。 以下各節將說明檔案格式及其考量事項。

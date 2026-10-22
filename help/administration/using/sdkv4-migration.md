@@ -6,25 +6,37 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: eb7a209e-069e-4068-966d-05344bd838c7
-TQID: https://experienceleague.adobe.com/Xq6Jl-yj32NitaJw6OPSbiRf0unmeCXVkAMfvecMAUs
+TQID: 'https://experienceleague.adobe.com/Xq6Jl-yj32NitaJw6OPSbiRf0unmeCXVkAMfvecMAUs'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: 7f0a1ee5-eeb8-5478-a9cd-b1896f033118
+    internal-label: Instance Settings
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1252
+source-wordcount: '1271'
 ht-degree: 1%
-
 ---
-
 # 如何將您的行動應用程式從 SDK v4 移轉至 Adobe Experience Platform SDK {#sdkv4-migration}
 
 
@@ -102,7 +114,7 @@ Adobe Campaign Standard使用SDK V4處理行動應用程式，作為與Adobe Exp
 此移轉後，移轉的應用程式將可提供V4版本行動應用程式收集的訂閱者以及AEP版本行動應用程式收集的新訂閱者。
 
 若要區分兩種不同型別的訂閱者，您可以在擴充自訂資源&#x200B;**[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]**&#x200B;時新增&#x200B;**[!UICONTROL Text]**&#x200B;型別的自訂欄位，例如`sdkversion`或`appVersion`。 如需如何擴充自訂資源的詳細資訊，請參閱此[頁面](../../developing/using/creating-or-extending-the-resource.md)。
-然後，您需要設定關聯的標籤&#x200B;**[!UICONTROL Mobile property]**，以在「收集PII」呼叫中傳送此自訂欄位值，並相應地變更您的行動應用程式設定。
+然後，您需要設定關聯的標籤**[!UICONTROL Mobile property]**，以在「收集PII」呼叫中傳送此自訂欄位值，並相應地變更您的行動應用程式設定。
 
 ## 常見問答集 {#faq}
 
@@ -137,8 +149,8 @@ Adobe Campaign Standard使用SDK V4處理行動應用程式，作為與Adobe Exp
 ### 問：如果SDK v4行動應用程式組織單位已設為A，而Adobe Experience Platform SDK應用程式已設為B （組織單位A的同胞）。 如何移轉行動應用程式？ {#aep-org-unit}
 
 答： Adobe Experience Platform SDK應用程式是同層級&#x200B;**[!UICONTROL Organizational unit]**&#x200B;的資產，行動應用程式不會顯示給&#x200B;**[!UICONTROL Organizational unit]** A的使用者。**[!UICONTROL Organizational unit]** ALL的系統管理員可以使用行動應用程式，但我們不建議這些系統管理員移轉行動應用程式。
-在此情況下，您應在相同的&#x200B;**[!UICONTROL Organizational unit]**&#x200B;或具有父連結的&#x200B;**[!UICONTROL Organizational unit]**&#x200B;中移動行動應用程式。
-如需&#x200B;**[!UICONTROL Organizational unit]**&#x200B;的詳細資訊，請參閱此[區段](../../administration/using/organizational-units.md)。
+在此情況下，您應在相同的**[!UICONTROL Organizational unit]**&#x200B;或具有父連結的&#x200B;**[!UICONTROL Organizational unit]**中移動行動應用程式。
+如需**[!UICONTROL Organizational unit]**&#x200B;的詳細資訊，請參閱此[區段](../../administration/using/organizational-units.md)。
 
 ### 問：在您的Adobe Experience Platform SDK行動應用程式（從v4行動應用程式移轉）頁面的「推播通道設定」下拉式清單下，不會顯示Android金鑰或iOS憑證的上傳日期/名稱等資訊 {#no-information-v5}
 

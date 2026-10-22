@@ -6,13 +6,25 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
-source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: 7f0a1ee5-eeb8-5478-a9cd-b1896f033118
+    internal-label: Instance Settings
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: '1596'
-ht-degree: 87%
-
+source-wordcount: '1624'
+ht-degree: 88%
 ---
-
 # 設定簡訊通道{#configuring-sms-channel}
 
 若要傳送簡訊訊息，管理員必須在 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL SMS]** > **[!UICONTROL SMS accounts]** 功能表下設定一或多個外部帳戶。
@@ -45,7 +57,7 @@ ht-degree: 87%
    **[!UICONTROL Enable verbose SMPP traces in the log file]** 可讓您將所有 SMPP 通訊傾印到記錄檔案中。 必須啟用此選項，才能疑難排解連接器，並與提供者所看到的流量進行比較。
 
 1. 請聯絡 Adobe，他們會根據您選取的提供者，為您提供進入 **[!UICONTROL SMS-C implementation name]** 欄位的值。
-1. 定義 SMPP 通道設定。 您可以從簡訊編碼和格式[&#128279;](#sms-encoding-and-formats)區段瞭解詳情。
+1. 定義 SMPP 通道設定。 您可以從簡訊編碼和格式](#sms-encoding-and-formats)區段瞭解詳情。[
 
    如果您希望將所有傳入的簡訊儲存到 in簡訊表格中，請啟用 **[!UICONTROL Store incoming MO in the database]**。 有關如何檢索傳入簡訊的詳細資訊，請參閱[本區段](../../channels/using/managing-incoming-sms.md#storing-incoming-sms)。
 
@@ -101,7 +113,7 @@ ht-degree: 87%
 
 ### 字元表 — GSM Standard {#table-of-characters-gsm-standard}
 
-本節介紹 GSM 標準所考慮的字元。 除下面提及的字元外，所有插入訊息內文的字元都會將整個訊息轉換為二進位格式 (Unicode)，因此限制為 70 個字元。 如需詳細資訊，請參閱簡訊編碼、長度和音譯[&#128279;](#sms-encoding--length-and-transliteration)。
+本節介紹 GSM 標準所考慮的字元。 除下面提及的字元外，所有插入訊息內文的字元都會將整個訊息轉換為二進位格式 (Unicode)，因此限制為 70 個字元。 如需詳細資訊，請參閱簡訊編碼、長度和音譯](#sms-encoding--length-and-transliteration)。[
 
 **基本字元**
 
@@ -302,8 +314,8 @@ CR：歸位
 
 * 未檢查 **[!UICONTROL Define a specific mapping of encodings]** 功能時，連接器會採取一般行為：
 
-   * 它會嘗試使用 GSM 編碼，將 **data_coding = 0** 的值指派給它。
-   * 如果 GSM 編碼失敗，則會使用 **UCS2** 編碼，並對其指派值 **data_coding = 8**。
+  * 它會嘗試使用 GSM 編碼，將 **data_coding = 0** 的值指派給它。
+  * 如果 GSM 編碼失敗，則會使用 **UCS2** 編碼，並對其指派值 **data_coding = 8**。
 
   ![](assets/sms_data_coding.png)
 
@@ -349,6 +361,6 @@ CR：歸位
 
 * **[!UICONTROL Transmission mode]** 欄位可讓您判斷簡訊訊息的傳送方式：
 
-   * **[!UICONTROL Saved on SIM card]**：會將該訊息儲存在收件者的電話 SIM 卡上。
-   * **[!UICONTROL Saved on mobile]**：會將該訊息儲存在電話的內部記憶體中。
-   * **[!UICONTROL Flash]**：該訊息會顯示在收件者的行動電話以作為通知，之後訊息會消失，而不會儲存。
+  * **[!UICONTROL Saved on SIM card]**：會將該訊息儲存在收件者的電話 SIM 卡上。
+  * **[!UICONTROL Saved on mobile]**：會將該訊息儲存在電話的內部記憶體中。
+  * **[!UICONTROL Flash]**：該訊息會顯示在收件者的行動電話以作為通知，之後訊息會消失，而不會儲存。

@@ -6,23 +6,33 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 474c8002-4263-4617-9480-6a9b603bde8e
-TQID: https://experienceleague.adobe.com/dQyZVT7Q5Fdh4IdjkSGn0yEd8JmIUCPAN6qDjgYbdjo
+TQID: 'https://experienceleague.adobe.com/dQyZVT7Q5Fdh4IdjkSGn0yEd8JmIUCPAN6qDjgYbdjo'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: 7f0a1ee5-eeb8-5478-a9cd-b1896f033118
+    internal-label: Instance Settings
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 434
+source-wordcount: '434'
 ht-degree: 15%
-
 ---
-
 # 新增影像和影片 iOS {#image-push}
 
 >[!NOTE]
@@ -39,7 +49,7 @@ Experience Platform SDK支援推播通知。
 
 設定Adobe Campaign和Adobe Mobile Services後，您就能夠將行動應用程式的資料用於行銷活動。 如需關於此項目的詳細資訊，請參閱此[頁面](../../administration/using/configuring-a-mobile-application.md)。
 
-若要使用Experience Cloud SDK應用程式傳送推播通知，必須在資料收集UI中設定行動應用程式，並在Adobe Campaign中設定。 如需關於此項目的詳細資訊，請參閱此[頁面](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)。
+若要透過Experience Cloud SDK應用程式傳送推播通知，必須在資料收集UI中設定行動應用程式，並在Adobe Campaign中設定。 如需關於此項目的詳細資訊，請參閱此[頁面](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)。
 
 ## 步驟2：在Adobe Campaign中自訂推播通知 {#customize-push}
 
@@ -49,7 +59,7 @@ Experience Platform SDK支援推播通知。
 
 1. 從推播通知內容頁面，存取&#x200B;**[!UICONTROL Advanced options]**&#x200B;區段。
 
-1. 在&#x200B;**[!UICONTROL Rich media content URL]**&#x200B;欄位中輸入檔案的URL。
+1. 在&#x200B;**[!UICONTROL Rich media content URL]**欄位中輸入檔案的URL。
 若是 iOS 10 或更新版本，您可以插入影像、gif、音訊和視訊檔案。
 
    ![](assets/push_notif_advanced_6.png)
@@ -62,7 +72,7 @@ Experience Platform SDK支援推播通知。
 
 >[!NOTE]
 >
->如果您的應用程式位於Objective-C，請參閱下列[檔案](https://experienceleague.adobe.com/docs/mobile-services/ios/messaging-ios/push-messaging/c-set-up-rich-push-notif-ios.html?lang=zh-Hant)。
+>如果您的應用程式位於Objective-C，請參閱下列[檔案](https://experienceleague.adobe.com/docs/mobile-services/ios/messaging-ios/push-messaging/c-set-up-rich-push-notif-ios.html)。
 
 如果您的應用程式在[!DNL Swift]中，請遵循下列步驟：
 

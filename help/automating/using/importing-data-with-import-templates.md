@@ -9,20 +9,32 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: 5e93b39e-cdd1-4632-8f65-dfa76a735626
-TQID: https://experienceleague.adobe.com/eGnAy8lTEYc5wTmUCHKbidvDKU--U6rt8UEHdi1d3ak
+TQID: 'https://experienceleague.adobe.com/eGnAy8lTEYc5wTmUCHKbidvDKU--U6rt8UEHdi1d3ak'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Security
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1095
+source-wordcount: '1095'
 ht-degree: 99%
-
 ---
-
 # 使用匯入範本匯入資料{#importing-data-with-import-templates}
 
 匯入資料可讓您收集資料，以摘要您的 Campaign 資料庫。
@@ -63,14 +75,14 @@ ht-degree: 99%
 * **[!UICONTROL Update Direct mail quarantines and delivery logs]**：此範本可作為新匯入的基礎，以更新直接郵件的隔離和傳送記錄檔。 範本的工作流程包含下列活動：
 * **[!UICONTROL Import data]**：此範本可作為新匯入的基礎，以便將檔案的資料插入資料庫。 此範本的工作流程包含下列活動：
 
-   * **[!UICONTROL Load file]**：此活動可讓您在 Adobe Campaign 伺服器上傳檔案。
-   * **[!UICONTROL Update data]**：此活動可讓您從資料庫中插入檔案中的資料。
+  * **[!UICONTROL Load file]**：此活動可讓您在 Adobe Campaign 伺服器上傳檔案。
+  * **[!UICONTROL Update data]**：此活動可讓您從資料庫中插入檔案中的資料。
 
 * **[!UICONTROL Import list]**：此範本可做為新匯入的基礎，以便從檔案中的資料建立&#x200B;**清單**&#x200B;類型的客群。 此範本的工作流程包含下列活動：
 
-   * **[!UICONTROL Load file]**：此活動可讓您在 Adobe Campaign 伺服器上傳檔案。
-   * **[!UICONTROL Reconciliation]**：此活動可讓您將定位維度連結至匯入的資料。 之後，您就可以建立&#x200B;**清單**&#x200B;類型客群。 如果匯入資料的目標維度不是已知的，則客群為&#x200B;**檔案**&#x200B;類型。 請參閱[定位維度和資源](../../automating/using/query.md#targeting-dimensions-and-resources)。
-   * **[!UICONTROL Save audience]**：此活動可讓您以&#x200B;**清單**&#x200B;類型客群的形式儲存匯入的資料。 儲存的客群名稱與使用者匯入的檔案名稱相對應，並會新增一個字尾，指定匯入的日期和時間。 例如：&#39;profiles_20150406_151448&#39;。
+  * **[!UICONTROL Load file]**：此活動可讓您在 Adobe Campaign 伺服器上傳檔案。
+  * **[!UICONTROL Reconciliation]**：此活動可讓您將定位維度連結至匯入的資料。 之後，您就可以建立&#x200B;**清單**&#x200B;類型客群。 如果匯入資料的目標維度不是已知的，則客群為&#x200B;**檔案**&#x200B;類型。 請參閱[定位維度和資源](../../automating/using/query.md#targeting-dimensions-and-resources)。
+  * **[!UICONTROL Save audience]**：此活動可讓您以&#x200B;**清單**&#x200B;類型客群的形式儲存匯入的資料。 儲存的客群名稱與使用者匯入的檔案名稱相對應，並會新增一個字尾，指定匯入的日期和時間。 例如：&#39;profiles_20150406_151448&#39;。
 
 這些預設範本為唯讀範本，標準使用者無法看到內容。 若要建立可供使用者使用的範本，請遵循下列步驟執行：
 

@@ -10,13 +10,28 @@ role: Developer
 level: Experienced
 exl-id: d67a796a-0730-4502-802c-d0b3583dd1dc
 hide: true
-source-git-commit: 7ad12890a24b2c0b8730d09b7d161bff511f4c69
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: dd99420f-367d-4a14-bbc4-5140615992c2
+    internal-label: Microsoft CRM integration
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '466'
 ht-degree: 6%
-
 ---
-
 # 透過 API 觸發資料引入 {#triggering-data-ingestion-apis}
 
 >[!IMPORTANT]
@@ -110,14 +125,14 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 >
 >有關XDM對應要求狀態及其相關工作的詳細資訊，可在Campaign Standard介面的&#x200B;**[!UICONTROL Status of data export to platform]**&#x200B;功能表中取得（請參閱[對應啟動](../../integrating/using/aep-mapping-activation.md)）。
 
-GET作業會傳回以下資訊：
+GET作業會傳回下列資訊：
 
 * **batchId**：只有在批次準備和上傳後發生失敗時，才會填入此欄位。
 * **資訊**： XDM對應ID，
 * **numRecords**：已擷取的記錄數（僅限成功狀態），
 * **狀態**：擷取要求狀態（成功/失敗/進行中）
 
-GET作業的可能回應包括：
+對GET作業的可能回應為：
 
 * 擷取請求成功：
 

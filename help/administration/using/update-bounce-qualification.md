@@ -3,18 +3,20 @@ title: 在 ISP 中斷後更新跳出鑑定
 description: 瞭解如何在ISP中斷後更新跳出資格。
 audience: delivery
 exl-id: b06e9009-70c7-459f-8a9f-d5b7020d662f
-TQID: https://experienceleague.adobe.com/PcNbVFzTVJhadANGQ5uogj16VHiaNIf7HVn-7X-EbJA
+TQID: 'https://experienceleague.adobe.com/PcNbVFzTVJhadANGQ5uogj16VHiaNIf7HVn-7X-EbJA'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e267777274122de6dc8badc2d6b8dfdaa20c5fb2
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 441
+source-wordcount: '446'
 ht-degree: 3%
-
 ---
-
 # 在 ISP 中斷後更新跳出鑑定 {#update-bounce-qualification.md}
 
 ## 內容
@@ -23,7 +25,7 @@ ht-degree: 3%
 
 2020年12月，Gmail發生全域問題，導致傳送至有效Gmail電子郵件地址的某些電子郵件訊息被Gmail伺服器錯誤地硬退為無效的電子郵件地址，並出現以下回應： *&quot;550-5.1.1您嘗試存取的電子郵件帳戶不存在。&quot;*
 
-Google表示Gmail中斷和作業中斷導致了此問題從12月14日的6:55AM開始，到12月15日的6:09PM EST結束。 我們的資料分析也顯示12月16日EST時間2:06AM的Gmail跳出數出現非常短的尖峰，其中大多數發生在12月15日下午2:00到6:30之間。
+Google表示，造成Gmail中斷和作業中斷的問題始於12月14日早上6:55，結束於12月15日晚上6:09 EST。 我們的資料分析也顯示Gmail在12月16日凌晨2:06點（東部標準時間）跳出數出現非常短暫的尖峰，其中大多數發生在12月15日下午2:00 （東部標準時間）至下午6:30 （東部標準時間）之間。
 
 >[!NOTE]
 >

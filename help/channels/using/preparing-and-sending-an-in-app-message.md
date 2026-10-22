@@ -8,26 +8,39 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-TQID: https://experienceleague.adobe.com/608lVGbr-umlPJM4t-eV2qhW6Vpypx3deu9oKf-b0iU
+TQID: 'https://experienceleague.adobe.com/608lVGbr-umlPJM4t-eV2qhW6Vpypx3deu9oKf-b0iU'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: f0a90a14-8ca9-484f-994e-d7ff1bead452
+    internal-label: In app messaging
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+    internal-label: Mobile experience
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Personalization
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1289
+source-wordcount: '1289'
 ht-degree: 79%
-
 ---
-
 # 準備和傳送應用程式內訊息{#preparing-and-sending-an-in-app-message}
 
 Adobe Campaign 中提供了三種類型的應用程式內訊息：
@@ -93,7 +106,7 @@ Adobe Campaign 中提供了三種類型的應用程式內訊息：
 
    * **[!UICONTROL Life Cycle events]**：Adobe Mobile SDK 支援的現成可用生命週期事件。
 
-     有關生命週期事件的詳細資訊，請參閱本[頁面](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html?lang=zh-Hant)。
+     有關生命週期事件的詳細資訊，請參閱本[頁面](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html)。
 
    * **[!UICONTROL Analytics Events]**：根據您的行動應用程式中所創作的內容，支援下列三個類別： Adobe Analytics、內容資料或檢視狀態。
 
@@ -101,7 +114,7 @@ Adobe Campaign 中提供了三種類型的應用程式內訊息：
 
    * **[!UICONTROL Places]**：以下三個類別運用即時位置資料來提供情境相關的行動體驗：放置內容資料、放置自訂中繼資料或放置事件類型。
 
-     如需 Adobe Places 的詳細資訊，請參閱 [Places 檔案](https://experienceleague.adobe.com/docs/places/using/home.html?lang=zh-Hant)。
+     如需 Adobe Places 的詳細資訊，請參閱 [Places 檔案](https://experienceleague.adobe.com/docs/places/using/home.html)。
 
    ![](assets/inapp_creating_4.png)
 

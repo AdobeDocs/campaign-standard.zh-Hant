@@ -4,11 +4,15 @@ description: 瞭解如何在Adobe Campaign Standard中自訂顯示並在清單�
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 23%
-
 ---
 
 # 設計和傳送訊息
@@ -74,7 +78,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭預留位置mauri
 * 插入[預先定義的個人化區塊](../../designing/using/personalization.md#adding-a-content-block)
 * [個人化電子郵件或簡訊的寄件者](../../designing/using/subject-line.md)
 * [個人化電子郵件的主旨列](../../designing/using/subject-line.md)
-* 在電子郵件[&#128279;](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)中建立[條件式內容，或在登陸頁面](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)中建立
+* 在電子郵件](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)中建立[條件式內容，或在登陸頁面](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)中建立[
 * 在SMS訊息或推播通知中插入[動態文字](../../channels/using/defining-dynamic-text.md)
 
 ![](assets/delivery_content_43.png)

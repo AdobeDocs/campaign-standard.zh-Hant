@@ -9,13 +9,25 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: d7b2231d-46ff-4966-9ea7-27a775e5236b
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '217'
 ht-degree: 3%
-
 ---
-
 # 自訂資源 {#custom-resources}
 
 Adobe Campaign隨附預先定義的資料模型，其中資料會透過不同資源加以定義。 您可以擴充資源，以新增自訂欄位或自訂表格，例如購買或產品表格，藉此擴充資料模型。
@@ -38,7 +50,7 @@ Adobe Campaign隨附預先定義的資料模型，其中資料會透過不同資
 
 ***範例要求***
 
-存取延伸profileAndServicesExt資源的範例GET請求。
+存取延伸profileAndServicesExt資源的範例GET要求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/\
@@ -77,4 +89,4 @@ Adobe Campaign隨附預先定義的資料模型，其中資料會透過不同資
 
 * [資料模型概念](../../developing/using/data-model-concepts.md)
 * [擴充API](../../developing/using/about-extending-the-api.md)
-* [定義與其他資源的連結](https://helpx.adobe.com/tw/campaign/standard/developing/using/configuring-the-resource-s-data-structure.html#defining-links-with-other-resources)
+* [定義與其他資源的連結](https://helpx.adobe.com/campaign/standard/developing/using/configuring-the-resource-s-data-structure.html#defining-links-with-other-resources)

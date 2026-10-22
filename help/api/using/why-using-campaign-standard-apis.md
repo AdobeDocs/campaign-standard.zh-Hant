@@ -9,13 +9,25 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: ef045e5d-cd02-44a0-9a1e-d468483a38d9
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '498'
 ht-degree: 1%
-
 ---
-
 # 為何使用Campaign Standard API {#why-using-campaign-standard-apis}
 
 Adobe Campaign Standard提供的API可讓現有系統與Campaign平台整合，以即時解決現實世界中的問題。
@@ -41,7 +53,7 @@ Adobe Campaign Standard提供的API可讓現有系統與Campaign平台整合，�
 
    ![替代文字](assets/apis_uc2.png)
 
-1. 設定檔在按一下電子郵件中的「更新詳細資訊」連結後，可能會變更其詳細資訊。 這會將設定檔帶至「更新您的設定檔和偏好設定詳細資料」頁面。 為了執行操作，設定檔詳細資訊(Pkey)會傳遞至Campaign伺服器，並擷取及表示設定檔。 設定檔按一下「更新」按鈕後，資訊會更新到系統中(透過PATCH命令)。
+1. 設定檔在按一下電子郵件中的「更新詳細資訊」連結後，可能會變更其詳細資訊。 這會將設定檔帶至「更新您的設定檔和偏好設定詳細資料」頁面。 為了執行操作，設定檔詳細資訊(Pkey)會傳遞至Campaign伺服器，並擷取及表示設定檔。 設定檔按一下「更新」按鈕後，資訊會更新到系統中（透過PATCH命令）。
 
    ![替代文字](assets/apis_uc3.png)
 

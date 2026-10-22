@@ -9,13 +9,25 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: 58ec0999-b28a-4198-8d57-729b074c6a6d
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '228'
 ht-degree: 1%
-
 ---
-
 # 中繼資料機制 {#metadata-mechanism}
 
 您可以在GET要求中使用&#x200B;**resourceType**&#x200B;擷取資源中繼資料：
@@ -26,14 +38,14 @@ ht-degree: 1%
 
 * **Content**&#x200B;節點會傳回資源的欄位。 對於&#x200B;**content**&#x200B;節點中的每個欄位，我們可以找到下列欄位：
 
-   * &quot;apiName&quot;： API中使用的屬性名稱。
-   * &quot;type&quot;：這是高階型別定義（字串、數字、連結、集合、列舉……）。
-   * &quot;dataPolicy&quot;：欄位的值必須符合指定的原則規則。 例如，如果dataPolicy規則設為「電子郵件」，該值必須是有效的電子郵件。 在PATCH或POST期間，dataPolicy可以檢查值或修改值以進行轉換（例如smartCase）。
-   * &quot;category&quot;：提供查詢編輯器中的欄位類別。
-   * &quot;resType&quot;：這是技術型別。
+  * &quot;apiName&quot;： API中使用的屬性名稱。
+  * &quot;type&quot;：這是高階型別定義（字串、數字、連結、集合、列舉……）。
+  * &quot;dataPolicy&quot;：欄位的值必須符合指定的原則規則。 例如，如果dataPolicy規則設為「電子郵件」，該值必須是有效的電子郵件。 在PATCH或POST期間，dataPolicy可以檢查值或修改值以進行轉換（例如smartCase）。
+  * &quot;category&quot;：提供查詢編輯器中的欄位類別。
+  * &quot;resType&quot;：這是技術型別。
 
-     如果「type」是以值「link」或「collection」完成，則resTarget值是連結所定位的資源名稱。
-如果「type」以「enumeration」值完成，則會新增「values」欄位，且每個列舉值都會在&#x200B;**values**&#x200B;節點中詳細說明。
+    如果「type」是以值「link」或「collection」完成，則resTarget值是連結所定位的資源名稱。
+    如果「type」以「enumeration」值完成，則會新增「values」欄位，且每個列舉值都會在**values**&#x200B;節點中詳細說明。
 
 * **篩選器**&#x200B;節點會傳回URL以擷取關聯的篩選器。 如需篩選的詳細資訊，請參閱[本區段](../../api/using/filtering.md)。
 

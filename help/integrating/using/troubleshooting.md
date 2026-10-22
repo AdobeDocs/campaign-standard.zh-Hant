@@ -9,24 +9,36 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 5882ada6-dff4-4fd1-a433-0eb31570f73c
-TQID: https://experienceleague.adobe.com/Im9-z6yuesgiE6sMO-dM9WgPbty2C9d-PWCv5AE-kNY
+TQID: 'https://experienceleague.adobe.com/Im9-z6yuesgiE6sMO-dM9WgPbty2C9d-PWCv5AE-kNY'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
+    internal-label: Triggers
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 350
+source-wordcount: '350'
 ht-degree: 0%
-
 ---
-
 # 疑難排解{#troubleshooting}
 
 與Audience Manager或People核心服務整合使用時，可能會發生錯誤。
@@ -37,8 +49,8 @@ ht-degree: 0%
 
   在&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL External accounts]**&#x200B;中，確定下列外部S3帳戶已正確設定。 布建期間應已設定上述S3伺服器。
 
-   * **[!UICONTROL importSharedAudience]**：專用於匯入對象的S3帳戶。
-   * **[!UICONTROL exportSharedAudience]**：專用於匯出對象的S3帳戶。
+  * **[!UICONTROL importSharedAudience]**：專用於匯入對象的S3帳戶。
+  * **[!UICONTROL exportSharedAudience]**：專用於匯出對象的S3帳戶。
 
 * **共用的資料來源**
 
@@ -54,9 +66,9 @@ ht-degree: 0%
 
   如果選取了AES加密演演算法，則必須正確設定下列其他欄位：
 
-   * AES的&#x200B;**加密金鑰**
-   * AES的&#x200B;**加密IV** （初始化向量）
-   * **頻道** （電子郵件/簡訊/其他）：此欄位允許直接解密電子郵件地址和簡訊號碼。 確定調解金鑰符合&#x200B;**管道**&#x200B;欄位的設定。 如果您選取[其他]，將不會發生這個特定的解密，而且調解金鑰將會用來調解資料。
+  * AES的&#x200B;**加密金鑰**
+  * AES的&#x200B;**加密IV** （初始化向量）
+  * **頻道** （電子郵件/簡訊/其他）：此欄位允許直接解密電子郵件地址和簡訊號碼。 確定調解金鑰符合&#x200B;**管道**&#x200B;欄位的設定。 如果您選取[其他]，將不會發生這個特定的解密，而且調解金鑰將會用來調解資料。
 
   Experience Cloud對象可能不會共用，因為技術工作流程已停止或暫停。 直接按一下資料來源中的&#x200B;**[!UICONTROL Show ImportShared Audience workflow]**&#x200B;選項，存取&#x200B;**[!UICONTROL Import shared audience]**&#x200B;工作流程。
 

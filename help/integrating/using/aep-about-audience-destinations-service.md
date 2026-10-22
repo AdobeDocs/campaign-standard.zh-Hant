@@ -11,31 +11,46 @@ role: Developer
 level: Experienced
 exl-id: 34235749-d056-4d4c-9939-7dc52f980a76
 hide: true
-source-git-commit: 7ad12890a24b2c0b8730d09b7d161bff511f4c69
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: dd99420f-367d-4a14-bbc4-5140615992c2
+    internal-label: Microsoft CRM integration
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '376'
 ht-degree: 2%
-
 ---
-
 # 關於 Audience Destinations 服務 {#about-audiences}
 
 >[!IMPORTANT]
 >
->Audience Destinations服務現已棄用。 已棄用的功能仍可使用，但不會進一步增強或支援。 在此頁面[瞭解更多](../../rn/using/deprecated-features.md)
+>Audience Destinations服務現已棄用。 已棄用的功能仍可使用，但不會進一步增強或支援。 在此頁面](../../rn/using/deprecated-features.md)瞭解更多[
 
-運用[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hant)，根據大型複雜資料集建立具有高度針對性的受眾，強化您的消費者體驗。 Adobe Experience Platform整合線上和離線來源中的設定檔、行為和多實體資料，包括Adobe Analytics，協助您建立客戶的360度檢視，讓您能夠有效地管理客戶體驗。
+運用[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html)，根據大型複雜資料集建立具有高度針對性的受眾，強化您的消費者體驗。 Adobe Experience Platform整合線上和離線來源中的設定檔、行為和多實體資料，包括Adobe Analytics，協助您建立客戶的360度檢視，讓您能夠有效地管理客戶體驗。
 
 然後Adobe Campaign Standard將使用&#x200B;**對象目標**&#x200B;服務從Adobe Experience Platform中擷取一組設定檔（稱為&#x200B;**對象**），以用於多步驟和/或跨頻道行銷活動方案。
 
 **對象**&#x200B;是透過先建置&#x200B;**區段**&#x200B;所建立，這些區段基本上是一組規則，根據的是Adobe Experience Platform中客戶設定檔內的幾乎任何變數（例如，設定檔、事件、多實體資料），以建立多維度目標。 即時客戶個人資料和細分服務的全球概念可在以下專用檔案中參照：
 
-* [即時客戶個人檔案總覽](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant)
-* [分段服務總覽](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hant)
+* [即時客戶個人檔案總覽](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
+* [Segmentation Service概述](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html)
 
 建立區段後，您就可以將其啟用為[Campaign Standard工作流程](../../integrating/using/aep-targeting-audiences.md)中傳遞的對象。 此外，您也可以使用來自Adobe Experience Platform的內容相關資料來[個人化](../../integrating/using/aep-personalizing-campaigns.md)，並將動態內容新增至行銷活動。
 
-![](assets/do-not-localize/how-to-video.png)在[本節](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html?lang=zh-Hant)中也有操作說明影片。
+![](assets/do-not-localize/how-to-video.png)在[本節](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html)中也有操作說明影片。
 
 這些小節中使用的辭彙：
 

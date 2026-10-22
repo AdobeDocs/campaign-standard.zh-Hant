@@ -10,20 +10,29 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 7d0e3f17-ef04-4890-b63b-6957fc6cd648
-TQID: https://experienceleague.adobe.com/0-hk7-ypJoU-1Sw4HYmYoYnv9z9iwFrsSQoPWNyhmik
+TQID: 'https://experienceleague.adobe.com/0-hk7-ypJoU-1Sw4HYmYoYnv9z9iwFrsSQoPWNyhmik'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Intermediate
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 338
+source-wordcount: '338'
 ht-degree: 86%
-
 ---
-
 # 使用關係進行資料協調 {#reconciliation-relations}
 
 下列範例會示範使用檔案中的購買資料更新資料庫的工作流程。 採購資料包含參考其他維度的資料元素，例如客戶電子郵件和產品代碼。
@@ -38,9 +47,9 @@ ht-degree: 86%
 
 * [載入檔案](../../automating/using/load-file.md)活動，可載入並偵測要匯入的檔案資料。 匯入的檔案包含下列資料：
 
-   * 交易日期
-   * 客戶電子郵件地址
-   * 購買產品的代碼
+  * 交易日期
+  * 客戶電子郵件地址
+  * 購買產品的代碼
 
   ```
   date;client;product
@@ -57,8 +66,8 @@ ht-degree: 86%
 
 * [調解](../../automating/using/reconciliation.md)活動，將購買資料繫結至資料庫設定檔及產品。 因此，必須定義檔案資料與輪廓表格及產品表格之間的關係。 會在活動 **[!UICONTROL Relations]** 索引標籤中執行此設定：
 
-   * 與&#x200B;**輪廓**&#x200B;的關係：檔案的&#x200B;**客戶**&#x200B;欄已連結至&#x200B;**輪廓**&#x200B;維度的&#x200B;**電子郵件**&#x200B;欄位。
-   * 與&#x200B;**產品**&#x200B;的關係：檔案的&#x200B;**產品**&#x200B;欄已連結至&#x200B;**輪廓**&#x200B;維度的 **productCode** 欄位。
+  * 與&#x200B;**輪廓**&#x200B;的關係：檔案的&#x200B;**客戶**&#x200B;欄已連結至&#x200B;**輪廓**&#x200B;維度的&#x200B;**電子郵件**&#x200B;欄位。
+  * 與&#x200B;**產品**&#x200B;的關係：檔案的&#x200B;**產品**&#x200B;欄已連結至&#x200B;**輪廓**&#x200B;維度的 **productCode** 欄位。
 
   會將欄新增至入站資料，以參考連結維度的外部索引鍵。
 

@@ -8,30 +8,42 @@ feature: Reporting
 role: Leader
 level: Beginner
 exl-id: fc3b28f3-63f6-4edc-923d-c7eb7925d1b7
-TQID: https://experienceleague.adobe.com/L392oFEzYUkSajzO3Gi7gjWLmDrpbOhW24k1OXFmoRc
+TQID: 'https://experienceleague.adobe.com/L392oFEzYUkSajzO3Gi7gjWLmDrpbOhW24k1OXFmoRc'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic reporting
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63
+    internal-label: Application settings
+  - id: b3a4149f-2b3a-44d1-894e-e3ac4c77fb47
+    internal-label: Reporting interface
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 831
+source-wordcount: '831'
 ht-degree: 10%
-
 ---
-
 # 開始使用動態報告 {#about-dynamic-reports}
 
 動態報告提供完全可自訂的即時報告。 它新增了對輪廓資料的存取權，除了功能性電子郵件行銷活動資料 (如開啟數和點按數) 外，還可依輪廓維度 (例如，性別、城市和年齡) 進行人口統計分析。 透過拖放介面，您可以探索資料、判斷電子郵件促銷活動對最重要客戶細分的執行方式，並評估其對收件者的影響。
@@ -80,14 +92,14 @@ ht-degree: 10%
 |  | 動態報告 | Microsoft Dynamics 365聯結器 |
 |---|---|---|
 | 美洲和APAC （亞太） | **功能可用**。 <br>所有立即可用（亦即城市、國家/地區、州、性別和年齡區段）與推播至美國報告中心的自訂設定檔資訊。 如需設定檔維度的詳細資訊，請參閱此[頁面](../../reporting/using/list-of-components.md) | **功能可用**。 <br>所有現成可用的和自訂設定檔欄位和Adobe Campaign Standard事件欄位都在美國資料中心處理。 |
-| EMEA （歐洲、中東及非洲） | **功能可用**。 <br>所有現成可用的資訊（亦即根據年齡區分的城市、國家/地區、州、性別和區段），以及推播至EMEA報告中心的自訂設定檔資訊。 如需設定檔維度的詳細資訊，請參閱此[頁面](../../reporting/using/list-of-components.md) | **功能可用。** <br>所有現成可用的與自訂設定檔欄位，以及EMEA資料中心處理的Adobe Campaign Standard事件欄位。 <br>**[!UICONTROL Control data]**&#x200B;包含Adobe I/O註冊資料，以及美國資料中心所傳送及儲存之客戶一般使用者事件的ID。 |
+| EMEA （歐洲、中東及非洲） | **功能可用**。 <br>所有現成可用的資訊（亦即根據年齡區分的城市、國家/地區、州、性別和區段），以及推播至EMEA報告中心的自訂設定檔資訊。 如需設定檔維度的詳細資訊，請參閱此[頁面](../../reporting/using/list-of-components.md) | **功能可用。** <br>所有現成可用的與自訂設定檔欄位，以及EMEA資料中心處理的Adobe Campaign Standard事件欄位。 <br>**[!UICONTROL Control data]**包含Adobe I/O註冊資料，以及美國資料中心所傳送及儲存之客戶一般使用者事件的ID。 |
 
 下表顯示根據您所在的地區，拒絕此合約後會發生什麼事情。 請注意，即使您拒絕此合約，仍可提供有關傳遞和Microsoft Dynamics 365整合的報告。
 
 | 區域 | 動態報告 | Microsoft Dynamics 365聯結器 |
 |---|---|---|
 | 美洲和APAC （亞太） | **可用功能**。<br> 除了ExternalID，沒有現成可用的和自訂設定檔資訊推送至美國報表中心。 | **功能可用**。 <br>除了外部ID和收件者ID之外，沒有現成可用的或自訂的設定檔欄位傳送至美國資料中心。 <br>所有Adobe Campaign Standard事件欄位都在美國資料中心處理，但映象頁面ID除外。 <br>如需Microsoft Dynamics 365整合的詳細資訊，請參閱此[頁面](../../integrating/using/d365-acs-get-started.md)。 |
-| EMEA （歐洲、中東及非洲） | **功能可用**。 <br>除了ExternalID之外，沒有現成可用的和自訂設定檔資訊推送至EMEA報告中心。 | **功能可用。** <br>除了外部ID和收件者ID之外，沒有現成可用的或自訂的設定檔欄位傳送至EMEA資料中心。 <br>所有Adobe Campaign Standard事件欄位都在EMEA資料中心處理，但映象頁面ID除外。<br>**[!UICONTROL Control data]**&#x200B;包含Adobe I/O註冊資料，以及傳送並儲存在美國資料中心的客戶一般使用者事件識別碼。<br>如需Microsoft Dynamics 365整合的詳細資訊，請參閱此[頁面](../../integrating/using/d365-acs-get-started.md)。 |
+| EMEA （歐洲、中東及非洲） | **功能可用**。 <br>除了ExternalID之外，沒有現成可用的和自訂設定檔資訊推送至EMEA報告中心。 | **功能可用。** <br>除了外部ID和收件者ID之外，沒有現成可用的或自訂的設定檔欄位傳送至EMEA資料中心。 <br>所有Adobe Campaign Standard事件欄位都在EMEA資料中心處理，但映象頁面ID除外。<br>**[!UICONTROL Control data]**包含Adobe I/O註冊資料，以及傳送並儲存在美國資料中心的客戶一般使用者事件識別碼。<br>如需Microsoft Dynamics 365整合的詳細資訊，請參閱此[頁面](../../integrating/using/d365-acs-get-started.md)。 |
 
 此選擇不是最終選擇，您隨時可以在&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Options]**&#x200B;中選取&#x200B;**[!UICONTROL Enable PII data to be transferred to US region to use reporting on Profile data]**&#x200B;來變更它。
 

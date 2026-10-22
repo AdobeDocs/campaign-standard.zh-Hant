@@ -11,13 +11,28 @@ role: Developer
 level: Experienced
 exl-id: 2f6c5cc6-0634-4418-a2ee-e1c133d9cbd2
 hide: true
-source-git-commit: 7ad12890a24b2c0b8730d09b7d161bff511f4c69
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: dd99420f-367d-4a14-bbc4-5140615992c2
+    internal-label: Microsoft CRM integration
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '389'
 ht-degree: 2%
-
 ---
-
 # 管理 Adobe Experience Platform 客群 {#about-audiences}
 
 >[!IMPORTANT]
@@ -52,7 +67,7 @@ ht-degree: 2%
 
 1. 為了成功建立區段，您必須選取符合您針對此區段行銷目的的&#x200B;**合併原則**。
 
-   在設定窗格中，選取Platform預設合併原則。 如需合併原則的詳細資訊，請參閱[區段產生器使用手冊](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hant)中的專屬章節。
+   在設定窗格中，選取Platform預設合併原則。 如需合併原則的詳細資訊，請參閱[區段產生器使用手冊](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html)中的專屬章節。
 
    ![](assets/aep_audiences_mergepolicy.png)
 

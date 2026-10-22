@@ -10,20 +10,29 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 39f7b216-b3cd-4aa6-b5df-23e6805076df
-TQID: https://experienceleague.adobe.com/pOXtN7OIlZSZTe5WWHJjiSuX56sS5pGojHp79GWgRP4
+TQID: 'https://experienceleague.adobe.com/pOXtN7OIlZSZTe5WWHJjiSuX56sS5pGojHp79GWgRP4'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Intermediate
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 877
+source-wordcount: '877'
 ht-degree: 52%
-
 ---
-
 # 排程器{#scheduler}
 
 ## 說明 {#description}
@@ -76,19 +85,19 @@ ht-degree: 52%
 
    * 若要在一天中定期執行工作流程，請開啟&#x200B;**[!UICONTROL Periodic]**&#x200B;選項，然後設定執行週期：
 
-      1. 在&#x200B;**[!UICONTROL Repeat processing according to the following frequency (e.g. 2h)]**&#x200B;欄位中，指定工作流程應執行的間隔（例如每30分鐘、每2小時）。
+     1. 在&#x200B;**[!UICONTROL Repeat processing according to the following frequency (e.g. 2h)]**&#x200B;欄位中，指定工作流程應執行的間隔（例如每30分鐘、每2小時）。
 
-         >[!NOTE]
-         >
-         >此選項也允許每日、每月或每年重複頻率。 請注意，在此情況下，工作流程將不會一天執行數次，而是根據您在此欄位中指定的頻率來執行。
-         >
-         > 如果您的工作流程在一天內不需要多次執行，而是需要每日、每月或每年執行，建議您使用&#x200B;**[!UICONTROL Execution frequency]**&#x200B;下拉式清單中的&#x200B;**[!UICONTROL Daily]**、**[!UICONTROL Monthly]**&#x200B;或&#x200B;**[!UICONTROL Yearly]**&#x200B;選項。
+        >[!NOTE]
+        >
+        >此選項也允許每日、每月或每年重複頻率。 請注意，在此情況下，工作流程將不會一天執行數次，而是根據您在此欄位中指定的頻率來執行。
+        >
+        > 如果您的工作流程在一天內不需要多次執行，而是需要每日、每月或每年執行，建議您使用&#x200B;**[!UICONTROL Execution frequency]**&#x200B;下拉式清單中的&#x200B;**[!UICONTROL Daily]**、**[!UICONTROL Monthly]**&#x200B;或&#x200B;**[!UICONTROL Yearly]**&#x200B;選項。
 
-      1. 在&#x200B;**[!UICONTROL Start]**/**[!UICONTROL End]**&#x200B;時間欄位中，定義工作流程執行的開始和結束時間。
+     1. 在&#x200B;**[!UICONTROL Start]**/**[!UICONTROL End]**&#x200B;時間欄位中，定義工作流程執行的開始和結束時間。
 
-         如果未指定結束時間，執行會在午夜00:00:00時終止，而下一個執行會在指定的開始時間隔天開始。
+        如果未指定結束時間，執行會在午夜00:00:00時終止，而下一個執行會在指定的開始時間隔天開始。
 
-      1. 在&#x200B;**[!UICONTROL Start]**&#x200B;日期欄位中，選取第一次執行的開始日期。
+     1. 在&#x200B;**[!UICONTROL Start]**&#x200B;日期欄位中，選取第一次執行的開始日期。
 
    在以下範例中，活動設定為從3月1日上午8點至下午5點，每兩小時執行工作流程一次。
 

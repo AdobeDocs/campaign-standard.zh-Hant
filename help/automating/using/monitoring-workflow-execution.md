@@ -10,20 +10,29 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: d2ce702b-92d1-4b94-bd47-34ef46a8bd9f
-TQID: https://experienceleague.adobe.com/x8m3RC6xTxysD8WLgMBICv3Qp1Fz9FYm-OlDqimecbc
+TQID: 'https://experienceleague.adobe.com/x8m3RC6xTxysD8WLgMBICv3Qp1Fz9FYm-OlDqimecbc'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Intermediate
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 580
+source-wordcount: '580'
 ht-degree: 6%
-
 ---
-
 # 監控工作流程執行 {#monitoring}
 
 ## 工作流程記錄檔與任務 {#workflow-log-and-tasks}
@@ -70,11 +79,11 @@ ht-degree: 6%
 
 * **[!UICONTROL In case of error]**：可讓您指定當活動發生錯誤時要執行的動作。 對此有兩個可用選項：
 
-   * **暫停處理序**：工作流程已自動暫停。 工作流程狀態為&#x200B;**錯誤**，關聯的顏色會變成紅色。 問題解決後，請重新啟動工作流程。
-   * **忽略**：活動未執行，因此它後面沒有任何活動（在相同分支中）。 事實證明，這對週期性任務很有用。 如果分支有放置在上游的排程器，這應在下一個執行日期觸發。
+  * **暫停處理序**：工作流程已自動暫停。 工作流程狀態為&#x200B;**錯誤**，關聯的顏色會變成紅色。 問題解決後，請重新啟動工作流程。
+  * **忽略**：活動未執行，因此它後面沒有任何活動（在相同分支中）。 事實證明，這對週期性任務很有用。 如果分支有放置在上游的排程器，這應在下一個執行日期觸發。
 
 * **[!UICONTROL Consecutive errors]** ：可讓您定義在自動暫停工作流程執行之前獲授權的連續錯誤數。
 
-   * 如果指定的數字為&#x200B;**[!UICONTROL 0]**，或只要未達到指定的數字，則會忽略發生錯誤的活動。 其他工作流程分支會正常執行。
+  * 如果指定的數字為&#x200B;**[!UICONTROL 0]**，或只要未達到指定的數字，則會忽略發生錯誤的活動。 其他工作流程分支會正常執行。
 
-   * 如果達到指定的數目，則整個工作流程會暫停，並變成&#x200B;**[!UICONTROL Erroneous]**。 若已定義主管，則會自動透過電子郵件通知他們。 請參閱 [Adobe Campaign 通知](../../administration/using/sending-internal-notifications.md)。
+  * 如果達到指定的數目，則整個工作流程會暫停，並變成&#x200B;**[!UICONTROL Erroneous]**。 若已定義主管，則會自動透過電子郵件通知他們。 請參閱 [Adobe Campaign 通知](../../administration/using/sending-internal-notifications.md)。

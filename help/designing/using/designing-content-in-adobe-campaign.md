@@ -8,26 +8,36 @@ feature: Email Design
 role: User
 level: Beginner
 exl-id: 85d6361b-6c27-42c0-bac4-774b71625bf8
-TQID: https://experienceleague.adobe.com/vMtypGa523dBe7gAb-czQgSM9SEyMyd-ayg0SYjKj2E
+TQID: 'https://experienceleague.adobe.com/vMtypGa523dBe7gAb-czQgSM9SEyMyd-ayg0SYjKj2E'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Personalization
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1263
+source-wordcount: '1263'
 ht-degree: 83%
-
 ---
-
 # Campaign 電子郵件設計工具{#designing-content-in-adobe-campaign}
 
 在 Adobe Campaign 中建立電子郵件後，您必須定義其內容。
@@ -46,9 +56,9 @@ ht-degree: 83%
 * 若要瞭解如何建立電子郵件內容，請參 閱「[開始使用電子郵件設計工具](../../designing/using/quick-start.md)」。
 * 有關電子郵件設計工具的概觀，請參閱「[使用電子郵件設計工具](../../designing/using/designing-content-in-adobe-campaign.md)」。
 * 有關建立內容的更多資訊：
-   * 從草稿開始，請參閱「[從草稿開始設計電子郵件](../../designing/using/designing-from-scratch.md)」。
-   * 使用現有內容，請參閱「[使用現有內容設計](../../designing/using/using-existing-content.md)」。
-   * 使用 Creative Cloud 整合，請參閱「[多解決方案電子郵件設計](../../designing/using/using-integrations.md)」。
+  * 從草稿開始，請參閱「[從草稿開始設計電子郵件](../../designing/using/designing-from-scratch.md)」。
+  * 使用現有內容，請參閱「[使用現有內容設計](../../designing/using/using-existing-content.md)」。
+  * 使用 Creative Cloud 整合，請參閱「[多解決方案電子郵件設計](../../designing/using/using-integrations.md)」。
 * 如需個人化的詳細資訊，請參閱「[個人化](../../designing/using/personalization.md)」。
 
 建立電子郵件時，您可以選擇使用預先定義的範本，或從其他來源載入現有內容。 請參閱「[選擇現有內容](../../designing/using/using-existing-content.md#selecting-an-existing-content)」。
@@ -181,4 +191,4 @@ Adobe 建議將您的內容更新至最新版本，以避免發生 CSS 衝突等
 
 >[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
 
-若要開始使用Email Designer，請觀看這組[影片](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html?lang=zh-Hant#GettingStarted)，其中說明Email Designer的一般功能，以及如何從草稿開始或使用範本來設計電子郵件
+若要開始使用Email Designer，請觀看這組[影片](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted)，其中說明Email Designer的一般功能，以及如何從草稿開始或使用範本來設計電子郵件

@@ -10,13 +10,28 @@ role: Developer
 level: Experienced
 exl-id: cc1aa669-30cd-4ea4-9fab-4d1b6c373744
 hide: true
-source-git-commit: 7ad12890a24b2c0b8730d09b7d161bff511f4c69
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: dd99420f-367d-4a14-bbc4-5140615992c2
+    internal-label: Microsoft CRM integration
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '249'
 ht-degree: 0%
-
 ---
-
 # Experience資料模型概觀 {#experience-data-model-overview}
 
 >[!IMPORTANT]
@@ -33,7 +48,7 @@ XDM Workspace可讓您檢視、建立和擴充資料結構。
 
 若要存取XDM使用者介面，請開啟Adobe Experience Platform。 導覽至「資料模型」視窗，以建立或擴充XDM架構。
 
-請參閱完整的[XDM Workspace檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=zh-Hant)。
+請參閱完整的[XDM Workspace檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html)。
 
 ![](assets/aep_xdmworkspace.png)
 
@@ -48,4 +63,4 @@ XDM Workspace可讓您檢視、建立和擴充資料結構。
 * 檢視結構描述元
 * 建立、更新和刪除結構描述元
 
-在[開發人員指南](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=zh-Hant)中提供了控制API呼叫的所有詳細資訊。
+在[開發人員指南](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html)中提供了控制API呼叫的所有詳細資訊。

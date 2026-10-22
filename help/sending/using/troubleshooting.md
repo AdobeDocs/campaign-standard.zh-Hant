@@ -9,27 +9,36 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 0470b986-c00a-4441-8621-82c7112a9953
-TQID: https://experienceleague.adobe.com/UyKD0H4ffjVDfJRubitjN0pJs2DQbswTlOPNzvU6zLo
+TQID: 'https://experienceleague.adobe.com/UyKD0H4ffjVDfJRubitjN0pJs2DQbswTlOPNzvU6zLo'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: 63876777-85c3-57e1-a2da-81f02956c63c
+    internal-label: Deliverability
 subfeature_v2:
   - id: a39dbcf0-89cb-4765-9bcb-cf9dfbe2875f
+    internal-label: Troubleshooting
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 475
+source-wordcount: '475'
 ht-degree: 1%
-
 ---
-
 # 疑難排解{#troubleshooting}
 
 您是否遇到傳遞能力問題？ 您可以在這裡找到解決方案。
@@ -50,9 +59,9 @@ ht-degree: 1%
 
 * **封鎖清單上的電子郵件地址與隔離的電子郵件地址有何不同？**
 
-   * 狀態&#x200B;**[!UICONTROL On denylist]**&#x200B;是[回饋迴路](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=zh-Hant#feedback-loops) （當某人回報訊息為垃圾訊息時）的結果。
+  * 狀態&#x200B;**[!UICONTROL On denylist]**&#x200B;是[回饋迴路](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops) （當某人回報訊息為垃圾訊息時）的結果。
 
-   * 狀態&#x200B;**[!UICONTROL Quarantined]**&#x200B;是軟退信或硬退信的結果。
+  * 狀態&#x200B;**[!UICONTROL Quarantined]**&#x200B;是軟退信或硬退信的結果。
 
   如需詳細資訊，請參閱[本章節](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)。
 
@@ -66,15 +75,15 @@ ht-degree: 1%
 
 * **我的其中一個收件者被誤新增至封鎖清單。 如何將他們從封鎖清單中移除，以便可以開始再次傳送訊息？**
 
-   * 移至&#x200B;**[!UICONTROL Administration > Channels > Quarantines > Addresses]**。
-   * 在對應的記錄的詳細資訊中，將&#x200B;**[!UICONTROL Status]**&#x200B;欄位的值設定為&#x200B;**[!UICONTROL Valid]**。
-   * 儲存記錄。
+  * 移至&#x200B;**[!UICONTROL Administration > Channels > Quarantines > Addresses]**。
+  * 在對應的記錄的詳細資訊中，將&#x200B;**[!UICONTROL Status]**&#x200B;欄位的值設定為&#x200B;**[!UICONTROL Valid]**。
+  * 儲存記錄。
 
 * **如何找出我的IP是否位於封鎖清單中？ 如何從封鎖清單移除我的IP？**
 
   若要檢查您的IP位址是否在封鎖清單中，您可以使用各種網站來驗證它，例如：
-   * [MX Toolbox](https://mxtoolbox.com/)
-   * [我的IP位址是什麼](https://whatismyipaddress.com)
+  * [MX Toolbox](https://mxtoolbox.com/)
+  * [我的IP位址是什麼](https://whatismyipaddress.com)
 
   一般而言，IP位址檢查的結果會傳回包含封鎖清單詳細資訊以及封鎖IP位址之網站名稱的清單。
 

@@ -8,23 +8,34 @@ feature: Reporting
 role: Leader
 level: Beginner
 exl-id: 37e9acff-9576-472f-9fdf-2c0f6da773d1
-TQID: https://experienceleague.adobe.com/QMERUwGatI5VLYzyUgA4dZxLkozubYyYBgueoJ6gZzI
+TQID: 'https://experienceleague.adobe.com/QMERUwGatI5VLYzyUgA4dZxLkozubYyYBgueoJ6gZzI'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic reporting
+subfeature_v2:
+  - id: b3a4149f-2b3a-44d1-894e-e3ac4c77fb47
+    internal-label: Reporting interface
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Insights
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 725
+source-wordcount: '725'
 ht-degree: 3%
-
 ---
-
 # 報告介面{#reporting-interface}
 
 例如，頂端工具列可讓您修改、儲存或列印報告。
@@ -57,7 +68,7 @@ ht-degree: 3%
 * [新增元件](../../reporting/using/adding-components.md)
 * [透過電子郵件自動與利害關係人共用報告](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
 
-## 索引標籤 {#tabs}
+## 頁籤 {#tabs}
 
 左邊標籤可讓您建立報告，並依需求篩選資料。
 
@@ -121,37 +132,37 @@ ht-degree: 3%
 
 * **[!UICONTROL Send report now]**：透過一次性電子郵件將您的報告傳送給所選收件者清單。
 
-   1. 在&#x200B;**[!UICONTROL Send report]**&#x200B;視窗中，視需要新增說明。
+  1. 在&#x200B;**[!UICONTROL Send report]**&#x200B;視窗中，視需要新增說明。
 
-      ![](assets/tab_share_4.png)
+     ![](assets/tab_share_4.png)
 
-   1. 從下拉式清單中選取收件者。 請注意，您無法選取組織外部的使用者。
-   1. 若要傳送週期性電子郵件，請核取&#x200B;**[!UICONTROL Show scheduling options]**。 也可以在&#x200B;**[!UICONTROL Share]**&#x200B;索引標籤中選取&#x200B;**[!UICONTROL Send Report on schedule]**&#x200B;來完成此操作。
-   1. 按一下 **[!UICONTROL Send now]**。 之後，您的收件者會收到一封電子郵件，內附您的報告。
+  1. 從下拉式清單中選取收件者。 請注意，您無法選取組織外部的使用者。
+  1. 若要傳送週期性電子郵件，請核取&#x200B;**[!UICONTROL Show scheduling options]**。 也可以在&#x200B;**[!UICONTROL Share]**&#x200B;索引標籤中選取&#x200B;**[!UICONTROL Send Report on schedule]**&#x200B;來完成此操作。
+  1. 按一下 **[!UICONTROL Send now]**。 之後，您的收件者會收到一封電子郵件，內附您的報告。
 
 * **[!UICONTROL Send report on schedule]**：排程您的報告並傳送週期性電子郵件給您的收件者。
 
-   1. 在&#x200B;**[!UICONTROL Send report]**&#x200B;視窗中，視需要新增說明。
-   1. 從下拉式清單中選取收件者。 請注意，您無法選取組織外部的使用者。
+  1. 在&#x200B;**[!UICONTROL Send report]**&#x200B;視窗中，視需要新增說明。
+  1. 從下拉式清單中選取收件者。 請注意，您無法選取組織外部的使用者。
 
-      ![](assets/tab_share_5.png)
+     ![](assets/tab_share_5.png)
 
-   1. 選取您的開始和結束日期，以在&#x200B;**[!UICONTROL Starting on]**&#x200B;和&#x200B;**[!UICONTROL Ending on]**&#x200B;欄位中設定您的電子郵件有效期。
-   1. 選擇電子郵件傳送的頻率。
+  1. 選取您的開始和結束日期，以在&#x200B;**[!UICONTROL Starting on]**&#x200B;和&#x200B;**[!UICONTROL Ending on]**&#x200B;欄位中設定您的電子郵件有效期。
+  1. 選擇電子郵件傳送的頻率。
 
-      ![](assets/tab_share_2.png)
+     ![](assets/tab_share_2.png)
 
-   1. 按一下「**[!UICONTROL Send on schedule]**」，您的收件者將會根據所選的頻率收到您的週期性電子郵件。
+  1. 按一下「**[!UICONTROL Send on schedule]**」，您的收件者將會根據所選的頻率收到您的週期性電子郵件。
 
 * **[!UICONTROL Scheduled reports]**：尋找並設定所有排程報告。
 
-   1. 在&#x200B;**[!UICONTROL Scheduled reports]**&#x200B;視窗中，尋找所有週期性傳送的報告。
+  1. 在&#x200B;**[!UICONTROL Scheduled reports]**&#x200B;視窗中，尋找所有週期性傳送的報告。
 
-      ![](assets/tab_share_3.png)
+     ![](assets/tab_share_3.png)
 
-   1. 如果您需要刪除其中一個排程報告，請選取您要刪除的排程報告，然後按一下&#x200B;**[!UICONTROL Delete the section]**。
-   1. 若要設定或檢查排程報表，請直接按一下需要變更的報告。
-   1. **[!UICONTROL Edit scheduled report]**&#x200B;視窗會出現，您現在可以根據需要變更電子郵件的收件者或頻率。
+  1. 如果您需要刪除其中一個排程報告，請選取您要刪除的排程報告，然後按一下&#x200B;**[!UICONTROL Delete the section]**。
+  1. 若要設定或檢查排程報表，請直接按一下需要變更的報告。
+  1. **[!UICONTROL Edit scheduled report]**&#x200B;視窗會出現，您現在可以根據需要變更電子郵件的收件者或頻率。
 
 之後，目標使用者會收到電子郵件，直接在收件匣中附加您的報告。 使用者可以隨時使用每封定期電子郵件中的取消訂閱連結，決定停止接收定期電子郵件。
 

@@ -9,22 +9,32 @@ feature: Landing Pages
 role: User
 level: Intermediate
 exl-id: 28398843-a170-48cf-b9c0-dca7af56236d
-TQID: https://experienceleague.adobe.com/Khit4ZawqjXKPd9FG7eJaIgU-eQhaFGtNhLGzE74Xio
+TQID: 'https://experienceleague.adobe.com/Khit4ZawqjXKPd9FG7eJaIgU-eQhaFGtNhLGzE74Xio'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: d7be2b01-dc9c-40f7-aace-a151707504ed
+    internal-label: Landing pages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Personalization
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1684
+source-wordcount: '1684'
 ht-degree: 90%
-
 ---
-
 # 設計登陸頁面{#designing-a-landing-page}
 
 ## 關於登入頁面內容設計內容設計 {#about-content-design}
@@ -323,7 +333,7 @@ ht-degree: 90%
 
 階層連結會顯示在[管理區塊](../../channels/using/designing-a-landing-page.md#managing-landing-page-structure-and-style)區段中。
 
-在登錄頁面中定義動態內容的後續步驟類似於電子郵件的後續步驟。 請參閱[本節](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)。
+在登錄頁面中定義動態內容的後續步驟類似於電子郵件的後續步驟。 請參閱[本區段](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)。
 
 >[!NOTE]
 >

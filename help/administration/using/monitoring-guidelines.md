@@ -84,7 +84,7 @@ Campaign Standard介面提供通知窗格，讓您隨時瞭解系統中發生的
 
 **授權**
 
-透過&#x200B;**[!UICONTROL Licenses]**功能表，監視執行個體的相關資訊：已安裝的授權、組建版本和條款合約接受。
+透過&#x200B;**[!UICONTROL Licenses]**&#x200B;功能表，監視執行個體的相關資訊：已安裝的授權、組建版本和條款合約接受。
 [閱讀更多](../../administration/using/licenses.md)
 
 ## 監視工作流程 {#monitoring-workflows}

@@ -108,7 +108,7 @@ Adobe Campaign 隨附一組預先定義的外部帳戶。 若要設定與外部�
 
 另請注意，您嘗試啟動SFTP連線的公用IP必須新增至Campaign執行個體上的允許清單。 可透過[支援票證](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)要求將IP位址新增至允許清單，並提供用於驗證的公開金鑰。
 
-SFTP 伺服器可從「控制面板」進行管理。 如需詳細資訊，請參閱[控制面板文件](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html)。
+SFTP 伺服器可從「控制面板」進行管理。 如需詳細資訊，請參閱[控制面板文件](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=zh-Hant)。
 
 >[!NOTE]
 >

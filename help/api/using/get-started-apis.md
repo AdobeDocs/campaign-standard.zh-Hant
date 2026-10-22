@@ -50,7 +50,7 @@ Campaign Standard API 的目的是讓您&#x200B;**建立 Adobe Campaign Standard
 
 >[!NOTE]
 >
->在執行 API 呼叫之前，請檢查與您的授權合約相應的比例限制。 如需詳細資訊，請參閱[此頁面](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers)。
+>在執行 API 呼叫之前，請檢查與您的授權合約相應的比例限制。 如需詳細資訊，請參閱[此頁面](https://helpx.adobe.com/tw/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers)。
 
 若要使用 Campaign Standard API，您需要 Adobe I/O 帳戶。 這是前進並探索 API 功能的必備第一步。
 如需詳細資訊，請參閱[本章節](../../api/using/setting-up-api-access.md)。
@@ -63,4 +63,4 @@ Campaign Standard API 的目的是讓您&#x200B;**建立 Adobe Campaign Standard
 
 本文件中詳細說明了所有端點，其中包括您應瞭解的控制 API 的一般概念、完整的 API 參考、代碼範例和快速入門手冊。
 
-如果有任何遺漏或看起來不正確，請詢問[社群](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)。
+如果有任何遺漏或看起來不正確，請詢問[社群](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=zh-Hant)。

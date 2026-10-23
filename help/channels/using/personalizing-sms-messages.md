@@ -9,22 +9,32 @@ feature: SMS
 role: User
 level: Intermediate
 exl-id: 6c01662e-1e19-4cec-aa21-6e84b9b7a677
-TQID: https://experienceleague.adobe.com/rNZ7AuSVilyEUjsV2cgu2SLCxfT693AORqR6-GF9d5E
+TQID: 'https://experienceleague.adobe.com/rNZ7AuSVilyEUjsV2cgu2SLCxfT693AORqR6-GF9d5E'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: b1bd1421-1927-4c59-9bc6-ce292360e43b
+    internal-label: SMS Messaging
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Personalization
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 434
+source-wordcount: '434'
 ht-degree: 99%
-
 ---
-
 # 個人化簡訊訊息{#personalizing-sms-messages}
 
 個人化簡訊訊息的原則與[電子郵件](../../designing/using/personalization.md#inserting-a-personalization-field)的原則。 不過，您必須注意音譯選項，因為這些選項可能會影響編碼，進而影響要傳送的簡訊訊息數量。 如需詳細資訊，請參閱[音譯和簡訊長度](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)區段。
@@ -36,8 +46,8 @@ ht-degree: 99%
 * 對於名為 &#39;John Smith&#39; 的收件者，由於其不含特殊字元，Adobe Campaign 將選取 GSM 編碼，此編碼將授權每則簡訊訊息最多 160 個字元。 因此，訊息會以單一部分傳送。
 * 對於名為 &#39;Raphaël Forêt&#39; 的收件者，字元 &#39;ë&#39; 和 &#39;ê&#39; 無法在 GSM 中編碼。 視是否已啟用音譯而定，Adobe Campaign 可以在兩種行為之間進行選取：
 
-   * 如果音譯是授權的 &#39;ë&#39;，而且 &#39;ê&#39; 將被 &#39;e&#39; 取代，這表示 GSM 編碼可使用，因此在簡訊中最多可使用 160 個字元。 此訊息會以單一簡訊訊息的形式傳送，但會稍作變更。
-   * 如果未授權音譯，Adobe Campaign 會選取以二進位格式 (Unicode) 傳送訊息：因此，所有字元都會依此傳送。 由於 Unicode 中的簡訊訊息限制為 70 個字元，Adobe Campaign 必須分兩部分傳送訊息。
+  * 如果音譯是授權的 &#39;ë&#39;，而且 &#39;ê&#39; 將被 &#39;e&#39; 取代，這表示 GSM 編碼可使用，因此在簡訊中最多可使用 160 個字元。 此訊息會以單一簡訊訊息的形式傳送，但會稍作變更。
+  * 如果未授權音譯，Adobe Campaign 會選取以二進位格式 (Unicode) 傳送訊息：因此，所有字元都會依此傳送。 由於 Unicode 中的簡訊訊息限制為 70 個字元，Adobe Campaign 必須分兩部分傳送訊息。
 
 >[!NOTE]
 >

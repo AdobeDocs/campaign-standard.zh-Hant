@@ -6,13 +6,25 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
-source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: 7f0a1ee5-eeb8-5478-a9cd-b1896f033118
+    internal-label: Instance Settings
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: '1596'
-ht-degree: 87%
-
+source-wordcount: '1624'
+ht-degree: 88%
 ---
-
 # 設定簡訊通道{#configuring-sms-channel}
 
 若要傳送簡訊訊息，管理員必須在 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL SMS]** > **[!UICONTROL SMS accounts]** 功能表下設定一或多個外部帳戶。
@@ -302,8 +314,8 @@ CR：歸位
 
 * 未檢查 **[!UICONTROL Define a specific mapping of encodings]** 功能時，連接器會採取一般行為：
 
-   * 它會嘗試使用 GSM 編碼，將 **data_coding = 0** 的值指派給它。
-   * 如果 GSM 編碼失敗，則會使用 **UCS2** 編碼，並對其指派值 **data_coding = 8**。
+  * 它會嘗試使用 GSM 編碼，將 **data_coding = 0** 的值指派給它。
+  * 如果 GSM 編碼失敗，則會使用 **UCS2** 編碼，並對其指派值 **data_coding = 8**。
 
   ![](assets/sms_data_coding.png)
 
@@ -349,6 +361,6 @@ CR：歸位
 
 * **[!UICONTROL Transmission mode]** 欄位可讓您判斷簡訊訊息的傳送方式：
 
-   * **[!UICONTROL Saved on SIM card]**：會將該訊息儲存在收件者的電話 SIM 卡上。
-   * **[!UICONTROL Saved on mobile]**：會將該訊息儲存在電話的內部記憶體中。
-   * **[!UICONTROL Flash]**：該訊息會顯示在收件者的行動電話以作為通知，之後訊息會消失，而不會儲存。
+  * **[!UICONTROL Saved on SIM card]**：會將該訊息儲存在收件者的電話 SIM 卡上。
+  * **[!UICONTROL Saved on mobile]**：會將該訊息儲存在電話的內部記憶體中。
+  * **[!UICONTROL Flash]**：該訊息會顯示在收件者的行動電話以作為通知，之後訊息會消失，而不會儲存。

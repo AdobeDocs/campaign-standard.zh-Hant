@@ -4,13 +4,16 @@ description: 瞭解如何在Adobe Campaign Standard中自訂顯示並在清單�
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 9%
-
 ---
-
 
 # 使用設定檔和對象
 
@@ -81,7 +84,8 @@ Campaign Standard提供數種工具，協助您擴充行銷資料庫。 本節�
 
 ### 從Microsoft Dynamics 365同步設定檔
 
-Campaign Standard與Microsoft Dynamics 365整合可讓您將聯絡資料從Microsoft Dynamics 365傳遞至Campaign資料庫。然後，這些聯絡人會顯示在設定檔清單中，並可在行銷活動中定位。 如需此整合的詳細資訊，請參閱[專屬檔案](../../integrating/using/d365-acs-get-started.md)。
+Campaign Standard與Microsoft Dynamics 365整合可讓您將聯絡資料從Microsoft Dynamics 365傳遞至Campaign資料庫。
+然後，這些聯絡人會顯示在設定檔清單中，並可在行銷活動中定位。 如需此整合的詳細資訊，請參閱[專屬檔案](../../integrating/using/d365-acs-get-started.md)。
 
 >[!NOTE]
 >

@@ -6,22 +6,29 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: 404356cd-021f-4739-a88f-b8b1b79e19bc
-TQID: https://experienceleague.adobe.com/uXYP0rBCW5loGzDKt--hLMmUZqfu7XxVn2qL0xgAcek
+TQID: 'https://experienceleague.adobe.com/uXYP0rBCW5loGzDKt--hLMmUZqfu7XxVn2qL0xgAcek'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Troubleshooting
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 352
+source-wordcount: '353'
 ht-degree: 0%
-
 ---
-
 # API疑難排解 {#troubleshooting}
 
 * **前往Adobe.io Console時，您會收到下列錯誤：「Adobe I/O Console僅供企業帳戶的選取成員使用。 如果您認為您應該擁有存取權，請聯絡您的系統管理員。&quot;**
@@ -59,7 +66,7 @@ ht-degree: 0%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-在回應中，ORGANIZATION_ID值必須在您的第一個GET要求中相同。
+回應中，第一個GET請求中的ORGANIZATION_ID值必須相同。
 
 ```
 {
@@ -84,7 +91,7 @@ ht-degree: 0%
 }
 ```
 
-* **向Adobe.io提出要求時，您會收到{&quot;code&quot;:500、&quot;message&quot;：&quot;Oops. 發生錯誤。 請檢查您的URI，然後再試一次。&quot;}**
+* **向Adobe.io提出要求時，您會收到{&quot;code&quot;：500，&quot;message&quot;：&quot;Oops. 發生錯誤。 請檢查您的URI，然後再試一次。&quot;}**
 
 Adobe.io會宣告您無效的URI：您請求的URI很可能無效。 在Adobe.io上，當您選取Campaign服務時，畫面會提供選擇器，其中包含可能的organization_id清單。 您需要確認您選擇的檔案是否為放入URL中的檔案。
 

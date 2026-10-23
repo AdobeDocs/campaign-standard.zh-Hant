@@ -10,20 +10,29 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 373e4012-9daf-4da7-aad6-54726d991544
-TQID: https://experienceleague.adobe.com/edHsRImxIpD0dL-LI3-xcet9JIFvxWFO3ALu-Jr-6-A
+TQID: 'https://experienceleague.adobe.com/edHsRImxIpD0dL-LI3-xcet9JIFvxWFO3ALu-Jr-6-A'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Intermediate
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1368
+source-wordcount: '1368'
 ht-degree: 90%
-
 ---
-
 # 載入檔案 {#load-file}
 
 ## 說明 {#description}
@@ -143,24 +152,24 @@ ht-degree: 90%
 * **[!UICONTROL Data type]**：指定每欄所需的資料類型。
 * **[!UICONTROL Format and separators]**，**屬性**：指定文字的屬性、時間、日期和數值格式，以及欄內容所指定的分隔符號。
 
-   * **[!UICONTROL Maximum number of characters]**：指定字串類型列的字元數上限。
+  * **[!UICONTROL Maximum number of characters]**：指定字串類型列的字元數上限。
 
-     載入由長度固定的欄組成的檔案時，必須填入此欄位。
+    載入由長度固定的欄組成的檔案時，必須填入此欄位。
 
-   * **[!UICONTROL Letter case management]**：定義是否需要對 **Text** 資料應用字元大寫。
-   * **[!UICONTROL White space management]**：指定 **Text** 資料的字串中是否需要忽略某些空格。
-   * **[!UICONTROL Time format]**、**[!UICONTROL Date format]**：指定 **Date**、**Time** r及 **Date and time** 資料的格式。
-   * **[!UICONTROL Format]**：可讓您定義 **Integer** 及 **Floating number** 的數值格式。
-   * **[!UICONTROL Separator]**：定義欄內容指定的分隔符號（述職的千分位分隔符號或:小數分隔符號，日期及時間的分隔符號），適用於 **Date**、**Time**、**Date and time**、**Integer**　及 **Floating number** 資料。
+  * **[!UICONTROL Letter case management]**：定義是否需要對 **Text** 資料應用字元大寫。
+  * **[!UICONTROL White space management]**：指定 **Text** 資料的字串中是否需要忽略某些空格。
+  * **[!UICONTROL Time format]**、**[!UICONTROL Date format]**：指定 **Date**、**Time** r及 **Date and time** 資料的格式。
+  * **[!UICONTROL Format]**：可讓您定義 **Integer** 及 **Floating number** 的數值格式。
+  * **[!UICONTROL Separator]**：定義欄內容指定的分隔符號（述職的千分位分隔符號或:小數分隔符號，日期及時間的分隔符號），適用於 **Date**、**Time**、**Date and time**、**Integer**　及 **Floating number** 資料。
 
 * **[!UICONTROL Remapping of values]**：此欄位僅在欄詳細資料設定中可用。 它可讓您在匯入特定值時加以轉換。 例如，您可將　&quot;three&quot;　轉換為　&quot;3&quot;。
 * **[!UICONTROL Error processing]**：會定義發生錯誤時的行為。
 
-   * **[!UICONTROL Ignore the value]**：會忽略值。 會在工作流程執行記錄檔中產生警告。
-   * **[!UICONTROL Reject the line]**：不會處理整行。
-   * **[!UICONTROL Use a default value]**：以在　**[!UICONTROL Default value]**　欄位中定義的預設值取代造成錯誤的值。
-   * **[!UICONTROL Use a default value in case the value is not remapped]**：以在　**[!UICONTROL Default value]**　欄位中定義的預設值取代導致錯誤的值，除非已針對錯誤值定義對應（請參閱上述　**[!UICONTROL Remapping of values]**　選項）。
-   * **[!UICONTROL Reject the line when there is no remapping value]**：除非為錯誤值定義對應（請參閱上述 **[!UICONTROL Remapping of values]** 選項），否則不會處理整行。
+  * **[!UICONTROL Ignore the value]**：會忽略值。 會在工作流程執行記錄檔中產生警告。
+  * **[!UICONTROL Reject the line]**：不會處理整行。
+  * **[!UICONTROL Use a default value]**：以在　**[!UICONTROL Default value]**　欄位中定義的預設值取代造成錯誤的值。
+  * **[!UICONTROL Use a default value in case the value is not remapped]**：以在　**[!UICONTROL Default value]**　欄位中定義的預設值取代導致錯誤的值，除非已針對錯誤值定義對應（請參閱上述　**[!UICONTROL Remapping of values]**　選項）。
+  * **[!UICONTROL Reject the line when there is no remapping value]**：除非為錯誤值定義對應（請參閱上述 **[!UICONTROL Remapping of values]** 選項），否則不會處理整行。
 
   >[!NOTE]
   >
@@ -169,6 +178,6 @@ ht-degree: 90%
 * **[!UICONTROL Default value]**：根據選取的錯誤處理指定預設值。
 * **[!UICONTROL Empty value management]**：指定在資料載入期間如何管理空值。
 
-   * **[!UICONTROL Generate an error for numerical fields]**：僅為數字欄位產生錯誤，否則插入 NULL 值。
-   * **[!UICONTROL Insert NULL in the corresponding field]**：授權空值。 因此插入值 NULL。
-   * **[!UICONTROL Generate an error]**：如果值為空，則產生錯誤。
+  * **[!UICONTROL Generate an error for numerical fields]**：僅為數字欄位產生錯誤，否則插入 NULL 值。
+  * **[!UICONTROL Insert NULL in the corresponding field]**：授權空值。 因此插入值 NULL。
+  * **[!UICONTROL Generate an error]**：如果值為空，則產生錯誤。

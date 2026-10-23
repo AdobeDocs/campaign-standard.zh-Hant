@@ -10,22 +10,32 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 66623c76-96aa-45cd-9637-19d8a9732c04
-TQID: https://experienceleague.adobe.com/rEACKEIILPxKSh-KZ8bFkXqt1MvmffvCTbb2IaJhQ0I
+TQID: 'https://experienceleague.adobe.com/rEACKEIILPxKSh-KZ8bFkXqt1MvmffvCTbb2IaJhQ0I'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: dd99420f-367d-4a14-bbc4-5140615992c2
+    internal-label: Microsoft CRM integration
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Email marketing
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1854
+source-wordcount: '1854'
 ht-degree: 0%
-
 ---
-
 # 同步資料
 
 您可以將表格從Microsoft Dynamics 365同步至Campaign，並將促銷活動行銷量度同步至Microsoft Dynamics 365。 同步處理會透過三個專屬的技術工作流程執行： **[!UICONTROL Microsoft Dynamics 365 to Campaign]**、**[!UICONTROL Campaign to Microsoft Dynamics 365]**、**[!UICONTROL Opt-In/Out]**。 請參閱本節，以[瞭解更多](../../integrating/using/d365-acs-self-service-app-workflows.md)。
@@ -48,25 +58,25 @@ ht-degree: 0%
 
 * **[!UICONTROL ACTIONS]**：可能的動作如下：
 
-   * 按一下&#x200B;**[!UICONTROL Edit]**&#x200B;圖示以編輯此對應。
+  * 按一下&#x200B;**[!UICONTROL Edit]**&#x200B;圖示以編輯此對應。
 
-   * 使用&#x200B;**[!UICONTROL Delete]**&#x200B;圖示刪除表格對應。
+  * 使用&#x200B;**[!UICONTROL Delete]**&#x200B;圖示刪除表格對應。
 
-   * 按一下&#x200B;**[!UICONTROL Replay Data]**&#x200B;圖示以重新同步Microsoft Dynamics 365表格中的所有資料。 通常整合應用程式只會同步處理最近變更的Microsoft Dynamics 365資料。  但是，在某些情況下（例如您進行了變更或犯了錯誤），您可能希望重新同步所有資料。  在這些情況下，您可以按一下此按鈕，當您下次停止/啟動&#x200B;**[!UICONTROL Microsoft Dynamics 365 to Campaign]**&#x200B;工作流程時，您的資料就會開始同步。
+  * 按一下&#x200B;**[!UICONTROL Replay Data]**&#x200B;圖示以重新同步Microsoft Dynamics 365表格中的所有資料。 通常整合應用程式只會同步處理最近變更的Microsoft Dynamics 365資料。  但是，在某些情況下（例如您進行了變更或犯了錯誤），您可能希望重新同步所有資料。  在這些情況下，您可以按一下此按鈕，當您下次停止/啟動&#x200B;**[!UICONTROL Microsoft Dynamics 365 to Campaign]**&#x200B;工作流程時，您的資料就會開始同步。
 
-     如果您按一下「**[!UICONTROL Replay Data]**」按鈕且檢查成功，圖示將會停用：表示此資料表對應配對的資料將會在下次執行&#x200B;**[!UICONTROL Microsoft Dynamics 365 to Campaign]**&#x200B;工作流程時重新同步。
+    如果您按一下「**[!UICONTROL Replay Data]**」按鈕且檢查成功，圖示將會停用：表示此資料表對應配對的資料將會在下次執行&#x200B;**[!UICONTROL Microsoft Dynamics 365 to Campaign]**&#x200B;工作流程時重新同步。
 
-     當下列情況為真時，您無法選取重新執行資料：
+    當下列情況為真時，您無法選取重新執行資料：
 
-      * 如果與&#x200B;**[!UICONTROL Microsoft Dynamics 365 to Campaign]**&#x200B;工作流程相關聯的待處理專案量度中有2,000,000 （或更多）個專案（顯示在&#x200B;**[!UICONTROL Workflows]**&#x200B;頁面中）
-      * 如果Microsoft Dynamics 365表格中有2,000,000筆或以上的記錄
+    * 如果與&#x200B;**[!UICONTROL Microsoft Dynamics 365 to Campaign]**&#x200B;工作流程相關聯的待處理專案量度中有2,000,000 （或更多）個專案（顯示在&#x200B;**[!UICONTROL Workflows]**&#x200B;頁面中）
+    * 如果Microsoft Dynamics 365表格中有2,000,000筆或以上的記錄
 
-     需要重新同步處理的記錄數量不一。 如果您有大量記錄，則可能需要一些時間來完成同步化程式。 當整合應用程式運作以完成同步程式時，請參考&#x200B;**[!UICONTROL Workflows]**&#x200B;頁面中的&#x200B;**[!UICONTROL Backlog]**&#x200B;量度。
+    需要重新同步處理的記錄數量不一。 如果您有大量記錄，則可能需要一些時間來完成同步化程式。 當整合應用程式運作以完成同步程式時，請參考&#x200B;**[!UICONTROL Workflows]**&#x200B;頁面中的&#x200B;**[!UICONTROL Backlog]**&#x200B;量度。
 
-     >[!IMPORTANT]
-     >
-     > 強烈建議您在發佈變更至Adobe Campaign Standard或Microsoft Dynamics 365時停止整合工作流程。 適用的變更包括：更新整合目前使用的資源/實體（及其相關欄位）、連結、識別碼欄等。
-     >
+    >[!IMPORTANT]
+    >
+    > 強烈建議您在發佈變更至Adobe Campaign Standard或Microsoft Dynamics 365時停止整合工作流程。 適用的變更包括：更新整合目前使用的資源/實體（及其相關欄位）、連結、識別碼欄等。
+    >
 
 ## 建立新對應 {#add-a-new-mapping}
 

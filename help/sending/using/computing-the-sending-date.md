@@ -8,24 +8,34 @@ feature: Performance Monitoring
 role: User
 level: Intermediate
 exl-id: 7a0cd10a-24e6-44d1-842c-2067bfbac838
-TQID: https://experienceleague.adobe.com/p90XYfq1xHy3wLT6XX8itIHZer0Ix3FS6aq2r2u2HhI
+TQID: 'https://experienceleague.adobe.com/p90XYfq1xHy3wLT6XX8itIHZer0Ix3FS6aq2r2u2HhI'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
+    internal-label: Performance Monitoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Optimization
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1051
+source-wordcount: '1072'
 ht-degree: 2%
-
 ---
-
 # 計算傳送日期{#computing-the-sending-date}
 
 您可以定義公式，以在特定日期和時間將訊息傳送給每位收件者。
@@ -60,9 +70,9 @@ ht-degree: 2%
 
      針對剩餘的區段，定義後續的批次，如下所示：
 
-      * **2017-06-03 10:00:00+01**
-      * **2017-06-04 10:00:00+01**
-      * **2017-06-05 10:00:00+01**
+     * **2017-06-03 10:00:00+01**
+     * **2017-06-04 10:00:00+01**
+     * **2017-06-05 10:00:00+01**
 
    * 請務必選取&#x200B;**[!UICONTROL Limit the population of this segment]**&#x200B;選項。
 
@@ -128,10 +138,10 @@ ht-degree: 2%
 
    * 依下列方式定義區段代碼：
 
-      * 上午8:00 — 上午10:00： **0**。 訊息將於上午8:00 （聯絡日期）傳送到目標母體的第一季。
-      * 上午10:00 — 下午12:00： **2**。 訊息將於上午10:00 （聯絡日期+ 2小時）傳送到目標母體的第二季。
-      * 下午2:00 — 下午4:00： **6**。 呼叫中心在下午12:00點至下午2:00點之間關閉，訊息將會在下午2:00點傳送給第三季的目標母體（聯絡日期+ 6小時）。
-      * 下午4:00 - 6:00下午： **8**。 訊息將於下午4:00 （聯絡日期+ 8小時）傳送到目標人口的最後一個季度。
+     * 上午8:00 - 10:00： **0**。 此訊息將於上午8:00 （聯絡日期）傳送給目標母體的第一季。
+     * 上午10:00 — 下午12:00： **2**。 此訊息將於上午10:00 （聯絡日期+ 2小時）傳送給目標人口的第二季。
+     * 下午2:00 — 下午4:00： **6**。 呼叫中心在下午12:00到下午2:00之間關閉，訊息將在下午2:00 （聯絡日期+ 6小時）傳送給目標人口的第三季。
+     * 下午4:00 — 下午6:00： **8**。 訊息將於下午4:00 （聯絡日期+ 8小時）傳送至目標人口的最後一季。
 
      >[!NOTE]
      >

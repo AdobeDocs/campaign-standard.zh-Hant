@@ -10,20 +10,29 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 3761ee4a-1ce5-4f9e-b2a5-84388b6b9db8
-TQID: https://experienceleague.adobe.com/0JaRwv07dtCgzlGeRxr-AnLlPzvWUpH2zxS-Nzk1hVw
+TQID: 'https://experienceleague.adobe.com/0JaRwv07dtCgzlGeRxr-AnLlPzvWUpH2zxS-Nzk1hVw'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Intermediate
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 886
+source-wordcount: '886'
 ht-degree: 79%
-
 ---
-
 # 細分{#segmentation}
 
 ## 說明 {#description}
@@ -104,8 +113,8 @@ ht-degree: 79%
 1. 如有需要，在 **[!UICONTROL Advanced options]** 索引標籤中編輯參數：
 
    * **[!UICONTROL Enable overlapping of outbound populations]**&#x200B;選項會定義如何管理屬於數個區段的設定檔：
-      * 未啟用選項時，**[!UICONTROL Segmentation]**&#x200B;活動會檢查設定檔是否不存在於數個輸出轉變中，即使此設定檔符合數個子集的條件亦然。
-      * 啟用此選項後，如果設定檔符合篩選准則，則可在多個子集中找到設定檔。
+     * 未啟用選項時，**[!UICONTROL Segmentation]**&#x200B;活動會檢查設定檔是否不存在於數個輸出轉變中，即使此設定檔符合數個子集的條件亦然。
+     * 啟用此選項後，如果設定檔符合篩選准則，則可在多個子集中找到設定檔。
    * 如果入站母體已指派您要保留的區段代碼，請核取&#x200B;**[!UICONTROL Concatenate the code of each segment]**&#x200B;選項。 會將活動中指定的區段代碼新增至初始區段代碼。
    * 如果您需要利用剩餘母體，請核取&#x200B;**[!UICONTROL Generate complement]**&#x200B;選項。 請參閱[使用案例：建立具有補充](../../automating/using/workflow-created-query-with-complement.md)的傳遞。
 

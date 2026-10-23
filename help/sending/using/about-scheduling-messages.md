@@ -8,20 +8,26 @@ context-tags: delivery,schedule,back
 feature: Send Time Optimization
 role: User
 exl-id: 6b26615b-4aa6-401d-a12d-25cef4cd0524
-TQID: https://experienceleague.adobe.com/N0t5qvKiceoZEekhToXAk1PfNe1HE22vAaobLr32oME
+TQID: 'https://experienceleague.adobe.com/N0t5qvKiceoZEekhToXAk1PfNe1HE22vAaobLr32oME'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: 0d3d7867-163e-5570-9cfc-7132e55fb049
+    internal-label: Send Time Optimization
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Optimization
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 276
-ht-degree: 80%
-
+source-wordcount: '279'
+ht-degree: 79%
 ---
-
 # 關於排程訊息{#about-scheduling-messages}
 
 >[!IMPORTANT]
@@ -42,7 +48,7 @@ ht-degree: 80%
 
   您可以準備並確認傳送，但訊息只會從選取的日期和時間開始傳送。 準備和確認傳送會顯示在[準備傳送](../../sending/using/preparing-the-send.md)及[確認傳送](../../sending/using/confirming-the-send.md)區段。
 
-  **[!UICONTROL Time zone of the contact date]** 下拉式清單可讓您修改要考慮傳送時間的時區。 例如，如果您在&#x200B;**[!UICONTROL Start sending from]**&#x200B;欄位中輸入9:00 AM，並在&#x200B;**[!UICONTROL Time zone of the contact date]**&#x200B;下拉式清單中選取Brussels， Copenhagen， Madrid， Paris (GMT+1)，則所有收件者都會在巴黎時間上午9:00收到訊息。 因此，位於莫斯科的收件者(GMT+3)將於莫斯科時間上午11:00收到訊息。
+  **[!UICONTROL Time zone of the contact date]** 下拉式清單可讓您修改要考慮傳送時間的時區。 例如，如果您在&#x200B;**[!UICONTROL Start sending from]**&#x200B;欄位中輸入9:00 Am，而您在&#x200B;**[!UICONTROL Time zone of the contact date]**&#x200B;下拉式清單中選取Brussels， Copenhagen， Madrid， Paris (GMT+1)，則所有收件者都會在巴黎時間上午9:00收到訊息。 因此，位於莫斯科的收件者(GMT+3)將於莫斯科時間上午11:00收到訊息。
 
   如果您想要手動確認傳送，請核取 **[!UICONTROL Request confirmation before sending messages]** 選項。 依預設，會啟用此選項。
 

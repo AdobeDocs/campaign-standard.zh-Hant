@@ -9,13 +9,25 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: efbbd0cd-9c56-4ad0-8bcb-efba4b63c28b
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 5%
-
+source-wordcount: '497'
+ht-degree: 6%
 ---
-
 # 設定 API 存取 {#setting-up-api-access}
 
 Adobe Campaign Standard API存取權是透過下列步驟設定。 [Adobe Developer檔案](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)中會詳細說明這些步驟。
@@ -25,12 +37,12 @@ Adobe Campaign Standard API存取權是透過下列步驟設定。 [Adobe Develo
 >若要在[Adobe Developer](https://developer.adobe.com/)中管理憑證，請確定您對該組織具有&#x200B;**系統管理員**&#x200B;許可權，或在Admin Console中擁有[開發人員帳戶](https://helpx.adobe.com/tw/enterprise/using/manage-developers.html)。
 
 1. **檢查您是否有數位憑證**，或視需要建立一個憑證。 以下步驟需要憑證隨附的公開和私密金鑰。
-1. **在** Adobe Developer[中建立與Adobe Campaign服務的新整合](https://developer.adobe.com/)並加以設定。 接著會產生您的認證（API金鑰、使用者端密碼……）。
+1. **在[Adobe Developer](https://developer.adobe.com/)中建立與Adobe Campaign服務的新整合**&#x200B;並加以設定。 接著會產生您的認證（API金鑰、使用者端密碼……）。
 1. **從先前產生的認證建立JSON Web權杖(JWT)**，並使用您的私密金鑰簽署。 JWT會編碼Adobe驗證您的身分並授與您API存取權所需的所有身分和安全資訊。
 
    >[!IMPORTANT]
    >
-   >JWT (JSON Web 權杖) 目前正在折舊中，並即將由 OAuth 取代。此轉換將在Campaign即將發行的版本中逐步執行。 服務帳戶(JWT)憑證已標示為已棄用，並將繼續使用至2025年1月27日。 因此，您必須移轉應用程式或整合，才能在2025年1月27日之前使用新的OAuth伺服器對伺服器認證。 建議使用OAuth驗證。 您將在以下頁面上找到要從JWT驗證移轉至OAuth驗證的所有元素：
+   >JWT (JSON Web 權杖) 目前正在折舊中，並即將由 OAuth 取代。 此轉換將在Campaign即將發行的版本中逐步執行。 服務帳戶(JWT)憑證已標示為已棄用，並將繼續使用至2025年1月27日。 因此，您必須移轉應用程式或整合，才能在2025年1月27日之前使用新的OAuth伺服器對伺服器認證。 建議使用OAuth驗證。 您將在以下頁面上找到要從JWT驗證移轉至OAuth驗證的所有元素：
    >* [移轉](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)
    >* [實作](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)
    >* [棄用JWT常見問題集](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)
@@ -49,10 +61,10 @@ Adobe Campaign Standard API存取權是透過下列步驟設定。 [Adobe Develo
 
 * **&lt;組織>**：這是您的個人組織ID，Adobe會為您每個執行個體提供一個組織ID：
 
-   * &lt;組織> ：您的生產執行個體，
-   * &lt;ORGANIZATION-mkt-stage>：您的階段例項。
+  * &lt;組織> ：您的生產執行個體，
+  * &lt;ORGANIZATION-mkt-stage>：您的階段例項。
 
-  若要取得組織ID值，請洽詢您的管理員或Adobe技術連絡人。 您也可以在建立新整合時，在授權清單中將其擷取到Adobe I/O (請參閱<a href="https://developer.adobe.com/developer-console/docs/guides/authentication/">Adobe Developer檔案</a>)。
+  若要取得組織ID值，請洽詢您的管理員或Adobe技術連絡人。 您也可以在建立新整合時，在授權清單中將其擷取到Adobe I/O （請參閱<a href="https://developer.adobe.com/developer-console/docs/guides/authentication/">Adobe Developer檔案</a>）。
 
 * **&lt;ACCESS_TOKEN>**：您的個人存取權杖，這是透過POST要求交換您的JSON Web Token時擷取的。
 

@@ -8,29 +8,42 @@ feature: Proofs
 role: User
 level: Beginner
 exl-id: dc8bd1d3-e199-4901-9b1f-7b485879897d
-TQID: https://experienceleague.adobe.com/P2rZ9NJ2p1UsYgUHtLDpqTc3wiqc3Ac1Cyi1WvymVqc
+TQID: 'https://experienceleague.adobe.com/P2rZ9NJ2p1UsYgUHtLDpqTc3wiqc3Ac1Cyi1WvymVqc'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 subfeature_v2:
   - id: b5852c32-876b-41ae-92a7-9f588865ae52
+    internal-label: Best practices
   - id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63
+    internal-label: Application settings
+  - id: 458b98fa-9d41-55f3-9c8e-3aeb5c95457a
+    internal-label: Proofs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 2045
+source-wordcount: '2045'
 ht-degree: 3%
-
 ---
-
 # 發生故障時接收警示{#receiving-alerts-when-failures-happen}
 
 ## 關於傳送警報 {#about-delivery-alerting}
@@ -247,41 +260,41 @@ ht-degree: 3%
 
 * **[!UICONTROL Deliveries failed]**：此條件會通知您所有狀態錯誤的傳送。 原因可能是：
 
-   * 傳遞伺服器（MTA、郵件傳輸代理程式）發生問題
-   * Adobe Campaign傳遞伺服器與接收伺服器之間的連線逾時
-   * 傳遞能力問題
-   * 錯誤的工作流程
+  * 傳遞伺服器（MTA、郵件傳輸代理程式）發生問題
+  * Adobe Campaign傳遞伺服器與接收伺服器之間的連線逾時
+  * 傳遞能力問題
+  * 錯誤的工作流程
 
   如果透過工作流程觸發傳遞，請檢查工作流程是否已正確啟動。 如需詳細資訊，請參閱[執行工作流程](../../automating/using/about-workflow-execution.md)。 否則，請聯絡您的Adobe Campaign管理員以解決問題。
 
 * **[!UICONTROL Deliveries with preparation failed]**：傳送準備期間可能會發生錯誤，情況如下：
 
-   * 傳遞缺少主旨。
-   * 個人化欄位中有錯誤的語法。
-   * 目標遺失。
-   * 傳遞超過大小限制。
+  * 傳遞缺少主旨。
+  * 個人化欄位中有錯誤的語法。
+  * 目標遺失。
+  * 傳遞超過大小限制。
 
   如需詳細資訊，請參閱[準備傳送](../../sending/using/preparing-the-send.md)。 不過，這些錯誤通常會在訊息分析期間發現。 請參閱[控制項規則](../../sending/using/control-rules.md)。
 
 * **[!UICONTROL Delivery with bad error ratio for soft bounces]**&#x200B;警示的可能原因可能是：
 
-   * 收件者的伺服器已關閉。
-   * 收件者的信箱已滿。
+  * 收件者的伺服器已關閉。
+  * 收件者的信箱已滿。
 
   如需詳細資訊，請檢查傳遞記錄檔的&#x200B;**[!UICONTROL Exclusion logs]**&#x200B;和&#x200B;**[!UICONTROL Exclusion causes]**&#x200B;標籤。 請參閱[排除記錄檔](../../sending/using/monitoring-a-delivery.md#exclusion-logs)。
 
   **[!UICONTROL Delivery with bad error ratio for hard bounces]**&#x200B;警示的可能原因可能是：
 
-   * 收件者會新增至封鎖清單，表示他們不再想要連絡。
-   * 收件者的電子郵件地址不存在。
-   * 收件者的網域不存在。
-   * 收件者的伺服器正在封鎖傳遞。
+  * 收件者會新增至封鎖清單，表示他們不再想要連絡。
+  * 收件者的電子郵件地址不存在。
+  * 收件者的網域不存在。
+  * 收件者的伺服器正在封鎖傳遞。
 
   若要避免軟跳出和硬跳出錯誤，請遵循下列最佳實務：
 
-   * 建立篩選型別規則，以在傳遞分析期間排除訊息目標的一部分，例如隔離的收件者。 請參閱[建立篩選規則](../../sending/using/filtering-rules.md)。
-   * 定期更新客戶資料庫，以維持良好的隔離管理流程。 請參閱[關於隔離](../../sending/using/understanding-quarantine-management.md#about-quarantines)。
-   * 一般而言，儘可能改善傳遞能力。 請參閱Adobe Campaign [傳遞能力](../../sending/using/about-deliverability.md)詳細檔案，並聯絡Adobe Campaign管理員以尋求協助。
+  * 建立篩選型別規則，以在傳遞分析期間排除訊息目標的一部分，例如隔離的收件者。 請參閱[建立篩選規則](../../sending/using/filtering-rules.md)。
+  * 定期更新客戶資料庫，以維持良好的隔離管理流程。 請參閱[關於隔離](../../sending/using/understanding-quarantine-management.md#about-quarantines)。
+  * 一般而言，儘可能改善傳遞能力。 請參閱Adobe Campaign [傳遞能力](../../sending/using/about-deliverability.md)詳細檔案，並聯絡Adobe Campaign管理員以尋求協助。
 
 * **[!UICONTROL Deliveries with long start pending]**：這通常表示MTA （郵件傳輸代理程式）層級有問題。 執行程式正在等待某些資源的可用性。 MTA可能尚未啟動。
 

@@ -8,25 +8,36 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
-TQID: https://experienceleague.adobe.com/aLCKnFhj-MsnIUA0AQ-LcCAlcjqkCejKiosCGrtamJg
+TQID: 'https://experienceleague.adobe.com/aLCKnFhj-MsnIUA0AQ-LcCAlcjqkCejKiosCGrtamJg'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+  - id: a7760dfc-5c44-4d77-bb68-c50b1e265c93
+    internal-label: Security and privacy
+subfeature_v2:
+  - id: ac9c0a9c-8a76-4419-bd64-9c34c5782666
+    internal-label: Privacy
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Privacy
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1619
+source-wordcount: '1619'
 ht-degree: 100%
-
 ---
-
 # 管理隱私權請求 {#privacy-requests}
 
 如需隱私權管理的一般簡報，請參閱[本節](../../start/using/privacy-management.md)。
@@ -75,7 +86,7 @@ Adobe Campaign 提供資料控制方工具，可針對儲存在 Adobe Campaign �
 
    ![](assets/privacy-namespace-label.png)
 
-1. 如果您想使用現有的身分識別服務命名空間，請選擇 **[!UICONTROL Map from Identity Namespace Service]** 並從 **[!UICONTROL Identity Service Namespaces]** 清單選取命名空間。
+1. 如果您想使用現有的身份識別服務命名空間，請選擇 **[!UICONTROL Map from Identity Namespace Service]** 並從 **[!UICONTROL Identity Service Namespaces]** 清單選取命名空間。
 
    ![](assets/privacy-map-from-namespace.png)
 
@@ -255,6 +266,6 @@ Campaign 介面及 API 中可立即使用 **[!UICONTROL CCPA Opt-Out]** 欄位�
 
    ![](assets/privacy-ccpa-profile-configure-list.png)
 
-1. 您可以按一下該欄位，以依據選擇退出資訊來排序收件者。
+1. 您可以按一下該欄，以依據選擇退出資訊來排序收件者。
 
    ![](assets/privacy-ccpa-profile-sorting.png)

@@ -9,25 +9,33 @@ feature: Control Groups
 role: User
 level: Intermediate
 exl-id: 553897d4-2652-453f-960e-bb2993889f37
-TQID: https://experienceleague.adobe.com/JIR0DIeokRtjXbXBl8cHhhC2N9xnVypjNlVllHpQn14
+TQID: 'https://experienceleague.adobe.com/JIR0DIeokRtjXbXBl8cHhhC2N9xnVypjNlVllHpQn14'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: e9810a15-b7f9-542e-81ab-fba1bff301c3
+    internal-label: Control Groups
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Security
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1319
+source-wordcount: '1319'
 ht-degree: 95%
-
 ---
-
 # 新增控制組 {#adding-control-group}
 
 您可以使用控制組來避免傳送訊息給部分客群，以評估行銷活動的影響。
@@ -68,9 +76,9 @@ ht-degree: 95%
 
   例如：
 
-   * 選取 **[!UICONTROL Age]** 欄位作為排序標準。
-   * 在 **[!UICONTROL Limits]** 部分將 100 定義為臨界值（請參閱[大小限制](#size-limit)）。
-   * 保留 **[!UICONTROL Descending sort]** 選項為已核取狀態。
+  * 選取 **[!UICONTROL Age]** 欄位作為排序標準。
+  * 在 **[!UICONTROL Limits]** 部分將 100 定義為臨界值（請參閱[大小限制](#size-limit)）。
+  * 保留 **[!UICONTROL Descending sort]** 選項為已核取狀態。
 
   因此，控制組將由 100 個最舊的收件者組成。<!--Change screenshot to match example)-->
 
@@ -91,8 +99,8 @@ ht-degree: 95%
 * 選取 **[!UICONTROL Size (as a % of the initial population)]**，並填入對應的框架。
 
   例如，如果您設定 10，則根據以上所選取的選項，Adobe Campaign 會：
-   * 隨機擷取目標群體的 10%。
-   * 如果您選取 **[!UICONTROL Age]** 欄位作為排序標準，請從目標群體中擷取最舊 10% 的輪廓。
+  * 隨機擷取目標群體的 10%。
+  * 如果您選取 **[!UICONTROL Age]** 欄位作為排序標準，請從目標群體中擷取最舊 10% 的輪廓。
 
   >[!NOTE]
   >
@@ -101,8 +109,8 @@ ht-degree: 95%
 * 選取 **[!UICONTROL Maximum size]**，並填入對應的框架。
 
   例如，如果您設定 100，Adobe Campaign 將會：
-   * 從目標群體中隨機擷取 100 個輪廓。
-   * 如果您選取 **[!UICONTROL Age]** 欄位作為排序標準，則從目標群體中擷取 100 個最舊的輪廓。
+  * 從目標群體中隨機擷取 100 個輪廓。
+  * 如果您選取 **[!UICONTROL Age]** 欄位作為排序標準，則從目標群體中擷取 100 個最舊的輪廓。
 
   >[!NOTE]
   >

@@ -9,18 +9,33 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: 1df1552a-6578-47eb-ba14-fb91cd2a3999
-TQID: https://experienceleague.adobe.com/YcGzLBwTG-SMU3-NlrchozuqRtQ2EoNHKUaMDsVPf4I
+TQID: 'https://experienceleague.adobe.com/YcGzLBwTG-SMU3-NlrchozuqRtQ2EoNHKUaMDsVPf4I'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+  - id: a7760dfc-5c44-4d77-bb68-c50b1e265c93
+    internal-label: Security and privacy
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
+  - id: d0dbac2b-cbd2-42b3-956e-60af02966728
+    internal-label: Encryption
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 934
-ht-degree: 5%
-
+source-wordcount: '934'
+ht-degree: 7%
 ---
-
 # 管理已加密的資料 {#managing-encrypted-data}
 
 ## 關於前置處理階段 {#about-preprocessing-stages}
@@ -47,7 +62,7 @@ ht-degree: 5%
 * [載入檔案](../../automating/using/load-file.md)
 * [擷取檔案](../../automating/using/extract-file.md)
 
-## 使用案例：匯入使用控制面板產生的金鑰加密的資料 {#use-case-gpg-decrypt}
+## 使用案例：匯入使用「控制面板」產生的金鑰加密的資料 {#use-case-gpg-decrypt}
 
 在此使用案例中，建立工作流程，以匯入已在外部系統中加密的資料（使用在「控制面板」中產生的金鑰）。
 
@@ -91,7 +106,7 @@ ht-degree: 5%
 
 1. 您現在可以執行工作流程。
 
-## 使用案例：使用安裝於控制面板的金鑰加密及匯出資料 {#use-case-gpg-encrypt}
+## 使用案例：使用安裝於「控制面板」的金鑰加密和匯出資料 {#use-case-gpg-encrypt}
 
 在此使用案例中，建立工作流程，以使用安裝於控制面板的金鑰加密及匯出資料。
 

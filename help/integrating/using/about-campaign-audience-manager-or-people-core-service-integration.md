@@ -1,6 +1,6 @@
 ---
 title: 關於 Campaign-Audience Manager 或 People 核心服務整合
-description: 透過Audience Manager/People核心服務整合，您可以在不同的Adobe Experience Cloud解決方案中共用受眾或區段。
+description: 透過Audience Manager/People核心服務整合，您可以在不同的Adobe Experience Cloud解決方案中共用對象或區段。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
@@ -9,20 +9,29 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: e8b96c66-82f7-4adb-88b2-b7e0f7c4a96f
-TQID: https://experienceleague.adobe.com/3fzlYFnLX04veuXAXTrUz4jM-Q-P3d--eqyY9xrYiIc
+TQID: 'https://experienceleague.adobe.com/3fzlYFnLX04veuXAXTrUz4jM-Q-P3d--eqyY9xrYiIc'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
+    internal-label: Triggers
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Intermediate
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 520
+source-wordcount: '520'
 ht-degree: 22%
-
 ---
-
 # 關於 Campaign-Audience Manager 或 People 核心服務整合{#about-campaign-audience-manager-or-people-core-service-integration}
 
 >[!CAUTION]
@@ -38,8 +47,8 @@ Adobe Campaign可讓您與不同的Adobe Experience Cloud應用程式交換和�
 
 * **訪客ID**：此型別的ID可讓您調解Adobe Experience Cloud訪客與Adobe Campaign設定檔。 透過Adobe IMS啟用連線後，Marketing Cloud訪客ID服務就會立即啟動，取代Adobe Campaign使用的永久Cookie。 這可讓您識別訪客，然後將其連結至設定檔。
   <br>訪客ID只要在透過Adobe Campaign傳送的電子郵件中按一下，就會連結至設定檔：
-   * 如果設定檔已有訪客ID，設定檔的瀏覽器資料可讓Adobe Campaign復原，並自動將設定檔連結至訪客ID。
-   * 若找不到訪客ID，則會建立新的ID。 此訪客ID會儲存在設定檔追蹤記錄中。
+  * 如果設定檔已有訪客ID，設定檔的瀏覽器資料可讓Adobe Campaign復原，並自動將設定檔連結至訪客ID。
+  * 若找不到訪客ID，則會建立新的ID。 此訪客ID會儲存在設定檔追蹤記錄中。
 
   之後，具有相同CNAME的其他Adobe Marketing Cloud應用程式將會識別該ID。
 

@@ -6,29 +6,37 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: 67282d21-b4ed-4af5-b751-848a6d705118
-TQID: https://experienceleague.adobe.com/C5r-qK6kpvssv6eFdJNuOw61OXFapg8L8hrlxyb0vcA
+TQID: 'https://experienceleague.adobe.com/C5r-qK6kpvssv6eFdJNuOw61OXFapg8L8hrlxyb0vcA'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Privacy
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 147
-ht-degree: 4%
-
+source-wordcount: '160'
+ht-degree: 12%
 ---
-
 # 與行銷歷史記錄互動{#interacting-with-marketing-history}
 
 **history**&#x200B;端點可讓您與設定檔的行銷歷史記錄互動。
 舉例來說，如此一來，您便可輕鬆擷取傳送至設定檔之傳送的映象頁面。 要執行此操作，請遵循下列步驟：
 
-1. 使用&#x200B;**history**&#x200B;端點及設定檔的主要金鑰執行GET。
+1. 使用&#x200B;**history**&#x200B;端點及設定檔的主索引鍵執行GET。
 1. 對傳回的&#x200B;**事件** href執行GET要求。
 1. 它會傳回設定檔的事件清單，其中包含在&#x200B;**mirrorPage**&#x200B;節點中映象頁面的連結。
 
@@ -36,7 +44,7 @@ ht-degree: 4%
 
 ***範例要求***
 
-使用GET請求擷取設定檔的行銷記錄。
+使用GET要求擷取設定檔的行銷記錄。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/history/"<PKEY>" \

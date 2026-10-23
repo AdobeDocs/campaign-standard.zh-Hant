@@ -9,22 +9,32 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
-TQID: https://experienceleague.adobe.com/PQ8Xf9wScBLj1ooFZW5fe-LOzhZy3jeq8pajISxQcK8
+TQID: 'https://experienceleague.adobe.com/PQ8Xf9wScBLj1ooFZW5fe-LOzhZy3jeq8pajISxQcK8'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
+    internal-label: Triggers
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 845
+source-wordcount: '845'
 ht-degree: 6%
-
 ---
-
 # 在 Experience Cloud 中設定觸發程式{#configuring-triggers-in-experience-cloud}
 
 ## 啟動功能 {#activating-the-functionality}
@@ -63,11 +73,11 @@ Adobe團隊需要下列資訊才能啟用觸發程式：
 >
 >子網域設定是傳遞能力關鍵元素。 請確定Adobe Campaign電子郵件是從網站使用的相同網域傳送的。
 
-您必須設定[Experience Cloud DTM核心服務](#configuring-experience-cloud-dtm-core-service)、[Experience Cloud People核心服務](#configuring-experience-cloud-people-core-service)和[Campaign](#configuring-triggers-and-aliases-in-campaign)，才能執行這些使用案例。
+您必須設定[Experience Cloud DTM核心服務](#configuring-experience-cloud-dtm-core-service)、[Experience Cloud人員核心服務](#configuring-experience-cloud-people-core-service)和[Campaign](#configuring-triggers-and-aliases-in-campaign)，才能執行這些使用案例。
 
 ### 設定Experience Cloud DTM核心服務 {#configuring-experience-cloud-dtm-core-service}
 
-1. 在Experience Cloud DTM核心服務（動態Tag Management）中，針對您的網站頁面啟動Experience Cloud ID和Adobe Analytics。
+1. 在Experience Cloud DTM核心服務(Dynamic Tag Management)中，針對您的網站頁面啟動Experience Cloud ID和Adobe Analytics。
 
    ![](assets/trigger_uc_conf_1.png)
 
@@ -91,7 +101,7 @@ Adobe團隊需要下列資訊才能啟用觸發程式：
 
    ![](assets/remarketing_1.png)
 
-1. 別名可讓Analytics中的聯絡人與Campaign中的設定檔進行調解。 您需要將Experience Cloud ID服務中定義的別名與Campaign中的共用資料Source比對。 您必須透過資料來源( **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Shared Data Sources]** )在Adobe Campaign中設定別名解析。 請務必在「**[!UICONTROL Data Source/Alias]**」下拉式選單中選擇正確的資料來源，此資料來源已對應至上一步驟中建立的相同客戶屬性資料來源。
+1. 別名可讓Analytics中的聯絡人與Campaign中的設定檔進行調解。 您需要將Experience Cloud ID服務中定義的別名與Campaign中的共用資料Source配對。 您必須透過資料來源( **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Shared Data Sources]** )在Adobe Campaign中設定別名解析。 請務必在「**[!UICONTROL Data Source/Alias]**」下拉式選單中選擇正確的資料來源，此資料來源已對應至上一步驟中建立的相同客戶屬性資料來源。
 
    ![](assets/trigger_uc_conf_5.png)
 

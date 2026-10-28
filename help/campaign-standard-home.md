@@ -35,9 +35,9 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
 source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '584'
-ht-degree: 95%
+ht-degree: 100%
 ---
 # Adobe Campaign Standard 文件 {#campaign-standard-documentation}
 
@@ -132,10 +132,10 @@ ht-degree: 95%
 ## 額外資源
 
 <table style="table-layout:fixed"><tr style="border: 0;">
-<td><strong>有用的頁面</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant" target="_blank">教學課程</a> - <a href="https://helpx.adobe.com/tw/legal/product-descriptions/campaign-standard.html" target="_blank">產品說明</a> - <a href="rn/using/deprecated-features.md">已過時和移除的功能</a> - <a href="rn/using/release-planning.md">發行計畫</a> - <a href="administration/using/cnil-pixel-tracking.md">CNIL電子郵件追蹤畫素指南</a>
+<td><strong>實用頁面</strong><br/>
+<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant" target="_blank">教學課程</a> - <a href="https://helpx.adobe.com/tw/legal/product-descriptions/campaign-standard.html" target="_blank">產品說明</a> - <a href="rn/using/deprecated-features.md">已過時和已移除功能</a> - <a href="rn/using/release-planning.md">版本規劃</a> - <a href="administration/using/cnil-pixel-tracking.md">關於電子郵件追蹤像素的 CNIL 指引</a>
 </td>
 <td><strong>技術資源</strong><br/>
-<a href="integrating/using/about-adobe-experience-cloud-triggers.md">Experience Cloud觸發器</a> - <a href="api/using/get-started-apis.md">Campaign API</a> - <a href="https://helpx.adobe.com/tw/campaign/kb/acs-article-list.html" target="blank">技術說明</a> - <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hant" target="_blank">控制面板檔案</a>
+<a href="integrating/using/about-adobe-experience-cloud-triggers.md">Experience Cloud 觸發程序</a> - <a href="api/using/get-started-apis.md">Campaign API</a> - <a href="https://helpx.adobe.com/tw/campaign/kb/acs-article-list.html" target="blank">技術說明</a> - <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hant" target="_blank">控制面板文件</a>
 </td>
 </tr></table>

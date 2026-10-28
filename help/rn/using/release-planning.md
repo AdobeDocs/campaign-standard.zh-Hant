@@ -27,9 +27,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
 source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '417'
-ht-degree: 94%
+ht-degree: 100%
 ---
 # 發行規劃 {#release-planning}
 
@@ -39,13 +39,13 @@ Adobe 透過新增新功能、增強功能和修正不斷改進其解決方案�
 
 升級分兩個階段部署。 首先，Stage 執行個體已升級，可讓您測試新功能並視需要調整其設定。 隨後將升級生產執行個體。
 
-所有發行日期皆可能變更：請定期造訪本頁面，以檢查更新。 環境更新會分批次進行。 已透過電子郵件向每位客戶傳達確切日期。
+所有發行日期皆可能變更：請定期造訪本頁面，以檢查更新。 環境更新會分批進行。已透過電子郵件向每位客戶傳達確切日期。
 
 ## 版本 26.3 {#release-26-3-release}
 
 當開始升級中繼環境時，[發行說明](release-notes.md)中提供了關於此版本的詳細資訊。
 
-26.3版的升級日期尚未公佈。 請定期造訪此頁面，以檢查更新。
+版本 26.3 的升級日期尚未公布。請定期造訪本頁面，以檢查更新。
 
 ## 問答集 {#questions-and-answers}
 

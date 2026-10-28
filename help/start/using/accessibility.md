@@ -27,9 +27,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
     internal-label: Accessibility
 source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '663'
-ht-degree: 95%
+ht-degree: 100%
 ---
 # Adobe Campaign Standard 中的協助工具 {#accessibility-acs}
 
@@ -45,11 +45,11 @@ Adobe Campaign Standard 提供多種功能，讓您能更輕鬆使用對比、�
 
 Adobe Campaign Standard 使用者介面致力於在應用程式中提供足夠的對比功能，以確保為視力不足或色彩缺乏的使用者提供可存取的檢視體驗。
 
-* 大型文字和標題已增強，以符合3:1的對比率。
+* 大型文字與標題已增強，以符合 3:1 的對比率。
 
   ![](assets/accessibility_2.png)
 
-* 應用程式中的說明內容和內文已更新，以符合4.5:1的對比率。
+* 應用程式中的說明內容和內文已更新，以符合 4.5:1 的對比率。
 
 * 工作流程的暫停和取消圖示已更新為改善背景和前景顏色之間的對比。
 

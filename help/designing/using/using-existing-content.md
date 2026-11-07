@@ -127,7 +127,7 @@ zip檔案結構沒有限制。 不過，參考HTML檔案必須是相對的，並
 
 在影片中探索此功能。
 
->[!VIDEO](https://video.tv.adobe.com/v/25926?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3507643?captions=chi_hant&quality=12)
 
 [此處](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant)提供其他Campaign Standard操作說明影片。
 
